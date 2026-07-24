@@ -38,6 +38,9 @@
   .hero h2{font-size:clamp(26px,4vw,40px);margin:0 0 14px;line-height:1.15;max-width:16ch}
   .hero p.lead{font-size:18px;max-width:60ch;opacity:.95}
   .flags{font-size:22px;letter-spacing:3px;margin:10px 0 22px}
+  .flags .flag{cursor:pointer;display:inline-block;transition:transform .12s;border-radius:6px;padding:2px 4px}
+  .flags .flag:hover{transform:translateY(-2px) scale(1.12);background:rgba(255,255,255,.12)}
+  .flags .flaghint{font-family:'Helvetica Neue',Arial,sans-serif;font-size:12px;letter-spacing:.3px;opacity:.8;margin-left:6px}
   .cta-row{display:flex;gap:12px;flex-wrap:wrap;margin-top:8px}
   .btn{font-family:'Helvetica Neue',Arial,sans-serif;font-weight:600;font-size:15px;padding:12px 20px;border-radius:8px;display:inline-block;border:2px solid transparent;cursor:pointer}
   .btn-gold{background:var(--gold);color:#231a06}
@@ -143,7 +146,13 @@
   <div class="wrap">
     <h2>What today's news means for East African hotels, lodges &amp; resorts.</h2>
     <p class="lead">Three briefs a day for property owners in Kenya, Uganda, Tanzania, Zanzibar and Rwanda — travel advisories, demand patterns and market moves, each with a clear "so what" for your business.</p>
-    <div class="flags">🇰🇪 🇺🇬 🇹🇿 🇷🇼</div>
+    <div class="flags">
+      <span class="flag" title="Kenya insights" onclick="showCountry('KE')">🇰🇪</span>
+      <span class="flag" title="Uganda insights" onclick="showCountry('UG')">🇺🇬</span>
+      <span class="flag" title="Tanzania &amp; Zanzibar insights" onclick="showCountry('TZ')">🇹🇿</span>
+      <span class="flag" title="Rwanda insights" onclick="showCountry('RW')">🇷🇼</span>
+      <span class="flaghint">← tap a flag for country insights</span>
+    </div>
     <div class="cta-row">
       <a class="btn btn-gold" href="#subscribe">Get the daily brief →</a>
       <a class="btn btn-ghost" href="#archive">Read the archive</a>
@@ -227,6 +236,8 @@
   const editions = window.EDITIONS || [];
   const insights = window.INSIGHTS || [];
   const SEG = {city:'City hotels', bush:'Bush & safari', beach:'Beach & coast'};
+  const SEGSHORT = {city:'City', bush:'Bush', beach:'Beach'};
+  const COUNTRY = {KE:'Kenya', UG:'Uganda', TZ:'Tanzania & Zanzibar', RW:'Rwanda'};
   const cardsEl = document.getElementById('cards');
   const emptyEl = document.getElementById('empty');
   const search = document.getElementById('search');
@@ -241,76 +252,77 @@
 
   const PAGE = 6;
   let shown = PAGE;
-  let mode = 'editions';   // 'editions' or a segment key: 'city' | 'bush' | 'beach'
+  let mode = 'editions';   // 'editions' | segKey | 'CTRY:XX'
 
-  function q(){ return search.value.trim().toLowerCase(); }
-
-  function filteredEditions(){
-    const f = filter.value;
-    return editions.filter(e=>{
-      const matchF = !f || e.editionKey===f;
-      const hay = (e.summary+' '+e.bodyHtml+' '+e.edition+' '+e.dateDisplay).toLowerCase();
-      return matchF && (!q() || hay.includes(q()));
-    });
-  }
-  function filteredInsights(seg){
-    return insights.filter(i=>{
-      const matchS = i.segments.includes(seg);
-      const hay = (i.headline+' '+i.body+' '+i.sowhat+' '+i.countries+' '+i.dateDisplay).toLowerCase();
-      return matchS && (!q() || hay.includes(q()));
-    });
-  }
-
+  function qv(){ return search.value.trim().toLowerCase(); }
+  function matchQ(hay){ const q=qv(); return !q || hay.toLowerCase().includes(q); }
   function editionById(id){ return editions.find(e=>e.id===id); }
+
+  function insightMatchCountry(i, code){
+    const c = i.countries || '';
+    if(/regional/i.test(c)) return true;                 // pan-regional items relevant to all
+    if(code==='TZ') return /\b(TZ|ZNZ)\b/.test(c);       // Tanzania flag includes Zanzibar
+    return new RegExp('\\b'+code+'\\b').test(c);
+  }
+  function segLabel(i){ return i.segments.map(x=>SEGSHORT[x]).join('/'); }
+
+  function editionCard(e){
+    const c=document.createElement('div'); c.className='card';
+    const fore = e.editionKey==='foresight'?' foresight':'';
+    c.innerHTML='<span class="badge'+fore+'">'+e.edition+'</span>'+
+      '<time>'+e.dateDisplay+'</time>'+
+      '<h3>'+e.summary.split(".")[0].slice(0,90)+'.</h3>'+
+      '<p>'+e.summary.slice(0,150)+'…</p>'+
+      '<span class="read">Read edition →</span>';
+    c.onclick=()=>openEdition(e); return c;
+  }
+  function insightCard(i, segClass){
+    const c=document.createElement('div'); c.className='insight'+(segClass?(' '+segClass):'');
+    const sw = i.sowhat ? '<div class="isw">'+i.sowhat+'</div>' : '';
+    c.innerHTML='<div class="imeta"><span>'+i.dateDisplay+'</span><span>· '+i.edition+'</span>'+
+      '<span>· '+segLabel(i)+'</span>'+
+      (i.countries?'<span>· '+i.countries+'</span>':'')+
+      (i.confidence?'<span class="conf">· '+i.confidence+'</span>':'')+'</div>'+
+      '<h3>'+i.headline+'</h3>'+ (i.body?'<p>'+i.body.slice(0,220)+(i.body.length>220?'…':'')+'</p>':'')+
+      sw + '<span class="open">Open full edition →</span>';
+    c.onclick=()=>{ const e=editionById(i.source); if(e) openEdition(e); };
+    return c;
+  }
 
   function render(){
     if(mode==='editions'){
       titleEl.textContent='The Pulse archive';
       kickerEl.textContent='Every edition, archived';
-      backEl.style.display='none';
-      filter.style.display='';
+      backEl.style.display='none'; filter.style.display='';
       search.placeholder='Search editions — e.g. Zanzibar, park fees, RevPAR…';
-      const all = filteredEditions();
-      const list = all.slice(0, shown);
-      cardsEl.innerHTML='';
-      emptyEl.style.display = all.length? 'none':'block';
-      countEl.textContent = all.length? ('Showing '+list.length+' of '+all.length+' edition'+(all.length===1?'':'s')):'';
-      loadBtn.style.display = all.length>shown ? 'inline-block':'none';
-      list.forEach(e=>{
-        const c=document.createElement('div'); c.className='card';
-        const fore = e.editionKey==='foresight'?' foresight':'';
-        c.innerHTML='<span class="badge'+fore+'">'+e.edition+'</span>'+
-          '<time>'+e.dateDisplay+'</time>'+
-          '<h3>'+e.summary.split(".")[0].slice(0,90)+'.</h3>'+
-          '<p>'+e.summary.slice(0,150)+'…</p>'+
-          '<span class="read">Read edition →</span>';
-        c.onclick=()=>openEdition(e); cardsEl.appendChild(c);
-      });
-    } else {
-      const seg=mode;
-      titleEl.textContent=SEG[seg]+' insights';
-      kickerEl.textContent='Segment-specific intelligence';
-      backEl.style.display='inline';
-      filter.style.display='none';
-      search.placeholder='Search '+SEG[seg]+' insights…';
-      const all = filteredInsights(seg);
-      const list = all.slice(0, shown);
-      cardsEl.innerHTML='';
-      emptyEl.style.display = all.length? 'none':'block';
-      countEl.textContent = all.length? ('Showing '+list.length+' of '+all.length+' '+SEG[seg]+' insight'+(all.length===1?'':'s')):'';
-      loadBtn.style.display = all.length>shown ? 'inline-block':'none';
-      list.forEach(i=>{
-        const c=document.createElement('div'); c.className='insight '+seg;
-        const sw = i.sowhat ? '<div class="isw">'+i.sowhat+'</div>' : '';
-        c.innerHTML='<div class="imeta"><span>'+i.dateDisplay+'</span><span>· '+i.edition+'</span>'+
-          (i.countries?'<span>· '+i.countries+'</span>':'')+
-          (i.confidence?'<span class="conf">· '+i.confidence+'</span>':'')+'</div>'+
-          '<h3>'+i.headline+'</h3>'+ (i.body?'<p>'+i.body.slice(0,220)+(i.body.length>220?'…':'')+'</p>':'')+
-          sw + '<span class="open">Open full edition →</span>';
-        c.onclick=()=>{ const e=editionById(i.source); if(e) openEdition(e); };
-        cardsEl.appendChild(c);
-      });
+      const f=filter.value;
+      const all=editions.filter(e=>(!f||e.editionKey===f) && matchQ(e.summary+' '+e.bodyHtml+' '+e.edition+' '+e.dateDisplay));
+      const list=all.slice(0,shown);
+      cardsEl.innerHTML=''; emptyEl.style.display=all.length?'none':'block';
+      countEl.textContent=all.length?('Showing '+list.length+' of '+all.length+' edition'+(all.length===1?'':'s')):'';
+      loadBtn.style.display=all.length>shown?'inline-block':'none';
+      list.forEach(e=>cardsEl.appendChild(editionCard(e)));
+      return;
     }
+    backEl.style.display='inline'; filter.style.display='none';
+    let all, title, kicker, unit, segClass='';
+    if(SEG[mode]){
+      segClass=mode;
+      all=insights.filter(i=>i.segments.includes(mode) && matchQ(i.headline+' '+i.body+' '+i.sowhat+' '+i.countries+' '+i.dateDisplay));
+      title=SEG[mode]+' insights'; kicker='Segment-specific intelligence'; unit=SEG[mode]+' insight';
+      search.placeholder='Search '+SEG[mode]+' insights…';
+    } else {
+      const code=mode.slice(5);
+      all=insights.filter(i=>insightMatchCountry(i,code) && matchQ(i.headline+' '+i.body+' '+i.sowhat+' '+i.countries+' '+i.dateDisplay));
+      title=COUNTRY[code]+' insights'; kicker='Country-specific intelligence'; unit=COUNTRY[code]+' insight';
+      search.placeholder='Search '+COUNTRY[code]+' insights…';
+    }
+    const list=all.slice(0,shown);
+    cardsEl.innerHTML=''; emptyEl.style.display=all.length?'none':'block';
+    titleEl.textContent=title; kickerEl.textContent=kicker;
+    countEl.textContent=all.length?('Showing '+list.length+' of '+all.length+' '+unit+(all.length===1?'':'s')):'';
+    loadBtn.style.display=all.length>shown?'inline-block':'none';
+    list.forEach(i=>cardsEl.appendChild(insightCard(i,segClass)));
   }
 
   function openEdition(e){
@@ -319,9 +331,11 @@
     document.getElementById('r-body').innerHTML=e.bodyHtml;
     overlay.classList.add('open');
   }
-  function closeReader(){overlay.classList.remove('open');}
+  function closeReader(){ overlay.classList.remove('open'); }
 
   window.showSegment=function(seg){ mode=seg; shown=PAGE; search.value=''; render();
+    document.getElementById('archive').scrollIntoView({behavior:'smooth'}); };
+  window.showCountry=function(code){ mode='CTRY:'+code; shown=PAGE; search.value=''; render();
     document.getElementById('archive').scrollIntoView({behavior:'smooth'}); };
   window.showEditions=function(){ mode='editions'; shown=PAGE; search.value=''; render(); };
 
