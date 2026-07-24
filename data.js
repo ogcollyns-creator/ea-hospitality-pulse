@@ -45,4 +45,257 @@ window.EDITIONS = [
   "bodyHtml": "<p><span class=\"meta-line\">🏨 EA HOSPITALITY PULSE — Evening Wrap</span><br><span class=\"meta-line\">📅 Friday, 24 July 2026 | 🇺🇬🇷🇼🇰🇪🇹🇿</span></p>\n<p>The US has moved Uganda to &quot;do not travel&quot;. Tonight&#x27;s wrap is about what advisory shocks do to booking curves — and what to do in the first 72 hours.</p>\n<p>━━━━━━━━━<br><span class=\"item-head\">1️⃣ US PUTS UGANDA AT LEVEL 4, RWANDA AT LEVEL 3</span><br>The State Department now urges Americans not to travel to Uganda and to reconsider Rwanda, citing the Ebola Bundibugyo outbreak in the region (travel.state.gov). The CDC has barred US-bound boarding for anyone who was in DRC within 21 days, and South Africa has introduced health forms for arrivals from affected countries (per Tourism Update). Expect North American cancellations and insurer exclusions first; gorilla-trekking itineraries are most exposed, with Kampala and Kigali MICE next in line.<br><span class=\"sowhat\">🎯 So what: In the next 72 hours: audit Q3–Q4 US-market bookings, offer free date changes into 2027 before refund demands land, put your health protocols in writing to agents, and check FCDO and German AA positions tonight — advisory divergence is common and buys you nuance with European guests.</span><br><span class=\"tagline\">🏷 Bush + City | UG, RW (spillover KE/TZ) | Confirmed</span></p>\n<p><span class=\"item-head\">2️⃣ KENYA&#x27;S NEW FLIGHT TAXES ARE ALREADY COSTING BOOKINGS</span><br>Higher passenger service charges and aviation levies are feeding into fares, and operators report clients shortening stays and trimming budgets (per Tourism Update, quoting Private Safaris and HotelOnline). International visitor spend was roughly US$5bn in 2025 — the industry&#x27;s argument is that taxing the flight taxes the funnel.<br><span class=\"sowhat\">🎯 So what: Don&#x27;t absorb fare pain with room discounts. Defend rate and compete on length-of-stay value — third-night offers and full-board bundles beat cutting ADR.</span><br><span class=\"tagline\">🏷 City + Bush + Beach | KE | Reported</span></p>\n<p><span class=\"item-head\">3️⃣ NEW BRIDGE HALVES A SERENGETI TRANSFER ROUTE</span><br>Tourism Update reports (24 Jul) a new bridge cutting a key Serengeti transfer time in half — headline stage only, detail to follow. Shorter transfers lift guest satisfaction scores and open new two-park pairings.<br><span class=\"sowhat\">🎯 So what: TZ lodge owners: ask your DMCs this week whether revised routings change pickup economics for migration season.</span><br><span class=\"tagline\">🏷 Bush | TZ | Early signal</span><br>━━━━━━━━━</p>\n<p><span class=\"meta-line\">💬 What share of your 2026 book is North American? Reply and tell us.</span><br>— EA Hospitality Pulse | Daily intelligence for city, bush &amp; beach properties</p>"
  }
 ];
-window.BUILT_AT = "2026-07-24 20:21";
+window.INSIGHTS = [
+ {
+  "headline": "MOMBASA CLEARS 20,000 VISITORS IN A WEEK",
+  "body": "Tourism CS Rebecca Miano reports strong numbers across Kenya's major entry points this past week, with Mombasa leading at 20,000+ visitors — days after Rigathi Gachagua's remarks discouraging visitors drew a ministry warning that KSh1.7tn in tourism value is at stake (per The Star, Tuko).",
+  "sowhat": "🎯 So what: Coastal properties — hold rate through August. Don't let political noise talk you into discounting a peak season that is physically arriving at your door.",
+  "segments": [
+   "city",
+   "beach"
+  ],
+  "countries": "KE",
+  "confidence": "Reported",
+  "source": "pulse-2026-07-24-midday-2",
+  "date": "2026-07-24",
+  "dateDisplay": "Friday, 24 July 2026",
+  "edition": "Midday Pulse",
+  "editionKey": "midday"
+ },
+ {
+  "headline": "UGANDA STARTS 42-DAY EBOLA COUNTDOWN",
+  "body": "WHO confirms Uganda's last Ebola patient has been discharged, with no new confirmed cases since 21 June (20 cases, 2 deaths in total). If the 42-day countdown holds, the outbreak is formally declared over around end-August. The DRC outbreak next door continues, per UN News.",
+  "sowhat": "🎯 So what: UG operators — build recovery marketing now for the Sep–Dec gorilla and MICE window. The official all-clear is your cue to push long-window international bookings; brief your trade partners before it lands.",
+  "segments": [
+   "city",
+   "bush"
+  ],
+  "countries": "UG",
+  "confidence": "Confirmed",
+  "source": "pulse-2026-07-24-midday-2",
+  "date": "2026-07-24",
+  "dateDisplay": "Friday, 24 July 2026",
+  "edition": "Midday Pulse",
+  "editionKey": "midday"
+ },
+ {
+  "headline": "JW MARRIOTT OPENS SAFARI CAMP IN SOLIO",
+  "body": "Reservations are open for JW Marriott Mount Kenya Rhino Reserve Safari Camp in Solio Game Reserve, welcoming guests this month (per Hospitality Net). Branded competition in the Laikipia conservancy belt deepens.",
+  "sowhat": "🎯 So what: Laikipia and Mt Kenya lodges — benchmark your 2027 rate card against branded newcomers now, and sharpen the conservation story only independents can tell.",
+  "segments": [
+   "bush"
+  ],
+  "countries": "KE",
+  "confidence": "Confirmed",
+  "source": "pulse-2026-07-24-midday-2",
+  "date": "2026-07-24",
+  "dateDisplay": "Friday, 24 July 2026",
+  "edition": "Midday Pulse",
+  "editionKey": "midday"
+ },
+ {
+  "headline": "UK PULLS LAIKIPIA TRAINING EXERCISE OUT OF KENYA",
+  "body": "The UK has cancelled Exercise Haraka Storm, scheduled for Laikipia in September–November, after the required Kenyan licences \"have not been forthcoming\" — the training moves outside Kenya, though BATUK itself stays, per The Star. It lands days after Tourism PS Julius Bitok warned that alarmist security rhetoric puts a Sh1.7 trillion sector and nearly 2 million jobs at risk.",
+  "sowhat": "🎯 So what: Laikipia-area lodges and Nanyuki/Nairobi hotels carrying defence-linked block business should re-forecast Q4 group demand now and chase replacement corporate and MICE volume — don't discount leisure off the back of headlines.",
+  "segments": [
+   "city",
+   "bush"
+  ],
+  "countries": "KE",
+  "confidence": "Confirmed",
+  "source": "pulse-2026-07-24-midday",
+  "date": "2026-07-24",
+  "dateDisplay": "Friday, 24 July 2026",
+  "edition": "Midday Pulse",
+  "editionKey": "midday"
+ },
+ {
+  "headline": "MARRIOTT PARTNERS CATALONIA FOR ZANZIBAR ALL-INCLUSIVES",
+  "body": "Marriott International announced a tie-up with Spain's Catalonia Hotels & Resorts on 24 July to develop upscale all-inclusive resorts in Zanzibar, per Travel And Tour World — stacking onto the Ritz-Carlton Nungwi debut slated for late 2026. Zanzibar arrivals reached 917,167 in 2025, up roughly 24% on 2024.",
+  "sowhat": "🎯 So what: independent beach resorts should lock 2027 charter and tour-operator allocations before branded all-inclusive inventory resets rate benchmarks — and sharpen a differentiation story the brands can't copy (dhow, Stone Town, community access).",
+  "segments": [
+   "beach"
+  ],
+  "countries": "ZNZ",
+  "confidence": "Reported",
+  "source": "pulse-2026-07-24-midday",
+  "date": "2026-07-24",
+  "dateDisplay": "Friday, 24 July 2026",
+  "edition": "Midday Pulse",
+  "editionKey": "midday"
+ },
+ {
+  "headline": "UGANDA AIRLINES DEEPENS REGIONAL SCHEDULE",
+  "body": "Uganda Airlines' July 2026 schedule spans 14 destinations from Entebbe, with daily Nairobi rotations and three weekly Zanzibar flights, per KATA. Intra-EA connectivity keeps widening the regional corporate and leisure pool.",
+  "sowhat": "🎯 So what: Kampala city hotels should court transit corporate traffic; Zanzibar resorts should build UG-origin weekend packages around the 3x weekly rotation.",
+  "segments": [
+   "city",
+   "beach"
+  ],
+  "countries": "UG, ZNZ",
+  "confidence": "Reported",
+  "source": "pulse-2026-07-24-midday",
+  "date": "2026-07-24",
+  "dateDisplay": "Friday, 24 July 2026",
+  "edition": "Midday Pulse",
+  "editionKey": "midday"
+ },
+ {
+  "headline": "NAIROBI'S SUPPLY WAVE IS HERE",
+  "body": "W Hospitality Group counts ~20 branded hotels (3,650 rooms) in Nairobi's pipeline, with ~1,500 rooms opening in 2026 alone — after 2,000 rooms added since 2023 already knocked occupancy down nearly 10 points (per Tourism Update). Demand is diversifying (Middle East, Asia, regional), but supply is outrunning it.",
+  "sowhat": "🎯 So what: Don't rate-war the new entrants. Lock in corporate and MICE contracts for 2027 now, and differentiate on product — new supply hurts identical products most.",
+  "segments": [
+   "city"
+  ],
+  "countries": "KE",
+  "confidence": "Confirmed",
+  "source": "pulse-2026-07-24-inaugural",
+  "date": "2026-07-24",
+  "dateDisplay": "Friday, 24 July 2026",
+  "edition": "Inaugural Edition",
+  "editionKey": "inaugural"
+ },
+ {
+  "headline": "ZANZIBAR BREAKS 100K VISITORS A MONTH",
+  "body": "Arrivals topped 100,000 in January 2026 — up from 42,445 in Jan 2022 — and July 2025's 106,108 was +31% year-on-year (per Tanzania Monitor). Iberostar has just opened its first 5-star on Muyuni Beach. Note: inbound travel insurance from Zanzibar Insurance Corporation is now mandatory.",
+  "sowhat": "🎯 So what: Hold rate through peak — this demand supports it. Add the ZIC insurance requirement to pre-arrival comms today; a guest surprised at the airport is a bad review waiting.",
+  "segments": [
+   "beach"
+  ],
+  "countries": "ZNZ",
+  "confidence": "Confirmed",
+  "source": "pulse-2026-07-24-inaugural",
+  "date": "2026-07-24",
+  "dateDisplay": "Friday, 24 July 2026",
+  "edition": "Inaugural Edition",
+  "editionKey": "inaugural"
+ },
+ {
+  "headline": "RWANDA'S BIGGEST SOURCE MARKET IS NOW... DRC",
+  "body": "185,420 DRC visitors in H1 2026 — 12.5% of all arrivals — overtaking every other market (per Travel and Tour World / RDB data). Business, healthcare, trade and family travel, not just leisure.",
+  "sowhat": "🎯 So what: Kigali city hotels — build regional-traveller products: flexible rates, French-language service, healthcare-stay packages. This is a demand base advisories don't touch.",
+  "segments": [
+   "city"
+  ],
+  "countries": "RW",
+  "confidence": "Reported",
+  "source": "pulse-2026-07-24-inaugural",
+  "date": "2026-07-24",
+  "dateDisplay": "Friday, 24 July 2026",
+  "edition": "Inaugural Edition",
+  "editionKey": "inaugural"
+ },
+ {
+  "headline": "CONNECTIVITY QUIETLY REWIRING THE REGION",
+  "body": "Safarilink now flies Nairobi–Entebbe non-stop (since May); Flightlink is acquiring ATRs for Entebbe and Kigali routes; RwandAir's Kigali–Zanzibar is driving its 2026 growth (per Aviation Week, ch-aviation reports).",
+  "sowhat": "🎯 So what: Multi-country itineraries just got easier to sell. Bush and beach properties: pitch cross-border combos to your DMC partners for 2027 season.",
+  "segments": [
+   "city",
+   "bush",
+   "beach"
+  ],
+  "countries": "Regional",
+  "confidence": "Confirmed",
+  "source": "pulse-2026-07-24-inaugural",
+  "date": "2026-07-24",
+  "dateDisplay": "Friday, 24 July 2026",
+  "edition": "Inaugural Edition",
+  "editionKey": "inaugural"
+ },
+ {
+  "headline": "KENYA DEMAND HOLDS FIRM DESPITE POLITICAL NOISE",
+  "body": "Tourism CS Rebecca Miano confirmed today that Mombasa alone received 20,000+ visitors in the past week, with strong volumes across all major entry points — five days after former DP Rigathi Gachagua publicly urged tourists to stay away from Kenya until a change of government. Canada also issued a cautionary note on Kenya this week (per Tuko). The data says the market is shrugging: domestic, regional and international arrivals are landing ahead of the August high season.",
+  "sowhat": "🎯 So what: hold your peak-season rates — the demand is real. But treat this as your first taste of 2027 election-cycle noise: build flexible cancellation terms into Q3-Q4 2027 contracts now, and brief your overseas agents proactively before advisories do it for you.",
+  "segments": [
+   "city",
+   "bush",
+   "beach"
+  ],
+  "countries": "KE",
+  "confidence": "Confirmed",
+  "source": "pulse-2026-07-24-evening-1",
+  "date": "2026-07-24",
+  "dateDisplay": "Friday, 24 July 2026",
+  "edition": "Evening Wrap",
+  "editionKey": "evening"
+ },
+ {
+  "headline": "NAIROBI'S 3,650-ROOM PIPELINE SHARPENS THE STAKES",
+  "body": "Context for city operators: W Hospitality Group counts ~20 branded hotels (~3,650 rooms) in Nairobi's pipeline, with ~10 hotels (~1,500 rooms) opening in 2026 alone — after occupancy already fell nearly 10 points as 2,000 rooms landed in 2023-25 (per Tourism Update). Strong arrivals weeks like this one are what must absorb that supply.",
+  "sowhat": "🎯 So what: differentiate or discount. If your product looks like the new stock, start building extended-stay, lifestyle or MICE packaging before the 2026 openings hit your comp set.",
+  "segments": [
+   "city"
+  ],
+  "countries": "KE",
+  "confidence": "Confirmed",
+  "source": "pulse-2026-07-24-evening-1",
+  "date": "2026-07-24",
+  "dateDisplay": "Friday, 24 July 2026",
+  "edition": "Evening Wrap",
+  "editionKey": "evening"
+ },
+ {
+  "headline": "DRC IS NOW RWANDA'S LARGEST SOURCE MARKET",
+  "body": "RDB data shows 185,420 DRC visitors in H1 2026 — 12.5% of all arrivals, overtaking every overseas market (per Travel and Tour World).",
+  "sowhat": "🎯 So what: Kigali city properties should be selling in French and courting Congolese corporate and family segments directly — not just waiting on European leisure.",
+  "segments": [
+   "city"
+  ],
+  "countries": "RW",
+  "confidence": "Reported",
+  "source": "pulse-2026-07-24-evening-1",
+  "date": "2026-07-24",
+  "dateDisplay": "Friday, 24 July 2026",
+  "edition": "Evening Wrap",
+  "editionKey": "evening"
+ },
+ {
+  "headline": "US PUTS UGANDA AT LEVEL 4, RWANDA AT LEVEL 3",
+  "body": "The State Department now urges Americans not to travel to Uganda and to reconsider Rwanda, citing the Ebola Bundibugyo outbreak in the region (travel.state.gov). The CDC has barred US-bound boarding for anyone who was in DRC within 21 days, and South Africa has introduced health forms for arrivals from affected countries (per Tourism Update). Expect North American cancellations and insurer exclusions first; gorilla-trekking itineraries are most exposed, with Kampala and Kigali MICE next in line.",
+  "sowhat": "🎯 So what: In the next 72 hours: audit Q3–Q4 US-market bookings, offer free date changes into 2027 before refund demands land, put your health protocols in writing to agents, and check FCDO and German AA positions tonight — advisory divergence is common and buys you nuance with European guests.",
+  "segments": [
+   "city",
+   "bush"
+  ],
+  "countries": "UG, RW (spillover KE/TZ)",
+  "confidence": "Confirmed",
+  "source": "pulse-2026-07-24-evening",
+  "date": "2026-07-24",
+  "dateDisplay": "Friday, 24 July 2026",
+  "edition": "Evening Wrap",
+  "editionKey": "evening"
+ },
+ {
+  "headline": "KENYA'S NEW FLIGHT TAXES ARE ALREADY COSTING BOOKINGS",
+  "body": "Higher passenger service charges and aviation levies are feeding into fares, and operators report clients shortening stays and trimming budgets (per Tourism Update, quoting Private Safaris and HotelOnline). International visitor spend was roughly US$5bn in 2025 — the industry's argument is that taxing the flight taxes the funnel.",
+  "sowhat": "🎯 So what: Don't absorb fare pain with room discounts. Defend rate and compete on length-of-stay value — third-night offers and full-board bundles beat cutting ADR.",
+  "segments": [
+   "city",
+   "bush",
+   "beach"
+  ],
+  "countries": "KE",
+  "confidence": "Reported",
+  "source": "pulse-2026-07-24-evening",
+  "date": "2026-07-24",
+  "dateDisplay": "Friday, 24 July 2026",
+  "edition": "Evening Wrap",
+  "editionKey": "evening"
+ },
+ {
+  "headline": "NEW BRIDGE HALVES A SERENGETI TRANSFER ROUTE",
+  "body": "Tourism Update reports (24 Jul) a new bridge cutting a key Serengeti transfer time in half — headline stage only, detail to follow. Shorter transfers lift guest satisfaction scores and open new two-park pairings.",
+  "sowhat": "🎯 So what: TZ lodge owners: ask your DMCs this week whether revised routings change pickup economics for migration season.",
+  "segments": [
+   "bush"
+  ],
+  "countries": "TZ",
+  "confidence": "Early signal",
+  "source": "pulse-2026-07-24-evening",
+  "date": "2026-07-24",
+  "dateDisplay": "Friday, 24 July 2026",
+  "edition": "Evening Wrap",
+  "editionKey": "evening"
+ }
+];
+window.BUILT_AT = "2026-07-24 21:57";

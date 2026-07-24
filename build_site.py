@@ -1,12 +1,10 @@
 #!/usr/bin/env python3
 """
 EA Hospitality Pulse — site builder.
-Scans editions-src/*.md (the pulse-YYYY-MM-DD-*.md and foresight-YYYY-MM-DD.md files
-the scheduled task produces) and regenerates data.js, which the website reads.
-
-Run:  python build_site.py
-The scheduled task can call this after saving each new edition so the archive
-updates itself. No server or database required.
+Scans editions-src/*.md and regenerates data.js (window.EDITIONS + window.INSIGHTS).
+INSIGHTS are individual 🏷-tagged items pulled out of each edition, so the
+homepage segment cards (City / Bush / Beach) can show segment-specific insights.
+Run: python build_site.py
 """
 import os, re, json, html, datetime
 
@@ -18,9 +16,9 @@ EDITION_LABELS = {
     "evening": "Evening Wrap", "inaugural": "Inaugural Edition",
     "foresight": "Sunday Foresight",
 }
+KEYCAP = re.compile(r"^([0-9]️?⃣)\s*")
 
 def parse_filename(fn):
-    """Return (date_iso, edition_key) from a filename, or (None, None)."""
     base = fn.rsplit(".", 1)[0]
     m = re.search(r"(\d{4}-\d{2}-\d{2})", base)
     date_iso = m.group(1) if m else None
@@ -28,51 +26,88 @@ def parse_filename(fn):
     low = base.lower()
     for k in EDITION_LABELS:
         if k in low:
-            key = k
-            break
+            key = k; break
     if low.startswith("foresight"):
         key = "foresight"
     return date_iso, key
 
 def extract_telegram(md):
-    """Pull the TELEGRAM section (the full flagship brief) as the web article source."""
-    # sections separated by lines like '## TELEGRAM'
     parts = re.split(r"\n##+\s*", "\n" + md)
-    tele = None
     for p in parts:
         head = p.strip().split("\n", 1)[0].strip().upper()
         if head.startswith("TELEGRAM"):
-            tele = p.split("\n", 1)[1] if "\n" in p else ""
-            break
-    if tele is None:
-        # fall back to whole doc minus front matter
-        tele = md
-    return tele.strip()
+            return (p.split("\n", 1)[1] if "\n" in p else "").strip()
+    return md.strip()
+
+def segments_from_tag(tagfield):
+    t = tagfield.lower()
+    segs = []
+    if "all segment" in t:
+        return ["city", "bush", "beach"]
+    if "city" in t: segs.append("city")
+    if "bush" in t: segs.append("bush")
+    if "beach" in t or "coast" in t: segs.append("beach")
+    return segs
+
+def parse_items(telegram):
+    """Return list of insight dicts from the numbered, 🏷-tagged items."""
+    items, cur = [], None
+    for raw in telegram.split("\n"):
+        l = raw.strip()
+        if not l:
+            continue
+        if KEYCAP.match(l):
+            if cur:
+                items.append(cur)
+            cur = {"headline": KEYCAP.sub("", l), "body": [], "sowhat": "", "tags": ""}
+        elif cur is not None:
+            if l.startswith("🎯"):
+                cur["sowhat"] = l
+            elif l.startswith("🏷"):
+                cur["tags"] = l.replace("🏷", "").strip()
+                items.append(cur); cur = None
+            elif l[0] in "━📡💬📅🏨":
+                items.append(cur); cur = None
+            else:
+                cur["body"].append(l)
+    if cur:
+        items.append(cur)
+    out = []
+    for it in items:
+        if not it.get("tags"):
+            continue
+        fields = [f.strip() for f in it["tags"].split("|")]
+        segs = segments_from_tag(fields[0] if fields else "")
+        if not segs:
+            continue
+        out.append({
+            "headline": it["headline"],
+            "body": " ".join(it["body"]).strip(),
+            "sowhat": it["sowhat"].strip(),
+            "segments": segs,
+            "countries": fields[1] if len(fields) > 1 else "",
+            "confidence": fields[2] if len(fields) > 2 else "",
+        })
+    return out
 
 def render_body(text):
-    """Convert the Telegram-formatted brief into clean, styled HTML."""
     out = []
-    # normalise divider lines
-    blocks = re.split(r"\n\s*\n", text)
-    for blk in blocks:
+    for blk in re.split(r"\n\s*\n", text):
         blk = blk.strip()
         if not blk:
             continue
-        if set(blk) <= set("━—-–_ "):  # divider row
-            out.append('<hr class="divider">')
-            continue
-        lines = [l.strip() for l in blk.split("\n") if l.strip()]
+        if set(blk) <= set("━—-–_ "):
+            out.append('<hr class="divider">'); continue
         rendered = []
-        for l in lines:
+        for l in [x.strip() for x in blk.split("\n") if x.strip()]:
             e = html.escape(l)
-            # numbered item headline: starts with a keycap digit emoji
-            if re.match(r"^[0-9]️?⃣", l) or re.match(r"^[1-9][️⃣]", l):
+            if KEYCAP.match(l):
                 e = f'<span class="item-head">{e}</span>'
             elif l.startswith("🎯"):
                 e = f'<span class="sowhat">{e}</span>'
             elif l.startswith("🏷"):
                 e = f'<span class="tagline">{e}</span>'
-            elif l.startswith("📡") or l.startswith("📅") or l.startswith("💬") or l.startswith("🏨"):
+            elif l[0] in "📡📅💬🏨":
                 e = f'<span class="meta-line">{e}</span>'
             elif l.startswith("▪️"):
                 e = f'<span class="radar-item">{e}</span>'
@@ -81,7 +116,6 @@ def render_body(text):
     return "\n".join(out)
 
 def summarise(text):
-    """First substantive sentence for the archive teaser."""
     for l in text.split("\n"):
         l = l.strip()
         if l and not l.startswith(("🏨", "📅", "━", "#")) and len(l) > 40:
@@ -89,54 +123,49 @@ def summarise(text):
     return "East Africa hospitality intelligence."
 
 def load_existing():
-    """Read editions already in data.js so an edition never disappears
-    even if its source markdown is missing from editions-src."""
     try:
         d = open(os.path.join(HERE, "data.js"), encoding="utf-8").read()
-        m = re.search(r"window\.EDITIONS = (\[.*?\]);", d, re.S)
+        m = re.search(r"window\.EDITIONS = (\[.*?\]);\s*\n", d, re.S)
         return {e["id"]: e for e in json.loads(m.group(1))} if m else {}
     except Exception:
         return {}
 
 def main():
     existing = load_existing()
-    editions = []
+    editions, insights = [], []
     for fn in sorted(os.listdir(SRC)):
         if not fn.lower().endswith(".md"):
             continue
         date_iso, key = parse_filename(fn)
         if not date_iso:
             continue
-        with open(os.path.join(SRC, fn), encoding="utf-8") as f:
-            md = f.read()
+        md = open(os.path.join(SRC, fn), encoding="utf-8").read()
         tele = extract_telegram(md)
         try:
-            d = datetime.date.fromisoformat(date_iso)
-            date_disp = d.strftime("%A, %-d %B %Y")
+            date_disp = datetime.date.fromisoformat(date_iso).strftime("%A, %-d %B %Y")
         except Exception:
             date_disp = date_iso
+        eid = fn.rsplit(".", 1)[0]
         editions.append({
-            "id": fn.rsplit(".", 1)[0],
-            "date": date_iso,
-            "dateDisplay": date_disp,
-            "edition": EDITION_LABELS.get(key, "Brief"),
-            "editionKey": key,
-            "summary": summarise(tele),
-            "bodyHtml": render_body(tele),
+            "id": eid, "date": date_iso, "dateDisplay": date_disp,
+            "edition": EDITION_LABELS.get(key, "Brief"), "editionKey": key,
+            "summary": summarise(tele), "bodyHtml": render_body(tele),
         })
-    # merge: freshly built editions win; but keep any edition that exists
-    # only in the previous data.js (its source md is gone) — never drop content.
+        for it in parse_items(tele):
+            it.update({"source": eid, "date": date_iso, "dateDisplay": date_disp,
+                       "edition": EDITION_LABELS.get(key, "Brief"), "editionKey": key})
+            insights.append(it)
     built_ids = {e["id"] for e in editions}
     for eid, e in existing.items():
         if eid not in built_ids:
             editions.append(e)
-    # newest first
     editions.sort(key=lambda e: (e["date"], e["id"]), reverse=True)
-    data = "window.EDITIONS = " + json.dumps(editions, ensure_ascii=False, indent=1) + ";\n"
-    data += "window.BUILT_AT = " + json.dumps(datetime.datetime.now().strftime("%Y-%m-%d %H:%M")) + ";\n"
+    insights.sort(key=lambda i: (i["date"], i["source"]), reverse=True)
     with open(os.path.join(HERE, "data.js"), "w", encoding="utf-8") as f:
-        f.write(data)
-    print(f"Built data.js with {len(editions)} edition(s).")
+        f.write("window.EDITIONS = " + json.dumps(editions, ensure_ascii=False, indent=1) + ";\n")
+        f.write("window.INSIGHTS = " + json.dumps(insights, ensure_ascii=False, indent=1) + ";\n")
+        f.write("window.BUILT_AT = " + json.dumps(datetime.datetime.now().strftime("%Y-%m-%d %H:%M")) + ";\n")
+    print(f"Built data.js: {len(editions)} editions, {len(insights)} insights.")
 
 if __name__ == "__main__":
     main()
