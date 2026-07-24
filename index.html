@@ -69,6 +69,23 @@
   .insight .isw{font-family:'Helvetica Neue',Arial,sans-serif;font-size:14px;background:var(--sand-2);padding:8px 12px;border-radius:6px;margin:8px 0 4px}
   .insight .open{font-family:'Helvetica Neue',Arial,sans-serif;font-size:13px;font-weight:600;color:var(--teal-d);margin-top:10px;display:inline-block}
 
+  /* Advisory board */
+  .adv-wrap{padding:34px 0 6px}
+  .adv-head{display:flex;align-items:baseline;justify-content:space-between;gap:12px;flex-wrap:wrap;margin-bottom:14px}
+  .adv-head h2{font-size:24px;margin:0}
+  #adv-updated{font-family:'Helvetica Neue',Arial,sans-serif;font-size:13px;color:var(--muted)}
+  .adv-table{width:100%;border-collapse:separate;border-spacing:0;background:var(--card);border:1px solid var(--line);border-radius:12px;overflow:hidden}
+  .adv-table th,.adv-table td{text-align:left;padding:12px 14px;border-bottom:1px solid var(--line);vertical-align:top}
+  .adv-table thead th{font-family:'Helvetica Neue',Arial,sans-serif;font-size:12px;text-transform:uppercase;letter-spacing:1px;color:var(--muted);background:var(--sand-2)}
+  .adv-table tr:last-child td{border-bottom:none}
+  .adv-table td.cty{font-weight:600;white-space:nowrap;cursor:pointer}
+  .adv-table td.cty .f{font-size:18px;margin-right:4px}
+  .adv-table td.cty:hover{color:var(--teal-d);text-decoration:underline}
+  .pill{display:inline-block;color:#fff;font-family:'Helvetica Neue',Arial,sans-serif;font-size:12px;font-weight:700;padding:3px 9px;border-radius:20px;white-space:nowrap}
+  .pn{font-family:'Helvetica Neue',Arial,sans-serif;font-size:12.5px;color:var(--muted);margin-top:6px;max-width:34ch;line-height:1.4}
+  .adv-note{font-family:'Helvetica Neue',Arial,sans-serif;font-size:12px;color:var(--muted);margin:10px 2px 0}
+  @media(max-width:640px){.pn{max-width:none}.adv-table th:nth-child(1){width:1%}}
+
   /* Sections */
   section{padding:40px 0}
   .section-head{display:flex;align-items:baseline;justify-content:space-between;gap:12px;flex-wrap:wrap;margin-bottom:18px}
@@ -135,6 +152,7 @@
       <div><h1>EA Hospitality Pulse</h1><p>Daily intelligence for city, bush &amp; beach properties</p></div>
     </div>
     <nav class="top">
+      <a href="#advisories">Advisories</a>
       <a href="#archive">Archive</a>
       <a href="#about">About</a>
       <a href="#subscribe">Subscribe</a>
@@ -167,6 +185,18 @@
     <div class="seg beach" onclick="showSegment('beach')"><div class="tag">Beach &amp; coast</div><h3>Charter &amp; leisure volume</h3><p>Route decisions, seasonality, Indian Ocean competition, regulation.</p><span class="go">View beach insights →</span></div>
   </div>
 </div>
+
+<section id="advisories" class="wrap adv-wrap">
+  <div class="adv-head">
+    <div><div class="kicker">Know before you sell</div><h2>Travel advisory status board</h2></div>
+    <span id="adv-updated"></span>
+  </div>
+  <table class="adv-table">
+    <thead><tr><th>Market</th><th>🇺🇸 US State Dept</th><th>🇬🇧 UK FCDO</th></tr></thead>
+    <tbody id="adv-body"></tbody>
+  </table>
+  <p class="adv-note">Levels shown are for main tourist areas; regional exceptions are noted. This is a working summary — always confirm with the official source (tap a level) before advising guests. Tap a market name to see its insights.</p>
+</section>
 
 <section id="archive" class="wrap">
   <div class="section-head">
@@ -231,6 +261,7 @@
   </div>
 </div>
 
+<script>document.write('<scr'+'ipt src="advisories.js?t='+Date.now()+'"></scr'+'ipt>');</script>
 <script>document.write('<scr'+'ipt src="data.js?t='+Date.now()+'"></scr'+'ipt>');</script>
 <script>
   const editions = window.EDITIONS || [];
@@ -345,6 +376,28 @@
   loadBtn.onclick=()=>{ shown+=PAGE; render(); };
   search.oninput=()=>{ shown=PAGE; render(); };
   filter.onchange=()=>{ shown=PAGE; render(); };
+
+  // ---- Advisory status board ----
+  const LV={1:{c:'#2e7d32',t:'Normal precautions'},2:{c:'#b8860b',t:'Increased caution'},3:{c:'#d9730a',t:'Reconsider travel'},4:{c:'#c0392b',t:'Do not travel'}};
+  function renderAdvisories(){
+    const A=window.ADVISORIES; if(!A) return;
+    const up=document.getElementById('adv-updated'); if(up) up.textContent='As of '+A.updated;
+    const tb=document.getElementById('adv-body'); if(!tb) return;
+    const esc=x=>(x||'').replace(/"/g,'&quot;');
+    const pill=(x,link)=>{ const l=LV[x.level]||LV[2];
+      return '<a class="pill" style="background:'+l.c+'" href="'+link+'" target="_blank" rel="noopener" title="'+esc(x.note)+'">L'+x.level+' · '+l.t+'</a>'+
+             '<div class="pn">'+ x.note +'</div>'; };
+    tb.innerHTML='';
+    A.rows.forEach(r=>{
+      const tr=document.createElement('tr');
+      const cty=(r.code==='ZNZ')?'TZ':r.code;
+      tr.innerHTML='<td class="cty" onclick="showCountry(\''+cty+'\')"><span class="f">'+r.flag+'</span>'+r.name+'</td>'+
+        '<td>'+pill(r.us, A.links.us[r.code])+'</td>'+
+        '<td>'+pill(r.uk, A.links.uk[r.code])+'</td>';
+      tb.appendChild(tr);
+    });
+  }
+  renderAdvisories();
   render();
 </script>
 </body>
