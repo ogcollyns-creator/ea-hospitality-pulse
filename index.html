@@ -139,6 +139,14 @@
   .chan{display:flex;flex-direction:column;gap:10px;margin-top:16px}
   .chan a{background:rgba(255,255,255,.12);color:#fff;padding:11px 14px;border-radius:8px;font-family:'Helvetica Neue',Arial,sans-serif;font-size:14px;font-weight:600;display:flex;justify-content:space-between}
   .chan a:hover{background:rgba(255,255,255,.22);text-decoration:none}
+  .mc-form{display:flex;gap:8px;margin:6px 0 4px;flex-wrap:wrap}
+  .mc-form input{flex:1;min-width:170px;font-family:'Helvetica Neue',Arial,sans-serif;font-size:14px;padding:11px 12px;border:none;border-radius:8px}
+  .mc-form button{font-family:'Helvetica Neue',Arial,sans-serif;font-weight:700;font-size:14px;padding:11px 16px;border:none;border-radius:8px;background:var(--gold);color:#231a06;cursor:pointer}
+  .mc-form button:hover{background:#d99a3f}
+  .mc-msg{font-family:'Helvetica Neue',Arial,sans-serif;font-size:12.5px;min-height:16px;opacity:.95}
+  .pdf-slot{margin:12px 0 4px;display:none}
+  .pdf-btn{display:block;background:rgba(255,255,255,.14);color:#fff;padding:12px 14px;border-radius:8px;font-family:'Helvetica Neue',Arial,sans-serif;font-size:14px;font-weight:600;border:1px dashed rgba(255,255,255,.5)}
+  .pdf-btn:hover{background:rgba(255,255,255,.24);text-decoration:none}
 
   footer.site{padding:28px 0;text-align:center;color:var(--muted);font-family:'Helvetica Neue',Arial,sans-serif;font-size:13px}
   @media(max-width:720px){.segs{grid-template-columns:1fr}.about-grid{grid-template-columns:1fr}}
@@ -233,7 +241,14 @@
       </div>
       <div id="subscribe" class="sub-box">
         <h3>Get every brief</h3>
-        <p>Free. Three times daily on Telegram, with highlights on LinkedIn and WhatsApp.</p>
+        <p>Free. Three times daily on Telegram, with highlights on LinkedIn and WhatsApp — plus the weekly Foresight to your inbox.</p>
+        <form id="mc-form" class="mc-form" action="MAILCHIMP_ACTION_URL" method="post" target="_blank" novalidate>
+          <input type="email" name="EMAIL" placeholder="you@email.com" aria-label="Email address" required>
+          <div style="position:absolute;left:-5000px" aria-hidden="true"><input type="text" name="MAILCHIMP_HONEYPOT" tabindex="-1" value=""></div>
+          <button type="submit" name="subscribe">Get the brief</button>
+        </form>
+        <div id="mc-msg" class="mc-msg"></div>
+        <div id="pdf-slot" class="pdf-slot"></div>
         <div class="chan">
           <a href="https://t.me/africabusinessriskreview" target="_blank" rel="noopener">Telegram channel <span>→</span></a>
           <a href="https://www.linkedin.com/company/ea-hospitality-pulse/" data-channel="linkedin" target="_blank" rel="noopener">LinkedIn <span>→</span></a>
@@ -262,6 +277,7 @@
 </div>
 
 <script>document.write('<scr'+'ipt src="advisories.js?t='+Date.now()+'"></scr'+'ipt>');</script>
+<script>document.write('<scr'+'ipt src="pdf.js?t='+Date.now()+'"></scr'+'ipt>');</script>
 <script>document.write('<scr'+'ipt src="data.js?t='+Date.now()+'"></scr'+'ipt>');</script>
 <script>
   const editions = window.EDITIONS || [];
@@ -397,6 +413,21 @@
       tb.appendChild(tr);
     });
   }
+  // email signup guard (until Mailchimp action URL is wired) + PDF slot
+  const mcForm=document.getElementById('mc-form'), mcMsg=document.getElementById('mc-msg');
+  if(mcForm){ mcForm.addEventListener('submit',e=>{
+    if((mcForm.getAttribute('action')||'').includes('MAILCHIMP_ACTION_URL')){
+      e.preventDefault();
+      if(mcMsg) mcMsg.textContent='Email signup goes live shortly — for now, join us on Telegram below.';
+    }
+  }); }
+  function renderPdf(){ const P=window.LATEST_PDF, box=document.getElementById('pdf-slot');
+    if(box && P && P.file){
+      box.innerHTML='<a class="pdf-btn" href="'+P.file+'" target="_blank" rel="noopener">⬇ Download this week\'s Sunday Foresight (PDF)'+(P.date?(' — '+P.date):'')+'</a>';
+      box.style.display='block';
+    }
+  }
+  renderPdf();
   renderAdvisories();
   render();
 </script>
