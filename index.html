@@ -75,6 +75,10 @@
   .card p{margin:0;font-size:14px;color:var(--muted)}
   .card .read{margin-top:14px;font-family:'Helvetica Neue',Arial,sans-serif;font-size:13px;font-weight:600;color:var(--teal-d)}
   .empty{color:var(--muted);font-style:italic;padding:20px 0}
+  .loadmore-row{display:flex;flex-direction:column;align-items:center;gap:8px;margin:26px 0 6px}
+  .btn-load{background:var(--teal-d);color:#fff;border:none}
+  .btn-load:hover{background:var(--teal);text-decoration:none}
+  .count-note{font-family:'Helvetica Neue',Arial,sans-serif;font-size:13px;color:var(--muted)}
 
   /* Reader modal */
   .overlay{position:fixed;inset:0;background:rgba(20,24,20,.55);display:none;align-items:flex-start;justify-content:center;padding:30px 16px;overflow:auto;z-index:50}
@@ -158,6 +162,10 @@
   </div>
   <div id="cards" class="cards"></div>
   <div id="empty" class="empty" style="display:none">No editions match your search yet.</div>
+  <div class="loadmore-row">
+    <span id="count" class="count-note"></span>
+    <button id="loadmore" class="btn btn-load" style="display:none">Load older editions ↓</button>
+  </div>
 </section>
 
 <div class="band">
@@ -210,16 +218,26 @@
   const overlay = document.getElementById('overlay');
   document.getElementById('built').textContent = window.BUILT_AT ? ('Updated ' + window.BUILT_AT) : '';
 
-  function render(){
+  const PAGE = 6;
+  let shown = PAGE;
+  const loadBtn = document.getElementById('loadmore');
+  const countEl = document.getElementById('count');
+  function filtered(){
     const q = search.value.trim().toLowerCase();
     const f = filter.value;
-    const list = editions.filter(e=>{
+    return editions.filter(e=>{
       const matchF = !f || e.editionKey===f || (f==='foresight'&&e.editionKey==='foresight');
       const hay = (e.summary+' '+e.bodyHtml+' '+e.edition+' '+e.dateDisplay).toLowerCase();
       return matchF && (!q || hay.includes(q));
     });
+  }
+  function render(){
+    const all = filtered();
+    const list = all.slice(0, shown);
     cardsEl.innerHTML='';
-    emptyEl.style.display = list.length? 'none':'block';
+    emptyEl.style.display = all.length? 'none':'block';
+    countEl.textContent = all.length? ('Showing '+list.length+' of '+all.length+' edition'+(all.length===1?'':'s')) : '';
+    loadBtn.style.display = all.length > shown ? 'inline-block' : 'none';
     list.forEach(e=>{
       const c=document.createElement('div');
       c.className='card';
@@ -243,7 +261,9 @@
   document.getElementById('close').onclick=close;
   overlay.onclick=ev=>{if(ev.target===overlay)close()};
   document.addEventListener('keydown',ev=>{if(ev.key==='Escape')close()});
-  search.oninput=render; filter.onchange=render;
+  loadBtn.onclick=()=>{ shown += PAGE; render(); };
+  search.oninput=()=>{ shown = PAGE; render(); };
+  filter.onchange=()=>{ shown = PAGE; render(); };
   render();
 </script>
 </body>

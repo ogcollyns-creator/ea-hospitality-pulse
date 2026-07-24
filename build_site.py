@@ -88,7 +88,18 @@ def summarise(text):
             return re.sub(r"\s+", " ", l)[:200]
     return "East Africa hospitality intelligence."
 
+def load_existing():
+    """Read editions already in data.js so an edition never disappears
+    even if its source markdown is missing from editions-src."""
+    try:
+        d = open(os.path.join(HERE, "data.js"), encoding="utf-8").read()
+        m = re.search(r"window\.EDITIONS = (\[.*?\]);", d, re.S)
+        return {e["id"]: e for e in json.loads(m.group(1))} if m else {}
+    except Exception:
+        return {}
+
 def main():
+    existing = load_existing()
     editions = []
     for fn in sorted(os.listdir(SRC)):
         if not fn.lower().endswith(".md"):
@@ -113,6 +124,12 @@ def main():
             "summary": summarise(tele),
             "bodyHtml": render_body(tele),
         })
+    # merge: freshly built editions win; but keep any edition that exists
+    # only in the previous data.js (its source md is gone) — never drop content.
+    built_ids = {e["id"] for e in editions}
+    for eid, e in existing.items():
+        if eid not in built_ids:
+            editions.append(e)
     # newest first
     editions.sort(key=lambda e: (e["date"], e["id"]), reverse=True)
     data = "window.EDITIONS = " + json.dumps(editions, ensure_ascii=False, indent=1) + ";\n"
