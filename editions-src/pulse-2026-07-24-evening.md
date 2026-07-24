@@ -3,58 +3,56 @@
 ## TELEGRAM
 
 🏨 EA HOSPITALITY PULSE — Evening Wrap
-📅 Friday, 24 July 2026 | 🇰🇪🇷🇼
+📅 Friday, 24 July 2026 | 🇺🇬🇷🇼🇰🇪🇹🇿
 
-Kenya's numbers just called the bluff on its politics — and there's a lesson in it for every owner heading into the 2027 cycle.
-
-━━━━━━━━━
-1️⃣ KENYA DEMAND HOLDS FIRM DESPITE POLITICAL NOISE
-Tourism CS Rebecca Miano confirmed today that Mombasa alone received 20,000+ visitors in the past week, with strong volumes across all major entry points — five days after former DP Rigathi Gachagua publicly urged tourists to stay away from Kenya until a change of government. Canada also issued a cautionary note on Kenya this week (per Tuko). The data says the market is shrugging: domestic, regional and international arrivals are landing ahead of the August high season.
-🎯 So what: hold your peak-season rates — the demand is real. But treat this as your first taste of 2027 election-cycle noise: build flexible cancellation terms into Q3-Q4 2027 contracts now, and brief your overseas agents proactively before advisories do it for you.
-🏷 City / Bush / Beach | KE | Confirmed
-
-2️⃣ NAIROBI'S 3,650-ROOM PIPELINE SHARPENS THE STAKES
-Context for city operators: W Hospitality Group counts ~20 branded hotels (~3,650 rooms) in Nairobi's pipeline, with ~10 hotels (~1,500 rooms) opening in 2026 alone — after occupancy already fell nearly 10 points as 2,000 rooms landed in 2023-25 (per Tourism Update). Strong arrivals weeks like this one are what must absorb that supply.
-🎯 So what: differentiate or discount. If your product looks like the new stock, start building extended-stay, lifestyle or MICE packaging before the 2026 openings hit your comp set.
-🏷 City | KE | Confirmed
-
-3️⃣ DRC IS NOW RWANDA'S LARGEST SOURCE MARKET
-RDB data shows 185,420 DRC visitors in H1 2026 — 12.5% of all arrivals, overtaking every overseas market (per Travel and Tour World).
-🎯 So what: Kigali city properties should be selling in French and courting Congolese corporate and family segments directly — not just waiting on European leisure.
-🏷 City | RW | Reported
+The US has moved Uganda to "do not travel". Tonight's wrap is about what advisory shocks do to booking curves — and what to do in the first 72 hours.
 
 ━━━━━━━━━
-💬 Which of these hits your property hardest? Reply and tell us.
+1️⃣ US PUTS UGANDA AT LEVEL 4, RWANDA AT LEVEL 3
+The State Department now urges Americans not to travel to Uganda and to reconsider Rwanda, citing the Ebola Bundibugyo outbreak in the region (travel.state.gov). The CDC has barred US-bound boarding for anyone who was in DRC within 21 days, and South Africa has introduced health forms for arrivals from affected countries (per Tourism Update). Expect North American cancellations and insurer exclusions first; gorilla-trekking itineraries are most exposed, with Kampala and Kigali MICE next in line.
+🎯 So what: In the next 72 hours: audit Q3–Q4 US-market bookings, offer free date changes into 2027 before refund demands land, put your health protocols in writing to agents, and check FCDO and German AA positions tonight — advisory divergence is common and buys you nuance with European guests.
+🏷 Bush + City | UG, RW (spillover KE/TZ) | Confirmed
+
+2️⃣ KENYA'S NEW FLIGHT TAXES ARE ALREADY COSTING BOOKINGS
+Higher passenger service charges and aviation levies are feeding into fares, and operators report clients shortening stays and trimming budgets (per Tourism Update, quoting Private Safaris and HotelOnline). International visitor spend was roughly US$5bn in 2025 — the industry's argument is that taxing the flight taxes the funnel.
+🎯 So what: Don't absorb fare pain with room discounts. Defend rate and compete on length-of-stay value — third-night offers and full-board bundles beat cutting ADR.
+🏷 City + Bush + Beach | KE | Reported
+
+3️⃣ NEW BRIDGE HALVES A SERENGETI TRANSFER ROUTE
+Tourism Update reports (24 Jul) a new bridge cutting a key Serengeti transfer time in half — headline stage only, detail to follow. Shorter transfers lift guest satisfaction scores and open new two-park pairings.
+🎯 So what: TZ lodge owners: ask your DMCs this week whether revised routings change pickup economics for migration season.
+🏷 Bush | TZ | Early signal
+━━━━━━━━━
+
+💬 What share of your 2026 book is North American? Reply and tell us.
 — EA Hospitality Pulse | Daily intelligence for city, bush & beach properties
 
 ## WHATSAPP
 
 🏨 *EA Hospitality Pulse* — Evening Wrap 🌙
 
-*Kenya's demand is ignoring the politics: Mombasa took 20,000+ visitors in a week, per today's Tourism Ministry statement.*
-That's despite a very public call for tourists to stay away — arrivals are landing ahead of the August peak.
-👉 Hold peak rates, but write flexible terms into 2027 contracts — election noise is starting early.
+*US tells Americans: do not travel to Uganda; reconsider Rwanda.*
+Ebola-driven advisory shift — the CDC is also blocking US-bound boarding after recent DRC stays.
+👉 Audit your US bookings tonight and offer 2027 date changes before refund requests land.
 
 Also today:
-▪️ Nairobi pipeline: ~3,650 branded rooms coming — city hotels must differentiate before 2026's ~1,500 rooms open
-▪️ DRC is now Rwanda's No.1 source market (12.5% of H1 arrivals) — Kigali should sell in French
+▪️ Kenya's higher flight taxes are already shortening stays, operators report.
+▪️ A new bridge halves a key Serengeti transfer route — a lift for TZ lodges.
 
-_Full analysis on our Telegram → https://t.me/africabusinessriskreview_
+_Full analysis on our Telegram → t.me/africabusinessriskreview_
 
 ## LINKEDIN
 
-A former Deputy President told tourists to stay away from Kenya. A week later, Mombasa posted 20,000+ arrivals — its strongest week of the season.
+The US just told its citizens not to travel to Uganda. The next 72 hours will decide whether properties lose a fortnight or a season.
 
-Today's statement from Tourism CS Rebecca Miano wasn't just a rebuttal of Rigathi Gachagua's remarks. It was a live test of something every East African operator should internalise: travellers price political noise far more calmly than headlines suggest. Bookings made months ago, by guests with real intent, don't evaporate over a soundbite.
+The State Department's move to Level 4 for Uganda and Level 3 for Rwanda — driven by the regional Ebola Bundibugyo outbreak — will hit North American gorilla-trekking bookings first, then Kampala and Kigali conference demand.
 
-But the smart read isn't complacency. Kenya is entering its 2027 election cycle, and this week was the opening act. The operators who suffered in 2007 and 2017 weren't hurt by the noise itself — they were hurt by rigid contracts, concentrated source markets and silence toward their trade partners while advisories filled the vacuum.
+The instinct is to go quiet and process refunds. That is how a two-week disruption becomes a lost season. Advisory shocks are recoverable when operators convert cancellations into deferrals: free date changes into 2027, written health protocols to every agent, and daily monitoring of whether UK and German advisories follow the US line — divergence between advisories is nuance you can sell.
 
-So the move now, while demand is firm: hold your peak rates, diversify your source-market mix, and put flexible-but-protected cancellation terms into every 2027 contract you sign this year. Talk to your agents before the next headline does.
-
-Demand is a fact. Sentiment is a risk. Manage them separately.
+The properties that came out of past advisory cycles strongest were the ones still talking to their trade partners while competitors went silent.
 
 We track this daily at EA Hospitality Pulse.
 
-#EastAfricaTourism #HospitalityIndustry #Kenya #HotelInvestment #TourismResilience
+#EastAfricaTourism #HospitalityIndustry #Uganda #Rwanda #TravelAdvisory
 
-[Post link in first comment: https://www.tuko.co.ke/kenya/counties/634090-govt-reports-increase-tourist-arrivals-days-gachaguas-statement-discouraging-visitors/]
+[Post link in first comment: https://travel.state.gov/en/international-travel/travel-advisories/uganda.html]
