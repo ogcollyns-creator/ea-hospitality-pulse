@@ -1,0 +1,19 @@
+{
+  "name": "EA Pulse Rate Index — property basket",
+  "note": "A fixed basket of 40 well-known properties. Rates are observed as PUBLISHED lead-in rates (lowest available double/standard, room-only unless noted), for a standard forward stay window. The basket is deliberately fixed so the index measures rate movement, not sample change.",
+  "convention": {"los": 2, "lead_days": 30, "occupancy": "2 adults", "currency": "USD"},
+  "markets": {
+    "nairobi":   {"label":"Nairobi",            "segment":"city",  "country":"KE",
+      "properties":["Sarova Stanley","Villa Rosa Kempinski","Radisson Blu Upper Hill","Trademark Hotel Gigiri","Sankara Westlands","Hemingways Nairobi","Ole Sereni","Tribe Hotel"]},
+    "coast":     {"label":"Mombasa & Diani",    "segment":"beach", "country":"KE",
+      "properties":["Serena Beach Resort & Spa","Diani Reef Beach Resort","Leopard Beach Resort","Baobab Beach Resort","Swahili Beach","Voyager Beach Resort","Almanara Diani"]},
+    "zanzibar":  {"label":"Zanzibar",           "segment":"beach", "country":"ZNZ",
+      "properties":["Zuri Zanzibar","Melia Zanzibar","Park Hyatt Zanzibar","Riu Palace Zanzibar","Baraza Resort & Spa","The Residence Zanzibar","Diamonds Star of the East","Hideaway of Nungwi"]},
+    "kigali":    {"label":"Kigali",             "segment":"city",  "country":"RW",
+      "properties":["Kigali Marriott","Radisson Blu Kigali","Kigali Serena","Ubumwe Grande","Park Inn by Radisson Kigali"]},
+    "kampala":   {"label":"Kampala & Entebbe",  "segment":"city",  "country":"UG",
+      "properties":["Kampala Serena","Sheraton Kampala","Speke Resort Munyonyo","Protea by Marriott Kampala","Latitude 0 Degrees"]},
+    "safari":    {"label":"Mara & Serengeti",   "segment":"bush",  "country":"KE/TZ",
+      "properties":["Governors' Camp","Mara Serena Safari Lodge","Angama Mara","Kichwa Tembo","Four Seasons Safari Lodge Serengeti","Serengeti Serena Safari Lodge","Mara Intrepids"]}
+  }
+}

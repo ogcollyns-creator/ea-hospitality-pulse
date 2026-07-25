@@ -86,6 +86,28 @@
   .adv-note{font-family:'Helvetica Neue',Arial,sans-serif;font-size:12px;color:var(--muted);margin:10px 2px 0}
   @media(max-width:640px){.pn{max-width:none}.adv-table th:nth-child(1){width:1%}}
 
+  /* Rate index */
+  .ri-wrap{padding:34px 0 6px}
+  .ri-badge{display:inline-block;background:var(--gold);color:#231a06;font-family:'Helvetica Neue',Arial,sans-serif;font-size:11px;font-weight:800;letter-spacing:1px;text-transform:uppercase;padding:3px 9px;border-radius:20px;margin-bottom:6px}
+  .ri-tiles{display:grid;grid-template-columns:repeat(auto-fill,minmax(190px,1fr));gap:14px;margin:16px 0}
+  .ri-tile{background:var(--card);border:1px solid var(--line);border-radius:12px;padding:16px 18px}
+  .ri-tile .m{font-family:'Helvetica Neue',Arial,sans-serif;font-size:12px;text-transform:uppercase;letter-spacing:1px;color:var(--muted)}
+  .ri-tile .v{font-size:27px;font-weight:700;margin:6px 0 2px}
+  .ri-tile .d{font-family:'Helvetica Neue',Arial,sans-serif;font-size:13px;font-weight:700}
+  .ri-tile .up{color:#2e7d32}.ri-tile .dn{color:#c0392b}.ri-tile .flat{color:var(--muted)}
+  .ri-tile .cov{font-family:'Helvetica Neue',Arial,sans-serif;font-size:11px;color:var(--muted);margin-top:6px}
+  .ri-empty{background:var(--card);border:1px dashed var(--line);border-radius:12px;padding:22px 24px;margin:14px 0}
+  .ri-empty h3{margin:0 0 8px;font-size:18px}
+  .ri-empty p{margin:0 0 8px;font-size:14.5px;color:var(--muted)}
+  .ri-chart{background:var(--card);border:1px solid var(--line);border-radius:12px;padding:16px;margin:14px 0}
+  .bm-table{width:100%;border-collapse:separate;border-spacing:0;background:var(--card);border:1px solid var(--line);border-radius:12px;overflow:hidden;margin-top:8px}
+  .bm-table th,.bm-table td{text-align:left;padding:11px 13px;border-bottom:1px solid var(--line);font-size:14px}
+  .bm-table thead th{font-family:'Helvetica Neue',Arial,sans-serif;font-size:11px;text-transform:uppercase;letter-spacing:1px;color:var(--muted);background:var(--sand-2)}
+  .bm-table tr:last-child td{border-bottom:none}
+  .bm-table td.val{font-weight:700;white-space:nowrap}
+  .bm-table td.src{font-family:'Helvetica Neue',Arial,sans-serif;font-size:12px;color:var(--muted)}
+  .method{font-family:'Helvetica Neue',Arial,sans-serif;font-size:12px;color:var(--muted);margin-top:12px;line-height:1.5}
+
   /* Sections */
   section{padding:40px 0}
   .section-head{display:flex;align-items:baseline;justify-content:space-between;gap:12px;flex-wrap:wrap;margin-bottom:18px}
@@ -161,6 +183,7 @@
     </div>
     <nav class="top">
       <a href="#advisories">Advisories</a>
+      <a href="#rateindex">Rate Index</a>
       <a href="#archive">Archive</a>
       <a href="#about">About</a>
       <a href="#subscribe">Subscribe</a>
@@ -193,6 +216,25 @@
     <div class="seg beach" onclick="showSegment('beach')"><div class="tag">Beach &amp; coast</div><h3>Charter &amp; leisure volume</h3><p>Route decisions, seasonality, Indian Ocean competition, regulation.</p><span class="go">View beach insights →</span></div>
   </div>
 </div>
+
+<section id="rateindex" class="wrap ri-wrap">
+  <div class="adv-head">
+    <div><span class="ri-badge">Proprietary data</span><h2>EA Pulse Rate Index</h2></div>
+    <span id="ri-updated"></span>
+  </div>
+  <p style="max-width:70ch;margin:0 0 6px;color:var(--muted);font-size:15px">
+    A fixed basket of 40 properties across six East African markets, tracked weekly at a constant booking window — so movement in the index means movement in <em>rate</em>, not a change of sample. Published nowhere else for this region.
+  </p>
+  <div id="ri-body"></div>
+  <div id="ri-chartbox" class="ri-chart" style="display:none"><canvas id="ri-canvas" height="110"></canvas></div>
+
+  <h3 style="margin:26px 0 2px;font-size:18px">Market benchmarks we track</h3>
+  <table class="bm-table">
+    <thead><tr><th>Market</th><th>Metric</th><th>Value</th><th>Period</th><th>Source</th></tr></thead>
+    <tbody id="bm-body"></tbody>
+  </table>
+  <p class="method" id="ri-method"></p>
+</section>
 
 <section id="advisories" class="wrap adv-wrap">
   <div class="adv-head">
@@ -278,6 +320,8 @@
 
 <script>document.write('<scr'+'ipt src="advisories.js?t='+Date.now()+'"></scr'+'ipt>');</script>
 <script>document.write('<scr'+'ipt src="pdf.js?t='+Date.now()+'"></scr'+'ipt>');</script>
+<script>document.write('<scr'+'ipt src="rates.js?t='+Date.now()+'"></scr'+'ipt>');</script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/4.4.1/chart.umd.min.js"></script>
 <script>document.write('<scr'+'ipt src="data.js?t='+Date.now()+'"></scr'+'ipt>');</script>
 <script>
   const editions = window.EDITIONS || [];
@@ -427,6 +471,71 @@
       box.style.display='block';
     }
   }
+  // ---- Rate Index ----
+  function renderRateIndex(){
+    const R=window.RATE_INDEX; if(!R) return;
+    const up=document.getElementById('ri-updated');
+    if(up) up.textContent='Updated '+R.updated;
+    const body=document.getElementById('ri-body');
+    const method=document.getElementById('ri-method');
+    if(method) method.innerHTML='<b>Method:</b> weekly median of published lead-in rates (lowest available double, '
+      +R.convention.occupancy+', '+R.convention.los+'-night stay booked ~'+R.convention.lead_days+' days ahead, '+R.convention.currency+'). '
+      +'Median is used so a single luxury outlier cannot swing a market. The first week with '+R.minN+'+ observations sets that market\'s baseline = 100. '
+      +'Coverage is shown per market so you can judge reliability. Basket of '+R.basketSize+' properties, fixed by design.';
+
+    // benchmarks table (always has content)
+    const bm=document.getElementById('bm-body');
+    if(bm && R.benchmarks && R.benchmarks.items){
+      bm.innerHTML='';
+      R.benchmarks.items.forEach(b=>{
+        const tr=document.createElement('tr');
+        tr.innerHTML='<td>'+b.market+'</td><td>'+b.metric+'</td><td class="val">'+b.value+'</td><td>'+b.period+'</td>'+
+          '<td class="src">'+(b.url?('<a href="'+b.url+'" target="_blank" rel="noopener">'+b.source+'</a>'):b.source)+'</td>';
+        tr.title=b.note||''; bm.appendChild(tr);
+      });
+    }
+
+    const withData=Object.values(R.markets).filter(m=>m.latest);
+    if(!withData.length){
+      body.innerHTML='<div class="ri-empty"><h3>Collection starts this week</h3>'+
+        '<p>The basket of <b>'+R.basketSize+' properties</b> across Nairobi, Mombasa &amp; Diani, Zanzibar, Kigali, Kampala &amp; Entebbe, and the Mara &amp; Serengeti is locked in. '+
+        'Each market publishes its first index reading once it has '+R.minN+'+ observations, and a trend line once it has three weeks.</p>'+
+        '<p>Until then, the sourced market benchmarks below are what we track publicly.</p></div>';
+      return;
+    }
+    let tiles='<div class="ri-tiles">';
+    Object.values(R.markets).forEach(m=>{
+      if(!m.latest) return;
+      const w=m.wow, cls=w==null?'flat':(w>0?'up':(w<0?'dn':'flat'));
+      const arrow=w==null?'':(w>0?'▲':(w<0?'▼':'■'));
+      tiles+='<div class="ri-tile"><div class="m">'+m.label+'</div>'+
+        '<div class="v">'+(m.latest.index!=null?m.latest.index:'—')+'</div>'+
+        '<div class="d '+cls+'">'+(w==null?'baseline week':arrow+' '+Math.abs(w)+'% WoW')+'</div>'+
+        '<div class="cov">median US$'+m.latest.median+' · '+m.latest.n+'/'+m.basketSize+' observed ('+m.latest.coverage+'%)'+
+        (m.latest.confident?'':' · low confidence')+'</div></div>';
+    });
+    body.innerHTML=tiles+'</div>';
+
+    // chart
+    const withSeries=Object.values(R.markets).filter(m=>m.series.filter(p=>p.index!=null).length>1);
+    if(withSeries.length && window.Chart){
+      const box=document.getElementById('ri-chartbox'); box.style.display='block';
+      const weeks=[...new Set(withSeries.flatMap(m=>m.series.map(p=>p.week)))].sort();
+      const palette=['#0f6d63','#c8892f','#3a6ea5','#7a8b3c','#1596a3','#a3506b'];
+      new Chart(document.getElementById('ri-canvas'),{
+        type:'line',
+        data:{labels:weeks,datasets:withSeries.map((m,i)=>({
+          label:m.label, borderColor:palette[i%palette.length], backgroundColor:palette[i%palette.length],
+          tension:.3, spanGaps:true,
+          data:weeks.map(w=>{const p=m.series.find(x=>x.week===w); return p?p.index:null;})
+        }))},
+        options:{responsive:true,plugins:{legend:{labels:{font:{family:'Helvetica Neue, Arial'}}},
+          title:{display:true,text:'Rate index by market (baseline week = 100)'}},
+          scales:{y:{title:{display:true,text:'Index'}}}}
+      });
+    }
+  }
+  renderRateIndex();
   renderPdf();
   renderAdvisories();
   render();
