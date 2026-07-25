@@ -136,6 +136,25 @@
   .vd.correct{background:#2e7d32}.vd.incorrect{background:#c0392b}.vd.partial{background:#b8860b}.vd.open{background:var(--teal)}
   .vd.overdue{background:#8a6d3b}
 
+  /* Rules tracker */
+  .rl-wrap{padding:34px 0 6px}
+  .rl-group{margin-bottom:22px}
+  .rl-group h3{font-size:19px;margin:0 0 10px;display:flex;align-items:center;gap:8px}
+  .rl-item{background:var(--card);border:1px solid var(--line);border-radius:10px;padding:14px 16px;margin-bottom:9px;display:grid;grid-template-columns:1fr auto;gap:10px;align-items:start}
+  .rl-item.action{border-left:4px solid var(--gold)}
+  .rl-item.unver{border-left:4px solid #c0392b}
+  .rl-item .r{font-weight:700;font-size:15.5px}
+  .rl-item .w{font-family:'Helvetica Neue',Arial,sans-serif;font-size:12.5px;color:var(--muted);margin-top:2px}
+  .rl-item .n{font-family:'Helvetica Neue',Arial,sans-serif;font-size:13.5px;margin-top:7px;line-height:1.45}
+  .rl-item .amt{font-family:'Helvetica Neue',Arial,sans-serif;font-weight:800;font-size:16px;color:var(--teal-d);white-space:nowrap;text-align:right}
+  .rl-item .eff{font-family:'Helvetica Neue',Arial,sans-serif;font-size:11.5px;color:var(--muted);text-align:right;margin-top:3px}
+  .rl-item .src{font-family:'Helvetica Neue',Arial,sans-serif;font-size:11.5px;color:var(--muted);margin-top:6px;font-style:italic}
+  .unver-tag{background:#c0392b;color:#fff;font-family:'Helvetica Neue',Arial,sans-serif;font-size:10.5px;font-weight:700;padding:2px 7px;border-radius:20px;margin-left:6px}
+  .share-row{display:flex;gap:8px;flex-wrap:wrap;margin:10px 0 4px}
+  .share-btn{font-family:'Helvetica Neue',Arial,sans-serif;font-size:13px;font-weight:600;padding:8px 13px;border-radius:8px;border:1px solid var(--line);background:var(--card);cursor:pointer;color:var(--teal-d)}
+  .share-btn:hover{background:var(--sand-2)}
+  @media(max-width:640px){.rl-item{grid-template-columns:1fr}.rl-item .amt,.rl-item .eff{text-align:left}}
+
   /* Sections */
   section{padding:40px 0}
   .section-head{display:flex;align-items:baseline;justify-content:space-between;gap:12px;flex-wrap:wrap;margin-bottom:18px}
@@ -212,6 +231,7 @@
     <nav class="top">
       <a href="#advisories">Advisories</a>
       <a href="#rateindex">Rate Index</a>
+      <a href="#rules">Rules &amp; fees</a>
       <a href="#track">Track record</a>
       <a href="#archive">Archive</a>
       <a href="#about">About</a>
@@ -263,6 +283,18 @@
     <tbody id="bm-body"></tbody>
   </table>
   <p class="method" id="ri-method"></p>
+</section>
+
+<section id="rules" class="wrap rl-wrap">
+  <div class="adv-head">
+    <div><span class="ri-badge">Living reference</span><h2>Rules, fees &amp; levies</h2></div>
+    <span id="rl-updated"></span>
+  </div>
+  <p style="max-width:72ch;margin:0 0 14px;color:var(--muted);font-size:15px">
+    Every entry rule, permit price, levy and surcharge across the five markets — with what it costs, who it applies to, and when it took effect. The things that stop a guest at immigration or surprise them at checkout. Bookmark it.
+  </p>
+  <div id="rl-body"></div>
+  <p class="method">Compiled from official sources and kept current by our daily scan. Anything we haven't re-confirmed recently is marked <span class="unver-tag">VERIFY</span> — always confirm with the official portal before quoting a client.</p>
 </section>
 
 <section id="track" class="wrap tr-wrap">
@@ -371,6 +403,7 @@
 <script>document.write('<scr'+'ipt src="pdf.js?t='+Date.now()+'"></scr'+'ipt>');</script>
 <script>document.write('<scr'+'ipt src="rates.js?t='+Date.now()+'"></scr'+'ipt>');</script>
 <script>document.write('<scr'+'ipt src="ledger.js?t='+Date.now()+'"></scr'+'ipt>');</script>
+<script>document.write('<scr'+'ipt src="rules.js?t='+Date.now()+'"></scr'+'ipt>');</script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/4.4.1/chart.umd.min.js"></script>
 <script>document.write('<scr'+'ipt src="data.js?t='+Date.now()+'"></scr'+'ipt>');</script>
 <script>
@@ -443,6 +476,7 @@
       countEl.textContent=all.length?('Showing '+list.length+' of '+all.length+' edition'+(all.length===1?'':'s')):'';
       loadBtn.style.display=all.length>shown?'inline-block':'none';
       list.forEach(e=>cardsEl.appendChild(editionCard(e)));
+      addShareRow();
       return;
     }
     backEl.style.display='inline'; filter.style.display='none';
@@ -464,6 +498,7 @@
     countEl.textContent=all.length?('Showing '+list.length+' of '+all.length+' '+unit+(all.length===1?'':'s')):'';
     loadBtn.style.display=all.length>shown?'inline-block':'none';
     list.forEach(i=>cardsEl.appendChild(insightCard(i,segClass)));
+    addShareRow();
   }
 
   function openEdition(e){
@@ -612,11 +647,69 @@
       document.getElementById('tr-resolved').innerHTML=L.resolved.map(card).join('');
     }
   }
+  // ---- Rules & fees tracker ----
+  function renderRules(){
+    const R=window.RULES; if(!R) return;
+    const up=document.getElementById('rl-updated'); if(up) up.textContent='Updated '+R.updated;
+    const box=document.getElementById('rl-body'); if(!box) return;
+    box.innerHTML=R.groups.map(g=>
+      '<div class="rl-group"><h3><span>'+g.flag+'</span>'+g.country+'</h3>'+
+      g.items.map(i=>{
+        const cls=i.verified===false?'unver':(i.flag==='action'?'action':'');
+        return '<div class="rl-item '+cls+'"><div>'+
+          '<div class="r">'+i.rule+(i.verified===false?'<span class="unver-tag">VERIFY</span>':'')+'</div>'+
+          '<div class="w">'+i.who+'</div>'+
+          '<div class="n">'+i.note+'</div>'+
+          '<div class="src">Source: '+i.source+'</div></div>'+
+          '<div><div class="amt">'+i.amount+'</div><div class="eff">'+i.effective+'</div></div></div>';
+      }).join('')+'</div>').join('');
+  }
+
+  // ---- Deep links: /?country=ZNZ or /?segment=bush ----
+  function applyDeepLink(){
+    const p=new URLSearchParams(location.search);
+    const c=(p.get('country')||'').toUpperCase(), sg=(p.get('segment')||'').toLowerCase();
+    if(c && COUNTRY[c]){ mode='CTRY:'+c; return true; }
+    if(sg && SEG[sg]){ mode=sg; return true; }
+    return false;
+  }
+  function shareLink(){
+    let url=location.origin+location.pathname;
+    if(mode!=='editions'){
+      url += mode.startsWith('CTRY:') ? ('?country='+mode.slice(5)) : ('?segment='+mode);
+    }
+    return url;
+  }
+  function addShareRow(){
+    const host=document.getElementById('count'); if(!host) return;
+    let row=document.getElementById('share-row');
+    if(!row){
+      row=document.createElement('div'); row.id='share-row'; row.className='share-row';
+      host.parentNode.insertBefore(row,host);
+    }
+    if(mode==='editions'){ row.innerHTML=''; return; }
+    const u=shareLink();
+    row.innerHTML='<button class="share-btn" id="cp">🔗 Copy link to this view</button>'+
+      '<a class="share-btn" target="_blank" rel="noopener" href="https://wa.me/?text='+encodeURIComponent(document.getElementById('arch-title').textContent+' — EA Hospitality Pulse '+u)+'">Share on WhatsApp</a>'+
+      '<a class="share-btn" target="_blank" rel="noopener" href="https://t.me/share/url?url='+encodeURIComponent(u)+'&text='+encodeURIComponent(document.getElementById('arch-title').textContent)+'">Share on Telegram</a>';
+    document.getElementById('cp').onclick=()=>{
+      navigator.clipboard.writeText(u).then(()=>{
+        const b=document.getElementById('cp'); b.textContent='✓ Copied'; setTimeout(()=>b.textContent='🔗 Copy link to this view',1800);
+      });
+    };
+  }
+  renderRules();
   renderLedger();
   renderRateIndex();
   renderPdf();
   renderAdvisories();
-  render();
+  if(applyDeepLink()){ render(); setTimeout(()=>document.getElementById('archive').scrollIntoView({behavior:'smooth'}),300); }
+  else { render(); }
 </script>
+<!-- Privacy-friendly analytics. To activate: create a free Cloudflare Web Analytics
+     site (dash.cloudflare.com -> Analytics -> Web Analytics), copy your token, and
+     replace CLOUDFLARE_TOKEN below. No cookies, no consent banner required. -->
+<script defer src="https://static.cloudflareinsights.com/beacon.min.js"
+        data-cf-beacon='{"token": "CLOUDFLARE_TOKEN"}'></script>
 </body>
 </html>
