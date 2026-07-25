@@ -20,15 +20,23 @@ if not TOKEN:
     sys.exit(0)
 
 def newest_edition():
-    """Most recent edition file — used for manual re-posts."""
-    d = "editions-src"
-    if not os.path.isdir(d):
+    """
+    Most recently COMMITTED edition — used for manual re-posts.
+    Uses git history rather than filename sorting, because filenames don't sort
+    chronologically ("evening" < "midday" < "morning" alphabetically).
+    """
+    try:
+        out = subprocess.run(
+            ["git", "log", "--diff-filter=AM", "--name-only", "--format=", "--", "editions-src/"],
+            capture_output=True, text=True, check=True).stdout
+    except subprocess.CalledProcessError as e:
+        print("::warning::git log failed:", e)
         return []
-    files = [os.path.join(d, f) for f in os.listdir(d) if f.endswith(".md")]
-    if not files:
-        return []
-    files.sort(key=lambda f: (re.findall(r"\d{4}-\d{2}-\d{2}", f) or [""])[0] + f, reverse=True)
-    return [files[0]]
+    for line in out.splitlines():
+        line = line.strip()
+        if line.endswith(".md") and os.path.exists(line):
+            return [line]          # first hit = most recent commit touching an edition
+    return []
 
 def added_files():
     """Edition files added in this push."""
