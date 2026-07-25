@@ -1,8 +1,8 @@
 window.LEDGER = {
- "updated": "2026-07-25 13:13",
+ "updated": "2026-07-25 20:17",
  "stats": {
-  "total": 8,
-  "open": 8,
+  "total": 10,
+  "open": 10,
   "resolved": 0,
   "correct": 0,
   "partial": 0,
@@ -91,6 +91,22 @@ window.LEDGER = {
    "overdue": false
   },
   {
+   "id": "P009",
+   "made_date": "2026-07-25",
+   "edition": "Evening Wrap",
+   "claim": "No Kenyan court will order a halt to operations at any Maasai Mara reserve camp before the 2026 crossing season ends",
+   "resolution_criteria": "No ELC or appellate order suspending operations of Ritz-Carlton Mara , Sala's Camp or Elewana Sand River reported by Business Daily or published on Kenya Law by 31 Oct 2026",
+   "resolve_by": "2026-10-31",
+   "market": "KE",
+   "segment": "Bush",
+   "confidence": "Reported",
+   "status": "open",
+   "resolved_date": "",
+   "evidence": "",
+   "source_url": "",
+   "overdue": false
+  },
+  {
    "id": "P006",
    "made_date": "2026-07-25",
    "edition": "Morning Brief",
@@ -99,6 +115,22 @@ window.LEDGER = {
    "resolve_by": "2027-01-31",
    "market": "Regional",
    "segment": "All",
+   "confidence": "Early signal",
+   "status": "open",
+   "resolved_date": "",
+   "evidence": "",
+   "source_url": "",
+   "overdue": false
+  },
+  {
+   "id": "P010",
+   "made_date": "2026-07-25",
+   "edition": "Evening Wrap",
+   "claim": "Uganda's 10-year tourism tax holiday will not produce a publicly announced branded hotel signing of US$10m or more before FHS Africa Kampala",
+   "resolution_criteria": "No Uganda hotel investment of US$10m+ announced by Uganda Investment Authority , UTB or hospitality trade press between 25 Jul 2026 and 3 Feb 2027",
+   "resolve_by": "2027-02-03",
+   "market": "UG",
+   "segment": "City/Bush",
    "confidence": "Early signal",
    "status": "open",
    "resolved_date": "",

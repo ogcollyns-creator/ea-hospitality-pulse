@@ -18,6 +18,15 @@ window.EDITIONS = [
   "bodyHtml": "<p><span class=\"meta-line\">🏨 EA HOSPITALITY PULSE — Midday Pulse</span><br><span class=\"meta-line\">📅 Saturday, 25 July 2026 | 🇺🇬🇰🇪🇹🇿🇷🇼</span></p>\n<p>Uganda owns the midday tape: an Ebola all-clear in sight, a bigger airline network, and a 2027 MICE win worth pricing now.</p>\n<p>━━━━━━━━━<br><span class=\"item-head\">1️⃣ UGANDA&#x27;S EBOLA COUNTDOWN NEARS THE FINISH</span><br>Uganda stands at 20 confirmed cases and 2 deaths, with no new case since 21 June (per CDC health advisory, 17 July). If that holds, the 42-day clock points to a formal all-clear in early-to-mid August. DRC&#x27;s Ituri outbreak remains serious at 1,000+ cases, and US airport entry screening was scheduled &quot;through at least 21 July&quot; — watch whether it now lapses.<br><span class=\"sowhat\">🎯 So what: don&#x27;t go quiet. Send agents and DMC partners a dated one-page fact sheet (last Uganda case 21 June; gorilla parks unaffected) and defend Q4 permit bookings with flexible cancellation terms — not discounts.</span><br><span class=\"tagline\">🏷 Bush, City | UG | Confirmed</span></p>\n<p><span class=\"item-head\">2️⃣ UGANDA AIRLINES WIDENS THE NET</span><br>The carrier&#x27;s new July timetable shows 14 destinations from Entebbe: daily Nairobi and Dar es Salaam, Zanzibar 3x weekly, London Gatwick 3x weekly, Mumbai 2x weekly (per KATA, citing the published schedule). It stacks on Safarilink&#x27;s new daily Nairobi–Kisumu–Entebbe service.<br><span class=\"sowhat\">🎯 So what: build Entebbe-hub combos — Kampala + Bwindi + Zanzibar — into 2027 itineraries, and pitch UK and India source markets directly off the Gatwick and Mumbai links.</span><br><span class=\"tagline\">🏷 All segments | UG, KE, TZ/ZNZ | Confirmed</span></p>\n<p><span class=\"item-head\">3️⃣ KAMPALA LANDS FHS AFRICA 2027</span><br>The Future Hospitality Summit Africa comes to Kampala 2–3 February 2027 — Uganda&#x27;s first time hosting (per UG Standard). Investors, operators and developers in one room, with citywide compression around the dates.<br><span class=\"sowhat\">🎯 So what: Kampala city hotels — protect corporate allotments for that week now and price for compression; owners hunting capital should already be booked in.</span><br><span class=\"tagline\">🏷 City | UG | Confirmed</span></p>\n<p>Also noted: RDB has been courting Abercrombie &amp; Kent on a wider Rwanda footprint (per ATQ News) — an early signal for the luxury bush pipeline.</p>\n<p><span class=\"meta-line\">💬 Uganda properties — is the Ebola story still costing you bookings? Reply and tell us.</span><br>— EA Hospitality Pulse | Daily intelligence for city, bush &amp; beach properties</p>"
  },
  {
+  "id": "pulse-2026-07-25-evening",
+  "date": "2026-07-25",
+  "dateDisplay": "Saturday, 25 July 2026",
+  "edition": "Evening Wrap",
+  "editionKey": "evening",
+  "summary": "The most consequential document in the Mara this season is not a migration forecast. It is a petition file in Nairobi.",
+  "bodyHtml": "<p><span class=\"meta-line\">🏨 EA HOSPITALITY PULSE — Evening Wrap</span><br><span class=\"meta-line\">📅 Saturday, 25 July 2026 | 🇰🇪🇺🇬</span></p>\n<p>The most consequential document in the Mara this season is not a migration forecast. It is a petition file in Nairobi.</p>\n<p>━━━━━━━━━<br><span class=\"item-head\">1️⃣ THE MARA&#x27;S SUPPLY QUESTION IS NOW A COURT CASE</span><br>A coalition — the East Africa Law Society, Natural Justice, JustAct and the Africa Centre for Peace and Human Rights — has filed a constitutional petition in the Environment and Land Court in Nairobi targeting the Ritz-Carlton Maasai Mara Safari Camp, Sala&#x27;s Camp and Elewana Sand River (per Business Daily, 2 July). Respondents include Marriott International, Lazizi Mara, Narok County, NEMA and KWS. The petitioners want new accommodation development halted in sensitive zones, a 2024 presidential exemption from the reserve&#x27;s moratorium declared unconstitutional, and an audit of every facility operating in the Low Use Zone and the Mara River Ecological Zone.<br><span class=\"sowhat\">🎯 So what: this is not a Marriott story. An audit order reaches every approval issued under the same regime. Pull your EIA licence, lease and zone designation into one file this week and have counsel confirm exactly which zone of the 2023–2032 management plan you sit in.</span><br><span class=\"tagline\">🏷 Bush | KE | Confirmed</span></p>\n<p><span class=\"item-head\">2️⃣ MIGRATION SEASON IS SOLID — AND QUIETLY SHIFTING</span><br>The season has opened well. Private Safaris&#x27; Bainito Musumba puts most Mara properties above 75% occupancy with excellent sightings; Hemingways Travel&#x27;s Joseph Kithitu calls bookings &quot;more measured&quot; — earlier, more price-conscious (per Tourism Update, 15 July). Expert Africa&#x27;s Richard Trillo says informed travellers increasingly choose Naboisho, Olare Motorogi and Mara North over the reserve itself.<br><span class=\"sowhat\">🎯 So what: the premium is migrating from the reserve to the conservancies. Reserve-side camps must sell crossing access and exclusivity explicitly; conservancy camps should hold rate through October rather than chase volume.</span><br><span class=\"tagline\">🏷 Bush | KE, TZ | Reported</span></p>\n<p><span class=\"item-head\">3️⃣ UGANDA PUTS TEN YEARS OF TAX ON THE TABLE</span><br>Uganda&#x27;s FY2026/27 budget carries a 10-year income tax exemption for high-end tourism developments — US$10m for foreign investors, US$5m for Ugandans — plus VAT waivers and duty-free import of hotel furniture, fittings and equipment (per Daily Monitor and Nile Post, citing Finance Minister Henry Musasizi).<br><span class=\"sowhat\">🎯 So what: paired with FHS Africa in Kampala next February, Uganda&#x27;s pitch is now fiscal, not scenic. If you have been modelling a Ugandan project on Kenyan tax assumptions, rerun it this quarter.</span><br><span class=\"tagline\">🏷 City, Bush | UG | Confirmed</span></p>\n<p><span class=\"meta-line\">💬 Mara operators — has anyone asked you for your zone designation this season? Reply and tell us.</span><br>— EA Hospitality Pulse | Daily intelligence for city, bush &amp; beach properties</p>"
+ },
+ {
   "id": "playbook-2026-07-25-uganda",
   "date": "2026-07-25",
   "dateDisplay": "Saturday, 25 July 2026",
@@ -192,6 +201,52 @@ window.INSIGHTS = [
   "dateDisplay": "Saturday, 25 July 2026",
   "edition": "Midday Pulse",
   "editionKey": "midday"
+ },
+ {
+  "headline": "THE MARA'S SUPPLY QUESTION IS NOW A COURT CASE",
+  "body": "A coalition — the East Africa Law Society, Natural Justice, JustAct and the Africa Centre for Peace and Human Rights — has filed a constitutional petition in the Environment and Land Court in Nairobi targeting the Ritz-Carlton Maasai Mara Safari Camp, Sala's Camp and Elewana Sand River (per Business Daily, 2 July). Respondents include Marriott International, Lazizi Mara, Narok County, NEMA and KWS. The petitioners want new accommodation development halted in sensitive zones, a 2024 presidential exemption from the reserve's moratorium declared unconstitutional, and an audit of every facility operating in the Low Use Zone and the Mara River Ecological Zone.",
+  "sowhat": "🎯 So what: this is not a Marriott story. An audit order reaches every approval issued under the same regime. Pull your EIA licence, lease and zone designation into one file this week and have counsel confirm exactly which zone of the 2023–2032 management plan you sit in.",
+  "segments": [
+   "bush"
+  ],
+  "countries": "KE",
+  "confidence": "Confirmed",
+  "source": "pulse-2026-07-25-evening",
+  "date": "2026-07-25",
+  "dateDisplay": "Saturday, 25 July 2026",
+  "edition": "Evening Wrap",
+  "editionKey": "evening"
+ },
+ {
+  "headline": "MIGRATION SEASON IS SOLID — AND QUIETLY SHIFTING",
+  "body": "The season has opened well. Private Safaris' Bainito Musumba puts most Mara properties above 75% occupancy with excellent sightings; Hemingways Travel's Joseph Kithitu calls bookings \"more measured\" — earlier, more price-conscious (per Tourism Update, 15 July). Expert Africa's Richard Trillo says informed travellers increasingly choose Naboisho, Olare Motorogi and Mara North over the reserve itself.",
+  "sowhat": "🎯 So what: the premium is migrating from the reserve to the conservancies. Reserve-side camps must sell crossing access and exclusivity explicitly; conservancy camps should hold rate through October rather than chase volume.",
+  "segments": [
+   "bush"
+  ],
+  "countries": "KE, TZ",
+  "confidence": "Reported",
+  "source": "pulse-2026-07-25-evening",
+  "date": "2026-07-25",
+  "dateDisplay": "Saturday, 25 July 2026",
+  "edition": "Evening Wrap",
+  "editionKey": "evening"
+ },
+ {
+  "headline": "UGANDA PUTS TEN YEARS OF TAX ON THE TABLE",
+  "body": "Uganda's FY2026/27 budget carries a 10-year income tax exemption for high-end tourism developments — US$10m for foreign investors, US$5m for Ugandans — plus VAT waivers and duty-free import of hotel furniture, fittings and equipment (per Daily Monitor and Nile Post, citing Finance Minister Henry Musasizi).",
+  "sowhat": "🎯 So what: paired with FHS Africa in Kampala next February, Uganda's pitch is now fiscal, not scenic. If you have been modelling a Ugandan project on Kenyan tax assumptions, rerun it this quarter.",
+  "segments": [
+   "city",
+   "bush"
+  ],
+  "countries": "UG",
+  "confidence": "Confirmed",
+  "source": "pulse-2026-07-25-evening",
+  "date": "2026-07-25",
+  "dateDisplay": "Saturday, 25 July 2026",
+  "edition": "Evening Wrap",
+  "editionKey": "evening"
  },
  {
   "headline": "THE DATE IS KNOWABLE: ~27 AUGUST",
@@ -558,4 +613,4 @@ window.INSIGHTS = [
   "editionKey": "evening"
  }
 ];
-window.BUILT_AT = "2026-07-25 13:13";
+window.BUILT_AT = "2026-07-25 20:17";
