@@ -18,6 +18,15 @@ window.EDITIONS = [
   "bodyHtml": "<p><span class=\"meta-line\">🏨 EA HOSPITALITY PULSE — SPECIAL EDITION</span><br><span class=\"meta-line\">📅 Saturday, 25 July 2026 | 🇺🇬🇷🇼🇰🇪🇹🇿</span></p>\n<p>Uganda&#x27;s Ebola clock ends around 27 August. Most operators will plan the wrong recovery — here&#x27;s the 72-hour playbook.</p>\n<hr class=\"divider\">\n<p><span class=\"item-head\">1️⃣ THE DATE IS KNOWABLE: ~27 AUGUST</span><br>Uganda discharged its last Ebola patient on 16 July, starting the WHO 42-day countdown (WHO Afro). Last case was 21 June; 20 cases, 2 deaths, 15 of them imported from DRC. Absent new cases, the outbreak can be declared over around 27 August — 33 days out.<br><span class=\"sowhat\">🎯 So what: Build your Sept-Dec recovery campaign NOW and load it before 20 August. Brief trade partners the week of 17 August. By the time bookings visibly return, your competitors have taken the share.</span><br><span class=\"tagline\">🏷 Bush, City | UG | Confirmed</span></p>\n<p><span class=\"item-head\">2️⃣ THE ALL-CLEAR WON&#x27;T LIFT THE US ADVISORY</span><br>This is the misread that will cost money. State&#x27;s Level 4 (renewed 4 June) cites crime, health, terrorism AND unrest — health is one of four grounds. The outbreak ending clears one pillar, not the advisory.<br><span class=\"sowhat\">🎯 So what: Anchor your recovery messaging on the WHO declaration, not on a State Department change that may never come. Plan for Level 4 persisting.</span><br><span class=\"tagline\">🏷 Bush, City | UG | Confirmed</span></p>\n<p><span class=\"item-head\">3️⃣ USE THE DIVERGENCE — IT&#x27;S YOUR BEST ASSET</span><br>The US CDC rates Ebola in DRC/Uganda Level 2 &quot;Practice Enhanced Precautions&quot; while State says Do Not Travel — a split inside the same government. The UK FCDO (updated 1 July) carries no country-wide warning at all, only regional advice for western Uganda.<br><span class=\"sowhat\">🎯 So what: Your UK and European book is defensible on official grounds; your US book is not. Ring-fence the messaging — don&#x27;t alarm markets that haven&#x27;t moved.</span><br><span class=\"tagline\">🏷 All segments | UG, RW | Confirmed</span></p>\n<p><span class=\"item-head\">4️⃣ WATCH MARBURG, NOT EBOLA</span><br>A separate Marburg death (18-month-old, Kyegegwa, western Uganda, confirmed 2 July) was caught by Ebola surveillance. Isolated so far, no secondary cases. If it spreads, the clock resets.<br><span class=\"sowhat\">🎯 So what: This is your single daily monitoring item. Everything else is on a schedule; this isn&#x27;t.</span><br><span class=\"tagline\">🏷 Bush | UG | Confirmed</span></p>\n<p>━━━━━━━━━<br><span class=\"meta-line\">📡 THE 72-HOUR PROTOCOL</span><br><span class=\"radar-item\">▪️ 0-6h: Screenshot the State and CDC pages side by side. Confirm your distance from Kyegegwa in km. Call insurers — get cover status IN WRITING. That decides whether guests CAN come, not just whether they want to.</span><br><span class=\"radar-item\">▪️ 6-24h: Split the book by source market. Triage US arrivals inside 90 days. Offer free date changes into Q1 2027 BEFORE anyone asks for a refund — a postponement keeps the cash, a refund loses it.</span><br><span class=\"radar-item\">▪️ 24-72h: Measure PACE, not cancellations. Bush operators: August is committed and will look fine while your 2027 season quietly dies. Defend the far book. City/MICE: audit every corporate group through Q4 — duty-of-care blocks are automatic under Level 4.</span></p>\n<p>⛔ DO NOT<br><span class=\"radar-item\">▪️ Discount. This is a permission-and-insurance problem, not a price problem. Compete on flexibility and inclusions.</span><br><span class=\"radar-item\">▪️ Wait for the all-clear to start marketing. By 27 August it&#x27;s too late to begin.</span><br><span class=\"radar-item\">▪️ Assume the advisory drops with the outbreak.</span></p>\n<p><span class=\"meta-line\">💬 Kenya and Tanzania operators: correct the &quot;East Africa is one outbreak zone&quot; framing explicitly. Nobody will do it for you.</span><br>— EA Hospitality Pulse | Daily intelligence for city, bush &amp; beach properties</p>"
  },
  {
+  "id": "playbook-2026-07-25-entry-rules",
+  "date": "2026-07-25",
+  "dateDisplay": "Saturday, 25 July 2026",
+  "edition": "Shock Playbook",
+  "editionKey": "playbook",
+  "summary": "This stopped being an advisory story and became an entry-rules story. Advisories affect whether guests WANT to come. Entry rules affect whether they CAN. Check your bookings today.",
+  "bodyHtml": "<p><span class=\"meta-line\">🏨 EA HOSPITALITY PULSE — SPECIAL EDITION</span><br><span class=\"meta-line\">📅 Saturday, 25 July 2026 | 🇷🇼🇰🇪🇹🇿🇺🇬</span></p>\n<p>This stopped being an advisory story and became an entry-rules story. Advisories affect whether guests WANT to come. Entry rules affect whether they CAN. Check your bookings today.</p>\n<hr class=\"divider\">\n<p><span class=\"item-head\">1️⃣ RWANDA IS DENYING ENTRY ON 30-DAY DRC HISTORY</span><br>Foreign nationals who have travelled to OR TRANSITED the DRC within 30 days are refused entry to Rwanda (Rwanda Ministry of Health, Notice on Enhanced Ebola Prevention Measures). Rwandan nationals and residents may enter but face mandatory quarantine on the same history. Enhanced controls at Kigali International and all DRC land crossings. Note the irony: Rwanda has no cases, and reported no active cases in bordering areas as of 16 June.<br><span class=\"sowhat\">🎯 So what: Audit every forward booking for DRC TRANSIT, not just DRC destination — a guest connecting through Kinshasa or Goma is caught. Any Virunga or Nyiragongo pairing with Rwandan gorilla trekking is unsellable inside the window. Contact affected guests BEFORE they discover it at check-in; an entry refusal at Kigali is a permanent refund and a catastrophic review.</span><br><span class=\"tagline\">🏷 Bush, City | RW | Confirmed</span></p>\n<p><span class=\"item-head\">2️⃣ KENYA AND TANZANIA ARE FRICTION, NOT DENIAL</span><br>Kenya&#x27;s Civil Aviation Authority circular AIC 07/26 requires airlines on DRC/Uganda flights to issue an Electronic Traveller Surveillance Form before departure. Tanzania&#x27;s Travel Advisory No. 17 (18 May) mandates a surveillance form plus temperature screening at all points of entry. Both countries remain open and unaffected — zero cases, precautionary measures only.<br><span class=\"sowhat\">🎯 So what: Put the surveillance form into your pre-arrival email TODAY with the link. A guest meeting a form requirement at disembarkation is an avoidable bad review. And correct the framing actively — Kenya and Tanzania are being described as restricted when they are not. Nobody else will do it for you.</span><br><span class=\"tagline\">🏷 All segments | KE, TZ | Confirmed</span></p>\n<p><span class=\"item-head\">3️⃣ THE SECOND CLOCK NOBODY IS WATCHING</span><br>Uganda&#x27;s outbreak can be declared over around 27 August. That will NOT clear these entry rules — they are keyed to the DRC outbreak, which continues. Two separate clocks.<br><span class=\"sowhat\">🎯 So what: Build two recovery triggers, not one. Planning your whole Sept–Dec recovery on Uganda&#x27;s declaration will leave you exposed if the DRC rules persist.</span><br><span class=\"tagline\">🏷 Bush, City | RW, UG | Confirmed</span></p>\n<p>━━━━━━━━━<br><span class=\"meta-line\">📡 THE FIRST 72 HOURS</span><br><span class=\"radar-item\">▪️ 0-6h: Pull every booking with a DRC leg — transit counts. Check Israeli-market exposure separately.</span><br><span class=\"radar-item\">▪️ 6-24h: Kenya/TZ — surveillance form into pre-arrival comms. Rwanda — rebook affected guests proactively.</span><br><span class=\"radar-item\">▪️ 24-72h: Brief DMCs in writing with the three-way distinction: Rwanda = entry rules, Kenya/TZ = screening only, Uganda = advisory. Agents are conflating all three, and whoever explains it clearly becomes their source.</span></p>\n<p>⛔ DO NOT<br><span class=\"radar-item\">▪️ Assume &quot;destination DRC&quot; is the test. It&#x27;s transit.</span><br><span class=\"radar-item\">▪️ Discount. Entry denial is the purest ability problem — no price opens a closed border.</span><br><span class=\"radar-item\">▪️ Let Kenya and Tanzania be described as restricted.</span></p>\n<p>💡 The substitution still works: Rwanda&#x27;s gorilla product is unaffected for guests with no DRC history, and Uganda&#x27;s permits are US$800 against Rwanda&#x27;s US$1,500 — US$600 in April, May and November.</p>\n<p><span class=\"meta-line\">💬 How many of your forward bookings have a DRC connection? Worth checking today.</span><br>— EA Hospitality Pulse | Daily intelligence for city, bush &amp; beach properties</p>"
+ },
+ {
   "id": "pulse-2026-07-24-midday-2",
   "date": "2026-07-24",
   "dateDisplay": "Friday, 24 July 2026",
@@ -186,6 +195,55 @@ window.INSIGHTS = [
   "countries": "UG",
   "confidence": "Confirmed",
   "source": "playbook-2026-07-25-uganda",
+  "date": "2026-07-25",
+  "dateDisplay": "Saturday, 25 July 2026",
+  "edition": "Shock Playbook",
+  "editionKey": "playbook"
+ },
+ {
+  "headline": "RWANDA IS DENYING ENTRY ON 30-DAY DRC HISTORY",
+  "body": "Foreign nationals who have travelled to OR TRANSITED the DRC within 30 days are refused entry to Rwanda (Rwanda Ministry of Health, Notice on Enhanced Ebola Prevention Measures). Rwandan nationals and residents may enter but face mandatory quarantine on the same history. Enhanced controls at Kigali International and all DRC land crossings. Note the irony: Rwanda has no cases, and reported no active cases in bordering areas as of 16 June.",
+  "sowhat": "🎯 So what: Audit every forward booking for DRC TRANSIT, not just DRC destination — a guest connecting through Kinshasa or Goma is caught. Any Virunga or Nyiragongo pairing with Rwandan gorilla trekking is unsellable inside the window. Contact affected guests BEFORE they discover it at check-in; an entry refusal at Kigali is a permanent refund and a catastrophic review.",
+  "segments": [
+   "city",
+   "bush"
+  ],
+  "countries": "RW",
+  "confidence": "Confirmed",
+  "source": "playbook-2026-07-25-entry-rules",
+  "date": "2026-07-25",
+  "dateDisplay": "Saturday, 25 July 2026",
+  "edition": "Shock Playbook",
+  "editionKey": "playbook"
+ },
+ {
+  "headline": "KENYA AND TANZANIA ARE FRICTION, NOT DENIAL",
+  "body": "Kenya's Civil Aviation Authority circular AIC 07/26 requires airlines on DRC/Uganda flights to issue an Electronic Traveller Surveillance Form before departure. Tanzania's Travel Advisory No. 17 (18 May) mandates a surveillance form plus temperature screening at all points of entry. Both countries remain open and unaffected — zero cases, precautionary measures only.",
+  "sowhat": "🎯 So what: Put the surveillance form into your pre-arrival email TODAY with the link. A guest meeting a form requirement at disembarkation is an avoidable bad review. And correct the framing actively — Kenya and Tanzania are being described as restricted when they are not. Nobody else will do it for you.",
+  "segments": [
+   "city",
+   "bush",
+   "beach"
+  ],
+  "countries": "KE, TZ",
+  "confidence": "Confirmed",
+  "source": "playbook-2026-07-25-entry-rules",
+  "date": "2026-07-25",
+  "dateDisplay": "Saturday, 25 July 2026",
+  "edition": "Shock Playbook",
+  "editionKey": "playbook"
+ },
+ {
+  "headline": "THE SECOND CLOCK NOBODY IS WATCHING",
+  "body": "Uganda's outbreak can be declared over around 27 August. That will NOT clear these entry rules — they are keyed to the DRC outbreak, which continues. Two separate clocks.",
+  "sowhat": "🎯 So what: Build two recovery triggers, not one. Planning your whole Sept–Dec recovery on Uganda's declaration will leave you exposed if the DRC rules persist.",
+  "segments": [
+   "city",
+   "bush"
+  ],
+  "countries": "RW, UG",
+  "confidence": "Confirmed",
+  "source": "playbook-2026-07-25-entry-rules",
   "date": "2026-07-25",
   "dateDisplay": "Saturday, 25 July 2026",
   "edition": "Shock Playbook",
@@ -443,4 +501,4 @@ window.INSIGHTS = [
   "editionKey": "evening"
  }
 ];
-window.BUILT_AT = "2026-07-25 09:29";
+window.BUILT_AT = "2026-07-25 09:49";
