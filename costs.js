@@ -1,0 +1,47 @@
+// EA Pulse Cost-Side Index — the margin half of the P&L.
+// Demand data tells you what you can sell; this tells you what it costs to deliver.
+// Maintained by the weekly Pulse cost sweep. Every figure carries a source.
+window.COSTS = {
+ updated: "25 July 2026",
+ note: "Owners live on margin, not arrivals. These are the inputs that move it.",
+ items: [
+  { group:"Fuel — Kenya", flag:"🇰🇪", metric:"Super petrol (Nairobi)", value:"KSh 214.03/L",
+    change:"unchanged", dir:"flat", period:"15 Jul – 14 Aug 2026",
+    note:"Held flat only because the government is injecting KSh 945m from the Petroleum Development Levy this cycle. That support is discretionary — treat the current price as propped, not stable.",
+    source:"EPRA", verified:true },
+  { group:"Fuel — Kenya", flag:"🇰🇪", metric:"Diesel (Nairobi)", value:"KSh 222.86/L",
+    change:"unchanged this cycle (−KSh 10.00 previous)", dir:"flat", period:"15 Jul – 14 Aug 2026",
+    note:"Diesel is the safari cost driver: game drives, generators, transfers, supply runs. The KSh 10 cut in the June cycle was material — check it reached your P&L.",
+    source:"EPRA", verified:true },
+  { group:"Fuel — Kenya", flag:"🇰🇪", metric:"Kerosene (Nairobi)", value:"KSh 191.38/L",
+    change:"unchanged", dir:"flat", period:"15 Jul – 14 Aug 2026", note:"Relevant to remote camps still running kerosene lighting or heating.",
+    source:"EPRA", verified:true },
+  { group:"Currency", flag:"🌍", metric:"KES → UGX", value:"28.54",
+    change:"stable", dir:"flat", period:"w/e 16 Jul 2026",
+    note:"Regional cross-rates matter for cross-border sourcing and for pricing regional guests.",
+    source:"Central Bank of Kenya weekly bulletin", verified:true },
+  { group:"Currency", flag:"🌍", metric:"KES → TZS", value:"20.37",
+    change:"KES edged higher", dir:"up", period:"w/e 16 Jul 2026",
+    note:"A stronger shilling against the TZS makes Kenyan product marginally dearer to Tanzanian buyers.",
+    source:"Central Bank of Kenya", verified:true },
+  { group:"Currency", flag:"🌍", metric:"KES → RWF", value:"11.34",
+    change:"no movement", dir:"flat", period:"w/e 16 Jul 2026", note:"Flat week.",
+    source:"Central Bank of Kenya", verified:true },
+  { group:"Currency", flag:"🇺🇬", metric:"UGX vs USD", value:"Strongest EAC performer",
+    change:"appreciating", dir:"up", period:"2026 to date",
+    note:"A strengthening shilling squeezes USD-earning Ugandan operators — your dollar rate buys fewer shillings to pay local costs. If you price in USD and spend in UGX, this is a real margin headwind.",
+    source:"Bank of Uganda / regional press", verified:true },
+  { group:"Inflation", flag:"🇰🇪", metric:"Kenya CPI (annual)", value:"6.7%",
+    change:"above regional peers", dir:"up", period:"May 2026",
+    note:"Feeds wages, food and laundry costs. Kenya is the region's inflation outlier right now — build it into 2027 rate cards rather than absorbing it.",
+    source:"KNBS", verified:true },
+  { group:"Inflation", flag:"🇹🇿", metric:"Tanzania inflation (annual avg)", value:"3.3%",
+    change:"lowest in region", dir:"flat", period:"2025",
+    note:"Tanzanian cost base is comparatively benign — an advantage Zanzibar and mainland operators can hold rate against.",
+    source:"NBS Tanzania", verified:true },
+  { group:"Inflation", flag:"🇺🇬", metric:"Uganda inflation", value:"~3.6%",
+    change:"contained", dir:"flat", period:"2025 avg",
+    note:"Low inflation underpins the shilling's strength — good for the economy, mixed for USD-earning exporters of tourism.",
+    source:"UBOS / BoU", verified:true }
+ ]
+};

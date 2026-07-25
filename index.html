@@ -155,6 +155,26 @@
   .share-btn:hover{background:var(--sand-2)}
   @media(max-width:640px){.rl-item{grid-template-columns:1fr}.rl-item .amt,.rl-item .eff{text-align:left}}
 
+  /* Cost index + data calendar */
+  .ct-grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(280px,1fr));gap:13px;margin:14px 0}
+  .ct{background:var(--card);border:1px solid var(--line);border-radius:11px;padding:15px 17px}
+  .ct .g{font-family:'Helvetica Neue',Arial,sans-serif;font-size:11px;text-transform:uppercase;letter-spacing:1px;color:var(--muted)}
+  .ct .m{font-weight:700;font-size:15px;margin:3px 0 6px}
+  .ct .v{font-size:23px;font-weight:800;color:var(--teal-d)}
+  .ct .c{font-family:'Helvetica Neue',Arial,sans-serif;font-size:12.5px;font-weight:700;margin-top:3px}
+  .ct .c.up{color:#c0392b}.ct .c.down{color:#2e7d32}.ct .c.flat{color:var(--muted)}
+  .ct .p{font-family:'Helvetica Neue',Arial,sans-serif;font-size:11.5px;color:var(--muted);margin-top:4px}
+  .ct .n{font-family:'Helvetica Neue',Arial,sans-serif;font-size:13px;margin-top:9px;line-height:1.45}
+  .ct .s{font-family:'Helvetica Neue',Arial,sans-serif;font-size:11.5px;color:var(--muted);margin-top:7px;font-style:italic}
+  .cal-table{width:100%;border-collapse:separate;border-spacing:0;background:var(--card);border:1px solid var(--line);border-radius:12px;overflow:hidden;margin-top:10px}
+  .cal-table th,.cal-table td{text-align:left;padding:11px 13px;border-bottom:1px solid var(--line);font-size:14px;vertical-align:top}
+  .cal-table thead th{font-family:'Helvetica Neue',Arial,sans-serif;font-size:11px;text-transform:uppercase;letter-spacing:1px;color:var(--muted);background:var(--sand-2)}
+  .cal-table tr:last-child td{border-bottom:none}
+  .cal-table .bd{font-weight:700;white-space:nowrap}
+  .cal-table .cad{font-family:'Helvetica Neue',Arial,sans-serif;font-size:12.5px;color:var(--teal-d);font-weight:600;white-space:nowrap}
+  .cal-table .why{font-family:'Helvetica Neue',Arial,sans-serif;font-size:12.5px;color:var(--muted)}
+  @media(max-width:720px){.cal-table thead{display:none}.cal-table td{display:block;border:none;padding:4px 13px}.cal-table tr{display:block;border-bottom:1px solid var(--line);padding:8px 0}}
+
   /* Sections */
   section{padding:40px 0}
   .section-head{display:flex;align-items:baseline;justify-content:space-between;gap:12px;flex-wrap:wrap;margin-bottom:18px}
@@ -231,6 +251,7 @@
     <nav class="top">
       <a href="#advisories">Advisories</a>
       <a href="#rateindex">Rate Index</a>
+      <a href="#costs">Costs</a>
       <a href="#rules">Rules &amp; fees</a>
       <a href="#track">Track record</a>
       <a href="#archive">Archive</a>
@@ -283,6 +304,26 @@
     <tbody id="bm-body"></tbody>
   </table>
   <p class="method" id="ri-method"></p>
+</section>
+
+<section id="costs" class="wrap rl-wrap">
+  <div class="adv-head">
+    <div><span class="ri-badge">Margin watch</span><h2>Cost-side index</h2></div>
+    <span id="ct-updated"></span>
+  </div>
+  <p style="max-width:72ch;margin:0 0 6px;color:var(--muted);font-size:15px">
+    Demand data tells you what you can sell. This is what it costs to deliver — fuel, currency and inflation across the five markets. Owners live on margin, and most hospitality coverage ignores this half of the P&amp;L entirely.
+  </p>
+  <div id="ct-body" class="ct-grid"></div>
+
+  <h3 style="margin:30px 0 4px;font-size:19px">Data release calendar</h3>
+  <p style="max-width:72ch;margin:0 0 6px;color:var(--muted);font-size:14.5px">
+    When the numbers land. Most outlets report these two to three days late — we analyse them the morning they publish.
+  </p>
+  <table class="cal-table">
+    <thead><tr><th>Source</th><th>Release</th><th>Cadence</th><th>Why it matters</th></tr></thead>
+    <tbody id="cal-body"></tbody>
+  </table>
 </section>
 
 <section id="rules" class="wrap rl-wrap">
@@ -404,6 +445,8 @@
 <script>document.write('<scr'+'ipt src="rates.js?t='+Date.now()+'"></scr'+'ipt>');</script>
 <script>document.write('<scr'+'ipt src="ledger.js?t='+Date.now()+'"></scr'+'ipt>');</script>
 <script>document.write('<scr'+'ipt src="rules.js?t='+Date.now()+'"></scr'+'ipt>');</script>
+<script>document.write('<scr'+'ipt src="costs.js?t='+Date.now()+'"></scr'+'ipt>');</script>
+<script>document.write('<scr'+'ipt src="calendar.js?t='+Date.now()+'"></scr'+'ipt>');</script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/4.4.1/chart.umd.min.js"></script>
 <script>document.write('<scr'+'ipt src="data.js?t='+Date.now()+'"></scr'+'ipt>');</script>
 <script>
@@ -698,6 +741,30 @@
       });
     };
   }
+  // ---- Cost-side index + data calendar ----
+  function renderCosts(){
+    const C=window.COSTS;
+    if(C){
+      const up=document.getElementById('ct-updated'); if(up) up.textContent='Updated '+C.updated;
+      const b=document.getElementById('ct-body');
+      if(b) b.innerHTML=C.items.map(i=>
+        '<div class="ct"><div class="g">'+i.flag+' '+i.group+'</div>'+
+        '<div class="m">'+i.metric+'</div>'+
+        '<div class="v">'+i.value+'</div>'+
+        '<div class="c '+(i.dir||'flat')+'">'+i.change+'</div>'+
+        '<div class="p">'+i.period+'</div>'+
+        '<div class="n">'+i.note+'</div>'+
+        '<div class="s">Source: '+i.source+'</div></div>').join('');
+    }
+    const D=window.DATACAL;
+    if(D){
+      const cb=document.getElementById('cal-body');
+      if(cb) cb.innerHTML=D.sources.map(r=>
+        '<tr><td class="bd">'+r.flag+' '+(r.url?('<a href="'+r.url+'" target="_blank" rel="noopener">'+r.body+'</a>'):r.body)+'</td>'+
+        '<td>'+r.release+'</td><td class="cad">'+r.cadence+'</td><td class="why">'+r.why+'</td></tr>').join('');
+    }
+  }
+  renderCosts();
   renderRules();
   renderLedger();
   renderRateIndex();
