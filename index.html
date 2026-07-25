@@ -108,6 +108,23 @@
   .bm-table td.src{font-family:'Helvetica Neue',Arial,sans-serif;font-size:12px;color:var(--muted)}
   .method{font-family:'Helvetica Neue',Arial,sans-serif;font-size:12px;color:var(--muted);margin-top:12px;line-height:1.5}
 
+  /* Track record */
+  .tr-wrap{padding:34px 0 6px}
+  .tr-stats{display:grid;grid-template-columns:repeat(auto-fill,minmax(150px,1fr));gap:14px;margin:16px 0}
+  .tr-stat{background:var(--card);border:1px solid var(--line);border-radius:12px;padding:16px 18px;text-align:center}
+  .tr-stat .n{font-size:28px;font-weight:700}
+  .tr-stat .l{font-family:'Helvetica Neue',Arial,sans-serif;font-size:12px;text-transform:uppercase;letter-spacing:1px;color:var(--muted);margin-top:4px}
+  .pred{background:var(--card);border:1px solid var(--line);border-left:4px solid var(--muted);border-radius:10px;padding:15px 18px;margin-bottom:12px}
+  .pred.correct{border-left-color:#2e7d32}.pred.incorrect{border-left-color:#c0392b}
+  .pred.partial{border-left-color:#b8860b}.pred.open{border-left-color:var(--teal)}
+  .pred .ph{font-family:'Helvetica Neue',Arial,sans-serif;font-size:12px;color:var(--muted);display:flex;gap:8px;flex-wrap:wrap;margin-bottom:5px}
+  .pred .claim{font-size:15.5px;font-weight:600;line-height:1.4}
+  .pred .crit{font-family:'Helvetica Neue',Arial,sans-serif;font-size:12.5px;color:var(--muted);margin-top:6px}
+  .pred .ev{font-family:'Helvetica Neue',Arial,sans-serif;font-size:13px;margin-top:7px;background:var(--sand-2);padding:7px 11px;border-radius:6px}
+  .vd{font-weight:700;font-family:'Helvetica Neue',Arial,sans-serif;font-size:12px;padding:2px 8px;border-radius:20px;color:#fff}
+  .vd.correct{background:#2e7d32}.vd.incorrect{background:#c0392b}.vd.partial{background:#b8860b}.vd.open{background:var(--teal)}
+  .vd.overdue{background:#8a6d3b}
+
   /* Sections */
   section{padding:40px 0}
   .section-head{display:flex;align-items:baseline;justify-content:space-between;gap:12px;flex-wrap:wrap;margin-bottom:18px}
@@ -184,6 +201,7 @@
     <nav class="top">
       <a href="#advisories">Advisories</a>
       <a href="#rateindex">Rate Index</a>
+      <a href="#track">Track record</a>
       <a href="#archive">Archive</a>
       <a href="#about">About</a>
       <a href="#subscribe">Subscribe</a>
@@ -234,6 +252,23 @@
     <tbody id="bm-body"></tbody>
   </table>
   <p class="method" id="ri-method"></p>
+</section>
+
+<section id="track" class="wrap tr-wrap">
+  <div class="adv-head">
+    <div><span class="ri-badge">The record</span><h2>Foresight track record</h2></div>
+    <span id="tr-updated"></span>
+  </div>
+  <p style="max-width:72ch;margin:0 0 6px;color:var(--muted);font-size:15px">
+    Every forecast we publish is logged here with a falsifiable test and a resolve-by date — and scored when the evidence lands, including the ones we get wrong. Anyone can sound confident about the future; this is the part that can be checked.
+  </p>
+  <div id="tr-stats" class="tr-stats"></div>
+  <h3 style="margin:22px 0 10px;font-size:18px">Open calls</h3>
+  <div id="tr-open"></div>
+  <div id="tr-resolved-wrap" style="display:none">
+    <h3 style="margin:22px 0 10px;font-size:18px">Resolved</h3>
+    <div id="tr-resolved"></div>
+  </div>
 </section>
 
 <section id="advisories" class="wrap adv-wrap">
@@ -321,6 +356,7 @@
 <script>document.write('<scr'+'ipt src="advisories.js?t='+Date.now()+'"></scr'+'ipt>');</script>
 <script>document.write('<scr'+'ipt src="pdf.js?t='+Date.now()+'"></scr'+'ipt>');</script>
 <script>document.write('<scr'+'ipt src="rates.js?t='+Date.now()+'"></scr'+'ipt>');</script>
+<script>document.write('<scr'+'ipt src="ledger.js?t='+Date.now()+'"></scr'+'ipt>');</script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/4.4.1/chart.umd.min.js"></script>
 <script>document.write('<scr'+'ipt src="data.js?t='+Date.now()+'"></scr'+'ipt>');</script>
 <script>
@@ -535,6 +571,34 @@
       });
     }
   }
+  // ---- Foresight track record ----
+  function renderLedger(){
+    const L=window.LEDGER; if(!L) return;
+    const up=document.getElementById('tr-updated'); if(up) up.textContent='Updated '+L.updated;
+    const st=L.stats;
+    document.getElementById('tr-stats').innerHTML=
+      '<div class="tr-stat"><div class="n">'+st.total+'</div><div class="l">Calls logged</div></div>'+
+      '<div class="tr-stat"><div class="n">'+st.open+'</div><div class="l">Open</div></div>'+
+      '<div class="tr-stat"><div class="n">'+st.resolved+'</div><div class="l">Resolved</div></div>'+
+      '<div class="tr-stat"><div class="n">'+(st.accuracy==null?'—':st.accuracy+'%')+'</div><div class="l">Accuracy</div></div>';
+    const card=(p)=>{
+      const badge=p.overdue&&p.status==='open'?'<span class="vd overdue">AWAITING EVIDENCE</span>'
+        :'<span class="vd '+p.status+'">'+p.status.toUpperCase()+'</span>';
+      return '<div class="pred '+p.status+'">'+
+        '<div class="ph">'+badge+'<span>'+p.id+'</span><span>· made '+p.made_date+'</span>'+
+        '<span>· '+p.edition+'</span><span>· '+p.market+'</span>'+
+        (p.status==='open'?'<span>· resolve by '+p.resolve_by+'</span>':'<span>· resolved '+(p.resolved_date||'')+'</span>')+'</div>'+
+        '<div class="claim">'+p.claim+'</div>'+
+        '<div class="crit"><b>Test:</b> '+p.resolution_criteria+'</div>'+
+        (p.evidence?'<div class="ev"><b>Evidence:</b> '+p.evidence+'</div>':'')+'</div>';
+    };
+    document.getElementById('tr-open').innerHTML=L.open.map(card).join('')||'<p style="color:var(--muted)">No open calls.</p>';
+    if(L.resolved.length){
+      document.getElementById('tr-resolved-wrap').style.display='block';
+      document.getElementById('tr-resolved').innerHTML=L.resolved.map(card).join('');
+    }
+  }
+  renderLedger();
   renderRateIndex();
   renderPdf();
   renderAdvisories();

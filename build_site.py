@@ -232,6 +232,12 @@ def main():
     open(os.path.join(HERE,"robots.txt"),"w",encoding="utf-8").write(
         "User-agent: *\nAllow: /\nSitemap: "+BASE+"/sitemap.xml\n")
 
+    try:
+        import subprocess
+        subprocess.run(["python3", os.path.join(HERE, "build_ledger.py")], check=False)
+    except Exception as e:
+        print("ledger build skipped:", e)
+
     print(f"Built: {len(editions)} editions ({len(editions)} pages), {len(insights)} insights, sitemap with {len(urls)} URLs.")
 
 if __name__ == "__main__":
