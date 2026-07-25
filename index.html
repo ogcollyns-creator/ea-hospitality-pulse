@@ -175,6 +175,20 @@
   .cal-table .why{font-family:'Helvetica Neue',Arial,sans-serif;font-size:12.5px;color:var(--muted)}
   @media(max-width:720px){.cal-table thead{display:none}.cal-table td{display:block;border:none;padding:4px 13px}.cal-table tr{display:block;border-bottom:1px solid var(--line);padding:8px 0}}
 
+  /* Connectivity + rivals */
+  .rt{background:var(--card);border:1px solid var(--line);border-left:4px solid var(--teal);border-radius:10px;padding:13px 16px;margin-bottom:9px}
+  .rt.up{border-left-color:#2e7d32}.rt.down{border-left-color:#c0392b}.rt.flat{border-left-color:var(--muted)}
+  .rt .c{font-weight:700;font-size:15px}
+  .rt .st{font-family:'Helvetica Neue',Arial,sans-serif;font-size:12px;color:var(--muted);margin-top:2px}
+  .rt .im{font-family:'Helvetica Neue',Arial,sans-serif;font-size:13.5px;margin-top:7px;line-height:1.45}
+  .rv-set{margin-bottom:20px}
+  .rv-set h3{font-size:18px;margin:0 0 9px}
+  .rv{background:var(--card);border:1px solid var(--line);border-radius:10px;padding:13px 16px;margin-bottom:8px}
+  .rv .nm{font-weight:700;font-size:15px}
+  .rv .wt{font-family:'Helvetica Neue',Arial,sans-serif;font-size:12.5px;color:var(--gold-d);font-weight:600;margin-top:2px}
+  .rv .wy{font-family:'Helvetica Neue',Arial,sans-serif;font-size:13.5px;margin-top:6px;line-height:1.45}
+  .rv .sg{font-family:'Helvetica Neue',Arial,sans-serif;font-size:12px;color:var(--muted);margin-top:6px;font-style:italic}
+
   /* Sections */
   section{padding:40px 0}
   .section-head{display:flex;align-items:baseline;justify-content:space-between;gap:12px;flex-wrap:wrap;margin-bottom:18px}
@@ -251,7 +265,9 @@
     <nav class="top">
       <a href="#advisories">Advisories</a>
       <a href="#rateindex">Rate Index</a>
+      <a href="#connect">Connectivity</a>
       <a href="#costs">Costs</a>
+      <a href="#rivals">Rivals</a>
       <a href="#rules">Rules &amp; fees</a>
       <a href="#track">Track record</a>
       <a href="#archive">Archive</a>
@@ -306,6 +322,20 @@
   <p class="method" id="ri-method"></p>
 </section>
 
+<section id="connect" class="wrap rl-wrap">
+  <div class="adv-head">
+    <div><span class="ri-badge">Lift &amp; access</span><h2>Connectivity tracker</h2></div>
+    <span id="cn-updated"></span>
+  </div>
+  <p style="max-width:72ch;margin:0 0 6px;color:var(--muted);font-size:15px">
+    Seats decide arrivals. We track official airport traffic and every confirmed route change — because no amount of marketing replaces lift.
+  </p>
+  <div id="cn-traffic" class="ct-grid"></div>
+  <h3 style="margin:24px 0 8px;font-size:18px">Route events</h3>
+  <div id="cn-routes"></div>
+  <p class="method"><b>Scope note:</b> true seats-per-week data sits behind commercial aviation databases, so we don't publish a seat count we can't verify. What's here is official traffic (lagging but authoritative) and confirmed route events (forward-looking and actionable).</p>
+</section>
+
 <section id="costs" class="wrap rl-wrap">
   <div class="adv-head">
     <div><span class="ri-badge">Margin watch</span><h2>Cost-side index</h2></div>
@@ -336,6 +366,17 @@
   </p>
   <div id="rl-body"></div>
   <p class="method">Compiled from official sources and kept current by our daily scan. Anything we haven't re-confirmed recently is marked <span class="unver-tag">VERIFY</span> — always confirm with the official portal before quoting a client.</p>
+</section>
+
+<section id="rivals" class="wrap rl-wrap">
+  <div class="adv-head">
+    <div><span class="ri-badge">Know the competition</span><h2>Competitive destinations</h2></div>
+    <span id="rv-updated"></span>
+  </div>
+  <p style="max-width:72ch;margin:0 0 12px;color:var(--muted);font-size:15px">
+    East Africa isn't sold in isolation. When Mauritius discounts, Zanzibar bleeds. When the rand weakens, South African safari undercuts the Mara. These are the destinations competing for your guest.
+  </p>
+  <div id="rv-body"></div>
 </section>
 
 <section id="track" class="wrap tr-wrap">
@@ -417,6 +458,7 @@
           <a href="https://t.me/africabusinessriskreview" target="_blank" rel="noopener">Telegram channel <span>→</span></a>
           <a href="https://www.linkedin.com/company/ea-hospitality-pulse/" data-channel="linkedin" target="_blank" rel="noopener">LinkedIn <span>→</span></a>
           <a href="https://whatsapp.com/channel/0029VbCjul2KmCPTv8Qrh73b" data-channel="whatsapp" target="_blank" rel="noopener">WhatsApp Channel <span>→</span></a>
+          <a href="survey.html" style="background:rgba(200,137,47,.35)">Operator Sentiment Survey <span>→</span></a>
         </div>
       </div>
     </div>
@@ -447,6 +489,8 @@
 <script>document.write('<scr'+'ipt src="rules.js?t='+Date.now()+'"></scr'+'ipt>');</script>
 <script>document.write('<scr'+'ipt src="costs.js?t='+Date.now()+'"></scr'+'ipt>');</script>
 <script>document.write('<scr'+'ipt src="calendar.js?t='+Date.now()+'"></scr'+'ipt>');</script>
+<script>document.write('<scr'+'ipt src="connectivity.js?t='+Date.now()+'"></scr'+'ipt>');</script>
+<script>document.write('<scr'+'ipt src="rivals.js?t='+Date.now()+'"></scr'+'ipt>');</script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/4.4.1/chart.umd.min.js"></script>
 <script>document.write('<scr'+'ipt src="data.js?t='+Date.now()+'"></scr'+'ipt>');</script>
 <script>
@@ -764,6 +808,33 @@
         '<td>'+r.release+'</td><td class="cad">'+r.cadence+'</td><td class="why">'+r.why+'</td></tr>').join('');
     }
   }
+  function renderConnect(){
+    const C=window.CONNECT; if(!C) return;
+    const u=document.getElementById('cn-updated'); if(u) u.textContent='Updated '+C.updated;
+    const t=document.getElementById('cn-traffic');
+    if(t) t.innerHTML=C.traffic.map(i=>
+      '<div class="ct"><div class="g">'+i.flag+' '+i.airport+' ('+i.code+')</div>'+
+      '<div class="m">'+i.metric+'</div><div class="v">'+i.value+'</div>'+
+      '<div class="c '+(i.dir||'flat')+'">'+i.change+'</div><div class="p">'+i.period+'</div>'+
+      '<div class="n">'+i.note+'</div><div class="s">Source: '+i.source+'</div></div>').join('');
+    const r=document.getElementById('cn-routes');
+    if(r) r.innerHTML=C.routes.map(x=>
+      '<div class="rt '+(x.dir||'flat')+'"><div class="c">'+x.carrier+' — '+x.route+'</div>'+
+      '<div class="st">'+x.status+' · '+x.effective+' · '+x.segment+' · '+x.source+'</div>'+
+      '<div class="im">'+x.impact+'</div></div>').join('');
+  }
+  function renderRivals(){
+    const R=window.RIVALS; if(!R) return;
+    const u=document.getElementById('rv-updated'); if(u) u.textContent='Updated '+R.updated;
+    const b=document.getElementById('rv-body'); if(!b) return;
+    b.innerHTML=R.sets.map(s2=>
+      '<div class="rv-set"><h3>'+s2.flag+' '+s2.competes+'</h3>'+
+      s2.rivals.map(v=>'<div class="rv"><div class="nm">'+v.name+'</div>'+
+        '<div class="wt">Watch: '+v.watch+'</div><div class="wy">'+v.why+'</div>'+
+        '<div class="sg">Signal: '+v.signal+'</div></div>').join('')+'</div>').join('');
+  }
+  renderConnect();
+  renderRivals();
   renderCosts();
   renderRules();
   renderLedger();

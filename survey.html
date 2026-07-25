@@ -1,0 +1,106 @@
+<!DOCTYPE html><html lang="en"><head><meta charset="UTF-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>EA Hospitality Sentiment Index — quarterly operator survey</title>
+<meta name="description" content="Anonymous quarterly survey of East African hotel, lodge and resort operators. Six questions, two minutes. Results published free to all participants.">
+<link rel="icon" href="favicon.png">
+<style>
+:root{--sand:#f6f1e7;--sand2:#efe7d6;--ink:#1f2421;--muted:#6b6656;--gold:#c8892f;--gold-d:#a86f1f;--teal:#0f6d63;--teal-d:#0a4f48;--line:#e2d8c4;--card:#fffdf9}
+*{box-sizing:border-box}body{margin:0;font-family:Georgia,serif;background:var(--sand);color:var(--ink);line-height:1.6}
+.wrap{max-width:720px;margin:0 auto;padding:0 20px}
+header{background:linear-gradient(135deg,var(--teal-d),var(--teal));color:#fff;padding:30px 0;border-bottom:5px solid var(--gold)}
+header h1{margin:0 0 6px;font-size:26px}header p{margin:0;opacity:.9;font-size:15px}
+.card{background:var(--card);border:1px solid var(--line);border-radius:14px;padding:26px 28px;margin:24px auto}
+h2{font-size:19px;margin:0 0 4px}
+.q{margin:22px 0 0;padding-top:18px;border-top:1px solid var(--line)}
+.q:first-of-type{border-top:none;padding-top:0}
+label.qt{font-weight:700;font-size:16px;display:block;margin-bottom:8px}
+.hint{font-family:Helvetica,Arial,sans-serif;font-size:12.5px;color:var(--muted);margin-bottom:9px}
+.opts{display:flex;flex-wrap:wrap;gap:8px}
+.opt{font-family:Helvetica,Arial,sans-serif;font-size:14px;border:1px solid var(--line);background:#fff;border-radius:8px;padding:9px 14px;cursor:pointer}
+.opt input{margin-right:7px}
+.opt:hover{background:var(--sand2)}
+input[type=text],textarea,select{width:100%;font-family:Helvetica,Arial,sans-serif;font-size:14px;padding:10px 12px;border:1px solid var(--line);border-radius:8px;background:#fff}
+textarea{min-height:80px;resize:vertical}
+.note{background:var(--sand2);border-left:4px solid var(--gold);padding:12px 15px;border-radius:0 8px 8px 0;font-family:Helvetica,Arial,sans-serif;font-size:13.5px;margin:18px 0}
+button{background:var(--gold);color:#231a06;border:none;border-radius:8px;padding:14px 24px;font-family:Helvetica,Arial,sans-serif;font-weight:700;font-size:15px;cursor:pointer;margin-top:20px}
+button:hover{background:var(--gold-d);color:#fff}
+footer{text-align:center;color:var(--muted);font-family:Helvetica,Arial,sans-serif;font-size:12.5px;padding:26px}
+</style></head><body>
+<header><div class="wrap"><h1>EA Hospitality Sentiment Index</h1>
+<p>Quarterly operator survey · Kenya · Uganda · Tanzania · Zanzibar · Rwanda</p></div></header>
+<div class="wrap"><div class="card">
+<h2>Six questions. Two minutes. Completely anonymous.</h2>
+<p style="color:var(--muted);font-size:15px">We publish the aggregate results free to everyone who takes part — occupancy direction, rate movement, booking pace and the issues operators are actually worried about. No individual property is ever identified or its data published separately.</p>
+<div class="note"><b>Why this matters:</b> there is no independent sentiment measure for East African hospitality. STR is priced out of reach for most operators and covers only branded stock. If enough of us contribute, we create the benchmark the region has never had — and it belongs to the operators who built it.</div>
+
+<form id="f">
+  <div class="q"><label class="qt">1. Which best describes your property?</label>
+    <div class="opts">
+      <label class="opt"><input type="radio" name="type" value="city">City hotel</label>
+      <label class="opt"><input type="radio" name="type" value="bush">Safari lodge / camp</label>
+      <label class="opt"><input type="radio" name="type" value="beach">Beach resort</label>
+      <label class="opt"><input type="radio" name="type" value="other">Other</label>
+    </div>
+    <div style="margin-top:9px"><select name="country">
+      <option value="">Country…</option><option>Kenya</option><option>Uganda</option>
+      <option>Tanzania (mainland)</option><option>Zanzibar</option><option>Rwanda</option></select></div>
+  </div>
+
+  <div class="q"><label class="qt">2. Occupancy this quarter vs the same quarter last year</label>
+    <div class="opts">
+      <label class="opt"><input type="radio" name="occ" value="up10">Up more than 10%</label>
+      <label class="opt"><input type="radio" name="occ" value="up">Up slightly</label>
+      <label class="opt"><input type="radio" name="occ" value="flat">About the same</label>
+      <label class="opt"><input type="radio" name="occ" value="down">Down slightly</label>
+      <label class="opt"><input type="radio" name="occ" value="down10">Down more than 10%</label>
+    </div></div>
+
+  <div class="q"><label class="qt">3. Your average rate vs the same quarter last year</label>
+    <div class="opts">
+      <label class="opt"><input type="radio" name="adr" value="up">Raised it</label>
+      <label class="opt"><input type="radio" name="adr" value="flat">Held it</label>
+      <label class="opt"><input type="radio" name="adr" value="down">Discounted</label>
+    </div></div>
+
+  <div class="q"><label class="qt">4. Booking pace — new bookings arriving now vs three months ago</label>
+    <div class="hint">The number most operators don't track, and the one that predicts next quarter.</div>
+    <div class="opts">
+      <label class="opt"><input type="radio" name="pace" value="faster">Faster</label>
+      <label class="opt"><input type="radio" name="pace" value="same">About the same</label>
+      <label class="opt"><input type="radio" name="pace" value="slower">Slower</label>
+    </div></div>
+
+  <div class="q"><label class="qt">5. Your single biggest worry for the next six months</label>
+    <div class="opts">
+      <label class="opt"><input type="radio" name="worry" value="demand">Soft demand</label>
+      <label class="opt"><input type="radio" name="worry" value="costs">Rising costs / margin</label>
+      <label class="opt"><input type="radio" name="worry" value="advisory">Advisories &amp; security perception</label>
+      <label class="opt"><input type="radio" name="worry" value="supply">New competing supply</label>
+      <label class="opt"><input type="radio" name="worry" value="taxes">Taxes, levies &amp; fees</label>
+      <label class="opt"><input type="radio" name="worry" value="staff">Staffing &amp; skills</label>
+      <label class="opt"><input type="radio" name="worry" value="fx">Currency</label>
+    </div></div>
+
+  <div class="q"><label class="qt">6. Anything else the region should know? <span style="font-weight:400;color:var(--muted)">(optional)</span></label>
+    <textarea name="open" placeholder="What are you seeing that isn't in the headlines?"></textarea></div>
+
+  <div class="q"><label class="qt">Email for the results <span style="font-weight:400;color:var(--muted)">(optional)</span></label>
+    <div class="hint">Only used to send you the aggregate results. Never linked to your answers, never published, never sold.</div>
+    <input type="text" name="email" placeholder="you@email.com"></div>
+
+  <button type="submit">Submit — and get the results first</button>
+</form>
+<div id="msg" style="margin-top:16px;font-family:Helvetica,Arial,sans-serif;font-size:14px"></div>
+</div></div>
+<footer>EA Hospitality Pulse · Daily intelligence for city, bush &amp; beach properties<br>
+<a href="index.html">Back to the Pulse</a></footer>
+<script>
+document.getElementById('f').addEventListener('submit',function(e){
+  e.preventDefault();
+  document.getElementById('msg').innerHTML='<b>The survey opens with our next quarterly round.</b> '+
+   'We\'re building the participant base first so the results are statistically meaningful rather than anecdotal. '+
+   'Join the <a href="https://t.me/africabusinessriskreview" target="_blank" rel="noopener">Telegram channel</a> and you\'ll be first to know when it opens.';
+  document.getElementById('msg').scrollIntoView({behavior:'smooth'});
+});
+</script>
+</body></html>
