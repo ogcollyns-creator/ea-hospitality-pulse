@@ -12,7 +12,14 @@ import os, re, json, html, datetime
 HERE = os.path.dirname(os.path.abspath(__file__))
 SRC = os.path.join(HERE, "editions-src")
 EDIR = os.path.join(HERE, "editions")
-BASE = "https://ogcollyns-creator.github.io/ea-hospitality-pulse"  # change if a custom domain is added
+# Single source of truth for the domain — edit site_config.json, not this file.
+_cfg_path = os.path.join(HERE, "site_config.json")
+try:
+    _CFG = json.load(open(_cfg_path, encoding="utf-8"))
+except Exception:
+    _CFG = {}
+BASE = (_CFG.get("base") or "https://ogcollyns-creator.github.io/ea-hospitality-pulse").rstrip("/")
+CNAME = (_CFG.get("cname") or "").strip()
 
 EDITION_LABELS = {
     "morning": "Morning Brief", "midday": "Midday Pulse",
@@ -154,7 +161,10 @@ def edition_page(e):
 <meta property="og:type" content="article"><meta property="og:site_name" content="EA Hospitality Pulse">
 <meta property="og:title" content="{html.escape(e['edition']+' — '+e['dateDisplay'])}">
 <meta property="og:description" content="{html.escape(desc)}"><meta property="og:url" content="{url}">
-<meta name="twitter:card" content="summary">
+<meta property="og:image" content="{BASE}/og/{e['id']}.png"><meta property="og:image:width" content="1200"><meta property="og:image:height" content="630">
+<meta name="twitter:image" content="{BASE}/og/{e['id']}.png">
+<link rel="icon" href="../favicon.png"><link rel="apple-touch-icon" href="../apple-touch-icon.png">
+<meta name="twitter:card" content="summary_large_image">
 <meta name="twitter:title" content="{html.escape(e['edition']+' — '+e['dateDisplay'])}">
 <meta name="twitter:description" content="{html.escape(desc)}">
 <meta property="article:published_time" content="{e['date']}">
@@ -209,6 +219,17 @@ def main():
         f.write("window.EDITIONS = "+json.dumps(editions,ensure_ascii=False,indent=1)+";\n")
         f.write("window.INSIGHTS = "+json.dumps(insights,ensure_ascii=False,indent=1)+";\n")
         f.write("window.BUILT_AT = "+json.dumps(datetime.datetime.now().strftime("%Y-%m-%d %H:%M"))+";\n")
+
+    # branded social share images (uses the data.js just written)
+    try:
+        import subprocess
+        subprocess.run(["python3", os.path.join(HERE, "make_og_images.py")], check=False)
+    except Exception as e:
+        print("og image generation skipped:", e)
+
+    # CNAME for a custom domain
+    if CNAME:
+        open(os.path.join(HERE, "CNAME"), "w", encoding="utf-8").write(CNAME + "\n")
 
     # per-edition static pages
     os.makedirs(EDIR, exist_ok=True)
