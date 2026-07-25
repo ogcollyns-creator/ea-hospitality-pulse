@@ -19,6 +19,17 @@ if not TOKEN:
     print("::error::TELEGRAM_BOT_TOKEN secret is not set — skipping post.")
     sys.exit(0)
 
+def newest_edition():
+    """Most recent edition file — used for manual re-posts."""
+    d = "editions-src"
+    if not os.path.isdir(d):
+        return []
+    files = [os.path.join(d, f) for f in os.listdir(d) if f.endswith(".md")]
+    if not files:
+        return []
+    files.sort(key=lambda f: (re.findall(r"\d{4}-\d{2}-\d{2}", f) or [""])[0] + f, reverse=True)
+    return [files[0]]
+
 def added_files():
     """Edition files added in this push."""
     try:
@@ -65,7 +76,14 @@ def send(text):
         return json.loads(r.read().decode())
 
 def main():
-    files = added_files()
+    event = os.environ.get("GITHUB_EVENT_NAME", "")
+    if event == "workflow_dispatch":
+        # Manual run from the Actions tab: post the most recent edition.
+        # Use this to catch up after a failed run, or to test the pipeline.
+        files = newest_edition()
+        print(f"Manual dispatch — posting most recent edition: {files}")
+    else:
+        files = added_files()
     if not files:
         print("No new edition files in this push — nothing to post.")
         return
