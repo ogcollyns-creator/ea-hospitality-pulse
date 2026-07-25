@@ -22,6 +22,7 @@ def extract_telegram(md):
 
 def main():
     src, out = sys.argv[1], sys.argv[2]
+    label = sys.argv[3] if len(sys.argv)>3 else "Sunday Foresight"
     md = open(src, encoding="utf-8").read()
     m = re.search(r"(\d{4}-\d{2}-\d{2})", os.path.basename(src))
     date_iso = m.group(1) if m else ""
@@ -43,7 +44,7 @@ def main():
     pdf.cell(0,5,"Daily intelligence for city, bush & beach properties across East Africa")
     pdf.ln(22)
     pdf.set_font("DJ","B",13); pdf.set_text_color(*GOLD)
-    pdf.cell(0,8,"Sunday Foresight",new_x="LMARGIN",new_y="NEXT")
+    pdf.cell(0,8,label,new_x="LMARGIN",new_y="NEXT")
     if date_iso:
         pdf.set_font("DJ","",9.5); pdf.set_text_color(*MUTED)
         pdf.cell(0,5,date_iso,new_x="LMARGIN",new_y="NEXT")

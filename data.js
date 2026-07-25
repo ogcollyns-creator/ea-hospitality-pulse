@@ -9,6 +9,15 @@ window.EDITIONS = [
   "bodyHtml": "<p><span class=\"meta-line\">🏨 EA HOSPITALITY PULSE — Morning Brief</span><br><span class=\"meta-line\">📅 Saturday, 25 July 2026 | 🇰🇪🇺🇬🇹🇿🇷🇼</span></p>\n<p>Airlift into the region keeps expanding faster than most rate strategies assume — Emirates now lands in Nairobi three times a day.</p>\n<p>━━━━━━━━━<br><span class=\"item-head\">1️⃣ EMIRATES GOES TRIPLE DAILY TO NAIROBI</span><br>Emirates has expanded Dubai–Nairobi to 21 weekly Boeing 777 rotations in three daily waves, effective this month (per KATA / Travel And Tour World). That means near-continuous connections from Europe, Asia and the Gulf — plus more belly-hold cargo capacity for coast exporters.<br><span class=\"sowhat\">🎯 So what: Gulf- and Asia-connecting guests just got easier to win. Point Q4 packages at GCC and India traffic, and brief front office on the early-morning arrival bank — expect more pre-noon check-in requests.</span><br><span class=\"tagline\">🏷 City + Bush + Beach | KE | Reported</span></p>\n<p><span class=\"item-head\">2️⃣ UGANDA LANDS AFRICA&#x27;S TOP HOTEL INVESTMENT SUMMIT</span><br>Kampala hosts the Future Hospitality Summit Africa on 2–3 February 2027 — Uganda&#x27;s first time (per UG Standard; UTB confirmed). Arrivals are back above 1.6m and receipts at US$1.6–1.7bn; UTB&#x27;s CEO says the country needs more beds and wants deals signed, not discussed, by summit time.<br><span class=\"sowhat\">🎯 So what: Ugandan owners — investor attention is coming. Get records, licences and pipeline documentation investment-grade now. Kampala city hotels: open Feb 2027 conference-rate blocks early.</span><br><span class=\"tagline\">🏷 City | UG | Confirmed</span></p>\n<p><span class=\"item-head\">3️⃣ ZANZIBAR&#x27;S SUPPLY WAVE IS REAL, NOT TALK</span><br>2026 openings include the 272-room Catalonia Grand, Le Méridien Zanzibar and the 360-room Iberostar Selection Muyuni, with Ritz-Carlton Nungwi due late 2026 (per Top Hotel News and trade press). W Hospitality Group&#x27;s 2026 report puts Tanzania&#x27;s chain pipeline at 77.5% under construction — among Africa&#x27;s highest ratios; Kenya sits at 79.5%.<br><span class=\"sowhat\">🎯 So what: This supply lands squarely in the international 4–5 star beach segment. Independent resorts: lock 2027 charter and tour-operator allocations before the new brands do, and double down on what chains can&#x27;t copy — character, location and repeat-guest relationships.</span><br><span class=\"tagline\">🏷 Beach | ZNZ, TZ | Confirmed</span></p>\n<p><span class=\"item-head\">4️⃣ RWANDA COURTS LUXURY CAPITAL</span><br>RDB is in exploratory talks with Abercrombie &amp; Kent on new luxury tourism investment (per ATQ News), alongside a planned hotel strip on the Rubavu lakefront. Rwanda targets US$1.1bn tourism income by 2029.<br><span class=\"sowhat\">🎯 So what: Early signal, but direction is clear — Rwanda is building a premium ecosystem beyond gorillas. High-end lodges: position for A&amp;K-grade itineraries; Kigali properties: watch Rubavu as the next leisure node.</span><br><span class=\"tagline\">🏷 Bush + City | RW | Early signal</span></p>\n<p>━━━━━━━━━<br><span class=\"meta-line\">📡 RADAR</span><br><span class=\"radar-item\">▪️ Now–early Sept: European school holidays — peak leisure window; hold rate, don&#x27;t discount</span><br><span class=\"radar-item\">▪️ Through Oct: Mara river-crossing weeks — premium pricing window for bush camps</span><br><span class=\"radar-item\">▪️ August: Kenya&#x27;s busiest arrivals month on record (per KATA) — final ops and staffing checks this week</span><br><span class=\"radar-item\">▪️ 2–3 Feb 2027: FHS Africa, Kampala — get on investor calendars now</span></p>\n<p><span class=\"meta-line\">💬 Which of these hits your property hardest? Reply and tell us.</span><br>— EA Hospitality Pulse | Daily intelligence for city, bush &amp; beach properties</p>"
  },
  {
+  "id": "playbook-2026-07-25-uganda",
+  "date": "2026-07-25",
+  "dateDisplay": "Saturday, 25 July 2026",
+  "edition": "Shock Playbook",
+  "editionKey": "playbook",
+  "summary": "Uganda's Ebola clock ends around 27 August. Most operators will plan the wrong recovery — here's the 72-hour playbook.",
+  "bodyHtml": "<p><span class=\"meta-line\">🏨 EA HOSPITALITY PULSE — SPECIAL EDITION</span><br><span class=\"meta-line\">📅 Saturday, 25 July 2026 | 🇺🇬🇷🇼🇰🇪🇹🇿</span></p>\n<p>Uganda&#x27;s Ebola clock ends around 27 August. Most operators will plan the wrong recovery — here&#x27;s the 72-hour playbook.</p>\n<hr class=\"divider\">\n<p><span class=\"item-head\">1️⃣ THE DATE IS KNOWABLE: ~27 AUGUST</span><br>Uganda discharged its last Ebola patient on 16 July, starting the WHO 42-day countdown (WHO Afro). Last case was 21 June; 20 cases, 2 deaths, 15 of them imported from DRC. Absent new cases, the outbreak can be declared over around 27 August — 33 days out.<br><span class=\"sowhat\">🎯 So what: Build your Sept-Dec recovery campaign NOW and load it before 20 August. Brief trade partners the week of 17 August. By the time bookings visibly return, your competitors have taken the share.</span><br><span class=\"tagline\">🏷 Bush, City | UG | Confirmed</span></p>\n<p><span class=\"item-head\">2️⃣ THE ALL-CLEAR WON&#x27;T LIFT THE US ADVISORY</span><br>This is the misread that will cost money. State&#x27;s Level 4 (renewed 4 June) cites crime, health, terrorism AND unrest — health is one of four grounds. The outbreak ending clears one pillar, not the advisory.<br><span class=\"sowhat\">🎯 So what: Anchor your recovery messaging on the WHO declaration, not on a State Department change that may never come. Plan for Level 4 persisting.</span><br><span class=\"tagline\">🏷 Bush, City | UG | Confirmed</span></p>\n<p><span class=\"item-head\">3️⃣ USE THE DIVERGENCE — IT&#x27;S YOUR BEST ASSET</span><br>The US CDC rates Ebola in DRC/Uganda Level 2 &quot;Practice Enhanced Precautions&quot; while State says Do Not Travel — a split inside the same government. The UK FCDO (updated 1 July) carries no country-wide warning at all, only regional advice for western Uganda.<br><span class=\"sowhat\">🎯 So what: Your UK and European book is defensible on official grounds; your US book is not. Ring-fence the messaging — don&#x27;t alarm markets that haven&#x27;t moved.</span><br><span class=\"tagline\">🏷 All segments | UG, RW | Confirmed</span></p>\n<p><span class=\"item-head\">4️⃣ WATCH MARBURG, NOT EBOLA</span><br>A separate Marburg death (18-month-old, Kyegegwa, western Uganda, confirmed 2 July) was caught by Ebola surveillance. Isolated so far, no secondary cases. If it spreads, the clock resets.<br><span class=\"sowhat\">🎯 So what: This is your single daily monitoring item. Everything else is on a schedule; this isn&#x27;t.</span><br><span class=\"tagline\">🏷 Bush | UG | Confirmed</span></p>\n<p>━━━━━━━━━<br><span class=\"meta-line\">📡 THE 72-HOUR PROTOCOL</span><br><span class=\"radar-item\">▪️ 0-6h: Screenshot the State and CDC pages side by side. Confirm your distance from Kyegegwa in km. Call insurers — get cover status IN WRITING. That decides whether guests CAN come, not just whether they want to.</span><br><span class=\"radar-item\">▪️ 6-24h: Split the book by source market. Triage US arrivals inside 90 days. Offer free date changes into Q1 2027 BEFORE anyone asks for a refund — a postponement keeps the cash, a refund loses it.</span><br><span class=\"radar-item\">▪️ 24-72h: Measure PACE, not cancellations. Bush operators: August is committed and will look fine while your 2027 season quietly dies. Defend the far book. City/MICE: audit every corporate group through Q4 — duty-of-care blocks are automatic under Level 4.</span></p>\n<p>⛔ DO NOT<br><span class=\"radar-item\">▪️ Discount. This is a permission-and-insurance problem, not a price problem. Compete on flexibility and inclusions.</span><br><span class=\"radar-item\">▪️ Wait for the all-clear to start marketing. By 27 August it&#x27;s too late to begin.</span><br><span class=\"radar-item\">▪️ Assume the advisory drops with the outbreak.</span></p>\n<p><span class=\"meta-line\">💬 Kenya and Tanzania operators: correct the &quot;East Africa is one outbreak zone&quot; framing explicitly. Nobody will do it for you.</span><br>— EA Hospitality Pulse | Daily intelligence for city, bush &amp; beach properties</p>"
+ },
+ {
   "id": "pulse-2026-07-24-midday-2",
   "date": "2026-07-24",
   "dateDisplay": "Friday, 24 July 2026",
@@ -117,6 +126,70 @@ window.INSIGHTS = [
   "dateDisplay": "Saturday, 25 July 2026",
   "edition": "Morning Brief",
   "editionKey": "morning"
+ },
+ {
+  "headline": "THE DATE IS KNOWABLE: ~27 AUGUST",
+  "body": "Uganda discharged its last Ebola patient on 16 July, starting the WHO 42-day countdown (WHO Afro). Last case was 21 June; 20 cases, 2 deaths, 15 of them imported from DRC. Absent new cases, the outbreak can be declared over around 27 August — 33 days out.",
+  "sowhat": "🎯 So what: Build your Sept-Dec recovery campaign NOW and load it before 20 August. Brief trade partners the week of 17 August. By the time bookings visibly return, your competitors have taken the share.",
+  "segments": [
+   "city",
+   "bush"
+  ],
+  "countries": "UG",
+  "confidence": "Confirmed",
+  "source": "playbook-2026-07-25-uganda",
+  "date": "2026-07-25",
+  "dateDisplay": "Saturday, 25 July 2026",
+  "edition": "Shock Playbook",
+  "editionKey": "playbook"
+ },
+ {
+  "headline": "THE ALL-CLEAR WON'T LIFT THE US ADVISORY",
+  "body": "This is the misread that will cost money. State's Level 4 (renewed 4 June) cites crime, health, terrorism AND unrest — health is one of four grounds. The outbreak ending clears one pillar, not the advisory.",
+  "sowhat": "🎯 So what: Anchor your recovery messaging on the WHO declaration, not on a State Department change that may never come. Plan for Level 4 persisting.",
+  "segments": [
+   "city",
+   "bush"
+  ],
+  "countries": "UG",
+  "confidence": "Confirmed",
+  "source": "playbook-2026-07-25-uganda",
+  "date": "2026-07-25",
+  "dateDisplay": "Saturday, 25 July 2026",
+  "edition": "Shock Playbook",
+  "editionKey": "playbook"
+ },
+ {
+  "headline": "USE THE DIVERGENCE — IT'S YOUR BEST ASSET",
+  "body": "The US CDC rates Ebola in DRC/Uganda Level 2 \"Practice Enhanced Precautions\" while State says Do Not Travel — a split inside the same government. The UK FCDO (updated 1 July) carries no country-wide warning at all, only regional advice for western Uganda.",
+  "sowhat": "🎯 So what: Your UK and European book is defensible on official grounds; your US book is not. Ring-fence the messaging — don't alarm markets that haven't moved.",
+  "segments": [
+   "city",
+   "bush",
+   "beach"
+  ],
+  "countries": "UG, RW",
+  "confidence": "Confirmed",
+  "source": "playbook-2026-07-25-uganda",
+  "date": "2026-07-25",
+  "dateDisplay": "Saturday, 25 July 2026",
+  "edition": "Shock Playbook",
+  "editionKey": "playbook"
+ },
+ {
+  "headline": "WATCH MARBURG, NOT EBOLA",
+  "body": "A separate Marburg death (18-month-old, Kyegegwa, western Uganda, confirmed 2 July) was caught by Ebola surveillance. Isolated so far, no secondary cases. If it spreads, the clock resets.",
+  "sowhat": "🎯 So what: This is your single daily monitoring item. Everything else is on a schedule; this isn't.",
+  "segments": [
+   "bush"
+  ],
+  "countries": "UG",
+  "confidence": "Confirmed",
+  "source": "playbook-2026-07-25-uganda",
+  "date": "2026-07-25",
+  "dateDisplay": "Saturday, 25 July 2026",
+  "edition": "Shock Playbook",
+  "editionKey": "playbook"
  },
  {
   "headline": "MOMBASA CLEARS 20,000 VISITORS IN A WEEK",
@@ -370,4 +443,4 @@ window.INSIGHTS = [
   "editionKey": "evening"
  }
 ];
-window.BUILT_AT = "2026-07-25 07:13";
+window.BUILT_AT = "2026-07-25 08:18";

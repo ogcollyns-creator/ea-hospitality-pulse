@@ -17,7 +17,7 @@ BASE = "https://ogcollyns-creator.github.io/ea-hospitality-pulse"  # change if a
 EDITION_LABELS = {
     "morning": "Morning Brief", "midday": "Midday Pulse",
     "evening": "Evening Wrap", "inaugural": "Inaugural Edition",
-    "foresight": "Sunday Foresight",
+    "foresight": "Sunday Foresight", "playbook": "Shock Playbook",
 }
 KEYCAP = re.compile(r"^([0-9]️?⃣)\s*")
 
