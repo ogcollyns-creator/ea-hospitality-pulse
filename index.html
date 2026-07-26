@@ -125,7 +125,16 @@
   .tr-stat{background:var(--card);border:1px solid var(--line);border-radius:12px;padding:16px 18px;text-align:center}
   .tr-stat .n{font-size:28px;font-weight:700}
   .tr-stat .l{font-family:'Helvetica Neue',Arial,sans-serif;font-size:12px;text-transform:uppercase;letter-spacing:1px;color:var(--muted);margin-top:4px}
-  .pred{background:var(--card);border:1px solid var(--line);border-left:4px solid var(--muted);border-radius:10px;padding:15px 18px;margin-bottom:12px}
+  .pred{background:var(--card);border:1px solid var(--line);border-left:4px solid var(--muted);border-radius:10px;padding:12px 15px;margin-bottom:8px;cursor:pointer}
+  .pred:hover{background:#fffaf0}
+  .prow{display:flex;align-items:center;gap:10px}
+  .pclaim{flex:1;font-size:14.5px;font-weight:600;line-height:1.35}
+  .pwhen{font-family:'Helvetica Neue',Arial,sans-serif;font-size:12px;color:var(--muted);white-space:nowrap}
+  .pchev{font-size:12px;color:var(--muted);transition:transform .15s}
+  .pred.open .pchev{transform:rotate(180deg)}
+  .pdet{display:none;margin-top:10px;padding-top:10px;border-top:1px dashed var(--line)}
+  .pred.open .pdet{display:block}
+  @media(max-width:640px){.pwhen{display:none}.pred.open .pwhen{display:block}}
   .pred.correct{border-left-color:#2e7d32}.pred.incorrect{border-left-color:#c0392b}
   .pred.partial{border-left-color:#b8860b}.pred.open{border-left-color:var(--teal)}
   .pred .ph{font-family:'Helvetica Neue',Arial,sans-serif;font-size:12px;color:var(--muted);display:flex;gap:8px;flex-wrap:wrap;margin-bottom:5px}
@@ -188,6 +197,18 @@
   .rv .wt{font-family:'Helvetica Neue',Arial,sans-serif;font-size:12.5px;color:var(--gold-d);font-weight:600;margin-top:2px}
   .rv .wy{font-family:'Helvetica Neue',Arial,sans-serif;font-size:13.5px;margin-top:6px;line-height:1.45}
   .rv .sg{font-family:'Helvetica Neue',Arial,sans-serif;font-size:12px;color:var(--muted);margin-top:6px;font-style:italic}
+
+  /* CSS flags — emoji flags fall back to letter pairs on Windows, so we draw them */
+  .flag{display:inline-block;width:19px;height:13px;border-radius:2px;vertical-align:-1px;
+        box-shadow:0 0 0 1px rgba(0,0,0,.18) inset;margin-right:3px;flex:none}
+  .flag.ke{background:linear-gradient(180deg,#000 0 29%,#fff 29% 34%,#be0027 34% 66%,#fff 66% 71%,#006b3f 71% 100%)}
+  .flag.ug{background:linear-gradient(180deg,#000 0 16.6%,#fcdc04 16.6% 33.3%,#d90000 33.3% 50%,#000 50% 66.6%,#fcdc04 66.6% 83.3%,#d90000 83.3% 100%)}
+  .flag.tz{background:linear-gradient(45deg,#00a3dd 0 40%,#fcd116 40% 45%,#000 45% 55%,#fcd116 55% 60%,#1eb53a 60% 100%)}
+  .flag.rw{background:linear-gradient(180deg,#00a1de 0 50%,#fad201 50% 75%,#20603d 75% 100%)}
+  .flag.xx{background:linear-gradient(180deg,#0f6d63,#c8892f)}
+  .flag.lg{width:30px;height:21px;border-radius:3px;margin-right:7px}
+  .flags .flag{cursor:pointer;transition:transform .12s}
+  .flags .flag:hover{transform:translateY(-2px) scale(1.12)}
 
   /* Tabs */
   .tabs{display:flex;gap:6px;flex-wrap:wrap;margin-bottom:0;border-bottom:2px solid var(--line);padding-bottom:0}
@@ -297,10 +318,10 @@
     <h2>What today's news means for East African hotels, lodges &amp; resorts.</h2>
     <p class="lead">Three briefs a day for property owners in Kenya, Uganda, Tanzania, Zanzibar and Rwanda — travel advisories, demand patterns and market moves, each with a clear "so what" for your business.</p>
     <div class="flags">
-      <span class="flag" title="Kenya insights" onclick="showCountry('KE')">🇰🇪</span>
-      <span class="flag" title="Uganda insights" onclick="showCountry('UG')">🇺🇬</span>
-      <span class="flag" title="Tanzania &amp; Zanzibar insights" onclick="showCountry('TZ')">🇹🇿</span>
-      <span class="flag" title="Rwanda insights" onclick="showCountry('RW')">🇷🇼</span>
+      <span class="flag lg ke" role="button" tabindex="0" title="Kenya insights" onclick="showCountry('KE')"></span>
+      <span class="flag lg ug" role="button" tabindex="0" title="Uganda insights" onclick="showCountry('UG')"></span>
+      <span class="flag lg tz" role="button" tabindex="0" title="Tanzania &amp; Zanzibar insights" onclick="showCountry('TZ')"></span>
+      <span class="flag lg rw" role="button" tabindex="0" title="Rwanda insights" onclick="showCountry('RW')"></span>
       <span class="flaghint">← tap a flag for country insights</span>
     </div>
     <div class="cta-row">
@@ -504,6 +525,17 @@
 <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/4.4.1/chart.umd.min.js"></script>
 <script>document.write('<scr'+'ipt src="data.js?t='+Date.now()+'"></scr'+'ipt>');</script>
 <script>
+  // Emoji flags render as bare letter pairs (KE, TZ) on Windows. Convert to CSS flags
+  // at render time so the data files stay human-readable.
+  const FLAGMAP={'\u{1F1F0}\u{1F1EA}':'ke','\u{1F1FA}\u{1F1EC}':'ug','\u{1F1F9}\u{1F1FF}':'tz','\u{1F1F7}\u{1F1FC}':'rw'};
+  function fx(v){
+    let t=String(v==null?'':v);
+    for(const [emo,cls] of Object.entries(FLAGMAP)){
+      t=t.split(emo).join('<span class="flag '+cls+'"></span>');
+    }
+    return t.replace(/\u{1F30D}/gu,'<span class="flag xx"></span>');
+  }
+
   const editions = window.EDITIONS || [];
   const insights = window.INSIGHTS || [];
   const SEG = {city:'City hotels', bush:'Bush & safari', beach:'Beach & coast'};
@@ -633,7 +665,7 @@
     A.rows.forEach(r=>{
       const tr=document.createElement('tr');
       const cty=(r.code==='ZNZ')?'TZ':r.code;
-      tr.innerHTML='<td class="cty" onclick="showCountry(\''+cty+'\')"><span class="f">'+r.flag+'</span>'+r.name+'</td>'+
+      tr.innerHTML='<td class="cty" onclick="showCountry(\''+cty+'\')">'+fx(r.flag)+r.name+'</td>'+
         '<td>'+pill(r.us, A.links.us[r.code])+'</td>'+
         '<td>'+pill(r.uk, A.links.uk[r.code])+'</td>';
       tb.appendChild(tr);
@@ -727,16 +759,23 @@
       '<div class="tr-stat"><div class="n">'+st.open+'</div><div class="l">Open</div></div>'+
       '<div class="tr-stat"><div class="n">'+st.resolved+'</div><div class="l">Resolved</div></div>'+
       '<div class="tr-stat"><div class="n">'+(st.accuracy==null?'—':st.accuracy+'%')+'</div><div class="l">Accuracy</div></div>';
+    // One compact row per call; tap to reveal the test and evidence.
+    // Keeps a growing ledger scannable instead of an ever-longer wall of cards.
     const card=(p)=>{
-      const badge=p.overdue&&p.status==='open'?'<span class="vd overdue">AWAITING EVIDENCE</span>'
+      const badge=p.overdue&&p.status==='open'?'<span class="vd overdue">AWAITING</span>'
         :'<span class="vd '+p.status+'">'+p.status.toUpperCase()+'</span>';
-      return '<div class="pred '+p.status+'">'+
-        '<div class="ph">'+badge+'<span>'+p.id+'</span><span>· made '+p.made_date+'</span>'+
-        '<span>· '+p.edition+'</span><span>· '+p.market+'</span>'+
-        (p.status==='open'?'<span>· resolve by '+p.resolve_by+'</span>':'<span>· resolved '+(p.resolved_date||'')+'</span>')+'</div>'+
-        '<div class="claim">'+p.claim+'</div>'+
-        '<div class="crit"><b>Test:</b> '+p.resolution_criteria+'</div>'+
-        (p.evidence?'<div class="ev"><b>Evidence:</b> '+p.evidence+'</div>':'')+'</div>';
+      const when=p.status==='open'?('by '+p.resolve_by):('resolved '+(p.resolved_date||''));
+      return '<div class="pred '+p.status+'" onclick="this.classList.toggle(\'open\')">'+
+        '<div class="prow">'+badge+
+          '<span class="pclaim">'+p.claim+'</span>'+
+          '<span class="pwhen">'+when+'</span>'+
+          '<span class="pchev">▾</span></div>'+
+        '<div class="pdet">'+
+          '<div class="ph"><span>'+p.id+'</span><span>· made '+p.made_date+'</span>'+
+          '<span>· '+p.edition+'</span><span>· '+fx(p.market)+'</span></div>'+
+          '<div class="crit"><b>Test:</b> '+p.resolution_criteria+'</div>'+
+          (p.evidence?'<div class="ev"><b>Evidence:</b> '+p.evidence+'</div>':'')+
+        '</div></div>';
     };
     document.getElementById('tr-open').innerHTML=L.open.map(card).join('')||'<p style="color:var(--muted)">No open calls.</p>';
     if(L.resolved.length){
@@ -750,7 +789,7 @@
     const up=document.getElementById('rl-updated'); if(up) up.textContent='Updated '+R.updated;
     const box=document.getElementById('rl-body'); if(!box) return;
     box.innerHTML=R.groups.map(g=>
-      '<div class="rl-group"><h3><span>'+g.flag+'</span>'+g.country+'</h3>'+
+      '<div class="rl-group"><h3>'+fx(g.flag)+g.country+'</h3>'+
       g.items.map(i=>{
         const cls=i.verified===false?'unver':(i.flag==='action'?'action':'');
         return '<div class="rl-item '+cls+'"><div>'+
@@ -802,7 +841,7 @@
       const up=document.getElementById('ct-updated'); if(up) up.textContent='Updated '+C.updated;
       const b=document.getElementById('ct-body');
       if(b) b.innerHTML=C.items.map(i=>
-        '<div class="ct"><div class="g">'+i.flag+' '+i.group+'</div>'+
+        '<div class="ct"><div class="g">'+fx(i.flag)+' '+i.group+'</div>'+
         '<div class="m">'+i.metric+'</div>'+
         '<div class="v">'+i.value+'</div>'+
         '<div class="c '+(i.dir||'flat')+'">'+i.change+'</div>'+
@@ -814,7 +853,7 @@
     if(D){
       const cb=document.getElementById('cal-body');
       if(cb) cb.innerHTML=D.sources.map(r=>
-        '<tr><td class="bd">'+r.flag+' '+(r.url?('<a href="'+r.url+'" target="_blank" rel="noopener">'+r.body+'</a>'):r.body)+'</td>'+
+        '<tr><td class="bd">'+fx(r.flag)+' '+(r.url?('<a href="'+r.url+'" target="_blank" rel="noopener">'+r.body+'</a>'):r.body)+'</td>'+
         '<td>'+r.release+'</td><td class="cad">'+r.cadence+'</td><td class="why">'+r.why+'</td></tr>').join('');
     }
   }
@@ -823,7 +862,7 @@
     const u=document.getElementById('cn-updated'); if(u) u.textContent='Updated '+C.updated;
     const t=document.getElementById('cn-traffic');
     if(t) t.innerHTML=C.traffic.map(i=>
-      '<div class="ct"><div class="g">'+i.flag+' '+i.airport+' ('+i.code+')</div>'+
+      '<div class="ct"><div class="g">'+fx(i.flag)+' '+i.airport+' ('+i.code+')</div>'+
       '<div class="m">'+i.metric+'</div><div class="v">'+i.value+'</div>'+
       '<div class="c '+(i.dir||'flat')+'">'+i.change+'</div><div class="p">'+i.period+'</div>'+
       '<div class="n">'+i.note+'</div><div class="s">Source: '+i.source+'</div></div>').join('');
@@ -838,7 +877,7 @@
     const u=document.getElementById('rv-updated'); if(u) u.textContent='Updated '+R.updated;
     const b=document.getElementById('rv-body'); if(!b) return;
     b.innerHTML=R.sets.map(s2=>
-      '<div class="rv-set"><h3>'+s2.flag+' '+s2.competes+'</h3>'+
+      '<div class="rv-set"><h3>'+fx(s2.flag)+' '+s2.competes+'</h3>'+
       s2.rivals.map(v=>'<div class="rv"><div class="nm">'+v.name+'</div>'+
         '<div class="wt">Watch: '+v.watch+'</div><div class="wy">'+v.why+'</div>'+
         '<div class="sg">Signal: '+v.signal+'</div></div>').join('')+'</div>').join('');
