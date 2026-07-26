@@ -58,6 +58,24 @@ def telegram_section(md):
             return (part.split("\n", 1)[1] if "\n" in part else "").strip()
     return ""
 
+def to_html(text):
+    """
+    Convert editorial markdown to Telegram HTML.
+
+    Why HTML and not Markdown: Telegram's MarkdownV2 requires escaping ~18 characters
+    (- . ! ( ) etc). Editorial prose is full of them, and a single missed escape makes
+    the API reject the whole message. HTML mode only needs & < > escaped, so it is far
+    more robust for real writing.
+    """
+    # escape HTML first so user text can never inject tags
+    t = text.replace("&", "&amp;").replace("<", "&lt;").replace(">", "&gt;")
+    # **bold** then *bold*  (longest first)
+    t = re.sub(r"\*\*([^*\n]+?)\*\*", r"<b>\1</b>", t)
+    t = re.sub(r"(?<!\w)\*([^*\n]+?)\*(?!\w)", r"<b>\1</b>", t)
+    # _italic_ — only when clearly delimited, so snake_case survives
+    t = re.sub(r"(?<![\w/])_([^_\n]+?)_(?![\w/])", r"<i>\1</i>", t)
+    return t
+
 def chunk(text):
     """Split on blank lines, never mid-paragraph."""
     if len(text) <= MAX:
@@ -76,7 +94,10 @@ def chunk(text):
 
 def send(text):
     data = urllib.parse.urlencode({
-        "chat_id": CHAT, "text": text, "disable_web_page_preview": "true"
+        "chat_id": CHAT,
+        "text": to_html(text),
+        "parse_mode": "HTML",
+        "disable_web_page_preview": "true",
     }).encode()
     req = urllib.request.Request(
         f"https://api.telegram.org/bot{TOKEN}/sendMessage", data=data)
