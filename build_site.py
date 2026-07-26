@@ -283,6 +283,17 @@ def main():
         f.write("window.INSIGHTS = "+json.dumps(insights,ensure_ascii=False,indent=1)+";\n")
         f.write("window.BUILT_AT = "+json.dumps(datetime.datetime.now().strftime("%Y-%m-%d %H:%M"))+";\n")
 
+    # stamp index.html with the build time so the deployed shell is always identifiable
+    stamp = datetime.datetime.now().strftime("%Y%m%d-%H%M")
+    idx_path = os.path.join(HERE, "index.html")
+    try:
+        idx = open(idx_path, encoding="utf-8").read()
+        idx = re.sub(r"<!--BUILD_STAMP:[^>]*-->", "", idx)
+        idx = idx.replace("</head>", f"<!--BUILD_STAMP:{stamp}--></head>", 1)
+        open(idx_path, "w", encoding="utf-8").write(idx)
+    except Exception as e:
+        print("build stamp skipped:", e)
+
     # branded social share images (uses the data.js just written)
     try:
         import subprocess
