@@ -1,8 +1,8 @@
 window.LEDGER = {
- "updated": "2026-07-26 13:23",
+ "updated": "2026-07-26 16:54",
  "stats": {
-  "total": 17,
-  "open": 17,
+  "total": 20,
+  "open": 20,
   "resolved": 0,
   "correct": 0,
   "partial": 0,
@@ -88,6 +88,22 @@ window.LEDGER = {
    "resolved_date": "",
    "evidence": "",
    "source_url": "",
+   "overdue": false
+  },
+  {
+   "id": "P018",
+   "made_date": "2026-07-26",
+   "edition": "Sunday Foresight",
+   "claim": "DRC's Ebola outbreak will exceed 3,000 confirmed cases before Uganda's outbreak is declared over",
+   "resolution_criteria": "ECDC Communicable Disease Threats Report or DRC INSP situation report showing cumulative confirmed cases above 3,000 dated before the WHO/Uganda end-of-outbreak declaration",
+   "resolve_by": "2026-09-30",
+   "market": "Regional",
+   "segment": "All",
+   "confidence": "Reported",
+   "status": "open",
+   "resolved_date": "",
+   "evidence": "",
+   "source_url": "https://www.ecdc.europa.eu/en/ebola-outbreak-democratic-republic-congo-and-uganda",
    "overdue": false
   },
   {
@@ -235,6 +251,22 @@ window.LEDGER = {
    "overdue": false
   },
   {
+   "id": "P019",
+   "made_date": "2026-07-26",
+   "edition": "Sunday Foresight",
+   "claim": "Rwanda's DRC arrivals will fall year-on-year in H2 2026 as the 30-day entry restriction bites",
+   "resolution_criteria": "RDB or NISR H2 2026 / full-year 2026 arrivals data showing DRC arrivals below the H2 2025 equivalent",
+   "resolve_by": "2027-04-30",
+   "market": "RW",
+   "segment": "City/Bush",
+   "confidence": "Early signal",
+   "status": "open",
+   "resolved_date": "",
+   "evidence": "",
+   "source_url": "",
+   "overdue": false
+  },
+  {
    "id": "P013",
    "made_date": "2026-07-26",
    "edition": "Morning Brief",
@@ -280,6 +312,22 @@ window.LEDGER = {
    "resolved_date": "",
    "evidence": "",
    "source_url": "",
+   "overdue": false
+  },
+  {
+   "id": "P020",
+   "made_date": "2026-07-26",
+   "edition": "Sunday Foresight",
+   "claim": "Uganda Airlines' Boeing 737-8 MAX and 787-9 order will not deliver a first aircraft before 31 December 2027",
+   "resolution_criteria": "No Uganda Airlines 737-8 or 787-9 delivery reported by the airline,Boeing,ch-aviation or Ugandan press by 31 Dec 2027",
+   "resolve_by": "2027-12-31",
+   "market": "UG",
+   "segment": "City",
+   "confidence": "Reported",
+   "status": "open",
+   "resolved_date": "",
+   "evidence": "",
+   "source_url": "https://www.newvision.co.ug/category/business/uganda-airlines-orders-eight-boeing-jets-to-e-NV_237451_072026",
    "overdue": false
   }
  ],

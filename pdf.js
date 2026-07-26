@@ -1,1 +1,1 @@
-window.LATEST_PDF = {file:'pdf/playbook-2026-07-25-entry-rules.pdf', date:'Entry Rules Alert — 25 July 2026'};
+window.LATEST_PDF = {file:'pdf/latest-foresight.pdf', date:'26 July 2026'};

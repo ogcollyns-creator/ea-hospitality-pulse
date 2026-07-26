@@ -18,6 +18,15 @@ window.EDITIONS = [
   "bodyHtml": "<p><span class=\"meta-line\">🏨 EA HOSPITALITY PULSE — Midday Pulse</span><br><span class=\"meta-line\">📅 Sunday, 26 July 2026 | 🇰🇪🇺🇬</span></p>\n<p>Nairobi&#x27;s supply story just gained a second act — and this time the lender holds the keys.</p>\n<p>━━━━━━━━━<br><span class=\"item-head\">1️⃣ EQUITY TAKES CONTROL OF A 211-ROOM NAIROBI HOTEL</span><br>Glee Hotel in Runda has been placed under administration, with Kamal Anantroy Bhatt of Anant Bhatt LLP appointed effective 6 July, following a default that court filings put at Sh8.267bn (per Khusoko, citing the Insolvency Act notice and Nairobi High Court proceedings). A bank-commissioned valuation puts the eight-acre property near Sh9.5bn. It opened in late 2023 with 211 rooms, nine meeting rooms and six F&amp;B outlets. It follows Eastland Hotel (Equity, September 2025) and Nairobi Upperhill Hotel (NBK).<br><span class=\"sowhat\">🎯 So what: an asset worth Sh9.5bn carrying Sh8.27bn of debt has barely 13% equity cushion — and that was a 2023 build. Re-run your own debt service against actual, not budgeted, 2026 RevPAR this week and open the conversation with your lender before they open it with you. Buyers: distressed upper-tier Nairobi stock is the cheapest entry point in a decade — register interest with the administrator now.</span><br><span class=\"tagline\">🏷 City | KE | Reported</span></p>\n<p><span class=\"item-head\">2️⃣ THE JKIA LEVY IS NOW COLLATERAL, NOT JUST A TAX</span><br>Kenya will borrow Sh81bn of a Sh116bn JKIA financing package, with the balance from the National Infrastructure Fund and a bond secured against future airport passenger levy collections — Sh18.5bn a year is already earmarked to service airport debt (per Business Daily and Daily Nation, 24 July). The levy applies to every international and domestic ticket sold in Kenya.<br><span class=\"sowhat\">🎯 So what: this is what changed. A levy pledged to bondholders is a levy nobody can cut. Stop modelling any relief on Kenyan air taxes into your 2027 and 2028 rate cards, and write the cost into net-rate contracts with tour operators now rather than absorbing it at settlement later.</span><br><span class=\"tagline\">🏷 All segments | KE | Confirmed</span></p>\n<p><span class=\"item-head\">3️⃣ UGANDA WILL WAIVE PARK ENTRY FOR THREE DAYS</span><br>Free national park entry on 25, 26 and 27 September, for Ugandans and foreigners alike, announced by State Minister for Tourism Susan Nsambu Nakawuki while touring Murchison Falls with UWA (per The Independent). Officials framed it plainly as a counter to the fifteen countries still holding advisories against Uganda.<br><span class=\"sowhat\">🎯 So what: the waiver covers entry fees — game drives, boat cruises and permits are not confirmed as included. Lodges around Murchison, Queen Elizabeth and Lake Mburo should build a three-night September package around the dates and sell it into the domestic and regional market this week, before capacity fills. Confirm scope with UWA before you publish a price.</span><br><span class=\"tagline\">🏷 Bush | UG | Confirmed</span></p>\n<p>Also noted: Kenya Airways returned its 400-seat 777-300ER to Nairobi–Heathrow on 17 July, on four of seven weekly rotations, cutting grounded capacity from roughly 18% of the network to 6–8% (per AeroRoutes and Khusoko). More UK seats into migration and Christmas.</p>\n<p><span class=\"meta-line\">💬 Nairobi owners — are your lenders getting harder or softer this quarter? Reply and tell us.</span><br>— EA Hospitality Pulse | Daily intelligence for city, bush &amp; beach properties</p>"
  },
  {
+  "id": "foresight-2026-07-26",
+  "date": "2026-07-26",
+  "dateDisplay": "Sunday, 26 July 2026",
+  "edition": "Sunday Foresight",
+  "editionKey": "foresight",
+  "summary": "*The week the region's best growth market and its worst health risk turned out to be the same country.*",
+  "bodyHtml": "<p><span class=\"meta-line\">🏨 EA HOSPITALITY PULSE — Sunday Foresight</span><br><span class=\"meta-line\">📅 Sunday, 26 July 2026 | 🇰🇪 🇺🇬 🇹🇿 🇷🇼</span></p>\n<p>*The week the region&#x27;s best growth market and its worst health risk turned out to be the same country.*<br>━━━━━━━━━</p>\n<p>**THE THEME: YOUR NEW GROWTH ENGINE HAS A HEALTH PROBLEM**</p>\n<p>Read the daily briefs back and the week looks like good news. Uganda counting down to an Ebola all-clear. Uganda Airlines committing to eight Boeing jets. Emirates going triple-daily into Nairobi. Kampala winning FHS Africa 2027. Mombasa clearing 20,000 visitors in seven days.</p>\n<p>Now put one more number beside them. Rwanda&#x27;s largest single source market in the first half of 2026 was not Europe, not the United States, not Kenya — it was the Democratic Republic of Congo, with 185,420 visitors, 12.5% of all arrivals (reported 18 July). Add Uganda, Kenya and Tanzania and roughly 42% of Rwanda&#x27;s arrivals now come from four neighbours. That is the shape of this cycle&#x27;s growth right across the region: regional, repeat, cheap to acquire, weakly branded.</p>\n<p>And on 24 July the ECDC&#x27;s weekly threats report put DRC&#x27;s Bundibugyo outbreak at 2,473 confirmed cases and 999 deaths, spread across 47 of 140 health zones in five provinces. The region has been watching Uganda&#x27;s 42-day clock. The clock that matters is the one nobody is timing — in the country that is now Rwanda&#x27;s biggest customer. European leisure demand takes months to leave and months to return. Regional demand can be switched off in an afternoon by a border notice, and Rwanda has already done exactly that with its 30-day DRC travel-history rule. Cheap demand is fragile demand. Price it that way.</p>\n<p>━━━━━━━━━<br>**THE WEEK&#x27;S SIGNALS**</p>\n<p><span class=\"item-head\">1️⃣ **DRC&#x27;S OUTBREAK IS GROWING, NOT SHRINKING**</span><br>The ECDC&#x27;s Communicable Disease Threats Report for week 30 (published 24 July) and its outbreak page (updated 22 July) cite DRC&#x27;s INSP situation report of 21 July: 2,473 confirmed cases and 999 deaths, with 50 new confirmed cases and 32 deaths in a single day. Ituri alone accounts for 2,202 cases. Uganda, by contrast, has had no new case since 21 June. We have not seen this translated for operators anywhere in the trade press.<br><span class=\"sowhat\">🎯 **So what:** Stop budgeting for a &quot;post-declaration bounce&quot; in late August. Uganda&#x27;s all-clear resolves Uganda&#x27;s outbreak, not the region&#x27;s risk file. Brief your agents now that the Ugandan and Congolese situations are separate — because the advisory desks in Washington, London and Berlin are modelling DRC&#x27;s curve, not Uganda&#x27;s.</span><br><span class=\"tagline\">🏷 Bush/City | 🇺🇬 🇷🇼 Regional | Confirmed | ECDC, 24 July</span></p>\n<p><span class=\"item-head\">2️⃣ **UGANDA AIRLINES BUYS FOR A DECADE IT HASN&#x27;T UNDERWRITTEN**</span><br>At Farnborough on 21 July, Uganda Airlines ordered four Boeing 737-8 MAX and four 787-9 Dreamliners — its first direct purchase from Boeing (New Vision, 22 July). The 787-9s are for Europe, Asia and the Middle East; the MAXs for Africa, the Middle East and India. The carrier currently serves 17 destinations in 13 countries from Entebbe.<br><span class=\"sowhat\">🎯 **So what:** This is a long-haul bet placed by a country sitting at US Level 4 with Q1 Entebbe arrivals down 7.9%. Seats, not brand, will set 2027–28 Kampala rates. If you own Kampala rooms, model a scenario where lift arrives twelve months before the advisory lifts: high volume, low rate, heavy regional and Indian mix. Start building corporate and MICE contracts now while you still have pricing power.</span><br><span class=\"tagline\">🏷 City/Bush | 🇺🇬 | Confirmed | New Vision, 22 July</span></p>\n<p><span class=\"item-head\">3️⃣ **KENYA&#x27;S COAST IS RUNNING HOT WHILE THE INTERIOR ARGUES**</span><br>Tourism CS Rebecca Miano said on Friday 24 July that more than 20,000 visitors arrived through Mombasa in the previous week. That is peak-season strength holding through a fortnight of political noise, a UK training-exercise withdrawal from Laikipia and an unresolved Mara licensing case.<br><span class=\"sowhat\">🎯 **So what:** Coast demand is not the problem this quarter; conversion is. Hold rate through August rather than discounting into a full house, and shift any spend into September–November, where the coast is thinner than the bush.</span><br><span class=\"tagline\">🏷 Beach/Bush | 🇰🇪 | Confirmed | Ministry of Tourism via Kenyan press, 24 July</span></p>\n<p>━━━━━━━━━<br><span class=\"meta-line\">📡 **30/90-DAY DEMAND CALENDAR**</span></p>\n<p>🇰🇪 **14 Aug** — EPRA monthly fuel review. Pump prices are frozen until this date (EPRA, 14 July). *Lock transfer and generator pricing for September now, before the review.*<br>🇹🇿 **~13 Aug** — Zanzibar Commission for Tourism July arrivals (June&#x27;s 69,605 landed 13 July). *If July growth again prints under 10%, treat the supply wave as a rate problem, not a demand story.*<br>🇺🇬 **~27 Aug** — Uganda&#x27;s 42-day countdown ends; earliest date for an end-of-outbreak declaration. *Have the &quot;we are open, here is the evidence&quot; agent pack drafted by 20 August — not written on the day.*<br>🇰🇪 **31 Aug** — KNBS monthly CPI. *The wage and laundry cost line for your Q4 budget.*<br>🇺🇬 **25–27 Sept** — Three days of free national park entry (UWA). *Package a shoulder-season lodge stay against it now; entry fees only — game drives and permits still bill.*<br>🇹🇿 **24–27 Sept** — TIMEXPO, Dar es Salaam. *Corporate room-night demand; quote group rates before the end of August.*<br>🌍 **Every Friday** — ECDC Communicable Disease Threats Report. *The cleanest weekly read on DRC&#x27;s trajectory. Next: 31 July.*<br>🇹🇿 **by 31 Oct** — Our outer date for the Fair Competition Commission&#x27;s ruling on A Squared Holding&#x27;s acquisition of Nawiri/Asilia. *If it clears unconditionally, expect consolidation pricing across the northern circuit into 2027.*</p>\n<p>━━━━━━━━━<br>📓 **THE LEDGER**<br>Nothing resolved this week. Seventeen calls open. The two that matter most are P001 (Uganda declared clear on or about 27 August) and P002 (the US does not lower Uganda from Level 4 within 30 days of that declaration). This week&#x27;s DRC numbers make us more confident in P002, not less.</p>\n<p><span class=\"meta-line\">💬 What share of your 2027 forecast depends on guests from a neighbouring country — and have you ever stress-tested that line against a border notice?</span></p>\n<p>🔗 This edition on the web: https://ogcollyns-creator.github.io/ea-hospitality-pulse/editions/foresight-2026-07-26.html<br>💼 This week&#x27;s Big Read on LinkedIn: https://www.linkedin.com/company/ea-hospitality-pulse/</p>\n<p>— EA Hospitality Pulse | Daily intelligence for city, bush &amp; beach properties</p>"
+ },
+ {
   "id": "pulse-2026-07-25-morning",
   "date": "2026-07-25",
   "dateDisplay": "Saturday, 25 July 2026",
@@ -217,6 +226,54 @@ window.INSIGHTS = [
   "dateDisplay": "Sunday, 26 July 2026",
   "edition": "Midday Pulse",
   "editionKey": "midday"
+ },
+ {
+  "headline": "**DRC'S OUTBREAK IS GROWING, NOT SHRINKING**",
+  "body": "The ECDC's Communicable Disease Threats Report for week 30 (published 24 July) and its outbreak page (updated 22 July) cite DRC's INSP situation report of 21 July: 2,473 confirmed cases and 999 deaths, with 50 new confirmed cases and 32 deaths in a single day. Ituri alone accounts for 2,202 cases. Uganda, by contrast, has had no new case since 21 June. We have not seen this translated for operators anywhere in the trade press.",
+  "sowhat": "🎯 **So what:** Stop budgeting for a \"post-declaration bounce\" in late August. Uganda's all-clear resolves Uganda's outbreak, not the region's risk file. Brief your agents now that the Ugandan and Congolese situations are separate — because the advisory desks in Washington, London and Berlin are modelling DRC's curve, not Uganda's.",
+  "segments": [
+   "city",
+   "bush"
+  ],
+  "countries": "🇺🇬 🇷🇼 Regional",
+  "confidence": "Confirmed",
+  "source": "foresight-2026-07-26",
+  "date": "2026-07-26",
+  "dateDisplay": "Sunday, 26 July 2026",
+  "edition": "Sunday Foresight",
+  "editionKey": "foresight"
+ },
+ {
+  "headline": "**UGANDA AIRLINES BUYS FOR A DECADE IT HASN'T UNDERWRITTEN**",
+  "body": "At Farnborough on 21 July, Uganda Airlines ordered four Boeing 737-8 MAX and four 787-9 Dreamliners — its first direct purchase from Boeing (New Vision, 22 July). The 787-9s are for Europe, Asia and the Middle East; the MAXs for Africa, the Middle East and India. The carrier currently serves 17 destinations in 13 countries from Entebbe.",
+  "sowhat": "🎯 **So what:** This is a long-haul bet placed by a country sitting at US Level 4 with Q1 Entebbe arrivals down 7.9%. Seats, not brand, will set 2027–28 Kampala rates. If you own Kampala rooms, model a scenario where lift arrives twelve months before the advisory lifts: high volume, low rate, heavy regional and Indian mix. Start building corporate and MICE contracts now while you still have pricing power.",
+  "segments": [
+   "city",
+   "bush"
+  ],
+  "countries": "🇺🇬",
+  "confidence": "Confirmed",
+  "source": "foresight-2026-07-26",
+  "date": "2026-07-26",
+  "dateDisplay": "Sunday, 26 July 2026",
+  "edition": "Sunday Foresight",
+  "editionKey": "foresight"
+ },
+ {
+  "headline": "**KENYA'S COAST IS RUNNING HOT WHILE THE INTERIOR ARGUES**",
+  "body": "Tourism CS Rebecca Miano said on Friday 24 July that more than 20,000 visitors arrived through Mombasa in the previous week. That is peak-season strength holding through a fortnight of political noise, a UK training-exercise withdrawal from Laikipia and an unresolved Mara licensing case.",
+  "sowhat": "🎯 **So what:** Coast demand is not the problem this quarter; conversion is. Hold rate through August rather than discounting into a full house, and shift any spend into September–November, where the coast is thinner than the bush.",
+  "segments": [
+   "bush",
+   "beach"
+  ],
+  "countries": "🇰🇪",
+  "confidence": "Confirmed",
+  "source": "foresight-2026-07-26",
+  "date": "2026-07-26",
+  "dateDisplay": "Sunday, 26 July 2026",
+  "edition": "Sunday Foresight",
+  "editionKey": "foresight"
  },
  {
   "headline": "EMIRATES GOES TRIPLE DAILY TO NAIROBI",
@@ -740,4 +797,4 @@ window.INSIGHTS = [
   "editionKey": "evening"
  }
 ];
-window.BUILT_AT = "2026-07-26 13:23";
+window.BUILT_AT = "2026-07-26 16:54";
