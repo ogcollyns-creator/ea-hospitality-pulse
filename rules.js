@@ -2,11 +2,11 @@
 // Maintained by the daily Pulse task. Every entry carries a source; anything
 // unverified is flagged so readers never act on a stale number unknowingly.
 window.RULES = {
- updated: "25 July 2026",
+ updated: "26 July 2026",
  groups: [
   { country:"Kenya", flag:"🇰🇪", items:[
     {rule:"Electronic Travel Authorisation (ETA)", amount:"US$30", who:"All non-EAC visitors, including infants", effective:"In force since Jan 2024", note:"Online only; typically 24–72h. Apply before travel — there is no visa on arrival.", source:"Kenya eTA portal", verified:true},
-    {rule:"Maasai Mara park fee", amount:"US$100 low / US$200 peak", who:"Non-resident adult, per person per day", effective:"Current 2026 season", note:"Peak pricing bites during migration — build it into quoted rates.", source:"Narok County / operator schedules", verified:true},
+    {rule:"Maasai Mara park fee", amount:"US$100 low / US$200 peak", who:"Non-resident adult, per person per day", effective:"Current 2026 season", note:"Peak pricing bites during migration — build it into quoted rates. Operator schedules for 2026 also describe a 12-hour ticket validity, meaning an overnight inside the reserve triggers a second entry charge, and fees no longer varying by camp location. We have not seen the Narok County gazette — CONFIRM before quoting.", source:"Narok County / operator schedules", verified:false},
     {rule:"KWS park fees (Amboseli, Nakuru, Tsavo)", amount:"US$80–90 per day", who:"Non-resident adult", effective:"Current", note:"Paid via kwspay.ecitizen.go.ke. Nairobi NP US$80.", source:"Kenya Wildlife Service", verified:true},
     {rule:"Tourism levy on short-term rentals", amount:"2% of booking value", who:"Airbnb, Booking.com and other STR platform listings", effective:"Reported for June 2026 — CONFIRM before quoting", note:"Extends the existing 2% Tourism Fund levy to short-term rentals, collected at source by platforms, with host registration required by the Tourism Regulatory Authority. Trade-press reported; we have not yet seen the gazette notice.", source:"Tourism Fund / trade press", verified:false},
     {rule:"COVID-19 entry requirements", amount:"None", who:"All", effective:"Fully lifted", note:"No testing, vaccination proof or quarantine. Remove any legacy wording from your pre-arrival comms.", source:"Ministry of Health", verified:true}
