@@ -7,7 +7,7 @@ Outputs:
   sitemap.xml, robots.txt         so search engines discover every edition
 Scans editions-src/*.md. Run: python build_site.py
 """
-import os, re, json, html, datetime
+import os, re, json, html, datetime, subprocess
 
 HERE = os.path.dirname(os.path.abspath(__file__))
 SRC = os.path.join(HERE, "editions-src")
@@ -109,6 +109,30 @@ def summarise(text):
             return re.sub(r"\s+"," ",l)[:200]
     return "East Africa hospitality intelligence."
 
+# Editions must sort by when they were actually PUBLISHED. Filenames don't do this:
+# reverse-alphabetically "morning" > "midday" > "foresight", so the morning brief
+# would masquerade as the latest edition all day. Git commit time is the truth.
+SLOT_RANK = {"morning": 1, "midday": 2, "foresight": 3, "evening": 4,
+             "playbook": 5, "inaugural": 0}
+
+def git_add_times():
+    """Map edition filename -> unix time it was first committed."""
+    try:
+        out = subprocess.run(
+            ["git", "log", "--diff-filter=A", "--reverse", "--format=@%ct", "--name-only", "--", "editions-src/"],
+            capture_output=True, text=True, check=True, cwd=HERE).stdout
+    except Exception:
+        return {}
+    times, cur = {}, None
+    for line in out.splitlines():
+        line = line.strip()
+        if line.startswith("@"):
+            try: cur = int(line[1:])
+            except ValueError: cur = None
+        elif line.endswith(".md") and cur:
+            times.setdefault(os.path.basename(line), cur)
+    return times
+
 def load_existing():
     try:
         d=open(os.path.join(HERE,"data.js"),encoding="utf-8").read()
@@ -206,6 +230,7 @@ def edition_page(e, siblings=None):
 
 def main():
     existing = load_existing()
+    pubtimes = git_add_times()
     editions, insights = [], []
     for fn in sorted(os.listdir(SRC)):
         if not fn.lower().endswith(".md"): continue
@@ -218,6 +243,7 @@ def main():
         eid = fn.rsplit(".",1)[0]
         e = {"id":eid,"date":date_iso,"dateDisplay":dd,"edition":EDITION_LABELS.get(key,"Brief"),
              "editionKey":key,"summary":summarise(tele),"bodyHtml":render_body(tele)}
+        e["_key"] = (pubtimes.get(fn, 0), date_iso, SLOT_RANK.get(key, 3))
         editions.append(e)
         for it in parse_items(tele):
             it.update({"source":eid,"date":date_iso,"dateDisplay":dd,
@@ -226,7 +252,9 @@ def main():
     built = {e["id"] for e in editions}
     for eid,e in existing.items():
         if eid not in built: editions.append(e)
-    editions.sort(key=lambda e:(e["date"],e["id"]), reverse=True)
+    editions.sort(key=lambda e: e.get("_key", (0, e["date"], 3)), reverse=True)
+    for e in editions:
+        e.pop("_key", None)
     insights.sort(key=lambda i:(i["date"],i["source"]), reverse=True)
 
     # data.js
