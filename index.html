@@ -189,6 +189,26 @@
   .rv .wy{font-family:'Helvetica Neue',Arial,sans-serif;font-size:13.5px;margin-top:6px;line-height:1.45}
   .rv .sg{font-family:'Helvetica Neue',Arial,sans-serif;font-size:12px;color:var(--muted);margin-top:6px;font-style:italic}
 
+  /* Tabs */
+  .tabs{display:flex;gap:6px;flex-wrap:wrap;margin-bottom:0;border-bottom:2px solid var(--line);padding-bottom:0}
+  .tab{font-family:'Helvetica Neue',Arial,sans-serif;font-size:14px;font-weight:600;padding:11px 15px;border:none;background:none;cursor:pointer;color:var(--muted);border-bottom:3px solid transparent;margin-bottom:-2px;white-space:nowrap}
+  .tab:hover{color:var(--ink)}
+  .tab.active{color:var(--teal-d);border-bottom-color:var(--gold)}
+  .tabwrap{padding-top:8px}
+  .pane{display:none}
+  .pane.active{display:block}
+  .pane > .adv-head:first-child{display:none}   /* tab label replaces the duplicate heading */
+
+  /* Latest edition card */
+  .latest{background:linear-gradient(135deg,var(--teal-d),var(--teal));color:#fff;border-radius:14px;padding:26px 30px;cursor:pointer;transition:transform .12s,box-shadow .12s;border-left:6px solid var(--gold)}
+  .latest:hover{transform:translateY(-3px);box-shadow:0 12px 30px rgba(10,79,72,.25)}
+  .latest .lbadge{display:inline-block;background:var(--gold);color:#231a06;font-family:'Helvetica Neue',Arial,sans-serif;font-size:11px;font-weight:800;letter-spacing:1px;text-transform:uppercase;padding:4px 10px;border-radius:20px}
+  .latest time{font-family:'Helvetica Neue',Arial,sans-serif;font-size:13px;opacity:.85;margin-left:9px}
+  .latest h3{font-size:23px;line-height:1.3;margin:13px 0 9px}
+  .latest p{margin:0;font-size:15.5px;opacity:.93;max-width:70ch}
+  .latest .go{display:inline-block;margin-top:16px;background:var(--gold);color:#231a06;font-family:'Helvetica Neue',Arial,sans-serif;font-weight:700;font-size:14px;padding:11px 18px;border-radius:8px}
+  @media(max-width:640px){.tabs{overflow-x:auto;flex-wrap:nowrap;-webkit-overflow-scrolling:touch}.latest{padding:22px}}
+
   /* Sections */
   section{padding:40px 0}
   .section-head{display:flex;align-items:baseline;justify-content:space-between;gap:12px;flex-wrap:wrap;margin-bottom:18px}
@@ -263,15 +283,10 @@
       <div><h1>EA Hospitality Pulse</h1><p>Daily intelligence for city, bush &amp; beach properties</p></div>
     </div>
     <nav class="top">
-      <a href="#advisories">Advisories</a>
-      <a href="#rateindex">Rate Index</a>
-      <a href="#connect">Connectivity</a>
-      <a href="#costs">Costs</a>
-      <a href="#rivals">Rivals</a>
-      <a href="#rules">Rules &amp; fees</a>
-      <a href="#track">Track record</a>
+      <a href="#latest">Latest</a>
       <a href="#archive">Archive</a>
-      <a href="#about">About</a>
+      <a href="#tools">Tools</a>
+      <a href="#track">Track record</a>
       <a href="#subscribe">Subscribe</a>
     </nav>
   </div>
@@ -303,109 +318,12 @@
   </div>
 </div>
 
-<section id="rateindex" class="wrap ri-wrap">
-  <div class="adv-head">
-    <div><span class="ri-badge">Proprietary data</span><h2>EA Pulse Rate Index</h2></div>
-    <span id="ri-updated"></span>
+<section id="latest" class="wrap" style="padding:34px 0 0">
+  <div class="section-head">
+    <div><div class="kicker">Hot off the press</div><h2>Latest edition</h2></div>
+    <a class="backlink" style="display:inline" href="#archive">Browse all editions →</a>
   </div>
-  <p style="max-width:70ch;margin:0 0 6px;color:var(--muted);font-size:15px">
-    A fixed basket of 40 properties across six East African markets, tracked weekly at a constant booking window — so movement in the index means movement in <em>rate</em>, not a change of sample. Published nowhere else for this region.
-  </p>
-  <div id="ri-body"></div>
-  <div id="ri-chartbox" class="ri-chart" style="display:none"><canvas id="ri-canvas" height="110"></canvas></div>
-
-  <h3 style="margin:26px 0 2px;font-size:18px">Market benchmarks we track</h3>
-  <table class="bm-table">
-    <thead><tr><th>Market</th><th>Metric</th><th>Value</th><th>Period</th><th>Source</th></tr></thead>
-    <tbody id="bm-body"></tbody>
-  </table>
-  <p class="method" id="ri-method"></p>
-</section>
-
-<section id="connect" class="wrap rl-wrap">
-  <div class="adv-head">
-    <div><span class="ri-badge">Lift &amp; access</span><h2>Connectivity tracker</h2></div>
-    <span id="cn-updated"></span>
-  </div>
-  <p style="max-width:72ch;margin:0 0 6px;color:var(--muted);font-size:15px">
-    Seats decide arrivals. We track official airport traffic and every confirmed route change — because no amount of marketing replaces lift.
-  </p>
-  <div id="cn-traffic" class="ct-grid"></div>
-  <h3 style="margin:24px 0 8px;font-size:18px">Route events</h3>
-  <div id="cn-routes"></div>
-  <p class="method"><b>Scope note:</b> true seats-per-week data sits behind commercial aviation databases, so we don't publish a seat count we can't verify. What's here is official traffic (lagging but authoritative) and confirmed route events (forward-looking and actionable).</p>
-</section>
-
-<section id="costs" class="wrap rl-wrap">
-  <div class="adv-head">
-    <div><span class="ri-badge">Margin watch</span><h2>Cost-side index</h2></div>
-    <span id="ct-updated"></span>
-  </div>
-  <p style="max-width:72ch;margin:0 0 6px;color:var(--muted);font-size:15px">
-    Demand data tells you what you can sell. This is what it costs to deliver — fuel, currency and inflation across the five markets. Owners live on margin, and most hospitality coverage ignores this half of the P&amp;L entirely.
-  </p>
-  <div id="ct-body" class="ct-grid"></div>
-
-  <h3 style="margin:30px 0 4px;font-size:19px">Data release calendar</h3>
-  <p style="max-width:72ch;margin:0 0 6px;color:var(--muted);font-size:14.5px">
-    When the numbers land. Most outlets report these two to three days late — we analyse them the morning they publish.
-  </p>
-  <table class="cal-table">
-    <thead><tr><th>Source</th><th>Release</th><th>Cadence</th><th>Why it matters</th></tr></thead>
-    <tbody id="cal-body"></tbody>
-  </table>
-</section>
-
-<section id="rules" class="wrap rl-wrap">
-  <div class="adv-head">
-    <div><span class="ri-badge">Living reference</span><h2>Rules, fees &amp; levies</h2></div>
-    <span id="rl-updated"></span>
-  </div>
-  <p style="max-width:72ch;margin:0 0 14px;color:var(--muted);font-size:15px">
-    Every entry rule, permit price, levy and surcharge across the five markets — with what it costs, who it applies to, and when it took effect. The things that stop a guest at immigration or surprise them at checkout. Bookmark it.
-  </p>
-  <div id="rl-body"></div>
-  <p class="method">Compiled from official sources and kept current by our daily scan. Anything we haven't re-confirmed recently is marked <span class="unver-tag">VERIFY</span> — always confirm with the official portal before quoting a client.</p>
-</section>
-
-<section id="rivals" class="wrap rl-wrap">
-  <div class="adv-head">
-    <div><span class="ri-badge">Know the competition</span><h2>Competitive destinations</h2></div>
-    <span id="rv-updated"></span>
-  </div>
-  <p style="max-width:72ch;margin:0 0 12px;color:var(--muted);font-size:15px">
-    East Africa isn't sold in isolation. When Mauritius discounts, Zanzibar bleeds. When the rand weakens, South African safari undercuts the Mara. These are the destinations competing for your guest.
-  </p>
-  <div id="rv-body"></div>
-</section>
-
-<section id="track" class="wrap tr-wrap">
-  <div class="adv-head">
-    <div><span class="ri-badge">The record</span><h2>Foresight track record</h2></div>
-    <span id="tr-updated"></span>
-  </div>
-  <p style="max-width:72ch;margin:0 0 6px;color:var(--muted);font-size:15px">
-    Every forecast we publish is logged here with a falsifiable test and a resolve-by date — and scored when the evidence lands, including the ones we get wrong. Anyone can sound confident about the future; this is the part that can be checked.
-  </p>
-  <div id="tr-stats" class="tr-stats"></div>
-  <h3 style="margin:22px 0 10px;font-size:18px">Open calls</h3>
-  <div id="tr-open"></div>
-  <div id="tr-resolved-wrap" style="display:none">
-    <h3 style="margin:22px 0 10px;font-size:18px">Resolved</h3>
-    <div id="tr-resolved"></div>
-  </div>
-</section>
-
-<section id="advisories" class="wrap adv-wrap">
-  <div class="adv-head">
-    <div><div class="kicker">Know before you sell</div><h2>Travel advisory status board</h2></div>
-    <span id="adv-updated"></span>
-  </div>
-  <table class="adv-table">
-    <thead><tr><th>Market</th><th>🇺🇸 US State Dept</th><th>🇬🇧 UK FCDO</th></tr></thead>
-    <tbody id="adv-body"></tbody>
-  </table>
-  <p class="adv-note">Levels shown are for main tourist areas; regional exceptions are noted. This is a working summary — always confirm with the official source (tap a level) before advising guests. Tap a market name to see its insights.</p>
+  <div id="latest-card"></div>
 </section>
 
 <section id="archive" class="wrap">
@@ -431,8 +349,100 @@
   </div>
 </section>
 
+<section id="tools" class="wrap" style="padding:38px 0 6px">
+  <div class="section-head">
+    <div><div class="kicker">Live reference</div><h2>Intelligence tools</h2></div>
+  </div>
+  <p style="max-width:72ch;margin:0 0 14px;color:var(--muted);font-size:15px">
+    Six live datasets we maintain for the region — advisory levels, entry rules and fees, our proprietary rate index, operating costs, air connectivity, and the destinations competing for your guest.
+  </p>
+  <div class="tabs"><button class="tab active" data-pane="advisories">🚦 Travel advisories</button><button class="tab" data-pane="rules">📋 Rules &amp; fees</button><button class="tab" data-pane="rateindex">📊 Rate Index</button><button class="tab" data-pane="costs">💰 Costs &amp; calendar</button><button class="tab" data-pane="connect">✈️ Connectivity</button><button class="tab" data-pane="rivals">🌍 Rival destinations</button></div>
+  <div class="tabwrap"><div class="pane active" id="advisories"><div class="adv-head">
+    <div><div class="kicker">Know before you sell</div><h2>Travel advisory status board</h2></div>
+    <span id="adv-updated"></span>
+  </div>
+  <table class="adv-table">
+    <thead><tr><th>Market</th><th>🇺🇸 US State Dept</th><th>🇬🇧 UK FCDO</th></tr></thead>
+    <tbody id="adv-body"></tbody>
+  </table>
+  <p class="adv-note">Levels shown are for main tourist areas; regional exceptions are noted. This is a working summary — always confirm with the official source (tap a level) before advising guests. Tap a market name to see its insights.</p></div><div class="pane" id="rules"><div class="adv-head">
+    <div><span class="ri-badge">Living reference</span><h2>Rules, fees &amp; levies</h2></div>
+    <span id="rl-updated"></span>
+  </div>
+  <p style="max-width:72ch;margin:0 0 14px;color:var(--muted);font-size:15px">
+    Every entry rule, permit price, levy and surcharge across the five markets — with what it costs, who it applies to, and when it took effect. The things that stop a guest at immigration or surprise them at checkout. Bookmark it.
+  </p>
+  <div id="rl-body"></div>
+  <p class="method">Compiled from official sources and kept current by our daily scan. Anything we haven't re-confirmed recently is marked <span class="unver-tag">VERIFY</span> — always confirm with the official portal before quoting a client.</p></div><div class="pane" id="rateindex"><div class="adv-head">
+    <div><span class="ri-badge">Proprietary data</span><h2>EA Pulse Rate Index</h2></div>
+    <span id="ri-updated"></span>
+  </div>
+  <p style="max-width:70ch;margin:0 0 6px;color:var(--muted);font-size:15px">
+    A fixed basket of 40 properties across six East African markets, tracked weekly at a constant booking window — so movement in the index means movement in <em>rate</em>, not a change of sample. Published nowhere else for this region.
+  </p>
+  <div id="ri-body"></div>
+  <div id="ri-chartbox" class="ri-chart" style="display:none"><canvas id="ri-canvas" height="110"></canvas></div>
+
+  <h3 style="margin:26px 0 2px;font-size:18px">Market benchmarks we track</h3>
+  <table class="bm-table">
+    <thead><tr><th>Market</th><th>Metric</th><th>Value</th><th>Period</th><th>Source</th></tr></thead>
+    <tbody id="bm-body"></tbody>
+  </table>
+  <p class="method" id="ri-method"></p></div><div class="pane" id="costs"><div class="adv-head">
+    <div><span class="ri-badge">Margin watch</span><h2>Cost-side index</h2></div>
+    <span id="ct-updated"></span>
+  </div>
+  <p style="max-width:72ch;margin:0 0 6px;color:var(--muted);font-size:15px">
+    Demand data tells you what you can sell. This is what it costs to deliver — fuel, currency and inflation across the five markets. Owners live on margin, and most hospitality coverage ignores this half of the P&amp;L entirely.
+  </p>
+  <div id="ct-body" class="ct-grid"></div>
+
+  <h3 style="margin:30px 0 4px;font-size:19px">Data release calendar</h3>
+  <p style="max-width:72ch;margin:0 0 6px;color:var(--muted);font-size:14.5px">
+    When the numbers land. Most outlets report these two to three days late — we analyse them the morning they publish.
+  </p>
+  <table class="cal-table">
+    <thead><tr><th>Source</th><th>Release</th><th>Cadence</th><th>Why it matters</th></tr></thead>
+    <tbody id="cal-body"></tbody>
+  </table></div><div class="pane" id="connect"><div class="adv-head">
+    <div><span class="ri-badge">Lift &amp; access</span><h2>Connectivity tracker</h2></div>
+    <span id="cn-updated"></span>
+  </div>
+  <p style="max-width:72ch;margin:0 0 6px;color:var(--muted);font-size:15px">
+    Seats decide arrivals. We track official airport traffic and every confirmed route change — because no amount of marketing replaces lift.
+  </p>
+  <div id="cn-traffic" class="ct-grid"></div>
+  <h3 style="margin:24px 0 8px;font-size:18px">Route events</h3>
+  <div id="cn-routes"></div>
+  <p class="method"><b>Scope note:</b> true seats-per-week data sits behind commercial aviation databases, so we don't publish a seat count we can't verify. What's here is official traffic (lagging but authoritative) and confirmed route events (forward-looking and actionable).</p></div><div class="pane" id="rivals"><div class="adv-head">
+    <div><span class="ri-badge">Know the competition</span><h2>Competitive destinations</h2></div>
+    <span id="rv-updated"></span>
+  </div>
+  <p style="max-width:72ch;margin:0 0 12px;color:var(--muted);font-size:15px">
+    East Africa isn't sold in isolation. When Mauritius discounts, Zanzibar bleeds. When the rand weakens, South African safari undercuts the Mara. These are the destinations competing for your guest.
+  </p>
+  <div id="rv-body"></div></div></div>
+</section>
+
+<section id="track" class="wrap tr-wrap">
+  <div class="adv-head">
+    <div><span class="ri-badge">The record</span><h2>Foresight track record</h2></div>
+    <span id="tr-updated"></span>
+  </div>
+  <p style="max-width:72ch;margin:0 0 6px;color:var(--muted);font-size:15px">
+    Every forecast we publish is logged here with a falsifiable test and a resolve-by date — and scored when the evidence lands, including the ones we get wrong. Anyone can sound confident about the future; this is the part that can be checked.
+  </p>
+  <div id="tr-stats" class="tr-stats"></div>
+  <h3 style="margin:22px 0 10px;font-size:18px">Open calls</h3>
+  <div id="tr-open"></div>
+  <div id="tr-resolved-wrap" style="display:none">
+    <h3 style="margin:22px 0 10px;font-size:18px">Resolved</h3>
+    <div id="tr-resolved"></div>
+  </div>
+</section>
+
 <div class="band">
-  <section id="about" class="wrap">
+<section id="about" class="wrap">
     <div class="about-grid">
       <div>
         <div class="kicker">About</div>
@@ -833,6 +843,41 @@
         '<div class="wt">Watch: '+v.watch+'</div><div class="wy">'+v.why+'</div>'+
         '<div class="sg">Signal: '+v.signal+'</div></div>').join('')+'</div>').join('');
   }
+  // ---- Latest edition (the product, front and centre) ----
+  function renderLatest(){
+    const box=document.getElementById('latest-card');
+    if(!box || !editions.length) return;
+    const e=editions[0];
+    box.innerHTML='<div class="latest"><span class="lbadge">'+e.edition+'</span><time>'+e.dateDisplay+'</time>'+
+      '<h3>'+e.summary.split(".")[0].slice(0,110)+'.</h3>'+
+      '<p>'+e.summary.slice(0,190)+(e.summary.length>190?'…':'')+'</p>'+
+      '<span class="go">Read this edition →</span></div>';
+    box.querySelector('.latest').onclick=()=>openEdition(e);
+  }
+
+  // ---- Tabs ----
+  function initTabs(){
+    const tabs=[...document.querySelectorAll('.tab')];
+    if(!tabs.length) return;
+    function show(id){
+      tabs.forEach(t=>t.classList.toggle('active', t.dataset.pane===id));
+      document.querySelectorAll('.pane').forEach(p=>p.classList.toggle('active', p.id===id));
+    }
+    tabs.forEach(t=>t.onclick=()=>show(t.dataset.pane));
+    // honour deep links like /#rules or /#rateindex
+    const h=(location.hash||'').replace('#','');
+    if(h && document.getElementById(h) && document.getElementById(h).classList.contains('pane')){
+      show(h);
+      setTimeout(()=>document.getElementById('tools').scrollIntoView({behavior:'smooth'}),250);
+    }
+    window.addEventListener('hashchange',()=>{
+      const k=(location.hash||'').replace('#','');
+      const el=document.getElementById(k);
+      if(el && el.classList.contains('pane')){ show(k); document.getElementById('tools').scrollIntoView({behavior:'smooth'}); }
+    });
+  }
+  renderLatest();
+  initTabs();
   renderConnect();
   renderRivals();
   renderCosts();
