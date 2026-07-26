@@ -240,7 +240,7 @@ def edition_page(e, siblings=None):
       <a href="{CHANNELS['telegram']}" target="_blank" rel="noopener">📣 Telegram (full editions)</a>
       <a href="{CHANNELS['whatsapp']}" target="_blank" rel="noopener">💬 WhatsApp (daily skim)</a>
       <a href="{CHANNELS['linkedin']}" target="_blank" rel="noopener">💼 LinkedIn (the Big Read)</a>
-      <a href="../index.html#archive">🗂 Full archive</a>
+      <a href="../index.html#archive">🗂 Every edition</a>
     </div>
   </article>
 </div>

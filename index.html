@@ -305,7 +305,7 @@
     </div>
     <nav class="top">
       <a href="#latest">Latest</a>
-      <a href="#archive">Archive</a>
+      <a href="#archive">Editions</a>
       <a href="#tools">Tools</a>
       <a href="#track">Track record</a>
       <a href="#subscribe">Subscribe</a>
@@ -326,7 +326,7 @@
     </div>
     <div class="cta-row">
       <a class="btn btn-gold" href="#subscribe">Get the daily brief →</a>
-      <a class="btn btn-ghost" href="#archive">Read the archive</a>
+      <a class="btn btn-ghost" href="#archive">Browse every edition</a>
     </div>
   </div>
 </div>
@@ -342,18 +342,18 @@
 <section id="latest" class="wrap" style="padding:34px 0 0">
   <div class="section-head">
     <div><div class="kicker">Hot off the press</div><h2>Latest edition</h2></div>
-    <a class="backlink" style="display:inline" href="#archive">Browse all editions →</a>
+    <a class="backlink" style="display:inline" href="#archive">Browse every edition →</a>
   </div>
   <div id="latest-card"></div>
 </section>
 
 <section id="archive" class="wrap">
   <div class="section-head">
-    <div><div class="kicker" id="arch-kicker">Every edition, archived</div><h2 id="arch-title">The Pulse archive</h2></div>
-    <span class="backlink" id="backlink" onclick="showEditions()">← All editions</span>
+    <div><div class="kicker" id="arch-kicker">The full body of work</div><h2 id="arch-title">Every edition</h2></div>
+    <span class="backlink" id="backlink" onclick="showEditions()">← Every edition</span>
   </div>
   <div class="controls">
-    <input id="search" type="text" placeholder="Search editions — e.g. Zanzibar, park fees, RevPAR…">
+    <input id="search" type="text" placeholder="Search every edition — Zanzibar, park fees, RevPAR…">
     <select id="filter">
       <option value="">All editions</option>
       <option value="morning">Morning Brief</option>
@@ -594,10 +594,10 @@
 
   function render(){
     if(mode==='editions'){
-      titleEl.textContent='The Pulse archive';
-      kickerEl.textContent='Every edition, archived';
+      titleEl.textContent='Every edition';
+      kickerEl.textContent='The full body of work';
       backEl.style.display='none'; filter.style.display='';
-      search.placeholder='Search editions — e.g. Zanzibar, park fees, RevPAR…';
+      search.placeholder='Search every edition — Zanzibar, park fees, RevPAR…';
       const f=filter.value;
       const all=editions.filter(e=>(!f||e.editionKey===f) && matchQ(e.summary+' '+e.bodyHtml+' '+e.edition+' '+e.dateDisplay));
       const list=all.slice(0,shown);
