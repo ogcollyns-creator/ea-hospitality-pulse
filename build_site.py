@@ -20,6 +20,11 @@ except Exception:
     _CFG = {}
 BASE = (_CFG.get("base") or "https://ogcollyns-creator.github.io/ea-hospitality-pulse").rstrip("/")
 CNAME = (_CFG.get("cname") or "").strip()
+CHANNELS = _CFG.get("channels") or {
+    "telegram": "https://t.me/africabusinessriskreview",
+    "linkedin": "https://www.linkedin.com/company/ea-hospitality-pulse/",
+    "whatsapp": "https://whatsapp.com/channel/0029VbCjul2KmCPTv8Qrh73b",
+}
 
 EDITION_LABELS = {
     "morning": "Morning Brief", "midday": "Midday Pulse",
@@ -133,15 +138,22 @@ header.s b{font-size:16px}
 .meta-line{display:block;font-family:Helvetica Neue,Arial,sans-serif;font-size:14px;color:var(--muted)}
 hr.divider{border:none;border-top:1px dashed var(--line);margin:16px 0}
 .nav{font-family:Helvetica Neue,Arial,sans-serif;font-size:14px;font-weight:600;margin:0 0 6px;display:inline-block}
-.sub{font-family:Helvetica Neue,Arial,sans-serif;font-size:14px;color:var(--muted);margin-top:20px;border-top:1px solid var(--line);padding-top:16px}
+.sub{font-family:Helvetica Neue,Arial,sans-serif;font-size:14px;color:var(--muted);margin-top:20px;border-top:1px solid var(--line);padding-top:16px;line-height:1.9}
+.more{font-family:Helvetica Neue,Arial,sans-serif;font-size:13.5px;background:var(--sand-2);border-radius:8px;padding:11px 14px;margin-top:22px}
+.more a{margin-right:10px}
 .sub a{font-weight:600;margin-right:14px}
 footer.s{text-align:center;color:var(--muted);font-family:Helvetica Neue,Arial,sans-serif;font-size:12px;padding:20px}
 """
 
-def edition_page(e):
+def edition_page(e, siblings=None):
     title = f"{e['edition']} — {e['dateDisplay']} | EA Hospitality Pulse"
     desc = e["summary"][:157] + ("…" if len(e["summary"])>157 else "")
     url = f"{BASE}/editions/{e['id']}.html"
+    sib_html = ""
+    if siblings:
+        links = " · ".join(
+            f'<a href="{s2["id"]}.html">{html.escape(s2["edition"])}</a>' for s2 in siblings)
+        sib_html = f'<div class="more"><b>More from {html.escape(e["dateDisplay"])}:</b> {links}</div>'
     ld = {
         "@context":"https://schema.org","@type":"NewsArticle",
         "headline": e["summary"][:110],
@@ -178,10 +190,13 @@ def edition_page(e):
     <div><span class="badge">{html.escape(e['edition'])}</span><time>{html.escape(e['dateDisplay'])}</time></div>
     <h1>{html.escape(e['summary'].split('.')[0])[:120]}.</h1>
     {e['bodyHtml']}
-    <div class="sub">Get every brief:
-      <a href="https://t.me/africabusinessriskreview" target="_blank" rel="noopener">Telegram</a>
-      <a href="https://www.linkedin.com/company/ea-hospitality-pulse/" target="_blank" rel="noopener">LinkedIn</a>
-      <a href="https://whatsapp.com/channel/0029VbCjul2KmCPTv8Qrh73b" target="_blank" rel="noopener">WhatsApp</a>
+    {sib_html}
+    <div class="sub">
+      <b>Follow the Pulse</b> — three briefs a day across Kenya, Uganda, Tanzania, Zanzibar &amp; Rwanda.<br>
+      <a href="{CHANNELS['telegram']}" target="_blank" rel="noopener">📣 Telegram (full editions)</a>
+      <a href="{CHANNELS['whatsapp']}" target="_blank" rel="noopener">💬 WhatsApp (daily skim)</a>
+      <a href="{CHANNELS['linkedin']}" target="_blank" rel="noopener">💼 LinkedIn (the Big Read)</a>
+      <a href="../index.html#archive">🗂 Full archive</a>
     </div>
   </article>
 </div>
@@ -233,9 +248,13 @@ def main():
 
     # per-edition static pages
     os.makedirs(EDIR, exist_ok=True)
+    by_date = {}
     for e in editions:
+        by_date.setdefault(e["date"], []).append(e)
+    for e in editions:
+        sibs = [x for x in by_date.get(e["date"], []) if x["id"] != e["id"]]
         with open(os.path.join(EDIR, e["id"]+".html"),"w",encoding="utf-8") as f:
-            f.write(edition_page(e))
+            f.write(edition_page(e, sibs))
 
     # sitemap.xml
     today = datetime.date.today().isoformat()
