@@ -10,6 +10,13 @@ import sys, re, os
 FONT_DIR = "/usr/share/fonts/truetype/dejavu"
 TEAL=(10,79,72); GOLD=(168,111,31); INK=(31,36,33); MUTED=(107,102,86); SAND=(239,231,214)
 
+def strip_md(t):
+    """Editions use *bold*/_italic_; the PDF styles headings itself, so drop the markers."""
+    t = re.sub(r"\*\*([^*\n]+?)\*\*", r"\1", t)
+    t = re.sub(r"(?<!\w)\*([^*\n]+?)\*(?!\w)", r"\1", t)
+    t = re.sub(r"(?<![\w/])_([^_\n]+?)_(?![\w/])", r"\1", t)
+    return t
+
 def strip_emoji(t):
     return re.sub(r"[\U0001F000-\U0001FAFF\U00002600-\U000027BF\U0001F1E6-\U0001F1FF️⃣←-⇿─-◿]", "", t).strip()
 
@@ -65,7 +72,7 @@ def main():
         if set(l) <= set("━—-–_ "):  # divider
             pdf.set_draw_color(225,216,196); pdf.set_line_width(0.2)
             pdf.line(pdf.l_margin,pdf.get_y(),pdf.l_margin+W,pdf.get_y()); pdf.ln(3); continue
-        clean = strip_emoji(l)
+        clean = strip_md(strip_emoji(l))
         if not clean: continue
         if re.match(r"^[0-9]️?⃣", l):                       # numbered signal headline
             pdf.ln(1); para(clean, "B", 11.5, TEAL, gap=1.5)

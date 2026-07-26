@@ -33,6 +33,26 @@ EDITION_LABELS = {
 }
 KEYCAP = re.compile(r"^([0-9]️?⃣)\s*")
 
+# Editions are written with *bold* / _italic_ (the WhatsApp/Telegram convention).
+# Render them properly on the web instead of printing literal asterisks.
+_BOLD2 = re.compile(r"\*\*([^*\n]+?)\*\*")
+_BOLD1 = re.compile(r"(?<!\w)\*([^*\n]+?)\*(?!\w)")
+_ITAL  = re.compile(r"(?<![\w/])_([^_\n]+?)_(?![\w/])")
+
+def md_inline(escaped):
+    """Apply after html.escape() — converts emphasis markers to real tags."""
+    t = _BOLD2.sub(r"<strong>\1</strong>", escaped)
+    t = _BOLD1.sub(r"<strong>\1</strong>", t)
+    t = _ITAL.sub(r"<em>\1</em>", t)
+    return t
+
+def md_strip(text):
+    """Remove emphasis markers for plain-text contexts (summaries, share images)."""
+    t = _BOLD2.sub(r"\1", text)
+    t = _BOLD1.sub(r"\1", t)
+    t = _ITAL.sub(r"\1", t)
+    return t
+
 def parse_filename(fn):
     base = fn.rsplit(".", 1)[0]
     m = re.search(r"(\d{4}-\d{2}-\d{2})", base)
@@ -92,7 +112,7 @@ def render_body(text):
         if set(blk) <= set("━—-–_ "): out.append('<hr class="divider">'); continue
         r=[]
         for l in [x.strip() for x in blk.split("\n") if x.strip()]:
-            e=html.escape(l)
+            e=md_inline(html.escape(l))
             if KEYCAP.match(l): e=f'<span class="item-head">{e}</span>'
             elif l.startswith("🎯"): e=f'<span class="sowhat">{e}</span>'
             elif l.startswith("🏷"): e=f'<span class="tagline">{e}</span>'
@@ -106,7 +126,7 @@ def summarise(text):
     for l in text.split("\n"):
         l=l.strip()
         if l and not l.startswith(("🏨","📅","━","#")) and len(l)>40:
-            return re.sub(r"\s+"," ",l)[:200]
+            return md_strip(re.sub(r"\s+"," ",l))[:200]
     return "East Africa hospitality intelligence."
 
 # Editions must sort by when they were actually PUBLISHED. Filenames don't do this:
