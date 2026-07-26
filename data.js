@@ -9,6 +9,15 @@ window.EDITIONS = [
   "bodyHtml": "<p><span class=\"meta-line\">🏨 EA HOSPITALITY PULSE — Morning Brief</span><br><span class=\"meta-line\">📅 Sunday, 26 July 2026 | 🇰🇪🇺🇬🇹🇿🇷🇼</span></p>\n<p>Ownership, not occupancy, is the story this weekend — a Swiss buyer is moving on the region&#x27;s largest camp group while Zanzibar&#x27;s demand curve quietly flattens.</p>\n<p>━━━━━━━━━<br><span class=\"item-head\">1️⃣ SWISS BUYER MOVES ON EAST AFRICA&#x27;S BIGGEST CAMP GROUP</span><br>A Squared Holding AG of Zollikon, Switzerland has filed to take sole control of Nawiri Group — parent of Asilia Africa, Go2Africa and Bazaruto. Tanzania&#x27;s Fair Competition Commission opened a 14-day public comment window on 9 July under section 65(2)(g) of the Fair Competition Act; that window has now closed and the decision sits with the FCC (per TanzaniaInvest, citing the FCC notice). Asilia runs around 15 Tanzanian camps — Sayari, Namiri Plains, Dunia, The Highlands, Jabali Ridge, Roho ya Selous, Matemwe on Zanzibar — plus properties in Kenya and Uganda, and employs 1,000+ people. Existing investors include Norfund and LGT. Price undisclosed.<br><span class=\"sowhat\">🎯 So what: One owner is about to control a large slice of Serengeti and Mara-circuit bed stock plus a major retail channel in Go2Africa. Lock your 2027 agent and DMC rates now, before a consolidated owner resets the market&#x27;s contracting terms for you.</span><br><span class=\"tagline\">🏷 Bush | TZ + KE + UG | Confirmed</span></p>\n<p><span class=\"item-head\">2️⃣ ZANZIBAR&#x27;S GROWTH ENGINE JUST DROPPED TO 3%</span><br>Zanzibar recorded 69,605 arrivals in June, up only 3.1% on June 2025&#x27;s 67,496 — against a 16.2% trailing-year growth rate. Europe supplied 61.9%, average stay was eight nights and 90.1% arrived by air (Zanzibar Commission for Tourism, statistician Hassan Ameir Vuai). Volume bounced 73.4% from May, so peak season itself is intact. It is the year-on-year curve that has flattened — and it is flattening into the 2026 supply wave: Catalonia Grand, Le Méridien and Iberostar Muyuni already open, Ritz-Carlton Nungwi due late this year.<br><span class=\"sowhat\">🎯 So what: Beach owners, your rate strategy is now competing for 3% more guests, not 16%. Hold your August–September nightly rate and buy volume with length-of-stay and inclusions instead — a discounted headline rate this month sets your 2027 tour-operator benchmark.</span><br><span class=\"tagline\">🏷 Beach | TZ + ZNZ | Confirmed</span></p>\n<p><span class=\"item-head\">3️⃣ TANZANIA&#x27;S TRAVEL EARNINGS HIT US$4.42BN — AND THE IMF SIGNS OFF</span><br>Bank of Tanzania data for the year to May 2026 put travel receipts at US$4,419.1m within services exports of US$8,051.5m, up 14.2%. Total goods and services exports rose 17.8% to US$19.7bn. Separately the IMF Executive Board approved an immediate US$443.9m disbursement on completing the final ECF and RSF reviews, projecting 6.2% GDP growth and naming tourism among the drivers (per TanzaniaInvest).<br><span class=\"sowhat\">🎯 So what: The quiet win here is FX credibility, not the headline. Cheaper letters of credit and easier import cover make refurbishment maths work. If you have 2027 capex, brief your bank this quarter while the IMF review is still fresh on the desk.</span><br><span class=\"tagline\">🏷 All segments | TZ | Confirmed</span></p>\n<p><span class=\"item-head\">4️⃣ KIGALI JOINS THE GLOBAL MICE CLUB — AND THE UNDERWRITING IS STILL WRONG</span><br>Kigali became the 14th member of BestCities Global Alliance on 16 July (TTGmice). RDB&#x27;s 2025 report logs 165 events and US$94.7m in MICE revenue — level with the 2023 peak of US$95m from 160 events, and well clear of 2024&#x27;s post-Marburg dip to US$84.8m and 115 events. Writing in CoStar on 15 July, consultant Dr Emmanuel Nsabimana argues lenders still underwrite East African city hotels on leisure seasonality when corporate, diplomatic and MICE demand is what actually fills them — and that this mispriced both Nairobi&#x27;s 2,000-room absorption and Kigali&#x27;s resilience.<br><span class=\"sowhat\">🎯 So what: City owners in Kigali, Nairobi and Dar — rebuild your feasibility deck around delegate pipelines, midweek pickup and account depth, not national arrivals statistics. It changes the stabilised RevPAR you can defend to a lender. Note: RDB calls 2025 a record despite its own higher 2023 figure — treat the two years as level, not as growth.</span><br><span class=\"tagline\">🏷 City | RW + KE | Confirmed (RDB record claim: Reported)</span></p>\n<p>━━━━━━━━━<br><span class=\"meta-line\">📡 RADAR</span><br><span class=\"radar-item\">▪️ Now – mid Aug: FCC ruling on the A Squared / Nawiri transaction; comment window closed ~23 July</span><br><span class=\"radar-item\">▪️ ~27 Aug: Uganda&#x27;s 42-day Ebola countdown ends (last patient discharged 16 July, no case since 21 June)</span><br><span class=\"radar-item\">▪️ Mid-Aug: Zanzibar&#x27;s July arrivals release — the year-on-year figure is the one that matters</span><br><span class=\"radar-item\">▪️ 2–3 Feb 2027: Future Hospitality Summit Africa, Kampala</span></p>\n<p><span class=\"meta-line\">💬 If Asilia ends up under a single Swiss owner, does the Serengeti–Mara circuit get more disciplined on rate, or more aggressive on distribution? Reply — we&#x27;ll publish the best answers.</span></p>\n<p>— EA Hospitality Pulse | Daily intelligence for city, bush &amp; beach properties</p>"
  },
  {
+  "id": "pulse-2026-07-26-midday",
+  "date": "2026-07-26",
+  "dateDisplay": "Sunday, 26 July 2026",
+  "edition": "Midday Pulse",
+  "editionKey": "midday",
+  "summary": "Nairobi's supply story just gained a second act — and this time the lender holds the keys.",
+  "bodyHtml": "<p><span class=\"meta-line\">🏨 EA HOSPITALITY PULSE — Midday Pulse</span><br><span class=\"meta-line\">📅 Sunday, 26 July 2026 | 🇰🇪🇺🇬</span></p>\n<p>Nairobi&#x27;s supply story just gained a second act — and this time the lender holds the keys.</p>\n<p>━━━━━━━━━<br><span class=\"item-head\">1️⃣ EQUITY TAKES CONTROL OF A 211-ROOM NAIROBI HOTEL</span><br>Glee Hotel in Runda has been placed under administration, with Kamal Anantroy Bhatt of Anant Bhatt LLP appointed effective 6 July, following a default that court filings put at Sh8.267bn (per Khusoko, citing the Insolvency Act notice and Nairobi High Court proceedings). A bank-commissioned valuation puts the eight-acre property near Sh9.5bn. It opened in late 2023 with 211 rooms, nine meeting rooms and six F&amp;B outlets. It follows Eastland Hotel (Equity, September 2025) and Nairobi Upperhill Hotel (NBK).<br><span class=\"sowhat\">🎯 So what: an asset worth Sh9.5bn carrying Sh8.27bn of debt has barely 13% equity cushion — and that was a 2023 build. Re-run your own debt service against actual, not budgeted, 2026 RevPAR this week and open the conversation with your lender before they open it with you. Buyers: distressed upper-tier Nairobi stock is the cheapest entry point in a decade — register interest with the administrator now.</span><br><span class=\"tagline\">🏷 City | KE | Reported</span></p>\n<p><span class=\"item-head\">2️⃣ THE JKIA LEVY IS NOW COLLATERAL, NOT JUST A TAX</span><br>Kenya will borrow Sh81bn of a Sh116bn JKIA financing package, with the balance from the National Infrastructure Fund and a bond secured against future airport passenger levy collections — Sh18.5bn a year is already earmarked to service airport debt (per Business Daily and Daily Nation, 24 July). The levy applies to every international and domestic ticket sold in Kenya.<br><span class=\"sowhat\">🎯 So what: this is what changed. A levy pledged to bondholders is a levy nobody can cut. Stop modelling any relief on Kenyan air taxes into your 2027 and 2028 rate cards, and write the cost into net-rate contracts with tour operators now rather than absorbing it at settlement later.</span><br><span class=\"tagline\">🏷 All segments | KE | Confirmed</span></p>\n<p><span class=\"item-head\">3️⃣ UGANDA WILL WAIVE PARK ENTRY FOR THREE DAYS</span><br>Free national park entry on 25, 26 and 27 September, for Ugandans and foreigners alike, announced by State Minister for Tourism Susan Nsambu Nakawuki while touring Murchison Falls with UWA (per The Independent). Officials framed it plainly as a counter to the fifteen countries still holding advisories against Uganda.<br><span class=\"sowhat\">🎯 So what: the waiver covers entry fees — game drives, boat cruises and permits are not confirmed as included. Lodges around Murchison, Queen Elizabeth and Lake Mburo should build a three-night September package around the dates and sell it into the domestic and regional market this week, before capacity fills. Confirm scope with UWA before you publish a price.</span><br><span class=\"tagline\">🏷 Bush | UG | Confirmed</span></p>\n<p>Also noted: Kenya Airways returned its 400-seat 777-300ER to Nairobi–Heathrow on 17 July, on four of seven weekly rotations, cutting grounded capacity from roughly 18% of the network to 6–8% (per AeroRoutes and Khusoko). More UK seats into migration and Christmas.</p>\n<p><span class=\"meta-line\">💬 Nairobi owners — are your lenders getting harder or softer this quarter? Reply and tell us.</span><br>— EA Hospitality Pulse | Daily intelligence for city, bush &amp; beach properties</p>"
+ },
+ {
   "id": "pulse-2026-07-25-morning",
   "date": "2026-07-25",
   "dateDisplay": "Saturday, 25 July 2026",
@@ -161,6 +170,53 @@ window.INSIGHTS = [
   "dateDisplay": "Sunday, 26 July 2026",
   "edition": "Morning Brief",
   "editionKey": "morning"
+ },
+ {
+  "headline": "EQUITY TAKES CONTROL OF A 211-ROOM NAIROBI HOTEL",
+  "body": "Glee Hotel in Runda has been placed under administration, with Kamal Anantroy Bhatt of Anant Bhatt LLP appointed effective 6 July, following a default that court filings put at Sh8.267bn (per Khusoko, citing the Insolvency Act notice and Nairobi High Court proceedings). A bank-commissioned valuation puts the eight-acre property near Sh9.5bn. It opened in late 2023 with 211 rooms, nine meeting rooms and six F&B outlets. It follows Eastland Hotel (Equity, September 2025) and Nairobi Upperhill Hotel (NBK).",
+  "sowhat": "🎯 So what: an asset worth Sh9.5bn carrying Sh8.27bn of debt has barely 13% equity cushion — and that was a 2023 build. Re-run your own debt service against actual, not budgeted, 2026 RevPAR this week and open the conversation with your lender before they open it with you. Buyers: distressed upper-tier Nairobi stock is the cheapest entry point in a decade — register interest with the administrator now.",
+  "segments": [
+   "city"
+  ],
+  "countries": "KE",
+  "confidence": "Reported",
+  "source": "pulse-2026-07-26-midday",
+  "date": "2026-07-26",
+  "dateDisplay": "Sunday, 26 July 2026",
+  "edition": "Midday Pulse",
+  "editionKey": "midday"
+ },
+ {
+  "headline": "THE JKIA LEVY IS NOW COLLATERAL, NOT JUST A TAX",
+  "body": "Kenya will borrow Sh81bn of a Sh116bn JKIA financing package, with the balance from the National Infrastructure Fund and a bond secured against future airport passenger levy collections — Sh18.5bn a year is already earmarked to service airport debt (per Business Daily and Daily Nation, 24 July). The levy applies to every international and domestic ticket sold in Kenya.",
+  "sowhat": "🎯 So what: this is what changed. A levy pledged to bondholders is a levy nobody can cut. Stop modelling any relief on Kenyan air taxes into your 2027 and 2028 rate cards, and write the cost into net-rate contracts with tour operators now rather than absorbing it at settlement later.",
+  "segments": [
+   "city",
+   "bush",
+   "beach"
+  ],
+  "countries": "KE",
+  "confidence": "Confirmed",
+  "source": "pulse-2026-07-26-midday",
+  "date": "2026-07-26",
+  "dateDisplay": "Sunday, 26 July 2026",
+  "edition": "Midday Pulse",
+  "editionKey": "midday"
+ },
+ {
+  "headline": "UGANDA WILL WAIVE PARK ENTRY FOR THREE DAYS",
+  "body": "Free national park entry on 25, 26 and 27 September, for Ugandans and foreigners alike, announced by State Minister for Tourism Susan Nsambu Nakawuki while touring Murchison Falls with UWA (per The Independent). Officials framed it plainly as a counter to the fifteen countries still holding advisories against Uganda.",
+  "sowhat": "🎯 So what: the waiver covers entry fees — game drives, boat cruises and permits are not confirmed as included. Lodges around Murchison, Queen Elizabeth and Lake Mburo should build a three-night September package around the dates and sell it into the domestic and regional market this week, before capacity fills. Confirm scope with UWA before you publish a price.",
+  "segments": [
+   "bush"
+  ],
+  "countries": "UG",
+  "confidence": "Confirmed",
+  "source": "pulse-2026-07-26-midday",
+  "date": "2026-07-26",
+  "dateDisplay": "Sunday, 26 July 2026",
+  "edition": "Midday Pulse",
+  "editionKey": "midday"
  },
  {
   "headline": "EMIRATES GOES TRIPLE DAILY TO NAIROBI",
@@ -684,4 +740,4 @@ window.INSIGHTS = [
   "editionKey": "evening"
  }
 ];
-window.BUILT_AT = "2026-07-26 07:23";
+window.BUILT_AT = "2026-07-26 13:13";
