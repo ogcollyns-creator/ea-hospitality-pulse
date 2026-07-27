@@ -2,7 +2,7 @@
 // Maintained by the daily Pulse task. Every entry carries a source; anything
 // unverified is flagged so readers never act on a stale number unknowingly.
 window.RULES = {
- updated: "26 July 2026",
+ updated: "27 July 2026",
  groups: [
   { country:"Kenya", flag:"🇰🇪", items:[
     {rule:"Electronic Travel Authorisation (ETA)", amount:"US$30", who:"All non-EAC visitors, including infants", effective:"In force since Jan 2024", note:"Online only; typically 24–72h. Apply before travel — there is no visa on arrival.", source:"Kenya eTA portal", verified:true},
@@ -35,6 +35,7 @@ window.RULES = {
     {rule:"Yellow fever certificate", amount:"Required", who:"All arrivals", effective:"Current", note:"Mandatory, uploaded at application.", source:"Ministry of Health", verified:true}
   ]},
   { country:"Regional", flag:"🌍", items:[
+    {rule:"US Ebola entry restrictions & airport screening", amount:"No fee — screening and entry limits", who:"Travellers arriving in the US who have been in DRC, Uganda or South Sudan in the previous 21 days", effective:"Renewed 13 July 2026; current order runs to approximately 12 August 2026", note:"Third consecutive 30-day renewal. Eligible passengers are rerouted through designated US airports for public health screening; certain categories of traveller from DRC are barred, and a CDC/DHS Do Not Board list applies. NOT a blanket ban — but it materially affects US-origin itineraries that route through Entebbe. Africa CDC formally asked the US to lift the Uganda element on 21 July, citing no new Ugandan case since 21 June. Next decision point around 12 August. Tell US agents the mechanism, not a reassurance.", source:"US CDC returning-traveller guidance", verified:true, flag:"action"},
     {rule:"East Africa Tourist Visa (EATV)", amount:"US$100", who:"Kenya + Uganda + Rwanda", effective:"Current", note:"90-day multiple entry, free movement between the three. Apply through your FIRST country of entry. Materially cheaper than three separate visas — sell multi-country itineraries on it.", source:"EAC partner states", verified:true, flag:"action"}
   ]}
  ]

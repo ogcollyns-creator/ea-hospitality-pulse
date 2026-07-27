@@ -115,9 +115,67 @@ window.EDITIONS = [
   "editionKey": "inaugural",
   "summary": "Nairobi is about to absorb 1,500 new branded rooms this year — and the smartest operators are already repositioning. Here's what matters today.",
   "bodyHtml": "<p><span class=\"meta-line\">🏨 EA HOSPITALITY PULSE — Morning Brief</span><br><span class=\"meta-line\">📅 Friday, 24 July 2026 | 🇰🇪🇹🇿🇷🇼🇺🇬</span></p>\n<p>Nairobi is about to absorb 1,500 new branded rooms this year — and the smartest operators are already repositioning. Here&#x27;s what matters today.</p>\n<hr class=\"divider\">\n<p><span class=\"item-head\">1️⃣ NAIROBI&#x27;S SUPPLY WAVE IS HERE</span><br>W Hospitality Group counts ~20 branded hotels (3,650 rooms) in Nairobi&#x27;s pipeline, with ~1,500 rooms opening in 2026 alone — after 2,000 rooms added since 2023 already knocked occupancy down nearly 10 points (per Tourism Update). Demand is diversifying (Middle East, Asia, regional), but supply is outrunning it.<br><span class=\"sowhat\">🎯 So what: Don&#x27;t rate-war the new entrants. Lock in corporate and MICE contracts for 2027 now, and differentiate on product — new supply hurts identical products most.</span><br><span class=\"tagline\">🏷 City | KE | Confirmed</span></p>\n<p><span class=\"item-head\">2️⃣ ZANZIBAR BREAKS 100K VISITORS A MONTH</span><br>Arrivals topped 100,000 in January 2026 — up from 42,445 in Jan 2022 — and July 2025&#x27;s 106,108 was +31% year-on-year (per Tanzania Monitor). Iberostar has just opened its first 5-star on Muyuni Beach. Note: inbound travel insurance from Zanzibar Insurance Corporation is now mandatory.<br><span class=\"sowhat\">🎯 So what: Hold rate through peak — this demand supports it. Add the ZIC insurance requirement to pre-arrival comms today; a guest surprised at the airport is a bad review waiting.</span><br><span class=\"tagline\">🏷 Beach | ZNZ | Confirmed</span></p>\n<p><span class=\"item-head\">3️⃣ RWANDA&#x27;S BIGGEST SOURCE MARKET IS NOW... DRC</span><br>185,420 DRC visitors in H1 2026 — 12.5% of all arrivals — overtaking every other market (per Travel and Tour World / RDB data). Business, healthcare, trade and family travel, not just leisure.<br><span class=\"sowhat\">🎯 So what: Kigali city hotels — build regional-traveller products: flexible rates, French-language service, healthcare-stay packages. This is a demand base advisories don&#x27;t touch.</span><br><span class=\"tagline\">🏷 City | RW | Reported</span></p>\n<p><span class=\"item-head\">4️⃣ CONNECTIVITY QUIETLY REWIRING THE REGION</span><br>Safarilink now flies Nairobi–Entebbe non-stop (since May); Flightlink is acquiring ATRs for Entebbe and Kigali routes; RwandAir&#x27;s Kigali–Zanzibar is driving its 2026 growth (per Aviation Week, ch-aviation reports).<br><span class=\"sowhat\">🎯 So what: Multi-country itineraries just got easier to sell. Bush and beach properties: pitch cross-border combos to your DMC partners for 2027 season.</span><br><span class=\"tagline\">🏷 All segments | Regional | Confirmed</span></p>\n<p>━━━━━━━━━<br><span class=\"meta-line\">📡 RADAR</span><br><span class=\"radar-item\">▪️ August = Kenya&#x27;s peak month (Aug 2025 set the arrivals record: 277,155, per KATA) — final rate checks now</span><br><span class=\"radar-item\">▪️ Migration season in the Mara runs through October — river-crossing weeks command premiums</span><br><span class=\"radar-item\">▪️ JW Marriott&#x27;s Mount Kenya safari camp (Solio) takes bookings this month — luxury bush comps shifting</span><br><span class=\"radar-item\">▪️ Watch: South Africa introduced health forms for travellers from Ebola-affected countries (22 Jul, Tourism Update) — no EA market confirmed affected; we&#x27;re verifying</span></p>\n<p><span class=\"meta-line\">💬 Which of these hits your property hardest? Reply and tell us.</span><br>— EA Hospitality Pulse | Daily intelligence for city, bush &amp; beach properties</p>\n<hr class=\"divider\">"
+ },
+ {
+  "id": "pulse-2026-07-27-morning",
+  "date": "2026-07-27",
+  "dateDisplay": "Monday, 27 July 2026",
+  "edition": "Morning Brief",
+  "editionKey": "morning",
+  "summary": "One story moved over the weekend, and it moved hard. We are publishing a single-shock edition rather than padding it.",
+  "bodyHtml": "<p><span class=\"meta-line\">🏨 EA HOSPITALITY PULSE — Morning Brief</span><br><span class=\"meta-line\">📅 Monday, 27 July 2026 | 🇰🇪 🇺🇬 🇹🇿 🇷🇼</span></p>\n<p>One story moved over the weekend, and it moved hard. We are publishing a single-shock edition rather than padding it.<br>━━━━━━━━━<br><span class=\"item-head\">1️⃣ DRC PASSES 3,000 CASES IN TEN WEEKS</span><br>DRC health authorities released updated figures on Saturday 25 July: 3,075 confirmed Bundibugyo cases, 1,354 deaths, 556 recoveries and 755 patients still in hospital or isolation across Ituri, North Kivu, South Kivu, Haut-Uele and Tshopo (per Xinhua and Africanews, 26 July). The death toll passed 1,000 only three days earlier. The 2014–16 West Africa epidemic took roughly eight months to reach 1,000 deaths; this one took under ten weeks. Around 100 staff at the Elikya treatment centre in Bunia struck from Saturday over unpaid bonuses.<br><span class=\"sowhat\">🎯 So what: This is a pace problem, not a cancellation problem. Pull your new-bookings count for the last 7 days and compare it with the same week in June and the same week in 2025. If pace is down while your book still looks full, you have a Q4 hole forming now. Do not discount — nobody is choosing between you and a cheaper camp; they are choosing whether to come at all. Compete on free date changes and deposit protection instead.</span><br><span class=\"tagline\">🏷 Bush/Beach/City | Regional | Confirmed</span></p>\n<p><span class=\"item-head\">2️⃣ THE FIRST BUNDIBUGYO VACCINE IS IN A HUMAN ARM</span><br>Oxford&#x27;s Vaccine Group announced on Friday 24 July that the first volunteer received ChAdOx1 BDBV — the world&#x27;s first human trial of a Bundibugyo-specific vaccine, from concept to clinic in eight weeks, with 50 healthy adults enrolling. Separately, DRC Prime Minister Judith Suminwa Tuluka said on Friday that a vaccine and treatment could be available &quot;within two to four months&quot; (per Xinhua, 26 July).<br><span class=\"sowhat\">🎯 So what: Fact — a Phase 1 safety trial has started. Inference, ours: a Phase 1 read-out does not produce a deployable vaccine for the 2026 season. Treat the Prime Minister&#x27;s two-to-four-month figure as a political statement, not a planning input. Build no 2026 recovery assumption on a vaccine.</span><br><span class=\"tagline\">🏷 Bush/City | Regional | Confirmed fact, inferred effect</span></p>\n<p><span class=\"item-head\">3️⃣ THE 27 AUGUST CLOCK IS NOW A REGIONAL RISK</span><br>WHO AFRO&#x27;s 16 July release states plainly that a single imported case from DRC resets Uganda&#x27;s 42-day countdown to day zero. Uganda&#x27;s earliest all-clear is therefore about 27 August — and DRC&#x27;s acceleration is what threatens it. The US CDC&#x27;s entry restrictions covering DRC, Uganda and South Sudan were renewed on 13 July and run to roughly 12 August.<br><span class=\"sowhat\">🎯 So what: If you sell Uganda, stop quoting &quot;the outbreak is nearly over&quot; to agents. Quote the mechanism instead: last case 21 June, last patient discharged 16 July, clock resets on any import. Agents forgive uncertainty; they do not forgive being told it was fine.</span><br><span class=\"tagline\">🏷 Bush/City | 🇺🇬 🇷🇼 | Confirmed</span><br>━━━━━━━━━<br><span class=\"meta-line\">📡 RADAR</span><br>• ~12 Aug — CDC&#x27;s next 30-day decision on US entry restrictions for DRC, Uganda and South Sudan<br>• ~27 Aug — earliest possible date Uganda&#x27;s outbreak can be declared over (42 days from the 16 July discharge)<br>• 30–31 Jul — KNBS Kenya and UBOS Uganda month-end CPI releases due<br>• 31 Jul — CBK weekly bulletin; reserves fell US$315m in the week to 23 July, to 5.9 months of import cover</p>\n<p><span class=\"meta-line\">💬 Has your booking pace changed in the last fortnight — or only your inbox?</span></p>\n<p>🔗 This edition on the web: https://ogcollyns-creator.github.io/ea-hospitality-pulse/editions/pulse-2026-07-27-morning.html<br>— EA Hospitality Pulse | Daily intelligence for city, bush &amp; beach properties</p>"
  }
 ];
 window.INSIGHTS = [
+ {
+  "headline": "DRC PASSES 3,000 CASES IN TEN WEEKS",
+  "body": "DRC health authorities released updated figures on Saturday 25 July: 3,075 confirmed Bundibugyo cases, 1,354 deaths, 556 recoveries and 755 patients still in hospital or isolation across Ituri, North Kivu, South Kivu, Haut-Uele and Tshopo (per Xinhua and Africanews, 26 July). The death toll passed 1,000 only three days earlier. The 2014–16 West Africa epidemic took roughly eight months to reach 1,000 deaths; this one took under ten weeks. Around 100 staff at the Elikya treatment centre in Bunia struck from Saturday over unpaid bonuses.",
+  "sowhat": "🎯 So what: This is a pace problem, not a cancellation problem. Pull your new-bookings count for the last 7 days and compare it with the same week in June and the same week in 2025. If pace is down while your book still looks full, you have a Q4 hole forming now. Do not discount — nobody is choosing between you and a cheaper camp; they are choosing whether to come at all. Compete on free date changes and deposit protection instead.",
+  "segments": [
+   "city",
+   "bush",
+   "beach"
+  ],
+  "countries": "Regional",
+  "confidence": "Confirmed",
+  "source": "pulse-2026-07-27-morning",
+  "date": "2026-07-27",
+  "dateDisplay": "Monday, 27 July 2026",
+  "edition": "Morning Brief",
+  "editionKey": "morning"
+ },
+ {
+  "headline": "THE FIRST BUNDIBUGYO VACCINE IS IN A HUMAN ARM",
+  "body": "Oxford's Vaccine Group announced on Friday 24 July that the first volunteer received ChAdOx1 BDBV — the world's first human trial of a Bundibugyo-specific vaccine, from concept to clinic in eight weeks, with 50 healthy adults enrolling. Separately, DRC Prime Minister Judith Suminwa Tuluka said on Friday that a vaccine and treatment could be available \"within two to four months\" (per Xinhua, 26 July).",
+  "sowhat": "🎯 So what: Fact — a Phase 1 safety trial has started. Inference, ours: a Phase 1 read-out does not produce a deployable vaccine for the 2026 season. Treat the Prime Minister's two-to-four-month figure as a political statement, not a planning input. Build no 2026 recovery assumption on a vaccine.",
+  "segments": [
+   "city",
+   "bush"
+  ],
+  "countries": "Regional",
+  "confidence": "Confirmed fact, inferred effect",
+  "source": "pulse-2026-07-27-morning",
+  "date": "2026-07-27",
+  "dateDisplay": "Monday, 27 July 2026",
+  "edition": "Morning Brief",
+  "editionKey": "morning"
+ },
+ {
+  "headline": "THE 27 AUGUST CLOCK IS NOW A REGIONAL RISK",
+  "body": "WHO AFRO's 16 July release states plainly that a single imported case from DRC resets Uganda's 42-day countdown to day zero. Uganda's earliest all-clear is therefore about 27 August — and DRC's acceleration is what threatens it. The US CDC's entry restrictions covering DRC, Uganda and South Sudan were renewed on 13 July and run to roughly 12 August.",
+  "sowhat": "🎯 So what: If you sell Uganda, stop quoting \"the outbreak is nearly over\" to agents. Quote the mechanism instead: last case 21 June, last patient discharged 16 July, clock resets on any import. Agents forgive uncertainty; they do not forgive being told it was fine.",
+  "segments": [
+   "city",
+   "bush"
+  ],
+  "countries": "🇺🇬 🇷🇼",
+  "confidence": "Confirmed",
+  "source": "pulse-2026-07-27-morning",
+  "date": "2026-07-27",
+  "dateDisplay": "Monday, 27 July 2026",
+  "edition": "Morning Brief",
+  "editionKey": "morning"
+ },
  {
   "headline": "SWISS BUYER MOVES ON EAST AFRICA'S BIGGEST CAMP GROUP",
   "body": "A Squared Holding AG of Zollikon, Switzerland has filed to take sole control of Nawiri Group — parent of Asilia Africa, Go2Africa and Bazaruto. Tanzania's Fair Competition Commission opened a 14-day public comment window on 9 July under section 65(2)(g) of the Fair Competition Act; that window has now closed and the decision sits with the FCC (per TanzaniaInvest, citing the FCC notice). Asilia runs around 15 Tanzanian camps — Sayari, Namiri Plains, Dunia, The Highlands, Jabali Ridge, Roho ya Selous, Matemwe on Zanzibar — plus properties in Kenya and Uganda, and employs 1,000+ people. Existing investors include Norfund and LGT. Price undisclosed.",
@@ -797,4 +855,4 @@ window.INSIGHTS = [
   "editionKey": "evening"
  }
 ];
-window.BUILT_AT = "2026-07-26 19:50";
+window.BUILT_AT = "2026-07-27 09:00";

@@ -1,15 +1,31 @@
 window.LEDGER = {
- "updated": "2026-07-26 19:50",
+ "updated": "2026-07-27 09:00",
  "stats": {
-  "total": 20,
-  "open": 20,
-  "resolved": 0,
-  "correct": 0,
+  "total": 23,
+  "open": 22,
+  "resolved": 1,
+  "correct": 1,
   "partial": 0,
   "incorrect": 0,
-  "accuracy": null
+  "accuracy": 100
  },
  "open": [
+  {
+   "id": "P023",
+   "made_date": "2026-07-27",
+   "edition": "Morning Brief",
+   "claim": "The US CDC will renew its DRC/Uganda/South Sudan Ebola entry restrictions again at the mid-August decision point rather than let them lapse",
+   "resolution_criteria": "CDC returning-traveller guidance or Federal Register notice showing the entry restriction order extended beyond 12 August 2026",
+   "resolve_by": "2026-08-25",
+   "market": "Regional",
+   "segment": "All",
+   "confidence": "Reported",
+   "status": "open",
+   "resolved_date": "",
+   "evidence": "",
+   "source_url": "https://www.cdc.gov/ebola/situation-summary/returning-travelers.html",
+   "overdue": false
+  },
   {
    "id": "P001",
    "made_date": "2026-07-25",
@@ -91,22 +107,6 @@ window.LEDGER = {
    "overdue": false
   },
   {
-   "id": "P018",
-   "made_date": "2026-07-26",
-   "edition": "Sunday Foresight",
-   "claim": "DRC's Ebola outbreak will exceed 3,000 confirmed cases before Uganda's outbreak is declared over",
-   "resolution_criteria": "ECDC Communicable Disease Threats Report or DRC INSP situation report showing cumulative confirmed cases above 3,000 dated before the WHO/Uganda end-of-outbreak declaration",
-   "resolve_by": "2026-09-30",
-   "market": "Regional",
-   "segment": "All",
-   "confidence": "Reported",
-   "status": "open",
-   "resolved_date": "",
-   "evidence": "",
-   "source_url": "https://www.ecdc.europa.eu/en/ebola-outbreak-democratic-republic-congo-and-uganda",
-   "overdue": false
-  },
-  {
    "id": "P003",
    "made_date": "2026-07-24",
    "edition": "Evening Wrap",
@@ -171,6 +171,22 @@ window.LEDGER = {
    "overdue": false
   },
   {
+   "id": "P021",
+   "made_date": "2026-07-27",
+   "edition": "Morning Brief",
+   "claim": "DRC's confirmed Bundibugyo case count will exceed 4,000 before Uganda's Ebola outbreak is declared over",
+   "resolution_criteria": "DRC health ministry,WHO AFRO or ECDC figures showing cumulative confirmed cases above 4,000 dated before any WHO/Uganda end-of-outbreak declaration",
+   "resolve_by": "2026-10-31",
+   "market": "Regional",
+   "segment": "All",
+   "confidence": "Reported",
+   "status": "open",
+   "resolved_date": "",
+   "evidence": "",
+   "source_url": "https://www.africanews.com/2026/07/26/dr-congo-says-the-number-of-confirmed-ebola-cases-has-surpassed-3000/",
+   "overdue": false
+  },
+  {
    "id": "P015",
    "made_date": "2026-07-26",
    "edition": "Midday Pulse",
@@ -184,6 +200,22 @@ window.LEDGER = {
    "resolved_date": "",
    "evidence": "",
    "source_url": "",
+   "overdue": false
+  },
+  {
+   "id": "P022",
+   "made_date": "2026-07-27",
+   "edition": "Morning Brief",
+   "claim": "No Bundibugyo vaccine will be licensed or deployed for outbreak use in DRC or Uganda before 31 December 2026 — the DRC Prime Minister's \"two to four months\" timeline will not hold",
+   "resolution_criteria": "No WHO prequalification,emergency use listing or national regulatory approval of a Bundibugyo-specific vaccine and no ring or mass vaccination campaign reported by WHO,Africa CDC or Oxford Vaccine Group by 31 Dec 2026",
+   "resolve_by": "2026-12-31",
+   "market": "Regional",
+   "segment": "All",
+   "confidence": "Reported",
+   "status": "open",
+   "resolved_date": "",
+   "evidence": "",
+   "source_url": "https://www.ox.ac.uk/news/2026-07-24-first-volunteer-vaccinated-in-the-worlds-first-bundibugyo-ebolavirus-vaccine-trial",
    "overdue": false
   },
   {
@@ -331,5 +363,22 @@ window.LEDGER = {
    "overdue": false
   }
  ],
- "resolved": []
+ "resolved": [
+  {
+   "id": "P018",
+   "made_date": "2026-07-26",
+   "edition": "Sunday Foresight",
+   "claim": "DRC's Ebola outbreak will exceed 3,000 confirmed cases before Uganda's outbreak is declared over",
+   "resolution_criteria": "ECDC Communicable Disease Threats Report or DRC INSP situation report showing cumulative confirmed cases above 3,000 dated before the WHO/Uganda end-of-outbreak declaration",
+   "resolve_by": "2026-09-30",
+   "market": "Regional",
+   "segment": "All",
+   "confidence": "Reported",
+   "status": "correct",
+   "resolved_date": "2026-07-27",
+   "evidence": "DRC health authorities released updated figures on Saturday 25 July 2026 showing 3,075 confirmed Bundibugyo cases , 1,354 deaths and 556 recoveries across five provinces — above the 3,000 threshold and before any Uganda end-of-outbreak declaration. Relayed by Xinhua and Africanews , 26 July 2026.",
+   "source_url": "https://www.africanews.com/2026/07/26/dr-congo-says-the-number-of-confirmed-ebola-cases-has-surpassed-3000/",
+   "overdue": false
+  }
+ ]
 };
