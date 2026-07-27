@@ -1,8 +1,8 @@
 window.LEDGER = {
- "updated": "2026-07-27 09:00",
+ "updated": "2026-07-27 13:15",
  "stats": {
-  "total": 23,
-  "open": 22,
+  "total": 26,
+  "open": 25,
   "resolved": 1,
   "correct": 1,
   "partial": 0,
@@ -10,6 +10,22 @@ window.LEDGER = {
   "accuracy": 100
  },
  "open": [
+  {
+   "id": "P025",
+   "made_date": "2026-07-27",
+   "edition": "Midday Pulse",
+   "claim": "EPRA's 15 August 2026 review will set Nairobi diesel above Ksh222.86 per litre",
+   "resolution_criteria": "EPRA published maximum retail petroleum price schedule effective 15 Aug 2026 showing Nairobi diesel above Ksh222.86/litre",
+   "resolve_by": "2026-08-16",
+   "market": "KE",
+   "segment": "All",
+   "confidence": "Early signal",
+   "status": "open",
+   "resolved_date": "",
+   "evidence": "",
+   "source_url": "https://www.kenyans.co.ke/news/125567-govt-raises-fuel-price-concerns-ahead-august-epra-review",
+   "overdue": false
+  },
   {
    "id": "P023",
    "made_date": "2026-07-27",
@@ -187,6 +203,22 @@ window.LEDGER = {
    "overdue": false
   },
   {
+   "id": "P026",
+   "made_date": "2026-07-27",
+   "edition": "Midday Pulse",
+   "claim": "Exercise Haraka Storm will be conducted in Tanzania rather than Kenya during September-November 2026",
+   "resolution_criteria": "UK MoD,British Army or reputable press reporting Exercise Haraka Storm held in Tanzania between 1 Sep and 30 Nov 2026",
+   "resolve_by": "2026-12-15",
+   "market": "KE",
+   "segment": "Bush",
+   "confidence": "Reported",
+   "status": "open",
+   "resolved_date": "",
+   "evidence": "",
+   "source_url": "https://www.standardmedia.co.ke/national/article/2001553563/why-uk-moved-batuk-training-to-tanzania",
+   "overdue": false
+  },
+  {
    "id": "P015",
    "made_date": "2026-07-26",
    "edition": "Midday Pulse",
@@ -216,6 +248,22 @@ window.LEDGER = {
    "resolved_date": "",
    "evidence": "",
    "source_url": "https://www.ox.ac.uk/news/2026-07-24-first-volunteer-vaccinated-in-the-worlds-first-bundibugyo-ebolavirus-vaccine-trial",
+   "overdue": false
+  },
+  {
+   "id": "P024",
+   "made_date": "2026-07-27",
+   "edition": "Midday Pulse",
+   "claim": "Kenya will not renew BATUK's training licences before 31 December 2026",
+   "resolution_criteria": "UK MoD,British High Commission Nairobi or Kenyan Ministry of Defence announcement confirming renewal of BATUK training licences published by 31 Dec 2026",
+   "resolve_by": "2026-12-31",
+   "market": "KE",
+   "segment": "Bush/City",
+   "confidence": "Early signal",
+   "status": "open",
+   "resolved_date": "",
+   "evidence": "",
+   "source_url": "https://www.standardmedia.co.ke/rift-valley/article/2001553819/shadow-of-impunity-how-years-of-alleged-atrocities-finally-led-to-batuks-departure-from-kenya",
    "overdue": false
   },
   {
