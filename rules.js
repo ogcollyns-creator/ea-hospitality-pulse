@@ -2,7 +2,7 @@
 // Maintained by the daily Pulse task. Every entry carries a source; anything
 // unverified is flagged so readers never act on a stale number unknowingly.
 window.RULES = {
- updated: "27 July 2026",
+ updated: "28 July 2026",
  groups: [
   { country:"Kenya", flag:"🇰🇪", items:[
     {rule:"Electronic Travel Authorisation (ETA)", amount:"US$30", who:"All non-EAC visitors, including infants", effective:"In force since Jan 2024", note:"Online only; typically 24–72h. Apply before travel — there is no visa on arrival.", source:"Kenya eTA portal", verified:true},

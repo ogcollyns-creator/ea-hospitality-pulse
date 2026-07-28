@@ -1,8 +1,8 @@
 window.LEDGER = {
- "updated": "2026-07-27 13:15",
+ "updated": "2026-07-28 08:23",
  "stats": {
-  "total": 26,
-  "open": 25,
+  "total": 29,
+  "open": 28,
   "resolved": 1,
   "correct": 1,
   "partial": 0,
@@ -24,6 +24,22 @@ window.LEDGER = {
    "resolved_date": "",
    "evidence": "",
    "source_url": "https://www.kenyans.co.ke/news/125567-govt-raises-fuel-price-concerns-ahead-august-epra-review",
+   "overdue": false
+  },
+  {
+   "id": "P028",
+   "made_date": "2026-07-28",
+   "edition": "Morning Brief",
+   "claim": "EPRA's 15 August 2026 review will NOT fully pass through the late-July crude spike — the August Nairobi diesel rise will be under Ksh10 per litre versus the July schedule",
+   "resolution_criteria": "EPRA published maximum retail petroleum price schedule effective 15 Aug 2026 showing Nairobi diesel less than Ksh10/litre above the schedule effective 15 Jul 2026",
+   "resolve_by": "2026-08-16",
+   "market": "KE",
+   "segment": "All",
+   "confidence": "Early signal",
+   "status": "open",
+   "resolved_date": "",
+   "evidence": "",
+   "source_url": "https://www.standardmedia.co.ke/business/financial-standard/article/2001553910/of-fuel-crisis-and-rutos-fresh-headache",
    "overdue": false
   },
   {
@@ -91,6 +107,22 @@ window.LEDGER = {
    "overdue": false
   },
   {
+   "id": "P029",
+   "made_date": "2026-07-28",
+   "edition": "Morning Brief",
+   "claim": "MV Adan will still be aground off Nyali beach on 1 September 2026 — the mid-August refloating window will slip",
+   "resolution_criteria": "Kenya Maritime Authority statement,Kenyan press or KPA notice confirming MV Adan remains aground on or after 1 Sep 2026",
+   "resolve_by": "2026-09-15",
+   "market": "KE",
+   "segment": "Beach",
+   "confidence": "Early signal",
+   "status": "open",
+   "resolved_date": "",
+   "evidence": "",
+   "source_url": "https://www.standardmedia.co.ke/business/shipping-logistics/article/2001553863/kma-explains-delay-in-salvaging-grounded-ship-off-nyali-beach",
+   "overdue": false
+  },
+  {
    "id": "P017",
    "made_date": "2026-07-26",
    "edition": "Midday Pulse",
@@ -120,6 +152,22 @@ window.LEDGER = {
    "resolved_date": "",
    "evidence": "",
    "source_url": "",
+   "overdue": false
+  },
+  {
+   "id": "P027",
+   "made_date": "2026-07-28",
+   "edition": "Morning Brief",
+   "claim": "The KAWU aviation strike suspension will hold — no nationwide Kenyan aviation strike or JKIA industrial action will actually commence before 30 September 2026",
+   "resolution_criteria": "No reported commencement of a KAWU nationwide strike or JKIA work stoppage in Kenyan press,KAA or KCAA notices between 28 Jul and 30 Sep 2026",
+   "resolve_by": "2026-09-30",
+   "market": "KE",
+   "segment": "All",
+   "confidence": "Reported",
+   "status": "open",
+   "resolved_date": "",
+   "evidence": "",
+   "source_url": "https://www.the-star.co.ke/news/2026-07-27-aviation-workers-suspend-strike-pave-way-for-talks",
    "overdue": false
   },
   {
