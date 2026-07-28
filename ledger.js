@@ -1,8 +1,8 @@
 window.LEDGER = {
- "updated": "2026-07-28 08:23",
+ "updated": "2026-07-28 17:17",
  "stats": {
-  "total": 29,
-  "open": 28,
+  "total": 32,
+  "open": 31,
   "resolved": 1,
   "correct": 1,
   "partial": 0,
@@ -10,6 +10,22 @@ window.LEDGER = {
   "accuracy": 100
  },
  "open": [
+  {
+   "id": "P030",
+   "made_date": "2026-07-28",
+   "edition": "Evening Wrap",
+   "claim": "No East African tourism body,airline,hotel group or national tourism authority from Kenya,Uganda,Tanzania or Rwanda will appear as a commenter on US docket CDC-2026-0892 before it closes on 31 July 2026",
+   "resolution_criteria": "regulations.gov docket CDC-2026-0892 comment listing reviewed after 31 Jul 2026 showing no commenter identifiably an East African tourism body,airline,hotel group or national tourism authority",
+   "resolve_by": "2026-08-10",
+   "market": "Regional",
+   "segment": "Bush/City",
+   "confidence": "Early signal",
+   "status": "open",
+   "resolved_date": "",
+   "evidence": "",
+   "source_url": "https://www.govinfo.gov/content/pkg/FR-2026-07-16/html/2026-14365.htm",
+   "overdue": false
+  },
   {
    "id": "P025",
    "made_date": "2026-07-27",
@@ -56,6 +72,38 @@ window.LEDGER = {
    "resolved_date": "",
    "evidence": "",
    "source_url": "https://www.cdc.gov/ebola/situation-summary/returning-travelers.html",
+   "overdue": false
+  },
+  {
+   "id": "P032",
+   "made_date": "2026-07-28",
+   "edition": "Evening Wrap",
+   "claim": "Uganda will record no new confirmed Bundibugyo case before 27 August 2026 and will complete the 42-day countdown — zero active contacts as at 28 July holds",
+   "resolution_criteria": "Uganda Ministry of Health EVD dashboard (evd-daily.health.go.ug) or WHO AFRO showing cumulative confirmed cases still at 20 on 27 Aug 2026",
+   "resolve_by": "2026-08-28",
+   "market": "UG",
+   "segment": "Bush/City",
+   "confidence": "Early signal",
+   "status": "open",
+   "resolved_date": "",
+   "evidence": "",
+   "source_url": "https://evd-daily.health.go.ug/",
+   "overdue": false
+  },
+  {
+   "id": "P031",
+   "made_date": "2026-07-28",
+   "edition": "Evening Wrap",
+   "claim": "The CDC order expiring 12 August 2026 will be renewed with Uganda still on the designated list — Uganda will NOT be decoupled from DRC before its 42-day all-clear around 27 August 2026",
+   "resolution_criteria": "A CDC order or Federal Register notice published between 1 Aug and 27 Aug 2026 continuing the s.362 suspension and naming Uganda among the designated countries",
+   "resolve_by": "2026-08-31",
+   "market": "Regional",
+   "segment": "Bush/City",
+   "confidence": "Reported",
+   "status": "open",
+   "resolved_date": "",
+   "evidence": "",
+   "source_url": "https://www.cdc.gov/port-health/legal-authorities/evdorder.html",
    "overdue": false
   },
   {

@@ -2,7 +2,7 @@
 // Maintained by the daily Pulse task. Every entry carries a source; anything
 // unverified is flagged so readers never act on a stale number unknowingly.
 window.RULES = {
- updated: "28 July 2026",
+ updated: "28 July 2026 (evening)",
  groups: [
   { country:"Kenya", flag:"🇰🇪", items:[
     {rule:"Electronic Travel Authorisation (ETA)", amount:"US$30", who:"All non-EAC visitors, including infants", effective:"In force since Jan 2024", note:"Online only; typically 24–72h. Apply before travel — there is no visa on arrival.", source:"Kenya eTA portal", verified:true},
@@ -35,7 +35,7 @@ window.RULES = {
     {rule:"Yellow fever certificate", amount:"Required", who:"All arrivals", effective:"Current", note:"Mandatory, uploaded at application.", source:"Ministry of Health", verified:true}
   ]},
   { country:"Regional", flag:"🌍", items:[
-    {rule:"US Ebola entry restrictions & airport screening", amount:"No fee — screening and entry limits", who:"Travellers arriving in the US who have been in DRC, Uganda or South Sudan in the previous 21 days", effective:"Renewed 13 July 2026; current order runs to approximately 12 August 2026", note:"Third consecutive 30-day renewal. Eligible passengers are rerouted through designated US airports for public health screening; certain categories of traveller from DRC are barred, and a CDC/DHS Do Not Board list applies. NOT a blanket ban — but it materially affects US-origin itineraries that route through Entebbe. Africa CDC formally asked the US to lift the Uganda element on 21 July, citing no new Ugandan case since 21 June. Next decision point around 12 August. Tell US agents the mechanism, not a reassurance.", source:"US CDC returning-traveller guidance", verified:true, flag:"action"},
+    {rule:"US Ebola entry restrictions & airport screening", amount:"No fee — screening and entry limits", who:"Anyone who has been in DRC, Uganda or South Sudan in the previous 21 days, regardless of nationality — INCLUDING US lawful permanent residents", effective:"Order signed 13 July 2026, in force to 4:59pm EDT Wednesday 12 August 2026", note:"CDC order under PHS Act ss.362/365, published at 91 FR 43636 on 16 July 2026, docket CDC-2026-0892. THE GREEN CARD EXEMPTION IS GONE: 42 CFR 71.40(f) was amended on 27 May 2026 (91 FR 31362) and the order applies expressly to lawful permanent residents. Exempt: US citizens and nationals, US military and government personnel on orders, and case-by-case CBP/CDC exceptions. DHS separately funnels affected flights to Washington Dulles (IAD) under 91 FR 29896, 21 May 2026. The order names Nairobi JKIA, Addis Ababa, Doha, Dubai, Brussels and Istanbul as transit corridors of concern — Kenya itself is NOT restricted. PUBLIC COMMENT CLOSES 31 JULY 2026 at regulations.gov under docket CDC-2026-0892; CDC has already refused, in writing, a request to assess Uganda independently of DRC. Next decision point ~12 August, a fortnight before Uganda\'s 42-day all-clear (~27 August).", source:"CDC Order 13 Jul 2026 / 91 FR 43636, 16 Jul 2026", verified:true, flag:"action"},
     {rule:"East Africa Tourist Visa (EATV)", amount:"US$100", who:"Kenya + Uganda + Rwanda", effective:"Current", note:"90-day multiple entry, free movement between the three. Apply through your FIRST country of entry. Materially cheaper than three separate visas — sell multi-country itineraries on it.", source:"EAC partner states", verified:true, flag:"action"}
   ]}
  ]
