@@ -46,7 +46,7 @@ add("ke-kcaa","KCAA — aeronautical information & circulars","https://kcaa.or.k
     "AICs create passenger document requirements before any airline tells an agent.",slots=M)
 add("ke-kaa","Kenya Airports Authority","https://www.kaa.go.ke/",1,"KE","aviation","html",240,4,
     "Terminal capacity, disruption notices and traffic statistics.",slots=M)
-add("ke-kaa-tenders","KAA tenders","https://www.kaa.go.ke/tenders/",1,"KE","tender","html",720,30,
+add("ke-kaa-tenders","KAA tenders","https://www.kaa.go.ke/corporate/tenders/",1,"KE","tender","html",720,30,
     "Airport works signal capacity and disruption years ahead.",slots=E)
 add("ke-moh","Kenya Ministry of Health","https://www.health.go.ke/",1,"KE","health","html",120,2,
     "Screening measures and outbreak statements that precede advisory changes.",slots=ALL)
@@ -58,7 +58,7 @@ add("ke-parliament","Parliament of Kenya — bills & papers","http://www.parliam
     "Finance Bills and committee reports — the earliest sight of a tax change.",slots=E)
 add("ke-tenders","Kenya PPIP tender portal","https://tenders.go.ke/",1,"KE","tender","html",720,30,
     "Tourism and access infrastructure awards.",slots=E)
-add("ke-nse","Nairobi Securities Exchange announcements","https://www.nse.co.ke/media-center/",1,"KE","capital","html",360,3,
+add("ke-nse","Nairobi Securities Exchange announcements","https://www.nse.co.ke/listed-company-announcements/",1,"KE","capital","html",360,3,
     "Results and disclosures from listed hospitality and aviation names.",slots=ALL)
 add("ke-met","Kenya Meteorological Department","https://meteo.go.ke/",1,"KE","weather","html",240,2,
     "Flood and severe-weather warnings that close roads and airstrips.",slots=ALL)
@@ -74,7 +74,7 @@ add("ug-utb","Uganda Tourism Board","https://utb.go.ug/",1,"UG","dmo","html",240
     "POATE, campaigns and destination policy.",slots=ALL)
 add("ug-uwa","Uganda Wildlife Authority updates","https://ugandawildlife.org/new_categories/updates/",1,"UG","parks","html",180,7,
     "Gorilla permit pricing, allocation rules and park entry waivers.",segments=("bush",),slots=E)
-add("ug-ucaa","Uganda Civil Aviation Authority","https://caa.co.ug/",1,"UG","aviation","html",240,5,
+add("ug-ucaa","Uganda Civil Aviation Authority","https://www.caa.co.ug/",1,"UG","aviation","html",240,5,
     "Entebbe terminal capacity and aeronautical notices.",slots=M)
 add("ug-moh","Uganda Ministry of Health","https://www.health.go.ug/",1,"UG","health","html",120,1,
     "Ebola situation reports and the 42-day countdown status, direct from source.",slots=ALL)
@@ -150,19 +150,19 @@ add("rw-rppa","Rwanda public procurement (RPPA)","https://www.rppa.gov.rw/",1,"R
 # ---------------------------------------------------------------- HEALTH / MULTILATERAL
 add("who-afro-outbreaks","WHO AFRO outbreaks & emergencies","https://www.afro.who.int/health-topics/disease-outbreaks/outbreaks-and-other-emergencies-updates",1,"REG","health","html",120,4,
     "Weekly bulletins carry case counts, districts and countdown status days before the press.",slots=ALL)
-add("who-don","WHO Disease Outbreak News","https://www.who.int/feeds/entity/csr/don/en/rss.xml",1,"GLOBAL","health","rss",120,3,
+add("who-don","WHO Disease Outbreak News","https://www.who.int/emergencies/disease-outbreak-news",1,"GLOBAL","health","html",120,3,
     "Formal event notifications — the trigger for advisory changes.",slots=ALL)
 add("africacdc-outbreaks","Africa CDC outbreak briefs","https://africacdc.org/disease-outbreak/",1,"REG","health","html",120,4,
     "Situation reports numbered by issue; continental view catches spillover early.",slots=ALL)
-add("africacdc-downloads","Africa CDC downloads (sit reps & EIW)","https://africacdc.org/download-category/situation-reports/",1,"REG","health","html",180,4,
+add("africacdc-downloads","Africa CDC downloads (sit reps & EIW)","https://africacdc.org/download-category/situation-report/",1,"REG","health","html",180,4,
     "Where the numbered Bundibugyo situation reports actually land as PDFs.",slots=ALL)
 add("reliefweb-ea","ReliefWeb — East Africa updates","https://reliefweb.int/updates/rss.xml?view=headlines",2,"REG","health","rss",120,1,
     "Aggregates ministry and WHO reporting, often hours ahead of anyone else.",slots=ALL)
 add("cdc-travel-notices","US CDC travel health notices","https://wwwnc.cdc.gov/travel/notices",1,"GLOBAL","health","html",180,2,
     "A CDC notice reshapes US booking behaviour independently of State Department levels.",slots=ALL)
-add("ecdc-cdtr","ECDC weekly communicable disease threats report","https://www.ecdc.europa.eu/en/publications-data/monitoring/weekly-threats-reports",1,"GLOBAL","health","html",360,3,
+add("ecdc-cdtr","ECDC weekly communicable disease threats report","https://www.ecdc.europa.eu/en/threats-and-outbreaks",1,"GLOBAL","health","html",360,3,
     "European view — drives German, Italian and Polish charter sentiment to Zanzibar.",slots=ALL)
-add("promed","ProMED-mail","https://promedmail.org/promed-posts/",2,"GLOBAL","health","html",180,2,
+add("promed","ProMED-mail","https://promedmail.org/",2,"GLOBAL","health","html",180,2,
     "Earliest informal signal on outbreaks, ahead of official confirmation.",slots=ALL)
 
 # ---------------------------------------------------------------- TRAVEL ADVISORIES
@@ -189,7 +189,7 @@ for cc, slug, nm in [("KE","kenya","Kenya"),("TZ","tanzania","Tanzania")]:
         "French advisories move Indian Ocean beach demand.",slots=ALL)
 
 # ---------------------------------------------------------------- AVIATION
-add("air-kq","Kenya Airways newsroom","https://www.kenya-airways.com/en/newsroom/",1,"KE","airline","html",180,3,
+add("air-kq","Kenya Airways newsroom","https://corporate.kenya-airways.com/en/news-press-release/",1,"KE","airline","html",180,3,
     "Route, fleet and capacity announcements from the regional hub carrier.",slots=M)
 add("air-ug","Uganda Airlines news","https://www.ugandairlines.com/news",1,"UG","airline","html",240,3,
     "Entebbe network build-out; capacity is a leading indicator of arrivals.",slots=M)
@@ -209,7 +209,7 @@ add("air-qr","Qatar Airways press releases","https://www.qatarairways.com/en/pre
     "Doha capacity into Kilimanjaro, Zanzibar, Entebbe and Kigali.",slots=M)
 add("air-tk","Turkish Airlines press room","https://www.turkishairlines.com/en-int/press-room/",1,"GLOBAL","airline","html",360,3,
     "Istanbul feeds European and Asian secondary markets into EA.",slots=M)
-add("air-klm","KLM/Air France newsroom","https://news.airfranceklm.com/",1,"GLOBAL","airline","html",360,3,
+add("air-klm","KLM/Air France newsroom","https://www.airfranceklm.com/en/newsroom/press-release",1,"GLOBAL","airline","html",360,3,
     "Amsterdam and Paris capacity — core to Dutch, French and Scandinavian safari demand.",slots=M)
 add("air-lh","Lufthansa Group newsroom","https://newsroom.lufthansagroup.com/en/",1,"GLOBAL","airline","html",720,3,
     "Discover Airlines charter-style capacity into Zanzibar and Mombasa.",segments=("beach",),slots=M)
@@ -295,7 +295,7 @@ add("sm-tui","TUI Group press","https://www.tuigroup.com/en-en/media",1,"GLOBAL"
     "Charter programme decisions move Zanzibar and Mombasa beach volume wholesale.",segments=("beach",),slots=E)
 add("sm-derreise","FVW / German travel trade","https://www.fvw.de/",2,"GLOBAL","source-market","html",1440,3,
     "German market — top-three for Zanzibar and the northern circuit.",segments=("beach","bush"),slots=E)
-add("sm-forwardkeys","ForwardKeys insights","https://forwardkeys.com/insights/",2,"GLOBAL","source-market","html",1440,7,
+add("sm-forwardkeys","ForwardKeys insights","https://forwardkeys.com/newsroom/",2,"GLOBAL","source-market","html",1440,7,
     "Forward booking data — the closest public proxy for pace.",slots=E)
 
 reg = {"version": 1, "updated": "2026-07-28",

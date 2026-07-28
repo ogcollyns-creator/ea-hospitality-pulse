@@ -1,7 +1,7 @@
 {
  "version": 1,
  "updated": "2026-07-28",
- "note": "Upstream-weighted source registry for the EA Hospitality Pulse radar. tier 1 = primary/official, 2 = reputable secondary, 3 = weak (lead only, never publishable alone). lead_days = typical head start over mainstream coverage. Sources that fail repeatedly are surfaced by monitor.py rather than silently dropped.",
+ "note": "Upstream-weighted source registry for the EA Hospitality Pulse radar. tier 1 = primary/official, 2 = reputable secondary, 3 = weak (lead only, never publishable alone). lead_days = typical head start over mainstream coverage. Sources that fail repeatedly are surfaced by monitor.py rather than silently dropped. URLs corrected 28 Jul 2026 after first live scan.",
  "sources": [
   {
    "id": "ke-gazette",
@@ -344,7 +344,7 @@
   {
    "id": "ke-kaa-tenders",
    "name": "KAA tenders",
-   "url": "https://www.kaa.go.ke/tenders/",
+   "url": "https://www.kaa.go.ke/corporate/tenders/",
    "tier": 1,
    "country": "KE",
    "category": "tender",
@@ -472,7 +472,7 @@
   {
    "id": "ke-nse",
    "name": "Nairobi Securities Exchange announcements",
-   "url": "https://www.nse.co.ke/media-center/",
+   "url": "https://www.nse.co.ke/listed-company-announcements/",
    "tier": 1,
    "country": "KE",
    "category": "capital",
@@ -623,7 +623,7 @@
   {
    "id": "ug-ucaa",
    "name": "Uganda Civil Aviation Authority",
-   "url": "https://caa.co.ug/",
+   "url": "https://www.caa.co.ug/",
    "tier": 1,
    "country": "UG",
    "category": "aviation",
@@ -1343,11 +1343,11 @@
   {
    "id": "who-don",
    "name": "WHO Disease Outbreak News",
-   "url": "https://www.who.int/feeds/entity/csr/don/en/rss.xml",
+   "url": "https://www.who.int/emergencies/disease-outbreak-news",
    "tier": 1,
    "country": "GLOBAL",
    "category": "health",
-   "method": "rss",
+   "method": "html",
    "cadence_min": 120,
    "lead_days": 3,
    "segments": [
@@ -1389,7 +1389,7 @@
   {
    "id": "africacdc-downloads",
    "name": "Africa CDC downloads (sit reps & EIW)",
-   "url": "https://africacdc.org/download-category/situation-reports/",
+   "url": "https://africacdc.org/download-category/situation-report/",
    "tier": 1,
    "country": "REG",
    "category": "health",
@@ -1458,7 +1458,7 @@
   {
    "id": "ecdc-cdtr",
    "name": "ECDC weekly communicable disease threats report",
-   "url": "https://www.ecdc.europa.eu/en/publications-data/monitoring/weekly-threats-reports",
+   "url": "https://www.ecdc.europa.eu/en/threats-and-outbreaks",
    "tier": 1,
    "country": "GLOBAL",
    "category": "health",
@@ -1481,7 +1481,7 @@
   {
    "id": "promed",
    "name": "ProMED-mail",
-   "url": "https://promedmail.org/promed-posts/",
+   "url": "https://promedmail.org/",
    "tier": 2,
    "country": "GLOBAL",
    "category": "health",
@@ -1734,7 +1734,7 @@
   {
    "id": "adv-de-kenya",
    "name": "Ausw\u00e4rtiges Amt \u2014 Kenya",
-   "url": "https://www.auswaertiges-amt.de/de/service/laender/kenya-node/kenyasicherheit",
+   "url": "https://www.auswaertiges-amt.de/de/reiseundsicherheit/keniasicherheit-208058",
    "tier": 1,
    "country": "KE",
    "category": "advisory",
@@ -1826,7 +1826,7 @@
   {
    "id": "adv-de-tanzania",
    "name": "Ausw\u00e4rtiges Amt \u2014 Tanzania",
-   "url": "https://www.auswaertiges-amt.de/de/service/laender/tanzania-node/tanzaniasicherheit",
+   "url": "https://www.auswaertiges-amt.de/de/service/laender/tansania-node",
    "tier": 1,
    "country": "TZ",
    "category": "advisory",
@@ -1849,7 +1849,7 @@
   {
    "id": "adv-fr-tanzania",
    "name": "France Conseils aux voyageurs \u2014 Tanzania",
-   "url": "https://www.diplomatie.gouv.fr/fr/conseils-aux-voyageurs/conseils-par-pays-destination/tanzania/",
+   "url": "https://www.diplomatie.gouv.fr/fr/conseils-aux-voyageurs/conseils-par-pays-destination/tanzanie/",
    "tier": 1,
    "country": "TZ",
    "category": "advisory",
@@ -1872,7 +1872,7 @@
   {
    "id": "air-kq",
    "name": "Kenya Airways newsroom",
-   "url": "https://www.kenya-airways.com/en/newsroom/",
+   "url": "https://corporate.kenya-airways.com/en/news-press-release/",
    "tier": 1,
    "country": "KE",
    "category": "airline",
@@ -2082,7 +2082,7 @@
   {
    "id": "air-klm",
    "name": "KLM/Air France newsroom",
-   "url": "https://news.airfranceklm.com/",
+   "url": "https://www.airfranceklm.com/en/newsroom/press-release",
    "tier": 1,
    "country": "GLOBAL",
    "category": "airline",
@@ -2949,7 +2949,7 @@
   {
    "id": "sm-forwardkeys",
    "name": "ForwardKeys insights",
-   "url": "https://forwardkeys.com/insights/",
+   "url": "https://forwardkeys.com/newsroom/",
    "tier": 2,
    "country": "GLOBAL",
    "category": "source-market",
