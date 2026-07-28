@@ -1,0 +1,82 @@
+name: Source radar scan
+
+on:
+  schedule:
+    # EAT is UTC+3. Scans land ~40 minutes before each edition slot so the
+    # candidate feed is warm when the Pulse runs, plus two-hourly cover in
+    # between — the gaps are what build an honest first_seen record.
+    - cron: '20 3 * * *'    # 06:20 EAT — ahead of the Morning Brief
+    - cron: '20 9 * * *'    # 12:20 EAT — ahead of the Midday Pulse
+    - cron: '20 15 * * *'   # 18:20 EAT — ahead of the Evening Wrap
+    - cron: '0 */2 * * *'   # two-hourly baseline
+  workflow_dispatch:
+    inputs:
+      slot:
+        description: 'Slot to scan for (blank = everything due)'
+        required: false
+        type: choice
+        options: ['', morning, midday, evening]
+      force:
+        description: 'Ignore cadence and scan every source'
+        required: false
+        type: boolean
+        default: false
+
+concurrency:
+  group: radar-scan
+  cancel-in-progress: false
+
+permissions:
+  contents: write
+
+jobs:
+  scan:
+    runs-on: ubuntu-latest
+    timeout-minutes: 35
+    steps:
+      - uses: actions/checkout@v4
+
+      # The SQLite file is a cache; radar/out/items.jsonl in the repo is the
+      # record. Caching the DB keeps etags and content hashes warm so most
+      # sources answer 304; losing the cache costs bandwidth, not history.
+      - name: Restore radar database (cache)
+        uses: actions/cache@v4
+        with:
+          path: radar/radar.db
+          key: radar-db-${{ github.run_id }}
+          restore-keys: radar-db-
+
+      # first_seen_ts cannot be reconstructed after the fact. Replaying the
+      # committed ledger before every scan makes a lost cache a non-event.
+      - name: Replay ledger (protects first_seen history)
+        run: python3 radar/scan.py restore
+
+      - name: Scan sources
+        env:
+          RADAR_DELAY: '6.0'
+        run: |
+          python3 radar/scan.py scan \
+            --workers 10 --max-seconds 1200 \
+            ${{ inputs.slot && format('--slot {0}', inputs.slot) || '' }} \
+            ${{ inputs.force && '--force' || '' }}
+
+      - name: Rank, dedupe and render
+        run: |
+          python3 radar/rank.py ${{ inputs.slot && format('--slot {0}', inputs.slot) || '' }}
+          python3 radar/render.py
+
+      - name: Append to ledger
+        run: |
+          python3 radar/scan.py export
+          python3 radar/scan.py checkpoint
+
+      - name: Health report
+        run: python3 radar/scan.py health
+
+      - name: Commit feed
+        run: |
+          git config user.email 'ogcollyns@gmail.com'
+          git config user.name 'EA Hospitality Pulse'
+          git add -A radar.js radar/out
+          git diff --staged --quiet || git commit -m "Radar scan $(date -u +'%Y-%m-%d %H:%M UTC')"
+          git push origin HEAD:main || echo "nothing to push"

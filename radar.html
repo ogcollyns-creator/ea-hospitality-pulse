@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="robots" content="noindex, nofollow">
+<title>Source Radar — EA Hospitality Pulse</title>
+<link rel="icon" href="favicon.png">
+<style>
+:root{
+  --sand:#f6f1e7; --sand-2:#efe7d6; --ink:#1f2421; --muted:#6b6656;
+  --gold:#c8892f; --gold-d:#a86f1f; --teal:#0f6d63; --teal-d:#0a4f48;
+  --line:#e2d8c4; --card:#fffdf9;
+  --red:#b3261e; --amber:#b07800; --green:#2f6b3a;
+}
+*{box-sizing:border-box}
+body{margin:0;background:var(--sand);color:var(--ink);
+  font:15px/1.55 -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif}
+.wrap{max-width:1180px;margin:0 auto;padding:22px 18px 70px}
+header{border-bottom:2px solid var(--line);padding-bottom:14px;margin-bottom:20px}
+h1{font-size:22px;margin:0 0 4px}
+h2{font-size:15px;text-transform:uppercase;letter-spacing:.09em;color:var(--teal-d);
+   margin:30px 0 12px;padding-bottom:6px;border-bottom:1px solid var(--line)}
+.sub{color:var(--muted);font-size:13px}
+a{color:var(--teal-d)}
+.grid{display:grid;gap:10px;grid-template-columns:repeat(auto-fit,minmax(128px,1fr));margin:16px 0 4px}
+.stat{background:var(--card);border:1px solid var(--line);border-radius:9px;padding:11px 13px}
+.stat b{display:block;font-size:23px;line-height:1.15}
+.stat span{font-size:11px;text-transform:uppercase;letter-spacing:.06em;color:var(--muted)}
+.card{background:var(--card);border:1px solid var(--line);border-left-width:4px;
+  border-radius:9px;padding:12px 14px;margin-bottom:10px}
+.card.lead{border-left-color:var(--red)} .card.strong{border-left-color:var(--gold)}
+.card.consider{border-left-color:var(--teal)} .card.demote{border-left-color:var(--muted);opacity:.75}
+.card h3{margin:0 0 6px;font-size:15px;line-height:1.35}
+.meta{font-size:12px;color:var(--muted);display:flex;flex-wrap:wrap;gap:5px 12px;margin-bottom:6px}
+.pill{display:inline-block;font-size:11px;padding:1px 7px;border-radius:20px;
+  border:1px solid var(--line);background:var(--sand-2);color:var(--muted)}
+.pill.t1{background:#eaf3f1;border-color:#bcd9d3;color:var(--teal-d)}
+.pill.v-lead{background:#fbe9e7;border-color:#e8b4ae;color:var(--red)}
+.pill.v-drop{background:#efefef;color:#777}
+.extract{font-size:13px;color:#4a4a44;margin:5px 0 0}
+.parts{font-size:11px;color:var(--muted);font-family:ui-monospace,SFMono-Regular,Menlo,monospace;margin-top:6px}
+.warn{background:#fff6e5;border:1px solid #e8cf9a;border-radius:9px;padding:12px 14px;margin:12px 0}
+table{width:100%;border-collapse:collapse;font-size:13px;background:var(--card);
+  border:1px solid var(--line);border-radius:9px;overflow:hidden}
+th{text-align:left;background:var(--sand-2);padding:8px 10px;font-size:11px;
+  text-transform:uppercase;letter-spacing:.05em;color:var(--muted);cursor:pointer;white-space:nowrap}
+td{padding:7px 10px;border-top:1px solid var(--line);vertical-align:top}
+tr.bad td{background:#fdf1f0}
+.dot{display:inline-block;width:8px;height:8px;border-radius:50%;margin-right:5px}
+.ok{background:var(--green)} .stale{background:var(--amber)} .dead{background:var(--red)}
+.controls{display:flex;flex-wrap:wrap;gap:8px;margin-bottom:10px}
+input,select{font:inherit;font-size:13px;padding:6px 9px;border:1px solid var(--line);
+  border-radius:7px;background:var(--card);color:var(--ink)}
+.muted{color:var(--muted)}
+footer{margin-top:38px;padding-top:14px;border-top:1px solid var(--line);
+  font-size:12px;color:var(--muted)}
+@media(max-width:640px){.hide-s{display:none}.wrap{padding:16px 12px 60px}}
+</style>
+</head>
+<body>
+<div class="wrap">
+<header>
+  <h1>Source Radar</h1>
+  <div class="sub">What the upstream sources have moved, and whether they are still answering.
+    <a href="index.html">← Back to the Pulse</a></div>
+  <div class="sub" id="gen"></div>
+</header>
+
+<div class="grid" id="stats"></div>
+
+<h2>Candidates in window</h2>
+<div class="sub" style="margin-bottom:10px">Ranked on <b>first-seen</b> — when the radar
+observed the item — not on whatever date the page claims. Where the two disagree, the
+disagreement is itself the finding.</div>
+<div id="cands"></div>
+
+<h2>Source health</h2>
+<div class="sub" style="margin-bottom:10px">A source that stops answering is a blind spot,
+not a quiet news day. Anything red here needs its URL checked before the next edition.</div>
+<div class="controls">
+  <input id="q" placeholder="filter by name, country, category…" style="flex:1;min-width:200px">
+  <select id="fc"><option value="">all countries</option></select>
+  <select id="fs"><option value="">all states</option><option value="bad">problems only</option>
+    <option value="quiet">quiet 7d+</option></select>
+</div>
+<table id="tbl"><thead><tr>
+  <th data-k="name">Source</th><th data-k="country">Ctry</th>
+  <th data-k="tier">Tier</th><th data-k="category" class="hide-s">Category</th>
+  <th data-k="method" class="hide-s">Method</th><th data-k="last_ok">Last OK</th>
+  <th data-k="last_change">Last change</th><th data-k="items" class="hide-s">Items</th>
+</tr></thead><tbody></tbody></table>
+
+<h2>Recently first seen</h2>
+<div id="recent"></div>
+
+<footer>EA Hospitality Pulse · source radar · internal operations view (noindex).
+Politeness: conditional GET, robots.txt honoured, one request per host per crawl-delay window.</footer>
+</div>
+
+<script src="radar.js"></script>
+<script>
+const R = window.RADAR || {stats:{},sources:[],candidates:[],recent:[],runs:[]};
+const $ = s => document.querySelector(s);
+const esc = s => String(s??"").replace(/[&<>"]/g, c => ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;'}[c]));
+const ago = iso => {
+  if(!iso) return {txt:"never", cls:"dead"};
+  const h = (Date.now() - new Date(iso)) / 36e5;
+  const txt = h < 1 ? Math.round(h*60)+"m" : h < 48 ? Math.round(h)+"h" : Math.round(h/24)+"d";
+  return {txt, cls: h < 26 ? "ok" : h < 24*7 ? "stale" : "dead"};
+};
+
+$("#gen").textContent = "Generated " + (R.generated || "—") +
+  (R.meta && R.meta.slot ? " · " + R.meta.slot + " window · " +
+   (R.meta.observations_in_window||0) + " observations · deduped against " +
+   (R.meta.deduped_against||0) + " published headlines" : "");
+
+const st = R.stats || {};
+$("#stats").innerHTML = [
+  ["sources", st.sources], ["tier 1", st.tier1], ["healthy", st.healthy],
+  ["never fetched", st.never], ["items 24h", st.items_24h], ["items total", st.items_total]
+].map(([k,v]) => `<div class="stat"><b>${v??"—"}</b><span>${k}</span></div>`).join("");
+
+// ---- candidates
+const cls = v => v.startsWith("LEAD") ? "lead" : v.startsWith("STRONG") ? "strong"
+             : v.startsWith("CONSIDER") ? "consider" : "demote";
+const live = (R.candidates||[]).filter(c => !/^weak/.test(c.verdict));
+$("#cands").innerHTML = live.length ? live.map(c => `
+  <div class="card ${cls(c.verdict)}">
+    <h3><a href="${esc(c.url)}" target="_blank" rel="noopener">${esc(c.title)}</a></h3>
+    <div class="meta">
+      <span class="pill ${/^(LEAD|DROP)/.test(c.verdict)?(c.verdict.startsWith("LEAD")?"v-lead":"v-drop"):""}">${esc(c.verdict)}</span>
+      <span class="pill${c.tier===1?" t1":""}">tier ${c.tier}</span>
+      <span>score ${c.score}</span><span>${esc(c.source)}</span>
+      <span>${esc(c.country)} · ${esc(c.category)}</span>
+      <span>first seen ${esc((c.first_seen||"").replace("T"," "))}</span>
+      <span>source date ${c.published ? esc(c.published) : "— none stated"}</span>
+    </div>
+    ${c.dedupe_match ? `<div class="meta">overlaps published: “${esc(c.dedupe_match)}” (${c.dedupe_similarity})</div>` : ""}
+    ${c.summary ? `<p class="extract">${esc(c.summary.slice(0,300))}</p>` : ""}
+    <div class="parts">${Object.entries(c.components||{}).map(([k,v])=>`${k} ${v>0?"+":""}${v}`).join("  ·  ")}</div>
+  </div>`).join("")
+  : `<div class="warn"><b>Nothing in window.</b> Under the skip rule that is a finding, not a
+     failure — report it and do not stretch the window to reach a threshold.</div>`;
+
+// ---- source health table
+let sortK = "last_ok", sortDir = 1;
+function draw(){
+  const q = $("#q").value.toLowerCase(), fc = $("#fc").value, fs = $("#fs").value;
+  let rows = (R.sources||[]).filter(s => {
+    if(fc && s.country !== fc) return false;
+    if(fs === "bad" && s.healthy) return false;
+    if(fs === "quiet" && ago(s.last_change).cls === "ok") return false;
+    if(q && !(s.name+" "+s.country+" "+s.category+" "+s.id).toLowerCase().includes(q)) return false;
+    return true;
+  });
+  rows.sort((a,b) => {
+    let x = a[sortK], y = b[sortK];
+    if(sortK === "last_ok" || sortK === "last_change"){ x = x?new Date(x):0; y = y?new Date(y):0; }
+    return (x > y ? 1 : x < y ? -1 : 0) * sortDir;
+  });
+  $("#tbl tbody").innerHTML = rows.map(s => {
+    const o = ago(s.last_ok), c = ago(s.last_change);
+    return `<tr class="${s.healthy?"":"bad"}">
+      <td><a href="${esc(s.url)}" target="_blank" rel="noopener">${esc(s.name)}</a>
+        ${s.error?`<div class="muted" style="font-size:11px">${esc(s.error)}</div>`:""}</td>
+      <td>${esc(s.country)}</td><td>${s.tier}</td>
+      <td class="hide-s">${esc(s.category)}</td><td class="hide-s">${esc(s.method||"—")}</td>
+      <td><span class="dot ${o.cls}"></span>${o.txt}</td>
+      <td><span class="dot ${c.cls}"></span>${c.txt}</td>
+      <td class="hide-s">${s.items}</td></tr>`;
+  }).join("") || `<tr><td colspan="8" class="muted">no sources match</td></tr>`;
+}
+$("#fc").innerHTML += [...new Set((R.sources||[]).map(s=>s.country))].sort()
+  .map(c=>`<option value="${c}">${c}</option>`).join("");
+document.querySelectorAll("th[data-k]").forEach(th => th.onclick = () => {
+  const k = th.dataset.k; sortDir = (k === sortK) ? -sortDir : 1; sortK = k; draw();
+});
+["#q","#fc","#fs"].forEach(s => $(s).addEventListener("input", draw));
+draw();
+
+// ---- recent
+$("#recent").innerHTML = (R.recent||[]).slice(0,40).map(r => `
+  <div class="card consider" style="border-left-width:3px;padding:8px 12px">
+    <div style="font-size:14px"><a href="${esc(r.url)}" target="_blank" rel="noopener">${esc(r.title)}</a></div>
+    <div class="meta" style="margin:3px 0 0">
+      <span class="pill${r.tier===1?" t1":""}">t${r.tier}</span>
+      <span>${esc(r.source)}</span><span>${esc(r.country)}</span>
+      <span>seen ${esc((r.first_seen||"").replace("T"," "))}</span>
+      <span>${r.published ? "dated "+esc(r.published) : "undated"}</span>
+    </div></div>`).join("") || `<p class="muted">No observations yet.</p>`;
+</script>
+</body></html>

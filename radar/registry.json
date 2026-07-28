@@ -1,0 +1,2971 @@
+{
+ "version": 1,
+ "updated": "2026-07-28",
+ "note": "Upstream-weighted source registry for the EA Hospitality Pulse radar. tier 1 = primary/official, 2 = reputable secondary, 3 = weak (lead only, never publishable alone). lead_days = typical head start over mainstream coverage. Sources that fail repeatedly are surfaced by monitor.py rather than silently dropped.",
+ "sources": [
+  {
+   "id": "ke-gazette",
+   "name": "Kenya Gazette (Kenya Law)",
+   "url": "https://new.kenyalaw.org/gazettes/",
+   "tier": 1,
+   "country": "KE",
+   "category": "gazette",
+   "method": "html",
+   "cadence_min": 180,
+   "lead_days": 10,
+   "segments": [
+    "city",
+    "bush",
+    "beach"
+   ],
+   "slots": [
+    "morning"
+   ],
+   "why": "Fee changes, licensing and policy legally originate here, with effective dates the press omits.",
+   "frag": ""
+  },
+  {
+   "id": "ke-gazettes-africa",
+   "name": "Kenya Gazette mirror (gazettes.africa)",
+   "url": "https://gazettes.africa/gazettes/ke",
+   "tier": 1,
+   "country": "KE",
+   "category": "gazette",
+   "method": "html",
+   "cadence_min": 240,
+   "lead_days": 10,
+   "segments": [
+    "city",
+    "bush",
+    "beach"
+   ],
+   "slots": [
+    "morning"
+   ],
+   "why": "Second read on the gazette; often indexed faster than the official portal.",
+   "frag": ""
+  },
+  {
+   "id": "ke-epra-press",
+   "name": "EPRA press releases",
+   "url": "https://www.epra.go.ke/media-center/press-releases/",
+   "tier": 1,
+   "country": "KE",
+   "category": "regulator",
+   "method": "html",
+   "cadence_min": 180,
+   "lead_days": 2,
+   "segments": [
+    "city",
+    "bush",
+    "beach"
+   ],
+   "slots": [
+    "morning"
+   ],
+   "why": "Monthly fuel price review lands here ~14th, effective 15th. Moves transfer, generator and laundry costs.",
+   "frag": ""
+  },
+  {
+   "id": "ke-epra-fuel",
+   "name": "EPRA maximum retail petroleum prices",
+   "url": "https://www.epra.go.ke/services/economic-regulation/petroleum/maximum-retail-petroleum-prices/",
+   "tier": 1,
+   "country": "KE",
+   "category": "regulator",
+   "method": "html",
+   "cadence_min": 180,
+   "lead_days": 2,
+   "segments": [
+    "city",
+    "bush",
+    "beach"
+   ],
+   "slots": [
+    "morning"
+   ],
+   "why": "The actual price table. Diarised, knowable date \u2014 be first to price the impact.",
+   "frag": ""
+  },
+  {
+   "id": "ke-knbs-releases",
+   "name": "KNBS statistical releases",
+   "url": "https://www.knbs.or.ke/statistical-releases/",
+   "tier": 1,
+   "country": "KE",
+   "category": "statistics",
+   "method": "html",
+   "cadence_min": 120,
+   "lead_days": 2,
+   "segments": [
+    "city",
+    "bush",
+    "beach"
+   ],
+   "slots": [
+    "morning"
+   ],
+   "why": "CPI, Leading Economic Indicators incl. arrivals and hotel bed-nights.",
+   "frag": ""
+  },
+  {
+   "id": "ke-knbs-calendar",
+   "name": "KNBS advance release calendar",
+   "url": "https://www.knbs.or.ke/release-calendar/",
+   "tier": 1,
+   "country": "KE",
+   "category": "statistics",
+   "method": "html",
+   "cadence_min": 1440,
+   "lead_days": 30,
+   "segments": [
+    "city",
+    "bush",
+    "beach"
+   ],
+   "slots": [
+    "morning"
+   ],
+   "why": "Tells you what lands when. Feed for calendar.js.",
+   "frag": ""
+  },
+  {
+   "id": "ke-cbk-press",
+   "name": "Central Bank of Kenya press releases",
+   "url": "https://www.centralbank.go.ke/press/",
+   "tier": 1,
+   "country": "KE",
+   "category": "central-bank",
+   "method": "html",
+   "cadence_min": 180,
+   "lead_days": 2,
+   "segments": [
+    "city",
+    "bush",
+    "beach"
+   ],
+   "slots": [
+    "morning"
+   ],
+   "why": "Rate decisions and FX. The cost-side input for anyone carrying refurbishment debt.",
+   "frag": ""
+  },
+  {
+   "id": "ke-cbk-bulletin",
+   "name": "CBK weekly bulletin",
+   "url": "https://www.centralbank.go.ke/weekly-bulletin/",
+   "tier": 1,
+   "country": "KE",
+   "category": "central-bank",
+   "method": "html",
+   "cadence_min": 1440,
+   "lead_days": 3,
+   "segments": [
+    "city",
+    "bush",
+    "beach"
+   ],
+   "slots": [
+    "morning"
+   ],
+   "why": "Fridays. FX cross-rates and reserves.",
+   "frag": ""
+  },
+  {
+   "id": "ke-tri",
+   "name": "Tourism Research Institute",
+   "url": "https://tri.go.ke/",
+   "tier": 1,
+   "country": "KE",
+   "category": "statistics",
+   "method": "html",
+   "cadence_min": 360,
+   "lead_days": 5,
+   "segments": [
+    "city",
+    "bush",
+    "beach"
+   ],
+   "slots": [
+    "morning"
+   ],
+   "why": "Authoritative Kenyan arrivals by source market \u2014 the number to quote.",
+   "frag": ""
+  },
+  {
+   "id": "ke-tourism-ministry",
+   "name": "Ministry of Tourism & Wildlife",
+   "url": "https://www.tourism.go.ke/",
+   "tier": 1,
+   "country": "KE",
+   "category": "ministry",
+   "method": "html",
+   "cadence_min": 240,
+   "lead_days": 3,
+   "segments": [
+    "city",
+    "bush",
+    "beach"
+   ],
+   "slots": [
+    "morning",
+    "midday",
+    "evening"
+   ],
+   "why": "Policy, levies and ministerial directives.",
+   "frag": ""
+  },
+  {
+   "id": "ke-ktb-news",
+   "name": "Kenya Tourism Board news",
+   "url": "https://ktb.go.ke/news",
+   "tier": 1,
+   "country": "KE",
+   "category": "dmo",
+   "method": "html",
+   "cadence_min": 240,
+   "lead_days": 3,
+   "segments": [
+    "city",
+    "bush",
+    "beach"
+   ],
+   "slots": [
+    "morning",
+    "midday",
+    "evening"
+   ],
+   "why": "Destination marketing pushes and source-market campaigns.",
+   "frag": ""
+  },
+  {
+   "id": "ke-kws",
+   "name": "Kenya Wildlife Service",
+   "url": "https://www.kws.go.ke/",
+   "tier": 1,
+   "country": "KE",
+   "category": "parks",
+   "method": "html",
+   "cadence_min": 240,
+   "lead_days": 7,
+   "segments": [
+    "bush"
+   ],
+   "slots": [
+    "evening"
+   ],
+   "why": "Park fees, closures and conservancy rules \u2014 direct lodge cost and access impact.",
+   "frag": ""
+  },
+  {
+   "id": "ke-tra",
+   "name": "Tourism Regulatory Authority",
+   "url": "https://www.tourismauthority.go.ke/",
+   "tier": 1,
+   "country": "KE",
+   "category": "regulator",
+   "method": "html",
+   "cadence_min": 360,
+   "lead_days": 7,
+   "segments": [
+    "city",
+    "bush",
+    "beach"
+   ],
+   "slots": [
+    "evening"
+   ],
+   "why": "Licensing and classification of accommodation.",
+   "frag": ""
+  },
+  {
+   "id": "ke-tourism-fund",
+   "name": "Tourism Fund",
+   "url": "https://www.tourismfund.co.ke/",
+   "tier": 1,
+   "country": "KE",
+   "category": "regulator",
+   "method": "html",
+   "cadence_min": 720,
+   "lead_days": 7,
+   "segments": [
+    "city",
+    "bush",
+    "beach"
+   ],
+   "slots": [
+    "evening"
+   ],
+   "why": "Tourism levy administration \u2014 a direct line item on every guest bill.",
+   "frag": ""
+  },
+  {
+   "id": "ke-kcaa",
+   "name": "KCAA \u2014 aeronautical information & circulars",
+   "url": "https://kcaa.or.ke/",
+   "tier": 1,
+   "country": "KE",
+   "category": "aviation",
+   "method": "html",
+   "cadence_min": 180,
+   "lead_days": 5,
+   "segments": [
+    "city",
+    "bush",
+    "beach"
+   ],
+   "slots": [
+    "midday"
+   ],
+   "why": "AICs create passenger document requirements before any airline tells an agent.",
+   "frag": ""
+  },
+  {
+   "id": "ke-kaa",
+   "name": "Kenya Airports Authority",
+   "url": "https://www.kaa.go.ke/",
+   "tier": 1,
+   "country": "KE",
+   "category": "aviation",
+   "method": "html",
+   "cadence_min": 240,
+   "lead_days": 4,
+   "segments": [
+    "city",
+    "bush",
+    "beach"
+   ],
+   "slots": [
+    "midday"
+   ],
+   "why": "Terminal capacity, disruption notices and traffic statistics.",
+   "frag": ""
+  },
+  {
+   "id": "ke-kaa-tenders",
+   "name": "KAA tenders",
+   "url": "https://www.kaa.go.ke/tenders/",
+   "tier": 1,
+   "country": "KE",
+   "category": "tender",
+   "method": "html",
+   "cadence_min": 720,
+   "lead_days": 30,
+   "segments": [
+    "city",
+    "bush",
+    "beach"
+   ],
+   "slots": [
+    "evening"
+   ],
+   "why": "Airport works signal capacity and disruption years ahead.",
+   "frag": ""
+  },
+  {
+   "id": "ke-moh",
+   "name": "Kenya Ministry of Health",
+   "url": "https://www.health.go.ke/",
+   "tier": 1,
+   "country": "KE",
+   "category": "health",
+   "method": "html",
+   "cadence_min": 120,
+   "lead_days": 2,
+   "segments": [
+    "city",
+    "bush",
+    "beach"
+   ],
+   "slots": [
+    "morning",
+    "midday",
+    "evening"
+   ],
+   "why": "Screening measures and outbreak statements that precede advisory changes.",
+   "frag": ""
+  },
+  {
+   "id": "ke-eta",
+   "name": "Kenya eTA portal",
+   "url": "https://www.etakenya.go.ke/",
+   "tier": 1,
+   "country": "KE",
+   "category": "entry-rules",
+   "method": "html",
+   "cadence_min": 360,
+   "lead_days": 7,
+   "segments": [
+    "city",
+    "bush",
+    "beach"
+   ],
+   "slots": [
+    "morning"
+   ],
+   "why": "Entry requirement and fee changes appear on the portal before they are reported.",
+   "frag": ""
+  },
+  {
+   "id": "ke-treasury",
+   "name": "National Treasury Kenya",
+   "url": "https://www.treasury.go.ke/",
+   "tier": 1,
+   "country": "KE",
+   "category": "fiscal",
+   "method": "html",
+   "cadence_min": 720,
+   "lead_days": 21,
+   "segments": [
+    "city",
+    "bush",
+    "beach"
+   ],
+   "slots": [
+    "evening"
+   ],
+   "why": "Budget documents carry tourism levies and aviation taxes months before they bite.",
+   "frag": ""
+  },
+  {
+   "id": "ke-parliament",
+   "name": "Parliament of Kenya \u2014 bills & papers",
+   "url": "http://www.parliament.go.ke/",
+   "tier": 1,
+   "country": "KE",
+   "category": "legislature",
+   "method": "html",
+   "cadence_min": 720,
+   "lead_days": 30,
+   "segments": [
+    "city",
+    "bush",
+    "beach"
+   ],
+   "slots": [
+    "evening"
+   ],
+   "why": "Finance Bills and committee reports \u2014 the earliest sight of a tax change.",
+   "frag": ""
+  },
+  {
+   "id": "ke-tenders",
+   "name": "Kenya PPIP tender portal",
+   "url": "https://tenders.go.ke/",
+   "tier": 1,
+   "country": "KE",
+   "category": "tender",
+   "method": "html",
+   "cadence_min": 720,
+   "lead_days": 30,
+   "segments": [
+    "city",
+    "bush",
+    "beach"
+   ],
+   "slots": [
+    "evening"
+   ],
+   "why": "Tourism and access infrastructure awards.",
+   "frag": ""
+  },
+  {
+   "id": "ke-nse",
+   "name": "Nairobi Securities Exchange announcements",
+   "url": "https://www.nse.co.ke/media-center/",
+   "tier": 1,
+   "country": "KE",
+   "category": "capital",
+   "method": "html",
+   "cadence_min": 360,
+   "lead_days": 3,
+   "segments": [
+    "city",
+    "bush",
+    "beach"
+   ],
+   "slots": [
+    "morning",
+    "midday",
+    "evening"
+   ],
+   "why": "Results and disclosures from listed hospitality and aviation names.",
+   "frag": ""
+  },
+  {
+   "id": "ke-met",
+   "name": "Kenya Meteorological Department",
+   "url": "https://meteo.go.ke/",
+   "tier": 1,
+   "country": "KE",
+   "category": "weather",
+   "method": "html",
+   "cadence_min": 240,
+   "lead_days": 2,
+   "segments": [
+    "city",
+    "bush",
+    "beach"
+   ],
+   "slots": [
+    "morning",
+    "midday",
+    "evening"
+   ],
+   "why": "Flood and severe-weather warnings that close roads and airstrips.",
+   "frag": ""
+  },
+  {
+   "id": "ug-gazette",
+   "name": "Uganda Gazette (gazettes.africa)",
+   "url": "https://gazettes.africa/gazettes/ug",
+   "tier": 1,
+   "country": "UG",
+   "category": "gazette",
+   "method": "html",
+   "cadence_min": 240,
+   "lead_days": 10,
+   "segments": [
+    "city",
+    "bush",
+    "beach"
+   ],
+   "slots": [
+    "morning"
+   ],
+   "why": "Statutory instruments incl. park and licensing fees.",
+   "frag": ""
+  },
+  {
+   "id": "ug-ubos",
+   "name": "UBOS statistical releases",
+   "url": "https://www.ubos.org/",
+   "tier": 1,
+   "country": "UG",
+   "category": "statistics",
+   "method": "html",
+   "cadence_min": 180,
+   "lead_days": 2,
+   "segments": [
+    "city",
+    "bush",
+    "beach"
+   ],
+   "slots": [
+    "morning"
+   ],
+   "why": "CPI and the shilling-strength story that squeezes USD-earning operators.",
+   "frag": ""
+  },
+  {
+   "id": "ug-bou",
+   "name": "Bank of Uganda",
+   "url": "https://www.bou.or.ug/",
+   "tier": 1,
+   "country": "UG",
+   "category": "central-bank",
+   "method": "html",
+   "cadence_min": 360,
+   "lead_days": 3,
+   "segments": [
+    "city",
+    "bush",
+    "beach"
+   ],
+   "slots": [
+    "morning"
+   ],
+   "why": "MPC and FX. UGX strength is a live margin issue.",
+   "frag": ""
+  },
+  {
+   "id": "ug-utb",
+   "name": "Uganda Tourism Board",
+   "url": "https://utb.go.ug/",
+   "tier": 1,
+   "country": "UG",
+   "category": "dmo",
+   "method": "html",
+   "cadence_min": 240,
+   "lead_days": 3,
+   "segments": [
+    "city",
+    "bush",
+    "beach"
+   ],
+   "slots": [
+    "morning",
+    "midday",
+    "evening"
+   ],
+   "why": "POATE, campaigns and destination policy.",
+   "frag": ""
+  },
+  {
+   "id": "ug-uwa",
+   "name": "Uganda Wildlife Authority updates",
+   "url": "https://ugandawildlife.org/new_categories/updates/",
+   "tier": 1,
+   "country": "UG",
+   "category": "parks",
+   "method": "html",
+   "cadence_min": 180,
+   "lead_days": 7,
+   "segments": [
+    "bush"
+   ],
+   "slots": [
+    "evening"
+   ],
+   "why": "Gorilla permit pricing, allocation rules and park entry waivers.",
+   "frag": ""
+  },
+  {
+   "id": "ug-ucaa",
+   "name": "Uganda Civil Aviation Authority",
+   "url": "https://caa.co.ug/",
+   "tier": 1,
+   "country": "UG",
+   "category": "aviation",
+   "method": "html",
+   "cadence_min": 240,
+   "lead_days": 5,
+   "segments": [
+    "city",
+    "bush",
+    "beach"
+   ],
+   "slots": [
+    "midday"
+   ],
+   "why": "Entebbe terminal capacity and aeronautical notices.",
+   "frag": ""
+  },
+  {
+   "id": "ug-moh",
+   "name": "Uganda Ministry of Health",
+   "url": "https://www.health.go.ug/",
+   "tier": 1,
+   "country": "UG",
+   "category": "health",
+   "method": "html",
+   "cadence_min": 120,
+   "lead_days": 1,
+   "segments": [
+    "city",
+    "bush",
+    "beach"
+   ],
+   "slots": [
+    "morning",
+    "midday",
+    "evening"
+   ],
+   "why": "Ebola situation reports and the 42-day countdown status, direct from source.",
+   "frag": ""
+  },
+  {
+   "id": "ug-tourism-ministry",
+   "name": "Ministry of Tourism, Wildlife & Antiquities",
+   "url": "https://www.tourism.go.ug/",
+   "tier": 1,
+   "country": "UG",
+   "category": "ministry",
+   "method": "html",
+   "cadence_min": 360,
+   "lead_days": 5,
+   "segments": [
+    "city",
+    "bush",
+    "beach"
+   ],
+   "slots": [
+    "morning",
+    "midday",
+    "evening"
+   ],
+   "why": "Policy and the ten-year tourism growth strategy.",
+   "frag": ""
+  },
+  {
+   "id": "ug-ura",
+   "name": "Uganda Revenue Authority",
+   "url": "https://www.ura.go.ug/",
+   "tier": 1,
+   "country": "UG",
+   "category": "fiscal",
+   "method": "html",
+   "cadence_min": 720,
+   "lead_days": 14,
+   "segments": [
+    "city",
+    "bush",
+    "beach"
+   ],
+   "slots": [
+    "evening"
+   ],
+   "why": "VAT and tourism tax changes.",
+   "frag": ""
+  },
+  {
+   "id": "ug-parliament",
+   "name": "Parliament of Uganda",
+   "url": "https://www.parliament.go.ug/",
+   "tier": 1,
+   "country": "UG",
+   "category": "legislature",
+   "method": "html",
+   "cadence_min": 720,
+   "lead_days": 30,
+   "segments": [
+    "city",
+    "bush",
+    "beach"
+   ],
+   "slots": [
+    "evening"
+   ],
+   "why": "Budget and tax proposals affecting accommodation.",
+   "frag": ""
+  },
+  {
+   "id": "ug-tenders",
+   "name": "Uganda EGP portal",
+   "url": "https://egpuganda.go.ug/",
+   "tier": 1,
+   "country": "UG",
+   "category": "tender",
+   "method": "html",
+   "cadence_min": 1440,
+   "lead_days": 30,
+   "segments": [
+    "city",
+    "bush",
+    "beach"
+   ],
+   "slots": [
+    "evening"
+   ],
+   "why": "Airport, road and park infrastructure awards.",
+   "frag": ""
+  },
+  {
+   "id": "tz-gazette",
+   "name": "Tanzania Government Gazette (gazettes.africa)",
+   "url": "https://gazettes.africa/gazettes/tz",
+   "tier": 1,
+   "country": "TZ",
+   "category": "gazette",
+   "method": "html",
+   "cadence_min": 240,
+   "lead_days": 10,
+   "segments": [
+    "city",
+    "bush",
+    "beach"
+   ],
+   "slots": [
+    "morning"
+   ],
+   "why": "Fee schedules and statutory instruments.",
+   "frag": ""
+  },
+  {
+   "id": "tz-nbs",
+   "name": "NBS Tanzania statistics",
+   "url": "https://www.nbs.go.tz/",
+   "tier": 1,
+   "country": "TZ",
+   "category": "statistics",
+   "method": "html",
+   "cadence_min": 180,
+   "lead_days": 2,
+   "segments": [
+    "city",
+    "bush",
+    "beach"
+   ],
+   "slots": [
+    "morning"
+   ],
+   "why": "CPI plus arrivals and tourism earnings. Tanzania's benign cost base is a competitive asset.",
+   "frag": ""
+  },
+  {
+   "id": "tz-bot",
+   "name": "Bank of Tanzania",
+   "url": "https://www.bot.go.tz/",
+   "tier": 1,
+   "country": "TZ",
+   "category": "central-bank",
+   "method": "html",
+   "cadence_min": 360,
+   "lead_days": 3,
+   "segments": [
+    "city",
+    "bush",
+    "beach"
+   ],
+   "slots": [
+    "morning"
+   ],
+   "why": "Monthly economic review carries travel receipts.",
+   "frag": ""
+  },
+  {
+   "id": "tz-mnrt",
+   "name": "Ministry of Natural Resources & Tourism",
+   "url": "https://www.maliasili.go.tz/",
+   "tier": 1,
+   "country": "TZ",
+   "category": "ministry",
+   "method": "html",
+   "cadence_min": 240,
+   "lead_days": 5,
+   "segments": [
+    "bush"
+   ],
+   "slots": [
+    "morning",
+    "midday",
+    "evening"
+   ],
+   "why": "Park fee orders, concession rules and tourism policy.",
+   "frag": ""
+  },
+  {
+   "id": "tz-tanapa",
+   "name": "TANAPA",
+   "url": "https://www.tanzaniaparks.go.tz/",
+   "tier": 1,
+   "country": "TZ",
+   "category": "parks",
+   "method": "html",
+   "cadence_min": 240,
+   "lead_days": 7,
+   "segments": [
+    "bush"
+   ],
+   "slots": [
+    "evening"
+   ],
+   "why": "Park entry fees and access rules \u2014 the biggest single line in a northern-circuit quote.",
+   "frag": ""
+  },
+  {
+   "id": "tz-ncaa",
+   "name": "Ngorongoro Conservation Area Authority",
+   "url": "https://www.ncaa.go.tz/",
+   "tier": 1,
+   "country": "TZ",
+   "category": "parks",
+   "method": "html",
+   "cadence_min": 360,
+   "lead_days": 7,
+   "segments": [
+    "bush"
+   ],
+   "slots": [
+    "evening"
+   ],
+   "why": "Crater fees and vehicle rules.",
+   "frag": ""
+  },
+  {
+   "id": "tz-ttb",
+   "name": "Tanzania Tourist Board",
+   "url": "https://www.tanzaniatourism.go.tz/",
+   "tier": 1,
+   "country": "TZ",
+   "category": "dmo",
+   "method": "html",
+   "cadence_min": 360,
+   "lead_days": 4,
+   "segments": [
+    "city",
+    "bush",
+    "beach"
+   ],
+   "slots": [
+    "morning",
+    "midday",
+    "evening"
+   ],
+   "why": "Campaigns and arrivals commentary.",
+   "frag": ""
+  },
+  {
+   "id": "tz-tcaa",
+   "name": "Tanzania Civil Aviation Authority",
+   "url": "https://www.tcaa.go.tz/",
+   "tier": 1,
+   "country": "TZ",
+   "category": "aviation",
+   "method": "html",
+   "cadence_min": 240,
+   "lead_days": 5,
+   "segments": [
+    "city",
+    "bush",
+    "beach"
+   ],
+   "slots": [
+    "midday"
+   ],
+   "why": "Route approvals and aeronautical notices.",
+   "frag": ""
+  },
+  {
+   "id": "tz-taa",
+   "name": "Tanzania Airports Authority",
+   "url": "https://www.taa.go.tz/",
+   "tier": 1,
+   "country": "TZ",
+   "category": "aviation",
+   "method": "html",
+   "cadence_min": 360,
+   "lead_days": 5,
+   "segments": [
+    "city",
+    "bush",
+    "beach"
+   ],
+   "slots": [
+    "midday"
+   ],
+   "why": "Kilimanjaro and Dar terminal capacity, traffic data.",
+   "frag": ""
+  },
+  {
+   "id": "tz-moh",
+   "name": "Tanzania Ministry of Health",
+   "url": "https://www.moh.go.tz/",
+   "tier": 1,
+   "country": "TZ",
+   "category": "health",
+   "method": "pdf",
+   "cadence_min": 120,
+   "lead_days": 2,
+   "segments": [
+    "city",
+    "bush",
+    "beach"
+   ],
+   "slots": [
+    "morning",
+    "midday",
+    "evening"
+   ],
+   "why": "Publishes numbered travel advisories as PDFs \u2014 pure upstream, rarely reported.",
+   "frag": ""
+  },
+  {
+   "id": "tz-immigration",
+   "name": "Tanzania Immigration Services",
+   "url": "https://www.immigration.go.tz/",
+   "tier": 1,
+   "country": "TZ",
+   "category": "entry-rules",
+   "method": "html",
+   "cadence_min": 360,
+   "lead_days": 7,
+   "segments": [
+    "city",
+    "bush",
+    "beach"
+   ],
+   "slots": [
+    "morning"
+   ],
+   "why": "Visa and entry rule changes.",
+   "frag": ""
+  },
+  {
+   "id": "tz-tra",
+   "name": "Tanzania Revenue Authority",
+   "url": "https://www.tra.go.tz/",
+   "tier": 1,
+   "country": "TZ",
+   "category": "fiscal",
+   "method": "html",
+   "cadence_min": 720,
+   "lead_days": 14,
+   "segments": [
+    "city",
+    "bush",
+    "beach"
+   ],
+   "slots": [
+    "evening"
+   ],
+   "why": "Tourism VAT and levy administration.",
+   "frag": ""
+  },
+  {
+   "id": "tz-tenders",
+   "name": "Tanzania NeST procurement portal",
+   "url": "https://nest.go.tz/",
+   "tier": 1,
+   "country": "TZ",
+   "category": "tender",
+   "method": "html",
+   "cadence_min": 1440,
+   "lead_days": 30,
+   "segments": [
+    "city",
+    "bush",
+    "beach"
+   ],
+   "slots": [
+    "evening"
+   ],
+   "why": "Park, airport and road works.",
+   "frag": ""
+  },
+  {
+   "id": "zn-ocgs",
+   "name": "OCGS Zanzibar statistics",
+   "url": "https://www.ocgs.go.tz/",
+   "tier": 1,
+   "country": "ZNZ",
+   "category": "statistics",
+   "method": "html",
+   "cadence_min": 180,
+   "lead_days": 3,
+   "segments": [
+    "beach"
+   ],
+   "slots": [
+    "morning"
+   ],
+   "why": "Monthly arrivals with source-market split \u2014 the granular number nobody else quotes on time.",
+   "frag": ""
+  },
+  {
+   "id": "zn-tourism",
+   "name": "Zanzibar Commission for Tourism",
+   "url": "https://www.zanzibartourism.go.tz/",
+   "tier": 1,
+   "country": "ZNZ",
+   "category": "dmo",
+   "method": "html",
+   "cadence_min": 240,
+   "lead_days": 4,
+   "segments": [
+    "beach"
+   ],
+   "slots": [
+    "morning",
+    "midday",
+    "evening"
+   ],
+   "why": "Arrivals releases, licensing and levy notices.",
+   "frag": ""
+  },
+  {
+   "id": "zn-zrb",
+   "name": "Zanzibar Revenue Board",
+   "url": "https://www.zrb.go.tz/",
+   "tier": 1,
+   "country": "ZNZ",
+   "category": "fiscal",
+   "method": "html",
+   "cadence_min": 360,
+   "lead_days": 10,
+   "segments": [
+    "beach"
+   ],
+   "slots": [
+    "evening"
+   ],
+   "why": "Infrastructure levy and hotel tax changes \u2014 a direct per-guest cost.",
+   "frag": ""
+  },
+  {
+   "id": "zn-zaa",
+   "name": "Zanzibar Airports Authority",
+   "url": "https://www.zaa.go.tz/",
+   "tier": 1,
+   "country": "ZNZ",
+   "category": "aviation",
+   "method": "html",
+   "cadence_min": 360,
+   "lead_days": 5,
+   "segments": [
+    "beach"
+   ],
+   "slots": [
+    "midday"
+   ],
+   "why": "AAKIA terminal capacity and charter handling.",
+   "frag": ""
+  },
+  {
+   "id": "zn-moh",
+   "name": "Zanzibar Ministry of Health",
+   "url": "https://www.mohz.go.tz/",
+   "tier": 1,
+   "country": "ZNZ",
+   "category": "health",
+   "method": "html",
+   "cadence_min": 180,
+   "lead_days": 2,
+   "segments": [
+    "beach"
+   ],
+   "slots": [
+    "morning",
+    "midday",
+    "evening"
+   ],
+   "why": "Island health notices; cholera and outbreak statements move European charters.",
+   "frag": ""
+  },
+  {
+   "id": "rw-gazette",
+   "name": "Rwanda Official Gazette (gazettes.africa)",
+   "url": "https://gazettes.africa/gazettes/rw",
+   "tier": 1,
+   "country": "RW",
+   "category": "gazette",
+   "method": "html",
+   "cadence_min": 240,
+   "lead_days": 10,
+   "segments": [
+    "city",
+    "bush",
+    "beach"
+   ],
+   "slots": [
+    "morning"
+   ],
+   "why": "Ministerial orders incl. permit and park pricing.",
+   "frag": ""
+  },
+  {
+   "id": "rw-nisr",
+   "name": "NISR publications",
+   "url": "https://www.statistics.gov.rw/publications",
+   "tier": 1,
+   "country": "RW",
+   "category": "statistics",
+   "method": "html",
+   "cadence_min": 180,
+   "lead_days": 2,
+   "segments": [
+    "city",
+    "bush",
+    "beach"
+   ],
+   "slots": [
+    "morning"
+   ],
+   "why": "CPI and tourism statistics; Rwanda's source-market mix is shifting fast.",
+   "frag": ""
+  },
+  {
+   "id": "rw-bnr",
+   "name": "National Bank of Rwanda",
+   "url": "https://www.bnr.rw/",
+   "tier": 1,
+   "country": "RW",
+   "category": "central-bank",
+   "method": "html",
+   "cadence_min": 360,
+   "lead_days": 3,
+   "segments": [
+    "city",
+    "bush",
+    "beach"
+   ],
+   "slots": [
+    "morning"
+   ],
+   "why": "FX and rate decisions.",
+   "frag": ""
+  },
+  {
+   "id": "rw-rdb",
+   "name": "Rwanda Development Board media",
+   "url": "https://rdb.rw/media/",
+   "tier": 1,
+   "country": "RW",
+   "category": "regulator",
+   "method": "html",
+   "cadence_min": 180,
+   "lead_days": 5,
+   "segments": [
+    "city",
+    "bush",
+    "beach"
+   ],
+   "slots": [
+    "morning",
+    "midday",
+    "evening"
+   ],
+   "why": "Primary source for gorilla permit policy, arrivals and MICE wins.",
+   "frag": ""
+  },
+  {
+   "id": "rw-visitrwanda",
+   "name": "Visit Rwanda news",
+   "url": "https://www.visitrwanda.com/",
+   "tier": 1,
+   "country": "RW",
+   "category": "dmo",
+   "method": "html",
+   "cadence_min": 360,
+   "lead_days": 4,
+   "segments": [
+    "city",
+    "bush",
+    "beach"
+   ],
+   "slots": [
+    "morning",
+    "midday",
+    "evening"
+   ],
+   "why": "Destination campaigns and product launches.",
+   "frag": ""
+  },
+  {
+   "id": "rw-rca",
+   "name": "Rwanda Civil Aviation Authority",
+   "url": "https://www.rca.gov.rw/",
+   "tier": 1,
+   "country": "RW",
+   "category": "aviation",
+   "method": "html",
+   "cadence_min": 360,
+   "lead_days": 5,
+   "segments": [
+    "city",
+    "bush",
+    "beach"
+   ],
+   "slots": [
+    "midday"
+   ],
+   "why": "Route approvals and aeronautical notices.",
+   "frag": ""
+  },
+  {
+   "id": "rw-moh",
+   "name": "Rwanda Ministry of Health",
+   "url": "https://www.moh.gov.rw/",
+   "tier": 1,
+   "country": "RW",
+   "category": "health",
+   "method": "html",
+   "cadence_min": 120,
+   "lead_days": 2,
+   "segments": [
+    "city",
+    "bush",
+    "beach"
+   ],
+   "slots": [
+    "morning",
+    "midday",
+    "evening"
+   ],
+   "why": "Entry screening and DRC-border health measures \u2014 Rwanda moves first and hardest.",
+   "frag": ""
+  },
+  {
+   "id": "rw-rra",
+   "name": "Rwanda Revenue Authority",
+   "url": "https://www.rra.gov.rw/",
+   "tier": 1,
+   "country": "RW",
+   "category": "fiscal",
+   "method": "html",
+   "cadence_min": 720,
+   "lead_days": 14,
+   "segments": [
+    "city",
+    "bush",
+    "beach"
+   ],
+   "slots": [
+    "evening"
+   ],
+   "why": "Tourism VAT and levy changes.",
+   "frag": ""
+  },
+  {
+   "id": "rw-rppa",
+   "name": "Rwanda public procurement (RPPA)",
+   "url": "https://www.rppa.gov.rw/",
+   "tier": 1,
+   "country": "RW",
+   "category": "tender",
+   "method": "html",
+   "cadence_min": 1440,
+   "lead_days": 30,
+   "segments": [
+    "city",
+    "bush",
+    "beach"
+   ],
+   "slots": [
+    "evening"
+   ],
+   "why": "Conference, airport and park infrastructure awards.",
+   "frag": ""
+  },
+  {
+   "id": "who-afro-outbreaks",
+   "name": "WHO AFRO outbreaks & emergencies",
+   "url": "https://www.afro.who.int/health-topics/disease-outbreaks/outbreaks-and-other-emergencies-updates",
+   "tier": 1,
+   "country": "REG",
+   "category": "health",
+   "method": "html",
+   "cadence_min": 120,
+   "lead_days": 4,
+   "segments": [
+    "city",
+    "bush",
+    "beach"
+   ],
+   "slots": [
+    "morning",
+    "midday",
+    "evening"
+   ],
+   "why": "Weekly bulletins carry case counts, districts and countdown status days before the press.",
+   "frag": ""
+  },
+  {
+   "id": "who-don",
+   "name": "WHO Disease Outbreak News",
+   "url": "https://www.who.int/feeds/entity/csr/don/en/rss.xml",
+   "tier": 1,
+   "country": "GLOBAL",
+   "category": "health",
+   "method": "rss",
+   "cadence_min": 120,
+   "lead_days": 3,
+   "segments": [
+    "city",
+    "bush",
+    "beach"
+   ],
+   "slots": [
+    "morning",
+    "midday",
+    "evening"
+   ],
+   "why": "Formal event notifications \u2014 the trigger for advisory changes.",
+   "frag": ""
+  },
+  {
+   "id": "africacdc-outbreaks",
+   "name": "Africa CDC outbreak briefs",
+   "url": "https://africacdc.org/disease-outbreak/",
+   "tier": 1,
+   "country": "REG",
+   "category": "health",
+   "method": "html",
+   "cadence_min": 120,
+   "lead_days": 4,
+   "segments": [
+    "city",
+    "bush",
+    "beach"
+   ],
+   "slots": [
+    "morning",
+    "midday",
+    "evening"
+   ],
+   "why": "Situation reports numbered by issue; continental view catches spillover early.",
+   "frag": ""
+  },
+  {
+   "id": "africacdc-downloads",
+   "name": "Africa CDC downloads (sit reps & EIW)",
+   "url": "https://africacdc.org/download-category/situation-reports/",
+   "tier": 1,
+   "country": "REG",
+   "category": "health",
+   "method": "html",
+   "cadence_min": 180,
+   "lead_days": 4,
+   "segments": [
+    "city",
+    "bush",
+    "beach"
+   ],
+   "slots": [
+    "morning",
+    "midday",
+    "evening"
+   ],
+   "why": "Where the numbered Bundibugyo situation reports actually land as PDFs.",
+   "frag": ""
+  },
+  {
+   "id": "reliefweb-ea",
+   "name": "ReliefWeb \u2014 East Africa updates",
+   "url": "https://reliefweb.int/updates/rss.xml?view=headlines",
+   "tier": 2,
+   "country": "REG",
+   "category": "health",
+   "method": "rss",
+   "cadence_min": 120,
+   "lead_days": 1,
+   "segments": [
+    "city",
+    "bush",
+    "beach"
+   ],
+   "slots": [
+    "morning",
+    "midday",
+    "evening"
+   ],
+   "why": "Aggregates ministry and WHO reporting, often hours ahead of anyone else.",
+   "frag": ""
+  },
+  {
+   "id": "cdc-travel-notices",
+   "name": "US CDC travel health notices",
+   "url": "https://wwwnc.cdc.gov/travel/notices",
+   "tier": 1,
+   "country": "GLOBAL",
+   "category": "health",
+   "method": "html",
+   "cadence_min": 180,
+   "lead_days": 2,
+   "segments": [
+    "city",
+    "bush",
+    "beach"
+   ],
+   "slots": [
+    "morning",
+    "midday",
+    "evening"
+   ],
+   "why": "A CDC notice reshapes US booking behaviour independently of State Department levels.",
+   "frag": ""
+  },
+  {
+   "id": "ecdc-cdtr",
+   "name": "ECDC weekly communicable disease threats report",
+   "url": "https://www.ecdc.europa.eu/en/publications-data/monitoring/weekly-threats-reports",
+   "tier": 1,
+   "country": "GLOBAL",
+   "category": "health",
+   "method": "html",
+   "cadence_min": 360,
+   "lead_days": 3,
+   "segments": [
+    "city",
+    "bush",
+    "beach"
+   ],
+   "slots": [
+    "morning",
+    "midday",
+    "evening"
+   ],
+   "why": "European view \u2014 drives German, Italian and Polish charter sentiment to Zanzibar.",
+   "frag": ""
+  },
+  {
+   "id": "promed",
+   "name": "ProMED-mail",
+   "url": "https://promedmail.org/promed-posts/",
+   "tier": 2,
+   "country": "GLOBAL",
+   "category": "health",
+   "method": "html",
+   "cadence_min": 180,
+   "lead_days": 2,
+   "segments": [
+    "city",
+    "bush",
+    "beach"
+   ],
+   "slots": [
+    "morning",
+    "midday",
+    "evening"
+   ],
+   "why": "Earliest informal signal on outbreaks, ahead of official confirmation.",
+   "frag": ""
+  },
+  {
+   "id": "adv-us-kenya",
+   "name": "US State Dept advisory \u2014 Kenya",
+   "url": "https://travel.state.gov/content/travel/en/traveladvisories/traveladvisories/kenya-travel-advisory.html",
+   "tier": 1,
+   "country": "KE",
+   "category": "advisory",
+   "method": "html",
+   "cadence_min": 60,
+   "lead_days": 1,
+   "segments": [
+    "city",
+    "bush",
+    "beach"
+   ],
+   "slots": [
+    "morning",
+    "midday",
+    "evening"
+   ],
+   "why": "Read the page, not news about it: level, exact geography, stated grounds.",
+   "frag": ""
+  },
+  {
+   "id": "adv-uk-kenya",
+   "name": "UK FCDO advice \u2014 Kenya",
+   "url": "https://www.gov.uk/foreign-travel-advice/kenya",
+   "tier": 1,
+   "country": "KE",
+   "category": "advisory",
+   "method": "html",
+   "cadence_min": 60,
+   "lead_days": 1,
+   "segments": [
+    "city",
+    "bush",
+    "beach"
+   ],
+   "slots": [
+    "morning",
+    "midday",
+    "evening"
+   ],
+   "why": "FCDO wording drives UK operator insurance and tour-operator policy.",
+   "frag": ""
+  },
+  {
+   "id": "adv-us-uganda",
+   "name": "US State Dept advisory \u2014 Uganda",
+   "url": "https://travel.state.gov/content/travel/en/traveladvisories/traveladvisories/uganda-travel-advisory.html",
+   "tier": 1,
+   "country": "UG",
+   "category": "advisory",
+   "method": "html",
+   "cadence_min": 60,
+   "lead_days": 1,
+   "segments": [
+    "city",
+    "bush",
+    "beach"
+   ],
+   "slots": [
+    "morning",
+    "midday",
+    "evening"
+   ],
+   "why": "Read the page, not news about it: level, exact geography, stated grounds.",
+   "frag": ""
+  },
+  {
+   "id": "adv-uk-uganda",
+   "name": "UK FCDO advice \u2014 Uganda",
+   "url": "https://www.gov.uk/foreign-travel-advice/uganda",
+   "tier": 1,
+   "country": "UG",
+   "category": "advisory",
+   "method": "html",
+   "cadence_min": 60,
+   "lead_days": 1,
+   "segments": [
+    "city",
+    "bush",
+    "beach"
+   ],
+   "slots": [
+    "morning",
+    "midday",
+    "evening"
+   ],
+   "why": "FCDO wording drives UK operator insurance and tour-operator policy.",
+   "frag": ""
+  },
+  {
+   "id": "adv-us-tanzania",
+   "name": "US State Dept advisory \u2014 Tanzania",
+   "url": "https://travel.state.gov/content/travel/en/traveladvisories/traveladvisories/tanzania-travel-advisory.html",
+   "tier": 1,
+   "country": "TZ",
+   "category": "advisory",
+   "method": "html",
+   "cadence_min": 60,
+   "lead_days": 1,
+   "segments": [
+    "city",
+    "bush",
+    "beach"
+   ],
+   "slots": [
+    "morning",
+    "midday",
+    "evening"
+   ],
+   "why": "Read the page, not news about it: level, exact geography, stated grounds.",
+   "frag": ""
+  },
+  {
+   "id": "adv-uk-tanzania",
+   "name": "UK FCDO advice \u2014 Tanzania",
+   "url": "https://www.gov.uk/foreign-travel-advice/tanzania",
+   "tier": 1,
+   "country": "TZ",
+   "category": "advisory",
+   "method": "html",
+   "cadence_min": 60,
+   "lead_days": 1,
+   "segments": [
+    "city",
+    "bush",
+    "beach"
+   ],
+   "slots": [
+    "morning",
+    "midday",
+    "evening"
+   ],
+   "why": "FCDO wording drives UK operator insurance and tour-operator policy.",
+   "frag": ""
+  },
+  {
+   "id": "adv-us-rwanda",
+   "name": "US State Dept advisory \u2014 Rwanda",
+   "url": "https://travel.state.gov/content/travel/en/traveladvisories/traveladvisories/rwanda-travel-advisory.html",
+   "tier": 1,
+   "country": "RW",
+   "category": "advisory",
+   "method": "html",
+   "cadence_min": 60,
+   "lead_days": 1,
+   "segments": [
+    "city",
+    "bush",
+    "beach"
+   ],
+   "slots": [
+    "morning",
+    "midday",
+    "evening"
+   ],
+   "why": "Read the page, not news about it: level, exact geography, stated grounds.",
+   "frag": ""
+  },
+  {
+   "id": "adv-uk-rwanda",
+   "name": "UK FCDO advice \u2014 Rwanda",
+   "url": "https://www.gov.uk/foreign-travel-advice/rwanda",
+   "tier": 1,
+   "country": "RW",
+   "category": "advisory",
+   "method": "html",
+   "cadence_min": 60,
+   "lead_days": 1,
+   "segments": [
+    "city",
+    "bush",
+    "beach"
+   ],
+   "slots": [
+    "morning",
+    "midday",
+    "evening"
+   ],
+   "why": "FCDO wording drives UK operator insurance and tour-operator policy.",
+   "frag": ""
+  },
+  {
+   "id": "adv-ca-kenya",
+   "name": "Canada travel advice \u2014 Kenya",
+   "url": "https://travel.gc.ca/destinations/kenya",
+   "tier": 1,
+   "country": "KE",
+   "category": "advisory",
+   "method": "html",
+   "cadence_min": 180,
+   "lead_days": 1,
+   "segments": [
+    "city",
+    "bush",
+    "beach"
+   ],
+   "slots": [
+    "morning",
+    "midday",
+    "evening"
+   ],
+   "why": "Divergence between governments is a commercial asset, not an inconsistency.",
+   "frag": ""
+  },
+  {
+   "id": "adv-au-kenya",
+   "name": "Smartraveller \u2014 Kenya",
+   "url": "https://www.smartraveller.gov.au/destinations/africa/kenya",
+   "tier": 1,
+   "country": "KE",
+   "category": "advisory",
+   "method": "html",
+   "cadence_min": 180,
+   "lead_days": 1,
+   "segments": [
+    "city",
+    "bush",
+    "beach"
+   ],
+   "slots": [
+    "morning",
+    "midday",
+    "evening"
+   ],
+   "why": "Australian long-haul safari demand tracks this closely.",
+   "frag": ""
+  },
+  {
+   "id": "adv-de-kenya",
+   "name": "Ausw\u00e4rtiges Amt \u2014 Kenya",
+   "url": "https://www.auswaertiges-amt.de/de/service/laender/kenya-node/kenyasicherheit",
+   "tier": 1,
+   "country": "KE",
+   "category": "advisory",
+   "method": "html",
+   "cadence_min": 180,
+   "lead_days": 1,
+   "segments": [
+    "city",
+    "bush",
+    "beach"
+   ],
+   "slots": [
+    "morning",
+    "midday",
+    "evening"
+   ],
+   "why": "Germany is a top-three source market for Zanzibar and the northern circuit.",
+   "frag": ""
+  },
+  {
+   "id": "adv-fr-kenya",
+   "name": "France Conseils aux voyageurs \u2014 Kenya",
+   "url": "https://www.diplomatie.gouv.fr/fr/conseils-aux-voyageurs/conseils-par-pays-destination/kenya/",
+   "tier": 1,
+   "country": "KE",
+   "category": "advisory",
+   "method": "html",
+   "cadence_min": 180,
+   "lead_days": 1,
+   "segments": [
+    "city",
+    "bush",
+    "beach"
+   ],
+   "slots": [
+    "morning",
+    "midday",
+    "evening"
+   ],
+   "why": "French advisories move Indian Ocean beach demand.",
+   "frag": ""
+  },
+  {
+   "id": "adv-ca-tanzania",
+   "name": "Canada travel advice \u2014 Tanzania",
+   "url": "https://travel.gc.ca/destinations/tanzania",
+   "tier": 1,
+   "country": "TZ",
+   "category": "advisory",
+   "method": "html",
+   "cadence_min": 180,
+   "lead_days": 1,
+   "segments": [
+    "city",
+    "bush",
+    "beach"
+   ],
+   "slots": [
+    "morning",
+    "midday",
+    "evening"
+   ],
+   "why": "Divergence between governments is a commercial asset, not an inconsistency.",
+   "frag": ""
+  },
+  {
+   "id": "adv-au-tanzania",
+   "name": "Smartraveller \u2014 Tanzania",
+   "url": "https://www.smartraveller.gov.au/destinations/africa/tanzania",
+   "tier": 1,
+   "country": "TZ",
+   "category": "advisory",
+   "method": "html",
+   "cadence_min": 180,
+   "lead_days": 1,
+   "segments": [
+    "city",
+    "bush",
+    "beach"
+   ],
+   "slots": [
+    "morning",
+    "midday",
+    "evening"
+   ],
+   "why": "Australian long-haul safari demand tracks this closely.",
+   "frag": ""
+  },
+  {
+   "id": "adv-de-tanzania",
+   "name": "Ausw\u00e4rtiges Amt \u2014 Tanzania",
+   "url": "https://www.auswaertiges-amt.de/de/service/laender/tanzania-node/tanzaniasicherheit",
+   "tier": 1,
+   "country": "TZ",
+   "category": "advisory",
+   "method": "html",
+   "cadence_min": 180,
+   "lead_days": 1,
+   "segments": [
+    "city",
+    "bush",
+    "beach"
+   ],
+   "slots": [
+    "morning",
+    "midday",
+    "evening"
+   ],
+   "why": "Germany is a top-three source market for Zanzibar and the northern circuit.",
+   "frag": ""
+  },
+  {
+   "id": "adv-fr-tanzania",
+   "name": "France Conseils aux voyageurs \u2014 Tanzania",
+   "url": "https://www.diplomatie.gouv.fr/fr/conseils-aux-voyageurs/conseils-par-pays-destination/tanzania/",
+   "tier": 1,
+   "country": "TZ",
+   "category": "advisory",
+   "method": "html",
+   "cadence_min": 180,
+   "lead_days": 1,
+   "segments": [
+    "city",
+    "bush",
+    "beach"
+   ],
+   "slots": [
+    "morning",
+    "midday",
+    "evening"
+   ],
+   "why": "French advisories move Indian Ocean beach demand.",
+   "frag": ""
+  },
+  {
+   "id": "air-kq",
+   "name": "Kenya Airways newsroom",
+   "url": "https://www.kenya-airways.com/en/newsroom/",
+   "tier": 1,
+   "country": "KE",
+   "category": "airline",
+   "method": "html",
+   "cadence_min": 180,
+   "lead_days": 3,
+   "segments": [
+    "city",
+    "bush",
+    "beach"
+   ],
+   "slots": [
+    "midday"
+   ],
+   "why": "Route, fleet and capacity announcements from the regional hub carrier.",
+   "frag": ""
+  },
+  {
+   "id": "air-ug",
+   "name": "Uganda Airlines news",
+   "url": "https://www.ugandairlines.com/news",
+   "tier": 1,
+   "country": "UG",
+   "category": "airline",
+   "method": "html",
+   "cadence_min": 240,
+   "lead_days": 3,
+   "segments": [
+    "city",
+    "bush",
+    "beach"
+   ],
+   "slots": [
+    "midday"
+   ],
+   "why": "Entebbe network build-out; capacity is a leading indicator of arrivals.",
+   "frag": ""
+  },
+  {
+   "id": "air-wb",
+   "name": "RwandAir media centre",
+   "url": "https://www.rwandair.com/media-center/",
+   "tier": 1,
+   "country": "RW",
+   "category": "airline",
+   "method": "html",
+   "cadence_min": 240,
+   "lead_days": 3,
+   "segments": [
+    "city",
+    "bush",
+    "beach"
+   ],
+   "slots": [
+    "midday"
+   ],
+   "why": "Kigali hub strategy and schedule shifts.",
+   "frag": ""
+  },
+  {
+   "id": "air-tc",
+   "name": "Air Tanzania",
+   "url": "https://www.airtanzania.co.tz/",
+   "tier": 1,
+   "country": "TZ",
+   "category": "airline",
+   "method": "html",
+   "cadence_min": 240,
+   "lead_days": 3,
+   "segments": [
+    "city",
+    "bush",
+    "beach"
+   ],
+   "slots": [
+    "midday"
+   ],
+   "why": "Long-haul experiments and domestic capacity to the northern circuit.",
+   "frag": ""
+  },
+  {
+   "id": "air-jambojet",
+   "name": "Jambojet media",
+   "url": "https://www.jambojet.com/en/press-release",
+   "tier": 1,
+   "country": "KE",
+   "category": "airline",
+   "method": "html",
+   "cadence_min": 360,
+   "lead_days": 3,
+   "segments": [
+    "city",
+    "bush",
+    "beach"
+   ],
+   "slots": [
+    "midday"
+   ],
+   "why": "Low-cost capacity into coastal and regional leisure markets.",
+   "frag": ""
+  },
+  {
+   "id": "air-precision",
+   "name": "Precision Air",
+   "url": "https://www.precisionairtz.com/",
+   "tier": 1,
+   "country": "TZ",
+   "category": "airline",
+   "method": "html",
+   "cadence_min": 360,
+   "lead_days": 3,
+   "segments": [
+    "city",
+    "bush",
+    "beach"
+   ],
+   "slots": [
+    "midday"
+   ],
+   "why": "Northern circuit and Zanzibar feeder capacity.",
+   "frag": ""
+  },
+  {
+   "id": "air-et",
+   "name": "Ethiopian Airlines press room",
+   "url": "https://www.ethiopianairlines.com/aa/media/press-room",
+   "tier": 1,
+   "country": "REG",
+   "category": "airline",
+   "method": "html",
+   "cadence_min": 360,
+   "lead_days": 3,
+   "segments": [
+    "city",
+    "bush",
+    "beach"
+   ],
+   "slots": [
+    "midday"
+   ],
+   "why": "The dominant African feeder; its schedule sets regional connectivity.",
+   "frag": ""
+  },
+  {
+   "id": "air-ek",
+   "name": "Emirates media centre",
+   "url": "https://www.emirates.com/media-centre/",
+   "tier": 1,
+   "country": "GLOBAL",
+   "category": "airline",
+   "method": "html",
+   "cadence_min": 360,
+   "lead_days": 3,
+   "segments": [
+    "city",
+    "bush",
+    "beach"
+   ],
+   "slots": [
+    "midday"
+   ],
+   "why": "Gulf capacity into Nairobi and Zanzibar drives long-haul leisure volume.",
+   "frag": ""
+  },
+  {
+   "id": "air-qr",
+   "name": "Qatar Airways press releases",
+   "url": "https://www.qatarairways.com/en/press-releases.html",
+   "tier": 1,
+   "country": "GLOBAL",
+   "category": "airline",
+   "method": "html",
+   "cadence_min": 360,
+   "lead_days": 3,
+   "segments": [
+    "city",
+    "bush",
+    "beach"
+   ],
+   "slots": [
+    "midday"
+   ],
+   "why": "Doha capacity into Kilimanjaro, Zanzibar, Entebbe and Kigali.",
+   "frag": ""
+  },
+  {
+   "id": "air-tk",
+   "name": "Turkish Airlines press room",
+   "url": "https://www.turkishairlines.com/en-int/press-room/",
+   "tier": 1,
+   "country": "GLOBAL",
+   "category": "airline",
+   "method": "html",
+   "cadence_min": 360,
+   "lead_days": 3,
+   "segments": [
+    "city",
+    "bush",
+    "beach"
+   ],
+   "slots": [
+    "midday"
+   ],
+   "why": "Istanbul feeds European and Asian secondary markets into EA.",
+   "frag": ""
+  },
+  {
+   "id": "air-klm",
+   "name": "KLM/Air France newsroom",
+   "url": "https://news.airfranceklm.com/",
+   "tier": 1,
+   "country": "GLOBAL",
+   "category": "airline",
+   "method": "html",
+   "cadence_min": 360,
+   "lead_days": 3,
+   "segments": [
+    "city",
+    "bush",
+    "beach"
+   ],
+   "slots": [
+    "midday"
+   ],
+   "why": "Amsterdam and Paris capacity \u2014 core to Dutch, French and Scandinavian safari demand.",
+   "frag": ""
+  },
+  {
+   "id": "air-lh",
+   "name": "Lufthansa Group newsroom",
+   "url": "https://newsroom.lufthansagroup.com/en/",
+   "tier": 1,
+   "country": "GLOBAL",
+   "category": "airline",
+   "method": "html",
+   "cadence_min": 720,
+   "lead_days": 3,
+   "segments": [
+    "beach"
+   ],
+   "slots": [
+    "midday"
+   ],
+   "why": "Discover Airlines charter-style capacity into Zanzibar and Mombasa.",
+   "frag": ""
+  },
+  {
+   "id": "air-airlink",
+   "name": "Airlink news",
+   "url": "https://www.flyairlink.com/",
+   "tier": 1,
+   "country": "REG",
+   "category": "airline",
+   "method": "html",
+   "cadence_min": 720,
+   "lead_days": 3,
+   "segments": [
+    "city",
+    "bush",
+    "beach"
+   ],
+   "slots": [
+    "midday"
+   ],
+   "why": "Southern Africa linkage for combined safari itineraries.",
+   "frag": ""
+  },
+  {
+   "id": "aeroroutes",
+   "name": "AeroRoutes schedule filings",
+   "url": "https://www.aeroroutes.com/",
+   "tier": 2,
+   "country": "GLOBAL",
+   "category": "aviation-tracker",
+   "method": "html",
+   "cadence_min": 180,
+   "lead_days": 7,
+   "segments": [
+    "city",
+    "bush",
+    "beach"
+   ],
+   "slots": [
+    "midday"
+   ],
+   "why": "Schedule filings appear here days to months before airlines publicise them.",
+   "frag": ""
+  },
+  {
+   "id": "chaviation",
+   "name": "ch-aviation news",
+   "url": "https://www.ch-aviation.com/news",
+   "tier": 2,
+   "country": "GLOBAL",
+   "category": "aviation-tracker",
+   "method": "html",
+   "cadence_min": 240,
+   "lead_days": 5,
+   "segments": [
+    "city",
+    "bush",
+    "beach"
+   ],
+   "slots": [
+    "midday"
+   ],
+   "why": "Fleet, AOC and route filings \u2014 the earliest sight of a new entrant or a collapse.",
+   "frag": ""
+  },
+  {
+   "id": "iata-pressroom",
+   "name": "IATA pressroom",
+   "url": "https://www.iata.org/en/pressroom/",
+   "tier": 1,
+   "country": "GLOBAL",
+   "category": "aviation-body",
+   "method": "html",
+   "cadence_min": 720,
+   "lead_days": 2,
+   "segments": [
+    "city",
+    "bush",
+    "beach"
+   ],
+   "slots": [
+    "midday"
+   ],
+   "why": "Monthly air passenger analysis incl. Africa \u2014 leading indicator for arrivals.",
+   "frag": ""
+  },
+  {
+   "id": "dev-marriott",
+   "name": "Marriott news centre",
+   "url": "https://news.marriott.com/",
+   "tier": 1,
+   "country": "GLOBAL",
+   "category": "hotel-group",
+   "method": "html",
+   "cadence_min": 720,
+   "lead_days": 14,
+   "segments": [
+    "city",
+    "bush",
+    "beach"
+   ],
+   "slots": [
+    "midday"
+   ],
+   "why": "Signings and openings reshape competitive supply years ahead.",
+   "frag": ""
+  },
+  {
+   "id": "dev-accor",
+   "name": "Accor press",
+   "url": "https://press.accor.com/",
+   "tier": 1,
+   "country": "GLOBAL",
+   "category": "hotel-group",
+   "method": "html",
+   "cadence_min": 720,
+   "lead_days": 14,
+   "segments": [
+    "city",
+    "bush",
+    "beach"
+   ],
+   "slots": [
+    "midday"
+   ],
+   "why": "Strong African pipeline; watch conversions and soft brands.",
+   "frag": ""
+  },
+  {
+   "id": "dev-hilton",
+   "name": "Hilton stories/newsroom",
+   "url": "https://stories.hilton.com/releases",
+   "tier": 1,
+   "country": "GLOBAL",
+   "category": "hotel-group",
+   "method": "html",
+   "cadence_min": 720,
+   "lead_days": 14,
+   "segments": [
+    "city",
+    "bush",
+    "beach"
+   ],
+   "slots": [
+    "midday"
+   ],
+   "why": "Nairobi, Kampala and Kigali pipeline activity.",
+   "frag": ""
+  },
+  {
+   "id": "dev-radisson",
+   "name": "Radisson Hotel Group media",
+   "url": "https://www.radissonhotels.com/en-us/corporate/media",
+   "tier": 1,
+   "country": "GLOBAL",
+   "category": "hotel-group",
+   "method": "html",
+   "cadence_min": 720,
+   "lead_days": 14,
+   "segments": [
+    "city",
+    "bush",
+    "beach"
+   ],
+   "slots": [
+    "midday"
+   ],
+   "why": "The most aggressive African signer of recent years.",
+   "frag": ""
+  },
+  {
+   "id": "dev-ihg",
+   "name": "IHG news",
+   "url": "https://www.ihgplc.com/en/news-and-media",
+   "tier": 1,
+   "country": "GLOBAL",
+   "category": "hotel-group",
+   "method": "html",
+   "cadence_min": 1440,
+   "lead_days": 14,
+   "segments": [
+    "city",
+    "bush",
+    "beach"
+   ],
+   "slots": [
+    "midday"
+   ],
+   "why": "Pipeline and brand entries into EA cities.",
+   "frag": ""
+  },
+  {
+   "id": "dev-minor",
+   "name": "Minor Hotels newsroom",
+   "url": "https://www.minorhotels.com/en/newsroom",
+   "tier": 1,
+   "country": "GLOBAL",
+   "category": "hotel-group",
+   "method": "html",
+   "cadence_min": 1440,
+   "lead_days": 14,
+   "segments": [
+    "beach"
+   ],
+   "slots": [
+    "midday"
+   ],
+   "why": "Anantara and NH expansion into Indian Ocean beach markets.",
+   "frag": ""
+  },
+  {
+   "id": "dev-kempinski",
+   "name": "Kempinski press",
+   "url": "https://www.kempinski.com/en/press-releases",
+   "tier": 1,
+   "country": "GLOBAL",
+   "category": "hotel-group",
+   "method": "html",
+   "cadence_min": 1440,
+   "lead_days": 14,
+   "segments": [
+    "city",
+    "bush",
+    "beach"
+   ],
+   "slots": [
+    "midday"
+   ],
+   "why": "Luxury city and resort positioning in Nairobi and Zanzibar.",
+   "frag": ""
+  },
+  {
+   "id": "dev-whospitality",
+   "name": "W Hospitality Group pipeline reports",
+   "url": "https://w-hospitalitygroup.com/blog/",
+   "tier": 2,
+   "country": "REG",
+   "category": "research",
+   "method": "html",
+   "cadence_min": 1440,
+   "lead_days": 21,
+   "segments": [
+    "city",
+    "bush",
+    "beach"
+   ],
+   "slots": [
+    "evening"
+   ],
+   "why": "The annual Africa pipeline report is the supply-side reference everyone quotes.",
+   "frag": ""
+  },
+  {
+   "id": "dev-hospitalitynet-africa",
+   "name": "Hospitality Net \u2014 Africa announcements",
+   "url": "https://www.hospitalitynet.org/africa/announcements",
+   "tier": 2,
+   "country": "REG",
+   "category": "trade",
+   "method": "html",
+   "cadence_min": 360,
+   "lead_days": 3,
+   "segments": [
+    "city",
+    "bush",
+    "beach"
+   ],
+   "slots": [
+    "midday"
+   ],
+   "why": "Openings and appointments across the continent.",
+   "frag": ""
+  },
+  {
+   "id": "dev-costar",
+   "name": "CoStar / STR hospitality news",
+   "url": "https://www.costar.com/news",
+   "tier": 2,
+   "country": "GLOBAL",
+   "category": "research",
+   "method": "html",
+   "cadence_min": 720,
+   "lead_days": 5,
+   "segments": [
+    "city",
+    "bush",
+    "beach"
+   ],
+   "slots": [
+    "evening"
+   ],
+   "why": "Occupancy and ADR benchmarking commentary for African markets.",
+   "frag": ""
+  },
+  {
+   "id": "dev-jll-hotels",
+   "name": "JLL Hotels & Hospitality research",
+   "url": "https://www.jll.com/en-us/insights",
+   "tier": 2,
+   "country": "GLOBAL",
+   "category": "research",
+   "method": "html",
+   "cadence_min": 1440,
+   "lead_days": 21,
+   "segments": [
+    "city",
+    "bush",
+    "beach"
+   ],
+   "slots": [
+    "evening"
+   ],
+   "why": "Transaction and investment flow into African hospitality.",
+   "frag": ""
+  },
+  {
+   "id": "np-businessdaily",
+   "name": "Business Daily Africa",
+   "url": "https://www.businessdailyafrica.com/",
+   "tier": 2,
+   "country": "KE",
+   "category": "press",
+   "method": "html",
+   "cadence_min": 60,
+   "lead_days": 0,
+   "segments": [
+    "city",
+    "bush",
+    "beach"
+   ],
+   "slots": [
+    "morning",
+    "midday",
+    "evening"
+   ],
+   "why": "Kenya's business paper of record for hospitality and aviation.",
+   "frag": ""
+  },
+  {
+   "id": "np-eastafrican",
+   "name": "The EastAfrican",
+   "url": "https://www.theeastafrican.co.ke/",
+   "tier": 2,
+   "country": "REG",
+   "category": "press",
+   "method": "html",
+   "cadence_min": 60,
+   "lead_days": 0,
+   "segments": [
+    "city",
+    "bush",
+    "beach"
+   ],
+   "slots": [
+    "morning",
+    "midday",
+    "evening"
+   ],
+   "why": "Regional view across all five markets.",
+   "frag": ""
+  },
+  {
+   "id": "np-citizen-tz",
+   "name": "The Citizen (Tanzania)",
+   "url": "https://www.thecitizen.co.tz/",
+   "tier": 2,
+   "country": "TZ",
+   "category": "press",
+   "method": "html",
+   "cadence_min": 60,
+   "lead_days": 0,
+   "segments": [
+    "city",
+    "bush",
+    "beach"
+   ],
+   "slots": [
+    "morning",
+    "midday",
+    "evening"
+   ],
+   "why": "Tanzanian policy and tourism reporting.",
+   "frag": ""
+  },
+  {
+   "id": "np-dailynews-tz",
+   "name": "Daily News (Tanzania)",
+   "url": "https://dailynews.co.tz/",
+   "tier": 2,
+   "country": "TZ",
+   "category": "press",
+   "method": "html",
+   "cadence_min": 120,
+   "lead_days": 0,
+   "segments": [
+    "city",
+    "bush",
+    "beach"
+   ],
+   "slots": [
+    "morning",
+    "midday",
+    "evening"
+   ],
+   "why": "Carries government statistics releases early, incl. Zanzibar arrivals.",
+   "frag": ""
+  },
+  {
+   "id": "np-monitor-ug",
+   "name": "Daily Monitor (Uganda)",
+   "url": "https://www.monitor.co.ug/",
+   "tier": 2,
+   "country": "UG",
+   "category": "press",
+   "method": "html",
+   "cadence_min": 60,
+   "lead_days": 0,
+   "segments": [
+    "city",
+    "bush",
+    "beach"
+   ],
+   "slots": [
+    "morning",
+    "midday",
+    "evening"
+   ],
+   "why": "Ugandan tourism, health and aviation reporting.",
+   "frag": ""
+  },
+  {
+   "id": "np-newvision-ug",
+   "name": "New Vision (Uganda)",
+   "url": "https://www.newvision.co.ug/",
+   "tier": 2,
+   "country": "UG",
+   "category": "press",
+   "method": "html",
+   "cadence_min": 120,
+   "lead_days": 0,
+   "segments": [
+    "city",
+    "bush",
+    "beach"
+   ],
+   "slots": [
+    "morning",
+    "midday",
+    "evening"
+   ],
+   "why": "State-adjacent paper; often first with ministry announcements.",
+   "frag": ""
+  },
+  {
+   "id": "np-newtimes-rw",
+   "name": "The New Times (Rwanda)",
+   "url": "https://www.newtimes.co.rw/",
+   "tier": 2,
+   "country": "RW",
+   "category": "press",
+   "method": "html",
+   "cadence_min": 60,
+   "lead_days": 0,
+   "segments": [
+    "city",
+    "bush",
+    "beach"
+   ],
+   "slots": [
+    "morning",
+    "midday",
+    "evening"
+   ],
+   "why": "Rwandan policy, MICE and permit news.",
+   "frag": ""
+  },
+  {
+   "id": "np-ktpress-rw",
+   "name": "KT Press (Rwanda)",
+   "url": "https://www.ktpress.rw/",
+   "tier": 2,
+   "country": "RW",
+   "category": "press",
+   "method": "html",
+   "cadence_min": 180,
+   "lead_days": 0,
+   "segments": [
+    "city",
+    "bush",
+    "beach"
+   ],
+   "slots": [
+    "morning",
+    "midday",
+    "evening"
+   ],
+   "why": "Second Rwandan read; useful for cross-checking.",
+   "frag": ""
+  },
+  {
+   "id": "np-theexchange",
+   "name": "The Exchange Africa \u2014 hospitality",
+   "url": "https://theexchange.africa/hospitality/",
+   "tier": 2,
+   "country": "REG",
+   "category": "trade",
+   "method": "html",
+   "cadence_min": 240,
+   "lead_days": 1,
+   "segments": [
+    "city",
+    "bush",
+    "beach"
+   ],
+   "slots": [
+    "morning",
+    "midday",
+    "evening"
+   ],
+   "why": "Regional business coverage of hospitality investment.",
+   "frag": ""
+  },
+  {
+   "id": "tp-voyagesafriq",
+   "name": "VoyagesAfriq",
+   "url": "https://voyagesafriq.com/",
+   "tier": 2,
+   "country": "REG",
+   "category": "trade",
+   "method": "html",
+   "cadence_min": 180,
+   "lead_days": 1,
+   "segments": [
+    "city",
+    "bush",
+    "beach"
+   ],
+   "slots": [
+    "morning",
+    "midday",
+    "evening"
+   ],
+   "why": "African travel trade publication of record.",
+   "frag": ""
+  },
+  {
+   "id": "tp-tourismupdate",
+   "name": "Tourism Update (Southern & East Africa)",
+   "url": "https://www.tourismupdate.com/",
+   "tier": 2,
+   "country": "REG",
+   "category": "trade",
+   "method": "html",
+   "cadence_min": 180,
+   "lead_days": 1,
+   "segments": [
+    "city",
+    "bush",
+    "beach"
+   ],
+   "slots": [
+    "morning",
+    "midday",
+    "evening"
+   ],
+   "why": "Trade-facing distribution and operator news.",
+   "frag": ""
+  },
+  {
+   "id": "tp-hotelonline",
+   "name": "HotelOnline Africa",
+   "url": "https://www.hotelonline.co/",
+   "tier": 2,
+   "country": "REG",
+   "category": "trade",
+   "method": "html",
+   "cadence_min": 360,
+   "lead_days": 1,
+   "segments": [
+    "city",
+    "bush",
+    "beach"
+   ],
+   "slots": [
+    "morning",
+    "midday",
+    "evening"
+   ],
+   "why": "African hotel distribution and technology economics.",
+   "frag": ""
+  },
+  {
+   "id": "tp-skift",
+   "name": "Skift",
+   "url": "https://skift.com/feed/",
+   "tier": 2,
+   "country": "GLOBAL",
+   "category": "trade",
+   "method": "rss",
+   "cadence_min": 120,
+   "lead_days": 1,
+   "segments": [
+    "city",
+    "bush",
+    "beach"
+   ],
+   "slots": [
+    "morning",
+    "midday",
+    "evening"
+   ],
+   "why": "Distribution economics and global demand structure.",
+   "frag": ""
+  },
+  {
+   "id": "tp-travelnews-africa",
+   "name": "travelnews.africa",
+   "url": "https://travelnews.africa/",
+   "tier": 2,
+   "country": "REG",
+   "category": "trade",
+   "method": "html",
+   "cadence_min": 240,
+   "lead_days": 1,
+   "segments": [
+    "city",
+    "bush",
+    "beach"
+   ],
+   "slots": [
+    "midday"
+   ],
+   "why": "Route and trade news across African aviation.",
+   "frag": ""
+  },
+  {
+   "id": "tp-atqnews",
+   "name": "ATQ News",
+   "url": "https://atqnews.com/",
+   "tier": 3,
+   "country": "REG",
+   "category": "trade",
+   "method": "html",
+   "cadence_min": 360,
+   "lead_days": 0,
+   "segments": [
+    "city",
+    "bush",
+    "beach"
+   ],
+   "slots": [
+    "morning",
+    "midday",
+    "evening"
+   ],
+   "why": "Aggregator \u2014 use only as a lead to chase to a primary source.",
+   "frag": ""
+  },
+  {
+   "id": "tp-tanzaniainvest",
+   "name": "TanzaniaInvest \u2014 tourism",
+   "url": "https://www.tanzaniainvest.com/tourism",
+   "tier": 2,
+   "country": "TZ",
+   "category": "trade",
+   "method": "html",
+   "cadence_min": 240,
+   "lead_days": 1,
+   "segments": [
+    "city",
+    "bush",
+    "beach"
+   ],
+   "slots": [
+    "morning",
+    "midday",
+    "evening"
+   ],
+   "why": "Reliably fast with NBS and OCGS statistics releases.",
+   "frag": ""
+  },
+  {
+   "id": "tp-kata",
+   "name": "Kenya Association of Travel Agents news",
+   "url": "https://katakenya.org/news/",
+   "tier": 2,
+   "country": "KE",
+   "category": "trade",
+   "method": "html",
+   "cadence_min": 180,
+   "lead_days": 2,
+   "segments": [
+    "city",
+    "bush",
+    "beach"
+   ],
+   "slots": [
+    "morning",
+    "midday",
+    "evening"
+   ],
+   "why": "Trade-side signals; occasionally genuinely exclusive on route plans.",
+   "frag": ""
+  },
+  {
+   "id": "tp-eturbonews",
+   "name": "eTurboNews Africa",
+   "url": "https://eturbonews.com/category/africa/",
+   "tier": 3,
+   "country": "GLOBAL",
+   "category": "trade",
+   "method": "html",
+   "cadence_min": 720,
+   "lead_days": 0,
+   "segments": [
+    "city",
+    "bush",
+    "beach"
+   ],
+   "slots": [
+    "morning",
+    "midday",
+    "evening"
+   ],
+   "why": "Republisher \u2014 chase to primary before use.",
+   "frag": ""
+  },
+  {
+   "id": "sm-unwto",
+   "name": "UN Tourism news & barometer",
+   "url": "https://www.unwto.org/news",
+   "tier": 1,
+   "country": "GLOBAL",
+   "category": "body",
+   "method": "html",
+   "cadence_min": 720,
+   "lead_days": 3,
+   "segments": [
+    "city",
+    "bush",
+    "beach"
+   ],
+   "slots": [
+    "evening"
+   ],
+   "why": "Global context and long-haul source-market outlook.",
+   "frag": ""
+  },
+  {
+   "id": "sm-wttc",
+   "name": "WTTC news",
+   "url": "https://wttc.org/news",
+   "tier": 1,
+   "country": "GLOBAL",
+   "category": "body",
+   "method": "html",
+   "cadence_min": 720,
+   "lead_days": 3,
+   "segments": [
+    "city",
+    "bush",
+    "beach"
+   ],
+   "slots": [
+    "evening"
+   ],
+   "why": "Economic Impact Research releases \u2014 verify the page date, aggregators misreport it.",
+   "frag": ""
+  },
+  {
+   "id": "sm-abta",
+   "name": "ABTA (UK) news",
+   "url": "https://www.abta.com/news",
+   "tier": 2,
+   "country": "GLOBAL",
+   "category": "source-market",
+   "method": "html",
+   "cadence_min": 1440,
+   "lead_days": 3,
+   "segments": [
+    "city",
+    "bush",
+    "beach"
+   ],
+   "slots": [
+    "evening"
+   ],
+   "why": "UK outbound operator sentiment and insolvency notices.",
+   "frag": ""
+  },
+  {
+   "id": "sm-tui",
+   "name": "TUI Group press",
+   "url": "https://www.tuigroup.com/en-en/media",
+   "tier": 1,
+   "country": "GLOBAL",
+   "category": "source-market",
+   "method": "html",
+   "cadence_min": 1440,
+   "lead_days": 7,
+   "segments": [
+    "beach"
+   ],
+   "slots": [
+    "evening"
+   ],
+   "why": "Charter programme decisions move Zanzibar and Mombasa beach volume wholesale.",
+   "frag": ""
+  },
+  {
+   "id": "sm-derreise",
+   "name": "FVW / German travel trade",
+   "url": "https://www.fvw.de/",
+   "tier": 2,
+   "country": "GLOBAL",
+   "category": "source-market",
+   "method": "html",
+   "cadence_min": 1440,
+   "lead_days": 3,
+   "segments": [
+    "beach",
+    "bush"
+   ],
+   "slots": [
+    "evening"
+   ],
+   "why": "German market \u2014 top-three for Zanzibar and the northern circuit.",
+   "frag": ""
+  },
+  {
+   "id": "sm-forwardkeys",
+   "name": "ForwardKeys insights",
+   "url": "https://forwardkeys.com/insights/",
+   "tier": 2,
+   "country": "GLOBAL",
+   "category": "source-market",
+   "method": "html",
+   "cadence_min": 1440,
+   "lead_days": 7,
+   "segments": [
+    "city",
+    "bush",
+    "beach"
+   ],
+   "slots": [
+    "evening"
+   ],
+   "why": "Forward booking data \u2014 the closest public proxy for pace.",
+   "frag": ""
+  }
+ ]
+}
