@@ -209,7 +209,7 @@ add("air-qr","Qatar Airways press releases","https://www.qatarairways.com/en/pre
     "Doha capacity into Kilimanjaro, Zanzibar, Entebbe and Kigali.",slots=M)
 add("air-tk","Turkish Airlines press room","https://www.turkishairlines.com/en-int/press-room/",1,"GLOBAL","airline","html",360,3,
     "Istanbul feeds European and Asian secondary markets into EA.",slots=M)
-add("air-klm","KLM/Air France newsroom","https://www.airfranceklm.com/en/newsroom/press-release",1,"GLOBAL","airline","html",360,3,
+add("air-klm","KLM/Air France newsroom","https://news.klm.com/",1,"GLOBAL","airline","html",360,3,
     "Amsterdam and Paris capacity — core to Dutch, French and Scandinavian safari demand.",slots=M)
 add("air-lh","Lufthansa Group newsroom","https://newsroom.lufthansagroup.com/en/",1,"GLOBAL","airline","html",720,3,
     "Discover Airlines charter-style capacity into Zanzibar and Mombasa.",segments=("beach",),slots=M)
@@ -285,7 +285,7 @@ add("tp-eturbonews","eTurboNews Africa","https://eturbonews.com/category/africa/
     "Republisher — chase to primary before use.",slots=ALL)
 
 # ---------------------------------------------------------------- SOURCE MARKETS / DEMAND
-add("sm-unwto","UN Tourism news & barometer","https://www.unwto.org/news",1,"GLOBAL","body","html",720,3,
+add("sm-unwto","UN Tourism news & barometer","https://www.unwto.org/newsroom",1,"GLOBAL","body","html",720,3,
     "Global context and long-haul source-market outlook.",slots=E)
 add("sm-wttc","WTTC news","https://wttc.org/news",1,"GLOBAL","body","html",720,3,
     "Economic Impact Research releases — verify the page date, aggregators misreport it.",slots=E)

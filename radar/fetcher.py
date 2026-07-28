@@ -179,31 +179,41 @@ def fetch(db, url, etag=None, last_modified=None, accept=None, check_robots=True
                 "sec-ch-ua": '"Chromium";v="125", "Not.A/Brand";v="24"',
                 "sec-ch-ua-mobile": "?0", "sec-ch-ua-platform": '"Windows"',
             })
-        return _open(url, headers, timeout=timeout, context=context)
+        try:
+            return _open(url, headers, timeout=timeout, context=context)
+        except urllib.error.HTTPError as he:
+            if he.code == 304:
+                raise NotModified()
+            raise
 
-    # Escalation ladder. Each rung is tried only when the previous one fails in a
-    # way the next rung might fix, so a healthy host is touched exactly once.
+    # Escalation ladder. Each rung is tried only when the previous one failed in
+    # a way the next rung might fix, so a healthy host is touched exactly once.
+    # NotModified and Blocked are control flow, not errors — they always
+    # propagate; everything unexpected becomes FetchError.
     #   1. polite UA, verified TLS
-    #   2. on cert-chain error -> same UA, unverified TLS (EA gov sites)
-    #   3. on 403/401 -> browser UA (sites that block bots by UA)
-    #   4. on timeout   -> one retry at 2x timeout (slow gov sites)
-    resp = None
+    #   2. cert-chain error -> same UA, unverified TLS (EA gov sites)
+    #   3. 403/401         -> full browser fingerprint (CDN bot walls)
+    #   4. timeout         -> one retry at 2x timeout (slow gov sites)
+    #   5. dropped conn    -> one browser retry after a short pause
+    def retry(fn):
+        try:
+            return fn()
+        except (NotModified, Blocked):
+            raise
+        except urllib.error.HTTPError as e:
+            if e.code in (401, 403, 451):
+                raise Blocked(f"HTTP {e.code}")
+            raise FetchError(f"HTTP {e.code}")
+        except Exception as e:
+            raise FetchError(f"{type(e).__name__}: {getattr(e, 'reason', e)}")
+
     try:
         resp = attempt(UA, None, TIMEOUT)
+    except (NotModified, Blocked):
+        raise
     except urllib.error.HTTPError as e:
-        if e.code == 304:
-            raise NotModified()
         if e.code in (401, 403):
-            try:
-                resp = attempt(BROWSER_UA, None, TIMEOUT, full_browser=True)
-            except urllib.error.HTTPError as e2:
-                if e2.code == 304:
-                    raise NotModified()
-                if e2.code in (401, 403, 451):
-                    raise Blocked(f"HTTP {e2.code}")
-                raise FetchError(f"HTTP {e2.code}")
-            except Exception as e2:
-                raise FetchError(f"{type(e2).__name__}: {getattr(e2, 'reason', e2)}")
+            resp = retry(lambda: attempt(BROWSER_UA, None, TIMEOUT, full_browser=True))
         elif e.code == 451:
             raise Blocked("HTTP 451")
         else:
@@ -211,29 +221,16 @@ def fetch(db, url, etag=None, last_modified=None, accept=None, check_robots=True
     except urllib.error.URLError as e:
         reason = getattr(e, "reason", e)
         if isinstance(reason, ssl.SSLCertVerificationError) or "CERTIFICATE_VERIFY_FAILED" in str(reason):
-            try:
-                resp = attempt(UA, _UNVERIFIED, TIMEOUT)
-            except Exception as e2:
-                raise FetchError(f"{type(e2).__name__}: {getattr(e2, 'reason', e2)}")
+            resp = retry(lambda: attempt(UA, _UNVERIFIED, TIMEOUT))
         elif isinstance(reason, (socket.timeout, TimeoutError)) or "timed out" in str(reason).lower():
-            try:
-                resp = attempt(UA, None, TIMEOUT * 2)
-            except Exception as e2:
-                raise FetchError(f"{type(e2).__name__}: {getattr(e2, 'reason', e2)}")
+            resp = retry(lambda: attempt(UA, None, TIMEOUT * 2))
         else:
             raise FetchError(f"URLError: {reason}")
     except (socket.timeout, TimeoutError):
-        try:
-            resp = attempt(UA, None, TIMEOUT * 2)
-        except Exception as e2:
-            raise FetchError(f"{type(e2).__name__}: {getattr(e2, 'reason', e2)}")
-    except (ConnectionResetError, http.client.RemoteDisconnected) as e:
-        # Some hosts drop the first connection from a new client, then behave.
-        try:
-            time.sleep(1.5)
-            resp = attempt(BROWSER_UA, None, TIMEOUT, full_browser=True)
-        except Exception as e2:
-            raise FetchError(f"{type(e2).__name__}: {getattr(e2, 'reason', e2)}")
+        resp = retry(lambda: attempt(UA, None, TIMEOUT * 2))
+    except (ConnectionResetError, http.client.RemoteDisconnected):
+        time.sleep(1.5)
+        resp = retry(lambda: attempt(BROWSER_UA, None, TIMEOUT, full_browser=True))
     except Exception as e:
         raise FetchError(f"{type(e).__name__}: {e}")
 

@@ -1412,29 +1412,6 @@
    "frag": ""
   },
   {
-   "id": "cdc-travel-notices",
-   "name": "US CDC travel health notices",
-   "url": "https://wwwnc.cdc.gov/travel/notices",
-   "tier": 1,
-   "country": "GLOBAL",
-   "category": "health",
-   "method": "html",
-   "cadence_min": 180,
-   "lead_days": 2,
-   "segments": [
-    "city",
-    "bush",
-    "beach"
-   ],
-   "slots": [
-    "morning",
-    "midday",
-    "evening"
-   ],
-   "why": "A CDC notice reshapes US booking behaviour independently of State Department levels.",
-   "frag": ""
-  },
-  {
    "id": "ecdc-cdtr",
    "name": "ECDC weekly communicable disease threats report",
    "url": "https://www.ecdc.europa.eu/en/threats-and-outbreaks",
@@ -1969,7 +1946,7 @@
   {
    "id": "air-klm",
    "name": "KLM/Air France newsroom",
-   "url": "https://www.airfranceklm.com/en/newsroom/press-release",
+   "url": "https://news.klm.com/",
    "tier": 1,
    "country": "GLOBAL",
    "category": "airline",
@@ -2275,27 +2252,6 @@
     "midday"
    ],
    "why": "Openings and appointments across the continent.",
-   "frag": ""
-  },
-  {
-   "id": "dev-costar",
-   "name": "CoStar / STR hospitality news",
-   "url": "https://www.costar.com/news",
-   "tier": 2,
-   "country": "GLOBAL",
-   "category": "research",
-   "method": "html",
-   "cadence_min": 720,
-   "lead_days": 5,
-   "segments": [
-    "city",
-    "bush",
-    "beach"
-   ],
-   "slots": [
-    "evening"
-   ],
-   "why": "Occupancy and ADR benchmarking commentary for African markets.",
    "frag": ""
   },
   {
@@ -2734,7 +2690,7 @@
   {
    "id": "sm-unwto",
    "name": "UN Tourism news & barometer",
-   "url": "https://www.unwto.org/news",
+   "url": "https://www.unwto.org/newsroom",
    "tier": 1,
    "country": "GLOBAL",
    "category": "body",
@@ -2831,27 +2787,6 @@
     "evening"
    ],
    "why": "German market \u2014 top-three for Zanzibar and the northern circuit.",
-   "frag": ""
-  },
-  {
-   "id": "sm-forwardkeys",
-   "name": "ForwardKeys insights",
-   "url": "https://forwardkeys.com/newsroom/",
-   "tier": 2,
-   "country": "GLOBAL",
-   "category": "source-market",
-   "method": "html",
-   "cadence_min": 1440,
-   "lead_days": 7,
-   "segments": [
-    "city",
-    "bush",
-    "beach"
-   ],
-   "slots": [
-    "evening"
-   ],
-   "why": "Forward booking data \u2014 the closest public proxy for pace.",
    "frag": ""
   },
   {
