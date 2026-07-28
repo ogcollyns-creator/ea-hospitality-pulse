@@ -342,27 +342,6 @@
    "frag": ""
   },
   {
-   "id": "ke-kaa-tenders",
-   "name": "KAA tenders",
-   "url": "https://www.kaa.go.ke/corporate/tenders/",
-   "tier": 1,
-   "country": "KE",
-   "category": "tender",
-   "method": "html",
-   "cadence_min": 720,
-   "lead_days": 30,
-   "segments": [
-    "city",
-    "bush",
-    "beach"
-   ],
-   "slots": [
-    "evening"
-   ],
-   "why": "Airport works signal capacity and disruption years ahead.",
-   "frag": ""
-  },
-  {
    "id": "ke-moh",
    "name": "Kenya Ministry of Health",
    "url": "https://www.health.go.ke/",
@@ -1146,7 +1125,7 @@
   {
    "id": "rw-nisr",
    "name": "NISR publications",
-   "url": "https://www.statistics.gov.rw/publications",
+   "url": "https://statistics.gov.rw/statistical-publications",
    "tier": 1,
    "country": "RW",
    "category": "statistics",
@@ -1502,29 +1481,6 @@
    "frag": ""
   },
   {
-   "id": "adv-us-kenya",
-   "name": "US State Dept advisory \u2014 Kenya",
-   "url": "https://travel.state.gov/content/travel/en/traveladvisories/traveladvisories/kenya-travel-advisory.html",
-   "tier": 1,
-   "country": "KE",
-   "category": "advisory",
-   "method": "html",
-   "cadence_min": 60,
-   "lead_days": 1,
-   "segments": [
-    "city",
-    "bush",
-    "beach"
-   ],
-   "slots": [
-    "morning",
-    "midday",
-    "evening"
-   ],
-   "why": "Read the page, not news about it: level, exact geography, stated grounds.",
-   "frag": ""
-  },
-  {
    "id": "adv-uk-kenya",
    "name": "UK FCDO advice \u2014 Kenya",
    "url": "https://www.gov.uk/foreign-travel-advice/kenya",
@@ -1545,29 +1501,6 @@
     "evening"
    ],
    "why": "FCDO wording drives UK operator insurance and tour-operator policy.",
-   "frag": ""
-  },
-  {
-   "id": "adv-us-uganda",
-   "name": "US State Dept advisory \u2014 Uganda",
-   "url": "https://travel.state.gov/content/travel/en/traveladvisories/traveladvisories/uganda-travel-advisory.html",
-   "tier": 1,
-   "country": "UG",
-   "category": "advisory",
-   "method": "html",
-   "cadence_min": 60,
-   "lead_days": 1,
-   "segments": [
-    "city",
-    "bush",
-    "beach"
-   ],
-   "slots": [
-    "morning",
-    "midday",
-    "evening"
-   ],
-   "why": "Read the page, not news about it: level, exact geography, stated grounds.",
    "frag": ""
   },
   {
@@ -1594,29 +1527,6 @@
    "frag": ""
   },
   {
-   "id": "adv-us-tanzania",
-   "name": "US State Dept advisory \u2014 Tanzania",
-   "url": "https://travel.state.gov/content/travel/en/traveladvisories/traveladvisories/tanzania-travel-advisory.html",
-   "tier": 1,
-   "country": "TZ",
-   "category": "advisory",
-   "method": "html",
-   "cadence_min": 60,
-   "lead_days": 1,
-   "segments": [
-    "city",
-    "bush",
-    "beach"
-   ],
-   "slots": [
-    "morning",
-    "midday",
-    "evening"
-   ],
-   "why": "Read the page, not news about it: level, exact geography, stated grounds.",
-   "frag": ""
-  },
-  {
    "id": "adv-uk-tanzania",
    "name": "UK FCDO advice \u2014 Tanzania",
    "url": "https://www.gov.uk/foreign-travel-advice/tanzania",
@@ -1637,29 +1547,6 @@
     "evening"
    ],
    "why": "FCDO wording drives UK operator insurance and tour-operator policy.",
-   "frag": ""
-  },
-  {
-   "id": "adv-us-rwanda",
-   "name": "US State Dept advisory \u2014 Rwanda",
-   "url": "https://travel.state.gov/content/travel/en/traveladvisories/traveladvisories/rwanda-travel-advisory.html",
-   "tier": 1,
-   "country": "RW",
-   "category": "advisory",
-   "method": "html",
-   "cadence_min": 60,
-   "lead_days": 1,
-   "segments": [
-    "city",
-    "bush",
-    "beach"
-   ],
-   "slots": [
-    "morning",
-    "midday",
-    "evening"
-   ],
-   "why": "Read the page, not news about it: level, exact geography, stated grounds.",
    "frag": ""
   },
   {
@@ -2965,6 +2852,29 @@
     "evening"
    ],
    "why": "Forward booking data \u2014 the closest public proxy for pace.",
+   "frag": ""
+  },
+  {
+   "id": "adv-us-ea",
+   "name": "US State Dept travel advisories (EA feed)",
+   "url": "https://travel.state.gov/_res/rss/TAsTWs.xml",
+   "tier": 1,
+   "country": "REG",
+   "category": "advisory",
+   "method": "rss",
+   "cadence_min": 120,
+   "lead_days": 1,
+   "segments": [
+    "city",
+    "bush",
+    "beach"
+   ],
+   "slots": [
+    "morning",
+    "midday",
+    "evening"
+   ],
+   "why": "Official RSS of all US advisories \u2014 read Kenya/Uganda/Tanzania/Rwanda levels and divergence straight from the feed.",
    "frag": ""
   }
  ]

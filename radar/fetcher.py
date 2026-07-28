@@ -9,7 +9,7 @@ Three rules, enforced here rather than left to the caller:
      and no bandwidth — which is what makes polling 137 sources hourly reasonable
      rather than abusive.
 """
-import os, time, gzip, io, socket, ssl, urllib.request, urllib.error
+import os, time, gzip, io, socket, ssl, http.client, urllib.request, urllib.error
 from urllib.parse import urlparse, urljoin
 
 UA = ("EAHospitalityPulse-Radar/1.0 (+https://ogcollyns-creator.github.io/ea-hospitality-pulse; "
@@ -165,8 +165,20 @@ def fetch(db, url, etag=None, last_modified=None, accept=None, check_robots=True
     if last_modified:
         base_headers["If-Modified-Since"] = last_modified
 
-    def attempt(ua, context, timeout):
+    def attempt(ua, context, timeout, full_browser=False):
         headers = dict(base_headers, **{"User-Agent": ua})
+        if full_browser:
+            # A bare browser UA rarely defeats a CDN bot wall on its own; the
+            # request also has to *look* like a navigation. These are the headers
+            # a real Chrome sends on a top-level GET. Applied only on the retry.
+            headers.update({
+                "Accept": "text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,*/*;q=0.8",
+                "Sec-Fetch-Dest": "document", "Sec-Fetch-Mode": "navigate",
+                "Sec-Fetch-Site": "none", "Sec-Fetch-User": "?1",
+                "Upgrade-Insecure-Requests": "1",
+                "sec-ch-ua": '"Chromium";v="125", "Not.A/Brand";v="24"',
+                "sec-ch-ua-mobile": "?0", "sec-ch-ua-platform": '"Windows"',
+            })
         return _open(url, headers, timeout=timeout, context=context)
 
     # Escalation ladder. Each rung is tried only when the previous one fails in a
@@ -183,7 +195,7 @@ def fetch(db, url, etag=None, last_modified=None, accept=None, check_robots=True
             raise NotModified()
         if e.code in (401, 403):
             try:
-                resp = attempt(BROWSER_UA, None, TIMEOUT)
+                resp = attempt(BROWSER_UA, None, TIMEOUT, full_browser=True)
             except urllib.error.HTTPError as e2:
                 if e2.code == 304:
                     raise NotModified()
@@ -213,6 +225,13 @@ def fetch(db, url, etag=None, last_modified=None, accept=None, check_robots=True
     except (socket.timeout, TimeoutError):
         try:
             resp = attempt(UA, None, TIMEOUT * 2)
+        except Exception as e2:
+            raise FetchError(f"{type(e2).__name__}: {getattr(e2, 'reason', e2)}")
+    except (ConnectionResetError, http.client.RemoteDisconnected) as e:
+        # Some hosts drop the first connection from a new client, then behave.
+        try:
+            time.sleep(1.5)
+            resp = attempt(BROWSER_UA, None, TIMEOUT, full_browser=True)
         except Exception as e2:
             raise FetchError(f"{type(e2).__name__}: {getattr(e2, 'reason', e2)}")
     except Exception as e:

@@ -130,7 +130,7 @@ add("zn-moh","Zanzibar Ministry of Health","https://www.mohz.go.tz/",1,"ZNZ","he
 # ---------------------------------------------------------------- RWANDA
 add("rw-gazette","Rwanda Official Gazette (gazettes.africa)","https://gazettes.africa/gazettes/rw",1,"RW","gazette","html",240,10,
     "Ministerial orders incl. permit and park pricing.",slots=A)
-add("rw-nisr","NISR publications","https://www.statistics.gov.rw/publications",1,"RW","statistics","html",180,2,
+add("rw-nisr","NISR publications","https://statistics.gov.rw/statistical-publications",1,"RW","statistics","html",180,2,
     "CPI and tourism statistics; Rwanda's source-market mix is shifting fast.",slots=A)
 add("rw-bnr","National Bank of Rwanda","https://www.bnr.rw/",1,"RW","central-bank","html",360,3,
     "FX and rate decisions.",slots=A)
