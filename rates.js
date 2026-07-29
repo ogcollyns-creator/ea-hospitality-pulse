@@ -1,5 +1,5 @@
 window.RATE_INDEX = {
- "updated": "2026-07-25 07:41",
+ "updated": "2026-07-29 10:13",
  "convention": {
   "los": 2,
   "lead_days": 30,
@@ -7,7 +7,7 @@ window.RATE_INDEX = {
   "currency": "USD"
  },
  "minN": 3,
- "totalObservations": 0,
+ "totalObservations": 10,
  "basketSize": 40,
  "markets": {
   "nairobi": {
@@ -15,9 +15,27 @@ window.RATE_INDEX = {
    "segment": "city",
    "country": "KE",
    "basketSize": 8,
-   "series": [],
+   "series": [
+    {
+     "week": "2026-W31",
+     "weekStart": "2026-07-27",
+     "median": 206.0,
+     "n": 1,
+     "coverage": 12,
+     "confident": false,
+     "index": null
+    }
+   ],
    "baseline": null,
-   "latest": null,
+   "latest": {
+    "week": "2026-W31",
+    "weekStart": "2026-07-27",
+    "median": 206.0,
+    "n": 1,
+    "coverage": 12,
+    "confident": false,
+    "index": null
+   },
    "wow": null
   },
   "coast": {
@@ -25,9 +43,27 @@ window.RATE_INDEX = {
    "segment": "beach",
    "country": "KE",
    "basketSize": 7,
-   "series": [],
-   "baseline": null,
-   "latest": null,
+   "series": [
+    {
+     "week": "2026-W31",
+     "weekStart": "2026-07-27",
+     "median": 278.0,
+     "n": 3,
+     "coverage": 43,
+     "confident": true,
+     "index": 100.0
+    }
+   ],
+   "baseline": 278.0,
+   "latest": {
+    "week": "2026-W31",
+    "weekStart": "2026-07-27",
+    "median": 278.0,
+    "n": 3,
+    "coverage": 43,
+    "confident": true,
+    "index": 100.0
+   },
    "wow": null
   },
   "zanzibar": {
@@ -35,9 +71,27 @@ window.RATE_INDEX = {
    "segment": "beach",
    "country": "ZNZ",
    "basketSize": 8,
-   "series": [],
+   "series": [
+    {
+     "week": "2026-W31",
+     "weekStart": "2026-07-27",
+     "median": 1160.0,
+     "n": 1,
+     "coverage": 12,
+     "confident": false,
+     "index": null
+    }
+   ],
    "baseline": null,
-   "latest": null,
+   "latest": {
+    "week": "2026-W31",
+    "weekStart": "2026-07-27",
+    "median": 1160.0,
+    "n": 1,
+    "coverage": 12,
+    "confident": false,
+    "index": null
+   },
    "wow": null
   },
   "kigali": {
@@ -65,9 +119,27 @@ window.RATE_INDEX = {
    "segment": "bush",
    "country": "KE/TZ",
    "basketSize": 7,
-   "series": [],
-   "baseline": null,
-   "latest": null,
+   "series": [
+    {
+     "week": "2026-W31",
+     "weekStart": "2026-07-27",
+     "median": 1996.0,
+     "n": 5,
+     "coverage": 71,
+     "confident": true,
+     "index": 100.0
+    }
+   ],
+   "baseline": 1996.0,
+   "latest": {
+    "week": "2026-W31",
+    "weekStart": "2026-07-27",
+    "median": 1996.0,
+    "n": 5,
+    "coverage": 71,
+    "confident": true,
+    "index": 100.0
+   },
    "wow": null
   }
  },
