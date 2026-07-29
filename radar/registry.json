@@ -2938,6 +2938,50 @@
    ],
    "why": "Keeps a running confirmed-case and death count for the DRC/Uganda outbreak — the number European source markets and insurers cite.",
    "frag": ""
+  },
+  {
+   "id": "ke-usembassy-alerts",
+   "name": "US Embassy Nairobi — alerts & messages",
+   "url": "https://ke.usembassy.gov/category/alert/",
+   "tier": 1,
+   "country": "KE",
+   "category": "advisory",
+   "method": "html",
+   "cadence_min": 120,
+   "lead_days": 2,
+   "segments": [
+    "city",
+    "bush",
+    "beach"
+   ],
+   "slots": [
+    "morning",
+    "midday",
+    "evening"
+   ],
+   "why": "Demonstration and security alerts for US citizens post here first — ahead of any revision to the rendered travel.state.gov page, as the 29 Jul 2026 Kenya advisory re-issue showed.",
+   "frag": ""
+  },
+  {
+   "id": "osac-kenya",
+   "name": "OSAC — Kenya reports & advisory notices",
+   "url": "https://www.osac.gov/Country/Kenya/Content",
+   "tier": 1,
+   "country": "KE",
+   "category": "advisory",
+   "method": "html",
+   "cadence_min": 360,
+   "lead_days": 3,
+   "segments": [
+    "city",
+    "bush",
+    "beach"
+   ],
+   "slots": [
+    "midday"
+   ],
+   "why": "OSAC republishes State advisory changes with the operative wording| useful for confirming exactly what moved when travel.state.gov lags its own feed.",
+   "frag": ""
   }
  ]
 }
