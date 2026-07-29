@@ -1,337 +1,309 @@
-# Radar candidates — morning slot
-_Window opens Tue 28 Jul 18:00 EAT · 300 observations in window · 55 headlines deduped against_
+# Radar candidates — midday slot
+_Window opens Wed 29 Jul 07:00 EAT · 161 observations in window · 58 headlines deduped against_
 
 Ranked by first-seen recency, source tier and hospitality relevance. `first seen` is when the radar observed the item, which is the date the recency gate runs on. `published` is what the source claims — where the two disagree, the disagreement is the story.
 
-### 🔴 [159.9] Sudan - Level 4: Do Not Travel
+### 🔴 [140.9] Kenya - Level 2: Exercise Increased Caution
 - **Verdict:** LEAD CANDIDATE — tier-1 shock language
 - **Source:** US State Dept travel advisories (EA feed) · tier 1 · REG · advisory
-- **First seen:** 2026-07-28T20:13+03:00 EAT · **Source date:** — none stated
-- **URL:** https://travel.state.gov/content/travel/en/traveladvisories/traveladvisories/sudan-travel-advisory.html
-- **Shock language:** level 4, do not travel, outbreak
-- **Extract:** There was no change to the advisory level or risk indicators. Advisory summary was updated. Do not travel to Sudan due to risk of unrest, crime, kidnapping, terrorism, landmines, and health risks . Advisory summary The U.S. Embassy in Khartoum suspended its op
-- **Score parts:** tier +40, category +32, lead +1.2, relevance +60, freshness +14.7, undated -6, shock +18
-
-### 🔴 [151.2] Venezuela - Level 3: Reconsider Travel
-- **Verdict:** LEAD CANDIDATE — tier-1 shock language
-- **Source:** US State Dept travel advisories (EA feed) · tier 1 · REG · advisory
-- **First seen:** 2026-07-28T23:09+03:00 EAT · **Source date:** — none stated
-- **URL:** https://travel.state.gov/content/tsg_aem/us/en/home/international-travel/travel-advisories/destination.ven.html
-- **Shock language:** level 3, reconsider travel
-- **Extract:** Reconsider travel to Venezuela due to risk of crime , kidnapping , terrorism , and poor health infrastructure and natural disaster . Some areas have increased risk. Read the entire Travel Advisory. Natural disaster On June 24, 2026, Venezuela experienced a pow
-- **Score parts:** tier +40, category +32, lead +1.2, relevance +48, freshness +18, undated -6, shock +18
-
-### 🔴 [151.2] Nigeria - Level 3: Reconsider Travel
-- **Verdict:** LEAD CANDIDATE — tier-1 shock language
-- **Source:** US State Dept travel advisories (EA feed) · tier 1 · REG · advisory
-- **First seen:** 2026-07-28T23:09+03:00 EAT · **Source date:** — none stated
-- **URL:** https://travel.state.gov/content/tsg_aem/us/en/home/international-travel/travel-advisories/destination.nga.html
-- **Shock language:** level 3, reconsider travel
-- **Extract:** Reconsider travel to Nigeria due to crime, terrorism, unrest, kidnapping , and i nconsistent availability of health care services . Some areas have increased risk. Read the entire Travel Advisory. Crime and Kidnapping Violent crime is common throughout Nigeria
-- **Score parts:** tier +40, category +32, lead +1.2, relevance +48, freshness +18, undated -6, shock +18
-
-### 🔴 [147.9] Lebanon - Level 4: Do Not Travel
-- **Verdict:** LEAD CANDIDATE — tier-1 shock language
-- **Source:** US State Dept travel advisories (EA feed) · tier 1 · REG · advisory
-- **First seen:** 2026-07-28T20:13+03:00 EAT · **Source date:** — none stated
-- **URL:** https://travel.state.gov/content/travel/en/traveladvisories/traveladvisories/lebanon-travel-advisory.html
-- **Shock language:** level 4, do not travel
-- **Extract:** Updated to reflect ordered departure of non-emergency U.S. government personnel and family members of government personnel on February 23. Do Not Travel to Lebanon for any reason due to the risk of crime, terrorism, unrest, kidnapping, landmines, and armed con
-- **Score parts:** tier +40, category +32, lead +1.2, relevance +48, freshness +14.7, undated -6, shock +18
-
-### 🔴 [147.9] Burkina Faso - Level 4: Do Not Travel
-- **Verdict:** LEAD CANDIDATE — tier-1 shock language
-- **Source:** US State Dept travel advisories (EA feed) · tier 1 · REG · advisory
-- **First seen:** 2026-07-28T20:13+03:00 EAT · **Source date:** — none stated
-- **URL:** https://travel.state.gov/content/travel/en/traveladvisories/traveladvisories/burkina-faso-travel-advisory.html
-- **Shock language:** level 4, do not travel
-- **Extract:** There was no change to the advisory level. The “health” risk indicator was added. Advisory summary was updated. Do Not Travel to Burkina Faso for any reason due to crime, kidnapping, terrorism, and health. Advisory summary Do not travel to Burkina Faso for any
-- **Score parts:** tier +40, category +32, lead +1.2, relevance +48, freshness +14.7, undated -6, shock +18
-
-### 🔴 [147.9] Chad - Level 4: Do Not Travel
-- **Verdict:** LEAD CANDIDATE — tier-1 shock language
-- **Source:** US State Dept travel advisories (EA feed) · tier 1 · REG · advisory
-- **First seen:** 2026-07-28T20:13+03:00 EAT · **Source date:** — none stated
-- **URL:** https://travel.state.gov/content/travel/en/traveladvisories/traveladvisories/chad-travel-advisory.html
-- **Shock language:** level 4, do not travel
-- **Extract:** The advisory level was increased to 4. The “health” indicator was added. Advisory summary was updated. Do not travel to Chad for any reason due to risk of crime , terrorism , unrest , inadequate health infrastructure, kidnapping , and landmines . Advisory Summ
-- **Score parts:** tier +40, category +32, lead +1.2, relevance +48, freshness +14.7, undated -6, shock +18
-
-### 🔴 [147.2] Somalia - Level 4: Do Not Travel
-- **Verdict:** LEAD CANDIDATE — tier-1 shock language
-- **Source:** US State Dept travel advisories (EA feed) · tier 1 · REG · advisory
-- **First seen:** 2026-07-28T23:09+03:00 EAT · **Source date:** — none stated
-- **URL:** https://travel.state.gov/content/tsg_aem/us/en/home/international-travel/travel-advisories/destination.som.html
-- **Shock language:** level 4, do not travel
-- **Extract:** Do not travel to Somalia due to risk of crime, kidnapping, terrorism, unrest, health, landmines, systematic mistreatment of women, systematic mistreatment of gay and lesbian individuals, piracy, abuse of residents in rehabilitation centers, and confiscation of
-- **Score parts:** tier +40, category +32, lead +1.2, relevance +44, freshness +18, undated -6, shock +18
-
-### 🔴 [139.2] Turkey - Level 2: Exercise Increased Caution
-- **Verdict:** LEAD CANDIDATE — tier-1 shock language
-- **Source:** US State Dept travel advisories (EA feed) · tier 1 · REG · advisory
-- **First seen:** 2026-07-28T23:09+03:00 EAT · **Source date:** — none stated
-- **URL:** https://travel.state.gov/content/tsg_aem/us/en/home/international-travel/travel-advisories/destination.tur.html
-- **Shock language:** attack
-- **Extract:** Exercise increased caution Exercise increased caution in Türkiye due to terrorism , armed conflict , and arbitrary detentions . Some areas have increased risk. Read the entire Travel Advisory. Exercise caution in crowded public spaces including transportation 
-- **Score parts:** tier +40, category +32, lead +1.2, relevance +36, freshness +18, undated -6, shock +18
-
-### 🔴 [139.2] Mali - Level 4: Do Not Travel
-- **Verdict:** LEAD CANDIDATE — tier-1 shock language
-- **Source:** US State Dept travel advisories (EA feed) · tier 1 · REG · advisory
-- **First seen:** 2026-07-28T23:09+03:00 EAT · **Source date:** — none stated
-- **URL:** https://travel.state.gov/content/tsg_aem/us/en/home/international-travel/travel-advisories/destination.mli.html
-- **Shock language:** level 4, do not travel, attack
-- **Extract:** Do not travel to Mal i for any reason . Due to safety risks, family members cannot join U.S. government employees who work in Mali. Crime Violent crime is common throughout Mali. Crimes include kidnapping, assault, armed robbery, home invasion, and carjacking.
-- **Score parts:** tier +40, category +32, lead +1.2, relevance +36, freshness +18, undated -6, shock +18
-
-### 🔴 [135.9] Jordan - Level 3: Reconsider Travel
-- **Verdict:** LEAD CANDIDATE — tier-1 shock language
-- **Source:** US State Dept travel advisories (EA feed) · tier 1 · REG · advisory
-- **First seen:** 2026-07-28T20:13+03:00 EAT · **Source date:** — none stated
-- **URL:** https://travel.state.gov/content/travel/en/traveladvisories/traveladvisories/jordan-travel-advisory.html
-- **Shock language:** level 3, reconsider travel
-- **Extract:** Updated to reflect the ordered departure of non-emergency U.S. government personnel and family members of government personnel on March 2 and the change to Level 3: Reconsider Travel due to safety risks, and to add the “other” risk indicator. Advisory summary 
-- **Score parts:** tier +40, category +32, lead +1.2, relevance +36, freshness +14.7, undated -6, shock +18
-
-### 🔴 [135.9] Azerbaijan - Level 3: Reconsider Travel
-- **Verdict:** LEAD CANDIDATE — tier-1 shock language
-- **Source:** US State Dept travel advisories (EA feed) · tier 1 · REG · advisory
-- **First seen:** 2026-07-28T20:13+03:00 EAT · **Source date:** — none stated
-- **URL:** https://travel.state.gov/content/travel/en/traveladvisories/traveladvisories/azerbajian-travel-advisory.html
-- **Shock language:** level 3, do not travel, reconsider travel
-- **Extract:** There was no change to the advisory level or risk indicators. Advisory summary and areas of increased risk were updated. Reconsider Travel to Azerbaijan due to terrorism, armed conflict, and risk of landmines. Some areas have increased risk. Read the entire Tr
-- **Score parts:** tier +40, category +32, lead +1.2, relevance +36, freshness +14.7, undated -6, shock +18
-
-### 🔴 [131.9] Burma - Level 4: Do Not Travel
-- **Verdict:** LEAD CANDIDATE — tier-1 shock language
-- **Source:** US State Dept travel advisories (EA feed) · tier 1 · REG · advisory
-- **First seen:** 2026-07-28T20:13+03:00 EAT · **Source date:** — none stated
-- **URL:** https://travel.state.gov/content/travel/en/traveladvisories/traveladvisories/burma-travel-advisory.html
-- **Shock language:** level 4, do not travel
-- **Extract:** There was no change to the advisory level. Advisory summary was updated. Do not travel to Burma for any reason due to armed conflict , unrest , arbitrary enforcement of local laws , poor health infrastructure , landmines and unexploded ordnance , and crime . A
-- **Score parts:** tier +40, category +32, lead +1.2, relevance +32, freshness +14.7, undated -6, shock +18
-
-### 🔴 [131.2] Sweden - Level 2: Exercise Increased Caution
-- **Verdict:** LEAD CANDIDATE — tier-1 shock language
-- **Source:** US State Dept travel advisories (EA feed) · tier 1 · REG · advisory
-- **First seen:** 2026-07-28T23:09+03:00 EAT · **Source date:** — none stated
-- **URL:** https://travel.state.gov/content/tsg_aem/us/en/home/international-travel/travel-advisories/destination.swe.html
-- **Shock language:** attack
-- **Extract:** Exercise increased caution in Sweden due to terrorism . There is risk of terrorist violence, including terrorist attacks and other activity in Sweden. Visit the U.S. Department of State's country reports on terrorism to learn more. Terrorists may attack withou
-- **Score parts:** tier +40, category +32, lead +1.2, relevance +28, freshness +18, undated -6, shock +18
-
-### 🔴 [123.2] Timor-Leste - Level 2: Exercise Increased Caution
-- **Verdict:** LEAD CANDIDATE — tier-1 shock language
-- **Source:** US State Dept travel advisories (EA feed) · tier 1 · REG · advisory
-- **First seen:** 2026-07-28T23:09+03:00 EAT · **Source date:** — none stated
-- **URL:** https://travel.state.gov/content/tsg_aem/us/en/home/international-travel/travel-advisories/destination.tls.html
-- **Shock language:** attack
-- **Extract:** Exercise increased caution in Timor-Leste due to risk of unrest and crime . Read the entire Travel Advisory. Police in Timor-Leste sometimes use force and tear gas against protestors. Stone throwing attacks on vehicles can occur during gang conflicts and perio
-- **Score parts:** tier +40, category +32, lead +1.2, relevance +20, freshness +18, undated -6, shock +18
-
-### 🟠 [121.2] Cameroon - Level 2: Exercise Increased Caution
-- **Verdict:** STRONG — tier-1, upstream
-- **Source:** US State Dept travel advisories (EA feed) · tier 1 · REG · advisory
-- **First seen:** 2026-07-28T23:09+03:00 EAT · **Source date:** — none stated
-- **URL:** https://travel.state.gov/content/tsg_aem/us/en/home/international-travel/travel-advisories/destination.cmr.html
-- **Extract:** Exercise increased caution in Cameroon due to risk of crime , terrorism , unrest , health , kidnapping , and improvised explosive devices (IEDs). Some areas have increased risk. Read the entire Travel Advisory. Crime Violent crime, kidnapping for ransom, armed
-- **Score parts:** tier +40, category +32, lead +1.2, relevance +36, freshness +18, undated -6
-
-### 🔴 [119.9] Bolivia - Level 2: Exercise Increased Caution
-- **Verdict:** LEAD CANDIDATE — tier-1 shock language
-- **Source:** US State Dept travel advisories (EA feed) · tier 1 · REG · advisory
-- **First seen:** 2026-07-28T20:13+03:00 EAT · **Source date:** — none stated
-- **URL:** https://travel.state.gov/content/travel/en/traveladvisories/traveladvisories/bolivia-travel-advisory.html
+- **First seen:** 2026-07-29T11:04+03:00 EAT · **Source date:** — none stated
+- **URL:** https://travel.state.gov/content/travel/en/traveladvisories/traveladvisories/kenya-travel-advisory.html
 - **Shock language:** do not travel
-- **Extract:** There was no change to the advisory level or risk indicators. Advisory summary was updated. Exercise increased caution in Bolivia due to crime and civil unrest . Some areas have increased risk. Read the entire Travel Advisory. Do Not Travel to Chapare Province
-- **Score parts:** tier +40, category +32, lead +1.2, relevance +20, freshness +14.7, undated -6, shock +18
+- **Extract:** There was no change to the advisory level. The “other” risk indicator was added. Advisory summary was updated. Increased Risk Areas: Do Not Travel to the Nairobi neighborhoods of Eastleigh and Kibera due to risk of crime and kidnapping . Do Not Travel to the c
+- **Score parts:** tier +40, category +32, lead +1.2, relevance +36, freshness +19.7, undated -6, shock +18
 
-### 🟡 [110.1] [page changed] ProMED-mail
-- **Verdict:** CONSIDER
-- **Source:** ProMED-mail · tier 2 · GLOBAL · health
-- **First seen:** 2026-07-29T00:46+03:00 EAT · **Source date:** — none stated
-- **URL:** https://promedmail.org/
+### 🔴 [124.9] Laos - Level 2: Exercise Increased Caution
+- **Verdict:** LEAD CANDIDATE — tier-1 shock language
+- **Source:** US State Dept travel advisories (EA feed) · tier 1 · REG · advisory
+- **First seen:** 2026-07-29T11:04+03:00 EAT · **Source date:** — none stated
+- **URL:** https://travel.state.gov/content/travel/en/traveladvisories/traveladvisories/laos-travel-advisory.html
+- **Shock language:** reconsider travel
+- **Extract:** There were no changes to the advisory level or risk indicators. Advisory summary updated. Increased Risk Areas: Reconsider Travel to Xaisomboun Province due to civil unrest Exercise Increased Caution in areas on the Border with Burma, Savannakhet, Xieng Khouan
+- **Score parts:** tier +40, category +32, lead +1.2, relevance +20, freshness +19.7, undated -6, shock +18
+
+### 🔴 [122.1] Threat assessment brief – Ebola disease outbreak caused by Bundibugyo virus – Democratic Republic of the Congo and Ugand
+- **Verdict:** LEAD CANDIDATE — tier-1 shock language
+- **Source:** ECDC — DRC/Uganda Ebola outbreak page · tier 1 · GLOBAL · health
+- **First seen:** 2026-07-29T11:04+03:00 EAT · **Source date:** — none stated
+- **URL:** https://www.ecdc.europa.eu/en/publications-data/threat-assessment-brief-ebola-disease-outbreak-caused-bundibugyo-virus-democratic
 - **Shock language:** outbreak
-- **Extract:** Protecting Global Health, One Alert at a Time | ProMED Previous slide Next slide Protecting Global Health, One Alert at a Time ProMED: Your 24/7 early warning system for emerging infectious diseases worldwide. Subscribe ProMED's Weekly Pulse A snapshot of glob
-- **Score parts:** tier +20, category +24, lead +2.4, relevance +36, freshness +19.7, undated -6, shock +18, page_change -4
+- **Score parts:** tier +40, category +24, lead +2.4, relevance +24, freshness +19.7, undated -6, shock +18
 
-### 🟠 [109.5] here
-- **Verdict:** STRONG — tier-1, upstream
-- **Source:** CDC port health — s.362 Ebola entry orders · tier 1 · REG · advisory
-- **First seen:** 2026-07-28T20:13+03:00 EAT · **Source date:** — none stated
-- **URL:** https://www.cdc.gov/port-health/media/pdfs/Ebola522.pdf
-- **Extract:** 1 U.S. DEPARTMENT OF HEALTH AND HUMAN SERVICES CENTERS FOR DISEASE CONTROL AND PREVENTION (CDC) AMENDED ORDER UNDER SECTIONS 362 & 365 OF THE PUBLIC HEALTH SERVICE ACT (42 U.S.C. 265, 268) and 42 CFR 71.40 ORDER SUSPENDING THE RIGHT TO INTRODUCE CERTAIN PERSON
-- **Score parts:** tier +40, category +32, lead +16.8, relevance +12, freshness +14.7, undated -6
+### 🔴 [122.1] Public health preparedness for Ebola disease outbreak 2026
+- **Verdict:** LEAD CANDIDATE — tier-1 shock language
+- **Source:** ECDC — DRC/Uganda Ebola outbreak page · tier 1 · GLOBAL · health
+- **First seen:** 2026-07-29T11:04+03:00 EAT · **Source date:** — none stated
+- **URL:** https://www.ecdc.europa.eu/en/topics-z/ebola-disease/surveillance-and-updates/ebola-outbreak-democratic-republic-congo-and-1
+- **Shock language:** outbreak
+- **Score parts:** tier +40, category +24, lead +2.4, relevance +24, freshness +19.7, undated -6, shock +18
 
-### 🟠 [109.2] Indonesia - Level 2: Exercise Increased Caution
-- **Verdict:** STRONG — tier-1, upstream
-- **Source:** US State Dept travel advisories (EA feed) · tier 1 · REG · advisory
-- **First seen:** 2026-07-28T23:09+03:00 EAT · **Source date:** — none stated
-- **URL:** https://travel.state.gov/content/tsg_aem/us/en/home/international-travel/travel-advisories/destination.idn.html
-- **Extract:** Exercise increased caution in Indonesia due to risk of natural disasters , unrest , and terrorism . Some areas have increased risk. Read the entire Travel Advisory. Unrest Demonstrations occur frequently in Indonesia, and they are a normal part of the politica
-- **Score parts:** tier +40, category +32, lead +1.2, relevance +24, freshness +18, undated -6
+### 🔴 [122.1] Ebola outbreak in DRC and Uganda - ECDC scales up support on the ground
+- **Verdict:** LEAD CANDIDATE — tier-1 shock language
+- **Source:** ECDC — DRC/Uganda Ebola outbreak page · tier 1 · GLOBAL · health
+- **First seen:** 2026-07-29T11:04+03:00 EAT · **Source date:** — none stated
+- **URL:** https://www.ecdc.europa.eu/en/news-events/ebola-outbreak-drc-and-uganda-ecdc-scales-support-ground
+- **Shock language:** outbreak
+- **Score parts:** tier +40, category +24, lead +2.4, relevance +24, freshness +19.7, undated -6, shock +18
 
-### 🟠 [109.2] Tunisia - Level 2: Exercise Increased Caution
-- **Verdict:** STRONG — tier-1, upstream
-- **Source:** US State Dept travel advisories (EA feed) · tier 1 · REG · advisory
-- **First seen:** 2026-07-28T23:09+03:00 EAT · **Source date:** — none stated
-- **URL:** https://travel.state.gov/content/tsg_aem/us/en/home/international-travel/travel-advisories/destination.tun.html
-- **Extract:** Exercise increased caution in Tunisia due to terrorism , crime , and unrest . Some areas have increased risk. Read the entire Travel Advisory. U.S. government employee travel restrictions U.S. government employees working in Tunisia are not allowed to travel t
-- **Score parts:** tier +40, category +32, lead +1.2, relevance +24, freshness +18, undated -6
+### 🔴 [122.1] Ebola disease outbreak in the Democratic Republic of the Congo and Uganda
+- **Verdict:** LEAD CANDIDATE — tier-1 shock language
+- **Source:** ECDC — DRC/Uganda Ebola outbreak page · tier 1 · GLOBAL · health
+- **First seen:** 2026-07-29T11:04+03:00 EAT · **Source date:** — none stated
+- **URL:** https://www.ecdc.europa.eu/en/ebola-outbreak-democratic-republic-congo-and-uganda
+- **Shock language:** outbreak
+- **Score parts:** tier +40, category +24, lead +2.4, relevance +24, freshness +19.7, undated -6, shock +18
 
-### 🟡 [108.1] Qanot Sharq Suspends London Gatwick in Oct 2026
+### 🔴 [122.1] Questions and answers about the current outbreak of Ebola disease
+- **Verdict:** LEAD CANDIDATE — tier-1 shock language
+- **Source:** ECDC — DRC/Uganda Ebola outbreak page · tier 1 · GLOBAL · health
+- **First seen:** 2026-07-29T11:04+03:00 EAT · **Source date:** — none stated
+- **URL:** https://www.ecdc.europa.eu/en/topics-z/ebola-disease/surveillance-and-updates/ebola-outbreak-democratic-republic-congo-and-uganda
+- **Shock language:** outbreak
+- **Score parts:** tier +40, category +24, lead +2.4, relevance +24, freshness +19.7, undated -6, shock +18
+
+### 🔴 [122.1] Communication materials for the 2026 Ebola disease outbreak
+- **Verdict:** LEAD CANDIDATE — tier-1 shock language
+- **Source:** ECDC — DRC/Uganda Ebola outbreak page · tier 1 · GLOBAL · health
+- **First seen:** 2026-07-29T11:04+03:00 EAT · **Source date:** — none stated
+- **URL:** https://www.ecdc.europa.eu/en/ebola-disease/surveillance-and-updates/outbreak-drc-uganda/communication-tools
+- **Shock language:** outbreak
+- **Score parts:** tier +40, category +24, lead +2.4, relevance +24, freshness +19.7, undated -6, shock +18
+
+### 🟡 [120.9] Government Launches Monthly National Cleaning Days to Boost Public Health
+- **Verdict:** CHECK — source date older than the window
+- **Source:** Uganda Ministry of Health — news · tier 1 · UG · health
+- **First seen:** 2026-07-29T11:04+03:00 EAT · **Source date:** 2026-07-23
+- **URL:** https://health.go.ug/government-launches-monthly-national-cleaning-days-to-boost-public-health
+- **Shock language:** outbreak
+- **Extract:** 23rd July 2026 ,Kampala –The Government of Uganda has announced the rollout of a Nationwide Cleaning Days Programme, a monthly initiative aimed at improving sanitation, preventing disease outbreaks, and promoting environmental conservation across the country. 
+- **Score parts:** tier +40, category +24, lead +1.2, relevance +28, freshness +19.7, stale_trap -10, shock +18
+
+### 🔴 [110.1] Andes hantavirus outbreak in cruise ship
+- **Verdict:** LEAD CANDIDATE — tier-1 shock language
+- **Source:** ECDC — DRC/Uganda Ebola outbreak page · tier 1 · GLOBAL · health
+- **First seen:** 2026-07-29T11:04+03:00 EAT · **Source date:** — none stated
+- **URL:** https://www.ecdc.europa.eu/en/infectious-disease-topics/hantavirus-infection/surveillance-and-updates/andes-hantavirus-outbreak
+- **Shock language:** outbreak
+- **Score parts:** tier +40, category +24, lead +2.4, relevance +12, freshness +19.7, undated -6, shock +18
+
+### 🔴 [110.1] Surveillance and outbreak tools
+- **Verdict:** LEAD CANDIDATE — tier-1 shock language
+- **Source:** ECDC — DRC/Uganda Ebola outbreak page · tier 1 · GLOBAL · health
+- **First seen:** 2026-07-29T11:04+03:00 EAT · **Source date:** — none stated
+- **URL:** https://www.ecdc.europa.eu/en/tools/outbreak-surveillance-tools
+- **Shock language:** outbreak
+- **Score parts:** tier +40, category +24, lead +2.4, relevance +12, freshness +19.7, undated -6, shock +18
+
+### 🟡 [108.1] LATAM Chile Cancels Santiago – Neuquen Route in NW26
 - **Verdict:** CONSIDER
 - **Source:** AeroRoutes schedule filings · tier 2 · GLOBAL · aviation-tracker
-- **First seen:** 2026-07-29T00:46+03:00 EAT · **Source date:** 2026-07-28
-- **URL:** https://www.aeroroutes.com/eng/260728-hhoct26lgw
-- **Extract:** Published at 1300PDT / 2000GMT 28JUL26 Uzbekistan’s Qanot Sharq during the month of October 2026 suspends service on Tashkent – London Gatwick route, as service is not available for reservations while schedule being removed, for the period of 01OCT26 – 24OCT26
+- **First seen:** 2026-07-29T11:04+03:00 EAT · **Source date:** 2026-07-29
+- **URL:** https://www.aeroroutes.com/eng/260728-lanw26nqn
+- **Extract:** Published at 2000PDT 28JUL26 / 0300GMT 29JUL26 LATAM Chile at the launch of Northern winter 2026/27 season is cancelling service on Santiago de Chile – Neuquen route, as the airline closed reservations for flights on/after 25OCT26. The carrier previously liste
 - **Score parts:** tier +20, category +14, lead +8.4, relevance +36, freshness +19.7, corroborated +10
 
-### 🟠 [105.2] Norway - Level 1: Exercise Normal Precautions
+### 🟠 [106.9] The Bahamas - Level 2: Exercise Increased Caution
 - **Verdict:** STRONG — tier-1, upstream
 - **Source:** US State Dept travel advisories (EA feed) · tier 1 · REG · advisory
-- **First seen:** 2026-07-28T23:09+03:00 EAT · **Source date:** — none stated
-- **URL:** https://travel.state.gov/content/tsg_aem/us/en/home/international-travel/travel-advisories/destination.nor.html
-- **Extract:** Exercise normal precaution in Norway . Norway is generally a safe destination for travelers. Be aware of landslides and avalanches. Norway’s steep mountains make these common. Heavy summer rain or winter snow accumulation can cause them. A special kind of clay
-- **Score parts:** tier +40, category +32, lead +1.2, relevance +20, freshness +18, undated -6
+- **First seen:** 2026-07-29T11:04+03:00 EAT · **Source date:** — none stated
+- **URL:** https://travel.state.gov/content/travel/en/traveladvisories/traveladvisories/the-bahamas-travel-advisory.html
+- **Extract:** There are no changes to the advisory level or risk indicators. Advisory summary was updated. Exercise increased caution in The Bahamas due to crime . Advisory summary Crime Violent crime, including armed robberies, burglaries, and sexual assaults, can occur an
+- **Score parts:** tier +40, category +32, lead +1.2, relevance +20, freshness +19.7, undated -6
 
-### 🟠 [101.2] Moldova - Level 2: Exercise Increased Caution
+### 🟠 [98.9] Uruguay - Level 2: Exercise Increased Caution
 - **Verdict:** STRONG — tier-1, upstream
 - **Source:** US State Dept travel advisories (EA feed) · tier 1 · REG · advisory
-- **First seen:** 2026-07-28T23:09+03:00 EAT · **Source date:** — none stated
-- **URL:** https://travel.state.gov/content/tsg_aem/us/en/home/international-travel/travel-advisories/destination.mda.html
-- **Extract:** Exercise increased caution in Moldova due to risk of unexploded ordnance (UXO) . Some areas have increased risk. Read the entire travel advisory. There are ongoing security threats related to Russia’s war against Ukraine. Petty crime such as purse snatching an
-- **Score parts:** tier +40, category +32, lead +1.2, relevance +16, freshness +18, undated -6
+- **First seen:** 2026-07-29T11:04+03:00 EAT · **Source date:** — none stated
+- **URL:** https://travel.state.gov/content/travel/en/traveladvisories/traveladvisories/uruguay-travel-advisory.html
+- **Extract:** There were no changes to the advisory level or risk indicators. Advisory summary was updated. Exercise increased caution in Uruguay due to crime . Advisory summary Crime is most common in these departments: Montevideo Canelones Maldonado Rivera Violent crime o
+- **Score parts:** tier +40, category +32, lead +1.2, relevance +12, freshness +19.7, undated -6
 
-### 🟠 [97.9] Iceland - Level 1: Exercise Normal Precautions
+### 🟠 [96.5] Wednesday, 29th July, 2026 at 2.30pm
 - **Verdict:** STRONG — tier-1, upstream
-- **Source:** US State Dept travel advisories (EA feed) · tier 1 · REG · advisory
-- **First seen:** 2026-07-28T20:13+03:00 EAT · **Source date:** — none stated
-- **URL:** https://travel.state.gov/content/travel/en/traveladvisories/traveladvisories/iceland-travel-advisory.html
-- **Extract:** There were no changes to the advisory level or risk indicators. Advisory summary was updated. Exercise normal precautions in Iceland . Advisory Summary Iceland is generally a safe destination for travelers. Iceland regularly experiences quickly changing weathe
-- **Score parts:** tier +40, category +32, lead +1.2, relevance +16, freshness +14.7, undated -6
+- **Source:** Parliament of Kenya — bills & papers · tier 1 · KE · legislature
+- **First seen:** 2026-07-29T11:03+03:00 EAT · **Source date:** 2026-07-29
+- **URL:** https://www.parliament.go.ke/sites/default/files/2026-07/ORDER%20PAPER%20FOR%20WEDNESDAY%2C%2029TH%20JULY%202026%20-%20AFTERNOON%20SITTING.pdf
+- **Extract:** en-USThirteenth Parliament Fifth Session en-USAfternoon Sitting en-US(No. 65) (2019) en-US en-US en-USREPUBLIC OF KENYA en-US en-USTHIRTEENTH PARLIAMENT (FIFTH SESSION) en-US en-USTHE NATIONAL ASSEMBLY en-US en-USORDERS OF THE DAY en-US en-US en-USWEDNESDAY, J
+- **Score parts:** tier +40, category +10, lead +16.8, relevance +0, freshness +19.7, corroborated +10
 
-### 🟠 [97.5] National Center for Emerging and Zoonotic Infectious Diseases (NCEZID)
+### 🟠 [92.1] As first imported Ebola case is recorded in Europe, ECDC calls on EU Member States to continue investing in preparedness
 - **Verdict:** STRONG — tier-1, upstream
-- **Source:** CDC port health — s.362 Ebola entry orders · tier 1 · REG · advisory
-- **First seen:** 2026-07-28T20:13+03:00 EAT · **Source date:** — none stated
-- **URL:** https://www.cdc.gov/ncezid/index.html
-- **Score parts:** tier +40, category +32, lead +16.8, relevance +0, freshness +14.7, undated -6
+- **Source:** ECDC — DRC/Uganda Ebola outbreak page · tier 1 · GLOBAL · health
+- **First seen:** 2026-07-29T11:04+03:00 EAT · **Source date:** — none stated
+- **URL:** https://www.ecdc.europa.eu/en/news-events/first-imported-ebola-case-recorded-europe-ecdc-calls-eu-member-states-continue
+- **Score parts:** tier +40, category +24, lead +2.4, relevance +12, freshness +19.7, undated -6
 
-### 🟠 [97.5] Travel Restrictions to Prevent the Spread of Contagious Diseases
+### 🟠 [92.1] ECDC publishes practical guidance to improve Ebola preparedness
 - **Verdict:** STRONG — tier-1, upstream
-- **Source:** CDC port health — s.362 Ebola entry orders · tier 1 · REG · advisory
-- **First seen:** 2026-07-28T20:13+03:00 EAT · **Source date:** — none stated
-- **URL:** https://www.cdc.gov/port-health/travel-restrictions/index.html
-- **Score parts:** tier +40, category +32, lead +16.8, relevance +0, freshness +14.7, undated -6
+- **Source:** ECDC — DRC/Uganda Ebola outbreak page · tier 1 · GLOBAL · health
+- **First seen:** 2026-07-29T11:04+03:00 EAT · **Source date:** — none stated
+- **URL:** https://www.ecdc.europa.eu/en/news-events/ecdc-publishes-practical-guidance-improve-ebola-preparedness
+- **Score parts:** tier +40, category +24, lead +2.4, relevance +12, freshness +19.7, undated -6
 
-### 🟠 [97.5] Definitions of Signs, Symptoms, and Conditions of Ill Travelers
+### 🟠 [92.1] Ebola disease awareness: What you need to know
 - **Verdict:** STRONG — tier-1, upstream
-- **Source:** CDC port health — s.362 Ebola entry orders · tier 1 · REG · advisory
-- **First seen:** 2026-07-28T20:13+03:00 EAT · **Source date:** — none stated
-- **URL:** https://www.cdc.gov/port-health/php/definitions-symptoms-reportable-illness/index.html
-- **Score parts:** tier +40, category +32, lead +16.8, relevance +0, freshness +14.7, undated -6
+- **Source:** ECDC — DRC/Uganda Ebola outbreak page · tier 1 · GLOBAL · health
+- **First seen:** 2026-07-29T11:04+03:00 EAT · **Source date:** — none stated
+- **URL:** https://www.ecdc.europa.eu/en/publications-data/ebola-disease-awareness-what-you-need-know
+- **Score parts:** tier +40, category +24, lead +2.4, relevance +12, freshness +19.7, undated -6
 
-### 🟠 [97.5] here
+### 🟠 [92.1] Ebola disease 2026 - Ebola disease and healthcare settings (Patient Management Pathway)
 - **Verdict:** STRONG — tier-1, upstream
-- **Source:** CDC port health — s.362 Ebola entry orders · tier 1 · REG · advisory
-- **First seen:** 2026-07-28T20:13+03:00 EAT · **Source date:** — none stated
-- **URL:** https://www.cdc.gov/port-health/media/pdfs/2026/06/Title42Order_21June26_final.pdf
-- **Extract:** 1 U.S. DEPARTMENT OF HEALTH AND HUMAN SERVICES CENTERS FOR DISEASE CONTROL AND PREVENTION (CDC) ORDER UNDER SECTIONS 362 & 365 OF THE PUBLIC HEALTH SERVICE ACT (42 U.S.C. 265, 268) and 42 C.F.R. 71.40 CONTINUING THE SUSPENSION OF THE RIGHT TO INTRODUCE CERTAIN
-- **Score parts:** tier +40, category +32, lead +16.8, relevance +0, freshness +14.7, undated -6
+- **Source:** ECDC — DRC/Uganda Ebola outbreak page · tier 1 · GLOBAL · health
+- **First seen:** 2026-07-29T11:04+03:00 EAT · **Source date:** — none stated
+- **URL:** https://www.ecdc.europa.eu/en/publications-data/ebola-disease-2026-ebola-disease-and-healthcare-settings-patient-management
+- **Score parts:** tier +40, category +24, lead +2.4, relevance +12, freshness +19.7, undated -6
 
-### 🟠 [97.5] here
+### 🟠 [92.1] Ebola disease 2026 - Ebola disease and healthcare settings
 - **Verdict:** STRONG — tier-1, upstream
-- **Source:** CDC port health — s.362 Ebola entry orders · tier 1 · REG · advisory
-- **First seen:** 2026-07-28T20:13+03:00 EAT · **Source date:** — none stated
-- **URL:** https://www.cdc.gov/port-health/media/pdfs/2026/07/July-T42-Order.13July2026-945am-Signed.pdf
-- **Extract:** 1 U.S. DEPARTMENT OF HEALTH AND HUMAN SERVICES CENTERS FOR DISEASE CONTROL AND PREVENTION (CDC) ORDER UNDER SECTIONS 362 & 365 OF THE PUBLIC HEALTH SERVICE ACT (42 U.S.C. 265, 268) and 42 C.F.R. 71.40 CONTINUING THE SUSPENSION OF THE RIGHT TO INTRODUCE CERTAIN
-- **Score parts:** tier +40, category +32, lead +16.8, relevance +0, freshness +14.7, undated -6
+- **Source:** ECDC — DRC/Uganda Ebola outbreak page · tier 1 · GLOBAL · health
+- **First seen:** 2026-07-29T11:04+03:00 EAT · **Source date:** — none stated
+- **URL:** https://www.ecdc.europa.eu/en/publications-data/ebola-disease-2026-ebola-disease-and-healthcare-settings
+- **Score parts:** tier +40, category +24, lead +2.4, relevance +12, freshness +19.7, undated -6
 
-### 🟠 [97.2] Ghana - Level 2: Exercise Increased Caution
+### 🟠 [92.1] Ebola disease interim case definition for reporting in the EU/EEA
 - **Verdict:** STRONG — tier-1, upstream
-- **Source:** US State Dept travel advisories (EA feed) · tier 1 · REG · advisory
-- **First seen:** 2026-07-28T23:09+03:00 EAT · **Source date:** — none stated
-- **URL:** https://travel.state.gov/content/tsg_aem/us/en/home/international-travel/travel-advisories/destination.gha.html
-- **Extract:** Exercise increased caution when traveling to Ghana due to crime, poor health infrastructure, violence against women, and violence against lesbian and gay travelers . Some areas have increased risk. Read the entire Travel Advisory. Crime Violent crime, such as 
-- **Score parts:** tier +40, category +32, lead +1.2, relevance +12, freshness +18, undated -6
+- **Source:** ECDC — DRC/Uganda Ebola outbreak page · tier 1 · GLOBAL · health
+- **First seen:** 2026-07-29T11:04+03:00 EAT · **Source date:** — none stated
+- **URL:** https://www.ecdc.europa.eu/en/ebola-disease-interim-case-definition-reporting-eueea
+- **Score parts:** tier +40, category +24, lead +2.4, relevance +12, freshness +19.7, undated -6
 
-### 🟠 [97.2] Vietnam - Level 1: Exercise Normal Precautions
-- **Verdict:** STRONG — tier-1, upstream
-- **Source:** US State Dept travel advisories (EA feed) · tier 1 · REG · advisory
-- **First seen:** 2026-07-28T23:09+03:00 EAT · **Source date:** — none stated
-- **URL:** https://travel.state.gov/content/tsg_aem/us/en/home/international-travel/travel-advisories/destination.vnm.html
-- **Extract:** Exercise normal precaution in Vietnam . Vietnam is generally a safe destination for travelers. Petty crime is common, especially in popular tourist locations. Stay aware of your surroundings. Landmines and unexploded ordnance exist in Vietnam. Areas of greates
-- **Score parts:** tier +40, category +32, lead +1.2, relevance +12, freshness +18, undated -6
+### 🟡 [88.1] Democratic Republic of the Congo (DRC) reported
+- **Verdict:** CONSIDER
+- **Source:** ECDC — DRC/Uganda Ebola outbreak page · tier 1 · GLOBAL · health
+- **First seen:** 2026-07-29T11:04+03:00 EAT · **Source date:** — none stated
+- **URL:** https://insp.cd/wp-content/uploads/2026/07/SitRep_MVE_RDC_N%C2%B0_73_26-07-2026.pdf
+- **Extract:** 1 fr-FR fr-FR fr-FR fr-FR fr-FR fr-FR fr-FRINDICATEURS CLES CUMUL AU 26 JUILLET 2026 fr-FR fr-FRCAS CONFIRMES 5 PROVINCES fr-FR3 262 fr-FR+62 nouveaux cas (Ituri 53 · N-Kivu 8 Haut-Uele 1) fr-FR fr-FRDECES CONFIRMES · LETALITE fr-FR1 437* · (44,1%) fr-FR+32 dé
+- **Score parts:** tier +40, category +24, lead +2.4, relevance +8, freshness +19.7, undated -6
 
-### 🟠 [97.2] Jamaica - Level 2: Exercise Increased Caution
-- **Verdict:** STRONG — tier-1, upstream
-- **Source:** US State Dept travel advisories (EA feed) · tier 1 · REG · advisory
-- **First seen:** 2026-07-28T23:09+03:00 EAT · **Source date:** — none stated
-- **URL:** https://travel.state.gov/content/tsg_aem/us/en/home/international-travel/travel-advisories/destination.jam.html
-- **Extract:** Exercise increased caution in Jamaica due to crime and health risks . Some areas have increased risk. Read the entire Travel Advisory. U.S. government employee travel restrictions U.S. government employees working in Jamaica are not allowed to use public buses
-- **Score parts:** tier +40, category +32, lead +1.2, relevance +12, freshness +18, undated -6
+### 🟡 [86.5] [page changed] Visit Rwanda news
+- **Verdict:** CONSIDER
+- **Source:** Visit Rwanda news · tier 1 · RW · dmo
+- **First seen:** 2026-07-29T11:04+03:00 EAT · **Source date:** — none stated
+- **URL:** https://www.visitrwanda.com/
+- **Extract:** Visit Rwanda – Discover the Land of a Thousand Hills Tourism Investment Meet in Rwanda Practical Information Media Book A Trip Sports Sponsorships Travel Offers 21°C Tourism Known as the land of a thousand hills, Rwanda’s stunning scenery and warm, friendly pe
+- **Score parts:** tier +40, category +8, lead +4.8, relevance +24, freshness +19.7, undated -6, page_change -4
 
-### 🟠 [97.2] Chile - Level 2: Exercise Increased Caution
-- **Verdict:** STRONG — tier-1, upstream
-- **Source:** US State Dept travel advisories (EA feed) · tier 1 · REG · advisory
-- **First seen:** 2026-07-28T23:09+03:00 EAT · **Source date:** — none stated
-- **URL:** https://travel.state.gov/content/tsg_aem/us/en/home/international-travel/travel-advisories/destination.chl.html
-- **Extract:** Exercise increased caution in Chile due to crime and civil unrest . Street crime (e.g., muggings, pick-pocketing, theft) is common in Chile. Rates of violent crime, such as assaults, homicide, carjackings, and residential break-ins, are increasing. Large-scale
-- **Score parts:** tier +40, category +32, lead +1.2, relevance +12, freshness +18, undated -6
+### 🟡 [86.3] H1 2026 Hungarian Hospitality Market: Strong Fundamentals Continue to Support Growth
+- **Verdict:** CONSIDER
+- **Source:** Hospitality Net — Africa announcements · tier 2 · REG · trade
+- **First seen:** 2026-07-29T11:04+03:00 EAT · **Source date:** 2026-07-29
+- **URL:** https://www.hospitalitynet.org/opinion/4133696/h1-2026-hungarian-hospitality-market-strong-fundamentals-continue-to-support-growth
+- **Extract:** Budapest led CEE-6 capitals in occupancy in H1 2026 with RevPAR near €90 (up 15% YoY), but rate growth lags peers, GOP growth is uneven, and investment activity is picking up post-elections.
+- **Score parts:** tier +20, category +5, lead +3.6, relevance +28, freshness +19.7, corroborated +10
 
-### 🟠 [93.9] Croatia - Level 1: Exercise Normal Precautions
-- **Verdict:** STRONG — tier-1, upstream
-- **Source:** US State Dept travel advisories (EA feed) · tier 1 · REG · advisory
-- **First seen:** 2026-07-28T20:13+03:00 EAT · **Source date:** — none stated
-- **URL:** https://travel.state.gov/content/travel/en/traveladvisories/traveladvisories/croatia-travel-advisory.html
-- **Extract:** There was no change to the advisory level. An area of increased risk was removed. Advisory summary was updated. Advisory Summary Croatia is generally a safe destination for travelers. Review our Travel Guidance for Croatia to learn how to prepare for a safe tr
-- **Score parts:** tier +40, category +32, lead +1.2, relevance +12, freshness +14.7, undated -6
-
-### 🟠 [93.9] Brunei - Level 1: Exercise Normal Precautions
-- **Verdict:** STRONG — tier-1, upstream
-- **Source:** US State Dept travel advisories (EA feed) · tier 1 · REG · advisory
-- **First seen:** 2026-07-28T20:13+03:00 EAT · **Source date:** — none stated
-- **URL:** https://travel.state.gov/content/travel/en/traveladvisories/traveladvisories/brunei-travel-advisory.html
-- **Extract:** There were no changes to the advisory level or risk indicators. Advisory summary was updated. Advisory summary Brunei is generally a safe destination for travelers. Basic emergency medical care is available throughout Brunei. However, response times may be lim
-- **Score parts:** tier +40, category +32, lead +1.2, relevance +12, freshness +14.7, undated -6
-
-### 🟠 [93.9] New Zealand - Level 1: Exercise Normal Precautions
-- **Verdict:** STRONG — tier-1, upstream
-- **Source:** US State Dept travel advisories (EA feed) · tier 1 · REG · advisory
-- **First seen:** 2026-07-28T20:13+03:00 EAT · **Source date:** — none stated
-- **URL:** https://travel.state.gov/content/travel/en/traveladvisories/traveladvisories/new-zealand-travel-advisory.html
-- **Extract:** There were no changes to the advisory level or risk indicators. Advisory summary was updated. Exercise normal precautions in New Zealand . New Zealand is generally a safe destination for travelers. Review our country information page for additional information
-- **Score parts:** tier +40, category +32, lead +1.2, relevance +12, freshness +14.7, undated -6
-
-### 🟠 [93.2] Eswatini - Level 2: Exercise Increased Caution
-- **Verdict:** STRONG — tier-1, upstream
-- **Source:** US State Dept travel advisories (EA feed) · tier 1 · REG · advisory
-- **First seen:** 2026-07-28T23:09+03:00 EAT · **Source date:** — none stated
-- **URL:** https://travel.state.gov/content/tsg_aem/us/en/home/international-travel/travel-advisories/destination.swz.html
-- **Extract:** Exercise increased caution in Eswatini due to crime and unrest . Crime Crime is common in Eswatini. Sporadic armed robberies and carjackings occur. Local police may lack the resources to deal effectively with criminal incidents. Unrest Demonstrations and prote
-- **Score parts:** tier +40, category +32, lead +1.2, relevance +8, freshness +18, undated -6
-
-### 🟡 [92.1] LEVEL Suspends 2 US Routes in NW26
+### 🟡 [84.1] Sky Express Adds Thessaloniki – Chania Service in NW26
 - **Verdict:** CONSIDER
 - **Source:** AeroRoutes schedule filings · tier 2 · GLOBAL · aviation-tracker
-- **First seen:** 2026-07-29T00:46+03:00 EAT · **Source date:** 2026-07-29
-- **URL:** https://www.aeroroutes.com/eng/260728-llnw26
-- **Extract:** Published at 1400PDT / 2100GMT 28JUL26 LEVEL in recent weeks filed service change for Northern winter 2026/27 season, as the carrier suspends 2 US routes, effective 25OCT26. Suspended routes include the following. Barcelona – Boston 3 weekly Barcelona – Los An
-- **Score parts:** tier +20, category +14, lead +8.4, relevance +20, freshness +19.7, corroborated +10
+- **First seen:** 2026-07-29T11:04+03:00 EAT · **Source date:** 2026-07-29
+- **URL:** https://www.aeroroutes.com/eng/260729-gqnw26chq
+- **Extract:** Published at 0100PDT / 0800GMT 29JUL26 Sky Express during Northern winter 2026/27 season plans to launch Thessaloniki – Chania route, on board Airbus A320neo aircraft. The carrier plans to serve this route 3 times weekly, effective 26OCT26, while 4th weekly fl
+- **Score parts:** tier +20, category +14, lead +8.4, relevance +12, freshness +19.7, corroborated +10
 
-### 🟡 [91.1] Finnair Cancels Doha NW26 Service
+### 🟡 [84.1] Aeromexico Extends Monterrey – Paris to Year-Round in NW26
 - **Verdict:** CONSIDER
 - **Source:** AeroRoutes schedule filings · tier 2 · GLOBAL · aviation-tracker
-- **First seen:** 2026-07-28T20:13+03:00 EAT · **Source date:** 2026-07-28
-- **URL:** https://www.aeroroutes.com/eng/260728-aynw26doh
-- **Extract:** Published at 0900PDT / 1600GMT 28JUL26 Finnair earlier this month filed service changes for Helsinki – Doha route, as the carrier cancelled this route for Northern winter 2026/27 season, previously scheduled from 02OCT26 to 27MAR27. The Oneworld member previou
-- **Score parts:** tier +20, category +14, lead +8.4, relevance +24, freshness +14.7, corroborated +10
+- **First seen:** 2026-07-29T11:04+03:00 EAT · **Source date:** 2026-07-29
+- **URL:** https://www.aeroroutes.com/eng/260728-amnw26cdg
+- **Extract:** Published at 1500PDT / 2200GMT 28JUL26 Aeromexico in recent schedule update adjusted Monterrey – Paris Charles de Gaulle service, becoming a year-round route. The Skhteam member will continue to operate 3 weekly flights during Northern winter 2026/27 season, b
+- **Score parts:** tier +20, category +14, lead +8.4, relevance +12, freshness +19.7, corroborated +10
 
-### 🟡 [91.1] Thai Lion Air NW26 Tokyo Service Reductions – 27JUL26
+### 🟡 [80.1] EGYPTAIR Schedules Stockholm Dec 2026 Launch
 - **Verdict:** CONSIDER
 - **Source:** AeroRoutes schedule filings · tier 2 · GLOBAL · aviation-tracker
-- **First seen:** 2026-07-28T20:13+03:00 EAT · **Source date:** 2026-07-28
-- **URL:** https://www.aeroroutes.com/eng/260728-slnw26nrt
-- **Extract:** Published at 0700PDT / 1400GMT 28JUL26 Thai Lion Air as of Monday (27JUL26) filed frequency changes on Bangkok Don Mueang – Taipei Taoyuan – Tokyo Narita route for Northern winter 2026/27 season, as the airline schedules 5 weekly flights from 25OCT26, instead 
-- **Score parts:** tier +20, category +14, lead +8.4, relevance +24, freshness +14.7, corroborated +10
+- **First seen:** 2026-07-29T11:04+03:00 EAT · **Source date:** 2026-07-29
+- **URL:** https://www.aeroroutes.com/eng/260729-msdec26arn
+- **Extract:** Published at 0000PDT / 0700GMT 29JUL26 EGYPTAIR during Northern winter 2026/27 season plans to launch service to Sweden, as the carrier schedules Cairo – Stockholm Arlanda route. From 18DEC26, the carrier’s A321neo to serve this route 4 times weekly. MS765 CAI
+- **Score parts:** tier +20, category +14, lead +8.4, relevance +8, freshness +19.7, corroborated +10
+
+### 🟡 [80.1] TAP NW26 Lisbon – Sao Vicente Aircraft Changes
+- **Verdict:** CONSIDER
+- **Source:** AeroRoutes schedule filings · tier 2 · GLOBAL · aviation-tracker
+- **First seen:** 2026-07-29T11:04+03:00 EAT · **Source date:** 2026-07-29
+- **URL:** https://www.aeroroutes.com/eng/260728-tpnw26vxe
+- **Extract:** Published at 1600PDT / 2300GMT 28JUL26 TAP Air Portugal during Northern winter 2026/27 season schedules aircraft changes on Lisbon – Sao Vicente route, currently operated by Airbus A320neo. From 25OCT26, the daily service will be operated by Airbus A321neo. TP
+- **Score parts:** tier +20, category +14, lead +8.4, relevance +8, freshness +19.7, corroborated +10
+
+### 🟡 [80.1] Laboratory guidance and resources
+- **Verdict:** CONSIDER
+- **Source:** ECDC — DRC/Uganda Ebola outbreak page · tier 1 · GLOBAL · health
+- **First seen:** 2026-07-29T11:04+03:00 EAT · **Source date:** — none stated
+- **URL:** https://www.ecdc.europa.eu/en/ebola-disease/surveillance-and-updates/ebola-outbreak/laboratory-guidance
+- **Score parts:** tier +40, category +24, lead +2.4, relevance +0, freshness +19.7, undated -6
+
+### 🟡 [80.1] Communicable disease threats report, 18 - 24 July 2026, week 30
+- **Verdict:** CONSIDER
+- **Source:** ECDC — DRC/Uganda Ebola outbreak page · tier 1 · GLOBAL · health
+- **First seen:** 2026-07-29T11:04+03:00 EAT · **Source date:** — none stated
+- **URL:** https://www.ecdc.europa.eu/en/publications-data/communicable-disease-threats-report-18-24-july-2026-week-30
+- **Score parts:** tier +40, category +24, lead +2.4, relevance +0, freshness +19.7, undated -6
+
+### 🟡 [80.1] Communicable disease threats report, 13 - 17 July 2026, week 29
+- **Verdict:** CONSIDER
+- **Source:** ECDC — DRC/Uganda Ebola outbreak page · tier 1 · GLOBAL · health
+- **First seen:** 2026-07-29T11:04+03:00 EAT · **Source date:** — none stated
+- **URL:** https://www.ecdc.europa.eu/en/publications-data/communicable-disease-threats-report-13-17-july-2026-week-29
+- **Score parts:** tier +40, category +24, lead +2.4, relevance +0, freshness +19.7, undated -6
+
+### 🟡 [80.1] Communicable disease threats report, 6 - 10 July 2026, week 28
+- **Verdict:** CONSIDER
+- **Source:** ECDC — DRC/Uganda Ebola outbreak page · tier 1 · GLOBAL · health
+- **First seen:** 2026-07-29T11:04+03:00 EAT · **Source date:** — none stated
+- **URL:** https://www.ecdc.europa.eu/en/publications-data/communicable-disease-threats-report-6-10-july-2026-week-28
+- **Score parts:** tier +40, category +24, lead +2.4, relevance +0, freshness +19.7, undated -6
+
+### 🟡 [80.1] Antimicrobial resistance (AMR)
+- **Verdict:** CONSIDER
+- **Source:** ECDC — DRC/Uganda Ebola outbreak page · tier 1 · GLOBAL · health
+- **First seen:** 2026-07-29T11:04+03:00 EAT · **Source date:** — none stated
+- **URL:** https://www.ecdc.europa.eu/en/antimicrobial-resistance
+- **Score parts:** tier +40, category +24, lead +2.4, relevance +0, freshness +19.7, undated -6
+
+### 🟡 [80.1] ECDC guide to a healthy summer
+- **Verdict:** CONSIDER
+- **Source:** ECDC — DRC/Uganda Ebola outbreak page · tier 1 · GLOBAL · health
+- **First seen:** 2026-07-29T11:04+03:00 EAT · **Source date:** — none stated
+- **URL:** https://www.ecdc.europa.eu/en/ecdc-guide-safe-summer
+- **Score parts:** tier +40, category +24, lead +2.4, relevance +0, freshness +19.7, undated -6
+
+### 🟡 [80.1] Questions and answers for healthcare professionals in Europe
+- **Verdict:** CONSIDER
+- **Source:** ECDC — DRC/Uganda Ebola outbreak page · tier 1 · GLOBAL · health
+- **First seen:** 2026-07-29T11:04+03:00 EAT · **Source date:** — none stated
+- **URL:** https://www.ecdc.europa.eu/en/topics-z/ebola-disease/surveillance-and-updates/ebola-outbreak-democratic-republic-congo-and-0
+- **Score parts:** tier +40, category +24, lead +2.4, relevance +0, freshness +19.7, undated -6
+
+### 🟡 [80.1] Scientific and technical publications
+- **Verdict:** CONSIDER
+- **Source:** ECDC — DRC/Uganda Ebola outbreak page · tier 1 · GLOBAL · health
+- **First seen:** 2026-07-29T11:04+03:00 EAT · **Source date:** — none stated
+- **URL:** https://www.ecdc.europa.eu/en/search?s=&sort_bef_combine=date_DESC&f%5B0%5D=categories%3A1244
+- **Score parts:** tier +40, category +24, lead +2.4, relevance +0, freshness +19.7, undated -6
+
+### 🟡 [80.1] Weekly threats reports (CDTR)
+- **Verdict:** CONSIDER
+- **Source:** ECDC — DRC/Uganda Ebola outbreak page · tier 1 · GLOBAL · health
+- **First seen:** 2026-07-29T11:04+03:00 EAT · **Source date:** — none stated
+- **URL:** https://www.ecdc.europa.eu/en/publications-and-data/monitoring/weekly-threats-reports
+- **Score parts:** tier +40, category +24, lead +2.4, relevance +0, freshness +19.7, undated -6
+
+### 🟡 [80.1] Annual Epidemiological Reports (AERs)
+- **Verdict:** CONSIDER
+- **Source:** ECDC — DRC/Uganda Ebola outbreak page · tier 1 · GLOBAL · health
+- **First seen:** 2026-07-29T11:04+03:00 EAT · **Source date:** — none stated
+- **URL:** https://www.ecdc.europa.eu/en/publications-data/monitoring/all-annual-epidemiological-reports
+- **Score parts:** tier +40, category +24, lead +2.4, relevance +0, freshness +19.7, undated -6
+
+### 🟡 [80.1] The European Respiratory Virus Surveillance Summary (ERVISS)
+- **Verdict:** CONSIDER
+- **Source:** ECDC — DRC/Uganda Ebola outbreak page · tier 1 · GLOBAL · health
+- **First seen:** 2026-07-29T11:04+03:00 EAT · **Source date:** — none stated
+- **URL:** https://www.ecdc.europa.eu/en/publications-data/european-respiratory-virus-surveillance-summary-erviss
+- **Score parts:** tier +40, category +24, lead +2.4, relevance +0, freshness +19.7, undated -6
+
+### 🟡 [80.1] Preparedness, prevention and control tools
+- **Verdict:** CONSIDER
+- **Source:** ECDC — DRC/Uganda Ebola outbreak page · tier 1 · GLOBAL · health
+- **First seen:** 2026-07-29T11:04+03:00 EAT · **Source date:** — none stated
+- **URL:** https://www.ecdc.europa.eu/en/tools/country-resources
+- **Score parts:** tier +40, category +24, lead +2.4, relevance +0, freshness +19.7, undated -6
