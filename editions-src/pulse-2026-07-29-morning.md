@@ -67,4 +67,15 @@ So: sell "outbreak over". Do not sell "restrictions lifted". And if you have Ame
 
 We had the all-clear at 27 August. It came on 28 July. Right outcome, wrong month.
 
-🔗 https://ogcollyns-creator.github.io/ea-hospitality-pulse/editions/pulse-2026-07-29-morning.html
+We track this daily at EA Hospitality Pulse.
+
+#Hospitality #Uganda #EastAfrica #TravelRisk #HotelManagement
+
+---
+
+**FIRST COMMENT** (post immediately after)
+
+📖 This edition in full: https://ogcollyns-creator.github.io/ea-hospitality-pulse/editions/pulse-2026-07-29-morning.html
+📣 Daily briefs on Telegram: https://t.me/africabusinessriskreview
+💬 The 15-second version on WhatsApp: https://whatsapp.com/channel/0029VbCjul2KmCPTv8Qrh73b
+🗂 Archive, live travel advisory board and rate index: https://ogcollyns-creator.github.io/ea-hospitality-pulse
