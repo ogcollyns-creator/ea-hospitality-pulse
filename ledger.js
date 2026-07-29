@@ -1,13 +1,13 @@
 window.LEDGER = {
- "updated": "2026-07-28 17:17",
+ "updated": "2026-07-29 08:31",
  "stats": {
-  "total": 32,
-  "open": 31,
-  "resolved": 1,
+  "total": 35,
+  "open": 33,
+  "resolved": 2,
   "correct": 1,
-  "partial": 0,
+  "partial": 1,
   "incorrect": 0,
-  "accuracy": 100
+  "accuracy": 75
  },
  "open": [
   {
@@ -24,6 +24,22 @@ window.LEDGER = {
    "resolved_date": "",
    "evidence": "",
    "source_url": "https://www.govinfo.gov/content/pkg/FR-2026-07-16/html/2026-14365.htm",
+   "overdue": false
+  },
+  {
+   "id": "P034",
+   "made_date": "2026-07-29",
+   "edition": "Morning Brief",
+   "claim": "Neither the US State Department nor the UK FCDO will lower its Uganda travel advisory level within 14 days of the 28 July end-of-outbreak declaration (i.e. by 11 August 2026)",
+   "resolution_criteria": "travel.state.gov Uganda advisory still Level 4 AND gov.uk/foreign-travel-advice/uganda advice against travel unchanged when checked on 11 Aug 2026",
+   "resolve_by": "2026-08-12",
+   "market": "UG",
+   "segment": "Bush/City",
+   "confidence": "Reported",
+   "status": "open",
+   "resolved_date": "",
+   "evidence": "",
+   "source_url": "https://travel.state.gov/content/travel/en/traveladvisories/traveladvisories/uganda-travel-advisory.html",
    "overdue": false
   },
   {
@@ -107,19 +123,35 @@ window.LEDGER = {
    "overdue": false
   },
   {
-   "id": "P001",
-   "made_date": "2026-07-25",
-   "edition": "Special Edition",
-   "claim": "Uganda's Ebola outbreak will be formally declared over on or about 27 August 2026",
-   "resolution_criteria": "WHO or Uganda MoH issues a formal end-of-outbreak declaration by 5 Sept 2026",
-   "resolve_by": "2026-09-05",
+   "id": "P033",
+   "made_date": "2026-07-29",
+   "edition": "Morning Brief",
+   "claim": "WHO (AFRO or HQ) will publish its own statement acknowledging the end of Uganda's 2026 Bundibugyo outbreak by 31 August 2026",
+   "resolution_criteria": "A WHO AFRO news release,Disease Outbreak News item or situation report published between 29 Jul and 31 Aug 2026 stating that Uganda's outbreak has ended or been declared over",
+   "resolve_by": "2026-08-31",
    "market": "UG",
    "segment": "Bush/City",
-   "confidence": "Confirmed",
+   "confidence": "Early signal",
    "status": "open",
    "resolved_date": "",
    "evidence": "",
-   "source_url": "",
+   "source_url": "https://www.afro.who.int/countries/uganda/news/uganda-begins-countdown-end-ebola-outbreak",
+   "overdue": false
+  },
+  {
+   "id": "P035",
+   "made_date": "2026-07-29",
+   "edition": "Morning Brief",
+   "claim": "The US CDC s.362 entry suspension expiring 12 August 2026 will be renewed or replaced with Uganda REMOVED from the designated country list — the 28 July declaration decouples Uganda from DRC",
+   "resolution_criteria": "A CDC order or Federal Register notice published between 1 Aug and 31 Aug 2026 continuing the s.362 suspension WITHOUT naming Uganda among the designated countries",
+   "resolve_by": "2026-08-31",
+   "market": "Regional",
+   "segment": "Bush/City",
+   "confidence": "Early signal",
+   "status": "open",
+   "resolved_date": "",
+   "evidence": "",
+   "source_url": "https://www.cdc.gov/port-health/legal-authorities/evdorder.html",
    "overdue": false
   },
   {
@@ -508,6 +540,22 @@ window.LEDGER = {
   }
  ],
  "resolved": [
+  {
+   "id": "P001",
+   "made_date": "2026-07-25",
+   "edition": "Special Edition",
+   "claim": "Uganda's Ebola outbreak will be formally declared over on or about 27 August 2026",
+   "resolution_criteria": "WHO or Uganda MoH issues a formal end-of-outbreak declaration by 5 Sept 2026",
+   "resolve_by": "2026-09-05",
+   "market": "UG",
+   "segment": "Bush/City",
+   "confidence": "Confirmed",
+   "status": "partial",
+   "resolved_date": "2026-07-29",
+   "evidence": "Uganda MoH declared the outbreak over on 28 July 2026 — criterion met (declaration before 5 Sept) but 30 days earlier than the claimed 'on or about 27 August'. Uganda counted 42 days from the 16 June discharge of the last Ugandan national, not from the 16 July discharge WHO AFRO dated the countdown to.",
+   "source_url": "https://health.go.ug/uganda-is-officially-ebola-free/",
+   "overdue": false
+  },
   {
    "id": "P018",
    "made_date": "2026-07-26",

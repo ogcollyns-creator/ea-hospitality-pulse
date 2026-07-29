@@ -2873,6 +2873,71 @@
    ],
    "why": "Official daily case, admission, contact-tracing and point-of-entry screening counts — updated before WHO and press.",
    "frag": ""
+  },
+  {
+   "id": "ug-mediacentre",
+   "name": "Uganda Media Centre — press room",
+   "url": "https://mediacentre.go.ug/press-room/",
+   "tier": 1,
+   "country": "UG",
+   "category": "gov-comms",
+   "method": "html",
+   "cadence_min": 120,
+   "lead_days": 1,
+   "segments": [
+    "city",
+    "bush"
+   ],
+   "slots": [
+    "morning",
+    "midday",
+    "evening"
+   ],
+   "why": "Where Uganda government declarations land first — the 28 Jul 2026 Ebola end-of-outbreak declaration was published here before wire pickup. Note: page is client-rendered, so treat as page-change granularity.",
+   "frag": ""
+  },
+  {
+   "id": "ug-moh-news",
+   "name": "Uganda Ministry of Health — news",
+   "url": "https://health.go.ug/",
+   "tier": 1,
+   "country": "UG",
+   "category": "health",
+   "method": "html",
+   "cadence_min": 120,
+   "lead_days": 1,
+   "segments": [
+    "city",
+    "bush"
+   ],
+   "slots": [
+    "morning",
+    "midday",
+    "evening"
+   ],
+   "why": "Primary source for Ugandan outbreak status, entry-screening changes and end-of-outbreak declarations.",
+   "frag": ""
+  },
+  {
+   "id": "ecdc-ebola",
+   "name": "ECDC — DRC/Uganda Ebola outbreak page",
+   "url": "https://www.ecdc.europa.eu/en/ebola-outbreak-democratic-republic-congo-and-uganda",
+   "tier": 1,
+   "country": "GLOBAL",
+   "category": "health",
+   "method": "html",
+   "cadence_min": 180,
+   "lead_days": 2,
+   "segments": [
+    "city",
+    "bush"
+   ],
+   "slots": [
+    "morning",
+    "evening"
+   ],
+   "why": "Keeps a running confirmed-case and death count for the DRC/Uganda outbreak — the number European source markets and insurers cite.",
+   "frag": ""
   }
  ]
 }
