@@ -160,9 +160,50 @@ window.EDITIONS = [
   "editionKey": "inaugural",
   "summary": "Nairobi is about to absorb 1,500 new branded rooms this year — and the smartest operators are already repositioning. Here's what matters today.",
   "bodyHtml": "<p><span class=\"meta-line\">🏨 EA HOSPITALITY PULSE — Morning Brief</span><br><span class=\"meta-line\">📅 Friday, 24 July 2026 | 🇰🇪🇹🇿🇷🇼🇺🇬</span></p>\n<p>Nairobi is about to absorb 1,500 new branded rooms this year — and the smartest operators are already repositioning. Here&#x27;s what matters today.</p>\n<hr class=\"divider\">\n<p><span class=\"item-head\">1️⃣ NAIROBI&#x27;S SUPPLY WAVE IS HERE</span><br>W Hospitality Group counts ~20 branded hotels (3,650 rooms) in Nairobi&#x27;s pipeline, with ~1,500 rooms opening in 2026 alone — after 2,000 rooms added since 2023 already knocked occupancy down nearly 10 points (per Tourism Update). Demand is diversifying (Middle East, Asia, regional), but supply is outrunning it.<br><span class=\"sowhat\">🎯 So what: Don&#x27;t rate-war the new entrants. Lock in corporate and MICE contracts for 2027 now, and differentiate on product — new supply hurts identical products most.</span><br><span class=\"tagline\">🏷 City | KE | Confirmed</span></p>\n<p><span class=\"item-head\">2️⃣ ZANZIBAR BREAKS 100K VISITORS A MONTH</span><br>Arrivals topped 100,000 in January 2026 — up from 42,445 in Jan 2022 — and July 2025&#x27;s 106,108 was +31% year-on-year (per Tanzania Monitor). Iberostar has just opened its first 5-star on Muyuni Beach. Note: inbound travel insurance from Zanzibar Insurance Corporation is now mandatory.<br><span class=\"sowhat\">🎯 So what: Hold rate through peak — this demand supports it. Add the ZIC insurance requirement to pre-arrival comms today; a guest surprised at the airport is a bad review waiting.</span><br><span class=\"tagline\">🏷 Beach | ZNZ | Confirmed</span></p>\n<p><span class=\"item-head\">3️⃣ RWANDA&#x27;S BIGGEST SOURCE MARKET IS NOW... DRC</span><br>185,420 DRC visitors in H1 2026 — 12.5% of all arrivals — overtaking every other market (per Travel and Tour World / RDB data). Business, healthcare, trade and family travel, not just leisure.<br><span class=\"sowhat\">🎯 So what: Kigali city hotels — build regional-traveller products: flexible rates, French-language service, healthcare-stay packages. This is a demand base advisories don&#x27;t touch.</span><br><span class=\"tagline\">🏷 City | RW | Reported</span></p>\n<p><span class=\"item-head\">4️⃣ CONNECTIVITY QUIETLY REWIRING THE REGION</span><br>Safarilink now flies Nairobi–Entebbe non-stop (since May); Flightlink is acquiring ATRs for Entebbe and Kigali routes; RwandAir&#x27;s Kigali–Zanzibar is driving its 2026 growth (per Aviation Week, ch-aviation reports).<br><span class=\"sowhat\">🎯 So what: Multi-country itineraries just got easier to sell. Bush and beach properties: pitch cross-border combos to your DMC partners for 2027 season.</span><br><span class=\"tagline\">🏷 All segments | Regional | Confirmed</span></p>\n<p>━━━━━━━━━<br><span class=\"meta-line\">📡 RADAR</span><br><span class=\"radar-item\">▪️ August = Kenya&#x27;s peak month (Aug 2025 set the arrivals record: 277,155, per KATA) — final rate checks now</span><br><span class=\"radar-item\">▪️ Migration season in the Mara runs through October — river-crossing weeks command premiums</span><br><span class=\"radar-item\">▪️ JW Marriott&#x27;s Mount Kenya safari camp (Solio) takes bookings this month — luxury bush comps shifting</span><br><span class=\"radar-item\">▪️ Watch: South Africa introduced health forms for travellers from Ebola-affected countries (22 Jul, Tourism Update) — no EA market confirmed affected; we&#x27;re verifying</span></p>\n<p><span class=\"meta-line\">💬 Which of these hits your property hardest? Reply and tell us.</span><br>— EA Hospitality Pulse | Daily intelligence for city, bush &amp; beach properties</p>\n<hr class=\"divider\">"
+ },
+ {
+  "id": "pulse-2026-07-30-evening",
+  "date": "2026-07-30",
+  "dateDisplay": "Thursday, 30 July 2026",
+  "edition": "Evening Wrap",
+  "editionKey": "evening",
+  "summary": "Uganda is clean. The number that governs the American ban is not — and it just moved the wrong way.",
+  "bodyHtml": "<p><span class=\"meta-line\">🏨 EA HOSPITALITY PULSE — Evening Wrap</span><br><span class=\"meta-line\">📅 Thursday, 30 July 2026 | 🇺🇬🇨🇩🌍</span></p>\n<p>Uganda is clean. The number that governs the American ban is not — and it just moved the wrong way.<br>━━━━━━━━━<br><span class=\"item-head\">1️⃣ Uganda&#x27;s Ebola-free — but the ban tracks Congo, not Kampala</span><br>Uganda declared its Bundibugyo outbreak over on 28 July (Ministry of Health): 20 confirmed cases, two deaths, every transmission chain closed. Next door, WHO&#x27;s Weekly External Situation Report 11 (data to 26 July) puts DR Congo at 3,262 confirmed cases and 1,437 deaths — Ituri alone spread across 28 of 36 health zones, with under 80% of identified contacts traced. The US CDC entry suspension, renewed 13 July and running to roughly 12 August, names Uganda alongside DRC and South Sudan. It keys off the regional caseload — and that caseload is still climbing.<br><span class=\"sowhat\">🎯 So what: Do not sell &quot;Ebola-free Uganda&quot; as reopened access to US-origin guests. The declaration is a reassurance asset, not a border change — hold any &quot;restrictions lifted&quot; line in pre-arrival comms until CDC republishes.</span><br><span class=\"tagline\">🏷 Bush/City | Uganda/DRC/Regional | Confirmed (declaration &amp; data); inference on ban timing</span><br>━━━━━━━━━<br><span class=\"item-head\">2️⃣ Airlines fight border-data charges — at your guests&#x27; expense</span><br>IATA, AFRAA and AASA jointly urged African governments (30 July) to align Advance Passenger Information and PNR systems with ICAO standards, and opposed states charging airlines for border-security data. Fragmented, fee-loaded schemes raise the cost and friction of the long-haul seats East African resorts depend on.<br><span class=\"sowhat\">🎯 So what: A watch item, not an action. Uncoordinated API/PNR = pricier tickets and slower immigration lines — track it before it reaches your ADR.</span><br><span class=\"tagline\">🏷 City/Beach | Regional | Confirmed</span><br>━━━━━━━━━<br><span class=\"meta-line\">💬 Would you quote &quot;Ebola-free&quot; to a US client this week, or wait for CDC?</span></p>\n<p>🔗 This edition on the web: https://ogcollyns-creator.github.io/ea-hospitality-pulse/editions/pulse-2026-07-30-evening.html<br>💼 Today&#x27;s Big Read on LinkedIn: https://www.linkedin.com/company/ea-hospitality-pulse/<br>— EA Hospitality Pulse | Daily intelligence for city, bush &amp; beach properties</p>"
  }
 ];
 window.INSIGHTS = [
+ {
+  "headline": "Uganda's Ebola-free — but the ban tracks Congo, not Kampala",
+  "body": "Uganda declared its Bundibugyo outbreak over on 28 July (Ministry of Health): 20 confirmed cases, two deaths, every transmission chain closed. Next door, WHO's Weekly External Situation Report 11 (data to 26 July) puts DR Congo at 3,262 confirmed cases and 1,437 deaths — Ituri alone spread across 28 of 36 health zones, with under 80% of identified contacts traced. The US CDC entry suspension, renewed 13 July and running to roughly 12 August, names Uganda alongside DRC and South Sudan. It keys off the regional caseload — and that caseload is still climbing.",
+  "sowhat": "🎯 So what: Do not sell \"Ebola-free Uganda\" as reopened access to US-origin guests. The declaration is a reassurance asset, not a border change — hold any \"restrictions lifted\" line in pre-arrival comms until CDC republishes.",
+  "segments": [
+   "city",
+   "bush"
+  ],
+  "countries": "Uganda/DRC/Regional",
+  "confidence": "Confirmed (declaration & data); inference on ban timing",
+  "source": "pulse-2026-07-30-evening",
+  "date": "2026-07-30",
+  "dateDisplay": "Thursday, 30 July 2026",
+  "edition": "Evening Wrap",
+  "editionKey": "evening"
+ },
+ {
+  "headline": "Airlines fight border-data charges — at your guests' expense",
+  "body": "IATA, AFRAA and AASA jointly urged African governments (30 July) to align Advance Passenger Information and PNR systems with ICAO standards, and opposed states charging airlines for border-security data. Fragmented, fee-loaded schemes raise the cost and friction of the long-haul seats East African resorts depend on.",
+  "sowhat": "🎯 So what: A watch item, not an action. Uncoordinated API/PNR = pricier tickets and slower immigration lines — track it before it reaches your ADR.",
+  "segments": [
+   "city",
+   "beach"
+  ],
+  "countries": "Regional",
+  "confidence": "Confirmed",
+  "source": "pulse-2026-07-30-evening",
+  "date": "2026-07-30",
+  "dateDisplay": "Thursday, 30 July 2026",
+  "edition": "Evening Wrap",
+  "editionKey": "evening"
+ },
  {
   "headline": "UGANDA IS EBOLA-FREE — THIRTY DAYS EARLY",
   "body": "Health Minister Dr Chris Baryomunsi declared the 2026 Bundibugyo outbreak over in Kampala yesterday morning (Uganda Ministry of Health / Uganda Media Centre, 28 July): 20 confirmed cases, 18 recovered, two deaths, 15 imported from DRC and five secondary — every one of them inside Kampala and Wakiso. \"The country is open for business, tourism and all socio-economic activities.\" The declaration did not wait for the calendar. WHO AFRO's release of 16 July said Uganda had \"today entered the 42-day countdown\" — which lands around 27 August, the date we and everyone else had diarised. Uganda instead counted from 16 June, the discharge of the last Ugandan national, and rested the declaration on what the Ministry calls a **fully documented importation event**: source patient identified, every transmission chain reconstructed, all 836 contacts closed out. Two clocks, one outbreak.",
@@ -1085,4 +1126,4 @@ window.INSIGHTS = [
   "editionKey": "evening"
  }
 ];
-window.BUILT_AT = "2026-07-29 10:13";
+window.BUILT_AT = "2026-07-30 16:40";

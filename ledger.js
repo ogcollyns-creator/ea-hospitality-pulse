@@ -1,8 +1,8 @@
 window.LEDGER = {
- "updated": "2026-07-29 10:13",
+ "updated": "2026-07-30 16:40",
  "stats": {
-  "total": 35,
-  "open": 33,
+  "total": 39,
+  "open": 37,
   "resolved": 2,
   "correct": 1,
   "partial": 1,
@@ -10,6 +10,38 @@ window.LEDGER = {
   "accuracy": 75
  },
  "open": [
+  {
+   "id": "P038",
+   "made_date": "2026-07-29",
+   "edition": "Midday Pulse (unpublished)",
+   "claim": "At least one Kenyan national news outlet will report the 29 July US Kenya advisory re-issue on or before 3 August 2026 — measuring our lead time over the domestic press on a tier-1 advisory action",
+   "resolution_criteria": "A search of Kenyan national outlets (Nation,Standard,Star,Citizen,Business Daily) on 3 Aug 2026 returning a story published 29 Jul-3 Aug 2026 about the updated US Kenya travel advisory. Radar first_seen for the feed item was 2026-07-29T11:04+03:00",
+   "resolve_by": "2026-08-03",
+   "market": "KE",
+   "segment": "City",
+   "confidence": "Early signal",
+   "status": "open",
+   "resolved_date": "",
+   "evidence": "",
+   "source_url": "https://travel.state.gov/_res/rss/TAsTWs.xml",
+   "overdue": false
+  },
+  {
+   "id": "P039",
+   "made_date": "2026-07-30",
+   "edition": "Evening Wrap",
+   "claim": "DR Congo's cumulative confirmed Bundibugyo cases will exceed 3600 by the WHO AFRO External Situation Report dated on or around 2 August 2026 — i.e. the outbreak has NOT plateaued and the US regional entry ban has no epidemiological basis to lift on Uganda's timeline",
+   "resolution_criteria": "A WHO AFRO Weekly External Situation Report (issue 12 or later) published between 30 Jul and 9 Aug 2026 stating a cumulative confirmed DRC case count above 3600. If the next SitRep shows 3600 or fewer the call is incorrect",
+   "resolve_by": "2026-08-09",
+   "market": "Regional",
+   "segment": "Bush/City",
+   "confidence": "Reported",
+   "status": "open",
+   "resolved_date": "",
+   "evidence": "",
+   "source_url": "https://www.afro.who.int/countries/democratic-republic-of-congo/publication/ebola-bundibugyo-virus-disease-outbreak-3",
+   "overdue": false
+  },
   {
    "id": "P030",
    "made_date": "2026-07-28",
@@ -40,6 +72,22 @@ window.LEDGER = {
    "resolved_date": "",
    "evidence": "",
    "source_url": "https://travel.state.gov/content/travel/en/traveladvisories/traveladvisories/uganda-travel-advisory.html",
+   "overdue": false
+  },
+  {
+   "id": "P036",
+   "made_date": "2026-07-29",
+   "edition": "Midday Pulse (unpublished)",
+   "claim": "The rendered US State Department Kenya advisory page will be revised to show the Nairobi neighbourhoods of Eastleigh and Kibera under 'Do Not Travel' rather than 'Reconsider Travel' — the web page will catch up with the 29 July RSS feed text — by 12 August 2026",
+   "resolution_criteria": "travel.state.gov Kenya travel advisory page checked on 12 Aug 2026 showing Eastleigh and Kibera listed under Do Not Travel AND a revision date later than 17 March 2025. If the page still shows 'Reconsider Travel' on that date the call is incorrect and the feed's 'Increased Risk Areas' block was a generic summary, not a level change",
+   "resolve_by": "2026-08-12",
+   "market": "KE",
+   "segment": "City",
+   "confidence": "Early signal",
+   "status": "open",
+   "resolved_date": "",
+   "evidence": "",
+   "source_url": "https://travel.state.gov/content/travel/en/traveladvisories/traveladvisories/kenya-travel-advisory.html",
    "overdue": false
   },
   {
@@ -152,6 +200,22 @@ window.LEDGER = {
    "resolved_date": "",
    "evidence": "",
    "source_url": "https://www.cdc.gov/port-health/legal-authorities/evdorder.html",
+   "overdue": false
+  },
+  {
+   "id": "P037",
+   "made_date": "2026-07-29",
+   "edition": "Midday Pulse (unpublished)",
+   "claim": "Kenya's overall US State Department advisory level will remain Level 2 (Exercise Increased Caution) through 31 August 2026 — the 29 July re-issue changed risk indicators and area wording, not the country level",
+   "resolution_criteria": "travel.state.gov Kenya travel advisory checked on 31 Aug 2026 still showing 'Kenya - Level 2: Exercise Increased Caution'",
+   "resolve_by": "2026-08-31",
+   "market": "KE",
+   "segment": "City/Bush/Beach",
+   "confidence": "Confirmed",
+   "status": "open",
+   "resolved_date": "",
+   "evidence": "",
+   "source_url": "https://travel.state.gov/content/travel/en/traveladvisories/traveladvisories/kenya-travel-advisory.html",
    "overdue": false
   },
   {
