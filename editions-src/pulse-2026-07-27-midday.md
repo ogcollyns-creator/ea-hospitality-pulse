@@ -25,7 +25,7 @@ The Prime Minister's Office is preparing a costed national contingency plan for 
 
 💬 Nanyuki and Laikipia owners — how much of your Sept–Nov book was BATUK-linked? Reply; we'll aggregate it anonymously.
 
-🔗 This edition on the web: https://ogcollyns-creator.github.io/ea-hospitality-pulse/editions/pulse-2026-07-27-midday.html
+🔗 This edition on the web: https://eahospitalitypulse.com/editions/pulse-2026-07-27-midday.html
 — EA Hospitality Pulse | Daily intelligence for city, bush & beach properties
 
 ## WHATSAPP
@@ -46,7 +46,7 @@ Exercise Haraka Storm, due in Laikipia Sept–Nov, has gone to Tanzania after Ke
 *£58 million* — annual British military spend into the Nanyuki-area economy, now in question
 
 🔗 Full analysis → t.me/africabusinessriskreview
-📖 Read on the web → https://ogcollyns-creator.github.io/ea-hospitality-pulse/editions/pulse-2026-07-27-midday.html
+📖 Read on the web → https://eahospitalitypulse.com/editions/pulse-2026-07-27-midday.html
 _Tuko pamoja._
 
 ## LINKEDIN

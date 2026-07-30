@@ -20,7 +20,7 @@ IATA, AFRAA and AASA jointly urged African governments (30 July) to align Advanc
 ━━━━━━━━━
 💬 Would you quote "Ebola-free" to a US client this week, or wait for CDC?
 
-🔗 This edition on the web: https://ogcollyns-creator.github.io/ea-hospitality-pulse/editions/pulse-2026-07-30-evening.html
+🔗 This edition on the web: https://eahospitalitypulse.com/editions/pulse-2026-07-30-evening.html
 💼 Today's Big Read on LinkedIn: https://www.linkedin.com/company/ea-hospitality-pulse/
 — EA Hospitality Pulse | Daily intelligence for city, bush & beach properties
 
@@ -40,7 +40,7 @@ Uganda declared its outbreak over on 28 July, but Congo's caseload keeps climbin
 *1,437* — Ebola deaths recorded in DR Congo to 26 July (WHO SitRep 11), against Uganda's two.
 
 🔗 Full analysis → t.me/africabusinessriskreview
-📖 Read on the web → https://ogcollyns-creator.github.io/ea-hospitality-pulse/editions/pulse-2026-07-30-evening.html
+📖 Read on the web → https://eahospitalitypulse.com/editions/pulse-2026-07-30-evening.html
 
 ## LINKEDIN BIG READ
 
@@ -82,7 +82,7 @@ We publish this analysis daily — three briefs a day across Kenya, Uganda, Tanz
 
 ### FIRST COMMENT
 
-📖 This edition in full: https://ogcollyns-creator.github.io/ea-hospitality-pulse/editions/pulse-2026-07-30-evening.html
+📖 This edition in full: https://eahospitalitypulse.com/editions/pulse-2026-07-30-evening.html
 📣 Daily briefs on Telegram: https://t.me/africabusinessriskreview
 💬 The 15-second version on WhatsApp: https://whatsapp.com/channel/0029VbCjul2KmCPTv8Qrh73b
-🗂 Archive, live travel advisory board and rate index: https://ogcollyns-creator.github.io/ea-hospitality-pulse
+🗂 Archive, live travel advisory board and rate index: https://eahospitalitypulse.com

@@ -25,7 +25,7 @@ Uganda's Ministry of Health EVD dashboard, updated today: 20 confirmed cases, 0 
 
 💬 Has anyone in East African tourism actually filed on a US federal docket before? If you have, tell us how it went.
 
-🔗 This edition on the web: https://ogcollyns-creator.github.io/ea-hospitality-pulse/editions/pulse-2026-07-28-evening.html
+🔗 This edition on the web: https://eahospitalitypulse.com/editions/pulse-2026-07-28-evening.html
 💼 Today's Big Read on LinkedIn: https://www.linkedin.com/company/ea-hospitality-pulse/
 — EA Hospitality Pulse | Daily intelligence for city, bush & beach properties
 
@@ -48,7 +48,7 @@ The CDC order banning entry from Uganda and DRC is open for public comment until
 *0* — active Ebola contacts under follow-up in Uganda today, from 831 listed.
 
 🔗 Full analysis → t.me/africabusinessriskreview
-📖 Read on the web → https://ogcollyns-creator.github.io/ea-hospitality-pulse/editions/pulse-2026-07-28-evening.html
+📖 Read on the web → https://eahospitalitypulse.com/editions/pulse-2026-07-28-evening.html
 
 ## LINKEDIN BIG READ
 
@@ -100,7 +100,7 @@ We publish this analysis daily — three briefs a day across Kenya, Uganda, Tanz
 
 ### FIRST COMMENT
 
-📖 This edition in full: https://ogcollyns-creator.github.io/ea-hospitality-pulse/editions/pulse-2026-07-28-evening.html
+📖 This edition in full: https://eahospitalitypulse.com/editions/pulse-2026-07-28-evening.html
 📣 Daily briefs on Telegram: https://t.me/africabusinessriskreview
 💬 The 15-second version on WhatsApp: https://whatsapp.com/channel/0029VbCjul2KmCPTv8Qrh73b
-🗂 Archive, live travel advisory board and rate index: https://ogcollyns-creator.github.io/ea-hospitality-pulse
+🗂 Archive, live travel advisory board and rate index: https://eahospitalitypulse.com

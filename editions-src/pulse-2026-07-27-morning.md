@@ -28,7 +28,7 @@ WHO AFRO's 16 July release states plainly that a single imported case from DRC r
 
 💬 Has your booking pace changed in the last fortnight — or only your inbox?
 
-🔗 This edition on the web: https://ogcollyns-creator.github.io/ea-hospitality-pulse/editions/pulse-2026-07-27-morning.html
+🔗 This edition on the web: https://eahospitalitypulse.com/editions/pulse-2026-07-27-morning.html
 — EA Hospitality Pulse | Daily intelligence for city, bush & beach properties
 
 ## WHATSAPP
@@ -49,7 +49,7 @@ Official DRC figures released Saturday 25 July: 3,075 confirmed cases and 1,354 
 *3,075* — confirmed Bundibugyo cases in DRC, up from under 2,400 nine days earlier.
 
 🔗 Full analysis → t.me/africabusinessriskreview
-📖 Read on the web → https://ogcollyns-creator.github.io/ea-hospitality-pulse/editions/pulse-2026-07-27-morning.html
+📖 Read on the web → https://eahospitalitypulse.com/editions/pulse-2026-07-27-morning.html
 
 ## LINKEDIN
 

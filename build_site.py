@@ -292,6 +292,15 @@ def main():
         idx = open(idx_path, encoding="utf-8").read()
         idx = re.sub(r"<!--BUILD_STAMP:[^>]*-->", "", idx)
         idx = idx.replace("</head>", f"<!--BUILD_STAMP:{stamp}--></head>", 1)
+        # keep the head's absolute URLs in sync with site_config.json "base"
+        def _sub(pattern, value, text):
+            return re.sub(pattern, lambda m: m.group(1) + value + m.group(2), text)
+        idx = _sub(r'(<link rel="canonical" href=")[^"]*(")', BASE + "/", idx)
+        idx = _sub(r'(<meta property="og:url" content=")[^"]*(")', BASE + "/", idx)
+        idx = _sub(r'(<meta property="og:image" content=")[^"]*(")', BASE + "/og/default.png", idx)
+        idx = _sub(r'(<meta name="twitter:image" content=")[^"]*(")', BASE + "/og/default.png", idx)
+        idx = _sub(r'("@type":"Organization".*?"url":")[^"]*(")', BASE + "/", idx)
+        idx = _sub(r'("@type":"Organization".*?"logo":")[^"]*(")', BASE + "/apple-touch-icon.png", idx)
         open(idx_path, "w", encoding="utf-8").write(idx)
     except Exception as e:
         print("build stamp skipped:", e)

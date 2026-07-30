@@ -29,7 +29,7 @@ KMA Director General Omae Nyarandi confirmed the refloating of MV Adan — agrou
 
 💬 Did you hold rooms back for a strike that never came? Reply and tell us what it cost you.
 
-🔗 This edition on the web: https://ogcollyns-creator.github.io/ea-hospitality-pulse/editions/pulse-2026-07-28-morning.html
+🔗 This edition on the web: https://eahospitalitypulse.com/editions/pulse-2026-07-28-morning.html
 — EA Hospitality Pulse | Daily intelligence for city, bush & beach properties
 
 ## WHATSAPP
@@ -50,7 +50,7 @@ Kenya's aviation union withdrew today's nationwide strike after a Monday framewo
 *US$90.28* — Brent's close on Monday 27 July, down 8.2% in a single session after the US–Iran pause.
 
 🔗 Full analysis → t.me/africabusinessriskreview
-📖 Read on the web → https://ogcollyns-creator.github.io/ea-hospitality-pulse/editions/pulse-2026-07-28-morning.html
+📖 Read on the web → https://eahospitalitypulse.com/editions/pulse-2026-07-28-morning.html
 Siku njema, na tuwe macho.
 
 ## LINKEDIN

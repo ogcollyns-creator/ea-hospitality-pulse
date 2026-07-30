@@ -12,7 +12,7 @@ Three rules, enforced here rather than left to the caller:
 import os, time, gzip, io, socket, ssl, http.client, urllib.request, urllib.error
 from urllib.parse import urlparse, urljoin
 
-UA = ("EAHospitalityPulse-Radar/1.0 (+https://ogcollyns-creator.github.io/ea-hospitality-pulse; "
+UA = ("EAHospitalityPulse-Radar/1.0 (+https://eahospitalitypulse.com; "
       "editorial source monitoring; contact ogcollyns@gmail.com)")
 # Per-host courtesy delay. Overridable for tests and for the rare source whose
 # robots.txt asks for more; never lowered below what robots.txt requests.

@@ -29,7 +29,7 @@ Comment on docket CDC-2026-0892 closes on 31 July. CDC refused the previous roun
 
 ✍️ OUR OWN CALL, CORRECTED: on 25, 27 and 28 July we put the all-clear "around 27 August". Right on outcome, a month wrong on the date. Logged.
 
-🔗 This edition on the web: https://ogcollyns-creator.github.io/ea-hospitality-pulse/editions/pulse-2026-07-29-morning.html
+🔗 This edition on the web: https://eahospitalitypulse.com/editions/pulse-2026-07-29-morning.html
 — EA Hospitality Pulse | Daily intelligence for city, bush & beach properties
 
 ## WHATSAPP
@@ -51,7 +51,7 @@ Health Minister Baryomunsi ended the outbreak in Kampala on 28 July: 20 cases, 1
 *30* — days earlier than the diarised 27 August all-clear.
 
 🔗 Full analysis → t.me/africabusinessriskreview
-📖 Read on the web → https://ogcollyns-creator.github.io/ea-hospitality-pulse/editions/pulse-2026-07-29-morning.html
+📖 Read on the web → https://eahospitalitypulse.com/editions/pulse-2026-07-29-morning.html
 
 _Hongera Uganda._
 
@@ -75,7 +75,7 @@ We track this daily at EA Hospitality Pulse.
 
 **FIRST COMMENT** (post immediately after)
 
-📖 This edition in full: https://ogcollyns-creator.github.io/ea-hospitality-pulse/editions/pulse-2026-07-29-morning.html
+📖 This edition in full: https://eahospitalitypulse.com/editions/pulse-2026-07-29-morning.html
 📣 Daily briefs on Telegram: https://t.me/africabusinessriskreview
 💬 The 15-second version on WhatsApp: https://whatsapp.com/channel/0029VbCjul2KmCPTv8Qrh73b
-🗂 Archive, live travel advisory board and rate index: https://ogcollyns-creator.github.io/ea-hospitality-pulse
+🗂 Archive, live travel advisory board and rate index: https://eahospitalitypulse.com

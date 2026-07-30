@@ -50,7 +50,7 @@ Nothing resolved this week. Seventeen calls open. The two that matter most are P
 
 💬 What share of your 2027 forecast depends on guests from a neighbouring country — and have you ever stress-tested that line against a border notice?
 
-🔗 This edition on the web: https://ogcollyns-creator.github.io/ea-hospitality-pulse/editions/foresight-2026-07-26.html
+🔗 This edition on the web: https://eahospitalitypulse.com/editions/foresight-2026-07-26.html
 💼 This week's Big Read on LinkedIn: https://www.linkedin.com/company/ea-hospitality-pulse/
 
 — EA Hospitality Pulse | Daily intelligence for city, bush & beach properties
@@ -75,7 +75,7 @@ Rwanda's number one source market in H1 2026 was DR Congo — and DR Congo's Ebo
 *185,420* — visitors from DR Congo to Rwanda in the first six months of 2026, 12.5% of all arrivals and the country's largest single source market.
 
 🔗 Full Foresight → t.me/africabusinessriskreview
-📖 Read on the web → https://ogcollyns-creator.github.io/ea-hospitality-pulse/editions/foresight-2026-07-26.html
+📖 Read on the web → https://eahospitalitypulse.com/editions/foresight-2026-07-26.html
 
 _Wiki njema — plan for the market you actually have._
 
@@ -124,7 +124,7 @@ We publish this analysis daily — three briefs a day across Kenya, Uganda, Tanz
 
 ### FIRST COMMENT
 
-📖 This edition in full: https://ogcollyns-creator.github.io/ea-hospitality-pulse/editions/foresight-2026-07-26.html
+📖 This edition in full: https://eahospitalitypulse.com/editions/foresight-2026-07-26.html
 📣 Daily briefs on Telegram: https://t.me/africabusinessriskreview
 💬 The 15-second version on WhatsApp: https://whatsapp.com/channel/0029VbCjul2KmCPTv8Qrh73b
-🗂 Archive, live travel advisory board and rate index: https://ogcollyns-creator.github.io/ea-hospitality-pulse
+🗂 Archive, live travel advisory board and rate index: https://eahospitalitypulse.com

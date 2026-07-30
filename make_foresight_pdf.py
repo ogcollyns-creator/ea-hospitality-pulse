@@ -96,7 +96,7 @@ def main():
     pdf.line(pdf.l_margin,pdf.get_y(),pdf.l_margin+W,pdf.get_y()); pdf.ln(3)
     pdf.set_font("DJ","",8.5); pdf.set_text_color(*MUTED)
     pdf.multi_cell(W,4.6,"Get every brief — Telegram: t.me/africabusinessriskreview  |  "
-                        "LinkedIn: linkedin.com/company/ea-hospitality-pulse  |  Web: ogcollyns-creator.github.io/ea-hospitality-pulse\n"
+                        "LinkedIn: linkedin.com/company/ea-hospitality-pulse  |  Web: eahospitalitypulse.com\n"
                         "Kenya · Uganda · Tanzania · Zanzibar · Rwanda. Intelligence for city, bush & beach — so you can decide, not just react.")
     pdf.output(out)
     print("PDF written:", out)
