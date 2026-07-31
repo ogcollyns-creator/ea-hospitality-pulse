@@ -1,8 +1,8 @@
 window.LEDGER = {
- "updated": "2026-07-30 16:54",
+ "updated": "2026-07-31 08:37",
  "stats": {
-  "total": 39,
-  "open": 37,
+  "total": 41,
+  "open": 39,
   "resolved": 2,
   "correct": 1,
   "partial": 1,
@@ -328,6 +328,38 @@ window.LEDGER = {
    "resolved_date": "",
    "evidence": "",
    "source_url": "",
+   "overdue": false
+  },
+  {
+   "id": "P041",
+   "made_date": "2026-07-31",
+   "edition": "Morning Brief",
+   "claim": "The 2026 Yas Zanzibar International Marathon will be held on 25 October 2026 (not 20 September 2026)",
+   "resolution_criteria": "The Citizen TZ or the official Yas/marathon channel confirms a 25 October 2026 race date. If held on 20 Sept or another date the call is incorrect/partial",
+   "resolve_by": "2026-10-26",
+   "market": "TZ",
+   "segment": "Beach/City",
+   "confidence": "Reported",
+   "status": "open",
+   "resolved_date": "",
+   "evidence": "",
+   "source_url": "https://www.thecitizen.co.tz/tanzania/sports/zanzibar-marathon-targets-sports-tourism-set-for-october-25-5539466",
+   "overdue": false
+  },
+  {
+   "id": "P040",
+   "made_date": "2026-07-31",
+   "edition": "Morning Brief",
+   "claim": "Within 90 days of the 30 July 2026 CEO appointment (by 29 Oct 2026), Rwanda's OPM/RDB or ATL Holding will announce at least one named hotel or commercial investor/tender for Bugesera 'Airport City' — confirming the appointment marks a shift from masterplan to procurement",
+   "resolution_criteria": "A search of OPM Rwanda, RDB, ATL Holding and KT Press/New Times between 30 Jul and 29 Oct 2026 returning a named hotel or commercial Airport City tender/investor. If none surfaces the call is incorrect",
+   "resolve_by": "2026-10-29",
+   "market": "RW",
+   "segment": "City/Bush",
+   "confidence": "Early signal",
+   "status": "open",
+   "resolved_date": "",
+   "evidence": "",
+   "source_url": "https://en.webrwanda.com/2026/07/brig-gen-munyengango-appointed-atl-ceo.html",
    "overdue": false
   },
   {
