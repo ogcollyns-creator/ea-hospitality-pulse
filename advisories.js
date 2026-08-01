@@ -2,7 +2,7 @@
 // Levels reflect MAIN TOURIST AREAS; regional exceptions are in the notes.
 // Maintained by the scheduled Pulse task; verify against the official source before travel.
 window.ADVISORIES = {
-  updated: "24 July 2026",
+  updated: "1 August 2026 (evening)",
   rows: [
     { code:"KE", name:"Kenya", flag:"🇰🇪",
       us:{ level:2, note:"Terrorism & crime. Higher risk on the Somalia border and parts of the north coast (Lamu)." },

@@ -1,8 +1,8 @@
 window.LEDGER = {
- "updated": "2026-08-01 15:15",
+ "updated": "2026-08-01 19:18",
  "stats": {
-  "total": 43,
-  "open": 41,
+  "total": 44,
+  "open": 42,
   "resolved": 2,
   "correct": 1,
   "partial": 1,
@@ -88,6 +88,22 @@ window.LEDGER = {
    "resolved_date": "",
    "evidence": "",
    "source_url": "https://travel.state.gov/content/travel/en/traveladvisories/traveladvisories/kenya-travel-advisory.html",
+   "overdue": false
+  },
+  {
+   "id": "P044",
+   "made_date": "2026-08-01",
+   "edition": "Evening Wrap",
+   "claim": "The US CDC Section 362 entry suspension covering DRC, Uganda and South Sudan will be EXTENDED beyond 12 August 2026 rather than lifted — DRC's uncontrolled transmission (contact tracing 78.3%) keeps the regional ban in place at its next renewal",
+   "resolution_criteria": "The US CDC port-health order/Federal Register checked on or around 13 Aug 2026 shows the suspension renewed with an end date after 12 Aug 2026. If the order lapses or all three countries are dropped on or before 12 Aug the call is incorrect",
+   "resolve_by": "2026-08-13",
+   "market": "Regional",
+   "segment": "City/Bush",
+   "confidence": "Reported",
+   "status": "open",
+   "resolved_date": "",
+   "evidence": "",
+   "source_url": "https://www.cdc.gov/port-health/legal-authorities/evdorder.html",
    "overdue": false
   },
   {

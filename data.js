@@ -1,5 +1,14 @@
 window.EDITIONS = [
  {
+  "id": "pulse-2026-08-01-evening",
+  "date": "2026-08-01",
+  "dateDisplay": "Saturday, 1 August 2026",
+  "edition": "Evening Wrap",
+  "editionKey": "evening",
+  "summary": "Congo's outbreak just became a number your guests will Google — and it isn't in your country.",
+  "bodyHtml": "<p><span class=\"meta-line\">🏨 EA HOSPITALITY PULSE — Evening Wrap</span><br><span class=\"meta-line\">📅 Saturday, 1 August 2026 | 🇨🇩🇺🇬🇷🇼🌍</span></p>\n<p>Congo&#x27;s outbreak just became a number your guests will Google — and it isn&#x27;t in your country.<br>━━━━━━━━━<br><span class=\"item-head\">1️⃣ DRC EBOLA NOW THE SECOND-LARGEST ON RECORD</span><br>DR Congo confirmed 3,532 cases and 1,556 deaths on 31 July (DRC Ministry of Communications, via Al Jazeera &amp; CNN, 31 Jul), passing the 2018–20 eastern DRC outbreak&#x27;s 3,481 total — which took nearly two years. This took about eleven weeks. Africa CDC calls the outbreak &quot;uncontrolled,&quot; with contact tracing at 78.3% against the 90–95% needed to contain it (Xinhua, 31 Jul).<br><span class=\"sowhat\">🎯 So what: the virus is ~1,500km from a Mara camp or a Zanzibar beach, but the headline is in your source markets tonight. Brief reservations now; measure booking pace, not just cancellations.</span><br><span class=\"tagline\">🏷 Bush/Beach/City | Regional | Confirmed</span></p>\n<p><span class=\"item-head\">2️⃣ THE US BAN HOLDS TO 12 AUGUST — AND THE MATHS SAYS LONGER</span><br>Washington&#x27;s entry suspension for foreign nationals present in DRC, Uganda or South Sudan in the prior 21 days runs to 4:59pm EDT on 12 Aug (US CDC order, per Fragomen, Jul). With DRC tracing below 80% and cases still climbing, an on-schedule lift looks unlikely. US posture today: Uganda Level 4, Rwanda Level 3 (zero domestic cases), Kenya and Tanzania Level 2. UK positions are softer and regional.<br><span class=\"sowhat\">🎯 So what: don&#x27;t quote US groups a &quot;lifted ban.&quot; Sell UK, German and intra-African demand on Uganda&#x27;s clean declaration; caveat every US-linked enquiry past 12 Aug with a flexible-cancellation clause.</span><br><span class=\"tagline\">🏷 City/Bush | UG/RW/KE/TZ | Confirmed</span></p>\n<p><span class=\"meta-line\">💬 Are you seeing pace soften in clean markets — Zanzibar, the Mara, Nyungwe — on a Congo headline?</span></p>\n<p>🔗 This edition on the web: https://eahospitalitypulse.com/editions/pulse-2026-08-01-evening.html<br>💼 Today&#x27;s Big Read on LinkedIn: https://www.linkedin.com/company/ea-hospitality-pulse/<br>— EA Hospitality Pulse | Daily intelligence for city, bush &amp; beach properties</p>"
+ },
+ {
   "id": "pulse-2026-08-01-morning",
   "date": "2026-08-01",
   "dateDisplay": "Saturday, 1 August 2026",
@@ -252,6 +261,39 @@ window.INSIGHTS = [
   "dateDisplay": "Saturday, 1 August 2026",
   "edition": "Morning Brief",
   "editionKey": "morning"
+ },
+ {
+  "headline": "DRC EBOLA NOW THE SECOND-LARGEST ON RECORD",
+  "body": "DR Congo confirmed 3,532 cases and 1,556 deaths on 31 July (DRC Ministry of Communications, via Al Jazeera & CNN, 31 Jul), passing the 2018–20 eastern DRC outbreak's 3,481 total — which took nearly two years. This took about eleven weeks. Africa CDC calls the outbreak \"uncontrolled,\" with contact tracing at 78.3% against the 90–95% needed to contain it (Xinhua, 31 Jul).",
+  "sowhat": "🎯 So what: the virus is ~1,500km from a Mara camp or a Zanzibar beach, but the headline is in your source markets tonight. Brief reservations now; measure booking pace, not just cancellations.",
+  "segments": [
+   "city",
+   "bush",
+   "beach"
+  ],
+  "countries": "Regional",
+  "confidence": "Confirmed",
+  "source": "pulse-2026-08-01-evening",
+  "date": "2026-08-01",
+  "dateDisplay": "Saturday, 1 August 2026",
+  "edition": "Evening Wrap",
+  "editionKey": "evening"
+ },
+ {
+  "headline": "THE US BAN HOLDS TO 12 AUGUST — AND THE MATHS SAYS LONGER",
+  "body": "Washington's entry suspension for foreign nationals present in DRC, Uganda or South Sudan in the prior 21 days runs to 4:59pm EDT on 12 Aug (US CDC order, per Fragomen, Jul). With DRC tracing below 80% and cases still climbing, an on-schedule lift looks unlikely. US posture today: Uganda Level 4, Rwanda Level 3 (zero domestic cases), Kenya and Tanzania Level 2. UK positions are softer and regional.",
+  "sowhat": "🎯 So what: don't quote US groups a \"lifted ban.\" Sell UK, German and intra-African demand on Uganda's clean declaration; caveat every US-linked enquiry past 12 Aug with a flexible-cancellation clause.",
+  "segments": [
+   "city",
+   "bush"
+  ],
+  "countries": "UG/RW/KE/TZ",
+  "confidence": "Confirmed",
+  "source": "pulse-2026-08-01-evening",
+  "date": "2026-08-01",
+  "dateDisplay": "Saturday, 1 August 2026",
+  "edition": "Evening Wrap",
+  "editionKey": "evening"
  },
  {
   "headline": "RWANDA NAMES A DEDICATED CEO FOR BUGESERA'S \"AIRPORT CITY\"",
@@ -1239,4 +1281,4 @@ window.INSIGHTS = [
   "editionKey": "evening"
  }
 ];
-window.BUILT_AT = "2026-08-01 15:15";
+window.BUILT_AT = "2026-08-01 19:18";
