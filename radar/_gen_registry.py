@@ -245,6 +245,14 @@ add("dev-costar","CoStar / STR hospitality news","https://www.costar.com/news",2
     "Occupancy and ADR benchmarking commentary for African markets.",slots=E)
 add("dev-jll-hotels","JLL Hotels & Hospitality research","https://www.jll.com/en-us/insights",2,"GLOBAL","research","html",1440,21,
     "Transaction and investment flow into African hospitality.",slots=E)
+add("dev-aleph","Aleph Hospitality news","https://alephhospitality.com/news/",2,"REG","hotel-group","html",1440,14,
+    "Africa-focused third-party operator; signs the mid-market and Kigali/Nairobi deals the global chains skip.",slots=M)
+add("dev-tophotel","TOPHOTELNEWS development pipeline","https://tophotel.news/category/construction-and-development/",2,"GLOBAL","trade","html",720,7,
+    "Development-desk trade press; often carries a signing before the operator's own newsroom does.",slots=M)
+add("dev-choice","Choice Hotels newsroom","https://media.choicehotels.com/",2,"GLOBAL","hotel-group","html",1440,14,
+    "Entered Africa in 2026 with three Kenyan franchises including a soft-brand inside the Mara.",slots=M)
+add("dev-luxcollective","The Lux Collective press","https://theluxcollective.com/press/",3,"REG","hotel-group","html",2880,21,
+    "Running Rwanda's five-property ultra-luxury circuit; a bellwether for premium bush supply.",slots=E)
 
 # ---------------------------------------------------------------- TRADE & REGIONAL PRESS
 add("np-businessdaily","Business Daily Africa","https://www.businessdailyafrica.com/",2,"KE","press","html",60,0,
@@ -309,7 +317,32 @@ ids = [s["id"] for s in S]
 dupes = [k for k,v in collections.Counter(ids).items() if v > 1]
 assert not dupes, f"duplicate ids: {dupes}"
 print(json.dumps(reg, indent=1)[:1] and "")
-with open("/tmp/eainspect/repo/radar/registry.json","w") as f:
+
+# ---------------------------------------------------------------- RESTORED HAND-ADDS
+# Added directly to registry.json during live coverage (Ebola / US advisory work) and
+# ported back here so a regeneration never silently drops them again.
+add("adv-us-ea","US State Dept travel advisories (EA feed)","https://travel.state.gov/_res/rss/TAsTWs.xml",1,"REG","advisory","rss",120,1,
+    "Official RSS of all US advisories — read Kenya/Uganda/Tanzania/Rwanda levels and divergence straight from the feed.",slots=ALL)
+add("us-cdc-evdorder","CDC port health — s.362 Ebola entry orders","https://www.cdc.gov/port-health/legal-authorities/evdorder.html",1,"REG","advisory","html",180,14,
+    "The signed 30-day entry-suspension orders land here before trade press notices. Each carries a hard expiry date and a comment deadline.",segments=('city', 'bush'),slots=E)
+add("us-fedreg-cdc","Federal Register — CDC notices","https://www.federalregister.gov/agencies/centers-for-disease-control-and-prevention",1,"REG","advisory","html",180,10,
+    "Docket numbers, comment windows and the response-to-comments section that reveals which arguments the US has already rejected.",segments=('city', 'bush'),slots=E)
+add("ug-evd-dashboard","Uganda MoH EVD daily dashboard","https://evd-daily.health.go.ug/",1,"UG","health","html",120,1,
+    "Official daily case, admission, contact-tracing and point-of-entry screening counts — updated before WHO and press.",segments=('city', 'bush'),slots=ALL)
+add("ug-mediacentre","Uganda Media Centre — press room","https://mediacentre.go.ug/press-room/",1,"UG","gov-comms","html",120,1,
+    "Where Uganda government declarations land first — the 28 Jul 2026 Ebola end-of-outbreak declaration was published here before wire pickup. Note: page is client-rendered, so treat as page-change granularity.",segments=('city', 'bush'),slots=ALL)
+add("ug-moh-news","Uganda Ministry of Health — news","https://health.go.ug/",1,"UG","health","html",120,1,
+    "Primary source for Ugandan outbreak status, entry-screening changes and end-of-outbreak declarations.",segments=('city', 'bush'),slots=ALL)
+add("ecdc-ebola","ECDC — DRC/Uganda Ebola outbreak page","https://www.ecdc.europa.eu/en/ebola-outbreak-democratic-republic-congo-and-uganda",1,"GLOBAL","health","html",180,2,
+    "Keeps a running confirmed-case and death count for the DRC/Uganda outbreak — the number European source markets and insurers cite.",segments=('city', 'bush'),slots=('morning', 'evening'))
+add("ke-usembassy-alerts","US Embassy Nairobi — alerts & messages","https://ke.usembassy.gov/category/alert/",1,"KE","advisory","html",120,2,
+    "Demonstration and security alerts for US citizens post here first — ahead of any revision to the rendered travel.state.gov page, as the 29 Jul 2026 Kenya advisory re-issue showed.",slots=ALL)
+add("osac-kenya","OSAC — Kenya reports & advisory notices","https://www.osac.gov/Country/Kenya/Content",1,"KE","advisory","html",360,3,
+    "OSAC republishes State advisory changes with the operative wording| useful for confirming exactly what moved when travel.state.gov lags its own feed.",slots=M)
+
+import os
+_OUT = os.path.join(os.path.dirname(os.path.abspath(__file__)), "registry.json")
+with open(_OUT, "w") as f:
     json.dump(reg, f, indent=1)
 
 by_tier = collections.Counter(s["tier"] for s in S)

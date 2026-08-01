@@ -25,6 +25,7 @@
 <script type="application/ld+json">{"@context": "https://schema.org", "@type": "Dataset", "name": "EA Pulse Cost-Side Index", "description": "A weekly-tracked set of cost inputs affecting East African hospitality margins — fuel, currency and energy costs across five markets, each figure attributed to a named source and date.", "url": "https://eahospitalitypulse.com/index.html#costs", "creator": {"@type": "Organization", "name": "EA Hospitality Pulse", "url": "https://eahospitalitypulse.com/"}, "license": "https://eahospitalitypulse.com/republish.html", "isAccessibleForFree": true, "spatialCoverage": ["Kenya", "Uganda", "Tanzania", "Zanzibar", "Rwanda"], "temporalCoverage": "2026-07-24/..", "variableMeasured": ["Fuel price", "Currency rate", "Energy cost", "Food cost"]}</script>
 <script type="application/ld+json">{"@context": "https://schema.org", "@type": "Dataset", "name": "EA Pulse Rules, Fees & Levies Tracker", "description": "A living register of entry rules, visa and ETA fees, park and permit prices, levies and surcharges across Kenya, Uganda, Tanzania, Zanzibar and Rwanda, each entry marked verified or flagged for re-confirmation against its official source.", "url": "https://eahospitalitypulse.com/index.html#rules", "creator": {"@type": "Organization", "name": "EA Hospitality Pulse", "url": "https://eahospitalitypulse.com/"}, "license": "https://eahospitalitypulse.com/republish.html", "isAccessibleForFree": true, "spatialCoverage": ["Kenya", "Uganda", "Tanzania", "Zanzibar", "Rwanda"], "temporalCoverage": "2026-07-24/..", "variableMeasured": ["Fee amount", "Effective date", "Verification status", "Applicable market"]}</script>
 <script type="application/ld+json">{"@context": "https://schema.org", "@type": "Dataset", "name": "EA Pulse Connectivity Tracker", "description": "Official airport traffic figures and confirmed airline route events across East Africa's five markets — tracking the seats that determine arrivals, without publishing unverifiable seat-capacity estimates.", "url": "https://eahospitalitypulse.com/index.html#connect", "creator": {"@type": "Organization", "name": "EA Hospitality Pulse", "url": "https://eahospitalitypulse.com/"}, "license": "https://eahospitalitypulse.com/republish.html", "isAccessibleForFree": true, "spatialCoverage": ["Kenya", "Uganda", "Tanzania", "Zanzibar", "Rwanda"], "temporalCoverage": "2026-07-24/..", "variableMeasured": ["Airport passenger traffic", "Route addition/cancellation events"]}</script>
+<script type="application/ld+json">{"@context": "https://schema.org", "@type": "Dataset", "name": "EA Pulse Development Pipeline Tracker", "description": "New hotel signings, brand entries, construction progress and openings across Kenya, Uganda, Tanzania, Zanzibar and Rwanda, combining the W Hospitality Group branded chain-pipeline benchmark with individually sourced and verified project records.", "url": "https://eahospitalitypulse.com/index.html#pipeline", "creator": {"@type": "Organization", "name": "EA Hospitality Pulse", "url": "https://eahospitalitypulse.com/"}, "license": "https://eahospitalitypulse.com/republish.html", "isAccessibleForFree": true, "spatialCoverage": ["Kenya", "Uganda", "Tanzania", "Zanzibar", "Rwanda"], "temporalCoverage": "2026-08-01/..", "variableMeasured": ["Pipeline rooms", "Properties in pipeline", "Rooms under construction", "Share under construction", "Project status", "Anticipated opening year", "Operating brand"]}</script>
 <style>
   :root{
     --sand:#f6f1e7; --sand-2:#efe7d6; --ink:#1f2421; --muted:#6b6656;
@@ -324,8 +325,11 @@
 
   footer.site{padding:28px 0;text-align:center;color:var(--muted);font-family:'Helvetica Neue',Arial,sans-serif;font-size:13px}
   @media(max-width:720px){.segs{grid-template-columns:1fr}.about-grid{grid-template-columns:1fr}}
+  .pl-rank{font-family:'Helvetica Neue',Arial,sans-serif;font-size:10.5px;font-weight:700;text-transform:uppercase;letter-spacing:.5px;background:var(--gold);color:#231a06;padding:2px 7px;border-radius:20px;margin-left:6px;vertical-align:middle}
+  .pl-brand{font-family:'Helvetica Neue',Arial,sans-serif;font-size:12px;font-weight:600;color:var(--muted);background:var(--sand-2);padding:2px 8px;border-radius:20px;margin-left:4px;white-space:nowrap}
+  .pl-detail{font-size:14px;color:var(--muted);margin:6px 0 8px;line-height:1.55}
 </style>
-<!--BUILD_STAMP:20260801-1918--></head>
+<!--BUILD_STAMP:20260801-2041--></head>
 <body>
 <header class="site">
   <div class="wrap topbar">
@@ -433,9 +437,9 @@
     <div><div class="kicker">Live reference</div><h2>Intelligence tools</h2></div>
   </div>
   <p style="max-width:72ch;margin:0 0 14px;color:var(--muted);font-size:15px">
-    Six live datasets we maintain for the region — advisory levels, entry rules and fees, our proprietary rate index, operating costs, air connectivity, and the destinations competing for your guest.
+    Seven live datasets we maintain for the region — advisory levels, entry rules and fees, our proprietary rate index, operating costs, air connectivity, the development pipeline, and the destinations competing for your guest.
   </p>
-  <div class="tabs"><button class="tab active" data-pane="advisories">🚦 Travel advisories</button><button class="tab" data-pane="rules">📋 Rules &amp; fees</button><button class="tab" data-pane="rateindex">📊 Rate Index</button><button class="tab" data-pane="costs">💰 Costs &amp; calendar</button><button class="tab" data-pane="connect">✈️ Connectivity</button><button class="tab" data-pane="rivals">🌍 Rival destinations</button></div>
+  <div class="tabs"><button class="tab active" data-pane="advisories">🚦 Travel advisories</button><button class="tab" data-pane="rules">📋 Rules &amp; fees</button><button class="tab" data-pane="rateindex">📊 Rate Index</button><button class="tab" data-pane="costs">💰 Costs &amp; calendar</button><button class="tab" data-pane="connect">✈️ Connectivity</button><button class="tab" data-pane="pipeline">🏗️ Pipeline</button><button class="tab" data-pane="rivals">🌍 Rival destinations</button></div>
   <div class="tabwrap"><div class="pane active" id="advisories"><div class="adv-head">
     <div><div class="kicker">Know before you sell</div><h2>Travel advisory status board</h2></div>
     <span id="adv-updated"></span>
@@ -493,7 +497,17 @@
   <div id="cn-traffic" class="ct-grid"></div>
   <h3 style="margin:24px 0 8px;font-size:18px">Route events</h3>
   <div id="cn-routes"></div>
-  <p class="method"><b>Scope note:</b> true seats-per-week data sits behind commercial aviation databases, so we don't publish a seat count we can't verify. What's here is official traffic (lagging but authoritative) and confirmed route events (forward-looking and actionable).</p></div><div class="pane" id="rivals"><div class="adv-head">
+  <p class="method"><b>Scope note:</b> true seats-per-week data sits behind commercial aviation databases, so we don't publish a seat count we can't verify. What's here is official traffic (lagging but authoritative) and confirmed route events (forward-looking and actionable).</p></div><div class="pane" id="pipeline"><div class="adv-head">
+    <div><span class="ri-badge">Supply watch</span><h2>Development pipeline</h2></div>
+    <span id="pl-updated"></span>
+  </div>
+  <p style="max-width:72ch;margin:0 0 6px;color:var(--muted);font-size:15px">
+    Who is building what, where, and when it opens. New supply is the slowest-moving threat to your rate &mdash; and the most predictable, if someone is counting.
+  </p>
+  <div id="pl-markets" class="ct-grid"></div>
+  <h3 style="margin:26px 0 8px;font-size:18px">Signings, openings &amp; brand entries</h3>
+  <div id="pl-projects"></div>
+  <p class="method" id="pl-caveat"></p></div><div class="pane" id="rivals"><div class="adv-head">
     <div><span class="ri-badge">Know the competition</span><h2>Competitive destinations</h2></div>
     <span id="rv-updated"></span>
   </div>
@@ -555,6 +569,8 @@
           <a href="https://www.linkedin.com/company/ea-hospitality-pulse/" data-channel="linkedin" target="_blank" rel="noopener">LinkedIn <span>→</span></a>
           <a href="https://whatsapp.com/channel/0029VbCjul2KmCPTv8Qrh73b" data-channel="whatsapp" target="_blank" rel="noopener">WhatsApp Channel <span>→</span></a>
           <a href="survey.html" style="background:rgba(200,137,47,.35)">Operator Sentiment Survey <span>→</span></a>
+          <a href="survey-pay.html" style="background:rgba(200,137,47,.35)">Pay Benchmark Survey <span>→</span></a>
+          <a href="survey-agents.html" style="background:rgba(200,137,47,.35)">Agent Survey <span>→</span></a>
         </div>
       </div>
     </div>
@@ -587,6 +603,7 @@
 <script>document.write('<scr'+'ipt src="costs.js?t='+Date.now()+'"></scr'+'ipt>');</script>
 <script>document.write('<scr'+'ipt src="calendar.js?t='+Date.now()+'"></scr'+'ipt>');</script>
 <script>document.write('<scr'+'ipt src="connectivity.js?t='+Date.now()+'"></scr'+'ipt>');</script>
+<script>document.write('<scr'+'ipt src="pipeline.js?t='+Date.now()+'"></scr'+'ipt>');</script>
 <script>document.write('<scr'+'ipt src="rivals.js?t='+Date.now()+'"></scr'+'ipt>');</script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/4.4.1/chart.umd.min.js"></script>
 <script>document.write('<scr'+'ipt src="guides.js?t='+Date.now()+'"></scr'+'ipt>');</script>
@@ -944,6 +961,38 @@
       '<div class="st">'+x.status+' · '+x.effective+' · '+x.segment+' · '+x.source+'</div>'+
       '<div class="im">'+x.impact+'</div></div>').join('');
   }
+  function renderPipeline(){
+    const P=window.PIPELINE; if(!P) return;
+    const u=document.getElementById('pl-updated'); if(u) u.textContent='Updated '+P.updated;
+    const m=document.getElementById('pl-markets');
+    if(m) m.innerHTML=P.markets.map(i=>{
+      const hasData = i.rooms!==null && i.rooms!==undefined;
+      return '<div class="ct"><div class="g">'+fx(i.flag)+' '+i.country+
+        (i.africaRank?' <span class="pl-rank">#'+i.africaRank+' in Africa</span>':'')+'</div>'+
+        '<div class="m">Branded chain pipeline</div>'+
+        '<div class="v">'+(hasData? i.rooms.toLocaleString()+' rooms' : 'Not in top 10')+'</div>'+
+        (hasData? '<div class="c up">'+i.ucPct+'% under construction</div>'+
+                  '<div class="p">'+i.hotels+' properties · avg '+i.avgSize+' rooms</div>'
+                : '<div class="c flat">No top-10 placing</div><div class="p">&nbsp;</div>')+
+        '<div class="n">'+i.note+'</div><div class="s">Source: '+i.source+'</div></div>';
+    }).join('');
+    const pr=document.getElementById('pl-projects');
+    if(pr) pr.innerHTML=P.projects.map(x=>{
+      const bits=[x.status];
+      if(x.opening) bits.push('Opens '+x.opening);
+      if(x.rooms) bits.push(x.rooms+' rooms');
+      if(x.signed) bits.push('Signed '+x.signed);
+      bits.push(x.segment);
+      return '<div class="rt '+(x.flagged==='action'?'up':'flat')+'">'+
+        '<div class="c">'+fx(x.flag)+' '+x.property+' <span class="pl-brand">'+x.brand+'</span>'+
+        (x.verified?'':' <span class="unver-tag">VERIFY</span>')+'</div>'+
+        '<div class="st">'+bits.join(' · ')+' · '+x.source+'</div>'+
+        '<div class="pl-detail">'+x.detail+'</div>'+
+        '<div class="im"><b>So what:</b> '+x.impact+'</div></div>';
+    }).join('');
+    const cv=document.getElementById('pl-caveat');
+    if(cv) cv.innerHTML='<b>Scope note:</b> '+P.benchmarkNote+' '+P.caveat;
+  }
   function renderRivals(){
     const R=window.RIVALS; if(!R) return;
     const u=document.getElementById('rv-updated'); if(u) u.textContent='Updated '+R.updated;
@@ -1007,6 +1056,7 @@
   renderLatest();
   initTabs();
   renderConnect();
+  renderPipeline();
   renderRivals();
   renderCosts();
   renderRules();

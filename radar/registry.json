@@ -1,7 +1,7 @@
 {
  "version": 1,
  "updated": "2026-07-28",
- "note": "Upstream-weighted source registry for the EA Hospitality Pulse radar. tier 1 = primary/official, 2 = reputable secondary, 3 = weak (lead only, never publishable alone). lead_days = typical head start over mainstream coverage. Sources that fail repeatedly are surfaced by monitor.py rather than silently dropped. URLs corrected 28 Jul 2026 after first live scan. Added 28 Jul 2026 (evening): US CDC s.362 order page, Federal Register CDC notices feed, and the Uganda MoH EVD daily dashboard — the radar had no source watching US federal entry-restriction instruments, which is where the Uganda ban actually lives.",
+ "note": "Upstream-weighted source registry for the EA Hospitality Pulse radar. tier 1 = primary/official, 2 = reputable secondary, 3 = weak (lead only, never publishable alone). lead_days = typical head start over mainstream coverage. Sources that fail repeatedly are surfaced by monitor.py rather than silently dropped.",
  "sources": [
   {
    "id": "ke-gazette",
@@ -84,7 +84,7 @@
    "slots": [
     "morning"
    ],
-   "why": "The actual price table. Diarised, knowable date — be first to price the impact.",
+   "why": "The actual price table. Diarised, knowable date \u2014 be first to price the impact.",
    "frag": ""
   },
   {
@@ -189,7 +189,7 @@
    "slots": [
     "morning"
    ],
-   "why": "Authoritative Kenyan arrivals by source market — the number to quote.",
+   "why": "Authoritative Kenyan arrivals by source market \u2014 the number to quote.",
    "frag": ""
   },
   {
@@ -254,7 +254,7 @@
    "slots": [
     "evening"
    ],
-   "why": "Park fees, closures and conservancy rules — direct lodge cost and access impact.",
+   "why": "Park fees, closures and conservancy rules \u2014 direct lodge cost and access impact.",
    "frag": ""
   },
   {
@@ -296,12 +296,12 @@
    "slots": [
     "evening"
    ],
-   "why": "Tourism levy administration — a direct line item on every guest bill.",
+   "why": "Tourism levy administration \u2014 a direct line item on every guest bill.",
    "frag": ""
   },
   {
    "id": "ke-kcaa",
-   "name": "KCAA — aeronautical information & circulars",
+   "name": "KCAA \u2014 aeronautical information & circulars",
    "url": "https://kcaa.or.ke/",
    "tier": 1,
    "country": "KE",
@@ -339,6 +339,27 @@
     "midday"
    ],
    "why": "Terminal capacity, disruption notices and traffic statistics.",
+   "frag": ""
+  },
+  {
+   "id": "ke-kaa-tenders",
+   "name": "KAA tenders",
+   "url": "https://www.kaa.go.ke/corporate/tenders/",
+   "tier": 1,
+   "country": "KE",
+   "category": "tender",
+   "method": "html",
+   "cadence_min": 720,
+   "lead_days": 30,
+   "segments": [
+    "city",
+    "bush",
+    "beach"
+   ],
+   "slots": [
+    "evening"
+   ],
+   "why": "Airport works signal capacity and disruption years ahead.",
    "frag": ""
   },
   {
@@ -408,7 +429,7 @@
   },
   {
    "id": "ke-parliament",
-   "name": "Parliament of Kenya — bills & papers",
+   "name": "Parliament of Kenya \u2014 bills & papers",
    "url": "http://www.parliament.go.ke/",
    "tier": 1,
    "country": "KE",
@@ -424,7 +445,7 @@
    "slots": [
     "evening"
    ],
-   "why": "Finance Bills and committee reports — the earliest sight of a tax change.",
+   "why": "Finance Bills and committee reports \u2014 the earliest sight of a tax change.",
    "frag": ""
   },
   {
@@ -829,7 +850,7 @@
    "slots": [
     "evening"
    ],
-   "why": "Park entry fees and access rules — the biggest single line in a northern-circuit quote.",
+   "why": "Park entry fees and access rules \u2014 the biggest single line in a northern-circuit quote.",
    "frag": ""
   },
   {
@@ -936,7 +957,7 @@
     "midday",
     "evening"
    ],
-   "why": "Publishes numbered travel advisories as PDFs — pure upstream, rarely reported.",
+   "why": "Publishes numbered travel advisories as PDFs \u2014 pure upstream, rarely reported.",
    "frag": ""
   },
   {
@@ -1018,7 +1039,7 @@
    "slots": [
     "morning"
    ],
-   "why": "Monthly arrivals with source-market split — the granular number nobody else quotes on time.",
+   "why": "Monthly arrivals with source-market split \u2014 the granular number nobody else quotes on time.",
    "frag": ""
   },
   {
@@ -1058,7 +1079,7 @@
    "slots": [
     "evening"
    ],
-   "why": "Infrastructure levy and hotel tax changes — a direct per-guest cost.",
+   "why": "Infrastructure levy and hotel tax changes \u2014 a direct per-guest cost.",
    "frag": ""
   },
   {
@@ -1251,7 +1272,7 @@
     "midday",
     "evening"
    ],
-   "why": "Entry screening and DRC-border health measures — Rwanda moves first and hardest.",
+   "why": "Entry screening and DRC-border health measures \u2014 Rwanda moves first and hardest.",
    "frag": ""
   },
   {
@@ -1339,7 +1360,7 @@
     "midday",
     "evening"
    ],
-   "why": "Formal event notifications — the trigger for advisory changes.",
+   "why": "Formal event notifications \u2014 the trigger for advisory changes.",
    "frag": ""
   },
   {
@@ -1390,7 +1411,7 @@
   },
   {
    "id": "reliefweb-ea",
-   "name": "ReliefWeb — East Africa updates",
+   "name": "ReliefWeb \u2014 East Africa updates",
    "url": "https://reliefweb.int/updates/rss.xml?view=headlines",
    "tier": 2,
    "country": "REG",
@@ -1409,6 +1430,29 @@
     "evening"
    ],
    "why": "Aggregates ministry and WHO reporting, often hours ahead of anyone else.",
+   "frag": ""
+  },
+  {
+   "id": "cdc-travel-notices",
+   "name": "US CDC travel health notices",
+   "url": "https://wwwnc.cdc.gov/travel/notices",
+   "tier": 1,
+   "country": "GLOBAL",
+   "category": "health",
+   "method": "html",
+   "cadence_min": 180,
+   "lead_days": 2,
+   "segments": [
+    "city",
+    "bush",
+    "beach"
+   ],
+   "slots": [
+    "morning",
+    "midday",
+    "evening"
+   ],
+   "why": "A CDC notice reshapes US booking behaviour independently of State Department levels.",
    "frag": ""
   },
   {
@@ -1431,7 +1475,7 @@
     "midday",
     "evening"
    ],
-   "why": "European view — drives German, Italian and Polish charter sentiment to Zanzibar.",
+   "why": "European view \u2014 drives German, Italian and Polish charter sentiment to Zanzibar.",
    "frag": ""
   },
   {
@@ -1458,8 +1502,31 @@
    "frag": ""
   },
   {
+   "id": "adv-us-kenya",
+   "name": "US State Dept advisory \u2014 Kenya",
+   "url": "https://travel.state.gov/content/travel/en/traveladvisories/traveladvisories/kenya-travel-advisory.html",
+   "tier": 1,
+   "country": "KE",
+   "category": "advisory",
+   "method": "html",
+   "cadence_min": 60,
+   "lead_days": 1,
+   "segments": [
+    "city",
+    "bush",
+    "beach"
+   ],
+   "slots": [
+    "morning",
+    "midday",
+    "evening"
+   ],
+   "why": "Read the page, not news about it: level, exact geography, stated grounds.",
+   "frag": ""
+  },
+  {
    "id": "adv-uk-kenya",
-   "name": "UK FCDO advice — Kenya",
+   "name": "UK FCDO advice \u2014 Kenya",
    "url": "https://www.gov.uk/foreign-travel-advice/kenya",
    "tier": 1,
    "country": "KE",
@@ -1481,8 +1548,31 @@
    "frag": ""
   },
   {
+   "id": "adv-us-uganda",
+   "name": "US State Dept advisory \u2014 Uganda",
+   "url": "https://travel.state.gov/content/travel/en/traveladvisories/traveladvisories/uganda-travel-advisory.html",
+   "tier": 1,
+   "country": "UG",
+   "category": "advisory",
+   "method": "html",
+   "cadence_min": 60,
+   "lead_days": 1,
+   "segments": [
+    "city",
+    "bush",
+    "beach"
+   ],
+   "slots": [
+    "morning",
+    "midday",
+    "evening"
+   ],
+   "why": "Read the page, not news about it: level, exact geography, stated grounds.",
+   "frag": ""
+  },
+  {
    "id": "adv-uk-uganda",
-   "name": "UK FCDO advice — Uganda",
+   "name": "UK FCDO advice \u2014 Uganda",
    "url": "https://www.gov.uk/foreign-travel-advice/uganda",
    "tier": 1,
    "country": "UG",
@@ -1504,8 +1594,31 @@
    "frag": ""
   },
   {
+   "id": "adv-us-tanzania",
+   "name": "US State Dept advisory \u2014 Tanzania",
+   "url": "https://travel.state.gov/content/travel/en/traveladvisories/traveladvisories/tanzania-travel-advisory.html",
+   "tier": 1,
+   "country": "TZ",
+   "category": "advisory",
+   "method": "html",
+   "cadence_min": 60,
+   "lead_days": 1,
+   "segments": [
+    "city",
+    "bush",
+    "beach"
+   ],
+   "slots": [
+    "morning",
+    "midday",
+    "evening"
+   ],
+   "why": "Read the page, not news about it: level, exact geography, stated grounds.",
+   "frag": ""
+  },
+  {
    "id": "adv-uk-tanzania",
-   "name": "UK FCDO advice — Tanzania",
+   "name": "UK FCDO advice \u2014 Tanzania",
    "url": "https://www.gov.uk/foreign-travel-advice/tanzania",
    "tier": 1,
    "country": "TZ",
@@ -1527,8 +1640,31 @@
    "frag": ""
   },
   {
+   "id": "adv-us-rwanda",
+   "name": "US State Dept advisory \u2014 Rwanda",
+   "url": "https://travel.state.gov/content/travel/en/traveladvisories/traveladvisories/rwanda-travel-advisory.html",
+   "tier": 1,
+   "country": "RW",
+   "category": "advisory",
+   "method": "html",
+   "cadence_min": 60,
+   "lead_days": 1,
+   "segments": [
+    "city",
+    "bush",
+    "beach"
+   ],
+   "slots": [
+    "morning",
+    "midday",
+    "evening"
+   ],
+   "why": "Read the page, not news about it: level, exact geography, stated grounds.",
+   "frag": ""
+  },
+  {
    "id": "adv-uk-rwanda",
-   "name": "UK FCDO advice — Rwanda",
+   "name": "UK FCDO advice \u2014 Rwanda",
    "url": "https://www.gov.uk/foreign-travel-advice/rwanda",
    "tier": 1,
    "country": "RW",
@@ -1551,7 +1687,7 @@
   },
   {
    "id": "adv-ca-kenya",
-   "name": "Canada travel advice — Kenya",
+   "name": "Canada travel advice \u2014 Kenya",
    "url": "https://travel.gc.ca/destinations/kenya",
    "tier": 1,
    "country": "KE",
@@ -1574,7 +1710,7 @@
   },
   {
    "id": "adv-au-kenya",
-   "name": "Smartraveller — Kenya",
+   "name": "Smartraveller \u2014 Kenya",
    "url": "https://www.smartraveller.gov.au/destinations/africa/kenya",
    "tier": 1,
    "country": "KE",
@@ -1597,8 +1733,8 @@
   },
   {
    "id": "adv-de-kenya",
-   "name": "Auswärtiges Amt — Kenya",
-   "url": "https://www.auswaertiges-amt.de/de/reiseundsicherheit/keniasicherheit-208058",
+   "name": "Ausw\u00e4rtiges Amt \u2014 Kenya",
+   "url": "https://www.auswaertiges-amt.de/de/service/laender/kenya-node/kenyasicherheit",
    "tier": 1,
    "country": "KE",
    "category": "advisory",
@@ -1620,7 +1756,7 @@
   },
   {
    "id": "adv-fr-kenya",
-   "name": "France Conseils aux voyageurs — Kenya",
+   "name": "France Conseils aux voyageurs \u2014 Kenya",
    "url": "https://www.diplomatie.gouv.fr/fr/conseils-aux-voyageurs/conseils-par-pays-destination/kenya/",
    "tier": 1,
    "country": "KE",
@@ -1643,7 +1779,7 @@
   },
   {
    "id": "adv-ca-tanzania",
-   "name": "Canada travel advice — Tanzania",
+   "name": "Canada travel advice \u2014 Tanzania",
    "url": "https://travel.gc.ca/destinations/tanzania",
    "tier": 1,
    "country": "TZ",
@@ -1666,7 +1802,7 @@
   },
   {
    "id": "adv-au-tanzania",
-   "name": "Smartraveller — Tanzania",
+   "name": "Smartraveller \u2014 Tanzania",
    "url": "https://www.smartraveller.gov.au/destinations/africa/tanzania",
    "tier": 1,
    "country": "TZ",
@@ -1689,8 +1825,8 @@
   },
   {
    "id": "adv-de-tanzania",
-   "name": "Auswärtiges Amt — Tanzania",
-   "url": "https://www.auswaertiges-amt.de/de/service/laender/tansania-node",
+   "name": "Ausw\u00e4rtiges Amt \u2014 Tanzania",
+   "url": "https://www.auswaertiges-amt.de/de/service/laender/tanzania-node/tanzaniasicherheit",
    "tier": 1,
    "country": "TZ",
    "category": "advisory",
@@ -1712,8 +1848,8 @@
   },
   {
    "id": "adv-fr-tanzania",
-   "name": "France Conseils aux voyageurs — Tanzania",
-   "url": "https://www.diplomatie.gouv.fr/fr/conseils-aux-voyageurs/conseils-par-pays-destination/tanzanie/",
+   "name": "France Conseils aux voyageurs \u2014 Tanzania",
+   "url": "https://www.diplomatie.gouv.fr/fr/conseils-aux-voyageurs/conseils-par-pays-destination/tanzania/",
    "tier": 1,
    "country": "TZ",
    "category": "advisory",
@@ -1961,7 +2097,7 @@
    "slots": [
     "midday"
    ],
-   "why": "Amsterdam and Paris capacity — core to Dutch, French and Scandinavian safari demand.",
+   "why": "Amsterdam and Paris capacity \u2014 core to Dutch, French and Scandinavian safari demand.",
    "frag": ""
   },
   {
@@ -2043,7 +2179,7 @@
    "slots": [
     "midday"
    ],
-   "why": "Fleet, AOC and route filings — the earliest sight of a new entrant or a collapse.",
+   "why": "Fleet, AOC and route filings \u2014 the earliest sight of a new entrant or a collapse.",
    "frag": ""
   },
   {
@@ -2064,7 +2200,7 @@
    "slots": [
     "midday"
    ],
-   "why": "Monthly air passenger analysis incl. Africa — leading indicator for arrivals.",
+   "why": "Monthly air passenger analysis incl. Africa \u2014 leading indicator for arrivals.",
    "frag": ""
   },
   {
@@ -2235,7 +2371,7 @@
   },
   {
    "id": "dev-hospitalitynet-africa",
-   "name": "Hospitality Net — Africa announcements",
+   "name": "Hospitality Net \u2014 Africa announcements",
    "url": "https://www.hospitalitynet.org/africa/announcements",
    "tier": 2,
    "country": "REG",
@@ -2252,6 +2388,27 @@
     "midday"
    ],
    "why": "Openings and appointments across the continent.",
+   "frag": ""
+  },
+  {
+   "id": "dev-costar",
+   "name": "CoStar / STR hospitality news",
+   "url": "https://www.costar.com/news",
+   "tier": 2,
+   "country": "GLOBAL",
+   "category": "research",
+   "method": "html",
+   "cadence_min": 720,
+   "lead_days": 5,
+   "segments": [
+    "city",
+    "bush",
+    "beach"
+   ],
+   "slots": [
+    "evening"
+   ],
+   "why": "Occupancy and ADR benchmarking commentary for African markets.",
    "frag": ""
   },
   {
@@ -2273,6 +2430,90 @@
     "evening"
    ],
    "why": "Transaction and investment flow into African hospitality.",
+   "frag": ""
+  },
+  {
+   "id": "dev-aleph",
+   "name": "Aleph Hospitality news",
+   "url": "https://alephhospitality.com/news/",
+   "tier": 2,
+   "country": "REG",
+   "category": "hotel-group",
+   "method": "html",
+   "cadence_min": 1440,
+   "lead_days": 14,
+   "segments": [
+    "city",
+    "bush",
+    "beach"
+   ],
+   "slots": [
+    "midday"
+   ],
+   "why": "Africa-focused third-party operator; signs the mid-market and Kigali/Nairobi deals the global chains skip.",
+   "frag": ""
+  },
+  {
+   "id": "dev-tophotel",
+   "name": "TOPHOTELNEWS development pipeline",
+   "url": "https://tophotel.news/category/construction-and-development/",
+   "tier": 2,
+   "country": "GLOBAL",
+   "category": "trade",
+   "method": "html",
+   "cadence_min": 720,
+   "lead_days": 7,
+   "segments": [
+    "city",
+    "bush",
+    "beach"
+   ],
+   "slots": [
+    "midday"
+   ],
+   "why": "Development-desk trade press; often carries a signing before the operator's own newsroom does.",
+   "frag": ""
+  },
+  {
+   "id": "dev-choice",
+   "name": "Choice Hotels newsroom",
+   "url": "https://media.choicehotels.com/",
+   "tier": 2,
+   "country": "GLOBAL",
+   "category": "hotel-group",
+   "method": "html",
+   "cadence_min": 1440,
+   "lead_days": 14,
+   "segments": [
+    "city",
+    "bush",
+    "beach"
+   ],
+   "slots": [
+    "midday"
+   ],
+   "why": "Entered Africa in 2026 with three Kenyan franchises including a soft-brand inside the Mara.",
+   "frag": ""
+  },
+  {
+   "id": "dev-luxcollective",
+   "name": "The Lux Collective press",
+   "url": "https://theluxcollective.com/press/",
+   "tier": 3,
+   "country": "REG",
+   "category": "hotel-group",
+   "method": "html",
+   "cadence_min": 2880,
+   "lead_days": 21,
+   "segments": [
+    "city",
+    "bush",
+    "beach"
+   ],
+   "slots": [
+    "evening"
+   ],
+   "why": "Running Rwanda's five-property ultra-luxury circuit; a bellwether for premium bush supply.",
    "frag": ""
   },
   {
@@ -2461,7 +2702,7 @@
   },
   {
    "id": "np-theexchange",
-   "name": "The Exchange Africa — hospitality",
+   "name": "The Exchange Africa \u2014 hospitality",
    "url": "https://theexchange.africa/hospitality/",
    "tier": 2,
    "country": "REG",
@@ -2615,12 +2856,12 @@
     "midday",
     "evening"
    ],
-   "why": "Aggregator — use only as a lead to chase to a primary source.",
+   "why": "Aggregator \u2014 use only as a lead to chase to a primary source.",
    "frag": ""
   },
   {
    "id": "tp-tanzaniainvest",
-   "name": "TanzaniaInvest — tourism",
+   "name": "TanzaniaInvest \u2014 tourism",
    "url": "https://www.tanzaniainvest.com/tourism",
    "tier": 2,
    "country": "TZ",
@@ -2684,7 +2925,7 @@
     "midday",
     "evening"
    ],
-   "why": "Republisher — chase to primary before use.",
+   "why": "Republisher \u2014 chase to primary before use.",
    "frag": ""
   },
   {
@@ -2726,7 +2967,7 @@
    "slots": [
     "evening"
    ],
-   "why": "Economic Impact Research releases — verify the page date, aggregators misreport it.",
+   "why": "Economic Impact Research releases \u2014 verify the page date, aggregators misreport it.",
    "frag": ""
   },
   {
@@ -2786,7 +3027,28 @@
    "slots": [
     "evening"
    ],
-   "why": "German market — top-three for Zanzibar and the northern circuit.",
+   "why": "German market \u2014 top-three for Zanzibar and the northern circuit.",
+   "frag": ""
+  },
+  {
+   "id": "sm-forwardkeys",
+   "name": "ForwardKeys insights",
+   "url": "https://forwardkeys.com/newsroom/",
+   "tier": 2,
+   "country": "GLOBAL",
+   "category": "source-market",
+   "method": "html",
+   "cadence_min": 1440,
+   "lead_days": 7,
+   "segments": [
+    "city",
+    "bush",
+    "beach"
+   ],
+   "slots": [
+    "evening"
+   ],
+   "why": "Forward booking data \u2014 the closest public proxy for pace.",
    "frag": ""
   },
   {
@@ -2809,12 +3071,12 @@
     "midday",
     "evening"
    ],
-   "why": "Official RSS of all US advisories — read Kenya/Uganda/Tanzania/Rwanda levels and divergence straight from the feed.",
+   "why": "Official RSS of all US advisories \u2014 read Kenya/Uganda/Tanzania/Rwanda levels and divergence straight from the feed.",
    "frag": ""
   },
   {
    "id": "us-cdc-evdorder",
-   "name": "CDC port health — s.362 Ebola entry orders",
+   "name": "CDC port health \u2014 s.362 Ebola entry orders",
    "url": "https://www.cdc.gov/port-health/legal-authorities/evdorder.html",
    "tier": 1,
    "country": "REG",
@@ -2834,7 +3096,7 @@
   },
   {
    "id": "us-fedreg-cdc",
-   "name": "Federal Register — CDC notices",
+   "name": "Federal Register \u2014 CDC notices",
    "url": "https://www.federalregister.gov/agencies/centers-for-disease-control-and-prevention",
    "tier": 1,
    "country": "REG",
@@ -2871,12 +3133,12 @@
     "midday",
     "evening"
    ],
-   "why": "Official daily case, admission, contact-tracing and point-of-entry screening counts — updated before WHO and press.",
+   "why": "Official daily case, admission, contact-tracing and point-of-entry screening counts \u2014 updated before WHO and press.",
    "frag": ""
   },
   {
    "id": "ug-mediacentre",
-   "name": "Uganda Media Centre — press room",
+   "name": "Uganda Media Centre \u2014 press room",
    "url": "https://mediacentre.go.ug/press-room/",
    "tier": 1,
    "country": "UG",
@@ -2893,12 +3155,12 @@
     "midday",
     "evening"
    ],
-   "why": "Where Uganda government declarations land first — the 28 Jul 2026 Ebola end-of-outbreak declaration was published here before wire pickup. Note: page is client-rendered, so treat as page-change granularity.",
+   "why": "Where Uganda government declarations land first \u2014 the 28 Jul 2026 Ebola end-of-outbreak declaration was published here before wire pickup. Note: page is client-rendered, so treat as page-change granularity.",
    "frag": ""
   },
   {
    "id": "ug-moh-news",
-   "name": "Uganda Ministry of Health — news",
+   "name": "Uganda Ministry of Health \u2014 news",
    "url": "https://health.go.ug/",
    "tier": 1,
    "country": "UG",
@@ -2920,7 +3182,7 @@
   },
   {
    "id": "ecdc-ebola",
-   "name": "ECDC — DRC/Uganda Ebola outbreak page",
+   "name": "ECDC \u2014 DRC/Uganda Ebola outbreak page",
    "url": "https://www.ecdc.europa.eu/en/ebola-outbreak-democratic-republic-congo-and-uganda",
    "tier": 1,
    "country": "GLOBAL",
@@ -2936,12 +3198,12 @@
     "morning",
     "evening"
    ],
-   "why": "Keeps a running confirmed-case and death count for the DRC/Uganda outbreak — the number European source markets and insurers cite.",
+   "why": "Keeps a running confirmed-case and death count for the DRC/Uganda outbreak \u2014 the number European source markets and insurers cite.",
    "frag": ""
   },
   {
    "id": "ke-usembassy-alerts",
-   "name": "US Embassy Nairobi — alerts & messages",
+   "name": "US Embassy Nairobi \u2014 alerts & messages",
    "url": "https://ke.usembassy.gov/category/alert/",
    "tier": 1,
    "country": "KE",
@@ -2959,12 +3221,12 @@
     "midday",
     "evening"
    ],
-   "why": "Demonstration and security alerts for US citizens post here first — ahead of any revision to the rendered travel.state.gov page, as the 29 Jul 2026 Kenya advisory re-issue showed.",
+   "why": "Demonstration and security alerts for US citizens post here first \u2014 ahead of any revision to the rendered travel.state.gov page, as the 29 Jul 2026 Kenya advisory re-issue showed.",
    "frag": ""
   },
   {
    "id": "osac-kenya",
-   "name": "OSAC — Kenya reports & advisory notices",
+   "name": "OSAC \u2014 Kenya reports & advisory notices",
    "url": "https://www.osac.gov/Country/Kenya/Content",
    "tier": 1,
    "country": "KE",

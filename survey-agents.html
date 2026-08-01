@@ -1,0 +1,215 @@
+<!DOCTYPE html><html lang="en"><head><meta charset="UTF-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>EA Pulse Agent Survey — what agents are telling clients about East Africa</title>
+<meta name="description" content="Confidential survey of safari and travel agents selling East Africa from the US, UK, Germany and beyond. Ten questions, three minutes. Aggregate results published free to every participant.">
+<link rel="canonical" href="https://eahospitalitypulse.com/survey-agents.html">
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="EA Hospitality Pulse">
+<meta property="og:title" content="EA Pulse Agent Survey — what agents are telling clients about East Africa">
+<meta property="og:description" content="Confidential survey of agents selling East Africa. Ten questions, three minutes. Aggregate results free to every participant.">
+<meta property="og:url" content="https://eahospitalitypulse.com/survey-agents.html">
+<meta property="og:image" content="https://eahospitalitypulse.com/og/default.png">
+<meta name="twitter:card" content="summary_large_image">
+<link rel="icon" href="favicon.png"><link rel="apple-touch-icon" href="apple-touch-icon.png">
+<style>
+:root{--sand:#f6f1e7;--sand2:#efe7d6;--ink:#1f2421;--muted:#6b6656;--gold:#c8892f;--gold-d:#a86f1f;--teal:#0f6d63;--teal-d:#0a4f48;--line:#e2d8c4;--card:#fffdf9}
+*{box-sizing:border-box}body{margin:0;font-family:Georgia,serif;background:var(--sand);color:var(--ink);line-height:1.6}
+.wrap{max-width:720px;margin:0 auto;padding:0 20px}
+header{background:linear-gradient(135deg,var(--teal-d),var(--teal));color:#fff;padding:30px 0;border-bottom:5px solid var(--gold)}
+header h1{margin:0 0 6px;font-size:26px}header p{margin:0;opacity:.9;font-size:15px}
+.card{background:var(--card);border:1px solid var(--line);border-radius:14px;padding:26px 28px;margin:24px auto}
+h2{font-size:19px;margin:0 0 4px}
+.q{margin:22px 0 0;padding-top:18px;border-top:1px solid var(--line)}
+.q:first-of-type{border-top:none;padding-top:0}
+label.qt{font-weight:700;font-size:16px;display:block;margin-bottom:8px}
+.hint{font-family:Helvetica,Arial,sans-serif;font-size:12.5px;color:var(--muted);margin-bottom:9px}
+.opts{display:flex;flex-wrap:wrap;gap:8px}
+.opt{font-family:Helvetica,Arial,sans-serif;font-size:14px;border:1px solid var(--line);background:#fff;border-radius:8px;padding:9px 14px;cursor:pointer}
+.opt input{margin-right:7px}
+.opt:hover{background:var(--sand2)}
+input[type=text],textarea,select{width:100%;font-family:Helvetica,Arial,sans-serif;font-size:14px;padding:10px 12px;border:1px solid var(--line);border-radius:8px;background:#fff}
+textarea{min-height:80px;resize:vertical}
+.note{background:var(--sand2);border-left:4px solid var(--gold);padding:12px 15px;border-radius:0 8px 8px 0;font-family:Helvetica,Arial,sans-serif;font-size:13.5px;margin:18px 0}
+button{background:var(--gold);color:#231a06;border:none;border-radius:8px;padding:14px 24px;font-family:Helvetica,Arial,sans-serif;font-weight:700;font-size:15px;cursor:pointer;margin-top:20px}
+button:hover{background:var(--gold-d);color:#fff}
+#msg{font-family:Helvetica,Arial,sans-serif;font-size:14.5px;margin-top:18px;padding:14px 16px;border-radius:8px;background:var(--sand2);display:none}
+#msg.show{display:block}
+#dump{width:100%;min-height:200px;font-family:ui-monospace,Menlo,Consolas,monospace;font-size:12.5px;margin-top:12px;display:none}
+#dump.show{display:block}
+footer{text-align:center;color:var(--muted);font-family:Helvetica,Arial,sans-serif;font-size:12.5px;padding:26px}
+.grid2{display:grid;grid-template-columns:1fr 1fr;gap:10px}
+@media(max-width:520px){.grid2{grid-template-columns:1fr}}
+</style></head><body>
+<header><div class="wrap"><h1>EA Pulse Agent Survey</h1>
+<p>What agents are actually telling clients about East Africa · Q3 2026 round</p></div></header>
+<div class="wrap"><div class="card">
+<h2>Ten questions. Three minutes. Confidential.</h2>
+<p style="color:var(--muted);font-size:15px">You sell this region for a living. Nobody publishes what agents are actually seeing — booking windows, client objections, how East Africa is faring against Southern Africa this season. We aggregate and publish it free to every participant.</p>
+<div class="note"><b>What we do with it:</b> results are reported in aggregate only. Your name, agency and individual answers are never published, quoted or shared with any property, tourism board or third party. If fewer than eight agents answer a given question, we do not report that question at all — small samples are how anonymity leaks.</div>
+
+<form id="f">
+  <div class="q"><label class="qt">1. Where are you based?</label>
+    <select name="base">
+      <option value="">Select…</option>
+      <option>United States</option><option>United Kingdom</option><option>Germany</option>
+      <option>Rest of Europe</option><option>Canada</option><option>Australia / NZ</option>
+      <option>Within East Africa</option><option>Elsewhere</option>
+    </select>
+  </div>
+
+  <div class="q"><label class="qt">2. What kind of business are you?</label>
+    <div class="opts">
+      <label class="opt"><input type="radio" name="biz" value="retail">Retail travel agency</label>
+      <label class="opt"><input type="radio" name="biz" value="tour-op">Tour operator</label>
+      <label class="opt"><input type="radio" name="biz" value="dmc">DMC / ground handler</label>
+      <label class="opt"><input type="radio" name="biz" value="specialist">Safari specialist</label>
+      <label class="opt"><input type="radio" name="biz" value="ota">OTA / online</label>
+    </div>
+  </div>
+
+  <div class="q"><label class="qt">3. Roughly how many East Africa bookings do you handle a year?</label>
+    <div class="hint">Bands only — we never ask for your actual numbers.</div>
+    <div class="opts">
+      <label class="opt"><input type="radio" name="vol" value="lt10">Under 10</label>
+      <label class="opt"><input type="radio" name="vol" value="10-50">10–50</label>
+      <label class="opt"><input type="radio" name="vol" value="50-200">50–200</label>
+      <label class="opt"><input type="radio" name="vol" value="200plus">200+</label>
+    </div>
+  </div>
+
+  <div class="q"><label class="qt">4. How far ahead are clients booking now, compared with a year ago?</label>
+    <div class="hint">The single most useful number in this survey — it drives everyone's rate and allocation decisions.</div>
+    <div class="opts">
+      <label class="opt"><input type="radio" name="window" value="much-earlier">Much earlier (2+ months)</label>
+      <label class="opt"><input type="radio" name="window" value="earlier">Somewhat earlier</label>
+      <label class="opt"><input type="radio" name="window" value="same">About the same</label>
+      <label class="opt"><input type="radio" name="window" value="later">Somewhat later</label>
+      <label class="opt"><input type="radio" name="window" value="much-later">Much later (2+ months)</label>
+    </div>
+    <div style="margin-top:9px"><select name="window_abs">
+      <option value="">Typical lead time today…</option>
+      <option>Under 3 months</option><option>3–6 months</option><option>6–9 months</option>
+      <option>9–12 months</option><option>Over 12 months</option>
+    </select></div>
+  </div>
+
+  <div class="q"><label class="qt">5. This season, are you steering clients toward East Africa or Southern Africa?</label>
+    <div class="opts">
+      <label class="opt"><input type="radio" name="vs_south" value="ea-strong">Strongly East Africa</label>
+      <label class="opt"><input type="radio" name="vs_south" value="ea">Leaning East Africa</label>
+      <label class="opt"><input type="radio" name="vs_south" value="neutral">No preference</label>
+      <label class="opt"><input type="radio" name="vs_south" value="sa">Leaning Southern Africa</label>
+      <label class="opt"><input type="radio" name="vs_south" value="sa-strong">Strongly Southern Africa</label>
+    </div>
+    <div style="margin-top:9px"><input type="text" name="vs_why" placeholder="In a few words — why? (price, safety, lift, client demand…)"></div>
+  </div>
+
+  <div class="q"><label class="qt">6. Which markets are you actively selling right now?</label>
+    <div class="hint">Tick all that apply.</div>
+    <div class="opts">
+      <label class="opt"><input type="checkbox" name="selling" value="KE">Kenya</label>
+      <label class="opt"><input type="checkbox" name="selling" value="UG">Uganda</label>
+      <label class="opt"><input type="checkbox" name="selling" value="TZ">Tanzania</label>
+      <label class="opt"><input type="checkbox" name="selling" value="ZNZ">Zanzibar</label>
+      <label class="opt"><input type="checkbox" name="selling" value="RW">Rwanda</label>
+    </div>
+  </div>
+
+  <div class="q"><label class="qt">7. And which are you avoiding or actively steering clients away from?</label>
+    <div class="hint">Tick all that apply, or none. This is the question no property will ask you directly.</div>
+    <div class="opts">
+      <label class="opt"><input type="checkbox" name="avoiding" value="KE">Kenya</label>
+      <label class="opt"><input type="checkbox" name="avoiding" value="UG">Uganda</label>
+      <label class="opt"><input type="checkbox" name="avoiding" value="TZ">Tanzania</label>
+      <label class="opt"><input type="checkbox" name="avoiding" value="ZNZ">Zanzibar</label>
+      <label class="opt"><input type="checkbox" name="avoiding" value="RW">Rwanda</label>
+      <label class="opt"><input type="checkbox" name="avoiding" value="none">None</label>
+    </div>
+    <div style="margin-top:9px"><input type="text" name="avoid_why" placeholder="Why? (advisory, outbreak, price, access, a bad experience…)"></div>
+  </div>
+
+  <div class="q"><label class="qt">8. What is the objection you hear most from clients about East Africa?</label>
+    <div class="opts">
+      <label class="opt"><input type="radio" name="objection" value="cost">Total trip cost</label>
+      <label class="opt"><input type="radio" name="objection" value="safety">Safety / security</label>
+      <label class="opt"><input type="radio" name="objection" value="health">Health / outbreaks</label>
+      <label class="opt"><input type="radio" name="objection" value="flights">Flight cost or routing</label>
+      <label class="opt"><input type="radio" name="objection" value="parkfees">Park and permit fees</label>
+      <label class="opt"><input type="radio" name="objection" value="crowding">Crowding / over-tourism</label>
+      <label class="opt"><input type="radio" name="objection" value="none">No consistent objection</label>
+    </div>
+  </div>
+
+  <div class="q"><label class="qt">9. Client budgets for East Africa, versus a year ago</label>
+    <div class="opts">
+      <label class="opt"><input type="radio" name="budget" value="up">Up</label>
+      <label class="opt"><input type="radio" name="budget" value="flat">Flat</label>
+      <label class="opt"><input type="radio" name="budget" value="down">Down</label>
+      <label class="opt"><input type="radio" name="budget" value="split">Polarising — top end up, mid-market down</label>
+    </div>
+  </div>
+
+  <div class="q"><label class="qt">10. What would make you sell more East Africa?</label>
+    <div class="hint">Open question. Operators genuinely read this section — it is the most-quoted part of the results.</div>
+    <textarea name="more" placeholder="Rates, commission, allocation, faster responses, better connectivity, something else entirely…"></textarea>
+  </div>
+
+  <div class="q"><label class="qt">Optional — want the results?</label>
+    <div class="hint">Only used to send you the aggregate report. Not added to any marketing list, not linked to your answers.</div>
+    <div class="grid2">
+      <input type="text" name="email" placeholder="Email (optional)">
+      <input type="text" name="agency" placeholder="Agency (optional)">
+    </div>
+  </div>
+
+  <button type="submit">Submit my responses</button>
+  <div id="msg"></div>
+  <textarea id="dump" readonly></textarea>
+</form>
+</div></div>
+<footer>EA Hospitality Pulse · Daily intelligence for city, bush &amp; beach properties<br>
+<a href="index.html">Back to the Pulse</a> · <a href="methodology.html">How we handle data</a></footer>
+<script>
+// Set ENDPOINT to a form backend (Formspree, Tally, Basin, Google Forms POST URL)
+// to collect responses automatically. While it is null the form still works:
+// answers are formatted for the respondent to copy and email in.
+var ENDPOINT = null;
+var FALLBACK_EMAIL = 'ceo@eahospitalitypulse.com';
+
+document.getElementById('f').addEventListener('submit', function(e){
+  e.preventDefault();
+  var fd = new FormData(e.target);
+  var out = {};
+  fd.forEach(function(v,k){
+    if(out[k]===undefined){ out[k]=v; }
+    else if(Array.isArray(out[k])){ out[k].push(v); }
+    else { out[k]=[out[k],v]; }
+  });
+  var msg = document.getElementById('msg');
+  if(ENDPOINT){
+    fetch(ENDPOINT,{method:'POST',headers:{'Content-Type':'application/json'},body:JSON.stringify(out)})
+      .then(function(r){
+        msg.innerHTML = r.ok
+          ? '<b>Thank you — received.</b> We publish the aggregate results to every participant once the round closes.'
+          : '<b>That did not send.</b> Please copy the text below and email it to <a href="mailto:'+FALLBACK_EMAIL+'">'+FALLBACK_EMAIL+'</a>.';
+        if(!r.ok) showDump(out);
+        msg.className='show';
+      })
+      .catch(function(){
+        msg.innerHTML='<b>That did not send.</b> Please copy the text below and email it to <a href="mailto:'+FALLBACK_EMAIL+'">'+FALLBACK_EMAIL+'</a>.';
+        showDump(out); msg.className='show';
+      });
+  } else {
+    msg.innerHTML='<b>Almost there.</b> Automated collection is not switched on for this round yet, so please copy the text below into an email to <a href="mailto:'+FALLBACK_EMAIL+'?subject=Agent%20Survey%20response">'+FALLBACK_EMAIL+'</a>. It takes ten seconds and your response still counts.';
+    showDump(out); msg.className='show';
+  }
+  msg.scrollIntoView({behavior:'smooth'});
+});
+function showDump(o){
+  var t=document.getElementById('dump');
+  var lines=['EA PULSE AGENT SURVEY — Q3 2026',''];
+  for(var k in o){ lines.push(k+': '+(Array.isArray(o[k])?o[k].join(', '):o[k])); }
+  t.value=lines.join('\n'); t.className='show'; t.select();
+}
+</script>
+</body></html>

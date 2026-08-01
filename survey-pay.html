@@ -1,0 +1,212 @@
+<!DOCTYPE html><html lang="en"><head><meta charset="UTF-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>EA Hospitality Pay Benchmark — anonymous operator survey</title>
+<meta name="description" content="Anonymous pay and staffing survey for East African hotels, lodges, camps and resorts. Salary bands by role and market — reference data nobody publishes for this region.">
+<link rel="canonical" href="https://eahospitalitypulse.com/survey-pay.html">
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="EA Hospitality Pulse">
+<meta property="og:title" content="EA Hospitality Pay Benchmark — anonymous operator survey">
+<meta property="og:description" content="Anonymous pay and staffing survey for East African hotels, lodges, camps and resorts. Salary bands by role and market.">
+<meta property="og:url" content="https://eahospitalitypulse.com/survey-pay.html">
+<meta property="og:image" content="https://eahospitalitypulse.com/og/default.png">
+<meta name="twitter:card" content="summary_large_image">
+<link rel="icon" href="favicon.png"><link rel="apple-touch-icon" href="apple-touch-icon.png">
+<style>
+:root{--sand:#f6f1e7;--sand2:#efe7d6;--ink:#1f2421;--muted:#6b6656;--gold:#c8892f;--gold-d:#a86f1f;--teal:#0f6d63;--teal-d:#0a4f48;--line:#e2d8c4;--card:#fffdf9}
+*{box-sizing:border-box}body{margin:0;font-family:Georgia,serif;background:var(--sand);color:var(--ink);line-height:1.6}
+.wrap{max-width:720px;margin:0 auto;padding:0 20px}
+header{background:linear-gradient(135deg,var(--teal-d),var(--teal));color:#fff;padding:30px 0;border-bottom:5px solid var(--gold)}
+header h1{margin:0 0 6px;font-size:26px}header p{margin:0;opacity:.9;font-size:15px}
+.card{background:var(--card);border:1px solid var(--line);border-radius:14px;padding:26px 28px;margin:24px auto}
+h2{font-size:19px;margin:0 0 4px}
+.q{margin:22px 0 0;padding-top:18px;border-top:1px solid var(--line)}
+.q:first-of-type{border-top:none;padding-top:0}
+label.qt{font-weight:700;font-size:16px;display:block;margin-bottom:8px}
+.hint{font-family:Helvetica,Arial,sans-serif;font-size:12.5px;color:var(--muted);margin-bottom:9px}
+.opts{display:flex;flex-wrap:wrap;gap:8px}
+.opt{font-family:Helvetica,Arial,sans-serif;font-size:14px;border:1px solid var(--line);background:#fff;border-radius:8px;padding:9px 14px;cursor:pointer}
+.opt input{margin-right:7px}
+.opt:hover{background:var(--sand2)}
+input[type=text],textarea,select{width:100%;font-family:Helvetica,Arial,sans-serif;font-size:14px;padding:10px 12px;border:1px solid var(--line);border-radius:8px;background:#fff}
+textarea{min-height:80px;resize:vertical}
+.note{background:var(--sand2);border-left:4px solid var(--gold);padding:12px 15px;border-radius:0 8px 8px 0;font-family:Helvetica,Arial,sans-serif;font-size:13.5px;margin:18px 0}
+.roles{width:100%;border-collapse:collapse;font-family:Helvetica,Arial,sans-serif;font-size:13.5px}
+.roles th,.roles td{border:1px solid var(--line);padding:8px 9px;text-align:left;vertical-align:middle}
+.roles th{background:var(--sand2);font-weight:700;font-size:12.5px}
+.roles select{padding:7px 8px;font-size:13px}
+.tw{overflow-x:auto}
+button{background:var(--gold);color:#231a06;border:none;border-radius:8px;padding:14px 24px;font-family:Helvetica,Arial,sans-serif;font-weight:700;font-size:15px;cursor:pointer;margin-top:20px}
+button:hover{background:var(--gold-d);color:#fff}
+#msg{font-family:Helvetica,Arial,sans-serif;font-size:14.5px;margin-top:18px;padding:14px 16px;border-radius:8px;background:var(--sand2);display:none}
+#msg.show{display:block}
+#dump{width:100%;min-height:200px;font-family:ui-monospace,Menlo,Consolas,monospace;font-size:12.5px;margin-top:12px;display:none}
+#dump.show{display:block}
+footer{text-align:center;color:var(--muted);font-family:Helvetica,Arial,sans-serif;font-size:12.5px;padding:26px}
+</style></head><body>
+<header><div class="wrap"><h1>EA Hospitality Pay Benchmark</h1>
+<p>Anonymous · Kenya · Uganda · Tanzania · Zanzibar · Rwanda</p></div></header>
+<div class="wrap"><div class="card">
+<h2>Salary bands by role and market. Completely anonymous.</h2>
+<p style="color:var(--muted);font-size:15px">Every operator in this region has had the same conversation: a good chef or senior guide is poached, and nobody knows what the market rate actually is because no one publishes it. This survey builds that number.</p>
+
+<div class="note"><b>Read this before you answer — we know pay data is sensitive.</b><br>
+• We ask for <b>bands, never exact salaries</b>, and never for an individual's pay.<br>
+• We <b>do not ask for your property's name</b>, and there is no hidden field capturing it.<br>
+• Results are published as <b>ranges by role, country and property size only</b>.<br>
+• If fewer than <b>eight</b> properties answer for a given role-and-market cell, <b>we do not publish that cell</b> — that is the threshold at which a band starts to identify individual employers.<br>
+• Nothing is shared with any tourism board, association, recruiter or other operator.</div>
+
+<form id="f">
+  <div class="q"><label class="qt">1. What kind of property?</label>
+    <div class="opts">
+      <label class="opt"><input type="radio" name="type" value="city">City hotel</label>
+      <label class="opt"><input type="radio" name="type" value="lodge">Safari lodge</label>
+      <label class="opt"><input type="radio" name="type" value="camp">Tented camp</label>
+      <label class="opt"><input type="radio" name="type" value="beach">Beach resort</label>
+      <label class="opt"><input type="radio" name="type" value="group">Group / multi-property</label>
+    </div>
+    <div style="margin-top:9px"><select name="country">
+      <option value="">Country…</option><option>Kenya</option><option>Uganda</option>
+      <option>Tanzania (mainland)</option><option>Zanzibar</option><option>Rwanda</option></select></div>
+  </div>
+
+  <div class="q"><label class="qt">2. How many rooms or tents?</label>
+    <div class="opts">
+      <label class="opt"><input type="radio" name="size" value="lt12">Under 12</label>
+      <label class="opt"><input type="radio" name="size" value="12-30">12–30</label>
+      <label class="opt"><input type="radio" name="size" value="31-80">31–80</label>
+      <label class="opt"><input type="radio" name="size" value="81-200">81–200</label>
+      <label class="opt"><input type="radio" name="size" value="200plus">Over 200</label>
+    </div>
+  </div>
+
+  <div class="q"><label class="qt">3. Monthly gross pay band by role</label>
+    <div class="hint">Basic monthly salary in USD equivalent, before service charge and tips. Skip any role you do not employ. Choose the band your <em>current</em> holder sits in — not what you would like to pay.</div>
+    <div class="tw"><table class="roles">
+      <thead><tr><th>Role</th><th>Monthly band (USD)</th></tr></thead>
+      <tbody>
+        <tr><td>General Manager</td><td><select name="pay_gm"><option value="">—</option><option>Under $500</option><option>$500–1,000</option><option>$1,000–2,000</option><option>$2,000–3,500</option><option>$3,500–6,000</option><option>Over $6,000</option></select></td></tr>
+        <tr><td>Head Chef</td><td><select name="pay_chef"><option value="">—</option><option>Under $500</option><option>$500–1,000</option><option>$1,000–2,000</option><option>$2,000–3,500</option><option>$3,500–6,000</option><option>Over $6,000</option></select></td></tr>
+        <tr><td>Senior / silver-level guide</td><td><select name="pay_guide"><option value="">—</option><option>Under $300</option><option>$300–600</option><option>$600–1,200</option><option>$1,200–2,000</option><option>Over $2,000</option></select></td></tr>
+        <tr><td>Junior guide</td><td><select name="pay_guide_jr"><option value="">—</option><option>Under $200</option><option>$200–400</option><option>$400–700</option><option>Over $700</option></select></td></tr>
+        <tr><td>F&amp;B Manager</td><td><select name="pay_fb"><option value="">—</option><option>Under $400</option><option>$400–800</option><option>$800–1,500</option><option>$1,500–2,500</option><option>Over $2,500</option></select></td></tr>
+        <tr><td>Housekeeping supervisor</td><td><select name="pay_hk"><option value="">—</option><option>Under $200</option><option>$200–400</option><option>$400–700</option><option>Over $700</option></select></td></tr>
+        <tr><td>Front office / reservations</td><td><select name="pay_fo"><option value="">—</option><option>Under $200</option><option>$200–400</option><option>$400–700</option><option>Over $700</option></select></td></tr>
+      </tbody>
+    </table></div>
+  </div>
+
+  <div class="q"><label class="qt">4. What comes on top of basic pay?</label>
+    <div class="hint">Tick all that apply. In lodge and camp operations this is often worth more than the salary itself, and any benchmark that ignores it is misleading.</div>
+    <div class="opts">
+      <label class="opt"><input type="checkbox" name="benefits" value="accom">Staff accommodation</label>
+      <label class="opt"><input type="checkbox" name="benefits" value="meals">All meals on duty</label>
+      <label class="opt"><input type="checkbox" name="benefits" value="service">Service charge share</label>
+      <label class="opt"><input type="checkbox" name="benefits" value="tips">Tips pool</label>
+      <label class="opt"><input type="checkbox" name="benefits" value="medical">Medical cover</label>
+      <label class="opt"><input type="checkbox" name="benefits" value="transport">Transport / leave flights</label>
+      <label class="opt"><input type="checkbox" name="benefits" value="training">Funded training</label>
+    </div>
+  </div>
+
+  <div class="q"><label class="qt">5. Which role is hardest to fill and keep?</label>
+    <div class="opts">
+      <label class="opt"><input type="radio" name="hardest" value="chef">Chefs</label>
+      <label class="opt"><input type="radio" name="hardest" value="guide">Guides</label>
+      <label class="opt"><input type="radio" name="hardest" value="management">Management</label>
+      <label class="opt"><input type="radio" name="hardest" value="fb">F&amp;B service</label>
+      <label class="opt"><input type="radio" name="hardest" value="maintenance">Maintenance / technical</label>
+      <label class="opt"><input type="radio" name="hardest" value="none">No real difficulty</label>
+    </div>
+  </div>
+
+  <div class="q"><label class="qt">6. Where do you lose people to?</label>
+    <div class="opts">
+      <label class="opt"><input type="radio" name="poach" value="local">Another property in the same market</label>
+      <label class="opt"><input type="radio" name="poach" value="region">Another East African country</label>
+      <label class="opt"><input type="radio" name="poach" value="gulf">The Gulf / cruise lines</label>
+      <label class="opt"><input type="radio" name="poach" value="outside">Out of hospitality entirely</label>
+      <label class="opt"><input type="radio" name="poach" value="stable">We retain well</label>
+    </div>
+  </div>
+
+  <div class="q"><label class="qt">7. Are your management roles filled locally or by expatriates?</label>
+    <div class="opts">
+      <label class="opt"><input type="radio" name="expat" value="all-local">All local</label>
+      <label class="opt"><input type="radio" name="expat" value="mostly-local">Mostly local</label>
+      <label class="opt"><input type="radio" name="expat" value="mixed">Roughly even</label>
+      <label class="opt"><input type="radio" name="expat" value="mostly-expat">Mostly expatriate</label>
+    </div>
+    <div style="margin-top:9px"><input type="text" name="permit" placeholder="Any work-permit or visa problem affecting your hiring? (optional)"></div>
+  </div>
+
+  <div class="q"><label class="qt">8. Where have your wage costs gone in the last 12 months?</label>
+    <div class="opts">
+      <label class="opt"><input type="radio" name="trend" value="up10">Up more than 10%</label>
+      <label class="opt"><input type="radio" name="trend" value="up">Up slightly</label>
+      <label class="opt"><input type="radio" name="trend" value="flat">Flat</label>
+      <label class="opt"><input type="radio" name="trend" value="down">Down</label>
+    </div>
+  </div>
+
+  <div class="q"><label class="qt">9. Anything else about staffing we should be tracking?</label>
+    <textarea name="other" placeholder="Training pipelines, certification, seasonal contracts, whatever is actually costing you sleep."></textarea>
+  </div>
+
+  <div class="q"><label class="qt">Optional — want the benchmark when it publishes?</label>
+    <div class="hint">Email only. Not linked to your answers, not added to any marketing list.</div>
+    <input type="text" name="email" placeholder="Email (optional)">
+  </div>
+
+  <button type="submit">Submit my responses</button>
+  <div id="msg"></div>
+  <textarea id="dump" readonly></textarea>
+</form>
+</div></div>
+<footer>EA Hospitality Pulse · Daily intelligence for city, bush &amp; beach properties<br>
+<a href="index.html">Back to the Pulse</a> · <a href="methodology.html">How we handle data</a></footer>
+<script>
+// Set ENDPOINT to a form backend (Formspree, Tally, Basin, Google Forms POST URL)
+// to collect responses automatically. While it is null the form still works:
+// answers are formatted for the respondent to copy and email in.
+var ENDPOINT = null;
+var FALLBACK_EMAIL = 'ceo@eahospitalitypulse.com';
+
+document.getElementById('f').addEventListener('submit', function(e){
+  e.preventDefault();
+  var fd = new FormData(e.target);
+  var out = {};
+  fd.forEach(function(v,k){
+    if(v==='') return;
+    if(out[k]===undefined){ out[k]=v; }
+    else if(Array.isArray(out[k])){ out[k].push(v); }
+    else { out[k]=[out[k],v]; }
+  });
+  var msg = document.getElementById('msg');
+  if(ENDPOINT){
+    fetch(ENDPOINT,{method:'POST',headers:{'Content-Type':'application/json'},body:JSON.stringify(out)})
+      .then(function(r){
+        msg.innerHTML = r.ok
+          ? '<b>Thank you — received anonymously.</b> We publish the benchmark to every participant once we have enough responses per role and market to report safely.'
+          : '<b>That did not send.</b> Please copy the text below and email it to <a href="mailto:'+FALLBACK_EMAIL+'">'+FALLBACK_EMAIL+'</a>.';
+        if(!r.ok) showDump(out);
+        msg.className='show';
+      })
+      .catch(function(){
+        msg.innerHTML='<b>That did not send.</b> Please copy the text below and email it to <a href="mailto:'+FALLBACK_EMAIL+'">'+FALLBACK_EMAIL+'</a>.';
+        showDump(out); msg.className='show';
+      });
+  } else {
+    msg.innerHTML='<b>Almost there.</b> Automated collection is not switched on for this round yet, so please copy the text below into an email to <a href="mailto:'+FALLBACK_EMAIL+'?subject=Pay%20Benchmark%20response">'+FALLBACK_EMAIL+'</a>. Send it from any address you like — we do not link it to your answers.';
+    showDump(out); msg.className='show';
+  }
+  msg.scrollIntoView({behavior:'smooth'});
+});
+function showDump(o){
+  var t=document.getElementById('dump');
+  var lines=['EA HOSPITALITY PAY BENCHMARK',''];
+  for(var k in o){ lines.push(k+': '+(Array.isArray(o[k])?o[k].join(', '):o[k])); }
+  t.value=lines.join('\n'); t.className='show'; t.select();
+}
+</script>
+</body></html>
