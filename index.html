@@ -5,9 +5,9 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <meta http-equiv="Cache-Control" content="no-cache, must-revalidate">
 <title>EA Hospitality Pulse — Daily intelligence for city, bush & beach properties across East Africa</title>
-<meta name="description" content="Daily hospitality intelligence for property owners in Kenya, Uganda, Tanzania, Zanzibar and Rwanda. Travel advisories, demand patterns, market trends — and what to do about them.">
+<meta name="description" content="Daily market intelligence for East Africa's hospitality and travel trade — hotels, lodges, resorts, tour operators and DMCs across Kenya, Uganda, Tanzania, Zanzibar and Rwanda. Travel advisories, demand patterns, market trends, and what to do about them.">
 <meta property="og:title" content="EA Hospitality Pulse">
-<meta property="og:description" content="Daily intelligence for city, bush & beach properties across East Africa.">
+<meta property="og:description" content="Daily market intelligence for East Africa's hospitality and travel trade.">
 <link rel="canonical" href="https://eahospitalitypulse.com/">
 <link rel="icon" href="favicon.png"><link rel="apple-touch-icon" href="apple-touch-icon.png">
 <meta property="og:type" content="website">
@@ -17,7 +17,7 @@
 <meta property="og:image:width" content="1200"><meta property="og:image:height" content="630">
 <meta name="twitter:card" content="summary_large_image">
 <meta name="twitter:title" content="EA Hospitality Pulse">
-<meta name="twitter:description" content="Daily intelligence for city, bush & beach properties across East Africa.">
+<meta name="twitter:description" content="Daily market intelligence for East Africa's hospitality and travel trade.">
 <meta name="twitter:image" content="https://eahospitalitypulse.com/og/default.png">
 <script type="application/ld+json">{"@context":"https://schema.org","@type":"Organization","name":"EA Hospitality Pulse","description":"Daily hospitality intelligence for property owners in Kenya, Uganda, Tanzania, Zanzibar and Rwanda.","url":"https://eahospitalitypulse.com/","logo":"https://eahospitalitypulse.com/apple-touch-icon.png","areaServed":["Kenya","Uganda","Tanzania","Zanzibar","Rwanda"],"knowsAbout":["hospitality","tourism","travel advisories","hotel market analysis","demand forecasting"],"sameAs":["https://t.me/africabusinessriskreview","https://www.linkedin.com/company/ea-hospitality-pulse/"]}</script>
 <style>
@@ -263,6 +263,16 @@
   .btn-load:hover{background:var(--teal);text-decoration:none}
   .count-note{font-family:'Helvetica Neue',Arial,sans-serif;font-size:13px;color:var(--muted)}
 
+  /* Guides */
+  .gcards{display:grid;grid-template-columns:repeat(auto-fill,minmax(300px,1fr));gap:18px}
+  .gcard{background:var(--card);border:1px solid var(--line);border-radius:12px;padding:20px;display:flex;flex-direction:column;text-decoration:none;color:inherit;transition:transform .12s,box-shadow .12s}
+  .gcard:hover{transform:translateY(-3px);box-shadow:0 10px 24px rgba(31,36,33,.10);text-decoration:none}
+  .gcard .gcat{align-self:flex-start;font-family:'Helvetica Neue',Arial,sans-serif;font-size:11px;font-weight:700;text-transform:uppercase;letter-spacing:1px;padding:4px 9px;border-radius:20px;background:#123f39;color:#ffe6b8;margin-bottom:11px}
+  .gcard h3{margin:0 0 8px;font-size:18px;line-height:1.32}
+  .gcard p{margin:0;font-size:14px;color:var(--muted);flex:1}
+  .gcard .gmeta{margin-top:13px;font-family:'Helvetica Neue',Arial,sans-serif;font-size:12.5px;color:var(--muted)}
+  .gcard .gread{margin-top:11px;font-family:'Helvetica Neue',Arial,sans-serif;font-size:13px;font-weight:600;color:var(--teal-d)}
+
   /* Reader modal */
   .overlay{position:fixed;inset:0;background:rgba(20,24,20,.55);display:none;align-items:flex-start;justify-content:center;padding:30px 16px;overflow:auto;z-index:50}
   .overlay.open{display:flex}
@@ -302,7 +312,7 @@
   footer.site{padding:28px 0;text-align:center;color:var(--muted);font-family:'Helvetica Neue',Arial,sans-serif;font-size:13px}
   @media(max-width:720px){.segs{grid-template-columns:1fr}.about-grid{grid-template-columns:1fr}}
 </style>
-<!--BUILD_STAMP:20260801-0814--></head>
+<!--BUILD_STAMP:20260801-0824--></head>
 <body>
 <header class="site">
   <div class="wrap topbar">
@@ -313,6 +323,7 @@
     <nav class="top">
       <a href="#latest">Latest</a>
       <a href="#archive">Editions</a>
+      <a href="#guides">Guides</a>
       <a href="#tools">Tools</a>
       <a href="#track">Track record</a>
       <a href="#subscribe">Subscribe</a>
@@ -322,8 +333,8 @@
 
 <div class="hero">
   <div class="wrap">
-    <h2>Daily market intelligence for East Africa&rsquo;s hospitality leaders.</h2>
-    <p class="hero-sub">What today&rsquo;s developments mean for your rates, your pace and your next decision &mdash; across Kenya, Uganda, Tanzania, Zanzibar and Rwanda.</p>
+    <h2>Daily market intelligence for East Africa&rsquo;s hospitality and travel trade.</h2>
+    <p class="hero-sub">For operators, tour operators and DMCs &mdash; what today&rsquo;s developments mean for your pricing, your bookings and your next decision across Kenya, Uganda, Tanzania, Zanzibar and Rwanda.</p>
     <p class="lead">Three briefs a day for property owners in Kenya, Uganda, Tanzania, Zanzibar and Rwanda — travel advisories, demand patterns and market moves, each with a clear "so what" for your business.</p>
     <div class="flags">
       <span class="flag lg ke" role="button" tabindex="0" title="Kenya insights" onclick="showCountry('KE')"></span>
@@ -376,6 +387,18 @@
     <span id="count" class="count-note"></span>
     <button id="loadmore" class="btn btn-load" style="display:none">Load older editions ↓</button>
   </div>
+</section>
+
+<section id="guides" class="wrap">
+  <div class="section-head">
+    <div>
+      <span class="kicker">Guides &amp; playbooks</span>
+      <h2>How the market actually works</h2>
+    </div>
+    <span class="count-note">Reference pieces, kept current</span>
+  </div>
+  <p style="margin:0 0 18px;color:var(--muted);max-width:70ch">The daily editions tell you what changed. These explain the mechanics behind it &mdash; written once, revised as the facts move.</p>
+  <div class="gcards" id="guide-cards"></div>
 </section>
 
 <section id="tools" class="wrap" style="padding:38px 0 6px">
@@ -532,6 +555,7 @@
 <script>document.write('<scr'+'ipt src="connectivity.js?t='+Date.now()+'"></scr'+'ipt>');</script>
 <script>document.write('<scr'+'ipt src="rivals.js?t='+Date.now()+'"></scr'+'ipt>');</script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/4.4.1/chart.umd.min.js"></script>
+<script>document.write('<scr'+'ipt src="guides.js?t='+Date.now()+'"></scr'+'ipt>');</script>
 <script>document.write('<scr'+'ipt src="data.js?t='+Date.now()+'"></scr'+'ipt>');</script>
 <script>
   // Emoji flags render as bare letter pairs (KE, TZ) on Windows. Convert to CSS flags
@@ -928,6 +952,22 @@
       if(el && el.classList.contains('pane')){ show(k); document.getElementById('tools').scrollIntoView({behavior:'smooth'}); }
     });
   }
+  // ---- Guides ----
+  function renderGuides(){
+    const box=document.getElementById('guide-cards'); if(!box) return;
+    const G=window.GUIDES||[];
+    const sec=document.getElementById('guides');
+    if(!G.length){ if(sec) sec.style.display='none'; return; }
+    const fmt=d=>{ try{ return new Date(d+'T00:00:00').toLocaleDateString('en-GB',{day:'numeric',month:'short',year:'numeric'}); }catch(e){ return d; } };
+    box.innerHTML=G.map(g=>
+      '<a class="gcard" href="guides/'+g.slug+'.html">'+
+      '<span class="gcat">'+g.category+'</span>'+
+      '<h3>'+g.title+'</h3>'+
+      '<p>'+g.description+'</p>'+
+      '<div class="gmeta">Updated '+fmt(g.updated)+' · '+g.readMins+' min read</div>'+
+      '<div class="gread">Read the guide →</div></a>').join('');
+  }
+  renderGuides();
   renderLatest();
   initTabs();
   renderConnect();

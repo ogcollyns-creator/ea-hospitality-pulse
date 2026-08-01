@@ -329,9 +329,19 @@ def main():
         with open(os.path.join(EDIR, e["id"]+".html"),"w",encoding="utf-8") as f:
             f.write(edition_page(e, sibs))
 
+    # evergreen guides
+    try:
+        import build_guides
+        guides = build_guides.build()
+    except Exception as ex:
+        print("guides skipped:", ex)
+        guides = []
+
     # sitemap.xml
     today = datetime.date.today().isoformat()
     urls = [(BASE+"/", today, "daily")]
+    for g in guides:
+        urls.append((f"{BASE}/guides/{g['slug']}.html", g["updated"], "monthly"))
     for e in editions:
         urls.append((f"{BASE}/editions/{e['id']}.html", e["date"], "monthly"))
     sm = ['<?xml version="1.0" encoding="UTF-8"?>',

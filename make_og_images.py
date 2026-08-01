@@ -38,7 +38,7 @@ def base_card(kicker, headline, footer):
     # masthead
     d.text((70,58),"🏨".encode('ascii','ignore').decode() or "",font=f(FONTB,40),fill=WHITE)
     d.text((70,60),"EA HOSPITALITY PULSE",font=f(FONTB,40),fill=WHITE)
-    d.text((72,112),"Daily intelligence for city, bush & beach properties",font=f(FONT,21),fill=(214,228,224))
+    d.text((72,112),"For hotels, lodges, resorts, tour operators & DMCs",font=f(FONT,21),fill=(214,228,224))
     # kicker
     if kicker:
         kw=d.textlength(kicker.upper(),font=f(FONTB,19))
@@ -89,7 +89,7 @@ def make_favicon():
 def main(editions=None):
     os.makedirs(OG,exist_ok=True)
     base_card("Daily intelligence",
-              "Daily market intelligence for East Africa's hospitality leaders.",
+              "Daily market intelligence for East Africa's hospitality and travel trade.",
               "Three briefs a day · Free on Telegram").save(os.path.join(OG,"default.png"))
     if editions:
         for e in editions:
