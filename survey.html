@@ -24,6 +24,10 @@ textarea{min-height:80px;resize:vertical}
 .note{background:var(--sand2);border-left:4px solid var(--gold);padding:12px 15px;border-radius:0 8px 8px 0;font-family:Helvetica,Arial,sans-serif;font-size:13.5px;margin:18px 0}
 button{background:var(--gold);color:#231a06;border:none;border-radius:8px;padding:14px 24px;font-family:Helvetica,Arial,sans-serif;font-weight:700;font-size:15px;cursor:pointer;margin-top:20px}
 button:hover{background:var(--gold-d);color:#fff}
+#msg{font-family:Helvetica,Arial,sans-serif;font-size:14.5px;margin-top:18px;padding:14px 16px;border-radius:8px;background:var(--sand2);display:none}
+#msg.show{display:block}
+#dump{width:100%;min-height:160px;font-family:ui-monospace,Menlo,Consolas,monospace;font-size:12.5px;margin-top:12px;display:none}
+#dump.show{display:block}
 footer{text-align:center;color:var(--muted);font-family:Helvetica,Arial,sans-serif;font-size:12.5px;padding:26px}
 </style></head><body>
 <header><div class="wrap"><h1>EA Hospitality Sentiment Index</h1>
@@ -89,18 +93,51 @@ footer{text-align:center;color:var(--muted);font-family:Helvetica,Arial,sans-ser
     <input type="text" name="email" placeholder="you@email.com"></div>
 
   <button type="submit">Submit — and get the results first</button>
+  <div id="msg"></div>
+  <textarea id="dump" readonly></textarea>
 </form>
-<div id="msg" style="margin-top:16px;font-family:Helvetica,Arial,sans-serif;font-size:14px"></div>
 </div></div>
 <footer>EA Hospitality Pulse · Daily intelligence for city, bush &amp; beach properties<br>
 <a href="index.html">Back to the Pulse</a></footer>
 <script>
-document.getElementById('f').addEventListener('submit',function(e){
+var ENDPOINT = 'https://formspree.io/f/meeybrrz';
+var FALLBACK_EMAIL = 'ceo@eahospitalitypulse.com';
+
+document.getElementById('f').addEventListener('submit', function(e){
   e.preventDefault();
-  document.getElementById('msg').innerHTML='<b>The survey opens with our next quarterly round.</b> '+
-   'We\'re building the participant base first so the results are statistically meaningful rather than anecdotal. '+
-   'Join the <a href="https://t.me/africabusinessriskreview" target="_blank" rel="noopener">Telegram channel</a> and you\'ll be first to know when it opens.';
-  document.getElementById('msg').scrollIntoView({behavior:'smooth'});
+  var fd = new FormData(e.target);
+  var out = {};
+  fd.forEach(function(v,k){
+    if(v==='') return;
+    if(out[k]===undefined){ out[k]=v; }
+    else if(Array.isArray(out[k])){ out[k].push(v); }
+    else { out[k]=[out[k],v]; }
+  });
+  var msg = document.getElementById('msg');
+  if(ENDPOINT){
+    fetch(ENDPOINT,{method:'POST',headers:{'Content-Type':'application/json','Accept':'application/json'},body:JSON.stringify(out)})
+      .then(function(r){
+        msg.innerHTML = r.ok
+          ? '<b>Thank you — received anonymously.</b> We publish the aggregate results free to everyone who takes part once we have enough responses to report safely. Join the <a href="https://t.me/africabusinessriskreview" target="_blank" rel="noopener">Telegram channel</a> to be first to see them.'
+          : '<b>That did not send.</b> Please copy the text below and email it to <a href="mailto:'+FALLBACK_EMAIL+'">'+FALLBACK_EMAIL+'</a>.';
+        if(!r.ok) showDump(out);
+        msg.className='show';
+      })
+      .catch(function(){
+        msg.innerHTML='<b>That did not send.</b> Please copy the text below and email it to <a href="mailto:'+FALLBACK_EMAIL+'">'+FALLBACK_EMAIL+'</a>.';
+        showDump(out); msg.className='show';
+      });
+  } else {
+    msg.innerHTML='<b>Almost there.</b> Automated collection is not switched on for this round yet, so please copy the text below into an email to <a href="mailto:'+FALLBACK_EMAIL+'?subject=Sentiment%20Index%20response">'+FALLBACK_EMAIL+'</a>.';
+    showDump(out); msg.className='show';
+  }
+  msg.scrollIntoView({behavior:'smooth'});
 });
+function showDump(o){
+  var t=document.getElementById('dump');
+  var lines=['EA HOSPITALITY SENTIMENT INDEX',''];
+  for(var k in o){ lines.push(k+': '+(Array.isArray(o[k])?o[k].join(', '):o[k])); }
+  t.value=lines.join('\n'); t.className='show'; t.select();
+}
 </script>
 </body></html>
