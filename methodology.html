@@ -1,0 +1,118 @@
+<!DOCTYPE html><html lang="en"><head><meta charset="UTF-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<meta http-equiv="Cache-Control" content="no-cache, must-revalidate">
+<title>Methodology — how EA Hospitality Pulse sources, verifies and scores its data</title>
+<meta name="description" content="How the EA Pulse Rate Index, Cost-Side Index, Rules & Fees Tracker and Foresight Ledger are built: basket selection, verification standards, update cadence, and how forecasts are scored — including the ones we get wrong.">
+<link rel="canonical" href="https://eahospitalitypulse.com/methodology.html">
+<link rel="icon" href="favicon.png">
+<link rel="alternate" type="application/rss+xml" title="EA Hospitality Pulse" href="feed.xml">
+<meta property="og:type" content="article"><meta property="og:site_name" content="EA Hospitality Pulse">
+<meta property="og:title" content="Methodology — how EA Hospitality Pulse sources, verifies and scores its data">
+<meta property="og:description" content="Basket selection, verification standards, update cadence, and how forecasts are scored — including the ones we get wrong.">
+<meta property="og:url" content="https://eahospitalitypulse.com/methodology.html">
+<meta property="og:image" content="https://eahospitalitypulse.com/og/default.png">
+<script type="application/ld+json">{"@context":"https://schema.org","@type":"Article","headline":"Methodology — how EA Hospitality Pulse sources, verifies and scores its data","description":"Basket selection, verification standards, update cadence, and forecast scoring for EA Hospitality Pulse's data products.","dateModified":"2026-08-01","url":"https://eahospitalitypulse.com/methodology.html","author":{"@type":"Organization","name":"EA Hospitality Pulse"},"publisher":{"@type":"Organization","name":"EA Hospitality Pulse"}}</script>
+<style>
+:root{--sand:#f6f1e7;--sand2:#efe7d6;--ink:#1f2421;--muted:#6b6656;--gold:#c8892f;--gold-d:#a86f1f;--teal:#0f6d63;--teal-d:#0a4f48;--line:#e2d8c4;--card:#fffdf9}
+*{box-sizing:border-box}body{margin:0;font-family:Georgia,serif;background:var(--sand);color:var(--ink);line-height:1.65}
+.wrap{max-width:760px;margin:0 auto;padding:0 20px}
+a{color:var(--teal-d)}
+header{background:linear-gradient(135deg,var(--teal-d),var(--teal));color:#fff;padding:30px 0;border-bottom:5px solid var(--gold)}
+header h1{margin:0 0 6px;font-size:27px}header p{margin:0;opacity:.92;font-size:15px;font-family:Helvetica,Arial,sans-serif}
+.nav{font-family:Helvetica,Arial,sans-serif;font-size:14px;font-weight:600;display:inline-block;margin:22px 0 0}
+.card{background:var(--card);border:1px solid var(--line);border-radius:14px;padding:28px 30px;margin:22px auto}
+h2{font-size:20px;margin:0 0 12px;border-bottom:2px solid var(--gold);padding-bottom:10px}
+h3{font-size:16px;margin:22px 0 8px;color:var(--gold-d);font-family:Helvetica,Arial,sans-serif;text-transform:uppercase;letter-spacing:.6px;font-size:13px}
+p{margin:0 0 14px}
+ul{padding-left:22px;margin:0 0 14px}
+li{margin-bottom:7px}
+.stat{display:inline-block;background:var(--sand2);border-radius:8px;padding:3px 9px;font-family:Helvetica,Arial,sans-serif;font-size:13px;font-weight:700;color:var(--teal-d)}
+.note{background:var(--sand2);border-left:4px solid var(--gold);padding:14px 16px;border-radius:0 8px 8px 0;font-family:Helvetica,Arial,sans-serif;font-size:14px;margin:16px 0}
+table{border-collapse:collapse;width:100%;font-family:Helvetica,Arial,sans-serif;font-size:13.5px;margin:12px 0 18px}
+th,td{border:1px solid var(--line);padding:8px 10px;text-align:left;vertical-align:top}
+th{background:var(--sand2);font-weight:700}
+footer{text-align:center;color:var(--muted);font-family:Helvetica,Arial,sans-serif;font-size:12.5px;padding:26px}
+.btnrow{display:flex;gap:10px;flex-wrap:wrap;margin-top:6px}
+.btn{font-family:Helvetica,Arial,sans-serif;font-weight:700;font-size:13.5px;padding:9px 15px;border-radius:8px;background:var(--gold);color:#231a06;text-decoration:none}
+.btn:hover{background:var(--gold-d);color:#fff;text-decoration:none}
+</style></head><body>
+<header><div class="wrap">
+  <h1>Methodology</h1>
+  <p>How the data behind EA Hospitality Pulse is built, verified and updated.</p>
+</div></header>
+<div class="wrap">
+<a class="nav" href="index.html">&larr; Back to the Pulse</a>
+
+<div class="card">
+<h2>Why this page exists</h2>
+<p>A market-intelligence product that asks you to trust its numbers should show its work. This page explains, plainly, how each dataset is built — what counts as a source, how confidence is graded, and what a stat on the homepage actually means before you act on it.</p>
+<div class="note"><b>This page describes the current build.</b> Several of these datasets are genuinely early — coverage figures below are accurate as of this writing and will read differently as they mature. We'd rather show a small, honest number than a rounded-up one.</div>
+</div>
+
+<div class="card">
+<h2>EA Pulse Rate Index</h2>
+<p>A fixed basket of <span class="stat">40 properties</span> across six East African markets (Nairobi, the Kenyan coast, Zanzibar, Kigali, Kampala, and the safari circuit), tracked weekly at a <b>constant booking convention</b> so that a change in the index reflects a change in rate — not a change in what was measured.</p>
+<h3>The convention, fixed for every observation</h3>
+<ul>
+<li><b>Length of stay:</b> 2 nights</li>
+<li><b>Lead time:</b> 30 days ahead of the observation date</li>
+<li><b>Occupancy:</b> 2 adults</li>
+<li><b>Currency:</b> USD</li>
+</ul>
+<h3>How a weekly figure is calculated</h3>
+<p>Each market's figure is the <b>median</b> of that week's observed lead-in rates across its basket, not the mean — a median is far less distorted by one outlier property having a promotional rate that week. A market's week is only shown as <b>confident</b> once at least <span class="stat">3 observations</span> (minN) were collected for it that week; below that, the figure is published but flagged unconfident, because a sample of one or two properties isn't yet a market read.</p>
+<h3>Where the basket came from</h3>
+<p>Properties were selected to span each market's actual segment mix — city business hotels, safari lodges and camps across price tiers, and beach resorts — rather than skewing toward the largest or most marketed names. The basket is fixed once set; we don't swap a property out because its rate moved in an inconvenient direction. Basket changes, when they happen, are logged with a reason.</p>
+</div>
+
+<div class="card">
+<h2>Cost-Side Index</h2>
+<p>A weekly sweep of the inputs that move a property's margin rather than its top line — fuel, currency, energy and food costs across the five markets. Currently <span class="stat">14 tracked line items</span>. Every figure carries a named source and a date; where a figure is a same-day reported number rather than an official release, that distinction is stated rather than blurred.</p>
+</div>
+
+<div class="card">
+<h2>Rules, Fees &amp; Levies Tracker</h2>
+<p>Every entry rule, permit price, park fee, levy and surcharge we track across the five markets is marked <b>verified</b> or <b>needs re-confirmation</b>. As of this writing, <span class="stat">19 of 23</span> entries are currently verified against a primary source (a gazette, a regulator's own page, or an official fee schedule) within our re-check window; the remainder are marked to flag that they should be re-confirmed with the official portal before being quoted to a client. We would rather show that flag honestly than let a stale fee sit uncorrected on the page.</p>
+</div>
+
+<div class="card">
+<h2>Confidence grading — every claim, every edition</h2>
+<p>Every item we publish is graded, and the grade is printed on the item itself:</p>
+<table>
+<tr><th>Grade</th><th>What it means</th></tr>
+<tr><td><b>Confirmed</b></td><td>Verified against a primary or official source — a regulator's own notice, a government gazette, an airline's own schedule filing.</td></tr>
+<tr><td><b>Reported</b></td><td>Carried by credible press but not yet independently confirmed against a primary source.</td></tr>
+<tr><td><b>Early signal</b></td><td>An upstream indicator — a filing, a schedule change, a procurement notice — that suggests something is coming before it's been reported anywhere. Labelled as inference, not fact, until it resolves.</td></tr>
+</table>
+<p>A recency gate runs before anything publishes: every item must carry a publication date, an event date inside the edition's coverage window, and pass a novelty check — if a well-informed operator already knows it, it's catch-up, not intelligence. Evergreen pages, undated aggregators and recycled press releases are treated as stale until proven otherwise, and we chase a claim back to its primary source before trusting the date a search engine shows for it.</p>
+</div>
+
+<div class="card">
+<h2>Foresight Ledger — how a forecast gets scored</h2>
+<p>Every forward call we publish is logged with a falsifiable resolution test and a resolve-by date, before we know the outcome. As of this writing: <span class="stat">43 calls logged</span>, 41 still open, 2 resolved (1 correct, 1 partial, 0 incorrect) — a <span class="stat">75%</span> accuracy figure on a genuinely small resolved sample so far. We show that number rather than waiting for a rounder one, because the point of a public ledger is that you can check it at any stage, not just when it looks good.</p>
+<p>A call is only logged if its resolution criteria name a specific, checkable source in advance — "confirmed by KNBS's next release" or "resolved by the official gazette notice" — not a vague future vibe check. When a call resolves, the evidence and source are published alongside the verdict, including on calls we got wrong or partially wrong. Nothing is quietly removed or re-worded after the fact; corrections are published as corrections.</p>
+</div>
+
+<div class="card">
+<h2>Sourcing hierarchy, in order</h2>
+<ol style="padding-left:20px;margin:0">
+<li>Primary/official sources — government gazettes, regulator notices, airline schedule filings, statistics bureau releases, park and conservation authorities</li>
+<li>Named credible press — regional and international outlets, attributed by name and date</li>
+<li>Aggregators and secondary coverage — used only to locate a story, never cited as the source; we chase every claim back to where it originated</li>
+</ol>
+<p>Undated content, listicles, evergreen SEO pages and copyright-year-only pages are not treated as sources regardless of how they rank in search.</p>
+</div>
+
+<div class="card">
+<h2>Questions this doesn't answer</h2>
+<p>See the <a href="faq.html">FAQ</a> for shorter, specific answers — including what the Rate Index is for, how advisories actually affect bookings, and whether this is free.</p>
+<div class="btnrow">
+<a class="btn" href="index.html#track">Track record</a>
+<a class="btn" href="republish.html">Syndication terms</a>
+<a class="btn" href="faq.html">FAQ</a>
+</div>
+</div>
+
+</div>
+<footer>EA Hospitality Pulse &mdash; Daily market intelligence for East Africa's hospitality and travel trade.<br>Kenya &middot; Uganda &middot; Tanzania &middot; Zanzibar &middot; Rwanda</footer>
+</body></html>
