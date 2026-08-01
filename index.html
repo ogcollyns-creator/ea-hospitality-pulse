@@ -26,6 +26,7 @@
 <script type="application/ld+json">{"@context": "https://schema.org", "@type": "Dataset", "name": "EA Pulse Rules, Fees & Levies Tracker", "description": "A living register of entry rules, visa and ETA fees, park and permit prices, levies and surcharges across Kenya, Uganda, Tanzania, Zanzibar and Rwanda, each entry marked verified or flagged for re-confirmation against its official source.", "url": "https://eahospitalitypulse.com/index.html#rules", "creator": {"@type": "Organization", "name": "EA Hospitality Pulse", "url": "https://eahospitalitypulse.com/"}, "license": "https://eahospitalitypulse.com/republish.html", "isAccessibleForFree": true, "spatialCoverage": ["Kenya", "Uganda", "Tanzania", "Zanzibar", "Rwanda"], "temporalCoverage": "2026-07-24/..", "variableMeasured": ["Fee amount", "Effective date", "Verification status", "Applicable market"]}</script>
 <script type="application/ld+json">{"@context": "https://schema.org", "@type": "Dataset", "name": "EA Pulse Connectivity Tracker", "description": "Official airport traffic figures and confirmed airline route events across East Africa's five markets — tracking the seats that determine arrivals, without publishing unverifiable seat-capacity estimates.", "url": "https://eahospitalitypulse.com/index.html#connect", "creator": {"@type": "Organization", "name": "EA Hospitality Pulse", "url": "https://eahospitalitypulse.com/"}, "license": "https://eahospitalitypulse.com/republish.html", "isAccessibleForFree": true, "spatialCoverage": ["Kenya", "Uganda", "Tanzania", "Zanzibar", "Rwanda"], "temporalCoverage": "2026-07-24/..", "variableMeasured": ["Airport passenger traffic", "Route addition/cancellation events"]}</script>
 <script type="application/ld+json">{"@context": "https://schema.org", "@type": "Dataset", "name": "EA Pulse Development Pipeline Tracker", "description": "New hotel signings, brand entries, construction progress and openings across Kenya, Uganda, Tanzania, Zanzibar and Rwanda, combining the W Hospitality Group branded chain-pipeline benchmark with individually sourced and verified project records.", "url": "https://eahospitalitypulse.com/index.html#pipeline", "creator": {"@type": "Organization", "name": "EA Hospitality Pulse", "url": "https://eahospitalitypulse.com/"}, "license": "https://eahospitalitypulse.com/republish.html", "isAccessibleForFree": true, "spatialCoverage": ["Kenya", "Uganda", "Tanzania", "Zanzibar", "Rwanda"], "temporalCoverage": "2026-08-01/..", "variableMeasured": ["Pipeline rooms", "Properties in pipeline", "Rooms under construction", "Share under construction", "Project status", "Anticipated opening year", "Operating brand"]}</script>
+<script type="application/ld+json">{"@context": "https://schema.org", "@type": "Dataset", "name": "EA Pulse MICE Events Tracker", "description": "Confirmed conferences, congresses, trade expos and awards ceremonies across Kenya, Uganda, Tanzania, Zanzibar and Rwanda, with dates, venue, delegate counts where sourced, and status (Confirmed / Bid won / Rumoured / Cancelled).", "url": "https://eahospitalitypulse.com/index.html#mice", "creator": {"@type": "Organization", "name": "EA Hospitality Pulse", "url": "https://eahospitalitypulse.com/"}, "license": "https://eahospitalitypulse.com/republish.html", "isAccessibleForFree": true, "spatialCoverage": ["Kenya", "Uganda", "Tanzania", "Zanzibar", "Rwanda"], "temporalCoverage": "2026-08-01/..", "variableMeasured": ["Event name", "Host city and country", "Venue", "Dates", "Expected delegates", "Status", "Source and date"]}</script>
 <style>
   :root{
     --sand:#f6f1e7; --sand-2:#efe7d6; --ink:#1f2421; --muted:#6b6656;
@@ -329,7 +330,7 @@
   .pl-brand{font-family:'Helvetica Neue',Arial,sans-serif;font-size:12px;font-weight:600;color:var(--muted);background:var(--sand-2);padding:2px 8px;border-radius:20px;margin-left:4px;white-space:nowrap}
   .pl-detail{font-size:14px;color:var(--muted);margin:6px 0 8px;line-height:1.55}
 </style>
-<!--BUILD_STAMP:20260801-2041--></head>
+<!--BUILD_STAMP:20260801-2052--></head>
 <body>
 <header class="site">
   <div class="wrap topbar">
@@ -437,9 +438,9 @@
     <div><div class="kicker">Live reference</div><h2>Intelligence tools</h2></div>
   </div>
   <p style="max-width:72ch;margin:0 0 14px;color:var(--muted);font-size:15px">
-    Seven live datasets we maintain for the region — advisory levels, entry rules and fees, our proprietary rate index, operating costs, air connectivity, the development pipeline, and the destinations competing for your guest.
+    Eight live datasets we maintain for the region — advisory levels, entry rules and fees, our proprietary rate index, operating costs, air connectivity, the development pipeline, confirmed MICE events, and the destinations competing for your guest.
   </p>
-  <div class="tabs"><button class="tab active" data-pane="advisories">🚦 Travel advisories</button><button class="tab" data-pane="rules">📋 Rules &amp; fees</button><button class="tab" data-pane="rateindex">📊 Rate Index</button><button class="tab" data-pane="costs">💰 Costs &amp; calendar</button><button class="tab" data-pane="connect">✈️ Connectivity</button><button class="tab" data-pane="pipeline">🏗️ Pipeline</button><button class="tab" data-pane="rivals">🌍 Rival destinations</button></div>
+  <div class="tabs"><button class="tab active" data-pane="advisories">🚦 Travel advisories</button><button class="tab" data-pane="rules">📋 Rules &amp; fees</button><button class="tab" data-pane="rateindex">📊 Rate Index</button><button class="tab" data-pane="costs">💰 Costs &amp; calendar</button><button class="tab" data-pane="connect">✈️ Connectivity</button><button class="tab" data-pane="pipeline">🏗️ Pipeline</button><button class="tab" data-pane="mice">🎪 MICE</button><button class="tab" data-pane="rivals">🌍 Rival destinations</button></div>
   <div class="tabwrap"><div class="pane active" id="advisories"><div class="adv-head">
     <div><div class="kicker">Know before you sell</div><h2>Travel advisory status board</h2></div>
     <span id="adv-updated"></span>
@@ -507,7 +508,15 @@
   <div id="pl-markets" class="ct-grid"></div>
   <h3 style="margin:26px 0 8px;font-size:18px">Signings, openings &amp; brand entries</h3>
   <div id="pl-projects"></div>
-  <p class="method" id="pl-caveat"></p></div><div class="pane" id="rivals"><div class="adv-head">
+  <p class="method" id="pl-caveat"></p></div><div class="pane" id="mice"><div class="adv-head">
+    <div><span class="ri-badge">Compression events</span><h2>MICE tracker</h2></div>
+    <span id="mc-updated"></span>
+  </div>
+  <p style="max-width:72ch;margin:0 0 6px;color:var(--muted);font-size:15px">
+    Confirmed conferences, congresses, expos and awards ceremonies &mdash; the events that fill a city's or island's room stock for several nights at once, with enough lead time to actually plan around.
+  </p>
+  <div id="mc-events"></div>
+  <p class="method" id="mc-caveat"></p></div><div class="pane" id="rivals"><div class="adv-head">
     <div><span class="ri-badge">Know the competition</span><h2>Competitive destinations</h2></div>
     <span id="rv-updated"></span>
   </div>
@@ -604,6 +613,7 @@
 <script>document.write('<scr'+'ipt src="calendar.js?t='+Date.now()+'"></scr'+'ipt>');</script>
 <script>document.write('<scr'+'ipt src="connectivity.js?t='+Date.now()+'"></scr'+'ipt>');</script>
 <script>document.write('<scr'+'ipt src="pipeline.js?t='+Date.now()+'"></scr'+'ipt>');</script>
+<script>document.write('<scr'+'ipt src="mice.js?t='+Date.now()+'"></scr'+'ipt>');</script>
 <script>document.write('<scr'+'ipt src="rivals.js?t='+Date.now()+'"></scr'+'ipt>');</script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/4.4.1/chart.umd.min.js"></script>
 <script>document.write('<scr'+'ipt src="guides.js?t='+Date.now()+'"></scr'+'ipt>');</script>
@@ -993,6 +1003,24 @@
     const cv=document.getElementById('pl-caveat');
     if(cv) cv.innerHTML='<b>Scope note:</b> '+P.benchmarkNote+' '+P.caveat;
   }
+  function renderMice(){
+    const M=window.MICE; if(!M) return;
+    const u=document.getElementById('mc-updated'); if(u) u.textContent='Updated '+M.updated;
+    const ev=document.getElementById('mc-events');
+    if(ev) ev.innerHTML=M.events.map(x=>{
+      const bits=[x.status, x.dates];
+      if(x.delegates) bits.push(x.delegates+' delegates');
+      bits.push(x.source);
+      return '<div class="rt '+(x.flagged==='action'?'up':'flat')+'">'+
+        '<div class="c">'+fx(x.flag)+' '+x.event+
+        (x.verified?'':' <span class="unver-tag">VERIFY</span>')+'</div>'+
+        '<div class="st">'+x.city+' · '+bits.join(' · ')+'</div>'+
+        '<div class="pl-detail">'+x.detail+'</div>'+
+        '<div class="im"><b>So what:</b> '+x.soWhat+'</div></div>';
+    }).join('');
+    const cv=document.getElementById('mc-caveat');
+    if(cv) cv.innerHTML='<b>Scope note:</b> '+M.caveat;
+  }
   function renderRivals(){
     const R=window.RIVALS; if(!R) return;
     const u=document.getElementById('rv-updated'); if(u) u.textContent='Updated '+R.updated;
@@ -1057,6 +1085,7 @@
   initTabs();
   renderConnect();
   renderPipeline();
+  renderMice();
   renderRivals();
   renderCosts();
   renderRules();
