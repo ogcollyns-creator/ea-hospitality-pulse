@@ -372,7 +372,7 @@ def main():
     open(os.path.join(HERE, "feed.xml"), "w", encoding="utf-8").write("\n".join(rss))
 
     # sitemap.xml
-    urls = [(BASE+"/", today, "daily"), (BASE+"/republish.html", today, "monthly"), (BASE+"/methodology.html", today, "monthly"), (BASE+"/faq.html", today, "monthly")]
+    urls = [(BASE+"/", today, "daily"), (BASE+"/republish.html", today, "monthly"), (BASE+"/methodology.html", today, "monthly"), (BASE+"/faq.html", today, "monthly"), (BASE+"/start-here.html", today, "monthly")]
     for g in guides:
         urls.append((f"{BASE}/guides/{g['slug']}.html", g["updated"], "monthly"))
     tools_dir = os.path.join(HERE, "tools")

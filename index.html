@@ -51,7 +51,9 @@
   nav.top a:hover{opacity:1;text-decoration:none;border-bottom:2px solid var(--gold)}
 
   /* Hero */
-  .hero{background:radial-gradient(circle at 20% 20%,#12786d,var(--teal-d));color:#fff;padding:54px 0 46px;border-bottom:5px solid var(--gold)}
+  .hero{position:relative;color:#fff;padding:54px 0 46px;border-bottom:5px solid var(--gold);background-color:var(--teal-d);background-image:linear-gradient(135deg,rgba(10,54,49,.88),rgba(15,80,73,.80)),url('img/hero-serengeti.jpg');background-size:cover;background-position:center 38%;background-repeat:no-repeat}
+  .hero-credit{position:absolute;right:16px;bottom:10px;font-family:'Helvetica Neue',Arial,sans-serif;font-size:10.5px;color:rgba(255,255,255,.55);text-decoration:none}
+  .hero-credit:hover{color:rgba(255,255,255,.85);text-decoration:underline}
   .hero h2{font-size:clamp(26px,4vw,40px);margin:0 0 14px;line-height:1.15;max-width:16ch}
   .hero p.lead{font-size:18px;max-width:60ch;opacity:.95}
   .flags{font-size:22px;letter-spacing:3px;margin:10px 0 22px}
@@ -240,6 +242,12 @@
 
   .hero-sub{font-family:'Helvetica Neue',Arial,sans-serif;font-size:16.5px;color:rgba(255,255,255,.93);margin:0 0 20px;max-width:66ch;line-height:1.6}
 
+  /* Editor bio */
+  .editor-bio{display:flex;gap:14px;align-items:flex-start;margin-top:22px;padding-top:18px;border-top:1px solid var(--line)}
+  .editor-avatar{flex:none;width:44px;height:44px;border-radius:50%;background:var(--teal-d);color:var(--gold);font-family:'Helvetica Neue',Arial,sans-serif;font-weight:800;font-size:15px;display:flex;align-items:center;justify-content:center;border:2px solid var(--gold)}
+  .editor-bio b{font-size:15px}
+  .editor-bio p{margin:4px 0 0;font-size:13.5px;color:var(--muted);font-family:'Helvetica Neue',Arial,sans-serif;line-height:1.55}
+
   /* Sections */
   section{padding:40px 0}
   .section-head{display:flex;align-items:baseline;justify-content:space-between;gap:12px;flex-wrap:wrap;margin-bottom:18px}
@@ -317,7 +325,7 @@
   footer.site{padding:28px 0;text-align:center;color:var(--muted);font-family:'Helvetica Neue',Arial,sans-serif;font-size:13px}
   @media(max-width:720px){.segs{grid-template-columns:1fr}.about-grid{grid-template-columns:1fr}}
 </style>
-<!--BUILD_STAMP:20260801-1329--></head>
+<!--BUILD_STAMP:20260801-1353--></head>
 <body>
 <header class="site">
   <div class="wrap topbar">
@@ -348,11 +356,18 @@
       <span class="flag lg rw" role="button" tabindex="0" title="Rwanda insights" onclick="showCountry('RW')"></span>
       <span class="flaghint">← tap a flag for country insights</span>
     </div>
+    <form id="mc-form-hero" class="mc-form" action="https://gmail.us1.list-manage.com/subscribe/post?u=19ff0019ddd33b1533f381dba&amp;id=cce993cca2&amp;f_id=004614e5f0" method="post" target="_blank" novalidate>
+      <input type="email" name="EMAIL" placeholder="you@email.com" aria-label="Email address" required>
+      <div style="position:absolute;left:-5000px" aria-hidden="true"><input type="text" name="b_19ff0019ddd33b1533f381dba_cce993cca2" tabindex="-1" value=""></div>
+      <button type="submit" name="subscribe" class="btn btn-gold" style="border:none">Get the daily brief →</button>
+    </form>
+    <div id="mc-msg-hero" class="mc-msg"></div>
     <div class="cta-row">
-      <a class="btn btn-gold" href="#subscribe">Get the daily brief →</a>
       <a class="btn btn-ghost" href="#archive">Browse every edition</a>
+      <a class="btn btn-ghost" href="start-here.html">New here? Start here →</a>
     </div>
   </div>
+  <a class="hero-credit" href="https://unsplash.com/photos/0LwfbRtQ-ac" target="_blank" rel="noopener">Photo: Hu Chen / Unsplash</a>
 </div>
 
 <div class="wrap">
@@ -517,6 +532,13 @@
         <p style="font-size:14.5px;color:var(--muted);border-left:3px solid var(--gold);padding-left:14px;margin-top:18px">
         <b>How we work.</b> Every claim is attributed to a named source and graded by confidence. Every forecast is logged in our public <a href="#track">track record</a> with a falsifiable test — including the calls we get wrong. Corrections are published, not quietly edited.<br>
         Editorially independent. Free to read. Reach us via <a href="https://t.me/africabusinessriskreview" target="_blank" rel="noopener">Telegram</a> or <a href="https://www.linkedin.com/company/ea-hospitality-pulse/" target="_blank" rel="noopener">LinkedIn</a>. Associations, trade press and newsletters are welcome to republish free — see our <a href="republish.html">syndication terms</a> or subscribe to the <a href="feed.xml">RSS feed</a>. Curious how our data and forecasts are built and verified? See our <a href="methodology.html">methodology</a> or the <a href="faq.html">FAQ</a>.</p>
+        <div class="editor-bio">
+          <div class="editor-avatar">OG</div>
+          <div>
+            <b>OG</b> — founder and editor of EA Hospitality Pulse.
+            <p>Writes, verifies and publishes every edition. "Editorially independent" means more with a name attached to it than without one.</p>
+          </div>
+        </div>
       </div>
       <div id="subscribe" class="sub-box">
         <h3>Get every brief</h3>
@@ -720,13 +742,15 @@
     });
   }
   // email signup guard (until Mailchimp action URL is wired) + PDF slot
-  const mcForm=document.getElementById('mc-form'), mcMsg=document.getElementById('mc-msg');
-  if(mcForm){ mcForm.addEventListener('submit',e=>{
-    if((mcForm.getAttribute('action')||'').includes('MAILCHIMP_ACTION_URL')){
-      e.preventDefault();
-      if(mcMsg) mcMsg.textContent='Email signup goes live shortly — for now, join us on Telegram below.';
-    }
-  }); }
+  document.querySelectorAll('.mc-form').forEach(f=>{
+    const msg=document.getElementById(f.id==='mc-form-hero'?'mc-msg-hero':'mc-msg');
+    f.addEventListener('submit',e=>{
+      if((f.getAttribute('action')||'').includes('MAILCHIMP_ACTION_URL')){
+        e.preventDefault();
+        if(msg) msg.textContent='Email signup goes live shortly — for now, join us on Telegram below.';
+      }
+    });
+  });
   function renderPdf(){ const P=window.LATEST_PDF, box=document.getElementById('pdf-slot');
     if(box && P && P.file){
       box.innerHTML='<a class="pdf-btn" href="'+P.file+'" target="_blank" rel="noopener">⬇ Download this week\'s Sunday Foresight (PDF)'+(P.date?(' — '+P.date):'')+'</a>';
