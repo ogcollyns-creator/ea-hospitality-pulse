@@ -249,6 +249,19 @@
   .editor-avatar{flex:none;width:44px;height:44px;border-radius:50%;background:var(--teal-d);color:var(--gold);font-family:'Helvetica Neue',Arial,sans-serif;font-weight:800;font-size:15px;display:flex;align-items:center;justify-content:center;border:2px solid var(--gold)}
   .editor-bio b{font-size:15px}
   .editor-bio p{margin:4px 0 0;font-size:13.5px;color:var(--muted);font-family:'Helvetica Neue',Arial,sans-serif;line-height:1.55}
+  .topstrip{display:grid;grid-template-columns:1fr 1.5fr;gap:22px;align-items:stretch;margin:26px 0 6px}
+  .editor-mini{display:flex;gap:12px;align-items:flex-start;background:var(--card);border:1px solid var(--line);border-radius:12px;padding:16px 18px}
+  .editor-avatar.sm{width:38px;height:38px;font-size:13px}
+  .editor-mini p{margin:0;font-size:14px;line-height:1.5;font-family:'Helvetica Neue',Arial,sans-serif;color:var(--muted)}
+  .editor-mini p b{color:var(--ink);font-size:14.5px}
+  .editor-mini p a{white-space:nowrap}
+  .adv-mini{background:var(--card);border:1px solid var(--line);border-radius:12px;padding:16px 18px}
+  .adv-mini-head{display:flex;align-items:baseline;justify-content:space-between;gap:10px;margin-bottom:10px;flex-wrap:wrap}
+  .adv-mini-updated{font-family:'Helvetica Neue',Arial,sans-serif;font-size:12px;color:var(--muted)}
+  .adv-table--mini th,.adv-table--mini td{padding:8px 10px}
+  .adv-table--mini .pn{display:none}
+  .adv-mini .backlink{display:inline;margin-top:10px;font-size:13px}
+  @media(max-width:720px){.topstrip{grid-template-columns:1fr}}
 
   /* Sections */
   section{padding:40px 0}
@@ -376,6 +389,23 @@
 </div>
 
 <div class="wrap">
+  <div class="topstrip">
+    <div class="editor-mini">
+      <div class="editor-avatar sm">OG</div>
+      <p><b>OG</b>, founder &amp; editor &mdash; writes and verifies every edition. <a href="#about">Full bio &amp; how we work &rarr;</a></p>
+    </div>
+    <div class="adv-mini">
+      <div class="adv-mini-head">
+        <span class="kicker" style="margin:0">Live &mdash; Travel Advisory Board</span>
+        <span id="adv-mini-updated" class="adv-mini-updated"></span>
+      </div>
+      <table class="adv-table adv-table--mini">
+        <thead><tr><th>Market</th><th>US</th><th>UK FCDO</th></tr></thead>
+        <tbody id="adv-mini-body"></tbody>
+      </table>
+      <a class="backlink" href="#tools">See all 5 markets &amp; the rules tracker &rarr;</a>
+    </div>
+  </div>
   <div class="segs">
     <div class="seg city" onclick="showSegment('city')"><div class="tag">City hotels</div><h3>Corporate &amp; MICE demand</h3><p>Conference calendars, connectivity, business sentiment, rate discipline.</p><span class="go">View city insights →</span></div>
     <div class="seg bush" onclick="showSegment('bush')"><div class="tag">Bush &amp; safari</div><h3>High-value leisure</h3><p>Park fees, permits, migration, source-market wealth, air access to strips.</p><span class="go">View bush insights →</span></div>
@@ -768,6 +798,39 @@
       tb.appendChild(tr);
     });
   }
+  // ---- Live advisory snapshot (homepage top strip) ----
+  function timeAgo(builtAt){
+    if(!builtAt) return '';
+    // BUILT_AT is written by the build script as naive East Africa Time (UTC+3).
+    const d=new Date(builtAt.replace(' ','T')+':00+03:00');
+    if(isNaN(d.getTime())) return '';
+    const mins=Math.round((Date.now()-d.getTime())/60000);
+    if(mins<1) return 'Updated just now';
+    if(mins<60) return 'Updated '+mins+'m ago';
+    const hrs=Math.round(mins/60);
+    if(hrs<24) return 'Updated '+hrs+'h ago';
+    const days=Math.round(hrs/24);
+    return 'Updated '+days+'d ago';
+  }
+  function renderAdvMini(){
+    const A=window.ADVISORIES; if(!A) return;
+    const up=document.getElementById('adv-mini-updated');
+    if(up) up.textContent=timeAgo(window.BUILT_AT)||('As of '+A.updated);
+    const tb=document.getElementById('adv-mini-body'); if(!tb) return;
+    const esc=x=>(x||'').replace(/"/g,'&quot;');
+    const pill=(x,link)=>{ const l=LV[x.level]||LV[2];
+      return '<a class="pill" style="background:'+l.c+'" href="'+link+'" target="_blank" rel="noopener" title="'+esc(x.note)+'">L'+x.level+'</a>'; };
+    const codes=['KE','UG','TZ','RW'];
+    tb.innerHTML='';
+    codes.forEach(code=>{
+      const r=A.rows.find(x=>x.code===code); if(!r) return;
+      const tr=document.createElement('tr');
+      tr.innerHTML='<td class="cty" onclick="showCountry(\''+code+'\')">'+fx(r.flag)+r.name+'</td>'+
+        '<td>'+pill(r.us, A.links.us[r.code])+'</td>'+
+        '<td>'+pill(r.uk, A.links.uk[r.code])+'</td>';
+      tb.appendChild(tr);
+    });
+  }
   // email signup guard (until Mailchimp action URL is wired) + PDF slot
   document.querySelectorAll('.mc-form').forEach(f=>{
     const msg=document.getElementById(f.id==='mc-form-hero'?'mc-msg-hero':'mc-msg');
@@ -1093,6 +1156,7 @@
   renderRateIndex();
   renderPdf();
   renderAdvisories();
+  renderAdvMini();
   if(applyDeepLink()){ render(); setTimeout(()=>document.getElementById('archive').scrollIntoView({behavior:'smooth'}),300); }
   else { render(); }
 </script>
