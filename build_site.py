@@ -337,9 +337,42 @@ def main():
         print("guides skipped:", ex)
         guides = []
 
-    # sitemap.xml
+    # feed.xml — RSS 2.0, so associations / aggregators / newsletter tools can
+    # auto-pull editions instead of needing a manual republish each time.
     today = datetime.date.today().isoformat()
-    urls = [(BASE+"/", today, "daily")]
+    import xml.sax.saxutils as sx
+    def rfc822(date_iso):
+        try:
+            d = datetime.date.fromisoformat(date_iso)
+            return datetime.datetime(d.year, d.month, d.day, 7, 0, 0).strftime("%a, %d %b %Y %H:%M:%S +0300")
+        except Exception:
+            return datetime.datetime.now().strftime("%a, %d %b %Y %H:%M:%S +0300")
+    feed_items = editions[:30]
+    rss = ['<?xml version="1.0" encoding="UTF-8"?>',
+           '<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">',
+           '<channel>',
+           f'<title>EA Hospitality Pulse</title>',
+           f'<link>{BASE}/</link>',
+           f'<atom:link href="{BASE}/feed.xml" rel="self" type="application/rss+xml"/>',
+           '<description>Daily market intelligence for East Africa\'s hospitality and travel trade — Kenya, Uganda, Tanzania, Zanzibar, Rwanda. Free to republish with attribution; see /republish.html.</description>',
+           '<language>en-us</language>',
+           f'<lastBuildDate>{rfc822(today)}</lastBuildDate>']
+    for e in feed_items:
+        url = f"{BASE}/editions/{e['id']}.html"
+        title = sx.escape(f"{e['edition']} — {e['dateDisplay']}")
+        desc = sx.escape(e['summary'][:400])
+        rss.append('<item>')
+        rss.append(f'<title>{title}</title>')
+        rss.append(f'<link>{url}</link>')
+        rss.append(f'<guid isPermaLink="true">{url}</guid>')
+        rss.append(f'<pubDate>{rfc822(e["date"])}</pubDate>')
+        rss.append(f'<description>{desc}</description>')
+        rss.append('</item>')
+    rss.append('</channel></rss>')
+    open(os.path.join(HERE, "feed.xml"), "w", encoding="utf-8").write("\n".join(rss))
+
+    # sitemap.xml
+    urls = [(BASE+"/", today, "daily"), (BASE+"/republish.html", today, "monthly")]
     for g in guides:
         urls.append((f"{BASE}/guides/{g['slug']}.html", g["updated"], "monthly"))
     tools_dir = os.path.join(HERE, "tools")
