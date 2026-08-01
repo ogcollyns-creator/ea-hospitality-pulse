@@ -169,7 +169,7 @@ footer{text-align:center;color:var(--muted);font-family:Helvetica,Arial,sans-ser
 // Set ENDPOINT to a form backend (Formspree, Tally, Basin, Google Forms POST URL)
 // to collect responses automatically. While it is null the form still works:
 // answers are formatted for the respondent to copy and email in.
-var ENDPOINT = null;
+var ENDPOINT = 'https://formspree.io/f/xbdnvabl';
 var FALLBACK_EMAIL = 'ceo@eahospitalitypulse.com';
 
 document.getElementById('f').addEventListener('submit', function(e){
@@ -184,7 +184,7 @@ document.getElementById('f').addEventListener('submit', function(e){
   });
   var msg = document.getElementById('msg');
   if(ENDPOINT){
-    fetch(ENDPOINT,{method:'POST',headers:{'Content-Type':'application/json'},body:JSON.stringify(out)})
+    fetch(ENDPOINT,{method:'POST',headers:{'Content-Type':'application/json','Accept':'application/json'},body:JSON.stringify(out)})
       .then(function(r){
         msg.innerHTML = r.ok
           ? '<b>Thank you — received anonymously.</b> We publish the benchmark to every participant once we have enough responses per role and market to report safely.'
