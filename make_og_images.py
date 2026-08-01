@@ -4,35 +4,90 @@ Generate branded 1200x630 social share images.
   - og/default.png              site-wide
   - og/<edition-id>.png         one per edition, carrying its headline
   - favicon.png / favicon.ico
+
+Each card composites real photography (from img/) under a brand-teal
+gradient (same treatment as the homepage hero) with the masthead/kicker/
+headline/footer text drawn on top — no network access needed at build
+time, since the photo pool is stored in the repo under img/.
+
 Called automatically by build_site.py.
 """
-import os, re, json, textwrap
+import os, re, json, hashlib
 from PIL import Image, ImageDraw, ImageFont
 
 HERE = os.path.dirname(os.path.abspath(__file__))
 OG = os.path.join(HERE, "og")
+IMG = os.path.join(HERE, "img")
 FONT = "/usr/share/fonts/truetype/dejavu/DejaVuSans.ttf"
 FONTB = "/usr/share/fonts/truetype/dejavu/DejaVuSans-Bold.ttf"
 
 TEAL=(10,79,72); TEAL2=(15,109,99); GOLD=(200,137,47); SAND=(246,241,231); WHITE=(255,255,255)
 W,H = 1200,630
 
+# ---- curated photo pool -----------------------------------------------
+# Each photo is tagged with keywords; the edition's own text is scanned
+# for a category match so the picture fits the story. No match -> a
+# deterministic hash of the edition id picks one, so the same edition
+# always renders the same photo (stable across rebuilds).
+POOL = [
+    ("hero-serengeti.jpg", ["safari","bush","serengeti","mara","migration",
+        "wildlife","savannah","game drive","conservancy","national park","lodge"]),
+    ("city-nairobi.jpg", ["nairobi","kampala","dar es salaam","kigali","city",
+        "urban","cbd","capital","skyline","business district"]),
+    ("beach-zanzibar.jpg", ["beach","coast","zanzibar","dhow","indian ocean",
+        "diani","lamu","mombasa","pemba","stone town","dar-es-salaam coast"]),
+]
+DEFAULT_PHOTO = "hero-serengeti.jpg"   # site-wide default card
+
+def choose_photo(eid, text):
+    text_low = (text or "").lower()
+    scores = [sum(text_low.count(kw) for kw in kws) for _, kws in POOL]
+    best = max(scores)
+    if best > 0:
+        idx = scores.index(best)
+    else:
+        idx = int(hashlib.md5(eid.encode()).hexdigest(), 16) % len(POOL)
+    return POOL[idx][0]
+
 def f(path,size):
     return ImageFont.truetype(path,size)
 
-def gradient(img):
-    d=ImageDraw.Draw(img)
-    for y in range(H):
-        t=y/H
-        c=(int(TEAL[0]+(TEAL2[0]-TEAL[0])*t),
-           int(TEAL[1]+(TEAL2[1]-TEAL[1])*t),
-           int(TEAL[2]+(TEAL2[2]-TEAL[2])*t))
-        d.line([(0,y),(W,y)],fill=c)
-    return d
+def cover_resize(img, tw, th):
+    """Resize+crop an image to exactly (tw,th), preserving aspect ratio, cropping the overflow (like CSS background-size:cover)."""
+    sw, sh = img.size
+    scale = max(tw/sw, th/sh)
+    nw, nh = max(tw,int(sw*scale)+1), max(th,int(sh*scale)+1)
+    img = img.resize((nw,nh), Image.LANCZOS)
+    left = (nw-tw)//2
+    top = (nh-th)//2
+    return img.crop((left,top,left+tw,top+th))
 
-def base_card(kicker, headline, footer):
-    img=Image.new("RGB",(W,H),TEAL)
-    d=gradient(img)
+def photo_background(photo_file):
+    """Load a pool photo, cover-crop to card size, and lay the brand
+    gradient over it (same 135deg teal treatment as the site hero) so
+    text stays legible regardless of the source image."""
+    path = os.path.join(IMG, photo_file)
+    base = Image.open(path).convert("RGB")
+    base = cover_resize(base, W, H)
+
+    # diagonal (135deg) teal gradient, alpha ~0.88 -> ~0.80
+    import numpy as np
+    xs = np.linspace(0,1,W)
+    ys = np.linspace(0,1,H)
+    gx, gy = np.meshgrid(xs, ys)
+    t = (gx+gy)/2.0
+    r = (TEAL[0] + (TEAL2[0]-TEAL[0])*t)
+    g = (TEAL[1] + (TEAL2[1]-TEAL[1])*t)
+    b = (TEAL[2] + (TEAL2[2]-TEAL[2])*t)
+    a = (0.88 + (0.80-0.88)*t) * 255
+    overlay_arr = np.dstack([r,g,b,a]).astype("uint8")
+    overlay = Image.fromarray(overlay_arr, "RGBA")
+
+    return Image.alpha_composite(base.convert("RGBA"), overlay).convert("RGB")
+
+def base_card(kicker, headline, footer, photo_file):
+    img = photo_background(photo_file)
+    d=ImageDraw.Draw(img)
     # gold rule top
     d.rectangle([0,0,W,10],fill=GOLD)
     # masthead
@@ -90,11 +145,14 @@ def main(editions=None):
     os.makedirs(OG,exist_ok=True)
     base_card("Daily intelligence",
               "Daily market intelligence for East Africa's hospitality and travel trade.",
-              "Three briefs a day · Free on Telegram").save(os.path.join(OG,"default.png"))
+              "Three briefs a day · Free on Telegram",
+              DEFAULT_PHOTO).save(os.path.join(OG,"default.png"))
     if editions:
         for e in editions:
             head=e["summary"].split(".")[0][:150]
-            base_card(e["edition"], head, e["dateDisplay"]).save(os.path.join(OG,e["id"]+".png"))
+            match_text = e["summary"] + " " + re.sub(r"<[^>]+>", " ", e.get("bodyHtml",""))
+            photo = choose_photo(e["id"], match_text)
+            base_card(e["edition"], head, e["dateDisplay"], photo).save(os.path.join(OG,e["id"]+".png"))
     make_favicon()
     print(f"OG images written: {1+(len(editions) if editions else 0)} + favicon")
 
