@@ -131,7 +131,10 @@ def summarise(text):
 
 # Editions must sort by when they were actually PUBLISHED. Filenames don't do this:
 # reverse-alphabetically "morning" > "midday" > "foresight", so the morning brief
-# would masquerade as the latest edition all day. Git commit time is the truth.
+# would masquerade as the latest edition all day.
+# Sort by (date, slot) FIRST and use git commit time only as a tiebreaker. The build
+# runs BEFORE the commit, so a brand-new edition has no git time yet — keying on git
+# time first would send today's edition to the bottom of the archive.
 SLOT_RANK = {"morning": 1, "midday": 2, "foresight": 3, "evening": 4,
              "playbook": 5, "inaugural": 0}
 
@@ -265,7 +268,7 @@ def main():
         eid = fn.rsplit(".",1)[0]
         e = {"id":eid,"date":date_iso,"dateDisplay":dd,"edition":EDITION_LABELS.get(key,"Brief"),
              "editionKey":key,"summary":summarise(tele),"bodyHtml":render_body(tele)}
-        e["_key"] = (pubtimes.get(fn, 0), date_iso, SLOT_RANK.get(key, 3))
+        e["_key"] = (date_iso, SLOT_RANK.get(key, 3), pubtimes.get(fn, 0))
         editions.append(e)
         for it in parse_items(tele):
             it.update({"source":eid,"date":date_iso,"dateDisplay":dd,
@@ -274,7 +277,7 @@ def main():
     built = {e["id"] for e in editions}
     for eid,e in existing.items():
         if eid not in built: editions.append(e)
-    editions.sort(key=lambda e: e.get("_key", (0, e["date"], 3)), reverse=True)
+    editions.sort(key=lambda e: e.get("_key", (e["date"], 3, 0)), reverse=True)
     for e in editions:
         e.pop("_key", None)
     insights.sort(key=lambda i:(i["date"],i["source"]), reverse=True)

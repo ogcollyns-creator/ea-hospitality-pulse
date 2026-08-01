@@ -89,7 +89,7 @@ def make_favicon():
 def main(editions=None):
     os.makedirs(OG,exist_ok=True)
     base_card("Daily intelligence",
-              "What today's news means for East African hotels, lodges & resorts.",
+              "Daily market intelligence for East Africa's hospitality leaders.",
               "Three briefs a day · Free on Telegram").save(os.path.join(OG,"default.png"))
     if editions:
         for e in editions:
