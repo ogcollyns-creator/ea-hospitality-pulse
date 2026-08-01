@@ -1,5 +1,14 @@
 window.EDITIONS = [
  {
+  "id": "pulse-2026-07-31-morning",
+  "date": "2026-07-31",
+  "dateDisplay": "Friday, 31 July 2026",
+  "edition": "Morning Brief",
+  "editionKey": "morning",
+  "summary": "Two upstream signals overnight, both about where East Africa's next room-nights come from: Rwanda quietly put a named boss over the city it's building around its new airport, and Zanzibar has fixed th",
+  "bodyHtml": "<p><span class=\"meta-line\">🏨 EA HOSPITALITY PULSE — Morning Brief</span><br><span class=\"meta-line\">📅 Friday, 31 July 2026 | 🇰🇪 🇺🇬 🇹🇿 🇷🇼</span></p>\n<p>Two upstream signals overnight, both about where East Africa&#x27;s next room-nights come from: Rwanda quietly put a named boss over the city it&#x27;s building around its new airport, and Zanzibar has fixed the date on its biggest sports-tourism weekend of the year.<br>━━━━━━━━━<br><span class=\"item-head\">1️⃣ RWANDA NAMES A DEDICATED CEO FOR BUGESERA&#x27;S &quot;AIRPORT CITY&quot;</span><br>The Office of the Prime Minister&#x27;s communiqué of 30 July 2026 appointed Jules Muheto Ndenga as CEO of Airport City — the planned hotel, logistics and commercial district around the new Kigali (Bugesera) International Airport — and moved Brig Gen Munyengango to lead Aviation Travel and Logistics Holding, the state aviation parent (Office of the Prime Minister communiqué, 30 July; en.webrwanda.com, 30 July). Airport construction is running at an estimated 25–30%, with phase one still targeted for 2027. We haven&#x27;t seen this carried by the regional trade press yet.<br><span class=\"sowhat\">🎯 So what: Confirmed fact — Airport City now has its own chief executive, separate from the airport build. Our inference, labelled as such: giving the commercial district a dedicated CEO before the runway is finished is how a government signals the hotel and mixed-use component is moving from masterplan to procurement. If you are a Kigali operator or an investor eyeing Bugesera, you now have a named counterparty to track and a governance milestone to date your own timeline against. Watch the next 90 days for a hotel or commercial tender under his office.</span><br><span class=\"tagline\">🏷 City/Bush | 🇷🇼 | Confirmed (appointment) / inference flagged</span></p>\n<p><span class=\"item-head\">2️⃣ ZANZIBAR MARATHON FIXES 25 OCTOBER — A 10,000-RUNNER DEMAND DATE</span><br>Yas has launched the 2026 Zanzibar International Marathon, its sixth edition, targeting more than 10,000 local and international runners, with a fully digital registration and payment system via the Mixx by Yas platform (The Citizen, 30 July). The most recent Citizen reporting sets the race for 25 October; one earlier source cited 20 September, so confirm the date before you load it into a rate calendar.<br><span class=\"sowhat\">🎯 So what: This is a diarised, bookable demand pulse landing inside Zanzibar&#x27;s Q4 shoulder, not the December peak. A 10,000-runner field pulls a two-to-three-night stay across Stone Town and the beach strip. Set a marathon-weekend rate and a minimum-stay now, before the international entries convert to bookings, and brief your reservations team to hold inventory around 24–26 October pending the final date.</span><br><span class=\"tagline\">🏷 Beach/City | 🇹🇿 (Zanzibar) | Reported</span><br>━━━━━━━━━<br><span class=\"meta-line\">📡 RADAR</span><br>• Watching — Rwanda Airport City: first hotel/commercial tender or investor under the new CEO&#x27;s office. Nothing published yet.<br>• 30 Jul — New Vision (UG) special report alleges medicinal plants are being smuggled out of Uganda&#x27;s game parks to Europe. A conservation-integrity story worth watching for a UWA response; unverified as to scale.<br>• ~2 Aug — WHO AFRO External Situation Report 12 on the DRC Bundibugyo outbreak. Last count (SitRep 11, data to 26 July): 3,200 confirmed, 1,405 deaths.<br>• 12 Aug — US CDC decision point on renewing the Ebola-related entry suspension covering DRC, Uganda and South Sudan. Uganda declared its own outbreak over on 28 July; the US ban still runs to this date.<br>• 14–15 Aug — EPRA monthly fuel review; MV Adan refloating window off Nyali.</p>\n<p><span class=\"meta-line\">💬 Building around Bugesera, or watching it? Reply — we&#x27;re mapping who&#x27;s committing capital to Airport City.</span></p>\n<p>🔗 This edition on the web: https://eahospitalitypulse.com/editions/pulse-2026-07-31-morning.html<br>— EA Hospitality Pulse | Daily intelligence for city, bush &amp; beach properties</p>"
+ },
+ {
   "id": "pulse-2026-07-30-evening",
   "date": "2026-07-30",
   "dateDisplay": "Thursday, 30 July 2026",
@@ -171,16 +180,79 @@ window.EDITIONS = [
   "bodyHtml": "<p><span class=\"meta-line\">🏨 EA HOSPITALITY PULSE — Morning Brief</span><br><span class=\"meta-line\">📅 Friday, 24 July 2026 | 🇰🇪🇹🇿🇷🇼🇺🇬</span></p>\n<p>Nairobi is about to absorb 1,500 new branded rooms this year — and the smartest operators are already repositioning. Here&#x27;s what matters today.</p>\n<hr class=\"divider\">\n<p><span class=\"item-head\">1️⃣ NAIROBI&#x27;S SUPPLY WAVE IS HERE</span><br>W Hospitality Group counts ~20 branded hotels (3,650 rooms) in Nairobi&#x27;s pipeline, with ~1,500 rooms opening in 2026 alone — after 2,000 rooms added since 2023 already knocked occupancy down nearly 10 points (per Tourism Update). Demand is diversifying (Middle East, Asia, regional), but supply is outrunning it.<br><span class=\"sowhat\">🎯 So what: Don&#x27;t rate-war the new entrants. Lock in corporate and MICE contracts for 2027 now, and differentiate on product — new supply hurts identical products most.</span><br><span class=\"tagline\">🏷 City | KE | Confirmed</span></p>\n<p><span class=\"item-head\">2️⃣ ZANZIBAR BREAKS 100K VISITORS A MONTH</span><br>Arrivals topped 100,000 in January 2026 — up from 42,445 in Jan 2022 — and July 2025&#x27;s 106,108 was +31% year-on-year (per Tanzania Monitor). Iberostar has just opened its first 5-star on Muyuni Beach. Note: inbound travel insurance from Zanzibar Insurance Corporation is now mandatory.<br><span class=\"sowhat\">🎯 So what: Hold rate through peak — this demand supports it. Add the ZIC insurance requirement to pre-arrival comms today; a guest surprised at the airport is a bad review waiting.</span><br><span class=\"tagline\">🏷 Beach | ZNZ | Confirmed</span></p>\n<p><span class=\"item-head\">3️⃣ RWANDA&#x27;S BIGGEST SOURCE MARKET IS NOW... DRC</span><br>185,420 DRC visitors in H1 2026 — 12.5% of all arrivals — overtaking every other market (per Travel and Tour World / RDB data). Business, healthcare, trade and family travel, not just leisure.<br><span class=\"sowhat\">🎯 So what: Kigali city hotels — build regional-traveller products: flexible rates, French-language service, healthcare-stay packages. This is a demand base advisories don&#x27;t touch.</span><br><span class=\"tagline\">🏷 City | RW | Reported</span></p>\n<p><span class=\"item-head\">4️⃣ CONNECTIVITY QUIETLY REWIRING THE REGION</span><br>Safarilink now flies Nairobi–Entebbe non-stop (since May); Flightlink is acquiring ATRs for Entebbe and Kigali routes; RwandAir&#x27;s Kigali–Zanzibar is driving its 2026 growth (per Aviation Week, ch-aviation reports).<br><span class=\"sowhat\">🎯 So what: Multi-country itineraries just got easier to sell. Bush and beach properties: pitch cross-border combos to your DMC partners for 2027 season.</span><br><span class=\"tagline\">🏷 All segments | Regional | Confirmed</span></p>\n<p>━━━━━━━━━<br><span class=\"meta-line\">📡 RADAR</span><br><span class=\"radar-item\">▪️ August = Kenya&#x27;s peak month (Aug 2025 set the arrivals record: 277,155, per KATA) — final rate checks now</span><br><span class=\"radar-item\">▪️ Migration season in the Mara runs through October — river-crossing weeks command premiums</span><br><span class=\"radar-item\">▪️ JW Marriott&#x27;s Mount Kenya safari camp (Solio) takes bookings this month — luxury bush comps shifting</span><br><span class=\"radar-item\">▪️ Watch: South Africa introduced health forms for travellers from Ebola-affected countries (22 Jul, Tourism Update) — no EA market confirmed affected; we&#x27;re verifying</span></p>\n<p><span class=\"meta-line\">💬 Which of these hits your property hardest? Reply and tell us.</span><br>— EA Hospitality Pulse | Daily intelligence for city, bush &amp; beach properties</p>\n<hr class=\"divider\">"
  },
  {
-  "id": "pulse-2026-07-31-morning",
-  "date": "2026-07-31",
-  "dateDisplay": "Friday, 31 July 2026",
+  "id": "pulse-2026-08-01-morning",
+  "date": "2026-08-01",
+  "dateDisplay": "Saturday, 1 August 2026",
   "edition": "Morning Brief",
   "editionKey": "morning",
-  "summary": "Two upstream signals overnight, both about where East Africa's next room-nights come from: Rwanda quietly put a named boss over the city it's building around its new airport, and Zanzibar has fixed th",
-  "bodyHtml": "<p><span class=\"meta-line\">🏨 EA HOSPITALITY PULSE — Morning Brief</span><br><span class=\"meta-line\">📅 Friday, 31 July 2026 | 🇰🇪 🇺🇬 🇹🇿 🇷🇼</span></p>\n<p>Two upstream signals overnight, both about where East Africa&#x27;s next room-nights come from: Rwanda quietly put a named boss over the city it&#x27;s building around its new airport, and Zanzibar has fixed the date on its biggest sports-tourism weekend of the year.<br>━━━━━━━━━<br><span class=\"item-head\">1️⃣ RWANDA NAMES A DEDICATED CEO FOR BUGESERA&#x27;S &quot;AIRPORT CITY&quot;</span><br>The Office of the Prime Minister&#x27;s communiqué of 30 July 2026 appointed Jules Muheto Ndenga as CEO of Airport City — the planned hotel, logistics and commercial district around the new Kigali (Bugesera) International Airport — and moved Brig Gen Munyengango to lead Aviation Travel and Logistics Holding, the state aviation parent (Office of the Prime Minister communiqué, 30 July; en.webrwanda.com, 30 July). Airport construction is running at an estimated 25–30%, with phase one still targeted for 2027. We haven&#x27;t seen this carried by the regional trade press yet.<br><span class=\"sowhat\">🎯 So what: Confirmed fact — Airport City now has its own chief executive, separate from the airport build. Our inference, labelled as such: giving the commercial district a dedicated CEO before the runway is finished is how a government signals the hotel and mixed-use component is moving from masterplan to procurement. If you are a Kigali operator or an investor eyeing Bugesera, you now have a named counterparty to track and a governance milestone to date your own timeline against. Watch the next 90 days for a hotel or commercial tender under his office.</span><br><span class=\"tagline\">🏷 City/Bush | 🇷🇼 | Confirmed (appointment) / inference flagged</span></p>\n<p><span class=\"item-head\">2️⃣ ZANZIBAR MARATHON FIXES 25 OCTOBER — A 10,000-RUNNER DEMAND DATE</span><br>Yas has launched the 2026 Zanzibar International Marathon, its sixth edition, targeting more than 10,000 local and international runners, with a fully digital registration and payment system via the Mixx by Yas platform (The Citizen, 30 July). The most recent Citizen reporting sets the race for 25 October; one earlier source cited 20 September, so confirm the date before you load it into a rate calendar.<br><span class=\"sowhat\">🎯 So what: This is a diarised, bookable demand pulse landing inside Zanzibar&#x27;s Q4 shoulder, not the December peak. A 10,000-runner field pulls a two-to-three-night stay across Stone Town and the beach strip. Set a marathon-weekend rate and a minimum-stay now, before the international entries convert to bookings, and brief your reservations team to hold inventory around 24–26 October pending the final date.</span><br><span class=\"tagline\">🏷 Beach/City | 🇹🇿 (Zanzibar) | Reported</span><br>━━━━━━━━━<br><span class=\"meta-line\">📡 RADAR</span><br>• Watching — Rwanda Airport City: first hotel/commercial tender or investor under the new CEO&#x27;s office. Nothing published yet.<br>• 30 Jul — New Vision (UG) special report alleges medicinal plants are being smuggled out of Uganda&#x27;s game parks to Europe. A conservation-integrity story worth watching for a UWA response; unverified as to scale.<br>• ~2 Aug — WHO AFRO External Situation Report 12 on the DRC Bundibugyo outbreak. Last count (SitRep 11, data to 26 July): 3,200 confirmed, 1,405 deaths.<br>• 12 Aug — US CDC decision point on renewing the Ebola-related entry suspension covering DRC, Uganda and South Sudan. Uganda declared its own outbreak over on 28 July; the US ban still runs to this date.<br>• 14–15 Aug — EPRA monthly fuel review; MV Adan refloating window off Nyali.</p>\n<p><span class=\"meta-line\">💬 Building around Bugesera, or watching it? Reply — we&#x27;re mapping who&#x27;s committing capital to Airport City.</span></p>\n<p>🔗 This edition on the web: https://eahospitalitypulse.com/editions/pulse-2026-07-31-morning.html<br>— EA Hospitality Pulse | Daily intelligence for city, bush &amp; beach properties</p>"
+  "summary": "The cost side moved this weekend — and Uganda's bill landed hardest.",
+  "bodyHtml": "<p><span class=\"meta-line\">🏨 EA HOSPITALITY PULSE — Morning Brief</span><br><span class=\"meta-line\">📅 Saturday, 1 August 2026 | 🇺🇬🇹🇿🇰🇪🇷🇼</span></p>\n<p>The cost side moved this weekend — and Uganda&#x27;s bill landed hardest.<br>━━━━━━━━━<br><span class=\"item-head\">1️⃣ UGANDA&#x27;S UTILITY BILL JUMPS — WATER UP 17.5% IN A MONTH</span><br>UBOS released July CPI on Friday (31 July): water charges rose 17.5% month-on-month, electricity 2.2%, petrol 1.9%, diesel 1.3% and cooking gas 1.5%. Housing/water/electricity/gas was the fastest-rising category at +2.0%, lifting annual inflation to 4.0% — a one-year high. Food eased, so the pressure sits exactly where a hotel spends.<br><span class=\"sowhat\">🎯 So what: Pull your July water and power bills before you set August rates — this is a margin hit, not a headline. A firm shilling partly shields USD-earning lodges; UGX-cost city hotels wear it in full.</span><br><span class=\"tagline\">🏷 City &amp; Bush | Uganda | Confirmed</span></p>\n<p><span class=\"item-head\">2️⃣ TANZANIA&#x27;S TRANSPORT COSTS RUN HOT AT 13.6%</span><br>Tanzania&#x27;s annual inflation held at 4.0% in June (released 31 July, per TanzaniaInvest), food cooling to 4.1% — but transport surged 13.6% y/y on diesel, taxi and bodaboda fares.<br><span class=\"sowhat\">🎯 So what: Transfers and excursions are where TZ cost pressure lives. Re-quote transfer-inclusive packages for 2027; don&#x27;t let a fixed 2026 transfer rate quietly erode margin.</span><br><span class=\"tagline\">🏷 Bush &amp; Beach | Tanzania | Reported</span></p>\n<p><span class=\"item-head\">3️⃣ KENYA&#x27;S PARKS HIT 3.5M VISITS — DOMESTIC NOW 60%</span><br>KWS reports park visits up to 3.5 million from two million, with domestic tourists now 60% of the total (DG Prof Erustus Kanga, 31 July); the 2028 target is five million.<br><span class=\"sowhat\">🎯 So what: The growth is domestic and shilling-priced. Hold a resident rate and a weekend/school-holiday product — this volume is home-grown, not just long-haul.</span><br><span class=\"tagline\">🏷 Bush | Kenya | Confirmed</span></p>\n<p><span class=\"item-head\">4️⃣ RWANDAIR ADDS A 4TH KIGALI–EUROPE ROTATION</span><br>From today (1 August), RwandAir lifts Kigali–Paris CDG–Brussels from three to four weekly, adding a Sunday and holding it through the winter season (aviation press).<br><span class=\"sowhat\">🎯 So what: More Sunday inbound from two European feeder markets — align Kigali arrival-day availability and gorilla-permit lead times to the new frequency.</span><br><span class=\"tagline\">🏷 City &amp; Bush | Rwanda | Reported</span><br>━━━━━━━━━<br><span class=\"meta-line\">📡 RADAR</span><br>• 12 Aug — US DRC/Ebola entry restrictions next decision point (Nairobi, Brussels, Dubai named transit corridors; Kenya itself not restricted)<br>• ~14 Aug — EPRA Kenya monthly fuel review; effective 15 Aug<br>• 28 Aug — Zanzibar hosts World Travel Awards Africa Gala (first time; a beach-hotel demand date)</p>\n<p><span class=\"meta-line\">💬 Whose August rate card already reflects the new utility numbers — and whose doesn&#x27;t?</span></p>\n<p>🔗 This edition on the web: https://eahospitalitypulse.com/editions/pulse-2026-08-01-morning.html<br>— EA Hospitality Pulse | Daily intelligence for city, bush &amp; beach properties</p>"
  }
 ];
 window.INSIGHTS = [
+ {
+  "headline": "UGANDA'S UTILITY BILL JUMPS — WATER UP 17.5% IN A MONTH",
+  "body": "UBOS released July CPI on Friday (31 July): water charges rose 17.5% month-on-month, electricity 2.2%, petrol 1.9%, diesel 1.3% and cooking gas 1.5%. Housing/water/electricity/gas was the fastest-rising category at +2.0%, lifting annual inflation to 4.0% — a one-year high. Food eased, so the pressure sits exactly where a hotel spends.",
+  "sowhat": "🎯 So what: Pull your July water and power bills before you set August rates — this is a margin hit, not a headline. A firm shilling partly shields USD-earning lodges; UGX-cost city hotels wear it in full.",
+  "segments": [
+   "city",
+   "bush"
+  ],
+  "countries": "Uganda",
+  "confidence": "Confirmed",
+  "source": "pulse-2026-08-01-morning",
+  "date": "2026-08-01",
+  "dateDisplay": "Saturday, 1 August 2026",
+  "edition": "Morning Brief",
+  "editionKey": "morning"
+ },
+ {
+  "headline": "TANZANIA'S TRANSPORT COSTS RUN HOT AT 13.6%",
+  "body": "Tanzania's annual inflation held at 4.0% in June (released 31 July, per TanzaniaInvest), food cooling to 4.1% — but transport surged 13.6% y/y on diesel, taxi and bodaboda fares.",
+  "sowhat": "🎯 So what: Transfers and excursions are where TZ cost pressure lives. Re-quote transfer-inclusive packages for 2027; don't let a fixed 2026 transfer rate quietly erode margin.",
+  "segments": [
+   "bush",
+   "beach"
+  ],
+  "countries": "Tanzania",
+  "confidence": "Reported",
+  "source": "pulse-2026-08-01-morning",
+  "date": "2026-08-01",
+  "dateDisplay": "Saturday, 1 August 2026",
+  "edition": "Morning Brief",
+  "editionKey": "morning"
+ },
+ {
+  "headline": "KENYA'S PARKS HIT 3.5M VISITS — DOMESTIC NOW 60%",
+  "body": "KWS reports park visits up to 3.5 million from two million, with domestic tourists now 60% of the total (DG Prof Erustus Kanga, 31 July); the 2028 target is five million.",
+  "sowhat": "🎯 So what: The growth is domestic and shilling-priced. Hold a resident rate and a weekend/school-holiday product — this volume is home-grown, not just long-haul.",
+  "segments": [
+   "bush"
+  ],
+  "countries": "Kenya",
+  "confidence": "Confirmed",
+  "source": "pulse-2026-08-01-morning",
+  "date": "2026-08-01",
+  "dateDisplay": "Saturday, 1 August 2026",
+  "edition": "Morning Brief",
+  "editionKey": "morning"
+ },
+ {
+  "headline": "RWANDAIR ADDS A 4TH KIGALI–EUROPE ROTATION",
+  "body": "From today (1 August), RwandAir lifts Kigali–Paris CDG–Brussels from three to four weekly, adding a Sunday and holding it through the winter season (aviation press).",
+  "sowhat": "🎯 So what: More Sunday inbound from two European feeder markets — align Kigali arrival-day availability and gorilla-permit lead times to the new frequency.",
+  "segments": [
+   "city",
+   "bush"
+  ],
+  "countries": "Rwanda",
+  "confidence": "Reported",
+  "source": "pulse-2026-08-01-morning",
+  "date": "2026-08-01",
+  "dateDisplay": "Saturday, 1 August 2026",
+  "edition": "Morning Brief",
+  "editionKey": "morning"
+ },
  {
   "headline": "RWANDA NAMES A DEDICATED CEO FOR BUGESERA'S \"AIRPORT CITY\"",
   "body": "The Office of the Prime Minister's communiqué of 30 July 2026 appointed Jules Muheto Ndenga as CEO of Airport City — the planned hotel, logistics and commercial district around the new Kigali (Bugesera) International Airport — and moved Brig Gen Munyengango to lead Aviation Travel and Logistics Holding, the state aviation parent (Office of the Prime Minister communiqué, 30 July; en.webrwanda.com, 30 July). Airport construction is running at an estimated 25–30%, with phase one still targeted for 2027. We haven't seen this carried by the regional trade press yet.",
@@ -1167,4 +1239,4 @@ window.INSIGHTS = [
   "editionKey": "evening"
  }
 ];
-window.BUILT_AT = "2026-07-31 08:37";
+window.BUILT_AT = "2026-08-01 07:49";

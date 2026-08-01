@@ -1,8 +1,8 @@
 window.LEDGER = {
- "updated": "2026-07-31 08:37",
+ "updated": "2026-08-01 07:49",
  "stats": {
-  "total": 41,
-  "open": 39,
+  "total": 43,
+  "open": 41,
   "resolved": 2,
   "correct": 1,
   "partial": 1,
@@ -219,6 +219,22 @@ window.LEDGER = {
    "overdue": false
   },
   {
+   "id": "P042",
+   "made_date": "2026-08-01",
+   "edition": "Morning Brief",
+   "claim": "Uganda annual headline inflation (UBOS CPI) will print at or above 4.0% in the August 2026 release — i.e. July's utility-driven rise is sustained, not a one-month spike",
+   "resolution_criteria": "UBOS August 2026 CPI release (early Sept) shows annual headline inflation >= 4.0%. If below 4.0% the call is incorrect",
+   "resolve_by": "2026-09-10",
+   "market": "UG",
+   "segment": "City/Bush",
+   "confidence": "Reported",
+   "status": "open",
+   "resolved_date": "",
+   "evidence": "",
+   "source_url": "https://www.ubos.org/",
+   "overdue": false
+  },
+  {
    "id": "P007",
    "made_date": "2026-07-25",
    "edition": "Special Edition",
@@ -328,6 +344,22 @@ window.LEDGER = {
    "resolved_date": "",
    "evidence": "",
    "source_url": "",
+   "overdue": false
+  },
+  {
+   "id": "P043",
+   "made_date": "2026-08-01",
+   "edition": "Morning Brief",
+   "claim": "RwandAir will still operate 4 weekly Kigali–Paris(CDG)–Brussels rotations as of 15 October 2026 — the winter frequency increase holds rather than being trimmed",
+   "resolution_criteria": "RwandAir published timetable/schedule filing checked on 15 Oct 2026 showing 4x weekly Kigali-CDG-Brussels. If reduced to 3x or fewer the call is incorrect",
+   "resolve_by": "2026-10-15",
+   "market": "RW",
+   "segment": "City/Bush",
+   "confidence": "Reported",
+   "status": "open",
+   "resolved_date": "",
+   "evidence": "",
+   "source_url": "https://www.rwandair.com/",
    "overdue": false
   },
   {
