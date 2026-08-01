@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<meta http-equiv="Cache-Control" content="no-cache, must-revalidate">
+<title>Channel cost calculator — what an OTA booking really costs | EA Hospitality Pulse</title>
+<meta name="description" content="Work out the true cost per retained room-night of an OTA booking versus a direct one — including payment fees, FX spread, settlement delay and cancellation drag. Free calculator for East African hotels, lodges and resorts.">
+<link rel="canonical" href="https://eahospitalitypulse.com/tools/channel-cost-calculator.html">
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="EA Hospitality Pulse">
+<meta property="og:title" content="Channel cost calculator — what an OTA booking really costs">
+<meta property="og:description" content="The true cost per retained room-night, OTA versus direct. Free calculator for East African operators.">
+<meta property="og:url" content="https://eahospitalitypulse.com/tools/channel-cost-calculator.html">
+<meta property="og:image" content="https://eahospitalitypulse.com/og/default.png">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="Channel cost calculator — what an OTA booking really costs">
+<meta name="twitter:description" content="The true cost per retained room-night, OTA versus direct.">
+<meta name="twitter:image" content="https://eahospitalitypulse.com/og/default.png">
+<link rel="icon" href="../favicon.png"><link rel="apple-touch-icon" href="../apple-touch-icon.png">
+<script type="application/ld+json">{"@context":"https://schema.org","@type":"WebApplication","name":"Channel Cost Calculator","applicationCategory":"BusinessApplication","operatingSystem":"Any","description":"Calculate the true cost per retained room-night of OTA versus direct bookings for hotels, lodges and resorts.","offers":{"@type":"Offer","price":"0","priceCurrency":"USD"},"publisher":{"@type":"Organization","name":"EA Hospitality Pulse"}}</script>
+<style>
+:root{--sand:#f6f1e7;--sand-2:#efe7d6;--ink:#1f2421;--muted:#6b6656;--gold:#c8892f;--gold-d:#a86f1f;--teal:#0f6d63;--teal-d:#0a4f48;--line:#e2d8c4;--card:#fffdf9}
+*{box-sizing:border-box}
+body{margin:0;font-family:Georgia,Cambria,serif;color:var(--ink);background:var(--sand);line-height:1.6}
+.wrap{max-width:940px;margin:0 auto;padding:0 20px}
+a{color:var(--teal-d)}
+header.s{background:linear-gradient(135deg,var(--teal-d),var(--teal));color:#fff;padding:14px 0;border-bottom:4px solid var(--gold)}
+header.s .wrap{display:flex;align-items:center;gap:10px}
+header.s .logo{width:34px;height:34px;border-radius:8px;background:var(--gold);display:grid;place-items:center;font-size:18px}
+header.s a{color:#fff;text-decoration:none}
+.intro{background:var(--card);border:1px solid var(--line);border-radius:14px;padding:26px 30px;margin:24px 0 20px}
+.intro h1{font-size:28px;line-height:1.25;margin:0 0 12px;border-bottom:2px solid var(--gold);padding-bottom:12px}
+.intro p{margin:0 0 12px}
+.nav{font-family:'Helvetica Neue',Arial,sans-serif;font-size:14px;font-weight:600;margin:0 0 10px;display:inline-block}
+.grid{display:grid;grid-template-columns:1fr 1fr;gap:18px;margin-bottom:20px}
+@media(max-width:780px){.grid{grid-template-columns:1fr}}
+.panel{background:var(--card);border:1px solid var(--line);border-radius:12px;padding:22px 24px}
+.panel h2{font-family:'Helvetica Neue',Arial,sans-serif;font-size:15px;text-transform:uppercase;letter-spacing:1.4px;margin:0 0 4px;color:var(--gold-d)}
+.panel .ph{font-family:'Helvetica Neue',Arial,sans-serif;font-size:13px;color:var(--muted);margin:0 0 18px}
+.f{margin-bottom:15px}
+.f label{display:block;font-family:'Helvetica Neue',Arial,sans-serif;font-size:13.5px;font-weight:600;margin-bottom:5px}
+.f .hint{display:block;font-family:'Helvetica Neue',Arial,sans-serif;font-size:12px;color:var(--muted);font-weight:400;margin-top:2px;line-height:1.45}
+.f input{width:100%;font-family:'Helvetica Neue',Arial,sans-serif;font-size:15px;padding:9px 11px;border:1px solid var(--line);border-radius:7px;background:#fff}
+.f input:focus{outline:2px solid var(--teal);outline-offset:-1px}
+.inline{display:flex;gap:10px}
+.inline .f{flex:1}
+.res{background:linear-gradient(135deg,var(--teal-d),var(--teal));color:#fff;border-radius:14px;padding:26px 30px;margin-bottom:20px;border-left:6px solid var(--gold)}
+.res h2{font-family:'Helvetica Neue',Arial,sans-serif;font-size:14px;text-transform:uppercase;letter-spacing:1.4px;margin:0 0 18px;color:#ffd9a0}
+.rgrid{display:grid;grid-template-columns:1fr 1fr;gap:18px}
+@media(max-width:780px){.rgrid{grid-template-columns:1fr}}
+.rbox{background:rgba(255,255,255,.08);border-radius:10px;padding:16px 18px}
+.rbox .rl{font-family:'Helvetica Neue',Arial,sans-serif;font-size:12.5px;text-transform:uppercase;letter-spacing:1px;opacity:.85}
+.rbox .rv{font-size:31px;font-weight:700;margin:6px 0 2px;font-family:'Helvetica Neue',Arial,sans-serif}
+.rbox .rs{font-family:'Helvetica Neue',Arial,sans-serif;font-size:13px;opacity:.85}
+.verdict{margin-top:20px;padding:16px 18px;background:var(--gold);color:#231a06;border-radius:10px;font-family:'Helvetica Neue',Arial,sans-serif;font-size:15.5px;font-weight:600;line-height:1.5}
+.bd{background:var(--card);border:1px solid var(--line);border-radius:12px;padding:22px 24px;margin-bottom:20px}
+.bd h2{font-family:'Helvetica Neue',Arial,sans-serif;font-size:15px;text-transform:uppercase;letter-spacing:1.4px;margin:0 0 14px;color:var(--gold-d)}
+table{border-collapse:collapse;width:100%;font-family:'Helvetica Neue',Arial,sans-serif;font-size:14px}
+th,td{border-bottom:1px solid var(--line);padding:9px 8px;text-align:left}
+th{font-weight:700;color:var(--muted);font-size:12.5px;text-transform:uppercase;letter-spacing:.6px}
+td.n{text-align:right;font-variant-numeric:tabular-nums}
+tr.tot td{border-top:2px solid var(--gold);border-bottom:none;font-weight:700;padding-top:11px}
+.note{font-family:'Helvetica Neue',Arial,sans-serif;font-size:13px;color:var(--muted);margin-top:14px;line-height:1.6}
+.sub{background:var(--sand-2);border-radius:12px;padding:20px 24px;font-family:'Helvetica Neue',Arial,sans-serif;font-size:14.5px;margin-bottom:26px}
+.sub a{font-weight:600;margin-right:14px;display:inline-block;margin-top:6px}
+footer.s{text-align:center;color:var(--muted);font-family:'Helvetica Neue',Arial,sans-serif;font-size:12px;padding:24px}
+</style>
+</head>
+<body>
+<header class="s"><div class="wrap"><div class="logo">&#127976;</div><a href="../index.html"><b>EA Hospitality Pulse</b></a></div></header>
+
+<div class="wrap">
+  <div class="intro">
+    <a class="nav" href="../index.html#guides">&larr; Guides &amp; tools</a>
+    <h1>What an OTA booking really costs you</h1>
+    <p>Most channel comparisons stop at the commission rate. That understates the gap, because commission is only the visible part &mdash; and it overstates the case for going direct, because a direct booking is never free either.</p>
+    <p>This works out <strong>cost per retained room-night</strong> on both sides: what you actually keep after fees, currency, cash timing and cancellations. Everything runs in your browser; nothing is sent anywhere.</p>
+  </div>
+
+  <div class="grid">
+    <div class="panel">
+      <h2>OTA booking</h2>
+      <p class="ph">Use your own contracted terms, not published rates.</p>
+      <div class="f"><label>Average room rate per night<span class="hint">Your typical rate on this channel, in any single currency.</span></label><input type="number" id="o_rate" value="220" min="0" step="1"></div>
+      <div class="f"><label>Commission rate (%)<span class="hint">Your contracted rate, including any accelerator or preferred-partner uplift.</span></label><input type="number" id="o_comm" value="18" min="0" max="100" step="0.5"></div>
+      <div class="inline">
+        <div class="f"><label>Payment fee (%)<span class="hint">Virtual card / cross-border.</span></label><input type="number" id="o_pay" value="2.8" min="0" step="0.1"></div>
+        <div class="f"><label>FX spread (%)<span class="hint">Per conversion hop.</span></label><input type="number" id="o_fx" value="1.5" min="0" step="0.1"></div>
+      </div>
+      <div class="inline">
+        <div class="f"><label>Cancellation rate (%)<span class="hint">Of bookings made.</span></label><input type="number" id="o_canc" value="22" min="0" max="99" step="1"></div>
+        <div class="f"><label>Settlement delay (days)<span class="hint">Checkout to cash.</span></label><input type="number" id="o_days" value="45" min="0" step="1"></div>
+      </div>
+    </div>
+
+    <div class="panel">
+      <h2>Direct booking</h2>
+      <p class="ph">Be honest here &mdash; this is where the comparison usually breaks.</p>
+      <div class="f"><label>Average room rate per night<span class="hint">Often equal to OTA rate under parity.</span></label><input type="number" id="d_rate" value="220" min="0" step="1"></div>
+      <div class="f"><label>Marketing cost per booking<span class="hint">Total channel spend divided by bookings it produced. Include paid search and social.</span></label><input type="number" id="d_mkt" value="18" min="0" step="1"></div>
+      <div class="inline">
+        <div class="f"><label>Payment fee (%)<span class="hint">Your merchant rate.</span></label><input type="number" id="d_pay" value="3.2" min="0" step="0.1"></div>
+        <div class="f"><label>Booking engine fee (%)<span class="hint">Or per-transaction, as %.</span></label><input type="number" id="d_be" value="2" min="0" step="0.1"></div>
+      </div>
+      <div class="inline">
+        <div class="f"><label>Cancellation rate (%)<span class="hint">Usually lower than OTA.</span></label><input type="number" id="d_canc" value="12" min="0" max="99" step="1"></div>
+        <div class="f"><label>Staff cost per booking<span class="hint">Reservations time.</span></label><input type="number" id="d_staff" value="6" min="0" step="1"></div>
+      </div>
+      <div class="f"><label>Cost of capital (% per year)<span class="hint">Used to price the settlement delay on the OTA side. Your borrowing rate, or 0 to ignore.</span></label><input type="number" id="wacc" value="14" min="0" step="0.5"></div>
+    </div>
+  </div>
+
+  <div class="res">
+    <h2>Net retained per room-night</h2>
+    <div class="rgrid">
+      <div class="rbox"><div class="rl">Via OTA</div><div class="rv" id="r_ota">&mdash;</div><div class="rs" id="r_ota_pct">&mdash;</div></div>
+      <div class="rbox"><div class="rl">Direct</div><div class="rv" id="r_dir">&mdash;</div><div class="rs" id="r_dir_pct">&mdash;</div></div>
+    </div>
+    <div class="verdict" id="verdict">&mdash;</div>
+  </div>
+
+  <div class="bd">
+    <h2>Where the money goes</h2>
+    <table>
+      <thead><tr><th>Per retained room-night</th><th class="n">OTA</th><th class="n">Direct</th></tr></thead>
+      <tbody id="bd_body"></tbody>
+    </table>
+    <p class="note"><strong>How cancellations are handled:</strong> costs incurred whether or not the guest arrives &mdash; marketing spend, reservations time &mdash; are charged across <em>retained</em> room-nights, because you paid them on the bookings that cancelled too. Commission and payment fees are charged only on stays that complete. This is why a channel with a high cancellation rate costs more than its headline rate implies.</p>
+    <p class="note"><strong>On the settlement delay:</strong> priced as your cost of capital over the days between checkout and cash. Set the rate to 0 to leave it out.</p>
+  </div>
+
+  <div class="sub">
+    <strong>This is one input, not a strategy.</strong> A channel that costs more can still be worth keeping &mdash; for reach into markets you cannot address directly, for the billboard effect on your direct bookings, or for filling distressed inventory. The question is the right <em>mix</em>, and whether you are paying for reach in markets where you are already known.<br>
+    <a href="../guides/ota-commission-what-it-actually-costs.html">Read the full guide on distribution economics</a>
+    <a href="../index.html#guides">All guides</a>
+  </div>
+</div>
+
+<footer class="s">EA Hospitality Pulse &mdash; Daily market intelligence for East Africa's hospitality and travel trade.<br>
+<a href="../index.html">Home</a> &middot; Kenya &middot; Uganda &middot; Tanzania &middot; Zanzibar &middot; Rwanda</footer>
+
+<script>
+(function(){
+  var ids=["o_rate","o_comm","o_pay","o_fx","o_canc","o_days","d_rate","d_mkt","d_pay","d_be","d_canc","d_staff","wacc"];
+  function v(id){ var x=parseFloat(document.getElementById(id).value); return isNaN(x)?0:x; }
+  function money(x){ return (x<0?"-":"")+Math.abs(x).toLocaleString(undefined,{minimumFractionDigits:2,maximumFractionDigits:2}); }
+
+  function calc(){
+    var oRate=v("o_rate"), oComm=v("o_comm")/100, oPay=v("o_pay")/100, oFx=v("o_fx")/100;
+    var oKeep=1-v("o_canc")/100, oDays=v("o_days"), wacc=v("wacc")/100;
+    var dRate=v("d_rate"), dMkt=v("d_mkt"), dPay=v("d_pay")/100, dBe=v("d_be")/100;
+    var dKeep=1-v("d_canc")/100, dStaff=v("d_staff");
+    if(oKeep<=0.0001) oKeep=0.0001;
+    if(dKeep<=0.0001) dKeep=0.0001;
+
+    var oCommU=oRate*oComm, oPayU=oRate*oPay, oFxU=oRate*oFx;
+    var oCarryU=oRate*(1-oComm)*wacc*(oDays/365);
+    var oNet=oRate-oCommU-oPayU-oFxU-oCarryU;
+
+    var dPayU=dRate*dPay, dBeU=dRate*dBe;
+    var dMktU=dMkt/dKeep, dStaffU=dStaff/dKeep;
+    var dNet=dRate-dPayU-dBeU-dMktU-dStaffU;
+
+    document.getElementById("r_ota").textContent=money(oNet);
+    document.getElementById("r_dir").textContent=money(dNet);
+    document.getElementById("r_ota_pct").textContent=oRate>0?(oNet/oRate*100).toFixed(1)+"% of rate retained":"—";
+    document.getElementById("r_dir_pct").textContent=dRate>0?(dNet/dRate*100).toFixed(1)+"% of rate retained":"—";
+
+    var diff=dNet-oNet, el=document.getElementById("verdict");
+    if(Math.abs(diff)<0.5){
+      el.textContent="Line ball — the two channels cost about the same. Decide the mix on reach and risk, not price.";
+    } else if(diff>0){
+      el.textContent="Direct keeps "+money(diff)+" more per retained room-night — about "+money(diff*30)+" across 30 nights. Worth shifting volume, if your direct funnel converts.";
+    } else {
+      el.textContent="The OTA keeps "+money(-diff)+" more per retained room-night here. Your direct channel is the expensive one — fix its acquisition cost or conversion before shifting volume to it.";
+    }
+
+    var rows=[
+      ["Rate booked", oRate, dRate],
+      ["Commission", -oCommU, 0],
+      ["Marketing (incl. cancelled)", 0, -dMktU],
+      ["Booking engine", 0, -dBeU],
+      ["Payment fees", -oPayU, -dPayU],
+      ["FX spread", -oFxU, 0],
+      ["Reservations staff (incl. cancelled)", 0, -dStaffU],
+      ["Cash carry on settlement delay", -oCarryU, 0]
+    ];
+    var h="";
+    rows.forEach(function(r){
+      h+="<tr><td>"+r[0]+"</td><td class='n'>"+(r[1]===0?"—":money(r[1]))+"</td><td class='n'>"+(r[2]===0?"—":money(r[2]))+"</td></tr>";
+    });
+    h+="<tr class='tot'><td>Net retained</td><td class='n'>"+money(oNet)+"</td><td class='n'>"+money(dNet)+"</td></tr>";
+    document.getElementById("bd_body").innerHTML=h;
+  }
+
+  ids.forEach(function(id){
+    var el=document.getElementById(id);
+    el.addEventListener("input",calc);
+    el.addEventListener("change",calc);
+  });
+  calc();
+})();
+</script>
+</body>
+</html>

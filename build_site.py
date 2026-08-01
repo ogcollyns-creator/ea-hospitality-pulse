@@ -342,6 +342,11 @@ def main():
     urls = [(BASE+"/", today, "daily")]
     for g in guides:
         urls.append((f"{BASE}/guides/{g['slug']}.html", g["updated"], "monthly"))
+    tools_dir = os.path.join(HERE, "tools")
+    if os.path.isdir(tools_dir):
+        for t in sorted(os.listdir(tools_dir)):
+            if t.endswith(".html"):
+                urls.append((f"{BASE}/tools/{t}", today, "monthly"))
     for e in editions:
         urls.append((f"{BASE}/editions/{e['id']}.html", e["date"], "monthly"))
     sm = ['<?xml version="1.0" encoding="UTF-8"?>',
