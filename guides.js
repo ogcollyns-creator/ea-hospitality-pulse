@@ -24,6 +24,14 @@ window.GUIDES = [
   "readMins": 7
  },
  {
+  "slug": "tech-stack-east-africa",
+  "title": "The East African hotel tech stack — payment costs, PMS fit and where AI pricing actually works",
+  "description": "What payment gateways actually cost by provider, which property management systems publish genuine offline capability, and the data volume AI pricing tools need before they're worth paying for — set against the real scale of most East African bush and beach properties.",
+  "category": "Technology",
+  "updated": "2026-08-01",
+  "readMins": 6
+ },
+ {
   "slug": "travel-advisories-what-actually-moves-bookings",
   "title": "Reading a travel advisory: what actually moves bookings",
   "description": "An advisory downgrade does three separate things to your book, and only one of them is about sentiment. Understanding the order tells you what to fix first.",
