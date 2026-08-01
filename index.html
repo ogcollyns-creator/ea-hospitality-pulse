@@ -80,6 +80,8 @@
   .seg:hover{transform:translateY(-3px);box-shadow:0 10px 24px rgba(31,36,33,.12)}
   .seg .go{display:inline-block;margin-top:12px;font-family:'Helvetica Neue',Arial,sans-serif;font-size:13px;font-weight:600}
   .seg.city .go{color:var(--city)} .seg.bush .go{color:var(--bush)} .seg.beach .go{color:var(--beach)}
+  .seg-tool{display:block;margin-top:6px;font-family:'Helvetica Neue',Arial,sans-serif;font-size:12.5px;font-weight:700;color:var(--gold-d);text-decoration:none}
+  .seg-tool:hover{text-decoration:underline}
   .backlink{font-family:'Helvetica Neue',Arial,sans-serif;font-size:14px;font-weight:600;cursor:pointer;display:none}
   .insight{background:var(--card);border:1px solid var(--line);border-left:4px solid var(--gold);border-radius:10px;padding:18px 20px;cursor:pointer;transition:transform .12s,box-shadow .12s}
   .insight:hover{transform:translateY(-2px);box-shadow:0 8px 20px rgba(31,36,33,.09)}
@@ -135,6 +137,7 @@
   .tr-stat{background:var(--card);border:1px solid var(--line);border-radius:12px;padding:16px 18px;text-align:center}
   .tr-stat .n{font-size:28px;font-weight:700}
   .tr-stat .l{font-family:'Helvetica Neue',Arial,sans-serif;font-size:12px;text-transform:uppercase;letter-spacing:1px;color:var(--muted);margin-top:4px}
+  .tr-early{display:inline-block;background:var(--gold);color:#231a06;font-weight:700;font-size:9.5px;letter-spacing:.5px;padding:1px 5px;border-radius:8px;text-transform:uppercase;margin-left:3px;vertical-align:2px}
   .pred{background:var(--card);border:1px solid var(--line);border-left:4px solid var(--muted);border-radius:10px;padding:12px 15px;margin-bottom:8px;cursor:pointer}
   .pred:hover{background:#fffaf0}
   .prow{display:flex;align-items:center;gap:10px}
@@ -225,6 +228,7 @@
   .tab{font-family:'Helvetica Neue',Arial,sans-serif;font-size:14px;font-weight:600;padding:11px 15px;border:none;background:none;cursor:pointer;color:var(--muted);border-bottom:3px solid transparent;margin-bottom:-2px;white-space:nowrap}
   .tab:hover{color:var(--ink)}
   .tab.active{color:var(--teal-d);border-bottom-color:var(--gold)}
+  .tab svg{width:15px;height:15px;vertical-align:-3px;margin-right:5px}
   .tabwrap{padding-top:8px}
   .pane{display:none}
   .pane.active{display:block}
@@ -334,8 +338,11 @@
   .mc-form button:hover{background:#d99a3f}
   .mc-msg{font-family:'Helvetica Neue',Arial,sans-serif;font-size:12.5px;min-height:16px;opacity:.95}
   .pdf-slot{margin:12px 0 4px;display:none}
-  .pdf-btn{display:block;background:rgba(255,255,255,.14);color:#fff;padding:12px 14px;border-radius:8px;font-family:'Helvetica Neue',Arial,sans-serif;font-size:14px;font-weight:600;border:1px dashed rgba(255,255,255,.5)}
-  .pdf-btn:hover{background:rgba(255,255,255,.24);text-decoration:none}
+  .pdf-gate{background:rgba(255,255,255,.14);border:1px dashed rgba(255,255,255,.5);border-radius:8px;padding:14px}
+  .pdf-gate-label{font-family:'Helvetica Neue',Arial,sans-serif;font-size:14px;font-weight:600;color:#fff;margin-bottom:8px}
+  .pdf-gate .mc-form{margin:0}
+  .pdf-gate-msg{font-family:'Helvetica Neue',Arial,sans-serif;font-size:12.5px;color:#fff;opacity:.9;margin-top:8px}
+  .pdf-gate-msg a{color:#fff;text-decoration:underline}
 
   footer.site{padding:28px 0;text-align:center;color:var(--muted);font-family:'Helvetica Neue',Arial,sans-serif;font-size:13px}
   @media(max-width:720px){.segs{grid-template-columns:1fr}.about-grid{grid-template-columns:1fr}}
@@ -407,9 +414,9 @@
     </div>
   </div>
   <div class="segs">
-    <div class="seg city" onclick="showSegment('city')"><div class="tag">City hotels</div><h3>Corporate &amp; MICE demand</h3><p>Conference calendars, connectivity, business sentiment, rate discipline.</p><span class="go">View city insights →</span></div>
-    <div class="seg bush" onclick="showSegment('bush')"><div class="tag">Bush &amp; safari</div><h3>High-value leisure</h3><p>Park fees, permits, migration, source-market wealth, air access to strips.</p><span class="go">View bush insights →</span></div>
-    <div class="seg beach" onclick="showSegment('beach')"><div class="tag">Beach &amp; coast</div><h3>Charter &amp; leisure volume</h3><p>Route decisions, seasonality, Indian Ocean competition, regulation.</p><span class="go">View beach insights →</span></div>
+    <div class="seg city" onclick="showSegment('city')"><div class="tag">City hotels</div><h3>Corporate &amp; MICE demand</h3><p>Conference calendars, connectivity, business sentiment, rate discipline.</p><span class="go">View city insights →</span><a class="seg-tool" href="index.html#mice" onclick="event.stopPropagation()">→ Open the MICE calendar</a></div>
+    <div class="seg bush" onclick="showSegment('bush')"><div class="tag">Bush &amp; safari</div><h3>High-value leisure</h3><p>Park fees, permits, migration, source-market wealth, air access to strips.</p><span class="go">View bush insights →</span><a class="seg-tool" href="index.html#rules" onclick="event.stopPropagation()">→ Open the rules &amp; fees tracker</a></div>
+    <div class="seg beach" onclick="showSegment('beach')"><div class="tag">Beach &amp; coast</div><h3>Charter &amp; leisure volume</h3><p>Route decisions, seasonality, Indian Ocean competition, regulation.</p><span class="go">View beach insights →</span><a class="seg-tool" href="index.html#rivals" onclick="event.stopPropagation()">→ See competitive destinations</a></div>
   </div>
 </div>
 
@@ -470,7 +477,7 @@
   <p style="max-width:72ch;margin:0 0 14px;color:var(--muted);font-size:15px">
     Eight live datasets we maintain for the region — advisory levels, entry rules and fees, our proprietary rate index, operating costs, air connectivity, the development pipeline, confirmed MICE events, and the destinations competing for your guest.
   </p>
-  <div class="tabs"><button class="tab active" data-pane="advisories">🚦 Travel advisories</button><button class="tab" data-pane="rules">📋 Rules &amp; fees</button><button class="tab" data-pane="rateindex">📊 Rate Index</button><button class="tab" data-pane="costs">💰 Costs &amp; calendar</button><button class="tab" data-pane="connect">✈️ Connectivity</button><button class="tab" data-pane="pipeline">🏗️ Pipeline</button><button class="tab" data-pane="mice">🎪 MICE</button><button class="tab" data-pane="rivals">🌍 Rival destinations</button></div>
+  <div class="tabs"><button class="tab active" data-pane="advisories"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M10.29 3.86 1.82 18a2 2 0 0 0 1.71 3h16.94a2 2 0 0 0 1.71-3L13.71 3.86a2 2 0 0 0-3.42 0Z"/><line x1="12" y1="9" x2="12" y2="13"/><line x1="12" y1="17" x2="12.01" y2="17"/></svg> Travel advisories</button><button class="tab" data-pane="rules"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="8" y="2" width="8" height="4" rx="1"/><path d="M9 4H6a2 2 0 0 0-2 2v14a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V6a2 2 0 0 0-2-2h-3"/><path d="m9 14 2 2 4-4"/></svg> Rules &amp; fees</button><button class="tab" data-pane="rateindex"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M3 3v18h18"/><path d="m19 9-5 5-4-4-3 3"/></svg> Rate Index</button><button class="tab" data-pane="costs"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="3" y="4" width="18" height="18" rx="2"/><line x1="16" y1="2" x2="16" y2="6"/><line x1="8" y1="2" x2="8" y2="6"/><line x1="3" y1="10" x2="21" y2="10"/></svg> Costs &amp; calendar</button><button class="tab" data-pane="connect"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><line x1="22" y1="2" x2="11" y2="13"/><polygon points="22 2 15 22 11 13 2 9 22 2"/></svg> Connectivity</button><button class="tab" data-pane="pipeline"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="4" y="2" width="16" height="20" rx="1"/><line x1="9" y1="8" x2="9" y2="8.01"/><line x1="15" y1="8" x2="15" y2="8.01"/><line x1="9" y1="14" x2="9" y2="14.01"/><line x1="15" y1="14" x2="15" y2="14.01"/></svg> Pipeline</button><button class="tab" data-pane="mice"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M16 21v-2a4 4 0 0 0-4-4H6a4 4 0 0 0-4 4v2"/><circle cx="9" cy="7" r="4"/><path d="M22 21v-2a4 4 0 0 0-3-3.87"/><path d="M16 3.13a4 4 0 0 1 0 7.75"/></svg> MICE</button><button class="tab" data-pane="rivals"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="12" cy="12" r="10"/><line x1="2" y1="12" x2="22" y2="12"/><path d="M12 2a15.3 15.3 0 0 1 4 10 15.3 15.3 0 0 1-4 10 15.3 15.3 0 0 1-4-10 15.3 15.3 0 0 1 4-10Z"/></svg> Rival destinations</button></div>
   <div class="tabwrap"><div class="pane active" id="advisories"><div class="adv-head">
     <div><div class="kicker">Know before you sell</div><h2>Travel advisory status board</h2></div>
     <span id="adv-updated"></span>
@@ -841,9 +848,33 @@
       }
     });
   });
+  const PDF_MC_ACTION='https://gmail.us1.list-manage.com/subscribe/post?u=19ff0019ddd33b1533f381dba&id=cce993cca2&f_id=004614e5f0';
+  function pdfGateSubmit(e, file){
+    e.preventDefault();
+    const form=e.target, email=(form.EMAIL&&form.EMAIL.value||'').trim();
+    if(!email) return false;
+    const fd=new FormData();
+    fd.append('EMAIL', email);
+    fd.append('b_19ff0019ddd33b1533f381dba_cce993cca2', '');
+    fetch(PDF_MC_ACTION, {method:'POST', mode:'no-cors', body:fd}).catch(()=>{});
+    window.open(file, '_blank', 'noopener');
+    const msg=form.parentElement.querySelector('.pdf-gate-msg');
+    if(msg) msg.textContent="Thanks — you're on the list, and the PDF just opened in a new tab. If it didn't, ";
+    if(msg){ const a=document.createElement('a'); a.href=file; a.target='_blank'; a.rel='noopener'; a.textContent='open it here.'; msg.appendChild(a); }
+    form.style.display='none';
+    return false;
+  }
   function renderPdf(){ const P=window.LATEST_PDF, box=document.getElementById('pdf-slot');
     if(box && P && P.file){
-      box.innerHTML='<a class="pdf-btn" href="'+P.file+'" target="_blank" rel="noopener">⬇ Download this week\'s Sunday Foresight (PDF)'+(P.date?(' — '+P.date):'')+'</a>';
+      box.innerHTML=
+        '<div class="pdf-gate">'+
+          '<div class="pdf-gate-label">⬇ This week\'s Sunday Foresight (PDF)'+(P.date?(' — '+P.date):'')+'</div>'+
+          '<form class="mc-form" onsubmit="return pdfGateSubmit(event,\''+P.file+'\')" novalidate>'+
+            '<input type="email" name="EMAIL" placeholder="Email for the PDF" aria-label="Email address" required>'+
+            '<button type="submit">Get the PDF</button>'+
+          '</form>'+
+          '<div class="pdf-gate-msg"></div>'+
+        '</div>';
       box.style.display='block';
     }
   }
@@ -916,11 +947,14 @@
     const L=window.LEDGER; if(!L) return;
     const up=document.getElementById('tr-updated'); if(up) up.textContent='Updated '+L.updated;
     const st=L.stats;
+    const smallSample = st.resolved>0 && st.resolved<5;
+    const accTitle = smallSample ? 'Early sample — treat as directional until more calls resolve, not a mature accuracy rate.' : '';
     document.getElementById('tr-stats').innerHTML=
       '<div class="tr-stat"><div class="n">'+st.total+'</div><div class="l">Calls logged</div></div>'+
       '<div class="tr-stat"><div class="n">'+st.open+'</div><div class="l">Open</div></div>'+
       '<div class="tr-stat"><div class="n">'+st.resolved+'</div><div class="l">Resolved</div></div>'+
-      '<div class="tr-stat"><div class="n">'+(st.accuracy==null?'—':st.accuracy+'%')+'</div><div class="l">Accuracy</div></div>';
+      '<div class="tr-stat"'+(accTitle?' title="'+accTitle+'"':'')+'><div class="n">'+(st.accuracy==null?'—':st.accuracy+'%')+'</div>'+
+      '<div class="l">Accuracy (n='+st.resolved+')'+(smallSample?' <span class="tr-early">early</span>':'')+'</div></div>';
     // One compact row per call; tap to reveal the test and evidence.
     // Keeps a growing ledger scannable instead of an ever-longer wall of cards.
     const card=(p)=>{
