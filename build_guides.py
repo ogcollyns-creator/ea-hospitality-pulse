@@ -129,6 +129,8 @@ def parse_guide(path):
         "description": meta.get("description", ""),
         "category": meta.get("category", "Guide"),
         "updated": meta.get("updated", datetime.date.today().isoformat()),
+        "author": meta.get("author", ""),          # blank = published under the masthead
+        "authorRole": meta.get("author_role", ""),
         "readMins": max(3, round(len(body.split()) / 220)),
         "bodyHtml": render_md(body),
     }
@@ -151,6 +153,7 @@ header.s a{color:#fff;text-decoration:none}
 .upd{font-family:Helvetica Neue,Arial,sans-serif;font-size:13px;color:var(--muted);margin-left:8px}
 .art h1{font-size:29px;line-height:1.22;margin:16px 0 14px;border-bottom:2px solid var(--gold);padding-bottom:14px}
 .lede{font-size:18px;color:#3a423c;margin:0 0 20px}
+.byline{font-family:Helvetica Neue,Arial,sans-serif;font-size:13.5px;color:var(--muted);margin:8px 0 0}
 .art h2{font-size:22px;margin:30px 0 10px;line-height:1.3}
 .art h3{font-size:18px;margin:22px 0 8px}
 .art p{margin:0 0 15px}
@@ -171,11 +174,13 @@ footer.s{text-align:center;color:var(--muted);font-family:Helvetica Neue,Arial,s
 
 def guide_page(g):
     url = f"{BASE}/guides/{g['slug']}.html"
+    author_obj = ({"@type": "Person", "name": g["author"]} if g.get("author")
+                  else {"@type": "Organization", "name": "EA Hospitality Pulse"})
     ld = {
         "@context": "https://schema.org", "@type": "Article",
         "headline": g["title"][:110], "description": g["description"],
         "dateModified": g["updated"], "url": url, "mainEntityOfPage": url,
-        "author": {"@type": "Organization", "name": "EA Hospitality Pulse"},
+        "author": author_obj,
         "publisher": {"@type": "Organization", "name": "EA Hospitality Pulse"},
         "about": ["Kenya", "Uganda", "Tanzania", "Zanzibar", "Rwanda", "hospitality", "tourism"],
     }
@@ -184,6 +189,11 @@ def guide_page(g):
         upd = datetime.date.fromisoformat(g["updated"]).strftime("%-d %B %Y")
     except Exception:
         pass
+    byline_html = ""
+    if g.get("author"):
+        role = (", " + html.escape(g["authorRole"])) if g.get("authorRole") else ""
+        byline_html = ('\n    <p class="byline">By <b>' + html.escape(g["author"]) + '</b>'
+                       + role + ' — guest contributor</p>')
     return f"""<!DOCTYPE html>
 <html lang="en"><head>
 <meta charset="UTF-8"><meta name="viewport" content="width=device-width,initial-scale=1">
@@ -208,7 +218,7 @@ def guide_page(g):
   <article class="art">
     <a class="nav" href="../index.html#guides">← All guides</a>
     <div><span class="cat">{html.escape(g['category'])}</span><span class="upd">Updated {upd} · {g['readMins']} min read</span></div>
-    <h1>{html.escape(g['title'])}</h1>
+    <h1>{html.escape(g['title'])}</h1>{byline_html}
     <p class="lede">{html.escape(g['description'])}</p>
     {g['bodyHtml']}
     <div class="sub">
