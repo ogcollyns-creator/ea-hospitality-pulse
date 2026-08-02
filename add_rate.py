@@ -16,6 +16,10 @@ know that a property has not silently changed what the price includes.
             FB+ full board plus (meals + some activities)
             AI  all inclusive
             FI  fully inclusive (meals, drinks and activities — typical safari basis)
+  --channel direct (default) | ota
+            'direct' = the property's own published rate. 'ota' = the rate displayed on
+            Google Hotels metasearch. The two chain as SEPARATE series and their
+            difference is the commission-leakage spread.
   --type    international (default) | resident | trade
             'resident' = East African resident rate. These sit materially below rack
             and are tracked separately; never mix them into an international level.
@@ -26,10 +30,11 @@ import sys, os, csv, json, datetime
 
 HERE = os.path.dirname(os.path.abspath(__file__))
 RD = os.path.join(HERE, "rates")
-BASES = {"RO", "BB", "HB", "FB", "FB+", "AI", "FI"}
+BASES = {"RO", "BB", "HB", "FB", "FB+", "AI", "FI", "UNK"}
+CHANNELS = {"direct", "ota"}
 TYPES = {"international", "resident", "trade"}
 HEADER = ["observed_date", "market", "property", "rate_usd", "stay_date",
-          "los", "source", "note", "basis", "rate_type"]
+          "los", "source", "note", "basis", "rate_type", "channel"]
 
 
 def flag(a, name, default=""):
@@ -54,6 +59,7 @@ def main():
 
     basis = flag(a, "--basis").upper()
     rtype = (flag(a, "--type") or "international").lower()
+    channel = (flag(a, "--channel") or "direct").lower()
     stay = flag(a, "--stay")
     source = flag(a, "--source")
     note = flag(a, "--note")
@@ -64,6 +70,13 @@ def main():
         sys.exit(1)
     if rtype not in TYPES:
         print(f"--type must be one of: {', '.join(sorted(TYPES))}")
+        sys.exit(1)
+    if channel not in CHANNELS:
+        print(f"--channel must be one of: {', '.join(sorted(CHANNELS))}")
+        sys.exit(1)
+    if basis == "UNK" and channel != "ota":
+        print("basis UNK is only permitted on --channel ota (OTA rates display no meal basis).")
+        print("A direct rate must state what it includes.")
         sys.exit(1)
     if not source:
         print("--source is required: name where you saw the rate, with a date.")
@@ -91,8 +104,8 @@ def main():
         if not exists:
             w.writerow(HEADER)
         w.writerow([datetime.date.today().isoformat(), market, prop, rate, stay,
-                    conv["los"], source, note, basis, rtype])
-    print(f"Recorded: {market} | {prop} | US${rate} | {basis} | {rtype} | stay {stay}")
+                    conv["los"], source, note, basis, rtype, channel])
+    print(f"Recorded: {market} | {prop} | US${rate} | {basis} | {rtype} | {channel} | stay {stay}")
 
 
 if __name__ == "__main__":

@@ -35,6 +35,7 @@ from collections import Counter
 HERE = os.path.dirname(os.path.abspath(__file__))
 RD = os.path.join(HERE, "rates")
 MIN_N = 3           # distinct properties needed for a confident market reading
+SPREADABLE = {"RO", "BB"}  # direct bases where an OTA "lowest rate" is a like-for-like comparison
 LOOKBACK_WEEKS = 6  # how far back a property may be matched for a link relative
 
 
@@ -74,49 +75,40 @@ def main():
             r["week"] = iso_week(r["observed_date"])
             rows.append(r)
 
-    # market -> property -> week -> [rates]   (per-property dedupe happens here)
+    # market -> channel -> property -> week -> [rates]   (per-property dedupe happens here)
     g = {}
     meta_rows = {}
+    basis_at = {}
     for r in rows:
         if r["market"] not in basket["markets"]:
             continue
-        g.setdefault(r["market"], {}).setdefault(r["property"], {}) \
+        ch = (r.get("channel") or "direct").strip().lower()
+        g.setdefault(r["market"], {}).setdefault(ch, {}).setdefault(r["property"], {}) \
             .setdefault(r["week"], []).append(r["rate_usd"])
-        meta_rows.setdefault(r["market"], {}).setdefault(r["week"], []).append(r)
+        meta_rows.setdefault(r["market"], {}).setdefault(ch, {}).setdefault(r["week"], []).append(r)
+        basis_at.setdefault(r["market"], {}).setdefault(ch, {}).setdefault(r["property"], {}) \
+            .setdefault(r["week"], set()).add(r.get("basis") or "?")
 
-    markets_out = {}
-    for key, mmeta in basket["markets"].items():
-        props = g.get(key, {})
-        size = len(mmeta["properties"])
-
-        # collapse to one rate per property per week
-        pw = {p: {w: statistics.median(v) for w, v in weeks.items()} for p, weeks in props.items()}
+    def build_series(pw, size, mrows):
+        """Chain one channel's observations into an index series."""
         all_weeks = sorted({w for weeks in pw.values() for w in weeks})
-
         series = []
         for wk in all_weeks:
             obs_props = sorted([p for p in pw if wk in pw[p]])
             vals = [pw[p][wk] for p in obs_props]
-            raw = meta_rows.get(key, {}).get(wk, [])
+            raw = mrows.get(wk, [])
             bmix = Counter(x.get("basis") or "?" for x in raw)
             tmix = Counter(x.get("rate_type") or "?" for x in raw)
             series.append({
-                "week": wk,
-                "weekStart": week_start(wk),
-                "median": round(statistics.median(vals), 2),   # property-weighted, context only
-                "n": len(obs_props),                            # distinct properties (site reads this)
-                "observations": len(raw),                       # raw rows, incl. repeat daily looks
+                "week": wk, "weekStart": week_start(wk),
+                "median": round(statistics.median(vals), 2),
+                "n": len(obs_props), "observations": len(raw),
                 "coverage": round(100 * len(obs_props) / size),
                 "confident": len(obs_props) >= MIN_N,
-                "basisMix": dict(bmix),
-                "rateTypeMix": dict(tmix),
+                "basisMix": dict(bmix), "rateTypeMix": dict(tmix),
                 "levelComparable": len(bmix) == 1 and len(tmix) == 1,
-                "matched": 0,
-                "link": None,
-                "index": None,
+                "matched": 0, "link": None, "index": None,
             })
-
-        # chain starts at the first confident week
         start = next((i for i, p in enumerate(series) if p["confident"]), None)
         if start is not None:
             series[start]["index"] = 100.0
@@ -127,32 +119,71 @@ def main():
                 for p in pw:
                     if wk not in pw[p]:
                         continue
-                    prior = [w for w in pw[p]
-                             if w < wk and 0 < week_delta(wk, w) <= LOOKBACK_WEEKS]
-                    if prior:
-                        prev = max(prior)
-                        if pw[p][prev]:
-                            pairs.append(pw[p][wk] / pw[p][prev])
+                    prior = [w for w in pw[p] if w < wk and 0 < week_delta(wk, w) <= LOOKBACK_WEEKS]
+                    if prior and pw[p][max(prior)]:
+                        pairs.append(pw[p][wk] / pw[p][max(prior)])
                 if pairs:
                     link = statistics.median(pairs)
-                    running = running * link
+                    running *= link
                     series[i]["link"] = round(link, 5)
                 series[i]["matched"] = len(pairs)
                 series[i]["index"] = round(running, 1)
-                # a week with too few matched pairs is reported but not trusted
                 if series[i]["confident"] and len(pairs) < MIN_N:
                     series[i]["confident"] = False
+        return series, start
+
+    def collapse(chan_props):
+        return {p: {w: statistics.median(v) for w, v in weeks.items()}
+                for p, weeks in chan_props.items()}
+
+    markets_out = {}
+    for key, mmeta in basket["markets"].items():
+        chans = g.get(key, {})
+        size = len(mmeta["properties"])
+        mr = meta_rows.get(key, {})
+
+        pw_direct = collapse(chans.get("direct", {}))
+        pw_ota = collapse(chans.get("ota", {}))
+
+        series, start = build_series(pw_direct, size, mr.get("direct", {})) if pw_direct else ([], None)
+        ota_series, _ = build_series(pw_ota, size, mr.get("ota", {})) if pw_ota else ([], None)
 
         latest = series[-1] if series else None
-        # week-on-week = matched-sample link, the only honest WoW with a mixed basket
-        wow = None
-        if latest and latest.get("link") is not None:
-            wow = round((latest["link"] - 1) * 100, 1)
+        wow = round((latest["link"] - 1) * 100, 1) if latest and latest.get("link") is not None else None
+        ota_latest = ota_series[-1] if ota_series else None
+        ota_wow = (round((ota_latest["link"] - 1) * 100, 1)
+                   if ota_latest and ota_latest.get("link") is not None else None)
 
-        overall_b = Counter()
-        overall_t = Counter()
+        # ---- commission-leakage spread: OTA vs direct, same property, same week ----
+        # Only meaningful where the DIRECT rate is room-only or B&B. An OTA "lowest
+        # rate" against a fully-inclusive safari rate compares two different products,
+        # so those markets are suppressed rather than published misleadingly.
+        spread_series = []
+        bs = basis_at.get(key, {})
+        ota_weeks = sorted({w for weeks in pw_ota.values() for w in weeks})
+        for wk in ota_weeks:
+            pairs = []
+            skipped = 0
+            for p in pw_ota:
+                if wk not in pw_ota[p] or p not in pw_direct or wk not in pw_direct[p]:
+                    continue
+                dbases = bs.get("direct", {}).get(p, {}).get(wk, set())
+                if not dbases or not dbases.issubset(SPREADABLE):
+                    skipped += 1
+                    continue
+                d = pw_direct[p][wk]
+                if d:
+                    pairs.append(pw_ota[p][wk] / d - 1)
+            if pairs or skipped:
+                spread_series.append({
+                    "week": wk, "weekStart": week_start(wk),
+                    "spreadPct": round(statistics.median(pairs) * 100, 1) if pairs else None,
+                    "n": len(pairs), "skippedNonComparableBasis": skipped,
+                })
+
+        overall_b, overall_t = Counter(), Counter()
         for x in rows:
-            if x["market"] == key:
+            if x["market"] == key and (x.get("channel") or "direct") == "direct":
                 overall_b[x.get("basis") or "?"] += 1
                 overall_t[x.get("rate_type") or "?"] += 1
 
@@ -161,12 +192,14 @@ def main():
             "basketSize": size,
             "series": series,
             "baseline": series[start]["median"] if start is not None else None,
-            "latest": latest,
-            "wow": wow,
-            "basisMix": dict(overall_b),
-            "rateTypeMix": dict(overall_t),
+            "latest": latest, "wow": wow,
+            "basisMix": dict(overall_b), "rateTypeMix": dict(overall_t),
             "levelComparable": len(overall_b) == 1 and len(overall_t) == 1,
             "residentOnly": len(overall_t) == 1 and "resident" in overall_t,
+            "ota": ({"series": ota_series, "latest": ota_latest, "wow": ota_wow}
+                    if ota_series else None),
+            "spread": (spread_series or None),
+            "spreadLatest": (spread_series[-1] if spread_series else None),
         }
 
     out = {
@@ -179,8 +212,12 @@ def main():
                        "MOVEMENT validly even though the basket mixes meal bases and rate types. "
                        "Raw medians are context only and are not comparable across markets — "
                        "check levelComparable before quoting a level."),
+        "spreadNote": ("Commission-leakage spread = median of (OTA rate / direct rate - 1) for the "
+                       "same property in the same week. Computed only where the direct rate is "
+                       "room-only or B&B, since an OTA lowest rate is not comparable with a "
+                       "fully-inclusive safari rate. Markets where no property qualifies report null."),
         "totalObservations": len(rows),
-        "distinctProperties": sum(len(v) for v in g.values()),
+        "distinctProperties": len({(r["market"], r["property"]) for r in rows}),
         "basketSize": sum(len(m["properties"]) for m in basket["markets"].values()),
         "markets": markets_out,
         "benchmarks": benchmarks,
@@ -191,10 +228,17 @@ def main():
           f"{out['distinctProperties']} distinct properties, {len(markets_out)} markets.")
     for k, m in markets_out.items():
         if m["latest"]:
+            sp = m.get('spreadLatest')
+            sptxt = ''
+            if sp:
+                sptxt = (f" spread={sp['spreadPct']}% (n={sp['n']}"
+                         f"{', ' + str(sp['skippedNonComparableBasis']) + ' skipped: basis' if sp['skippedNonComparableBasis'] else ''})")
             print(f"  {k:9} idx={m['latest']['index']} wow={m['wow']} "
                   f"props={m['latest']['n']}/{m['basketSize']} "
                   f"conf={m['latest']['confident']} levelComparable={m['levelComparable']}"
-                  f"{' RESIDENT-ONLY' if m['residentOnly'] else ''}")
+                  f"{' RESIDENT-ONLY' if m['residentOnly'] else ''}"
+                  f"{' | OTA idx=' + str(m['ota']['latest']['index']) if m.get('ota') and m['ota']['latest'] else ''}"
+                  f"{sptxt}")
 
 
 if __name__ == "__main__":

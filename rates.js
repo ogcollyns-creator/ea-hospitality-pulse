@@ -1,5 +1,5 @@
 window.RATE_INDEX = {
- "updated": "2026-08-02 14:30",
+ "updated": "2026-08-02 14:45",
  "convention": {
   "los": 2,
   "lead_days": 30,
@@ -10,6 +10,7 @@ window.RATE_INDEX = {
  "lookbackWeeks": 6,
  "method": "chain-linked matched-sample",
  "methodNote": "Each property is compared only with itself, so the index measures rate MOVEMENT validly even though the basket mixes meal bases and rate types. Raw medians are context only and are not comparable across markets — check levelComparable before quoting a level.",
+ "spreadNote": "Commission-leakage spread = median of (OTA rate / direct rate - 1) for the same property in the same week. Computed only where the direct rate is room-only or B&B, since an OTA lowest rate is not comparable with a fully-inclusive safari rate. Markets where no property qualifies report null.",
  "totalObservations": 12,
  "distinctProperties": 12,
  "basketSize": 40,
@@ -68,7 +69,10 @@ window.RATE_INDEX = {
     "international": 1
    },
    "levelComparable": true,
-   "residentOnly": false
+   "residentOnly": false,
+   "ota": null,
+   "spread": null,
+   "spreadLatest": null
   },
   "coast": {
    "label": "Mombasa & Diani",
@@ -127,7 +131,10 @@ window.RATE_INDEX = {
     "resident": 5
    },
    "levelComparable": false,
-   "residentOnly": true
+   "residentOnly": true,
+   "ota": null,
+   "spread": null,
+   "spreadLatest": null
   },
   "zanzibar": {
    "label": "Zanzibar",
@@ -183,7 +190,10 @@ window.RATE_INDEX = {
     "international": 1
    },
    "levelComparable": true,
-   "residentOnly": false
+   "residentOnly": false,
+   "ota": null,
+   "spread": null,
+   "spreadLatest": null
   },
   "kigali": {
    "label": "Kigali",
@@ -197,7 +207,10 @@ window.RATE_INDEX = {
    "basisMix": {},
    "rateTypeMix": {},
    "levelComparable": false,
-   "residentOnly": false
+   "residentOnly": false,
+   "ota": null,
+   "spread": null,
+   "spreadLatest": null
   },
   "kampala": {
    "label": "Kampala & Entebbe",
@@ -211,7 +224,10 @@ window.RATE_INDEX = {
    "basisMix": {},
    "rateTypeMix": {},
    "levelComparable": false,
-   "residentOnly": false
+   "residentOnly": false,
+   "ota": null,
+   "spread": null,
+   "spreadLatest": null
   },
   "safari": {
    "label": "Mara & Serengeti",
@@ -273,7 +289,10 @@ window.RATE_INDEX = {
     "international": 5
    },
    "levelComparable": false,
-   "residentOnly": false
+   "residentOnly": false,
+   "ota": null,
+   "spread": null,
+   "spreadLatest": null
   }
  },
  "benchmarks": {
