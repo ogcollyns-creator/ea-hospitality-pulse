@@ -2,7 +2,7 @@
 // Levels reflect MAIN TOURIST AREAS; regional exceptions are in the notes.
 // Maintained by the scheduled Pulse task; verify against the official source before travel.
 window.ADVISORIES = {
-  updated: "2 August 2026 (midday)",
+  updated: "2 August 2026 (evening)",
   rows: [
     { code:"KE", name:"Kenya", flag:"🇰🇪",
       us:{ level:2, note:"Terrorism & crime. Higher risk on the Somalia border and parts of the north coast (Lamu). Eastleigh & Kibera are Reconsider Travel (Level 3), NOT Do Not Travel. Rendered page still dated 17 March 2025 when checked 2 Aug 2026 — the late-July re-issue did not change the page text." },

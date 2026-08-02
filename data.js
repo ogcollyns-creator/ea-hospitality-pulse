@@ -1,5 +1,14 @@
 window.EDITIONS = [
  {
+  "id": "pulse-2026-08-02-evening",
+  "date": "2026-08-02",
+  "dateDisplay": "Sunday, 2 August 2026",
+  "edition": "Evening Wrap",
+  "editionKey": "evening",
+  "summary": "Standing brief: nothing new cleared the recency gate since the Midday Pulse. So tonight we do the more useful thing — audit the story everyone thinks they're reading.",
+  "bodyHtml": "<p><span class=\"meta-line\">🏨 EA HOSPITALITY PULSE — Evening Wrap</span><br><span class=\"meta-line\">📅 Sunday, 2 August 2026 | 🇰🇪 🇹🇿 🇺🇬 🇷🇼</span></p>\n<p>Standing brief: nothing new cleared the recency gate since the Midday Pulse. So tonight we do the more useful thing — audit the story everyone thinks they&#x27;re reading.<br>━━━━━━━━━<br><span class=\"item-head\">1️⃣ THE &quot;JULY 2026&quot; KENYA ADVISORY IS STILL MARCH 2025 — AND NOW THE PRESS IS RECYCLING IT</span><br>At 19:00 EAT tonight, the US State Department&#x27;s rendered Kenya advisory page still reads &quot;Travel Advisory March 17, 2025&quot;, and Eastleigh and Kibera are still Level 3 &quot;Reconsider Travel&quot; — not &quot;Do Not Travel&quot;. The page did not move all day. Meanwhile Citizen Digital&#x27;s advisory story, published 18 March 2025, now carries a modified date of 2 August 2026 and is resurfacing as if it were fresh news.<br><span class=\"sowhat\">🎯 So what: Do not let a phantom July escalation trigger a discount. Kenya is Level 2, unchanged for 16 months. Brief your agents that nothing has actually changed.</span><br><span class=\"tagline\">🏷 City/Bush/Beach | 🇰🇪 | Confirmed</span></p>\n<p><span class=\"item-head\">2️⃣ THE ADVISORY BOARD IS UNCHANGED — WHICH IS ITSELF THE SIGNAL</span><br>Verified 2 Aug: Kenya L2/L2 (US/UK), Uganda L4/L3, Tanzania &amp; Zanzibar L2/L1, Rwanda L3/L2. Not one level moved this week.<br><span class=\"sowhat\">🎯 So what: A confirmed &quot;no change&quot; is a licence to hold rate. Tanzania and Zanzibar still carry the region&#x27;s cleanest advisory profile — price it.</span><br><span class=\"tagline\">🏷 All | 🇰🇪 🇹🇿 🇺🇬 🇷🇼 | Confirmed</span></p>\n<p><span class=\"item-head\">3️⃣ TANZANIA IS QUIETLY HARDENING ITS OUTBREAK DEFENCES</span><br>Tanzania&#x27;s Health Ministry is revising its National Viral Haemorrhagic Fever guidelines — last updated in 2019 and Ebola-only — to cover both Ebola and Marburg (Daily News, 28 July), and ran a preparedness drill at Lawate Health Centre, Kilimanjaro, on 1 August. DRC&#x27;s Bundibugyo outbreak continues; Uganda declared its own over on 28 July but still sits at US Level 4.<br><span class=\"sowhat\">🎯 So what: Tanzania&#x27;s zero-case, actively-preparing posture is a positioning asset versus Uganda&#x27;s Level 4 — but keep pre-arrival health comms factual, never alarmist.</span><br><span class=\"tagline\">🏷 Bush/Beach | 🇹🇿 | Reported</span><br>━━━━━━━━━<br><span class=\"meta-line\">📡 THE WATCH</span><br>• EPRA fuel review ~14–15 Aug — Nairobi diesel held at KSh 222.86/L only by the levy + 8% VAT running to 14 Oct.<br>• CDC Ebola entry order decision point — 12 Aug.<br>• KNBS July CPI — due end-month; Kenya ran 6.4% in June.</p>\n<p><span class=\"meta-line\">💬 Are your agents still fielding &quot;is Kenya safe?&quot; calls off a 2025 advisory? Tell us what you&#x27;re hearing.</span></p>\n<p>🔗 This edition on the web: https://eahospitalitypulse.com/editions/pulse-2026-08-02-evening.html<br>💼 Today&#x27;s Big Read on LinkedIn: https://www.linkedin.com/company/ea-hospitality-pulse/<br>— EA Hospitality Pulse | Daily intelligence for city, bush &amp; beach properties</p>"
+ },
+ {
   "id": "foresight-2026-08-02",
   "date": "2026-08-02",
   "dateDisplay": "Sunday, 2 August 2026",
@@ -323,6 +332,39 @@ window.INSIGHTS = [
   "dateDisplay": "Sunday, 2 August 2026",
   "edition": "Midday Pulse",
   "editionKey": "midday"
+ },
+ {
+  "headline": "THE \"JULY 2026\" KENYA ADVISORY IS STILL MARCH 2025 — AND NOW THE PRESS IS RECYCLING IT",
+  "body": "At 19:00 EAT tonight, the US State Department's rendered Kenya advisory page still reads \"Travel Advisory March 17, 2025\", and Eastleigh and Kibera are still Level 3 \"Reconsider Travel\" — not \"Do Not Travel\". The page did not move all day. Meanwhile Citizen Digital's advisory story, published 18 March 2025, now carries a modified date of 2 August 2026 and is resurfacing as if it were fresh news.",
+  "sowhat": "🎯 So what: Do not let a phantom July escalation trigger a discount. Kenya is Level 2, unchanged for 16 months. Brief your agents that nothing has actually changed.",
+  "segments": [
+   "city",
+   "bush",
+   "beach"
+  ],
+  "countries": "🇰🇪",
+  "confidence": "Confirmed",
+  "source": "pulse-2026-08-02-evening",
+  "date": "2026-08-02",
+  "dateDisplay": "Sunday, 2 August 2026",
+  "edition": "Evening Wrap",
+  "editionKey": "evening"
+ },
+ {
+  "headline": "TANZANIA IS QUIETLY HARDENING ITS OUTBREAK DEFENCES",
+  "body": "Tanzania's Health Ministry is revising its National Viral Haemorrhagic Fever guidelines — last updated in 2019 and Ebola-only — to cover both Ebola and Marburg (Daily News, 28 July), and ran a preparedness drill at Lawate Health Centre, Kilimanjaro, on 1 August. DRC's Bundibugyo outbreak continues; Uganda declared its own over on 28 July but still sits at US Level 4.",
+  "sowhat": "🎯 So what: Tanzania's zero-case, actively-preparing posture is a positioning asset versus Uganda's Level 4 — but keep pre-arrival health comms factual, never alarmist.",
+  "segments": [
+   "bush",
+   "beach"
+  ],
+  "countries": "🇹🇿",
+  "confidence": "Reported",
+  "source": "pulse-2026-08-02-evening",
+  "date": "2026-08-02",
+  "dateDisplay": "Sunday, 2 August 2026",
+  "edition": "Evening Wrap",
+  "editionKey": "evening"
  },
  {
   "headline": "UGANDA'S UTILITY BILL JUMPS — WATER UP 17.5% IN A MONTH",
@@ -1406,4 +1448,4 @@ window.INSIGHTS = [
   "editionKey": "evening"
  }
 ];
-window.BUILT_AT = "2026-08-02 13:10";
+window.BUILT_AT = "2026-08-02 19:15";
