@@ -1,18 +1,59 @@
 {
- "generated": "2026-08-02T10:40:08+03:00",
+ "generated": "2026-08-02T13:12:40+03:00",
  "slot": "midday",
  "window_start": 1785643200,
- "observations_in_window": 58,
+ "observations_in_window": 104,
  "deduped_against": 38,
  "candidates": [
   {
-   "score": 91.7,
+   "score": 133.0,
+   "components": {
+    "tier": 40,
+    "category": 32,
+    "lead": 1.2,
+    "relevance": 28,
+    "freshness": 19.8,
+    "undated": -6,
+    "shock": 18
+   },
+   "keywords": [
+    "terror",
+    "airport",
+    "hotel",
+    "tourist"
+   ],
+   "shock_terms": [
+    "attack"
+   ],
+   "dedupe_match": null,
+   "dedupe_similarity": 0.0,
+   "id": "d7760b263e93",
+   "title": "Spain - Level 2: Exercise Increased Caution",
+   "url": "https://travel.state.gov/content/tsg_aem/us/en/home/international-travel/travel-advisories/destination.esp.html",
+   "summary": "Exercise increased caution in Spain due to terrorism and unrest . Terrorist groups continue plotting possible attacks in Spain. Terrorists may attack with little or no warning and target: Tourist locations Transportation centers like airports and train stations Markets and shopping malls Local government facilities Hotels, clubs, and restaurants Places of worship and educational institutions Parks",
+   "kind": "item",
+   "source": "US State Dept travel advisories (EA feed)",
+   "source_id": "adv-us-ea",
+   "tier": 1,
+   "country": "REG",
+   "category": "advisory",
+   "segments": [
+    "city",
+    "bush",
+    "beach"
+   ],
+   "first_seen": "2026-08-02T13:12+03:00",
+   "published": null,
+   "verdict": "LEAD CANDIDATE \u2014 tier-1 shock language"
+  },
+  {
+   "score": 88.9,
    "components": {
     "tier": 20,
     "category": 14,
     "lead": 8.4,
     "relevance": 20,
-    "freshness": 19.3,
+    "freshness": 16.5,
     "corroborated": 10
    },
    "keywords": [
@@ -43,13 +84,13 @@
    "verdict": "CONSIDER"
   },
   {
-   "score": 86.1,
+   "score": 83.3,
    "components": {
     "tier": 40,
     "category": 8,
     "lead": 4.8,
     "relevance": 24,
-    "freshness": 19.3,
+    "freshness": 16.5,
     "undated": -6,
     "page_change": -4
    },
@@ -82,13 +123,13 @@
    "verdict": "CONSIDER"
   },
   {
-   "score": 83.7,
+   "score": 80.9,
    "components": {
     "tier": 20,
     "category": 14,
     "lead": 8.4,
     "relevance": 12,
-    "freshness": 19.3,
+    "freshness": 16.5,
     "corroborated": 10
    },
    "keywords": [
@@ -117,13 +158,13 @@
    "verdict": "CONSIDER"
   },
   {
-   "score": 83.7,
+   "score": 80.9,
    "components": {
     "tier": 20,
     "category": 14,
     "lead": 8.4,
     "relevance": 12,
-    "freshness": 19.3,
+    "freshness": 16.5,
     "corroborated": 10
    },
    "keywords": [
@@ -153,13 +194,13 @@
    "verdict": "CONSIDER"
   },
   {
-   "score": 76.3,
+   "score": 73.5,
    "components": {
     "tier": 40,
     "category": 13,
     "lead": 6.0,
     "relevance": 4,
-    "freshness": 19.3,
+    "freshness": 16.5,
     "undated": -6
    },
    "keywords": [
@@ -188,13 +229,13 @@
    "verdict": "CONSIDER"
   },
   {
-   "score": 75.3,
+   "score": 72.5,
    "components": {
     "tier": 20,
     "category": 4,
     "lead": 0.0,
     "relevance": 4,
-    "freshness": 19.3,
+    "freshness": 16.5,
     "corroborated": 10,
     "shock": 18
    },
@@ -226,13 +267,85 @@
    "verdict": "CONSIDER"
   },
   {
-   "score": 64.9,
+   "score": 65.4,
    "components": {
     "tier": 40,
     "category": 12,
     "lead": 3.6,
     "relevance": 0,
-    "freshness": 19.3,
+    "freshness": 19.8,
+    "undated": -6,
+    "page_change": -4
+   },
+   "keywords": [],
+   "shock_terms": [],
+   "dedupe_match": null,
+   "dedupe_similarity": 0.0,
+   "id": "13bd6d68700d",
+   "title": "[page changed] Airlink news",
+   "url": "https://www.flyairlink.com/",
+   "summary": "Request unsuccessful. Incapsula incident ID: 198000330365483725-584252926797940861",
+   "kind": "page-change",
+   "source": "Airlink news",
+   "source_id": "air-airlink",
+   "tier": 1,
+   "country": "REG",
+   "category": "airline",
+   "segments": [
+    "city",
+    "bush",
+    "beach"
+   ],
+   "first_seen": "2026-08-02T13:12+03:00",
+   "published": null,
+   "verdict": "weak"
+  },
+  {
+   "score": 63.8,
+   "components": {
+    "tier": 20,
+    "category": 4,
+    "lead": 0.0,
+    "relevance": 8,
+    "freshness": 19.8,
+    "undated": -6,
+    "shock": 18
+   },
+   "keywords": [
+    "strike"
+   ],
+   "shock_terms": [
+    "strike"
+   ],
+   "dedupe_match": null,
+   "dedupe_similarity": 0.33,
+   "id": "5255be9da8a0",
+   "title": "international Russia missile strike kills 10 in Kyiv as Ukraine seeks more Patriot interceptors 21 hours ago - 3 min read",
+   "url": "https://www.thecitizen.co.tz/tanzania/news/international/russia-missile-strike-kills-10-in-kyiv-as-ukraine-seeks-more-patriot-interceptors-5543588",
+   "summary": "",
+   "kind": "item",
+   "source": "The Citizen (Tanzania)",
+   "source_id": "np-citizen-tz",
+   "tier": 2,
+   "country": "TZ",
+   "category": "press",
+   "segments": [
+    "city",
+    "bush",
+    "beach"
+   ],
+   "first_seen": "2026-08-02T13:12+03:00",
+   "published": null,
+   "verdict": "weak"
+  },
+  {
+   "score": 62.1,
+   "components": {
+    "tier": 40,
+    "category": 12,
+    "lead": 3.6,
+    "relevance": 0,
+    "freshness": 16.5,
     "undated": -6,
     "page_change": -4
    },
@@ -260,13 +373,48 @@
    "verdict": "weak"
   },
   {
-   "score": 63.3,
+   "score": 61.8,
    "components": {
     "tier": 20,
     "category": 4,
     "lead": 0.0,
     "relevance": 8,
-    "freshness": 19.3,
+    "freshness": 19.8,
+    "corroborated": 10
+   },
+   "keywords": [
+    "election"
+   ],
+   "shock_terms": [],
+   "dedupe_match": null,
+   "dedupe_similarity": 0.0,
+   "id": "bad11941032b",
+   "title": "Why NRM\u2019s LC I victory is renewed mandate for grassroots service",
+   "url": "https://www.monitor.co.ug/uganda/oped/commentary/why-nrm-s-lc-i-victory-is-renewed-mandate-for-grassroots-service-5543994",
+   "summary": "Beyond the ballot box, the recent Local Council I elections reaffirm the public\u2019s trust in the...",
+   "kind": "item",
+   "source": "Daily Monitor (Uganda)",
+   "source_id": "np-monitor-ug",
+   "tier": 2,
+   "country": "UG",
+   "category": "press",
+   "segments": [
+    "city",
+    "bush",
+    "beach"
+   ],
+   "first_seen": "2026-08-02T13:12+03:00",
+   "published": "2026-08-02",
+   "verdict": "weak"
+  },
+  {
+   "score": 60.5,
+   "components": {
+    "tier": 20,
+    "category": 4,
+    "lead": 0.0,
+    "relevance": 8,
+    "freshness": 16.5,
     "undated": -6,
     "shock": 18
    },
@@ -298,13 +446,13 @@
    "verdict": "weak"
   },
   {
-   "score": 61.3,
+   "score": 58.5,
    "components": {
     "tier": 20,
     "category": 4,
     "lead": 0.0,
     "relevance": 8,
-    "freshness": 19.3,
+    "freshness": 16.5,
     "corroborated": 10
    },
    "keywords": [
@@ -333,13 +481,82 @@
    "verdict": "weak"
   },
   {
-   "score": 55.7,
+   "score": 55.8,
+   "components": {
+    "tier": 20,
+    "category": 4,
+    "lead": 0.0,
+    "relevance": 0,
+    "freshness": 19.8,
+    "undated": -6,
+    "shock": 18
+   },
+   "keywords": [],
+   "shock_terms": [
+    "attack"
+   ],
+   "dedupe_match": null,
+   "dedupe_similarity": 0.14,
+   "id": "fe1ebb2cefa3",
+   "title": "Five Kenyan security officers killed in suspected al Shabaab attack near Somalia border Jul 29 - 1 min read",
+   "url": "https://www.thecitizen.co.tz/tanzania/news/africa/five-kenyan-security-officers-killed-in-suspected-al-shabaab-attack-near-somalia-border-5540986",
+   "summary": "",
+   "kind": "item",
+   "source": "The Citizen (Tanzania)",
+   "source_id": "np-citizen-tz",
+   "tier": 2,
+   "country": "TZ",
+   "category": "press",
+   "segments": [
+    "city",
+    "bush",
+    "beach"
+   ],
+   "first_seen": "2026-08-02T13:12+03:00",
+   "published": null,
+   "verdict": "weak"
+  },
+  {
+   "score": 53.8,
+   "components": {
+    "tier": 20,
+    "category": 4,
+    "lead": 0.0,
+    "relevance": 0,
+    "freshness": 19.8,
+    "corroborated": 10
+   },
+   "keywords": [],
+   "shock_terms": [],
+   "dedupe_match": null,
+   "dedupe_similarity": 0.0,
+   "id": "36f19a10bfdc",
+   "title": "A general, her dad and Museveni: The real power of fatherhood",
+   "url": "https://www.theeastafrican.co.ke/tea/magazine/a-general-her-dad-and-museveni-the-real-power-of-fatherhood-5543120",
+   "summary": "Readers may look at Nakalema\u2019s journey as an element of luck, but her relationships with the...",
+   "kind": "item",
+   "source": "The EastAfrican",
+   "source_id": "np-eastafrican",
+   "tier": 2,
+   "country": "REG",
+   "category": "press",
+   "segments": [
+    "city",
+    "bush",
+    "beach"
+   ],
+   "first_seen": "2026-08-02T13:12+03:00",
+   "published": "2026-08-02",
+   "verdict": "weak"
+  },
+  {
+   "score": 52.9,
    "components": {
     "tier": 20,
     "category": 24,
     "lead": 2.4,
     "relevance": 0,
-    "freshness": 19.3,
+    "freshness": 16.5,
     "undated": -6,
     "page_change": -4
    },
@@ -367,13 +584,13 @@
    "verdict": "weak"
   },
   {
-   "score": 53.3,
+   "score": 50.5,
    "components": {
     "tier": 20,
     "category": 4,
     "lead": 0.0,
     "relevance": 0,
-    "freshness": 19.3,
+    "freshness": 16.5,
     "corroborated": 10
    },
    "keywords": [],
@@ -400,13 +617,13 @@
    "verdict": "weak"
   },
   {
-   "score": 53.3,
+   "score": 50.5,
    "components": {
     "tier": 20,
     "category": 4,
     "lead": 0.0,
     "relevance": 0,
-    "freshness": 19.3,
+    "freshness": 16.5,
     "corroborated": 10
    },
    "keywords": [],
@@ -433,13 +650,13 @@
    "verdict": "weak"
   },
   {
-   "score": 53.3,
+   "score": 50.5,
    "components": {
     "tier": 20,
     "category": 4,
     "lead": 0.0,
     "relevance": 0,
-    "freshness": 19.3,
+    "freshness": 16.5,
     "corroborated": 10
    },
    "keywords": [],
@@ -466,13 +683,13 @@
    "verdict": "weak"
   },
   {
-   "score": 53.3,
+   "score": 50.5,
    "components": {
     "tier": 20,
     "category": 4,
     "lead": 0.0,
     "relevance": 0,
-    "freshness": 19.3,
+    "freshness": 16.5,
     "corroborated": 10
    },
    "keywords": [],
@@ -499,13 +716,13 @@
    "verdict": "weak"
   },
   {
-   "score": 53.3,
+   "score": 50.5,
    "components": {
     "tier": 20,
     "category": 4,
     "lead": 0.0,
     "relevance": 0,
-    "freshness": 19.3,
+    "freshness": 16.5,
     "corroborated": 10
    },
    "keywords": [],
@@ -532,13 +749,13 @@
    "verdict": "weak"
   },
   {
-   "score": 53.3,
+   "score": 50.5,
    "components": {
     "tier": 20,
     "category": 4,
     "lead": 0.0,
     "relevance": 0,
-    "freshness": 19.3,
+    "freshness": 16.5,
     "corroborated": 10
    },
    "keywords": [],
@@ -565,13 +782,13 @@
    "verdict": "weak"
   },
   {
-   "score": 49.3,
+   "score": 46.5,
    "components": {
     "tier": 20,
     "category": 4,
     "lead": 0.0,
     "relevance": 12,
-    "freshness": 19.3,
+    "freshness": 16.5,
     "undated": -6
    },
    "keywords": [
@@ -601,13 +818,153 @@
    "verdict": "weak"
   },
   {
-   "score": 45.3,
+   "score": 45.8,
    "components": {
     "tier": 20,
     "category": 4,
     "lead": 0.0,
     "relevance": 8,
-    "freshness": 19.3,
+    "freshness": 19.8,
+    "undated": -6
+   },
+   "keywords": [
+    "vat"
+   ],
+   "shock_terms": [],
+   "dedupe_match": null,
+   "dedupe_similarity": 0.2,
+   "id": "b1efdd82cd11",
+   "title": "Museveni calls for preservation of cultural traditions, moderation in bride price The President made the remarks on Saturday 1st August 2026 during the Okuhingira ceremony of Kisha Isabel Byanjeru Kaboyo, daughter of the Minister of State for Luweero Triangle and Rwenzori Region, Hon. Alice Kaboyo, at Kakyeera in Kiruhura District. News",
+   "url": "https://www.newvision.co.ug/category/news/museveni-calls-for-preservation-of-cultural-t-NV_238098_082026",
+   "summary": "",
+   "kind": "item",
+   "source": "New Vision (Uganda)",
+   "source_id": "np-newvision-ug",
+   "tier": 2,
+   "country": "UG",
+   "category": "press",
+   "segments": [
+    "city",
+    "bush",
+    "beach"
+   ],
+   "first_seen": "2026-08-02T13:12+03:00",
+   "published": null,
+   "verdict": "weak"
+  },
+  {
+   "score": 45.8,
+   "components": {
+    "tier": 20,
+    "category": 4,
+    "lead": 0.0,
+    "relevance": 8,
+    "freshness": 19.8,
+    "undated": -6
+   },
+   "keywords": [
+    "vat"
+   ],
+   "shock_terms": [],
+   "dedupe_match": null,
+   "dedupe_similarity": 0.33,
+   "id": "a8485c2ec2fd",
+   "title": "National Tanzania moves to overhaul science policy as innovation takes centre stage in Vision 2050 50 min ago - 4 min read",
+   "url": "https://www.thecitizen.co.tz/tanzania/news/national/tanzania-moves-to-overhaul-science-policy-as-innovation-takes-centre-stage-in-vision-2050-5543424",
+   "summary": "",
+   "kind": "item",
+   "source": "The Citizen (Tanzania)",
+   "source_id": "np-citizen-tz",
+   "tier": 2,
+   "country": "TZ",
+   "category": "press",
+   "segments": [
+    "city",
+    "bush",
+    "beach"
+   ],
+   "first_seen": "2026-08-02T13:12+03:00",
+   "published": null,
+   "verdict": "weak"
+  },
+  {
+   "score": 45.8,
+   "components": {
+    "tier": 20,
+    "category": 4,
+    "lead": 0.0,
+    "relevance": 8,
+    "freshness": 19.8,
+    "undated": -6
+   },
+   "keywords": [
+    "eta"
+   ],
+   "shock_terms": [],
+   "dedupe_match": null,
+   "dedupe_similarity": 0.2,
+   "id": "162f02677fa6",
+   "title": "Africa Uganda honours Israeli PM Netanyahu's brother with statue in Entebbe 30 min ago - 2 min read",
+   "url": "https://www.thecitizen.co.tz/tanzania/news/africa/uganda-honours-israeli-pm-netanyahu-s-brother-with-statue-in-entebbe-5544078",
+   "summary": "",
+   "kind": "item",
+   "source": "The Citizen (Tanzania)",
+   "source_id": "np-citizen-tz",
+   "tier": 2,
+   "country": "TZ",
+   "category": "press",
+   "segments": [
+    "city",
+    "bush",
+    "beach"
+   ],
+   "first_seen": "2026-08-02T13:12+03:00",
+   "published": null,
+   "verdict": "weak"
+  },
+  {
+   "score": 45.8,
+   "components": {
+    "tier": 20,
+    "category": 4,
+    "lead": 0.0,
+    "relevance": 8,
+    "freshness": 19.8,
+    "undated": -6
+   },
+   "keywords": [
+    "vat"
+   ],
+   "shock_terms": [],
+   "dedupe_match": null,
+   "dedupe_similarity": 0.2,
+   "id": "377fd3d529c0",
+   "title": "Football Infantino\u2019s FIFA future in doubt after private equity plan sparks backlash 21 hours ago - 4 min read",
+   "url": "https://www.thecitizen.co.tz/tanzania/sports/football/infantino-s-fifa-future-in-doubt-after-private-equity-plan-sparks-backlash-5543578",
+   "summary": "",
+   "kind": "item",
+   "source": "The Citizen (Tanzania)",
+   "source_id": "np-citizen-tz",
+   "tier": 2,
+   "country": "TZ",
+   "category": "press",
+   "segments": [
+    "city",
+    "bush",
+    "beach"
+   ],
+   "first_seen": "2026-08-02T13:12+03:00",
+   "published": null,
+   "verdict": "weak"
+  },
+  {
+   "score": 42.5,
+   "components": {
+    "tier": 20,
+    "category": 4,
+    "lead": 0.0,
+    "relevance": 8,
+    "freshness": 16.5,
     "undated": -6
    },
    "keywords": [
@@ -636,13 +993,13 @@
    "verdict": "weak"
   },
   {
-   "score": 45.3,
+   "score": 42.5,
    "components": {
     "tier": 20,
     "category": 4,
     "lead": 0.0,
     "relevance": 8,
-    "freshness": 19.3,
+    "freshness": 16.5,
     "undated": -6
    },
    "keywords": [
@@ -671,13 +1028,13 @@
    "verdict": "weak"
   },
   {
-   "score": 45.3,
+   "score": 42.5,
    "components": {
     "tier": 20,
     "category": 4,
     "lead": 0.0,
     "relevance": 8,
-    "freshness": 19.3,
+    "freshness": 16.5,
     "undated": -6
    },
    "keywords": [
@@ -706,13 +1063,13 @@
    "verdict": "weak"
   },
   {
-   "score": 45.3,
+   "score": 42.5,
    "components": {
     "tier": 20,
     "category": 4,
     "lead": 0.0,
     "relevance": 8,
-    "freshness": 19.3,
+    "freshness": 16.5,
     "undated": -6
    },
    "keywords": [
@@ -741,13 +1098,118 @@
    "verdict": "weak"
   },
   {
-   "score": 41.3,
+   "score": 41.8,
    "components": {
     "tier": 20,
     "category": 4,
     "lead": 0.0,
     "relevance": 4,
-    "freshness": 19.3,
+    "freshness": 19.8,
+    "undated": -6
+   },
+   "keywords": [
+    "camp"
+   ],
+   "shock_terms": [],
+   "dedupe_match": null,
+   "dedupe_similarity": 0.2,
+   "id": "732a3157edd5",
+   "title": "Health Hundreds of Kikuube residents benefit from free medical camp",
+   "url": "https://www.newvision.co.ug/category/health/hundreds-of-kikuube-residents-benefit-from-fr-NV_238094_082026",
+   "summary": "",
+   "kind": "item",
+   "source": "New Vision (Uganda)",
+   "source_id": "np-newvision-ug",
+   "tier": 2,
+   "country": "UG",
+   "category": "press",
+   "segments": [
+    "city",
+    "bush",
+    "beach"
+   ],
+   "first_seen": "2026-08-02T13:12+03:00",
+   "published": null,
+   "verdict": "weak"
+  },
+  {
+   "score": 41.8,
+   "components": {
+    "tier": 20,
+    "category": 4,
+    "lead": 0.0,
+    "relevance": 4,
+    "freshness": 19.8,
+    "undated": -6
+   },
+   "keywords": [
+    "tourism"
+   ],
+   "shock_terms": [],
+   "dedupe_match": null,
+   "dedupe_similarity": 0.17,
+   "id": "ef35b5a5e502",
+   "title": "National Respecting Tanzanian sacred ancestral sites, traditions while promoting tourism Yesterday - 6 min read",
+   "url": "https://www.thecitizen.co.tz/tanzania/news/national/respecting-tanzanian-sacred-ancestral-sites-traditions-while-promoting-tourism-5542410",
+   "summary": "",
+   "kind": "item",
+   "source": "The Citizen (Tanzania)",
+   "source_id": "np-citizen-tz",
+   "tier": 2,
+   "country": "TZ",
+   "category": "press",
+   "segments": [
+    "city",
+    "bush",
+    "beach"
+   ],
+   "first_seen": "2026-08-02T13:12+03:00",
+   "published": null,
+   "verdict": "weak"
+  },
+  {
+   "score": 41.8,
+   "components": {
+    "tier": 20,
+    "category": 4,
+    "lead": 0.0,
+    "relevance": 4,
+    "freshness": 19.8,
+    "undated": -6
+   },
+   "keywords": [
+    "investment"
+   ],
+   "shock_terms": [],
+   "dedupe_match": null,
+   "dedupe_similarity": 0.17,
+   "id": "b5b5b06927c2",
+   "title": "Markets & Finance Nabo Capital to operate independently after buyout by Rock Investment Bank 4 hours ago - 2 min read",
+   "url": "https://www.businessdailyafrica.com/bd/markets/nabo-capital-to-operate-independently-after-buyout-by-rock-bank-5543062",
+   "summary": "",
+   "kind": "item",
+   "source": "Business Daily Africa",
+   "source_id": "np-businessdaily",
+   "tier": 2,
+   "country": "KE",
+   "category": "press",
+   "segments": [
+    "city",
+    "bush",
+    "beach"
+   ],
+   "first_seen": "2026-08-02T13:12+03:00",
+   "published": null,
+   "verdict": "weak"
+  },
+  {
+   "score": 38.5,
+   "components": {
+    "tier": 20,
+    "category": 4,
+    "lead": 0.0,
+    "relevance": 4,
+    "freshness": 16.5,
     "undated": -6
    },
    "keywords": [
@@ -776,13 +1238,13 @@
    "verdict": "weak"
   },
   {
-   "score": 41.3,
+   "score": 38.5,
    "components": {
     "tier": 20,
     "category": 4,
     "lead": 0.0,
     "relevance": 4,
-    "freshness": 19.3,
+    "freshness": 16.5,
     "undated": -6
    },
    "keywords": [
@@ -811,13 +1273,13 @@
    "verdict": "weak"
   },
   {
-   "score": 41.3,
+   "score": 38.5,
    "components": {
     "tier": 20,
     "category": 4,
     "lead": 0.0,
     "relevance": 4,
-    "freshness": 19.3,
+    "freshness": 16.5,
     "undated": -6
    },
    "keywords": [
@@ -846,13 +1308,13 @@
    "verdict": "weak"
   },
   {
-   "score": 41.3,
+   "score": 38.5,
    "components": {
     "tier": 20,
     "category": 4,
     "lead": 0.0,
     "relevance": 4,
-    "freshness": 19.3,
+    "freshness": 16.5,
     "undated": -6
    },
    "keywords": [
@@ -881,22 +1343,22 @@
    "verdict": "weak"
   },
   {
-   "score": 37.3,
+   "score": 37.8,
    "components": {
     "tier": 20,
     "category": 4,
     "lead": 0.0,
     "relevance": 0,
-    "freshness": 19.3,
+    "freshness": 19.8,
     "undated": -6
    },
    "keywords": [],
    "shock_terms": [],
    "dedupe_match": null,
-   "dedupe_similarity": 0.12,
-   "id": "9b2ad1e4296e",
-   "title": "World US embassies urge citizens to consider departing Middle East The warning, posted online by US embassies in Bahrain, Iraq, Israel, Jordan, Kuwait, Lebanon, Oman, Qatar, Saudi Arabia and the United Arab Emirates came a day after US President Donald Trump threatened to hit Iran \"very hard\".",
-   "url": "https://www.newvision.co.ug/category/world/us-embassies-urge-citizens-to-consider-depart-NV_238089_082026",
+   "dedupe_similarity": 0.0,
+   "id": "d2cf6a9d58cc",
+   "title": "News Judiciary hopes for increased public trust in new justice strategy",
+   "url": "https://www.newvision.co.ug/category/news/judiciary-hopes-for-increased-public-trust-in-NV_238102_082026",
    "summary": "",
    "kind": "item",
    "source": "New Vision (Uganda)",
@@ -909,27 +1371,27 @@
     "bush",
     "beach"
    ],
-   "first_seen": "2026-08-02T10:12+03:00",
+   "first_seen": "2026-08-02T13:12+03:00",
    "published": null,
    "verdict": "weak"
   },
   {
-   "score": 37.3,
+   "score": 37.8,
    "components": {
     "tier": 20,
     "category": 4,
     "lead": 0.0,
     "relevance": 0,
-    "freshness": 19.3,
+    "freshness": 19.8,
     "undated": -6
    },
    "keywords": [],
    "shock_terms": [],
    "dedupe_match": null,
    "dedupe_similarity": 0.0,
-   "id": "831f42010164",
-   "title": "World Majority of EU countries call for talks over migrant influx into Ceuta enclave",
-   "url": "https://www.newvision.co.ug/category/world/majority-of-eu-countries-call-for-talks-over-NV_238082_082026",
+   "id": "b043811ce0d8",
+   "title": "News Police arrest 46 suspected gang members in Kasese crackdown",
+   "url": "https://www.newvision.co.ug/category/news/police-arrest-46-suspected-gang-members-in-ka-NV_238099_082026",
    "summary": "",
    "kind": "item",
    "source": "New Vision (Uganda)",
@@ -942,436 +1404,7 @@
     "bush",
     "beach"
    ],
-   "first_seen": "2026-08-02T10:12+03:00",
-   "published": null,
-   "verdict": "weak"
-  },
-  {
-   "score": 37.3,
-   "components": {
-    "tier": 20,
-    "category": 4,
-    "lead": 0.0,
-    "relevance": 0,
-    "freshness": 19.3,
-    "undated": -6
-   },
-   "keywords": [],
-   "shock_terms": [],
-   "dedupe_match": null,
-   "dedupe_similarity": 0.2,
-   "id": "410ab9a7968c",
-   "title": "Online Church Online Church: @Worship Harvest Today - August 02, 2026",
-   "url": "https://www.newvision.co.ug/category/entertainment/online-church-worship-harvest-today---august-NV_238091_082026",
-   "summary": "",
-   "kind": "item",
-   "source": "New Vision (Uganda)",
-   "source_id": "np-newvision-ug",
-   "tier": 2,
-   "country": "UG",
-   "category": "press",
-   "segments": [
-    "city",
-    "bush",
-    "beach"
-   ],
-   "first_seen": "2026-08-02T10:12+03:00",
-   "published": null,
-   "verdict": "weak"
-  },
-  {
-   "score": 37.3,
-   "components": {
-    "tier": 20,
-    "category": 4,
-    "lead": 0.0,
-    "relevance": 0,
-    "freshness": 19.3,
-    "undated": -6
-   },
-   "keywords": [],
-   "shock_terms": [],
-   "dedupe_match": null,
-   "dedupe_similarity": 0.0,
-   "id": "7cccfeaace81",
-   "title": "CONCACAF CONCACAF calls for 'comprehensive reckoning with' Infantino's FIFA leadership \u00b7 1 min read",
-   "url": "https://www.newvision.co.ug/category/sports/concacaf-calls-for-comprehensive-reckoning-wi-NV_238088_082026",
-   "summary": "",
-   "kind": "item",
-   "source": "New Vision (Uganda)",
-   "source_id": "np-newvision-ug",
-   "tier": 2,
-   "country": "UG",
-   "category": "press",
-   "segments": [
-    "city",
-    "bush",
-    "beach"
-   ],
-   "first_seen": "2026-08-02T10:12+03:00",
-   "published": null,
-   "verdict": "weak"
-  },
-  {
-   "score": 37.3,
-   "components": {
-    "tier": 20,
-    "category": 4,
-    "lead": 0.0,
-    "relevance": 0,
-    "freshness": 19.3,
-    "undated": -6
-   },
-   "keywords": [],
-   "shock_terms": [],
-   "dedupe_match": null,
-   "dedupe_similarity": 0.17,
-   "id": "c75d475c06ff",
-   "title": "Weekend with the CEO \u2018I\u2019m worse than a mule\u2019: The reserved CEO with an iron will 3 hours ago - 11 min read",
-   "url": "https://www.businessdailyafrica.com/bd/lifestyle/weekend-with-the-ceo/the-reserved-ceo-with-an-iron-will-5543090",
-   "summary": "",
-   "kind": "item",
-   "source": "Business Daily Africa",
-   "source_id": "np-businessdaily",
-   "tier": 2,
-   "country": "KE",
-   "category": "press",
-   "segments": [
-    "city",
-    "bush",
-    "beach"
-   ],
-   "first_seen": "2026-08-02T10:12+03:00",
-   "published": null,
-   "verdict": "weak"
-  },
-  {
-   "score": 37.3,
-   "components": {
-    "tier": 20,
-    "category": 4,
-    "lead": 0.0,
-    "relevance": 0,
-    "freshness": 19.3,
-    "undated": -6
-   },
-   "keywords": [],
-   "shock_terms": [],
-   "dedupe_match": null,
-   "dedupe_similarity": 0.17,
-   "id": "56548e4ed65e",
-   "title": "Companies Court rejects KPLC's move to drag Epra in power surge claims 23 hours ago - 3 min read",
-   "url": "https://www.businessdailyafrica.com/bd/corporate/companies/court-rejects-kplc-s-move-to-drag-epra-in-power-surge-claims-5543058",
-   "summary": "",
-   "kind": "item",
-   "source": "Business Daily Africa",
-   "source_id": "np-businessdaily",
-   "tier": 2,
-   "country": "KE",
-   "category": "press",
-   "segments": [
-    "city",
-    "bush",
-    "beach"
-   ],
-   "first_seen": "2026-08-02T10:12+03:00",
-   "published": null,
-   "verdict": "weak"
-  },
-  {
-   "score": 37.3,
-   "components": {
-    "tier": 20,
-    "category": 4,
-    "lead": 0.0,
-    "relevance": 0,
-    "freshness": 19.3,
-    "undated": -6
-   },
-   "keywords": [],
-   "shock_terms": [],
-   "dedupe_match": null,
-   "dedupe_similarity": 0.2,
-   "id": "c118d7dbb88e",
-   "title": "Companies Centum turns debt-free after 5-year restructure Yesterday - 2 min read",
-   "url": "https://www.businessdailyafrica.com/bd/corporate/companies/centum-turns-debt-free-after-5-year-restructure-5543042",
-   "summary": "",
-   "kind": "item",
-   "source": "Business Daily Africa",
-   "source_id": "np-businessdaily",
-   "tier": 2,
-   "country": "KE",
-   "category": "press",
-   "segments": [
-    "city",
-    "bush",
-    "beach"
-   ],
-   "first_seen": "2026-08-02T10:12+03:00",
-   "published": null,
-   "verdict": "weak"
-  },
-  {
-   "score": 37.3,
-   "components": {
-    "tier": 20,
-    "category": 4,
-    "lead": 0.0,
-    "relevance": 0,
-    "freshness": 19.3,
-    "undated": -6
-   },
-   "keywords": [],
-   "shock_terms": [],
-   "dedupe_match": null,
-   "dedupe_similarity": 0.0,
-   "id": "49e8deb2a8e5",
-   "title": "Wellness & Fitness Is it worse to eat unhealthy food in the morning, or later in the day? Yesterday - 4 min read",
-   "url": "https://www.businessdailyafrica.com/bd/lifestyle/health-fitness/is-it-worse-to-eat-unhealthy-food-morning-or-later-in-the-day-5543040",
-   "summary": "",
-   "kind": "item",
-   "source": "Business Daily Africa",
-   "source_id": "np-businessdaily",
-   "tier": 2,
-   "country": "KE",
-   "category": "press",
-   "segments": [
-    "city",
-    "bush",
-    "beach"
-   ],
-   "first_seen": "2026-08-02T10:12+03:00",
-   "published": null,
-   "verdict": "weak"
-  },
-  {
-   "score": 37.3,
-   "components": {
-    "tier": 20,
-    "category": 4,
-    "lead": 0.0,
-    "relevance": 0,
-    "freshness": 19.3,
-    "undated": -6
-   },
-   "keywords": [],
-   "shock_terms": [],
-   "dedupe_match": null,
-   "dedupe_similarity": 0.0,
-   "id": "ba11af59a23c",
-   "title": "Visual Arts The self-taught artist who rejects a signature style Jul 30 - 4 min read",
-   "url": "https://www.businessdailyafrica.com/bd/lifestyle/art/visual-arts/the-self-taught-artist-who-rejects-a-signature-style-5541848",
-   "summary": "",
-   "kind": "item",
-   "source": "Business Daily Africa",
-   "source_id": "np-businessdaily",
-   "tier": 2,
-   "country": "KE",
-   "category": "press",
-   "segments": [
-    "city",
-    "bush",
-    "beach"
-   ],
-   "first_seen": "2026-08-02T10:12+03:00",
-   "published": null,
-   "verdict": "weak"
-  },
-  {
-   "score": 37.3,
-   "components": {
-    "tier": 20,
-    "category": 4,
-    "lead": 0.0,
-    "relevance": 0,
-    "freshness": 19.3,
-    "undated": -6
-   },
-   "keywords": [],
-   "shock_terms": [],
-   "dedupe_match": null,
-   "dedupe_similarity": 0.17,
-   "id": "03ccff2681e4",
-   "title": "National Samia urges Africa to end reliance on overseas medical treatment 10 hours ago - 3 min read",
-   "url": "https://www.thecitizen.co.tz/tanzania/news/national/samia-urges-africa-to-end-reliance-on-overseas-medical-treatment-5543946",
-   "summary": "",
-   "kind": "item",
-   "source": "The Citizen (Tanzania)",
-   "source_id": "np-citizen-tz",
-   "tier": 2,
-   "country": "TZ",
-   "category": "press",
-   "segments": [
-    "city",
-    "bush",
-    "beach"
-   ],
-   "first_seen": "2026-08-02T10:12+03:00",
-   "published": null,
-   "verdict": "weak"
-  },
-  {
-   "score": 37.3,
-   "components": {
-    "tier": 20,
-    "category": 4,
-    "lead": 0.0,
-    "relevance": 0,
-    "freshness": 19.3,
-    "undated": -6
-   },
-   "keywords": [],
-   "shock_terms": [],
-   "dedupe_match": null,
-   "dedupe_similarity": 0.25,
-   "id": "71b703338c71",
-   "title": "National Angola inaugurates referral hospital named after Tanzania\u2019s founding President Nyerere 14 hours ago - 2 min read",
-   "url": "https://www.thecitizen.co.tz/tanzania/news/national/angola-inaugurates-referral-hospital-named-after-tanzania-s-founding-president-nyerere-5543888",
-   "summary": "",
-   "kind": "item",
-   "source": "The Citizen (Tanzania)",
-   "source_id": "np-citizen-tz",
-   "tier": 2,
-   "country": "TZ",
-   "category": "press",
-   "segments": [
-    "city",
-    "bush",
-    "beach"
-   ],
-   "first_seen": "2026-08-02T10:12+03:00",
-   "published": null,
-   "verdict": "weak"
-  },
-  {
-   "score": 37.3,
-   "components": {
-    "tier": 20,
-    "category": 4,
-    "lead": 0.0,
-    "relevance": 0,
-    "freshness": 19.3,
-    "undated": -6
-   },
-   "keywords": [],
-   "shock_terms": [],
-   "dedupe_match": null,
-   "dedupe_similarity": 0.17,
-   "id": "594ca7ae5db0",
-   "title": "National UDOM graduates turn university project into tech firm 22 hours ago - 7 min read",
-   "url": "https://www.thecitizen.co.tz/tanzania/news/national/udom-graduates-turn-university-project-into-tech-firm-5542280",
-   "summary": "",
-   "kind": "item",
-   "source": "The Citizen (Tanzania)",
-   "source_id": "np-citizen-tz",
-   "tier": 2,
-   "country": "TZ",
-   "category": "press",
-   "segments": [
-    "city",
-    "bush",
-    "beach"
-   ],
-   "first_seen": "2026-08-02T10:12+03:00",
-   "published": null,
-   "verdict": "weak"
-  },
-  {
-   "score": 37.3,
-   "components": {
-    "tier": 20,
-    "category": 4,
-    "lead": 0.0,
-    "relevance": 0,
-    "freshness": 19.3,
-    "undated": -6
-   },
-   "keywords": [],
-   "shock_terms": [],
-   "dedupe_match": null,
-   "dedupe_similarity": 0.17,
-   "id": "a947a3cb7100",
-   "title": "National Samia\u2019s reconciliation roadmap: Path to a New Constitution? 15 hours ago - 7 min read",
-   "url": "https://www.thecitizen.co.tz/tanzania/news/national/samia-s-reconciliation-roadmap-path-to-a-new-constitution--5543796",
-   "summary": "",
-   "kind": "item",
-   "source": "The Citizen (Tanzania)",
-   "source_id": "np-citizen-tz",
-   "tier": 2,
-   "country": "TZ",
-   "category": "press",
-   "segments": [
-    "city",
-    "bush",
-    "beach"
-   ],
-   "first_seen": "2026-08-02T10:12+03:00",
-   "published": null,
-   "verdict": "weak"
-  },
-  {
-   "score": 37.3,
-   "components": {
-    "tier": 20,
-    "category": 4,
-    "lead": 0.0,
-    "relevance": 0,
-    "freshness": 19.3,
-    "undated": -6
-   },
-   "keywords": [],
-   "shock_terms": [],
-   "dedupe_match": null,
-   "dedupe_similarity": 0.25,
-   "id": "d582e33a2a1c",
-   "title": "National Warehouse receipts system generates Sh2.3 trillion for Tanzania farmers, traders 21 hours ago - 3 min read",
-   "url": "https://www.thecitizen.co.tz/tanzania/news/national/warehouse-receipts-system-generates-sh2-3-trillion-for-tanzania-farmers-traders-5542840",
-   "summary": "",
-   "kind": "item",
-   "source": "The Citizen (Tanzania)",
-   "source_id": "np-citizen-tz",
-   "tier": 2,
-   "country": "TZ",
-   "category": "press",
-   "segments": [
-    "city",
-    "bush",
-    "beach"
-   ],
-   "first_seen": "2026-08-02T10:12+03:00",
-   "published": null,
-   "verdict": "weak"
-  },
-  {
-   "score": 37.3,
-   "components": {
-    "tier": 20,
-    "category": 4,
-    "lead": 0.0,
-    "relevance": 0,
-    "freshness": 19.3,
-    "undated": -6
-   },
-   "keywords": [],
-   "shock_terms": [],
-   "dedupe_match": null,
-   "dedupe_similarity": 0.17,
-   "id": "8332666dae08",
-   "title": "National Nine-year FBME liquidation completes, Tanzanian depositors to receive 100 percent of funds 22 hours ago - 3 min read",
-   "url": "https://www.thecitizen.co.tz/tanzania/news/national/nine-year-fbme-liquidation-completes-tanzanian-depositors-to-receive-100-percent-of-funds-5542818",
-   "summary": "",
-   "kind": "item",
-   "source": "The Citizen (Tanzania)",
-   "source_id": "np-citizen-tz",
-   "tier": 2,
-   "country": "TZ",
-   "category": "press",
-   "segments": [
-    "city",
-    "bush",
-    "beach"
-   ],
-   "first_seen": "2026-08-02T10:12+03:00",
+   "first_seen": "2026-08-02T13:12+03:00",
    "published": null,
    "verdict": "weak"
   }
