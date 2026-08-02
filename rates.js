@@ -1,5 +1,5 @@
 window.RATE_INDEX = {
- "updated": "2026-08-02 14:25",
+ "updated": "2026-08-02 14:30",
  "convention": {
   "los": 2,
   "lead_days": 30,
@@ -10,8 +10,8 @@ window.RATE_INDEX = {
  "lookbackWeeks": 6,
  "method": "chain-linked matched-sample",
  "methodNote": "Each property is compared only with itself, so the index measures rate MOVEMENT validly even though the basket mixes meal bases and rate types. Raw medians are context only and are not comparable across markets — check levelComparable before quoting a level.",
- "totalObservations": 10,
- "distinctProperties": 10,
+ "totalObservations": 12,
+ "distinctProperties": 12,
  "basketSize": 40,
  "markets": {
   "nairobi": {
@@ -80,16 +80,16 @@ window.RATE_INDEX = {
      "week": "2026-W31",
      "weekStart": "2026-07-27",
      "median": 278.0,
-     "n": 3,
-     "observations": 3,
-     "coverage": 43,
+     "n": 5,
+     "observations": 5,
+     "coverage": 71,
      "confident": true,
      "basisMix": {
-      "HB": 2,
-      "AI": 1
+      "HB": 3,
+      "AI": 2
      },
      "rateTypeMix": {
-      "resident": 3
+      "resident": 5
      },
      "levelComparable": false,
      "matched": 0,
@@ -102,16 +102,16 @@ window.RATE_INDEX = {
     "week": "2026-W31",
     "weekStart": "2026-07-27",
     "median": 278.0,
-    "n": 3,
-    "observations": 3,
-    "coverage": 43,
+    "n": 5,
+    "observations": 5,
+    "coverage": 71,
     "confident": true,
     "basisMix": {
-     "HB": 2,
-     "AI": 1
+     "HB": 3,
+     "AI": 2
     },
     "rateTypeMix": {
-     "resident": 3
+     "resident": 5
     },
     "levelComparable": false,
     "matched": 0,
@@ -120,11 +120,11 @@ window.RATE_INDEX = {
    },
    "wow": null,
    "basisMix": {
-    "HB": 2,
-    "AI": 1
+    "HB": 3,
+    "AI": 2
    },
    "rateTypeMix": {
-    "resident": 3
+    "resident": 5
    },
    "levelComparable": false,
    "residentOnly": true
