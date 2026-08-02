@@ -1,8 +1,8 @@
 window.LEDGER = {
- "updated": "2026-08-02 09:20",
+ "updated": "2026-08-02 14:01",
  "stats": {
-  "total": 45,
-  "open": 43,
+  "total": 46,
+  "open": 44,
   "resolved": 2,
   "correct": 1,
   "partial": 1,
@@ -232,6 +232,22 @@ window.LEDGER = {
    "resolved_date": "",
    "evidence": "",
    "source_url": "https://travel.state.gov/content/travel/en/traveladvisories/traveladvisories/kenya-travel-advisory.html",
+   "overdue": false
+  },
+  {
+   "id": "P046",
+   "made_date": "2026-08-02",
+   "edition": "Midday Pulse",
+   "claim": "The rendered travel.state.gov Kenya advisory page will still carry the \"March 17, 2025\" advisory date on 1 September 2026 — confirming the 28-29 July 2026 action was a feed-level re-issue, not a content revision",
+   "resolution_criteria": "travel.state.gov Kenya travel advisory page checked on 1 Sept 2026 showing header date \"March 17, 2025\". If the header shows any later date the call is incorrect.",
+   "resolve_by": "2026-09-01",
+   "market": "KE",
+   "segment": "City",
+   "confidence": "Reported",
+   "status": "open",
+   "resolved_date": "",
+   "evidence": "",
+   "source_url": "",
    "overdue": false
   },
   {

@@ -1,5 +1,14 @@
 window.EDITIONS = [
  {
+  "id": "pulse-2026-08-02-midday",
+  "date": "2026-08-02",
+  "dateDisplay": "Sunday, 2 August 2026",
+  "edition": "Midday Pulse",
+  "editionKey": "midday",
+  "summary": "No new developments since this morning — so we went back through the open forecasts, and found one.",
+  "bodyHtml": "<p><span class=\"meta-line\">🏨 EA HOSPITALITY PULSE — Midday Pulse</span><br><span class=\"meta-line\">📅 Sunday, 2 August 2026 | 🇰🇪</span></p>\n<p>No new developments since this morning — so we went back through the open forecasts, and found one.<br>━━━━━━━━━<br><span class=\"item-head\">1️⃣ THE &quot;JULY 2026&quot; KENYA ADVISORY IS DATED MARCH 2025</span><br>We opened the US State Department&#x27;s Kenya advisory page directly at 13:40 EAT today. The header reads &quot;Travel Advisory — March 17, 2025&quot;, and Eastleigh and Kibera sit under Reconsider Travel, not Do Not Travel. Kenya&#x27;s overall level is unchanged at 2. Several secondary sites are currently describing a &quot;renewed 28 July 2026&quot; advisory placing those neighbourhoods under Do Not Travel. The rendered page does not say that.<br><span class=\"sowhat\">🎯 So what: If a corporate client&#x27;s risk team has flagged Nairobi on the back of a &quot;new&quot; advisory, send them the page itself. Nothing has substantively changed since March 2025.</span><br><span class=\"tagline\">🏷 City | Kenya | Confirmed (page fetched today) — that the late-July action was feed-level only is our inference</span><br>━━━━━━━━━<br><span class=\"item-head\">2️⃣ FORECAST CHECK: OUR LEAD IS NOW FIVE DAYS</span><br>On 29 July we logged P038 — that a Kenyan national outlet would report the advisory re-issue by tomorrow. As of today none has. The Citizen Digital piece now ranking for this story was published 18 March 2025 and merely re-touched at 12:54 GMT today, which is why search presents it as current.<br><span class=\"sowhat\">🎯 So what: If your comms or risk brief is assembled from search results, assume it can be seventeen months out of date. Check the dateline, not the ranking.</span><br><span class=\"tagline\">🏷 City, Bush, Beach | Kenya | Confirmed</span><br>━━━━━━━━━<br><span class=\"item-head\">3️⃣ STILL TRUE AT MIDDAY</span><br>The advisory board has not moved: the US has Kenya 2, Uganda 4, Tanzania 2, Zanzibar 2, Rwanda 3; the UK has Kenya 2, Uganda 3, Tanzania 1, Zanzibar 1, Rwanda 2. Nairobi diesel stays at KSh 222.86/litre until 14 August under EPRA&#x27;s current schedule.<br><span class=\"sowhat\">🎯 So what: No advisory or fuel reason to discount this week. Hold rate into the 15 August review.</span><br><span class=\"tagline\">🏷 City, Bush, Beach | Kenya, Uganda, Tanzania, Zanzibar, Rwanda | Confirmed</span></p>\n<p><span class=\"meta-line\">💬 Has a client&#x27;s risk team queried Nairobi in the last week? Tell us what they cited.</span></p>\n<p>🔗 This edition on the web: https://eahospitalitypulse.com/editions/pulse-2026-08-02-midday.html<br>— EA Hospitality Pulse | Daily intelligence for city, bush &amp; beach properties</p>"
+ },
+ {
   "id": "pulse-2026-08-02-morning",
   "date": "2026-08-02",
   "dateDisplay": "Sunday, 2 August 2026",
@@ -256,6 +265,55 @@ window.INSIGHTS = [
   "dateDisplay": "Sunday, 2 August 2026",
   "edition": "Morning Brief",
   "editionKey": "morning"
+ },
+ {
+  "headline": "THE \"JULY 2026\" KENYA ADVISORY IS DATED MARCH 2025",
+  "body": "We opened the US State Department's Kenya advisory page directly at 13:40 EAT today. The header reads \"Travel Advisory — March 17, 2025\", and Eastleigh and Kibera sit under Reconsider Travel, not Do Not Travel. Kenya's overall level is unchanged at 2. Several secondary sites are currently describing a \"renewed 28 July 2026\" advisory placing those neighbourhoods under Do Not Travel. The rendered page does not say that.",
+  "sowhat": "🎯 So what: If a corporate client's risk team has flagged Nairobi on the back of a \"new\" advisory, send them the page itself. Nothing has substantively changed since March 2025.",
+  "segments": [
+   "city"
+  ],
+  "countries": "Kenya",
+  "confidence": "Confirmed (page fetched today) — that the late-July action was feed-level only is our inference",
+  "source": "pulse-2026-08-02-midday",
+  "date": "2026-08-02",
+  "dateDisplay": "Sunday, 2 August 2026",
+  "edition": "Midday Pulse",
+  "editionKey": "midday"
+ },
+ {
+  "headline": "FORECAST CHECK: OUR LEAD IS NOW FIVE DAYS",
+  "body": "On 29 July we logged P038 — that a Kenyan national outlet would report the advisory re-issue by tomorrow. As of today none has. The Citizen Digital piece now ranking for this story was published 18 March 2025 and merely re-touched at 12:54 GMT today, which is why search presents it as current.",
+  "sowhat": "🎯 So what: If your comms or risk brief is assembled from search results, assume it can be seventeen months out of date. Check the dateline, not the ranking.",
+  "segments": [
+   "city",
+   "bush",
+   "beach"
+  ],
+  "countries": "Kenya",
+  "confidence": "Confirmed",
+  "source": "pulse-2026-08-02-midday",
+  "date": "2026-08-02",
+  "dateDisplay": "Sunday, 2 August 2026",
+  "edition": "Midday Pulse",
+  "editionKey": "midday"
+ },
+ {
+  "headline": "STILL TRUE AT MIDDAY",
+  "body": "The advisory board has not moved: the US has Kenya 2, Uganda 4, Tanzania 2, Zanzibar 2, Rwanda 3; the UK has Kenya 2, Uganda 3, Tanzania 1, Zanzibar 1, Rwanda 2. Nairobi diesel stays at KSh 222.86/litre until 14 August under EPRA's current schedule.",
+  "sowhat": "🎯 So what: No advisory or fuel reason to discount this week. Hold rate into the 15 August review.",
+  "segments": [
+   "city",
+   "bush",
+   "beach"
+  ],
+  "countries": "Kenya, Uganda, Tanzania, Zanzibar, Rwanda",
+  "confidence": "Confirmed",
+  "source": "pulse-2026-08-02-midday",
+  "date": "2026-08-02",
+  "dateDisplay": "Sunday, 2 August 2026",
+  "edition": "Midday Pulse",
+  "editionKey": "midday"
  },
  {
   "headline": "UGANDA'S UTILITY BILL JUMPS — WATER UP 17.5% IN A MONTH",
@@ -1339,4 +1397,4 @@ window.INSIGHTS = [
   "editionKey": "evening"
  }
 ];
-window.BUILT_AT = "2026-08-02 09:20";
+window.BUILT_AT = "2026-08-02 14:00";
