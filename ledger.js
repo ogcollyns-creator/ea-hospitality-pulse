@@ -1,8 +1,8 @@
 window.LEDGER = {
- "updated": "2026-08-02 14:45",
+ "updated": "2026-08-02 16:09",
  "stats": {
-  "total": 46,
-  "open": 44,
+  "total": 49,
+  "open": 47,
   "resolved": 2,
   "correct": 1,
   "partial": 1,
@@ -97,6 +97,22 @@ window.LEDGER = {
    "claim": "The US CDC Section 362 entry suspension covering DRC, Uganda and South Sudan will be EXTENDED beyond 12 August 2026 rather than lifted — DRC's uncontrolled transmission (contact tracing 78.3%) keeps the regional ban in place at its next renewal",
    "resolution_criteria": "The US CDC port-health order/Federal Register checked on or around 13 Aug 2026 shows the suspension renewed with an end date after 12 Aug 2026. If the order lapses or all three countries are dropped on or before 12 Aug the call is incorrect",
    "resolve_by": "2026-08-13",
+   "market": "Regional",
+   "segment": "City/Bush",
+   "confidence": "Reported",
+   "status": "open",
+   "resolved_date": "",
+   "evidence": "",
+   "source_url": "https://www.cdc.gov/port-health/legal-authorities/evdorder.html",
+   "overdue": false
+  },
+  {
+   "id": "P047",
+   "made_date": "2026-08-02",
+   "edition": "Sunday Foresight",
+   "claim": "The US CDC Section 362 Ebola entry suspension covering DRC/Uganda/South Sudan will be renewed on or around 12 August 2026 with DRC still listed — the 3,605-case 44% CFR outbreak leaves no basis to lift",
+   "resolution_criteria": "CDC port-health order/Federal Register checked ~14 Aug 2026 shows the suspension renewed past 12 Aug with DRC named. If it lapses or DRC is dropped the call is incorrect",
+   "resolve_by": "2026-08-14",
    "market": "Regional",
    "segment": "City/Bush",
    "confidence": "Reported",
@@ -328,6 +344,22 @@ window.LEDGER = {
    "resolved_date": "",
    "evidence": "",
    "source_url": "https://www.standardmedia.co.ke/business/shipping-logistics/article/2001553863/kma-explains-delay-in-salvaging-grounded-ship-off-nyali-beach",
+   "overdue": false
+  },
+  {
+   "id": "P048",
+   "made_date": "2026-08-02",
+   "edition": "Sunday Foresight",
+   "claim": "The Kenya-vs-Tanzania cost gap will widen in the next prints — KNBS August CPI (early Sept) at or above 6.5% while Tanzania NBS July/August headline CPI stays at or below 4.0%",
+   "resolution_criteria": "KNBS Aug CPI >= 6.5% AND NBS Tanzania headline CPI <= 4.0% in the releases published by 20 Sept 2026. If either fails the call is incorrect",
+   "resolve_by": "2026-09-20",
+   "market": "Regional",
+   "segment": "All",
+   "confidence": "Early signal",
+   "status": "open",
+   "resolved_date": "",
+   "evidence": "",
+   "source_url": "https://www.knbs.or.ke/",
    "overdue": false
   },
   {
@@ -568,6 +600,22 @@ window.LEDGER = {
    "resolved_date": "",
    "evidence": "",
    "source_url": "https://www.standardmedia.co.ke/rift-valley/article/2001553819/shadow-of-impunity-how-years-of-alleged-atrocities-finally-led-to-batuks-departure-from-kenya",
+   "overdue": false
+  },
+  {
+   "id": "P049",
+   "made_date": "2026-08-02",
+   "edition": "Sunday Foresight",
+   "claim": "No East African national tourism authority (Kenya,Tanzania,Uganda,Rwanda) will announce a headline national-park or gorilla-permit fee CUT to close the price gap with South Africa before 31 December 2026",
+   "resolution_criteria": "No KWS,TANAPA,UWA,RDB or ministry notice cutting a headline park/permit fee published by 31 Dec 2026. A fee rise or freeze does not count; only a cut resolves it correct-if-none",
+   "resolve_by": "2026-12-31",
+   "market": "Regional",
+   "segment": "Bush",
+   "confidence": "Reported",
+   "status": "open",
+   "resolved_date": "",
+   "evidence": "",
+   "source_url": "https://rdb.rw/",
    "overdue": false
   },
   {
