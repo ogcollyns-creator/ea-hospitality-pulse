@@ -11,11 +11,20 @@ terms and disallow the relevant paths in robots.txt, and neither exposes a publi
 for reading reviews. Google Places is an official, licensed, paid API and is the
 defensible way to track reputation. Do not replace it with a scraper.
 
-COST: ratings + review count sit in the Enterprise SKU (~US$35/1,000 requests);
-adding review TEXT moves it to Enterprise+Atmosphere (~US$40/1,000). A 40-property
-basket pulled daily is ~14,600 calls/year — roughly US$510-585/year at list, and far
-less in practice because place IDs are cached permanently and only details are re-fetched.
-Set FETCH_REVIEW_TEXT=0 (default) to stay on the cheaper SKU and pull only the rating.
+COST — READ BEFORE RAISING THE CADENCE. On 1 March 2025 Google replaced the pooled
+US$200 monthly credit with PER-SKU free caps that do not pool: 10,000 calls/month for
+Essentials, 5,000 for Pro, 1,000 for Enterprise. Place Details including `rating` sits in
+the ENTERPRISE tier, so the free allowance is 1,000 calls/month.
+
+A 40-property basket pulled WEEKLY is ~173 calls/month — comfortably free.
+The same basket pulled DAILY is ~1,200 calls/month — over the cap, and billable.
+
+MIN_HOURS is therefore set to 150 (~6.25 days) so this script can be invoked daily and
+will still only pull each property once a week. That is not a compromise: star ratings
+are lifetime averages and barely move day to day. The signal worth having is review
+VELOCITY over weeks, which a weekly cadence captures perfectly.
+Adding review TEXT moves the call to Enterprise+Atmosphere (~US$40/1,000) AND consumes
+the same 1,000 free calls; leave FETCH_REVIEW_TEXT=0 unless you have a reason.
 
 SETUP: export GOOGLE_PLACES_API_KEY=...   (in CI: repository secret of the same name)
 Without a key the script exits cleanly and leaves reviews.js untouched, so the daily
@@ -31,7 +40,7 @@ PLACES_CACHE = os.path.join(RD, "places.json")       # property -> place_id (per
 HISTORY = os.path.join(RD, "ratings_history.csv")    # append-only observation ledger
 KEY = os.environ.get("GOOGLE_PLACES_API_KEY", "").strip()
 FETCH_TEXT = os.environ.get("FETCH_REVIEW_TEXT", "0") == "1"
-MIN_HOURS = 20          # don't re-fetch a property seen more recently than this
+MIN_HOURS = 150         # ~6.25 days: one pull per property per week. See COST note.
 DELAY = 0.15            # courtesy pause between calls
 UA = "EAHospitalityPulse/1.0 (+https://eahospitalitypulse.com; ogcollyns@gmail.com)"
 
