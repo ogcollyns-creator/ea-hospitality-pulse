@@ -1,0 +1,77 @@
+name: Rate & reputation data pull
+
+# The two API-backed pullers run HERE rather than in the Cowork sweep, because the
+# Cowork sandbox proxy blocks serpapi.com and places.googleapis.com, and because CI is
+# where the API keys can live as repository secrets.
+# The daily Cowork task keeps the part that needs judgement: verifying direct rates.
+#
+# Both scripts exit cleanly when their key is absent, so this workflow is safe to add
+# before the secrets exist — it simply does nothing.
+#   SERPAPI_KEY            -> OTA rates via Google Hotels (Booking/Expedia prices)
+#   GOOGLE_PLACES_API_KEY  -> public star ratings and review counts
+
+on:
+  schedule:
+    - cron: '0 5 * * *'      # 08:00 EAT — lands before the 10:06 EAT Cowork sweep
+  workflow_dispatch:
+    inputs:
+      dry_run:
+        description: 'Inspect the SerpApi response shape only - spends 1 call, writes nothing'
+        required: false
+        type: boolean
+        default: false
+      max_ota:
+        description: 'Max OTA properties to pull this run (keep <= 15 to protect the free tier)'
+        required: false
+        type: string
+        default: '10'
+
+concurrency:
+  group: rate-data
+  cancel-in-progress: false
+
+permissions:
+  contents: write
+
+jobs:
+  pull:
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          token: ${{ secrets.PUSH_TOKEN }}
+          persist-credentials: true
+
+      - name: OTA rates (dry run - response shape only)
+        if: ${{ inputs.dry_run }}
+        env:
+          SERPAPI_KEY: ${{ secrets.SERPAPI_KEY }}
+        run: python3 fetch_ota_rates.py --dry-run
+
+      - name: OTA rates via Google Hotels
+        if: ${{ !inputs.dry_run }}
+        env:
+          SERPAPI_KEY: ${{ secrets.SERPAPI_KEY }}
+        run: python3 fetch_ota_rates.py --max "${{ inputs.max_ota || '10' }}"
+
+      - name: Public ratings via Google Places
+        if: ${{ !inputs.dry_run }}
+        env:
+          GOOGLE_PLACES_API_KEY: ${{ secrets.GOOGLE_PLACES_API_KEY }}
+        run: python3 fetch_ratings.py
+
+      - name: Rebuild index
+        if: ${{ !inputs.dry_run }}
+        run: python3 build_rate_index.py
+
+      # index.html loads rates.js directly with a cache-buster, so committing the data
+      # files is enough - no site rebuild, and no churn across 24 edition pages.
+      - name: Commit data
+        if: ${{ !inputs.dry_run }}
+        run: |
+          git config user.email 'ogcollyns@gmail.com'
+          git config user.name 'EA Hospitality Pulse'
+          git add -A rates.js reviews.js rates/observations.csv rates/places.json rates/ratings_history.csv
+          git diff --staged --quiet || git commit -m "Rate & reputation pull $(date -u +'%Y-%m-%d %H:%M UTC')"
+          git push origin HEAD:main
