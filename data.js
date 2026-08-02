@@ -1,5 +1,14 @@
 window.EDITIONS = [
  {
+  "id": "pulse-2026-08-02-morning",
+  "date": "2026-08-02",
+  "dateDisplay": "Sunday, 2 August 2026",
+  "edition": "Morning Brief",
+  "editionKey": "morning",
+  "summary": "Kenya just posted the region's steepest cost print — and the gap with its neighbours is now a rate-strategy problem.",
+  "bodyHtml": "<p><span class=\"meta-line\">🏨 EA HOSPITALITY PULSE — Morning Brief</span><br><span class=\"meta-line\">📅 Sunday, 2 August 2026 | 🇰🇪 🇺🇬 🇹🇿 🇷🇼</span></p>\n<p>Kenya just posted the region&#x27;s steepest cost print — and the gap with its neighbours is now a rate-strategy problem.<br>━━━━━━━━━<br><span class=\"item-head\">1️⃣ KENYA INFLATION HITS A TWO-YEAR HIGH — 6.5%</span><br>Kenya&#x27;s annual inflation rose to 6.5% in July, its highest in nearly two years, per KNBS data released 31 July (Bloomberg confirmed the same day). Transport is up 15.6% year-on-year and food 9.0% — the two lines that hit safari transfers and F&amp;B hardest. The shilling was broadly flat, so this is a domestic cost story, not an FX one.<br><span class=\"sowhat\">🎯 So what: Re-price transfer contracts and lock food-supply terms now; the cost line is moving ahead of your rate card.</span><br><span class=\"tagline\">🏷 City, Bush | Kenya | Confirmed</span><br>━━━━━━━━━<br><span class=\"item-head\">2️⃣ THE REGIONAL COST GAP IS WIDENING</span><br>Set Kenya&#x27;s 6.5% against Uganda at 4.0% (UBOS, July) and Tanzania at 4.0% (NBS, June): Kenya is now the clear cost outlier by two and a half points. For anyone selling multi-country itineraries, the margin maths increasingly favours Ugandan and Tanzanian beds.<br><span class=\"sowhat\">🎯 So what: Protect the Kenya leg on margin, not volume; where the itinerary allows, shift discretionary nights to the cheaper cost base.</span><br><span class=\"tagline\">🏷 City, Bush | Kenya, Uganda, Tanzania | Confirmed</span><br>━━━━━━━━━<br><span class=\"item-head\">3️⃣ THE ELECTRICITY BILL NOBODY REPORTS</span><br>The squeeze runs deeper than the headline. EPRA&#x27;s July pass-throughs took the fuel energy cost charge to KSh 3.20/kWh, with forex and inflation adjustments pushing total monthly add-ons above KSh 5/kWh — a bigger swing for most properties than the fuel-price review, and rarely reported.<br><span class=\"sowhat\">🎯 So what: Read the per-kWh add-ons on your July bill before setting August budgets; a full property runs six figures of exposure here.</span><br><span class=\"tagline\">🏷 City, Bush, Beach | Kenya | Confirmed</span><br>━━━━━━━━━<br><span class=\"meta-line\">📡 RADAR</span><br>• EPRA monthly fuel-price review due ~14 Aug — transfer and generator cost input (🇰🇪).<br>• US entry-ban renewal decision on/around 12 Aug — covers DRC/Uganda travellers; assume roll-over.<br>• Magical Kenya Travel Expo, Nairobi, 6–8 Oct — record 10,000+ delegates; close out standard rate early.</p>\n<p><span class=\"meta-line\">💬 Holding rate or chasing volume into Q3? Reply and tell us.</span></p>\n<p>🔗 This edition on the web: https://eahospitalitypulse.com/editions/pulse-2026-08-02-morning.html<br>— EA Hospitality Pulse | Daily intelligence for city, bush &amp; beach properties</p>"
+ },
+ {
   "id": "pulse-2026-08-01-evening",
   "date": "2026-08-01",
   "dateDisplay": "Saturday, 1 August 2026",
@@ -199,6 +208,55 @@ window.EDITIONS = [
  }
 ];
 window.INSIGHTS = [
+ {
+  "headline": "KENYA INFLATION HITS A TWO-YEAR HIGH — 6.5%",
+  "body": "Kenya's annual inflation rose to 6.5% in July, its highest in nearly two years, per KNBS data released 31 July (Bloomberg confirmed the same day). Transport is up 15.6% year-on-year and food 9.0% — the two lines that hit safari transfers and F&B hardest. The shilling was broadly flat, so this is a domestic cost story, not an FX one.",
+  "sowhat": "🎯 So what: Re-price transfer contracts and lock food-supply terms now; the cost line is moving ahead of your rate card.",
+  "segments": [
+   "city",
+   "bush"
+  ],
+  "countries": "Kenya",
+  "confidence": "Confirmed",
+  "source": "pulse-2026-08-02-morning",
+  "date": "2026-08-02",
+  "dateDisplay": "Sunday, 2 August 2026",
+  "edition": "Morning Brief",
+  "editionKey": "morning"
+ },
+ {
+  "headline": "THE REGIONAL COST GAP IS WIDENING",
+  "body": "Set Kenya's 6.5% against Uganda at 4.0% (UBOS, July) and Tanzania at 4.0% (NBS, June): Kenya is now the clear cost outlier by two and a half points. For anyone selling multi-country itineraries, the margin maths increasingly favours Ugandan and Tanzanian beds.",
+  "sowhat": "🎯 So what: Protect the Kenya leg on margin, not volume; where the itinerary allows, shift discretionary nights to the cheaper cost base.",
+  "segments": [
+   "city",
+   "bush"
+  ],
+  "countries": "Kenya, Uganda, Tanzania",
+  "confidence": "Confirmed",
+  "source": "pulse-2026-08-02-morning",
+  "date": "2026-08-02",
+  "dateDisplay": "Sunday, 2 August 2026",
+  "edition": "Morning Brief",
+  "editionKey": "morning"
+ },
+ {
+  "headline": "THE ELECTRICITY BILL NOBODY REPORTS",
+  "body": "The squeeze runs deeper than the headline. EPRA's July pass-throughs took the fuel energy cost charge to KSh 3.20/kWh, with forex and inflation adjustments pushing total monthly add-ons above KSh 5/kWh — a bigger swing for most properties than the fuel-price review, and rarely reported.",
+  "sowhat": "🎯 So what: Read the per-kWh add-ons on your July bill before setting August budgets; a full property runs six figures of exposure here.",
+  "segments": [
+   "city",
+   "bush",
+   "beach"
+  ],
+  "countries": "Kenya",
+  "confidence": "Confirmed",
+  "source": "pulse-2026-08-02-morning",
+  "date": "2026-08-02",
+  "dateDisplay": "Sunday, 2 August 2026",
+  "edition": "Morning Brief",
+  "editionKey": "morning"
+ },
  {
   "headline": "UGANDA'S UTILITY BILL JUMPS — WATER UP 17.5% IN A MONTH",
   "body": "UBOS released July CPI on Friday (31 July): water charges rose 17.5% month-on-month, electricity 2.2%, petrol 1.9%, diesel 1.3% and cooking gas 1.5%. Housing/water/electricity/gas was the fastest-rising category at +2.0%, lifting annual inflation to 4.0% — a one-year high. Food eased, so the pressure sits exactly where a hotel spends.",
@@ -1281,4 +1339,4 @@ window.INSIGHTS = [
   "editionKey": "evening"
  }
 ];
-window.BUILT_AT = "2026-08-01 21:56";
+window.BUILT_AT = "2026-08-02 08:19";

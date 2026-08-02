@@ -1,8 +1,8 @@
 window.LEDGER = {
- "updated": "2026-08-01 21:56",
+ "updated": "2026-08-02 08:19",
  "stats": {
-  "total": 44,
-  "open": 42,
+  "total": 45,
+  "open": 43,
   "resolved": 2,
   "correct": 1,
   "partial": 1,
@@ -248,6 +248,22 @@ window.LEDGER = {
    "resolved_date": "",
    "evidence": "",
    "source_url": "https://www.ubos.org/",
+   "overdue": false
+  },
+  {
+   "id": "P045",
+   "made_date": "2026-08-02",
+   "edition": "Morning Brief",
+   "claim": "Kenya annual headline inflation (KNBS CPI) will print at or above 6.5% in the August 2026 release (early Sept) — i.e. July's two-year high is sustained, not a one-month fuel and food spike",
+   "resolution_criteria": "KNBS August 2026 CPI release (published early Sept) shows annual headline inflation >= 6.5%. If below 6.5% the call is incorrect",
+   "resolve_by": "2026-09-10",
+   "market": "KE",
+   "segment": "City/Bush",
+   "confidence": "Confirmed",
+   "status": "open",
+   "resolved_date": "",
+   "evidence": "",
+   "source_url": "https://www.knbs.or.ke/",
    "overdue": false
   },
   {
