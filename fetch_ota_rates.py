@@ -36,7 +36,16 @@ RD = os.path.join(HERE, "rates")
 OBS = os.path.join(RD, "observations.csv")
 KEY = os.environ.get("SERPAPI_KEY", "").strip()
 DELAY = 1.0
-NAME_MATCH_MIN = 0.55
+NAME_MATCH_MIN = 0.90   # required when a name has no distinctive token at all
+MIN_SIM_WITH_TOKEN = 0.45  # required when the distinctive token DOES match
+# Words that carry no identifying power — every third property is a "Beach Resort".
+GENERIC = {"hotel","hotels","resort","resorts","beach","spa","lodge","lodges","camp","camps",
+           "tented","the","and","by","safari","house","inn","suites","suite","club","palace",
+           "villa","bay","park","place","grand","royal"}
+# District and country names match across completely different properties.
+GEO = {"nairobi","mombasa","diani","zanzibar","kigali","kampala","entebbe","westlands","gigiri",
+       "nungwi","kiwengwa","mara","masai","maasai","serengeti","kenya","tanzania","uganda",
+       "rwanda","africa","east","upper","hill","munyonyo"}
 HEADER = ["observed_date", "market", "property", "rate_usd", "stay_date",
           "los", "source", "note", "basis", "rate_type", "channel"]
 
@@ -63,14 +72,54 @@ def search(query, cin, cout):
         return json.loads(r.read().decode())
 
 
+def tokens(name):
+    return [t for t in "".join(c if c.isalnum() else " " for c in name.lower()).split() if t]
+
+
+def distinctive(name):
+    """The tokens that actually identify a property, minus generic and geographic noise."""
+    return {t for t in tokens(name) if t not in GENERIC and t not in GEO and len(t) >= 4}
+
+
+def sim(a, b):
+    """Similarity that survives word-order differences.
+
+    'Kigali Marriott' vs 'Marriott Hotel Kigali' scores 0.44 on raw sequence matching —
+    below any sane floor — because SequenceMatcher is order-sensitive. Comparing the
+    token-sorted forms as well lifts it to 0.83, which is what a human would say.
+    """
+    a, b = a.lower(), b.lower()
+    raw = difflib.SequenceMatcher(None, a, b).ratio()
+    srt = difflib.SequenceMatcher(None, " ".join(sorted(tokens(a))),
+                                  " ".join(sorted(tokens(b)))).ratio()
+    return max(raw, srt)
+
+
 def pick(props, want):
-    best, score = None, 0.0
+    """Match a basket property to a Google Hotels result.
+
+    Fuzzy similarity ALONE is not safe here. In the first live run 'Sankara Westlands'
+    matched 'Hyatt Place Nairobi Westlands' at 0.61 and 'Diani Reef Beach Resort'
+    matched 'Ziwa Beach Resort' at 0.75 — two different hotels, because the shared
+    tokens were a district name and the words 'Beach Resort'. So we additionally
+    require a DISTINCTIVE token (the actual hotel name) to survive into the match.
+    A missed match costs one empty cell; a wrong match silently poisons the index.
+    """
+    want_d = distinctive(want)
+    best, score, rejected = None, 0.0, []
+    floor = MIN_SIM_WITH_TOKEN if want_d else NAME_MATCH_MIN
     for p in props:
         nm = p.get("name") or ""
-        sc = difflib.SequenceMatcher(None, want.lower(), nm.lower()).ratio()
+        sc = sim(want, nm)
+        if want_d and not (want_d & distinctive(nm)):
+            if sc >= 0.55:
+                rejected.append((nm, sc, "no distinctive token in common"))
+            continue
+        if sc < floor:
+            continue
         if sc > score:
             best, score = p, sc
-    return (best, score) if score >= NAME_MATCH_MIN else (None, score)
+    return (best, score, rejected) if best is not None else (None, score, rejected)
 
 
 def main():
@@ -131,9 +180,12 @@ def main():
                 print("no properties returned for this query")
             return 0
 
-        match, score = pick(props, prop)
+        match, score, rejected = pick(props, prop)
         if not match:
-            print(f"  - {prop}: no confident name match (best {score:.2f}) — skipped")
+            why = f"best {score:.2f}"
+            if rejected:
+                why += "; rejected " + "; ".join(f"'{n}' ({s:.2f}, {r})" for n, s, r in rejected[:2])
+            print(f"  - {prop}: no confident match — skipped ({why})")
             continue
         rpn = (match.get("rate_per_night") or {})
         rate = rpn.get("extracted_lowest")
