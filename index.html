@@ -350,7 +350,7 @@
   .pl-brand{font-family:'Helvetica Neue',Arial,sans-serif;font-size:12px;font-weight:600;color:var(--muted);background:var(--sand-2);padding:2px 8px;border-radius:20px;margin-left:4px;white-space:nowrap}
   .pl-detail{font-size:14px;color:var(--muted);margin:6px 0 8px;line-height:1.55}
 </style>
-<!--BUILD_STAMP:20260802-1101--></head>
+<!--BUILD_STAMP:20260802-1425--></head>
 <body>
 <header class="site">
   <div class="wrap topbar">
@@ -885,10 +885,13 @@
     if(up) up.textContent='Updated '+R.updated;
     const body=document.getElementById('ri-body');
     const method=document.getElementById('ri-method');
-    if(method) method.innerHTML='<b>Method:</b> weekly median of published lead-in rates (lowest available double, '
+    if(method) method.innerHTML='<b>Method:</b> chain-linked matched-sample index of published lead-in rates (lowest available double, '
       +R.convention.occupancy+', '+R.convention.los+'-night stay booked ~'+R.convention.lead_days+' days ahead, '+R.convention.currency+'). '
-      +'Median is used so a single luxury outlier cannot swing a market. The first week with '+R.minN+'+ observations sets that market\'s baseline = 100. '
-      +'Coverage is shown per market so you can judge reliability. Basket of '+R.basketSize+' properties, fixed by design.';
+      +'Each property is collapsed to one rate per week and compared only with <i>itself</i>; the market then moves by the median of those property-level changes. '
+      +'That keeps the index valid even though the basket mixes meal bases (room-only through fully inclusive), and means a property entering or leaving the sample cannot move the index on its own. '
+      +'The first week with '+R.minN+'+ properties sets that market\'s baseline = 100. '
+      +'<b>Raw medians shown on each tile are context only and are not comparable between markets</b> — check the basis flags. '
+      +'Basket of '+R.basketSize+' properties, fixed by design.';
 
     // benchmarks table (always has content)
     const bm=document.getElementById('bm-body');
@@ -918,8 +921,10 @@
       tiles+='<div class="ri-tile"><div class="m">'+m.label+'</div>'+
         '<div class="v">'+(m.latest.index!=null?m.latest.index:'—')+'</div>'+
         '<div class="d '+cls+'">'+(w==null?'baseline week':arrow+' '+Math.abs(w)+'% WoW')+'</div>'+
-        '<div class="cov">median US$'+m.latest.median+' · '+m.latest.n+'/'+m.basketSize+' observed ('+m.latest.coverage+'%)'+
-        (m.latest.confident?'':' · low confidence')+'</div></div>';
+        '<div class="cov">median US$'+m.latest.median+' · '+m.latest.n+'/'+m.basketSize+' properties ('+m.latest.coverage+'%)'+
+        (m.latest.confident?'':' · low confidence')+
+        (m.residentOnly?' · resident rates':'')+
+        (m.levelComparable?'':' · mixed basis')+'</div></div>';
     });
     body.innerHTML=tiles+'</div>';
 

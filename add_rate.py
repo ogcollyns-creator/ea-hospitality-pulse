@@ -1,35 +1,99 @@
 #!/usr/bin/env python3
 """
-Fast weekly rate entry.
-  python3 add_rate.py nairobi "Sarova Stanley" 145
-  python3 add_rate.py zanzibar "Zuri Zanzibar" 480 --stay 2026-09-15 --source booking
+Fast rate entry for the EA Pulse Rate Index.
+
+  python3 add_rate.py nairobi "Sarova Stanley" 206 --basis BB --type international \
+      --source "sarovahotels.com published rate, 2 Aug 2026"
+
+BASIS IS MANDATORY. The basket mixes room-only, B&B, half board, full board and
+fully-inclusive rates, and a rate without its basis is not usable: the index needs to
+know that a property has not silently changed what the price includes.
+
+  --basis   RO  room only
+            BB  bed & breakfast
+            HB  half board
+            FB  full board
+            FB+ full board plus (meals + some activities)
+            AI  all inclusive
+            FI  fully inclusive (meals, drinks and activities — typical safari basis)
+  --type    international (default) | resident | trade
+            'resident' = East African resident rate. These sit materially below rack
+            and are tracked separately; never mix them into an international level.
+
 Appends to rates/observations.csv using today's date, then rebuild with build_rate_index.py.
 """
 import sys, os, csv, json, datetime
-HERE=os.path.dirname(os.path.abspath(__file__)); RD=os.path.join(HERE,"rates")
+
+HERE = os.path.dirname(os.path.abspath(__file__))
+RD = os.path.join(HERE, "rates")
+BASES = {"RO", "BB", "HB", "FB", "FB+", "AI", "FI"}
+TYPES = {"international", "resident", "trade"}
+HEADER = ["observed_date", "market", "property", "rate_usd", "stay_date",
+          "los", "source", "note", "basis", "rate_type"]
+
+
+def flag(a, name, default=""):
+    for i, t in enumerate(a):
+        if t == name and i + 1 < len(a):
+            return a[i + 1]
+    return default
+
 
 def main():
-    a=sys.argv[1:]
-    if len(a)<3:
-        print(__doc__); sys.exit(1)
+    a = sys.argv[1:]
+    if len(a) < 3:
+        print(__doc__)
+        sys.exit(1)
     market, prop, rate = a[0].lower(), a[1], a[2]
-    stay=source=note=""
-    for i,t in enumerate(a):
-        if t=="--stay" and i+1<len(a): stay=a[i+1]
-        if t=="--source" and i+1<len(a): source=a[i+1]
-        if t=="--note" and i+1<len(a): note=a[i+1]
-    basket=json.load(open(os.path.join(RD,"basket.json"),encoding="utf-8"))
-    if market not in basket["markets"]:
-        print("Unknown market. Options:", ", ".join(basket["markets"])); sys.exit(1)
-    known=basket["markets"][market]["properties"]
-    if prop not in known:
-        print(f"Warning: '{prop}' not in the {market} basket. Known:"); [print("  -",p) for p in known]
-    conv=basket["convention"]
-    if not stay:
-        stay=(datetime.date.today()+datetime.timedelta(days=conv["lead_days"])).isoformat()
-    with open(os.path.join(RD,"observations.csv"),"a",newline="",encoding="utf-8") as f:
-        csv.writer(f).writerow([datetime.date.today().isoformat(),market,prop,rate,stay,conv["los"],source or "manual",note])
-    print(f"Recorded: {market} | {prop} | US${rate} | stay {stay}")
 
-if __name__=="__main__":
+    try:
+        float(rate)
+    except ValueError:
+        print(f"Rate must be a number, got '{rate}'")
+        sys.exit(1)
+
+    basis = flag(a, "--basis").upper()
+    rtype = (flag(a, "--type") or "international").lower()
+    stay = flag(a, "--stay")
+    source = flag(a, "--source")
+    note = flag(a, "--note")
+
+    if basis not in BASES:
+        print(f"--basis is required and must be one of: {', '.join(sorted(BASES))}")
+        print("A rate without its meal basis cannot go into the index. See --help text above.")
+        sys.exit(1)
+    if rtype not in TYPES:
+        print(f"--type must be one of: {', '.join(sorted(TYPES))}")
+        sys.exit(1)
+    if not source:
+        print("--source is required: name where you saw the rate, with a date.")
+        sys.exit(1)
+
+    basket = json.load(open(os.path.join(RD, "basket.json"), encoding="utf-8"))
+    if market not in basket["markets"]:
+        print("Unknown market. Options:", ", ".join(basket["markets"]))
+        sys.exit(1)
+    known = basket["markets"][market]["properties"]
+    if prop not in known:
+        print(f"Warning: '{prop}' is not in the {market} basket. Known properties:")
+        for p in known:
+            print("  -", p)
+        print("The basket is fixed by design — add off-basket names only deliberately.")
+
+    conv = basket["convention"]
+    if not stay:
+        stay = (datetime.date.today() + datetime.timedelta(days=conv["lead_days"])).isoformat()
+
+    path = os.path.join(RD, "observations.csv")
+    exists = os.path.exists(path)
+    with open(path, "a", newline="", encoding="utf-8") as f:
+        w = csv.writer(f)
+        if not exists:
+            w.writerow(HEADER)
+        w.writerow([datetime.date.today().isoformat(), market, prop, rate, stay,
+                    conv["los"], source, note, basis, rtype])
+    print(f"Recorded: {market} | {prop} | US${rate} | {basis} | {rtype} | stay {stay}")
+
+
+if __name__ == "__main__":
     main()

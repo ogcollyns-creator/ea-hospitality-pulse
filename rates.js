@@ -1,5 +1,5 @@
 window.RATE_INDEX = {
- "updated": "2026-07-29 10:13",
+ "updated": "2026-08-02 14:25",
  "convention": {
   "los": 2,
   "lead_days": 30,
@@ -7,7 +7,11 @@ window.RATE_INDEX = {
   "currency": "USD"
  },
  "minN": 3,
+ "lookbackWeeks": 6,
+ "method": "chain-linked matched-sample",
+ "methodNote": "Each property is compared only with itself, so the index measures rate MOVEMENT validly even though the basket mixes meal bases and rate types. Raw medians are context only and are not comparable across markets — check levelComparable before quoting a level.",
  "totalObservations": 10,
+ "distinctProperties": 10,
  "basketSize": 40,
  "markets": {
   "nairobi": {
@@ -21,8 +25,18 @@ window.RATE_INDEX = {
      "weekStart": "2026-07-27",
      "median": 206.0,
      "n": 1,
+     "observations": 1,
      "coverage": 12,
      "confident": false,
+     "basisMix": {
+      "BB": 1
+     },
+     "rateTypeMix": {
+      "international": 1
+     },
+     "levelComparable": true,
+     "matched": 0,
+     "link": null,
      "index": null
     }
    ],
@@ -32,11 +46,29 @@ window.RATE_INDEX = {
     "weekStart": "2026-07-27",
     "median": 206.0,
     "n": 1,
+    "observations": 1,
     "coverage": 12,
     "confident": false,
+    "basisMix": {
+     "BB": 1
+    },
+    "rateTypeMix": {
+     "international": 1
+    },
+    "levelComparable": true,
+    "matched": 0,
+    "link": null,
     "index": null
    },
-   "wow": null
+   "wow": null,
+   "basisMix": {
+    "BB": 1
+   },
+   "rateTypeMix": {
+    "international": 1
+   },
+   "levelComparable": true,
+   "residentOnly": false
   },
   "coast": {
    "label": "Mombasa & Diani",
@@ -49,8 +81,19 @@ window.RATE_INDEX = {
      "weekStart": "2026-07-27",
      "median": 278.0,
      "n": 3,
+     "observations": 3,
      "coverage": 43,
      "confident": true,
+     "basisMix": {
+      "HB": 2,
+      "AI": 1
+     },
+     "rateTypeMix": {
+      "resident": 3
+     },
+     "levelComparable": false,
+     "matched": 0,
+     "link": null,
      "index": 100.0
     }
    ],
@@ -60,11 +103,31 @@ window.RATE_INDEX = {
     "weekStart": "2026-07-27",
     "median": 278.0,
     "n": 3,
+    "observations": 3,
     "coverage": 43,
     "confident": true,
+    "basisMix": {
+     "HB": 2,
+     "AI": 1
+    },
+    "rateTypeMix": {
+     "resident": 3
+    },
+    "levelComparable": false,
+    "matched": 0,
+    "link": null,
     "index": 100.0
    },
-   "wow": null
+   "wow": null,
+   "basisMix": {
+    "HB": 2,
+    "AI": 1
+   },
+   "rateTypeMix": {
+    "resident": 3
+   },
+   "levelComparable": false,
+   "residentOnly": true
   },
   "zanzibar": {
    "label": "Zanzibar",
@@ -77,8 +140,18 @@ window.RATE_INDEX = {
      "weekStart": "2026-07-27",
      "median": 1160.0,
      "n": 1,
+     "observations": 1,
      "coverage": 12,
      "confident": false,
+     "basisMix": {
+      "HB": 1
+     },
+     "rateTypeMix": {
+      "international": 1
+     },
+     "levelComparable": true,
+     "matched": 0,
+     "link": null,
      "index": null
     }
    ],
@@ -88,11 +161,29 @@ window.RATE_INDEX = {
     "weekStart": "2026-07-27",
     "median": 1160.0,
     "n": 1,
+    "observations": 1,
     "coverage": 12,
     "confident": false,
+    "basisMix": {
+     "HB": 1
+    },
+    "rateTypeMix": {
+     "international": 1
+    },
+    "levelComparable": true,
+    "matched": 0,
+    "link": null,
     "index": null
    },
-   "wow": null
+   "wow": null,
+   "basisMix": {
+    "HB": 1
+   },
+   "rateTypeMix": {
+    "international": 1
+   },
+   "levelComparable": true,
+   "residentOnly": false
   },
   "kigali": {
    "label": "Kigali",
@@ -102,7 +193,11 @@ window.RATE_INDEX = {
    "series": [],
    "baseline": null,
    "latest": null,
-   "wow": null
+   "wow": null,
+   "basisMix": {},
+   "rateTypeMix": {},
+   "levelComparable": false,
+   "residentOnly": false
   },
   "kampala": {
    "label": "Kampala & Entebbe",
@@ -112,7 +207,11 @@ window.RATE_INDEX = {
    "series": [],
    "baseline": null,
    "latest": null,
-   "wow": null
+   "wow": null,
+   "basisMix": {},
+   "rateTypeMix": {},
+   "levelComparable": false,
+   "residentOnly": false
   },
   "safari": {
    "label": "Mara & Serengeti",
@@ -125,8 +224,20 @@ window.RATE_INDEX = {
      "weekStart": "2026-07-27",
      "median": 1996.0,
      "n": 5,
+     "observations": 5,
      "coverage": 71,
      "confident": true,
+     "basisMix": {
+      "FB+": 1,
+      "FI": 2,
+      "FB": 2
+     },
+     "rateTypeMix": {
+      "international": 5
+     },
+     "levelComparable": false,
+     "matched": 0,
+     "link": null,
      "index": 100.0
     }
    ],
@@ -136,11 +247,33 @@ window.RATE_INDEX = {
     "weekStart": "2026-07-27",
     "median": 1996.0,
     "n": 5,
+    "observations": 5,
     "coverage": 71,
     "confident": true,
+    "basisMix": {
+     "FB+": 1,
+     "FI": 2,
+     "FB": 2
+    },
+    "rateTypeMix": {
+     "international": 5
+    },
+    "levelComparable": false,
+    "matched": 0,
+    "link": null,
     "index": 100.0
    },
-   "wow": null
+   "wow": null,
+   "basisMix": {
+    "FB+": 1,
+    "FI": 2,
+    "FB": 2
+   },
+   "rateTypeMix": {
+    "international": 5
+   },
+   "levelComparable": false,
+   "residentOnly": false
   }
  },
  "benchmarks": {
