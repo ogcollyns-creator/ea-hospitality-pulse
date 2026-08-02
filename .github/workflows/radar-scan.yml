@@ -35,6 +35,9 @@ jobs:
     timeout-minutes: 35
     steps:
       - uses: actions/checkout@v4
+        with:
+          token: ${{ secrets.PUSH_TOKEN }}
+          persist-credentials: true
 
       # The SQLite file is a cache; radar/out/items.jsonl in the repo is the
       # record. Caching the DB keeps etags and content hashes warm so most
@@ -79,4 +82,4 @@ jobs:
           git config user.name 'EA Hospitality Pulse'
           git add -A radar.js radar/out
           git diff --staged --quiet || git commit -m "Radar scan $(date -u +'%Y-%m-%d %H:%M UTC')"
-          git push origin HEAD:main || echo "nothing to push"
+          git push origin HEAD:main
