@@ -1,5 +1,5 @@
 window.RATE_INDEX = {
- "updated": "2026-08-02 14:45",
+ "updated": "2026-08-02 12:26",
  "convention": {
   "los": 2,
   "lead_days": 30,
@@ -11,8 +11,8 @@ window.RATE_INDEX = {
  "method": "chain-linked matched-sample",
  "methodNote": "Each property is compared only with itself, so the index measures rate MOVEMENT validly even though the basket mixes meal bases and rate types. Raw medians are context only and are not comparable across markets — check levelComparable before quoting a level.",
  "spreadNote": "Commission-leakage spread = median of (OTA rate / direct rate - 1) for the same property in the same week. Computed only where the direct rate is room-only or B&B, since an OTA lowest rate is not comparable with a fully-inclusive safari rate. Markets where no property qualifies report null.",
- "totalObservations": 12,
- "distinctProperties": 12,
+ "totalObservations": 16,
+ "distinctProperties": 15,
  "basketSize": 40,
  "markets": {
   "nairobi": {
@@ -70,7 +70,49 @@ window.RATE_INDEX = {
    },
    "levelComparable": true,
    "residentOnly": false,
-   "ota": null,
+   "ota": {
+    "series": [
+     {
+      "week": "2026-W31",
+      "weekStart": "2026-07-27",
+      "median": 619.5,
+      "n": 2,
+      "observations": 2,
+      "coverage": 25,
+      "confident": false,
+      "basisMix": {
+       "UNK": 2
+      },
+      "rateTypeMix": {
+       "international": 2
+      },
+      "levelComparable": true,
+      "matched": 0,
+      "link": null,
+      "index": null
+     }
+    ],
+    "latest": {
+     "week": "2026-W31",
+     "weekStart": "2026-07-27",
+     "median": 619.5,
+     "n": 2,
+     "observations": 2,
+     "coverage": 25,
+     "confident": false,
+     "basisMix": {
+      "UNK": 2
+     },
+     "rateTypeMix": {
+      "international": 2
+     },
+     "levelComparable": true,
+     "matched": 0,
+     "link": null,
+     "index": null
+    },
+    "wow": null
+   },
    "spread": null,
    "spreadLatest": null
   },
@@ -132,9 +174,65 @@ window.RATE_INDEX = {
    },
    "levelComparable": false,
    "residentOnly": true,
-   "ota": null,
-   "spread": null,
-   "spreadLatest": null
+   "ota": {
+    "series": [
+     {
+      "week": "2026-W31",
+      "weekStart": "2026-07-27",
+      "median": 142.0,
+      "n": 2,
+      "observations": 2,
+      "coverage": 29,
+      "confident": false,
+      "basisMix": {
+       "UNK": 2
+      },
+      "rateTypeMix": {
+       "international": 2
+      },
+      "levelComparable": true,
+      "matched": 0,
+      "link": null,
+      "index": null
+     }
+    ],
+    "latest": {
+     "week": "2026-W31",
+     "weekStart": "2026-07-27",
+     "median": 142.0,
+     "n": 2,
+     "observations": 2,
+     "coverage": 29,
+     "confident": false,
+     "basisMix": {
+      "UNK": 2
+     },
+     "rateTypeMix": {
+      "international": 2
+     },
+     "levelComparable": true,
+     "matched": 0,
+     "link": null,
+     "index": null
+    },
+    "wow": null
+   },
+   "spread": [
+    {
+     "week": "2026-W31",
+     "weekStart": "2026-07-27",
+     "spreadPct": null,
+     "n": 0,
+     "skippedNonComparableBasis": 1
+    }
+   ],
+   "spreadLatest": {
+    "week": "2026-W31",
+    "weekStart": "2026-07-27",
+    "spreadPct": null,
+    "n": 0,
+    "skippedNonComparableBasis": 1
+   }
   },
   "zanzibar": {
    "label": "Zanzibar",
