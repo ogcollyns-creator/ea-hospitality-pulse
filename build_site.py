@@ -231,7 +231,7 @@ def edition_page(e, siblings=None):
 <script type="application/ld+json">{json.dumps(ld)}</script>
 <style>{ARTICLE_CSS}</style></head>
 <body>
-<header class="s"><div class="wrap"><div class="logo">🏨</div><b>EA Hospitality Pulse</b></div></header>
+<header class="s"><div class="wrap"><a href="/"><div class="logo">🏨</div><b>EA Hospitality Pulse</b></a></div></header>
 <div class="wrap">
   <article class="art">
     <img class="hero" src="../og/{e['id']}.png" alt="{html.escape(e['edition']+' — '+e['dateDisplay'])}" loading="eager">
