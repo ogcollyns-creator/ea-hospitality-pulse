@@ -1,5 +1,14 @@
 window.EDITIONS = [
  {
+  "id": "pulse-2026-08-03-morning",
+  "date": "2026-08-03",
+  "dateDisplay": "Monday, 3 August 2026",
+  "edition": "Morning Brief",
+  "editionKey": "morning",
+  "summary": "No new story clears the gate this morning — so here's what's still true, what's moving underneath, and a forecast call of ours that lands today.",
+  "bodyHtml": "<p><span class=\"meta-line\">🏨 EA HOSPITALITY PULSE — Morning Brief</span><br><span class=\"meta-line\">📅 Monday, 3 August 2026 | 🇰🇪🇹🇿🇺🇬🇷🇼</span></p>\n<p>No new story clears the gate this morning — so here&#x27;s what&#x27;s still true, what&#x27;s moving underneath, and a forecast call of ours that lands today.<br>━━━━━━━━━<br><span class=\"item-head\">1️⃣ THE &quot;NEW&quot; KENYA ADVISORY IS A 502-DAY-OLD ARTICLE</span><br>On 25 July we predicted the Kenyan press would report the 29 July US advisory re-issue by today. It hasn&#x27;t. What&#x27;s recirculating instead is a Citizen Digital piece published 18 March 2025 — its metadata silently re-stamped &quot;modified 2 August 2026&quot; — resurfacing in search as if current. The text is the old advisory. We read the primary page ourselves this morning: travel.state.gov still dates Kenya &quot;March 17, 2025&quot; and still lists Eastleigh &amp; Kibera as Reconsider Travel (Level 3), NOT &quot;Do Not Travel&quot;. No outlet has independently covered the re-issue.<br><span class=\"sowhat\">🎯 So what: if a guest or agent forwards a scary &quot;new&quot; Kenya warning this week, check the byline date before you reassure or discount. Most of what&#x27;s circulating is 18 months old.</span><br><span class=\"tagline\">🏷 City | Kenya | Confirmed</span></p>\n<p><span class=\"item-head\">2️⃣ STILL TRUE: KENYA LEVEL 2, BOARD UNCHANGED</span><br>The US holds Kenya at Level 2 (Exercise Increased Caution); the UK is unchanged too. Even AI search summaries are now mis-reading the county Do-Not-Travel list onto Eastleigh/Kibera — the primary page does not. Last verified 3 Aug.<br><span class=\"sowhat\">🎯 So what: no basis to move rate or security messaging on Kenya this week. Hold.</span><br><span class=\"tagline\">🏷 All | Kenya | Confirmed</span></p>\n<p><span class=\"item-head\">3️⃣ COST PULSE: THE PUMP-PRICE PLANNING WINDOW</span><br>EPRA holds Nairobi diesel at KSh 222.86/L and super at KSh 214.03/L through 14 August — but only because the state is propping it (Petroleum Development Levy plus the 8% petroleum VAT rate extended to 14 Oct). KES steady at 129.30/USD; reserves at 6.0 months&#x27; cover.<br><span class=\"sowhat\">🎯 So what: lock safari-transfer and generator-fuel contracts now, before the 15 Aug EPRA review and the October VAT cliff. This is calm before a likely step-up.</span><br><span class=\"tagline\">🏷 Bush | Kenya | Confirmed</span><br>━━━━━━━━━<br><span class=\"meta-line\">📡 RADAR — WEEK AHEAD</span><br>• 12 Aug — US CDC §362 Ebola entry order expires; watch renewal and whether Uganda stays listed<br>• 15 Aug — EPRA fuel review (our calls P025/P028 resolve)<br>• 19–21 Aug — Hotel Expo Kenya, KICC Nairobi — a city-hotel compression window</p>\n<p><span class=\"meta-line\">💬 Seen a &quot;breaking&quot; Kenya advisory this week? Check the date — then tell us where you saw it.</span></p>\n<p>🔗 This edition on the web: https://eahospitalitypulse.com/editions/pulse-2026-08-03-morning.html<br>— EA Hospitality Pulse | Daily intelligence for city, bush &amp; beach properties</p>"
+ },
+ {
   "id": "pulse-2026-08-02-evening",
   "date": "2026-08-02",
   "dateDisplay": "Sunday, 2 August 2026",
@@ -235,6 +244,36 @@ window.EDITIONS = [
  }
 ];
 window.INSIGHTS = [
+ {
+  "headline": "THE \"NEW\" KENYA ADVISORY IS A 502-DAY-OLD ARTICLE",
+  "body": "On 25 July we predicted the Kenyan press would report the 29 July US advisory re-issue by today. It hasn't. What's recirculating instead is a Citizen Digital piece published 18 March 2025 — its metadata silently re-stamped \"modified 2 August 2026\" — resurfacing in search as if current. The text is the old advisory. We read the primary page ourselves this morning: travel.state.gov still dates Kenya \"March 17, 2025\" and still lists Eastleigh & Kibera as Reconsider Travel (Level 3), NOT \"Do Not Travel\". No outlet has independently covered the re-issue.",
+  "sowhat": "🎯 So what: if a guest or agent forwards a scary \"new\" Kenya warning this week, check the byline date before you reassure or discount. Most of what's circulating is 18 months old.",
+  "segments": [
+   "city"
+  ],
+  "countries": "Kenya",
+  "confidence": "Confirmed",
+  "source": "pulse-2026-08-03-morning",
+  "date": "2026-08-03",
+  "dateDisplay": "Monday, 3 August 2026",
+  "edition": "Morning Brief",
+  "editionKey": "morning"
+ },
+ {
+  "headline": "COST PULSE: THE PUMP-PRICE PLANNING WINDOW",
+  "body": "EPRA holds Nairobi diesel at KSh 222.86/L and super at KSh 214.03/L through 14 August — but only because the state is propping it (Petroleum Development Levy plus the 8% petroleum VAT rate extended to 14 Oct). KES steady at 129.30/USD; reserves at 6.0 months' cover.",
+  "sowhat": "🎯 So what: lock safari-transfer and generator-fuel contracts now, before the 15 Aug EPRA review and the October VAT cliff. This is calm before a likely step-up.",
+  "segments": [
+   "bush"
+  ],
+  "countries": "Kenya",
+  "confidence": "Confirmed",
+  "source": "pulse-2026-08-03-morning",
+  "date": "2026-08-03",
+  "dateDisplay": "Monday, 3 August 2026",
+  "edition": "Morning Brief",
+  "editionKey": "morning"
+ },
  {
   "headline": "KENYA INFLATION HITS A TWO-YEAR HIGH — 6.5%",
   "body": "Kenya's annual inflation rose to 6.5% in July, its highest in nearly two years, per KNBS data released 31 July (Bloomberg confirmed the same day). Transport is up 15.6% year-on-year and food 9.0% — the two lines that hit safari transfers and F&B hardest. The shilling was broadly flat, so this is a domestic cost story, not an FX one.",
@@ -1448,4 +1487,4 @@ window.INSIGHTS = [
   "editionKey": "evening"
  }
 ];
-window.BUILT_AT = "2026-08-02 16:16";
+window.BUILT_AT = "2026-08-03 08:35";

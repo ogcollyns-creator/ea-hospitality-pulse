@@ -1,31 +1,15 @@
 window.LEDGER = {
- "updated": "2026-08-02 16:16",
+ "updated": "2026-08-03 08:35",
  "stats": {
   "total": 50,
-  "open": 48,
-  "resolved": 2,
+  "open": 47,
+  "resolved": 3,
   "correct": 1,
   "partial": 1,
-  "incorrect": 0,
-  "accuracy": 75
+  "incorrect": 1,
+  "accuracy": 50
  },
  "open": [
-  {
-   "id": "P038",
-   "made_date": "2026-07-29",
-   "edition": "Midday Pulse (unpublished)",
-   "claim": "At least one Kenyan national news outlet will report the 29 July US Kenya advisory re-issue on or before 3 August 2026 — measuring our lead time over the domestic press on a tier-1 advisory action",
-   "resolution_criteria": "A search of Kenyan national outlets (Nation,Standard,Star,Citizen,Business Daily) on 3 Aug 2026 returning a story published 29 Jul-3 Aug 2026 about the updated US Kenya travel advisory. Radar first_seen for the feed item was 2026-07-29T11:04+03:00",
-   "resolve_by": "2026-08-03",
-   "market": "KE",
-   "segment": "City",
-   "confidence": "Early signal",
-   "status": "open",
-   "resolved_date": "",
-   "evidence": "",
-   "source_url": "https://travel.state.gov/_res/rss/TAsTWs.xml",
-   "overdue": false
-  },
   {
    "id": "P039",
    "made_date": "2026-07-30",
@@ -780,6 +764,22 @@ window.LEDGER = {
   }
  ],
  "resolved": [
+  {
+   "id": "P038",
+   "made_date": "2026-07-29",
+   "edition": "Midday Pulse (unpublished)",
+   "claim": "At least one Kenyan national news outlet will report the 29 July US Kenya advisory re-issue on or before 3 August 2026 — measuring our lead time over the domestic press on a tier-1 advisory action",
+   "resolution_criteria": "A search of Kenyan national outlets (Nation,Standard,Star,Citizen,Business Daily) on 3 Aug 2026 returning a story published 29 Jul-3 Aug 2026 about the updated US Kenya travel advisory. Radar first_seen for the feed item was 2026-07-29T11:04+03:00",
+   "resolve_by": "2026-08-03",
+   "market": "KE",
+   "segment": "City",
+   "confidence": "Early signal",
+   "status": "incorrect",
+   "resolved_date": "2026-08-03",
+   "evidence": "Search of Kenyan outlets (Nation,Standard,Star,Citizen,Business Daily) on 3 Aug 2026 found no story published 29 Jul-3 Aug on the 29 July re-issue. Only circulating US-Kenya advisory item is a Citizen Digital piece published 18 March 2025 (modified_time 2026-08-02) — an 18-month-old article silently re-dated, recycling not fresh reporting. Primary travel.state.gov page read directly 3 Aug still dated 17 March 2025 with Eastleigh/Kibera at Reconsider Travel. Domestic press did not independently report the re-issue.",
+   "source_url": "https://travel.state.gov/_res/rss/TAsTWs.xml",
+   "overdue": false
+  },
   {
    "id": "P001",
    "made_date": "2026-07-25",

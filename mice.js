@@ -9,8 +9,14 @@
 // source — mostly hospitality, tourism and business-events trade. Delegate counts are
 // only included where a named source states one; we do not estimate or invent them.
 window.MICE = {
- updated: "1 August 2026",
+ updated: "3 August 2026",
  events: [
+  { event:"The Hotel Expo Kenya 2026", city:"Nairobi (KICC)", country:"Kenya", flag:"🇰🇪",
+    dates:"19–21 August 2026", status:"Confirmed", delegates:null,
+    detail:"Trade expo for hoteliers, restaurateurs and hospitality professionals at the Kenyatta International Convention Centre — technology, F&B, procurement and design. The 2025 edition drew 100+ exhibitors (organiser figure); no verified 2026 delegate count published.",
+    soWhat:"A three-day city-centre trade event lands mid-August, ahead of the September–October peak. Nairobi city hotels near KICC should expect a short exhibitor-and-buyer midweek bump (19–21 Aug) — hold corporate rate through those nights rather than discounting into the shoulder.",
+    segment:"City", source:"hotelexpo.africa / realtorkenya.com / cantonfair.net, verified Aug 2026", verified:true, flagged:"action" },
+
   { event:"World Travel Awards — Africa Gala Ceremony 2026", city:"Zanzibar (Diamonds Bijoux resort)", country:"Zanzibar", flag:"🇹🇿",
     dates:"28 August 2026", status:"Confirmed", delegates:null,
     detail:"First of two WTA events in Tanzania in 2026 — the Grand Final Gala follows in December. Winners announced across hotels, airlines, tour operators and destinations.",
