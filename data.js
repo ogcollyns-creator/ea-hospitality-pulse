@@ -1,5 +1,14 @@
 window.EDITIONS = [
  {
+  "id": "pulse-2026-08-03-evening",
+  "date": "2026-08-03",
+  "dateDisplay": "Monday, 3 August 2026",
+  "edition": "Evening Wrap",
+  "editionKey": "evening",
+  "summary": "No new wire story cleared the gate since midday. So the evening does what the calendar forces: it puts a clock on the one decision that actually moves Uganda's bookings — and audits a forecast that ju",
+  "bodyHtml": "<p>🌆 EA HOSPITALITY PULSE — Evening Wrap<br><span class=\"meta-line\">📅 Monday, 3 August 2026 | 🇰🇪🇹🇿🇺🇬🇷🇼</span></p>\n<p>No new wire story cleared the gate since midday. So the evening does what the calendar forces: it puts a clock on the one decision that actually moves Uganda&#x27;s bookings — and audits a forecast that just landed.<br>━━━━━━━━━<br><span class=\"item-head\">1️⃣ THE 12 AUGUST CLOCK — 9 DAYS TO THE CALL THAT MATTERS</span><br>The US CDC&#x27;s Section 362 entry order covering DR Congo, Uganda and South Sudan expires 12 August — nine days out. This, not the &quot;Uganda is Ebola-free&quot; headline, is the date that governs whether Ugandan arrivals face US transit screening into September.<br>• RENEWED, UGANDA STILL LISTED (our base case): DRC transmission is intensifying — a record week to 30 July — so the epidemiology gives CDC little room to decouple Uganda before its own 42-day all-clear lands ~27 August. Screening continues.<br>• UGANDA DROPPED: possible but early; the 28 July declaration is only 15 days ahead of the order&#x27;s expiry, and CDC has historically tracked the regional picture, not the single-country one.<br><span class=\"sowhat\">🎯 So what: for the next nine days, quote Ugandan itineraries on the assumption screening HOLDS. Don&#x27;t let a sales desk price in a lift that hasn&#x27;t been signed. If it does drop, that&#x27;s upside you announce — not a promise you walk back.</span><br><span class=\"tagline\">🏷 Bush/City | Uganda | Reported</span></p>\n<p><span class=\"item-head\">2️⃣ FORECAST AUDIT: A CALL THAT LANDED RIGHT</span><br>On 30 July we called DRC&#x27;s confirmed Bundibugyo caseload to top 3,600 by the WHO situation report around 2 August. It did: WHO&#x27;s Disease Outbreak News now logs 3,605 confirmed and 1,587 deaths as at 30 July (CFR 44%). Call P039 resolved: correct.<br><span class=\"sowhat\">🎯 So what: that caseload is the evidence base for scenario one above — it is why &quot;outbreak over&quot; in Uganda and &quot;restrictions lifted&quot; regionally remain two different sentences.</span><br><span class=\"tagline\">🏷 Regional | All | Confirmed</span><br>━━━━━━━━━<br>📌 STILL TRUE TONIGHT<br>Kenya US Level 2 / UK Level 2, board unchanged since this morning. Zanzibar&#x27;s US$44 insurance and Kenya&#x27;s US$30 ETA unchanged. Nothing on the risk board justifies a discount.</p>\n<p><span class=\"meta-line\">📅 WEEK AHEAD</span><br>14–15 Aug EPRA fuel review (calls P025/P028 resolve) · 19–21 Aug Hotel Expo Kenya, KICC · 28 Aug World Travel Awards Africa Gala, Zanzibar.</p>\n<p><span class=\"meta-line\">💬 Running Ugandan itineraries into September? Tell us how you&#x27;re wording the advisory line to agents.</span></p>\n<p>🔗 This edition on the web: https://eahospitalitypulse.com/editions/pulse-2026-08-03-evening.html<br>💼 Today&#x27;s Big Read on LinkedIn: https://www.linkedin.com/company/ea-hospitality-pulse/<br>— EA Hospitality Pulse</p>"
+ },
+ {
   "id": "pulse-2026-08-03-midday",
   "date": "2026-08-03",
   "dateDisplay": "Monday, 3 August 2026",
@@ -282,6 +291,22 @@ window.INSIGHTS = [
   "dateDisplay": "Monday, 3 August 2026",
   "edition": "Morning Brief",
   "editionKey": "morning"
+ },
+ {
+  "headline": "THE 12 AUGUST CLOCK — 9 DAYS TO THE CALL THAT MATTERS",
+  "body": "The US CDC's Section 362 entry order covering DR Congo, Uganda and South Sudan expires 12 August — nine days out. This, not the \"Uganda is Ebola-free\" headline, is the date that governs whether Ugandan arrivals face US transit screening into September. • RENEWED, UGANDA STILL LISTED (our base case): DRC transmission is intensifying — a record week to 30 July — so the epidemiology gives CDC little room to decouple Uganda before its own 42-day all-clear lands ~27 August. Screening continues. • UGANDA DROPPED: possible but early; the 28 July declaration is only 15 days ahead of the order's expiry, and CDC has historically tracked the regional picture, not the single-country one.",
+  "sowhat": "🎯 So what: for the next nine days, quote Ugandan itineraries on the assumption screening HOLDS. Don't let a sales desk price in a lift that hasn't been signed. If it does drop, that's upside you announce — not a promise you walk back.",
+  "segments": [
+   "city",
+   "bush"
+  ],
+  "countries": "Uganda",
+  "confidence": "Reported",
+  "source": "pulse-2026-08-03-evening",
+  "date": "2026-08-03",
+  "dateDisplay": "Monday, 3 August 2026",
+  "edition": "Evening Wrap",
+  "editionKey": "evening"
  },
  {
   "headline": "KENYA INFLATION HITS A TWO-YEAR HIGH — 6.5%",
@@ -1496,4 +1521,4 @@ window.INSIGHTS = [
   "editionKey": "evening"
  }
 ];
-window.BUILT_AT = "2026-08-03 16:49";
+window.BUILT_AT = "2026-08-03 17:08";

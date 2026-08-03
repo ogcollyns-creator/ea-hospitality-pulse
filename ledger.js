@@ -1,31 +1,15 @@
 window.LEDGER = {
- "updated": "2026-08-03 16:49",
+ "updated": "2026-08-03 17:08",
  "stats": {
   "total": 50,
-  "open": 46,
-  "resolved": 4,
-  "correct": 1,
+  "open": 45,
+  "resolved": 5,
+  "correct": 2,
   "partial": 1,
   "incorrect": 2,
-  "accuracy": 38
+  "accuracy": 50
  },
  "open": [
-  {
-   "id": "P039",
-   "made_date": "2026-07-30",
-   "edition": "Evening Wrap",
-   "claim": "DR Congo's cumulative confirmed Bundibugyo cases will exceed 3600 by the WHO AFRO External Situation Report dated on or around 2 August 2026 — i.e. the outbreak has NOT plateaued and the US regional entry ban has no epidemiological basis to lift on Uganda's timeline",
-   "resolution_criteria": "A WHO AFRO Weekly External Situation Report (issue 12 or later) published between 30 Jul and 9 Aug 2026 stating a cumulative confirmed DRC case count above 3600. If the next SitRep shows 3600 or fewer the call is incorrect",
-   "resolve_by": "2026-08-09",
-   "market": "Regional",
-   "segment": "Bush/City",
-   "confidence": "Reported",
-   "status": "open",
-   "resolved_date": "",
-   "evidence": "",
-   "source_url": "https://www.afro.who.int/countries/democratic-republic-of-congo/publication/ebola-bundibugyo-virus-disease-outbreak-3",
-   "overdue": false
-  },
   {
    "id": "P030",
    "made_date": "2026-07-28",
@@ -778,6 +762,22 @@ window.LEDGER = {
    "resolved_date": "2026-08-03",
    "evidence": "Search of Kenyan outlets (Nation,Standard,Star,Citizen,Business Daily) on 3 Aug 2026 found no story published 29 Jul-3 Aug on the 29 July re-issue. Only circulating US-Kenya advisory item is a Citizen Digital piece published 18 March 2025 (modified_time 2026-08-02) — an 18-month-old article silently re-dated, recycling not fresh reporting. Primary travel.state.gov page read directly 3 Aug still dated 17 March 2025 with Eastleigh/Kibera at Reconsider Travel. Domestic press did not independently report the re-issue.",
    "source_url": "https://travel.state.gov/_res/rss/TAsTWs.xml",
+   "overdue": false
+  },
+  {
+   "id": "P039",
+   "made_date": "2026-07-30",
+   "edition": "Evening Wrap",
+   "claim": "DR Congo's cumulative confirmed Bundibugyo cases will exceed 3600 by the WHO AFRO External Situation Report dated on or around 2 August 2026 — i.e. the outbreak has NOT plateaued and the US regional entry ban has no epidemiological basis to lift on Uganda's timeline",
+   "resolution_criteria": "A WHO AFRO Weekly External Situation Report (issue 12 or later) published between 30 Jul and 9 Aug 2026 stating a cumulative confirmed DRC case count above 3600. If the next SitRep shows 3600 or fewer the call is incorrect",
+   "resolve_by": "2026-08-09",
+   "market": "Regional",
+   "segment": "Bush/City",
+   "confidence": "Reported",
+   "status": "correct",
+   "resolved_date": "2026-08-03",
+   "evidence": "WHO Disease Outbreak News: 3605 confirmed , 1587 deaths , CFR 44% as at 30 Jul 2026 — exceeds the 3600 threshold",
+   "source_url": "https://www.who.int/emergencies/disease-outbreak-news/item/2026-DON614",
    "overdue": false
   },
   {
