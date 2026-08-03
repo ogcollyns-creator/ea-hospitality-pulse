@@ -226,5 +226,22 @@
   "date": "2026-08-03",
   "source": "Property research submitted by OG, 3 August 2026",
   "addedCount": 96
- }
+ },
+ "inactive": [
+  {
+   "property": "Hyatt Regency Arusha",
+   "market": "dar_arusha",
+   "reason": "Never opened — announced pipeline property, not trading",
+   "found": "2026-08-04",
+   "action": "Excluded from index. Was a basket error: it entered from a hotel-list research pass, not a verified trading property."
+  },
+  {
+   "property": "DoubleTree by Hilton Dar es Salaam",
+   "market": "dar_arusha",
+   "reason": "Closed at time of collection",
+   "found": "2026-08-04",
+   "action": "Excluded until it quotes again. Re-check weekly; if it is permanently closed that is itself a supply story."
+  }
+ ],
+ "inactiveNote": "Properties in the basket that could not be priced because they are not trading. Kept in the file rather than deleted so the exclusion is auditable and reversible. Excluded from index computation."
 }
