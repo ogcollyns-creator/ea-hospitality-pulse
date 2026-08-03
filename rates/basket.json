@@ -1,19 +1,230 @@
 {
-  "name": "EA Pulse Rate Index — property basket",
-  "note": "A fixed basket of 40 well-known properties. Rates are observed as PUBLISHED lead-in rates (lowest available double/standard, room-only unless noted), for a standard forward stay window. The basket is deliberately fixed so the index measures rate movement, not sample change.",
-  "convention": {"los": 2, "lead_days": 30, "occupancy": "2 adults", "currency": "USD"},
-  "markets": {
-    "nairobi":   {"label":"Nairobi",            "segment":"city",  "country":"KE",
-      "properties":["Sarova Stanley","Villa Rosa Kempinski","Radisson Blu Upper Hill","Trademark Hotel Gigiri","Sankara Westlands","Hemingways Nairobi","Ole Sereni","Tribe Hotel"]},
-    "coast":     {"label":"Mombasa & Diani",    "segment":"beach", "country":"KE",
-      "properties":["Serena Beach Resort & Spa","Diani Reef Beach Resort","Leopard Beach Resort","Baobab Beach Resort","Swahili Beach","Voyager Beach Resort","Almanara Diani"]},
-    "zanzibar":  {"label":"Zanzibar",           "segment":"beach", "country":"ZNZ",
-      "properties":["Zuri Zanzibar","Melia Zanzibar","Park Hyatt Zanzibar","Riu Palace Zanzibar","Baraza Resort & Spa","The Residence Zanzibar","Diamonds Star of the East","Hideaway of Nungwi"]},
-    "kigali":    {"label":"Kigali",             "segment":"city",  "country":"RW",
-      "properties":["Kigali Marriott","Radisson Blu Kigali","Kigali Serena","Ubumwe Grande","Park Inn by Radisson Kigali"]},
-    "kampala":   {"label":"Kampala & Entebbe",  "segment":"city",  "country":"UG",
-      "properties":["Kampala Serena","Sheraton Kampala","Speke Resort Munyonyo","Protea by Marriott Kampala","Latitude 0 Degrees"]},
-    "safari":    {"label":"Mara & Serengeti",   "segment":"bush",  "country":"KE/TZ",
-      "properties":["Governors' Camp","Mara Serena Safari Lodge","Angama Mara","Kichwa Tembo","Four Seasons Safari Lodge Serengeti","Serengeti Serena Safari Lodge","Mara Intrepids"]}
+ "name": "EA Pulse Rate Index — property basket",
+ "note": "A fixed basket of well-known properties, expanded 3 August 2026 from 40 to 136. Rates are observed as PUBLISHED lead-in rates (lowest available double/standard, room-only unless noted), for a standard forward stay window. The basket is deliberately fixed so the index measures rate movement, not sample change. Properties are only ever ADDED, never renamed or removed — the index is chain-linked matched-sample, so a renamed property would break its own series.",
+ "convention": {
+  "los": 2,
+  "lead_days": 30,
+  "occupancy": "2 adults",
+  "currency": "USD"
+ },
+ "markets": {
+  "nairobi": {
+   "label": "Nairobi",
+   "segment": "city",
+   "country": "KE",
+   "properties": [
+    "Sarova Stanley",
+    "Villa Rosa Kempinski",
+    "Radisson Blu Upper Hill",
+    "Trademark Hotel Gigiri",
+    "Sankara Westlands",
+    "Hemingways Nairobi",
+    "Ole Sereni",
+    "Tribe Hotel",
+    "Nairobi Serena Hotel",
+    "JW Marriott Nairobi",
+    "Fairview Hotel Nairobi",
+    "Radisson Blu Nairobi",
+    "Crowne Plaza Nairobi Airport",
+    "The Boma Hotel",
+    "Best Western Plus Westlands",
+    "Four Points by Sheraton Nairobi"
+   ]
+  },
+  "coast": {
+   "label": "Mombasa & Diani",
+   "segment": "beach",
+   "country": "KE",
+   "properties": [
+    "Serena Beach Resort & Spa",
+    "Diani Reef Beach Resort",
+    "Leopard Beach Resort",
+    "Baobab Beach Resort",
+    "Swahili Beach",
+    "Voyager Beach Resort",
+    "Almanara Diani",
+    "The Sands at Nomad",
+    "AfroChic Diani Beach",
+    "Almanara Luxury Villas",
+    "Coral Cove Resort",
+    "Jacaranda Indian Ocean Beach Resort",
+    "Diamonds Leisure Beach & Golf Resort"
+   ]
+  },
+  "zanzibar": {
+   "label": "Zanzibar",
+   "segment": "beach",
+   "country": "ZNZ",
+   "properties": [
+    "Zuri Zanzibar",
+    "Melia Zanzibar",
+    "Park Hyatt Zanzibar",
+    "Riu Palace Zanzibar",
+    "Baraza Resort & Spa",
+    "The Residence Zanzibar",
+    "Diamonds Star of the East",
+    "Hideaway of Nungwi",
+    "Kilindi Zanzibar",
+    "Mnemba Island Lodge",
+    "Essque Zalu Zanzibar",
+    "White Sand Luxury Villas",
+    "Breezes Beach Club & Spa"
+   ]
+  },
+  "kigali": {
+   "label": "Kigali",
+   "segment": "city",
+   "country": "RW",
+   "properties": [
+    "Kigali Marriott",
+    "Radisson Blu Kigali",
+    "Kigali Serena",
+    "Ubumwe Grande",
+    "Park Inn by Radisson Kigali",
+    "Radisson Blu Hotel & Convention Centre Kigali",
+    "Heaven Boutique Hotel",
+    "2000 Hotel Downtown Kigali",
+    "Hotel Des Mille Collines",
+    "Onomo Hotel Kigali",
+    "The Retreat by Heaven"
+   ]
+  },
+  "kampala": {
+   "label": "Kampala & Entebbe",
+   "segment": "city",
+   "country": "UG",
+   "properties": [
+    "Kampala Serena",
+    "Sheraton Kampala",
+    "Speke Resort Munyonyo",
+    "Protea by Marriott Kampala",
+    "Latitude 0 Degrees",
+    "Mestil Hotel & Residences",
+    "Hilton Garden Inn Kampala",
+    "Four Points by Sheraton Kampala",
+    "Kabira Country Club",
+    "Golden Tulip Canaan Kampala",
+    "Pearl of Africa Hotel",
+    "Hotel Africana"
+   ]
+  },
+  "safari": {
+   "label": "Mara & Serengeti",
+   "segment": "bush",
+   "country": "KE/TZ",
+   "properties": [
+    "Governors' Camp",
+    "Mara Serena Safari Lodge",
+    "Angama Mara",
+    "Kichwa Tembo",
+    "Four Seasons Safari Lodge Serengeti",
+    "Serengeti Serena Safari Lodge",
+    "Mara Intrepids",
+    "andBeyond Bateleur Camp",
+    "Mara Plains Camp",
+    "Olare Mara Kempinski",
+    "Cottar's 1920s Safari Camp",
+    "Sanctuary Olonana",
+    "Mahali Mzuri",
+    "JW Marriott Masai Mara Lodge",
+    "Singita Sasakwa Lodge",
+    "Singita Faru Faru Lodge",
+    "Serengeti Bushtops",
+    "Sayari Tented Camp",
+    "Mwiba Lodge",
+    "andBeyond Grumeti Serengeti",
+    "One Nature Nyaruswigwa",
+    "Chem Chem Safari Lodge"
+   ]
+  },
+  "dar_arusha": {
+   "label": "Dar es Salaam & Arusha",
+   "segment": "city",
+   "country": "TZ",
+   "properties": [
+    "Hyatt Regency Dar es Salaam",
+    "Johari Rotana",
+    "Dar es Salaam Serena Hotel",
+    "Gran Melia Arusha",
+    "Sea Cliff Hotel",
+    "Protea Hotel Dar es Salaam Courtyard",
+    "DoubleTree by Hilton Dar es Salaam",
+    "Blackwood Boutique Hotel",
+    "Ledger Plaza Bahari Beach Hotel",
+    "Hyatt Regency Arusha"
+   ]
+  },
+  "lakevictoria": {
+   "label": "Lake Victoria & Entebbe",
+   "segment": "beach",
+   "country": "UG",
+   "properties": [
+    "Lake Victoria Serena Golf Resort",
+    "Protea Hotel by Marriott Entebbe",
+    "Wildwaters Lodge",
+    "Pineapple Bay Resort",
+    "Brovad Sands Lodge",
+    "Lutembe Beach Resort",
+    "Aero Beach Hotel Entebbe",
+    "Imperial Resort Beach Entebbe",
+    "Munyonyo Commonwealth Resort"
+   ]
+  },
+  "bwindi": {
+   "label": "Bwindi, Kibale & QENP",
+   "segment": "bush",
+   "country": "UG",
+   "properties": [
+    "Clouds Mountain Gorilla Lodge",
+    "Bwindi Lodge",
+    "Nkuringo Bwindi Gorilla Lodge",
+    "Mahogany Springs Lodge",
+    "Sanctuary Gorilla Forest Camp",
+    "Buhoma Lodge",
+    "Engagi Lodge",
+    "Erebero Hills (Asilia)",
+    "Primate Lodge Kibale",
+    "Kyambura Gorge Lodge"
+   ]
+  },
+  "lakekivu": {
+   "label": "Lake Kivu",
+   "segment": "beach",
+   "country": "RW",
+   "properties": [
+    "Lake Kivu Serena Hotel",
+    "Cormoran Lodge",
+    "Kivu Marina Bay Hotel",
+    "Paradise Kivu Resort",
+    "Moriah Hill Resort",
+    "Palm Garden Resort",
+    "Gorillas Lake Kivu Hotel",
+    "Bethany Hotel Kibuye",
+    "Home Saint Jean",
+    "Kibuye Guesthouse"
+   ]
+  },
+  "volcanoes": {
+   "label": "Volcanoes & Akagera",
+   "segment": "bush",
+   "country": "RW",
+   "properties": [
+    "Bisate Lodge",
+    "Singita Kwitonda Lodge",
+    "One&Only Gorilla's Nest",
+    "Sabyinyo Silverback Lodge",
+    "Virunga Lodge",
+    "Five Volcanoes Boutique Hotel",
+    "Magashi Camp (Akagera)",
+    "Ruzizi Tented Lodge (Akagera)",
+    "Karenge Bush Camp (Akagera)",
+    "Nyungwe House"
+   ]
   }
+ },
+ "expanded": {
+  "date": "2026-08-03",
+  "source": "Property research submitted by OG, 3 August 2026",
+  "addedCount": 96
+ }
 }

@@ -29,6 +29,13 @@ window.PIPELINE = {
     source:"W Hospitality Group / FHS Africa 2026 (absence from top-10)", verified:true }
  ],
  projects: [
+  { property:"andBeyond Ngorongoro Crater Lodge (rebuild)", brand:"andBeyond",
+    country:"Tanzania", flag:"🇹🇿", rooms:null, status:"Under construction", opening:"January 2027 (target)",
+    signed:"Announced March 2024",
+    detail:"Closed to guests since 15 January 2025 for a complete rebuild, not a refurbishment. andBeyond put the reconstruction at roughly two years with a target re-opening of January 2027. The target date was announced in early 2024 and has not, as far as we can establish, been publicly re-confirmed since \u2014 treat January 2027 as an operator target rather than a fixed date.",
+    impact:"This is a supply RETURN, not a supply addition, and it is the one most likely to be missed. One of the highest-rate properties on the northern circuit has been out of the market for two full seasons; its inventory comes back into a Ngorongoro crater-rim market that has repriced without it. If you sell the northern circuit, the 2027 high season is the one to model \u2014 rim demand that has been displaced to your property since 2025 has somewhere else to go the moment this reopens. Confirm the date directly with andBeyond before you build it into 2027 contracting.",
+    segment:"Bush", source:"ARP Africa Travel trade notice (andBeyond announcement), March 2024; re-opening timing corroborated by Duma Explorer", verified:true, flagged:"watch" },
+
   { property:"Autograph Collection All-Inclusive Resort, Zanzibar", brand:"Marriott / Autograph Collection",
     country:"Zanzibar", flag:"🇹🇿", rooms:271, status:"Signed", opening:"2027",
     signed:"22 July 2026",
