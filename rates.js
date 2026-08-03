@@ -1,5 +1,5 @@
 window.RATE_INDEX = {
- "updated": "2026-08-03 16:09",
+ "updated": "2026-08-03 16:14",
  "convention": {
   "los": 2,
   "lead_days": 30,
@@ -536,7 +536,7 @@ window.RATE_INDEX = {
     {
      "week": "2026-W32",
      "weekStart": "2026-08-03",
-     "median": 3905.0,
+     "median": 4293.0,
      "n": 18,
      "observations": 18,
      "coverage": 82,
@@ -551,7 +551,7 @@ window.RATE_INDEX = {
      },
      "levelComparable": false,
      "matched": 3,
-     "link": 1.00025,
+     "link": 1.0,
      "index": 100.0
     }
    ],
@@ -559,7 +559,7 @@ window.RATE_INDEX = {
    "latest": {
     "week": "2026-W32",
     "weekStart": "2026-08-03",
-    "median": 3905.0,
+    "median": 4293.0,
     "n": 18,
     "observations": 18,
     "coverage": 82,
@@ -574,7 +574,7 @@ window.RATE_INDEX = {
     },
     "levelComparable": false,
     "matched": 3,
-    "link": 1.00025,
+    "link": 1.0,
     "index": 100.0
    },
    "wow": 0.0,
@@ -780,7 +780,7 @@ window.RATE_INDEX = {
     {
      "week": "2026-W32",
      "weekStart": "2026-08-03",
-     "median": 205.0,
+     "median": 151.25,
      "n": 6,
      "observations": 6,
      "coverage": 60,
@@ -798,11 +798,11 @@ window.RATE_INDEX = {
      "index": 100.0
     }
    ],
-   "baseline": 205.0,
+   "baseline": 151.25,
    "latest": {
     "week": "2026-W32",
     "weekStart": "2026-08-03",
-    "median": 205.0,
+    "median": 151.25,
     "n": 6,
     "observations": 6,
     "coverage": 60,
@@ -842,7 +842,7 @@ window.RATE_INDEX = {
     {
      "week": "2026-W32",
      "weekStart": "2026-08-03",
-     "median": 3925.0,
+     "median": 4095.0,
      "n": 10,
      "observations": 10,
      "coverage": 100,
@@ -859,11 +859,11 @@ window.RATE_INDEX = {
      "index": 100.0
     }
    ],
-   "baseline": 3925.0,
+   "baseline": 4095.0,
    "latest": {
     "week": "2026-W32",
     "weekStart": "2026-08-03",
-    "median": 3925.0,
+    "median": 4095.0,
     "n": 10,
     "observations": 10,
     "coverage": 100,
