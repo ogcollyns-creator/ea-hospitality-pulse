@@ -48,7 +48,7 @@ No new story since midday — so here's the date that governs Uganda's bookings.
 📊 *NUMBER OF THE DAY*: 9 days — to the 12 August US entry-order decision
 
 📖 Read on the web → https://eahospitalitypulse.com/editions/pulse-2026-08-03-evening.html
-📱 Telegram: https://t.me/eahospitalitypulse
+📱 Telegram: https://t.me/africabusinessriskreview
 _Hakuna discount leo — nothing on the board justifies a cut._
 
 ## LINKEDIN BIG READ
@@ -79,6 +79,6 @@ We track this daily at EA Hospitality Pulse.
 
 ### FIRST COMMENT
 📖 This edition in full: https://eahospitalitypulse.com/editions/pulse-2026-08-03-evening.html
-📣 Daily briefs on Telegram: https://t.me/eahospitalitypulse
+📣 Daily briefs on Telegram: https://t.me/africabusinessriskreview
 💬 The 15-second version on WhatsApp: https://whatsapp.com/channel/0029VbCjul2KmCPTv8Qrh73b
 🗂 Archive, live travel advisory board and rate index: https://eahospitalitypulse.com
