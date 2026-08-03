@@ -1,5 +1,5 @@
 window.RATE_INDEX = {
- "updated": "2026-08-02 15:31",
+ "updated": "2026-08-03 10:10",
  "convention": {
   "los": 2,
   "lead_days": 30,
@@ -11,15 +11,15 @@ window.RATE_INDEX = {
  "method": "chain-linked matched-sample",
  "methodNote": "Each property is compared only with itself, so the index measures rate MOVEMENT validly even though the basket mixes meal bases and rate types. Raw medians are context only and are not comparable across markets — check levelComparable before quoting a level.",
  "spreadNote": "Commission-leakage spread = median of (OTA rate / direct rate - 1) for the same property in the same week. Computed only where the direct rate is room-only or B&B, since an OTA lowest rate is not comparable with a fully-inclusive safari rate. Markets where no property qualifies report null.",
- "totalObservations": 14,
- "distinctProperties": 14,
- "basketSize": 40,
+ "totalObservations": 15,
+ "distinctProperties": 15,
+ "basketSize": 136,
  "markets": {
   "nairobi": {
    "label": "Nairobi",
    "segment": "city",
    "country": "KE",
-   "basketSize": 8,
+   "basketSize": 16,
    "series": [
     {
      "week": "2026-W31",
@@ -27,7 +27,7 @@ window.RATE_INDEX = {
      "median": 206.0,
      "n": 1,
      "observations": 1,
-     "coverage": 12,
+     "coverage": 6,
      "confident": false,
      "basisMix": {
       "BB": 1
@@ -48,7 +48,7 @@ window.RATE_INDEX = {
     "median": 206.0,
     "n": 1,
     "observations": 1,
-    "coverage": 12,
+    "coverage": 6,
     "confident": false,
     "basisMix": {
      "BB": 1
@@ -78,7 +78,7 @@ window.RATE_INDEX = {
       "median": 1054.0,
       "n": 1,
       "observations": 1,
-      "coverage": 12,
+      "coverage": 6,
       "confident": false,
       "basisMix": {
        "UNK": 1
@@ -98,7 +98,7 @@ window.RATE_INDEX = {
      "median": 1054.0,
      "n": 1,
      "observations": 1,
-     "coverage": 12,
+     "coverage": 6,
      "confident": false,
      "basisMix": {
       "UNK": 1
@@ -120,7 +120,7 @@ window.RATE_INDEX = {
    "label": "Mombasa & Diani",
    "segment": "beach",
    "country": "KE",
-   "basketSize": 7,
+   "basketSize": 13,
    "series": [
     {
      "week": "2026-W31",
@@ -128,7 +128,7 @@ window.RATE_INDEX = {
      "median": 278.0,
      "n": 5,
      "observations": 5,
-     "coverage": 71,
+     "coverage": 38,
      "confident": true,
      "basisMix": {
       "HB": 3,
@@ -150,7 +150,7 @@ window.RATE_INDEX = {
     "median": 278.0,
     "n": 5,
     "observations": 5,
-    "coverage": 71,
+    "coverage": 38,
     "confident": true,
     "basisMix": {
      "HB": 3,
@@ -182,7 +182,7 @@ window.RATE_INDEX = {
       "median": 209.0,
       "n": 1,
       "observations": 1,
-      "coverage": 14,
+      "coverage": 8,
       "confident": false,
       "basisMix": {
        "UNK": 1
@@ -202,7 +202,7 @@ window.RATE_INDEX = {
      "median": 209.0,
      "n": 1,
      "observations": 1,
-     "coverage": 14,
+     "coverage": 8,
      "confident": false,
      "basisMix": {
       "UNK": 1
@@ -224,7 +224,7 @@ window.RATE_INDEX = {
    "label": "Zanzibar",
    "segment": "beach",
    "country": "ZNZ",
-   "basketSize": 8,
+   "basketSize": 13,
    "series": [
     {
      "week": "2026-W31",
@@ -232,7 +232,26 @@ window.RATE_INDEX = {
      "median": 1160.0,
      "n": 1,
      "observations": 1,
-     "coverage": 12,
+     "coverage": 8,
+     "confident": false,
+     "basisMix": {
+      "HB": 1
+     },
+     "rateTypeMix": {
+      "international": 1
+     },
+     "levelComparable": true,
+     "matched": 0,
+     "link": null,
+     "index": null
+    },
+    {
+     "week": "2026-W32",
+     "weekStart": "2026-08-03",
+     "median": 1150.0,
+     "n": 1,
+     "observations": 1,
+     "coverage": 8,
      "confident": false,
      "basisMix": {
       "HB": 1
@@ -248,12 +267,12 @@ window.RATE_INDEX = {
    ],
    "baseline": null,
    "latest": {
-    "week": "2026-W31",
-    "weekStart": "2026-07-27",
-    "median": 1160.0,
+    "week": "2026-W32",
+    "weekStart": "2026-08-03",
+    "median": 1150.0,
     "n": 1,
     "observations": 1,
-    "coverage": 12,
+    "coverage": 8,
     "confident": false,
     "basisMix": {
      "HB": 1
@@ -268,10 +287,10 @@ window.RATE_INDEX = {
    },
    "wow": null,
    "basisMix": {
-    "HB": 1
+    "HB": 2
    },
    "rateTypeMix": {
-    "international": 1
+    "international": 2
    },
    "levelComparable": true,
    "residentOnly": false,
@@ -283,7 +302,7 @@ window.RATE_INDEX = {
    "label": "Kigali",
    "segment": "city",
    "country": "RW",
-   "basketSize": 5,
+   "basketSize": 11,
    "series": [],
    "baseline": null,
    "latest": null,
@@ -300,7 +319,7 @@ window.RATE_INDEX = {
    "label": "Kampala & Entebbe",
    "segment": "city",
    "country": "UG",
-   "basketSize": 5,
+   "basketSize": 12,
    "series": [],
    "baseline": null,
    "latest": null,
@@ -317,7 +336,7 @@ window.RATE_INDEX = {
    "label": "Mara & Serengeti",
    "segment": "bush",
    "country": "KE/TZ",
-   "basketSize": 7,
+   "basketSize": 22,
    "series": [
     {
      "week": "2026-W31",
@@ -325,7 +344,7 @@ window.RATE_INDEX = {
      "median": 1996.0,
      "n": 5,
      "observations": 5,
-     "coverage": 71,
+     "coverage": 23,
      "confident": true,
      "basisMix": {
       "FB+": 1,
@@ -348,7 +367,7 @@ window.RATE_INDEX = {
     "median": 1996.0,
     "n": 5,
     "observations": 5,
-    "coverage": 71,
+    "coverage": 23,
     "confident": true,
     "basisMix": {
      "FB+": 1,
@@ -372,6 +391,91 @@ window.RATE_INDEX = {
    "rateTypeMix": {
     "international": 5
    },
+   "levelComparable": false,
+   "residentOnly": false,
+   "ota": null,
+   "spread": null,
+   "spreadLatest": null
+  },
+  "dar_arusha": {
+   "label": "Dar es Salaam & Arusha",
+   "segment": "city",
+   "country": "TZ",
+   "basketSize": 10,
+   "series": [],
+   "baseline": null,
+   "latest": null,
+   "wow": null,
+   "basisMix": {},
+   "rateTypeMix": {},
+   "levelComparable": false,
+   "residentOnly": false,
+   "ota": null,
+   "spread": null,
+   "spreadLatest": null
+  },
+  "lakevictoria": {
+   "label": "Lake Victoria & Entebbe",
+   "segment": "beach",
+   "country": "UG",
+   "basketSize": 9,
+   "series": [],
+   "baseline": null,
+   "latest": null,
+   "wow": null,
+   "basisMix": {},
+   "rateTypeMix": {},
+   "levelComparable": false,
+   "residentOnly": false,
+   "ota": null,
+   "spread": null,
+   "spreadLatest": null
+  },
+  "bwindi": {
+   "label": "Bwindi, Kibale & QENP",
+   "segment": "bush",
+   "country": "UG",
+   "basketSize": 10,
+   "series": [],
+   "baseline": null,
+   "latest": null,
+   "wow": null,
+   "basisMix": {},
+   "rateTypeMix": {},
+   "levelComparable": false,
+   "residentOnly": false,
+   "ota": null,
+   "spread": null,
+   "spreadLatest": null
+  },
+  "lakekivu": {
+   "label": "Lake Kivu",
+   "segment": "beach",
+   "country": "RW",
+   "basketSize": 10,
+   "series": [],
+   "baseline": null,
+   "latest": null,
+   "wow": null,
+   "basisMix": {},
+   "rateTypeMix": {},
+   "levelComparable": false,
+   "residentOnly": false,
+   "ota": null,
+   "spread": null,
+   "spreadLatest": null
+  },
+  "volcanoes": {
+   "label": "Volcanoes & Akagera",
+   "segment": "bush",
+   "country": "RW",
+   "basketSize": 10,
+   "series": [],
+   "baseline": null,
+   "latest": null,
+   "wow": null,
+   "basisMix": {},
+   "rateTypeMix": {},
    "levelComparable": false,
    "residentOnly": false,
    "ota": null,
