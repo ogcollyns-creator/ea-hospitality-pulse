@@ -1,5 +1,14 @@
 window.EDITIONS = [
  {
+  "id": "pulse-2026-08-03-midday",
+  "date": "2026-08-03",
+  "dateDisplay": "Monday, 3 August 2026",
+  "edition": "Midday Pulse",
+  "editionKey": "midday",
+  "summary": "🇰🇪🇺🇬🇹🇿🇷🇼 EA HOSPITALITY PULSE — Midday, Mon 3 Aug 2026",
+  "bodyHtml": "<p>🇰🇪🇺🇬🇹🇿🇷🇼 <strong>EA HOSPITALITY PULSE — Midday, Mon 3 Aug 2026</strong></p>\n<p>No fresh story has cleared the wire since this morning&#x27;s brief. So here is the check nobody else runs — our own forecast, audited against today&#x27;s numbers — plus what is still true underneath.</p>\n<p>📌 <strong>FORECAST CHECK: A CALL WE GOT WRONG</strong><br>On 27 July we predicted DRC&#x27;s Bundibugyo case count would pass 4,000 before Uganda&#x27;s outbreak was declared over. It didn&#x27;t. Uganda&#x27;s Ministry of Health called the all-clear on 28 July — 30 days early — with DRC still at roughly 3,600 confirmed (WHO, as at 30 July). The declaration beat the caseload to the line. Call resolved: <strong>incorrect</strong>.<br><span class=\"tagline\">🏷 Regional · All · Confirmed</span><br><span class=\"sowhat\">🎯 So what: don&#x27;t let &quot;Uganda is Ebola-free&quot; become &quot;the risk has cleared.&quot; It hasn&#x27;t. DRC&#x27;s outbreak is intensifying — WHO logged a record week to 30 July (567 cases, 296 deaths, 44% fatality). The US Level 4 advisory on Uganda and the CDC transit-screening order both stand to at least 12 August, and Rwanda&#x27;s 30-day DRC entry restriction is still in force. Sell &quot;outbreak over&quot;, never &quot;restrictions lifted&quot;.</span></p>\n<p>📌 <strong>STILL TRUE AT MIDDAY</strong><br>Kenya remains US Level 2 / UK Level 2, the advisory board unchanged since we verified it this morning. Zanzibar&#x27;s mandatory US$44 visitor insurance and Kenya&#x27;s US$30 ETA are unchanged.<br><span class=\"sowhat\">🎯 So what: nothing on the risk board justifies a discount today.</span></p>\n<p>📌 <strong>COST PULSE</strong><br>Rwanda urban inflation is running at 13.6% — the region&#x27;s real cost story and the one nobody is pricing (NISR). Kenya&#x27;s electricity pass-through charges top KSh 5/kWh and rose again in July (EPRA). Murban crude sits at US$67.99/bbl (CBK, 3 Jul) — the August EPRA fuel review is more likely to hold or fall than rise.<br><span class=\"sowhat\">🎯 So what: a Kigali property holding its 2025 USD card into 2027 is absorbing double-digit local inflation on a flat cross-rate. Rebuild the card, don&#x27;t index it.</span></p>\n<p><span class=\"meta-line\">📅 <strong>WEEK AHEAD</strong></span><br>EPRA fuel review ~14–15 Aug · Hotel Expo Kenya, KICC, 19–21 Aug (city compression) · World Travel Awards Africa Gala, Zanzibar, 28 Aug (north/east coast).</p>\n<p>🔗 This edition on the web: https://eahospitalitypulse.com/editions/pulse-2026-08-03-midday.html</p>"
+ },
+ {
   "id": "pulse-2026-08-03-morning",
   "date": "2026-08-03",
   "dateDisplay": "Monday, 3 August 2026",
@@ -1487,4 +1496,4 @@ window.INSIGHTS = [
   "editionKey": "evening"
  }
 ];
-window.BUILT_AT = "2026-08-03 10:10";
+window.BUILT_AT = "2026-08-03 13:16";

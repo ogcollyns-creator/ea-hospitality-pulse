@@ -1,13 +1,13 @@
 window.LEDGER = {
- "updated": "2026-08-03 10:10",
+ "updated": "2026-08-03 13:16",
  "stats": {
   "total": 50,
-  "open": 47,
-  "resolved": 3,
+  "open": 46,
+  "resolved": 4,
   "correct": 1,
   "partial": 1,
-  "incorrect": 1,
-  "accuracy": 50
+  "incorrect": 2,
+  "accuracy": 38
  },
  "open": [
   {
@@ -523,22 +523,6 @@ window.LEDGER = {
    "overdue": false
   },
   {
-   "id": "P021",
-   "made_date": "2026-07-27",
-   "edition": "Morning Brief",
-   "claim": "DRC's confirmed Bundibugyo case count will exceed 4,000 before Uganda's Ebola outbreak is declared over",
-   "resolution_criteria": "DRC health ministry,WHO AFRO or ECDC figures showing cumulative confirmed cases above 4,000 dated before any WHO/Uganda end-of-outbreak declaration",
-   "resolve_by": "2026-10-31",
-   "market": "Regional",
-   "segment": "All",
-   "confidence": "Reported",
-   "status": "open",
-   "resolved_date": "",
-   "evidence": "",
-   "source_url": "https://www.africanews.com/2026/07/26/dr-congo-says-the-number-of-confirmed-ebola-cases-has-surpassed-3000/",
-   "overdue": false
-  },
-  {
    "id": "P026",
    "made_date": "2026-07-27",
    "edition": "Midday Pulse",
@@ -764,6 +748,22 @@ window.LEDGER = {
   }
  ],
  "resolved": [
+  {
+   "id": "P021",
+   "made_date": "2026-07-27",
+   "edition": "Morning Brief",
+   "claim": "DRC's confirmed Bundibugyo case count will exceed 4,000 before Uganda's Ebola outbreak is declared over",
+   "resolution_criteria": "DRC health ministry,WHO AFRO or ECDC figures showing cumulative confirmed cases above 4,000 dated before any WHO/Uganda end-of-outbreak declaration",
+   "resolve_by": "2026-10-31",
+   "market": "Regional",
+   "segment": "All",
+   "confidence": "Reported",
+   "status": "incorrect",
+   "resolved_date": "2026-08-03",
+   "evidence": "Uganda MoH declared the outbreak over on 28 July 2026 (30 days early) with DRC at ~3,605 confirmed as at 30 July (WHO) — below the 4,000 threshold. The declaration preceded the caseload reaching 4,000 so the call fails.",
+   "source_url": "https://www.aljazeera.com/news/2026/7/30/congos-ebola-death-toll-passes-1500-as-it-struggles-to-halt-spread",
+   "overdue": false
+  },
   {
    "id": "P038",
    "made_date": "2026-07-29",
