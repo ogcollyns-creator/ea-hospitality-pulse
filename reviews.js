@@ -1,5 +1,5 @@
 window.REVIEWS = {
- "updated": "2026-08-02 12:26 UTC",
+ "updated": "2026-08-03 14:01 UTC",
  "source": "Google Places API (New) — official licensed API",
  "note": "Public star ratings and review counts for the fixed rate basket. Ratings are lifetime averages and move slowly; the useful signal is review VELOCITY (new reviews per week) and divergence between neighbours.",
  "markets": {
@@ -9,7 +9,7 @@ window.REVIEWS = {
    "country": "KE",
    "medianRating": 4.6,
    "properties": 8,
-   "basketSize": 8,
+   "basketSize": 16,
    "totalReviews": 56889,
    "items": [
     {
@@ -60,7 +60,7 @@ window.REVIEWS = {
    "country": "KE",
    "medianRating": 4.5,
    "properties": 7,
-   "basketSize": 7,
+   "basketSize": 13,
    "totalReviews": 23504,
    "items": [
     {
@@ -106,7 +106,7 @@ window.REVIEWS = {
    "country": "ZNZ",
    "medianRating": 4.6,
    "properties": 8,
-   "basketSize": 8,
+   "basketSize": 13,
    "totalReviews": 9334,
    "items": [
     {
@@ -157,7 +157,7 @@ window.REVIEWS = {
    "country": "RW",
    "medianRating": 4.6,
    "properties": 5,
-   "basketSize": 5,
+   "basketSize": 11,
    "totalReviews": 12825,
    "items": [
     {
@@ -193,7 +193,7 @@ window.REVIEWS = {
    "country": "UG",
    "medianRating": 4.5,
    "properties": 5,
-   "basketSize": 5,
+   "basketSize": 12,
    "totalReviews": 25072,
    "items": [
     {
@@ -229,7 +229,7 @@ window.REVIEWS = {
    "country": "KE/TZ",
    "medianRating": 4.7,
    "properties": 7,
-   "basketSize": 7,
+   "basketSize": 22,
    "totalReviews": 4763,
    "items": [
     {

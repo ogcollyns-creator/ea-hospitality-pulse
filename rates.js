@@ -1,5 +1,5 @@
 window.RATE_INDEX = {
- "updated": "2026-08-03 16:20",
+ "updated": "2026-08-03 14:01",
  "convention": {
   "los": 2,
   "lead_days": 30,
@@ -11,8 +11,8 @@ window.RATE_INDEX = {
  "method": "chain-linked matched-sample",
  "methodNote": "Each property is compared only with itself, so the index measures rate MOVEMENT validly even though the basket mixes meal bases and rate types. Raw medians are context only and are not comparable across markets — check levelComparable before quoting a level.",
  "spreadNote": "Commission-leakage spread = median of (OTA rate / direct rate - 1) for the same property in the same week. Computed only where the direct rate is room-only or B&B, since an OTA lowest rate is not comparable with a fully-inclusive safari rate. Markets where no property qualifies report null.",
- "totalObservations": 121,
- "distinctProperties": 106,
+ "totalObservations": 125,
+ "distinctProperties": 107,
  "basketSize": 136,
  "markets": {
   "nairobi": {
@@ -109,31 +109,64 @@ window.RATE_INDEX = {
       "matched": 0,
       "link": null,
       "index": null
+     },
+     {
+      "week": "2026-W32",
+      "weekStart": "2026-08-03",
+      "median": 268.0,
+      "n": 4,
+      "observations": 4,
+      "coverage": 25,
+      "confident": true,
+      "basisMix": {
+       "UNK": 4
+      },
+      "rateTypeMix": {
+       "international": 4
+      },
+      "levelComparable": true,
+      "matched": 0,
+      "link": null,
+      "index": 100.0
      }
     ],
     "latest": {
-     "week": "2026-W31",
-     "weekStart": "2026-07-27",
-     "median": 1054.0,
-     "n": 1,
-     "observations": 1,
-     "coverage": 6,
-     "confident": false,
+     "week": "2026-W32",
+     "weekStart": "2026-08-03",
+     "median": 268.0,
+     "n": 4,
+     "observations": 4,
+     "coverage": 25,
+     "confident": true,
      "basisMix": {
-      "UNK": 1
+      "UNK": 4
      },
      "rateTypeMix": {
-      "international": 1
+      "international": 4
      },
      "levelComparable": true,
      "matched": 0,
      "link": null,
-     "index": null
+     "index": 100.0
     },
     "wow": null
    },
-   "spread": null,
-   "spreadLatest": null
+   "spread": [
+    {
+     "week": "2026-W32",
+     "weekStart": "2026-08-03",
+     "spreadPct": -53.6,
+     "n": 2,
+     "skippedNonComparableBasis": 0
+    }
+   ],
+   "spreadLatest": {
+    "week": "2026-W32",
+    "weekStart": "2026-08-03",
+    "spreadPct": -53.6,
+    "n": 2,
+    "skippedNonComparableBasis": 0
+   }
   },
   "coast": {
    "label": "Mombasa & Diani",
