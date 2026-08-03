@@ -21,5 +21,5 @@ jobs:
       - name: Post newly added editions
         env:
           TG_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
-          TG_CHAT: '@africabusinessriskreview'
+          TG_CHAT: TG_CHAT: '@eahospitalitypulse'
         run: python3 .github/scripts/post_telegram.py
