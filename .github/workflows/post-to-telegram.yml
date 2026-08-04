@@ -18,6 +18,9 @@ jobs:
       - uses: actions/checkout@v4
         with:
           fetch-depth: 2
+      - name: Pre-publish quality gate (block; local auto-fix, no commit)
+        run: python3 radar/prepublish_gate.py --changed --fix --strict
+
       - name: Post newly added editions
         env:
           TG_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}

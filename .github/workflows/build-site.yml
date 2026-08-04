@@ -34,6 +34,16 @@ jobs:
       - name: Install build dependencies
         run: pip install --quiet Pillow numpy
 
+      - name: Pre-publish quality gate (auto-fix + block)
+        run: |
+          python3 radar/prepublish_gate.py --changed --fix --strict
+          # if the gate auto-repaired an edition, commit the fix before building
+          git config user.email 'ogcollyns@gmail.com'
+          git config user.name 'EA Hospitality Pulse'
+          git add -A editions-src
+          git diff --staged --quiet || git commit -m "Gate auto-fix: $(date -u +'%Y-%m-%d %H:%M UTC')"
+          git push origin HEAD:main || true
+
       - name: Build site
         run: python3 build_site.py
 
