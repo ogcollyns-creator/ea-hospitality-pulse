@@ -1,5 +1,14 @@
 window.EDITIONS = [
  {
+  "id": "pulse-2026-08-04-midday",
+  "date": "2026-08-04",
+  "dateDisplay": "Tuesday, 4 August 2026",
+  "edition": "Midday Pulse",
+  "editionKey": "midday",
+  "summary": "One new story clears the gate since this morning — and it lands on the coast.",
+  "bodyHtml": "<p><span class=\"meta-line\">🏨 EA HOSPITALITY PULSE — Midday Pulse</span><br><span class=\"meta-line\">📅 Tuesday, 4 August 2026 | 🇰🇪</span></p>\n<p>One new story clears the gate since this morning — and it lands on the coast.</p>\n<p>━━━━━━━━━<br><span class=\"item-head\">1️⃣ US EMBASSY NAMES THE KENYAN COAST IN A DENGUE ALERT — A NOTICE, NOT A DOWNGRADE</span><br>On 3 August the US Embassy in Nairobi issued a health alert, &quot;Dengue Fever on the Kenyan Coast and in Wajir and Garissa Counties,&quot; after the CDC added Kenya to its Global Dengue Travel Health Notice (Level 1). The data behind it: WHO AFRO&#x27;s Emergency Preparedness sit-rep (Week 28, July) puts the upsurge — running since January — at 1,679 cumulative cases, concentrated in Garissa (1,583 cases, five suspected deaths) and Wajir (96). The coast signal is early: four new confirmed cases region-wide in the latest week, two of them in Mombasa.</p>\n<p>What matters is what this ISN&#x27;T. Kenya&#x27;s overall US advisory stays Level 2 (verified today). A health notice sits alongside the country level, not above it — there is no travel restriction on Mombasa, Diani, Malindi, Watamu or Lamu. But it is the first time in this outbreak the US has named &quot;coastal regions of Kenya&quot; in a citizen alert, and source-market agents read these before your guests do.<br><span class=\"sowhat\">🎯 So what: a reassurance-and-mitigation moment, NOT a discount trigger. Don&#x27;t touch coast rate. Get ahead of it: brief front-of-house, make repellent visible, confirm room screening and AC, walk the property for standing water. Then send agents your mosquito-management SOP before they ask — the property that answers first looks in control. Calibrate to &quot;monitoring and prevention,&quot; not alarm.</span><br><span class=\"tagline\">🏷 Beach | Kenya | Confirmed (alert) + Inferred (demand read)</span></p>\n<p><span class=\"item-head\">2️⃣ STILL TRUE: THE ADVISORY BOARD HASN&#x27;T MOVED</span><br>US: Kenya L2, Tanzania/Zanzibar L2, Uganda L4, Rwanda L3. UK: Kenya L2, TZ/ZNZ L1, Uganda L3, Rwanda L2. The dengue notice changes none of it. Kenya&#x27;s rendered advisory page still dates 17 March 2025.<br><span class=\"sowhat\">🎯 So what: no basis to change security or rate messaging on the back of today&#x27;s alert.</span><br><span class=\"tagline\">🏷 All | Regional | Confirmed</span><br>━━━━━━━━━<br><span class=\"meta-line\">📡 WEEK AHEAD</span><br>• Fri 8 Aug — CBK weekly bulletin (FX, reserves)<br>• Tue 12 Aug — US CDC §362 Ebola entry order expires (renewal watch)<br>• Fri 15 Aug — EPRA fuel review</p>\n<p><span class=\"meta-line\">💬 On the coast and fielding agent questions about dengue? Tell us your market — we&#x27;ll track the case trend with you.</span></p>\n<p>🔗 This edition on the web: https://eahospitalitypulse.com/editions/pulse-2026-08-04-midday.html<br>— EA Hospitality Pulse | Daily intelligence for city, bush &amp; beach properties</p>"
+ },
+ {
   "id": "pulse-2026-08-04-morning",
   "date": "2026-08-04",
   "dateDisplay": "Tuesday, 4 August 2026",
@@ -285,6 +294,21 @@ window.INSIGHTS = [
   "dateDisplay": "Tuesday, 4 August 2026",
   "edition": "Morning Brief",
   "editionKey": "morning"
+ },
+ {
+  "headline": "US EMBASSY NAMES THE KENYAN COAST IN A DENGUE ALERT — A NOTICE, NOT A DOWNGRADE",
+  "body": "On 3 August the US Embassy in Nairobi issued a health alert, \"Dengue Fever on the Kenyan Coast and in Wajir and Garissa Counties,\" after the CDC added Kenya to its Global Dengue Travel Health Notice (Level 1). The data behind it: WHO AFRO's Emergency Preparedness sit-rep (Week 28, July) puts the upsurge — running since January — at 1,679 cumulative cases, concentrated in Garissa (1,583 cases, five suspected deaths) and Wajir (96). The coast signal is early: four new confirmed cases region-wide in the latest week, two of them in Mombasa. What matters is what this ISN'T. Kenya's overall US advisory stays Level 2 (verified today). A health notice sits alongside the country level, not above it — there is no travel restriction on Mombasa, Diani, Malindi, Watamu or Lamu. But it is the first time in this outbreak the US has named \"coastal regions of Kenya\" in a citizen alert, and source-market agents read these before your guests do.",
+  "sowhat": "🎯 So what: a reassurance-and-mitigation moment, NOT a discount trigger. Don't touch coast rate. Get ahead of it: brief front-of-house, make repellent visible, confirm room screening and AC, walk the property for standing water. Then send agents your mosquito-management SOP before they ask — the property that answers first looks in control. Calibrate to \"monitoring and prevention,\" not alarm.",
+  "segments": [
+   "beach"
+  ],
+  "countries": "Kenya",
+  "confidence": "Confirmed (alert) + Inferred (demand read)",
+  "source": "pulse-2026-08-04-midday",
+  "date": "2026-08-04",
+  "dateDisplay": "Tuesday, 4 August 2026",
+  "edition": "Midday Pulse",
+  "editionKey": "midday"
  },
  {
   "headline": "THE \"NEW\" KENYA ADVISORY IS A 502-DAY-OLD ARTICLE",
@@ -1545,4 +1569,4 @@ window.INSIGHTS = [
   "editionKey": "evening"
  }
 ];
-window.BUILT_AT = "2026-08-04 05:30";
+window.BUILT_AT = "2026-08-04 13:19";

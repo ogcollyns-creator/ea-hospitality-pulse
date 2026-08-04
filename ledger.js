@@ -1,8 +1,8 @@
 window.LEDGER = {
- "updated": "2026-08-04 05:30",
+ "updated": "2026-08-04 13:19",
  "stats": {
-  "total": 50,
-  "open": 45,
+  "total": 52,
+  "open": 47,
   "resolved": 5,
   "correct": 2,
   "partial": 1,
@@ -331,6 +331,22 @@ window.LEDGER = {
    "overdue": false
   },
   {
+   "id": "P051",
+   "made_date": "2026-08-04",
+   "edition": "Midday Pulse",
+   "claim": "Kenya's dengue upsurge keeps climbing — the next WHO AFRO Emergency Preparedness weekly sit-rep after Week 28 reports national cumulative dengue cases above 1,679",
+   "resolution_criteria": "A WHO AFRO Emergency Preparedness & Response Weekly Situation Report (Week 29 or later in Aug 2026) showing Kenya cumulative dengue cases above 1,679. If the next available sit-rep shows 1,679 or fewer the call is incorrect",
+   "resolve_by": "2026-09-15",
+   "market": "KE",
+   "segment": "Beach",
+   "confidence": "Early signal",
+   "status": "open",
+   "resolved_date": "",
+   "evidence": "",
+   "source_url": "https://www.afro.who.int/sites/default/files/2026-07/Week%2028.pdf",
+   "overdue": false
+  },
+  {
    "id": "P048",
    "made_date": "2026-08-02",
    "edition": "Sunday Foresight",
@@ -392,6 +408,22 @@ window.LEDGER = {
    "resolved_date": "",
    "evidence": "",
    "source_url": "https://www.the-star.co.ke/news/2026-07-27-aviation-workers-suspend-strike-pave-way-for-talks",
+   "overdue": false
+  },
+  {
+   "id": "P050",
+   "made_date": "2026-08-04",
+   "edition": "Midday Pulse",
+   "claim": "Kenya's overall US State Department travel advisory will remain Level 2 through 30 September 2026 — the 3 Aug dengue health alert is a health notice not an advisory-level trigger",
+   "resolution_criteria": "travel.state.gov Kenya advisory checked on 30 Sep 2026 still showing 'Kenya - Level 2: Exercise Increased Caution'",
+   "resolve_by": "2026-09-30",
+   "market": "KE",
+   "segment": "Beach/All",
+   "confidence": "Reported",
+   "status": "open",
+   "resolved_date": "",
+   "evidence": "",
+   "source_url": "https://ke.usembassy.gov/health-alert-dengue-fever-on-kenyan-coast-and-in-wajir-and-garissa-counties/",
    "overdue": false
   },
   {
