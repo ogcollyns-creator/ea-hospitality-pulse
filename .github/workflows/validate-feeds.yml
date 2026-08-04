@@ -29,6 +29,16 @@ jobs:
         with:
           persist-credentials: false
 
+      - name: Check PUSH_TOKEN presence (value is never printed)
+        env:
+          TOKEN: ${{ secrets.PUSH_TOKEN }}
+        run: |
+          if [ -z "$TOKEN" ]; then
+            echo "::warning::PUSH_TOKEN is EMPTY — the secret is not reaching this job (wrong name, Variable-not-Secret, or Environment scope)."
+          else
+            echo "PUSH_TOKEN is present. Length=${#TOKEN} characters. (Value masked by GitHub.)"
+          fi
+
       - name: Replay ledger (so coverage/state is warm)
         run: python3 radar/scan.py restore || true
 
