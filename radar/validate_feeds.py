@@ -98,6 +98,33 @@ def run_promote():
         discover = lambda u: _autodiscover(u, db, X, fetcher)
         st, detail = validate_plan(sid, src, plan, probe, discover)
         results.append((sid, st, detail))
+
+    # NEW primary sources — created only after a live parse succeeds (same gate)
+    existing = {s["id"] for s in reg["sources"]}
+    for ns in json.load(open(CAND)).get("new_sources", []):
+        sid = ns["id"]
+        if sid in existing:
+            results.append((sid, "SKIP-EXISTS", "already in registry")); continue
+        probe = lambda u, m, f: _probe(u, m, f, db, X, fetcher)
+        chosen = None
+        for c in ns.get("try", []):
+            n, msg = probe(c["url"], c["method"], c.get("frag"))
+            if n >= 1: chosen = (c["method"], c["url"], c.get("frag"), n); break
+        if not chosen:
+            feed, n = _autodiscover(ns.get("page", ns.get("url","")), db, X, fetcher)
+            if feed and n >= 1: chosen = ("rss", feed, None, n)
+        if not chosen:
+            results.append((sid, "UNRESOLVED-NEW", "no working feed — not created")); continue
+        method, url, frag, n = chosen
+        reg["sources"].append({
+            "id": sid, "name": ns["name"], "url": url, "tier": ns.get("tier", 1),
+            "country": ns.get("country", "Regional"), "category": ns.get("category", "health"),
+            "method": method, "cadence_min": ns.get("cadence_min", 180),
+            "lead_days": ns.get("lead_days", 2), "segments": ns.get("segments", ["city","bush","beach"]),
+            "slots": ns.get("slots", ["morning","midday","evening"]),
+            "why": ns.get("why", ""), "frag": frag or "", "enabled": True})
+        results.append((sid, "CREATED", f"{method} {url} ({n} items)"))
+
     reg["updated"] = datetime.date.today().isoformat()
     save_reg(reg)
     write_report(results)

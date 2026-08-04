@@ -1,52 +1,370 @@
 {
   "updated": "2026-08-04",
-  "note": "Remediation candidates for the 43 blind tier-1 sources. INERT until radar/validate_feeds.py --promote proves each one parses on a live-network runner; only then is it written into registry.json. 'try' lists are attempted in order; the validator ALSO auto-discovers each page's advertised feed, so a missing/wrong guess here is harmless. 'action:disable' entries are safe to apply offline. 'needs:headless' means no feed exists and the page is JS/bot-walled — left for a headless fetcher or manual watch, never auto-promoted.",
+  "note": "Remediation candidates for the 43 blind tier-1 sources. INERT until radar/validate_feeds.py --promote proves each one parses on a live-network runner; only then is it written into registry.json. 'try' lists are attempted in order; the validator ALSO auto-discovers each page's advertised feed, so a missing/wrong guess here is harmless. 'action:disable' entries are safe to apply offline. 'needs:headless' means no feed exists and the page is JS/bot-walled \u2014 left for a headless fetcher or manual watch, never auto-promoted.",
   "candidates": {
-    "ke-usembassy-alerts": {"try": [{"method": "rss", "url": "https://ke.usembassy.gov/category/alert/feed/"}], "note": "WordPress category feed"},
-    "ug-mediacentre":      {"try": [{"method": "rss", "url": "https://mediacentre.go.ug/press-room/feed/"}, {"method": "rss", "url": "https://mediacentre.go.ug/feed/"}], "note": "WordPress feed"},
-    "who-don":             {"try": [{"method": "rss", "url": "https://www.who.int/feeds/entity/csr/don/en/rss.xml"}, {"method": "rss", "url": "https://www.who.int/rss-feeds/news-english.xml"}], "note": "WHO Disease Outbreak News feed"},
-    "us-fedreg-cdc":       {"try": [{"method": "rss", "url": "https://www.federalregister.gov/api/v1/documents.rss?conditions%5Bagencies%5D%5B%5D=centers-for-disease-control-and-prevention&order=newest"}], "note": "Federal Register per-agency RSS"},
-    "cdc-travel-notices":  {"try": [{"method": "rss", "url": "https://wwwnc.cdc.gov/travel/rss/notices.xml"}], "note": "CDC Travelers' Health notices RSS"},
-    "sm-unwto":            {"try": [{"method": "rss", "url": "https://www.unwto.org/rss.xml"}, {"method": "rss", "url": "https://www.unwto.org/taxonomy/term/9/feed"}], "note": "UN Tourism newsroom feed"},
-    "sm-wttc":             {"try": [{"method": "rss", "url": "https://wttc.org/news/feed"}, {"method": "rss", "url": "https://wttc.org/feed"}], "note": "WTTC news feed"},
-    "dev-marriott":        {"try": [{"method": "rss", "url": "https://news.marriott.com/feed/"}, {"method": "rss", "url": "https://news.marriott.com/rss"}], "note": "Marriott newsroom RSS"},
-    "dev-kempinski":       {"try": [{"method": "rss", "url": "https://www.kempinski.com/en/press-releases/feed"}], "note": "try feed, else auto-discover"},
-    "air-ug":              {"try": [{"method": "rss", "url": "https://www.ugandairlines.com/news/feed"}], "note": "try feed, else auto-discover"},
-    "ug-moh":              {"try": [{"method": "rss", "url": "https://www.health.go.ug/feed/"}], "note": "try WordPress feed, else auto-discover"},
-
-    "adv-us-kenya":    {"action": "disable", "reason": "Redundant: covered by adv-us-ea RSS (travel.state.gov/_res/rss/TAsTWs.xml), which already works. The rendered HTML page is a JS shell that yields nothing."},
-    "adv-us-uganda":   {"action": "disable", "reason": "Redundant: covered by adv-us-ea RSS."},
-    "adv-us-tanzania": {"action": "disable", "reason": "Redundant: covered by adv-us-ea RSS."},
-    "adv-us-rwanda":   {"action": "disable", "reason": "Redundant: covered by adv-us-ea RSS."},
-
-    "rw-visitrwanda": {"needs": "headless", "reason": "JS marketing site, no feed"},
-    "air-jambojet":   {"needs": "headless", "reason": "JS press page, no feed"},
-    "air-precision":  {"needs": "headless", "reason": "JS site, no feed"},
-    "air-airlink":    {"needs": "headless", "reason": "JS site, no feed"},
-    "air-tc":         {"needs": "headless", "reason": "JS site; auto-discover will still be attempted"},
-    "air-tk":         {"needs": "headless", "reason": "Turkish Airlines press room is JS/bot-walled"},
-    "adv-au-kenya":   {"needs": "headless", "reason": "Smartraveller is JS + bot wall"},
-    "adv-au-tanzania":{"needs": "headless", "reason": "Smartraveller is JS + bot wall"},
-    "osac-kenya":     {"needs": "headless", "reason": "OSAC requires a session; not scrapable statically"},
-    "ke-epra-press":  {"needs": "headless", "reason": "EPRA sits behind Cloudflare; auto-discover attempted, likely headless"},
-    "ke-epra-fuel":   {"needs": "headless", "reason": "Cloudflare + the schedule is a PDF; needs a PDF/headless path"},
-
-    "ke-gazettes-africa": {"needs": "inspect", "reason": "Server-rendered but anchors too short for the heuristic; auto-discover attempted, else needs a frag/min-length adapter"},
-    "ug-gazette":         {"needs": "inspect", "reason": "gazettes.africa short-anchor listing"},
-    "tz-gazette":         {"needs": "inspect", "reason": "gazettes.africa short-anchor listing"},
-    "rw-gazette":         {"needs": "inspect", "reason": "gazettes.africa short-anchor listing"},
-    "ke-tenders":         {"needs": "inspect", "reason": "tenders.go.ke short-anchor table"},
-    "tz-tenders":         {"needs": "inspect", "reason": "nest.go.tz table"},
-    "ke-kaa-tenders":     {"needs": "inspect", "reason": "KAA tenders table"},
-    "ug-bou":             {"needs": "inspect", "reason": "Homepage URL — repoint at the press/publications page; auto-discover attempted"},
-    "rw-bnr":             {"needs": "inspect", "reason": "Repoint at the news page; auto-discover attempted"},
-    "tz-mnrt":            {"needs": "inspect", "reason": "gov listing, short anchors"},
-    "tz-tanapa":          {"needs": "inspect", "reason": "gov listing, short anchors"},
-    "tz-immigration":     {"needs": "inspect", "reason": "gov listing, short anchors"},
-    "zn-zrb":             {"needs": "inspect", "reason": "gov listing, short anchors"},
-    "zn-moh":             {"needs": "inspect", "reason": "gov listing, short anchors"},
-    "zn-ocgs":            {"needs": "inspect", "reason": "gov statistics listing"},
-    "zn-tourism":         {"needs": "inspect", "reason": "gov listing"},
-    "ug-ucaa":            {"needs": "inspect", "reason": "gov listing; auto-discover attempted"}
-  }
+    "ke-usembassy-alerts": {
+      "try": [
+        {
+          "method": "rss",
+          "url": "https://ke.usembassy.gov/feed/"
+        },
+        {
+          "method": "rss",
+          "url": "https://ke.usembassy.gov/category/alert/feed/"
+        },
+        {
+          "method": "rss",
+          "url": "https://ke.usembassy.gov/category/messages-for-u-s-citizens/feed/"
+        }
+      ],
+      "note": "WordPress site feed + category feeds; if all fail the CDN is walling the runner (needs browser fetch)"
+    },
+    "ug-mediacentre": {
+      "try": [
+        {
+          "method": "rss",
+          "url": "https://mediacentre.go.ug/feed/"
+        },
+        {
+          "method": "rss",
+          "url": "https://www.mediacentre.go.ug/feed/"
+        }
+      ],
+      "note": "WordPress feed"
+    },
+    "who-don": {
+      "try": [
+        {
+          "method": "rss",
+          "url": "https://www.who.int/feeds/entity/csr/don/en/rss.xml"
+        },
+        {
+          "method": "rss",
+          "url": "https://www.who.int/rss-feeds/news-english.xml"
+        }
+      ],
+      "note": "WHO Disease Outbreak News feed"
+    },
+    "us-fedreg-cdc": {
+      "try": [
+        {
+          "method": "rss",
+          "url": "https://www.federalregister.gov/api/v1/documents.rss?conditions%5Bagencies%5D%5B%5D=centers-for-disease-control-and-prevention&order=newest"
+        }
+      ],
+      "note": "Federal Register per-agency RSS"
+    },
+    "cdc-travel-notices": {
+      "needs": "browser-fetch",
+      "reason": "Feed URL wwwnc.cdc.gov/travel/rss/notices.xml is CORRECT but CDC's CDN bot-walls the Azure runner. Needs a browser/residential fetch, not a new URL."
+    },
+    "sm-unwto": {
+      "needs": "deprioritise",
+      "reason": "Global tourism body = context/reporter source, not EA-breaking. Low insight value; skip unless browser-fetch is added."
+    },
+    "sm-wttc": {
+      "needs": "deprioritise",
+      "reason": "Global body = context/reporter source, not EA-breaking. Low insight value."
+    },
+    "dev-marriott": {
+      "needs": "browser-fetch",
+      "reason": "news.marriott.com is CDN-walled from the runner; secondary supply source"
+    },
+    "dev-kempinski": {
+      "needs": "browser-fetch",
+      "reason": "CDN-walled; single-chain, low priority"
+    },
+    "air-ug": {
+      "try": [
+        {
+          "method": "rss",
+          "url": "https://www.ugandairlines.com/feed/"
+        },
+        {
+          "method": "rss",
+          "url": "https://www.ugandairlines.com/news/feed/"
+        }
+      ],
+      "note": "try WordPress feed, else headless"
+    },
+    "ug-moh": {
+      "try": [
+        {
+          "method": "rss",
+          "url": "https://www.health.go.ug/feed/"
+        },
+        {
+          "method": "rss",
+          "url": "https://health.go.ug/feed/"
+        }
+      ],
+      "note": "WordPress feed"
+    },
+    "adv-us-kenya": {
+      "action": "disable",
+      "reason": "Redundant: covered by adv-us-ea RSS (travel.state.gov/_res/rss/TAsTWs.xml), which already works. The rendered HTML page is a JS shell that yields nothing."
+    },
+    "adv-us-uganda": {
+      "action": "disable",
+      "reason": "Redundant: covered by adv-us-ea RSS."
+    },
+    "adv-us-tanzania": {
+      "action": "disable",
+      "reason": "Redundant: covered by adv-us-ea RSS."
+    },
+    "adv-us-rwanda": {
+      "action": "disable",
+      "reason": "Redundant: covered by adv-us-ea RSS."
+    },
+    "rw-visitrwanda": {
+      "needs": "headless",
+      "reason": "JS marketing site, no feed"
+    },
+    "air-jambojet": {
+      "needs": "headless",
+      "reason": "JS press page, no feed"
+    },
+    "air-precision": {
+      "needs": "headless",
+      "reason": "JS site, no feed"
+    },
+    "air-airlink": {
+      "needs": "headless",
+      "reason": "JS site, no feed"
+    },
+    "air-tc": {
+      "needs": "headless",
+      "reason": "JS site; auto-discover will still be attempted"
+    },
+    "air-tk": {
+      "needs": "headless",
+      "reason": "Turkish Airlines press room is JS/bot-walled"
+    },
+    "adv-au-kenya": {
+      "needs": "headless",
+      "reason": "Smartraveller is JS + bot wall"
+    },
+    "adv-au-tanzania": {
+      "needs": "headless",
+      "reason": "Smartraveller is JS + bot wall"
+    },
+    "osac-kenya": {
+      "needs": "headless",
+      "reason": "OSAC requires a session; not scrapable statically"
+    },
+    "ke-epra-press": {
+      "needs": "headless",
+      "reason": "EPRA sits behind Cloudflare; auto-discover attempted, likely headless"
+    },
+    "ke-epra-fuel": {
+      "needs": "headless",
+      "reason": "Cloudflare + the schedule is a PDF; needs a PDF/headless path"
+    },
+    "ke-gazettes-africa": {
+      "needs": "inspect",
+      "reason": "Server-rendered but anchors too short for the heuristic; auto-discover attempted, else needs a frag/min-length adapter"
+    },
+    "ug-gazette": {
+      "needs": "inspect",
+      "reason": "gazettes.africa short-anchor listing"
+    },
+    "tz-gazette": {
+      "needs": "inspect",
+      "reason": "gazettes.africa short-anchor listing"
+    },
+    "rw-gazette": {
+      "needs": "inspect",
+      "reason": "gazettes.africa short-anchor listing"
+    },
+    "ke-tenders": {
+      "needs": "inspect",
+      "reason": "tenders.go.ke short-anchor table"
+    },
+    "tz-tenders": {
+      "needs": "inspect",
+      "reason": "nest.go.tz table"
+    },
+    "ke-kaa-tenders": {
+      "needs": "inspect",
+      "reason": "KAA tenders table"
+    },
+    "ug-bou": {
+      "needs": "inspect",
+      "reason": "Homepage URL \u2014 repoint at the press/publications page; auto-discover attempted"
+    },
+    "rw-bnr": {
+      "needs": "inspect",
+      "reason": "Repoint at the news page; auto-discover attempted"
+    },
+    "tz-mnrt": {
+      "needs": "inspect",
+      "reason": "gov listing, short anchors"
+    },
+    "tz-tanapa": {
+      "needs": "inspect",
+      "reason": "gov listing, short anchors"
+    },
+    "tz-immigration": {
+      "needs": "inspect",
+      "reason": "gov listing, short anchors"
+    },
+    "zn-zrb": {
+      "needs": "inspect",
+      "reason": "gov listing, short anchors"
+    },
+    "zn-moh": {
+      "needs": "inspect",
+      "reason": "gov listing, short anchors"
+    },
+    "zn-ocgs": {
+      "needs": "inspect",
+      "reason": "gov statistics listing"
+    },
+    "zn-tourism": {
+      "needs": "inspect",
+      "reason": "gov listing"
+    },
+    "ug-ucaa": {
+      "needs": "inspect",
+      "reason": "gov listing; auto-discover attempted"
+    }
+  },
+  "new_sources": [
+    {
+      "id": "africacdc-eiw",
+      "name": "Africa CDC \u2014 Epidemic Intelligence Weekly & press",
+      "page": "https://africacdc.org/news/",
+      "tier": 1,
+      "country": "Regional",
+      "category": "health",
+      "lead_days": 3,
+      "cadence_min": 180,
+      "segments": [
+        "city",
+        "bush",
+        "beach"
+      ],
+      "slots": [
+        "morning",
+        "midday",
+        "evening"
+      ],
+      "why": "Continental outbreak early-warning \u2014 dengue, cholera, mpox, Ebola case counts by country, often ahead of national ministries and always ahead of the press.",
+      "try": [
+        {
+          "method": "rss",
+          "url": "https://africacdc.org/feed/"
+        }
+      ]
+    },
+    {
+      "id": "reliefweb-ke",
+      "name": "ReliefWeb \u2014 Kenya alerts",
+      "page": "https://reliefweb.int/country/ken",
+      "tier": 1,
+      "country": "KE",
+      "category": "health",
+      "lead_days": 2,
+      "cadence_min": 240,
+      "segments": [
+        "city",
+        "bush",
+        "beach"
+      ],
+      "slots": [
+        "morning",
+        "midday",
+        "evening"
+      ],
+      "why": "Floods, drought, disease, security displacement \u2014 the demand-shock feed for Kenya, filed by UN/NGO responders before mainstream coverage.",
+      "try": [
+        {
+          "method": "rss",
+          "url": "https://reliefweb.int/country/ken/rss.xml"
+        },
+        {
+          "method": "rss",
+          "url": "https://reliefweb.int/updates/rss.xml?legacy.country=131"
+        }
+      ]
+    },
+    {
+      "id": "reliefweb-tz",
+      "name": "ReliefWeb \u2014 Tanzania alerts",
+      "page": "https://reliefweb.int/country/tza",
+      "tier": 1,
+      "country": "TZ",
+      "category": "health",
+      "lead_days": 2,
+      "cadence_min": 240,
+      "segments": [
+        "city",
+        "bush",
+        "beach"
+      ],
+      "slots": [
+        "morning",
+        "midday",
+        "evening"
+      ],
+      "why": "Demand-shock feed for Tanzania & Zanzibar (floods, cyclones, outbreaks).",
+      "try": [
+        {
+          "method": "rss",
+          "url": "https://reliefweb.int/country/tza/rss.xml"
+        }
+      ]
+    },
+    {
+      "id": "eac-secretariat",
+      "name": "East African Community \u2014 Secretariat news",
+      "page": "https://www.eac.int/press-releases",
+      "tier": 1,
+      "country": "Regional",
+      "category": "body",
+      "lead_days": 5,
+      "cadence_min": 360,
+      "segments": [
+        "city"
+      ],
+      "slots": [
+        "morning",
+        "evening"
+      ],
+      "why": "Summits, heads-of-state meetings and regional policy \u2014 forward MICE demand signals (a summit host city compresses room stock).",
+      "try": [
+        {
+          "method": "rss",
+          "url": "https://www.eac.int/feed"
+        },
+        {
+          "method": "rss",
+          "url": "https://www.eac.int/press-releases?format=feed&type=rss"
+        }
+      ]
+    },
+    {
+      "id": "icca-news",
+      "name": "ICCA \u2014 association meetings news",
+      "page": "https://www.iccaworld.org/newsarchives/",
+      "tier": 2,
+      "country": "Regional",
+      "category": "body",
+      "lead_days": 7,
+      "cadence_min": 720,
+      "segments": [
+        "city"
+      ],
+      "slots": [
+        "morning"
+      ],
+      "why": "International Congress & Convention Association \u2014 when a congress rotation names an East African host, that is a forward room-night compression signal months out.",
+      "try": [
+        {
+          "method": "rss",
+          "url": "https://www.iccaworld.org/newsarchives/rss.cfm"
+        }
+      ]
+    }
+  ]
 }

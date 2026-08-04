@@ -50,6 +50,22 @@ def test_first_working_candidate_wins():
         {"method":"rss","url":"https://x/a"},{"method":"rss","url":"https://x/b"}]}, probe, lambda u:(None,0))
     assert st=="PROMOTED" and s["url"]=="https://x/b"
 
+# --- config integrity for refined candidates + new primary sources ---
+def test_new_sources_wellformed():
+    import json, os
+    d=json.load(open(os.path.join(os.path.dirname(__file__),"..","feed_candidates.json")))
+    for ns in d.get("new_sources", []):
+        for k in ("id","name","tier","country","category","try"):
+            assert k in ns, (ns.get("id"), k)
+        for t in ns["try"]:
+            assert t["method"] in ("rss","html") and t["url"].startswith("http")
+
+def test_candidates_have_action_try_or_needs():
+    import json, os
+    d=json.load(open(os.path.join(os.path.dirname(__file__),"..","feed_candidates.json")))
+    for sid,plan in d["candidates"].items():
+        assert plan.get("try") or plan.get("action") or plan.get("needs"), sid
+
 if __name__=="__main__":
     fns=[v for k,v in sorted(globals().items()) if k.startswith("test_")]
     for fn in fns: fn(); print("  ok ",fn.__name__)
