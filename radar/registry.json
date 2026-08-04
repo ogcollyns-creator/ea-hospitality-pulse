@@ -644,11 +644,11 @@
   {
    "id": "ug-moh",
    "name": "Uganda Ministry of Health",
-   "url": "https://www.health.go.ug/",
+   "url": "https://health.go.ug/feed/",
    "tier": 1,
    "country": "UG",
    "category": "health",
-   "method": "html",
+   "method": "rss",
    "cadence_min": 120,
    "lead_days": 1,
    "segments": [
@@ -3248,6 +3248,27 @@
    ],
    "why": "OSAC republishes State advisory changes with the operative wording| useful for confirming exactly what moved when travel.state.gov lags its own feed.",
    "frag": ""
+  },
+  {
+   "id": "eac-secretariat",
+   "name": "East African Community \u2014 Secretariat news",
+   "url": "https://www.eac.int/press-releases?format=feed&type=rss",
+   "tier": 1,
+   "country": "Regional",
+   "category": "body",
+   "method": "rss",
+   "cadence_min": 360,
+   "lead_days": 5,
+   "segments": [
+    "city"
+   ],
+   "slots": [
+    "morning",
+    "evening"
+   ],
+   "why": "Summits, heads-of-state meetings and regional policy \u2014 forward MICE demand signals (a summit host city compresses room stock).",
+   "frag": "",
+   "enabled": true
   }
  ]
 }

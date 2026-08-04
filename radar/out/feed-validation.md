@@ -1,8 +1,9 @@
 # Feed validation — 2026-08-04
 
-## PROMOTED (2)
+## PROMOTED (3)
 - `who-don` — rss https://www.who.int/rss-feeds/news-english.xml (25 items)
 - `us-fedreg-cdc` — rss https://www.federalregister.gov/api/v1/documents.rss?conditions%5Bagencies%5D%5B%5D=centers-for-disease-control-and-prevention&order=newest (16 items)
+- `ug-moh` — rss https://health.go.ug/feed/ (10 items)
 
 ## DISABLED (4)
 - `adv-us-kenya` — Redundant: covered by adv-us-ea RSS (travel.state.gov/_res/rss/TAsTWs.xml), which already works. The rendered HTML page is a JS shell that yields nothing.
@@ -10,16 +11,15 @@
 - `adv-us-tanzania` — Redundant: covered by adv-us-ea RSS.
 - `adv-us-rwanda` — Redundant: covered by adv-us-ea RSS.
 
-## UNRESOLVED (37)
+## UNRESOLVED (36)
 - `ke-usembassy-alerts` — no feed found
 - `ug-mediacentre` — no feed found
-- `cdc-travel-notices` — no feed found
-- `sm-unwto` — no feed found
-- `sm-wttc` — no feed found
-- `dev-marriott` — no feed found
-- `dev-kempinski` — no feed found
+- `cdc-travel-notices` — browser-fetch
+- `sm-unwto` — deprioritise
+- `sm-wttc` — deprioritise
+- `dev-marriott` — browser-fetch
+- `dev-kempinski` — browser-fetch
 - `air-ug` — no feed found
-- `ug-moh` — no feed found
 - `rw-visitrwanda` — headless
 - `air-jambojet` — headless
 - `air-precision` — headless
