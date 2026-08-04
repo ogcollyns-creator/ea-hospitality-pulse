@@ -1,6 +1,6 @@
 {
  "version": 1,
- "updated": "2026-07-28",
+ "updated": "2026-08-04",
  "note": "Upstream-weighted source registry for the EA Hospitality Pulse radar. tier 1 = primary/official, 2 = reputable secondary, 3 = weak (lead only, never publishable alone). lead_days = typical head start over mainstream coverage. Sources that fail repeatedly are surfaced by monitor.py rather than silently dropped.",
  "sources": [
   {
@@ -1343,11 +1343,11 @@
   {
    "id": "who-don",
    "name": "WHO Disease Outbreak News",
-   "url": "https://www.who.int/emergencies/disease-outbreak-news",
+   "url": "https://www.who.int/rss-feeds/news-english.xml",
    "tier": 1,
    "country": "GLOBAL",
    "category": "health",
-   "method": "html",
+   "method": "rss",
    "cadence_min": 120,
    "lead_days": 3,
    "segments": [
@@ -3101,11 +3101,11 @@
   {
    "id": "us-fedreg-cdc",
    "name": "Federal Register \u2014 CDC notices",
-   "url": "https://www.federalregister.gov/agencies/centers-for-disease-control-and-prevention",
+   "url": "https://www.federalregister.gov/api/v1/documents.rss?conditions%5Bagencies%5D%5B%5D=centers-for-disease-control-and-prevention&order=newest",
    "tier": 1,
    "country": "REG",
    "category": "advisory",
-   "method": "html",
+   "method": "rss",
    "cadence_min": 180,
    "lead_days": 10,
    "segments": [
