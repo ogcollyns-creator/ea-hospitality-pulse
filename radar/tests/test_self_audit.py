@@ -37,7 +37,7 @@ def test_source_coverage_pass_when_none_blind():
 def test_run_returns_grade_and_checks():
     a=SA.run()
     assert set(["health","grade","checks","fails","warns"]).issubset(a)
-    assert len(a["checks"])==9
+    assert len(a["checks"])==10
 
 if __name__=="__main__":
     fns=[v for k,v in sorted(globals().items()) if k.startswith("test_")]

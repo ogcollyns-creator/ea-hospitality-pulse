@@ -212,16 +212,30 @@ def check_forecast_throughput():
     if len(recent)>=1: return R("forecast throughput","WARN",detail,"Log more falsifiable calls — the ledger is the moat.")
     return R("forecast throughput","FAIL",detail,"No new calls in a week — the differentiator is going cold.")
 
+def check_published_content():
+    """Re-verify recent published editions against the current status board."""
+    try:
+        import content_audit
+        files, conflicts = content_audit.find_conflicts(days=3)
+    except Exception as e:
+        return R("published content","WARN",f"content audit unavailable: {e}")
+    if not conflicts:
+        return R("published content","PASS",f"{len(files)} recent editions; no advisory claim contradicts the board.")
+    ex="; ".join(f"{f.split('pulse-')[-1][:-3]} {c} L{p}->L{cur}" for f,c,_,p,cur,_ in conflicts[:4])
+    return R("published content","FAIL",
+             f"{len(conflicts)} published claim(s) now contradicted: {ex}",
+             "Publish a correction and fix advisories.js; a live edition is stating a wrong level.")
+
 WEIGHTS={"source coverage":2.0,"radar feed freshness":2.0,"signal quality":2.0,
          "ledger hygiene":1.5,"edition cadence":1.5,"data freshness":1.0,
-         "source staleness":1.0,"rate-index integrity":1.0,"forecast throughput":1.0}
+         "source staleness":1.0,"rate-index integrity":1.0,"forecast throughput":1.0,"published content":2.0}
 
 def run():
     rows=source_coverage(); eds=_editions()
     checks=[check_source_coverage(rows),check_source_staleness(rows),
             check_feed_freshness(),check_cadence(eds),check_signal_quality(eds),
             check_ledger(),check_data_freshness(),check_rate_index(),
-            check_forecast_throughput()]
+            check_forecast_throughput(),check_published_content()]
     tw=sum(WEIGHTS.get(c["name"],1) for c in checks)
     score=sum(c["score"]*WEIGHTS.get(c["name"],1) for c in checks)/tw
     grade="A" if score>=.9 else "B" if score>=.75 else "C" if score>=.6 else "D" if score>=.4 else "F"

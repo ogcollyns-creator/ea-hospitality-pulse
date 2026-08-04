@@ -39,6 +39,13 @@ jobs:
           python3 radar/tests/test_assign_verdict.py
           python3 radar/tests/test_prepublish_gate.py
           python3 radar/tests/test_validate_feeds.py
+          python3 radar/tests/test_content_audit.py
+
+      - name: Advisory integrity — board vs State Dept RSS
+        run: python3 radar/advisory_check.py || echo "::warning::advisory source unreachable this run"
+
+      - name: Post-publish content audit
+        run: python3 radar/content_audit.py --days 3
 
       - name: Grade pipeline and write report
         id: audit
