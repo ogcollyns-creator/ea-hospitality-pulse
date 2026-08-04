@@ -1,0 +1,78 @@
+{
+ "generated": "2026-08-04T13:49+03:00",
+ "health": 0.596,
+ "grade": "D",
+ "fails": [
+  "source coverage",
+  "signal quality"
+ ],
+ "warns": [
+  "ledger hygiene",
+  "rate-index integrity"
+ ],
+ "checks": [
+  {
+   "name": "source coverage",
+   "status": "FAIL",
+   "detail": "117 tier-1 sources: 74 HEALTHY, 26 MUTE, 17 SILENT. Blind examples: ke-gazettes-africa, ke-tenders, ug-gazette, ug-bou, tz-gazette, tz-mnrt",
+   "fix": "Give each blind tier-1 source an RSS/feed URL or frag selector; validate on the runner.",
+   "score": 0.0
+  },
+  {
+   "name": "source staleness",
+   "status": "PASS",
+   "detail": "No tier-1 HEALTHY source silent >14d.",
+   "fix": "",
+   "score": 1.0
+  },
+  {
+   "name": "radar feed freshness",
+   "status": "PASS",
+   "detail": "157 in-window obs; newest observation 0.6h old (2026-08-04T13:16:00+03:00).",
+   "fix": "",
+   "score": 1.0
+  },
+  {
+   "name": "edition cadence",
+   "status": "PASS",
+   "detail": "8 editions in last 2d; no slot gaps.",
+   "fix": "",
+   "score": 1.0
+  },
+  {
+   "name": "signal quality",
+   "status": "FAIL",
+   "detail": "4/5 editions in last 7d were Tier 2/3 (thin). Share 80%.",
+   "fix": "A high thin share means sourcing isn't finding real stories \u2014 widen scope / fix blind sources.",
+   "score": 0.0
+  },
+  {
+   "name": "ledger hygiene",
+   "status": "WARN",
+   "detail": "52 calls: 47 open, 5 resolved. Overdue-open: 0. Missing source_url: 18.",
+   "fix": "Backfill source_url on early calls.",
+   "score": 0.5
+  },
+  {
+   "name": "data freshness",
+   "status": "PASS",
+   "detail": "All tracked data files within their freshness limits.",
+   "fix": "",
+   "score": 1.0
+  },
+  {
+   "name": "rate-index integrity",
+   "status": "WARN",
+   "detail": "n values seen: [1, 2, 4, 5, 6, 8]; confident true=28 false=4.",
+   "fix": "Index still thin \u2014 never quote a median where n<3 or confident:false. Enforced in copy.",
+   "score": 0.5
+  },
+  {
+   "name": "forecast throughput",
+   "status": "PASS",
+   "detail": "26 new falsifiable calls logged in last 7d.",
+   "fix": "",
+   "score": 1.0
+  }
+ ]
+}
