@@ -1,0 +1,60 @@
+SOURCE COVERAGE AUDIT  (150 sources)  ledger=items.jsonl
+  HEALTHY 99   MUTE 30   SILENT 21
+
+── CRITICAL — tier-1 MUTE (blind fallback) (26) ─
+  [T1] ke-gazettes-africa         MUTE    items=0    pc=1   last=7.0d    gazette
+  [T1] ke-tenders                 MUTE    items=0    pc=1   last=7.0d    tender
+  [T1] ug-gazette                 MUTE    items=0    pc=1   last=7.0d    gazette
+  [T1] ug-bou                     MUTE    items=0    pc=1   last=7.0d    central-bank
+  [T1] tz-gazette                 MUTE    items=0    pc=3   last=0.0d    gazette
+  [T1] tz-mnrt                    MUTE    items=0    pc=1   last=7.0d    ministry
+  [T1] tz-tanapa                  MUTE    items=0    pc=1   last=7.0d    parks
+  [T1] tz-immigration             MUTE    items=0    pc=1   last=7.0d    entry-rules
+  [T1] tz-tenders                 MUTE    items=0    pc=1   last=7.0d    tender
+  [T1] zn-zrb                     MUTE    items=0    pc=1   last=7.0d    fiscal
+  [T1] zn-moh                     MUTE    items=0    pc=1   last=7.0d    health
+  [T1] rw-gazette                 MUTE    items=0    pc=4   last=0.0d    gazette
+  [T1] rw-bnr                     MUTE    items=0    pc=1   last=7.0d    central-bank
+  [T1] rw-visitrwanda             MUTE    items=0    pc=15  last=0.7d    dmo
+  [T1] who-don                    MUTE    items=0    pc=1   last=6.9d    health
+  [T1] air-ug                     MUTE    items=0    pc=1   last=7.0d    airline
+  [T1] air-tc                     MUTE    items=0    pc=1   last=7.0d    airline
+  [T1] air-jambojet               MUTE    items=0    pc=19  last=0.0d    airline
+  [T1] air-precision              MUTE    items=0    pc=1   last=7.0d    airline
+  [T1] air-airlink                MUTE    items=0    pc=13  last=0.4d    airline
+  [T1] dev-marriott               MUTE    items=0    pc=1   last=7.0d    hotel-group
+  [T1] dev-kempinski              MUTE    items=0    pc=1   last=7.0d    hotel-group
+  [T1] sm-wttc                    MUTE    items=0    pc=2   last=6.1d    body
+  [T1] us-fedreg-cdc              MUTE    items=0    pc=1   last=6.7d    advisory
+  [T1] ug-mediacentre             MUTE    items=0    pc=1   last=6.1d    gov-comms
+  [T1] ke-usembassy-alerts        MUTE    items=0    pc=1   last=6.0d    advisory
+
+── CRITICAL — tier-1 SILENT (no data ever) (17) ─
+  [T1] ke-epra-press              SILENT  items=0    pc=0   last=never   regulator
+  [T1] ke-epra-fuel               SILENT  items=0    pc=0   last=never   regulator
+  [T1] ke-kaa-tenders             SILENT  items=0    pc=0   last=never   tender
+  [T1] ug-ucaa                    SILENT  items=0    pc=0   last=never   aviation
+  [T1] ug-moh                     SILENT  items=0    pc=0   last=never   health
+  [T1] zn-ocgs                    SILENT  items=0    pc=0   last=never   statistics
+  [T1] zn-tourism                 SILENT  items=0    pc=0   last=never   dmo
+  [T1] cdc-travel-notices         SILENT  items=0    pc=0   last=never   health
+  [T1] adv-us-kenya               SILENT  items=0    pc=0   last=never   advisory
+  [T1] adv-us-uganda              SILENT  items=0    pc=0   last=never   advisory
+  [T1] adv-us-tanzania            SILENT  items=0    pc=0   last=never   advisory
+  [T1] adv-us-rwanda              SILENT  items=0    pc=0   last=never   advisory
+  [T1] adv-au-kenya               SILENT  items=0    pc=0   last=never   advisory
+  [T1] adv-au-tanzania            SILENT  items=0    pc=0   last=never   advisory
+  [T1] air-tk                     SILENT  items=0    pc=0   last=never   airline
+  [T1] sm-unwto                   SILENT  items=0    pc=0   last=never   body
+  [T1] osac-kenya                 SILENT  items=0    pc=0   last=never   advisory
+
+── tier-2+ MUTE or SILENT (8) ──────────────────
+  [T2] dev-costar                 SILENT  items=0    pc=0   last=never   research
+  [T2] dev-tophotel               SILENT  items=0    pc=0   last=never   trade
+  [T2] sm-forwardkeys             SILENT  items=0    pc=0   last=never   source-market
+  [T2] reliefweb-ea               MUTE    items=0    pc=1   last=7.0d    health
+  [T2] promed                     MUTE    items=0    pc=25  last=0.0d    health
+  [T2] chaviation                 MUTE    items=0    pc=1   last=7.0d    aviation-tracker
+  [T2] dev-whospitality           MUTE    items=0    pc=1   last=7.0d    research
+  [T3] dev-luxcollective          SILENT  items=0    pc=0   last=never   hotel-group
+

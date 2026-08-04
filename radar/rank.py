@@ -37,6 +37,13 @@ CAT_W = {
     "trade": 5, "press": 4, "aviation-body": 8,
 }
 
+# Categories where a page that moved is a must-open even if we could not parse
+# what changed. A tier-1 source in one of these that lands in scan_html's
+# page-change fallback must never be buried below the numeric cut — the
+# 2026-08-04 US Embassy dengue alert was missed for exactly this reason.
+MUST_OPEN_CATS = {"advisory", "health", "gazette", "entry-rules", "aviation",
+                  "central-bank", "parks", "regulator", "ministry", "airline"}
+
 # Words that mean an item touches demand, supply, cost, risk or reputation.
 RELEVANT = {
     3: ("advisory", "outbreak", "ebola", "marburg", "cholera", "quarantine", "curfew",
@@ -207,6 +214,33 @@ def score_item(row, covered, today, now_ts):
     return total, parts, hits, shock, match, round(sim, 2)
 
 
+def assign_verdict(c):
+    """Turn a scored candidate into an editor-facing verdict.
+
+    Ordered so disqualifiers win first, then the must-open escalation, then the
+    ordinary score-based tiers. Pure function of the candidate dict — unit
+    tested in radar/tests, no DB or network needed."""
+    comp = c["components"]
+    if comp.get("already_covered", 0) <= -70:
+        return "DROP — covered today"
+    if comp.get("already_covered", 0) < 0:
+        return "DEMOTE — covered in last 7d; needs a new development"
+    if comp.get("stale_trap", 0) <= -60:
+        return "DROP — stale trap: source date far outside window"
+    if comp.get("stale_trap", 0) < 0:
+        return "CHECK — source date older than the window"
+    if c["kind"] == "page-change" and c["tier"] == 1 and c["category"] in MUST_OPEN_CATS:
+        return (f"OPEN THIS — tier-1 {c['category']} page moved; "
+                "content not auto-parsed, read it manually")
+    if c["shock_terms"] and c["tier"] == 1:
+        return "LEAD CANDIDATE — tier-1 shock language"
+    if c["tier"] == 1 and c["score"] >= 90:
+        return "STRONG — tier-1, upstream"
+    if c["score"] >= 70:
+        return "CONSIDER"
+    return "weak"
+
+
 # ---------------------------------------------------------------- main
 
 def build(db, slot, since_ts, top, days):
@@ -237,23 +271,11 @@ def build(db, slot, since_ts, top, days):
             "verdict": None,
         })
     for c in cands:
-        if c["components"].get("already_covered", 0) <= -70:
-            c["verdict"] = "DROP — covered today"
-        elif c["components"].get("already_covered", 0) < 0:
-            c["verdict"] = "DEMOTE — covered in last 7d; needs a new development"
-        elif c["components"].get("stale_trap", 0) <= -60:
-            c["verdict"] = "DROP — stale trap: source date far outside window"
-        elif c["components"].get("stale_trap", 0) < 0:
-            c["verdict"] = "CHECK — source date older than the window"
-        elif c["shock_terms"] and c["tier"] == 1:
-            c["verdict"] = "LEAD CANDIDATE — tier-1 shock language"
-        elif c["tier"] == 1 and c["score"] >= 90:
-            c["verdict"] = "STRONG — tier-1, upstream"
-        elif c["score"] >= 70:
-            c["verdict"] = "CONSIDER"
-        else:
-            c["verdict"] = "weak"
-    cands.sort(key=lambda c: -c["score"])
+        c["verdict"] = assign_verdict(c)
+    # OPEN THIS / LEAD float to the top regardless of numeric score, so a
+    # must-open tier-1 page-change can never sit below the cut unread.
+    cands.sort(key=lambda c: (0 if c["verdict"].startswith(("OPEN THIS", "LEAD")) else 1,
+                              -c["score"]))
     return cands[:top], len(rows), covered
 
 
@@ -274,7 +296,9 @@ def to_markdown(cands, slot, since_ts, total_seen, n_covered):
     live = [c for c in cands if not c["verdict"].startswith(("DROP", "weak"))]
     dropped = [c for c in cands if c["verdict"].startswith("DROP")]
     for c in live:
-        flag = "🔴" if "LEAD" in c["verdict"] else ("🟠" if "STRONG" in c["verdict"] else "🟡")
+        flag = ("🚨" if "OPEN THIS" in c["verdict"] else
+                "🔴" if "LEAD" in c["verdict"] else
+                "🟠" if "STRONG" in c["verdict"] else "🟡")
         L.append(f"### {flag} [{c['score']}] {c['title'][:120]}")
         L.append(f"- **Verdict:** {c['verdict']}")
         L.append(f"- **Source:** {c['source']} · tier {c['tier']} · {c['country']} · {c['category']}")
