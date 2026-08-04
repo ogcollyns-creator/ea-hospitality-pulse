@@ -1,5 +1,14 @@
 window.EDITIONS = [
  {
+  "id": "pulse-2026-08-04-morning",
+  "date": "2026-08-04",
+  "dateDisplay": "Tuesday, 4 August 2026",
+  "edition": "Morning Brief",
+  "editionKey": "morning",
+  "summary": "No new story clears the gate this morning — so here's the week that decides three of our standing calls, plus what's still true and moving underneath.",
+  "bodyHtml": "<p><span class=\"meta-line\">🏨 EA HOSPITALITY PULSE — Morning Brief</span><br><span class=\"meta-line\">📅 Tuesday, 4 August 2026 | 🇰🇪🇹🇿🇺🇬🇷🇼</span></p>\n<p>No new story clears the gate this morning — so here&#x27;s the week that decides three of our standing calls, plus what&#x27;s still true and moving underneath.<br>━━━━━━━━━<br><span class=\"item-head\">1️⃣ THE 12 AUGUST WEEK — EIGHT DAYS TO THREE CALLS</span><br>Next Tuesday the US CDC §362 Ebola entry order expires (in force to 4:59pm EDT, 12 Aug, per 91 FR 43636, 16 Jul). Three of our open forecasts resolve around it. Our base case on all three is NO CHANGE: the order gets renewed with DRC still listed (DRC transmission is uncontrolled — 3,605 confirmed, 1,587 deaths, 44% CFR as at 30 Jul, per WHO DON614); the US keeps Uganda at Level 4 despite its 28 Jul end-of-outbreak declaration; and the rendered Kenya advisory page still reads &quot;17 March 2025&quot;. Scoreboard from last week: our DRC-caseload call (&gt;3,600) landed correct on 3 Aug; our call that Kenya&#x27;s domestic press would report the 29 Jul re-issue landed incorrect — they still haven&#x27;t, so our lead holds.<br><span class=\"sowhat\">🎯 So what: don&#x27;t wait for the 12 Aug headlines to plan. If the base case holds, there is nothing in next week&#x27;s decisions that justifies discounting Kenya, Uganda or coast rate through mid-August. Plan for continuity, not a shock.</span><br><span class=\"tagline\">🏷 All | Regional | Reported</span></p>\n<p><span class=\"item-head\">2️⃣ STILL TRUE: THE ADVISORY BOARD IS UNCHANGED</span><br>US: Kenya L2, Tanzania/Zanzibar L2, Uganda L4, Rwanda L3. UK: Kenya L2, Tanzania/Zanzibar L1, Uganda L3, Rwanda L2. Kenya&#x27;s Eastleigh &amp; Kibera remain Reconsider Travel (L3), NOT Do Not Travel — the primary page still dates 17 March 2025 (verified 2–3 Aug). No government has moved a level.<br><span class=\"sowhat\">🎯 So what: no basis to change rate or security messaging anywhere in the region this week. A confirmed &quot;no change&quot; tells you not to discount.</span><br><span class=\"tagline\">🏷 All | Regional | Confirmed</span></p>\n<p><span class=\"item-head\">3️⃣ COST PULSE: THE PLANNING WINDOW IS STILL OPEN</span><br>EPRA holds Nairobi diesel at KSh 222.86/L and super at KSh 214.03/L through 14 August — propped by the Petroleum Development Levy and the 8% petroleum VAT rate extended to 14 Oct. Murban crude, the leading indicator for the next review, softened to USD 67.99/bbl (−1.01 w/w, CBK bulletin) — the 15 Aug cycle is more likely to hold or fall than rise. KES steady at 129.30/USD; reserves at 6.0 months&#x27; cover. The quiet killer: Kenya electricity pass-through charges now top KSh 5/kWh and rose again in July.<br><span class=\"sowhat\">🎯 So what: lock safari-transfer and generator-fuel contracts now, before the 15 Aug review and the October VAT cliff. Read the pass-through line on the power bill, not the tariff band.</span><br><span class=\"tagline\">🏷 Bush | Kenya | Confirmed</span><br>━━━━━━━━━<br><span class=\"meta-line\">📡 WEEK AHEAD</span><br>• Fri 8 Aug — CBK weekly bulletin (FX, reserves)<br>• Tue 12 Aug — US CDC §362 order expires; watch renewal + whether Uganda stays listed (calls P044/P034/P040 resolve)<br>• Fri 15 Aug — EPRA fuel review (calls P025/P028 resolve)<br>• 19–21 Aug — Hotel Expo Kenya, KICC Nairobi — a city-hotel midweek compression window<br>• 28 Aug — World Travel Awards Africa Gala, Zanzibar — north/east-coast compression</p>\n<p><span class=\"meta-line\">💬 Watching a rate decision hang on the 12 Aug call? Tell us which market — we&#x27;ll track it with you.</span></p>\n<p>🔗 This edition on the web: https://eahospitalitypulse.com/editions/pulse-2026-08-04-morning.html<br>— EA Hospitality Pulse | Daily intelligence for city, bush &amp; beach properties</p>"
+ },
+ {
   "id": "pulse-2026-08-03-evening",
   "date": "2026-08-03",
   "dateDisplay": "Monday, 3 August 2026",
@@ -262,6 +271,21 @@ window.EDITIONS = [
  }
 ];
 window.INSIGHTS = [
+ {
+  "headline": "COST PULSE: THE PLANNING WINDOW IS STILL OPEN",
+  "body": "EPRA holds Nairobi diesel at KSh 222.86/L and super at KSh 214.03/L through 14 August — propped by the Petroleum Development Levy and the 8% petroleum VAT rate extended to 14 Oct. Murban crude, the leading indicator for the next review, softened to USD 67.99/bbl (−1.01 w/w, CBK bulletin) — the 15 Aug cycle is more likely to hold or fall than rise. KES steady at 129.30/USD; reserves at 6.0 months' cover. The quiet killer: Kenya electricity pass-through charges now top KSh 5/kWh and rose again in July.",
+  "sowhat": "🎯 So what: lock safari-transfer and generator-fuel contracts now, before the 15 Aug review and the October VAT cliff. Read the pass-through line on the power bill, not the tariff band.",
+  "segments": [
+   "bush"
+  ],
+  "countries": "Kenya",
+  "confidence": "Confirmed",
+  "source": "pulse-2026-08-04-morning",
+  "date": "2026-08-04",
+  "dateDisplay": "Tuesday, 4 August 2026",
+  "edition": "Morning Brief",
+  "editionKey": "morning"
+ },
  {
   "headline": "THE \"NEW\" KENYA ADVISORY IS A 502-DAY-OLD ARTICLE",
   "body": "On 25 July we predicted the Kenyan press would report the 29 July US advisory re-issue by today. It hasn't. What's recirculating instead is a Citizen Digital piece published 18 March 2025 — its metadata silently re-stamped \"modified 2 August 2026\" — resurfacing in search as if current. The text is the old advisory. We read the primary page ourselves this morning: travel.state.gov still dates Kenya \"March 17, 2025\" and still lists Eastleigh & Kibera as Reconsider Travel (Level 3), NOT \"Do Not Travel\". No outlet has independently covered the re-issue.",
@@ -1521,4 +1545,4 @@ window.INSIGHTS = [
   "editionKey": "evening"
  }
 ];
-window.BUILT_AT = "2026-08-03 14:26";
+window.BUILT_AT = "2026-08-04 08:30";
