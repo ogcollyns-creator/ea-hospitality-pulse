@@ -1,5 +1,5 @@
 window.RATE_INDEX = {
- "updated": "2026-08-03 14:01",
+ "updated": "2026-08-04 12:25",
  "convention": {
   "los": 2,
   "lead_days": 30,
@@ -11,7 +11,7 @@ window.RATE_INDEX = {
  "method": "chain-linked matched-sample",
  "methodNote": "Each property is compared only with itself, so the index measures rate MOVEMENT validly even though the basket mixes meal bases and rate types. Raw medians are context only and are not comparable across markets — check levelComparable before quoting a level.",
  "spreadNote": "Commission-leakage spread = median of (OTA rate / direct rate - 1) for the same property in the same week. Computed only where the direct rate is room-only or B&B, since an OTA lowest rate is not comparable with a fully-inclusive safari rate. Markets where no property qualifies report null.",
- "totalObservations": 125,
+ "totalObservations": 126,
  "distinctProperties": 107,
  "basketSize": 136,
  "markets": {
@@ -113,16 +113,16 @@ window.RATE_INDEX = {
      {
       "week": "2026-W32",
       "weekStart": "2026-08-03",
-      "median": 268.0,
-      "n": 4,
-      "observations": 4,
-      "coverage": 25,
+      "median": 236.0,
+      "n": 5,
+      "observations": 5,
+      "coverage": 31,
       "confident": true,
       "basisMix": {
-       "UNK": 4
+       "UNK": 5
       },
       "rateTypeMix": {
-       "international": 4
+       "international": 5
       },
       "levelComparable": true,
       "matched": 0,
@@ -133,16 +133,16 @@ window.RATE_INDEX = {
     "latest": {
      "week": "2026-W32",
      "weekStart": "2026-08-03",
-     "median": 268.0,
-     "n": 4,
-     "observations": 4,
-     "coverage": 25,
+     "median": 236.0,
+     "n": 5,
+     "observations": 5,
+     "coverage": 31,
      "confident": true,
      "basisMix": {
-      "UNK": 4
+      "UNK": 5
      },
      "rateTypeMix": {
-      "international": 4
+      "international": 5
      },
      "levelComparable": true,
      "matched": 0,
@@ -155,16 +155,16 @@ window.RATE_INDEX = {
     {
      "week": "2026-W32",
      "weekStart": "2026-08-03",
-     "spreadPct": -53.6,
-     "n": 2,
+     "spreadPct": -51.2,
+     "n": 3,
      "skippedNonComparableBasis": 0
     }
    ],
    "spreadLatest": {
     "week": "2026-W32",
     "weekStart": "2026-08-03",
-    "spreadPct": -53.6,
-    "n": 2,
+    "spreadPct": -51.2,
+    "n": 3,
     "skippedNonComparableBasis": 0
    }
   },
