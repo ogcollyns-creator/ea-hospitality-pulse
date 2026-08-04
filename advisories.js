@@ -2,7 +2,7 @@
 // Levels reflect MAIN TOURIST AREAS; regional exceptions are in the notes.
 // Maintained by the scheduled Pulse task; verify against the official source before travel.
 window.ADVISORIES = {
-  updated: "2 August 2026 (evening)",
+  updated: "4 August 2026 (midday — TZ & ZNZ US level corrected 2→3, verified vs travel.state.gov)",
   rows: [
     { code:"KE", name:"Kenya", flag:"🇰🇪",
       us:{ level:2, note:"Terrorism & crime. Higher risk on the Somalia border and parts of the north coast (Lamu). Eastleigh & Kibera are Reconsider Travel (Level 3), NOT Do Not Travel. Rendered page still dated 17 March 2025 when checked 2 Aug 2026 — the late-July re-issue did not change the page text." },
@@ -11,10 +11,10 @@ window.ADVISORIES = {
       us:{ level:4, note:"Do not travel — Ebola (Bundibugyo) outbreak in the region." },
       uk:{ level:3, note:"Against all-but-essential travel to parts of western Uganda (Queen Elizabeth & Semuliki NP). Elections aftermath — avoid crowds." } },
     { code:"TZ", name:"Tanzania", flag:"🇹🇿",
-      us:{ level:2, note:"Exercise increased caution." },
+      us:{ level:3, note:"Reconsider travel — RAISED from Level 2 to 3 on 31 Oct 2025 ('unrest' indicator added). Grounds: unrest, crime, terrorism (highest risk in the Mtwara Region near the Mozambique border), and targeting of gay & lesbian individuals. Verified vs travel.state.gov 4 Aug 2026." },
       uk:{ level:1, note:"No advisory against travel except within 20km of the Mozambique (Cabo Delgado) border." } },
     { code:"ZNZ", name:"Zanzibar", flag:"🇹🇿",
-      us:{ level:2, note:"As mainland Tanzania; no Zanzibar-specific warning." },
+      us:{ level:3, note:"As mainland Tanzania (Level 3 since 31 Oct 2025); no Zanzibar-specific carve-out. Verified 4 Aug 2026." },
       uk:{ level:1, note:"No advisory against travel." } },
     { code:"RW", name:"Rwanda", flag:"🇷🇼",
       us:{ level:3, note:"Reconsider travel — regional Ebola risk and DRC border security." },
