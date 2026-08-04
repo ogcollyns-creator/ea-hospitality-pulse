@@ -1,0 +1,58 @@
+name: Daily self-audit
+
+# Grades every subsystem of the pipeline once a day and commits the report to
+# radar/out/self-audit-latest.md (+ a history CSV). Runs BEFORE the morning
+# scan/edition so a degraded pipeline is visible while there is still time to
+# act. --strict makes the run red on any FAIL, so a blind source or a week of
+# thin editions shows up as a failed check, not a silent drift.
+
+on:
+  schedule:
+    - cron: '50 2 * * *'    # 05:50 EAT — ahead of the 06:20 radar scan
+  workflow_dispatch:
+
+concurrency:
+  group: self-audit
+  cancel-in-progress: false
+
+permissions:
+  contents: write
+
+jobs:
+  audit:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          token: ${{ secrets.PUSH_TOKEN }}
+          persist-credentials: true
+
+      # Replay the committed ledger so source coverage is judged on the full
+      # first_seen record, not just whatever a fresh checkout happens to hold.
+      - name: Replay ledger
+        run: python3 radar/scan.py restore || true
+
+      - name: Run self-audit tests
+        run: |
+          python3 radar/tests/test_self_audit.py
+          python3 radar/tests/test_assign_verdict.py
+
+      - name: Grade pipeline and write report
+        id: audit
+        run: |
+          python3 radar/self_audit.py --write || true
+          python3 radar/self_audit.py
+
+      - name: Commit report
+        run: |
+          git config user.email 'ogcollyns@gmail.com'
+          git config user.name 'EA Hospitality Pulse'
+          git add -A radar/out/self-audit-latest.md radar/out/self-audit-latest.json radar/out/self-audit-history.csv
+          git diff --staged --quiet || git commit -m "Self-audit $(date -u +'%Y-%m-%d %H:%M UTC')"
+          git push origin HEAD:main || true
+
+      # Fail the run (red X) if any check FAILed, so it is visible in the
+      # Actions tab without anyone opening the report.
+      - name: Gate on FAILs
+        run: python3 radar/self_audit.py --strict
