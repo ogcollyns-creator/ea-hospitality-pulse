@@ -1,5 +1,14 @@
 window.EDITIONS = [
  {
+  "id": "pulse-2026-08-04-evening",
+  "date": "2026-08-04",
+  "dateDisplay": "Tuesday, 4 August 2026",
+  "edition": "Evening Wrap",
+  "editionKey": "evening",
+  "summary": "Two things tonight: a correction, and a supply signal you can plan against.",
+  "bodyHtml": "<p><span class=\"meta-line\">🏨 EA HOSPITALITY PULSE — Evening Wrap</span><br><span class=\"meta-line\">📅 Tuesday, 4 August 2026 | 🇹🇿🇰🇪</span></p>\n<p>Two things tonight: a correction, and a supply signal you can plan against.</p>\n<p>━━━━━━━━━<br>⚠️ CORRECTION — TANZANIA &amp; ZANZIBAR ARE US LEVEL 3, NOT LEVEL 2<br>Our 1–4 August editions carried Tanzania and Zanzibar at US Level 2. That was wrong. The US State Department raised Tanzania to <strong>Level 3 — Reconsider Travel on 31 October 2025</strong> (grounds: unrest, crime, terrorism — highest in the far-south Mtwara Region — and targeting of gay &amp; lesbian individuals). Zanzibar follows the mainland. We&#x27;ve verified it against travel.state.gov and corrected the status board.<br><span class=\"sowhat\">🎯 So what: the regional US board now reads Kenya L2, Tanzania L3, Zanzibar L3, Uganda L4, Rwanda L3 — Tanzania and Zanzibar sit a full level above Kenya, and have for nine months while the market watched Uganda&#x27;s Ebola L4. The divergence that matters: the <strong>UK still rates Tanzania/Zanzibar Level 1 — no warning at all.</strong> So your US guests see &quot;Reconsider Travel&quot; and your UK guests see nothing. For US-sourced clients booking the northern safari circuit or a Zanzibar beach week, have a calm, factual answer ready — the L3 risk drivers sit on the mainland, concentrated far from the Serengeti and the north-coast beaches. Inform; don&#x27;t discount, and don&#x27;t let a client conflate an advisory headline with the Ngorongoro rim.</span><br><span class=\"tagline\">🏷 All | Tanzania | Confirmed</span></p>\n<p>🌍→🌍 THE ZANZIBAR SUPPLY DECISION MADE IN BARCELONA<br>On 22 July, in Barcelona, Marriott signed a dual all-inclusive deal with Spain&#x27;s Catalonia Hotels &amp; Resorts — one a <strong>271-key Autograph Collection all-inclusive on Zanzibar, opening 2027</strong> (per Marriott/PR Newswire). Read it next to <strong>Iberostar&#x27;s 358-key Selection Zanzibar</strong> on Muyuni Beach, opening November 2026 — Iberostar&#x27;s first East African resort. Roughly 600 branded all-inclusive keys are now programmed onto the north/east coast for 2026–27.<br><span class=\"sowhat\">🎯 So what: all-inclusive competes on <strong>total trip price, not nightly rate</strong>, and this capacity was decided in European boardrooms feeding European charter demand. Independent Zanzibar resorts selling room-only or B&amp;B into that same demand will find the package comparison harder from 2026. You have 12–18 months: either build a credible package/all-inclusive answer, or sharpen a room-only proposition — location, authenticity, service — that a 271-key box can&#x27;t copy. Use the 2026 openings as your pricing reference; don&#x27;t wait for the doors to open to plan.</span><br><span class=\"tagline\">🏷 Beach | Zanzibar | Confirmed (signings) + Inferred (pricing)</span><br>━━━━━━━━━<br>🔗 This edition on the web: https://eahospitalitypulse.com/editions/pulse-2026-08-04-evening.html<br>💼 Today&#x27;s Big Read on LinkedIn: https://www.linkedin.com/company/ea-hospitality-pulse/<br>— EA Hospitality Pulse | Daily intelligence for city, bush &amp; beach properties</p>"
+ },
+ {
   "id": "pulse-2026-08-04-midday",
   "date": "2026-08-04",
   "dateDisplay": "Tuesday, 4 August 2026",
@@ -1569,4 +1578,4 @@ window.INSIGHTS = [
   "editionKey": "evening"
  }
 ];
-window.BUILT_AT = "2026-08-04 16:30";
+window.BUILT_AT = "2026-08-04 16:55";

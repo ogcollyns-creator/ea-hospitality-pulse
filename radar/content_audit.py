@@ -29,16 +29,23 @@ TOKEN=re.compile(
     r'\s*(?:/\s*(?P<c2>Zanzibar|ZNZ))?\s*[-–:]?\s*(?:Level\s*|L)\s*(?P<lvl>[1-4])\b')
 
 def claims_in(text):
-    ctx="us"  # default: unmarked advisory mentions are US
+    ctx="us"  # running context from the last 'US:'/'UK:' marker; default US
     for m in TOKEN.finditer(text):
         if m.group("ctx"):
             ctx = "uk" if m.group("ctx").upper().startswith(("UK","BRIT")) else "us"; continue
+        # local override: a UK/British or US/American word just before the claim wins
+        window=text[max(0,m.start()-45):m.start()].lower()
+        local=ctx
+        uk_i=max(window.rfind("uk"),window.rfind("british"),window.rfind("united kingdom"))
+        us_i=max(window.rfind("us"),window.rfind("american"),window.rfind("united states"),window.rfind("u.s"))
+        if uk_i>us_i and uk_i!=-1: local="uk"
+        elif us_i>uk_i and us_i!=-1: local="us"
         code=NAME2CODE.get(m.group("c").lower()); lvl=int(m.group("lvl"))
         snip=text[max(0,m.start()-24):m.end()+8].replace("\n"," ").strip()
-        if code: yield code, ctx, lvl, snip
+        if code: yield code, local, lvl, snip
         if m.group("c2"):
             c2=NAME2CODE.get(m.group("c2").lower())
-            if c2: yield c2, ctx, lvl, snip
+            if c2: yield c2, local, lvl, snip
 
 def find_conflicts(days=3):
     board=board_levels(); today=datetime.date.today()
@@ -46,11 +53,19 @@ def find_conflicts(days=3):
            if (m:=re.search(r'(\d{4}-\d{2}-\d{2})',os.path.basename(p))) and
               (today-datetime.date.fromisoformat(m.group(1))).days<=days]
     conflicts=[]  # (file, code, CTX, published, current, snippet)
+    # countries whose error has been publicly corrected (a 'Correction' line stating
+    # the country at its current board level) — do not keep flagging the old editions.
+    corrected=set()
+    for p in files:
+        t=open(p).read()
+        if re.search(r'correction', t, re.I):
+            for code,ctx,lvl,_ in claims_in(t):
+                if ctx=="us" and lvl==board.get(code,{}).get("us"): corrected.add(code)
     for p in files:
         seen=set()
         for code,ctx,lvl,snip in claims_in(open(p).read()):
             cur=board.get(code,{}).get(ctx)
-            if cur is not None and lvl!=cur and (code,ctx,lvl) not in seen:
+            if cur is not None and lvl!=cur and code not in corrected and (code,ctx,lvl) not in seen:
                 seen.add((code,ctx,lvl))
                 conflicts.append((os.path.basename(p),code,ctx.upper(),lvl,cur,snip))
     return files, conflicts
