@@ -1,0 +1,51 @@
+name: Validate & promote source feeds
+
+# Manual, live-network remediation for the blind tier-1 sources. Reads
+# radar/feed_candidates.json, fetches each candidate (and auto-discovers each
+# page's advertised feed), and promotes into registry.json ONLY the ones that
+# actually parse into items. Wrong guesses fail safely and leave the source
+# untouched. Run this, review radar/out/feed-validation.md, then let the next
+# radar scan pick up the promoted feeds.
+
+on:
+  workflow_dispatch:
+    inputs:
+      mode:
+        description: 'promote (live-validate + write) or apply-disables (offline, redundant sources only)'
+        required: true
+        type: choice
+        default: promote
+        options: [promote, apply-disables]
+
+permissions:
+  contents: write
+
+jobs:
+  validate:
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          token: ${{ secrets.PUSH_TOKEN }}
+          persist-credentials: true
+
+      - name: Replay ledger (so coverage/state is warm)
+        run: python3 radar/scan.py restore || true
+
+      - name: Self-test the validator logic
+        run: python3 radar/tests/test_validate_feeds.py
+
+      - name: Validate and promote
+        run: python3 radar/validate_feeds.py --${{ inputs.mode }}
+
+      - name: Show what changed
+        run: git --no-pager diff -- radar/registry.json | head -200 || true
+
+      - name: Commit promoted feeds + report
+        run: |
+          git config user.email 'ogcollyns@gmail.com'
+          git config user.name 'EA Hospitality Pulse'
+          git add -A radar/registry.json radar/out/feed-validation.md
+          git diff --staged --quiet || git commit -m "Feed validation: promote verified feeds $(date -u +'%Y-%m-%d %H:%M UTC')"
+          git push origin HEAD:main
