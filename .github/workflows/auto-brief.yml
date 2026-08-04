@@ -1,0 +1,60 @@
+name: Cloud auto-brief (fallback edition)
+
+# Ships a Tier-2 Standing Brief from the cloud so the Pulse runs with no desktop
+# app. Assembles VERIFIED repo data only (corrected advisory board, forecast
+# ledger, radar feed) — it cannot fabricate — runs the same editorial gates, and
+# publishes. It runs ~50 min AFTER each slot and SKIPS if a richer edition for the
+# slot already exists, so it never overrides a desktop Tier-1 or double-posts.
+
+on:
+  schedule:
+    - cron: '50 4 * * *'    # 07:50 EAT — after the Morning slot
+    - cron: '50 10 * * *'   # 13:50 EAT — after the Midday slot
+    - cron: '50 16 * * *'   # 19:50 EAT — after the Evening slot
+  workflow_dispatch:
+    inputs:
+      slot:
+        description: 'Force a slot (blank = auto by time)'
+        required: false
+        type: choice
+        options: ['', morning, midday, evening]
+
+concurrency:
+  group: auto-brief
+  cancel-in-progress: false
+
+permissions:
+  contents: write
+
+jobs:
+  brief:
+    runs-on: ubuntu-latest
+    timeout-minutes: 12
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          persist-credentials: false
+
+      - name: Self-test the generator
+        run: python3 radar/tests/test_auto_brief.py
+
+      - name: Generate brief (skips if a richer edition already exists)
+        id: gen
+        run: |
+          python3 radar/auto_brief.py ${{ inputs.slot && format('--slot {0}', inputs.slot) || '' }}
+
+      - name: Editorial gates + publish (only if a new brief was written)
+        env:
+          TOKEN: ${{ secrets.PUSH_TOKEN }}
+        run: |
+          NEW=$(git ls-files --others --exclude-standard editions-src/)
+          if [ -z "$NEW" ]; then echo "No new brief (slot already covered). Done."; exit 0; fi
+          echo "New brief: $NEW"
+          python3 radar/prepublish_gate.py $NEW --fix --strict
+          python3 radar/advisory_check.py || echo "::warning::advisory source unreachable"
+          python3 radar/content_audit.py --days 3 --strict
+          git config user.email 'ogcollyns@gmail.com'
+          git config user.name 'EA Hospitality Pulse'
+          git add -A editions-src
+          git commit -m "Cloud auto-brief $(date -u +'%Y-%m-%d %H:%M UTC')"
+          git push "https://x-access-token:${TOKEN}@github.com/${{ github.repository }}.git" HEAD:main
