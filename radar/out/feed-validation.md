@@ -1,13 +1,11 @@
 # Feed validation — 2026-08-05
 
-## PROMOTED (10)
+## PROMOTED (8)
 - `who-don` — rss https://www.who.int/rss-feeds/news-english.xml (25 items)
 - `us-fedreg-cdc` — rss https://www.federalregister.gov/api/v1/documents.rss?conditions%5Bagencies%5D%5B%5D=centers-for-disease-control-and-prevention&order=newest (25 items)
 - `air-ug` — html https://www.ugandairlines.com/news (1 items)
 - `ug-moh` — rss https://health.go.ug/feed/ (10 items)
-- `ke-gazettes-africa` — html https://gazettes.africa/gazettes/ke (2 items)
 - `ug-gazette` — html https://gazettes.africa/gazettes/ug (2 items)
-- `tz-gazette` — html https://gazettes.africa/gazettes/tz (2 items)
 - `rw-gazette` — html https://gazettes.africa/gazettes/rw (2 items)
 - `tz-tanapa` — html https://www.tanzaniaparks.go.tz/ (1 items)
 - `zn-zrb` — html https://www.zrb.go.tz/ (1 items)
@@ -18,9 +16,9 @@
 - `adv-us-tanzania` — Redundant: covered by adv-us-ea RSS.
 - `adv-us-rwanda` — Redundant: covered by adv-us-ea RSS.
 
-## UNRESOLVED (29)
-- `ke-usembassy-alerts` — no feed found
-- `ug-mediacentre` — no feed found
+## UNRESOLVED (31)
+- `ke-usembassy-alerts` — no feed found | tries: rss n=0 ok; rss n=0 ok; rss n=0 ok; html n=0 ok
+- `ug-mediacentre` — no feed found | tries: rss n=0 ok; rss n=0 ok; html n=0 ok
 - `cdc-travel-notices` — browser-fetch
 - `sm-unwto` — deprioritise
 - `sm-wttc` — deprioritise
@@ -37,14 +35,16 @@
 - `osac-kenya` — headless
 - `ke-epra-press` — headless
 - `ke-epra-fuel` — headless
-- `ke-tenders` — inspect
-- `tz-tenders` — inspect
-- `ke-kaa-tenders` — inspect
-- `ug-bou` — inspect
-- `rw-bnr` — inspect
-- `tz-mnrt` — inspect
-- `tz-immigration` — inspect
-- `zn-moh` — inspect
-- `zn-ocgs` — inspect
-- `zn-tourism` — inspect
-- `ug-ucaa` — inspect
+- `ke-gazettes-africa` — inspect | tries: html n=-1 fetch failed: FetchError: HTTP 522
+- `tz-gazette` — inspect | tries: html n=-1 fetch failed: FetchError: HTTP 520
+- `ke-tenders` — inspect | tries: html n=0 ok
+- `tz-tenders` — inspect | tries: html n=0 ok
+- `ke-kaa-tenders` — inspect | tries: html n=-1 fetch failed: FetchError: HTTP 404
+- `ug-bou` — inspect | tries: html n=0 ok; html n=0 ok
+- `rw-bnr` — inspect | tries: html n=0 ok; html n=0 ok
+- `tz-mnrt` — inspect | tries: html n=0 ok
+- `tz-immigration` — inspect | tries: html n=0 ok
+- `zn-moh` — inspect | tries: html n=0 ok
+- `zn-ocgs` — inspect | tries: html n=-1 fetch failed: FetchError: RemoteDisconnected: Remote end closed connection without res
+- `zn-tourism` — inspect | tries: html n=-1 fetch failed: FetchError: URLError: timed out
+- `ug-ucaa` — inspect | tries: html n=-1 fetch failed: FetchError: URLError: [Errno -2] Name or service not known
