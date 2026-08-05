@@ -71,16 +71,23 @@ def validate_plan(sid, src, plan, probe, discover):
     if plan.get("action") == "disable":
         src["enabled"] = False
         return "DISABLED", plan.get("reason", "")
+    diag = []
     for c in plan.get("try", []):
         n, msg = probe(c["url"], c["method"], c.get("frag"), c.get("min_len"))
         if n >= 1:
             promote(sid, src, c["method"], c["url"], c.get("frag"), c.get("min_len"))
             return "PROMOTED", f"{c['method']} {c['url']} ({n} items)"
+        # n==0 means fetched-but-empty (JS render / needs frag / wrong subpage);
+        # n==-1 means fetch/parse failed (bot wall / cert / 403 -> headless).
+        diag.append(f"{c['method']} n={n} {msg}")
     feed, n = discover(src["url"])
     if feed and n >= 1:
         promote(sid, src, "rss", feed)
         return "PROMOTED", f"auto-discovered {feed} ({n} items)"
-    return "UNRESOLVED", plan.get("needs") or plan.get("reason") or "no feed found"
+    base = plan.get("needs") or plan.get("reason") or "no feed found"
+    if diag:
+        base += " | tries: " + "; ".join(diag)
+    return "UNRESOLVED", base
 
 
 def run_promote():
