@@ -78,7 +78,7 @@ jobs:
         run: |
           git config user.email 'ogcollyns@gmail.com'
           git config user.name 'EA Hospitality Pulse'
-          git add -A radar/registry.json radar/out/feed-validation.md
+          git add -A radar/registry.json radar/out/feed-validation.md radar/out/headless-probe.md
           if git diff --staged --quiet; then echo "nothing to commit"; exit 0; fi
           git commit -m "Feed validation: promote verified feeds $(date -u +'%Y-%m-%d %H:%M UTC')"
           if [ -z "$TOKEN" ]; then
