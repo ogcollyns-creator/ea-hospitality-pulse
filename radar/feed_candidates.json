@@ -3,44 +3,24 @@
   "note": "Remediation candidates for the blind tier-1 sources. INERT until radar/validate_feeds.py --promote proves each parses on a live-network runner. 'try' = rss/html attempts (html carries an optional min_len for short-anchor gov listings); the validator ALSO auto-discovers each page's advertised feed, so a wrong guess is harmless. 'action:disable' applies offline. 'needs:headless' sources are NOT auto-promoted; their 'try_headless' target is used only by --probe-headless (diagnostic, non-mutating) to report whether a rendered fetch would yield items.",
   "candidates": {
     "ke-usembassy-alerts": {
-      "try": [
+      "needs": "headless",
+      "reason": "run #5: html fetched but 0 items -> JS-rendered, not short-anchor; needs production render path",
+      "try_headless": [
         {
-          "method": "rss",
-          "url": "https://ke.usembassy.gov/feed/"
-        },
-        {
-          "method": "rss",
-          "url": "https://ke.usembassy.gov/category/alert/feed/"
-        },
-        {
-          "method": "rss",
-          "url": "https://ke.usembassy.gov/category/messages-for-u-s-citizens/feed/"
-        },
-        {
-          "method": "html",
           "url": "https://ke.usembassy.gov/category/alert/",
           "min_len": 16
         }
-      ],
-      "note": "WordPress site feed + category feeds; if all fail the CDN is walling the runner (needs browser fetch)"
+      ]
     },
     "ug-mediacentre": {
-      "try": [
+      "needs": "headless",
+      "reason": "run #5: html fetched but 0 items -> JS-rendered, not short-anchor; needs production render path",
+      "try_headless": [
         {
-          "method": "rss",
-          "url": "https://mediacentre.go.ug/feed/"
-        },
-        {
-          "method": "rss",
-          "url": "https://www.mediacentre.go.ug/feed/"
-        },
-        {
-          "method": "html",
           "url": "https://mediacentre.go.ug/press-room/",
           "min_len": 16
         }
-      ],
-      "note": "WordPress feed"
+      ]
     },
     "who-don": {
       "try": [
@@ -268,7 +248,7 @@
         }
       ],
       "needs": "inspect",
-      "reason": "gazettes.africa short-anchor listing; low min_len extracts 'Vol./Legal Notice' anchors; html+min_len adapter, auto-discover fallback"
+      "reason": "gazettes.africa Cloudflare 522 (transient); already promoted run #4, retry re-confirms"
     },
     "ug-gazette": {
       "try": [
@@ -290,7 +270,7 @@
         }
       ],
       "needs": "inspect",
-      "reason": "gazettes.africa short-anchor listing; html+min_len adapter, auto-discover fallback"
+      "reason": "gazettes.africa Cloudflare 520 (transient); already promoted run #4"
     },
     "rw-gazette": {
       "try": [
@@ -304,80 +284,65 @@
       "reason": "gazettes.africa short-anchor listing; html+min_len adapter, auto-discover fallback"
     },
     "ke-tenders": {
-      "try": [
+      "needs": "headless",
+      "reason": "run #5: html fetched but 0 items -> JS-rendered, not short-anchor; needs production render path",
+      "try_headless": [
         {
-          "method": "html",
           "url": "https://tenders.go.ke/",
           "min_len": 12
         }
-      ],
-      "needs": "inspect",
-      "reason": "tenders.go.ke short-anchor table; html+min_len adapter, auto-discover fallback"
+      ]
     },
     "tz-tenders": {
-      "try": [
+      "needs": "headless",
+      "reason": "run #5: html fetched but 0 items -> JS-rendered, not short-anchor; needs production render path",
+      "try_headless": [
         {
-          "method": "html",
           "url": "https://nest.go.tz/",
           "min_len": 12
         }
-      ],
-      "needs": "inspect",
-      "reason": "nest.go.tz table; html+min_len adapter, auto-discover fallback"
+      ]
     },
     "ke-kaa-tenders": {
       "try": [
         {
           "method": "html",
-          "url": "https://www.kaa.go.ke/corporate/tenders/",
+          "url": "https://www.kaa.go.ke/corporate/procurement/tenders/",
           "min_len": 12
         }
       ],
       "needs": "inspect",
-      "reason": "KAA tenders table; html+min_len adapter, auto-discover fallback"
+      "reason": "corrected URL (old /corporate/tenders/ was 404); procurement/tenders listing"
     },
     "ug-bou": {
-      "try": [
+      "needs": "headless",
+      "reason": "run #5: html fetched but 0 items -> JS-rendered, not short-anchor; needs production render path",
+      "try_headless": [
         {
-          "method": "html",
           "url": "https://www.bou.or.ug/bouwebsite/Media/",
           "min_len": 12
-        },
-        {
-          "method": "html",
-          "url": "https://www.bou.or.ug/",
-          "min_len": 14
         }
-      ],
-      "needs": "inspect",
-      "reason": "BoU media/press listing; html+min_len, auto-discover fallback"
+      ]
     },
     "rw-bnr": {
-      "try": [
+      "needs": "headless",
+      "reason": "run #5: html fetched but 0 items -> JS-rendered, not short-anchor; needs production render path",
+      "try_headless": [
         {
-          "method": "html",
           "url": "https://www.bnr.rw/news/",
           "min_len": 12
-        },
-        {
-          "method": "html",
-          "url": "https://www.bnr.rw/",
-          "min_len": 14
         }
-      ],
-      "needs": "inspect",
-      "reason": "BNR news listing; html+min_len, auto-discover fallback"
+      ]
     },
     "tz-mnrt": {
-      "try": [
+      "needs": "headless",
+      "reason": "run #5: html fetched but 0 items -> JS-rendered, not short-anchor; needs production render path",
+      "try_headless": [
         {
-          "method": "html",
           "url": "https://www.maliasili.go.tz/",
           "min_len": 12
         }
-      ],
-      "needs": "inspect",
-      "reason": "ministry listing, short anchors; html+min_len adapter, auto-discover fallback"
+      ]
     },
     "tz-tanapa": {
       "try": [
@@ -391,15 +356,14 @@
       "reason": "TANAPA park-fee/notice listing; html+min_len adapter, auto-discover fallback"
     },
     "tz-immigration": {
-      "try": [
+      "needs": "headless",
+      "reason": "run #5: html fetched but 0 items -> JS-rendered, not short-anchor; needs production render path",
+      "try_headless": [
         {
-          "method": "html",
           "url": "https://www.immigration.go.tz/",
           "min_len": 12
         }
-      ],
-      "needs": "inspect",
-      "reason": "immigration entry-rules listing; html+min_len adapter, auto-discover fallback"
+      ]
     },
     "zn-zrb": {
       "try": [
@@ -413,15 +377,14 @@
       "reason": "Zanzibar revenue board listing; html+min_len adapter, auto-discover fallback"
     },
     "zn-moh": {
-      "try": [
+      "needs": "headless",
+      "reason": "run #5: html fetched but 0 items -> JS-rendered, not short-anchor; needs production render path",
+      "try_headless": [
         {
-          "method": "html",
           "url": "https://www.mohz.go.tz/",
           "min_len": 12
         }
-      ],
-      "needs": "inspect",
-      "reason": "Zanzibar health listing; html+min_len adapter, auto-discover fallback"
+      ]
     },
     "zn-ocgs": {
       "try": [
@@ -432,7 +395,7 @@
         }
       ],
       "needs": "inspect",
-      "reason": "Zanzibar statistics listing; html+min_len adapter, auto-discover fallback"
+      "reason": "gov server closed connection (transient); html+min_len, retry"
     },
     "zn-tourism": {
       "try": [
@@ -443,18 +406,18 @@
         }
       ],
       "needs": "inspect",
-      "reason": "Zanzibar tourism listing; html+min_len adapter, auto-discover fallback"
+      "reason": "gov server timeout (transient); html+min_len, retry"
     },
     "ug-ucaa": {
       "try": [
         {
           "method": "html",
-          "url": "https://www.caa.co.ug/",
+          "url": "https://caa.go.ug/",
           "min_len": 12
         }
       ],
       "needs": "inspect",
-      "reason": "UCAA notices listing; html+min_len adapter, auto-discover fallback"
+      "reason": "corrected domain caa.go.ug (old caa.co.ug failed DNS)"
     }
   },
   "new_sources": [
