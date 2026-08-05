@@ -1,12 +1,12 @@
 {
- "generated": "2026-08-04T13:49+03:00",
- "health": 0.596,
- "grade": "D",
+ "generated": "2026-08-05T08:33+03:00",
+ "health": 0.717,
+ "grade": "C",
  "fails": [
-  "source coverage",
-  "signal quality"
+  "source coverage"
  ],
  "warns": [
+  "signal quality",
   "ledger hygiene",
   "rate-index integrity"
  ],
@@ -14,7 +14,7 @@
   {
    "name": "source coverage",
    "status": "FAIL",
-   "detail": "117 tier-1 sources: 74 HEALTHY, 26 MUTE, 17 SILENT. Blind examples: ke-gazettes-africa, ke-tenders, ug-gazette, ug-bou, tz-gazette, tz-mnrt",
+   "detail": "118 tier-1 sources: 76 HEALTHY, 26 MUTE, 16 SILENT. Blind examples: ke-gazettes-africa, ke-tenders, ug-gazette, ug-bou, tz-gazette, tz-mnrt",
    "fix": "Give each blind tier-1 source an RSS/feed URL or frag selector; validate on the runner.",
    "score": 0.0
   },
@@ -28,23 +28,23 @@
   {
    "name": "radar feed freshness",
    "status": "PASS",
-   "detail": "157 in-window obs; newest observation 0.6h old (2026-08-04T13:16:00+03:00).",
+   "detail": "603 in-window obs; newest observation 5.9h old (2026-08-05T02:39:00+03:00).",
    "fix": "",
    "score": 1.0
   },
   {
    "name": "edition cadence",
    "status": "PASS",
-   "detail": "8 editions in last 2d; no slot gaps.",
+   "detail": "6 editions in last 2d; no slot gaps.",
    "fix": "",
    "score": 1.0
   },
   {
    "name": "signal quality",
-   "status": "FAIL",
-   "detail": "4/5 editions in last 7d were Tier 2/3 (thin). Share 80%.",
+   "status": "WARN",
+   "detail": "4/6 editions in last 7d were Tier 2/3 (thin). Share 67%.",
    "fix": "A high thin share means sourcing isn't finding real stories \u2014 widen scope / fix blind sources.",
-   "score": 0.0
+   "score": 0.5
   },
   {
    "name": "ledger hygiene",
@@ -63,14 +63,21 @@
   {
    "name": "rate-index integrity",
    "status": "WARN",
-   "detail": "n values seen: [1, 2, 4, 5, 6, 8]; confident true=28 false=4.",
+   "detail": "n values seen: [1, 3, 5, 6, 8, 9]; confident true=28 false=4.",
    "fix": "Index still thin \u2014 never quote a median where n<3 or confident:false. Enforced in copy.",
    "score": 0.5
   },
   {
    "name": "forecast throughput",
    "status": "PASS",
-   "detail": "26 new falsifiable calls logged in last 7d.",
+   "detail": "20 new falsifiable calls logged in last 7d.",
+   "fix": "",
+   "score": 1.0
+  },
+  {
+   "name": "published content",
+   "status": "PASS",
+   "detail": "9 recent editions; no advisory claim contradicts the board.",
    "fix": "",
    "score": 1.0
   }
