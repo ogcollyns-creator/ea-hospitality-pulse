@@ -1,5 +1,5 @@
 {
- "generated": "2026-08-05T08:33+03:00",
+ "generated": "2026-08-05T14:28+03:00",
  "health": 0.717,
  "grade": "C",
  "fails": [
@@ -14,7 +14,7 @@
   {
    "name": "source coverage",
    "status": "FAIL",
-   "detail": "118 tier-1 sources: 76 HEALTHY, 26 MUTE, 16 SILENT. Blind examples: ke-gazettes-africa, ke-tenders, ug-gazette, ug-bou, tz-gazette, tz-mnrt",
+   "detail": "118 tier-1 sources: 82 HEALTHY, 20 MUTE, 16 SILENT. Blind examples: ke-tenders, ug-bou, tz-mnrt, tz-tanapa, tz-immigration, tz-tenders",
    "fix": "Give each blind tier-1 source an RSS/feed URL or frag selector; validate on the runner.",
    "score": 0.0
   },
@@ -28,28 +28,28 @@
   {
    "name": "radar feed freshness",
    "status": "PASS",
-   "detail": "603 in-window obs; newest observation 5.9h old (2026-08-05T02:39:00+03:00).",
+   "detail": "196 in-window obs; newest observation 1.3h old (2026-08-05T13:12:00+03:00).",
    "fix": "",
    "score": 1.0
   },
   {
    "name": "edition cadence",
    "status": "PASS",
-   "detail": "6 editions in last 2d; no slot gaps.",
+   "detail": "8 editions in last 2d; no slot gaps.",
    "fix": "",
    "score": 1.0
   },
   {
    "name": "signal quality",
    "status": "WARN",
-   "detail": "4/6 editions in last 7d were Tier 2/3 (thin). Share 67%.",
+   "detail": "5/8 editions in last 7d were Tier 2/3 (thin). Share 62%.",
    "fix": "A high thin share means sourcing isn't finding real stories \u2014 widen scope / fix blind sources.",
    "score": 0.5
   },
   {
    "name": "ledger hygiene",
    "status": "WARN",
-   "detail": "52 calls: 47 open, 5 resolved. Overdue-open: 0. Missing source_url: 18.",
+   "detail": "54 calls: 49 open, 5 resolved. Overdue-open: 0. Missing source_url: 18.",
    "fix": "Backfill source_url on early calls.",
    "score": 0.5
   },
@@ -70,14 +70,14 @@
   {
    "name": "forecast throughput",
    "status": "PASS",
-   "detail": "20 new falsifiable calls logged in last 7d.",
+   "detail": "22 new falsifiable calls logged in last 7d.",
    "fix": "",
    "score": 1.0
   },
   {
    "name": "published content",
    "status": "PASS",
-   "detail": "9 recent editions; no advisory claim contradicts the board.",
+   "detail": "11 recent editions; no advisory claim contradicts the board.",
    "fix": "",
    "score": 1.0
   }
