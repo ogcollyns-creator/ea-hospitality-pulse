@@ -1,8 +1,8 @@
 window.LEDGER = {
- "updated": "2026-08-04 13:56",
+ "updated": "2026-08-05 08:42",
  "stats": {
-  "total": 52,
-  "open": 47,
+  "total": 54,
+  "open": 49,
   "resolved": 5,
   "correct": 2,
   "partial": 1,
@@ -91,6 +91,22 @@ window.LEDGER = {
    "overdue": false
   },
   {
+   "id": "P053",
+   "made_date": "2026-08-05",
+   "edition": "Morning Brief",
+   "claim": "The next WHO AFRO Weekly External Situation Report (published Tuesdays) will show cumulative DRC confirmed Bundibugyo cases above 3605 — continued rise, no plateau after epi-week 30's record 567 cases",
+   "resolution_criteria": "The next WHO AFRO weekly external sit-rep after the 30 Jul cut-off showing DRC cumulative confirmed BVD cases above 3605. If it shows 3605 or fewer the call is incorrect",
+   "resolve_by": "2026-08-13",
+   "market": "Regional",
+   "segment": "All",
+   "confidence": "Confirmed",
+   "status": "open",
+   "resolved_date": "",
+   "evidence": "",
+   "source_url": "https://www.afro.who.int/health-topics/ebola-disease/outbreak-drc-26",
+   "overdue": false
+  },
+  {
    "id": "P047",
    "made_date": "2026-08-02",
    "edition": "Sunday Foresight",
@@ -136,6 +152,22 @@ window.LEDGER = {
    "resolved_date": "",
    "evidence": "",
    "source_url": "https://www.standardmedia.co.ke/business/financial-standard/article/2001553910/of-fuel-crisis-and-rutos-fresh-headache",
+   "overdue": false
+  },
+  {
+   "id": "P052",
+   "made_date": "2026-08-05",
+   "edition": "Morning Brief",
+   "claim": "The WHO IHR Emergency Committee meeting on 18 August 2026 will KEEP the Bundibugyo outbreak's PHEIC status and temporary recommendations in force rather than downgrade or terminate them — week-30 acceleration leaves no basis to stand down",
+   "resolution_criteria": "A WHO statement after the 18 Aug 2026 IHR EC meeting confirming the PHEIC/temporary recommendations remain in force. If WHO ends or downgrades the PHEIC the call is incorrect",
+   "resolve_by": "2026-08-22",
+   "market": "Regional",
+   "segment": "All",
+   "confidence": "Reported",
+   "status": "open",
+   "resolved_date": "",
+   "evidence": "",
+   "source_url": "https://www.who.int/emergencies/disease-outbreak-news/item/2026-DON614",
    "overdue": false
   },
   {

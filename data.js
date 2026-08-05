@@ -1,5 +1,14 @@
 window.EDITIONS = [
  {
+  "id": "pulse-2026-08-05-morning",
+  "date": "2026-08-05",
+  "dateDisplay": "Wednesday, 5 August 2026",
+  "edition": "Morning Brief",
+  "editionKey": "morning",
+  "summary": "The Ebola number that changed overnight — and why there are now two dates to watch, not one.",
+  "bodyHtml": "<p><span class=\"meta-line\">🏨 EA HOSPITALITY PULSE — Morning Brief</span><br><span class=\"meta-line\">📅 Wednesday, 5 August 2026 | 🇰🇪🇹🇿🇺🇬🇷🇼</span></p>\n<p>The Ebola number that changed overnight — and why there are now two dates to watch, not one.<br>━━━━━━━━━<br><span class=\"item-head\">1️⃣ EBOLA&#x27;S WORST WEEK YET — AND A SECOND DECISION DATE</span><br>The DRC Bundibugyo outbreak is accelerating, not plateauing. In epidemiological week 30 it logged 567 cases and 296 deaths — the highest weekly totals since transmission began, per WHO DON614 (published 1 Aug, revised 3 Aug). Since the 17 July update, +1,481 cases and +759 deaths. Cumulative: 3,605 confirmed, 1,587 deaths, 44% CFR — now the largest Ebola outbreak ever recorded in DRC, past the 2018–20 total of 3,317. New on the calendar: the WHO IHR Emergency Committee meets 18 August, six days after the US CDC §362 entry order expires (4:59pm EDT, 12 Aug, per 91 FR 43636).<br><span class=\"sowhat\">🎯 So what: the acceleration removes any epidemiological basis for the US to ease the 12 Aug order — plan for renewal with DRC listed and Uganda held at Level 4. But tell agents the honest split: Uganda&#x27;s own outbreak is OVER (28 Jul) and the WHO explicitly advises AGAINST travel restrictions. The friction is US policy on the US source market, not risk on the ground in Kampala, Nairobi, Kigali, Dar or Zanzibar. Don&#x27;t model US entry relief into the Sept–Oct peak.</span><br><span class=\"tagline\">🏷 All | Regional | Confirmed</span></p>\n<p><span class=\"item-head\">2️⃣ STILL TRUE: THE ADVISORY BOARD IS UNCHANGED</span><br>US: Kenya L2, Tanzania L3, Zanzibar L3, Uganda L4, Rwanda L3. UK: Kenya L2, Tanzania/Zanzibar L1, Uganda L3, Rwanda L2. Kenya&#x27;s Eastleigh &amp; Kibera stay Reconsider Travel (L3), NOT Do Not Travel — the primary page still dates 17 March 2025. No government moved a level overnight.<br><span class=\"sowhat\">🎯 So what: no basis to change rate or security messaging anywhere in the region this week. A confirmed &quot;no change&quot; tells you not to discount.</span><br><span class=\"tagline\">🏷 All | Regional | Confirmed</span></p>\n<p><span class=\"item-head\">3️⃣ COST PULSE: THE PLANNING WINDOW IS STILL OPEN</span><br>EPRA holds Nairobi super at KSh 214.03/L and diesel at KSh 222.86/L to 14 Aug. Murban crude, the leading indicator for the next review, sits at USD 67.99/bbl — the 15 Aug cycle is more likely to hold or fall than rise. KES steady at 129.30/USD; reserves at 6.0 months&#x27; cover. The quiet killer: Kenya electricity pass-through charges now top KSh 5/kWh and rose again in July.<br><span class=\"sowhat\">🎯 So what: lock safari-transfer and generator-fuel contracts before the 15 Aug review. Read the pass-through line on the power bill, not the tariff band.</span><br><span class=\"tagline\">🏷 Bush | Kenya | Confirmed</span><br>━━━━━━━━━<br><span class=\"meta-line\">📡 WEEK AHEAD</span><br>• Fri 8 Aug — CBK weekly bulletin (FX, reserves)<br>• Tue 12 Aug — US CDC §362 entry order expires; watch renewal + Uganda listing (P044/P047 resolve)<br>• Fri 15 Aug — EPRA fuel review<br>• Mon 18 Aug — WHO IHR Emergency Committee on Bundibugyo — could adjust the PHEIC / temporary recommendations<br>• 19–21 Aug — Hotel Expo Kenya, KICC Nairobi — a city-hotel midweek compression window<br>• 28 Aug — World Travel Awards Africa Gala, Zanzibar</p>\n<p><span class=\"meta-line\">📡 RADAR: 603 in-window observations since 4 Aug 18:00; top EA signal was the Africa CDC BVD SitRep #77 (first seen 4 Aug 19:28). The rest of the feed was no-change global advisories — noise for our market.</span></p>\n<p><span class=\"meta-line\">💬 Watching a rate decision hang on the 12 or 18 Aug calls? Tell us the market — we&#x27;ll track it with you.</span></p>\n<p>🔗 This edition on the web: https://eahospitalitypulse.com/editions/pulse-2026-08-05-morning.html<br>— EA Hospitality Pulse | Daily intelligence for city, bush &amp; beach properties</p>"
+ },
+ {
   "id": "pulse-2026-08-04-evening",
   "date": "2026-08-04",
   "dateDisplay": "Tuesday, 4 August 2026",
@@ -289,6 +298,21 @@ window.EDITIONS = [
  }
 ];
 window.INSIGHTS = [
+ {
+  "headline": "COST PULSE: THE PLANNING WINDOW IS STILL OPEN",
+  "body": "EPRA holds Nairobi super at KSh 214.03/L and diesel at KSh 222.86/L to 14 Aug. Murban crude, the leading indicator for the next review, sits at USD 67.99/bbl — the 15 Aug cycle is more likely to hold or fall than rise. KES steady at 129.30/USD; reserves at 6.0 months' cover. The quiet killer: Kenya electricity pass-through charges now top KSh 5/kWh and rose again in July.",
+  "sowhat": "🎯 So what: lock safari-transfer and generator-fuel contracts before the 15 Aug review. Read the pass-through line on the power bill, not the tariff band.",
+  "segments": [
+   "bush"
+  ],
+  "countries": "Kenya",
+  "confidence": "Confirmed",
+  "source": "pulse-2026-08-05-morning",
+  "date": "2026-08-05",
+  "dateDisplay": "Wednesday, 5 August 2026",
+  "edition": "Morning Brief",
+  "editionKey": "morning"
+ },
  {
   "headline": "COST PULSE: THE PLANNING WINDOW IS STILL OPEN",
   "body": "EPRA holds Nairobi diesel at KSh 222.86/L and super at KSh 214.03/L through 14 August — propped by the Petroleum Development Levy and the 8% petroleum VAT rate extended to 14 Oct. Murban crude, the leading indicator for the next review, softened to USD 67.99/bbl (−1.01 w/w, CBK bulletin) — the 15 Aug cycle is more likely to hold or fall than rise. KES steady at 129.30/USD; reserves at 6.0 months' cover. The quiet killer: Kenya electricity pass-through charges now top KSh 5/kWh and rose again in July.",
@@ -1578,4 +1602,4 @@ window.INSIGHTS = [
   "editionKey": "evening"
  }
 ];
-window.BUILT_AT = "2026-08-04 13:56";
+window.BUILT_AT = "2026-08-05 08:42";
