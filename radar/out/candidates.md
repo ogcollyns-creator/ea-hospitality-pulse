@@ -1,355 +1,311 @@
-# Radar candidates — morning slot
-_Window opens Tue 04 Aug 18:00 EAT · 603 observations in window · 41 headlines deduped against_
+# Radar candidates — midday slot
+_Window opens Wed 05 Aug 07:00 EAT · 196 observations in window · 38 headlines deduped against_
 
 Ranked by first-seen recency, source tier and hospitality relevance. `first seen` is when the radar observed the item, which is the date the recency gate runs on. `published` is what the source claims — where the two disagree, the disagreement is the story.
 
-### 🔴 [162.0] Syria - Level 4: Do Not Travel
-- **Verdict:** LEAD CANDIDATE — tier-1 shock language
-- **Source:** US State Dept travel advisories (EA feed) · tier 1 · REG · advisory
-- **First seen:** 2026-08-04T23:54+03:00 EAT · **Source date:** — none stated
-- **URL:** http://travel.state.gov/content/travel/en/traveladvisories/traveladvisories/syria-travel-advisory.html
-- **Shock language:** level 4, do not travel
-- **Extract:** There were no changes to the advisory level or risk indicators. Advisory summary was updated. Do not travel to Syria for any reason due to the risk of terrorism, civil unrest, kidnapping, hostage taking, crime, and armed conflict . Advisory Summary Do not trav
-- **Score parts:** tier +40, category +32, lead +1.2, relevance +60, freshness +16.8, undated -6, shock +18
-
-### 🔴 [162.0] Sudan - Level 4: Do Not Travel
-- **Verdict:** LEAD CANDIDATE — tier-1 shock language
-- **Source:** US State Dept travel advisories (EA feed) · tier 1 · REG · advisory
-- **First seen:** 2026-08-04T23:54+03:00 EAT · **Source date:** — none stated
-- **URL:** http://travel.state.gov/content/travel/en/traveladvisories/traveladvisories/sudan-travel-advisory.html
-- **Shock language:** level 4, do not travel, outbreak
-- **Extract:** There was no change to the advisory level or risk indicators. Advisory summary was updated. Do not travel to Sudan due to risk of unrest, crime, kidnapping, terrorism, landmines, and health risks . Advisory summary The U.S. Embassy in Khartoum suspended its op
-- **Score parts:** tier +40, category +32, lead +1.2, relevance +60, freshness +16.8, undated -6, shock +18
-
-### 🔴 [162.0] Afghanistan - Level 4: Do Not Travel
-- **Verdict:** LEAD CANDIDATE — tier-1 shock language
-- **Source:** US State Dept travel advisories (EA feed) · tier 1 · REG · advisory
-- **First seen:** 2026-08-04T23:54+03:00 EAT · **Source date:** — none stated
-- **URL:** http://travel.state.gov/content/travel/en/traveladvisories/traveladvisories/afghanistan-advisory.html
-- **Shock language:** level 4, do not travel
-- **Extract:** There was no change to the advisory level. Do not travel to Afghanistan due to civil unrest, crime, terrorism, risk of wrongful detention, kidnapping, natural disasters, and limited health facilities. Do not travel to Afghanistan for any reason We urge America
-- **Score parts:** tier +40, category +32, lead +1.2, relevance +60, freshness +16.8, undated -6, shock +18
-
-### 🔴 [150.0] Chad - Level 4: Do Not Travel
-- **Verdict:** LEAD CANDIDATE — tier-1 shock language
-- **Source:** US State Dept travel advisories (EA feed) · tier 1 · REG · advisory
-- **First seen:** 2026-08-04T23:54+03:00 EAT · **Source date:** — none stated
-- **URL:** http://travel.state.gov/content/travel/en/traveladvisories/traveladvisories/chad-travel-advisory.html
-- **Shock language:** level 4, do not travel
-- **Extract:** The advisory level was increased to 4. The “health” indicator was added. Advisory summary was updated. Do not travel to Chad for any reason due to risk of crime , terrorism , unrest , inadequate health infrastructure, kidnapping , and landmines . Advisory Summ
-- **Score parts:** tier +40, category +32, lead +1.2, relevance +48, freshness +16.8, undated -6, shock +18
-
-### 🔴 [150.0] Colombia - Level 3: Reconsider Travel
-- **Verdict:** LEAD CANDIDATE — tier-1 shock language
-- **Source:** US State Dept travel advisories (EA feed) · tier 1 · REG · advisory
-- **First seen:** 2026-08-04T23:54+03:00 EAT · **Source date:** — none stated
-- **URL:** http://travel.state.gov/content/travel/en/traveladvisories/traveladvisories/colombia-travel-advisory.html
-- **Shock language:** level 3, do not travel, reconsider travel
-- **Extract:** Updated information on civil unrest and kidnapping. Reconsider travel to Colombia due to crime, terrorism, civil unrest, and kidnapping . Some areas have an increased risk. Read the entire Travel Advisory. Do Not Travel to: Arauca, Cauca (excluding Popayán), a
-- **Score parts:** tier +40, category +32, lead +1.2, relevance +48, freshness +16.8, undated -6, shock +18
-
-### 🔴 [142.0] Germany - Level 2: Exercise Increased Caution
-- **Verdict:** LEAD CANDIDATE — tier-1 shock language
-- **Source:** US State Dept travel advisories (EA feed) · tier 1 · REG · advisory
-- **First seen:** 2026-08-04T23:54+03:00 EAT · **Source date:** — none stated
-- **URL:** http://travel.state.gov/content/travel/en/traveladvisories/traveladvisories/germany-travel-advisory.html
-- **Shock language:** attack
-- **Extract:** Reissued after periodic review with updates to Advisory Summary. Exercise increased caution in Germany due to terrorism . Advisory Summary: Terrorist groups and lone actors remain a constant threat in Germany and Europe, attacking people in public locations wi
-- **Score parts:** tier +40, category +32, lead +1.2, relevance +40, freshness +16.8, undated -6, shock +18
-
-### 🔴 [138.0] Qatar - Level 3: Reconsider Travel
-- **Verdict:** LEAD CANDIDATE — tier-1 shock language
-- **Source:** US State Dept travel advisories (EA feed) · tier 1 · REG · advisory
-- **First seen:** 2026-08-04T23:54+03:00 EAT · **Source date:** — none stated
-- **URL:** http://travel.state.gov/content/travel/en/traveladvisories/traveladvisories/qatar-travel-advisory.html
-- **Shock language:** level 3, reconsider travel
-- **Extract:** Updated to reflect the ordered departure of non-emergency U.S. government personnel and family members of government personnel on March 2. Advisory summary was updated. Reconsider travel to Qatar due to risk of armed conflict. Advisory summary On March 2, 2026
-- **Score parts:** tier +40, category +32, lead +1.2, relevance +36, freshness +16.8, undated -6, shock +18
-
-### 🔴 [138.0] Saudi Arabia - Level 3: Reconsider Travel
-- **Verdict:** LEAD CANDIDATE — tier-1 shock language
-- **Source:** US State Dept travel advisories (EA feed) · tier 1 · REG · advisory
-- **First seen:** 2026-08-04T23:54+03:00 EAT · **Source date:** — none stated
-- **URL:** http://travel.state.gov/content/travel/en/traveladvisories/traveladvisories/saudi-arabia-travel-advisory.html
-- **Shock language:** level 3, do not travel, reconsider travel
-- **Extract:** There were no changes to the advisory level or risk indicators. Advisory summary was updated. Reconsider travel to Saudi Arabia due to risk of Iranian drone and missile targeting of American interests, armed conflict , terrorism, exit bans, and local laws rega
-- **Score parts:** tier +40, category +32, lead +1.2, relevance +36, freshness +16.8, undated -6, shock +18
-
-### 🔴 [138.0] Jordan - Level 3: Reconsider Travel
-- **Verdict:** LEAD CANDIDATE — tier-1 shock language
-- **Source:** US State Dept travel advisories (EA feed) · tier 1 · REG · advisory
-- **First seen:** 2026-08-04T23:54+03:00 EAT · **Source date:** — none stated
-- **URL:** http://travel.state.gov/content/travel/en/traveladvisories/traveladvisories/jordan-travel-advisory.html
-- **Shock language:** level 3, reconsider travel
-- **Extract:** Updated to reflect the ordered departure of non-emergency U.S. government personnel and family members of government personnel on March 2 and the change to Level 3: Reconsider Travel due to safety risks, and to add the “other” risk indicator. Advisory summary 
-- **Score parts:** tier +40, category +32, lead +1.2, relevance +36, freshness +16.8, undated -6, shock +18
-
-### 🔴 [138.0] Guatemala - Level 3: Reconsider Travel
-- **Verdict:** LEAD CANDIDATE — tier-1 shock language
-- **Source:** US State Dept travel advisories (EA feed) · tier 1 · REG · advisory
-- **First seen:** 2026-08-04T23:54+03:00 EAT · **Source date:** — none stated
-- **URL:** http://travel.state.gov/content/travel/en/traveladvisories/traveladvisories/guatemala-travel-advisory.html
-- **Shock language:** level 3, do not travel, reconsider travel
-- **Extract:** There was no change to the advisory level. The “terrorism” risk indicator was added. Advisory summary was updated. Reconsider travel to Guatemala due to crime and terrorism . Some areas have higher risks. Please read the full Travel Advisory. Do not travel to:
-- **Score parts:** tier +40, category +32, lead +1.2, relevance +36, freshness +16.8, undated -6, shock +18
-
-### 🔴 [138.0] Oman - Level 3: Reconsider Travel
-- **Verdict:** LEAD CANDIDATE — tier-1 shock language
-- **Source:** US State Dept travel advisories (EA feed) · tier 1 · REG · advisory
-- **First seen:** 2026-08-04T23:54+03:00 EAT · **Source date:** — none stated
-- **URL:** http://travel.state.gov/content/travel/en/traveladvisories/traveladvisories/oman-travel-advisory.html
-- **Shock language:** level 3, do not travel, reconsider travel
-- **Extract:** The advisory level remains at 3. There were no changes to the risk indicators. Advisory summary was updated to reflect changes to U.S. embassy operations. Reconsider travel to Oman due to the risk of terrorism and armed conflict . Some areas have increased ris
-- **Score parts:** tier +40, category +32, lead +1.2, relevance +36, freshness +16.8, undated -6, shock +18
-
-### 🔴 [138.0] Azerbaijan - Level 3: Reconsider Travel
-- **Verdict:** LEAD CANDIDATE — tier-1 shock language
-- **Source:** US State Dept travel advisories (EA feed) · tier 1 · REG · advisory
-- **First seen:** 2026-08-04T23:54+03:00 EAT · **Source date:** — none stated
-- **URL:** http://travel.state.gov/content/travel/en/traveladvisories/traveladvisories/azerbajian-travel-advisory.html
-- **Shock language:** level 3, do not travel, reconsider travel
-- **Extract:** There was no change to the advisory level or risk indicators. Advisory summary and areas of increased risk were updated. Reconsider Travel to Azerbaijan due to terrorism, armed conflict, and risk of landmines. Some areas have increased risk. Read the entire Tr
-- **Score parts:** tier +40, category +32, lead +1.2, relevance +36, freshness +16.8, undated -6, shock +18
-
-### 🔴 [138.0] Cameroon - Level 2: Exercise Increased Caution
-- **Verdict:** LEAD CANDIDATE — tier-1 shock language
-- **Source:** US State Dept travel advisories (EA feed) · tier 1 · REG · advisory
-- **First seen:** 2026-08-04T23:54+03:00 EAT · **Source date:** — none stated
-- **URL:** http://travel.state.gov/content/travel/en/traveladvisories/traveladvisories/cameroon-travel-advisory.html
-- **Shock language:** do not travel
-- **Extract:** There was no change to the advisory level or risk indicators. Advisory summary was updated. Exercise Increased Caution in Cameroon due to risk of crime, terrorism, unrest, health, kidnapping, and improvised explosive devices (IEDs). Some areas have increased r
-- **Score parts:** tier +40, category +32, lead +1.2, relevance +36, freshness +16.8, undated -6, shock +18
-
-### 🔴 [134.0] Burma - Level 4: Do Not Travel
-- **Verdict:** LEAD CANDIDATE — tier-1 shock language
-- **Source:** US State Dept travel advisories (EA feed) · tier 1 · REG · advisory
-- **First seen:** 2026-08-04T23:54+03:00 EAT · **Source date:** — none stated
-- **URL:** http://travel.state.gov/content/travel/en/traveladvisories/traveladvisories/burma-travel-advisory.html
-- **Shock language:** level 4, do not travel
-- **Extract:** There was no change to the advisory level. Advisory summary was updated. Do not travel to Burma for any reason due to armed conflict , unrest , arbitrary enforcement of local laws , poor health infrastructure , landmines and unexploded ordnance , and crime . A
-- **Score parts:** tier +40, category +32, lead +1.2, relevance +32, freshness +16.8, undated -6, shock +18
-
-### 🔴 [134.0] Belarus - Level 4: Do Not Travel
-- **Verdict:** LEAD CANDIDATE — tier-1 shock language
-- **Source:** US State Dept travel advisories (EA feed) · tier 1 · REG · advisory
-- **First seen:** 2026-08-04T23:54+03:00 EAT · **Source date:** — none stated
-- **URL:** http://travel.state.gov/content/travel/en/traveladvisories/traveladvisories/belarus-travel-advisory.html
-- **Shock language:** level 4, do not travel
-- **Extract:** There were no changes to the advisory level or risk indicators. Advisory summary was updated. Advisory summary Do not travel to Belarus due to: The risk of harassment by Belarusian security officials. The arbitrary enforcement of local laws. The potential for 
-- **Score parts:** tier +40, category +32, lead +1.2, relevance +32, freshness +16.8, undated -6, shock +18
-
-### 🔴 [130.0] Belgium - Level 2: Exercise Increased Caution
-- **Verdict:** LEAD CANDIDATE — tier-1 shock language
-- **Source:** US State Dept travel advisories (EA feed) · tier 1 · REG · advisory
-- **First seen:** 2026-08-04T23:54+03:00 EAT · **Source date:** — none stated
-- **URL:** http://travel.state.gov/content/travel/en/traveladvisories/traveladvisories/belgium-travel-advisory.html
-- **Shock language:** attack
-- **Extract:** There was no change to the advisory level. The "crime” and “unrest” risk indicators were added. Advisory summary was updated. Advisory summary Exercise increased caution in Belgium due to crime , terrorism , and unrest . Crime Petty crime is common, especially
-- **Score parts:** tier +40, category +32, lead +1.2, relevance +28, freshness +16.8, undated -6, shock +18
-
-### 🔴 [130.0] Turkey - Level 2: Exercise Increased Caution
-- **Verdict:** LEAD CANDIDATE — tier-1 shock language
-- **Source:** US State Dept travel advisories (EA feed) · tier 1 · REG · advisory
-- **First seen:** 2026-08-04T23:54+03:00 EAT · **Source date:** — none stated
-- **URL:** http://travel.state.gov/content/travel/en/traveladvisories/traveladvisories/turkey-travel-advisory.html
-- **Shock language:** do not travel
-- **Extract:** There were no changes to the advisory level or risk indicators. An area of increased risk was removed. Advisory summary was updated. Exercise increased caution in Türkiye due to terrorism , armed conflict , and arbitrary detentions . Some areas have increased 
-- **Score parts:** tier +40, category +32, lead +1.2, relevance +28, freshness +16.8, undated -6, shock +18
-
-### 🔴 [126.0] Tajikistan - Level 2: Exercise Increased Caution
-- **Verdict:** LEAD CANDIDATE — tier-1 shock language
-- **Source:** US State Dept travel advisories (EA feed) · tier 1 · REG · advisory
-- **First seen:** 2026-08-04T23:54+03:00 EAT · **Source date:** — none stated
-- **URL:** http://travel.state.gov/content/travel/en/traveladvisories/traveladvisories/tajikistan-travel-advisory.html
-- **Shock language:** reconsider travel
-- **Extract:** Reissued after periodic review with updates regarding the resumption of cross-border movement between the Kyrgyz Republic and Tajikistan. Exercise increased caution in Tajikistan due to the risk of terrorism, unexploded landmines, occasional violence near the 
-- **Score parts:** tier +40, category +32, lead +1.2, relevance +24, freshness +16.8, undated -6, shock +18
-
-### 🔴 [126.0] Rwanda - Level 3: Reconsider Travel
-- **Verdict:** LEAD CANDIDATE — tier-1 shock language
-- **Source:** US State Dept travel advisories (EA feed) · tier 1 · REG · advisory
-- **First seen:** 2026-08-04T23:54+03:00 EAT · **Source date:** — none stated
-- **URL:** http://travel.state.gov/content/travel/en/traveladvisories/traveladvisories/rwanda-travel-advisory.html
-- **Shock language:** level 3, do not travel, reconsider travel
-- **Extract:** There was no change to the advisory level. The 3 areas of increased risk were combined into 1. The Advisory Summary was updated. Exercise increased caution in Rwanda due to crime and unrest . Some areas have increased risk. Read the entire Travel Advisory. Rea
-- **Score parts:** tier +40, category +32, lead +1.2, relevance +24, freshness +16.8, undated -6, shock +18
-
-### 🔴 [126.0] Guinea-Bissau - Level 3: Reconsider Travel
-- **Verdict:** LEAD CANDIDATE — tier-1 shock language
-- **Source:** US State Dept travel advisories (EA feed) · tier 1 · REG · advisory
-- **First seen:** 2026-08-04T23:54+03:00 EAT · **Source date:** — none stated
-- **URL:** http://travel.state.gov/content/travel/en/traveladvisories/traveladvisories/guinea-bissau-travel-advisory.html
-- **Shock language:** level 3, reconsider travel
-- **Extract:** There were no changes to the advisory level. The “Crime” indicator was removed. The “Other” indicator was added. The advisory summary was updated. Reconsider travel to Guinea-Bissau due to unrest , inadequate health infrastructure, and landmines . Advisory Sum
-- **Score parts:** tier +40, category +32, lead +1.2, relevance +24, freshness +16.8, undated -6, shock +18
-
-### 🔴 [126.0] Algeria - Level 2: Exercise Increased Caution
-- **Verdict:** LEAD CANDIDATE — tier-1 shock language
-- **Source:** US State Dept travel advisories (EA feed) · tier 1 · REG · advisory
-- **First seen:** 2026-08-04T23:54+03:00 EAT · **Source date:** — none stated
-- **URL:** http://travel.state.gov/content/travel/en/traveladvisories/traveladvisories/algeria-travel-advisory.html
-- **Shock language:** do not travel, attack
-- **Extract:** Reissued after periodic review with minor edits. Exercise increased caution in Algeria due to terrorism and kidnapping . Do not travel to: Areas near the eastern and southern borders due to terrorism and kidnapping . Areas in the Sahara Desert due to terrorism
-- **Score parts:** tier +40, category +32, lead +1.2, relevance +24, freshness +16.8, undated -6, shock +18
-
-### 🔴 [126.0] Brazil - Level 2: Exercise Increased Caution
-- **Verdict:** LEAD CANDIDATE — tier-1 shock language
-- **Source:** US State Dept travel advisories (EA feed) · tier 1 · REG · advisory
-- **First seen:** 2026-08-04T23:54+03:00 EAT · **Source date:** — none stated
-- **URL:** http://travel.state.gov/content/travel/en/traveladvisories/traveladvisories/brazil-travel-advisory.html
-- **Shock language:** do not travel
-- **Extract:** Updated to add risk indicator for kidnapping . Exercise increased caution in Brazil due to crime and kidnapping. Some areas have increased risk. Read the entire Travel Advisory. Do not travel to these areas due to crime: Anywhere within 160 km/100 miles of Bra
-- **Score parts:** tier +40, category +32, lead +1.2, relevance +24, freshness +16.8, undated -6, shock +18
-
-### 🔴 [122.0] Bolivia - Level 2: Exercise Increased Caution
-- **Verdict:** LEAD CANDIDATE — tier-1 shock language
-- **Source:** US State Dept travel advisories (EA feed) · tier 1 · REG · advisory
-- **First seen:** 2026-08-04T23:54+03:00 EAT · **Source date:** — none stated
-- **URL:** http://travel.state.gov/content/travel/en/traveladvisories/traveladvisories/bolivia-travel-advisory.html
-- **Shock language:** do not travel
-- **Extract:** There was no change to the advisory level or risk indicators. Advisory summary was updated. Exercise increased caution in Bolivia due to crime and civil unrest . Some areas have increased risk. Read the entire Travel Advisory. Do Not Travel to Chapare Province
-- **Score parts:** tier +40, category +32, lead +1.2, relevance +20, freshness +16.8, undated -6, shock +18
-
-### 🔴 [122.0] North Korea - Level 4: Do Not Travel
-- **Verdict:** LEAD CANDIDATE — tier-1 shock language
-- **Source:** US State Dept travel advisories (EA feed) · tier 1 · REG · advisory
-- **First seen:** 2026-08-04T23:54+03:00 EAT · **Source date:** — none stated
-- **URL:** http://travel.state.gov/content/travel/en/traveladvisories/traveladvisories/north-korea-travel-advisory.html
-- **Shock language:** level 4, do not travel
-- **Extract:** Reissued after periodic review with minor edits. Do not travel to North Korea due to the continuing serious risk of arrest, long-term detention, and the threat of wrongful detention of U.S. nationals. Do not travel to the Democratic People’s Republic of Korea 
-- **Score parts:** tier +40, category +32, lead +1.2, relevance +20, freshness +16.8, undated -6, shock +18
-
-### 🔴 [118.0] Morocco - Level 2: Exercise Increased Caution
-- **Verdict:** LEAD CANDIDATE — tier-1 shock language
-- **Source:** US State Dept travel advisories (EA feed) · tier 1 · REG · advisory
-- **First seen:** 2026-08-04T23:54+03:00 EAT · **Source date:** — none stated
-- **URL:** http://travel.state.gov/content/travel/en/traveladvisories/traveladvisories/morocco-travel-advisory.html
-- **Shock language:** attack
-- **Extract:** Reissued after periodic review with minor edits. Exercise increased caution in Morocco due to terrorism . Country Summary: Terrorist groups continue plotting possible attacks in Morocco. Terrorists may attack with little or no warning. They target tourist loca
-- **Score parts:** tier +40, category +32, lead +1.2, relevance +16, freshness +16.8, undated -6, shock +18
-
-### 🔴 [114.0] Armenia - Level 2: Exercise Increased Caution
-- **Verdict:** LEAD CANDIDATE — tier-1 shock language
-- **Source:** US State Dept travel advisories (EA feed) · tier 1 · REG · advisory
-- **First seen:** 2026-08-04T23:54+03:00 EAT · **Source date:** — none stated
-- **URL:** http://travel.state.gov/content/travel/en/traveladvisories/traveladvisories/armenia-travel-advisory.html
-- **Shock language:** do not travel
-- **Extract:** Reissued after periodic review with minor edits. Exercise increased caution in Armenia due to areas of potential armed conflict. Some areas have increased risk. Read the entire Travel Advisory. Do Not Travel To These Areas for Any Reason: The border region wit
-- **Score parts:** tier +40, category +32, lead +1.2, relevance +12, freshness +16.8, undated -6, shock +18
-
-### 🔴 [114.0] Jamaica - Level 2: Exercise Increased Caution
-- **Verdict:** LEAD CANDIDATE — tier-1 shock language
-- **Source:** US State Dept travel advisories (EA feed) · tier 1 · REG · advisory
-- **First seen:** 2026-08-04T23:54+03:00 EAT · **Source date:** — none stated
-- **URL:** http://travel.state.gov/content/travel/en/traveladvisories/traveladvisories/jamaica-travel-advisory.html
-- **Shock language:** reconsider travel
-- **Extract:** There was no change to the advisory level. The “natural disaster” indicator was removed. The advisory summary was updated. Exercise Increased Caution due to crime and health risks. Some areas have increased risk. Read the entire Travel Advisory. Reconsider tra
-- **Score parts:** tier +40, category +32, lead +1.2, relevance +12, freshness +16.8, undated -6, shock +18
-
-### 🔴 [114.0] Georgia - Level 1: Exercise Normal Precautions
-- **Verdict:** LEAD CANDIDATE — tier-1 shock language
-- **Source:** US State Dept travel advisories (EA feed) · tier 1 · REG · advisory
-- **First seen:** 2026-08-04T23:54+03:00 EAT · **Source date:** — none stated
-- **URL:** http://travel.state.gov/content/travel/en/traveladvisories/traveladvisories/georgia-travel-advisory.html
-- **Shock language:** do not travel
-- **Extract:** Last Update: Reissued after periodic review with minor edits. Exercise normal precautions in Georgia. Some areas have increased risk. Read the entire Travel Advisory. Do Not Travel To: The Russian-occupied Georgian regions of South Ossetia and Abkhazia due to 
-- **Score parts:** tier +40, category +32, lead +1.2, relevance +12, freshness +16.8, undated -6, shock +18
-
-### 🔴 [104.7] Bundibugyo Virus Disease Outbreak | Situation Report, Issue No. 77 – August 2, 2026 SitRep
-- **Verdict:** LEAD CANDIDATE — tier-1 shock language
-- **Source:** Africa CDC downloads (sit reps & EIW) · tier 1 · REG · health
-- **First seen:** 2026-08-04T19:28+03:00 EAT · **Source date:** — none stated
-- **URL:** https://africacdc.org/download/bundibugyo-virus-disease-outbreak-situation-report-issue-no-77-august-2-2026
-- **Shock language:** outbreak
-- **Score parts:** tier +40, category +24, lead +4.8, relevance +12, freshness +11.9, undated -6, shock +18
-
-### 🔴 [102.0] Mainland China, Hong Kong & Macau - See Summaries - Level 2: Exercise Increased Caution
-- **Verdict:** LEAD CANDIDATE — tier-1 shock language
-- **Source:** US State Dept travel advisories (EA feed) · tier 1 · REG · advisory
-- **First seen:** 2026-08-04T23:54+03:00 EAT · **Source date:** — none stated
-- **URL:** http://travel.state.gov/content/travel/en/traveladvisories/traveladvisories/china-travel-advisory.html
-- **Shock language:** reconsider travel
-- **Extract:** Updated to reflect a shift to Level 2 “Exercise increased caution” for Mainland China. Summary: Exercise increased caution when traveling to Mainland China due to arbitrary enforcement of local laws, including in relation to exit bans. Exercise increased cauti
-- **Score parts:** tier +40, category +32, lead +1.2, relevance +0, freshness +16.8, undated -6, shock +18
-
-### 🚨 [99.5] [page changed] WHO Disease Outbreak News
-- **Verdict:** OPEN THIS — tier-1 health page moved; content not auto-parsed, read it manually
-- **Source:** WHO Disease Outbreak News · tier 1 · GLOBAL · health
-- **First seen:** 2026-08-04T19:28+03:00 EAT · **Source date:** — none stated
-- **URL:** https://www.who.int/rss-feeds/news-english.xml
-- **Shock language:** outbreak
-- **Extract:** ﻿ News (English) - World Health Organization https://www.who.int/ Corporate news releases, statements, and notes for media issued by the World Health Organization. urn:uuid:0ce5fa04-9ac3-465f-89cf-15a8e5a748dd https://www.who.int/news/item/25-02-2026-who-direc
-- **Score parts:** tier +40, category +24, lead +3.6, relevance +12, freshness +11.9, undated -6, shock +18, page_change -4
-
-### 🚨 [69.5] [page changed] Ethiopian Airlines press room
-- **Verdict:** OPEN THIS — tier-1 airline page moved; content not auto-parsed, read it manually
-- **Source:** Ethiopian Airlines press room · tier 1 · REG · airline
-- **First seen:** 2026-08-04T19:28+03:00 EAT · **Source date:** — none stated
-- **URL:** https://www.ethiopianairlines.com/aa/media/press-room
-- **Extract:** Upgraded to Sitefinity {{currentVersion}} Go to site Show details 0" title="{{errorsCount}} error(s)">{{errorsCount}} 0" title="{{warningsCount}} warning(s)">{{warningsCount}} Upgrade to Sitefinity {{currentVersion}} failed Initialization failed Show details 0
-- **Score parts:** tier +40, category +12, lead +3.6, relevance +12, freshness +11.9, undated -6, page_change -4
-
-### 🚨 [65.4] [page changed] Jambojet media
+### 🚨 [65.3] [page changed] Jambojet media
 - **Verdict:** OPEN THIS — tier-1 airline page moved; content not auto-parsed, read it manually
 - **Source:** Jambojet media · tier 1 · KE · airline
-- **First seen:** 2026-08-05T02:39+03:00 EAT · **Source date:** — none stated
+- **First seen:** 2026-08-05T13:12+03:00 EAT · **Source date:** — none stated
 - **URL:** https://www.jambojet.com/en/press-release
-- **Extract:** Request unsuccessful. Incapsula incident ID: 420000750102791087-424184026881069778
-- **Score parts:** tier +40, category +12, lead +3.6, relevance +0, freshness +19.8, undated -6, page_change -4
+- **Extract:** Request unsuccessful. Incapsula incident ID: 1415000690120003641-224414940411662668
+- **Score parts:** tier +40, category +12, lead +3.6, relevance +0, freshness +19.7, undated -6, page_change -4
 
-### 🚨 [57.5] [page changed] Jambojet media
-- **Verdict:** OPEN THIS — tier-1 airline page moved; content not auto-parsed, read it manually
-- **Source:** Jambojet media · tier 1 · KE · airline
-- **First seen:** 2026-08-04T19:28+03:00 EAT · **Source date:** — none stated
-- **URL:** https://www.jambojet.com/en/press-release
-- **Extract:** Request unsuccessful. Incapsula incident ID: 1322000720265430336-303007803925729804
-- **Score parts:** tier +40, category +12, lead +3.6, relevance +0, freshness +11.9, undated -6, page_change -4
-
-### 🚨 [57.5] [page changed] Airlink news
+### 🚨 [65.3] [page changed] Airlink news
 - **Verdict:** OPEN THIS — tier-1 airline page moved; content not auto-parsed, read it manually
 - **Source:** Airlink news · tier 1 · REG · airline
-- **First seen:** 2026-08-04T19:28+03:00 EAT · **Source date:** — none stated
+- **First seen:** 2026-08-05T13:12+03:00 EAT · **Source date:** — none stated
 - **URL:** https://www.flyairlink.com/
-- **Extract:** Request unsuccessful. Incapsula incident ID: 1330000750279773761-437140044897194701
-- **Score parts:** tier +40, category +12, lead +3.6, relevance +0, freshness +11.9, undated -6, page_change -4
+- **Extract:** Request unsuccessful. Incapsula incident ID: 1409000710220400332-269964421500047819
+- **Score parts:** tier +40, category +12, lead +3.6, relevance +0, freshness +19.7, undated -6, page_change -4
 
-### 🟠 [106.8] Lenana Innovative Solutions Limited & 3 others v Wlb Asset II D Pte Ltd & another (Constitutional Petition E078 of 2025)
+### 🟠 [109.7] Tax Appeal Tribunal – Daily Cause List – 04 August 2026 to 04 August 2026
 - **Verdict:** STRONG — tier-1, upstream
 - **Source:** Kenya Gazette (Kenya Law) · tier 1 · KE · gazette
-- **First seen:** 2026-08-04T23:54+03:00 EAT · **Source date:** 2026-08-03
-- **URL:** https://new.kenyalaw.org/akn/ke/judgment/kehc/2026/12158/eng@2026-08-03
-- **Extract:** Lenana Innovative Solutions Limited & 3 others v Wlb Asset II D Pte Ltd & another (Constitutional Petition E078 of 2025) [2026] KEHC 12158 (KLR) (Constitutional and Human Rights) (3 August 2026) (Ruling)
-- **Score parts:** tier +40, category +20, lead +12, relevance +8, freshness +16.8, corroborated +10
+- **First seen:** 2026-08-05T13:12+03:00 EAT · **Source date:** 2026-08-04
+- **URL:** https://new.kenyalaw.org/akn/ke/doc/cause-list-daily/ketat/2026-08-04/1/eng@2026-08-04
+- **Extract:** Tax Appeal Tribunal – Daily Cause List – 04 August 2026 to 04 August 2026
+- **Score parts:** tier +40, category +20, lead +12, relevance +8, freshness +19.7, corroborated +10
 
-### 🟠 [104.0] Taiwan - Level 1: Exercise Normal Precautions
+### 🟠 [104.1] Anchored in Faith, Renewed in Hope, Transforming Together
 - **Verdict:** STRONG — tier-1, upstream
-- **Source:** US State Dept travel advisories (EA feed) · tier 1 · REG · advisory
-- **First seen:** 2026-08-04T23:54+03:00 EAT · **Source date:** — none stated
-- **URL:** http://travel.state.gov/content/travel/en/traveladvisories/traveladvisories/taiwan-travel-advisory.html
-- **Extract:** There were no changes to the advisory level or risk indicators. Advisory summary was updated. Exercise normal precautions in Taiwan . There is a risk of natural disasters in Taiwan, including earthquakes, tsunamis, typhoons, flooding, and extreme heat. Please 
-- **Score parts:** tier +40, category +32, lead +1.2, relevance +20, freshness +16.8, undated -6
+- **Source:** Kenya Wildlife Service · tier 1 · KE · parks
+- **First seen:** 2026-08-05T13:12+03:00 EAT · **Source date:** 2026-08-05
+- **URL:** https://kws.go.ke/anchored-in-faith-renewed-in-hope-transforming-together
+- **Extract:** Yesterday, Kenya Wildlife Service staff gathered for a Prayer, Thanksgiving and Wellness Service under the theme "Anchored in Faith, Renewed in Hope, Transforming Together." The service was an opportunity to thank God for His faithfulness, reflect on the journ
+- **Score parts:** tier +40, category +18, lead +8.4, relevance +8, freshness +19.7, corroborated +10
 
-### 🟠 [104.0] Malta - Level 1: Exercise Normal Precautions
+### 🟠 [103.0] Ministry of Health Strengthens Capacity of Call Centre Agents to Enhance Family Planning Information and Counselling Ser
 - **Verdict:** STRONG — tier-1, upstream
-- **Source:** US State Dept travel advisories (EA feed) · tier 1 · REG · advisory
-- **First seen:** 2026-08-04T23:54+03:00 EAT · **Source date:** — none stated
-- **URL:** http://travel.state.gov/content/travel/en/traveladvisories/traveladvisories/malta-travel-advisory.html
-- **Extract:** There were no changes to the advisory level or risk indicators. Advisory summary was updated. Advisory summary Malta is generally a safe destination for travelers. Riptides have caused drowning deaths among tourists. U.S. citizens should use caution when at lo
-- **Score parts:** tier +40, category +32, lead +1.2, relevance +20, freshness +16.8, undated -6
+- **Source:** Uganda Ministry of Health — news · tier 1 · UG · health
+- **First seen:** 2026-08-05T13:12+03:00 EAT · **Source date:** 2026-08-03
+- **URL:** https://health.go.ug/ministry-of-health-strengthens-capacity-of-call-centre-agents-to-enhance-family-planning-information-and-counselling-services
+- **Extract:** 3rd August 2026, Mukono – The Ministry of Health, in partnership with Marie Stopes Uganda, is conducting a four-day capacity-building training for Ministry of Health Call Centre agents on family planning. The training is aimed at strengthening the capacity of 
+- **Score parts:** tier +40, category +24, lead +1.2, relevance +8, freshness +19.8, corroborated +10
 
-### 🟠 [104.0] The Bahamas - Level 2: Exercise Increased Caution
+### 🟠 [102.9] Ministry of Health Strengthens Capacity of Call Centre Agents to Enhance Family Planning Information and Counselling Ser
 - **Verdict:** STRONG — tier-1, upstream
-- **Source:** US State Dept travel advisories (EA feed) · tier 1 · REG · advisory
-- **First seen:** 2026-08-04T23:54+03:00 EAT · **Source date:** — none stated
-- **URL:** http://travel.state.gov/content/travel/en/traveladvisories/traveladvisories/the-bahamas-travel-advisory.html
-- **Extract:** There are no changes to the advisory level or risk indicators. Advisory summary was updated. Exercise increased caution in The Bahamas due to crime . Advisory summary Crime Violent crime, including armed robberies, burglaries, and sexual assaults, can occur an
-- **Score parts:** tier +40, category +32, lead +1.2, relevance +20, freshness +16.8, undated -6
-
-### 🟡 [102.9] Government Launches Monthly National Cleaning Days to Boost Public Health
-- **Verdict:** CHECK — source date older than the window
 - **Source:** Uganda Ministry of Health · tier 1 · UG · health
-- **First seen:** 2026-08-04T23:53+03:00 EAT · **Source date:** 2026-07-23
-- **URL:** https://health.go.ug/government-launches-monthly-national-cleaning-days-to-boost-public-health
-- **Shock language:** outbreak
-- **Extract:** 23rd July 2026 ,Kampala –The Government of Uganda has announced the rollout of a Nationwide Cleaning Days Programme, a monthly initiative aimed at improving sanitation, preventing disease outbreaks, and promoting environmental conservation across the country. 
-- **Score parts:** tier +40, category +24, lead +1.2, relevance +28, freshness +16.7, stale_trap -25, shock +18
+- **First seen:** 2026-08-05T13:12+03:00 EAT · **Source date:** 2026-08-03
+- **URL:** https://health.go.ug/ministry-of-health-strengthens-capacity-of-call-centre-agents-to-enhance-family-planning-information-and-counselling-services
+- **Extract:** 3rd August 2026, Mukono – The Ministry of Health, in partnership with Marie Stopes Uganda, is conducting a four-day capacity-building training for Ministry of Health Call Centre agents on family planning. The training is aimed at strengthening the capacity of 
+- **Score parts:** tier +40, category +24, lead +1.2, relevance +8, freshness +19.7, corroborated +10
+
+### 🟠 [101.7] Kibera Law Courts – Daily Cause List – 04 August 2026 to 04 August 2026
+- **Verdict:** STRONG — tier-1, upstream
+- **Source:** Kenya Gazette (Kenya Law) · tier 1 · KE · gazette
+- **First seen:** 2026-08-05T13:12+03:00 EAT · **Source date:** 2026-08-04
+- **URL:** https://new.kenyalaw.org/akn/ke/doc/cause-list-daily/kemc/2026-08-04/3/eng@2026-08-04
+- **Extract:** Kibera Law Courts – Daily Cause List – 04 August 2026 to 04 August 2026
+- **Score parts:** tier +40, category +20, lead +12, relevance +0, freshness +19.7, corroborated +10
+
+### 🟠 [101.7] Kimilili Law Courts – Weekly Cause List – 10 August 2026 to 14 August 2026
+- **Verdict:** STRONG — tier-1, upstream
+- **Source:** Kenya Gazette (Kenya Law) · tier 1 · KE · gazette
+- **First seen:** 2026-08-05T13:12+03:00 EAT · **Source date:** 2026-08-10
+- **URL:** https://new.kenyalaw.org/akn/ke/doc/cause-list-weekly/kemc/2026-08-10/2/eng@2026-08-10
+- **Extract:** Kimilili Law Courts – Weekly Cause List – 10 August 2026 to 14 August 2026
+- **Score parts:** tier +40, category +20, lead +12, relevance +0, freshness +19.7, corroborated +10
+
+### 🟠 [101.7] Employment and Labour Relations Court at Nairobi – Judicial Review and Labour Rights Division – Daily Cause List – 10 Au
+- **Verdict:** STRONG — tier-1, upstream
+- **Source:** Kenya Gazette (Kenya Law) · tier 1 · KE · gazette
+- **First seen:** 2026-08-05T13:12+03:00 EAT · **Source date:** 2026-08-10
+- **URL:** https://new.kenyalaw.org/akn/ke/doc/cause-list-daily/keelrc/2026-08-10/2/eng@2026-08-10
+- **Extract:** Employment and Labour Relations Court at Nairobi – Judicial Review and Labour Rights Division – Daily Cause List – 10 August 2026
+- **Score parts:** tier +40, category +20, lead +12, relevance +0, freshness +19.7, corroborated +10
+
+### 🟠 [101.7] Business Premises Rent Tribunal – Daily Cause List – 04 August 2026
+- **Verdict:** STRONG — tier-1, upstream
+- **Source:** Kenya Gazette (Kenya Law) · tier 1 · KE · gazette
+- **First seen:** 2026-08-05T13:12+03:00 EAT · **Source date:** 2026-08-04
+- **URL:** https://new.kenyalaw.org/akn/ke/doc/cause-list-daily/kebprt/2026-08-04/1/eng@2026-08-04
+- **Extract:** Business Premises Rent Tribunal – Daily Cause List – 04 August 2026
+- **Score parts:** tier +40, category +20, lead +12, relevance +0, freshness +19.7, corroborated +10
+
+### 🟠 [101.7] Tongaren Mobile Court – Civil Division – Weekly Cause List – 10 August 2026 to 14 August 2026
+- **Verdict:** STRONG — tier-1, upstream
+- **Source:** Kenya Gazette (Kenya Law) · tier 1 · KE · gazette
+- **First seen:** 2026-08-05T13:12+03:00 EAT · **Source date:** 2026-08-10
+- **URL:** https://new.kenyalaw.org/akn/ke/doc/cause-list-weekly/kemc/2026-08-10/3/eng@2026-08-10
+- **Extract:** Tongaren Mobile Court – Civil Division – Weekly Cause List – 10 August 2026 to 14 August 2026
+- **Score parts:** tier +40, category +20, lead +12, relevance +0, freshness +19.7, corroborated +10
+
+### 🟠 [101.7] Employment and Labour Relations Court at Nairobi – Claims and Labour Relations Division – Daily Cause List – 10 August 2
+- **Verdict:** STRONG — tier-1, upstream
+- **Source:** Kenya Gazette (Kenya Law) · tier 1 · KE · gazette
+- **First seen:** 2026-08-05T13:12+03:00 EAT · **Source date:** 2026-08-10
+- **URL:** https://new.kenyalaw.org/akn/ke/doc/cause-list-daily/keelrc/2026-08-10/3/eng@2026-08-10
+- **Extract:** Employment and Labour Relations Court at Nairobi – Claims and Labour Relations Division – Daily Cause List – 10 August 2026
+- **Score parts:** tier +40, category +20, lead +12, relevance +0, freshness +19.7, corroborated +10
+
+### 🟠 [101.7] Butere Law Courts – Criminal Division – Weekly Cause List – 10 August 2026 to 12 August 2026
+- **Verdict:** STRONG — tier-1, upstream
+- **Source:** Kenya Gazette (Kenya Law) · tier 1 · KE · gazette
+- **First seen:** 2026-08-05T13:12+03:00 EAT · **Source date:** 2026-08-10
+- **URL:** https://new.kenyalaw.org/akn/ke/doc/cause-list-weekly/kemc/2026-08-10/4/eng@2026-08-10
+- **Extract:** Butere Law Courts – Criminal Division – Weekly Cause List – 10 August 2026 to 12 August 2026
+- **Score parts:** tier +40, category +20, lead +12, relevance +0, freshness +19.7, corroborated +10
+
+### 🟠 [101.7] Marsabit Law Courts – Daily Cause List – 06 August 2026 to 07 August 2026
+- **Verdict:** STRONG — tier-1, upstream
+- **Source:** Kenya Gazette (Kenya Law) · tier 1 · KE · gazette
+- **First seen:** 2026-08-05T13:12+03:00 EAT · **Source date:** 2026-08-06
+- **URL:** https://new.kenyalaw.org/akn/ke/doc/cause-list-daily/kemc/2026-08-06/1/eng@2026-08-06
+- **Extract:** Marsabit Law Courts – Daily Cause List – 06 August 2026 to 07 August 2026
+- **Score parts:** tier +40, category +20, lead +12, relevance +0, freshness +19.7, corroborated +10
+
+### 🟠 [101.7] Butere Law Courts – Weekly Cause List – 11 August 2026 to 13 August 2026
+- **Verdict:** STRONG — tier-1, upstream
+- **Source:** Kenya Gazette (Kenya Law) · tier 1 · KE · gazette
+- **First seen:** 2026-08-05T13:12+03:00 EAT · **Source date:** 2026-08-11
+- **URL:** https://new.kenyalaw.org/akn/ke/doc/cause-list-weekly/kemc/2026-08-11/1/eng@2026-08-11
+- **Extract:** Butere Law Courts – Weekly Cause List – 11 August 2026 to 13 August 2026
+- **Score parts:** tier +40, category +20, lead +12, relevance +0, freshness +19.7, corroborated +10
+
+### 🟠 [96.5] Wednesday, 5th August 2026 at 2.30pm
+- **Verdict:** STRONG — tier-1, upstream
+- **Source:** Parliament of Kenya — bills & papers · tier 1 · KE · legislature
+- **First seen:** 2026-08-05T13:12+03:00 EAT · **Source date:** 2026-08-05
+- **URL:** https://www.parliament.go.ke/sites/default/files/2026-08/ORDER%20PAPER%20FOR%20WEDNESDAY%2C%205TH%20AUGUST%202026%20-%20AFTERNOON%20SITTING.pdf
+- **Extract:** en-USThirteenth Parliament Fifth Session en-GBAfternoon Sittingen-US en-US(No. 69) (2054) en-US en-US en-USREPUBLIC OF KENYA en-US en-USTHIRTEENTH PARLIAMENT (FIFTH SESSION) en-US en-USTHE NATIONAL ASSEMBLY en-US en-USORDERS OF THE DAY en-US en-US en-GBWEDNESD
+- **Score parts:** tier +40, category +10, lead +16.8, relevance +0, freshness +19.7, corroborated +10
+
+### 🟠 [96.5] Parliament backs President on plastics tax, casino levy Tuesday, 4 August 2026
+- **Verdict:** STRONG — tier-1, upstream
+- **Source:** Parliament of Uganda · tier 1 · UG · legislature
+- **First seen:** 2026-08-05T13:12+03:00 EAT · **Source date:** — none stated
+- **URL:** https://www.parliament.go.ug/news/4526/parliament-backs-president-plastics-tax-casino-levy
+- **Score parts:** tier +40, category +10, lead +16.8, relevance +16, freshness +19.7, undated -6
+
+### 🟡 [96.2] EVA Air Schedules Taipei – Delhi Dec 2026 Launch
+- **Verdict:** CONSIDER
+- **Source:** AeroRoutes schedule filings · tier 2 · GLOBAL · aviation-tracker
+- **First seen:** 2026-08-05T13:12+03:00 EAT · **Source date:** 2026-08-05
+- **URL:** https://www.aeroroutes.com/eng/260805-brnw26del
+- **Extract:** Published at 0005PDT / 0705GMT 05AUG26 EVA Air during Northern winter 2026/27 season plans to resume passenger service to India, as the carrier filed operational schedule for Taipei Taoyuan – Delhi route since 0704GMT, on board Airbus A330-300 aircraft. First 
+- **Score parts:** tier +20, category +14, lead +8.4, relevance +24, freshness +19.8, corroborated +10
+
+### 🟠 [95.0] Ministry of Health Reviews Progress on Newborn Health Interventions to Accelerate Newborn Survival.
+- **Verdict:** STRONG — tier-1, upstream
+- **Source:** Uganda Ministry of Health — news · tier 1 · UG · health
+- **First seen:** 2026-08-05T13:12+03:00 EAT · **Source date:** 2026-08-04
+- **URL:** https://health.go.ug/ministry-of-health-reviews-progress-on-newborn-health-interventions-to-accelerate-newborn-survival
+- **Extract:** 4th August 2026, Kampala – The Ministry of Health, through the Reproductive and Child Health (RCH) Department, has concluded a two-day Quarterly Newborn Working Group Meeting held from 3rd to 4th August 2026 at UNICEF Headquarters, bringing together developmen
+- **Score parts:** tier +40, category +24, lead +1.2, relevance +0, freshness +19.8, corroborated +10
+
+### 🟠 [94.9] Ministry of Health Reviews Progress on Newborn Health Interventions to Accelerate Newborn Survival.
+- **Verdict:** STRONG — tier-1, upstream
+- **Source:** Uganda Ministry of Health · tier 1 · UG · health
+- **First seen:** 2026-08-05T13:12+03:00 EAT · **Source date:** 2026-08-04
+- **URL:** https://health.go.ug/ministry-of-health-reviews-progress-on-newborn-health-interventions-to-accelerate-newborn-survival
+- **Extract:** 4th August 2026, Kampala – The Ministry of Health, through the Reproductive and Child Health (RCH) Department, has concluded a two-day Quarterly Newborn Working Group Meeting held from 3rd to 4th August 2026 at UNICEF Headquarters, bringing together developmen
+- **Score parts:** tier +40, category +24, lead +1.2, relevance +0, freshness +19.7, corroborated +10
+
+### 🟠 [93.7] Donate gazettes
+- **Verdict:** STRONG — tier-1, upstream
+- **Source:** Rwanda Official Gazette (gazettes.africa) · tier 1 · RW · gazette
+- **First seen:** 2026-08-05T13:12+03:00 EAT · **Source date:** — none stated
+- **URL:** https://gazettes.africa/cdn-cgi/l/email-protection
+- **Score parts:** tier +40, category +20, lead +12, relevance +8, freshness +19.7, undated -6
+
+### 🟠 [93.7] Donate gazettes
+- **Verdict:** STRONG — tier-1, upstream
+- **Source:** Tanzania Government Gazette (gazettes.africa) · tier 1 · TZ · gazette
+- **First seen:** 2026-08-05T13:12+03:00 EAT · **Source date:** — none stated
+- **URL:** https://gazettes.africa/cdn-cgi/l/email-protection
+- **Score parts:** tier +40, category +20, lead +12, relevance +8, freshness +19.7, undated -6
+
+### 🟠 [93.7] Donate gazettes
+- **Verdict:** STRONG — tier-1, upstream
+- **Source:** Uganda Gazette (gazettes.africa) · tier 1 · UG · gazette
+- **First seen:** 2026-08-05T13:12+03:00 EAT · **Source date:** — none stated
+- **URL:** https://gazettes.africa/cdn-cgi/l/email-protection
+- **Score parts:** tier +40, category +20, lead +12, relevance +8, freshness +19.7, undated -6
+
+### 🟠 [93.7] Donate gazettes
+- **Verdict:** STRONG — tier-1, upstream
+- **Source:** Kenya Gazette mirror (gazettes.africa) · tier 1 · KE · gazette
+- **First seen:** 2026-08-05T13:12+03:00 EAT · **Source date:** — none stated
+- **URL:** https://gazettes.africa/cdn-cgi/l/email-protection
+- **Score parts:** tier +40, category +20, lead +12, relevance +8, freshness +19.7, undated -6
+
+### 🟡 [92.2] Air China NW26 Chongqing – Taipei Aircraft Changes
+- **Verdict:** CONSIDER
+- **Source:** AeroRoutes schedule filings · tier 2 · GLOBAL · aviation-tracker
+- **First seen:** 2026-08-05T13:12+03:00 EAT · **Source date:** 2026-08-05
+- **URL:** https://www.aeroroutes.com/eng/260804-canw26ckgtpe
+- **Extract:** Published at 2000PDT 04AUG26 / 0300GMT 05AUG26 Star Alliance member Air China during Northern winter 2026/27 season plans to expand capacity on Chongqing – Taipei Taoyuan route, effective 25OCT26. The 5 weekly flights will be served by Airbus A330-300, replaci
+- **Score parts:** tier +20, category +14, lead +8.4, relevance +20, freshness +19.8, corroborated +10
+
+### 🟡 [92.2] Qanot Sharq Discontinues London Gatwick Service in late-Sep 2026
+- **Verdict:** CONSIDER
+- **Source:** AeroRoutes schedule filings · tier 2 · GLOBAL · aviation-tracker
+- **First seen:** 2026-08-05T13:12+03:00 EAT · **Source date:** 2026-08-05
+- **URL:** https://www.aeroroutes.com/eng/260804-hhnw26lgw
+- **Extract:** Published at 1701PDT 04AUG26 / 0001GMT 05AUG26 Uzbekistan’s Qanot Sharq this week filed additional service changes on Tashkent – London Gatwick route, which now sees the airline operates last flight on 28SEP26. Previously the airline removed schedule filing fo
+- **Score parts:** tier +20, category +14, lead +8.4, relevance +20, freshness +19.8, corroborated +10
+
+### 🟠 [91.7] Kyuso Law Courts – Weekly Cause List – 03 August 2026 to 07 August 2026
+- **Verdict:** STRONG — tier-1, upstream
+- **Source:** Kenya Gazette (Kenya Law) · tier 1 · KE · gazette
+- **First seen:** 2026-08-05T13:12+03:00 EAT · **Source date:** 2026-08-03
+- **URL:** https://new.kenyalaw.org/akn/ke/doc/cause-list-weekly/kemc/2026-08-03/15/eng@2026-08-03
+- **Extract:** Kyuso Law Courts – Weekly Cause List – 03 August 2026 to 07 August 2026
+- **Score parts:** tier +40, category +20, lead +12, relevance +0, freshness +19.7
+
+### 🟠 [91.7] Narok Law Courts – Weekly Cause List – 03 August 2026 to 07 August 2026
+- **Verdict:** STRONG — tier-1, upstream
+- **Source:** Kenya Gazette (Kenya Law) · tier 1 · KE · gazette
+- **First seen:** 2026-08-05T13:12+03:00 EAT · **Source date:** 2026-08-03
+- **URL:** https://new.kenyalaw.org/akn/ke/doc/cause-list-weekly/kemc/2026-08-03/16/eng@2026-08-03
+- **Extract:** Narok Law Courts – Weekly Cause List – 03 August 2026 to 07 August 2026
+- **Score parts:** tier +40, category +20, lead +12, relevance +0, freshness +19.7
+
+### 🟠 [91.7] Sports Disputes Tribunal – Weekly Cause List – 03 August 2026 to 07 August 2026
+- **Verdict:** STRONG — tier-1, upstream
+- **Source:** Kenya Gazette (Kenya Law) · tier 1 · KE · gazette
+- **First seen:** 2026-08-05T13:12+03:00 EAT · **Source date:** 2026-08-03
+- **URL:** https://new.kenyalaw.org/akn/ke/doc/cause-list-weekly/kesdt/2026-08-03/2/eng@2026-08-03
+- **Extract:** Sports Disputes Tribunal – Weekly Cause List – 03 August 2026 to 07 August 2026
+- **Score parts:** tier +40, category +20, lead +12, relevance +0, freshness +19.7
+
+### 🟡 [85.7] Advanced search
+- **Verdict:** CONSIDER
+- **Source:** Rwanda Official Gazette (gazettes.africa) · tier 1 · RW · gazette
+- **First seen:** 2026-08-05T13:12+03:00 EAT · **Source date:** — none stated
+- **URL:** https://gazettes.africa/search/?show-advanced-tab=1
+- **Score parts:** tier +40, category +20, lead +12, relevance +0, freshness +19.7, undated -6
+
+### 🟡 [85.7] Advanced search
+- **Verdict:** CONSIDER
+- **Source:** Tanzania Government Gazette (gazettes.africa) · tier 1 · TZ · gazette
+- **First seen:** 2026-08-05T13:12+03:00 EAT · **Source date:** — none stated
+- **URL:** https://gazettes.africa/search/?show-advanced-tab=1
+- **Score parts:** tier +40, category +20, lead +12, relevance +0, freshness +19.7, undated -6
+
+### 🟡 [85.7] Advanced search
+- **Verdict:** CONSIDER
+- **Source:** Uganda Gazette (gazettes.africa) · tier 1 · UG · gazette
+- **First seen:** 2026-08-05T13:12+03:00 EAT · **Source date:** — none stated
+- **URL:** https://gazettes.africa/search/?show-advanced-tab=1
+- **Score parts:** tier +40, category +20, lead +12, relevance +0, freshness +19.7, undated -6
+
+### 🟡 [85.7] Advanced search
+- **Verdict:** CONSIDER
+- **Source:** Kenya Gazette mirror (gazettes.africa) · tier 1 · KE · gazette
+- **First seen:** 2026-08-05T13:12+03:00 EAT · **Source date:** — none stated
+- **URL:** https://gazettes.africa/search/?show-advanced-tab=1
+- **Score parts:** tier +40, category +20, lead +12, relevance +0, freshness +19.7, undated -6
+
+### 🟡 [84.2] Saudia Plans Moscow Service Expansion in NW26
+- **Verdict:** CONSIDER
+- **Source:** AeroRoutes schedule filings · tier 2 · GLOBAL · aviation-tracker
+- **First seen:** 2026-08-05T13:12+03:00 EAT · **Source date:** 2026-08-05
+- **URL:** https://www.aeroroutes.com/eng/260805-svnw26svo
+- **Extract:** Published at 0200PDT / 0900GMT 05AUG26 Saudia during Northern winter 2026/27 season intends to expand service to Russia, including new service from Jeddah to Moscow. Planned operations as follows. Jeddah – Moscow Sheremetyevo eff 27OCT26 3 weekly 787-9 (reserv
+- **Score parts:** tier +20, category +14, lead +8.4, relevance +12, freshness +19.8, corroborated +10
+
+### 🟡 [84.2] Discover Airlines Adds Frankfurt – Savonlinna in NS27
+- **Verdict:** CONSIDER
+- **Source:** AeroRoutes schedule filings · tier 2 · GLOBAL · aviation-tracker
+- **First seen:** 2026-08-05T13:12+03:00 EAT · **Source date:** 2026-08-05
+- **URL:** https://www.aeroroutes.com/eng/260804-4yns27svl
+- **Extract:** Published at 1600PDT / 2300GMT 04AUG26 Discover Airlines during Northern summer 2027 season plans to launch Frankfurt – Savonlinna route, scheduled on seasonal basis from 19JUN27. Airbus A320 aircraft to serve this route on weekly basis. 4Y1326 FRA2130 – 0120+
+- **Score parts:** tier +20, category +14, lead +8.4, relevance +12, freshness +19.8, corroborated +10
+
+### 🟡 [81.7] Environment and Land Court at Garissa – Court Recess – 01 August 2026 to 15 September 2026
+- **Verdict:** CHECK — source date older than the window
+- **Source:** Kenya Gazette (Kenya Law) · tier 1 · KE · gazette
+- **First seen:** 2026-08-05T13:12+03:00 EAT · **Source date:** 2026-08-01
+- **URL:** https://new.kenyalaw.org/akn/ke/doc/court_recess/keelc/2026-08-01/1/eng@2026-08-01
+- **Extract:** Environment and Land Court at Garissa – Court Recess – 01 August 2026 to 15 September 2026
+- **Score parts:** tier +40, category +20, lead +12, relevance +0, freshness +19.7, stale_trap -10
+
+### 🟡 [80.8] Last modified
+- **Verdict:** CONSIDER
+- **Source:** Zanzibar Revenue Board · tier 1 · ZNZ · fiscal
+- **First seen:** 2026-08-05T13:12+03:00 EAT · **Source date:** — none stated
+- **URL:** https://www.zrb.go.tz/?C=M;O=A
+- **Score parts:** tier +40, category +15, lead +12, relevance +0, freshness +19.8, undated -6
+
+### 🟡 [80.5] 𝐒𝐄𝐍𝐀𝐓𝐄 𝐂𝐎𝐌𝐌𝐈𝐓𝐓𝐄𝐄 𝐑𝐄𝐉𝐄𝐂𝐓𝐒 𝐅𝐔𝐑𝐓𝐇𝐄𝐑 𝐄𝐗𝐓𝐄𝐍𝐒𝐈𝐎𝐍 𝐎𝐅 𝐂𝐎𝐔𝐍𝐓𝐘 𝐏𝐄𝐍𝐒𝐈𝐎𝐍 𝐓𝐀𝐒𝐊 𝐅𝐎𝐑𝐂𝐄
+- **Verdict:** CONSIDER
+- **Source:** Parliament of Kenya — bills & papers · tier 1 · KE · legislature
+- **First seen:** 2026-08-05T13:12+03:00 EAT · **Source date:** — none stated
+- **URL:** https://www.parliament.go.ke/node/26202
+- **Score parts:** tier +40, category +10, lead +16.8, relevance +0, freshness +19.7, undated -6
+
+### 🟡 [80.5] 𝐖𝐀𝐓𝐄𝐑 𝐒𝐄𝐂𝐓𝐎𝐑 𝐓𝐑𝐔𝐒𝐓 𝐅𝐔𝐍𝐃 𝐒𝐄𝐄𝐊𝐒 𝐖𝐀𝐓𝐄𝐑 𝐀𝐂𝐓 𝐀𝐌𝐄𝐍𝐃𝐌𝐄𝐍𝐓 𝐓𝐎 𝐄𝐗𝐏𝐀𝐍𝐃 𝐌𝐀𝐍𝐃𝐀𝐓𝐄
+- **Verdict:** CONSIDER
+- **Source:** Parliament of Kenya — bills & papers · tier 1 · KE · legislature
+- **First seen:** 2026-08-05T13:12+03:00 EAT · **Source date:** — none stated
+- **URL:** https://www.parliament.go.ke/node/26197
+- **Score parts:** tier +40, category +10, lead +16.8, relevance +0, freshness +19.7, undated -6
+
+### 🟡 [80.5] Tread with caution on international treaties - Tayebwa Tuesday, 4 August 2026
+- **Verdict:** CONSIDER
+- **Source:** Parliament of Uganda · tier 1 · UG · legislature
+- **First seen:** 2026-08-05T13:12+03:00 EAT · **Source date:** — none stated
+- **URL:** https://www.parliament.go.ug/news/4527/tread-caution-international-treaties-tayebwa
+- **Score parts:** tier +40, category +10, lead +16.8, relevance +0, freshness +19.7, undated -6
