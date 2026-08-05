@@ -1,6 +1,6 @@
 {
  "version": 1,
- "updated": "2026-08-04",
+ "updated": "2026-08-05",
  "note": "Upstream-weighted source registry for the EA Hospitality Pulse radar. tier 1 = primary/official, 2 = reputable secondary, 3 = weak (lead only, never publishable alone). lead_days = typical head start over mainstream coverage. Sources that fail repeatedly are surfaced by monitor.py rather than silently dropped.",
  "sources": [
   {
@@ -43,7 +43,8 @@
     "morning"
    ],
    "why": "Second read on the gazette; often indexed faster than the official portal.",
-   "frag": ""
+   "frag": "",
+   "min_len": 10
   },
   {
    "id": "ke-epra-press",
@@ -534,7 +535,8 @@
     "morning"
    ],
    "why": "Statutory instruments incl. park and licensing fees.",
-   "frag": ""
+   "frag": "",
+   "min_len": 10
   },
   {
    "id": "ug-ubos",
@@ -769,7 +771,8 @@
     "morning"
    ],
    "why": "Fee schedules and statutory instruments.",
-   "frag": ""
+   "frag": "",
+   "min_len": 10
   },
   {
    "id": "tz-nbs",
@@ -851,7 +854,8 @@
     "evening"
    ],
    "why": "Park entry fees and access rules \u2014 the biggest single line in a northern-circuit quote.",
-   "frag": ""
+   "frag": "",
+   "min_len": 12
   },
   {
    "id": "tz-ncaa",
@@ -1080,7 +1084,8 @@
     "evening"
    ],
    "why": "Infrastructure levy and hotel tax changes \u2014 a direct per-guest cost.",
-   "frag": ""
+   "frag": "",
+   "min_len": 12
   },
   {
    "id": "zn-zaa",
@@ -1141,7 +1146,8 @@
     "morning"
    ],
    "why": "Ministerial orders incl. permit and park pricing.",
-   "frag": ""
+   "frag": "",
+   "min_len": 10
   },
   {
    "id": "rw-nisr",
@@ -1913,7 +1919,8 @@
     "midday"
    ],
    "why": "Entebbe network build-out; capacity is a leading indicator of arrivals.",
-   "frag": ""
+   "frag": "",
+   "min_len": 16
   },
   {
    "id": "air-wb",
