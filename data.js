@@ -1,5 +1,14 @@
 window.EDITIONS = [
  {
+  "id": "pulse-2026-08-05-evening",
+  "date": "2026-08-05",
+  "dateDisplay": "Wednesday, 5 August 2026",
+  "edition": "Evening Wrap",
+  "editionKey": "evening",
+  "summary": "One story tonight worth planning against — plus two dates on next week's clock.",
+  "bodyHtml": "<p><span class=\"meta-line\">🏨 EA HOSPITALITY PULSE — Evening Wrap</span><br><span class=\"meta-line\">📅 Wednesday, 5 August 2026 | 🇺🇬🇷🇼</span></p>\n<p>One story tonight worth planning against — plus two dates on next week&#x27;s clock.</p>\n<p>━━━━━━━━━<br>✈️ UGANDA AIRLINES TAKES ON RWANDAIR — DAILY KIGALI, AND A WEST AFRICA GATEWAY<br>Announced this afternoon (5 Aug, Sheraton Kampala) by acting CEO Girma Wake: Uganda Airlines will fly <strong>Entebbe–Kigali daily from 18 November</strong> on the CRJ-900, and <strong>Entebbe–Accra 4x weekly from 27 October</strong> on a 737-800 wet-leased from Ethiopian (per New Vision &amp; Nile Post, 5 Aug). The Kigali service ends years of RwandAir holding a near-monopoly on non-stop Entebbe–Kigali.<br><span class=\"sowhat\">🎯 So what: two things move here. First, the <strong>Kampala–Kigali corporate corridor</strong> gets a second daily carrier — more seats, real fare competition, same-day return options on one of the EAC&#x27;s busiest business routes. City hotels in both capitals should read this as cheaper, more frequent regional connectivity feeding corporate and MICE demand, not a threat. Second, <strong>Accra opens a West African feed</strong> into Entebbe — trade, cargo and business travel from a region East Africa is barely connected to. That positions Kampala as a genuine transit-and-meeting point between West and East Africa: a forward demand signal worth building corporate rate around, especially into FHS Africa Kampala next February.</span><br><span class=\"tagline\">🏷 City | Uganda/Rwanda | Confirmed (routes) + Inferred (demand)</span><br>👉 Revenue note: don&#x27;t assume today&#x27;s Entebbe–Kigali fares hold into Q4 — watch RwandAir&#x27;s schedule-and-price defence once a second daily carrier lands.</p>\n<p><span class=\"meta-line\">📅 NEXT WEEK&#x27;S CLOCK — TWO DIARISED DATES</span><br>• <strong>12 Aug</strong> — the US CDC&#x27;s Ebola entry suspension (DRC/Uganda/South Sudan) reaches its renewal point. Our standing call: renewed with DRC still listed; whether Uganda is decoupled is the open question for Ugandan inbound.<br>• <strong>15 Aug</strong> — EPRA&#x27;s monthly fuel review. Diesel (KSh 222.86/L, held flat only by state support, per EPRA July review) is the safari cost driver. Lock transfer contracts now rather than after the October VAT decision.<br><span class=\"tagline\">🏷 All | Regional | Watch</span><br>━━━━━━━━━<br>🔗 This edition on the web: https://eahospitalitypulse.com/editions/pulse-2026-08-05-evening.html<br>💼 Today&#x27;s Big Read on LinkedIn: https://www.linkedin.com/company/ea-hospitality-pulse/<br>— EA Hospitality Pulse | Daily intelligence for city, bush &amp; beach properties</p>"
+ },
+ {
   "id": "pulse-2026-08-05-midday",
   "date": "2026-08-05",
   "dateDisplay": "Wednesday, 5 August 2026",
@@ -1642,4 +1651,4 @@ window.INSIGHTS = [
   "editionKey": "evening"
  }
 ];
-window.BUILT_AT = "2026-08-05 10:16";
+window.BUILT_AT = "2026-08-05 16:52";

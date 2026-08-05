@@ -1,8 +1,8 @@
 window.LEDGER = {
- "updated": "2026-08-05 10:16",
+ "updated": "2026-08-05 16:52",
  "stats": {
-  "total": 54,
-  "open": 49,
+  "total": 56,
+  "open": 51,
   "resolved": 5,
   "correct": 2,
   "partial": 1,
@@ -651,6 +651,22 @@ window.LEDGER = {
    "overdue": false
   },
   {
+   "id": "P054",
+   "made_date": "2026-08-05",
+   "edition": "Evening Wrap",
+   "claim": "Uganda Airlines will operate the daily Entebbe–Kigali service by 31 December 2026 — the 18 Nov launch holds rather than slipping",
+   "resolution_criteria": "ch-aviation,Uganda Airlines timetable or Ugandan press confirms a daily Entebbe-Kigali service operating on or before 31 Dec 2026. If not launched by then the call is incorrect",
+   "resolve_by": "2026-12-31",
+   "market": "UG",
+   "segment": "City",
+   "confidence": "Reported",
+   "status": "open",
+   "resolved_date": "",
+   "evidence": "",
+   "source_url": "https://www.newvision.co.ug/category/business/uganda-airlines-opens-new-routes-to-accra-kig-NV_238262_082026",
+   "overdue": false
+  },
+  {
    "id": "P006",
    "made_date": "2026-07-25",
    "edition": "Morning Brief",
@@ -680,6 +696,22 @@ window.LEDGER = {
    "resolved_date": "",
    "evidence": "",
    "source_url": "",
+   "overdue": false
+  },
+  {
+   "id": "P055",
+   "made_date": "2026-08-05",
+   "edition": "Evening Wrap",
+   "claim": "RwandAir will not cut its Entebbe–Kigali frequency in response to Uganda Airlines' entry within 90 days of the 18 Nov 2026 launch — it defends the corridor rather than ceding it",
+   "resolution_criteria": "RwandAir published timetable or ch-aviation checked ~16 Feb 2027 shows Entebbe-Kigali frequency at or above its pre-18-Nov-2026 level. If RwandAir reduces frequency the call is incorrect",
+   "resolve_by": "2027-02-16",
+   "market": "RW",
+   "segment": "City",
+   "confidence": "Early signal",
+   "status": "open",
+   "resolved_date": "",
+   "evidence": "",
+   "source_url": "https://www.rwandair.com/",
    "overdue": false
   },
   {
