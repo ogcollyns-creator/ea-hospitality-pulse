@@ -54,9 +54,15 @@ jobs:
       - name: Replay ledger (protects first_seen history)
         run: python3 radar/scan.py restore
 
+      - name: Install Playwright (for headless-marked sources)
+        run: |
+          pip install playwright
+          python -m playwright install --with-deps chromium
+
       - name: Scan sources
         env:
           RADAR_DELAY: '6.0'
+          RADAR_HEADLESS: '1'
         run: |
           python3 radar/scan.py scan \
             --workers 10 --max-seconds 1200 \
