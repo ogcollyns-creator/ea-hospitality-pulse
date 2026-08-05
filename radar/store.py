@@ -28,6 +28,7 @@ CREATE TABLE IF NOT EXISTS sources (
   slots          TEXT NOT NULL DEFAULT '[]',
   why            TEXT NOT NULL DEFAULT '',
   frag           TEXT NOT NULL DEFAULT '',
+  min_len        INTEGER NOT NULL DEFAULT 28,
   -- negotiated at runtime, cached thereafter
   resolved_method TEXT,
   feed_url       TEXT,
@@ -88,6 +89,13 @@ def connect(path):
     db = sqlite3.connect(path, timeout=30)
     db.row_factory = sqlite3.Row
     db.executescript(SCHEMA)
+    # Migration: older cached DBs predate min_len. Add it idempotently so a
+    # warm cache never crashes on src['min_len'].
+    try:
+        db.execute("ALTER TABLE sources ADD COLUMN min_len INTEGER NOT NULL DEFAULT 28")
+        db.commit()
+    except sqlite3.OperationalError:
+        pass
     return db
 
 
@@ -101,18 +109,19 @@ def load_registry(db, registry_path):
         seen.add(s["id"])
         db.execute("""
           INSERT INTO sources (id,name,url,tier,country,category,method_hint,
-                               cadence_min,lead_days,segments,slots,why,frag)
-          VALUES (?,?,?,?,?,?,?,?,?,?,?,?,?)
+                               cadence_min,lead_days,segments,slots,why,frag,min_len)
+          VALUES (?,?,?,?,?,?,?,?,?,?,?,?,?,?)
           ON CONFLICT(id) DO UPDATE SET
             name=excluded.name, url=excluded.url, tier=excluded.tier,
             country=excluded.country, category=excluded.category,
             method_hint=excluded.method_hint, cadence_min=excluded.cadence_min,
             lead_days=excluded.lead_days, segments=excluded.segments,
-            slots=excluded.slots, why=excluded.why, frag=excluded.frag
+            slots=excluded.slots, why=excluded.why, frag=excluded.frag,
+            min_len=excluded.min_len
         """, (s["id"], s["name"], s["url"], s["tier"], s["country"], s["category"],
               s["method"], s["cadence_min"], s.get("lead_days", 0),
               json.dumps(s.get("segments", [])), json.dumps(s.get("slots", [])),
-              s.get("why", ""), s.get("frag", "")))
+              s.get("why", ""), s.get("frag", ""), s.get("min_len", 28)))
     # Sources removed from the registry are disabled, not deleted — their item
     # history stays queryable and re-adding them restores state.
     db.execute("UPDATE sources SET enabled=0 WHERE id NOT IN (%s)" %

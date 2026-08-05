@@ -1,6 +1,6 @@
 {
-  "updated": "2026-08-04",
-  "note": "Remediation candidates for the 43 blind tier-1 sources. INERT until radar/validate_feeds.py --promote proves each one parses on a live-network runner; only then is it written into registry.json. 'try' lists are attempted in order; the validator ALSO auto-discovers each page's advertised feed, so a missing/wrong guess here is harmless. 'action:disable' entries are safe to apply offline. 'needs:headless' means no feed exists and the page is JS/bot-walled \u2014 left for a headless fetcher or manual watch, never auto-promoted.",
+  "updated": "2026-08-05",
+  "note": "Remediation candidates for the blind tier-1 sources. INERT until radar/validate_feeds.py --promote proves each parses on a live-network runner. 'try' = rss/html attempts (html carries an optional min_len for short-anchor gov listings); the validator ALSO auto-discovers each page's advertised feed, so a wrong guess is harmless. 'action:disable' applies offline. 'needs:headless' sources are NOT auto-promoted; their 'try_headless' target is used only by --probe-headless (diagnostic, non-mutating) to report whether a rendered fetch would yield items.",
   "candidates": {
     "ke-usembassy-alerts": {
       "try": [
@@ -15,6 +15,11 @@
         {
           "method": "rss",
           "url": "https://ke.usembassy.gov/category/messages-for-u-s-citizens/feed/"
+        },
+        {
+          "method": "html",
+          "url": "https://ke.usembassy.gov/category/alert/",
+          "min_len": 16
         }
       ],
       "note": "WordPress site feed + category feeds; if all fail the CDN is walling the runner (needs browser fetch)"
@@ -28,6 +33,11 @@
         {
           "method": "rss",
           "url": "https://www.mediacentre.go.ug/feed/"
+        },
+        {
+          "method": "html",
+          "url": "https://mediacentre.go.ug/press-room/",
+          "min_len": 16
         }
       ],
       "note": "WordPress feed"
@@ -56,7 +66,13 @@
     },
     "cdc-travel-notices": {
       "needs": "browser-fetch",
-      "reason": "Feed URL wwwnc.cdc.gov/travel/rss/notices.xml is CORRECT but CDC's CDN bot-walls the Azure runner. Needs a browser/residential fetch, not a new URL."
+      "reason": "Feed URL wwwnc.cdc.gov/travel/rss/notices.xml is CORRECT but CDC's CDN bot-walls the Azure runner. Needs a browser/residential fetch, not a new URL.",
+      "try_headless": [
+        {
+          "url": "https://wwwnc.cdc.gov/travel/notices",
+          "min_len": 18
+        }
+      ]
     },
     "sm-unwto": {
       "needs": "deprioritise",
@@ -68,11 +84,23 @@
     },
     "dev-marriott": {
       "needs": "browser-fetch",
-      "reason": "news.marriott.com is CDN-walled from the runner; secondary supply source"
+      "reason": "news.marriott.com is CDN-walled from the runner; secondary supply source",
+      "try_headless": [
+        {
+          "url": "https://news.marriott.com/",
+          "min_len": 18
+        }
+      ]
     },
     "dev-kempinski": {
       "needs": "browser-fetch",
-      "reason": "CDN-walled; single-chain, low priority"
+      "reason": "CDN-walled; single-chain, low priority",
+      "try_headless": [
+        {
+          "url": "https://www.kempinski.com/en/press",
+          "min_len": 18
+        }
+      ]
     },
     "air-ug": {
       "try": [
@@ -83,6 +111,11 @@
         {
           "method": "rss",
           "url": "https://www.ugandairlines.com/news/feed/"
+        },
+        {
+          "method": "html",
+          "url": "https://www.ugandairlines.com/news",
+          "min_len": 16
         }
       ],
       "note": "try WordPress feed, else headless"
@@ -118,115 +151,310 @@
     },
     "rw-visitrwanda": {
       "needs": "headless",
-      "reason": "JS marketing site, no feed"
+      "reason": "JS marketing site, no feed",
+      "try_headless": [
+        {
+          "url": "https://www.visitrwanda.com/news/",
+          "min_len": 18
+        }
+      ]
     },
     "air-jambojet": {
       "needs": "headless",
-      "reason": "JS press page, no feed"
+      "reason": "JS press page, no feed",
+      "try_headless": [
+        {
+          "url": "https://www.jambojet.com/en/press-release",
+          "min_len": 16
+        }
+      ]
     },
     "air-precision": {
       "needs": "headless",
-      "reason": "JS site, no feed"
+      "reason": "JS site, no feed",
+      "try_headless": [
+        {
+          "url": "https://www.precisionairtz.com/media-center/",
+          "min_len": 16
+        }
+      ]
     },
     "air-airlink": {
       "needs": "headless",
-      "reason": "JS site, no feed"
+      "reason": "JS site, no feed",
+      "try_headless": [
+        {
+          "url": "https://www.flyairlink.com/en/about-us/news",
+          "min_len": 16
+        }
+      ]
     },
     "air-tc": {
       "needs": "headless",
-      "reason": "JS site; auto-discover will still be attempted"
+      "reason": "JS site; auto-discover will still be attempted",
+      "try_headless": [
+        {
+          "url": "https://www.airtanzania.co.tz/media",
+          "min_len": 16
+        }
+      ]
     },
     "air-tk": {
       "needs": "headless",
-      "reason": "Turkish Airlines press room is JS/bot-walled"
+      "reason": "Turkish Airlines press room is JS/bot-walled",
+      "try_headless": [
+        {
+          "url": "https://www.turkishairlines.com/en-int/press-room/news/",
+          "min_len": 16
+        }
+      ]
     },
     "adv-au-kenya": {
       "needs": "headless",
-      "reason": "Smartraveller is JS + bot wall"
+      "reason": "Smartraveller is JS + bot wall",
+      "try_headless": [
+        {
+          "url": "https://www.smartraveller.gov.au/destinations/africa/kenya",
+          "min_len": 20
+        }
+      ]
     },
     "adv-au-tanzania": {
       "needs": "headless",
-      "reason": "Smartraveller is JS + bot wall"
+      "reason": "Smartraveller is JS + bot wall",
+      "try_headless": [
+        {
+          "url": "https://www.smartraveller.gov.au/destinations/africa/tanzania",
+          "min_len": 20
+        }
+      ]
     },
     "osac-kenya": {
       "needs": "headless",
-      "reason": "OSAC requires a session; not scrapable statically"
+      "reason": "OSAC requires a session; not scrapable statically",
+      "try_headless": [
+        {
+          "url": "https://www.osac.gov/Country/Kenya/Content/Detail/",
+          "min_len": 20
+        }
+      ]
     },
     "ke-epra-press": {
       "needs": "headless",
-      "reason": "EPRA sits behind Cloudflare; auto-discover attempted, likely headless"
+      "reason": "EPRA sits behind Cloudflare; auto-discover attempted, likely headless",
+      "try_headless": [
+        {
+          "url": "https://www.epra.go.ke/news/",
+          "min_len": 16
+        }
+      ]
     },
     "ke-epra-fuel": {
       "needs": "headless",
-      "reason": "Cloudflare + the schedule is a PDF; needs a PDF/headless path"
+      "reason": "Cloudflare + the schedule is a PDF; needs a PDF/headless path",
+      "try_headless": [
+        {
+          "url": "https://www.epra.go.ke/services/economic-regulation/petroleum/maximum-retail-petroleum-prices/",
+          "min_len": 12
+        }
+      ]
     },
     "ke-gazettes-africa": {
+      "try": [
+        {
+          "method": "html",
+          "url": "https://gazettes.africa/gazettes/ke",
+          "min_len": 10
+        }
+      ],
       "needs": "inspect",
-      "reason": "Server-rendered but anchors too short for the heuristic; auto-discover attempted, else needs a frag/min-length adapter"
+      "reason": "gazettes.africa short-anchor listing; low min_len extracts 'Vol./Legal Notice' anchors; html+min_len adapter, auto-discover fallback"
     },
     "ug-gazette": {
+      "try": [
+        {
+          "method": "html",
+          "url": "https://gazettes.africa/gazettes/ug",
+          "min_len": 10
+        }
+      ],
       "needs": "inspect",
-      "reason": "gazettes.africa short-anchor listing"
+      "reason": "gazettes.africa short-anchor listing; html+min_len adapter, auto-discover fallback"
     },
     "tz-gazette": {
+      "try": [
+        {
+          "method": "html",
+          "url": "https://gazettes.africa/gazettes/tz",
+          "min_len": 10
+        }
+      ],
       "needs": "inspect",
-      "reason": "gazettes.africa short-anchor listing"
+      "reason": "gazettes.africa short-anchor listing; html+min_len adapter, auto-discover fallback"
     },
     "rw-gazette": {
+      "try": [
+        {
+          "method": "html",
+          "url": "https://gazettes.africa/gazettes/rw",
+          "min_len": 10
+        }
+      ],
       "needs": "inspect",
-      "reason": "gazettes.africa short-anchor listing"
+      "reason": "gazettes.africa short-anchor listing; html+min_len adapter, auto-discover fallback"
     },
     "ke-tenders": {
+      "try": [
+        {
+          "method": "html",
+          "url": "https://tenders.go.ke/",
+          "min_len": 12
+        }
+      ],
       "needs": "inspect",
-      "reason": "tenders.go.ke short-anchor table"
+      "reason": "tenders.go.ke short-anchor table; html+min_len adapter, auto-discover fallback"
     },
     "tz-tenders": {
+      "try": [
+        {
+          "method": "html",
+          "url": "https://nest.go.tz/",
+          "min_len": 12
+        }
+      ],
       "needs": "inspect",
-      "reason": "nest.go.tz table"
+      "reason": "nest.go.tz table; html+min_len adapter, auto-discover fallback"
     },
     "ke-kaa-tenders": {
+      "try": [
+        {
+          "method": "html",
+          "url": "https://www.kaa.go.ke/corporate/tenders/",
+          "min_len": 12
+        }
+      ],
       "needs": "inspect",
-      "reason": "KAA tenders table"
+      "reason": "KAA tenders table; html+min_len adapter, auto-discover fallback"
     },
     "ug-bou": {
+      "try": [
+        {
+          "method": "html",
+          "url": "https://www.bou.or.ug/bouwebsite/Media/",
+          "min_len": 12
+        },
+        {
+          "method": "html",
+          "url": "https://www.bou.or.ug/",
+          "min_len": 14
+        }
+      ],
       "needs": "inspect",
-      "reason": "Homepage URL \u2014 repoint at the press/publications page; auto-discover attempted"
+      "reason": "BoU media/press listing; html+min_len, auto-discover fallback"
     },
     "rw-bnr": {
+      "try": [
+        {
+          "method": "html",
+          "url": "https://www.bnr.rw/news/",
+          "min_len": 12
+        },
+        {
+          "method": "html",
+          "url": "https://www.bnr.rw/",
+          "min_len": 14
+        }
+      ],
       "needs": "inspect",
-      "reason": "Repoint at the news page; auto-discover attempted"
+      "reason": "BNR news listing; html+min_len, auto-discover fallback"
     },
     "tz-mnrt": {
+      "try": [
+        {
+          "method": "html",
+          "url": "https://www.maliasili.go.tz/",
+          "min_len": 12
+        }
+      ],
       "needs": "inspect",
-      "reason": "gov listing, short anchors"
+      "reason": "ministry listing, short anchors; html+min_len adapter, auto-discover fallback"
     },
     "tz-tanapa": {
+      "try": [
+        {
+          "method": "html",
+          "url": "https://www.tanzaniaparks.go.tz/",
+          "min_len": 12
+        }
+      ],
       "needs": "inspect",
-      "reason": "gov listing, short anchors"
+      "reason": "TANAPA park-fee/notice listing; html+min_len adapter, auto-discover fallback"
     },
     "tz-immigration": {
+      "try": [
+        {
+          "method": "html",
+          "url": "https://www.immigration.go.tz/",
+          "min_len": 12
+        }
+      ],
       "needs": "inspect",
-      "reason": "gov listing, short anchors"
+      "reason": "immigration entry-rules listing; html+min_len adapter, auto-discover fallback"
     },
     "zn-zrb": {
+      "try": [
+        {
+          "method": "html",
+          "url": "https://www.zrb.go.tz/",
+          "min_len": 12
+        }
+      ],
       "needs": "inspect",
-      "reason": "gov listing, short anchors"
+      "reason": "Zanzibar revenue board listing; html+min_len adapter, auto-discover fallback"
     },
     "zn-moh": {
+      "try": [
+        {
+          "method": "html",
+          "url": "https://www.mohz.go.tz/",
+          "min_len": 12
+        }
+      ],
       "needs": "inspect",
-      "reason": "gov listing, short anchors"
+      "reason": "Zanzibar health listing; html+min_len adapter, auto-discover fallback"
     },
     "zn-ocgs": {
+      "try": [
+        {
+          "method": "html",
+          "url": "https://www.ocgs.go.tz/",
+          "min_len": 12
+        }
+      ],
       "needs": "inspect",
-      "reason": "gov statistics listing"
+      "reason": "Zanzibar statistics listing; html+min_len adapter, auto-discover fallback"
     },
     "zn-tourism": {
+      "try": [
+        {
+          "method": "html",
+          "url": "https://www.zanzibartourism.go.tz/",
+          "min_len": 12
+        }
+      ],
       "needs": "inspect",
-      "reason": "gov listing"
+      "reason": "Zanzibar tourism listing; html+min_len adapter, auto-discover fallback"
     },
     "ug-ucaa": {
+      "try": [
+        {
+          "method": "html",
+          "url": "https://www.caa.co.ug/",
+          "min_len": 12
+        }
+      ],
       "needs": "inspect",
-      "reason": "gov listing; auto-discover attempted"
+      "reason": "UCAA notices listing; html+min_len adapter, auto-discover fallback"
     }
   },
   "new_sources": [

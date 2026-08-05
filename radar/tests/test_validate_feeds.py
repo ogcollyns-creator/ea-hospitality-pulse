@@ -8,7 +8,7 @@ def src(**kw):
 
 def test_promote_on_working_feed():
     s=src()
-    probe=lambda u,m,f:(5,"ok")           # feed parses -> 5 items
+    probe=lambda u,m,f,ml=None:(5,"ok")           # feed parses -> 5 items
     disc=lambda u:(None,0)
     st,_=V.validate_plan("x", s, {"try":[{"method":"rss","url":"https://example.com/feed"}]}, probe, disc)
     assert st=="PROMOTED"
@@ -16,7 +16,7 @@ def test_promote_on_working_feed():
 
 def test_no_promote_when_feed_empty():
     s=src(); before=dict(s)
-    probe=lambda u,m,f:(0,"ok")           # feed returns 0 items -> reject
+    probe=lambda u,m,f,ml=None:(0,"ok")           # feed returns 0 items -> reject
     disc=lambda u:(None,0)
     st,_=V.validate_plan("x", s, {"try":[{"method":"rss","url":"https://example.com/feed"}],"needs":"headless"}, probe, disc)
     assert st=="UNRESOLVED"
@@ -24,7 +24,7 @@ def test_no_promote_when_feed_empty():
 
 def test_no_promote_when_fetch_fails():
     s=src(); before=dict(s)
-    probe=lambda u,m,f:(-1,"fetch failed")
+    probe=lambda u,m,f,ml=None:(-1,"fetch failed")
     disc=lambda u:(None,0)
     st,_=V.validate_plan("x", s, {"try":[{"method":"rss","url":"https://x/feed"}]}, probe, disc)
     assert st=="UNRESOLVED"
@@ -32,7 +32,7 @@ def test_no_promote_when_fetch_fails():
 
 def test_autodiscovery_promotes():
     s=src()
-    probe=lambda u,m,f:(-1,"no explicit try")
+    probe=lambda u,m,f,ml=None:(-1,"no explicit try")
     disc=lambda u:("https://example.com/auto.xml", 3)
     st,_=V.validate_plan("x", s, {"try":[]}, probe, disc)
     assert st=="PROMOTED" and s["method"]=="rss" and s["url"]=="https://example.com/auto.xml"
@@ -44,7 +44,7 @@ def test_disable_action_is_offline_and_disables():
 
 def test_first_working_candidate_wins():
     s=src(); calls=[]
-    def probe(u,m,f):
+    def probe(u,m,f,ml=None):
         calls.append(u); return (2,"ok") if u.endswith("b") else (0,"ok")
     st,_=V.validate_plan("x", s, {"try":[
         {"method":"rss","url":"https://x/a"},{"method":"rss","url":"https://x/b"}]}, probe, lambda u:(None,0))
@@ -65,6 +65,42 @@ def test_candidates_have_action_try_or_needs():
     d=json.load(open(os.path.join(os.path.dirname(__file__),"..","feed_candidates.json")))
     for sid,plan in d["candidates"].items():
         assert plan.get("try") or plan.get("action") or plan.get("needs"), sid
+# --- min_len adapter (short-anchor gov listings) ---
+def test_min_len_extracts_short_anchors():
+    import extract as X
+    html=('<main>'
+          '<a href="/g/1">Gazette Vol. 128</a>'
+          '<a href="/g/2">Legal Notice 142</a>'
+          '<a href="/">Home</a></main>')
+    base="https://gazettes.africa/gazettes/ke"
+    assert len(X.extract_items(html, base)) == 0            # default 28 rejects
+    assert len(X.extract_items(html, base, min_len=10)) == 2  # adapter extracts
+
+def test_min_len_threads_through_promote():
+    s=src()
+    seen={}
+    def probe(u,m,f,ml=None): seen['ml']=ml; return (3,"ok")
+    st,_=V.validate_plan("x", s, {"try":[{"method":"html","url":"https://x/list","min_len":12}]},
+                         probe, lambda u:(None,0))
+    assert st=="PROMOTED"
+    assert seen['ml']==12            # candidate min_len reached the probe
+    assert s.get("min_len")==12      # and was written onto the source
+
+def test_headless_targets_wellformed():
+    import json, os
+    d=json.load(open(os.path.join(os.path.dirname(__file__),"..","feed_candidates.json")))
+    for sid,plan in d["candidates"].items():
+        for t in plan.get("try_headless", []):
+            assert t["url"].startswith("http") and isinstance(t.get("min_len",28), int), sid
+
+def test_html_tries_have_int_min_len():
+    import json, os
+    d=json.load(open(os.path.join(os.path.dirname(__file__),"..","feed_candidates.json")))
+    for sid,plan in d["candidates"].items():
+        for t in plan.get("try", []):
+            if t["method"]=="html":
+                assert isinstance(t.get("min_len",28), int), sid
+
 
 if __name__=="__main__":
     fns=[v for k,v in sorted(globals().items()) if k.startswith("test_")]

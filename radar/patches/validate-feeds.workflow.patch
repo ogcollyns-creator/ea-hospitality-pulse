@@ -1,0 +1,34 @@
+diff --git a/.github/workflows/validate-feeds.yml b/.github/workflows/validate-feeds.yml
+index 61ff21d..63c3569 100644
+--- a/.github/workflows/validate-feeds.yml
++++ b/.github/workflows/validate-feeds.yml
+@@ -15,7 +15,7 @@ on:
+         required: true
+         type: choice
+         default: promote
+-        options: [promote, apply-disables]
++        options: [promote, apply-disables, probe-headless]
+ 
+ permissions:
+   contents: write
+@@ -45,6 +45,12 @@ jobs:
+       - name: Self-test the validator logic
+         run: python3 radar/tests/test_validate_feeds.py
+ 
++      - name: Install Playwright (only for probe-headless)
++        if: ${{ inputs.mode == 'probe-headless' }}
++        run: |
++          pip install playwright
++          python -m playwright install --with-deps chromium
++
+       - name: Validate and promote
+         run: python3 radar/validate_feeds.py --${{ inputs.mode }}
+ 
+@@ -64,6 +70,7 @@ jobs:
+           path: |
+             radar/registry.json
+             radar/out/feed-validation.md
++            radar/out/headless-probe.md
+ 
+       - name: Commit promoted feeds + report
+         env:

@@ -87,7 +87,11 @@ def scan_html(db, src, dbw, follow_docs=0):
     text = X.decode(raw, h.get("content-type", ""))
     if src["frag"] and src["frag"] in text:
         text = text.split(src["frag"], 1)[1]
-    items = X.extract_items(text, furl)
+    try:
+        ml = src["min_len"]
+    except (KeyError, IndexError):
+        ml = 28
+    items = X.extract_items(text, furl, min_len=ml or 28)
     new, docs_fetched = 0, 0
     if items:
         for it in items[:80]:
