@@ -161,10 +161,10 @@
     },
     "air-airlink": {
       "needs": "headless",
-      "reason": "JS site, no feed",
+      "reason": "corrected URL to flyairlink.com/news (old path failed DNS)",
       "try_headless": [
         {
-          "url": "https://www.flyairlink.com/en/about-us/news",
+          "url": "https://www.flyairlink.com/news",
           "min_len": 16
         }
       ]
