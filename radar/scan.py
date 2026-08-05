@@ -60,6 +60,8 @@ def negotiate(db, src, raw, headers, final_url):
             pass
     if hint == "pdf":
         return "pdf", None
+    if hint == "headless":
+        return "headless", None
     return "html", None
 
 
@@ -130,7 +132,55 @@ def scan_html(db, src, dbw, follow_docs=0):
     return new, h.get("etag"), h.get("last-modified"), content_hash
 
 
-SCANNERS = {"rss": scan_rss, "html": scan_html, "pdf": scan_html}
+
+
+def scan_headless(db, src, dbw):
+    """Render a JS/bot-walled source with a real browser, then extract like HTML.
+
+    INERT by default: unless RADAR_HEADLESS=1 and Playwright is installed this is
+    a no-op that reports no change, so a headless-marked source never errors or
+    slows a normal scan. Rendering yields no etag/last-modified, so headless
+    sources forgo conditional-fetch savings — acceptable for the handful that
+    have no other way in."""
+    off = (0, src["etag"], src["last_modified"], src["content_hash"] or "")
+    if os.environ.get("RADAR_HEADLESS", "").lower() not in ("1", "true", "yes"):
+        return off
+    try:
+        import headless_fetch as HL
+    except Exception:
+        return off
+    if not HL.available():
+        return off
+    text = HL.render(src["url"])
+    if src["frag"] and src["frag"] in text:
+        text = text.split(src["frag"], 1)[1]
+    try:
+        ml = src["min_len"]
+    except (KeyError, IndexError):
+        ml = 28
+    items = X.extract_items(text, src["url"], min_len=ml or 28)
+    new = 0
+    if items:
+        for it in items[:80]:
+            k = item_key(src["id"], it["url"], it["title"])
+            if store.upsert_item(dbw, k, src["id"], it["url"], it["title"], "",
+                                 None, "", "doc" if it["is_doc"] else "item"):
+                new += 1
+        content_hash = X.sha1(str(sorted(i["url"] for i in items)))
+    else:
+        body = X.html_to_text(text)
+        content_hash = X.sha1(body)
+        if content_hash != (src["content_hash"] or ""):
+            k = X.sha1(f"{src['id']}|page|{content_hash}")
+            if store.upsert_item(dbw, k, src["id"], src["url"],
+                                 f"[page changed] {src['name']}", body[:1500],
+                                 X.first_date_in(body), content_hash, "page-change"):
+                new += 1
+    dbw.commit()
+    return new, None, None, content_hash
+
+
+SCANNERS = {"rss": scan_rss, "html": scan_html, "pdf": scan_html, "headless": scan_headless}
 
 
 def scan_source(src, db_path, follow_docs):
@@ -138,6 +188,12 @@ def scan_source(src, db_path, follow_docs):
     sid = src["id"]
     try:
         method = src["resolved_method"]
+        if not method and src["method_hint"] == "headless":
+            # A JS/bot-walled source would fail the plain urllib probe below and
+            # never reach negotiate(); resolve it to headless directly.
+            method = "headless"
+            dbw.execute("UPDATE sources SET resolved_method='headless' WHERE id=?", (sid,))
+            dbw.commit()
         if not method:
             raw, h, furl = fetcher.fetch(dbw, src["url"])
             method, feed = negotiate(dbw, src, raw, h, furl)

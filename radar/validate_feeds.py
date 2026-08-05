@@ -181,7 +181,7 @@ def run_report():
     print("\nRun on a live-network runner:  python3 radar/validate_feeds.py --promote")
 
 
-def run_probe_headless():
+def run_probe_headless(promote=False):
     """Diagnostic (non-mutating): render each 'try_headless' target on a live
     runner and report whether it yields items. Never writes registry.json. Its
     purpose is to tell us which JS-walled sources are worth wiring a production
@@ -195,6 +195,7 @@ def run_probe_headless():
         print("Playwright is not installed on this runner \u2014 nothing to probe.")
         print("Install with:  pip install playwright && python -m playwright install chromium")
         return
+    reg, by = load_reg()
     cands = json.load(open(CAND))["candidates"]
     rows = []
     for sid, plan in cands.items():
@@ -203,9 +204,18 @@ def run_probe_headless():
             try:
                 html = HL.render(url)
                 n = len(X.extract_items(html, url, min_len=ml))
-                rows.append((sid, n, "ok" if n >= 1 else "rendered, 0 items", url))
+                if n >= 1 and promote and by.get(sid):
+                    src = by[sid]
+                    src["method"] = "headless"; src["url"] = url
+                    src["min_len"] = ml; src["enabled"] = True
+                    rows.append((sid, n, "PROMOTED headless", url))
+                else:
+                    rows.append((sid, n, "ok" if n >= 1 else "rendered, 0 items", url))
             except Exception as e:
                 rows.append((sid, -1, f"{type(e).__name__}: {str(e)[:60]}", url))
+    if promote:
+        reg["updated"] = datetime.date.today().isoformat()
+        save_reg(reg)
     rows.sort(key=lambda r: (-r[1], r[0]))
     L = [f"# Headless probe \u2014 {datetime.date.today().isoformat()}",
          "", "Diagnostic only \u2014 registry NOT modified. Counts are items a rendered",
@@ -223,6 +233,7 @@ def run_probe_headless():
 
 def main():
     if "--promote" in sys.argv: run_promote()
+    elif "--promote-headless" in sys.argv: run_probe_headless(promote=True)
     elif "--probe-headless" in sys.argv: run_probe_headless()
     elif "--apply-disables" in sys.argv: run_disables()
     else: run_report()

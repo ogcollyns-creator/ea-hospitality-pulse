@@ -1,0 +1,88 @@
+name: Validate & promote source feeds
+
+# Manual, live-network remediation for the blind tier-1 sources. Reads
+# radar/feed_candidates.json, fetches each candidate (and auto-discovers each
+# page's advertised feed), and promotes into registry.json ONLY the ones that
+# actually parse. Wrong guesses fail safe and leave the source untouched.
+# The validated registry + report are ALWAYS printed to the log and uploaded as
+# an artifact, so results survive even if the push step has a credentials issue.
+
+on:
+  workflow_dispatch:
+    inputs:
+      mode:
+        description: 'promote (live-validate + write) or apply-disables (offline, redundant sources)'
+        required: true
+        type: choice
+        default: promote
+        options: [promote, apply-disables, probe-headless, promote-headless]
+
+permissions:
+  contents: write
+
+jobs:
+  validate:
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          persist-credentials: false
+
+      - name: Check PUSH_TOKEN presence (value is never printed)
+        env:
+          TOKEN: ${{ secrets.PUSH_TOKEN }}
+        run: |
+          if [ -z "$TOKEN" ]; then
+            echo "::warning::PUSH_TOKEN is EMPTY — the secret is not reaching this job (wrong name, Variable-not-Secret, or Environment scope)."
+          else
+            echo "PUSH_TOKEN is present. Length=${#TOKEN} characters. (Value masked by GitHub.)"
+          fi
+
+      - name: Replay ledger (so coverage/state is warm)
+        run: python3 radar/scan.py restore || true
+
+      - name: Self-test the validator logic
+        run: python3 radar/tests/test_validate_feeds.py
+
+      - name: Install Playwright (headless modes only)
+        if: ${{ inputs.mode == 'probe-headless' || inputs.mode == 'promote-headless' }}
+        run: |
+          pip install playwright
+          python -m playwright install --with-deps chromium
+
+      - name: Validate and promote
+        run: python3 radar/validate_feeds.py --${{ inputs.mode }}
+
+      - name: Print validation report to log
+        if: always()
+        run: |
+          echo '----- feed-validation.md -----'
+          cat radar/out/feed-validation.md 2>/dev/null || echo '(no report written)'
+          echo '----- registry.json changes -----'
+          git --no-pager diff -- radar/registry.json | head -200 || true
+
+      - name: Upload validated registry + report (survives push failures)
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: feed-validation
+          path: |
+            radar/registry.json
+            radar/out/feed-validation.md
+            radar/out/headless-probe.md
+
+      - name: Commit promoted feeds + report
+        env:
+          TOKEN: ${{ secrets.PUSH_TOKEN }}
+        run: |
+          git config user.email 'ogcollyns@gmail.com'
+          git config user.name 'EA Hospitality Pulse'
+          git add -A radar/registry.json radar/out/feed-validation.md
+          if git diff --staged --quiet; then echo "nothing to commit"; exit 0; fi
+          git commit -m "Feed validation: promote verified feeds $(date -u +'%Y-%m-%d %H:%M UTC')"
+          if [ -z "$TOKEN" ]; then
+            echo "::error::PUSH_TOKEN secret is empty — cannot push. Download the 'feed-validation' artifact instead, or set the secret (see repo notes)."
+            exit 1
+          fi
+          git push "https://x-access-token:${TOKEN}@github.com/${{ github.repository }}.git" HEAD:main
