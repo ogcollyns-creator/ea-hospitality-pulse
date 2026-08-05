@@ -562,11 +562,11 @@
   {
    "id": "ug-bou",
    "name": "Bank of Uganda",
-   "url": "https://www.bou.or.ug/",
+   "url": "https://www.bou.or.ug/bouwebsite/Media/",
    "tier": 1,
    "country": "UG",
    "category": "central-bank",
-   "method": "html",
+   "method": "headless",
    "cadence_min": 360,
    "lead_days": 3,
    "segments": [
@@ -578,7 +578,9 @@
     "morning"
    ],
    "why": "MPC and FX. UGX strength is a live margin issue.",
-   "frag": ""
+   "frag": "",
+   "min_len": 12,
+   "enabled": true
   },
   {
    "id": "ug-utb",
@@ -1218,11 +1220,11 @@
   {
    "id": "rw-visitrwanda",
    "name": "Visit Rwanda news",
-   "url": "https://www.visitrwanda.com/",
+   "url": "https://www.visitrwanda.com/news/",
    "tier": 1,
    "country": "RW",
    "category": "dmo",
-   "method": "html",
+   "method": "headless",
    "cadence_min": 360,
    "lead_days": 4,
    "segments": [
@@ -1236,7 +1238,9 @@
     "evening"
    ],
    "why": "Destination campaigns and product launches.",
-   "frag": ""
+   "frag": "",
+   "min_len": 18,
+   "enabled": true
   },
   {
    "id": "rw-rca",
@@ -1446,7 +1450,7 @@
    "tier": 1,
    "country": "GLOBAL",
    "category": "health",
-   "method": "html",
+   "method": "headless",
    "cadence_min": 180,
    "lead_days": 2,
    "segments": [
@@ -1460,7 +1464,9 @@
     "evening"
    ],
    "why": "A CDC notice reshapes US booking behaviour independently of State Department levels.",
-   "frag": ""
+   "frag": "",
+   "min_len": 18,
+   "enabled": true
   },
   {
    "id": "ecdc-cdtr",
@@ -1972,7 +1978,7 @@
    "tier": 1,
    "country": "KE",
    "category": "airline",
-   "method": "html",
+   "method": "headless",
    "cadence_min": 360,
    "lead_days": 3,
    "segments": [
@@ -1984,7 +1990,9 @@
     "midday"
    ],
    "why": "Low-cost capacity into coastal and regional leisure markets.",
-   "frag": ""
+   "frag": "",
+   "min_len": 16,
+   "enabled": true
   },
   {
    "id": "air-precision",
@@ -2222,7 +2230,7 @@
    "tier": 1,
    "country": "GLOBAL",
    "category": "hotel-group",
-   "method": "html",
+   "method": "headless",
    "cadence_min": 720,
    "lead_days": 14,
    "segments": [
@@ -2234,7 +2242,9 @@
     "midday"
    ],
    "why": "Signings and openings reshape competitive supply years ahead.",
-   "frag": ""
+   "frag": "",
+   "min_len": 18,
+   "enabled": true
   },
   {
    "id": "dev-accor",
@@ -2342,11 +2352,11 @@
   {
    "id": "dev-kempinski",
    "name": "Kempinski press",
-   "url": "https://www.kempinski.com/en/press-releases",
+   "url": "https://www.kempinski.com/en/press",
    "tier": 1,
    "country": "GLOBAL",
    "category": "hotel-group",
-   "method": "html",
+   "method": "headless",
    "cadence_min": 1440,
    "lead_days": 14,
    "segments": [
@@ -2358,7 +2368,9 @@
     "midday"
    ],
    "why": "Luxury city and resort positioning in Nairobi and Zanzibar.",
-   "frag": ""
+   "frag": "",
+   "min_len": 18,
+   "enabled": true
   },
   {
    "id": "dev-whospitality",
@@ -3155,7 +3167,7 @@
    "tier": 1,
    "country": "UG",
    "category": "gov-comms",
-   "method": "html",
+   "method": "headless",
    "cadence_min": 120,
    "lead_days": 1,
    "segments": [
@@ -3168,7 +3180,9 @@
     "evening"
    ],
    "why": "Where Uganda government declarations land first \u2014 the 28 Jul 2026 Ebola end-of-outbreak declaration was published here before wire pickup. Note: page is client-rendered, so treat as page-change granularity.",
-   "frag": ""
+   "frag": "",
+   "min_len": 16,
+   "enabled": true
   },
   {
    "id": "ug-moh-news",
@@ -3220,7 +3234,7 @@
    "tier": 1,
    "country": "KE",
    "category": "advisory",
-   "method": "html",
+   "method": "headless",
    "cadence_min": 120,
    "lead_days": 2,
    "segments": [
@@ -3234,7 +3248,9 @@
     "evening"
    ],
    "why": "Demonstration and security alerts for US citizens post here first \u2014 ahead of any revision to the rendered travel.state.gov page, as the 29 Jul 2026 Kenya advisory re-issue showed.",
-   "frag": ""
+   "frag": "",
+   "min_len": 16,
+   "enabled": true
   },
   {
    "id": "osac-kenya",
