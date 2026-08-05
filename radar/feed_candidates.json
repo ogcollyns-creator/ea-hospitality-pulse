@@ -150,94 +150,40 @@
       ]
     },
     "air-precision": {
-      "needs": "headless",
-      "reason": "JS site, no feed",
-      "try_headless": [
-        {
-          "url": "https://www.precisionairtz.com/media-center/",
-          "min_len": 16
-        }
-      ]
+      "needs": "manual",
+      "reason": "JS card UI, no headline anchors; low incremental value"
     },
     "air-airlink": {
-      "needs": "headless",
-      "reason": "corrected URL to flyairlink.com/news (old path failed DNS)",
-      "try_headless": [
-        {
-          "url": "https://www.flyairlink.com/news",
-          "min_len": 16
-        }
-      ]
+      "needs": "manual",
+      "reason": "flyairlink.com/news renders but no extractable anchors (JS cards)"
     },
     "air-tc": {
-      "needs": "headless",
-      "reason": "JS site; auto-discover will still be attempted",
-      "try_headless": [
-        {
-          "url": "https://www.airtanzania.co.tz/media",
-          "min_len": 16
-        }
-      ]
+      "needs": "manual",
+      "reason": "JS card UI, no headline anchors; low incremental value"
     },
     "air-tk": {
-      "needs": "headless",
-      "reason": "Turkish Airlines press room is JS/bot-walled",
-      "try_headless": [
-        {
-          "url": "https://www.turkishairlines.com/en-int/press-room/news/",
-          "min_len": 16
-        }
-      ]
+      "needs": "manual",
+      "reason": "Turkish Airlines press room bot-walled; low incremental value (Jambojet/other carriers cover capacity)"
     },
     "adv-au-kenya": {
-      "needs": "headless",
-      "reason": "Smartraveller is JS + bot wall",
-      "try_headless": [
-        {
-          "url": "https://www.smartraveller.gov.au/destinations/africa/kenya",
-          "min_len": 20
-        }
-      ]
+      "needs": "manual",
+      "reason": "Smartraveller Akamai wall \u2014 navigation hangs headless; needs a managed-browser/unblocker or the adv-us-ea RSS already covers advisory moves"
     },
     "adv-au-tanzania": {
-      "needs": "headless",
-      "reason": "Smartraveller is JS + bot wall",
-      "try_headless": [
-        {
-          "url": "https://www.smartraveller.gov.au/destinations/africa/tanzania",
-          "min_len": 20
-        }
-      ]
+      "needs": "manual",
+      "reason": "Smartraveller Akamai wall \u2014 as above"
     },
     "osac-kenya": {
-      "needs": "headless",
-      "reason": "OSAC requires a session; not scrapable statically",
-      "try_headless": [
-        {
-          "url": "https://www.osac.gov/Country/Kenya/Content/Detail/",
-          "min_len": 20
-        }
-      ]
+      "needs": "manual",
+      "reason": "requires a login session \u2014 not scrapable; adv-us-ea/usembassy-alerts cover KE security"
     },
     "ke-epra-press": {
-      "needs": "headless",
-      "reason": "EPRA sits behind Cloudflare; auto-discover attempted, likely headless",
-      "try_headless": [
-        {
-          "url": "https://www.epra.go.ke/news/",
-          "min_len": 16
-        }
-      ]
+      "needs": "manual",
+      "reason": "Cloudflare challenge \u2014 headless times out"
     },
     "ke-epra-fuel": {
-      "needs": "headless",
-      "reason": "Cloudflare + the schedule is a PDF; needs a PDF/headless path",
-      "try_headless": [
-        {
-          "url": "https://www.epra.go.ke/services/economic-regulation/petroleum/maximum-retail-petroleum-prices/",
-          "min_len": 12
-        }
-      ]
+      "needs": "manual",
+      "reason": "Cloudflare challenge \u2014 headless times out; fuel review is a diarised monthly event, better handled as a scheduled known-date item or via a secondary news trigger"
     },
     "ke-gazettes-africa": {
       "try": [
@@ -326,11 +272,11 @@
     },
     "rw-bnr": {
       "needs": "headless",
-      "reason": "run #5: html fetched but 0 items -> JS-rendered, not short-anchor; needs production render path",
+      "reason": "rendered but 0 items; final low-threshold (min_len 8) attempt",
       "try_headless": [
         {
           "url": "https://www.bnr.rw/news/",
-          "min_len": 12
+          "min_len": 8
         }
       ]
     },
@@ -357,11 +303,11 @@
     },
     "tz-immigration": {
       "needs": "headless",
-      "reason": "run #5: html fetched but 0 items -> JS-rendered, not short-anchor; needs production render path",
+      "reason": "rendered but 0 items; final low-threshold (min_len 8) attempt",
       "try_headless": [
         {
           "url": "https://www.immigration.go.tz/",
-          "min_len": 12
+          "min_len": 8
         }
       ]
     },
@@ -378,11 +324,11 @@
     },
     "zn-moh": {
       "needs": "headless",
-      "reason": "run #5: html fetched but 0 items -> JS-rendered, not short-anchor; needs production render path",
+      "reason": "rendered but 0 items; final low-threshold (min_len 8) attempt",
       "try_headless": [
         {
           "url": "https://www.mohz.go.tz/",
-          "min_len": 12
+          "min_len": 8
         }
       ]
     },

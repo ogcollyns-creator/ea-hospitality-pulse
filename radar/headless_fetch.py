@@ -40,7 +40,7 @@ def render(url, timeout=45, wait="domcontentloaded", wait_selector=None,
     ua = ("Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 "
           "(KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36")
     with sync_playwright() as p:
-        browser = p.chromium.launch(args=["--no-sandbox", "--disable-http2"])
+        browser = p.chromium.launch(args=["--no-sandbox"])
         try:
             ctx = browser.new_context(user_agent=ua, locale="en-GB")
             page = ctx.new_page()
