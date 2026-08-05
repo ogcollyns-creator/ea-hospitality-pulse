@@ -1,317 +1,300 @@
-# Radar candidates — evening slot
-_Window opens Wed 05 Aug 13:00 EAT · 550 observations in window · 41 headlines deduped against_
+# Radar candidates — morning slot
+_Window opens Wed 05 Aug 18:00 EAT · 412 observations in window · 41 headlines deduped against_
 
 Ranked by first-seen recency, source tier and hospitality relevance. `first seen` is when the radar observed the item, which is the date the recency gate runs on. `published` is what the source claims — where the two disagree, the disagreement is the story.
 
-### 🔴 [107.7] Bundibugyo Virus Disease Outbreak | Situation Report, Issue No. 78 – August 3, 2026 SitRep
+### 🔴 [105.9] Bundibugyo Virus Disease Outbreak | Situation Report, Issue No. 78 – August 3, 2026 SitRep
 - **Verdict:** LEAD CANDIDATE — tier-1 shock language
 - **Source:** Africa CDC downloads (sit reps & EIW) · tier 1 · REG · health
 - **First seen:** 2026-08-05T19:14+03:00 EAT · **Source date:** — none stated
 - **URL:** https://africacdc.org/download/bundibugyo-virus-disease-outbreak-situation-report-issue-no-78-august-3-2026
 - **Shock language:** outbreak
-- **Score parts:** tier +40, category +24, lead +4.8, relevance +12, freshness +14.9, undated -6, shock +18
+- **Score parts:** tier +40, category +24, lead +4.8, relevance +12, freshness +13.1, undated -6, shock +18
 
-### 🚨 [60.5] [page changed] Jambojet media
+### 🚨 [65.4] [page changed] Jambojet media
+- **Verdict:** OPEN THIS — tier-1 airline page moved; content not auto-parsed, read it manually
+- **Source:** Jambojet media · tier 1 · KE · airline
+- **First seen:** 2026-08-06T01:19+03:00 EAT · **Source date:** — none stated
+- **URL:** https://www.jambojet.com/en/press-release
+- **Extract:** Request unsuccessful. Incapsula incident ID: 397000290749891041-718871727447017328
+- **Score parts:** tier +40, category +12, lead +3.6, relevance +0, freshness +19.8, undated -6, page_change -4
+
+### 🚨 [65.4] [page changed] Airlink news
+- **Verdict:** OPEN THIS — tier-1 airline page moved; content not auto-parsed, read it manually
+- **Source:** Airlink news · tier 1 · REG · airline
+- **First seen:** 2026-08-06T01:18+03:00 EAT · **Source date:** — none stated
+- **URL:** https://www.flyairlink.com/
+- **Extract:** Request unsuccessful. Incapsula incident ID: 396000320535659882-9242524833810444
+- **Score parts:** tier +40, category +12, lead +3.6, relevance +0, freshness +19.8, undated -6, page_change -4
+
+### 🚨 [58.7] [page changed] Jambojet media
 - **Verdict:** OPEN THIS — tier-1 airline page moved; content not auto-parsed, read it manually
 - **Source:** Jambojet media · tier 1 · KE · airline
 - **First seen:** 2026-08-05T19:14+03:00 EAT · **Source date:** — none stated
 - **URL:** https://www.jambojet.com/en/press-release
 - **Extract:** Request unsuccessful. Incapsula incident ID: 1007000061282825757-497419528623292839
-- **Score parts:** tier +40, category +12, lead +3.6, relevance +0, freshness +14.9, undated -6, page_change -4
+- **Score parts:** tier +40, category +12, lead +3.6, relevance +0, freshness +13.1, undated -6, page_change -4
 
-### 🚨 [53.8] [page changed] Jambojet media
-- **Verdict:** OPEN THIS — tier-1 airline page moved; content not auto-parsed, read it manually
-- **Source:** Jambojet media · tier 1 · KE · airline
-- **First seen:** 2026-08-05T13:12+03:00 EAT · **Source date:** — none stated
-- **URL:** https://www.jambojet.com/en/press-release
-- **Extract:** Request unsuccessful. Incapsula incident ID: 1415000690120003641-224414940411662668
-- **Score parts:** tier +40, category +12, lead +3.6, relevance +0, freshness +8.2, undated -6, page_change -4
-
-### 🚨 [53.8] [page changed] Airlink news
-- **Verdict:** OPEN THIS — tier-1 airline page moved; content not auto-parsed, read it manually
-- **Source:** Airlink news · tier 1 · REG · airline
-- **First seen:** 2026-08-05T13:12+03:00 EAT · **Source date:** — none stated
-- **URL:** https://www.flyairlink.com/
-- **Extract:** Request unsuccessful. Incapsula incident ID: 1409000710220400332-269964421500047819
-- **Score parts:** tier +40, category +12, lead +3.6, relevance +0, freshness +8.2, undated -6, page_change -4
-
-### 🟠 [98.2] Tax Appeal Tribunal – Daily Cause List – 04 August 2026 to 04 August 2026
+### 🟠 [107.6] Hilton Ramps Up Growth Across Ireland with DoubleTree by Hilton Ashbourne Signing
 - **Verdict:** STRONG — tier-1, upstream
-- **Source:** Kenya Gazette (Kenya Law) · tier 1 · KE · gazette
-- **First seen:** 2026-08-05T13:12+03:00 EAT · **Source date:** 2026-08-04
-- **URL:** https://new.kenyalaw.org/akn/ke/doc/cause-list-daily/ketat/2026-08-04/1/eng@2026-08-04
-- **Extract:** Tax Appeal Tribunal – Daily Cause List – 04 August 2026 to 04 August 2026
-- **Score parts:** tier +40, category +20, lead +12, relevance +8, freshness +8.2, corroborated +10
+- **Source:** Hilton stories/newsroom · tier 1 · GLOBAL · hotel-group
+- **First seen:** 2026-08-06T01:18+03:00 EAT · **Source date:** 2026-08-05
+- **URL:** https://stories.hilton.com/releases/hilton-ramps-up-growth-across-ireland-doubletree-by-hilton-ashbourne-signing
+- **Extract:** DUBLIN – Hilton (NYSE: HLT) is expanding its presence in Ireland with a range of signings, openings and brand debuts, marking a significant step in its growth and building on its existing portfolio of eight hotels across six brands. The upcoming openings will 
+- **Score parts:** tier +40, category +9, lead +16.8, relevance +12, freshness +19.8, corroborated +10
 
-### 🟠 [92.6] Anchored in Faith, Renewed in Hope, Transforming Together
-- **Verdict:** STRONG — tier-1, upstream
-- **Source:** Kenya Wildlife Service · tier 1 · KE · parks
-- **First seen:** 2026-08-05T13:12+03:00 EAT · **Source date:** 2026-08-05
-- **URL:** https://kws.go.ke/anchored-in-faith-renewed-in-hope-transforming-together
-- **Extract:** Yesterday, Kenya Wildlife Service staff gathered for a Prayer, Thanksgiving and Wellness Service under the theme "Anchored in Faith, Renewed in Hope, Transforming Together." The service was an opportunity to thank God for His faithfulness, reflect on the journ
-- **Score parts:** tier +40, category +18, lead +8.4, relevance +8, freshness +8.2, corroborated +10
-
-### 🟠 [92.1] Ebola Bundibugyo Virus Disease in Ituri and Nord-Kivu Provinces of the Democratic Republic of the Congo
+### 🟠 [90.4] Ebola Bundibugyo Virus Disease in Ituri and Nord-Kivu Provinces of the Democratic Republic of the Congo
 - **Verdict:** STRONG — tier-1, upstream
 - **Source:** US CDC travel health notices · tier 1 · GLOBAL · health
 - **First seen:** 2026-08-05T23:40+03:00 EAT · **Source date:** — none stated
 - **URL:** https://wwwnc.cdc.gov/travel/notices/level4/ebola-drc-provinces
-- **Score parts:** tier +40, category +24, lead +2.4, relevance +12, freshness +19.7, undated -6
+- **Score parts:** tier +40, category +24, lead +2.4, relevance +12, freshness +18, undated -6
 
-### 🟠 [92.1] Ebola Bundibugyo Virus Disease in Haut-Uélé and Tshopo Provinces of the Democratic Republic of the Congo
+### 🟠 [90.4] Ebola Bundibugyo Virus Disease in Haut-Uélé and Tshopo Provinces of the Democratic Republic of the Congo
 - **Verdict:** STRONG — tier-1, upstream
 - **Source:** US CDC travel health notices · tier 1 · GLOBAL · health
 - **First seen:** 2026-08-05T23:40+03:00 EAT · **Source date:** — none stated
 - **URL:** https://wwwnc.cdc.gov/travel/notices/level3/ebola-democratic-republic-of-the-congo
-- **Score parts:** tier +40, category +24, lead +2.4, relevance +12, freshness +19.7, undated -6
+- **Score parts:** tier +40, category +24, lead +2.4, relevance +12, freshness +18, undated -6
 
-### 🟡 [91.3] China Airlines A350 Europe Service Changes From August 2026
+### 🟡 [89.5] China Airlines A350 Europe Service Changes From August 2026
 - **Verdict:** CONSIDER
 - **Source:** AeroRoutes schedule filings · tier 2 · GLOBAL · aviation-tracker
 - **First seen:** 2026-08-05T19:14+03:00 EAT · **Source date:** 2026-08-05
 - **URL:** https://www.aeroroutes.com/eng/260805-ciaug26eu
 - **Extract:** Published at 0600PDT / 1300GMT 05AUG26 China Airlines this week filed aircraft changes on selected European routes, which will commence from early-August 2026. Planned changes include the following. Taipei Taoyuan – Prague eff 08AUG26 306-seater A350-900 repla
-- **Score parts:** tier +20, category +14, lead +8.4, relevance +24, freshness +14.9, corroborated +10
+- **Score parts:** tier +20, category +14, lead +8.4, relevance +24, freshness +13.1, corroborated +10
 
-### 🟠 [90.2] Kibera Law Courts – Daily Cause List – 04 August 2026 to 04 August 2026
-- **Verdict:** STRONG — tier-1, upstream
-- **Source:** Kenya Gazette (Kenya Law) · tier 1 · KE · gazette
-- **First seen:** 2026-08-05T13:12+03:00 EAT · **Source date:** 2026-08-04
-- **URL:** https://new.kenyalaw.org/akn/ke/doc/cause-list-daily/kemc/2026-08-04/3/eng@2026-08-04
-- **Extract:** Kibera Law Courts – Daily Cause List – 04 August 2026 to 04 August 2026
-- **Score parts:** tier +40, category +20, lead +12, relevance +0, freshness +8.2, corroborated +10
+### 🟡 [87.6] IHG Hotels & Resorts Brings Kimpton to Phang Nga, Expanding Luxury & Lifestyle Footprint in Thailand
+- **Verdict:** CONSIDER
+- **Source:** IHG news · tier 1 · GLOBAL · hotel-group
+- **First seen:** 2026-08-06T01:18+03:00 EAT · **Source date:** — none stated
+- **URL:** https://www.ihgplc.com/en/news-and-media/news-releases/2026/ihg-hotels-and-resorts-brings-kimpton-to-phang-nga-expanding-luxury-and-lifestyle-footprint-in-thailand
+- **Score parts:** tier +40, category +9, lead +16.8, relevance +8, freshness +19.8, undated -6
 
-### 🟠 [90.2] Kimilili Law Courts – Weekly Cause List – 10 August 2026 to 14 August 2026
-- **Verdict:** STRONG — tier-1, upstream
-- **Source:** Kenya Gazette (Kenya Law) · tier 1 · KE · gazette
-- **First seen:** 2026-08-05T13:12+03:00 EAT · **Source date:** 2026-08-10
-- **URL:** https://new.kenyalaw.org/akn/ke/doc/cause-list-weekly/kemc/2026-08-10/2/eng@2026-08-10
-- **Extract:** Kimilili Law Courts – Weekly Cause List – 10 August 2026 to 14 August 2026
-- **Score parts:** tier +40, category +20, lead +12, relevance +0, freshness +8.2, corroborated +10
+### 🟡 [87.6] IHG Hotels & Resorts Opens first Vignette Collection in India and South West Asia with The Aarlis Hotel Panchkula
+- **Verdict:** CONSIDER
+- **Source:** IHG news · tier 1 · GLOBAL · hotel-group
+- **First seen:** 2026-08-06T01:18+03:00 EAT · **Source date:** — none stated
+- **URL:** https://www.ihgplc.com/en/news-and-media/news-releases/2026/ihg-hotels-and-resorts-open-first-vignette-collection-in-india-and-south-west-asia-with-the-aarlis-hotel-panchkula
+- **Score parts:** tier +40, category +9, lead +16.8, relevance +8, freshness +19.8, undated -6
 
-### 🟠 [90.2] Employment and Labour Relations Court at Nairobi – Judicial Review and Labour Rights Division – Daily Cause List – 10 Au
-- **Verdict:** STRONG — tier-1, upstream
-- **Source:** Kenya Gazette (Kenya Law) · tier 1 · KE · gazette
-- **First seen:** 2026-08-05T13:12+03:00 EAT · **Source date:** 2026-08-10
-- **URL:** https://new.kenyalaw.org/akn/ke/doc/cause-list-daily/keelrc/2026-08-10/2/eng@2026-08-10
-- **Extract:** Employment and Labour Relations Court at Nairobi – Judicial Review and Labour Rights Division – Daily Cause List – 10 August 2026
-- **Score parts:** tier +40, category +20, lead +12, relevance +0, freshness +8.2, corroborated +10
-
-### 🟠 [90.2] Business Premises Rent Tribunal – Daily Cause List – 04 August 2026
-- **Verdict:** STRONG — tier-1, upstream
-- **Source:** Kenya Gazette (Kenya Law) · tier 1 · KE · gazette
-- **First seen:** 2026-08-05T13:12+03:00 EAT · **Source date:** 2026-08-04
-- **URL:** https://new.kenyalaw.org/akn/ke/doc/cause-list-daily/kebprt/2026-08-04/1/eng@2026-08-04
-- **Extract:** Business Premises Rent Tribunal – Daily Cause List – 04 August 2026
-- **Score parts:** tier +40, category +20, lead +12, relevance +0, freshness +8.2, corroborated +10
-
-### 🟠 [90.2] Tongaren Mobile Court – Civil Division – Weekly Cause List – 10 August 2026 to 14 August 2026
-- **Verdict:** STRONG — tier-1, upstream
-- **Source:** Kenya Gazette (Kenya Law) · tier 1 · KE · gazette
-- **First seen:** 2026-08-05T13:12+03:00 EAT · **Source date:** 2026-08-10
-- **URL:** https://new.kenyalaw.org/akn/ke/doc/cause-list-weekly/kemc/2026-08-10/3/eng@2026-08-10
-- **Extract:** Tongaren Mobile Court – Civil Division – Weekly Cause List – 10 August 2026 to 14 August 2026
-- **Score parts:** tier +40, category +20, lead +12, relevance +0, freshness +8.2, corroborated +10
-
-### 🟠 [90.2] Employment and Labour Relations Court at Nairobi – Claims and Labour Relations Division – Daily Cause List – 10 August 2
-- **Verdict:** STRONG — tier-1, upstream
-- **Source:** Kenya Gazette (Kenya Law) · tier 1 · KE · gazette
-- **First seen:** 2026-08-05T13:12+03:00 EAT · **Source date:** 2026-08-10
-- **URL:** https://new.kenyalaw.org/akn/ke/doc/cause-list-daily/keelrc/2026-08-10/3/eng@2026-08-10
-- **Extract:** Employment and Labour Relations Court at Nairobi – Claims and Labour Relations Division – Daily Cause List – 10 August 2026
-- **Score parts:** tier +40, category +20, lead +12, relevance +0, freshness +8.2, corroborated +10
-
-### 🟠 [90.2] Butere Law Courts – Criminal Division – Weekly Cause List – 10 August 2026 to 12 August 2026
-- **Verdict:** STRONG — tier-1, upstream
-- **Source:** Kenya Gazette (Kenya Law) · tier 1 · KE · gazette
-- **First seen:** 2026-08-05T13:12+03:00 EAT · **Source date:** 2026-08-10
-- **URL:** https://new.kenyalaw.org/akn/ke/doc/cause-list-weekly/kemc/2026-08-10/4/eng@2026-08-10
-- **Extract:** Butere Law Courts – Criminal Division – Weekly Cause List – 10 August 2026 to 12 August 2026
-- **Score parts:** tier +40, category +20, lead +12, relevance +0, freshness +8.2, corroborated +10
-
-### 🟠 [90.2] Marsabit Law Courts – Daily Cause List – 06 August 2026 to 07 August 2026
-- **Verdict:** STRONG — tier-1, upstream
-- **Source:** Kenya Gazette (Kenya Law) · tier 1 · KE · gazette
-- **First seen:** 2026-08-05T13:12+03:00 EAT · **Source date:** 2026-08-06
-- **URL:** https://new.kenyalaw.org/akn/ke/doc/cause-list-daily/kemc/2026-08-06/1/eng@2026-08-06
-- **Extract:** Marsabit Law Courts – Daily Cause List – 06 August 2026 to 07 August 2026
-- **Score parts:** tier +40, category +20, lead +12, relevance +0, freshness +8.2, corroborated +10
-
-### 🟠 [90.2] Butere Law Courts – Weekly Cause List – 11 August 2026 to 13 August 2026
-- **Verdict:** STRONG — tier-1, upstream
-- **Source:** Kenya Gazette (Kenya Law) · tier 1 · KE · gazette
-- **First seen:** 2026-08-05T13:12+03:00 EAT · **Source date:** 2026-08-11
-- **URL:** https://new.kenyalaw.org/akn/ke/doc/cause-list-weekly/kemc/2026-08-11/1/eng@2026-08-11
-- **Extract:** Butere Law Courts – Weekly Cause List – 11 August 2026 to 13 August 2026
-- **Score parts:** tier +40, category +20, lead +12, relevance +0, freshness +8.2, corroborated +10
-
-### 🟡 [88.1] Etihad Resumes Kazan Service in NW26
+### 🟡 [86.4] Etihad Resumes Kazan Service in NW26
 - **Verdict:** CONSIDER
 - **Source:** AeroRoutes schedule filings · tier 2 · GLOBAL · aviation-tracker
 - **First seen:** 2026-08-05T23:40+03:00 EAT · **Source date:** 2026-08-05
 - **URL:** https://www.aeroroutes.com/eng/260805-eynw26kzn
 - **Extract:** Published at 1200PDT / 1900GMT 05AUG26 Etihad during Northern winter 2026/27 season plans to resume Abu Dhabi – Kazan route, scheduled with Airbus A320 aircraft. The airline operates 3 weekly flights from 25OCT26 with following schedules. EY839 AUH0820 – 1235K
-- **Score parts:** tier +20, category +14, lead +8.4, relevance +16, freshness +19.7, corroborated +10
+- **Score parts:** tier +20, category +14, lead +8.4, relevance +16, freshness +18, corroborated +10
 
-### 🟡 [88.1] THY Opens Singapore – Sydney Reservations From late-Oct 2026
+### 🟡 [86.4] THY Opens Singapore – Sydney Reservations From late-Oct 2026
 - **Verdict:** CONSIDER
 - **Source:** AeroRoutes schedule filings · tier 2 · GLOBAL · aviation-tracker
 - **First seen:** 2026-08-05T23:40+03:00 EAT · **Source date:** 2026-08-05
 - **URL:** https://www.aeroroutes.com/eng/260805-tknw26syd
 - **Extract:** Published at 1000PDT / 1700GMT 05AUG26 Turkish Airlines (THY) this week continues to adjust operations for Sydney, effective 26OCT26. Previously reported, the Star Alliance member will operate 5 weekly Istanbul – Singapore – Sydney flights, replacing service v
-- **Score parts:** tier +20, category +14, lead +8.4, relevance +16, freshness +19.7, corroborated +10
+- **Score parts:** tier +20, category +14, lead +8.4, relevance +16, freshness +18, corroborated +10
 
-### 🟡 [87.3] Best Evaluated Bidder – Provision of Hotel Services under the Framework Contract for Three Years
+### 🟡 [85.8] Guatemala’s Fuego Volcano Erupts: What Travelers to Antigua Need to Know
+- **Verdict:** CONSIDER
+- **Source:** eTurboNews Africa · tier 3 · GLOBAL · trade
+- **First seen:** 2026-08-06T01:19+03:00 EAT · **Source date:** 2026-08-05
+- **URL:** https://eturbonews.com/guatemala-fuego-volcano-eruption-antigua-travel-update
+- **Shock language:** evacuat
+- **Extract:** Volcán de Fuego has intensified its activity, prompting evacuations near Guatemala's famous Antigua. While the UNESCO World Heritage city remains open to visitors, ashfall, road closures, and suspended volcano hikes are affecting travel. Here's what tourists n
+- **Score parts:** tier +5, category +5, lead +0, relevance +28, freshness +19.8, corroborated +10, shock +18
+
+### 🟡 [85.5] Best Evaluated Bidder – Provision of Hotel Services under the Framework Contract for Three Years
 - **Verdict:** CONSIDER
 - **Source:** UBOS statistical releases · tier 1 · UG · statistics
 - **First seen:** 2026-08-05T19:14+03:00 EAT · **Source date:** 2026-08-05
 - **URL:** https://www.ubos.org/best-evaluated-bidder-provision-of-hotel-services-under-the-framework-contract-for-three-years
 - **Extract:** The Bidder name below has been evaluated as the Best Evaluated Bidder for the Provision of Hotel […] The post Best Evaluated Bidder – Provision of Hotel Services under the Framework Contract for Three Years appeared first on Uganda Bureau of Statistics .
-- **Score parts:** tier +40, category +16, lead +2.4, relevance +4, freshness +14.9, corroborated +10
+- **Score parts:** tier +40, category +16, lead +2.4, relevance +4, freshness +13.1, corroborated +10
 
-### 🟡 [85.0] Wednesday, 5th August 2026 at 2.30pm
+### 🟡 [83.6] Minor Hotels Introduces Avani Queenstown, a Lakeside Retreat in New Zealand’s Adventure Capital
 - **Verdict:** CONSIDER
-- **Source:** Parliament of Kenya — bills & papers · tier 1 · KE · legislature
-- **First seen:** 2026-08-05T13:12+03:00 EAT · **Source date:** 2026-08-05
-- **URL:** https://www.parliament.go.ke/sites/default/files/2026-08/ORDER%20PAPER%20FOR%20WEDNESDAY%2C%205TH%20AUGUST%202026%20-%20AFTERNOON%20SITTING.pdf
-- **Extract:** en-USThirteenth Parliament Fifth Session en-GBAfternoon Sittingen-US en-US(No. 69) (2054) en-US en-US en-USREPUBLIC OF KENYA en-US en-USTHIRTEENTH PARLIAMENT (FIFTH SESSION) en-US en-USTHE NATIONAL ASSEMBLY en-US en-USORDERS OF THE DAY en-US en-US en-GBWEDNESD
-- **Score parts:** tier +40, category +10, lead +16.8, relevance +0, freshness +8.2, corroborated +10
+- **Source:** Minor Hotels newsroom · tier 1 · GLOBAL · hotel-group
+- **First seen:** 2026-08-06T01:19+03:00 EAT · **Source date:** — none stated
+- **URL:** https://media.minorhotels.com/en-GLO/268915-minor-hotels-introduces-avani-queenstown-a-lakeside-retreat-in-new-zealand-s-adventure-capital
+- **Score parts:** tier +40, category +9, lead +16.8, relevance +4, freshness +19.8, undated -6
 
-### 🟡 [85.0] Parliament backs President on plastics tax, casino levy Tuesday, 4 August 2026
+### 🟡 [83.6] Advance Booking Offer
 - **Verdict:** CONSIDER
-- **Source:** Parliament of Uganda · tier 1 · UG · legislature
-- **First seen:** 2026-08-05T13:12+03:00 EAT · **Source date:** — none stated
-- **URL:** https://www.parliament.go.ug/news/4526/parliament-backs-president-plastics-tax-casino-levy
-- **Score parts:** tier +40, category +10, lead +16.8, relevance +16, freshness +8.2, undated -6
+- **Source:** Kempinski press · tier 1 · GLOBAL · hotel-group
+- **First seen:** 2026-08-06T01:19+03:00 EAT · **Source date:** — none stated
+- **URL:** https://www.kempinski.com/en/offers/advance-booking-offer
+- **Score parts:** tier +40, category +9, lead +16.8, relevance +4, freshness +19.8, undated -6
 
-### 🟡 [84.6] EVA Air Schedules Taipei – Delhi Dec 2026 Launch
-- **Verdict:** CONSIDER
-- **Source:** AeroRoutes schedule filings · tier 2 · GLOBAL · aviation-tracker
-- **First seen:** 2026-08-05T13:12+03:00 EAT · **Source date:** 2026-08-05
-- **URL:** https://www.aeroroutes.com/eng/260805-brnw26del
-- **Extract:** Published at 0005PDT / 0705GMT 05AUG26 EVA Air during Northern winter 2026/27 season plans to resume passenger service to India, as the carrier filed operational schedule for Taipei Taoyuan – Delhi route since 0704GMT, on board Airbus A330-300 aircraft. First 
-- **Score parts:** tier +20, category +14, lead +8.4, relevance +24, freshness +8.2, corroborated +10
-
-### 🟡 [84.1] Somon Air Schedules Short Term Minsk Service From late-Aug 2026
+### 🟡 [82.4] Somon Air Schedules Short Term Minsk Service From late-Aug 2026
 - **Verdict:** CONSIDER
 - **Source:** AeroRoutes schedule filings · tier 2 · GLOBAL · aviation-tracker
 - **First seen:** 2026-08-05T23:40+03:00 EAT · **Source date:** 2026-08-05
 - **URL:** https://www.aeroroutes.com/eng/260805-szaug26msq
 - **Extract:** Published at 1100PDT / 1800GMT 05AUG26 Somon Air from late-August 2026 schedules limited time service to Belarus, as the carrier lists 1 weekly Dushanbe – Minsk flight. From 29AUG26 to 12SEP26, Boeing 737-800 aircraft operates this route. SZ111 DYU0630 – 0950M
-- **Score parts:** tier +20, category +14, lead +8.4, relevance +12, freshness +19.7, corroborated +10
+- **Score parts:** tier +20, category +14, lead +8.4, relevance +12, freshness +18, corroborated +10
 
-### 🟡 [83.4] Ministry of Health Reviews Progress on Newborn Health Interventions to Accelerate Newborn Survival.
-- **Verdict:** CONSIDER
-- **Source:** Uganda Ministry of Health — news · tier 1 · UG · health
-- **First seen:** 2026-08-05T13:12+03:00 EAT · **Source date:** 2026-08-04
-- **URL:** https://health.go.ug/ministry-of-health-reviews-progress-on-newborn-health-interventions-to-accelerate-newborn-survival
-- **Extract:** 4th August 2026, Kampala – The Ministry of Health, through the Reproductive and Child Health (RCH) Department, has concluded a two-day Quarterly Newborn Working Group Meeting held from 3rd to 4th August 2026 at UNICEF Headquarters, bringing together developmen
-- **Score parts:** tier +40, category +24, lead +1.2, relevance +0, freshness +8.2, corroborated +10
-
-### 🟡 [83.4] Ministry of Health Reviews Progress on Newborn Health Interventions to Accelerate Newborn Survival.
-- **Verdict:** CONSIDER
-- **Source:** Uganda Ministry of Health · tier 1 · UG · health
-- **First seen:** 2026-08-05T13:12+03:00 EAT · **Source date:** 2026-08-04
-- **URL:** https://health.go.ug/ministry-of-health-reviews-progress-on-newborn-health-interventions-to-accelerate-newborn-survival
-- **Extract:** 4th August 2026, Kampala – The Ministry of Health, through the Reproductive and Child Health (RCH) Department, has concluded a two-day Quarterly Newborn Working Group Meeting held from 3rd to 4th August 2026 at UNICEF Headquarters, bringing together developmen
-- **Score parts:** tier +40, category +24, lead +1.2, relevance +0, freshness +8.2, corroborated +10
-
-### 🟡 [83.3] Emirates Sep 2026 Florida Service Reductions
+### 🟡 [81.5] Emirates Sep 2026 Florida Service Reductions
 - **Verdict:** CONSIDER
 - **Source:** AeroRoutes schedule filings · tier 2 · GLOBAL · aviation-tracker
 - **First seen:** 2026-08-05T19:14+03:00 EAT · **Source date:** 2026-08-05
 - **URL:** https://www.aeroroutes.com/eng/260805-eksep26fl
 - **Extract:** Published at 0900PDT / 1600GMT 05AUG26 Emirates during the month of September 2026 schedules service reductions on Dubai – Orlando route, where the airline schedules 4 weekly flights from 01SEP26 to 30SEP26, instead of 1 daily. Boeing 777-200LR operates this r
-- **Score parts:** tier +20, category +14, lead +8.4, relevance +16, freshness +14.9, corroborated +10
+- **Score parts:** tier +20, category +14, lead +8.4, relevance +16, freshness +13.1, corroborated +10
 
-### 🟡 [83.3] Xiamen Airlines NW26 Middle East Service Changes – 05AUG26
+### 🟡 [81.5] Xiamen Airlines NW26 Middle East Service Changes – 05AUG26
 - **Verdict:** CONSIDER
 - **Source:** AeroRoutes schedule filings · tier 2 · GLOBAL · aviation-tracker
 - **First seen:** 2026-08-05T19:14+03:00 EAT · **Source date:** 2026-08-05
 - **URL:** https://www.aeroroutes.com/eng/260805-mfnw26me
 - **Extract:** Published at 0500PDT / 1200GMT 05AUG26 Xiamen Airlines in recent schedule update filed changes to its planned service to The Middle East for Northern winter 2026/27 season. Latest update, based on available flights for reservations, as of 05AUG26 are as follow
-- **Score parts:** tier +20, category +14, lead +8.4, relevance +16, freshness +14.9, corroborated +10
+- **Score parts:** tier +20, category +14, lead +8.4, relevance +16, freshness +13.1, corroborated +10
 
-### 🟡 [83.3] Air Astana Increases Astana – Seoul Service in NW26
+### 🟡 [81.5] Air Astana Increases Astana – Seoul Service in NW26
 - **Verdict:** CONSIDER
 - **Source:** AeroRoutes schedule filings · tier 2 · GLOBAL · aviation-tracker
 - **First seen:** 2026-08-05T19:14+03:00 EAT · **Source date:** 2026-08-05
 - **URL:** https://www.aeroroutes.com/eng/260805-kcnw26icn
 - **Extract:** Published at 0400PDT / 1100GMT 05AUG26 Air Astana during Northern winter 2026/27 season plans to expand Astana – Seoul Incheon flight, as the airline plans to add 3rd weekly flight from 28OCT26 for the season. A321LR operates this route. KC209 NQZ2020 – 0650+1
-- **Score parts:** tier +20, category +14, lead +8.4, relevance +16, freshness +14.9, corroborated +10
+- **Score parts:** tier +20, category +14, lead +8.4, relevance +16, freshness +13.1, corroborated +10
 
-### 🟡 [83.3] Democratic Republic of the Congo (DRC)
+### 🟡 [81.5] Democratic Republic of the Congo (DRC)
 - **Verdict:** CONSIDER
 - **Source:** ECDC — DRC/Uganda Ebola outbreak page · tier 1 · GLOBAL · health
 - **First seen:** 2026-08-05T19:13+03:00 EAT · **Source date:** — none stated
 - **URL:** https://insp.cd/wp-content/uploads/2026/08/SitRep_MVE_RDC_N_081_03_08_2026_VF.pdf
 - **Extract:** 1 fr-FR fr-FR fr-FR fr-FR fr-FR fr-FR fr-FRINDICATEURS CLES CUMUL AU 03 AOUT 2026 fr-FR fr-FRCAS CONFIRMES 5 PROVINCES fr-FR3 874 fr-FR+72 nouveaux cas (Ituri 58 · N-Kivu 12 · Haut-Uélé 2) fr-FR fr-FRDECES CONFIRMES · LETALITE fr-FR1 751 · (45,1 %) fr-FR+44 dé
-- **Score parts:** tier +40, category +24, lead +2.4, relevance +8, freshness +14.9, undated -6
+- **Score parts:** tier +40, category +24, lead +2.4, relevance +8, freshness +13.1, undated -6
 
-### 🟡 [82.2] Donate gazettes
+### 🟡 [80.6] 𝐃𝐄𝐅𝐄𝐍𝐂𝐄 𝐂𝐎𝐌𝐌𝐈𝐓𝐓𝐄𝐄 𝐂𝐇𝐀𝐈𝐑𝐏𝐄𝐑𝐒𝐎𝐍 𝐄𝐍𝐆𝐀𝐆𝐄𝐒 𝐏𝐎𝐋𝐈𝐒𝐇 𝐀𝐌𝐁𝐀𝐒𝐒𝐀𝐃𝐎𝐑 𝐎𝐍 𝐄𝐍𝐇𝐀𝐍𝐂𝐈𝐍𝐆 𝐊𝐄𝐍𝐘𝐀–𝐏𝐎𝐋𝐀𝐍𝐃 𝐑𝐄𝐋𝐀𝐓𝐈𝐎𝐍𝐒
 - **Verdict:** CONSIDER
-- **Source:** Rwanda Official Gazette (gazettes.africa) · tier 1 · RW · gazette
-- **First seen:** 2026-08-05T13:12+03:00 EAT · **Source date:** — none stated
-- **URL:** https://gazettes.africa/cdn-cgi/l/email-protection
-- **Score parts:** tier +40, category +20, lead +12, relevance +8, freshness +8.2, undated -6
+- **Source:** Parliament of Kenya — bills & papers · tier 1 · KE · legislature
+- **First seen:** 2026-08-06T01:19+03:00 EAT · **Source date:** — none stated
+- **URL:** https://www.parliament.go.ke/index.php/node/26206
+- **Score parts:** tier +40, category +10, lead +16.8, relevance +0, freshness +19.8, undated -6
 
-### 🟡 [82.2] Donate gazettes
+### 🟡 [80.6] 𝐂𝐒 𝐖𝐀𝐇𝐎𝐌𝐄 𝐀𝐒𝐒𝐔𝐑𝐄𝐒 𝐒𝐄𝐍𝐀𝐓𝐄 𝐎𝐅 𝐌𝐄𝐀𝐒𝐔𝐑𝐄𝐒 𝐓𝐎 𝐒𝐄𝐂𝐔𝐑𝐄 𝐌𝐀𝐑𝐓𝐈𝐍 𝐋𝐔𝐓𝐇𝐄𝐑 𝐏𝐑𝐈𝐌𝐀𝐑𝐘 𝐒𝐂𝐇𝐎𝐎𝐋 𝐋𝐀𝐍𝐃 𝐀𝐍𝐃 𝐅𝐀𝐒𝐓 𝐓𝐑𝐀𝐂𝐊 𝐓𝐈𝐓𝐋𝐄 𝐃𝐄𝐄𝐃𝐒
 - **Verdict:** CONSIDER
-- **Source:** Tanzania Government Gazette (gazettes.africa) · tier 1 · TZ · gazette
-- **First seen:** 2026-08-05T13:12+03:00 EAT · **Source date:** — none stated
-- **URL:** https://gazettes.africa/cdn-cgi/l/email-protection
-- **Score parts:** tier +40, category +20, lead +12, relevance +8, freshness +8.2, undated -6
+- **Source:** Parliament of Kenya — bills & papers · tier 1 · KE · legislature
+- **First seen:** 2026-08-06T01:19+03:00 EAT · **Source date:** — none stated
+- **URL:** https://www.parliament.go.ke/index.php/node/26205
+- **Score parts:** tier +40, category +10, lead +16.8, relevance +0, freshness +19.8, undated -6
 
-### 🟡 [82.2] Donate gazettes
+### 🟡 [80.6] 𝐒𝐄𝐍𝐀𝐓𝐄 𝐂𝐎𝐌𝐌𝐈𝐓𝐓𝐄𝐄 𝐑𝐄𝐉𝐄𝐂𝐓𝐒 𝐅𝐔𝐑𝐓𝐇𝐄𝐑 𝐄𝐗𝐓𝐄𝐍𝐒𝐈𝐎𝐍 𝐎𝐅 𝐂𝐎𝐔𝐍𝐓𝐘 𝐏𝐄𝐍𝐒𝐈𝐎𝐍 𝐓𝐀𝐒𝐊 𝐅𝐎𝐑𝐂𝐄
 - **Verdict:** CONSIDER
-- **Source:** Uganda Gazette (gazettes.africa) · tier 1 · UG · gazette
-- **First seen:** 2026-08-05T13:12+03:00 EAT · **Source date:** — none stated
-- **URL:** https://gazettes.africa/cdn-cgi/l/email-protection
-- **Score parts:** tier +40, category +20, lead +12, relevance +8, freshness +8.2, undated -6
+- **Source:** Parliament of Kenya — bills & papers · tier 1 · KE · legislature
+- **First seen:** 2026-08-06T01:19+03:00 EAT · **Source date:** — none stated
+- **URL:** https://www.parliament.go.ke/index.php/node/26202
+- **Score parts:** tier +40, category +10, lead +16.8, relevance +0, freshness +19.8, undated -6
 
-### 🟡 [82.2] Donate gazettes
+### 🟡 [80.6] 𝐖𝐀𝐓𝐄𝐑 𝐒𝐄𝐂𝐓𝐎𝐑 𝐓𝐑𝐔𝐒𝐓 𝐅𝐔𝐍𝐃 𝐒𝐄𝐄𝐊𝐒 𝐖𝐀𝐓𝐄𝐑 𝐀𝐂𝐓 𝐀𝐌𝐄𝐍𝐃𝐌𝐄𝐍𝐓 𝐓𝐎 𝐄𝐗𝐏𝐀𝐍𝐃 𝐌𝐀𝐍𝐃𝐀𝐓𝐄
 - **Verdict:** CONSIDER
-- **Source:** Kenya Gazette mirror (gazettes.africa) · tier 1 · KE · gazette
-- **First seen:** 2026-08-05T13:12+03:00 EAT · **Source date:** — none stated
-- **URL:** https://gazettes.africa/cdn-cgi/l/email-protection
-- **Score parts:** tier +40, category +20, lead +12, relevance +8, freshness +8.2, undated -6
+- **Source:** Parliament of Kenya — bills & papers · tier 1 · KE · legislature
+- **First seen:** 2026-08-06T01:19+03:00 EAT · **Source date:** — none stated
+- **URL:** https://www.parliament.go.ke/index.php/node/26197
+- **Score parts:** tier +40, category +10, lead +16.8, relevance +0, freshness +19.8, undated -6
 
-### 🟡 [81.4] Ministry of Health Strengthens Capacity of Call Centre Agents to Enhance Family Planning Information and Counselling Ser
+### 🟡 [80.6] 𝐃𝐄𝐅𝐄𝐍𝐂𝐄 𝐂𝐎𝐌𝐌𝐈𝐓𝐓𝐄𝐄 𝐂𝐇𝐀𝐈𝐑𝐏𝐄𝐑𝐒𝐎𝐍 𝐄𝐍𝐆𝐀𝐆𝐄𝐒 𝐏𝐎𝐋𝐈𝐒𝐇 𝐀𝐌𝐁𝐀𝐒𝐒𝐀𝐃𝐎𝐑 𝐎𝐍 𝐄𝐍𝐇𝐀𝐍𝐂𝐈𝐍𝐆 𝐊𝐄𝐍𝐘𝐀–𝐏𝐎𝐋𝐀𝐍𝐃 𝐑𝐄𝐋𝐀𝐓𝐈𝐎𝐍𝐒
 - **Verdict:** CONSIDER
-- **Source:** Uganda Ministry of Health — news · tier 1 · UG · health
-- **First seen:** 2026-08-05T13:12+03:00 EAT · **Source date:** 2026-08-03
-- **URL:** https://health.go.ug/ministry-of-health-strengthens-capacity-of-call-centre-agents-to-enhance-family-planning-information-and-counselling-services
-- **Extract:** 3rd August 2026, Mukono – The Ministry of Health, in partnership with Marie Stopes Uganda, is conducting a four-day capacity-building training for Ministry of Health Call Centre agents on family planning. The training is aimed at strengthening the capacity of 
-- **Score parts:** tier +40, category +24, lead +1.2, relevance +8, freshness +8.2
+- **Source:** Parliament of Kenya — bills & papers · tier 1 · KE · legislature
+- **First seen:** 2026-08-06T01:19+03:00 EAT · **Source date:** — none stated
+- **URL:** https://www.parliament.go.ke/node/26206
+- **Score parts:** tier +40, category +10, lead +16.8, relevance +0, freshness +19.8, undated -6
 
-### 🟡 [81.4] Ministry of Health Strengthens Capacity of Call Centre Agents to Enhance Family Planning Information and Counselling Ser
+### 🟡 [80.6] 𝐂𝐒 𝐖𝐀𝐇𝐎𝐌𝐄 𝐀𝐒𝐒𝐔𝐑𝐄𝐒 𝐒𝐄𝐍𝐀𝐓𝐄 𝐎𝐅 𝐌𝐄𝐀𝐒𝐔𝐑𝐄𝐒 𝐓𝐎 𝐒𝐄𝐂𝐔𝐑𝐄 𝐌𝐀𝐑𝐓𝐈𝐍 𝐋𝐔𝐓𝐇𝐄𝐑 𝐏𝐑𝐈𝐌𝐀𝐑𝐘 𝐒𝐂𝐇𝐎𝐎𝐋 𝐋𝐀𝐍𝐃 𝐀𝐍𝐃 𝐅𝐀𝐒𝐓 𝐓𝐑𝐀𝐂𝐊 𝐓𝐈𝐓𝐋𝐄 𝐃𝐄𝐄𝐃𝐒
 - **Verdict:** CONSIDER
-- **Source:** Uganda Ministry of Health · tier 1 · UG · health
-- **First seen:** 2026-08-05T13:12+03:00 EAT · **Source date:** 2026-08-03
-- **URL:** https://health.go.ug/ministry-of-health-strengthens-capacity-of-call-centre-agents-to-enhance-family-planning-information-and-counselling-services
-- **Extract:** 3rd August 2026, Mukono – The Ministry of Health, in partnership with Marie Stopes Uganda, is conducting a four-day capacity-building training for Ministry of Health Call Centre agents on family planning. The training is aimed at strengthening the capacity of 
-- **Score parts:** tier +40, category +24, lead +1.2, relevance +8, freshness +8.2
+- **Source:** Parliament of Kenya — bills & papers · tier 1 · KE · legislature
+- **First seen:** 2026-08-06T01:19+03:00 EAT · **Source date:** — none stated
+- **URL:** https://www.parliament.go.ke/node/26205
+- **Score parts:** tier +40, category +10, lead +16.8, relevance +0, freshness +19.8, undated -6
 
-### 🟡 [80.6] Air China NW26 Chongqing – Taipei Aircraft Changes
+### 🟡 [80.6] House committee to probe Mt Elgon boundary dispute Wednesday, 5 August 2026
 - **Verdict:** CONSIDER
-- **Source:** AeroRoutes schedule filings · tier 2 · GLOBAL · aviation-tracker
-- **First seen:** 2026-08-05T13:12+03:00 EAT · **Source date:** 2026-08-05
-- **URL:** https://www.aeroroutes.com/eng/260804-canw26ckgtpe
-- **Extract:** Published at 2000PDT 04AUG26 / 0300GMT 05AUG26 Star Alliance member Air China during Northern winter 2026/27 season plans to expand capacity on Chongqing – Taipei Taoyuan route, effective 25OCT26. The 5 weekly flights will be served by Airbus A330-300, replaci
-- **Score parts:** tier +20, category +14, lead +8.4, relevance +20, freshness +8.2, corroborated +10
+- **Source:** Parliament of Uganda · tier 1 · UG · legislature
+- **First seen:** 2026-08-06T01:19+03:00 EAT · **Source date:** — none stated
+- **URL:** https://www.parliament.go.ug/news/4533/house-committee-probe-mt-elgon-boundary-dispute
+- **Score parts:** tier +40, category +10, lead +16.8, relevance +0, freshness +19.8, undated -6
 
-### 🟡 [80.6] Qanot Sharq Discontinues London Gatwick Service in late-Sep 2026
+### 🟡 [80.6] 'Probe death of Crane’s football star' Wednesday, 5 August 2026
 - **Verdict:** CONSIDER
-- **Source:** AeroRoutes schedule filings · tier 2 · GLOBAL · aviation-tracker
-- **First seen:** 2026-08-05T13:12+03:00 EAT · **Source date:** 2026-08-05
-- **URL:** https://www.aeroroutes.com/eng/260804-hhnw26lgw
-- **Extract:** Published at 1701PDT 04AUG26 / 0001GMT 05AUG26 Uzbekistan’s Qanot Sharq this week filed additional service changes on Tashkent – London Gatwick route, which now sees the airline operates last flight on 28SEP26. Previously the airline removed schedule filing fo
-- **Score parts:** tier +20, category +14, lead +8.4, relevance +20, freshness +8.2, corroborated +10
+- **Source:** Parliament of Uganda · tier 1 · UG · legislature
+- **First seen:** 2026-08-06T01:19+03:00 EAT · **Source date:** — none stated
+- **URL:** https://www.parliament.go.ug/news/4532/probe-death-cranes-football-star
+- **Score parts:** tier +40, category +10, lead +16.8, relevance +0, freshness +19.8, undated -6
 
-### 🟡 [80.2] Kyuso Law Courts – Weekly Cause List – 03 August 2026 to 07 August 2026
+### 🟡 [80.6] Parliament directs on Ndejje University Students' transcript row Wednesday, 5 August 2026
 - **Verdict:** CONSIDER
-- **Source:** Kenya Gazette (Kenya Law) · tier 1 · KE · gazette
-- **First seen:** 2026-08-05T13:12+03:00 EAT · **Source date:** 2026-08-03
-- **URL:** https://new.kenyalaw.org/akn/ke/doc/cause-list-weekly/kemc/2026-08-03/15/eng@2026-08-03
-- **Extract:** Kyuso Law Courts – Weekly Cause List – 03 August 2026 to 07 August 2026
-- **Score parts:** tier +40, category +20, lead +12, relevance +0, freshness +8.2
+- **Source:** Parliament of Uganda · tier 1 · UG · legislature
+- **First seen:** 2026-08-06T01:19+03:00 EAT · **Source date:** — none stated
+- **URL:** https://www.parliament.go.ug/news/4531/parliament-directs-ndejje-university-students-transcript-row
+- **Score parts:** tier +40, category +10, lead +16.8, relevance +0, freshness +19.8, undated -6
+
+### 🟡 [80.6] Ministry seeks Shs308 bn for one stop-centre services Wednesday, 5 August 2026
+- **Verdict:** CONSIDER
+- **Source:** Parliament of Uganda · tier 1 · UG · legislature
+- **First seen:** 2026-08-06T01:19+03:00 EAT · **Source date:** — none stated
+- **URL:** https://www.parliament.go.ug/news/4530/ministry-seeks-shs308-bn-one-stop-centre-services
+- **Score parts:** tier +40, category +10, lead +16.8, relevance +0, freshness +19.8, undated -6
+
+### 🟡 [79.6] CHOICE HOTELS INTERNATIONAL REPORTS SECOND QUARTER 2026 RESULTS
+- **Verdict:** CONSIDER
+- **Source:** Choice Hotels newsroom · tier 2 · GLOBAL · hotel-group
+- **First seen:** 2026-08-06T01:19+03:00 EAT · **Source date:** 2026-08-05
+- **URL:** https://media.choicehotels.com/2026-08-05-CHOICE-HOTELS-INTERNATIONAL-REPORTS-SECOND-QUARTER-2026-RESULTS
+- **Score parts:** tier +20, category +9, lead +16.8, relevance +4, freshness +19.8, corroborated +10
+
+### 🟡 [79.6] Stay Longer & Save
+- **Verdict:** CONSIDER
+- **Source:** Kempinski press · tier 1 · GLOBAL · hotel-group
+- **First seen:** 2026-08-06T01:19+03:00 EAT · **Source date:** — none stated
+- **URL:** https://www.kempinski.com/en/offers/long-stay-offer
+- **Score parts:** tier +40, category +9, lead +16.8, relevance +0, freshness +19.8, undated -6
+
+### 🟡 [79.6] Explore Nymphenburg
+- **Verdict:** CONSIDER
+- **Source:** Kempinski press · tier 1 · GLOBAL · hotel-group
+- **First seen:** 2026-08-06T01:19+03:00 EAT · **Source date:** — none stated
+- **URL:** https://www.kempinski.com/en/travelling-in-style/nymphenburg-porcelain-manu-factum-since-1747
+- **Score parts:** tier +40, category +9, lead +16.8, relevance +0, freshness +19.8, undated -6
+
+### 🟡 [79.6] Sport and Adventure
+- **Verdict:** CONSIDER
+- **Source:** Kempinski press · tier 1 · GLOBAL · hotel-group
+- **First seen:** 2026-08-06T01:19+03:00 EAT · **Source date:** — none stated
+- **URL:** https://www.kempinski.com/en/inspirations/sport-and-adventure
+- **Score parts:** tier +40, category +9, lead +16.8, relevance +0, freshness +19.8, undated -6
+
+### 🟡 [79.6] For Your Wellbeing
+- **Verdict:** CONSIDER
+- **Source:** Kempinski press · tier 1 · GLOBAL · hotel-group
+- **First seen:** 2026-08-06T01:19+03:00 EAT · **Source date:** — none stated
+- **URL:** https://www.kempinski.com/en/inspirations/for-your-wellbeing
+- **Score parts:** tier +40, category +9, lead +16.8, relevance +0, freshness +19.8, undated -6
+
+### 🟡 [79.6] Kimpton Unveils Quinta da Marinha, Bringing Laid Back Luxury Lifestyle to Portugal’s Atlantic Coast
+- **Verdict:** CONSIDER
+- **Source:** IHG news · tier 1 · GLOBAL · hotel-group
+- **First seen:** 2026-08-06T01:18+03:00 EAT · **Source date:** — none stated
+- **URL:** https://www.ihgplc.com/en/news-and-media/news-releases/2026/kimpton-unveils-quinta-da-marinha-bringing-laid-back-luxury-lifestyle-to-portugals-atlantic-coast
+- **Score parts:** tier +40, category +9, lead +16.8, relevance +0, freshness +19.8, undated -6
+
+### 🟡 [78.4] Chikungunya in Nicaragua
+- **Verdict:** CONSIDER
+- **Source:** US CDC travel health notices · tier 1 · GLOBAL · health
+- **First seen:** 2026-08-05T23:40+03:00 EAT · **Source date:** — none stated
+- **URL:** https://wwwnc.cdc.gov/travel/notices/level2/chikungunya-nicaragua
+- **Score parts:** tier +40, category +24, lead +2.4, relevance +0, freshness +18, undated -6
+
+### 🟡 [78.4] Chikungunya in Costa Rica
+- **Verdict:** CONSIDER
+- **Source:** US CDC travel health notices · tier 1 · GLOBAL · health
+- **First seen:** 2026-08-05T23:40+03:00 EAT · **Source date:** — none stated
+- **URL:** https://wwwnc.cdc.gov/travel/notices/level2/chikungunya-costa-rica
+- **Score parts:** tier +40, category +24, lead +2.4, relevance +0, freshness +18, undated -6
+
+### 🟡 [78.4] Chikungunya in French Guiana
+- **Verdict:** CONSIDER
+- **Source:** US CDC travel health notices · tier 1 · GLOBAL · health
+- **First seen:** 2026-08-05T23:40+03:00 EAT · **Source date:** — none stated
+- **URL:** https://wwwnc.cdc.gov/travel/notices/level2/chikungunya-french-guiana
+- **Score parts:** tier +40, category +24, lead +2.4, relevance +0, freshness +18, undated -6
