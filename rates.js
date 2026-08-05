@@ -1,5 +1,5 @@
 window.RATE_INDEX = {
- "updated": "2026-08-04 12:25",
+ "updated": "2026-08-05 10:09",
  "convention": {
   "los": 2,
   "lead_days": 30,
@@ -11,8 +11,8 @@ window.RATE_INDEX = {
  "method": "chain-linked matched-sample",
  "methodNote": "Each property is compared only with itself, so the index measures rate MOVEMENT validly even though the basket mixes meal bases and rate types. Raw medians are context only and are not comparable across markets — check levelComparable before quoting a level.",
  "spreadNote": "Commission-leakage spread = median of (OTA rate / direct rate - 1) for the same property in the same week. Computed only where the direct rate is room-only or B&B, since an OTA lowest rate is not comparable with a fully-inclusive safari rate. Markets where no property qualifies report null.",
- "totalObservations": 126,
- "distinctProperties": 107,
+ "totalObservations": 127,
+ "distinctProperties": 108,
  "basketSize": 136,
  "markets": {
   "nairobi": {
@@ -197,18 +197,18 @@ window.RATE_INDEX = {
     {
      "week": "2026-W32",
      "weekStart": "2026-08-03",
-     "median": 293.06,
-     "n": 9,
-     "observations": 9,
-     "coverage": 69,
+     "median": 304.33,
+     "n": 10,
+     "observations": 10,
+     "coverage": 77,
      "confident": true,
      "basisMix": {
       "FB": 1,
-      "BB": 7,
+      "BB": 8,
       "UNK": 1
      },
      "rateTypeMix": {
-      "international": 9
+      "international": 10
      },
      "levelComparable": false,
      "matched": 4,
@@ -220,18 +220,18 @@ window.RATE_INDEX = {
    "latest": {
     "week": "2026-W32",
     "weekStart": "2026-08-03",
-    "median": 293.06,
-    "n": 9,
-    "observations": 9,
-    "coverage": 69,
+    "median": 304.33,
+    "n": 10,
+    "observations": 10,
+    "coverage": 77,
     "confident": true,
     "basisMix": {
      "FB": 1,
-     "BB": 7,
+     "BB": 8,
      "UNK": 1
     },
     "rateTypeMix": {
-     "international": 9
+     "international": 10
     },
     "levelComparable": false,
     "matched": 4,
@@ -243,12 +243,12 @@ window.RATE_INDEX = {
     "HB": 3,
     "AI": 2,
     "FB": 1,
-    "BB": 7,
+    "BB": 8,
     "UNK": 1
    },
    "rateTypeMix": {
     "resident": 5,
-    "international": 9
+    "international": 10
    },
    "levelComparable": false,
    "residentOnly": false,
