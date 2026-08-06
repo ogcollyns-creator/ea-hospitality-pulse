@@ -1,5 +1,5 @@
 {
- "generated": "2026-08-05T14:28+03:00",
+ "generated": "2026-08-06T13:55+03:00",
  "health": 0.717,
  "grade": "C",
  "fails": [
@@ -14,7 +14,7 @@
   {
    "name": "source coverage",
    "status": "FAIL",
-   "detail": "118 tier-1 sources: 82 HEALTHY, 20 MUTE, 16 SILENT. Blind examples: ke-tenders, ug-bou, tz-mnrt, tz-tanapa, tz-immigration, tz-tenders",
+   "detail": "118 tier-1 sources: 85 HEALTHY, 19 MUTE, 14 SILENT. Blind examples: ke-tenders, ug-bou, tz-mnrt, tz-tanapa, tz-immigration, tz-tenders",
    "fix": "Give each blind tier-1 source an RSS/feed URL or frag selector; validate on the runner.",
    "score": 0.0
   },
@@ -28,28 +28,28 @@
   {
    "name": "radar feed freshness",
    "status": "PASS",
-   "detail": "196 in-window obs; newest observation 1.3h old (2026-08-05T13:12:00+03:00).",
+   "detail": "147 in-window obs; newest observation 0.7h old (2026-08-06T13:16:00+03:00).",
    "fix": "",
    "score": 1.0
   },
   {
    "name": "edition cadence",
    "status": "PASS",
-   "detail": "8 editions in last 2d; no slot gaps.",
+   "detail": "6 editions in last 2d; no slot gaps.",
    "fix": "",
    "score": 1.0
   },
   {
    "name": "signal quality",
    "status": "WARN",
-   "detail": "5/8 editions in last 7d were Tier 2/3 (thin). Share 62%.",
+   "detail": "5/9 editions in last 7d were Tier 2/3 (thin). Share 56%.",
    "fix": "A high thin share means sourcing isn't finding real stories \u2014 widen scope / fix blind sources.",
    "score": 0.5
   },
   {
    "name": "ledger hygiene",
    "status": "WARN",
-   "detail": "54 calls: 49 open, 5 resolved. Overdue-open: 0. Missing source_url: 18.",
+   "detail": "56 calls: 51 open, 5 resolved. Overdue-open: 0. Missing source_url: 18.",
    "fix": "Backfill source_url on early calls.",
    "score": 0.5
   },
@@ -63,21 +63,21 @@
   {
    "name": "rate-index integrity",
    "status": "WARN",
-   "detail": "n values seen: [1, 3, 5, 6, 8, 9]; confident true=28 false=4.",
+   "detail": "n values seen: [1, 4, 5, 6, 8, 9]; confident true=28 false=4.",
    "fix": "Index still thin \u2014 never quote a median where n<3 or confident:false. Enforced in copy.",
    "score": 0.5
   },
   {
    "name": "forecast throughput",
    "status": "PASS",
-   "detail": "22 new falsifiable calls logged in last 7d.",
+   "detail": "18 new falsifiable calls logged in last 7d.",
    "fix": "",
    "score": 1.0
   },
   {
    "name": "published content",
    "status": "PASS",
-   "detail": "11 recent editions; no advisory claim contradicts the board.",
+   "detail": "9 recent editions; no advisory claim contradicts the board.",
    "fix": "",
    "score": 1.0
   }
