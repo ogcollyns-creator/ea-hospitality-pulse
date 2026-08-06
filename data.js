@@ -1,5 +1,14 @@
 window.EDITIONS = [
  {
+  "id": "pulse-2026-08-06-midday",
+  "date": "2026-08-06",
+  "dateDisplay": "Thursday, 6 August 2026",
+  "edition": "Midday Pulse",
+  "editionKey": "midday",
+  "summary": "No fresh story clears the bar since last night — so today, the one call worth planning against, plus what's still true and next week's clock.",
+  "bodyHtml": "<p><span class=\"meta-line\">🏨 EA HOSPITALITY PULSE — Midday Pulse</span><br><span class=\"meta-line\">📅 Thursday, 6 August 2026 | 🌍 Regional</span></p>\n<p>No fresh story clears the bar since last night — so today, the one call worth planning against, plus what&#x27;s still true and next week&#x27;s clock.</p>\n<p>━━━━━━━━━<br>⏳ FORECAST CHECK-IN: SIX DAYS TO THE 12 AUGUST CALL<br>The US CDC&#x27;s Section 362 Ebola entry suspension — covering DR Congo, <strong>Uganda</strong> and South Sudan — was renewed on 13 July &quot;for 30 days&quot; (CDC Port Health order, page dated 20 July). That runs out around <strong>12 August</strong>. Our standing calls into that decision:<br>• <strong>Renewed, DRC still listed.</strong> The outbreak isn&#x27;t easing — 3,605 confirmed cases and 1,587 deaths in DRC as at 30 July, a 44% fatality rate, with the single worst week on record (per WHO, via UN News, 3 Aug). No epidemiological basis to lift.<br>• <strong>Uganda is the open question.</strong> Kampala declared its own outbreak over on 28 July, but whether Washington decouples Uganda from DRC — or keeps it on the list — is still undecided.<br><span class=\"sowhat\">🎯 So what: if you sell Uganda or the region into the US market, don&#x27;t bank on an entry-ban or advisory easing before <strong>late August</strong>. The realistic Ugandan catalyst is the ~27 Aug 42-day all-clear, not next week. Hold rate; don&#x27;t model a September US-market bounce on a decoupling that may not land.</span><br><span class=\"tagline\">🏷 All | Regional | Reported</span></p>\n<p>📋 STILL TRUE: NO ADVISORY MOVED THIS WEEK<br>Uganda US Level 4 / UK against all-but-essential travel to parts of the west; Kenya Level 2 (rendered page still dated 17 March 2025); Tanzania &amp; Zanzibar Level 3; Rwanda Level 3. Last verified 4 Aug; no advisory-page change flagged since.<br><span class=\"sowhat\">🎯 So what: a confirmed &quot;no change&quot; is actionable — no board has moved against you this week, so there&#x27;s no reason to discount defensively into the Sept–Oct peak.</span></p>\n<p><span class=\"meta-line\">📅 NEXT WEEK&#x27;S CLOCK</span><br>• <strong>7 Aug (Fri)</strong> — CBK weekly bulletin: FX &amp; reserves.<br>• <strong>~12 Aug</strong> — CDC Ebola entry-ban renewal decision.<br>• <strong>15 Aug</strong> — EPRA fuel review (Nairobi diesel KSh 222.86/L, held flat by state support). Lock safari transfer contracts before it.<br>• <strong>18 Aug</strong> — WHO IHR Emergency Committee reconvenes on the Bundibugyo PHEIC.<br><span class=\"tagline\">🏷 All | Regional | Watch</span><br>━━━━━━━━━<br>🔗 This edition on the web: https://eahospitalitypulse.com/editions/pulse-2026-08-06-midday.html<br>— EA Hospitality Pulse | Daily intelligence for city, bush &amp; beach properties</p>"
+ },
+ {
   "id": "pulse-2026-08-05-evening",
   "date": "2026-08-05",
   "dateDisplay": "Wednesday, 5 August 2026",
@@ -1651,4 +1660,4 @@ window.INSIGHTS = [
   "editionKey": "evening"
  }
 ];
-window.BUILT_AT = "2026-08-05 13:52";
+window.BUILT_AT = "2026-08-06 14:01";
