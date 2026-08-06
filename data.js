@@ -1,5 +1,14 @@
 window.EDITIONS = [
  {
+  "id": "pulse-2026-08-06-evening",
+  "date": "2026-08-06",
+  "dateDisplay": "Thursday, 6 August 2026",
+  "edition": "Evening Wrap",
+  "editionKey": "evening",
+  "summary": "Washington just told you where it stands on Ebola — six days before the decision that sets the regional travel-risk narrative into September.",
+  "bodyHtml": "<p><span class=\"meta-line\">🏨 EA HOSPITALITY PULSE — Evening Wrap</span><br><span class=\"meta-line\">📅 Thursday, 6 August 2026 | 🌍 Regional</span></p>\n<p>Washington just told you where it stands on Ebola — six days before the decision that sets the regional travel-risk narrative into September.</p>\n<p>━━━━━━━━━<br>🇺🇸 THE US PUTS $242M MORE BEHIND EBOLA — AND KEEPS UGANDA AT LEVEL 4<br>In a Media Note dated <strong>5 August</strong>, the State Department announced a further <strong>$242 million</strong> for Ebola response in the DRC and Uganda, taking its direct assistance past <strong>$512 million</strong>. In the same note it confirmed the Travel Advisories for the DRC, <strong>Uganda</strong> and South Sudan &quot;remain at Level 4 – Do Not Travel,&quot; while commending Uganda for &quot;swift and decisive action.&quot;<br><span class=\"sowhat\">🎯 So what: read the two halves together. Washington is praising Kampala&#x27;s response — but the money and the Level 4 are both still on the table. If you sell Uganda or the wider region into the US market, this is your signal the advisory is not easing before the 12 August CDC renewal, and probably not before Uganda&#x27;s 42-day all-clear (~27 Aug). Hold rate; don&#x27;t model a September US-market bounce on a downgrade nobody has hinted at.</span><br><span class=\"tagline\">🏷 Bush/City | Uganda/Regional | Confirmed</span></p>\n<p>⏳ FORECAST CHECK-IN: TWO CALLS LAND<br>The epidemiology behind the ban isn&#x27;t easing. The DRC outbreak is now the <strong>largest in the country&#x27;s history</strong>, surpassing 2018–20 (3,317 cases): 3,605 confirmed and 1,587 deaths as at 30 July, per WHO via UN News (3 Aug); the most recent weekly reporting puts it past <strong>3,800</strong>. That resolves two standing calls — DRC cases above 3,600 (P039) and the next weekly sit-rep still climbing (P053) — both <strong>correct</strong>.<br><span class=\"sowhat\">🎯 So what: a renewal on ~12 August with DRC and Uganda still listed remains the base case. Plan Q3 US-source demand on that footing.</span><br><span class=\"tagline\">🏷 All | Regional | Reported</span></p>\n<p>📋 STILL TRUE: THE BOARD HASN&#x27;T MOVED<br>Kenya US Level 2; Tanzania &amp; Zanzibar Level 3; Rwanda Level 3; Uganda Level 4. Last verified 4 Aug; the 5 Aug State note reconfirms UG/DRC/South Sudan at Level 4.<br><span class=\"sowhat\">🎯 So what: no board has moved against you this week — no reason to discount defensively into the Sept–Oct peak.</span><br><span class=\"tagline\">🏷 All | Regional | Watch</span><br>━━━━━━━━━<br>🔗 This edition on the web: https://eahospitalitypulse.com/editions/pulse-2026-08-06-evening.html<br>💼 Today&#x27;s Big Read on LinkedIn: https://www.linkedin.com/company/ea-hospitality-pulse/<br>— EA Hospitality Pulse | Daily intelligence for city, bush &amp; beach properties</p>"
+ },
+ {
   "id": "pulse-2026-08-06-midday",
   "date": "2026-08-06",
   "dateDisplay": "Thursday, 6 August 2026",
@@ -1660,4 +1669,4 @@ window.INSIGHTS = [
   "editionKey": "evening"
  }
 ];
-window.BUILT_AT = "2026-08-06 11:01";
+window.BUILT_AT = "2026-08-06 16:57";

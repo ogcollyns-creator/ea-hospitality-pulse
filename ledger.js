@@ -1,13 +1,13 @@
 window.LEDGER = {
- "updated": "2026-08-06 11:01",
+ "updated": "2026-08-06 16:57",
  "stats": {
-  "total": 56,
+  "total": 57,
   "open": 51,
-  "resolved": 5,
-  "correct": 2,
+  "resolved": 6,
+  "correct": 3,
   "partial": 1,
   "incorrect": 2,
-  "accuracy": 50
+  "accuracy": 58
  },
  "open": [
   {
@@ -91,19 +91,19 @@ window.LEDGER = {
    "overdue": false
   },
   {
-   "id": "P053",
-   "made_date": "2026-08-05",
-   "edition": "Morning Brief",
-   "claim": "The next WHO AFRO Weekly External Situation Report (published Tuesdays) will show cumulative DRC confirmed Bundibugyo cases above 3605 — continued rise, no plateau after epi-week 30's record 567 cases",
-   "resolution_criteria": "The next WHO AFRO weekly external sit-rep after the 30 Jul cut-off showing DRC cumulative confirmed BVD cases above 3605. If it shows 3605 or fewer the call is incorrect",
+   "id": "P056",
+   "made_date": "2026-08-06",
+   "edition": "Evening Wrap",
+   "claim": "The US State Department Uganda Travel Advisory will remain Level 4 through the 12 August 2026 CDC renewal decision — the 5 Aug commendation of Uganda is goodwill not an imminent downgrade",
+   "resolution_criteria": "travel.state.gov Uganda advisory checked on 13 Aug 2026 still showing Level 4 Do Not Travel. If it shows Level 3 or lower on or before 12 Aug the call is incorrect",
    "resolve_by": "2026-08-13",
-   "market": "Regional",
-   "segment": "All",
-   "confidence": "Confirmed",
+   "market": "UG",
+   "segment": "Bush/City",
+   "confidence": "Reported",
    "status": "open",
    "resolved_date": "",
    "evidence": "",
-   "source_url": "https://www.afro.who.int/health-topics/ebola-disease/outbreak-drc-26",
+   "source_url": "https://travel.state.gov/content/travel/en/traveladvisories/traveladvisories/uganda-travel-advisory.html",
    "overdue": false
   },
   {
@@ -828,6 +828,22 @@ window.LEDGER = {
   }
  ],
  "resolved": [
+  {
+   "id": "P053",
+   "made_date": "2026-08-05",
+   "edition": "Morning Brief",
+   "claim": "The next WHO AFRO Weekly External Situation Report (published Tuesdays) will show cumulative DRC confirmed Bundibugyo cases above 3605 — continued rise, no plateau after epi-week 30's record 567 cases",
+   "resolution_criteria": "The next WHO AFRO weekly external sit-rep after the 30 Jul cut-off showing DRC cumulative confirmed BVD cases above 3605. If it shows 3605 or fewer the call is incorrect",
+   "resolve_by": "2026-08-13",
+   "market": "Regional",
+   "segment": "All",
+   "confidence": "Confirmed",
+   "status": "correct",
+   "resolved_date": "2026-08-06",
+   "evidence": "WHO/ECDC weekly reporting 4 Aug 2026: DRC 3874 confirmed , 1751 deaths (data to 3 Aug) — exceeds the 3605 threshold; outbreak now largest in DRC history",
+   "source_url": "https://www.afro.who.int/health-topics/ebola-disease/outbreak-drc-26",
+   "overdue": false
+  },
   {
    "id": "P021",
    "made_date": "2026-07-27",
