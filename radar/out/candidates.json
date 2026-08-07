@@ -1,88 +1,90 @@
 {
- "generated": "2026-08-07T15:30:57+03:00",
- "slot": "midday",
- "window_start": 1786075200,
- "observations_in_window": 552,
- "deduped_against": 41,
+ "generated": "2026-08-07T19:41:12+03:00",
+ "slot": "evening",
+ "window_start": 1786096800,
+ "observations_in_window": 217,
+ "deduped_against": 43,
  "candidates": [
   {
-   "score": 112.8,
+   "score": 112.5,
    "components": {
     "tier": 40,
-    "category": 32,
-    "lead": 12.0,
-    "relevance": 8,
-    "freshness": 14.8,
-    "corroborated": 10,
-    "page_change": -4
+    "category": 24,
+    "lead": 4.8,
+    "relevance": 12,
+    "freshness": 19.7,
+    "undated": -6,
+    "shock": 18
    },
    "keywords": [
-    "fee"
+    "outbreak"
    ],
-   "shock_terms": [],
+   "shock_terms": [
+    "outbreak"
+   ],
    "dedupe_match": null,
-   "dedupe_similarity": 0.14,
-   "id": "68b1ed85a2f3",
-   "title": "[page changed] Federal Register \u2014 CDC notices",
-   "url": "https://www.federalregister.gov/api/v1/documents.rss?conditions%5Bagencies%5D%5B%5D=centers-for-disease-control-and-prevention&order=newest",
-   "summary": "Federal Register Documents published on or after 07/08/2026 and from Centers for Disease Control and Prevention https://www.federalregister.gov/api/v1/documents.rss?conditions%5Bagencies%5D%5B%5D=centers-for-disease-control-and-prevention&order=newest Fri, 07 Aug 2026 04:00:00 GMT The documents in this feed originate from FederalRegister.gov which displays an unofficial web version of the daily Fe",
-   "kind": "page-change",
-   "source": "Federal Register \u2014 CDC notices",
-   "source_id": "us-fedreg-cdc",
+   "dedupe_similarity": 0.2,
+   "id": "c1f5599d74c9",
+   "title": "Bundibugyo Virus Disease Outbreak | Situation Report, Issue No. 79 \u2013 August 4, 2026 SitRep",
+   "url": "https://africacdc.org/download/bundibugyo-virus-disease-outbreak-situation-report-issue-no-79-august-4-2026",
+   "summary": "",
+   "kind": "item",
+   "source": "Africa CDC downloads (sit reps & EIW)",
+   "source_id": "africacdc-downloads",
    "tier": 1,
    "country": "REG",
-   "category": "advisory",
+   "category": "health",
    "segments": [
     "city",
-    "bush"
+    "bush",
+    "beach"
    ],
-   "first_seen": "2026-08-07T11:00+03:00",
-   "published": "2026-08-07",
-   "verdict": "OPEN THIS \u2014 tier-1 advisory page moved; content not auto-parsed, read it manually"
+   "first_seen": "2026-08-07T19:38+03:00",
+   "published": null,
+   "verdict": "LEAD CANDIDATE \u2014 tier-1 shock language"
   },
   {
-   "score": 109.1,
-   "components": {
-    "tier": 40,
-    "category": 32,
-    "lead": 12.0,
-    "relevance": 8,
-    "freshness": 11.1,
-    "corroborated": 10,
-    "page_change": -4
-   },
-   "keywords": [
-    "fee"
-   ],
-   "shock_terms": [],
-   "dedupe_match": null,
-   "dedupe_similarity": 0.14,
-   "id": "bb83bdc6a86a",
-   "title": "[page changed] Federal Register \u2014 CDC notices",
-   "url": "https://www.federalregister.gov/api/v1/documents.rss?conditions%5Bagencies%5D%5B%5D=centers-for-disease-control-and-prevention&order=newest",
-   "summary": "Federal Register Documents published on or after 07/08/2026 and from Centers for Disease Control and Prevention https://www.federalregister.gov/api/v1/documents.rss?conditions%5Bagencies%5D%5B%5D=centers-for-disease-control-and-prevention&order=newest Thu, 06 Aug 2026 04:00:00 GMT The documents in this feed originate from FederalRegister.gov which displays an unofficial web version of the daily Fe",
-   "kind": "page-change",
-   "source": "Federal Register \u2014 CDC notices",
-   "source_id": "us-fedreg-cdc",
-   "tier": 1,
-   "country": "REG",
-   "category": "advisory",
-   "segments": [
-    "city",
-    "bush"
-   ],
-   "first_seen": "2026-08-07T07:35+03:00",
-   "published": "2026-08-07",
-   "verdict": "OPEN THIS \u2014 tier-1 advisory page moved; content not auto-parsed, read it manually"
-  },
-  {
-   "score": 64.7,
+   "score": 65.3,
    "components": {
     "tier": 40,
     "category": 12,
     "lead": 3.6,
     "relevance": 0,
-    "freshness": 19.1,
+    "freshness": 19.7,
+    "undated": -6,
+    "page_change": -4
+   },
+   "keywords": [],
+   "shock_terms": [],
+   "dedupe_match": null,
+   "dedupe_similarity": 0.0,
+   "id": "9def841bdf1e",
+   "title": "[page changed] Airlink news",
+   "url": "https://www.flyairlink.com/",
+   "summary": "Request unsuccessful. Incapsula incident ID: 6521000690078015559-283460269936021840",
+   "kind": "page-change",
+   "source": "Airlink news",
+   "source_id": "air-airlink",
+   "tier": 1,
+   "country": "REG",
+   "category": "airline",
+   "segments": [
+    "city",
+    "bush",
+    "beach"
+   ],
+   "first_seen": "2026-08-07T19:37+03:00",
+   "published": null,
+   "verdict": "OPEN THIS \u2014 tier-1 airline page moved; content not auto-parsed, read it manually"
+  },
+  {
+   "score": 60.2,
+   "components": {
+    "tier": 40,
+    "category": 12,
+    "lead": 3.6,
+    "relevance": 0,
+    "freshness": 14.6,
     "undated": -6,
     "page_change": -4
    },
@@ -110,81 +112,13 @@
    "verdict": "OPEN THIS \u2014 tier-1 airline page moved; content not auto-parsed, read it manually"
   },
   {
-   "score": 56.7,
-   "components": {
-    "tier": 40,
-    "category": 12,
-    "lead": 3.6,
-    "relevance": 0,
-    "freshness": 11.1,
-    "undated": -6,
-    "page_change": -4
-   },
-   "keywords": [],
-   "shock_terms": [],
-   "dedupe_match": null,
-   "dedupe_similarity": 0.0,
-   "id": "68980171c7a9",
-   "title": "[page changed] Airlink news",
-   "url": "https://www.flyairlink.com/",
-   "summary": "Request unsuccessful. Incapsula incident ID: 1011000031346511454-1104907670134128883",
-   "kind": "page-change",
-   "source": "Airlink news",
-   "source_id": "air-airlink",
-   "tier": 1,
-   "country": "REG",
-   "category": "airline",
-   "segments": [
-    "city",
-    "bush",
-    "beach"
-   ],
-   "first_seen": "2026-08-07T07:36+03:00",
-   "published": null,
-   "verdict": "OPEN THIS \u2014 tier-1 airline page moved; content not auto-parsed, read it manually"
-  },
-  {
-   "score": 56.7,
-   "components": {
-    "tier": 40,
-    "category": 12,
-    "lead": 3.6,
-    "relevance": 0,
-    "freshness": 11.1,
-    "undated": -6,
-    "page_change": -4
-   },
-   "keywords": [],
-   "shock_terms": [],
-   "dedupe_match": null,
-   "dedupe_similarity": 0.0,
-   "id": "7fcf95ca3ee6",
-   "title": "[page changed] Jambojet media",
-   "url": "https://www.jambojet.com/en/press-release",
-   "summary": "Request unsuccessful. Incapsula incident ID: 1007000061650045602-849367320864162219",
-   "kind": "page-change",
-   "source": "Jambojet media",
-   "source_id": "air-jambojet",
-   "tier": 1,
-   "country": "KE",
-   "category": "airline",
-   "segments": [
-    "city",
-    "bush",
-    "beach"
-   ],
-   "first_seen": "2026-08-07T07:35+03:00",
-   "published": null,
-   "verdict": "OPEN THIS \u2014 tier-1 airline page moved; content not auto-parsed, read it manually"
-  },
-  {
-   "score": 109.1,
+   "score": 104.6,
    "components": {
     "tier": 40,
     "category": 20,
     "lead": 12.0,
     "relevance": 8,
-    "freshness": 19.1,
+    "freshness": 14.6,
     "corroborated": 10
    },
    "keywords": [
@@ -213,122 +147,13 @@
    "verdict": "STRONG \u2014 tier-1, upstream"
   },
   {
-   "score": 104.6,
-   "components": {
-    "tier": 20,
-    "category": 4,
-    "lead": 0.0,
-    "relevance": 36,
-    "freshness": 16.6,
-    "corroborated": 10,
-    "shock": 18
-   },
-   "keywords": [
-    "advisory",
-    "ebola",
-    "travel ban"
-   ],
-   "shock_terms": [
-    "do not travel"
-   ],
-   "dedupe_match": null,
-   "dedupe_similarity": 0.33,
-   "id": "3a80042d822e",
-   "title": "Ebola: US maintains travel ban on Uganda",
-   "url": "https://www.monitor.co.ug/uganda/news/national/ebola-us-maintains-travel-ban-on-uganda-5549478",
-   "summary": "The US government has maintained its strict \u201cDo Not Travel\u201d advisory for Uganda",
-   "kind": "item",
-   "source": "Daily Monitor (Uganda)",
-   "source_id": "np-monitor-ug",
-   "tier": 2,
-   "country": "UG",
-   "category": "press",
-   "segments": [
-    "city",
-    "bush",
-    "beach"
-   ],
-   "first_seen": "2026-08-07T12:37+03:00",
-   "published": "2026-08-07",
-   "verdict": "CONSIDER"
-  },
-  {
-   "score": 103.5,
-   "components": {
-    "tier": 40,
-    "category": 18,
-    "lead": 8.4,
-    "relevance": 16,
-    "freshness": 11.1,
-    "corroborated": 10
-   },
-   "keywords": [
-    "eta",
-    "conservanc"
-   ],
-   "shock_terms": [],
-   "dedupe_match": null,
-   "dedupe_similarity": 0.0,
-   "id": "9b67c187138a",
-   "title": "The Unbearable Weight of Choice: Saving One Endangered Species from Another",
-   "url": "https://kws.go.ke/the-unbearable-weight-of-choice-saving-one-endangered-species-from-another",
-   "summary": "The Ol Pejeta Conservancy Vet Unit successfully captured an adult male lion at Ol Pejeta Dam. The lion was safely darted and loaded onto a capture cage. He is part of a pride that has been predating on rhinos, making this intervention necessary to reduce rhino predation within the Conservancy. The capture of the remaining [...]",
-   "kind": "item",
-   "source": "Kenya Wildlife Service",
-   "source_id": "ke-kws",
-   "tier": 1,
-   "country": "KE",
-   "category": "parks",
-   "segments": [
-    "bush"
-   ],
-   "first_seen": "2026-08-07T07:35+03:00",
-   "published": "2026-08-06",
-   "verdict": "STRONG \u2014 tier-1, upstream"
-  },
-  {
-   "score": 101.1,
+   "score": 94.6,
    "components": {
     "tier": 40,
     "category": 20,
     "lead": 12.0,
     "relevance": 8,
-    "freshness": 11.1,
-    "corroborated": 10
-   },
-   "keywords": [
-    "tax"
-   ],
-   "shock_terms": [],
-   "dedupe_match": null,
-   "dedupe_similarity": 0.2,
-   "id": "ff97a28ca31f",
-   "title": "Tax Appeal Tribunal \u2013 Appeals Division \u2013 Daily Cause List \u2013 06 August 2026 to 06 August 2026",
-   "url": "https://new.kenyalaw.org/akn/ke/doc/cause-list-daily/ketat/2026-08-06/1/eng@2026-08-06",
-   "summary": "Tax Appeal Tribunal \u2013 Appeals Division \u2013 Daily Cause List \u2013 06 August 2026 to 06 August 2026",
-   "kind": "item",
-   "source": "Kenya Gazette (Kenya Law)",
-   "source_id": "ke-gazette",
-   "tier": 1,
-   "country": "KE",
-   "category": "gazette",
-   "segments": [
-    "city",
-    "bush",
-    "beach"
-   ],
-   "first_seen": "2026-08-07T07:35+03:00",
-   "published": "2026-08-06",
-   "verdict": "STRONG \u2014 tier-1, upstream"
-  },
-  {
-   "score": 99.1,
-   "components": {
-    "tier": 40,
-    "category": 20,
-    "lead": 12.0,
-    "relevance": 8,
-    "freshness": 19.1
+    "freshness": 14.6
    },
    "keywords": [
     "gazette"
@@ -356,367 +181,95 @@
    "verdict": "STRONG \u2014 tier-1, upstream"
   },
   {
-   "score": 94.9,
-   "components": {
-    "tier": 40,
-    "category": 9,
-    "lead": 16.8,
-    "relevance": 8,
-    "freshness": 11.1,
-    "corroborated": 10
-   },
-   "keywords": [
-    "hotel",
-    "guest"
-   ],
-   "shock_terms": [],
-   "dedupe_match": null,
-   "dedupe_similarity": 0.0,
-   "id": "89e88dfecb2b",
-   "title": "Hampton by Hilton Introduces Its First Guest-Created Waffle Flavor",
-   "url": "https://stories.hilton.com/releases/hampton-by-hilton-introduces-first-guest-created-waffle-flavor",
-   "summary": "MCLEAN, Va. \u2013 Fresh off the waffle iron: Hampton by Hilton\u2019s Peach Cobbler Waffle, the brand\u2019s first-ever guest-created waffle flavor, is rolling out this month at nearly 2,500 participating hotels across the U.S. and Canada. As the winning recipe in Hampton\u2019s inaugural Guest Waffle Boss competition, this limited-time creation stacks ripe peaches, oat crumble, caramel [\u2026] The post Hampton by Hilto",
-   "kind": "item",
-   "source": "Hilton stories/newsroom",
-   "source_id": "dev-hilton",
-   "tier": 1,
-   "country": "GLOBAL",
-   "category": "hotel-group",
-   "segments": [
-    "city",
-    "bush",
-    "beach"
-   ],
-   "first_seen": "2026-08-07T07:36+03:00",
-   "published": "2026-08-06",
-   "verdict": "STRONG \u2014 tier-1, upstream"
-  },
-  {
-   "score": 94.9,
-   "components": {
-    "tier": 40,
-    "category": 9,
-    "lead": 16.8,
-    "relevance": 8,
-    "freshness": 11.1,
-    "corroborated": 10
-   },
-   "keywords": [
-    "resort",
-    "opening"
-   ],
-   "shock_terms": [],
-   "dedupe_match": null,
-   "dedupe_similarity": 0.0,
-   "id": "19ef18b89a77",
-   "title": "Tapestry Collection by Hilton Debuts in Vietnam with Opening of NHAAN Resort & Spa Hoi An",
-   "url": "https://stories.hilton.com/releases/tapestry-collection-by-hilton-debuts-in-vietnam-with-nhaan-resort-spa-hoi-an",
-   "summary": "HOI AN, Vietnam \u2013 Hilton (NYSE: HLT) has opened NHAAN Resort & Spa Hoi An, Tapestry Collection by Hilton, a tranquil riverside sanctuary in Central Vietnam\u2019s UNESCO World Heritage-listed port town, which is famed for its cobbled streets and winding waterways. The property marks the debut of Tapestry Collection by Hilton in Vietnam, introducing this [\u2026] The post Tapestry Collection by Hilton Debuts",
-   "kind": "item",
-   "source": "Hilton stories/newsroom",
-   "source_id": "dev-hilton",
-   "tier": 1,
-   "country": "GLOBAL",
-   "category": "hotel-group",
-   "segments": [
-    "city",
-    "bush",
-    "beach"
-   ],
-   "first_seen": "2026-08-07T07:36+03:00",
-   "published": "2026-08-06",
-   "verdict": "STRONG \u2014 tier-1, upstream"
-  },
-  {
-   "score": 94.9,
-   "components": {
-    "tier": 40,
-    "category": 9,
-    "lead": 16.8,
-    "relevance": 8,
-    "freshness": 11.1,
-    "corroborated": 10
-   },
-   "keywords": [
-    "hotel",
-    "resort"
-   ],
-   "shock_terms": [],
-   "dedupe_match": null,
-   "dedupe_similarity": 0.2,
-   "id": "9a17518dcc24",
-   "title": "Hilton Hotels & Resorts Ranks No. 1 Most Valuable Hotel Brand for the 11th Consecutive Year According to Brand Finance",
-   "url": "https://stories.hilton.com/awards-recognition/hilton-hotels-resorts-ranks-no-1-most-valuable-hotel-brand-for-11th-consecutive-year",
-   "summary": "Hilton Hotels & Resorts is ranked No. 1 Hotel Brand for Brand Value for the 11th year in a row by Brand Finance, topping the Hotels 50 ranking with a brand value of $19.2 billion, representing a 28% increase from 2025. Eight additional Hilton brands are included, reinforcing the strength of Hilton\u2019s portfolio. Each year, [\u2026] The post Hilton Hotels & Resorts Ranks No. 1 Most Valuable Hotel Brand fo",
-   "kind": "item",
-   "source": "Hilton stories/newsroom",
-   "source_id": "dev-hilton",
-   "tier": 1,
-   "country": "GLOBAL",
-   "category": "hotel-group",
-   "segments": [
-    "city",
-    "bush",
-    "beach"
-   ],
-   "first_seen": "2026-08-07T07:36+03:00",
-   "published": "2026-08-06",
-   "verdict": "STRONG \u2014 tier-1, upstream"
-  },
-  {
-   "score": 94.1,
-   "components": {
-    "tier": 40,
-    "category": 7,
-    "lead": 6.0,
-    "relevance": 20,
-    "freshness": 11.1,
-    "corroborated": 10
-   },
-   "keywords": [
-    "vat",
-    "eta",
-    "investment"
-   ],
-   "shock_terms": [],
-   "dedupe_match": null,
-   "dedupe_similarity": 0.4,
-   "id": "c4f31b88744f",
-   "title": "EAC Secretary General calls for stronger public-private partnership to boost regional competitiveness and intra-EAC trade",
-   "url": "https://www.eac.int/press-releases/157-trade/3574-eac-secretary-general-calls-for-stronger-public-private-partnership-to-boost-regional-competitiveness-and-intra-eac-trade",
-   "summary": "East African Community Headquarters, Arusha, Tanzania, 6th August, 2026: The East African Community (EAC) has reiterated its commitment to strengthening public-private partnerships to unlock the region\u2019s trade and investment potential. The call was made during the EABC CEO Trade and Investment Roundtable held in Dar es Salaam on 5th August, 2026 under the theme \u201cEnhancing Competitiveness in the EA",
-   "kind": "item",
-   "source": "East African Community \u2014 Secretariat news",
-   "source_id": "eac-secretariat",
-   "tier": 1,
-   "country": "Regional",
-   "category": "body",
-   "segments": [
-    "city"
-   ],
-   "first_seen": "2026-08-07T07:36+03:00",
-   "published": "2026-08-06",
-   "verdict": "STRONG \u2014 tier-1, upstream"
-  },
-  {
-   "score": 93.1,
-   "components": {
-    "tier": 40,
-    "category": 20,
-    "lead": 12.0,
-    "relevance": 0,
-    "freshness": 11.1,
-    "corroborated": 10
-   },
-   "keywords": [],
-   "shock_terms": [],
-   "dedupe_match": null,
-   "dedupe_similarity": 0.2,
-   "id": "4024bd076988",
-   "title": "Tongaren Mobile Court \u2013 Weekly Cause List \u2013 10 August 2026 to 14 August 2026",
-   "url": "https://new.kenyalaw.org/akn/ke/doc/cause-list-weekly/kemc/2026-08-10/5/eng@2026-08-10",
-   "summary": "Tongaren Mobile Court \u2013 Weekly Cause List \u2013 10 August 2026 to 14 August 2026",
-   "kind": "item",
-   "source": "Kenya Gazette (Kenya Law)",
-   "source_id": "ke-gazette",
-   "tier": 1,
-   "country": "KE",
-   "category": "gazette",
-   "segments": [
-    "city",
-    "bush",
-    "beach"
-   ],
-   "first_seen": "2026-08-07T07:35+03:00",
-   "published": "2026-08-10",
-   "verdict": "STRONG \u2014 tier-1, upstream"
-  },
-  {
-   "score": 93.1,
-   "components": {
-    "tier": 40,
-    "category": 20,
-    "lead": 12.0,
-    "relevance": 0,
-    "freshness": 11.1,
-    "corroborated": 10
-   },
-   "keywords": [],
-   "shock_terms": [],
-   "dedupe_match": null,
-   "dedupe_similarity": 0.2,
-   "id": "9f1467f2facb",
-   "title": "Environment and Land Court at Narok \u2013 General Notice \u2013 06 August 2026",
-   "url": "https://new.kenyalaw.org/akn/ke/doc/general_notice/keelc/2026-08-06/1/eng@2026-08-06",
-   "summary": "Environment and Land Court at Narok \u2013 General Notice \u2013 06 August 2026",
-   "kind": "item",
-   "source": "Kenya Gazette (Kenya Law)",
-   "source_id": "ke-gazette",
-   "tier": 1,
-   "country": "KE",
-   "category": "gazette",
-   "segments": [
-    "city",
-    "bush",
-    "beach"
-   ],
-   "first_seen": "2026-08-07T07:35+03:00",
-   "published": "2026-08-06",
-   "verdict": "STRONG \u2014 tier-1, upstream"
-  },
-  {
-   "score": 93.1,
-   "components": {
-    "tier": 40,
-    "category": 20,
-    "lead": 12.0,
-    "relevance": 0,
-    "freshness": 11.1,
-    "corroborated": 10
-   },
-   "keywords": [],
-   "shock_terms": [],
-   "dedupe_match": null,
-   "dedupe_similarity": 0.2,
-   "id": "2038143ad56d",
-   "title": "Kimilili Law Courts \u2013 Criminal Division \u2013 Weekly Cause List \u2013 10 August 2026 to 14 August 2026",
-   "url": "https://new.kenyalaw.org/akn/ke/doc/cause-list-weekly/kemc/2026-08-10/6/eng@2026-08-10",
-   "summary": "Kimilili Law Courts \u2013 Criminal Division \u2013 Weekly Cause List \u2013 10 August 2026 to 14 August 2026",
-   "kind": "item",
-   "source": "Kenya Gazette (Kenya Law)",
-   "source_id": "ke-gazette",
-   "tier": 1,
-   "country": "KE",
-   "category": "gazette",
-   "segments": [
-    "city",
-    "bush",
-    "beach"
-   ],
-   "first_seen": "2026-08-07T07:35+03:00",
-   "published": "2026-08-10",
-   "verdict": "STRONG \u2014 tier-1, upstream"
-  },
-  {
-   "score": 93.1,
-   "components": {
-    "tier": 40,
-    "category": 20,
-    "lead": 12.0,
-    "relevance": 0,
-    "freshness": 11.1,
-    "corroborated": 10
-   },
-   "keywords": [],
-   "shock_terms": [],
-   "dedupe_match": null,
-   "dedupe_similarity": 0.2,
-   "id": "1ebc0f5aa187",
-   "title": "Employment and Labour Relations Court at Nairobi \u2013 Judicial Review and Labour Rights Division \u2013 Daily Cause List \u2013 07 August 2026",
-   "url": "https://new.kenyalaw.org/akn/ke/doc/cause-list-daily/keelrc/2026-08-07/2/eng@2026-08-07",
-   "summary": "Employment and Labour Relations Court at Nairobi \u2013 Judicial Review and Labour Rights Division \u2013 Daily Cause List \u2013 07 August 2026",
-   "kind": "item",
-   "source": "Kenya Gazette (Kenya Law)",
-   "source_id": "ke-gazette",
-   "tier": 1,
-   "country": "KE",
-   "category": "gazette",
-   "segments": [
-    "city",
-    "bush",
-    "beach"
-   ],
-   "first_seen": "2026-08-07T07:35+03:00",
-   "published": "2026-08-07",
-   "verdict": "STRONG \u2014 tier-1, upstream"
-  },
-  {
-   "score": 93.1,
-   "components": {
-    "tier": 40,
-    "category": 20,
-    "lead": 12.0,
-    "relevance": 0,
-    "freshness": 11.1,
-    "corroborated": 10
-   },
-   "keywords": [],
-   "shock_terms": [],
-   "dedupe_match": null,
-   "dedupe_similarity": 0.2,
-   "id": "8b5462a74c62",
-   "title": "Business Premises Rent Tribunal \u2013 Daily Cause List \u2013 06 August 2026",
-   "url": "https://new.kenyalaw.org/akn/ke/doc/cause-list-daily/kebprt/2026-08-06/1/eng@2026-08-06",
-   "summary": "Business Premises Rent Tribunal \u2013 Daily Cause List \u2013 06 August 2026",
-   "kind": "item",
-   "source": "Kenya Gazette (Kenya Law)",
-   "source_id": "ke-gazette",
-   "tier": 1,
-   "country": "KE",
-   "category": "gazette",
-   "segments": [
-    "city",
-    "bush",
-    "beach"
-   ],
-   "first_seen": "2026-08-07T07:35+03:00",
-   "published": "2026-08-06",
-   "verdict": "STRONG \u2014 tier-1, upstream"
-  },
-  {
-   "score": 93.1,
-   "components": {
-    "tier": 40,
-    "category": 20,
-    "lead": 12.0,
-    "relevance": 0,
-    "freshness": 11.1,
-    "corroborated": 10
-   },
-   "keywords": [],
-   "shock_terms": [],
-   "dedupe_match": null,
-   "dedupe_similarity": 0.25,
-   "id": "cc9f8358e02e",
-   "title": "Sports Disputes Tribunal \u2013 Weekly Cause List \u2013 11 August 2026 to 13 August 2026",
-   "url": "https://new.kenyalaw.org/akn/ke/doc/cause-list-weekly/kesdt/2026-08-11/1/eng@2026-08-11",
-   "summary": "Sports Disputes Tribunal \u2013 Weekly Cause List \u2013 11 August 2026 to 13 August 2026",
-   "kind": "item",
-   "source": "Kenya Gazette (Kenya Law)",
-   "source_id": "ke-gazette",
-   "tier": 1,
-   "country": "KE",
-   "category": "gazette",
-   "segments": [
-    "city",
-    "bush",
-    "beach"
-   ],
-   "first_seen": "2026-08-07T07:35+03:00",
-   "published": "2026-08-11",
-   "verdict": "STRONG \u2014 tier-1, upstream"
-  },
-  {
-   "score": 92.9,
+   "score": 93.5,
    "components": {
     "tier": 40,
     "category": 15,
     "lead": 16.8,
-    "relevance": 16,
-    "freshness": 11.1,
+    "relevance": 8,
+    "freshness": 19.7,
     "undated": -6
    },
    "keywords": [
-    "tax",
-    "vat"
+    "tax"
    ],
    "shock_terms": [],
    "dedupe_match": null,
-   "dedupe_similarity": 0.2,
-   "id": "d53ac62d290d",
-   "title": "APPLICATIONS FOR PRIVATE AND CLASS RULING THROUGH IDRAS",
-   "url": "https://www.tra.go.tz/images/uploads/public_notice/english/PUBLIC_NOTICE_RULLING_%281%29.pdf",
-   "summary": "PUBLIC NOTICE APPLICATIONS FOR PRIVATE AND CLASS RULING THROUGH IDRAS Dar es Salaam, 3rd August, 2026 For further information, please visit your nearest TRA Office or use the following contacts to communicate with us: - Website: www.tra.go.tz Toll Free: 0800 750 075 or 0800 780 078 or 0800 110016 WhatsApp: 0744 23 33 33 E-mail: services@tra.go.tz Issued by: TAXPAYER EDUCATION AND COMMUNICATION DEP",
+   "dedupe_similarity": 0.25,
+   "id": "2dda749b4c72",
+   "title": "TRA ENCOURAGES NEW BUSINESS OWNERS TO REGISTER FOR TIN AND ACCESS ONE-YEAR TAX EXEMPTION 07 August, 2026 The Commissioner General of the Tanzania Revenue Authority (TRA), Mr. Yusuph Juma Mwenda, has called on new business\u2026 -->",
+   "url": "https://www.tra.go.tz/news/tra-encourages-new-business-owners-to-register-for-tin-and-access-one-year-tax-exemption",
+   "summary": "",
+   "kind": "item",
+   "source": "Tanzania Revenue Authority",
+   "source_id": "tz-tra",
+   "tier": 1,
+   "country": "TZ",
+   "category": "fiscal",
+   "segments": [
+    "city",
+    "bush",
+    "beach"
+   ],
+   "first_seen": "2026-08-07T19:37+03:00",
+   "published": null,
+   "verdict": "STRONG \u2014 tier-1, upstream"
+  },
+  {
+   "score": 93.5,
+   "components": {
+    "tier": 40,
+    "category": 15,
+    "lead": 16.8,
+    "relevance": 8,
+    "freshness": 19.7,
+    "undated": -6
+   },
+   "keywords": [
+    "tax"
+   ],
+   "shock_terms": [],
+   "dedupe_match": null,
+   "dedupe_similarity": 0.0,
+   "id": "5fd0bac7cb79",
+   "title": "TRA STRENGTHEN COOPERATION WITH IMF ON TAX ADMINISTRATION",
+   "url": "https://www.tra.go.tz/news/tra-strengthen-cooperation-with-imf-on-tax-administration",
+   "summary": "",
+   "kind": "item",
+   "source": "Tanzania Revenue Authority",
+   "source_id": "tz-tra",
+   "tier": 1,
+   "country": "TZ",
+   "category": "fiscal",
+   "segments": [
+    "city",
+    "bush",
+    "beach"
+   ],
+   "first_seen": "2026-08-07T19:37+03:00",
+   "published": null,
+   "verdict": "STRONG \u2014 tier-1, upstream"
+  },
+  {
+   "score": 93.5,
+   "components": {
+    "tier": 40,
+    "category": 15,
+    "lead": 16.8,
+    "relevance": 8,
+    "freshness": 19.7,
+    "undated": -6
+   },
+   "keywords": [
+    "tax"
+   ],
+   "shock_terms": [],
+   "dedupe_match": null,
+   "dedupe_similarity": 0.25,
+   "id": "f3570e7dd0c7",
+   "title": "Notice to the Public on Chargeability of Value Added Tax in the Course of Supplying International Transport Services",
+   "url": "https://www.tra.go.tz/images/uploads/public_notice/english/Public_Notice_on_VAT.pdf",
+   "summary": "\u0002\u008a \u009d}\u0015\u00c8 \u00dfd|\u00f6\u00a3 \u00ed7\u00f8R\u009f \u00df \u00afj> \u00bf\u00c2\u0080\u00b9\u00d7Q\\\u0088\u00f0\u00bd\u00f0?~\u00d7\u00fe\u00fao\u00f0\u00a3\u00fe\u0011\u008b\u00ef\u00efZ~m\u00fe\u0014\u00c2\u00feG]Er?\u00f0\u008b\u00de\u00ff\u0000~\u00d7\u00fe\u00fao\u00f0 \u00f8b\u00f8\u008f\u00bfi\u00f9\u00b7\u00f8P\u0017\u00f2:\u00ea \u00c7Z\u00e4\u00bf\u00e1\u0019\u00be\u00fe\u00fd\u00a7\u00e6\u00df\u00e1G\u00fc\"\u00f7\u00a3\u00a4\u0096\u00a7\u00ea[\u00fc\u00fbU\u00b8\u0019\u00f3\u00e2\u00ff\u0000\u00be\u00c5s\u009f\u00f0\u008bLN~\u00d1\u0017 \u00ec h>\u0016\u0098\u00e3\u00fd\" \u00c23\u00fe4\b\u00e8\u00be\u00d7m\u00ff\u0000?\u0011\u007f\u00dfb\u0090\u00de\u00da\u008e\u00b70\u00ff\u0000\u00df\u00c1X \u00e1\u0089\u0097\u00ee\u00ddF\u000f\u00b4g\u00fci\u007f\u00e1\u001a\u009c\u008f\u009a\u00ee?\u00a6\u00c3\u00fe4\u0001\u00bb\u00f6\u00eb?\u00f9\u00fa\u0083\u00fe\u00fe _\u00b6\u00da\u007f\u00cf\u00d4?\u00f7\u00f0V\u0007\u00fc\"\u00ce\u007f\u00e5\u00e6/\u00fb\u00f5\u00ff\u0000\u00d7 xY\u00fb\u00dc\u00c5\u00ff\u0000~\u00bf\u00fa\u00f4\u0005\u00cd\u00e6\u00bf\u00b3_\u00bdw\u0000\u00fa\u00c8\u00a2\u008025\u00c3\u00fb\u00dbu\u00c1\u00e8\u00c7\u00f9V\u0095\u00a8\u00dbk\u0010\u00e3\u00ee\u008e\u0095\u009b\u00ae Io\u00ee\u001b\u00faV\u0095\u00a1\u00cd\u00a4_\u00ee\u008ab%\u00a2\u008a\u00aa'X\u00b0\u0017-n\u00d7 \u0092\u0000\u00a2\u008a\u0082\u00ee\u00f2\u00de\u00ca/2\u00e6UA\u00d8 \u00a7\u00e8;\u00d0\u0004\u00f5\u0089\u00aa\u00eb\u009eK\u00b5\u00bd\u0088\u000f*\u00f0\u00f2 \u00ba\u0087\u00fa\u009a\u00cd\u00d45k\u008b\u00f6\u00a2\u008a\u0000Gu\u008d\u0019\u00dd\u0082\u00aa\u008c\u0092N\u0000\u0015V\u00d3R\u00b3\u00bcr\u0096\u00f7 \u00ec?\u0087\u0090\u007f#Qk\u00b1\u00c9.\u0095*\u00c63\u008c3\u000fU\u0007&\u00b9\u009bH\u00a4\u0096\u00f6\u00dcB",
    "kind": "doc",
    "source": "Tanzania Revenue Authority",
    "source_id": "tz-tra",
@@ -728,19 +281,410 @@
     "bush",
     "beach"
    ],
-   "first_seen": "2026-08-07T07:36+03:00",
+   "first_seen": "2026-08-07T19:37+03:00",
    "published": null,
    "verdict": "STRONG \u2014 tier-1, upstream"
   },
   {
-   "score": 92.6,
+   "score": 88.1,
+   "components": {
+    "tier": 20,
+    "category": 14,
+    "lead": 8.4,
+    "relevance": 16,
+    "freshness": 19.7,
+    "corroborated": 10
+   },
+   "keywords": [
+    "route",
+    "airline",
+    "flight"
+   ],
+   "shock_terms": [],
+   "dedupe_match": null,
+   "dedupe_similarity": 0.14,
+   "id": "63c784737d10",
+   "title": "Gulf Air Resumes Kuala Lumpur Service From late-Sep 2026",
+   "url": "https://www.aeroroutes.com/eng/260807-gfsep26kul",
+   "summary": "Published at 0700PDT / 1400GMT 07AUG26 Gulf Air from late-September 2026 schedules service to Malaysia, with Bahrain \u2013 Kuala Lumpur flights planned. The airline will serve this route with 787-9 aircraft from 29SEP26 to 23OCT26 on nonstop basis, up to 5 times weekly, switching to 3 weekly from 08OCT26. From 25OCT26, service to Malaysia will be operating as Bahrain \u2013 Singapore \u2013 Kuala Lumpur on dail",
+   "kind": "item",
+   "source": "AeroRoutes schedule filings",
+   "source_id": "aeroroutes",
+   "tier": 2,
+   "country": "GLOBAL",
+   "category": "aviation-tracker",
+   "segments": [
+    "city",
+    "bush",
+    "beach"
+   ],
+   "first_seen": "2026-08-07T19:38+03:00",
+   "published": "2026-08-07",
+   "verdict": "CONSIDER"
+  },
+  {
+   "score": 85.7,
+   "components": {
+    "tier": 5,
+    "category": 5,
+    "lead": 0.0,
+    "relevance": 28,
+    "freshness": 19.7,
+    "corroborated": 10,
+    "shock": 18
+   },
+   "keywords": [
+    "outbreak",
+    "ebola",
+    "tourism"
+   ],
+   "shock_terms": [
+    "outbreak"
+   ],
+   "dedupe_match": null,
+   "dedupe_similarity": 0.33,
+   "id": "c074555d8266",
+   "title": "Ebola, Travel Warnings and Tourism: Is the World Punishing the Entire DRC for a Crisis in the East?",
+   "url": "https://eturbonews.com/drc-ebola-travel-warnings-tourism-resilience",
+   "summary": "WHO and Africa CDC advise against unnecessary travel and trade restrictions despite DRC\u2019s Ebola outbreak. But does that include tourism? As global travel warnings collide with public-health guidance, eTurboNews examines who is still visiting Congo, the risks, tourism potential, and why resilience demands smarter solutions than simply closing destinations. SOURCE: Ebola, Travel Warnings and Tourism",
+   "kind": "item",
+   "source": "eTurboNews Africa",
+   "source_id": "tp-eturbonews",
+   "tier": 3,
+   "country": "GLOBAL",
+   "category": "trade",
+   "segments": [
+    "city",
+    "bush",
+    "beach"
+   ],
+   "first_seen": "2026-08-07T19:38+03:00",
+   "published": "2026-08-07",
+   "verdict": "CONSIDER"
+  },
+  {
+   "score": 84.1,
+   "components": {
+    "tier": 20,
+    "category": 14,
+    "lead": 8.4,
+    "relevance": 12,
+    "freshness": 19.7,
+    "corroborated": 10
+   },
+   "keywords": [
+    "route",
+    "airline"
+   ],
+   "shock_terms": [],
+   "dedupe_match": null,
+   "dedupe_similarity": 0.2,
+   "id": "4587b80387fb",
+   "title": "SIA Extends Adelaide Service Increase to March 2027",
+   "url": "https://www.aeroroutes.com/eng/260807-sqnw26adl",
+   "summary": "Published at 0900PDT / 1600GMT 07AUG26 Singapore Airlines (SIA) in recent schedule update filed expanded frequencies on Singapore \u2013 Adelaide for the month of February and March 2027. Previously SIA planned to increase service from 10 to 12 weekly between 03DEC26 and 03FEB27, it has since extended to 27MAR27. Boeing 787-10 operates this route. SQ277 SIN0805 \u2013 1720ADL 787 x23 SQ279 SIN2340 \u2013 0850+1A",
+   "kind": "item",
+   "source": "AeroRoutes schedule filings",
+   "source_id": "aeroroutes",
+   "tier": 2,
+   "country": "GLOBAL",
+   "category": "aviation-tracker",
+   "segments": [
+    "city",
+    "bush",
+    "beach"
+   ],
+   "first_seen": "2026-08-07T19:38+03:00",
+   "published": "2026-08-07",
+   "verdict": "CONSIDER"
+  },
+  {
+   "score": 83.7,
+   "components": {
+    "tier": 20,
+    "category": 4,
+    "lead": 0.0,
+    "relevance": 28,
+    "freshness": 19.7,
+    "undated": -6,
+    "shock": 18
+   },
+   "keywords": [
+    "evacuat",
+    "cancel",
+    "flight"
+   ],
+   "shock_terms": [
+    "evacuat"
+   ],
+   "dedupe_match": null,
+   "dedupe_similarity": 0.25,
+   "id": "640666d59561",
+   "title": "international Japan orders evacuations as Typhoon Dolphin approaches, cancels 500 flights 13 hours ago - 2 min read",
+   "url": "https://www.thecitizen.co.tz/tanzania/news/international/japan-orders-evacuations-as-typhoon-dolphin-approaches-cancels-500-flights-5549418",
+   "summary": "",
+   "kind": "item",
+   "source": "The Citizen (Tanzania)",
+   "source_id": "np-citizen-tz",
+   "tier": 2,
+   "country": "TZ",
+   "category": "press",
+   "segments": [
+    "city",
+    "bush",
+    "beach"
+   ],
+   "first_seen": "2026-08-07T19:38+03:00",
+   "published": null,
+   "verdict": "CONSIDER"
+  },
+  {
+   "score": 80.5,
+   "components": {
+    "tier": 40,
+    "category": 10,
+    "lead": 16.8,
+    "relevance": 0,
+    "freshness": 19.7,
+    "undated": -6
+   },
+   "keywords": [],
+   "shock_terms": [],
+   "dedupe_match": null,
+   "dedupe_similarity": 0.0,
+   "id": "985f9c636f7d",
+   "title": "\ud835\udc0d\ud835\udc00\ud835\udc13\ud835\udc08\ud835\udc0e\ud835\udc0d\ud835\udc00\ud835\udc0b \ud835\udc00\ud835\udc12\ud835\udc12\ud835\udc04\ud835\udc0c\ud835\udc01\ud835\udc0b\ud835\udc18 \ud835\udc00\ud835\udc0f\ud835\udc0f\ud835\udc11\ud835\udc0e\ud835\udc15\ud835\udc04\ud835\udc12 \ud835\udc02\ud835\udc0e\ud835\udc14\ud835\udc0d\ud835\udc13\ud835\udc18 \ud835\udc05\ud835\udc14\ud835\udc0d\ud835\udc03\ud835\udc08\ud835\udc0d\ud835\udc06 \ud835\udc01\ud835\udc08\ud835\udc0b\ud835\udc0b \ud835\udc13\ud835\udc0e \ud835\udc12\ud835\udc13\ud835\udc11\ud835\udc04\ud835\udc0d\ud835\udc06\ud835\udc13\ud835\udc07\ud835\udc04\ud835\udc0d \ud835\udc02\ud835\udc0e\ud835\udc0c\ud835\udc0c\ud835\udc14\ud835\udc0d\ud835\udc08\ud835\udc13\ud835\udc18 \ud835\udc07\ud835\udc04\ud835\udc00\ud835\udc0b\ud835\udc13\ud835\udc07\ud835\udc02\ud835\udc00\ud835\udc11\ud835\udc04 \ud835\udc00\ud835\udc0d\ud835\udc03 \ud835\udc03\ud835\udc04\ud835\udc15\ud835\udc0e\ud835\udc0b\ud835\udc14\ud835\udc13\ud835\udc08\ud835\udc0e\ud835\udc0d",
+   "url": "https://www.parliament.go.ke/index.php/node/26215",
+   "summary": "",
+   "kind": "item",
+   "source": "Parliament of Kenya \u2014 bills & papers",
+   "source_id": "ke-parliament",
+   "tier": 1,
+   "country": "KE",
+   "category": "legislature",
+   "segments": [
+    "city",
+    "bush",
+    "beach"
+   ],
+   "first_seen": "2026-08-07T19:37+03:00",
+   "published": null,
+   "verdict": "CONSIDER"
+  },
+  {
+   "score": 80.5,
+   "components": {
+    "tier": 40,
+    "category": 10,
+    "lead": 16.8,
+    "relevance": 0,
+    "freshness": 19.7,
+    "undated": -6
+   },
+   "keywords": [],
+   "shock_terms": [],
+   "dedupe_match": null,
+   "dedupe_similarity": 0.29,
+   "id": "a77c4c987ec5",
+   "title": "The Hansard - Tuesday, 4 August 2026",
+   "url": "https://www.parliament.go.ke/sites/default/files/2026-08/The%20Hansard%20-%20Tuesday%2C%204%20August%202026.pdf",
+   "summary": "en-GB en-GBREPUBLIC OF KENYA en-GB en-GB en-GB en-GB en-GB en-GBTHIRTEENTH PARLIAMENT en-GB en-GB en-GB en-GB en-GBNATIONAL ASSEMBLY en-GB en-GB en-GB en-GB en-GB en-GBTHE HANSARD en-GB en-GB en-GB en-GB en-GB en-GB4th August 2026 Vol. V No. 67 en-GB 4th August 2026 National Assembly Debates 1 Disclaimer: The electronic version of the Official Hansard Report is for information purposes only. A cer",
+   "kind": "doc",
+   "source": "Parliament of Kenya \u2014 bills & papers",
+   "source_id": "ke-parliament",
+   "tier": 1,
+   "country": "KE",
+   "category": "legislature",
+   "segments": [
+    "city",
+    "bush",
+    "beach"
+   ],
+   "first_seen": "2026-08-07T19:37+03:00",
+   "published": null,
+   "verdict": "CONSIDER"
+  },
+  {
+   "score": 80.5,
+   "components": {
+    "tier": 40,
+    "category": 10,
+    "lead": 16.8,
+    "relevance": 0,
+    "freshness": 19.7,
+    "undated": -6
+   },
+   "keywords": [],
+   "shock_terms": [],
+   "dedupe_match": null,
+   "dedupe_similarity": 0.29,
+   "id": "f385878c93ee",
+   "title": "The Hansard - Wednesday, 5 August 2026 - Morning Sitting",
+   "url": "https://www.parliament.go.ke/sites/default/files/2026-08/The%20Hansard%20-%20Wednesday%2C%205%20August%202026%20%28A%29.pdf",
+   "summary": "en-GB en-GBREPUBLIC OF KENYA en-GB en-GB en-GB en-GB en-GB en-GBTHIRTEENTH PARLIAMENT en-GB en-GB en-GB en-GB en-GBNATIONAL ASSEMBLY en-GB en-GB en-GB en-GB en-GB en-GBTHE HANSARD en-GB en-GB en-GB en-GB en-GB en-GB5th August 2026 Vol. V No. 68 en-GB 5th August 2026 National Assembly Debates 1 Disclaimer: The electronic version of the Official Hansard Report is for information purposes only. A cer",
+   "kind": "doc",
+   "source": "Parliament of Kenya \u2014 bills & papers",
+   "source_id": "ke-parliament",
+   "tier": 1,
+   "country": "KE",
+   "category": "legislature",
+   "segments": [
+    "city",
+    "bush",
+    "beach"
+   ],
+   "first_seen": "2026-08-07T19:37+03:00",
+   "published": null,
+   "verdict": "CONSIDER"
+  },
+  {
+   "score": 80.1,
+   "components": {
+    "tier": 20,
+    "category": 14,
+    "lead": 8.4,
+    "relevance": 8,
+    "freshness": 19.7,
+    "corroborated": 10
+   },
+   "keywords": [
+    "route"
+   ],
+   "shock_terms": [],
+   "dedupe_match": null,
+   "dedupe_similarity": 0.14,
+   "id": "ef02f8cb9ec4",
+   "title": "CAA Congo Moves Kinshasa \u2013 Luanda Launch to late-Aug 2026",
+   "url": "https://www.aeroroutes.com/eng/260807-buaug26nbj",
+   "summary": "Published at 0800PDT / 1500GMT 07AUG26 CAA Congo recently revised planned service launch to Angola, as the carrier now schedules Kinshasa \u2013 Luanda launch on 21AUG26, instead of 31JUL26. The carrier\u2019s Airbus A320 aircraft serves this route twice weekly. BU021 FIH1700 \u2013 1755NBJ 320 25 BU022 NBJ1855 \u2013 1955FIH 320 25",
+   "kind": "item",
+   "source": "AeroRoutes schedule filings",
+   "source_id": "aeroroutes",
+   "tier": 2,
+   "country": "GLOBAL",
+   "category": "aviation-tracker",
+   "segments": [
+    "city",
+    "bush",
+    "beach"
+   ],
+   "first_seen": "2026-08-07T19:38+03:00",
+   "published": "2026-08-07",
+   "verdict": "CONSIDER"
+  },
+  {
+   "score": 80.1,
+   "components": {
+    "tier": 40,
+    "category": 24,
+    "lead": 2.4,
+    "relevance": 0,
+    "freshness": 19.7,
+    "undated": -6
+   },
+   "keywords": [],
+   "shock_terms": [],
+   "dedupe_match": null,
+   "dedupe_similarity": 0.2,
+   "id": "b93397dfc5e6",
+   "title": "Communicable disease threats report, 1 - 7 August 2026, week 32",
+   "url": "https://www.ecdc.europa.eu/en/publications-data/communicable-disease-threats-report-1-7-august-2026-week-32",
+   "summary": "",
+   "kind": "item",
+   "source": "ECDC \u2014 DRC/Uganda Ebola outbreak page",
+   "source_id": "ecdc-ebola",
+   "tier": 1,
+   "country": "GLOBAL",
+   "category": "health",
+   "segments": [
+    "city",
+    "bush"
+   ],
+   "first_seen": "2026-08-07T19:38+03:00",
+   "published": null,
+   "verdict": "CONSIDER"
+  },
+  {
+   "score": 80.1,
+   "components": {
+    "tier": 40,
+    "category": 24,
+    "lead": 2.4,
+    "relevance": 0,
+    "freshness": 19.7,
+    "undated": -6
+   },
+   "keywords": [],
+   "shock_terms": [],
+   "dedupe_match": null,
+   "dedupe_similarity": 0.29,
+   "id": "0e187fdd9542",
+   "title": "Communicable disease threats report, 25 - 31 July 2026, week 31",
+   "url": "https://www.ecdc.europa.eu/en/publications-data/communicable-disease-threats-report-25-31-july-2026-week-31",
+   "summary": "",
+   "kind": "item",
+   "source": "ECDC \u2014 DRC/Uganda Ebola outbreak page",
+   "source_id": "ecdc-ebola",
+   "tier": 1,
+   "country": "GLOBAL",
+   "category": "health",
+   "segments": [
+    "city",
+    "bush"
+   ],
+   "first_seen": "2026-08-07T19:38+03:00",
+   "published": null,
+   "verdict": "CONSIDER"
+  },
+  {
+   "score": 79.7,
    "components": {
     "tier": 20,
     "category": 4,
     "lead": 0.0,
     "relevance": 24,
-    "freshness": 16.6,
-    "corroborated": 10,
+    "freshness": 19.7,
+    "undated": -6,
+    "shock": 18
+   },
+   "keywords": [
+    "outbreak",
+    "ebola"
+   ],
+   "shock_terms": [
+    "outbreak",
+    "confirmed case"
+   ],
+   "dedupe_match": null,
+   "dedupe_similarity": 0.33,
+   "id": "5b35e6ebf321",
+   "title": "Africa CDC says will use Zaire Ebola vaccine in current outbreak The virus, which spreads through contact with bodily fluids and causes haemorrhagic fever, has killed over 1,800 people out of the nearly 4,000 confirmed cases in the Democratic Republic of Congo since authorities officially declared an outbreak on May 15. News",
+   "url": "https://www.newvision.co.ug/category/news/africa-cdc-says-will-use-zaire-ebola-vaccine-NV_238417_082026",
+   "summary": "",
+   "kind": "item",
+   "source": "New Vision (Uganda)",
+   "source_id": "np-newvision-ug",
+   "tier": 2,
+   "country": "UG",
+   "category": "press",
+   "segments": [
+    "city",
+    "bush",
+    "beach"
+   ],
+   "first_seen": "2026-08-07T19:38+03:00",
+   "published": null,
+   "verdict": "CONSIDER"
+  },
+  {
+   "score": 79.7,
+   "components": {
+    "tier": 20,
+    "category": 4,
+    "lead": 0.0,
+    "relevance": 24,
+    "freshness": 19.7,
+    "undated": -6,
     "shock": 18
    },
    "keywords": [
@@ -752,13 +696,13 @@
    ],
    "dedupe_match": null,
    "dedupe_similarity": 0.33,
-   "id": "22d119b7dd49",
-   "title": "Why Congo's Ebola outbreak is spreading faster than previous epidemics",
-   "url": "https://www.monitor.co.ug/uganda/news/why-congo-s-ebola-outbreak-is-spreading-faster-than-previous-epidemics-5549406",
-   "summary": "Officials say current epidemic is spreading five times faster.",
+   "id": "bf8adfafefea",
+   "title": "Africa CDC Africa CDC says will use Zaire Ebola vaccine in current outbreak \u00b7 1 min read",
+   "url": "https://www.newvision.co.ug/category/health/africa-cdc-says-will-use-zaire-ebola-vaccine-NV_238417_082026",
+   "summary": "",
    "kind": "item",
-   "source": "Daily Monitor (Uganda)",
-   "source_id": "np-monitor-ug",
+   "source": "New Vision (Uganda)",
+   "source_id": "np-newvision-ug",
    "tier": 2,
    "country": "UG",
    "category": "press",
@@ -767,165 +711,18 @@
     "bush",
     "beach"
    ],
-   "first_seen": "2026-08-07T12:37+03:00",
-   "published": "2026-08-07",
+   "first_seen": "2026-08-07T19:38+03:00",
+   "published": null,
    "verdict": "CONSIDER"
   },
   {
-   "score": 91.1,
-   "components": {
-    "tier": 40,
-    "category": 20,
-    "lead": 12.0,
-    "relevance": 8,
-    "freshness": 11.1
-   },
-   "keywords": [
-    "tax"
-   ],
-   "shock_terms": [],
-   "dedupe_match": null,
-   "dedupe_similarity": 0.2,
-   "id": "dbaa30863d99",
-   "title": "Tax Appeal Tribunal \u2013 Daily Cause List \u2013 05 August 2026",
-   "url": "https://new.kenyalaw.org/akn/ke/doc/cause-list-daily/ketat/2026-08-05/1/eng@2026-08-05",
-   "summary": "Tax Appeal Tribunal \u2013 Daily Cause List \u2013 05 August 2026",
-   "kind": "item",
-   "source": "Kenya Gazette (Kenya Law)",
-   "source_id": "ke-gazette",
-   "tier": 1,
-   "country": "KE",
-   "category": "gazette",
-   "segments": [
-    "city",
-    "bush",
-    "beach"
-   ],
-   "first_seen": "2026-08-07T07:35+03:00",
-   "published": "2026-08-05",
-   "verdict": "STRONG \u2014 tier-1, upstream"
-  },
-  {
-   "score": 87.5,
-   "components": {
-    "tier": 20,
-    "category": 14,
-    "lead": 8.4,
-    "relevance": 24,
-    "freshness": 11.1,
-    "corroborated": 10
-   },
-   "keywords": [
-    "vat",
-    "route",
-    "airline",
-    "flight"
-   ],
-   "shock_terms": [],
-   "dedupe_match": null,
-   "dedupe_similarity": 0.14,
-   "id": "6c6bbb87984e",
-   "title": "Riyadh Air Schedules Bangkok Sep 2026 Launch",
-   "url": "https://www.aeroroutes.com/eng/260806-rxsep26bkk",
-   "summary": "Published at 0330PDT / 1030GMT 06AUG26 Riyadh Air today (06AUG26) opened reservations for service to Thailand, as reservations for Riyadh \u2013 Bangkok Suvarnabhumi route opened after 1020GMT. The airline\u2019s 787-9 aircraft to operate 4 weekly flights from 02SEP26. RX853 RUH2215 \u2013 0935+1BKK 789 x246 RX854 BKK1655 \u2013 2015RUH 789 x357",
-   "kind": "item",
-   "source": "AeroRoutes schedule filings",
-   "source_id": "aeroroutes",
-   "tier": 2,
-   "country": "GLOBAL",
-   "category": "aviation-tracker",
-   "segments": [
-    "city",
-    "bush",
-    "beach"
-   ],
-   "first_seen": "2026-08-07T07:36+03:00",
-   "published": "2026-08-06",
-   "verdict": "CONSIDER"
-  },
-  {
-   "score": 83.5,
-   "components": {
-    "tier": 20,
-    "category": 14,
-    "lead": 8.4,
-    "relevance": 20,
-    "freshness": 11.1,
-    "corroborated": 10
-   },
-   "keywords": [
-    "route",
-    "capacity",
-    "airline"
-   ],
-   "shock_terms": [],
-   "dedupe_match": null,
-   "dedupe_similarity": 0.14,
-   "id": "3107886136e4",
-   "title": "Turkish Airlines Osaka Aircraft Changes From Sep 2026",
-   "url": "https://www.aeroroutes.com/eng/260806-tksep26kix",
-   "summary": "Published at 0500PDT / 1200GMT 06AUG26 Turkish Airlines from September 2026 schedules capacity increases on Istanbul \u2013 Osaka Kansai route, as selected service to be operated by 777-300ER, instead of 787-9. The Boeing 777 will operate during following periods. 16SEP26 \u2013 24OCT26 Day 36 29OCT26 \u2013 12DEC26 Day 146 (schedule below) 17DEC26 \u2013 27MAR27 Day 46 TK086 IST0210 \u2013 1855KIX 789 x146 TK086 IST0210 ",
-   "kind": "item",
-   "source": "AeroRoutes schedule filings",
-   "source_id": "aeroroutes",
-   "tier": 2,
-   "country": "GLOBAL",
-   "category": "aviation-tracker",
-   "segments": [
-    "city",
-    "bush",
-    "beach"
-   ],
-   "first_seen": "2026-08-07T07:36+03:00",
-   "published": "2026-08-06",
-   "verdict": "CONSIDER"
-  },
-  {
-   "score": 83.5,
-   "components": {
-    "tier": 20,
-    "category": 14,
-    "lead": 8.4,
-    "relevance": 20,
-    "freshness": 11.1,
-    "corroborated": 10
-   },
-   "keywords": [
-    "route",
-    "airline",
-    "flight",
-    "booking"
-   ],
-   "shock_terms": [],
-   "dedupe_match": null,
-   "dedupe_similarity": 0.14,
-   "id": "0ceba0ae7d41",
-   "title": "Saudia Extends Jeddah \u2013 Birmingham Suspension to late-1Q27",
-   "url": "https://www.aeroroutes.com/eng/260806-svnw26bhx",
-   "summary": "Published at 0415PDT / 1115GMT 06AUG26 Saudia in the last 48 hours filed additional changes to Jeddah \u2013 Birmingham route during Northern winter 2026/27 season. As of 06AUG26, the airline has extended planned service suspension, now scheduled to resume on 01APR27 at the earliest. The Skyteam member earlier this week initially filed 4th weekly flight from 31OCT26 when it resumes operation during win",
-   "kind": "item",
-   "source": "AeroRoutes schedule filings",
-   "source_id": "aeroroutes",
-   "tier": 2,
-   "country": "GLOBAL",
-   "category": "aviation-tracker",
-   "segments": [
-    "city",
-    "bush",
-    "beach"
-   ],
-   "first_seen": "2026-08-07T07:36+03:00",
-   "published": "2026-08-06",
-   "verdict": "CONSIDER"
-  },
-  {
-   "score": 83.1,
+   "score": 78.6,
    "components": {
     "tier": 20,
     "category": 4,
     "lead": 0.0,
     "relevance": 28,
-    "freshness": 19.1,
+    "freshness": 14.6,
     "undated": -6,
     "shock": 18
    },
@@ -959,109 +756,13 @@
    "verdict": "CONSIDER"
   },
   {
-   "score": 83.1,
-   "components": {
-    "tier": 40,
-    "category": 20,
-    "lead": 12.0,
-    "relevance": 0,
-    "freshness": 11.1
-   },
-   "keywords": [],
-   "shock_terms": [],
-   "dedupe_match": null,
-   "dedupe_similarity": 0.2,
-   "id": "cc9358f82db3",
-   "title": "Business Premises Rent Tribunal \u2013 Daily Cause List \u2013 05 August 2026",
-   "url": "https://new.kenyalaw.org/akn/ke/doc/cause-list-daily/kebprt/2026-08-05/1/eng@2026-08-05",
-   "summary": "Business Premises Rent Tribunal \u2013 Daily Cause List \u2013 05 August 2026",
-   "kind": "item",
-   "source": "Kenya Gazette (Kenya Law)",
-   "source_id": "ke-gazette",
-   "tier": 1,
-   "country": "KE",
-   "category": "gazette",
-   "segments": [
-    "city",
-    "bush",
-    "beach"
-   ],
-   "first_seen": "2026-08-07T07:35+03:00",
-   "published": "2026-08-05",
-   "verdict": "CONSIDER"
-  },
-  {
-   "score": 83.1,
-   "components": {
-    "tier": 40,
-    "category": 20,
-    "lead": 12.0,
-    "relevance": 0,
-    "freshness": 11.1
-   },
-   "keywords": [],
-   "shock_terms": [],
-   "dedupe_match": null,
-   "dedupe_similarity": 0.2,
-   "id": "7f5027f95065",
-   "title": "Githunguri Law Courts \u2013 Daily Cause List \u2013 05 August 2026",
-   "url": "https://new.kenyalaw.org/akn/ke/doc/cause-list-daily/kemc/2026-08-05/2/eng@2026-08-05",
-   "summary": "Githunguri Law Courts \u2013 Daily Cause List \u2013 05 August 2026",
-   "kind": "item",
-   "source": "Kenya Gazette (Kenya Law)",
-   "source_id": "ke-gazette",
-   "tier": 1,
-   "country": "KE",
-   "category": "gazette",
-   "segments": [
-    "city",
-    "bush",
-    "beach"
-   ],
-   "first_seen": "2026-08-07T07:35+03:00",
-   "published": "2026-08-05",
-   "verdict": "CONSIDER"
-  },
-  {
-   "score": 83.1,
-   "components": {
-    "tier": 40,
-    "category": 20,
-    "lead": 12.0,
-    "relevance": 0,
-    "freshness": 11.1
-   },
-   "keywords": [],
-   "shock_terms": [],
-   "dedupe_match": null,
-   "dedupe_similarity": 0.2,
-   "id": "3eef3e4c16dd",
-   "title": "Employment and Labour Relations Court at Nairobi \u2013 Employment and Labour Division \u2013 Daily Cause List \u2013 05 August 2026",
-   "url": "https://new.kenyalaw.org/akn/ke/doc/cause-list-daily/keelrc/2026-08-05/3/eng@2026-08-05",
-   "summary": "Employment and Labour Relations Court at Nairobi \u2013 Employment and Labour Division \u2013 Daily Cause List \u2013 05 August 2026",
-   "kind": "item",
-   "source": "Kenya Gazette (Kenya Law)",
-   "source_id": "ke-gazette",
-   "tier": 1,
-   "country": "KE",
-   "category": "gazette",
-   "segments": [
-    "city",
-    "bush",
-    "beach"
-   ],
-   "first_seen": "2026-08-07T07:35+03:00",
-   "published": "2026-08-05",
-   "verdict": "CONSIDER"
-  },
-  {
-   "score": 81.9,
+   "score": 77.4,
    "components": {
     "tier": 40,
     "category": 24,
     "lead": 4.8,
     "relevance": 0,
-    "freshness": 19.1,
+    "freshness": 14.6,
     "undated": -6
    },
    "keywords": [],
@@ -1088,13 +789,13 @@
    "verdict": "CONSIDER"
   },
   {
-   "score": 81.7,
+   "score": 77.2,
    "components": {
     "tier": 20,
     "category": 5,
     "lead": 3.6,
     "relevance": 24,
-    "freshness": 19.1,
+    "freshness": 14.6,
     "corroborated": 10
    },
    "keywords": [
@@ -1126,33 +827,176 @@
    "verdict": "CONSIDER"
   },
   {
-   "score": 80.6,
+   "score": 77.1,
+   "components": {
+    "tier": 20,
+    "category": 5,
+    "lead": 2.4,
+    "relevance": 20,
+    "freshness": 19.7,
+    "corroborated": 10
+   },
+   "keywords": [
+    "tax",
+    "gazette",
+    "tourism"
+   ],
+   "shock_terms": [],
+   "dedupe_match": null,
+   "dedupe_similarity": 0.33,
+   "id": "a41146c1312d",
+   "title": "Kenya\u2019s $50,000 Travel Insurance Rule: Protection, Not a New Tourism Tax",
+   "url": "https://katakenya.org/kenyas-50000-travel-insurance-rule-protection-not-a-new-tourism-tax",
+   "summary": "When Kenya gazetted regulations requiring foreign visitors to hold travel health insurance worth at least $50,000 (KSh6.4 million), the travel and tourism industry\u2019s immediate concern was not the amount. It was the assumption that every traveller would be required to purchase a Kenyan insurance policy regardless of existing cover. The stakes are considerable. Kenya\u2019s tourism [\u2026]",
+   "kind": "item",
+   "source": "Kenya Association of Travel Agents news",
+   "source_id": "tp-kata",
+   "tier": 2,
+   "country": "KE",
+   "category": "trade",
+   "segments": [
+    "city",
+    "bush",
+    "beach"
+   ],
+   "first_seen": "2026-08-07T19:38+03:00",
+   "published": "2026-08-07",
+   "verdict": "CONSIDER"
+  },
+  {
+   "score": 73.7,
    "components": {
     "tier": 20,
     "category": 4,
     "lead": 0.0,
-    "relevance": 28,
-    "freshness": 16.6,
-    "undated": -6,
-    "shock": 18
+    "relevance": 20,
+    "freshness": 19.7,
+    "corroborated": 10
    },
    "keywords": [
-    "evacuat",
-    "cancel",
+    "suspend",
+    "election"
+   ],
+   "shock_terms": [],
+   "dedupe_match": null,
+   "dedupe_similarity": 0.25,
+   "id": "8c2e1b3204ad",
+   "title": "Court: Kenya General Election due this year not 2027, but...",
+   "url": "https://www.theeastafrican.co.ke/tea/news/east-africa/court-kenya-general-election-due-this-year-not-2027-5549808",
+   "summary": "Judge, however, suspends decision to avoid chaos.",
+   "kind": "item",
+   "source": "The EastAfrican",
+   "source_id": "np-eastafrican",
+   "tier": 2,
+   "country": "REG",
+   "category": "press",
+   "segments": [
+    "city",
+    "bush",
+    "beach"
+   ],
+   "first_seen": "2026-08-07T19:38+03:00",
+   "published": "2026-08-07",
+   "verdict": "CONSIDER"
+  },
+  {
+   "score": 73.1,
+   "components": {
+    "tier": 20,
+    "category": 5,
+    "lead": 2.4,
+    "relevance": 16,
+    "freshness": 19.7,
+    "corroborated": 10
+   },
+   "keywords": [
+    "route",
+    "airline",
     "flight"
    ],
-   "shock_terms": [
-    "evacuat"
+   "shock_terms": [],
+   "dedupe_match": null,
+   "dedupe_similarity": 0.14,
+   "id": "8b1521c1fa61",
+   "title": "ASKY Expands Its Network with New Kano Route",
+   "url": "https://katakenya.org/asky-expands-its-network-with-new-kano-route",
+   "summary": "ASKY, the Pan-African Airline, will launch a new destination to its growing network with the introduction of flights to Kano, Nigeria, on 2nd September 2026, further strengthening its position as one of Africa\u2019s fastest-growing carriers. The new route becomes ASKY\u2019s third destination in Nigeria after Lagos and Abuja, underscoring the Togo-based airline\u2019s commitment to improving [\u2026]",
+   "kind": "item",
+   "source": "Kenya Association of Travel Agents news",
+   "source_id": "tp-kata",
+   "tier": 2,
+   "country": "KE",
+   "category": "trade",
+   "segments": [
+    "city",
+    "bush",
+    "beach"
    ],
+   "first_seen": "2026-08-07T19:38+03:00",
+   "published": "2026-08-07",
+   "verdict": "CONSIDER"
+  },
+  {
+   "score": 71.9,
+   "components": {
+    "tier": 20,
+    "category": 5,
+    "lead": 1.2,
+    "relevance": 16,
+    "freshness": 19.7,
+    "corroborated": 10
+   },
+   "keywords": [
+    "fuel",
+    "airline",
+    "passenger"
+   ],
+   "shock_terms": [],
    "dedupe_match": null,
    "dedupe_similarity": 0.0,
-   "id": "764a1680252d",
-   "title": "international Japan orders evacuations as Typhoon Dolphin approaches, cancels 500 flights 6 hours ago - 2 min read",
-   "url": "https://www.thecitizen.co.tz/tanzania/news/international/japan-orders-evacuations-as-typhoon-dolphin-approaches-cancels-500-flights-5549418",
-   "summary": "",
+   "id": "697860c3196e",
+   "title": "A Dozen Airlines Put a Number on the Fuel Spike. Here\u2019s How Much They Clawed Back",
+   "url": "https://skift.com/2026/08/07/a-dozen-airlines-put-a-number-on-the-fuel-spike-heres-how-much-they-clawed-back",
+   "summary": "Recapture has become the polite word for charging passengers more, and it worked better than many airlines expected.",
    "kind": "item",
-   "source": "The Citizen (Tanzania)",
-   "source_id": "np-citizen-tz",
+   "source": "Skift",
+   "source_id": "tp-skift",
+   "tier": 2,
+   "country": "GLOBAL",
+   "category": "trade",
+   "segments": [
+    "city",
+    "bush",
+    "beach"
+   ],
+   "first_seen": "2026-08-07T19:38+03:00",
+   "published": "2026-08-07",
+   "verdict": "CONSIDER"
+  },
+  {
+   "score": 69.7,
+   "components": {
+    "tier": 20,
+    "category": 4,
+    "lead": 0.0,
+    "relevance": 16,
+    "freshness": 19.7,
+    "corroborated": 10
+   },
+   "keywords": [
+    "vat",
+    "eta"
+   ],
+   "shock_terms": [],
+   "dedupe_match": null,
+   "dedupe_similarity": 0.25,
+   "id": "c5495e1b22e6",
+   "title": "Tanzania launches the 8th NBD Forum with a call for stronger ties among Nile Basin countries",
+   "url": "https://dailynews.co.tz/tanzania-launches-the-8th-nbd-forum-with-a-call-for-stronger-ties-among-nile-basin-countries",
+   "summary": "DODOMA: TANZANIA has officially launched the 8th Nile Basin Development Forum (NBDF8) in Dodoma and called for stronger cooperation among Nile Basin countries to develop innovative financing solutions for water infrastructure and address growing challenges caused by climate change. The forum inaugurated by the Permanent Secretary in the Ministry of Water, Eng Mwajuma Waziri brings \u2026 The post Tanza",
+   "kind": "item",
+   "source": "Daily News (Tanzania)",
+   "source_id": "np-dailynews-tz",
    "tier": 2,
    "country": "TZ",
    "category": "press",
@@ -1161,108 +1005,278 @@
     "bush",
     "beach"
    ],
-   "first_seen": "2026-08-07T12:37+03:00",
-   "published": null,
-   "verdict": "CONSIDER"
+   "first_seen": "2026-08-07T19:38+03:00",
+   "published": "2026-08-07",
+   "verdict": "weak"
   },
   {
-   "score": 79.5,
+   "score": 69.1,
    "components": {
-    "tier": 40,
-    "category": 24,
+    "tier": 20,
+    "category": 5,
     "lead": 2.4,
+    "relevance": 12,
+    "freshness": 19.7,
+    "corroborated": 10
+   },
+   "keywords": [
+    "route",
+    "airline"
+   ],
+   "shock_terms": [],
+   "dedupe_match": null,
+   "dedupe_similarity": 0.33,
+   "id": "299e4a2053f6",
+   "title": "Skyward Airlines opens the skies to the northern corridor with the new Nairobi \u2013 Garissa route.",
+   "url": "https://katakenya.org/skyward-airlines-opens-the-skies-to-the-northern-corridor-with-the-new-nairobi-garissa-route",
+   "summary": "Skyward Airlines has made clear its commitment to enhancing regional connectivity in Kenya with the scheduled launch on 12th August of services between Nairobi and Garissa. The new route is expected to unlock new economic opportunities across the Northern Corridor while offering travelers added convenience and competitive fares. The new route brings Skyward Airlines to [\u2026]",
+   "kind": "item",
+   "source": "Kenya Association of Travel Agents news",
+   "source_id": "tp-kata",
+   "tier": 2,
+   "country": "KE",
+   "category": "trade",
+   "segments": [
+    "city",
+    "bush",
+    "beach"
+   ],
+   "first_seen": "2026-08-07T19:38+03:00",
+   "published": "2026-08-07",
+   "verdict": "weak"
+  },
+  {
+   "score": 65.7,
+   "components": {
+    "tier": 20,
+    "category": 4,
+    "lead": 0.0,
+    "relevance": 12,
+    "freshness": 19.7,
+    "corroborated": 10
+   },
+   "keywords": [
+    "collapse"
+   ],
+   "shock_terms": [],
+   "dedupe_match": null,
+   "dedupe_similarity": 0.0,
+   "id": "b7d5273c0261",
+   "title": "'Mumbi' brings AI visual storytelling to EA screens",
+   "url": "https://www.theeastafrican.co.ke/tea/magazine/-mumbi-brings-ai-visual-storytelling-to-ea-screens-5549932",
+   "summary": "Despite dealing with global collapse and AI, the romance and themes remain simple and fascinating.",
+   "kind": "item",
+   "source": "The EastAfrican",
+   "source_id": "np-eastafrican",
+   "tier": 2,
+   "country": "REG",
+   "category": "press",
+   "segments": [
+    "city",
+    "bush",
+    "beach"
+   ],
+   "first_seen": "2026-08-07T19:38+03:00",
+   "published": "2026-08-07",
+   "verdict": "weak"
+  },
+  {
+   "score": 63.9,
+   "components": {
+    "tier": 20,
+    "category": 5,
+    "lead": 1.2,
     "relevance": 8,
-    "freshness": 11.1,
-    "undated": -6
+    "freshness": 19.7,
+    "corroborated": 10
+   },
+   "keywords": [
+    "vat"
+   ],
+   "shock_terms": [],
+   "dedupe_match": null,
+   "dedupe_similarity": 0.17,
+   "id": "df3623a5c96e",
+   "title": "2026 Skift IDEA Awards: Meet the Finalists",
+   "url": "https://skift.com/2026/08/07/2026-skift-idea-awards-meet-the-finalists",
+   "summary": "Skift Take The 2026 Skift IDEA Awards finalists reflect a focus on creativity, ingenuity, and innovation. These companies reflect the brightest future of travel. The eighth-annual Skift IDEA Awards honor those who are driving change and innovation across the travel industry. Today, we announce the 2026 Skift IDEA Awards finalists. More than 490 entries were [\u2026]",
+   "kind": "item",
+   "source": "Skift",
+   "source_id": "tp-skift",
+   "tier": 2,
+   "country": "GLOBAL",
+   "category": "trade",
+   "segments": [
+    "city",
+    "bush",
+    "beach"
+   ],
+   "first_seen": "2026-08-07T19:38+03:00",
+   "published": "2026-08-07",
+   "verdict": "weak"
+  },
+  {
+   "score": 61.9,
+   "components": {
+    "tier": 20,
+    "category": 5,
+    "lead": 1.2,
+    "relevance": 16,
+    "freshness": 19.7
+   },
+   "keywords": [
+    "arrivals",
+    "tourism",
+    "tourist"
+   ],
+   "shock_terms": [],
+   "dedupe_match": null,
+   "dedupe_similarity": 0.25,
+   "id": "3ef889661fc4",
+   "title": "Tanzania Exports Grow 17.2% to USD 19.9 Billion in Year Ending June 2026, Led by Gold, Manufactured Goods, and Tourism",
+   "url": "https://www.tanzaniainvest.com/economy/trade/bot-economic-review-exports-june-2026",
+   "summary": "Tanzania's exports of goods and services grew 17.2% to USD 19,923.6 million in the year ending June 2026, with goods exports up 19.2% to USD 11,782.7 million on a 36.4% rise in gold to USD 5,522.9 million and a 46.3% jump in manufactured goods to USD 2,162.2 million. Service receipts grew 14.4% to USD 8,140.9 million, with travel earnings of USD 4,405.5 million supported by a 4.5% rise in internat",
+   "kind": "item",
+   "source": "TanzaniaInvest \u2014 tourism",
+   "source_id": "tp-tanzaniainvest",
+   "tier": 2,
+   "country": "TZ",
+   "category": "trade",
+   "segments": [
+    "city",
+    "bush",
+    "beach"
+   ],
+   "first_seen": "2026-08-07T19:38+03:00",
+   "published": "2026-08-05",
+   "verdict": "weak"
+  },
+  {
+   "score": 61.7,
+   "components": {
+    "tier": 20,
+    "category": 4,
+    "lead": 0.0,
+    "relevance": 8,
+    "freshness": 19.7,
+    "corroborated": 10
+   },
+   "keywords": [
+    "vat"
+   ],
+   "shock_terms": [],
+   "dedupe_match": null,
+   "dedupe_similarity": 0.25,
+   "id": "419a28077d67",
+   "title": "COSTECH highlights the protection of youth innovation rights",
+   "url": "https://dailynews.co.tz/costech-highlights-the-protection-of-youth-innovation-rights",
+   "summary": "DODOMA: The Tanzania Commission for Science and Technology (COSTECH) has stated that the Government continues to establish an enabling environment for young innovators by providing them with capital, protecting their intellectual property rights, and connecting them with various institutions to ensure their innovations reach commercialization and contribute to the national economic development. Th",
+   "kind": "item",
+   "source": "Daily News (Tanzania)",
+   "source_id": "np-dailynews-tz",
+   "tier": 2,
+   "country": "TZ",
+   "category": "press",
+   "segments": [
+    "city",
+    "bush",
+    "beach"
+   ],
+   "first_seen": "2026-08-07T19:38+03:00",
+   "published": "2026-08-07",
+   "verdict": "weak"
+  },
+  {
+   "score": 61.7,
+   "components": {
+    "tier": 20,
+    "category": 4,
+    "lead": 0.0,
+    "relevance": 8,
+    "freshness": 19.7,
+    "corroborated": 10
+   },
+   "keywords": [
+    "tax"
+   ],
+   "shock_terms": [],
+   "dedupe_match": null,
+   "dedupe_similarity": 0.0,
+   "id": "d7857f2aa7fa",
+   "title": "Tax Tribunal reopens Shs13.2b URA dispute",
+   "url": "https://www.monitor.co.ug/uganda/business/finance/tax-tribunal-reopens-shs13-2b-ura-dispute-5549972",
+   "summary": "URA had argued that the assessed liability had immediately become due and payable, clearing the...",
+   "kind": "item",
+   "source": "Daily Monitor (Uganda)",
+   "source_id": "np-monitor-ug",
+   "tier": 2,
+   "country": "UG",
+   "category": "press",
+   "segments": [
+    "city",
+    "bush",
+    "beach"
+   ],
+   "first_seen": "2026-08-07T19:38+03:00",
+   "published": "2026-08-07",
+   "verdict": "weak"
+  },
+  {
+   "score": 61.7,
+   "components": {
+    "tier": 20,
+    "category": 4,
+    "lead": 0.0,
+    "relevance": 8,
+    "freshness": 19.7,
+    "corroborated": 10
    },
    "keywords": [
     "eta"
    ],
    "shock_terms": [],
    "dedupe_match": null,
-   "dedupe_similarity": 0.14,
-   "id": "daa4de1c790c",
-   "title": "Democratic Republic of the Congo (DRC)",
-   "url": "https://insp.cd/wp-content/uploads/2026/08/SitRep_MVE_RDC_N_082_04_08_2026.pdf",
-   "summary": "1 fr-FR fr-FR fr-FR fr-FR fr-FR fr-FR fr-FRINDICATEURS CLES CUMUL AU 04 AOUT 2026 fr-FR fr-FRCAS CONFIRMES 5 PROVINCES fr-FR fr-FR+99 nouveaux cas (Ituri 85 \u00b7 N-Kivu 10 \u00b7 Haut-U\u00e9l\u00e9 4) fr-FR fr-FRDECES CONFIRMES \u00b7 LETALITE fr-FR fr-FR+52 d\u00e9c\u00e8s du jour (Ituri 47 \u00b7 N-Kivu 4 \u00b7 H-U\u00e9l\u00e9 1) fr-FR fr-FRCAS SUSPECTS DU JOUR fr-FR270 Ituri 182 \u00b7 N-Kivu 66 \u00b7 Haut-U\u00e9l\u00e9 21 \u00b7 Tshopo ND \u00b7 Sud-Kivu 1 fr-FR fr-FRPA",
-   "kind": "doc",
-   "source": "ECDC \u2014 DRC/Uganda Ebola outbreak page",
-   "source_id": "ecdc-ebola",
-   "tier": 1,
-   "country": "GLOBAL",
-   "category": "health",
-   "segments": [
-    "city",
-    "bush"
-   ],
-   "first_seen": "2026-08-07T07:35+03:00",
-   "published": null,
-   "verdict": "CONSIDER"
-  },
-  {
-   "score": 78.8,
-   "components": {
-    "tier": 20,
-    "category": 4,
-    "lead": 0.0,
-    "relevance": 28,
-    "freshness": 14.8,
-    "undated": -6,
-    "shock": 18
-   },
-   "keywords": [
-    "evacuat",
-    "cancel",
-    "flight"
-   ],
-   "shock_terms": [
-    "evacuat"
-   ],
-   "dedupe_match": null,
-   "dedupe_similarity": 0.0,
-   "id": "b8a0cb898ec8",
-   "title": "international Japan orders evacuations as Typhoon Dolphin approaches, cancels 500 flights 4 hours ago - 2 min read",
-   "url": "https://www.thecitizen.co.tz/tanzania/news/international/japan-orders-evacuations-as-typhoon-dolphin-approaches-cancels-500-flights-5549418",
-   "summary": "",
+   "dedupe_similarity": 0.17,
+   "id": "a43a7b32745e",
+   "title": "Congolese authorities hand over 15 prisoners to M23 rebels",
+   "url": "https://www.monitor.co.ug/uganda/news/congolese-authorities-hand-over-15-prisoners-to-m23-rebels-5549788",
+   "summary": "It follows months of talks over the names of detainees to be freed",
    "kind": "item",
-   "source": "The Citizen (Tanzania)",
-   "source_id": "np-citizen-tz",
+   "source": "Daily Monitor (Uganda)",
+   "source_id": "np-monitor-ug",
    "tier": 2,
-   "country": "TZ",
+   "country": "UG",
    "category": "press",
    "segments": [
     "city",
     "bush",
     "beach"
    ],
-   "first_seen": "2026-08-07T11:00+03:00",
-   "published": null,
-   "verdict": "CONSIDER"
+   "first_seen": "2026-08-07T19:38+03:00",
+   "published": "2026-08-07",
+   "verdict": "weak"
   },
   {
-   "score": 77.7,
+   "score": 61.2,
    "components": {
     "tier": 20,
     "category": 5,
     "lead": 3.6,
-    "relevance": 28,
-    "freshness": 11.1,
+    "relevance": 8,
+    "freshness": 14.6,
     "corroborated": 10
    },
    "keywords": [
-    "adr",
-    "revpar",
     "hotel",
-    "tourism",
-    "conference"
+    "rooms"
    ],
    "shock_terms": [],
    "dedupe_match": null,
    "dedupe_similarity": 0.25,
-   "id": "fb4d65926c9a",
-   "title": "CoStar, Tourism Economics upgrade U.S. hotel growth forecast",
-   "url": "https://www.hospitalitynet.org/news/4133845/costar-tourism-economics-upgrade-us-hotel-growth-forecast",
-   "summary": "CoStar and Tourism Economics raised their 2026-27 U.S. hotel outlook at the Hotel Data Conference, lifting RevPAR by 1.6 ppts and ADR by 1.1 ppts, with GOPPAR forecast to rise 4% in 2026.",
+   "id": "5df44a1aef59",
+   "title": "Volume reassures the rankings. Value transforms balance sheets.",
+   "url": "https://www.hospitalitynet.org/opinion/4133858/volume-reassures-the-rankings-value-transforms-balance-sheets",
+   "summary": "As five hotel groups surpass one million rooms, the author argues that volume metrics obscure the real competition: per-key value creation, driven by management contracts, upscale positioning, and lifestyle brands.",
    "kind": "item",
    "source": "Hospitality Net \u2014 Africa announcements",
    "source_id": "dev-hospitalitynet-africa",
@@ -1274,153 +1288,150 @@
     "bush",
     "beach"
    ],
-   "first_seen": "2026-08-07T07:36+03:00",
-   "published": "2026-08-06",
-   "verdict": "CONSIDER"
+   "first_seen": "2026-08-07T14:55+03:00",
+   "published": "2026-08-07",
+   "verdict": "weak"
   },
   {
-   "score": 75.5,
+   "score": 61.2,
    "components": {
     "tier": 20,
-    "category": 14,
-    "lead": 8.4,
-    "relevance": 12,
-    "freshness": 11.1,
+    "category": 5,
+    "lead": 3.6,
+    "relevance": 8,
+    "freshness": 14.6,
     "corroborated": 10
    },
    "keywords": [
-    "route",
-    "airline"
+    "hotel",
+    "guest"
    ],
    "shock_terms": [],
    "dedupe_match": null,
-   "dedupe_similarity": 0.14,
-   "id": "4db412f94251",
-   "title": "Shenzhen Airlines Resumes Jakarta Service in Oct 2026",
-   "url": "https://www.aeroroutes.com/eng/260806-zhnw26cgk",
-   "summary": "Published at 0700PDT / 1400GMT 06AUG26 Shenzhen Airlines at the launch of Northern winter 2026/27 season plans to resume service to Indonesia, as the Star Alliance member schedules service resumption on Shenzhen \u2013 Jakarta route on 19OCT26. Boeing 737-800 aircraft operates this route on daily basis. ZH161 SZX2050 \u2013 0055+1CGK 738 D ZH162 CGK0155 \u2013 0805SZX 738 D The carrier last served this route unt",
+   "dedupe_similarity": 0.33,
+   "id": "39a7a7353492",
+   "title": "Guest Experience Benchmark Report Q2 2026 Overview",
+   "url": "https://www.hospitalitynet.org/news/4133857/guest-experience-benchmark-report-q2-2026-overview",
+   "summary": "Global GRI hit a record 87.3% in Q2 2026, with 3-star hotels improving fastest, Asia leading regionally, and review response speed emerging as a core reputation driver.",
    "kind": "item",
-   "source": "AeroRoutes schedule filings",
-   "source_id": "aeroroutes",
+   "source": "Hospitality Net \u2014 Africa announcements",
+   "source_id": "dev-hospitalitynet-africa",
    "tier": 2,
-   "country": "GLOBAL",
-   "category": "aviation-tracker",
+   "country": "REG",
+   "category": "trade",
    "segments": [
     "city",
     "bush",
     "beach"
    ],
-   "first_seen": "2026-08-07T07:36+03:00",
-   "published": "2026-08-06",
-   "verdict": "CONSIDER"
+   "first_seen": "2026-08-07T14:55+03:00",
+   "published": "2026-08-07",
+   "verdict": "weak"
   },
   {
-   "score": 75.1,
+   "score": 61.1,
    "components": {
     "tier": 20,
-    "category": 4,
-    "lead": 0.0,
-    "relevance": 28,
-    "freshness": 11.1,
-    "undated": -6,
-    "shock": 18
+    "category": 5,
+    "lead": 2.4,
+    "relevance": 4,
+    "freshness": 19.7,
+    "corroborated": 10
    },
    "keywords": [
-    "evacuat",
-    "cancel",
-    "flight"
+    "tourism"
    ],
-   "shock_terms": [
-    "evacuat"
-   ],
+   "shock_terms": [],
    "dedupe_match": null,
-   "dedupe_similarity": 0.0,
-   "id": "562b7f58211a",
-   "title": "international Japan orders evacuations as Typhoon Dolphin approaches, cancels 500 flights 1 hour ago - 2 min read",
-   "url": "https://www.thecitizen.co.tz/tanzania/news/international/japan-orders-evacuations-as-typhoon-dolphin-approaches-cancels-500-flights-5549418",
-   "summary": "",
+   "dedupe_similarity": 0.33,
+   "id": "06b058e2ea53",
+   "title": "KATA Eyes Continental Glory Again After Securing Pyne Awards Africa 2026 Nomination",
+   "url": "https://katakenya.org/kata-eyes-continental-glory-again-after-securing-pyne-awards-africa-2026-nomination",
+   "summary": "Three years after bringing home one of Africa\u2019s most coveted tourism accolades, the Kenya Association of Travel Agents (KATA) is once again in contention for continental recognition. KATA has been named an Official Finalist for the African Tourism Association of the Year award under the Brand Excellence category at the Pyne Awards Africa 2026, reaffirming [\u2026]",
    "kind": "item",
-   "source": "The Citizen (Tanzania)",
-   "source_id": "np-citizen-tz",
+   "source": "Kenya Association of Travel Agents news",
+   "source_id": "tp-kata",
    "tier": 2,
-   "country": "TZ",
-   "category": "press",
+   "country": "KE",
+   "category": "trade",
    "segments": [
     "city",
     "bush",
     "beach"
    ],
-   "first_seen": "2026-08-07T07:36+03:00",
-   "published": null,
-   "verdict": "CONSIDER"
+   "first_seen": "2026-08-07T19:38+03:00",
+   "published": "2026-08-07",
+   "verdict": "weak"
   },
   {
-   "score": 74.9,
+   "score": 59.9,
    "components": {
-    "tier": 40,
-    "category": 9,
-    "lead": 16.8,
+    "tier": 20,
+    "category": 5,
+    "lead": 1.2,
     "relevance": 4,
-    "freshness": 11.1,
-    "undated": -6
+    "freshness": 19.7,
+    "corroborated": 10
    },
    "keywords": [
-    "resort"
+    "tourism"
    ],
    "shock_terms": [],
    "dedupe_match": null,
-   "dedupe_similarity": 0.0,
-   "id": "df9dea5828ac",
-   "title": "Anantara Hoi An Resort Unveils Vietnam\u2019s Latest Riverfront Suites, Reimagined Pool Experience and a Vibrant New Dinin...",
-   "url": "https://media.minorhotels.com/en-GLO/268973-anantara-hoi-an-resort-unveils-vietnam-s-latest-riverfront-suites-reimagined-pool-experience-and-a-vibrant-new-dining-destination",
-   "summary": "",
+   "dedupe_similarity": 0.2,
+   "id": "80f5e0854f1b",
+   "title": "How Nevis Built a Tourism Strategy Around Refusal",
+   "url": "https://skift.com/2026/08/07/how-nevis-built-a-tourism-strategy-around-refusal",
+   "summary": "The Premier of Nevis is candid about what his island will not build and what has not worked. Now the government is spending real money to find out whether that positioning holds.",
    "kind": "item",
-   "source": "Minor Hotels newsroom",
-   "source_id": "dev-minor",
-   "tier": 1,
+   "source": "Skift",
+   "source_id": "tp-skift",
+   "tier": 2,
    "country": "GLOBAL",
-   "category": "hotel-group",
+   "category": "trade",
    "segments": [
+    "city",
+    "bush",
     "beach"
    ],
-   "first_seen": "2026-08-07T07:35+03:00",
-   "published": null,
-   "verdict": "CONSIDER"
+   "first_seen": "2026-08-07T19:38+03:00",
+   "published": "2026-08-07",
+   "verdict": "weak"
   },
   {
-   "score": 74.9,
+   "score": 59.9,
    "components": {
-    "tier": 40,
-    "category": 9,
-    "lead": 16.8,
+    "tier": 20,
+    "category": 5,
+    "lead": 1.2,
     "relevance": 4,
-    "freshness": 11.1,
-    "undated": -6
+    "freshness": 19.7,
+    "corroborated": 10
    },
    "keywords": [
     "hotel"
    ],
    "shock_terms": [],
    "dedupe_match": null,
-   "dedupe_similarity": 0.0,
-   "id": "ec2bf7282078",
-   "title": "IHG expands voco hotels to Muar, Malaysia",
-   "url": "https://www.ihgplc.com/en/news-and-media/news-releases/2026/ihg-expands-voco-hotels-to-muar-malaysia",
-   "summary": "",
+   "dedupe_similarity": 0.2,
+   "id": "68dbcdbafe5b",
+   "title": "How Hilton Overhauled B2B Sales and Taught Reps to \u2018Scrimmage\u2019",
+   "url": "https://skift.com/2026/08/07/how-hilton-overhauled-b2b-sales-and-taught-reps-to-scrimmage",
+   "summary": "Hilton spent years reorganizing its B2B sales machine. The reason? Many corporate buyers no longer want to buy the way hotel sellers often want to sell.",
    "kind": "item",
-   "source": "IHG news",
-   "source_id": "dev-ihg",
-   "tier": 1,
+   "source": "Skift",
+   "source_id": "tp-skift",
+   "tier": 2,
    "country": "GLOBAL",
-   "category": "hotel-group",
+   "category": "trade",
    "segments": [
     "city",
     "bush",
     "beach"
    ],
-   "first_seen": "2026-08-07T07:35+03:00",
-   "published": null,
-   "verdict": "CONSIDER"
+   "first_seen": "2026-08-07T19:38+03:00",
+   "published": "2026-08-07",
+   "verdict": "weak"
   }
  ]
 }
