@@ -1,5 +1,5 @@
 window.RATE_INDEX = {
- "updated": "2026-08-06 12:25",
+ "updated": "2026-08-07 08:37",
  "convention": {
   "los": 2,
   "lead_days": 30,
@@ -11,7 +11,7 @@ window.RATE_INDEX = {
  "method": "chain-linked matched-sample",
  "methodNote": "Each property is compared only with itself, so the index measures rate MOVEMENT validly even though the basket mixes meal bases and rate types. Raw medians are context only and are not comparable across markets — check levelComparable before quoting a level.",
  "spreadNote": "Commission-leakage spread = median of (OTA rate / direct rate - 1) for the same property in the same week. Computed only where the direct rate is room-only or B&B, since an OTA lowest rate is not comparable with a fully-inclusive safari rate. Markets where no property qualifies report null.",
- "totalObservations": 130,
+ "totalObservations": 131,
  "distinctProperties": 108,
  "basketSize": 136,
  "markets": {
@@ -276,18 +276,19 @@ window.RATE_INDEX = {
      {
       "week": "2026-W32",
       "weekStart": "2026-08-03",
-      "median": 218.0,
-      "n": 5,
-      "observations": 5,
-      "coverage": 38,
+      "median": 216.5,
+      "n": 6,
+      "observations": 6,
+      "coverage": 46,
       "confident": true,
       "basisMix": {
-       "BB": 5
+       "BB": 5,
+       "UNK": 1
       },
       "rateTypeMix": {
-       "international": 5
+       "international": 6
       },
-      "levelComparable": true,
+      "levelComparable": false,
       "matched": 0,
       "link": null,
       "index": 100.0
@@ -296,18 +297,19 @@ window.RATE_INDEX = {
     "latest": {
      "week": "2026-W32",
      "weekStart": "2026-08-03",
-     "median": 218.0,
-     "n": 5,
-     "observations": 5,
-     "coverage": 38,
+     "median": 216.5,
+     "n": 6,
+     "observations": 6,
+     "coverage": 46,
      "confident": true,
      "basisMix": {
-      "BB": 5
+      "BB": 5,
+      "UNK": 1
      },
      "rateTypeMix": {
-      "international": 5
+      "international": 6
      },
-     "levelComparable": true,
+     "levelComparable": false,
      "matched": 0,
      "link": null,
      "index": 100.0
