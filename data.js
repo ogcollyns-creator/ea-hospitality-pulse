@@ -1,5 +1,14 @@
 window.EDITIONS = [
  {
+  "id": "pulse-2026-08-07-midday",
+  "date": "2026-08-07",
+  "dateDisplay": "Friday, 7 August 2026",
+  "edition": "Midday Pulse",
+  "editionKey": "midday",
+  "summary": "Automated cloud brief — repo-backed, verified data only. A fuller edited edition may follow.",
+  "bodyHtml": "<p><span class=\"meta-line\">🏨 EA HOSPITALITY PULSE — Midday Pulse</span><br><span class=\"meta-line\">📅 Friday, 7 August 2026 | 🇰🇪🇹🇿🇺🇬🇷🇼</span></p>\n<p><em>Automated cloud brief — repo-backed, verified data only. A fuller edited edition may follow.</em><br>━━━━━━━━━<br><span class=\"item-head\">1️⃣ ADVISORY BOARD — STILL TRUE</span><br>US: Kenya L2, Tanzania L3, Zanzibar L3, Uganda L4, Rwanda L3.<br>UK: Kenya L2, Tanzania L1, Zanzibar L1, Uganda L3, Rwanda L2.<br><span class=\"sowhat\">🎯 So what: no verified change to act on right now; a confirmed &#x27;no change&#x27; tells you not to discount on advisory grounds. (Board verified against travel.state.gov / gov.uk.)</span><br><span class=\"tagline\">🏷 All | Regional | Confirmed</span></p>\n<p><span class=\"item-head\">2️⃣ FORECAST CHECK-IN — CALLS RESOLVING SOON</span><br>• 10 Aug — P030: No East African tourism body|airline|hotel group or national tourism authority from Kenya|<br>• 11 Aug — P057: The US CDC will not post a new or renewed Section 362 Ebola entry order on its port-health<br>• 12 Aug — P034: Neither the US State Department nor the UK FCDO will lower its Uganda travel advisory leve<br><span class=\"sowhat\">🎯 So what: these are our falsifiable calls coming due — we grade ourselves in public.</span><br><span class=\"tagline\">🏷 All | Regional | Reported</span></p>\n<p><span class=\"meta-line\">📡 RADAR FLAGGED (unread upstream — open before relying)</span><br>• [page changed] Federal Register — CDC notices — Federal Register — CDC notices, first seen 2026-08-07 [OPEN THIS]<br>https://www.federalregister.gov/api/v1/documents.rss?conditions%5Bagencies%5D%5B%5D=centers-for-disease-control-and-prevention&amp;order=newest<br>• [page changed] Federal Register — CDC notices — Federal Register — CDC notices, first seen 2026-08-07 [OPEN THIS]<br>https://www.federalregister.gov/api/v1/documents.rss?conditions%5Bagencies%5D%5B%5D=centers-for-disease-control-and-prevention&amp;order=newest<br>• [page changed] Airlink news — Airlink news, first seen 2026-08-07 [OPEN THIS]<br>https://www.flyairlink.com/<br>━━━━━━━━━<br>🔗 This edition on the web: https://eahospitalitypulse.com/editions/pulse-2026-08-07-midday.html<br>— EA Hospitality Pulse | Automated cloud brief</p>"
+ },
+ {
   "id": "pulse-2026-08-07-morning",
   "date": "2026-08-07",
   "dateDisplay": "Friday, 7 August 2026",
@@ -1693,4 +1702,4 @@ window.INSIGHTS = [
   "editionKey": "evening"
  }
 ];
-window.BUILT_AT = "2026-08-07 08:26";
+window.BUILT_AT = "2026-08-07 08:36";
