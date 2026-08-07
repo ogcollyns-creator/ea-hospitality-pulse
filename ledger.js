@@ -1,8 +1,8 @@
 window.LEDGER = {
- "updated": "2026-08-07 01:45",
+ "updated": "2026-08-07 08:26",
  "stats": {
-  "total": 57,
-  "open": 51,
+  "total": 58,
+  "open": 52,
   "resolved": 6,
   "correct": 3,
   "partial": 1,
@@ -24,6 +24,22 @@ window.LEDGER = {
    "resolved_date": "",
    "evidence": "",
    "source_url": "https://www.govinfo.gov/content/pkg/FR-2026-07-16/html/2026-14365.htm",
+   "overdue": false
+  },
+  {
+   "id": "P057",
+   "made_date": "2026-08-07",
+   "edition": "Morning Brief",
+   "claim": "The US CDC will not post a new or renewed Section 362 Ebola entry order on its port-health page before 11 August 2026 — any renewal lands at the 12 August expiry, not early",
+   "resolution_criteria": "CDC port-health evdorder page (cdc.gov/port-health/legal-authorities/evdorder.html) checked on 11 Aug 2026 still shows the 13 July 2026 order as latest with no order dated 7-10 Aug 2026. If a new order dated on/before 10 Aug appears the call is incorrect",
+   "resolve_by": "2026-08-11",
+   "market": "Regional",
+   "segment": "Bush/City",
+   "confidence": "Early signal",
+   "status": "open",
+   "resolved_date": "",
+   "evidence": "",
+   "source_url": "https://www.cdc.gov/port-health/legal-authorities/evdorder.html",
    "overdue": false
   },
   {
