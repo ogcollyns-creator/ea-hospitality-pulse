@@ -1,11 +1,12 @@
 {
- "generated": "2026-08-06T14:34+03:00",
- "health": 0.717,
+ "generated": "2026-08-07T09:54+03:00",
+ "health": 0.667,
  "grade": "C",
  "fails": [
   "source coverage"
  ],
  "warns": [
+  "edition cadence",
   "signal quality",
   "ledger hygiene",
   "rate-index integrity"
@@ -28,28 +29,28 @@
   {
    "name": "radar feed freshness",
    "status": "PASS",
-   "detail": "147 in-window obs; newest observation 1.3h old (2026-08-06T13:16:00+03:00).",
+   "detail": "336 in-window obs; newest observation 2.3h old (2026-08-07T07:36:00+03:00).",
    "fix": "",
    "score": 1.0
   },
   {
    "name": "edition cadence",
-   "status": "PASS",
-   "detail": "7 editions in last 2d; no slot gaps.",
-   "fix": "",
-   "score": 1.0
+   "status": "WARN",
+   "detail": "Missing slots (last 2 full days): 2026-08-06 morning",
+   "fix": "Confirm the scheduled Pulse task fired for each slot.",
+   "score": 0.5
   },
   {
    "name": "signal quality",
    "status": "WARN",
-   "detail": "6/10 editions in last 7d were Tier 2/3 (thin). Share 60%.",
+   "detail": "7/12 editions in last 7d were Tier 2/3 (thin). Share 58%.",
    "fix": "A high thin share means sourcing isn't finding real stories \u2014 widen scope / fix blind sources.",
    "score": 0.5
   },
   {
    "name": "ledger hygiene",
    "status": "WARN",
-   "detail": "56 calls: 51 open, 5 resolved. Overdue-open: 0. Missing source_url: 18.",
+   "detail": "58 calls: 52 open, 6 resolved. Overdue-open: 0. Missing source_url: 18.",
    "fix": "Backfill source_url on early calls.",
    "score": 0.5
   },
@@ -63,21 +64,21 @@
   {
    "name": "rate-index integrity",
    "status": "WARN",
-   "detail": "n values seen: [1, 4, 5, 6, 8, 9]; confident true=28 false=4.",
+   "detail": "n values seen: [1, 5, 6, 8, 9, 10]; confident true=28 false=4.",
    "fix": "Index still thin \u2014 never quote a median where n<3 or confident:false. Enforced in copy.",
    "score": 0.5
   },
   {
    "name": "forecast throughput",
    "status": "PASS",
-   "detail": "18 new falsifiable calls logged in last 7d.",
+   "detail": "19 new falsifiable calls logged in last 7d.",
    "fix": "",
    "score": 1.0
   },
   {
    "name": "published content",
    "status": "PASS",
-   "detail": "10 recent editions; no advisory claim contradicts the board.",
+   "detail": "9 recent editions; no advisory claim contradicts the board.",
    "fix": "",
    "score": 1.0
   }
