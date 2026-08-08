@@ -1,9 +1,10 @@
 {
- "generated": "2026-08-07T09:54+03:00",
- "health": 0.667,
- "grade": "C",
+ "generated": "2026-08-08T08:23+03:00",
+ "health": 0.533,
+ "grade": "D",
  "fails": [
-  "source coverage"
+  "source coverage",
+  "published content"
  ],
  "warns": [
   "edition cadence",
@@ -29,7 +30,7 @@
   {
    "name": "radar feed freshness",
    "status": "PASS",
-   "detail": "336 in-window obs; newest observation 2.3h old (2026-08-07T07:36:00+03:00).",
+   "detail": "374 in-window obs; newest observation 1.1h old (2026-08-08T07:19:00+03:00).",
    "fix": "",
    "score": 1.0
   },
@@ -43,7 +44,7 @@
   {
    "name": "signal quality",
    "status": "WARN",
-   "detail": "7/12 editions in last 7d were Tier 2/3 (thin). Share 58%.",
+   "detail": "9/14 editions in last 7d were Tier 2/3 (thin). Share 64%.",
    "fix": "A high thin share means sourcing isn't finding real stories \u2014 widen scope / fix blind sources.",
    "score": 0.5
   },
@@ -71,16 +72,16 @@
   {
    "name": "forecast throughput",
    "status": "PASS",
-   "detail": "19 new falsifiable calls logged in last 7d.",
+   "detail": "17 new falsifiable calls logged in last 7d.",
    "fix": "",
    "score": 1.0
   },
   {
    "name": "published content",
-   "status": "PASS",
-   "detail": "9 recent editions; no advisory claim contradicts the board.",
-   "fix": "",
-   "score": 1.0
+   "status": "FAIL",
+   "detail": "4 published claim(s) now contradicted: 2026-08-05-midday UG L3->L4; 2026-08-05-midday RW L2->L3; 2026-08-05-morning UG L4->L3; 2026-08-05-morning RW L3->L2",
+   "fix": "Publish a correction and fix advisories.js; a live edition is stating a wrong level.",
+   "score": 0.0
   }
  ]
 }
