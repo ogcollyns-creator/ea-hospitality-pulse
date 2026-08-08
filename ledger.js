@@ -1,8 +1,8 @@
 window.LEDGER = {
- "updated": "2026-08-08 05:24",
+ "updated": "2026-08-08 23:11",
  "stats": {
-  "total": 58,
-  "open": 52,
+  "total": 59,
+  "open": 53,
   "resolved": 6,
   "correct": 3,
   "partial": 1,
@@ -136,6 +136,22 @@ window.LEDGER = {
    "resolved_date": "",
    "evidence": "",
    "source_url": "https://www.cdc.gov/port-health/legal-authorities/evdorder.html",
+   "overdue": false
+  },
+  {
+   "id": "P058",
+   "made_date": "2026-08-08",
+   "edition": "Evening Wrap",
+   "claim": "The WHO AFRO Weekly External Situation Report published on/around 11 Aug 2026 will show DRC cumulative confirmed Bundibugyo cases above 4053 — continued rise past the 5 Aug DRC update with no plateau",
+   "resolution_criteria": "The next WHO AFRO weekly external sit-rep after the 5 Aug DRC figure shows DRC cumulative confirmed BVD cases above 4053. If it shows 4053 or fewer the call is incorrect",
+   "resolve_by": "2026-08-15",
+   "market": "Regional",
+   "segment": "All",
+   "confidence": "Confirmed",
+   "status": "open",
+   "resolved_date": "",
+   "evidence": "",
+   "source_url": "https://www.afro.who.int/health-topics/ebola-disease/outbreak-drc-26",
    "overdue": false
   },
   {

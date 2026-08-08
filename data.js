@@ -1,5 +1,14 @@
 window.EDITIONS = [
  {
+  "id": "pulse-2026-08-08-evening",
+  "date": "2026-08-08",
+  "dateDisplay": "Saturday, 8 August 2026",
+  "edition": "Evening Wrap",
+  "editionKey": "evening",
+  "summary": "🌍 EA HOSPITALITY PULSE — Evening Wrap, Fri 8 Aug",
+  "bodyHtml": "<p>🌍 <strong>EA HOSPITALITY PULSE — Evening Wrap, Fri 8 Aug</strong></p>\n<p><em>No fresh qualifying story since this morning — so tonight is a forecast check-in on the week that decides the regional risk picture. Four days to 12 August.</em></p>\n<p><strong>🎯 FORECAST CHECK-IN — the CDC order slot is still empty, and the DRC just crossed 4,000</strong></p>\n<p>We checked the CDC port-health order page tonight (cdc.gov, page reviewed 20 July): the latest order is still the <strong>13 July</strong> one, in force 30 days — so it <strong>expires around 12 August</strong>. No renewed order has posted yet. That is exactly the call we logged: no early move before 11 August.</p>\n<p>The backdrop hardened. DRC&#x27;s Bundibugyo outbreak has passed <strong>4,000 confirmed cases for the first time — 4,053 confirmed, 1,850 deaths</strong> (DRC situation update, 6 Aug, data to 5 Aug), up from 3,605 / 1,587 at WHO&#x27;s 30 July cut-off. A ~44% fatality ratio and no plateau.</p>\n<p><span class=\"tagline\">🏷 Regional · All segments · Confidence: Confirmed (case data), Reported (our forecast)</span><br><span class=\"sowhat\">🎯 <strong>So what:</strong> Base case for 12 August is <strong>renewal, not lapse</strong>. If you take US bookings for September, plan on the entry ban and <strong>Uganda&#x27;s US Level 4</strong> holding past the 12th. The realistic earliest Uganda relief tracks the <strong>42-day all-clear around 27 August</strong> — not next week. Don&#x27;t price a September US recovery on a downgrade the data doesn&#x27;t yet support.</span></p>\n<p><strong>📌 STILL TRUE — the advisory board hasn&#x27;t moved</strong><br>Kenya US L2 / UK L2 · Uganda US L4 / UK L3 · Tanzania US L3 / UK L1 · Zanzibar US L3 / UK L1 · Rwanda US L3 / UK L2 (verified 4 Aug, unchanged). A confirmed &quot;no change&quot; for the Kenyan, Tanzanian, Zanzibari and Rwandan tourist cores is a reason to hold rate into peak, not discount.</p>\n<p><strong>🗓 WEEK AHEAD</strong><br>• EPRA fuel review — effective <strong>15 Aug</strong> (one week out). Nairobi diesel held at KSh222.86/L this cycle, propped by the levy and the 8% VAT extension to 14 Oct.<br>• CBK weekly bulletin — Friday (FX, reserves).<br>• <strong>12 Aug</strong> CDC order decision · <strong>18 Aug</strong> WHO IHR Emergency Committee.<br><span class=\"sowhat\">🎯 The fuel planning window closes <strong>14 Aug</strong> — lock diesel-linked transfer and generator contracts before the review and the October VAT cliff.</span></p>\n<p>🔗 This edition on the web: https://eahospitalitypulse.com/editions/pulse-2026-08-08-evening.html<br>💼 Today&#x27;s Big Read on LinkedIn: https://www.linkedin.com/company/ea-hospitality-pulse/</p>\n<hr class=\"divider\">"
+ },
+ {
   "id": "pulse-2026-08-08-morning",
   "date": "2026-08-08",
   "dateDisplay": "Saturday, 8 August 2026",
@@ -1735,4 +1744,4 @@ window.INSIGHTS = [
   "editionKey": "evening"
  }
 ];
-window.BUILT_AT = "2026-08-08 05:24";
+window.BUILT_AT = "2026-08-08 23:11";
