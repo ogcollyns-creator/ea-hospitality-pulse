@@ -1,13 +1,13 @@
-# EA Pulse self-audit — 2026-08-08T08:23+03:00 EAT
+# EA Pulse self-audit — 2026-08-08T08:38+03:00 EAT
 **Health 53% · grade D** — 2 FAIL, 4 WARN, 4 PASS
 
 | | Check | Status | Detail |
 |-|-|-|-|
 | 🔴 | source coverage | FAIL | 118 tier-1 sources: 85 HEALTHY, 19 MUTE, 14 SILENT. Blind examples: ke-tenders, ug-bou, tz-mnrt, tz-tanapa, tz-immigration, tz-tenders |
 | 🟢 | source staleness | PASS | No tier-1 HEALTHY source silent >14d. |
-| 🟢 | radar feed freshness | PASS | 374 in-window obs; newest observation 1.1h old (2026-08-08T07:19:00+03:00). |
+| 🟢 | radar feed freshness | PASS | 437 in-window obs; newest observation 0.1h old (2026-08-08T08:32:00+03:00). |
 | 🟡 | edition cadence | WARN | Missing slots (last 2 full days): 2026-08-06 morning |
-| 🟡 | signal quality | WARN | 9/14 editions in last 7d were Tier 2/3 (thin). Share 64%. |
+| 🟡 | signal quality | WARN | 10/15 editions in last 7d were Tier 2/3 (thin). Share 67%. |
 | 🟡 | ledger hygiene | WARN | 58 calls: 52 open, 6 resolved. Overdue-open: 0. Missing source_url: 18. |
 | 🟢 | data freshness | PASS | All tracked data files within their freshness limits. |
 | 🟡 | rate-index integrity | WARN | n values seen: [1, 5, 6, 8, 9, 10]; confident true=28 false=4. |
