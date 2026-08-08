@@ -1,5 +1,5 @@
 window.LEDGER = {
- "updated": "2026-08-07 14:34",
+ "updated": "2026-08-08 08:23",
  "stats": {
   "total": 58,
   "open": 52,

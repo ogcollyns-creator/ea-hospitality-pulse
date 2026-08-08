@@ -1,5 +1,14 @@
 window.EDITIONS = [
  {
+  "id": "pulse-2026-08-08-morning",
+  "date": "2026-08-08",
+  "dateDisplay": "Saturday, 8 August 2026",
+  "edition": "Morning Brief",
+  "editionKey": "morning",
+  "summary": "No new wire this morning — so here is the ledger audit nobody else runs, now four days out from the call that matters, with a fresh number behind it.",
+  "bodyHtml": "<p><span class=\"meta-line\">🏨 EA HOSPITALITY PULSE — Morning Brief</span><br><span class=\"meta-line\">📅 Saturday, 8 August 2026 | 🇰🇪🇹🇿🇺🇬🇷🇼</span></p>\n<p>No new wire this morning — so here is the ledger audit nobody else runs, now four days out from the call that matters, with a fresh number behind it.<br>━━━━━━━━━<br><span class=\"item-head\">1️⃣ FORECAST CHECK-IN — FOUR DAYS TO 12 AUGUST, AND THE REAL QUESTION IS UGANDA</span><br>The US CDC&#x27;s §362 Ebola entry suspension (DRC, Uganda, South Sudan) still expires Tuesday 12 August. Re-checked this morning: the latest CDC order remains the one published 16 July (effective 13 July) — no early renewal, no early lapse. The DRC epidemiology behind it hardened again: 4,053 confirmed cases and 1,850 deaths to 5 August (ECDC, updated 7 Aug), up from 3,874 a week earlier.<br>But watch the split. DRC&#x27;s numbers argue for renewal (P044/P047). Uganda&#x27;s argue the other way — Ebola-free since 28 July, last case 21 June, now 48 days clear. The operator question on 12 Aug is not &quot;renew or lift&quot; — it&#x27;s whether CDC decouples Uganda from DRC and drops it from the list (P035, our early signal).<br><span class=\"sowhat\">🎯 So what: keep the ban in your base case past 12 Aug — but if you run Uganda bush or Entebbe city rooms, 12 Aug is the date a US-source recovery could get its first green light. Have your trade-partner note drafted for either outcome.</span><br><span class=\"tagline\">🏷 All | Regional/Uganda | Reported</span></p>\n<p><span class=\"item-head\">2️⃣ STILL TRUE — THE ADVISORY BOARD HASN&#x27;T MOVED</span><br>US: Kenya L2, Tanzania L3, Zanzibar L3, Uganda L4, Rwanda L3. UK: Kenya L2, Tanzania/Zanzibar L1, Uganda L3, Rwanda L2. Uganda&#x27;s US Level 4 stands — the 5 Aug State Department commendation of Uganda&#x27;s own Ebola response is goodwill, not a downgrade. No government moved a level overnight.<br><span class=\"sowhat\">🎯 So what: a confirmed &quot;no change&quot; tells you not to discount on advisory grounds. Hold rate and hold your security messaging.</span><br><span class=\"tagline\">🏷 All | Regional | Confirmed</span></p>\n<p><span class=\"item-head\">3️⃣ COST PULSE — THE PUMP-PRICE WINDOW CLOSES IN SIX DAYS</span><br>Kenya diesel is held at KSh 222.86/L and super at KSh 214.03/L only through 14 August (EPRA July review) — propped by a KSh 945m levy draw and the 8% petroleum VAT rate extended to 14 Oct. KES steady at 129.30/USD; reserves 6.0 months&#x27; cover. The quiet killer stands: electricity pass-through charges now top KSh 5/kWh.<br><span class=\"sowhat\">🎯 So what: lock safari-transfer and generator-fuel contracts this week, before the ~14–15 Aug review reprices the cycle. Read the pass-through line on the power bill, not the tariff band.</span><br><span class=\"tagline\">🏷 Bush | Kenya | Confirmed</span><br>━━━━━━━━━<br><span class=\"meta-line\">📡 WEEK AHEAD</span><br>• Tue 12 Aug — US CDC §362 entry order expires; watch renewal + whether Uganda is dropped (P035/P044/P047/P056/P057 resolve)<br>• Thu–Fri 14–15 Aug — EPRA fuel review (P025/P028 resolve)<br>• Mon 18 Aug — WHO IHR Emergency Committee on Bundibugyo — could adjust the PHEIC (P052)<br>• 19–21 Aug — Hotel Expo Kenya, KICC Nairobi — a city-hotel midweek compression window</p>\n<p><span class=\"meta-line\">📡 RADAR: 374 in-window observations since 7 Aug 18:00 EAT. Top signal was again a Federal Register CDC page-change (first seen 07:19 EAT) — opened and cleared: no new Ebola order behind it. The rest was Kenyan gazette cause-lists and a global airline schedule filing (Delta Seattle–Tokyo) — noise for our market.</span></p>\n<p>🔗 This edition on the web: https://eahospitalitypulse.com/editions/pulse-2026-08-08-morning.html<br>— EA Hospitality Pulse | Daily intelligence for city, bush &amp; beach properties</p>"
+ },
+ {
   "id": "pulse-2026-08-07-evening",
   "date": "2026-08-07",
   "dateDisplay": "Friday, 7 August 2026",
@@ -361,6 +370,21 @@ window.EDITIONS = [
  }
 ];
 window.INSIGHTS = [
+ {
+  "headline": "COST PULSE — THE PUMP-PRICE WINDOW CLOSES IN SIX DAYS",
+  "body": "Kenya diesel is held at KSh 222.86/L and super at KSh 214.03/L only through 14 August (EPRA July review) — propped by a KSh 945m levy draw and the 8% petroleum VAT rate extended to 14 Oct. KES steady at 129.30/USD; reserves 6.0 months' cover. The quiet killer stands: electricity pass-through charges now top KSh 5/kWh.",
+  "sowhat": "🎯 So what: lock safari-transfer and generator-fuel contracts this week, before the ~14–15 Aug review reprices the cycle. Read the pass-through line on the power bill, not the tariff band.",
+  "segments": [
+   "bush"
+  ],
+  "countries": "Kenya",
+  "confidence": "Confirmed",
+  "source": "pulse-2026-08-08-morning",
+  "date": "2026-08-08",
+  "dateDisplay": "Saturday, 8 August 2026",
+  "edition": "Morning Brief",
+  "editionKey": "morning"
+ },
  {
   "headline": "COST PULSE — THE PUMP-PRICE WINDOW CLOSES IN A WEEK",
   "body": "Kenya diesel is held at KSh 222.86/L and super at KSh 214.03/L only through 14 August (EPRA July review) — propped by a KSh 945m levy draw and the 8% petroleum VAT rate extended to 14 Oct. KES steady at 129.30/USD; reserves 6.0 months' cover. The quiet killer stands: electricity pass-through charges now top KSh 5/kWh.",
@@ -1711,4 +1735,4 @@ window.INSIGHTS = [
   "editionKey": "evening"
  }
 ];
-window.BUILT_AT = "2026-08-07 14:34";
+window.BUILT_AT = "2026-08-08 08:23";
