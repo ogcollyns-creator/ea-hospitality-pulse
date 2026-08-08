@@ -1,18 +1,53 @@
 {
- "generated": "2026-08-08T02:51:44+03:00",
+ "generated": "2026-08-08T07:21:55+03:00",
  "slot": "morning",
  "window_start": 1786114800,
- "observations_in_window": 331,
- "deduped_against": 43,
+ "observations_in_window": 374,
+ "deduped_against": 41,
  "candidates": [
   {
-   "score": 104.7,
+   "score": 117.8,
+   "components": {
+    "tier": 40,
+    "category": 32,
+    "lead": 12.0,
+    "relevance": 8,
+    "freshness": 19.8,
+    "corroborated": 10,
+    "page_change": -4
+   },
+   "keywords": [
+    "fee"
+   ],
+   "shock_terms": [],
+   "dedupe_match": null,
+   "dedupe_similarity": 0.14,
+   "id": "c12e5a3ec222",
+   "title": "[page changed] Federal Register \u2014 CDC notices",
+   "url": "https://www.federalregister.gov/api/v1/documents.rss?conditions%5Bagencies%5D%5B%5D=centers-for-disease-control-and-prevention&order=newest",
+   "summary": "Federal Register Documents published on or after 07/09/2026 and from Centers for Disease Control and Prevention https://www.federalregister.gov/api/v1/documents.rss?conditions%5Bagencies%5D%5B%5D=centers-for-disease-control-and-prevention&order=newest Fri, 07 Aug 2026 04:00:00 GMT The documents in this feed originate from FederalRegister.gov which displays an unofficial web version of the daily Fe",
+   "kind": "page-change",
+   "source": "Federal Register \u2014 CDC notices",
+   "source_id": "us-fedreg-cdc",
+   "tier": 1,
+   "country": "REG",
+   "category": "advisory",
+   "segments": [
+    "city",
+    "bush"
+   ],
+   "first_seen": "2026-08-08T07:19+03:00",
+   "published": "2026-09-07",
+   "verdict": "OPEN THIS \u2014 tier-1 advisory page moved; content not auto-parsed, read it manually"
+  },
+  {
+   "score": 99.7,
    "components": {
     "tier": 40,
     "category": 24,
     "lead": 4.8,
     "relevance": 12,
-    "freshness": 11.9,
+    "freshness": 6.9,
     "undated": -6,
     "shock": 18
    },
@@ -44,13 +79,47 @@
    "verdict": "LEAD CANDIDATE \u2014 tier-1 shock language"
   },
   {
-   "score": 59.1,
+   "score": 65.3,
    "components": {
     "tier": 40,
     "category": 12,
     "lead": 3.6,
     "relevance": 0,
-    "freshness": 13.5,
+    "freshness": 19.7,
+    "undated": -6,
+    "page_change": -4
+   },
+   "keywords": [],
+   "shock_terms": [],
+   "dedupe_match": null,
+   "dedupe_similarity": 0.0,
+   "id": "75fdaa7715e5",
+   "title": "[page changed] Jambojet media",
+   "url": "https://www.jambojet.com/en/press-release",
+   "summary": "Request unsuccessful. Incapsula incident ID: 1024000031652878634-242163489009828056",
+   "kind": "page-change",
+   "source": "Jambojet media",
+   "source_id": "air-jambojet",
+   "tier": 1,
+   "country": "KE",
+   "category": "airline",
+   "segments": [
+    "city",
+    "bush",
+    "beach"
+   ],
+   "first_seen": "2026-08-08T07:18+03:00",
+   "published": null,
+   "verdict": "OPEN THIS \u2014 tier-1 airline page moved; content not auto-parsed, read it manually"
+  },
+  {
+   "score": 54.1,
+   "components": {
+    "tier": 40,
+    "category": 12,
+    "lead": 3.6,
+    "relevance": 0,
+    "freshness": 8.5,
     "undated": -6,
     "page_change": -4
    },
@@ -78,13 +147,13 @@
    "verdict": "OPEN THIS \u2014 tier-1 airline page moved; content not auto-parsed, read it manually"
   },
   {
-   "score": 57.4,
+   "score": 52.5,
    "components": {
     "tier": 40,
     "category": 12,
     "lead": 3.6,
     "relevance": 0,
-    "freshness": 11.8,
+    "freshness": 6.9,
     "undated": -6,
     "page_change": -4
    },
@@ -112,14 +181,13 @@
    "verdict": "OPEN THIS \u2014 tier-1 airline page moved; content not auto-parsed, read it manually"
   },
   {
-   "score": 105.7,
+   "score": 90.7,
    "components": {
     "tier": 40,
     "category": 20,
     "lead": 12.0,
     "relevance": 8,
-    "freshness": 15.7,
-    "corroborated": 10
+    "freshness": 10.7
    },
    "keywords": [
     "capacity"
@@ -147,14 +215,49 @@
    "verdict": "STRONG \u2014 tier-1, upstream"
   },
   {
-   "score": 101.8,
+   "score": 88.2,
+   "components": {
+    "tier": 20,
+    "category": 14,
+    "lead": 8.4,
+    "relevance": 16,
+    "freshness": 19.8,
+    "corroborated": 10
+   },
+   "keywords": [
+    "route",
+    "seat"
+   ],
+   "shock_terms": [],
+   "dedupe_match": null,
+   "dedupe_similarity": 0.14,
+   "id": "0c79070248dd",
+   "title": "Delta Resumes Seattle \u2013 Tokyo Narita From late-March 2027",
+   "url": "https://www.aeroroutes.com/eng/260807-dlns27nrt",
+   "summary": "Published at 2000PDT 07AUG26 / 0300GMT 08AUG26 Delta during the weekend of 07AUG26\u2019s schedule update filed operational schedule for Seattle \u2013 Tokyo Narita route, as the Skyteam member resumes this route for the first time since 2020. This also marks the return of Delta\u2019s service at Tokyo Narita. Airbus A330-900neo aircraft to serve this route on daily basis from 27MAR27. DL115 SEA1335 \u2013 1620+1NRT ",
+   "kind": "item",
+   "source": "AeroRoutes schedule filings",
+   "source_id": "aeroroutes",
+   "tier": 2,
+   "country": "GLOBAL",
+   "category": "aviation-tracker",
+   "segments": [
+    "city",
+    "bush",
+    "beach"
+   ],
+   "first_seen": "2026-08-08T07:19+03:00",
+   "published": "2026-08-08",
+   "verdict": "CONSIDER"
+  },
+  {
+   "score": 86.8,
    "components": {
     "tier": 40,
     "category": 20,
     "lead": 12.0,
     "relevance": 0,
-    "freshness": 19.8,
-    "corroborated": 10
+    "freshness": 14.8
    },
    "keywords": [],
    "shock_terms": [],
@@ -177,82 +280,95 @@
    ],
    "first_seen": "2026-08-08T02:50+03:00",
    "published": "2026-08-06",
-   "verdict": "STRONG \u2014 tier-1, upstream"
+   "verdict": "CONSIDER"
   },
   {
-   "score": 97.7,
+   "score": 86.2,
    "components": {
-    "tier": 40,
-    "category": 20,
-    "lead": 12.0,
-    "relevance": 0,
-    "freshness": 15.7,
-    "corroborated": 10
+    "tier": 20,
+    "category": 24,
+    "lead": 2.4,
+    "relevance": 12,
+    "freshness": 19.8,
+    "undated": -6,
+    "shock": 18,
+    "page_change": -4
    },
-   "keywords": [],
-   "shock_terms": [],
+   "keywords": [
+    "outbreak"
+   ],
+   "shock_terms": [
+    "outbreak"
+   ],
    "dedupe_match": null,
-   "dedupe_similarity": 0.29,
-   "id": "2432d286b911",
-   "title": "Republic v Hamisi (Sexual Offence E045 of 2025) [2026] KEMC 426 (KLR) (6 August 2026) (Judgment)",
-   "url": "https://new.kenyalaw.org/akn/ke/judgment/kemc/2026/426/eng@2026-08-06",
-   "summary": "Republic v Hamisi (Sexual Offence E045 of 2025) [2026] KEMC 426 (KLR) (6 August 2026) (Judgment)",
-   "kind": "item",
-   "source": "Kenya Gazette (Kenya Law)",
-   "source_id": "ke-gazette",
-   "tier": 1,
-   "country": "KE",
-   "category": "gazette",
+   "dedupe_similarity": 0.17,
+   "id": "8d2ba7883fb9",
+   "title": "[page changed] ProMED-mail",
+   "url": "https://promedmail.org/",
+   "summary": "Protecting Global Health, One Alert at a Time | ProMED Previous slide Next slide Protecting Global Health, One Alert at a Time ProMED: Your 24/7 early warning system for emerging infectious diseases worldwide. Subscribe ProMED's Weekly Pulse A snapshot of global health events from the past 7 days Latest Posts on ProMED All Date Title Sat Aug 08 2026 VIBRIO VULNIFICUS - USA (04): (LOUISIANA) 5 DEAT",
+   "kind": "page-change",
+   "source": "ProMED-mail",
+   "source_id": "promed",
+   "tier": 2,
+   "country": "GLOBAL",
+   "category": "health",
    "segments": [
     "city",
     "bush",
     "beach"
    ],
-   "first_seen": "2026-08-07T23:05+03:00",
-   "published": "2026-08-06",
-   "verdict": "STRONG \u2014 tier-1, upstream"
+   "first_seen": "2026-08-08T07:19+03:00",
+   "published": null,
+   "verdict": "CONSIDER"
   },
   {
-   "score": 97.7,
+   "score": 83.8,
    "components": {
-    "tier": 40,
-    "category": 20,
-    "lead": 12.0,
-    "relevance": 0,
-    "freshness": 15.7,
-    "corroborated": 10
+    "tier": 20,
+    "category": 4,
+    "lead": 0.0,
+    "relevance": 28,
+    "freshness": 19.8,
+    "undated": -6,
+    "shock": 18
    },
-   "keywords": [],
-   "shock_terms": [],
+   "keywords": [
+    "evacuat",
+    "cancel",
+    "flight"
+   ],
+   "shock_terms": [
+    "evacuat"
+   ],
    "dedupe_match": null,
-   "dedupe_similarity": 0.29,
-   "id": "48759e8b1e89",
-   "title": "KKM alias K v Republic (Criminal Appeal E091 of 2025) [2026] KEHC 12536 (KLR) (6 August 2026) (Judgment)",
-   "url": "https://new.kenyalaw.org/akn/ke/judgment/kehc/2026/12536/eng@2026-08-06",
-   "summary": "KKM alias K v Republic (Criminal Appeal E091 of 2025) [2026] KEHC 12536 (KLR) (6 August 2026) (Judgment)",
+   "dedupe_similarity": 0.0,
+   "id": "9952c906ca0d",
+   "title": "international Japan orders evacuations as Typhoon Dolphin approaches, cancels 500 flights Yesterday - 2 min read",
+   "url": "https://www.thecitizen.co.tz/tanzania/news/international/japan-orders-evacuations-as-typhoon-dolphin-approaches-cancels-500-flights-5549418",
+   "summary": "",
    "kind": "item",
-   "source": "Kenya Gazette (Kenya Law)",
-   "source_id": "ke-gazette",
-   "tier": 1,
-   "country": "KE",
-   "category": "gazette",
+   "source": "The Citizen (Tanzania)",
+   "source_id": "np-citizen-tz",
+   "tier": 2,
+   "country": "TZ",
+   "category": "press",
    "segments": [
     "city",
     "bush",
     "beach"
    ],
-   "first_seen": "2026-08-07T23:05+03:00",
-   "published": "2026-08-06",
-   "verdict": "STRONG \u2014 tier-1, upstream"
+   "first_seen": "2026-08-08T07:19+03:00",
+   "published": null,
+   "verdict": "CONSIDER"
   },
   {
-   "score": 88.2,
+   "score": 83.2,
    "components": {
     "tier": 20,
     "category": 14,
     "lead": 8.4,
     "relevance": 16,
-    "freshness": 19.8,
+    "freshness": 14.8,
     "corroborated": 10
    },
    "keywords": [
@@ -283,13 +399,77 @@
    "verdict": "CONSIDER"
   },
   {
-   "score": 85.6,
+   "score": 82.7,
+   "components": {
+    "tier": 40,
+    "category": 20,
+    "lead": 12.0,
+    "relevance": 0,
+    "freshness": 10.7
+   },
+   "keywords": [],
+   "shock_terms": [],
+   "dedupe_match": null,
+   "dedupe_similarity": 0.29,
+   "id": "2432d286b911",
+   "title": "Republic v Hamisi (Sexual Offence E045 of 2025) [2026] KEMC 426 (KLR) (6 August 2026) (Judgment)",
+   "url": "https://new.kenyalaw.org/akn/ke/judgment/kemc/2026/426/eng@2026-08-06",
+   "summary": "Republic v Hamisi (Sexual Offence E045 of 2025) [2026] KEMC 426 (KLR) (6 August 2026) (Judgment)",
+   "kind": "item",
+   "source": "Kenya Gazette (Kenya Law)",
+   "source_id": "ke-gazette",
+   "tier": 1,
+   "country": "KE",
+   "category": "gazette",
+   "segments": [
+    "city",
+    "bush",
+    "beach"
+   ],
+   "first_seen": "2026-08-07T23:05+03:00",
+   "published": "2026-08-06",
+   "verdict": "CONSIDER"
+  },
+  {
+   "score": 82.7,
+   "components": {
+    "tier": 40,
+    "category": 20,
+    "lead": 12.0,
+    "relevance": 0,
+    "freshness": 10.7
+   },
+   "keywords": [],
+   "shock_terms": [],
+   "dedupe_match": null,
+   "dedupe_similarity": 0.29,
+   "id": "48759e8b1e89",
+   "title": "KKM alias K v Republic (Criminal Appeal E091 of 2025) [2026] KEHC 12536 (KLR) (6 August 2026) (Judgment)",
+   "url": "https://new.kenyalaw.org/akn/ke/judgment/kehc/2026/12536/eng@2026-08-06",
+   "summary": "KKM alias K v Republic (Criminal Appeal E091 of 2025) [2026] KEHC 12536 (KLR) (6 August 2026) (Judgment)",
+   "kind": "item",
+   "source": "Kenya Gazette (Kenya Law)",
+   "source_id": "ke-gazette",
+   "tier": 1,
+   "country": "KE",
+   "category": "gazette",
+   "segments": [
+    "city",
+    "bush",
+    "beach"
+   ],
+   "first_seen": "2026-08-07T23:05+03:00",
+   "published": "2026-08-06",
+   "verdict": "CONSIDER"
+  },
+  {
+   "score": 80.7,
    "components": {
     "tier": 40,
     "category": 15,
     "lead": 16.8,
     "relevance": 8,
-    "freshness": 11.8,
+    "freshness": 6.9,
     "undated": -6
    },
    "keywords": [
@@ -318,13 +498,13 @@
    "verdict": "CONSIDER"
   },
   {
-   "score": 85.6,
+   "score": 80.7,
    "components": {
     "tier": 40,
     "category": 15,
     "lead": 16.8,
     "relevance": 8,
-    "freshness": 11.8,
+    "freshness": 6.9,
     "undated": -6
    },
    "keywords": [
@@ -353,13 +533,13 @@
    "verdict": "CONSIDER"
   },
   {
-   "score": 85.6,
+   "score": 80.7,
    "components": {
     "tier": 40,
     "category": 15,
     "lead": 16.8,
     "relevance": 8,
-    "freshness": 11.8,
+    "freshness": 6.9,
     "undated": -6
    },
    "keywords": [
@@ -388,13 +568,13 @@
    "verdict": "CONSIDER"
   },
   {
-   "score": 84.1,
+   "score": 79.1,
    "components": {
     "tier": 20,
     "category": 14,
     "lead": 8.4,
     "relevance": 16,
-    "freshness": 15.7,
+    "freshness": 10.7,
     "corroborated": 10
    },
    "keywords": [
@@ -425,13 +605,13 @@
    "verdict": "CONSIDER"
   },
   {
-   "score": 84.1,
+   "score": 79.1,
    "components": {
     "tier": 20,
     "category": 14,
     "lead": 8.4,
     "relevance": 16,
-    "freshness": 15.7,
+    "freshness": 10.7,
     "corroborated": 10
    },
    "keywords": [
@@ -462,13 +642,13 @@
    "verdict": "CONSIDER"
   },
   {
-   "score": 83.8,
+   "score": 78.8,
    "components": {
     "tier": 20,
     "category": 4,
     "lead": 0.0,
     "relevance": 28,
-    "freshness": 19.8,
+    "freshness": 14.8,
     "undated": -6,
     "shock": 18
    },
@@ -502,13 +682,13 @@
    "verdict": "CONSIDER"
   },
   {
-   "score": 81.8,
+   "score": 76.8,
    "components": {
     "tier": 40,
     "category": 20,
     "lead": 12.0,
     "relevance": 0,
-    "freshness": 19.8,
+    "freshness": 14.8,
     "stale_trap": -10
    },
    "keywords": [],
@@ -535,13 +715,13 @@
    "verdict": "CHECK \u2014 source date older than the window"
   },
   {
-   "score": 80.3,
+   "score": 75.3,
    "components": {
     "tier": 20,
     "category": 14,
     "lead": 8.4,
     "relevance": 16,
-    "freshness": 11.9,
+    "freshness": 6.9,
     "corroborated": 10
    },
    "keywords": [
@@ -572,13 +752,13 @@
    "verdict": "CONSIDER"
   },
   {
-   "score": 79.7,
+   "score": 74.7,
    "components": {
     "tier": 20,
     "category": 4,
     "lead": 0.0,
     "relevance": 28,
-    "freshness": 15.7,
+    "freshness": 10.7,
     "undated": -6,
     "shock": 18
    },
@@ -612,13 +792,13 @@
    "verdict": "CONSIDER"
   },
   {
-   "score": 77.9,
+   "score": 72.9,
    "components": {
     "tier": 5,
     "category": 5,
     "lead": 0.0,
     "relevance": 28,
-    "freshness": 11.9,
+    "freshness": 6.9,
     "corroborated": 10,
     "shock": 18
    },
@@ -652,13 +832,13 @@
    "verdict": "CONSIDER"
   },
   {
-   "score": 77.7,
+   "score": 72.7,
    "components": {
     "tier": 40,
     "category": 20,
     "lead": 12.0,
     "relevance": 0,
-    "freshness": 15.7,
+    "freshness": 10.7,
     "stale_trap": -10
    },
    "keywords": [],
@@ -685,13 +865,13 @@
    "verdict": "CHECK \u2014 source date older than the window"
   },
   {
-   "score": 77.7,
+   "score": 72.7,
    "components": {
     "tier": 40,
     "category": 20,
     "lead": 12.0,
     "relevance": 0,
-    "freshness": 15.7,
+    "freshness": 10.7,
     "stale_trap": -10
    },
    "keywords": [],
@@ -718,13 +898,13 @@
    "verdict": "CHECK \u2014 source date older than the window"
   },
   {
-   "score": 77.7,
+   "score": 72.7,
    "components": {
     "tier": 40,
     "category": 20,
     "lead": 12.0,
     "relevance": 0,
-    "freshness": 15.7,
+    "freshness": 10.7,
     "stale_trap": -10
    },
    "keywords": [],
@@ -751,13 +931,13 @@
    "verdict": "CHECK \u2014 source date older than the window"
   },
   {
-   "score": 77.7,
+   "score": 72.7,
    "components": {
     "tier": 40,
     "category": 20,
     "lead": 12.0,
     "relevance": 0,
-    "freshness": 15.7,
+    "freshness": 10.7,
     "stale_trap": -10
    },
    "keywords": [],
@@ -784,13 +964,13 @@
    "verdict": "CHECK \u2014 source date older than the window"
   },
   {
-   "score": 77.7,
+   "score": 72.7,
    "components": {
     "tier": 40,
     "category": 20,
     "lead": 12.0,
     "relevance": 0,
-    "freshness": 15.7,
+    "freshness": 10.7,
     "stale_trap": -10
    },
    "keywords": [],
@@ -817,13 +997,13 @@
    "verdict": "CHECK \u2014 source date older than the window"
   },
   {
-   "score": 77.7,
+   "score": 72.7,
    "components": {
     "tier": 40,
     "category": 20,
     "lead": 12.0,
     "relevance": 0,
-    "freshness": 15.7,
+    "freshness": 10.7,
     "stale_trap": -10
    },
    "keywords": [],
@@ -850,13 +1030,13 @@
    "verdict": "CHECK \u2014 source date older than the window"
   },
   {
-   "score": 77.7,
+   "score": 72.7,
    "components": {
     "tier": 40,
     "category": 20,
     "lead": 12.0,
     "relevance": 0,
-    "freshness": 15.7,
+    "freshness": 10.7,
     "stale_trap": -10
    },
    "keywords": [],
@@ -883,13 +1063,13 @@
    "verdict": "CHECK \u2014 source date older than the window"
   },
   {
-   "score": 77.7,
+   "score": 72.7,
    "components": {
     "tier": 40,
     "category": 20,
     "lead": 12.0,
     "relevance": 0,
-    "freshness": 15.7,
+    "freshness": 10.7,
     "stale_trap": -10
    },
    "keywords": [],
@@ -916,13 +1096,13 @@
    "verdict": "CHECK \u2014 source date older than the window"
   },
   {
-   "score": 77.5,
+   "score": 72.5,
    "components": {
     "tier": 20,
     "category": 4,
     "lead": 0.0,
     "relevance": 28,
-    "freshness": 13.5,
+    "freshness": 8.5,
     "undated": -6,
     "shock": 18
    },
@@ -956,13 +1136,13 @@
    "verdict": "CONSIDER"
   },
   {
-   "score": 76.3,
+   "score": 71.3,
    "components": {
     "tier": 20,
     "category": 14,
     "lead": 8.4,
     "relevance": 12,
-    "freshness": 11.9,
+    "freshness": 6.9,
     "corroborated": 10
    },
    "keywords": [
@@ -992,13 +1172,13 @@
    "verdict": "CONSIDER"
   },
   {
-   "score": 76.1,
+   "score": 71.1,
    "components": {
     "tier": 20,
     "category": 14,
     "lead": 8.4,
     "relevance": 8,
-    "freshness": 15.7,
+    "freshness": 10.7,
     "corroborated": 10
    },
    "keywords": [
@@ -1027,13 +1207,13 @@
    "verdict": "CONSIDER"
   },
   {
-   "score": 76.1,
+   "score": 71.1,
    "components": {
     "tier": 20,
     "category": 5,
     "lead": 3.6,
     "relevance": 24,
-    "freshness": 13.5,
+    "freshness": 8.5,
     "corroborated": 10
    },
    "keywords": [
@@ -1065,13 +1245,13 @@
    "verdict": "CONSIDER"
   },
   {
-   "score": 75.9,
+   "score": 70.9,
    "components": {
     "tier": 20,
     "category": 4,
     "lead": 0.0,
     "relevance": 28,
-    "freshness": 11.9,
+    "freshness": 6.9,
     "undated": -6,
     "shock": 18
    },
@@ -1105,13 +1285,13 @@
    "verdict": "CONSIDER"
   },
   {
-   "score": 75.7,
+   "score": 70.7,
    "components": {
     "tier": 20,
     "category": 4,
     "lead": 0.0,
     "relevance": 24,
-    "freshness": 15.7,
+    "freshness": 10.7,
     "undated": -6,
     "shock": 18
    },
@@ -1145,13 +1325,13 @@
    "verdict": "CONSIDER"
   },
   {
-   "score": 75.7,
+   "score": 70.7,
    "components": {
     "tier": 20,
     "category": 4,
     "lead": 0.0,
     "relevance": 24,
-    "freshness": 15.7,
+    "freshness": 10.7,
     "undated": -6,
     "shock": 18
    },
@@ -1184,13 +1364,49 @@
    "verdict": "CONSIDER"
   },
   {
-   "score": 75.1,
+   "score": 70.4,
+   "components": {
+    "tier": 20,
+    "category": 5,
+    "lead": 3.6,
+    "relevance": 12,
+    "freshness": 19.8,
+    "corroborated": 10
+   },
+   "keywords": [
+    "vat",
+    "hotel"
+   ],
+   "shock_terms": [],
+   "dedupe_match": null,
+   "dedupe_similarity": 0.17,
+   "id": "b9408bd7f278",
+   "title": "Diving deeper: Hidden insights from Travel Dreams 2026",
+   "url": "https://www.hospitalitynet.org/opinion/4133864/diving-deeper-hidden-insights-from-travel-dreams-2026",
+   "summary": "Amadeus surveyed 6,000 travelers and 500 hoteliers for Travel Dreams 2026, uncovering key trends in AI adoption, loyalty program innovation, and user-generated content as a demand driver.",
+   "kind": "item",
+   "source": "Hospitality Net \u2014 Africa announcements",
+   "source_id": "dev-hospitalitynet-africa",
+   "tier": 2,
+   "country": "REG",
+   "category": "trade",
+   "segments": [
+    "city",
+    "bush",
+    "beach"
+   ],
+   "first_seen": "2026-08-08T07:19+03:00",
+   "published": "2026-08-07",
+   "verdict": "CONSIDER"
+  },
+  {
+   "score": 70.1,
    "components": {
     "tier": 40,
     "category": 24,
     "lead": 3.6,
     "relevance": 0,
-    "freshness": 13.5,
+    "freshness": 8.5,
     "undated": -6
    },
    "keywords": [],
@@ -1213,208 +1429,6 @@
     "beach"
    ],
    "first_seen": "2026-08-07T21:06+03:00",
-   "published": null,
-   "verdict": "CONSIDER"
-  },
-  {
-   "score": 75.1,
-   "components": {
-    "tier": 40,
-    "category": 24,
-    "lead": 3.6,
-    "relevance": 0,
-    "freshness": 13.5,
-    "undated": -6
-   },
-   "keywords": [],
-   "shock_terms": [],
-   "dedupe_match": null,
-   "dedupe_similarity": 0.29,
-   "id": "b01da526db7f",
-   "title": "Communicable disease threats report, 25 - 31 July 2026, week 31",
-   "url": "https://www.ecdc.europa.eu/en/publications-data/communicable-disease-threats-report-25-31-july-2026-week-31",
-   "summary": "",
-   "kind": "item",
-   "source": "ECDC weekly communicable disease threats report",
-   "source_id": "ecdc-cdtr",
-   "tier": 1,
-   "country": "GLOBAL",
-   "category": "health",
-   "segments": [
-    "city",
-    "bush",
-    "beach"
-   ],
-   "first_seen": "2026-08-07T21:06+03:00",
-   "published": null,
-   "verdict": "CONSIDER"
-  },
-  {
-   "score": 75.1,
-   "components": {
-    "tier": 40,
-    "category": 24,
-    "lead": 3.6,
-    "relevance": 0,
-    "freshness": 13.5,
-    "undated": -6
-   },
-   "keywords": [],
-   "shock_terms": [],
-   "dedupe_match": null,
-   "dedupe_similarity": 0.29,
-   "id": "cc70f751f4c5",
-   "title": "Communicable disease threats report, 11 - 17 July 2026, week 29",
-   "url": "https://www.ecdc.europa.eu/en/publications-data/communicable-disease-threats-report-11-17-july-2026-week-29",
-   "summary": "",
-   "kind": "item",
-   "source": "ECDC weekly communicable disease threats report",
-   "source_id": "ecdc-cdtr",
-   "tier": 1,
-   "country": "GLOBAL",
-   "category": "health",
-   "segments": [
-    "city",
-    "bush",
-    "beach"
-   ],
-   "first_seen": "2026-08-07T21:06+03:00",
-   "published": null,
-   "verdict": "CONSIDER"
-  },
-  {
-   "score": 73.8,
-   "components": {
-    "tier": 20,
-    "category": 4,
-    "lead": 0.0,
-    "relevance": 20,
-    "freshness": 19.8,
-    "corroborated": 10
-   },
-   "keywords": [
-    "vat",
-    "wildlife",
-    "camp"
-   ],
-   "shock_terms": [],
-   "dedupe_match": null,
-   "dedupe_similarity": 0.25,
-   "id": "a2423420230a",
-   "title": "TAWA pursues studies on ancient fossils in Ngorongoro",
-   "url": "https://dailynews.co.tz/tawa-pursues-studies-on-ancient-fossils-in-ngorongoro",
-   "summary": "ARUSHA: THE Tanzania Wildlife Management Authority (TAWA) has called for scientific research at a site in Pinyinyi Ward, Ngorongoro District, where numerous animal and possible ancient human bones have been discovered. TAWA Senior Conservator, Mr John Sulle said in Arusha yesterday during a two-day Lake Natron conservation campaign workshop that the site, located in Engaresero \u2026 The post TAWA purs",
-   "kind": "item",
-   "source": "Daily News (Tanzania)",
-   "source_id": "np-dailynews-tz",
-   "tier": 2,
-   "country": "TZ",
-   "category": "press",
-   "segments": [
-    "city",
-    "bush",
-    "beach"
-   ],
-   "first_seen": "2026-08-08T02:50+03:00",
-   "published": "2026-08-08",
-   "verdict": "CONSIDER"
-  },
-  {
-   "score": 72.6,
-   "components": {
-    "tier": 40,
-    "category": 10,
-    "lead": 16.8,
-    "relevance": 0,
-    "freshness": 11.8,
-    "undated": -6
-   },
-   "keywords": [],
-   "shock_terms": [],
-   "dedupe_match": null,
-   "dedupe_similarity": 0.0,
-   "id": "985f9c636f7d",
-   "title": "\ud835\udc0d\ud835\udc00\ud835\udc13\ud835\udc08\ud835\udc0e\ud835\udc0d\ud835\udc00\ud835\udc0b \ud835\udc00\ud835\udc12\ud835\udc12\ud835\udc04\ud835\udc0c\ud835\udc01\ud835\udc0b\ud835\udc18 \ud835\udc00\ud835\udc0f\ud835\udc0f\ud835\udc11\ud835\udc0e\ud835\udc15\ud835\udc04\ud835\udc12 \ud835\udc02\ud835\udc0e\ud835\udc14\ud835\udc0d\ud835\udc13\ud835\udc18 \ud835\udc05\ud835\udc14\ud835\udc0d\ud835\udc03\ud835\udc08\ud835\udc0d\ud835\udc06 \ud835\udc01\ud835\udc08\ud835\udc0b\ud835\udc0b \ud835\udc13\ud835\udc0e \ud835\udc12\ud835\udc13\ud835\udc11\ud835\udc04\ud835\udc0d\ud835\udc06\ud835\udc13\ud835\udc07\ud835\udc04\ud835\udc0d \ud835\udc02\ud835\udc0e\ud835\udc0c\ud835\udc0c\ud835\udc14\ud835\udc0d\ud835\udc08\ud835\udc13\ud835\udc18 \ud835\udc07\ud835\udc04\ud835\udc00\ud835\udc0b\ud835\udc13\ud835\udc07\ud835\udc02\ud835\udc00\ud835\udc11\ud835\udc04 \ud835\udc00\ud835\udc0d\ud835\udc03 \ud835\udc03\ud835\udc04\ud835\udc15\ud835\udc0e\ud835\udc0b\ud835\udc14\ud835\udc13\ud835\udc08\ud835\udc0e\ud835\udc0d",
-   "url": "https://www.parliament.go.ke/index.php/node/26215",
-   "summary": "",
-   "kind": "item",
-   "source": "Parliament of Kenya \u2014 bills & papers",
-   "source_id": "ke-parliament",
-   "tier": 1,
-   "country": "KE",
-   "category": "legislature",
-   "segments": [
-    "city",
-    "bush",
-    "beach"
-   ],
-   "first_seen": "2026-08-07T19:37+03:00",
-   "published": null,
-   "verdict": "CONSIDER"
-  },
-  {
-   "score": 72.6,
-   "components": {
-    "tier": 40,
-    "category": 10,
-    "lead": 16.8,
-    "relevance": 0,
-    "freshness": 11.8,
-    "undated": -6
-   },
-   "keywords": [],
-   "shock_terms": [],
-   "dedupe_match": null,
-   "dedupe_similarity": 0.29,
-   "id": "a77c4c987ec5",
-   "title": "The Hansard - Tuesday, 4 August 2026",
-   "url": "https://www.parliament.go.ke/sites/default/files/2026-08/The%20Hansard%20-%20Tuesday%2C%204%20August%202026.pdf",
-   "summary": "en-GB en-GBREPUBLIC OF KENYA en-GB en-GB en-GB en-GB en-GB en-GBTHIRTEENTH PARLIAMENT en-GB en-GB en-GB en-GB en-GBNATIONAL ASSEMBLY en-GB en-GB en-GB en-GB en-GB en-GBTHE HANSARD en-GB en-GB en-GB en-GB en-GB en-GB4th August 2026 Vol. V No. 67 en-GB 4th August 2026 National Assembly Debates 1 Disclaimer: The electronic version of the Official Hansard Report is for information purposes only. A cer",
-   "kind": "doc",
-   "source": "Parliament of Kenya \u2014 bills & papers",
-   "source_id": "ke-parliament",
-   "tier": 1,
-   "country": "KE",
-   "category": "legislature",
-   "segments": [
-    "city",
-    "bush",
-    "beach"
-   ],
-   "first_seen": "2026-08-07T19:37+03:00",
-   "published": null,
-   "verdict": "CONSIDER"
-  },
-  {
-   "score": 72.6,
-   "components": {
-    "tier": 40,
-    "category": 10,
-    "lead": 16.8,
-    "relevance": 0,
-    "freshness": 11.8,
-    "undated": -6
-   },
-   "keywords": [],
-   "shock_terms": [],
-   "dedupe_match": null,
-   "dedupe_similarity": 0.29,
-   "id": "f385878c93ee",
-   "title": "The Hansard - Wednesday, 5 August 2026 - Morning Sitting",
-   "url": "https://www.parliament.go.ke/sites/default/files/2026-08/The%20Hansard%20-%20Wednesday%2C%205%20August%202026%20%28A%29.pdf",
-   "summary": "en-GB en-GBREPUBLIC OF KENYA en-GB en-GB en-GB en-GB en-GB en-GBTHIRTEENTH PARLIAMENT en-GB en-GB en-GB en-GB en-GBNATIONAL ASSEMBLY en-GB en-GB en-GB en-GB en-GB en-GBTHE HANSARD en-GB en-GB en-GB en-GB en-GB en-GB5th August 2026 Vol. V No. 68 en-GB 5th August 2026 National Assembly Debates 1 Disclaimer: The electronic version of the Official Hansard Report is for information purposes only. A cer",
-   "kind": "doc",
-   "source": "Parliament of Kenya \u2014 bills & papers",
-   "source_id": "ke-parliament",
-   "tier": 1,
-   "country": "KE",
-   "category": "legislature",
-   "segments": [
-    "city",
-    "bush",
-    "beach"
-   ],
-   "first_seen": "2026-08-07T19:37+03:00",
    "published": null,
    "verdict": "CONSIDER"
   }
