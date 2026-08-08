@@ -9,7 +9,7 @@
 // source — mostly hospitality, tourism and business-events trade. Delegate counts are
 // only included where a named source states one; we do not estimate or invent them.
 window.MICE = {
- updated: "3 August 2026",
+ updated: "8 August 2026",
  events: [
   { event:"The Hotel Expo Kenya 2026", city:"Nairobi (KICC)", country:"Kenya", flag:"🇰🇪",
     dates:"19–21 August 2026", status:"Confirmed", delegates:null,
@@ -51,7 +51,14 @@ window.MICE = {
     dates:"24–27 October 2027", status:"Bid won — first Africa host in 20 years", delegates:"2,000+",
     detail:"The International Congress and Convention Association's global congress returns to Africa for the first time in two decades. Brings together association representatives and industry leaders on growth strategy, capacity building and Africa's role in global business events.",
     soWhat:"A 14-month lead time and a confirmed 2,000+ delegate congress at Rwanda's flagship convention venue is about as clean a forward booking signal as this region produces. Kigali hotels and DMCs should be building October 2027 into 2026/27 rate planning now, not waiting for the pre-event rush — this is exactly the kind of confirmed compression a ledger entry is for.",
-    segment:"City", source:"Tourism Update / VoyagesAfriq, Feb 2026", verified:true, flagged:"action" }
+    segment:"City", source:"Tourism Update / VoyagesAfriq, Feb 2026", verified:true, flagged:"action" },
+
+  { event:"Africa Fintech Summit (AFTS) Kigali 2026", city:"Kigali Convention Centre", country:"Rwanda", flag:"🇷🇼",
+    dates:"18–20 November 2026 (main days 18–19)", status:"Confirmed", delegates:null,
+    detail:"The largest bi-annual gathering of Africa's fintech ecosystem — regulators, policymakers, financial-industry executives, fintech founders, investors and startups — returns to the Kigali Convention Centre. Founded 2017; format runs keynotes, workshops, an awards ceremony, exhibition and startup pitch. No official delegate count published for the Kigali edition.",
+    soWhat:"A two-day continental fintech congress at KCC in mid-November is a genuine city-compression event for Kigali, drawing a pan-African regulator-and-investor crowd into the low-season shoulder. It also lands in the SAME week Uganda Airlines launches its daily Entebbe–Kigali service (18 Nov) — twin demand signals on the same dates. Kigali city hotels should hold corporate rate across 17–20 Nov rather than discounting into November.",
+    segment:"City", source:"africafintechsummit.com / Africa Business Communities, verified Aug 2026", verified:true, flagged:"action" }
+
  ],
  caveat: "Coverage favours large, publicly announced trade and business-events gatherings picked up by tourism boards, convention bureaux and trade press — it under-represents smaller academic, medical and association congresses that book a single hotel rather than a citywide block. A missing event here is not evidence one isn't happening; check directly with KICC, Rwanda Convention Bureau, JNICC (Dar) or your local convention bureau for anything sector-specific."
 };
