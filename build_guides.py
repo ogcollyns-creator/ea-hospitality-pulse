@@ -169,21 +169,40 @@ hr{border:none;border-top:1px dashed var(--line);margin:26px 0}
 .sub{font-family:Helvetica Neue,Arial,sans-serif;font-size:14px;color:var(--muted);margin-top:26px;border-top:1px solid var(--line);padding-top:18px;line-height:1.9}
 .sub a{font-weight:600;margin-right:14px}
 footer.s{text-align:center;color:var(--muted);font-family:Helvetica Neue,Arial,sans-serif;font-size:12px;padding:22px}
+.art h1{letter-spacing:-.005em}
+@media(max-width:640px){
+  .wrap{padding:0 16px}
+  .art{padding:22px 18px 28px;margin:16px auto;border-radius:12px}
+  .art h1{font-size:24px}
+  .lede{font-size:16.5px}
+  .art h2{font-size:20px}
+  table{font-size:13.5px}
+}
 """
 
 
 def guide_page(g):
     url = f"{BASE}/guides/{g['slug']}.html"
     author_obj = ({"@type": "Person", "name": g["author"]} if g.get("author")
-                  else {"@type": "Organization", "name": "EA Hospitality Pulse"})
+                  else {"@type": "Organization", "name": "EA Hospitality Pulse", "url": BASE + "/"})
     ld = {
         "@context": "https://schema.org", "@type": "Article",
         "headline": g["title"][:110], "description": g["description"],
-        "dateModified": g["updated"], "url": url, "mainEntityOfPage": url,
+        "datePublished": g["updated"], "dateModified": g["updated"],
+        "url": url, "mainEntityOfPage": url,
+        "image": [f"{BASE}/og/default.png"], "inLanguage": "en", "isAccessibleForFree": True,
         "author": author_obj,
-        "publisher": {"@type": "Organization", "name": "EA Hospitality Pulse"},
+        "publisher": {"@type": "Organization", "name": "EA Hospitality Pulse",
+                      "logo": {"@type": "ImageObject", "url": BASE + "/apple-touch-icon.png"}},
         "about": ["Kenya", "Uganda", "Tanzania", "Zanzibar", "Rwanda", "hospitality", "tourism"],
     }
+    crumbs = {
+        "@context": "https://schema.org", "@type": "BreadcrumbList",
+        "itemListElement": [
+            {"@type": "ListItem", "position": 1, "name": "Home", "item": BASE + "/"},
+            {"@type": "ListItem", "position": 2, "name": "Guides", "item": BASE + "/#guides"},
+            {"@type": "ListItem", "position": 3, "name": g["title"], "item": url},
+        ]}
     upd = g["updated"]
     try:
         upd = datetime.date.fromisoformat(g["updated"]).strftime("%-d %B %Y")
@@ -200,6 +219,8 @@ def guide_page(g):
 <title>{html.escape(g['title'])} | EA Hospitality Pulse</title>
 <meta name="description" content="{html.escape(g['description'])}">
 <link rel="canonical" href="{url}">
+<meta name="robots" content="index,follow,max-image-preview:large,max-snippet:-1">
+<link rel="alternate" type="application/rss+xml" title="EA Hospitality Pulse" href="../feed.xml">
 <meta property="og:type" content="article"><meta property="og:site_name" content="EA Hospitality Pulse">
 <meta property="og:title" content="{html.escape(g['title'])}">
 <meta property="og:description" content="{html.escape(g['description'])}">
@@ -211,6 +232,7 @@ def guide_page(g):
 <meta name="twitter:image" content="{BASE}/og/default.png">
 <link rel="icon" href="../favicon.png"><link rel="apple-touch-icon" href="../apple-touch-icon.png">
 <script type="application/ld+json">{json.dumps(ld)}</script>
+<script type="application/ld+json">{json.dumps(crumbs)}</script>
 <style>{GUIDE_CSS}</style></head>
 <body>
 <header class="s"><div class="wrap"><div class="logo">🏨</div><a href="../index.html"><b>EA Hospitality Pulse</b></a></div></header>
