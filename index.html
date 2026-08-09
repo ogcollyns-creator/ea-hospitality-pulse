@@ -345,13 +345,14 @@
   .pdf-gate-msg{font-family:'Helvetica Neue',Arial,sans-serif;font-size:12.5px;color:#fff;opacity:.9;margin-top:8px}
   .pdf-gate-msg a{color:#fff;text-decoration:underline}
 
+  .foot-links{margin-top:10px;font-size:12.5px}.foot-links a{margin:0 2px}
   footer.site{padding:28px 0;text-align:center;color:var(--muted);font-family:'Helvetica Neue',Arial,sans-serif;font-size:13px}
   @media(max-width:720px){.segs{grid-template-columns:1fr}.about-grid{grid-template-columns:1fr}}
   .pl-rank{font-family:'Helvetica Neue',Arial,sans-serif;font-size:10.5px;font-weight:700;text-transform:uppercase;letter-spacing:.5px;background:var(--gold);color:#231a06;padding:2px 7px;border-radius:20px;margin-left:6px;vertical-align:middle}
   .pl-brand{font-family:'Helvetica Neue',Arial,sans-serif;font-size:12px;font-weight:600;color:var(--muted);background:var(--sand-2);padding:2px 8px;border-radius:20px;margin-left:4px;white-space:nowrap}
   .pl-detail{font-size:14px;color:var(--muted);margin:6px 0 8px;line-height:1.55}
 </style>
-<!--BUILD_STAMP:20260809-1916--></head>
+<!--BUILD_STAMP:20260809-2007--></head>
 <body>
 <header class="site">
   <div class="wrap topbar">
@@ -363,6 +364,7 @@
       <a href="#latest">Latest</a>
       <a href="#archive">Editions</a>
       <a href="#guides">Guides</a>
+      <a href="archive.html">Archive</a>
       <a href="#tools">Tools</a>
       <a href="#track">Track record</a>
       <a href="#subscribe">Subscribe</a>
@@ -628,6 +630,7 @@
   <div class="wrap">
     <p>EA Hospitality Pulse — Daily intelligence for city, bush &amp; beach properties across East Africa.<br>
     <span id="built"></span> · Kenya · Uganda · Tanzania · Zanzibar · Rwanda</p>
+    <p class="foot-links"><a href="archive.html">Archive</a> · <a href="api.html">API</a> · <a href="methodology.html">Methodology</a> · <a href="republish.html">Republish</a> · <a href="privacy.html">Privacy</a> · <a href="terms.html">Terms</a> · <a href="mailto:ceo@eahospitalitypulse.com">Contact</a></p>
   </div>
 </footer>
 
@@ -648,6 +651,7 @@
 <script>document.write('<scr'+'ipt src="ledger.js?t='+Date.now()+'"></scr'+'ipt>');</script>
 <script>document.write('<scr'+'ipt src="rules.js?t='+Date.now()+'"></scr'+'ipt>');</script>
 <script>document.write('<scr'+'ipt src="costs.js?t='+Date.now()+'"></scr'+'ipt>');</script>
+<script>document.write('<scr'+'ipt src="costs-history.js?t='+Date.now()+'"></scr'+'ipt>');</script>
 <script>document.write('<scr'+'ipt src="calendar.js?t='+Date.now()+'"></scr'+'ipt>');</script>
 <script>document.write('<scr'+'ipt src="connectivity.js?t='+Date.now()+'"></scr'+'ipt>');</script>
 <script>document.write('<scr'+'ipt src="pipeline.js?t='+Date.now()+'"></scr'+'ipt>');</script>
@@ -933,6 +937,14 @@
     const withSeries=Object.values(R.markets).filter(m=>m.series.filter(p=>p.index!=null).length>1);
     if(withSeries.length && window.Chart){
       const box=document.getElementById('ri-chartbox'); box.style.display='block';
+      const tot=Object.keys(R.markets).length;
+      if(withSeries.length<tot){
+        const n=document.createElement('p');
+        n.style.cssText='font-family:Helvetica,Arial,sans-serif;font-size:12px;color:var(--muted);margin:8px 0 0';
+        n.textContent=withSeries.length+' of '+tot+' markets have more than one week of observations and can be charted. '+
+          'The rest show a baseline only until a second collection lands.';
+        box.appendChild(n);
+      }
       const weeks=[...new Set(withSeries.flatMap(m=>m.series.map(p=>p.week)))].sort();
       const palette=['#0f6d63','#c8892f','#3a6ea5','#7a8b3c','#1596a3','#a3506b'];
       new Chart(document.getElementById('ri-canvas'),{
@@ -1200,10 +1212,30 @@
   if(applyDeepLink()){ render(); setTimeout(()=>document.getElementById('archive').scrollIntoView({behavior:'smooth'}),300); }
   else { render(); }
 </script>
-<!-- Privacy-friendly analytics. To activate: create a free Cloudflare Web Analytics
-     site (dash.cloudflare.com -> Analytics -> Web Analytics), copy your token, and
-     replace CLOUDFLARE_TOKEN below. No cookies, no consent banner required. -->
+<!-- ============================ ANALYTICS ============================
+     Privacy-first analytics. No cookies, no personal data, no consent banner
+     required — which is why privacy.html can honestly say this site sets none.
+
+     TO ACTIVATE (about two minutes):
+       1. Sign up at plausible.io (or usefathom.com — swap the snippet below).
+       2. Add the site as: eahospitalitypulse.com
+       3. Delete the word DISABLED from the script tag below, then rebuild:
+             python3 build_site.py && git add -A && git commit -m "analytics on" && git push
+
+     Until then the tag is inert: the src points nowhere and nothing loads.
+
+     Both Plausible and Fathom are paid (roughly USD 9-14/month at this traffic).
+     Both are GDPR/CCPA-compliant without a banner and neither sets a cookie.
+     If you would rather not pay, Cloudflare Web Analytics is free and equally
+     cookie-free — the commented alternative at the bottom is ready to use.
+     ================================================================== -->
+<script defer data-domain="eahospitalitypulse.com"
+        src="https://plausible.io/js/script.DISABLED.js"></script>
+
+<!-- Free alternative — uncomment this and delete the Plausible tag above.
+     Get a token at dash.cloudflare.com -> Analytics -> Web Analytics.
 <script defer src="https://static.cloudflareinsights.com/beacon.min.js"
         data-cf-beacon='{"token": "CLOUDFLARE_TOKEN"}'></script>
+-->
 </body>
 </html>

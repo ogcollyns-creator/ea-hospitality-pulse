@@ -8,6 +8,7 @@ Outputs:
 Scans editions-src/*.md. Run: python build_site.py
 """
 import os, re, json, html, datetime, subprocess
+import sys, subprocess
 
 HERE = os.path.dirname(os.path.abspath(__file__))
 SRC = os.path.join(HERE, "editions-src")
@@ -505,7 +506,7 @@ def main():
     open(os.path.join(HERE, "feed.xml"), "w", encoding="utf-8").write("\n".join(rss))
 
     # sitemap.xml
-    urls = [(BASE+"/", today, "daily"), (BASE+"/republish.html", today, "monthly"), (BASE+"/methodology.html", today, "monthly"), (BASE+"/faq.html", today, "monthly"), (BASE+"/start-here.html", today, "monthly"), (BASE+"/survey.html", today, "monthly"), (BASE+"/survey-pay.html", today, "monthly"), (BASE+"/survey-agents.html", today, "monthly"), (BASE+"/credits.html", today, "monthly")]
+    urls = [(BASE+"/", today, "daily"), (BASE+"/republish.html", today, "monthly"), (BASE+"/methodology.html", today, "monthly"), (BASE+"/faq.html", today, "monthly"), (BASE+"/start-here.html", today, "monthly"), (BASE+"/survey.html", today, "monthly"), (BASE+"/survey-pay.html", today, "monthly"), (BASE+"/survey-agents.html", today, "monthly"), (BASE+"/credits.html", today, "monthly"), (BASE+"/archive.html", today, "daily"), (BASE+"/api.html", today, "monthly"), (BASE+"/privacy.html", today, "yearly"), (BASE+"/terms.html", today, "yearly")]
     for g in guides:
         urls.append((f"{BASE}/guides/{g['slug']}.html", g["updated"], "monthly"))
     tools_dir = os.path.join(HERE, "tools")
@@ -536,6 +537,13 @@ def main():
         subprocess.run(["python3", os.path.join(HERE, "build_ledger.py")], check=False)
     except Exception as e:
         print("ledger build skipped:", e)
+
+    # Keep derived artefacts in step with the site build.
+    for _step in ("build_search_index.py", "build_feeds.py", "build_costs_history.py", "build_api.py"):
+        _p = os.path.join(HERE, _step)
+        if os.path.exists(_p):
+            _r = subprocess.run([sys.executable, _p], capture_output=True, text=True)
+            print(f"  {_step}: {'ok' if _r.returncode==0 else 'FAILED — ' + _r.stderr.strip()[:140]}")
 
     print(f"Built: {len(editions)} editions ({len(editions)} pages), {len(insights)} insights, sitemap with {len(urls)} URLs.")
 
