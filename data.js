@@ -1,5 +1,14 @@
 window.EDITIONS = [
  {
+  "id": "pulse-2026-08-09-evening",
+  "date": "2026-08-09",
+  "dateDisplay": "Sunday, 9 August 2026",
+  "edition": "Evening Wrap",
+  "editionKey": "evening",
+  "summary": "THE BIG READ — The cranes are a promise. The bill comes due in 2027.",
+  "bodyHtml": "<p><span class=\"meta-line\">🏨 EA HOSPITALITY PULSE — Evening Wrap</span><br><span class=\"meta-line\">📅 Sunday, 9 August 2026 | 🇰🇪🇹🇿🇺🇬🇷🇼</span></p>\n<p>THE BIG READ — The cranes are a promise. The bill comes due in 2027.<br>━━━━━━━━━<br>Africa&#x27;s hotel pipeline just hit a record 123,846 rooms across 675 projects, up 18.6% on the year (W Hospitality Group 2026 pipeline report, released March 2026). The celebrated headline is that East Africa now leads the continent. The line that matters to you is quieter: East Africa leads because its rooms are actually being poured. Nearly 80% of Kenya&#x27;s 6,190 pipeline rooms and Ethiopia&#x27;s 5,964 are under construction; Tanzania sits at 77.5%. Across much of Africa the pipeline never breaks ground. Yours is.</p>\n<p>What everyone is missing: a construction ratio near 80% isn&#x27;t a confidence vote — it&#x27;s a delivery date. It tells you WHEN your competitive set expands, and that date is knowable now. Some 65,000 rooms open across Africa in 2026–27, concentrated in exactly the corridors you sell: Nairobi, Kampala, Kigali, Dar, the Zanzibar coast. And they land just as the fastest-growing demand is the lower-yield regional traveller. A new 200-room flag doesn&#x27;t reset the market when it stabilises — it resets it the day it opens and discounts to fill.</p>\n<p><span class=\"sowhat\">🎯 So what, by segment:</span><br>• CITY — you&#x27;re at the centre of the wave. Contract 2026–27 corporate and MICE business NOW, at today&#x27;s rates, before a new flag opens and reprices the market. Defend on the regional book and relationships, not rack rate.<br>• BUSH — least exposed (pipeline is mostly city product). City discounting frees the premium guest to trade up: hold rate, sell scarcity.<br>• BEACH — Zanzibar/coast branded supply is real. Lock advance group business and differentiate on product before the inventory lands.<br>━━━━━━━━━<br>📌 STILL TRUE (unchanged)<br>• Advisory board: US — Kenya L2, Uganda L4, Tanzania/Zanzibar L3, Rwanda L3. No weekend move.<br>• Cost: Kenya diesel KSh 222.86/L, super KSh 214.03/L held only to 14 Aug (EPRA July review) — lock transfer/generator contracts this week.</p>\n<p><span class=\"meta-line\">📡 THE WEEK AHEAD</span><br>• Tue 12 Aug — US CDC §362 Ebola entry order expires; renewal + any Uganda decouple<br>• 14–15 Aug — EPRA fuel review reprices the cycle<br>• 18 Aug — WHO IHR Emergency Committee reviews the Bundibugyo PHEIC<br>• 19–21 Aug — Hotel Expo Kenya, KICC Nairobi — city midweek compression</p>\n<p><span class=\"meta-line\">💬 Are you reading the construction schedule as a countdown — or waiting for the flag to open?</span></p>\n<p>🔗 This edition on the web: https://eahospitalitypulse.com/editions/pulse-2026-08-09-evening.html<br>💼 Today&#x27;s Big Read on LinkedIn: https://www.linkedin.com/company/ea-hospitality-pulse/<br>— EA Hospitality Pulse | Daily intelligence for city, bush &amp; beach properties</p>"
+ },
+ {
   "id": "foresight-2026-08-09",
   "date": "2026-08-09",
   "dateDisplay": "Sunday, 9 August 2026",
@@ -1762,4 +1771,4 @@ window.INSIGHTS = [
   "editionKey": "evening"
  }
 ];
-window.BUILT_AT = "2026-08-09 18:33";
+window.BUILT_AT = "2026-08-09 19:16";

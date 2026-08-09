@@ -1,8 +1,8 @@
 window.LEDGER = {
- "updated": "2026-08-09 18:33",
+ "updated": "2026-08-09 19:16",
  "stats": {
-  "total": 61,
-  "open": 55,
+  "total": 62,
+  "open": 56,
   "resolved": 6,
   "correct": 3,
   "partial": 1,
@@ -824,6 +824,22 @@ window.LEDGER = {
    "resolved_date": "",
    "evidence": "",
    "source_url": "",
+   "overdue": false
+  },
+  {
+   "id": "P061",
+   "made_date": "2026-08-09",
+   "edition": "Evening Wrap",
+   "claim": "The 2027 W Hospitality Group Hotel Chain Development Pipelines in Africa report will show East Africa (Kenya,Ethiopia,Tanzania) retaining the highest rooms-under-construction ratio of any African sub-region — i.e. the 2026 construction concentration persists rather than reverting to a signings-only pipeline",
+   "resolution_criteria": "The 2027 edition of the W Hospitality Group Africa pipeline report (published by 30 Apr 2027) shows Kenya,Ethiopia and Tanzania among the leading African markets by rooms-under-construction ratio (each above 60%). If East Africa's under-construction lead disappears the call is incorrect",
+   "resolve_by": "2027-04-30",
+   "market": "Regional",
+   "segment": "City",
+   "confidence": "Early signal",
+   "status": "open",
+   "resolved_date": "",
+   "evidence": "",
+   "source_url": "https://w-hospitalitygroup.com/pipeline-report/",
    "overdue": false
   },
   {
