@@ -92,6 +92,9 @@ def main():
         lines.append(f"- **{slug}.jpg** — {info['artist']}, {lic}. "
                      f"Source: [{title}]({info['descurl']}).")
     open(os.path.join(IMG, "CREDITS.md"), "w", encoding="utf-8").write("\n".join(lines) + "\n")
+    json.dump([{"slug":s2,"title":t2,"artist":i2["artist"],"license":i2["license"],
+                "licenseurl":i2["licenseurl"],"descurl":i2["descurl"]} for s2,t2,i2 in credits],
+              open(os.path.join(IMG, "credits.json"), "w", encoding="utf-8"), indent=1)
     print(f"\n{ok}/{len(MANIFEST)} downloaded. Credits -> img/CREDITS.md")
     print("Next: python3 build_site.py  (heroes + cards will pick up the new pool)")
 

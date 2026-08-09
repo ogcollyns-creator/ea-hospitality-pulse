@@ -253,7 +253,7 @@ def guide_page(g):
   </article>
 </div>
 <footer class="s">EA Hospitality Pulse — Daily market intelligence for East Africa's hospitality and travel trade.<br>
-<a href="../index.html">Home</a> · Kenya · Uganda · Tanzania · Zanzibar · Rwanda</footer>
+<a href="../index.html">Home</a> · <a href="../credits.html">Image credits</a> · Kenya · Uganda · Tanzania · Zanzibar · Rwanda</footer>
 </body></html>"""
 
 

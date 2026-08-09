@@ -288,8 +288,93 @@ def edition_page(e, siblings=None, prev=None, nxt=None, hero=None):
   </article>
 </div>
 <footer class="s">EA Hospitality Pulse — Daily intelligence for city, bush &amp; beach properties across East Africa.<br>
-<a href="../index.html">Home</a> · Kenya · Uganda · Tanzania · Zanzibar · Rwanda</footer>
+<a href="../index.html">Home</a> · <a href="../credits.html">Image credits</a> · Kenya · Uganda · Tanzania · Zanzibar · Rwanda</footer>
 </body></html>"""
+
+
+# ---- image credits (attribution page for CC-BY / CC-BY-SA photography) -------
+CREDIT_SEED = [
+    {"slug":"gorilla-volcanoes","desc":"Mountain gorilla — Volcanoes NP, Rwanda",
+     "title":"Mountain gorilla (Gorilla beringei beringei) yawn",
+     "url":"https://commons.wikimedia.org/wiki/File:Mountain_gorilla_(Gorilla_beringei_beringei)_yawn.jpg","license":"CC BY-SA, see source"},
+    {"slug":"amboseli-kilimanjaro","desc":"Elephants against Mount Kilimanjaro — Amboseli",
+     "title":"Elephants at Amboseli national park against Mount Kilimanjaro",
+     "url":"https://commons.wikimedia.org/wiki/File:Elephants_at_Amboseli_national_park_against_Mount_Kilimanjaro.jpg","license":"CC BY-SA 3.0"},
+    {"slug":"mara-crossing","desc":"Wildebeest crossing the Mara River",
+     "title":"Wildebeest Jumping Into the Mara River",
+     "url":"https://commons.wikimedia.org/wiki/File:Wildebeest_Jumping_Into_the_Mara_River.jpg","license":"See source"},
+    {"slug":"stonetown-zanzibar","desc":"Stone Town waterfront — Zanzibar",
+     "title":"Stone Town-2",
+     "url":"https://commons.wikimedia.org/wiki/File:Stone_Town-2.jpg","license":"See source"},
+    {"slug":"kigali-convention","desc":"Kigali Convention Centre — Rwanda",
+     "title":"An aerial of Kigali Convention Center (Emmanuel Kwizera)",
+     "url":"https://commons.wikimedia.org/wiki/File:An_aerial_of_Kigali_Convention_Center_on_June_19,_2019._Photo_by_Emmanuel_Kwizera.jpg","license":"See source"},
+    {"slug":"kigali-night","desc":"Kigali skyline at night — Rwanda",
+     "title":"Panoramic view of Kigali (Rwanda) at night 01",
+     "url":"https://commons.wikimedia.org/wiki/File:Panoramic_view_of_Kigali_(Rwanda)_at_night_01.jpg","license":"See source"},
+    {"slug":"kenya-airways-aircraft","desc":"Kenya Airways aircraft — Nairobi",
+     "title":"Kenya Airways Boeing 737-300 5Y-KQB NBO 2010-6-18",
+     "url":"https://commons.wikimedia.org/wiki/File:Kenya_Airways_Boeing_737-300_5Y-KQB_NBO_2010-6-18.png","license":"See source"},
+    {"slug":"kyobe-nile-lodge","desc":"River Nile lodge view — Murchison Falls, Uganda",
+     "title":"View of the River Nile from Kyobe Safari Lodge, Murchison Falls NP, Uganda 03",
+     "url":"https://commons.wikimedia.org/wiki/File:View_of_the_River_Nile_from_Kyobe_Safari_Lodge_%E2%80%93_Murchison_Falls_National_Park,_Uganda_03.jpg","license":"CC BY-SA 4.0"},
+    {"slug":"uhuru-kilimanjaro","desc":"Uhuru Peak — Mount Kilimanjaro summit",
+     "title":"Uhuru Peak Mt. Kilimanjaro 1",
+     "url":"https://commons.wikimedia.org/wiki/File:Uhuru_Peak_Mt._Kilimanjaro_1.JPG","license":"GFDL / CC BY-SA 3.0"},
+]
+
+def build_credits_page():
+    """Public attribution page. Seeded from the Wikimedia Commons sources and
+    enriched with exact author/licence from img/credits.json once fetch_images.py
+    has run — so the page is meaningful before fetch and precise after."""
+    acc = {}
+    try:
+        acc = {c["slug"]: c for c in json.load(open(os.path.join(HERE,"img","credits.json"),encoding="utf-8"))}
+    except Exception:
+        pass
+    rows = []
+    for seed in CREDIT_SEED:
+        a = acc.get(seed["slug"], {})
+        src = a.get("descurl") or seed["url"]
+        title = a.get("title") or seed["title"]
+        artist = a.get("artist") or ""
+        lic = a.get("license") or seed.get("license") or "See source"
+        licurl = a.get("licenseurl") or ""
+        lic_html = f'<a href="{html.escape(licurl)}" target="_blank" rel="noopener">{html.escape(lic)}</a>' if licurl else html.escape(lic)
+        by = f' — {html.escape(artist)}' if artist else ''
+        rows.append(f'<tr><td>{html.escape(seed["desc"])}</td>'
+                    f'<td><a href="{html.escape(src)}" target="_blank" rel="noopener">{html.escape(title)}</a>{by}</td>'
+                    f'<td>{lic_html}</td></tr>')
+    body = "\n".join(rows)
+    page = f"""<!DOCTYPE html>
+<html lang="en"><head>
+<meta charset="UTF-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Image credits | EA Hospitality Pulse</title>
+<meta name="description" content="Attribution for photography used across EA Hospitality Pulse — sourced from Wikimedia Commons under Creative Commons / public-domain licences.">
+<link rel="canonical" href="{BASE}/credits.html">
+<meta name="robots" content="index,follow">
+<style>{ARTICLE_CSS}
+.art table{{width:100%;border-collapse:collapse;font-family:Helvetica Neue,Arial,sans-serif;font-size:14px}}
+.art th,.art td{{border:1px solid var(--line);padding:9px 11px;text-align:left;vertical-align:top}}
+.art th{{background:var(--sand-2)}}
+.tw{{overflow-x:auto}}
+</style></head>
+<body>
+<header class="s"><div class="wrap"><a href="/"><div class="logo">🏨</div><b>EA Hospitality Pulse</b></a></div></header>
+<div class="wrap"><article class="art">
+<a class="nav" href="./index.html">← Home</a>
+<h1>Image credits</h1>
+<p>Photography across this site is sourced from <a href="https://commons.wikimedia.org/" target="_blank" rel="noopener">Wikimedia Commons</a> under Creative Commons or public-domain licences, and is cropped and tinted for layout. Each image remains under its original licence; the source and licence for every photo are listed below.</p>
+<div class="tw"><table><thead><tr><th>Used for</th><th>Source (Wikimedia Commons)</th><th>Licence</th></tr></thead>
+<tbody>
+{body}
+</tbody></table></div>
+<p class="meta-line">Base illustrations (savannah, Nairobi skyline, Zanzibar beach) are licensed stock held in the repository. Questions about attribution: ceo@eahospitalitypulse.com.</p>
+</article></div>
+<footer class="s">EA Hospitality Pulse — Daily intelligence for city, bush &amp; beach properties across East Africa.<br>
+<a href="./index.html">Home</a> · Kenya · Uganda · Tanzania · Zanzibar · Rwanda</footer>
+</body></html>"""
+    open(os.path.join(HERE,"credits.html"),"w",encoding="utf-8").write(page)
 
 def main():
     existing = load_existing()
@@ -383,6 +468,7 @@ def main():
     except Exception as ex:
         print("guides skipped:", ex)
         guides = []
+    build_credits_page()
 
     # feed.xml — RSS 2.0, so associations / aggregators / newsletter tools can
     # auto-pull editions instead of needing a manual republish each time.
@@ -419,7 +505,7 @@ def main():
     open(os.path.join(HERE, "feed.xml"), "w", encoding="utf-8").write("\n".join(rss))
 
     # sitemap.xml
-    urls = [(BASE+"/", today, "daily"), (BASE+"/republish.html", today, "monthly"), (BASE+"/methodology.html", today, "monthly"), (BASE+"/faq.html", today, "monthly"), (BASE+"/start-here.html", today, "monthly"), (BASE+"/survey.html", today, "monthly"), (BASE+"/survey-pay.html", today, "monthly"), (BASE+"/survey-agents.html", today, "monthly")]
+    urls = [(BASE+"/", today, "daily"), (BASE+"/republish.html", today, "monthly"), (BASE+"/methodology.html", today, "monthly"), (BASE+"/faq.html", today, "monthly"), (BASE+"/start-here.html", today, "monthly"), (BASE+"/survey.html", today, "monthly"), (BASE+"/survey-pay.html", today, "monthly"), (BASE+"/survey-agents.html", today, "monthly"), (BASE+"/credits.html", today, "monthly")]
     for g in guides:
         urls.append((f"{BASE}/guides/{g['slug']}.html", g["updated"], "monthly"))
     tools_dir = os.path.join(HERE, "tools")
