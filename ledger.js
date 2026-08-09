@@ -1,8 +1,8 @@
 window.LEDGER = {
- "updated": "2026-08-09 12:21",
+ "updated": "2026-08-09 18:33",
  "stats": {
-  "total": 59,
-  "open": 53,
+  "total": 61,
+  "open": 55,
   "resolved": 6,
   "correct": 3,
   "partial": 1,
@@ -488,6 +488,38 @@ window.LEDGER = {
    "resolved_date": "",
    "evidence": "",
    "source_url": "https://ke.usembassy.gov/health-alert-dengue-fever-on-kenyan-coast-and-in-wajir-and-garissa-counties/",
+   "overdue": false
+  },
+  {
+   "id": "P059",
+   "made_date": "2026-08-09",
+   "edition": "Sunday Foresight",
+   "claim": "Uganda's US State Department advisory will remain Level 4 (Do Not Travel) through 30 September 2026 despite completing its 42-day Ebola all-clear on/around 28 August — confirming the designation tracks DRC and structural factors not Uganda's own epidemiology",
+   "resolution_criteria": "travel.state.gov Uganda advisory checked on 30 Sep 2026 still showing Level 4. If it shows Level 3 or lower the call is incorrect",
+   "resolve_by": "2026-09-30",
+   "market": "UG",
+   "segment": "Bush/City",
+   "confidence": "Reported",
+   "status": "open",
+   "resolved_date": "",
+   "evidence": "",
+   "source_url": "https://travel.state.gov/content/travel/en/traveladvisories/traveladvisories/uganda-travel-advisory.html",
+   "overdue": false
+  },
+  {
+   "id": "P060",
+   "made_date": "2026-08-09",
+   "edition": "Sunday Foresight",
+   "claim": "The UK FCDO Uganda advisory will NOT carry a blanket 'advise against all travel to Uganda' (only regional/border-area warnings) through 30 September 2026 — Western risk designations diverge and the US Level 4 is an outlier",
+   "resolution_criteria": "gov.uk/foreign-travel-advice/uganda checked on 30 Sep 2026 showing no blanket advise-against-all-travel-to-Uganda. If FCDO applies a whole-country advise-against-all-travel the call is incorrect",
+   "resolve_by": "2026-09-30",
+   "market": "UG",
+   "segment": "Bush/City",
+   "confidence": "Early signal",
+   "status": "open",
+   "resolved_date": "",
+   "evidence": "",
+   "source_url": "https://www.gov.uk/foreign-travel-advice/uganda",
    "overdue": false
   },
   {
