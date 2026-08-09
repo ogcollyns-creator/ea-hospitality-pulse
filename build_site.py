@@ -191,44 +191,80 @@ hr.divider{border:none;border-top:1px dashed var(--line);margin:16px 0}
 .more a{margin-right:10px}
 .sub a{font-weight:600;margin-right:14px}
 footer.s{text-align:center;color:var(--muted);font-family:Helvetica Neue,Arial,sans-serif;font-size:12px;padding:20px}
+.art h1{letter-spacing:-.005em}
+.pnrow{display:flex;justify-content:space-between;gap:12px;flex-wrap:wrap;margin-top:22px;border-top:1px solid var(--line);padding-top:16px}
+.pn{font-family:Helvetica Neue,Arial,sans-serif;font-size:13.5px;font-weight:600;color:var(--teal-d);text-decoration:none;max-width:48%}
+.pn:hover{text-decoration:underline}
+.pn.next{margin-left:auto;text-align:right}
+@media(max-width:640px){
+  .wrap{padding:0 16px}
+  .art{padding:20px 18px 26px;margin:16px auto;border-radius:12px}
+  .art .hero{width:calc(100% + 36px);margin:-20px -18px 18px -18px}
+  .art h1{font-size:21px}
+  .pn{max-width:100%}
+  .pn.next{margin-left:0;text-align:left}
+}
 """
 
-def edition_page(e, siblings=None):
+def edition_page(e, siblings=None, prev=None, nxt=None):
     title = f"{e['edition']} — {e['dateDisplay']} | EA Hospitality Pulse"
     desc = e["summary"][:157] + ("…" if len(e["summary"])>157 else "")
     url = f"{BASE}/editions/{e['id']}.html"
+    img = f"{BASE}/og/{e['id']}.png"
+    # Clean, word-boundary headline (<=110 chars — Google's NewsArticle limit).
+    headline = e["summary"].split(".")[0].strip()
+    if len(headline) > 110:
+        headline = headline[:110].rsplit(" ", 1)[0] + "…"
+    h1text = headline if headline.endswith("…") else headline + "."
     sib_html = ""
     if siblings:
         links = " · ".join(
             f'<a href="{s2["id"]}.html">{html.escape(s2["edition"])}</a>' for s2 in siblings)
         sib_html = f'<div class="more"><b>More from {html.escape(e["dateDisplay"])}:</b> {links}</div>'
+    # Chronological prev/next — a real internal link graph for crawlers and readers.
+    pn = []
+    if prev: pn.append(f'<a class="pn prev" href="{prev["id"]}.html" rel="prev">← {html.escape(prev["edition"])} · {html.escape(prev["dateDisplay"])}</a>')
+    if nxt: pn.append(f'<a class="pn next" href="{nxt["id"]}.html" rel="next">{html.escape(nxt["edition"])} · {html.escape(nxt["dateDisplay"])} →</a>')
+    pn_html = f'<nav class="pnrow">{"".join(pn)}</nav>' if pn else ""
     ld = {
         "@context":"https://schema.org","@type":"NewsArticle",
-        "headline": e["summary"][:110],
+        "headline": headline,
         "datePublished": e["date"], "dateModified": e["date"],
         "description": desc, "url": url, "mainEntityOfPage": url,
+        "image": [img], "inLanguage": "en", "isAccessibleForFree": True,
         "articleSection": e["edition"],
-        "author":{"@type":"Organization","name":"EA Hospitality Pulse"},
-        "publisher":{"@type":"Organization","name":"EA Hospitality Pulse"},
+        "author":{"@type":"Organization","name":"EA Hospitality Pulse","url":BASE+"/"},
+        "publisher":{"@type":"Organization","name":"EA Hospitality Pulse",
+                     "logo":{"@type":"ImageObject","url":BASE+"/apple-touch-icon.png"}},
         "about":["Kenya","Uganda","Tanzania","Zanzibar","Rwanda","hospitality","tourism"]
     }
+    crumbs = {
+        "@context":"https://schema.org","@type":"BreadcrumbList",
+        "itemListElement":[
+            {"@type":"ListItem","position":1,"name":"Home","item":BASE+"/"},
+            {"@type":"ListItem","position":2,"name":"Editions","item":BASE+"/#archive"},
+            {"@type":"ListItem","position":3,"name":e["edition"]+" — "+e["dateDisplay"],"item":url},
+        ]}
     return f"""<!DOCTYPE html>
 <html lang="en"><head>
 <meta charset="UTF-8"><meta name="viewport" content="width=device-width,initial-scale=1">
 <title>{html.escape(title)}</title>
 <meta name="description" content="{html.escape(desc)}">
+<meta name="robots" content="index,follow,max-image-preview:large,max-snippet:-1">
 <link rel="canonical" href="{url}">
+<link rel="alternate" type="application/rss+xml" title="EA Hospitality Pulse" href="../feed.xml">
 <meta property="og:type" content="article"><meta property="og:site_name" content="EA Hospitality Pulse">
 <meta property="og:title" content="{html.escape(e['edition']+' — '+e['dateDisplay'])}">
 <meta property="og:description" content="{html.escape(desc)}"><meta property="og:url" content="{url}">
-<meta property="og:image" content="{BASE}/og/{e['id']}.png"><meta property="og:image:width" content="1200"><meta property="og:image:height" content="630">
-<meta name="twitter:image" content="{BASE}/og/{e['id']}.png">
+<meta property="og:image" content="{img}"><meta property="og:image:width" content="1200"><meta property="og:image:height" content="630">
+<meta name="twitter:image" content="{img}">
 <link rel="icon" href="../favicon.png"><link rel="apple-touch-icon" href="../apple-touch-icon.png">
 <meta name="twitter:card" content="summary_large_image">
 <meta name="twitter:title" content="{html.escape(e['edition']+' — '+e['dateDisplay'])}">
 <meta name="twitter:description" content="{html.escape(desc)}">
 <meta property="article:published_time" content="{e['date']}">
 <script type="application/ld+json">{json.dumps(ld)}</script>
+<script type="application/ld+json">{json.dumps(crumbs)}</script>
 <style>{ARTICLE_CSS}</style></head>
 <body>
 <header class="s"><div class="wrap"><a href="/"><div class="logo">🏨</div><b>EA Hospitality Pulse</b></a></div></header>
@@ -236,10 +272,11 @@ def edition_page(e, siblings=None):
   <article class="art">
     <img class="hero" src="../og/{e['id']}.png" alt="{html.escape(e['edition']+' — '+e['dateDisplay'])}" loading="eager">
     <a class="nav" href="../index.html#archive">← All editions</a>
-    <div><span class="badge">{html.escape(e['edition'])}</span><time>{html.escape(e['dateDisplay'])}</time></div>
-    <h1>{html.escape(e['summary'].split('.')[0])[:120]}.</h1>
+    <div><span class="badge">{html.escape(e['edition'])}</span><time datetime="{e['date']}">{html.escape(e['dateDisplay'])}</time></div>
+    <h1>{html.escape(h1text)}</h1>
     {e['bodyHtml']}
     {sib_html}
+    {pn_html}
     <div class="sub">
       <b>Follow the Pulse</b> — three briefs a day across Kenya, Uganda, Tanzania, Zanzibar &amp; Rwanda.<br>
       <a href="{CHANNELS['telegram']}" target="_blank" rel="noopener">📣 Telegram (full editions)</a>
@@ -324,10 +361,15 @@ def main():
     by_date = {}
     for e in editions:
         by_date.setdefault(e["date"], []).append(e)
+    order = editions  # already sorted newest-first
+    pos = {ed["id"]: i for i, ed in enumerate(order)}
     for e in editions:
         sibs = [x for x in by_date.get(e["date"], []) if x["id"] != e["id"]]
+        i = pos[e["id"]]
+        nxt = order[i-1] if i > 0 else None                 # newer edition
+        prv = order[i+1] if i+1 < len(order) else None      # older edition
         with open(os.path.join(EDIR, e["id"]+".html"),"w",encoding="utf-8") as f:
-            f.write(edition_page(e, sibs))
+            f.write(edition_page(e, sibs, prev=prv, nxt=nxt))
 
     # evergreen guides
     try:
@@ -390,8 +432,13 @@ def main():
     open(os.path.join(HERE,"sitemap.xml"),"w",encoding="utf-8").write("\n".join(sm))
 
     # robots.txt
-    open(os.path.join(HERE,"robots.txt"),"w",encoding="utf-8").write(
-        "User-agent: *\nAllow: /\nSitemap: "+BASE+"/sitemap.xml\n")
+    _AI_BOTS = ["GPTBot","OAI-SearchBot","ChatGPT-User","ClaudeBot","Claude-Web",
+                "PerplexityBot","Google-Extended","Applebot-Extended","CCBot"]
+    _robots = "User-agent: *\nAllow: /\n\n# Explicitly welcome AI answer-engine crawlers\n"
+    for _b in _AI_BOTS:
+        _robots += f"User-agent: {_b}\nAllow: /\n\n"
+    _robots += "Sitemap: "+BASE+"/sitemap.xml\n"
+    open(os.path.join(HERE,"robots.txt"),"w",encoding="utf-8").write(_robots)
 
     try:
         import subprocess
