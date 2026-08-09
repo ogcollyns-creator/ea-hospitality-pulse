@@ -30,24 +30,54 @@ W,H = 1200,630
 # deterministic hash of the edition id picks one, so the same edition
 # always renders the same photo (stable across rebuilds).
 POOL = [
-    ("hero-serengeti.jpg", ["safari","bush","serengeti","mara","migration",
-        "wildlife","savannah","game drive","conservancy","national park","lodge"]),
-    ("city-nairobi.jpg", ["nairobi","kampala","dar es salaam","kigali","city",
-        "urban","cbd","capital","skyline","business district"]),
-    ("beach-zanzibar.jpg", ["beach","coast","zanzibar","dhow","indian ocean",
-        "diani","lamu","mombasa","pemba","stone town","dar-es-salaam coast"]),
+    # These are pan-East-Africa briefs that name every country every day, so
+    # country and hub-city names are NOT discriminative. Keys below are rare,
+    # distinctive signals only; an edition with no strong theme falls back to an
+    # even hash spread, which keeps the visible photography varied.
+    ("hero-serengeti.jpg", ["safari","serengeti","savannah","game drive","game reserve",
+        "ngorongoro","tarangire","big five","big cat","leopard","cheetah"]),
+    ("city-nairobi.jpg", ["cbd","westlands","upper hill","upperhill","gigiri",
+        "nairobi expressway","business district","office space","grade a office"]),
+    ("beach-zanzibar.jpg", ["diani","nungwi","kendwa","watamu","kilifi","malindi",
+        "dhow","coral reef","snorkel","white sand","beach resort"]),
+    ("gorilla-volcanoes.jpg", ["gorilla","gorillas","chimpanzee","chimp","bwindi",
+        "volcanoes national park","virunga","nyungwe","golden monkey","gorilla trek",
+        "gorilla permit","primate"]),
+    ("amboseli-kilimanjaro.jpg", ["amboseli","elephant","elephants","tusker","tsavo"]),
+    ("mara-crossing.jpg", ["wildebeest","mara river","great migration","river crossing",
+        "calving","the migration"]),
+    ("stonetown-zanzibar.jpg", ["stone town","swahili","forodhani","old fort",
+        "spice tour","world heritage"]),
+    ("kigali-convention.jpg", ["conference","convention","mice","summit","congress",
+        "expo","exhibition","delegates","trade show","business events","conferencing",
+        "icca","incentive travel","conference tourism"]),
+    ("kigali-night.jpg", ["nyarugenge","kigali skyline","rwandan capital","kigali city"]),
+    ("kenya-airways-aircraft.jpg", ["airline","aviation","aircraft","jkia","kenya airways",
+        "rwandair","air tanzania","new route","direct flight","seat capacity","frequencies",
+        "load factor","airlift","aircraft order","route launch","widebody"]),
+    ("kyobe-nile-lodge.jpg", ["river nile","murchison","jinja","kabalega",
+        "pearl of africa","source of the nile","lake albert"]),
+    ("uhuru-kilimanjaro.jpg", ["kilimanjaro","uhuru","summit push","trekking","mountaineering",
+        "machame","marangu","kili","climbers","altitude"]),
 ]
 DEFAULT_PHOTO = "hero-serengeti.jpg"   # site-wide default card
 
+def available_pool():
+    """Only offer photos that are actually present, so the build never breaks
+    before fetch_images.py has been run. Falls back to the full list."""
+    present = [(fn, kws) for fn, kws in POOL if os.path.exists(os.path.join(IMG, fn))]
+    return present or POOL
+
 def choose_photo(eid, text):
+    pool = available_pool()
     text_low = (text or "").lower()
-    scores = [sum(text_low.count(kw) for kw in kws) for _, kws in POOL]
-    best = max(scores)
+    scores = [sum(text_low.count(kw) for kw in kws) for _, kws in pool]
+    best = max(scores) if scores else 0
     if best > 0:
         idx = scores.index(best)
     else:
-        idx = int(hashlib.md5(eid.encode()).hexdigest(), 16) % len(POOL)
-    return POOL[idx][0]
+        idx = int(hashlib.md5(eid.encode()).hexdigest(), 16) % len(pool)
+    return pool[idx][0]
 
 def f(path,size):
     return ImageFont.truetype(path,size)
@@ -164,7 +194,7 @@ def main(editions=None):
               DEFAULT_PHOTO).save(os.path.join(OG,"default.png"))
     # text-free in-page heroes — one per source photo (small, reused across editions)
     hero_for = {}
-    for photo_file, _ in POOL:
+    for photo_file, _ in available_pool():
         out = "clean-" + os.path.splitext(photo_file)[0] + ".png"
         if not os.path.exists(os.path.join(OG, out)):
             light_hero(photo_file).save(os.path.join(OG, out))
