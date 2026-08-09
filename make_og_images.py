@@ -85,6 +85,21 @@ def photo_background(photo_file):
 
     return Image.alpha_composite(base.convert("RGBA"), overlay).convert("RGB")
 
+def light_hero(photo_file):
+    """Text-free in-page hero: the real photograph, only lightly treated for
+    depth and brand cohesion — no masthead/kicker/headline baked on. Used by
+    the article <img>; the text-heavy card above is kept for social sharing."""
+    import numpy as np
+    base = cover_resize(Image.open(os.path.join(IMG, photo_file)).convert("RGB"), W, H)
+    ys = np.linspace(0, 1, H)[:, None]
+    a = (0.06 + (0.34 - 0.06) * (ys ** 1.6)) * 255     # clear at top, gentle teal grounding at base
+    a = np.repeat(a, W, axis=1)
+    r = np.full((H, W), TEAL[0]); g = np.full((H, W), TEAL[1]); b = np.full((H, W), TEAL[2])
+    overlay = Image.fromarray(np.dstack([r, g, b, a]).astype("uint8"), "RGBA")
+    img = Image.alpha_composite(base.convert("RGBA"), overlay).convert("RGB")
+    ImageDraw.Draw(img).rectangle([0, 0, W, 8], fill=GOLD)   # slim brand rule
+    return img
+
 def base_card(kicker, headline, footer, photo_file):
     img = photo_background(photo_file)
     d=ImageDraw.Draw(img)
@@ -147,14 +162,25 @@ def main(editions=None):
               "Daily market intelligence for East Africa's hospitality and travel trade.",
               "Three briefs a day · Free on Telegram",
               DEFAULT_PHOTO).save(os.path.join(OG,"default.png"))
+    # text-free in-page heroes — one per source photo (small, reused across editions)
+    hero_for = {}
+    for photo_file, _ in POOL:
+        out = "clean-" + os.path.splitext(photo_file)[0] + ".png"
+        if not os.path.exists(os.path.join(OG, out)):
+            light_hero(photo_file).save(os.path.join(OG, out))
+        hero_for[photo_file] = out
+    light_hero(DEFAULT_PHOTO).save(os.path.join(OG, "clean-default.png"))
+    hero_map = {}
     if editions:
         for e in editions:
             head=e["summary"].split(".")[0][:150]
             match_text = e["summary"] + " " + re.sub(r"<[^>]+>", " ", e.get("bodyHtml",""))
             photo = choose_photo(e["id"], match_text)
             base_card(e["edition"], head, e["dateDisplay"], photo).save(os.path.join(OG,e["id"]+".png"))
+            hero_map[e["id"]] = hero_for.get(photo, "clean-default.png")
+    json.dump(hero_map, open(os.path.join(OG, "hero_map.json"), "w", encoding="utf-8"))
     make_favicon()
-    print(f"OG images written: {1+(len(editions) if editions else 0)} + favicon")
+    print(f"OG images written: {1+(len(editions) if editions else 0)} cards + {len(hero_for)+1} clean heroes + favicon")
 
 if __name__=="__main__":
     eds=None

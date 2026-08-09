@@ -206,11 +206,12 @@ footer.s{text-align:center;color:var(--muted);font-family:Helvetica Neue,Arial,s
 }
 """
 
-def edition_page(e, siblings=None, prev=None, nxt=None):
+def edition_page(e, siblings=None, prev=None, nxt=None, hero=None):
     title = f"{e['edition']} — {e['dateDisplay']} | EA Hospitality Pulse"
     desc = e["summary"][:157] + ("…" if len(e["summary"])>157 else "")
     url = f"{BASE}/editions/{e['id']}.html"
-    img = f"{BASE}/og/{e['id']}.png"
+    img = f"{BASE}/og/{e['id']}.png"          # share card (OG/Twitter meta)
+    hero_src = f"../og/{hero}" if hero else f"../og/{e['id']}.png"   # clean in-page photo
     # Clean, word-boundary headline (<=110 chars — Google's NewsArticle limit).
     headline = e["summary"].split(".")[0].strip()
     if len(headline) > 110:
@@ -270,7 +271,7 @@ def edition_page(e, siblings=None, prev=None, nxt=None):
 <header class="s"><div class="wrap"><a href="/"><div class="logo">🏨</div><b>EA Hospitality Pulse</b></a></div></header>
 <div class="wrap">
   <article class="art">
-    <img class="hero" src="../og/{e['id']}.png" alt="{html.escape(e['edition']+' — '+e['dateDisplay'])}" loading="eager">
+    <img class="hero" src="{hero_src}" alt="{html.escape(e['edition']+' — '+e['dateDisplay'])}" loading="eager">
     <a class="nav" href="../index.html#archive">← All editions</a>
     <div><span class="badge">{html.escape(e['edition'])}</span><time datetime="{e['date']}">{html.escape(e['dateDisplay'])}</time></div>
     <h1>{html.escape(h1text)}</h1>
@@ -361,6 +362,10 @@ def main():
     by_date = {}
     for e in editions:
         by_date.setdefault(e["date"], []).append(e)
+    try:
+        hero_map = json.load(open(os.path.join(HERE, "og", "hero_map.json"), encoding="utf-8"))
+    except Exception:
+        hero_map = {}
     order = editions  # already sorted newest-first
     pos = {ed["id"]: i for i, ed in enumerate(order)}
     for e in editions:
@@ -369,7 +374,7 @@ def main():
         nxt = order[i-1] if i > 0 else None                 # newer edition
         prv = order[i+1] if i+1 < len(order) else None      # older edition
         with open(os.path.join(EDIR, e["id"]+".html"),"w",encoding="utf-8") as f:
-            f.write(edition_page(e, sibs, prev=prv, nxt=nxt))
+            f.write(edition_page(e, sibs, prev=prv, nxt=nxt, hero=hero_map.get(e["id"])))
 
     # evergreen guides
     try:
