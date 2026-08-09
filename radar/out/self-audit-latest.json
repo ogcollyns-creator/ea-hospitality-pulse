@@ -1,15 +1,16 @@
 {
- "generated": "2026-08-08T08:38+03:00",
- "health": 0.533,
+ "generated": "2026-08-09T09:58+03:00",
+ "health": 0.567,
  "grade": "D",
  "fails": [
-  "source coverage",
-  "published content"
+  "source coverage"
  ],
  "warns": [
+  "radar feed freshness",
   "edition cadence",
   "signal quality",
   "ledger hygiene",
+  "data freshness",
   "rate-index integrity"
  ],
  "checks": [
@@ -29,38 +30,38 @@
   },
   {
    "name": "radar feed freshness",
-   "status": "PASS",
-   "detail": "437 in-window obs; newest observation 0.1h old (2026-08-08T08:32:00+03:00).",
+   "status": "WARN",
+   "detail": "0 obs in window but no first-seen stamps parsed.",
    "fix": "",
-   "score": 1.0
+   "score": 0.5
   },
   {
    "name": "edition cadence",
    "status": "WARN",
-   "detail": "Missing slots (last 2 full days): 2026-08-06 morning",
+   "detail": "Missing slots (last 2 full days): 2026-08-08 midday",
    "fix": "Confirm the scheduled Pulse task fired for each slot.",
    "score": 0.5
   },
   {
    "name": "signal quality",
    "status": "WARN",
-   "detail": "10/15 editions in last 7d were Tier 2/3 (thin). Share 67%.",
+   "detail": "11/16 editions in last 7d were Tier 2/3 (thin). Share 69%.",
    "fix": "A high thin share means sourcing isn't finding real stories \u2014 widen scope / fix blind sources.",
    "score": 0.5
   },
   {
    "name": "ledger hygiene",
    "status": "WARN",
-   "detail": "58 calls: 52 open, 6 resolved. Overdue-open: 0. Missing source_url: 18.",
+   "detail": "59 calls: 53 open, 6 resolved. Overdue-open: 0. Missing source_url: 18.",
    "fix": "Backfill source_url on early calls.",
    "score": 0.5
   },
   {
    "name": "data freshness",
-   "status": "PASS",
-   "detail": "All tracked data files within their freshness limits.",
-   "fix": "",
-   "score": 1.0
+   "status": "WARN",
+   "detail": "Stale/again-verify: advisories.js 5d>4, costs.js 11d>10",
+   "fix": "Re-verify each dataset's values and bump its 'updated:' field, or note it in-edition.",
+   "score": 0.5
   },
   {
    "name": "rate-index integrity",
@@ -72,16 +73,16 @@
   {
    "name": "forecast throughput",
    "status": "PASS",
-   "detail": "17 new falsifiable calls logged in last 7d.",
+   "detail": "15 new falsifiable calls logged in last 7d.",
    "fix": "",
    "score": 1.0
   },
   {
    "name": "published content",
-   "status": "FAIL",
-   "detail": "4 published claim(s) now contradicted: 2026-08-05-midday UG L3->L4; 2026-08-05-midday RW L2->L3; 2026-08-05-morning UG L4->L3; 2026-08-05-morning RW L3->L2",
-   "fix": "Publish a correction and fix advisories.js; a live edition is stating a wrong level.",
-   "score": 0.0
+   "status": "PASS",
+   "detail": "7 recent editions; no advisory claim contradicts the board.",
+   "fix": "",
+   "score": 1.0
   }
  ]
 }
