@@ -1,5 +1,5 @@
 window.RATE_INDEX = {
- "updated": "2026-08-10 10:09",
+ "updated": "2026-08-10 14:30",
  "convention": {
   "los": 2,
   "lead_days": 30,
@@ -11,8 +11,8 @@ window.RATE_INDEX = {
  "method": "chain-linked matched-sample",
  "methodNote": "Each property is compared only with itself, so the index measures rate MOVEMENT validly even though the basket mixes meal bases and rate types. Raw medians are context only and are not comparable across markets — check levelComparable before quoting a level.",
  "spreadNote": "Commission-leakage spread = median of (OTA rate / direct rate - 1) for the same property in the same week. Computed only where the direct rate is room-only or B&B, since an OTA lowest rate is not comparable with a fully-inclusive safari rate. Markets where no property qualifies report null.",
- "totalObservations": 132,
- "distinctProperties": 109,
+ "totalObservations": 293,
+ "distinctProperties": 122,
  "basketSize": 136,
  "markets": {
   "nairobi": {
@@ -43,7 +43,7 @@ window.RATE_INDEX = {
     {
      "week": "2026-W32",
      "weekStart": "2026-08-03",
-     "median": 381.77,
+     "median": 190.88,
      "n": 10,
      "observations": 10,
      "coverage": 62,
@@ -58,13 +58,32 @@ window.RATE_INDEX = {
      "matched": 0,
      "link": null,
      "index": 100.0
+    },
+    {
+     "week": "2026-W33",
+     "weekStart": "2026-08-10",
+     "median": 193.72,
+     "n": 10,
+     "observations": 10,
+     "coverage": 62,
+     "confident": true,
+     "basisMix": {
+      "BB": 10
+     },
+     "rateTypeMix": {
+      "international": 10
+     },
+     "levelComparable": true,
+     "matched": 10,
+     "link": 0.99654,
+     "index": 99.7
     }
    ],
-   "baseline": 381.77,
+   "baseline": 190.88,
    "latest": {
-    "week": "2026-W32",
-    "weekStart": "2026-08-03",
-    "median": 381.77,
+    "week": "2026-W33",
+    "weekStart": "2026-08-10",
+    "median": 193.72,
     "n": 10,
     "observations": 10,
     "coverage": 62,
@@ -76,16 +95,16 @@ window.RATE_INDEX = {
      "international": 10
     },
     "levelComparable": true,
-    "matched": 0,
-    "link": null,
-    "index": 100.0
+    "matched": 10,
+    "link": 0.99654,
+    "index": 99.7
    },
-   "wow": null,
+   "wow": -0.3,
    "basisMix": {
-    "BB": 11
+    "BB": 21
    },
    "rateTypeMix": {
-    "international": 11
+    "international": 21
    },
    "levelComparable": true,
    "residentOnly": false,
@@ -128,43 +147,69 @@ window.RATE_INDEX = {
       "matched": 0,
       "link": null,
       "index": 100.0
+     },
+     {
+      "week": "2026-W33",
+      "weekStart": "2026-08-10",
+      "median": 231.5,
+      "n": 9,
+      "observations": 9,
+      "coverage": 56,
+      "confident": true,
+      "basisMix": {
+       "UNK": 9
+      },
+      "rateTypeMix": {
+       "international": 9
+      },
+      "levelComparable": true,
+      "matched": 6,
+      "link": 1.26558,
+      "index": 126.6
      }
     ],
     "latest": {
-     "week": "2026-W32",
-     "weekStart": "2026-08-03",
-     "median": 221.0,
-     "n": 8,
-     "observations": 8,
-     "coverage": 50,
+     "week": "2026-W33",
+     "weekStart": "2026-08-10",
+     "median": 231.5,
+     "n": 9,
+     "observations": 9,
+     "coverage": 56,
      "confident": true,
      "basisMix": {
-      "UNK": 8
+      "UNK": 9
      },
      "rateTypeMix": {
-      "international": 8
+      "international": 9
      },
      "levelComparable": true,
-     "matched": 0,
-     "link": null,
-     "index": 100.0
+     "matched": 6,
+     "link": 1.26558,
+     "index": 126.6
     },
-    "wow": null
+    "wow": 26.6
    },
    "spread": [
     {
      "week": "2026-W32",
      "weekStart": "2026-08-03",
-     "spreadPct": -53.6,
+     "spreadPct": -7.1,
      "n": 6,
+     "skippedNonComparableBasis": 0
+    },
+    {
+     "week": "2026-W33",
+     "weekStart": "2026-08-10",
+     "spreadPct": 3.5,
+     "n": 9,
      "skippedNonComparableBasis": 0
     }
    ],
    "spreadLatest": {
-    "week": "2026-W32",
-    "weekStart": "2026-08-03",
-    "spreadPct": -53.6,
-    "n": 6,
+    "week": "2026-W33",
+    "weekStart": "2026-08-10",
+    "spreadPct": 3.5,
+    "n": 9,
     "skippedNonComparableBasis": 0
    }
   },
@@ -218,20 +263,21 @@ window.RATE_INDEX = {
     {
      "week": "2026-W33",
      "weekStart": "2026-08-10",
-     "median": 707.0,
-     "n": 1,
-     "observations": 1,
-     "coverage": 8,
-     "confident": false,
+     "median": 265.92,
+     "n": 10,
+     "observations": 10,
+     "coverage": 77,
+     "confident": true,
      "basisMix": {
-      "FB": 1
+      "FB": 1,
+      "BB": 9
      },
      "rateTypeMix": {
-      "international": 1
+      "international": 10
      },
-     "levelComparable": true,
-     "matched": 0,
-     "link": null,
+     "levelComparable": false,
+     "matched": 9,
+     "link": 1.0,
      "index": 110.5
     }
    ],
@@ -239,33 +285,34 @@ window.RATE_INDEX = {
    "latest": {
     "week": "2026-W33",
     "weekStart": "2026-08-10",
-    "median": 707.0,
-    "n": 1,
-    "observations": 1,
-    "coverage": 8,
-    "confident": false,
+    "median": 265.92,
+    "n": 10,
+    "observations": 10,
+    "coverage": 77,
+    "confident": true,
     "basisMix": {
-     "FB": 1
+     "FB": 1,
+     "BB": 9
     },
     "rateTypeMix": {
-     "international": 1
+     "international": 10
     },
-    "levelComparable": true,
-    "matched": 0,
-    "link": null,
+    "levelComparable": false,
+    "matched": 9,
+    "link": 1.0,
     "index": 110.5
    },
-   "wow": null,
+   "wow": 0.0,
    "basisMix": {
     "HB": 3,
     "AI": 2,
     "FB": 2,
-    "BB": 8,
+    "BB": 17,
     "UNK": 1
    },
    "rateTypeMix": {
     "resident": 5,
-    "international": 11
+    "international": 20
    },
    "levelComparable": false,
    "residentOnly": false,
@@ -309,29 +356,47 @@ window.RATE_INDEX = {
       "matched": 0,
       "link": null,
       "index": 100.0
+     },
+     {
+      "week": "2026-W33",
+      "weekStart": "2026-08-10",
+      "median": 277.0,
+      "n": 6,
+      "observations": 6,
+      "coverage": 46,
+      "confident": true,
+      "basisMix": {
+       "UNK": 6
+      },
+      "rateTypeMix": {
+       "international": 6
+      },
+      "levelComparable": true,
+      "matched": 5,
+      "link": 0.87371,
+      "index": 87.4
      }
     ],
     "latest": {
-     "week": "2026-W32",
-     "weekStart": "2026-08-03",
-     "median": 216.5,
+     "week": "2026-W33",
+     "weekStart": "2026-08-10",
+     "median": 277.0,
      "n": 6,
      "observations": 6,
      "coverage": 46,
      "confident": true,
      "basisMix": {
-      "BB": 5,
-      "UNK": 1
+      "UNK": 6
      },
      "rateTypeMix": {
       "international": 6
      },
-     "levelComparable": false,
-     "matched": 0,
-     "link": null,
-     "index": 100.0
+     "levelComparable": true,
+     "matched": 5,
+     "link": 0.87371,
+     "index": 87.4
     },
-    "wow": null
+    "wow": -12.6
    },
    "spread": [
     {
@@ -340,13 +405,20 @@ window.RATE_INDEX = {
      "spreadPct": 22.0,
      "n": 5,
      "skippedNonComparableBasis": 0
+    },
+    {
+     "week": "2026-W33",
+     "weekStart": "2026-08-10",
+     "spreadPct": 4.9,
+     "n": 6,
+     "skippedNonComparableBasis": 0
     }
    ],
    "spreadLatest": {
-    "week": "2026-W32",
-    "weekStart": "2026-08-03",
-    "spreadPct": 22.0,
-    "n": 5,
+    "week": "2026-W33",
+    "weekStart": "2026-08-10",
+    "spreadPct": 4.9,
+    "n": 6,
     "skippedNonComparableBasis": 0
    }
   },
@@ -395,44 +467,122 @@ window.RATE_INDEX = {
      "matched": 0,
      "link": null,
      "index": 100.0
+    },
+    {
+     "week": "2026-W33",
+     "weekStart": "2026-08-10",
+     "median": 1160.0,
+     "n": 9,
+     "observations": 9,
+     "coverage": 69,
+     "confident": true,
+     "basisMix": {
+      "AI": 4,
+      "HB": 4,
+      "BB": 1
+     },
+     "rateTypeMix": {
+      "international": 9
+     },
+     "levelComparable": false,
+     "matched": 9,
+     "link": 1.0,
+     "index": 100.0
     }
    ],
    "baseline": 818.5,
    "latest": {
-    "week": "2026-W32",
-    "weekStart": "2026-08-03",
-    "median": 818.5,
+    "week": "2026-W33",
+    "weekStart": "2026-08-10",
+    "median": 1160.0,
     "n": 9,
-    "observations": 10,
+    "observations": 9,
     "coverage": 69,
     "confident": true,
     "basisMix": {
-     "HB": 4,
      "AI": 4,
-     "UNK": 2
+     "HB": 4,
+     "BB": 1
     },
     "rateTypeMix": {
-     "international": 10
+     "international": 9
     },
     "levelComparable": false,
-    "matched": 0,
-    "link": null,
+    "matched": 9,
+    "link": 1.0,
     "index": 100.0
    },
-   "wow": null,
+   "wow": 0.0,
    "basisMix": {
-    "HB": 5,
-    "AI": 4,
-    "UNK": 2
+    "HB": 9,
+    "AI": 8,
+    "UNK": 2,
+    "BB": 1
    },
    "rateTypeMix": {
-    "international": 11
+    "international": 20
    },
    "levelComparable": false,
    "residentOnly": false,
-   "ota": null,
-   "spread": null,
-   "spreadLatest": null
+   "ota": {
+    "series": [
+     {
+      "week": "2026-W33",
+      "weekStart": "2026-08-10",
+      "median": 867.0,
+      "n": 8,
+      "observations": 8,
+      "coverage": 62,
+      "confident": true,
+      "basisMix": {
+       "UNK": 8
+      },
+      "rateTypeMix": {
+       "international": 8
+      },
+      "levelComparable": true,
+      "matched": 0,
+      "link": null,
+      "index": 100.0
+     }
+    ],
+    "latest": {
+     "week": "2026-W33",
+     "weekStart": "2026-08-10",
+     "median": 867.0,
+     "n": 8,
+     "observations": 8,
+     "coverage": 62,
+     "confident": true,
+     "basisMix": {
+      "UNK": 8
+     },
+     "rateTypeMix": {
+      "international": 8
+     },
+     "levelComparable": true,
+     "matched": 0,
+     "link": null,
+     "index": 100.0
+    },
+    "wow": null
+   },
+   "spread": [
+    {
+     "week": "2026-W33",
+     "weekStart": "2026-08-10",
+     "spreadPct": -33.0,
+     "n": 1,
+     "skippedNonComparableBasis": 7
+    }
+   ],
+   "spreadLatest": {
+    "week": "2026-W33",
+    "weekStart": "2026-08-10",
+    "spreadPct": -33.0,
+    "n": 1,
+    "skippedNonComparableBasis": 7
+   }
   },
   "kigali": {
    "label": "Kigali",
@@ -459,42 +609,116 @@ window.RATE_INDEX = {
      "matched": 0,
      "link": null,
      "index": 100.0
+    },
+    {
+     "week": "2026-W33",
+     "weekStart": "2026-08-10",
+     "median": 193.5,
+     "n": 6,
+     "observations": 6,
+     "coverage": 55,
+     "confident": true,
+     "basisMix": {
+      "BB": 6
+     },
+     "rateTypeMix": {
+      "international": 6
+     },
+     "levelComparable": true,
+     "matched": 6,
+     "link": 0.84643,
+     "index": 84.6
     }
    ],
    "baseline": 266.63,
    "latest": {
-    "week": "2026-W32",
-    "weekStart": "2026-08-03",
-    "median": 266.63,
-    "n": 8,
-    "observations": 8,
-    "coverage": 73,
+    "week": "2026-W33",
+    "weekStart": "2026-08-10",
+    "median": 193.5,
+    "n": 6,
+    "observations": 6,
+    "coverage": 55,
     "confident": true,
     "basisMix": {
-     "UNK": 6,
-     "BB": 2
+     "BB": 6
     },
     "rateTypeMix": {
-     "international": 8
+     "international": 6
     },
-    "levelComparable": false,
-    "matched": 0,
-    "link": null,
-    "index": 100.0
+    "levelComparable": true,
+    "matched": 6,
+    "link": 0.84643,
+    "index": 84.6
    },
-   "wow": null,
+   "wow": -15.4,
    "basisMix": {
     "UNK": 6,
-    "BB": 2
+    "BB": 8
    },
    "rateTypeMix": {
-    "international": 8
+    "international": 14
    },
    "levelComparable": false,
    "residentOnly": false,
-   "ota": null,
-   "spread": null,
-   "spreadLatest": null
+   "ota": {
+    "series": [
+     {
+      "week": "2026-W33",
+      "weekStart": "2026-08-10",
+      "median": 163.5,
+      "n": 10,
+      "observations": 10,
+      "coverage": 91,
+      "confident": true,
+      "basisMix": {
+       "UNK": 10
+      },
+      "rateTypeMix": {
+       "international": 10
+      },
+      "levelComparable": true,
+      "matched": 0,
+      "link": null,
+      "index": 100.0
+     }
+    ],
+    "latest": {
+     "week": "2026-W33",
+     "weekStart": "2026-08-10",
+     "median": 163.5,
+     "n": 10,
+     "observations": 10,
+     "coverage": 91,
+     "confident": true,
+     "basisMix": {
+      "UNK": 10
+     },
+     "rateTypeMix": {
+      "international": 10
+     },
+     "levelComparable": true,
+     "matched": 0,
+     "link": null,
+     "index": 100.0
+    },
+    "wow": null
+   },
+   "spread": [
+    {
+     "week": "2026-W33",
+     "weekStart": "2026-08-10",
+     "spreadPct": 12.5,
+     "n": 6,
+     "skippedNonComparableBasis": 0
+    }
+   ],
+   "spreadLatest": {
+    "week": "2026-W33",
+    "weekStart": "2026-08-10",
+    "spreadPct": 12.5,
+    "n": 6,
+    "skippedNonComparableBasis": 0
+   }
   },
   "kampala": {
    "label": "Kampala & Entebbe",
@@ -521,42 +745,116 @@ window.RATE_INDEX = {
      "matched": 0,
      "link": null,
      "index": 100.0
+    },
+    {
+     "week": "2026-W33",
+     "weekStart": "2026-08-10",
+     "median": 158.51,
+     "n": 10,
+     "observations": 10,
+     "coverage": 83,
+     "confident": true,
+     "basisMix": {
+      "BB": 10
+     },
+     "rateTypeMix": {
+      "international": 10
+     },
+     "levelComparable": true,
+     "matched": 8,
+     "link": 1.0082,
+     "index": 100.8
     }
    ],
    "baseline": 176.0,
    "latest": {
-    "week": "2026-W32",
-    "weekStart": "2026-08-03",
-    "median": 176.0,
-    "n": 9,
-    "observations": 9,
-    "coverage": 75,
+    "week": "2026-W33",
+    "weekStart": "2026-08-10",
+    "median": 158.51,
+    "n": 10,
+    "observations": 10,
+    "coverage": 83,
     "confident": true,
     "basisMix": {
-     "UNK": 1,
-     "BB": 8
+     "BB": 10
     },
     "rateTypeMix": {
-     "international": 9
+     "international": 10
     },
-    "levelComparable": false,
-    "matched": 0,
-    "link": null,
-    "index": 100.0
+    "levelComparable": true,
+    "matched": 8,
+    "link": 1.0082,
+    "index": 100.8
    },
-   "wow": null,
+   "wow": 0.8,
    "basisMix": {
     "UNK": 1,
-    "BB": 8
+    "BB": 18
    },
    "rateTypeMix": {
-    "international": 9
+    "international": 19
    },
    "levelComparable": false,
    "residentOnly": false,
-   "ota": null,
-   "spread": null,
-   "spreadLatest": null
+   "ota": {
+    "series": [
+     {
+      "week": "2026-W33",
+      "weekStart": "2026-08-10",
+      "median": 187.0,
+      "n": 10,
+      "observations": 10,
+      "coverage": 83,
+      "confident": true,
+      "basisMix": {
+       "UNK": 10
+      },
+      "rateTypeMix": {
+       "international": 10
+      },
+      "levelComparable": true,
+      "matched": 0,
+      "link": null,
+      "index": 100.0
+     }
+    ],
+    "latest": {
+     "week": "2026-W33",
+     "weekStart": "2026-08-10",
+     "median": 187.0,
+     "n": 10,
+     "observations": 10,
+     "coverage": 83,
+     "confident": true,
+     "basisMix": {
+      "UNK": 10
+     },
+     "rateTypeMix": {
+      "international": 10
+     },
+     "levelComparable": true,
+     "matched": 0,
+     "link": null,
+     "index": 100.0
+    },
+    "wow": null
+   },
+   "spread": [
+    {
+     "week": "2026-W33",
+     "weekStart": "2026-08-10",
+     "spreadPct": 6.5,
+     "n": 9,
+     "skippedNonComparableBasis": 0
+    }
+   ],
+   "spreadLatest": {
+    "week": "2026-W33",
+    "weekStart": "2026-08-10",
+    "spreadPct": 6.5,
+    "n": 9,
+    "skippedNonComparableBasis": 0
+   }
   },
   "safari": {
    "label": "Mara & Serengeti",
@@ -605,40 +903,61 @@ window.RATE_INDEX = {
      "matched": 3,
      "link": 1.0,
      "index": 100.0
+    },
+    {
+     "week": "2026-W33",
+     "weekStart": "2026-08-10",
+     "median": 4900.0,
+     "n": 19,
+     "observations": 19,
+     "coverage": 86,
+     "confident": true,
+     "basisMix": {
+      "FB": 4,
+      "AI": 6,
+      "FI": 9
+     },
+     "rateTypeMix": {
+      "international": 19
+     },
+     "levelComparable": false,
+     "matched": 18,
+     "link": 1.0,
+     "index": 100.0
     }
    ],
    "baseline": 1996.0,
    "latest": {
-    "week": "2026-W32",
-    "weekStart": "2026-08-03",
-    "median": 4293.0,
-    "n": 18,
-    "observations": 18,
-    "coverage": 82,
+    "week": "2026-W33",
+    "weekStart": "2026-08-10",
+    "median": 4900.0,
+    "n": 19,
+    "observations": 19,
+    "coverage": 86,
     "confident": true,
     "basisMix": {
      "FB": 4,
      "AI": 6,
-     "UNK": 8
+     "FI": 9
     },
     "rateTypeMix": {
-     "international": 18
+     "international": 19
     },
     "levelComparable": false,
-    "matched": 3,
+    "matched": 18,
     "link": 1.0,
     "index": 100.0
    },
    "wow": 0.0,
    "basisMix": {
     "FB+": 1,
-    "FI": 2,
-    "FB": 6,
-    "AI": 6,
+    "FI": 11,
+    "FB": 10,
+    "AI": 12,
     "UNK": 8
    },
    "rateTypeMix": {
-    "international": 23
+    "international": 42
    },
    "levelComparable": false,
    "residentOnly": false,
@@ -670,40 +989,116 @@ window.RATE_INDEX = {
      "matched": 0,
      "link": null,
      "index": 100.0
+    },
+    {
+     "week": "2026-W33",
+     "weekStart": "2026-08-10",
+     "median": 193.93,
+     "n": 4,
+     "observations": 4,
+     "coverage": 40,
+     "confident": true,
+     "basisMix": {
+      "BB": 4
+     },
+     "rateTypeMix": {
+      "international": 4
+     },
+     "levelComparable": true,
+     "matched": 3,
+     "link": 0.80125,
+     "index": 80.1
     }
    ],
    "baseline": 292.89,
    "latest": {
-    "week": "2026-W32",
-    "weekStart": "2026-08-03",
-    "median": 292.89,
-    "n": 6,
-    "observations": 6,
-    "coverage": 60,
+    "week": "2026-W33",
+    "weekStart": "2026-08-10",
+    "median": 193.93,
+    "n": 4,
+    "observations": 4,
+    "coverage": 40,
     "confident": true,
     "basisMix": {
-     "UNK": 6
+     "BB": 4
     },
     "rateTypeMix": {
-     "international": 6
+     "international": 4
     },
     "levelComparable": true,
-    "matched": 0,
-    "link": null,
-    "index": 100.0
+    "matched": 3,
+    "link": 0.80125,
+    "index": 80.1
    },
-   "wow": null,
+   "wow": -19.9,
    "basisMix": {
-    "UNK": 6
+    "UNK": 6,
+    "BB": 4
    },
    "rateTypeMix": {
-    "international": 6
+    "international": 10
    },
-   "levelComparable": true,
+   "levelComparable": false,
    "residentOnly": false,
-   "ota": null,
-   "spread": null,
-   "spreadLatest": null
+   "ota": {
+    "series": [
+     {
+      "week": "2026-W33",
+      "weekStart": "2026-08-10",
+      "median": 201.75,
+      "n": 6,
+      "observations": 6,
+      "coverage": 60,
+      "confident": true,
+      "basisMix": {
+       "UNK": 6
+      },
+      "rateTypeMix": {
+       "international": 6
+      },
+      "levelComparable": true,
+      "matched": 0,
+      "link": null,
+      "index": 100.0
+     }
+    ],
+    "latest": {
+     "week": "2026-W33",
+     "weekStart": "2026-08-10",
+     "median": 201.75,
+     "n": 6,
+     "observations": 6,
+     "coverage": 60,
+     "confident": true,
+     "basisMix": {
+      "UNK": 6
+     },
+     "rateTypeMix": {
+      "international": 6
+     },
+     "levelComparable": true,
+     "matched": 0,
+     "link": null,
+     "index": 100.0
+    },
+    "wow": null
+   },
+   "spread": [
+    {
+     "week": "2026-W33",
+     "weekStart": "2026-08-10",
+     "spreadPct": 7.8,
+     "n": 3,
+     "skippedNonComparableBasis": 0
+    }
+   ],
+   "spreadLatest": {
+    "week": "2026-W33",
+    "weekStart": "2026-08-10",
+    "spreadPct": 7.8,
+    "n": 3,
+    "skippedNonComparableBasis": 0
+   }
   },
   "lakevictoria": {
    "label": "Lake Victoria & Entebbe",
@@ -729,40 +1124,116 @@ window.RATE_INDEX = {
      "matched": 0,
      "link": null,
      "index": 100.0
+    },
+    {
+     "week": "2026-W33",
+     "weekStart": "2026-08-10",
+     "median": 300.5,
+     "n": 4,
+     "observations": 4,
+     "coverage": 44,
+     "confident": true,
+     "basisMix": {
+      "BB": 4
+     },
+     "rateTypeMix": {
+      "international": 4
+     },
+     "levelComparable": true,
+     "matched": 3,
+     "link": 0.99901,
+     "index": 99.9
     }
    ],
    "baseline": 300.4,
    "latest": {
-    "week": "2026-W32",
-    "weekStart": "2026-08-03",
-    "median": 300.4,
-    "n": 6,
-    "observations": 6,
-    "coverage": 67,
+    "week": "2026-W33",
+    "weekStart": "2026-08-10",
+    "median": 300.5,
+    "n": 4,
+    "observations": 4,
+    "coverage": 44,
     "confident": true,
     "basisMix": {
-     "UNK": 6
+     "BB": 4
     },
     "rateTypeMix": {
-     "international": 6
+     "international": 4
     },
     "levelComparable": true,
-    "matched": 0,
-    "link": null,
-    "index": 100.0
+    "matched": 3,
+    "link": 0.99901,
+    "index": 99.9
    },
-   "wow": null,
+   "wow": -0.1,
    "basisMix": {
-    "UNK": 6
+    "UNK": 6,
+    "BB": 4
    },
    "rateTypeMix": {
-    "international": 6
+    "international": 10
    },
-   "levelComparable": true,
+   "levelComparable": false,
    "residentOnly": false,
-   "ota": null,
-   "spread": null,
-   "spreadLatest": null
+   "ota": {
+    "series": [
+     {
+      "week": "2026-W33",
+      "weekStart": "2026-08-10",
+      "median": 217.0,
+      "n": 7,
+      "observations": 7,
+      "coverage": 78,
+      "confident": true,
+      "basisMix": {
+       "UNK": 7
+      },
+      "rateTypeMix": {
+       "international": 7
+      },
+      "levelComparable": true,
+      "matched": 0,
+      "link": null,
+      "index": 100.0
+     }
+    ],
+    "latest": {
+     "week": "2026-W33",
+     "weekStart": "2026-08-10",
+     "median": 217.0,
+     "n": 7,
+     "observations": 7,
+     "coverage": 78,
+     "confident": true,
+     "basisMix": {
+      "UNK": 7
+     },
+     "rateTypeMix": {
+      "international": 7
+     },
+     "levelComparable": true,
+     "matched": 0,
+     "link": null,
+     "index": 100.0
+    },
+    "wow": null
+   },
+   "spread": [
+    {
+     "week": "2026-W33",
+     "weekStart": "2026-08-10",
+     "spreadPct": 2.0,
+     "n": 3,
+     "skippedNonComparableBasis": 0
+    }
+   ],
+   "spreadLatest": {
+    "week": "2026-W33",
+    "weekStart": "2026-08-10",
+    "spreadPct": 2.0,
+    "n": 3,
+    "skippedNonComparableBasis": 0
+   }
   },
   "bwindi": {
    "label": "Bwindi, Kibale & QENP",
@@ -788,38 +1259,100 @@ window.RATE_INDEX = {
      "matched": 0,
      "link": null,
      "index": 100.0
+    },
+    {
+     "week": "2026-W33",
+     "weekStart": "2026-08-10",
+     "median": 3010.0,
+     "n": 9,
+     "observations": 9,
+     "coverage": 90,
+     "confident": true,
+     "basisMix": {
+      "FI": 9
+     },
+     "rateTypeMix": {
+      "international": 9
+     },
+     "levelComparable": true,
+     "matched": 9,
+     "link": 1.11724,
+     "index": 111.7
     }
    ],
    "baseline": 1770.0,
    "latest": {
-    "week": "2026-W32",
-    "weekStart": "2026-08-03",
-    "median": 1770.0,
-    "n": 10,
-    "observations": 10,
-    "coverage": 100,
+    "week": "2026-W33",
+    "weekStart": "2026-08-10",
+    "median": 3010.0,
+    "n": 9,
+    "observations": 9,
+    "coverage": 90,
     "confident": true,
     "basisMix": {
-     "UNK": 10
+     "FI": 9
     },
     "rateTypeMix": {
-     "international": 10
+     "international": 9
     },
     "levelComparable": true,
-    "matched": 0,
-    "link": null,
-    "index": 100.0
+    "matched": 9,
+    "link": 1.11724,
+    "index": 111.7
    },
-   "wow": null,
+   "wow": 11.7,
    "basisMix": {
-    "UNK": 10
+    "UNK": 10,
+    "FI": 9
    },
    "rateTypeMix": {
-    "international": 10
+    "international": 19
    },
-   "levelComparable": true,
+   "levelComparable": false,
    "residentOnly": false,
-   "ota": null,
+   "ota": {
+    "series": [
+     {
+      "week": "2026-W33",
+      "weekStart": "2026-08-10",
+      "median": 1070.0,
+      "n": 1,
+      "observations": 1,
+      "coverage": 10,
+      "confident": false,
+      "basisMix": {
+       "UNK": 1
+      },
+      "rateTypeMix": {
+       "international": 1
+      },
+      "levelComparable": true,
+      "matched": 0,
+      "link": null,
+      "index": null
+     }
+    ],
+    "latest": {
+     "week": "2026-W33",
+     "weekStart": "2026-08-10",
+     "median": 1070.0,
+     "n": 1,
+     "observations": 1,
+     "coverage": 10,
+     "confident": false,
+     "basisMix": {
+      "UNK": 1
+     },
+     "rateTypeMix": {
+      "international": 1
+     },
+     "levelComparable": true,
+     "matched": 0,
+     "link": null,
+     "index": null
+    },
+    "wow": null
+   },
    "spread": null,
    "spreadLatest": null
   },
@@ -848,42 +1381,116 @@ window.RATE_INDEX = {
      "matched": 0,
      "link": null,
      "index": 100.0
+    },
+    {
+     "week": "2026-W33",
+     "weekStart": "2026-08-10",
+     "median": 142.5,
+     "n": 6,
+     "observations": 6,
+     "coverage": 60,
+     "confident": true,
+     "basisMix": {
+      "BB": 6
+     },
+     "rateTypeMix": {
+      "international": 6
+     },
+     "levelComparable": true,
+     "matched": 6,
+     "link": 1.0,
+     "index": 100.0
     }
    ],
    "baseline": 151.25,
    "latest": {
-    "week": "2026-W32",
-    "weekStart": "2026-08-03",
-    "median": 151.25,
+    "week": "2026-W33",
+    "weekStart": "2026-08-10",
+    "median": 142.5,
     "n": 6,
     "observations": 6,
     "coverage": 60,
     "confident": true,
     "basisMix": {
-     "BB": 2,
-     "UNK": 4
+     "BB": 6
     },
     "rateTypeMix": {
      "international": 6
     },
-    "levelComparable": false,
-    "matched": 0,
-    "link": null,
+    "levelComparable": true,
+    "matched": 6,
+    "link": 1.0,
     "index": 100.0
    },
-   "wow": null,
+   "wow": 0.0,
    "basisMix": {
-    "BB": 2,
+    "BB": 8,
     "UNK": 4
    },
    "rateTypeMix": {
-    "international": 6
+    "international": 12
    },
    "levelComparable": false,
    "residentOnly": false,
-   "ota": null,
-   "spread": null,
-   "spreadLatest": null
+   "ota": {
+    "series": [
+     {
+      "week": "2026-W33",
+      "weekStart": "2026-08-10",
+      "median": 100.5,
+      "n": 8,
+      "observations": 8,
+      "coverage": 80,
+      "confident": true,
+      "basisMix": {
+       "UNK": 8
+      },
+      "rateTypeMix": {
+       "international": 8
+      },
+      "levelComparable": true,
+      "matched": 0,
+      "link": null,
+      "index": 100.0
+     }
+    ],
+    "latest": {
+     "week": "2026-W33",
+     "weekStart": "2026-08-10",
+     "median": 100.5,
+     "n": 8,
+     "observations": 8,
+     "coverage": 80,
+     "confident": true,
+     "basisMix": {
+      "UNK": 8
+     },
+     "rateTypeMix": {
+      "international": 8
+     },
+     "levelComparable": true,
+     "matched": 0,
+     "link": null,
+     "index": 100.0
+    },
+    "wow": null
+   },
+   "spread": [
+    {
+     "week": "2026-W33",
+     "weekStart": "2026-08-10",
+     "spreadPct": -7.5,
+     "n": 4,
+     "skippedNonComparableBasis": 0
+    }
+   ],
+   "spreadLatest": {
+    "week": "2026-W33",
+    "weekStart": "2026-08-10",
+    "spreadPct": -7.5,
+    "n": 4,
+    "skippedNonComparableBasis": 0
+   }
   },
   "volcanoes": {
    "label": "Volcanoes & Akagera",
@@ -909,36 +1516,56 @@ window.RATE_INDEX = {
      "matched": 0,
      "link": null,
      "index": 100.0
+    },
+    {
+     "week": "2026-W33",
+     "weekStart": "2026-08-10",
+     "median": 4090.0,
+     "n": 10,
+     "observations": 10,
+     "coverage": 100,
+     "confident": true,
+     "basisMix": {
+      "FI": 10
+     },
+     "rateTypeMix": {
+      "international": 10
+     },
+     "levelComparable": true,
+     "matched": 10,
+     "link": 1.0,
+     "index": 100.0
     }
    ],
    "baseline": 4095.0,
    "latest": {
-    "week": "2026-W32",
-    "weekStart": "2026-08-03",
-    "median": 4095.0,
+    "week": "2026-W33",
+    "weekStart": "2026-08-10",
+    "median": 4090.0,
     "n": 10,
     "observations": 10,
     "coverage": 100,
     "confident": true,
     "basisMix": {
-     "UNK": 10
+     "FI": 10
     },
     "rateTypeMix": {
      "international": 10
     },
     "levelComparable": true,
-    "matched": 0,
-    "link": null,
+    "matched": 10,
+    "link": 1.0,
     "index": 100.0
    },
-   "wow": null,
+   "wow": 0.0,
    "basisMix": {
-    "UNK": 10
+    "UNK": 10,
+    "FI": 10
    },
    "rateTypeMix": {
-    "international": 10
+    "international": 20
    },
-   "levelComparable": true,
+   "levelComparable": false,
    "residentOnly": false,
    "ota": null,
    "spread": null,
