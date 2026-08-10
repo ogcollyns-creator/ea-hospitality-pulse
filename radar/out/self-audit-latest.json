@@ -1,5 +1,5 @@
 {
- "generated": "2026-08-09T09:58+03:00",
+ "generated": "2026-08-10T08:37+03:00",
  "health": 0.567,
  "grade": "D",
  "fails": [
@@ -38,7 +38,7 @@
   {
    "name": "edition cadence",
    "status": "WARN",
-   "detail": "Missing slots (last 2 full days): 2026-08-08 midday",
+   "detail": "Missing slots (last 2 full days): 2026-08-09 midday, 2026-08-08 midday",
    "fix": "Confirm the scheduled Pulse task fired for each slot.",
    "score": 0.5
   },
@@ -52,14 +52,14 @@
   {
    "name": "ledger hygiene",
    "status": "WARN",
-   "detail": "59 calls: 53 open, 6 resolved. Overdue-open: 0. Missing source_url: 18.",
+   "detail": "63 calls: 57 open, 6 resolved. Overdue-open: 0. Missing source_url: 18.",
    "fix": "Backfill source_url on early calls.",
    "score": 0.5
   },
   {
    "name": "data freshness",
    "status": "WARN",
-   "detail": "Stale/again-verify: advisories.js 5d>4, costs.js 11d>10",
+   "detail": "Stale/again-verify: advisories.js 6d>4, costs.js 12d>10",
    "fix": "Re-verify each dataset's values and bump its 'updated:' field, or note it in-edition.",
    "score": 0.5
   },
@@ -73,14 +73,14 @@
   {
    "name": "forecast throughput",
    "status": "PASS",
-   "detail": "15 new falsifiable calls logged in last 7d.",
+   "detail": "13 new falsifiable calls logged in last 7d.",
    "fix": "",
    "score": 1.0
   },
   {
    "name": "published content",
    "status": "PASS",
-   "detail": "7 recent editions; no advisory claim contradicts the board.",
+   "detail": "8 recent editions; no advisory claim contradicts the board.",
    "fix": "",
    "score": 1.0
   }

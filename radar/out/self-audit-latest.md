@@ -1,4 +1,4 @@
-# EA Pulse self-audit — 2026-08-09T09:58+03:00 EAT
+# EA Pulse self-audit — 2026-08-10T08:37+03:00 EAT
 **Health 57% · grade D** — 1 FAIL, 6 WARN, 3 PASS
 
 | | Check | Status | Detail |
@@ -6,13 +6,13 @@
 | 🔴 | source coverage | FAIL | 118 tier-1 sources: 85 HEALTHY, 19 MUTE, 14 SILENT. Blind examples: ke-tenders, ug-bou, tz-mnrt, tz-tanapa, tz-immigration, tz-tenders |
 | 🟢 | source staleness | PASS | No tier-1 HEALTHY source silent >14d. |
 | 🟡 | radar feed freshness | WARN | 0 obs in window but no first-seen stamps parsed. |
-| 🟡 | edition cadence | WARN | Missing slots (last 2 full days): 2026-08-08 midday |
+| 🟡 | edition cadence | WARN | Missing slots (last 2 full days): 2026-08-09 midday, 2026-08-08 midday |
 | 🟡 | signal quality | WARN | 11/16 editions in last 7d were Tier 2/3 (thin). Share 69%. |
-| 🟡 | ledger hygiene | WARN | 59 calls: 53 open, 6 resolved. Overdue-open: 0. Missing source_url: 18. |
-| 🟡 | data freshness | WARN | Stale/again-verify: advisories.js 5d>4, costs.js 11d>10 |
+| 🟡 | ledger hygiene | WARN | 63 calls: 57 open, 6 resolved. Overdue-open: 0. Missing source_url: 18. |
+| 🟡 | data freshness | WARN | Stale/again-verify: advisories.js 6d>4, costs.js 12d>10 |
 | 🟡 | rate-index integrity | WARN | n values seen: [1, 5, 6, 8, 9, 10]; confident true=28 false=4. |
-| 🟢 | forecast throughput | PASS | 15 new falsifiable calls logged in last 7d. |
-| 🟢 | published content | PASS | 7 recent editions; no advisory claim contradicts the board. |
+| 🟢 | forecast throughput | PASS | 13 new falsifiable calls logged in last 7d. |
+| 🟢 | published content | PASS | 8 recent editions; no advisory claim contradicts the board. |
 
 ## Actions
 - **source coverage** (FAIL): Give each blind tier-1 source an RSS/feed URL or frag selector; validate on the runner.
