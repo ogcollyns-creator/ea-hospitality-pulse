@@ -1,5 +1,14 @@
 window.EDITIONS = [
  {
+  "id": "pulse-2026-08-10-evening",
+  "date": "2026-08-10",
+  "dateDisplay": "Monday, 10 August 2026",
+  "edition": "Evening Wrap",
+  "editionKey": "evening",
+  "summary": "THE BIG READ — Kenya's flat fuel price is a subsidy with an expiry date, not a stable cost.",
+  "bodyHtml": "<p><span class=\"meta-line\">🏨 EA HOSPITALITY PULSE — Evening Wrap</span><br><span class=\"meta-line\">📅 Monday, 10 August 2026 | 🇰🇪🇹🇿🇺🇬🇷🇼</span></p>\n<p>THE BIG READ — Kenya&#x27;s flat fuel price is a subsidy with an expiry date, not a stable cost.<br>━━━━━━━━━<br>Kenya&#x27;s pump prices didn&#x27;t move this cycle: super KSh 214.03/L, diesel KSh 222.86/L, held 15 Jul–14 Aug (EPRA July review). Read as good news, it&#x27;s a trap. The price is flat only because the state is holding it there — KSh 945m of Petroleum Development Levy money this cycle, plus an 8% VAT rate on fuel (against the statutory 16%) that has been extended only to 14 October. Both are discretionary. Both have dates.</p>\n<p>What everyone is missing: operators are reading a policy hold as a market hold, and pricing 2027 contracts off a number that has a demolition date of 14 October. When the VAT concession lapses, fuel steps up at source — and it steps up in the one country in the region whose inflation is already energy-driven. Kenya&#x27;s CPI is 6.4% with core at just 3.1% and non-core at 15.1% (KNBS, June); the pressure is entirely in energy, transport and food — exactly the lines a hotel kitchen, laundry and transfer fleet carry. Next door, Tanzania sits at 4.0% and easing (NBS, June). Today the cost gap is a rounding error. In Q4 it becomes structural.</p>\n<p><span class=\"sowhat\">🎯 So what, by segment:</span><br>• CITY (Nairobi) — the killer is the electricity pass-through, now &gt;KSh 5/kWh and rising (EPRA, July). Audit the pass-through line, not the tariff band; lock energy-linked supplier contracts while the shilling is stable at ~129.<br>• BUSH — diesel is your cost engine. The flat pump price is a window, not a floor: lock transfer, generator and game-drive fuel before the October VAT decision.<br>• BEACH &amp; multi-country — the Kenya–Tanzania divergence is an allocation signal. Tanzania/Zanzibar&#x27;s benign cost base is a widening margin advantage — weight net-rate sourcing and new capital accordingly.<br>━━━━━━━━━<br>📌 STILL TRUE (unchanged)<br>• Advisory board: US — Kenya L2, Uganda L4, Tanzania/Zanzibar L3, Rwanda L3. No move today.<br>• Uganda declared Ebola-free 28 July; 42-day all-clear completes ~28 Aug. No entry rule has changed.</p>\n<p><span class=\"meta-line\">📡 THE WEEK AHEAD</span><br>• Tue 12 Aug — US CDC §362 Ebola entry order expires (4:59pm EDT); renewal + any Uganda decouple<br>• 14–15 Aug — EPRA fuel review reprices the cycle<br>• 18 Aug — WHO IHR Emergency Committee reviews the Bundibugyo PHEIC<br>• 19–21 Aug — Hotel Expo Kenya, KICC Nairobi — city midweek compression</p>\n<p><span class=\"meta-line\">💬 Are you pricing next year off the pump price, or off the policy holding it there?</span></p>\n<p>🔗 This edition on the web: https://eahospitalitypulse.com/editions/pulse-2026-08-10-evening.html<br>💼 Today&#x27;s Big Read on LinkedIn: https://www.linkedin.com/company/ea-hospitality-pulse/<br>— EA Hospitality Pulse | Daily intelligence for city, bush &amp; beach properties</p>"
+ },
+ {
   "id": "pulse-2026-08-10-midday",
   "date": "2026-08-10",
   "dateDisplay": "Monday, 10 August 2026",
@@ -1789,4 +1798,4 @@ window.INSIGHTS = [
   "editionKey": "evening"
  }
 ];
-window.BUILT_AT = "2026-08-10 16:51";
+window.BUILT_AT = "2026-08-10 17:13";

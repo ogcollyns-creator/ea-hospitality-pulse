@@ -1,8 +1,8 @@
 window.LEDGER = {
- "updated": "2026-08-10 16:51",
+ "updated": "2026-08-10 17:13",
  "stats": {
-  "total": 64,
-  "open": 58,
+  "total": 65,
+  "open": 59,
   "resolved": 6,
   "correct": 3,
   "partial": 1,
@@ -648,6 +648,22 @@ window.LEDGER = {
    "resolved_date": "",
    "evidence": "",
    "source_url": "",
+   "overdue": false
+  },
+  {
+   "id": "P064",
+   "made_date": "2026-08-10",
+   "edition": "Evening Wrap",
+   "claim": "Kenya's EPRA super petrol price (Nairobi) in the review effective on/around 15 November 2026 will print ABOVE KSh 214.03/L — the 8% fuel-VAT concession (extended only to 14 Oct 2026) lapses and removes the prop holding today's flat price",
+   "resolution_criteria": "The EPRA monthly fuel price review effective on/around 15 Nov 2026 shows Nairobi super petrol above KSh 214.03/L. If at or below KSh 214.03/L the call is incorrect",
+   "resolve_by": "2026-11-20",
+   "market": "KE",
+   "segment": "All",
+   "confidence": "Early signal",
+   "status": "open",
+   "resolved_date": "",
+   "evidence": "",
+   "source_url": "https://www.epra.go.ke/",
    "overdue": false
   },
   {
