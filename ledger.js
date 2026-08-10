@@ -1,8 +1,8 @@
 window.LEDGER = {
- "updated": "2026-08-09 20:07",
+ "updated": "2026-08-10 07:08",
  "stats": {
-  "total": 62,
-  "open": 56,
+  "total": 63,
+  "open": 57,
   "resolved": 6,
   "correct": 3,
   "partial": 1,
@@ -296,6 +296,22 @@ window.LEDGER = {
    "resolved_date": "",
    "evidence": "",
    "source_url": "https://travel.state.gov/content/travel/en/traveladvisories/traveladvisories/kenya-travel-advisory.html",
+   "overdue": false
+  },
+  {
+   "id": "P062",
+   "made_date": "2026-08-10",
+   "edition": "Morning Brief",
+   "claim": "Zanzibar's next OCGS monthly arrivals release (July 2026 data, due ~mid-Aug) will show Europe's share of arrivals above 55% — confirming the structural European concentration flagged in today's Expert Brief persists rather than easing",
+   "resolution_criteria": "OCGS Zanzibar July 2026 arrivals release (published ~mid-to-late Aug 2026) shows Europe >= 55% of total arrivals. If Europe's share prints below 55% the call is incorrect",
+   "resolve_by": "2026-08-31",
+   "market": "ZNZ",
+   "segment": "Beach",
+   "confidence": "Early signal",
+   "status": "open",
+   "resolved_date": "",
+   "evidence": "",
+   "source_url": "https://www.ocgs.go.tz/",
    "overdue": false
   },
   {
