@@ -1,5 +1,5 @@
 window.RATE_INDEX = {
- "updated": "2026-08-10 14:30",
+ "updated": "2026-08-10 16:51",
  "convention": {
   "los": 2,
   "lead_days": 30,
@@ -248,8 +248,7 @@ window.RATE_INDEX = {
      "coverage": 77,
      "confident": true,
      "basisMix": {
-      "FB": 1,
-      "BB": 8,
+      "BB": 9,
       "UNK": 1
      },
      "rateTypeMix": {
@@ -306,9 +305,9 @@ window.RATE_INDEX = {
    "basisMix": {
     "HB": 3,
     "AI": 2,
-    "FB": 2,
-    "BB": 17,
-    "UNK": 1
+    "BB": 18,
+    "UNK": 1,
+    "FB": 1
    },
    "rateTypeMix": {
     "resident": 5,
@@ -593,7 +592,7 @@ window.RATE_INDEX = {
     {
      "week": "2026-W32",
      "weekStart": "2026-08-03",
-     "median": 266.63,
+     "median": 209.5,
      "n": 8,
      "observations": 8,
      "coverage": 73,
@@ -626,11 +625,11 @@ window.RATE_INDEX = {
      },
      "levelComparable": true,
      "matched": 6,
-     "link": 0.84643,
-     "index": 84.6
+     "link": 0.92374,
+     "index": 92.4
     }
    ],
-   "baseline": 266.63,
+   "baseline": 209.5,
    "latest": {
     "week": "2026-W33",
     "weekStart": "2026-08-10",
@@ -647,10 +646,10 @@ window.RATE_INDEX = {
     },
     "levelComparable": true,
     "matched": 6,
-    "link": 0.84643,
-    "index": 84.6
+    "link": 0.92374,
+    "index": 92.4
    },
-   "wow": -15.4,
+   "wow": -7.6,
    "basisMix": {
     "UNK": 6,
     "BB": 8
@@ -974,7 +973,7 @@ window.RATE_INDEX = {
     {
      "week": "2026-W32",
      "weekStart": "2026-08-03",
-     "median": 292.89,
+     "median": 243.53,
      "n": 6,
      "observations": 6,
      "coverage": 60,
@@ -1010,7 +1009,7 @@ window.RATE_INDEX = {
      "index": 80.1
     }
    ],
-   "baseline": 292.89,
+   "baseline": 243.53,
    "latest": {
     "week": "2026-W33",
     "weekStart": "2026-08-10",
