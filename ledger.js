@@ -1,8 +1,8 @@
 window.LEDGER = {
- "updated": "2026-08-10 11:06",
+ "updated": "2026-08-10 13:14",
  "stats": {
-  "total": 63,
-  "open": 57,
+  "total": 64,
+  "open": 58,
   "resolved": 6,
   "correct": 3,
   "partial": 1,
@@ -824,6 +824,22 @@ window.LEDGER = {
    "resolved_date": "",
    "evidence": "",
    "source_url": "",
+   "overdue": false
+  },
+  {
+   "id": "P063",
+   "made_date": "2026-08-10",
+   "edition": "Midday Pulse",
+   "claim": "Kenya's domestic air travel will keep outpacing international — the next KAA/KNBS air-passenger data covering a period beyond June 2026 shows domestic routes at or above 40% of total traffic, confirming the domestic share is structural not a one-off school-holiday spike",
+   "resolution_criteria": "KAA preliminary data or KNBS Leading Economic Indicators covering a period after June 2026 (published by 31 Mar 2027) shows domestic passengers >= 40% of total air traffic. If domestic share prints below 40% the call is incorrect",
+   "resolve_by": "2027-03-31",
+   "market": "KE",
+   "segment": "All",
+   "confidence": "Early signal",
+   "status": "open",
+   "resolved_date": "",
+   "evidence": "",
+   "source_url": "https://www.kcaa.or.ke/about-us/statistics/passenger-traffic",
    "overdue": false
   },
   {

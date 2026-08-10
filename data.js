@@ -1,5 +1,14 @@
 window.EDITIONS = [
  {
+  "id": "pulse-2026-08-10-midday",
+  "date": "2026-08-10",
+  "dateDisplay": "Monday, 10 August 2026",
+  "edition": "Midday Pulse",
+  "editionKey": "midday",
+  "summary": "🕛 EA HOSPITALITY PULSE — Mon 10 Aug, Midday",
+  "bodyHtml": "<p>🕛 <strong>EA HOSPITALITY PULSE — Mon 10 Aug, Midday</strong><br><em>Quiet news slot. One Expert Brief, then the board.</em></p>\n<p><strong>1️⃣ THE RECORD WAS SET AT HOME — READ YOUR DOMESTIC DEMAND AS A STRATEGY, NOT A DISCOUNT BIN</strong></p>\n<p>Kenya moved a record <strong>13.1 million air passengers in the year to June 2026</strong>, up from 12.955m a year earlier — about 145,000 more travellers (KAA preliminary data, via Daily Nation, 6 Aug). The line that matters sits underneath it: <strong>domestic routes were roughly 41% of all traffic</strong>, and KAA MD Moses Wekesa says it was domestic travel that carried the record while international numbers softened under Middle East disruption.</p>\n<p><strong>What everyone is missing:</strong> the record was set <strong>because</strong> international dipped, not alongside it. Domestic and regional demand is counter-cyclical to exactly the Western shocks — advisories, long-haul softness, recession fear — that empty a coast or a corridor overnight. Fly748, back flying scheduled routes since May, is running strong Nairobi–Mombasa and Ukunda/Diani loads this school holiday, one-way fares from <strong>KSh 7,700</strong> (Tuko, 6 Aug). That is real, growing, FX-proof demand — and most inbound-tuned properties are set up to miss it.</p>\n<p><span class=\"sowhat\">🎯 <strong>So what, by segment</strong></span><br>🏖 <strong>Beach:</strong> the direct beneficiary. Package resident/school-holiday weekend rates, make sure M-Pesa and local rails work, and list where Kenyans actually book. This demand doesn&#x27;t read a State Department bulletin.<br>🦁 <strong>Bush:</strong> your EAC-resident tier is the counter-cyclical floor under Western advisory risk — hold it as a revenue line, not a discount dump.<br>🏙 <strong>City:</strong> the record ran on a hub whose domestic legs grew while international slowed. Domestic corporate + MICE (Hotel Expo 19–21 Aug, MKTE Oct) is the compounding book.</p>\n<p><span class=\"tagline\">🏷 Kenya · All segments · Confidence: High (data dated &amp; sourced)</span></p>\n<hr class=\"divider\">\n<p><strong>📋 THE BOARD</strong></p>\n<p>✅ <strong>STILL TRUE</strong> — Uganda US <strong>Level 4</strong> (State Dept, 5 Aug); TZ &amp; Zanzibar US <strong>Level 3</strong> since 31 Oct 2025. No entry rule has changed. Don&#x27;t price a US-market rebound you can&#x27;t yet see.</p>\n<p><span class=\"meta-line\">📅 <strong>WEEK AHEAD</strong> — US CDC Section 362 Ebola entry order decision <strong>~12 Aug</strong>; EPRA Kenya fuel review <strong>~14 Aug</strong> (petrol held at KSh214.03/L to 14 Aug, EPRA Jul review); Hotel Expo Kenya <strong>19–21 Aug</strong> (KICC).</span></p>\n<p>🎤 <strong>MICE WATCH</strong> — Hotel Expo Kenya, Nairobi/KICC, 19–21 Aug (city midweek bump). WTA Africa Gala, Zanzibar, 28 Aug (north/east coast compression).</p>\n<p><span class=\"meta-line\">📡 <strong>RADAR</strong> — Upstream source poll returned nothing new in-window this slot; advisory board and outbreak status unchanged since this morning. No exclusive to report.</span></p>\n<p>🔗 This edition on the web: https://eahospitalitypulse.com/editions/pulse-2026-08-10-midday.html</p>\n<hr class=\"divider\">"
+ },
+ {
   "id": "pulse-2026-08-10-morning",
   "date": "2026-08-10",
   "dateDisplay": "Monday, 10 August 2026",
@@ -1780,4 +1789,4 @@ window.INSIGHTS = [
   "editionKey": "evening"
  }
 ];
-window.BUILT_AT = "2026-08-10 11:06";
+window.BUILT_AT = "2026-08-10 13:14";
