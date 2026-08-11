@@ -145,10 +145,10 @@
   .pclaim{flex:1;font-size:14.5px;font-weight:600;line-height:1.35}
   .pwhen{font-family:'Helvetica Neue',Arial,sans-serif;font-size:12px;color:var(--muted);white-space:nowrap}
   .pchev{font-size:12px;color:var(--muted);transition:transform .15s}
-  .pred.open .pchev{transform:rotate(180deg)}
+  .pred.expanded .pchev{transform:rotate(180deg)}
   .pdet{display:none;margin-top:10px;padding-top:10px;border-top:1px dashed var(--line)}
-  .pred.open .pdet{display:block}
-  @media(max-width:640px){.pwhen{display:none}.pred.open .pwhen{display:block}}
+  .pred.expanded .pdet{display:block}
+  @media(max-width:640px){.pwhen{display:none}.pred.expanded .pwhen{display:block}}
   .pred.correct{border-left-color:#2e7d32}.pred.incorrect{border-left-color:#c0392b}
   .pred.partial{border-left-color:#b8860b}.pred.open{border-left-color:var(--teal)}
   .pred .ph{font-family:'Helvetica Neue',Arial,sans-serif;font-size:12px;color:var(--muted);display:flex;gap:8px;flex-wrap:wrap;margin-bottom:5px}
@@ -979,7 +979,7 @@
       const badge=p.overdue&&p.status==='open'?'<span class="vd overdue">AWAITING</span>'
         :'<span class="vd '+p.status+'">'+p.status.toUpperCase()+'</span>';
       const when=p.status==='open'?('by '+p.resolve_by):('resolved '+(p.resolved_date||''));
-      return '<div class="pred '+p.status+'" onclick="this.classList.toggle(\'open\')">'+
+      return '<div class="pred '+p.status+'" onclick="this.classList.toggle(\'expanded\')">'+
         '<div class="prow">'+badge+
           '<span class="pclaim">'+p.claim+'</span>'+
           '<span class="pwhen">'+when+'</span>'+
