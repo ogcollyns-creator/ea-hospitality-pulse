@@ -123,10 +123,28 @@ def render_body(text):
         out.append("<p>"+"<br>".join(r)+"</p>")
     return "\n".join(out)
 
+def intro_headline(md):
+    """The deliberate one-line summary headline: the **bold** line that sits
+    between the '### <date>' heading and the first '## SECTION' header. This is
+    what the card title and H1 should show — the lead of the brief, not the
+    masthead. Returns None if the edition has no such line (e.g. evening wraps)."""
+    head = re.split(r"\n##\s", "\n" + md, 1)[0]
+    for l in head.split("\n"):
+        l = l.strip()
+        if l.startswith("**") and l.endswith("**") and len(l) > 8:
+            return md_strip(re.sub(r"\s+", " ", l))[:220]
+    return None
+
 def summarise(text):
     for l in text.split("\n"):
         l=l.strip()
-        if l and not l.startswith(("🏨","📅","━","#")) and len(l)>40:
+        low=l.lower()
+        # skip the masthead (any slot), the flag/date line, the italic subtitle,
+        # dividers and headers — land on the first real story line.
+        if not l: continue
+        if l[0] in "🏨📅🌅🕛🌆🌇🌄" or l.startswith(("━","#","_")): continue
+        if "hospitality pulse" in low: continue
+        if len(l) > 40:
             return md_strip(re.sub(r"\s+"," ",l))[:200]
     return "East Africa hospitality intelligence."
 
@@ -433,7 +451,7 @@ def main():
         except Exception: dd = date_iso
         eid = fn.rsplit(".",1)[0]
         e = {"id":eid,"date":date_iso,"dateDisplay":dd,"edition":EDITION_LABELS.get(key,"Brief"),
-             "editionKey":key,"summary":summarise(tele),"bodyHtml":render_body(tele)}
+             "editionKey":key,"summary":(intro_headline(md) or summarise(tele)),"bodyHtml":render_body(tele)}
         e["_key"] = (date_iso, SLOT_RANK.get(key, 3), pubtimes.get(fn, 0))
         editions.append(e)
         for it in parse_items(tele):
