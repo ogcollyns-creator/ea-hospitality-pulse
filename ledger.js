@@ -1,13 +1,13 @@
 window.LEDGER = {
- "updated": "2026-08-10 17:13",
+ "updated": "2026-08-11 08:33",
  "stats": {
-  "total": 65,
+  "total": 66,
   "open": 59,
-  "resolved": 6,
-  "correct": 3,
+  "resolved": 7,
+  "correct": 4,
   "partial": 1,
   "incorrect": 2,
-  "accuracy": 58
+  "accuracy": 64
  },
  "open": [
   {
@@ -24,7 +24,7 @@ window.LEDGER = {
    "resolved_date": "",
    "evidence": "",
    "source_url": "https://www.govinfo.gov/content/pkg/FR-2026-07-16/html/2026-14365.htm",
-   "overdue": false
+   "overdue": true
   },
   {
    "id": "P057",
@@ -40,22 +40,6 @@ window.LEDGER = {
    "resolved_date": "",
    "evidence": "",
    "source_url": "https://www.cdc.gov/port-health/legal-authorities/evdorder.html",
-   "overdue": false
-  },
-  {
-   "id": "P034",
-   "made_date": "2026-07-29",
-   "edition": "Morning Brief",
-   "claim": "Neither the US State Department nor the UK FCDO will lower its Uganda travel advisory level within 14 days of the 28 July end-of-outbreak declaration (i.e. by 11 August 2026)",
-   "resolution_criteria": "travel.state.gov Uganda advisory still Level 4 AND gov.uk/foreign-travel-advice/uganda advice against travel unchanged when checked on 11 Aug 2026",
-   "resolve_by": "2026-08-12",
-   "market": "UG",
-   "segment": "Bush/City",
-   "confidence": "Reported",
-   "status": "open",
-   "resolved_date": "",
-   "evidence": "",
-   "source_url": "https://travel.state.gov/content/travel/en/traveladvisories/traveladvisories/uganda-travel-advisory.html",
    "overdue": false
   },
   {
@@ -923,6 +907,22 @@ window.LEDGER = {
    "overdue": false
   },
   {
+   "id": "P065",
+   "made_date": "2026-08-11",
+   "edition": "Morning Brief",
+   "claim": "At least one recently launched or resumed intra-African/regional passenger route serving an East African gateway (NBO,EBB,ZNZ,KGL,MBA) will be suspended or cut in frequency before 30 Jun 2027 as carriers manage sub-1% net margins",
+   "resolution_criteria": "ch-aviation,AeroRoutes,airline notice or regional press reporting the suspension or a frequency reduction of a route launched or resumed since Jan 2025 into NBO,EBB,ZNZ,KGL,MBA, dated before 30 Jun 2027",
+   "resolve_by": "2027-06-30",
+   "market": "Regional",
+   "segment": "All",
+   "confidence": "Early signal",
+   "status": "open",
+   "resolved_date": "",
+   "evidence": "",
+   "source_url": "https://www.iata.org/en/pressroom/2025-releases/2025-12-09-01/",
+   "overdue": false
+  },
+  {
    "id": "P016",
    "made_date": "2026-07-26",
    "edition": "Midday Pulse",
@@ -956,6 +956,22 @@ window.LEDGER = {
   }
  ],
  "resolved": [
+  {
+   "id": "P034",
+   "made_date": "2026-07-29",
+   "edition": "Morning Brief",
+   "claim": "Neither the US State Department nor the UK FCDO will lower its Uganda travel advisory level within 14 days of the 28 July end-of-outbreak declaration (i.e. by 11 August 2026)",
+   "resolution_criteria": "travel.state.gov Uganda advisory still Level 4 AND gov.uk/foreign-travel-advice/uganda advice against travel unchanged when checked on 11 Aug 2026",
+   "resolve_by": "2026-08-12",
+   "market": "UG",
+   "segment": "Bush/City",
+   "confidence": "Reported",
+   "status": "correct",
+   "resolved_date": "2026-08-11",
+   "evidence": "Checked 11 Aug 2026: US State Dept Uganda advisory remains Level 4 'Do Not Travel' (unchanged since the 28 Jul end-of-outbreak declaration, reaffirmed in the 5 Aug Ebola Response Update) and no FCDO downgrade of Uganda advice was reported. Neither government lowered its level within 14 days — call holds.",
+   "source_url": "https://travel.state.gov/content/travel/en/traveladvisories/traveladvisories/uganda-travel-advisory.html",
+   "overdue": false
+  },
   {
    "id": "P053",
    "made_date": "2026-08-05",
