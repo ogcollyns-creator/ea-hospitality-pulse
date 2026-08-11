@@ -1,8 +1,8 @@
 window.LEDGER = {
- "updated": "2026-08-11 14:43",
+ "updated": "2026-08-11 14:11",
  "stats": {
-  "total": 69,
-  "open": 61,
+  "total": 71,
+  "open": 63,
   "resolved": 8,
   "correct": 5,
   "partial": 1,
@@ -763,6 +763,22 @@ window.LEDGER = {
    "overdue": false
   },
   {
+   "id": "P070",
+   "made_date": "2026-08-11",
+   "edition": "Evening Wrap",
+   "claim": "Uganda Airlines will launch Entebbe-Accra on/around 27 Oct 2026 and Entebbe-Kigali on/around 18 Nov 2026 as announced",
+   "resolution_criteria": "ch-aviation/AeroRoutes/the airline or Ugandan press confirm both routes operating within 30 days of the stated dates (Accra 27 Oct and Kigali 18 Nov)",
+   "resolve_by": "2026-12-31",
+   "market": "UG",
+   "segment": "City",
+   "confidence": "Reported",
+   "status": "open",
+   "resolved_date": "",
+   "evidence": "",
+   "source_url": "https://www.theeastafrican.co.ke/tea/business-tech/uganda-airlines-adds-kigali-accra-to-route-network-5547894",
+   "overdue": false
+  },
+  {
    "id": "P006",
    "made_date": "2026-07-25",
    "edition": "Morning Brief",
@@ -856,6 +872,22 @@ window.LEDGER = {
    "resolved_date": "",
    "evidence": "",
    "source_url": "https://www.kcaa.or.ke/about-us/statistics/passenger-traffic",
+   "overdue": false
+  },
+  {
+   "id": "P069",
+   "made_date": "2026-08-11",
+   "edition": "Evening Wrap",
+   "claim": "KWS/PCPB confirmatory toxicology will attribute the June-July Amboseli elephant deaths mainly to agrochemical/pesticide (cyanide) poisoning rather than organised poaching for ivory",
+   "resolution_criteria": "KWS or Pest Control Products Board final report or Kenyan national press citing it attributes the Amboseli-Kimana elephant deaths primarily to pesticide/agrochemical (cyanide) poisoning rather than ivory poaching by 31 Mar 2027",
+   "resolve_by": "2027-03-31",
+   "market": "KE",
+   "segment": "Bush",
+   "confidence": "Reported",
+   "status": "open",
+   "resolved_date": "",
+   "evidence": "",
+   "source_url": "https://peopledaily.digital/inside-politics/kws-toxicology-reports-find-16-elephants-in-amboseli-died-from-cyanide-poisoning",
    "overdue": false
   },
   {

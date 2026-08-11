@@ -1,5 +1,14 @@
 window.EDITIONS = [
  {
+  "id": "pulse-2026-08-11-evening",
+  "date": "2026-08-11",
+  "dateDisplay": "Tuesday, 11 August 2026",
+  "edition": "Evening Wrap",
+  "editionKey": "evening",
+  "summary": "The Big Read: Amboseli's 16 elephant deaths are a reputational test, not a booking threat — how safari operators should read the cyanide probe without panic or silence.",
+  "bodyHtml": "<p>🌇 <strong>EA HOSPITALITY PULSE — Tue 11 Aug, Evening Wrap</strong><br><em>Thin news window. Tonight&#x27;s Big Read: reading the Amboseli elephant deaths as an operator, then the board.</em></p>\n<p><strong>🐘 THE BIG READ — A REPUTATIONAL TEST, NOT A BOOKING THREAT</strong></p>\n<p>Kenya Wildlife Service is running a multi-agency probe into <strong>16 elephants</strong> that died across the Amboseli–Kimana–Kitenden ecosystem between <strong>24 June and 31 July</strong>. Preliminary University of Nairobi toxicology points to <strong>cyanide poisoning</strong>; KWS and the Pest Control Products Board are examining whether agricultural chemicals were misused or dumped near the park edge. Confirmatory tests are pending. Amboseli remains fully operational. <em>(People Daily / Xinhua, ~7 Aug.)</em></p>\n<p>Read it correctly. This is not a poaching resurgence, a disease event, or any risk to visitors — the likely pathway is agrochemical poisoning where farmland now presses against the park&#x27;s wildlife dispersal corridors. Your exposure is <strong>informational, not operational</strong>: guests will ask, and wholesalers will notice.</p>\n<p><strong>What most will miss:</strong> this is a slow-burn structural risk, not a one-off. The land-use pressure on Amboseli&#x27;s edges will keep producing incidents until it eases — so a credible guest-comms posture is an asset you reuse, not a one-week fix.</p>\n<p><span class=\"sowhat\">🎯 <strong>So what, by segment</strong></span><br>🦁 <strong>Bush:</strong> ready a short, factual guest note now (probe underway, park open, no visitor risk) and brief your guides. Candour, not silence — and don&#x27;t discount into a story that doesn&#x27;t threaten the experience.<br>🏙🏖 <strong>City/Beach:</strong> minimal direct exposure, but multi-park itineraries routing through Amboseli should carry the same honest line.</p>\n<hr class=\"divider\">\n<p><strong>📋 THE BOARD</strong></p>\n<p>✈️ <strong>CONNECTIVITY</strong> — Uganda Airlines confirmed <strong>Accra from 27 Oct</strong> (4×/week, ~US$750 return) and <strong>Kigali from 18 Nov</strong> (daily, ~US$370 return — under RwandAir&#x27;s ~US$450), building Entebbe as a hub. The Kigali link is the one to watch: it makes twin-hub Uganda–Rwanda gorilla circuits genuinely seamless. <em>(The EastAfrican, ~5 Aug.)</em></p>\n<p>💰 <strong>COST / STILL TRUE</strong> — EPRA holds Nairobi diesel at <strong>KSh222.86/L</strong> to 14 Aug; next review <strong>14 Aug</strong> (watch the generator/transfer reset). Advisory board unchanged: Uganda US <strong>Level 4</strong>, Kenya <strong>Level 2</strong>, TZ &amp; Zanzibar <strong>Level 3</strong>.</p>\n<p>🕓 <strong>HELD</strong> — AfDB&#x27;s reported €156m Arua Airport upgrade, and talk of an expanded EAC single tourist visa, are <strong>not yet verified or gazetted</strong> — we&#x27;ll run them when they are.</p>\n<p>🔗 This edition on the web: https://eahospitalitypulse.com/editions/pulse-2026-08-11-evening.html<br>💼 Today&#x27;s Big Read on LinkedIn: https://www.linkedin.com/company/ea-hospitality-pulse/</p>\n<hr class=\"divider\">"
+ },
+ {
   "id": "pulse-2026-08-11-midday",
   "date": "2026-08-11",
   "dateDisplay": "Tuesday, 11 August 2026",
@@ -1816,4 +1825,4 @@ window.INSIGHTS = [
   "editionKey": "evening"
  }
 ];
-window.BUILT_AT = "2026-08-11 14:42";
+window.BUILT_AT = "2026-08-11 14:10";
