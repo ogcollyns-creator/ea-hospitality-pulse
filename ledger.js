@@ -1,31 +1,15 @@
 window.LEDGER = {
- "updated": "2026-08-11 14:28",
+ "updated": "2026-08-11 14:43",
  "stats": {
   "total": 69,
-  "open": 62,
-  "resolved": 7,
-  "correct": 4,
+  "open": 61,
+  "resolved": 8,
+  "correct": 5,
   "partial": 1,
   "incorrect": 2,
-  "accuracy": 64
+  "accuracy": 69
  },
  "open": [
-  {
-   "id": "P030",
-   "made_date": "2026-07-28",
-   "edition": "Evening Wrap",
-   "claim": "No East African tourism body,airline,hotel group or national tourism authority from Kenya,Uganda,Tanzania or Rwanda will appear as a commenter on US docket CDC-2026-0892 before it closes on 31 July 2026",
-   "resolution_criteria": "regulations.gov docket CDC-2026-0892 comment listing reviewed after 31 Jul 2026 showing no commenter identifiably an East African tourism body,airline,hotel group or national tourism authority",
-   "resolve_by": "2026-08-10",
-   "market": "Regional",
-   "segment": "Bush/City",
-   "confidence": "Early signal",
-   "status": "open",
-   "resolved_date": "",
-   "evidence": "",
-   "source_url": "https://www.govinfo.gov/content/pkg/FR-2026-07-16/html/2026-14365.htm",
-   "overdue": true
-  },
   {
    "id": "P057",
    "made_date": "2026-08-07",
@@ -1004,6 +988,22 @@ window.LEDGER = {
   }
  ],
  "resolved": [
+  {
+   "id": "P030",
+   "made_date": "2026-07-28",
+   "edition": "Evening Wrap",
+   "claim": "No East African tourism body,airline,hotel group or national tourism authority from Kenya,Uganda,Tanzania or Rwanda will appear as a commenter on US docket CDC-2026-0892 before it closes on 31 July 2026",
+   "resolution_criteria": "regulations.gov docket CDC-2026-0892 comment listing reviewed after 31 Jul 2026 showing no commenter identifiably an East African tourism body,airline,hotel group or national tourism authority",
+   "resolve_by": "2026-08-10",
+   "market": "Regional",
+   "segment": "Bush/City",
+   "confidence": "Early signal",
+   "status": "correct",
+   "resolved_date": "2026-08-11",
+   "evidence": "Regulations.gov docket CDC-2026-0892 reviewed 11 Aug 2026 (after the 31 Jul close): organisational commenters do not include any East African national tourism authority, tourism body, airline or hotel group from Kenya, Uganda, Tanzania or Rwanda. The prediction holds.",
+   "source_url": "https://www.regulations.gov/docket/CDC-2026-0892",
+   "overdue": false
+  },
   {
    "id": "P034",
    "made_date": "2026-07-29",
