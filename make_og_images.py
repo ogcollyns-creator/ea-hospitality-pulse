@@ -18,6 +18,7 @@ from PIL import Image, ImageDraw, ImageFont
 HERE = os.path.dirname(os.path.abspath(__file__))
 OG = os.path.join(HERE, "og")
 IMG = os.path.join(HERE, "img")
+EDIMG = os.path.join(IMG, "editions")
 FONT = "/usr/share/fonts/truetype/dejavu/DejaVuSans.ttf"
 FONTB = "/usr/share/fonts/truetype/dejavu/DejaVuSans-Bold.ttf"
 
@@ -96,7 +97,7 @@ def photo_background(photo_file):
     """Load a pool photo, cover-crop to card size, and lay the brand
     gradient over it (same 135deg teal treatment as the site hero) so
     text stays legible regardless of the source image."""
-    path = os.path.join(IMG, photo_file)
+    path = photo_file if (os.path.isabs(photo_file) or os.path.exists(photo_file)) else os.path.join(IMG, photo_file)
     base = Image.open(path).convert("RGB")
     base = cover_resize(base, W, H)
 
@@ -120,7 +121,8 @@ def light_hero(photo_file):
     depth and brand cohesion — no masthead/kicker/headline baked on. Used by
     the article <img>; the text-heavy card above is kept for social sharing."""
     import numpy as np
-    base = cover_resize(Image.open(os.path.join(IMG, photo_file)).convert("RGB"), W, H)
+    src = photo_file if (os.path.isabs(photo_file) or os.path.exists(photo_file)) else os.path.join(IMG, photo_file)
+    base = cover_resize(Image.open(src).convert("RGB"), W, H)
     ys = np.linspace(0, 1, H)[:, None]
     a = (0.06 + (0.34 - 0.06) * (ys ** 1.6)) * 255     # clear at top, gentle teal grounding at base
     a = np.repeat(a, W, axis=1)
@@ -205,14 +207,18 @@ def main(editions=None):
         for e in editions:
             head=e["summary"].split(".")[0][:150]
             match_text = e["summary"] + " " + re.sub(r"<[^>]+>", " ", e.get("bodyHtml",""))
-            photo = choose_photo(e["id"], match_text)
-            base_card(e["edition"], head, e["dateDisplay"], photo).save(os.path.join(OG,e["id"]+".png"))
-            clean_name = hero_for.get(photo, "clean-default.png")
-            hero_map[e["id"]] = clean_name
-            # per-edition text-free image: homepage cards, reader and latest-hero
-            # all use this, so the site is "clean everywhere". The text card
-            # (e.id+'.png') is kept only for social-share og:image/twitter:image.
-            shutil.copyfile(os.path.join(OG, clean_name), os.path.join(OG, e["id"]+"-clean.png"))
+            ed_photo = os.path.join(EDIMG, e["id"] + ".jpg")   # unique per-edition Commons photo, if fetched
+            if os.path.exists(ed_photo):
+                base_card(e["edition"], head, e["dateDisplay"], ed_photo).save(os.path.join(OG,e["id"]+".png"))
+                light_hero(ed_photo).save(os.path.join(OG, e["id"]+"-clean.png"))
+            else:
+                photo = choose_photo(e["id"], match_text)          # curated-pool fallback
+                base_card(e["edition"], head, e["dateDisplay"], photo).save(os.path.join(OG,e["id"]+".png"))
+                clean_name = hero_for.get(photo, "clean-default.png")
+                shutil.copyfile(os.path.join(OG, clean_name), os.path.join(OG, e["id"]+"-clean.png"))
+            # Homepage cards AND the article hero use e.id-clean.png (text-free);
+            # the text card e.id.png stays as the social-share og:image only.
+            hero_map[e["id"]] = e["id"] + "-clean.png"
     json.dump(hero_map, open(os.path.join(OG, "hero_map.json"), "w", encoding="utf-8"))
     make_favicon()
     print(f"OG images written: {1+(len(editions) if editions else 0)} cards + {len(hero_for)+1} clean heroes + favicon")

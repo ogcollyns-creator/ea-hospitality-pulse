@@ -212,7 +212,7 @@ footer.s{text-align:center;color:var(--muted);font-family:Helvetica Neue,Arial,s
 }
 """
 
-def edition_page(e, siblings=None, prev=None, nxt=None, hero=None):
+def edition_page(e, siblings=None, prev=None, nxt=None, hero=None, credit=None):
     title = f"{e['edition']} — {e['dateDisplay']} | EA Hospitality Pulse"
     desc = e["summary"][:157] + ("…" if len(e["summary"])>157 else "")
     url = f"{BASE}/editions/{e['id']}.html"
@@ -259,6 +259,15 @@ def edition_page(e, siblings=None, prev=None, nxt=None, hero=None):
             {"@type":"ListItem","position":2,"name":"Editions","item":BASE+"/#archive"},
             {"@type":"ListItem","position":3,"name":e["edition"]+" — "+e["dateDisplay"],"item":url},
         ]}
+    credit_html = ""
+    if credit:
+        _art = html.escape(credit.get("artist") or "Unknown")
+        _lic = html.escape(credit.get("license") or "See source")
+        _src = html.escape(credit.get("descurl") or "")
+        _licurl = html.escape(credit.get("licenseurl") or "")
+        _lictag = (f'<a href="{_licurl}" target="_blank" rel="noopener nofollow">{_lic}</a>' if _licurl else _lic)
+        credit_html = (f'<p class="hcredit">Photo: {_art} \u00b7 '
+                       f'<a href="{_src}" target="_blank" rel="noopener nofollow">Wikimedia Commons</a> \u00b7 {_lictag}</p>')
     return f"""<!DOCTYPE html>
 <html lang="en"><head>
 <meta charset="UTF-8"><meta name="viewport" content="width=device-width,initial-scale=1">
@@ -281,12 +290,15 @@ def edition_page(e, siblings=None, prev=None, nxt=None, hero=None):
 <meta property="article:published_time" content="{e['date']}">
 <script type="application/ld+json">{json.dumps(ld)}</script>
 <script type="application/ld+json">{json.dumps(crumbs)}</script>
-<style>{ARTICLE_CSS}</style></head>
+<style>{ARTICLE_CSS}
+.hcredit{{margin:-8px 0 18px;font:12px/1.5 Helvetica Neue,Arial,sans-serif;color:#7c8a86}}
+.hcredit a{{color:#5566a3;text-decoration:none}}</style></head>
 <body>
 <header class="s"><div class="wrap"><a href="/"><div class="logo">🏨</div><b>EA Hospitality Pulse</b></a></div></header>
 <div class="wrap">
   <article class="art">
     <img class="hero" src="{hero_src}" alt="{html.escape(e['edition']+' — '+e['dateDisplay'])}" loading="eager">
+    {credit_html}
     <a class="nav" href="../index.html#archive">← All editions</a>
     <div class="kicker"><span class="badge">{html.escape(e['edition'])}</span><time datetime="{e['date']}">{html.escape(e['dateDisplay'])}</time></div>
     <h1>{html.escape(h1text)}</h1>
@@ -360,6 +372,22 @@ def build_credits_page():
         rows.append(f'<tr><td>{html.escape(seed["desc"])}</td>'
                     f'<td><a href="{html.escape(src)}" target="_blank" rel="noopener">{html.escape(title)}</a>{by}</td>'
                     f'<td>{lic_html}</td></tr>')
+    try:
+        _ec = json.load(open(os.path.join(HERE, "img", "edition-credits.json"), encoding="utf-8"))
+    except Exception:
+        _ec = {}
+    for _eid, _a in sorted(_ec.items()):
+        _src = _a.get("descurl") or ""
+        _title = _a.get("title") or ""
+        _artist = _a.get("artist") or ""
+        _lic = _a.get("license") or "See source"
+        _licurl = _a.get("licenseurl") or ""
+        _lic_html = (f'<a href="{html.escape(_licurl)}" target="_blank" rel="noopener">{html.escape(_lic)}</a>'
+                     if _licurl else html.escape(_lic))
+        _by = f' — {html.escape(_artist)}' if _artist else ''
+        rows.append(f'<tr><td>Edition {html.escape(_eid)}</td>'
+                    f'<td><a href="{html.escape(_src)}" target="_blank" rel="noopener">{html.escape(_title)}</a>{_by}</td>'
+                    f'<td>{_lic_html}</td></tr>')
     body = "\n".join(rows)
     page = f"""<!DOCTYPE html>
 <html lang="en"><head>
@@ -466,6 +494,10 @@ def main():
         hero_map = json.load(open(os.path.join(HERE, "og", "hero_map.json"), encoding="utf-8"))
     except Exception:
         hero_map = {}
+    try:
+        edcred = json.load(open(os.path.join(HERE, "img", "edition-credits.json"), encoding="utf-8"))
+    except Exception:
+        edcred = {}
     order = editions  # already sorted newest-first
     pos = {ed["id"]: i for i, ed in enumerate(order)}
     for e in editions:
@@ -474,7 +506,7 @@ def main():
         nxt = order[i-1] if i > 0 else None                 # newer edition
         prv = order[i+1] if i+1 < len(order) else None      # older edition
         with open(os.path.join(EDIR, e["id"]+".html"),"w",encoding="utf-8") as f:
-            f.write(edition_page(e, sibs, prev=prv, nxt=nxt, hero=hero_map.get(e["id"])))
+            f.write(edition_page(e, sibs, prev=prv, nxt=nxt, hero=hero_map.get(e["id"]), credit=edcred.get(e["id"])))
 
     # evergreen guides
     try:

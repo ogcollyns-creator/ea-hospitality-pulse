@@ -46,6 +46,9 @@ jobs:
       - name: Fetch photo pool (best-effort; expands clean-image variety)
         run: python3 fetch_images.py || echo "image fetch skipped (network); using photos already in img/"
 
+      - name: Assign a unique photo per edition (best-effort; Commons + attribution)
+        run: python3 fetch_edition_images.py || echo "per-edition image fetch skipped (network); editions fall back to the curated pool"
+
       - name: Build site
         run: python3 build_site.py
 
