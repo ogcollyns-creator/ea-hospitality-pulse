@@ -48,11 +48,11 @@ TOPICS = [
     ("mice",        ["conference","convention","mice","summit","congress","expo","exhibition","delegates","business events","icca","trade show"],
                      "Kigali Convention Centre Rwanda"),
     ("kigali",      ["kigali","nyarugenge","rwandan capital","rwanda"],
-                     "Kigali city Rwanda"),
+                     "Kigali city skyline"),
     ("kampala",     ["kampala","entebbe","munyonyo","speke resort","pearl of africa","murchison","jinja","source of the nile","lake victoria"],
-                     "Kampala Uganda city"),
+                     "Kampala city skyline"),
     ("nairobi",     ["nairobi","cbd","westlands","upper hill","gigiri","expressway","kilimani"],
-                     "Nairobi Kenya skyline"),
+                     "Nairobi city skyline"),
 ]
 DEFAULT_QUERY = "East Africa savannah landscape"
 ALLOWED_LIC = ("cc0", "public domain", "pdm", "cc by", "cc-by", "cc by-sa", "cc-by-sa", "attribution")
@@ -63,7 +63,13 @@ BAD_TITLE = ("map", "logo", "flag", "coat of arms", "seal", "diagram", "chart", 
              "scrapheap", "scrap", "wreck", "wreckage", "crash", "abandoned",
              "derelict", "graveyard", "boneyard", "junkyard", "demolition",
              "demolished", "destroyed", "riot", "protest", "slum", "cemetery",
-             "funeral", "disaster", "burnt", "burned")
+             "funeral", "disaster", "burnt", "burned",
+             # infrastructure / sanitation / facility-documentation — not hospitality imagery
+             "toilet", "cubicle", "uddt", "latrine", "sanitation", "sewer", "sewage",
+             "drainage", "landfill", "dumpsite", "garbage", "rubbish", "compost",
+             "borehole", "mortuary", "prison", "informal settlement", "roadworks",
+             "construction site", "substation", "transformer", "quarry", "sludge",
+             "manhole", "factory", "warehouse", "classroom", "kiosk")
 
 def _get(url):
     req = urllib.request.Request(url, headers={"User-Agent": UA})
