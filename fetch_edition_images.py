@@ -58,7 +58,12 @@ DEFAULT_QUERY = "East Africa savannah landscape"
 ALLOWED_LIC = ("cc0", "public domain", "pdm", "cc by", "cc-by", "cc by-sa", "cc-by-sa", "attribution")
 BAD_TITLE = ("map", "logo", "flag", "coat of arms", "seal", "diagram", "chart", "icon",
              "svg", "poster", "banner", "screenshot", ".pdf", "locator", "emblem",
-             "graph", "timeline", "signature")
+             "graph", "timeline", "signature",
+             # negative-tone imagery — wrong look for a hospitality brand
+             "scrapheap", "scrap", "wreck", "wreckage", "crash", "abandoned",
+             "derelict", "graveyard", "boneyard", "junkyard", "demolition",
+             "demolished", "destroyed", "riot", "protest", "slum", "cemetery",
+             "funeral", "disaster", "burnt", "burned")
 
 def _get(url):
     req = urllib.request.Request(url, headers={"User-Agent": UA})
@@ -116,10 +121,19 @@ def main(editions=None):
         from PIL import Image
     except ImportError:
         raise SystemExit("Pillow required: pip install pillow")
-    cache, used, credits = {}, set(), {}
+    # idempotent: load prior assignments, keep them, only fetch editions that
+    # have no image yet — so builds are fast, polite to Commons, and stable.
+    try:
+        credits = json.load(open(os.path.join(IMG, "edition-credits.json"), encoding="utf-8"))
+    except Exception:
+        credits = {}
+    cache = {}
+    used = set(v.get("title") for v in credits.values() if v.get("title"))
     ok = fell = 0
     for e in sorted(editions, key=lambda e: e.get("id", "")):   # stable order
         eid = e["id"]
+        if os.path.exists(os.path.join(EDIMG, eid + ".jpg")) and eid in credits:
+            continue                                            # already assigned, keep stable
         text = e.get("summary", "") + " " + re.sub(r"<[^>]+>", " ", e.get("bodyHtml", ""))
         query = topic_for(text) or DEFAULT_QUERY
         try:
