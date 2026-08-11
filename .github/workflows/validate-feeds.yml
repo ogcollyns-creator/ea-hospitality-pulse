@@ -31,7 +31,7 @@ jobs:
 
       - name: Check PUSH_TOKEN presence (value is never printed)
         env:
-          TOKEN: ${{ secrets.PUSH_TOKEN }}
+          TOKEN: ${{ github.token }}
         run: |
           if [ -z "$TOKEN" ]; then
             echo "::warning::PUSH_TOKEN is EMPTY — the secret is not reaching this job (wrong name, Variable-not-Secret, or Environment scope)."
@@ -74,7 +74,7 @@ jobs:
 
       - name: Commit promoted feeds + report
         env:
-          TOKEN: ${{ secrets.PUSH_TOKEN }}
+          TOKEN: ${{ github.token }}
         run: |
           git config user.email 'ogcollyns@gmail.com'
           git config user.name 'EA Hospitality Pulse'

@@ -36,7 +36,6 @@ jobs:
     steps:
       - uses: actions/checkout@v4
         with:
-          token: ${{ secrets.PUSH_TOKEN }}
           persist-credentials: true
 
       # The SQLite file is a cache; radar/out/items.jsonl in the repo is the
