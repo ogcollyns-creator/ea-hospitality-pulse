@@ -2,7 +2,7 @@
 // Maintained by the daily Pulse task. Every entry carries a source; anything
 // unverified is flagged so readers never act on a stale number unknowingly.
 window.RULES = {
- updated: "5 August 2026 (morning)",
+ updated: "11 August 2026 (midday)",
  groups: [
   { country:"Kenya", flag:"🇰🇪", items:[
     {rule:"Electronic Travel Authorisation (ETA)", amount:"US$30", who:"All non-EAC visitors, including infants", effective:"In force since Jan 2024", note:"Online only; typically 24–72h. Apply before travel — there is no visa on arrival.", source:"Kenya eTA portal", verified:true},
@@ -10,6 +10,7 @@ window.RULES = {
     {rule:"KWS park fees (Amboseli, Nakuru, Tsavo)", amount:"US$80–90 per day", who:"Non-resident adult", effective:"Current", note:"Paid via kwspay.ecitizen.go.ke. Nairobi NP US$80.", source:"Kenya Wildlife Service", verified:true},
     {rule:"Tourism levy on short-term rentals", amount:"2% of booking value", who:"Airbnb, Booking.com and other STR platform listings", effective:"Reported for June 2026 — CONFIRM before quoting", note:"Extends the existing 2% Tourism Fund levy to short-term rentals, collected at source by platforms, with host registration required by the Tourism Regulatory Authority. Trade-press reported; we have not yet seen the gazette notice.", source:"Tourism Fund / trade press", verified:false},
     {rule:"Airport passenger levy (JKIA financing)", amount:"No rate change announced", who:"Every international and domestic air ticket sold in Kenya", effective:"In force; Sh18.5bn/yr earmarked to airport debt", note:"Kenya will borrow Sh81bn of a Sh116bn JKIA package, with a bond secured against FUTURE passenger levy collections. No rate rise has been announced — but a levy pledged to bondholders is structurally very hard to cut. Do not model Kenyan air-tax relief into 2027–28 rate cards; write the cost into net-rate contracts instead.", source:"Business Daily / Daily Nation, 24 Jul 2026", verified:true, flag:"action"},
+    {rule:"Mandatory travel-health insurance", amount:"US$50,000 minimum cover", who:"Most international arrivals", effective:"Gazetted 30 Jul 2026 — NOT yet operational", note:"Kenya Gazette notice sets minimum medical cover of US$50,000 (medical, emergency evacuation, repatriation, mental-health, prescriptions), under the Social Health Insurance Act. Approved insurers, purchase method, pricing and whether existing foreign policies are recognised remain unclarified (Kenya Tourism Federation engaging govt). Now under a High Court challenge — case mention 29 Sep 2026. Do NOT add to pre-arrival comms until operational; brief agents on the cumulative-cost risk.", source:"Kenya Gazette 30 Jul 2026 / Tourism Update 7 Aug 2026", verified:false, flag:"action"},
     {rule:"COVID-19 entry requirements", amount:"None", who:"All", effective:"Fully lifted", note:"No testing, vaccination proof or quarantine. Remove any legacy wording from your pre-arrival comms.", source:"Ministry of Health", verified:true}
   ]},
   { country:"Uganda", flag:"🇺🇬", items:[
@@ -22,7 +23,8 @@ window.RULES = {
     {rule:"Tourism investment tax holiday", amount:"10-year income tax exemption", who:"High-end tourism projects: US$10m foreign / US$5m Ugandan investors", effective:"FY2026/27 budget", note:"Includes VAT waivers and duty-free import of hotel furniture, fittings and equipment. Announced by Finance Minister Henry Musasizi. Confirm qualifying criteria with the Uganda Investment Authority before modelling it into a deal.", source:"Daily Monitor / Nile Post / Uganda Investment Authority", verified:true, flag:"action"}
   ]},
   { country:"Tanzania", flag:"🇹🇿", items:[
-    {rule:"Tourist visa", amount:"US$50 standard · US$100 US citizens", who:"US citizens receive multiple entry", effective:"Current", note:"Apply online ahead of travel.", source:"Tanzania Immigration", verified:true}
+    {rule:"Tourist visa", amount:"US$50 standard · US$100 US citizens", who:"US citizens receive multiple entry", effective:"Current", note:"Apply online ahead of travel.", source:"Tanzania Immigration", verified:true},
+    {rule:"Mandatory electronic payments for licence", amount:"Compliant digital rail required (Lipa Namba / TANQR)", who:"Hotels, restaurants, safari & tourism operators", effective:"Effective 1 Jul 2026 — 6-month grace for existing businesses", note:"Under Electronic Transactions Act amendments and the Finance Act 2026, operators must offer a compliant digital-payment facility (mobile money, cards, POS, bank/internet transfer or govt e-payment) to obtain or renew a business licence. Existing operators have ~6 months (bite ~Jan 2027); after that, no compliant rail means no renewal.", source:"The Citizen / Daily News, effective 1 Jul 2026", verified:true, flag:"action"}
   ]},
   { country:"Zanzibar", flag:"🇹🇿", items:[
     {rule:"Mandatory inbound travel insurance", amount:"US$44 per adult", who:"Every foreign visitor", effective:"Since Oct 2024", note:"Bought from the Zanzibar government at visitzanzibar.go.tz — private policies do not substitute. Covers medical to US$50,000. PUT THIS IN YOUR PRE-ARRIVAL EMAIL: a guest discovering it at the airport is a bad review.", source:"Zanzibar Insurance Corporation", verified:true, flag:"action"},

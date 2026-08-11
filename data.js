@@ -1,5 +1,14 @@
 window.EDITIONS = [
  {
+  "id": "pulse-2026-08-11-midday",
+  "date": "2026-08-11",
+  "dateDisplay": "Tuesday, 11 August 2026",
+  "edition": "Midday Pulse",
+  "editionKey": "midday",
+  "summary": "🕛 EA HOSPITALITY PULSE — Tue 11 Aug, Midday",
+  "bodyHtml": "<p>🕛 <strong>EA HOSPITALITY PULSE — Tue 11 Aug, Midday</strong><br><em>The cost of entry is quietly rising across the region. Three shifts to price in now.</em></p>\n<p><strong>1️⃣ 🇹🇿 CASHLESS OR NO LICENCE — TANZANIA&#x27;S DIGITAL-PAYMENT RULE NOW GATES YOUR RENEWAL</strong></p>\n<p>Under amendments to the Electronic Transactions Act (effective 1 July 2026) and the Finance Act 2026, hotels, restaurants and safari operators must run a compliant digital-payment facility — <strong>Lipa Namba or TANQR</strong> — to obtain or renew a business licence. Existing operators get a <strong>six-month grace window</strong> (bite ~Jan 2027); after that, no digital rail means no renewal. <em>(The Citizen / Daily News, effective 1 Jul 2026.)</em><br><span class=\"sowhat\">🎯 <strong>So what:</strong> Audit your checkout this week. A licence tied to a payment terminal isn&#x27;t a back-office detail — it&#x27;s your permission to trade.</span><br><span class=\"tagline\">🏷 TZ/ZNZ · All · Confirmed</span></p>\n<p><strong>2️⃣ 🇰🇪 KENYA GAZETTES A US$50,000 TRAVEL-INSURANCE MANDATE — AND IT&#x27;S ALREADY IN COURT</strong></p>\n<p>A Kenya Gazette notice (30 July 2026) sets out mandatory travel-health insurance for most international arrivals — minimum cover <strong>US$50,000</strong> (medical, evacuation, repatriation). It is <strong>not yet operational</strong> — the Kenya Tourism Federation is still seeking clarity on approved insurers and whether existing foreign policies count — and it now faces a <strong>High Court challenge, mention 29 September</strong>. <em>(Tourism Update, 7 Aug; Kenya Gazette, 30 Jul.)</em><br><span class=\"sowhat\">🎯 <strong>So what:</strong> Don&#x27;t rewrite pre-arrival comms yet, but brief agents — this stacks on the visa, park and levy costs a multi-country guest already carries.</span><br><span class=\"tagline\">🏷 KE · All · Reported</span></p>\n<p><strong>3️⃣ 🇺🇬 KAMPALA&#x27;S MARRIOTT FLAGSHIP IS IN FINAL PREP — OPENING IMMINENT, NOT LIVE</strong></p>\n<p>The full Marriott-brand flagship (<strong>181 rooms + 96 executive apartments</strong>, Nsambya) is in final preparations, per the Ministry of Finance and Nile Post (June 2026) — a first for the brand in Uganda beyond its Protea and Four Points properties. No confirmed open date yet.<br><span class=\"sowhat\">🎯 <strong>So what:</strong> Kampala corporate-rate compression is coming — independents, defend your accounts now; confirm the open date before quoting it as live.</span><br><span class=\"tagline\">🏷 UG · City · Reported</span></p>\n<hr class=\"divider\">\n<p><strong>📋 THE BOARD</strong></p>\n<p>📌 <strong>ALSO</strong> — 🇰🇪 Parliament opened public participation on the <strong>Tourism (Amendment) Bill 2026</strong>, folding TRI and TFC into KTB (People Daily, 11 Aug); Lake Victoria hoteliers <strong>petitioned the Senate</strong> over cage fish farms blocking beaches and boat routes (Nation).</p>\n<p><span class=\"meta-line\">📅 <strong>CALENDAR AHEAD</strong> — EPRA fuel review ~14 Aug; Hotel Expo Kenya 19–21 Aug (KICC); WTA Africa Gala, Zanzibar, 28 Aug; <strong>Kwita Izina</strong> 21st gorilla-naming, Kinigi, <strong>4 Sep</strong>; Uganda <strong>Open Park Days 25–27 Sep</strong> (free entry, citizens &amp; EA residents).</span></p>\n<p>✅ <strong>STILL TRUE</strong> — Advisory board unchanged since this morning: Uganda US <strong>Level 4</strong>; Kenya <strong>Level 2</strong>; TZ &amp; Zanzibar <strong>Level 3</strong>.</p>\n<p>🔗 This edition on the web: https://eahospitalitypulse.com/editions/pulse-2026-08-11-midday.html</p>\n<hr class=\"divider\">"
+ },
+ {
   "id": "pulse-2026-08-11-morning",
   "date": "2026-08-11",
   "dateDisplay": "Tuesday, 11 August 2026",
@@ -1807,4 +1816,4 @@ window.INSIGHTS = [
   "editionKey": "evening"
  }
 ];
-window.BUILT_AT = "2026-08-11 08:37";
+window.BUILT_AT = "2026-08-11 12:27";

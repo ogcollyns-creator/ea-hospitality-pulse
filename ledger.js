@@ -1,8 +1,8 @@
 window.LEDGER = {
- "updated": "2026-08-11 08:38",
+ "updated": "2026-08-11 12:27",
  "stats": {
-  "total": 66,
-  "open": 59,
+  "total": 69,
+  "open": 62,
   "resolved": 7,
   "correct": 4,
   "partial": 1,
@@ -747,6 +747,38 @@ window.LEDGER = {
    "overdue": false
   },
   {
+   "id": "P066",
+   "made_date": "2026-08-11",
+   "edition": "Midday Pulse",
+   "claim": "Kenya's gazetted US$50,000 mandatory travel-health insurance will NOT be operational (enforced at ports of entry) before 31 Dec 2026",
+   "resolution_criteria": "No official notice or reported enforcement of the US$50k travel-insurance requirement at Kenyan entry points by 31 Dec 2026, given the 29 Sep 2026 High Court challenge",
+   "resolve_by": "2026-12-31",
+   "market": "KE",
+   "segment": "All",
+   "confidence": "Reported",
+   "status": "open",
+   "resolved_date": "",
+   "evidence": "",
+   "source_url": "https://www.tourismupdate.com/article/trade-questions-kenya-insurance-mandate",
+   "overdue": false
+  },
+  {
+   "id": "P068",
+   "made_date": "2026-08-11",
+   "edition": "Midday Pulse",
+   "claim": "Kampala's full Marriott-brand flagship (Nsambya) will open to the public before 31 Dec 2026",
+   "resolution_criteria": "Marriott.com or the operator confirms the Kampala Marriott Hotel is open and bookable for stays by 31 Dec 2026",
+   "resolve_by": "2026-12-31",
+   "market": "UG",
+   "segment": "City",
+   "confidence": "Reported",
+   "status": "open",
+   "resolved_date": "",
+   "evidence": "",
+   "source_url": "https://www.marriott.com/en-us/hotels/ebbmk-kampala-marriott-hotel/overview/",
+   "overdue": false
+  },
+  {
    "id": "P006",
    "made_date": "2026-07-25",
    "edition": "Morning Brief",
@@ -920,6 +952,22 @@ window.LEDGER = {
    "resolved_date": "",
    "evidence": "",
    "source_url": "https://www.iata.org/en/pressroom/2025-releases/2025-12-09-01/",
+   "overdue": false
+  },
+  {
+   "id": "P067",
+   "made_date": "2026-08-11",
+   "edition": "Midday Pulse",
+   "claim": "Tanzania will withhold or refuse at least one hospitality business-licence renewal for lack of a compliant digital-payment facility before 30 Jun 2027",
+   "resolution_criteria": "Reported enforcement, a refused/withheld renewal case, or official confirmation of enforcement of the Electronic Transactions Act digital-payment licence rule by 30 Jun 2027",
+   "resolve_by": "2027-06-30",
+   "market": "TZ",
+   "segment": "All",
+   "confidence": "Reported",
+   "status": "open",
+   "resolved_date": "",
+   "evidence": "",
+   "source_url": "https://www.thecitizen.co.tz/tanzania/news/national/tanzania-makes-digital-payments-mandatory-in-key-sectors-5492872",
    "overdue": false
   },
   {
