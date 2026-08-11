@@ -12,7 +12,7 @@ time, since the photo pool is stored in the repo under img/.
 
 Called automatically by build_site.py.
 """
-import os, re, json, hashlib
+import os, re, json, hashlib, shutil
 from PIL import Image, ImageDraw, ImageFont
 
 HERE = os.path.dirname(os.path.abspath(__file__))
@@ -207,7 +207,12 @@ def main(editions=None):
             match_text = e["summary"] + " " + re.sub(r"<[^>]+>", " ", e.get("bodyHtml",""))
             photo = choose_photo(e["id"], match_text)
             base_card(e["edition"], head, e["dateDisplay"], photo).save(os.path.join(OG,e["id"]+".png"))
-            hero_map[e["id"]] = hero_for.get(photo, "clean-default.png")
+            clean_name = hero_for.get(photo, "clean-default.png")
+            hero_map[e["id"]] = clean_name
+            # per-edition text-free image: homepage cards, reader and latest-hero
+            # all use this, so the site is "clean everywhere". The text card
+            # (e.id+'.png') is kept only for social-share og:image/twitter:image.
+            shutil.copyfile(os.path.join(OG, clean_name), os.path.join(OG, e["id"]+"-clean.png"))
     json.dump(hero_map, open(os.path.join(OG, "hero_map.json"), "w", encoding="utf-8"))
     make_favicon()
     print(f"OG images written: {1+(len(editions) if editions else 0)} cards + {len(hero_for)+1} clean heroes + favicon")

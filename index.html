@@ -352,7 +352,7 @@
   .pl-brand{font-family:'Helvetica Neue',Arial,sans-serif;font-size:12px;font-weight:600;color:var(--muted);background:var(--sand-2);padding:2px 8px;border-radius:20px;margin-left:4px;white-space:nowrap}
   .pl-detail{font-size:14px;color:var(--muted);margin:6px 0 8px;line-height:1.55}
 </style>
-<!--BUILD_STAMP:20260811-0833--></head>
+<!--BUILD_STAMP:20260811-1002--></head>
 <body>
 <header class="site">
   <div class="wrap topbar">
@@ -708,7 +708,7 @@
   function editionCard(e){
     const c=document.createElement('div'); c.className='card';
     const fore = e.editionKey==='foresight'?' foresight':'';
-    c.innerHTML='<img class="thumb" src="og/'+e.id+'.png" alt="" loading="lazy" onerror="this.remove()">'+
+    c.innerHTML='<img class="thumb" src="og/'+e.id+'-clean.png" alt="" loading="lazy" onerror="this.remove()">'+
       '<span class="badge'+fore+'">'+e.edition+'</span>'+
       '<time>'+e.dateDisplay+'</time>'+
       '<h3>'+e.summary.split(".")[0].slice(0,90)+'.</h3>'+
@@ -772,7 +772,7 @@
     document.getElementById('r-date').textContent=e.dateDisplay;
     document.getElementById('r-body').innerHTML=e.bodyHtml;
     const img=document.getElementById('r-img');
-    img.style.display=''; img.src='og/'+e.id+'.png';
+    img.style.display=''; img.src='og/'+e.id+'-clean.png';
     overlay.classList.add('open');
   }
   function closeReader(){ overlay.classList.remove('open'); }
@@ -1151,7 +1151,7 @@
     const box=document.getElementById('latest-card');
     if(!box || !editions.length) return;
     const e=editions[0];
-    box.innerHTML='<div class="latest"><img class="hero" src="og/'+e.id+'.png" alt="" loading="eager" onerror="this.remove()">'+
+    box.innerHTML='<div class="latest"><img class="hero" src="og/'+e.id+'-clean.png" alt="" loading="eager" onerror="this.remove()">'+
       '<div class="lbody"><span class="lbadge">'+e.edition+'</span><time>'+e.dateDisplay+'</time>'+
       '<h3>'+e.summary.split(".")[0].slice(0,110)+'.</h3>'+
       '<p>'+e.summary.slice(0,190)+(e.summary.length>190?'…':'')+'</p>'+
