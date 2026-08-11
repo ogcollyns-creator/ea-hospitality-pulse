@@ -44,6 +44,9 @@ jobs:
           git diff --staged --quiet || git commit -m "Gate auto-fix: $(date -u +'%Y-%m-%d %H:%M UTC')"
           git push origin HEAD:main || true
 
+      - name: Fetch photo pool (best-effort; expands clean-image variety)
+        run: python3 fetch_images.py || echo "image fetch skipped (network); using photos already in img/"
+
       - name: Build site
         run: python3 build_site.py
 
@@ -51,6 +54,6 @@ jobs:
         run: |
           git config user.email 'ogcollyns@gmail.com'
           git config user.name 'EA Hospitality Pulse'
-          git add -A data.js index.html sitemap.xml feed.xml ledger.js guides.js og editions guides
+          git add -A data.js index.html sitemap.xml feed.xml ledger.js guides.js og img editions guides
           git diff --staged --quiet || git commit -m "Auto-build: $(date -u +'%Y-%m-%d %H:%M UTC')"
           git push origin HEAD:main

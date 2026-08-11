@@ -55,6 +55,11 @@ jobs:
         run: python3 radar/scan.py restore
 
       - name: Install Playwright (for headless-marked sources)
+        # Non-blocking: if the browser/system-deps install fails, the scan still
+        # runs over all RSS/HTTP sources (the majority); only headless-marked
+        # sources are skipped. Prevents the whole feed from going dark on a
+        # transient Playwright/apt failure (root cause of the 8 Aug stall).
+        continue-on-error: true
         run: |
           pip install playwright
           python -m playwright install --with-deps chromium
