@@ -9,7 +9,7 @@
 // source — mostly hospitality, tourism and business-events trade. Delegate counts are
 // only included where a named source states one; we do not estimate or invent them.
 window.MICE = {
- updated: "11 August 2026",
+ updated: "12 August 2026",
  events: [
   { event:"The Hotel Expo Kenya 2026", city:"Nairobi (KICC)", country:"Kenya", flag:"🇰🇪",
     dates:"19–21 August 2026", status:"Confirmed", delegates:null,
@@ -61,9 +61,9 @@ window.MICE = {
 
   { event:"Kwita Izina 2026 — 21st gorilla naming ceremony", city:"Kinigi, Musanze (Volcanoes NP)", country:"Rwanda", flag:"🇷🇼",
     dates:"4 September 2026", status:"Confirmed", delegates:null,
-    detail:"Rwanda's annual gorilla-naming ceremony, organised by the Rwanda Development Board at the foothills of Volcanoes National Park in Kinigi. Draws heads of state, conservationists, celebrities and diplomats; the flagship event of Rwanda's premium gorilla-tourism calendar.",
+    detail:"Rwanda's annual gorilla-naming ceremony, organised by the Rwanda Development Board at the foothills of Volcanoes National Park in Kinigi. Draws heads of state, conservationists, celebrities and diplomats; the flagship event of Rwanda's premium gorilla-tourism calendar. RDB formally unveiled the 21st-edition plans on 11 Aug 2026: 22 baby gorillas to be named.",
     soWhat:"A fixed early-September compression on premium Volcanoes-area lodges and on Kigali city stock (delegates route through Kigali). Gorilla-trekking and exclusive-use inventory around Musanze should hold rate through the first week of September rather than discounting into the shoulder; Kigali city hotels should expect a pre/post-ceremony bump.",
-    segment:"Bush, City", source:"Rwanda Development Board / kwitaizina.rw", verified:true, flagged:"action" }
+    segment:"Bush, City", source:"Rwanda Development Board / Taarifa, 11 Aug 2026 / kwitaizina.rw", verified:true, flagged:"action" }
 
  ],
  caveat: "Coverage favours large, publicly announced trade and business-events gatherings picked up by tourism boards, convention bureaux and trade press — it under-represents smaller academic, medical and association congresses that book a single hotel rather than a citywide block. A missing event here is not evidence one isn't happening; check directly with KICC, Rwanda Convention Bureau, JNICC (Dar) or your local convention bureau for anything sector-specific."

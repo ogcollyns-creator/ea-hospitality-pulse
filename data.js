@@ -1,5 +1,14 @@
 window.EDITIONS = [
  {
+  "id": "pulse-2026-08-12-morning",
+  "date": "2026-08-12",
+  "dateDisplay": "Wednesday, 12 August 2026",
+  "edition": "Morning Brief",
+  "editionKey": "morning",
+  "summary": "1️⃣ 🇺🇸→🌍 THE US EBOLA ENTRY ORDER EXPIRES TODAY — RENEW OR LAPSE BY 4:59PM EDT",
+  "bodyHtml": "<p>🌅 <strong>EA HOSPITALITY PULSE — Morning Brief</strong><br>🗓 Wednesday 12 August 2026</p>\n<p><strong>1️⃣ 🇺🇸→🌍 THE US EBOLA ENTRY ORDER EXPIRES TODAY — RENEW OR LAPSE BY 4:59PM EDT</strong></p>\n<p>The CDC&#x27;s 30-day Title 42 order covering travellers recently in the DRC, Uganda and South Sudan expires at 4:59pm EDT today (Federal Register 2026-14365, order signed 13 July). As of this morning no renewal has been published — we haven&#x27;t seen the decision reported anywhere yet. The pattern says it renews (it did on 21 June and 13 July), but the question that matters for us is whether Uganda stays coupled to the DRC or gets decoupled ahead of its 42-day Ebola all-clear (~28 Aug).</p>\n<p>Where it stands now (CDC returning-travellers page, 7 Aug): the DRC is a hard block — nobody, US citizens included, boards a US-bound flight within 21 days of leaving. Uganda and South Sudan are lighter: US citizens and nationals aren&#x27;t restricted, but permitted travellers are rerouted to four US airports (Dulles, Atlanta, Houston, JFK) for screening. Uganda remains US <strong>Level 4</strong>.</p>\n<p><span class=\"tagline\">🏷 Regional · Bush/City · Confirmed (order + expiry); Reported (renewal pending)</span><br><span class=\"sowhat\">🎯 <strong>So what:</strong> If you sell US guests on Uganda or Rwanda gorilla circuits, the framework is being re-decided today. Any itinerary that touches eastern DRC still triggers the 21-day block. Brief agents now; we&#x27;ll carry the outcome this evening.</span></p>\n<p><strong>2️⃣ 🇷🇼 KWITA IZINA IS BACK — 22 GORILLAS, 4 SEPTEMBER, A ROOM-NIGHT SQUEEZE FOR VOLCANOES</strong></p>\n<p>The Rwanda Development Board formally unveiled plans for the 21st Kwita Izina on 11 August: 22 baby mountain gorillas named at Kinigi, Musanze, on Friday 4 September (RDB, 11 Aug; Taarifa, 11 Aug). It is Rwanda&#x27;s flagship conservation event and it pulls high-end conservation travel into a narrow window.</p>\n<p><span class=\"tagline\">🏷 Rwanda · Bush · Confirmed</span><br><span class=\"sowhat\">🎯 <strong>So what:</strong> Volcanoes NP&#x27;s premium lodges — some of the priciest beds in Africa — compress hard around ceremony week. Hold rate through early September rather than discounting into the shoulder; if you&#x27;re on the Kigali–Musanze road, expect the pre/post spill.</span></p>\n<p>✅ <strong>STILL TRUE</strong> — Advisory board unchanged: Uganda US <strong>Level 4</strong>; Kenya <strong>Level 2</strong>; Tanzania &amp; Zanzibar <strong>Level 3</strong>.</p>\n<p><span class=\"meta-line\">📅 <strong>WEEK AHEAD</strong> — EPRA Kenya fuel review <strong>~14 Aug</strong> (petrol held KSh214.03/L, diesel KSh222.86/L to 14 Aug), new schedule effective 15 Aug; <strong>Hotel Expo Kenya 19–21 Aug</strong> (KICC); <strong>WTA Africa Gala</strong>, Zanzibar, <strong>28 Aug</strong>.</span></p>\n<p><span class=\"meta-line\">📡 <strong>RADAR</strong> — Upstream poll: 357 in-window observations to 03:09 EAT. The one fresh EA signal was the RDB Kwita Izina launch; the rest was foreign advisories (Syria, Brazil, Malta) and global schedule filings with no East African leg. The CDC lead was confirmed by a manual read of the order page and the Federal Register — no renewal posted yet.</span></p>\n<p>🔗 This edition on the web: https://eahospitalitypulse.com/editions/pulse-2026-08-12-morning.html</p>"
+ },
+ {
   "id": "pulse-2026-08-11-evening",
   "date": "2026-08-11",
   "dateDisplay": "Tuesday, 11 August 2026",
@@ -1825,4 +1834,4 @@ window.INSIGHTS = [
   "editionKey": "evening"
  }
 ];
-window.BUILT_AT = "2026-08-11 14:10";
+window.BUILT_AT = "2026-08-12 08:24";

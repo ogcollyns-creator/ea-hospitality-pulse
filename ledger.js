@@ -1,5 +1,5 @@
 window.LEDGER = {
- "updated": "2026-08-11 14:11",
+ "updated": "2026-08-12 08:24",
  "stats": {
   "total": 71,
   "open": 63,
@@ -24,7 +24,7 @@ window.LEDGER = {
    "resolved_date": "",
    "evidence": "",
    "source_url": "https://www.cdc.gov/port-health/legal-authorities/evdorder.html",
-   "overdue": false
+   "overdue": true
   },
   {
    "id": "P036",
