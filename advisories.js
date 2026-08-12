@@ -2,10 +2,10 @@
 // Levels reflect MAIN TOURIST AREAS; regional exceptions are in the notes.
 // Maintained by the scheduled Pulse task; verify against the official source before travel.
 window.ADVISORIES = {
-  updated: "4 August 2026 (midday — TZ & ZNZ US level corrected 2→3, verified vs travel.state.gov)",
+  updated: "12 August 2026 (midday — CORRECTION: Nairobi's Eastleigh & Kibera are Level 4 Do Not Travel, not Level 3; rendered page now dated 28 July 2026. Verified vs travel.state.gov 12 Aug 2026)",
   rows: [
     { code:"KE", name:"Kenya", flag:"🇰🇪",
-      us:{ level:2, note:"Terrorism & crime. Higher risk on the Somalia border and parts of the north coast (Lamu). Eastleigh & Kibera are Reconsider Travel (Level 3), NOT Do Not Travel. Rendered page still dated 17 March 2025 when checked 2 Aug 2026 — the late-July re-issue did not change the page text." },
+      us:{ level:2, note:"Terrorism, crime, kidnapping, unrest, health and 'Other'. Country level unchanged at 2. Re-issued 28 July 2026 (rendered page carries 'Date issued: July 28, 2026', verified 12 Aug 2026) — the 'Other (O)' indicator was added and the Nairobi neighbourhoods of EASTLEIGH and KIBERA are now LEVEL 4 DO NOT TRAVEL (crime, kidnapping), corrected from our earlier Level 3 reading. Also Level 4: Garissa, Wajir, Mandera, Lamu, Tana River (except Tsavo NP), Kilifi north of the C103 and coastal areas north of Malindi; West Pokot and western Turkana; Marsabit and Turkana within 50km of Ethiopia. Nairobi hotel corridors (Westlands, Upper Hill, Gigiri, CBD, Karen), Diani and Watamu are not in any Level 4 area." },
       uk:{ level:2, note:"Against travel to the Kenya–Somalia border and parts of Lamu/north coast; core safari & coast areas unaffected." } },
     { code:"UG", name:"Uganda", flag:"🇺🇬",
       us:{ level:4, note:"Do not travel — Ebola (Bundibugyo) outbreak in the region." },
