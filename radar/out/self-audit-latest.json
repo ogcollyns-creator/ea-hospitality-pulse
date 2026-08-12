@@ -1,14 +1,13 @@
 {
- "generated": "2026-08-11T08:37+03:00",
- "health": 0.517,
+ "generated": "2026-08-12T08:33+03:00",
+ "health": 0.567,
  "grade": "D",
  "fails": [
   "source coverage",
+  "source staleness",
   "ledger hygiene"
  ],
  "warns": [
-  "radar feed freshness",
-  "edition cadence",
   "signal quality",
   "data freshness",
   "rate-index integrity"
@@ -23,43 +22,43 @@
   },
   {
    "name": "source staleness",
+   "status": "FAIL",
+   "detail": "40 tier-1 HEALTHY sources quiet >14d: ke-knbs-releases, ke-knbs-calendar, ke-cbk-press, ke-cbk-bulletin, ke-tri, ke-tourism-ministry, ke-ktb-news, ke-tra",
+   "fix": "Confirm the source still publishes; fix URL if it moved.",
+   "score": 0.0
+  },
+  {
+   "name": "radar feed freshness",
    "status": "PASS",
-   "detail": "No tier-1 HEALTHY source silent >14d.",
+   "detail": "357 in-window obs; newest observation 5.4h old (2026-08-12T03:09:00+03:00).",
    "fix": "",
    "score": 1.0
   },
   {
-   "name": "radar feed freshness",
-   "status": "WARN",
-   "detail": "0 obs in window but no first-seen stamps parsed.",
-   "fix": "",
-   "score": 0.5
-  },
-  {
    "name": "edition cadence",
-   "status": "WARN",
-   "detail": "Missing slots (last 2 full days): 2026-08-09 midday",
-   "fix": "Confirm the scheduled Pulse task fired for each slot.",
-   "score": 0.5
+   "status": "PASS",
+   "detail": "7 editions in last 2d; no slot gaps.",
+   "fix": "",
+   "score": 1.0
   },
   {
    "name": "signal quality",
    "status": "WARN",
-   "detail": "8/13 editions in last 7d were Tier 2/3 (thin). Share 62%.",
+   "detail": "7/10 editions in last 7d were Tier 2/3 (thin). Share 70%.",
    "fix": "A high thin share means sourcing isn't finding real stories \u2014 widen scope / fix blind sources.",
    "score": 0.5
   },
   {
    "name": "ledger hygiene",
    "status": "FAIL",
-   "detail": "66 calls: 59 open, 7 resolved. Overdue-open: 1. Missing source_url: 18.",
-   "fix": "Resolve overdue calls now: P030. Backfill source_url on early calls.",
+   "detail": "71 calls: 63 open, 8 resolved. Overdue-open: 1. Missing source_url: 18.",
+   "fix": "Resolve overdue calls now: P057. Backfill source_url on early calls.",
    "score": 0.0
   },
   {
    "name": "data freshness",
    "status": "WARN",
-   "detail": "Stale/again-verify: advisories.js 7d>4, costs.js 13d>10",
+   "detail": "Stale/again-verify: advisories.js 8d>4, costs.js 14d>10",
    "fix": "Re-verify each dataset's values and bump its 'updated:' field, or note it in-edition.",
    "score": 0.5
   },
@@ -73,14 +72,14 @@
   {
    "name": "forecast throughput",
    "status": "PASS",
-   "detail": "16 new falsifiable calls logged in last 7d.",
+   "detail": "19 new falsifiable calls logged in last 7d.",
    "fix": "",
    "score": 1.0
   },
   {
    "name": "published content",
    "status": "PASS",
-   "detail": "8 recent editions; no advisory claim contradicts the board.",
+   "detail": "9 recent editions; no advisory claim contradicts the board.",
    "fix": "",
    "score": 1.0
   }
