@@ -352,7 +352,7 @@
   .pl-brand{font-family:'Helvetica Neue',Arial,sans-serif;font-size:12px;font-weight:600;color:var(--muted);background:var(--sand-2);padding:2px 8px;border-radius:20px;margin-left:4px;white-space:nowrap}
   .pl-detail{font-size:14px;color:var(--muted);margin:6px 0 8px;line-height:1.55}
 </style>
-<!--BUILD_STAMP:20260813-0620--></head>
+<!--BUILD_STAMP:20260813-1012--></head>
 <body>
 <header class="site">
   <div class="wrap topbar">
@@ -921,11 +921,14 @@
     let tiles='<div class="ri-tiles">';
     Object.values(R.markets).forEach(m=>{
       if(!m.latest) return;
-      const w=m.wow, cls=w==null?'flat':(w>0?'up':(w<0?'dn':'flat'));
+      // A link built on pairs whose meal basis changed measures a change in inclusions,
+      // not a change in price. Withhold it rather than print a false move.
+      const dirty=!!m.basisChangedPairs;
+      const w=dirty?null:m.wow, cls=w==null?'flat':(w>0?'up':(w<0?'dn':'flat'));
       const arrow=w==null?'':(w>0?'▲':(w<0?'▼':'■'));
       tiles+='<div class="ri-tile"><div class="m">'+m.label+'</div>'+
         '<div class="v">'+(m.latest.index!=null?m.latest.index:'—')+'</div>'+
-        '<div class="d '+cls+'">'+(w==null?'baseline week':arrow+' '+Math.abs(w)+'% WoW')+'</div>'+
+        '<div class="d '+cls+'">'+(w==null?(dirty?'WoW withheld · basis change':'baseline week'):arrow+' '+Math.abs(w)+'% WoW')+'</div>'+
         '<div class="cov">median US$'+m.latest.median+' · '+m.latest.n+'/'+m.basketSize+' properties ('+m.latest.coverage+'%)'+
         (m.latest.confident?'':' · low confidence')+
         (m.residentOnly?' · resident rates':'')+

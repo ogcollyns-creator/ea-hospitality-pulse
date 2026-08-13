@@ -62,6 +62,12 @@ def main():
     except Exception:
         benchmarks = {"updated": "", "items": []}
 
+    # Properties documented in basket.json["inactive"] are not trading (closed, never
+    # opened, or rebranded into another basket entry). They cannot be priced, so leaving
+    # them in the denominator understates coverage. Excluded from basket size only —
+    # index levels are chain-linked on matched pairs and are unaffected.
+    INACTIVE = {(i.get("market"), i.get("property")) for i in basket.get("inactive", [])}
+
     rows = []
     with open(os.path.join(RD, "observations.csv"), encoding="utf-8") as f:
         for r in csv.DictReader(f):
@@ -89,7 +95,7 @@ def main():
         basis_at.setdefault(r["market"], {}).setdefault(ch, {}).setdefault(r["property"], {}) \
             .setdefault(r["week"], set()).add(r.get("basis") or "?")
 
-    def build_series(pw, size, mrows):
+    def build_series(pw, size, mrows, bmap=None):
         """Chain one channel's observations into an index series."""
         all_weeks = sorted({w for weeks in pw.values() for w in weeks})
         series = []
@@ -116,16 +122,31 @@ def main():
             for i in range(start + 1, len(series)):
                 wk = series[i]["week"]
                 pairs = []
+                clean = []       # pairs whose meal basis is KNOWN and UNCHANGED week-on-week
+                changed = 0      # pairs where basis moved (incl. UNK -> known): not like-for-like
                 for p in pw:
                     if wk not in pw[p]:
                         continue
                     prior = [w for w in pw[p] if w < wk and 0 < week_delta(wk, w) <= LOOKBACK_WEEKS]
                     if prior and pw[p][max(prior)]:
-                        pairs.append(pw[p][wk] / pw[p][max(prior)])
+                        ratio = pw[p][wk] / pw[p][max(prior)]
+                        pairs.append(ratio)
+                        b_now = (bmap or {}).get(p, {}).get(wk, set())
+                        b_then = (bmap or {}).get(p, {}).get(max(prior), set())
+                        if b_now and b_now == b_then and "UNK" not in b_now and "?" not in b_now:
+                            clean.append(ratio)
+                        else:
+                            changed += 1
                 if pairs:
                     link = statistics.median(pairs)
                     running *= link
                     series[i]["link"] = round(link, 5)
+                # Diagnostic only — the index is NOT recomputed on the clean subset. A link
+                # built on pairs whose basis changed measures a change in what is included,
+                # not a change in price. Read wowClean before quoting a WoW move.
+                series[i]["basisChangedPairs"] = changed
+                series[i]["cleanMatched"] = len(clean)
+                series[i]["linkClean"] = (round(statistics.median(clean), 5) if clean else None)
                 series[i]["matched"] = len(pairs)
                 series[i]["index"] = round(running, 1)
                 if series[i]["confident"] and len(pairs) < MIN_N:
@@ -139,17 +160,22 @@ def main():
     markets_out = {}
     for key, mmeta in basket["markets"].items():
         chans = g.get(key, {})
-        size = len(mmeta["properties"])
+        size = len([q for q in mmeta["properties"] if (key, q) not in INACTIVE])
         mr = meta_rows.get(key, {})
 
         pw_direct = collapse(chans.get("direct", {}))
         pw_ota = collapse(chans.get("ota", {}))
 
-        series, start = build_series(pw_direct, size, mr.get("direct", {})) if pw_direct else ([], None)
-        ota_series, _ = build_series(pw_ota, size, mr.get("ota", {})) if pw_ota else ([], None)
+        bs_all = basis_at.get(key, {})
+        series, start = (build_series(pw_direct, size, mr.get("direct", {}),
+                                      bs_all.get("direct", {})) if pw_direct else ([], None))
+        ota_series, _ = (build_series(pw_ota, size, mr.get("ota", {}),
+                                      bs_all.get("ota", {})) if pw_ota else ([], None))
 
         latest = series[-1] if series else None
         wow = round((latest["link"] - 1) * 100, 1) if latest and latest.get("link") is not None else None
+        wow_clean = (round((latest["linkClean"] - 1) * 100, 1)
+                     if latest and latest.get("linkClean") is not None else None)
         ota_latest = ota_series[-1] if ota_series else None
         ota_wow = (round((ota_latest["link"] - 1) * 100, 1)
                    if ota_latest and ota_latest.get("link") is not None else None)
@@ -193,6 +219,8 @@ def main():
             "series": series,
             "baseline": series[start]["median"] if start is not None else None,
             "latest": latest, "wow": wow,
+            "wowClean": wow_clean,
+            "basisChangedPairs": (latest.get("basisChangedPairs") if latest else None),
             "basisMix": dict(overall_b), "rateTypeMix": dict(overall_t),
             "levelComparable": len(overall_b) == 1 and len(overall_t) == 1,
             "residentOnly": len(overall_t) == 1 and "resident" in overall_t,
@@ -212,13 +240,19 @@ def main():
                        "MOVEMENT validly even though the basket mixes meal bases and rate types. "
                        "Raw medians are context only and are not comparable across markets — "
                        "check levelComparable before quoting a level."),
+        "wowNote": ("wow is the matched-sample link for the latest week. wowClean is the same "
+                    "link computed only on pairs whose meal basis was KNOWN and UNCHANGED between "
+                    "the two weeks; basisChangedPairs counts the pairs excluded from it. Where "
+                    "basisChangedPairs is large relative to matched, the headline wow is partly a "
+                    "re-basing artefact — quote wowClean, or quote no move at all."),
         "spreadNote": ("Commission-leakage spread = median of (OTA rate / direct rate - 1) for the "
                        "same property in the same week. Computed only where the direct rate is "
                        "room-only or B&B, since an OTA lowest rate is not comparable with a "
                        "fully-inclusive safari rate. Markets where no property qualifies report null."),
         "totalObservations": len(rows),
         "distinctProperties": len({(r["market"], r["property"]) for r in rows}),
-        "basketSize": sum(len(m["properties"]) for m in basket["markets"].values()),
+        "basketSize": sum(len([q for q in m["properties"] if (k, q) not in INACTIVE])
+                          for k, m in basket["markets"].items()),
         "markets": markets_out,
         "benchmarks": benchmarks,
     }

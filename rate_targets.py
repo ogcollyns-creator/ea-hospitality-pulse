@@ -33,9 +33,16 @@ if os.path.exists(path):
         last[p] = max(last.get(p, ""), d)
 
 today = datetime.date.today()
+# Properties documented as not trading (closed, never opened, rebranded into another
+# basket entry) are excluded from targeting: surfacing them daily burns target slots
+# that should go to properties that can actually be priced. The exclusion lives in
+# basket.json["inactive"] so it stays auditable and reversible.
+inactive = {(i.get("market"), i.get("property")) for i in basket.get("inactive", [])}
 rankable = []
 for mkey, meta in basket["markets"].items():
     for prop in meta["properties"]:
+        if (mkey, prop) in inactive:
+            continue
         if prop in last:
             age = (today - datetime.date.fromisoformat(last[prop])).days
             seen = last[prop]
@@ -45,7 +52,7 @@ for mkey, meta in basket["markets"].items():
         rankable.append((age, mkey, prop, seen, counts[prop]))
 
 rankable.sort(key=lambda x: (-x[0], x[1]))
-print(f"Basket: {len(rankable)} properties · observed at least once: "
+print(f"Basket: {len(rankable)} targetable properties (excl. {len(inactive)} inactive) · observed at least once: "
       f"{sum(1 for r in rankable if r[3] != 'never')} · today {today}\n")
 print(f"TOP {N} TARGETS FOR TODAY (stalest first):")
 for age, mkey, prop, seen, c in rankable[:N]:

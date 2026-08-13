@@ -82,7 +82,15 @@ try:
                 "matched": (v.get("latest") or {}).get("matched"),
                 "confident": (v.get("latest") or {}).get("confident"),
                 "levelComparable": v.get("levelComparable"),
-                "wowPct": v.get("wowPct"),
+                # wowPct is published ONLY when every matched pair compared a like-for-like
+                # meal basis. Where a pair's basis changed (typically an undocumented UNK
+                # observation now documented), the link measures a change in what is included,
+                # not a change in price — so we withhold, per the null contract in api.html.
+                "wowPct": (v.get("wow") if not v.get("basisChangedPairs") else None),
+                "wowWithheld": (None if not v.get("basisChangedPairs") else
+                                f"basis changed in {v.get('basisChangedPairs')} of "
+                                f"{(v.get('latest') or {}).get('matched')} matched pairs"),
+                "wowCleanPct": v.get("wowClean"),
                 "series": [{"week": p.get("week"), "index": p.get("index"),
                             "n": p.get("n"), "matched": p.get("matched")}
                            for p in (v.get("series") or [])],

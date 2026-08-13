@@ -1,5 +1,5 @@
 window.RATE_INDEX = {
- "updated": "2026-08-12 08:55",
+ "updated": "2026-08-13 10:12",
  "convention": {
   "los": 2,
   "lead_days": 30,
@@ -10,10 +10,11 @@ window.RATE_INDEX = {
  "lookbackWeeks": 6,
  "method": "chain-linked matched-sample",
  "methodNote": "Each property is compared only with itself, so the index measures rate MOVEMENT validly even though the basket mixes meal bases and rate types. Raw medians are context only and are not comparable across markets — check levelComparable before quoting a level.",
+ "wowNote": "wow is the matched-sample link for the latest week. wowClean is the same link computed only on pairs whose meal basis was KNOWN and UNCHANGED between the two weeks; basisChangedPairs counts the pairs excluded from it. Where basisChangedPairs is large relative to matched, the headline wow is partly a re-basing artefact — quote wowClean, or quote no move at all.",
  "spreadNote": "Commission-leakage spread = median of (OTA rate / direct rate - 1) for the same property in the same week. Computed only where the direct rate is room-only or B&B, since an OTA lowest rate is not comparable with a fully-inclusive safari rate. Markets where no property qualifies report null.",
  "totalObservations": 296,
  "distinctProperties": 122,
- "basketSize": 136,
+ "basketSize": 133,
  "markets": {
   "nairobi": {
    "label": "Nairobi",
@@ -76,7 +77,10 @@ window.RATE_INDEX = {
      "levelComparable": true,
      "matched": 10,
      "link": 0.99654,
-     "index": 99.7
+     "index": 99.7,
+     "basisChangedPairs": 0,
+     "cleanMatched": 10,
+     "linkClean": 0.99654
     }
    ],
    "baseline": 190.88,
@@ -97,9 +101,14 @@ window.RATE_INDEX = {
     "levelComparable": true,
     "matched": 10,
     "link": 0.99654,
-    "index": 99.7
+    "index": 99.7,
+    "basisChangedPairs": 0,
+    "cleanMatched": 10,
+    "linkClean": 0.99654
    },
    "wow": -0.3,
+   "wowClean": -0.3,
+   "basisChangedPairs": 0,
    "basisMix": {
     "BB": 21
    },
@@ -165,7 +174,10 @@ window.RATE_INDEX = {
       "levelComparable": true,
       "matched": 7,
       "link": 1.11298,
-      "index": 111.3
+      "index": 111.3,
+      "basisChangedPairs": 7,
+      "cleanMatched": 0,
+      "linkClean": null
      }
     ],
     "latest": {
@@ -185,7 +197,10 @@ window.RATE_INDEX = {
      "levelComparable": true,
      "matched": 7,
      "link": 1.11298,
-     "index": 111.3
+     "index": 111.3,
+     "basisChangedPairs": 7,
+     "cleanMatched": 0,
+     "linkClean": null
     },
     "wow": 11.3
    },
@@ -257,7 +272,10 @@ window.RATE_INDEX = {
      "levelComparable": false,
      "matched": 4,
      "link": 1.10506,
-     "index": 110.5
+     "index": 110.5,
+     "basisChangedPairs": 4,
+     "cleanMatched": 0,
+     "linkClean": null
     },
     {
      "week": "2026-W33",
@@ -277,7 +295,10 @@ window.RATE_INDEX = {
      "levelComparable": false,
      "matched": 9,
      "link": 1.0,
-     "index": 110.5
+     "index": 110.5,
+     "basisChangedPairs": 1,
+     "cleanMatched": 8,
+     "linkClean": 0.99844
     }
    ],
    "baseline": 278.0,
@@ -299,9 +320,14 @@ window.RATE_INDEX = {
     "levelComparable": false,
     "matched": 9,
     "link": 1.0,
-    "index": 110.5
+    "index": 110.5,
+    "basisChangedPairs": 1,
+    "cleanMatched": 8,
+    "linkClean": 0.99844
    },
    "wow": 0.0,
+   "wowClean": -0.2,
+   "basisChangedPairs": 1,
    "basisMix": {
     "HB": 3,
     "AI": 2,
@@ -373,7 +399,10 @@ window.RATE_INDEX = {
       "levelComparable": true,
       "matched": 6,
       "link": 0.93686,
-      "index": 93.7
+      "index": 93.7,
+      "basisChangedPairs": 6,
+      "cleanMatched": 0,
+      "linkClean": null
      }
     ],
     "latest": {
@@ -393,7 +422,10 @@ window.RATE_INDEX = {
      "levelComparable": true,
      "matched": 6,
      "link": 0.93686,
-     "index": 93.7
+     "index": 93.7,
+     "basisChangedPairs": 6,
+     "cleanMatched": 0,
+     "linkClean": null
     },
     "wow": -6.3
    },
@@ -425,7 +457,7 @@ window.RATE_INDEX = {
    "label": "Zanzibar",
    "segment": "beach",
    "country": "ZNZ",
-   "basketSize": 13,
+   "basketSize": 12,
    "series": [
     {
      "week": "2026-W31",
@@ -452,7 +484,7 @@ window.RATE_INDEX = {
      "median": 818.5,
      "n": 9,
      "observations": 10,
-     "coverage": 69,
+     "coverage": 75,
      "confident": true,
      "basisMix": {
       "HB": 4,
@@ -473,7 +505,7 @@ window.RATE_INDEX = {
      "median": 1160.0,
      "n": 9,
      "observations": 9,
-     "coverage": 69,
+     "coverage": 75,
      "confident": true,
      "basisMix": {
       "AI": 4,
@@ -486,7 +518,10 @@ window.RATE_INDEX = {
      "levelComparable": false,
      "matched": 9,
      "link": 1.0,
-     "index": 100.0
+     "index": 100.0,
+     "basisChangedPairs": 2,
+     "cleanMatched": 7,
+     "linkClean": 1.0
     }
    ],
    "baseline": 818.5,
@@ -496,7 +531,7 @@ window.RATE_INDEX = {
     "median": 1160.0,
     "n": 9,
     "observations": 9,
-    "coverage": 69,
+    "coverage": 75,
     "confident": true,
     "basisMix": {
      "AI": 4,
@@ -509,9 +544,14 @@ window.RATE_INDEX = {
     "levelComparable": false,
     "matched": 9,
     "link": 1.0,
-    "index": 100.0
+    "index": 100.0,
+    "basisChangedPairs": 2,
+    "cleanMatched": 7,
+    "linkClean": 1.0
    },
    "wow": 0.0,
+   "wowClean": 0.0,
+   "basisChangedPairs": 2,
    "basisMix": {
     "HB": 9,
     "AI": 8,
@@ -531,7 +571,7 @@ window.RATE_INDEX = {
       "median": 867.0,
       "n": 8,
       "observations": 8,
-      "coverage": 62,
+      "coverage": 67,
       "confident": true,
       "basisMix": {
        "UNK": 8
@@ -551,7 +591,7 @@ window.RATE_INDEX = {
      "median": 867.0,
      "n": 8,
      "observations": 8,
-     "coverage": 62,
+     "coverage": 67,
      "confident": true,
      "basisMix": {
       "UNK": 8
@@ -626,7 +666,10 @@ window.RATE_INDEX = {
      "levelComparable": true,
      "matched": 6,
      "link": 0.92374,
-     "index": 92.4
+     "index": 92.4,
+     "basisChangedPairs": 5,
+     "cleanMatched": 1,
+     "linkClean": 1.00252
     }
    ],
    "baseline": 209.5,
@@ -647,9 +690,14 @@ window.RATE_INDEX = {
     "levelComparable": true,
     "matched": 6,
     "link": 0.92374,
-    "index": 92.4
+    "index": 92.4,
+    "basisChangedPairs": 5,
+    "cleanMatched": 1,
+    "linkClean": 1.00252
    },
    "wow": -7.6,
+   "wowClean": 0.3,
+   "basisChangedPairs": 5,
    "basisMix": {
     "UNK": 6,
     "BB": 8
@@ -762,7 +810,10 @@ window.RATE_INDEX = {
      "levelComparable": true,
      "matched": 8,
      "link": 1.0082,
-     "index": 100.8
+     "index": 100.8,
+     "basisChangedPairs": 0,
+     "cleanMatched": 8,
+     "linkClean": 1.0082
     }
    ],
    "baseline": 176.0,
@@ -783,9 +834,14 @@ window.RATE_INDEX = {
     "levelComparable": true,
     "matched": 8,
     "link": 1.0082,
-    "index": 100.8
+    "index": 100.8,
+    "basisChangedPairs": 0,
+    "cleanMatched": 8,
+    "linkClean": 1.0082
    },
    "wow": 0.8,
+   "wowClean": 0.8,
+   "basisChangedPairs": 0,
    "basisMix": {
     "UNK": 1,
     "BB": 18
@@ -901,7 +957,10 @@ window.RATE_INDEX = {
      "levelComparable": false,
      "matched": 3,
      "link": 1.0,
-     "index": 100.0
+     "index": 100.0,
+     "basisChangedPairs": 2,
+     "cleanMatched": 1,
+     "linkClean": 0.8999
     },
     {
      "week": "2026-W33",
@@ -922,7 +981,10 @@ window.RATE_INDEX = {
      "levelComparable": false,
      "matched": 18,
      "link": 1.0,
-     "index": 100.0
+     "index": 100.0,
+     "basisChangedPairs": 8,
+     "cleanMatched": 10,
+     "linkClean": 1.0
     }
    ],
    "baseline": 1996.0,
@@ -945,9 +1007,14 @@ window.RATE_INDEX = {
     "levelComparable": false,
     "matched": 18,
     "link": 1.0,
-    "index": 100.0
+    "index": 100.0,
+    "basisChangedPairs": 8,
+    "cleanMatched": 10,
+    "linkClean": 1.0
    },
    "wow": 0.0,
+   "wowClean": 0.0,
+   "basisChangedPairs": 8,
    "basisMix": {
     "FB+": 1,
     "FI": 11,
@@ -968,7 +1035,7 @@ window.RATE_INDEX = {
    "label": "Dar es Salaam & Arusha",
    "segment": "city",
    "country": "TZ",
-   "basketSize": 10,
+   "basketSize": 8,
    "series": [
     {
      "week": "2026-W32",
@@ -976,7 +1043,7 @@ window.RATE_INDEX = {
      "median": 243.53,
      "n": 6,
      "observations": 6,
-     "coverage": 60,
+     "coverage": 75,
      "confident": true,
      "basisMix": {
       "UNK": 6
@@ -995,7 +1062,7 @@ window.RATE_INDEX = {
      "median": 193.93,
      "n": 4,
      "observations": 4,
-     "coverage": 40,
+     "coverage": 50,
      "confident": true,
      "basisMix": {
       "BB": 4
@@ -1006,7 +1073,10 @@ window.RATE_INDEX = {
      "levelComparable": true,
      "matched": 3,
      "link": 0.80125,
-     "index": 80.1
+     "index": 80.1,
+     "basisChangedPairs": 3,
+     "cleanMatched": 0,
+     "linkClean": null
     }
    ],
    "baseline": 243.53,
@@ -1016,7 +1086,7 @@ window.RATE_INDEX = {
     "median": 193.93,
     "n": 4,
     "observations": 4,
-    "coverage": 40,
+    "coverage": 50,
     "confident": true,
     "basisMix": {
      "BB": 4
@@ -1027,9 +1097,14 @@ window.RATE_INDEX = {
     "levelComparable": true,
     "matched": 3,
     "link": 0.80125,
-    "index": 80.1
+    "index": 80.1,
+    "basisChangedPairs": 3,
+    "cleanMatched": 0,
+    "linkClean": null
    },
    "wow": -19.9,
+   "wowClean": null,
+   "basisChangedPairs": 3,
    "basisMix": {
     "UNK": 6,
     "BB": 4
@@ -1047,7 +1122,7 @@ window.RATE_INDEX = {
       "median": 201.75,
       "n": 6,
       "observations": 6,
-      "coverage": 60,
+      "coverage": 75,
       "confident": true,
       "basisMix": {
        "UNK": 6
@@ -1067,7 +1142,7 @@ window.RATE_INDEX = {
      "median": 201.75,
      "n": 6,
      "observations": 6,
-     "coverage": 60,
+     "coverage": 75,
      "confident": true,
      "basisMix": {
       "UNK": 6
@@ -1141,7 +1216,10 @@ window.RATE_INDEX = {
      "levelComparable": true,
      "matched": 3,
      "link": 0.99901,
-     "index": 99.9
+     "index": 99.9,
+     "basisChangedPairs": 3,
+     "cleanMatched": 0,
+     "linkClean": null
     }
    ],
    "baseline": 300.4,
@@ -1162,9 +1240,14 @@ window.RATE_INDEX = {
     "levelComparable": true,
     "matched": 3,
     "link": 0.99901,
-    "index": 99.9
+    "index": 99.9,
+    "basisChangedPairs": 3,
+    "cleanMatched": 0,
+    "linkClean": null
    },
    "wow": -0.1,
+   "wowClean": null,
+   "basisChangedPairs": 3,
    "basisMix": {
     "UNK": 6,
     "BB": 4
@@ -1276,7 +1359,10 @@ window.RATE_INDEX = {
      "levelComparable": true,
      "matched": 9,
      "link": 1.11724,
-     "index": 111.7
+     "index": 111.7,
+     "basisChangedPairs": 9,
+     "cleanMatched": 0,
+     "linkClean": null
     }
    ],
    "baseline": 1770.0,
@@ -1297,9 +1383,14 @@ window.RATE_INDEX = {
     "levelComparable": true,
     "matched": 9,
     "link": 1.11724,
-    "index": 111.7
+    "index": 111.7,
+    "basisChangedPairs": 9,
+    "cleanMatched": 0,
+    "linkClean": null
    },
    "wow": 11.7,
+   "wowClean": null,
+   "basisChangedPairs": 9,
    "basisMix": {
     "UNK": 10,
     "FI": 9
@@ -1398,7 +1489,10 @@ window.RATE_INDEX = {
      "levelComparable": true,
      "matched": 6,
      "link": 1.0,
-     "index": 100.0
+     "index": 100.0,
+     "basisChangedPairs": 4,
+     "cleanMatched": 2,
+     "linkClean": 0.9227
     }
    ],
    "baseline": 151.25,
@@ -1419,9 +1513,14 @@ window.RATE_INDEX = {
     "levelComparable": true,
     "matched": 6,
     "link": 1.0,
-    "index": 100.0
+    "index": 100.0,
+    "basisChangedPairs": 4,
+    "cleanMatched": 2,
+    "linkClean": 0.9227
    },
    "wow": 0.0,
+   "wowClean": -7.7,
+   "basisChangedPairs": 4,
    "basisMix": {
     "BB": 8,
     "UNK": 4
@@ -1533,7 +1632,10 @@ window.RATE_INDEX = {
      "levelComparable": true,
      "matched": 10,
      "link": 1.0,
-     "index": 100.0
+     "index": 100.0,
+     "basisChangedPairs": 10,
+     "cleanMatched": 0,
+     "linkClean": null
     }
    ],
    "baseline": 4095.0,
@@ -1554,9 +1656,14 @@ window.RATE_INDEX = {
     "levelComparable": true,
     "matched": 10,
     "link": 1.0,
-    "index": 100.0
+    "index": 100.0,
+    "basisChangedPairs": 10,
+    "cleanMatched": 0,
+    "linkClean": null
    },
    "wow": 0.0,
+   "wowClean": null,
+   "basisChangedPairs": 10,
    "basisMix": {
     "UNK": 10,
     "FI": 10
