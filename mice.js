@@ -9,8 +9,14 @@
 // source — mostly hospitality, tourism and business-events trade. Delegate counts are
 // only included where a named source states one; we do not estimate or invent them.
 window.MICE = {
- updated: "12 August 2026",
+ updated: "13 August 2026",
  events: [
+  { event:"15th African Peering & Interconnection Forum (AfPIF 2026)", city:"Kigali (Kigali Marriott Hotel)", country:"Rwanda", flag:"\ud83c\uddf7\ud83c\uddfc",
+    dates:"18\u201320 August 2026", status:"Confirmed", delegates:"300\u2013500 (historic range, per af-ix.org)",
+    detail:"The African IXP Association (AFIX) holds the 15th annual peering and interconnection forum at the Kigali Marriott, with RICTA. One node in Rwanda\'s RDB MICE revenue target of US$156m for 2026. Kigali has ranked Africa\'s No.2 meetings city for five consecutive years behind Cape Town (2024 ICCA rankings).",
+    soWhat:"A 300\u2013500 delegate tech forum fills the Kigali Marriott and its immediate neighbours for three midweek nights (18\u201320 Aug) \u2014 hold corporate rate that week rather than discounting. Right-size it: this fills a cluster of business hotels, not the whole city.",
+    segment:"City", source:"af-ix.org / tech.africa, Jul 2026", verified:true, flagged:"action" },
+
   { event:"The Hotel Expo Kenya 2026", city:"Nairobi (KICC)", country:"Kenya", flag:"🇰🇪",
     dates:"19–21 August 2026", status:"Confirmed", delegates:null,
     detail:"Trade expo for hoteliers, restaurateurs and hospitality professionals at the Kenyatta International Convention Centre — technology, F&B, procurement and design. The 2025 edition drew 100+ exhibitors (organiser figure); no verified 2026 delegate count published.",

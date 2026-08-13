@@ -1,8 +1,8 @@
 window.LEDGER = {
- "updated": "2026-08-13 10:13",
+ "updated": "2026-08-13 11:49",
  "stats": {
-  "total": 76,
-  "open": 64,
+  "total": 78,
+  "open": 66,
   "resolved": 12,
   "correct": 7,
   "partial": 1,
@@ -795,6 +795,22 @@ window.LEDGER = {
    "overdue": false
   },
   {
+   "id": "P076",
+   "made_date": "2026-08-13",
+   "edition": "pulse-2026-08-13-midday",
+   "claim": "The Lux Collective's Phase 1 Rwanda rebrands — LUX* Lake Kivu (ex-Cleo Lake Kivu) and SALT of Akagera (ex-Akagera Game Lodge) — will be live and bookable under their new brands by 31 Dec 2026, per the mid-2026 phase-one timeline announced 31 Jul 2026",
+   "resolution_criteria": "The Lux Collective site (theluxcollective.com) or a booking channel lists LUX* Lake Kivu and/or SALT of Akagera as open and bookable by 31 Dec 2026. If neither is bookable under the new brand the call is incorrect",
+   "resolve_by": "2026-12-31",
+   "market": "RW",
+   "segment": "Bush",
+   "confidence": "Reported",
+   "status": "open",
+   "resolved_date": "",
+   "evidence": "",
+   "source_url": "https://www.hospitalitynet.org/news/4132774/the-lux-collective-enters-rwanda-with-landmark-ultra-luxury-tourism-circuit-partnership",
+   "overdue": false
+  },
+  {
    "id": "P006",
    "made_date": "2026-07-25",
    "edition": "Morning Brief",
@@ -1000,6 +1016,22 @@ window.LEDGER = {
    "resolved_date": "",
    "evidence": "",
    "source_url": "https://www.thecitizen.co.tz/tanzania/news/national/tanzania-makes-digital-payments-mandatory-in-key-sectors-5492872",
+   "overdue": false
+  },
+  {
+   "id": "P077",
+   "made_date": "2026-08-13",
+   "edition": "pulse-2026-08-13-midday",
+   "claim": "Rwanda's realised 2026 MICE revenue will fall SHORT of the RDB's US$156m target — the binding constraint is intra-African airlift and delegate lift, not conference-space or ambition",
+   "resolution_criteria": "RDB or NISR full-year 2026 MICE revenue figure (published by 30 Jun 2027) prints below US$156m. If realised 2026 MICE revenue is at or above US$156m the call is incorrect",
+   "resolve_by": "2027-06-30",
+   "market": "RW",
+   "segment": "City",
+   "confidence": "Early signal",
+   "status": "open",
+   "resolved_date": "",
+   "evidence": "",
+   "source_url": "https://www.travelandtourworld.com/news/article/from-kigali-to-cape-town-how-rwanda-plans-to-double-mice-earnings-to-two-hundred-and-twenty-four-million-usd-by-2028-and-become-africas-business-tourism-hub/",
    "overdue": false
   },
   {
