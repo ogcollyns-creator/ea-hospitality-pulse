@@ -1,8 +1,8 @@
 window.LEDGER = {
- "updated": "2026-08-12 10:26",
+ "updated": "2026-08-13 09:19",
  "stats": {
-  "total": 74,
-  "open": 62,
+  "total": 76,
+  "open": 64,
   "resolved": 12,
   "correct": 7,
   "partial": 1,
@@ -347,6 +347,22 @@ window.LEDGER = {
    "overdue": false
   },
   {
+   "id": "P074",
+   "made_date": "2026-08-13",
+   "edition": "pulse-2026-08-13-morning",
+   "claim": "Canada's 21-day arrival-quarantine requirement for travellers who have been in Uganda or South Sudan will be extended beyond its stated 29 Aug 2026 expiry — the DRC outbreak trajectory (2,000+ deaths, 4,300+ cases as of 12 Aug) will not have improved enough for Ottawa to let the Quarantine Act measures lapse",
+   "resolution_criteria": "Canada.ca Ebola border-measures page or a Public Health Agency of Canada notice checked on 15 Sep 2026 shows the arrival requirements for Uganda/South Sudan still in force beyond 29 Aug 2026. If the measures lapsed on 29 Aug without replacement the call is incorrect",
+   "resolve_by": "2026-09-15",
+   "market": "Uganda|Regional",
+   "segment": "Bush|City",
+   "confidence": "medium",
+   "status": "open",
+   "resolved_date": "",
+   "evidence": "",
+   "source_url": "https://www.canada.ca/en/public-health/services/diseases/ebola/border-measures.html",
+   "overdue": false
+  },
+  {
    "id": "P048",
    "made_date": "2026-08-02",
    "edition": "Sunday Foresight",
@@ -360,6 +376,22 @@ window.LEDGER = {
    "resolved_date": "",
    "evidence": "",
    "source_url": "https://www.knbs.or.ke/",
+   "overdue": false
+  },
+  {
+   "id": "P075",
+   "made_date": "2026-08-13",
+   "edition": "pulse-2026-08-13-morning",
+   "claim": "The CDC's next 30-day Title 42 order (due on or about 10-11 Sep 2026) will STILL name Uganda alongside DRC and South Sudan — Uganda will not be decoupled despite its 28 Jul Ebola-free declaration and the ~28 Aug completion of its 42-day all-clear",
+   "resolution_criteria": "CDC port-health order page or Federal Register notice for the order succeeding the 12 Aug 2026 renewal, checked by 20 Sep 2026, still lists Uganda as a covered country. If Uganda is dropped from the order the call is incorrect",
+   "resolve_by": "2026-09-20",
+   "market": "Uganda",
+   "segment": "Bush|City",
+   "confidence": "medium",
+   "status": "open",
+   "resolved_date": "",
+   "evidence": "",
+   "source_url": "https://www.cdc.gov/port-health/legal-authorities/evdorder.html",
    "overdue": false
   },
   {
