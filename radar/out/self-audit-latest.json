@@ -1,5 +1,5 @@
 {
- "generated": "2026-08-13T09:17+03:00",
+ "generated": "2026-08-13T11:03+03:00",
  "health": 0.5,
  "grade": "D",
  "fails": [
@@ -31,7 +31,7 @@
   {
    "name": "radar feed freshness",
    "status": "PASS",
-   "detail": "516 in-window obs; newest observation 0.4h old (2026-08-13T08:52:00+03:00).",
+   "detail": "516 in-window obs; newest observation 2.2h old (2026-08-13T08:52:00+03:00).",
    "fix": "",
    "score": 1.0
   },
@@ -52,7 +52,7 @@
   {
    "name": "ledger hygiene",
    "status": "WARN",
-   "detail": "74 calls: 62 open, 12 resolved. Overdue-open: 0. Missing source_url: 20.",
+   "detail": "76 calls: 64 open, 12 resolved. Overdue-open: 0. Missing source_url: 20.",
    "fix": "Backfill source_url on early calls.",
    "score": 0.5
   },
@@ -66,21 +66,21 @@
   {
    "name": "rate-index integrity",
    "status": "WARN",
-   "detail": "n values seen: [1, 3, 4, 5, 6, 7]; confident true=53 false=6.",
+   "detail": "n values seen: [0, 1, 3, 4, 5, 6]; confident true=53 false=6.",
    "fix": "Index still thin \u2014 never quote a median where n<3 or confident:false. Enforced in copy.",
    "score": 0.5
   },
   {
    "name": "forecast throughput",
    "status": "PASS",
-   "detail": "18 new falsifiable calls logged in last 7d.",
+   "detail": "20 new falsifiable calls logged in last 7d.",
    "fix": "",
    "score": 1.0
   },
   {
    "name": "published content",
    "status": "PASS",
-   "detail": "8 recent editions; no advisory claim contradicts the board.",
+   "detail": "9 recent editions; no advisory claim contradicts the board.",
    "fix": "",
    "score": 1.0
   }
