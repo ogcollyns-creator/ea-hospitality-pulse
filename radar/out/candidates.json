@@ -1,18 +1,18 @@
 {
- "generated": "2026-08-14T18:11:29+03:00",
+ "generated": "2026-08-14T21:13:02+03:00",
  "slot": "evening",
  "window_start": 1786701600,
- "observations_in_window": 270,
+ "observations_in_window": 345,
  "deduped_against": 14,
  "candidates": [
   {
-   "score": 97.4,
+   "score": 94.1,
    "components": {
     "tier": 40,
     "category": 32,
     "lead": 12.0,
     "relevance": 8,
-    "freshness": 15.4,
+    "freshness": 12.1,
     "undated": -6,
     "page_change": -4
    },
@@ -41,13 +41,13 @@
    "verdict": "OPEN THIS \u2014 tier-1 advisory page moved; content not auto-parsed, read it manually"
   },
   {
-   "score": 65.3,
+   "score": 62.0,
    "components": {
     "tier": 40,
     "category": 12,
     "lead": 3.6,
     "relevance": 0,
-    "freshness": 19.7,
+    "freshness": 16.4,
     "undated": -6,
     "page_change": -4
    },
@@ -75,13 +75,49 @@
    "verdict": "OPEN THIS \u2014 tier-1 airline page moved; content not auto-parsed, read it manually"
   },
   {
-   "score": 100.2,
+   "score": 103.0,
+   "components": {
+    "tier": 40,
+    "category": 32,
+    "lead": 1.2,
+    "relevance": 16,
+    "freshness": 19.8,
+    "undated": -6
+   },
+   "keywords": [
+    "advisory",
+    "flight"
+   ],
+   "shock_terms": [],
+   "dedupe_match": null,
+   "dedupe_similarity": 0.25,
+   "id": "b7b5749788d6",
+   "title": "Cyprus - Level 1: Exercise Normal Precautions",
+   "url": "https://travel.state.gov/content/tsg_aem/us/en/home/international-travel/travel-advisories/destination.cyp.html",
+   "summary": "Exercise normal precaution in Cyprus . Some areas have increased risk. Read the entire Travel Advisory. Cyprus is generally a safe destination for travelers. United Nations Buffer Zone Do not try to enter the United Nations buffer zone anywhere other than a designated crossing point. Police and UN peacekeeping forces strictly enforce this restriction. Armed Conflict Following the onset of hostilit",
+   "kind": "item",
+   "source": "US State Dept travel advisories (EA feed)",
+   "source_id": "adv-us-ea",
+   "tier": 1,
+   "country": "REG",
+   "category": "advisory",
+   "segments": [
+    "city",
+    "bush",
+    "beach"
+   ],
+   "first_seen": "2026-08-14T21:11+03:00",
+   "published": null,
+   "verdict": "STRONG \u2014 tier-1, upstream"
+  },
+  {
+   "score": 96.8,
    "components": {
     "tier": 20,
     "category": 14,
     "lead": 8.4,
     "relevance": 28,
-    "freshness": 19.8,
+    "freshness": 16.4,
     "corroborated": 10
    },
    "keywords": [
@@ -114,13 +150,51 @@
    "verdict": "CONSIDER"
   },
   {
-   "score": 95.8,
+   "score": 96.2,
+   "components": {
+    "tier": 20,
+    "category": 14,
+    "lead": 8.4,
+    "relevance": 24,
+    "freshness": 19.8,
+    "corroborated": 10
+   },
+   "keywords": [
+    "vat",
+    "route",
+    "airline",
+    "flight"
+   ],
+   "shock_terms": [],
+   "dedupe_match": null,
+   "dedupe_similarity": 0.0,
+   "id": "80719035202e",
+   "title": "Jeju Air Plans Seoul \u2013 Batam Service Resumption in late-2026",
+   "url": "https://www.aeroroutes.com/eng/260814-7cnw26bth",
+   "summary": "Published at 1100PDT / 1800GMT 14AUG26 Jeju Air during Northern winter 2026/27 season plans to resume Seoul Incheon \u2013 Batam route, with first flight available for reservations scheduled on 23DEC26 at the earliest. Upon service resumption, the airline operates 2 weekly flights with 737-800. 7C2701 ICN1755 \u2013 2305BTH 738 36 7C2702 BTH0005 \u2013 0835ICN 738 47",
+   "kind": "item",
+   "source": "AeroRoutes schedule filings",
+   "source_id": "aeroroutes",
+   "tier": 2,
+   "country": "GLOBAL",
+   "category": "aviation-tracker",
+   "segments": [
+    "city",
+    "bush",
+    "beach"
+   ],
+   "first_seen": "2026-08-14T21:11+03:00",
+   "published": "2026-08-14",
+   "verdict": "CONSIDER"
+  },
+  {
+   "score": 92.5,
    "components": {
     "tier": 20,
     "category": 14,
     "lead": 8.4,
     "relevance": 28,
-    "freshness": 15.4,
+    "freshness": 12.1,
     "corroborated": 10
    },
    "keywords": [
@@ -170,6 +244,179 @@
    "shock_terms": [],
    "dedupe_match": null,
    "dedupe_similarity": 0.0,
+   "id": "0784a0bb1512",
+   "title": "Parata Air NW26 Sapporo Service Increases",
+   "url": "https://www.aeroroutes.com/eng/260814-wenw26cts",
+   "summary": "Published at 1000PDT / 1700GMT 14AUG26 Korean carrier Parata Air during Northern winter 2026/27 season schedules service increase to Hokkaido, as the airline schedules 7 weekly Seoul Incheon \u2013 Sapporo New Chitose flights, during the period of 25DEC26 \u2013 04FEB27, instead of 5 weekly. Airbus A330-200 aircraft operates this route. WE531 ICN1005 \u2013 1245CTS 332 D WE532 CTS1405 \u2013 1730ICN 332 D",
+   "kind": "item",
+   "source": "AeroRoutes schedule filings",
+   "source_id": "aeroroutes",
+   "tier": 2,
+   "country": "GLOBAL",
+   "category": "aviation-tracker",
+   "segments": [
+    "city",
+    "bush",
+    "beach"
+   ],
+   "first_seen": "2026-08-14T21:11+03:00",
+   "published": "2026-08-14",
+   "verdict": "CONSIDER"
+  },
+  {
+   "score": 88.2,
+   "components": {
+    "tier": 20,
+    "category": 14,
+    "lead": 8.4,
+    "relevance": 16,
+    "freshness": 19.8,
+    "corroborated": 10
+   },
+   "keywords": [
+    "route",
+    "airline",
+    "flight"
+   ],
+   "shock_terms": [],
+   "dedupe_match": null,
+   "dedupe_similarity": 0.0,
+   "id": "5a8452253aad",
+   "title": "VietJet Air Adds Da Nang \u2013 Osaka From late-Dec 2026",
+   "url": "https://www.aeroroutes.com/eng/260814-vjdec26dadkix",
+   "summary": "Published at 0900PDT / 1600GMT 14AUG26 VietJet Air during Northern winter 2026/27 season plans to launch new service to Japan, as the airline schedules Da Nang \u2013 Osaka Kansai flights. From 20DEC26, Airbus A321 aircraft to serve this route 4 times weekly. VJ922 DAD0230 \u2013 0850KIX 321 x135 VJ923 KIX1010 \u2013 1345DAD 321 x135",
+   "kind": "item",
+   "source": "AeroRoutes schedule filings",
+   "source_id": "aeroroutes",
+   "tier": 2,
+   "country": "GLOBAL",
+   "category": "aviation-tracker",
+   "segments": [
+    "city",
+    "bush",
+    "beach"
+   ],
+   "first_seen": "2026-08-14T21:11+03:00",
+   "published": "2026-08-14",
+   "verdict": "CONSIDER"
+  },
+  {
+   "score": 87.0,
+   "components": {
+    "tier": 40,
+    "category": 32,
+    "lead": 1.2,
+    "relevance": 0,
+    "freshness": 19.8,
+    "undated": -6
+   },
+   "keywords": [],
+   "shock_terms": [],
+   "dedupe_match": null,
+   "dedupe_similarity": 0.07,
+   "id": "c648a823657a",
+   "title": "French Saint Martin - Level 1: Exercise Normal Precautions",
+   "url": "https://travel.state.gov/content/tsg_aem/us/en/home/international-travel/travel-advisories/destination.maf.html",
+   "summary": "Exercise normal precaution in French Saint Martin . French Saint Martin is generally a safe destination for travelers. French Saint Martin regularly experiences hurricanes. Review our information on Weather and Natural Disasters in French Saint Martin. Review our Travel Guidance for French Saint Martin to learn how to prepare for a safe trip.",
+   "kind": "item",
+   "source": "US State Dept travel advisories (EA feed)",
+   "source_id": "adv-us-ea",
+   "tier": 1,
+   "country": "REG",
+   "category": "advisory",
+   "segments": [
+    "city",
+    "bush",
+    "beach"
+   ],
+   "first_seen": "2026-08-14T21:11+03:00",
+   "published": null,
+   "verdict": "CONSIDER"
+  },
+  {
+   "score": 87.0,
+   "components": {
+    "tier": 40,
+    "category": 32,
+    "lead": 1.2,
+    "relevance": 0,
+    "freshness": 19.8,
+    "undated": -6
+   },
+   "keywords": [],
+   "shock_terms": [],
+   "dedupe_match": null,
+   "dedupe_similarity": 0.07,
+   "id": "d8c914ab4712",
+   "title": "Australia - Level 1: Exercise Normal Precautions",
+   "url": "https://travel.state.gov/content/tsg_aem/us/en/home/international-travel/travel-advisories/destination.aus.html",
+   "summary": "Exercise normal precaution in Australia . Australia is generally a safe destination for travelers. Review our Travel Guidance for Australia to learn how to prepare for a safe trip.",
+   "kind": "item",
+   "source": "US State Dept travel advisories (EA feed)",
+   "source_id": "adv-us-ea",
+   "tier": 1,
+   "country": "REG",
+   "category": "advisory",
+   "segments": [
+    "city",
+    "bush",
+    "beach"
+   ],
+   "first_seen": "2026-08-14T21:11+03:00",
+   "published": null,
+   "verdict": "CONSIDER"
+  },
+  {
+   "score": 87.0,
+   "components": {
+    "tier": 40,
+    "category": 32,
+    "lead": 1.2,
+    "relevance": 0,
+    "freshness": 19.8,
+    "undated": -6
+   },
+   "keywords": [],
+   "shock_terms": [],
+   "dedupe_match": null,
+   "dedupe_similarity": 0.07,
+   "id": "e5b53c63186e",
+   "title": "British Virgin Islands - Level 1: Exercise Normal Precautions",
+   "url": "https://travel.state.gov/content/tsg_aem/us/en/home/international-travel/travel-advisories/destination.vgb.html",
+   "summary": "Exercise normal precaution in the British Virgin Islands . British Virgin Islands is generally a safe destination for travelers. British Virgin Islands regularly experiences hurricanes. Review our information on W eather and Natural Disasters in British Virgin Islands. Review our Travel Guidance for British Virgin Islands to learn how to prepare for a safe trip.",
+   "kind": "item",
+   "source": "US State Dept travel advisories (EA feed)",
+   "source_id": "adv-us-ea",
+   "tier": 1,
+   "country": "REG",
+   "category": "advisory",
+   "segments": [
+    "city",
+    "bush",
+    "beach"
+   ],
+   "first_seen": "2026-08-14T21:11+03:00",
+   "published": null,
+   "verdict": "CONSIDER"
+  },
+  {
+   "score": 84.8,
+   "components": {
+    "tier": 20,
+    "category": 14,
+    "lead": 8.4,
+    "relevance": 16,
+    "freshness": 16.4,
+    "corroborated": 10
+   },
+   "keywords": [
+    "route",
+    "airline",
+    "flight"
+   ],
+   "shock_terms": [],
+   "dedupe_match": null,
+   "dedupe_similarity": 0.0,
    "id": "61e5ff98a52a",
    "title": "Thai VietJet Air NW26 Bangkok \u2013 Osaka Service Increases",
    "url": "https://www.aeroroutes.com/eng/260814-vjnw26kix",
@@ -190,13 +437,13 @@
    "verdict": "CONSIDER"
   },
   {
-   "score": 84.2,
+   "score": 80.8,
    "components": {
     "tier": 20,
     "category": 14,
     "lead": 8.4,
     "relevance": 12,
-    "freshness": 19.8,
+    "freshness": 16.4,
     "corroborated": 10
    },
    "keywords": [
@@ -226,13 +473,13 @@
    "verdict": "CONSIDER"
   },
   {
-   "score": 84.2,
+   "score": 80.8,
    "components": {
     "tier": 20,
     "category": 14,
     "lead": 8.4,
     "relevance": 12,
-    "freshness": 19.8,
+    "freshness": 16.4,
     "corroborated": 10
    },
    "keywords": [
@@ -262,13 +509,13 @@
    "verdict": "CONSIDER"
   },
   {
-   "score": 83.8,
+   "score": 80.5,
    "components": {
     "tier": 20,
     "category": 14,
     "lead": 8.4,
     "relevance": 16,
-    "freshness": 15.4,
+    "freshness": 12.1,
     "corroborated": 10
    },
    "keywords": [
@@ -299,13 +546,13 @@
    "verdict": "CONSIDER"
   },
   {
-   "score": 83.2,
+   "score": 79.9,
    "components": {
     "tier": 40,
     "category": 9,
     "lead": 16.8,
     "relevance": 8,
-    "freshness": 15.4,
+    "freshness": 12.1,
     "undated": -6
    },
    "keywords": [
@@ -335,13 +582,13 @@
    "verdict": "CONSIDER"
   },
   {
-   "score": 81.3,
+   "score": 78.0,
    "components": {
     "tier": 40,
     "category": 24,
     "lead": 3.6,
     "relevance": 0,
-    "freshness": 19.7,
+    "freshness": 16.4,
     "undated": -6
    },
    "keywords": [],
@@ -368,13 +615,13 @@
    "verdict": "CONSIDER"
   },
   {
-   "score": 80.2,
+   "score": 76.8,
    "components": {
     "tier": 40,
     "category": 24,
     "lead": 2.4,
     "relevance": 0,
-    "freshness": 19.8,
+    "freshness": 16.4,
     "undated": -6
    },
    "keywords": [],
@@ -401,13 +648,13 @@
    "verdict": "CONSIDER"
   },
   {
-   "score": 80.2,
+   "score": 76.8,
    "components": {
     "tier": 40,
     "category": 24,
     "lead": 2.4,
     "relevance": 0,
-    "freshness": 19.8,
+    "freshness": 16.4,
     "undated": -6
    },
    "keywords": [],
@@ -434,13 +681,13 @@
    "verdict": "CONSIDER"
   },
   {
-   "score": 80.2,
+   "score": 76.8,
    "components": {
     "tier": 40,
     "category": 24,
     "lead": 2.4,
     "relevance": 0,
-    "freshness": 19.8,
+    "freshness": 16.4,
     "undated": -6
    },
    "keywords": [],
@@ -467,13 +714,13 @@
    "verdict": "CONSIDER"
   },
   {
-   "score": 80.2,
+   "score": 76.8,
    "components": {
     "tier": 40,
     "category": 24,
     "lead": 2.4,
     "relevance": 0,
-    "freshness": 19.8,
+    "freshness": 16.4,
     "undated": -6
    },
    "keywords": [],
@@ -500,13 +747,13 @@
    "verdict": "CONSIDER"
   },
   {
-   "score": 80.1,
+   "score": 76.8,
    "components": {
     "tier": 40,
     "category": 24,
     "lead": 2.4,
     "relevance": 0,
-    "freshness": 19.7,
+    "freshness": 16.4,
     "undated": -6
    },
    "keywords": [],
@@ -532,13 +779,48 @@
    "verdict": "CONSIDER"
   },
   {
-   "score": 79.8,
+   "score": 76.5,
+   "components": {
+    "tier": 40,
+    "category": 24,
+    "lead": 2.4,
+    "relevance": 4,
+    "freshness": 12.1,
+    "undated": -6
+   },
+   "keywords": [
+    "investment"
+   ],
+   "shock_terms": [],
+   "dedupe_match": null,
+   "dedupe_similarity": 0.17,
+   "id": "c290acab5770",
+   "title": "Accelerating Strategic Investments in Kenya\u2019s Health Infrastructure",
+   "url": "https://www.health.go.ke/accelerating-strategic-investments-kenyas-health-infrastructure",
+   "summary": "",
+   "kind": "item",
+   "source": "Kenya Ministry of Health",
+   "source_id": "ke-moh",
+   "tier": 1,
+   "country": "KE",
+   "category": "health",
+   "segments": [
+    "city",
+    "bush",
+    "beach"
+   ],
+   "first_seen": "2026-08-14T14:11+03:00",
+   "published": null,
+   "verdict": "CONSIDER"
+  },
+  {
+   "score": 76.4,
    "components": {
     "tier": 20,
     "category": 4,
     "lead": 0.0,
     "relevance": 24,
-    "freshness": 19.8,
+    "freshness": 16.4,
     "undated": -6,
     "shock": 18
    },
@@ -571,13 +853,13 @@
    "verdict": "CONSIDER"
   },
   {
-   "score": 79.8,
+   "score": 76.4,
    "components": {
     "tier": 20,
     "category": 4,
     "lead": 0.0,
     "relevance": 24,
-    "freshness": 19.8,
+    "freshness": 16.4,
     "undated": -6,
     "shock": 18
    },
@@ -610,48 +892,13 @@
    "verdict": "CONSIDER"
   },
   {
-   "score": 79.8,
-   "components": {
-    "tier": 40,
-    "category": 24,
-    "lead": 2.4,
-    "relevance": 4,
-    "freshness": 15.4,
-    "undated": -6
-   },
-   "keywords": [
-    "investment"
-   ],
-   "shock_terms": [],
-   "dedupe_match": null,
-   "dedupe_similarity": 0.17,
-   "id": "c290acab5770",
-   "title": "Accelerating Strategic Investments in Kenya\u2019s Health Infrastructure",
-   "url": "https://www.health.go.ke/accelerating-strategic-investments-kenyas-health-infrastructure",
-   "summary": "",
-   "kind": "item",
-   "source": "Kenya Ministry of Health",
-   "source_id": "ke-moh",
-   "tier": 1,
-   "country": "KE",
-   "category": "health",
-   "segments": [
-    "city",
-    "bush",
-    "beach"
-   ],
-   "first_seen": "2026-08-14T14:11+03:00",
-   "published": null,
-   "verdict": "CONSIDER"
-  },
-  {
-   "score": 75.8,
+   "score": 72.5,
    "components": {
     "tier": 20,
     "category": 14,
     "lead": 8.4,
     "relevance": 8,
-    "freshness": 15.4,
+    "freshness": 12.1,
     "corroborated": 10
    },
    "keywords": [
@@ -681,13 +928,13 @@
    "verdict": "CONSIDER"
   },
   {
-   "score": 75.8,
+   "score": 72.5,
    "components": {
     "tier": 40,
     "category": 24,
     "lead": 2.4,
     "relevance": 0,
-    "freshness": 15.4,
+    "freshness": 12.1,
     "undated": -6
    },
    "keywords": [],
@@ -714,13 +961,13 @@
    "verdict": "CONSIDER"
   },
   {
-   "score": 75.2,
+   "score": 71.9,
    "components": {
     "tier": 40,
     "category": 9,
     "lead": 16.8,
     "relevance": 0,
-    "freshness": 15.4,
+    "freshness": 12.1,
     "undated": -6
    },
    "keywords": [],
@@ -745,13 +992,13 @@
    "verdict": "CONSIDER"
   },
   {
-   "score": 74.4,
+   "score": 71.0,
    "components": {
     "tier": 20,
     "category": 5,
     "lead": 3.6,
     "relevance": 16,
-    "freshness": 19.8,
+    "freshness": 16.4,
     "corroborated": 10
    },
    "keywords": [
@@ -783,13 +1030,13 @@
    "verdict": "CONSIDER"
   },
   {
-   "score": 74.4,
+   "score": 71.0,
    "components": {
     "tier": 20,
     "category": 5,
     "lead": 3.6,
     "relevance": 16,
-    "freshness": 19.8,
+    "freshness": 16.4,
     "corroborated": 10
    },
    "keywords": [
@@ -820,13 +1067,13 @@
    "verdict": "CONSIDER"
   },
   {
-   "score": 73.2,
+   "score": 69.9,
    "components": {
     "tier": 40,
     "category": 7,
     "lead": 16.8,
     "relevance": 0,
-    "freshness": 15.4,
+    "freshness": 12.1,
     "undated": -6
    },
    "keywords": [],
@@ -850,16 +1097,16 @@
    ],
    "first_seen": "2026-08-14T14:10+03:00",
    "published": null,
-   "verdict": "CONSIDER"
+   "verdict": "weak"
   },
   {
-   "score": 71.8,
+   "score": 68.5,
    "components": {
     "tier": 20,
     "category": 14,
     "lead": 8.4,
     "relevance": 4,
-    "freshness": 15.4,
+    "freshness": 12.1,
     "corroborated": 10
    },
    "keywords": [
@@ -885,16 +1132,52 @@
    ],
    "first_seen": "2026-08-14T14:11+03:00",
    "published": "2026-08-14",
-   "verdict": "CONSIDER"
+   "verdict": "weak"
   },
   {
-   "score": 70.4,
+   "score": 68.0,
+   "components": {
+    "tier": 20,
+    "category": 5,
+    "lead": 1.2,
+    "relevance": 12,
+    "freshness": 19.8,
+    "corroborated": 10
+   },
+   "keywords": [
+    "vat",
+    "flight"
+   ],
+   "shock_terms": [],
+   "dedupe_match": null,
+   "dedupe_similarity": 0.14,
+   "id": "0a9c6d2290e8",
+   "title": "Airlink adds Doha to its network through Qatar Airways codeshare",
+   "url": "https://voyagesafriq.com/2026/08/14/airlink-adds-doha-to-its-network-through-qatar-airways-codeshare",
+   "summary": "Airlink and Qatar Airways will expand their codeshare agreement when the privately owned, South African-based carrier places its code on Qatar Airways-operated flights from 31 August 2026 and begins marketing [\u2026] The post Airlink adds Doha to its network through Qatar Airways codeshare appeared first on Voyages Afriq .",
+   "kind": "item",
+   "source": "VoyagesAfriq",
+   "source_id": "tp-voyagesafriq",
+   "tier": 2,
+   "country": "REG",
+   "category": "trade",
+   "segments": [
+    "city",
+    "bush",
+    "beach"
+   ],
+   "first_seen": "2026-08-14T21:11+03:00",
+   "published": "2026-08-14",
+   "verdict": "weak"
+  },
+  {
+   "score": 67.0,
    "components": {
     "tier": 20,
     "category": 5,
     "lead": 3.6,
     "relevance": 12,
-    "freshness": 19.8,
+    "freshness": 16.4,
     "corroborated": 10
    },
    "keywords": [
@@ -922,16 +1205,16 @@
    ],
    "first_seen": "2026-08-14T18:08+03:00",
    "published": "2026-08-14",
-   "verdict": "CONSIDER"
+   "verdict": "weak"
   },
   {
-   "score": 70.4,
+   "score": 67.0,
    "components": {
     "tier": 20,
     "category": 5,
     "lead": 3.6,
     "relevance": 12,
-    "freshness": 19.8,
+    "freshness": 16.4,
     "corroborated": 10
    },
    "keywords": [
@@ -959,16 +1242,16 @@
    ],
    "first_seen": "2026-08-14T18:08+03:00",
    "published": "2026-08-14",
-   "verdict": "CONSIDER"
+   "verdict": "weak"
   },
   {
-   "score": 70.0,
+   "score": 66.7,
    "components": {
     "tier": 20,
     "category": 9,
     "lead": 3.6,
     "relevance": 12,
-    "freshness": 15.4,
+    "freshness": 12.1,
     "corroborated": 10
    },
    "keywords": [
@@ -994,16 +1277,16 @@
    ],
    "first_seen": "2026-08-14T14:11+03:00",
    "published": "2026-08-14",
-   "verdict": "CONSIDER"
+   "verdict": "weak"
   },
   {
-   "score": 70.0,
+   "score": 66.7,
    "components": {
     "tier": 20,
     "category": 9,
     "lead": 3.6,
     "relevance": 12,
-    "freshness": 15.4,
+    "freshness": 12.1,
     "corroborated": 10
    },
    "keywords": [
@@ -1029,16 +1312,16 @@
    ],
    "first_seen": "2026-08-14T14:11+03:00",
    "published": "2026-08-14",
-   "verdict": "CONSIDER"
+   "verdict": "weak"
   },
   {
-   "score": 69.8,
+   "score": 66.4,
    "components": {
     "tier": 20,
     "category": 4,
     "lead": 0.0,
     "relevance": 16,
-    "freshness": 19.8,
+    "freshness": 16.4,
     "corroborated": 10
    },
    "keywords": [
@@ -1068,13 +1351,13 @@
    "verdict": "weak"
   },
   {
-   "score": 69.8,
+   "score": 66.4,
    "components": {
     "tier": 20,
     "category": 4,
     "lead": 0.0,
     "relevance": 16,
-    "freshness": 19.8,
+    "freshness": 16.4,
     "corroborated": 10
    },
    "keywords": [
@@ -1104,13 +1387,13 @@
    "verdict": "weak"
   },
   {
-   "score": 69.3,
+   "score": 66.0,
    "components": {
     "tier": 40,
     "category": 12,
     "lead": 3.6,
     "relevance": 0,
-    "freshness": 19.7,
+    "freshness": 16.4,
     "undated": -6
    },
    "keywords": [],
@@ -1134,288 +1417,6 @@
    ],
    "first_seen": "2026-08-14T18:08+03:00",
    "published": null,
-   "verdict": "weak"
-  },
-  {
-   "score": 67.8,
-   "components": {
-    "tier": 20,
-    "category": 14,
-    "lead": 8.4,
-    "relevance": 0,
-    "freshness": 15.4,
-    "corroborated": 10
-   },
-   "keywords": [],
-   "shock_terms": [],
-   "dedupe_match": null,
-   "dedupe_similarity": 0.07,
-   "id": "03aa7c36d95c",
-   "title": "Air India NW26 Delhi \u2013 London / Paris Service Changes",
-   "url": "https://www.aeroroutes.com/eng/260814-ainw26lhrcdg",
-   "summary": "Published at 0400PDT / 1100GMT 14AUG26 Air India in the last few days filed service changes for London and Paris for Northern winter 2026/27 season. Planned changes include the following. Delhi \u2013 London Heathrow eff 25OCT26 A350-900 service increases from 7 to 11 weekly (Overall 28 weekly) AI161 DEL0055 \u2013 0635LHR 359 D AI111 DEL0550 \u2013 1130LHR 789 D AI2017 DEL1340 \u2013 1920LHR 789 D AI2015 DEL1450 \u2013 2",
-   "kind": "item",
-   "source": "AeroRoutes schedule filings",
-   "source_id": "aeroroutes",
-   "tier": 2,
-   "country": "GLOBAL",
-   "category": "aviation-tracker",
-   "segments": [
-    "city",
-    "bush",
-    "beach"
-   ],
-   "first_seen": "2026-08-14T14:11+03:00",
-   "published": "2026-08-14",
-   "verdict": "weak"
-  },
-  {
-   "score": 67.4,
-   "components": {
-    "tier": 20,
-    "category": 4,
-    "lead": 0.0,
-    "relevance": 0,
-    "freshness": 15.4,
-    "corroborated": 10,
-    "shock": 18
-   },
-   "keywords": [],
-   "shock_terms": [
-    "attack"
-   ],
-   "dedupe_match": null,
-   "dedupe_similarity": 0.0,
-   "id": "8d6216df3d36",
-   "title": "Three prison officers injured, two guns stolen in Kyegegwa prison attack",
-   "url": "https://www.monitor.co.ug/uganda/news/national/three-prison-officers-injured-two-guns-stolen-in-kyegegwa-prison-attack-5557460",
-   "summary": "The attack occurred at approximately 1am when the group targeted the facility in western...",
-   "kind": "item",
-   "source": "Daily Monitor (Uganda)",
-   "source_id": "np-monitor-ug",
-   "tier": 2,
-   "country": "UG",
-   "category": "press",
-   "segments": [
-    "city",
-    "bush",
-    "beach"
-   ],
-   "first_seen": "2026-08-14T14:11+03:00",
-   "published": "2026-08-14",
-   "verdict": "weak"
-  },
-  {
-   "score": 66.4,
-   "components": {
-    "tier": 20,
-    "category": 5,
-    "lead": 3.6,
-    "relevance": 8,
-    "freshness": 19.8,
-    "corroborated": 10
-   },
-   "keywords": [
-    "hotel",
-    "tourism"
-   ],
-   "shock_terms": [],
-   "dedupe_match": null,
-   "dedupe_similarity": 0.0,
-   "id": "dd8671d86bbb",
-   "title": "Tourism 2030: A Better, More Accessible Travel Experience for the Middle East",
-   "url": "https://www.hospitalitynet.org/opinion/4133964/tourism-2030-a-better-more-accessible-travel-experience-for-the-middle-east",
-   "summary": "Market Managing Director at Wyndham argues that midscale and lifestyle hotels, not luxury, will form the backbone of Tourism 2030 delivery across the UAE and Saudi Arabia as demand shifts toward domestic and regional travellers.",
-   "kind": "item",
-   "source": "Hospitality Net \u2014 Africa announcements",
-   "source_id": "dev-hospitalitynet-africa",
-   "tier": 2,
-   "country": "REG",
-   "category": "trade",
-   "segments": [
-    "city",
-    "bush",
-    "beach"
-   ],
-   "first_seen": "2026-08-14T18:08+03:00",
-   "published": "2026-08-14",
-   "verdict": "weak"
-  },
-  {
-   "score": 66.4,
-   "components": {
-    "tier": 20,
-    "category": 5,
-    "lead": 3.6,
-    "relevance": 8,
-    "freshness": 19.8,
-    "corroborated": 10
-   },
-   "keywords": [
-    "hotel",
-    "operator"
-   ],
-   "shock_terms": [],
-   "dedupe_match": null,
-   "dedupe_similarity": 0.0,
-   "id": "bcd9dcf69d9e",
-   "title": "USALI at 100: How a Century-Old Standard Keeps Evolving with Hospitality",
-   "url": "https://www.hospitalitynet.org/opinion/4133957/usali-at-100-how-a-century-old-standard-keeps-evolving-with-hospitality",
-   "summary": "The USALI 12th Revised Edition modernizes hotel accounting standards with new schedules for energy/waste, labor, and channel distribution, and offers practical tools for vacation rental operators too.",
-   "kind": "item",
-   "source": "Hospitality Net \u2014 Africa announcements",
-   "source_id": "dev-hospitalitynet-africa",
-   "tier": 2,
-   "country": "REG",
-   "category": "trade",
-   "segments": [
-    "city",
-    "bush",
-    "beach"
-   ],
-   "first_seen": "2026-08-14T18:08+03:00",
-   "published": "2026-08-14",
-   "verdict": "weak"
-  },
-  {
-   "score": 66.4,
-   "components": {
-    "tier": 20,
-    "category": 5,
-    "lead": 3.6,
-    "relevance": 8,
-    "freshness": 19.8,
-    "corroborated": 10
-   },
-   "keywords": [
-    "hotel",
-    "guest"
-   ],
-   "shock_terms": [],
-   "dedupe_match": null,
-   "dedupe_similarity": 0.33,
-   "id": "2a5ccbea5ed7",
-   "title": "Is Time Without a Smartphone Becoming the New Luxury?",
-   "url": "https://www.hospitalitynet.org/opinion/4133956/is-time-without-a-smartphone-becoming-the-new-luxury",
-   "summary": "Drawing on peer-reviewed research, the author argues luxury hotels should shift from constant connectivity to \"considerate connectivity,\" giving guests control over their attention rather than banning smartphones outright.",
-   "kind": "item",
-   "source": "Hospitality Net \u2014 Africa announcements",
-   "source_id": "dev-hospitalitynet-africa",
-   "tier": 2,
-   "country": "REG",
-   "category": "trade",
-   "segments": [
-    "city",
-    "bush",
-    "beach"
-   ],
-   "first_seen": "2026-08-14T18:08+03:00",
-   "published": "2026-08-14",
-   "verdict": "weak"
-  },
-  {
-   "score": 66.4,
-   "components": {
-    "tier": 20,
-    "category": 5,
-    "lead": 3.6,
-    "relevance": 8,
-    "freshness": 19.8,
-    "corroborated": 10
-   },
-   "keywords": [
-    "hotel",
-    "booking"
-   ],
-   "shock_terms": [],
-   "dedupe_match": null,
-   "dedupe_similarity": 0.14,
-   "id": "67aa04fb74a3",
-   "title": "How Hotels Get Recommended by AI Agents before Their Competitors Do",
-   "url": "https://www.hospitalitynet.org/opinion/4133481/how-hotels-get-recommended-by-ai-agents-before-their-competitors-do",
-   "summary": "Hotels risk being invisible to AI booking agents unless they address five readiness layers: machine-legible data, rate parity, reputation signals, specific positioning, and protocol presence.",
-   "kind": "item",
-   "source": "Hospitality Net \u2014 Africa announcements",
-   "source_id": "dev-hospitalitynet-africa",
-   "tier": 2,
-   "country": "REG",
-   "category": "trade",
-   "segments": [
-    "city",
-    "bush",
-    "beach"
-   ],
-   "first_seen": "2026-08-14T18:08+03:00",
-   "published": "2026-08-14",
-   "verdict": "weak"
-  },
-  {
-   "score": 66.0,
-   "components": {
-    "tier": 20,
-    "category": 9,
-    "lead": 3.6,
-    "relevance": 8,
-    "freshness": 15.4,
-    "corroborated": 10
-   },
-   "keywords": [
-    "route"
-   ],
-   "shock_terms": [],
-   "dedupe_match": null,
-   "dedupe_similarity": 0.07,
-   "id": "125a7bc5e633",
-   "title": "Supporting ABTA members to make the most of apprenticeships",
-   "url": "https://www.abta.com/news/supporting-abta-members-make-most-apprenticeships",
-   "summary": "Supporting ABTA members to make the most of apprenticeships Full Page image dhewitt@abta.co.uk Thu, 08/13/2026 - 09:01 As businesses across travel continue to face skills and recruitment challenges, apprenticeships can play an increasingly important role in building a strong workforce for the future. They provide a practical route into the industry for new talent, while helping employers develop t",
-   "kind": "item",
-   "source": "ABTA (UK) news",
-   "source_id": "sm-abta",
-   "tier": 2,
-   "country": "GLOBAL",
-   "category": "source-market",
-   "segments": [
-    "city",
-    "bush",
-    "beach"
-   ],
-   "first_seen": "2026-08-14T14:11+03:00",
-   "published": "2026-08-13",
-   "verdict": "weak"
-  },
-  {
-   "score": 66.0,
-   "components": {
-    "tier": 20,
-    "category": 9,
-    "lead": 3.6,
-    "relevance": 8,
-    "freshness": 15.4,
-    "corroborated": 10
-   },
-   "keywords": [
-    "route"
-   ],
-   "shock_terms": [],
-   "dedupe_match": null,
-   "dedupe_similarity": 0.0,
-   "id": "7e40edc79bd8",
-   "title": "Neue Fr\u00fchjahrsroute der Aida Luna: Aida macht Transatlantik-Routen 2028 buchbar",
-   "url": "https://www.fvw.de/touristik/kreuzfahrt/neue-fruehjahrsroute-der-aida-luna-aida-macht-transatlantik-routen-2028-buchbar-263785",
-   "summary": "Im Fr\u00fchjahr 2028 wechselt die Aida Luna von ihrem Winterfahrgebiet in der Karibik nach Nordeuropa. Die Transatlantik-Tour teilt Aida in zwei Abschnitte \u2013 und bereist in dieser Zeit zuvor noch nicht angesteuerte Regionen.",
-   "kind": "item",
-   "source": "FVW / German travel trade",
-   "source_id": "sm-derreise",
-   "tier": 2,
-   "country": "GLOBAL",
-   "category": "source-market",
-   "segments": [
-    "beach",
-    "bush"
-   ],
-   "first_seen": "2026-08-14T14:11+03:00",
-   "published": "2026-08-14",
    "verdict": "weak"
   }
  ]
