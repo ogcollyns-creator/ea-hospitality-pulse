@@ -1,36 +1,36 @@
-# Radar candidates — evening slot
-_Window opens Sat 15 Aug 13:00 EAT · 240 observations in window · 7 headlines deduped against_
+# Radar candidates — morning slot
+_Window opens Sat 15 Aug 18:00 EAT · 128 observations in window · 7 headlines deduped against_
 
 Ranked by first-seen recency, source tier and hospitality relevance. `first seen` is when the radar observed the item, which is the date the recency gate runs on. `published` is what the source claims — where the two disagree, the disagreement is the story.
 
-### 🚨 [65.4] [page changed] Jambojet media
+### 🚨 [65.3] [page changed] Airlink news
+- **Verdict:** OPEN THIS — tier-1 airline page moved; content not auto-parsed, read it manually
+- **Source:** Airlink news · tier 1 · REG · airline
+- **First seen:** 2026-08-16T01:52+03:00 EAT · **Source date:** — none stated
+- **URL:** https://www.flyairlink.com/
+- **Extract:** Request unsuccessful. Incapsula incident ID: 1012000040962119463-541458615743283502
+- **Score parts:** tier +40, category +12, lead +3.6, relevance +0, freshness +19.7, undated -6, page_change -4
+
+### 🚨 [63.1] [page changed] Jambojet media
 - **Verdict:** OPEN THIS — tier-1 airline page moved; content not auto-parsed, read it manually
 - **Source:** Jambojet media · tier 1 · KE · airline
 - **First seen:** 2026-08-15T23:52+03:00 EAT · **Source date:** — none stated
 - **URL:** https://www.jambojet.com/en/press-release
 - **Extract:** Request unsuccessful. Incapsula incident ID: 2100000730347079077-103526815258382918
-- **Score parts:** tier +40, category +12, lead +3.6, relevance +0, freshness +19.8, undated -6, page_change -4
+- **Score parts:** tier +40, category +12, lead +3.6, relevance +0, freshness +17.5, undated -6, page_change -4
 
-### 🚨 [57.5] [page changed] Jambojet media
-- **Verdict:** OPEN THIS — tier-1 airline page moved; content not auto-parsed, read it manually
-- **Source:** Jambojet media · tier 1 · KE · airline
-- **First seen:** 2026-08-15T16:41+03:00 EAT · **Source date:** — none stated
-- **URL:** https://www.jambojet.com/en/press-release
-- **Extract:** Request unsuccessful. Incapsula incident ID: 731000760215991005-175838185939211011
-- **Score parts:** tier +40, category +12, lead +3.6, relevance +0, freshness +11.9, undated -6, page_change -4
-
-### 🟡 [81.2] Beijing Capital Resumes Vancouver Service in Oct 2026
+### 🟡 [88.2] Etihad Cancels Asmara 4Q26 Launch; Africa/China 1Q27 Launch Revision
 - **Verdict:** CONSIDER
 - **Source:** AeroRoutes schedule filings · tier 2 · GLOBAL · aviation-tracker
-- **First seen:** 2026-08-15T13:51+03:00 EAT · **Source date:** 2026-08-15
-- **URL:** https://www.aeroroutes.com/eng/260815-jdoct26yvr
-- **Extract:** Published at 0100PDT / 0800GMT 15AUG26 Beijing Capital Airlines in October 2026 plans to resume service to Canada, as the airline opened reservations for Hangzhou – Qingdao – Vancouver route as of Friday 14AUG26. Airbus A330-300 aircraft to serve this route on
-- **Score parts:** tier +20, category +14, lead +8.4, relevance +20, freshness +8.8, corroborated +10
+- **First seen:** 2026-08-16T01:53+03:00 EAT · **Source date:** 2026-08-16
+- **URL:** https://www.aeroroutes.com/eng/260815-eynw26afas
+- **Extract:** Published at 1500PDT / 2200GMT 15AUG26 Etihad Airways in recent schedule upgrade gradually filed revisions to its planned network expansion to Africa and China from November 2026 and March 2027. Latest update as of 15AUG26 as follows, including cancellation of
+- **Score parts:** tier +20, category +14, lead +8.4, relevance +16, freshness +19.8, corroborated +10
 
-### 🟡 [73.2] United Adds Boston – Jackson Hole in 1Q27
+### 🟡 [72.2] Etihad NW26 US Service Changes – 15AUG26
 - **Verdict:** CONSIDER
 - **Source:** AeroRoutes schedule filings · tier 2 · GLOBAL · aviation-tracker
-- **First seen:** 2026-08-15T13:51+03:00 EAT · **Source date:** 2026-08-15
-- **URL:** https://www.aeroroutes.com/eng/260815-ua1q27bosjac
-- **Extract:** Published at 0200PDT / 0900GMT 15AUG26 United in the first quarter of 2027 schedules new domestic route from Boston, as the carrier schedules 1 weekly Boston – Jackson Hole nonstop flight. Boeing 737-700 aircraft to operate this route from 13FEB27 to 20MAR27. 
-- **Score parts:** tier +20, category +14, lead +8.4, relevance +12, freshness +8.8, corroborated +10
+- **First seen:** 2026-08-16T01:53+03:00 EAT · **Source date:** 2026-08-16
+- **URL:** https://www.aeroroutes.com/eng/260815-eynw26us
+- **Extract:** Published at 1415PDT / 2115GMT 15AUG26 Etihad Airways this week filed additional service changes to the US for Northern winter 2026/27 season. Planned service changes as of 15AUG26 includes the following. Abu Dhabi – Atlanta eff 13DEC26 Reduce from 7 to 5 week
+- **Score parts:** tier +20, category +14, lead +8.4, relevance +0, freshness +19.8, corroborated +10
