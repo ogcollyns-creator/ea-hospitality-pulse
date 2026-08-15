@@ -1,6 +1,6 @@
 {
- "generated": "2026-08-15T07:14+03:00",
- "health": 0.467,
+ "generated": "2026-08-15T08:39+03:00",
+ "health": 0.5,
  "grade": "D",
  "fails": [
   "source coverage",
@@ -10,7 +10,6 @@
  ],
  "warns": [
   "signal quality",
-  "data freshness",
   "rate-index integrity"
  ],
  "checks": [
@@ -31,7 +30,7 @@
   {
    "name": "radar feed freshness",
    "status": "PASS",
-   "detail": "377 in-window obs; newest observation 1.2h old (2026-08-15T06:05:00+03:00).",
+   "detail": "421 in-window obs; newest observation 0.7h old (2026-08-15T07:55:00+03:00).",
    "fix": "",
    "score": 1.0
   },
@@ -52,16 +51,16 @@
   {
    "name": "ledger hygiene",
    "status": "FAIL",
-   "detail": "78 calls: 66 open, 12 resolved. Overdue-open: 3. Missing source_url: 20.",
-   "fix": "Resolve overdue calls now: P044, P047, P056. Backfill source_url on early calls.",
+   "detail": "81 calls: 67 open, 14 resolved. Overdue-open: 3. Missing source_url: 20.",
+   "fix": "Resolve overdue calls now: P044, P047, P056. ",
    "score": 0.0
   },
   {
    "name": "data freshness",
-   "status": "WARN",
-   "detail": "Stale/again-verify: costs.js 17d>10",
-   "fix": "Re-verify each dataset's values and bump its 'updated:' field, or note it in-edition.",
-   "score": 0.5
+   "status": "PASS",
+   "detail": "All tracked data files within their freshness limits.",
+   "fix": "",
+   "score": 1.0
   },
   {
    "name": "rate-index integrity",
@@ -73,14 +72,14 @@
   {
    "name": "forecast throughput",
    "status": "PASS",
-   "detail": "20 new falsifiable calls logged in last 7d.",
+   "detail": "23 new falsifiable calls logged in last 7d.",
    "fix": "",
    "score": 1.0
   },
   {
    "name": "published content",
    "status": "PASS",
-   "detail": "4 recent editions; no advisory claim contradicts the board.",
+   "detail": "5 recent editions; no advisory claim contradicts the board.",
    "fix": "",
    "score": 1.0
   }
