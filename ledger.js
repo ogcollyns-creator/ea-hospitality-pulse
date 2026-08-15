@@ -1,13 +1,13 @@
 window.LEDGER = {
- "updated": "2026-08-13 08:50",
+ "updated": "2026-08-15 08:15",
  "stats": {
-  "total": 78,
-  "open": 66,
-  "resolved": 12,
-  "correct": 7,
+  "total": 81,
+  "open": 67,
+  "resolved": 14,
+  "correct": 8,
   "partial": 1,
-  "incorrect": 4,
-  "accuracy": 62
+  "incorrect": 5,
+  "accuracy": 61
  },
  "open": [
   {
@@ -24,7 +24,7 @@ window.LEDGER = {
    "resolved_date": "",
    "evidence": "",
    "source_url": "https://www.cdc.gov/port-health/legal-authorities/evdorder.html",
-   "overdue": false
+   "overdue": true
   },
   {
    "id": "P056",
@@ -40,7 +40,7 @@ window.LEDGER = {
    "resolved_date": "",
    "evidence": "",
    "source_url": "https://travel.state.gov/content/travel/en/traveladvisories/traveladvisories/uganda-travel-advisory.html",
-   "overdue": false
+   "overdue": true
   },
   {
    "id": "P047",
@@ -56,7 +56,7 @@ window.LEDGER = {
    "resolved_date": "",
    "evidence": "",
    "source_url": "https://www.cdc.gov/port-health/legal-authorities/evdorder.html",
-   "overdue": false
+   "overdue": true
   },
   {
    "id": "P058",
@@ -72,38 +72,6 @@ window.LEDGER = {
    "resolved_date": "",
    "evidence": "",
    "source_url": "https://www.afro.who.int/health-topics/ebola-disease/outbreak-drc-26",
-   "overdue": false
-  },
-  {
-   "id": "P025",
-   "made_date": "2026-07-27",
-   "edition": "Midday Pulse",
-   "claim": "EPRA's 15 August 2026 review will set Nairobi diesel above Ksh222.86 per litre",
-   "resolution_criteria": "EPRA published maximum retail petroleum price schedule effective 15 Aug 2026 showing Nairobi diesel above Ksh222.86/litre",
-   "resolve_by": "2026-08-16",
-   "market": "KE",
-   "segment": "All",
-   "confidence": "Early signal",
-   "status": "open",
-   "resolved_date": "",
-   "evidence": "",
-   "source_url": "https://www.kenyans.co.ke/news/125567-govt-raises-fuel-price-concerns-ahead-august-epra-review",
-   "overdue": false
-  },
-  {
-   "id": "P028",
-   "made_date": "2026-07-28",
-   "edition": "Morning Brief",
-   "claim": "EPRA's 15 August 2026 review will NOT fully pass through the late-July crude spike — the August Nairobi diesel rise will be under Ksh10 per litre versus the July schedule",
-   "resolution_criteria": "EPRA published maximum retail petroleum price schedule effective 15 Aug 2026 showing Nairobi diesel less than Ksh10/litre above the schedule effective 15 Jul 2026",
-   "resolve_by": "2026-08-16",
-   "market": "KE",
-   "segment": "All",
-   "confidence": "Early signal",
-   "status": "open",
-   "resolved_date": "",
-   "evidence": "",
-   "source_url": "https://www.standardmedia.co.ke/business/financial-standard/article/2001553910/of-fuel-crisis-and-rutos-fresh-headache",
    "overdue": false
   },
   {
@@ -395,6 +363,38 @@ window.LEDGER = {
    "overdue": false
   },
   {
+   "id": "P078",
+   "made_date": "2026-08-15",
+   "edition": "pulse-2026-08-15-morning",
+   "claim": "EPRA's next review effective on/around 15 Sep 2026 will set Nairobi diesel ABOVE KSh217.86/L — the PDL stabilisation kitty is near-depleted and landed petrol costs rose 6.9%, leaving no cushion to repeat the cross-subsidy",
+   "resolution_criteria": "EPRA published maximum retail petroleum price schedule effective on/around 15 Sep 2026 shows Nairobi diesel above KSh217.86/L. If at or below, the call is incorrect",
+   "resolve_by": "2026-09-20",
+   "market": "Kenya",
+   "segment": "Bush/Beach/City",
+   "confidence": "Medium",
+   "status": "open",
+   "resolved_date": "",
+   "evidence": "",
+   "source_url": "https://www.epra.go.ke/",
+   "overdue": false
+  },
+  {
+   "id": "P080",
+   "made_date": "2026-08-15",
+   "edition": "pulse-2026-08-15-morning",
+   "claim": "Kenya's fuel cross-subsidy mechanism will still be in use at the 15 Sep 2026 review — the High Court challenge and MPs' legality objection will not stop it before then",
+   "resolution_criteria": "The EPRA notice for the cycle effective ~15 Sep 2026 again holds one grade flat or cross-subsidised, or explicitly cites stabilisation support. If EPRA prices all three grades to landed cost with no stabilisation, the call is incorrect",
+   "resolve_by": "2026-09-20",
+   "market": "Kenya",
+   "segment": "Bush/Beach/City",
+   "confidence": "Medium",
+   "status": "open",
+   "resolved_date": "",
+   "evidence": "",
+   "source_url": "https://www.epra.go.ke/",
+   "overdue": false
+  },
+  {
    "id": "P017",
    "made_date": "2026-07-26",
    "edition": "Midday Pulse",
@@ -616,6 +616,22 @@ window.LEDGER = {
    "resolved_date": "",
    "evidence": "",
    "source_url": "",
+   "overdue": false
+  },
+  {
+   "id": "P079",
+   "made_date": "2026-08-15",
+   "edition": "pulse-2026-08-15-morning",
+   "claim": "No hospitality-specific NEW tax, levy or rate increase will appear in the final 2026 BROP submitted to Parliament — Treasury closes the FY2027/28 gap through compliance and base-broadening, not a named tourism/accommodation charge",
+   "resolution_criteria": "The final 2026 Budget Review and Outlook Paper (Cabinet ~26 Aug, Parliament thereafter) contains no new or increased tourism, accommodation, catering or tourism-fund levy. If a named hospitality charge appears, the call is incorrect",
+   "resolve_by": "2026-10-31",
+   "market": "Kenya",
+   "segment": "City/Bush/Beach",
+   "confidence": "Medium",
+   "status": "open",
+   "resolved_date": "",
+   "evidence": "",
+   "source_url": "https://www.treasury.go.ke/",
    "overdue": false
   },
   {
@@ -1068,6 +1084,38 @@ window.LEDGER = {
   }
  ],
  "resolved": [
+  {
+   "id": "P025",
+   "made_date": "2026-07-27",
+   "edition": "Midday Pulse",
+   "claim": "EPRA's 15 August 2026 review will set Nairobi diesel above Ksh222.86 per litre",
+   "resolution_criteria": "EPRA published maximum retail petroleum price schedule effective 15 Aug 2026 showing Nairobi diesel above Ksh222.86/litre",
+   "resolve_by": "2026-08-16",
+   "market": "KE",
+   "segment": "All",
+   "confidence": "Early signal",
+   "status": "incorrect",
+   "resolved_date": "2026-08-15",
+   "evidence": "EPRA schedule effective 15 Aug 2026 set Nairobi diesel at KSh217.86/L — a KSh5 FALL from KSh222.86, not a rise above it.",
+   "source_url": "https://www.businessdailyafrica.com/bd/corporate/industry/kenya-fuel-prices-diesel-cost-drops-5558336",
+   "overdue": false
+  },
+  {
+   "id": "P028",
+   "made_date": "2026-07-28",
+   "edition": "Morning Brief",
+   "claim": "EPRA's 15 August 2026 review will NOT fully pass through the late-July crude spike — the August Nairobi diesel rise will be under Ksh10 per litre versus the July schedule",
+   "resolution_criteria": "EPRA published maximum retail petroleum price schedule effective 15 Aug 2026 showing Nairobi diesel less than Ksh10/litre above the schedule effective 15 Jul 2026",
+   "resolve_by": "2026-08-16",
+   "market": "KE",
+   "segment": "All",
+   "confidence": "Early signal",
+   "status": "correct",
+   "resolved_date": "2026-08-15",
+   "evidence": "Nairobi diesel fell KSh5 to KSh217.86 versus the 15 Jul schedule — well inside the \"less than KSh10 above\" threshold. The late-July crude spike was not passed through.",
+   "source_url": "https://www.businessdailyafrica.com/bd/corporate/industry/kenya-fuel-prices-diesel-cost-drops-5558336",
+   "overdue": false
+  },
   {
    "id": "P036",
    "made_date": "2026-07-29",
