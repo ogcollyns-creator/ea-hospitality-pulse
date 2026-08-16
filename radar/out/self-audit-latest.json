@@ -1,5 +1,5 @@
 {
- "generated": "2026-08-16T07:22+03:00",
+ "generated": "2026-08-16T08:38+03:00",
  "health": 0.5,
  "grade": "D",
  "fails": [
@@ -30,7 +30,7 @@
   {
    "name": "radar feed freshness",
    "status": "PASS",
-   "detail": "156 in-window obs; newest observation 1.1h old (2026-08-16T06:16:00+03:00).",
+   "detail": "178 in-window obs; newest observation 2.4h old (2026-08-16T06:16:00+03:00).",
    "fix": "",
    "score": 1.0
   },
@@ -51,8 +51,8 @@
   {
    "name": "ledger hygiene",
    "status": "FAIL",
-   "detail": "81 calls: 67 open, 14 resolved. Overdue-open: 4. Missing source_url: 20.",
-   "fix": "Resolve overdue calls now: P044, P047, P056, P058. ",
+   "detail": "83 calls: 67 open, 16 resolved. Overdue-open: 2. Missing source_url: 20.",
+   "fix": "Resolve overdue calls now: P056, P058. ",
    "score": 0.0
   },
   {
@@ -72,14 +72,14 @@
   {
    "name": "forecast throughput",
    "status": "PASS",
-   "detail": "22 new falsifiable calls logged in last 7d.",
+   "detail": "24 new falsifiable calls logged in last 7d.",
    "fix": "",
    "score": 1.0
   },
   {
    "name": "published content",
    "status": "PASS",
-   "detail": "3 recent editions; no advisory claim contradicts the board.",
+   "detail": "4 recent editions; no advisory claim contradicts the board.",
    "fix": "",
    "score": 1.0
   }
