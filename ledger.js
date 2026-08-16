@@ -1,8 +1,8 @@
 window.LEDGER = {
- "updated": "2026-08-16 13:20",
+ "updated": "2026-08-16 19:20",
  "stats": {
-  "total": 89,
-  "open": 69,
+  "total": 92,
+  "open": 72,
   "resolved": 20,
   "correct": 14,
   "partial": 1,
@@ -280,6 +280,22 @@ window.LEDGER = {
    "resolved_date": "",
    "evidence": "",
    "source_url": "https://www.cdc.gov/port-health/legal-authorities/evdorder.html",
+   "overdue": false
+  },
+  {
+   "id": "P091",
+   "made_date": "2026-08-16",
+   "edition": "pulse-2026-08-16-evening",
+   "claim": "CDC's Travel Health Notices index (wwwnc.cdc.gov/travel/notices) will still carry NO Level 4 Ebola notice on 15 September 2026 while the CDC Ebola situation summary continues to advise avoiding all travel to Ituri and North Kivu — the two surfaces will not be reconciled",
+   "resolution_criteria": "Both CDC pages checked on 15 Sep 2026. If the notices index adds a Level 4 Ebola notice, or the situation summary drops its avoid-all-travel advice for Ituri and North Kivu, the surfaces are reconciled and the call is incorrect",
+   "resolve_by": "2026-09-15",
+   "market": "Regional",
+   "segment": "City/Bush",
+   "confidence": "Medium",
+   "status": "open",
+   "resolved_date": "",
+   "evidence": "",
+   "source_url": "https://wwwnc.cdc.gov/travel/notices",
    "overdue": false
   },
   {
@@ -619,6 +635,22 @@ window.LEDGER = {
    "overdue": false
   },
   {
+   "id": "P089",
+   "made_date": "2026-08-16",
+   "edition": "pulse-2026-08-16-evening",
+   "claim": "Africa CDC will NOT terminate the Public Health Emergency of Continental Security (PHECS) for the Bundibugyo outbreak before 31 October 2026 — the ECG recorded ~100 new cases a day and R(t) consistently above 1 on 14 August",
+   "resolution_criteria": "Africa CDC statement or press release checked on 31 Oct 2026 shows the PHECS declaration still in force. If Africa CDC formally ends the PHECS on or before 31 Oct 2026 the call is incorrect",
+   "resolve_by": "2026-10-31",
+   "market": "Regional",
+   "segment": "Bush/City",
+   "confidence": "High",
+   "status": "open",
+   "resolved_date": "",
+   "evidence": "",
+   "source_url": "https://africacdc.org/news-item/africa-cdc-welcomes-emergency-consultative-group-recommendations-on-ebola-bundibugyo-response/",
+   "overdue": false
+  },
+  {
    "id": "P064",
    "made_date": "2026-08-10",
    "edition": "Evening Wrap",
@@ -952,6 +984,22 @@ window.LEDGER = {
    "resolved_date": "",
    "evidence": "",
    "source_url": "",
+   "overdue": false
+  },
+  {
+   "id": "P090",
+   "made_date": "2026-08-16",
+   "edition": "pulse-2026-08-16-evening",
+   "claim": "Ervebo will NOT receive a WHO or Africa CDC recommendation for routine non-trial mass use against Bundibugyo virus by 31 March 2027 — the ECG found no reliable evidence of clinical efficacy and confined use to trial and compassionate protocols",
+   "resolution_criteria": "WHO SAGE, WHO Ebola guidance or an Africa CDC statement published by 31 Mar 2027 recommending Ervebo for routine (non-trial, non-compassionate) use against Bundibugyo virus. If such a recommendation is issued the call is incorrect",
+   "resolve_by": "2027-03-31",
+   "market": "Regional",
+   "segment": "Bush/City",
+   "confidence": "Medium",
+   "status": "open",
+   "resolved_date": "",
+   "evidence": "",
+   "source_url": "https://africacdc.org/news-item/africa-cdc-welcomes-emergency-consultative-group-recommendations-on-ebola-bundibugyo-response/",
    "overdue": false
   },
   {

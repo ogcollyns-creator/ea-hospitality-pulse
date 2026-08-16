@@ -3385,6 +3385,29 @@
    ],
    "why": "The comment docket that feeds each 30-day renewal decision. Comment counts and content are the only public signal of who is lobbying on the Uganda/DRC entry restrictions - the July 2026 renewal drew zero comments.",
    "frag": ""
+  },
+  {
+   "id": "cdc-ebola-situation-summary",
+   "name": "US CDC Ebola situation summary (policy text)",
+   "url": "https://www.cdc.gov/ebola/situation-summary/index.html",
+   "tier": 1,
+   "country": "GLOBAL",
+   "category": "health",
+   "method": "headless",
+   "cadence_min": 180,
+   "lead_days": 2,
+   "segments": [
+    "city",
+    "bush",
+    "beach"
+   ],
+   "slots": [
+    "morning",
+    "midday",
+    "evening"
+   ],
+   "why": "CDC's narrative travel advice frequently diverges from the machine-readable travel-notices index; the disagreement between the two surfaces is itself an operator story.",
+   "frag": ""
   }
  ]
 }
