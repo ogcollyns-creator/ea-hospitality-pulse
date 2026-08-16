@@ -1,13 +1,13 @@
 window.LEDGER = {
- "updated": "2026-08-16 13:16",
+ "updated": "2026-08-16 16:19",
  "stats": {
-  "total": 86,
-  "open": 67,
-  "resolved": 19,
-  "correct": 13,
+  "total": 89,
+  "open": 69,
+  "resolved": 20,
+  "correct": 14,
   "partial": 1,
   "incorrect": 5,
-  "accuracy": 71
+  "accuracy": 72
  },
  "open": [
   {
@@ -120,22 +120,6 @@ window.LEDGER = {
    "resolved_date": "",
    "evidence": "",
    "source_url": "https://travel.state.gov/content/travel/en/traveladvisories/traveladvisories/kenya-travel-advisory.html",
-   "overdue": false
-  },
-  {
-   "id": "P062",
-   "made_date": "2026-08-10",
-   "edition": "Morning Brief",
-   "claim": "Zanzibar's next OCGS monthly arrivals release (July 2026 data, due ~mid-Aug) will show Europe's share of arrivals above 55% — confirming the structural European concentration flagged in today's Expert Brief persists rather than easing",
-   "resolution_criteria": "OCGS Zanzibar July 2026 arrivals release (published ~mid-to-late Aug 2026) shows Europe >= 55% of total arrivals. If Europe's share prints below 55% the call is incorrect",
-   "resolve_by": "2026-08-31",
-   "market": "ZNZ",
-   "segment": "Beach",
-   "confidence": "Early signal",
-   "status": "open",
-   "resolved_date": "",
-   "evidence": "",
-   "source_url": "https://www.ocgs.go.tz/",
    "overdue": false
   },
   {
@@ -939,6 +923,38 @@ window.LEDGER = {
    "overdue": false
   },
   {
+   "id": "P087",
+   "made_date": "2026-08-16",
+   "edition": "Sunday Foresight",
+   "claim": "No major European tour operator will announce a REDUCTION in committed Zanzibar capacity for Winter 2026/27 or Winter 2027/28 before 31 March 2027 — the channel is softening in aggregate volume, not retreating from this destination",
+   "resolution_criteria": "No announcement by TUI, DER Touristik, Neckermann, Alpitour or comparable European operator of reduced Zanzibar flight or hotel capacity for W26/27 or W27/28, per company newsroom or trade press (TTG, Travel Weekly, Tourism Update), checked 31 Mar 2027. Any announced cut resolves incorrect",
+   "resolve_by": "2027-03-31",
+   "market": "ZNZ",
+   "segment": "Beach",
+   "confidence": "Early signal",
+   "status": "open",
+   "resolved_date": "",
+   "evidence": "",
+   "source_url": "",
+   "overdue": false
+  },
+  {
+   "id": "P088",
+   "made_date": "2026-08-16",
+   "edition": "Sunday Foresight",
+   "claim": "Airlink's Cape Town-Zanzibar Saturday service will still be operating at one or more weekly rotations on 31 March 2027 — regional airlift into Zanzibar sticks rather than proving a seasonal trial",
+   "resolution_criteria": "ch-aviation, AeroRoutes or Airlink's published timetable checked on 31 Mar 2027 shows a Cape Town-Zanzibar service operating at 1x weekly or more. If suspended or withdrawn the call is incorrect",
+   "resolve_by": "2027-03-31",
+   "market": "ZNZ",
+   "segment": "Beach",
+   "confidence": "Reported",
+   "status": "open",
+   "resolved_date": "",
+   "evidence": "",
+   "source_url": "",
+   "overdue": false
+  },
+  {
    "id": "P019",
    "made_date": "2026-07-26",
    "edition": "Sunday Foresight",
@@ -1048,6 +1064,22 @@ window.LEDGER = {
    "resolved_date": "",
    "evidence": "",
    "source_url": "https://www.travelandtourworld.com/news/article/from-kigali-to-cape-town-how-rwanda-plans-to-double-mice-earnings-to-two-hundred-and-twenty-four-million-usd-by-2028-and-become-africas-business-tourism-hub/",
+   "overdue": false
+  },
+  {
+   "id": "P086",
+   "made_date": "2026-08-16",
+   "edition": "Sunday Foresight",
+   "claim": "Europe's share of Zanzibar arrivals for full-year 2026 will print BELOW its full-year 2025 share — July's fall from 61.9% to 56.4% is structural dilution, not a one-month artefact",
+   "resolution_criteria": "OCGS / Zanzibar Commission for Tourism full-year 2026 arrivals data (published by 30 Jun 2027) shows European arrivals as a lower share of total than in full-year 2025. If the share is equal or higher the call is incorrect",
+   "resolve_by": "2027-06-30",
+   "market": "ZNZ",
+   "segment": "Beach",
+   "confidence": "Reported",
+   "status": "open",
+   "resolved_date": "",
+   "evidence": "",
+   "source_url": "",
    "overdue": false
   },
   {
@@ -1162,6 +1194,22 @@ window.LEDGER = {
    "resolved_date": "2026-08-16",
    "evidence": "WHO AFRO Weekly External Situation Report 13 (data as of 9 Aug 2026, posted 11 Aug) reports DRC cumulative 4,381 confirmed cases and 2,011 confirmed deaths, CFR 45.9% — above the 4,053 threshold. +579 confirmed cases since SitRep 12.",
    "source_url": "https://www.afro.who.int/countries/democratic-republic-of-congo/publication/ebola-bundibugyo-virus-disease-outbreak-4",
+   "overdue": false
+  },
+  {
+   "id": "P062",
+   "made_date": "2026-08-10",
+   "edition": "Morning Brief",
+   "claim": "Zanzibar's next OCGS monthly arrivals release (July 2026 data, due ~mid-Aug) will show Europe's share of arrivals above 55% — confirming the structural European concentration flagged in today's Expert Brief persists rather than easing",
+   "resolution_criteria": "OCGS Zanzibar July 2026 arrivals release (published ~mid-to-late Aug 2026) shows Europe >= 55% of total arrivals. If Europe's share prints below 55% the call is incorrect",
+   "resolve_by": "2026-08-31",
+   "market": "ZNZ",
+   "segment": "Beach",
+   "confidence": "Early signal",
+   "status": "correct",
+   "resolved_date": "2026-08-16",
+   "evidence": "OCGS Zanzibar July 2026 arrivals release: Europe supplied 60,754 of 107,801 total arrivals = 56.4%, at or above the 55% threshold. Correct but narrow — Europe's share fell from 61.9% in June.",
+   "source_url": "https://www.thecitizen.co.tz/tanzania/zanzibar/",
    "overdue": false
   },
   {
