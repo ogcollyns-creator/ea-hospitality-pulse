@@ -1,6 +1,6 @@
 {
  "version": 1,
- "updated": "2026-08-12",
+ "updated": "2026-08-16",
  "note": "Upstream-weighted source registry for the EA Hospitality Pulse radar. tier 1 = primary/official, 2 = reputable secondary, 3 = weak (lead only, never publishable alone). lead_days = typical head start over mainstream coverage. Sources that fail repeatedly are surfaced by monitor.py rather than silently dropped.",
  "sources": [
   {
@@ -3342,6 +3342,48 @@
     "midday"
    ],
    "why": "Same lead-time advantage as Nairobi: full advisory text and Ebola-related entry notices post here first.",
+   "frag": ""
+  },
+  {
+   "id": "us-fedreg-pubinspect-hhs",
+   "name": "Federal Register — public inspection (HHS/CDC), pre-publication",
+   "url": "https://www.federalregister.gov/api/v1/public-inspection-documents/current.json",
+   "tier": 1,
+   "country": "REG",
+   "category": "advisory",
+   "method": "json",
+   "cadence_min": 120,
+   "lead_days": 3,
+   "segments": [
+    "city",
+    "bush"
+   ],
+   "slots": [
+    "morning",
+    "midday",
+    "evening"
+   ],
+   "why": "Documents sit on public inspection for 1-3 days BEFORE Federal Register publication. On 16 Aug 2026 the full text of the 12 Aug CDC Ebola entry order (FR Doc 2026-16706) was readable here two days ahead of its 17 Aug publication date - the single earliest lawful read on any US entry rule affecting Uganda, DRC and South Sudan.",
+   "frag": ""
+  },
+  {
+   "id": "us-regulations-cdc-docket",
+   "name": "regulations.gov — docket CDC-2026-0892 (Ebola entry order)",
+   "url": "https://www.regulations.gov/docket/CDC-2026-0892",
+   "tier": 1,
+   "country": "REG",
+   "category": "advisory",
+   "method": "html",
+   "cadence_min": 360,
+   "lead_days": 5,
+   "segments": [
+    "city",
+    "bush"
+   ],
+   "slots": [
+    "evening"
+   ],
+   "why": "The comment docket that feeds each 30-day renewal decision. Comment counts and content are the only public signal of who is lobbying on the Uganda/DRC entry restrictions - the July 2026 renewal drew zero comments.",
    "frag": ""
   }
  ]

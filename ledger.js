@@ -1,47 +1,15 @@
 window.LEDGER = {
- "updated": "2026-08-16 10:12",
+ "updated": "2026-08-16 13:16",
  "stats": {
-  "total": 83,
+  "total": 86,
   "open": 67,
-  "resolved": 16,
-  "correct": 10,
+  "resolved": 19,
+  "correct": 13,
   "partial": 1,
   "incorrect": 5,
-  "accuracy": 66
+  "accuracy": 71
  },
  "open": [
-  {
-   "id": "P056",
-   "made_date": "2026-08-06",
-   "edition": "Evening Wrap",
-   "claim": "The US State Department Uganda Travel Advisory will remain Level 4 through the 12 August 2026 CDC renewal decision — the 5 Aug commendation of Uganda is goodwill not an imminent downgrade",
-   "resolution_criteria": "travel.state.gov Uganda advisory checked on 13 Aug 2026 still showing Level 4 Do Not Travel. If it shows Level 3 or lower on or before 12 Aug the call is incorrect",
-   "resolve_by": "2026-08-13",
-   "market": "UG",
-   "segment": "Bush/City",
-   "confidence": "Reported",
-   "status": "open",
-   "resolved_date": "",
-   "evidence": "",
-   "source_url": "https://travel.state.gov/content/travel/en/traveladvisories/traveladvisories/uganda-travel-advisory.html",
-   "overdue": true
-  },
-  {
-   "id": "P058",
-   "made_date": "2026-08-08",
-   "edition": "Evening Wrap",
-   "claim": "The WHO AFRO Weekly External Situation Report published on/around 11 Aug 2026 will show DRC cumulative confirmed Bundibugyo cases above 4053 — continued rise past the 5 Aug DRC update with no plateau",
-   "resolution_criteria": "The next WHO AFRO weekly external sit-rep after the 5 Aug DRC figure shows DRC cumulative confirmed BVD cases above 4053. If it shows 4053 or fewer the call is incorrect",
-   "resolve_by": "2026-08-15",
-   "market": "Regional",
-   "segment": "All",
-   "confidence": "Confirmed",
-   "status": "open",
-   "resolved_date": "",
-   "evidence": "",
-   "source_url": "https://www.afro.who.int/health-topics/ebola-disease/outbreak-drc-26",
-   "overdue": true
-  },
   {
    "id": "P072",
    "made_date": "2026-08-12",
@@ -72,22 +40,6 @@ window.LEDGER = {
    "resolved_date": "",
    "evidence": "",
    "source_url": "https://www.who.int/emergencies/disease-outbreak-news/item/2026-DON614",
-   "overdue": false
-  },
-  {
-   "id": "P023",
-   "made_date": "2026-07-27",
-   "edition": "Morning Brief",
-   "claim": "The US CDC will renew its DRC/Uganda/South Sudan Ebola entry restrictions again at the mid-August decision point rather than let them lapse",
-   "resolution_criteria": "CDC returning-traveller guidance or Federal Register notice showing the entry restriction order extended beyond 12 August 2026",
-   "resolve_by": "2026-08-25",
-   "market": "Regional",
-   "segment": "All",
-   "confidence": "Reported",
-   "status": "open",
-   "resolved_date": "",
-   "evidence": "",
-   "source_url": "https://www.cdc.gov/ebola/situation-summary/returning-travelers.html",
    "overdue": false
   },
   {
@@ -184,6 +136,22 @@ window.LEDGER = {
    "resolved_date": "",
    "evidence": "",
    "source_url": "https://www.ocgs.go.tz/",
+   "overdue": false
+  },
+  {
+   "id": "P085",
+   "made_date": "2026-08-16",
+   "edition": "pulse-2026-08-16-midday",
+   "claim": "Docket CDC-2026-0892 will close its 15-day comment window (opening on Federal Register publication 17 Aug 2026, closing on or about 1 Sep 2026) having received fewer than ten public comments — the East African hospitality trade will again not file",
+   "resolution_criteria": "regulations.gov docket CDC-2026-0892 comment count for the August 2026 order, checked after the window closes, is fewer than 10. If ten or more comments are received, incorrect",
+   "resolve_by": "2026-09-05",
+   "market": "Regional",
+   "segment": "Bush/City",
+   "confidence": "Medium",
+   "status": "open",
+   "resolved_date": "",
+   "evidence": "",
+   "source_url": "https://www.regulations.gov/docket/CDC-2026-0892",
    "overdue": false
   },
   {
@@ -296,6 +264,38 @@ window.LEDGER = {
    "resolved_date": "",
    "evidence": "",
    "source_url": "https://www.canada.ca/en/public-health/services/diseases/ebola/border-measures.html",
+   "overdue": false
+  },
+  {
+   "id": "P083",
+   "made_date": "2026-08-16",
+   "edition": "pulse-2026-08-16-midday",
+   "claim": "The US CDC entry order will be continued again at the 11 September 2026 decision point rather than lapse — the DRC contact-tracing rate cited in the 12 Aug order (~78% against a 95% operational threshold) will not have reached 95% by then",
+   "resolution_criteria": "CDC legal-authorities page (cdc.gov/port-health/legal-authorities/evdorder.html) or a Federal Register notice on or before 15 Sep 2026 showing a further order continuing the suspension beyond 11 Sep 2026. If the order lapses or is rescinded, incorrect",
+   "resolve_by": "2026-09-15",
+   "market": "Regional",
+   "segment": "Bush/City",
+   "confidence": "High",
+   "status": "open",
+   "resolved_date": "",
+   "evidence": "",
+   "source_url": "https://www.cdc.gov/port-health/legal-authorities/evdorder.html",
+   "overdue": false
+  },
+  {
+   "id": "P084",
+   "made_date": "2026-08-16",
+   "edition": "pulse-2026-08-16-midday",
+   "claim": "Uganda will still be on the covered-country list at the 11 September 2026 renewal despite completing its 42-day all-clear around 28 August — the stated ground for inclusion is DRC overland cross-border risk, not Ugandan epidemiology",
+   "resolution_criteria": "The next CDC order issued on or about 11 Sep 2026 still applies to persons present within DRC, Uganda or South Sudan in the prior 21 days. If Uganda is removed from the covered-country list, incorrect",
+   "resolve_by": "2026-09-15",
+   "market": "Uganda",
+   "segment": "Bush/City",
+   "confidence": "Medium",
+   "status": "open",
+   "resolved_date": "",
+   "evidence": "",
+   "source_url": "https://www.cdc.gov/port-health/legal-authorities/evdorder.html",
    "overdue": false
   },
   {
@@ -1085,6 +1085,22 @@ window.LEDGER = {
  ],
  "resolved": [
   {
+   "id": "P023",
+   "made_date": "2026-07-27",
+   "edition": "Morning Brief",
+   "claim": "The US CDC will renew its DRC/Uganda/South Sudan Ebola entry restrictions again at the mid-August decision point rather than let them lapse",
+   "resolution_criteria": "CDC returning-traveller guidance or Federal Register notice showing the entry restriction order extended beyond 12 August 2026",
+   "resolve_by": "2026-08-25",
+   "market": "Regional",
+   "segment": "All",
+   "confidence": "Reported",
+   "status": "correct",
+   "resolved_date": "2026-08-16",
+   "evidence": "CDC renewed the order on 12 Aug 2026 continuing the suspension without change for 30 days, through 4:59pm EDT Friday 11 Sep 2026. Full text on Federal Register public inspection 14 Aug, publication date 17 Aug 2026 (FR Doc 2026-16706, docket CDC-2026-0892). Did not lapse.",
+   "source_url": "https://public-inspection.federalregister.gov/2026-16706.pdf",
+   "overdue": false
+  },
+  {
    "id": "P044",
    "made_date": "2026-08-01",
    "edition": "Evening Wrap",
@@ -1114,6 +1130,38 @@ window.LEDGER = {
    "resolved_date": "2026-08-16",
    "evidence": "Federal Register: 'Order Under Sections 362 and 365 of the PHS Act Continuing the Suspension of the Right To Introduce Certain Persons...' (doc 2026-16706, FR dated 17 Aug 2026) continues the 30-day suspension covering DRC, Uganda and South Sudan. Prior continuations 21 Jun and 13 Jul 2026. Order renewed rather than lifted, DRC still listed.",
    "source_url": "https://www.federalregister.gov/documents/2026/08/17/2026-16706/order-under-sections-362-and-365-of-the-public-health-service-act-continuing-the-suspension-of-the",
+   "overdue": false
+  },
+  {
+   "id": "P056",
+   "made_date": "2026-08-06",
+   "edition": "Evening Wrap",
+   "claim": "The US State Department Uganda Travel Advisory will remain Level 4 through the 12 August 2026 CDC renewal decision — the 5 Aug commendation of Uganda is goodwill not an imminent downgrade",
+   "resolution_criteria": "travel.state.gov Uganda advisory checked on 13 Aug 2026 still showing Level 4 Do Not Travel. If it shows Level 3 or lower on or before 12 Aug the call is incorrect",
+   "resolve_by": "2026-08-13",
+   "market": "UG",
+   "segment": "Bush/City",
+   "confidence": "Reported",
+   "status": "correct",
+   "resolved_date": "2026-08-16",
+   "evidence": "Uganda remained at US Level 4 Do Not Travel through and beyond the 12 Aug 2026 CDC decision; travel.state.gov Uganda advisory still Level 4 (crime, health, terrorism, unrest) and the 12 Aug order retained Uganda on the covered-country list. No downgrade followed the 5 Aug commendation.",
+   "source_url": "https://travel.state.gov/en/international-travel/travel-advisories/uganda.html",
+   "overdue": false
+  },
+  {
+   "id": "P058",
+   "made_date": "2026-08-08",
+   "edition": "Evening Wrap",
+   "claim": "The WHO AFRO Weekly External Situation Report published on/around 11 Aug 2026 will show DRC cumulative confirmed Bundibugyo cases above 4053 — continued rise past the 5 Aug DRC update with no plateau",
+   "resolution_criteria": "The next WHO AFRO weekly external sit-rep after the 5 Aug DRC figure shows DRC cumulative confirmed BVD cases above 4053. If it shows 4053 or fewer the call is incorrect",
+   "resolve_by": "2026-08-15",
+   "market": "Regional",
+   "segment": "All",
+   "confidence": "Confirmed",
+   "status": "correct",
+   "resolved_date": "2026-08-16",
+   "evidence": "WHO AFRO Weekly External Situation Report 13 (data as of 9 Aug 2026, posted 11 Aug) reports DRC cumulative 4,381 confirmed cases and 2,011 confirmed deaths, CFR 45.9% — above the 4,053 threshold. +579 confirmed cases since SitRep 12.",
+   "source_url": "https://www.afro.who.int/countries/democratic-republic-of-congo/publication/ebola-bundibugyo-virus-disease-outbreak-4",
    "overdue": false
   },
   {
