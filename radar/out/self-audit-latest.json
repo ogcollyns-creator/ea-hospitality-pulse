@@ -1,5 +1,5 @@
 {
- "generated": "2026-08-15T08:39+03:00",
+ "generated": "2026-08-16T07:22+03:00",
  "health": 0.5,
  "grade": "D",
  "fails": [
@@ -23,36 +23,36 @@
   {
    "name": "source staleness",
    "status": "FAIL",
-   "detail": "37 tier-1 HEALTHY sources quiet >14d: ke-knbs-releases, ke-knbs-calendar, ke-tri, ke-tourism-ministry, ke-ktb-news, ke-tra, ke-kcaa, ke-kaa",
+   "detail": "38 tier-1 HEALTHY sources quiet >14d: ke-knbs-releases, ke-knbs-calendar, ke-tri, ke-tourism-ministry, ke-ktb-news, ke-tra, ke-tourism-fund, ke-kcaa",
    "fix": "Confirm the source still publishes; fix URL if it moved.",
    "score": 0.0
   },
   {
    "name": "radar feed freshness",
    "status": "PASS",
-   "detail": "421 in-window obs; newest observation 0.7h old (2026-08-15T07:55:00+03:00).",
+   "detail": "156 in-window obs; newest observation 1.1h old (2026-08-16T06:16:00+03:00).",
    "fix": "",
    "score": 1.0
   },
   {
    "name": "edition cadence",
    "status": "FAIL",
-   "detail": "Missing slots (last 2 full days): 2026-08-14 morning, 2026-08-14 midday, 2026-08-14 evening, 2026-08-13 evening",
+   "detail": "Missing slots (last 2 full days): 2026-08-15 midday, 2026-08-15 evening, 2026-08-14 morning, 2026-08-14 midday, 2026-08-14 evening",
    "fix": "Confirm the scheduled Pulse task fired for each slot.",
    "score": 0.0
   },
   {
    "name": "signal quality",
    "status": "WARN",
-   "detail": "Only 2 tier-tagged editions in 7d \u2014 too few to judge.",
+   "detail": "Only 0 tier-tagged editions in 7d \u2014 too few to judge.",
    "fix": "",
    "score": 0.5
   },
   {
    "name": "ledger hygiene",
    "status": "FAIL",
-   "detail": "81 calls: 67 open, 14 resolved. Overdue-open: 3. Missing source_url: 20.",
-   "fix": "Resolve overdue calls now: P044, P047, P056. ",
+   "detail": "81 calls: 67 open, 14 resolved. Overdue-open: 4. Missing source_url: 20.",
+   "fix": "Resolve overdue calls now: P044, P047, P056, P058. ",
    "score": 0.0
   },
   {
@@ -72,14 +72,14 @@
   {
    "name": "forecast throughput",
    "status": "PASS",
-   "detail": "23 new falsifiable calls logged in last 7d.",
+   "detail": "22 new falsifiable calls logged in last 7d.",
    "fix": "",
    "score": 1.0
   },
   {
    "name": "published content",
    "status": "PASS",
-   "detail": "5 recent editions; no advisory claim contradicts the board.",
+   "detail": "3 recent editions; no advisory claim contradicts the board.",
    "fix": "",
    "score": 1.0
   }
