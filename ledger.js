@@ -1,31 +1,15 @@
 window.LEDGER = {
- "updated": "2026-08-15 05:16",
+ "updated": "2026-08-16 08:35",
  "stats": {
-  "total": 81,
+  "total": 83,
   "open": 67,
-  "resolved": 14,
-  "correct": 8,
+  "resolved": 16,
+  "correct": 10,
   "partial": 1,
   "incorrect": 5,
-  "accuracy": 61
+  "accuracy": 66
  },
  "open": [
-  {
-   "id": "P044",
-   "made_date": "2026-08-01",
-   "edition": "Evening Wrap",
-   "claim": "The US CDC Section 362 entry suspension covering DRC, Uganda and South Sudan will be EXTENDED beyond 12 August 2026 rather than lifted — DRC's uncontrolled transmission (contact tracing 78.3%) keeps the regional ban in place at its next renewal",
-   "resolution_criteria": "The US CDC port-health order/Federal Register checked on or around 13 Aug 2026 shows the suspension renewed with an end date after 12 Aug 2026. If the order lapses or all three countries are dropped on or before 12 Aug the call is incorrect",
-   "resolve_by": "2026-08-13",
-   "market": "Regional",
-   "segment": "City/Bush",
-   "confidence": "Reported",
-   "status": "open",
-   "resolved_date": "",
-   "evidence": "",
-   "source_url": "https://www.cdc.gov/port-health/legal-authorities/evdorder.html",
-   "overdue": true
-  },
   {
    "id": "P056",
    "made_date": "2026-08-06",
@@ -43,22 +27,6 @@ window.LEDGER = {
    "overdue": true
   },
   {
-   "id": "P047",
-   "made_date": "2026-08-02",
-   "edition": "Sunday Foresight",
-   "claim": "The US CDC Section 362 Ebola entry suspension covering DRC/Uganda/South Sudan will be renewed on or around 12 August 2026 with DRC still listed — the 3,605-case 44% CFR outbreak leaves no basis to lift",
-   "resolution_criteria": "CDC port-health order/Federal Register checked ~14 Aug 2026 shows the suspension renewed past 12 Aug with DRC named. If it lapses or DRC is dropped the call is incorrect",
-   "resolve_by": "2026-08-14",
-   "market": "Regional",
-   "segment": "City/Bush",
-   "confidence": "Reported",
-   "status": "open",
-   "resolved_date": "",
-   "evidence": "",
-   "source_url": "https://www.cdc.gov/port-health/legal-authorities/evdorder.html",
-   "overdue": true
-  },
-  {
    "id": "P058",
    "made_date": "2026-08-08",
    "edition": "Evening Wrap",
@@ -72,7 +40,7 @@ window.LEDGER = {
    "resolved_date": "",
    "evidence": "",
    "source_url": "https://www.afro.who.int/health-topics/ebola-disease/outbreak-drc-26",
-   "overdue": false
+   "overdue": true
   },
   {
    "id": "P072",
@@ -504,6 +472,38 @@ window.LEDGER = {
    "resolved_date": "",
    "evidence": "",
    "source_url": "",
+   "overdue": false
+  },
+  {
+   "id": "P081",
+   "made_date": "2026-08-16",
+   "edition": "pulse-2026-08-16-morning",
+   "claim": "Zanzibar's August 2026 arrivals will exceed August 2025's 105,506 — the July 2026 record (107,801) plus the widening peak-season amplitude implies August sets another monthly high",
+   "resolution_criteria": "OCGS / Zanzibar Commission for Tourism monthly arrivals release for August 2026 (typically published mid-September, reported by The Citizen / TanzaniaInvest) shows arrivals above 105,506",
+   "resolve_by": "2026-09-30",
+   "market": "Tanzania/Zanzibar",
+   "segment": "Beach",
+   "confidence": "Medium",
+   "status": "open",
+   "resolved_date": "",
+   "evidence": "",
+   "source_url": "https://www.thecitizen.co.tz/tanzania/zanzibar/zanzibar-makes-july-tourism-history-with-record-107-801-arrivals-5557592",
+   "overdue": false
+  },
+  {
+   "id": "P082",
+   "made_date": "2026-08-16",
+   "edition": "pulse-2026-08-16-morning",
+   "claim": "Europe's share of Zanzibar's monthly arrivals will be below 60% in the OCGS August 2026 release — continuing the dilution from 61.9% (June) to 56.4% (July) as non-European markets grow faster",
+   "resolution_criteria": "OCGS / Zanzibar Commission for Tourism August 2026 arrivals release states European arrivals below 60% of total. If Europe's share returns to 60% or above, incorrect",
+   "resolve_by": "2026-09-30",
+   "market": "Tanzania/Zanzibar",
+   "segment": "Beach",
+   "confidence": "Medium",
+   "status": "open",
+   "resolved_date": "",
+   "evidence": "",
+   "source_url": "https://www.thecitizen.co.tz/tanzania/zanzibar/zanzibar-makes-july-tourism-history-with-record-107-801-arrivals-5557592",
    "overdue": false
   },
   {
@@ -1084,6 +1084,38 @@ window.LEDGER = {
   }
  ],
  "resolved": [
+  {
+   "id": "P044",
+   "made_date": "2026-08-01",
+   "edition": "Evening Wrap",
+   "claim": "The US CDC Section 362 entry suspension covering DRC, Uganda and South Sudan will be EXTENDED beyond 12 August 2026 rather than lifted — DRC's uncontrolled transmission (contact tracing 78.3%) keeps the regional ban in place at its next renewal",
+   "resolution_criteria": "The US CDC port-health order/Federal Register checked on or around 13 Aug 2026 shows the suspension renewed with an end date after 12 Aug 2026. If the order lapses or all three countries are dropped on or before 12 Aug the call is incorrect",
+   "resolve_by": "2026-08-13",
+   "market": "Regional",
+   "segment": "City/Bush",
+   "confidence": "Reported",
+   "status": "correct",
+   "resolved_date": "2026-08-16",
+   "evidence": "Federal Register: 'Order Under Sections 362 and 365 of the PHS Act Continuing the Suspension of the Right To Introduce Certain Persons...' (doc 2026-16706, FR dated 17 Aug 2026) continues the 30-day suspension covering DRC, Uganda and South Sudan. Prior continuations 21 Jun and 13 Jul 2026. Order renewed rather than lifted, DRC still listed.",
+   "source_url": "https://www.federalregister.gov/documents/2026/08/17/2026-16706/order-under-sections-362-and-365-of-the-public-health-service-act-continuing-the-suspension-of-the",
+   "overdue": false
+  },
+  {
+   "id": "P047",
+   "made_date": "2026-08-02",
+   "edition": "Sunday Foresight",
+   "claim": "The US CDC Section 362 Ebola entry suspension covering DRC/Uganda/South Sudan will be renewed on or around 12 August 2026 with DRC still listed — the 3,605-case 44% CFR outbreak leaves no basis to lift",
+   "resolution_criteria": "CDC port-health order/Federal Register checked ~14 Aug 2026 shows the suspension renewed past 12 Aug with DRC named. If it lapses or DRC is dropped the call is incorrect",
+   "resolve_by": "2026-08-14",
+   "market": "Regional",
+   "segment": "City/Bush",
+   "confidence": "Reported",
+   "status": "correct",
+   "resolved_date": "2026-08-16",
+   "evidence": "Federal Register: 'Order Under Sections 362 and 365 of the PHS Act Continuing the Suspension of the Right To Introduce Certain Persons...' (doc 2026-16706, FR dated 17 Aug 2026) continues the 30-day suspension covering DRC, Uganda and South Sudan. Prior continuations 21 Jun and 13 Jul 2026. Order renewed rather than lifted, DRC still listed.",
+   "source_url": "https://www.federalregister.gov/documents/2026/08/17/2026-16706/order-under-sections-362-and-365-of-the-public-health-service-act-continuing-the-suspension-of-the",
+   "overdue": false
+  },
   {
    "id": "P025",
    "made_date": "2026-07-27",
