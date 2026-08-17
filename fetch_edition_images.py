@@ -137,6 +137,34 @@ BAD_TITLE = ("map", "logo", "flag", "coat of arms", "seal", "diagram", "chart", 
              "false colour", "false color", "flood", "flooding", "drought",
              "famine", "landslide", "cyclone", "storm damage", "oil spill")
 
+# ---- POSITIVE RELEVANCE REQUIREMENT ------------------------------------------
+# A blocklist can only remove what you thought to name. It let through a Radisson
+# in Oulu, another in Leeds, a South African Airways A340, and portraits of
+# Alberto Fujimori and Joe Biden — none of which share a single banned word.
+# So the test is inverted: a file must POSITIVELY look like East African
+# hospitality subject matter, by naming a place or a subject we actually cover.
+GEO_TOKENS = (
+    "kenya","kenyan","tanzania","tanzanian","zanzibar","unguja","pemba","uganda",
+    "ugandan","rwanda","rwandan","east africa","nairobi","mombasa","kisumu","naivasha",
+    "nakuru","diani","watamu","malindi","kilifi","lamu","kigali","musanze","kampala",
+    "entebbe","jinja","dar es salaam","dodoma","arusha","stone town","nungwi","kendwa",
+    "matemwe","paje","bagamoyo","rufiji","serengeti","ngorongoro","maasai mara","masai mara",
+    "mara river","amboseli","tsavo","samburu","laikipia","kilimanjaro","meru","bwindi",
+    "mgahinga","murchison","queen elizabeth national park","kidepo","volcanoes national park",
+    "nyungwe","akagera","virunga","lake victoria","lake tanganyika","lake nakuru","rift valley",
+    "swahili","indian ocean","zanzibari",
+)
+SUBJECT_TOKENS = (
+    "gorilla","chimpanzee","wildebeest","elephant","lion","leopard","cheetah","serval",
+    "giraffe","zebra","hippo","rhino","buffalo","antelope","hartebeest","alcelaphus",
+    "leptailurus","flamingo","safari","savannah","savanna","dhow","baobab","acacia",
+)
+
+def _relevant(title):
+    t = (title or "").lower()
+    return any(g in t for g in GEO_TOKENS) or any(x in t for x in SUBJECT_TOKENS)
+
+
 def _get(url):
     req = urllib.request.Request(url, headers={"User-Agent": UA})
     with urllib.request.urlopen(req, timeout=60) as r:
@@ -208,6 +236,7 @@ def search_candidates(query, limit=80, sort=None):
         if w < h * 1.15:                            continue   # landscape only
         if not any(a in lic for a in ALLOWED_LIC):  continue
         if any(b in tl for b in BAD_TITLE):         continue
+        if not _relevant(title):                    continue   # must name an EA place or subject
         taken = _parse_commons_date(em)
         if taken is None:                           continue   # undated -> always rejected
         out.append({"title": title,
