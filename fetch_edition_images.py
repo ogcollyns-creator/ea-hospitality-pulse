@@ -66,9 +66,17 @@ MIN_DATE = _dt.date.today() - _dt.timedelta(days=int(365.25 * MAX_AGE_YEARS))
 
 # Queries appended after the topic query when the topic pool is exhausted by the
 # age gate or the no-reuse rule. Ordered specific -> broad.
+# Queries appended after the topic query when the topic pool is exhausted by the
+# age gate or the no-reuse rule. Every one names a PLACE OR SUBJECT, never a bare
+# country-plus-year: "Kenya 2024" matches an Olympic rugby fixture just as well as
+# a landscape, and did exactly that before this list was rewritten.
 WIDEN = [
-    "Kenya 2024", "Tanzania 2024", "Rwanda 2024", "Uganda 2024", "Zanzibar 2024",
-    "Nairobi Kenya", "Kigali Rwanda", "Dar es Salaam Tanzania",
+    "Zanzibar beach coast", "Serengeti national park landscape",
+    "Maasai Mara landscape", "Mount Kilimanjaro landscape",
+    "Volcanoes National Park Rwanda", "Lake Victoria landscape",
+    "Nairobi skyline cityscape", "Kigali cityscape",
+    "Dar es Salaam waterfront", "Indian Ocean coast Tanzania",
+    "Kenya national park scenery", "Uganda landscape scenery",
     "East Africa landscape", "African wildlife national park",
 ]
 ALLOWED_LIC = ("cc0", "public domain", "pdm", "cc by", "cc-by", "cc by-sa", "cc-by-sa", "attribution")
@@ -85,7 +93,15 @@ BAD_TITLE = ("map", "logo", "flag", "coat of arms", "seal", "diagram", "chart", 
              "drainage", "landfill", "dumpsite", "garbage", "rubbish", "compost",
              "borehole", "mortuary", "prison", "informal settlement", "roadworks",
              "construction site", "substation", "transformer", "quarry", "sludge",
-             "manhole", "factory", "warehouse", "classroom", "kiosk")
+             "manhole", "factory", "warehouse", "classroom", "kiosk",
+             # sport, competition and staged-event imagery — a rugby match is not
+             # a hospitality hero, however recent the photograph
+             "rugby", "olympic", "olympics", "football", "soccer", "cricket",
+             "athletics", "marathon", "sevens", "tournament", "championship",
+             "match ", "fixture", "stadium", "medal", "podium", "referee",
+             "team photo", "squad", "portrait of", "headshot", "press conference",
+             "conference room", "delegates", "ceremony", "parade", "protest march",
+             "military", "soldier", "parliament", "election", "campaign rally")
 
 def _get(url):
     req = urllib.request.Request(url, headers={"User-Agent": UA})
