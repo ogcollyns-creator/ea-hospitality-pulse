@@ -34,6 +34,8 @@
     --gold:#c8892f; --gold-d:#a86f1f; --teal:#0f6d63; --teal-d:#0a4f48;
     --city:#3a6ea5; --bush:#7a8b3c; --beach:#1596a3; --line:#e2d8c4;
     --card:#fffdf9;
+    --sans:'Helvetica Neue',Arial,sans-serif;
+    --mono:ui-monospace,'SF Mono',Menlo,Consolas,'Liberation Mono',monospace;
   }
   *{box-sizing:border-box}
   html{scroll-behavior:smooth}
@@ -351,13 +353,54 @@
   .pl-rank{font-family:'Helvetica Neue',Arial,sans-serif;font-size:10.5px;font-weight:700;text-transform:uppercase;letter-spacing:.5px;background:var(--gold);color:#231a06;padding:2px 7px;border-radius:20px;margin-left:6px;vertical-align:middle}
   .pl-brand{font-family:'Helvetica Neue',Arial,sans-serif;font-size:12px;font-weight:600;color:var(--muted);background:var(--sand-2);padding:2px 8px;border-radius:20px;margin-left:4px;white-space:nowrap}
   .pl-detail{font-size:14px;color:var(--muted);margin:6px 0 8px;line-height:1.55}
+
+  /* ============================================================
+     POLISH PASS — editorial refinements (append-only, cascade wins).
+     Point of view: serious market-intelligence broadsheet. Flat masthead,
+     typographic monogram, monospace metadata register, restrained motion.
+     ============================================================ */
+  header.site{background:var(--teal-d);border-bottom:3px solid var(--gold)}
+  .logo{width:38px;height:38px;border-radius:4px;background:var(--gold);color:#231a06;
+    font:800 13px/1 var(--mono);letter-spacing:.5px;box-shadow:none}
+  .brand h1{letter-spacing:-.01em}
+  nav.top a{font-family:var(--mono);font-size:12px;letter-spacing:.02em;text-transform:uppercase}
+
+  /* Headlines balance; body copy sets pretty. */
+  .hero h2,.adv-head h2,section h2,.seg h3,.insight h3{text-wrap:balance}
+  .art p,.insight p,.hero p.lead{text-wrap:pretty}
+
+  /* Metadata reads as instrument panel: mono, tracked, quiet — not body serif. */
+  .seg .tag,.adv-table thead th,.bm-table thead th,.cal-table thead th,
+  .ri-badge,.ri-tile .m,.tr-stat .l,.pill,.vd,.imeta,.insight .imeta,
+  .pred .ph,.ct .l,.method{font-family:var(--mono)}
+  .ri-badge,.pill{letter-spacing:.06em}
+
+  /* Depth from hairlines + contrast, not shadow mush. */
+  .seg{box-shadow:none}
+  .seg:hover{box-shadow:0 1px 0 var(--gold);border-color:var(--gold)}
+  .insight:hover{box-shadow:none;border-color:var(--gold)}
+
+  @media(prefers-reduced-motion:reduce){
+    html{scroll-behavior:auto}
+    *,*::before,*::after{animation-duration:.01ms!important;transition-duration:.01ms!important}
+  }
+
+  /* Operators print the homepage trackers for meetings. */
+  @media print{
+    header.site,nav.top,.hero .cta-row,.flags,.share-btn,.btn,#subscribe,.hero-credit{display:none!important}
+    body{background:#fff}
+    .hero{background:#fff!important;color:#000;padding:12px 0;border-bottom:2pt solid #000}
+    .hero h2,.hero p.lead{color:#000}
+    .seg,.insight,.ri-tile,.tr-stat,.rt,.rv,.ct{border:1pt solid #999;box-shadow:none;break-inside:avoid}
+    a{color:#000}
+  }
 </style>
-<!--BUILD_STAMP:20260817-1226--></head>
+<!--BUILD_STAMP:20260817-1233--></head>
 <body>
 <header class="site">
   <div class="wrap topbar">
     <div class="brand">
-      <div class="logo">🏨</div>
+      <div class="logo" aria-hidden="true">EA</div>
       <div><h1>EA Hospitality Pulse</h1><p>Daily intelligence for city, bush &amp; beach properties</p></div>
     </div>
     <nav class="top">
