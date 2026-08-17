@@ -395,8 +395,6 @@ def main(editions=None, refresh=()):
             plans += [(q, None, MIN_DATE), (q, "create_timestamp_desc", MIN_DATE)]
         for q in topic_qs:                                   # 2. on-topic, up to 8y
             plans.append((q, None, RELAXED_DATE))
-        for q in topic_qs:                                   # 3. on-topic, any age
-            plans.append((q, None, None))
         for q in WIDEN:                                      # 4. related subject, in date
             plans.append((q, "create_timestamp_desc", MIN_DATE))
         for q in WIDEN:                                      # 5. related subject, up to 8y
