@@ -12,6 +12,12 @@ window.MICE = {
  updated: "17 August 2026",
  events: [
 
+  { event:"Miss Tourism East Africa 2026 \u2014 inaugural finals", city:"Kampala (Kampala Serena / Marriott)", country:"Uganda", flag:"\ud83c\uddfa\ud83c\uddec",
+    dates:"5\u201312 September 2026", status:"Confirmed", delegates:"~24 contestants (7 countries + Zanzibar at ~3 each; no organiser headcount published)",
+    detail:"First edition of the regional pageant, hosted at the Marriott in Kampala. Seven East African nations \u2014 Uganda, Kenya, Tanzania, Rwanda, DRC, Burundi and South Sudan \u2014 plus Zanzibar. Tanzania is sending six rather than the standard three, split three mainland and three Zanzibar.",
+    soWhat:"LOGGED AS A NON-EVENT, DELIBERATELY. Roughly two dozen contestants plus chaperones, judges and crew is a single-property group booking, not city compression. Treat it as a house-count question for the host hotel. Kampala properties that lift BAR city-wide on this will hand a week of corporate share to the property next door. Recorded here so the claim can be checked rather than repeated.",
+    segment:"City", source:"Daily News TZ / allAfrica, 17 Aug 2026", verified:true },
+
   { event:"Africa Global PR Week (AGPRW) 2026", city:"Nairobi (M\u00f6venpick Hotel & Residences)", country:"Kenya", flag:"\ud83c\uddf0\ud83c\uddea",
     dates:"26\u201328 August 2026", status:"Confirmed", delegates:"1,000+ expected IN PERSON AND ONLINE (organiser figure)",
     detail:"Kenya Tourism Board confirmed as Lead Destination Partner. KTB co-hosts a Destination Pavilion under the \'Magical Kenya\' brand with curated pre- and post-event packages covering the Great Wildebeest Migration, Nairobi city tours and cultural circuits. Theme: \'Redefining Africa: Africa as a Brand\'. Delegates drawn from 20+ African countries. KTB CEO June Chepkemei framed it as a MICE diversification play; AGPRW Chair is Mary Njoki.",
