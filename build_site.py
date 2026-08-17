@@ -123,6 +123,120 @@ def render_body(text):
         out.append("<p>"+"<br>".join(r)+"</p>")
     return "\n".join(out)
 
+# ---- headline hygiene -------------------------------------------------------
+# Editions are authored for Telegram, so the lead line arrives carrying a keycap
+# ("1\ufe0f\u20e3"), country flag emoji and SHOUTING CAPS. That is right for a chat
+# app and wrong for a <title>, a meta description and a schema.org headline:
+# answer engines index the noise and Google truncates it. Strip the chat furniture
+# and de-shout, so every page carries a clean, topical, quotable headline.
+_KEYCAP_ANY = re.compile(r"[0-9#*]\ufe0f?\u20e3")
+_FLAGS      = re.compile(r"[\U0001F1E6-\U0001F1FF]{1,2}")
+_PICTO      = re.compile(
+    r"[\U0001F300-\U0001FAFF\u2190-\u21FF\u2300-\u23FF\u25A0-\u27BF"
+    r"\u2B00-\u2BFF\uFE0F\u200D]")
+_LOWER_WORDS = {"a","an","the","and","but","or","nor","for","so","yet","at","by",
+                "in","of","on","to","up","as","via","from","into","over","with",
+                "after","before","than","that","per","vs"}
+
+# Ordinary words that a naive "short token = acronym" rule would leave SHOUTING.
+_COMMON = set("""a an the and or but nor for so yet if as at by in of on to up off out
+over under with from into onto than then that this these those there here it its is are
+was were be been being am do does did done has have had having will would can could
+shall should may might must not no now new old more most less least much many few all
+any both each every other another same such own only just also very too own more
+after before during while since until when where why how what which who whom whose
+about across against along among around behind below beneath beside between beyond
+down near past through throughout toward towards upon within without
+day days week weeks month months year years today tomorrow yesterday night morning
+january february march april may june july august september october november december
+monday tuesday wednesday thursday friday saturday sunday
+first second third last next high low higher lower big small long short early late
+good bad best worst top bottom full half open close closed
+say says said see sees seen make makes made take takes taken get gets got give gives
+given go goes gone come comes came know knows knew think thinks thought want wants
+look looks use uses used find finds found tell tells told ask asks work works
+call calls try tries need needs feel feels leave leaves put puts mean means keep keeps
+let lets begin begins seem seems help helps show shows hear hears play plays run runs
+move moves like live lives believe hold holds bring brings happen happens write writes
+sit sits stand stands lose loses lost pay pays meet meets set sets learn learns
+change changes lead leads understand watch follow stop stops create speak read
+allow add adds spend grow grows grew growth open walk win wins offer offers remember
+love consider appear buy buys wait serve die send sends build builds stay stays fall
+falls cut cuts reach reaches kill remain rise rises rose drop drops jump jumps
+gap gaps rate rates cost costs price prices fee fees room rooms bed beds tax taxes
+hotel hotels lodge lodges camp camps park parks trip trips tour tours visa visas
+per plus via versus amid ahead back down up out
+one two three four five six seven eight nine ten
+was been has had did got may can will""".split())
+
+_ACRONYM_HINT = {"USD","KES","UGX","TZS","RWF","EUR","GBP","VAT","GDP","ADR","OTA",
+                 "ETA","EAC","KWS","UWA","RDB","TANAPA","ZATI","KAHC","MICE","IATA",
+                 "ICAO","KCAA","TCAA","UCAA","RSSB","EPRA","WHO","CDC","ESG","API",
+                 "PMS","CRS","RFP","YoY","MoM","NBO","MBA","JRO","ZNZ","EBB","KGL","IMF",
+                 "UNWTO","IATA","AFRAA","KTB","UTB","TTB","RwandAir","KQ","AU",
+                 "SGR","LPG","FX","CPI","GOP","F&B","RFPs","B2B","B2C","DMC","DMCs",
+                 "US","UK","UAE","EU","UN","USA","NGO","VIP","CEO","COO","CFO"}
+
+def _detitle(word):
+    """Title-case one SHOUTED word, leaving genuine acronyms (KWS, USD, OTA) and
+    anything numeric alone. Short *ordinary* words still get de-shouted."""
+    core = re.sub(r"[^A-Za-z]", "", word)
+    if not core: return word
+    if any(ch.isdigit() for ch in word): return word        # Q3, 2026, KES1.2BN
+    if core.upper() in _ACRONYM_HINT: return word           # known domain acronym
+    if not set(core.upper()) & set("AEIOUY"): return word   # KWS, MTN — no vowels
+    # Default is to de-shout. Leaving unknown short tokens capitalised produced
+    # "YOU Got SH5 Off Diesel" — worse than the shouting it was meant to fix.
+    return word[:1].upper() + word[1:].lower()
+
+def clean_headline(text):
+    """Chat-formatted lead line -> clean editorial headline."""
+    t = _KEYCAP_ANY.sub(" ", text or "")
+    t = _FLAGS.sub(" ", t)
+    t = _PICTO.sub(" ", t)
+    t = re.sub(r"^[\s\-\u2013\u2014\u2022:.|]+", "", t)
+    t = re.sub(r"\s+", " ", t).strip()
+    letters = [c for c in t if c.isalpha()]
+    # De-shout only when the line is genuinely shouting (>70% caps, 3+ words).
+    if letters and len(t.split()) >= 3:
+        if sum(1 for c in letters if c.isupper()) / len(letters) > 0.70:
+            out, start = [], True
+            for w in t.split(" "):
+                d = _detitle(w)
+                bare = d.lower().strip(".,;:!?'\u2019\u201c\u201d")
+                if not start and d != w and bare in _LOWER_WORDS:
+                    d = d.lower()
+                if start and d[:1].isalpha():
+                    d = d[:1].upper() + d[1:]
+                    start = False
+                # a new sentence (or a colon/dash break) re-capitalises
+                if d.endswith((".", "!", "?", ":")):
+                    start = True
+                out.append(d)
+            if out and out[-1].islower() and out[-1].isalpha():
+                out[-1] = out[-1][:1].upper() + out[-1][1:]
+            t = " ".join(out)
+    return t.strip(" \u2013\u2014-|")
+
+def load_guide_links():
+    """Evergreen guides, read from front matter, so every edition page links into
+    the reference hubs — a real internal link graph rather than a leaf page."""
+    out = []
+    gsrc = os.path.join(HERE, "guides-src")
+    if not os.path.isdir(gsrc): return out
+    for fn in sorted(os.listdir(gsrc)):
+        if not fn.endswith(".md"): continue
+        try: head = open(os.path.join(gsrc, fn), encoding="utf-8").read().split("---", 2)[1]
+        except Exception: continue
+        meta = {}
+        for line in head.splitlines():
+            if ":" in line:
+                k, v = line.split(":", 1); meta[k.strip()] = v.strip()
+        slug = meta.get("slug") or fn.rsplit(".", 1)[0]
+        title = meta.get("title") or slug
+        if title: out.append({"slug": slug, "title": title})
+    return out
+
 def intro_headline(md):
     """The deliberate one-line summary headline: the **bold** line that sits
     between the '### <date>' heading and the first '## SECTION' header. This is
@@ -184,7 +298,7 @@ def load_existing():
         return {}
 
 ARTICLE_CSS = """
-:root{--sand:#f6f1e7;--ink:#1f2421;--muted:#6b6656;--gold:#c8892f;--gold-d:#a86f1f;--teal:#0f6d63;--teal-d:#0a4f48;--line:#e2d8c4;--sand-2:#efe7d6;--card:#fffdf9}
+:root{--sand:#f6f1e7;--ink:#1f2421;--muted:#6b6656;--gold:#c8892f;--gold-d:#a86f1f;--teal:#0f6d63;--teal-d:#0a4f48;--line:#e2d8c4;--sand-2:#efe7d6;--card:#fffdf9;--sans:"Helvetica Neue",Arial,sans-serif;--mono:ui-monospace,"SF Mono",Menlo,Consolas,"Liberation Mono",monospace}
 *{box-sizing:border-box}body{margin:0;font-family:Georgia,"Times New Roman",serif;color:var(--ink);background:var(--sand);line-height:1.68;font-size:18px;-webkit-font-smoothing:antialiased;text-rendering:optimizeLegibility}
 ::selection{background:var(--gold);color:#231a06}
 .wrap{max-width:760px;margin:0 auto;padding:0 20px}
@@ -192,9 +306,11 @@ a{color:var(--teal-d);text-decoration:none}
 a:focus-visible{outline:2px solid var(--gold);outline-offset:2px;border-radius:2px}
 .art p a{text-decoration:underline;text-decoration-color:rgba(15,109,99,.35);text-underline-offset:2px;text-decoration-thickness:1px}
 .art p a:hover{text-decoration-color:var(--teal-d)}
-header.s{background:linear-gradient(135deg,var(--teal-d),var(--teal));color:#fff;padding:14px 0;border-bottom:4px solid var(--gold)}
+header.s{background:var(--teal-d);color:#fff;padding:13px 0;border-bottom:3px solid var(--gold)}
 header.s .wrap{display:flex;align-items:center;gap:10px}
-header.s .logo{width:34px;height:34px;border-radius:8px;background:var(--gold);display:grid;place-items:center;font-size:18px}
+header.s .wrap>a{display:flex;align-items:center;gap:10px;color:#fff}
+header.s .logo{width:32px;height:32px;border-radius:4px;background:var(--gold);color:#231a06;display:grid;place-items:center;font:700 13px/1 var(--mono);letter-spacing:.5px}
+header.s b{letter-spacing:-.01em}
 header.s b{font-size:16px}
 .art{background:var(--card);margin:24px auto;border:1px solid var(--line);border-radius:14px;padding:26px 30px 34px;overflow:hidden}
 .art .hero{display:block;width:calc(100% + 60px);margin:-26px -30px 20px -30px;aspect-ratio:1200/630;object-fit:cover;background:var(--teal-d)}
@@ -227,20 +343,68 @@ footer.s{text-align:center;color:var(--muted);font-family:Helvetica Neue,Arial,s
   .art h1{font-size:22px}
   .pn{max-width:100%}
   .pn.next{margin-left:0;text-align:left}
+  .crumbs{font-size:10.5px}
+  .refs{padding:16px 18px}
+}
+
+/* --- editorial refinements ------------------------------------------------ */
+.art h1{text-wrap:balance}
+.art p{text-wrap:pretty;hyphens:auto}
+/* Metadata reads as instrument panel, not body copy: mono, tracked, quiet. */
+.crumbs{font:600 11px/1 var(--mono);letter-spacing:.06em;text-transform:uppercase;
+  color:var(--muted);display:flex;flex-wrap:wrap;align-items:center;gap:7px;margin:0 0 14px}
+.crumbs a{color:var(--muted);text-decoration:none;border-bottom:1px solid transparent;
+  transition:border-color .18s ease,color .18s ease}
+.crumbs a:hover{color:var(--teal-d);border-bottom-color:var(--gold)}
+.crumbs span[aria-hidden]{opacity:.45}
+.crumbs [aria-current]{color:var(--ink)}
+.badge{font-family:var(--mono);letter-spacing:.08em;font-size:10.5px;border-radius:3px;
+  background:transparent;border:1px solid var(--gold);color:var(--gold-d);padding:4px 8px}
+.art time{font-family:var(--mono);font-size:11.5px;letter-spacing:.04em}
+/* Reference rail — the internal link graph, given a shape of its own. */
+.refs{margin:26px 0 0;padding:18px 22px;background:var(--sand-2);
+  border-left:3px solid var(--teal-d);border-radius:0 8px 8px 0}
+.refs h2{margin:0 0 9px;font:700 11px/1 var(--mono);letter-spacing:.1em;
+  text-transform:uppercase;color:var(--teal-d)}
+.refs ul{margin:0;padding:0;list-style:none}
+.refs li{margin:0 0 6px;font-family:var(--sans);font-size:14px;line-height:1.45}
+.refs li:last-child{margin-bottom:0}
+.refs a{border-bottom:1px solid rgba(15,109,99,.28);transition:border-color .18s ease}
+.refs a:hover{border-bottom-color:var(--teal-d)}
+@media(prefers-reduced-motion:reduce){
+  *,*::before,*::after{animation-duration:.01ms!important;transition-duration:.01ms!important}
+}
+/* Operators print these briefs and take them into rate meetings. */
+@media print{
+  body{background:#fff;font-size:11.5pt;line-height:1.45}
+  header.s,footer.s,.crumbs,.pnrow,.sub,.more,.art .hero,.hcredit{display:none!important}
+  .wrap{max-width:none;padding:0}
+  .art{border:none;border-radius:0;margin:0;padding:0;background:#fff}
+  .art h1{font-size:19pt;border-bottom:1.5pt solid #000;page-break-after:avoid}
+  .item-head{page-break-after:avoid}
+  .sowhat{background:#f2f2f2;border-left:2pt solid #666;page-break-inside:avoid}
+  .refs{background:none;border-left:1pt solid #999;page-break-inside:avoid}
+  a{color:#000;text-decoration:none}
+  a[href^="http"]::after{content:" (" attr(href) ")";font-size:8.5pt;color:#555}
 }
 """
 
 def edition_page(e, siblings=None, prev=None, nxt=None, hero=None, credit=None):
-    title = f"{e['edition']} — {e['dateDisplay']} | EA Hospitality Pulse"
-    desc = e["summary"][:157] + ("…" if len(e["summary"])>157 else "")
+    # One clean headline drives <title>, description, OG/Twitter, JSON-LD and H1.
+    lead = clean_headline(e["summary"]) or e["edition"]
+    short_date = e["dateDisplay"].split(", ", 1)[-1] if ", " in e["dateDisplay"] else e["dateDisplay"]
+    _t = lead if len(lead) <= 62 else lead[:62].rsplit(" ", 1)[0] + "…"
+    title = f"{_t} | {e['edition']}, {short_date} — EA Hospitality Pulse"
+    desc = lead[:157] + ("…" if len(lead) > 157 else "")
+    social_title = f"{_t} — {e['edition']}, {short_date}"
     url = f"{BASE}/editions/{e['id']}.html"
     img = f"{BASE}/og/{e['id']}.png"          # share card (OG/Twitter meta)
     hero_src = f"../og/{hero}" if hero else f"../og/{e['id']}.png"   # clean in-page photo
     # Clean, word-boundary headline (<=110 chars — Google's NewsArticle limit).
-    headline = e["summary"].split(".")[0].strip()
+    headline = lead.split(".")[0].strip() or lead
     if len(headline) > 110:
         headline = headline[:110].rsplit(" ", 1)[0] + "…"
-    h1text = headline if headline.endswith("…") else headline + "."
+    h1text = headline if headline.endswith(("…", ".", "?", "!")) else headline + "."
     _plain = re.sub(r"<[^>]+>", " ", e["bodyHtml"])
     wordcount = len(_plain.split())
     news_kw = html.escape("East Africa hospitality, " + e["edition"] + ", Kenya, Uganda, Tanzania, Zanzibar, Rwanda, travel advisories, hotel demand, tourism")
@@ -286,6 +450,18 @@ def edition_page(e, siblings=None, prev=None, nxt=None, hero=None, credit=None):
         _lictag = (f'<a href="{_licurl}" target="_blank" rel="noopener nofollow">{_lic}</a>' if _licurl else _lic)
         credit_html = (f'<p class="hcredit">Photo: {_art} \u00b7 '
                        f'<a href="{_src}" target="_blank" rel="noopener nofollow">Wikimedia Commons</a> \u00b7 {_lictag}</p>')
+    _guides = load_guide_links()[:5]
+    guides_html = ""
+    if _guides:
+        _gl = "".join(
+            f'<li><a href="../guides/{g["slug"]}.html">{html.escape(g["title"])}</a></li>'
+            for g in _guides)
+        guides_html = (f'<aside class="refs" aria-label="Reference guides">'
+                       f'<h2>Reference</h2><ul>{_gl}</ul></aside>')
+    crumb_html = (f'<nav class="crumbs" aria-label="Breadcrumb"><a href="../index.html">Home</a>'
+                  f'<span aria-hidden="true">/</span><a href="../index.html#archive">Editions</a>'
+                  f'<span aria-hidden="true">/</span>'
+                  f'<span aria-current="page">{html.escape(e["edition"])}, {html.escape(e["dateDisplay"])}</span></nav>')
     return f"""<!DOCTYPE html>
 <html lang="en"><head>
 <meta charset="UTF-8"><meta name="viewport" content="width=device-width,initial-scale=1">
@@ -297,31 +473,36 @@ def edition_page(e, siblings=None, prev=None, nxt=None, hero=None, credit=None):
 <link rel="canonical" href="{url}">
 <link rel="alternate" type="application/rss+xml" title="EA Hospitality Pulse" href="../feed.xml">
 <meta property="og:type" content="article"><meta property="og:site_name" content="EA Hospitality Pulse">
-<meta property="og:title" content="{html.escape(e['edition']+' — '+e['dateDisplay'])}">
+<meta property="og:title" content="{html.escape(social_title)}">
 <meta property="og:description" content="{html.escape(desc)}"><meta property="og:url" content="{url}">
 <meta property="og:image" content="{img}"><meta property="og:image:width" content="1200"><meta property="og:image:height" content="630">
 <meta name="twitter:image" content="{img}">
 <link rel="icon" href="../favicon.png"><link rel="apple-touch-icon" href="../apple-touch-icon.png">
 <meta name="twitter:card" content="summary_large_image">
-<meta name="twitter:title" content="{html.escape(e['edition']+' — '+e['dateDisplay'])}">
+<meta name="twitter:title" content="{html.escape(social_title)}">
 <meta name="twitter:description" content="{html.escape(desc)}">
 <meta property="article:published_time" content="{e['date']}">
+<meta property="article:modified_time" content="{e['date']}">
+<meta property="article:section" content="{html.escape(e['edition'])}">
+<meta property="og:locale" content="en_GB">
+<meta name="twitter:site" content="@eapulse">
 <script type="application/ld+json">{json.dumps(ld)}</script>
 <script type="application/ld+json">{json.dumps(crumbs)}</script>
 <style>{ARTICLE_CSS}
 .hcredit{{margin:-8px 0 18px;font:12px/1.5 Helvetica Neue,Arial,sans-serif;color:#7c8a86}}
 .hcredit a{{color:#5566a3;text-decoration:none}}</style></head>
 <body>
-<header class="s"><div class="wrap"><a href="/"><div class="logo">🏨</div><b>EA Hospitality Pulse</b></a></div></header>
+<header class="s"><div class="wrap"><a href="/"><span class="logo" aria-hidden="true">EA</span><b>EA Hospitality Pulse</b></a></div></header>
 <div class="wrap">
   <article class="art">
     <img class="hero" src="{hero_src}" alt="{html.escape(e['edition']+' — '+e['dateDisplay'])}" loading="eager">
     {credit_html}
-    <a class="nav" href="../index.html#archive">← All editions</a>
+    {crumb_html}
     <div class="kicker"><span class="badge">{html.escape(e['edition'])}</span><time datetime="{e['date']}">{html.escape(e['dateDisplay'])}</time></div>
     <h1>{html.escape(h1text)}</h1>
     {e['bodyHtml']}
     {sib_html}
+    {guides_html}
     {pn_html}
     <div class="sub">
       <b>Follow the Pulse</b> — three briefs a day across Kenya, Uganda, Tanzania, Zanzibar &amp; Rwanda.<br>
@@ -488,6 +669,10 @@ def main():
         idx = _sub(r'(<meta name="twitter:image" content=")[^"]*(")', BASE + "/og/default.png", idx)
         idx = _sub(r'("@type":"Organization".*?"url":")[^"]*(")', BASE + "/", idx)
         idx = _sub(r'("@type":"Organization".*?"logo":")[^"]*(")', BASE + "/apple-touch-icon.png", idx)
+        # Entity consistency: a stale sameAs (an old Telegram handle) teaches answer
+        # engines the wrong identity. Drive it from site_config.json like everything else.
+        _same = json.dumps([CHANNELS[k] for k in ("telegram", "linkedin", "whatsapp") if CHANNELS.get(k)])
+        idx = re.sub(r'("sameAs":)\[[^\]]*\]', lambda m: m.group(1) + _same, idx, count=1)
         open(idx_path, "w", encoding="utf-8").write(idx)
     except Exception as e:
         print("build stamp skipped:", e)
