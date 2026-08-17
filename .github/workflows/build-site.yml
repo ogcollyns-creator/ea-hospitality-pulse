@@ -7,6 +7,13 @@ on:
       - 'editions-src/**.md'
       - 'guides-src/**.md'
       - 'site_config.json'
+      # image pipeline: a guardrail change must be able to trigger a rebuild,
+      # otherwise a fix to the age/no-reuse rules sits unapplied until the next
+      # edition happens to be published.
+      - 'fetch_edition_images.py'
+      - 'fetch_images.py'
+      - 'make_og_images.py'
+      - 'img/edition-credits.json'
   workflow_dispatch:
 
 concurrency:
