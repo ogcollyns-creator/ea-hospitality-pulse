@@ -1,8 +1,8 @@
 window.LEDGER = {
- "updated": "2026-08-17 12:33",
+ "updated": "2026-08-17 13:00",
  "stats": {
-  "total": 92,
-  "open": 72,
+  "total": 96,
+  "open": 76,
   "resolved": 20,
   "correct": 14,
   "partial": 1,
@@ -651,6 +651,22 @@ window.LEDGER = {
    "overdue": false
   },
   {
+   "id": "P095",
+   "made_date": "2026-08-17",
+   "edition": "pulse-2026-08-17-midday",
+   "claim": "Africa Global PR Week (26–28 Aug 2026, Mövenpick Nairobi) will not produce a measurable city-wide Nairobi rate event — its 1,000+ delegate figure covers online attendance and its physical footprint is a single venue cluster",
+   "resolution_criteria": "No Kenyan hospitality trade report, KNBS/TRI data or hotel-group statement published by 31 Oct 2026 attributes a city-wide Nairobi occupancy or ADR spike to AGPRW for 26–28 Aug 2026. A named report attributing city-wide compression to the event resolves incorrect",
+   "resolve_by": "2026-10-31",
+   "market": "Kenya",
+   "segment": "City",
+   "confidence": "Medium",
+   "status": "open",
+   "resolved_date": "",
+   "evidence": "",
+   "source_url": "https://atta.travel/resource/kenya-tourism-board-named-lead-destination-partner-for-africa-global-pr-week-2026.html",
+   "overdue": false
+  },
+  {
    "id": "P064",
    "made_date": "2026-08-10",
    "edition": "Evening Wrap",
@@ -1003,6 +1019,22 @@ window.LEDGER = {
    "overdue": false
   },
   {
+   "id": "P093",
+   "made_date": "2026-08-17",
+   "edition": "pulse-2026-08-17-midday",
+   "claim": "TRA will not publicly announce a contract award for the Fumba Port cargo scanner before 31 March 2027 — the 15 Aug 2026 statement was a pledge with no budget, tender reference or installation date attached",
+   "resolution_criteria": "A TRA, Tanzania National e-Procurement System (NeST) or Zanzibar government notice, or reputable press report, naming an awarded supplier or contract value for a Fumba Port scanner, published on or before 31 Mar 2027. If such an award is announced, the call is incorrect",
+   "resolve_by": "2027-03-31",
+   "market": "Tanzania/Zanzibar",
+   "segment": "Beach",
+   "confidence": "Medium",
+   "status": "open",
+   "resolved_date": "",
+   "evidence": "",
+   "source_url": "https://www.thecitizen.co.tz/tanzania/business/fumba-port-set-to-boost-zanzibar-trade-and-revenue-as-tra-plans-modern-cargo-scanner-5560562",
+   "overdue": false
+  },
+  {
    "id": "P019",
    "made_date": "2026-07-26",
    "edition": "Sunday Foresight",
@@ -1131,6 +1163,22 @@ window.LEDGER = {
    "overdue": false
   },
   {
+   "id": "P094",
+   "made_date": "2026-08-17",
+   "edition": "pulse-2026-08-17-midday",
+   "claim": "Tanzania will not implement nationwide scheduled electricity rationing between the 22 Aug 2026 JNHPP inauguration and 30 June 2027 — with 2,115 MW commissioned and a reported 2,636 MW surplus, generation is no longer the binding constraint on the mainland grid",
+   "resolution_criteria": "No TANESCO or Ministry of Energy announcement of nationwide scheduled load-shedding or power rationing between 22 Aug 2026 and 30 Jun 2027, per TANESCO notices and Tanzanian press. Localised outages from transmission or distribution faults do not count; a announced national rationing programme resolves incorrect",
+   "resolve_by": "2027-06-30",
+   "market": "Tanzania",
+   "segment": "City/Bush/Beach",
+   "confidence": "Medium",
+   "status": "open",
+   "resolved_date": "",
+   "evidence": "",
+   "source_url": "https://www.thecitizen.co.tz/tanzania/news/national/samia-to-inaugurate-sh7-45-trillion-julius-nyerere-hydropower-project-on-august-22-5559650",
+   "overdue": false
+  },
+  {
    "id": "P016",
    "made_date": "2026-07-26",
    "edition": "Midday Pulse",
@@ -1160,6 +1208,22 @@ window.LEDGER = {
    "resolved_date": "",
    "evidence": "",
    "source_url": "https://www.newvision.co.ug/category/business/uganda-airlines-orders-eight-boeing-jets-to-e-NV_237451_072026",
+   "overdue": false
+  },
+  {
+   "id": "P092",
+   "made_date": "2026-08-17",
+   "edition": "pulse-2026-08-17-midday",
+   "claim": "Fumba Port (Zanzibar) will not be handling 250,000 containers per month by 31 December 2027 — the stated rate of ~40 containers per hour implies a practical ceiling near 28,800 per month, so the 250,000–400,000 monthly figure quoted by ZPC on 15 Aug 2026 will not be met",
+   "resolution_criteria": "Zanzibar Ports Corporation, TRA or Zanzibar official statistics published by 31 Dec 2027 show Fumba Port monthly container throughput below 250,000. If throughput reaches or exceeds 250,000 in any month to that date, the call is incorrect",
+   "resolve_by": "2027-12-31",
+   "market": "Tanzania/Zanzibar",
+   "segment": "Beach",
+   "confidence": "High",
+   "status": "open",
+   "resolved_date": "",
+   "evidence": "",
+   "source_url": "https://www.thecitizen.co.tz/tanzania/business/fumba-port-set-to-boost-zanzibar-trade-and-revenue-as-tra-plans-modern-cargo-scanner-5560562",
    "overdue": false
   }
  ],

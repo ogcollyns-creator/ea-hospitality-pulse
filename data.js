@@ -1,5 +1,14 @@
 window.EDITIONS = [
  {
+  "id": "pulse-2026-08-17-midday",
+  "date": "2026-08-17",
+  "dateDisplay": "Monday, 17 August 2026",
+  "edition": "Midday Pulse",
+  "editionKey": "midday",
+  "summary": "Zanzibar was promised a port today. Check the arithmetic before you budget on it.",
+  "bodyHtml": "<p><span class=\"meta-line\">🏨 EA HOSPITALITY PULSE — Midday Pulse</span><br><span class=\"meta-line\">📅 Monday, 17 August 2026 | 🇹🇿🇰🇪</span></p>\n<p>Zanzibar was promised a port today. Check the arithmetic before you budget on it.<br>━━━━━━━━━<br><span class=\"item-head\">1️⃣ ZANZIBAR PORT PLEDGE ARRIVES WITHOUT A DATE</span><br>TRA Commissioner General Yusuph Mwenda toured Fumba Port in Unguja on Saturday 15 August and pledged a modern cargo scanner to speed clearance (The Citizen, 17 August). In the same report, Zanzibar Ports Corporation director general Akif Ali Khamis said the completed port would handle &quot;approximately 40 containers per hour, equivalent to between 250,000 and 400,000 containers per month&quot;, with 350-metre quays on each side by February 2027.</p>\n<p>Those two figures do not reconcile. Forty an hour run continuously is about 28,800 a month. The monthly claim implies roughly 350 an hour — eight to fourteen times the stated rate.<br><span class=\"sowhat\">🎯 So what: The operator gain is real and separate from the throughput claim. Khamis says Zanzibar cargo has been routed through neighbouring ports first; removing that leg is the saving worth pricing. Do not model 2027 landed costs on either container figure until TRA publishes a contract award and ZPC restates throughput.</span><br><span class=\"tagline\">🏷 Beach | Zanzibar | Reported</span></p>\n<p><span class=\"item-head\">2️⃣ TANZANIA SWITCHES ON ITS BIGGEST POWER ASSET</span><br>President Samia Suluhu Hassan inaugurates the 2,115 MW Julius Nyerere Hydropower Project at Rufiji on 22 August (The Citizen, 16 August). JNHPP cost TSh 7.45 trillion, was funded domestically, and supplied 44.9% of all electricity fed to the national grid in the year to 31 May 2026. National installed capacity now stands at about 4,646 MW; The Citizen reports a 2,636 MW surplus.<br><span class=\"sowhat\">🎯 So what: Mainland lodges and Dar city hotels should revisit generator run-hour assumptions and any diesel contract priced off the rationing era. Zanzibar operators should not assume the same relief — the island&#x27;s binding constraint is interconnector capacity, not mainland generation. Ask your supplier which one actually binds you before you cut the genset line.</span><br><span class=\"tagline\">🏷 City/Bush/Beach | Tanzania | Confirmed</span></p>\n<p><span class=\"item-head\">3️⃣ ZANZIBAR BUYS CYBER SKILLS, NOT YET GUEST-FACING ONES</span><br>Zanzibar&#x27;s Ministry of Communications, IT and Innovation signed a three-year MoU with the Emerson Education Institute on Sunday 16 August to train an initial 600 public servants in AI and cybersecurity, in classes of 50 (The Citizen, 17 August).<br><span class=\"sowhat\">🎯 So what: No guest-facing effect yet, and we won&#x27;t pretend otherwise. It matters only if it reaches the licensing, permit and tourism-levy systems you actually queue in. Watch, don&#x27;t plan.</span><br><span class=\"tagline\">🏷 City/Beach | Zanzibar | Early signal</span><br>━━━━━━━━━<br>✅ STILL TRUE — Tanzania and Zanzibar remain US Level 3, unchanged since 31 Oct 2025 (travel.state.gov, verified 4 Aug 2026). Nothing moved today. Don&#x27;t discount as though it had.</p>\n<p>⚡ COST PULSE — Nairobi diesel holds at KSh 217.86/L to 14 Sep (EPRA / Business Daily, 14 Aug). It was not cut this week — the 14 August review still governs.</p>\n<p><span class=\"meta-line\">📅 WEEK AHEAD — 18 Aug WHO IHR Emergency Committee on the Bundibugyo PHEIC · 18–20 Aug AfPIF, Kigali Marriott · 19–21 Aug Hotel Expo Kenya, KICC · 22 Aug JNHPP inauguration, Rufiji · 22 Aug Rwenzori Marathon, Kasese · 26–28 Aug Africa Global PR Week, Mövenpick Nairobi · 28 Aug WTA Africa Gala, Zanzibar · 4 Sep Kwita Izina, Kinigi.</span></p>\n<p><span class=\"meta-line\">💬 Which binds your property first — the grid, or the port?</span></p>\n<p>🔗 This edition on the web: https://eahospitalitypulse.com/editions/pulse-2026-08-17-midday.html<br>— EA Hospitality Pulse | Daily intelligence for city, bush &amp; beach properties</p>"
+ },
+ {
   "id": "pulse-2026-08-16-evening",
   "date": "2026-08-16",
   "dateDisplay": "Sunday, 16 August 2026",
@@ -541,6 +550,54 @@ window.EDITIONS = [
  }
 ];
 window.INSIGHTS = [
+ {
+  "headline": "ZANZIBAR PORT PLEDGE ARRIVES WITHOUT A DATE",
+  "body": "TRA Commissioner General Yusuph Mwenda toured Fumba Port in Unguja on Saturday 15 August and pledged a modern cargo scanner to speed clearance (The Citizen, 17 August). In the same report, Zanzibar Ports Corporation director general Akif Ali Khamis said the completed port would handle \"approximately 40 containers per hour, equivalent to between 250,000 and 400,000 containers per month\", with 350-metre quays on each side by February 2027. Those two figures do not reconcile. Forty an hour run continuously is about 28,800 a month. The monthly claim implies roughly 350 an hour — eight to fourteen times the stated rate.",
+  "sowhat": "🎯 So what: The operator gain is real and separate from the throughput claim. Khamis says Zanzibar cargo has been routed through neighbouring ports first; removing that leg is the saving worth pricing. Do not model 2027 landed costs on either container figure until TRA publishes a contract award and ZPC restates throughput.",
+  "segments": [
+   "beach"
+  ],
+  "countries": "Zanzibar",
+  "confidence": "Reported",
+  "source": "pulse-2026-08-17-midday",
+  "date": "2026-08-17",
+  "dateDisplay": "Monday, 17 August 2026",
+  "edition": "Midday Pulse",
+  "editionKey": "midday"
+ },
+ {
+  "headline": "TANZANIA SWITCHES ON ITS BIGGEST POWER ASSET",
+  "body": "President Samia Suluhu Hassan inaugurates the 2,115 MW Julius Nyerere Hydropower Project at Rufiji on 22 August (The Citizen, 16 August). JNHPP cost TSh 7.45 trillion, was funded domestically, and supplied 44.9% of all electricity fed to the national grid in the year to 31 May 2026. National installed capacity now stands at about 4,646 MW; The Citizen reports a 2,636 MW surplus.",
+  "sowhat": "🎯 So what: Mainland lodges and Dar city hotels should revisit generator run-hour assumptions and any diesel contract priced off the rationing era. Zanzibar operators should not assume the same relief — the island's binding constraint is interconnector capacity, not mainland generation. Ask your supplier which one actually binds you before you cut the genset line.",
+  "segments": [
+   "city",
+   "bush",
+   "beach"
+  ],
+  "countries": "Tanzania",
+  "confidence": "Confirmed",
+  "source": "pulse-2026-08-17-midday",
+  "date": "2026-08-17",
+  "dateDisplay": "Monday, 17 August 2026",
+  "edition": "Midday Pulse",
+  "editionKey": "midday"
+ },
+ {
+  "headline": "ZANZIBAR BUYS CYBER SKILLS, NOT YET GUEST-FACING ONES",
+  "body": "Zanzibar's Ministry of Communications, IT and Innovation signed a three-year MoU with the Emerson Education Institute on Sunday 16 August to train an initial 600 public servants in AI and cybersecurity, in classes of 50 (The Citizen, 17 August).",
+  "sowhat": "🎯 So what: No guest-facing effect yet, and we won't pretend otherwise. It matters only if it reaches the licensing, permit and tourism-levy systems you actually queue in. Watch, don't plan.",
+  "segments": [
+   "city",
+   "beach"
+  ],
+  "countries": "Zanzibar",
+  "confidence": "Early signal",
+  "source": "pulse-2026-08-17-midday",
+  "date": "2026-08-17",
+  "dateDisplay": "Monday, 17 August 2026",
+  "edition": "Midday Pulse",
+  "editionKey": "midday"
+ },
  {
   "headline": "COST PULSE — THE PUMP-PRICE WINDOW CLOSES IN SIX DAYS",
   "body": "Kenya diesel is held at KSh 222.86/L and super at KSh 214.03/L only through 14 August (EPRA July review) — propped by a KSh 945m levy draw and the 8% petroleum VAT rate extended to 14 Oct. KES steady at 129.30/USD; reserves 6.0 months' cover. The quiet killer stands: electricity pass-through charges now top KSh 5/kWh.",
@@ -1906,4 +1963,4 @@ window.INSIGHTS = [
   "editionKey": "evening"
  }
 ];
-window.BUILT_AT = "2026-08-17 12:33";
+window.BUILT_AT = "2026-08-17 13:00";

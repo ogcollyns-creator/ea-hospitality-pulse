@@ -9,8 +9,20 @@
 // source — mostly hospitality, tourism and business-events trade. Delegate counts are
 // only included where a named source states one; we do not estimate or invent them.
 window.MICE = {
- updated: "13 August 2026",
+ updated: "17 August 2026",
  events: [
+
+  { event:"Africa Global PR Week (AGPRW) 2026", city:"Nairobi (M\u00f6venpick Hotel & Residences)", country:"Kenya", flag:"\ud83c\uddf0\ud83c\uddea",
+    dates:"26\u201328 August 2026", status:"Confirmed", delegates:"1,000+ expected IN PERSON AND ONLINE (organiser figure)",
+    detail:"Kenya Tourism Board confirmed as Lead Destination Partner. KTB co-hosts a Destination Pavilion under the \'Magical Kenya\' brand with curated pre- and post-event packages covering the Great Wildebeest Migration, Nairobi city tours and cultural circuits. Theme: \'Redefining Africa: Africa as a Brand\'. Delegates drawn from 20+ African countries. KTB CEO June Chepkemei framed it as a MICE diversification play; AGPRW Chair is Mary Njoki.",
+    soWhat:"READ THE DELEGATE NUMBER CAREFULLY. The organiser\'s 1,000+ covers in-person AND online attendance, and the event sits at a single Westlands venue \u2014 not a city-wide congress. Hold corporate rate on 26\u201328 Aug at properties in the M\u00f6venpick\'s immediate cluster and price the pre/post safari extensions; do not blanket-close Nairobi inventory on a headline figure that includes virtual delegates. Announced 8 Jul 2026, so this is a diary item, not news.",
+    segment:"City, Bush", source:"ATTA (8 Jul 2026) / Capital FM / africaprweek.com", verified:true, flagged:"action" },
+
+  { event:"Kwita Izina 2026 \u2014 21st gorilla naming ceremony", city:"Kinigi, Musanze District", country:"Rwanda", flag:"\ud83c\uddf7\ud83c\uddfc",
+    dates:"4 September 2026 (Exhibition 28 Aug\u20138 Sep; Smart Green Village ground-breaking 27 Aug)", status:"Confirmed", delegates:null,
+    detail:"22 baby mountain gorillas to be named by international Namers from conservation, business, sport, entertainment and public service. Total named gorillas expected to reach 460. No official delegate count published \u2014 we do not estimate one.",
+    soWhat:"A three-week tail of activity around Musanze from 27 Aug to 8 Sep, not a single night. Volcanoes-area lodges should hold rate across the exhibition window rather than just the 4 Sep ceremony date, and Kigali city hotels should expect inbound/outbound transit either side. Note the date: this is early September, NOT late August \u2014 it does not overlap AfPIF or the WTA gala.",
+    segment:"Bush, City", source:"RDB / Taarifa Rwanda (11 Aug 2026) / ATTA (12 Aug 2026)", verified:true, flagged:"action" },
   { event:"15th African Peering & Interconnection Forum (AfPIF 2026)", city:"Kigali (Kigali Marriott Hotel)", country:"Rwanda", flag:"\ud83c\uddf7\ud83c\uddfc",
     dates:"18\u201320 August 2026", status:"Confirmed", delegates:"300\u2013500 (historic range, per af-ix.org)",
     detail:"The African IXP Association (AFIX) holds the 15th annual peering and interconnection forum at the Kigali Marriott, with RICTA. One node in Rwanda\'s RDB MICE revenue target of US$156m for 2026. Kigali has ranked Africa\'s No.2 meetings city for five consecutive years behind Cape Town (2024 ICCA rankings).",

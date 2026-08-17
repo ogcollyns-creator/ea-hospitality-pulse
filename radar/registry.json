@@ -3408,6 +3408,71 @@
    ],
    "why": "CDC's narrative travel advice frequently diverges from the machine-readable travel-notices index; the disagreement between the two surfaces is itself an operator story.",
    "frag": ""
+  },
+  {
+   "id": "tz-zpc",
+   "name": "Zanzibar Ports Corporation",
+   "url": "https://zpc.go.tz/",
+   "tier": 1,
+   "country": "TZ",
+   "category": "regulator",
+   "method": "html",
+   "cadence_min": 240,
+   "lead_days": 7,
+   "segments": [
+    "beach",
+    "city"
+   ],
+   "slots": [
+    "evening"
+   ],
+   "why": "Port capacity, tariffs and clearance times drive landed F&B, fuel and refurbishment costs for Unguja and Pemba resorts. Fumba Port build-out runs to Feb 2027.",
+   "frag": "",
+   "min_len": 10
+  },
+  {
+   "id": "tz-tanesco",
+   "name": "TANESCO — notices and press",
+   "url": "https://www.tanesco.co.tz/",
+   "tier": 1,
+   "country": "TZ",
+   "category": "regulator",
+   "method": "html",
+   "cadence_min": 240,
+   "lead_days": 5,
+   "segments": [
+    "city",
+    "bush",
+    "beach"
+   ],
+   "slots": [
+    "midday"
+   ],
+   "why": "Load-shedding notices and tariff moves set generator run-hours and diesel spend. JNHPP (2,115 MW) commissioned Aug 2026 — the rationing era's end is a live cost variable.",
+   "frag": "",
+   "min_len": 10
+  },
+  {
+   "id": "tz-ewura",
+   "name": "EWURA — Tanzania energy & water regulator",
+   "url": "https://www.ewura.go.tz/",
+   "tier": 1,
+   "country": "TZ",
+   "category": "regulator",
+   "method": "html",
+   "cadence_min": 240,
+   "lead_days": 7,
+   "segments": [
+    "city",
+    "bush",
+    "beach"
+   ],
+   "slots": [
+    "morning"
+   ],
+   "why": "Tanzania's electricity and petroleum tariff decisions — the Tanzanian analogue of EPRA, which we already track for Kenya.",
+   "frag": "",
+   "min_len": 10
   }
  ]
 }
