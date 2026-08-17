@@ -29,31 +29,53 @@ WIDTH = 1600
 # theme -> (keywords to detect it in the edition text, Commons search query).
 # First strongest keyword hit wins; queries are concrete because Commons search
 # is literal. Add rows here to widen coverage.
+# theme -> (keywords to detect it, [Commons queries, most specific first]).
+# Several queries per topic on purpose: one phrasing rarely returns enough
+# licence-clear, in-date, landscape files to satisfy the guardrail, and running
+# out of on-topic candidates is what pushes an edition onto a generic photo.
 TOPICS = [
+    ("port",        ["port","harbour","harbor","cargo","container","shipping","freight",
+                     "customs","clearance","logistics","quay","berth","dhow","vessel","tra "],
+                     ["Zanzibar harbour dhow", "Dar es Salaam port harbour",
+                      "Mombasa port harbour", "dhow Indian Ocean Tanzania",
+                      "harbour East Africa boats"]),
+    ("energy",      ["hydropower","electricity","megawatt","power plant","grid","tanesco",
+                     "generator","kilowatt","load-shedding","rationing","jnhpp","rufiji","epra"],
+                     ["Rufiji River Tanzania", "river landscape Tanzania",
+                      "Tanzania countryside landscape", "reservoir landscape Africa"]),
     ("aviation",    ["airline","aviation","aircraft","jkia","kenya airways","rwandair","air tanzania","uganda airlines","route launch","direct flight","seat capacity","airlift","frequencies","load factor","widebody","airport","airfare"],
-                     "airliner aircraft airport Africa"),
+                     ["airliner aircraft Africa airport", "Kenya Airways aircraft",
+                      "Jomo Kenyatta International Airport", "aircraft Tanzania airport"]),
     ("gorilla",     ["gorilla","chimpanzee","bwindi","volcanoes national park","virunga","nyungwe","primate","golden monkey"],
-                     "mountain gorilla Rwanda"),
+                     ["mountain gorilla Rwanda", "Volcanoes National Park Rwanda",
+                      "Bwindi Impenetrable Forest", "chimpanzee Uganda forest"]),
     ("migration",   ["wildebeest","mara river","great migration","river crossing","maasai mara","the migration"],
-                     "wildebeest migration Maasai Mara"),
+                     ["wildebeest migration Maasai Mara", "Mara River crossing",
+                      "Maasai Mara landscape"]),
     ("amboseli",    ["amboseli","elephant","tusker","tsavo"],
-                     "elephants Amboseli Kilimanjaro"),
+                     ["elephants Amboseli Kilimanjaro", "Tsavo National Park elephants",
+                      "African elephant Kenya"]),
     ("kilimanjaro", ["kilimanjaro","uhuru peak","machame","marangu","trekking","mountaineering"],
-                     "Mount Kilimanjaro Tanzania"),
+                     ["Mount Kilimanjaro Tanzania", "Kilimanjaro summit landscape"]),
     ("safari",      ["safari","serengeti","savannah","game drive","game reserve","ngorongoro","tarangire","big five","big cat","leopard","cheetah","lion","wildlife","conservancy"],
-                     "Serengeti wildlife safari"),
+                     ["Serengeti wildlife", "Ngorongoro Crater landscape",
+                      "lion Serengeti", "Tarangire National Park"]),
     ("stonetown",   ["stone town","forodhani","old fort","spice tour","swahili architecture"],
-                     "Stone Town Zanzibar"),
-    ("beach",       ["diani","nungwi","kendwa","watamu","kilifi","malindi","dhow","coral reef","snorkel","white sand","beach","coast","resort","indian ocean","island"],
-                     "Zanzibar beach Indian Ocean"),
+                     ["Stone Town Zanzibar", "Stone Town architecture Zanzibar"]),
+    ("beach",       ["diani","nungwi","kendwa","watamu","kilifi","malindi","coral reef","snorkel","white sand","beach","coast","resort","indian ocean","island","zanzibar","unguja","pemba"],
+                     ["Zanzibar beach Indian Ocean", "Nungwi beach Zanzibar",
+                      "Diani beach Kenya", "Indian Ocean coast Tanzania palm"]),
     ("mice",        ["conference","convention","mice","summit","congress","expo","exhibition","delegates","business events","icca","trade show"],
-                     "Kigali Convention Centre Rwanda"),
+                     ["Kigali Convention Centre Rwanda", "Kenyatta International Convention Centre",
+                      "convention centre Africa building"]),
     ("kigali",      ["kigali","nyarugenge","rwandan capital","rwanda"],
-                     "Kigali city skyline"),
+                     ["Kigali city skyline", "Kigali cityscape Rwanda"]),
     ("kampala",     ["kampala","entebbe","munyonyo","speke resort","pearl of africa","murchison","jinja","source of the nile","lake victoria"],
-                     "Kampala city skyline"),
+                     ["Kampala city skyline", "Murchison Falls Uganda",
+                      "Lake Victoria Uganda landscape"]),
     ("nairobi",     ["nairobi","cbd","westlands","upper hill","gigiri","expressway","kilimani"],
-                     "Nairobi city skyline"),
+                     ["Nairobi city skyline", "Nairobi cityscape Kenya",
+                      "Nairobi National Park skyline"]),
 ]
 DEFAULT_QUERY = "East Africa savannah landscape"
 
@@ -63,6 +85,11 @@ DEFAULT_QUERY = "East Africa savannah landscape"
 # must fall inside MAX_AGE_YEARS. Undated files are rejected, not assumed fresh.
 MAX_AGE_YEARS = 3
 MIN_DATE = _dt.date.today() - _dt.timedelta(days=int(365.25 * MAX_AGE_YEARS))
+# Relevance beats recency. Rather than abandon the subject the moment the strict
+# window is empty, the search relaxes the date WITHIN the topic first, and only
+# then looks at other subjects. An on-topic photo from 2021 serves the reader
+# better than a pristine 2025 photo of the wrong country.
+RELAXED_DATE = _dt.date.today() - _dt.timedelta(days=int(365.25 * 8))
 
 # Queries appended after the topic query when the topic pool is exhausted by the
 # age gate or the no-reuse rule. Ordered specific -> broad.
@@ -112,13 +139,14 @@ def _strip(s):
     return re.sub(r"<[^>]+>", "", s or "").strip()
 
 def topic_for(text):
+    """Return the query list for the strongest-matching topic, or None."""
     t = (text or "").lower()
     best, score = None, 0
-    for key, kws, q in TOPICS:
-        s = sum(t.count(k) for k in kws)
-        if s > score:
-            score, best = s, q
-    return best  # None if nothing matched -> DEFAULT_QUERY
+    for key, kws, queries in TOPICS:
+        sc = sum(t.count(k) for k in kws)
+        if sc > score:
+            score, best = sc, queries
+    return best
 
 
 def _parse_commons_date(em):
@@ -174,10 +202,10 @@ def search_candidates(query, limit=80, sort=None):
         if not any(a in lic for a in ALLOWED_LIC):  continue
         if any(b in tl for b in BAD_TITLE):         continue
         taken = _parse_commons_date(em)
-        if taken is None:                           continue   # undated -> rejected
-        if taken < MIN_DATE:                        continue   # older than MAX_AGE_YEARS
+        if taken is None:                           continue   # undated -> always rejected
         out.append({"title": title,
                     "taken": taken.isoformat(),
+                    "taken_d": taken,
                     "thumb": ii.get("thumburl") or ii.get("url"),
                     "descurl": ii.get("descriptionurl", "https://commons.wikimedia.org/wiki/File:" + title),
                     "artist": _strip(em.get("Artist", {}).get("value", "")) or "Unknown",
@@ -257,9 +285,19 @@ def audit(fix=False, fix_legacy=False):
     print(f"  stale (dated too old) : {len(stale)}")
     for eid, t in stale:
         print(f"      {eid}  taken {t}")
+    clusters = {}
+    for eid, c in credits.items():
+        if c.get("taken"):
+            clusters.setdefault((c.get("artist"), c["taken"]), []).append(eid)
+    same_shoot = {k: v for k, v in clusters.items() if len(v) > 1}
+    print(f"  same-shoot clusters   : {len(same_shoot)}")
+    for (a, t), eids in same_shoot.items():
+        print(f"      {a} / {t}: {len(eids)} editions")
     print(f"  legacy (no date on record): {len(legacy)}  [pre-guardrail; not auto-cleared]")
 
-    targets = [e for e, _ in dupes] + [e for e, _ in stale]
+    # keep one edition per shoot, clear the rest
+    dupe_shoot = [e for eids in same_shoot.values() for e in sorted(eids)[1:]]
+    targets = [e for e, _ in dupes] + [e for e, _ in stale] + dupe_shoot
     if fix_legacy:
         targets += legacy
     if (fix or fix_legacy) and targets:
@@ -297,6 +335,9 @@ def main(editions=None, refresh=()):
 
     cache = {}
     used = set(v.get("title") for v in credits.values() if v.get("title"))
+    # (artist, capture date) already in play — stops eight frames from one
+    # photographer's single afternoon spreading across eight editions.
+    shoots = set((v.get("artist"), v.get("taken")) for v in credits.values() if v.get("taken"))
     hashes = _existing_hashes()
     ok = fell = 0
     for e in sorted(editions, key=lambda e: e.get("id", "")):   # stable order
@@ -304,16 +345,23 @@ def main(editions=None, refresh=()):
         if os.path.exists(os.path.join(EDIMG, eid + ".jpg")) and eid in credits:
             continue                                            # already compliant, keep stable
         text = e.get("summary", "") + " " + re.sub(r"<[^>]+>", " ", e.get("bodyHtml", ""))
-        topic = topic_for(text) or DEFAULT_QUERY
+        topic_qs = topic_for(text) or [DEFAULT_QUERY]
 
-        # Specific first, then progressively broader. Within each query, try the
-        # default relevance ranking and then newest-uploaded, which surfaces the
-        # recent files the age gate needs.
-        plans = [(topic, None), (topic, "create_timestamp_desc"), (DEFAULT_QUERY, None)]
-        plans += [(w, "create_timestamp_desc") for w in WIDEN]
+        # Tiered: keep the SUBJECT and relax the DATE before changing subject.
+        plans = []
+        for q in topic_qs:                                   # 1. on-topic, in date
+            plans += [(q, None, MIN_DATE), (q, "create_timestamp_desc", MIN_DATE)]
+        for q in topic_qs:                                   # 2. on-topic, up to 8y
+            plans.append((q, None, RELAXED_DATE))
+        for q in topic_qs:                                   # 3. on-topic, any age
+            plans.append((q, None, None))
+        for q in WIDEN:                                      # 4. related subject, in date
+            plans.append((q, "create_timestamp_desc", MIN_DATE))
+        for q in WIDEN:                                      # 5. related subject, up to 8y
+            plans.append((q, None, RELAXED_DATE))
 
-        pick = None
-        for query, sort in plans:
+        pick = pick_blob = None
+        for query, sort, floor in plans:
             key = (query, sort)
             if key not in cache:
                 try:
@@ -322,7 +370,10 @@ def main(editions=None, refresh=()):
                 except Exception as ex:
                     print(f"  search fail {eid} [{query}]: {ex}")
                     cache[key] = []
-            cands = [c for c in cache[key] if c["title"] not in used]
+            cands = [c for c in cache[key]
+                     if c["title"] not in used
+                     and (floor is None or c["taken_d"] >= floor)
+                     and (c["artist"], c["taken"]) not in shoots]   # no two from one shoot
             if not cands:
                 continue
             start = int(hashlib.md5(eid.encode()).hexdigest(), 16) % len(cands)
@@ -332,11 +383,10 @@ def main(editions=None, refresh=()):
                     blob = _get(c["thumb"])
                 except Exception:
                     continue
-                h = _sha(blob)
-                if h in hashes:                 # byte-identical to another edition
-                    used.add(c["title"])        # never offer it again either
+                if _sha(blob) in hashes:        # byte-identical to another edition
+                    used.add(c["title"])
                     continue
-                pick, pick_blob, pick_hash = c, blob, h
+                pick, pick_blob = c, blob
                 break
             if pick:
                 break
@@ -354,6 +404,7 @@ def main(editions=None, refresh=()):
             with open(os.path.join(EDIMG, eid + ".jpg"), "rb") as fh:
                 hashes[_sha(fh.read())] = eid
             used.add(pick["title"])
+            shoots.add((pick["artist"], pick["taken"]))
             credits[eid] = {"id": eid, "title": pick["title"], "artist": pick["artist"],
                             "license": pick["license"], "licenseurl": pick["licenseurl"],
                             "descurl": pick["descurl"], "taken": pick["taken"]}
