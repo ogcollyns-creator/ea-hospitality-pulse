@@ -38,7 +38,9 @@ TOPICS = [
                      "customs","clearance","logistics","quay","berth","dhow","vessel","tra "],
                      ["Zanzibar harbour dhow", "Dar es Salaam port harbour",
                       "Mombasa port harbour", "dhow Indian Ocean Tanzania",
-                      "harbour East Africa boats"]),
+                      "harbour East Africa boats", "Zanzibar waterfront boats",
+                      "Stone Town waterfront Zanzibar", "Zanzibar coast fishing boats",
+                      "Tanzania coast boats sea"]),
     ("energy",      ["hydropower","electricity","megawatt","power plant","grid","tanesco",
                      "generator","kilowatt","load-shedding","rationing","jnhpp","rufiji","epra"],
                      ["Rufiji River Tanzania", "river landscape Tanzania",
@@ -128,7 +130,12 @@ BAD_TITLE = ("map", "logo", "flag", "coat of arms", "seal", "diagram", "chart", 
              "match ", "fixture", "stadium", "medal", "podium", "referee",
              "team photo", "squad", "portrait of", "headshot", "press conference",
              "conference room", "delegates", "ceremony", "parade", "protest march",
-             "military", "soldier", "parliament", "election", "campaign rally")
+             "military", "soldier", "parliament", "election", "campaign rally",
+             # remote sensing and disaster documentation — a MODIS flood raster is
+             # not a hospitality hero, however recent and however on-topic
+             "modis", "satellite", "landsat", "sentinel-", "aerial survey",
+             "false colour", "false color", "flood", "flooding", "drought",
+             "famine", "landslide", "cyclone", "storm damage", "oil spill")
 
 def _get(url):
     req = urllib.request.Request(url, headers={"User-Agent": UA})
@@ -256,7 +263,7 @@ def audit(fix=False, fix_legacy=False):
         credits = json.load(open(os.path.join(IMG, "edition-credits.json"), encoding="utf-8"))
     except Exception:
         credits = {}
-    seen, dupes, legacy, stale = {}, [], [], []
+    seen, dupes, legacy, stale, relaxed = {}, [], [], [], []
     for fn in sorted(os.listdir(EDIMG)) if os.path.isdir(EDIMG) else []:
         if not fn.endswith(".jpg"):
             continue
@@ -272,8 +279,11 @@ def audit(fix=False, fix_legacy=False):
             legacy.append(eid)
             continue
         try:
-            if _dt.date.fromisoformat(taken) < MIN_DATE:
-                stale.append((eid, taken))
+            d = _dt.date.fromisoformat(taken)
+            if d < RELAXED_DATE:
+                stale.append((eid, taken))          # outside even the relaxed window
+            elif d < MIN_DATE:
+                relaxed.append((eid, taken))        # on-topic trade-off, kept
         except ValueError:
             legacy.append(eid)
 
@@ -282,8 +292,11 @@ def audit(fix=False, fix_legacy=False):
     print(f"  duplicate images      : {len(dupes)}")
     for eid, orig in dupes:
         print(f"      {eid}  ==  {orig}")
-    print(f"  stale (dated too old) : {len(stale)}")
+    print(f"  stale (beyond relaxed window): {len(stale)}")
     for eid, t in stale:
+        print(f"      {eid}  taken {t}")
+    print(f"  relaxed (on-topic, outside strict window): {len(relaxed)}  [accepted trade-off]")
+    for eid, t in relaxed:
         print(f"      {eid}  taken {t}")
     clusters = {}
     for eid, c in credits.items():
