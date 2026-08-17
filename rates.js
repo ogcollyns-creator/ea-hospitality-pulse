@@ -1,5 +1,5 @@
 window.RATE_INDEX = {
- "updated": "2026-08-17 11:45",
+ "updated": "2026-08-17 12:11",
  "convention": {
   "los": 2,
   "lead_days": 30,
@@ -12,7 +12,7 @@ window.RATE_INDEX = {
  "methodNote": "Each property is compared only with itself, so the index measures rate MOVEMENT validly even though the basket mixes meal bases and rate types. Raw medians are context only and are not comparable across markets — check levelComparable before quoting a level.",
  "wowNote": "wow is the matched-sample link for the latest week. wowClean is the same link computed only on pairs whose meal basis was KNOWN and UNCHANGED between the two weeks; basisChangedPairs counts the pairs excluded from it. Where basisChangedPairs is large relative to matched, the headline wow is partly a re-basing artefact — quote wowClean, or quote no move at all.",
  "spreadNote": "Commission-leakage spread = median of (OTA rate / direct rate - 1) for the same property in the same week. Computed only where the direct rate is room-only or B&B, since an OTA lowest rate is not comparable with a fully-inclusive safari rate. Markets where no property qualifies report null.",
- "totalObservations": 396,
+ "totalObservations": 409,
  "distinctProperties": 123,
  "basketSize": 133,
  "markets": {
@@ -354,23 +354,23 @@ window.RATE_INDEX = {
     {
      "week": "2026-W34",
      "weekStart": "2026-08-17",
-     "median": 302.4,
-     "n": 6,
-     "observations": 6,
-     "coverage": 46,
+     "median": 315.0,
+     "n": 7,
+     "observations": 7,
+     "coverage": 54,
      "confident": true,
      "basisMix": {
-      "BB": 6
+      "BB": 7
      },
      "rateTypeMix": {
-      "international": 6
+      "international": 7
      },
      "levelComparable": true,
-     "matched": 6,
+     "matched": 7,
      "link": 1.0,
      "index": 110.5,
      "basisChangedPairs": 0,
-     "cleanMatched": 6,
+     "cleanMatched": 7,
      "linkClean": 1.0
     }
    ],
@@ -378,23 +378,23 @@ window.RATE_INDEX = {
    "latest": {
     "week": "2026-W34",
     "weekStart": "2026-08-17",
-    "median": 302.4,
-    "n": 6,
-    "observations": 6,
-    "coverage": 46,
+    "median": 315.0,
+    "n": 7,
+    "observations": 7,
+    "coverage": 54,
     "confident": true,
     "basisMix": {
-     "BB": 6
+     "BB": 7
     },
     "rateTypeMix": {
-     "international": 6
+     "international": 7
     },
     "levelComparable": true,
-    "matched": 6,
+    "matched": 7,
     "link": 1.0,
     "index": 110.5,
     "basisChangedPairs": 0,
-    "cleanMatched": 6,
+    "cleanMatched": 7,
     "linkClean": 1.0
    },
    "wow": 0.0,
@@ -403,13 +403,13 @@ window.RATE_INDEX = {
    "basisMix": {
     "HB": 3,
     "AI": 2,
-    "BB": 24,
+    "BB": 25,
     "UNK": 1,
     "FB": 1
    },
    "rateTypeMix": {
     "resident": 5,
-    "international": 26
+    "international": 27
    },
    "levelComparable": false,
    "residentOnly": false,
@@ -770,22 +770,22 @@ window.RATE_INDEX = {
     {
      "week": "2026-W34",
      "weekStart": "2026-08-17",
-     "median": 199.68,
-     "n": 7,
-     "observations": 7,
-     "coverage": 64,
+     "median": 188.75,
+     "n": 10,
+     "observations": 10,
+     "coverage": 91,
      "confident": true,
      "basisMix": {
-      "BB": 7
+      "BB": 10
      },
      "rateTypeMix": {
-      "international": 7
+      "international": 10
      },
      "levelComparable": true,
-     "matched": 7,
-     "link": 1.0,
-     "index": 92.4,
-     "basisChangedPairs": 0,
+     "matched": 8,
+     "link": 1.01026,
+     "index": 93.3,
+     "basisChangedPairs": 1,
      "cleanMatched": 7,
      "linkClean": 1.0
     }
@@ -794,34 +794,34 @@ window.RATE_INDEX = {
    "latest": {
     "week": "2026-W34",
     "weekStart": "2026-08-17",
-    "median": 199.68,
-    "n": 7,
-    "observations": 7,
-    "coverage": 64,
+    "median": 188.75,
+    "n": 10,
+    "observations": 10,
+    "coverage": 91,
     "confident": true,
     "basisMix": {
-     "BB": 7
+     "BB": 10
     },
     "rateTypeMix": {
-     "international": 7
+     "international": 10
     },
     "levelComparable": true,
-    "matched": 7,
-    "link": 1.0,
-    "index": 92.4,
-    "basisChangedPairs": 0,
+    "matched": 8,
+    "link": 1.01026,
+    "index": 93.3,
+    "basisChangedPairs": 1,
     "cleanMatched": 7,
     "linkClean": 1.0
    },
-   "wow": 0.0,
+   "wow": 1.0,
    "wowClean": 0.0,
-   "basisChangedPairs": 0,
+   "basisChangedPairs": 1,
    "basisMix": {
     "UNK": 6,
-    "BB": 15
+    "BB": 18
    },
    "rateTypeMix": {
-    "international": 21
+    "international": 24
    },
    "levelComparable": false,
    "residentOnly": false,
@@ -936,10 +936,10 @@ window.RATE_INDEX = {
     {
      "week": "2026-W34",
      "weekStart": "2026-08-17",
-     "median": 181.25,
-     "n": 10,
+     "median": 182.0,
+     "n": 11,
      "observations": 11,
-     "coverage": 83,
+     "coverage": 92,
      "confident": true,
      "basisMix": {
       "BB": 11
@@ -948,22 +948,22 @@ window.RATE_INDEX = {
       "international": 11
      },
      "levelComparable": true,
-     "matched": 10,
+     "matched": 11,
      "link": 1.0,
      "index": 100.8,
      "basisChangedPairs": 1,
-     "cleanMatched": 9,
-     "linkClean": 1.0
+     "cleanMatched": 10,
+     "linkClean": 1.057
     }
    ],
    "baseline": 176.0,
    "latest": {
     "week": "2026-W34",
     "weekStart": "2026-08-17",
-    "median": 181.25,
-    "n": 10,
+    "median": 182.0,
+    "n": 11,
     "observations": 11,
-    "coverage": 83,
+    "coverage": 92,
     "confident": true,
     "basisMix": {
      "BB": 11
@@ -972,15 +972,15 @@ window.RATE_INDEX = {
      "international": 11
     },
     "levelComparable": true,
-    "matched": 10,
+    "matched": 11,
     "link": 1.0,
     "index": 100.8,
     "basisChangedPairs": 1,
-    "cleanMatched": 9,
-    "linkClean": 1.0
+    "cleanMatched": 10,
+    "linkClean": 1.057
    },
    "wow": 0.0,
-   "wowClean": 0.0,
+   "wowClean": 5.7,
    "basisChangedPairs": 1,
    "basisMix": {
     "UNK": 1,
@@ -1246,16 +1246,16 @@ window.RATE_INDEX = {
     {
      "week": "2026-W34",
      "weekStart": "2026-08-17",
-     "median": 227.0,
-     "n": 5,
-     "observations": 5,
-     "coverage": 62,
+     "median": 213.0,
+     "n": 6,
+     "observations": 6,
+     "coverage": 75,
      "confident": true,
      "basisMix": {
-      "BB": 5
+      "BB": 6
      },
      "rateTypeMix": {
-      "international": 5
+      "international": 6
      },
      "levelComparable": true,
      "matched": 5,
@@ -1270,16 +1270,16 @@ window.RATE_INDEX = {
    "latest": {
     "week": "2026-W34",
     "weekStart": "2026-08-17",
-    "median": 227.0,
-    "n": 5,
-    "observations": 5,
-    "coverage": 62,
+    "median": 213.0,
+    "n": 6,
+    "observations": 6,
+    "coverage": 75,
     "confident": true,
     "basisMix": {
-     "BB": 5
+     "BB": 6
     },
     "rateTypeMix": {
-     "international": 5
+     "international": 6
     },
     "levelComparable": true,
     "matched": 5,
@@ -1294,10 +1294,10 @@ window.RATE_INDEX = {
    "basisChangedPairs": 2,
    "basisMix": {
     "UNK": 6,
-    "BB": 9
+    "BB": 10
    },
    "rateTypeMix": {
-    "international": 15
+    "international": 16
    },
    "levelComparable": false,
    "residentOnly": false,
@@ -1411,22 +1411,22 @@ window.RATE_INDEX = {
     {
      "week": "2026-W34",
      "weekStart": "2026-08-17",
-     "median": 300.5,
-     "n": 4,
-     "observations": 4,
-     "coverage": 44,
+     "median": 300.0,
+     "n": 7,
+     "observations": 7,
+     "coverage": 78,
      "confident": true,
      "basisMix": {
-      "BB": 4
+      "BB": 7
      },
      "rateTypeMix": {
-      "international": 4
+      "international": 7
      },
      "levelComparable": true,
-     "matched": 4,
+     "matched": 6,
      "link": 1.0,
      "index": 99.9,
-     "basisChangedPairs": 0,
+     "basisChangedPairs": 2,
      "cleanMatched": 4,
      "linkClean": 1.0
     }
@@ -1435,34 +1435,34 @@ window.RATE_INDEX = {
    "latest": {
     "week": "2026-W34",
     "weekStart": "2026-08-17",
-    "median": 300.5,
-    "n": 4,
-    "observations": 4,
-    "coverage": 44,
+    "median": 300.0,
+    "n": 7,
+    "observations": 7,
+    "coverage": 78,
     "confident": true,
     "basisMix": {
-     "BB": 4
+     "BB": 7
     },
     "rateTypeMix": {
-     "international": 4
+     "international": 7
     },
     "levelComparable": true,
-    "matched": 4,
+    "matched": 6,
     "link": 1.0,
     "index": 99.9,
-    "basisChangedPairs": 0,
+    "basisChangedPairs": 2,
     "cleanMatched": 4,
     "linkClean": 1.0
    },
    "wow": 0.0,
    "wowClean": 0.0,
-   "basisChangedPairs": 0,
+   "basisChangedPairs": 2,
    "basisMix": {
     "UNK": 6,
-    "BB": 8
+    "BB": 11
    },
    "rateTypeMix": {
-    "international": 14
+    "international": 17
    },
    "levelComparable": false,
    "residentOnly": false,
@@ -1576,22 +1576,23 @@ window.RATE_INDEX = {
     {
      "week": "2026-W34",
      "weekStart": "2026-08-17",
-     "median": 3010.0,
-     "n": 9,
-     "observations": 9,
-     "coverage": 90,
+     "median": 2137.0,
+     "n": 10,
+     "observations": 10,
+     "coverage": 100,
      "confident": true,
      "basisMix": {
-      "FI": 9
+      "FI": 9,
+      "AI": 1
      },
      "rateTypeMix": {
-      "international": 9
+      "international": 10
      },
-     "levelComparable": true,
-     "matched": 9,
+     "levelComparable": false,
+     "matched": 10,
      "link": 1.0,
      "index": 111.7,
-     "basisChangedPairs": 0,
+     "basisChangedPairs": 1,
      "cleanMatched": 9,
      "linkClean": 1.0
     }
@@ -1600,34 +1601,36 @@ window.RATE_INDEX = {
    "latest": {
     "week": "2026-W34",
     "weekStart": "2026-08-17",
-    "median": 3010.0,
-    "n": 9,
-    "observations": 9,
-    "coverage": 90,
+    "median": 2137.0,
+    "n": 10,
+    "observations": 10,
+    "coverage": 100,
     "confident": true,
     "basisMix": {
-     "FI": 9
+     "FI": 9,
+     "AI": 1
     },
     "rateTypeMix": {
-     "international": 9
+     "international": 10
     },
-    "levelComparable": true,
-    "matched": 9,
+    "levelComparable": false,
+    "matched": 10,
     "link": 1.0,
     "index": 111.7,
-    "basisChangedPairs": 0,
+    "basisChangedPairs": 1,
     "cleanMatched": 9,
     "linkClean": 1.0
    },
    "wow": 0.0,
    "wowClean": 0.0,
-   "basisChangedPairs": 0,
+   "basisChangedPairs": 1,
    "basisMix": {
     "UNK": 10,
-    "FI": 18
+    "FI": 18,
+    "AI": 1
    },
    "rateTypeMix": {
-    "international": 28
+    "international": 29
    },
    "levelComparable": false,
    "residentOnly": false,
@@ -1728,16 +1731,16 @@ window.RATE_INDEX = {
     {
      "week": "2026-W34",
      "weekStart": "2026-08-17",
-     "median": 122.5,
-     "n": 6,
-     "observations": 6,
-     "coverage": 60,
+     "median": 113.75,
+     "n": 10,
+     "observations": 10,
+     "coverage": 100,
      "confident": true,
      "basisMix": {
-      "BB": 6
+      "BB": 10
      },
      "rateTypeMix": {
-      "international": 6
+      "international": 10
      },
      "levelComparable": true,
      "matched": 6,
@@ -1752,16 +1755,16 @@ window.RATE_INDEX = {
    "latest": {
     "week": "2026-W34",
     "weekStart": "2026-08-17",
-    "median": 122.5,
-    "n": 6,
-    "observations": 6,
-    "coverage": 60,
+    "median": 113.75,
+    "n": 10,
+    "observations": 10,
+    "coverage": 100,
     "confident": true,
     "basisMix": {
-     "BB": 6
+     "BB": 10
     },
     "rateTypeMix": {
-     "international": 6
+     "international": 10
     },
     "levelComparable": true,
     "matched": 6,
@@ -1775,11 +1778,11 @@ window.RATE_INDEX = {
    "wowClean": 0.0,
    "basisChangedPairs": 0,
    "basisMix": {
-    "BB": 14,
+    "BB": 18,
     "UNK": 4
    },
    "rateTypeMix": {
-    "international": 18
+    "international": 22
    },
    "levelComparable": false,
    "residentOnly": false,
