@@ -1,8 +1,8 @@
 window.LEDGER = {
- "updated": "2026-08-17 10:49",
+ "updated": "2026-08-17 13:19",
  "stats": {
-  "total": 96,
-  "open": 76,
+  "total": 100,
+  "open": 80,
   "resolved": 20,
   "correct": 14,
   "partial": 1,
@@ -123,6 +123,22 @@ window.LEDGER = {
    "overdue": false
   },
   {
+   "id": "P096",
+   "made_date": "2026-08-17",
+   "edition": "pulse-2026-08-17-evening",
+   "claim": "The WHO IHR Emergency Committee meeting on 18 August 2026 will MAINTAIN the Bundibugyo PHEIC rather than terminate it — DRC became the deadliest outbreak in its history on 17 Aug with a case fatality ratio of 46% and 55 affected health zones",
+   "resolution_criteria": "WHO statement or IHR Emergency Committee communiqué published on or before 31 Aug 2026 confirming the PHEIC remains in force. If WHO terminates the PHEIC at or following the 18 Aug meeting, the call is incorrect",
+   "resolve_by": "2026-08-31",
+   "market": "Regional",
+   "segment": "Bush/City",
+   "confidence": "High",
+   "status": "open",
+   "resolved_date": "",
+   "evidence": "",
+   "source_url": "https://www.who.int/groups/ihr-emergency-committee-regarding-the-epidemic-of-ebola-bundibugyo-virus-disease-in-the-drc-and-uganda",
+   "overdue": false
+  },
+  {
    "id": "P085",
    "made_date": "2026-08-16",
    "edition": "pulse-2026-08-16-midday",
@@ -168,6 +184,22 @@ window.LEDGER = {
    "resolved_date": "",
    "evidence": "",
    "source_url": "https://www.knbs.or.ke/",
+   "overdue": false
+  },
+  {
+   "id": "P097",
+   "made_date": "2026-08-17",
+   "edition": "pulse-2026-08-17-evening",
+   "claim": "Uganda completing its 42-day all-clear around 28 August 2026 will NOT be followed within 14 days by any change to US or Canadian entry measures for travellers who have been in Uganda — the stated ground for inclusion is DRC-side overland risk, not Ugandan epidemiology",
+   "resolution_criteria": "CDC port-health legal-authorities page and travel.gc.ca health notices checked on 11 Sep 2026. If either the US order or the Canadian quarantine requirement is amended to remove Uganda within 14 days of the all-clear, the call is incorrect",
+   "resolve_by": "2026-09-11",
+   "market": "Uganda",
+   "segment": "Bush/City",
+   "confidence": "High",
+   "status": "open",
+   "resolved_date": "",
+   "evidence": "",
+   "source_url": "https://www.cdc.gov/port-health/legal-authorities/evdorder.html",
    "overdue": false
   },
   {
@@ -664,6 +696,22 @@ window.LEDGER = {
    "resolved_date": "",
    "evidence": "",
    "source_url": "https://atta.travel/resource/kenya-tourism-board-named-lead-destination-partner-for-africa-global-pr-week-2026.html",
+   "overdue": false
+  },
+  {
+   "id": "P099",
+   "made_date": "2026-08-17",
+   "edition": "pulse-2026-08-17-evening",
+   "claim": "The Miss Tourism East Africa finals (5–12 Sep 2026, Marriott Kampala) will NOT produce a measurable Kampala city-wide rate or occupancy event — roughly two dozen contestants is a single-property booking, not city compression",
+   "resolution_criteria": "No Ugandan hospitality trade report, UBOS data or hotel-group statement published by 31 Oct 2026 attributes a city-wide Kampala occupancy or ADR spike to the event. A named report attributing city-wide compression resolves incorrect",
+   "resolve_by": "2026-10-31",
+   "market": "Uganda",
+   "segment": "City",
+   "confidence": "High",
+   "status": "open",
+   "resolved_date": "",
+   "evidence": "",
+   "source_url": "https://allafrica.com/stories/202608170290.html",
    "overdue": false
   },
   {
@@ -1176,6 +1224,22 @@ window.LEDGER = {
    "resolved_date": "",
    "evidence": "",
    "source_url": "https://www.thecitizen.co.tz/tanzania/news/national/samia-to-inaugurate-sh7-45-trillion-julius-nyerere-hydropower-project-on-august-22-5559650",
+   "overdue": false
+  },
+  {
+   "id": "P098",
+   "made_date": "2026-08-17",
+   "edition": "pulse-2026-08-17-evening",
+   "claim": "The EAC Competition Authority will clear the Volkswagen / Europcar Mobility Group transaction (Merger Inquiry Notice No. 14 of 2026) without structural conditions affecting East African car-rental operations, by 30 June 2027",
+   "resolution_criteria": "EAC Competition Authority determination published at eacompetition.org by 30 Jun 2027 showing unconditional clearance or clearance with behavioural conditions only. Any structural remedy (divestiture or franchise separation) touching EAC car-rental operations resolves incorrect",
+   "resolve_by": "2027-06-30",
+   "market": "Regional",
+   "segment": "City/Bush/Beach",
+   "confidence": "Medium",
+   "status": "open",
+   "resolved_date": "",
+   "evidence": "",
+   "source_url": "https://www.eacompetition.org/",
    "overdue": false
   },
   {

@@ -1,5 +1,14 @@
 window.EDITIONS = [
  {
+  "id": "pulse-2026-08-17-evening",
+  "date": "2026-08-17",
+  "dateDisplay": "Monday, 17 August 2026",
+  "edition": "Evening Wrap",
+  "editionKey": "evening",
+  "summary": "The DRC outbreak became the deadliest in that country's history today. Tomorrow, the committee that governs your guests' entry rules sits.",
+  "bodyHtml": "<p><span class=\"meta-line\">🏨 EA HOSPITALITY PULSE — Evening Wrap</span><br><span class=\"meta-line\">📅 Monday, 17 August 2026 | 🇨🇩🇺🇬🇰🇪🇹🇿</span></p>\n<p>The DRC outbreak became the deadliest in that country&#x27;s history today. Tomorrow, the committee that governs your guests&#x27; entry rules sits.<br>━━━━━━━━━<br><span class=\"item-head\">1️⃣ DRC EBOLA NOW THE DEADLIEST IN ITS HISTORY</span><br>DRC&#x27;s public health institute puts the toll at 2,325 deaths from 4,945 confirmed cases, passing the 2018–20 epidemic (CNN, 16 August; Al Jazeera and Bloomberg, 17 August). 101 new cases in the previous 24 hours. The case fatality ratio has climbed from about 20% in early June to 46%. The outbreak now spans 55 health zones across six provinces — Ituri, North Kivu, Haut-Uele, Tshopo, South Kivu and Bas-Uele — against the 53 zones cited in the 12 August US order.</p>\n<p>The WHO IHR Emergency Committee on the Bundibugyo PHEIC meets tomorrow, 18 August.<br><span class=\"sowhat\">🎯 So what: Nothing in your entry rules changed today. Brief the front desk on that before a guest reads a headline and rings. The 28 August trap is unpacked in tonight&#x27;s Big Read.</span><br><span class=\"tagline\">🏷 City/Bush | Regional | Confirmed</span></p>\n<p><span class=\"item-head\">2️⃣ EAC OPENS A COMPETITION INQUIRY INTO EUROPCAR&#x27;S OWNER</span><br>The EAC Competition Authority has published Merger Inquiry Notice No. 14 of 2026 — the proposed acquisition of control over Europcar Mobility Group S.A. by Volkswagen Aktiengesellschaft — inviting representations under Regulation 8 of the EAC Competition (Mergers and Acquisitions) Regulations. We first saw it at 13:52 EAT today and have not seen it reported elsewhere yet.</p>\n<p>That the notice exists is Confirmed. What it does to ground-transport pricing is inference: Europcar trades across the EAC through franchises, and transfers sit inside most DMC packages.<br><span class=\"sowhat\">🎯 So what: If Europcar or its EA franchisee is in your transfer contracts, this is the window to make representations, not to renegotiate. Check whether your 2027 transfer rates are contracted or indexed.</span><br><span class=\"tagline\">🏷 City/Bush/Beach | Regional | Confirmed (notice) · Early signal (effect)</span></p>\n<p><span class=\"item-head\">3️⃣ A PAGEANT IS NOT A COMPRESSION EVENT</span><br>Miss Tourism East Africa&#x27;s inaugural finals run 5–12 September at the Marriott Kampala, drawing seven countries plus Zanzibar. Tanzania is sending six delegates rather than the standard three, split between the mainland and Zanzibar (Daily News TZ / allAfrica, 17 August).</p>\n<p>Do the arithmetic before you yield on it. Seven delegations at roughly three each is about two dozen contestants plus chaperones, judges and crew — a single-property group booking, not a city event.<br><span class=\"sowhat\">🎯 So what: Treat this as a Marriott house-count question, not a market signal. Lifting BAR city-wide on a two-dozen-contestant pageant hands a week of corporate share to the property next door.</span><br><span class=\"tagline\">🏷 City | Uganda | Confirmed</span><br>━━━━━━━━━<br>✅ STILL TRUE — Tanzania and Zanzibar remain US Level 3, unchanged since 31 Oct 2025; Uganda stays Level 2. No advisory level moved today.</p>\n<p>⚡ COST PULSE — Nairobi diesel holds at KSh 217.86/L to 14 Sep (EPRA / Business Daily, 14 Aug).</p>\n<p><span class=\"meta-line\">📅 WEEK AHEAD — 18 Aug WHO IHR Emergency Committee · 18–20 Aug AfPIF, Kigali · 19–21 Aug Hotel Expo Kenya, KICC · 22 Aug JNHPP inauguration, Rufiji · 26–28 Aug Africa Global PR Week, Nairobi · ~28 Aug Uganda&#x27;s 42-day all-clear · ~1 Sep CDC comment window closes · 11 Sep CDC decision.</span></p>\n<p><span class=\"meta-line\">💬 When Uganda&#x27;s all-clear lands on 28 August, what will you tell an agent who thinks the rules just changed?</span></p>\n<p>🔗 This edition on the web: https://eahospitalitypulse.com/editions/pulse-2026-08-17-evening.html<br>💼 Today&#x27;s Big Read on LinkedIn: https://www.linkedin.com/company/ea-hospitality-pulse/<br>— EA Hospitality Pulse | Daily intelligence for city, bush &amp; beach properties</p>"
+ },
+ {
   "id": "pulse-2026-08-17-midday",
   "date": "2026-08-17",
   "dateDisplay": "Monday, 17 August 2026",
@@ -597,6 +606,54 @@ window.INSIGHTS = [
   "dateDisplay": "Monday, 17 August 2026",
   "edition": "Midday Pulse",
   "editionKey": "midday"
+ },
+ {
+  "headline": "DRC EBOLA NOW THE DEADLIEST IN ITS HISTORY",
+  "body": "DRC's public health institute puts the toll at 2,325 deaths from 4,945 confirmed cases, passing the 2018–20 epidemic (CNN, 16 August; Al Jazeera and Bloomberg, 17 August). 101 new cases in the previous 24 hours. The case fatality ratio has climbed from about 20% in early June to 46%. The outbreak now spans 55 health zones across six provinces — Ituri, North Kivu, Haut-Uele, Tshopo, South Kivu and Bas-Uele — against the 53 zones cited in the 12 August US order. The WHO IHR Emergency Committee on the Bundibugyo PHEIC meets tomorrow, 18 August.",
+  "sowhat": "🎯 So what: Nothing in your entry rules changed today. Brief the front desk on that before a guest reads a headline and rings. The 28 August trap is unpacked in tonight's Big Read.",
+  "segments": [
+   "city",
+   "bush"
+  ],
+  "countries": "Regional",
+  "confidence": "Confirmed",
+  "source": "pulse-2026-08-17-evening",
+  "date": "2026-08-17",
+  "dateDisplay": "Monday, 17 August 2026",
+  "edition": "Evening Wrap",
+  "editionKey": "evening"
+ },
+ {
+  "headline": "EAC OPENS A COMPETITION INQUIRY INTO EUROPCAR'S OWNER",
+  "body": "The EAC Competition Authority has published Merger Inquiry Notice No. 14 of 2026 — the proposed acquisition of control over Europcar Mobility Group S.A. by Volkswagen Aktiengesellschaft — inviting representations under Regulation 8 of the EAC Competition (Mergers and Acquisitions) Regulations. We first saw it at 13:52 EAT today and have not seen it reported elsewhere yet. That the notice exists is Confirmed. What it does to ground-transport pricing is inference: Europcar trades across the EAC through franchises, and transfers sit inside most DMC packages.",
+  "sowhat": "🎯 So what: If Europcar or its EA franchisee is in your transfer contracts, this is the window to make representations, not to renegotiate. Check whether your 2027 transfer rates are contracted or indexed.",
+  "segments": [
+   "city",
+   "bush",
+   "beach"
+  ],
+  "countries": "Regional",
+  "confidence": "Confirmed (notice) · Early signal (effect)",
+  "source": "pulse-2026-08-17-evening",
+  "date": "2026-08-17",
+  "dateDisplay": "Monday, 17 August 2026",
+  "edition": "Evening Wrap",
+  "editionKey": "evening"
+ },
+ {
+  "headline": "A PAGEANT IS NOT A COMPRESSION EVENT",
+  "body": "Miss Tourism East Africa's inaugural finals run 5–12 September at the Marriott Kampala, drawing seven countries plus Zanzibar. Tanzania is sending six delegates rather than the standard three, split between the mainland and Zanzibar (Daily News TZ / allAfrica, 17 August). Do the arithmetic before you yield on it. Seven delegations at roughly three each is about two dozen contestants plus chaperones, judges and crew — a single-property group booking, not a city event.",
+  "sowhat": "🎯 So what: Treat this as a Marriott house-count question, not a market signal. Lifting BAR city-wide on a two-dozen-contestant pageant hands a week of corporate share to the property next door.",
+  "segments": [
+   "city"
+  ],
+  "countries": "Uganda",
+  "confidence": "Confirmed",
+  "source": "pulse-2026-08-17-evening",
+  "date": "2026-08-17",
+  "dateDisplay": "Monday, 17 August 2026",
+  "edition": "Evening Wrap",
+  "editionKey": "evening"
  },
  {
   "headline": "COST PULSE — THE PUMP-PRICE WINDOW CLOSES IN SIX DAYS",
@@ -1963,4 +2020,4 @@ window.INSIGHTS = [
   "editionKey": "evening"
  }
 ];
-window.BUILT_AT = "2026-08-17 10:49";
+window.BUILT_AT = "2026-08-17 13:18";
