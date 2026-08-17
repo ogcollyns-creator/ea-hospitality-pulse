@@ -1,296 +1,306 @@
 # Radar candidates — evening slot
-_Window opens Mon 17 Aug 13:00 EAT · 353 observations in window · 6 headlines deduped against_
+_Window opens Mon 17 Aug 13:00 EAT · 431 observations in window · 6 headlines deduped against_
 
 Ranked by first-seen recency, source tier and hospitality relevance. `first seen` is when the radar observed the item, which is the date the recency gate runs on. `published` is what the source claims — where the two disagree, the disagreement is the story.
 
-### 🚨 [101.4] [page changed] Federal Register — public inspection (HHS/CDC), pre-publication
+### 🚨 [100.3] [page changed] Federal Register — public inspection (HHS/CDC), pre-publication
 - **Verdict:** OPEN THIS — tier-1 advisory page moved; content not auto-parsed, read it manually
 - **Source:** Federal Register — public inspection (HHS/CDC), pre-publication · tier 1 · REG · advisory
 - **First seen:** 2026-08-17T19:00+03:00 EAT · **Source date:** 2026-08-17
 - **URL:** https://www.federalregister.gov/api/v1/public-inspection-documents/current.json
 - **Extract:** {"count":75,"results":[{"agencies":[{"raw_name":"SUSQUEHANNA RIVER BASIN COMMISSION","name":"Susquehanna River Basin Commission","id":482,"url":"https://www.federalregister.gov/agencies/susquehanna-river-basin-commission","json_url":"https://www.federalregiste
-- **Score parts:** tier +40, category +32, lead +3.6, relevance +0, freshness +19.8, corroborated +10, page_change -4
+- **Score parts:** tier +40, category +32, lead +3.6, relevance +0, freshness +18.7, corroborated +10, page_change -4
 
-### 🚨 [99.1] [page changed] Federal Register — public inspection (HHS/CDC), pre-publication
+### 🚨 [98.0] [page changed] Federal Register — public inspection (HHS/CDC), pre-publication
 - **Verdict:** OPEN THIS — tier-1 advisory page moved; content not auto-parsed, read it manually
 - **Source:** Federal Register — public inspection (HHS/CDC), pre-publication · tier 1 · REG · advisory
 - **First seen:** 2026-08-17T16:57+03:00 EAT · **Source date:** 2026-08-17
 - **URL:** https://www.federalregister.gov/api/v1/public-inspection-documents/current.json
 - **Extract:** {"count":75,"results":[{"agencies":[{"raw_name":"SUSQUEHANNA RIVER BASIN COMMISSION","name":"Susquehanna River Basin Commission","id":482,"url":"https://www.federalregister.gov/agencies/susquehanna-river-basin-commission","json_url":"https://www.federalregiste
-- **Score parts:** tier +40, category +32, lead +3.6, relevance +0, freshness +17.5, corroborated +10, page_change -4
+- **Score parts:** tier +40, category +32, lead +3.6, relevance +0, freshness +16.4, corroborated +10, page_change -4
 
-### 🚨 [67.1] [page changed] TANESCO — notices and press
+### 🚨 [66.0] [page changed] TANESCO — notices and press
 - **Verdict:** OPEN THIS — tier-1 regulator page moved; content not auto-parsed, read it manually
 - **Source:** TANESCO — notices and press · tier 1 · TZ · regulator
 - **First seen:** 2026-08-17T13:52+03:00 EAT · **Source date:** — none stated
 - **URL:** https://www.tanesco.co.tz/
 - **Extract:** TANESCO -->
-- **Score parts:** tier +40, category +17, lead +6, relevance +0, freshness +14.1, undated -6, page_change -4
+- **Score parts:** tier +40, category +17, lead +6, relevance +0, freshness +13, undated -6, page_change -4
 
-### 🚨 [65.4] [page changed] Airlink news
+### 🚨 [65.4] [page changed] Jambojet media
+- **Verdict:** OPEN THIS — tier-1 airline page moved; content not auto-parsed, read it manually
+- **Source:** Jambojet media · tier 1 · KE · airline
+- **First seen:** 2026-08-17T20:01+03:00 EAT · **Source date:** — none stated
+- **URL:** https://www.jambojet.com/en/press-release
+- **Extract:** Request unsuccessful. Incapsula incident ID: 396000330474466107-131004108941035623
+- **Score parts:** tier +40, category +12, lead +3.6, relevance +0, freshness +19.8, undated -6, page_change -4
+
+### 🚨 [64.3] [page changed] Airlink news
 - **Verdict:** OPEN THIS — tier-1 airline page moved; content not auto-parsed, read it manually
 - **Source:** Airlink news · tier 1 · REG · airline
 - **First seen:** 2026-08-17T19:00+03:00 EAT · **Source date:** — none stated
 - **URL:** https://www.flyairlink.com/
 - **Extract:** Request unsuccessful. Incapsula incident ID: 1010000041326079773-608809887697338664
-- **Score parts:** tier +40, category +12, lead +3.6, relevance +0, freshness +19.8, undated -6, page_change -4
+- **Score parts:** tier +40, category +12, lead +3.6, relevance +0, freshness +18.7, undated -6, page_change -4
 
-### 🚨 [59.7] [page changed] Jambojet media
+### 🚨 [58.6] [page changed] Jambojet media
 - **Verdict:** OPEN THIS — tier-1 airline page moved; content not auto-parsed, read it manually
 - **Source:** Jambojet media · tier 1 · KE · airline
 - **First seen:** 2026-08-17T13:52+03:00 EAT · **Source date:** — none stated
 - **URL:** https://www.jambojet.com/en/press-release
 - **Extract:** Request unsuccessful. Incapsula incident ID: 410000770065892265-347178548913115986
-- **Score parts:** tier +40, category +12, lead +3.6, relevance +0, freshness +14.1, undated -6, page_change -4
+- **Score parts:** tier +40, category +12, lead +3.6, relevance +0, freshness +13, undated -6, page_change -4
 
-### 🟠 [100.6] Tuesday, 18th August, 2026 at 2.30pm
+### 🟠 [99.5] Tuesday, 18th August, 2026 at 2.30pm
 - **Verdict:** STRONG — tier-1, upstream
 - **Source:** Parliament of Kenya — bills & papers · tier 1 · KE · legislature
 - **First seen:** 2026-08-17T19:00+03:00 EAT · **Source date:** 2026-08-18
 - **URL:** https://www.parliament.go.ke/sites/default/files/2026-08/ORDER%20PAPER%20FOR%20TUESDAY%2C%2018TH%20AUGUST%202026.pdf
 - **Extract:** en-USThirteenth Parliament Fifth Session en-US en-US(No. 75) (2157) en-US en-US en-USREPUBLIC OF KENYA en-US en-USTHIRTEENTH PARLIAMENT (FIFTH SESSION) en-US en-USTHE NATIONAL ASSEMBLY en-US en-USORDERS OF THE DAY en-US en-US en-GBTUESDAY, AUGUST 18, 2026 en-U
-- **Score parts:** tier +40, category +10, lead +16.8, relevance +4, freshness +19.8, corroborated +10
+- **Score parts:** tier +40, category +10, lead +16.8, relevance +4, freshness +18.7, corroborated +10
 
-### 🟡 [97.9] AirAsia Sep/Oct 2026 Kaohsiung / Osaka Aircraft Changes
+### 🟡 [96.8] AirAsia Sep/Oct 2026 Kaohsiung / Osaka Aircraft Changes
 - **Verdict:** CONSIDER
 - **Source:** AeroRoutes schedule filings · tier 2 · GLOBAL · aviation-tracker
 - **First seen:** 2026-08-17T16:58+03:00 EAT · **Source date:** 2026-08-17
 - **URL:** https://www.aeroroutes.com/eng/260817-aksep26khhkix
 - **Extract:** Published at 0600PDT / 1300GMT 17AUG26 AirAsia from September 2026 schedules capacity increase on Kuala Lumpur – Kaohsiung – Osaka Kansai route, as the airline now schedules Airbus A321neo service from 01SEP26 to 24OCT26. The 236-seater aircraft operates on da
-- **Score parts:** tier +20, category +14, lead +8.4, relevance +28, freshness +17.5, corroborated +10
+- **Score parts:** tier +20, category +14, lead +8.4, relevance +28, freshness +16.4, corroborated +10
 
-### 🟡 [93.9] Lufthansa 1Q27 A380 Operation Changes
+### 🟡 [92.8] Lufthansa 1Q27 A380 Operation Changes
 - **Verdict:** CONSIDER
 - **Source:** AeroRoutes schedule filings · tier 2 · GLOBAL · aviation-tracker
 - **First seen:** 2026-08-17T16:58+03:00 EAT · **Source date:** 2026-08-17
 - **URL:** https://www.aeroroutes.com/eng/260817-lh1q27380
 - **Extract:** Published at 0400PDT / 1100GMT 17AUG26 Lufthansa in the first quarter of 2027 adjusts Airbus A380 operations, as the airline shifts capacity from US to Asia. Planned changes as of 16AUG26 include the following. Munich – Bangkok Suvarnabhumi 16JAN27 – 26FEB27 I
-- **Score parts:** tier +20, category +14, lead +8.4, relevance +24, freshness +17.5, corroborated +10
+- **Score parts:** tier +20, category +14, lead +8.4, relevance +24, freshness +16.4, corroborated +10
 
-### 🟡 [85.1] EAC Hands Over Two Border Patrol Vehicles to Burundi to Strengthen Regional Border Security
+### 🟡 [92.2] Qatar Airways Moves Bogota / Caracas Launch to Nov 2026
+- **Verdict:** CONSIDER
+- **Source:** AeroRoutes schedule filings · tier 2 · GLOBAL · aviation-tracker
+- **First seen:** 2026-08-17T20:02+03:00 EAT · **Source date:** 2026-08-17
+- **URL:** https://www.aeroroutes.com/eng/260817-qrnov26bogccs
+- **Extract:** Published at 0900PDT / 1600GMT 17AUG26 Qatar Airways recently further revised planned service to Bogota and Caracas, as the airline closed reservations for service from 02SEP26. As of 17AUG26, reservations for flights between 02SEP26 and 01NOV26 are not availa
+- **Score parts:** tier +20, category +14, lead +8.4, relevance +20, freshness +19.8, corroborated +10
+
+### 🟡 [92.2] Cathay Pacific Expands Alaska Airlines Codeshare From Aug 2026
+- **Verdict:** CONSIDER
+- **Source:** AeroRoutes schedule filings · tier 2 · GLOBAL · aviation-tracker
+- **First seen:** 2026-08-17T20:02+03:00 EAT · **Source date:** 2026-08-17
+- **URL:** https://www.aeroroutes.com/eng/260817-cxascodeshare
+- **Extract:** Published at 0700PDT / 1400GMT 17AUG26 Cathay Pacific earlier this month expanded codeshare partnership with Alaska Airlines, covering various routes to/from Seattle. Following codeshare routes went into effect since early-August 2026. Cathay Pacific operated 
+- **Score parts:** tier +20, category +14, lead +8.4, relevance +20, freshness +19.8, corroborated +10
+
+### 🟡 [86.8] EAC to Convene 2nd Regional Education Conference in Nairobi to Drive Education Transformation
+- **Verdict:** CONSIDER
+- **Source:** East African Community — Secretariat news · tier 1 · Regional · body
+- **First seen:** 2026-08-17T20:01+03:00 EAT · **Source date:** 2026-08-17
+- **URL:** https://www.eac.int/press-releases/138-education,-science-technology-news/3581-eac-to-convene-2nd-regional-education-conference-in-nairobi-to-drive-education-transformation%20
+- **Extract:** East African Community Headquarters, Arusha, Tanzania, 17 th August, 2026: The East African Community (EAC) will convene the 2 nd EAC Regional Conference on Education in Nairobi, Kenya from 24 th to 28 th August 2026 to accelerate practical action towards tran
+- **Score parts:** tier +40, category +7, lead +6, relevance +4, freshness +19.8, corroborated +10
+
+### 🟡 [84.0] EAC Hands Over Two Border Patrol Vehicles to Burundi to Strengthen Regional Border Security
 - **Verdict:** CONSIDER
 - **Source:** East African Community — Secretariat news · tier 1 · Regional · body
 - **First seen:** 2026-08-17T13:52+03:00 EAT · **Source date:** 2026-08-17
 - **URL:** https://www.eac.int/press-releases/154-peace-security/3580-eac-hands-over-two-border-patrol-vehicles-to-burundi-to-strengthen-regional-border-security
 - **Extract:** East African Community Headquarters, Arusha, Tanzania, 17th August, 2026: The East African Community has handed over two border patrol vehicles to the Burundi Border Police in an effort to strengthen border security, improve mobility and enhance the fight agai
-- **Score parts:** tier +40, category +7, lead +6, relevance +8, freshness +14.1, corroborated +10
+- **Score parts:** tier +40, category +7, lead +6, relevance +8, freshness +13, corroborated +10
 
-### 🟡 [81.9] S7 Airlines Adds Novosibirsk – Chengdu in NW26
+### 🟡 [80.8] S7 Airlines Adds Novosibirsk – Chengdu in NW26
 - **Verdict:** CONSIDER
 - **Source:** AeroRoutes schedule filings · tier 2 · GLOBAL · aviation-tracker
 - **First seen:** 2026-08-17T16:58+03:00 EAT · **Source date:** 2026-08-17
 - **URL:** https://www.aeroroutes.com/eng/260817-s7nw26tfu
 - **Extract:** Published at 0300PDT / 1000GMT 17AUG26 Russian carrier S7 Airlines during Northern winter 2026/27 season continues to expand service to China, with the new Novosibirsk – Chengdu Tianfu route scheduled from 26OCT26. Airbus A320 aircraft to serve this route twic
-- **Score parts:** tier +20, category +14, lead +8.4, relevance +12, freshness +17.5, corroborated +10
+- **Score parts:** tier +20, category +14, lead +8.4, relevance +12, freshness +16.4, corroborated +10
 
-### 🟡 [81.5] Petroleum Fuel Prices
+### 🟡 [80.4] Petroleum Fuel Prices
 - **Verdict:** CONSIDER
 - **Source:** EWURA — Tanzania energy & water regulator · tier 1 · TZ · regulator
 - **First seen:** 2026-08-17T13:53+03:00 EAT · **Source date:** — none stated
 - **URL:** https://www.ewura.go.tz/publications/petroleum-price
-- **Score parts:** tier +40, category +17, lead +8.4, relevance +8, freshness +14.1, undated -6
+- **Score parts:** tier +40, category +17, lead +8.4, relevance +8, freshness +13, undated -6
 
-### 🟡 [81.3] IHG and Harilela Group announce The Hari's three hotels will join luxury collection brand Vignette Collection
+### 🟡 [80.2] Xiamen Adds A321neo Fuzhou International Flights in Sep/Oct 2026
+- **Verdict:** CONSIDER
+- **Source:** AeroRoutes schedule filings · tier 2 · GLOBAL · aviation-tracker
+- **First seen:** 2026-08-17T20:02+03:00 EAT · **Source date:** 2026-08-17
+- **URL:** https://www.aeroroutes.com/eng/260817-mfsep26foc
+- **Extract:** Published at 1000PDT / 1700GMT 17AUG26 Xiamen Airlines in September and October 2026 plans to launch Airbus A321neo international flights at Fuzhou , initially scheduled for Kuala Lumpur and Singapore. Fuzhou – Kuala Lumpur eff 04SEP26 2 of 7 weekly A321neo re
+- **Score parts:** tier +20, category +14, lead +8.4, relevance +8, freshness +19.8, corroborated +10
+
+### 🟡 [80.2] Cathay Pacific 4Q26 Delhi A350-1000 Operations
+- **Verdict:** CONSIDER
+- **Source:** AeroRoutes schedule filings · tier 2 · GLOBAL · aviation-tracker
+- **First seen:** 2026-08-17T20:02+03:00 EAT · **Source date:** 2026-08-17
+- **URL:** https://www.aeroroutes.com/eng/260817-cx4q26del
+- **Extract:** Published at 0800PDT / 1500GMT 17AUG26 Cathay Pacific in the fourth quarter of 2026 schedules short term Airbus A350-1000 operation on Hong Kong – Delhi route. From 25OCT26 to 30NOV26, 1 of 2 daily CX695/698 to be operated by A350-1000, instead of 777-300ER. C
+- **Score parts:** tier +20, category +14, lead +8.4, relevance +8, freshness +19.8, corroborated +10
+
+### 🟡 [80.2] IHG and Harilela Group announce The Hari's three hotels will join luxury collection brand Vignette Collection
 - **Verdict:** CONSIDER
 - **Source:** IHG news · tier 1 · GLOBAL · hotel-group
 - **First seen:** 2026-08-17T16:57+03:00 EAT · **Source date:** — none stated
 - **URL:** https://www.ihgplc.com/en/news-and-media/news-releases/2026/ihg-and-harilela-group-announce-the-haris-three-hotels-will-join-luxury-collection-brand-vignette-collection
-- **Score parts:** tier +40, category +9, lead +16.8, relevance +4, freshness +17.5, undated -6
+- **Score parts:** tier +40, category +9, lead +16.8, relevance +4, freshness +16.4, undated -6
 
-### 🟡 [80.6] Tayebwa calls for cohesion and discipline among whips Monday, 17 August 2026
+### 🟡 [79.5] Tayebwa calls for cohesion and discipline among whips Monday, 17 August 2026
 - **Verdict:** CONSIDER
 - **Source:** Parliament of Uganda · tier 1 · UG · legislature
 - **First seen:** 2026-08-17T19:00+03:00 EAT · **Source date:** — none stated
 - **URL:** https://www.parliament.go.ug/news/4561/tayebwa-calls-cohesion-and-discipline-among-whips
-- **Score parts:** tier +40, category +10, lead +16.8, relevance +0, freshness +19.8, undated -6
+- **Score parts:** tier +40, category +10, lead +16.8, relevance +0, freshness +18.7, undated -6
 
-### 🟡 [80.6] The Hansard - Wednesday, 12 August 2026 - Afternoon Sitting
+### 🟡 [79.5] The Hansard - Wednesday, 12 August 2026 - Afternoon Sitting
 - **Verdict:** CONSIDER
 - **Source:** Parliament of Kenya — bills & papers · tier 1 · KE · legislature
 - **First seen:** 2026-08-17T19:00+03:00 EAT · **Source date:** — none stated
 - **URL:** https://www.parliament.go.ke/sites/default/files/2026-08/The%20Hansard%20-%20Wednesday%2C%2012%20August%202026%20%28P%29_0.pdf
 - **Extract:** en-GB en-GBREPUBLIC OF KENYA en-GB en-GB en-GB en-GB en-GB en-GBTHIRTEENTH PARLIAMENT en-GB en-GB en-GB en-GB en-GBNATIONAL ASSEMBLY en-GB en-GB en-GB en-GB en-GB en-GBTHE HANSARD en-GB en-GB en-GB en-GB en-GB en-GB12th August 2026 Vol. V No. 73 en-GB 12th Aug
-- **Score parts:** tier +40, category +10, lead +16.8, relevance +0, freshness +19.8, undated -6
+- **Score parts:** tier +40, category +10, lead +16.8, relevance +0, freshness +18.7, undated -6
 
-### 🟡 [80.6] The Hansard - Thursday, 13 August 2026
+### 🟡 [79.5] The Hansard - Thursday, 13 August 2026
 - **Verdict:** CONSIDER
 - **Source:** Parliament of Kenya — bills & papers · tier 1 · KE · legislature
 - **First seen:** 2026-08-17T19:00+03:00 EAT · **Source date:** — none stated
 - **URL:** https://www.parliament.go.ke/sites/default/files/2026-08/The%20Hansard%20-%20Thursday%2C%2013%20August%202026.pdf
 - **Extract:** en-GB en-GBREPUBLIC OF KENYA en-GB en-GB en-GB en-GB en-GB en-GBTHIRTEENTH PARLIAMENT en-GB en-GB en-GB en-GB en-GBNATIONAL ASSEMBLY en-GB en-GB en-GB en-GB en-GB en-GBTHE HANSARD en-GB en-GB en-GB en-GB en-GB en-GB13th August 2026 Vol. V No. 74 en-GB 13th Aug
-- **Score parts:** tier +40, category +10, lead +16.8, relevance +0, freshness +19.8, undated -6
+- **Score parts:** tier +40, category +10, lead +16.8, relevance +0, freshness +18.7, undated -6
 
-### 🟡 [77.9] Etihad NW26 Southeast Asia Service Expansion
+### 🟡 [76.8] Etihad NW26 Southeast Asia Service Expansion
 - **Verdict:** CONSIDER
 - **Source:** AeroRoutes schedule filings · tier 2 · GLOBAL · aviation-tracker
 - **First seen:** 2026-08-17T16:58+03:00 EAT · **Source date:** 2026-08-17
 - **URL:** https://www.aeroroutes.com/eng/260817-eynw26sea
 - **Extract:** Published at 0500PDT / 1200GMT 17AUG26 Etihad Airways during Northern winter 2026/27 season plans service expansion to various Southeast Asia service, as the airline schedules additional flights to Denpasar, Hanoi, Kuala Lumpur and Phuket from mid-December 202
-- **Score parts:** tier +20, category +14, lead +8.4, relevance +8, freshness +17.5, corroborated +10
+- **Score parts:** tier +20, category +14, lead +8.4, relevance +8, freshness +16.4, corroborated +10
 
-### 🟡 [77.5] New transmission from animals likely caused Congo-Uganda Ebola outbreak, study says Aug 12 - 1 min read
+### 🟡 [76.4] New transmission from animals likely caused Congo-Uganda Ebola outbreak, study says Aug 12 - 1 min read
 - **Verdict:** CONSIDER
 - **Source:** The Citizen (Tanzania) · tier 2 · TZ · press
 - **First seen:** 2026-08-17T16:58+03:00 EAT · **Source date:** — none stated
 - **URL:** https://www.thecitizen.co.tz/tanzania/news/africa/new-transmission-from-animals-likely-caused-congo-uganda-ebola-outbreak-study-says-5555334
 - **Shock language:** outbreak
-- **Score parts:** tier +20, category +4, lead +0, relevance +24, freshness +17.5, undated -6, shock +18
+- **Score parts:** tier +20, category +4, lead +0, relevance +24, freshness +16.4, undated -6, shock +18
 
-### 🟡 [77.3] Anantara Villa Padierna Celebrates Its Origins with a Festival Dedicated to the Essence of Thailand
+### 🟡 [76.2] Anantara Villa Padierna Celebrates Its Origins with a Festival Dedicated to the Essence of Thailand
 - **Verdict:** CONSIDER
 - **Source:** Minor Hotels newsroom · tier 1 · GLOBAL · hotel-group
 - **First seen:** 2026-08-17T16:57+03:00 EAT · **Source date:** — none stated
 - **URL:** https://media.minorhotels.com/en-GLO/269206-anantara-villa-padierna-celebrates-its-origins-with-a-festival-dedicated-to-the-essence-of-thailand
-- **Score parts:** tier +40, category +9, lead +16.8, relevance +0, freshness +17.5, undated -6
+- **Score parts:** tier +40, category +9, lead +16.8, relevance +0, freshness +16.4, undated -6
 
-### 🟡 [77.3] IHG One Rewards Partners with Live Nation Asia across the Greater China region to Unlock Exclusive Concert Experiences f
+### 🟡 [76.2] IHG One Rewards Partners with Live Nation Asia across the Greater China region to Unlock Exclusive Concert Experiences f
 - **Verdict:** CONSIDER
 - **Source:** IHG news · tier 1 · GLOBAL · hotel-group
 - **First seen:** 2026-08-17T16:57+03:00 EAT · **Source date:** — none stated
 - **URL:** https://www.ihgplc.com/en/news-and-media/news-releases/2026/ihg-one-rewards-partners-with-live-nation-asia-across-the-greater-china-region-to-unlock-exclusive-concert-experiences-for-travellers
-- **Score parts:** tier +40, category +9, lead +16.8, relevance +0, freshness +17.5, undated -6
+- **Score parts:** tier +40, category +9, lead +16.8, relevance +0, freshness +16.4, undated -6
 
-### 🟡 [75.7] [page changed] Federal Register — public inspection (HHS/CDC), pre-publication
+### 🟡 [74.6] [page changed] Federal Register — public inspection (HHS/CDC), pre-publication
 - **Verdict:** CHECK — source date older than the window
 - **Source:** Federal Register — public inspection (HHS/CDC), pre-publication · tier 1 · REG · advisory
 - **First seen:** 2026-08-17T13:52+03:00 EAT · **Source date:** 2026-08-13
 - **URL:** https://www.federalregister.gov/api/v1/public-inspection-documents/current.json
 - **Extract:** {"count":88,"results":[{"agencies":[{"raw_name":"Children and Families Administration","name":"Children and Families Administration","id":49,"url":"https://www.federalregister.gov/agencies/children-and-families-administration","json_url":"https://www.federalre
-- **Score parts:** tier +40, category +32, lead +3.6, relevance +0, freshness +14.1, stale_trap -10, page_change -4
+- **Score parts:** tier +40, category +32, lead +3.6, relevance +0, freshness +13, stale_trap -10, page_change -4
 
-### 🟡 [75.3] SUPPLY OF TYRES UNDER FRAME WORK CONTRACT FOR...
+### 🟡 [74.2] SUPPLY OF TYRES UNDER FRAME WORK CONTRACT FOR...
 - **Verdict:** CONSIDER
 - **Source:** Uganda EGP portal · tier 1 · UG · tender
 - **First seen:** 2026-08-17T16:57+03:00 EAT · **Source date:** — none stated
 - **URL:** https://egpuganda.go.ug/index/390077936_egp
-- **Score parts:** tier +40, category +7, lead +16.8, relevance +0, freshness +17.5, undated -6
+- **Score parts:** tier +40, category +7, lead +16.8, relevance +0, freshness +16.4, undated -6
 
-### 🟡 [73.9] Nordwind Aug/Sep 2026 Kazan – Uzbekistan Network Additions
+### 🟡 [72.8] Nordwind Aug/Sep 2026 Kazan – Uzbekistan Network Additions
 - **Verdict:** CONSIDER
 - **Source:** AeroRoutes schedule filings · tier 2 · GLOBAL · aviation-tracker
 - **First seen:** 2026-08-17T16:58+03:00 EAT · **Source date:** 2026-08-17
 - **URL:** https://www.aeroroutes.com/eng/260817-n4aug26uz
 - **Extract:** Published at 0200PDT / 0900GMT 17AUG26 Nordwind Airlines in the third quarter of 2026 continues to expand service between Kazan and Uzbekistan, as the airline launches service to Namangan and Samarkand. Kazan – Namangan eff 05SEP26 1 weekly A321 N41327 KZN2210
-- **Score parts:** tier +20, category +14, lead +8.4, relevance +4, freshness +17.5, corroborated +10
+- **Score parts:** tier +20, category +14, lead +8.4, relevance +4, freshness +16.4, corroborated +10
 
-### 🟡 [73.5] Public Notice
+### 🟡 [72.4] Public Notice
 - **Verdict:** CONSIDER
 - **Source:** EWURA — Tanzania energy & water regulator · tier 1 · TZ · regulator
 - **First seen:** 2026-08-17T13:53+03:00 EAT · **Source date:** — none stated
 - **URL:** https://www.ewura.go.tz/publications/public-notice
-- **Score parts:** tier +40, category +17, lead +8.4, relevance +0, freshness +14.1, undated -6
+- **Score parts:** tier +40, category +17, lead +8.4, relevance +0, freshness +13, undated -6
 
-### 🟡 [73.5] Publications
+### 🟡 [72.4] Publications
 - **Verdict:** CONSIDER
 - **Source:** EWURA — Tanzania energy & water regulator · tier 1 · TZ · regulator
 - **First seen:** 2026-08-17T13:53+03:00 EAT · **Source date:** — none stated
 - **URL:** https://www.ewura.go.tz/publications
-- **Score parts:** tier +40, category +17, lead +8.4, relevance +0, freshness +14.1, undated -6
+- **Score parts:** tier +40, category +17, lead +8.4, relevance +0, freshness +13, undated -6
 
-### 🟡 [73.5] News Letter
+### 🟡 [72.4] News Letter
 - **Verdict:** CONSIDER
 - **Source:** EWURA — Tanzania energy & water regulator · tier 1 · TZ · regulator
 - **First seen:** 2026-08-17T13:53+03:00 EAT · **Source date:** — none stated
 - **URL:** https://www.ewura.go.tz/publications/news-letter
-- **Score parts:** tier +40, category +17, lead +8.4, relevance +0, freshness +14.1, undated -6
+- **Score parts:** tier +40, category +17, lead +8.4, relevance +0, freshness +13, undated -6
 
-### 🟡 [73.5] Fact Sheet/Booklets/Brochures
+### 🟡 [72.4] Fact Sheet/Booklets/Brochures
 - **Verdict:** CONSIDER
 - **Source:** EWURA — Tanzania energy & water regulator · tier 1 · TZ · regulator
 - **First seen:** 2026-08-17T13:53+03:00 EAT · **Source date:** — none stated
 - **URL:** https://www.ewura.go.tz/publications/dasboard
-- **Score parts:** tier +40, category +17, lead +8.4, relevance +0, freshness +14.1, undated -6
+- **Score parts:** tier +40, category +17, lead +8.4, relevance +0, freshness +13, undated -6
 
-### 🟡 [73.5] Latest News View All
+### 🟡 [72.4] Latest News View All
 - **Verdict:** CONSIDER
 - **Source:** EWURA — Tanzania energy & water regulator · tier 1 · TZ · regulator
 - **First seen:** 2026-08-17T13:53+03:00 EAT · **Source date:** — none stated
 - **URL:** https://www.ewura.go.tz/news
-- **Score parts:** tier +40, category +17, lead +8.4, relevance +0, freshness +14.1, undated -6
+- **Score parts:** tier +40, category +17, lead +8.4, relevance +0, freshness +13, undated -6
 
-### 🟡 [73.5] 30 Jul 26 EWURA Welcomes New Director General, Mr. Salum Mnuna EWURA Director General, Mr. Salum Mnuna (left), receives 
+### 🟡 [72.4] 30 Jul 26 EWURA Welcomes New Director General, Mr. Salum Mnuna EWURA Director General, Mr. Salum Mnuna (left), receives 
 - **Verdict:** CONSIDER
 - **Source:** EWURA — Tanzania energy & water regulator · tier 1 · TZ · regulator
 - **First seen:** 2026-08-17T13:53+03:00 EAT · **Source date:** — none stated
 - **URL:** https://www.ewura.go.tz/news/ewura-welcomes-new-director-general-mr-salum-mnuna
-- **Score parts:** tier +40, category +17, lead +8.4, relevance +0, freshness +14.1, undated -6
+- **Score parts:** tier +40, category +17, lead +8.4, relevance +0, freshness +13, undated -6
 
-### 🟡 [73.5] 30 Jul 26 EWURA Board Leads ZERA Delegation on Study Visit to EWURA
+### 🟡 [72.4] 30 Jul 26 EWURA Board Leads ZERA Delegation on Study Visit to EWURA
 - **Verdict:** CONSIDER
 - **Source:** EWURA — Tanzania energy & water regulator · tier 1 · TZ · regulator
 - **First seen:** 2026-08-17T13:53+03:00 EAT · **Source date:** — none stated
 - **URL:** https://www.ewura.go.tz/news/ewura-board-leads-zera-delegation-on-study-visit-to-ewura
-- **Score parts:** tier +40, category +17, lead +8.4, relevance +0, freshness +14.1, undated -6
+- **Score parts:** tier +40, category +17, lead +8.4, relevance +0, freshness +13, undated -6
 
-### 🟡 [73.5] 15 Jul 26 Launching of Guidelines for Inclusive Sanitation Planning in WSSAs Service Areas.
+### 🟡 [72.4] 15 Jul 26 Launching of Guidelines for Inclusive Sanitation Planning in WSSAs Service Areas.
 - **Verdict:** CONSIDER
 - **Source:** EWURA — Tanzania energy & water regulator · tier 1 · TZ · regulator
 - **First seen:** 2026-08-17T13:53+03:00 EAT · **Source date:** — none stated
 - **URL:** https://www.ewura.go.tz/news/launching-of-guidelines-for-inclusive-sanitation-planning-in-wssas-service-areas
-- **Score parts:** tier +40, category +17, lead +8.4, relevance +0, freshness +14.1, undated -6
+- **Score parts:** tier +40, category +17, lead +8.4, relevance +0, freshness +13, undated -6
 
-### 🟡 [73.5] --> Latest Documents View All -->
+### 🟡 [72.4] --> Latest Documents View All -->
 - **Verdict:** CONSIDER
 - **Source:** EWURA — Tanzania energy & water regulator · tier 1 · TZ · regulator
 - **First seen:** 2026-08-17T13:53+03:00 EAT · **Source date:** — none stated
 - **URL:** https://www.ewura.go.tz/publications.html
-- **Score parts:** tier +40, category +17, lead +8.4, relevance +0, freshness +14.1, undated -6
+- **Score parts:** tier +40, category +17, lead +8.4, relevance +0, freshness +13, undated -6
 
-### 🟡 [73.5] Publications View All
+### 🟡 [72.4] Publications View All
 - **Verdict:** CONSIDER
 - **Source:** EWURA — Tanzania energy & water regulator · tier 1 · TZ · regulator
 - **First seen:** 2026-08-17T13:53+03:00 EAT · **Source date:** — none stated
 - **URL:** https://www.ewura.go.tz/publications 
-- **Score parts:** tier +40, category +17, lead +8.4, relevance +0, freshness +14.1, undated -6
+- **Score parts:** tier +40, category +17, lead +8.4, relevance +0, freshness +13, undated -6
 
-### 🟡 [73.5] Learn More
+### 🟡 [72.4] Learn More
 - **Verdict:** CONSIDER
 - **Source:** Zanzibar Ports Corporation · tier 1 · TZ · regulator
 - **First seen:** 2026-08-17T13:52+03:00 EAT · **Source date:** — none stated
 - **URL:** https://zpc.go.tz/new_project?n=26
-- **Score parts:** tier +40, category +17, lead +8.4, relevance +0, freshness +14.1, undated -6
+- **Score parts:** tier +40, category +17, lead +8.4, relevance +0, freshness +13, undated -6
 
-### 🟡 [73.5] Learn More
+### 🟡 [72.4] Learn More
 - **Verdict:** CONSIDER
 - **Source:** Zanzibar Ports Corporation · tier 1 · TZ · regulator
 - **First seen:** 2026-08-17T13:52+03:00 EAT · **Source date:** — none stated
 - **URL:** https://zpc.go.tz/new_project?n=25
-- **Score parts:** tier +40, category +17, lead +8.4, relevance +0, freshness +14.1, undated -6
-
-### 🟡 [73.5] Learn More
-- **Verdict:** CONSIDER
-- **Source:** Zanzibar Ports Corporation · tier 1 · TZ · regulator
-- **First seen:** 2026-08-17T13:52+03:00 EAT · **Source date:** — none stated
-- **URL:** https://zpc.go.tz/new_project?n=24
-- **Score parts:** tier +40, category +17, lead +8.4, relevance +0, freshness +14.1, undated -6
-
-### 🟡 [73.5] Learn More
-- **Verdict:** CONSIDER
-- **Source:** Zanzibar Ports Corporation · tier 1 · TZ · regulator
-- **First seen:** 2026-08-17T13:52+03:00 EAT · **Source date:** — none stated
-- **URL:** https://zpc.go.tz/new_project?n=23
-- **Score parts:** tier +40, category +17, lead +8.4, relevance +0, freshness +14.1, undated -6
-
-### 🟡 [72.7] Your Hotel Now Has Five AIs, and None of Them Have Met Each Other
-- **Verdict:** CONSIDER
-- **Source:** Hospitality Net — Africa announcements · tier 2 · REG · trade
-- **First seen:** 2026-08-17T13:52+03:00 EAT · **Source date:** 2026-08-17
-- **URL:** https://www.hospitalitynet.org/opinion/4133968/your-hotel-now-has-five-ais-and-none-of-them-have-met-each-other
-- **Extract:** Opinion arguing that siloed AI tools across pricing, messaging, and booking create contradictory guest interactions, making hotels feel less coherent than before AI adoption.
-- **Score parts:** tier +20, category +5, lead +3.6, relevance +20, freshness +14.1, corroborated +10
-
-### 🟡 [72.7] Is Fitness Now A Primary Booking Driver
-- **Verdict:** CONSIDER
-- **Source:** Hospitality Net — Africa announcements · tier 2 · REG · trade
-- **First seen:** 2026-08-17T13:52+03:00 EAT · **Source date:** 2026-08-17
-- **URL:** https://www.hospitalitynet.org/opinion/4133611/is-fitness-now-a-primary-booking-driver
-- **Extract:** Fitness is emerging as a standalone booking driver across all hotel segments, with examples from Equinox, SIRO, Canyon Ranch, and EVEN Hotels showing how programming and design can lift ADR and guest satisfaction.
-- **Score parts:** tier +20, category +5, lead +3.6, relevance +20, freshness +14.1, corroborated +10
-
-### 🟡 [71.5] Regional Health experts meet in Dar to fast-track preps for the 4th ReSCO meeting
-- **Verdict:** CONSIDER
-- **Source:** Daily News (Tanzania) · tier 2 · TZ · press
-- **First seen:** 2026-08-17T16:58+03:00 EAT · **Source date:** 2026-08-17
-- **URL:** https://dailynews.co.tz/regional-health-experts-meet-in-dar-to-fast-track-preps-for-the-4th-resco-meeting
-- **Extract:** DAR ES SALAAM: Preparations for the Fourth Meeting of the Regional Steering Committee of East African Ministers of Health (ReSCO) are underway, with health experts from across the East African region meeting in Dar es Salaam to discuss key regional health prio
-- **Score parts:** tier +20, category +4, lead +0, relevance +20, freshness +17.5, corroborated +10
+- **Score parts:** tier +40, category +17, lead +8.4, relevance +0, freshness +13, undated -6
