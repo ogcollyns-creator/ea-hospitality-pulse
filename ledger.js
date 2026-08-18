@@ -1,8 +1,8 @@
 window.LEDGER = {
- "updated": "2026-08-18 05:58",
+ "updated": "2026-08-18 09:32",
  "stats": {
-  "total": 102,
-  "open": 82,
+  "total": 104,
+  "open": 84,
   "resolved": 20,
   "correct": 14,
   "partial": 1,
@@ -907,6 +907,22 @@ window.LEDGER = {
    "overdue": false
   },
   {
+   "id": "P103",
+   "made_date": "2026-08-18",
+   "edition": "pulse-2026-08-18-special",
+   "claim": "Mombasa (MIA) arrivals will keep outpacing JKIA on YoY growth in the next KNBS arrivals print (May–June 2026) — the coast is recovering faster than the Nairobi gateway, not a one-quarter artefact",
+   "resolution_criteria": "The next KNBS Leading Economic Indicators covering May–June 2026 shows MIA year-on-year arrivals growth exceeding JKIA year-on-year growth. If JKIA growth matches or exceeds MIA, the call is incorrect",
+   "resolve_by": "2026-12-31",
+   "market": "Kenya",
+   "segment": "City/Beach",
+   "confidence": "Medium",
+   "status": "open",
+   "resolved_date": "",
+   "evidence": "",
+   "source_url": "https://www.knbs.or.ke/",
+   "overdue": false
+  },
+  {
    "id": "P006",
    "made_date": "2026-07-25",
    "edition": "Morning Brief",
@@ -1272,6 +1288,22 @@ window.LEDGER = {
    "resolved_date": "",
    "evidence": "",
    "source_url": "https://www.iata.org/en/pressroom/2025-releases/2025-12-09-01/",
+   "overdue": false
+  },
+  {
+   "id": "P102",
+   "made_date": "2026-08-18",
+   "edition": "pulse-2026-08-18-special",
+   "claim": "Kenya's full-year 2026 visitor arrivals will exceed full-year 2025 — the Jan–Apr 2026 run-rate of +9.5% YoY (828,830 vs 757,245) will carry through the year",
+   "resolution_criteria": "KNBS Leading Economic Indicators or Tourism Research Institute full-year 2026 arrivals (published by 30 Jun 2027) show a total above the 2025 full-year figure. If 2026 arrivals come in at or below 2025, the call is incorrect",
+   "resolve_by": "2027-06-30",
+   "market": "Kenya",
+   "segment": "City/Bush/Beach",
+   "confidence": "Medium",
+   "status": "open",
+   "resolved_date": "",
+   "evidence": "",
+   "source_url": "https://www.knbs.or.ke/",
    "overdue": false
   },
   {
