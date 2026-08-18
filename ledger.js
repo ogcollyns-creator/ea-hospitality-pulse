@@ -1,8 +1,8 @@
 window.LEDGER = {
- "updated": "2026-08-17 13:19",
+ "updated": "2026-08-18 08:56",
  "stats": {
-  "total": 100,
-  "open": 80,
+  "total": 102,
+  "open": 82,
   "resolved": 20,
   "correct": 14,
   "partial": 1,
@@ -1083,6 +1083,22 @@ window.LEDGER = {
    "overdue": false
   },
   {
+   "id": "P100",
+   "made_date": "2026-08-18",
+   "edition": "pulse-2026-08-18-morning",
+   "claim": "Uganda Airlines' Entebbe–Accra service (4x weekly, launching 27 Oct 2026) will still operate at 3x weekly or more on 31 March 2027 — a test of whether thin-margin new African routes survive their first season",
+   "resolution_criteria": "ch-aviation, AeroRoutes or Uganda Airlines' published timetable checked on 31 Mar 2027 shows Entebbe–Accra at 3x weekly or more. If suspended or reduced below 3x weekly the call is incorrect",
+   "resolve_by": "2027-03-31",
+   "market": "Regional",
+   "segment": "City/Bush",
+   "confidence": "Medium",
+   "status": "open",
+   "resolved_date": "",
+   "evidence": "",
+   "source_url": "https://www.theeastafrican.co.ke/tea/business-tech/uganda-airlines-adds-kigali-accra-to-route-network-5547894",
+   "overdue": false
+  },
+  {
    "id": "P019",
    "made_date": "2026-07-26",
    "edition": "Sunday Foresight",
@@ -1240,6 +1256,22 @@ window.LEDGER = {
    "resolved_date": "",
    "evidence": "",
    "source_url": "https://www.eacompetition.org/",
+   "overdue": false
+  },
+  {
+   "id": "P101",
+   "made_date": "2026-08-18",
+   "edition": "pulse-2026-08-18-morning",
+   "claim": "IATA will NOT revise African airlines' 2026 net profit back above US$200m in its next full-year outlook — the June 2026 downgrade to ~US$100m (US$0.40/passenger) reflects structural cost pressure not a transient shock",
+   "resolution_criteria": "IATA December 2026 Global Outlook for Air Transport (or 2026 actuals published by 30 Jun 2027) reports African airlines' 2026 net profit at or below US$200m. If IATA reports 2026 African net profit above US$200m the call is incorrect",
+   "resolve_by": "2027-06-30",
+   "market": "Regional",
+   "segment": "City/Bush/Beach",
+   "confidence": "Medium",
+   "status": "open",
+   "resolved_date": "",
+   "evidence": "",
+   "source_url": "https://www.iata.org/en/pressroom/2025-releases/2025-12-09-01/",
    "overdue": false
   },
   {
