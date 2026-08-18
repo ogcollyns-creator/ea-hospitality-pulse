@@ -1,147 +1,325 @@
 # Radar candidates — morning slot
-_Window opens Mon 17 Aug 18:00 EAT · 377 observations in window · 6 headlines deduped against_
+_Window opens Mon 17 Aug 18:00 EAT · 520 observations in window · 6 headlines deduped against_
 
 Ranked by first-seen recency, source tier and hospitality relevance. `first seen` is when the radar observed the item, which is the date the recency gate runs on. `published` is what the source claims — where the two disagree, the disagreement is the story.
 
-### 🚨 [101.3] [page changed] Federal Register — public inspection (HHS/CDC), pre-publication
+### 🚨 [101.4] [page changed] Federal Register — public inspection (HHS/CDC), pre-publication
+- **Verdict:** OPEN THIS — tier-1 advisory page moved; content not auto-parsed, read it manually
+- **Source:** Federal Register — public inspection (HHS/CDC), pre-publication · tier 1 · REG · advisory
+- **First seen:** 2026-08-18T06:11+03:00 EAT · **Source date:** 2026-08-17
+- **URL:** https://www.federalregister.gov/api/v1/public-inspection-documents/current.json
+- **Extract:** {"count":75,"results":[{"agencies":[{"raw_name":"SUSQUEHANNA RIVER BASIN COMMISSION","name":"Susquehanna River Basin Commission","id":482,"url":"https://www.federalregister.gov/agencies/susquehanna-river-basin-commission","json_url":"https://www.federalregiste
+- **Score parts:** tier +40, category +32, lead +3.6, relevance +0, freshness +19.8, corroborated +10, page_change -4
+
+### 🚨 [96.7] [page changed] Federal Register — public inspection (HHS/CDC), pre-publication
 - **Verdict:** OPEN THIS — tier-1 advisory page moved; content not auto-parsed, read it manually
 - **Source:** Federal Register — public inspection (HHS/CDC), pre-publication · tier 1 · REG · advisory
 - **First seen:** 2026-08-18T01:55+03:00 EAT · **Source date:** 2026-08-17
 - **URL:** https://www.federalregister.gov/api/v1/public-inspection-documents/current.json
 - **Extract:** {"count":75,"results":[{"agencies":[{"raw_name":"SUSQUEHANNA RIVER BASIN COMMISSION","name":"Susquehanna River Basin Commission","id":482,"url":"https://www.federalregister.gov/agencies/susquehanna-river-basin-commission","json_url":"https://www.federalregiste
-- **Score parts:** tier +40, category +32, lead +3.6, relevance +0, freshness +19.7, corroborated +10, page_change -4
+- **Score parts:** tier +40, category +32, lead +3.6, relevance +0, freshness +15.1, corroborated +10, page_change -4
 
-### 🚨 [97.4] [page changed] Federal Register — public inspection (HHS/CDC), pre-publication
+### 🚨 [92.7] [page changed] Federal Register — public inspection (HHS/CDC), pre-publication
 - **Verdict:** OPEN THIS — tier-1 advisory page moved; content not auto-parsed, read it manually
 - **Source:** Federal Register — public inspection (HHS/CDC), pre-publication · tier 1 · REG · advisory
 - **First seen:** 2026-08-17T22:17+03:00 EAT · **Source date:** 2026-08-17
 - **URL:** https://www.federalregister.gov/api/v1/public-inspection-documents/current.json
 - **Extract:** {"count":75,"results":[{"agencies":[{"raw_name":"SUSQUEHANNA RIVER BASIN COMMISSION","name":"Susquehanna River Basin Commission","id":482,"url":"https://www.federalregister.gov/agencies/susquehanna-river-basin-commission","json_url":"https://www.federalregiste
-- **Score parts:** tier +40, category +32, lead +3.6, relevance +0, freshness +15.8, corroborated +10, page_change -4
+- **Score parts:** tier +40, category +32, lead +3.6, relevance +0, freshness +11.1, corroborated +10, page_change -4
 
-### 🚨 [93.7] [page changed] Federal Register — public inspection (HHS/CDC), pre-publication
+### 🚨 [89.1] [page changed] Federal Register — public inspection (HHS/CDC), pre-publication
 - **Verdict:** OPEN THIS — tier-1 advisory page moved; content not auto-parsed, read it manually
 - **Source:** Federal Register — public inspection (HHS/CDC), pre-publication · tier 1 · REG · advisory
 - **First seen:** 2026-08-17T19:00+03:00 EAT · **Source date:** 2026-08-17
 - **URL:** https://www.federalregister.gov/api/v1/public-inspection-documents/current.json
 - **Extract:** {"count":75,"results":[{"agencies":[{"raw_name":"SUSQUEHANNA RIVER BASIN COMMISSION","name":"Susquehanna River Basin Commission","id":482,"url":"https://www.federalregister.gov/agencies/susquehanna-river-basin-commission","json_url":"https://www.federalregiste
-- **Score parts:** tier +40, category +32, lead +3.6, relevance +0, freshness +12.1, corroborated +10, page_change -4
+- **Score parts:** tier +40, category +32, lead +3.6, relevance +0, freshness +7.5, corroborated +10, page_change -4
 
-### 🚨 [58.9] [page changed] Jambojet media
+### 🚨 [65.4] [page changed] Jambojet media
+- **Verdict:** OPEN THIS — tier-1 airline page moved; content not auto-parsed, read it manually
+- **Source:** Jambojet media · tier 1 · KE · airline
+- **First seen:** 2026-08-18T06:11+03:00 EAT · **Source date:** — none stated
+- **URL:** https://www.jambojet.com/en/press-release
+- **Extract:** Request unsuccessful. Incapsula incident ID: 175000300499856084-319347611791198121
+- **Score parts:** tier +40, category +12, lead +3.6, relevance +0, freshness +19.8, undated -6, page_change -4
+
+### 🚨 [54.2] [page changed] Jambojet media
 - **Verdict:** OPEN THIS — tier-1 airline page moved; content not auto-parsed, read it manually
 - **Source:** Jambojet media · tier 1 · KE · airline
 - **First seen:** 2026-08-17T20:01+03:00 EAT · **Source date:** — none stated
 - **URL:** https://www.jambojet.com/en/press-release
 - **Extract:** Request unsuccessful. Incapsula incident ID: 396000330474466107-131004108941035623
-- **Score parts:** tier +40, category +12, lead +3.6, relevance +0, freshness +13.3, undated -6, page_change -4
+- **Score parts:** tier +40, category +12, lead +3.6, relevance +0, freshness +8.6, undated -6, page_change -4
 
-### 🚨 [57.7] [page changed] Airlink news
+### 🚨 [53.1] [page changed] Airlink news
 - **Verdict:** OPEN THIS — tier-1 airline page moved; content not auto-parsed, read it manually
 - **Source:** Airlink news · tier 1 · REG · airline
 - **First seen:** 2026-08-17T19:00+03:00 EAT · **Source date:** — none stated
 - **URL:** https://www.flyairlink.com/
 - **Extract:** Request unsuccessful. Incapsula incident ID: 1010000041326079773-608809887697338664
-- **Score parts:** tier +40, category +12, lead +3.6, relevance +0, freshness +12.1, undated -6, page_change -4
+- **Score parts:** tier +40, category +12, lead +3.6, relevance +0, freshness +7.5, undated -6, page_change -4
 
-### 🟠 [92.9] Tuesday, 18th August, 2026 at 2.30pm
-- **Verdict:** STRONG — tier-1, upstream
+### 🟡 [97.8] Chairmania Events Ltd v Commissioner for Investigation and Enforcement (Tax Appeal E1370 of 2025) [2026] KETAT 283 (KLR)
+- **Verdict:** CHECK — source date older than the window
+- **Source:** Kenya Gazette (Kenya Law) · tier 1 · KE · gazette
+- **First seen:** 2026-08-18T06:11+03:00 EAT · **Source date:** 2026-08-14
+- **URL:** https://new.kenyalaw.org/akn/ke/judgment/ketat/2026/283/eng@2026-08-14
+- **Extract:** Chairmania Events Ltd v Commissioner for Investigation and Enforcement (Tax Appeal E1370 of 2025) [2026] KETAT 283 (KLR) (14 August 2026) (Judgment)
+- **Score parts:** tier +40, category +20, lead +12, relevance +16, freshness +19.8, stale_trap -10
+
+### 🟡 [97.8] Mseky Holdings Ltd v Commissioner of Legal and Board Services (Tax Appeal E1181 of 2025) [2026] KETAT 282 (KLR) (14 Augu
+- **Verdict:** CHECK — source date older than the window
+- **Source:** Kenya Gazette (Kenya Law) · tier 1 · KE · gazette
+- **First seen:** 2026-08-18T06:11+03:00 EAT · **Source date:** 2026-08-14
+- **URL:** https://new.kenyalaw.org/akn/ke/judgment/ketat/2026/282/eng@2026-08-14
+- **Extract:** Mseky Holdings Ltd v Commissioner of Legal and Board Services (Tax Appeal E1181 of 2025) [2026] KETAT 282 (KLR) (14 August 2026) (Judgment)
+- **Score parts:** tier +40, category +20, lead +12, relevance +16, freshness +19.8, stale_trap -10
+
+### 🟡 [97.8] Ngulli v Commissioner of Domestic Taxes (Tax Appeal E927 of 2025) [2026] KETAT 281 (KLR) (14 August 2026) (Judgment)
+- **Verdict:** CHECK — source date older than the window
+- **Source:** Kenya Gazette (Kenya Law) · tier 1 · KE · gazette
+- **First seen:** 2026-08-18T06:11+03:00 EAT · **Source date:** 2026-08-14
+- **URL:** https://new.kenyalaw.org/akn/ke/judgment/ketat/2026/281/eng@2026-08-14
+- **Extract:** Ngulli v Commissioner of Domestic Taxes (Tax Appeal E927 of 2025) [2026] KETAT 281 (KLR) (14 August 2026) (Judgment)
+- **Score parts:** tier +40, category +20, lead +12, relevance +16, freshness +19.8, stale_trap -10
+
+### 🟡 [97.8] Jilk Construction Company Ltd v Commissioner of Legal and Board Services (Tax Appeal E1200 of 2025) [2026] KETAT 280 (KL
+- **Verdict:** CHECK — source date older than the window
+- **Source:** Kenya Gazette (Kenya Law) · tier 1 · KE · gazette
+- **First seen:** 2026-08-18T06:11+03:00 EAT · **Source date:** 2026-08-14
+- **URL:** https://new.kenyalaw.org/akn/ke/judgment/ketat/2026/280/eng@2026-08-14
+- **Extract:** Jilk Construction Company Ltd v Commissioner of Legal and Board Services (Tax Appeal E1200 of 2025) [2026] KETAT 280 (KLR) (14 August 2026) (Judgment)
+- **Score parts:** tier +40, category +20, lead +12, relevance +16, freshness +19.8, stale_trap -10
+
+### 🟡 [96.2] HK Express NW26 Takamatsu Frequency Changes
+- **Verdict:** CONSIDER
+- **Source:** AeroRoutes schedule filings · tier 2 · GLOBAL · aviation-tracker
+- **First seen:** 2026-08-18T06:11+03:00 EAT · **Source date:** 2026-08-18
+- **URL:** https://www.aeroroutes.com/eng/260817-uonw26tak
+- **Extract:** Published at 1900PDT 17AUG26 / 0200GMT 18AUG26 HK Express during Northern winter 2026/27 season plans to maintain reduced frequency on Hong Kong – Takamatsu route. From 25OCT26 to 27MAR27, the airline maintains 4 weekly flights with Airbus A320neo, instead of 
+- **Score parts:** tier +20, category +14, lead +8.4, relevance +24, freshness +19.8, corroborated +10
+
+### 🟡 [92.2] Starlux Schedules Kaohsiung – Kobe Jan 2027 Launch
+- **Verdict:** CONSIDER
+- **Source:** AeroRoutes schedule filings · tier 2 · GLOBAL · aviation-tracker
+- **First seen:** 2026-08-18T06:11+03:00 EAT · **Source date:** 2026-08-18
+- **URL:** https://www.aeroroutes.com/eng/260817-jxjan27khhukb
+- **Extract:** Published at 1500PDT / 2200GMT 17AUG26 Starlux Airlines as of Monday 17AUG26 filed operational schedule for Kaohsiung – Kobe route, scheduled to commence on 01JAN27 at the earliest. Reservations for this route is expected to open soon. JX360 KHH0825 – 1215UKB 
+- **Score parts:** tier +20, category +14, lead +8.4, relevance +20, freshness +19.8, corroborated +10
+
+### 🟡 [88.3] Tuesday, 18th August, 2026 at 2.30pm
+- **Verdict:** CONSIDER
 - **Source:** Parliament of Kenya — bills & papers · tier 1 · KE · legislature
 - **First seen:** 2026-08-17T19:00+03:00 EAT · **Source date:** 2026-08-18
 - **URL:** https://www.parliament.go.ke/sites/default/files/2026-08/ORDER%20PAPER%20FOR%20TUESDAY%2C%2018TH%20AUGUST%202026.pdf
 - **Extract:** en-USThirteenth Parliament Fifth Session en-US en-US(No. 75) (2157) en-US en-US en-USREPUBLIC OF KENYA en-US en-USTHIRTEENTH PARLIAMENT (FIFTH SESSION) en-US en-USTHE NATIONAL ASSEMBLY en-US en-USORDERS OF THE DAY en-US en-US en-GBTUESDAY, AUGUST 18, 2026 en-U
-- **Score parts:** tier +40, category +10, lead +16.8, relevance +4, freshness +12.1, corroborated +10
+- **Score parts:** tier +40, category +10, lead +16.8, relevance +4, freshness +7.5, corroborated +10
 
-### 🟡 [90.0] Philippine Airlines NW26 Dubai Aircraft Changes
+### 🟡 [86.2] [page changed] ProMED-mail
+- **Verdict:** CONSIDER
+- **Source:** ProMED-mail · tier 2 · GLOBAL · health
+- **First seen:** 2026-08-18T06:11+03:00 EAT · **Source date:** — none stated
+- **URL:** https://promedmail.org/
+- **Shock language:** outbreak
+- **Extract:** Protecting Global Health, One Alert at a Time | ProMED Previous slide Next slide Protecting Global Health, One Alert at a Time ProMED: Your 24/7 early warning system for emerging infectious diseases worldwide. Subscribe ProMED's Weekly Pulse A snapshot of glob
+- **Score parts:** tier +20, category +24, lead +2.4, relevance +12, freshness +19.8, undated -6, shock +18, page_change -4
+
+### 🟡 [85.8] Masomi v Tourism Fund & 6 others (Petition E205 of 2026) [2026] KEELRC 2406 (KLR) (14 August 2026) (Ruling)
+- **Verdict:** CHECK — source date older than the window
+- **Source:** Kenya Gazette (Kenya Law) · tier 1 · KE · gazette
+- **First seen:** 2026-08-18T06:11+03:00 EAT · **Source date:** 2026-08-14
+- **URL:** https://new.kenyalaw.org/akn/ke/judgment/keelrc/2026/2406/eng@2026-08-14
+- **Extract:** Masomi v Tourism Fund & 6 others (Petition E205 of 2026) [2026] KEELRC 2406 (KLR) (14 August 2026) (Ruling)
+- **Score parts:** tier +40, category +20, lead +12, relevance +4, freshness +19.8, stale_trap -10
+
+### 🟡 [85.4] Philippine Airlines NW26 Dubai Aircraft Changes
 - **Verdict:** CONSIDER
 - **Source:** AeroRoutes schedule filings · tier 2 · GLOBAL · aviation-tracker
 - **First seen:** 2026-08-18T00:00+03:00 EAT · **Source date:** 2026-08-17
 - **URL:** https://www.aeroroutes.com/eng/260817-prnw26dxb
 - **Extract:** Published at 1100PDT / 1800GMT 17AUG26 Philippine Airlines during Northern winter 2026/27 season schedules aircraft changes on Manila – Dubai route. The airline intends to resume this route on 02OCT26, initially with 359 or 363-seater A330-300, switching to 37
-- **Score parts:** tier +20, category +14, lead +8.4, relevance +20, freshness +17.6, corroborated +10
+- **Score parts:** tier +20, category +14, lead +8.4, relevance +20, freshness +13, corroborated +10
 
-### 🟡 [85.7] Qatar Airways Moves Bogota / Caracas Launch to Nov 2026
+### 🟡 [84.2] Korean Air NW26 Brisbane Service Increases
 - **Verdict:** CONSIDER
 - **Source:** AeroRoutes schedule filings · tier 2 · GLOBAL · aviation-tracker
-- **First seen:** 2026-08-17T20:02+03:00 EAT · **Source date:** 2026-08-17
-- **URL:** https://www.aeroroutes.com/eng/260817-qrnov26bogccs
-- **Extract:** Published at 0900PDT / 1600GMT 17AUG26 Qatar Airways recently further revised planned service to Bogota and Caracas, as the airline closed reservations for service from 02SEP26. As of 17AUG26, reservations for flights between 02SEP26 and 01NOV26 are not availa
-- **Score parts:** tier +20, category +14, lead +8.4, relevance +20, freshness +13.3, corroborated +10
+- **First seen:** 2026-08-18T06:11+03:00 EAT · **Source date:** 2026-08-18
+- **URL:** https://www.aeroroutes.com/eng/260817-kenw26bne
+- **Extract:** Published at 1600PDT / 2300GMT 17AUG26 Korean Air during Northern winter 2026/27 season schedules service increase on Seoul Incheon – Brisbane route, as the carrier schedules 5th weekly flight from 20DEC26. Boeing 787-9 operates this route. KE407 ICN1940 – 062
+- **Score parts:** tier +20, category +14, lead +8.4, relevance +12, freshness +19.8, corroborated +10
 
-### 🟡 [85.7] Cathay Pacific Expands Alaska Airlines Codeshare From Aug 2026
-- **Verdict:** CONSIDER
-- **Source:** AeroRoutes schedule filings · tier 2 · GLOBAL · aviation-tracker
-- **First seen:** 2026-08-17T20:02+03:00 EAT · **Source date:** 2026-08-17
-- **URL:** https://www.aeroroutes.com/eng/260817-cxascodeshare
-- **Extract:** Published at 0700PDT / 1400GMT 17AUG26 Cathay Pacific earlier this month expanded codeshare partnership with Alaska Airlines, covering various routes to/from Seattle. Following codeshare routes went into effect since early-August 2026. Cathay Pacific operated 
-- **Score parts:** tier +20, category +14, lead +8.4, relevance +20, freshness +13.3, corroborated +10
+### 🟡 [81.8] Kaur t/a Kavraj Kaur & Associates v Kumar (Miscellaneous Civil Application E079 of 2026) [2026] KEHC 12878 (KLR) (13 Aug
+- **Verdict:** CHECK — source date older than the window
+- **Source:** Kenya Gazette (Kenya Law) · tier 1 · KE · gazette
+- **First seen:** 2026-08-18T06:11+03:00 EAT · **Source date:** 2026-08-13
+- **URL:** https://new.kenyalaw.org/akn/ke/judgment/kehc/2026/12878/eng@2026-08-13
+- **Extract:** Kaur t/a Kavraj Kaur & Associates v Kumar (Miscellaneous Civil Application E079 of 2026) [2026] KEHC 12878 (KLR) (13 August 2026) (Ruling)
+- **Score parts:** tier +40, category +20, lead +12, relevance +0, freshness +19.8, stale_trap -10
 
-### 🟡 [83.0] Saint Lucia - Level 1: Exercise Normal Precautions
-- **Verdict:** CONSIDER
-- **Source:** US State Dept travel advisories (EA feed) · tier 1 · REG · advisory
-- **First seen:** 2026-08-17T22:17+03:00 EAT · **Source date:** — none stated
-- **URL:** https://travel.state.gov/content/tsg_aem/us/en/home/international-travel/travel-advisories/destination.lca.html
-- **Extract:** Exercise normal precautionSummary not available
-- **Score parts:** tier +40, category +32, lead +1.2, relevance +0, freshness +15.8, undated -6
+### 🟡 [81.8] Kenya Ports Authority v Oruko & another (Civil Appeal E050 of 2025) [2026] KEHC 12877 (KLR) (14 August 2026) (Judgment)
+- **Verdict:** CHECK — source date older than the window
+- **Source:** Kenya Gazette (Kenya Law) · tier 1 · KE · gazette
+- **First seen:** 2026-08-18T06:11+03:00 EAT · **Source date:** 2026-08-14
+- **URL:** https://new.kenyalaw.org/akn/ke/judgment/kehc/2026/12877/eng@2026-08-14
+- **Extract:** Kenya Ports Authority v Oruko & another (Civil Appeal E050 of 2025) [2026] KEHC 12877 (KLR) (14 August 2026) (Judgment)
+- **Score parts:** tier +40, category +20, lead +12, relevance +0, freshness +19.8, stale_trap -10
 
-### 🟡 [82.0] Singapore Airlines NW26 Hangzhou Aircraft Changes
-- **Verdict:** CONSIDER
-- **Source:** AeroRoutes schedule filings · tier 2 · GLOBAL · aviation-tracker
-- **First seen:** 2026-08-18T00:00+03:00 EAT · **Source date:** 2026-08-17
-- **URL:** https://www.aeroroutes.com/eng/260817-sqnw26hgh
-- **Extract:** Published at 1300PDT / 2000GMT 17AUG26 Singapore Airlines during Northern winter 2026/27 season is adjusting operational aircraft on Singapore – Hangzhou route, as the 787-10 operates along with A350-900 during winter season. Planned operational aircraft and d
-- **Score parts:** tier +20, category +14, lead +8.4, relevance +12, freshness +17.6, corroborated +10
+### 🟡 [81.8] In re Estate of Muya (Deceased) (Succession Cause 68 of 1985) [2026] KEHC 12876 (KLR) (14 August 2026) (Ruling)
+- **Verdict:** CHECK — source date older than the window
+- **Source:** Kenya Gazette (Kenya Law) · tier 1 · KE · gazette
+- **First seen:** 2026-08-18T06:11+03:00 EAT · **Source date:** 2026-08-14
+- **URL:** https://new.kenyalaw.org/akn/ke/judgment/kehc/2026/12876/eng@2026-08-14
+- **Extract:** In re Estate of Muya (Deceased) (Succession Cause 68 of 1985) [2026] KEHC 12876 (KLR) (14 August 2026) (Ruling)
+- **Score parts:** tier +40, category +20, lead +12, relevance +0, freshness +19.8, stale_trap -10
 
-### 🟡 [82.0] Asiana / Korean Air Further Expands Codeshare Routes in late-August 2026
-- **Verdict:** CONSIDER
-- **Source:** AeroRoutes schedule filings · tier 2 · GLOBAL · aviation-tracker
-- **First seen:** 2026-08-18T00:00+03:00 EAT · **Source date:** 2026-08-17
-- **URL:** https://www.aeroroutes.com/eng/260817-keozcodeshare
-- **Extract:** Published at 1200PDT / 1900GMT 17AUG26 Asiana Airlines and Korean Air last week continues to file additional codeshare routes, scheduled to commence on 24AUG26. Additional codeshare routes includes Australia and Japan. Asiana Airlines operated by Korean Air Se
-- **Score parts:** tier +20, category +14, lead +8.4, relevance +12, freshness +17.6, corroborated +10
+### 🟡 [81.8] Republic v Busienei alias Ngori (Criminal Case E018 of 2023) [2026] KEHC 12875 (KLR) (14 August 2026) (Sentence)
+- **Verdict:** CHECK — source date older than the window
+- **Source:** Kenya Gazette (Kenya Law) · tier 1 · KE · gazette
+- **First seen:** 2026-08-18T06:11+03:00 EAT · **Source date:** 2026-08-14
+- **URL:** https://new.kenyalaw.org/akn/ke/judgment/kehc/2026/12875/eng@2026-08-14
+- **Extract:** Republic v Busienei alias Ngori (Criminal Case E018 of 2023) [2026] KEHC 12875 (KLR) (14 August 2026) (Sentence)
+- **Score parts:** tier +40, category +20, lead +12, relevance +0, freshness +19.8, stale_trap -10
 
-### 🟡 [80.3] EAC to Convene 2nd Regional Education Conference in Nairobi to Drive Education Transformation
-- **Verdict:** CONSIDER
-- **Source:** East African Community — Secretariat news · tier 1 · Regional · body
-- **First seen:** 2026-08-17T20:01+03:00 EAT · **Source date:** 2026-08-17
-- **URL:** https://www.eac.int/press-releases/138-education,-science-technology-news/3581-eac-to-convene-2nd-regional-education-conference-in-nairobi-to-drive-education-transformation%20
-- **Extract:** East African Community Headquarters, Arusha, Tanzania, 17 th August, 2026: The East African Community (EAC) will convene the 2 nd EAC Regional Conference on Education in Nairobi, Kenya from 24 th to 28 th August 2026 to accelerate practical action towards tran
-- **Score parts:** tier +40, category +7, lead +6, relevance +4, freshness +13.3, corroborated +10
+### 🟡 [81.8] Progressive Credit Ltd v Wanjala & another (Commercial Case E2841 of 2025) [2026] SCC 212 (KLR) (14 August 2026) (Ruling
+- **Verdict:** CHECK — source date older than the window
+- **Source:** Kenya Gazette (Kenya Law) · tier 1 · KE · gazette
+- **First seen:** 2026-08-18T06:11+03:00 EAT · **Source date:** 2026-08-14
+- **URL:** https://new.kenyalaw.org/akn/ke/judgment/scc/2026/212/eng@2026-08-14
+- **Extract:** Progressive Credit Ltd v Wanjala & another (Commercial Case E2841 of 2025) [2026] SCC 212 (KLR) (14 August 2026) (Ruling)
+- **Score parts:** tier +40, category +20, lead +12, relevance +0, freshness +19.8, stale_trap -10
 
-### 🟡 [73.7] Xiamen Adds A321neo Fuzhou International Flights in Sep/Oct 2026
-- **Verdict:** CONSIDER
-- **Source:** AeroRoutes schedule filings · tier 2 · GLOBAL · aviation-tracker
-- **First seen:** 2026-08-17T20:02+03:00 EAT · **Source date:** 2026-08-17
-- **URL:** https://www.aeroroutes.com/eng/260817-mfsep26foc
-- **Extract:** Published at 1000PDT / 1700GMT 17AUG26 Xiamen Airlines in September and October 2026 plans to launch Airbus A321neo international flights at Fuzhou , initially scheduled for Kuala Lumpur and Singapore. Fuzhou – Kuala Lumpur eff 04SEP26 2 of 7 weekly A321neo re
-- **Score parts:** tier +20, category +14, lead +8.4, relevance +8, freshness +13.3, corroborated +10
+### 🟡 [81.8] Republic v Sepepiari & 2 others (Criminal Case E006 of 2026) [2026] KEHC 12873 (KLR) (14 August 2026) (Ruling)
+- **Verdict:** CHECK — source date older than the window
+- **Source:** Kenya Gazette (Kenya Law) · tier 1 · KE · gazette
+- **First seen:** 2026-08-18T06:11+03:00 EAT · **Source date:** 2026-08-14
+- **URL:** https://new.kenyalaw.org/akn/ke/judgment/kehc/2026/12873/eng@2026-08-14
+- **Extract:** Republic v Sepepiari & 2 others (Criminal Case E006 of 2026) [2026] KEHC 12873 (KLR) (14 August 2026) (Ruling)
+- **Score parts:** tier +40, category +20, lead +12, relevance +0, freshness +19.8, stale_trap -10
 
-### 🟡 [73.7] Cathay Pacific 4Q26 Delhi A350-1000 Operations
-- **Verdict:** CONSIDER
-- **Source:** AeroRoutes schedule filings · tier 2 · GLOBAL · aviation-tracker
-- **First seen:** 2026-08-17T20:02+03:00 EAT · **Source date:** 2026-08-17
-- **URL:** https://www.aeroroutes.com/eng/260817-cx4q26del
-- **Extract:** Published at 0800PDT / 1500GMT 17AUG26 Cathay Pacific in the fourth quarter of 2026 schedules short term Airbus A350-1000 operation on Hong Kong – Delhi route. From 25OCT26 to 30NOV26, 1 of 2 daily CX695/698 to be operated by A350-1000, instead of 777-300ER. C
-- **Score parts:** tier +20, category +14, lead +8.4, relevance +8, freshness +13.3, corroborated +10
+### 🟡 [81.8] Sheppard & another v Mukola (Appeal E283 of 2024) [2026] KEELRC 2405 (KLR) (14 August 2026) (Ruling)
+- **Verdict:** CHECK — source date older than the window
+- **Source:** Kenya Gazette (Kenya Law) · tier 1 · KE · gazette
+- **First seen:** 2026-08-18T06:11+03:00 EAT · **Source date:** 2026-08-14
+- **URL:** https://new.kenyalaw.org/akn/ke/judgment/keelrc/2026/2405/eng@2026-08-14
+- **Extract:** Sheppard & another v Mukola (Appeal E283 of 2024) [2026] KEELRC 2405 (KLR) (14 August 2026) (Ruling)
+- **Score parts:** tier +40, category +20, lead +12, relevance +0, freshness +19.8, stale_trap -10
 
-### 🟡 [72.9] Tayebwa calls for cohesion and discipline among whips Monday, 17 August 2026
-- **Verdict:** CONSIDER
-- **Source:** Parliament of Uganda · tier 1 · UG · legislature
-- **First seen:** 2026-08-17T19:00+03:00 EAT · **Source date:** — none stated
-- **URL:** https://www.parliament.go.ug/news/4561/tayebwa-calls-cohesion-and-discipline-among-whips
-- **Score parts:** tier +40, category +10, lead +16.8, relevance +0, freshness +12.1, undated -6
+### 🟡 [81.8] Accounting Officer County Government of Nakuru, Department of Health Services & another v Public Procurement Administrat
+- **Verdict:** CHECK — source date older than the window
+- **Source:** Kenya Gazette (Kenya Law) · tier 1 · KE · gazette
+- **First seen:** 2026-08-18T06:11+03:00 EAT · **Source date:** 2026-08-13
+- **URL:** https://new.kenyalaw.org/akn/ke/judgment/kehc/2026/12872/eng@2026-08-13
+- **Extract:** Accounting Officer County Government of Nakuru, Department of Health Services & another v Public Procurement Administrative Review Board & 2 others (Judicial Review Application E003 of 2026) [2026] KEHC 12872 (KLR) (13 August 2026) (Ruling)
+- **Score parts:** tier +40, category +20, lead +12, relevance +0, freshness +19.8, stale_trap -10
 
-### 🟡 [72.9] The Hansard - Wednesday, 12 August 2026 - Afternoon Sitting
-- **Verdict:** CONSIDER
-- **Source:** Parliament of Kenya — bills & papers · tier 1 · KE · legislature
-- **First seen:** 2026-08-17T19:00+03:00 EAT · **Source date:** — none stated
-- **URL:** https://www.parliament.go.ke/sites/default/files/2026-08/The%20Hansard%20-%20Wednesday%2C%2012%20August%202026%20%28P%29_0.pdf
-- **Extract:** en-GB en-GBREPUBLIC OF KENYA en-GB en-GB en-GB en-GB en-GB en-GBTHIRTEENTH PARLIAMENT en-GB en-GB en-GB en-GB en-GBNATIONAL ASSEMBLY en-GB en-GB en-GB en-GB en-GB en-GBTHE HANSARD en-GB en-GB en-GB en-GB en-GB en-GB12th August 2026 Vol. V No. 73 en-GB 12th Aug
-- **Score parts:** tier +40, category +10, lead +16.8, relevance +0, freshness +12.1, undated -6
+### 🟡 [81.8] Kenya Aviation Workers Union v Africa Global Logistics (Kenya) Ltd (Petition E273 of 2025) [2026] KEELRC 2404 (KLR) (14 
+- **Verdict:** CHECK — source date older than the window
+- **Source:** Kenya Gazette (Kenya Law) · tier 1 · KE · gazette
+- **First seen:** 2026-08-18T06:11+03:00 EAT · **Source date:** 2026-08-14
+- **URL:** https://new.kenyalaw.org/akn/ke/judgment/keelrc/2026/2404/eng@2026-08-14
+- **Extract:** Kenya Aviation Workers Union v Africa Global Logistics (Kenya) Ltd (Petition E273 of 2025) [2026] KEELRC 2404 (KLR) (14 August 2026) (Judgment)
+- **Score parts:** tier +40, category +20, lead +12, relevance +0, freshness +19.8, stale_trap -10
 
-### 🟡 [72.9] The Hansard - Thursday, 13 August 2026
-- **Verdict:** CONSIDER
-- **Source:** Parliament of Kenya — bills & papers · tier 1 · KE · legislature
-- **First seen:** 2026-08-17T19:00+03:00 EAT · **Source date:** — none stated
-- **URL:** https://www.parliament.go.ke/sites/default/files/2026-08/The%20Hansard%20-%20Thursday%2C%2013%20August%202026.pdf
-- **Extract:** en-GB en-GBREPUBLIC OF KENYA en-GB en-GB en-GB en-GB en-GB en-GBTHIRTEENTH PARLIAMENT en-GB en-GB en-GB en-GB en-GBNATIONAL ASSEMBLY en-GB en-GB en-GB en-GB en-GB en-GBTHE HANSARD en-GB en-GB en-GB en-GB en-GB en-GB13th August 2026 Vol. V No. 74 en-GB 13th Aug
-- **Score parts:** tier +40, category +10, lead +16.8, relevance +0, freshness +12.1, undated -6
+### 🟡 [81.8] Zenith Realtors Ltd v Ngenya Location Ranching Co. Ltd & another (Civil Suit 36 of 2019) [2026] KEHC 12870 (KLR) (14 Aug
+- **Verdict:** CHECK — source date older than the window
+- **Source:** Kenya Gazette (Kenya Law) · tier 1 · KE · gazette
+- **First seen:** 2026-08-18T06:11+03:00 EAT · **Source date:** 2026-08-14
+- **URL:** https://new.kenyalaw.org/akn/ke/judgment/kehc/2026/12870/eng@2026-08-14
+- **Extract:** Zenith Realtors Ltd v Ngenya Location Ranching Co. Ltd & another (Civil Suit 36 of 2019) [2026] KEHC 12870 (KLR) (14 August 2026) (Judgment)
+- **Score parts:** tier +40, category +20, lead +12, relevance +0, freshness +19.8, stale_trap -10
+
+### 🟡 [81.8] Oyuchi v Magut (Commercial Case E731 of 2026) [2026] SCC 209 (KLR) (14 August 2026) (Judgment)
+- **Verdict:** CHECK — source date older than the window
+- **Source:** Kenya Gazette (Kenya Law) · tier 1 · KE · gazette
+- **First seen:** 2026-08-18T06:11+03:00 EAT · **Source date:** 2026-08-14
+- **URL:** https://new.kenyalaw.org/akn/ke/judgment/scc/2026/209/eng@2026-08-14
+- **Extract:** Oyuchi v Magut (Commercial Case E731 of 2026) [2026] SCC 209 (KLR) (14 August 2026) (Judgment)
+- **Score parts:** tier +40, category +20, lead +12, relevance +0, freshness +19.8, stale_trap -10
+
+### 🟡 [81.8] Cherunya v Max-Global Ltd & 2 others (Commercial Case E651 of 2026) [2026] SCC 208 (KLR) (14 August 2026) (Ruling)
+- **Verdict:** CHECK — source date older than the window
+- **Source:** Kenya Gazette (Kenya Law) · tier 1 · KE · gazette
+- **First seen:** 2026-08-18T06:11+03:00 EAT · **Source date:** 2026-08-14
+- **URL:** https://new.kenyalaw.org/akn/ke/judgment/scc/2026/208/eng@2026-08-14
+- **Extract:** Cherunya v Max-Global Ltd & 2 others (Commercial Case E651 of 2026) [2026] SCC 208 (KLR) (14 August 2026) (Ruling)
+- **Score parts:** tier +40, category +20, lead +12, relevance +0, freshness +19.8, stale_trap -10
+
+### 🟡 [81.8] Wambugu Vet Pharm Ltd v Atlantis Life Science Ltd (Civil Appeal E500 of 2026) [2026] KEHC 12869 (KLR) (13 August 2026) (
+- **Verdict:** CHECK — source date older than the window
+- **Source:** Kenya Gazette (Kenya Law) · tier 1 · KE · gazette
+- **First seen:** 2026-08-18T06:11+03:00 EAT · **Source date:** 2026-08-13
+- **URL:** https://new.kenyalaw.org/akn/ke/judgment/kehc/2026/12869/eng@2026-08-13
+- **Extract:** Wambugu Vet Pharm Ltd v Atlantis Life Science Ltd (Civil Appeal E500 of 2026) [2026] KEHC 12869 (KLR) (13 August 2026) (Ruling)
+- **Score parts:** tier +40, category +20, lead +12, relevance +0, freshness +19.8, stale_trap -10
+
+### 🟡 [81.8] Republic v Makumi & another (Criminal Case E500 of 2025) [2026] KEMC 510 (KLR) (12 August 2026) (Ruling)
+- **Verdict:** CHECK — source date older than the window
+- **Source:** Kenya Gazette (Kenya Law) · tier 1 · KE · gazette
+- **First seen:** 2026-08-18T06:11+03:00 EAT · **Source date:** 2026-08-12
+- **URL:** https://new.kenyalaw.org/akn/ke/judgment/kemc/2026/510/eng@2026-08-12
+- **Extract:** Republic v Makumi & another (Criminal Case E500 of 2025) [2026] KEMC 510 (KLR) (12 August 2026) (Ruling)
+- **Score parts:** tier +40, category +20, lead +12, relevance +0, freshness +19.8, stale_trap -10
+
+### 🟡 [81.8] Sahel Freighters Ltd & another v Kanji & 2 others (All practising as AB Patel & Patel LLP, Advocates) (Miscellaneous App
+- **Verdict:** CHECK — source date older than the window
+- **Source:** Kenya Gazette (Kenya Law) · tier 1 · KE · gazette
+- **First seen:** 2026-08-18T06:11+03:00 EAT · **Source date:** 2026-08-14
+- **URL:** https://new.kenyalaw.org/akn/ke/judgment/kehc/2026/12868/eng@2026-08-14
+- **Extract:** Sahel Freighters Ltd & another v Kanji & 2 others (All practising as AB Patel & Patel LLP, Advocates) (Miscellaneous Application E074 of 2025) [2026] KEHC 12868 (KLR) (14 August 2026) (Judgment)
+- **Score parts:** tier +40, category +20, lead +12, relevance +0, freshness +19.8, stale_trap -10
+
+### 🟡 [81.8] Republic v Mawira & another (Criminal Case E543 of 2025) [2026] KEMC 509 (KLR) (12 August 2026) (Judgment)
+- **Verdict:** CHECK — source date older than the window
+- **Source:** Kenya Gazette (Kenya Law) · tier 1 · KE · gazette
+- **First seen:** 2026-08-18T06:11+03:00 EAT · **Source date:** 2026-08-12
+- **URL:** https://new.kenyalaw.org/akn/ke/judgment/kemc/2026/509/eng@2026-08-12
+- **Extract:** Republic v Mawira & another (Criminal Case E543 of 2025) [2026] KEMC 509 (KLR) (12 August 2026) (Judgment)
+- **Score parts:** tier +40, category +20, lead +12, relevance +0, freshness +19.8, stale_trap -10
+
+### 🟡 [81.8] New Rafiki Machinery Sales & Services Ltd & another v Ruga (Civil Appeal E033 of 2025) [2026] KEHC 12866 (KLR) (14 Augus
+- **Verdict:** CHECK — source date older than the window
+- **Source:** Kenya Gazette (Kenya Law) · tier 1 · KE · gazette
+- **First seen:** 2026-08-18T06:11+03:00 EAT · **Source date:** 2026-08-14
+- **URL:** https://new.kenyalaw.org/akn/ke/judgment/kehc/2026/12866/eng@2026-08-14
+- **Extract:** New Rafiki Machinery Sales & Services Ltd & another v Ruga (Civil Appeal E033 of 2025) [2026] KEHC 12866 (KLR) (14 August 2026) (Judgment)
+- **Score parts:** tier +40, category +20, lead +12, relevance +0, freshness +19.8, stale_trap -10
+
+### 🟡 [81.8] Ongoro v SGA Guarding Ltd & another (Employment and Labour Relations Appeal E065 of 2025) [2026] KEELRC 2403 (KLR) (12 A
+- **Verdict:** CHECK — source date older than the window
+- **Source:** Kenya Gazette (Kenya Law) · tier 1 · KE · gazette
+- **First seen:** 2026-08-18T06:11+03:00 EAT · **Source date:** 2026-08-12
+- **URL:** https://new.kenyalaw.org/akn/ke/judgment/keelrc/2026/2403/eng@2026-08-12
+- **Extract:** Ongoro v SGA Guarding Ltd & another (Employment and Labour Relations Appeal E065 of 2025) [2026] KEELRC 2403 (KLR) (12 August 2026) (Judgment)
+- **Score parts:** tier +40, category +20, lead +12, relevance +0, freshness +19.8, stale_trap -10
+
+### 🟡 [81.8] Kiplenge And Kurgat Advocates v Estate of William Kimenjo Mosonik (Miscellaneous Application E043 of 2022) [2026] KEHC 1
+- **Verdict:** CHECK — source date older than the window
+- **Source:** Kenya Gazette (Kenya Law) · tier 1 · KE · gazette
+- **First seen:** 2026-08-18T06:11+03:00 EAT · **Source date:** 2026-08-14
+- **URL:** https://new.kenyalaw.org/akn/ke/judgment/kehc/2026/12865/eng@2026-08-14
+- **Extract:** Kiplenge And Kurgat Advocates v Estate of William Kimenjo Mosonik (Miscellaneous Application E043 of 2022) [2026] KEHC 12865 (KLR) (14 August 2026) (Ruling)
+- **Score parts:** tier +40, category +20, lead +12, relevance +0, freshness +19.8, stale_trap -10
+
+### 🟡 [81.8] Njiiri v Irungu (Environment and Land Case E067 of 2026) [2026] KEELC 5281 (KLR) (12 August 2026) (Ruling)
+- **Verdict:** CHECK — source date older than the window
+- **Source:** Kenya Gazette (Kenya Law) · tier 1 · KE · gazette
+- **First seen:** 2026-08-18T06:11+03:00 EAT · **Source date:** 2026-08-12
+- **URL:** https://new.kenyalaw.org/akn/ke/judgment/keelc/2026/5281/eng@2026-08-12
+- **Extract:** Njiiri v Irungu (Environment and Land Case E067 of 2026) [2026] KEELC 5281 (KLR) (12 August 2026) (Ruling)
+- **Score parts:** tier +40, category +20, lead +12, relevance +0, freshness +19.8, stale_trap -10
+
+### 🟡 [81.8] Mogaka v Republic (Criminal Appeal E042 of 2025) [2026] KEHC 12862 (KLR) (13 August 2026) (Judgment)
+- **Verdict:** CHECK — source date older than the window
+- **Source:** Kenya Gazette (Kenya Law) · tier 1 · KE · gazette
+- **First seen:** 2026-08-18T06:11+03:00 EAT · **Source date:** 2026-08-13
+- **URL:** https://new.kenyalaw.org/akn/ke/judgment/kehc/2026/12862/eng@2026-08-13
+- **Extract:** Mogaka v Republic (Criminal Appeal E042 of 2025) [2026] KEHC 12862 (KLR) (13 August 2026) (Judgment)
+- **Score parts:** tier +40, category +20, lead +12, relevance +0, freshness +19.8, stale_trap -10
+
+### 🟡 [81.8] Kamau v Director of Public Prosecutions & another (Petition E020 of 2026) [2026] KEHC 12861 (KLR) (13 August 2026) (Ruli
+- **Verdict:** CHECK — source date older than the window
+- **Source:** Kenya Gazette (Kenya Law) · tier 1 · KE · gazette
+- **First seen:** 2026-08-18T06:11+03:00 EAT · **Source date:** 2026-08-13
+- **URL:** https://new.kenyalaw.org/akn/ke/judgment/kehc/2026/12861/eng@2026-08-13
+- **Extract:** Kamau v Director of Public Prosecutions & another (Petition E020 of 2026) [2026] KEHC 12861 (KLR) (13 August 2026) (Ruling)
+- **Score parts:** tier +40, category +20, lead +12, relevance +0, freshness +19.8, stale_trap -10
