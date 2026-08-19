@@ -1,8 +1,8 @@
 window.LEDGER = {
- "updated": "2026-08-19 09:02",
+ "updated": "2026-08-19 16:18",
  "stats": {
-  "total": 105,
-  "open": 84,
+  "total": 106,
+  "open": 85,
   "resolved": 21,
   "correct": 15,
   "partial": 1,
@@ -904,6 +904,22 @@ window.LEDGER = {
    "resolved_date": "",
    "evidence": "",
    "source_url": "https://www.knbs.or.ke/",
+   "overdue": false
+  },
+  {
+   "id": "P105",
+   "made_date": "2026-08-19",
+   "edition": "pulse-2026-08-19-evening",
+   "claim": "Uganda's US State Department travel advisory will NOT drop below Level 4 before 31 December 2026 — the Level 4 is pinned to the DRC Bundibugyo epidemic (still growing, ~5,000 cases) rather than Ugandan epidemiology (Uganda declared its own outbreak over on 28 Jul 2026), and advisories lag outbreaks",
+   "resolution_criteria": "travel.state.gov Uganda advisory page checked 31 Dec 2026 shows Level 4 (Do Not Travel) still in force. A drop to Level 3 or below before 31 Dec 2026 resolves incorrect",
+   "resolve_by": "2026-12-31",
+   "market": "Uganda",
+   "segment": "City|Bush",
+   "confidence": "Medium",
+   "status": "open",
+   "resolved_date": "",
+   "evidence": "",
+   "source_url": "https://travel.state.gov/content/travel/en/traveladvisories/traveladvisories/uganda-travel-advisory.html",
    "overdue": false
   },
   {
