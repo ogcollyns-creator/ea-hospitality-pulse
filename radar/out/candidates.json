@@ -1,18 +1,18 @@
 {
- "generated": "2026-08-19T17:10:35+03:00",
+ "generated": "2026-08-19T19:55:53+03:00",
  "slot": "evening",
  "window_start": 1787133600,
- "observations_in_window": 196,
+ "observations_in_window": 300,
  "deduped_against": 6,
  "candidates": [
   {
-   "score": 116.9,
+   "score": 113.9,
    "components": {
     "tier": 40,
     "category": 32,
     "lead": 1.2,
     "relevance": 12,
-    "freshness": 19.7,
+    "freshness": 16.7,
     "undated": -6,
     "shock": 18
    },
@@ -44,6 +44,44 @@
    "verdict": "LEAD CANDIDATE \u2014 tier-1 shock language"
   },
   {
+   "score": 112.6,
+   "components": {
+    "tier": 40,
+    "category": 24,
+    "lead": 4.8,
+    "relevance": 12,
+    "freshness": 19.8,
+    "undated": -6,
+    "shock": 18
+   },
+   "keywords": [
+    "outbreak"
+   ],
+   "shock_terms": [
+    "outbreak"
+   ],
+   "dedupe_match": null,
+   "dedupe_similarity": 0.0,
+   "id": "4342b5d92ff2",
+   "title": "Five African countries end polio outbreaks",
+   "url": "https://www.afro.who.int/news/five-african-countries-end-polio-outbreaks",
+   "summary": "",
+   "kind": "item",
+   "source": "WHO AFRO outbreaks & emergencies",
+   "source_id": "who-afro-outbreaks",
+   "tier": 1,
+   "country": "REG",
+   "category": "health",
+   "segments": [
+    "city",
+    "bush",
+    "beach"
+   ],
+   "first_seen": "2026-08-19T19:55+03:00",
+   "published": null,
+   "verdict": "LEAD CANDIDATE \u2014 tier-1 shock language"
+  },
+  {
    "score": 101.4,
    "components": {
     "tier": 40,
@@ -51,6 +89,39 @@
     "lead": 3.6,
     "relevance": 0,
     "freshness": 19.8,
+    "corroborated": 10,
+    "page_change": -4
+   },
+   "keywords": [],
+   "shock_terms": [],
+   "dedupe_match": null,
+   "dedupe_similarity": 0.0,
+   "id": "7d926ba9814d",
+   "title": "[page changed] Federal Register \u2014 public inspection (HHS/CDC), pre-publication",
+   "url": "https://www.federalregister.gov/api/v1/public-inspection-documents/current.json",
+   "summary": "{\"count\":109,\"results\":[{\"agencies\":[{\"raw_name\":\"Children and Families Administration\",\"name\":\"Children and Families Administration\",\"id\":49,\"url\":\"https://www.federalregister.gov/agencies/children-and-families-administration\",\"json_url\":\"https://www.federalregister.gov/api/v1/agencies/49\",\"parent_id\":221,\"slug\":\"children-and-families-administration\"}],\"agency_letters\":[],\"agency_names\":[\"Childre",
+   "kind": "page-change",
+   "source": "Federal Register \u2014 public inspection (HHS/CDC), pre-publication",
+   "source_id": "us-fedreg-pubinspect-hhs",
+   "tier": 1,
+   "country": "REG",
+   "category": "advisory",
+   "segments": [
+    "city",
+    "bush"
+   ],
+   "first_seen": "2026-08-19T19:55+03:00",
+   "published": "2026-08-19",
+   "verdict": "OPEN THIS \u2014 tier-1 advisory page moved; content not auto-parsed, read it manually"
+  },
+  {
+   "score": 98.3,
+   "components": {
+    "tier": 40,
+    "category": 32,
+    "lead": 3.6,
+    "relevance": 0,
+    "freshness": 16.7,
     "corroborated": 10,
     "page_change": -4
    },
@@ -77,13 +148,13 @@
    "verdict": "OPEN THIS \u2014 tier-1 advisory page moved; content not auto-parsed, read it manually"
   },
   {
-   "score": 97.9,
+   "score": 94.8,
    "components": {
     "tier": 40,
     "category": 32,
     "lead": 3.6,
     "relevance": 0,
-    "freshness": 16.3,
+    "freshness": 13.2,
     "corroborated": 10,
     "page_change": -4
    },
@@ -110,13 +181,83 @@
    "verdict": "OPEN THIS \u2014 tier-1 advisory page moved; content not auto-parsed, read it manually"
   },
   {
-   "score": 101.8,
+   "score": 65.4,
+   "components": {
+    "tier": 40,
+    "category": 12,
+    "lead": 3.6,
+    "relevance": 0,
+    "freshness": 19.8,
+    "undated": -6,
+    "page_change": -4
+   },
+   "keywords": [],
+   "shock_terms": [],
+   "dedupe_match": null,
+   "dedupe_similarity": 0.0,
+   "id": "a8497e1e419f",
+   "title": "[page changed] Jambojet media",
+   "url": "https://www.jambojet.com/en/press-release",
+   "summary": "Request unsuccessful. Incapsula incident ID: 2102000710384337090-617478948543402448",
+   "kind": "page-change",
+   "source": "Jambojet media",
+   "source_id": "air-jambojet",
+   "tier": 1,
+   "country": "KE",
+   "category": "airline",
+   "segments": [
+    "city",
+    "bush",
+    "beach"
+   ],
+   "first_seen": "2026-08-19T19:55+03:00",
+   "published": null,
+   "verdict": "OPEN THIS \u2014 tier-1 airline page moved; content not auto-parsed, read it manually"
+  },
+  {
+   "score": 107.0,
+   "components": {
+    "tier": 40,
+    "category": 32,
+    "lead": 1.2,
+    "relevance": 20,
+    "freshness": 19.8,
+    "undated": -6
+   },
+   "keywords": [
+    "advisory",
+    "flood"
+   ],
+   "shock_terms": [],
+   "dedupe_match": null,
+   "dedupe_similarity": 0.0,
+   "id": "c7249a3b4e78",
+   "title": "Kazakhstan - Level 1: Exercise Normal Precautions",
+   "url": "https://travel.state.gov/content/travel/en/traveladvisories/traveladvisories/kazakhstan-travel-advisory.html",
+   "summary": "There were no changes to the advisory level or risk indicators. Advisory summary was updated. Kazakhstan is generally a safe destination for travelers. Review our Travel Guidance for Kazakhstan to learn how to prepare for a safe trip. Kazakhstan regularly experiences flooding. Review our information on Weather and Natural Disasters in Kazakhstan. If you decide to travel to Kazakhstan: Enroll in th",
+   "kind": "item",
+   "source": "US State Dept travel advisories (EA feed)",
+   "source_id": "adv-us-ea",
+   "tier": 1,
+   "country": "REG",
+   "category": "advisory",
+   "segments": [
+    "city",
+    "bush",
+    "beach"
+   ],
+   "first_seen": "2026-08-19T19:55+03:00",
+   "published": null,
+   "verdict": "STRONG \u2014 tier-1, upstream"
+  },
+  {
+   "score": 98.7,
    "components": {
     "tier": 40,
     "category": 20,
     "lead": 12.0,
     "relevance": 0,
-    "freshness": 19.8,
+    "freshness": 16.7,
     "corroborated": 10
    },
    "keywords": [],
@@ -143,13 +284,13 @@
    "verdict": "STRONG \u2014 tier-1, upstream"
   },
   {
-   "score": 98.9,
+   "score": 95.9,
    "components": {
     "tier": 40,
     "category": 32,
     "lead": 1.2,
     "relevance": 12,
-    "freshness": 19.7,
+    "freshness": 16.7,
     "undated": -6
    },
    "keywords": [
@@ -178,13 +319,13 @@
    "verdict": "STRONG \u2014 tier-1, upstream"
   },
   {
-   "score": 92.4,
+   "score": 89.3,
    "components": {
     "tier": 20,
     "category": 9,
     "lead": 3.6,
     "relevance": 12,
-    "freshness": 19.8,
+    "freshness": 16.7,
     "corroborated": 10,
     "shock": 18
    },
@@ -215,13 +356,13 @@
    "verdict": "CONSIDER"
   },
   {
-   "score": 92.2,
+   "score": 89.1,
    "components": {
     "tier": 20,
     "category": 14,
     "lead": 8.4,
     "relevance": 20,
-    "freshness": 19.8,
+    "freshness": 16.7,
     "corroborated": 10
    },
    "keywords": [
@@ -252,13 +393,13 @@
    "verdict": "CONSIDER"
   },
   {
-   "score": 91.8,
+   "score": 88.7,
    "components": {
     "tier": 40,
     "category": 20,
     "lead": 12.0,
     "relevance": 0,
-    "freshness": 19.8
+    "freshness": 16.7
    },
    "keywords": [],
    "shock_terms": [],
@@ -281,16 +422,16 @@
    ],
    "first_seen": "2026-08-19T17:08+03:00",
    "published": "2026-08-17",
-   "verdict": "STRONG \u2014 tier-1, upstream"
+   "verdict": "CONSIDER"
   },
   {
-   "score": 91.8,
+   "score": 88.7,
    "components": {
     "tier": 40,
     "category": 20,
     "lead": 12.0,
     "relevance": 0,
-    "freshness": 19.8
+    "freshness": 16.7
    },
    "keywords": [],
    "shock_terms": [],
@@ -313,16 +454,16 @@
    ],
    "first_seen": "2026-08-19T17:08+03:00",
    "published": "2026-08-17",
-   "verdict": "STRONG \u2014 tier-1, upstream"
+   "verdict": "CONSIDER"
   },
   {
-   "score": 91.8,
+   "score": 88.7,
    "components": {
     "tier": 40,
     "category": 20,
     "lead": 12.0,
     "relevance": 0,
-    "freshness": 19.8
+    "freshness": 16.7
    },
    "keywords": [],
    "shock_terms": [],
@@ -345,16 +486,16 @@
    ],
    "first_seen": "2026-08-19T17:08+03:00",
    "published": "2026-08-17",
-   "verdict": "STRONG \u2014 tier-1, upstream"
+   "verdict": "CONSIDER"
   },
   {
-   "score": 91.8,
+   "score": 88.7,
    "components": {
     "tier": 40,
     "category": 20,
     "lead": 12.0,
     "relevance": 0,
-    "freshness": 19.8
+    "freshness": 16.7
    },
    "keywords": [],
    "shock_terms": [],
@@ -377,16 +518,16 @@
    ],
    "first_seen": "2026-08-19T17:08+03:00",
    "published": "2026-08-17",
-   "verdict": "STRONG \u2014 tier-1, upstream"
+   "verdict": "CONSIDER"
   },
   {
-   "score": 88.2,
+   "score": 85.1,
    "components": {
     "tier": 20,
     "category": 14,
     "lead": 8.4,
     "relevance": 16,
-    "freshness": 19.8,
+    "freshness": 16.7,
     "corroborated": 10
    },
    "keywords": [
@@ -417,13 +558,13 @@
    "verdict": "CONSIDER"
   },
   {
-   "score": 85.5,
+   "score": 82.5,
    "components": {
     "tier": 40,
     "category": 7,
     "lead": 16.8,
     "relevance": 8,
-    "freshness": 19.7,
+    "freshness": 16.7,
     "undated": -6
    },
    "keywords": [
@@ -452,13 +593,13 @@
    "verdict": "CONSIDER"
   },
   {
-   "score": 84.2,
+   "score": 81.1,
    "components": {
     "tier": 20,
     "category": 14,
     "lead": 8.4,
     "relevance": 12,
-    "freshness": 19.8,
+    "freshness": 16.7,
     "corroborated": 10
    },
    "keywords": [
@@ -488,13 +629,13 @@
    "verdict": "CONSIDER"
   },
   {
-   "score": 84.2,
+   "score": 81.1,
    "components": {
     "tier": 20,
     "category": 14,
     "lead": 8.4,
     "relevance": 12,
-    "freshness": 19.8,
+    "freshness": 16.7,
     "corroborated": 10
    },
    "keywords": [
@@ -524,13 +665,13 @@
    "verdict": "CONSIDER"
   },
   {
-   "score": 84.2,
+   "score": 81.1,
    "components": {
     "tier": 20,
     "category": 14,
     "lead": 8.4,
     "relevance": 12,
-    "freshness": 19.8,
+    "freshness": 16.7,
     "corroborated": 10
    },
    "keywords": [
@@ -560,13 +701,89 @@
    "verdict": "CONSIDER"
   },
   {
-   "score": 80.2,
+   "score": 78.4,
+   "components": {
+    "tier": 20,
+    "category": 5,
+    "lead": 3.6,
+    "relevance": 20,
+    "freshness": 19.8,
+    "corroborated": 10
+   },
+   "keywords": [
+    "adr",
+    "hotel",
+    "booking",
+    "guest"
+   ],
+   "shock_terms": [],
+   "dedupe_match": null,
+   "dedupe_similarity": 0.0,
+   "id": "7d90c1fb2644",
+   "title": "Birmingham hotel bookings race ahead for European Athletics Championships",
+   "url": "https://www.hospitalitynet.org/news/4134014/birmingham-hotel-bookings-race-ahead-for-european-athletics-championships",
+   "summary": "Birmingham hotels saw 62.5% more room nights and a 60.1% ADR spike for European Athletics Championships week, with guests booking 169 days ahead vs. 58 days in 2025.",
+   "kind": "item",
+   "source": "Hospitality Net \u2014 Africa announcements",
+   "source_id": "dev-hospitalitynet-africa",
+   "tier": 2,
+   "country": "REG",
+   "category": "trade",
+   "segments": [
+    "city",
+    "bush",
+    "beach"
+   ],
+   "first_seen": "2026-08-19T19:55+03:00",
+   "published": "2026-08-19",
+   "verdict": "CONSIDER"
+  },
+  {
+   "score": 77.8,
+   "components": {
+    "tier": 20,
+    "category": 4,
+    "lead": 0.0,
+    "relevance": 24,
+    "freshness": 19.8,
+    "corroborated": 10
+   },
+   "keywords": [
+    "vat",
+    "wildlife",
+    "tourism",
+    "opening"
+   ],
+   "shock_terms": [],
+   "dedupe_match": null,
+   "dedupe_similarity": 0.2,
+   "id": "1645f0b6e036",
+   "title": "Serengeti Awards 2026 opens registration for tourism, conservation stakeholders",
+   "url": "https://dailynews.co.tz/serengeti-awards-2026-opens-registration-for-tourism-conservation-stakeholders",
+   "summary": "DAR ES SALAAM: THE Ministry of Natural Resources and Tourism has officially announced the opening of registration for stakeholders in conservation and tourism to compete for the Serengeti Awards 2026, urging them to use the opportunity to showcase their work, innovation and achievements in wildlife conservation, natural resources management and tourism development. The registration window \u2026 The po",
+   "kind": "item",
+   "source": "Daily News (Tanzania)",
+   "source_id": "np-dailynews-tz",
+   "tier": 2,
+   "country": "TZ",
+   "category": "press",
+   "segments": [
+    "city",
+    "bush",
+    "beach"
+   ],
+   "first_seen": "2026-08-19T19:55+03:00",
+   "published": "2026-08-19",
+   "verdict": "CONSIDER"
+  },
+  {
+   "score": 77.1,
    "components": {
     "tier": 20,
     "category": 14,
     "lead": 8.4,
     "relevance": 8,
-    "freshness": 19.8,
+    "freshness": 16.7,
     "corroborated": 10
    },
    "keywords": [
@@ -596,13 +813,13 @@
    "verdict": "CONSIDER"
   },
   {
-   "score": 79.5,
+   "score": 76.5,
    "components": {
     "tier": 40,
     "category": 9,
     "lead": 16.8,
     "relevance": 0,
-    "freshness": 19.7,
+    "freshness": 16.7,
     "undated": -6
    },
    "keywords": [],
@@ -627,13 +844,13 @@
    "verdict": "CONSIDER"
   },
   {
-   "score": 79.5,
+   "score": 76.5,
    "components": {
     "tier": 40,
     "category": 9,
     "lead": 16.8,
     "relevance": 0,
-    "freshness": 19.7,
+    "freshness": 16.7,
     "undated": -6
    },
    "keywords": [],
@@ -660,13 +877,125 @@
    "verdict": "CONSIDER"
   },
   {
-   "score": 76.7,
+   "score": 76.4,
+   "components": {
+    "tier": 20,
+    "category": 5,
+    "lead": 3.6,
+    "relevance": 0,
+    "freshness": 19.8,
+    "corroborated": 10,
+    "shock": 18
+   },
+   "keywords": [],
+   "shock_terms": [
+    "attack"
+   ],
+   "dedupe_match": null,
+   "dedupe_similarity": 0.0,
+   "id": "f09f57424764",
+   "title": "Homo Hackabilis: Why Hack a Server When You Can Just Call a Human?",
+   "url": "https://www.hospitalitynet.org/opinion/4134016/homo-hackabilis-why-hack-a-server-when-you-can-just-call-a-human",
+   "summary": "A hospitality consultant recounts four near-identical cyberattacks on clients, all exploiting staff via phone-based impersonation rather than technical exploits.",
+   "kind": "item",
+   "source": "Hospitality Net \u2014 Africa announcements",
+   "source_id": "dev-hospitalitynet-africa",
+   "tier": 2,
+   "country": "REG",
+   "category": "trade",
+   "segments": [
+    "city",
+    "bush",
+    "beach"
+   ],
+   "first_seen": "2026-08-19T19:55+03:00",
+   "published": "2026-08-19",
+   "verdict": "CONSIDER"
+  },
+  {
+   "score": 75.8,
+   "components": {
+    "tier": 20,
+    "category": 4,
+    "lead": 0.0,
+    "relevance": 20,
+    "freshness": 19.8,
+    "undated": -6,
+    "shock": 18
+   },
+   "keywords": [
+    "grounded",
+    "fuel"
+   ],
+   "shock_terms": [
+    "grounded"
+   ],
+   "dedupe_match": null,
+   "dedupe_similarity": 0.0,
+   "id": "5f0138c80d53",
+   "title": "Companies KQ sees wider losses on 72pc fuel cost jump, grounded fleet 4 hours ago - 3 min read",
+   "url": "https://www.businessdailyafrica.com/bd/corporate/companies/kq-sees-wider-losses-on-72pc-fuel-cost-jump-grounded-fleet-5563420",
+   "summary": "",
+   "kind": "item",
+   "source": "Business Daily Africa",
+   "source_id": "np-businessdaily",
+   "tier": 2,
+   "country": "KE",
+   "category": "press",
+   "segments": [
+    "city",
+    "bush",
+    "beach"
+   ],
+   "first_seen": "2026-08-19T19:55+03:00",
+   "published": null,
+   "verdict": "CONSIDER"
+  },
+  {
+   "score": 74.4,
+   "components": {
+    "tier": 20,
+    "category": 5,
+    "lead": 3.6,
+    "relevance": 16,
+    "freshness": 19.8,
+    "corroborated": 10
+   },
+   "keywords": [
+    "eta",
+    "hotel",
+    "booking"
+   ],
+   "shock_terms": [],
+   "dedupe_match": null,
+   "dedupe_similarity": 0.0,
+   "id": "21f18c08d073",
+   "title": "From Search Box to Travel Advisor: IHG\u2019s Kim Smith on the Next Phase of AI Booking",
+   "url": "https://www.hospitalitynet.org/interview/4134011/from-search-box-to-travel-advisor-ihgs-kim-smith-on-the-next-phase-of-ai-booking",
+   "summary": "IHG's SVP of Digital Direct Channels explains the Google-powered conversational search beta on IHG.com, its personalization roadmap, and how hotels must restructure content to remain discoverable in an AI-driven booking era.",
+   "kind": "item",
+   "source": "Hospitality Net \u2014 Africa announcements",
+   "source_id": "dev-hospitalitynet-africa",
+   "tier": 2,
+   "country": "REG",
+   "category": "trade",
+   "segments": [
+    "city",
+    "bush",
+    "beach"
+   ],
+   "first_seen": "2026-08-19T19:55+03:00",
+   "published": "2026-08-19",
+   "verdict": "CONSIDER"
+  },
+  {
+   "score": 73.6,
    "components": {
     "tier": 40,
     "category": 24,
     "lead": 2.4,
     "relevance": 0,
-    "freshness": 16.3,
+    "freshness": 13.2,
     "undated": -6
    },
    "keywords": [],
@@ -693,13 +1022,13 @@
    "verdict": "CONSIDER"
   },
   {
-   "score": 76.3,
+   "score": 73.2,
    "components": {
     "tier": 20,
     "category": 4,
     "lead": 0.0,
     "relevance": 8,
-    "freshness": 16.3,
+    "freshness": 13.2,
     "corroborated": 10,
     "shock": 18
    },
@@ -731,13 +1060,13 @@
    "verdict": "CONSIDER"
   },
   {
-   "score": 76.0,
+   "score": 72.9,
    "components": {
     "tier": 20,
     "category": 5,
     "lead": 1.2,
     "relevance": 20,
-    "freshness": 19.8,
+    "freshness": 16.7,
     "corroborated": 10
    },
    "keywords": [
@@ -767,13 +1096,13 @@
    "verdict": "CONSIDER"
   },
   {
-   "score": 75.8,
+   "score": 72.7,
    "components": {
     "tier": 20,
     "category": 4,
     "lead": 0.0,
     "relevance": 20,
-    "freshness": 19.8,
+    "freshness": 16.7,
     "undated": -6,
     "shock": 18
    },
@@ -806,13 +1135,13 @@
    "verdict": "CONSIDER"
   },
   {
-   "score": 74.4,
+   "score": 71.3,
    "components": {
     "tier": 20,
     "category": 9,
     "lead": 3.6,
     "relevance": 12,
-    "freshness": 19.8,
+    "freshness": 16.7,
     "corroborated": 10
    },
    "keywords": [
@@ -841,13 +1170,121 @@
    "verdict": "CONSIDER"
   },
   {
-   "score": 72.0,
+   "score": 70.4,
+   "components": {
+    "tier": 20,
+    "category": 5,
+    "lead": 3.6,
+    "relevance": 12,
+    "freshness": 19.8,
+    "corroborated": 10
+   },
+   "keywords": [
+    "route",
+    "hotel"
+   ],
+   "shock_terms": [],
+   "dedupe_match": null,
+   "dedupe_similarity": 0.0,
+   "id": "970babece1fe",
+   "title": "IHG's Kim Smith on How Hotels Must Rebuild Content for AI, ChatGPT Ads Launch Across Europe Next Week, Stripe's $7B OpenRouter Buy Creates AI Cost Opacity",
+   "url": "https://www.hospitalitynet.org/editorial/4134024/ihgs-kim-smith-on-how-hotels-must-rebuild-content-for-ai-chatgpt-ads-launch-across-europe-next-week-stripes-7b-openrouter-buy-creates-ai-cost-opacity",
+   "summary": "Wednesday brought IHG's SVP of Digital Direct Channels on why hotels must restructure content for AI-driven discovery and what Google-powered conversational search on IHG.com is already showing, hospitality.today's warning that ChatGPT Ads launch across 31 European countries next week but hotels...",
+   "kind": "item",
+   "source": "Hospitality Net \u2014 Africa announcements",
+   "source_id": "dev-hospitalitynet-africa",
+   "tier": 2,
+   "country": "REG",
+   "category": "trade",
+   "segments": [
+    "city",
+    "bush",
+    "beach"
+   ],
+   "first_seen": "2026-08-19T19:55+03:00",
+   "published": "2026-08-19",
+   "verdict": "CONSIDER"
+  },
+  {
+   "score": 70.4,
+   "components": {
+    "tier": 20,
+    "category": 5,
+    "lead": 3.6,
+    "relevance": 12,
+    "freshness": 19.8,
+    "corroborated": 10
+   },
+   "keywords": [
+    "vat",
+    "hotel"
+   ],
+   "shock_terms": [],
+   "dedupe_match": null,
+   "dedupe_similarity": 0.0,
+   "id": "b0c9d71cf147",
+   "title": "Actabl and Reeco Launch Innovative Partnership to Bring Forecast Intelligence into AI-Powered Hotel Procurement",
+   "url": "https://www.hospitalitynet.org/news/4134022/actabl-and-reeco-launch-innovative-partnership-to-bring-forecast-intelligence-into-ai-powered-hotel-procurement",
+   "summary": "Actabl's ProfitSword forecasting platform now integrates with Reeco's AI-powered procure-to-pay system, letting hotels automatically flag purchasing overruns against live forecasts before orders are placed.",
+   "kind": "item",
+   "source": "Hospitality Net \u2014 Africa announcements",
+   "source_id": "dev-hospitalitynet-africa",
+   "tier": 2,
+   "country": "REG",
+   "category": "trade",
+   "segments": [
+    "city",
+    "bush",
+    "beach"
+   ],
+   "first_seen": "2026-08-19T19:55+03:00",
+   "published": "2026-08-19",
+   "verdict": "CONSIDER"
+  },
+  {
+   "score": 70.4,
+   "components": {
+    "tier": 20,
+    "category": 5,
+    "lead": 3.6,
+    "relevance": 12,
+    "freshness": 19.8,
+    "corroborated": 10
+   },
+   "keywords": [
+    "vat",
+    "tourism"
+   ],
+   "shock_terms": [],
+   "dedupe_match": null,
+   "dedupe_similarity": 0.0,
+   "id": "76f6cea34aea",
+   "title": "PATA Announces New Executive Board Members",
+   "url": "https://www.hospitalitynet.org/news/4134020/pata-announces-new-executive-board-members",
+   "summary": "PATA has expanded its Executive Board with five new members from Hawaii, Singapore, Maldives, Saudi Arabia, and Nepal, representing both public tourism bodies and private travel companies.",
+   "kind": "item",
+   "source": "Hospitality Net \u2014 Africa announcements",
+   "source_id": "dev-hospitalitynet-africa",
+   "tier": 2,
+   "country": "REG",
+   "category": "trade",
+   "segments": [
+    "city",
+    "bush",
+    "beach"
+   ],
+   "first_seen": "2026-08-19T19:55+03:00",
+   "published": "2026-08-19",
+   "verdict": "CONSIDER"
+  },
+  {
+   "score": 68.9,
    "components": {
     "tier": 20,
     "category": 5,
     "lead": 1.2,
     "relevance": 16,
-    "freshness": 19.8,
+    "freshness": 16.7,
     "corroborated": 10
    },
    "keywords": [
@@ -875,16 +1312,16 @@
    ],
    "first_seen": "2026-08-19T17:08+03:00",
    "published": "2026-08-19",
-   "verdict": "CONSIDER"
+   "verdict": "weak"
   },
   {
-   "score": 70.4,
+   "score": 67.3,
    "components": {
     "tier": 20,
     "category": 9,
     "lead": 3.6,
     "relevance": 8,
-    "freshness": 19.8,
+    "freshness": 16.7,
     "corroborated": 10
    },
    "keywords": [
@@ -909,16 +1346,16 @@
    ],
    "first_seen": "2026-08-19T17:08+03:00",
    "published": "2026-08-19",
-   "verdict": "CONSIDER"
+   "verdict": "weak"
   },
   {
-   "score": 70.4,
+   "score": 67.3,
    "components": {
     "tier": 20,
     "category": 9,
     "lead": 3.6,
     "relevance": 8,
-    "freshness": 19.8,
+    "freshness": 16.7,
     "corroborated": 10
    },
    "keywords": [
@@ -943,16 +1380,16 @@
    ],
    "first_seen": "2026-08-19T17:08+03:00",
    "published": "2026-08-19",
-   "verdict": "CONSIDER"
+   "verdict": "weak"
   },
   {
-   "score": 70.4,
+   "score": 67.3,
    "components": {
     "tier": 20,
     "category": 9,
     "lead": 3.6,
     "relevance": 8,
-    "freshness": 19.8,
+    "freshness": 16.7,
     "corroborated": 10
    },
    "keywords": [
@@ -966,414 +1403,6 @@
    "title": "Tourismusausschuss-Vorsitzende (+Video): Karliczek will Wettbewerb \u2013 auch im Reisevertrieb",
    "url": "https://www.fvw.de/touristik/vertrieb/tourismusausschuss-vorsitzende-video-karliczek-setzt-auf-wettbewerb---auch-im-reisevertrieb-263856",
    "summary": "Reiseb\u00fcros leiden unter dem Cashback der Portale, Airlines fordern eine niedrigere Luftverkehrssteuer, die Pauschalreise-Richtlinie wird umgesetzt, die DRSF-Geb\u00fchren sinken - im Live-Talk auf fvw.de unternahm Anja Karliczek, die dem Tourismusausschuss des Bundestags vorsteht, eine Tour durch die Branche. Ihr Credo: Blo\u00df nicht mehr regulieren, sondern den Unternehmen Spielr\u00e4ume verschaffen.",
-   "kind": "item",
-   "source": "FVW / German travel trade",
-   "source_id": "sm-derreise",
-   "tier": 2,
-   "country": "GLOBAL",
-   "category": "source-market",
-   "segments": [
-    "beach",
-    "bush"
-   ],
-   "first_seen": "2026-08-19T17:08+03:00",
-   "published": "2026-08-19",
-   "verdict": "CONSIDER"
-  },
-  {
-   "score": 70.4,
-   "components": {
-    "tier": 20,
-    "category": 9,
-    "lead": 3.6,
-    "relevance": 8,
-    "freshness": 19.8,
-    "corroborated": 10
-   },
-   "keywords": [
-    "flight",
-    "operator"
-   ],
-   "shock_terms": [],
-   "dedupe_match": null,
-   "dedupe_similarity": 0.0,
-   "id": "d58984fa384c",
-   "title": "Frasers Travel Ltd \u2013 advice for customers",
-   "url": "https://www.abta.com/news/frasers-travel-ltd-advice-customers",
-   "summary": "Frasers Travel Ltd \u2013 advice for customers Full Page image dhewitt@abta.co.uk Wed, 08/19/2026 - 11:38 ABTA Number 86603 \u2013 7 Dockhead Street, Saltcoats, Ayrshire, KA21 5EF We are sorry to inform you that Frasers Travel Ltd has ceased trading from 18 August 2026. If you\u2019ve booked travel arrangements with Frasers Travel Ltd, you should follow the specific advice set out below. Holidays booked through ",
-   "kind": "item",
-   "source": "ABTA (UK) news",
-   "source_id": "sm-abta",
-   "tier": 2,
-   "country": "GLOBAL",
-   "category": "source-market",
-   "segments": [
-    "city",
-    "bush",
-    "beach"
-   ],
-   "first_seen": "2026-08-19T17:08+03:00",
-   "published": "2026-08-19",
-   "verdict": "CONSIDER"
-  },
-  {
-   "score": 66.4,
-   "components": {
-    "tier": 20,
-    "category": 9,
-    "lead": 3.6,
-    "relevance": 4,
-    "freshness": 19.8,
-    "corroborated": 10
-   },
-   "keywords": [
-    "airline"
-   ],
-   "shock_terms": [],
-   "dedupe_match": null,
-   "dedupe_similarity": 0.0,
-   "id": "e0d1e8aa22f7",
-   "title": "Am M\u00fcnchner Flughafen: Zwei Flug-Zwischenf\u00e4lle geben R\u00e4tsel auf",
-   "url": "https://www.fvw.de/touristik/verkehr/am-muenchener-flughafen-zwei-flug-zwischenfaelle-geben-raetsel-auf-263869",
-   "summary": "Zwei Zwischenf\u00e4lle in kurzer Zeit auf derselben Landebahn am M\u00fcnchener Flughafen: Wie reagieren Airlines und Beh\u00f6rden auf die aktuellen Ereignisse? Viele Fragen sind offen.",
-   "kind": "item",
-   "source": "FVW / German travel trade",
-   "source_id": "sm-derreise",
-   "tier": 2,
-   "country": "GLOBAL",
-   "category": "source-market",
-   "segments": [
-    "beach",
-    "bush"
-   ],
-   "first_seen": "2026-08-19T17:08+03:00",
-   "published": "2026-08-19",
-   "verdict": "weak"
-  },
-  {
-   "score": 66.4,
-   "components": {
-    "tier": 20,
-    "category": 9,
-    "lead": 3.6,
-    "relevance": 4,
-    "freshness": 19.8,
-    "corroborated": 10
-   },
-   "keywords": [
-    "tourist"
-   ],
-   "shock_terms": [],
-   "dedupe_match": null,
-   "dedupe_similarity": 0.0,
-   "id": "4d4ea47c9700",
-   "title": "Abrechnung der Corona-Hilfen: Streit um Schlussabrechnung \u2013 Ministerium widerspricht Kritik",
-   "url": "https://www.fvw.de/touristik/vertrieb/branche-nicht-stark-betroffen-ministerium-widerspricht-kritik-aus-touristik-zu-corona-hilfen-263867",
-   "summary": "Wie stark trifft die Schlussabrechnung Reiseb\u00fcros und Veranstalter tats\u00e4chlich? Erstmals nennt das Wirtschaftsministerium konkrete Zahlen f\u00fcr die Touristik. Sie zeichnen ein differenziertes Bild \u2013 und widersprechen in einem zentralen Punkt den Erfahrungen von Anw\u00e4lten aus der Branche.",
-   "kind": "item",
-   "source": "FVW / German travel trade",
-   "source_id": "sm-derreise",
-   "tier": 2,
-   "country": "GLOBAL",
-   "category": "source-market",
-   "segments": [
-    "beach",
-    "bush"
-   ],
-   "first_seen": "2026-08-19T17:08+03:00",
-   "published": "2026-08-19",
-   "verdict": "weak"
-  },
-  {
-   "score": 66.4,
-   "components": {
-    "tier": 20,
-    "category": 9,
-    "lead": 3.6,
-    "relevance": 4,
-    "freshness": 19.8,
-    "corroborated": 10
-   },
-   "keywords": [
-    "tourist"
-   ],
-   "shock_terms": [],
-   "dedupe_match": null,
-   "dedupe_similarity": 0.0,
-   "id": "328b62d4375d",
-   "title": "Auf Spitzbergen: Eisb\u00e4r geweckt \u2013 Tourist muss Strafe zahlen",
-   "url": "https://www.fvw.de/touristik/destination/auf-spitzbergen-eisbaer-geweckt--tourist-muss-strafe-zahlen-263880",
-   "summary": "Ein schlafender Eisb\u00e4r, ein Nebelhorn und eine empfindliche Geldstrafe: Auf Spitzbergen ist ein Tourist verurteilt worden, nachdem er das gesch\u00fctzte Tier mutma\u00dflich absichtlich geweckt hatte. Der Fall sorgt \u00fcber die Arktis hinaus f\u00fcr Aufmerksamkeit.",
-   "kind": "item",
-   "source": "FVW / German travel trade",
-   "source_id": "sm-derreise",
-   "tier": 2,
-   "country": "GLOBAL",
-   "category": "source-market",
-   "segments": [
-    "beach",
-    "bush"
-   ],
-   "first_seen": "2026-08-19T17:08+03:00",
-   "published": "2026-08-19",
-   "verdict": "weak"
-  },
-  {
-   "score": 66.4,
-   "components": {
-    "tier": 20,
-    "category": 9,
-    "lead": 3.6,
-    "relevance": 4,
-    "freshness": 19.8,
-    "corroborated": 10
-   },
-   "keywords": [
-    "tourist"
-   ],
-   "shock_terms": [],
-   "dedupe_match": null,
-   "dedupe_similarity": 0.33,
-   "id": "d7759305781a",
-   "title": "US-Einreisestatistik im Juli: Stoppen Fu\u00dfball-Fans die Talfahrt im USA-Incoming?",
-   "url": "https://www.fvw.de/touristik/destination/usa-usa-263872",
-   "summary": "Die Fu\u00dfball-WM als Gamechanger? Das globale Top-Event sollte helfen, das angeknackste Image der USA zurechtzur\u00fccken, hoffen Touristiker auf beiden Seiten des Nordatlantiks. Doch wie hat sich das sportliche Gro\u00dfereignis auf die Incoming-Bilanz der USA ausgewirkt? Nach einem schwachen Juni sollte der Juli die Wende bringen.",
-   "kind": "item",
-   "source": "FVW / German travel trade",
-   "source_id": "sm-derreise",
-   "tier": 2,
-   "country": "GLOBAL",
-   "category": "source-market",
-   "segments": [
-    "beach",
-    "bush"
-   ],
-   "first_seen": "2026-08-19T17:08+03:00",
-   "published": "2026-08-19",
-   "verdict": "weak"
-  },
-  {
-   "score": 66.4,
-   "components": {
-    "tier": 20,
-    "category": 9,
-    "lead": 3.6,
-    "relevance": 4,
-    "freshness": 19.8,
-    "corroborated": 10
-   },
-   "keywords": [
-    "airline"
-   ],
-   "shock_terms": [],
-   "dedupe_match": null,
-   "dedupe_similarity": 0.0,
-   "id": "d50aaf2913e3",
-   "title": "Airline und Flughafen (Update): Wie es zum Flugchaos von Sun Express kam",
-   "url": "https://www.fvw.de/touristik/verkehr/airline-packt-aus-wie-es-zum-flugverkehrschaos-von-sun-express-kam-263852",
-   "summary": "Stundenlange Versp\u00e4tungen, gestrichene Verbindungen und Betroffene, die berichten, dass ihr Gep\u00e4ck in der T\u00fcrkei zur\u00fcckgeblieben ist: Ein Systemfehler hat am Samstag zu erheblichen Problemen bei Sun Express gef\u00fchrt. Jetzt hat die deutsch-t\u00fcrkische Fluggesellschaft erkl\u00e4rt, wie es zu der Panne kam.",
-   "kind": "item",
-   "source": "FVW / German travel trade",
-   "source_id": "sm-derreise",
-   "tier": 2,
-   "country": "GLOBAL",
-   "category": "source-market",
-   "segments": [
-    "beach",
-    "bush"
-   ],
-   "first_seen": "2026-08-19T17:08+03:00",
-   "published": "2026-08-19",
-   "verdict": "weak"
-  },
-  {
-   "score": 66.4,
-   "components": {
-    "tier": 20,
-    "category": 9,
-    "lead": 3.6,
-    "relevance": 4,
-    "freshness": 19.8,
-    "corroborated": 10
-   },
-   "keywords": [
-    "airline"
-   ],
-   "shock_terms": [],
-   "dedupe_match": null,
-   "dedupe_similarity": 0.0,
-   "id": "f89e6cdd3ca5",
-   "title": "Vietnamesische Medien: Vietnam-Airlines-Jet hatte Beschleunigungsproblem",
-   "url": "https://www.fvw.de/touristik/verkehr/vietnamesische-behoerde-vietnam-airlines-jet-hatte-beschleunigungsproblem-263870",
-   "summary": "Die knapp der Katastrophe entkommene Vietnam-Airlines-Maschine am M\u00fcnchner Flughafen hatte einem Bericht zufolge schon Probleme, als sie losrollte. Eine dramatische Entscheidung wurde getroffen.",
-   "kind": "item",
-   "source": "FVW / German travel trade",
-   "source_id": "sm-derreise",
-   "tier": 2,
-   "country": "GLOBAL",
-   "category": "source-market",
-   "segments": [
-    "beach",
-    "bush"
-   ],
-   "first_seen": "2026-08-19T17:08+03:00",
-   "published": "2026-08-19",
-   "verdict": "weak"
-  },
-  {
-   "score": 66.3,
-   "components": {
-    "tier": 20,
-    "category": 4,
-    "lead": 0.0,
-    "relevance": 16,
-    "freshness": 16.3,
-    "corroborated": 10
-   },
-   "keywords": [
-    "eta",
-    "electricity"
-   ],
-   "shock_terms": [],
-   "dedupe_match": null,
-   "dedupe_similarity": 0.2,
-   "id": "894908391f6d",
-   "title": "Chalinze-Dodoma\u2019s 400-kv power line connects JNHPP to the Tanzanian capital",
-   "url": "https://dailynews.co.tz/chalinze-dodomas-400-kv-power-line-connects-jnhpp-to-the-tanzanian-capital",
-   "summary": "DODOMA: THE 400-kilovolt (kV) electricity transmission line from Chalinze to Dodoma has been completed, paving the way for power generated at the Julius Nyerere Hydropower Plant (JNHPP) to reach Dodoma through Chalinze, the Ministry of Energy has said. Permanent Secretary in the Ministry of Energy responsible for Electricity and Renewable Energy, Engineer Felchesmi Mramba, made \u2026 The post Chalinze",
-   "kind": "item",
-   "source": "Daily News (Tanzania)",
-   "source_id": "np-dailynews-tz",
-   "tier": 2,
-   "country": "TZ",
-   "category": "press",
-   "segments": [
-    "city",
-    "bush",
-    "beach"
-   ],
-   "first_seen": "2026-08-19T13:58+03:00",
-   "published": "2026-08-19",
-   "verdict": "weak"
-  },
-  {
-   "score": 64.2,
-   "components": {
-    "tier": 20,
-    "category": 24,
-    "lead": 2.4,
-    "relevance": 8,
-    "freshness": 19.8,
-    "undated": -6,
-    "page_change": -4
-   },
-   "keywords": [
-    "eta"
-   ],
-   "shock_terms": [],
-   "dedupe_match": null,
-   "dedupe_similarity": 0.0,
-   "id": "bf69249b5d7c",
-   "title": "[page changed] ProMED-mail",
-   "url": "https://promedmail.org/",
-   "summary": "Protecting Global Health, One Alert at a Time | ProMED Previous slide Next slide Protecting Global Health, One Alert at a Time ProMED: Your 24/7 early warning system for emerging infectious diseases worldwide. Subscribe ProMED's Weekly Pulse A snapshot of global health events from the past 7 days Latest Posts on ProMED All Date Title Wed Aug 19 2026 BACTERIOPHAGE THERAPY (36): METHICILLIN-RESISTAN",
-   "kind": "page-change",
-   "source": "ProMED-mail",
-   "source_id": "promed",
-   "tier": 2,
-   "country": "GLOBAL",
-   "category": "health",
-   "segments": [
-    "city",
-    "bush",
-    "beach"
-   ],
-   "first_seen": "2026-08-19T17:08+03:00",
-   "published": null,
-   "verdict": "weak"
-  },
-  {
-   "score": 62.4,
-   "components": {
-    "tier": 20,
-    "category": 9,
-    "lead": 3.6,
-    "relevance": 0,
-    "freshness": 19.8,
-    "corroborated": 10
-   },
-   "keywords": [],
-   "shock_terms": [],
-   "dedupe_match": null,
-   "dedupe_similarity": 0.0,
-   "id": "d43312380b8e",
-   "title": "Buchungssprung im September: Warum Luxusurlauber den Juli und August meiden",
-   "url": "https://www.fvw.de/touristik/vertrieb/buchungssprung-im-september-warum-luxusurlauber-den-juli-und-august-meiden-263890",
-   "summary": "Juli und August als Haupturlaubszeitraum \u2013 das war einmal. Denn nicht nur wegen dem Klima r\u00fcckt bei Urlaubern der September immer st\u00e4rker in den Fokus. Vor allem Luxusreisende sch\u00e4tzen die weniger \u00fcberf\u00fcllten Ort im September. Die Einzelheiten.",
-   "kind": "item",
-   "source": "FVW / German travel trade",
-   "source_id": "sm-derreise",
-   "tier": 2,
-   "country": "GLOBAL",
-   "category": "source-market",
-   "segments": [
-    "beach",
-    "bush"
-   ],
-   "first_seen": "2026-08-19T17:08+03:00",
-   "published": "2026-08-19",
-   "verdict": "weak"
-  },
-  {
-   "score": 62.4,
-   "components": {
-    "tier": 20,
-    "category": 9,
-    "lead": 3.6,
-    "relevance": 0,
-    "freshness": 19.8,
-    "corroborated": 10
-   },
-   "keywords": [],
-   "shock_terms": [],
-   "dedupe_match": null,
-   "dedupe_similarity": 0.0,
-   "id": "2a39f1ef2001",
-   "title": "Unternehmen wird 80 Jahre alt: Die Erfolgsformel des Reiseb\u00fcros Papendick",
-   "url": "https://www.fvw.de/touristik/vertrieb/reisebuero-papendick-wird-80-wir-haben-nie-aufgehoert-uns-neu-zu-erfinden-263834",
-   "summary": "Viel fr\u00fcher als geplant \u00fcbernahm Werner Papendick einst das Familienunternehmen. Heute z\u00e4hlt es zu den gr\u00f6\u00dften inhabergef\u00fchrten Reiseb\u00fcros Deutschlands. Ein Gespr\u00e4ch \u00fcber Krisen, Kunden, KI und \u00fcber die Frage, warum Reiseb\u00fcros noch lange nicht zum Auslaufmodell werden.",
-   "kind": "item",
-   "source": "FVW / German travel trade",
-   "source_id": "sm-derreise",
-   "tier": 2,
-   "country": "GLOBAL",
-   "category": "source-market",
-   "segments": [
-    "beach",
-    "bush"
-   ],
-   "first_seen": "2026-08-19T17:08+03:00",
-   "published": "2026-08-19",
-   "verdict": "weak"
-  },
-  {
-   "score": 62.4,
-   "components": {
-    "tier": 20,
-    "category": 9,
-    "lead": 3.6,
-    "relevance": 0,
-    "freshness": 19.8,
-    "corroborated": 10
-   },
-   "keywords": [],
-   "shock_terms": [],
-   "dedupe_match": null,
-   "dedupe_similarity": 0.33,
-   "id": "0d9719b6f3b9",
-   "title": "Gesch\u00e4ftsreise: Perk erm\u00f6glicht Buchung per ChatGPT & Co",
-   "url": "https://www.fvw.de/businesstravel/travelmanagement/geschaeftsreise-perk-ermoeglicht-buchung-per-chat-gpt--co-263878",
-   "summary": "Perk erweitert seine MCP-Anbindung und erm\u00f6glicht Buchungen, Spesenabrechnungen und Event-Planung direkt \u00fcber KI-Assistenten wie ChatGPT oder Claude. Der Schritt folgt einem Branchentrend, der derzeit viele TMC und Traveltech-Anbieter besch\u00e4ftigt.",
    "kind": "item",
    "source": "FVW / German travel trade",
    "source_id": "sm-derreise",
