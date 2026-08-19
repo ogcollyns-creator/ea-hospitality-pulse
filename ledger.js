@@ -1,31 +1,15 @@
 window.LEDGER = {
- "updated": "2026-08-18 06:34",
+ "updated": "2026-08-19 08:46",
  "stats": {
-  "total": 104,
+  "total": 105,
   "open": 84,
-  "resolved": 20,
-  "correct": 14,
+  "resolved": 21,
+  "correct": 15,
   "partial": 1,
   "incorrect": 5,
-  "accuracy": 72
+  "accuracy": 74
  },
  "open": [
-  {
-   "id": "P072",
-   "made_date": "2026-08-12",
-   "edition": "pulse-2026-08-12-midday",
-   "claim": "No confirmed Ebola (Bundibugyo) case will be recorded outside Africa by 19 August 2026 — the Israeli traveller under test on 11 Aug will not be confirmed positive",
-   "resolution_criteria": "Israeli Ministry of Health, WHO Disease Outbreak News or ECDC checked on 19 Aug 2026 showing no confirmed Bundibugyo case outside Africa. Any confirmed export makes the call incorrect",
-   "resolve_by": "2026-08-19",
-   "market": "Regional",
-   "segment": "City|Bush|Beach",
-   "confidence": "medium",
-   "status": "open",
-   "resolved_date": "",
-   "evidence": "",
-   "source_url": "",
-   "overdue": false
-  },
   {
    "id": "P052",
    "made_date": "2026-08-05",
@@ -1115,6 +1099,22 @@ window.LEDGER = {
    "overdue": false
   },
   {
+   "id": "P104",
+   "made_date": "2026-08-19",
+   "edition": "pulse-2026-08-19-morning",
+   "claim": "Kenya's full-year 2026 arrivals from Uganda will exceed the 2025 figure of 234,556 — regional source-market growth continues rather than stalling",
+   "resolution_criteria": "KTB or Tourism Research Institute 2026 annual/leading-indicator report shows Uganda arrivals to Kenya above 234,556 for calendar 2026",
+   "resolve_by": "2027-03-31",
+   "market": "KE",
+   "segment": "City|Bush|Beach",
+   "confidence": "Reported",
+   "status": "open",
+   "resolved_date": "",
+   "evidence": "",
+   "source_url": "",
+   "overdue": false
+  },
+  {
    "id": "P019",
    "made_date": "2026-07-26",
    "edition": "Sunday Foresight",
@@ -1356,6 +1356,22 @@ window.LEDGER = {
   }
  ],
  "resolved": [
+  {
+   "id": "P072",
+   "made_date": "2026-08-12",
+   "edition": "pulse-2026-08-12-midday",
+   "claim": "No confirmed Ebola (Bundibugyo) case will be recorded outside Africa by 19 August 2026 — the Israeli traveller under test on 11 Aug will not be confirmed positive",
+   "resolution_criteria": "Israeli Ministry of Health, WHO Disease Outbreak News or ECDC checked on 19 Aug 2026 showing no confirmed Bundibugyo case outside Africa. Any confirmed export makes the call incorrect",
+   "resolve_by": "2026-08-19",
+   "market": "Regional",
+   "segment": "City|Bush|Beach",
+   "confidence": "medium",
+   "status": "correct",
+   "resolved_date": "2026-08-19",
+   "evidence": "Both Israeli suspected Bundibugyo cases (returnees from DRC) tested NEGATIVE and the suspicion was ruled out, no confirmed Bundibugyo export attributable to the flagged traveller as of 19 Aug 2026 (ECDC/WHO/Israel MoH). Earlier US (May) and France (24 Jun) imports predate the 12 Aug claim and its Israeli-traveller framing.",
+   "source_url": "https://www.timesofisrael.com/ebola-suspicion-ruled-out-as-expert-says-very-low-chance-current-strain-will-reach-israel/",
+   "overdue": false
+  },
   {
    "id": "P023",
    "made_date": "2026-07-27",
