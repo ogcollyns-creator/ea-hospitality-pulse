@@ -1,10 +1,48 @@
 {
- "generated": "2026-08-19T14:00:12+03:00",
- "slot": "midday",
- "window_start": 1787112000,
- "observations_in_window": 288,
+ "generated": "2026-08-19T17:10:35+03:00",
+ "slot": "evening",
+ "window_start": 1787133600,
+ "observations_in_window": 196,
  "deduped_against": 6,
  "candidates": [
+  {
+   "score": 116.9,
+   "components": {
+    "tier": 40,
+    "category": 32,
+    "lead": 1.2,
+    "relevance": 12,
+    "freshness": 19.7,
+    "undated": -6,
+    "shock": 18
+   },
+   "keywords": [
+    "advisory"
+   ],
+   "shock_terms": [
+    "do not travel"
+   ],
+   "dedupe_match": null,
+   "dedupe_similarity": 0.0,
+   "id": "04bfe4ac67eb",
+   "title": "Panama - Level 2: Exercise Increased Caution",
+   "url": "https://travel.state.gov/content/travel/en/traveladvisories/traveladvisories/panama-travel-advisory.html",
+   "summary": "There was no change to the advisory level. The unrest indicator was removed. Advisory summary was updated. Exercise increased caution in Panama due to crime . Some areas have increased risk. Read the entire travel advisory. Do not travel to the Mosquito Gulf due to crime . Do not travel to parts of the Dari\u00e9n Region due to crime . Advisory summary U.S. government employees working in Panama need s",
+   "kind": "item",
+   "source": "US State Dept travel advisories (EA feed)",
+   "source_id": "adv-us-ea",
+   "tier": 1,
+   "country": "REG",
+   "category": "advisory",
+   "segments": [
+    "city",
+    "bush",
+    "beach"
+   ],
+   "first_seen": "2026-08-19T17:07+03:00",
+   "published": null,
+   "verdict": "LEAD CANDIDATE \u2014 tier-1 shock language"
+  },
   {
    "score": 101.4,
    "components": {
@@ -13,6 +51,39 @@
     "lead": 3.6,
     "relevance": 0,
     "freshness": 19.8,
+    "corroborated": 10,
+    "page_change": -4
+   },
+   "keywords": [],
+   "shock_terms": [],
+   "dedupe_match": null,
+   "dedupe_similarity": 0.0,
+   "id": "1e4f2ce2e916",
+   "title": "[page changed] Federal Register \u2014 public inspection (HHS/CDC), pre-publication",
+   "url": "https://www.federalregister.gov/api/v1/public-inspection-documents/current.json",
+   "summary": "{\"count\":108,\"results\":[{\"agencies\":[{\"raw_name\":\"Children and Families Administration\",\"name\":\"Children and Families Administration\",\"id\":49,\"url\":\"https://www.federalregister.gov/agencies/children-and-families-administration\",\"json_url\":\"https://www.federalregister.gov/api/v1/agencies/49\",\"parent_id\":221,\"slug\":\"children-and-families-administration\"}],\"agency_letters\":[],\"agency_names\":[\"Childre",
+   "kind": "page-change",
+   "source": "Federal Register \u2014 public inspection (HHS/CDC), pre-publication",
+   "source_id": "us-fedreg-pubinspect-hhs",
+   "tier": 1,
+   "country": "REG",
+   "category": "advisory",
+   "segments": [
+    "city",
+    "bush"
+   ],
+   "first_seen": "2026-08-19T17:08+03:00",
+   "published": "2026-08-19",
+   "verdict": "OPEN THIS \u2014 tier-1 advisory page moved; content not auto-parsed, read it manually"
+  },
+  {
+   "score": 97.9,
+   "components": {
+    "tier": 40,
+    "category": 32,
+    "lead": 3.6,
+    "relevance": 0,
+    "freshness": 16.3,
     "corroborated": 10,
     "page_change": -4
    },
@@ -39,197 +110,132 @@
    "verdict": "OPEN THIS \u2014 tier-1 advisory page moved; content not auto-parsed, read it manually"
   },
   {
-   "score": 98.5,
+   "score": 101.8,
    "components": {
     "tier": 40,
-    "category": 32,
+    "category": 20,
     "lead": 12.0,
-    "relevance": 8,
-    "freshness": 16.5,
-    "undated": -6,
-    "page_change": -4
-   },
-   "keywords": [
-    "fee"
-   ],
-   "shock_terms": [],
-   "dedupe_match": null,
-   "dedupe_similarity": 0.0,
-   "id": "bd5c95d75d23",
-   "title": "[page changed] Federal Register \u2014 CDC notices",
-   "url": "https://www.federalregister.gov/api/v1/documents.rss?conditions%5Bagencies%5D%5B%5D=centers-for-disease-control-and-prevention&order=newest",
-   "summary": "Federal Register Documents published on or after 07/20/2026 and from Centers for Disease Control and Prevention https://www.federalregister.gov/api/v1/documents.rss?conditions%5Bagencies%5D%5B%5D=centers-for-disease-control-and-prevention&order=newest Wed, 19 Aug 2026 04:00:00 GMT The documents in this feed originate from FederalRegister.gov which displays an unofficial web version of the daily Fe",
-   "kind": "page-change",
-   "source": "Federal Register \u2014 CDC notices",
-   "source_id": "us-fedreg-cdc",
-   "tier": 1,
-   "country": "REG",
-   "category": "advisory",
-   "segments": [
-    "city",
-    "bush"
-   ],
-   "first_seen": "2026-08-19T11:01+03:00",
-   "published": null,
-   "verdict": "OPEN THIS \u2014 tier-1 advisory page moved; content not auto-parsed, read it manually"
-  },
-  {
-   "score": 98.1,
-   "components": {
-    "tier": 40,
-    "category": 32,
-    "lead": 3.6,
     "relevance": 0,
-    "freshness": 16.5,
-    "corroborated": 10,
-    "page_change": -4
-   },
-   "keywords": [],
-   "shock_terms": [],
-   "dedupe_match": null,
-   "dedupe_similarity": 0.0,
-   "id": "eeac5d9ccc77",
-   "title": "[page changed] Federal Register \u2014 public inspection (HHS/CDC), pre-publication",
-   "url": "https://www.federalregister.gov/api/v1/public-inspection-documents/current.json",
-   "summary": "{\"count\":87,\"results\":[{\"agencies\":[{\"raw_name\":\"Internal Revenue Service\",\"name\":\"Internal Revenue Service\",\"id\":254,\"url\":\"https://www.federalregister.gov/agencies/internal-revenue-service\",\"json_url\":\"https://www.federalregister.gov/api/v1/agencies/254\",\"parent_id\":497,\"slug\":\"internal-revenue-service\"}],\"agency_letters\":[],\"agency_names\":[\"Internal Revenue Service\"],\"docket_numbers\":[],\"docume",
-   "kind": "page-change",
-   "source": "Federal Register \u2014 public inspection (HHS/CDC), pre-publication",
-   "source_id": "us-fedreg-pubinspect-hhs",
-   "tier": 1,
-   "country": "REG",
-   "category": "advisory",
-   "segments": [
-    "city",
-    "bush"
-   ],
-   "first_seen": "2026-08-19T11:01+03:00",
-   "published": "2026-08-18",
-   "verdict": "OPEN THIS \u2014 tier-1 advisory page moved; content not auto-parsed, read it manually"
-  },
-  {
-   "score": 64.2,
-   "components": {
-    "tier": 40,
-    "category": 12,
-    "lead": 3.6,
-    "relevance": 0,
-    "freshness": 18.6,
-    "undated": -6,
-    "page_change": -4
-   },
-   "keywords": [],
-   "shock_terms": [],
-   "dedupe_match": null,
-   "dedupe_similarity": 0.0,
-   "id": "21cd0e1be8de",
-   "title": "[page changed] Jambojet media",
-   "url": "https://www.jambojet.com/en/press-release",
-   "summary": "Request unsuccessful. Incapsula incident ID: 396000330582084193-1029703080503674996",
-   "kind": "page-change",
-   "source": "Jambojet media",
-   "source_id": "air-jambojet",
-   "tier": 1,
-   "country": "KE",
-   "category": "airline",
-   "segments": [
-    "city",
-    "bush",
-    "beach"
-   ],
-   "first_seen": "2026-08-19T12:53+03:00",
-   "published": null,
-   "verdict": "OPEN THIS \u2014 tier-1 airline page moved; content not auto-parsed, read it manually"
-  },
-  {
-   "score": 62.1,
-   "components": {
-    "tier": 40,
-    "category": 12,
-    "lead": 3.6,
-    "relevance": 0,
-    "freshness": 16.5,
-    "undated": -6,
-    "page_change": -4
-   },
-   "keywords": [],
-   "shock_terms": [],
-   "dedupe_match": null,
-   "dedupe_similarity": 0.0,
-   "id": "bf106b4bba6c",
-   "title": "[page changed] Airlink news",
-   "url": "https://www.flyairlink.com/",
-   "summary": "Request unsuccessful. Incapsula incident ID: 92000310723894257-1273964587936122870",
-   "kind": "page-change",
-   "source": "Airlink news",
-   "source_id": "air-airlink",
-   "tier": 1,
-   "country": "REG",
-   "category": "airline",
-   "segments": [
-    "city",
-    "bush",
-    "beach"
-   ],
-   "first_seen": "2026-08-19T11:01+03:00",
-   "published": null,
-   "verdict": "OPEN THIS \u2014 tier-1 airline page moved; content not auto-parsed, read it manually"
-  },
-  {
-   "score": 93.3,
-   "components": {
-    "tier": 40,
-    "category": 10,
-    "lead": 16.8,
-    "relevance": 0,
-    "freshness": 16.5,
+    "freshness": 19.8,
     "corroborated": 10
    },
    "keywords": [],
    "shock_terms": [],
    "dedupe_match": null,
    "dedupe_similarity": 0.0,
-   "id": "82ee5b204270",
-   "title": "Wednesday, 19th August, 2026 at 2.30pm",
-   "url": "https://www.parliament.go.ke/sites/default/files/2026-08/ORDER%20PAPER%20FOR%20WEDNESDAY%2C%2019TH%20AUGUST%202026%20-%20AFTERNOON%20SITTING.pdf",
-   "summary": "en-USThirteenth Parliament Fifth Session en-US Afternoon Sitting en-US(No. 77) (2176) en-US en-US en-USREPUBLIC OF KENYA en-US en-USTHIRTEENTH PARLIAMENT (FIFTH SESSION) en-US en-USTHE NATIONAL ASSEMBLY en-US en-USORDERS OF THE DAY en-US en-GBWEDNESDAY, AUGUST 19, 2026 en-USAT 2.30 P.M. en-US en-USORDER OF BUSINESS en-US en-USPRAYERS en-US en-US1.en-US Administration of Oath en-US2.en-US Communica",
-   "kind": "doc",
-   "source": "Parliament of Kenya \u2014 bills & papers",
-   "source_id": "ke-parliament",
+   "id": "fc82541b8a84",
+   "title": "Githunguri Law Courts \u2013 Daily Cause List \u2013 18 August 2026",
+   "url": "https://new.kenyalaw.org/akn/ke/doc/cause-list-daily/kemc/2026-08-18/1/eng@2026-08-18",
+   "summary": "Githunguri Law Courts \u2013 Daily Cause List \u2013 18 August 2026",
+   "kind": "item",
+   "source": "Kenya Gazette (Kenya Law)",
+   "source_id": "ke-gazette",
    "tier": 1,
    "country": "KE",
-   "category": "legislature",
+   "category": "gazette",
    "segments": [
     "city",
     "bush",
     "beach"
    ],
-   "first_seen": "2026-08-19T11:01+03:00",
-   "published": "2026-08-19",
+   "first_seen": "2026-08-19T17:08+03:00",
+   "published": "2026-08-18",
    "verdict": "STRONG \u2014 tier-1, upstream"
   },
   {
-   "score": 92.9,
+   "score": 98.9,
+   "components": {
+    "tier": 40,
+    "category": 32,
+    "lead": 1.2,
+    "relevance": 12,
+    "freshness": 19.7,
+    "undated": -6
+   },
+   "keywords": [
+    "advisory"
+   ],
+   "shock_terms": [],
+   "dedupe_match": null,
+   "dedupe_similarity": 0.0,
+   "id": "a45cc609f8bf",
+   "title": "Paraguay - Level 1: Exercise Normal Precautions",
+   "url": "https://travel.state.gov/content/travel/en/traveladvisories/traveladvisories/paraguay-travel-advisory.html",
+   "summary": "There were no changes to the advisory level or risk indicators. Advisory summary was updated. Exercise Increased Caution in Departments of Alto Paran\u00e1, Amambay, Canindey\u00fa, Concepcion, and San Pedro due to crime. Advisory summary Paraguay is generally a safe destination for travelers. Some areas have increased crime risk. U.S. government employees working in Paraguay need special authorization to t",
+   "kind": "item",
+   "source": "US State Dept travel advisories (EA feed)",
+   "source_id": "adv-us-ea",
+   "tier": 1,
+   "country": "REG",
+   "category": "advisory",
+   "segments": [
+    "city",
+    "bush",
+    "beach"
+   ],
+   "first_seen": "2026-08-19T17:07+03:00",
+   "published": null,
+   "verdict": "STRONG \u2014 tier-1, upstream"
+  },
+  {
+   "score": 92.4,
+   "components": {
+    "tier": 20,
+    "category": 9,
+    "lead": 3.6,
+    "relevance": 12,
+    "freshness": 19.8,
+    "corroborated": 10,
+    "shock": 18
+   },
+   "keywords": [
+    "insolven"
+   ],
+   "shock_terms": [
+    "insolven"
+   ],
+   "dedupe_match": null,
+   "dedupe_similarity": 0.0,
+   "id": "334d909d3fff",
+   "title": "Akute Insolvenzgefahr abgewendet: Air Baltic \u2013 Gl\u00e4ubiger gew\u00e4hren Aufschub",
+   "url": "https://www.fvw.de/touristik/verkehr/glaeubiger-gewaehren-aufschub-air-baltic--insolvenz-zunaechst-abgewendet-263873",
+   "summary": "Gerade erst hat Air Baltic beschlossen, ihre Flotte drastisch zu verkleinern, um den Finanzproblemen zu entkommen. Nun haben die Letten, an denen auch die Lufthansa beteiligt ist, einen wichtigen Aufschub erhalten.",
+   "kind": "item",
+   "source": "FVW / German travel trade",
+   "source_id": "sm-derreise",
+   "tier": 2,
+   "country": "GLOBAL",
+   "category": "source-market",
+   "segments": [
+    "beach",
+    "bush"
+   ],
+   "first_seen": "2026-08-19T17:08+03:00",
+   "published": "2026-08-19",
+   "verdict": "CONSIDER"
+  },
+  {
+   "score": 92.2,
    "components": {
     "tier": 20,
     "category": 14,
     "lead": 8.4,
-    "relevance": 24,
-    "freshness": 16.5,
+    "relevance": 20,
+    "freshness": 19.8,
     "corroborated": 10
    },
    "keywords": [
     "vat",
     "route",
-    "flight",
-    "booking"
+    "airline"
    ],
    "shock_terms": [],
    "dedupe_match": null,
    "dedupe_similarity": 0.0,
-   "id": "b3dd65964efb",
-   "title": "United Moves Houston \u2013 Caracas Service Resumption to Jan 2027",
-   "url": "https://www.aeroroutes.com/eng/260819-uanw26ccs",
-   "summary": "Published at 0000PDT / 0700GMT 19AUG26 United recently further revised planned service resumption on Houston \u2013 Caracas route, as the Star Alliance carrier closed bookings for the period of 06OCT26 \u2013 11JAN27. First available flight for reservations on this route now scheduled on 12JAN27 at the earliest (Houston departure), although further changes remain highly possible. UA1046 IAH2355 \u2013 0630+1CCS ",
+   "id": "70ca17a9d927",
+   "title": "Air Canada Adds Toronto \u2013 Guatemala City Service in NW26",
+   "url": "https://www.aeroroutes.com/eng/260819-acnw26yyzgua",
+   "summary": "Published at 0400PDT / 1100GMT 19AUG26 Air Canada during Northern winter 2026/27 season plans to add new service to Guatemala, as the airline recently opened reservations for Toronto Pearson \u2013 Guatemala City service. This route will be offered once a week from 01DEC26. AC1300 YYZ1815 \u2013 2230GUA 333 2 AC1301 GUA1030 \u2013 1630YYZ 333 2",
    "kind": "item",
    "source": "AeroRoutes schedule filings",
    "source_id": "aeroroutes",
@@ -241,56 +247,146 @@
     "bush",
     "beach"
    ],
-   "first_seen": "2026-08-19T11:01+03:00",
+   "first_seen": "2026-08-19T17:08+03:00",
    "published": "2026-08-19",
    "verdict": "CONSIDER"
   },
   {
-   "score": 90.6,
+   "score": 91.8,
    "components": {
     "tier": 40,
-    "category": 12,
-    "lead": 6.0,
-    "relevance": 24,
-    "freshness": 18.6,
-    "stale_trap": -10
+    "category": 20,
+    "lead": 12.0,
+    "relevance": 0,
+    "freshness": 19.8
    },
-   "keywords": [
-    "vat",
-    "route",
-    "tourism",
-    "traffic"
-   ],
+   "keywords": [],
    "shock_terms": [],
    "dedupe_match": null,
-   "dedupe_similarity": 0.33,
-   "id": "634d1a6b3369",
-   "title": "Kampala on Foot For 8km Of History, Faith and Tourism.",
-   "url": "https://www.tourism.go.ug/single-post/kampala-on-foot-for-8km-of-history-faith-and-tourism",
-   "summary": "On Sunday, 16 August, Kampala\u2019s familiar skyline offered a different invitation: walk through it slowly and see the city beyond its traffic, commerce and daily bustle. The fifth edition of the Kampala Tourism Walk brought more than 400 people onto an 8.1-kilometre route beginning at the SSDM Hindu Sanatan Temple, as government and private-sector tourism players sought to turn the capital\u2019s religio",
+   "dedupe_similarity": 0.0,
+   "id": "c5c2a4d2694c",
+   "title": "Siakago Law Courts \u2013 Weekly Cause List \u2013 17 August 2026 to 21 August 2026",
+   "url": "https://new.kenyalaw.org/akn/ke/doc/cause-list-weekly/kemc/2026-08-17/19/eng@2026-08-17",
+   "summary": "Siakago Law Courts \u2013 Weekly Cause List \u2013 17 August 2026 to 21 August 2026",
    "kind": "item",
-   "source": "Ministry of Tourism, Wildlife & Antiquities",
-   "source_id": "ug-tourism-ministry",
+   "source": "Kenya Gazette (Kenya Law)",
+   "source_id": "ke-gazette",
    "tier": 1,
-   "country": "UG",
-   "category": "ministry",
+   "country": "KE",
+   "category": "gazette",
    "segments": [
     "city",
     "bush",
     "beach"
    ],
-   "first_seen": "2026-08-19T12:53+03:00",
-   "published": "2026-08-16",
-   "verdict": "CHECK \u2014 source date older than the window"
+   "first_seen": "2026-08-19T17:08+03:00",
+   "published": "2026-08-17",
+   "verdict": "STRONG \u2014 tier-1, upstream"
   },
   {
-   "score": 84.9,
+   "score": 91.8,
+   "components": {
+    "tier": 40,
+    "category": 20,
+    "lead": 12.0,
+    "relevance": 0,
+    "freshness": 19.8
+   },
+   "keywords": [],
+   "shock_terms": [],
+   "dedupe_match": null,
+   "dedupe_similarity": 0.0,
+   "id": "88c2475a2f36",
+   "title": "Naivasha Law Courts \u2013 General Notice \u2013 17 August 2026 to 11 September 2026",
+   "url": "https://new.kenyalaw.org/akn/ke/doc/general_notice/kemc/2026-08-17/1/eng@2026-08-17",
+   "summary": "Naivasha Law Courts \u2013 General Notice \u2013 17 August 2026 to 11 September 2026",
+   "kind": "item",
+   "source": "Kenya Gazette (Kenya Law)",
+   "source_id": "ke-gazette",
+   "tier": 1,
+   "country": "KE",
+   "category": "gazette",
+   "segments": [
+    "city",
+    "bush",
+    "beach"
+   ],
+   "first_seen": "2026-08-19T17:08+03:00",
+   "published": "2026-08-17",
+   "verdict": "STRONG \u2014 tier-1, upstream"
+  },
+  {
+   "score": 91.8,
+   "components": {
+    "tier": 40,
+    "category": 20,
+    "lead": 12.0,
+    "relevance": 0,
+    "freshness": 19.8
+   },
+   "keywords": [],
+   "shock_terms": [],
+   "dedupe_match": null,
+   "dedupe_similarity": 0.0,
+   "id": "5720ba342ba7",
+   "title": "Mariakani Law Courts \u2013 Weekly Cause List \u2013 17 August 2026 to 21 August 2026",
+   "url": "https://new.kenyalaw.org/akn/ke/doc/cause-list-weekly/kemc/2026-08-17/20/eng@2026-08-17",
+   "summary": "Mariakani Law Courts \u2013 Weekly Cause List \u2013 17 August 2026 to 21 August 2026",
+   "kind": "item",
+   "source": "Kenya Gazette (Kenya Law)",
+   "source_id": "ke-gazette",
+   "tier": 1,
+   "country": "KE",
+   "category": "gazette",
+   "segments": [
+    "city",
+    "bush",
+    "beach"
+   ],
+   "first_seen": "2026-08-19T17:08+03:00",
+   "published": "2026-08-17",
+   "verdict": "STRONG \u2014 tier-1, upstream"
+  },
+  {
+   "score": 91.8,
+   "components": {
+    "tier": 40,
+    "category": 20,
+    "lead": 12.0,
+    "relevance": 0,
+    "freshness": 19.8
+   },
+   "keywords": [],
+   "shock_terms": [],
+   "dedupe_match": null,
+   "dedupe_similarity": 0.0,
+   "id": "0956c3f09e21",
+   "title": "Karaba Law Courts \u2013 Weekly Cause List \u2013 17 August 2026 to 21 August 2026",
+   "url": "https://new.kenyalaw.org/akn/ke/doc/cause-list-weekly/kemc/2026-08-17/21/eng@2026-08-17",
+   "summary": "Karaba Law Courts \u2013 Weekly Cause List \u2013 17 August 2026 to 21 August 2026",
+   "kind": "item",
+   "source": "Kenya Gazette (Kenya Law)",
+   "source_id": "ke-gazette",
+   "tier": 1,
+   "country": "KE",
+   "category": "gazette",
+   "segments": [
+    "city",
+    "bush",
+    "beach"
+   ],
+   "first_seen": "2026-08-19T17:08+03:00",
+   "published": "2026-08-17",
+   "verdict": "STRONG \u2014 tier-1, upstream"
+  },
+  {
+   "score": 88.2,
    "components": {
     "tier": 20,
     "category": 14,
     "lead": 8.4,
     "relevance": 16,
-    "freshness": 16.5,
+    "freshness": 19.8,
     "corroborated": 10
    },
    "keywords": [
@@ -301,10 +397,10 @@
    "shock_terms": [],
    "dedupe_match": null,
    "dedupe_similarity": 0.0,
-   "id": "4f373d2504d9",
-   "title": "Sky Airline late-2026 Santiago de Chile Network Additions",
-   "url": "https://www.aeroroutes.com/eng/260818-h2nw26scl",
-   "summary": "Published at 2200PDT 18AUG26 / 0500GMT 19AUG26 Sky Airline at the end of 2026 plans to launch 2 new nonstop routes from Santiago de Chile , including flights to Punta Cana and Salvador da Bahia. Planned operations include the following. Santiago de Chile \u2013 Punta Cana eff 29DEC26 4 weekly A321neo H2950 SCL0744 \u2013 1450PUJ 32Q x135 H2951 PUJ1600 \u2013 0052+1SCL 32Q x135 Santiago de Chile \u2013 Salvador da Bah",
+   "id": "e49067e13865",
+   "title": "Mokulele Airlines Resumes Kahului \u2013 Kona in 4Q26",
+   "url": "https://www.aeroroutes.com/eng/260819-9x4q26oggkoa",
+   "summary": "Published at 0600PDT / 1300GMT 19AUG26 Mokulele Airlines from October 2026 plans to resume Kahului \u2013 Kona route, last served regularly until October 2024 (the airline operated few flights in 2025, based on OAG schedule filing). The airline will operate Cessna aircraft on this route twice daily, effective 01OCT26. 9X501 OGG0640 \u2013 0735KOA CNC D 9X503 OGG1700 \u2013 1755KOA CNC D 9X502 KOA0800 \u2013 0850OGG C",
    "kind": "item",
    "source": "AeroRoutes schedule filings",
    "source_id": "aeroroutes",
@@ -316,31 +412,66 @@
     "bush",
     "beach"
    ],
-   "first_seen": "2026-08-19T11:01+03:00",
+   "first_seen": "2026-08-19T17:08+03:00",
    "published": "2026-08-19",
    "verdict": "CONSIDER"
   },
   {
-   "score": 80.9,
+   "score": 85.5,
+   "components": {
+    "tier": 40,
+    "category": 7,
+    "lead": 16.8,
+    "relevance": 8,
+    "freshness": 19.7,
+    "undated": -6
+   },
+   "keywords": [
+    "fuel"
+   ],
+   "shock_terms": [],
+   "dedupe_match": null,
+   "dedupe_similarity": 0.0,
+   "id": "997ed140dc77",
+   "title": "Fuels - Fuel, Oils and Lubricants...",
+   "url": "https://egpuganda.go.ug/index/390592540_egp",
+   "summary": "",
+   "kind": "item",
+   "source": "Uganda EGP portal",
+   "source_id": "ug-tenders",
+   "tier": 1,
+   "country": "UG",
+   "category": "tender",
+   "segments": [
+    "city",
+    "bush",
+    "beach"
+   ],
+   "first_seen": "2026-08-19T17:07+03:00",
+   "published": null,
+   "verdict": "CONSIDER"
+  },
+  {
+   "score": 84.2,
    "components": {
     "tier": 20,
     "category": 14,
     "lead": 8.4,
     "relevance": 12,
-    "freshness": 16.5,
+    "freshness": 19.8,
     "corroborated": 10
    },
    "keywords": [
-    "vat",
+    "route",
     "airline"
    ],
    "shock_terms": [],
    "dedupe_match": null,
-   "dedupe_similarity": 0.17,
-   "id": "e1aca403aadf",
-   "title": "Contour Airlines Oct 2026 Caribbean Network Additions",
-   "url": "https://www.aeroroutes.com/eng/260818-lfoct26",
-   "summary": "Published at 2300PDT 18AUG26 / 0600GMT 19AUG26 Contour Airlines in October 2026 plans to launch 2 Caribbean sectors with Embraer ERJ135 aircraft, recently opened for reservations. Planned service include the following. Dominica \u2013 Port of Spain eff 05OCT26 2 weekly Embraer ERJ135 LF3224 DOM1805 \u2013 1925POS ERJ 1 LF3222 DOM1805 \u2013 1925POS ERJ 4 LF3221 POS0830 \u2013 0950DOM ERJ 2 LF3223 POS0830 \u2013 0950DOM ER",
+   "dedupe_similarity": 0.0,
+   "id": "ce546b851240",
+   "title": "Alaska Adds San Diego \u2013 Kalispell Winter Service in 1Q27",
+   "url": "https://www.aeroroutes.com/eng/260819-as1q27sanfca",
+   "summary": "Published at 0700PDT / 1400GMT 19AUG26 Alaska Airlines in the first quarter of 2027 plans to offer San Diego \u2013 Kalispell nonstop service, which the airline offers this route during winter season for the first time. From 09JAN27 to 06FEB27, Horizon Air Embraer E175 aircraft operates this route on weekly basis. AS2128 SAN0800 \u2013 1207FCA E75 6 AS2127 FCA1247 \u2013 1453SAN E75 6",
    "kind": "item",
    "source": "AeroRoutes schedule filings",
    "source_id": "aeroroutes",
@@ -352,18 +483,190 @@
     "bush",
     "beach"
    ],
-   "first_seen": "2026-08-19T11:01+03:00",
+   "first_seen": "2026-08-19T17:08+03:00",
+   "published": "2026-08-19",
+   "verdict": "CONSIDER"
+  },
+  {
+   "score": 84.2,
+   "components": {
+    "tier": 20,
+    "category": 14,
+    "lead": 8.4,
+    "relevance": 12,
+    "freshness": 19.8,
+    "corroborated": 10
+   },
+   "keywords": [
+    "route",
+    "flight"
+   ],
+   "shock_terms": [],
+   "dedupe_match": null,
+   "dedupe_similarity": 0.0,
+   "id": "f8e4ef33260e",
+   "title": "Air Canada Removes Montreal \u2013 Guadalajara Listing in NS27",
+   "url": "https://www.aeroroutes.com/eng/260819-acns27gdl",
+   "summary": "Published at 0500PDT / 1200GMT 19AUG26 Air Canada in recent schedule update removed schedule listing for Montreal \u2013 Guadalajara route, previously filed as part of the carrier\u2019s default schedule filing for 2027. The Star Alliance member previously filed 3 weekly flights with Airbus A220-300 aircraft from 01JUN27. Previously filed schedule as follows. AC1393 YUL1700 \u2013 2055GDL 223 246 AC1392 GDL0805 ",
+   "kind": "item",
+   "source": "AeroRoutes schedule filings",
+   "source_id": "aeroroutes",
+   "tier": 2,
+   "country": "GLOBAL",
+   "category": "aviation-tracker",
+   "segments": [
+    "city",
+    "bush",
+    "beach"
+   ],
+   "first_seen": "2026-08-19T17:08+03:00",
+   "published": "2026-08-19",
+   "verdict": "CONSIDER"
+  },
+  {
+   "score": 84.2,
+   "components": {
+    "tier": 20,
+    "category": 14,
+    "lead": 8.4,
+    "relevance": 12,
+    "freshness": 19.8,
+    "corroborated": 10
+   },
+   "keywords": [
+    "route",
+    "franc"
+   ],
+   "shock_terms": [],
+   "dedupe_match": null,
+   "dedupe_similarity": 0.0,
+   "id": "034fc87d1bd9",
+   "title": "avianca NW26 Guatemala City \u2013 San Francisco Operations",
+   "url": "https://www.aeroroutes.com/eng/260819-avnw26guasfo",
+   "summary": "Published at 0200PDT / 0900GMT 19AUG26 avianca during Northern winter 2026/27 season once again schedules Guatemala City \u2013 San Francisco seasonal route, which will be offered 4 times weekly from 02DEC26 to 31JAN27. This route is served between June and August 2026 for summer season. TACA Airbus A320neo aircraft operates following schedule. AV504 GUA1930 \u2013 2340SFO 32N x246 AV505 SFO0100 \u2013 0820GUA 3",
+   "kind": "item",
+   "source": "AeroRoutes schedule filings",
+   "source_id": "aeroroutes",
+   "tier": 2,
+   "country": "GLOBAL",
+   "category": "aviation-tracker",
+   "segments": [
+    "city",
+    "bush",
+    "beach"
+   ],
+   "first_seen": "2026-08-19T17:08+03:00",
    "published": "2026-08-19",
    "verdict": "CONSIDER"
   },
   {
    "score": 80.2,
    "components": {
+    "tier": 20,
+    "category": 14,
+    "lead": 8.4,
+    "relevance": 8,
+    "freshness": 19.8,
+    "corroborated": 10
+   },
+   "keywords": [
+    "airline",
+    "flight"
+   ],
+   "shock_terms": [],
+   "dedupe_match": null,
+   "dedupe_similarity": 0.0,
+   "id": "e28d86f966d6",
+   "title": "Viva Air Resumes Cancun \u2013 Acapulco in Nov 2026",
+   "url": "https://www.aeroroutes.com/eng/260819-vbnw26aca",
+   "summary": "Published at 0300PDT / 1000GMT 19AUG26 Viva Air from November 2026 plans to resume Cancun \u2013 Acapulco service, last served until April 2024. The airline schedules 2 weekly flights from 03NOV26, on board Airbus A320 aircraft. Schedule below focuses on the period of 03NOV26 \u2013 28NOV26. VB6398 CUN1525 \u2013 1655ACA 320 26 VB6399 ACA1725 \u2013 2055CUN 320 26",
+   "kind": "item",
+   "source": "AeroRoutes schedule filings",
+   "source_id": "aeroroutes",
+   "tier": 2,
+   "country": "GLOBAL",
+   "category": "aviation-tracker",
+   "segments": [
+    "city",
+    "bush",
+    "beach"
+   ],
+   "first_seen": "2026-08-19T17:08+03:00",
+   "published": "2026-08-19",
+   "verdict": "CONSIDER"
+  },
+  {
+   "score": 79.5,
+   "components": {
+    "tier": 40,
+    "category": 9,
+    "lead": 16.8,
+    "relevance": 0,
+    "freshness": 19.7,
+    "undated": -6
+   },
+   "keywords": [],
+   "shock_terms": [],
+   "dedupe_match": null,
+   "dedupe_similarity": 0.0,
+   "id": "290acc602d87",
+   "title": "World-Record Freediver Hanli Prinsloo Returns to the Maldives for Two Ocean Retreats",
+   "url": "https://media.minorhotels.com/en-GLO/269329-world-record-freediver-hanli-prinsloo-returns-to-the-maldives-for-two-ocean-retreats",
+   "summary": "",
+   "kind": "item",
+   "source": "Minor Hotels newsroom",
+   "source_id": "dev-minor",
+   "tier": 1,
+   "country": "GLOBAL",
+   "category": "hotel-group",
+   "segments": [
+    "beach"
+   ],
+   "first_seen": "2026-08-19T17:07+03:00",
+   "published": null,
+   "verdict": "CONSIDER"
+  },
+  {
+   "score": 79.5,
+   "components": {
+    "tier": 40,
+    "category": 9,
+    "lead": 16.8,
+    "relevance": 0,
+    "freshness": 19.7,
+    "undated": -6
+   },
+   "keywords": [],
+   "shock_terms": [],
+   "dedupe_match": null,
+   "dedupe_similarity": 0.0,
+   "id": "db460c09bbd0",
+   "title": "Drift off dreaming of brekkie: Holiday Inn Express launches the world's first Breakfast Pillow in Australia",
+   "url": "https://www.ihgplc.com/en/news-and-media/news-releases/2026/drift-off-dreaming-of-brekkie-holiday-inn-express-launches-the-worlds-first-breakfast-pillow-in-australia",
+   "summary": "",
+   "kind": "item",
+   "source": "IHG news",
+   "source_id": "dev-ihg",
+   "tier": 1,
+   "country": "GLOBAL",
+   "category": "hotel-group",
+   "segments": [
+    "city",
+    "bush",
+    "beach"
+   ],
+   "first_seen": "2026-08-19T17:07+03:00",
+   "published": null,
+   "verdict": "CONSIDER"
+  },
+  {
+   "score": 76.7,
+   "components": {
     "tier": 40,
     "category": 24,
     "lead": 2.4,
     "relevance": 0,
-    "freshness": 19.8,
+    "freshness": 16.3,
     "undated": -6
    },
    "keywords": [],
@@ -390,13 +693,13 @@
    "verdict": "CONSIDER"
   },
   {
-   "score": 79.8,
+   "score": 76.3,
    "components": {
     "tier": 20,
     "category": 4,
     "lead": 0.0,
     "relevance": 8,
-    "freshness": 19.8,
+    "freshness": 16.3,
     "corroborated": 10,
     "shock": 18
    },
@@ -428,149 +731,503 @@
    "verdict": "CONSIDER"
   },
   {
-   "score": 77.3,
-   "components": {
-    "tier": 40,
-    "category": 10,
-    "lead": 16.8,
-    "relevance": 0,
-    "freshness": 16.5,
-    "undated": -6
-   },
-   "keywords": [],
-   "shock_terms": [],
-   "dedupe_match": null,
-   "dedupe_similarity": 0.0,
-   "id": "99ca1a6e583c",
-   "title": "\ud835\udc12\ud835\udc04\ud835\udc0d\ud835\udc00\ud835\udc13\ud835\udc04 \ud835\udc04\ud835\udc0d\ud835\udc04\ud835\udc11\ud835\udc06\ud835\udc18 \ud835\udc02\ud835\udc0e\ud835\udc0c\ud835\udc0c\ud835\udc08\ud835\udc13\ud835\udc13\ud835\udc04\ud835\udc04 \ud835\udc02\ud835\udc0e\ud835\udc0d\ud835\udc03\ud835\udc0e\ud835\udc0b\ud835\udc04\ud835\udc12 \ud835\udc16\ud835\udc08\ud835\udc13\ud835\udc07 \ud835\udc0a\ud835\udc07\ud835\udc00\ud835\udc0b\ud835\udc16\ud835\udc00\ud835\udc0b\ud835\udc04",
-   "url": "https://www.parliament.go.ke/index.php/node/26283",
-   "summary": "",
-   "kind": "item",
-   "source": "Parliament of Kenya \u2014 bills & papers",
-   "source_id": "ke-parliament",
-   "tier": 1,
-   "country": "KE",
-   "category": "legislature",
-   "segments": [
-    "city",
-    "bush",
-    "beach"
-   ],
-   "first_seen": "2026-08-19T11:01+03:00",
-   "published": null,
-   "verdict": "CONSIDER"
-  },
-  {
-   "score": 77.3,
-   "components": {
-    "tier": 40,
-    "category": 10,
-    "lead": 16.8,
-    "relevance": 0,
-    "freshness": 16.5,
-    "undated": -6
-   },
-   "keywords": [],
-   "shock_terms": [],
-   "dedupe_match": null,
-   "dedupe_similarity": 0.0,
-   "id": "f7cb8a5a95a1",
-   "title": "\ud835\udc12\ud835\udc04\ud835\udc0d\ud835\udc00\ud835\udc13\ud835\udc04 \ud835\udc04\ud835\udc0d\ud835\udc04\ud835\udc11\ud835\udc06\ud835\udc18 \ud835\udc02\ud835\udc0e\ud835\udc0c\ud835\udc0c\ud835\udc08\ud835\udc13\ud835\udc13\ud835\udc04\ud835\udc04 \ud835\udc02\ud835\udc0e\ud835\udc0d\ud835\udc03\ud835\udc0e\ud835\udc0b\ud835\udc04\ud835\udc12 \ud835\udc16\ud835\udc08\ud835\udc13\ud835\udc07 \ud835\udc0a\ud835\udc07\ud835\udc00\ud835\udc0b\ud835\udc16\ud835\udc00\ud835\udc0b\ud835\udc04",
-   "url": "https://www.parliament.go.ke/node/26283",
-   "summary": "",
-   "kind": "item",
-   "source": "Parliament of Kenya \u2014 bills & papers",
-   "source_id": "ke-parliament",
-   "tier": 1,
-   "country": "KE",
-   "category": "legislature",
-   "segments": [
-    "city",
-    "bush",
-    "beach"
-   ],
-   "first_seen": "2026-08-19T11:01+03:00",
-   "published": null,
-   "verdict": "CONSIDER"
-  },
-  {
-   "score": 76.9,
+   "score": 76.0,
    "components": {
     "tier": 20,
-    "category": 14,
-    "lead": 8.4,
-    "relevance": 8,
-    "freshness": 16.5,
+    "category": 5,
+    "lead": 1.2,
+    "relevance": 20,
+    "freshness": 19.8,
     "corroborated": 10
    },
    "keywords": [
-    "route"
+    "cancel",
+    "eta"
    ],
    "shock_terms": [],
    "dedupe_match": null,
-   "dedupe_similarity": 0.0,
-   "id": "85ab1567e0e0",
-   "title": "Tradewind Plans Fort Lauderdale \u2013 Nassau Dec 2026 Launch",
-   "url": "https://www.aeroroutes.com/eng/260819-tjnw26nas",
-   "summary": "Published at 0100PDT / 0800GMT 19AUG26 Tradewind Aviation in Northern winter 2026/27 season plans to launch new service to The Bahamas, with the scheduling of Fort Lauderdale/Hollywood \u2013 Nassau route. Pilatus PC12 to serve this route once a day from 10DEC26. TJ6504 FLL1555 \u2013 1655NAS PL2 D TJ6505 NAS1730 \u2013 1829FLL PL2 D",
+   "dedupe_similarity": 0.2,
+   "id": "29b6d2afccf5",
+   "title": "Delta Pilots Detail Why Scheduling Talks Broke Down as Cancellations Rise",
+   "url": "https://skift.com/2026/08/19/delta-pilots-detail-why-scheduling-talks-hit-an-impasse",
+   "summary": "Reliability has long been one of Delta\u2019s biggest selling points. But the carrier has experienced an uptick in disruptions this year and has not been able to reach a deal with its pilots\u2019 union yet on the fix.",
    "kind": "item",
-   "source": "AeroRoutes schedule filings",
-   "source_id": "aeroroutes",
+   "source": "Skift",
+   "source_id": "tp-skift",
    "tier": 2,
    "country": "GLOBAL",
-   "category": "aviation-tracker",
+   "category": "trade",
    "segments": [
     "city",
     "bush",
     "beach"
    ],
-   "first_seen": "2026-08-19T11:01+03:00",
+   "first_seen": "2026-08-19T17:08+03:00",
    "published": "2026-08-19",
    "verdict": "CONSIDER"
   },
   {
-   "score": 76.9,
+   "score": 75.8,
    "components": {
     "tier": 20,
-    "category": 14,
-    "lead": 8.4,
-    "relevance": 8,
-    "freshness": 16.5,
-    "corroborated": 10
+    "category": 4,
+    "lead": 0.0,
+    "relevance": 20,
+    "freshness": 19.8,
+    "undated": -6,
+    "shock": 18
    },
    "keywords": [
-    "route"
+    "grounded",
+    "fuel"
    ],
-   "shock_terms": [],
+   "shock_terms": [
+    "grounded"
+   ],
    "dedupe_match": null,
    "dedupe_similarity": 0.0,
-   "id": "932e9edc35f6",
-   "title": "Air Peace Oct 2026 Lagos \u2013 Sao Paulo Operations",
-   "url": "https://www.aeroroutes.com/eng/260818-p4oct26gru",
-   "summary": "Published at 2100PDT 18AUG26 / 0400GMT 19AUG26 Nigerian carrier Air Peace in October 2026 schedules one-time service to Brasil, with the schedule filing of Lagos \u2013 Sao Paulo Guarulhos route. The 777-200ER operates this route on following dates. P47799 LOS1100 \u2013 1700GRU 777 01OCT26 P47800 GRU1200 \u2013 2300LOS 77 10OCT26",
+   "id": "3e8bc01f4385",
+   "title": "Companies KQ sees wider losses on 72pc fuel cost jump, grounded fleet 1 hour ago - 3 min read",
+   "url": "https://www.businessdailyafrica.com/bd/corporate/companies/kq-sees-wider-losses-on-72pc-fuel-cost-jump-grounded-fleet-5563420",
+   "summary": "",
    "kind": "item",
-   "source": "AeroRoutes schedule filings",
-   "source_id": "aeroroutes",
+   "source": "Business Daily Africa",
+   "source_id": "np-businessdaily",
    "tier": 2,
-   "country": "GLOBAL",
-   "category": "aviation-tracker",
+   "country": "KE",
+   "category": "press",
    "segments": [
     "city",
     "bush",
     "beach"
    ],
-   "first_seen": "2026-08-19T11:01+03:00",
+   "first_seen": "2026-08-19T17:08+03:00",
+   "published": null,
+   "verdict": "CONSIDER"
+  },
+  {
+   "score": 74.4,
+   "components": {
+    "tier": 20,
+    "category": 9,
+    "lead": 3.6,
+    "relevance": 12,
+    "freshness": 19.8,
+    "corroborated": 10
+   },
+   "keywords": [
+    "eta",
+    "tourist"
+   ],
+   "shock_terms": [],
+   "dedupe_match": null,
+   "dedupe_similarity": 0.33,
+   "id": "0daf04559f18",
+   "title": "Event in M\u00fcnchen (+Galerie): Das sind die Gewinner der Emirates Trophy 2026",
+   "url": "https://www.fvw.de/counter/expi-welt/event-in-muenchen-galerie-das-sind-die-gewinner-der-emirates-trophy-2026-263885",
+   "summary": "Vier Expis entschieden die diesj\u00e4hrige Emirates Trophy f\u00fcr sich. Gegen weitere 240 Teilnehmer stellten sie ihre Teamf\u00e4higkeit unter Beweis. Seit ihrer Premiere im Jahr 2007 z\u00e4hlt das etablierte Eventformat zu den gr\u00f6\u00dften B2B-Veranstaltungen der Touristikbranche in Deutschland.",
+   "kind": "item",
+   "source": "FVW / German travel trade",
+   "source_id": "sm-derreise",
+   "tier": 2,
+   "country": "GLOBAL",
+   "category": "source-market",
+   "segments": [
+    "beach",
+    "bush"
+   ],
+   "first_seen": "2026-08-19T17:08+03:00",
    "published": "2026-08-19",
    "verdict": "CONSIDER"
   },
   {
-   "score": 69.8,
+   "score": 72.0,
+   "components": {
+    "tier": 20,
+    "category": 5,
+    "lead": 1.2,
+    "relevance": 16,
+    "freshness": 19.8,
+    "corroborated": 10
+   },
+   "keywords": [
+    "fee",
+    "hotel",
+    "airline"
+   ],
+   "shock_terms": [],
+   "dedupe_match": null,
+   "dedupe_similarity": 0.0,
+   "id": "5680c821858d",
+   "title": "The 2% Fee Behind the American Travel Boom",
+   "url": "https://skift.com/2026/08/19/the-2-fee-behind-the-american-travel-boom",
+   "summary": "Airlines and hotels have built huge businesses on America\u2019s uncapped card fees, but rarely talk about what makes them possible.",
+   "kind": "item",
+   "source": "Skift",
+   "source_id": "tp-skift",
+   "tier": 2,
+   "country": "GLOBAL",
+   "category": "trade",
+   "segments": [
+    "city",
+    "bush",
+    "beach"
+   ],
+   "first_seen": "2026-08-19T17:08+03:00",
+   "published": "2026-08-19",
+   "verdict": "CONSIDER"
+  },
+  {
+   "score": 70.4,
+   "components": {
+    "tier": 20,
+    "category": 9,
+    "lead": 3.6,
+    "relevance": 8,
+    "freshness": 19.8,
+    "corroborated": 10
+   },
+   "keywords": [
+    "eta"
+   ],
+   "shock_terms": [],
+   "dedupe_match": null,
+   "dedupe_similarity": 0.0,
+   "id": "350a84b36e7d",
+   "title": "Erste Kl\u00e4rungen: Bundesbeh\u00f6rde nennt Details zu Boeing-Vorfall am MUC",
+   "url": "https://www.fvw.de/touristik/verkehr/erste-klaerungen-bundesbehoerde-nennt-details-zu-boeing-vorfall-am-muc-263871",
+   "summary": "Die Bundesstelle f\u00fcr Flugunfalluntersuchung schildert, wie es beim Start einer Boeing 787-9 in M\u00fcnchen zu einem Bodenkontakt kam. Was Experten nun untersuchen und warum US-Stellen beteiligt sind.",
+   "kind": "item",
+   "source": "FVW / German travel trade",
+   "source_id": "sm-derreise",
+   "tier": 2,
+   "country": "GLOBAL",
+   "category": "source-market",
+   "segments": [
+    "beach",
+    "bush"
+   ],
+   "first_seen": "2026-08-19T17:08+03:00",
+   "published": "2026-08-19",
+   "verdict": "CONSIDER"
+  },
+  {
+   "score": 70.4,
+   "components": {
+    "tier": 20,
+    "category": 9,
+    "lead": 3.6,
+    "relevance": 8,
+    "freshness": 19.8,
+    "corroborated": 10
+   },
+   "keywords": [
+    "eta"
+   ],
+   "shock_terms": [],
+   "dedupe_match": null,
+   "dedupe_similarity": 0.0,
+   "id": "132b62cfbbca",
+   "title": "Neues Umsatz-, altes Renditeziel (+Galerie): Ohne Call Center und CO2-Kompensation \u2013 wie sich Lernidee weiterentwickelt",
+   "url": "https://www.fvw.de/touristik/veranstalter/neues-umsatz--altes-renditeziel-galerie-wie-lernidee-investiert-und-ohne-call-center-und-co2-kompensation-plant-263811",
+   "summary": "Geopolitik und Kriege haben Lernidee Erlebnisreisen in den vergangenen Jahren sehr gefordert. Neue Zielgebiete mussten etabliert werden. Mittlerweile ist der Krisenmodus beendet \u2013 und der Plan steht, um bis 2031 beim Umsatz mehr als 50 Prozent zuzulegen.",
+   "kind": "item",
+   "source": "FVW / German travel trade",
+   "source_id": "sm-derreise",
+   "tier": 2,
+   "country": "GLOBAL",
+   "category": "source-market",
+   "segments": [
+    "beach",
+    "bush"
+   ],
+   "first_seen": "2026-08-19T17:08+03:00",
+   "published": "2026-08-19",
+   "verdict": "CONSIDER"
+  },
+  {
+   "score": 70.4,
+   "components": {
+    "tier": 20,
+    "category": 9,
+    "lead": 3.6,
+    "relevance": 8,
+    "freshness": 19.8,
+    "corroborated": 10
+   },
+   "keywords": [
+    "tourism",
+    "airline"
+   ],
+   "shock_terms": [],
+   "dedupe_match": null,
+   "dedupe_similarity": 0.0,
+   "id": "002fd6157de5",
+   "title": "Tourismusausschuss-Vorsitzende (+Video): Karliczek will Wettbewerb \u2013 auch im Reisevertrieb",
+   "url": "https://www.fvw.de/touristik/vertrieb/tourismusausschuss-vorsitzende-video-karliczek-setzt-auf-wettbewerb---auch-im-reisevertrieb-263856",
+   "summary": "Reiseb\u00fcros leiden unter dem Cashback der Portale, Airlines fordern eine niedrigere Luftverkehrssteuer, die Pauschalreise-Richtlinie wird umgesetzt, die DRSF-Geb\u00fchren sinken - im Live-Talk auf fvw.de unternahm Anja Karliczek, die dem Tourismusausschuss des Bundestags vorsteht, eine Tour durch die Branche. Ihr Credo: Blo\u00df nicht mehr regulieren, sondern den Unternehmen Spielr\u00e4ume verschaffen.",
+   "kind": "item",
+   "source": "FVW / German travel trade",
+   "source_id": "sm-derreise",
+   "tier": 2,
+   "country": "GLOBAL",
+   "category": "source-market",
+   "segments": [
+    "beach",
+    "bush"
+   ],
+   "first_seen": "2026-08-19T17:08+03:00",
+   "published": "2026-08-19",
+   "verdict": "CONSIDER"
+  },
+  {
+   "score": 70.4,
+   "components": {
+    "tier": 20,
+    "category": 9,
+    "lead": 3.6,
+    "relevance": 8,
+    "freshness": 19.8,
+    "corroborated": 10
+   },
+   "keywords": [
+    "flight",
+    "operator"
+   ],
+   "shock_terms": [],
+   "dedupe_match": null,
+   "dedupe_similarity": 0.0,
+   "id": "d58984fa384c",
+   "title": "Frasers Travel Ltd \u2013 advice for customers",
+   "url": "https://www.abta.com/news/frasers-travel-ltd-advice-customers",
+   "summary": "Frasers Travel Ltd \u2013 advice for customers Full Page image dhewitt@abta.co.uk Wed, 08/19/2026 - 11:38 ABTA Number 86603 \u2013 7 Dockhead Street, Saltcoats, Ayrshire, KA21 5EF We are sorry to inform you that Frasers Travel Ltd has ceased trading from 18 August 2026. If you\u2019ve booked travel arrangements with Frasers Travel Ltd, you should follow the specific advice set out below. Holidays booked through ",
+   "kind": "item",
+   "source": "ABTA (UK) news",
+   "source_id": "sm-abta",
+   "tier": 2,
+   "country": "GLOBAL",
+   "category": "source-market",
+   "segments": [
+    "city",
+    "bush",
+    "beach"
+   ],
+   "first_seen": "2026-08-19T17:08+03:00",
+   "published": "2026-08-19",
+   "verdict": "CONSIDER"
+  },
+  {
+   "score": 66.4,
+   "components": {
+    "tier": 20,
+    "category": 9,
+    "lead": 3.6,
+    "relevance": 4,
+    "freshness": 19.8,
+    "corroborated": 10
+   },
+   "keywords": [
+    "airline"
+   ],
+   "shock_terms": [],
+   "dedupe_match": null,
+   "dedupe_similarity": 0.0,
+   "id": "e0d1e8aa22f7",
+   "title": "Am M\u00fcnchner Flughafen: Zwei Flug-Zwischenf\u00e4lle geben R\u00e4tsel auf",
+   "url": "https://www.fvw.de/touristik/verkehr/am-muenchener-flughafen-zwei-flug-zwischenfaelle-geben-raetsel-auf-263869",
+   "summary": "Zwei Zwischenf\u00e4lle in kurzer Zeit auf derselben Landebahn am M\u00fcnchener Flughafen: Wie reagieren Airlines und Beh\u00f6rden auf die aktuellen Ereignisse? Viele Fragen sind offen.",
+   "kind": "item",
+   "source": "FVW / German travel trade",
+   "source_id": "sm-derreise",
+   "tier": 2,
+   "country": "GLOBAL",
+   "category": "source-market",
+   "segments": [
+    "beach",
+    "bush"
+   ],
+   "first_seen": "2026-08-19T17:08+03:00",
+   "published": "2026-08-19",
+   "verdict": "weak"
+  },
+  {
+   "score": 66.4,
+   "components": {
+    "tier": 20,
+    "category": 9,
+    "lead": 3.6,
+    "relevance": 4,
+    "freshness": 19.8,
+    "corroborated": 10
+   },
+   "keywords": [
+    "tourist"
+   ],
+   "shock_terms": [],
+   "dedupe_match": null,
+   "dedupe_similarity": 0.0,
+   "id": "4d4ea47c9700",
+   "title": "Abrechnung der Corona-Hilfen: Streit um Schlussabrechnung \u2013 Ministerium widerspricht Kritik",
+   "url": "https://www.fvw.de/touristik/vertrieb/branche-nicht-stark-betroffen-ministerium-widerspricht-kritik-aus-touristik-zu-corona-hilfen-263867",
+   "summary": "Wie stark trifft die Schlussabrechnung Reiseb\u00fcros und Veranstalter tats\u00e4chlich? Erstmals nennt das Wirtschaftsministerium konkrete Zahlen f\u00fcr die Touristik. Sie zeichnen ein differenziertes Bild \u2013 und widersprechen in einem zentralen Punkt den Erfahrungen von Anw\u00e4lten aus der Branche.",
+   "kind": "item",
+   "source": "FVW / German travel trade",
+   "source_id": "sm-derreise",
+   "tier": 2,
+   "country": "GLOBAL",
+   "category": "source-market",
+   "segments": [
+    "beach",
+    "bush"
+   ],
+   "first_seen": "2026-08-19T17:08+03:00",
+   "published": "2026-08-19",
+   "verdict": "weak"
+  },
+  {
+   "score": 66.4,
+   "components": {
+    "tier": 20,
+    "category": 9,
+    "lead": 3.6,
+    "relevance": 4,
+    "freshness": 19.8,
+    "corroborated": 10
+   },
+   "keywords": [
+    "tourist"
+   ],
+   "shock_terms": [],
+   "dedupe_match": null,
+   "dedupe_similarity": 0.0,
+   "id": "328b62d4375d",
+   "title": "Auf Spitzbergen: Eisb\u00e4r geweckt \u2013 Tourist muss Strafe zahlen",
+   "url": "https://www.fvw.de/touristik/destination/auf-spitzbergen-eisbaer-geweckt--tourist-muss-strafe-zahlen-263880",
+   "summary": "Ein schlafender Eisb\u00e4r, ein Nebelhorn und eine empfindliche Geldstrafe: Auf Spitzbergen ist ein Tourist verurteilt worden, nachdem er das gesch\u00fctzte Tier mutma\u00dflich absichtlich geweckt hatte. Der Fall sorgt \u00fcber die Arktis hinaus f\u00fcr Aufmerksamkeit.",
+   "kind": "item",
+   "source": "FVW / German travel trade",
+   "source_id": "sm-derreise",
+   "tier": 2,
+   "country": "GLOBAL",
+   "category": "source-market",
+   "segments": [
+    "beach",
+    "bush"
+   ],
+   "first_seen": "2026-08-19T17:08+03:00",
+   "published": "2026-08-19",
+   "verdict": "weak"
+  },
+  {
+   "score": 66.4,
+   "components": {
+    "tier": 20,
+    "category": 9,
+    "lead": 3.6,
+    "relevance": 4,
+    "freshness": 19.8,
+    "corroborated": 10
+   },
+   "keywords": [
+    "tourist"
+   ],
+   "shock_terms": [],
+   "dedupe_match": null,
+   "dedupe_similarity": 0.33,
+   "id": "d7759305781a",
+   "title": "US-Einreisestatistik im Juli: Stoppen Fu\u00dfball-Fans die Talfahrt im USA-Incoming?",
+   "url": "https://www.fvw.de/touristik/destination/usa-usa-263872",
+   "summary": "Die Fu\u00dfball-WM als Gamechanger? Das globale Top-Event sollte helfen, das angeknackste Image der USA zurechtzur\u00fccken, hoffen Touristiker auf beiden Seiten des Nordatlantiks. Doch wie hat sich das sportliche Gro\u00dfereignis auf die Incoming-Bilanz der USA ausgewirkt? Nach einem schwachen Juni sollte der Juli die Wende bringen.",
+   "kind": "item",
+   "source": "FVW / German travel trade",
+   "source_id": "sm-derreise",
+   "tier": 2,
+   "country": "GLOBAL",
+   "category": "source-market",
+   "segments": [
+    "beach",
+    "bush"
+   ],
+   "first_seen": "2026-08-19T17:08+03:00",
+   "published": "2026-08-19",
+   "verdict": "weak"
+  },
+  {
+   "score": 66.4,
+   "components": {
+    "tier": 20,
+    "category": 9,
+    "lead": 3.6,
+    "relevance": 4,
+    "freshness": 19.8,
+    "corroborated": 10
+   },
+   "keywords": [
+    "airline"
+   ],
+   "shock_terms": [],
+   "dedupe_match": null,
+   "dedupe_similarity": 0.0,
+   "id": "d50aaf2913e3",
+   "title": "Airline und Flughafen (Update): Wie es zum Flugchaos von Sun Express kam",
+   "url": "https://www.fvw.de/touristik/verkehr/airline-packt-aus-wie-es-zum-flugverkehrschaos-von-sun-express-kam-263852",
+   "summary": "Stundenlange Versp\u00e4tungen, gestrichene Verbindungen und Betroffene, die berichten, dass ihr Gep\u00e4ck in der T\u00fcrkei zur\u00fcckgeblieben ist: Ein Systemfehler hat am Samstag zu erheblichen Problemen bei Sun Express gef\u00fchrt. Jetzt hat die deutsch-t\u00fcrkische Fluggesellschaft erkl\u00e4rt, wie es zu der Panne kam.",
+   "kind": "item",
+   "source": "FVW / German travel trade",
+   "source_id": "sm-derreise",
+   "tier": 2,
+   "country": "GLOBAL",
+   "category": "source-market",
+   "segments": [
+    "beach",
+    "bush"
+   ],
+   "first_seen": "2026-08-19T17:08+03:00",
+   "published": "2026-08-19",
+   "verdict": "weak"
+  },
+  {
+   "score": 66.4,
+   "components": {
+    "tier": 20,
+    "category": 9,
+    "lead": 3.6,
+    "relevance": 4,
+    "freshness": 19.8,
+    "corroborated": 10
+   },
+   "keywords": [
+    "airline"
+   ],
+   "shock_terms": [],
+   "dedupe_match": null,
+   "dedupe_similarity": 0.0,
+   "id": "f89e6cdd3ca5",
+   "title": "Vietnamesische Medien: Vietnam-Airlines-Jet hatte Beschleunigungsproblem",
+   "url": "https://www.fvw.de/touristik/verkehr/vietnamesische-behoerde-vietnam-airlines-jet-hatte-beschleunigungsproblem-263870",
+   "summary": "Die knapp der Katastrophe entkommene Vietnam-Airlines-Maschine am M\u00fcnchner Flughafen hatte einem Bericht zufolge schon Probleme, als sie losrollte. Eine dramatische Entscheidung wurde getroffen.",
+   "kind": "item",
+   "source": "FVW / German travel trade",
+   "source_id": "sm-derreise",
+   "tier": 2,
+   "country": "GLOBAL",
+   "category": "source-market",
+   "segments": [
+    "beach",
+    "bush"
+   ],
+   "first_seen": "2026-08-19T17:08+03:00",
+   "published": "2026-08-19",
+   "verdict": "weak"
+  },
+  {
+   "score": 66.3,
    "components": {
     "tier": 20,
     "category": 4,
     "lead": 0.0,
     "relevance": 16,
-    "freshness": 19.8,
+    "freshness": 16.3,
     "corroborated": 10
    },
    "keywords": [
@@ -600,415 +1257,26 @@
    "verdict": "weak"
   },
   {
-   "score": 69.2,
-   "components": {
-    "tier": 20,
-    "category": 5,
-    "lead": 3.6,
-    "relevance": 12,
-    "freshness": 18.6,
-    "corroborated": 10
-   },
-   "keywords": [
-    "route",
-    "operator"
-   ],
-   "shock_terms": [],
-   "dedupe_match": null,
-   "dedupe_similarity": 0.0,
-   "id": "35ccefed4a55",
-   "title": "Tollbooths on the Token Highway",
-   "url": "https://www.hospitalitynet.org/opinion/4134001/tollbooths-on-the-token-highway",
-   "summary": "Stripe's reported $7B acquisition of OpenRouter, combined with its earlier Metronome buy, creates a vertically integrated AI billing stack that makes model routing costs opaque to operators and demands new cost-tracking disciplines for hospitality.",
-   "kind": "item",
-   "source": "Hospitality Net \u2014 Africa announcements",
-   "source_id": "dev-hospitalitynet-africa",
-   "tier": 2,
-   "country": "REG",
-   "category": "trade",
-   "segments": [
-    "city",
-    "bush",
-    "beach"
-   ],
-   "first_seen": "2026-08-19T12:53+03:00",
-   "published": "2026-08-19",
-   "verdict": "weak"
-  },
-  {
-   "score": 65.8,
-   "components": {
-    "tier": 20,
-    "category": 4,
-    "lead": 0.0,
-    "relevance": 12,
-    "freshness": 19.8,
-    "corroborated": 10
-   },
-   "keywords": [
-    "eta",
-    "camp"
-   ],
-   "shock_terms": [],
-   "dedupe_match": null,
-   "dedupe_similarity": 0.0,
-   "id": "c71f1ee5efa1",
-   "title": "CCM urges patience over October 29 probe",
-   "url": "https://dailynews.co.tz/ccm-urges-patience-over-october-29-probe",
-   "summary": "DAR ES SALAAM: CHAMA Cha Mapinduzi (CCM) has urged political parties to avoid turning the October 29 events into a political campaign tool, calling for patience as a commission appointed by President Samia Suluhu Hassan investigates what happened. CCM Secretary for Ideology, Propaganda and Training, Kenani Kihongosi, said the commission has been tasked with establishing \u2026 The post CCM urges patien",
-   "kind": "item",
-   "source": "Daily News (Tanzania)",
-   "source_id": "np-dailynews-tz",
-   "tier": 2,
-   "country": "TZ",
-   "category": "press",
-   "segments": [
-    "city",
-    "bush",
-    "beach"
-   ],
-   "first_seen": "2026-08-19T13:58+03:00",
-   "published": "2026-08-19",
-   "verdict": "weak"
-  },
-  {
-   "score": 65.2,
-   "components": {
-    "tier": 20,
-    "category": 5,
-    "lead": 3.6,
-    "relevance": 8,
-    "freshness": 18.6,
-    "corroborated": 10
-   },
-   "keywords": [
-    "hotel",
-    "resort"
-   ],
-   "shock_terms": [],
-   "dedupe_match": null,
-   "dedupe_similarity": 0.0,
-   "id": "3a5c875802fe",
-   "title": "Fusion Hotel Group Announces Integration of Ayola and Odua Brands from Topotels Hotels & Resorts",
-   "url": "https://www.hospitalitynet.org/news/4134006/fusion-hotel-group-announces-integration-of-ayola-and-odua-brands-from-topotels-hotels-resorts",
-   "summary": "Fusion Hotel Group integrates Topotels' seven Indonesian midscale properties under the Ayola and Odua brands, expanding its footprint across Jakarta, Bandung, and Surabaya.",
-   "kind": "item",
-   "source": "Hospitality Net \u2014 Africa announcements",
-   "source_id": "dev-hospitalitynet-africa",
-   "tier": 2,
-   "country": "REG",
-   "category": "trade",
-   "segments": [
-    "city",
-    "bush",
-    "beach"
-   ],
-   "first_seen": "2026-08-19T12:53+03:00",
-   "published": "2026-08-19",
-   "verdict": "weak"
-  },
-  {
-   "score": 65.2,
-   "components": {
-    "tier": 20,
-    "category": 5,
-    "lead": 3.6,
-    "relevance": 8,
-    "freshness": 18.6,
-    "corroborated": 10
-   },
-   "keywords": [
-    "hotel",
-    "opening"
-   ],
-   "shock_terms": [],
-   "dedupe_match": null,
-   "dedupe_similarity": 0.0,
-   "id": "aa532979b84c",
-   "title": "Gulf Hotels Group Expands its Management Portfolio in Kenya",
-   "url": "https://www.hospitalitynet.org/news/4134005/gulf-hotels-group-expands-its-management-portfolio-in-kenya",
-   "summary": "Gulf Hotels Group signs an MOU with Silva Gigiri Ltd to manage a USD 30M upper-upscale hotel and branded residence in Nairobi's diplomatic district, targeting a 2028 soft opening.",
-   "kind": "item",
-   "source": "Hospitality Net \u2014 Africa announcements",
-   "source_id": "dev-hospitalitynet-africa",
-   "tier": 2,
-   "country": "REG",
-   "category": "trade",
-   "segments": [
-    "city",
-    "bush",
-    "beach"
-   ],
-   "first_seen": "2026-08-19T12:53+03:00",
-   "published": "2026-08-19",
-   "verdict": "weak"
-  },
-  {
-   "score": 64.6,
-   "components": {
-    "tier": 20,
-    "category": 4,
-    "lead": 0.0,
-    "relevance": 12,
-    "freshness": 18.6,
-    "corroborated": 10
-   },
-   "keywords": [
-    "collapse"
-   ],
-   "shock_terms": [],
-   "dedupe_match": null,
-   "dedupe_similarity": 0.0,
-   "id": "d116e77e4751",
-   "title": "Collapsed village banks leave Nebbi residents in limbo",
-   "url": "https://www.monitor.co.ug/uganda/news/national/collapsed-village-banks-leave-nebbi-residents-in-limbo-5563102",
-   "summary": "Village banks once a lifeline, now leave thousands counting losses",
-   "kind": "item",
-   "source": "Daily Monitor (Uganda)",
-   "source_id": "np-monitor-ug",
-   "tier": 2,
-   "country": "UG",
-   "category": "press",
-   "segments": [
-    "city",
-    "bush",
-    "beach"
-   ],
-   "first_seen": "2026-08-19T12:53+03:00",
-   "published": "2026-08-19",
-   "verdict": "weak"
-  },
-  {
-   "score": 61.8,
-   "components": {
-    "tier": 20,
-    "category": 4,
-    "lead": 0.0,
-    "relevance": 8,
-    "freshness": 19.8,
-    "corroborated": 10
-   },
-   "keywords": [
-    "eta"
-   ],
-   "shock_terms": [],
-   "dedupe_match": null,
-   "dedupe_similarity": 0.0,
-   "id": "e2275c9d64b6",
-   "title": "Cement crisis: Manufacturers given 7 days to act",
-   "url": "https://dailynews.co.tz/cement-crisis-manufacturers-given-7-days-to-act",
-   "summary": "DODOMA: THE government has given cement manufacturers seven days to submit proposals on how to tackle shortages and high prices of cement, as it moves to find a lasting solution to growing concerns over the essential construction material. The directive was issued by Permanent Secretary in the Ministry of Industry and Trade, Amb. Waziri Salum, \u2026 The post Cement crisis: Manufacturers given 7 days t",
-   "kind": "item",
-   "source": "Daily News (Tanzania)",
-   "source_id": "np-dailynews-tz",
-   "tier": 2,
-   "country": "TZ",
-   "category": "press",
-   "segments": [
-    "city",
-    "bush",
-    "beach"
-   ],
-   "first_seen": "2026-08-19T13:58+03:00",
-   "published": "2026-08-19",
-   "verdict": "weak"
-  },
-  {
-   "score": 61.8,
-   "components": {
-    "tier": 20,
-    "category": 4,
-    "lead": 0.0,
-    "relevance": 8,
-    "freshness": 19.8,
-    "corroborated": 10
-   },
-   "keywords": [
-    "eta"
-   ],
-   "shock_terms": [],
-   "dedupe_match": null,
-   "dedupe_similarity": 0.0,
-   "id": "921f7399d23b",
-   "title": "CCM denies Nchimbi ethics committee summons",
-   "url": "https://dailynews.co.tz/ccm-denies-nchimbi-ethics-committee-summons",
-   "summary": "DAR ES SALAAM: THE ruling Chama Cha Mapinduzi (CCM), has dismissed reports that Vice-President Emmanuel Nchimbi has been summoned before the party\u2019s Ethics Committee, saying it has no official communication confirming the claim. CCM Secretary for Ideology, Propaganda and Training, Kenani Laban Kihongosi, rejected the reports on Wednesday during an interview with Clouds FM\u2019s Power \u2026 The post CCM de",
-   "kind": "item",
-   "source": "Daily News (Tanzania)",
-   "source_id": "np-dailynews-tz",
-   "tier": 2,
-   "country": "TZ",
-   "category": "press",
-   "segments": [
-    "city",
-    "bush",
-    "beach"
-   ],
-   "first_seen": "2026-08-19T13:58+03:00",
-   "published": "2026-08-19",
-   "verdict": "weak"
-  },
-  {
-   "score": 61.2,
-   "components": {
-    "tier": 20,
-    "category": 5,
-    "lead": 3.6,
-    "relevance": 4,
-    "freshness": 18.6,
-    "corroborated": 10
-   },
-   "keywords": [
-    "hotel"
-   ],
-   "shock_terms": [],
-   "dedupe_match": null,
-   "dedupe_similarity": 0.2,
-   "id": "51f8b3d06d84",
-   "title": "ChatGPT starts selling ads in Europe next week, but hotels can't buy them directly yet",
-   "url": "https://www.hospitalitynet.org/opinion/4134009/chatgpt-starts-selling-ads-in-europe-next-week-but-hotels-cant-buy-them-directly-yet",
-   "summary": "OpenAI's ChatGPT Ads launch across 31 European countries next week, but hotel advertisers must go through agency partners until self-serve access opens, and ads appear below AI responses without influencing them.",
-   "kind": "item",
-   "source": "Hospitality Net \u2014 Africa announcements",
-   "source_id": "dev-hospitalitynet-africa",
-   "tier": 2,
-   "country": "REG",
-   "category": "trade",
-   "segments": [
-    "city",
-    "bush",
-    "beach"
-   ],
-   "first_seen": "2026-08-19T12:53+03:00",
-   "published": "2026-08-19",
-   "verdict": "weak"
-  },
-  {
-   "score": 61.2,
-   "components": {
-    "tier": 20,
-    "category": 5,
-    "lead": 3.6,
-    "relevance": 4,
-    "freshness": 18.6,
-    "corroborated": 10
-   },
-   "keywords": [
-    "hotel"
-   ],
-   "shock_terms": [],
-   "dedupe_match": null,
-   "dedupe_similarity": 0.0,
-   "id": "6381914b77c8",
-   "title": "Webinar: How to Build a Hotel Budget Like a Leader",
-   "url": "https://www.hospitalitynet.org/news/4134004/webinar-how-to-build-a-hotel-budget-like-a-leader",
-   "summary": "A free webinar offering hoteliers a step-by-step budgeting framework to build, understand, and defend hotel budgets to ownership and corporate stakeholders.",
-   "kind": "item",
-   "source": "Hospitality Net \u2014 Africa announcements",
-   "source_id": "dev-hospitalitynet-africa",
-   "tier": 2,
-   "country": "REG",
-   "category": "trade",
-   "segments": [
-    "city",
-    "bush",
-    "beach"
-   ],
-   "first_seen": "2026-08-19T12:53+03:00",
-   "published": "2026-08-19",
-   "verdict": "weak"
-  },
-  {
-   "score": 61.2,
-   "components": {
-    "tier": 20,
-    "category": 5,
-    "lead": 3.6,
-    "relevance": 4,
-    "freshness": 18.6,
-    "corroborated": 10
-   },
-   "keywords": [
-    "hotel"
-   ],
-   "shock_terms": [],
-   "dedupe_match": null,
-   "dedupe_similarity": 0.0,
-   "id": "eac04d5871b8",
-   "title": "An Abacus, a One-Cent Note, and Fifty Years of Memory",
-   "url": "https://www.hospitalitynet.org/news/4133962/an-abacus-a-one-cent-note-and-fifty-years-of-memory",
-   "summary": "Terence Ronson reflects on 50-year-old hotel memorabilia from Hong Kong, including a branded one-cent note and an abacus, in a memoir excerpt from The Lobby Boys.",
-   "kind": "item",
-   "source": "Hospitality Net \u2014 Africa announcements",
-   "source_id": "dev-hospitalitynet-africa",
-   "tier": 2,
-   "country": "REG",
-   "category": "trade",
-   "segments": [
-    "city",
-    "bush",
-    "beach"
-   ],
-   "first_seen": "2026-08-19T12:53+03:00",
-   "published": "2026-08-19",
-   "verdict": "weak"
-  },
-  {
-   "score": 61.2,
-   "components": {
-    "tier": 20,
-    "category": 5,
-    "lead": 3.6,
-    "relevance": 4,
-    "freshness": 18.6,
-    "corroborated": 10
-   },
-   "keywords": [
-    "hotel"
-   ],
-   "shock_terms": [],
-   "dedupe_match": null,
-   "dedupe_similarity": 0.0,
-   "id": "572f7a6a7f3f",
-   "title": "Chat, Workflow, Agent or Orchestration: What Does Your Hotel Actually Need?",
-   "url": "https://www.hospitalitynet.org/opinion/4134000/chat-workflow-agent-or-orchestration-what-does-your-hotel-actually-need",
-   "summary": "A practical framework for hotel leaders to distinguish between chat, workflow, agent, and orchestration AI modes, with a decision matrix to avoid over-buying autonomy for problems that are simply workflows.",
-   "kind": "item",
-   "source": "Hospitality Net \u2014 Africa announcements",
-   "source_id": "dev-hospitalitynet-africa",
-   "tier": 2,
-   "country": "REG",
-   "category": "trade",
-   "segments": [
-    "city",
-    "bush",
-    "beach"
-   ],
-   "first_seen": "2026-08-19T12:53+03:00",
-   "published": "2026-08-19",
-   "verdict": "weak"
-  },
-  {
-   "score": 60.9,
+   "score": 64.2,
    "components": {
     "tier": 20,
     "category": 24,
     "lead": 2.4,
     "relevance": 8,
-    "freshness": 16.5,
+    "freshness": 19.8,
     "undated": -6,
     "page_change": -4
    },
    "keywords": [
-    "flood"
+    "eta"
    ],
    "shock_terms": [],
    "dedupe_match": null,
    "dedupe_similarity": 0.0,
-   "id": "c66be4f01710",
+   "id": "bf69249b5d7c",
    "title": "[page changed] ProMED-mail",
    "url": "https://promedmail.org/",
-   "summary": "Protecting Global Health, One Alert at a Time | ProMED Previous slide Next slide Protecting Global Health, One Alert at a Time ProMED: Your 24/7 early warning system for emerging infectious diseases worldwide. Subscribe ProMED's Weekly Pulse A snapshot of global health events from the past 7 days Latest Posts on ProMED All Date Title Wed Aug 19 2026 UNDIAGNOSED DEATH - INDIA (04): (MADHYA PRADESH)",
+   "summary": "Protecting Global Health, One Alert at a Time | ProMED Previous slide Next slide Protecting Global Health, One Alert at a Time ProMED: Your 24/7 early warning system for emerging infectious diseases worldwide. Subscribe ProMED's Weekly Pulse A snapshot of global health events from the past 7 days Latest Posts on ProMED All Date Title Wed Aug 19 2026 BACTERIOPHAGE THERAPY (36): METHICILLIN-RESISTAN",
    "kind": "page-change",
    "source": "ProMED-mail",
    "source_id": "promed",
@@ -1020,390 +1288,103 @@
     "bush",
     "beach"
    ],
-   "first_seen": "2026-08-19T11:01+03:00",
+   "first_seen": "2026-08-19T17:08+03:00",
    "published": null,
    "verdict": "weak"
   },
   {
-   "score": 60.6,
+   "score": 62.4,
    "components": {
     "tier": 20,
-    "category": 4,
-    "lead": 0.0,
-    "relevance": 8,
-    "freshness": 18.6,
-    "corroborated": 10
-   },
-   "keywords": [
-    "eta"
-   ],
-   "shock_terms": [],
-   "dedupe_match": null,
-   "dedupe_similarity": 0.0,
-   "id": "a42006580c4a",
-   "title": "New details emerge on four URSB staff under probe",
-   "url": "https://www.monitor.co.ug/uganda/news/national/new-details-emerge-on-four-ursb-staff-under-probe-5563082",
-   "summary": "URSB boss, three officials face probe over alleged financial crimes",
-   "kind": "item",
-   "source": "Daily Monitor (Uganda)",
-   "source_id": "np-monitor-ug",
-   "tier": 2,
-   "country": "UG",
-   "category": "press",
-   "segments": [
-    "city",
-    "bush",
-    "beach"
-   ],
-   "first_seen": "2026-08-19T12:53+03:00",
-   "published": "2026-08-19",
-   "verdict": "weak"
-  },
-  {
-   "score": 60.6,
-   "components": {
-    "tier": 20,
-    "category": 4,
-    "lead": 0.0,
-    "relevance": 8,
-    "freshness": 18.6,
-    "corroborated": 10
-   },
-   "keywords": [
-    "tax"
-   ],
-   "shock_terms": [],
-   "dedupe_match": null,
-   "dedupe_similarity": 0.0,
-   "id": "9f5e4ac7711f",
-   "title": "Govt spells out rules for tax waivers",
-   "url": "https://www.monitor.co.ug/uganda/news/national/govt-spells-out-rules-for-tax-waivers-5563078",
-   "summary": "Government tightens criteria for tax waivers as shs27.8b requests reach parliament",
-   "kind": "item",
-   "source": "Daily Monitor (Uganda)",
-   "source_id": "np-monitor-ug",
-   "tier": 2,
-   "country": "UG",
-   "category": "press",
-   "segments": [
-    "city",
-    "bush",
-    "beach"
-   ],
-   "first_seen": "2026-08-19T12:53+03:00",
-   "published": "2026-08-19",
-   "verdict": "weak"
-  },
-  {
-   "score": 60.6,
-   "components": {
-    "tier": 20,
-    "category": 4,
-    "lead": 0.0,
-    "relevance": 8,
-    "freshness": 18.6,
-    "corroborated": 10
-   },
-   "keywords": [
-    "tax"
-   ],
-   "shock_terms": [],
-   "dedupe_match": null,
-   "dedupe_similarity": 0.0,
-   "id": "c160f3274d37",
-   "title": "Museveni tax waiver plan for medics sparks debate",
-   "url": "https://www.monitor.co.ug/uganda/news/national/museveni-tax-waiver-plan-for-medics-sparks-debate-5563050",
-   "summary": "Museveni\u2019s medical worker tax directive raises equity concerns",
-   "kind": "item",
-   "source": "Daily Monitor (Uganda)",
-   "source_id": "np-monitor-ug",
-   "tier": 2,
-   "country": "UG",
-   "category": "press",
-   "segments": [
-    "city",
-    "bush",
-    "beach"
-   ],
-   "first_seen": "2026-08-19T12:53+03:00",
-   "published": "2026-08-19",
-   "verdict": "weak"
-  },
-  {
-   "score": 58.5,
-   "components": {
-    "tier": 20,
-    "category": 4,
-    "lead": 0.0,
-    "relevance": 8,
-    "freshness": 16.5,
-    "corroborated": 10
-   },
-   "keywords": [
-    "vat"
-   ],
-   "shock_terms": [],
-   "dedupe_match": null,
-   "dedupe_similarity": 0.0,
-   "id": "69bf89880ec1",
-   "title": "Ugandan priest, Fr Katongole among new Papal appointees to Vatican human development Dicastery",
-   "url": "https://www.monitor.co.ug/uganda/news/national/ugandan-priest-fr-katongole-among-new-papal-appointees-to-vatican-human-development-dicastery-5562894",
-   "summary": "On Tuesday, August 18, 2026, Pope Leo appointed 12 new consultors to the Vatican\u2019s Dicastery...",
-   "kind": "item",
-   "source": "Daily Monitor (Uganda)",
-   "source_id": "np-monitor-ug",
-   "tier": 2,
-   "country": "UG",
-   "category": "press",
-   "segments": [
-    "city",
-    "bush",
-    "beach"
-   ],
-   "first_seen": "2026-08-19T11:01+03:00",
-   "published": "2026-08-19",
-   "verdict": "weak"
-  },
-  {
-   "score": 58.5,
-   "components": {
-    "tier": 20,
-    "category": 4,
-    "lead": 0.0,
-    "relevance": 8,
-    "freshness": 16.5,
-    "corroborated": 10
-   },
-   "keywords": [
-    "eta"
-   ],
-   "shock_terms": [],
-   "dedupe_match": null,
-   "dedupe_similarity": 0.0,
-   "id": "d0ead27fd5a5",
-   "title": "Over 9,000 sit for National Islamic Examinations",
-   "url": "https://www.monitor.co.ug/uganda/news/national/over-9-000-sit-for-national-islamic-examinations--5562880",
-   "summary": "Dr Jjemba Haruna Abdulhamid, the UQSA secretary general, said that the increase in the number...",
-   "kind": "item",
-   "source": "Daily Monitor (Uganda)",
-   "source_id": "np-monitor-ug",
-   "tier": 2,
-   "country": "UG",
-   "category": "press",
-   "segments": [
-    "city",
-    "bush",
-    "beach"
-   ],
-   "first_seen": "2026-08-19T11:01+03:00",
-   "published": "2026-08-19",
-   "verdict": "weak"
-  },
-  {
-   "score": 58.5,
-   "components": {
-    "tier": 20,
-    "category": 4,
-    "lead": 0.0,
-    "relevance": 8,
-    "freshness": 16.5,
-    "corroborated": 10
-   },
-   "keywords": [
-    "wildlife"
-   ],
-   "shock_terms": [],
-   "dedupe_match": null,
-   "dedupe_similarity": 0.0,
-   "id": "f11ffabbaadf",
-   "title": "22 arrested as security recovers wildlife products, hunting gear in Nakaseke",
-   "url": "https://www.monitor.co.ug/uganda/news/national/22-arrested-as-security-recovers-wildlife-products-hunting-gear-in-nakaseke-5562876",
-   "summary": "Savannah Region Police spokesperson, Mr Sam Twiineamazima, said the suspects were intercepted...",
-   "kind": "item",
-   "source": "Daily Monitor (Uganda)",
-   "source_id": "np-monitor-ug",
-   "tier": 2,
-   "country": "UG",
-   "category": "press",
-   "segments": [
-    "city",
-    "bush",
-    "beach"
-   ],
-   "first_seen": "2026-08-19T11:01+03:00",
-   "published": "2026-08-19",
-   "verdict": "weak"
-  },
-  {
-   "score": 57.8,
-   "components": {
-    "tier": 20,
-    "category": 4,
-    "lead": 0.0,
-    "relevance": 4,
-    "freshness": 19.8,
-    "corroborated": 10
-   },
-   "keywords": [
-    "investment"
-   ],
-   "shock_terms": [],
-   "dedupe_match": null,
-   "dedupe_similarity": 0.2,
-   "id": "071b9e03e17b",
-   "title": "Tanzania notes remarkable progress in reducing maternal, newborn and under-five deaths",
-   "url": "https://dailynews.co.tz/tanzania-notes-remarkable-progress-in-reducing-maternal-newborn-and-under-five-deaths",
-   "summary": "DAR ES SALAAM: TANZANIA has reported significant progress in reducing maternal, newborn and under-five mortality, while stressing that sustained investment in primary healthcare remains critical to ensuring that every mother delivers safely and every child has the opportunity to survive and thrive. Speaking during the Fourth Meeting of the Regional Steering Committee of East African \u2026 The post Tan",
-   "kind": "item",
-   "source": "Daily News (Tanzania)",
-   "source_id": "np-dailynews-tz",
-   "tier": 2,
-   "country": "TZ",
-   "category": "press",
-   "segments": [
-    "city",
-    "bush",
-    "beach"
-   ],
-   "first_seen": "2026-08-19T13:58+03:00",
-   "published": "2026-08-19",
-   "verdict": "weak"
-  },
-  {
-   "score": 57.8,
-   "components": {
-    "tier": 20,
-    "category": 4,
-    "lead": 0.0,
-    "relevance": 4,
-    "freshness": 19.8,
-    "corroborated": 10
-   },
-   "keywords": [
-    "investment"
-   ],
-   "shock_terms": [],
-   "dedupe_match": null,
-   "dedupe_similarity": 0.2,
-   "id": "ef510959f6ee",
-   "title": "Call for business people to reap gains from the 2nd Tanzania-EU Business Forum",
-   "url": "https://dailynews.co.tz/call-for-business-people-to-reap-gains-from-the-2nd-tanzania-eu-business-forum",
-   "summary": "DAR ES SALAAM: Director of Economic Diplomacy in the Ministry of Foreign Affairs and East African Cooperation, Ambassador John Ulanga, has urged Tanzanian investors and businesspeople to make full use of opportunities expected to emerge from the Second Tanzania-European Union Business and Investment Forum scheduled for early 2027. Ambassador Ulanga made the call during the \u2026 The post Call for busi",
-   "kind": "item",
-   "source": "Daily News (Tanzania)",
-   "source_id": "np-dailynews-tz",
-   "tier": 2,
-   "country": "TZ",
-   "category": "press",
-   "segments": [
-    "city",
-    "bush",
-    "beach"
-   ],
-   "first_seen": "2026-08-19T13:58+03:00",
-   "published": "2026-08-19",
-   "verdict": "weak"
-  },
-  {
-   "score": 57.8,
-   "components": {
-    "tier": 20,
-    "category": 4,
-    "lead": 0.0,
-    "relevance": 4,
-    "freshness": 19.8,
-    "corroborated": 10
-   },
-   "keywords": [
-    "investment"
-   ],
-   "shock_terms": [],
-   "dedupe_match": null,
-   "dedupe_similarity": 0.2,
-   "id": "29d0cc6cb0a6",
-   "title": "Saudi businessmen eye investment opportunities in Tanzania\u2019s mineral resources",
-   "url": "https://dailynews.co.tz/saudi-businessmen-eye-investment-opportunities-in-tanzanias-mineral-resources",
-   "summary": "DAR ES SALAAM: THE State Mining Corporation (STAMICO) has held talks with a delegation of Saudi Arabian businesspeople on investment opportunities across Tanzania\u2019s mineral resources value chain, as part of efforts to increase the benefits of the mining sector to Tanzanians. The discussions, held in Dar es Salaam, focused on providing the Saudi delegation with \u2026 The post Saudi businessmen eye inve",
-   "kind": "item",
-   "source": "Daily News (Tanzania)",
-   "source_id": "np-dailynews-tz",
-   "tier": 2,
-   "country": "TZ",
-   "category": "press",
-   "segments": [
-    "city",
-    "bush",
-    "beach"
-   ],
-   "first_seen": "2026-08-19T13:58+03:00",
-   "published": "2026-08-19",
-   "verdict": "weak"
-  },
-  {
-   "score": 57.2,
-   "components": {
-    "tier": 20,
-    "category": 5,
+    "category": 9,
     "lead": 3.6,
     "relevance": 0,
-    "freshness": 18.6,
+    "freshness": 19.8,
     "corroborated": 10
    },
    "keywords": [],
    "shock_terms": [],
    "dedupe_match": null,
    "dedupe_similarity": 0.0,
-   "id": "dc62789a9730",
-   "title": "Bangkok named world\u2019s best workcation city for 2026 in IWG\u2019s annual Work from Anywhere Index; Singapore and Kuala Lumpur rank among Asia\u2019s top cities as flexible working reshapes travel and work",
-   "url": "https://www.hospitalitynet.org/news/4134007/bangkok-named-worlds-best-workcation-city-for-2026-in-iwgs-annual-work-from-anywhere-index-singapore-and-kuala-lumpur-rank-among-asias-top-cities-as-flexible-working-reshapes-travel-and-work",
-   "summary": "IWG's 2026 Work from Anywhere Index ranks Bangkok first globally, with Singapore (17th) and Kuala Lumpur (32nd) also featured, as 48% of workers plan to extend trips by working remotely.",
+   "id": "d43312380b8e",
+   "title": "Buchungssprung im September: Warum Luxusurlauber den Juli und August meiden",
+   "url": "https://www.fvw.de/touristik/vertrieb/buchungssprung-im-september-warum-luxusurlauber-den-juli-und-august-meiden-263890",
+   "summary": "Juli und August als Haupturlaubszeitraum \u2013 das war einmal. Denn nicht nur wegen dem Klima r\u00fcckt bei Urlaubern der September immer st\u00e4rker in den Fokus. Vor allem Luxusreisende sch\u00e4tzen die weniger \u00fcberf\u00fcllten Ort im September. Die Einzelheiten.",
    "kind": "item",
-   "source": "Hospitality Net \u2014 Africa announcements",
-   "source_id": "dev-hospitalitynet-africa",
+   "source": "FVW / German travel trade",
+   "source_id": "sm-derreise",
    "tier": 2,
-   "country": "REG",
-   "category": "trade",
+   "country": "GLOBAL",
+   "category": "source-market",
    "segments": [
-    "city",
-    "bush",
-    "beach"
+    "beach",
+    "bush"
    ],
-   "first_seen": "2026-08-19T12:53+03:00",
+   "first_seen": "2026-08-19T17:08+03:00",
    "published": "2026-08-19",
    "verdict": "weak"
   },
   {
-   "score": 56.6,
+   "score": 62.4,
    "components": {
     "tier": 20,
-    "category": 4,
-    "lead": 0.0,
-    "relevance": 4,
-    "freshness": 18.6,
+    "category": 9,
+    "lead": 3.6,
+    "relevance": 0,
+    "freshness": 19.8,
     "corroborated": 10
    },
-   "keywords": [
-    "traffic"
-   ],
+   "keywords": [],
    "shock_terms": [],
    "dedupe_match": null,
    "dedupe_similarity": 0.0,
-   "id": "d738eae0c056",
-   "title": "Unchecked air pollution crisis is stealing years from your life",
-   "url": "https://www.monitor.co.ug/uganda/oped/commentary/unchecked-air-pollution-crisis-is-stealing-years-from-your-life-5563000",
-   "summary": "Traffic is no longer simply a transport challenge. It is a health challenge, an environmental...",
+   "id": "2a39f1ef2001",
+   "title": "Unternehmen wird 80 Jahre alt: Die Erfolgsformel des Reiseb\u00fcros Papendick",
+   "url": "https://www.fvw.de/touristik/vertrieb/reisebuero-papendick-wird-80-wir-haben-nie-aufgehoert-uns-neu-zu-erfinden-263834",
+   "summary": "Viel fr\u00fcher als geplant \u00fcbernahm Werner Papendick einst das Familienunternehmen. Heute z\u00e4hlt es zu den gr\u00f6\u00dften inhabergef\u00fchrten Reiseb\u00fcros Deutschlands. Ein Gespr\u00e4ch \u00fcber Krisen, Kunden, KI und \u00fcber die Frage, warum Reiseb\u00fcros noch lange nicht zum Auslaufmodell werden.",
    "kind": "item",
-   "source": "Daily Monitor (Uganda)",
-   "source_id": "np-monitor-ug",
+   "source": "FVW / German travel trade",
+   "source_id": "sm-derreise",
    "tier": 2,
-   "country": "UG",
-   "category": "press",
+   "country": "GLOBAL",
+   "category": "source-market",
    "segments": [
-    "city",
-    "bush",
-    "beach"
+    "beach",
+    "bush"
    ],
-   "first_seen": "2026-08-19T12:53+03:00",
+   "first_seen": "2026-08-19T17:08+03:00",
+   "published": "2026-08-19",
+   "verdict": "weak"
+  },
+  {
+   "score": 62.4,
+   "components": {
+    "tier": 20,
+    "category": 9,
+    "lead": 3.6,
+    "relevance": 0,
+    "freshness": 19.8,
+    "corroborated": 10
+   },
+   "keywords": [],
+   "shock_terms": [],
+   "dedupe_match": null,
+   "dedupe_similarity": 0.33,
+   "id": "0d9719b6f3b9",
+   "title": "Gesch\u00e4ftsreise: Perk erm\u00f6glicht Buchung per ChatGPT & Co",
+   "url": "https://www.fvw.de/businesstravel/travelmanagement/geschaeftsreise-perk-ermoeglicht-buchung-per-chat-gpt--co-263878",
+   "summary": "Perk erweitert seine MCP-Anbindung und erm\u00f6glicht Buchungen, Spesenabrechnungen und Event-Planung direkt \u00fcber KI-Assistenten wie ChatGPT oder Claude. Der Schritt folgt einem Branchentrend, der derzeit viele TMC und Traveltech-Anbieter besch\u00e4ftigt.",
+   "kind": "item",
+   "source": "FVW / German travel trade",
+   "source_id": "sm-derreise",
+   "tier": 2,
+   "country": "GLOBAL",
+   "category": "source-market",
+   "segments": [
+    "beach",
+    "bush"
+   ],
+   "first_seen": "2026-08-19T17:08+03:00",
    "published": "2026-08-19",
    "verdict": "weak"
   }
