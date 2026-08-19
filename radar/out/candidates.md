@@ -1,275 +1,324 @@
 # Radar candidates — morning slot
-_Window opens Tue 18 Aug 18:00 EAT · 309 observations in window · 6 headlines deduped against_
+_Window opens Tue 18 Aug 18:00 EAT · 419 observations in window · 6 headlines deduped against_
 
 Ranked by first-seen recency, source tier and hospitality relevance. `first seen` is when the radar observed the item, which is the date the recency gate runs on. `published` is what the source claims — where the two disagree, the disagreement is the story.
 
-### 🔴 [135.1] Mauritania - Level 3: Reconsider Travel
+### 🔴 [130.2] Mauritania - Level 3: Reconsider Travel
 - **Verdict:** LEAD CANDIDATE — tier-1 shock language
 - **Source:** US State Dept travel advisories (EA feed) · tier 1 · REG · advisory
 - **First seen:** 2026-08-18T20:33+03:00 EAT · **Source date:** — none stated
 - **URL:** https://travel.state.gov/content/travel/en/traveladvisories/traveladvisories/mauritania-travel-advisory.html
 - **Shock language:** level 3, do not travel, reconsider travel
 - **Extract:** There was no change to the advisory level. The "health” risk indicator was added. Advisory summary was updated. Reconsider travel to Mauritania due to terrorism, crime, and limited health infrastructure . Some areas have increased risk. Read the entire Travel 
-- **Score parts:** tier +40, category +32, lead +1.2, relevance +36, freshness +13.9, undated -6, shock +18
+- **Score parts:** tier +40, category +32, lead +1.2, relevance +36, freshness +9, undated -6, shock +18
 
-### 🔴 [127.1] Netherlands - Level 2: Exercise Increased Caution
+### 🔴 [122.2] Netherlands - Level 2: Exercise Increased Caution
 - **Verdict:** LEAD CANDIDATE — tier-1 shock language
 - **Source:** US State Dept travel advisories (EA feed) · tier 1 · REG · advisory
 - **First seen:** 2026-08-18T20:33+03:00 EAT · **Source date:** — none stated
 - **URL:** https://travel.state.gov/content/tsg_aem/us/en/home/international-travel/travel-advisories/destination.nld.html
 - **Shock language:** attack
 - **Extract:** Exercise increased caution in the Netherlands due to terrorism . Terrorist groups continue plotting possible attacks in the Netherlands. Terrorists may attack with little or no warning. Possible targets include: Tourist locations Transportation hubs and airpor
-- **Score parts:** tier +40, category +32, lead +1.2, relevance +28, freshness +13.9, undated -6, shock +18
+- **Score parts:** tier +40, category +32, lead +1.2, relevance +28, freshness +9, undated -6, shock +18
 
 ### 🚨 [101.4] [page changed] Federal Register — public inspection (HHS/CDC), pre-publication
+- **Verdict:** OPEN THIS — tier-1 advisory page moved; content not auto-parsed, read it manually
+- **Source:** Federal Register — public inspection (HHS/CDC), pre-publication · tier 1 · REG · advisory
+- **First seen:** 2026-08-19T06:21+03:00 EAT · **Source date:** 2026-08-18
+- **URL:** https://www.federalregister.gov/api/v1/public-inspection-documents/current.json
+- **Extract:** {"count":87,"results":[{"agencies":[{"raw_name":"Internal Revenue Service","name":"Internal Revenue Service","id":254,"url":"https://www.federalregister.gov/agencies/internal-revenue-service","json_url":"https://www.federalregister.gov/api/v1/agencies/254","pa
+- **Score parts:** tier +40, category +32, lead +3.6, relevance +0, freshness +19.8, corroborated +10, page_change -4
+
+### 🚨 [96.5] [page changed] Federal Register — public inspection (HHS/CDC), pre-publication
 - **Verdict:** OPEN THIS — tier-1 advisory page moved; content not auto-parsed, read it manually
 - **Source:** Federal Register — public inspection (HHS/CDC), pre-publication · tier 1 · REG · advisory
 - **First seen:** 2026-08-19T01:56+03:00 EAT · **Source date:** 2026-08-18
 - **URL:** https://www.federalregister.gov/api/v1/public-inspection-documents/current.json
 - **Extract:** {"count":87,"results":[{"agencies":[{"raw_name":"Internal Revenue Service","name":"Internal Revenue Service","id":254,"url":"https://www.federalregister.gov/agencies/internal-revenue-service","json_url":"https://www.federalregister.gov/api/v1/agencies/254","pa
-- **Score parts:** tier +40, category +32, lead +3.6, relevance +0, freshness +19.8, corroborated +10, page_change -4
+- **Score parts:** tier +40, category +32, lead +3.6, relevance +0, freshness +14.9, corroborated +10, page_change -4
 
-### 🚨 [99.2] [page changed] Federal Register — public inspection (HHS/CDC), pre-publication
+### 🚨 [94.3] [page changed] Federal Register — public inspection (HHS/CDC), pre-publication
 - **Verdict:** OPEN THIS — tier-1 advisory page moved; content not auto-parsed, read it manually
 - **Source:** Federal Register — public inspection (HHS/CDC), pre-publication · tier 1 · REG · advisory
 - **First seen:** 2026-08-18T23:55+03:00 EAT · **Source date:** 2026-08-18
 - **URL:** https://www.federalregister.gov/api/v1/public-inspection-documents/current.json
 - **Extract:** {"count":87,"results":[{"agencies":[{"raw_name":"Internal Revenue Service","name":"Internal Revenue Service","id":254,"url":"https://www.federalregister.gov/agencies/internal-revenue-service","json_url":"https://www.federalregister.gov/api/v1/agencies/254","pa
-- **Score parts:** tier +40, category +32, lead +3.6, relevance +0, freshness +17.6, corroborated +10, page_change -4
+- **Score parts:** tier +40, category +32, lead +3.6, relevance +0, freshness +12.7, corroborated +10, page_change -4
 
-### 🚨 [95.5] [page changed] Federal Register — public inspection (HHS/CDC), pre-publication
+### 🚨 [90.6] [page changed] Federal Register — public inspection (HHS/CDC), pre-publication
 - **Verdict:** OPEN THIS — tier-1 advisory page moved; content not auto-parsed, read it manually
 - **Source:** Federal Register — public inspection (HHS/CDC), pre-publication · tier 1 · REG · advisory
 - **First seen:** 2026-08-18T20:34+03:00 EAT · **Source date:** 2026-08-18
 - **URL:** https://www.federalregister.gov/api/v1/public-inspection-documents/current.json
 - **Extract:** {"count":87,"results":[{"agencies":[{"raw_name":"Internal Revenue Service","name":"Internal Revenue Service","id":254,"url":"https://www.federalregister.gov/agencies/internal-revenue-service","json_url":"https://www.federalregister.gov/api/v1/agencies/254","pa
-- **Score parts:** tier +40, category +32, lead +3.6, relevance +0, freshness +13.9, corroborated +10, page_change -4
+- **Score parts:** tier +40, category +32, lead +3.6, relevance +0, freshness +9, corroborated +10, page_change -4
 
-### 🚨 [59.5] [page changed] Jambojet media
+### 🚨 [65.3] [page changed] Jambojet media
+- **Verdict:** OPEN THIS — tier-1 airline page moved; content not auto-parsed, read it manually
+- **Source:** Jambojet media · tier 1 · KE · airline
+- **First seen:** 2026-08-19T06:20+03:00 EAT · **Source date:** — none stated
+- **URL:** https://www.jambojet.com/en/press-release
+- **Extract:** Request unsuccessful. Incapsula incident ID: 397000300828797939-1053412747381639092
+- **Score parts:** tier +40, category +12, lead +3.6, relevance +0, freshness +19.7, undated -6, page_change -4
+
+### 🚨 [54.6] [page changed] Jambojet media
 - **Verdict:** OPEN THIS — tier-1 airline page moved; content not auto-parsed, read it manually
 - **Source:** Jambojet media · tier 1 · KE · airline
 - **First seen:** 2026-08-18T20:33+03:00 EAT · **Source date:** — none stated
 - **URL:** https://www.jambojet.com/en/press-release
 - **Extract:** Request unsuccessful. Incapsula incident ID: 1014000041647403452-935874915758113072
-- **Score parts:** tier +40, category +12, lead +3.6, relevance +0, freshness +13.9, undated -6, page_change -4
+- **Score parts:** tier +40, category +12, lead +3.6, relevance +0, freshness +9, undated -6, page_change -4
 
-### 🚨 [59.5] [page changed] Airlink news
+### 🚨 [54.6] [page changed] Airlink news
 - **Verdict:** OPEN THIS — tier-1 airline page moved; content not auto-parsed, read it manually
 - **Source:** Airlink news · tier 1 · REG · airline
 - **First seen:** 2026-08-18T20:33+03:00 EAT · **Source date:** — none stated
 - **URL:** https://www.flyairlink.com/
 - **Extract:** Request unsuccessful. Incapsula incident ID: 1011000041419947241-850062521450823983
-- **Score parts:** tier +40, category +12, lead +3.6, relevance +0, freshness +13.9, undated -6, page_change -4
+- **Score parts:** tier +40, category +12, lead +3.6, relevance +0, freshness +9, undated -6, page_change -4
 
-### 🟠 [117.1] Ecuador - Level 2: Exercise Increased Caution
+### 🟠 [112.2] Ecuador - Level 2: Exercise Increased Caution
 - **Verdict:** STRONG — tier-1, upstream
 - **Source:** US State Dept travel advisories (EA feed) · tier 1 · REG · advisory
 - **First seen:** 2026-08-18T20:33+03:00 EAT · **Source date:** — none stated
 - **URL:** https://travel.state.gov/content/tsg_aem/us/en/home/international-travel/travel-advisories/destination.ecu.html
 - **Extract:** Exercise increased caution in Ecuador due to risk of crime , terrorism , unrest , and kidnapping . Some areas have increased risk. Read the entire Travel Advisory. U.S. government employees working in Ecuador are not allowed to travel to these areas due to saf
-- **Score parts:** tier +40, category +32, lead +1.2, relevance +36, freshness +13.9, undated -6
+- **Score parts:** tier +40, category +32, lead +1.2, relevance +36, freshness +9, undated -6
 
-### 🟠 [94.7] Tuesday, 18th August, 2026 at 2.30pm Supplementary Order Paper
+### 🟠 [101.8] Ringera v Directline Assurance Company Ltd (Civil Case E155 of 2026) [2026] KEMC 520 (KLR) (18 August 2026) (Judgment)
 - **Verdict:** STRONG — tier-1, upstream
+- **Source:** Kenya Gazette (Kenya Law) · tier 1 · KE · gazette
+- **First seen:** 2026-08-19T06:21+03:00 EAT · **Source date:** 2026-08-18
+- **URL:** https://new.kenyalaw.org/akn/ke/judgment/kemc/2026/520/eng@2026-08-18
+- **Extract:** Ringera v Directline Assurance Company Ltd (Civil Case E155 of 2026) [2026] KEMC 520 (KLR) (18 August 2026) (Judgment)
+- **Score parts:** tier +40, category +20, lead +12, relevance +0, freshness +19.8, corroborated +10
+
+### 🟡 [96.2] World2Fly Adds Katowice – Cancun Charters in 4Q26
+- **Verdict:** CONSIDER
+- **Source:** AeroRoutes schedule filings · tier 2 · GLOBAL · aviation-tracker
+- **First seen:** 2026-08-19T06:22+03:00 EAT · **Source date:** 2026-08-19
+- **URL:** https://www.aeroroutes.com/eng/260818-2w4q26cun
+- **Extract:** Published at 1600PDT / 2300GMT 18AUG26 World2Fly during Northern winter 2026/27 season plans to operate regular charter service between Poland and Mexico, as the carrier lists 1 weekly Katowice – Madrid – Cancun – Katowice routing. Airbus A330-300 to serve thi
+- **Score parts:** tier +20, category +14, lead +8.4, relevance +24, freshness +19.8, corroborated +10
+
+### 🟠 [96.1] Ketch: A Quiet Legend’s Final Journey
+- **Verdict:** STRONG — tier-1, upstream
+- **Source:** Kenya Wildlife Service · tier 1 · KE · parks
+- **First seen:** 2026-08-19T06:20+03:00 EAT · **Source date:** 2026-08-18
+- **URL:** https://kws.go.ke/ketch-a-quiet-legends-final-journey
+- **Extract:** Ketch was a male black rhino of Ngulia Rhino Sanctuary in Tsavo West National Park. He lived a long, quiet life in the wild for over 35 years—a remarkable span for this critically endangered species, which has faced relentless poaching pressure for decades. Pa
+- **Score parts:** tier +40, category +18, lead +8.4, relevance +0, freshness +19.7, corroborated +10
+
+### 🟠 [91.8] Agutu v Milemba & 3 others (Petition E136 of 2026) [2026] KEELRC 2413 (KLR) (17 August 2026) (Ruling)
+- **Verdict:** STRONG — tier-1, upstream
+- **Source:** Kenya Gazette (Kenya Law) · tier 1 · KE · gazette
+- **First seen:** 2026-08-19T06:21+03:00 EAT · **Source date:** 2026-08-17
+- **URL:** https://new.kenyalaw.org/akn/ke/judgment/keelrc/2026/2413/eng@2026-08-17
+- **Extract:** Agutu v Milemba & 3 others (Petition E136 of 2026) [2026] KEELRC 2413 (KLR) (17 August 2026) (Ruling)
+- **Score parts:** tier +40, category +20, lead +12, relevance +0, freshness +19.8
+
+### 🟡 [89.8] Tuesday, 18th August, 2026 at 2.30pm Supplementary Order Paper
+- **Verdict:** CONSIDER
 - **Source:** Parliament of Kenya — bills & papers · tier 1 · KE · legislature
 - **First seen:** 2026-08-18T20:33+03:00 EAT · **Source date:** 2026-08-18
 - **URL:** https://www.parliament.go.ke/sites/default/files/2026-08/SUPPLEMENTARY%20ORDER%20PAPER%20FOR%20TUESDAY%2C%2018TH%20AUGUST%202026.pdf
 - **Extract:** en-USThirteenth Parliament Fifth Session en-US en-US(No. 75) (2161) en-US en-US en-USREPUBLIC OF KENYA en-US en-USTHIRTEENTH PARLIAMENT (FIFTH SESSION) en-US en-USTHE NATIONAL ASSEMBLY en-US en-USORDERS OF THE DAY en-USSUPPLEMENTARY en-US en-GBTUESDAY, AUGUST 
-- **Score parts:** tier +40, category +10, lead +16.8, relevance +4, freshness +13.9, corroborated +10
+- **Score parts:** tier +40, category +10, lead +16.8, relevance +4, freshness +9, corroborated +10
 
-### 🟡 [87.7] TRA EXPANDS TAX SERVICE NETWORK WITH NEW OFFICE IN KIZIMKAZI 14 August, 2026 The Minister for Finance of the United Repu
+### 🟡 [88.2] Copa Airlines Adds Porlamar Service in mid-4Q26
+- **Verdict:** CONSIDER
+- **Source:** AeroRoutes schedule filings · tier 2 · GLOBAL · aviation-tracker
+- **First seen:** 2026-08-19T06:22+03:00 EAT · **Source date:** 2026-08-19
+- **URL:** https://www.aeroroutes.com/eng/260818-cmnw26pmv
+- **Extract:** Published at 1500PDT / 2200GMT 18AUG26 Copa Airlines earlier this month announced expanded service to Venezuela, as the airline schedules Panama City – Porlamar flights. The airline will serve this route three times weekly from 26NOV26, with Boeing 737-800 air
+- **Score parts:** tier +20, category +14, lead +8.4, relevance +16, freshness +19.8, corroborated +10
+
+### 🟡 [85.8] France v Chronicle Group International Ltd (Cause E680 of 2021) [2026] KEELRC 2409 (KLR) (14 August 2026) (Judgment)
+- **Verdict:** CHECK — source date older than the window
+- **Source:** Kenya Gazette (Kenya Law) · tier 1 · KE · gazette
+- **First seen:** 2026-08-19T06:21+03:00 EAT · **Source date:** 2026-08-14
+- **URL:** https://new.kenyalaw.org/akn/ke/judgment/keelrc/2026/2409/eng@2026-08-14
+- **Extract:** France v Chronicle Group International Ltd (Cause E680 of 2021) [2026] KEELRC 2409 (KLR) (14 August 2026) (Judgment)
+- **Score parts:** tier +40, category +20, lead +12, relevance +4, freshness +19.8, stale_trap -10
+
+### 🟡 [84.2] SKYhigh Dominicana NS26 Boeing 737 Operations
+- **Verdict:** CONSIDER
+- **Source:** AeroRoutes schedule filings · tier 2 · GLOBAL · aviation-tracker
+- **First seen:** 2026-08-19T06:22+03:00 EAT · **Source date:** 2026-08-19
+- **URL:** https://www.aeroroutes.com/eng/260818-dons26737
+- **Extract:** Published at 1900PDT 18AUG26 / 0200GMT 19AUG26 SKYhigh Dominicana earlier this year introduced Boeing 737 operations, with the induction of Boeing 737-700 since early-May 2026. For the remainder of Northern summer 2026 season, the 737-700 is scheduled to serve
+- **Score parts:** tier +20, category +14, lead +8.4, relevance +12, freshness +19.8, corroborated +10
+
+### 🟡 [84.2] TAG Airlines Adds Flores – Merida From Nov 2026
+- **Verdict:** CONSIDER
+- **Source:** AeroRoutes schedule filings · tier 2 · GLOBAL · aviation-tracker
+- **First seen:** 2026-08-19T06:22+03:00 EAT · **Source date:** 2026-08-19
+- **URL:** https://www.aeroroutes.com/eng/260818-5unw26mid
+- **Extract:** Published at 1701PDT 18AUG26 / 0001GMT 19AUG26 Guatemala’s TAG Airlines at the launch of Northern winter 2026/27 season plans to launch service to Mexico, with Flores – Merida route scheduled from 03NOV26. ATR72 aircraft to serve this route 3 times weekly. 5U2
+- **Score parts:** tier +20, category +14, lead +8.4, relevance +12, freshness +19.8, corroborated +10
+
+### 🟡 [84.2] Turkish Airlines Plans Cuba Service Resumption in 4Q26
+- **Verdict:** CONSIDER
+- **Source:** AeroRoutes schedule filings · tier 2 · GLOBAL · aviation-tracker
+- **First seen:** 2026-08-19T06:22+03:00 EAT · **Source date:** 2026-08-19
+- **URL:** https://www.aeroroutes.com/eng/260818-tk4q26cu
+- **Extract:** Published at 1400PDT / 2100GMT 18AUG26 Turkish Airlines during Northern winter 2026/27 season plans to resume service to Cuba, as the airline schedules 3 weekly nonstop Istanbul – Havana terminator service. Boeing 787-9 to operate this route from 25OCT26 at th
+- **Score parts:** tier +20, category +14, lead +8.4, relevance +12, freshness +19.8, corroborated +10
+
+### 🟡 [82.8] TRA EXPANDS TAX SERVICE NETWORK WITH NEW OFFICE IN KIZIMKAZI 14 August, 2026 The Minister for Finance of the United Repu
 - **Verdict:** CONSIDER
 - **Source:** Tanzania Revenue Authority · tier 1 · TZ · fiscal
 - **First seen:** 2026-08-18T20:33+03:00 EAT · **Source date:** — none stated
 - **URL:** https://www.tra.go.tz/news/tra-expands-tax-service-network-with-new-office-in-kizimkazi
-- **Score parts:** tier +40, category +15, lead +16.8, relevance +8, freshness +13.9, undated -6
+- **Score parts:** tier +40, category +15, lead +16.8, relevance +8, freshness +9, undated -6
 
-### 🟡 [87.7] EFFECTIVE TAX REVENUE COLLECTION ESSENTIAL TO NATIONAL DEVELOPMENT – ZANZIBAR FINANCE MINISTER
+### 🟡 [82.8] EFFECTIVE TAX REVENUE COLLECTION ESSENTIAL TO NATIONAL DEVELOPMENT – ZANZIBAR FINANCE MINISTER
 - **Verdict:** CONSIDER
 - **Source:** Tanzania Revenue Authority · tier 1 · TZ · fiscal
 - **First seen:** 2026-08-18T20:33+03:00 EAT · **Source date:** — none stated
 - **URL:** https://www.tra.go.tz/news/effective-tax-revenue-collection-essential-to-national-development-zanzibar-finance-minister
-- **Score parts:** tier +40, category +15, lead +16.8, relevance +8, freshness +13.9, undated -6
+- **Score parts:** tier +40, category +15, lead +16.8, relevance +8, freshness +9, undated -6
 
-### 🟡 [87.0] Liechtenstein - Level 1: Exercise Normal Precautions
+### 🟡 [82.1] Liechtenstein - Level 1: Exercise Normal Precautions
 - **Verdict:** CONSIDER
 - **Source:** US State Dept travel advisories (EA feed) · tier 1 · REG · advisory
 - **First seen:** 2026-08-19T01:56+03:00 EAT · **Source date:** — none stated
 - **URL:** https://travel.state.gov/content/tsg_aem/us/en/home/international-travel/travel-advisories/destination.lie.html
 - **Extract:** Exercise normal precaution in Liechtenstein . Liechtenstein is generally a safe destination for travelers. Liechtenstein’s mountains can be dangerous because of avalanches, landslides, and sudden weather changes. Review our Travel Guidance for Liechtenstein to
-- **Score parts:** tier +40, category +32, lead +1.2, relevance +0, freshness +19.8, undated -6
+- **Score parts:** tier +40, category +32, lead +1.2, relevance +0, freshness +14.9, undated -6
 
-### 🟡 [82.7] MPs raise concerns over electricity supply Tuesday, 18 August 2026
-- **Verdict:** CONSIDER
-- **Source:** Parliament of Uganda · tier 1 · UG · legislature
-- **First seen:** 2026-08-18T20:33+03:00 EAT · **Source date:** — none stated
-- **URL:** https://www.parliament.go.ug/news/4564/mps-raise-concerns-over-electricity-supply
-- **Score parts:** tier +40, category +10, lead +16.8, relevance +8, freshness +13.9, undated -6
+### 🟡 [81.8] Njuguna & another v Njuguna (Environment and Land Case E001 of 2025) [2026] KEELC 5291 (KLR) (14 August 2026) (Ruling)
+- **Verdict:** CHECK — source date older than the window
+- **Source:** Kenya Gazette (Kenya Law) · tier 1 · KE · gazette
+- **First seen:** 2026-08-19T06:21+03:00 EAT · **Source date:** 2026-08-14
+- **URL:** https://new.kenyalaw.org/akn/ke/judgment/keelc/2026/5291/eng@2026-08-14
+- **Extract:** Njuguna & another v Njuguna (Environment and Land Case E001 of 2025) [2026] KEELC 5291 (KLR) (14 August 2026) (Ruling)
+- **Score parts:** tier +40, category +20, lead +12, relevance +0, freshness +19.8, stale_trap -10
 
-### 🟡 [82.7] MPs demand tighter controls on tax waivers Tuesday, 18 August 2026
-- **Verdict:** CONSIDER
-- **Source:** Parliament of Uganda · tier 1 · UG · legislature
-- **First seen:** 2026-08-18T20:33+03:00 EAT · **Source date:** — none stated
-- **URL:** https://www.parliament.go.ug/news/4562/mps-demand-tighter-controls-tax-waivers
-- **Score parts:** tier +40, category +10, lead +16.8, relevance +8, freshness +13.9, undated -6
+### 🟡 [81.8] Karingo v Attorney General & 5 others (Environment and Land Case 1404 of 2004) [2026] KEELC 5290 (KLR) (14 August 2026) 
+- **Verdict:** CHECK — source date older than the window
+- **Source:** Kenya Gazette (Kenya Law) · tier 1 · KE · gazette
+- **First seen:** 2026-08-19T06:21+03:00 EAT · **Source date:** 2026-08-14
+- **URL:** https://new.kenyalaw.org/akn/ke/judgment/keelc/2026/5290/eng@2026-08-14
+- **Extract:** Karingo v Attorney General & 5 others (Environment and Land Case 1404 of 2004) [2026] KEELC 5290 (KLR) (14 August 2026) (Ruling)
+- **Score parts:** tier +40, category +20, lead +12, relevance +0, freshness +19.8, stale_trap -10
 
-### 🟡 [82.0] Air Transat Begins Turkish Airlines Dubai Codeshare From Aug 2026
-- **Verdict:** CONSIDER
-- **Source:** AeroRoutes schedule filings · tier 2 · GLOBAL · aviation-tracker
-- **First seen:** 2026-08-18T23:55+03:00 EAT · **Source date:** 2026-08-18
-- **URL:** https://www.aeroroutes.com/eng/260818-tstkcodeshare
-- **Extract:** Published at 1300PDT / 2000GMT 18AUG26 Air Transat starting Wednesday 19AUG26 expands codeshare partnership with Turkish Airlines, covering the latter’s Istanbul – Dubai route. Planned codeshare schedule as follows. TK760/TS8080 IST1850 – 0020+1DXB 333 357 TK7
-- **Score parts:** tier +20, category +14, lead +8.4, relevance +12, freshness +17.6, corroborated +10
+### 🟡 [81.8] Robert v Sukari Industries Ltd (Civil Case E018 of 2024) [2026] KEMC 519 (KLR) (14 August 2026) (Ruling)
+- **Verdict:** CHECK — source date older than the window
+- **Source:** Kenya Gazette (Kenya Law) · tier 1 · KE · gazette
+- **First seen:** 2026-08-19T06:21+03:00 EAT · **Source date:** 2026-08-14
+- **URL:** https://new.kenyalaw.org/akn/ke/judgment/kemc/2026/519/eng@2026-08-14
+- **Extract:** Robert v Sukari Industries Ltd (Civil Case E018 of 2024) [2026] KEMC 519 (KLR) (14 August 2026) (Ruling)
+- **Score parts:** tier +40, category +20, lead +12, relevance +0, freshness +19.8, stale_trap -10
 
-### 🟡 [82.0] Sundair Begins Berlin – Damascus From mid-Aug 2026
-- **Verdict:** CONSIDER
-- **Source:** AeroRoutes schedule filings · tier 2 · GLOBAL · aviation-tracker
-- **First seen:** 2026-08-18T23:55+03:00 EAT · **Source date:** 2026-08-18
-- **URL:** https://www.aeroroutes.com/eng/260818-sraug26dam
-- **Extract:** Published at 1200PDT / 1900GMT 18AUG26 Sundair this past weekend launched service to Syria, with 2 weekly Berlin – Damascus flights scheduled from 15AUG26. This route is served with Airbus A320 aircraft. SR124 BER1100 – 1605DAM 320 2 SR196 BER1100 – 1605DAM 32
-- **Score parts:** tier +20, category +14, lead +8.4, relevance +12, freshness +17.6, corroborated +10
+### 🟡 [81.8] John v Sukari Industries Ltd (Civil Case E060 of 2024) [2026] KEMC 518 (KLR) (14 August 2026) (Ruling)
+- **Verdict:** CHECK — source date older than the window
+- **Source:** Kenya Gazette (Kenya Law) · tier 1 · KE · gazette
+- **First seen:** 2026-08-19T06:21+03:00 EAT · **Source date:** 2026-08-14
+- **URL:** https://new.kenyalaw.org/akn/ke/judgment/kemc/2026/518/eng@2026-08-14
+- **Extract:** John v Sukari Industries Ltd (Civil Case E060 of 2024) [2026] KEMC 518 (KLR) (14 August 2026) (Ruling)
+- **Score parts:** tier +40, category +20, lead +12, relevance +0, freshness +19.8, stale_trap -10
 
-### 🟡 [82.0] TAP Air Portugal Adds Porto – Ilha do Sal in NW26
-- **Verdict:** CONSIDER
-- **Source:** AeroRoutes schedule filings · tier 2 · GLOBAL · aviation-tracker
-- **First seen:** 2026-08-18T23:55+03:00 EAT · **Source date:** 2026-08-18
-- **URL:** https://www.aeroroutes.com/eng/260818-tpnw26sid
-- **Extract:** Published at 1100PDT / 1800GMT 18AUG26 TAP Air Portugal during Northern winter 2026/27 season plans to launch new service to Cabo Verde, as the airline schedules Porto – Ilha do Sal route, subject to government approval. Airbus A320neo aircraft to serve this r
-- **Score parts:** tier +20, category +14, lead +8.4, relevance +12, freshness +17.6, corroborated +10
+### 🟡 [81.8] Republic v Ogora (Criminal Case E073 of 2026) [2026] KEMC 517 (KLR) (13 August 2026) (Judgment)
+- **Verdict:** CHECK — source date older than the window
+- **Source:** Kenya Gazette (Kenya Law) · tier 1 · KE · gazette
+- **First seen:** 2026-08-19T06:21+03:00 EAT · **Source date:** 2026-08-13
+- **URL:** https://new.kenyalaw.org/akn/ke/judgment/kemc/2026/517/eng@2026-08-13
+- **Extract:** Republic v Ogora (Criminal Case E073 of 2026) [2026] KEMC 517 (KLR) (13 August 2026) (Judgment)
+- **Score parts:** tier +40, category +20, lead +12, relevance +0, freshness +19.8, stale_trap -10
 
-### 🟡 [78.3] Eurowings Adds Prague – Rovaniemi in NW26
-- **Verdict:** CONSIDER
-- **Source:** AeroRoutes schedule filings · tier 2 · GLOBAL · aviation-tracker
-- **First seen:** 2026-08-18T20:34+03:00 EAT · **Source date:** 2026-08-18
-- **URL:** https://www.aeroroutes.com/eng/260818-ewnw26rvn
-- **Extract:** Published at 1000PDT / 1700GMT 18AUG26 Eurowings during Northern winter 2026/27 season plans to launch Prague – Rovaniemi route, on board Airbus A320 aircraft. The airline will serve this route once a week from 20DEC26 to 21FEB27. Schedule below focuses on the
-- **Score parts:** tier +20, category +14, lead +8.4, relevance +12, freshness +13.9, corroborated +10
+### 🟡 [81.8] Gachuhi v Kamonjoh & 6 others (Environment and Land Case E179 of 2021) [2026] KEELC 5289 (KLR) (14 August 2026) (Ruling)
+- **Verdict:** CHECK — source date older than the window
+- **Source:** Kenya Gazette (Kenya Law) · tier 1 · KE · gazette
+- **First seen:** 2026-08-19T06:21+03:00 EAT · **Source date:** 2026-08-14
+- **URL:** https://new.kenyalaw.org/akn/ke/judgment/keelc/2026/5289/eng@2026-08-14
+- **Extract:** Gachuhi v Kamonjoh & 6 others (Environment and Land Case E179 of 2021) [2026] KEELC 5289 (KLR) (14 August 2026) (Ruling)
+- **Score parts:** tier +40, category +20, lead +12, relevance +0, freshness +19.8, stale_trap -10
 
-### 🟡 [78.3] Brussels Airlines NW26 Nordics Network Addition
-- **Verdict:** CONSIDER
-- **Source:** AeroRoutes schedule filings · tier 2 · GLOBAL · aviation-tracker
-- **First seen:** 2026-08-18T20:34+03:00 EAT · **Source date:** 2026-08-18
-- **URL:** https://www.aeroroutes.com/eng/260818-snnw26eu
-- **Extract:** Published at 0900PDT / 1600GMT 18AUG26 Brussels Airlines during Northern winter 2026/27 season plans to launch new scheduled short-haul service to the Nordics, with 3 routes scheduled. Brussels – Harstad-Narvik/Evenes 06FEB27 – 06MAR27 1 weekly A320neo Brussel
-- **Score parts:** tier +20, category +14, lead +8.4, relevance +12, freshness +13.9, corroborated +10
+### 🟡 [81.8] In re Estate of Maluki alias Ndegwa Maruki (Deceased) (Succession Cause E127 of 2026) [2026] KEKC 10 (KLR) (13 August 20
+- **Verdict:** CHECK — source date older than the window
+- **Source:** Kenya Gazette (Kenya Law) · tier 1 · KE · gazette
+- **First seen:** 2026-08-19T06:21+03:00 EAT · **Source date:** 2026-08-13
+- **URL:** https://new.kenyalaw.org/akn/ke/judgment/kekc/2026/10/eng@2026-08-13
+- **Extract:** In re Estate of Maluki alias Ndegwa Maruki (Deceased) (Succession Cause E127 of 2026) [2026] KEKC 10 (KLR) (13 August 2026) (Judgment)
+- **Score parts:** tier +40, category +20, lead +12, relevance +0, freshness +19.8, stale_trap -10
 
-### 🟡 [78.3] LEAV Aviation Adds Cologne – Deir ez-Zor From Sep 2026
-- **Verdict:** CONSIDER
-- **Source:** AeroRoutes schedule filings · tier 2 · GLOBAL · aviation-tracker
-- **First seen:** 2026-08-18T20:34+03:00 EAT · **Source date:** 2026-08-18
-- **URL:** https://www.aeroroutes.com/eng/260818-kksep26dez
-- **Extract:** Published at 0800PDT / 1500GMT 18AUG26 German carrier LEAV Aviation continues to expand service to Syria, with new route launch scheduled on 01SEP26. The airline will offer Cologne/Bonn – Deir ez-Zor service on weekly basis, with Airbus A320 aircraft. KK480 CG
-- **Score parts:** tier +20, category +14, lead +8.4, relevance +12, freshness +13.9, corroborated +10
+### 🟡 [81.8] In re Estate of Idd alias Maulidi Hakim Idd (Deceased) (Succession Cause E131 of 2026) [2026] KEHC 12883 (KLR) (13 Augus
+- **Verdict:** CHECK — source date older than the window
+- **Source:** Kenya Gazette (Kenya Law) · tier 1 · KE · gazette
+- **First seen:** 2026-08-19T06:21+03:00 EAT · **Source date:** 2026-08-13
+- **URL:** https://new.kenyalaw.org/akn/ke/judgment/kehc/2026/12883/eng@2026-08-13
+- **Extract:** In re Estate of Idd alias Maulidi Hakim Idd (Deceased) (Succession Cause E131 of 2026) [2026] KEHC 12883 (KLR) (13 August 2026) (Judgment)
+- **Score parts:** tier +40, category +20, lead +12, relevance +0, freshness +19.8, stale_trap -10
 
-### 🟡 [78.0] MAANDALIZI YA MKUTANO WA 4 WA RESCO YAENDELEA DAR ES SAL...
-- **Verdict:** CONSIDER
-- **Source:** Tanzania Ministry of Health · tier 1 · TZ · health
-- **First seen:** 2026-08-18T23:55+03:00 EAT · **Source date:** — none stated
-- **URL:** https://www.moh.go.tz/news-single/maandalizi-ya-mkutano-wa-4-wa-resco-yaendelea-dar-es-salaam
-- **Score parts:** tier +40, category +24, lead +2.4, relevance +0, freshness +17.6, undated -6
+### 🟡 [81.8] Karanja v Ng'ong'a & 2 others (Environment and Land Petition E009 of 2026) [2026] KEELC 5288 (KLR) (14 August 2026) (Rul
+- **Verdict:** CHECK — source date older than the window
+- **Source:** Kenya Gazette (Kenya Law) · tier 1 · KE · gazette
+- **First seen:** 2026-08-19T06:21+03:00 EAT · **Source date:** 2026-08-14
+- **URL:** https://new.kenyalaw.org/akn/ke/judgment/keelc/2026/5288/eng@2026-08-14
+- **Extract:** Karanja v Ng'ong'a & 2 others (Environment and Land Petition E009 of 2026) [2026] KEELC 5288 (KLR) (14 August 2026) (Ruling)
+- **Score parts:** tier +40, category +20, lead +12, relevance +0, freshness +19.8, stale_trap -10
 
-### 🟡 [78.0] JKCI, CCBRT ZANUFAIKA NA MILIONI 200 KUPITIA MBIO ZA...
-- **Verdict:** CONSIDER
-- **Source:** Tanzania Ministry of Health · tier 1 · TZ · health
-- **First seen:** 2026-08-18T23:55+03:00 EAT · **Source date:** — none stated
-- **URL:** https://www.moh.go.tz/news-single/jkci-ccbrt-zanufaika-na-milioni-200-kupitia-mbio-za-hisani-za-crdb
-- **Score parts:** tier +40, category +24, lead +2.4, relevance +0, freshness +17.6, undated -6
+### 🟡 [81.8] Mussukuya v Musoi & 3 others (Environment and Planning Civil Case E019 of 2025) [2026] KEELC 5287 (KLR) (14 August 2026)
+- **Verdict:** CHECK — source date older than the window
+- **Source:** Kenya Gazette (Kenya Law) · tier 1 · KE · gazette
+- **First seen:** 2026-08-19T06:21+03:00 EAT · **Source date:** 2026-08-14
+- **URL:** https://new.kenyalaw.org/akn/ke/judgment/keelc/2026/5287/eng@2026-08-14
+- **Extract:** Mussukuya v Musoi & 3 others (Environment and Planning Civil Case E019 of 2025) [2026] KEELC 5287 (KLR) (14 August 2026) (Ruling)
+- **Score parts:** tier +40, category +20, lead +12, relevance +0, freshness +19.8, stale_trap -10
 
-### 🟡 [78.0] TANZANIA YABAINISHA MAFANIKIO YA KUPUNGUZA VIFO VITO...
-- **Verdict:** CONSIDER
-- **Source:** Tanzania Ministry of Health · tier 1 · TZ · health
-- **First seen:** 2026-08-18T23:55+03:00 EAT · **Source date:** — none stated
-- **URL:** https://www.moh.go.tz/news-single/tanzania-yabainisha-mafanikio-ya-kupunguza-vifo-vitokanavyo-na-uzazi-afrika
-- **Score parts:** tier +40, category +24, lead +2.4, relevance +0, freshness +17.6, undated -6
+### 🟡 [81.8] Troy Medicare Pharmacy Ltd v Pekee Developments Ltd & another (Environment and Land Case E235 of 2023) [2026] KEELC 5286
+- **Verdict:** CHECK — source date older than the window
+- **Source:** Kenya Gazette (Kenya Law) · tier 1 · KE · gazette
+- **First seen:** 2026-08-19T06:21+03:00 EAT · **Source date:** 2026-08-14
+- **URL:** https://new.kenyalaw.org/akn/ke/judgment/keelc/2026/5286/eng@2026-08-14
+- **Extract:** Troy Medicare Pharmacy Ltd v Pekee Developments Ltd & another (Environment and Land Case E235 of 2023) [2026] KEELC 5286 (KLR) (14 August 2026) (Ruling)
+- **Score parts:** tier +40, category +20, lead +12, relevance +0, freshness +19.8, stale_trap -10
 
-### 🟡 [78.0] SERIKALI NA WADAU WAIMARISHA HUDUMA ZA DHARURA, WAGO...
-- **Verdict:** CONSIDER
-- **Source:** Tanzania Ministry of Health · tier 1 · TZ · health
-- **First seen:** 2026-08-18T23:55+03:00 EAT · **Source date:** — none stated
-- **URL:** https://www.moh.go.tz/news-single/serikali-na-wadau-waimarisha-huduma-za-dharura-wagonjwa-mahututi-na-watoto
-- **Score parts:** tier +40, category +24, lead +2.4, relevance +0, freshness +17.6, undated -6
+### 🟡 [81.8] Rioba v Sukari Industries Ltd (Civil Case E054 of 2024) [2026] KEMC 516 (KLR) (14 August 2026) (Ruling)
+- **Verdict:** CHECK — source date older than the window
+- **Source:** Kenya Gazette (Kenya Law) · tier 1 · KE · gazette
+- **First seen:** 2026-08-19T06:21+03:00 EAT · **Source date:** 2026-08-14
+- **URL:** https://new.kenyalaw.org/akn/ke/judgment/kemc/2026/516/eng@2026-08-14
+- **Extract:** Rioba v Sukari Industries Ltd (Civil Case E054 of 2024) [2026] KEMC 516 (KLR) (14 August 2026) (Ruling)
+- **Score parts:** tier +40, category +20, lead +12, relevance +0, freshness +19.8, stale_trap -10
 
-### 🟡 [78.0] SERA NA SHERIA ZA AFYA KUIMARISHA MFUMO WA KUSIMAMIA...
-- **Verdict:** CONSIDER
-- **Source:** Tanzania Ministry of Health · tier 1 · TZ · health
-- **First seen:** 2026-08-18T23:55+03:00 EAT · **Source date:** — none stated
-- **URL:** https://www.moh.go.tz/news-single/sera-na-sheria-za-afya-kuimarisha-mfumo-wa-kusimamia-ubora-wa-huduma
-- **Score parts:** tier +40, category +24, lead +2.4, relevance +0, freshness +17.6, undated -6
+### 🟡 [81.8] In re Estate of Idd alias Maulidi Hakim Idd (Deceased) (Succession Cause E130 of 2026) [2026] KEKC 5 (KLR) (13 August 20
+- **Verdict:** CHECK — source date older than the window
+- **Source:** Kenya Gazette (Kenya Law) · tier 1 · KE · gazette
+- **First seen:** 2026-08-19T06:21+03:00 EAT · **Source date:** 2026-08-13
+- **URL:** https://new.kenyalaw.org/akn/ke/judgment/kekc/2026/5/eng@2026-08-13
+- **Extract:** In re Estate of Idd alias Maulidi Hakim Idd (Deceased) (Succession Cause E130 of 2026) [2026] KEKC 5 (KLR) (13 August 2026) (Judgment)
+- **Score parts:** tier +40, category +20, lead +12, relevance +0, freshness +19.8, stale_trap -10
 
-### 🟡 [78.0] WIZARA YA AFYA YAKABIDHI MWONGOZO MPYA 2026 WA UONGE...
-- **Verdict:** CONSIDER
-- **Source:** Tanzania Ministry of Health · tier 1 · TZ · health
-- **First seen:** 2026-08-18T23:55+03:00 EAT · **Source date:** — none stated
-- **URL:** https://www.moh.go.tz/news-single/wizara-ya-afya-yakabidhi-mwongozo-mpya-2026-wa-uongezaji-virutubishi-kwenye-chakula
-- **Score parts:** tier +40, category +24, lead +2.4, relevance +0, freshness +17.6, undated -6
+### 🟡 [81.8] Northern Block Residents Ltd & another v Makanjawa Company Ltd & 5 others (Environment and Planning Judicial Review E001
+- **Verdict:** CHECK — source date older than the window
+- **Source:** Kenya Gazette (Kenya Law) · tier 1 · KE · gazette
+- **First seen:** 2026-08-19T06:21+03:00 EAT · **Source date:** 2026-08-14
+- **URL:** https://new.kenyalaw.org/akn/ke/judgment/keelc/2026/5285/eng@2026-08-14
+- **Extract:** Northern Block Residents Ltd & another v Makanjawa Company Ltd & 5 others (Environment and Planning Judicial Review E001 of 2023) [2026] KEELC 5285 (KLR) (14 August 2026) (Ruling)
+- **Score parts:** tier +40, category +20, lead +12, relevance +0, freshness +19.8, stale_trap -10
 
-### 🟡 [78.0] SERIKALI YAONGEZA NGUVU KUDHIBITI MAGONJWA ADIMU NCH...
-- **Verdict:** CONSIDER
-- **Source:** Tanzania Ministry of Health · tier 1 · TZ · health
-- **First seen:** 2026-08-18T23:55+03:00 EAT · **Source date:** — none stated
-- **URL:** https://www.moh.go.tz/news-single/serikali-yaongeza-nguvu-kudhibiti-magonjwa-adimu-nchini
-- **Score parts:** tier +40, category +24, lead +2.4, relevance +0, freshness +17.6, undated -6
+### 🟡 [81.8] Republic v Kayanda (Sexual Offence E012 of 2026) [2026] KEMC 515 (KLR) (13 August 2026) (Judgment)
+- **Verdict:** CHECK — source date older than the window
+- **Source:** Kenya Gazette (Kenya Law) · tier 1 · KE · gazette
+- **First seen:** 2026-08-19T06:21+03:00 EAT · **Source date:** 2026-08-13
+- **URL:** https://new.kenyalaw.org/akn/ke/judgment/kemc/2026/515/eng@2026-08-13
+- **Extract:** Republic v Kayanda (Sexual Offence E012 of 2026) [2026] KEMC 515 (KLR) (13 August 2026) (Judgment)
+- **Score parts:** tier +40, category +20, lead +12, relevance +0, freshness +19.8, stale_trap -10
 
-### 🟡 [74.7] 𝐋𝐀𝐖𝐌𝐀𝐊𝐄𝐑𝐒 𝐁𝐀𝐂𝐊 𝐁𝐈𝐋𝐋 𝐓𝐇𝐀𝐓 𝐒𝐄𝐄𝐊𝐒 𝐓𝐎 𝐂𝐑𝐄𝐀𝐓𝐄 𝐃𝐄𝐃𝐈𝐂𝐀𝐓𝐄𝐃 𝐋𝐀𝐍𝐄𝐒 𝐅𝐎𝐑 𝐁𝐈𝐂𝐘𝐂𝐋𝐄𝐒
-- **Verdict:** CONSIDER
-- **Source:** Parliament of Kenya — bills & papers · tier 1 · KE · legislature
-- **First seen:** 2026-08-18T20:33+03:00 EAT · **Source date:** — none stated
-- **URL:** https://www.parliament.go.ke/index.php/node/26276
-- **Score parts:** tier +40, category +10, lead +16.8, relevance +0, freshness +13.9, undated -6
+### 🟡 [81.8] Maroa v Sukari Industries Ltd (Civil Case E057 of 2024) [2026] KEMC 514 (KLR) (14 August 2026) (Ruling)
+- **Verdict:** CHECK — source date older than the window
+- **Source:** Kenya Gazette (Kenya Law) · tier 1 · KE · gazette
+- **First seen:** 2026-08-19T06:21+03:00 EAT · **Source date:** 2026-08-14
+- **URL:** https://new.kenyalaw.org/akn/ke/judgment/kemc/2026/514/eng@2026-08-14
+- **Extract:** Maroa v Sukari Industries Ltd (Civil Case E057 of 2024) [2026] KEMC 514 (KLR) (14 August 2026) (Ruling)
+- **Score parts:** tier +40, category +20, lead +12, relevance +0, freshness +19.8, stale_trap -10
 
-### 🟡 [74.7] 𝐊𝐄𝐍𝐘𝐀-𝐓𝐔𝐑𝐊𝐄𝐘 𝐏𝐀𝐑𝐋𝐈𝐀𝐌𝐄𝐍𝐓𝐀𝐑𝐘 𝐅𝐑𝐈𝐄𝐍𝐃𝐒𝐇𝐈𝐏 𝐆𝐑𝐎𝐔𝐏 𝐂𝐇𝐀𝐈𝐑 𝐖𝐄𝐋𝐂𝐎𝐌𝐄𝐒 𝐓𝐔𝐑𝐊𝐈𝐒𝐇 𝐃𝐄𝐋𝐄𝐆𝐀𝐓𝐈𝐎𝐍
-- **Verdict:** CONSIDER
-- **Source:** Parliament of Kenya — bills & papers · tier 1 · KE · legislature
-- **First seen:** 2026-08-18T20:33+03:00 EAT · **Source date:** — none stated
-- **URL:** https://www.parliament.go.ke/index.php/node/26275
-- **Score parts:** tier +40, category +10, lead +16.8, relevance +0, freshness +13.9, undated -6
-
-### 🟡 [74.7] ‘All medical interns to get Shs1 million allowance’ Tuesday, 18 August 2026
-- **Verdict:** CONSIDER
-- **Source:** Parliament of Uganda · tier 1 · UG · legislature
-- **First seen:** 2026-08-18T20:33+03:00 EAT · **Source date:** — none stated
-- **URL:** https://www.parliament.go.ug/news/4565/all-medical-interns-get-shs1-million-allowance
-- **Score parts:** tier +40, category +10, lead +16.8, relevance +0, freshness +13.9, undated -6
-
-### 🟡 [74.7] Parliament approves motion on geriatric care, demands increase in SAGE Tuesday, 18 August 2026
-- **Verdict:** CONSIDER
-- **Source:** Parliament of Uganda · tier 1 · UG · legislature
-- **First seen:** 2026-08-18T20:33+03:00 EAT · **Source date:** — none stated
-- **URL:** https://www.parliament.go.ug/news/4563/parliament-approves-motion-geriatric-care-demands-increase-sage
-- **Score parts:** tier +40, category +10, lead +16.8, relevance +0, freshness +13.9, undated -6
-
-### 🟡 [74.3] SERIKALI YAONGEZA NGUVU KUDHIBITI MAGONJWA ADIMU NCHINI...
-- **Verdict:** CONSIDER
-- **Source:** Tanzania Ministry of Health · tier 1 · TZ · health
-- **First seen:** 2026-08-18T20:34+03:00 EAT · **Source date:** — none stated
-- **URL:** https://www.moh.go.tz/news-single/serikali-yaongeza-nguvu-kudhibiti-magonjwa-adimu-nchini
-- **Score parts:** tier +40, category +24, lead +2.4, relevance +0, freshness +13.9, undated -6
-
-### 🟡 [74.3] UWEKEZAJI KATIKA TAFITI, ELIMU WAONGEZA UWEZO KUBAIN...
-- **Verdict:** CONSIDER
-- **Source:** Tanzania Ministry of Health · tier 1 · TZ · health
-- **First seen:** 2026-08-18T20:34+03:00 EAT · **Source date:** — none stated
-- **URL:** https://www.moh.go.tz/news-single/uwekezaji-katika-tafiti-elimu-waongeza-uwezo-kubaini-magonjwa-adimu
-- **Score parts:** tier +40, category +24, lead +2.4, relevance +0, freshness +13.9, undated -6
-
-### 🟡 [74.3] KAMATI YA BUNGE YAIPONGEZA SERIKALI KWA KUTAMBUA NA ...
-- **Verdict:** CONSIDER
-- **Source:** Tanzania Ministry of Health · tier 1 · TZ · health
-- **First seen:** 2026-08-18T20:34+03:00 EAT · **Source date:** — none stated
-- **URL:** https://www.moh.go.tz/news-single/kamati-ya-bunge-yaipongeza-serikali-kwa-kutambua-na-kuyapa-kipaumbele-magonjwa-adimu
-- **Score parts:** tier +40, category +24, lead +2.4, relevance +0, freshness +13.9, undated -6
-
-### 🟡 [74.3] WATOTO NCHINI KUNUFAIKA NA VYAKULA SALAMA, BORA NA V...
-- **Verdict:** CONSIDER
-- **Source:** Tanzania Ministry of Health · tier 1 · TZ · health
-- **First seen:** 2026-08-18T20:34+03:00 EAT · **Source date:** — none stated
-- **URL:** https://www.moh.go.tz/news-single/watoto-nchini-kunufaika-na-vyakula-salama-bora-na-vyenye-virutubisho
-- **Score parts:** tier +40, category +24, lead +2.4, relevance +0, freshness +13.9, undated -6
-
-### 🟡 [74.3] Jarida la Jamii...
-- **Verdict:** CONSIDER
-- **Source:** Tanzania Ministry of Health · tier 1 · TZ · health
-- **First seen:** 2026-08-18T20:34+03:00 EAT · **Source date:** — none stated
-- **URL:** https://www.moh.go.tz/storage/app/uploads/public/6a8/475/0aa/6a84750aa3dc9516353376.pdf
-- **Extract:** en-USen-USen-USen-USen-USen-USen-USen-USen-USen-USen-USen-USen-USen-USen-USen-USen-USen-US 7é´}fÏ\±[»ÿ HóëÓåÖÌ÷¢p ô®ëÄ'UeûY!*pyëÛ# ë£ðÍü×Ú:¥ã¿´vµºÀÆdN ÿ  7Ñ«ÍüQi5dèqâ©Â²äº<ìÏ0«åT^¬ëá`_ÿ Ð2×þÿ 7øUaãkøïd¹N³D ÀÊÝG|ãÓð¬`æUÞIà*Ù}ÏFn
-- **Score parts:** tier +40, category +24, lead +2.4, relevance +0, freshness +13.9, undated -6
+### 🟡 [81.8] Rioba v Sukari Industries Ltd (Cause E054 of 2024) [2026] KEMC 513 (KLR) (14 August 2026) (Ruling)
+- **Verdict:** CHECK — source date older than the window
+- **Source:** Kenya Gazette (Kenya Law) · tier 1 · KE · gazette
+- **First seen:** 2026-08-19T06:21+03:00 EAT · **Source date:** 2026-08-14
+- **URL:** https://new.kenyalaw.org/akn/ke/judgment/kemc/2026/513/eng@2026-08-14
+- **Extract:** Rioba v Sukari Industries Ltd (Cause E054 of 2024) [2026] KEMC 513 (KLR) (14 August 2026) (Ruling)
+- **Score parts:** tier +40, category +20, lead +12, relevance +0, freshness +19.8, stale_trap -10

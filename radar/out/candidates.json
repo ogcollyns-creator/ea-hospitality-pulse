@@ -1,18 +1,18 @@
 {
- "generated": "2026-08-19T01:57:12+03:00",
+ "generated": "2026-08-19T06:23:40+03:00",
  "slot": "morning",
  "window_start": 1787065200,
- "observations_in_window": 309,
+ "observations_in_window": 419,
  "deduped_against": 6,
  "candidates": [
   {
-   "score": 135.1,
+   "score": 130.2,
    "components": {
     "tier": 40,
     "category": 32,
     "lead": 1.2,
     "relevance": 36,
-    "freshness": 13.9,
+    "freshness": 9.0,
     "undated": -6,
     "shock": 18
    },
@@ -48,13 +48,13 @@
    "verdict": "LEAD CANDIDATE \u2014 tier-1 shock language"
   },
   {
-   "score": 127.1,
+   "score": 122.2,
    "components": {
     "tier": 40,
     "category": 32,
     "lead": 1.2,
     "relevance": 28,
-    "freshness": 13.9,
+    "freshness": 9.0,
     "undated": -6,
     "shock": 18
    },
@@ -103,6 +103,39 @@
    "shock_terms": [],
    "dedupe_match": null,
    "dedupe_similarity": 0.0,
+   "id": "5a6878971b60",
+   "title": "[page changed] Federal Register \u2014 public inspection (HHS/CDC), pre-publication",
+   "url": "https://www.federalregister.gov/api/v1/public-inspection-documents/current.json",
+   "summary": "{\"count\":87,\"results\":[{\"agencies\":[{\"raw_name\":\"Internal Revenue Service\",\"name\":\"Internal Revenue Service\",\"id\":254,\"url\":\"https://www.federalregister.gov/agencies/internal-revenue-service\",\"json_url\":\"https://www.federalregister.gov/api/v1/agencies/254\",\"parent_id\":497,\"slug\":\"internal-revenue-service\"}],\"agency_letters\":[],\"agency_names\":[\"Internal Revenue Service\"],\"docket_numbers\":[],\"docume",
+   "kind": "page-change",
+   "source": "Federal Register \u2014 public inspection (HHS/CDC), pre-publication",
+   "source_id": "us-fedreg-pubinspect-hhs",
+   "tier": 1,
+   "country": "REG",
+   "category": "advisory",
+   "segments": [
+    "city",
+    "bush"
+   ],
+   "first_seen": "2026-08-19T06:21+03:00",
+   "published": "2026-08-18",
+   "verdict": "OPEN THIS \u2014 tier-1 advisory page moved; content not auto-parsed, read it manually"
+  },
+  {
+   "score": 96.5,
+   "components": {
+    "tier": 40,
+    "category": 32,
+    "lead": 3.6,
+    "relevance": 0,
+    "freshness": 14.9,
+    "corroborated": 10,
+    "page_change": -4
+   },
+   "keywords": [],
+   "shock_terms": [],
+   "dedupe_match": null,
+   "dedupe_similarity": 0.0,
    "id": "f3de1933ac49",
    "title": "[page changed] Federal Register \u2014 public inspection (HHS/CDC), pre-publication",
    "url": "https://www.federalregister.gov/api/v1/public-inspection-documents/current.json",
@@ -122,13 +155,13 @@
    "verdict": "OPEN THIS \u2014 tier-1 advisory page moved; content not auto-parsed, read it manually"
   },
   {
-   "score": 99.2,
+   "score": 94.3,
    "components": {
     "tier": 40,
     "category": 32,
     "lead": 3.6,
     "relevance": 0,
-    "freshness": 17.6,
+    "freshness": 12.7,
     "corroborated": 10,
     "page_change": -4
    },
@@ -155,13 +188,13 @@
    "verdict": "OPEN THIS \u2014 tier-1 advisory page moved; content not auto-parsed, read it manually"
   },
   {
-   "score": 95.5,
+   "score": 90.6,
    "components": {
     "tier": 40,
     "category": 32,
     "lead": 3.6,
     "relevance": 0,
-    "freshness": 13.9,
+    "freshness": 9.0,
     "corroborated": 10,
     "page_change": -4
    },
@@ -188,13 +221,47 @@
    "verdict": "OPEN THIS \u2014 tier-1 advisory page moved; content not auto-parsed, read it manually"
   },
   {
-   "score": 59.5,
+   "score": 65.3,
    "components": {
     "tier": 40,
     "category": 12,
     "lead": 3.6,
     "relevance": 0,
-    "freshness": 13.9,
+    "freshness": 19.7,
+    "undated": -6,
+    "page_change": -4
+   },
+   "keywords": [],
+   "shock_terms": [],
+   "dedupe_match": null,
+   "dedupe_similarity": 0.0,
+   "id": "540f5e23adba",
+   "title": "[page changed] Jambojet media",
+   "url": "https://www.jambojet.com/en/press-release",
+   "summary": "Request unsuccessful. Incapsula incident ID: 397000300828797939-1053412747381639092",
+   "kind": "page-change",
+   "source": "Jambojet media",
+   "source_id": "air-jambojet",
+   "tier": 1,
+   "country": "KE",
+   "category": "airline",
+   "segments": [
+    "city",
+    "bush",
+    "beach"
+   ],
+   "first_seen": "2026-08-19T06:20+03:00",
+   "published": null,
+   "verdict": "OPEN THIS \u2014 tier-1 airline page moved; content not auto-parsed, read it manually"
+  },
+  {
+   "score": 54.6,
+   "components": {
+    "tier": 40,
+    "category": 12,
+    "lead": 3.6,
+    "relevance": 0,
+    "freshness": 9.0,
     "undated": -6,
     "page_change": -4
    },
@@ -222,13 +289,13 @@
    "verdict": "OPEN THIS \u2014 tier-1 airline page moved; content not auto-parsed, read it manually"
   },
   {
-   "score": 59.5,
+   "score": 54.6,
    "components": {
     "tier": 40,
     "category": 12,
     "lead": 3.6,
     "relevance": 0,
-    "freshness": 13.9,
+    "freshness": 9.0,
     "undated": -6,
     "page_change": -4
    },
@@ -256,13 +323,13 @@
    "verdict": "OPEN THIS \u2014 tier-1 airline page moved; content not auto-parsed, read it manually"
   },
   {
-   "score": 117.1,
+   "score": 112.2,
    "components": {
     "tier": 40,
     "category": 32,
     "lead": 1.2,
     "relevance": 36,
-    "freshness": 13.9,
+    "freshness": 9.0,
     "undated": -6
    },
    "keywords": [
@@ -293,13 +360,146 @@
    "verdict": "STRONG \u2014 tier-1, upstream"
   },
   {
-   "score": 94.7,
+   "score": 101.8,
+   "components": {
+    "tier": 40,
+    "category": 20,
+    "lead": 12.0,
+    "relevance": 0,
+    "freshness": 19.8,
+    "corroborated": 10
+   },
+   "keywords": [],
+   "shock_terms": [],
+   "dedupe_match": null,
+   "dedupe_similarity": 0.0,
+   "id": "7d34e1a35ef2",
+   "title": "Ringera v Directline Assurance Company Ltd (Civil Case E155 of 2026) [2026] KEMC 520 (KLR) (18 August 2026) (Judgment)",
+   "url": "https://new.kenyalaw.org/akn/ke/judgment/kemc/2026/520/eng@2026-08-18",
+   "summary": "Ringera v Directline Assurance Company Ltd (Civil Case E155 of 2026) [2026] KEMC 520 (KLR) (18 August 2026) (Judgment)",
+   "kind": "item",
+   "source": "Kenya Gazette (Kenya Law)",
+   "source_id": "ke-gazette",
+   "tier": 1,
+   "country": "KE",
+   "category": "gazette",
+   "segments": [
+    "city",
+    "bush",
+    "beach"
+   ],
+   "first_seen": "2026-08-19T06:21+03:00",
+   "published": "2026-08-18",
+   "verdict": "STRONG \u2014 tier-1, upstream"
+  },
+  {
+   "score": 96.2,
+   "components": {
+    "tier": 20,
+    "category": 14,
+    "lead": 8.4,
+    "relevance": 24,
+    "freshness": 19.8,
+    "corroborated": 10
+   },
+   "keywords": [
+    "adr",
+    "route",
+    "charter"
+   ],
+   "shock_terms": [],
+   "dedupe_match": null,
+   "dedupe_similarity": 0.0,
+   "id": "4090e080f417",
+   "title": "World2Fly Adds Katowice \u2013 Cancun Charters in 4Q26",
+   "url": "https://www.aeroroutes.com/eng/260818-2w4q26cun",
+   "summary": "Published at 1600PDT / 2300GMT 18AUG26 World2Fly during Northern winter 2026/27 season plans to operate regular charter service between Poland and Mexico, as the carrier lists 1 weekly Katowice \u2013 Madrid \u2013 Cancun \u2013 Katowice routing. Airbus A330-300 to serve this route from 04NOV26 to 07JAN27. 2W7403 KTW1100 \u2013 1410MAD1525 \u2013 2025CUN 333 3 2W7404 CUN2225 \u2013 1515+1KTW 333 3",
+   "kind": "item",
+   "source": "AeroRoutes schedule filings",
+   "source_id": "aeroroutes",
+   "tier": 2,
+   "country": "GLOBAL",
+   "category": "aviation-tracker",
+   "segments": [
+    "city",
+    "bush",
+    "beach"
+   ],
+   "first_seen": "2026-08-19T06:22+03:00",
+   "published": "2026-08-19",
+   "verdict": "CONSIDER"
+  },
+  {
+   "score": 96.1,
+   "components": {
+    "tier": 40,
+    "category": 18,
+    "lead": 8.4,
+    "relevance": 0,
+    "freshness": 19.7,
+    "corroborated": 10
+   },
+   "keywords": [],
+   "shock_terms": [],
+   "dedupe_match": null,
+   "dedupe_similarity": 0.0,
+   "id": "184c0d49de20",
+   "title": "Ketch: A Quiet Legend\u2019s Final Journey",
+   "url": "https://kws.go.ke/ketch-a-quiet-legends-final-journey",
+   "summary": "Ketch was a male black rhino of Ngulia Rhino Sanctuary in Tsavo West National Park. He lived a long, quiet life in the wild for over 35 years\u2014a remarkable span for this critically endangered species, which has faced relentless poaching pressure for decades. Partially blind in one eye, he learned to navigate his world with [...]",
+   "kind": "item",
+   "source": "Kenya Wildlife Service",
+   "source_id": "ke-kws",
+   "tier": 1,
+   "country": "KE",
+   "category": "parks",
+   "segments": [
+    "bush"
+   ],
+   "first_seen": "2026-08-19T06:20+03:00",
+   "published": "2026-08-18",
+   "verdict": "STRONG \u2014 tier-1, upstream"
+  },
+  {
+   "score": 91.8,
+   "components": {
+    "tier": 40,
+    "category": 20,
+    "lead": 12.0,
+    "relevance": 0,
+    "freshness": 19.8
+   },
+   "keywords": [],
+   "shock_terms": [],
+   "dedupe_match": null,
+   "dedupe_similarity": 0.0,
+   "id": "bdcf0950b25c",
+   "title": "Agutu v Milemba & 3 others (Petition E136 of 2026) [2026] KEELRC 2413 (KLR) (17 August 2026) (Ruling)",
+   "url": "https://new.kenyalaw.org/akn/ke/judgment/keelrc/2026/2413/eng@2026-08-17",
+   "summary": "Agutu v Milemba & 3 others (Petition E136 of 2026) [2026] KEELRC 2413 (KLR) (17 August 2026) (Ruling)",
+   "kind": "item",
+   "source": "Kenya Gazette (Kenya Law)",
+   "source_id": "ke-gazette",
+   "tier": 1,
+   "country": "KE",
+   "category": "gazette",
+   "segments": [
+    "city",
+    "bush",
+    "beach"
+   ],
+   "first_seen": "2026-08-19T06:21+03:00",
+   "published": "2026-08-17",
+   "verdict": "STRONG \u2014 tier-1, upstream"
+  },
+  {
+   "score": 89.8,
    "components": {
     "tier": 40,
     "category": 10,
     "lead": 16.8,
     "relevance": 4,
-    "freshness": 13.9,
+    "freshness": 9.0,
     "corroborated": 10
    },
    "keywords": [
@@ -325,16 +525,196 @@
    ],
    "first_seen": "2026-08-18T20:33+03:00",
    "published": "2026-08-18",
-   "verdict": "STRONG \u2014 tier-1, upstream"
+   "verdict": "CONSIDER"
   },
   {
-   "score": 87.7,
+   "score": 88.2,
+   "components": {
+    "tier": 20,
+    "category": 14,
+    "lead": 8.4,
+    "relevance": 16,
+    "freshness": 19.8,
+    "corroborated": 10
+   },
+   "keywords": [
+    "route",
+    "airline",
+    "flight"
+   ],
+   "shock_terms": [],
+   "dedupe_match": null,
+   "dedupe_similarity": 0.0,
+   "id": "5330027f000a",
+   "title": "Copa Airlines Adds Porlamar Service in mid-4Q26",
+   "url": "https://www.aeroroutes.com/eng/260818-cmnw26pmv",
+   "summary": "Published at 1500PDT / 2200GMT 18AUG26 Copa Airlines earlier this month announced expanded service to Venezuela, as the airline schedules Panama City \u2013 Porlamar flights. The airline will serve this route three times weekly from 26NOV26, with Boeing 737-800 aircraft. CM651 PTY0950 \u2013 1336PMV 738 247 CM652 PMV1446 \u2013 1630PTY 738 247",
+   "kind": "item",
+   "source": "AeroRoutes schedule filings",
+   "source_id": "aeroroutes",
+   "tier": 2,
+   "country": "GLOBAL",
+   "category": "aviation-tracker",
+   "segments": [
+    "city",
+    "bush",
+    "beach"
+   ],
+   "first_seen": "2026-08-19T06:22+03:00",
+   "published": "2026-08-19",
+   "verdict": "CONSIDER"
+  },
+  {
+   "score": 85.8,
+   "components": {
+    "tier": 40,
+    "category": 20,
+    "lead": 12.0,
+    "relevance": 4,
+    "freshness": 19.8,
+    "stale_trap": -10
+   },
+   "keywords": [
+    "franc"
+   ],
+   "shock_terms": [],
+   "dedupe_match": null,
+   "dedupe_similarity": 0.0,
+   "id": "5144829b644b",
+   "title": "France v Chronicle Group International Ltd (Cause E680 of 2021) [2026] KEELRC 2409 (KLR) (14 August 2026) (Judgment)",
+   "url": "https://new.kenyalaw.org/akn/ke/judgment/keelrc/2026/2409/eng@2026-08-14",
+   "summary": "France v Chronicle Group International Ltd (Cause E680 of 2021) [2026] KEELRC 2409 (KLR) (14 August 2026) (Judgment)",
+   "kind": "item",
+   "source": "Kenya Gazette (Kenya Law)",
+   "source_id": "ke-gazette",
+   "tier": 1,
+   "country": "KE",
+   "category": "gazette",
+   "segments": [
+    "city",
+    "bush",
+    "beach"
+   ],
+   "first_seen": "2026-08-19T06:21+03:00",
+   "published": "2026-08-14",
+   "verdict": "CHECK \u2014 source date older than the window"
+  },
+  {
+   "score": 84.2,
+   "components": {
+    "tier": 20,
+    "category": 14,
+    "lead": 8.4,
+    "relevance": 12,
+    "freshness": 19.8,
+    "corroborated": 10
+   },
+   "keywords": [
+    "route",
+    "flight"
+   ],
+   "shock_terms": [],
+   "dedupe_match": null,
+   "dedupe_similarity": 0.0,
+   "id": "f5322989d9fe",
+   "title": "SKYhigh Dominicana NS26 Boeing 737 Operations",
+   "url": "https://www.aeroroutes.com/eng/260818-dons26737",
+   "summary": "Published at 1900PDT 18AUG26 / 0200GMT 19AUG26 SKYhigh Dominicana earlier this year introduced Boeing 737 operations, with the induction of Boeing 737-700 since early-May 2026. For the remainder of Northern summer 2026 season, the 737-700 is scheduled to serve following routes, based on OAG schedule listing as well as GDS, under DO-coded flight numbers. Santo Domingo \u2013 Georgetown \u2013 Paramaribo \u2013 Sa",
+   "kind": "item",
+   "source": "AeroRoutes schedule filings",
+   "source_id": "aeroroutes",
+   "tier": 2,
+   "country": "GLOBAL",
+   "category": "aviation-tracker",
+   "segments": [
+    "city",
+    "bush",
+    "beach"
+   ],
+   "first_seen": "2026-08-19T06:22+03:00",
+   "published": "2026-08-19",
+   "verdict": "CONSIDER"
+  },
+  {
+   "score": 84.2,
+   "components": {
+    "tier": 20,
+    "category": 14,
+    "lead": 8.4,
+    "relevance": 12,
+    "freshness": 19.8,
+    "corroborated": 10
+   },
+   "keywords": [
+    "route",
+    "airline"
+   ],
+   "shock_terms": [],
+   "dedupe_match": null,
+   "dedupe_similarity": 0.0,
+   "id": "aa86c7806fa0",
+   "title": "TAG Airlines Adds Flores \u2013 Merida From Nov 2026",
+   "url": "https://www.aeroroutes.com/eng/260818-5unw26mid",
+   "summary": "Published at 1701PDT 18AUG26 / 0001GMT 19AUG26 Guatemala\u2019s TAG Airlines at the launch of Northern winter 2026/27 season plans to launch service to Mexico, with Flores \u2013 Merida route scheduled from 03NOV26. ATR72 aircraft to serve this route 3 times weekly. 5U222 FRS1650 \u2013 1810MID AT7 246 5U223 MID1850 \u2013 2010FRS AT7 246",
+   "kind": "item",
+   "source": "AeroRoutes schedule filings",
+   "source_id": "aeroroutes",
+   "tier": 2,
+   "country": "GLOBAL",
+   "category": "aviation-tracker",
+   "segments": [
+    "city",
+    "bush",
+    "beach"
+   ],
+   "first_seen": "2026-08-19T06:22+03:00",
+   "published": "2026-08-19",
+   "verdict": "CONSIDER"
+  },
+  {
+   "score": 84.2,
+   "components": {
+    "tier": 20,
+    "category": 14,
+    "lead": 8.4,
+    "relevance": 12,
+    "freshness": 19.8,
+    "corroborated": 10
+   },
+   "keywords": [
+    "route",
+    "airline"
+   ],
+   "shock_terms": [],
+   "dedupe_match": null,
+   "dedupe_similarity": 0.0,
+   "id": "1e6b5e4e7008",
+   "title": "Turkish Airlines Plans Cuba Service Resumption in 4Q26",
+   "url": "https://www.aeroroutes.com/eng/260818-tk4q26cu",
+   "summary": "Published at 1400PDT / 2100GMT 18AUG26 Turkish Airlines during Northern winter 2026/27 season plans to resume service to Cuba, as the airline schedules 3 weekly nonstop Istanbul \u2013 Havana terminator service. Boeing 787-9 to operate this route from 25OCT26 at the earliest, with further changes remain highly possible. Schedule below focuses on the period of 08NOV26 \u2013 05MAR27. TK221 IST1530 \u2013 2035HAV ",
+   "kind": "item",
+   "source": "AeroRoutes schedule filings",
+   "source_id": "aeroroutes",
+   "tier": 2,
+   "country": "GLOBAL",
+   "category": "aviation-tracker",
+   "segments": [
+    "city",
+    "bush",
+    "beach"
+   ],
+   "first_seen": "2026-08-19T06:22+03:00",
+   "published": "2026-08-19",
+   "verdict": "CONSIDER"
+  },
+  {
+   "score": 82.8,
    "components": {
     "tier": 40,
     "category": 15,
     "lead": 16.8,
     "relevance": 8,
-    "freshness": 13.9,
+    "freshness": 9.0,
     "undated": -6
    },
    "keywords": [
@@ -363,13 +743,13 @@
    "verdict": "CONSIDER"
   },
   {
-   "score": 87.7,
+   "score": 82.8,
    "components": {
     "tier": 40,
     "category": 15,
     "lead": 16.8,
     "relevance": 8,
-    "freshness": 13.9,
+    "freshness": 9.0,
     "undated": -6
    },
    "keywords": [
@@ -398,13 +778,13 @@
    "verdict": "CONSIDER"
   },
   {
-   "score": 87.0,
+   "score": 82.1,
    "components": {
     "tier": 40,
     "category": 32,
     "lead": 1.2,
     "relevance": 0,
-    "freshness": 19.8,
+    "freshness": 14.9,
     "undated": -6
    },
    "keywords": [],
@@ -431,964 +811,565 @@
    "verdict": "CONSIDER"
   },
   {
-   "score": 82.7,
+   "score": 81.8,
    "components": {
     "tier": 40,
-    "category": 10,
-    "lead": 16.8,
-    "relevance": 8,
-    "freshness": 13.9,
-    "undated": -6
-   },
-   "keywords": [
-    "electricity"
-   ],
-   "shock_terms": [],
-   "dedupe_match": null,
-   "dedupe_similarity": 0.0,
-   "id": "ba1784fd0b05",
-   "title": "MPs raise concerns over electricity supply Tuesday, 18 August 2026",
-   "url": "https://www.parliament.go.ug/news/4564/mps-raise-concerns-over-electricity-supply",
-   "summary": "",
-   "kind": "item",
-   "source": "Parliament of Uganda",
-   "source_id": "ug-parliament",
-   "tier": 1,
-   "country": "UG",
-   "category": "legislature",
-   "segments": [
-    "city",
-    "bush",
-    "beach"
-   ],
-   "first_seen": "2026-08-18T20:33+03:00",
-   "published": null,
-   "verdict": "CONSIDER"
-  },
-  {
-   "score": 82.7,
-   "components": {
-    "tier": 40,
-    "category": 10,
-    "lead": 16.8,
-    "relevance": 8,
-    "freshness": 13.9,
-    "undated": -6
-   },
-   "keywords": [
-    "tax"
-   ],
-   "shock_terms": [],
-   "dedupe_match": null,
-   "dedupe_similarity": 0.0,
-   "id": "f12e2472872d",
-   "title": "MPs demand tighter controls on tax waivers Tuesday, 18 August 2026",
-   "url": "https://www.parliament.go.ug/news/4562/mps-demand-tighter-controls-tax-waivers",
-   "summary": "",
-   "kind": "item",
-   "source": "Parliament of Uganda",
-   "source_id": "ug-parliament",
-   "tier": 1,
-   "country": "UG",
-   "category": "legislature",
-   "segments": [
-    "city",
-    "bush",
-    "beach"
-   ],
-   "first_seen": "2026-08-18T20:33+03:00",
-   "published": null,
-   "verdict": "CONSIDER"
-  },
-  {
-   "score": 82.0,
-   "components": {
-    "tier": 20,
-    "category": 14,
-    "lead": 8.4,
-    "relevance": 12,
-    "freshness": 17.6,
-    "corroborated": 10
-   },
-   "keywords": [
-    "route",
-    "airline"
-   ],
-   "shock_terms": [],
-   "dedupe_match": null,
-   "dedupe_similarity": 0.0,
-   "id": "eb43d9b3c572",
-   "title": "Air Transat Begins Turkish Airlines Dubai Codeshare From Aug 2026",
-   "url": "https://www.aeroroutes.com/eng/260818-tstkcodeshare",
-   "summary": "Published at 1300PDT / 2000GMT 18AUG26 Air Transat starting Wednesday 19AUG26 expands codeshare partnership with Turkish Airlines, covering the latter\u2019s Istanbul \u2013 Dubai route. Planned codeshare schedule as follows. TK760/TS8080 IST1850 \u2013 0020+1DXB 333 357 TK761/TS8081 DXB0200 \u2013 0545IST 333 357 TK763/TS8083 DXB0730 \u2013 1120IST 333 357",
-   "kind": "item",
-   "source": "AeroRoutes schedule filings",
-   "source_id": "aeroroutes",
-   "tier": 2,
-   "country": "GLOBAL",
-   "category": "aviation-tracker",
-   "segments": [
-    "city",
-    "bush",
-    "beach"
-   ],
-   "first_seen": "2026-08-18T23:55+03:00",
-   "published": "2026-08-18",
-   "verdict": "CONSIDER"
-  },
-  {
-   "score": 82.0,
-   "components": {
-    "tier": 20,
-    "category": 14,
-    "lead": 8.4,
-    "relevance": 12,
-    "freshness": 17.6,
-    "corroborated": 10
-   },
-   "keywords": [
-    "route",
-    "flight"
-   ],
-   "shock_terms": [],
-   "dedupe_match": null,
-   "dedupe_similarity": 0.0,
-   "id": "34b0a987ce1a",
-   "title": "Sundair Begins Berlin \u2013 Damascus From mid-Aug 2026",
-   "url": "https://www.aeroroutes.com/eng/260818-sraug26dam",
-   "summary": "Published at 1200PDT / 1900GMT 18AUG26 Sundair this past weekend launched service to Syria, with 2 weekly Berlin \u2013 Damascus flights scheduled from 15AUG26. This route is served with Airbus A320 aircraft. SR124 BER1100 \u2013 1605DAM 320 2 SR196 BER1100 \u2013 1605DAM 320 6 SR125 DAM1705 \u2013 2030BER 320 2 SR197 DAM1705 \u2013 2030BER 320 6",
-   "kind": "item",
-   "source": "AeroRoutes schedule filings",
-   "source_id": "aeroroutes",
-   "tier": 2,
-   "country": "GLOBAL",
-   "category": "aviation-tracker",
-   "segments": [
-    "city",
-    "bush",
-    "beach"
-   ],
-   "first_seen": "2026-08-18T23:55+03:00",
-   "published": "2026-08-18",
-   "verdict": "CONSIDER"
-  },
-  {
-   "score": 82.0,
-   "components": {
-    "tier": 20,
-    "category": 14,
-    "lead": 8.4,
-    "relevance": 12,
-    "freshness": 17.6,
-    "corroborated": 10
-   },
-   "keywords": [
-    "route",
-    "airline"
-   ],
-   "shock_terms": [],
-   "dedupe_match": null,
-   "dedupe_similarity": 0.0,
-   "id": "93711f920a4e",
-   "title": "TAP Air Portugal Adds Porto \u2013 Ilha do Sal in NW26",
-   "url": "https://www.aeroroutes.com/eng/260818-tpnw26sid",
-   "summary": "Published at 1100PDT / 1800GMT 18AUG26 TAP Air Portugal during Northern winter 2026/27 season plans to launch new service to Cabo Verde, as the airline schedules Porto \u2013 Ilha do Sal route, subject to government approval. Airbus A320neo aircraft to serve this route twice weekly from 25OCT26. TP1561 OPO2050 \u2013 0020+1SID 32N 47 TP1562 SID0120 \u2013 0640OPO 32N 15",
-   "kind": "item",
-   "source": "AeroRoutes schedule filings",
-   "source_id": "aeroroutes",
-   "tier": 2,
-   "country": "GLOBAL",
-   "category": "aviation-tracker",
-   "segments": [
-    "city",
-    "bush",
-    "beach"
-   ],
-   "first_seen": "2026-08-18T23:55+03:00",
-   "published": "2026-08-18",
-   "verdict": "CONSIDER"
-  },
-  {
-   "score": 78.3,
-   "components": {
-    "tier": 20,
-    "category": 14,
-    "lead": 8.4,
-    "relevance": 12,
-    "freshness": 13.9,
-    "corroborated": 10
-   },
-   "keywords": [
-    "route",
-    "airline"
-   ],
-   "shock_terms": [],
-   "dedupe_match": null,
-   "dedupe_similarity": 0.0,
-   "id": "04c4be6e9d23",
-   "title": "Eurowings Adds Prague \u2013 Rovaniemi in NW26",
-   "url": "https://www.aeroroutes.com/eng/260818-ewnw26rvn",
-   "summary": "Published at 1000PDT / 1700GMT 18AUG26 Eurowings during Northern winter 2026/27 season plans to launch Prague \u2013 Rovaniemi route, on board Airbus A320 aircraft. The airline will serve this route once a week from 20DEC26 to 21FEB27. Schedule below focuses on the period of 31JAN27 \u2013 21FEB27. EW4234 PRG1250 \u2013 1655RVN 320 7 EW4235 RVN1755 \u2013 1955PRG 320 7",
-   "kind": "item",
-   "source": "AeroRoutes schedule filings",
-   "source_id": "aeroroutes",
-   "tier": 2,
-   "country": "GLOBAL",
-   "category": "aviation-tracker",
-   "segments": [
-    "city",
-    "bush",
-    "beach"
-   ],
-   "first_seen": "2026-08-18T20:34+03:00",
-   "published": "2026-08-18",
-   "verdict": "CONSIDER"
-  },
-  {
-   "score": 78.3,
-   "components": {
-    "tier": 20,
-    "category": 14,
-    "lead": 8.4,
-    "relevance": 12,
-    "freshness": 13.9,
-    "corroborated": 10
-   },
-   "keywords": [
-    "route",
-    "airline"
-   ],
-   "shock_terms": [],
-   "dedupe_match": null,
-   "dedupe_similarity": 0.0,
-   "id": "0b8890634419",
-   "title": "Brussels Airlines NW26 Nordics Network Addition",
-   "url": "https://www.aeroroutes.com/eng/260818-snnw26eu",
-   "summary": "Published at 0900PDT / 1600GMT 18AUG26 Brussels Airlines during Northern winter 2026/27 season plans to launch new scheduled short-haul service to the Nordics, with 3 routes scheduled. Brussels \u2013 Harstad-Narvik/Evenes 06FEB27 \u2013 06MAR27 1 weekly A320neo Brussels \u2013 Kemi 25DEC26 \u2013 10MAR27 2 weekly A320 Brussels \u2013 Kittila eff 10DEC26 3 weekly A320/320neo",
-   "kind": "item",
-   "source": "AeroRoutes schedule filings",
-   "source_id": "aeroroutes",
-   "tier": 2,
-   "country": "GLOBAL",
-   "category": "aviation-tracker",
-   "segments": [
-    "city",
-    "bush",
-    "beach"
-   ],
-   "first_seen": "2026-08-18T20:34+03:00",
-   "published": "2026-08-18",
-   "verdict": "CONSIDER"
-  },
-  {
-   "score": 78.3,
-   "components": {
-    "tier": 20,
-    "category": 14,
-    "lead": 8.4,
-    "relevance": 12,
-    "freshness": 13.9,
-    "corroborated": 10
-   },
-   "keywords": [
-    "route",
-    "airline"
-   ],
-   "shock_terms": [],
-   "dedupe_match": null,
-   "dedupe_similarity": 0.0,
-   "id": "11d6f4538652",
-   "title": "LEAV Aviation Adds Cologne \u2013 Deir ez-Zor From Sep 2026",
-   "url": "https://www.aeroroutes.com/eng/260818-kksep26dez",
-   "summary": "Published at 0800PDT / 1500GMT 18AUG26 German carrier LEAV Aviation continues to expand service to Syria, with new route launch scheduled on 01SEP26. The airline will offer Cologne/Bonn \u2013 Deir ez-Zor service on weekly basis, with Airbus A320 aircraft. KK480 CGN0430 \u2013 0945DEZ 320 2 KK481 DEZ1045 \u2013 1415CGN 320 2",
-   "kind": "item",
-   "source": "AeroRoutes schedule filings",
-   "source_id": "aeroroutes",
-   "tier": 2,
-   "country": "GLOBAL",
-   "category": "aviation-tracker",
-   "segments": [
-    "city",
-    "bush",
-    "beach"
-   ],
-   "first_seen": "2026-08-18T20:34+03:00",
-   "published": "2026-08-18",
-   "verdict": "CONSIDER"
-  },
-  {
-   "score": 78.0,
-   "components": {
-    "tier": 40,
-    "category": 24,
-    "lead": 2.4,
+    "category": 20,
+    "lead": 12.0,
     "relevance": 0,
-    "freshness": 17.6,
-    "undated": -6
+    "freshness": 19.8,
+    "stale_trap": -10
    },
    "keywords": [],
    "shock_terms": [],
    "dedupe_match": null,
    "dedupe_similarity": 0.0,
-   "id": "ed2f554d4067",
-   "title": "MAANDALIZI YA MKUTANO WA 4 WA RESCO YAENDELEA DAR ES SAL...",
-   "url": "https://www.moh.go.tz/news-single/maandalizi-ya-mkutano-wa-4-wa-resco-yaendelea-dar-es-salaam",
-   "summary": "",
+   "id": "c9d2468fb277",
+   "title": "Njuguna & another v Njuguna (Environment and Land Case E001 of 2025) [2026] KEELC 5291 (KLR) (14 August 2026) (Ruling)",
+   "url": "https://new.kenyalaw.org/akn/ke/judgment/keelc/2026/5291/eng@2026-08-14",
+   "summary": "Njuguna & another v Njuguna (Environment and Land Case E001 of 2025) [2026] KEELC 5291 (KLR) (14 August 2026) (Ruling)",
    "kind": "item",
-   "source": "Tanzania Ministry of Health",
-   "source_id": "tz-moh",
-   "tier": 1,
-   "country": "TZ",
-   "category": "health",
-   "segments": [
-    "city",
-    "bush",
-    "beach"
-   ],
-   "first_seen": "2026-08-18T23:55+03:00",
-   "published": null,
-   "verdict": "CONSIDER"
-  },
-  {
-   "score": 78.0,
-   "components": {
-    "tier": 40,
-    "category": 24,
-    "lead": 2.4,
-    "relevance": 0,
-    "freshness": 17.6,
-    "undated": -6
-   },
-   "keywords": [],
-   "shock_terms": [],
-   "dedupe_match": null,
-   "dedupe_similarity": 0.0,
-   "id": "7f7f70ab996d",
-   "title": "JKCI, CCBRT ZANUFAIKA NA MILIONI 200 KUPITIA MBIO ZA...",
-   "url": "https://www.moh.go.tz/news-single/jkci-ccbrt-zanufaika-na-milioni-200-kupitia-mbio-za-hisani-za-crdb",
-   "summary": "",
-   "kind": "item",
-   "source": "Tanzania Ministry of Health",
-   "source_id": "tz-moh",
-   "tier": 1,
-   "country": "TZ",
-   "category": "health",
-   "segments": [
-    "city",
-    "bush",
-    "beach"
-   ],
-   "first_seen": "2026-08-18T23:55+03:00",
-   "published": null,
-   "verdict": "CONSIDER"
-  },
-  {
-   "score": 78.0,
-   "components": {
-    "tier": 40,
-    "category": 24,
-    "lead": 2.4,
-    "relevance": 0,
-    "freshness": 17.6,
-    "undated": -6
-   },
-   "keywords": [],
-   "shock_terms": [],
-   "dedupe_match": null,
-   "dedupe_similarity": 0.2,
-   "id": "6f4e1d85cb70",
-   "title": "TANZANIA YABAINISHA MAFANIKIO YA KUPUNGUZA VIFO VITO...",
-   "url": "https://www.moh.go.tz/news-single/tanzania-yabainisha-mafanikio-ya-kupunguza-vifo-vitokanavyo-na-uzazi-afrika",
-   "summary": "",
-   "kind": "item",
-   "source": "Tanzania Ministry of Health",
-   "source_id": "tz-moh",
-   "tier": 1,
-   "country": "TZ",
-   "category": "health",
-   "segments": [
-    "city",
-    "bush",
-    "beach"
-   ],
-   "first_seen": "2026-08-18T23:55+03:00",
-   "published": null,
-   "verdict": "CONSIDER"
-  },
-  {
-   "score": 78.0,
-   "components": {
-    "tier": 40,
-    "category": 24,
-    "lead": 2.4,
-    "relevance": 0,
-    "freshness": 17.6,
-    "undated": -6
-   },
-   "keywords": [],
-   "shock_terms": [],
-   "dedupe_match": null,
-   "dedupe_similarity": 0.0,
-   "id": "cdc7353ed505",
-   "title": "SERIKALI NA WADAU WAIMARISHA HUDUMA ZA DHARURA, WAGO...",
-   "url": "https://www.moh.go.tz/news-single/serikali-na-wadau-waimarisha-huduma-za-dharura-wagonjwa-mahututi-na-watoto",
-   "summary": "",
-   "kind": "item",
-   "source": "Tanzania Ministry of Health",
-   "source_id": "tz-moh",
-   "tier": 1,
-   "country": "TZ",
-   "category": "health",
-   "segments": [
-    "city",
-    "bush",
-    "beach"
-   ],
-   "first_seen": "2026-08-18T23:55+03:00",
-   "published": null,
-   "verdict": "CONSIDER"
-  },
-  {
-   "score": 78.0,
-   "components": {
-    "tier": 40,
-    "category": 24,
-    "lead": 2.4,
-    "relevance": 0,
-    "freshness": 17.6,
-    "undated": -6
-   },
-   "keywords": [],
-   "shock_terms": [],
-   "dedupe_match": null,
-   "dedupe_similarity": 0.0,
-   "id": "ddbb31dd7be8",
-   "title": "SERA NA SHERIA ZA AFYA KUIMARISHA MFUMO WA KUSIMAMIA...",
-   "url": "https://www.moh.go.tz/news-single/sera-na-sheria-za-afya-kuimarisha-mfumo-wa-kusimamia-ubora-wa-huduma",
-   "summary": "",
-   "kind": "item",
-   "source": "Tanzania Ministry of Health",
-   "source_id": "tz-moh",
-   "tier": 1,
-   "country": "TZ",
-   "category": "health",
-   "segments": [
-    "city",
-    "bush",
-    "beach"
-   ],
-   "first_seen": "2026-08-18T23:55+03:00",
-   "published": null,
-   "verdict": "CONSIDER"
-  },
-  {
-   "score": 78.0,
-   "components": {
-    "tier": 40,
-    "category": 24,
-    "lead": 2.4,
-    "relevance": 0,
-    "freshness": 17.6,
-    "undated": -6
-   },
-   "keywords": [],
-   "shock_terms": [],
-   "dedupe_match": null,
-   "dedupe_similarity": 0.0,
-   "id": "46082b1ddc19",
-   "title": "WIZARA YA AFYA YAKABIDHI MWONGOZO MPYA 2026 WA UONGE...",
-   "url": "https://www.moh.go.tz/news-single/wizara-ya-afya-yakabidhi-mwongozo-mpya-2026-wa-uongezaji-virutubishi-kwenye-chakula",
-   "summary": "",
-   "kind": "item",
-   "source": "Tanzania Ministry of Health",
-   "source_id": "tz-moh",
-   "tier": 1,
-   "country": "TZ",
-   "category": "health",
-   "segments": [
-    "city",
-    "bush",
-    "beach"
-   ],
-   "first_seen": "2026-08-18T23:55+03:00",
-   "published": null,
-   "verdict": "CONSIDER"
-  },
-  {
-   "score": 78.0,
-   "components": {
-    "tier": 40,
-    "category": 24,
-    "lead": 2.4,
-    "relevance": 0,
-    "freshness": 17.6,
-    "undated": -6
-   },
-   "keywords": [],
-   "shock_terms": [],
-   "dedupe_match": null,
-   "dedupe_similarity": 0.0,
-   "id": "d860e3e3f512",
-   "title": "SERIKALI YAONGEZA NGUVU KUDHIBITI MAGONJWA ADIMU NCH...",
-   "url": "https://www.moh.go.tz/news-single/serikali-yaongeza-nguvu-kudhibiti-magonjwa-adimu-nchini",
-   "summary": "",
-   "kind": "item",
-   "source": "Tanzania Ministry of Health",
-   "source_id": "tz-moh",
-   "tier": 1,
-   "country": "TZ",
-   "category": "health",
-   "segments": [
-    "city",
-    "bush",
-    "beach"
-   ],
-   "first_seen": "2026-08-18T23:55+03:00",
-   "published": null,
-   "verdict": "CONSIDER"
-  },
-  {
-   "score": 74.7,
-   "components": {
-    "tier": 40,
-    "category": 10,
-    "lead": 16.8,
-    "relevance": 0,
-    "freshness": 13.9,
-    "undated": -6
-   },
-   "keywords": [],
-   "shock_terms": [],
-   "dedupe_match": null,
-   "dedupe_similarity": 0.0,
-   "id": "6d150fa6bf08",
-   "title": "\ud835\udc0b\ud835\udc00\ud835\udc16\ud835\udc0c\ud835\udc00\ud835\udc0a\ud835\udc04\ud835\udc11\ud835\udc12 \ud835\udc01\ud835\udc00\ud835\udc02\ud835\udc0a \ud835\udc01\ud835\udc08\ud835\udc0b\ud835\udc0b \ud835\udc13\ud835\udc07\ud835\udc00\ud835\udc13 \ud835\udc12\ud835\udc04\ud835\udc04\ud835\udc0a\ud835\udc12 \ud835\udc13\ud835\udc0e \ud835\udc02\ud835\udc11\ud835\udc04\ud835\udc00\ud835\udc13\ud835\udc04 \ud835\udc03\ud835\udc04\ud835\udc03\ud835\udc08\ud835\udc02\ud835\udc00\ud835\udc13\ud835\udc04\ud835\udc03 \ud835\udc0b\ud835\udc00\ud835\udc0d\ud835\udc04\ud835\udc12 \ud835\udc05\ud835\udc0e\ud835\udc11 \ud835\udc01\ud835\udc08\ud835\udc02\ud835\udc18\ud835\udc02\ud835\udc0b\ud835\udc04\ud835\udc12",
-   "url": "https://www.parliament.go.ke/index.php/node/26276",
-   "summary": "",
-   "kind": "item",
-   "source": "Parliament of Kenya \u2014 bills & papers",
-   "source_id": "ke-parliament",
+   "source": "Kenya Gazette (Kenya Law)",
+   "source_id": "ke-gazette",
    "tier": 1,
    "country": "KE",
-   "category": "legislature",
+   "category": "gazette",
    "segments": [
     "city",
     "bush",
     "beach"
    ],
-   "first_seen": "2026-08-18T20:33+03:00",
-   "published": null,
-   "verdict": "CONSIDER"
+   "first_seen": "2026-08-19T06:21+03:00",
+   "published": "2026-08-14",
+   "verdict": "CHECK \u2014 source date older than the window"
   },
   {
-   "score": 74.7,
+   "score": 81.8,
    "components": {
     "tier": 40,
-    "category": 10,
-    "lead": 16.8,
+    "category": 20,
+    "lead": 12.0,
     "relevance": 0,
-    "freshness": 13.9,
-    "undated": -6
+    "freshness": 19.8,
+    "stale_trap": -10
    },
    "keywords": [],
    "shock_terms": [],
    "dedupe_match": null,
    "dedupe_similarity": 0.0,
-   "id": "edd6c5804d0a",
-   "title": "\ud835\udc0a\ud835\udc04\ud835\udc0d\ud835\udc18\ud835\udc00-\ud835\udc13\ud835\udc14\ud835\udc11\ud835\udc0a\ud835\udc04\ud835\udc18 \ud835\udc0f\ud835\udc00\ud835\udc11\ud835\udc0b\ud835\udc08\ud835\udc00\ud835\udc0c\ud835\udc04\ud835\udc0d\ud835\udc13\ud835\udc00\ud835\udc11\ud835\udc18 \ud835\udc05\ud835\udc11\ud835\udc08\ud835\udc04\ud835\udc0d\ud835\udc03\ud835\udc12\ud835\udc07\ud835\udc08\ud835\udc0f \ud835\udc06\ud835\udc11\ud835\udc0e\ud835\udc14\ud835\udc0f \ud835\udc02\ud835\udc07\ud835\udc00\ud835\udc08\ud835\udc11 \ud835\udc16\ud835\udc04\ud835\udc0b\ud835\udc02\ud835\udc0e\ud835\udc0c\ud835\udc04\ud835\udc12 \ud835\udc13\ud835\udc14\ud835\udc11\ud835\udc0a\ud835\udc08\ud835\udc12\ud835\udc07 \ud835\udc03\ud835\udc04\ud835\udc0b\ud835\udc04\ud835\udc06\ud835\udc00\ud835\udc13\ud835\udc08\ud835\udc0e\ud835\udc0d",
-   "url": "https://www.parliament.go.ke/index.php/node/26275",
-   "summary": "",
+   "id": "7d4f2783a1a4",
+   "title": "Karingo v Attorney General & 5 others (Environment and Land Case 1404 of 2004) [2026] KEELC 5290 (KLR) (14 August 2026) (Ruling)",
+   "url": "https://new.kenyalaw.org/akn/ke/judgment/keelc/2026/5290/eng@2026-08-14",
+   "summary": "Karingo v Attorney General & 5 others (Environment and Land Case 1404 of 2004) [2026] KEELC 5290 (KLR) (14 August 2026) (Ruling)",
    "kind": "item",
-   "source": "Parliament of Kenya \u2014 bills & papers",
-   "source_id": "ke-parliament",
+   "source": "Kenya Gazette (Kenya Law)",
+   "source_id": "ke-gazette",
    "tier": 1,
    "country": "KE",
-   "category": "legislature",
+   "category": "gazette",
    "segments": [
     "city",
     "bush",
     "beach"
    ],
-   "first_seen": "2026-08-18T20:33+03:00",
-   "published": null,
-   "verdict": "CONSIDER"
+   "first_seen": "2026-08-19T06:21+03:00",
+   "published": "2026-08-14",
+   "verdict": "CHECK \u2014 source date older than the window"
   },
   {
-   "score": 74.7,
+   "score": 81.8,
    "components": {
     "tier": 40,
-    "category": 10,
-    "lead": 16.8,
+    "category": 20,
+    "lead": 12.0,
     "relevance": 0,
-    "freshness": 13.9,
-    "undated": -6
+    "freshness": 19.8,
+    "stale_trap": -10
    },
    "keywords": [],
    "shock_terms": [],
    "dedupe_match": null,
    "dedupe_similarity": 0.0,
-   "id": "927835ba6507",
-   "title": "\u2018All medical interns to get Shs1 million allowance\u2019 Tuesday, 18 August 2026",
-   "url": "https://www.parliament.go.ug/news/4565/all-medical-interns-get-shs1-million-allowance",
-   "summary": "",
+   "id": "cb0fe87d2aba",
+   "title": "Robert v Sukari Industries Ltd (Civil Case E018 of 2024) [2026] KEMC 519 (KLR) (14 August 2026) (Ruling)",
+   "url": "https://new.kenyalaw.org/akn/ke/judgment/kemc/2026/519/eng@2026-08-14",
+   "summary": "Robert v Sukari Industries Ltd (Civil Case E018 of 2024) [2026] KEMC 519 (KLR) (14 August 2026) (Ruling)",
    "kind": "item",
-   "source": "Parliament of Uganda",
-   "source_id": "ug-parliament",
+   "source": "Kenya Gazette (Kenya Law)",
+   "source_id": "ke-gazette",
    "tier": 1,
-   "country": "UG",
-   "category": "legislature",
+   "country": "KE",
+   "category": "gazette",
    "segments": [
     "city",
     "bush",
     "beach"
    ],
-   "first_seen": "2026-08-18T20:33+03:00",
-   "published": null,
-   "verdict": "CONSIDER"
+   "first_seen": "2026-08-19T06:21+03:00",
+   "published": "2026-08-14",
+   "verdict": "CHECK \u2014 source date older than the window"
   },
   {
-   "score": 74.7,
+   "score": 81.8,
    "components": {
     "tier": 40,
-    "category": 10,
-    "lead": 16.8,
+    "category": 20,
+    "lead": 12.0,
     "relevance": 0,
-    "freshness": 13.9,
-    "undated": -6
+    "freshness": 19.8,
+    "stale_trap": -10
    },
    "keywords": [],
    "shock_terms": [],
    "dedupe_match": null,
    "dedupe_similarity": 0.0,
-   "id": "7038527114ac",
-   "title": "Parliament approves motion on geriatric care, demands increase in SAGE Tuesday, 18 August 2026",
-   "url": "https://www.parliament.go.ug/news/4563/parliament-approves-motion-geriatric-care-demands-increase-sage",
-   "summary": "",
+   "id": "95128a0344a6",
+   "title": "John v Sukari Industries Ltd (Civil Case E060 of 2024) [2026] KEMC 518 (KLR) (14 August 2026) (Ruling)",
+   "url": "https://new.kenyalaw.org/akn/ke/judgment/kemc/2026/518/eng@2026-08-14",
+   "summary": "John v Sukari Industries Ltd (Civil Case E060 of 2024) [2026] KEMC 518 (KLR) (14 August 2026) (Ruling)",
    "kind": "item",
-   "source": "Parliament of Uganda",
-   "source_id": "ug-parliament",
+   "source": "Kenya Gazette (Kenya Law)",
+   "source_id": "ke-gazette",
    "tier": 1,
-   "country": "UG",
-   "category": "legislature",
+   "country": "KE",
+   "category": "gazette",
    "segments": [
     "city",
     "bush",
     "beach"
    ],
-   "first_seen": "2026-08-18T20:33+03:00",
-   "published": null,
-   "verdict": "CONSIDER"
+   "first_seen": "2026-08-19T06:21+03:00",
+   "published": "2026-08-14",
+   "verdict": "CHECK \u2014 source date older than the window"
   },
   {
-   "score": 74.3,
+   "score": 81.8,
    "components": {
     "tier": 40,
-    "category": 24,
-    "lead": 2.4,
+    "category": 20,
+    "lead": 12.0,
     "relevance": 0,
-    "freshness": 13.9,
-    "undated": -6
+    "freshness": 19.8,
+    "stale_trap": -10
    },
    "keywords": [],
    "shock_terms": [],
    "dedupe_match": null,
    "dedupe_similarity": 0.0,
-   "id": "0d8a5b82cda8",
-   "title": "SERIKALI YAONGEZA NGUVU KUDHIBITI MAGONJWA ADIMU NCHINI...",
-   "url": "https://www.moh.go.tz/news-single/serikali-yaongeza-nguvu-kudhibiti-magonjwa-adimu-nchini",
-   "summary": "",
+   "id": "599698e92a74",
+   "title": "Republic v Ogora (Criminal Case E073 of 2026) [2026] KEMC 517 (KLR) (13 August 2026) (Judgment)",
+   "url": "https://new.kenyalaw.org/akn/ke/judgment/kemc/2026/517/eng@2026-08-13",
+   "summary": "Republic v Ogora (Criminal Case E073 of 2026) [2026] KEMC 517 (KLR) (13 August 2026) (Judgment)",
    "kind": "item",
-   "source": "Tanzania Ministry of Health",
-   "source_id": "tz-moh",
+   "source": "Kenya Gazette (Kenya Law)",
+   "source_id": "ke-gazette",
    "tier": 1,
-   "country": "TZ",
-   "category": "health",
+   "country": "KE",
+   "category": "gazette",
    "segments": [
     "city",
     "bush",
     "beach"
    ],
-   "first_seen": "2026-08-18T20:34+03:00",
-   "published": null,
-   "verdict": "CONSIDER"
+   "first_seen": "2026-08-19T06:21+03:00",
+   "published": "2026-08-13",
+   "verdict": "CHECK \u2014 source date older than the window"
   },
   {
-   "score": 74.3,
+   "score": 81.8,
    "components": {
     "tier": 40,
-    "category": 24,
-    "lead": 2.4,
+    "category": 20,
+    "lead": 12.0,
     "relevance": 0,
-    "freshness": 13.9,
-    "undated": -6
+    "freshness": 19.8,
+    "stale_trap": -10
    },
    "keywords": [],
    "shock_terms": [],
    "dedupe_match": null,
    "dedupe_similarity": 0.0,
-   "id": "557974a34531",
-   "title": "UWEKEZAJI KATIKA TAFITI, ELIMU WAONGEZA UWEZO KUBAIN...",
-   "url": "https://www.moh.go.tz/news-single/uwekezaji-katika-tafiti-elimu-waongeza-uwezo-kubaini-magonjwa-adimu",
-   "summary": "",
+   "id": "5dbedc6db912",
+   "title": "Gachuhi v Kamonjoh & 6 others (Environment and Land Case E179 of 2021) [2026] KEELC 5289 (KLR) (14 August 2026) (Ruling)",
+   "url": "https://new.kenyalaw.org/akn/ke/judgment/keelc/2026/5289/eng@2026-08-14",
+   "summary": "Gachuhi v Kamonjoh & 6 others (Environment and Land Case E179 of 2021) [2026] KEELC 5289 (KLR) (14 August 2026) (Ruling)",
    "kind": "item",
-   "source": "Tanzania Ministry of Health",
-   "source_id": "tz-moh",
+   "source": "Kenya Gazette (Kenya Law)",
+   "source_id": "ke-gazette",
    "tier": 1,
-   "country": "TZ",
-   "category": "health",
+   "country": "KE",
+   "category": "gazette",
    "segments": [
     "city",
     "bush",
     "beach"
    ],
-   "first_seen": "2026-08-18T20:34+03:00",
-   "published": null,
-   "verdict": "CONSIDER"
+   "first_seen": "2026-08-19T06:21+03:00",
+   "published": "2026-08-14",
+   "verdict": "CHECK \u2014 source date older than the window"
   },
   {
-   "score": 74.3,
+   "score": 81.8,
    "components": {
     "tier": 40,
-    "category": 24,
-    "lead": 2.4,
+    "category": 20,
+    "lead": 12.0,
     "relevance": 0,
-    "freshness": 13.9,
-    "undated": -6
+    "freshness": 19.8,
+    "stale_trap": -10
    },
    "keywords": [],
    "shock_terms": [],
    "dedupe_match": null,
    "dedupe_similarity": 0.0,
-   "id": "f5a720cdc51c",
-   "title": "KAMATI YA BUNGE YAIPONGEZA SERIKALI KWA KUTAMBUA NA ...",
-   "url": "https://www.moh.go.tz/news-single/kamati-ya-bunge-yaipongeza-serikali-kwa-kutambua-na-kuyapa-kipaumbele-magonjwa-adimu",
-   "summary": "",
+   "id": "640217e63481",
+   "title": "In re Estate of Maluki alias Ndegwa Maruki (Deceased) (Succession Cause E127 of 2026) [2026] KEKC 10 (KLR) (13 August 2026) (Judgment)",
+   "url": "https://new.kenyalaw.org/akn/ke/judgment/kekc/2026/10/eng@2026-08-13",
+   "summary": "In re Estate of Maluki alias Ndegwa Maruki (Deceased) (Succession Cause E127 of 2026) [2026] KEKC 10 (KLR) (13 August 2026) (Judgment)",
    "kind": "item",
-   "source": "Tanzania Ministry of Health",
-   "source_id": "tz-moh",
+   "source": "Kenya Gazette (Kenya Law)",
+   "source_id": "ke-gazette",
    "tier": 1,
-   "country": "TZ",
-   "category": "health",
+   "country": "KE",
+   "category": "gazette",
    "segments": [
     "city",
     "bush",
     "beach"
    ],
-   "first_seen": "2026-08-18T20:34+03:00",
-   "published": null,
-   "verdict": "CONSIDER"
+   "first_seen": "2026-08-19T06:21+03:00",
+   "published": "2026-08-13",
+   "verdict": "CHECK \u2014 source date older than the window"
   },
   {
-   "score": 74.3,
+   "score": 81.8,
    "components": {
     "tier": 40,
-    "category": 24,
-    "lead": 2.4,
+    "category": 20,
+    "lead": 12.0,
     "relevance": 0,
-    "freshness": 13.9,
-    "undated": -6
+    "freshness": 19.8,
+    "stale_trap": -10
    },
    "keywords": [],
    "shock_terms": [],
    "dedupe_match": null,
    "dedupe_similarity": 0.0,
-   "id": "7b30db500bd3",
-   "title": "WATOTO NCHINI KUNUFAIKA NA VYAKULA SALAMA, BORA NA V...",
-   "url": "https://www.moh.go.tz/news-single/watoto-nchini-kunufaika-na-vyakula-salama-bora-na-vyenye-virutubisho",
-   "summary": "",
+   "id": "08587be2e90f",
+   "title": "In re Estate of Idd alias Maulidi Hakim Idd (Deceased) (Succession Cause E131 of 2026) [2026] KEHC 12883 (KLR) (13 August 2026) (Judgment)",
+   "url": "https://new.kenyalaw.org/akn/ke/judgment/kehc/2026/12883/eng@2026-08-13",
+   "summary": "In re Estate of Idd alias Maulidi Hakim Idd (Deceased) (Succession Cause E131 of 2026) [2026] KEHC 12883 (KLR) (13 August 2026) (Judgment)",
    "kind": "item",
-   "source": "Tanzania Ministry of Health",
-   "source_id": "tz-moh",
+   "source": "Kenya Gazette (Kenya Law)",
+   "source_id": "ke-gazette",
    "tier": 1,
-   "country": "TZ",
-   "category": "health",
+   "country": "KE",
+   "category": "gazette",
    "segments": [
     "city",
     "bush",
     "beach"
    ],
-   "first_seen": "2026-08-18T20:34+03:00",
-   "published": null,
-   "verdict": "CONSIDER"
+   "first_seen": "2026-08-19T06:21+03:00",
+   "published": "2026-08-13",
+   "verdict": "CHECK \u2014 source date older than the window"
   },
   {
-   "score": 74.3,
+   "score": 81.8,
    "components": {
     "tier": 40,
-    "category": 24,
-    "lead": 2.4,
+    "category": 20,
+    "lead": 12.0,
     "relevance": 0,
-    "freshness": 13.9,
-    "undated": -6
+    "freshness": 19.8,
+    "stale_trap": -10
    },
    "keywords": [],
    "shock_terms": [],
    "dedupe_match": null,
    "dedupe_similarity": 0.0,
-   "id": "59aceb5832bf",
-   "title": "Jarida la Jamii...",
-   "url": "https://www.moh.go.tz/storage/app/uploads/public/6a8/475/0aa/6a84750aa3dc9516353376.pdf",
-   "summary": "en-USen-USen-USen-USen-USen-USen-USen-USen-USen-USen-USen-USen-USen-USen-USen-USen-USen-US 7\u00e9\u00b4}f\u00cf\\\u00b1[\u00bb\u00ff\u0000H\u00f3\u00eb\u00d3\u00e5\u0095\u00d6\u00cc\u00f7\u00a2p \u00f4\u00ae\u0012\u00eb\u00c4'U\u0096e\u00fbY\u0086!\u008f*\b\u009f\u0004\u0082p\u0019\u0099y\u00eb\u00db# \u00eb\u00a3\u00f0\u00cd\u00fc\u00d7\u00da:\u00a5\u00e3\u0086\u00bf\u00b4v\u00b5\u00ba\u00c0\u00c6dN \u00ff\u0000\u0081 7\u00d1\u00ab\u00cd\u00fcQi5\u008f\u0088d\u0096\u00e8\u0006\u0005q\u00e2\u00a9\u00c2\u00b2\u00e4\u009a\u00ba<\u00ec\u00cf0\u00ab\u0084\u00e5T^\u00ac\u00eb\u007f\u00e1`_\u00ff\u0000\u00d02\u00d7\u00fe\u00ff\u00007\u00f8Ua\u00e3k\u00f8\u00efd\u00b9\u008fN\u00b3\u0006D \u00c0\u00ca\u00ddG|\u00e3\u00d3\u0003\u00f0\u00ac\b`\u0096\u00e6U\u008a\u0018\u00deI\u0018\u00e0*\u008c\u009a\u00d9}\u001a\u00cfF\u0081n\u00fcG\u007f \u009c\u007fym\u00d0\u00ee\u0096O`\u0005y\u0093\u00c2\u00e0\u00e9h\u00e3\u00ab\u00e9\u00abo\u00e4ra\u00b3,\u00d7\u0012\u00edO_;+/\u0098\u00cb\u00bf\u0010j\u00da\u00bb\u0088\u00ad\u00ec Y @\u00ec\u00b1;\u00b1lq\u00e9[3k\u00f7 \u0016\u00d3\u0095\u00b5\u00184\u00abI\u00a4\u001b \u00ba\u00ca\u00ed+\u00800\u000e\u0002\u009f\u00ce\u00b9\u00fd{]\u00bb\u00f0\u009c\u0011\u00c1\u00a2\u00c3 Q_ \u009dn\u00e4L\u00ca \u0080J\u00f3\u00c0\u00e0\u008f\u00d6\u00b8\u0018\u00e3\u00be\u00d65 \u0088'\u00bc\u00bc\u0098\u00fb\u00bb\u00b1\u00f7\u00ab\u0086 \u0015 \u009bJ4\u00f7\u00f3\u007f",
-   "kind": "doc",
-   "source": "Tanzania Ministry of Health",
-   "source_id": "tz-moh",
+   "id": "1079ee3f898a",
+   "title": "Karanja v Ng'ong'a & 2 others (Environment and Land Petition E009 of 2026) [2026] KEELC 5288 (KLR) (14 August 2026) (Ruling)",
+   "url": "https://new.kenyalaw.org/akn/ke/judgment/keelc/2026/5288/eng@2026-08-14",
+   "summary": "Karanja v Ng'ong'a & 2 others (Environment and Land Petition E009 of 2026) [2026] KEELC 5288 (KLR) (14 August 2026) (Ruling)",
+   "kind": "item",
+   "source": "Kenya Gazette (Kenya Law)",
+   "source_id": "ke-gazette",
    "tier": 1,
-   "country": "TZ",
-   "category": "health",
+   "country": "KE",
+   "category": "gazette",
    "segments": [
     "city",
     "bush",
     "beach"
    ],
-   "first_seen": "2026-08-18T20:34+03:00",
-   "published": null,
-   "verdict": "CONSIDER"
+   "first_seen": "2026-08-19T06:21+03:00",
+   "published": "2026-08-14",
+   "verdict": "CHECK \u2014 source date older than the window"
   },
   {
-   "score": 68.5,
+   "score": 81.8,
    "components": {
-    "tier": 20,
-    "category": 5,
-    "lead": 3.6,
-    "relevance": 16,
-    "freshness": 13.9,
-    "corroborated": 10
+    "tier": 40,
+    "category": 20,
+    "lead": 12.0,
+    "relevance": 0,
+    "freshness": 19.8,
+    "stale_trap": -10
    },
-   "keywords": [
-    "hotel",
-    "tourism",
-    "booking",
-    "guest"
-   ],
-   "shock_terms": [],
-   "dedupe_match": null,
-   "dedupe_similarity": 0.14,
-   "id": "856b088dd03d",
-   "title": "Proactive Destinations Recover 1.5x Faster from Crises, Fitness Is Becoming a Primary Booking Driver, Your Next Guest May Be a Robot",
-   "url": "https://www.hospitalitynet.org/editorial/4133997/proactive-destinations-recover-15x-faster-from-crises-fitness-is-becoming-a-primary-booking-driver-your-next-guest-may-be-a-robot",
-   "summary": "Tuesday brought TOURISE and Tourism Economics' 20-year analysis of 85 major crises finding proactive destinations recover up to 1.5 times faster with recovery times falling from 24 months to 10-12 months, a World Panel viewpoint on fitness as a genuine hotel value driver across all segments, and...",
-   "kind": "item",
-   "source": "Hospitality Net \u2014 Africa announcements",
-   "source_id": "dev-hospitalitynet-africa",
-   "tier": 2,
-   "country": "REG",
-   "category": "trade",
-   "segments": [
-    "city",
-    "bush",
-    "beach"
-   ],
-   "first_seen": "2026-08-18T20:34+03:00",
-   "published": "2026-08-18",
-   "verdict": "weak"
-  },
-  {
-   "score": 66.0,
-   "components": {
-    "tier": 20,
-    "category": 24,
-    "lead": 2.4,
-    "relevance": 12,
-    "freshness": 17.6,
-    "undated": -6,
-    "page_change": -4
-   },
-   "keywords": [
-    "cholera"
-   ],
+   "keywords": [],
    "shock_terms": [],
    "dedupe_match": null,
    "dedupe_similarity": 0.0,
-   "id": "be86d02916ce",
-   "title": "[page changed] ProMED-mail",
-   "url": "https://promedmail.org/",
-   "summary": "Protecting Global Health, One Alert at a Time | ProMED Previous slide Next slide Protecting Global Health, One Alert at a Time ProMED: Your 24/7 early warning system for emerging infectious diseases worldwide. Subscribe ProMED's Weekly Pulse A snapshot of global health events from the past 7 days Latest Posts on ProMED All Date Title Tue Aug 18 2026 SURVEILLANCE (290): TURKIYE, GRAM-NEGATIVE INFEC",
-   "kind": "page-change",
-   "source": "ProMED-mail",
-   "source_id": "promed",
-   "tier": 2,
-   "country": "GLOBAL",
-   "category": "health",
+   "id": "40252f6d1b08",
+   "title": "Mussukuya v Musoi & 3 others (Environment and Planning Civil Case E019 of 2025) [2026] KEELC 5287 (KLR) (14 August 2026) (Ruling)",
+   "url": "https://new.kenyalaw.org/akn/ke/judgment/keelc/2026/5287/eng@2026-08-14",
+   "summary": "Mussukuya v Musoi & 3 others (Environment and Planning Civil Case E019 of 2025) [2026] KEELC 5287 (KLR) (14 August 2026) (Ruling)",
+   "kind": "item",
+   "source": "Kenya Gazette (Kenya Law)",
+   "source_id": "ke-gazette",
+   "tier": 1,
+   "country": "KE",
+   "category": "gazette",
    "segments": [
     "city",
     "bush",
     "beach"
    ],
-   "first_seen": "2026-08-18T23:55+03:00",
-   "published": null,
-   "verdict": "weak"
+   "first_seen": "2026-08-19T06:21+03:00",
+   "published": "2026-08-14",
+   "verdict": "CHECK \u2014 source date older than the window"
   },
   {
-   "score": 65.8,
+   "score": 81.8,
    "components": {
-    "tier": 20,
-    "category": 5,
-    "lead": 1.2,
-    "relevance": 12,
-    "freshness": 17.6,
-    "corroborated": 10
+    "tier": 40,
+    "category": 20,
+    "lead": 12.0,
+    "relevance": 0,
+    "freshness": 19.8,
+    "stale_trap": -10
    },
-   "keywords": [
-    "route",
-    "airline"
-   ],
+   "keywords": [],
    "shock_terms": [],
    "dedupe_match": null,
    "dedupe_similarity": 0.0,
-   "id": "583e62fdd694",
-   "title": "TAAG to launch Luanda\u2013Dakar\u2013Praia route",
-   "url": "https://voyagesafriq.com/2026/08/18/taag-to-launch-luanda-dakar-praia-route",
-   "summary": "TAAG Angola Airlines will launch a new Luanda\u2013Dakar\u2013Praia service on October 31, establishing a long-awaited direct air link between Angola and Cape Verde while expanding the carrier\u2019s footprint in West [\u2026] The post TAAG to launch Luanda\u2013Dakar\u2013Praia route appeared first on Voyages Afriq .",
+   "id": "1b7720339072",
+   "title": "Troy Medicare Pharmacy Ltd v Pekee Developments Ltd & another (Environment and Land Case E235 of 2023) [2026] KEELC 5286 (KLR) (14 August 2026) (Ruling)",
+   "url": "https://new.kenyalaw.org/akn/ke/judgment/keelc/2026/5286/eng@2026-08-14",
+   "summary": "Troy Medicare Pharmacy Ltd v Pekee Developments Ltd & another (Environment and Land Case E235 of 2023) [2026] KEELC 5286 (KLR) (14 August 2026) (Ruling)",
    "kind": "item",
-   "source": "VoyagesAfriq",
-   "source_id": "tp-voyagesafriq",
-   "tier": 2,
-   "country": "REG",
-   "category": "trade",
+   "source": "Kenya Gazette (Kenya Law)",
+   "source_id": "ke-gazette",
+   "tier": 1,
+   "country": "KE",
+   "category": "gazette",
    "segments": [
     "city",
     "bush",
     "beach"
    ],
-   "first_seen": "2026-08-18T23:55+03:00",
-   "published": "2026-08-18",
-   "verdict": "weak"
+   "first_seen": "2026-08-19T06:21+03:00",
+   "published": "2026-08-14",
+   "verdict": "CHECK \u2014 source date older than the window"
   },
   {
-   "score": 65.8,
+   "score": 81.8,
    "components": {
-    "tier": 20,
-    "category": 5,
-    "lead": 1.2,
-    "relevance": 12,
-    "freshness": 17.6,
-    "corroborated": 10
+    "tier": 40,
+    "category": 20,
+    "lead": 12.0,
+    "relevance": 0,
+    "freshness": 19.8,
+    "stale_trap": -10
    },
-   "keywords": [
-    "route",
-    "airline"
-   ],
+   "keywords": [],
    "shock_terms": [],
    "dedupe_match": null,
    "dedupe_similarity": 0.0,
-   "id": "9122a2b72d4d",
-   "title": "Can Tweaking Plane Routes Cut Aviation\u2019s Climate Impact? An Airspace-Wide Contrail Trial Will Test It",
-   "url": "https://skift.com/2026/08/18/can-rerouting-planes-cut-aviations-climate-impact-an-airspace-wide-contrail-trial-will-test-it",
-   "summary": "It marks a step-change in contrail avoidance research, which has so far been limited to specific airlines. The UK-backed test will cover the Shanwick Oceanic Control Area.",
+   "id": "8c7003e97a33",
+   "title": "Rioba v Sukari Industries Ltd (Civil Case E054 of 2024) [2026] KEMC 516 (KLR) (14 August 2026) (Ruling)",
+   "url": "https://new.kenyalaw.org/akn/ke/judgment/kemc/2026/516/eng@2026-08-14",
+   "summary": "Rioba v Sukari Industries Ltd (Civil Case E054 of 2024) [2026] KEMC 516 (KLR) (14 August 2026) (Ruling)",
    "kind": "item",
-   "source": "Skift",
-   "source_id": "tp-skift",
-   "tier": 2,
-   "country": "GLOBAL",
-   "category": "trade",
+   "source": "Kenya Gazette (Kenya Law)",
+   "source_id": "ke-gazette",
+   "tier": 1,
+   "country": "KE",
+   "category": "gazette",
    "segments": [
     "city",
     "bush",
     "beach"
    ],
-   "first_seen": "2026-08-18T23:55+03:00",
-   "published": "2026-08-18",
-   "verdict": "weak"
+   "first_seen": "2026-08-19T06:21+03:00",
+   "published": "2026-08-14",
+   "verdict": "CHECK \u2014 source date older than the window"
+  },
+  {
+   "score": 81.8,
+   "components": {
+    "tier": 40,
+    "category": 20,
+    "lead": 12.0,
+    "relevance": 0,
+    "freshness": 19.8,
+    "stale_trap": -10
+   },
+   "keywords": [],
+   "shock_terms": [],
+   "dedupe_match": null,
+   "dedupe_similarity": 0.0,
+   "id": "3f45c26a02bb",
+   "title": "In re Estate of Idd alias Maulidi Hakim Idd (Deceased) (Succession Cause E130 of 2026) [2026] KEKC 5 (KLR) (13 August 2026) (Judgment)",
+   "url": "https://new.kenyalaw.org/akn/ke/judgment/kekc/2026/5/eng@2026-08-13",
+   "summary": "In re Estate of Idd alias Maulidi Hakim Idd (Deceased) (Succession Cause E130 of 2026) [2026] KEKC 5 (KLR) (13 August 2026) (Judgment)",
+   "kind": "item",
+   "source": "Kenya Gazette (Kenya Law)",
+   "source_id": "ke-gazette",
+   "tier": 1,
+   "country": "KE",
+   "category": "gazette",
+   "segments": [
+    "city",
+    "bush",
+    "beach"
+   ],
+   "first_seen": "2026-08-19T06:21+03:00",
+   "published": "2026-08-13",
+   "verdict": "CHECK \u2014 source date older than the window"
+  },
+  {
+   "score": 81.8,
+   "components": {
+    "tier": 40,
+    "category": 20,
+    "lead": 12.0,
+    "relevance": 0,
+    "freshness": 19.8,
+    "stale_trap": -10
+   },
+   "keywords": [],
+   "shock_terms": [],
+   "dedupe_match": null,
+   "dedupe_similarity": 0.0,
+   "id": "e7b4de21b5a0",
+   "title": "Northern Block Residents Ltd & another v Makanjawa Company Ltd & 5 others (Environment and Planning Judicial Review E001 of 2023) [2026] KEELC 5285 (KLR) (14 August 2026) (Ruling)",
+   "url": "https://new.kenyalaw.org/akn/ke/judgment/keelc/2026/5285/eng@2026-08-14",
+   "summary": "Northern Block Residents Ltd & another v Makanjawa Company Ltd & 5 others (Environment and Planning Judicial Review E001 of 2023) [2026] KEELC 5285 (KLR) (14 August 2026) (Ruling)",
+   "kind": "item",
+   "source": "Kenya Gazette (Kenya Law)",
+   "source_id": "ke-gazette",
+   "tier": 1,
+   "country": "KE",
+   "category": "gazette",
+   "segments": [
+    "city",
+    "bush",
+    "beach"
+   ],
+   "first_seen": "2026-08-19T06:21+03:00",
+   "published": "2026-08-14",
+   "verdict": "CHECK \u2014 source date older than the window"
+  },
+  {
+   "score": 81.8,
+   "components": {
+    "tier": 40,
+    "category": 20,
+    "lead": 12.0,
+    "relevance": 0,
+    "freshness": 19.8,
+    "stale_trap": -10
+   },
+   "keywords": [],
+   "shock_terms": [],
+   "dedupe_match": null,
+   "dedupe_similarity": 0.0,
+   "id": "8a1b3dafd7c5",
+   "title": "Republic v Kayanda (Sexual Offence E012 of 2026) [2026] KEMC 515 (KLR) (13 August 2026) (Judgment)",
+   "url": "https://new.kenyalaw.org/akn/ke/judgment/kemc/2026/515/eng@2026-08-13",
+   "summary": "Republic v Kayanda (Sexual Offence E012 of 2026) [2026] KEMC 515 (KLR) (13 August 2026) (Judgment)",
+   "kind": "item",
+   "source": "Kenya Gazette (Kenya Law)",
+   "source_id": "ke-gazette",
+   "tier": 1,
+   "country": "KE",
+   "category": "gazette",
+   "segments": [
+    "city",
+    "bush",
+    "beach"
+   ],
+   "first_seen": "2026-08-19T06:21+03:00",
+   "published": "2026-08-13",
+   "verdict": "CHECK \u2014 source date older than the window"
+  },
+  {
+   "score": 81.8,
+   "components": {
+    "tier": 40,
+    "category": 20,
+    "lead": 12.0,
+    "relevance": 0,
+    "freshness": 19.8,
+    "stale_trap": -10
+   },
+   "keywords": [],
+   "shock_terms": [],
+   "dedupe_match": null,
+   "dedupe_similarity": 0.0,
+   "id": "cf7f1a722d4d",
+   "title": "Maroa v Sukari Industries Ltd (Civil Case E057 of 2024) [2026] KEMC 514 (KLR) (14 August 2026) (Ruling)",
+   "url": "https://new.kenyalaw.org/akn/ke/judgment/kemc/2026/514/eng@2026-08-14",
+   "summary": "Maroa v Sukari Industries Ltd (Civil Case E057 of 2024) [2026] KEMC 514 (KLR) (14 August 2026) (Ruling)",
+   "kind": "item",
+   "source": "Kenya Gazette (Kenya Law)",
+   "source_id": "ke-gazette",
+   "tier": 1,
+   "country": "KE",
+   "category": "gazette",
+   "segments": [
+    "city",
+    "bush",
+    "beach"
+   ],
+   "first_seen": "2026-08-19T06:21+03:00",
+   "published": "2026-08-14",
+   "verdict": "CHECK \u2014 source date older than the window"
+  },
+  {
+   "score": 81.8,
+   "components": {
+    "tier": 40,
+    "category": 20,
+    "lead": 12.0,
+    "relevance": 0,
+    "freshness": 19.8,
+    "stale_trap": -10
+   },
+   "keywords": [],
+   "shock_terms": [],
+   "dedupe_match": null,
+   "dedupe_similarity": 0.0,
+   "id": "e28a56c90c18",
+   "title": "Rioba v Sukari Industries Ltd (Cause E054 of 2024) [2026] KEMC 513 (KLR) (14 August 2026) (Ruling)",
+   "url": "https://new.kenyalaw.org/akn/ke/judgment/kemc/2026/513/eng@2026-08-14",
+   "summary": "Rioba v Sukari Industries Ltd (Cause E054 of 2024) [2026] KEMC 513 (KLR) (14 August 2026) (Ruling)",
+   "kind": "item",
+   "source": "Kenya Gazette (Kenya Law)",
+   "source_id": "ke-gazette",
+   "tier": 1,
+   "country": "KE",
+   "category": "gazette",
+   "segments": [
+    "city",
+    "bush",
+    "beach"
+   ],
+   "first_seen": "2026-08-19T06:21+03:00",
+   "published": "2026-08-14",
+   "verdict": "CHECK \u2014 source date older than the window"
   }
  ]
 }
