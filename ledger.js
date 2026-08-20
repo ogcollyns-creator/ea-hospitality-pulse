@@ -1,8 +1,8 @@
 window.LEDGER = {
- "updated": "2026-08-19 13:20",
+ "updated": "2026-08-20 08:49",
  "stats": {
-  "total": 106,
-  "open": 85,
+  "total": 107,
+  "open": 86,
   "resolved": 21,
   "correct": 15,
   "partial": 1,
@@ -312,6 +312,22 @@ window.LEDGER = {
    "resolved_date": "",
    "evidence": "",
    "source_url": "https://wwwnc.cdc.gov/travel/notices",
+   "overdue": false
+  },
+  {
+   "id": "P106",
+   "made_date": "2026-08-20",
+   "edition": "pulse-2026-08-20-morning",
+   "claim": "The 19 Aug Samburu helicopter crash (Lady Lori EC130, &Beyond charter, Loisaba–Ewaso Nyiro) will NOT trigger a change in the US or UK travel-advisory LEVEL for Kenya within 30 days — it is an aviation-safety accident under KCAA investigation, not a systemic security or health downgrade",
+   "resolution_criteria": "travel.state.gov Kenya advisory and gov.uk/foreign-travel-advice/kenya checked 19 Sep 2026 show the country advisory level unchanged (US Level 2 / UK as at 20 Aug). A level change citing the crash resolves incorrect",
+   "resolve_by": "2026-09-19",
+   "market": "Kenya",
+   "segment": "Bush",
+   "confidence": "High",
+   "status": "open",
+   "resolved_date": "",
+   "evidence": "",
+   "source_url": "https://travel.state.gov/content/travel/en/traveladvisories/traveladvisories/kenya-travel-advisory.html",
    "overdue": false
   },
   {
