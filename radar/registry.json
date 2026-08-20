@@ -1,7 +1,7 @@
 {
  "version": 1,
- "updated": "2026-08-16",
- "note": "Upstream-weighted source registry for the EA Hospitality Pulse radar. tier 1 = primary/official, 2 = reputable secondary, 3 = weak (lead only, never publishable alone). lead_days = typical head start over mainstream coverage. Sources that fail repeatedly are surfaced by monitor.py rather than silently dropped.",
+ "updated": "2026-08-20",
+ "note": "Upstream-weighted source registry for the EA Hospitality Pulse radar. tier 1 = primary/official, 2 = reputable secondary, 3 = weak (lead only, never publishable alone). lead_days = typical head start over mainstream coverage. Sources that fail repeatedly are surfaced by monitor.py rather than silently dropped. | 2026-08-20: added Ethiopia (ET) upstream sources as comparator — gazette, ECAA, NBE, ESS, Ethiopia Convention Bureau; Ethiopian Airlines already tracked (air-et). Enables promotion to a full sixth market once the radar records healthy observations.",
  "sources": [
   {
    "id": "ke-gazette",
@@ -3473,6 +3473,109 @@
    "why": "Tanzania's electricity and petroleum tariff decisions — the Tanzanian analogue of EPRA, which we already track for Kenya.",
    "frag": "",
    "min_len": 10
+  },
+  {
+   "id": "et-gazette",
+   "name": "Federal Negarit Gazette (Ethiopia, via gazettes.africa)",
+   "url": "https://gazettes.africa/gazettes/et",
+   "tier": 1,
+   "country": "ET",
+   "category": "gazette",
+   "method": "html",
+   "cadence_min": 360,
+   "lead_days": 10,
+   "segments": [
+    "city",
+    "bush",
+    "beach"
+   ],
+   "slots": [
+    "morning"
+   ],
+   "why": "Ethiopia comparator: fee, levy, visa and licensing changes originate here with effective dates the press omits. Enabling source for promoting Ethiopia to a full sixth market.",
+   "frag": ""
+  },
+  {
+   "id": "et-ecaa",
+   "name": "Ethiopian Civil Aviation Authority (ECAA)",
+   "url": "https://ecaa.gov.et/",
+   "tier": 1,
+   "country": "ET",
+   "category": "aviation",
+   "method": "html",
+   "cadence_min": 360,
+   "lead_days": 5,
+   "segments": [
+    "city",
+    "bush",
+    "beach"
+   ],
+   "slots": [
+    "midday"
+   ],
+   "why": "Addis is Ethiopian Airlines' hub and the connecting gateway for much EA long-haul lift; ECAA notices and AICs are an upstream feeder-capacity signal for Nairobi, Kigali, Entebbe, Kilimanjaro and Zanzibar.",
+   "frag": ""
+  },
+  {
+   "id": "et-nbe",
+   "name": "National Bank of Ethiopia (NBE)",
+   "url": "https://nbe.gov.et/",
+   "tier": 1,
+   "country": "ET",
+   "category": "central-bank",
+   "method": "html",
+   "cadence_min": 720,
+   "lead_days": 3,
+   "segments": [
+    "city",
+    "bush",
+    "beach"
+   ],
+   "slots": [
+    "morning"
+   ],
+   "why": "FX, reserves and monetary policy for the region's largest comparator economy; birr moves and forex rules affect Ethiopian Airlines pricing and Addis MICE cost base.",
+   "frag": ""
+  },
+  {
+   "id": "et-ess",
+   "name": "Ethiopian Statistical Service (ESS)",
+   "url": "https://www.ess.gov.et/",
+   "tier": 1,
+   "country": "ET",
+   "category": "statistics",
+   "method": "html",
+   "cadence_min": 720,
+   "lead_days": 5,
+   "segments": [
+    "city",
+    "bush",
+    "beach"
+   ],
+   "slots": [
+    "morning"
+   ],
+   "why": "CPI and, where published, arrivals data for Ethiopia — the comparator's demand and cost trajectory. Required for a full-market promotion.",
+   "frag": ""
+  },
+  {
+   "id": "et-ecb",
+   "name": "Ethiopia Convention Bureau (Tourism Ethiopia)",
+   "url": "https://www.ethiopiaconventionbureau.com/",
+   "tier": 1,
+   "country": "ET",
+   "category": "dmo",
+   "method": "html",
+   "cadence_min": 720,
+   "lead_days": 30,
+   "segments": [
+    "city"
+   ],
+   "slots": [
+    "morning"
+   ],
+   "why": "Addis MICE pipeline and bids (AU/UNECA rotation, COP32 2027, 80,000+ delegates). A won Addis congress is a continental demand and rival-city signal for Nairobi and Kigali.",
+   "frag": ""
   }
  ]
 }
