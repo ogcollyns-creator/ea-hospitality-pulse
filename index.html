@@ -849,12 +849,13 @@
   }
   function insightCard(i, segClass){
     const c=document.createElement('div'); c.className='insight'+(segClass?(' '+segClass):'');
-    const sw = i.sowhat ? '<div class="isw">'+i.sowhat+'</div>' : '';
+    const mdi=t=>(t||'').replace(/\*\*([^*]+?)\*\*/g,'<strong>$1</strong>');
+    const sw = i.sowhat ? '<div class="isw">'+mdi(i.sowhat)+'</div>' : '';
     c.innerHTML=impChip(i)+'<div class="imeta"><span>'+i.dateDisplay+'</span><span>· '+i.edition+'</span>'+
       '<span>· '+segLabel(i)+'</span>'+
       (i.countries?'<span>· '+i.countries+'</span>':'')+
       (i.confidence?'<span class="conf">· '+i.confidence+'</span>':'')+'</div>'+
-      '<h3>'+i.headline+'</h3>'+ (i.body?'<p>'+i.body.slice(0,220)+(i.body.length>220?'…':'')+'</p>':'')+
+      '<h3>'+mdi(i.headline)+'</h3>'+ (i.body?'<p>'+mdi(i.body.slice(0,220))+(i.body.length>220?'…':'')+'</p>':'')+
       sw + '<a class="open" href="editions/'+i.source+'.html">Open full edition →</a>';
     c.onclick=(ev)=>{ ev.preventDefault(); const e=editionById(i.source); if(e) openEdition(e); };
     return c;
