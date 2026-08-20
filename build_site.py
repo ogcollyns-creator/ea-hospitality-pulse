@@ -80,6 +80,35 @@ def segments_from_tag(t):
     if "beach" in t or "coast" in t: s.append("beach")
     return s
 
+
+def classify_impact(headline, sowhat, body, conf):
+    """Directional operator-impact read, derived from the signal's own words.
+    Returns (label, css_class, intensity 1-3). This is an editorial interpretation
+    shown as a chip, not a sourced statistic."""
+    t  = " ".join([headline or "", sowhat or "", body or ""]).lower()
+    sw = (sowhat or "").lower()
+    c  = (conf or "").lower()
+    # intensity keyed to how firm the item is
+    if "confirm" in c:            intensity = 3
+    elif "reported" in c:         intensity = 2
+    elif "early" in c or "inference" in c or "signal" in c: intensity = 1
+    else:                         intensity = 2
+    def has(p): return re.search(p, t) is not None
+    # an item about capacity/volume that risks discounting is a "watch", not clean demand
+    watch_override = re.search(r"discount|not rate|volume[^.]*not|oversupply|competitors will lag|fill the (extra )?lift|price war", sw) is not None
+    easing = has(r"advisor|level\s*[0-9]|do not travel") and has(r"eas(e|es|ed|ing)|lift(s|ed)?|downgrad|to level 2|from level 3|removes|reopen|resum")
+    if easing and not watch_override:
+        return ("+demand", "demand", intensity)
+    if has(r"advisor|do not travel|level\s*4|level\s*3|outbreak|ebola|marburg|cholera|dengue|crash|killed|fatal|security|attack|terror|abduct|kidnap|protest|unrest|riot|coup|flood|cyclone|drought|storm|\bban\b|grounded|suspend|closure|closed|warning"):
+        return ("risk", "risk", intensity)
+    if has(r"lev(y|ies)|\bfees?\b|\btax\b|\bvat\b|surcharge|tariff|\bhike|fuel|diesel|petrol|price[s]?\s*(rise|rose|up|increase)|rise[s]?\s*\d|increase|raises|costlier|permit.*(rise|up|increase)|weaker shilling|depreciat|more expensive"):
+        return ("-margin", "margin", intensity)
+    if watch_override:
+        return ("watch", "watch", intensity)
+    if has(r"route|arrivals|\bdemand\b|record|growth|grew|congress|summit|\bmice\b|expo|marathon|compression|booking|opens|opening|launch|expansion|recover|capacity|frequenc|seats|\+\s*\d|up\s+\d|surge|boom|record-|rebound"):
+        return ("+demand", "demand", intensity)
+    return ("watch", "watch", intensity)
+
 def parse_items(tele):
     items, cur = [], None
     for raw in tele.split("\n"):
@@ -101,9 +130,12 @@ def parse_items(tele):
         f=[x.strip() for x in re.split(r"[|·]", it["tags"])]  # tags may use | or ·
         segs=segments_from_tag(f[0] if f else "")
         if not segs: continue
+        conf = f[2] if len(f)>2 else ""
+        _imp,_impc,_inten = classify_impact(it["headline"], it["sowhat"], " ".join(it["body"]), conf)
         out.append({"headline":it["headline"],"body":" ".join(it["body"]).strip(),
                     "sowhat":it["sowhat"].strip(),"segments":segs,
-                    "countries":f[1] if len(f)>1 else "","confidence":f[2] if len(f)>2 else ""})
+                    "countries":f[1] if len(f)>1 else "","confidence":conf,
+                    "impact":_imp,"impactClass":_impc,"intensity":_inten})
     return out
 
 def render_body(text):

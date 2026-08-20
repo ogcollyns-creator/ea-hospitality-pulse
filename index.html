@@ -446,8 +446,17 @@
   .sigtab:hover{color:var(--ink);border-color:var(--gold)}
   .sigtab.active{background:var(--gold);color:#1a1206;border-color:var(--gold)}
   @media(max-width:640px){.sigtabs{overflow-x:auto;flex-wrap:nowrap;-webkit-overflow-scrolling:touch}}
+  /* ---- Signal impact chip (+demand / -margin / risk / watch) ---- */
+  .insight{position:relative}
+  .insight h3,.insight .imeta{padding-right:104px}
+  .imp{position:absolute;top:16px;right:18px;display:inline-flex;align-items:center;gap:7px;font-family:var(--mono);font-size:11px;font-weight:800;letter-spacing:.3px}
+  .imp .dots{display:inline-flex;gap:3px}
+  .imp .dots i{width:5px;height:5px;border-radius:50%;background:currentColor;opacity:.25}
+  .imp .dots i.on{opacity:1}
+  .imp-demand{color:var(--sage)} .imp-margin{color:var(--coral)} .imp-risk{color:#ff5b5b} .imp-watch{color:var(--amber)}
+  @media(max-width:520px){.imp{position:static;display:inline-flex;margin:0 0 9px}.insight h3,.insight .imeta{padding-right:0}}
 </style>
-<!--BUILD_STAMP:20260820-1135--></head>
+<!--BUILD_STAMP:20260820-1205--></head>
 <body>
 <header class="site">
   <div class="wrap topbar">
@@ -832,10 +841,16 @@
       '<a class="read" href="editions/'+e.id+'.html">Read edition →</a>';
     c.onclick=(ev)=>{ ev.preventDefault(); openEdition(e); }; return c;
   }
+  function impChip(i){
+    if(!i||!i.impact) return '';
+    var n=i.intensity||2, d='';
+    for(var k=0;k<3;k++) d+='<i'+(k<n?' class="on"':'')+'></i>';
+    return '<span class="imp imp-'+(i.impactClass||'watch')+'" title="Impact read (auto-derived): '+i.impact+' · intensity '+n+'/3">'+i.impact+'<span class="dots">'+d+'</span></span>';
+  }
   function insightCard(i, segClass){
     const c=document.createElement('div'); c.className='insight'+(segClass?(' '+segClass):'');
     const sw = i.sowhat ? '<div class="isw">'+i.sowhat+'</div>' : '';
-    c.innerHTML='<div class="imeta"><span>'+i.dateDisplay+'</span><span>· '+i.edition+'</span>'+
+    c.innerHTML=impChip(i)+'<div class="imeta"><span>'+i.dateDisplay+'</span><span>· '+i.edition+'</span>'+
       '<span>· '+segLabel(i)+'</span>'+
       (i.countries?'<span>· '+i.countries+'</span>':'')+
       (i.confidence?'<span class="conf">· '+i.confidence+'</span>':'')+'</div>'+
