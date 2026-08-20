@@ -394,6 +394,58 @@
     .seg,.insight,.ri-tile,.tr-stat,.rt,.rv,.ct{border:1pt solid #999;box-shadow:none;break-inside:avoid}
     a{color:#000}
   }
+
+  /* ============================================================
+     TERMINAL THEME OVERRIDE — dark "Bloomberg for EA hospitality"
+     Appended last so it wins the cascade. Data-first, high density.
+     ============================================================ */
+  :root{
+    --sand:#0a0f1a; --sand-2:#141f33; --ink:#e8edf5; --muted:#93a0b6;
+    --gold:#e2a93d; --gold-d:#caa14a; --teal:#17a495; --teal-d:#0f6d63;
+    --city:#5b8fd6; --bush:#a8c258; --beach:#33c2d4; --line:#233047;
+    --card:#0f1826;
+    --coral:#ff6b4a; --sage:#57c08a; --amber:#e6b800;
+    --mono:ui-monospace,'SF Mono','Roboto Mono',Menlo,Consolas,monospace;
+  }
+  body{background:var(--sand);color:var(--ink)}
+  a{color:#43bcae}
+  header.site{background:linear-gradient(135deg,#0b1526,#101f37);border-bottom:1px solid var(--line)}
+  .hero{background-color:#0b1220;background-image:linear-gradient(135deg,rgba(8,13,24,.90),rgba(11,20,36,.82)),url('img/hero-serengeti.jpg');border-bottom:4px solid var(--gold)}
+  .latest,.sub-box{background:linear-gradient(135deg,#13233f,#0e1a2e)!important;color:#fff}
+  .controls input,.controls select{background:var(--card)!important;color:var(--ink)!important;border-color:var(--line)!important}
+  .controls input::placeholder{color:var(--muted)}
+  .pred:hover{background:#15243a}
+  .tab{color:var(--muted)} .tab:hover{color:var(--ink)} .tab.active{color:#fff;border-bottom-color:var(--gold)}
+  .seg:hover,.insight:hover,.card:hover,.gcard:hover{border-color:var(--gold)}
+  .adv-table thead th{background:var(--sand-2);color:var(--muted)}
+  .card .badge,.reader .badge{background:var(--sand-2);color:var(--gold-d)}
+  .seg,.insight,.card,.ri-tile,.rt,.rv,.ct,.gcard,.adv-table,.tr-stat{box-shadow:none}
+
+  /* ---- Live ticker ---- */
+  .ticker{position:sticky;top:0;z-index:40;display:flex;align-items:stretch;background:#0b1220;border-bottom:1px solid var(--line);overflow:hidden;font-family:var(--mono)}
+  .tk-live{flex:none;display:flex;align-items:center;gap:7px;background:var(--coral);color:#210d05;font-weight:800;font-size:11px;letter-spacing:.6px;padding:0 13px;text-transform:uppercase}
+  .tk-live .dot{width:7px;height:7px;border-radius:50%;background:#210d05;animation:tkpulse 1.4s infinite}
+  @keyframes tkpulse{0%,100%{opacity:1}50%{opacity:.25}}
+  .tk-mask{flex:1;overflow:hidden;display:flex;align-items:center}
+  .tk-track{display:inline-flex;gap:30px;white-space:nowrap;padding:8px 24px;animation:tkscroll 75s linear infinite;will-change:transform}
+  .ticker:hover .tk-track{animation-play-state:paused}
+  .tk-item{font-size:12.5px;color:var(--ink);display:inline-flex;align-items:center;gap:8px}
+  .tk-item::before{content:"";width:6px;height:6px;border-radius:50%;background:var(--muted);flex:none}
+  .tk-item.city::before{background:var(--city)} .tk-item.bush::before{background:var(--bush)} .tk-item.beach::before{background:var(--beach)}
+  .tk-item.urgent::before{background:var(--coral)} .tk-item.watch::before{background:var(--amber)} .tk-item.opp::before{background:var(--sage)}
+  .tk-item b{color:var(--muted);font-weight:700;text-transform:uppercase;font-size:10px;letter-spacing:.6px}
+  @keyframes tkscroll{from{transform:translateX(0)}to{transform:translateX(-50%)}}
+  @media(prefers-reduced-motion:reduce){.tk-track{animation:none;white-space:normal;flex-wrap:wrap}.tk-live .dot{animation:none}}
+
+  /* ---- Signal feed tabs ---- */
+  #signals{padding:28px 0 4px}
+  .sig-today{display:inline-flex;align-items:center;gap:7px;font-family:var(--mono);font-size:12px;color:var(--sage)}
+  .sig-today .dot{width:7px;height:7px;border-radius:50%;background:var(--sage)}
+  .sigtabs{display:flex;gap:8px;flex-wrap:wrap;margin:12px 0 2px}
+  .sigtab{font-family:'Helvetica Neue',Arial,sans-serif;font-size:13.5px;font-weight:700;padding:9px 16px;border-radius:22px;border:1px solid var(--line);background:var(--card);color:var(--muted);cursor:pointer;transition:all .12s}
+  .sigtab:hover{color:var(--ink);border-color:var(--gold)}
+  .sigtab.active{background:var(--gold);color:#1a1206;border-color:var(--gold)}
+  @media(max-width:640px){.sigtabs{overflow-x:auto;flex-wrap:nowrap;-webkit-overflow-scrolling:touch}}
 </style>
 <!--BUILD_STAMP:20260820-1024--></head>
 <body>
@@ -416,6 +468,11 @@
     </nav>
   </div>
 </header>
+
+<div class="ticker" id="ticker" aria-label="Live market signals">
+  <span class="tk-live"><span class="dot"></span> Live</span>
+  <div class="tk-mask"><div class="tk-track" id="tk-track">Loading signals…</div></div>
+</div>
 
 <div class="hero">
   <div class="wrap">
@@ -467,6 +524,20 @@
     <div class="seg beach" onclick="showSegment('beach')"><div class="tag">Beach &amp; coast</div><h3>Charter &amp; leisure volume</h3><p>Route decisions, seasonality, Indian Ocean competition, regulation.</p><span class="go">View beach insights →</span><a class="seg-tool" href="index.html#rivals" onclick="event.stopPropagation()">→ See competitive destinations</a></div>
   </div>
 </div>
+
+<section id="signals" class="wrap">
+  <div class="section-head">
+    <div><div class="kicker">Live signal feed</div><h2>Today’s signals</h2></div>
+    <span class="sig-today" id="sig-today"></span>
+  </div>
+  <p style="color:var(--muted);font-family:'Helvetica Neue',Arial,sans-serif;font-size:14.5px;margin:0 0 4px;max-width:60ch">Every dated, sourced signal — filter to your segment. Each carries a clear “so what” for pricing and inventory.</p>
+  <div class="sigtabs" id="sigtabs">
+    <button class="sigtab active" onclick="sigTab(this,'all')">All signals</button>
+    <button class="sigtab" onclick="sigTab(this,'city')">🏙 City</button>
+    <button class="sigtab" onclick="sigTab(this,'bush')">🌿 Bush</button>
+    <button class="sigtab" onclick="sigTab(this,'beach')">🏖 Beach</button>
+  </div>
+</section>
 
 <section id="latest" class="wrap" style="padding:34px 0 0">
   <div class="section-head">
@@ -792,7 +863,11 @@
     }
     backEl.style.display='inline'; filter.style.display='none';
     let all, title, kicker, unit, segClass='';
-    if(SEG[mode]){
+    if(mode==='signals'){
+      all=insights.filter(i=>matchQ(i.headline+' '+i.body+' '+i.sowhat+' '+i.countries+' '+i.dateDisplay));
+      title='All signals'; kicker='Every dated signal, newest first'; unit='signal';
+      search.placeholder='Search all signals…';
+    } else if(SEG[mode]){
       segClass=mode;
       all=insights.filter(i=>i.segments.includes(mode) && matchQ(i.headline+' '+i.body+' '+i.sowhat+' '+i.countries+' '+i.dateDisplay));
       title=SEG[mode]+' insights'; kicker='Segment-specific intelligence'; unit=SEG[mode]+' insight';
@@ -827,6 +902,7 @@
   window.showCountry=function(code){ mode='CTRY:'+code; shown=PAGE; search.value=''; render();
     document.getElementById('archive').scrollIntoView({behavior:'smooth'}); };
   window.showEditions=function(){ mode='editions'; shown=PAGE; search.value=''; render(); };
+  window.showAllSignals=function(){ mode='signals'; shown=PAGE; search.value=''; render(); document.getElementById('archive').scrollIntoView({behavior:'smooth'}); };
 
   document.getElementById('close').onclick=closeReader;
   overlay.onclick=ev=>{if(ev.target===overlay)closeReader();};
@@ -1285,5 +1361,45 @@
 <script defer src="https://static.cloudflareinsights.com/beacon.min.js"
         data-cf-beacon='{"token": "CLOUDFLARE_TOKEN"}'></script>
 -->
+<script>
+/* Live ticker + signal-tab wiring — reads the real data files already loaded above. */
+(function(){
+  function chip(kind,label,text){
+    return '<span class="tk-item '+(kind||'')+'">'+(label?'<b>'+label+'</b> ':'')+text+'</span>';
+  }
+  function build(){
+    var out=[], ins=window.INSIGHTS||[];
+    if(ins.length){
+      var latest=ins[0].dateDisplay;
+      var n=ins.filter(function(i){return i.dateDisplay===latest;}).length;
+      var st=document.getElementById('sig-today');
+      if(st) st.innerHTML='<span class="dot"></span> '+n+' signal'+(n===1?'':'s')+' · '+latest;
+    }
+    try{var A=window.ADVISORIES;if(A&&A.rows)A.rows.forEach(function(r){
+      if(r.us&&r.us.level>=4) out.push(chip('urgent','Advisory',r.name+' — US Level '+r.us.level+' Do Not Travel'));
+    });}catch(e){}
+    try{var C=window.COSTS;if(C&&C.items)C.items.filter(function(x){return x.verified;}).slice(0,2).forEach(function(x){
+      out.push(chip('watch','Cost',x.metric+' '+x.value));
+    });}catch(e){}
+    try{var M=window.MICE;if(M&&M.events){var ev=M.events.filter(function(x){return /confirm|bid won/i.test(x.status||'');})[0];
+      if(ev) out.push(chip('opp','MICE',ev.event+' · '+ev.dates));}}catch(e){}
+    ins.slice(0,6).forEach(function(i){
+      var seg=(i.segments&&i.segments[0])||'';
+      out.push(chip(seg,(i.countries||'Signal'),i.headline));
+    });
+    if(!out.length) out.push(chip('','','EA Hospitality Pulse — daily intelligence for East African hospitality'));
+    var t=document.getElementById('tk-track');
+    if(t) t.innerHTML=out.join('')+out.join(''); /* duplicate for a seamless loop */
+  }
+  window.sigTab=function(el,seg){
+    document.querySelectorAll('.sigtab').forEach(function(b){b.classList.remove('active');});
+    el.classList.add('active');
+    if(seg==='all'){ if(window.showAllSignals) window.showAllSignals(); }
+    else { if(window.showSegment) window.showSegment(seg); }
+  };
+  if(document.readyState!=='loading') build();
+  else document.addEventListener('DOMContentLoaded', build);
+})();
+</script>
 </body>
 </html>
