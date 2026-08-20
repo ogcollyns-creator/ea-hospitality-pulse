@@ -3,7 +3,7 @@
 // capacity, Zanzibar and the coast feel it; when Southern Africa moves on price or
 // permits, the safari circuit does. Track the competition, not just the home market.
 window.RIVALS = {
- updated: "25 July 2026",
+ updated: "20 August 2026",
  sets: [
   { competes:"Beach — Zanzibar & Kenyan coast", flag:"🏖", rivals:[
      { name:"Mauritius", watch:"Charter capacity from Europe, all-inclusive pricing, visa-free access",
@@ -31,6 +31,11 @@ window.RIVALS = {
      { name:"Uganda vs Rwanda (internal)", watch:"Permit price gap: US$800 vs US$1,500",
        why:"The starkest live pricing dynamic in the region. Uganda is roughly half Rwanda's permit cost, and has added an April/May/November discount to US$600. Rwanda competes on access, comfort and combined-product quality rather than price.",
        signal:"UWA and RDB permit announcements; how operators package each." }
+   ]},
+  { competes:"City & MICE — Nairobi/Kigali/Kampala vs Addis Ababa", flag:"🏢", rivals:[
+     { name:"Ethiopia / Addis Ababa", watch:"Ethiopian Airlines hub capacity, COP32 2027 build-out, AU-summit MICE rotation, room construction surge",
+       why:"Comparator and transmission market, not a home market. Addis is Ethiopian Airlines’ hub — the connecting gateway for much of EA’s long-haul lift — so its capacity decisions move arrivals into Nairobi, Kigali, Entebbe, Kilimanjaro and Zanzibar. It is also a direct rival for continental MICE (AU headquarters, UNECA, and COP32 in 2027 with 80,000+ delegates expected), and leads Africa on hotel construction ratio (79.9%). When Addis adds branded city supply and conference capacity, it competes for the same regional-HQ, diplomatic and association business Nairobi and Kigali chase.",
+       signal:"Ethiopian Airlines schedule/route filings; ADD airport capacity; COP32 and AU/UNECA calendars; W Hospitality pipeline updates." }
    ]}
  ]
 };

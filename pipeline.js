@@ -8,7 +8,7 @@
 // of real bush and beach supply — do not appear in chain pipeline data at all, so treat
 // the country totals as a floor for branded supply, not a count of everything being built.
 window.PIPELINE = {
- updated: "1 August 2026",
+ updated: "20 August 2026",
  benchmarkNote: "W Hospitality Group, Hotel Chain Development Pipelines in Africa 2026 (published 10 March 2026). Africa-wide the pipeline reached a record 123,846 rooms across 675 properties, up 18.6% year on year. Branded chain projects only.",
  markets: [
   { country:"Kenya", flag:"🇰🇪", hotels:35, rooms:6190, avgSize:177, underConstruction:4922, ucPct:79.5,
@@ -26,7 +26,11 @@ window.PIPELINE = {
   { country:"Rwanda", flag:"🇷🇼", hotels:null, rooms:null, avgSize:null, underConstruction:null, ucPct:null,
     africaRank:null,
     note:"Also absent from the W Hospitality top-ten, yet running one of the region's most active luxury signing programmes (LUX*, SLH, Aleph — below). The contradiction is the point: Rwanda's growth is small-format and high-rate, which does not register in a room-count league table but does compete directly for the premium guest.",
-    source:"W Hospitality Group / FHS Africa 2026 (absence from top-10)", verified:true }
+    source:"W Hospitality Group / FHS Africa 2026 (absence from top-10)", verified:true },
+  { country:"Ethiopia (comparator)", flag:"🇪🇹", hotels:34, rooms:5964, avgSize:175, underConstruction:4765, ucPct:79.9,
+    africaRank:5,
+    note:"NOT one of our five home markets — tracked as a COMPARATOR because Addis Ababa and Ethiopian Airlines move East African demand. Ethiopia holds the HIGHEST construction ratio on the continent (79.9% of 5,964 pipeline rooms across 34 hotels actually being built), fifth-largest African pipeline. Much of it is timed to COP32 in Addis Ababa in 2027, expected to draw 80,000+ international delegates. Read-across for EA owners: Addis is Ethiopian Airlines’ hub and the connecting gateway for a large share of long-haul arrivals into Nairobi, Kigali, Entebbe, Kilimanjaro and Zanzibar — a supply-and-airlift surge there is a feeder-capacity and city-MICE signal for the whole region, not a distant story.",
+    source:"W Hospitality Group, Hotel Chain Development Pipelines in Africa 2026 (10 Mar 2026), via ENA / Capital Ethiopia / ATTA", verified:true }
  ],
  projects: [
   { property:"andBeyond Ngorongoro Crater Lodge (rebuild)", brand:"andBeyond",
