@@ -109,6 +109,29 @@ def classify_impact(headline, sowhat, body, conf):
         return ("+demand", "demand", intensity)
     return ("watch", "watch", intensity)
 
+
+IMPACT_TOKENS = {
+    "demand":("+demand","demand"), "+demand":("+demand","demand"),
+    "opportunity":("+demand","demand"), "opp":("+demand","demand"), "up":("+demand","demand"),
+    "margin":("-margin","margin"), "-margin":("-margin","margin"), "cost":("-margin","margin"), "-cost":("-margin","margin"),
+    "risk":("risk","risk"), "-risk":("risk","risk"),
+    "watch":("watch","watch"), "neutral":("watch","watch"),
+}
+
+def resolve_impact(tagstr, headline, sowhat, body, conf):
+    """Author-set 'impact:<token>' on the tag line wins; otherwise auto-classify.
+    Returns (label, css_class, intensity 1-3, source) where source is 'author' or 'auto'."""
+    m = re.search(r"impact:\s*([+\-]?[a-zA-Z]+)", tagstr or "", re.I)
+    if m:
+        raw = m.group(1).lower()
+        pick = IMPACT_TOKENS.get(raw) or IMPACT_TOKENS.get(raw.lstrip("+-"))
+        if pick:
+            c = (conf or "").lower()
+            inten = 3 if "confirm" in c else (2 if "reported" in c else (1 if ("early" in c or "inference" in c or "signal" in c) else 2))
+            return pick[0], pick[1], inten, "author"
+    lab, cls, inten = classify_impact(headline, sowhat, body, conf)
+    return lab, cls, inten, "auto"
+
 def parse_items(tele):
     items, cur = [], None
     for raw in tele.split("\n"):
@@ -127,15 +150,18 @@ def parse_items(tele):
     out=[]
     for it in items:
         if not it.get("tags"): continue
-        f=[x.strip() for x in re.split(r"[|·]", it["tags"])]  # tags may use | or ·
+        tagstr = it["tags"]
+        # drop the optional 'impact:<token>' field before reading segment/country/confidence
+        clean = re.sub(r"[·|]?\s*impact:\s*[+\-]?[a-zA-Z]+", "", tagstr, flags=re.I).strip(" ·|")
+        f=[x.strip() for x in re.split(r"[|·]", clean)]  # tags may use | or ·
         segs=segments_from_tag(f[0] if f else "")
         if not segs: continue
         conf = f[2] if len(f)>2 else ""
-        _imp,_impc,_inten = classify_impact(it["headline"], it["sowhat"], " ".join(it["body"]), conf)
+        _imp,_impc,_inten,_src = resolve_impact(tagstr, it["headline"], it["sowhat"], " ".join(it["body"]), conf)
         out.append({"headline":it["headline"],"body":" ".join(it["body"]).strip(),
                     "sowhat":it["sowhat"].strip(),"segments":segs,
                     "countries":f[1] if len(f)>1 else "","confidence":conf,
-                    "impact":_imp,"impactClass":_impc,"intensity":_inten})
+                    "impact":_imp,"impactClass":_impc,"intensity":_inten,"impactSet":_src})
     return out
 
 def render_body(text):
