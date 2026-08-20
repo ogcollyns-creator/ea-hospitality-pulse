@@ -85,9 +85,10 @@ def parse_items(tele):
     for raw in tele.split("\n"):
         l = raw.strip()
         if not l: continue
-        if KEYCAP.match(l):
+        lm = l.strip("*").strip()   # de-bold so **1⃣ ...** headlines still parse
+        if KEYCAP.match(lm):
             if cur: items.append(cur)
-            cur = {"headline": KEYCAP.sub("", l), "body": [], "sowhat":"", "tags":""}
+            cur = {"headline": KEYCAP.sub("", lm).strip(), "body": [], "sowhat":"", "tags":""}
         elif cur is not None:
             if l.startswith("🎯"): cur["sowhat"]=l
             elif l.startswith("🏷"): cur["tags"]=l.replace("🏷","").strip(); items.append(cur); cur=None
@@ -97,7 +98,7 @@ def parse_items(tele):
     out=[]
     for it in items:
         if not it.get("tags"): continue
-        f=[x.strip() for x in it["tags"].split("|")]
+        f=[x.strip() for x in re.split(r"[|·]", it["tags"])]  # tags may use | or ·
         segs=segments_from_tag(f[0] if f else "")
         if not segs: continue
         out.append({"headline":it["headline"],"body":" ".join(it["body"]).strip(),

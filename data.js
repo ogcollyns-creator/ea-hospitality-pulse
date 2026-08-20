@@ -605,6 +605,87 @@ window.EDITIONS = [
 ];
 window.INSIGHTS = [
  {
+  "headline": "🇰🇪 SEVEN KILLED IN SAMBURU SAFARI-HELICOPTER CRASH — KCAA INVESTIGATING",
+  "body": "A Eurocopter EC130 B4 operated by Lady Lori Helicopters, carrying &Beyond guests, came down near **Mount Ololokwe in Samburu** at about 09:13 on Wednesday 19 August, on a charter from **Loisaba Conservancy to the Ewaso Nyiro area**. All seven aboard died — five Americans (including a Telemundo/NBCUniversal executive), Ecuador's national intelligence chief and his wife, and the Kenyan pilot. The **KCAA has opened an investigation**; the cause is undetermined (CNN, Al Jazeera, CBS, 19 Aug). This is the **second fatal tourist-air crash in under a year**, after the October 2025 Mombasa Air Safari crash near the Maasai Mara that killed 11. Premium fly-in safari runs on exactly this light-aircraft and helicopter airlift.",
+  "sowhat": "",
+  "segments": [
+   "bush"
+  ],
+  "countries": "Kenya",
+  "confidence": "Confirmed (KCAA / international press, 19 Aug)",
+  "source": "pulse-2026-08-20-morning",
+  "date": "2026-08-20",
+  "dateDisplay": "Thursday, 20 August 2026",
+  "edition": "Morning Brief",
+  "editionKey": "morning"
+ },
+ {
+  "headline": "🇺🇬 KASESE ROOM CRUNCH AS RWENZORI MARATHON DRAWS 45 COUNTRIES",
+  "body": "Government and organisers flag an **accommodation shortfall in Kasese** ahead of the Tusker Lite Mt Rwenzori Marathon on **Saturday 22 August**, with runners from roughly **45 countries** (APO/ATTA; Africa24, mid-Aug). Kasese's bed stock is thin for the weekend.",
+  "sowhat": "",
+  "segments": [
+   "city",
+   "bush"
+  ],
+  "countries": "Uganda",
+  "confidence": "Confirmed (organiser/govt, mid-Aug)",
+  "source": "pulse-2026-08-20-morning",
+  "date": "2026-08-20",
+  "dateDisplay": "Thursday, 20 August 2026",
+  "edition": "Morning Brief",
+  "editionKey": "morning"
+ },
+ {
+  "headline": "🇰🇪 THE COAST IS OUTGROWING THE GATEWAY — AND THE NATIONAL NUMBER HIDES IT",
+  "body": "Official visitor arrivals now run through April. Jan–Apr 2026: **828,830, up 9.5%** on the same months of 2025 (757,245) — Kenya Leading Economic Indicators, June 2026, KNBS, released 14 Aug. The headline is real. The distribution is the story. Mombasa's Moi International (MIA) took **96,701 arrivals, up 19.7%** year-on-year, while JKIA grew **8.5%** and land borders **7.5%**. The coast is recovering over twice as fast as the Nairobi gateway. **What everyone is missing:** the +9.5% is not evenly yours. In April — the long-rains trough — national arrivals rose just 2.9% and **JKIA fell 1.0%** YoY. Strip the coast out and the city-gateway recovery is modest and seasonal. A Nairobi GM reading \"+9.5%\" as their own demand is reading the wrong line. Backing it: SGR passengers ran **~12% ahead** in Q1 — the Nairobi–Mombasa corridor is carrying this (KNBS).",
+  "sowhat": "",
+  "segments": [
+   "city",
+   "beach"
+  ],
+  "countries": "Kenya",
+  "confidence": "Confirmed (KNBS arrivals & SGR) / Inference (regional read)",
+  "source": "pulse-2026-08-18-special",
+  "date": "2026-08-18",
+  "dateDisplay": "Tuesday, 18 August 2026",
+  "edition": "Morning Brief",
+  "editionKey": "morning"
+ },
+ {
+  "headline": "🇰🇪 THE CURRENCY IS QUIETLY REPRICING YOUR EUROPEAN GUEST",
+  "body": "Over H1 2026 the shilling **firmed** against sterling (174.32→**172.72**) and the euro (151.37→**149.22**), flat against the dollar at **~129.5** (KNBS, June). Inflation sat at **6.4%**, the CBR held at **8.75%**. Read together: a European operator's fixed FX budget now buys **fewer shillings** than in January — mild pressure on any KES-cost property selling into Europe, while dollar-priced lodges keep their spread intact.",
+  "sowhat": "",
+  "segments": [
+   "city",
+   "bush",
+   "beach"
+  ],
+  "countries": "Kenya",
+  "confidence": "Confirmed (KNBS forex/CPI) / Inference (pricing read)",
+  "source": "pulse-2026-08-18-special",
+  "date": "2026-08-18",
+  "dateDisplay": "Tuesday, 18 August 2026",
+  "edition": "Morning Brief",
+  "editionKey": "morning"
+ },
+ {
+  "headline": "🌍 THE AIRLIFT YOU'RE CELEBRATING IS THE LEAST PROFITABLE IN THE WORLD",
+  "body": "Every route launch lands as good news in this business. Uganda Airlines opens Entebbe–Accra on 27 Oct and daily Entebbe–Kigali on 18 Nov (announced 5 Aug, The EastAfrican); Airlink starts Cape Town–Zanzibar on 3 Oct. Read the balance sheet underneath and the mood changes. IATA's December outlook put African carriers at **US$1.30 of profit per passenger** for 2026 against a **US$7.90** global average — a **1.3% margin, the thinnest of any region** (IATA, 9 Dec 2025). By its June AGM it had cut the 2026 line again: profit per passenger down to **40 US cents** from US$2.10 in 2025, and the continent's total net profit halved to **~US$100m** (IATA \"Energy in Crisis\" outlook, 8 Jun 2026). East Africa's recovery is riding on the most fragile airlift economics on the planet. **What everyone is missing:** a new-route press release reads as demand arriving. It is actually thin-margin capacity being *lent* — and thin-margin capacity is the first thing cut when a season underperforms. Turkish suspended 18 routes for summer 2026, Istanbul–Dar es Salaam among them, final flights in May/June (reported 2026). The route you don't help fill in its first two seasons is the route that isn't there in year three. Airlift is not infrastructure you inherit; it's a trade relationship you keep alive.",
+  "sowhat": "",
+  "segments": [
+   "city",
+   "bush",
+   "beach"
+  ],
+  "countries": "Regional",
+  "confidence": "Confirmed (IATA figures & schedules) / Inference (fragility read)",
+  "source": "pulse-2026-08-18-morning",
+  "date": "2026-08-18",
+  "dateDisplay": "Tuesday, 18 August 2026",
+  "edition": "Morning Brief",
+  "editionKey": "morning"
+ },
+ {
   "headline": "ZANZIBAR PORT PLEDGE ARRIVES WITHOUT A DATE",
   "body": "TRA Commissioner General Yusuph Mwenda toured Fumba Port in Unguja on Saturday 15 August and pledged a modern cargo scanner to speed clearance (The Citizen, 17 August). In the same report, Zanzibar Ports Corporation director general Akif Ali Khamis said the completed port would handle \"approximately 40 containers per hour, equivalent to between 250,000 and 400,000 containers per month\", with 350-metre quays on each side by February 2027. Those two figures do not reconcile. Forty an hour run continuously is about 28,800 a month. The monthly claim implies roughly 350 an hour — eight to fourteen times the stated rate.",
   "sowhat": "🎯 So what: The operator gain is real and separate from the throughput claim. Khamis says Zanzibar cargo has been routed through neighbouring ports first; removing that leg is the saving worth pricing. Do not model 2027 landed costs on either container figure until TRA publishes a contract award and ZPC restates throughput.",
@@ -678,7 +759,7 @@ window.INSIGHTS = [
    "beach"
   ],
   "countries": "Regional",
-  "confidence": "Confirmed (notice) · Early signal (effect)",
+  "confidence": "Confirmed (notice)",
   "source": "pulse-2026-08-17-evening",
   "date": "2026-08-17",
   "dateDisplay": "Monday, 17 August 2026",
@@ -699,6 +780,81 @@ window.INSIGHTS = [
   "dateDisplay": "Monday, 17 August 2026",
   "edition": "Evening Wrap",
   "editionKey": "evening"
+ },
+ {
+  "headline": "🇹🇿 ZANZIBAR'S RECORD JULY WIDENED THE GAP IT SHOULD HAVE CLOSED",
+  "body": "**107,801** visitors in July — an all-time monthly record, **+9.6%** on July 2025's 98,370 (OCGS, via The Citizen, 14 Aug). It was also **+54.9%** on June's 69,605, and **2.68× May's 40,151**. A year earlier that same step was +45.7%. The swing didn't narrow. It widened by nine points. The Maldives, on months published so far in 2026, ran 247,722 in February to 123,552 in June — **2.01×** (Maldives Monetary Authority). Definitions differ, but the direction isn't in doubt: Zanzibar is getting better at selling ten weeks and no better at selling the other forty-two. **What everyone is missing:** the record was disproportionately *not* European. Europe supplied 60,754, yet its share fell from **61.9%** in June to **56.4%** in July. Back out the residual and non-European arrivals grew **+77.5%** month-on-month, against Europe's +40.9%. The marginal guest is increasingly African, Gulf and Asian — booking shorter, later, outside European tour-operator rails. That is the only demand that doesn't obey a European school calendar, and the only demand that can flatten this curve.",
+  "sowhat": "",
+  "segments": [
+   "beach"
+  ],
+  "countries": "Tanzania/Zanzibar",
+  "confidence": "Confirmed (OCGS & MMA figures) / Inference (amplitude read)",
+  "source": "pulse-2026-08-16-morning",
+  "date": "2026-08-16",
+  "dateDisplay": "Sunday, 16 August 2026",
+  "edition": "Morning Brief",
+  "editionKey": "morning"
+ },
+ {
+  "headline": "🇹🇿 THE ROUTE EVERYONE IS FILING UNDER 'NICE TO HAVE'",
+  "body": "Airlink starts the first-ever non-stop Cape Town–Zanzibar service on **3 October 2026** — Saturdays, year-round, E195-E2, 124 seats (Airlink, via TATO/Tourism Update, Aug 2026). Reported as a leisure route. Read it as a seasonality instrument: year-round regional airlift from a market whose holiday calendar doesn't track Europe's. One rotation won't flatten a 2.68× curve — but it's the *shape* of the thing that does.",
+  "sowhat": "",
+  "segments": [
+   "beach"
+  ],
+  "countries": "Tanzania/South Africa",
+  "confidence": "Confirmed (schedule) / Inference (read)",
+  "source": "pulse-2026-08-16-morning",
+  "date": "2026-08-16",
+  "dateDisplay": "Sunday, 16 August 2026",
+  "edition": "Morning Brief",
+  "editionKey": "morning"
+ },
+ {
+  "headline": "🇹🇿 THE OPERATOR ISN'T LEAVING — IT'S ARRIVING LATE",
+  "body": "TUI's Q3 revenue fell 5.6% to €5.8bn, yet it **reaffirmed FY EBIT guidance of €1.1–1.4bn**, last four weeks **+7%** (12 Aug). Its Winter 2027 programme centres on Zanzibar: first UK direct package flights, Gatwick twice weekly from **3 Nov 2027** (TUI newsroom, 2 Jul 2026).",
+  "sowhat": "🎯 **So what:** Don't sign multi-year allocation on 2026 terms. A low net rate locked now expires exactly when pricing power returns.",
+  "segments": [
+   "beach"
+  ],
+  "countries": "Zanzibar/Global",
+  "confidence": "Confirmed",
+  "source": "foresight-2026-08-16",
+  "date": "2026-08-16",
+  "dateDisplay": "Sunday, 16 August 2026",
+  "edition": "Sunday Foresight",
+  "editionKey": "foresight"
+ },
+ {
+  "headline": "🇹🇿 A RECORD MONTH THAT WASN'T EUROPEAN",
+  "body": "July's 107,801 was **2.68× May's 40,151** — a wider peak-to-trough swing than a year ago, not a narrower one (OCGS, 14 Aug).",
+  "sowhat": "🎯 **So what:** Split pace into two lines with two lead times — allocation, and direct+OTA. A blended line measures a shrinking share of the book and calls it the whole book.",
+  "segments": [
+   "beach"
+  ],
+  "countries": "Tanzania/Zanzibar",
+  "confidence": "Confirmed (OCGS) / Inference",
+  "source": "foresight-2026-08-16",
+  "date": "2026-08-16",
+  "dateDisplay": "Sunday, 16 August 2026",
+  "edition": "Sunday Foresight",
+  "editionKey": "foresight"
+ },
+ {
+  "headline": "🇪🇺 TUI: THE EUROPEAN GUEST IS BOOKING LATE, NOT BOOKING LESS",
+  "body": "TUI's Q3, out this morning: underlying EBIT **€234m** against €321m a year ago, summer booked revenue **6% below** last year — but bookings **up 7% over the past four weeks**, FY26 guidance held (TUI Group, 12 Aug).",
+  "sowhat": "",
+  "segments": [
+   "beach"
+  ],
+  "countries": "Beach",
+  "confidence": "Confirmed (figures) / Inference (EA read)",
+  "source": "pulse-2026-08-12-midday",
+  "date": "2026-08-12",
+  "dateDisplay": "Wednesday, 12 August 2026",
+  "edition": "Midday Pulse",
+  "editionKey": "midday"
  },
  {
   "headline": "COST PULSE — THE PUMP-PRICE WINDOW CLOSES IN SIX DAYS",
@@ -1496,7 +1652,7 @@ window.INSIGHTS = [
   "editionKey": "midday"
  },
  {
-  "headline": "**DRC'S OUTBREAK IS GROWING, NOT SHRINKING**",
+  "headline": "**DRC'S OUTBREAK IS GROWING, NOT SHRINKING",
   "body": "The ECDC's Communicable Disease Threats Report for week 30 (published 24 July) and its outbreak page (updated 22 July) cite DRC's INSP situation report of 21 July: 2,473 confirmed cases and 999 deaths, with 50 new confirmed cases and 32 deaths in a single day. Ituri alone accounts for 2,202 cases. Uganda, by contrast, has had no new case since 21 June. We have not seen this translated for operators anywhere in the trade press.",
   "sowhat": "🎯 **So what:** Stop budgeting for a \"post-declaration bounce\" in late August. Uganda's all-clear resolves Uganda's outbreak, not the region's risk file. Brief your agents now that the Ugandan and Congolese situations are separate — because the advisory desks in Washington, London and Berlin are modelling DRC's curve, not Uganda's.",
   "segments": [
@@ -1512,7 +1668,7 @@ window.INSIGHTS = [
   "editionKey": "foresight"
  },
  {
-  "headline": "**UGANDA AIRLINES BUYS FOR A DECADE IT HASN'T UNDERWRITTEN**",
+  "headline": "**UGANDA AIRLINES BUYS FOR A DECADE IT HASN'T UNDERWRITTEN",
   "body": "At Farnborough on 21 July, Uganda Airlines ordered four Boeing 737-8 MAX and four 787-9 Dreamliners — its first direct purchase from Boeing (New Vision, 22 July). The 787-9s are for Europe, Asia and the Middle East; the MAXs for Africa, the Middle East and India. The carrier currently serves 17 destinations in 13 countries from Entebbe.",
   "sowhat": "🎯 **So what:** This is a long-haul bet placed by a country sitting at US Level 4 with Q1 Entebbe arrivals down 7.9%. Seats, not brand, will set 2027–28 Kampala rates. If you own Kampala rooms, model a scenario where lift arrives twelve months before the advisory lifts: high volume, low rate, heavy regional and Indian mix. Start building corporate and MICE contracts now while you still have pricing power.",
   "segments": [
@@ -1528,7 +1684,7 @@ window.INSIGHTS = [
   "editionKey": "foresight"
  },
  {
-  "headline": "**KENYA'S COAST IS RUNNING HOT WHILE THE INTERIOR ARGUES**",
+  "headline": "**KENYA'S COAST IS RUNNING HOT WHILE THE INTERIOR ARGUES",
   "body": "Tourism CS Rebecca Miano said on Friday 24 July that more than 20,000 visitors arrived through Mombasa in the previous week. That is peak-season strength holding through a fortnight of political noise, a UK training-exercise withdrawal from Laikipia and an unresolved Mara licensing case.",
   "sowhat": "🎯 **So what:** Coast demand is not the problem this quarter; conversion is. Hold rate through August rather than discounting into a full house, and shift any spend into September–November, where the coast is thinner than the bush.",
   "segments": [
@@ -2065,4 +2221,4 @@ window.INSIGHTS = [
   "editionKey": "evening"
  }
 ];
-window.BUILT_AT = "2026-08-20 10:24";
+window.BUILT_AT = "2026-08-20 11:35";
