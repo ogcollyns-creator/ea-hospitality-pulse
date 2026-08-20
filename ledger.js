@@ -1,8 +1,8 @@
 window.LEDGER = {
- "updated": "2026-08-20 12:16",
+ "updated": "2026-08-20 15:50",
  "stats": {
-  "total": 107,
-  "open": 86,
+  "total": 108,
+  "open": 87,
   "resolved": 21,
   "correct": 15,
   "partial": 1,
@@ -536,6 +536,22 @@ window.LEDGER = {
    "resolved_date": "",
    "evidence": "",
    "source_url": "https://www.thecitizen.co.tz/tanzania/zanzibar/zanzibar-makes-july-tourism-history-with-record-107-801-arrivals-5557592",
+   "overdue": false
+  },
+  {
+   "id": "P107",
+   "made_date": "2026-08-20",
+   "edition": "pulse-2026-08-20-midday",
+   "claim": "CDC's Title 42 rerouting order covering Uganda/DRC (docket CDC-2026-0892) will be renewed at or after the 11 Sep 2026 assessment rather than allowed to lapse — DRC transmission is climbing (5,021 cases / 2,378 deaths as at WHO 18 Aug) and the release condition is DRC-side",
+   "resolution_criteria": "A CDC order/notice extending or renewing the 42 CFR 71.40 rerouting measure for Uganda/DRC travellers is published on regulations.gov (docket CDC-2026-0892) or the CDC returning-travellers page on or after 11 Sep 2026. If the order lapses without renewal the call is incorrect",
+   "resolve_by": "2026-09-30",
+   "market": "Regional",
+   "segment": "City|Bush",
+   "confidence": "Medium",
+   "status": "open",
+   "resolved_date": "",
+   "evidence": "",
+   "source_url": "https://www.who.int/emergencies/disease-outbreak-news/item/2026-DON615",
    "overdue": false
   },
   {
