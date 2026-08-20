@@ -1368,7 +1368,11 @@
     return '<span class="tk-item '+(kind||'')+'">'+(label?'<b>'+label+'</b> ':'')+text+'</span>';
   }
   function build(){
-    var out=[], ins=window.INSIGHTS||[];
+    var out=[], ins=(window.INSIGHTS||[]).slice().sort(function(a,b){
+      var da=(String(a.source).match(/\d{4}-\d{2}-\d{2}/)||[''])[0];
+      var db=(String(b.source).match(/\d{4}-\d{2}-\d{2}/)||[''])[0];
+      return db.localeCompare(da);
+    });
     if(ins.length){
       var latest=ins[0].dateDisplay;
       var n=ins.filter(function(i){return i.dateDisplay===latest;}).length;
