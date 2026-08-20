@@ -1,18 +1,51 @@
 {
- "generated": "2026-08-21T00:04:56+03:00",
+ "generated": "2026-08-21T02:01:21+03:00",
  "slot": "morning",
  "window_start": 1787238000,
- "observations_in_window": 268,
+ "observations_in_window": 344,
  "deduped_against": 6,
  "candidates": [
   {
-   "score": 100.0,
+   "score": 101.4,
    "components": {
     "tier": 40,
     "category": 32,
     "lead": 3.6,
     "relevance": 0,
-    "freshness": 18.4,
+    "freshness": 19.8,
+    "corroborated": 10,
+    "page_change": -4
+   },
+   "keywords": [],
+   "shock_terms": [],
+   "dedupe_match": null,
+   "dedupe_similarity": 0.0,
+   "id": "0bd9994f8387",
+   "title": "[page changed] Federal Register \u2014 public inspection (HHS/CDC), pre-publication",
+   "url": "https://www.federalregister.gov/api/v1/public-inspection-documents/current.json",
+   "summary": "{\"count\":118,\"results\":[{\"agencies\":[{\"raw_name\":\"EQUAL EMPLOYMENT OPPORTUNITY COMMISSION\",\"name\":\"Equal Employment Opportunity Commission\",\"id\":147,\"url\":\"https://www.federalregister.gov/agencies/equal-employment-opportunity-commission\",\"json_url\":\"https://www.federalregister.gov/api/v1/agencies/147\",\"parent_id\":null,\"slug\":\"equal-employment-opportunity-commission\"}],\"agency_letters\":[],\"agency_n",
+   "kind": "page-change",
+   "source": "Federal Register \u2014 public inspection (HHS/CDC), pre-publication",
+   "source_id": "us-fedreg-pubinspect-hhs",
+   "tier": 1,
+   "country": "REG",
+   "category": "advisory",
+   "segments": [
+    "city",
+    "bush"
+   ],
+   "first_seen": "2026-08-21T02:00+03:00",
+   "published": "2026-08-19",
+   "verdict": "OPEN THIS \u2014 tier-1 advisory page moved; content not auto-parsed, read it manually"
+  },
+  {
+   "score": 97.8,
+   "components": {
+    "tier": 40,
+    "category": 32,
+    "lead": 3.6,
+    "relevance": 0,
+    "freshness": 16.2,
     "corroborated": 10,
     "page_change": -4
    },
@@ -39,13 +72,13 @@
    "verdict": "OPEN THIS \u2014 tier-1 advisory page moved; content not auto-parsed, read it manually"
   },
   {
-   "score": 97.0,
+   "score": 94.8,
    "components": {
     "tier": 40,
     "category": 32,
     "lead": 3.6,
     "relevance": 0,
-    "freshness": 15.4,
+    "freshness": 13.2,
     "corroborated": 10,
     "page_change": -4
    },
@@ -86,6 +119,40 @@
    "shock_terms": [],
    "dedupe_match": null,
    "dedupe_similarity": 0.0,
+   "id": "ff34e2ab6500",
+   "title": "[page changed] Airlink news",
+   "url": "https://www.flyairlink.com/",
+   "summary": "Request unsuccessful. Incapsula incident ID: 8072000730016817493-63998951724421710",
+   "kind": "page-change",
+   "source": "Airlink news",
+   "source_id": "air-airlink",
+   "tier": 1,
+   "country": "REG",
+   "category": "airline",
+   "segments": [
+    "city",
+    "bush",
+    "beach"
+   ],
+   "first_seen": "2026-08-21T02:00+03:00",
+   "published": null,
+   "verdict": "OPEN THIS \u2014 tier-1 airline page moved; content not auto-parsed, read it manually"
+  },
+  {
+   "score": 63.2,
+   "components": {
+    "tier": 40,
+    "category": 12,
+    "lead": 3.6,
+    "relevance": 0,
+    "freshness": 17.6,
+    "undated": -6,
+    "page_change": -4
+   },
+   "keywords": [],
+   "shock_terms": [],
+   "dedupe_match": null,
+   "dedupe_similarity": 0.0,
    "id": "8b382fa09c80",
    "title": "[page changed] Jambojet media",
    "url": "https://www.jambojet.com/en/press-release",
@@ -106,13 +173,48 @@
    "verdict": "OPEN THIS \u2014 tier-1 airline page moved; content not auto-parsed, read it manually"
   },
   {
-   "score": 101.6,
+   "score": 99.6,
+   "components": {
+    "tier": 40,
+    "category": 9,
+    "lead": 16.8,
+    "relevance": 4,
+    "freshness": 19.8,
+    "corroborated": 10
+   },
+   "keywords": [
+    "resort"
+   ],
+   "shock_terms": [],
+   "dedupe_match": null,
+   "dedupe_similarity": 0.0,
+   "id": "f255b2028851",
+   "title": "More Vacation, Less Calculation: Maximizing Hilton Honors Points at All-Inclusive Resorts",
+   "url": "https://stories.hilton.com/hilton-honors/maximizing-hilton-honors-points-at-all-inclusive-resorts",
+   "summary": "Planning a vacation often comes with a familiar balancing act: choosing the destination, setting a budget and finding ways to make every moment count once you arrive. For travelers looking for simplicity, Hilton\u2019s all-inclusive portfolio helps streamline that experience by bringing more of the vacation \u2013 and more of the costs \u2013 into one stay. This [\u2026] The post More Vacation, Less Calculation: Maxi",
+   "kind": "item",
+   "source": "Hilton stories/newsroom",
+   "source_id": "dev-hilton",
+   "tier": 1,
+   "country": "GLOBAL",
+   "category": "hotel-group",
+   "segments": [
+    "city",
+    "bush",
+    "beach"
+   ],
+   "first_seen": "2026-08-21T02:00+03:00",
+   "published": "2026-08-20",
+   "verdict": "STRONG \u2014 tier-1, upstream"
+  },
+  {
+   "score": 99.4,
    "components": {
     "tier": 40,
     "category": 32,
     "lead": 1.2,
     "relevance": 16,
-    "freshness": 18.4,
+    "freshness": 16.2,
     "undated": -6
    },
    "keywords": [
@@ -142,13 +244,13 @@
    "verdict": "STRONG \u2014 tier-1, upstream"
   },
   {
-   "score": 101.6,
+   "score": 99.4,
    "components": {
     "tier": 40,
     "category": 32,
     "lead": 1.2,
     "relevance": 16,
-    "freshness": 18.4,
+    "freshness": 16.2,
     "undated": -6
    },
    "keywords": [
@@ -178,13 +280,13 @@
    "verdict": "STRONG \u2014 tier-1, upstream"
   },
   {
-   "score": 101.6,
+   "score": 99.4,
    "components": {
     "tier": 40,
     "category": 32,
     "lead": 1.2,
     "relevance": 16,
-    "freshness": 18.4,
+    "freshness": 16.2,
     "undated": -6
    },
    "keywords": [
@@ -214,13 +316,13 @@
    "verdict": "STRONG \u2014 tier-1, upstream"
   },
   {
-   "score": 101.6,
+   "score": 99.4,
    "components": {
     "tier": 40,
     "category": 32,
     "lead": 1.2,
     "relevance": 16,
-    "freshness": 18.4,
+    "freshness": 16.2,
     "undated": -6
    },
    "keywords": [
@@ -250,13 +352,13 @@
    "verdict": "STRONG \u2014 tier-1, upstream"
   },
   {
-   "score": 101.6,
+   "score": 99.4,
    "components": {
     "tier": 40,
     "category": 32,
     "lead": 1.2,
     "relevance": 16,
-    "freshness": 18.4,
+    "freshness": 16.2,
     "undated": -6
    },
    "keywords": [
@@ -286,13 +388,13 @@
    "verdict": "STRONG \u2014 tier-1, upstream"
   },
   {
-   "score": 98.4,
+   "score": 96.2,
    "components": {
     "tier": 20,
     "category": 4,
     "lead": 0.0,
     "relevance": 28,
-    "freshness": 18.4,
+    "freshness": 16.2,
     "corroborated": 10,
     "shock": 18
    },
@@ -326,13 +428,13 @@
    "verdict": "CONSIDER"
   },
   {
-   "score": 97.6,
+   "score": 95.4,
    "components": {
     "tier": 40,
     "category": 32,
     "lead": 1.2,
     "relevance": 12,
-    "freshness": 18.4,
+    "freshness": 16.2,
     "undated": -6
    },
    "keywords": [
@@ -361,13 +463,13 @@
    "verdict": "STRONG \u2014 tier-1, upstream"
   },
   {
-   "score": 96.2,
+   "score": 94.0,
    "components": {
     "tier": 20,
     "category": 14,
     "lead": 8.4,
     "relevance": 24,
-    "freshness": 19.8,
+    "freshness": 17.6,
     "corroborated": 10
    },
    "keywords": [
@@ -399,13 +501,46 @@
    "verdict": "CONSIDER"
   },
   {
-   "score": 88.0,
+   "score": 87.0,
+   "components": {
+    "tier": 40,
+    "category": 32,
+    "lead": 1.2,
+    "relevance": 0,
+    "freshness": 19.8,
+    "undated": -6
+   },
+   "keywords": [],
+   "shock_terms": [],
+   "dedupe_match": null,
+   "dedupe_similarity": 0.0,
+   "id": "7bb96a789ca6",
+   "title": "Antigua and Barbuda - Level 1: Exercise Normal Precautions",
+   "url": "https://travel.state.gov/content/tsg_aem/us/en/home/international-travel/travel-advisories/destination.atg.html",
+   "summary": "Exercise normal precaution in Antigua and Barbuda. Antigua and Barbuda is generally a safe destination for travelers. Antigua and Barbuda regularly experiences hurricanes. Review our information on Weather and Natural Disaster s in Antigua and Barbuda. Review our Travel Guidance for Antigua and Barbuda to learn how to prepare for a safe trip.",
+   "kind": "item",
+   "source": "US State Dept travel advisories (EA feed)",
+   "source_id": "adv-us-ea",
+   "tier": 1,
+   "country": "REG",
+   "category": "advisory",
+   "segments": [
+    "city",
+    "bush",
+    "beach"
+   ],
+   "first_seen": "2026-08-21T02:00+03:00",
+   "published": null,
+   "verdict": "CONSIDER"
+  },
+  {
+   "score": 85.9,
    "components": {
     "tier": 20,
     "category": 14,
     "lead": 8.4,
     "relevance": 20,
-    "freshness": 15.6,
+    "freshness": 13.5,
     "corroborated": 10
    },
    "keywords": [
@@ -436,13 +571,13 @@
    "verdict": "CONSIDER"
   },
   {
-   "score": 86.2,
+   "score": 84.0,
    "components": {
     "tier": 20,
     "category": 24,
     "lead": 2.4,
     "relevance": 12,
-    "freshness": 19.8,
+    "freshness": 17.6,
     "undated": -6,
     "shock": 18,
     "page_change": -4
@@ -475,13 +610,13 @@
    "verdict": "CONSIDER"
   },
   {
-   "score": 85.6,
+   "score": 83.4,
    "components": {
     "tier": 40,
     "category": 32,
     "lead": 1.2,
     "relevance": 0,
-    "freshness": 18.4,
+    "freshness": 16.2,
     "undated": -6
    },
    "keywords": [],
@@ -508,13 +643,13 @@
    "verdict": "CONSIDER"
   },
   {
-   "score": 85.6,
+   "score": 83.4,
    "components": {
     "tier": 40,
     "category": 32,
     "lead": 1.2,
     "relevance": 0,
-    "freshness": 18.4,
+    "freshness": 16.2,
     "undated": -6
    },
    "keywords": [],
@@ -541,13 +676,13 @@
    "verdict": "CONSIDER"
   },
   {
-   "score": 85.6,
+   "score": 83.4,
    "components": {
     "tier": 40,
     "category": 32,
     "lead": 1.2,
     "relevance": 0,
-    "freshness": 18.4,
+    "freshness": 16.2,
     "undated": -6
    },
    "keywords": [],
@@ -574,13 +709,13 @@
    "verdict": "CONSIDER"
   },
   {
-   "score": 85.6,
+   "score": 83.4,
    "components": {
     "tier": 40,
     "category": 32,
     "lead": 1.2,
     "relevance": 0,
-    "freshness": 18.4,
+    "freshness": 16.2,
     "undated": -6
    },
    "keywords": [],
@@ -607,13 +742,13 @@
    "verdict": "CONSIDER"
   },
   {
-   "score": 85.6,
+   "score": 83.4,
    "components": {
     "tier": 40,
     "category": 32,
     "lead": 1.2,
     "relevance": 0,
-    "freshness": 18.4,
+    "freshness": 16.2,
     "undated": -6
    },
    "keywords": [],
@@ -640,13 +775,13 @@
    "verdict": "CONSIDER"
   },
   {
-   "score": 84.2,
+   "score": 82.0,
    "components": {
     "tier": 20,
     "category": 14,
     "lead": 8.4,
     "relevance": 12,
-    "freshness": 19.8,
+    "freshness": 17.6,
     "corroborated": 10
    },
    "keywords": [
@@ -676,13 +811,244 @@
    "verdict": "CONSIDER"
   },
   {
-   "score": 82.4,
+   "score": 80.6,
+   "components": {
+    "tier": 40,
+    "category": 10,
+    "lead": 16.8,
+    "relevance": 0,
+    "freshness": 19.8,
+    "undated": -6
+   },
+   "keywords": [],
+   "shock_terms": [],
+   "dedupe_match": null,
+   "dedupe_similarity": 0.0,
+   "id": "ba64871c67e1",
+   "title": "\ud835\udc0d\ud835\udc00\ud835\udc13\ud835\udc08\ud835\udc0e\ud835\udc0d\ud835\udc00\ud835\udc0b \ud835\udc00\ud835\udc12\ud835\udc12\ud835\udc04\ud835\udc0c\ud835\udc01\ud835\udc0b\ud835\udc18 \ud835\udc02\ud835\udc00\ud835\udc0b\ud835\udc0b\ud835\udc12 \ud835\udc05\ud835\udc0e\ud835\udc11 \ud835\udc12\ud835\udc13\ud835\udc11\ud835\udc14\ud835\udc02\ud835\udc13\ud835\udc14\ud835\udc11\ud835\udc04\ud835\udc03 \ud835\udc02\ud835\udc0e\ud835\udc14\ud835\udc0d\ud835\udc12\ud835\udc04\ud835\udc0b\ud835\udc0b\ud835\udc08\ud835\udc0d\ud835\udc06 \ud835\udc0f\ud835\udc11\ud835\udc0e\ud835\udc06\ud835\udc11\ud835\udc00\ud835\udc0c\ud835\udc0c\ud835\udc04\ud835\udc12 \ud835\udc08\ud835\udc0d \ud835\udc12\ud835\udc02\ud835\udc07\ud835\udc0e\ud835\udc0e\ud835\udc0b\ud835\udc12",
+   "url": "https://www.parliament.go.ke/node/26293",
+   "summary": "",
+   "kind": "item",
+   "source": "Parliament of Kenya \u2014 bills & papers",
+   "source_id": "ke-parliament",
+   "tier": 1,
+   "country": "KE",
+   "category": "legislature",
+   "segments": [
+    "city",
+    "bush",
+    "beach"
+   ],
+   "first_seen": "2026-08-21T02:00+03:00",
+   "published": null,
+   "verdict": "CONSIDER"
+  },
+  {
+   "score": 80.6,
+   "components": {
+    "tier": 40,
+    "category": 10,
+    "lead": 16.8,
+    "relevance": 0,
+    "freshness": 19.8,
+    "undated": -6
+   },
+   "keywords": [],
+   "shock_terms": [],
+   "dedupe_match": null,
+   "dedupe_similarity": 0.0,
+   "id": "129e936438e8",
+   "title": "\ud835\udc04\ud835\udc0d\ud835\udc04\ud835\udc11\ud835\udc06\ud835\udc18 \ud835\udc12\ud835\udc04\ud835\udc02\ud835\udc13\ud835\udc0e\ud835\udc11 \ud835\udc12\ud835\udc04\ud835\udc13 \ud835\udc05\ud835\udc0e\ud835\udc11 \ud835\udc0c\ud835\udc00\ud835\udc09\ud835\udc0e\ud835\udc11 \ud835\udc11\ud835\udc04\ud835\udc05\ud835\udc0e\ud835\udc11\ud835\udc0c\ud835\udc12 \ud835\udc00\ud835\udc12 \ud835\udc0d\ud835\udc00\ud835\udc13\ud835\udc08\ud835\udc0e\ud835\udc0d\ud835\udc00\ud835\udc0b \ud835\udc00\ud835\udc12\ud835\udc12\ud835\udc04\ud835\udc0c\ud835\udc01\ud835\udc0b\ud835\udc18 \ud835\udc00\ud835\udc03\ud835\udc0e\ud835\udc0f\ud835\udc13\ud835\udc12 \ud835\udc0d\ud835\udc00\ud835\udc13\ud835\udc08\ud835\udc0e\ud835\udc0d\ud835\udc00\ud835\udc0b \ud835\udc04\ud835\udc0d\ud835\udc04\ud835\udc11\ud835\udc06\ud835\udc18 \ud835\udc0f\ud835\udc0e\ud835\udc0b\ud835\udc08\ud835\udc02\ud835\udc18",
+   "url": "https://www.parliament.go.ke/node/26292",
+   "summary": "",
+   "kind": "item",
+   "source": "Parliament of Kenya \u2014 bills & papers",
+   "source_id": "ke-parliament",
+   "tier": 1,
+   "country": "KE",
+   "category": "legislature",
+   "segments": [
+    "city",
+    "bush",
+    "beach"
+   ],
+   "first_seen": "2026-08-21T02:00+03:00",
+   "published": null,
+   "verdict": "CONSIDER"
+  },
+  {
+   "score": 80.6,
+   "components": {
+    "tier": 40,
+    "category": 10,
+    "lead": 16.8,
+    "relevance": 0,
+    "freshness": 19.8,
+    "undated": -6
+   },
+   "keywords": [],
+   "shock_terms": [],
+   "dedupe_match": null,
+   "dedupe_similarity": 0.0,
+   "id": "a55427e2e35a",
+   "title": "FMD factory to cut vaccine prices - Minister Thursday, 20 August 2026",
+   "url": "https://www.parliament.go.ug/news/4573/fmd-factory-cut-vaccine-prices-minister",
+   "summary": "",
+   "kind": "item",
+   "source": "Parliament of Uganda",
+   "source_id": "ug-parliament",
+   "tier": 1,
+   "country": "UG",
+   "category": "legislature",
+   "segments": [
+    "city",
+    "bush",
+    "beach"
+   ],
+   "first_seen": "2026-08-21T02:00+03:00",
+   "published": null,
+   "verdict": "CONSIDER"
+  },
+  {
+   "score": 80.6,
+   "components": {
+    "tier": 40,
+    "category": 10,
+    "lead": 16.8,
+    "relevance": 0,
+    "freshness": 19.8,
+    "undated": -6
+   },
+   "keywords": [],
+   "shock_terms": [],
+   "dedupe_match": null,
+   "dedupe_similarity": 0.0,
+   "id": "f9265877e44c",
+   "title": "Parliament honours Ghetto Kids Thursday, 20 August 2026",
+   "url": "https://www.parliament.go.ug/news/4572/parliament-honours-ghetto-kids",
+   "summary": "",
+   "kind": "item",
+   "source": "Parliament of Uganda",
+   "source_id": "ug-parliament",
+   "tier": 1,
+   "country": "UG",
+   "category": "legislature",
+   "segments": [
+    "city",
+    "bush",
+    "beach"
+   ],
+   "first_seen": "2026-08-21T02:00+03:00",
+   "published": null,
+   "verdict": "CONSIDER"
+  },
+  {
+   "score": 80.6,
+   "components": {
+    "tier": 40,
+    "category": 10,
+    "lead": 16.8,
+    "relevance": 0,
+    "freshness": 19.8,
+    "undated": -6
+   },
+   "keywords": [],
+   "shock_terms": [],
+   "dedupe_match": null,
+   "dedupe_similarity": 0.0,
+   "id": "96357777384f",
+   "title": "New ID System Faces Questions Over Digital Verification Thursday, 20 August 2026",
+   "url": "https://www.parliament.go.ug/news/4571/new-id-system-faces-questions-over-digital-verification",
+   "summary": "",
+   "kind": "item",
+   "source": "Parliament of Uganda",
+   "source_id": "ug-parliament",
+   "tier": 1,
+   "country": "UG",
+   "category": "legislature",
+   "segments": [
+    "city",
+    "bush",
+    "beach"
+   ],
+   "first_seen": "2026-08-21T02:00+03:00",
+   "published": null,
+   "verdict": "CONSIDER"
+  },
+  {
+   "score": 80.6,
+   "components": {
+    "tier": 40,
+    "category": 10,
+    "lead": 16.8,
+    "relevance": 0,
+    "freshness": 19.8,
+    "undated": -6
+   },
+   "keywords": [],
+   "shock_terms": [],
+   "dedupe_match": null,
+   "dedupe_similarity": 0.0,
+   "id": "c9be5fff4f5b",
+   "title": "Health Commission Proposes Stronger Disciplinary Measures for Errant Workers Thursday, 20 August 2026",
+   "url": "https://www.parliament.go.ug/news/4570/health-commission-proposes-stronger-disciplinary-measures-errant-workers",
+   "summary": "",
+   "kind": "item",
+   "source": "Parliament of Uganda",
+   "source_id": "ug-parliament",
+   "tier": 1,
+   "country": "UG",
+   "category": "legislature",
+   "segments": [
+    "city",
+    "bush",
+    "beach"
+   ],
+   "first_seen": "2026-08-21T02:00+03:00",
+   "published": null,
+   "verdict": "CONSIDER"
+  },
+  {
+   "score": 80.6,
+   "components": {
+    "tier": 40,
+    "category": 10,
+    "lead": 16.8,
+    "relevance": 0,
+    "freshness": 19.8,
+    "undated": -6
+   },
+   "keywords": [],
+   "shock_terms": [],
+   "dedupe_match": null,
+   "dedupe_similarity": 0.0,
+   "id": "118cd52f0d1c",
+   "title": "The Hansard - Tuesday, 18 August 2026",
+   "url": "https://www.parliament.go.ke/sites/default/files/2026-08/The%20Hansard%20-%20Tuesday%2C%2018%20August%202026.pdf",
+   "summary": "en-GB en-GBREPUBLIC OF KENYA en-GB en-GB en-GB en-GB en-GB en-GBTHIRTEENTH PARLIAMENT en-GB en-GB en-GB en-GB en-GBNATIONAL ASSEMBLY en-GB en-GB en-GB en-GB en-GB en-GBTHE HANSARD en-GB en-GB en-GB en-GB en-GB en-GB18th August 2026 Vol. V No. 75 en-GB 18th August 2026 National Assembly Debates 1 Disclaimer: The electronic version of the Official Hansard Report is for information purposes only. A c",
+   "kind": "doc",
+   "source": "Parliament of Kenya \u2014 bills & papers",
+   "source_id": "ke-parliament",
+   "tier": 1,
+   "country": "KE",
+   "category": "legislature",
+   "segments": [
+    "city",
+    "bush",
+    "beach"
+   ],
+   "first_seen": "2026-08-21T02:00+03:00",
+   "published": null,
+   "verdict": "CONSIDER"
+  },
+  {
+   "score": 80.2,
    "components": {
     "tier": 20,
     "category": 5,
     "lead": 3.6,
     "relevance": 24,
-    "freshness": 19.8,
+    "freshness": 17.6,
     "corroborated": 10
    },
    "keywords": [
@@ -714,13 +1080,52 @@
    "verdict": "CONSIDER"
   },
   {
-   "score": 80.2,
+   "score": 79.8,
+   "components": {
+    "tier": 20,
+    "category": 4,
+    "lead": 0.0,
+    "relevance": 24,
+    "freshness": 19.8,
+    "undated": -6,
+    "shock": 18
+   },
+   "keywords": [
+    "outbreak",
+    "ebola"
+   ],
+   "shock_terms": [
+    "outbreak"
+   ],
+   "dedupe_match": null,
+   "dedupe_similarity": 0.33,
+   "id": "00c9ba647058",
+   "title": "Africa Congo set to receive 70,000 Ervebo vaccines to contain Ebola outbreak 11 hours ago - 2 min read",
+   "url": "https://www.thecitizen.co.tz/tanzania/news/africa/congo-set-to-receive-70-000-ervebo-vaccines-to-contain-ebola-outbreak-5564810",
+   "summary": "",
+   "kind": "item",
+   "source": "The Citizen (Tanzania)",
+   "source_id": "np-citizen-tz",
+   "tier": 2,
+   "country": "TZ",
+   "category": "press",
+   "segments": [
+    "city",
+    "bush",
+    "beach"
+   ],
+   "first_seen": "2026-08-21T02:00+03:00",
+   "published": null,
+   "verdict": "CONSIDER"
+  },
+  {
+   "score": 78.0,
    "components": {
     "tier": 20,
     "category": 14,
     "lead": 8.4,
     "relevance": 8,
-    "freshness": 19.8,
+    "freshness": 17.6,
     "corroborated": 10
    },
    "keywords": [
@@ -749,13 +1154,13 @@
    "verdict": "CONSIDER"
   },
   {
-   "score": 80.0,
+   "score": 77.9,
    "components": {
     "tier": 20,
     "category": 14,
     "lead": 8.4,
     "relevance": 12,
-    "freshness": 15.6,
+    "freshness": 13.5,
     "corroborated": 10
    },
    "keywords": [
@@ -785,13 +1190,13 @@
    "verdict": "CONSIDER"
   },
   {
-   "score": 80.0,
+   "score": 77.9,
    "components": {
     "tier": 20,
     "category": 14,
     "lead": 8.4,
     "relevance": 12,
-    "freshness": 15.6,
+    "freshness": 13.5,
     "corroborated": 10
    },
    "keywords": [
@@ -821,13 +1226,13 @@
    "verdict": "CONSIDER"
   },
   {
-   "score": 79.8,
+   "score": 77.6,
    "components": {
     "tier": 20,
     "category": 4,
     "lead": 0.0,
     "relevance": 24,
-    "freshness": 19.8,
+    "freshness": 17.6,
     "undated": -6,
     "shock": 18
    },
@@ -860,13 +1265,13 @@
    "verdict": "CONSIDER"
   },
   {
-   "score": 78.4,
+   "score": 76.2,
    "components": {
     "tier": 20,
     "category": 4,
     "lead": 0.0,
     "relevance": 24,
-    "freshness": 18.4,
+    "freshness": 16.2,
     "undated": -6,
     "shock": 18
    },
@@ -899,13 +1304,13 @@
    "verdict": "CONSIDER"
   },
   {
-   "score": 76.2,
+   "score": 74.0,
    "components": {
     "tier": 20,
     "category": 14,
     "lead": 8.4,
     "relevance": 4,
-    "freshness": 19.8,
+    "freshness": 17.6,
     "corroborated": 10
    },
    "keywords": [
@@ -934,13 +1339,13 @@
    "verdict": "CONSIDER"
   },
   {
-   "score": 75.4,
+   "score": 73.2,
    "components": {
     "tier": 20,
     "category": 4,
     "lead": 0.0,
     "relevance": 24,
-    "freshness": 15.4,
+    "freshness": 13.2,
     "undated": -6,
     "shock": 18
    },
@@ -973,450 +1378,38 @@
    "verdict": "CONSIDER"
   },
   {
-   "score": 66.6,
+   "score": 68.2,
    "components": {
-    "tier": 20,
-    "category": 5,
-    "lead": 1.2,
-    "relevance": 12,
-    "freshness": 18.4,
-    "corroborated": 10
-   },
-   "keywords": [
-    "tax",
-    "investment"
-   ],
-   "shock_terms": [],
-   "dedupe_match": null,
-   "dedupe_similarity": 0.2,
-   "id": "06d768013ac9",
-   "title": "TanzaniaInvest to Publish Free Tanzania Capital Markets Report & Guide in Partnership With DSE",
-   "url": "https://www.tanzaniainvest.com/finance/capitalmarkets/capital-markets-report-guide",
-   "summary": "TanzaniaInvest is preparing the Tanzania Capital Markets Report, a comprehensive free guide covering Tanzania\u2019s stock market, bonds, government securities, listed companies, investment funds, regulations, taxation and market institutions. Building on the success of the free Tanzania Business & Investment Guide, the publication will combine an in-depth report on Tanzania\u2019s capital markets with an a",
-   "kind": "item",
-   "source": "TanzaniaInvest \u2014 tourism",
-   "source_id": "tp-tanzaniainvest",
-   "tier": 2,
-   "country": "TZ",
-   "category": "trade",
-   "segments": [
-    "city",
-    "bush",
-    "beach"
-   ],
-   "first_seen": "2026-08-20T22:46+03:00",
-   "published": "2026-08-19",
-   "verdict": "weak"
-  },
-  {
-   "score": 66.4,
-   "components": {
-    "tier": 20,
-    "category": 5,
-    "lead": 3.6,
-    "relevance": 8,
-    "freshness": 19.8,
-    "corroborated": 10
-   },
-   "keywords": [
-    "hotel",
-    "guest"
-   ],
-   "shock_terms": [],
-   "dedupe_match": null,
-   "dedupe_similarity": 0.14,
-   "id": "5caf8ccfddd6",
-   "title": "How Aura Hoteles is using Cloudbeds as the technology foundation for rapid expansion across Spain",
-   "url": "https://www.hospitalitynet.org/casestudy/4134042/how-aura-hoteles-is-using-cloudbeds-as-the-technology-foundation-for-rapid-expansion-across-spain",
-   "summary": "Aura Hoteles, a Galicia-based startup with six properties, built its entire tech stack on Cloudbeds' PMS and Open API, developing custom housekeeping and guest communication apps on top of the platform.",
-   "kind": "item",
-   "source": "Hospitality Net \u2014 Africa announcements",
-   "source_id": "dev-hospitalitynet-africa",
-   "tier": 2,
-   "country": "REG",
-   "category": "trade",
-   "segments": [
-    "city",
-    "bush",
-    "beach"
-   ],
-   "first_seen": "2026-08-21T00:03+03:00",
-   "published": "2026-08-20",
-   "verdict": "weak"
-  },
-  {
-   "score": 66.4,
-   "components": {
-    "tier": 20,
-    "category": 5,
-    "lead": 3.6,
-    "relevance": 8,
-    "freshness": 19.8,
-    "corroborated": 10
-   },
-   "keywords": [
-    "hotel",
-    "operator"
-   ],
-   "shock_terms": [],
-   "dedupe_match": null,
-   "dedupe_similarity": 0.0,
-   "id": "01acd8b19a99",
-   "title": "What the First Half of 2026 Says About the Hotel Industry",
-   "url": "https://www.hospitalitynet.org/opinion/4134039/what-the-first-half-of-2026-says-about-the-hotel-industry",
-   "summary": "A Newport Hospitality Group executive reflects on a stronger-than-expected H1 2026, cautioning against over-reliance on World Cup-boosted averages while urging owners to reinvest in existing assets and operators to focus on fundamentals.",
-   "kind": "item",
-   "source": "Hospitality Net \u2014 Africa announcements",
-   "source_id": "dev-hospitalitynet-africa",
-   "tier": 2,
-   "country": "REG",
-   "category": "trade",
-   "segments": [
-    "city",
-    "bush",
-    "beach"
-   ],
-   "first_seen": "2026-08-21T00:03+03:00",
-   "published": "2026-08-20",
-   "verdict": "weak"
-  },
-  {
-   "score": 64.4,
-   "components": {
-    "tier": 20,
-    "category": 4,
-    "lead": 0.0,
-    "relevance": 12,
-    "freshness": 18.4,
-    "corroborated": 10
-   },
-   "keywords": [
-    "collapse"
-   ],
-   "shock_terms": [],
-   "dedupe_match": null,
-   "dedupe_similarity": 0.0,
-   "id": "0b9d6e42d559",
-   "title": "Veteran educationist Dr Okia dies following hospital collapse",
-   "url": "https://www.monitor.co.ug/uganda/news/national/veteran-educationist-dr-okia-dies-following-hospital-collapse-5565186",
-   "summary": "His sudden demise has plunged the Hillside Schools community into mourning, with parents and...",
-   "kind": "item",
-   "source": "Daily Monitor (Uganda)",
-   "source_id": "np-monitor-ug",
-   "tier": 2,
-   "country": "UG",
-   "category": "press",
-   "segments": [
-    "city",
-    "bush",
-    "beach"
-   ],
-   "first_seen": "2026-08-20T22:46+03:00",
-   "published": "2026-08-20",
-   "verdict": "weak"
-  },
-  {
-   "score": 62.4,
-   "components": {
-    "tier": 20,
-    "category": 5,
-    "lead": 3.6,
+    "tier": 40,
+    "category": 8,
+    "lead": 2.4,
     "relevance": 4,
     "freshness": 19.8,
-    "corroborated": 10
+    "undated": -6
    },
    "keywords": [
-    "hotel"
+    "conference"
    ],
    "shock_terms": [],
    "dedupe_match": null,
    "dedupe_similarity": 0.0,
-   "id": "b92e95388fec",
-   "title": "Jason Edwards: What happens when new technology hits the front desk",
-   "url": "https://www.hospitalitynet.org/podcast/4134041/jason-edwards-what-happens-when-new-technology-hits-the-front-desk",
-   "summary": "Hospitality advisor Jason Edwards discusses tech implementation pitfalls, change management, hotel tech stack decisions, and what hotels risk losing operationally when they deflag from a brand.",
-   "kind": "item",
-   "source": "Hospitality Net \u2014 Africa announcements",
-   "source_id": "dev-hospitalitynet-africa",
-   "tier": 2,
-   "country": "REG",
-   "category": "trade",
-   "segments": [
-    "city",
-    "bush",
-    "beach"
-   ],
-   "first_seen": "2026-08-21T00:03+03:00",
-   "published": "2026-08-20",
-   "verdict": "weak"
-  },
-  {
-   "score": 59.4,
-   "components": {
-    "tier": 20,
-    "category": 4,
-    "lead": 0.0,
-    "relevance": 8,
-    "freshness": 15.4,
-    "undated": -6,
-    "shock": 18
-   },
-   "keywords": [
-    "strike"
-   ],
-   "shock_terms": [
-    "strike"
-   ],
-   "dedupe_match": null,
-   "dedupe_similarity": 0.0,
-   "id": "f9dc7468b647",
-   "title": "international Russian strikes kill 16 in Ukraine, Zelenskiy says lack of Patriots costs lives 6 hours ago - 4 min read",
-   "url": "https://www.thecitizen.co.tz/tanzania/news/international/russian-strikes-kill-16-in-ukraine-zelenskiy-says-lack-of-patriots-costs-lives-5564758",
+   "id": "23819a7dcd04",
+   "title": "IATA Cargo Experts Conference: Turning Expertise into Improved Air Cargo Operations IATA announced that the 2026 IATA Cargo Experts Conference (CEC) will focus on practical ways to improve day-to-day air cargo operations through global standards, technology, and data. 20.08.2026",
+   "url": "https://www.iata.org/en/pressroom/2026-releases/08-20-iata-cargo-experts-conference-turning-expertise-into-improved-air-cargo-operations",
    "summary": "",
    "kind": "item",
-   "source": "The Citizen (Tanzania)",
-   "source_id": "np-citizen-tz",
-   "tier": 2,
-   "country": "TZ",
-   "category": "press",
+   "source": "IATA pressroom",
+   "source_id": "iata-pressroom",
+   "tier": 1,
+   "country": "GLOBAL",
+   "category": "aviation-body",
    "segments": [
     "city",
     "bush",
     "beach"
    ],
-   "first_seen": "2026-08-20T20:03+03:00",
+   "first_seen": "2026-08-21T02:00+03:00",
    "published": null,
-   "verdict": "weak"
-  },
-  {
-   "score": 53.8,
-   "components": {
-    "tier": 20,
-    "category": 4,
-    "lead": 0.0,
-    "relevance": 0,
-    "freshness": 19.8,
-    "corroborated": 10
-   },
-   "keywords": [],
-   "shock_terms": [],
-   "dedupe_match": null,
-   "dedupe_similarity": 0.0,
-   "id": "fa57fb19c3c7",
-   "title": "Retirement funds are rich, but cautious and now stuck",
-   "url": "https://www.monitor.co.ug/uganda/business/markets/retirement-funds-are-rich-but-cautious-and-now-stuck-5565056",
-   "summary": "Africa\u2019s pension funds hold vast pools of capital, but caution keeps much of it from productive...",
-   "kind": "item",
-   "source": "Daily Monitor (Uganda)",
-   "source_id": "np-monitor-ug",
-   "tier": 2,
-   "country": "UG",
-   "category": "press",
-   "segments": [
-    "city",
-    "bush",
-    "beach"
-   ],
-   "first_seen": "2026-08-21T00:03+03:00",
-   "published": "2026-08-20",
-   "verdict": "weak"
-  },
-  {
-   "score": 53.8,
-   "components": {
-    "tier": 20,
-    "category": 4,
-    "lead": 0.0,
-    "relevance": 0,
-    "freshness": 19.8,
-    "corroborated": 10
-   },
-   "keywords": [],
-   "shock_terms": [],
-   "dedupe_match": null,
-   "dedupe_similarity": 0.0,
-   "id": "406ff8a80d7a",
-   "title": "The average Ugandan is thriving",
-   "url": "https://www.monitor.co.ug/uganda/business/the-average-ugandan-is-thriving-5565032",
-   "summary": "Somewhere in Uganda lives a man who is doing well. I have never met him. I have only seen him...",
-   "kind": "item",
-   "source": "Daily Monitor (Uganda)",
-   "source_id": "np-monitor-ug",
-   "tier": 2,
-   "country": "UG",
-   "category": "press",
-   "segments": [
-    "city",
-    "bush",
-    "beach"
-   ],
-   "first_seen": "2026-08-21T00:03+03:00",
-   "published": "2026-08-20",
-   "verdict": "weak"
-  },
-  {
-   "score": 53.8,
-   "components": {
-    "tier": 20,
-    "category": 4,
-    "lead": 0.0,
-    "relevance": 0,
-    "freshness": 19.8,
-    "corroborated": 10
-   },
-   "keywords": [],
-   "shock_terms": [],
-   "dedupe_match": null,
-   "dedupe_similarity": 0.2,
-   "id": "affe54a51b72",
-   "title": "$20bn Tanga energy hub faces new scrutiny over environmental risks",
-   "url": "https://www.theeastafrican.co.ke/tea/business-tech/tanga-energy-hub-faces-new-scrutiny-environmental-risks-5563790",
-   "summary": "Committing roughly $20bn to petroleum infrastructure locks Uganda and Tanzania into fossil...",
-   "kind": "item",
-   "source": "The EastAfrican",
-   "source_id": "np-eastafrican",
-   "tier": 2,
-   "country": "REG",
-   "category": "press",
-   "segments": [
-    "city",
-    "bush",
-    "beach"
-   ],
-   "first_seen": "2026-08-21T00:03+03:00",
-   "published": "2026-08-20",
-   "verdict": "weak"
-  },
-  {
-   "score": 53.8,
-   "components": {
-    "tier": 20,
-    "category": 4,
-    "lead": 0.0,
-    "relevance": 0,
-    "freshness": 19.8,
-    "corroborated": 10
-   },
-   "keywords": [],
-   "shock_terms": [],
-   "dedupe_match": null,
-   "dedupe_similarity": 0.0,
-   "id": "46db65777724",
-   "title": "Hichilema savours victory amid disputed Zambia poll results",
-   "url": "https://www.theeastafrican.co.ke/tea/news/southern-africa/hichilema-savours-victory-amid-disputed-zambia-poll-results-5564806",
-   "summary": "The secrecy of the ballot remains a concern.",
-   "kind": "item",
-   "source": "The EastAfrican",
-   "source_id": "np-eastafrican",
-   "tier": 2,
-   "country": "REG",
-   "category": "press",
-   "segments": [
-    "city",
-    "bush",
-    "beach"
-   ],
-   "first_seen": "2026-08-21T00:03+03:00",
-   "published": "2026-08-20",
-   "verdict": "weak"
-  },
-  {
-   "score": 53.8,
-   "components": {
-    "tier": 20,
-    "category": 4,
-    "lead": 0.0,
-    "relevance": 0,
-    "freshness": 19.8,
-    "corroborated": 10
-   },
-   "keywords": [],
-   "shock_terms": [],
-   "dedupe_match": null,
-   "dedupe_similarity": 0.0,
-   "id": "d6f2a0834448",
-   "title": "What Kirehe Is Teaching Rwanda About Building Better Schools",
-   "url": "https://www.ktpress.rw/2026/08/what-kirehe-is-teaching-rwanda-about-building-better-schools",
-   "summary": "KIGALI, Rwanda \u2014 When Rwanda released its 2026 national examination results on Thursday, one district once again stood apart. Kirehe, in the Eastern Province, ranked first nationally in both the\u2026 The post What Kirehe Is Teaching Rwanda About Building Better Schools appeared first on KT PRESS .",
-   "kind": "item",
-   "source": "KT Press (Rwanda)",
-   "source_id": "np-ktpress-rw",
-   "tier": 2,
-   "country": "RW",
-   "category": "press",
-   "segments": [
-    "city",
-    "bush",
-    "beach"
-   ],
-   "first_seen": "2026-08-21T00:03+03:00",
-   "published": "2026-08-20",
-   "verdict": "weak"
-  },
-  {
-   "score": 52.4,
-   "components": {
-    "tier": 20,
-    "category": 4,
-    "lead": 0.0,
-    "relevance": 0,
-    "freshness": 18.4,
-    "corroborated": 10
-   },
-   "keywords": [],
-   "shock_terms": [],
-   "dedupe_match": null,
-   "dedupe_similarity": 0.0,
-   "id": "ed82826113a8",
-   "title": "Cameroon president returns home after 10-week absence",
-   "url": "https://www.monitor.co.ug/uganda/news/cameroon-president-returns-home-after-10-week-absence-5565402",
-   "summary": "93-year-old Paul Biya and his wife Chantal Biya, arrived at Yaounde's Nsimalen International...",
-   "kind": "item",
-   "source": "Daily Monitor (Uganda)",
-   "source_id": "np-monitor-ug",
-   "tier": 2,
-   "country": "UG",
-   "category": "press",
-   "segments": [
-    "city",
-    "bush",
-    "beach"
-   ],
-   "first_seen": "2026-08-20T22:46+03:00",
-   "published": "2026-08-20",
-   "verdict": "weak"
-  },
-  {
-   "score": 52.4,
-   "components": {
-    "tier": 20,
-    "category": 4,
-    "lead": 0.0,
-    "relevance": 0,
-    "freshness": 18.4,
-    "corroborated": 10
-   },
-   "keywords": [],
-   "shock_terms": [],
-   "dedupe_match": null,
-   "dedupe_similarity": 0.0,
-   "id": "ba661c96a0e8",
-   "title": "Govt pledges procurement realignments as Dei BioPharma demands NMS backing",
-   "url": "https://www.monitor.co.ug/uganda/news/national/govt-pledges-procurement-realignments-as-dei-biopharma-demands-nms-backing-5565350",
-   "summary": "NMS clarified that new market entrants do not automatically receive guaranteed government orders",
-   "kind": "item",
-   "source": "Daily Monitor (Uganda)",
-   "source_id": "np-monitor-ug",
-   "tier": 2,
-   "country": "UG",
-   "category": "press",
-   "segments": [
-    "city",
-    "bush",
-    "beach"
-   ],
-   "first_seen": "2026-08-20T22:46+03:00",
-   "published": "2026-08-20",
    "verdict": "weak"
   }
  ]
