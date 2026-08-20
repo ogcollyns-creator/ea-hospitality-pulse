@@ -246,8 +246,19 @@ def intro_headline(md):
     for l in head.split("\n"):
         l = l.strip()
         if l.startswith("**") and l.endswith("**") and len(l) > 8:
-            return md_strip(re.sub(r"\s+", " ", l))[:220]
+            cand = md_strip(re.sub(r"\s+", " ", l))
+            probe = re.sub(r"^[^0-9A-Za-z]+", "", cand)
+            if _DATELINE.match(probe) or _DATELINE2.match(probe):
+                continue  # a bold date line is masthead furniture, not the headline
+            return cand[:220]
     return None
+
+# A line that is essentially just a date (optionally with a short kicker after
+# a "|") is masthead furniture, not the story. Skip it so the title/OG land on
+# the real headline. Requires a 4-digit year so real headlines mentioning a day
+# ("Kampala said 28 July") are not caught.
+_DATELINE = re.compile(r"^(?:mon|tue|wed|thu|fri|sat|sun)[a-z]*\.?,?\s+\d{1,2}\s+[A-Za-z]+\s+\d{4}", re.I)
+_DATELINE2 = re.compile(r"^\d{1,2}\s+(?:jan|feb|mar|apr|may|jun|jul|aug|sep|oct|nov|dec)[a-z]*\.?,?\s+\d{4}", re.I)
 
 def summarise(text):
     for l in text.split("\n"):
@@ -256,8 +267,10 @@ def summarise(text):
         # skip the masthead (any slot), the flag/date line, the italic subtitle,
         # dividers and headers — land on the first real story line.
         if not l: continue
-        if l[0] in "🏨📅🌅🕛🌆🌇🌄" or l.startswith(("━","#","_")): continue
+        if l[0] in "🏨📅🗓📆🌅🕛🌆🌇🌄🌙🌃" or l.startswith(("━","#","_")): continue
         if "hospitality pulse" in low: continue
+        probe = re.sub(r"^[^0-9A-Za-z]+", "", md_strip(l))   # drop leading emoji/flags
+        if _DATELINE.match(probe) or _DATELINE2.match(probe): continue
         if len(l) > 40:
             return md_strip(re.sub(r"\s+"," ",l))[:200]
     return "East Africa hospitality intelligence."
