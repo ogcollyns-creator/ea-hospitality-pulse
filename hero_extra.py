@@ -303,11 +303,106 @@ def ai_fallback_pass():
     print(f"  ai: generated {made} edition hero(es)")
 
 
+# ---------- Openverse pass (broad public-image pool, credited) ---------------
+# Openverse (openverse.org, a Creative Commons / WordPress project) aggregates
+# CC0, public-domain and CC-BY/BY-SA images from Flickr, Wikimedia, museums,
+# Nappy, Rawpixel and more — a far larger pool than Wikimedia alone. Every result
+# carries creator, source, licence and a landing URL, so attribution is exact.
+# Runs BEFORE the Wikimedia fetch: for any edition lacking a hero it tries the
+# per-edition image_queries.json subject first, then a headline-derived query.
+OPENVERSE_API = "https://api.openverse.org/v1/images/"
+OV_LICENSES = "cc0,pdm,by,by-sa"   # commercial-safe only (no NC/ND)
+
+def _load_overrides():
+    try:
+        return json.load(open(os.path.join(HERE, "image_queries.json"), encoding="utf-8"))
+    except Exception:
+        return {}
+
+def _openverse_search(query):
+    import urllib.request, urllib.parse
+    q = urllib.parse.urlencode({
+        "q": query, "license": OV_LICENSES, "size": "large",
+        "aspect_ratio": "wide", "page_size": "20", "mature": "false"})
+    req = urllib.request.Request(OPENVERSE_API + "?" + q,
+        headers={"User-Agent": "EAHospitalityPulse/1.0 (https://eahospitalitypulse.com)"})
+    try:
+        with urllib.request.urlopen(req, timeout=45) as r:
+            return json.loads(r.read().decode()).get("results", []) or []
+    except Exception as ex:
+        print(f"  openverse: search failed [{query}]: {ex}")
+        return []
+
+def openverse_pass():
+    """Assign a broad-pool, credited Openverse image to any edition without a hero."""
+    try:
+        from PIL import Image
+    except ImportError:
+        print("  openverse: Pillow missing — skipping"); return
+    import urllib.request, io
+    editions  = _load_editions()
+    credits   = _load_credits()
+    overrides = _load_overrides()
+    used = {v.get("descurl") for v in credits.values() if v.get("descurl")}
+    got = 0
+    for e in sorted(editions, key=lambda e: e.get("id","")):
+        eid = e["id"]
+        if _has_hero(eid, credits):
+            continue
+        queries = overrides.get(eid) or [ (_headline(e) + " East Africa").strip(),
+                                          "East Africa tourism landscape" ]
+        picked = None
+        for query in queries:
+            for c in _openverse_search(query):
+                url = c.get("url")
+                w, h = c.get("width") or 0, c.get("height") or 0
+                if not url or c.get("foreign_landing_url") in used:
+                    continue
+                if w and h and (w < 1200 or w < h * 1.15):
+                    continue                      # landscape, large enough
+                picked = c; break
+            if picked:
+                break
+        if not picked:
+            continue
+        try:
+            req = urllib.request.Request(picked["url"],
+                headers={"User-Agent": "EAHospitalityPulse/1.0 (+https://eahospitalitypulse.com)"})
+            with urllib.request.urlopen(req, timeout=60) as r:
+                blob = r.read()
+            im = Image.open(io.BytesIO(blob)).convert("RGB")
+            if im.width < 1200 or im.width < im.height * 1.15:
+                continue
+            if im.width > WIDTH:
+                im = im.resize((WIDTH, round(im.height * WIDTH / im.width)), Image.LANCZOS)
+            os.makedirs(EDIMG, exist_ok=True)
+            im.save(os.path.join(EDIMG, eid + ".jpg"), "JPEG", quality=85, optimize=True)
+        except Exception as ex:
+            print(f"  openverse: fetch failed for {eid}: {ex}"); continue
+        prov = picked.get("source") or picked.get("provider") or "Openverse"
+        credits[eid] = {
+            "id": eid,
+            "title": picked.get("title") or query,
+            "artist": picked.get("creator") or prov,
+            "source": f"Openverse · {prov}",
+            "license": (picked.get("license","").upper() + " " + (picked.get("license_version") or "")).strip() or "See source",
+            "licenseurl": picked.get("license_url") or "",
+            "descurl": picked.get("foreign_landing_url") or picked.get("url") or "",
+            "source_kind": "openverse",
+        }
+        used.add(credits[eid]["descurl"]); got += 1
+        print(f"  openverse: {eid}.jpg <- {credits[eid]['title'][:50]} [{credits[eid]['source']}]")
+    _save_credits(credits)
+    print(f"  openverse: assigned {got} edition(s)")
+
+
 if __name__ == "__main__":
     args = sys.argv[1:]
     if "--press-kit" in args:
         press_kit_pass()
+    if "--openverse" in args:
+        openverse_pass()
     if "--ai-fallback" in args:
         ai_fallback_pass()
     if not args:
-        print("usage: hero_extra.py [--press-kit] [--ai-fallback]")
+        print("usage: hero_extra.py [--press-kit] [--openverse] [--ai-fallback]")

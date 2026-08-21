@@ -11,6 +11,10 @@ instead of it. (This is operational guidance, not legal advice.)
 
 1. **CC0 / public domain** — Wikimedia Commons (PD), Unsplash, Pexels, Pixabay.
    Credit optional but we still show it.
+1b. **Openverse** (openverse.org) — a broad aggregator of CC0 / public-domain /
+   CC-BY / BY-SA images from Flickr, Wikimedia, museums, Rawpixel, Nappy and more.
+   Filtered to commercial-safe licences only (no NC/ND). Each result carries creator,
+   source and licence, rendered in the credit as `Openverse · <source>`.
 2. **Creative Commons BY / BY-SA** — Wikimedia Commons, Flickr Creative Commons.
    Reusable commercially **with correct attribution** (BY-SA also requires share-alike).
 3. **Tourism-board / brand press kits** — official destination and hotel-group media

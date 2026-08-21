@@ -58,6 +58,9 @@ jobs:
       - name: Assign vetted press-kit images (best-effort; before the Wikimedia fetch)
         run: python3 hero_extra.py --press-kit || echo "press-kit pass skipped"
 
+      - name: Assign broad-pool Openverse images (best-effort; credited)
+        run: python3 hero_extra.py --openverse || echo "openverse pass skipped"
+
       - name: Assign a unique photo per edition (best-effort; Commons + attribution)
         run: python3 fetch_edition_images.py || echo "per-edition image fetch skipped (network); editions fall back to the curated pool"
 
