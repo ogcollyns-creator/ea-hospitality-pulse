@@ -19,6 +19,112 @@ if not TOKEN:
     print("::error::TELEGRAM_BOT_TOKEN secret is not set — skipping post.")
     sys.exit(0)
 
+# --- Hero image (best-effort) ------------------------------------------------
+# The website already assigns a licence-clear Wikimedia photo to every edition
+# (fetch_edition_images.py) with author + licence captured from the Commons API.
+# We reuse that exact image and credit here so Telegram carries the same picture
+# and the same attribution as the web edition. Everything below is best-effort:
+# any missing image, credit or API failure falls back silently to text-only,
+# so a photo problem can never block or delay the edition post.
+HERE = os.path.dirname(os.path.abspath(__file__))
+ROOT = os.path.abspath(os.path.join(HERE, "..", ".."))
+EDIMG = os.path.join(ROOT, "img", "editions")
+CREDITS_PATH = os.path.join(ROOT, "img", "edition-credits.json")
+CAPTION_MAX = 1024  # Telegram hard limit for a photo caption
+
+try:
+    CREDITS = json.load(open(CREDITS_PATH, encoding="utf-8"))
+except Exception as _e:
+    print(f"::warning::could not load edition credits: {_e}")
+    CREDITS = {}
+
+def edition_id(path):
+    return os.path.splitext(os.path.basename(path))[0]
+
+def hero_for(path):
+    """(image_path, credit_dict|None) if a licence-clear hero exists, else (None, None)."""
+    eid = edition_id(path)
+    img = os.path.join(EDIMG, eid + ".jpg")
+    if not os.path.exists(img):
+        return None, None
+    return img, CREDITS.get(eid)
+
+def _headline(body):
+    """The lead STORY headline of the Telegram body, as plain text — the first
+    bold line that is not the masthead. Falls back to the first bold line."""
+    bolds = []
+    for line in body.splitlines():
+        m = re.search(r"\*\*(.+?)\*\*", line)
+        if m:
+            bolds.append(re.sub(r"\s+", " ", m.group(1)).strip())
+    for b in bolds:
+        if "HOSPITALITY PULSE" not in b.upper():
+            return b
+    return bolds[0] if bolds else ""
+
+def build_caption(body, credit):
+    """Short plain-text caption: headline + attribution. No parse_mode (plain
+    text) so no HTML-entity escaping is needed and the API can never reject it."""
+    parts = []
+    h = _headline(body)
+    if h:
+        parts.append(h)
+    if credit:
+        art = credit.get("artist") or "Unknown"
+        lic = credit.get("license") or "see source"
+        parts.append(f"\U0001F4F7 {art} \u00b7 {lic} \u00b7 via Wikimedia Commons")
+    else:
+        parts.append("\U0001F4F7 via Wikimedia Commons (licence-clear)")
+    return ("\n\n".join(parts)).strip()[:CAPTION_MAX]
+
+def send_photo(img_path, caption):
+    """Upload the hero image via a multipart/form-data sendPhoto call."""
+    boundary = "----EAPulse" + str(int(time.time() * 1000))
+    with open(img_path, "rb") as fh:
+        img = fh.read()
+    def field(name, value):
+        return (f"--{boundary}\r\n"
+                f"Content-Disposition: form-data; name=\"{name}\"\r\n\r\n"
+                f"{value}\r\n").encode()
+    body = field("chat_id", CHAT)
+    if caption:
+        body += field("caption", caption)
+    body += (f"--{boundary}\r\n"
+             f"Content-Disposition: form-data; name=\"photo\"; "
+             f"filename=\"{os.path.basename(img_path)}\"\r\n"
+             f"Content-Type: image/jpeg\r\n\r\n").encode()
+    body += img + b"\r\n"
+    body += f"--{boundary}--\r\n".encode()
+    req = urllib.request.Request(
+        f"https://api.telegram.org/bot{TOKEN}/sendPhoto",
+        data=body,
+        headers={"Content-Type": f"multipart/form-data; boundary={boundary}"})
+    with urllib.request.urlopen(req, timeout=60) as r:
+        return json.loads(r.read().decode())
+
+def post_hero(path, body):
+    """Best-effort: post the edition hero image with an attribution caption.
+    Returns True if a photo was sent, False otherwise. Never raises."""
+    img_path, credit = hero_for(path)
+    if not img_path:
+        print(f"::warning::no hero image for {edition_id(path)} — posting text only")
+        return False
+    caption = build_caption(body, credit)
+    for attempt in (1, 2):
+        try:
+            res = send_photo(img_path, caption)
+            if res.get("ok"):
+                print(f"posted hero image for {path} -> message_id {res['result']['message_id']}")
+                time.sleep(2)
+                return True
+            print(f"::warning::sendPhoto attempt {attempt} not ok: {res}")
+        except Exception as e:
+            print(f"::warning::sendPhoto attempt {attempt} failed: {e}")
+        time.sleep(3 * attempt)
+    print(f"::warning::hero image not sent for {path} — continuing with text only")
+    return False
+
+
 def newest_edition():
     """
     Most recently COMMITTED edition — used for manual re-posts.
@@ -126,6 +232,8 @@ def main():
         if not body:
             print(f"::warning::no TELEGRAM section in {f} — skipped.")
             continue
+        # Hero image first (best-effort — never blocks the text post)
+        post_hero(f, body)
         for i, part in enumerate(chunk(body)):
             for attempt in (1, 2, 3):
                 try:

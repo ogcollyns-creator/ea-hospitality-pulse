@@ -21,6 +21,17 @@ jobs:
       - name: Pre-publish quality gate (block; local auto-fix, no commit)
         run: python3 radar/prepublish_gate.py --changed --fix --strict
 
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+      - name: Install image dependencies
+        run: pip install --quiet Pillow numpy
+      - name: Fetch hero image for the new edition (best-effort, licence-clear)
+        # Reuses the site's Wikimedia image + attribution so Telegram carries the
+        # same licence-clear picture and credit as the web edition. Best-effort:
+        # if this is skipped (network) the edition still posts text-only.
+        run: python3 fetch_edition_images.py || echo "hero fetch skipped (network) — edition posts text-only"
+
       - name: Post newly added editions
         env:
           TG_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
