@@ -1,34 +1,32 @@
 {
- "generated": "2026-08-21T14:02:57+03:00",
- "slot": "midday",
- "window_start": 1787284800,
- "observations_in_window": 263,
+ "generated": "2026-08-21T17:09:57+03:00",
+ "slot": "evening",
+ "window_start": 1787306400,
+ "observations_in_window": 198,
  "deduped_against": 6,
  "candidates": [
   {
-   "score": 98.5,
+   "score": 101.4,
    "components": {
     "tier": 40,
     "category": 32,
-    "lead": 12.0,
-    "relevance": 8,
-    "freshness": 16.5,
-    "undated": -6,
+    "lead": 3.6,
+    "relevance": 0,
+    "freshness": 19.8,
+    "corroborated": 10,
     "page_change": -4
    },
-   "keywords": [
-    "fee"
-   ],
+   "keywords": [],
    "shock_terms": [],
    "dedupe_match": null,
    "dedupe_similarity": 0.0,
-   "id": "4af3105a58d7",
-   "title": "[page changed] Federal Register \u2014 CDC notices",
-   "url": "https://www.federalregister.gov/api/v1/documents.rss?conditions%5Bagencies%5D%5B%5D=centers-for-disease-control-and-prevention&order=newest",
-   "summary": "Federal Register Documents published on or after 07/22/2026 and from Centers for Disease Control and Prevention https://www.federalregister.gov/api/v1/documents.rss?conditions%5Bagencies%5D%5B%5D=centers-for-disease-control-and-prevention&order=newest Thu, 20 Aug 2026 04:00:00 GMT The documents in this feed originate from FederalRegister.gov which displays an unofficial web version of the daily Fe",
+   "id": "1d985c847b6a",
+   "title": "[page changed] Federal Register \u2014 public inspection (HHS/CDC), pre-publication",
+   "url": "https://www.federalregister.gov/api/v1/public-inspection-documents/current.json",
+   "summary": "{\"count\":85,\"results\":[{\"agencies\":[{\"raw_name\":\"FEDERAL COMMUNICATIONS COMMISSION\",\"name\":\"Federal Communications Commission\",\"id\":161,\"url\":\"https://www.federalregister.gov/agencies/federal-communications-commission\",\"json_url\":\"https://www.federalregister.gov/api/v1/agencies/161\",\"parent_id\":null,\"slug\":\"federal-communications-commission\"}],\"agency_letters\":[],\"agency_names\":[\"Federal Communica",
    "kind": "page-change",
-   "source": "Federal Register \u2014 CDC notices",
-   "source_id": "us-fedreg-cdc",
+   "source": "Federal Register \u2014 public inspection (HHS/CDC), pre-publication",
+   "source_id": "us-fedreg-pubinspect-hhs",
    "tier": 1,
    "country": "REG",
    "category": "advisory",
@@ -36,18 +34,18 @@
     "city",
     "bush"
    ],
-   "first_seen": "2026-08-21T11:05+03:00",
-   "published": null,
+   "first_seen": "2026-08-21T17:07+03:00",
+   "published": "2026-08-21",
    "verdict": "OPEN THIS \u2014 tier-1 advisory page moved; content not auto-parsed, read it manually"
   },
   {
-   "score": 91.2,
+   "score": 87.8,
    "components": {
     "tier": 40,
     "category": 32,
     "lead": 3.6,
     "relevance": 0,
-    "freshness": 19.6,
+    "freshness": 16.2,
     "page_change": -4
    },
    "keywords": [],
@@ -73,77 +71,13 @@
    "verdict": "OPEN THIS \u2014 tier-1 advisory page moved; content not auto-parsed, read it manually"
   },
   {
-   "score": 88.1,
-   "components": {
-    "tier": 40,
-    "category": 32,
-    "lead": 3.6,
-    "relevance": 0,
-    "freshness": 16.5,
-    "page_change": -4
-   },
-   "keywords": [],
-   "shock_terms": [],
-   "dedupe_match": null,
-   "dedupe_similarity": 0.0,
-   "id": "a4a7989cb830",
-   "title": "[page changed] Federal Register \u2014 public inspection (HHS/CDC), pre-publication",
-   "url": "https://www.federalregister.gov/api/v1/public-inspection-documents/current.json",
-   "summary": "{\"count\":118,\"results\":[{\"agencies\":[{\"raw_name\":\"EQUAL EMPLOYMENT OPPORTUNITY COMMISSION\",\"name\":\"Equal Employment Opportunity Commission\",\"id\":147,\"url\":\"https://www.federalregister.gov/agencies/equal-employment-opportunity-commission\",\"json_url\":\"https://www.federalregister.gov/api/v1/agencies/147\",\"parent_id\":null,\"slug\":\"equal-employment-opportunity-commission\"}],\"agency_letters\":[],\"agency_n",
-   "kind": "page-change",
-   "source": "Federal Register \u2014 public inspection (HHS/CDC), pre-publication",
-   "source_id": "us-fedreg-pubinspect-hhs",
-   "tier": 1,
-   "country": "REG",
-   "category": "advisory",
-   "segments": [
-    "city",
-    "bush"
-   ],
-   "first_seen": "2026-08-21T11:05+03:00",
-   "published": "2026-08-19",
-   "verdict": "OPEN THIS \u2014 tier-1 advisory page moved; content not auto-parsed, read it manually"
-  },
-  {
-   "score": 85.7,
-   "components": {
-    "tier": 40,
-    "category": 32,
-    "lead": 3.6,
-    "relevance": 0,
-    "freshness": 14.1,
-    "page_change": -4
-   },
-   "keywords": [],
-   "shock_terms": [],
-   "dedupe_match": null,
-   "dedupe_similarity": 0.0,
-   "id": "dc00da59b376",
-   "title": "[page changed] Federal Register \u2014 public inspection (HHS/CDC), pre-publication",
-   "url": "https://www.federalregister.gov/api/v1/public-inspection-documents/current.json",
-   "summary": "{\"count\":118,\"results\":[{\"agencies\":[{\"raw_name\":\"EQUAL EMPLOYMENT OPPORTUNITY COMMISSION\",\"name\":\"Equal Employment Opportunity Commission\",\"id\":147,\"url\":\"https://www.federalregister.gov/agencies/equal-employment-opportunity-commission\",\"json_url\":\"https://www.federalregister.gov/api/v1/agencies/147\",\"parent_id\":null,\"slug\":\"equal-employment-opportunity-commission\"}],\"agency_letters\":[],\"agency_n",
-   "kind": "page-change",
-   "source": "Federal Register \u2014 public inspection (HHS/CDC), pre-publication",
-   "source_id": "us-fedreg-pubinspect-hhs",
-   "tier": 1,
-   "country": "REG",
-   "category": "advisory",
-   "segments": [
-    "city",
-    "bush"
-   ],
-   "first_seen": "2026-08-21T08:49+03:00",
-   "published": "2026-08-19",
-   "verdict": "OPEN THIS \u2014 tier-1 advisory page moved; content not auto-parsed, read it manually"
-  },
-  {
-   "score": 65.4,
+   "score": 62.0,
    "components": {
     "tier": 40,
     "category": 12,
     "lead": 3.6,
     "relevance": 0,
-    "freshness": 19.8,
+    "freshness": 16.4,
     "undated": -6,
     "page_change": -4
    },
@@ -171,13 +105,13 @@
    "verdict": "OPEN THIS \u2014 tier-1 airline page moved; content not auto-parsed, read it manually"
   },
   {
-   "score": 65.2,
+   "score": 61.8,
    "components": {
     "tier": 40,
     "category": 12,
     "lead": 3.6,
     "relevance": 0,
-    "freshness": 19.6,
+    "freshness": 16.2,
     "undated": -6,
     "page_change": -4
    },
@@ -205,29 +139,66 @@
    "verdict": "OPEN THIS \u2014 tier-1 airline page moved; content not auto-parsed, read it manually"
   },
   {
-   "score": 105.0,
+   "score": 101.4,
    "components": {
-    "tier": 20,
-    "category": 14,
-    "lead": 8.4,
-    "relevance": 36,
-    "freshness": 16.6,
+    "tier": 40,
+    "category": 12,
+    "lead": 3.6,
+    "relevance": 16,
+    "freshness": 19.8,
     "corroborated": 10
    },
    "keywords": [
-    "cancel",
-    "route",
-    "frequency",
-    "airline",
-    "flight"
+    "wildlife",
+    "hotel",
+    "tourism"
    ],
    "shock_terms": [],
    "dedupe_match": null,
    "dedupe_similarity": 0.0,
-   "id": "ae61f1300a98",
-   "title": "Ethiopian Dec 2026/Jan 2027 Atlanta Service Changes",
-   "url": "https://www.aeroroutes.com/eng/260821-etdec26atl",
-   "summary": "Published at 0100PDT / 0800GMT 21AUG26 Ethiopian Airlines in recent schedule update revised planned peak season frequency on Addis Ababa \u2013 Atlanta route (Westbound via Rome Fiumicino). During the period of 19DEC26 \u2013 14JAN27, the Star Alliance member will maintain 3 weekly flight, as planned increase to 4 weekly has been cancelled. ET518 ADD2200 \u2013 0235+1FCO0335+1 \u2013 0800+1ATL 787 247 ET519 ATL0935 \u2013",
+   "id": "d175425d96d7",
+   "title": "Government Targets Bigger Role in Tourism Funds Management \u2013 21 AUG 2026",
+   "url": "https://www.tourism.go.ke/government-targets-bigger-role-in-tourism-funds-management",
+   "summary": "Role in Tourism Funds Management http://www.tourism.go.ke/wp-content/uploads/2026/08/Fund-mgt.pdf PRESS RELEASE GOVERNMENT TARGETS BIGGER ROLE IN TOURISM FUNDS MANAGEMENT NAIROBI, 20 August 2026 \u2014 The Ministry of Tourism and Wildlife has proposed the separation of the responsibility of collecting levies from hotels and restaurants and the management of the funds for greater efficiency and transpar",
+   "kind": "item",
+   "source": "Ministry of Tourism & Wildlife",
+   "source_id": "ke-tourism-ministry",
+   "tier": 1,
+   "country": "KE",
+   "category": "ministry",
+   "segments": [
+    "city",
+    "bush",
+    "beach"
+   ],
+   "first_seen": "2026-08-21T17:07+03:00",
+   "published": "2026-08-21",
+   "verdict": "STRONG \u2014 tier-1, upstream"
+  },
+  {
+   "score": 100.2,
+   "components": {
+    "tier": 20,
+    "category": 14,
+    "lead": 8.4,
+    "relevance": 28,
+    "freshness": 19.8,
+    "corroborated": 10
+   },
+   "keywords": [
+    "vat",
+    "route",
+    "airline",
+    "flight",
+    "booking"
+   ],
+   "shock_terms": [],
+   "dedupe_match": null,
+   "dedupe_similarity": 0.0,
+   "id": "54fdcd9eb69c",
+   "title": "SalamAir Closes Medan Bookings in mid-2H26",
+   "url": "https://www.aeroroutes.com/eng/260821-ov2h26kno",
+   "summary": "Published at 0700PDT / 1400GMT 21AUG26 Oman\u2019s SalamAir recently filed service adjustments on Muscat \u2013 Medan Kualanamu route, as the airline closed reservations for the period of 15SEP26 \u2013 25SEP26, as well as all flights from 27OCT26. The airline currently schedules 3 weekly flights with Airbus A321LR aircraft. Previously filed schedule on/after 27OCT26 as follows. OV901 MCT1745 \u2013 0315+1KNO 32Q 257",
    "kind": "item",
    "source": "AeroRoutes schedule filings",
    "source_id": "aeroroutes",
@@ -239,18 +210,159 @@
     "bush",
     "beach"
    ],
-   "first_seen": "2026-08-21T11:05+03:00",
+   "first_seen": "2026-08-21T17:08+03:00",
    "published": "2026-08-21",
    "verdict": "CONSIDER"
   },
   {
-   "score": 94.2,
+   "score": 99.0,
+   "components": {
+    "tier": 40,
+    "category": 32,
+    "lead": 1.2,
+    "relevance": 12,
+    "freshness": 19.8,
+    "undated": -6
+   },
+   "keywords": [
+    "advisory"
+   ],
+   "shock_terms": [],
+   "dedupe_match": null,
+   "dedupe_similarity": 0.0,
+   "id": "99d8676e0057",
+   "title": "Austria - Level 1: Exercise Normal Precautions",
+   "url": "https://travel.state.gov/content/travel/en/traveladvisories/traveladvisories/austria-travel-advisory.html",
+   "summary": "There were no changes to the advisory level or risk indicators. Advisory summary was updated. Advisory summary Austria is generally a safe destination for travelers. Read our Travel Guidance for additional information on travel to Austria. If you decide to travel to Austria: Enroll in the Smart Traveler Enrollment Program (STEP) to get important updates and alerts from the U.S. embassy or consulat",
+   "kind": "item",
+   "source": "US State Dept travel advisories (EA feed)",
+   "source_id": "adv-us-ea",
+   "tier": 1,
+   "country": "REG",
+   "category": "advisory",
+   "segments": [
+    "city",
+    "bush",
+    "beach"
+   ],
+   "first_seen": "2026-08-21T17:07+03:00",
+   "published": null,
+   "verdict": "STRONG \u2014 tier-1, upstream"
+  },
+  {
+   "score": 99.0,
+   "components": {
+    "tier": 40,
+    "category": 32,
+    "lead": 1.2,
+    "relevance": 12,
+    "freshness": 19.8,
+    "undated": -6
+   },
+   "keywords": [
+    "advisory"
+   ],
+   "shock_terms": [],
+   "dedupe_match": null,
+   "dedupe_similarity": 0.0,
+   "id": "68cabb7825b6",
+   "title": "Turkmenistan - Level 1: Exercise Normal Precautions",
+   "url": "https://travel.state.gov/content/travel/en/traveladvisories/traveladvisories/turkmenistan-travel-advisory.html",
+   "summary": "There were no changes to the advisory level or risk indicators. Advisory summary was updated. Exercise normal precautions in Turkmenistan. Advisory summary Turkmenistan is generally a safe destination for travelers. Medical services for routine and emergency procedures are limited. Review the Health section of the Travel Guidance on this page for more information. Turkmenistan is located in a seis",
+   "kind": "item",
+   "source": "US State Dept travel advisories (EA feed)",
+   "source_id": "adv-us-ea",
+   "tier": 1,
+   "country": "REG",
+   "category": "advisory",
+   "segments": [
+    "city",
+    "bush",
+    "beach"
+   ],
+   "first_seen": "2026-08-21T17:07+03:00",
+   "published": null,
+   "verdict": "STRONG \u2014 tier-1, upstream"
+  },
+  {
+   "score": 98.1,
+   "components": {
+    "tier": 40,
+    "category": 24,
+    "lead": 2.4,
+    "relevance": 12,
+    "freshness": 19.7
+   },
+   "keywords": [
+    "ebola"
+   ],
+   "shock_terms": [],
+   "dedupe_match": null,
+   "dedupe_similarity": 0.33,
+   "id": "dda41911e5ea",
+   "title": "Democratic Republic of the Congo (DRC) reported",
+   "url": "https://insp.cd/wp-content/uploads/2026/08/97-1.pdf",
+   "summary": "1 fr-FR fr-FR fr-FR fr-FRRapport de Situation de la 17\u00e8me \u00c9pid\u00e9mie de la Maladie \u00e0 Virus EBOLA /RDC fr-FR fr-FRSitRep N\u00b0097/MVEBDB/19/08/2026 fr-FR fr-FR Date de rapportage : 19 ao\u00fbt 2026 Date de publication : 20 ao\u00fbt 2026 fr-FR fr-FR fr-FR fr-FR fr-FR fr-FR fr-FR fr-FR fr-FR fr-CD fr-FR fr-FR fr-CD fr-CD fr-FR fr-FR fr-FR fr-FR fr-FR fr-FR fr-FR fr-FR fr-FR fr-FR fr-FR fr-FR fr-FR fr-FR fr-FR fr-",
+   "kind": "doc",
+   "source": "ECDC \u2014 DRC/Uganda Ebola outbreak page",
+   "source_id": "ecdc-ebola",
+   "tier": 1,
+   "country": "GLOBAL",
+   "category": "health",
+   "segments": [
+    "city",
+    "bush"
+   ],
+   "first_seen": "2026-08-21T17:07+03:00",
+   "published": "2026-08-19",
+   "verdict": "STRONG \u2014 tier-1, upstream"
+  },
+  {
+   "score": 96.2,
+   "components": {
+    "tier": 20,
+    "category": 14,
+    "lead": 8.4,
+    "relevance": 24,
+    "freshness": 19.8,
+    "corroborated": 10
+   },
+   "keywords": [
+    "vat",
+    "route",
+    "airline",
+    "flight"
+   ],
+   "shock_terms": [],
+   "dedupe_match": null,
+   "dedupe_similarity": 0.0,
+   "id": "a25c4ff322e9",
+   "title": "ANA Tentatively Plans 1Q27 Tokyo \u2013 Milan Service Increases",
+   "url": "https://www.aeroroutes.com/eng/260821-nh1q27mxp",
+   "summary": "Published at 0400PDT / 1100GMT 21AUG26 Star Alliance member ANA this week filed schedule changes for Tokyo Haneda \u2013 Milan Malpensa route for Northern winter 2026/27 season. Based on this week\u2019s update, the airline intends to increase service from 3 weekly to 7 weekly from 20FEB27 at the earliest. At time this post goes to press, ANA continues to show 3 weekly flights available for reservations for",
+   "kind": "item",
+   "source": "AeroRoutes schedule filings",
+   "source_id": "aeroroutes",
+   "tier": 2,
+   "country": "GLOBAL",
+   "category": "aviation-tracker",
+   "segments": [
+    "city",
+    "bush",
+    "beach"
+   ],
+   "first_seen": "2026-08-21T17:08+03:00",
+   "published": "2026-08-21",
+   "verdict": "CONSIDER"
+  },
+  {
+   "score": 90.8,
    "components": {
     "tier": 20,
     "category": 5,
     "lead": 3.6,
     "relevance": 36,
-    "freshness": 19.6,
+    "freshness": 16.2,
     "corroborated": 10
    },
    "keywords": [
@@ -282,27 +394,93 @@
    "verdict": "CONSIDER"
   },
   {
-   "score": 85.0,
+   "score": 84.2,
    "components": {
-    "tier": 20,
-    "category": 14,
-    "lead": 8.4,
-    "relevance": 16,
-    "freshness": 16.6,
-    "corroborated": 10
+    "tier": 40,
+    "category": 24,
+    "lead": 2.4,
+    "relevance": 4,
+    "freshness": 19.8,
+    "undated": -6
    },
    "keywords": [
-    "route",
-    "airline",
-    "flight"
+    "investment"
    ],
    "shock_terms": [],
    "dedupe_match": null,
    "dedupe_similarity": 0.0,
-   "id": "d011fd6a709b",
-   "title": "Lufthansa Adjusts Planned Munich \u2013 Rovaniemi Service in NW26",
-   "url": "https://www.aeroroutes.com/eng/260821-lhvlnw26rvn",
-   "summary": "Published at 0000PDT / 0700GMT 21AUG26 Lufthansa in recent weeks filed service changes to its planned new Munich \u2013 Rovaniemi route. Planned service launch is now scheduled on 06DEC26 instead of 12NOV26, while 1 of 2 weekly flights will be operated by Lufthansa City. VL2466/LH4070 MUC1255 \u2013 1710RVN 32N 4 LH2466 MUC1340 \u2013 1755RVN 320 7 VL2467/LH4071 RVN1805 \u2013 2020MUC 32N 4 LH2467 MUC1855 \u2013 2110MUC 3",
+   "id": "3b7a6df44abf",
+   "title": "Kenya and World Bank Explore Investment in Local Medical Manufacturing",
+   "url": "https://www.health.go.ke/kenya-and-world-bank-explore-investment-local-medical-manufacturing",
+   "summary": "",
+   "kind": "item",
+   "source": "Kenya Ministry of Health",
+   "source_id": "ke-moh",
+   "tier": 1,
+   "country": "KE",
+   "category": "health",
+   "segments": [
+    "city",
+    "bush",
+    "beach"
+   ],
+   "first_seen": "2026-08-21T17:08+03:00",
+   "published": null,
+   "verdict": "CONSIDER"
+  },
+  {
+   "score": 80.2,
+   "components": {
+    "tier": 40,
+    "category": 24,
+    "lead": 2.4,
+    "relevance": 0,
+    "freshness": 19.8,
+    "undated": -6
+   },
+   "keywords": [],
+   "shock_terms": [],
+   "dedupe_match": null,
+   "dedupe_similarity": 0.0,
+   "id": "d377cf4e7424",
+   "title": "Kenya and Jhpiego Strengthen Maternal and Newborn Health Partnership",
+   "url": "https://www.health.go.ke/kenya-and-jhpiego-strengthen-maternal-and-newborn-health-partnership",
+   "summary": "",
+   "kind": "item",
+   "source": "Kenya Ministry of Health",
+   "source_id": "ke-moh",
+   "tier": 1,
+   "country": "KE",
+   "category": "health",
+   "segments": [
+    "city",
+    "bush",
+    "beach"
+   ],
+   "first_seen": "2026-08-21T17:08+03:00",
+   "published": null,
+   "verdict": "CONSIDER"
+  },
+  {
+   "score": 80.2,
+   "components": {
+    "tier": 20,
+    "category": 14,
+    "lead": 8.4,
+    "relevance": 8,
+    "freshness": 19.8,
+    "corroborated": 10
+   },
+   "keywords": [
+    "route"
+   ],
+   "shock_terms": [],
+   "dedupe_match": null,
+   "dedupe_similarity": 0.0,
+   "id": "ad2c4461c61f",
+   "title": "GOL 1Q27 Rio de Janeiro \u2013 Lisbon Service Changes",
+   "url": "https://www.aeroroutes.com/eng/260821-g31q27lis",
+   "summary": "Published at 0300PDT / 1000GMT 21AUG26 Brasilian carrier GOL in last week\u2019s schedule update revised planned A330-900neo service entry on Rio de Janeiro Galeao \u2013 Lisbon route. Previously scheduled to enter service on this route on 16JAN27, the A330neo is now scheduled to operate this route from 17FEB27, replacing Wamos Air A330-200. G37020 GIG0900 \u2013 2140LIS 339 x247 G37021 LIS2330 \u2013 0630+1GIG 339 x",
    "kind": "item",
    "source": "AeroRoutes schedule filings",
    "source_id": "aeroroutes",
@@ -314,127 +492,127 @@
     "bush",
     "beach"
    ],
-   "first_seen": "2026-08-21T11:05+03:00",
+   "first_seen": "2026-08-21T17:08+03:00",
    "published": "2026-08-21",
    "verdict": "CONSIDER"
   },
   {
-   "score": 85.0,
-   "components": {
-    "tier": 20,
-    "category": 14,
-    "lead": 8.4,
-    "relevance": 16,
-    "freshness": 16.6,
-    "corroborated": 10
-   },
-   "keywords": [
-    "route",
-    "airline",
-    "flight"
-   ],
-   "shock_terms": [],
-   "dedupe_match": null,
-   "dedupe_similarity": 0.0,
-   "id": "2a4f21c3560f",
-   "title": "Scoot Adds Singapore \u2013 Guiyang in 4Q26",
-   "url": "https://www.aeroroutes.com/eng/260820-trnw26kwe",
-   "summary": "Published at 2200PDT 20AUG26 / 0500GMT 21AUG26 Scoot at the launch of Northern winter 2026/27 season plans to launch new route to Mainland China, the airline announced on Thursday 20AUG26. Airbus A320neo will operate Singapore \u2013 Guiyang flight from 26OCT26, 3 times weekly. TR130/SQ8390 SIN1750 \u2013 2215KWE 32N 135 TR131/SQ8391 KWE2315 \u2013 0420+1SIN 32N 135",
-   "kind": "item",
-   "source": "AeroRoutes schedule filings",
-   "source_id": "aeroroutes",
-   "tier": 2,
-   "country": "GLOBAL",
-   "category": "aviation-tracker",
-   "segments": [
-    "city",
-    "bush",
-    "beach"
-   ],
-   "first_seen": "2026-08-21T11:05+03:00",
-   "published": "2026-08-21",
-   "verdict": "CONSIDER"
-  },
-  {
-   "score": 81.0,
-   "components": {
-    "tier": 20,
-    "category": 14,
-    "lead": 8.4,
-    "relevance": 12,
-    "freshness": 16.6,
-    "corroborated": 10
-   },
-   "keywords": [
-    "route",
-    "flight"
-   ],
-   "shock_terms": [],
-   "dedupe_match": null,
-   "dedupe_similarity": 0.0,
-   "id": "384f0f92ad18",
-   "title": "Scoot Increases Okinawa Flights in NW26",
-   "url": "https://www.aeroroutes.com/eng/260820-trnw26oka",
-   "summary": "Published at 2300PDT 20AUG26 / 0600GMT 21AUG26 Scoot during Northern winter 2026/27 season schedules service increase on Singapore \u2013 Okinawa route, where the carrier adds 5th weekly flight from 31OCT26. Airbus A321neo operates this route. TR834 SIN0110 \u2013 0800OKA 32Q 36 TR834 SIN0150 \u2013 0800OKA 32Q 147 TR835 OKA0915 \u2013 1350SIN 32Q x25",
-   "kind": "item",
-   "source": "AeroRoutes schedule filings",
-   "source_id": "aeroroutes",
-   "tier": 2,
-   "country": "GLOBAL",
-   "category": "aviation-tracker",
-   "segments": [
-    "city",
-    "bush",
-    "beach"
-   ],
-   "first_seen": "2026-08-21T11:05+03:00",
-   "published": "2026-08-21",
-   "verdict": "CONSIDER"
-  },
-  {
-   "score": 81.0,
-   "components": {
-    "tier": 20,
-    "category": 14,
-    "lead": 8.4,
-    "relevance": 12,
-    "freshness": 16.6,
-    "corroborated": 10
-   },
-   "keywords": [
-    "vat",
-    "airline"
-   ],
-   "shock_terms": [],
-   "dedupe_match": null,
-   "dedupe_similarity": 0.0,
-   "id": "0fe4a1933477",
-   "title": "Air China Maintains Chengdu \u2013 London Gatwick Link in NW26",
-   "url": "https://www.aeroroutes.com/eng/260820-canw26lgw",
-   "summary": "Published at 2100PDT 20AUG26 / 0400GMT 21AUG26 Air China during Northern winter 2026/27 season plans to maintain Chengdu Tianfu \u2013 London Gatwick service, as the airline opened reservations between 25OCT26 and 27MAR27. During winter season, Airbus A330-300 aircraft operates twice weekly. CA473 TFU1140 \u2013 1520LGW 333 5 CA473 TFU1330 \u2013 1710LGW 333 3 CA474 LGW1910 \u2013 1350+1TFU 333 35",
-   "kind": "item",
-   "source": "AeroRoutes schedule filings",
-   "source_id": "aeroroutes",
-   "tier": 2,
-   "country": "GLOBAL",
-   "category": "aviation-tracker",
-   "segments": [
-    "city",
-    "bush",
-    "beach"
-   ],
-   "first_seen": "2026-08-21T11:05+03:00",
-   "published": "2026-08-21",
-   "verdict": "CONSIDER"
-  },
-  {
-   "score": 79.6,
+   "score": 79.8,
    "components": {
     "tier": 20,
     "category": 4,
     "lead": 0.0,
     "relevance": 24,
-    "freshness": 19.6,
+    "freshness": 19.8,
+    "undated": -6,
+    "shock": 18
+   },
+   "keywords": [
+    "outbreak",
+    "ebola"
+   ],
+   "shock_terms": [
+    "outbreak"
+   ],
+   "dedupe_match": null,
+   "dedupe_similarity": 0.33,
+   "id": "3ab04c6132dd",
+   "title": "Africa Congo set to receive 70,000 Ervebo vaccines to contain Ebola outbreak Yesterday - 2 min read",
+   "url": "https://www.thecitizen.co.tz/tanzania/news/africa/congo-set-to-receive-70-000-ervebo-vaccines-to-contain-ebola-outbreak-5564810",
+   "summary": "",
+   "kind": "item",
+   "source": "The Citizen (Tanzania)",
+   "source_id": "np-citizen-tz",
+   "tier": 2,
+   "country": "TZ",
+   "category": "press",
+   "segments": [
+    "city",
+    "bush",
+    "beach"
+   ],
+   "first_seen": "2026-08-21T17:08+03:00",
+   "published": null,
+   "verdict": "CONSIDER"
+  },
+  {
+   "score": 76.2,
+   "components": {
+    "tier": 20,
+    "category": 14,
+    "lead": 8.4,
+    "relevance": 4,
+    "freshness": 19.8,
+    "corroborated": 10
+   },
+   "keywords": [
+    "flight"
+   ],
+   "shock_terms": [],
+   "dedupe_match": null,
+   "dedupe_similarity": 0.0,
+   "id": "5e7da12c1e7f",
+   "title": "ITA Airways NW26 Intercontinental Service Changes \u2013 20AUG26",
+   "url": "https://www.aeroroutes.com/eng/260821-aznw26inc",
+   "summary": "Published at 0600PDT / 1300GMT 21AUG26 ITA Airways in recent weeks filed additional changes to its planned intercontinental operations for Northern winter 2026/27 season. Planned changes as of 20AUG26 include the following. Rome Fiumicino \u2013 Algiers eff 25OCT26 Reduce from 12 to 10 weekly, A319 Rome Fiumicino \u2013 Buenos Aires Ezeiza 24OCT26 \u2013 11NOV26 Service reduces from 9 to 7 weekly. Inbound flight",
+   "kind": "item",
+   "source": "AeroRoutes schedule filings",
+   "source_id": "aeroroutes",
+   "tier": 2,
+   "country": "GLOBAL",
+   "category": "aviation-tracker",
+   "segments": [
+    "city",
+    "bush",
+    "beach"
+   ],
+   "first_seen": "2026-08-21T17:08+03:00",
+   "published": "2026-08-21",
+   "verdict": "CONSIDER"
+  },
+  {
+   "score": 76.2,
+   "components": {
+    "tier": 20,
+    "category": 14,
+    "lead": 8.4,
+    "relevance": 4,
+    "freshness": 19.8,
+    "corroborated": 10
+   },
+   "keywords": [
+    "airline"
+   ],
+   "shock_terms": [],
+   "dedupe_match": null,
+   "dedupe_similarity": 0.0,
+   "id": "f18b33b290a4",
+   "title": "Malaysia Airlines NW26 Regional Service Increases",
+   "url": "https://www.aeroroutes.com/eng/260821-mhnw26",
+   "summary": "Published at 0200PDT / 0900GMT 21AUG26 Malaysia Airlines in recent schedule update filed expanded regional service for Northern winter 2026/27 season. Planned service expansion includes the following. Kuala Lumpur \u2013 Fukuoka eff 01DEC26 Increase from 5 to 7 weekly, 737 MAX 8 Kuala Lumpur \u2013 Manila eff 25OCT26 Increase from 3 to 4 daily, 737 MAX 8 Kuala Lumpur \u2013 Surabaya eff 25OCT26 Increase from 14 ",
+   "kind": "item",
+   "source": "AeroRoutes schedule filings",
+   "source_id": "aeroroutes",
+   "tier": 2,
+   "country": "GLOBAL",
+   "category": "aviation-tracker",
+   "segments": [
+    "city",
+    "bush",
+    "beach"
+   ],
+   "first_seen": "2026-08-21T17:08+03:00",
+   "published": "2026-08-21",
+   "verdict": "CONSIDER"
+  },
+  {
+   "score": 76.2,
+   "components": {
+    "tier": 20,
+    "category": 4,
+    "lead": 0.0,
+    "relevance": 24,
+    "freshness": 16.2,
     "undated": -6,
     "shock": 18
    },
@@ -467,13 +645,13 @@
    "verdict": "CONSIDER"
   },
   {
-   "score": 78.2,
+   "score": 74.8,
    "components": {
     "tier": 20,
     "category": 5,
     "lead": 3.6,
     "relevance": 20,
-    "freshness": 19.6,
+    "freshness": 16.2,
     "corroborated": 10
    },
    "keywords": [
@@ -505,91 +683,46 @@
    "verdict": "CONSIDER"
   },
   {
-   "score": 76.6,
+   "score": 72.2,
    "components": {
     "tier": 20,
-    "category": 4,
-    "lead": 0.0,
-    "relevance": 24,
-    "freshness": 16.6,
-    "undated": -6,
-    "shock": 18
+    "category": 14,
+    "lead": 8.4,
+    "relevance": 0,
+    "freshness": 19.8,
+    "corroborated": 10
    },
-   "keywords": [
-    "outbreak",
-    "ebola"
-   ],
-   "shock_terms": [
-    "outbreak"
-   ],
+   "keywords": [],
+   "shock_terms": [],
    "dedupe_match": null,
-   "dedupe_similarity": 0.33,
-   "id": "a631818fdccc",
-   "title": "Africa Congo set to receive 70,000 Ervebo vaccines to contain Ebola outbreak 20 hours ago - 2 min read",
-   "url": "https://www.thecitizen.co.tz/tanzania/news/africa/congo-set-to-receive-70-000-ervebo-vaccines-to-contain-ebola-outbreak-5564810",
-   "summary": "",
+   "dedupe_similarity": 0.0,
+   "id": "6937688712f3",
+   "title": "ITA Airways NW26 Germany Service Reductions",
+   "url": "https://www.aeroroutes.com/eng/260821-aznw26de",
+   "summary": "Published at 0500PDT / 1200GMT 21AUG26 ITA Airways in recent schedule update filed service reductions to Germany for Northern winter 2026/27 season. Planned adjustments as follows. Rome Fiumicino \u2013 Frankfurt eff 25OCT26 Reduce from 2 to 1 daily AZ400 FCO0835 \u2013 1040FRA 223 157 AZ404 FCO1520 \u2013 1725FRA EQV x157 AZ403 FRA1130 \u2013 1330FCO 223 157 AZ407 FRA1815 \u2013 2015FCO EQV x157 Rome Fiumicino \u2013 Munich e",
    "kind": "item",
-   "source": "The Citizen (Tanzania)",
-   "source_id": "np-citizen-tz",
+   "source": "AeroRoutes schedule filings",
+   "source_id": "aeroroutes",
    "tier": 2,
-   "country": "TZ",
-   "category": "press",
+   "country": "GLOBAL",
+   "category": "aviation-tracker",
    "segments": [
     "city",
     "bush",
     "beach"
    ],
-   "first_seen": "2026-08-21T11:05+03:00",
-   "published": null,
+   "first_seen": "2026-08-21T17:08+03:00",
+   "published": "2026-08-21",
    "verdict": "CONSIDER"
   },
   {
-   "score": 73.3,
-   "components": {
-    "tier": 20,
-    "category": 4,
-    "lead": 0.0,
-    "relevance": 24,
-    "freshness": 13.3,
-    "undated": -6,
-    "shock": 18
-   },
-   "keywords": [
-    "outbreak",
-    "ebola"
-   ],
-   "shock_terms": [
-    "outbreak"
-   ],
-   "dedupe_match": null,
-   "dedupe_similarity": 0.33,
-   "id": "cb07b8212d7c",
-   "title": "Africa Congo set to receive 70,000 Ervebo vaccines to contain Ebola outbreak 17 hours ago - 2 min read",
-   "url": "https://www.thecitizen.co.tz/tanzania/news/africa/congo-set-to-receive-70-000-ervebo-vaccines-to-contain-ebola-outbreak-5564810",
-   "summary": "",
-   "kind": "item",
-   "source": "The Citizen (Tanzania)",
-   "source_id": "np-citizen-tz",
-   "tier": 2,
-   "country": "TZ",
-   "category": "press",
-   "segments": [
-    "city",
-    "bush",
-    "beach"
-   ],
-   "first_seen": "2026-08-21T08:07+03:00",
-   "published": null,
-   "verdict": "CONSIDER"
-  },
-  {
-   "score": 70.2,
+   "score": 66.8,
    "components": {
     "tier": 20,
     "category": 5,
     "lead": 3.6,
     "relevance": 12,
-    "freshness": 19.6,
+    "freshness": 16.2,
     "corroborated": 10
    },
    "keywords": [
@@ -616,16 +749,16 @@
    ],
    "first_seen": "2026-08-21T13:54+03:00",
    "published": "2026-08-21",
-   "verdict": "CONSIDER"
+   "verdict": "weak"
   },
   {
-   "score": 70.2,
+   "score": 66.8,
    "components": {
     "tier": 20,
     "category": 5,
     "lead": 3.6,
     "relevance": 12,
-    "freshness": 19.6,
+    "freshness": 16.2,
     "corroborated": 10
    },
    "keywords": [
@@ -652,16 +785,16 @@
    ],
    "first_seen": "2026-08-21T13:54+03:00",
    "published": "2026-08-21",
-   "verdict": "CONSIDER"
+   "verdict": "weak"
   },
   {
-   "score": 66.2,
+   "score": 62.8,
    "components": {
     "tier": 20,
     "category": 5,
     "lead": 3.6,
     "relevance": 8,
-    "freshness": 19.6,
+    "freshness": 16.2,
     "corroborated": 10
    },
    "keywords": [
@@ -691,13 +824,13 @@
    "verdict": "weak"
   },
   {
-   "score": 66.2,
+   "score": 62.8,
    "components": {
     "tier": 20,
     "category": 5,
     "lead": 3.6,
     "relevance": 8,
-    "freshness": 19.6,
+    "freshness": 16.2,
     "corroborated": 10
    },
    "keywords": [
@@ -727,13 +860,13 @@
    "verdict": "weak"
   },
   {
-   "score": 66.2,
+   "score": 62.8,
    "components": {
     "tier": 20,
     "category": 5,
     "lead": 3.6,
     "relevance": 8,
-    "freshness": 19.6,
+    "freshness": 16.2,
     "corroborated": 10
    },
    "keywords": [
@@ -763,13 +896,13 @@
    "verdict": "weak"
   },
   {
-   "score": 65.6,
+   "score": 62.2,
    "components": {
     "tier": 20,
     "category": 4,
     "lead": 0.0,
     "relevance": 12,
-    "freshness": 19.6,
+    "freshness": 16.2,
     "corroborated": 10
    },
    "keywords": [
@@ -799,13 +932,13 @@
    "verdict": "weak"
   },
   {
-   "score": 65.6,
+   "score": 62.2,
    "components": {
     "tier": 20,
     "category": 4,
     "lead": 0.0,
     "relevance": 12,
-    "freshness": 19.6,
+    "freshness": 16.2,
     "corroborated": 10
    },
    "keywords": [
@@ -834,13 +967,153 @@
    "verdict": "weak"
   },
   {
-   "score": 62.2,
+   "score": 61.8,
+   "components": {
+    "tier": 20,
+    "category": 4,
+    "lead": 0.0,
+    "relevance": 8,
+    "freshness": 19.8,
+    "corroborated": 10
+   },
+   "keywords": [
+    "vat"
+   ],
+   "shock_terms": [],
+   "dedupe_match": null,
+   "dedupe_similarity": 0.0,
+   "id": "fc57fdc496ca",
+   "title": "Huye Stadium Renovation Stalls as New League Season Nears",
+   "url": "https://www.ktpress.rw/2026/08/huye-stadium-renovation-stalls-as-new-league-season-nears",
+   "summary": "KIGALI \u2014 August 21, 2026 \u2014 Renovation work at Huye International Stadium has stalled less than two weeks before Rwanda\u2019s 2026-27 football season is due to begin, raising questions over\u2026 The post Huye Stadium Renovation Stalls as New League Season Nears appeared first on KT PRESS .",
+   "kind": "item",
+   "source": "KT Press (Rwanda)",
+   "source_id": "np-ktpress-rw",
+   "tier": 2,
+   "country": "RW",
+   "category": "press",
+   "segments": [
+    "city",
+    "bush",
+    "beach"
+   ],
+   "first_seen": "2026-08-21T17:08+03:00",
+   "published": "2026-08-21",
+   "verdict": "weak"
+  },
+  {
+   "score": 60.0,
+   "components": {
+    "tier": 20,
+    "category": 5,
+    "lead": 1.2,
+    "relevance": 4,
+    "freshness": 19.8,
+    "corroborated": 10
+   },
+   "keywords": [
+    "operator"
+   ],
+   "shock_terms": [],
+   "dedupe_match": null,
+   "dedupe_similarity": 0.2,
+   "id": "a835df8c70ac",
+   "title": "Viator\u2019s Updated Operator Agreement Formalizes a Power Shift in Experiences Pricing: Scoop",
+   "url": "https://skift.com/2026/08/21/viators-updated-operator-agreement-formalizes-a-power-shift-in-experiences-pricing-scoop",
+   "summary": "Is Airbnb's partnership with Tripadvisor merely an expansion of Airbnb's partnership with Tripadvisor's res-tech unit Bokun? So far some Airbnb employees aren't seeing signs of a broad, new Viator inventory partnership in the works.",
+   "kind": "item",
+   "source": "Skift",
+   "source_id": "tp-skift",
+   "tier": 2,
+   "country": "GLOBAL",
+   "category": "trade",
+   "segments": [
+    "city",
+    "bush",
+    "beach"
+   ],
+   "first_seen": "2026-08-21T17:08+03:00",
+   "published": "2026-08-21",
+   "verdict": "weak"
+  },
+  {
+   "score": 60.0,
+   "components": {
+    "tier": 20,
+    "category": 5,
+    "lead": 1.2,
+    "relevance": 4,
+    "freshness": 19.8,
+    "corroborated": 10
+   },
+   "keywords": [
+    "airline"
+   ],
+   "shock_terms": [],
+   "dedupe_match": null,
+   "dedupe_similarity": 0.0,
+   "id": "25a950714b7f",
+   "title": "The Iran War Shows How Reliant Indian Airlines Are on Gulf Hubs",
+   "url": "https://skift.com/2026/08/21/the-iran-war-shows-how-reliant-indian-airlines-are-on-gulf-hubs",
+   "summary": "India\u2019s global aviation ambitions still run through the Gulf. When that works, it connects Indian travelers to the world. When geopolitics disrupts it, the shock quickly reaches India\u2019s airlines.",
+   "kind": "item",
+   "source": "Skift",
+   "source_id": "tp-skift",
+   "tier": 2,
+   "country": "GLOBAL",
+   "category": "trade",
+   "segments": [
+    "city",
+    "bush",
+    "beach"
+   ],
+   "first_seen": "2026-08-21T17:08+03:00",
+   "published": "2026-08-21",
+   "verdict": "weak"
+  },
+  {
+   "score": 60.0,
+   "components": {
+    "tier": 20,
+    "category": 5,
+    "lead": 1.2,
+    "relevance": 4,
+    "freshness": 19.8,
+    "corroborated": 10
+   },
+   "keywords": [
+    "hotel"
+   ],
+   "shock_terms": [],
+   "dedupe_match": null,
+   "dedupe_similarity": 0.0,
+   "id": "675475430a13",
+   "title": "Why This Founder Believes Every Hotel Should Think Like a Media Company",
+   "url": "https://skift.com/2026/08/20/why-this-founder-believes-every-hotel-should-think-like-a-media-company",
+   "summary": "On this episode of Suite Success, host Katie Cline sits down with Brandon Berkson, founder of Hotels Above Par, a boutique publication reaching more than half a million readers, as well as the creator of Mexzine. Brandon shares how getting furloughed during the pandemic led him to launch the brand, why his background in hotel [\u2026]",
+   "kind": "item",
+   "source": "Skift",
+   "source_id": "tp-skift",
+   "tier": 2,
+   "country": "GLOBAL",
+   "category": "trade",
+   "segments": [
+    "city",
+    "bush",
+    "beach"
+   ],
+   "first_seen": "2026-08-21T17:08+03:00",
+   "published": "2026-08-20",
+   "verdict": "weak"
+  },
+  {
+   "score": 58.8,
    "components": {
     "tier": 20,
     "category": 5,
     "lead": 3.6,
     "relevance": 4,
-    "freshness": 19.6,
+    "freshness": 16.2,
     "corroborated": 10
    },
    "keywords": [
@@ -869,13 +1142,13 @@
    "verdict": "weak"
   },
   {
-   "score": 62.2,
+   "score": 58.8,
    "components": {
     "tier": 20,
     "category": 5,
     "lead": 3.6,
     "relevance": 4,
-    "freshness": 19.6,
+    "freshness": 16.2,
     "corroborated": 10
    },
    "keywords": [
@@ -904,13 +1177,13 @@
    "verdict": "weak"
   },
   {
-   "score": 62.2,
+   "score": 58.8,
    "components": {
     "tier": 20,
     "category": 5,
     "lead": 3.6,
     "relevance": 4,
-    "freshness": 19.6,
+    "freshness": 16.2,
     "corroborated": 10
    },
    "keywords": [
@@ -939,13 +1212,13 @@
    "verdict": "weak"
   },
   {
-   "score": 62.2,
+   "score": 58.8,
    "components": {
     "tier": 20,
     "category": 5,
     "lead": 3.6,
     "relevance": 4,
-    "freshness": 19.6,
+    "freshness": 16.2,
     "corroborated": 10
    },
    "keywords": [
@@ -974,13 +1247,13 @@
    "verdict": "weak"
   },
   {
-   "score": 61.6,
+   "score": 58.2,
    "components": {
     "tier": 20,
     "category": 4,
     "lead": 0.0,
     "relevance": 8,
-    "freshness": 19.6,
+    "freshness": 16.2,
     "corroborated": 10
    },
    "keywords": [
@@ -1009,13 +1282,13 @@
    "verdict": "weak"
   },
   {
-   "score": 61.6,
+   "score": 58.2,
    "components": {
     "tier": 20,
     "category": 4,
     "lead": 0.0,
     "relevance": 8,
-    "freshness": 19.6,
+    "freshness": 16.2,
     "corroborated": 10
    },
    "keywords": [
@@ -1044,85 +1317,13 @@
    "verdict": "weak"
   },
   {
-   "score": 61.0,
-   "components": {
-    "tier": 20,
-    "category": 24,
-    "lead": 2.4,
-    "relevance": 8,
-    "freshness": 16.6,
-    "undated": -6,
-    "page_change": -4
-   },
-   "keywords": [
-    "vat"
-   ],
-   "shock_terms": [],
-   "dedupe_match": null,
-   "dedupe_similarity": 0.0,
-   "id": "55522b13c538",
-   "title": "[page changed] ProMED-mail",
-   "url": "https://promedmail.org/",
-   "summary": "Protecting Global Health, One Alert at a Time | ProMED Previous slide Next slide Protecting Global Health, One Alert at a Time ProMED: Your 24/7 early warning system for emerging infectious diseases worldwide. Subscribe ProMED's Weekly Pulse A snapshot of global health events from the past 7 days Latest Posts on ProMED All Date Title Fri Aug 21 2026 RESEARCH & INNOVATION (164): ANTIMICROBIAL PEPTI",
-   "kind": "page-change",
-   "source": "ProMED-mail",
-   "source_id": "promed",
-   "tier": 2,
-   "country": "GLOBAL",
-   "category": "health",
-   "segments": [
-    "city",
-    "bush",
-    "beach"
-   ],
-   "first_seen": "2026-08-21T11:05+03:00",
-   "published": null,
-   "verdict": "weak"
-  },
-  {
-   "score": 60.8,
-   "components": {
-    "tier": 20,
-    "category": 5,
-    "lead": 1.2,
-    "relevance": 8,
-    "freshness": 16.6,
-    "corroborated": 10
-   },
-   "keywords": [
-    "safari",
-    "airline"
-   ],
-   "shock_terms": [],
-   "dedupe_match": null,
-   "dedupe_similarity": 0.0,
-   "id": "0d3a900af3c4",
-   "title": "Seychelles and Kenya Airways step up twin-centre promotion in North America",
-   "url": "https://voyagesafriq.com/2026/08/21/seychelles-and-kenya-airways-step-up-twin-centre-promotion-in-north-america",
-   "summary": "Seychelles and Kenya Airways are joining forces to promote twin-centre holidays in North America, using the airline\u2019s non-stop New York-Nairobi service and onward connections to combine Kenya\u2019s renowned safaris with [\u2026] The post Seychelles and Kenya Airways step up twin-centre promotion in North America<gwmw style=\"display:none;\"></gwmw> appeared first on Voyages Afriq .",
-   "kind": "item",
-   "source": "VoyagesAfriq",
-   "source_id": "tp-voyagesafriq",
-   "tier": 2,
-   "country": "REG",
-   "category": "trade",
-   "segments": [
-    "city",
-    "bush",
-    "beach"
-   ],
-   "first_seen": "2026-08-21T11:05+03:00",
-   "published": "2026-08-21",
-   "verdict": "weak"
-  },
-  {
-   "score": 59.8,
+   "score": 56.4,
    "components": {
     "tier": 20,
     "category": 5,
     "lead": 1.2,
     "relevance": 4,
-    "freshness": 19.6,
+    "freshness": 16.2,
     "corroborated": 10
    },
    "keywords": [
@@ -1151,278 +1352,68 @@
    "verdict": "weak"
   },
   {
-   "score": 58.6,
+   "score": 56.0,
    "components": {
     "tier": 20,
-    "category": 4,
-    "lead": 0.0,
-    "relevance": 8,
-    "freshness": 16.6,
-    "corroborated": 10
-   },
-   "keywords": [
-    "route"
-   ],
-   "shock_terms": [],
-   "dedupe_match": null,
-   "dedupe_similarity": 0.0,
-   "id": "dacaff27b936",
-   "title": "Simba\u2019s \u201cKatam\u201d shrugs off RnB idiom, sticks on Simba wa Nyika route",
-   "url": "https://dailynews.co.tz/simbas-katam-shrugs-off-rnb-idiom-sticks-on-simba-wa-nyika-route",
-   "summary": "DAR ES SALAAM: AS Bongo Flava celebrates the third round of its 30th anniversary in Dodoma tomorrow, \u201cKatam\u201d by Diamond Platnumz featuring Kenyan star Bien-Aim\u00e9 Baraza deserves to be on the playlist menu. It has been among Bongo Flava\u2019s top trends with a huge viewership from East Africa and across the continent owing to the \u2026 The post Simba\u2019s \u201cKatam\u201d shrugs off RnB idiom, sticks on Simba wa Nyika ",
-   "kind": "item",
-   "source": "Daily News (Tanzania)",
-   "source_id": "np-dailynews-tz",
-   "tier": 2,
-   "country": "TZ",
-   "category": "press",
-   "segments": [
-    "city",
-    "bush",
-    "beach"
-   ],
-   "first_seen": "2026-08-21T11:05+03:00",
-   "published": "2026-08-21",
-   "verdict": "weak"
-  },
-  {
-   "score": 58.6,
-   "components": {
-    "tier": 20,
-    "category": 4,
-    "lead": 0.0,
-    "relevance": 8,
-    "freshness": 16.6,
-    "corroborated": 10
-   },
-   "keywords": [
-    "capacity"
-   ],
-   "shock_terms": [],
-   "dedupe_match": null,
-   "dedupe_similarity": 0.2,
-   "id": "e75339e7af85",
-   "title": "AFCON 2027 drives Tanzania\u2019s push to strengthen emergency care",
-   "url": "https://dailynews.co.tz/afcon-2027-drives-tanzanias-push-to-strengthen-emergency-care",
-   "summary": "DAR ES SALAAM: TANZANIA is stepping up efforts to strengthen emergency medical care ahead of the 2027 Africa Cup of Nations (AFCON), expanding specialist training, paramedic services and hospital capacity as the country prepares to receive athletes, officials and large numbers of visitors for the continental tournament. The preparations are aimed not only at ensuring \u2026 The post AFCON 2027 drives T",
-   "kind": "item",
-   "source": "Daily News (Tanzania)",
-   "source_id": "np-dailynews-tz",
-   "tier": 2,
-   "country": "TZ",
-   "category": "press",
-   "segments": [
-    "city",
-    "bush",
-    "beach"
-   ],
-   "first_seen": "2026-08-21T11:05+03:00",
-   "published": "2026-08-21",
-   "verdict": "weak"
-  },
-  {
-   "score": 58.6,
-   "components": {
-    "tier": 20,
-    "category": 4,
-    "lead": 0.0,
-    "relevance": 8,
-    "freshness": 16.6,
-    "corroborated": 10
-   },
-   "keywords": [
-    "flood"
-   ],
-   "shock_terms": [],
-   "dedupe_match": null,
-   "dedupe_similarity": 0.2,
-   "id": "1bf6e4f38216",
-   "title": "Iringa\u2013Mbeya highway closed for repairs",
-   "url": "https://dailynews.co.tz/iringa-mbeya-highway-closed-for-repairs",
-   "summary": "IRINGA: THE Tanzania National Roads Agency (TANROADS) in Iringa Region has temporarily closed a section of the Iringa\u2013Mbeya highway at Ipogolo Bridge for a two month major overhaul to address chronic flooding ahead of the rainy season. The affected stretch forms part of the Tanzania-Zambia Highway (TANZAM), a crucial commercial corridor handling nearly 3,500 vehicles \u2026 The post Iringa\u2013Mbeya highwa",
-   "kind": "item",
-   "source": "Daily News (Tanzania)",
-   "source_id": "np-dailynews-tz",
-   "tier": 2,
-   "country": "TZ",
-   "category": "press",
-   "segments": [
-    "city",
-    "bush",
-    "beach"
-   ],
-   "first_seen": "2026-08-21T11:05+03:00",
-   "published": "2026-08-21",
-   "verdict": "weak"
-  },
-  {
-   "score": 58.6,
-   "components": {
-    "tier": 20,
-    "category": 4,
-    "lead": 0.0,
-    "relevance": 8,
-    "freshness": 16.6,
-    "corroborated": 10
-   },
-   "keywords": [
-    "vat"
-   ],
-   "shock_terms": [],
-   "dedupe_match": null,
-   "dedupe_similarity": 0.14,
-   "id": "0dcf8ce05978",
-   "title": "UDSM research hits global top-tier journals",
-   "url": "https://dailynews.co.tz/udsm-research-hits-global-top-tier-journals",
-   "summary": "DAR ES SALAAM: MORE than half of the research produced by the University of Dar es Salaam (UDSM) is now published in top-tier international journals, underscoring the institution\u2019s growing global academic standing. The milestone was announced during the Education, Skills and Innovation Week in Tanga, where the Minister for Education, Science and Technology, Professor Adolf \u2026 The post UDSM research",
-   "kind": "item",
-   "source": "Daily News (Tanzania)",
-   "source_id": "np-dailynews-tz",
-   "tier": 2,
-   "country": "TZ",
-   "category": "press",
-   "segments": [
-    "city",
-    "bush",
-    "beach"
-   ],
-   "first_seen": "2026-08-21T11:05+03:00",
-   "published": "2026-08-21",
-   "verdict": "weak"
-  },
-  {
-   "score": 54.6,
-   "components": {
-    "tier": 20,
-    "category": 4,
-    "lead": 0.0,
-    "relevance": 4,
-    "freshness": 16.6,
-    "corroborated": 10
-   },
-   "keywords": [
-    "camp"
-   ],
-   "shock_terms": [],
-   "dedupe_match": null,
-   "dedupe_similarity": 0.0,
-   "id": "e149592f5df8",
-   "title": "Futa Delete Kabisa: The Day Three Words Found a Nation (Part II)",
-   "url": "https://dailynews.co.tz/futa-delete-kabisa-the-day-three-words-found-a-nation-part-ii",
-   "summary": "DAR ES SALAAM: WHEN I concluded last week\u2019s column, the story had reached a defining moment. The management discussions were over, the message had been found and months of preparation had finally brought us to 31 July 2013. Behind the scenes, we knew we were launching a public education campaign. What none VISION 2025 ACHIEVEMENT \u2026 The post Futa Delete Kabisa: The Day Three Words Found a Nation (P",
-   "kind": "item",
-   "source": "Daily News (Tanzania)",
-   "source_id": "np-dailynews-tz",
-   "tier": 2,
-   "country": "TZ",
-   "category": "press",
-   "segments": [
-    "city",
-    "bush",
-    "beach"
-   ],
-   "first_seen": "2026-08-21T11:05+03:00",
-   "published": "2026-08-21",
-   "verdict": "weak"
-  },
-  {
-   "score": 54.6,
-   "components": {
-    "tier": 20,
-    "category": 4,
-    "lead": 0.0,
-    "relevance": 4,
-    "freshness": 16.6,
-    "corroborated": 10
-   },
-   "keywords": [
-    "camp"
-   ],
-   "shock_terms": [],
-   "dedupe_match": null,
-   "dedupe_similarity": 0.0,
-   "id": "26ee51bd1da5",
-   "title": "Apac land camp empowers women as family disputes persist over customary ownership",
-   "url": "https://www.monitor.co.ug/uganda/news/national/apac-land-camp-empowers-women-as-family-disputes-persist-over-customary-ownership-5565574",
-   "summary": "In the past, sub-counties in the district reported upwards of 20 cases of land-related violence...",
-   "kind": "item",
-   "source": "Daily Monitor (Uganda)",
-   "source_id": "np-monitor-ug",
-   "tier": 2,
-   "country": "UG",
-   "category": "press",
-   "segments": [
-    "city",
-    "bush",
-    "beach"
-   ],
-   "first_seen": "2026-08-21T11:05+03:00",
-   "published": "2026-08-21",
-   "verdict": "weak"
-  },
-  {
-   "score": 53.6,
-   "components": {
-    "tier": 20,
-    "category": 4,
-    "lead": 0.0,
+    "category": 5,
+    "lead": 1.2,
     "relevance": 0,
-    "freshness": 19.6,
+    "freshness": 19.8,
     "corroborated": 10
    },
    "keywords": [],
    "shock_terms": [],
    "dedupe_match": null,
    "dedupe_similarity": 0.0,
-   "id": "4853cedc6baa",
-   "title": "Jambojet set to return to Nairobi-Entebbe skyline after six-year hiatus",
-   "url": "https://www.monitor.co.ug/uganda/business/technology/jambojet-set-to-return-to-nairobi-entebbe-skyline-after-six-year-hiatus-5565888",
-   "summary": "Jambojet is weeks away from re-entering the Nairobi-Entebbe skyline",
+   "id": "3c9e59e2a29b",
+   "title": "Travel\u2019s AI Reckoning Has Arrived",
+   "url": "https://skift.com/2026/08/21/travels-ai-reckoning-has-arrived",
+   "summary": "Sarah Kopit and Seth Borko break down travel\u2019s AI reckoning: what is paying off, what is still experimental, and why data, trust, and ROI now matter more than AI hype.",
    "kind": "item",
-   "source": "Daily Monitor (Uganda)",
-   "source_id": "np-monitor-ug",
+   "source": "Skift",
+   "source_id": "tp-skift",
    "tier": 2,
-   "country": "UG",
-   "category": "press",
+   "country": "GLOBAL",
+   "category": "trade",
    "segments": [
     "city",
     "bush",
     "beach"
    ],
-   "first_seen": "2026-08-21T13:54+03:00",
+   "first_seen": "2026-08-21T17:08+03:00",
    "published": "2026-08-21",
    "verdict": "weak"
   },
   {
-   "score": 53.6,
+   "score": 56.0,
    "components": {
     "tier": 20,
-    "category": 4,
-    "lead": 0.0,
+    "category": 5,
+    "lead": 1.2,
     "relevance": 0,
-    "freshness": 19.6,
+    "freshness": 19.8,
     "corroborated": 10
    },
    "keywords": [],
    "shock_terms": [],
    "dedupe_match": null,
    "dedupe_similarity": 0.0,
-   "id": "36da63f28085",
-   "title": "Number stories can win or lose readers",
-   "url": "https://www.monitor.co.ug/uganda/oped/columnists/charles-bichachi/number-stories-can-win-or-lose-readers-5565836",
-   "summary": "So instead of one long, packed, and winding story, you get five or more easy bite stories, each...",
+   "id": "aaa35200999a",
+   "title": "Google Just Bought Spirit\u2019s Data for $10 Million and Got a Steal",
+   "url": "https://skift.com/2026/08/21/google-just-bought-spirits-data-for-10-million-and-got-a-steal",
+   "summary": "On today's Skift Daily Briefing, \u2060Sarah Dandashy\u2060 breaks down why Google's Spirit data purchase is a bargain with enormous AI implications, what the UK's drip pricing crackdown means for travelers and why the U.S. still hasn't figured this out, and why Delta's reliability problems aren't going away before fall.",
    "kind": "item",
-   "source": "Daily Monitor (Uganda)",
-   "source_id": "np-monitor-ug",
+   "source": "Skift",
+   "source_id": "tp-skift",
    "tier": 2,
-   "country": "UG",
-   "category": "press",
+   "country": "GLOBAL",
+   "category": "trade",
    "segments": [
     "city",
     "bush",
     "beach"
    ],
-   "first_seen": "2026-08-21T13:54+03:00",
+   "first_seen": "2026-08-21T17:08+03:00",
    "published": "2026-08-21",
    "verdict": "weak"
   }

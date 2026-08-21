@@ -1,148 +1,162 @@
-# Radar candidates — midday slot
-_Window opens Fri 21 Aug 07:00 EAT · 263 observations in window · 6 headlines deduped against_
+# Radar candidates — evening slot
+_Window opens Fri 21 Aug 13:00 EAT · 198 observations in window · 6 headlines deduped against_
 
 Ranked by first-seen recency, source tier and hospitality relevance. `first seen` is when the radar observed the item, which is the date the recency gate runs on. `published` is what the source claims — where the two disagree, the disagreement is the story.
 
-### 🚨 [98.5] [page changed] Federal Register — CDC notices
+### 🚨 [101.4] [page changed] Federal Register — public inspection (HHS/CDC), pre-publication
 - **Verdict:** OPEN THIS — tier-1 advisory page moved; content not auto-parsed, read it manually
-- **Source:** Federal Register — CDC notices · tier 1 · REG · advisory
-- **First seen:** 2026-08-21T11:05+03:00 EAT · **Source date:** — none stated
-- **URL:** https://www.federalregister.gov/api/v1/documents.rss?conditions%5Bagencies%5D%5B%5D=centers-for-disease-control-and-prevention&order=newest
-- **Extract:** Federal Register Documents published on or after 07/22/2026 and from Centers for Disease Control and Prevention https://www.federalregister.gov/api/v1/documents.rss?conditions%5Bagencies%5D%5B%5D=centers-for-disease-control-and-prevention&order=newest Thu, 20 
-- **Score parts:** tier +40, category +32, lead +12, relevance +8, freshness +16.5, undated -6, page_change -4
+- **Source:** Federal Register — public inspection (HHS/CDC), pre-publication · tier 1 · REG · advisory
+- **First seen:** 2026-08-21T17:07+03:00 EAT · **Source date:** 2026-08-21
+- **URL:** https://www.federalregister.gov/api/v1/public-inspection-documents/current.json
+- **Extract:** {"count":85,"results":[{"agencies":[{"raw_name":"FEDERAL COMMUNICATIONS COMMISSION","name":"Federal Communications Commission","id":161,"url":"https://www.federalregister.gov/agencies/federal-communications-commission","json_url":"https://www.federalregister.g
+- **Score parts:** tier +40, category +32, lead +3.6, relevance +0, freshness +19.8, corroborated +10, page_change -4
 
-### 🚨 [91.2] [page changed] Federal Register — public inspection (HHS/CDC), pre-publication
+### 🚨 [87.8] [page changed] Federal Register — public inspection (HHS/CDC), pre-publication
 - **Verdict:** OPEN THIS — tier-1 advisory page moved; content not auto-parsed, read it manually
 - **Source:** Federal Register — public inspection (HHS/CDC), pre-publication · tier 1 · REG · advisory
 - **First seen:** 2026-08-21T13:54+03:00 EAT · **Source date:** 2026-08-19
 - **URL:** https://www.federalregister.gov/api/v1/public-inspection-documents/current.json
 - **Extract:** {"count":118,"results":[{"agencies":[{"raw_name":"EQUAL EMPLOYMENT OPPORTUNITY COMMISSION","name":"Equal Employment Opportunity Commission","id":147,"url":"https://www.federalregister.gov/agencies/equal-employment-opportunity-commission","json_url":"https://ww
-- **Score parts:** tier +40, category +32, lead +3.6, relevance +0, freshness +19.6, page_change -4
+- **Score parts:** tier +40, category +32, lead +3.6, relevance +0, freshness +16.2, page_change -4
 
-### 🚨 [88.1] [page changed] Federal Register — public inspection (HHS/CDC), pre-publication
-- **Verdict:** OPEN THIS — tier-1 advisory page moved; content not auto-parsed, read it manually
-- **Source:** Federal Register — public inspection (HHS/CDC), pre-publication · tier 1 · REG · advisory
-- **First seen:** 2026-08-21T11:05+03:00 EAT · **Source date:** 2026-08-19
-- **URL:** https://www.federalregister.gov/api/v1/public-inspection-documents/current.json
-- **Extract:** {"count":118,"results":[{"agencies":[{"raw_name":"EQUAL EMPLOYMENT OPPORTUNITY COMMISSION","name":"Equal Employment Opportunity Commission","id":147,"url":"https://www.federalregister.gov/agencies/equal-employment-opportunity-commission","json_url":"https://ww
-- **Score parts:** tier +40, category +32, lead +3.6, relevance +0, freshness +16.5, page_change -4
-
-### 🚨 [85.7] [page changed] Federal Register — public inspection (HHS/CDC), pre-publication
-- **Verdict:** OPEN THIS — tier-1 advisory page moved; content not auto-parsed, read it manually
-- **Source:** Federal Register — public inspection (HHS/CDC), pre-publication · tier 1 · REG · advisory
-- **First seen:** 2026-08-21T08:49+03:00 EAT · **Source date:** 2026-08-19
-- **URL:** https://www.federalregister.gov/api/v1/public-inspection-documents/current.json
-- **Extract:** {"count":118,"results":[{"agencies":[{"raw_name":"EQUAL EMPLOYMENT OPPORTUNITY COMMISSION","name":"Equal Employment Opportunity Commission","id":147,"url":"https://www.federalregister.gov/agencies/equal-employment-opportunity-commission","json_url":"https://ww
-- **Score parts:** tier +40, category +32, lead +3.6, relevance +0, freshness +14.1, page_change -4
-
-### 🚨 [65.4] [page changed] Airlink news
+### 🚨 [62.0] [page changed] Airlink news
 - **Verdict:** OPEN THIS — tier-1 airline page moved; content not auto-parsed, read it manually
 - **Source:** Airlink news · tier 1 · REG · airline
 - **First seen:** 2026-08-21T14:02+03:00 EAT · **Source date:** — none stated
 - **URL:** https://www.flyairlink.com/
 - **Extract:** Request unsuccessful. Incapsula incident ID: 1007000090241482014-145378862009614964
-- **Score parts:** tier +40, category +12, lead +3.6, relevance +0, freshness +19.8, undated -6, page_change -4
+- **Score parts:** tier +40, category +12, lead +3.6, relevance +0, freshness +16.4, undated -6, page_change -4
 
-### 🚨 [65.2] [page changed] Jambojet media
+### 🚨 [61.8] [page changed] Jambojet media
 - **Verdict:** OPEN THIS — tier-1 airline page moved; content not auto-parsed, read it manually
 - **Source:** Jambojet media · tier 1 · KE · airline
 - **First seen:** 2026-08-21T13:53+03:00 EAT · **Source date:** — none stated
 - **URL:** https://www.jambojet.com/en/press-release
 - **Extract:** Request unsuccessful. Incapsula incident ID: 198000340820652599-1278316867282667710
-- **Score parts:** tier +40, category +12, lead +3.6, relevance +0, freshness +19.6, undated -6, page_change -4
+- **Score parts:** tier +40, category +12, lead +3.6, relevance +0, freshness +16.2, undated -6, page_change -4
 
-### 🟡 [105.0] Ethiopian Dec 2026/Jan 2027 Atlanta Service Changes
+### 🟠 [101.4] Government Targets Bigger Role in Tourism Funds Management – 21 AUG 2026
+- **Verdict:** STRONG — tier-1, upstream
+- **Source:** Ministry of Tourism & Wildlife · tier 1 · KE · ministry
+- **First seen:** 2026-08-21T17:07+03:00 EAT · **Source date:** 2026-08-21
+- **URL:** https://www.tourism.go.ke/government-targets-bigger-role-in-tourism-funds-management
+- **Extract:** Role in Tourism Funds Management http://www.tourism.go.ke/wp-content/uploads/2026/08/Fund-mgt.pdf PRESS RELEASE GOVERNMENT TARGETS BIGGER ROLE IN TOURISM FUNDS MANAGEMENT NAIROBI, 20 August 2026 — The Ministry of Tourism and Wildlife has proposed the separatio
+- **Score parts:** tier +40, category +12, lead +3.6, relevance +16, freshness +19.8, corroborated +10
+
+### 🟡 [100.2] SalamAir Closes Medan Bookings in mid-2H26
 - **Verdict:** CONSIDER
 - **Source:** AeroRoutes schedule filings · tier 2 · GLOBAL · aviation-tracker
-- **First seen:** 2026-08-21T11:05+03:00 EAT · **Source date:** 2026-08-21
-- **URL:** https://www.aeroroutes.com/eng/260821-etdec26atl
-- **Extract:** Published at 0100PDT / 0800GMT 21AUG26 Ethiopian Airlines in recent schedule update revised planned peak season frequency on Addis Ababa – Atlanta route (Westbound via Rome Fiumicino). During the period of 19DEC26 – 14JAN27, the Star Alliance member will maint
-- **Score parts:** tier +20, category +14, lead +8.4, relevance +36, freshness +16.6, corroborated +10
+- **First seen:** 2026-08-21T17:08+03:00 EAT · **Source date:** 2026-08-21
+- **URL:** https://www.aeroroutes.com/eng/260821-ov2h26kno
+- **Extract:** Published at 0700PDT / 1400GMT 21AUG26 Oman’s SalamAir recently filed service adjustments on Muscat – Medan Kualanamu route, as the airline closed reservations for the period of 15SEP26 – 25SEP26, as well as all flights from 27OCT26. The airline currently sche
+- **Score parts:** tier +20, category +14, lead +8.4, relevance +28, freshness +19.8, corroborated +10
 
-### 🟡 [94.2] Pinnacle Advisory Group Forecasts Continued Growth for Greater Boston Lodging Market in 2027
+### 🟠 [99.0] Austria - Level 1: Exercise Normal Precautions
+- **Verdict:** STRONG — tier-1, upstream
+- **Source:** US State Dept travel advisories (EA feed) · tier 1 · REG · advisory
+- **First seen:** 2026-08-21T17:07+03:00 EAT · **Source date:** — none stated
+- **URL:** https://travel.state.gov/content/travel/en/traveladvisories/traveladvisories/austria-travel-advisory.html
+- **Extract:** There were no changes to the advisory level or risk indicators. Advisory summary was updated. Advisory summary Austria is generally a safe destination for travelers. Read our Travel Guidance for additional information on travel to Austria. If you decide to tra
+- **Score parts:** tier +40, category +32, lead +1.2, relevance +12, freshness +19.8, undated -6
+
+### 🟠 [99.0] Turkmenistan - Level 1: Exercise Normal Precautions
+- **Verdict:** STRONG — tier-1, upstream
+- **Source:** US State Dept travel advisories (EA feed) · tier 1 · REG · advisory
+- **First seen:** 2026-08-21T17:07+03:00 EAT · **Source date:** — none stated
+- **URL:** https://travel.state.gov/content/travel/en/traveladvisories/traveladvisories/turkmenistan-travel-advisory.html
+- **Extract:** There were no changes to the advisory level or risk indicators. Advisory summary was updated. Exercise normal precautions in Turkmenistan. Advisory summary Turkmenistan is generally a safe destination for travelers. Medical services for routine and emergency p
+- **Score parts:** tier +40, category +32, lead +1.2, relevance +12, freshness +19.8, undated -6
+
+### 🟠 [98.1] Democratic Republic of the Congo (DRC) reported
+- **Verdict:** STRONG — tier-1, upstream
+- **Source:** ECDC — DRC/Uganda Ebola outbreak page · tier 1 · GLOBAL · health
+- **First seen:** 2026-08-21T17:07+03:00 EAT · **Source date:** 2026-08-19
+- **URL:** https://insp.cd/wp-content/uploads/2026/08/97-1.pdf
+- **Extract:** 1 fr-FR fr-FR fr-FR fr-FRRapport de Situation de la 17ème Épidémie de la Maladie à Virus EBOLA /RDC fr-FR fr-FRSitRep N°097/MVEBDB/19/08/2026 fr-FR fr-FR Date de rapportage : 19 août 2026 Date de publication : 20 août 2026 fr-FR fr-FR fr-FR fr-FR fr-FR fr-FR f
+- **Score parts:** tier +40, category +24, lead +2.4, relevance +12, freshness +19.7
+
+### 🟡 [96.2] ANA Tentatively Plans 1Q27 Tokyo – Milan Service Increases
+- **Verdict:** CONSIDER
+- **Source:** AeroRoutes schedule filings · tier 2 · GLOBAL · aviation-tracker
+- **First seen:** 2026-08-21T17:08+03:00 EAT · **Source date:** 2026-08-21
+- **URL:** https://www.aeroroutes.com/eng/260821-nh1q27mxp
+- **Extract:** Published at 0400PDT / 1100GMT 21AUG26 Star Alliance member ANA this week filed schedule changes for Tokyo Haneda – Milan Malpensa route for Northern winter 2026/27 season. Based on this week’s update, the airline intends to increase service from 3 weekly to 7
+- **Score parts:** tier +20, category +14, lead +8.4, relevance +24, freshness +19.8, corroborated +10
+
+### 🟡 [90.8] Pinnacle Advisory Group Forecasts Continued Growth for Greater Boston Lodging Market in 2027
 - **Verdict:** CONSIDER
 - **Source:** Hospitality Net — Africa announcements · tier 2 · REG · trade
 - **First seen:** 2026-08-21T13:54+03:00 EAT · **Source date:** 2026-08-21
 - **URL:** https://www.hospitalitynet.org/news/4134047/pinnacle-advisory-group-forecasts-continued-growth-for-greater-boston-lodging-market-in-2027
 - **Extract:** Pinnacle Advisory Group projects Boston's 2027 occupancy at 78%, ADR growth of 1.6%, and RevPAR growth of ~1.8%, citing limited supply and a diverse demand base as key market supports.
-- **Score parts:** tier +20, category +5, lead +3.6, relevance +36, freshness +19.6, corroborated +10
+- **Score parts:** tier +20, category +5, lead +3.6, relevance +36, freshness +16.2, corroborated +10
 
-### 🟡 [85.0] Lufthansa Adjusts Planned Munich – Rovaniemi Service in NW26
+### 🟡 [84.2] Kenya and World Bank Explore Investment in Local Medical Manufacturing
+- **Verdict:** CONSIDER
+- **Source:** Kenya Ministry of Health · tier 1 · KE · health
+- **First seen:** 2026-08-21T17:08+03:00 EAT · **Source date:** — none stated
+- **URL:** https://www.health.go.ke/kenya-and-world-bank-explore-investment-local-medical-manufacturing
+- **Score parts:** tier +40, category +24, lead +2.4, relevance +4, freshness +19.8, undated -6
+
+### 🟡 [80.2] Kenya and Jhpiego Strengthen Maternal and Newborn Health Partnership
+- **Verdict:** CONSIDER
+- **Source:** Kenya Ministry of Health · tier 1 · KE · health
+- **First seen:** 2026-08-21T17:08+03:00 EAT · **Source date:** — none stated
+- **URL:** https://www.health.go.ke/kenya-and-jhpiego-strengthen-maternal-and-newborn-health-partnership
+- **Score parts:** tier +40, category +24, lead +2.4, relevance +0, freshness +19.8, undated -6
+
+### 🟡 [80.2] GOL 1Q27 Rio de Janeiro – Lisbon Service Changes
 - **Verdict:** CONSIDER
 - **Source:** AeroRoutes schedule filings · tier 2 · GLOBAL · aviation-tracker
-- **First seen:** 2026-08-21T11:05+03:00 EAT · **Source date:** 2026-08-21
-- **URL:** https://www.aeroroutes.com/eng/260821-lhvlnw26rvn
-- **Extract:** Published at 0000PDT / 0700GMT 21AUG26 Lufthansa in recent weeks filed service changes to its planned new Munich – Rovaniemi route. Planned service launch is now scheduled on 06DEC26 instead of 12NOV26, while 1 of 2 weekly flights will be operated by Lufthansa
-- **Score parts:** tier +20, category +14, lead +8.4, relevance +16, freshness +16.6, corroborated +10
+- **First seen:** 2026-08-21T17:08+03:00 EAT · **Source date:** 2026-08-21
+- **URL:** https://www.aeroroutes.com/eng/260821-g31q27lis
+- **Extract:** Published at 0300PDT / 1000GMT 21AUG26 Brasilian carrier GOL in last week’s schedule update revised planned A330-900neo service entry on Rio de Janeiro Galeao – Lisbon route. Previously scheduled to enter service on this route on 16JAN27, the A330neo is now sc
+- **Score parts:** tier +20, category +14, lead +8.4, relevance +8, freshness +19.8, corroborated +10
 
-### 🟡 [85.0] Scoot Adds Singapore – Guiyang in 4Q26
+### 🟡 [79.8] Africa Congo set to receive 70,000 Ervebo vaccines to contain Ebola outbreak Yesterday - 2 min read
+- **Verdict:** CONSIDER
+- **Source:** The Citizen (Tanzania) · tier 2 · TZ · press
+- **First seen:** 2026-08-21T17:08+03:00 EAT · **Source date:** — none stated
+- **URL:** https://www.thecitizen.co.tz/tanzania/news/africa/congo-set-to-receive-70-000-ervebo-vaccines-to-contain-ebola-outbreak-5564810
+- **Shock language:** outbreak
+- **Score parts:** tier +20, category +4, lead +0, relevance +24, freshness +19.8, undated -6, shock +18
+
+### 🟡 [76.2] ITA Airways NW26 Intercontinental Service Changes – 20AUG26
 - **Verdict:** CONSIDER
 - **Source:** AeroRoutes schedule filings · tier 2 · GLOBAL · aviation-tracker
-- **First seen:** 2026-08-21T11:05+03:00 EAT · **Source date:** 2026-08-21
-- **URL:** https://www.aeroroutes.com/eng/260820-trnw26kwe
-- **Extract:** Published at 2200PDT 20AUG26 / 0500GMT 21AUG26 Scoot at the launch of Northern winter 2026/27 season plans to launch new route to Mainland China, the airline announced on Thursday 20AUG26. Airbus A320neo will operate Singapore – Guiyang flight from 26OCT26, 3 
-- **Score parts:** tier +20, category +14, lead +8.4, relevance +16, freshness +16.6, corroborated +10
+- **First seen:** 2026-08-21T17:08+03:00 EAT · **Source date:** 2026-08-21
+- **URL:** https://www.aeroroutes.com/eng/260821-aznw26inc
+- **Extract:** Published at 0600PDT / 1300GMT 21AUG26 ITA Airways in recent weeks filed additional changes to its planned intercontinental operations for Northern winter 2026/27 season. Planned changes as of 20AUG26 include the following. Rome Fiumicino – Algiers eff 25OCT26
+- **Score parts:** tier +20, category +14, lead +8.4, relevance +4, freshness +19.8, corroborated +10
 
-### 🟡 [81.0] Scoot Increases Okinawa Flights in NW26
+### 🟡 [76.2] Malaysia Airlines NW26 Regional Service Increases
 - **Verdict:** CONSIDER
 - **Source:** AeroRoutes schedule filings · tier 2 · GLOBAL · aviation-tracker
-- **First seen:** 2026-08-21T11:05+03:00 EAT · **Source date:** 2026-08-21
-- **URL:** https://www.aeroroutes.com/eng/260820-trnw26oka
-- **Extract:** Published at 2300PDT 20AUG26 / 0600GMT 21AUG26 Scoot during Northern winter 2026/27 season schedules service increase on Singapore – Okinawa route, where the carrier adds 5th weekly flight from 31OCT26. Airbus A321neo operates this route. TR834 SIN0110 – 0800O
-- **Score parts:** tier +20, category +14, lead +8.4, relevance +12, freshness +16.6, corroborated +10
+- **First seen:** 2026-08-21T17:08+03:00 EAT · **Source date:** 2026-08-21
+- **URL:** https://www.aeroroutes.com/eng/260821-mhnw26
+- **Extract:** Published at 0200PDT / 0900GMT 21AUG26 Malaysia Airlines in recent schedule update filed expanded regional service for Northern winter 2026/27 season. Planned service expansion includes the following. Kuala Lumpur – Fukuoka eff 01DEC26 Increase from 5 to 7 wee
+- **Score parts:** tier +20, category +14, lead +8.4, relevance +4, freshness +19.8, corroborated +10
 
-### 🟡 [81.0] Air China Maintains Chengdu – London Gatwick Link in NW26
-- **Verdict:** CONSIDER
-- **Source:** AeroRoutes schedule filings · tier 2 · GLOBAL · aviation-tracker
-- **First seen:** 2026-08-21T11:05+03:00 EAT · **Source date:** 2026-08-21
-- **URL:** https://www.aeroroutes.com/eng/260820-canw26lgw
-- **Extract:** Published at 2100PDT 20AUG26 / 0400GMT 21AUG26 Air China during Northern winter 2026/27 season plans to maintain Chengdu Tianfu – London Gatwick service, as the airline opened reservations between 25OCT26 and 27MAR27. During winter season, Airbus A330-300 airc
-- **Score parts:** tier +20, category +14, lead +8.4, relevance +12, freshness +16.6, corroborated +10
-
-### 🟡 [79.6] Africa Congo set to receive 70,000 Ervebo vaccines to contain Ebola outbreak 23 hours ago - 2 min read
+### 🟡 [76.2] Africa Congo set to receive 70,000 Ervebo vaccines to contain Ebola outbreak 23 hours ago - 2 min read
 - **Verdict:** CONSIDER
 - **Source:** The Citizen (Tanzania) · tier 2 · TZ · press
 - **First seen:** 2026-08-21T13:54+03:00 EAT · **Source date:** — none stated
 - **URL:** https://www.thecitizen.co.tz/tanzania/news/africa/congo-set-to-receive-70-000-ervebo-vaccines-to-contain-ebola-outbreak-5564810
 - **Shock language:** outbreak
-- **Score parts:** tier +20, category +4, lead +0, relevance +24, freshness +19.6, undated -6, shock +18
+- **Score parts:** tier +20, category +4, lead +0, relevance +24, freshness +16.2, undated -6, shock +18
 
-### 🟡 [78.2] The Rise of Retail Tourism: What Hotels Can Learn From Shopper Behaviour
+### 🟡 [74.8] The Rise of Retail Tourism: What Hotels Can Learn From Shopper Behaviour
 - **Verdict:** CONSIDER
 - **Source:** Hospitality Net — Africa announcements · tier 2 · REG · trade
 - **First seen:** 2026-08-21T13:54+03:00 EAT · **Source date:** 2026-08-21
 - **URL:** https://www.hospitalitynet.org/opinion/4133780/the-rise-of-retail-tourism-what-hotels-can-learn-from-shopper-behaviour
 - **Extract:** Hotels can use shopping behaviour as a signal of guest intent, applying lessons from retail tourism to improve anticipatory service, staff training, and local partnerships.
-- **Score parts:** tier +20, category +5, lead +3.6, relevance +20, freshness +19.6, corroborated +10
+- **Score parts:** tier +20, category +5, lead +3.6, relevance +20, freshness +16.2, corroborated +10
 
-### 🟡 [76.6] Africa Congo set to receive 70,000 Ervebo vaccines to contain Ebola outbreak 20 hours ago - 2 min read
+### 🟡 [72.2] ITA Airways NW26 Germany Service Reductions
 - **Verdict:** CONSIDER
-- **Source:** The Citizen (Tanzania) · tier 2 · TZ · press
-- **First seen:** 2026-08-21T11:05+03:00 EAT · **Source date:** — none stated
-- **URL:** https://www.thecitizen.co.tz/tanzania/news/africa/congo-set-to-receive-70-000-ervebo-vaccines-to-contain-ebola-outbreak-5564810
-- **Shock language:** outbreak
-- **Score parts:** tier +20, category +4, lead +0, relevance +24, freshness +16.6, undated -6, shock +18
-
-### 🟡 [73.3] Africa Congo set to receive 70,000 Ervebo vaccines to contain Ebola outbreak 17 hours ago - 2 min read
-- **Verdict:** CONSIDER
-- **Source:** The Citizen (Tanzania) · tier 2 · TZ · press
-- **First seen:** 2026-08-21T08:07+03:00 EAT · **Source date:** — none stated
-- **URL:** https://www.thecitizen.co.tz/tanzania/news/africa/congo-set-to-receive-70-000-ervebo-vaccines-to-contain-ebola-outbreak-5564810
-- **Shock language:** outbreak
-- **Score parts:** tier +20, category +4, lead +0, relevance +24, freshness +13.3, undated -6, shock +18
-
-### 🟡 [70.2] What AI can already tell about the visitor browsing your hotel's website
-- **Verdict:** CONSIDER
-- **Source:** Hospitality Net — Africa announcements · tier 2 · REG · trade
-- **First seen:** 2026-08-21T13:54+03:00 EAT · **Source date:** 2026-08-21
-- **URL:** https://www.hospitalitynet.org/explainer/4134050/what-ai-can-already-tell-about-the-visitor-browsing-your-hotels-website
-- **Extract:** Lighthouse Direct's five-algorithm AI system scores hotel website visitors across intent, spend, destination flexibility, date flexibility, and length of stay to deliver targeted offers that protect ADR and lift conversions.
-- **Score parts:** tier +20, category +5, lead +3.6, relevance +12, freshness +19.6, corroborated +10
-
-### 🟡 [70.2] U.S. hotel results for week ending 15 August
-- **Verdict:** CONSIDER
-- **Source:** Hospitality Net — Africa announcements · tier 2 · REG · trade
-- **First seen:** 2026-08-21T13:54+03:00 EAT · **Source date:** 2026-08-21
-- **URL:** https://www.hospitalitynet.org/news/4134049/us-hotel-results-for-week-ending-15-august
-- **Extract:** U.S. hotels posted an 18th straight week of positive year-over-year growth, with national RevPAR up 6.2% to $111.29; San Diego led Top 25 Markets with RevPAR surging 22.8%.
-- **Score parts:** tier +20, category +5, lead +3.6, relevance +12, freshness +19.6, corroborated +10
+- **Source:** AeroRoutes schedule filings · tier 2 · GLOBAL · aviation-tracker
+- **First seen:** 2026-08-21T17:08+03:00 EAT · **Source date:** 2026-08-21
+- **URL:** https://www.aeroroutes.com/eng/260821-aznw26de
+- **Extract:** Published at 0500PDT / 1200GMT 21AUG26 ITA Airways in recent schedule update filed service reductions to Germany for Northern winter 2026/27 season. Planned adjustments as follows. Rome Fiumicino – Frankfurt eff 25OCT26 Reduce from 2 to 1 daily AZ400 FCO0835 –
+- **Score parts:** tier +20, category +14, lead +8.4, relevance +0, freshness +19.8, corroborated +10
