@@ -2,7 +2,7 @@
 // Maintained by the daily Pulse task. Every entry carries a source; anything
 // unverified is flagged so readers never act on a stale number unknowingly.
 window.RULES = {
- updated: "16 August 2026 (midday)",
+ updated: "21 August 2026 (evening)",
  groups: [
   { country:"Kenya", flag:"🇰🇪", items:[
     {rule:"Electronic Travel Authorisation (ETA)", amount:"US$30", who:"All non-EAC visitors, including infants", effective:"In force since Jan 2024", note:"Online only; typically 24–72h. Apply before travel — there is no visa on arrival.", source:"Kenya eTA portal", verified:true},
@@ -32,7 +32,8 @@ window.RULES = {
     {rule:"Mandatory inbound travel insurance", amount:"US$44 per adult", who:"Every foreign visitor", effective:"Since Oct 2024", note:"Bought from the Zanzibar government at visitzanzibar.go.tz — private policies do not substitute. Covers medical to US$50,000. PUT THIS IN YOUR PRE-ARRIVAL EMAIL: a guest discovering it at the airport is a bad review.", source:"Zanzibar Insurance Corporation", verified:true, flag:"action"},
     {rule:"Infrastructure tax (bed-night levy)", amount:"US$2–5 per person per night", who:"All in-house guests, by hotel star rating", effective:"Current", note:"Hotels must collect on behalf of the Zanzibar Revenue Board. Usually folded into the rate — decide deliberately whether you absorb or show it.", source:"Zanzibar Revenue Board", verified:true},
     {rule:"Card payment surcharge", amount:"3–5%", who:"Card transactions", effective:"Current", note:"Widely applied. Material on a long stay — flag it at booking, not checkout.", source:"Operator practice", verified:true},
-    {rule:"Visa", amount:"US$50", who:"Most nationalities", effective:"Current", note:"Zanzibar follows Tanzania visa rules.", source:"Tanzania Immigration", verified:true}
+    {rule:"Visa", amount:"US$50", who:"Most nationalities", effective:"Current", note:"Zanzibar follows Tanzania visa rules.", source:"Tanzania Immigration", verified:true},
+    {rule:"Tour & excursion operations reserved for citizens", amount:"Local ownership required", who:"Tour, excursion & transfer operators on Zanzibar", effective:"Tourism Act No. 6 of 2009 — enforcement active Aug 2026", note:"Zanzibar Commission for Tourism + Immigration arrested three foreign nationals (incl. Kenyan Esther Mutheu Samuka) on 18 Aug 2026 for running excursion businesses reserved for Zanzibaris. Foreign-owned DMCs cannot directly run the ground product — excursions, spice tours, transfers — and must contract a LICENSED Zanzibari operator. Verify island partners licensing before selling packages.", source:"Zanzibar Commission for Tourism notice 17 Aug 2026 / Citizen Digital 21 Aug 2026", verified:true, flag:"action"}
   ]},
   { country:"Rwanda", flag:"🇷🇼", items:[
     {rule:"Gorilla permit", amount:"US$1,500", who:"Foreign non-resident", effective:"Current", note:"US$500 foreign resident · US$200 Rwandan & EAC citizens. Nearly 2× Uganda's US$800 — the pricing gap is a live competitive dynamic for the whole gorilla circuit.", source:"Rwanda Development Board", verified:true},

@@ -1,8 +1,8 @@
 window.LEDGER = {
- "updated": "2026-08-21 12:45",
+ "updated": "2026-08-21 16:11",
  "stats": {
-  "total": 109,
-  "open": 88,
+  "total": 110,
+  "open": 89,
   "resolved": 21,
   "correct": 15,
   "partial": 1,
@@ -952,6 +952,22 @@ window.LEDGER = {
    "resolved_date": "",
    "evidence": "",
    "source_url": "https://travel.state.gov/content/travel/en/traveladvisories/traveladvisories/uganda-travel-advisory.html",
+   "overdue": false
+  },
+  {
+   "id": "P109",
+   "made_date": "2026-08-21",
+   "edition": "pulse-2026-08-21-evening",
+   "claim": "Kenya Tourism (Amendment) Bill 2026 will NOT be enacted with the Tourism Research Institute fully absorbed into KTB before 31 Dec 2026 — committee opposition (fund-not-merge) blocks a clean merger",
+   "resolution_criteria": "The Bill as assented/gazetted by 31 Dec 2026 does not dissolve TRI into KTB (TRI keeps separate legal status), or the Bill is not enacted by then",
+   "resolve_by": "2026-12-31",
+   "market": "KE",
+   "segment": "All",
+   "confidence": "Reported",
+   "status": "open",
+   "resolved_date": "",
+   "evidence": "",
+   "source_url": "https://capitalfm.africa/mps-opposes-proposed-merger-of-tourism-research-institute-and-kenya-tourism-board/",
    "overdue": false
   },
   {
