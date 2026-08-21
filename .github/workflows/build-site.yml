@@ -10,6 +10,8 @@ on:
       # image pipeline: a guardrail change must be able to trigger a rebuild,
       # otherwise a fix to the age/no-reuse rules sits unapplied until the next
       # edition happens to be published.
+      - 'build_site.py'
+      - 'hero_extra.py'
       - 'fetch_edition_images.py'
       - 'fetch_images.py'
       - 'make_og_images.py'
@@ -53,8 +55,16 @@ jobs:
       - name: Fetch photo pool (best-effort; expands clean-image variety)
         run: python3 fetch_images.py || echo "image fetch skipped (network); using photos already in img/"
 
+      - name: Assign vetted press-kit images (best-effort; before the Wikimedia fetch)
+        run: python3 hero_extra.py --press-kit || echo "press-kit pass skipped"
+
       - name: Assign a unique photo per edition (best-effort; Commons + attribution)
         run: python3 fetch_edition_images.py || echo "per-edition image fetch skipped (network); editions fall back to the curated pool"
+
+      - name: Generate AI illustration for any edition still without a hero (best-effort)
+        env:
+          IMAGE_API_KEY: ${{ secrets.IMAGE_API_KEY }}
+        run: python3 hero_extra.py --ai-fallback || echo "ai-fallback pass skipped"
 
       - name: Build site
         run: python3 build_site.py

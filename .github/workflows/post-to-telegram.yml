@@ -26,11 +26,19 @@ jobs:
           python-version: '3.11'
       - name: Install image dependencies
         run: pip install --quiet Pillow numpy
+      - name: Assign vetted press-kit images (best-effort; before the Wikimedia fetch)
+        run: python3 hero_extra.py --press-kit || echo "press-kit pass skipped"
+
       - name: Fetch hero image for the new edition (best-effort, licence-clear)
         # Reuses the site's Wikimedia image + attribution so Telegram carries the
         # same licence-clear picture and credit as the web edition. Best-effort:
         # if this is skipped (network) the edition still posts text-only.
         run: python3 fetch_edition_images.py || echo "hero fetch skipped (network) — edition posts text-only"
+
+      - name: AI illustration fallback so a new edition always has a hero (best-effort)
+        env:
+          IMAGE_API_KEY: ${{ secrets.IMAGE_API_KEY }}
+        run: python3 hero_extra.py --ai-fallback || echo "ai-fallback pass skipped"
 
       - name: Post newly added editions
         env:

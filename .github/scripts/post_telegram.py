@@ -72,7 +72,8 @@ def build_caption(body, credit):
     if credit:
         art = credit.get("artist") or "Unknown"
         lic = credit.get("license") or "see source"
-        parts.append(f"\U0001F4F7 {art} \u00b7 {lic} \u00b7 via Wikimedia Commons")
+        src = credit.get("source") or "Wikimedia Commons"
+        parts.append(f"\U0001F4F7 {art} \u00b7 {lic} \u00b7 {src}")
     else:
         parts.append("\U0001F4F7 via Wikimedia Commons (licence-clear)")
     return ("\n\n".join(parts)).strip()[:CAPTION_MAX]

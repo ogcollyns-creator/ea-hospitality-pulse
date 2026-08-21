@@ -519,9 +519,11 @@ def edition_page(e, siblings=None, prev=None, nxt=None, hero=None, credit=None):
         _lic = html.escape(credit.get("license") or "See source")
         _src = html.escape(credit.get("descurl") or "")
         _licurl = html.escape(credit.get("licenseurl") or "")
+        _srcname = html.escape(credit.get("source") or "Wikimedia Commons")
+        _label = "Image" if credit.get("source_kind") == "ai" else "Photo"
         _lictag = (f'<a href="{_licurl}" target="_blank" rel="noopener nofollow">{_lic}</a>' if _licurl else _lic)
-        credit_html = (f'<p class="hcredit">Photo: {_art} \u00b7 '
-                       f'<a href="{_src}" target="_blank" rel="noopener nofollow">Wikimedia Commons</a> \u00b7 {_lictag}</p>')
+        _srctag = (f'<a href="{_src}" target="_blank" rel="noopener nofollow">{_srcname}</a>' if _src else _srcname)
+        credit_html = (f'<p class="hcredit">{_label}: {_art} \u00b7 {_srctag} \u00b7 {_lictag}</p>')
     _guides = load_guide_links()[:5]
     guides_html = ""
     if _guides:
@@ -656,8 +658,11 @@ def build_credits_page():
         _lic_html = (f'<a href="{html.escape(_licurl)}" target="_blank" rel="noopener">{html.escape(_lic)}</a>'
                      if _licurl else html.escape(_lic))
         _by = f' — {html.escape(_artist)}' if _artist else ''
+        _srcname = _a.get("source") or "Wikimedia Commons"
+        _titletag = (f'<a href="{html.escape(_src)}" target="_blank" rel="noopener">{html.escape(_title or _srcname)}</a>'
+                     if _src else html.escape(_title or _srcname))
         rows.append(f'<tr><td>Edition {html.escape(_eid)}</td>'
-                    f'<td><a href="{html.escape(_src)}" target="_blank" rel="noopener">{html.escape(_title)}</a>{_by}</td>'
+                    f'<td>{_titletag}{_by}</td>'
                     f'<td>{_lic_html}</td></tr>')
     body = "\n".join(rows)
     page = f"""<!DOCTYPE html>
