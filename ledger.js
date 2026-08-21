@@ -1,8 +1,8 @@
 window.LEDGER = {
- "updated": "2026-08-20 12:53",
+ "updated": "2026-08-21 08:44",
  "stats": {
-  "total": 108,
-  "open": 87,
+  "total": 109,
+  "open": 88,
   "resolved": 21,
   "correct": 15,
   "partial": 1,
@@ -1208,6 +1208,22 @@ window.LEDGER = {
    "resolved_date": "",
    "evidence": "",
    "source_url": "",
+   "overdue": false
+  },
+  {
+   "id": "P108",
+   "made_date": "2026-08-21",
+   "edition": "pulse-2026-08-21-morning",
+   "claim": "African/regional source markets will supply a larger share of Rwanda full-year 2026 arrivals than in 2025 — intra-African demand (DRC led at 12.5% in H1) outgrows long-haul",
+   "resolution_criteria": "RDB or NISR full-year 2026 tourism data shows the combined African-market share of Rwanda arrivals above the 2025 share",
+   "resolve_by": "2027-05-31",
+   "market": "RW",
+   "segment": "City|Bush",
+   "confidence": "Early signal",
+   "status": "open",
+   "resolved_date": "",
+   "evidence": "",
+   "source_url": "https://www.statistics.gov.rw/",
    "overdue": false
   },
   {
