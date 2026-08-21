@@ -375,6 +375,11 @@ def main(editions=None, refresh=()):
             os.remove(fp)
         print(f"  refresh requested: {eid}")
 
+    try:
+        OVERRIDES = json.load(open(os.path.join(HERE, "image_queries.json"), encoding="utf-8"))
+    except Exception:
+        OVERRIDES = {}
+
     cache = {}
     used = set(v.get("title") for v in credits.values() if v.get("title"))
     # (artist, capture date) already in play — stops eight frames from one
@@ -387,7 +392,7 @@ def main(editions=None, refresh=()):
         if os.path.exists(os.path.join(EDIMG, eid + ".jpg")) and eid in credits:
             continue                                            # already compliant, keep stable
         text = e.get("summary", "") + " " + re.sub(r"<[^>]+>", " ", e.get("bodyHtml", ""))
-        topic_qs = topic_for(text) or [DEFAULT_QUERY]
+        topic_qs = (OVERRIDES.get(eid) or []) + (topic_for(text) or [DEFAULT_QUERY])
 
         # Tiered: keep the SUBJECT and relax the DATE before changing subject.
         plans = []
