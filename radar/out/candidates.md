@@ -1,12 +1,20 @@
-# Radar candidates — morning slot
-_Window opens Thu 20 Aug 18:00 EAT · 547 observations in window · 6 headlines deduped against_
+# Radar candidates — midday slot
+_Window opens Fri 21 Aug 07:00 EAT · 168 observations in window · 6 headlines deduped against_
 
 Ranked by first-seen recency, source tier and hospitality relevance. `first seen` is when the radar observed the item, which is the date the recency gate runs on. `published` is what the source claims — where the two disagree, the disagreement is the story.
+
+### 🚨 [101.8] [page changed] Federal Register — CDC notices
+- **Verdict:** OPEN THIS — tier-1 advisory page moved; content not auto-parsed, read it manually
+- **Source:** Federal Register — CDC notices · tier 1 · REG · advisory
+- **First seen:** 2026-08-21T11:05+03:00 EAT · **Source date:** — none stated
+- **URL:** https://www.federalregister.gov/api/v1/documents.rss?conditions%5Bagencies%5D%5B%5D=centers-for-disease-control-and-prevention&order=newest
+- **Extract:** Federal Register Documents published on or after 07/22/2026 and from Centers for Disease Control and Prevention https://www.federalregister.gov/api/v1/documents.rss?conditions%5Bagencies%5D%5B%5D=centers-for-disease-control-and-prevention&order=newest Thu, 20 
+- **Score parts:** tier +40, category +32, lead +12, relevance +8, freshness +19.8, undated -6, page_change -4
 
 ### 🚨 [91.4] [page changed] Federal Register — public inspection (HHS/CDC), pre-publication
 - **Verdict:** OPEN THIS — tier-1 advisory page moved; content not auto-parsed, read it manually
 - **Source:** Federal Register — public inspection (HHS/CDC), pre-publication · tier 1 · REG · advisory
-- **First seen:** 2026-08-21T08:49+03:00 EAT · **Source date:** 2026-08-19
+- **First seen:** 2026-08-21T11:05+03:00 EAT · **Source date:** 2026-08-19
 - **URL:** https://www.federalregister.gov/api/v1/public-inspection-documents/current.json
 - **Extract:** {"count":118,"results":[{"agencies":[{"raw_name":"EQUAL EMPLOYMENT OPPORTUNITY COMMISSION","name":"Equal Employment Opportunity Commission","id":147,"url":"https://www.federalregister.gov/agencies/equal-employment-opportunity-commission","json_url":"https://ww
 - **Score parts:** tier +40, category +32, lead +3.6, relevance +0, freshness +19.8, page_change -4
@@ -14,314 +22,63 @@ Ranked by first-seen recency, source tier and hospitality relevance. `first seen
 ### 🚨 [88.9] [page changed] Federal Register — public inspection (HHS/CDC), pre-publication
 - **Verdict:** OPEN THIS — tier-1 advisory page moved; content not auto-parsed, read it manually
 - **Source:** Federal Register — public inspection (HHS/CDC), pre-publication · tier 1 · REG · advisory
-- **First seen:** 2026-08-21T06:32+03:00 EAT · **Source date:** 2026-08-19
+- **First seen:** 2026-08-21T08:49+03:00 EAT · **Source date:** 2026-08-19
 - **URL:** https://www.federalregister.gov/api/v1/public-inspection-documents/current.json
 - **Extract:** {"count":118,"results":[{"agencies":[{"raw_name":"EQUAL EMPLOYMENT OPPORTUNITY COMMISSION","name":"Equal Employment Opportunity Commission","id":147,"url":"https://www.federalregister.gov/agencies/equal-employment-opportunity-commission","json_url":"https://ww
 - **Score parts:** tier +40, category +32, lead +3.6, relevance +0, freshness +17.3, page_change -4
 
-### 🚨 [83.9] [page changed] Federal Register — public inspection (HHS/CDC), pre-publication
-- **Verdict:** OPEN THIS — tier-1 advisory page moved; content not auto-parsed, read it manually
-- **Source:** Federal Register — public inspection (HHS/CDC), pre-publication · tier 1 · REG · advisory
-- **First seen:** 2026-08-21T02:00+03:00 EAT · **Source date:** 2026-08-19
-- **URL:** https://www.federalregister.gov/api/v1/public-inspection-documents/current.json
-- **Extract:** {"count":118,"results":[{"agencies":[{"raw_name":"EQUAL EMPLOYMENT OPPORTUNITY COMMISSION","name":"Equal Employment Opportunity Commission","id":147,"url":"https://www.federalregister.gov/agencies/equal-employment-opportunity-commission","json_url":"https://ww
-- **Score parts:** tier +40, category +32, lead +3.6, relevance +0, freshness +12.3, page_change -4
-
-### 🚨 [80.3] [page changed] Federal Register — public inspection (HHS/CDC), pre-publication
-- **Verdict:** OPEN THIS — tier-1 advisory page moved; content not auto-parsed, read it manually
-- **Source:** Federal Register — public inspection (HHS/CDC), pre-publication · tier 1 · REG · advisory
-- **First seen:** 2026-08-20T22:46+03:00 EAT · **Source date:** 2026-08-19
-- **URL:** https://www.federalregister.gov/api/v1/public-inspection-documents/current.json
-- **Extract:** {"count":117,"results":[{"agencies":[{"raw_name":"EQUAL EMPLOYMENT OPPORTUNITY COMMISSION","name":"Equal Employment Opportunity Commission","id":147,"url":"https://www.federalregister.gov/agencies/equal-employment-opportunity-commission","json_url":"https://ww
-- **Score parts:** tier +40, category +32, lead +3.6, relevance +0, freshness +8.7, page_change -4
-
-### 🚨 [77.3] [page changed] Federal Register — public inspection (HHS/CDC), pre-publication
-- **Verdict:** OPEN THIS — tier-1 advisory page moved; content not auto-parsed, read it manually
-- **Source:** Federal Register — public inspection (HHS/CDC), pre-publication · tier 1 · REG · advisory
-- **First seen:** 2026-08-20T20:02+03:00 EAT · **Source date:** 2026-08-19
-- **URL:** https://www.federalregister.gov/api/v1/public-inspection-documents/current.json
-- **Extract:** {"count":117,"results":[{"agencies":[{"raw_name":"EQUAL EMPLOYMENT OPPORTUNITY COMMISSION","name":"Equal Employment Opportunity Commission","id":147,"url":"https://www.federalregister.gov/agencies/equal-employment-opportunity-commission","json_url":"https://ww
-- **Score parts:** tier +40, category +32, lead +3.6, relevance +0, freshness +5.7, page_change -4
-
-### 🚨 [62.9] [page changed] Jambojet media
-- **Verdict:** OPEN THIS — tier-1 airline page moved; content not auto-parsed, read it manually
-- **Source:** Jambojet media · tier 1 · KE · airline
-- **First seen:** 2026-08-21T06:32+03:00 EAT · **Source date:** — none stated
-- **URL:** https://www.jambojet.com/en/press-release
-- **Extract:** Request unsuccessful. Incapsula incident ID: 410000770111690771-549966288787215186
-- **Score parts:** tier +40, category +12, lead +3.6, relevance +0, freshness +17.3, undated -6, page_change -4
-
-### 🚨 [57.9] [page changed] Airlink news
-- **Verdict:** OPEN THIS — tier-1 airline page moved; content not auto-parsed, read it manually
-- **Source:** Airlink news · tier 1 · REG · airline
-- **First seen:** 2026-08-21T02:00+03:00 EAT · **Source date:** — none stated
-- **URL:** https://www.flyairlink.com/
-- **Extract:** Request unsuccessful. Incapsula incident ID: 8072000730016817493-63998951724421710
-- **Score parts:** tier +40, category +12, lead +3.6, relevance +0, freshness +12.3, undated -6, page_change -4
-
-### 🚨 [55.7] [page changed] Jambojet media
-- **Verdict:** OPEN THIS — tier-1 airline page moved; content not auto-parsed, read it manually
-- **Source:** Jambojet media · tier 1 · KE · airline
-- **First seen:** 2026-08-21T00:03+03:00 EAT · **Source date:** — none stated
-- **URL:** https://www.jambojet.com/en/press-release
-- **Extract:** Request unsuccessful. Incapsula incident ID: 1012000041982000018-675389525827256609
-- **Score parts:** tier +40, category +12, lead +3.6, relevance +0, freshness +10.1, undated -6, page_change -4
-
-### 🟡 [106.3] Equity Bank (Kenya) Limited v Glee Hotel Limited (Under Administration) & another (Insolvency Cause E045 of 2026) [2026]
-- **Verdict:** CHECK — source date older than the window
-- **Source:** Kenya Gazette (Kenya Law) · tier 1 · KE · gazette
-- **First seen:** 2026-08-21T06:32+03:00 EAT · **Source date:** 2026-08-12
-- **URL:** https://new.kenyalaw.org/akn/ke/judgment/kehc/2026/12991/eng@2026-08-12
-- **Shock language:** insolven
-- **Extract:** Equity Bank (Kenya) Limited v Glee Hotel Limited (Under Administration) & another (Insolvency Cause E045 of 2026) [2026] KEHC 12991 (KLR) (Commercial and Tax) (12 August 2026) (Ruling)
-- **Score parts:** tier +40, category +20, lead +12, relevance +24, freshness +17.3, stale_trap -25, shock +18
-
-### 🟡 [102.3] In re Cytton High Yields Solutions (In Liquidation) (Insolvency Petition E063 of 2021) [2026] KEHC 12992 (KLR) (Commerci
-- **Verdict:** CHECK — source date older than the window
-- **Source:** Kenya Gazette (Kenya Law) · tier 1 · KE · gazette
-- **First seen:** 2026-08-21T06:32+03:00 EAT · **Source date:** 2026-08-07
-- **URL:** https://new.kenyalaw.org/akn/ke/judgment/kehc/2026/12992/eng@2026-08-07
-- **Shock language:** insolven
-- **Extract:** In re Cytton High Yields Solutions (In Liquidation) (Insolvency Petition E063 of 2021) [2026] KEHC 12992 (KLR) (Commercial and Tax) (7 August 2026) (Ruling)
-- **Score parts:** tier +40, category +20, lead +12, relevance +20, freshness +17.3, stale_trap -25, shock +18
-
-### 🟠 [99.3] Business Premises Rent Tribunal – Daily Cause List – 20 August 2026
-- **Verdict:** STRONG — tier-1, upstream
-- **Source:** Kenya Gazette (Kenya Law) · tier 1 · KE · gazette
-- **First seen:** 2026-08-21T06:32+03:00 EAT · **Source date:** 2026-08-20
-- **URL:** https://new.kenyalaw.org/akn/ke/doc/cause-list-daily/kebprt/2026-08-20/1/eng@2026-08-20
-- **Extract:** Business Premises Rent Tribunal – Daily Cause List – 20 August 2026
-- **Score parts:** tier +40, category +20, lead +12, relevance +0, freshness +17.3, corroborated +10
-
-### 🟠 [99.3] Anti-Corruption Magistrate's Court – Anti-Corruption and Economic Crimes Division – Weekly Cause List – 24 August 2026 t
-- **Verdict:** STRONG — tier-1, upstream
-- **Source:** Kenya Gazette (Kenya Law) · tier 1 · KE · gazette
-- **First seen:** 2026-08-21T06:32+03:00 EAT · **Source date:** 2026-08-24
-- **URL:** https://new.kenyalaw.org/akn/ke/doc/cause-list-weekly/kemc/2026-08-24/8/eng@2026-08-24
-- **Extract:** Anti-Corruption Magistrate's Court – Anti-Corruption and Economic Crimes Division – Weekly Cause List – 24 August 2026 to 28 August 2026 (Amended)
-- **Score parts:** tier +40, category +20, lead +12, relevance +0, freshness +17.3, corroborated +10
-
-### 🟠 [99.3] Siakago Law Courts – Monthly Cause List – 01 September 2026 to 30 September 2026
-- **Verdict:** STRONG — tier-1, upstream
-- **Source:** Kenya Gazette (Kenya Law) · tier 1 · KE · gazette
-- **First seen:** 2026-08-21T06:32+03:00 EAT · **Source date:** 2026-09-01
-- **URL:** https://new.kenyalaw.org/akn/ke/doc/cause-list-monthly/kemc/2026-09-01/1/eng@2026-09-01
-- **Extract:** Siakago Law Courts – Monthly Cause List – 01 September 2026 to 30 September 2026
-- **Score parts:** tier +40, category +20, lead +12, relevance +0, freshness +17.3, corroborated +10
-
-### 🟠 [99.3] Sereolipi Mobile Courts – Daily Cause List – 27 August 2026
-- **Verdict:** STRONG — tier-1, upstream
-- **Source:** Kenya Gazette (Kenya Law) · tier 1 · KE · gazette
-- **First seen:** 2026-08-21T06:32+03:00 EAT · **Source date:** 2026-08-27
-- **URL:** https://new.kenyalaw.org/akn/ke/doc/cause-list-daily/kemc/2026-08-27/1/eng@2026-08-27
-- **Extract:** Sereolipi Mobile Courts – Daily Cause List – 27 August 2026
-- **Score parts:** tier +40, category +20, lead +12, relevance +0, freshness +17.3, corroborated +10
-
-### 🟠 [99.3] Kiambere Mobile Court – Weekly Cause List – 01 September 2026 to 11 September 2026
-- **Verdict:** STRONG — tier-1, upstream
-- **Source:** Kenya Gazette (Kenya Law) · tier 1 · KE · gazette
-- **First seen:** 2026-08-21T06:32+03:00 EAT · **Source date:** 2026-09-01
-- **URL:** https://new.kenyalaw.org/akn/ke/doc/cause-list-weekly/kemc/2026-09-01/1/eng@2026-09-01
-- **Extract:** Kiambere Mobile Court – Weekly Cause List – 01 September 2026 to 11 September 2026
-- **Score parts:** tier +40, category +20, lead +12, relevance +0, freshness +17.3, corroborated +10
-
-### 🟠 [99.3] Transport Licensing Appeals Board Tribunal – Weekly Cause List – 24 August 2026 to 28 August 2026
-- **Verdict:** STRONG — tier-1, upstream
-- **Source:** Kenya Gazette (Kenya Law) · tier 1 · KE · gazette
-- **First seen:** 2026-08-21T06:32+03:00 EAT · **Source date:** 2026-08-24
-- **URL:** https://new.kenyalaw.org/akn/ke/doc/cause-list-weekly/ketlabt/2026-08-24/1/eng@2026-08-24
-- **Extract:** Transport Licensing Appeals Board Tribunal – Weekly Cause List – 24 August 2026 to 28 August 2026
-- **Score parts:** tier +40, category +20, lead +12, relevance +0, freshness +17.3, corroborated +10
-
-### 🟠 [99.3] Sports Disputes Tribunal – Weekly Cause List – 24 August 2026 to 28 August 2026
-- **Verdict:** STRONG — tier-1, upstream
-- **Source:** Kenya Gazette (Kenya Law) · tier 1 · KE · gazette
-- **First seen:** 2026-08-21T06:32+03:00 EAT · **Source date:** 2026-08-24
-- **URL:** https://new.kenyalaw.org/akn/ke/doc/cause-list-weekly/kesdt/2026-08-24/1/eng@2026-08-24
-- **Extract:** Sports Disputes Tribunal – Weekly Cause List – 24 August 2026 to 28 August 2026
-- **Score parts:** tier +40, category +20, lead +12, relevance +0, freshness +17.3, corroborated +10
-
-### 🟠 [99.3] Business Premises Rent Tribunal – Daily Cause List – 21 August 2026
-- **Verdict:** STRONG — tier-1, upstream
-- **Source:** Kenya Gazette (Kenya Law) · tier 1 · KE · gazette
-- **First seen:** 2026-08-21T06:32+03:00 EAT · **Source date:** 2026-08-21
-- **URL:** https://new.kenyalaw.org/akn/ke/doc/cause-list-daily/kebprt/2026-08-21/1/eng@2026-08-21
-- **Extract:** Business Premises Rent Tribunal – Daily Cause List – 21 August 2026
-- **Score parts:** tier +40, category +20, lead +12, relevance +0, freshness +17.3, corroborated +10
-
-### 🟠 [99.3] Kibera Law Courts – Daily Cause List – 20 August 2026 to 20 August 2026
-- **Verdict:** STRONG — tier-1, upstream
-- **Source:** Kenya Gazette (Kenya Law) · tier 1 · KE · gazette
-- **First seen:** 2026-08-21T06:32+03:00 EAT · **Source date:** 2026-08-20
-- **URL:** https://new.kenyalaw.org/akn/ke/doc/cause-list-daily/kemc/2026-08-20/1/eng@2026-08-20
-- **Extract:** Kibera Law Courts – Daily Cause List – 20 August 2026 to 20 August 2026
-- **Score parts:** tier +40, category +20, lead +12, relevance +0, freshness +17.3, corroborated +10
-
-### 🟠 [99.3] Mokaya v Independent Electoral & Boundaries Commission & 4 others (Constitutional Petition E191 of 2025) [2026] KEHC 129
-- **Verdict:** STRONG — tier-1, upstream
-- **Source:** Kenya Gazette (Kenya Law) · tier 1 · KE · gazette
-- **First seen:** 2026-08-21T06:32+03:00 EAT · **Source date:** 2026-08-20
-- **URL:** https://new.kenyalaw.org/akn/ke/judgment/kehc/2026/12990/eng@2026-08-20
-- **Extract:** Mokaya v Independent Electoral & Boundaries Commission & 4 others (Constitutional Petition E191 of 2025) [2026] KEHC 12990 (KLR) (Constitutional and Human Rights) (20 August 2026) (Ruling)
-- **Score parts:** tier +40, category +20, lead +12, relevance +0, freshness +17.3, corroborated +10
-
-### 🟠 [99.3] Wangai v Thumaita Tea Factory (Civil Appeal E054 of 2024) [2026] KEHC 12989 (KLR) (20 August 2026) (Judgment)
-- **Verdict:** STRONG — tier-1, upstream
-- **Source:** Kenya Gazette (Kenya Law) · tier 1 · KE · gazette
-- **First seen:** 2026-08-21T06:32+03:00 EAT · **Source date:** 2026-08-20
-- **URL:** https://new.kenyalaw.org/akn/ke/judgment/kehc/2026/12989/eng@2026-08-20
-- **Extract:** Wangai v Thumaita Tea Factory (Civil Appeal E054 of 2024) [2026] KEHC 12989 (KLR) (20 August 2026) (Judgment)
-- **Score parts:** tier +40, category +20, lead +12, relevance +0, freshness +17.3, corroborated +10
-
-### 🟠 [99.3] Gitanyu v Directorate of Criminal Investigations & 3 others (Constitutional Petition E239 of 2024) [2026] KEHC 12988 (KL
-- **Verdict:** STRONG — tier-1, upstream
-- **Source:** Kenya Gazette (Kenya Law) · tier 1 · KE · gazette
-- **First seen:** 2026-08-21T06:32+03:00 EAT · **Source date:** 2026-08-20
-- **URL:** https://new.kenyalaw.org/akn/ke/judgment/kehc/2026/12988/eng@2026-08-20
-- **Extract:** Gitanyu v Directorate of Criminal Investigations & 3 others (Constitutional Petition E239 of 2024) [2026] KEHC 12988 (KLR) (Constitutional and Human Rights) (20 August 2026) (Judgment)
-- **Score parts:** tier +40, category +20, lead +12, relevance +0, freshness +17.3, corroborated +10
-
-### 🟠 [99.3] Obare v Odhungo aka Nancy Osborne Nanjira, Lydiah Inyangala Keya, Lydiah Mauren Inyangala & 10 others (Constitutional Pe
-- **Verdict:** STRONG — tier-1, upstream
-- **Source:** Kenya Gazette (Kenya Law) · tier 1 · KE · gazette
-- **First seen:** 2026-08-21T06:32+03:00 EAT · **Source date:** 2026-08-20
-- **URL:** https://new.kenyalaw.org/akn/ke/judgment/kehc/2026/12987/eng@2026-08-20
-- **Extract:** Obare v Odhungo aka Nancy Osborne Nanjira, Lydiah Inyangala Keya, Lydiah Mauren Inyangala & 10 others (Constitutional Petition E657 of 2024) [2026] KEHC 12987 (KLR) (Constitutional and Human Rights) (20 August 2026) (Judgment)
-- **Score parts:** tier +40, category +20, lead +12, relevance +0, freshness +17.3, corroborated +10
-
-### 🟠 [99.3] Wanjiru v Muchoki & another (Suing as the Legal Representatives for and on Behalf of the Estate of Nicholas Muchoki Mwan
-- **Verdict:** STRONG — tier-1, upstream
-- **Source:** Kenya Gazette (Kenya Law) · tier 1 · KE · gazette
-- **First seen:** 2026-08-21T06:32+03:00 EAT · **Source date:** 2026-08-20
-- **URL:** https://new.kenyalaw.org/akn/ke/judgment/kehc/2026/12983/eng@2026-08-20
-- **Extract:** Wanjiru v Muchoki & another (Suing as the Legal Representatives for and on Behalf of the Estate of Nicholas Muchoki Mwangi – Deceased) (Civil Appeal E117 of 2024) [2026] KEHC 12983 (KLR) (20 August 2026) (Judgment)
-- **Score parts:** tier +40, category +20, lead +12, relevance +0, freshness +17.3, corroborated +10
-
-### 🟡 [93.7] Starlux Boosts Taichung – Kumamoto Service in NW26
+### 🟡 [108.2] Ethiopian Dec 2026/Jan 2027 Atlanta Service Changes
 - **Verdict:** CONSIDER
 - **Source:** AeroRoutes schedule filings · tier 2 · GLOBAL · aviation-tracker
-- **First seen:** 2026-08-21T06:33+03:00 EAT · **Source date:** 2026-08-21
-- **URL:** https://www.aeroroutes.com/eng/260820-jxnw26rmq
-- **Extract:** Published at 1701PDT 20AUG26 / 0001GMT 21AUG26 Starlux Airlines this week opened reservations for Taichung – Kumamoto route during Northern winter 2026/27 season, as the airline schedules service increase to 1 daily from 25OCT26. JX316 RMQ1505 – 1815KMJ 32Q D 
-- **Score parts:** tier +20, category +14, lead +8.4, relevance +24, freshness +17.3, corroborated +10
+- **First seen:** 2026-08-21T11:05+03:00 EAT · **Source date:** 2026-08-21
+- **URL:** https://www.aeroroutes.com/eng/260821-etdec26atl
+- **Extract:** Published at 0100PDT / 0800GMT 21AUG26 Ethiopian Airlines in recent schedule update revised planned peak season frequency on Addis Ababa – Atlanta route (Westbound via Rome Fiumicino). During the period of 19DEC26 – 14JAN27, the Star Alliance member will maint
+- **Score parts:** tier +20, category +14, lead +8.4, relevance +36, freshness +19.8, corroborated +10
 
-### 🟡 [93.7] Starlux Plans Kaohsiung – Okinawa Jan 2027 Launch
+### 🟡 [88.2] Lufthansa Adjusts Planned Munich – Rovaniemi Service in NW26
 - **Verdict:** CONSIDER
 - **Source:** AeroRoutes schedule filings · tier 2 · GLOBAL · aviation-tracker
-- **First seen:** 2026-08-21T06:33+03:00 EAT · **Source date:** 2026-08-21
-- **URL:** https://www.aeroroutes.com/eng/260820-jxjan27oka
-- **Extract:** Published at 1600PDT / 2300GMT 20AUG26 Starlux Airlines today (20AUG26) filed operational schedule for Kaohsiung – Okinawa route, scheduled to commence on 01JAN27. The airline schedules 1 daily flight with A321neo, with reservations to open soon, along with pr
-- **Score parts:** tier +20, category +14, lead +8.4, relevance +24, freshness +17.3, corroborated +10
+- **First seen:** 2026-08-21T11:05+03:00 EAT · **Source date:** 2026-08-21
+- **URL:** https://www.aeroroutes.com/eng/260821-lhvlnw26rvn
+- **Extract:** Published at 0000PDT / 0700GMT 21AUG26 Lufthansa in recent weeks filed service changes to its planned new Munich – Rovaniemi route. Planned service launch is now scheduled on 06DEC26 instead of 12NOV26, while 1 of 2 weekly flights will be operated by Lufthansa
+- **Score parts:** tier +20, category +14, lead +8.4, relevance +16, freshness +19.8, corroborated +10
 
-### 🟠 [92.1] More Vacation, Less Calculation: Maximizing Hilton Honors Points at All-Inclusive Resorts
-- **Verdict:** STRONG — tier-1, upstream
-- **Source:** Hilton stories/newsroom · tier 1 · GLOBAL · hotel-group
-- **First seen:** 2026-08-21T02:00+03:00 EAT · **Source date:** 2026-08-20
-- **URL:** https://stories.hilton.com/hilton-honors/maximizing-hilton-honors-points-at-all-inclusive-resorts
-- **Extract:** Planning a vacation often comes with a familiar balancing act: choosing the destination, setting a budget and finding ways to make every moment count once you arrive. For travelers looking for simplicity, Hilton’s all-inclusive portfolio helps streamline that 
-- **Score parts:** tier +40, category +9, lead +16.8, relevance +4, freshness +12.3, corroborated +10
-
-### 🟠 [91.9] Curaçao - Level 1: Exercise Normal Precautions
-- **Verdict:** STRONG — tier-1, upstream
-- **Source:** US State Dept travel advisories (EA feed) · tier 1 · REG · advisory
-- **First seen:** 2026-08-20T22:46+03:00 EAT · **Source date:** — none stated
-- **URL:** https://travel.state.gov/content/travel/en/traveladvisories/traveladvisories/curacao-travel-advisory.html
-- **Extract:** There was no change to the advisory level. Advisory summary was updated. Exercise normal precautions in Curaçao. Advisory summary Curaçao is generally a safe destination for travelers. Petty crime is most likely to occur in popular tourist locations. Stay awar
-- **Score parts:** tier +40, category +32, lead +1.2, relevance +16, freshness +8.7, undated -6
-
-### 🟠 [91.9] Sint Eustatius - Level 1: Exercise Normal Precautions
-- **Verdict:** STRONG — tier-1, upstream
-- **Source:** US State Dept travel advisories (EA feed) · tier 1 · REG · advisory
-- **First seen:** 2026-08-20T22:46+03:00 EAT · **Source date:** — none stated
-- **URL:** https://travel.state.gov/content/travel/en/traveladvisories/traveladvisories/sint-eustatius-travel-advisory.html
-- **Extract:** Reissued after periodic review without changes. Exercise normal precautions in Sint Eustatius. There was no change to the advisory level. Advisory summary was updated. Advisory summary Sint Eustatius is generally safe destinations for travelers. Petty crime is
-- **Score parts:** tier +40, category +32, lead +1.2, relevance +16, freshness +8.7, undated -6
-
-### 🟠 [91.9] Bonaire - Level 1: Exercise Normal Precautions
-- **Verdict:** STRONG — tier-1, upstream
-- **Source:** US State Dept travel advisories (EA feed) · tier 1 · REG · advisory
-- **First seen:** 2026-08-20T22:46+03:00 EAT · **Source date:** — none stated
-- **URL:** https://travel.state.gov/content/travel/en/traveladvisories/traveladvisories/bonaire-travel-advisory.html
-- **Extract:** There was no change to the advisory level. Advisory summary was updated. Exercise normal precautions in Bonaire. Advisory summary Bonaire is generally a safe destination for travelers. Petty crime is most likely to occur in popular tourist locations. Stay awar
-- **Score parts:** tier +40, category +32, lead +1.2, relevance +16, freshness +8.7, undated -6
-
-### 🟠 [91.9] Saba - Level 1: Exercise Normal Precautions
-- **Verdict:** STRONG — tier-1, upstream
-- **Source:** US State Dept travel advisories (EA feed) · tier 1 · REG · advisory
-- **First seen:** 2026-08-20T22:46+03:00 EAT · **Source date:** — none stated
-- **URL:** https://travel.state.gov/content/travel/en/traveladvisories/traveladvisories/saba-travel-advisory.html
-- **Extract:** There was no change to the advisory level. Advisory summary was updated. Exercise normal precautions in Saba. Advisory summary Saba is generally safe destinations for travelers. Petty crime is most likely to occur in popular tourist locations. Stay aware of yo
-- **Score parts:** tier +40, category +32, lead +1.2, relevance +16, freshness +8.7, undated -6
-
-### 🟠 [91.9] Panama - Level 2: Exercise Increased Caution
-- **Verdict:** STRONG — tier-1, upstream
-- **Source:** US State Dept travel advisories (EA feed) · tier 1 · REG · advisory
-- **First seen:** 2026-08-20T22:46+03:00 EAT · **Source date:** — none stated
-- **URL:** https://travel.state.gov/content/tsg_aem/us/en/home/international-travel/travel-advisories/destination.pan.html
-- **Extract:** Exercise increased caution in Panama due to crime. Some areas have increased risk. Read the entire travel advisory. U.S. government employees working in Panama need special authorization to travel to the Mosquito Gulf and the Darién Region due to safety risks.
-- **Score parts:** tier +40, category +32, lead +1.2, relevance +16, freshness +8.7, undated -6
-
-### 🟡 [89.7] AirAsia X Discontinues 2 Routes in NW26
+### 🟡 [88.2] Scoot Adds Singapore – Guiyang in 4Q26
 - **Verdict:** CONSIDER
 - **Source:** AeroRoutes schedule filings · tier 2 · GLOBAL · aviation-tracker
-- **First seen:** 2026-08-21T06:33+03:00 EAT · **Source date:** 2026-08-21
-- **URL:** https://www.aeroroutes.com/eng/260820-d7nw26cxl
-- **Extract:** Published at 1500PDT / 2200GMT 20AUG26 AirAsia X today (20AUG26) announced cancellation of 2 routes at the launch of Northern winter 2026/27 season. Discontinued routes include the following. Kuala Lumpur – Chongqing Cancelled from 24OCT26 Kuala Lumpur – Sydne
-- **Score parts:** tier +20, category +14, lead +8.4, relevance +20, freshness +17.3, corroborated +10
+- **First seen:** 2026-08-21T11:05+03:00 EAT · **Source date:** 2026-08-21
+- **URL:** https://www.aeroroutes.com/eng/260820-trnw26kwe
+- **Extract:** Published at 2200PDT 20AUG26 / 0500GMT 21AUG26 Scoot at the launch of Northern winter 2026/27 season plans to launch new route to Mainland China, the airline announced on Thursday 20AUG26. Airbus A320neo will operate Singapore – Guiyang flight from 26OCT26, 3 
+- **Score parts:** tier +20, category +14, lead +8.4, relevance +16, freshness +19.8, corroborated +10
 
-### 🟡 [89.3] Business Premises Rent Tribunal – Daily Cause List – 19 August 2026
-- **Verdict:** CONSIDER
-- **Source:** Kenya Gazette (Kenya Law) · tier 1 · KE · gazette
-- **First seen:** 2026-08-21T06:32+03:00 EAT · **Source date:** 2026-08-19
-- **URL:** https://new.kenyalaw.org/akn/ke/doc/cause-list-daily/kebprt/2026-08-19/1/eng@2026-08-19
-- **Extract:** Business Premises Rent Tribunal – Daily Cause List – 19 August 2026
-- **Score parts:** tier +40, category +20, lead +12, relevance +0, freshness +17.3
-
-### 🟡 [89.3] Githunguri Law Courts – Daily Cause List – 19 August 2026
-- **Verdict:** CONSIDER
-- **Source:** Kenya Gazette (Kenya Law) · tier 1 · KE · gazette
-- **First seen:** 2026-08-21T06:32+03:00 EAT · **Source date:** 2026-08-19
-- **URL:** https://new.kenyalaw.org/akn/ke/doc/cause-list-daily/kemc/2026-08-19/2/eng@2026-08-19
-- **Extract:** Githunguri Law Courts – Daily Cause List – 19 August 2026
-- **Score parts:** tier +40, category +20, lead +12, relevance +0, freshness +17.3
-
-### 🟡 [89.3] Njuguna v NCBA Bank Kenya Plc & 2 others (Civil Suit E009 of 2025) [2026] KEHC 12985 (KLR) (19 August 2026) (Ruling)
-- **Verdict:** CONSIDER
-- **Source:** Kenya Gazette (Kenya Law) · tier 1 · KE · gazette
-- **First seen:** 2026-08-21T06:32+03:00 EAT · **Source date:** 2026-08-19
-- **URL:** https://new.kenyalaw.org/akn/ke/judgment/kehc/2026/12985/eng@2026-08-19
-- **Extract:** Njuguna v NCBA Bank Kenya Plc & 2 others (Civil Suit E009 of 2025) [2026] KEHC 12985 (KLR) (19 August 2026) (Ruling)
-- **Score parts:** tier +40, category +20, lead +12, relevance +0, freshness +17.3
-
-### 🟡 [89.3] Wote Service Station Limited v Mwangangi (Suing as the Legal Representative of the Estate of Stephen Muema Mwangangi (De
-- **Verdict:** CONSIDER
-- **Source:** Kenya Gazette (Kenya Law) · tier 1 · KE · gazette
-- **First seen:** 2026-08-21T06:32+03:00 EAT · **Source date:** 2026-08-19
-- **URL:** https://new.kenyalaw.org/akn/ke/judgment/kehc/2026/12979/eng@2026-08-19
-- **Extract:** Wote Service Station Limited v Mwangangi (Suing as the Legal Representative of the Estate of Stephen Muema Mwangangi (Deceased)) (Civil Appeal E045 of 2023) [2026] KEHC 12979 (KLR) (19 August 2026) (Judgment)
-- **Score parts:** tier +40, category +20, lead +12, relevance +0, freshness +17.3
-
-### 🟡 [88.7] Govt launches 100-day crackdown on unroadworthy taxis in Greater Kampala
-- **Verdict:** CONSIDER
-- **Source:** Daily Monitor (Uganda) · tier 2 · UG · press
-- **First seen:** 2026-08-20T22:46+03:00 EAT · **Source date:** 2026-08-20
-- **URL:** https://www.monitor.co.ug/uganda/news/national/govt-launches-100-day-crackdown-on-unroadworthy-taxis-in-greater-kampala-5564908
-- **Shock language:** strike
-- **Extract:** Past crackdowns were frequently suspended following threats of widespread transport strikes or...
-- **Score parts:** tier +20, category +4, lead +0, relevance +28, freshness +8.7, corroborated +10, shock +18
-
-### 🟡 [87.9] Thailand - Level 1: Exercise Normal Precautions
-- **Verdict:** CONSIDER
-- **Source:** US State Dept travel advisories (EA feed) · tier 1 · REG · advisory
-- **First seen:** 2026-08-20T22:46+03:00 EAT · **Source date:** — none stated
-- **URL:** https://travel.state.gov/content/tsg_aem/us/en/home/international-travel/travel-advisories/destination.tha.html
-- **Extract:** Exercise normal precaution in Thailand . Some areas have increased risk. Read the entire Travel Advisory. Thailand is generally a safe destination for travelers. Review our Travel Guidance for Thailand to learn how to prepare for a safe trip. Exercise Increase
-- **Score parts:** tier +40, category +32, lead +1.2, relevance +12, freshness +8.7, undated -6
-
-### 🟡 [86.5] Rwandair NW26 Brussels Service Changes – 20AUG26
+### 🟡 [84.2] Scoot Increases Okinawa Flights in NW26
 - **Verdict:** CONSIDER
 - **Source:** AeroRoutes schedule filings · tier 2 · GLOBAL · aviation-tracker
-- **First seen:** 2026-08-21T00:03+03:00 EAT · **Source date:** 2026-08-20
-- **URL:** https://www.aeroroutes.com/eng/260820-wbnw26bru
-- **Extract:** Published at 1200PDT / 1900GMT 20AUG26 Rwandair during Northern winter 2026/27 season plans service changes to Brussels, as the airline closed Mondays service on Kigali – Paris Charles de Gaulle – Brussels route (Paris remains available for reservations) from 
-- **Score parts:** tier +20, category +14, lead +8.4, relevance +24, freshness +10.1, corroborated +10
+- **First seen:** 2026-08-21T11:05+03:00 EAT · **Source date:** 2026-08-21
+- **URL:** https://www.aeroroutes.com/eng/260820-trnw26oka
+- **Extract:** Published at 2300PDT 20AUG26 / 0600GMT 21AUG26 Scoot during Northern winter 2026/27 season schedules service increase on Singapore – Okinawa route, where the carrier adds 5th weekly flight from 31OCT26. Airbus A321neo operates this route. TR834 SIN0110 – 0800O
+- **Score parts:** tier +20, category +14, lead +8.4, relevance +12, freshness +19.8, corroborated +10
+
+### 🟡 [84.2] Air China Maintains Chengdu – London Gatwick Link in NW26
+- **Verdict:** CONSIDER
+- **Source:** AeroRoutes schedule filings · tier 2 · GLOBAL · aviation-tracker
+- **First seen:** 2026-08-21T11:05+03:00 EAT · **Source date:** 2026-08-21
+- **URL:** https://www.aeroroutes.com/eng/260820-canw26lgw
+- **Extract:** Published at 2100PDT 20AUG26 / 0400GMT 21AUG26 Air China during Northern winter 2026/27 season plans to maintain Chengdu Tianfu – London Gatwick service, as the airline opened reservations between 25OCT26 and 27MAR27. During winter season, Airbus A330-300 airc
+- **Score parts:** tier +20, category +14, lead +8.4, relevance +12, freshness +19.8, corroborated +10
+
+### 🟡 [79.8] Africa Congo set to receive 70,000 Ervebo vaccines to contain Ebola outbreak 20 hours ago - 2 min read
+- **Verdict:** CONSIDER
+- **Source:** The Citizen (Tanzania) · tier 2 · TZ · press
+- **First seen:** 2026-08-21T11:05+03:00 EAT · **Source date:** — none stated
+- **URL:** https://www.thecitizen.co.tz/tanzania/news/africa/congo-set-to-receive-70-000-ervebo-vaccines-to-contain-ebola-outbreak-5564810
+- **Shock language:** outbreak
+- **Score parts:** tier +20, category +4, lead +0, relevance +24, freshness +19.8, undated -6, shock +18
+
+### 🟡 [76.5] Africa Congo set to receive 70,000 Ervebo vaccines to contain Ebola outbreak 17 hours ago - 2 min read
+- **Verdict:** CONSIDER
+- **Source:** The Citizen (Tanzania) · tier 2 · TZ · press
+- **First seen:** 2026-08-21T08:07+03:00 EAT · **Source date:** — none stated
+- **URL:** https://www.thecitizen.co.tz/tanzania/news/africa/congo-set-to-receive-70-000-ervebo-vaccines-to-contain-ebola-outbreak-5564810
+- **Shock language:** outbreak
+- **Score parts:** tier +20, category +4, lead +0, relevance +24, freshness +16.5, undated -6, shock +18
