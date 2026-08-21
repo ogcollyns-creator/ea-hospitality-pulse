@@ -1,18 +1,18 @@
 {
- "generated": "2026-08-21T11:06:11+03:00",
+ "generated": "2026-08-21T13:59:35+03:00",
  "slot": "midday",
  "window_start": 1787284800,
- "observations_in_window": 168,
+ "observations_in_window": 261,
  "deduped_against": 6,
  "candidates": [
   {
-   "score": 101.8,
+   "score": 98.6,
    "components": {
     "tier": 40,
     "category": 32,
     "lead": 12.0,
     "relevance": 8,
-    "freshness": 19.8,
+    "freshness": 16.6,
     "undated": -6,
     "page_change": -4
    },
@@ -41,13 +41,45 @@
    "verdict": "OPEN THIS \u2014 tier-1 advisory page moved; content not auto-parsed, read it manually"
   },
   {
-   "score": 91.4,
+   "score": 91.3,
    "components": {
     "tier": 40,
     "category": 32,
     "lead": 3.6,
     "relevance": 0,
-    "freshness": 19.8,
+    "freshness": 19.7,
+    "page_change": -4
+   },
+   "keywords": [],
+   "shock_terms": [],
+   "dedupe_match": null,
+   "dedupe_similarity": 0.0,
+   "id": "28d5f7ff9291",
+   "title": "[page changed] Federal Register \u2014 public inspection (HHS/CDC), pre-publication",
+   "url": "https://www.federalregister.gov/api/v1/public-inspection-documents/current.json",
+   "summary": "{\"count\":118,\"results\":[{\"agencies\":[{\"raw_name\":\"EQUAL EMPLOYMENT OPPORTUNITY COMMISSION\",\"name\":\"Equal Employment Opportunity Commission\",\"id\":147,\"url\":\"https://www.federalregister.gov/agencies/equal-employment-opportunity-commission\",\"json_url\":\"https://www.federalregister.gov/api/v1/agencies/147\",\"parent_id\":null,\"slug\":\"equal-employment-opportunity-commission\"}],\"agency_letters\":[],\"agency_n",
+   "kind": "page-change",
+   "source": "Federal Register \u2014 public inspection (HHS/CDC), pre-publication",
+   "source_id": "us-fedreg-pubinspect-hhs",
+   "tier": 1,
+   "country": "REG",
+   "category": "advisory",
+   "segments": [
+    "city",
+    "bush"
+   ],
+   "first_seen": "2026-08-21T13:54+03:00",
+   "published": "2026-08-19",
+   "verdict": "OPEN THIS \u2014 tier-1 advisory page moved; content not auto-parsed, read it manually"
+  },
+  {
+   "score": 88.2,
+   "components": {
+    "tier": 40,
+    "category": 32,
+    "lead": 3.6,
+    "relevance": 0,
+    "freshness": 16.6,
     "page_change": -4
    },
    "keywords": [],
@@ -73,13 +105,13 @@
    "verdict": "OPEN THIS \u2014 tier-1 advisory page moved; content not auto-parsed, read it manually"
   },
   {
-   "score": 88.9,
+   "score": 85.7,
    "components": {
     "tier": 40,
     "category": 32,
     "lead": 3.6,
     "relevance": 0,
-    "freshness": 17.3,
+    "freshness": 14.1,
     "page_change": -4
    },
    "keywords": [],
@@ -105,13 +137,47 @@
    "verdict": "OPEN THIS \u2014 tier-1 advisory page moved; content not auto-parsed, read it manually"
   },
   {
-   "score": 108.2,
+   "score": 65.3,
+   "components": {
+    "tier": 40,
+    "category": 12,
+    "lead": 3.6,
+    "relevance": 0,
+    "freshness": 19.7,
+    "undated": -6,
+    "page_change": -4
+   },
+   "keywords": [],
+   "shock_terms": [],
+   "dedupe_match": null,
+   "dedupe_similarity": 0.0,
+   "id": "d2f3d799ee59",
+   "title": "[page changed] Jambojet media",
+   "url": "https://www.jambojet.com/en/press-release",
+   "summary": "Request unsuccessful. Incapsula incident ID: 198000340820652599-1278316867282667710",
+   "kind": "page-change",
+   "source": "Jambojet media",
+   "source_id": "air-jambojet",
+   "tier": 1,
+   "country": "KE",
+   "category": "airline",
+   "segments": [
+    "city",
+    "bush",
+    "beach"
+   ],
+   "first_seen": "2026-08-21T13:53+03:00",
+   "published": null,
+   "verdict": "OPEN THIS \u2014 tier-1 airline page moved; content not auto-parsed, read it manually"
+  },
+  {
+   "score": 105.0,
    "components": {
     "tier": 20,
     "category": 14,
     "lead": 8.4,
     "relevance": 36,
-    "freshness": 19.8,
+    "freshness": 16.6,
     "corroborated": 10
    },
    "keywords": [
@@ -144,13 +210,51 @@
    "verdict": "CONSIDER"
   },
   {
-   "score": 88.2,
+   "score": 94.3,
+   "components": {
+    "tier": 20,
+    "category": 5,
+    "lead": 3.6,
+    "relevance": 36,
+    "freshness": 19.7,
+    "corroborated": 10
+   },
+   "keywords": [
+    "advisory",
+    "occupancy",
+    "adr",
+    "revpar"
+   ],
+   "shock_terms": [],
+   "dedupe_match": null,
+   "dedupe_similarity": 0.0,
+   "id": "cd187fc66c4b",
+   "title": "Pinnacle Advisory Group Forecasts Continued Growth for Greater Boston Lodging Market in 2027",
+   "url": "https://www.hospitalitynet.org/news/4134047/pinnacle-advisory-group-forecasts-continued-growth-for-greater-boston-lodging-market-in-2027",
+   "summary": "Pinnacle Advisory Group projects Boston's 2027 occupancy at 78%, ADR growth of 1.6%, and RevPAR growth of ~1.8%, citing limited supply and a diverse demand base as key market supports.",
+   "kind": "item",
+   "source": "Hospitality Net \u2014 Africa announcements",
+   "source_id": "dev-hospitalitynet-africa",
+   "tier": 2,
+   "country": "REG",
+   "category": "trade",
+   "segments": [
+    "city",
+    "bush",
+    "beach"
+   ],
+   "first_seen": "2026-08-21T13:54+03:00",
+   "published": "2026-08-21",
+   "verdict": "CONSIDER"
+  },
+  {
+   "score": 85.0,
    "components": {
     "tier": 20,
     "category": 14,
     "lead": 8.4,
     "relevance": 16,
-    "freshness": 19.8,
+    "freshness": 16.6,
     "corroborated": 10
    },
    "keywords": [
@@ -181,13 +285,13 @@
    "verdict": "CONSIDER"
   },
   {
-   "score": 88.2,
+   "score": 85.0,
    "components": {
     "tier": 20,
     "category": 14,
     "lead": 8.4,
     "relevance": 16,
-    "freshness": 19.8,
+    "freshness": 16.6,
     "corroborated": 10
    },
    "keywords": [
@@ -218,13 +322,13 @@
    "verdict": "CONSIDER"
   },
   {
-   "score": 84.2,
+   "score": 81.0,
    "components": {
     "tier": 20,
     "category": 14,
     "lead": 8.4,
     "relevance": 12,
-    "freshness": 19.8,
+    "freshness": 16.6,
     "corroborated": 10
    },
    "keywords": [
@@ -254,13 +358,13 @@
    "verdict": "CONSIDER"
   },
   {
-   "score": 84.2,
+   "score": 81.0,
    "components": {
     "tier": 20,
     "category": 14,
     "lead": 8.4,
     "relevance": 12,
-    "freshness": 19.8,
+    "freshness": 16.6,
     "corroborated": 10
    },
    "keywords": [
@@ -290,13 +394,90 @@
    "verdict": "CONSIDER"
   },
   {
-   "score": 79.8,
+   "score": 79.7,
    "components": {
     "tier": 20,
     "category": 4,
     "lead": 0.0,
     "relevance": 24,
-    "freshness": 19.8,
+    "freshness": 19.7,
+    "undated": -6,
+    "shock": 18
+   },
+   "keywords": [
+    "outbreak",
+    "ebola"
+   ],
+   "shock_terms": [
+    "outbreak"
+   ],
+   "dedupe_match": null,
+   "dedupe_similarity": 0.33,
+   "id": "13aaf11601ba",
+   "title": "Africa Congo set to receive 70,000 Ervebo vaccines to contain Ebola outbreak 23 hours ago - 2 min read",
+   "url": "https://www.thecitizen.co.tz/tanzania/news/africa/congo-set-to-receive-70-000-ervebo-vaccines-to-contain-ebola-outbreak-5564810",
+   "summary": "",
+   "kind": "item",
+   "source": "The Citizen (Tanzania)",
+   "source_id": "np-citizen-tz",
+   "tier": 2,
+   "country": "TZ",
+   "category": "press",
+   "segments": [
+    "city",
+    "bush",
+    "beach"
+   ],
+   "first_seen": "2026-08-21T13:54+03:00",
+   "published": null,
+   "verdict": "CONSIDER"
+  },
+  {
+   "score": 78.3,
+   "components": {
+    "tier": 20,
+    "category": 5,
+    "lead": 3.6,
+    "relevance": 20,
+    "freshness": 19.7,
+    "corroborated": 10
+   },
+   "keywords": [
+    "eta",
+    "hotel",
+    "tourism",
+    "guest"
+   ],
+   "shock_terms": [],
+   "dedupe_match": null,
+   "dedupe_similarity": 0.14,
+   "id": "b3a440d3db42",
+   "title": "The Rise of Retail Tourism: What Hotels Can Learn From Shopper Behaviour",
+   "url": "https://www.hospitalitynet.org/opinion/4133780/the-rise-of-retail-tourism-what-hotels-can-learn-from-shopper-behaviour",
+   "summary": "Hotels can use shopping behaviour as a signal of guest intent, applying lessons from retail tourism to improve anticipatory service, staff training, and local partnerships.",
+   "kind": "item",
+   "source": "Hospitality Net \u2014 Africa announcements",
+   "source_id": "dev-hospitalitynet-africa",
+   "tier": 2,
+   "country": "REG",
+   "category": "trade",
+   "segments": [
+    "city",
+    "bush",
+    "beach"
+   ],
+   "first_seen": "2026-08-21T13:54+03:00",
+   "published": "2026-08-21",
+   "verdict": "CONSIDER"
+  },
+  {
+   "score": 76.6,
+   "components": {
+    "tier": 20,
+    "category": 4,
+    "lead": 0.0,
+    "relevance": 24,
+    "freshness": 16.6,
     "undated": -6,
     "shock": 18
    },
@@ -329,13 +510,13 @@
    "verdict": "CONSIDER"
   },
   {
-   "score": 76.5,
+   "score": 73.3,
    "components": {
     "tier": 20,
     "category": 4,
     "lead": 0.0,
     "relevance": 24,
-    "freshness": 16.5,
+    "freshness": 13.3,
     "undated": -6,
     "shock": 18
    },
@@ -368,13 +549,474 @@
    "verdict": "CONSIDER"
   },
   {
-   "score": 64.2,
+   "score": 70.3,
+   "components": {
+    "tier": 20,
+    "category": 5,
+    "lead": 3.6,
+    "relevance": 12,
+    "freshness": 19.7,
+    "corroborated": 10
+   },
+   "keywords": [
+    "adr",
+    "hotel"
+   ],
+   "shock_terms": [],
+   "dedupe_match": null,
+   "dedupe_similarity": 0.17,
+   "id": "a1e988c90650",
+   "title": "What AI can already tell about the visitor browsing your hotel's website",
+   "url": "https://www.hospitalitynet.org/explainer/4134050/what-ai-can-already-tell-about-the-visitor-browsing-your-hotels-website",
+   "summary": "Lighthouse Direct's five-algorithm AI system scores hotel website visitors across intent, spend, destination flexibility, date flexibility, and length of stay to deliver targeted offers that protect ADR and lift conversions.",
+   "kind": "item",
+   "source": "Hospitality Net \u2014 Africa announcements",
+   "source_id": "dev-hospitalitynet-africa",
+   "tier": 2,
+   "country": "REG",
+   "category": "trade",
+   "segments": [
+    "city",
+    "bush",
+    "beach"
+   ],
+   "first_seen": "2026-08-21T13:54+03:00",
+   "published": "2026-08-21",
+   "verdict": "CONSIDER"
+  },
+  {
+   "score": 70.3,
+   "components": {
+    "tier": 20,
+    "category": 5,
+    "lead": 3.6,
+    "relevance": 12,
+    "freshness": 19.7,
+    "corroborated": 10
+   },
+   "keywords": [
+    "revpar",
+    "hotel"
+   ],
+   "shock_terms": [],
+   "dedupe_match": null,
+   "dedupe_similarity": 0.0,
+   "id": "d1646133294e",
+   "title": "U.S. hotel results for week ending 15 August",
+   "url": "https://www.hospitalitynet.org/news/4134049/us-hotel-results-for-week-ending-15-august",
+   "summary": "U.S. hotels posted an 18th straight week of positive year-over-year growth, with national RevPAR up 6.2% to $111.29; San Diego led Top 25 Markets with RevPAR surging 22.8%.",
+   "kind": "item",
+   "source": "Hospitality Net \u2014 Africa announcements",
+   "source_id": "dev-hospitalitynet-africa",
+   "tier": 2,
+   "country": "REG",
+   "category": "trade",
+   "segments": [
+    "city",
+    "bush",
+    "beach"
+   ],
+   "first_seen": "2026-08-21T13:54+03:00",
+   "published": "2026-08-21",
+   "verdict": "CONSIDER"
+  },
+  {
+   "score": 66.3,
+   "components": {
+    "tier": 20,
+    "category": 5,
+    "lead": 3.6,
+    "relevance": 8,
+    "freshness": 19.7,
+    "corroborated": 10
+   },
+   "keywords": [
+    "hotel",
+    "opening"
+   ],
+   "shock_terms": [],
+   "dedupe_match": null,
+   "dedupe_similarity": 0.0,
+   "id": "dab86f738893",
+   "title": "Aiden\u00ae Accelerates Global Growth with New Openings and More Than 20 Hotels in Development",
+   "url": "https://www.hospitalitynet.org/news/4134048/aiden-accelerates-global-growth-with-new-openings-and-more-than-20-hotels-in-development",
+   "summary": "BWH Hotels' Aiden brand reports four recent openings across Germany, Thailand, and the US, with four more properties slated for 2026-2027 including its Canadian debut in Toronto.",
+   "kind": "item",
+   "source": "Hospitality Net \u2014 Africa announcements",
+   "source_id": "dev-hospitalitynet-africa",
+   "tier": 2,
+   "country": "REG",
+   "category": "trade",
+   "segments": [
+    "city",
+    "bush",
+    "beach"
+   ],
+   "first_seen": "2026-08-21T13:54+03:00",
+   "published": "2026-08-21",
+   "verdict": "weak"
+  },
+  {
+   "score": 66.3,
+   "components": {
+    "tier": 20,
+    "category": 5,
+    "lead": 3.6,
+    "relevance": 8,
+    "freshness": 19.7,
+    "corroborated": 10
+   },
+   "keywords": [
+    "tourist",
+    "booking"
+   ],
+   "shock_terms": [],
+   "dedupe_match": null,
+   "dedupe_similarity": 0.0,
+   "id": "7101364d6c79",
+   "title": "The Terminal Is the New Homepage",
+   "url": "https://www.hospitalitynet.org/opinion/4134046/the-terminal-is-the-new-homepage",
+   "summary": "Shanghai's 100 AI-powered tourist terminals, built on 84,000+ content entries and 14,000 booking links, are presented as a reference model for destinations like the Philippines to build a unified data layer first, before any interface.",
+   "kind": "item",
+   "source": "Hospitality Net \u2014 Africa announcements",
+   "source_id": "dev-hospitalitynet-africa",
+   "tier": 2,
+   "country": "REG",
+   "category": "trade",
+   "segments": [
+    "city",
+    "bush",
+    "beach"
+   ],
+   "first_seen": "2026-08-21T13:54+03:00",
+   "published": "2026-08-21",
+   "verdict": "weak"
+  },
+  {
+   "score": 66.3,
+   "components": {
+    "tier": 20,
+    "category": 5,
+    "lead": 3.6,
+    "relevance": 8,
+    "freshness": 19.7,
+    "corroborated": 10
+   },
+   "keywords": [
+    "hotel",
+    "guest"
+   ],
+   "shock_terms": [],
+   "dedupe_match": null,
+   "dedupe_similarity": 0.14,
+   "id": "301e4d9523e9",
+   "title": "Global or Local? The Curatorial Responsibility of Luxury Hospitality",
+   "url": "https://www.hospitalitynet.org/opinion/4134008/global-or-local-the-curatorial-responsibility-of-luxury-hospitality",
+   "summary": "A strategic framework for luxury hotel beverage directors on building bar lists by function rather than origin quota, balancing local authenticity, global benchmarks, and guest intent.",
+   "kind": "item",
+   "source": "Hospitality Net \u2014 Africa announcements",
+   "source_id": "dev-hospitalitynet-africa",
+   "tier": 2,
+   "country": "REG",
+   "category": "trade",
+   "segments": [
+    "city",
+    "bush",
+    "beach"
+   ],
+   "first_seen": "2026-08-21T13:54+03:00",
+   "published": "2026-08-21",
+   "verdict": "weak"
+  },
+  {
+   "score": 65.7,
+   "components": {
+    "tier": 20,
+    "category": 4,
+    "lead": 0.0,
+    "relevance": 12,
+    "freshness": 19.7,
+    "corroborated": 10
+   },
+   "keywords": [
+    "fee",
+    "shilling"
+   ],
+   "shock_terms": [],
+   "dedupe_match": null,
+   "dedupe_similarity": 0.0,
+   "id": "47817f30313c",
+   "title": "Uganda Shilling feels the pinch amid Middle East tensions",
+   "url": "https://www.monitor.co.ug/uganda/business/finance/uganda-shilling-feels-the-pinch-amid-middle-east-tensions-5565744",
+   "summary": "Shilling under pressure as dollar demand rises across key sectors",
+   "kind": "item",
+   "source": "Daily Monitor (Uganda)",
+   "source_id": "np-monitor-ug",
+   "tier": 2,
+   "country": "UG",
+   "category": "press",
+   "segments": [
+    "city",
+    "bush",
+    "beach"
+   ],
+   "first_seen": "2026-08-21T13:54+03:00",
+   "published": "2026-08-21",
+   "verdict": "weak"
+  },
+  {
+   "score": 65.7,
+   "components": {
+    "tier": 20,
+    "category": 4,
+    "lead": 0.0,
+    "relevance": 12,
+    "freshness": 19.7,
+    "corroborated": 10
+   },
+   "keywords": [
+    "collapse"
+   ],
+   "shock_terms": [],
+   "dedupe_match": null,
+   "dedupe_similarity": 0.0,
+   "id": "26a3ba7b62fd",
+   "title": "Collapsed bridge leaves Mukono residents stranded",
+   "url": "https://www.monitor.co.ug/uganda/news/national/collapsed-bridge-leaves-mukono-residents-stranded-5565652",
+   "summary": "Dispute over road maintenance leaves Mukono communities stranded",
+   "kind": "item",
+   "source": "Daily Monitor (Uganda)",
+   "source_id": "np-monitor-ug",
+   "tier": 2,
+   "country": "UG",
+   "category": "press",
+   "segments": [
+    "city",
+    "bush",
+    "beach"
+   ],
+   "first_seen": "2026-08-21T13:54+03:00",
+   "published": "2026-08-21",
+   "verdict": "weak"
+  },
+  {
+   "score": 62.3,
+   "components": {
+    "tier": 20,
+    "category": 5,
+    "lead": 3.6,
+    "relevance": 4,
+    "freshness": 19.7,
+    "corroborated": 10
+   },
+   "keywords": [
+    "hotel"
+   ],
+   "shock_terms": [],
+   "dedupe_match": null,
+   "dedupe_similarity": 0.0,
+   "id": "f45d4d5b5228",
+   "title": "Whitebridge EMEA Hotels Monitor, Issue 38",
+   "url": "https://www.hospitalitynet.org/news/4134045/whitebridge-emea-hotels-monitor-issue-38",
+   "summary": "Issue 38 covers H1 performance across EMEA hotels, with Istanbul and Milan as top performers, major declines in Middle East markets, rising construction costs, and a UK ground rents update.",
+   "kind": "item",
+   "source": "Hospitality Net \u2014 Africa announcements",
+   "source_id": "dev-hospitalitynet-africa",
+   "tier": 2,
+   "country": "REG",
+   "category": "trade",
+   "segments": [
+    "city",
+    "bush",
+    "beach"
+   ],
+   "first_seen": "2026-08-21T13:54+03:00",
+   "published": "2026-08-21",
+   "verdict": "weak"
+  },
+  {
+   "score": 62.3,
+   "components": {
+    "tier": 20,
+    "category": 5,
+    "lead": 3.6,
+    "relevance": 4,
+    "freshness": 19.7,
+    "corroborated": 10
+   },
+   "keywords": [
+    "hotel"
+   ],
+   "shock_terms": [],
+   "dedupe_match": null,
+   "dedupe_similarity": 0.0,
+   "id": "c63786d43554",
+   "title": "Do We Need More Leonardo da Vinci in Hotel Marketing?",
+   "url": "https://www.hospitalitynet.org/opinion/4134017/do-we-need-more-leonardo-da-vinci-in-hotel-marketing",
+   "summary": "The piece questions whether hotel marketers benefit more from broad, cross-disciplinary thinking than from deep specialisation in a single area.",
+   "kind": "item",
+   "source": "Hospitality Net \u2014 Africa announcements",
+   "source_id": "dev-hospitalitynet-africa",
+   "tier": 2,
+   "country": "REG",
+   "category": "trade",
+   "segments": [
+    "city",
+    "bush",
+    "beach"
+   ],
+   "first_seen": "2026-08-21T13:54+03:00",
+   "published": "2026-08-21",
+   "verdict": "weak"
+  },
+  {
+   "score": 62.3,
+   "components": {
+    "tier": 20,
+    "category": 5,
+    "lead": 3.6,
+    "relevance": 4,
+    "freshness": 19.7,
+    "corroborated": 10
+   },
+   "keywords": [
+    "hotel"
+   ],
+   "shock_terms": [],
+   "dedupe_match": null,
+   "dedupe_similarity": 0.0,
+   "id": "65ac7901e0d7",
+   "title": "Sunset Cruises on the Wan Fu",
+   "url": "https://www.hospitalitynet.org/news/4133963/sunset-cruises-on-the-wan-fu",
+   "summary": "A personal memoir excerpt recounting the Wan Fu junk cruise operated by a Hong Kong hotel, offering sunset sailings from Central Pier to Cheung Chau with cocktails and snacks.",
+   "kind": "item",
+   "source": "Hospitality Net \u2014 Africa announcements",
+   "source_id": "dev-hospitalitynet-africa",
+   "tier": 2,
+   "country": "REG",
+   "category": "trade",
+   "segments": [
+    "city",
+    "bush",
+    "beach"
+   ],
+   "first_seen": "2026-08-21T13:54+03:00",
+   "published": "2026-08-21",
+   "verdict": "weak"
+  },
+  {
+   "score": 62.3,
+   "components": {
+    "tier": 20,
+    "category": 5,
+    "lead": 3.6,
+    "relevance": 4,
+    "freshness": 19.7,
+    "corroborated": 10
+   },
+   "keywords": [
+    "hotel"
+   ],
+   "shock_terms": [],
+   "dedupe_match": null,
+   "dedupe_similarity": 0.14,
+   "id": "5e8a1ae20a70",
+   "title": "What Emerging Markets Taught Me About Hotel Sales That Luxury Markets Never Could",
+   "url": "https://www.hospitalitynet.org/opinion/4133482/what-emerging-markets-taught-me-about-hotel-sales-that-luxury-markets-never-could",
+   "summary": "A hotel sales veteran argues that emerging markets build sharper commercial instincts than luxury ones, teaching demand creation, relationship-led selling, and agile pricing under real pressure.",
+   "kind": "item",
+   "source": "Hospitality Net \u2014 Africa announcements",
+   "source_id": "dev-hospitalitynet-africa",
+   "tier": 2,
+   "country": "REG",
+   "category": "trade",
+   "segments": [
+    "city",
+    "bush",
+    "beach"
+   ],
+   "first_seen": "2026-08-21T13:54+03:00",
+   "published": "2026-08-21",
+   "verdict": "weak"
+  },
+  {
+   "score": 61.7,
+   "components": {
+    "tier": 20,
+    "category": 4,
+    "lead": 0.0,
+    "relevance": 8,
+    "freshness": 19.7,
+    "corroborated": 10
+   },
+   "keywords": [
+    "vat"
+   ],
+   "shock_terms": [],
+   "dedupe_match": null,
+   "dedupe_similarity": 0.0,
+   "id": "855127519b86",
+   "title": "Reclaim PR ethics in this era of shrinking budgets",
+   "url": "https://www.monitor.co.ug/uganda/oped/commentary/reclaim-pr-ethics-in-this-era-of-shrinking-budgets-5565806",
+   "summary": "Elevate the public relations profession from a transactional service to indispensable, trusted...",
+   "kind": "item",
+   "source": "Daily Monitor (Uganda)",
+   "source_id": "np-monitor-ug",
+   "tier": 2,
+   "country": "UG",
+   "category": "press",
+   "segments": [
+    "city",
+    "bush",
+    "beach"
+   ],
+   "first_seen": "2026-08-21T13:54+03:00",
+   "published": "2026-08-21",
+   "verdict": "weak"
+  },
+  {
+   "score": 61.7,
+   "components": {
+    "tier": 20,
+    "category": 4,
+    "lead": 0.0,
+    "relevance": 8,
+    "freshness": 19.7,
+    "corroborated": 10
+   },
+   "keywords": [
+    "eta"
+   ],
+   "shock_terms": [],
+   "dedupe_match": null,
+   "dedupe_similarity": 0.0,
+   "id": "b1253a10d3e2",
+   "title": "Inside Dolwe Island\u2019s ambitious tree restoration drive",
+   "url": "https://www.monitor.co.ug/uganda/special-reports/inside-dolwe-island-s-ambitious-tree-restoration-drive-5565746",
+   "summary": "Two million trees targeted to revive Dolwe Island\u2019s vegetation",
+   "kind": "item",
+   "source": "Daily Monitor (Uganda)",
+   "source_id": "np-monitor-ug",
+   "tier": 2,
+   "country": "UG",
+   "category": "press",
+   "segments": [
+    "city",
+    "bush",
+    "beach"
+   ],
+   "first_seen": "2026-08-21T13:54+03:00",
+   "published": "2026-08-21",
+   "verdict": "weak"
+  },
+  {
+   "score": 61.0,
    "components": {
     "tier": 20,
     "category": 24,
     "lead": 2.4,
     "relevance": 8,
-    "freshness": 19.8,
+    "freshness": 16.6,
     "undated": -6,
     "page_change": -4
    },
@@ -404,13 +1046,13 @@
    "verdict": "weak"
   },
   {
-   "score": 64.0,
+   "score": 60.8,
    "components": {
     "tier": 20,
     "category": 5,
     "lead": 1.2,
     "relevance": 8,
-    "freshness": 19.8,
+    "freshness": 16.6,
     "corroborated": 10
    },
    "keywords": [
@@ -440,13 +1082,48 @@
    "verdict": "weak"
   },
   {
-   "score": 61.8,
+   "score": 59.9,
+   "components": {
+    "tier": 20,
+    "category": 5,
+    "lead": 1.2,
+    "relevance": 4,
+    "freshness": 19.7,
+    "corroborated": 10
+   },
+   "keywords": [
+    "guest"
+   ],
+   "shock_terms": [],
+   "dedupe_match": null,
+   "dedupe_similarity": 0.14,
+   "id": "690ec3c2269a",
+   "title": "Hilton\u2019s CEO on Why the Fundamentals Still Win in the AI Era",
+   "url": "https://skift.com/2026/08/21/hiltons-ceo-on-why-the-fundamentals-still-win-in-the-ai-era",
+   "summary": "As AI models increasingly decide who gets recommended, Chris Nassetta's view is that the inputs still hold. Reliability, culture, and a lifetime relationship with the guest keep earning the recommendation, even as who does the recommending has changed.",
+   "kind": "item",
+   "source": "Skift",
+   "source_id": "tp-skift",
+   "tier": 2,
+   "country": "GLOBAL",
+   "category": "trade",
+   "segments": [
+    "city",
+    "bush",
+    "beach"
+   ],
+   "first_seen": "2026-08-21T13:54+03:00",
+   "published": "2026-08-21",
+   "verdict": "weak"
+  },
+  {
+   "score": 58.6,
    "components": {
     "tier": 20,
     "category": 4,
     "lead": 0.0,
     "relevance": 8,
-    "freshness": 19.8,
+    "freshness": 16.6,
     "corroborated": 10
    },
    "keywords": [
@@ -475,13 +1152,13 @@
    "verdict": "weak"
   },
   {
-   "score": 61.8,
+   "score": 58.6,
    "components": {
     "tier": 20,
     "category": 4,
     "lead": 0.0,
     "relevance": 8,
-    "freshness": 19.8,
+    "freshness": 16.6,
     "corroborated": 10
    },
    "keywords": [
@@ -510,13 +1187,13 @@
    "verdict": "weak"
   },
   {
-   "score": 61.8,
+   "score": 58.6,
    "components": {
     "tier": 20,
     "category": 4,
     "lead": 0.0,
     "relevance": 8,
-    "freshness": 19.8,
+    "freshness": 16.6,
     "corroborated": 10
    },
    "keywords": [
@@ -545,13 +1222,13 @@
    "verdict": "weak"
   },
   {
-   "score": 61.8,
+   "score": 58.6,
    "components": {
     "tier": 20,
     "category": 4,
     "lead": 0.0,
     "relevance": 8,
-    "freshness": 19.8,
+    "freshness": 16.6,
     "corroborated": 10
    },
    "keywords": [
@@ -580,13 +1257,13 @@
    "verdict": "weak"
   },
   {
-   "score": 57.8,
+   "score": 54.6,
    "components": {
     "tier": 20,
     "category": 4,
     "lead": 0.0,
     "relevance": 4,
-    "freshness": 19.8,
+    "freshness": 16.6,
     "corroborated": 10
    },
    "keywords": [
@@ -615,13 +1292,13 @@
    "verdict": "weak"
   },
   {
-   "score": 57.8,
+   "score": 54.6,
    "components": {
     "tier": 20,
     "category": 4,
     "lead": 0.0,
     "relevance": 4,
-    "freshness": 19.8,
+    "freshness": 16.6,
     "corroborated": 10
    },
    "keywords": [
@@ -650,58 +1327,23 @@
    "verdict": "weak"
   },
   {
-   "score": 56.0,
+   "score": 53.7,
    "components": {
     "tier": 20,
-    "category": 5,
-    "lead": 1.2,
+    "category": 4,
+    "lead": 0.0,
     "relevance": 0,
-    "freshness": 19.8,
+    "freshness": 19.7,
     "corroborated": 10
    },
    "keywords": [],
    "shock_terms": [],
    "dedupe_match": null,
-   "dedupe_similarity": 0.2,
-   "id": "0ce4d8ead40a",
-   "title": "DRC to Build Dry Port in Dar es Salaam, Deepen Transport and Mining Ties with Tanzania",
-   "url": "https://www.tanzaniainvest.com/transport/drc-dry-port-dar-es-salaam",
-   "summary": "The Democratic Republic of the Congo (DRC) has begun preparations to build a dry port in Dar es Salaam that will provide customs, cargo handling, mineral certification, and quality control services for Congolese goods moving through Tanzania, President F\u00e9lix Tshisekedi announced during a state visit to Tanzania on 18 August 2026. The DRC is among the largest users of Tanzanian ports, with approxim",
-   "kind": "item",
-   "source": "TanzaniaInvest \u2014 tourism",
-   "source_id": "tp-tanzaniainvest",
-   "tier": 2,
-   "country": "TZ",
-   "category": "trade",
-   "segments": [
-    "city",
-    "bush",
-    "beach"
-   ],
-   "first_seen": "2026-08-21T11:05+03:00",
-   "published": "2026-08-21",
-   "verdict": "weak"
-  },
-  {
-   "score": 54.5,
-   "components": {
-    "tier": 20,
-    "category": 4,
-    "lead": 0.0,
-    "relevance": 4,
-    "freshness": 16.5,
-    "corroborated": 10
-   },
-   "keywords": [
-    "booking"
-   ],
-   "shock_terms": [],
-   "dedupe_match": null,
    "dedupe_similarity": 0.0,
-   "id": "448a06d763c0",
-   "title": "I\u2019m busy but I\u2019m a good boy ebyaddala \u2013 DJ Moustey",
-   "url": "https://www.monitor.co.ug/uganda/lifestyle/entertainment/i-m-busy-but-i-m-a-good-boy-ebyaddala-dj-moustey-5563874",
-   "summary": "I should be married by now, naye maama, the bookings keep coming in. Kwegamba, it is my clients...",
+   "id": "4853cedc6baa",
+   "title": "Jambojet set to return to Nairobi-Entebbe skyline after six-year hiatus",
+   "url": "https://www.monitor.co.ug/uganda/business/technology/jambojet-set-to-return-to-nairobi-entebbe-skyline-after-six-year-hiatus-5565888",
+   "summary": "Jambojet is weeks away from re-entering the Nairobi-Entebbe skyline",
    "kind": "item",
    "source": "Daily Monitor (Uganda)",
    "source_id": "np-monitor-ug",
@@ -713,30 +1355,28 @@
     "bush",
     "beach"
    ],
-   "first_seen": "2026-08-21T08:07+03:00",
+   "first_seen": "2026-08-21T13:54+03:00",
    "published": "2026-08-21",
    "verdict": "weak"
   },
   {
-   "score": 54.5,
+   "score": 53.7,
    "components": {
     "tier": 20,
     "category": 4,
     "lead": 0.0,
-    "relevance": 4,
-    "freshness": 16.5,
+    "relevance": 0,
+    "freshness": 19.7,
     "corroborated": 10
    },
-   "keywords": [
-    "shilling"
-   ],
+   "keywords": [],
    "shock_terms": [],
    "dedupe_match": null,
    "dedupe_similarity": 0.0,
-   "id": "bd7c6b36c6f7",
-   "title": "Shilling depreciates 3.2% against dollar in July",
-   "url": "https://www.monitor.co.ug/uganda/news/national/shilling-depreciates-3-2-against-dollar-in-july-5565572",
-   "summary": "BoU said the monthly appreciation was supported by continued strong inflows of US dollars from...",
+   "id": "36da63f28085",
+   "title": "Number stories can win or lose readers",
+   "url": "https://www.monitor.co.ug/uganda/oped/columnists/charles-bichachi/number-stories-can-win-or-lose-readers-5565836",
+   "summary": "So instead of one long, packed, and winding story, you get five or more easy bite stories, each...",
    "kind": "item",
    "source": "Daily Monitor (Uganda)",
    "source_id": "np-monitor-ug",
@@ -748,193 +1388,28 @@
     "bush",
     "beach"
    ],
-   "first_seen": "2026-08-21T08:07+03:00",
+   "first_seen": "2026-08-21T13:54+03:00",
    "published": "2026-08-21",
    "verdict": "weak"
   },
   {
-   "score": 53.8,
+   "score": 53.7,
    "components": {
     "tier": 20,
     "category": 4,
     "lead": 0.0,
     "relevance": 0,
-    "freshness": 19.8,
+    "freshness": 19.7,
     "corroborated": 10
    },
    "keywords": [],
    "shock_terms": [],
    "dedupe_match": null,
-   "dedupe_similarity": 0.2,
-   "id": "7826c8e3c772",
-   "title": "AFCON 2027: From vision to reality",
-   "url": "https://dailynews.co.tz/afcon-2027-from-vision-to-reality",
-   "summary": "DAR ES SALAAM: THREE years ago, the announcement that Tanzania, Kenya and Uganda would co-host the 2027 Africa Cup of Nations felt like a dream. Today, that dream is becoming a national reality. Under the visionary leadership of President Samia Suluhu Hassan, the sixth phase government has transformed AFCON 2027 into a development blueprint that \u2026 The post AFCON 2027: From vision to reality appear",
-   "kind": "item",
-   "source": "Daily News (Tanzania)",
-   "source_id": "np-dailynews-tz",
-   "tier": 2,
-   "country": "TZ",
-   "category": "press",
-   "segments": [
-    "city",
-    "bush",
-    "beach"
-   ],
-   "first_seen": "2026-08-21T11:05+03:00",
-   "published": "2026-08-21",
-   "verdict": "weak"
-  },
-  {
-   "score": 53.8,
-   "components": {
-    "tier": 20,
-    "category": 4,
-    "lead": 0.0,
-    "relevance": 0,
-    "freshness": 19.8,
-    "corroborated": 10
-   },
-   "keywords": [],
-   "shock_terms": [],
-   "dedupe_match": null,
-   "dedupe_similarity": 0.2,
-   "id": "d7a3d48270a7",
-   "title": "Kizimkazi Festival offers glimpse of Tanzania\u2019s AFCON 2027",
-   "url": "https://dailynews.co.tz/kizimkazi-festival-offers-glimpse-of-tanzanias-afcon-2027",
-   "summary": "ZANZIBAR: THERE was more to President Samia Suluhu Hassan\u2019s appearance at the Kizimkazi Festival than photographs, seaweed, bao and taarab. Viewed through a sporting lens, the festival offered an interesting rehearsal of the kind of national experience Tanzania will need to create when the country joins Kenya and Uganda in hosting the Africa Cup of \u2026 The post Kizimkazi Festival offers glimpse of T",
-   "kind": "item",
-   "source": "Daily News (Tanzania)",
-   "source_id": "np-dailynews-tz",
-   "tier": 2,
-   "country": "TZ",
-   "category": "press",
-   "segments": [
-    "city",
-    "bush",
-    "beach"
-   ],
-   "first_seen": "2026-08-21T11:05+03:00",
-   "published": "2026-08-21",
-   "verdict": "weak"
-  },
-  {
-   "score": 53.8,
-   "components": {
-    "tier": 20,
-    "category": 4,
-    "lead": 0.0,
-    "relevance": 0,
-    "freshness": 19.8,
-    "corroborated": 10
-   },
-   "keywords": [],
-   "shock_terms": [],
-   "dedupe_match": null,
-   "dedupe_similarity": 0.0,
-   "id": "966f8b874bce",
-   "title": "FVS can raise standards, integrity must come first",
-   "url": "https://dailynews.co.tz/fvs-can-raise-standards-integrity-must-come-first",
-   "summary": "DAR ES SALAAM: THE Mainland Premier League deserves credit for adopting Football Video Support (FVS), a move that could improve officiating standards and reduce human error. In a league where controversial refereeing decisions have often triggered strong reactions from clubs, players and supporters, the introduction of video support is timely. FVS provides a practical alternative \u2026 The post FVS ca",
-   "kind": "item",
-   "source": "Daily News (Tanzania)",
-   "source_id": "np-dailynews-tz",
-   "tier": 2,
-   "country": "TZ",
-   "category": "press",
-   "segments": [
-    "city",
-    "bush",
-    "beach"
-   ],
-   "first_seen": "2026-08-21T11:05+03:00",
-   "published": "2026-08-21",
-   "verdict": "weak"
-  },
-  {
-   "score": 53.8,
-   "components": {
-    "tier": 20,
-    "category": 4,
-    "lead": 0.0,
-    "relevance": 0,
-    "freshness": 19.8,
-    "corroborated": 10
-   },
-   "keywords": [],
-   "shock_terms": [],
-   "dedupe_match": null,
-   "dedupe_similarity": 0.2,
-   "id": "55b31b077d27",
-   "title": "Experts urged to boost cooperatives, agriculture",
-   "url": "https://dailynews.co.tz/experts-urged-to-boost-cooperatives-agriculture",
-   "summary": "BUKOBA: THE Government has urged business and financial experts across the country to assist Cooperatives to improve the agricultural sector. Minister for Livestock Development and Fisheries, Dr Bashiru Ally said on Tuesday while launching the Kagera Branch of the Cooperative Bank Tanzania held in Bukoba Municipality that Cooperative Unions across the country were not functioning \u2026 The post Expert",
-   "kind": "item",
-   "source": "Daily News (Tanzania)",
-   "source_id": "np-dailynews-tz",
-   "tier": 2,
-   "country": "TZ",
-   "category": "press",
-   "segments": [
-    "city",
-    "bush",
-    "beach"
-   ],
-   "first_seen": "2026-08-21T11:05+03:00",
-   "published": "2026-08-21",
-   "verdict": "weak"
-  },
-  {
-   "score": 53.8,
-   "components": {
-    "tier": 20,
-    "category": 4,
-    "lead": 0.0,
-    "relevance": 0,
-    "freshness": 19.8,
-    "corroborated": 10
-   },
-   "keywords": [],
-   "shock_terms": [],
-   "dedupe_match": null,
-   "dedupe_similarity": 0.2,
-   "id": "d42f1bda5d0a",
-   "title": "TZ deploys 8,400 youths for overseas jobs",
-   "url": "https://dailynews.co.tz/tz-deploys-8400-youths-for-overseas-jobs",
-   "summary": "DODOMA: TANZANIA has successfully facilitated the employment of a total of 8,402 young people abroad during the early period of the second phase of President Samia Suluhu Hassan\u2019s administration. The figure was disclosed by the Minister of State in the Prime Minister\u2019s Office (Labour, Employment and Relations), Mr Deus Sangu, in Dodoma recently when Tanzania \u2026 The post TZ deploys 8,400 youths for ",
-   "kind": "item",
-   "source": "Daily News (Tanzania)",
-   "source_id": "np-dailynews-tz",
-   "tier": 2,
-   "country": "TZ",
-   "category": "press",
-   "segments": [
-    "city",
-    "bush",
-    "beach"
-   ],
-   "first_seen": "2026-08-21T11:05+03:00",
-   "published": "2026-08-21",
-   "verdict": "weak"
-  },
-  {
-   "score": 53.8,
-   "components": {
-    "tier": 20,
-    "category": 4,
-    "lead": 0.0,
-    "relevance": 0,
-    "freshness": 19.8,
-    "corroborated": 10
-   },
-   "keywords": [],
-   "shock_terms": [],
-   "dedupe_match": null,
-   "dedupe_similarity": 0.0,
-   "id": "e8a4bcf8222c",
-   "title": "At least 50 killed, mostly children, as overloaded boat capsizes in Nigeria",
-   "url": "https://www.monitor.co.ug/uganda/news/world/at-least-50-killed-mostly-children-as-overloaded-boat-capsizes-in-nigeria-5565592",
-   "summary": "The accident took \u200cplace near Gorau in Goronyo local government area and rescue efforts are...",
+   "dedupe_similarity": 0.14,
+   "id": "2566c6364bf7",
+   "title": "As climate crisis hits Karamoja, youth demand bigger role in action",
+   "url": "https://www.monitor.co.ug/uganda/special-reports/as-climate-crisis-hits-karamoja-youth-demand-bigger-role-in-action-5565772",
+   "summary": "Youth demand more climate funding, skills to drive green action",
    "kind": "item",
    "source": "Daily Monitor (Uganda)",
    "source_id": "np-monitor-ug",
@@ -946,452 +1421,8 @@
     "bush",
     "beach"
    ],
-   "first_seen": "2026-08-21T11:05+03:00",
+   "first_seen": "2026-08-21T13:54+03:00",
    "published": "2026-08-21",
-   "verdict": "weak"
-  },
-  {
-   "score": 53.8,
-   "components": {
-    "tier": 20,
-    "category": 4,
-    "lead": 0.0,
-    "relevance": 0,
-    "freshness": 19.8,
-    "corroborated": 10
-   },
-   "keywords": [],
-   "shock_terms": [],
-   "dedupe_match": null,
-   "dedupe_similarity": 0.33,
-   "id": "68f4332362fe",
-   "title": "US says it will impose 'toughest sanctions in history' on Iran",
-   "url": "https://www.monitor.co.ug/uganda/news/world/us-says-it-will-impose-toughest-sanctions-in-history-on-iran-5565584",
-   "summary": "US seeks cooperation from China, which says sanctions don't help",
-   "kind": "item",
-   "source": "Daily Monitor (Uganda)",
-   "source_id": "np-monitor-ug",
-   "tier": 2,
-   "country": "UG",
-   "category": "press",
-   "segments": [
-    "city",
-    "bush",
-    "beach"
-   ],
-   "first_seen": "2026-08-21T11:05+03:00",
-   "published": "2026-08-21",
-   "verdict": "weak"
-  },
-  {
-   "score": 53.8,
-   "components": {
-    "tier": 20,
-    "category": 4,
-    "lead": 0.0,
-    "relevance": 0,
-    "freshness": 19.8,
-    "corroborated": 10
-   },
-   "keywords": [],
-   "shock_terms": [],
-   "dedupe_match": null,
-   "dedupe_similarity": 0.2,
-   "id": "61850e88bcfc",
-   "title": "Why Umeme is eyeing Sierra Leone power distribution agreement",
-   "url": "https://www.theeastafrican.co.ke/tea/business-tech/why-umeme-is-eyeing-sierra-leone-power-distribution-agreement-5565526",
-   "summary": "The country\u2019s outdated grid infrastructure and poor utility performance have led to significant...",
-   "kind": "item",
-   "source": "The EastAfrican",
-   "source_id": "np-eastafrican",
-   "tier": 2,
-   "country": "REG",
-   "category": "press",
-   "segments": [
-    "city",
-    "bush",
-    "beach"
-   ],
-   "first_seen": "2026-08-21T11:05+03:00",
-   "published": "2026-08-21",
-   "verdict": "weak"
-  },
-  {
-   "score": 50.5,
-   "components": {
-    "tier": 20,
-    "category": 4,
-    "lead": 0.0,
-    "relevance": 0,
-    "freshness": 16.5,
-    "corroborated": 10
-   },
-   "keywords": [],
-   "shock_terms": [],
-   "dedupe_match": null,
-   "dedupe_similarity": 0.0,
-   "id": "15756fb3e482",
-   "title": "Divorce cases surge in Rwanda as courts receive 20 petitions a day",
-   "url": "https://www.theeastafrican.co.ke/tea/news/east-africa/divorce-cases-surge-in-rwanda-5565168",
-   "summary": "Approximately 41 percent of couples seeking divorce had been married for fewer than 10 years.",
-   "kind": "item",
-   "source": "The EastAfrican",
-   "source_id": "np-eastafrican",
-   "tier": 2,
-   "country": "REG",
-   "category": "press",
-   "segments": [
-    "city",
-    "bush",
-    "beach"
-   ],
-   "first_seen": "2026-08-21T08:07+03:00",
-   "published": "2026-08-21",
-   "verdict": "weak"
-  },
-  {
-   "score": 50.5,
-   "components": {
-    "tier": 20,
-    "category": 4,
-    "lead": 0.0,
-    "relevance": 0,
-    "freshness": 16.5,
-    "corroborated": 10
-   },
-   "keywords": [],
-   "shock_terms": [],
-   "dedupe_match": null,
-   "dedupe_similarity": 0.0,
-   "id": "6dd8bbcf1299",
-   "title": "Dating in Kampala: Meet today, get close tomorrow and disappear by Friday",
-   "url": "https://www.monitor.co.ug/uganda/lifestyle/entertainment/dating-in-kampala-meet-today-get-close-tomorrow-and-disappear-by-friday-5564032",
-   "summary": "These days, \u201cWhat do you do?\u201d can sound less like getting to know someone and more like a bank...",
-   "kind": "item",
-   "source": "Daily Monitor (Uganda)",
-   "source_id": "np-monitor-ug",
-   "tier": 2,
-   "country": "UG",
-   "category": "press",
-   "segments": [
-    "city",
-    "bush",
-    "beach"
-   ],
-   "first_seen": "2026-08-21T08:07+03:00",
-   "published": "2026-08-21",
-   "verdict": "weak"
-  },
-  {
-   "score": 50.5,
-   "components": {
-    "tier": 20,
-    "category": 4,
-    "lead": 0.0,
-    "relevance": 0,
-    "freshness": 16.5,
-    "corroborated": 10
-   },
-   "keywords": [],
-   "shock_terms": [],
-   "dedupe_match": null,
-   "dedupe_similarity": 0.0,
-   "id": "18e2d125d0b7",
-   "title": "School director, two others convicted over Jozan pupil murder",
-   "url": "https://www.monitor.co.ug/uganda/news/national/school-director-two-others-convicted-over-jozan-pupil-murder-5565568",
-   "summary": "Apio had reported to Jozan Nursery and Primary School with her sister before she was killed...",
-   "kind": "item",
-   "source": "Daily Monitor (Uganda)",
-   "source_id": "np-monitor-ug",
-   "tier": 2,
-   "country": "UG",
-   "category": "press",
-   "segments": [
-    "city",
-    "bush",
-    "beach"
-   ],
-   "first_seen": "2026-08-21T08:07+03:00",
-   "published": "2026-08-21",
-   "verdict": "weak"
-  },
-  {
-   "score": 50.5,
-   "components": {
-    "tier": 20,
-    "category": 4,
-    "lead": 0.0,
-    "relevance": 0,
-    "freshness": 16.5,
-    "corroborated": 10
-   },
-   "keywords": [],
-   "shock_terms": [],
-   "dedupe_match": null,
-   "dedupe_similarity": 0.0,
-   "id": "8f7313d8a3c8",
-   "title": "Museveni hails retiring UPDF generals for building peace and security",
-   "url": "https://www.monitor.co.ug/uganda/news/national/museveni-hails-retiring-updf-generals-for-building-peace-and-security-5565564",
-   "summary": "The retirement cohort comprised 19 General Officers, 229 Senior Officers, 205 Junior Officers...",
-   "kind": "item",
-   "source": "Daily Monitor (Uganda)",
-   "source_id": "np-monitor-ug",
-   "tier": 2,
-   "country": "UG",
-   "category": "press",
-   "segments": [
-    "city",
-    "bush",
-    "beach"
-   ],
-   "first_seen": "2026-08-21T08:07+03:00",
-   "published": "2026-08-21",
-   "verdict": "weak"
-  },
-  {
-   "score": 49.8,
-   "components": {
-    "tier": 20,
-    "category": 4,
-    "lead": 0.0,
-    "relevance": 12,
-    "freshness": 19.8,
-    "undated": -6
-   },
-   "keywords": [
-    "ebola"
-   ],
-   "shock_terms": [],
-   "dedupe_match": null,
-   "dedupe_similarity": 0.33,
-   "id": "5ff1c32037cb",
-   "title": "Congo's M23 rebels introduce new movement restrictions over Ebola concerns 20 hours ago - 2 min read",
-   "url": "https://www.thecitizen.co.tz/tanzania/news/africa/congo-s-m23-rebels-introduce-new-movement-restrictions-over-ebola-concerns-5564792",
-   "summary": "",
-   "kind": "item",
-   "source": "The Citizen (Tanzania)",
-   "source_id": "np-citizen-tz",
-   "tier": 2,
-   "country": "TZ",
-   "category": "press",
-   "segments": [
-    "city",
-    "bush",
-    "beach"
-   ],
-   "first_seen": "2026-08-21T11:05+03:00",
-   "published": null,
-   "verdict": "weak"
-  },
-  {
-   "score": 49.8,
-   "components": {
-    "tier": 20,
-    "category": 4,
-    "lead": 0.0,
-    "relevance": 12,
-    "freshness": 19.8,
-    "undated": -6
-   },
-   "keywords": [
-    "suspend"
-   ],
-   "shock_terms": [],
-   "dedupe_match": null,
-   "dedupe_similarity": 0.0,
-   "id": "1c4ef1384cb9",
-   "title": "international Ghent University suspends academic who accused late Cambridge professor of plagiarism 14 hours ago - 4 min read",
-   "url": "https://www.thecitizen.co.tz/tanzania/news/international/ghent-university-suspends-academic-who-accused-late-cambridge-professor-of-plagiarism-5565414",
-   "summary": "",
-   "kind": "item",
-   "source": "The Citizen (Tanzania)",
-   "source_id": "np-citizen-tz",
-   "tier": 2,
-   "country": "TZ",
-   "category": "press",
-   "segments": [
-    "city",
-    "bush",
-    "beach"
-   ],
-   "first_seen": "2026-08-21T11:05+03:00",
-   "published": null,
-   "verdict": "weak"
-  },
-  {
-   "score": 48.0,
-   "components": {
-    "tier": 20,
-    "category": 5,
-    "lead": 1.2,
-    "relevance": 8,
-    "freshness": 19.8,
-    "undated": -6
-   },
-   "keywords": [
-    "fuel"
-   ],
-   "shock_terms": [],
-   "dedupe_match": null,
-   "dedupe_similarity": 0.0,
-   "id": "7c38c5ca488c",
-   "title": "Kenya Airways Launches Sweeping Contract Review as Fuel Bill Rockets 72% Amid Middle East Crisis",
-   "url": "https://travelnews.africa/news-single.html?id=18207&title=Kenya+Airways+Launches+Sweeping+Contract+Review+as+Fuel+Bill+Rockets+72%25+Amid+Middle+East+Crisis",
-   "summary": "",
-   "kind": "item",
-   "source": "travelnews.africa",
-   "source_id": "tp-travelnews-africa",
-   "tier": 2,
-   "country": "REG",
-   "category": "trade",
-   "segments": [
-    "city",
-    "bush",
-    "beach"
-   ],
-   "first_seen": "2026-08-21T11:05+03:00",
-   "published": null,
-   "verdict": "weak"
-  },
-  {
-   "score": 48.0,
-   "components": {
-    "tier": 20,
-    "category": 5,
-    "lead": 1.2,
-    "relevance": 8,
-    "freshness": 19.8,
-    "undated": -6
-   },
-   "keywords": [
-    "fuel"
-   ],
-   "shock_terms": [],
-   "dedupe_match": null,
-   "dedupe_similarity": 0.0,
-   "id": "3d5ec19e48fe",
-   "title": "Kenya Airways Launches Sweeping Contract Review as Fuel Bill Rockets 72% Amid Middle East Crisis",
-   "url": "https://travelnews.africa/news-single.html?id=18207",
-   "summary": "",
-   "kind": "item",
-   "source": "travelnews.africa",
-   "source_id": "tp-travelnews-africa",
-   "tier": 2,
-   "country": "REG",
-   "category": "trade",
-   "segments": [
-    "city",
-    "bush",
-    "beach"
-   ],
-   "first_seen": "2026-08-21T11:05+03:00",
-   "published": null,
-   "verdict": "weak"
-  },
-  {
-   "score": 47.3,
-   "components": {
-    "tier": 20,
-    "category": 4,
-    "lead": 0.0,
-    "relevance": 12,
-    "freshness": 17.3,
-    "undated": -6
-   },
-   "keywords": [
-    "electricity",
-    "camp"
-   ],
-   "shock_terms": [],
-   "dedupe_match": null,
-   "dedupe_similarity": 0.0,
-   "id": "7a814e56881e",
-   "title": "\u2605 PREMIUM News \u2018Expose the corrupt\u2019 campaign: Is it showbiz, \u2018electricity\u2019 or just heat?",
-   "url": "https://www.newvision.co.ug/category/news/expose-the-corrupt-campaign-is-it-showbiz-ele-NV_239195_082026",
-   "summary": "",
-   "kind": "item",
-   "source": "New Vision (Uganda)",
-   "source_id": "np-newvision-ug",
-   "tier": 2,
-   "country": "UG",
-   "category": "press",
-   "segments": [
-    "city",
-    "bush",
-    "beach"
-   ],
-   "first_seen": "2026-08-21T08:49+03:00",
-   "published": null,
-   "verdict": "weak"
-  },
-  {
-   "score": 46.5,
-   "components": {
-    "tier": 20,
-    "category": 4,
-    "lead": 0.0,
-    "relevance": 12,
-    "freshness": 16.5,
-    "undated": -6
-   },
-   "keywords": [
-    "ebola"
-   ],
-   "shock_terms": [],
-   "dedupe_match": null,
-   "dedupe_similarity": 0.33,
-   "id": "8282c304aa23",
-   "title": "Congo's M23 rebels introduce new movement restrictions over Ebola concerns 17 hours ago - 2 min read",
-   "url": "https://www.thecitizen.co.tz/tanzania/news/africa/congo-s-m23-rebels-introduce-new-movement-restrictions-over-ebola-concerns-5564792",
-   "summary": "",
-   "kind": "item",
-   "source": "The Citizen (Tanzania)",
-   "source_id": "np-citizen-tz",
-   "tier": 2,
-   "country": "TZ",
-   "category": "press",
-   "segments": [
-    "city",
-    "bush",
-    "beach"
-   ],
-   "first_seen": "2026-08-21T08:07+03:00",
-   "published": null,
-   "verdict": "weak"
-  },
-  {
-   "score": 46.5,
-   "components": {
-    "tier": 20,
-    "category": 4,
-    "lead": 0.0,
-    "relevance": 12,
-    "freshness": 16.5,
-    "undated": -6
-   },
-   "keywords": [
-    "suspend"
-   ],
-   "shock_terms": [],
-   "dedupe_match": null,
-   "dedupe_similarity": 0.0,
-   "id": "bc63c6b4eaab",
-   "title": "international Ghent University suspends academic who accused late Cambridge professor of plagiarism 11 hours ago - 4 min read",
-   "url": "https://www.thecitizen.co.tz/tanzania/news/international/ghent-university-suspends-academic-who-accused-late-cambridge-professor-of-plagiarism-5565414",
-   "summary": "",
-   "kind": "item",
-   "source": "The Citizen (Tanzania)",
-   "source_id": "np-citizen-tz",
-   "tier": 2,
-   "country": "TZ",
-   "category": "press",
-   "segments": [
-    "city",
-    "bush",
-    "beach"
-   ],
-   "first_seen": "2026-08-21T08:07+03:00",
-   "published": null,
    "verdict": "weak"
   }
  ]
