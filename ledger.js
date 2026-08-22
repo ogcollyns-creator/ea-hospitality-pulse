@@ -1,8 +1,8 @@
 window.LEDGER = {
- "updated": "2026-08-21 13:42",
+ "updated": "2026-08-22 19:45",
  "stats": {
-  "total": 110,
-  "open": 89,
+  "total": 111,
+  "open": 90,
   "resolved": 21,
   "correct": 15,
   "partial": 1,
@@ -552,6 +552,22 @@ window.LEDGER = {
    "resolved_date": "",
    "evidence": "",
    "source_url": "https://www.who.int/emergencies/disease-outbreak-news/item/2026-DON615",
+   "overdue": false
+  },
+  {
+   "id": "P110",
+   "made_date": "2026-08-22",
+   "edition": "pulse-2026-08-22-evening",
+   "claim": "The 70,000-dose Ervebo allocation will not reverse the DRC Bundibugyo outbreak's growth within six weeks — Ervebo is a Zaire-strain vaccine unproven against Bundibugyo and only 20,000 doses are a trial, so a research event will not deliver near-term containment",
+   "resolution_criteria": "WHO AFRO or ECDC weekly outbreak updates through 30 Sep 2026 still report week-on-week growth in cumulative confirmed cases in the DRC outbreak. A sustained week-on-week decline in new cases before 30 Sep 2026 resolves incorrect",
+   "resolve_by": "2026-10-05",
+   "market": "Regional",
+   "segment": "All",
+   "confidence": "Medium",
+   "status": "open",
+   "resolved_date": "",
+   "evidence": "",
+   "source_url": "https://www.afro.who.int/countries/democratic-republic-of-congo",
    "overdue": false
   },
   {
