@@ -1,17 +1,17 @@
-# EA Pulse self-audit — 2026-08-21T07:57+03:00 EAT
+# EA Pulse self-audit — 2026-08-22T07:17+03:00 EAT
 **Health 62% · grade C** — 2 FAIL, 4 WARN, 4 PASS
 
 | | Check | Status | Detail |
 |-|-|-|-|
 | 🔴 | source coverage | FAIL | 131 tier-1 sources: 90 HEALTHY, 25 MUTE, 16 SILENT. Blind examples: ke-tenders, ug-bou, tz-mnrt, tz-tanapa, tz-immigration, tz-tenders |
-| 🔴 | source staleness | FAIL | 48 tier-1 HEALTHY sources quiet >14d: ke-gazettes-africa, ke-knbs-releases, ke-knbs-calendar, ke-tri, ke-tourism-ministry, ke-ktb-news, ke-tra, ke-tourism-fund |
-| 🟢 | radar feed freshness | PASS | 479 in-window obs; newest observation 1.4h old (2026-08-21T06:33:00+03:00). |
-| 🟡 | edition cadence | WARN | Missing slots (last 2 full days): 2026-08-20 evening, 2026-08-19 midday |
+| 🔴 | source staleness | FAIL | 47 tier-1 HEALTHY sources quiet >14d: ke-gazettes-africa, ke-knbs-releases, ke-knbs-calendar, ke-tri, ke-ktb-news, ke-tra, ke-tourism-fund, ke-kcaa |
+| 🟢 | radar feed freshness | PASS | 335 in-window obs; newest observation 1.1h old (2026-08-22T06:11:00+03:00). |
+| 🟡 | edition cadence | WARN | Missing slots (last 2 full days): 2026-08-21 midday, 2026-08-20 evening |
 | 🟡 | signal quality | WARN | Only 0 tier-tagged editions in 7d — too few to judge. |
-| 🟢 | ledger hygiene | PASS | 108 calls: 87 open, 21 resolved. Overdue-open: 0. Missing source_url: 23. |
-| 🟡 | data freshness | WARN | Stale/again-verify: advisories.js 9d>4, calendar.js 23d>21 |
+| 🟢 | ledger hygiene | PASS | 110 calls: 89 open, 21 resolved. Overdue-open: 0. Missing source_url: 23. |
+| 🟡 | data freshness | WARN | Stale/again-verify: advisories.js 10d>4, calendar.js 24d>21 |
 | 🟡 | rate-index integrity | WARN | n values seen: [0, 1, 3, 4, 5, 6]; confident true=65 false=6. |
-| 🟢 | forecast throughput | PASS | 30 new falsifiable calls logged in last 7d. |
+| 🟢 | forecast throughput | PASS | 32 new falsifiable calls logged in last 7d. |
 | 🟢 | published content | PASS | 6 recent editions; no advisory claim contradicts the board. |
 
 ## Actions
