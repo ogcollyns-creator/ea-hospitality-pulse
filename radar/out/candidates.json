@@ -1,18 +1,18 @@
 {
- "generated": "2026-08-22T19:56:21+03:00",
+ "generated": "2026-08-22T22:04:02+03:00",
  "slot": "evening",
  "window_start": 1787392800,
- "observations_in_window": 172,
+ "observations_in_window": 226,
  "deduped_against": 6,
  "candidates": [
   {
-   "score": 137.5,
+   "score": 135.1,
    "components": {
     "tier": 40,
     "category": 32,
     "lead": 1.2,
     "relevance": 36,
-    "freshness": 16.3,
+    "freshness": 13.9,
     "undated": -6,
     "shock": 18
    },
@@ -47,13 +47,46 @@
    "verdict": "LEAD CANDIDATE \u2014 tier-1 shock language"
   },
   {
-   "score": 100.3,
+   "score": 101.4,
    "components": {
     "tier": 40,
     "category": 32,
     "lead": 3.6,
     "relevance": 0,
-    "freshness": 18.7,
+    "freshness": 19.8,
+    "corroborated": 10,
+    "page_change": -4
+   },
+   "keywords": [],
+   "shock_terms": [],
+   "dedupe_match": null,
+   "dedupe_similarity": 0.0,
+   "id": "ba324079212d",
+   "title": "[page changed] Federal Register \u2014 public inspection (HHS/CDC), pre-publication",
+   "url": "https://www.federalregister.gov/api/v1/public-inspection-documents/current.json",
+   "summary": "{\"count\":87,\"results\":[{\"agencies\":[{\"raw_name\":\"FEDERAL COMMUNICATIONS COMMISSION\",\"name\":\"Federal Communications Commission\",\"id\":161,\"url\":\"https://www.federalregister.gov/agencies/federal-communications-commission\",\"json_url\":\"https://www.federalregister.gov/api/v1/agencies/161\",\"parent_id\":null,\"slug\":\"federal-communications-commission\"}],\"agency_letters\":[],\"agency_names\":[\"Federal Communica",
+   "kind": "page-change",
+   "source": "Federal Register \u2014 public inspection (HHS/CDC), pre-publication",
+   "source_id": "us-fedreg-pubinspect-hhs",
+   "tier": 1,
+   "country": "REG",
+   "category": "advisory",
+   "segments": [
+    "city",
+    "bush"
+   ],
+   "first_seen": "2026-08-22T22:03+03:00",
+   "published": "2026-08-21",
+   "verdict": "OPEN THIS \u2014 tier-1 advisory page moved; content not auto-parsed, read it manually"
+  },
+  {
+   "score": 98.0,
+   "components": {
+    "tier": 40,
+    "category": 32,
+    "lead": 3.6,
+    "relevance": 0,
+    "freshness": 16.4,
     "corroborated": 10,
     "page_change": -4
    },
@@ -80,13 +113,13 @@
    "verdict": "OPEN THIS \u2014 tier-1 advisory page moved; content not auto-parsed, read it manually"
   },
   {
-   "score": 97.9,
+   "score": 95.5,
    "components": {
     "tier": 40,
     "category": 32,
     "lead": 3.6,
     "relevance": 0,
-    "freshness": 16.3,
+    "freshness": 13.9,
     "corroborated": 10,
     "page_change": -4
    },
@@ -113,13 +146,13 @@
    "verdict": "OPEN THIS \u2014 tier-1 advisory page moved; content not auto-parsed, read it manually"
   },
   {
-   "score": 65.4,
+   "score": 63.1,
    "components": {
     "tier": 40,
     "category": 12,
     "lead": 3.6,
     "relevance": 0,
-    "freshness": 19.8,
+    "freshness": 17.5,
     "undated": -6,
     "page_change": -4
    },
@@ -147,13 +180,13 @@
    "verdict": "OPEN THIS \u2014 tier-1 airline page moved; content not auto-parsed, read it manually"
   },
   {
-   "score": 64.3,
+   "score": 62.0,
    "components": {
     "tier": 40,
     "category": 12,
     "lead": 3.6,
     "relevance": 0,
-    "freshness": 18.7,
+    "freshness": 16.4,
     "undated": -6,
     "page_change": -4
    },
@@ -181,13 +214,47 @@
    "verdict": "OPEN THIS \u2014 tier-1 airline page moved; content not auto-parsed, read it manually"
   },
   {
-   "score": 107.5,
+   "score": 108.2,
+   "components": {
+    "tier": 40,
+    "category": 18,
+    "lead": 8.4,
+    "relevance": 12,
+    "freshness": 19.8,
+    "corroborated": 10
+   },
+   "keywords": [
+    "wildlife",
+    "lodge"
+   ],
+   "shock_terms": [],
+   "dedupe_match": null,
+   "dedupe_similarity": 0.0,
+   "id": "0f4b3bac448f",
+   "title": "Leopard Rescued from Killer Snare in Tsavo",
+   "url": "https://kws.go.ke/leopard-rescued-from-killer-snare-in-tsavo",
+   "summary": "In today's \"A-day-in-the-life-of-a-wildlife-warrior...\" this particular vet team's imbroglio of the moment was a leopard; a young male, trapped by a cable wire snare outside the park near Voi Wildlife Lodge. When the team came across the immobile leopard, they felt as though their hearts were pulled out with a rusty pair of fire tongs. He [...]",
+   "kind": "item",
+   "source": "Kenya Wildlife Service",
+   "source_id": "ke-kws",
+   "tier": 1,
+   "country": "KE",
+   "category": "parks",
+   "segments": [
+    "bush"
+   ],
+   "first_seen": "2026-08-22T22:03+03:00",
+   "published": "2026-08-22",
+   "verdict": "STRONG \u2014 tier-1, upstream"
+  },
+  {
+   "score": 105.2,
    "components": {
     "tier": 40,
     "category": 20,
     "lead": 12.0,
     "relevance": 8,
-    "freshness": 17.5,
+    "freshness": 15.2,
     "corroborated": 10
    },
    "keywords": [
@@ -216,13 +283,13 @@
    "verdict": "STRONG \u2014 tier-1, upstream"
   },
   {
-   "score": 88.8,
+   "score": 86.5,
    "components": {
     "tier": 40,
     "category": 13,
     "lead": 6.0,
     "relevance": 0,
-    "freshness": 19.8,
+    "freshness": 17.5,
     "corroborated": 10
    },
    "keywords": [],
@@ -247,13 +314,13 @@
    "verdict": "CONSIDER"
   },
   {
-   "score": 84.5,
+   "score": 82.2,
    "components": {
     "tier": 40,
     "category": 15,
     "lead": 16.8,
     "relevance": 0,
-    "freshness": 18.7,
+    "freshness": 16.4,
     "undated": -6
    },
    "keywords": [],
@@ -280,13 +347,13 @@
    "verdict": "CONSIDER"
   },
   {
-   "score": 78.7,
+   "score": 76.4,
    "components": {
     "tier": 20,
     "category": 4,
     "lead": 0.0,
     "relevance": 24,
-    "freshness": 18.7,
+    "freshness": 16.4,
     "undated": -6,
     "shock": 18
    },
@@ -320,13 +387,13 @@
    "verdict": "CONSIDER"
   },
   {
-   "score": 76.3,
+   "score": 74.0,
    "components": {
     "tier": 20,
     "category": 4,
     "lead": 0.0,
     "relevance": 24,
-    "freshness": 16.3,
+    "freshness": 14.0,
     "undated": -6,
     "shock": 18
    },
@@ -359,13 +426,52 @@
    "verdict": "CONSIDER"
   },
   {
-   "score": 70.3,
+   "score": 71.8,
+   "components": {
+    "tier": 20,
+    "category": 4,
+    "lead": 0.0,
+    "relevance": 16,
+    "freshness": 19.8,
+    "undated": -6,
+    "shock": 18
+   },
+   "keywords": [
+    "visa",
+    "strike"
+   ],
+   "shock_terms": [
+    "strike"
+   ],
+   "dedupe_match": null,
+   "dedupe_similarity": 0.0,
+   "id": "748cff0ba2e3",
+   "title": "World US judge strikes down Trump's 75-country visa ban",
+   "url": "https://www.newvision.co.ug/category/world/us-judge-strikes-down-trumps-75-country-visa-NV_239271_082026",
+   "summary": "",
+   "kind": "item",
+   "source": "New Vision (Uganda)",
+   "source_id": "np-newvision-ug",
+   "tier": 2,
+   "country": "UG",
+   "category": "press",
+   "segments": [
+    "city",
+    "bush",
+    "beach"
+   ],
+   "first_seen": "2026-08-22T22:03+03:00",
+   "published": null,
+   "verdict": "CONSIDER"
+  },
+  {
+   "score": 68.0,
    "components": {
     "tier": 20,
     "category": 4,
     "lead": 0.0,
     "relevance": 20,
-    "freshness": 16.3,
+    "freshness": 14.0,
     "corroborated": 10
    },
    "keywords": [
@@ -393,16 +499,91 @@
    ],
    "first_seen": "2026-08-22T16:45+03:00",
    "published": "2026-08-22",
-   "verdict": "CONSIDER"
+   "verdict": "weak"
   },
   {
-   "score": 65.4,
+   "score": 64.2,
+   "components": {
+    "tier": 20,
+    "category": 24,
+    "lead": 2.4,
+    "relevance": 8,
+    "freshness": 19.8,
+    "undated": -6,
+    "page_change": -4
+   },
+   "keywords": [
+    "vat"
+   ],
+   "shock_terms": [],
+   "dedupe_match": null,
+   "dedupe_similarity": 0.0,
+   "id": "8b695d4999a8",
+   "title": "[page changed] ProMED-mail",
+   "url": "https://promedmail.org/",
+   "summary": "Protecting Global Health, One Alert at a Time | ProMED Previous slide Next slide Protecting Global Health, One Alert at a Time ProMED: Your 24/7 early warning system for emerging infectious diseases worldwide. Subscribe ProMED's Weekly Pulse A snapshot of global health events from the past 7 days Latest Posts on ProMED All Date Title Sat Aug 22 2026 MALARIA - INDIA (03): (KARNATAKA) Sat Aug 22 202",
+   "kind": "page-change",
+   "source": "ProMED-mail",
+   "source_id": "promed",
+   "tier": 2,
+   "country": "GLOBAL",
+   "category": "health",
+   "segments": [
+    "city",
+    "bush",
+    "beach"
+   ],
+   "first_seen": "2026-08-22T22:03+03:00",
+   "published": null,
+   "verdict": "weak"
+  },
+  {
+   "score": 63.8,
+   "components": {
+    "tier": 20,
+    "category": 4,
+    "lead": 0.0,
+    "relevance": 8,
+    "freshness": 19.8,
+    "undated": -6,
+    "shock": 18
+   },
+   "keywords": [
+    "strike"
+   ],
+   "shock_terms": [
+    "attack",
+    "strike"
+   ],
+   "dedupe_match": null,
+   "dedupe_similarity": 0.0,
+   "id": "2bdc131bcecc",
+   "title": "World Ukraine says 'cynical' Russian strike on shopping centre killed 16 The attack on Kryvyi Rig, Zelensky's hometown, comes as Russia has intensified its bombardments of Ukrainian cities in recent months.",
+   "url": "https://www.newvision.co.ug/category/world/ukraine-says-cynical-russian-strike-on-shoppi-NV_239302_082026",
+   "summary": "",
+   "kind": "item",
+   "source": "New Vision (Uganda)",
+   "source_id": "np-newvision-ug",
+   "tier": 2,
+   "country": "UG",
+   "category": "press",
+   "segments": [
+    "city",
+    "bush",
+    "beach"
+   ],
+   "first_seen": "2026-08-22T22:03+03:00",
+   "published": null,
+   "verdict": "weak"
+  },
+  {
+   "score": 63.0,
    "components": {
     "tier": 20,
     "category": 5,
     "lead": 1.2,
     "relevance": 16,
-    "freshness": 13.2,
+    "freshness": 10.8,
     "corroborated": 10
    },
    "keywords": [
@@ -434,13 +615,48 @@
    "verdict": "weak"
   },
   {
-   "score": 58.3,
+   "score": 57.8,
+   "components": {
+    "tier": 20,
+    "category": 4,
+    "lead": 0.0,
+    "relevance": 4,
+    "freshness": 19.8,
+    "corroborated": 10
+   },
+   "keywords": [
+    "resort"
+   ],
+   "shock_terms": [],
+   "dedupe_match": null,
+   "dedupe_similarity": 0.0,
+   "id": "411e3487cfde",
+   "title": "Masaka hospital overwhelmed as 160 preterm births recorded monthly",
+   "url": "https://www.monitor.co.ug/uganda/news/national/masaka-hospital-overwhelmed-as-160-preterm-births-recorded-monthly-5567364",
+   "summary": "Dr Nyantaro attributed the high numbers to mothers shunning antenatal care, resorting to...",
+   "kind": "item",
+   "source": "Daily Monitor (Uganda)",
+   "source_id": "np-monitor-ug",
+   "tier": 2,
+   "country": "UG",
+   "category": "press",
+   "segments": [
+    "city",
+    "bush",
+    "beach"
+   ],
+   "first_seen": "2026-08-22T22:03+03:00",
+   "published": "2026-08-22",
+   "verdict": "weak"
+  },
+  {
+   "score": 56.0,
    "components": {
     "tier": 20,
     "category": 4,
     "lead": 0.0,
     "relevance": 8,
-    "freshness": 16.3,
+    "freshness": 14.0,
     "corroborated": 10
    },
    "keywords": [
@@ -469,13 +685,13 @@
    "verdict": "weak"
   },
   {
-   "score": 57.7,
+   "score": 55.4,
    "components": {
     "tier": 20,
     "category": 5,
     "lead": 1.2,
     "relevance": 4,
-    "freshness": 17.5,
+    "freshness": 15.2,
     "corroborated": 10
    },
    "keywords": [
@@ -504,13 +720,13 @@
    "verdict": "weak"
   },
   {
-   "score": 57.5,
+   "score": 55.2,
    "components": {
     "tier": 20,
     "category": 24,
     "lead": 2.4,
     "relevance": 8,
-    "freshness": 13.1,
+    "freshness": 10.8,
     "undated": -6,
     "page_change": -4
    },
@@ -540,13 +756,310 @@
    "verdict": "weak"
   },
   {
-   "score": 53.4,
+   "score": 53.8,
+   "components": {
+    "tier": 20,
+    "category": 4,
+    "lead": 0.0,
+    "relevance": 0,
+    "freshness": 19.8,
+    "corroborated": 10
+   },
+   "keywords": [],
+   "shock_terms": [],
+   "dedupe_match": null,
+   "dedupe_similarity": 0.0,
+   "id": "a85b9073756a",
+   "title": "District officer found dead after evening with friends in Ntungamo",
+   "url": "https://www.monitor.co.ug/uganda/news/national/district-officer-found-dead-after-evening-with-friends-in-ntungamo-5567036",
+   "summary": "Colleagues remembered him as outspoken and willing to raise workplace grievances",
+   "kind": "item",
+   "source": "Daily Monitor (Uganda)",
+   "source_id": "np-monitor-ug",
+   "tier": 2,
+   "country": "UG",
+   "category": "press",
+   "segments": [
+    "city",
+    "bush",
+    "beach"
+   ],
+   "first_seen": "2026-08-22T22:03+03:00",
+   "published": "2026-08-22",
+   "verdict": "weak"
+  },
+  {
+   "score": 53.8,
+   "components": {
+    "tier": 20,
+    "category": 4,
+    "lead": 0.0,
+    "relevance": 0,
+    "freshness": 19.8,
+    "corroborated": 10
+   },
+   "keywords": [],
+   "shock_terms": [],
+   "dedupe_match": null,
+   "dedupe_similarity": 0.0,
+   "id": "937cd41109d7",
+   "title": "Two arrested over murder of boda boda rider in Luwero",
+   "url": "https://www.monitor.co.ug/uganda/news/national/two-arrested-over-murder-of-boda-boda-rider-in-luwero-5567678",
+   "summary": "Police say the arrested duo are believed to be part of an organised crime ring behind a spate...",
+   "kind": "item",
+   "source": "Daily Monitor (Uganda)",
+   "source_id": "np-monitor-ug",
+   "tier": 2,
+   "country": "UG",
+   "category": "press",
+   "segments": [
+    "city",
+    "bush",
+    "beach"
+   ],
+   "first_seen": "2026-08-22T22:03+03:00",
+   "published": "2026-08-22",
+   "verdict": "weak"
+  },
+  {
+   "score": 53.8,
+   "components": {
+    "tier": 20,
+    "category": 4,
+    "lead": 0.0,
+    "relevance": 0,
+    "freshness": 19.8,
+    "corroborated": 10
+   },
+   "keywords": [],
+   "shock_terms": [],
+   "dedupe_match": null,
+   "dedupe_similarity": 0.0,
+   "id": "05d2084c59f8",
+   "title": "Bishop Rubaramira ordains 13 priests, 10 deacons",
+   "url": "https://www.monitor.co.ug/uganda/news/national/bishop-rubaramira-ordains-13-priests-10-deacons--5567444",
+   "summary": "The ceremony was held at Rushoroza Cathedral headquarters of Kabale Diocese in Kabale town on...",
+   "kind": "item",
+   "source": "Daily Monitor (Uganda)",
+   "source_id": "np-monitor-ug",
+   "tier": 2,
+   "country": "UG",
+   "category": "press",
+   "segments": [
+    "city",
+    "bush",
+    "beach"
+   ],
+   "first_seen": "2026-08-22T22:03+03:00",
+   "published": "2026-08-22",
+   "verdict": "weak"
+  },
+  {
+   "score": 53.8,
+   "components": {
+    "tier": 20,
+    "category": 4,
+    "lead": 0.0,
+    "relevance": 0,
+    "freshness": 19.8,
+    "corroborated": 10
+   },
+   "keywords": [],
+   "shock_terms": [],
+   "dedupe_match": null,
+   "dedupe_similarity": 0.0,
+   "id": "4fa9132212dd",
+   "title": "South Africa's former world boxing champion Tete shot dead outside his home",
+   "url": "https://www.monitor.co.ug/uganda/sports/boxing/south-africa-s-former-world-boxing-champion-tete-shot-dead-outside-his-home-5567552",
+   "summary": "The killing has also shocked Mdantsane, the Eastern Cape township that has produced some of...",
+   "kind": "item",
+   "source": "Daily Monitor (Uganda)",
+   "source_id": "np-monitor-ug",
+   "tier": 2,
+   "country": "UG",
+   "category": "press",
+   "segments": [
+    "city",
+    "bush",
+    "beach"
+   ],
+   "first_seen": "2026-08-22T22:03+03:00",
+   "published": "2026-08-22",
+   "verdict": "weak"
+  },
+  {
+   "score": 53.8,
+   "components": {
+    "tier": 20,
+    "category": 4,
+    "lead": 0.0,
+    "relevance": 0,
+    "freshness": 19.8,
+    "corroborated": 10
+   },
+   "keywords": [],
+   "shock_terms": [],
+   "dedupe_match": null,
+   "dedupe_similarity": 0.0,
+   "id": "0890715ed10a",
+   "title": "Congolese national arrested in Kampala over cross-border stolen phone ring",
+   "url": "https://www.monitor.co.ug/uganda/news/national/congolese-national-arrested-in-kampala-over-cross-border-stolen-phone-ring-5567470",
+   "summary": "Tracing of the stolen phone revealed that it had been taken to Kalungi Plaza before being...",
+   "kind": "item",
+   "source": "Daily Monitor (Uganda)",
+   "source_id": "np-monitor-ug",
+   "tier": 2,
+   "country": "UG",
+   "category": "press",
+   "segments": [
+    "city",
+    "bush",
+    "beach"
+   ],
+   "first_seen": "2026-08-22T22:03+03:00",
+   "published": "2026-08-22",
+   "verdict": "weak"
+  },
+  {
+   "score": 53.8,
+   "components": {
+    "tier": 20,
+    "category": 4,
+    "lead": 0.0,
+    "relevance": 0,
+    "freshness": 19.8,
+    "corroborated": 10
+   },
+   "keywords": [],
+   "shock_terms": [],
+   "dedupe_match": null,
+   "dedupe_similarity": 0.0,
+   "id": "0059bc1d9192",
+   "title": "Hull City stun Manchester United 2-0 on Premier League return",
+   "url": "https://www.monitor.co.ug/uganda/sports/soccer/hull-city-stun-manchester-united-2-0-on-premier-league-return-5567478",
+   "summary": "United, who had never lost to a newly promoted side in a season opener, struggled to respond.",
+   "kind": "item",
+   "source": "Daily Monitor (Uganda)",
+   "source_id": "np-monitor-ug",
+   "tier": 2,
+   "country": "UG",
+   "category": "press",
+   "segments": [
+    "city",
+    "bush",
+    "beach"
+   ],
+   "first_seen": "2026-08-22T22:03+03:00",
+   "published": "2026-08-22",
+   "verdict": "weak"
+  },
+  {
+   "score": 53.8,
+   "components": {
+    "tier": 20,
+    "category": 4,
+    "lead": 0.0,
+    "relevance": 0,
+    "freshness": 19.8,
+    "corroborated": 10
+   },
+   "keywords": [],
+   "shock_terms": [],
+   "dedupe_match": null,
+   "dedupe_similarity": 0.0,
+   "id": "e9876dd7ce31",
+   "title": "From secret bus trips to six titles: Norman Blick\u2019s basketball journey continues",
+   "url": "https://www.monitor.co.ug/uganda/sports/basketball/from-secret-bus-trips-to-six-titles-norman-blick-s-basketball-journey-continues-5567382",
+   "summary": "From secret overnight bus journeys to six championships, national team battles, and a difficult...",
+   "kind": "item",
+   "source": "Daily Monitor (Uganda)",
+   "source_id": "np-monitor-ug",
+   "tier": 2,
+   "country": "UG",
+   "category": "press",
+   "segments": [
+    "city",
+    "bush",
+    "beach"
+   ],
+   "first_seen": "2026-08-22T22:03+03:00",
+   "published": "2026-08-22",
+   "verdict": "weak"
+  },
+  {
+   "score": 53.8,
+   "components": {
+    "tier": 20,
+    "category": 4,
+    "lead": 0.0,
+    "relevance": 0,
+    "freshness": 19.8,
+    "corroborated": 10
+   },
+   "keywords": [],
+   "shock_terms": [],
+   "dedupe_match": null,
+   "dedupe_similarity": 0.0,
+   "id": "f9c4090d913a",
+   "title": "Mbarara police arrest three over theft, slaughter of 39 cows",
+   "url": "https://www.monitor.co.ug/uganda/news/national/mbarara-police-arrest-three-over-theft-slaughter-of-39-cows-5567414",
+   "summary": "The suspects include Steven Bazara, 62, a Congolese, Peter Mutesasira, 40, from Nyendo, and...",
+   "kind": "item",
+   "source": "Daily Monitor (Uganda)",
+   "source_id": "np-monitor-ug",
+   "tier": 2,
+   "country": "UG",
+   "category": "press",
+   "segments": [
+    "city",
+    "bush",
+    "beach"
+   ],
+   "first_seen": "2026-08-22T22:03+03:00",
+   "published": "2026-08-22",
+   "verdict": "weak"
+  },
+  {
+   "score": 53.8,
+   "components": {
+    "tier": 20,
+    "category": 4,
+    "lead": 0.0,
+    "relevance": 0,
+    "freshness": 19.8,
+    "corroborated": 10
+   },
+   "keywords": [],
+   "shock_terms": [],
+   "dedupe_match": null,
+   "dedupe_similarity": 0.0,
+   "id": "1bf91ac5c29e",
+   "title": "Govt sets tough budget rules, breaches to attract automatic sanctions",
+   "url": "https://www.monitor.co.ug/uganda/news/national/govt-sets-tough-budget-rules-breaches-to-attract-automatic-sanctions-5567388",
+   "summary": "The new framework is intended to move government away from appeals for prudent use of public...",
+   "kind": "item",
+   "source": "Daily Monitor (Uganda)",
+   "source_id": "np-monitor-ug",
+   "tier": 2,
+   "country": "UG",
+   "category": "press",
+   "segments": [
+    "city",
+    "bush",
+    "beach"
+   ],
+   "first_seen": "2026-08-22T22:03+03:00",
+   "published": "2026-08-22",
+   "verdict": "weak"
+  },
+  {
+   "score": 51.0,
    "components": {
     "tier": 20,
     "category": 5,
     "lead": 1.2,
     "relevance": 4,
-    "freshness": 13.2,
+    "freshness": 10.8,
     "corroborated": 10
    },
    "keywords": [
@@ -575,13 +1088,13 @@
    "verdict": "weak"
   },
   {
-   "score": 52.5,
+   "score": 50.2,
    "components": {
     "tier": 20,
     "category": 5,
     "lead": 1.2,
     "relevance": 0,
-    "freshness": 16.3,
+    "freshness": 14.0,
     "corroborated": 10
    },
    "keywords": [],
@@ -608,13 +1121,48 @@
    "verdict": "weak"
   },
   {
-   "score": 50.3,
+   "score": 49.8,
+   "components": {
+    "tier": 20,
+    "category": 4,
+    "lead": 0.0,
+    "relevance": 12,
+    "freshness": 19.8,
+    "undated": -6
+   },
+   "keywords": [
+    "ebola"
+   ],
+   "shock_terms": [],
+   "dedupe_match": null,
+   "dedupe_similarity": 0.33,
+   "id": "2af9f8d66217",
+   "title": "DR Congo More than 16,000 doses of Ervebo vaccine arrive in Ebola-hit DRC",
+   "url": "https://www.newvision.co.ug/category/health/more-than-16000-doses-of-ervebo-vaccine-arriv",
+   "summary": "",
+   "kind": "item",
+   "source": "New Vision (Uganda)",
+   "source_id": "np-newvision-ug",
+   "tier": 2,
+   "country": "UG",
+   "category": "press",
+   "segments": [
+    "city",
+    "bush",
+    "beach"
+   ],
+   "first_seen": "2026-08-22T22:03+03:00",
+   "published": null,
+   "verdict": "weak"
+  },
+  {
+   "score": 48.0,
    "components": {
     "tier": 20,
     "category": 4,
     "lead": 0.0,
     "relevance": 0,
-    "freshness": 16.3,
+    "freshness": 14.0,
     "corroborated": 10
    },
    "keywords": [],
@@ -641,13 +1189,13 @@
    "verdict": "weak"
   },
   {
-   "score": 50.3,
+   "score": 48.0,
    "components": {
     "tier": 20,
     "category": 4,
     "lead": 0.0,
     "relevance": 0,
-    "freshness": 16.3,
+    "freshness": 14.0,
     "corroborated": 10
    },
    "keywords": [],
@@ -674,13 +1222,13 @@
    "verdict": "weak"
   },
   {
-   "score": 50.3,
+   "score": 48.0,
    "components": {
     "tier": 20,
     "category": 4,
     "lead": 0.0,
     "relevance": 0,
-    "freshness": 16.3,
+    "freshness": 14.0,
     "corroborated": 10
    },
    "keywords": [],
@@ -707,13 +1255,13 @@
    "verdict": "weak"
   },
   {
-   "score": 50.3,
+   "score": 48.0,
    "components": {
     "tier": 20,
     "category": 4,
     "lead": 0.0,
     "relevance": 0,
-    "freshness": 16.3,
+    "freshness": 14.0,
     "corroborated": 10
    },
    "keywords": [],
@@ -740,13 +1288,13 @@
    "verdict": "weak"
   },
   {
-   "score": 50.3,
+   "score": 48.0,
    "components": {
     "tier": 20,
     "category": 4,
     "lead": 0.0,
     "relevance": 0,
-    "freshness": 16.3,
+    "freshness": 14.0,
     "corroborated": 10
    },
    "keywords": [],
@@ -773,13 +1321,13 @@
    "verdict": "weak"
   },
   {
-   "score": 50.3,
+   "score": 48.0,
    "components": {
     "tier": 20,
     "category": 4,
     "lead": 0.0,
     "relevance": 0,
-    "freshness": 16.3,
+    "freshness": 14.0,
     "corroborated": 10
    },
    "keywords": [],
@@ -806,13 +1354,13 @@
    "verdict": "weak"
   },
   {
-   "score": 50.3,
+   "score": 48.0,
    "components": {
     "tier": 20,
     "category": 4,
     "lead": 0.0,
     "relevance": 0,
-    "freshness": 16.3,
+    "freshness": 14.0,
     "corroborated": 10
    },
    "keywords": [],
@@ -836,543 +1384,6 @@
    ],
    "first_seen": "2026-08-22T16:44+03:00",
    "published": "2026-08-22",
-   "verdict": "weak"
-  },
-  {
-   "score": 50.3,
-   "components": {
-    "tier": 20,
-    "category": 4,
-    "lead": 0.0,
-    "relevance": 0,
-    "freshness": 16.3,
-    "corroborated": 10
-   },
-   "keywords": [],
-   "shock_terms": [],
-   "dedupe_match": null,
-   "dedupe_similarity": 0.0,
-   "id": "30491ff1be5d",
-   "title": "Kenya moves close to Western allies in an effort to protect commercial shipping",
-   "url": "https://www.theeastafrican.co.ke/tea/news/east-africa/kenya-moves-close-to-western-allies-5566918",
-   "summary": "Partners seek to strengthen resilience through information sharing, coordinated responses and...",
-   "kind": "item",
-   "source": "The EastAfrican",
-   "source_id": "np-eastafrican",
-   "tier": 2,
-   "country": "REG",
-   "category": "press",
-   "segments": [
-    "city",
-    "bush",
-    "beach"
-   ],
-   "first_seen": "2026-08-22T16:44+03:00",
-   "published": "2026-08-22",
-   "verdict": "weak"
-  },
-  {
-   "score": 50.3,
-   "components": {
-    "tier": 20,
-    "category": 4,
-    "lead": 0.0,
-    "relevance": 0,
-    "freshness": 16.3,
-    "corroborated": 10
-   },
-   "keywords": [],
-   "shock_terms": [],
-   "dedupe_match": null,
-   "dedupe_similarity": 0.0,
-   "id": "548552801c0c",
-   "title": "Chemonges finds redemption in Rwenzori Marathon",
-   "url": "https://www.monitor.co.ug/uganda/sports/athletics/chemonges-finds-redemption-in-rwenzori-marathon-5567306",
-   "summary": "He kept his eyes on the lead car and beat Chelangat\u2019s mark by 94 seconds",
-   "kind": "item",
-   "source": "Daily Monitor (Uganda)",
-   "source_id": "np-monitor-ug",
-   "tier": 2,
-   "country": "UG",
-   "category": "press",
-   "segments": [
-    "city",
-    "bush",
-    "beach"
-   ],
-   "first_seen": "2026-08-22T16:44+03:00",
-   "published": "2026-08-22",
-   "verdict": "weak"
-  },
-  {
-   "score": 48.7,
-   "components": {
-    "tier": 20,
-    "category": 4,
-    "lead": 0.0,
-    "relevance": 12,
-    "freshness": 18.7,
-    "undated": -6
-   },
-   "keywords": [
-    "ebola"
-   ],
-   "shock_terms": [],
-   "dedupe_match": null,
-   "dedupe_similarity": 0.33,
-   "id": "68433282bb6b",
-   "title": "Health More than 16,000 doses of Ervebo vaccine arrive in Ebola-hit DRC",
-   "url": "https://www.newvision.co.ug/category/health/more-than-16000-doses-of-ervebo-vaccine-arriv-NV_239269_082026",
-   "summary": "",
-   "kind": "item",
-   "source": "New Vision (Uganda)",
-   "source_id": "np-newvision-ug",
-   "tier": 2,
-   "country": "UG",
-   "category": "press",
-   "segments": [
-    "city",
-    "bush",
-    "beach"
-   ],
-   "first_seen": "2026-08-22T18:56+03:00",
-   "published": null,
-   "verdict": "weak"
-  },
-  {
-   "score": 47.2,
-   "components": {
-    "tier": 20,
-    "category": 4,
-    "lead": 0.0,
-    "relevance": 0,
-    "freshness": 13.2,
-    "corroborated": 10
-   },
-   "keywords": [],
-   "shock_terms": [],
-   "dedupe_match": null,
-   "dedupe_similarity": 0.0,
-   "id": "209b016d6183",
-   "title": "New Yumbe gold mine targets 20kg output per week",
-   "url": "https://www.monitor.co.ug/uganda/news/national/new-yumbe-gold-mine-targets-20kg-output-per-week-5567164",
-   "summary": "Yumbe gold project targets increased gold exports",
-   "kind": "item",
-   "source": "Daily Monitor (Uganda)",
-   "source_id": "np-monitor-ug",
-   "tier": 2,
-   "country": "UG",
-   "category": "press",
-   "segments": [
-    "city",
-    "bush",
-    "beach"
-   ],
-   "first_seen": "2026-08-22T13:53+03:00",
-   "published": "2026-08-22",
-   "verdict": "weak"
-  },
-  {
-   "score": 47.2,
-   "components": {
-    "tier": 20,
-    "category": 4,
-    "lead": 0.0,
-    "relevance": 0,
-    "freshness": 13.2,
-    "corroborated": 10
-   },
-   "keywords": [],
-   "shock_terms": [],
-   "dedupe_match": null,
-   "dedupe_similarity": 0.0,
-   "id": "8bd715c6a8ed",
-   "title": "Otunnu registers gain in race for top UN job after addressing member states",
-   "url": "https://www.monitor.co.ug/uganda/news/national/otunnu-registers-gain-in-race-for-top-un-job-after-addressing-member-states-5567162",
-   "summary": "While Otunnu posted the sharpest percentage gain among all eight candidates, the broader...",
-   "kind": "item",
-   "source": "Daily Monitor (Uganda)",
-   "source_id": "np-monitor-ug",
-   "tier": 2,
-   "country": "UG",
-   "category": "press",
-   "segments": [
-    "city",
-    "bush",
-    "beach"
-   ],
-   "first_seen": "2026-08-22T13:53+03:00",
-   "published": "2026-08-22",
-   "verdict": "weak"
-  },
-  {
-   "score": 47.2,
-   "components": {
-    "tier": 20,
-    "category": 4,
-    "lead": 0.0,
-    "relevance": 0,
-    "freshness": 13.2,
-    "corroborated": 10
-   },
-   "keywords": [],
-   "shock_terms": [],
-   "dedupe_match": null,
-   "dedupe_similarity": 0.0,
-   "id": "9334949efa3c",
-   "title": "US, Iran keep up hostile rhetoric ahead of new sanctions",
-   "url": "https://www.monitor.co.ug/uganda/news/world/us-iran-keep-up-hostile-rhetoric-ahead-of-new-sanctions-5567134",
-   "summary": "Iran faces new US sanctions as tensions deepen over Strait of Hormuz",
-   "kind": "item",
-   "source": "Daily Monitor (Uganda)",
-   "source_id": "np-monitor-ug",
-   "tier": 2,
-   "country": "UG",
-   "category": "press",
-   "segments": [
-    "city",
-    "bush",
-    "beach"
-   ],
-   "first_seen": "2026-08-22T13:53+03:00",
-   "published": "2026-08-22",
-   "verdict": "weak"
-  },
-  {
-   "score": 47.2,
-   "components": {
-    "tier": 20,
-    "category": 4,
-    "lead": 0.0,
-    "relevance": 0,
-    "freshness": 13.2,
-    "corroborated": 10
-   },
-   "keywords": [],
-   "shock_terms": [],
-   "dedupe_match": null,
-   "dedupe_similarity": 0.0,
-   "id": "96f418d5ff21",
-   "title": "Five-shot lead for Luutu at Seniors Open",
-   "url": "https://www.monitor.co.ug/uganda/sports/golf/five-shot-lead-for-luutu-at-seniors-open-5567130",
-   "summary": "An expert in wireless telecommunications with experience earned in the United States of...",
-   "kind": "item",
-   "source": "Daily Monitor (Uganda)",
-   "source_id": "np-monitor-ug",
-   "tier": 2,
-   "country": "UG",
-   "category": "press",
-   "segments": [
-    "city",
-    "bush",
-    "beach"
-   ],
-   "first_seen": "2026-08-22T13:53+03:00",
-   "published": "2026-08-22",
-   "verdict": "weak"
-  },
-  {
-   "score": 47.2,
-   "components": {
-    "tier": 20,
-    "category": 4,
-    "lead": 0.0,
-    "relevance": 0,
-    "freshness": 13.2,
-    "corroborated": 10
-   },
-   "keywords": [],
-   "shock_terms": [],
-   "dedupe_match": null,
-   "dedupe_similarity": 0.0,
-   "id": "a6c769f5a1af",
-   "title": "How cash-strapped Uganda Railways is derailed by own hand",
-   "url": "https://www.monitor.co.ug/uganda/special-reports/how-cash-strapped-uganda-railways-is-derailed-by-own-hand-5566266",
-   "summary": "URC warns old coaches could embarrass Uganda",
-   "kind": "item",
-   "source": "Daily Monitor (Uganda)",
-   "source_id": "np-monitor-ug",
-   "tier": 2,
-   "country": "UG",
-   "category": "press",
-   "segments": [
-    "city",
-    "bush",
-    "beach"
-   ],
-   "first_seen": "2026-08-22T13:53+03:00",
-   "published": "2026-08-22",
-   "verdict": "weak"
-  },
-  {
-   "score": 47.2,
-   "components": {
-    "tier": 20,
-    "category": 4,
-    "lead": 0.0,
-    "relevance": 0,
-    "freshness": 13.2,
-    "corroborated": 10
-   },
-   "keywords": [],
-   "shock_terms": [],
-   "dedupe_match": null,
-   "dedupe_similarity": 0.0,
-   "id": "6b09cd82dff1",
-   "title": "Ex-UHRC accountant accuses Wangadya of bypassing financial controls",
-   "url": "https://www.monitor.co.ug/uganda/news/national/ex-uhrc-accountant-accuses-wangadya-of-bypassing-financial-controls-5567048",
-   "summary": "Cosase hears explosive allegations of financial abuse at UHRC",
-   "kind": "item",
-   "source": "Daily Monitor (Uganda)",
-   "source_id": "np-monitor-ug",
-   "tier": 2,
-   "country": "UG",
-   "category": "press",
-   "segments": [
-    "city",
-    "bush",
-    "beach"
-   ],
-   "first_seen": "2026-08-22T13:53+03:00",
-   "published": "2026-08-22",
-   "verdict": "weak"
-  },
-  {
-   "score": 47.2,
-   "components": {
-    "tier": 20,
-    "category": 4,
-    "lead": 0.0,
-    "relevance": 0,
-    "freshness": 13.2,
-    "corroborated": 10
-   },
-   "keywords": [],
-   "shock_terms": [],
-   "dedupe_match": null,
-   "dedupe_similarity": 0.0,
-   "id": "e9f4a336ad1e",
-   "title": "Minister Ogwang decries poor infrastructure in govt health institutes",
-   "url": "https://www.monitor.co.ug/uganda/news/national/minister-ogwang-decries-poor-infrastructure-in-govt-health-institutes-5567040",
-   "summary": "432 graduate as Ogwang calls for better health training facilities",
-   "kind": "item",
-   "source": "Daily Monitor (Uganda)",
-   "source_id": "np-monitor-ug",
-   "tier": 2,
-   "country": "UG",
-   "category": "press",
-   "segments": [
-    "city",
-    "bush",
-    "beach"
-   ],
-   "first_seen": "2026-08-22T13:53+03:00",
-   "published": "2026-08-22",
-   "verdict": "weak"
-  },
-  {
-   "score": 47.2,
-   "components": {
-    "tier": 20,
-    "category": 4,
-    "lead": 0.0,
-    "relevance": 0,
-    "freshness": 13.2,
-    "corroborated": 10
-   },
-   "keywords": [],
-   "shock_terms": [],
-   "dedupe_match": null,
-   "dedupe_similarity": 0.2,
-   "id": "5da77757aa3f",
-   "title": "Power, bed shortages hamper services at Luuka health centre",
-   "url": "https://www.monitor.co.ug/uganda/news/national/power-bed-shortages-hamper-services-at-luuka-health-centre-5567064",
-   "summary": "Mothers sleep on floors as Luuka health centre battles congestion",
-   "kind": "item",
-   "source": "Daily Monitor (Uganda)",
-   "source_id": "np-monitor-ug",
-   "tier": 2,
-   "country": "UG",
-   "category": "press",
-   "segments": [
-    "city",
-    "bush",
-    "beach"
-   ],
-   "first_seen": "2026-08-22T13:53+03:00",
-   "published": "2026-08-22",
-   "verdict": "weak"
-  },
-  {
-   "score": 47.2,
-   "components": {
-    "tier": 20,
-    "category": 4,
-    "lead": 0.0,
-    "relevance": 0,
-    "freshness": 13.2,
-    "corroborated": 10
-   },
-   "keywords": [],
-   "shock_terms": [],
-   "dedupe_match": null,
-   "dedupe_similarity": 0.0,
-   "id": "f0be030c0700",
-   "title": "Curriculum reforms must benefit every learner, education experts say",
-   "url": "https://www.monitor.co.ug/uganda/news/national/curriculum-reforms-must-benefit-every-learner-education-experts-say-5567082",
-   "summary": "Education experts call for stronger teacher support as Uganda reforms curriculum",
-   "kind": "item",
-   "source": "Daily Monitor (Uganda)",
-   "source_id": "np-monitor-ug",
-   "tier": 2,
-   "country": "UG",
-   "category": "press",
-   "segments": [
-    "city",
-    "bush",
-    "beach"
-   ],
-   "first_seen": "2026-08-22T13:53+03:00",
-   "published": "2026-08-22",
-   "verdict": "weak"
-  },
-  {
-   "score": 47.2,
-   "components": {
-    "tier": 20,
-    "category": 4,
-    "lead": 0.0,
-    "relevance": 0,
-    "freshness": 13.2,
-    "corroborated": 10
-   },
-   "keywords": [],
-   "shock_terms": [],
-   "dedupe_match": null,
-   "dedupe_similarity": 0.0,
-   "id": "70e848c703cc",
-   "title": "Ex-Butaleja LC5 chair remanded over alleged Shs6.5m job scam",
-   "url": "https://www.monitor.co.ug/uganda/news/national/ex-butaleja-lc5-chair-remanded-over-alleged-shs6-5m-job-scam-5567044",
-   "summary": "The magistrate read two counts",
-   "kind": "item",
-   "source": "Daily Monitor (Uganda)",
-   "source_id": "np-monitor-ug",
-   "tier": 2,
-   "country": "UG",
-   "category": "press",
-   "segments": [
-    "city",
-    "bush",
-    "beach"
-   ],
-   "first_seen": "2026-08-22T13:53+03:00",
-   "published": "2026-08-22",
-   "verdict": "weak"
-  },
-  {
-   "score": 46.3,
-   "components": {
-    "tier": 20,
-    "category": 4,
-    "lead": 0.0,
-    "relevance": 12,
-    "freshness": 16.3,
-    "undated": -6
-   },
-   "keywords": [
-    "ebola"
-   ],
-   "shock_terms": [],
-   "dedupe_match": null,
-   "dedupe_similarity": 0.33,
-   "id": "3a5e0b6e153b",
-   "title": "DR Congo More than 16,000 doses of Ervebo vaccine arrive in Ebola-hit DRC \u00b7 1 min read",
-   "url": "https://www.newvision.co.ug/category/health/more-than-16000-doses-of-ervebo-vaccine-arriv-NV_239269_082026",
-   "summary": "",
-   "kind": "item",
-   "source": "New Vision (Uganda)",
-   "source_id": "np-newvision-ug",
-   "tier": 2,
-   "country": "UG",
-   "category": "press",
-   "segments": [
-    "city",
-    "bush",
-    "beach"
-   ],
-   "first_seen": "2026-08-22T16:45+03:00",
-   "published": null,
-   "verdict": "weak"
-  },
-  {
-   "score": 46.3,
-   "components": {
-    "tier": 20,
-    "category": 4,
-    "lead": 0.0,
-    "relevance": 12,
-    "freshness": 16.3,
-    "undated": -6
-   },
-   "keywords": [
-    "seat",
-    "passenger"
-   ],
-   "shock_terms": [],
-   "dedupe_match": null,
-   "dedupe_similarity": 0.2,
-   "id": "aab4301e093b",
-   "title": "National Passengers raise concerns over seating, toilet congestion at Tanzania\u2019s Magufuli Bus Terminal 5 hours ago - 5 min read",
-   "url": "https://www.thecitizen.co.tz/tanzania/news/national/passengers-raise-concerns-over-seating-toilet-congestion-at-tanzania-s-magufuli-bus-terminal-5567096",
-   "summary": "",
-   "kind": "item",
-   "source": "The Citizen (Tanzania)",
-   "source_id": "np-citizen-tz",
-   "tier": 2,
-   "country": "TZ",
-   "category": "press",
-   "segments": [
-    "city",
-    "bush",
-    "beach"
-   ],
-   "first_seen": "2026-08-22T16:44+03:00",
-   "published": null,
-   "verdict": "weak"
-  },
-  {
-   "score": 46.3,
-   "components": {
-    "tier": 20,
-    "category": 4,
-    "lead": 0.0,
-    "relevance": 12,
-    "freshness": 16.3,
-    "undated": -6
-   },
-   "keywords": [
-    "ebola"
-   ],
-   "shock_terms": [],
-   "dedupe_match": null,
-   "dedupe_similarity": 0.33,
-   "id": "64751d5dcb78",
-   "title": "Congo's M23 rebels introduce new movement restrictions over Ebola concerns Aug 20 - 2 min read",
-   "url": "https://www.thecitizen.co.tz/tanzania/news/africa/congo-s-m23-rebels-introduce-new-movement-restrictions-over-ebola-concerns-5564792",
-   "summary": "",
-   "kind": "item",
-   "source": "The Citizen (Tanzania)",
-   "source_id": "np-citizen-tz",
-   "tier": 2,
-   "country": "TZ",
-   "category": "press",
-   "segments": [
-    "city",
-    "bush",
-    "beach"
-   ],
-   "first_seen": "2026-08-22T16:44+03:00",
-   "published": null,
    "verdict": "weak"
   }
  ]
