@@ -1,18 +1,18 @@
 {
- "generated": "2026-08-22T01:59:08+03:00",
+ "generated": "2026-08-22T06:12:20+03:00",
  "slot": "morning",
  "window_start": 1787324400,
- "observations_in_window": 251,
+ "observations_in_window": 335,
  "deduped_against": 6,
  "candidates": [
   {
-   "score": 140.9,
+   "score": 136.3,
    "components": {
     "tier": 40,
     "category": 32,
     "lead": 1.2,
     "relevance": 40,
-    "freshness": 15.7,
+    "freshness": 11.1,
     "undated": -6,
     "shock": 18
    },
@@ -49,13 +49,46 @@
    "verdict": "LEAD CANDIDATE \u2014 tier-1 shock language"
   },
   {
-   "score": 101.3,
+   "score": 101.4,
    "components": {
     "tier": 40,
     "category": 32,
     "lead": 3.6,
     "relevance": 0,
-    "freshness": 19.7,
+    "freshness": 19.8,
+    "corroborated": 10,
+    "page_change": -4
+   },
+   "keywords": [],
+   "shock_terms": [],
+   "dedupe_match": null,
+   "dedupe_similarity": 0.0,
+   "id": "9079f8c11e2b",
+   "title": "[page changed] Federal Register \u2014 public inspection (HHS/CDC), pre-publication",
+   "url": "https://www.federalregister.gov/api/v1/public-inspection-documents/current.json",
+   "summary": "{\"count\":87,\"results\":[{\"agencies\":[{\"raw_name\":\"FEDERAL COMMUNICATIONS COMMISSION\",\"name\":\"Federal Communications Commission\",\"id\":161,\"url\":\"https://www.federalregister.gov/agencies/federal-communications-commission\",\"json_url\":\"https://www.federalregister.gov/api/v1/agencies/161\",\"parent_id\":null,\"slug\":\"federal-communications-commission\"}],\"agency_letters\":[],\"agency_names\":[\"Federal Communica",
+   "kind": "page-change",
+   "source": "Federal Register \u2014 public inspection (HHS/CDC), pre-publication",
+   "source_id": "us-fedreg-pubinspect-hhs",
+   "tier": 1,
+   "country": "REG",
+   "category": "advisory",
+   "segments": [
+    "city",
+    "bush"
+   ],
+   "first_seen": "2026-08-22T06:10+03:00",
+   "published": "2026-08-21",
+   "verdict": "OPEN THIS \u2014 tier-1 advisory page moved; content not auto-parsed, read it manually"
+  },
+  {
+   "score": 96.7,
+   "components": {
+    "tier": 40,
+    "category": 32,
+    "lead": 3.6,
+    "relevance": 0,
+    "freshness": 15.1,
     "corroborated": 10,
     "page_change": -4
    },
@@ -82,13 +115,13 @@
    "verdict": "OPEN THIS \u2014 tier-1 advisory page moved; content not auto-parsed, read it manually"
   },
   {
-   "score": 97.3,
+   "score": 92.7,
    "components": {
     "tier": 40,
     "category": 32,
     "lead": 3.6,
     "relevance": 0,
-    "freshness": 15.7,
+    "freshness": 11.1,
     "corroborated": 10,
     "page_change": -4
    },
@@ -115,13 +148,13 @@
    "verdict": "OPEN THIS \u2014 tier-1 advisory page moved; content not auto-parsed, read it manually"
   },
   {
-   "score": 94.9,
+   "score": 90.2,
    "components": {
     "tier": 40,
     "category": 32,
     "lead": 3.6,
     "relevance": 0,
-    "freshness": 13.3,
+    "freshness": 8.6,
     "corroborated": 10,
     "page_change": -4
    },
@@ -148,13 +181,81 @@
    "verdict": "OPEN THIS \u2014 tier-1 advisory page moved; content not auto-parsed, read it manually"
   },
   {
-   "score": 58.9,
+   "score": 65.4,
    "components": {
     "tier": 40,
     "category": 12,
     "lead": 3.6,
     "relevance": 0,
-    "freshness": 13.3,
+    "freshness": 19.8,
+    "undated": -6,
+    "page_change": -4
+   },
+   "keywords": [],
+   "shock_terms": [],
+   "dedupe_match": null,
+   "dedupe_similarity": 0.0,
+   "id": "80ddb8c223d1",
+   "title": "[page changed] Jambojet media",
+   "url": "https://www.jambojet.com/en/press-release",
+   "summary": "Request unsuccessful. Incapsula incident ID: 48000210361271365-573070270763369808",
+   "kind": "page-change",
+   "source": "Jambojet media",
+   "source_id": "air-jambojet",
+   "tier": 1,
+   "country": "KE",
+   "category": "airline",
+   "segments": [
+    "city",
+    "bush",
+    "beach"
+   ],
+   "first_seen": "2026-08-22T06:10+03:00",
+   "published": null,
+   "verdict": "OPEN THIS \u2014 tier-1 airline page moved; content not auto-parsed, read it manually"
+  },
+  {
+   "score": 65.4,
+   "components": {
+    "tier": 40,
+    "category": 12,
+    "lead": 3.6,
+    "relevance": 0,
+    "freshness": 19.8,
+    "undated": -6,
+    "page_change": -4
+   },
+   "keywords": [],
+   "shock_terms": [],
+   "dedupe_match": null,
+   "dedupe_similarity": 0.0,
+   "id": "6529a94796a1",
+   "title": "[page changed] Airlink news",
+   "url": "https://www.flyairlink.com/",
+   "summary": "Request unsuccessful. Incapsula incident ID: 2107000710548214186-620193878975910349",
+   "kind": "page-change",
+   "source": "Airlink news",
+   "source_id": "air-airlink",
+   "tier": 1,
+   "country": "REG",
+   "category": "airline",
+   "segments": [
+    "city",
+    "bush",
+    "beach"
+   ],
+   "first_seen": "2026-08-22T06:10+03:00",
+   "published": null,
+   "verdict": "OPEN THIS \u2014 tier-1 airline page moved; content not auto-parsed, read it manually"
+  },
+  {
+   "score": 54.2,
+   "components": {
+    "tier": 40,
+    "category": 12,
+    "lead": 3.6,
+    "relevance": 0,
+    "freshness": 8.6,
     "undated": -6,
     "page_change": -4
    },
@@ -182,13 +283,51 @@
    "verdict": "OPEN THIS \u2014 tier-1 airline page moved; content not auto-parsed, read it manually"
   },
   {
-   "score": 97.9,
+   "score": 96.8,
+   "components": {
+    "tier": 40,
+    "category": 20,
+    "lead": 12.0,
+    "relevance": 12,
+    "freshness": 19.8,
+    "stale_trap": -25,
+    "shock": 18
+   },
+   "keywords": [
+    "insolven"
+   ],
+   "shock_terms": [
+    "insolven"
+   ],
+   "dedupe_match": null,
+   "dedupe_similarity": 0.0,
+   "id": "f20afbf12f1e",
+   "title": "Cytonn High Yield Solutions LLP v Official Receiver & another (Insolvency Petition E063 of 2021) [2026] KEHC 12995 (KLR) (7 August 2026) (Ruling)",
+   "url": "https://new.kenyalaw.org/akn/ke/judgment/kehc/2026/12995/eng@2026-08-07",
+   "summary": "Cytonn High Yield Solutions LLP v Official Receiver & another (Insolvency Petition E063 of 2021) [2026] KEHC 12995 (KLR) (7 August 2026) (Ruling)",
+   "kind": "item",
+   "source": "Kenya Gazette (Kenya Law)",
+   "source_id": "ke-gazette",
+   "tier": 1,
+   "country": "KE",
+   "category": "gazette",
+   "segments": [
+    "city",
+    "bush",
+    "beach"
+   ],
+   "first_seen": "2026-08-22T06:10+03:00",
+   "published": "2026-08-07",
+   "verdict": "CHECK \u2014 source date older than the window"
+  },
+  {
+   "score": 93.3,
    "components": {
     "tier": 20,
     "category": 14,
     "lead": 8.4,
     "relevance": 28,
-    "freshness": 17.5,
+    "freshness": 12.9,
     "corroborated": 10
    },
    "keywords": [
@@ -220,13 +359,383 @@
    "verdict": "CONSIDER"
   },
   {
-   "score": 89.9,
+   "score": 92.2,
+   "components": {
+    "tier": 20,
+    "category": 14,
+    "lead": 8.4,
+    "relevance": 20,
+    "freshness": 19.8,
+    "corroborated": 10
+   },
+   "keywords": [
+    "route",
+    "charter",
+    "flight"
+   ],
+   "shock_terms": [],
+   "dedupe_match": null,
+   "dedupe_similarity": 0.0,
+   "id": "31d18ab00e25",
+   "title": "Virgin Australia NW26 Perth \u2013 Alice Springs Charters",
+   "url": "https://www.aeroroutes.com/eng/260821-vanw26perasp",
+   "summary": "Published at 2000PDT 21AUG26 / 0300GMT 22AUG26 Virgin Australia during Northern winter 2026/27 season plans to operate charter service on Perth \u2013 Alice Springs route, on board Boeing 737-700 aircraft. The weekly charter flight is scheduled from 30OCT26 to 29JAN27 on Fridays. VA9491 PER0545 \u2013 1010ASP 73W 5 VA9492 ASP1050 \u2013 1250PER 73W 5",
+   "kind": "item",
+   "source": "AeroRoutes schedule filings",
+   "source_id": "aeroroutes",
+   "tier": 2,
+   "country": "GLOBAL",
+   "category": "aviation-tracker",
+   "segments": [
+    "city",
+    "bush",
+    "beach"
+   ],
+   "first_seen": "2026-08-22T06:11+03:00",
+   "published": "2026-08-22",
+   "verdict": "CONSIDER"
+  },
+  {
+   "score": 92.2,
+   "components": {
+    "tier": 20,
+    "category": 14,
+    "lead": 8.4,
+    "relevance": 20,
+    "freshness": 19.8,
+    "corroborated": 10
+   },
+   "keywords": [
+    "adr",
+    "route",
+    "flight"
+   ],
+   "shock_terms": [],
+   "dedupe_match": null,
+   "dedupe_similarity": 0.0,
+   "id": "388b572d8d42",
+   "title": "Wizz Air Expands Brasov Network in NW26",
+   "url": "https://www.aeroroutes.com/eng/260821-w4nw26ghv",
+   "summary": "Published at 1701PDT 21AUG26 / 0001GMT 22AUG26 Wizz Air during Northern winter 2026/27 season plans to launch 5 routes from Brasov , announced earlier this month. Planned network additions include the following. Brasov \u2013 Barcelona eff 18DEC26 2 weekly A321neo Brasov \u2013 Chisinau eff 17DEC26 3 weekly A321neo Brasov \u2013 Karlsruhe/Baden-Baden eff 18DEC26 2 weekly A321neo Brasov \u2013 Madrid eff 20DEC26 2 wee",
+   "kind": "item",
+   "source": "AeroRoutes schedule filings",
+   "source_id": "aeroroutes",
+   "tier": 2,
+   "country": "GLOBAL",
+   "category": "aviation-tracker",
+   "segments": [
+    "city",
+    "bush",
+    "beach"
+   ],
+   "first_seen": "2026-08-22T06:11+03:00",
+   "published": "2026-08-22",
+   "verdict": "CONSIDER"
+  },
+  {
+   "score": 91.8,
+   "components": {
+    "tier": 40,
+    "category": 20,
+    "lead": 12.0,
+    "relevance": 0,
+    "freshness": 19.8
+   },
+   "keywords": [],
+   "shock_terms": [],
+   "dedupe_match": null,
+   "dedupe_similarity": 0.0,
+   "id": "36f9a8bc7801",
+   "title": "Republic v Ndeti (Criminal Case E009 of 2026) [2026] KEHC 13004 (KLR) (20 August 2026) (Ruling)",
+   "url": "https://new.kenyalaw.org/akn/ke/judgment/kehc/2026/13004/eng@2026-08-20",
+   "summary": "Republic v Ndeti (Criminal Case E009 of 2026) [2026] KEHC 13004 (KLR) (20 August 2026) (Ruling)",
+   "kind": "item",
+   "source": "Kenya Gazette (Kenya Law)",
+   "source_id": "ke-gazette",
+   "tier": 1,
+   "country": "KE",
+   "category": "gazette",
+   "segments": [
+    "city",
+    "bush",
+    "beach"
+   ],
+   "first_seen": "2026-08-22T06:10+03:00",
+   "published": "2026-08-20",
+   "verdict": "STRONG \u2014 tier-1, upstream"
+  },
+  {
+   "score": 91.8,
+   "components": {
+    "tier": 40,
+    "category": 20,
+    "lead": 12.0,
+    "relevance": 0,
+    "freshness": 19.8
+   },
+   "keywords": [],
+   "shock_terms": [],
+   "dedupe_match": null,
+   "dedupe_similarity": 0.0,
+   "id": "9349da0c8c19",
+   "title": "In re Estate of Gatumuta alias Anne Wangithi Gatumuta (Deceased) (Succession Cause 563 of 2013) [2026] KEHC 13003 (KLR) (20 August 2026) (Ruling)",
+   "url": "https://new.kenyalaw.org/akn/ke/judgment/kehc/2026/13003/eng@2026-08-20",
+   "summary": "In re Estate of Gatumuta alias Anne Wangithi Gatumuta (Deceased) (Succession Cause 563 of 2013) [2026] KEHC 13003 (KLR) (20 August 2026) (Ruling)",
+   "kind": "item",
+   "source": "Kenya Gazette (Kenya Law)",
+   "source_id": "ke-gazette",
+   "tier": 1,
+   "country": "KE",
+   "category": "gazette",
+   "segments": [
+    "city",
+    "bush",
+    "beach"
+   ],
+   "first_seen": "2026-08-22T06:10+03:00",
+   "published": "2026-08-20",
+   "verdict": "STRONG \u2014 tier-1, upstream"
+  },
+  {
+   "score": 91.8,
+   "components": {
+    "tier": 40,
+    "category": 20,
+    "lead": 12.0,
+    "relevance": 0,
+    "freshness": 19.8
+   },
+   "keywords": [],
+   "shock_terms": [],
+   "dedupe_match": null,
+   "dedupe_similarity": 0.0,
+   "id": "202554fc496c",
+   "title": "Murango v Ng\u2019ongo & 8 others (Constitutional Petition E015 of 2026) [2026] KEHC 13002 (KLR) (20 August 2026) (Ruling)",
+   "url": "https://new.kenyalaw.org/akn/ke/judgment/kehc/2026/13002/eng@2026-08-20",
+   "summary": "Murango v Ng\u2019ongo & 8 others (Constitutional Petition E015 of 2026) [2026] KEHC 13002 (KLR) (20 August 2026) (Ruling)",
+   "kind": "item",
+   "source": "Kenya Gazette (Kenya Law)",
+   "source_id": "ke-gazette",
+   "tier": 1,
+   "country": "KE",
+   "category": "gazette",
+   "segments": [
+    "city",
+    "bush",
+    "beach"
+   ],
+   "first_seen": "2026-08-22T06:10+03:00",
+   "published": "2026-08-20",
+   "verdict": "STRONG \u2014 tier-1, upstream"
+  },
+  {
+   "score": 91.8,
+   "components": {
+    "tier": 40,
+    "category": 20,
+    "lead": 12.0,
+    "relevance": 0,
+    "freshness": 19.8
+   },
+   "keywords": [],
+   "shock_terms": [],
+   "dedupe_match": null,
+   "dedupe_similarity": 0.0,
+   "id": "3769edf6e197",
+   "title": "Republic v Nyongesa & another (Criminal Case E247 of 2025) [2026] KEMC 533 (KLR) (20 August 2026) (Judgment)",
+   "url": "https://new.kenyalaw.org/akn/ke/judgment/kemc/2026/533/eng@2026-08-20",
+   "summary": "Republic v Nyongesa & another (Criminal Case E247 of 2025) [2026] KEMC 533 (KLR) (20 August 2026) (Judgment)",
+   "kind": "item",
+   "source": "Kenya Gazette (Kenya Law)",
+   "source_id": "ke-gazette",
+   "tier": 1,
+   "country": "KE",
+   "category": "gazette",
+   "segments": [
+    "city",
+    "bush",
+    "beach"
+   ],
+   "first_seen": "2026-08-22T06:10+03:00",
+   "published": "2026-08-20",
+   "verdict": "STRONG \u2014 tier-1, upstream"
+  },
+  {
+   "score": 91.8,
+   "components": {
+    "tier": 40,
+    "category": 20,
+    "lead": 12.0,
+    "relevance": 0,
+    "freshness": 19.8
+   },
+   "keywords": [],
+   "shock_terms": [],
+   "dedupe_match": null,
+   "dedupe_similarity": 0.0,
+   "id": "cd3e4c6f9d9d",
+   "title": "Nyakango v Cooperative Bank of Kenya Limited & 2 others (Constitutional Petition E517 of 2023) [2026] KEHC 12997 (KLR) (20 August 2026) (Judgment)",
+   "url": "https://new.kenyalaw.org/akn/ke/judgment/kehc/2026/12997/eng@2026-08-20",
+   "summary": "Nyakango v Cooperative Bank of Kenya Limited & 2 others (Constitutional Petition E517 of 2023) [2026] KEHC 12997 (KLR) (20 August 2026) (Judgment)",
+   "kind": "item",
+   "source": "Kenya Gazette (Kenya Law)",
+   "source_id": "ke-gazette",
+   "tier": 1,
+   "country": "KE",
+   "category": "gazette",
+   "segments": [
+    "city",
+    "bush",
+    "beach"
+   ],
+   "first_seen": "2026-08-22T06:10+03:00",
+   "published": "2026-08-20",
+   "verdict": "STRONG \u2014 tier-1, upstream"
+  },
+  {
+   "score": 91.8,
+   "components": {
+    "tier": 40,
+    "category": 20,
+    "lead": 12.0,
+    "relevance": 0,
+    "freshness": 19.8
+   },
+   "keywords": [],
+   "shock_terms": [],
+   "dedupe_match": null,
+   "dedupe_similarity": 0.0,
+   "id": "49f0a8debfbc",
+   "title": "Egal v Director General of Kenya Citizens and Foreign National Services & 2 others (Constitutional Petition E127 of 2023) [2026] KEHC 12996 (KLR) (Constitutional and Human Rights) (20 August 2026) (Ruling)",
+   "url": "https://new.kenyalaw.org/akn/ke/judgment/kehc/2026/12996/eng@2026-08-20",
+   "summary": "Egal v Director General of Kenya Citizens and Foreign National Services & 2 others (Constitutional Petition E127 of 2023) [2026] KEHC 12996 (KLR) (Constitutional and Human Rights) (20 August 2026) (Ruling)",
+   "kind": "item",
+   "source": "Kenya Gazette (Kenya Law)",
+   "source_id": "ke-gazette",
+   "tier": 1,
+   "country": "KE",
+   "category": "gazette",
+   "segments": [
+    "city",
+    "bush",
+    "beach"
+   ],
+   "first_seen": "2026-08-22T06:10+03:00",
+   "published": "2026-08-20",
+   "verdict": "STRONG \u2014 tier-1, upstream"
+  },
+  {
+   "score": 91.8,
+   "components": {
+    "tier": 40,
+    "category": 20,
+    "lead": 12.0,
+    "relevance": 0,
+    "freshness": 19.8
+   },
+   "keywords": [],
+   "shock_terms": [],
+   "dedupe_match": null,
+   "dedupe_similarity": 0.0,
+   "id": "524ea94e1c88",
+   "title": "Republic v SO (Sexual Offence E020 of 2025) [2026] KEMC 532 (KLR) (20 August 2026) (Judgment)",
+   "url": "https://new.kenyalaw.org/akn/ke/judgment/kemc/2026/532/eng@2026-08-20",
+   "summary": "Republic v SO (Sexual Offence E020 of 2025) [2026] KEMC 532 (KLR) (20 August 2026) (Judgment)",
+   "kind": "item",
+   "source": "Kenya Gazette (Kenya Law)",
+   "source_id": "ke-gazette",
+   "tier": 1,
+   "country": "KE",
+   "category": "gazette",
+   "segments": [
+    "city",
+    "bush",
+    "beach"
+   ],
+   "first_seen": "2026-08-22T06:10+03:00",
+   "published": "2026-08-20",
+   "verdict": "STRONG \u2014 tier-1, upstream"
+  },
+  {
+   "score": 88.6,
+   "components": {
+    "tier": 40,
+    "category": 10,
+    "lead": 16.8,
+    "relevance": 8,
+    "freshness": 19.8,
+    "undated": -6
+   },
+   "keywords": [
+    "vat"
+   ],
+   "shock_terms": [],
+   "dedupe_match": null,
+   "dedupe_similarity": 0.0,
+   "id": "13152f8778d8",
+   "title": "Speaker to graduands: Embrace innovation and enterprise Friday, 21 August 2026",
+   "url": "https://www.parliament.go.ug/news/4574/speaker-graduands-embrace-innovation-and-enterprise",
+   "summary": "",
+   "kind": "item",
+   "source": "Parliament of Uganda",
+   "source_id": "ug-parliament",
+   "tier": 1,
+   "country": "UG",
+   "category": "legislature",
+   "segments": [
+    "city",
+    "bush",
+    "beach"
+   ],
+   "first_seen": "2026-08-22T06:10+03:00",
+   "published": null,
+   "verdict": "CONSIDER"
+  },
+  {
+   "score": 86.8,
+   "components": {
+    "tier": 40,
+    "category": 20,
+    "lead": 12.0,
+    "relevance": 20,
+    "freshness": 19.8,
+    "stale_trap": -25
+   },
+   "keywords": [
+    "tax",
+    "eta",
+    "investment"
+   ],
+   "shock_terms": [],
+   "dedupe_match": null,
+   "dedupe_similarity": 0.0,
+   "id": "26861686124d",
+   "title": "Grayan Investments Ltd v Commissioner for Domestic Taxes (Tax Appeal E1340 of 2025) [2026] KETAT 306 (KLR) (7 August 2026) (Judgment)",
+   "url": "https://new.kenyalaw.org/akn/ke/judgment/ketat/2026/306/eng@2026-08-07",
+   "summary": "Grayan Investments Ltd v Commissioner for Domestic Taxes (Tax Appeal E1340 of 2025) [2026] KETAT 306 (KLR) (7 August 2026) (Judgment)",
+   "kind": "item",
+   "source": "Kenya Gazette (Kenya Law)",
+   "source_id": "ke-gazette",
+   "tier": 1,
+   "country": "KE",
+   "category": "gazette",
+   "segments": [
+    "city",
+    "bush",
+    "beach"
+   ],
+   "first_seen": "2026-08-22T06:10+03:00",
+   "published": "2026-08-07",
+   "verdict": "CHECK \u2014 source date older than the window"
+  },
+  {
+   "score": 85.2,
    "components": {
     "tier": 20,
     "category": 5,
     "lead": 3.6,
     "relevance": 20,
-    "freshness": 13.3,
+    "freshness": 8.6,
     "corroborated": 10,
     "shock": 18
    },
@@ -260,13 +769,13 @@
    "verdict": "CONSIDER"
   },
   {
-   "score": 89.5,
+   "score": 84.9,
    "components": {
     "tier": 20,
     "category": 4,
     "lead": 0.0,
     "relevance": 24,
-    "freshness": 13.5,
+    "freshness": 8.9,
     "corroborated": 10,
     "shock": 18
    },
@@ -299,13 +808,445 @@
    "verdict": "CONSIDER"
   },
   {
-   "score": 86.9,
+   "score": 84.2,
+   "components": {
+    "tier": 20,
+    "category": 14,
+    "lead": 8.4,
+    "relevance": 12,
+    "freshness": 19.8,
+    "corroborated": 10
+   },
+   "keywords": [
+    "route",
+    "airline"
+   ],
+   "shock_terms": [],
+   "dedupe_match": null,
+   "dedupe_similarity": 0.0,
+   "id": "f48a4bd572d2",
+   "title": "Air Arabia Adds Sharjah \u2013 Katowice From Dec 2026",
+   "url": "https://www.aeroroutes.com/eng/260821-g9dec26ktw",
+   "summary": "Published at 1900PDT 21AUG26 / 0200GMT 22AUG26 Air Arabia during Northern winter 2026/27 season schedules new route launch to Poland, where the airline plans Sharjah \u2013 Katowice route. The carrier to serve this route with Airbus A320ceo/320neo from 17DEC26, 5 times weekly. G9689 SHJ0800 \u2013 1120KTW 32N 15 G9769 SHJ1755 \u2013 2115KTW 320 4 G9769 SHJ1755 \u2013 2115KTW 32N 6 G9690 KTW1210 \u2013 2055SHJ 32N 15 G9770",
+   "kind": "item",
+   "source": "AeroRoutes schedule filings",
+   "source_id": "aeroroutes",
+   "tier": 2,
+   "country": "GLOBAL",
+   "category": "aviation-tracker",
+   "segments": [
+    "city",
+    "bush",
+    "beach"
+   ],
+   "first_seen": "2026-08-22T06:11+03:00",
+   "published": "2026-08-22",
+   "verdict": "CONSIDER"
+  },
+  {
+   "score": 84.2,
+   "components": {
+    "tier": 20,
+    "category": 14,
+    "lead": 8.4,
+    "relevance": 12,
+    "freshness": 19.8,
+    "corroborated": 10
+   },
+   "keywords": [
+    "route",
+    "airline"
+   ],
+   "shock_terms": [],
+   "dedupe_match": null,
+   "dedupe_similarity": 0.0,
+   "id": "2623ba3a002f",
+   "title": "easyJet Discontinues Leeds/Bradford Service in early-Jan 2027",
+   "url": "https://www.aeroroutes.com/eng/260821-u2jan27lba",
+   "summary": "Published at 1800PDT 21AUG26 / 0100GMT 22AUG26 easyJet in early-January 2027 plans to discontinue service at Leeds/Bradford, as the carrier gradually ends its remaining 3 routes. Affected routes include the following. Leeds/Bradford \u2013 Barcelona 2 weekly A319 until 04NOV26 Leeds/Bradford \u2013 Dublin 4 weekly A319/320 until 04JAN27 Leeds/Bradford \u2013 Paris Charles de Gaulle 2 weekly A319/320 until 01JAN2",
+   "kind": "item",
+   "source": "AeroRoutes schedule filings",
+   "source_id": "aeroroutes",
+   "tier": 2,
+   "country": "GLOBAL",
+   "category": "aviation-tracker",
+   "segments": [
+    "city",
+    "bush",
+    "beach"
+   ],
+   "first_seen": "2026-08-22T06:11+03:00",
+   "published": "2026-08-22",
+   "verdict": "CONSIDER"
+  },
+  {
+   "score": 84.2,
+   "components": {
+    "tier": 20,
+    "category": 14,
+    "lead": 8.4,
+    "relevance": 12,
+    "freshness": 19.8,
+    "corroborated": 10
+   },
+   "keywords": [
+    "route",
+    "flight"
+   ],
+   "shock_terms": [],
+   "dedupe_match": null,
+   "dedupe_similarity": 0.0,
+   "id": "0a03a269a3a1",
+   "title": "JTA Doubles Okinawa \u2013 Taipei Flights From Sep 2026",
+   "url": "https://www.aeroroutes.com/eng/260821-nusep26tpe",
+   "summary": "Published at 1600PDT / 2300GMT 21AUG26 Japan TransOcean Air (JTA) this week announced service expansion on Okinawa \u2013 Taipei Taoyuan route, with the launch of 2nd daily flight from 24SEP26, on board Boeing 737-800. Initially, the 2nd daily flight will operate during following dates in September and October 2026, then becoming daily operation from 24OCT26: September 2026: 24, 25, 27, 28 October 2026",
+   "kind": "item",
+   "source": "AeroRoutes schedule filings",
+   "source_id": "aeroroutes",
+   "tier": 2,
+   "country": "GLOBAL",
+   "category": "aviation-tracker",
+   "segments": [
+    "city",
+    "bush",
+    "beach"
+   ],
+   "first_seen": "2026-08-22T06:11+03:00",
+   "published": "2026-08-22",
+   "verdict": "CONSIDER"
+  },
+  {
+   "score": 84.2,
+   "components": {
+    "tier": 20,
+    "category": 14,
+    "lead": 8.4,
+    "relevance": 12,
+    "freshness": 19.8,
+    "corroborated": 10
+   },
+   "keywords": [
+    "route",
+    "airline"
+   ],
+   "shock_terms": [],
+   "dedupe_match": null,
+   "dedupe_similarity": 0.0,
+   "id": "f14655d200b5",
+   "title": "SIA Adds Lufthansa Kuala Lumpur Codeshare in NW26",
+   "url": "https://www.aeroroutes.com/eng/260821-sqlhcodeshare",
+   "summary": "Published at 1500PDT / 2200GMT 21AUG26 Singapore Airlines (SIA) at the launch of Northern winter 2026/27 season plans to expand codeshare partnership with Lufthansa, covering the latter\u2019s Frankfurt \u2013 Kuala Lumpur route from 25OCT26. The latter to serve this route with 787-9 aircraft 5 times weekly. LH704/SQ2274 FRA2130 \u2013 1640+1KUL 789 x24 LH705/SQ2275 KUL2355 \u2013 0600+1FRA 789 x35",
+   "kind": "item",
+   "source": "AeroRoutes schedule filings",
+   "source_id": "aeroroutes",
+   "tier": 2,
+   "country": "GLOBAL",
+   "category": "aviation-tracker",
+   "segments": [
+    "city",
+    "bush",
+    "beach"
+   ],
+   "first_seen": "2026-08-22T06:11+03:00",
+   "published": "2026-08-22",
+   "verdict": "CONSIDER"
+  },
+  {
+   "score": 82.8,
+   "components": {
+    "tier": 40,
+    "category": 20,
+    "lead": 12.0,
+    "relevance": 16,
+    "freshness": 19.8,
+    "stale_trap": -25
+   },
+   "keywords": [
+    "tax",
+    "eta"
+   ],
+   "shock_terms": [],
+   "dedupe_match": null,
+   "dedupe_similarity": 0.0,
+   "id": "fe3e78a0ae79",
+   "title": "Alufacade Kenya Ltd v Commissioner of Domestic Taxes (Tax Appeal E1295 of 2025) [2026] KETAT 317 (KLR) (7 August 2026) (Judgment)",
+   "url": "https://new.kenyalaw.org/akn/ke/judgment/ketat/2026/317/eng@2026-08-07",
+   "summary": "Alufacade Kenya Ltd v Commissioner of Domestic Taxes (Tax Appeal E1295 of 2025) [2026] KETAT 317 (KLR) (7 August 2026) (Judgment)",
+   "kind": "item",
+   "source": "Kenya Gazette (Kenya Law)",
+   "source_id": "ke-gazette",
+   "tier": 1,
+   "country": "KE",
+   "category": "gazette",
+   "segments": [
+    "city",
+    "bush",
+    "beach"
+   ],
+   "first_seen": "2026-08-22T06:10+03:00",
+   "published": "2026-08-07",
+   "verdict": "CHECK \u2014 source date older than the window"
+  },
+  {
+   "score": 82.8,
+   "components": {
+    "tier": 40,
+    "category": 20,
+    "lead": 12.0,
+    "relevance": 16,
+    "freshness": 19.8,
+    "stale_trap": -25
+   },
+   "keywords": [
+    "tax",
+    "eta"
+   ],
+   "shock_terms": [],
+   "dedupe_match": null,
+   "dedupe_similarity": 0.0,
+   "id": "c9ae91622e18",
+   "title": "Tile & Carpets Centre Ltd v Commissioner of Customs & Border Control (Tax Appeal E1169 of 2025) [2026] KETAT 316 (KLR) (7 August 2026) (Judgment)",
+   "url": "https://new.kenyalaw.org/akn/ke/judgment/ketat/2026/316/eng@2026-08-07",
+   "summary": "Tile & Carpets Centre Ltd v Commissioner of Customs & Border Control (Tax Appeal E1169 of 2025) [2026] KETAT 316 (KLR) (7 August 2026) (Judgment)",
+   "kind": "item",
+   "source": "Kenya Gazette (Kenya Law)",
+   "source_id": "ke-gazette",
+   "tier": 1,
+   "country": "KE",
+   "category": "gazette",
+   "segments": [
+    "city",
+    "bush",
+    "beach"
+   ],
+   "first_seen": "2026-08-22T06:10+03:00",
+   "published": "2026-08-07",
+   "verdict": "CHECK \u2014 source date older than the window"
+  },
+  {
+   "score": 82.8,
+   "components": {
+    "tier": 40,
+    "category": 20,
+    "lead": 12.0,
+    "relevance": 16,
+    "freshness": 19.8,
+    "stale_trap": -25
+   },
+   "keywords": [
+    "tax",
+    "eta"
+   ],
+   "shock_terms": [],
+   "dedupe_match": null,
+   "dedupe_similarity": 0.0,
+   "id": "7d8fe96f5948",
+   "title": "Ali v Commissioner of Domestic Taxes (Tax Appeal E797 of 2026) [2026] KETAT 315 (KLR) (7 August 2026) (Ruling)",
+   "url": "https://new.kenyalaw.org/akn/ke/judgment/ketat/2026/315/eng@2026-08-07",
+   "summary": "Ali v Commissioner of Domestic Taxes (Tax Appeal E797 of 2026) [2026] KETAT 315 (KLR) (7 August 2026) (Ruling)",
+   "kind": "item",
+   "source": "Kenya Gazette (Kenya Law)",
+   "source_id": "ke-gazette",
+   "tier": 1,
+   "country": "KE",
+   "category": "gazette",
+   "segments": [
+    "city",
+    "bush",
+    "beach"
+   ],
+   "first_seen": "2026-08-22T06:10+03:00",
+   "published": "2026-08-07",
+   "verdict": "CHECK \u2014 source date older than the window"
+  },
+  {
+   "score": 82.8,
+   "components": {
+    "tier": 40,
+    "category": 20,
+    "lead": 12.0,
+    "relevance": 16,
+    "freshness": 19.8,
+    "stale_trap": -25
+   },
+   "keywords": [
+    "tax",
+    "eta"
+   ],
+   "shock_terms": [],
+   "dedupe_match": null,
+   "dedupe_similarity": 0.0,
+   "id": "6d4e772466ab",
+   "title": "Panafrican Centre for Strategic Dev. Ltd v Commissioner Micro & Small Taxpayers (Tax Appeal E048 of 2026) [2026] KETAT 314 (KLR) (7 August 2026) (Ruling)",
+   "url": "https://new.kenyalaw.org/akn/ke/judgment/ketat/2026/314/eng@2026-08-07",
+   "summary": "Panafrican Centre for Strategic Dev. Ltd v Commissioner Micro & Small Taxpayers (Tax Appeal E048 of 2026) [2026] KETAT 314 (KLR) (7 August 2026) (Ruling)",
+   "kind": "item",
+   "source": "Kenya Gazette (Kenya Law)",
+   "source_id": "ke-gazette",
+   "tier": 1,
+   "country": "KE",
+   "category": "gazette",
+   "segments": [
+    "city",
+    "bush",
+    "beach"
+   ],
+   "first_seen": "2026-08-22T06:10+03:00",
+   "published": "2026-08-07",
+   "verdict": "CHECK \u2014 source date older than the window"
+  },
+  {
+   "score": 82.8,
+   "components": {
+    "tier": 40,
+    "category": 20,
+    "lead": 12.0,
+    "relevance": 16,
+    "freshness": 19.8,
+    "stale_trap": -25
+   },
+   "keywords": [
+    "tax",
+    "eta"
+   ],
+   "shock_terms": [],
+   "dedupe_match": null,
+   "dedupe_similarity": 0.0,
+   "id": "7e8c8d78e6b4",
+   "title": "Yarde Park Lounge Ltd v Commissioner for Domestic Taxes (Tax Appeal E1208 of 2025) [2026] KETAT 308 (KLR) (7 August 2026) (Judgment)",
+   "url": "https://new.kenyalaw.org/akn/ke/judgment/ketat/2026/308/eng@2026-08-07",
+   "summary": "Yarde Park Lounge Ltd v Commissioner for Domestic Taxes (Tax Appeal E1208 of 2025) [2026] KETAT 308 (KLR) (7 August 2026) (Judgment)",
+   "kind": "item",
+   "source": "Kenya Gazette (Kenya Law)",
+   "source_id": "ke-gazette",
+   "tier": 1,
+   "country": "KE",
+   "category": "gazette",
+   "segments": [
+    "city",
+    "bush",
+    "beach"
+   ],
+   "first_seen": "2026-08-22T06:10+03:00",
+   "published": "2026-08-07",
+   "verdict": "CHECK \u2014 source date older than the window"
+  },
+  {
+   "score": 82.8,
+   "components": {
+    "tier": 40,
+    "category": 20,
+    "lead": 12.0,
+    "relevance": 16,
+    "freshness": 19.8,
+    "stale_trap": -25
+   },
+   "keywords": [
+    "tax",
+    "eta"
+   ],
+   "shock_terms": [],
+   "dedupe_match": null,
+   "dedupe_similarity": 0.0,
+   "id": "895261ce8a60",
+   "title": "Khalalio General Trading Company v Kenya Revenue Authority (Tax Appeal E080 of 2026) [2026] KETAT 303 (KLR) (10 August 2026) (Judgment)",
+   "url": "https://new.kenyalaw.org/akn/ke/judgment/ketat/2026/303/eng@2026-08-10",
+   "summary": "Khalalio General Trading Company v Kenya Revenue Authority (Tax Appeal E080 of 2026) [2026] KETAT 303 (KLR) (10 August 2026) (Judgment)",
+   "kind": "item",
+   "source": "Kenya Gazette (Kenya Law)",
+   "source_id": "ke-gazette",
+   "tier": 1,
+   "country": "KE",
+   "category": "gazette",
+   "segments": [
+    "city",
+    "bush",
+    "beach"
+   ],
+   "first_seen": "2026-08-22T06:10+03:00",
+   "published": "2026-08-10",
+   "verdict": "CHECK \u2014 source date older than the window"
+  },
+  {
+   "score": 82.8,
+   "components": {
+    "tier": 40,
+    "category": 20,
+    "lead": 12.0,
+    "relevance": 16,
+    "freshness": 19.8,
+    "stale_trap": -25
+   },
+   "keywords": [
+    "tax",
+    "eta"
+   ],
+   "shock_terms": [],
+   "dedupe_match": null,
+   "dedupe_similarity": 0.0,
+   "id": "9e3b4aaff278",
+   "title": "Guliyes Group Ltd v Commissioner Domestic Taxes (Tax Appeal E746 of 2026) [2026] KETAT 302 (KLR) (7 August 2026) (Ruling)",
+   "url": "https://new.kenyalaw.org/akn/ke/judgment/ketat/2026/302/eng@2026-08-07",
+   "summary": "Guliyes Group Ltd v Commissioner Domestic Taxes (Tax Appeal E746 of 2026) [2026] KETAT 302 (KLR) (7 August 2026) (Ruling)",
+   "kind": "item",
+   "source": "Kenya Gazette (Kenya Law)",
+   "source_id": "ke-gazette",
+   "tier": 1,
+   "country": "KE",
+   "category": "gazette",
+   "segments": [
+    "city",
+    "bush",
+    "beach"
+   ],
+   "first_seen": "2026-08-22T06:10+03:00",
+   "published": "2026-08-07",
+   "verdict": "CHECK \u2014 source date older than the window"
+  },
+  {
+   "score": 82.8,
+   "components": {
+    "tier": 40,
+    "category": 20,
+    "lead": 12.0,
+    "relevance": 16,
+    "freshness": 19.8,
+    "stale_trap": -25
+   },
+   "keywords": [
+    "tax",
+    "eta"
+   ],
+   "shock_terms": [],
+   "dedupe_match": null,
+   "dedupe_similarity": 0.0,
+   "id": "a75c3fde9599",
+   "title": "Evans v Commissioner of Legal Services & Board Coordination (Tax Appeal E798 of 2026) [2026] KETAT 300 (KLR) (7 August 2026) (Ruling)",
+   "url": "https://new.kenyalaw.org/akn/ke/judgment/ketat/2026/300/eng@2026-08-07",
+   "summary": "Evans v Commissioner of Legal Services & Board Coordination (Tax Appeal E798 of 2026) [2026] KETAT 300 (KLR) (7 August 2026) (Ruling)",
+   "kind": "item",
+   "source": "Kenya Gazette (Kenya Law)",
+   "source_id": "ke-gazette",
+   "tier": 1,
+   "country": "KE",
+   "category": "gazette",
+   "segments": [
+    "city",
+    "bush",
+    "beach"
+   ],
+   "first_seen": "2026-08-22T06:10+03:00",
+   "published": "2026-08-07",
+   "verdict": "CHECK \u2014 source date older than the window"
+  },
+  {
+   "score": 82.3,
    "components": {
     "tier": 40,
     "category": 32,
     "lead": 1.2,
     "relevance": 4,
-    "freshness": 15.7,
+    "freshness": 11.1,
     "undated": -6
    },
    "keywords": [
@@ -334,13 +1275,13 @@
    "verdict": "CONSIDER"
   },
   {
-   "score": 86.5,
+   "score": 81.9,
    "components": {
     "tier": 40,
     "category": 17,
     "lead": 6.0,
     "relevance": 0,
-    "freshness": 13.5,
+    "freshness": 8.9,
     "corroborated": 10
    },
    "keywords": [],
@@ -367,13 +1308,79 @@
    "verdict": "CONSIDER"
   },
   {
-   "score": 85.9,
+   "score": 81.8,
+   "components": {
+    "tier": 40,
+    "category": 20,
+    "lead": 12.0,
+    "relevance": 0,
+    "freshness": 19.8,
+    "stale_trap": -10
+   },
+   "keywords": [],
+   "shock_terms": [],
+   "dedupe_match": null,
+   "dedupe_similarity": 0.0,
+   "id": "0203df21a1e0",
+   "title": "Waema v Match Masters Ltd (Civil Appeal E073 of 2025) [2026] KEHC 13000 (KLR) (18 August 2026) (Ruling)",
+   "url": "https://new.kenyalaw.org/akn/ke/judgment/kehc/2026/13000/eng@2026-08-18",
+   "summary": "Waema v Match Masters Ltd (Civil Appeal E073 of 2025) [2026] KEHC 13000 (KLR) (18 August 2026) (Ruling)",
+   "kind": "item",
+   "source": "Kenya Gazette (Kenya Law)",
+   "source_id": "ke-gazette",
+   "tier": 1,
+   "country": "KE",
+   "category": "gazette",
+   "segments": [
+    "city",
+    "bush",
+    "beach"
+   ],
+   "first_seen": "2026-08-22T06:10+03:00",
+   "published": "2026-08-18",
+   "verdict": "CHECK \u2014 source date older than the window"
+  },
+  {
+   "score": 81.8,
+   "components": {
+    "tier": 40,
+    "category": 20,
+    "lead": 12.0,
+    "relevance": 0,
+    "freshness": 19.8,
+    "stale_trap": -10
+   },
+   "keywords": [],
+   "shock_terms": [],
+   "dedupe_match": null,
+   "dedupe_similarity": 0.0,
+   "id": "510d57847a47",
+   "title": "Kiwipay Kenya Ltd v Republic (Criminal Miscellaneous Application E130 of 2023) [2026] KEHC 12998 (KLR) (19 August 2026) (Ruling)",
+   "url": "https://new.kenyalaw.org/akn/ke/judgment/kehc/2026/12998/eng@2026-08-19",
+   "summary": "Kiwipay Kenya Ltd v Republic (Criminal Miscellaneous Application E130 of 2023) [2026] KEHC 12998 (KLR) (19 August 2026) (Ruling)",
+   "kind": "item",
+   "source": "Kenya Gazette (Kenya Law)",
+   "source_id": "ke-gazette",
+   "tier": 1,
+   "country": "KE",
+   "category": "gazette",
+   "segments": [
+    "city",
+    "bush",
+    "beach"
+   ],
+   "first_seen": "2026-08-22T06:10+03:00",
+   "published": "2026-08-19",
+   "verdict": "CHECK \u2014 source date older than the window"
+  },
+  {
+   "score": 81.3,
    "components": {
     "tier": 20,
     "category": 14,
     "lead": 8.4,
     "relevance": 16,
-    "freshness": 17.5,
+    "freshness": 12.9,
     "corroborated": 10
    },
    "keywords": [
@@ -402,1009 +1409,6 @@
    "first_seen": "2026-08-21T23:55+03:00",
    "published": "2026-08-21",
    "verdict": "CONSIDER"
-  },
-  {
-   "score": 81.9,
-   "components": {
-    "tier": 20,
-    "category": 14,
-    "lead": 8.4,
-    "relevance": 12,
-    "freshness": 17.5,
-    "corroborated": 10
-   },
-   "keywords": [
-    "route",
-    "airline"
-   ],
-   "shock_terms": [],
-   "dedupe_match": null,
-   "dedupe_similarity": 0.0,
-   "id": "0371db39c1cc",
-   "title": "IndiGo Resumes Hyderabad \u2013 Male in NW26",
-   "url": "https://www.aeroroutes.com/eng/260821-6enw26mle",
-   "summary": "Published at 1300PDT / 2000GMT 21AUG26 Indian carrier IndiGo during Northern winter 2026/27 season schedules service resumption on Hyderabad \u2013 Male route, last served until January 2025. The airline will operate this service on board Airbus A320neo aircraft from 02DEC26 to 31JAN27, 4 times weekly. 6E1137 HYD1515 \u2013 1725MLE 32N x246 6E1138 MLE1825 \u2013 2130HYD 32N x246",
-   "kind": "item",
-   "source": "AeroRoutes schedule filings",
-   "source_id": "aeroroutes",
-   "tier": 2,
-   "country": "GLOBAL",
-   "category": "aviation-tracker",
-   "segments": [
-    "city",
-    "bush",
-    "beach"
-   ],
-   "first_seen": "2026-08-21T23:55+03:00",
-   "published": "2026-08-21",
-   "verdict": "CONSIDER"
-  },
-  {
-   "score": 81.9,
-   "components": {
-    "tier": 20,
-    "category": 14,
-    "lead": 8.4,
-    "relevance": 16,
-    "freshness": 13.5,
-    "corroborated": 10
-   },
-   "keywords": [
-    "vat",
-    "route"
-   ],
-   "shock_terms": [],
-   "dedupe_match": null,
-   "dedupe_similarity": 0.0,
-   "id": "036c9d47b959",
-   "title": "Allegiant Air Feb 2027 Network Additions",
-   "url": "https://www.aeroroutes.com/eng/260821-g4feb27",
-   "summary": "Published at 0900PDT / 1600GMT 21AUG26 Allegiant Air this week opened reservations for 9 new routes scheduled from February 2027. Planned network addition overview as follows. Fort Lauderdale/Hollywood \u2013 Portsmouth 20FEB27 \u2013 01MAY27 1 weekly 737 MAX 8-200 Fort Lauderdale/Hollywood \u2013 Providence 13FEB27 \u2013 24APR27 1 weekly 737 MAX 8-200 Orlando \u2013 Cincinnati eff 12FEB27 2 weekly A320 Orlando Sanford \u2013",
-   "kind": "item",
-   "source": "AeroRoutes schedule filings",
-   "source_id": "aeroroutes",
-   "tier": 2,
-   "country": "GLOBAL",
-   "category": "aviation-tracker",
-   "segments": [
-    "city",
-    "bush",
-    "beach"
-   ],
-   "first_seen": "2026-08-21T20:15+03:00",
-   "published": "2026-08-21",
-   "verdict": "CONSIDER"
-  },
-  {
-   "score": 81.9,
-   "components": {
-    "tier": 20,
-    "category": 14,
-    "lead": 8.4,
-    "relevance": 16,
-    "freshness": 13.5,
-    "corroborated": 10
-   },
-   "keywords": [
-    "route",
-    "frequency"
-   ],
-   "shock_terms": [],
-   "dedupe_match": null,
-   "dedupe_similarity": 0.0,
-   "id": "b9dd3bbbae4c",
-   "title": "Air Canada 2026-27 Holidays Toronto \u2013 Paris Service Increase",
-   "url": "https://www.aeroroutes.com/eng/260821-acnw26yyzcdg",
-   "summary": "Published at 0800PDT / 1500GMT 21AUG26 Air Canada during 2026-27 Holidays season plans service increase on Toronto Pearson \u2013 Paris Charles de Gaulle route, as overall service to increase from 7 to 10 weekly. Planned frequency increase is in effect from 18DEC26 to 10JAN27, operated by a mix of Airbus A330-300 and 787-8. AC872 YYZ2050 \u2013 1035+1CDG 333 D AC884 YYZ2155 \u2013 1140+1CDG 788 257 AC873 CDG1205",
-   "kind": "item",
-   "source": "AeroRoutes schedule filings",
-   "source_id": "aeroroutes",
-   "tier": 2,
-   "country": "GLOBAL",
-   "category": "aviation-tracker",
-   "segments": [
-    "city",
-    "bush",
-    "beach"
-   ],
-   "first_seen": "2026-08-21T20:15+03:00",
-   "published": "2026-08-21",
-   "verdict": "CONSIDER"
-  },
-  {
-   "score": 81.1,
-   "components": {
-    "tier": 40,
-    "category": 9,
-    "lead": 16.8,
-    "relevance": 8,
-    "freshness": 13.3,
-    "undated": -6
-   },
-   "keywords": [
-    "resort",
-    "flight"
-   ],
-   "shock_terms": [],
-   "dedupe_match": null,
-   "dedupe_similarity": 0.0,
-   "id": "df6e7c4efdcd",
-   "title": "A New Perspective on Dhofar: Al Baleed Resort Salalah by Anantara Launches Scenic Helicopter Flights with Al Sharqiya...",
-   "url": "https://media.minorhotels.com/en-GLO/269456-a-new-perspective-on-dhofar-al-baleed-resort-salalah-by-anantara-launches-scenic-helicopter-flights-with-al-sharqiya-aviation-asa",
-   "summary": "",
-   "kind": "item",
-   "source": "Minor Hotels newsroom",
-   "source_id": "dev-minor",
-   "tier": 1,
-   "country": "GLOBAL",
-   "category": "hotel-group",
-   "segments": [
-    "beach"
-   ],
-   "first_seen": "2026-08-21T20:03+03:00",
-   "published": null,
-   "verdict": "CONSIDER"
-  },
-  {
-   "score": 81.1,
-   "components": {
-    "tier": 40,
-    "category": 9,
-    "lead": 16.8,
-    "relevance": 8,
-    "freshness": 13.3,
-    "undated": -6
-   },
-   "keywords": [
-    "hotel",
-    "resort"
-   ],
-   "shock_terms": [],
-   "dedupe_match": null,
-   "dedupe_similarity": 0.0,
-   "id": "d092ac3a3ca4",
-   "title": "IHG Hotels & Resorts brings hospitality on the road with new IHG Racquet Cruiser at the 2026 US Open",
-   "url": "https://www.ihgplc.com/en/news-and-media/news-releases/2026/ihg-hotels-and-resorts-brings-hospitality-on-the-road-with-new-ihg-racquet-cruiser-at-2026-us-open",
-   "summary": "",
-   "kind": "item",
-   "source": "IHG news",
-   "source_id": "dev-ihg",
-   "tier": 1,
-   "country": "GLOBAL",
-   "category": "hotel-group",
-   "segments": [
-    "city",
-    "bush",
-    "beach"
-   ],
-   "first_seen": "2026-08-21T20:03+03:00",
-   "published": null,
-   "verdict": "CONSIDER"
-  },
-  {
-   "score": 79.9,
-   "components": {
-    "tier": 20,
-    "category": 24,
-    "lead": 2.4,
-    "relevance": 12,
-    "freshness": 13.5,
-    "undated": -6,
-    "shock": 18,
-    "page_change": -4
-   },
-   "keywords": [
-    "outbreak"
-   ],
-   "shock_terms": [
-    "outbreak"
-   ],
-   "dedupe_match": null,
-   "dedupe_similarity": 0.0,
-   "id": "914de08e7426",
-   "title": "[page changed] ProMED-mail",
-   "url": "https://promedmail.org/",
-   "summary": "Protecting Global Health, One Alert at a Time | ProMED Previous slide Next slide Protecting Global Health, One Alert at a Time ProMED: Your 24/7 early warning system for emerging infectious diseases worldwide. Subscribe ProMED's Weekly Pulse A snapshot of global health events from the past 7 days Latest Posts on ProMED All Date Title Fri Aug 21 2026 LUMPY SKIN DISEASE - INDIA (02): (DELHI) SPORADI",
-   "kind": "page-change",
-   "source": "ProMED-mail",
-   "source_id": "promed",
-   "tier": 2,
-   "country": "GLOBAL",
-   "category": "health",
-   "segments": [
-    "city",
-    "bush",
-    "beach"
-   ],
-   "first_seen": "2026-08-21T20:15+03:00",
-   "published": null,
-   "verdict": "CONSIDER"
-  },
-  {
-   "score": 79.3,
-   "components": {
-    "tier": 5,
-    "category": 5,
-    "lead": 0.0,
-    "relevance": 28,
-    "freshness": 13.3,
-    "corroborated": 10,
-    "shock": 18
-   },
-   "keywords": [
-    "outbreak",
-    "ebola",
-    "airline"
-   ],
-   "shock_terms": [
-    "outbreak"
-   ],
-   "dedupe_match": null,
-   "dedupe_similarity": 0.33,
-   "id": "515785a23a07",
-   "title": "News: African Airlines Played Key Role in Tackling Ebola, Mpox Outbreaks, says Africa CDC",
-   "url": "https://atqnews.com/news-african-airlines-played-key-role-in-tackling-ebola-mpox-outbreaks-says-africa-cdc",
-   "summary": "African airlines have played a critical role in helping the continent detect, respond to and contain infectious disease outbreaks, including Ebola and\u2026 The post News: African Airlines Played Key Role in Tackling Ebola, Mpox Outbreaks, says Africa CDC appeared first on ATQ News .",
-   "kind": "item",
-   "source": "ATQ News",
-   "source_id": "tp-atqnews",
-   "tier": 3,
-   "country": "REG",
-   "category": "trade",
-   "segments": [
-    "city",
-    "bush",
-    "beach"
-   ],
-   "first_seen": "2026-08-21T20:03+03:00",
-   "published": "2026-08-21",
-   "verdict": "CONSIDER"
-  },
-  {
-   "score": 77.9,
-   "components": {
-    "tier": 20,
-    "category": 14,
-    "lead": 8.4,
-    "relevance": 12,
-    "freshness": 13.5,
-    "corroborated": 10
-   },
-   "keywords": [
-    "route",
-    "flight"
-   ],
-   "shock_terms": [],
-   "dedupe_match": null,
-   "dedupe_similarity": 0.0,
-   "id": "c29b56187c7f",
-   "title": "Delta 2026-27 Holidays Florida Service Increases",
-   "url": "https://www.aeroroutes.com/eng/260821-dldec26fl",
-   "summary": "Published at 1000PDT / 1700GMT 21AUG26 Delta during 2026-27 Holidays season schedules extra routes to/from Orlando , with additional 4 routes scheduled from 19DEC26 \u2013 03JAN27. Orlando \u2013 Indianapolis 19DEC26 \u2013 03JAN27 5 weekly Embraer E175 (Republic Airways) Orlando \u2013 Kansas City 19DEC26 \u2013 03JAN27 5 weekly Embraer E175 (Republic Airways) Orlando \u2013 Nashville 19DEC26 \u2013 03JAN27 5 weekly Embraer E175 (",
-   "kind": "item",
-   "source": "AeroRoutes schedule filings",
-   "source_id": "aeroroutes",
-   "tier": 2,
-   "country": "GLOBAL",
-   "category": "aviation-tracker",
-   "segments": [
-    "city",
-    "bush",
-    "beach"
-   ],
-   "first_seen": "2026-08-21T20:15+03:00",
-   "published": "2026-08-21",
-   "verdict": "CONSIDER"
-  },
-  {
-   "score": 74.9,
-   "components": {
-    "tier": 40,
-    "category": 24,
-    "lead": 3.6,
-    "relevance": 0,
-    "freshness": 13.3,
-    "undated": -6
-   },
-   "keywords": [],
-   "shock_terms": [],
-   "dedupe_match": null,
-   "dedupe_similarity": 0.0,
-   "id": "44460ff68feb",
-   "title": "Communicable disease threats report, 15 - 21 August 2026, week 34",
-   "url": "https://www.ecdc.europa.eu/en/publications-data/communicable-disease-threats-report-15-21-august-2026-week-34",
-   "summary": "",
-   "kind": "item",
-   "source": "ECDC weekly communicable disease threats report",
-   "source_id": "ecdc-cdtr",
-   "tier": 1,
-   "country": "GLOBAL",
-   "category": "health",
-   "segments": [
-    "city",
-    "bush",
-    "beach"
-   ],
-   "first_seen": "2026-08-21T20:03+03:00",
-   "published": null,
-   "verdict": "CONSIDER"
-  },
-  {
-   "score": 73.9,
-   "components": {
-    "tier": 40,
-    "category": 24,
-    "lead": 2.4,
-    "relevance": 0,
-    "freshness": 13.5,
-    "undated": -6
-   },
-   "keywords": [],
-   "shock_terms": [],
-   "dedupe_match": null,
-   "dedupe_similarity": 0.0,
-   "id": "5078a6957d0a",
-   "title": "Communicable disease threats report, 15 - 21 August 2026, week 34",
-   "url": "https://www.ecdc.europa.eu/en/publications-data/communicable-disease-threats-report-15-21-august-2026-week-34",
-   "summary": "",
-   "kind": "item",
-   "source": "ECDC \u2014 DRC/Uganda Ebola outbreak page",
-   "source_id": "ecdc-ebola",
-   "tier": 1,
-   "country": "GLOBAL",
-   "category": "health",
-   "segments": [
-    "city",
-    "bush"
-   ],
-   "first_seen": "2026-08-21T20:15+03:00",
-   "published": null,
-   "verdict": "CONSIDER"
-  },
-  {
-   "score": 71.1,
-   "components": {
-    "tier": 40,
-    "category": 7,
-    "lead": 16.8,
-    "relevance": 0,
-    "freshness": 13.3,
-    "undated": -6
-   },
-   "keywords": [],
-   "shock_terms": [],
-   "dedupe_match": null,
-   "dedupe_similarity": 0.0,
-   "id": "3c7d5bcfd2c3",
-   "title": "Procurement of a Framework Contract for the P...",
-   "url": "https://egpuganda.go.ug/index/390655346_egp",
-   "summary": "",
-   "kind": "item",
-   "source": "Uganda EGP portal",
-   "source_id": "ug-tenders",
-   "tier": 1,
-   "country": "UG",
-   "category": "tender",
-   "segments": [
-    "city",
-    "bush",
-    "beach"
-   ],
-   "first_seen": "2026-08-21T20:03+03:00",
-   "published": null,
-   "verdict": "CONSIDER"
-  },
-  {
-   "score": 67.9,
-   "components": {
-    "tier": 20,
-    "category": 9,
-    "lead": 3.6,
-    "relevance": 12,
-    "freshness": 13.3,
-    "corroborated": 10
-   },
-   "keywords": [
-    "eta",
-    "tourist"
-   ],
-   "shock_terms": [],
-   "dedupe_match": null,
-   "dedupe_similarity": 0.0,
-   "id": "7d3e5f77fb73",
-   "title": "Jubil\u00e4umsabend in M\u00fcnster (+Galerie): Reiseb\u00fcro L\u00fcckertz feiert 100-j\u00e4hriges Bestehen",
-   "url": "https://www.fvw.de/touristik/vertrieb/grosser-jubilaeumsabend-in-muenster-galerie-reisebuero-lueckertz-feiert-100.-geburtstag-mit-vielen-ehrengaesten-263928",
-   "summary": "1926 \u00f6ffnete eines der gr\u00f6\u00dften deutschen Reiseb\u00fcros in M\u00fcnster seine Pforten. Das feierte Familie L\u00fcckertz und die weiteren Mitglieder der Reiseart-Gesellschaft am Donnerstag im gro\u00dfen Stil: Sie hatten f\u00fcr den Jubil\u00e4umsabend kurzerhand das LWL-Museum f\u00fcr Kunst und Kultur gemietet. Auch viele Touristiker und Branchenvertreter waren mit dabei \u2013 darunter Ehrengast Frank Naeve aus der Lufthansa-Chefet",
-   "kind": "item",
-   "source": "FVW / German travel trade",
-   "source_id": "sm-derreise",
-   "tier": 2,
-   "country": "GLOBAL",
-   "category": "source-market",
-   "segments": [
-    "beach",
-    "bush"
-   ],
-   "first_seen": "2026-08-21T20:03+03:00",
-   "published": "2026-08-21",
-   "verdict": "weak"
-  },
-  {
-   "score": 67.9,
-   "components": {
-    "tier": 20,
-    "category": 9,
-    "lead": 3.6,
-    "relevance": 12,
-    "freshness": 13.3,
-    "corroborated": 10
-   },
-   "keywords": [
-    "eta",
-    "tourist"
-   ],
-   "shock_terms": [],
-   "dedupe_match": null,
-   "dedupe_similarity": 0.0,
-   "id": "da6dd9882a32",
-   "title": "Frauen in F\u00fchrung (Teil 6): Tina Kirfel: M\u00e4nner m\u00fcssen Frauen in F\u00fchrung zulassen",
-   "url": "https://www.fvw.de/counter/karriere/frauen-in-fuehrung-teil-6-tina-kirfel-maenner-muessen-frauen-in-fuehrung-zulassen-263837",
-   "summary": "Warum schaffen es noch immer vergleichsweise wenige Frauen in die F\u00fchrungsetagen der Touristik? Tina Kirfel fordert mehr Vertrauen in weibliche F\u00fchrungskr\u00e4fte, flexiblere Arbeitsmodelle und ein Umdenken bei der Besetzung von Spitzenpositionen.",
-   "kind": "item",
-   "source": "FVW / German travel trade",
-   "source_id": "sm-derreise",
-   "tier": 2,
-   "country": "GLOBAL",
-   "category": "source-market",
-   "segments": [
-    "beach",
-    "bush"
-   ],
-   "first_seen": "2026-08-21T20:03+03:00",
-   "published": "2026-08-21",
-   "verdict": "weak"
-  },
-  {
-   "score": 63.9,
-   "components": {
-    "tier": 20,
-    "category": 9,
-    "lead": 3.6,
-    "relevance": 8,
-    "freshness": 13.3,
-    "corroborated": 10
-   },
-   "keywords": [
-    "eta"
-   ],
-   "shock_terms": [],
-   "dedupe_match": null,
-   "dedupe_similarity": 0.0,
-   "id": "beb4351c43e6",
-   "title": "\"Ich w\u00e4re vorsichtig\": Check24-Chatbot wirbt f\u00fcr Konkurrenz \u2013 und teilt gegen OTA aus",
-   "url": "https://www.fvw.de/touristik/vertrieb/ich-waere-vorsichtig-check24-chatbot-wirbt-fuer-konkurrenz--und-teilt-gegen-ota-aus-263932",
-   "summary": "Ob das so gewollt ist? Der KI-Chatbot \"Sophie\" vom OTA Check24 empfiehlt auf Anfrage Reiseb\u00fcros in Hamburg und teilt zudem gegen das eigene Unternehmen aus. F\u00fcr Expedient Alain Freeman, der die Fragen gestellt hatte, ist der Bot jetzt \"Mitarbeiter des Monats\". Die Details.",
-   "kind": "item",
-   "source": "FVW / German travel trade",
-   "source_id": "sm-derreise",
-   "tier": 2,
-   "country": "GLOBAL",
-   "category": "source-market",
-   "segments": [
-    "beach",
-    "bush"
-   ],
-   "first_seen": "2026-08-21T20:03+03:00",
-   "published": "2026-08-21",
-   "verdict": "weak"
-  },
-  {
-   "score": 63.9,
-   "components": {
-    "tier": 20,
-    "category": 9,
-    "lead": 3.6,
-    "relevance": 8,
-    "freshness": 13.3,
-    "corroborated": 10
-   },
-   "keywords": [
-    "eta"
-   ],
-   "shock_terms": [],
-   "dedupe_match": null,
-   "dedupe_similarity": 0.0,
-   "id": "72977197cf99",
-   "title": "Balkan: Serbien k\u00e4mpft weiter gegen verheerende Waldbr\u00e4nde",
-   "url": "https://www.fvw.de/touristik/destination/balkan-serbien-kaempft-weiter-gegen-verheerende-waldbraende-263920",
-   "summary": "Mehr als 3000 Hektar Vegetation sind im Banater D\u00fcnenland verbrannt. Einsatzkr\u00e4fte k\u00e4mpfen weiter gegen das schwer zug\u00e4ngliche Feuer \u2013 erstmals hilft ein russisches L\u00f6schflugzeug.",
-   "kind": "item",
-   "source": "FVW / German travel trade",
-   "source_id": "sm-derreise",
-   "tier": 2,
-   "country": "GLOBAL",
-   "category": "source-market",
-   "segments": [
-    "beach",
-    "bush"
-   ],
-   "first_seen": "2026-08-21T20:03+03:00",
-   "published": "2026-08-21",
-   "verdict": "weak"
-  },
-  {
-   "score": 63.9,
-   "components": {
-    "tier": 20,
-    "category": 9,
-    "lead": 3.6,
-    "relevance": 8,
-    "freshness": 13.3,
-    "corroborated": 10
-   },
-   "keywords": [
-    "hotel",
-    "tourist"
-   ],
-   "shock_terms": [],
-   "dedupe_match": null,
-   "dedupe_similarity": 0.0,
-   "id": "fbf0a9ba7b3f",
-   "title": "Trustpilot-Analyse: Von Airbnb bis TUI: Gro\u00dfe Unterschiede bei Touristik-Bewertungen",
-   "url": "https://www.fvw.de/touristik/vertrieb/trustpilot-analyse-von-airbnb-bis-tui-grosse-unterschiede-bei-den-bewertungen-in-der-touristik-263779",
-   "summary": "Immer mehr Reisende teilen ihre Erfahrungen mit Touristikunternehmen \u00f6ffentlich im Internet. Eine Trustpilot-Analyse zeigt, nach welchen Kriterien Anbieter der Reisebranche, wie Mietwagenfirmen, Fluggesellschaften und Hotelketten, bewertet werden und welche Faktoren dabei \u00fcber Lob oder Kritik entscheiden.",
-   "kind": "item",
-   "source": "FVW / German travel trade",
-   "source_id": "sm-derreise",
-   "tier": 2,
-   "country": "GLOBAL",
-   "category": "source-market",
-   "segments": [
-    "beach",
-    "bush"
-   ],
-   "first_seen": "2026-08-21T20:03+03:00",
-   "published": "2026-08-20",
-   "verdict": "weak"
-  },
-  {
-   "score": 63.9,
-   "components": {
-    "tier": 20,
-    "category": 9,
-    "lead": 3.6,
-    "relevance": 8,
-    "freshness": 13.3,
-    "corroborated": 10
-   },
-   "keywords": [
-    "airport"
-   ],
-   "shock_terms": [],
-   "dedupe_match": null,
-   "dedupe_similarity": 0.0,
-   "id": "4e8a983ca4c3",
-   "title": "Israels gr\u00f6\u00dfter Airport: Streik der Gep\u00e4ckmitarbeiter verursacht Chaos in Tel Aviv",
-   "url": "https://www.fvw.de/touristik/verkehr/israels-groesster-airport-gepaeckstreik-sorgt-fuer-chaos-in-tel-aviv-263912",
-   "summary": "Ein Streik beim Gep\u00e4ckpersonal bringt den Flughafen bei Tel Aviv zum Stillstand. Lange Schlangen und dichtes Gedr\u00e4nge pr\u00e4gen einen der verkehrsreichsten Tage der Sommerferien.",
-   "kind": "item",
-   "source": "FVW / German travel trade",
-   "source_id": "sm-derreise",
-   "tier": 2,
-   "country": "GLOBAL",
-   "category": "source-market",
-   "segments": [
-    "beach",
-    "bush"
-   ],
-   "first_seen": "2026-08-21T20:03+03:00",
-   "published": "2026-08-20",
-   "verdict": "weak"
-  },
-  {
-   "score": 61.5,
-   "components": {
-    "tier": 20,
-    "category": 5,
-    "lead": 1.2,
-    "relevance": 12,
-    "freshness": 13.3,
-    "corroborated": 10
-   },
-   "keywords": [
-    "route",
-    "airline"
-   ],
-   "shock_terms": [],
-   "dedupe_match": null,
-   "dedupe_similarity": 0.0,
-   "id": "a06c8f5897f1",
-   "title": "The New Long-Haul Routes Testing How Far Demand Really Stretches",
-   "url": "https://skift.com/2026/08/21/the-new-long-haul-routes-testing-how-far-demand-really-stretches",
-   "summary": "From Sapporo to Riyadh, airlines are getting bolder with their long-haul route bets and using efficient widebody jets to test markets that may once have seemed too niche.",
-   "kind": "item",
-   "source": "Skift",
-   "source_id": "tp-skift",
-   "tier": 2,
-   "country": "GLOBAL",
-   "category": "trade",
-   "segments": [
-    "city",
-    "bush",
-    "beach"
-   ],
-   "first_seen": "2026-08-21T20:03+03:00",
-   "published": "2026-08-21",
-   "verdict": "weak"
-  },
-  {
-   "score": 59.9,
-   "components": {
-    "tier": 20,
-    "category": 5,
-    "lead": 3.6,
-    "relevance": 8,
-    "freshness": 13.3,
-    "corroborated": 10
-   },
-   "keywords": [
-    "hotel",
-    "tourist"
-   ],
-   "shock_terms": [],
-   "dedupe_match": null,
-   "dedupe_similarity": 0.0,
-   "id": "b1d948e9c6ea",
-   "title": "AI Can Score Every Visitor on Your Hotel Website in Real Time, Shanghai Built the Terminal Before the Interface, Emerging Markets Build Sales Instincts Luxury Markets Never Could",
-   "url": "https://www.hospitalitynet.org/editorial/4134055/ai-can-score-every-visitor-on-your-hotel-website-in-real-time-shanghai-built-the-terminal-before-the-interface-emerging-markets-build-sales-instincts-luxury-markets-never-could",
-   "summary": "Friday brought Lighthouse Direct's five-algorithm AI visitor scoring system that targets offers to website visitors by intent and spend before they bounce to an OTA, Pertlink on Shanghai's 100 AI tourist terminals built on 84,000 content entries as a destination data-layer model, and The Sales Le...",
-   "kind": "item",
-   "source": "Hospitality Net \u2014 Africa announcements",
-   "source_id": "dev-hospitalitynet-africa",
-   "tier": 2,
-   "country": "REG",
-   "category": "trade",
-   "segments": [
-    "city",
-    "bush",
-    "beach"
-   ],
-   "first_seen": "2026-08-21T20:03+03:00",
-   "published": "2026-08-21",
-   "verdict": "weak"
-  },
-  {
-   "score": 59.9,
-   "components": {
-    "tier": 20,
-    "category": 9,
-    "lead": 3.6,
-    "relevance": 4,
-    "freshness": 13.3,
-    "corroborated": 10
-   },
-   "keywords": [
-    "airline"
-   ],
-   "shock_terms": [],
-   "dedupe_match": null,
-   "dedupe_similarity": 0.0,
-   "id": "33c5baa079a0",
-   "title": "Tankstopp auf dem R\u00fcckflug: Discover leidet unter Kerosin-Mangel in Windhuk",
-   "url": "https://www.fvw.de/touristik/verkehr/tankstopp-auf-dem-rueckflug-discover-leidet-unter-kerosin-mangel-in-windhuk-263933",
-   "summary": "Kerosin ist knapp \u2013 derzeit zumindest am Flughafen im namibischen Windhuk. Das trifft auch Discover Airlines. Die Lufthansa-Tochter ist gezwungen, auf R\u00fcckfl\u00fcgen nach Deutschland einen Tankstopp einzulegen.",
-   "kind": "item",
-   "source": "FVW / German travel trade",
-   "source_id": "sm-derreise",
-   "tier": 2,
-   "country": "GLOBAL",
-   "category": "source-market",
-   "segments": [
-    "beach",
-    "bush"
-   ],
-   "first_seen": "2026-08-21T20:03+03:00",
-   "published": "2026-08-21",
-   "verdict": "weak"
-  },
-  {
-   "score": 59.9,
-   "components": {
-    "tier": 20,
-    "category": 9,
-    "lead": 3.6,
-    "relevance": 4,
-    "freshness": 13.3,
-    "corroborated": 10
-   },
-   "keywords": [
-    "tourist"
-   ],
-   "shock_terms": [],
-   "dedupe_match": null,
-   "dedupe_similarity": 0.0,
-   "id": "7625474e783e",
-   "title": "Ein Jahr Haft: Schweizer verunglimpft Feiertag auf Bali",
-   "url": "https://www.fvw.de/touristik/destination/ein-jahr-haft-schweizer-verunglimpft-feiertag-auf-bali-263934",
-   "summary": "Am Feiertag Nyepi steht die Urlaubsinsel still \u2013 auch f\u00fcr Touristen. Ein Mann aus der Schweiz \u00e4rgert sich im Internet \u00fcber die Regeln. Daf\u00fcr muss er nun ein Jahr ins Gef\u00e4ngnis.",
-   "kind": "item",
-   "source": "FVW / German travel trade",
-   "source_id": "sm-derreise",
-   "tier": 2,
-   "country": "GLOBAL",
-   "category": "source-market",
-   "segments": [
-    "beach",
-    "bush"
-   ],
-   "first_seen": "2026-08-21T20:03+03:00",
-   "published": "2026-08-21",
-   "verdict": "weak"
-  },
-  {
-   "score": 59.9,
-   "components": {
-    "tier": 20,
-    "category": 9,
-    "lead": 3.6,
-    "relevance": 4,
-    "freshness": 13.3,
-    "corroborated": 10
-   },
-   "keywords": [
-    "tourist"
-   ],
-   "shock_terms": [],
-   "dedupe_match": null,
-   "dedupe_similarity": 0.0,
-   "id": "55832b0102d5",
-   "title": "DRV fvw|TravelTalk Destination Forum: Wie Kasachstan deutsche Touristiker begeistert",
-   "url": "https://www.fvw.de/touristik/destination/drv-fvwtraveltalk-destination-forum-fuenf-regionen-ein-ziel--kasachstan-entdecken-263866",
-   "summary": "65 Reiseb\u00fcros und Reiseveranstalter sind beim DRV fvw|TravelTalk Destination Forum Kasachstan unterwegs, um das neuntgr\u00f6\u00dfte Land der Welt kennenzulernen. In f\u00fcnf Gruppen erkunden sie verschiedene Regionen und treffen sich dann zum Kongress in Astana.",
-   "kind": "item",
-   "source": "FVW / German travel trade",
-   "source_id": "sm-derreise",
-   "tier": 2,
-   "country": "GLOBAL",
-   "category": "source-market",
-   "segments": [
-    "beach",
-    "bush"
-   ],
-   "first_seen": "2026-08-21T20:03+03:00",
-   "published": "2026-08-21",
-   "verdict": "weak"
-  },
-  {
-   "score": 59.3,
-   "components": {
-    "tier": 20,
-    "category": 4,
-    "lead": 0.0,
-    "relevance": 12,
-    "freshness": 13.3,
-    "corroborated": 10
-   },
-   "keywords": [
-    "eta",
-    "investment"
-   ],
-   "shock_terms": [],
-   "dedupe_match": null,
-   "dedupe_similarity": 0.2,
-   "id": "b49bcd8066f9",
-   "title": "Saudi Gold Refinery announces bid to investment in Tanzania\u2019s mining sector",
-   "url": "https://dailynews.co.tz/saudi-gold-refinery-announces-bid-to-investment-in-tanzanias-mining-sector",
-   "summary": "DODOMA: THE Saudi Gold Refinery firm has tabled interest for a major investment in Tanzania\u2019s mining sector, with the company planning to undertake detailed exploration before moving into large-scale mining in accordance with the country\u2019s laws. The company\u2019s Vice Chairman, Faisal Alothaim revealed this in a discussion with the Minister for Minerals, Anthony Mavunde in \u2026 The post Saudi Gold Refine",
-   "kind": "item",
-   "source": "Daily News (Tanzania)",
-   "source_id": "np-dailynews-tz",
-   "tier": 2,
-   "country": "TZ",
-   "category": "press",
-   "segments": [
-    "city",
-    "bush",
-    "beach"
-   ],
-   "first_seen": "2026-08-21T20:03+03:00",
-   "published": "2026-08-21",
-   "verdict": "weak"
-  },
-  {
-   "score": 55.9,
-   "components": {
-    "tier": 20,
-    "category": 5,
-    "lead": 3.6,
-    "relevance": 4,
-    "freshness": 13.3,
-    "corroborated": 10
-   },
-   "keywords": [
-    "conference"
-   ],
-   "shock_terms": [],
-   "dedupe_match": null,
-   "dedupe_similarity": 0.0,
-   "id": "de88b17482f7",
-   "title": "From AI and Luxury Travel to Destination Growth: ITB Americas Conference Explores the Future of Travel Across the Americas",
-   "url": "https://www.hospitalitynet.org/news/4134053/from-ai-and-luxury-travel-to-destination-growth-itb-americas-conference-explores-the-future-of-travel-across-the-americas",
-   "summary": "The inaugural ITB Americas Conference spans 2.5 days with 40+ sessions across six tracks covering AI, distribution, aviation, sustainability, and luxury travel for 5,000+ professionals from 42 countries.",
-   "kind": "item",
-   "source": "Hospitality Net \u2014 Africa announcements",
-   "source_id": "dev-hospitalitynet-africa",
-   "tier": 2,
-   "country": "REG",
-   "category": "trade",
-   "segments": [
-    "city",
-    "bush",
-    "beach"
-   ],
-   "first_seen": "2026-08-21T20:03+03:00",
-   "published": "2026-08-21",
-   "verdict": "weak"
-  },
-  {
-   "score": 55.9,
-   "components": {
-    "tier": 20,
-    "category": 9,
-    "lead": 3.6,
-    "relevance": 0,
-    "freshness": 13.3,
-    "corroborated": 10
-   },
-   "keywords": [],
-   "shock_terms": [],
-   "dedupe_match": null,
-   "dedupe_similarity": 0.0,
-   "id": "8322bad8979a",
-   "title": "In den Lufthansa-Tarifkonflikten: Ramelow, Heckelmann und Koch sollen schlichten",
-   "url": "https://www.fvw.de/touristik/verkehr/in-den-lufthansa-tarifkonflikten-ramelow-heckelmann-und-koch-sollen-schlichten-263931",
-   "summary": "Im Tarifkonflikt zwischen der Lufthansa und der Pilotengewerkschaft VC kommen prominente Schlichter zum Einsatz. Was sich beide Seiten davon erhoffen und welche Themen dabei im Fokus stehen.",
-   "kind": "item",
-   "source": "FVW / German travel trade",
-   "source_id": "sm-derreise",
-   "tier": 2,
-   "country": "GLOBAL",
-   "category": "source-market",
-   "segments": [
-    "beach",
-    "bush"
-   ],
-   "first_seen": "2026-08-21T20:03+03:00",
-   "published": "2026-08-21",
-   "verdict": "weak"
-  },
-  {
-   "score": 55.9,
-   "components": {
-    "tier": 20,
-    "category": 9,
-    "lead": 3.6,
-    "relevance": 0,
-    "freshness": 13.3,
-    "corroborated": 10
-   },
-   "keywords": [],
-   "shock_terms": [],
-   "dedupe_match": null,
-   "dedupe_similarity": 0.0,
-   "id": "e6d0ebc2e004",
-   "title": "Flottenexpansion: Viking Cruises ordert zwei neue Schiffe",
-   "url": "https://www.fvw.de/touristik/kreuzfahrt/flottenexpansion-viking-cruises-ordert-zwei-neue-schiffe-263924",
-   "summary": "Neuer Auftrag f\u00fcr Fincantieri: Die italienische Werft wird zwei weitere Kreuzfahrtschiffe f\u00fcr Viking Cruises bauen. Damit zieht die US-Reederei zwei bestehende Optionen aus dem Fr\u00fchjahr 2025.",
-   "kind": "item",
-   "source": "FVW / German travel trade",
-   "source_id": "sm-derreise",
-   "tier": 2,
-   "country": "GLOBAL",
-   "category": "source-market",
-   "segments": [
-    "beach",
-    "bush"
-   ],
-   "first_seen": "2026-08-21T20:03+03:00",
-   "published": "2026-08-21",
-   "verdict": "weak"
-  },
-  {
-   "score": 55.9,
-   "components": {
-    "tier": 20,
-    "category": 9,
-    "lead": 3.6,
-    "relevance": 0,
-    "freshness": 13.3,
-    "corroborated": 10
-   },
-   "keywords": [],
-   "shock_terms": [],
-   "dedupe_match": null,
-   "dedupe_similarity": 0.0,
-   "id": "c7cf18960960",
-   "title": "Acht Termine zum Saisonstart: Studiosus mit Webinaren und Live-Trainings im Oktober",
-   "url": "https://www.fvw.de/counter/verkauf/studiosus-saisonstart-die-webinare-und-praesenz-schulungen-im-oktober-263918",
-   "summary": "F\u00fcr Expedienten bietet die Verkaufsf\u00f6rderung der Studiosus-Gruppe im Oktober an insgesamt acht Terminen News-Veranstaltungen an \u2013 zweimal digital als Webinar und jetzt neu auch live als Schulung in sechs verschiedenen St\u00e4dten. Die Teilnahme ist kostenlos.",
-   "kind": "item",
-   "source": "FVW / German travel trade",
-   "source_id": "sm-derreise",
-   "tier": 2,
-   "country": "GLOBAL",
-   "category": "source-market",
-   "segments": [
-    "beach",
-    "bush"
-   ],
-   "first_seen": "2026-08-21T20:03+03:00",
-   "published": "2026-08-21",
-   "verdict": "weak"
-  },
-  {
-   "score": 55.9,
-   "components": {
-    "tier": 20,
-    "category": 9,
-    "lead": 3.6,
-    "relevance": 0,
-    "freshness": 13.3,
-    "corroborated": 10
-   },
-   "keywords": [],
-   "shock_terms": [],
-   "dedupe_match": null,
-   "dedupe_similarity": 0.0,
-   "id": "9703b06821bf",
-   "title": "Jetzt anmelden (Update): Fam Trips, Roadshows, Webinare und mehr",
-   "url": "https://www.fvw.de/counter/expi-welt/jetzt-anmelden-update-neue-fam-trips-roadshows-und-mehr-im-ueberblick-235034",
-   "summary": "Im Jahr 2026 locken zahlreiche neue Fam Trips, Roadshows und Webinare: In dieser \u00dcbersicht finden Sie speziell auf Reiseverk\u00e4uferinnen und -verk\u00e4ufer zugeschnittene Angebote von Veranstaltern, Ketten, Kooperationen und Leistungstr\u00e4gern sowie eigene Formate von fvw|TravelTalk.",
-   "kind": "item",
-   "source": "FVW / German travel trade",
-   "source_id": "sm-derreise",
-   "tier": 2,
-   "country": "GLOBAL",
-   "category": "source-market",
-   "segments": [
-    "beach",
-    "bush"
-   ],
-   "first_seen": "2026-08-21T20:03+03:00",
-   "published": "2026-08-21",
-   "verdict": "weak"
-  },
-  {
-   "score": 55.9,
-   "components": {
-    "tier": 20,
-    "category": 9,
-    "lead": 3.6,
-    "relevance": 0,
-    "freshness": 13.3,
-    "corroborated": 10
-   },
-   "keywords": [],
-   "shock_terms": [],
-   "dedupe_match": null,
-   "dedupe_similarity": 0.0,
-   "id": "27fcef011294",
-   "title": "S\u00fcdamerika: Starkes Erdbeben ersch\u00fcttert Peru",
-   "url": "https://www.fvw.de/touristik/destination/suedamerika-starkes-erdbeben-erschuettert-peru-263923",
-   "summary": "Erst vor zehn Tagen hatte ein starkes Erdbeben den Westen Kolumbiens ersch\u00fcttert. Nun trifft es das Zentrum Perus. Ersch\u00fctterungen sind auch in der Hauptstadt Lima zu sp\u00fcren.",
-   "kind": "item",
-   "source": "FVW / German travel trade",
-   "source_id": "sm-derreise",
-   "tier": 2,
-   "country": "GLOBAL",
-   "category": "source-market",
-   "segments": [
-    "beach",
-    "bush"
-   ],
-   "first_seen": "2026-08-21T20:03+03:00",
-   "published": "2026-08-21",
-   "verdict": "weak"
   }
  ]
 }
