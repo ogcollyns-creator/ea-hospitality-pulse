@@ -1,59 +1,51 @@
 {
- "generated": "2026-08-22T23:54:43+03:00",
- "slot": "evening",
- "window_start": 1787392800,
- "observations_in_window": 247,
+ "generated": "2026-08-23T01:53:33+03:00",
+ "slot": "morning",
+ "window_start": 1787410800,
+ "observations_in_window": 139,
  "deduped_against": 6,
  "candidates": [
   {
-   "score": 133.1,
-   "components": {
-    "tier": 40,
-    "category": 32,
-    "lead": 1.2,
-    "relevance": 36,
-    "freshness": 11.9,
-    "undated": -6,
-    "shock": 18
-   },
-   "keywords": [
-    "terror",
-    "kidnap",
-    "level 4"
-   ],
-   "shock_terms": [
-    "level 4",
-    "do not travel"
-   ],
-   "dedupe_match": null,
-   "dedupe_similarity": 0.0,
-   "id": "c51453247ff3",
-   "title": "Lebanon - Level 4: Do Not Travel",
-   "url": "https://travel.state.gov/content/tsg_aem/us/en/home/international-travel/travel-advisories/destination.lbn.html",
-   "summary": "Do not travel to Lebanon due to the risk of crime, terrorism, unrest, kidnapping, landmines , and armed conflict. Do not travel to Lebanon for any reason. The U.S. government has limited ability to offer emergency services to U.S. citizens in Lebanon due to the safety risks. U.S. government employee travel restrictions U.S. Embassy Beirut personnel are restricted from personal travel throughout Le",
-   "kind": "item",
-   "source": "US State Dept travel advisories (EA feed)",
-   "source_id": "adv-us-ea",
-   "tier": 1,
-   "country": "REG",
-   "category": "advisory",
-   "segments": [
-    "city",
-    "bush",
-    "beach"
-   ],
-   "first_seen": "2026-08-22T16:44+03:00",
-   "published": null,
-   "verdict": "LEAD CANDIDATE \u2014 tier-1 shock language"
-  },
-  {
-   "score": 99.4,
+   "score": 101.4,
    "components": {
     "tier": 40,
     "category": 32,
     "lead": 3.6,
     "relevance": 0,
-    "freshness": 17.8,
+    "freshness": 19.8,
+    "corroborated": 10,
+    "page_change": -4
+   },
+   "keywords": [],
+   "shock_terms": [],
+   "dedupe_match": null,
+   "dedupe_similarity": 0.0,
+   "id": "20d3bfc0466b",
+   "title": "[page changed] Federal Register \u2014 public inspection (HHS/CDC), pre-publication",
+   "url": "https://www.federalregister.gov/api/v1/public-inspection-documents/current.json",
+   "summary": "{\"count\":87,\"results\":[{\"agencies\":[{\"raw_name\":\"FEDERAL COMMUNICATIONS COMMISSION\",\"name\":\"Federal Communications Commission\",\"id\":161,\"url\":\"https://www.federalregister.gov/agencies/federal-communications-commission\",\"json_url\":\"https://www.federalregister.gov/api/v1/agencies/161\",\"parent_id\":null,\"slug\":\"federal-communications-commission\"}],\"agency_letters\":[],\"agency_names\":[\"Federal Communica",
+   "kind": "page-change",
+   "source": "Federal Register \u2014 public inspection (HHS/CDC), pre-publication",
+   "source_id": "us-fedreg-pubinspect-hhs",
+   "tier": 1,
+   "country": "REG",
+   "category": "advisory",
+   "segments": [
+    "city",
+    "bush"
+   ],
+   "first_seen": "2026-08-23T01:53+03:00",
+   "published": "2026-08-21",
+   "verdict": "OPEN THIS \u2014 tier-1 advisory page moved; content not auto-parsed, read it manually"
+  },
+  {
+   "score": 97.2,
+   "components": {
+    "tier": 40,
+    "category": 32,
+    "lead": 3.6,
+    "relevance": 0,
+    "freshness": 15.6,
     "corroborated": 10,
     "page_change": -4
    },
@@ -80,13 +72,13 @@
    "verdict": "OPEN THIS \u2014 tier-1 advisory page moved; content not auto-parsed, read it manually"
   },
   {
-   "score": 95.9,
+   "score": 93.8,
    "components": {
     "tier": 40,
     "category": 32,
     "lead": 3.6,
     "relevance": 0,
-    "freshness": 14.3,
+    "freshness": 12.2,
     "corroborated": 10,
     "page_change": -4
    },
@@ -113,46 +105,13 @@
    "verdict": "OPEN THIS \u2014 tier-1 advisory page moved; content not auto-parsed, read it manually"
   },
   {
-   "score": 93.5,
-   "components": {
-    "tier": 40,
-    "category": 32,
-    "lead": 3.6,
-    "relevance": 0,
-    "freshness": 11.9,
-    "corroborated": 10,
-    "page_change": -4
-   },
-   "keywords": [],
-   "shock_terms": [],
-   "dedupe_match": null,
-   "dedupe_similarity": 0.0,
-   "id": "51aacfcfefe7",
-   "title": "[page changed] Federal Register \u2014 public inspection (HHS/CDC), pre-publication",
-   "url": "https://www.federalregister.gov/api/v1/public-inspection-documents/current.json",
-   "summary": "{\"count\":87,\"results\":[{\"agencies\":[{\"raw_name\":\"FEDERAL COMMUNICATIONS COMMISSION\",\"name\":\"Federal Communications Commission\",\"id\":161,\"url\":\"https://www.federalregister.gov/agencies/federal-communications-commission\",\"json_url\":\"https://www.federalregister.gov/api/v1/agencies/161\",\"parent_id\":null,\"slug\":\"federal-communications-commission\"}],\"agency_letters\":[],\"agency_names\":[\"Federal Communica",
-   "kind": "page-change",
-   "source": "Federal Register \u2014 public inspection (HHS/CDC), pre-publication",
-   "source_id": "us-fedreg-pubinspect-hhs",
-   "tier": 1,
-   "country": "REG",
-   "category": "advisory",
-   "segments": [
-    "city",
-    "bush"
-   ],
-   "first_seen": "2026-08-22T16:44+03:00",
-   "published": "2026-08-21",
-   "verdict": "OPEN THIS \u2014 tier-1 advisory page moved; content not auto-parsed, read it manually"
-  },
-  {
-   "score": 61.0,
+   "score": 58.8,
    "components": {
     "tier": 40,
     "category": 12,
     "lead": 3.6,
     "relevance": 0,
-    "freshness": 15.4,
+    "freshness": 13.2,
     "undated": -6,
     "page_change": -4
    },
@@ -180,13 +139,13 @@
    "verdict": "OPEN THIS \u2014 tier-1 airline page moved; content not auto-parsed, read it manually"
   },
   {
-   "score": 59.9,
+   "score": 57.7,
    "components": {
     "tier": 40,
     "category": 12,
     "lead": 3.6,
     "relevance": 0,
-    "freshness": 14.3,
+    "freshness": 12.1,
     "undated": -6,
     "page_change": -4
    },
@@ -214,13 +173,13 @@
    "verdict": "OPEN THIS \u2014 tier-1 airline page moved; content not auto-parsed, read it manually"
   },
   {
-   "score": 106.2,
+   "score": 104.0,
    "components": {
     "tier": 40,
     "category": 18,
     "lead": 8.4,
     "relevance": 12,
-    "freshness": 17.8,
+    "freshness": 15.6,
     "corroborated": 10
    },
    "keywords": [
@@ -248,48 +207,13 @@
    "verdict": "STRONG \u2014 tier-1, upstream"
   },
   {
-   "score": 103.2,
-   "components": {
-    "tier": 40,
-    "category": 20,
-    "lead": 12.0,
-    "relevance": 8,
-    "freshness": 13.2,
-    "corroborated": 10
-   },
-   "keywords": [
-    "gazette"
-   ],
-   "shock_terms": [],
-   "dedupe_match": null,
-   "dedupe_similarity": 0.0,
-   "id": "cf80500ae9ce",
-   "title": "Kenya Gazette Vol. CXXVIII-No. 145",
-   "url": "https://new.kenyalaw.org/akn/ke/officialGazette/2026-08-21/145/eng@2026-08-21",
-   "summary": "Kenya Gazette Vol. CXXVIII-No. 145",
-   "kind": "item",
-   "source": "Kenya Gazette (Kenya Law)",
-   "source_id": "ke-gazette",
-   "tier": 1,
-   "country": "KE",
-   "category": "gazette",
-   "segments": [
-    "city",
-    "bush",
-    "beach"
-   ],
-   "first_seen": "2026-08-22T17:52+03:00",
-   "published": "2026-08-21",
-   "verdict": "STRONG \u2014 tier-1, upstream"
-  },
-  {
-   "score": 84.4,
+   "score": 82.3,
    "components": {
     "tier": 40,
     "category": 13,
     "lead": 6.0,
     "relevance": 0,
-    "freshness": 15.4,
+    "freshness": 13.3,
     "corroborated": 10
    },
    "keywords": [],
@@ -314,13 +238,13 @@
    "verdict": "CONSIDER"
   },
   {
-   "score": 80.1,
+   "score": 78.0,
    "components": {
     "tier": 40,
     "category": 15,
     "lead": 16.8,
     "relevance": 0,
-    "freshness": 14.3,
+    "freshness": 12.2,
     "undated": -6
    },
    "keywords": [],
@@ -347,13 +271,13 @@
    "verdict": "CONSIDER"
   },
   {
-   "score": 74.3,
+   "score": 72.2,
    "components": {
     "tier": 20,
     "category": 4,
     "lead": 0.0,
     "relevance": 24,
-    "freshness": 14.3,
+    "freshness": 12.2,
     "undated": -6,
     "shock": 18
    },
@@ -387,52 +311,13 @@
    "verdict": "CONSIDER"
   },
   {
-   "score": 71.9,
-   "components": {
-    "tier": 20,
-    "category": 4,
-    "lead": 0.0,
-    "relevance": 24,
-    "freshness": 11.9,
-    "undated": -6,
-    "shock": 18
-   },
-   "keywords": [
-    "outbreak",
-    "ebola"
-   ],
-   "shock_terms": [
-    "outbreak"
-   ],
-   "dedupe_match": null,
-   "dedupe_similarity": 0.33,
-   "id": "04022b5ad488",
-   "title": "Africa Congo set to receive 70,000 Ervebo vaccines to contain Ebola outbreak Aug 20 - 2 min read",
-   "url": "https://www.thecitizen.co.tz/tanzania/news/africa/congo-set-to-receive-70-000-ervebo-vaccines-to-contain-ebola-outbreak-5564810",
-   "summary": "",
-   "kind": "item",
-   "source": "The Citizen (Tanzania)",
-   "source_id": "np-citizen-tz",
-   "tier": 2,
-   "country": "TZ",
-   "category": "press",
-   "segments": [
-    "city",
-    "bush",
-    "beach"
-   ],
-   "first_seen": "2026-08-22T16:44+03:00",
-   "published": null,
-   "verdict": "CONSIDER"
-  },
-  {
-   "score": 69.8,
+   "score": 67.6,
    "components": {
     "tier": 20,
     "category": 4,
     "lead": 0.0,
     "relevance": 16,
-    "freshness": 17.8,
+    "freshness": 15.6,
     "undated": -6,
     "shock": 18
    },
@@ -465,50 +350,13 @@
    "verdict": "weak"
   },
   {
-   "score": 65.9,
-   "components": {
-    "tier": 20,
-    "category": 4,
-    "lead": 0.0,
-    "relevance": 20,
-    "freshness": 11.9,
-    "corroborated": 10
-   },
-   "keywords": [
-    "electricity",
-    "capacity",
-    "investment"
-   ],
-   "shock_terms": [],
-   "dedupe_match": null,
-   "dedupe_similarity": 0.2,
-   "id": "2704fbb7305b",
-   "title": "Tanzania banks on JNHPP project to meet electricity demand, serve as regional business hub",
-   "url": "https://dailynews.co.tz/tanzania-banks-on-jnhpp-project-to-meet-electricity-demand-serve-as-regional-business-hub",
-   "summary": "UTETE: THE Tanzanian government said it bets on the Julius Nyerere Hydropower Project to transform its electricity generation capacity and strengthen the country\u2019s position as a major business and investment hub in East Africa. This was revealed by the Managing Director of the Tanzania Electricity Supply Company Limited (TANESCO), Lazaro Twange during the launching ceremony \u2026 The post Tanzania ban",
-   "kind": "item",
-   "source": "Daily News (Tanzania)",
-   "source_id": "np-dailynews-tz",
-   "tier": 2,
-   "country": "TZ",
-   "category": "press",
-   "segments": [
-    "city",
-    "bush",
-    "beach"
-   ],
-   "first_seen": "2026-08-22T16:45+03:00",
-   "published": "2026-08-22",
-   "verdict": "weak"
-  },
-  {
-   "score": 62.2,
+   "score": 60.0,
    "components": {
     "tier": 20,
     "category": 24,
     "lead": 2.4,
     "relevance": 8,
-    "freshness": 17.8,
+    "freshness": 15.6,
     "undated": -6,
     "page_change": -4
    },
@@ -538,13 +386,13 @@
    "verdict": "weak"
   },
   {
-   "score": 61.8,
+   "score": 59.6,
    "components": {
     "tier": 20,
     "category": 4,
     "lead": 0.0,
     "relevance": 8,
-    "freshness": 17.8,
+    "freshness": 15.6,
     "undated": -6,
     "shock": 18
    },
@@ -577,51 +425,80 @@
    "verdict": "weak"
   },
   {
-   "score": 61.0,
+   "score": 56.2,
    "components": {
     "tier": 20,
-    "category": 5,
-    "lead": 1.2,
-    "relevance": 16,
-    "freshness": 8.8,
-    "corroborated": 10
+    "category": 24,
+    "lead": 2.4,
+    "relevance": 0,
+    "freshness": 19.8,
+    "undated": -6,
+    "page_change": -4
    },
-   "keywords": [
-    "tourism",
-    "booking",
-    "investment",
-    "operator"
-   ],
+   "keywords": [],
    "shock_terms": [],
    "dedupe_match": null,
    "dedupe_similarity": 0.0,
-   "id": "09be1cfc1969",
-   "title": "Africa has spent a decade training tourism operators for a market they still can\u2019t reach",
-   "url": "https://voyagesafriq.com/2026/08/22/africa-has-spent-a-decade-training-tourism-operators-for-a-market-they-still-cant-reach",
-   "summary": "Digital skilling programmes across the continent, Uganda\u2019s own included, have trained tens of thousands of small operators. Very little of that investment shows up in bookings, revenue or reach because training [\u2026] The post Africa has spent a decade training tourism operators for a market they still can\u2019t reach<gwmw style=\"display:none;\"></gwmw> appeared first on Voyages Afriq .",
-   "kind": "item",
-   "source": "VoyagesAfriq",
-   "source_id": "tp-voyagesafriq",
+   "id": "5c45757ca1bd",
+   "title": "[page changed] ProMED-mail",
+   "url": "https://promedmail.org/",
+   "summary": "Protecting Global Health, One Alert at a Time | ProMED Previous slide Next slide Protecting Global Health, One Alert at a Time ProMED: Your 24/7 early warning system for emerging infectious diseases worldwide. Subscribe ProMED's Weekly Pulse A snapshot of global health events from the past 7 days Latest Posts on ProMED All Date Title Sat Aug 22 2026 \u0414\u0438\u0440\u043e\u0444\u0438\u043b\u044f\u0440\u0438\u043e\u0437 - \u0420\u043e\u0441\u0441\u0438\u044f (\u0412\u043e\u043b\u0433\u043e\u0433\u0440\u0430\u0434\u0441\u043a\u0430\u044f \u043e\u0431\u043b\u0430\u0441\u0442\u044c, \u0412\u043e",
+   "kind": "page-change",
+   "source": "ProMED-mail",
+   "source_id": "promed",
    "tier": 2,
-   "country": "REG",
-   "category": "trade",
+   "country": "GLOBAL",
+   "category": "health",
    "segments": [
     "city",
     "bush",
     "beach"
    ],
-   "first_seen": "2026-08-22T13:53+03:00",
-   "published": "2026-08-22",
+   "first_seen": "2026-08-23T01:53+03:00",
+   "published": null,
    "verdict": "weak"
   },
   {
-   "score": 55.8,
+   "score": 53.8,
+   "components": {
+    "tier": 20,
+    "category": 4,
+    "lead": 0.0,
+    "relevance": 0,
+    "freshness": 19.8,
+    "corroborated": 10
+   },
+   "keywords": [],
+   "shock_terms": [],
+   "dedupe_match": null,
+   "dedupe_similarity": 0.0,
+   "id": "6e58ff7ea9af",
+   "title": "Bank of Kigali Courts Chinese Businesses as Rwanda-China Trade Expands",
+   "url": "https://www.ktpress.rw/2026/08/bank-of-kigali-courts-chinese-businesses-as-rwanda-china-trade-expands",
+   "summary": "Bank of Kigali is positioning itself to capture more of the financial business generated by Chinese companies operating in Rwanda, as trade between the two countries creates demand for faster\u2026 The post Bank of Kigali Courts Chinese Businesses as Rwanda-China Trade Expands appeared first on KT PRESS .",
+   "kind": "item",
+   "source": "KT Press (Rwanda)",
+   "source_id": "np-ktpress-rw",
+   "tier": 2,
+   "country": "RW",
+   "category": "press",
+   "segments": [
+    "city",
+    "bush",
+    "beach"
+   ],
+   "first_seen": "2026-08-23T01:53+03:00",
+   "published": "2026-08-23",
+   "verdict": "weak"
+  },
+  {
+   "score": 53.6,
    "components": {
     "tier": 20,
     "category": 4,
     "lead": 0.0,
     "relevance": 4,
-    "freshness": 17.8,
+    "freshness": 15.6,
     "corroborated": 10
    },
    "keywords": [
@@ -650,119 +527,13 @@
    "verdict": "weak"
   },
   {
-   "score": 53.9,
-   "components": {
-    "tier": 20,
-    "category": 4,
-    "lead": 0.0,
-    "relevance": 8,
-    "freshness": 11.9,
-    "corroborated": 10
-   },
-   "keywords": [
-    "electricity"
-   ],
-   "shock_terms": [],
-   "dedupe_match": null,
-   "dedupe_similarity": 0.4,
-   "id": "59908bee2521",
-   "title": "Dr Samia orders the Energy Ministry to ensure JNHP power fully benefits all key economic sectors",
-   "url": "https://dailynews.co.tz/dr-samia-orders-the-energy-ministry-to-ensure-jnhp-power-fully-benefits-all-key-economic-sectors",
-   "summary": "UTETE: PRESIDENT Samia Suluhu Hassan has directed the Ministry of Energy and the Tanzania Electric Supply Company (TANESCO) to fast-track completion of power transmission and distribution infrastructure to ensure Tanzanians and key economic sectors fully benefit from electricity generated by the Julius Nyerere Hydropower Project. The Head of State issued the directives earlier on Saturday \u2026 The po",
-   "kind": "item",
-   "source": "Daily News (Tanzania)",
-   "source_id": "np-dailynews-tz",
-   "tier": 2,
-   "country": "TZ",
-   "category": "press",
-   "segments": [
-    "city",
-    "bush",
-    "beach"
-   ],
-   "first_seen": "2026-08-22T16:45+03:00",
-   "published": "2026-08-22",
-   "verdict": "weak"
-  },
-  {
-   "score": 53.4,
-   "components": {
-    "tier": 20,
-    "category": 5,
-    "lead": 1.2,
-    "relevance": 4,
-    "freshness": 13.2,
-    "corroborated": 10
-   },
-   "keywords": [
-    "tourism"
-   ],
-   "shock_terms": [],
-   "dedupe_match": null,
-   "dedupe_similarity": 0.0,
-   "id": "287bcb19ece3",
-   "title": "Sierra Leone steps up preparations to host 3rd UN Tourism Regional Forum on Gastronomy",
-   "url": "https://voyagesafriq.com/2026/08/22/sierra-leone-steps-up-preparations-to-host-3rd-un-tourism-regional-forum-on-gastronomy",
-   "summary": "Sierra Leone has intensified preparations to host the 3rd UN Tourism Regional Forum on Gastronomy Tourism for Africa, with the Ministry of Tourism and Cultural Affairs and its agencies conducting [\u2026] The post Sierra Leone steps up preparations to host 3rd UN Tourism Regional Forum on Gastronomy<gwmw style=\"display:none;\"></gwmw> appeared first on Voyages Afriq .",
-   "kind": "item",
-   "source": "VoyagesAfriq",
-   "source_id": "tp-voyagesafriq",
-   "tier": 2,
-   "country": "REG",
-   "category": "trade",
-   "segments": [
-    "city",
-    "bush",
-    "beach"
-   ],
-   "first_seen": "2026-08-22T17:52+03:00",
-   "published": "2026-08-22",
-   "verdict": "weak"
-  },
-  {
-   "score": 53.2,
-   "components": {
-    "tier": 20,
-    "category": 24,
-    "lead": 2.4,
-    "relevance": 8,
-    "freshness": 8.8,
-    "undated": -6,
-    "page_change": -4
-   },
-   "keywords": [
-    "vat"
-   ],
-   "shock_terms": [],
-   "dedupe_match": null,
-   "dedupe_similarity": 0.0,
-   "id": "d65cd68b533f",
-   "title": "[page changed] ProMED-mail",
-   "url": "https://promedmail.org/",
-   "summary": "Protecting Global Health, One Alert at a Time | ProMED Previous slide Next slide Protecting Global Health, One Alert at a Time ProMED: Your 24/7 early warning system for emerging infectious diseases worldwide. Subscribe ProMED's Weekly Pulse A snapshot of global health events from the past 7 days Latest Posts on ProMED All Date Title Sat Aug 22 2026 RESEARCH & INNOVATION (167): ZINC OXIDE NANOPART",
-   "kind": "page-change",
-   "source": "ProMED-mail",
-   "source_id": "promed",
-   "tier": 2,
-   "country": "GLOBAL",
-   "category": "health",
-   "segments": [
-    "city",
-    "bush",
-    "beach"
-   ],
-   "first_seen": "2026-08-22T13:53+03:00",
-   "published": null,
-   "verdict": "weak"
-  },
-  {
-   "score": 51.8,
+   "score": 49.6,
    "components": {
     "tier": 20,
     "category": 4,
     "lead": 0.0,
     "relevance": 0,
-    "freshness": 17.8,
+    "freshness": 15.6,
     "corroborated": 10
    },
    "keywords": [],
@@ -789,13 +560,13 @@
    "verdict": "weak"
   },
   {
-   "score": 51.8,
+   "score": 49.6,
    "components": {
     "tier": 20,
     "category": 4,
     "lead": 0.0,
     "relevance": 0,
-    "freshness": 17.8,
+    "freshness": 15.6,
     "corroborated": 10
    },
    "keywords": [],
@@ -822,13 +593,13 @@
    "verdict": "weak"
   },
   {
-   "score": 51.8,
+   "score": 49.6,
    "components": {
     "tier": 20,
     "category": 4,
     "lead": 0.0,
     "relevance": 0,
-    "freshness": 17.8,
+    "freshness": 15.6,
     "corroborated": 10
    },
    "keywords": [],
@@ -855,13 +626,13 @@
    "verdict": "weak"
   },
   {
-   "score": 51.8,
+   "score": 49.6,
    "components": {
     "tier": 20,
     "category": 4,
     "lead": 0.0,
     "relevance": 0,
-    "freshness": 17.8,
+    "freshness": 15.6,
     "corroborated": 10
    },
    "keywords": [],
@@ -888,13 +659,13 @@
    "verdict": "weak"
   },
   {
-   "score": 51.8,
+   "score": 49.6,
    "components": {
     "tier": 20,
     "category": 4,
     "lead": 0.0,
     "relevance": 0,
-    "freshness": 17.8,
+    "freshness": 15.6,
     "corroborated": 10
    },
    "keywords": [],
@@ -921,13 +692,13 @@
    "verdict": "weak"
   },
   {
-   "score": 51.8,
+   "score": 49.6,
    "components": {
     "tier": 20,
     "category": 4,
     "lead": 0.0,
     "relevance": 0,
-    "freshness": 17.8,
+    "freshness": 15.6,
     "corroborated": 10
    },
    "keywords": [],
@@ -954,13 +725,13 @@
    "verdict": "weak"
   },
   {
-   "score": 51.8,
+   "score": 49.6,
    "components": {
     "tier": 20,
     "category": 4,
     "lead": 0.0,
     "relevance": 0,
-    "freshness": 17.8,
+    "freshness": 15.6,
     "corroborated": 10
    },
    "keywords": [],
@@ -987,13 +758,13 @@
    "verdict": "weak"
   },
   {
-   "score": 51.8,
+   "score": 49.6,
    "components": {
     "tier": 20,
     "category": 4,
     "lead": 0.0,
     "relevance": 0,
-    "freshness": 17.8,
+    "freshness": 15.6,
     "corroborated": 10
    },
    "keywords": [],
@@ -1020,13 +791,13 @@
    "verdict": "weak"
   },
   {
-   "score": 51.8,
+   "score": 49.6,
    "components": {
     "tier": 20,
     "category": 4,
     "lead": 0.0,
     "relevance": 0,
-    "freshness": 17.8,
+    "freshness": 15.6,
     "corroborated": 10
    },
    "keywords": [],
@@ -1053,81 +824,48 @@
    "verdict": "weak"
   },
   {
-   "score": 49.0,
+   "score": 45.8,
    "components": {
     "tier": 20,
-    "category": 5,
-    "lead": 1.2,
-    "relevance": 4,
-    "freshness": 8.8,
-    "corroborated": 10
+    "category": 4,
+    "lead": 0.0,
+    "relevance": 8,
+    "freshness": 19.8,
+    "undated": -6
    },
    "keywords": [
-    "tourism"
+    "electricity"
    ],
    "shock_terms": [],
    "dedupe_match": null,
-   "dedupe_similarity": 0.0,
-   "id": "2e61ebad1fb5",
-   "title": "Minister de Lille welcomes inclusion of tourism in South Africa\u2019s Economic Growth Plan",
-   "url": "https://voyagesafriq.com/2026/08/22/minister-de-lille-welcomes-inclusion-of-tourism-in-south-africas-economic-growth-plan",
-   "summary": "South Africa\u2019s Minister of Tourism, Patricia de Lille has welcomed the launch by President Cyril Ramaphosa of Phase Three of the Government-Business Partnership, which will expand its focus to tourism [\u2026] The post Minister de Lille welcomes inclusion of tourism in South Africa\u2019s Economic Growth Plan<gwmw style=\"display:none;\"></gwmw> appeared first on Voyages Afriq .",
+   "dedupe_similarity": 0.2,
+   "id": "fa257313ae7a",
+   "title": "National Julius Nyerere Hydropower Dam becomes backbone of national grid, supplies half of Tanzania\u2019s electricity 11 hours ago - 3 min read",
+   "url": "https://www.thecitizen.co.tz/tanzania/news/national/julius-nyerere-hydropower-dam-becomes-backbone-of-national-grid-supplies-half-of-tanzania-s-electricity-5567144",
+   "summary": "",
    "kind": "item",
-   "source": "VoyagesAfriq",
-   "source_id": "tp-voyagesafriq",
+   "source": "The Citizen (Tanzania)",
+   "source_id": "np-citizen-tz",
    "tier": 2,
-   "country": "REG",
-   "category": "trade",
+   "country": "TZ",
+   "category": "press",
    "segments": [
     "city",
     "bush",
     "beach"
    ],
-   "first_seen": "2026-08-22T13:53+03:00",
-   "published": "2026-08-22",
+   "first_seen": "2026-08-23T01:53+03:00",
+   "published": null,
    "verdict": "weak"
   },
   {
-   "score": 48.1,
-   "components": {
-    "tier": 20,
-    "category": 5,
-    "lead": 1.2,
-    "relevance": 0,
-    "freshness": 11.9,
-    "corroborated": 10
-   },
-   "keywords": [],
-   "shock_terms": [],
-   "dedupe_match": null,
-   "dedupe_similarity": 0.0,
-   "id": "fe2b8b5b775d",
-   "title": "In Praise of Kayak, 21 Years Later",
-   "url": "https://skift.com/2026/08/22/in-praise-of-kayak-21-years-later",
-   "summary": "Nobody has built a better travel search tool than Kayak. There, I said it.",
-   "kind": "item",
-   "source": "Skift",
-   "source_id": "tp-skift",
-   "tier": 2,
-   "country": "GLOBAL",
-   "category": "trade",
-   "segments": [
-    "city",
-    "bush",
-    "beach"
-   ],
-   "first_seen": "2026-08-22T16:44+03:00",
-   "published": "2026-08-22",
-   "verdict": "weak"
-  },
-  {
-   "score": 47.8,
+   "score": 45.6,
    "components": {
     "tier": 20,
     "category": 4,
     "lead": 0.0,
     "relevance": 12,
-    "freshness": 17.8,
+    "freshness": 15.6,
     "undated": -6
    },
    "keywords": [
@@ -1156,26 +894,28 @@
    "verdict": "weak"
   },
   {
-   "score": 45.9,
+   "score": 43.6,
    "components": {
     "tier": 20,
     "category": 4,
     "lead": 0.0,
-    "relevance": 0,
-    "freshness": 11.9,
-    "corroborated": 10
+    "relevance": 8,
+    "freshness": 17.6,
+    "undated": -6
    },
-   "keywords": [],
+   "keywords": [
+    "electricity"
+   ],
    "shock_terms": [],
    "dedupe_match": null,
    "dedupe_similarity": 0.2,
-   "id": "f6a7cb5f62d4",
-   "title": "GH Tanzania seeks community\u2019s support in tackling crime, drug abuse",
-   "url": "https://dailynews.co.tz/gh-tanzania-seeks-communitys-support-in-tackling-crime-drug-abuse",
-   "summary": "MWANZA: THE representative of GH Tanzania, Mr Mabuba Malima, has urged citizens to continue to cooperate in tackling crime, drug use, gender violence, conflicts and other challenges that can threaten peace and security in the community. Mr Malima said this today,August 22, 2026, at Mitindo Special Need Primary School grounds in Mwanza during the 15th \u2026 The post GH Tanzania seeks community\u2019s suppor",
+   "id": "8a5530d250b6",
+   "title": "National Julius Nyerere Hydropower Dam becomes backbone of national grid, supplies half of Tanzania\u2019s electricity 9 hours ago - 3 min read",
+   "url": "https://www.thecitizen.co.tz/tanzania/news/national/julius-nyerere-hydropower-dam-becomes-backbone-of-national-grid-supplies-half-of-tanzania-s-electricity-5567144",
+   "summary": "",
    "kind": "item",
-   "source": "Daily News (Tanzania)",
-   "source_id": "np-dailynews-tz",
+   "source": "The Citizen (Tanzania)",
+   "source_id": "np-citizen-tz",
    "tier": 2,
    "country": "TZ",
    "category": "press",
@@ -1184,31 +924,68 @@
     "bush",
     "beach"
    ],
-   "first_seen": "2026-08-22T16:45+03:00",
-   "published": "2026-08-22",
+   "first_seen": "2026-08-22T23:54+03:00",
+   "published": null,
    "verdict": "weak"
   },
   {
-   "score": 45.9,
+   "score": 42.2,
    "components": {
     "tier": 20,
     "category": 4,
     "lead": 0.0,
-    "relevance": 0,
-    "freshness": 11.9,
-    "corroborated": 10
+    "relevance": 12,
+    "freshness": 12.2,
+    "undated": -6
    },
-   "keywords": [],
+   "keywords": [
+    "ebola"
+   ],
+   "shock_terms": [],
+   "dedupe_match": null,
+   "dedupe_similarity": 0.33,
+   "id": "68433282bb6b",
+   "title": "Health More than 16,000 doses of Ervebo vaccine arrive in Ebola-hit DRC",
+   "url": "https://www.newvision.co.ug/category/health/more-than-16000-doses-of-ervebo-vaccine-arriv-NV_239269_082026",
+   "summary": "",
+   "kind": "item",
+   "source": "New Vision (Uganda)",
+   "source_id": "np-newvision-ug",
+   "tier": 2,
+   "country": "UG",
+   "category": "press",
+   "segments": [
+    "city",
+    "bush",
+    "beach"
+   ],
+   "first_seen": "2026-08-22T18:56+03:00",
+   "published": null,
+   "verdict": "weak"
+  },
+  {
+   "score": 41.8,
+   "components": {
+    "tier": 20,
+    "category": 4,
+    "lead": 0.0,
+    "relevance": 4,
+    "freshness": 19.8,
+    "undated": -6
+   },
+   "keywords": [
+    "passenger"
+   ],
    "shock_terms": [],
    "dedupe_match": null,
    "dedupe_similarity": 0.0,
-   "id": "5b234123fcf3",
-   "title": "Police inspectors mark their 15th National Anniversary",
-   "url": "https://dailynews.co.tz/police-inspectors-mark-their-15th-national-anniversary",
-   "summary": "MWANZA: THE Commissioner of Police, Community Policing Commission, CP Alex Mkama, has urged the police force in the country to observe ethics, discipline and responsibility at all times while carrying out their duties, in order to strengthen good relations between the force and the public. Mkama said this today, August 22, 2026, during the 15th \u2026 The post Police inspectors mark their 15th National",
+   "id": "fc5ee2d58c32",
+   "title": "National Magufuli bus terminal faces fresh passenger comfort test 9 hours ago - 5 min read",
+   "url": "https://www.thecitizen.co.tz/tanzania/news/national/passengers-raise-concerns-over-seating-toilet-congestion-at-tanzania-s-magufuli-bus-terminal-5567096",
+   "summary": "",
    "kind": "item",
-   "source": "Daily News (Tanzania)",
-   "source_id": "np-dailynews-tz",
+   "source": "The Citizen (Tanzania)",
+   "source_id": "np-citizen-tz",
    "tier": 2,
    "country": "TZ",
    "category": "press",
@@ -1217,173 +994,393 @@
     "bush",
     "beach"
    ],
-   "first_seen": "2026-08-22T16:45+03:00",
-   "published": "2026-08-22",
+   "first_seen": "2026-08-23T01:53+03:00",
+   "published": null,
    "verdict": "weak"
   },
   {
-   "score": 45.9,
+   "score": 41.8,
    "components": {
     "tier": 20,
     "category": 4,
     "lead": 0.0,
-    "relevance": 0,
-    "freshness": 11.9,
-    "corroborated": 10
+    "relevance": 4,
+    "freshness": 19.8,
+    "undated": -6
    },
-   "keywords": [],
+   "keywords": [
+    "tourism"
+   ],
    "shock_terms": [],
    "dedupe_match": null,
-   "dedupe_similarity": 0.0,
-   "id": "6bbeeabefd9f",
-   "title": "Hard money lessons behind Kenya\u2019s hit films and TV shows",
-   "url": "https://www.theeastafrican.co.ke/tea/magazine/hard-money-lessons-behind-kenya-s-hit-films-and-tv-shows-5566552",
-   "summary": "'If you have done this thing for as long as I have, you come to the sense that you have to...",
+   "dedupe_similarity": 0.17,
+   "id": "4e3c172f18af",
+   "title": "Zanzibar Kenyan businesswoman among three arrested for running tourism operations \u2018reserved\u2019 for Zanzibaris 10 hours ago - 2 min read",
+   "url": "https://www.thecitizen.co.tz/tanzania/zanzibar/kenyan-arrested-in-zanzibar-over-illegal-tour-operations--5567298",
+   "summary": "",
    "kind": "item",
-   "source": "The EastAfrican",
-   "source_id": "np-eastafrican",
+   "source": "The Citizen (Tanzania)",
+   "source_id": "np-citizen-tz",
    "tier": 2,
-   "country": "REG",
+   "country": "TZ",
    "category": "press",
    "segments": [
     "city",
     "bush",
     "beach"
    ],
-   "first_seen": "2026-08-22T16:44+03:00",
-   "published": "2026-08-22",
+   "first_seen": "2026-08-23T01:53+03:00",
+   "published": null,
    "verdict": "weak"
   },
   {
-   "score": 45.9,
+   "score": 41.6,
    "components": {
     "tier": 20,
     "category": 4,
     "lead": 0.0,
-    "relevance": 0,
-    "freshness": 11.9,
-    "corroborated": 10
+    "relevance": 8,
+    "freshness": 15.6,
+    "undated": -6
    },
-   "keywords": [],
+   "keywords": [
+    "fee"
+   ],
+   "shock_terms": [],
+   "dedupe_match": null,
+   "dedupe_similarity": 0.0,
+   "id": "f1a677c8ee00",
+   "title": "Mbarara City FC Mbarara City FC to host UPL home matches at Africa Coffee Park in Ntungamo",
+   "url": "https://www.newvision.co.ug/category/health/mbarara-city-fc-to-host-upl-home-matches-at-a",
+   "summary": "",
+   "kind": "item",
+   "source": "New Vision (Uganda)",
+   "source_id": "np-newvision-ug",
+   "tier": 2,
+   "country": "UG",
+   "category": "press",
+   "segments": [
+    "city",
+    "bush",
+    "beach"
+   ],
+   "first_seen": "2026-08-22T22:03+03:00",
+   "published": null,
+   "verdict": "weak"
+  },
+  {
+   "score": 41.6,
+   "components": {
+    "tier": 20,
+    "category": 4,
+    "lead": 0.0,
+    "relevance": 8,
+    "freshness": 15.6,
+    "undated": -6
+   },
+   "keywords": [
+    "electricity"
+   ],
    "shock_terms": [],
    "dedupe_match": null,
    "dedupe_similarity": 0.2,
-   "id": "70fc98e30506",
-   "title": "Kenya and Tanzania compete to become East Africa\u2019s key gateway",
-   "url": "https://www.theeastafrican.co.ke/tea/business-tech/kenya-and-tanzania-compete-to-become-east-africa-key-gateway-5566906",
-   "summary": "Analysts warn that competition not anchored in industrialisation and regional integration risks...",
+   "id": "285f3db808de",
+   "title": "National Julius Nyerere Hydropower Dam becomes backbone of national grid, supplies half of Tanzania\u2019s electricity 7 hours ago - 3 min read",
+   "url": "https://www.thecitizen.co.tz/tanzania/news/national/julius-nyerere-hydropower-dam-becomes-backbone-of-national-grid-supplies-half-of-tanzania-s-electricity-5567144",
+   "summary": "",
    "kind": "item",
-   "source": "The EastAfrican",
-   "source_id": "np-eastafrican",
+   "source": "The Citizen (Tanzania)",
+   "source_id": "np-citizen-tz",
    "tier": 2,
-   "country": "REG",
+   "country": "TZ",
    "category": "press",
    "segments": [
     "city",
     "bush",
     "beach"
    ],
-   "first_seen": "2026-08-22T16:44+03:00",
-   "published": "2026-08-22",
+   "first_seen": "2026-08-22T22:03+03:00",
+   "published": null,
    "verdict": "weak"
   },
   {
-   "score": 45.9,
+   "score": 41.6,
    "components": {
     "tier": 20,
     "category": 4,
     "lead": 0.0,
-    "relevance": 0,
-    "freshness": 11.9,
-    "corroborated": 10
+    "relevance": 8,
+    "freshness": 15.6,
+    "undated": -6
    },
-   "keywords": [],
+   "keywords": [
+    "tax"
+   ],
+   "shock_terms": [],
+   "dedupe_match": null,
+   "dedupe_similarity": 0.0,
+   "id": "1b0bf26adffe",
+   "title": "Boss Talk BAT Kenya CEO on illicit trade, new nicotine products and tax policy Aug 20 - 6 min read",
+   "url": "https://www.businessdailyafrica.com/bd/corporate/boss-talk/wafula-on-illicit-trade-new-nicotine-products-and-tax-policy-5565262",
+   "summary": "",
+   "kind": "item",
+   "source": "Business Daily Africa",
+   "source_id": "np-businessdaily",
+   "tier": 2,
+   "country": "KE",
+   "category": "press",
+   "segments": [
+    "city",
+    "bush",
+    "beach"
+   ],
+   "first_seen": "2026-08-22T22:03+03:00",
+   "published": null,
+   "verdict": "weak"
+  },
+  {
+   "score": 39.6,
+   "components": {
+    "tier": 20,
+    "category": 4,
+    "lead": 0.0,
+    "relevance": 4,
+    "freshness": 17.6,
+    "undated": -6
+   },
+   "keywords": [
+    "passenger"
+   ],
+   "shock_terms": [],
+   "dedupe_match": null,
+   "dedupe_similarity": 0.0,
+   "id": "5a0833aef89c",
+   "title": "National Magufuli bus terminal faces fresh passenger comfort test 7 hours ago - 5 min read",
+   "url": "https://www.thecitizen.co.tz/tanzania/news/national/passengers-raise-concerns-over-seating-toilet-congestion-at-tanzania-s-magufuli-bus-terminal-5567096",
+   "summary": "",
+   "kind": "item",
+   "source": "The Citizen (Tanzania)",
+   "source_id": "np-citizen-tz",
+   "tier": 2,
+   "country": "TZ",
+   "category": "press",
+   "segments": [
+    "city",
+    "bush",
+    "beach"
+   ],
+   "first_seen": "2026-08-22T23:54+03:00",
+   "published": null,
+   "verdict": "weak"
+  },
+  {
+   "score": 39.6,
+   "components": {
+    "tier": 20,
+    "category": 4,
+    "lead": 0.0,
+    "relevance": 4,
+    "freshness": 17.6,
+    "undated": -6
+   },
+   "keywords": [
+    "operator"
+   ],
+   "shock_terms": [],
+   "dedupe_match": null,
+   "dedupe_similarity": 0.0,
+   "id": "5a4f1f7ecd45",
+   "title": "Business Tour operators renew opposition to Mt Kilimanjaro cable car plans 16 hours ago - 3 min read",
+   "url": "https://www.thecitizen.co.tz/tanzania/business/tour-operators-renew-opposition-to-mt-kilimanjaro-cable-car-plans-5565634",
+   "summary": "",
+   "kind": "item",
+   "source": "The Citizen (Tanzania)",
+   "source_id": "np-citizen-tz",
+   "tier": 2,
+   "country": "TZ",
+   "category": "press",
+   "segments": [
+    "city",
+    "bush",
+    "beach"
+   ],
+   "first_seen": "2026-08-22T23:54+03:00",
+   "published": null,
+   "verdict": "weak"
+  },
+  {
+   "score": 39.6,
+   "components": {
+    "tier": 20,
+    "category": 4,
+    "lead": 0.0,
+    "relevance": 4,
+    "freshness": 17.6,
+    "undated": -6
+   },
+   "keywords": [
+    "tourism"
+   ],
+   "shock_terms": [],
+   "dedupe_match": null,
+   "dedupe_similarity": 0.17,
+   "id": "578578405afc",
+   "title": "Zanzibar Kenyan businesswoman among three arrested for running tourism operations \u2018reserved\u2019 for Zanzibaris 8 hours ago - 2 min read",
+   "url": "https://www.thecitizen.co.tz/tanzania/zanzibar/kenyan-arrested-in-zanzibar-over-illegal-tour-operations--5567298",
+   "summary": "",
+   "kind": "item",
+   "source": "The Citizen (Tanzania)",
+   "source_id": "np-citizen-tz",
+   "tier": 2,
+   "country": "TZ",
+   "category": "press",
+   "segments": [
+    "city",
+    "bush",
+    "beach"
+   ],
+   "first_seen": "2026-08-22T23:54+03:00",
+   "published": null,
+   "verdict": "weak"
+  },
+  {
+   "score": 38.2,
+   "components": {
+    "tier": 20,
+    "category": 4,
+    "lead": 0.0,
+    "relevance": 8,
+    "freshness": 12.2,
+    "undated": -6
+   },
+   "keywords": [
+    "vat"
+   ],
+   "shock_terms": [],
+   "dedupe_match": null,
+   "dedupe_similarity": 0.0,
+   "id": "87558bb7b673",
+   "title": "Companies Infrastructure projects lure investors to innovative finance schemes Aug 20 - 3 min read",
+   "url": "https://www.businessdailyafrica.com/bd/corporate/companies/infrastructure-projects-lure-investors-to-finance-schemes-5565044",
+   "summary": "",
+   "kind": "item",
+   "source": "Business Daily Africa",
+   "source_id": "np-businessdaily",
+   "tier": 2,
+   "country": "KE",
+   "category": "press",
+   "segments": [
+    "city",
+    "bush",
+    "beach"
+   ],
+   "first_seen": "2026-08-22T18:56+03:00",
+   "published": null,
+   "verdict": "weak"
+  },
+  {
+   "score": 38.2,
+   "components": {
+    "tier": 20,
+    "category": 4,
+    "lead": 0.0,
+    "relevance": 8,
+    "freshness": 12.2,
+    "undated": -6
+   },
+   "keywords": [
+    "electricity"
+   ],
    "shock_terms": [],
    "dedupe_match": null,
    "dedupe_similarity": 0.2,
-   "id": "13358695a8b6",
-   "title": "Burundi to join EA payment network by December",
-   "url": "https://www.theeastafrican.co.ke/tea/business-tech/burundi-to-join-ea-payment-network-by-december-5566950",
-   "summary": "Uganda, Kenya, Tanzania and Rwanda are connected to the EAPS, with the bulk of transactions...",
+   "id": "ff80b826498e",
+   "title": "National Julius Nyerere Hydropower Dam becomes backbone of national grid, supplies half of Tanzania\u2019s electricity 4 hours ago - 3 min read",
+   "url": "https://www.thecitizen.co.tz/tanzania/news/national/julius-nyerere-hydropower-dam-becomes-backbone-of-national-grid-supplies-half-of-tanzania-s-electricity-5567144",
+   "summary": "",
    "kind": "item",
-   "source": "The EastAfrican",
-   "source_id": "np-eastafrican",
+   "source": "The Citizen (Tanzania)",
+   "source_id": "np-citizen-tz",
    "tier": 2,
-   "country": "REG",
+   "country": "TZ",
    "category": "press",
    "segments": [
     "city",
     "bush",
     "beach"
    ],
-   "first_seen": "2026-08-22T16:44+03:00",
-   "published": "2026-08-22",
+   "first_seen": "2026-08-22T18:56+03:00",
+   "published": null,
    "verdict": "weak"
   },
   {
-   "score": 45.9,
+   "score": 38.2,
    "components": {
     "tier": 20,
     "category": 4,
     "lead": 0.0,
-    "relevance": 0,
-    "freshness": 11.9,
-    "corroborated": 10
+    "relevance": 8,
+    "freshness": 12.2,
+    "undated": -6
    },
-   "keywords": [],
+   "keywords": [
+    "election"
+   ],
    "shock_terms": [],
    "dedupe_match": null,
    "dedupe_similarity": 0.0,
-   "id": "5f806b536163",
-   "title": "Rwanda withholds passports, services over rising unpaid court fines",
-   "url": "https://www.theeastafrican.co.ke/tea/news/east-africa/rwanda-withholds-passports-services-over-unpaid-court-fines-5566786",
-   "summary": "The Ministry of Justice said it is pursuing 4,698 defaulters.",
+   "id": "825d340f668f",
+   "title": "Africa Former Zambian minister killed during post-election security raid Aug 20 - 3 min read",
+   "url": "https://www.thecitizen.co.tz/tanzania/news/africa/former-zambian-minister-killed-during-post-election-security-raid-5564824",
+   "summary": "",
    "kind": "item",
-   "source": "The EastAfrican",
-   "source_id": "np-eastafrican",
+   "source": "The Citizen (Tanzania)",
+   "source_id": "np-citizen-tz",
    "tier": 2,
-   "country": "REG",
+   "country": "TZ",
    "category": "press",
    "segments": [
     "city",
     "bush",
     "beach"
    ],
-   "first_seen": "2026-08-22T16:44+03:00",
-   "published": "2026-08-22",
+   "first_seen": "2026-08-22T18:56+03:00",
+   "published": null,
    "verdict": "weak"
   },
   {
-   "score": 45.9,
+   "score": 38.2,
    "components": {
     "tier": 20,
     "category": 4,
     "lead": 0.0,
-    "relevance": 0,
-    "freshness": 11.9,
-    "corroborated": 10
+    "relevance": 8,
+    "freshness": 12.2,
+    "undated": -6
    },
-   "keywords": [],
+   "keywords": [
+    "eta"
+   ],
    "shock_terms": [],
    "dedupe_match": null,
    "dedupe_similarity": 0.0,
-   "id": "418777f24e83",
-   "title": "Cyclists turn integration dream into a road reality",
-   "url": "https://www.theeastafrican.co.ke/tea/magazine/cyclists-turn-integration-dream-into-a-road-reality-5566796",
-   "summary": "The journey will be physically demanding. But the organisers insist that the real destination...",
+   "id": "fdfa5315b01e",
+   "title": "Arteta Arteta hails Arsenal's desire after perfect start to title defence",
+   "url": "https://www.newvision.co.ug/category/health/arteta-hails-arsenals-desire-after-perfect-st",
+   "summary": "",
    "kind": "item",
-   "source": "The EastAfrican",
-   "source_id": "np-eastafrican",
+   "source": "New Vision (Uganda)",
+   "source_id": "np-newvision-ug",
    "tier": 2,
-   "country": "REG",
+   "country": "UG",
    "category": "press",
    "segments": [
     "city",
     "bush",
     "beach"
    ],
-   "first_seen": "2026-08-22T16:44+03:00",
-   "published": "2026-08-22",
+   "first_seen": "2026-08-22T18:56+03:00",
+   "published": null,
    "verdict": "weak"
   }
  ]
