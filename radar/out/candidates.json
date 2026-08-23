@@ -1,25 +1,60 @@
 {
- "generated": "2026-08-23T08:16:39+03:00",
- "slot": "morning",
- "window_start": 1787410800,
- "observations_in_window": 202,
+ "generated": "2026-08-23T10:49:19+03:00",
+ "slot": "midday",
+ "window_start": 1787457600,
+ "observations_in_window": 72,
  "deduped_against": 6,
  "candidates": [
   {
-   "score": 89.5,
+   "score": 101.8,
+   "components": {
+    "tier": 40,
+    "category": 32,
+    "lead": 12.0,
+    "relevance": 8,
+    "freshness": 19.8,
+    "undated": -6,
+    "page_change": -4
+   },
+   "keywords": [
+    "fee"
+   ],
+   "shock_terms": [],
+   "dedupe_match": null,
+   "dedupe_similarity": 0.0,
+   "id": "8ed24aa910ef",
+   "title": "[page changed] Federal Register \u2014 CDC notices",
+   "url": "https://www.federalregister.gov/api/v1/documents.rss?conditions%5Bagencies%5D%5B%5D=centers-for-disease-control-and-prevention&order=newest",
+   "summary": "Federal Register Documents published on or after 07/24/2026 and from Centers for Disease Control and Prevention https://www.federalregister.gov/api/v1/documents.rss?conditions%5Bagencies%5D%5B%5D=centers-for-disease-control-and-prevention&order=newest Thu, 20 Aug 2026 04:00:00 GMT The documents in this feed originate from FederalRegister.gov which displays an unofficial web version of the daily Fe",
+   "kind": "page-change",
+   "source": "Federal Register \u2014 CDC notices",
+   "source_id": "us-fedreg-cdc",
+   "tier": 1,
+   "country": "REG",
+   "category": "advisory",
+   "segments": [
+    "city",
+    "bush"
+   ],
+   "first_seen": "2026-08-23T10:48+03:00",
+   "published": null,
+   "verdict": "OPEN THIS \u2014 tier-1 advisory page moved; content not auto-parsed, read it manually"
+  },
+  {
+   "score": 91.4,
    "components": {
     "tier": 40,
     "category": 32,
     "lead": 3.6,
     "relevance": 0,
-    "freshness": 17.9,
+    "freshness": 19.8,
     "page_change": -4
    },
    "keywords": [],
    "shock_terms": [],
    "dedupe_match": null,
    "dedupe_similarity": 0.0,
-   "id": "413e8d8f3673",
+   "id": "42f6e90b0107",
    "title": "[page changed] Federal Register \u2014 public inspection (HHS/CDC), pre-publication",
    "url": "https://www.federalregister.gov/api/v1/public-inspection-documents/current.json",
    "summary": "{\"count\":87,\"results\":[{\"agencies\":[{\"raw_name\":\"FEDERAL COMMUNICATIONS COMMISSION\",\"name\":\"Federal Communications Commission\",\"id\":161,\"url\":\"https://www.federalregister.gov/agencies/federal-communications-commission\",\"json_url\":\"https://www.federalregister.gov/api/v1/agencies/161\",\"parent_id\":null,\"slug\":\"federal-communications-commission\"}],\"agency_letters\":[],\"agency_names\":[\"Federal Communica",
@@ -33,114 +68,18 @@
     "city",
     "bush"
    ],
-   "first_seen": "2026-08-23T06:32+03:00",
+   "first_seen": "2026-08-23T10:48+03:00",
    "published": "2026-08-21",
    "verdict": "OPEN THIS \u2014 tier-1 advisory page moved; content not auto-parsed, read it manually"
   },
   {
-   "score": 84.4,
-   "components": {
-    "tier": 40,
-    "category": 32,
-    "lead": 3.6,
-    "relevance": 0,
-    "freshness": 12.8,
-    "page_change": -4
-   },
-   "keywords": [],
-   "shock_terms": [],
-   "dedupe_match": null,
-   "dedupe_similarity": 0.0,
-   "id": "20d3bfc0466b",
-   "title": "[page changed] Federal Register \u2014 public inspection (HHS/CDC), pre-publication",
-   "url": "https://www.federalregister.gov/api/v1/public-inspection-documents/current.json",
-   "summary": "{\"count\":87,\"results\":[{\"agencies\":[{\"raw_name\":\"FEDERAL COMMUNICATIONS COMMISSION\",\"name\":\"Federal Communications Commission\",\"id\":161,\"url\":\"https://www.federalregister.gov/agencies/federal-communications-commission\",\"json_url\":\"https://www.federalregister.gov/api/v1/agencies/161\",\"parent_id\":null,\"slug\":\"federal-communications-commission\"}],\"agency_letters\":[],\"agency_names\":[\"Federal Communica",
-   "kind": "page-change",
-   "source": "Federal Register \u2014 public inspection (HHS/CDC), pre-publication",
-   "source_id": "us-fedreg-pubinspect-hhs",
-   "tier": 1,
-   "country": "REG",
-   "category": "advisory",
-   "segments": [
-    "city",
-    "bush"
-   ],
-   "first_seen": "2026-08-23T01:53+03:00",
-   "published": "2026-08-21",
-   "verdict": "OPEN THIS \u2014 tier-1 advisory page moved; content not auto-parsed, read it manually"
-  },
-  {
-   "score": 80.2,
-   "components": {
-    "tier": 40,
-    "category": 32,
-    "lead": 3.6,
-    "relevance": 0,
-    "freshness": 8.6,
-    "page_change": -4
-   },
-   "keywords": [],
-   "shock_terms": [],
-   "dedupe_match": null,
-   "dedupe_similarity": 0.0,
-   "id": "ba324079212d",
-   "title": "[page changed] Federal Register \u2014 public inspection (HHS/CDC), pre-publication",
-   "url": "https://www.federalregister.gov/api/v1/public-inspection-documents/current.json",
-   "summary": "{\"count\":87,\"results\":[{\"agencies\":[{\"raw_name\":\"FEDERAL COMMUNICATIONS COMMISSION\",\"name\":\"Federal Communications Commission\",\"id\":161,\"url\":\"https://www.federalregister.gov/agencies/federal-communications-commission\",\"json_url\":\"https://www.federalregister.gov/api/v1/agencies/161\",\"parent_id\":null,\"slug\":\"federal-communications-commission\"}],\"agency_letters\":[],\"agency_names\":[\"Federal Communica",
-   "kind": "page-change",
-   "source": "Federal Register \u2014 public inspection (HHS/CDC), pre-publication",
-   "source_id": "us-fedreg-pubinspect-hhs",
-   "tier": 1,
-   "country": "REG",
-   "category": "advisory",
-   "segments": [
-    "city",
-    "bush"
-   ],
-   "first_seen": "2026-08-22T22:03+03:00",
-   "published": "2026-08-21",
-   "verdict": "OPEN THIS \u2014 tier-1 advisory page moved; content not auto-parsed, read it manually"
-  },
-  {
-   "score": 76.7,
-   "components": {
-    "tier": 40,
-    "category": 32,
-    "lead": 3.6,
-    "relevance": 0,
-    "freshness": 5.1,
-    "page_change": -4
-   },
-   "keywords": [],
-   "shock_terms": [],
-   "dedupe_match": null,
-   "dedupe_similarity": 0.0,
-   "id": "314cc440259b",
-   "title": "[page changed] Federal Register \u2014 public inspection (HHS/CDC), pre-publication",
-   "url": "https://www.federalregister.gov/api/v1/public-inspection-documents/current.json",
-   "summary": "{\"count\":87,\"results\":[{\"agencies\":[{\"raw_name\":\"FEDERAL COMMUNICATIONS COMMISSION\",\"name\":\"Federal Communications Commission\",\"id\":161,\"url\":\"https://www.federalregister.gov/agencies/federal-communications-commission\",\"json_url\":\"https://www.federalregister.gov/api/v1/agencies/161\",\"parent_id\":null,\"slug\":\"federal-communications-commission\"}],\"agency_letters\":[],\"agency_names\":[\"Federal Communica",
-   "kind": "page-change",
-   "source": "Federal Register \u2014 public inspection (HHS/CDC), pre-publication",
-   "source_id": "us-fedreg-pubinspect-hhs",
-   "tier": 1,
-   "country": "REG",
-   "category": "advisory",
-   "segments": [
-    "city",
-    "bush"
-   ],
-   "first_seen": "2026-08-22T18:56+03:00",
-   "published": "2026-08-21",
-   "verdict": "OPEN THIS \u2014 tier-1 advisory page moved; content not auto-parsed, read it manually"
-  },
-  {
-   "score": 65.2,
+   "score": 62.4,
    "components": {
     "tier": 40,
     "category": 12,
     "lead": 3.6,
     "relevance": 0,
-    "freshness": 19.6,
+    "freshness": 16.8,
     "undated": -6,
     "page_change": -4
    },
@@ -168,185 +107,53 @@
    "verdict": "OPEN THIS \u2014 tier-1 airline page moved; content not auto-parsed, read it manually"
   },
   {
-   "score": 63.5,
-   "components": {
-    "tier": 40,
-    "category": 12,
-    "lead": 3.6,
-    "relevance": 0,
-    "freshness": 17.9,
-    "undated": -6,
-    "page_change": -4
-   },
-   "keywords": [],
-   "shock_terms": [],
-   "dedupe_match": null,
-   "dedupe_similarity": 0.0,
-   "id": "09d3e2105cc1",
-   "title": "[page changed] Jambojet media",
-   "url": "https://www.jambojet.com/en/press-release",
-   "summary": "Request unsuccessful. Incapsula incident ID: 731000780052691291-14065352222380936",
-   "kind": "page-change",
-   "source": "Jambojet media",
-   "source_id": "air-jambojet",
-   "tier": 1,
-   "country": "KE",
-   "category": "airline",
-   "segments": [
-    "city",
-    "bush",
-    "beach"
-   ],
-   "first_seen": "2026-08-23T06:31+03:00",
-   "published": null,
-   "verdict": "OPEN THIS \u2014 tier-1 airline page moved; content not auto-parsed, read it manually"
-  },
-  {
-   "score": 51.8,
-   "components": {
-    "tier": 40,
-    "category": 12,
-    "lead": 3.6,
-    "relevance": 0,
-    "freshness": 6.2,
-    "undated": -6,
-    "page_change": -4
-   },
-   "keywords": [],
-   "shock_terms": [],
-   "dedupe_match": null,
-   "dedupe_similarity": 0.0,
-   "id": "32551f3b624f",
-   "title": "[page changed] Jambojet media",
-   "url": "https://www.jambojet.com/en/press-release",
-   "summary": "Request unsuccessful. Incapsula incident ID: 176000290862489987-914067700294092654",
-   "kind": "page-change",
-   "source": "Jambojet media",
-   "source_id": "air-jambojet",
-   "tier": 1,
-   "country": "KE",
-   "category": "airline",
-   "segments": [
-    "city",
-    "bush",
-    "beach"
-   ],
-   "first_seen": "2026-08-22T19:56+03:00",
-   "published": null,
-   "verdict": "OPEN THIS \u2014 tier-1 airline page moved; content not auto-parsed, read it manually"
-  },
-  {
-   "score": 50.7,
-   "components": {
-    "tier": 40,
-    "category": 12,
-    "lead": 3.6,
-    "relevance": 0,
-    "freshness": 5.1,
-    "undated": -6,
-    "page_change": -4
-   },
-   "keywords": [],
-   "shock_terms": [],
-   "dedupe_match": null,
-   "dedupe_similarity": 0.0,
-   "id": "0cfef959bbf9",
-   "title": "[page changed] Airlink news",
-   "url": "https://www.flyairlink.com/",
-   "summary": "Request unsuccessful. Incapsula incident ID: 6524000720087499951-498413517561139730",
-   "kind": "page-change",
-   "source": "Airlink news",
-   "source_id": "air-airlink",
-   "tier": 1,
-   "country": "REG",
-   "category": "airline",
-   "segments": [
-    "city",
-    "bush",
-    "beach"
-   ],
-   "first_seen": "2026-08-22T18:56+03:00",
-   "published": null,
-   "verdict": "OPEN THIS \u2014 tier-1 airline page moved; content not auto-parsed, read it manually"
-  },
-  {
-   "score": 97.0,
-   "components": {
-    "tier": 40,
-    "category": 18,
-    "lead": 8.4,
-    "relevance": 12,
-    "freshness": 8.6,
-    "corroborated": 10
-   },
-   "keywords": [
-    "wildlife",
-    "lodge"
-   ],
-   "shock_terms": [],
-   "dedupe_match": null,
-   "dedupe_similarity": 0.0,
-   "id": "0f4b3bac448f",
-   "title": "Leopard Rescued from Killer Snare in Tsavo",
-   "url": "https://kws.go.ke/leopard-rescued-from-killer-snare-in-tsavo",
-   "summary": "In today's \"A-day-in-the-life-of-a-wildlife-warrior...\" this particular vet team's imbroglio of the moment was a leopard; a young male, trapped by a cable wire snare outside the park near Voi Wildlife Lodge. When the team came across the immobile leopard, they felt as though their hearts were pulled out with a rusty pair of fire tongs. He [...]",
-   "kind": "item",
-   "source": "Kenya Wildlife Service",
-   "source_id": "ke-kws",
-   "tier": 1,
-   "country": "KE",
-   "category": "parks",
-   "segments": [
-    "bush"
-   ],
-   "first_seen": "2026-08-22T22:03+03:00",
-   "published": "2026-08-22",
-   "verdict": "STRONG \u2014 tier-1, upstream"
-  },
-  {
-   "score": 86.3,
+   "score": 83.8,
    "components": {
     "tier": 20,
-    "category": 14,
-    "lead": 8.4,
-    "relevance": 16,
-    "freshness": 17.9,
-    "corroborated": 10
+    "category": 4,
+    "lead": 0.0,
+    "relevance": 28,
+    "freshness": 19.8,
+    "undated": -6,
+    "shock": 18
    },
    "keywords": [
-    "route",
-    "frequency"
+    "suspend",
+    "visa",
+    "strike"
    ],
-   "shock_terms": [],
+   "shock_terms": [
+    "strike"
+   ],
    "dedupe_match": null,
    "dedupe_similarity": 0.0,
-   "id": "45bdc712eb00",
-   "title": "Air China Sep/Oct 2026 Beijing \u2013 Vancouver Service Increases",
-   "url": "https://www.aeroroutes.com/eng/260822-caoct26yvr",
-   "summary": "Published at 1600PDT / 2300GMT 22AUG26 Star Alliance member Air China from late-September 2026 schedules service increase on Beijing Capital \u2013 Vancouver route, as the carrier plans to increase from 3 to 5 weekly from 27SEP26, on board Boeing 777-300ER. Planned frequency increase is currently in effect until 24OCT26. CA991 PEK1350 \u2013 1000YVR 773 47 CA991 PEK1355 \u2013 1000YVR 773 5 CA991 PEK1400 \u2013 1000Y",
+   "id": "2bc18f9a6d66",
+   "title": "international US judge strikes down policy suspending immigrant visa processing for 75 nations 2 hours ago - 2 min read",
+   "url": "https://www.thecitizen.co.tz/tanzania/news/international/us-judge-strikes-down-policy-suspending-immigrant-visa-processing-for-75-nations-5567858",
+   "summary": "",
    "kind": "item",
-   "source": "AeroRoutes schedule filings",
-   "source_id": "aeroroutes",
+   "source": "The Citizen (Tanzania)",
+   "source_id": "np-citizen-tz",
    "tier": 2,
-   "country": "GLOBAL",
-   "category": "aviation-tracker",
+   "country": "TZ",
+   "category": "press",
    "segments": [
     "city",
     "bush",
     "beach"
    ],
-   "first_seen": "2026-08-23T06:32+03:00",
-   "published": "2026-08-23",
+   "first_seen": "2026-08-23T10:48+03:00",
+   "published": null,
    "verdict": "CONSIDER"
   },
   {
-   "score": 85.4,
+   "score": 82.6,
    "components": {
     "tier": 40,
     "category": 15,
     "lead": 16.8,
     "relevance": 0,
-    "freshness": 19.6,
+    "freshness": 16.8,
     "undated": -6
    },
    "keywords": [],
@@ -373,13 +180,13 @@
    "verdict": "CONSIDER"
   },
   {
-   "score": 85.4,
+   "score": 82.6,
    "components": {
     "tier": 40,
     "category": 15,
     "lead": 16.8,
     "relevance": 0,
-    "freshness": 19.6,
+    "freshness": 16.8,
     "undated": -6
    },
    "keywords": [],
@@ -406,13 +213,13 @@
    "verdict": "CONSIDER"
   },
   {
-   "score": 85.4,
+   "score": 82.6,
    "components": {
     "tier": 40,
     "category": 15,
     "lead": 16.8,
     "relevance": 0,
-    "freshness": 19.6,
+    "freshness": 16.8,
     "undated": -6
    },
    "keywords": [],
@@ -439,13 +246,13 @@
    "verdict": "CONSIDER"
   },
   {
-   "score": 85.4,
+   "score": 82.6,
    "components": {
     "tier": 40,
     "category": 15,
     "lead": 16.8,
     "relevance": 0,
-    "freshness": 19.6,
+    "freshness": 16.8,
     "undated": -6
    },
    "keywords": [],
@@ -472,13 +279,13 @@
    "verdict": "CONSIDER"
   },
   {
-   "score": 85.4,
+   "score": 82.6,
    "components": {
     "tier": 40,
     "category": 15,
     "lead": 16.8,
     "relevance": 0,
-    "freshness": 19.6,
+    "freshness": 16.8,
     "undated": -6
    },
    "keywords": [],
@@ -505,13 +312,13 @@
    "verdict": "CONSIDER"
   },
   {
-   "score": 85.4,
+   "score": 82.6,
    "components": {
     "tier": 40,
     "category": 15,
     "lead": 16.8,
     "relevance": 0,
-    "freshness": 19.6,
+    "freshness": 16.8,
     "undated": -6
    },
    "keywords": [],
@@ -538,77 +345,13 @@
    "verdict": "CONSIDER"
   },
   {
-   "score": 75.2,
-   "components": {
-    "tier": 40,
-    "category": 13,
-    "lead": 6.0,
-    "relevance": 0,
-    "freshness": 6.2,
-    "corroborated": 10
-   },
-   "keywords": [],
-   "shock_terms": [],
-   "dedupe_match": null,
-   "dedupe_similarity": 0.17,
-   "id": "e2e4994e3624",
-   "title": "BODI YA WAKURUGENZI ZAA YATEMBELEA MIRADI YA MAENDELEO AAKIA.",
-   "url": "https://zaa.go.tz/index.php/2026/08/22/bodi-ya-wakurugenzi-zaa-yatembelea-miradi-ya-maendeleo-aakia",
-   "summary": "BODI YA WAKURUGENZI ZAA YATEMBELEA MIRADI YA MAENDELEO AAKIA. Bodi ya Wakurugenzi ya Mamlaka ya Viwanja vya Ndege Zanzibar (ZAA), ikiongozwa na Mwenyekiti wake, Ndugu Juma Burhan, leo Jumamosi, Agosti 22, 2026, imefanya ziara ya kukagua maendeleo ya miradi mbalimbali inayotekelezwa katika Uwanja wa Ndege wa Kimataifa wa Abeid Amani Karume (AAKIA). Katika ziara",
-   "kind": "item",
-   "source": "Zanzibar Airports Authority",
-   "source_id": "zn-zaa",
-   "tier": 1,
-   "country": "ZNZ",
-   "category": "aviation",
-   "segments": [
-    "beach"
-   ],
-   "first_seen": "2026-08-22T19:56+03:00",
-   "published": "2026-08-22",
-   "verdict": "CONSIDER"
-  },
-  {
-   "score": 70.9,
-   "components": {
-    "tier": 40,
-    "category": 15,
-    "lead": 16.8,
-    "relevance": 0,
-    "freshness": 5.1,
-    "undated": -6
-   },
-   "keywords": [],
-   "shock_terms": [],
-   "dedupe_match": null,
-   "dedupe_similarity": 0.0,
-   "id": "c811cf3cacbb",
-   "title": "",
-   "url": "https://www.tra.go.tz/images/uploads/public_notice/english/CUSTOMS_CONTACT_NUMBERS.pdf",
-   "summary": "MacintoshMacintoshMacintosh PUBLIC NOTICE Together We Build Our Nation Dar es Salaam 1st December, 2024Customs and Excise Department through its Transit Monitoring Section (TMS) wishes to inform the public on changes of telephone numbers specifically for use in reporting/resolving challenges occurring during movement of transit goods and other goods under Customs control.The contact telephone numb",
-   "kind": "doc",
-   "source": "Tanzania Revenue Authority",
-   "source_id": "tz-tra",
-   "tier": 1,
-   "country": "TZ",
-   "category": "fiscal",
-   "segments": [
-    "city",
-    "bush",
-    "beach"
-   ],
-   "first_seen": "2026-08-22T18:56+03:00",
-   "published": null,
-   "verdict": "CONSIDER"
-  },
-  {
-   "score": 67.6,
+   "score": 64.8,
    "components": {
     "tier": 5,
     "category": 5,
     "lead": 0.0,
     "relevance": 28,
-    "freshness": 19.6,
+    "freshness": 16.8,
     "corroborated": 10
    },
    "keywords": [
@@ -641,53 +384,13 @@
    "verdict": "weak"
   },
   {
-   "score": 65.1,
-   "components": {
-    "tier": 20,
-    "category": 4,
-    "lead": 0.0,
-    "relevance": 24,
-    "freshness": 5.1,
-    "undated": -6,
-    "shock": 18
-   },
-   "keywords": [
-    "visa",
-    "eta",
-    "strike"
-   ],
-   "shock_terms": [
-    "strike"
-   ],
-   "dedupe_match": null,
-   "dedupe_similarity": 0.0,
-   "id": "36ab29f429b0",
-   "title": "World US judge strikes down Trump's 75-country visa ban In a ruling issued on Friday in the Southern District of New York, Judge Jeannette Vargas called the policy \"contrary to law\" and said Secretary of State Marco Rubio had exceeded his \"statutory authority\" in issuing it.",
-   "url": "https://www.newvision.co.ug/category/world/us-judge-strikes-down-trumps-75-country-visa-NV_239271_082026",
-   "summary": "",
-   "kind": "item",
-   "source": "New Vision (Uganda)",
-   "source_id": "np-newvision-ug",
-   "tier": 2,
-   "country": "UG",
-   "category": "press",
-   "segments": [
-    "city",
-    "bush",
-    "beach"
-   ],
-   "first_seen": "2026-08-22T18:56+03:00",
-   "published": null,
-   "verdict": "weak"
-  },
-  {
-   "score": 63.6,
+   "score": 60.8,
    "components": {
     "tier": 5,
     "category": 5,
     "lead": 0.0,
     "relevance": 24,
-    "freshness": 19.6,
+    "freshness": 16.8,
     "corroborated": 10
    },
    "keywords": [
@@ -720,52 +423,13 @@
    "verdict": "weak"
   },
   {
-   "score": 60.6,
-   "components": {
-    "tier": 20,
-    "category": 4,
-    "lead": 0.0,
-    "relevance": 16,
-    "freshness": 8.6,
-    "undated": -6,
-    "shock": 18
-   },
-   "keywords": [
-    "visa",
-    "strike"
-   ],
-   "shock_terms": [
-    "strike"
-   ],
-   "dedupe_match": null,
-   "dedupe_similarity": 0.0,
-   "id": "748cff0ba2e3",
-   "title": "World US judge strikes down Trump's 75-country visa ban",
-   "url": "https://www.newvision.co.ug/category/world/us-judge-strikes-down-trumps-75-country-visa-NV_239271_082026",
-   "summary": "",
-   "kind": "item",
-   "source": "New Vision (Uganda)",
-   "source_id": "np-newvision-ug",
-   "tier": 2,
-   "country": "UG",
-   "category": "press",
-   "segments": [
-    "city",
-    "bush",
-    "beach"
-   ],
-   "first_seen": "2026-08-22T22:03+03:00",
-   "published": null,
-   "verdict": "weak"
-  },
-  {
-   "score": 54.3,
+   "score": 56.2,
    "components": {
     "tier": 20,
     "category": 24,
     "lead": 2.4,
     "relevance": 0,
-    "freshness": 17.9,
+    "freshness": 19.8,
     "undated": -6,
     "page_change": -4
    },
@@ -773,7 +437,7 @@
    "shock_terms": [],
    "dedupe_match": null,
    "dedupe_similarity": 0.0,
-   "id": "7ae4a15ee0aa",
+   "id": "1101d323a064",
    "title": "[page changed] ProMED-mail",
    "url": "https://promedmail.org/",
    "summary": "Protecting Global Health, One Alert at a Time | ProMED Previous slide Next slide Protecting Global Health, One Alert at a Time ProMED: Your 24/7 early warning system for emerging infectious diseases worldwide. Subscribe ProMED's Weekly Pulse A snapshot of global health events from the past 7 days Latest Posts on ProMED All Date Title Sun Aug 23 2026 VESICULAR STOMATITIS - USA (08): (COLORADO) PRES",
@@ -788,172 +452,61 @@
     "bush",
     "beach"
    ],
-   "first_seen": "2026-08-23T06:32+03:00",
+   "first_seen": "2026-08-23T10:48+03:00",
    "published": null,
    "verdict": "weak"
   },
   {
-   "score": 53.0,
-   "components": {
-    "tier": 20,
-    "category": 24,
-    "lead": 2.4,
-    "relevance": 8,
-    "freshness": 8.6,
-    "undated": -6,
-    "page_change": -4
-   },
-   "keywords": [
-    "vat"
-   ],
-   "shock_terms": [],
-   "dedupe_match": null,
-   "dedupe_similarity": 0.0,
-   "id": "8b695d4999a8",
-   "title": "[page changed] ProMED-mail",
-   "url": "https://promedmail.org/",
-   "summary": "Protecting Global Health, One Alert at a Time | ProMED Previous slide Next slide Protecting Global Health, One Alert at a Time ProMED: Your 24/7 early warning system for emerging infectious diseases worldwide. Subscribe ProMED's Weekly Pulse A snapshot of global health events from the past 7 days Latest Posts on ProMED All Date Title Sat Aug 22 2026 MALARIA - INDIA (03): (KARNATAKA) Sat Aug 22 202",
-   "kind": "page-change",
-   "source": "ProMED-mail",
-   "source_id": "promed",
-   "tier": 2,
-   "country": "GLOBAL",
-   "category": "health",
-   "segments": [
-    "city",
-    "bush",
-    "beach"
-   ],
-   "first_seen": "2026-08-22T22:03+03:00",
-   "published": null,
-   "verdict": "weak"
-  },
-  {
-   "score": 52.6,
-   "components": {
-    "tier": 20,
-    "category": 4,
-    "lead": 0.0,
-    "relevance": 8,
-    "freshness": 8.6,
-    "undated": -6,
-    "shock": 18
-   },
-   "keywords": [
-    "strike"
-   ],
-   "shock_terms": [
-    "attack",
-    "strike"
-   ],
-   "dedupe_match": null,
-   "dedupe_similarity": 0.0,
-   "id": "2bdc131bcecc",
-   "title": "World Ukraine says 'cynical' Russian strike on shopping centre killed 16 The attack on Kryvyi Rig, Zelensky's hometown, comes as Russia has intensified its bombardments of Ukrainian cities in recent months.",
-   "url": "https://www.newvision.co.ug/category/world/ukraine-says-cynical-russian-strike-on-shoppi-NV_239302_082026",
-   "summary": "",
-   "kind": "item",
-   "source": "New Vision (Uganda)",
-   "source_id": "np-newvision-ug",
-   "tier": 2,
-   "country": "UG",
-   "category": "press",
-   "segments": [
-    "city",
-    "bush",
-    "beach"
-   ],
-   "first_seen": "2026-08-22T22:03+03:00",
-   "published": null,
-   "verdict": "weak"
-  },
-  {
-   "score": 49.2,
-   "components": {
-    "tier": 20,
-    "category": 24,
-    "lead": 2.4,
-    "relevance": 0,
-    "freshness": 12.8,
-    "undated": -6,
-    "page_change": -4
-   },
-   "keywords": [],
-   "shock_terms": [],
-   "dedupe_match": null,
-   "dedupe_similarity": 0.0,
-   "id": "5c45757ca1bd",
-   "title": "[page changed] ProMED-mail",
-   "url": "https://promedmail.org/",
-   "summary": "Protecting Global Health, One Alert at a Time | ProMED Previous slide Next slide Protecting Global Health, One Alert at a Time ProMED: Your 24/7 early warning system for emerging infectious diseases worldwide. Subscribe ProMED's Weekly Pulse A snapshot of global health events from the past 7 days Latest Posts on ProMED All Date Title Sat Aug 22 2026 \u0414\u0438\u0440\u043e\u0444\u0438\u043b\u044f\u0440\u0438\u043e\u0437 - \u0420\u043e\u0441\u0441\u0438\u044f (\u0412\u043e\u043b\u0433\u043e\u0433\u0440\u0430\u0434\u0441\u043a\u0430\u044f \u043e\u0431\u043b\u0430\u0441\u0442\u044c, \u0412\u043e",
-   "kind": "page-change",
-   "source": "ProMED-mail",
-   "source_id": "promed",
-   "tier": 2,
-   "country": "GLOBAL",
-   "category": "health",
-   "segments": [
-    "city",
-    "bush",
-    "beach"
-   ],
-   "first_seen": "2026-08-23T01:53+03:00",
-   "published": null,
-   "verdict": "weak"
-  },
-  {
-   "score": 46.8,
+   "score": 53.8,
    "components": {
     "tier": 20,
     "category": 4,
     "lead": 0.0,
     "relevance": 0,
-    "freshness": 12.8,
+    "freshness": 19.8,
     "corroborated": 10
    },
    "keywords": [],
    "shock_terms": [],
    "dedupe_match": null,
    "dedupe_similarity": 0.0,
-   "id": "6e58ff7ea9af",
-   "title": "Bank of Kigali Courts Chinese Businesses as Rwanda-China Trade Expands",
-   "url": "https://www.ktpress.rw/2026/08/bank-of-kigali-courts-chinese-businesses-as-rwanda-china-trade-expands",
-   "summary": "Bank of Kigali is positioning itself to capture more of the financial business generated by Chinese companies operating in Rwanda, as trade between the two countries creates demand for faster\u2026 The post Bank of Kigali Courts Chinese Businesses as Rwanda-China Trade Expands appeared first on KT PRESS .",
+   "id": "d2953e89ae2d",
+   "title": "Government moves to integrate forest revenue systems",
+   "url": "https://dailynews.co.tz/government-moves-to-integrate-forest-revenue-systems",
+   "summary": "DODOMA: THE government is moving to integrate digital systems used to manage forest harvesting and trade to curb revenue leakages and ensure the Central government, councils and villages receive their rightful share from forest resources. The move follows concerns that some councils and village governments still rely on manual systems to manage forest products, while \u2026 The post Government moves to",
    "kind": "item",
-   "source": "KT Press (Rwanda)",
-   "source_id": "np-ktpress-rw",
+   "source": "Daily News (Tanzania)",
+   "source_id": "np-dailynews-tz",
    "tier": 2,
-   "country": "RW",
+   "country": "TZ",
    "category": "press",
    "segments": [
     "city",
     "bush",
     "beach"
    ],
-   "first_seen": "2026-08-23T01:53+03:00",
+   "first_seen": "2026-08-23T10:48+03:00",
    "published": "2026-08-23",
    "verdict": "weak"
   },
   {
-   "score": 46.6,
+   "score": 53.8,
    "components": {
     "tier": 20,
     "category": 4,
     "lead": 0.0,
-    "relevance": 4,
-    "freshness": 8.6,
+    "relevance": 0,
+    "freshness": 19.8,
     "corroborated": 10
    },
-   "keywords": [
-    "resort"
-   ],
+   "keywords": [],
    "shock_terms": [],
    "dedupe_match": null,
    "dedupe_similarity": 0.0,
-   "id": "411e3487cfde",
-   "title": "Masaka hospital overwhelmed as 160 preterm births recorded monthly",
-   "url": "https://www.monitor.co.ug/uganda/news/national/masaka-hospital-overwhelmed-as-160-preterm-births-recorded-monthly-5567364",
-   "summary": "Dr Nyantaro attributed the high numbers to mothers shunning antenatal care, resorting to...",
+   "id": "ee19572ca28a",
+   "title": "Put witch doctors on Inter-Religious Council",
+   "url": "https://www.monitor.co.ug/uganda/oped/columnists/allan-tacca/put-witch-doctors-on-inter-religious-council-5566470",
+   "summary": "After all, rewards from fasting and oil rubs prescribed and administered by our pastors are as...",
    "kind": "item",
    "source": "Daily Monitor (Uganda)",
    "source_id": "np-monitor-ug",
@@ -965,18 +518,451 @@
     "bush",
     "beach"
    ],
-   "first_seen": "2026-08-22T22:03+03:00",
-   "published": "2026-08-22",
+   "first_seen": "2026-08-23T10:48+03:00",
+   "published": "2026-08-23",
    "verdict": "weak"
   },
   {
-   "score": 45.6,
+   "score": 53.8,
+   "components": {
+    "tier": 20,
+    "category": 4,
+    "lead": 0.0,
+    "relevance": 0,
+    "freshness": 19.8,
+    "corroborated": 10
+   },
+   "keywords": [],
+   "shock_terms": [],
+   "dedupe_match": null,
+   "dedupe_similarity": 0.0,
+   "id": "7a89f0e06d02",
+   "title": "Why Otunnu is UN\u2019s best bet this moment",
+   "url": "https://www.monitor.co.ug/uganda/oped/commentary/why-otunnu-is-un-s-best-bet-this-moment--5566460",
+   "summary": "Member states from every continent, peaceful and war-torn, rich and poor, should recognise...",
+   "kind": "item",
+   "source": "Daily Monitor (Uganda)",
+   "source_id": "np-monitor-ug",
+   "tier": 2,
+   "country": "UG",
+   "category": "press",
+   "segments": [
+    "city",
+    "bush",
+    "beach"
+   ],
+   "first_seen": "2026-08-23T10:48+03:00",
+   "published": "2026-08-23",
+   "verdict": "weak"
+  },
+  {
+   "score": 53.8,
+   "components": {
+    "tier": 20,
+    "category": 4,
+    "lead": 0.0,
+    "relevance": 0,
+    "freshness": 19.8,
+    "corroborated": 10
+   },
+   "keywords": [],
+   "shock_terms": [],
+   "dedupe_match": null,
+   "dedupe_similarity": 0.0,
+   "id": "1d28cb03ba75",
+   "title": "When expert witnesses mislead court on time of death",
+   "url": "https://www.monitor.co.ug/uganda/magazines/people-power/when-expert-witnesses-mislead-court-on-time-of-death-5567814",
+   "summary": "The time frames in which the processes of post-mortem staining and stiffening of the body occur...",
+   "kind": "item",
+   "source": "Daily Monitor (Uganda)",
+   "source_id": "np-monitor-ug",
+   "tier": 2,
+   "country": "UG",
+   "category": "press",
+   "segments": [
+    "city",
+    "bush",
+    "beach"
+   ],
+   "first_seen": "2026-08-23T10:48+03:00",
+   "published": "2026-08-23",
+   "verdict": "weak"
+  },
+  {
+   "score": 53.8,
+   "components": {
+    "tier": 20,
+    "category": 4,
+    "lead": 0.0,
+    "relevance": 0,
+    "freshness": 19.8,
+    "corroborated": 10
+   },
+   "keywords": [],
+   "shock_terms": [],
+   "dedupe_match": null,
+   "dedupe_similarity": 0.0,
+   "id": "e5b4925a20bf",
+   "title": "Past and present: New Constitution may not last, Maj Gen Muntu warns",
+   "url": "https://www.monitor.co.ug/uganda/magazines/people-power/past-and-present-new-constitution-may-not-last-maj-gen-muntu-warns-5567826",
+   "summary": "Maj Gen Muntu issued the warning while contributing to a motion tabled by the Bubulo East...",
+   "kind": "item",
+   "source": "Daily Monitor (Uganda)",
+   "source_id": "np-monitor-ug",
+   "tier": 2,
+   "country": "UG",
+   "category": "press",
+   "segments": [
+    "city",
+    "bush",
+    "beach"
+   ],
+   "first_seen": "2026-08-23T10:48+03:00",
+   "published": "2026-08-23",
+   "verdict": "weak"
+  },
+  {
+   "score": 53.8,
+   "components": {
+    "tier": 20,
+    "category": 4,
+    "lead": 0.0,
+    "relevance": 0,
+    "freshness": 19.8,
+    "corroborated": 10
+   },
+   "keywords": [],
+   "shock_terms": [],
+   "dedupe_match": null,
+   "dedupe_similarity": 0.0,
+   "id": "d081b93e2808",
+   "title": "Col Nakalema: I\u2019d choose to be a soldier on any day",
+   "url": "https://www.monitor.co.ug/uganda/magazines/people-power/col-nakalema-i-d-choose-to-be-a-soldier-on-any-day-5567818",
+   "summary": "Weekend Monitor spoke to Col Edith Nakalema about her new path as a writer and whether it...",
+   "kind": "item",
+   "source": "Daily Monitor (Uganda)",
+   "source_id": "np-monitor-ug",
+   "tier": 2,
+   "country": "UG",
+   "category": "press",
+   "segments": [
+    "city",
+    "bush",
+    "beach"
+   ],
+   "first_seen": "2026-08-23T10:48+03:00",
+   "published": "2026-08-23",
+   "verdict": "weak"
+  },
+  {
+   "score": 53.8,
+   "components": {
+    "tier": 20,
+    "category": 4,
+    "lead": 0.0,
+    "relevance": 0,
+    "freshness": 19.8,
+    "corroborated": 10
+   },
+   "keywords": [],
+   "shock_terms": [],
+   "dedupe_match": null,
+   "dedupe_similarity": 0.0,
+   "id": "b4a0a359f32f",
+   "title": "Why Uganda keeps troops in Somalia",
+   "url": "https://www.monitor.co.ug/uganda/oped/commentary/why-uganda-keeps-troops-in-somalia-5566310",
+   "summary": "Political and security stability in Somalia, DRC or South Sudan have big domestic, regional and...",
+   "kind": "item",
+   "source": "Daily Monitor (Uganda)",
+   "source_id": "np-monitor-ug",
+   "tier": 2,
+   "country": "UG",
+   "category": "press",
+   "segments": [
+    "city",
+    "bush",
+    "beach"
+   ],
+   "first_seen": "2026-08-23T10:48+03:00",
+   "published": "2026-08-23",
+   "verdict": "weak"
+  },
+  {
+   "score": 53.8,
+   "components": {
+    "tier": 20,
+    "category": 4,
+    "lead": 0.0,
+    "relevance": 0,
+    "freshness": 19.8,
+    "corroborated": 10
+   },
+   "keywords": [],
+   "shock_terms": [],
+   "dedupe_match": null,
+   "dedupe_similarity": 0.0,
+   "id": "ac085ca7ea9f",
+   "title": "Otunnu\u2019s UN reform agenda faces test of political reality",
+   "url": "https://www.monitor.co.ug/uganda/magazines/people-power/otunnu-s-un-reform-agenda-faces-test-of-political-reality-5567810",
+   "summary": "Analysts reckon that results from yesterday\u2019s informal poll will likely spell the end of the...",
+   "kind": "item",
+   "source": "Daily Monitor (Uganda)",
+   "source_id": "np-monitor-ug",
+   "tier": 2,
+   "country": "UG",
+   "category": "press",
+   "segments": [
+    "city",
+    "bush",
+    "beach"
+   ],
+   "first_seen": "2026-08-23T10:48+03:00",
+   "published": "2026-08-23",
+   "verdict": "weak"
+  },
+  {
+   "score": 53.8,
+   "components": {
+    "tier": 20,
+    "category": 4,
+    "lead": 0.0,
+    "relevance": 0,
+    "freshness": 19.8,
+    "corroborated": 10
+   },
+   "keywords": [],
+   "shock_terms": [],
+   "dedupe_match": null,
+   "dedupe_similarity": 0.17,
+   "id": "554c791e7f20",
+   "title": "What next for Somalia peacekeeping mission?",
+   "url": "https://www.monitor.co.ug/uganda/magazines/people-power/what-next-for-somalia-peacekeeping-mission--5567816",
+   "summary": "President Museveni says that Ugandan forces will remain in Somalia with or without Western...",
+   "kind": "item",
+   "source": "Daily Monitor (Uganda)",
+   "source_id": "np-monitor-ug",
+   "tier": 2,
+   "country": "UG",
+   "category": "press",
+   "segments": [
+    "city",
+    "bush",
+    "beach"
+   ],
+   "first_seen": "2026-08-23T10:48+03:00",
+   "published": "2026-08-23",
+   "verdict": "weak"
+  },
+  {
+   "score": 53.8,
+   "components": {
+    "tier": 20,
+    "category": 4,
+    "lead": 0.0,
+    "relevance": 0,
+    "freshness": 19.8,
+    "corroborated": 10
+   },
+   "keywords": [],
+   "shock_terms": [],
+   "dedupe_match": null,
+   "dedupe_similarity": 0.0,
+   "id": "070f1467475e",
+   "title": "Safal Kiswahili prize for African literature 2025 winners announced",
+   "url": "https://www.monitor.co.ug/uganda/lifestyle/reviews-profiles/safal-kiswahili-prize-for-african-literature-2025-winners-announced-5567704",
+   "summary": "Salim Hussein Ng\u2019anzi\u2019s novel Mwanamkasi Ndio Basi and Ali Hilal Ali\u2019s poetry collection Diwani...",
+   "kind": "item",
+   "source": "Daily Monitor (Uganda)",
+   "source_id": "np-monitor-ug",
+   "tier": 2,
+   "country": "UG",
+   "category": "press",
+   "segments": [
+    "city",
+    "bush",
+    "beach"
+   ],
+   "first_seen": "2026-08-23T10:48+03:00",
+   "published": "2026-08-23",
+   "verdict": "weak"
+  },
+  {
+   "score": 53.8,
+   "components": {
+    "tier": 20,
+    "category": 4,
+    "lead": 0.0,
+    "relevance": 0,
+    "freshness": 19.8,
+    "corroborated": 10
+   },
+   "keywords": [],
+   "shock_terms": [],
+   "dedupe_match": null,
+   "dedupe_similarity": 0.0,
+   "id": "6924960a2243",
+   "title": "Fame Mukisa takes Ugandan entertainment to Europe with bold Amsterdam events",
+   "url": "https://www.monitor.co.ug/uganda/lifestyle/reviews-profiles/fame-mukisa-takes-ugandan-entertainment-to-europe-with-bold-amsterdam-events-5567650",
+   "summary": "Fame Mukisa,27, turns Ugandan diaspora nostalgia into an entertainment business. The Ugandan...",
+   "kind": "item",
+   "source": "Daily Monitor (Uganda)",
+   "source_id": "np-monitor-ug",
+   "tier": 2,
+   "country": "UG",
+   "category": "press",
+   "segments": [
+    "city",
+    "bush",
+    "beach"
+   ],
+   "first_seen": "2026-08-23T10:48+03:00",
+   "published": "2026-08-23",
+   "verdict": "weak"
+  },
+  {
+   "score": 53.8,
+   "components": {
+    "tier": 20,
+    "category": 4,
+    "lead": 0.0,
+    "relevance": 0,
+    "freshness": 19.8,
+    "corroborated": 10
+   },
+   "keywords": [],
+   "shock_terms": [],
+   "dedupe_match": null,
+   "dedupe_similarity": 0.0,
+   "id": "b5ac11234a5e",
+   "title": "Phaneroo enters new season as Lubega calls for greater Christian impact",
+   "url": "https://www.monitor.co.ug/uganda/lifestyle/religion/phaneroo-enters-new-season-as-lubega-calls-for-greater-christian-impact-5567450",
+   "summary": "Phaneroo marks 12 years as Apostle Lubega urges Christians to recognise that God can use...",
+   "kind": "item",
+   "source": "Daily Monitor (Uganda)",
+   "source_id": "np-monitor-ug",
+   "tier": 2,
+   "country": "UG",
+   "category": "press",
+   "segments": [
+    "city",
+    "bush",
+    "beach"
+   ],
+   "first_seen": "2026-08-23T10:48+03:00",
+   "published": "2026-08-23",
+   "verdict": "weak"
+  },
+  {
+   "score": 53.8,
+   "components": {
+    "tier": 20,
+    "category": 4,
+    "lead": 0.0,
+    "relevance": 0,
+    "freshness": 19.8,
+    "corroborated": 10
+   },
+   "keywords": [],
+   "shock_terms": [],
+   "dedupe_match": null,
+   "dedupe_similarity": 0.0,
+   "id": "deec367ce59b",
+   "title": "How Jesus trained Peter to lead the faithful",
+   "url": "https://www.monitor.co.ug/uganda/lifestyle/religion/how-jesus-trained-peter-to-lead-the-faithful-5567406",
+   "summary": "Saint Peter\u2019s journey of faith shows how Jesus transformed human weakness into strong Christian...",
+   "kind": "item",
+   "source": "Daily Monitor (Uganda)",
+   "source_id": "np-monitor-ug",
+   "tier": 2,
+   "country": "UG",
+   "category": "press",
+   "segments": [
+    "city",
+    "bush",
+    "beach"
+   ],
+   "first_seen": "2026-08-23T10:48+03:00",
+   "published": "2026-08-23",
+   "verdict": "weak"
+  },
+  {
+   "score": 45.8,
    "components": {
     "tier": 20,
     "category": 4,
     "lead": 0.0,
     "relevance": 8,
-    "freshness": 19.6,
+    "freshness": 19.8,
+    "undated": -6
+   },
+   "keywords": [
+    "electricity"
+   ],
+   "shock_terms": [],
+   "dedupe_match": null,
+   "dedupe_similarity": 0.2,
+   "id": "25e9619194ef",
+   "title": "National Julius Nyerere Hydropower Dam becomes backbone of national grid, supplies half of Tanzania\u2019s electricity 20 hours ago - 3 min read",
+   "url": "https://www.thecitizen.co.tz/tanzania/news/national/julius-nyerere-hydropower-dam-becomes-backbone-of-national-grid-supplies-half-of-tanzania-s-electricity-5567144",
+   "summary": "",
+   "kind": "item",
+   "source": "The Citizen (Tanzania)",
+   "source_id": "np-citizen-tz",
+   "tier": 2,
+   "country": "TZ",
+   "category": "press",
+   "segments": [
+    "city",
+    "bush",
+    "beach"
+   ],
+   "first_seen": "2026-08-23T10:48+03:00",
+   "published": null,
+   "verdict": "weak"
+  },
+  {
+   "score": 45.8,
+   "components": {
+    "tier": 20,
+    "category": 4,
+    "lead": 0.0,
+    "relevance": 8,
+    "freshness": 19.8,
+    "undated": -6
+   },
+   "keywords": [
+    "tax"
+   ],
+   "shock_terms": [],
+   "dedupe_match": null,
+   "dedupe_similarity": 0.2,
+   "id": "654c5e1f83cf",
+   "title": "Companies Failed burden of proof costs Kenya Power supplier Sh317m tax fight 1 hour ago - 4 min read",
+   "url": "https://www.businessdailyafrica.com/bd/corporate/companies/failed-burden-of-proof-costs-kenya-power-supplier-sh317m-5566702",
+   "summary": "",
+   "kind": "item",
+   "source": "Business Daily Africa",
+   "source_id": "np-businessdaily",
+   "tier": 2,
+   "country": "KE",
+   "category": "press",
+   "segments": [
+    "city",
+    "bush",
+    "beach"
+   ],
+   "first_seen": "2026-08-23T10:48+03:00",
+   "published": null,
+   "verdict": "weak"
+  },
+  {
+   "score": 42.8,
+   "components": {
+    "tier": 20,
+    "category": 4,
+    "lead": 0.0,
+    "relevance": 8,
+    "freshness": 16.8,
     "undated": -6
    },
    "keywords": [
@@ -1005,24 +991,24 @@
    "verdict": "weak"
   },
   {
-   "score": 43.9,
+   "score": 41.8,
    "components": {
     "tier": 20,
     "category": 4,
     "lead": 0.0,
-    "relevance": 8,
-    "freshness": 17.9,
+    "relevance": 4,
+    "freshness": 19.8,
     "undated": -6
    },
    "keywords": [
-    "electricity"
+    "passenger"
    ],
    "shock_terms": [],
    "dedupe_match": null,
-   "dedupe_similarity": 0.2,
-   "id": "503e0155fa85",
-   "title": "National Julius Nyerere Hydropower Dam becomes backbone of national grid, supplies half of Tanzania\u2019s electricity 16 hours ago - 3 min read",
-   "url": "https://www.thecitizen.co.tz/tanzania/news/national/julius-nyerere-hydropower-dam-becomes-backbone-of-national-grid-supplies-half-of-tanzania-s-electricity-5567144",
+   "dedupe_similarity": 0.0,
+   "id": "e234b9f27ce0",
+   "title": "National Magufuli bus terminal faces fresh passenger comfort test 18 hours ago - 5 min read",
+   "url": "https://www.thecitizen.co.tz/tanzania/news/national/passengers-raise-concerns-over-seating-toilet-congestion-at-tanzania-s-magufuli-bus-terminal-5567096",
    "summary": "",
    "kind": "item",
    "source": "The Citizen (Tanzania)",
@@ -1035,315 +1021,53 @@
     "bush",
     "beach"
    ],
-   "first_seen": "2026-08-23T06:32+03:00",
+   "first_seen": "2026-08-23T10:48+03:00",
    "published": null,
    "verdict": "weak"
   },
   {
-   "score": 42.6,
-   "components": {
-    "tier": 20,
-    "category": 4,
-    "lead": 0.0,
-    "relevance": 0,
-    "freshness": 8.6,
-    "corroborated": 10
-   },
-   "keywords": [],
-   "shock_terms": [],
-   "dedupe_match": null,
-   "dedupe_similarity": 0.0,
-   "id": "a85b9073756a",
-   "title": "District officer found dead after evening with friends in Ntungamo",
-   "url": "https://www.monitor.co.ug/uganda/news/national/district-officer-found-dead-after-evening-with-friends-in-ntungamo-5567036",
-   "summary": "Colleagues remembered him as outspoken and willing to raise workplace grievances",
-   "kind": "item",
-   "source": "Daily Monitor (Uganda)",
-   "source_id": "np-monitor-ug",
-   "tier": 2,
-   "country": "UG",
-   "category": "press",
-   "segments": [
-    "city",
-    "bush",
-    "beach"
-   ],
-   "first_seen": "2026-08-22T22:03+03:00",
-   "published": "2026-08-22",
-   "verdict": "weak"
-  },
-  {
-   "score": 42.6,
-   "components": {
-    "tier": 20,
-    "category": 4,
-    "lead": 0.0,
-    "relevance": 0,
-    "freshness": 8.6,
-    "corroborated": 10
-   },
-   "keywords": [],
-   "shock_terms": [],
-   "dedupe_match": null,
-   "dedupe_similarity": 0.0,
-   "id": "937cd41109d7",
-   "title": "Two arrested over murder of boda boda rider in Luwero",
-   "url": "https://www.monitor.co.ug/uganda/news/national/two-arrested-over-murder-of-boda-boda-rider-in-luwero-5567678",
-   "summary": "Police say the arrested duo are believed to be part of an organised crime ring behind a spate...",
-   "kind": "item",
-   "source": "Daily Monitor (Uganda)",
-   "source_id": "np-monitor-ug",
-   "tier": 2,
-   "country": "UG",
-   "category": "press",
-   "segments": [
-    "city",
-    "bush",
-    "beach"
-   ],
-   "first_seen": "2026-08-22T22:03+03:00",
-   "published": "2026-08-22",
-   "verdict": "weak"
-  },
-  {
-   "score": 42.6,
-   "components": {
-    "tier": 20,
-    "category": 4,
-    "lead": 0.0,
-    "relevance": 0,
-    "freshness": 8.6,
-    "corroborated": 10
-   },
-   "keywords": [],
-   "shock_terms": [],
-   "dedupe_match": null,
-   "dedupe_similarity": 0.0,
-   "id": "05d2084c59f8",
-   "title": "Bishop Rubaramira ordains 13 priests, 10 deacons",
-   "url": "https://www.monitor.co.ug/uganda/news/national/bishop-rubaramira-ordains-13-priests-10-deacons--5567444",
-   "summary": "The ceremony was held at Rushoroza Cathedral headquarters of Kabale Diocese in Kabale town on...",
-   "kind": "item",
-   "source": "Daily Monitor (Uganda)",
-   "source_id": "np-monitor-ug",
-   "tier": 2,
-   "country": "UG",
-   "category": "press",
-   "segments": [
-    "city",
-    "bush",
-    "beach"
-   ],
-   "first_seen": "2026-08-22T22:03+03:00",
-   "published": "2026-08-22",
-   "verdict": "weak"
-  },
-  {
-   "score": 42.6,
-   "components": {
-    "tier": 20,
-    "category": 4,
-    "lead": 0.0,
-    "relevance": 0,
-    "freshness": 8.6,
-    "corroborated": 10
-   },
-   "keywords": [],
-   "shock_terms": [],
-   "dedupe_match": null,
-   "dedupe_similarity": 0.0,
-   "id": "4fa9132212dd",
-   "title": "South Africa's former world boxing champion Tete shot dead outside his home",
-   "url": "https://www.monitor.co.ug/uganda/sports/boxing/south-africa-s-former-world-boxing-champion-tete-shot-dead-outside-his-home-5567552",
-   "summary": "The killing has also shocked Mdantsane, the Eastern Cape township that has produced some of...",
-   "kind": "item",
-   "source": "Daily Monitor (Uganda)",
-   "source_id": "np-monitor-ug",
-   "tier": 2,
-   "country": "UG",
-   "category": "press",
-   "segments": [
-    "city",
-    "bush",
-    "beach"
-   ],
-   "first_seen": "2026-08-22T22:03+03:00",
-   "published": "2026-08-22",
-   "verdict": "weak"
-  },
-  {
-   "score": 42.6,
-   "components": {
-    "tier": 20,
-    "category": 4,
-    "lead": 0.0,
-    "relevance": 0,
-    "freshness": 8.6,
-    "corroborated": 10
-   },
-   "keywords": [],
-   "shock_terms": [],
-   "dedupe_match": null,
-   "dedupe_similarity": 0.0,
-   "id": "0890715ed10a",
-   "title": "Congolese national arrested in Kampala over cross-border stolen phone ring",
-   "url": "https://www.monitor.co.ug/uganda/news/national/congolese-national-arrested-in-kampala-over-cross-border-stolen-phone-ring-5567470",
-   "summary": "Tracing of the stolen phone revealed that it had been taken to Kalungi Plaza before being...",
-   "kind": "item",
-   "source": "Daily Monitor (Uganda)",
-   "source_id": "np-monitor-ug",
-   "tier": 2,
-   "country": "UG",
-   "category": "press",
-   "segments": [
-    "city",
-    "bush",
-    "beach"
-   ],
-   "first_seen": "2026-08-22T22:03+03:00",
-   "published": "2026-08-22",
-   "verdict": "weak"
-  },
-  {
-   "score": 42.6,
-   "components": {
-    "tier": 20,
-    "category": 4,
-    "lead": 0.0,
-    "relevance": 0,
-    "freshness": 8.6,
-    "corroborated": 10
-   },
-   "keywords": [],
-   "shock_terms": [],
-   "dedupe_match": null,
-   "dedupe_similarity": 0.0,
-   "id": "0059bc1d9192",
-   "title": "Hull City stun Manchester United 2-0 on Premier League return",
-   "url": "https://www.monitor.co.ug/uganda/sports/soccer/hull-city-stun-manchester-united-2-0-on-premier-league-return-5567478",
-   "summary": "United, who had never lost to a newly promoted side in a season opener, struggled to respond.",
-   "kind": "item",
-   "source": "Daily Monitor (Uganda)",
-   "source_id": "np-monitor-ug",
-   "tier": 2,
-   "country": "UG",
-   "category": "press",
-   "segments": [
-    "city",
-    "bush",
-    "beach"
-   ],
-   "first_seen": "2026-08-22T22:03+03:00",
-   "published": "2026-08-22",
-   "verdict": "weak"
-  },
-  {
-   "score": 42.6,
-   "components": {
-    "tier": 20,
-    "category": 4,
-    "lead": 0.0,
-    "relevance": 0,
-    "freshness": 8.6,
-    "corroborated": 10
-   },
-   "keywords": [],
-   "shock_terms": [],
-   "dedupe_match": null,
-   "dedupe_similarity": 0.0,
-   "id": "e9876dd7ce31",
-   "title": "From secret bus trips to six titles: Norman Blick\u2019s basketball journey continues",
-   "url": "https://www.monitor.co.ug/uganda/sports/basketball/from-secret-bus-trips-to-six-titles-norman-blick-s-basketball-journey-continues-5567382",
-   "summary": "From secret overnight bus journeys to six championships, national team battles, and a difficult...",
-   "kind": "item",
-   "source": "Daily Monitor (Uganda)",
-   "source_id": "np-monitor-ug",
-   "tier": 2,
-   "country": "UG",
-   "category": "press",
-   "segments": [
-    "city",
-    "bush",
-    "beach"
-   ],
-   "first_seen": "2026-08-22T22:03+03:00",
-   "published": "2026-08-22",
-   "verdict": "weak"
-  },
-  {
-   "score": 42.6,
-   "components": {
-    "tier": 20,
-    "category": 4,
-    "lead": 0.0,
-    "relevance": 0,
-    "freshness": 8.6,
-    "corroborated": 10
-   },
-   "keywords": [],
-   "shock_terms": [],
-   "dedupe_match": null,
-   "dedupe_similarity": 0.0,
-   "id": "f9c4090d913a",
-   "title": "Mbarara police arrest three over theft, slaughter of 39 cows",
-   "url": "https://www.monitor.co.ug/uganda/news/national/mbarara-police-arrest-three-over-theft-slaughter-of-39-cows-5567414",
-   "summary": "The suspects include Steven Bazara, 62, a Congolese, Peter Mutesasira, 40, from Nyendo, and...",
-   "kind": "item",
-   "source": "Daily Monitor (Uganda)",
-   "source_id": "np-monitor-ug",
-   "tier": 2,
-   "country": "UG",
-   "category": "press",
-   "segments": [
-    "city",
-    "bush",
-    "beach"
-   ],
-   "first_seen": "2026-08-22T22:03+03:00",
-   "published": "2026-08-22",
-   "verdict": "weak"
-  },
-  {
-   "score": 42.6,
-   "components": {
-    "tier": 20,
-    "category": 4,
-    "lead": 0.0,
-    "relevance": 0,
-    "freshness": 8.6,
-    "corroborated": 10
-   },
-   "keywords": [],
-   "shock_terms": [],
-   "dedupe_match": null,
-   "dedupe_similarity": 0.0,
-   "id": "1bf91ac5c29e",
-   "title": "Govt sets tough budget rules, breaches to attract automatic sanctions",
-   "url": "https://www.monitor.co.ug/uganda/news/national/govt-sets-tough-budget-rules-breaches-to-attract-automatic-sanctions-5567388",
-   "summary": "The new framework is intended to move government away from appeals for prudent use of public...",
-   "kind": "item",
-   "source": "Daily Monitor (Uganda)",
-   "source_id": "np-monitor-ug",
-   "tier": 2,
-   "country": "UG",
-   "category": "press",
-   "segments": [
-    "city",
-    "bush",
-    "beach"
-   ],
-   "first_seen": "2026-08-22T22:03+03:00",
-   "published": "2026-08-22",
-   "verdict": "weak"
-  },
-  {
-   "score": 41.6,
+   "score": 41.8,
    "components": {
     "tier": 20,
     "category": 4,
     "lead": 0.0,
     "relevance": 4,
-    "freshness": 19.6,
+    "freshness": 19.8,
+    "undated": -6
+   },
+   "keywords": [
+    "tourism"
+   ],
+   "shock_terms": [],
+   "dedupe_match": null,
+   "dedupe_similarity": 0.17,
+   "id": "b6ab27bcbff4",
+   "title": "Zanzibar Kenyan businesswoman among three arrested for running tourism operations \u2018reserved\u2019 for Zanzibaris 19 hours ago - 2 min read",
+   "url": "https://www.thecitizen.co.tz/tanzania/zanzibar/kenyan-arrested-in-zanzibar-over-illegal-tour-operations--5567298",
+   "summary": "",
+   "kind": "item",
+   "source": "The Citizen (Tanzania)",
+   "source_id": "np-citizen-tz",
+   "tier": 2,
+   "country": "TZ",
+   "category": "press",
+   "segments": [
+    "city",
+    "bush",
+    "beach"
+   ],
+   "first_seen": "2026-08-23T10:48+03:00",
+   "published": null,
+   "verdict": "weak"
+  },
+  {
+   "score": 38.8,
+   "components": {
+    "tier": 20,
+    "category": 4,
+    "lead": 0.0,
+    "relevance": 4,
+    "freshness": 16.8,
     "undated": -6
    },
    "keywords": [
@@ -1368,6 +1092,274 @@
     "beach"
    ],
    "first_seen": "2026-08-23T08:04+03:00",
+   "published": null,
+   "verdict": "weak"
+  },
+  {
+   "score": 38.8,
+   "components": {
+    "tier": 20,
+    "category": 4,
+    "lead": 0.0,
+    "relevance": 4,
+    "freshness": 16.8,
+    "undated": -6
+   },
+   "keywords": [
+    "operator"
+   ],
+   "shock_terms": [],
+   "dedupe_match": null,
+   "dedupe_similarity": 0.0,
+   "id": "8d68e733fa29",
+   "title": "Business Tour operators renew opposition to Mt Kilimanjaro cable car plans Yesterday - 3 min read",
+   "url": "https://www.thecitizen.co.tz/tanzania/business/tour-operators-renew-opposition-to-mt-kilimanjaro-cable-car-plans-5565634",
+   "summary": "",
+   "kind": "item",
+   "source": "The Citizen (Tanzania)",
+   "source_id": "np-citizen-tz",
+   "tier": 2,
+   "country": "TZ",
+   "category": "press",
+   "segments": [
+    "city",
+    "bush",
+    "beach"
+   ],
+   "first_seen": "2026-08-23T08:04+03:00",
+   "published": null,
+   "verdict": "weak"
+  },
+  {
+   "score": 38.8,
+   "components": {
+    "tier": 20,
+    "category": 4,
+    "lead": 0.0,
+    "relevance": 4,
+    "freshness": 16.8,
+    "undated": -6
+   },
+   "keywords": [
+    "tourism"
+   ],
+   "shock_terms": [],
+   "dedupe_match": null,
+   "dedupe_similarity": 0.17,
+   "id": "a002a43a2acf",
+   "title": "Zanzibar Kenyan businesswoman among three arrested for running tourism operations \u2018reserved\u2019 for Zanzibaris 17 hours ago - 2 min read",
+   "url": "https://www.thecitizen.co.tz/tanzania/zanzibar/kenyan-arrested-in-zanzibar-over-illegal-tour-operations--5567298",
+   "summary": "",
+   "kind": "item",
+   "source": "The Citizen (Tanzania)",
+   "source_id": "np-citizen-tz",
+   "tier": 2,
+   "country": "TZ",
+   "category": "press",
+   "segments": [
+    "city",
+    "bush",
+    "beach"
+   ],
+   "first_seen": "2026-08-23T08:04+03:00",
+   "published": null,
+   "verdict": "weak"
+  },
+  {
+   "score": 37.8,
+   "components": {
+    "tier": 20,
+    "category": 4,
+    "lead": 0.0,
+    "relevance": 0,
+    "freshness": 19.8,
+    "undated": -6
+   },
+   "keywords": [],
+   "shock_terms": [],
+   "dedupe_match": null,
+   "dedupe_similarity": 0.0,
+   "id": "c3edbf859220",
+   "title": "National Samia launches 2,115MW Julius Nyerere Hydropower Project, silences critics 19 hours ago - 7 min read",
+   "url": "https://www.thecitizen.co.tz/tanzania/news/national/samia-launches-2-115mw-julius-nyerere-hydropower-project-silences-critics-5567318",
+   "summary": "",
+   "kind": "item",
+   "source": "The Citizen (Tanzania)",
+   "source_id": "np-citizen-tz",
+   "tier": 2,
+   "country": "TZ",
+   "category": "press",
+   "segments": [
+    "city",
+    "bush",
+    "beach"
+   ],
+   "first_seen": "2026-08-23T10:48+03:00",
+   "published": null,
+   "verdict": "weak"
+  },
+  {
+   "score": 37.8,
+   "components": {
+    "tier": 20,
+    "category": 4,
+    "lead": 0.0,
+    "relevance": 0,
+    "freshness": 19.8,
+    "undated": -6
+   },
+   "keywords": [],
+   "shock_terms": [],
+   "dedupe_match": null,
+   "dedupe_similarity": 0.2,
+   "id": "3a2ae0e8bd70",
+   "title": "National Fitch upgrades Tanzania\u2019s economic outlook to positive, keeps B+ rating 18 hours ago - 4 min read",
+   "url": "https://www.thecitizen.co.tz/tanzania/news/national/fitch-upgrades-tanzania-s-economic-outlook-to-positive-keeps-b-rating-5567428",
+   "summary": "",
+   "kind": "item",
+   "source": "The Citizen (Tanzania)",
+   "source_id": "np-citizen-tz",
+   "tier": 2,
+   "country": "TZ",
+   "category": "press",
+   "segments": [
+    "city",
+    "bush",
+    "beach"
+   ],
+   "first_seen": "2026-08-23T10:48+03:00",
+   "published": null,
+   "verdict": "weak"
+  },
+  {
+   "score": 37.8,
+   "components": {
+    "tier": 20,
+    "category": 4,
+    "lead": 0.0,
+    "relevance": 0,
+    "freshness": 19.8,
+    "undated": -6
+   },
+   "keywords": [],
+   "shock_terms": [],
+   "dedupe_match": null,
+   "dedupe_similarity": 0.2,
+   "id": "7bd5262941e4",
+   "title": "National Tanzania to start repatriating its citizens from South Africa 21 hours ago - 3 min read",
+   "url": "https://www.thecitizen.co.tz/tanzania/news/national/tanzania-to-start-repatriating-its-citizens-from-south-africa-5567102",
+   "summary": "",
+   "kind": "item",
+   "source": "The Citizen (Tanzania)",
+   "source_id": "np-citizen-tz",
+   "tier": 2,
+   "country": "TZ",
+   "category": "press",
+   "segments": [
+    "city",
+    "bush",
+    "beach"
+   ],
+   "first_seen": "2026-08-23T10:48+03:00",
+   "published": null,
+   "verdict": "weak"
+  },
+  {
+   "score": 37.8,
+   "components": {
+    "tier": 20,
+    "category": 4,
+    "lead": 0.0,
+    "relevance": 0,
+    "freshness": 19.8,
+    "undated": -6
+   },
+   "keywords": [],
+   "shock_terms": [],
+   "dedupe_match": null,
+   "dedupe_similarity": 0.0,
+   "id": "0962be58c391",
+   "title": "\u2018People who lost properties, INCLUDING relatives, shall be aptly compensated\u2019 BY Abdi Sultani Aug 21 - 3 min read",
+   "url": "https://www.thecitizen.co.tz/tanzania/oped/-people-who-lost-properties-including-relatives-shall-be-aptly-compensated--5565682",
+   "summary": "",
+   "kind": "item",
+   "source": "The Citizen (Tanzania)",
+   "source_id": "np-citizen-tz",
+   "tier": 2,
+   "country": "TZ",
+   "category": "press",
+   "segments": [
+    "city",
+    "bush",
+    "beach"
+   ],
+   "first_seen": "2026-08-23T10:48+03:00",
+   "published": null,
+   "verdict": "weak"
+  },
+  {
+   "score": 37.8,
+   "components": {
+    "tier": 20,
+    "category": 4,
+    "lead": 0.0,
+    "relevance": 0,
+    "freshness": 19.8,
+    "undated": -6
+   },
+   "keywords": [],
+   "shock_terms": [],
+   "dedupe_match": null,
+   "dedupe_similarity": 0.0,
+   "id": "70e7629cbf43",
+   "title": "National Romanian national held in Sh171.7m bank card fraud probe 17 hours ago - 2 min read",
+   "url": "https://www.thecitizen.co.tz/tanzania/news/national/romanian-national-held-in-sh171-7m-bank-card-fraud-probe-5567592",
+   "summary": "",
+   "kind": "item",
+   "source": "The Citizen (Tanzania)",
+   "source_id": "np-citizen-tz",
+   "tier": 2,
+   "country": "TZ",
+   "category": "press",
+   "segments": [
+    "city",
+    "bush",
+    "beach"
+   ],
+   "first_seen": "2026-08-23T10:48+03:00",
+   "published": null,
+   "verdict": "weak"
+  },
+  {
+   "score": 37.8,
+   "components": {
+    "tier": 20,
+    "category": 4,
+    "lead": 0.0,
+    "relevance": 0,
+    "freshness": 19.8,
+    "undated": -6
+   },
+   "keywords": [],
+   "shock_terms": [],
+   "dedupe_match": null,
+   "dedupe_similarity": 0.0,
+   "id": "60eeec983743",
+   "title": "Bus owners seek meeting with Prime Minister over fare increase 21 hours ago - 2 min read",
+   "url": "https://www.thecitizen.co.tz/tanzania/news/national/bus-owners-seek-meeting-with-prime-minister-over-fare-increase-5567222",
+   "summary": "",
+   "kind": "item",
+   "source": "The Citizen (Tanzania)",
+   "source_id": "np-citizen-tz",
+   "tier": 2,
+   "country": "TZ",
+   "category": "press",
+   "segments": [
+    "city",
+    "bush",
+    "beach"
+   ],
+   "first_seen": "2026-08-23T10:48+03:00",
    "published": null,
    "verdict": "weak"
   }
