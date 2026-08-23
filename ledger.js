@@ -1,31 +1,15 @@
 window.LEDGER = {
- "updated": "2026-08-22 16:47",
+ "updated": "2026-08-23 17:24",
  "stats": {
-  "total": 111,
+  "total": 113,
   "open": 90,
-  "resolved": 21,
-  "correct": 15,
+  "resolved": 23,
+  "correct": 17,
   "partial": 1,
   "incorrect": 5,
-  "accuracy": 74
+  "accuracy": 76
  },
  "open": [
-  {
-   "id": "P052",
-   "made_date": "2026-08-05",
-   "edition": "Morning Brief",
-   "claim": "The WHO IHR Emergency Committee meeting on 18 August 2026 will KEEP the Bundibugyo outbreak's PHEIC status and temporary recommendations in force rather than downgrade or terminate them — week-30 acceleration leaves no basis to stand down",
-   "resolution_criteria": "A WHO statement after the 18 Aug 2026 IHR EC meeting confirming the PHEIC/temporary recommendations remain in force. If WHO ends or downgrades the PHEIC the call is incorrect",
-   "resolve_by": "2026-08-22",
-   "market": "Regional",
-   "segment": "All",
-   "confidence": "Reported",
-   "status": "open",
-   "resolved_date": "",
-   "evidence": "",
-   "source_url": "https://www.who.int/emergencies/disease-outbreak-news/item/2026-DON614",
-   "overdue": false
-  },
   {
    "id": "P032",
    "made_date": "2026-07-28",
@@ -104,22 +88,6 @@ window.LEDGER = {
    "resolved_date": "",
    "evidence": "",
    "source_url": "https://travel.state.gov/content/travel/en/traveladvisories/traveladvisories/kenya-travel-advisory.html",
-   "overdue": false
-  },
-  {
-   "id": "P096",
-   "made_date": "2026-08-17",
-   "edition": "pulse-2026-08-17-evening",
-   "claim": "The WHO IHR Emergency Committee meeting on 18 August 2026 will MAINTAIN the Bundibugyo PHEIC rather than terminate it — DRC became the deadliest outbreak in its history on 17 Aug with a case fatality ratio of 46% and 55 affected health zones",
-   "resolution_criteria": "WHO statement or IHR Emergency Committee communiqué published on or before 31 Aug 2026 confirming the PHEIC remains in force. If WHO terminates the PHEIC at or following the 18 Aug meeting, the call is incorrect",
-   "resolve_by": "2026-08-31",
-   "market": "Regional",
-   "segment": "Bush/City",
-   "confidence": "High",
-   "status": "open",
-   "resolved_date": "",
-   "evidence": "",
-   "source_url": "https://www.who.int/groups/ihr-emergency-committee-regarding-the-epidemic-of-ebola-bundibugyo-virus-disease-in-the-drc-and-uganda",
    "overdue": false
   },
   {
@@ -552,6 +520,22 @@ window.LEDGER = {
    "resolved_date": "",
    "evidence": "",
    "source_url": "https://www.who.int/emergencies/disease-outbreak-news/item/2026-DON615",
+   "overdue": false
+  },
+  {
+   "id": "P112",
+   "made_date": "2026-08-23",
+   "edition": "pulse-2026-08-23-evening",
+   "claim": "The mainland-Tanzania vs Kenya electricity cost gap will widen further in the next prints — Kenya's EPRA combined monthly pass-through (fuel energy + forex) will stay at or above KSh4.50/kWh in the September 2026 review while Tanzania keeps a generation surplus",
+   "resolution_criteria": "EPRA September 2026 monthly tariff notice shows combined fuel-energy + forex pass-through >= KSh4.50/kWh and no Tanzanian nationwide scheduled rationing is announced by 30 Sep 2026",
+   "resolve_by": "2026-09-30",
+   "market": "TZ",
+   "segment": "City",
+   "confidence": "Reported",
+   "status": "open",
+   "resolved_date": "",
+   "evidence": "",
+   "source_url": "",
    "overdue": false
   },
   {
@@ -1403,6 +1387,22 @@ window.LEDGER = {
    "overdue": false
   },
   {
+   "id": "P111",
+   "made_date": "2026-08-23",
+   "edition": "pulse-2026-08-23-evening",
+   "claim": "Zanzibar's reliable grid supply from the mainland interconnector will remain capped below ~150MW through H1 2027 — no new 220kV/270MW submarine cable commissioned — so Unguja resorts see no material genset-cost relief despite mainland Tanzania's 2,375MW surplus",
+   "resolution_criteria": "ZECO/TANESCO or Citizen TZ/AfDB reporting confirms the new 220kV/270MW Unguja interconnector is NOT yet commissioned and island reliable supply remains near ~135MW as of 30 Jun 2027",
+   "resolve_by": "2027-06-30",
+   "market": "TZ",
+   "segment": "Beach",
+   "confidence": "Reported",
+   "status": "open",
+   "resolved_date": "",
+   "evidence": "",
+   "source_url": "",
+   "overdue": false
+  },
+  {
    "id": "P016",
    "made_date": "2026-07-26",
    "edition": "Midday Pulse",
@@ -1452,6 +1452,38 @@ window.LEDGER = {
   }
  ],
  "resolved": [
+  {
+   "id": "P052",
+   "made_date": "2026-08-05",
+   "edition": "Morning Brief",
+   "claim": "The WHO IHR Emergency Committee meeting on 18 August 2026 will KEEP the Bundibugyo outbreak's PHEIC status and temporary recommendations in force rather than downgrade or terminate them — week-30 acceleration leaves no basis to stand down",
+   "resolution_criteria": "A WHO statement after the 18 Aug 2026 IHR EC meeting confirming the PHEIC/temporary recommendations remain in force. If WHO ends or downgrades the PHEIC the call is incorrect",
+   "resolve_by": "2026-08-22",
+   "market": "Regional",
+   "segment": "All",
+   "confidence": "Reported",
+   "status": "correct",
+   "resolved_date": "2026-08-23",
+   "evidence": "WHO DG Tedros announced after the second IHR Emergency Committee on 18 Aug 2026 that the Bundibugyo epidemic REMAINS a PHEIC; temporary recommendations kept in force. Outbreak now 2nd-largest ever (~5000 cases, >2300 deaths, 6 provinces).",
+   "source_url": "https://www.who.int/news-room/speeches/item/who-director-general-s-opening-remarks-at-the-second-ihr-emergency-committee-meeting-on-bundibugyo-virus-disease-epidemic-in-the-democratic-republic-of-the-congo---18-august-2026",
+   "overdue": false
+  },
+  {
+   "id": "P096",
+   "made_date": "2026-08-17",
+   "edition": "pulse-2026-08-17-evening",
+   "claim": "The WHO IHR Emergency Committee meeting on 18 August 2026 will MAINTAIN the Bundibugyo PHEIC rather than terminate it — DRC became the deadliest outbreak in its history on 17 Aug with a case fatality ratio of 46% and 55 affected health zones",
+   "resolution_criteria": "WHO statement or IHR Emergency Committee communiqué published on or before 31 Aug 2026 confirming the PHEIC remains in force. If WHO terminates the PHEIC at or following the 18 Aug meeting, the call is incorrect",
+   "resolve_by": "2026-08-31",
+   "market": "Regional",
+   "segment": "Bush/City",
+   "confidence": "High",
+   "status": "correct",
+   "resolved_date": "2026-08-23",
+   "evidence": "WHO DG Tedros announced after the second IHR Emergency Committee on 18 Aug 2026 that the Bundibugyo epidemic REMAINS a PHEIC; temporary recommendations kept in force. Outbreak now 2nd-largest ever (~5000 cases, >2300 deaths, 6 provinces).",
+   "source_url": "https://www.who.int/news-room/speeches/item/who-director-general-s-opening-remarks-at-the-second-ihr-emergency-committee-meeting-on-bundibugyo-virus-disease-epidemic-in-the-democratic-republic-of-the-congo---18-august-2026",
+   "overdue": false
+  },
   {
    "id": "P072",
    "made_date": "2026-08-12",

@@ -1,5 +1,14 @@
 window.EDITIONS = [
  {
+  "id": "pulse-2026-08-23-evening",
+  "date": "2026-08-23",
+  "dateDisplay": "Sunday, 23 August 2026",
+  "edition": "Evening Wrap",
+  "editionKey": "evening",
+  "summary": "🌍 THE EXPERT BRIEF — TANZANIA IS NOW POWER-LONG. ZANZIBAR STILL CAN'T PLUG IN.",
+  "bodyHtml": "<p><strong>🌍 THE EXPERT BRIEF — TANZANIA IS NOW POWER-LONG. ZANZIBAR STILL CAN&#x27;T PLUG IN.</strong></p>\n<p>On 22 August Tanzania inaugurated the 2,115MW Julius Nyerere Hydropower Project, lifting installed capacity to 4,646MW against roughly 2,271MW of peak demand — a surplus near 2,375MW (TanzaniaInvest, 23 Aug 2026). For a region where hotels budget diesel gensets as a standing cost line, a neighbour turning structurally power-long is a competitiveness event.</p>\n<p><strong>The catch most will miss:</strong> the surplus stops at the water. Zanzibar — Tanzania&#x27;s highest-value tourism zone — draws power over two submarine cables running at 98.8% and 97.3% of capacity, capping reliable island supply near 135MW against a ~65MW deficit (The Citizen TZ / AfDB). The bottleneck has moved from generation to transmission. Mainland abundance does not reach an Unguja beach resort until the planned 220kV upgrade and new 270MW cable are commissioned.</p>\n<p><strong>🎯 So what, by segment:</strong><br>• CITY (Dar, Arusha, Dodoma): the clear winner — grid reliability should ease genset reliance. Revisit 2027 diesel-backup assumptions, but don&#x27;t bank a tariff cut nobody has announced.<br>• BUSH: mostly off-grid solar+diesel, so direct gain is marginal; the win is gateway-town reliability and cold chain.<br>• BEACH (Zanzibar): do NOT cut genset capex or fuel budgets on the mainland headline — your power risk is unchanged this season.<br>• KE BENCHMARK: Kenya&#x27;s EPRA pass-through charges hit a combined KSh4.70/kWh in August (Kenyans.co.ke, 18 Aug 2026), on Nairobi diesel at KSh217.86/L. The mainland-TZ-vs-Kenya energy cost gap is widening.</p>\n<p><strong>🟢 STILL TRUE:</strong> Zanzibar&#x27;s US advisory holds at Level 3 (unchanged since 31 Oct 2025; UK Level 1) — no downgrade off the regional Ebola noise. Don&#x27;t pre-emptively discount (verified 4 Aug 2026).</p>\n<p><strong>💲 COST PULSE:</strong> Tanzania inflation 4.0% vs Kenya 6.4% (NBS / KNBS). KES→TZS 20.30 (CBK weekly bulletin).</p>\n<p><strong>📅 WEEK AHEAD:</strong> Africa Global PR Week, Nairobi 26–28 Aug · World Travel Awards Africa Gala, Zanzibar 28 Aug · Kwita Izina exhibition, Musanze 28 Aug–8 Sep.</p>\n<p>🔗 This edition on the web: https://eahospitalitypulse.com/editions/pulse-2026-08-23-evening.html<br>💼 Today&#x27;s Big Read on LinkedIn: https://www.linkedin.com/company/ea-hospitality-pulse/</p>"
+ },
+ {
   "id": "pulse-2026-08-22-evening",
   "date": "2026-08-22",
   "dateDisplay": "Saturday, 22 August 2026",
@@ -2763,4 +2772,4 @@ window.INSIGHTS = [
   "editionKey": "evening"
  }
 ];
-window.BUILT_AT = "2026-08-22 16:46";
+window.BUILT_AT = "2026-08-23 17:23";
