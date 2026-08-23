@@ -1,176 +1,81 @@
 {
- "generated": "2026-08-23T13:55:16+03:00",
- "slot": "midday",
- "window_start": 1787457600,
- "observations_in_window": 151,
+ "generated": "2026-08-23T16:49:51+03:00",
+ "slot": "evening",
+ "window_start": 1787479200,
+ "observations_in_window": 90,
  "deduped_against": 6,
  "candidates": [
   {
-   "score": 98.4,
+   "score": 91.3,
    "components": {
     "tier": 40,
     "category": 32,
-    "lead": 12.0,
-    "relevance": 8,
-    "freshness": 16.4,
-    "undated": -6,
+    "lead": 3.6,
+    "relevance": 0,
+    "freshness": 19.7,
     "page_change": -4
+   },
+   "keywords": [],
+   "shock_terms": [],
+   "dedupe_match": null,
+   "dedupe_similarity": 0.0,
+   "id": "2e834be2b45c",
+   "title": "[page changed] Federal Register \u2014 public inspection (HHS/CDC), pre-publication",
+   "url": "https://www.federalregister.gov/api/v1/public-inspection-documents/current.json",
+   "summary": "{\"count\":87,\"results\":[{\"agencies\":[{\"raw_name\":\"FEDERAL COMMUNICATIONS COMMISSION\",\"name\":\"Federal Communications Commission\",\"id\":161,\"url\":\"https://www.federalregister.gov/agencies/federal-communications-commission\",\"json_url\":\"https://www.federalregister.gov/api/v1/agencies/161\",\"parent_id\":null,\"slug\":\"federal-communications-commission\"}],\"agency_letters\":[],\"agency_names\":[\"Federal Communica",
+   "kind": "page-change",
+   "source": "Federal Register \u2014 public inspection (HHS/CDC), pre-publication",
+   "source_id": "us-fedreg-pubinspect-hhs",
+   "tier": 1,
+   "country": "REG",
+   "category": "advisory",
+   "segments": [
+    "city",
+    "bush"
+   ],
+   "first_seen": "2026-08-23T16:46+03:00",
+   "published": "2026-08-21",
+   "verdict": "OPEN THIS \u2014 tier-1 advisory page moved; content not auto-parsed, read it manually"
+  },
+  {
+   "score": 103.8,
+   "components": {
+    "tier": 20,
+    "category": 4,
+    "lead": 0.0,
+    "relevance": 32,
+    "freshness": 19.8,
+    "corroborated": 10,
+    "shock": 18
    },
    "keywords": [
-    "fee"
+    "outbreak",
+    "ebola",
+    "capacity"
    ],
-   "shock_terms": [],
-   "dedupe_match": null,
-   "dedupe_similarity": 0.0,
-   "id": "8ed24aa910ef",
-   "title": "[page changed] Federal Register \u2014 CDC notices",
-   "url": "https://www.federalregister.gov/api/v1/documents.rss?conditions%5Bagencies%5D%5B%5D=centers-for-disease-control-and-prevention&order=newest",
-   "summary": "Federal Register Documents published on or after 07/24/2026 and from Centers for Disease Control and Prevention https://www.federalregister.gov/api/v1/documents.rss?conditions%5Bagencies%5D%5B%5D=centers-for-disease-control-and-prevention&order=newest Thu, 20 Aug 2026 04:00:00 GMT The documents in this feed originate from FederalRegister.gov which displays an unofficial web version of the daily Fe",
-   "kind": "page-change",
-   "source": "Federal Register \u2014 CDC notices",
-   "source_id": "us-fedreg-cdc",
-   "tier": 1,
-   "country": "REG",
-   "category": "advisory",
-   "segments": [
-    "city",
-    "bush"
+   "shock_terms": [
+    "outbreak"
    ],
-   "first_seen": "2026-08-23T10:48+03:00",
-   "published": null,
-   "verdict": "OPEN THIS \u2014 tier-1 advisory page moved; content not auto-parsed, read it manually"
-  },
-  {
-   "score": 90.4,
-   "components": {
-    "tier": 40,
-    "category": 32,
-    "lead": 3.6,
-    "relevance": 0,
-    "freshness": 18.8,
-    "page_change": -4
-   },
-   "keywords": [],
-   "shock_terms": [],
    "dedupe_match": null,
-   "dedupe_similarity": 0.0,
-   "id": "55adac638526",
-   "title": "[page changed] Federal Register \u2014 public inspection (HHS/CDC), pre-publication",
-   "url": "https://www.federalregister.gov/api/v1/public-inspection-documents/current.json",
-   "summary": "{\"count\":87,\"results\":[{\"agencies\":[{\"raw_name\":\"FEDERAL COMMUNICATIONS COMMISSION\",\"name\":\"Federal Communications Commission\",\"id\":161,\"url\":\"https://www.federalregister.gov/agencies/federal-communications-commission\",\"json_url\":\"https://www.federalregister.gov/api/v1/agencies/161\",\"parent_id\":null,\"slug\":\"federal-communications-commission\"}],\"agency_letters\":[],\"agency_names\":[\"Federal Communica",
-   "kind": "page-change",
-   "source": "Federal Register \u2014 public inspection (HHS/CDC), pre-publication",
-   "source_id": "us-fedreg-pubinspect-hhs",
-   "tier": 1,
-   "country": "REG",
-   "category": "advisory",
-   "segments": [
-    "city",
-    "bush"
-   ],
-   "first_seen": "2026-08-23T12:59+03:00",
-   "published": "2026-08-21",
-   "verdict": "OPEN THIS \u2014 tier-1 advisory page moved; content not auto-parsed, read it manually"
-  },
-  {
-   "score": 88.0,
-   "components": {
-    "tier": 40,
-    "category": 32,
-    "lead": 3.6,
-    "relevance": 0,
-    "freshness": 16.4,
-    "page_change": -4
-   },
-   "keywords": [],
-   "shock_terms": [],
-   "dedupe_match": null,
-   "dedupe_similarity": 0.0,
-   "id": "42f6e90b0107",
-   "title": "[page changed] Federal Register \u2014 public inspection (HHS/CDC), pre-publication",
-   "url": "https://www.federalregister.gov/api/v1/public-inspection-documents/current.json",
-   "summary": "{\"count\":87,\"results\":[{\"agencies\":[{\"raw_name\":\"FEDERAL COMMUNICATIONS COMMISSION\",\"name\":\"Federal Communications Commission\",\"id\":161,\"url\":\"https://www.federalregister.gov/agencies/federal-communications-commission\",\"json_url\":\"https://www.federalregister.gov/api/v1/agencies/161\",\"parent_id\":null,\"slug\":\"federal-communications-commission\"}],\"agency_letters\":[],\"agency_names\":[\"Federal Communica",
-   "kind": "page-change",
-   "source": "Federal Register \u2014 public inspection (HHS/CDC), pre-publication",
-   "source_id": "us-fedreg-pubinspect-hhs",
-   "tier": 1,
-   "country": "REG",
-   "category": "advisory",
-   "segments": [
-    "city",
-    "bush"
-   ],
-   "first_seen": "2026-08-23T10:48+03:00",
-   "published": "2026-08-21",
-   "verdict": "OPEN THIS \u2014 tier-1 advisory page moved; content not auto-parsed, read it manually"
-  },
-  {
-   "score": 64.4,
-   "components": {
-    "tier": 40,
-    "category": 12,
-    "lead": 3.6,
-    "relevance": 0,
-    "freshness": 18.8,
-    "undated": -6,
-    "page_change": -4
-   },
-   "keywords": [],
-   "shock_terms": [],
-   "dedupe_match": null,
-   "dedupe_similarity": 0.0,
-   "id": "1a81667cbc94",
-   "title": "[page changed] Jambojet media",
-   "url": "https://www.jambojet.com/en/press-release",
-   "summary": "Request unsuccessful. Incapsula incident ID: 386000190011348489-1314509125977285",
-   "kind": "page-change",
-   "source": "Jambojet media",
-   "source_id": "air-jambojet",
-   "tier": 1,
-   "country": "KE",
-   "category": "airline",
+   "dedupe_similarity": 0.33,
+   "id": "4651d125fce0",
+   "title": "Tanzania conducts IPC assessment in Kagera in preparedness for Ebola outbreaks",
+   "url": "https://dailynews.co.tz/tanzania-conducts-ipc-assessment-in-kagera-in-preparedness-for-ebola-outbreaks",
+   "summary": "BUKOBA: THE Ministry of Health has conducted an infection prevention and control (IPC) assessment at Nyakahanga Hospital in Karagwe District Council, Kagera Region, as part of efforts to strengthen health workers\u2019 capacity to respond to disease outbreaks, including Ebola. The Ministry\u2019s Infection Prevention and Control Coordinator, Dr Chrisogone German, said the assessment aimed to improve \u2026 The p",
+   "kind": "item",
+   "source": "Daily News (Tanzania)",
+   "source_id": "np-dailynews-tz",
+   "tier": 2,
+   "country": "TZ",
+   "category": "press",
    "segments": [
     "city",
     "bush",
     "beach"
    ],
-   "first_seen": "2026-08-23T12:59+03:00",
-   "published": null,
-   "verdict": "OPEN THIS \u2014 tier-1 airline page moved; content not auto-parsed, read it manually"
-  },
-  {
-   "score": 59.0,
-   "components": {
-    "tier": 40,
-    "category": 12,
-    "lead": 3.6,
-    "relevance": 0,
-    "freshness": 13.4,
-    "undated": -6,
-    "page_change": -4
-   },
-   "keywords": [],
-   "shock_terms": [],
-   "dedupe_match": null,
-   "dedupe_similarity": 0.0,
-   "id": "2b3bad6a2412",
-   "title": "[page changed] Airlink news",
-   "url": "https://www.flyairlink.com/",
-   "summary": "Request unsuccessful. Incapsula incident ID: 1414000710243709556-395788902935695819",
-   "kind": "page-change",
-   "source": "Airlink news",
-   "source_id": "air-airlink",
-   "tier": 1,
-   "country": "REG",
-   "category": "airline",
-   "segments": [
-    "city",
-    "bush",
-    "beach"
-   ],
-   "first_seen": "2026-08-23T08:04+03:00",
-   "published": null,
-   "verdict": "OPEN THIS \u2014 tier-1 airline page moved; content not auto-parsed, read it manually"
+   "first_seen": "2026-08-23T16:47+03:00",
+   "published": "2026-08-23",
+   "verdict": "CONSIDER"
   },
   {
    "score": 83.8,
@@ -180,6 +85,46 @@
     "lead": 0.0,
     "relevance": 28,
     "freshness": 19.8,
+    "undated": -6,
+    "shock": 18
+   },
+   "keywords": [
+    "suspend",
+    "visa",
+    "strike"
+   ],
+   "shock_terms": [
+    "strike"
+   ],
+   "dedupe_match": null,
+   "dedupe_similarity": 0.0,
+   "id": "7bf9c9a8d373",
+   "title": "international US judge strikes down policy suspending immigrant visa processing for 75 nations 8 hours ago - 2 min read",
+   "url": "https://www.thecitizen.co.tz/tanzania/news/international/us-judge-strikes-down-policy-suspending-immigrant-visa-processing-for-75-nations-5567858",
+   "summary": "",
+   "kind": "item",
+   "source": "The Citizen (Tanzania)",
+   "source_id": "np-citizen-tz",
+   "tier": 2,
+   "country": "TZ",
+   "category": "press",
+   "segments": [
+    "city",
+    "bush",
+    "beach"
+   ],
+   "first_seen": "2026-08-23T16:47+03:00",
+   "published": null,
+   "verdict": "CONSIDER"
+  },
+  {
+   "score": 80.6,
+   "components": {
+    "tier": 20,
+    "category": 4,
+    "lead": 0.0,
+    "relevance": 28,
+    "freshness": 16.6,
     "undated": -6,
     "shock": 18
    },
@@ -213,291 +158,85 @@
    "verdict": "CONSIDER"
   },
   {
-   "score": 81.7,
+   "score": 72.0,
+   "components": {
+    "tier": 20,
+    "category": 5,
+    "lead": 1.2,
+    "relevance": 16,
+    "freshness": 19.8,
+    "corroborated": 10
+   },
+   "keywords": [
+    "electricity",
+    "capacity"
+   ],
+   "shock_terms": [],
+   "dedupe_match": null,
+   "dedupe_similarity": 0.4,
+   "id": "38428eef82c6",
+   "title": "Tanzania Electricity Surplus Hits 2,375 MW As Julius Nyerere Hydropower Project Is Officially Launched",
+   "url": "https://www.tanzaniainvest.com/energy/jnhpp-julius-nyerere-hydropower-project-launch",
+   "summary": "The Julius Nyerere Hydropower Project's 2,115MW plant lifted Tanzania's installed generation capacity to 4,646MW against peak demand of 2,271MW, with a surplus of 2,375MW, after President Samia Suluhu Hassan's inauguration on 22 August 2026. The government has signed an agreement to export power to Zambia and reached a trading arrangement with Kenya, while a newly completed 400kV Chalinze-Dodoma t",
+   "kind": "item",
+   "source": "TanzaniaInvest \u2014 tourism",
+   "source_id": "tp-tanzaniainvest",
+   "tier": 2,
+   "country": "TZ",
+   "category": "trade",
+   "segments": [
+    "city",
+    "bush",
+    "beach"
+   ],
+   "first_seen": "2026-08-23T16:47+03:00",
+   "published": "2026-08-23",
+   "verdict": "CONSIDER"
+  },
+  {
+   "score": 71.8,
    "components": {
     "tier": 20,
     "category": 4,
     "lead": 0.0,
-    "relevance": 28,
-    "freshness": 17.7,
-    "undated": -6,
+    "relevance": 0,
+    "freshness": 19.8,
+    "corroborated": 10,
     "shock": 18
    },
-   "keywords": [
-    "suspend",
-    "visa",
-    "strike"
-   ],
+   "keywords": [],
    "shock_terms": [
-    "strike"
+    "attack"
    ],
    "dedupe_match": null,
    "dedupe_similarity": 0.0,
-   "id": "180babd20b02",
-   "title": "international US judge strikes down policy suspending immigrant visa processing for 75 nations 3 hours ago - 2 min read",
-   "url": "https://www.thecitizen.co.tz/tanzania/news/international/us-judge-strikes-down-policy-suspending-immigrant-visa-processing-for-75-nations-5567858",
-   "summary": "",
+   "id": "e0ccd9bf746e",
+   "title": "Buyende police probe murder of traditional healer found buried in banana plantation",
+   "url": "https://www.monitor.co.ug/uganda/news/national/buyende-police-probe-murder-of-traditional-healer-found-buried-in-banana-plantation-5568120",
+   "summary": "Elizabeth Namukose was allegedly killed in a suspected revenge attack",
    "kind": "item",
-   "source": "The Citizen (Tanzania)",
-   "source_id": "np-citizen-tz",
+   "source": "Daily Monitor (Uganda)",
+   "source_id": "np-monitor-ug",
    "tier": 2,
-   "country": "TZ",
+   "country": "UG",
    "category": "press",
    "segments": [
     "city",
     "bush",
     "beach"
    ],
-   "first_seen": "2026-08-23T12:02+03:00",
-   "published": null,
+   "first_seen": "2026-08-23T16:47+03:00",
+   "published": "2026-08-23",
    "verdict": "CONSIDER"
   },
   {
-   "score": 80.4,
-   "components": {
-    "tier": 20,
-    "category": 4,
-    "lead": 0.0,
-    "relevance": 28,
-    "freshness": 16.4,
-    "undated": -6,
-    "shock": 18
-   },
-   "keywords": [
-    "suspend",
-    "visa",
-    "strike"
-   ],
-   "shock_terms": [
-    "strike"
-   ],
-   "dedupe_match": null,
-   "dedupe_similarity": 0.0,
-   "id": "2bc18f9a6d66",
-   "title": "international US judge strikes down policy suspending immigrant visa processing for 75 nations 2 hours ago - 2 min read",
-   "url": "https://www.thecitizen.co.tz/tanzania/news/international/us-judge-strikes-down-policy-suspending-immigrant-visa-processing-for-75-nations-5567858",
-   "summary": "",
-   "kind": "item",
-   "source": "The Citizen (Tanzania)",
-   "source_id": "np-citizen-tz",
-   "tier": 2,
-   "country": "TZ",
-   "category": "press",
-   "segments": [
-    "city",
-    "bush",
-    "beach"
-   ],
-   "first_seen": "2026-08-23T10:48+03:00",
-   "published": null,
-   "verdict": "CONSIDER"
-  },
-  {
-   "score": 79.2,
-   "components": {
-    "tier": 40,
-    "category": 15,
-    "lead": 16.8,
-    "relevance": 0,
-    "freshness": 13.4,
-    "undated": -6
-   },
-   "keywords": [],
-   "shock_terms": [],
-   "dedupe_match": null,
-   "dedupe_similarity": 0.0,
-   "id": "b1487ad5d528",
-   "title": "Notice - Official Launch of the FY2027/28 Medium Term Budget Planning Process",
-   "url": "https://www.treasury.go.ke/index.php/sites/default/files/Latest%20updates/Launch%20of%20the%20FY%202027-28%2C%202029-30%20Medium%20Term%20Budget%20Planning%20Process.pdf",
-   "summary": "",
-   "kind": "doc",
-   "source": "National Treasury Kenya",
-   "source_id": "ke-treasury",
-   "tier": 1,
-   "country": "KE",
-   "category": "fiscal",
-   "segments": [
-    "city",
-    "bush",
-    "beach"
-   ],
-   "first_seen": "2026-08-23T08:04+03:00",
-   "published": null,
-   "verdict": "CONSIDER"
-  },
-  {
-   "score": 79.2,
-   "components": {
-    "tier": 40,
-    "category": 15,
-    "lead": 16.8,
-    "relevance": 0,
-    "freshness": 13.4,
-    "undated": -6
-   },
-   "keywords": [],
-   "shock_terms": [],
-   "dedupe_match": null,
-   "dedupe_similarity": 0.0,
-   "id": "ef7e8e86d387",
-   "title": "Kenya's Disaster Risk Financing Strategy 2026 - 2030",
-   "url": "https://www.treasury.go.ke/index.php/sites/default/files/Latest%20updates/Kenya%20Disaster%20Risk%20Financing%20Strategy%202026%20-2030.pdf",
-   "summary": "",
-   "kind": "doc",
-   "source": "National Treasury Kenya",
-   "source_id": "ke-treasury",
-   "tier": 1,
-   "country": "KE",
-   "category": "fiscal",
-   "segments": [
-    "city",
-    "bush",
-    "beach"
-   ],
-   "first_seen": "2026-08-23T08:04+03:00",
-   "published": null,
-   "verdict": "CONSIDER"
-  },
-  {
-   "score": 79.2,
-   "components": {
-    "tier": 40,
-    "category": 15,
-    "lead": 16.8,
-    "relevance": 0,
-    "freshness": 13.4,
-    "undated": -6
-   },
-   "keywords": [],
-   "shock_terms": [],
-   "dedupe_match": null,
-   "dedupe_similarity": 0.0,
-   "id": "2d9afc27c43f",
-   "title": "Kenya's Sovereign Sustainability-Linked Financing Framework 2026",
-   "url": "https://www.treasury.go.ke/index.php/sites/default/files/Latest%20updates/Kenya%E2%80%99s%20Sovereign%20Sustainability-Linked%20Financing%20Framework%202026.pdf",
-   "summary": "",
-   "kind": "doc",
-   "source": "National Treasury Kenya",
-   "source_id": "ke-treasury",
-   "tier": 1,
-   "country": "KE",
-   "category": "fiscal",
-   "segments": [
-    "city",
-    "bush",
-    "beach"
-   ],
-   "first_seen": "2026-08-23T08:04+03:00",
-   "published": null,
-   "verdict": "CONSIDER"
-  },
-  {
-   "score": 79.2,
-   "components": {
-    "tier": 40,
-    "category": 15,
-    "lead": 16.8,
-    "relevance": 0,
-    "freshness": 13.4,
-    "undated": -6
-   },
-   "keywords": [],
-   "shock_terms": [],
-   "dedupe_match": null,
-   "dedupe_similarity": 0.0,
-   "id": "f0cce8824d90",
-   "title": "Public Notice - Medium-term Budget",
-   "url": "https://www.treasury.go.ke/index.php/sites/default/files/Latest%20updates/MEDIUM-TERM%20BUDGET%20PREPARATION%20PROCESS---Qtr.pdf",
-   "summary": "",
-   "kind": "doc",
-   "source": "National Treasury Kenya",
-   "source_id": "ke-treasury",
-   "tier": 1,
-   "country": "KE",
-   "category": "fiscal",
-   "segments": [
-    "city",
-    "bush",
-    "beach"
-   ],
-   "first_seen": "2026-08-23T08:04+03:00",
-   "published": null,
-   "verdict": "CONSIDER"
-  },
-  {
-   "score": 79.2,
-   "components": {
-    "tier": 40,
-    "category": 15,
-    "lead": 16.8,
-    "relevance": 0,
-    "freshness": 13.4,
-    "undated": -6
-   },
-   "keywords": [],
-   "shock_terms": [],
-   "dedupe_match": null,
-   "dedupe_similarity": 0.0,
-   "id": "ce5dc744a391",
-   "title": "Draft 2026 Budget Review and Outlook Paper",
-   "url": "https://www.treasury.go.ke/index.php/sites/default/files/Latest%20updates/Draft%202026%20Budget%20Review%20and%20Outlook%20Paper.._0.pdf",
-   "summary": "",
-   "kind": "doc",
-   "source": "National Treasury Kenya",
-   "source_id": "ke-treasury",
-   "tier": 1,
-   "country": "KE",
-   "category": "fiscal",
-   "segments": [
-    "city",
-    "bush",
-    "beach"
-   ],
-   "first_seen": "2026-08-23T08:04+03:00",
-   "published": null,
-   "verdict": "CONSIDER"
-  },
-  {
-   "score": 79.2,
-   "components": {
-    "tier": 40,
-    "category": 15,
-    "lead": 16.8,
-    "relevance": 0,
-    "freshness": 13.4,
-    "undated": -6
-   },
-   "keywords": [],
-   "shock_terms": [],
-   "dedupe_match": null,
-   "dedupe_similarity": 0.0,
-   "id": "f7942923bcea",
-   "title": "Public Notice on Draft 2026 BROP",
-   "url": "https://www.treasury.go.ke/index.php/sites/default/files/Latest%20updates/Public%20Notice%20on%20the%20Draft%202026%20Budget%20Review%20and%20Outlook%20Paper%20%281%29.pdf",
-   "summary": "",
-   "kind": "doc",
-   "source": "National Treasury Kenya",
-   "source_id": "ke-treasury",
-   "tier": 1,
-   "country": "KE",
-   "category": "fiscal",
-   "segments": [
-    "city",
-    "bush",
-    "beach"
-   ],
-   "first_seen": "2026-08-23T08:04+03:00",
-   "published": null,
-   "verdict": "CONSIDER"
-  },
-  {
-   "score": 69.2,
+   "score": 66.0,
    "components": {
     "tier": 20,
     "category": 5,
     "lead": 2.4,
     "relevance": 12,
-    "freshness": 19.8,
+    "freshness": 16.6,
     "corroborated": 10
    },
    "keywords": [
@@ -538,6 +277,80 @@
     "corroborated": 10
    },
    "keywords": [
+    "tax",
+    "investment"
+   ],
+   "shock_terms": [],
+   "dedupe_match": null,
+   "dedupe_similarity": 0.0,
+   "id": "f2210ed0998e",
+   "title": "Why villages remain cut off despite huge investments",
+   "url": "https://www.monitor.co.ug/uganda/business/finance/why-villages-remain-cut-off-despite-huge-investments-5566562",
+   "summary": "The persistent state of disrepair has prompted concerns over whether taxpayers are receiving...",
+   "kind": "item",
+   "source": "Daily Monitor (Uganda)",
+   "source_id": "np-monitor-ug",
+   "tier": 2,
+   "country": "UG",
+   "category": "press",
+   "segments": [
+    "city",
+    "bush",
+    "beach"
+   ],
+   "first_seen": "2026-08-23T16:47+03:00",
+   "published": "2026-08-23",
+   "verdict": "weak"
+  },
+  {
+   "score": 63.8,
+   "components": {
+    "tier": 20,
+    "category": 4,
+    "lead": 0.0,
+    "relevance": 8,
+    "freshness": 19.8,
+    "undated": -6,
+    "shock": 18
+   },
+   "keywords": [
+    "strike"
+   ],
+   "shock_terms": [
+    "strike"
+   ],
+   "dedupe_match": null,
+   "dedupe_similarity": 0.0,
+   "id": "af0b848490d3",
+   "title": "World Ukraine says 'cynical' Russian strike on shopping centre killed 16",
+   "url": "https://www.newvision.co.ug/category/world/ukraine-says-cynical-russian-strike-on-shoppi-NV_239302_082026",
+   "summary": "",
+   "kind": "item",
+   "source": "New Vision (Uganda)",
+   "source_id": "np-newvision-ug",
+   "tier": 2,
+   "country": "UG",
+   "category": "press",
+   "segments": [
+    "city",
+    "bush",
+    "beach"
+   ],
+   "first_seen": "2026-08-23T16:47+03:00",
+   "published": null,
+   "verdict": "weak"
+  },
+  {
+   "score": 62.6,
+   "components": {
+    "tier": 20,
+    "category": 4,
+    "lead": 0.0,
+    "relevance": 12,
+    "freshness": 16.6,
+    "corroborated": 10
+   },
+   "keywords": [
     "fee",
     "resort"
    ],
@@ -564,13 +377,84 @@
    "verdict": "weak"
   },
   {
-   "score": 64.2,
+   "score": 61.8,
+   "components": {
+    "tier": 20,
+    "category": 4,
+    "lead": 0.0,
+    "relevance": 8,
+    "freshness": 19.8,
+    "corroborated": 10
+   },
+   "keywords": [
+    "eta"
+   ],
+   "shock_terms": [],
+   "dedupe_match": null,
+   "dedupe_similarity": 0.2,
+   "id": "5e6b36ae6ce1",
+   "title": "Msigwa sees advanced AFCON preparations reportedly in Tanzania, Kenya and Uganda",
+   "url": "https://dailynews.co.tz/msigwa-sees-advanced-afcon-preparations-reportedly-in-tanzania-kenya-and-uganda",
+   "summary": "MOROGORO: THE Permanent Secretary in the Ministry of Information, Culture, Arts and Sports and Government Chief Spokesperson, Gerson Msigwa, has urged Tanzanians not to be concerned about preparations for the 2027 Africa Cup of Nations (AFCON), insisting that Tanzania, Kenya and Uganda will remain the host countries for the tournament. Msigwa said Tanzania\u2019s preparations for \u2026 The post Msigwa sees",
+   "kind": "item",
+   "source": "Daily News (Tanzania)",
+   "source_id": "np-dailynews-tz",
+   "tier": 2,
+   "country": "TZ",
+   "category": "press",
+   "segments": [
+    "city",
+    "bush",
+    "beach"
+   ],
+   "first_seen": "2026-08-23T16:47+03:00",
+   "published": "2026-08-23",
+   "verdict": "weak"
+  },
+  {
+   "score": 61.8,
+   "components": {
+    "tier": 20,
+    "category": 4,
+    "lead": 0.0,
+    "relevance": 8,
+    "freshness": 19.8,
+    "corroborated": 10
+   },
+   "keywords": [
+    "hotel",
+    "guest"
+   ],
+   "shock_terms": [],
+   "dedupe_match": null,
+   "dedupe_similarity": 0.0,
+   "id": "dec26caf4937",
+   "title": "Kigoma\u2019s Immigration Office enhances measures to curb illegal immigration",
+   "url": "https://dailynews.co.tz/kigomas-immigration-office-enhances-measures-to-curb-illegal-immigration",
+   "summary": "KIGOMA: THE Special Zone Immigration Office in Kigoma region has embarked on an exercise to curb illegal immigration by providing education to owners of hotels, bars and guesthouses on immigration laws. The exercise was led by senior Immigration Department officials in the zone, with Kigoma Regional Immigration Officer SACI Dismas Mlula urging owners of the \u2026 The post Kigoma\u2019s Immigration Office e",
+   "kind": "item",
+   "source": "Daily News (Tanzania)",
+   "source_id": "np-dailynews-tz",
+   "tier": 2,
+   "country": "TZ",
+   "category": "press",
+   "segments": [
+    "city",
+    "bush",
+    "beach"
+   ],
+   "first_seen": "2026-08-23T16:47+03:00",
+   "published": "2026-08-23",
+   "verdict": "weak"
+  },
+  {
+   "score": 61.0,
    "components": {
     "tier": 20,
     "category": 24,
     "lead": 2.4,
     "relevance": 8,
-    "freshness": 19.8,
+    "freshness": 16.6,
     "undated": -6,
     "page_change": -4
    },
@@ -600,196 +484,13 @@
    "verdict": "weak"
   },
   {
-   "score": 63.7,
-   "components": {
-    "tier": 20,
-    "category": 4,
-    "lead": 0.0,
-    "relevance": 12,
-    "freshness": 17.7,
-    "corroborated": 10
-   },
-   "keywords": [
-    "quarantine"
-   ],
-   "shock_terms": [],
-   "dedupe_match": null,
-   "dedupe_similarity": 0.0,
-   "id": "ffde84233ede",
-   "title": "MAAIF lifts Kalangala pig quarantine following African swine fever containment",
-   "url": "https://www.monitor.co.ug/uganda/news/national/maaif-lifts-kalangala-pig-quarantine-following-african-swine-fever-containment-5567874",
-   "summary": "African Swine Fever is a highly contagious viral disease affecting domestic and wild pigs",
-   "kind": "item",
-   "source": "Daily Monitor (Uganda)",
-   "source_id": "np-monitor-ug",
-   "tier": 2,
-   "country": "UG",
-   "category": "press",
-   "segments": [
-    "city",
-    "bush",
-    "beach"
-   ],
-   "first_seen": "2026-08-23T12:02+03:00",
-   "published": "2026-08-23",
-   "verdict": "weak"
-  },
-  {
-   "score": 63.7,
-   "components": {
-    "tier": 20,
-    "category": 4,
-    "lead": 0.0,
-    "relevance": 12,
-    "freshness": 17.7,
-    "corroborated": 10
-   },
-   "keywords": [
-    "ebola"
-   ],
-   "shock_terms": [],
-   "dedupe_match": null,
-   "dedupe_similarity": 0.33,
-   "id": "f9742fec8410",
-   "title": "DRC's Ebola response and the battle to coordinate funding",
-   "url": "https://www.theeastafrican.co.ke/tea/sustainability/health/drc-ebola-response-and-the-battle-to-coordinate-funding-5566914",
-   "summary": "Kinshasa frets that partners are mobilising vast sums without channelling them via a common...",
-   "kind": "item",
-   "source": "The EastAfrican",
-   "source_id": "np-eastafrican",
-   "tier": 2,
-   "country": "REG",
-   "category": "press",
-   "segments": [
-    "city",
-    "bush",
-    "beach"
-   ],
-   "first_seen": "2026-08-23T12:02+03:00",
-   "published": "2026-08-23",
-   "verdict": "weak"
-  },
-  {
-   "score": 61.4,
-   "components": {
-    "tier": 5,
-    "category": 5,
-    "lead": 0.0,
-    "relevance": 28,
-    "freshness": 13.4,
-    "corroborated": 10
-   },
-   "keywords": [
-    "visa",
-    "arrivals",
-    "tourism",
-    "investment",
-    "opening"
-   ],
-   "shock_terms": [],
-   "dedupe_match": null,
-   "dedupe_similarity": 0.0,
-   "id": "2cbe7074f9be",
-   "title": "Africa Tourism Investment in 2026: Visas Are Opening, So Where Are the Investors?",
-   "url": "https://eturbonews.com/africa-tourism-investment-2026",
-   "summary": "Africa's tourism investment story is changing fast. Visa barriers are falling, arrivals are growing, and billions are flowing into infrastructure, yet tourism FDI still trails the continent's potential. New 2025\u20132026 evidence raises a bigger question: If access is improving, what is really stopping investors from betting on Africa? SOURCE: Africa Tourism Investment in 2026: Visas Are Opening, So W",
-   "kind": "item",
-   "source": "eTurboNews Africa",
-   "source_id": "tp-eturbonews",
-   "tier": 3,
-   "country": "GLOBAL",
-   "category": "trade",
-   "segments": [
-    "city",
-    "bush",
-    "beach"
-   ],
-   "first_seen": "2026-08-23T08:04+03:00",
-   "published": "2026-08-22",
-   "verdict": "weak"
-  },
-  {
-   "score": 59.7,
-   "components": {
-    "tier": 20,
-    "category": 4,
-    "lead": 0.0,
-    "relevance": 8,
-    "freshness": 17.7,
-    "corroborated": 10
-   },
-   "keywords": [
-    "election"
-   ],
-   "shock_terms": [],
-   "dedupe_match": null,
-   "dedupe_similarity": 0.0,
-   "id": "29b44201c5c2",
-   "title": "South Sudan\u2019s never-ending cash crunch hurts state plans",
-   "url": "https://www.theeastafrican.co.ke/tea/business-tech/south-sudan-never-ending-cash-crunch-hurts-state-plans-5566864",
-   "summary": "Government\u2019s programmes including elections set for this year, in jeopardy over the money crisis.",
-   "kind": "item",
-   "source": "The EastAfrican",
-   "source_id": "np-eastafrican",
-   "tier": 2,
-   "country": "REG",
-   "category": "press",
-   "segments": [
-    "city",
-    "bush",
-    "beach"
-   ],
-   "first_seen": "2026-08-23T12:02+03:00",
-   "published": "2026-08-23",
-   "verdict": "weak"
-  },
-  {
-   "score": 57.4,
-   "components": {
-    "tier": 5,
-    "category": 5,
-    "lead": 0.0,
-    "relevance": 24,
-    "freshness": 13.4,
-    "corroborated": 10
-   },
-   "keywords": [
-    "tariff",
-    "hotel",
-    "tourism",
-    "tourist",
-    "airline"
-   ],
-   "shock_terms": [],
-   "dedupe_match": null,
-   "dedupe_similarity": 0.0,
-   "id": "7e22bafad913",
-   "title": "Trump\u2019s Tariff War Has a New Casualty: American Tourism",
-   "url": "https://eturbonews.com/trump-canada-tariffs-us-tourism",
-   "summary": "Trump\u2019s escalating tariff fight with Canada may have an unintended casualty: American tourism. As Canadians reconsider U.S. vacations and redirect billions in travel spending toward Canada, Mexico, Europe, and the Caribbean, hotels, airlines, and border destinations could discover that winning a trade war can mean losing the tourist. SOURCE: Trump\u2019s Tariff War Has a New Casualty: American Tourism ",
-   "kind": "item",
-   "source": "eTurboNews Africa",
-   "source_id": "tp-eturbonews",
-   "tier": 3,
-   "country": "GLOBAL",
-   "category": "trade",
-   "segments": [
-    "city",
-    "bush",
-    "beach"
-   ],
-   "first_seen": "2026-08-23T08:04+03:00",
-   "published": "2026-08-23",
-   "verdict": "weak"
-  },
-  {
-   "score": 55.7,
+   "score": 57.8,
    "components": {
     "tier": 20,
     "category": 4,
     "lead": 0.0,
     "relevance": 4,
-    "freshness": 17.7,
+    "freshness": 19.8,
     "corroborated": 10
    },
    "keywords": [
@@ -798,10 +499,10 @@
    "shock_terms": [],
    "dedupe_match": null,
    "dedupe_similarity": 0.0,
-   "id": "46615bb68e2c",
-   "title": "We haven't scratched the surface of tourism sector, says UTB boss Kagwa",
-   "url": "https://www.monitor.co.ug/uganda/lifestyle/travel/we-haven-t-scratched-the-surface-of-tourism-sector-says-utb-boss-kagwa-5566022",
-   "summary": "Uganda has an abundance of tourism assets, yet many remain insufficiently developed, packaged...",
+   "id": "19cd89a67239",
+   "title": "\u2018We haven't scratched the surface of tourism sector\u2019",
+   "url": "https://www.monitor.co.ug/uganda/business/finance/-we-haven-t-scratched-the-surface-of-tourism-sector--5566572",
+   "summary": "Ms Kagwa talks about how she has had to learn the tourism trade while navigating its people who...",
    "kind": "item",
    "source": "Daily Monitor (Uganda)",
    "source_id": "np-monitor-ug",
@@ -813,7 +514,111 @@
     "bush",
     "beach"
    ],
-   "first_seen": "2026-08-23T12:02+03:00",
+   "first_seen": "2026-08-23T16:47+03:00",
+   "published": "2026-08-23",
+   "verdict": "weak"
+  },
+  {
+   "score": 57.8,
+   "components": {
+    "tier": 20,
+    "category": 4,
+    "lead": 0.0,
+    "relevance": 4,
+    "freshness": 19.8,
+    "corroborated": 10
+   },
+   "keywords": [
+    "franc"
+   ],
+   "shock_terms": [],
+   "dedupe_match": null,
+   "dedupe_similarity": 0.33,
+   "id": "76d907720d86",
+   "title": "Tanzania stresses on promoting, protecting Kilwa Kisiwani, Songo Mnara Ruins as world heritage sites",
+   "url": "https://dailynews.co.tz/tanzania-stresses-on-promoting-protecting-kilwa-kisiwani-songo-mnara-ruins-as-world-heritage-sites",
+   "summary": "LINDI: THE Tanzania has stressed the importance of protecting and developing the Kilwa Kisiwani and Songo Mnara Ruins, describing the site as an important part of the history of Africa and the world. The remarks were made by Tanzania\u2019s Ambassador to France and Permanent Representative to UNESCO, Saidi Othman Yakubu, during his visit to the \u2026 The post Tanzania stresses on promoting, protecting Kilw",
+   "kind": "item",
+   "source": "Daily News (Tanzania)",
+   "source_id": "np-dailynews-tz",
+   "tier": 2,
+   "country": "TZ",
+   "category": "press",
+   "segments": [
+    "city",
+    "bush",
+    "beach"
+   ],
+   "first_seen": "2026-08-23T16:47+03:00",
+   "published": "2026-08-23",
+   "verdict": "weak"
+  },
+  {
+   "score": 57.8,
+   "components": {
+    "tier": 20,
+    "category": 4,
+    "lead": 0.0,
+    "relevance": 20,
+    "freshness": 19.8,
+    "undated": -6
+   },
+   "keywords": [
+    "suspend",
+    "election"
+   ],
+   "shock_terms": [],
+   "dedupe_match": null,
+   "dedupe_similarity": 0.0,
+   "id": "3e3bca566fc5",
+   "title": "World Zelensky rejects wartime elections, says would 'split' Ukraine Ukraine has suspended elections under martial law, a measure still widely supported by the population as the country focuses on fighting off Russian forces.",
+   "url": "https://www.newvision.co.ug/category/world/zelensky-rejects-wartime-elections-says-would-NV_239331_082026",
+   "summary": "",
+   "kind": "item",
+   "source": "New Vision (Uganda)",
+   "source_id": "np-newvision-ug",
+   "tier": 2,
+   "country": "UG",
+   "category": "press",
+   "segments": [
+    "city",
+    "bush",
+    "beach"
+   ],
+   "first_seen": "2026-08-23T16:47+03:00",
+   "published": null,
+   "verdict": "weak"
+  },
+  {
+   "score": 53.8,
+   "components": {
+    "tier": 20,
+    "category": 4,
+    "lead": 0.0,
+    "relevance": 0,
+    "freshness": 19.8,
+    "corroborated": 10
+   },
+   "keywords": [],
+   "shock_terms": [],
+   "dedupe_match": null,
+   "dedupe_similarity": 0.0,
+   "id": "f5fb7eb05005",
+   "title": "Four months after daycare murders, Ggaba facility remains ghost town ahead of planned relocation",
+   "url": "https://www.monitor.co.ug/uganda/news/national/four-months-after-daycare-murders-ggaba-facility-remains-ghost-town-ahead-of-planned-relocation-5568152",
+   "summary": "During a visit to the site on August 20, no children or caregivers were present",
+   "kind": "item",
+   "source": "Daily Monitor (Uganda)",
+   "source_id": "np-monitor-ug",
+   "tier": 2,
+   "country": "UG",
+   "category": "press",
+   "segments": [
+    "city",
+    "bush",
+    "beach"
+   ],
+   "first_seen": "2026-08-23T16:47+03:00",
    "published": "2026-08-23",
    "verdict": "weak"
   },
@@ -825,6 +630,204 @@
     "lead": 0.0,
     "relevance": 0,
     "freshness": 19.8,
+    "corroborated": 10
+   },
+   "keywords": [],
+   "shock_terms": [],
+   "dedupe_match": null,
+   "dedupe_similarity": 0.0,
+   "id": "ab04e0414e35",
+   "title": "New study reveals over 210 new HIV infections in Kampala weekly",
+   "url": "https://www.monitor.co.ug/uganda/news/national/new-study-reveals-over-210-new-hiv-infections-in-kampala-weekly-5568136",
+   "summary": "The spike is suspected to be driven by unregulated sexual activity in massage parlours, spas...",
+   "kind": "item",
+   "source": "Daily Monitor (Uganda)",
+   "source_id": "np-monitor-ug",
+   "tier": 2,
+   "country": "UG",
+   "category": "press",
+   "segments": [
+    "city",
+    "bush",
+    "beach"
+   ],
+   "first_seen": "2026-08-23T16:47+03:00",
+   "published": "2026-08-23",
+   "verdict": "weak"
+  },
+  {
+   "score": 53.8,
+   "components": {
+    "tier": 20,
+    "category": 4,
+    "lead": 0.0,
+    "relevance": 0,
+    "freshness": 19.8,
+    "corroborated": 10
+   },
+   "keywords": [],
+   "shock_terms": [],
+   "dedupe_match": null,
+   "dedupe_similarity": 0.0,
+   "id": "7aebf8005edd",
+   "title": "At 78, Iganga water vendor pushes through physical pain to earn a living",
+   "url": "https://www.monitor.co.ug/uganda/news/national/at-78-iganga-water-vendor-pushes-through-physical-pain-to-earn-a-living-5568128",
+   "summary": "Carrying eight 20-litre jerrycans per trip and selling each for just Shs500, the elderly man...",
+   "kind": "item",
+   "source": "Daily Monitor (Uganda)",
+   "source_id": "np-monitor-ug",
+   "tier": 2,
+   "country": "UG",
+   "category": "press",
+   "segments": [
+    "city",
+    "bush",
+    "beach"
+   ],
+   "first_seen": "2026-08-23T16:47+03:00",
+   "published": "2026-08-23",
+   "verdict": "weak"
+  },
+  {
+   "score": 53.8,
+   "components": {
+    "tier": 20,
+    "category": 4,
+    "lead": 0.0,
+    "relevance": 0,
+    "freshness": 19.8,
+    "corroborated": 10
+   },
+   "keywords": [],
+   "shock_terms": [],
+   "dedupe_match": null,
+   "dedupe_similarity": 0.33,
+   "id": "e67c503ac270",
+   "title": "Dr Samizi attends the Walk the Talk health event heading to WHO\u2019s 76th session Africa",
+   "url": "https://dailynews.co.tz/dr-samizi-attends-the-walk-the-talk-health-event-heading-to-whos-76th-session-africa",
+   "summary": "ADDIS ABABA: THE Deputy Minister for Health, Dr Florence Samizi, has joined the Tanzanian delegation in the Walk the Talk health walk organised ahead of the 76th session of the World Health Organization (WHO) Regional Committee for Africa. The walk took place today, August 23, 2026, in Addis Ababa, Ethiopia, as part of activities promoting \u2026 The post Dr Samizi attends the Walk the Talk health even",
+   "kind": "item",
+   "source": "Daily News (Tanzania)",
+   "source_id": "np-dailynews-tz",
+   "tier": 2,
+   "country": "TZ",
+   "category": "press",
+   "segments": [
+    "city",
+    "bush",
+    "beach"
+   ],
+   "first_seen": "2026-08-23T16:47+03:00",
+   "published": "2026-08-23",
+   "verdict": "weak"
+  },
+  {
+   "score": 53.8,
+   "components": {
+    "tier": 20,
+    "category": 4,
+    "lead": 0.0,
+    "relevance": 0,
+    "freshness": 19.8,
+    "corroborated": 10
+   },
+   "keywords": [],
+   "shock_terms": [],
+   "dedupe_match": null,
+   "dedupe_similarity": 0.0,
+   "id": "c57d10c235fa",
+   "title": "PM urges Tanzanians to continue praying for their nation\u2019s peace and stability",
+   "url": "https://dailynews.co.tz/pm-urges-tanzanians-to-continue-praying-for-their-nations-peace-and-stability",
+   "summary": "DAR ES SALAAM: PRIME Minister Mwigulu Nchemba has urged Tanzanians to continue praying for the nation and upholding peace, saying stability is a critical foundation for implementing development activities. Dr Mwigulu made the remarks on Sunday, August 23, 2026, when he attended a worship service at the Evangelical Lutheran Church in Tanzania (ELCT), Eastern and \u2026 The post PM urges Tanzanians to co",
+   "kind": "item",
+   "source": "Daily News (Tanzania)",
+   "source_id": "np-dailynews-tz",
+   "tier": 2,
+   "country": "TZ",
+   "category": "press",
+   "segments": [
+    "city",
+    "bush",
+    "beach"
+   ],
+   "first_seen": "2026-08-23T16:47+03:00",
+   "published": "2026-08-23",
+   "verdict": "weak"
+  },
+  {
+   "score": 53.8,
+   "components": {
+    "tier": 20,
+    "category": 4,
+    "lead": 0.0,
+    "relevance": 0,
+    "freshness": 19.8,
+    "corroborated": 10
+   },
+   "keywords": [],
+   "shock_terms": [],
+   "dedupe_match": null,
+   "dedupe_similarity": 0.2,
+   "id": "0c8d3c9581b6",
+   "title": "Tanzania leapfrogs Uganda in informal trade with Kenya as food shortages bite",
+   "url": "https://www.theeastafrican.co.ke/tea/business-tech/tanzania-leapfrogs-uganda-in-informal-trade-with-kenya-5566954",
+   "summary": "Imports more than doubled from $426,386 in December 2024 to $974,818 in June 2025.",
+   "kind": "item",
+   "source": "The EastAfrican",
+   "source_id": "np-eastafrican",
+   "tier": 2,
+   "country": "REG",
+   "category": "press",
+   "segments": [
+    "city",
+    "bush",
+    "beach"
+   ],
+   "first_seen": "2026-08-23T16:47+03:00",
+   "published": "2026-08-23",
+   "verdict": "weak"
+  },
+  {
+   "score": 53.8,
+   "components": {
+    "tier": 20,
+    "category": 4,
+    "lead": 0.0,
+    "relevance": 0,
+    "freshness": 19.8,
+    "corroborated": 10
+   },
+   "keywords": [],
+   "shock_terms": [],
+   "dedupe_match": null,
+   "dedupe_similarity": 0.0,
+   "id": "05240dc76806",
+   "title": "Thespian Mukulu, the politician on Ugandan stage",
+   "url": "https://www.theeastafrican.co.ke/tea/magazine/thespian-mukulu-the-politician-on-ugandan-stage-5566830",
+   "summary": "He was the only man who could bring politics from public rallies, Parliament and State House to...",
+   "kind": "item",
+   "source": "The EastAfrican",
+   "source_id": "np-eastafrican",
+   "tier": 2,
+   "country": "REG",
+   "category": "press",
+   "segments": [
+    "city",
+    "bush",
+    "beach"
+   ],
+   "first_seen": "2026-08-23T16:47+03:00",
+   "published": "2026-08-23",
+   "verdict": "weak"
+  },
+  {
+   "score": 50.6,
+   "components": {
+    "tier": 20,
+    "category": 4,
+    "lead": 0.0,
+    "relevance": 0,
+    "freshness": 16.6,
     "corroborated": 10
    },
    "keywords": [],
@@ -851,13 +854,13 @@
    "verdict": "weak"
   },
   {
-   "score": 53.8,
+   "score": 50.6,
    "components": {
     "tier": 20,
     "category": 4,
     "lead": 0.0,
     "relevance": 0,
-    "freshness": 19.8,
+    "freshness": 16.6,
     "corroborated": 10
    },
    "keywords": [],
@@ -884,13 +887,13 @@
    "verdict": "weak"
   },
   {
-   "score": 53.8,
+   "score": 50.6,
    "components": {
     "tier": 20,
     "category": 4,
     "lead": 0.0,
     "relevance": 0,
-    "freshness": 19.8,
+    "freshness": 16.6,
     "corroborated": 10
    },
    "keywords": [],
@@ -917,13 +920,13 @@
    "verdict": "weak"
   },
   {
-   "score": 53.8,
+   "score": 50.6,
    "components": {
     "tier": 20,
     "category": 4,
     "lead": 0.0,
     "relevance": 0,
-    "freshness": 19.8,
+    "freshness": 16.6,
     "corroborated": 10
    },
    "keywords": [],
@@ -950,13 +953,13 @@
    "verdict": "weak"
   },
   {
-   "score": 53.8,
+   "score": 50.6,
    "components": {
     "tier": 20,
     "category": 4,
     "lead": 0.0,
     "relevance": 0,
-    "freshness": 19.8,
+    "freshness": 16.6,
     "corroborated": 10
    },
    "keywords": [],
@@ -983,13 +986,13 @@
    "verdict": "weak"
   },
   {
-   "score": 53.8,
+   "score": 50.6,
    "components": {
     "tier": 20,
     "category": 4,
     "lead": 0.0,
     "relevance": 0,
-    "freshness": 19.8,
+    "freshness": 16.6,
     "corroborated": 10
    },
    "keywords": [],
@@ -1016,13 +1019,13 @@
    "verdict": "weak"
   },
   {
-   "score": 53.8,
+   "score": 50.6,
    "components": {
     "tier": 20,
     "category": 4,
     "lead": 0.0,
     "relevance": 0,
-    "freshness": 19.8,
+    "freshness": 16.6,
     "corroborated": 10
    },
    "keywords": [],
@@ -1049,93 +1052,63 @@
    "verdict": "weak"
   },
   {
-   "score": 52.8,
+   "score": 49.8,
    "components": {
     "tier": 20,
     "category": 4,
     "lead": 0.0,
-    "relevance": 0,
-    "freshness": 18.8,
-    "corroborated": 10
+    "relevance": 12,
+    "freshness": 19.8,
+    "undated": -6
    },
-   "keywords": [],
+   "keywords": [
+    "ebola"
+   ],
    "shock_terms": [],
    "dedupe_match": null,
-   "dedupe_similarity": 0.17,
-   "id": "2b20779eb9cd",
-   "title": "Iranian women defy efforts by hardliners to enforce wearing of hijab",
-   "url": "https://dailynews.co.tz/iranian-women-defy-efforts-by-hardliners-to-enforce-wearing-of-hijab",
-   "summary": "IRAN: A cultural faultline in Iran has re-emerged in recent months amid the turmoil of war and the revamping of the country\u2019s hardline leadership: how and whether to enforce the wearing of the hijab by women. At the height of the conflict with the United States this year, women without the headscarf were often seen at pro-government \u2026 The post Iranian women defy efforts by hardliners to enforce we",
+   "dedupe_similarity": 0.33,
+   "id": "5217cbc9f6dc",
+   "title": "DR Congo DR Congo capital wary of Ebola nightmare \u00b7 2 min read",
+   "url": "https://www.newvision.co.ug/category/health/dr-congo-capital-wary-of-ebola-nightmare-NV_239332_082026",
+   "summary": "",
    "kind": "item",
-   "source": "Daily News (Tanzania)",
-   "source_id": "np-dailynews-tz",
+   "source": "New Vision (Uganda)",
+   "source_id": "np-newvision-ug",
    "tier": 2,
-   "country": "TZ",
+   "country": "UG",
    "category": "press",
    "segments": [
     "city",
     "bush",
     "beach"
    ],
-   "first_seen": "2026-08-23T12:59+03:00",
-   "published": "2026-08-23",
-   "verdict": "weak"
-  },
-  {
-   "score": 52.8,
-   "components": {
-    "tier": 20,
-    "category": 24,
-    "lead": 2.4,
-    "relevance": 0,
-    "freshness": 16.4,
-    "undated": -6,
-    "page_change": -4
-   },
-   "keywords": [],
-   "shock_terms": [],
-   "dedupe_match": null,
-   "dedupe_similarity": 0.0,
-   "id": "1101d323a064",
-   "title": "[page changed] ProMED-mail",
-   "url": "https://promedmail.org/",
-   "summary": "Protecting Global Health, One Alert at a Time | ProMED Previous slide Next slide Protecting Global Health, One Alert at a Time ProMED: Your 24/7 early warning system for emerging infectious diseases worldwide. Subscribe ProMED's Weekly Pulse A snapshot of global health events from the past 7 days Latest Posts on ProMED All Date Title Sun Aug 23 2026 VESICULAR STOMATITIS - USA (08): (COLORADO) PRES",
-   "kind": "page-change",
-   "source": "ProMED-mail",
-   "source_id": "promed",
-   "tier": 2,
-   "country": "GLOBAL",
-   "category": "health",
-   "segments": [
-    "city",
-    "bush",
-    "beach"
-   ],
-   "first_seen": "2026-08-23T10:48+03:00",
+   "first_seen": "2026-08-23T16:47+03:00",
    "published": null,
    "verdict": "weak"
   },
   {
-   "score": 50.4,
+   "score": 45.8,
    "components": {
     "tier": 20,
     "category": 4,
     "lead": 0.0,
-    "relevance": 0,
-    "freshness": 16.4,
-    "corroborated": 10
+    "relevance": 8,
+    "freshness": 19.8,
+    "undated": -6
    },
-   "keywords": [],
+   "keywords": [
+    "electricity"
+   ],
    "shock_terms": [],
    "dedupe_match": null,
-   "dedupe_similarity": 0.0,
-   "id": "d2953e89ae2d",
-   "title": "Government moves to integrate forest revenue systems",
-   "url": "https://dailynews.co.tz/government-moves-to-integrate-forest-revenue-systems",
-   "summary": "DODOMA: THE government is moving to integrate digital systems used to manage forest harvesting and trade to curb revenue leakages and ensure the Central government, councils and villages receive their rightful share from forest resources. The move follows concerns that some councils and village governments still rely on manual systems to manage forest products, while \u2026 The post Government moves to",
+   "dedupe_similarity": 0.2,
+   "id": "5fae77a49fe8",
+   "title": "Julius Nyerere Hydropower Dam becomes backbone of national grid, supplies half of Tanzania\u2019s electricity Yesterday - 3 min read",
+   "url": "https://www.thecitizen.co.tz/tanzania/news/national/julius-nyerere-hydropower-dam-becomes-backbone-of-national-grid-supplies-half-of-tanzania-s-electricity-5567144",
+   "summary": "",
    "kind": "item",
-   "source": "Daily News (Tanzania)",
-   "source_id": "np-dailynews-tz",
+   "source": "The Citizen (Tanzania)",
+   "source_id": "np-citizen-tz",
    "tier": 2,
    "country": "TZ",
    "category": "press",
@@ -1144,239 +1117,288 @@
     "bush",
     "beach"
    ],
-   "first_seen": "2026-08-23T10:48+03:00",
-   "published": "2026-08-23",
+   "first_seen": "2026-08-23T16:47+03:00",
+   "published": null,
    "verdict": "weak"
   },
   {
-   "score": 50.4,
+   "score": 45.8,
    "components": {
     "tier": 20,
     "category": 4,
     "lead": 0.0,
-    "relevance": 0,
-    "freshness": 16.4,
-    "corroborated": 10
+    "relevance": 8,
+    "freshness": 19.8,
+    "undated": -6
    },
-   "keywords": [],
+   "keywords": [
+    "tax"
+   ],
    "shock_terms": [],
    "dedupe_match": null,
-   "dedupe_similarity": 0.0,
-   "id": "ee19572ca28a",
-   "title": "Put witch doctors on Inter-Religious Council",
-   "url": "https://www.monitor.co.ug/uganda/oped/columnists/allan-tacca/put-witch-doctors-on-inter-religious-council-5566470",
-   "summary": "After all, rewards from fasting and oil rubs prescribed and administered by our pastors are as...",
+   "dedupe_similarity": 0.2,
+   "id": "78eeeb352a44",
+   "title": "Companies Failed burden of proof costs Kenya Power supplier Sh317m tax fight 7 hours ago - 4 min read",
+   "url": "https://www.businessdailyafrica.com/bd/corporate/companies/failed-burden-of-proof-costs-kenya-power-supplier-sh317m-5566702",
+   "summary": "",
    "kind": "item",
-   "source": "Daily Monitor (Uganda)",
-   "source_id": "np-monitor-ug",
+   "source": "Business Daily Africa",
+   "source_id": "np-businessdaily",
    "tier": 2,
-   "country": "UG",
+   "country": "KE",
    "category": "press",
    "segments": [
     "city",
     "bush",
     "beach"
    ],
-   "first_seen": "2026-08-23T10:48+03:00",
-   "published": "2026-08-23",
+   "first_seen": "2026-08-23T16:47+03:00",
+   "published": null,
    "verdict": "weak"
   },
   {
-   "score": 50.4,
+   "score": 45.8,
    "components": {
     "tier": 20,
     "category": 4,
     "lead": 0.0,
-    "relevance": 0,
-    "freshness": 16.4,
-    "corroborated": 10
+    "relevance": 8,
+    "freshness": 19.8,
+    "undated": -6
    },
-   "keywords": [],
+   "keywords": [
+    "fee"
+   ],
    "shock_terms": [],
    "dedupe_match": null,
    "dedupe_similarity": 0.0,
-   "id": "7a89f0e06d02",
-   "title": "Why Otunnu is UN\u2019s best bet this moment",
-   "url": "https://www.monitor.co.ug/uganda/oped/commentary/why-otunnu-is-un-s-best-bet-this-moment--5566460",
-   "summary": "Member states from every continent, peaceful and war-torn, rich and poor, should recognise...",
+   "id": "ad3f54b72704",
+   "title": "Companies KQ tops dues to KCAA with Sh1.5billion unpaid service fees Aug 21 - 3 min read",
+   "url": "https://www.businessdailyafrica.com/bd/corporate/companies/kq-tops-dues-to-kcaa-with-sh1-5bn-unpaid-service-fees-5566162",
+   "summary": "",
    "kind": "item",
-   "source": "Daily Monitor (Uganda)",
-   "source_id": "np-monitor-ug",
+   "source": "Business Daily Africa",
+   "source_id": "np-businessdaily",
    "tier": 2,
-   "country": "UG",
+   "country": "KE",
    "category": "press",
    "segments": [
     "city",
     "bush",
     "beach"
    ],
-   "first_seen": "2026-08-23T10:48+03:00",
-   "published": "2026-08-23",
+   "first_seen": "2026-08-23T16:47+03:00",
+   "published": null,
    "verdict": "weak"
   },
   {
-   "score": 50.4,
+   "score": 45.8,
    "components": {
     "tier": 20,
     "category": 4,
     "lead": 0.0,
-    "relevance": 0,
-    "freshness": 16.4,
-    "corroborated": 10
+    "relevance": 8,
+    "freshness": 19.8,
+    "undated": -6
    },
-   "keywords": [],
+   "keywords": [
+    "tax"
+   ],
    "shock_terms": [],
    "dedupe_match": null,
    "dedupe_similarity": 0.0,
-   "id": "1d28cb03ba75",
-   "title": "When expert witnesses mislead court on time of death",
-   "url": "https://www.monitor.co.ug/uganda/magazines/people-power/when-expert-witnesses-mislead-court-on-time-of-death-5567814",
-   "summary": "The time frames in which the processes of post-mortem staining and stiffening of the body occur...",
+   "id": "dbf3c173a5b4",
+   "title": "Companies Vivo Energy leads Sh279bn tax windfall from oil firms Aug 21 - 3 min read",
+   "url": "https://www.businessdailyafrica.com/bd/corporate/companies/vivo-energy-leads-sh279bn-tax-windfall-from-oil-firms-5566330",
+   "summary": "",
    "kind": "item",
-   "source": "Daily Monitor (Uganda)",
-   "source_id": "np-monitor-ug",
+   "source": "Business Daily Africa",
+   "source_id": "np-businessdaily",
    "tier": 2,
-   "country": "UG",
+   "country": "KE",
    "category": "press",
    "segments": [
     "city",
     "bush",
     "beach"
    ],
-   "first_seen": "2026-08-23T10:48+03:00",
-   "published": "2026-08-23",
+   "first_seen": "2026-08-23T16:47+03:00",
+   "published": null,
    "verdict": "weak"
   },
   {
-   "score": 50.4,
+   "score": 42.6,
    "components": {
     "tier": 20,
     "category": 4,
     "lead": 0.0,
-    "relevance": 0,
-    "freshness": 16.4,
-    "corroborated": 10
+    "relevance": 8,
+    "freshness": 16.6,
+    "undated": -6
    },
-   "keywords": [],
+   "keywords": [
+    "electricity"
+   ],
    "shock_terms": [],
    "dedupe_match": null,
-   "dedupe_similarity": 0.0,
-   "id": "e5b4925a20bf",
-   "title": "Past and present: New Constitution may not last, Maj Gen Muntu warns",
-   "url": "https://www.monitor.co.ug/uganda/magazines/people-power/past-and-present-new-constitution-may-not-last-maj-gen-muntu-warns-5567826",
-   "summary": "Maj Gen Muntu issued the warning while contributing to a motion tabled by the Bubulo East...",
+   "dedupe_similarity": 0.2,
+   "id": "32ba0e507802",
+   "title": "Julius Nyerere Hydropower Dam becomes backbone of national grid, supplies half of Tanzania\u2019s electricity 23 hours ago - 3 min read",
+   "url": "https://www.thecitizen.co.tz/tanzania/news/national/julius-nyerere-hydropower-dam-becomes-backbone-of-national-grid-supplies-half-of-tanzania-s-electricity-5567144",
+   "summary": "",
    "kind": "item",
-   "source": "Daily Monitor (Uganda)",
-   "source_id": "np-monitor-ug",
+   "source": "The Citizen (Tanzania)",
+   "source_id": "np-citizen-tz",
    "tier": 2,
-   "country": "UG",
+   "country": "TZ",
    "category": "press",
    "segments": [
     "city",
     "bush",
     "beach"
    ],
-   "first_seen": "2026-08-23T10:48+03:00",
-   "published": "2026-08-23",
+   "first_seen": "2026-08-23T13:54+03:00",
+   "published": null,
    "verdict": "weak"
   },
   {
-   "score": 50.4,
+   "score": 42.6,
    "components": {
     "tier": 20,
     "category": 4,
     "lead": 0.0,
-    "relevance": 0,
-    "freshness": 16.4,
-    "corroborated": 10
+    "relevance": 8,
+    "freshness": 16.6,
+    "undated": -6
    },
-   "keywords": [],
+   "keywords": [
+    "tax"
+   ],
    "shock_terms": [],
    "dedupe_match": null,
-   "dedupe_similarity": 0.0,
-   "id": "d081b93e2808",
-   "title": "Col Nakalema: I\u2019d choose to be a soldier on any day",
-   "url": "https://www.monitor.co.ug/uganda/magazines/people-power/col-nakalema-i-d-choose-to-be-a-soldier-on-any-day-5567818",
-   "summary": "Weekend Monitor spoke to Col Edith Nakalema about her new path as a writer and whether it...",
+   "dedupe_similarity": 0.2,
+   "id": "47912832f035",
+   "title": "Companies Failed burden of proof costs Kenya Power supplier Sh317m tax fight 4 hours ago - 4 min read",
+   "url": "https://www.businessdailyafrica.com/bd/corporate/companies/failed-burden-of-proof-costs-kenya-power-supplier-sh317m-5566702",
+   "summary": "",
    "kind": "item",
-   "source": "Daily Monitor (Uganda)",
-   "source_id": "np-monitor-ug",
+   "source": "Business Daily Africa",
+   "source_id": "np-businessdaily",
    "tier": 2,
-   "country": "UG",
+   "country": "KE",
    "category": "press",
    "segments": [
     "city",
     "bush",
     "beach"
    ],
-   "first_seen": "2026-08-23T10:48+03:00",
-   "published": "2026-08-23",
+   "first_seen": "2026-08-23T13:54+03:00",
+   "published": null,
    "verdict": "weak"
   },
   {
-   "score": 50.4,
+   "score": 41.8,
    "components": {
     "tier": 20,
     "category": 4,
     "lead": 0.0,
-    "relevance": 0,
-    "freshness": 16.4,
-    "corroborated": 10
+    "relevance": 4,
+    "freshness": 19.8,
+    "undated": -6
    },
-   "keywords": [],
+   "keywords": [
+    "camp"
+   ],
    "shock_terms": [],
    "dedupe_match": null,
    "dedupe_similarity": 0.0,
-   "id": "b4a0a359f32f",
-   "title": "Why Uganda keeps troops in Somalia",
-   "url": "https://www.monitor.co.ug/uganda/oped/commentary/why-uganda-keeps-troops-in-somalia-5566310",
-   "summary": "Political and security stability in Somalia, DRC or South Sudan have big domestic, regional and...",
+   "id": "c74930c8173e",
+   "title": "National Free health camp screens more than 9,500 people in Dar es Salaam 4 hours ago - 3 min read",
+   "url": "https://www.thecitizen.co.tz/tanzania/news/national/free-health-camp-screens-more-than-9-500-people-in-dar-es-salaam-5567984",
+   "summary": "",
    "kind": "item",
-   "source": "Daily Monitor (Uganda)",
-   "source_id": "np-monitor-ug",
+   "source": "The Citizen (Tanzania)",
+   "source_id": "np-citizen-tz",
    "tier": 2,
-   "country": "UG",
+   "country": "TZ",
    "category": "press",
    "segments": [
     "city",
     "bush",
     "beach"
    ],
-   "first_seen": "2026-08-23T10:48+03:00",
-   "published": "2026-08-23",
+   "first_seen": "2026-08-23T16:47+03:00",
+   "published": null,
    "verdict": "weak"
   },
   {
-   "score": 50.4,
+   "score": 41.8,
    "components": {
     "tier": 20,
     "category": 4,
     "lead": 0.0,
-    "relevance": 0,
-    "freshness": 16.4,
-    "corroborated": 10
+    "relevance": 4,
+    "freshness": 19.8,
+    "undated": -6
    },
-   "keywords": [],
+   "keywords": [
+    "rooms"
+   ],
    "shock_terms": [],
    "dedupe_match": null,
-   "dedupe_similarity": 0.0,
-   "id": "ac085ca7ea9f",
-   "title": "Otunnu\u2019s UN reform agenda faces test of political reality",
-   "url": "https://www.monitor.co.ug/uganda/magazines/people-power/otunnu-s-un-reform-agenda-faces-test-of-political-reality-5567810",
-   "summary": "Analysts reckon that results from yesterday\u2019s informal poll will likely spell the end of the...",
+   "dedupe_similarity": 0.2,
+   "id": "c605a7d3aa5d",
+   "title": "National Tanzania\u2019s changing classrooms demand a new approach to teacher training 16 min ago - 4 min read",
+   "url": "https://www.thecitizen.co.tz/tanzania/news/national/tanzania-s-changing-classrooms-demand-a-new-approach-to-teacher-training-5568230",
+   "summary": "",
    "kind": "item",
-   "source": "Daily Monitor (Uganda)",
-   "source_id": "np-monitor-ug",
+   "source": "The Citizen (Tanzania)",
+   "source_id": "np-citizen-tz",
    "tier": 2,
-   "country": "UG",
+   "country": "TZ",
    "category": "press",
    "segments": [
     "city",
     "bush",
     "beach"
    ],
-   "first_seen": "2026-08-23T10:48+03:00",
-   "published": "2026-08-23",
+   "first_seen": "2026-08-23T16:47+03:00",
+   "published": null,
+   "verdict": "weak"
+  },
+  {
+   "score": 41.8,
+   "components": {
+    "tier": 20,
+    "category": 4,
+    "lead": 0.0,
+    "relevance": 4,
+    "freshness": 19.8,
+    "undated": -6
+   },
+   "keywords": [
+    "passenger"
+   ],
+   "shock_terms": [],
+   "dedupe_match": null,
+   "dedupe_similarity": 0.0,
+   "id": "fcc752482b55",
+   "title": "Magufuli bus terminal faces fresh passenger comfort test Yesterday - 5 min read",
+   "url": "https://www.thecitizen.co.tz/tanzania/news/national/passengers-raise-concerns-over-seating-toilet-congestion-at-tanzania-s-magufuli-bus-terminal-5567096",
+   "summary": "",
+   "kind": "item",
+   "source": "The Citizen (Tanzania)",
+   "source_id": "np-citizen-tz",
+   "tier": 2,
+   "country": "TZ",
+   "category": "press",
+   "segments": [
+    "city",
+    "bush",
+    "beach"
+   ],
+   "first_seen": "2026-08-23T16:47+03:00",
+   "published": null,
    "verdict": "weak"
   }
  ]
