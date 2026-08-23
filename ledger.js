@@ -1,8 +1,8 @@
 window.LEDGER = {
- "updated": "2026-08-23 14:26",
+ "updated": "2026-08-23 17:33",
  "stats": {
-  "total": 113,
-  "open": 90,
+  "total": 116,
+  "open": 93,
   "resolved": 23,
   "correct": 17,
   "partial": 1,
@@ -1179,6 +1179,22 @@ window.LEDGER = {
    "overdue": false
   },
   {
+   "id": "P113",
+   "made_date": "2026-08-23",
+   "edition": "Sunday Foresight",
+   "claim": "Zanzibar will make at least one further publicly reported enforcement action against non-Zanzibari nationals for tourism activities reserved for Zanzibaris before 31 March 2027 — the 18 August 2026 arrests are the opening of a campaign, not an isolated case",
+   "resolution_criteria": "A Zanzibar Commission for Tourism statement or reputable press report (The Citizen, Daily News TZ, Daily Nation, Tourism Update) published on or before 31 Mar 2027 describing a further arrest, prosecution or licence revocation of non-Zanzibari nationals for reserved tourism activities. No further reported action resolves incorrect",
+   "resolve_by": "2027-03-31",
+   "market": "ZNZ",
+   "segment": "Beach",
+   "confidence": "Medium",
+   "status": "open",
+   "resolved_date": "",
+   "evidence": "",
+   "source_url": "https://www.thecitizen.co.tz/tanzania/zanzibar/kenyan-arrested-in-zanzibar-over-illegal-tour-operations--5567298",
+   "overdue": false
+  },
+  {
    "id": "P019",
    "made_date": "2026-07-26",
    "edition": "Sunday Foresight",
@@ -1403,6 +1419,22 @@ window.LEDGER = {
    "overdue": false
   },
   {
+   "id": "P115",
+   "made_date": "2026-08-23",
+   "edition": "Sunday Foresight",
+   "claim": "Kenya's Tourism (Amendment) Bill 2026 as enacted will retain the Tourism Fund as the collector of the 2% hotel and restaurant levy rather than transferring collection to KRA or a new body — the Ministry's 21 August submission puts the management of proceeds in play, not the collection function",
+   "resolution_criteria": "The Bill as assented and gazetted, checked by 30 Jun 2027, still names the Tourism Fund as the collecting entity for the 2% levy. Transfer of the collection function to KRA or any new body resolves incorrect. If the Bill is not enacted by 30 Jun 2027 the call resolves unresolved",
+   "resolve_by": "2027-06-30",
+   "market": "KE",
+   "segment": "City/Bush/Beach",
+   "confidence": "Medium",
+   "status": "open",
+   "resolved_date": "",
+   "evidence": "",
+   "source_url": "https://capitalfm.africa/ministry-proposes-separation-of-tourism-levy-collection-and-funds-management/",
+   "overdue": false
+  },
+  {
    "id": "P016",
    "made_date": "2026-07-26",
    "edition": "Midday Pulse",
@@ -1448,6 +1480,22 @@ window.LEDGER = {
    "resolved_date": "",
    "evidence": "",
    "source_url": "https://www.thecitizen.co.tz/tanzania/business/fumba-port-set-to-boost-zanzibar-trade-and-revenue-as-tra-plans-modern-cargo-scanner-5560562",
+   "overdue": false
+  },
+  {
+   "id": "P114",
+   "made_date": "2026-08-23",
+   "edition": "Sunday Foresight",
+   "claim": "No EAC Secretariat determination, EAC Court of Justice ruling or Council of Ministers directive finding that Zanzibar's reservation of tour-operating and boat businesses to Zanzibaris breaches the Common Market Protocol will be issued before 31 December 2027 — national reservation lists survive protocol language",
+   "resolution_criteria": "An EAC Secretariat, EACJ or Council of Ministers instrument published by 31 Dec 2027 finding the reservation incompatible with the Common Market Protocol. Any such finding resolves incorrect",
+   "resolve_by": "2027-12-31",
+   "market": "Regional",
+   "segment": "Beach/City",
+   "confidence": "Medium",
+   "status": "open",
+   "resolved_date": "",
+   "evidence": "",
+   "source_url": "https://www.thecitizen.co.tz/tanzania/zanzibar/kenyan-arrested-in-zanzibar-over-illegal-tour-operations--5567298",
    "overdue": false
   }
  ],
