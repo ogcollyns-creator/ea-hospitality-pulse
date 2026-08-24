@@ -54,6 +54,25 @@ def md_strip(text):
     t = _ITAL.sub(r"\1", t)
     return t
 
+# Editions are authored for chat, where a bare URL is a live link. Pasted onto
+# the web it becomes dead text — and a lost edge in the internal link graph that
+# crawlers and answer engines walk. Turn bare URLs into real anchors.
+_URL_RE = re.compile(r"https?://[^\s<]+")
+
+def linkify(escaped):
+    """Apply after md_inline() — the only tags present are <strong>/<em>, so a
+    match can never land inside an existing href."""
+    def _a(m):
+        raw = m.group(0)
+        url = raw.rstrip(".,;:)\u00b7")
+        tail = raw[len(url):]
+        label = re.sub(r"^https?://(www\.)?", "", url)
+        if len(label) > 58:
+            label = label[:55] + "\u2026"
+        return f'<a href="{url}" rel="noopener">{label}</a>{tail}'
+    return _URL_RE.sub(_a, escaped)
+
+
 def parse_filename(fn):
     base = fn.rsplit(".", 1)[0]
     m = re.search(r"(\d{4}-\d{2}-\d{2})", base)
@@ -172,7 +191,7 @@ def render_body(text):
         if set(blk) <= set("━—-–_ "): out.append('<hr class="divider">'); continue
         r=[]
         for l in [x.strip() for x in blk.split("\n") if x.strip()]:
-            e=md_inline(html.escape(l))
+            e=linkify(md_inline(html.escape(l)))
             if KEYCAP.match(l): e=f'<span class="item-head">{e}</span>'
             elif l.startswith("🎯"): e=f'<span class="sowhat">{e}</span>'
             elif l.startswith("🏷"): e=f'<span class="tagline">{e}</span>'
@@ -446,6 +465,33 @@ footer.s{text-align:center;color:var(--muted);font-family:Helvetica Neue,Arial,s
 @media(prefers-reduced-motion:reduce){
   *,*::before,*::after{animation-duration:.01ms!important;transition-duration:.01ms!important}
 }
+/* Standfirst — the one-line summary a reader (or an answer engine) should take
+   away if they read nothing else. Larger, quieter, set apart from the body. */
+.standfirst{font-size:1.14em;line-height:1.5;color:#3b4340;margin:0 0 20px;
+  padding:0 0 18px;border-bottom:1px solid var(--line);text-wrap:pretty;font-weight:400}
+.standfirst::first-letter{font-size:1.05em}
+
+/* Bare URLs pasted from the chat editions now render as anchors — keep them from
+   blowing out the measure on a phone. */
+.art a[href^="http"]{overflow-wrap:anywhere}
+
+/* Rate and cost tables must survive a 360px screen without a horizontal page
+   scroll: the table scrolls, the article does not. */
+.art table{display:block;width:100%;max-width:100%;overflow-x:auto;
+  border-collapse:collapse;font-family:var(--sans);font-size:14px;margin:18px 0;
+  -webkit-overflow-scrolling:touch}
+.art th,.art td{padding:8px 12px;text-align:left;border-bottom:1px solid var(--line);
+  vertical-align:top;white-space:nowrap}
+.art th{font:700 11px/1.3 var(--mono);letter-spacing:.07em;text-transform:uppercase;
+  color:var(--teal-d);border-bottom:2px solid var(--gold);white-space:nowrap}
+.art tbody tr:last-child td{border-bottom:none}
+.art td:first-child{white-space:normal}
+
+/* Footer was a flat run of separators; give the link row and the geography row
+   distinct weight so it reads as a masthead, not link soup. */
+footer.s a{color:var(--muted);border-bottom:1px solid transparent}
+footer.s a:hover{color:var(--teal-d);border-bottom-color:var(--gold)}
+
 /* Operators print these briefs and take them into rate meetings. */
 @media print{
   body{background:#fff;font-size:11.5pt;line-height:1.45}
@@ -453,6 +499,7 @@ footer.s{text-align:center;color:var(--muted);font-family:Helvetica Neue,Arial,s
   .wrap{max-width:none;padding:0}
   .art{border:none;border-radius:0;margin:0;padding:0;background:#fff}
   .art h1{font-size:19pt;border-bottom:1.5pt solid #000;page-break-after:avoid}
+  .standfirst{font-size:12.5pt;border-bottom:.5pt solid #999;page-break-after:avoid}
   .item-head{page-break-after:avoid}
   .sowhat{background:#f2f2f2;border-left:2pt solid #666;page-break-inside:avoid}
   .refs{background:none;border-left:1pt solid #999;page-break-inside:avoid}
@@ -460,6 +507,76 @@ footer.s{text-align:center;color:var(--muted);font-family:Helvetica Neue,Arial,s
   a[href^="http"]::after{content:" (" attr(href) ")";font-size:8.5pt;color:#555}
 }
 """
+
+# --- entity graph -----------------------------------------------------------
+# Every edition page previously declared its own anonymous publisher node, so 73
+# pages taught answer engines 73 unlinked "EA Hospitality Pulse" organisations.
+# One @id, referenced everywhere, consolidates them into a single known entity —
+# and typed, sameAs-anchored subjects let an engine resolve "Zanzibar" to a place
+# rather than a keyword.
+ORG_ID = BASE + "/#org"
+SITE_ID = BASE + "/#website"
+
+def org_node():
+    return {"@type": "Organization", "@id": ORG_ID, "name": "EA Hospitality Pulse",
+            "url": BASE + "/",
+            "logo": {"@type": "ImageObject", "url": BASE + "/apple-touch-icon.png"},
+            "sameAs": [CHANNELS[k] for k in ("telegram", "linkedin", "whatsapp")
+                       if CHANNELS.get(k)]}
+
+ABOUT_ENTITIES = [
+    {"@type": "Place", "name": "Kenya", "sameAs": "https://en.wikipedia.org/wiki/Kenya"},
+    {"@type": "Place", "name": "Uganda", "sameAs": "https://en.wikipedia.org/wiki/Uganda"},
+    {"@type": "Place", "name": "Tanzania", "sameAs": "https://en.wikipedia.org/wiki/Tanzania"},
+    {"@type": "Place", "name": "Zanzibar", "sameAs": "https://en.wikipedia.org/wiki/Zanzibar"},
+    {"@type": "Place", "name": "Rwanda", "sameAs": "https://en.wikipedia.org/wiki/Rwanda"},
+    {"@type": "Thing", "name": "Hospitality industry",
+     "sameAs": "https://en.wikipedia.org/wiki/Hospitality_industry"},
+    {"@type": "Thing", "name": "Tourism", "sameAs": "https://en.wikipedia.org/wiki/Tourism"},
+]
+
+# Every edition opens in Telegram clothes: a brand masthead line, then a date-and-
+# flags line, then an italic intro. On the web the site header carries the brand and
+# the kicker carries the edition and date — so all 73 pages opened with the same two
+# lines of duplicated chrome before any journalism. Strip those two, and promote the
+# editor's italic intro to a real standfirst: a quotable, self-contained summary sat
+# under the headline, which is what answer engines lift and what readers scan.
+_BRAND_RE = re.compile(r"EA\s+HOSPITALITY\s+PULSE", re.I)
+_SEG_SPLIT = re.compile(r"<br\s*/?>")
+
+def _seg_text(seg):
+    return re.sub(r"\s+", " ", html.unescape(re.sub(r"<[^>]+>", " ", seg))).strip()
+
+def lead_furniture(body_html):
+    """Returns (standfirst_html, body_html). Conservative: only strips leading
+    segments, only masthead/date/divider lines, and stops at the first real line."""
+    standfirst = ""
+    stripping = True
+    out = []
+    for blk in re.split(r"(?<=</p>)\s*", body_html):
+        if not stripping or not blk.strip().startswith("<p>"):
+            out.append(blk); continue
+        segs = _SEG_SPLIT.split(blk.strip()[3:-4])
+        keep = []
+        for seg in segs:
+            txt = _seg_text(seg)
+            if stripping and not keep:
+                if not txt: continue
+                if _BRAND_RE.search(txt): continue
+                probe = re.sub(r"^[^0-9A-Za-z]+", "", md_strip(txt))
+                if _DATELINE.match(probe) or _DATELINE2.match(probe): continue
+                if set(txt) <= set("\u2501\u2014-\u2013_ "): continue
+                _em = re.match(r"^\s*<em>(.*?)</em>\s*$", seg.strip(), re.S)
+                if _em and not standfirst:
+                    standfirst = _em.group(1).strip(); continue
+                stripping = False
+            keep.append(seg)
+        if keep:
+            out.append("<p>" + "<br>".join(keep) + "</p>")
+            stripping = False
+    body = "\n".join(x for x in out if x.strip())
+    sf = f'<p class="standfirst">{standfirst}</p>' if standfirst else ""
+    return sf, body
 
 def edition_page(e, siblings=None, prev=None, nxt=None, hero=None, credit=None):
     # One clean headline drives <title>, description, OG/Twitter, JSON-LD and H1.
@@ -477,7 +594,8 @@ def edition_page(e, siblings=None, prev=None, nxt=None, hero=None, credit=None):
     if len(headline) > 110:
         headline = headline[:110].rsplit(" ", 1)[0] + "…"
     h1text = headline if headline.endswith(("…", ".", "?", "!")) else headline + "."
-    _plain = re.sub(r"<[^>]+>", " ", e["bodyHtml"])
+    standfirst, body_html = lead_furniture(e["bodyHtml"])
+    _plain = re.sub(r"<[^>]+>", " ", body_html)
     wordcount = len(_plain.split())
     news_kw = html.escape("East Africa hospitality, " + e["edition"] + ", Kenya, Uganda, Tanzania, Zanzibar, Rwanda, travel advisories, hotel demand, tourism")
     sib_html = ""
@@ -497,14 +615,15 @@ def edition_page(e, siblings=None, prev=None, nxt=None, hero=None, credit=None):
         "description": desc, "url": url, "mainEntityOfPage": url,
         "image": [img], "inLanguage": "en", "isAccessibleForFree": True,
         "articleSection": e["edition"],
-        "author":{"@type":"Organization","name":"EA Hospitality Pulse","url":BASE+"/"},
-        "publisher":{"@type":"Organization","name":"EA Hospitality Pulse","url":BASE+"/",
-                     "logo":{"@type":"ImageObject","url":BASE+"/apple-touch-icon.png"}},
-        "isPartOf":{"@type":"WebSite","name":"EA Hospitality Pulse","url":BASE+"/"},
+        "author":{"@id":ORG_ID},
+        "publisher":org_node(),
+        "isPartOf":{"@type":"WebSite","@id":SITE_ID,"name":"EA Hospitality Pulse","url":BASE+"/",
+                    "publisher":{"@id":ORG_ID}},
         "keywords":"East Africa hospitality, "+e["edition"]+", Kenya, Uganda, Tanzania, Zanzibar, Rwanda, travel advisories, hotel demand, tourism",
         "wordCount": wordcount,
-        "speakable":{"@type":"SpeakableSpecification","cssSelector":["h1",".sowhat"]},
-        "about":["Kenya","Uganda","Tanzania","Zanzibar","Rwanda","hospitality","tourism"]
+        "speakable":{"@type":"SpeakableSpecification","cssSelector":["h1",".standfirst",".sowhat"]},
+        "about":ABOUT_ENTITIES,
+        "spatialCoverage":[a for a in ABOUT_ENTITIES if a["@type"]=="Place"]
     }
     crumbs = {
         "@context":"https://schema.org","@type":"BreadcrumbList",
@@ -550,6 +669,9 @@ def edition_page(e, siblings=None, prev=None, nxt=None, hero=None, credit=None):
 <meta property="og:title" content="{html.escape(social_title)}">
 <meta property="og:description" content="{html.escape(desc)}"><meta property="og:url" content="{url}">
 <meta property="og:image" content="{img}"><meta property="og:image:width" content="1200"><meta property="og:image:height" content="630">
+<meta property="og:image:type" content="image/png">
+<meta property="og:image:alt" content="{html.escape(social_title)}">
+<meta name="twitter:image:alt" content="{html.escape(social_title)}">
 <meta name="twitter:image" content="{img}">
 <link rel="icon" href="../favicon.png"><link rel="apple-touch-icon" href="../apple-touch-icon.png">
 <meta name="twitter:card" content="summary_large_image">
@@ -574,7 +696,8 @@ def edition_page(e, siblings=None, prev=None, nxt=None, hero=None, credit=None):
     {crumb_html}
     <div class="kicker"><span class="badge">{html.escape(e['edition'])}</span><time datetime="{e['date']}">{html.escape(e['dateDisplay'])}</time></div>
     <h1>{html.escape(h1text)}</h1>
-    {e['bodyHtml']}
+    {standfirst}
+    {body_html}
     {sib_html}
     {guides_html}
     {pn_html}
