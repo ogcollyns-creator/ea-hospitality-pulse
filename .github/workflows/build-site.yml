@@ -16,6 +16,7 @@ on:
       - 'fetch_images.py'
       - 'make_og_images.py'
       - 'img/edition-credits.json'
+      - 'img/editorial-picks.json'
   workflow_dispatch:
 
 concurrency:
@@ -54,6 +55,9 @@ jobs:
 
       - name: Fetch photo pool (best-effort; expands clean-image variety)
         run: python3 fetch_images.py || echo "image fetch skipped (network); using photos already in img/"
+
+      - name: Assign hand-picked editorial photos (Google/web-search sourced; explicit pins win)
+        run: python3 hero_extra.py --editorial || echo "editorial pass skipped"
 
       - name: Assign vetted press-kit images (best-effort; before the Wikimedia fetch)
         run: python3 hero_extra.py --press-kit || echo "press-kit pass skipped"

@@ -396,8 +396,76 @@ def openverse_pass():
     print(f"  openverse: assigned {got} edition(s)")
 
 
+
+# ---------- editorial / news-photo pass (Google-search-sourced, unlicensed) --
+# Curated, hand-verified picks from a news/web image search (Google Images or
+# equivalent) for a SPECIFIC edition id. Unlike press-kit (local vetted files)
+# and Openverse (CC-licensed pool), these are direct hotlinks to a publisher's
+# image, fetched at build time and credited to the ORIGINAL outlet/photographer
+# for transparency — but carry NO reuse licence. Entries are added by hand
+# (img/editorial-picks.json) after a human/agent search confirms the photo is
+# genuinely on-topic; there is no live scraping in CI. An explicit pin here
+# always wins over every other source, including an existing hero, so it is
+# also the correction mechanism for a wrong automatic pick.
+EDPICKS = os.path.join(IMG, "editorial-picks.json")
+
+def _load_editorial_picks():
+    try:
+        return json.load(open(EDPICKS, encoding="utf-8"))
+    except Exception as e:
+        print(f"  editorial: no usable picks file ({e}) — skipping"); return {}
+
+def editorial_pass():
+    """Assign a hand-picked, web/Google-search-sourced photo to any edition
+    named in img/editorial-picks.json. Always overrides — this is the manual
+    correction channel, so a pin must be able to replace a bad automatic hero."""
+    picks = _load_editorial_picks()
+    if not picks:
+        return
+    try:
+        from PIL import Image
+    except ImportError:
+        print("  editorial: Pillow missing — skipping"); return
+    import urllib.request, io
+    credits = _load_credits()
+    done = 0
+    for eid, pick in picks.items():
+        url = pick.get("url")
+        if not url:
+            continue
+        try:
+            req = urllib.request.Request(url, headers={
+                "User-Agent": "Mozilla/5.0 (compatible; EAHospitalityPulse/1.0; "
+                              "+https://eahospitalitypulse.com)"})
+            with urllib.request.urlopen(req, timeout=60) as r:
+                blob = r.read()
+            im = Image.open(io.BytesIO(blob)).convert("RGB")
+            if im.width > WIDTH:
+                im = im.resize((WIDTH, round(im.height * WIDTH / im.width)), Image.LANCZOS)
+            os.makedirs(EDIMG, exist_ok=True)
+            im.save(os.path.join(EDIMG, eid + ".jpg"), "JPEG", quality=88, optimize=True)
+        except Exception as ex:
+            print(f"  editorial: failed to fetch {eid} <- {url}: {ex}"); continue
+        credits[eid] = {
+            "id": eid,
+            "title": pick.get("title") or eid,
+            "artist": pick.get("artist") or pick.get("outlet") or "Unknown",
+            "source": pick.get("outlet") or "Web/Google Images search",
+            "license": "Editorial use — sourced via web/Google Images search; "
+                       "no reuse licence granted, credited to original publisher",
+            "licenseurl": "",
+            "descurl": pick.get("descurl") or url,
+            "source_kind": "editorial",
+        }
+        done += 1
+        print(f"  editorial: {eid}.jpg <- {pick.get('outlet','?')} [{url[:70]}]")
+    _save_credits(credits)
+    print(f"  editorial: assigned {done} edition(s)")
+
 if __name__ == "__main__":
     args = sys.argv[1:]
+    if "--editorial" in args:
+        editorial_pass()
     if "--press-kit" in args:
         press_kit_pass()
     if "--openverse" in args:
@@ -405,4 +473,4 @@ if __name__ == "__main__":
     if "--ai-fallback" in args:
         ai_fallback_pass()
     if not args:
-        print("usage: hero_extra.py [--press-kit] [--openverse] [--ai-fallback]")
+        print("usage: hero_extra.py [--editorial] [--press-kit] [--openverse] [--ai-fallback]")
