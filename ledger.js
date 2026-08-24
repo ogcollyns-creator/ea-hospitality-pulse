@@ -1,8 +1,8 @@
 window.LEDGER = {
- "updated": "2026-08-24 08:12",
+ "updated": "2026-08-24 16:54",
  "stats": {
-  "total": 116,
-  "open": 93,
+  "total": 119,
+  "open": 96,
   "resolved": 23,
   "correct": 17,
   "partial": 1,
@@ -747,6 +747,22 @@ window.LEDGER = {
    "overdue": false
   },
   {
+   "id": "P116",
+   "made_date": "2026-08-24",
+   "edition": "pulse-2026-08-24-evening",
+   "claim": "Jambojet will operate the daily Nairobi–Entebbe service on or about 1 October 2026 as announced — no slip beyond 30 November 2026",
+   "resolution_criteria": "Jambojet schedule/booking engine or a dated trade report confirms the daily NBO–EBB service operating by 30 Nov 2026",
+   "resolve_by": "2026-11-30",
+   "market": "KE/UG",
+   "segment": "City/Beach",
+   "confidence": "Confirmed",
+   "status": "open",
+   "resolved_date": "",
+   "evidence": "",
+   "source_url": "",
+   "overdue": false
+  },
+  {
    "id": "P026",
    "made_date": "2026-07-27",
    "edition": "Midday Pulse",
@@ -968,6 +984,22 @@ window.LEDGER = {
    "resolved_date": "",
    "evidence": "",
    "source_url": "https://capitalfm.africa/mps-opposes-proposed-merger-of-tourism-research-institute-and-kenya-tourism-board/",
+   "overdue": false
+  },
+  {
+   "id": "P118",
+   "made_date": "2026-08-24",
+   "edition": "pulse-2026-08-24-evening",
+   "claim": "CBK's next Market Perceptions Survey will again show Nairobi hotel forward bookings ABOVE Mombasa's — the MICE-vs-coast divergence persists rather than converging",
+   "resolution_criteria": "The next CBK Market Perceptions Survey hotel forward-bookings chart shows a Nairobi reading higher than the Mombasa reading for the latest month covered",
+   "resolve_by": "2026-12-31",
+   "market": "KE",
+   "segment": "City/Beach",
+   "confidence": "Reported",
+   "status": "open",
+   "resolved_date": "",
+   "evidence": "",
+   "source_url": "",
    "overdue": false
   },
   {
@@ -1432,6 +1464,22 @@ window.LEDGER = {
    "resolved_date": "",
    "evidence": "",
    "source_url": "https://capitalfm.africa/ministry-proposes-separation-of-tourism-levy-collection-and-funds-management/",
+   "overdue": false
+  },
+  {
+   "id": "P117",
+   "made_date": "2026-08-24",
+   "edition": "pulse-2026-08-24-evening",
+   "claim": "Thailand's THB 450 arrival fee will NOT be collected from air passengers before 30 June 2027 — the sixth attempt slips like the previous five",
+   "resolution_criteria": "No credible report of the THB 450 fee actually being charged to arriving air passengers on or before 30 Jun 2027",
+   "resolve_by": "2027-06-30",
+   "market": "GLOBAL",
+   "segment": "All",
+   "confidence": "Reported",
+   "status": "open",
+   "resolved_date": "",
+   "evidence": "",
+   "source_url": "",
    "overdue": false
   },
   {
