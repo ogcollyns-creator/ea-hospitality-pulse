@@ -1,52 +1,53 @@
 {
- "generated": "2026-08-24T08:27:22+03:00",
- "slot": "morning",
- "window_start": 1787497200,
- "observations_in_window": 357,
+ "generated": "2026-08-24T10:06:41+03:00",
+ "slot": "midday",
+ "window_start": 1787544000,
+ "observations_in_window": 127,
  "deduped_against": 10,
  "candidates": [
   {
-   "score": 60.9,
+   "score": 101.7,
    "components": {
     "tier": 40,
-    "category": 12,
-    "lead": 3.6,
-    "relevance": 0,
-    "freshness": 15.3,
+    "category": 32,
+    "lead": 12.0,
+    "relevance": 8,
+    "freshness": 19.7,
     "undated": -6,
     "page_change": -4
    },
-   "keywords": [],
+   "keywords": [
+    "fee"
+   ],
    "shock_terms": [],
    "dedupe_match": null,
    "dedupe_similarity": 0.0,
-   "id": "a03c04eecbf8",
-   "title": "[page changed] Jambojet media",
-   "url": "https://www.jambojet.com/en/press-release",
-   "summary": "Request unsuccessful. Incapsula incident ID: 351000210040354665-83147169554433359",
+   "id": "2de73c8cda3b",
+   "title": "[page changed] Federal Register \u2014 CDC notices",
+   "url": "https://www.federalregister.gov/api/v1/documents.rss?conditions%5Bagencies%5D%5B%5D=centers-for-disease-control-and-prevention&order=newest",
+   "summary": "Federal Register Documents published on or after 07/25/2026 and from Centers for Disease Control and Prevention https://www.federalregister.gov/api/v1/documents.rss?conditions%5Bagencies%5D%5B%5D=centers-for-disease-control-and-prevention&order=newest Thu, 20 Aug 2026 04:00:00 GMT The documents in this feed originate from FederalRegister.gov which displays an unofficial web version of the daily Fe",
    "kind": "page-change",
-   "source": "Jambojet media",
-   "source_id": "air-jambojet",
+   "source": "Federal Register \u2014 CDC notices",
+   "source_id": "us-fedreg-cdc",
    "tier": 1,
-   "country": "KE",
-   "category": "airline",
+   "country": "REG",
+   "category": "advisory",
    "segments": [
     "city",
-    "bush",
-    "beach"
+    "bush"
    ],
-   "first_seen": "2026-08-24T04:21+03:00",
+   "first_seen": "2026-08-24T10:01+03:00",
    "published": null,
-   "verdict": "OPEN THIS \u2014 tier-1 airline page moved; content not auto-parsed, read it manually"
+   "verdict": "OPEN THIS \u2014 tier-1 advisory page moved; content not auto-parsed, read it manually"
   },
   {
-   "score": 53.4,
+   "score": 65.3,
    "components": {
     "tier": 40,
     "category": 12,
     "lead": 3.6,
     "relevance": 0,
-    "freshness": 7.8,
+    "freshness": 19.7,
     "undated": -6,
     "page_change": -4
    },
@@ -54,10 +55,10 @@
    "shock_terms": [],
    "dedupe_match": null,
    "dedupe_similarity": 0.0,
-   "id": "8338c16ec1b7",
+   "id": "f32f9aa691ed",
    "title": "[page changed] Airlink news",
    "url": "https://www.flyairlink.com/",
-   "summary": "Request unsuccessful. Incapsula incident ID: 1014000042746379241-1596618233672499506",
+   "summary": "Request unsuccessful. Incapsula incident ID: 6525000700100108399-32355243198845319",
    "kind": "page-change",
    "source": "Airlink news",
    "source_id": "air-airlink",
@@ -69,920 +70,304 @@
     "bush",
     "beach"
    ],
-   "first_seen": "2026-08-23T21:31+03:00",
+   "first_seen": "2026-08-24T10:01+03:00",
    "published": null,
    "verdict": "OPEN THIS \u2014 tier-1 airline page moved; content not auto-parsed, read it manually"
   },
   {
-   "score": 51.1,
+   "score": 95.7,
+   "components": {
+    "tier": 20,
+    "category": 4,
+    "lead": 0.0,
+    "relevance": 24,
+    "freshness": 19.7,
+    "corroborated": 10,
+    "shock": 18
+   },
+   "keywords": [
+    "outbreak",
+    "ebola"
+   ],
+   "shock_terms": [
+    "outbreak"
+   ],
+   "dedupe_match": null,
+   "dedupe_similarity": 0.33,
+   "id": "24763f578bdb",
+   "title": "Govt steps up Ebola preparedness in Kigoma",
+   "url": "https://dailynews.co.tz/govt-steps-up-ebola-preparedness-in-kigoma",
+   "summary": "KIGOMA: THE government has stepped up Ebola preparedness in Kigoma Region by training frontline health workers and equipping designated treatment centres to strengthen the country\u2019s readiness for possible disease outbreaks. The Ministry of Health\u2018s Department of Emergency and Disaster Management conducted the training at Kasulu District Hospital in Nyamyusi in collaboration with the Prime Minister",
+   "kind": "item",
+   "source": "Daily News (Tanzania)",
+   "source_id": "np-dailynews-tz",
+   "tier": 2,
+   "country": "TZ",
+   "category": "press",
+   "segments": [
+    "city",
+    "bush",
+    "beach"
+   ],
+   "first_seen": "2026-08-24T10:02+03:00",
+   "published": "2026-08-24",
+   "verdict": "CONSIDER"
+  },
+  {
+   "score": 86.1,
+   "components": {
+    "tier": 20,
+    "category": 24,
+    "lead": 2.4,
+    "relevance": 12,
+    "freshness": 19.7,
+    "undated": -6,
+    "shock": 18,
+    "page_change": -4
+   },
+   "keywords": [
+    "outbreak"
+   ],
+   "shock_terms": [
+    "outbreak"
+   ],
+   "dedupe_match": null,
+   "dedupe_similarity": 0.0,
+   "id": "35e2af21dfff",
+   "title": "[page changed] ProMED-mail",
+   "url": "https://promedmail.org/",
+   "summary": "Protecting Global Health, One Alert at a Time | ProMED Previous slide Next slide Protecting Global Health, One Alert at a Time ProMED: Your 24/7 early warning system for emerging infectious diseases worldwide. Subscribe ProMED's Weekly Pulse A snapshot of global health events from the past 7 days Latest Posts on ProMED All Date Title Mon Aug 24 2026 FOOT AND MOUTH DISEASE - VIET NAM (12): (CAO BAN",
+   "kind": "page-change",
+   "source": "ProMED-mail",
+   "source_id": "promed",
+   "tier": 2,
+   "country": "GLOBAL",
+   "category": "health",
+   "segments": [
+    "city",
+    "bush",
+    "beach"
+   ],
+   "first_seen": "2026-08-24T10:02+03:00",
+   "published": null,
+   "verdict": "CONSIDER"
+  },
+  {
+   "score": 84.1,
+   "components": {
+    "tier": 20,
+    "category": 14,
+    "lead": 8.4,
+    "relevance": 12,
+    "freshness": 19.7,
+    "corroborated": 10
+   },
+   "keywords": [
+    "route",
+    "airline"
+   ],
+   "shock_terms": [],
+   "dedupe_match": null,
+   "dedupe_similarity": 0.0,
+   "id": "bb053a82f735",
+   "title": "Jetstar Japan Plans Okinawa \u2013 Kaohsiung Dec 2026 Launch",
+   "url": "https://www.aeroroutes.com/eng/260824-gknw26okakhh",
+   "summary": "Published at 0000PDT / 0700GMT 24AUG26 Jetstar Japan last week In the GDS and OAG filed operational schedule for its proposed international route during Northern winter 2026/27 season. The airline intends to launch 3 weekly Okinawa \u2013 Kaohsiung route on 06DEC26, with Airbus A320 aircraft. GK097 OKA1240 \u2013 1335KHH 320 357 GK098 KHH1435 \u2013 1715OKA 320 357 Planned operations remain subject to change.",
+   "kind": "item",
+   "source": "AeroRoutes schedule filings",
+   "source_id": "aeroroutes",
+   "tier": 2,
+   "country": "GLOBAL",
+   "category": "aviation-tracker",
+   "segments": [
+    "city",
+    "bush",
+    "beach"
+   ],
+   "first_seen": "2026-08-24T10:02+03:00",
+   "published": "2026-08-24",
+   "verdict": "CONSIDER"
+  },
+  {
+   "score": 84.1,
    "components": {
     "tier": 40,
     "category": 12,
+    "lead": 2.4,
+    "relevance": 0,
+    "freshness": 19.7,
+    "corroborated": 10
+   },
+   "keywords": [],
+   "shock_terms": [],
+   "dedupe_match": null,
+   "dedupe_similarity": 0.0,
+   "id": "26522416824f",
+   "title": "CEOs Survey of July 2026",
+   "url": "https://www.centralbank.go.ke/2026/08/24/ceos-survey-of-july-2026-2",
+   "summary": "",
+   "kind": "item",
+   "source": "Central Bank of Kenya press releases",
+   "source_id": "ke-cbk-press",
+   "tier": 1,
+   "country": "KE",
+   "category": "central-bank",
+   "segments": [
+    "city",
+    "bush",
+    "beach"
+   ],
+   "first_seen": "2026-08-24T10:01+03:00",
+   "published": "2026-08-24",
+   "verdict": "CONSIDER"
+  },
+  {
+   "score": 84.1,
+   "components": {
+    "tier": 40,
+    "category": 12,
+    "lead": 2.4,
+    "relevance": 0,
+    "freshness": 19.7,
+    "corroborated": 10
+   },
+   "keywords": [],
+   "shock_terms": [],
+   "dedupe_match": null,
+   "dedupe_similarity": 0.0,
+   "id": "4d6c510a6f5e",
+   "title": "Agriculture Sector Survey of July 2026",
+   "url": "https://www.centralbank.go.ke/2026/08/24/agriculture-sector-survey-of-july-2026",
+   "summary": "",
+   "kind": "item",
+   "source": "Central Bank of Kenya press releases",
+   "source_id": "ke-cbk-press",
+   "tier": 1,
+   "country": "KE",
+   "category": "central-bank",
+   "segments": [
+    "city",
+    "bush",
+    "beach"
+   ],
+   "first_seen": "2026-08-24T10:01+03:00",
+   "published": "2026-08-24",
+   "verdict": "CONSIDER"
+  },
+  {
+   "score": 84.1,
+   "components": {
+    "tier": 40,
+    "category": 12,
+    "lead": 2.4,
+    "relevance": 0,
+    "freshness": 19.7,
+    "corroborated": 10
+   },
+   "keywords": [],
+   "shock_terms": [],
+   "dedupe_match": null,
+   "dedupe_similarity": 0.0,
+   "id": "025756aa8651",
+   "title": "Market Perceptions Survey of July 2026",
+   "url": "https://www.centralbank.go.ke/2026/08/24/market-perceptions-survey-of-july-2026",
+   "summary": "",
+   "kind": "item",
+   "source": "Central Bank of Kenya press releases",
+   "source_id": "ke-cbk-press",
+   "tier": 1,
+   "country": "KE",
+   "category": "central-bank",
+   "segments": [
+    "city",
+    "bush",
+    "beach"
+   ],
+   "first_seen": "2026-08-24T10:01+03:00",
+   "published": "2026-08-24",
+   "verdict": "CONSIDER"
+  },
+  {
+   "score": 83.7,
+   "components": {
+    "tier": 20,
+    "category": 4,
+    "lead": 0.0,
+    "relevance": 28,
+    "freshness": 19.7,
+    "undated": -6,
+    "shock": 18
+   },
+   "keywords": [
+    "suspend",
+    "visa",
+    "strike"
+   ],
+   "shock_terms": [
+    "strike"
+   ],
+   "dedupe_match": null,
+   "dedupe_similarity": 0.0,
+   "id": "21025e1e71d0",
+   "title": "international US judge strikes down policy suspending immigrant visa processing for 75 nations Yesterday - 2 min read",
+   "url": "https://www.thecitizen.co.tz/tanzania/news/international/us-judge-strikes-down-policy-suspending-immigrant-visa-processing-for-75-nations-5567858",
+   "summary": "",
+   "kind": "item",
+   "source": "The Citizen (Tanzania)",
+   "source_id": "np-citizen-tz",
+   "tier": 2,
+   "country": "TZ",
+   "category": "press",
+   "segments": [
+    "city",
+    "bush",
+    "beach"
+   ],
+   "first_seen": "2026-08-24T10:02+03:00",
+   "published": null,
+   "verdict": "CONSIDER"
+  },
+  {
+   "score": 81.3,
+   "components": {
+    "tier": 40,
+    "category": 32,
     "lead": 3.6,
     "relevance": 0,
-    "freshness": 5.5,
-    "undated": -6,
+    "freshness": 19.7,
+    "stale_trap": -10,
     "page_change": -4
    },
    "keywords": [],
    "shock_terms": [],
    "dedupe_match": null,
    "dedupe_similarity": 0.0,
-   "id": "5cbff57fc275",
-   "title": "[page changed] Jambojet media",
-   "url": "https://www.jambojet.com/en/press-release",
-   "summary": "Request unsuccessful. Incapsula incident ID: 1007000090643260965-202753715209175651",
+   "id": "fd5e63e3c092",
+   "title": "[page changed] Federal Register \u2014 public inspection (HHS/CDC), pre-publication",
+   "url": "https://www.federalregister.gov/api/v1/public-inspection-documents/current.json",
+   "summary": "{\"count\":87,\"results\":[{\"agencies\":[{\"raw_name\":\"FEDERAL COMMUNICATIONS COMMISSION\",\"name\":\"Federal Communications Commission\",\"id\":161,\"url\":\"https://www.federalregister.gov/agencies/federal-communications-commission\",\"json_url\":\"https://www.federalregister.gov/api/v1/agencies/161\",\"parent_id\":null,\"slug\":\"federal-communications-commission\"}],\"agency_letters\":[],\"agency_names\":[\"Federal Communica",
    "kind": "page-change",
-   "source": "Jambojet media",
-   "source_id": "air-jambojet",
+   "source": "Federal Register \u2014 public inspection (HHS/CDC), pre-publication",
+   "source_id": "us-fedreg-pubinspect-hhs",
    "tier": 1,
-   "country": "KE",
-   "category": "airline",
-   "segments": [
-    "city",
-    "bush",
-    "beach"
-   ],
-   "first_seen": "2026-08-23T19:27+03:00",
-   "published": null,
-   "verdict": "OPEN THIS \u2014 tier-1 airline page moved; content not auto-parsed, read it manually"
-  },
-  {
-   "score": 99.2,
-   "components": {
-    "tier": 40,
-    "category": 20,
-    "lead": 12.0,
-    "relevance": 0,
-    "freshness": 17.2,
-    "corroborated": 10
-   },
-   "keywords": [],
-   "shock_terms": [],
-   "dedupe_match": null,
-   "dedupe_similarity": 0.0,
-   "id": "c402d5ced238",
-   "title": "Sports Disputes Tribunal \u2013 Weekly Cause List \u2013 24 August 2026 to 28 August 2026 (Addendum)",
-   "url": "https://new.kenyalaw.org/akn/ke/doc/cause-list-weekly/kesdt/2026-08-24/2/eng@2026-08-24",
-   "summary": "Sports Disputes Tribunal \u2013 Weekly Cause List \u2013 24 August 2026 to 28 August 2026 (Addendum)",
-   "kind": "item",
-   "source": "Kenya Gazette (Kenya Law)",
-   "source_id": "ke-gazette",
-   "tier": 1,
-   "country": "KE",
-   "category": "gazette",
-   "segments": [
-    "city",
-    "bush",
-    "beach"
-   ],
-   "first_seen": "2026-08-24T06:04+03:00",
-   "published": "2026-08-24",
-   "verdict": "STRONG \u2014 tier-1, upstream"
-  },
-  {
-   "score": 99.2,
-   "components": {
-    "tier": 40,
-    "category": 20,
-    "lead": 12.0,
-    "relevance": 0,
-    "freshness": 17.2,
-    "corroborated": 10
-   },
-   "keywords": [],
-   "shock_terms": [],
-   "dedupe_match": null,
-   "dedupe_similarity": 0.0,
-   "id": "1d14930494f8",
-   "title": "Mavoko Law Courts \u2013 Civil Division \u2013 Weekly Cause List \u2013 24 August 2026 to 28 August 2026",
-   "url": "https://new.kenyalaw.org/akn/ke/doc/cause-list-weekly/kemc/2026-08-24/9/eng@2026-08-24",
-   "summary": "Mavoko Law Courts \u2013 Civil Division \u2013 Weekly Cause List \u2013 24 August 2026 to 28 August 2026",
-   "kind": "item",
-   "source": "Kenya Gazette (Kenya Law)",
-   "source_id": "ke-gazette",
-   "tier": 1,
-   "country": "KE",
-   "category": "gazette",
-   "segments": [
-    "city",
-    "bush",
-    "beach"
-   ],
-   "first_seen": "2026-08-24T06:04+03:00",
-   "published": "2026-08-24",
-   "verdict": "STRONG \u2014 tier-1, upstream"
-  },
-  {
-   "score": 99.2,
-   "components": {
-    "tier": 40,
-    "category": 20,
-    "lead": 12.0,
-    "relevance": 0,
-    "freshness": 17.2,
-    "corroborated": 10
-   },
-   "keywords": [],
-   "shock_terms": [],
-   "dedupe_match": null,
-   "dedupe_similarity": 0.0,
-   "id": "83e3a4e75e27",
-   "title": "Olokurto Law Courts \u2013 Weekly Cause List \u2013 24 August 2026 to 28 August 2026",
-   "url": "https://new.kenyalaw.org/akn/ke/doc/cause-list-weekly/kemc/2026-08-24/10/eng@2026-08-24",
-   "summary": "Olokurto Law Courts \u2013 Weekly Cause List \u2013 24 August 2026 to 28 August 2026",
-   "kind": "item",
-   "source": "Kenya Gazette (Kenya Law)",
-   "source_id": "ke-gazette",
-   "tier": 1,
-   "country": "KE",
-   "category": "gazette",
-   "segments": [
-    "city",
-    "bush",
-    "beach"
-   ],
-   "first_seen": "2026-08-24T06:04+03:00",
-   "published": "2026-08-24",
-   "verdict": "STRONG \u2014 tier-1, upstream"
-  },
-  {
-   "score": 99.2,
-   "components": {
-    "tier": 40,
-    "category": 20,
-    "lead": 12.0,
-    "relevance": 0,
-    "freshness": 17.2,
-    "corroborated": 10
-   },
-   "keywords": [],
-   "shock_terms": [],
-   "dedupe_match": null,
-   "dedupe_similarity": 0.0,
-   "id": "dd208635f5e9",
-   "title": "Narok Law Courts \u2013 Weekly Cause List \u2013 24 August 2026 to 28 August 2026",
-   "url": "https://new.kenyalaw.org/akn/ke/doc/cause-list-weekly/kemc/2026-08-24/11/eng@2026-08-24",
-   "summary": "Narok Law Courts \u2013 Weekly Cause List \u2013 24 August 2026 to 28 August 2026",
-   "kind": "item",
-   "source": "Kenya Gazette (Kenya Law)",
-   "source_id": "ke-gazette",
-   "tier": 1,
-   "country": "KE",
-   "category": "gazette",
-   "segments": [
-    "city",
-    "bush",
-    "beach"
-   ],
-   "first_seen": "2026-08-24T06:04+03:00",
-   "published": "2026-08-24",
-   "verdict": "STRONG \u2014 tier-1, upstream"
-  },
-  {
-   "score": 99.2,
-   "components": {
-    "tier": 40,
-    "category": 20,
-    "lead": 12.0,
-    "relevance": 0,
-    "freshness": 17.2,
-    "corroborated": 10
-   },
-   "keywords": [],
-   "shock_terms": [],
-   "dedupe_match": null,
-   "dedupe_similarity": 0.0,
-   "id": "a7d45b262684",
-   "title": "Wang'uru Law Courts \u2013 Weekly Cause List \u2013 24 August 2026 to 28 August 2026",
-   "url": "https://new.kenyalaw.org/akn/ke/doc/cause-list-weekly/kemc/2026-08-24/12/eng@2026-08-24",
-   "summary": "Wang'uru Law Courts \u2013 Weekly Cause List \u2013 24 August 2026 to 28 August 2026",
-   "kind": "item",
-   "source": "Kenya Gazette (Kenya Law)",
-   "source_id": "ke-gazette",
-   "tier": 1,
-   "country": "KE",
-   "category": "gazette",
-   "segments": [
-    "city",
-    "bush",
-    "beach"
-   ],
-   "first_seen": "2026-08-24T06:04+03:00",
-   "published": "2026-08-24",
-   "verdict": "STRONG \u2014 tier-1, upstream"
-  },
-  {
-   "score": 99.2,
-   "components": {
-    "tier": 40,
-    "category": 20,
-    "lead": 12.0,
-    "relevance": 0,
-    "freshness": 17.2,
-    "corroborated": 10
-   },
-   "keywords": [],
-   "shock_terms": [],
-   "dedupe_match": null,
-   "dedupe_similarity": 0.0,
-   "id": "b57742f5976f",
-   "title": "Karaba Law Courts \u2013 Weekly Cause List \u2013 24 August 2026 to 28 August 2026",
-   "url": "https://new.kenyalaw.org/akn/ke/doc/cause-list-weekly/kemc/2026-08-24/13/eng@2026-08-24",
-   "summary": "Karaba Law Courts \u2013 Weekly Cause List \u2013 24 August 2026 to 28 August 2026",
-   "kind": "item",
-   "source": "Kenya Gazette (Kenya Law)",
-   "source_id": "ke-gazette",
-   "tier": 1,
-   "country": "KE",
-   "category": "gazette",
-   "segments": [
-    "city",
-    "bush",
-    "beach"
-   ],
-   "first_seen": "2026-08-24T06:04+03:00",
-   "published": "2026-08-24",
-   "verdict": "STRONG \u2014 tier-1, upstream"
-  },
-  {
-   "score": 99.2,
-   "components": {
-    "tier": 40,
-    "category": 20,
-    "lead": 12.0,
-    "relevance": 0,
-    "freshness": 17.2,
-    "corroborated": 10
-   },
-   "keywords": [],
-   "shock_terms": [],
-   "dedupe_match": null,
-   "dedupe_similarity": 0.0,
-   "id": "919c578684a1",
-   "title": "Kadhis Court at Mariakani \u2013 Weekly Cause List \u2013 31 August 2026 to 04 September 2026",
-   "url": "https://new.kenyalaw.org/akn/ke/doc/cause-list-weekly/kekc/2026-08-31/1/eng@2026-08-31",
-   "summary": "Kadhis Court at Mariakani \u2013 Weekly Cause List \u2013 31 August 2026 to 04 September 2026",
-   "kind": "item",
-   "source": "Kenya Gazette (Kenya Law)",
-   "source_id": "ke-gazette",
-   "tier": 1,
-   "country": "KE",
-   "category": "gazette",
-   "segments": [
-    "city",
-    "bush",
-    "beach"
-   ],
-   "first_seen": "2026-08-24T06:04+03:00",
-   "published": "2026-08-31",
-   "verdict": "STRONG \u2014 tier-1, upstream"
-  },
-  {
-   "score": 99.2,
-   "components": {
-    "tier": 40,
-    "category": 20,
-    "lead": 12.0,
-    "relevance": 0,
-    "freshness": 17.2,
-    "corroborated": 10
-   },
-   "keywords": [],
-   "shock_terms": [],
-   "dedupe_match": null,
-   "dedupe_similarity": 0.0,
-   "id": "4aa954d8747c",
-   "title": "Mariakani Law Courts \u2013 Weekly Cause List \u2013 31 August 2026 to 04 September 2026",
-   "url": "https://new.kenyalaw.org/akn/ke/doc/cause-list-weekly/kemc/2026-08-31/1/eng@2026-08-31",
-   "summary": "Mariakani Law Courts \u2013 Weekly Cause List \u2013 31 August 2026 to 04 September 2026",
-   "kind": "item",
-   "source": "Kenya Gazette (Kenya Law)",
-   "source_id": "ke-gazette",
-   "tier": 1,
-   "country": "KE",
-   "category": "gazette",
-   "segments": [
-    "city",
-    "bush",
-    "beach"
-   ],
-   "first_seen": "2026-08-24T06:04+03:00",
-   "published": "2026-08-31",
-   "verdict": "STRONG \u2014 tier-1, upstream"
-  },
-  {
-   "score": 99.2,
-   "components": {
-    "tier": 40,
-    "category": 20,
-    "lead": 12.0,
-    "relevance": 0,
-    "freshness": 17.2,
-    "corroborated": 10
-   },
-   "keywords": [],
-   "shock_terms": [],
-   "dedupe_match": null,
-   "dedupe_similarity": 0.0,
-   "id": "c09361b16e17",
-   "title": "Mbita Law Courts \u2013 Weekly Cause List \u2013 24 August 2026 to 28 August 2026",
-   "url": "https://new.kenyalaw.org/akn/ke/doc/cause-list-weekly/kemc/2026-08-24/14/eng@2026-08-24",
-   "summary": "Mbita Law Courts \u2013 Weekly Cause List \u2013 24 August 2026 to 28 August 2026",
-   "kind": "item",
-   "source": "Kenya Gazette (Kenya Law)",
-   "source_id": "ke-gazette",
-   "tier": 1,
-   "country": "KE",
-   "category": "gazette",
-   "segments": [
-    "city",
-    "bush",
-    "beach"
-   ],
-   "first_seen": "2026-08-24T06:04+03:00",
-   "published": "2026-08-24",
-   "verdict": "STRONG \u2014 tier-1, upstream"
-  },
-  {
-   "score": 99.2,
-   "components": {
-    "tier": 40,
-    "category": 20,
-    "lead": 12.0,
-    "relevance": 0,
-    "freshness": 17.2,
-    "corroborated": 10
-   },
-   "keywords": [],
-   "shock_terms": [],
-   "dedupe_match": null,
-   "dedupe_similarity": 0.0,
-   "id": "754915d2b4df",
-   "title": "Marsabit Law Courts \u2013 Weekly Cause List \u2013 24 August 2026 to 28 August 2026",
-   "url": "https://new.kenyalaw.org/akn/ke/doc/cause-list-weekly/kemc/2026-08-24/15/eng@2026-08-24",
-   "summary": "Marsabit Law Courts \u2013 Weekly Cause List \u2013 24 August 2026 to 28 August 2026",
-   "kind": "item",
-   "source": "Kenya Gazette (Kenya Law)",
-   "source_id": "ke-gazette",
-   "tier": 1,
-   "country": "KE",
-   "category": "gazette",
-   "segments": [
-    "city",
-    "bush",
-    "beach"
-   ],
-   "first_seen": "2026-08-24T06:04+03:00",
-   "published": "2026-08-24",
-   "verdict": "STRONG \u2014 tier-1, upstream"
-  },
-  {
-   "score": 99.2,
-   "components": {
-    "tier": 40,
-    "category": 20,
-    "lead": 12.0,
-    "relevance": 0,
-    "freshness": 17.2,
-    "corroborated": 10
-   },
-   "keywords": [],
-   "shock_terms": [],
-   "dedupe_match": null,
-   "dedupe_similarity": 0.0,
-   "id": "ce7f7eb5a2e2",
-   "title": "Laisamis Law Courts \u2013 Weekly Cause List \u2013 24 August 2026 to 28 August 2026",
-   "url": "https://new.kenyalaw.org/akn/ke/doc/cause-list-weekly/kemc/2026-08-24/16/eng@2026-08-24",
-   "summary": "Laisamis Law Courts \u2013 Weekly Cause List \u2013 24 August 2026 to 28 August 2026",
-   "kind": "item",
-   "source": "Kenya Gazette (Kenya Law)",
-   "source_id": "ke-gazette",
-   "tier": 1,
-   "country": "KE",
-   "category": "gazette",
-   "segments": [
-    "city",
-    "bush",
-    "beach"
-   ],
-   "first_seen": "2026-08-24T06:04+03:00",
-   "published": "2026-08-24",
-   "verdict": "STRONG \u2014 tier-1, upstream"
-  },
-  {
-   "score": 99.2,
-   "components": {
-    "tier": 40,
-    "category": 20,
-    "lead": 12.0,
-    "relevance": 0,
-    "freshness": 17.2,
-    "corroborated": 10
-   },
-   "keywords": [],
-   "shock_terms": [],
-   "dedupe_match": null,
-   "dedupe_similarity": 0.0,
-   "id": "c282e4ec6f35",
-   "title": "Kombewa Law Court \u2013 Weekly Cause List \u2013 24 August 2026 to 04 September 2026",
-   "url": "https://new.kenyalaw.org/akn/ke/doc/cause-list-weekly/kemc/2026-08-24/17/eng@2026-08-24",
-   "summary": "Kombewa Law Court \u2013 Weekly Cause List \u2013 24 August 2026 to 04 September 2026",
-   "kind": "item",
-   "source": "Kenya Gazette (Kenya Law)",
-   "source_id": "ke-gazette",
-   "tier": 1,
-   "country": "KE",
-   "category": "gazette",
-   "segments": [
-    "city",
-    "bush",
-    "beach"
-   ],
-   "first_seen": "2026-08-24T06:04+03:00",
-   "published": "2026-08-24",
-   "verdict": "STRONG \u2014 tier-1, upstream"
-  },
-  {
-   "score": 99.2,
-   "components": {
-    "tier": 40,
-    "category": 20,
-    "lead": 12.0,
-    "relevance": 0,
-    "freshness": 17.2,
-    "corroborated": 10
-   },
-   "keywords": [],
-   "shock_terms": [],
-   "dedupe_match": null,
-   "dedupe_similarity": 0.0,
-   "id": "468398d9afde",
-   "title": "Kadhis Court at Mariakani \u2013 Weekly Cause List \u2013 24 August 2026 to 28 August 2026 (Addendum)",
-   "url": "https://new.kenyalaw.org/akn/ke/doc/cause-list-weekly/kekc/2026-08-24/2/eng@2026-08-24",
-   "summary": "Kadhis Court at Mariakani \u2013 Weekly Cause List \u2013 24 August 2026 to 28 August 2026 (Addendum)",
-   "kind": "item",
-   "source": "Kenya Gazette (Kenya Law)",
-   "source_id": "ke-gazette",
-   "tier": 1,
-   "country": "KE",
-   "category": "gazette",
-   "segments": [
-    "city",
-    "bush",
-    "beach"
-   ],
-   "first_seen": "2026-08-24T06:04+03:00",
-   "published": "2026-08-24",
-   "verdict": "STRONG \u2014 tier-1, upstream"
-  },
-  {
-   "score": 99.2,
-   "components": {
-    "tier": 40,
-    "category": 20,
-    "lead": 12.0,
-    "relevance": 0,
-    "freshness": 17.2,
-    "corroborated": 10
-   },
-   "keywords": [],
-   "shock_terms": [],
-   "dedupe_match": null,
-   "dedupe_similarity": 0.0,
-   "id": "d4e7379f4021",
-   "title": "Mariakani Law Courts \u2013 Weekly Cause List \u2013 24 August 2026 to 28 August 2026 (Addendum)",
-   "url": "https://new.kenyalaw.org/akn/ke/doc/cause-list-weekly/kemc/2026-08-24/18/eng@2026-08-24",
-   "summary": "Mariakani Law Courts \u2013 Weekly Cause List \u2013 24 August 2026 to 28 August 2026 (Addendum)",
-   "kind": "item",
-   "source": "Kenya Gazette (Kenya Law)",
-   "source_id": "ke-gazette",
-   "tier": 1,
-   "country": "KE",
-   "category": "gazette",
-   "segments": [
-    "city",
-    "bush",
-    "beach"
-   ],
-   "first_seen": "2026-08-24T06:04+03:00",
-   "published": "2026-08-24",
-   "verdict": "STRONG \u2014 tier-1, upstream"
-  },
-  {
-   "score": 99.2,
-   "components": {
-    "tier": 40,
-    "category": 20,
-    "lead": 12.0,
-    "relevance": 0,
-    "freshness": 17.2,
-    "corroborated": 10
-   },
-   "keywords": [],
-   "shock_terms": [],
-   "dedupe_match": null,
-   "dedupe_similarity": 0.0,
-   "id": "dff1c797cab9",
-   "title": "Kyuso Law Courts \u2013 Weekly Cause List \u2013 24 August 2026 to 28 August 2026",
-   "url": "https://new.kenyalaw.org/akn/ke/doc/cause-list-weekly/kemc/2026-08-24/19/eng@2026-08-24",
-   "summary": "Kyuso Law Courts \u2013 Weekly Cause List \u2013 24 August 2026 to 28 August 2026",
-   "kind": "item",
-   "source": "Kenya Gazette (Kenya Law)",
-   "source_id": "ke-gazette",
-   "tier": 1,
-   "country": "KE",
-   "category": "gazette",
-   "segments": [
-    "city",
-    "bush",
-    "beach"
-   ],
-   "first_seen": "2026-08-24T06:04+03:00",
-   "published": "2026-08-24",
-   "verdict": "STRONG \u2014 tier-1, upstream"
-  },
-  {
-   "score": 99.2,
-   "components": {
-    "tier": 40,
-    "category": 20,
-    "lead": 12.0,
-    "relevance": 0,
-    "freshness": 17.2,
-    "corroborated": 10
-   },
-   "keywords": [],
-   "shock_terms": [],
-   "dedupe_match": null,
-   "dedupe_similarity": 0.0,
-   "id": "2ac620835cd4",
-   "title": "Siakago Law Courts \u2013 Weekly Cause List \u2013 24 August 2026 to 28 August 2026 (Addendum)",
-   "url": "https://new.kenyalaw.org/akn/ke/doc/cause-list-weekly/kemc/2026-08-24/20/eng@2026-08-24",
-   "summary": "Siakago Law Courts \u2013 Weekly Cause List \u2013 24 August 2026 to 28 August 2026 (Addendum)",
-   "kind": "item",
-   "source": "Kenya Gazette (Kenya Law)",
-   "source_id": "ke-gazette",
-   "tier": 1,
-   "country": "KE",
-   "category": "gazette",
-   "segments": [
-    "city",
-    "bush",
-    "beach"
-   ],
-   "first_seen": "2026-08-24T06:04+03:00",
-   "published": "2026-08-24",
-   "verdict": "STRONG \u2014 tier-1, upstream"
-  },
-  {
-   "score": 99.2,
-   "components": {
-    "tier": 40,
-    "category": 20,
-    "lead": 12.0,
-    "relevance": 0,
-    "freshness": 17.2,
-    "corroborated": 10
-   },
-   "keywords": [],
-   "shock_terms": [],
-   "dedupe_match": null,
-   "dedupe_similarity": 0.0,
-   "id": "6a8bf9e601bf",
-   "title": "Kiambere Mobile Court \u2013 Weekly Cause List \u2013 24 August 2026 to 28 August 2026 (Addendum)",
-   "url": "https://new.kenyalaw.org/akn/ke/doc/cause-list-weekly/kemc/2026-08-24/21/eng@2026-08-24",
-   "summary": "Kiambere Mobile Court \u2013 Weekly Cause List \u2013 24 August 2026 to 28 August 2026 (Addendum)",
-   "kind": "item",
-   "source": "Kenya Gazette (Kenya Law)",
-   "source_id": "ke-gazette",
-   "tier": 1,
-   "country": "KE",
-   "category": "gazette",
-   "segments": [
-    "city",
-    "bush",
-    "beach"
-   ],
-   "first_seen": "2026-08-24T06:04+03:00",
-   "published": "2026-08-24",
-   "verdict": "STRONG \u2014 tier-1, upstream"
-  },
-  {
-   "score": 99.2,
-   "components": {
-    "tier": 40,
-    "category": 20,
-    "lead": 12.0,
-    "relevance": 0,
-    "freshness": 17.2,
-    "corroborated": 10
-   },
-   "keywords": [],
-   "shock_terms": [],
-   "dedupe_match": null,
-   "dedupe_similarity": 0.0,
-   "id": "403105455d54",
-   "title": "Business Premises Rent Tribunal \u2013 Daily Cause List \u2013 24 August 2026",
-   "url": "https://new.kenyalaw.org/akn/ke/doc/cause-list-daily/kebprt/2026-08-24/1/eng@2026-08-24",
-   "summary": "Business Premises Rent Tribunal \u2013 Daily Cause List \u2013 24 August 2026",
-   "kind": "item",
-   "source": "Kenya Gazette (Kenya Law)",
-   "source_id": "ke-gazette",
-   "tier": 1,
-   "country": "KE",
-   "category": "gazette",
-   "segments": [
-    "city",
-    "bush",
-    "beach"
-   ],
-   "first_seen": "2026-08-24T06:04+03:00",
-   "published": "2026-08-24",
-   "verdict": "STRONG \u2014 tier-1, upstream"
-  },
-  {
-   "score": 99.2,
-   "components": {
-    "tier": 40,
-    "category": 20,
-    "lead": 12.0,
-    "relevance": 0,
-    "freshness": 17.2,
-    "corroborated": 10
-   },
-   "keywords": [],
-   "shock_terms": [],
-   "dedupe_match": null,
-   "dedupe_similarity": 0.0,
-   "id": "ee1360ff5318",
-   "title": "Kibera Law Courts \u2013 Daily Cause List \u2013 24 August 2026",
-   "url": "https://new.kenyalaw.org/akn/ke/doc/cause-list-daily/kemc/2026-08-24/1/eng@2026-08-24",
-   "summary": "Kibera Law Courts \u2013 Daily Cause List \u2013 24 August 2026",
-   "kind": "item",
-   "source": "Kenya Gazette (Kenya Law)",
-   "source_id": "ke-gazette",
-   "tier": 1,
-   "country": "KE",
-   "category": "gazette",
-   "segments": [
-    "city",
-    "bush",
-    "beach"
-   ],
-   "first_seen": "2026-08-24T06:04+03:00",
-   "published": "2026-08-24",
-   "verdict": "STRONG \u2014 tier-1, upstream"
-  },
-  {
-   "score": 99.2,
-   "components": {
-    "tier": 40,
-    "category": 20,
-    "lead": 12.0,
-    "relevance": 0,
-    "freshness": 17.2,
-    "corroborated": 10
-   },
-   "keywords": [],
-   "shock_terms": [],
-   "dedupe_match": null,
-   "dedupe_similarity": 0.0,
-   "id": "abd0d4d61c30",
-   "title": "Githunguri Law Courts \u2013 Daily Cause List \u2013 24 August 2026",
-   "url": "https://new.kenyalaw.org/akn/ke/doc/cause-list-daily/kemc/2026-08-24/2/eng@2026-08-24",
-   "summary": "Githunguri Law Courts \u2013 Daily Cause List \u2013 24 August 2026",
-   "kind": "item",
-   "source": "Kenya Gazette (Kenya Law)",
-   "source_id": "ke-gazette",
-   "tier": 1,
-   "country": "KE",
-   "category": "gazette",
-   "segments": [
-    "city",
-    "bush",
-    "beach"
-   ],
-   "first_seen": "2026-08-24T06:04+03:00",
-   "published": "2026-08-24",
-   "verdict": "STRONG \u2014 tier-1, upstream"
-  },
-  {
-   "score": 99.2,
-   "components": {
-    "tier": 40,
-    "category": 20,
-    "lead": 12.0,
-    "relevance": 0,
-    "freshness": 17.2,
-    "corroborated": 10
-   },
-   "keywords": [],
-   "shock_terms": [],
-   "dedupe_match": null,
-   "dedupe_similarity": 0.0,
-   "id": "b0d3fd0f85df",
-   "title": "Mpeketoni Law Courts \u2013 Weekly Cause List \u2013 24 August 2026 to 04 September 2026",
-   "url": "https://new.kenyalaw.org/akn/ke/doc/cause-list-weekly/kemc/2026-08-24/22/eng@2026-08-24",
-   "summary": "Mpeketoni Law Courts \u2013 Weekly Cause List \u2013 24 August 2026 to 04 September 2026",
-   "kind": "item",
-   "source": "Kenya Gazette (Kenya Law)",
-   "source_id": "ke-gazette",
-   "tier": 1,
-   "country": "KE",
-   "category": "gazette",
-   "segments": [
-    "city",
-    "bush",
-    "beach"
-   ],
-   "first_seen": "2026-08-24T06:04+03:00",
-   "published": "2026-08-24",
-   "verdict": "STRONG \u2014 tier-1, upstream"
-  },
-  {
-   "score": 90.0,
-   "components": {
-    "tier": 40,
-    "category": 20,
-    "lead": 12.0,
-    "relevance": 16,
-    "freshness": 12.0,
-    "stale_trap": -10
-   },
-   "keywords": [
-    "tax",
-    "eta"
-   ],
-   "shock_terms": [],
-   "dedupe_match": null,
-   "dedupe_similarity": 0.0,
-   "id": "64dab8cb7c2a",
-   "title": "Urgent Cargo Logistics Limited v Commissioner for Customs & Border Control (Tax Appeal E1489 of 2025) [2026] KETAT 321 (KLR) (21 August 2026) (Judgment)",
-   "url": "https://new.kenyalaw.org/akn/ke/judgment/ketat/2026/321/eng@2026-08-21",
-   "summary": "Urgent Cargo Logistics Limited v Commissioner for Customs & Border Control (Tax Appeal E1489 of 2025) [2026] KETAT 321 (KLR) (21 August 2026) (Judgment)",
-   "kind": "item",
-   "source": "Kenya Gazette (Kenya Law)",
-   "source_id": "ke-gazette",
-   "tier": 1,
-   "country": "KE",
-   "category": "gazette",
-   "segments": [
-    "city",
-    "bush",
-    "beach"
-   ],
-   "first_seen": "2026-08-24T01:24+03:00",
-   "published": "2026-08-21",
-   "verdict": "CHECK \u2014 source date older than the window"
-  },
-  {
-   "score": 90.0,
-   "components": {
-    "tier": 40,
-    "category": 20,
-    "lead": 12.0,
-    "relevance": 16,
-    "freshness": 12.0,
-    "stale_trap": -10
-   },
-   "keywords": [
-    "tax",
-    "eta"
-   ],
-   "shock_terms": [],
-   "dedupe_match": null,
-   "dedupe_similarity": 0.0,
-   "id": "463a004f6702",
-   "title": "Wambua v Commissioner of Legal Services & Board Coordination (Tax Appeal E261 of 2026) [2026] KETAT 320 (KLR) (21 August 2026) (Judgment)",
-   "url": "https://new.kenyalaw.org/akn/ke/judgment/ketat/2026/320/eng@2026-08-21",
-   "summary": "Wambua v Commissioner of Legal Services & Board Coordination (Tax Appeal E261 of 2026) [2026] KETAT 320 (KLR) (21 August 2026) (Judgment)",
-   "kind": "item",
-   "source": "Kenya Gazette (Kenya Law)",
-   "source_id": "ke-gazette",
-   "tier": 1,
-   "country": "KE",
-   "category": "gazette",
-   "segments": [
-    "city",
-    "bush",
-    "beach"
-   ],
-   "first_seen": "2026-08-24T01:24+03:00",
-   "published": "2026-08-21",
-   "verdict": "CHECK \u2014 source date older than the window"
-  },
-  {
-   "score": 90.0,
-   "components": {
-    "tier": 40,
-    "category": 20,
-    "lead": 12.0,
-    "relevance": 16,
-    "freshness": 12.0,
-    "stale_trap": -10
-   },
-   "keywords": [
-    "tax",
-    "eta"
-   ],
-   "shock_terms": [],
-   "dedupe_match": null,
-   "dedupe_similarity": 0.0,
-   "id": "13f1ec99b89b",
-   "title": "Cedar Marketing and Communications Ltd v Commissioner of Domestic Taxes (Tax Appeal E1213 of 2025) [2026] KETAT 319 (KLR) (21 August 2026) (Judgment)",
-   "url": "https://new.kenyalaw.org/akn/ke/judgment/ketat/2026/319/eng@2026-08-21",
-   "summary": "Cedar Marketing and Communications Ltd v Commissioner of Domestic Taxes (Tax Appeal E1213 of 2025) [2026] KETAT 319 (KLR) (21 August 2026) (Judgment)",
-   "kind": "item",
-   "source": "Kenya Gazette (Kenya Law)",
-   "source_id": "ke-gazette",
-   "tier": 1,
-   "country": "KE",
-   "category": "gazette",
-   "segments": [
-    "city",
-    "bush",
-    "beach"
-   ],
-   "first_seen": "2026-08-24T01:24+03:00",
-   "published": "2026-08-21",
-   "verdict": "CHECK \u2014 source date older than the window"
-  },
-  {
-   "score": 85.2,
-   "components": {
-    "tier": 40,
-    "category": 24,
-    "lead": 1.2,
-    "relevance": 8,
-    "freshness": 12.0
-   },
-   "keywords": [
-    "eta"
-   ],
-   "shock_terms": [],
-   "dedupe_match": null,
-   "dedupe_similarity": 0.0,
-   "id": "4096e93387fd",
-   "title": "MINISTRY OF HEALTH JOINED KCCA TO PROMOTE WASTE SORTING IN KULAMBIRO VILLAGE IN KAMPALA CITY.",
-   "url": "https://health.go.ug/ministry-of-health-joined-kcca-to-promote-waste-sorting-in-kulambiro-village-in-kampala-city",
-   "summary": "21st August 2026, Kampala \u2014 Ahead of the second National Cleaning Day, Permanent Secretary at the Ministry of Health, Dr. Diana Atwine, has joined the Kampala Capital City Authority\u2019s Director of Public Health, Dr. Sarah Zalwango, and the Rotary Club of Kulambiro to mobilize residents of Kulambiro village to adopt waste sorting at source as part of the efforts to promote cleaner communities and pr",
-   "kind": "item",
-   "source": "Uganda Ministry of Health \u2014 news",
-   "source_id": "ug-moh-news",
-   "tier": 1,
-   "country": "UG",
-   "category": "health",
+   "country": "REG",
+   "category": "advisory",
    "segments": [
     "city",
     "bush"
    ],
-   "first_seen": "2026-08-24T01:24+03:00",
+   "first_seen": "2026-08-24T10:01+03:00",
    "published": "2026-08-21",
-   "verdict": "CONSIDER"
+   "verdict": "CHECK \u2014 source date older than the window"
   },
   {
-   "score": 85.2,
-   "components": {
-    "tier": 40,
-    "category": 24,
-    "lead": 1.2,
-    "relevance": 8,
-    "freshness": 12.0
-   },
-   "keywords": [
-    "eta"
-   ],
-   "shock_terms": [],
-   "dedupe_match": null,
-   "dedupe_similarity": 0.0,
-   "id": "2fc45eaa2afe",
-   "title": "MINISTRY OF HEALTH JOINED KCCA TO PROMOTE WASTE SORTING IN KULAMBIRO VILLAGE IN KAMPALA CITY.",
-   "url": "https://health.go.ug/ministry-of-health-joined-kcca-to-promote-waste-sorting-in-kulambiro-village-in-kampala-city",
-   "summary": "21st August 2026, Kampala \u2014 Ahead of the second National Cleaning Day, Permanent Secretary at the Ministry of Health, Dr. Diana Atwine, has joined the Kampala Capital City Authority\u2019s Director of Public Health, Dr. Sarah Zalwango, and the Rotary Club of Kulambiro to mobilize residents of Kulambiro village to adopt waste sorting at source as part of the efforts to promote cleaner communities and pr",
-   "kind": "item",
-   "source": "Uganda Ministry of Health",
-   "source_id": "ug-moh",
-   "tier": 1,
-   "country": "UG",
-   "category": "health",
-   "segments": [
-    "city",
-    "bush",
-    "beach"
-   ],
-   "first_seen": "2026-08-24T01:24+03:00",
-   "published": "2026-08-21",
-   "verdict": "CONSIDER"
-  },
-  {
-   "score": 83.1,
+   "score": 81.2,
    "components": {
     "tier": 20,
     "category": 4,
     "lead": 0.0,
     "relevance": 28,
-    "freshness": 19.1,
+    "freshness": 17.2,
     "undated": -6,
     "shock": 18
    },
@@ -1016,88 +401,13 @@
    "verdict": "CONSIDER"
   },
   {
-   "score": 82.0,
-   "components": {
-    "tier": 40,
-    "category": 20,
-    "lead": 12.0,
-    "relevance": 8,
-    "freshness": 12.0,
-    "stale_trap": -10
-   },
-   "keywords": [
-    "eta"
-   ],
-   "shock_terms": [],
-   "dedupe_match": null,
-   "dedupe_similarity": 0.0,
-   "id": "ccfe549e69be",
-   "title": "Owuor & another v Prime Cabinet Secretary and Cabinet Secretary for Foreign and Diaspora Affairs & 4 others (Judicial Review E251 of 2026) [2026] KEHC 13039 (KLR) (21 August 2026) (Ruling)",
-   "url": "https://new.kenyalaw.org/akn/ke/judgment/kehc/2026/13039/eng@2026-08-21",
-   "summary": "Owuor & another v Prime Cabinet Secretary and Cabinet Secretary for Foreign and Diaspora Affairs & 4 others (Judicial Review E251 of 2026) [2026] KEHC 13039 (KLR) (21 August 2026) (Ruling)",
-   "kind": "item",
-   "source": "Kenya Gazette (Kenya Law)",
-   "source_id": "ke-gazette",
-   "tier": 1,
-   "country": "KE",
-   "category": "gazette",
-   "segments": [
-    "city",
-    "bush",
-    "beach"
-   ],
-   "first_seen": "2026-08-24T01:24+03:00",
-   "published": "2026-08-21",
-   "verdict": "CHECK \u2014 source date older than the window"
-  },
-  {
-   "score": 81.2,
-   "components": {
-    "tier": 20,
-    "category": 4,
-    "lead": 0.0,
-    "relevance": 28,
-    "freshness": 17.2,
-    "undated": -6,
-    "shock": 18
-   },
-   "keywords": [
-    "suspend",
-    "visa",
-    "strike"
-   ],
-   "shock_terms": [
-    "strike"
-   ],
-   "dedupe_match": null,
-   "dedupe_similarity": 0.0,
-   "id": "0bf79f780584",
-   "title": "international US judge strikes down policy suspending immigrant visa processing for 75 nations 21 hours ago - 2 min read",
-   "url": "https://www.thecitizen.co.tz/tanzania/news/international/us-judge-strikes-down-policy-suspending-immigrant-visa-processing-for-75-nations-5567858",
-   "summary": "",
-   "kind": "item",
-   "source": "The Citizen (Tanzania)",
-   "source_id": "np-citizen-tz",
-   "tier": 2,
-   "country": "TZ",
-   "category": "press",
-   "segments": [
-    "city",
-    "bush",
-    "beach"
-   ],
-   "first_seen": "2026-08-24T06:04+03:00",
-   "published": null,
-   "verdict": "CONSIDER"
-  },
-  {
-   "score": 80.7,
+   "score": 78.8,
    "components": {
     "tier": 40,
     "category": 32,
     "lead": 3.6,
     "relevance": 0,
-    "freshness": 19.1,
+    "freshness": 17.2,
     "stale_trap": -10,
     "page_change": -4
    },
@@ -1124,106 +434,94 @@
    "verdict": "CHECK \u2014 source date older than the window"
   },
   {
-   "score": 79.3,
-   "components": {
-    "tier": 20,
-    "category": 4,
-    "lead": 0.0,
-    "relevance": 28,
-    "freshness": 15.3,
-    "undated": -6,
-    "shock": 18
-   },
-   "keywords": [
-    "suspend",
-    "visa",
-    "strike"
-   ],
-   "shock_terms": [
-    "strike"
-   ],
-   "dedupe_match": null,
-   "dedupe_similarity": 0.0,
-   "id": "8e004c3f7824",
-   "title": "international US judge strikes down policy suspending immigrant visa processing for 75 nations 19 hours ago - 2 min read",
-   "url": "https://www.thecitizen.co.tz/tanzania/news/international/us-judge-strikes-down-policy-suspending-immigrant-visa-processing-for-75-nations-5567858",
-   "summary": "",
-   "kind": "item",
-   "source": "The Citizen (Tanzania)",
-   "source_id": "np-citizen-tz",
-   "tier": 2,
-   "country": "TZ",
-   "category": "press",
-   "segments": [
-    "city",
-    "bush",
-    "beach"
-   ],
-   "first_seen": "2026-08-24T04:22+03:00",
-   "published": null,
-   "verdict": "CONSIDER"
-  },
-  {
-   "score": 76.9,
+   "score": 74.9,
    "components": {
     "tier": 40,
-    "category": 32,
-    "lead": 3.6,
+    "category": 24,
+    "lead": 1.2,
     "relevance": 0,
-    "freshness": 15.3,
-    "stale_trap": -10,
-    "page_change": -4
+    "freshness": 19.7,
+    "stale_trap": -10
    },
    "keywords": [],
    "shock_terms": [],
    "dedupe_match": null,
-   "dedupe_similarity": 0.0,
-   "id": "f280db7513ab",
-   "title": "[page changed] Federal Register \u2014 public inspection (HHS/CDC), pre-publication",
-   "url": "https://www.federalregister.gov/api/v1/public-inspection-documents/current.json",
-   "summary": "{\"count\":87,\"results\":[{\"agencies\":[{\"raw_name\":\"FEDERAL COMMUNICATIONS COMMISSION\",\"name\":\"Federal Communications Commission\",\"id\":161,\"url\":\"https://www.federalregister.gov/agencies/federal-communications-commission\",\"json_url\":\"https://www.federalregister.gov/api/v1/agencies/161\",\"parent_id\":null,\"slug\":\"federal-communications-commission\"}],\"agency_letters\":[],\"agency_names\":[\"Federal Communica",
-   "kind": "page-change",
-   "source": "Federal Register \u2014 public inspection (HHS/CDC), pre-publication",
-   "source_id": "us-fedreg-pubinspect-hhs",
+   "dedupe_similarity": 0.33,
+   "id": "07f800a89dd0",
+   "title": "Parliamentary TB Caucus Oriented to Strengthen Leadership and Accountability in Uganda\u2019s Fight Against Tuberculosis",
+   "url": "https://health.go.ug/parliamentary-tb-caucus-oriented-to-strengthen-leadership-and-accountability-in-ugandas-fight-against-tuberculosis",
+   "summary": "20th August 2026, Kampala \u2013 The Ministry of Health, in collaboration with the Uganda Stop TB Partnership (USTP) and other partners, has convened a breakfast meeting to orient the newly constituted Parliamentary TB Caucus on Uganda\u2019s tuberculosis (TB) burden and strengthen parliamentary leadership towards ending TB in the country. The orientation brought together Members of Parliament, officials fr",
+   "kind": "item",
+   "source": "Uganda Ministry of Health \u2014 news",
+   "source_id": "ug-moh-news",
    "tier": 1,
-   "country": "REG",
-   "category": "advisory",
+   "country": "UG",
+   "category": "health",
    "segments": [
     "city",
     "bush"
    ],
-   "first_seen": "2026-08-24T04:22+03:00",
-   "published": "2026-08-21",
+   "first_seen": "2026-08-24T10:02+03:00",
+   "published": "2026-08-20",
    "verdict": "CHECK \u2014 source date older than the window"
   },
   {
-   "score": 76.0,
+   "score": 74.9,
+   "components": {
+    "tier": 40,
+    "category": 24,
+    "lead": 1.2,
+    "relevance": 0,
+    "freshness": 19.7,
+    "stale_trap": -10
+   },
+   "keywords": [],
+   "shock_terms": [],
+   "dedupe_match": null,
+   "dedupe_similarity": 0.33,
+   "id": "9c7f1da7006b",
+   "title": "Parliamentary TB Caucus Oriented to Strengthen Leadership and Accountability in Uganda\u2019s Fight Against Tuberculosis",
+   "url": "https://health.go.ug/parliamentary-tb-caucus-oriented-to-strengthen-leadership-and-accountability-in-ugandas-fight-against-tuberculosis",
+   "summary": "20th August 2026, Kampala \u2013 The Ministry of Health, in collaboration with the Uganda Stop TB Partnership (USTP) and other partners, has convened a breakfast meeting to orient the newly constituted Parliamentary TB Caucus on Uganda\u2019s tuberculosis (TB) burden and strengthen parliamentary leadership towards ending TB in the country. The orientation brought together Members of Parliament, officials fr",
+   "kind": "item",
+   "source": "Uganda Ministry of Health",
+   "source_id": "ug-moh",
+   "tier": 1,
+   "country": "UG",
+   "category": "health",
+   "segments": [
+    "city",
+    "bush",
+    "beach"
+   ],
+   "first_seen": "2026-08-24T10:01+03:00",
+   "published": "2026-08-20",
+   "verdict": "CHECK \u2014 source date older than the window"
+  },
+  {
+   "score": 69.7,
    "components": {
     "tier": 20,
     "category": 4,
     "lead": 0.0,
-    "relevance": 28,
-    "freshness": 12.0,
-    "undated": -6,
-    "shock": 18
+    "relevance": 16,
+    "freshness": 19.7,
+    "corroborated": 10
    },
    "keywords": [
-    "suspend",
-    "visa",
-    "strike"
+    "electricity",
+    "capacity"
    ],
-   "shock_terms": [
-    "strike"
-   ],
+   "shock_terms": [],
    "dedupe_match": null,
-   "dedupe_similarity": 0.0,
-   "id": "0bdd7caf8229",
-   "title": "international US judge strikes down policy suspending immigrant visa processing for 75 nations 16 hours ago - 2 min read",
-   "url": "https://www.thecitizen.co.tz/tanzania/news/international/us-judge-strikes-down-policy-suspending-immigrant-visa-processing-for-75-nations-5567858",
-   "summary": "",
+   "dedupe_similarity": 0.4,
+   "id": "6834c87ab2bb",
+   "title": "JNHPP lifts TZ\u2019s power status",
+   "url": "https://dailynews.co.tz/jnhpp-lifts-tzs-power-status",
+   "summary": "RUFIJI: TANZANIA has emerged as East Africa\u2019s leading electricity producer, following the commissioning of the 2,115-megawatt Julius Nyerere Hydropower Project (JNHPP), a milestone that has more than doubled the country\u2019s generation capacity. The project, inaugurated on Saturday by President Samia Suluhu Hassan in Rufiji, Coast Region, raises Tanzania\u2019s total installed electricity capacity to 4,64",
    "kind": "item",
-   "source": "The Citizen (Tanzania)",
-   "source_id": "np-citizen-tz",
+   "source": "Daily News (Tanzania)",
+   "source_id": "np-dailynews-tz",
    "tier": 2,
    "country": "TZ",
    "category": "press",
@@ -1232,141 +530,859 @@
     "bush",
     "beach"
    ],
-   "first_seen": "2026-08-24T01:24+03:00",
+   "first_seen": "2026-08-24T10:02+03:00",
+   "published": "2026-08-24",
+   "verdict": "weak"
+  },
+  {
+   "score": 66.2,
+   "components": {
+    "tier": 20,
+    "category": 5,
+    "lead": 1.2,
+    "relevance": 12,
+    "freshness": 18.0,
+    "corroborated": 10
+   },
+   "keywords": [
+    "vat",
+    "investment"
+   ],
+   "shock_terms": [],
+   "dedupe_match": null,
+   "dedupe_similarity": 0.17,
+   "id": "396066b05cdd",
+   "title": "",
+   "url": "https://www.tanzaniainvest.com/transport/dar-es-salaam-port-second-phase-world-bank",
+   "summary": "The World Bank is considering financing a second phase of the Dar es Salaam Port upgrade after the first phase, backed by a USD 345 million credit, reached 85% completion and helped raise annual throughput from 14 million tonnes in 2015/16 to 32.8 million tonnes in 2025/26. Regional Vice President Ndiam\u00e9 Diop signalled the interest during a three-day visit that included talks with President Samia ",
+   "kind": "item",
+   "source": "TanzaniaInvest \u2014 tourism",
+   "source_id": "tp-tanzaniainvest",
+   "tier": 2,
+   "country": "TZ",
+   "category": "trade",
+   "segments": [
+    "city",
+    "bush",
+    "beach"
+   ],
+   "first_seen": "2026-08-24T08:25+03:00",
+   "published": "2026-08-24",
+   "verdict": "weak"
+  },
+  {
+   "score": 65.7,
+   "components": {
+    "tier": 20,
+    "category": 4,
+    "lead": 0.0,
+    "relevance": 12,
+    "freshness": 19.7,
+    "corroborated": 10
+   },
+   "keywords": [
+    "capacity",
+    "investment"
+   ],
+   "shock_terms": [],
+   "dedupe_match": null,
+   "dedupe_similarity": 0.17,
+   "id": "f1957f652116",
+   "title": "Dar Port handles record 138,000 containers",
+   "url": "https://dailynews.co.tz/dar-port-handles-record-138000-containers",
+   "summary": "DAR ES SALAAM: THE Dar es Salaam Port handled a record 138,000 containers last month, up from between 50,000 and 60,000 containers per month in 2021, reflecting improved efficiency and increased capacity. The performance reflects the impact of continued government investment aimed at expanding the port and strengthening Tanzania\u2019s position as a regional trade hub. \u2026 The post Dar Port handles recor",
+   "kind": "item",
+   "source": "Daily News (Tanzania)",
+   "source_id": "np-dailynews-tz",
+   "tier": 2,
+   "country": "TZ",
+   "category": "press",
+   "segments": [
+    "city",
+    "bush",
+    "beach"
+   ],
+   "first_seen": "2026-08-24T10:02+03:00",
+   "published": "2026-08-24",
+   "verdict": "weak"
+  },
+  {
+   "score": 61.7,
+   "components": {
+    "tier": 20,
+    "category": 4,
+    "lead": 0.0,
+    "relevance": 8,
+    "freshness": 19.7,
+    "corroborated": 10
+   },
+   "keywords": [
+    "vat"
+   ],
+   "shock_terms": [],
+   "dedupe_match": null,
+   "dedupe_similarity": 0.2,
+   "id": "f5b7b8028dd8",
+   "title": "TBA to slash Treasury reliance to 13pc",
+   "url": "https://dailynews.co.tz/tba-to-slash-treasury-reliance-to-13pc",
+   "summary": "DODOMA: THE Tanzania Buildings Agency (TBA) plans to cut its dependence on Treasury funding from 55 per cent to about 13 per cent by 2033 under a new seven-year strategy that will expand public-private partnerships and strengthen housing development across the country. TBA Acting Chief Executive Officer, Mr Rajab Mndeme said the agency was responding \u2026 The post TBA to slash Treasury reliance to 13",
+   "kind": "item",
+   "source": "Daily News (Tanzania)",
+   "source_id": "np-dailynews-tz",
+   "tier": 2,
+   "country": "TZ",
+   "category": "press",
+   "segments": [
+    "city",
+    "bush",
+    "beach"
+   ],
+   "first_seen": "2026-08-24T10:02+03:00",
+   "published": "2026-08-24",
+   "verdict": "weak"
+  },
+  {
+   "score": 61.7,
+   "components": {
+    "tier": 20,
+    "category": 4,
+    "lead": 0.0,
+    "relevance": 8,
+    "freshness": 19.7,
+    "corroborated": 10
+   },
+   "keywords": [
+    "eta"
+   ],
+   "shock_terms": [],
+   "dedupe_match": null,
+   "dedupe_similarity": 0.0,
+   "id": "10709980856b",
+   "title": "EAC must prioritise monetary union",
+   "url": "https://www.monitor.co.ug/uganda/oped/commentary/eac-must-prioritise-monetary-union-5568644",
+   "summary": "The institutions and roadmaps exist. What we need now is political will to match the pace of...",
+   "kind": "item",
+   "source": "Daily Monitor (Uganda)",
+   "source_id": "np-monitor-ug",
+   "tier": 2,
+   "country": "UG",
+   "category": "press",
+   "segments": [
+    "city",
+    "bush",
+    "beach"
+   ],
+   "first_seen": "2026-08-24T10:02+03:00",
+   "published": "2026-08-24",
+   "verdict": "weak"
+  },
+  {
+   "score": 59.9,
+   "components": {
+    "tier": 20,
+    "category": 5,
+    "lead": 1.2,
+    "relevance": 4,
+    "freshness": 19.7,
+    "corroborated": 10
+   },
+   "keywords": [
+    "tourism"
+   ],
+   "shock_terms": [],
+   "dedupe_match": null,
+   "dedupe_similarity": 0.0,
+   "id": "ffcaa10b4ad6",
+   "title": "Africa\u2019s Golf Tourism vision becomes action as inaugural AGTC closes in Ekurhuleni",
+   "url": "https://voyagesafriq.com/2026/08/24/africas-golf-tourism-vision-becomes-action-as-inaugural-agtc-closes-in-ekurhuleni",
+   "summary": "The maiden Africa Golf Tourism Convention has brought destinations, buyers, investors, tourism authorities and young people together around a shared ambition: to turn Africa\u2019s golf assets into a connected engine [\u2026] The post Africa\u2019s Golf Tourism vision becomes action as inaugural AGTC closes in Ekurhuleni<gwmw style=\"display:none;\"></gwmw> appeared first on Voyages Afriq .",
+   "kind": "item",
+   "source": "VoyagesAfriq",
+   "source_id": "tp-voyagesafriq",
+   "tier": 2,
+   "country": "REG",
+   "category": "trade",
+   "segments": [
+    "city",
+    "bush",
+    "beach"
+   ],
+   "first_seen": "2026-08-24T10:02+03:00",
+   "published": "2026-08-24",
+   "verdict": "weak"
+  },
+  {
+   "score": 57.7,
+   "components": {
+    "tier": 20,
+    "category": 4,
+    "lead": 0.0,
+    "relevance": 4,
+    "freshness": 19.7,
+    "corroborated": 10
+   },
+   "keywords": [
+    "camp"
+   ],
+   "shock_terms": [],
+   "dedupe_match": null,
+   "dedupe_similarity": 0.0,
+   "id": "d0f8f5833b11",
+   "title": "3,000 residents benefit from Ukonga medical camp",
+   "url": "https://dailynews.co.tz/3000-residents-benefit-from-ukonga-medical-camp",
+   "summary": "DAR ES SALAAM: MORE than 3,000 residents and pupils from five primary schools in Ukonga have received free health screening, treatment and health education through a medical camp organised by the Rotary Club of Dar es Salaam Oyster Bay in collaboration with the Rotary Club of Ukonga. The Ukonga Medical Camp 2026, held recently at \u2026 The post 3,000 residents benefit from Ukonga medical camp appeared",
+   "kind": "item",
+   "source": "Daily News (Tanzania)",
+   "source_id": "np-dailynews-tz",
+   "tier": 2,
+   "country": "TZ",
+   "category": "press",
+   "segments": [
+    "city",
+    "bush",
+    "beach"
+   ],
+   "first_seen": "2026-08-24T10:02+03:00",
+   "published": "2026-08-24",
+   "verdict": "weak"
+  },
+  {
+   "score": 57.7,
+   "components": {
+    "tier": 20,
+    "category": 4,
+    "lead": 0.0,
+    "relevance": 4,
+    "freshness": 19.7,
+    "corroborated": 10
+   },
+   "keywords": [
+    "camp"
+   ],
+   "shock_terms": [],
+   "dedupe_match": null,
+   "dedupe_similarity": 0.0,
+   "id": "7270ff1164e7",
+   "title": "The bishop who brings doctors to church",
+   "url": "https://www.monitor.co.ug/uganda/magazines/healthy-living/the-bishop-who-brings-doctors-to-church-5566476",
+   "summary": "At Ankole Diocese, pastoral visits are doubling as health camps, helping communities discover...",
+   "kind": "item",
+   "source": "Daily Monitor (Uganda)",
+   "source_id": "np-monitor-ug",
+   "tier": 2,
+   "country": "UG",
+   "category": "press",
+   "segments": [
+    "city",
+    "bush",
+    "beach"
+   ],
+   "first_seen": "2026-08-24T10:02+03:00",
+   "published": "2026-08-24",
+   "verdict": "weak"
+  },
+  {
+   "score": 55.7,
+   "components": {
+    "tier": 5,
+    "category": 5,
+    "lead": 0.0,
+    "relevance": 16,
+    "freshness": 19.7,
+    "corroborated": 10
+   },
+   "keywords": [
+    "arrivals",
+    "tourism",
+    "tourist"
+   ],
+   "shock_terms": [],
+   "dedupe_match": null,
+   "dedupe_similarity": 0.0,
+   "id": "850c50dbd883",
+   "title": "Greece Tourism Revenue Growth Stalls as U.S. Visitors Fall 12.1%",
+   "url": "https://eturbonews.com/greece-tourism-revenue-us-visitors-drop",
+   "summary": "Greece welcomed more tourists in June 2026, but the economic payoff weakened sharply. While arrivals climbed 6.9%, tourism revenue rose just 1.2%, as spending per visitor fell and American arrivals dropped 12.1%. The latest Bank of Greece figures reveal a troubling gap behind Greece\u2019s booming tourism numbers. SOURCE: Greece Tourism Revenue Growth Stalls as U.S. Visitors Fall 12.1% BY: eTurboNews",
+   "kind": "item",
+   "source": "eTurboNews Africa",
+   "source_id": "tp-eturbonews",
+   "tier": 3,
+   "country": "GLOBAL",
+   "category": "trade",
+   "segments": [
+    "city",
+    "bush",
+    "beach"
+   ],
+   "first_seen": "2026-08-24T10:02+03:00",
+   "published": "2026-08-23",
+   "verdict": "weak"
+  },
+  {
+   "score": 53.7,
+   "components": {
+    "tier": 20,
+    "category": 4,
+    "lead": 0.0,
+    "relevance": 0,
+    "freshness": 19.7,
+    "corroborated": 10
+   },
+   "keywords": [],
+   "shock_terms": [],
+   "dedupe_match": null,
+   "dedupe_similarity": 0.0,
+   "id": "eb9bec507f1d",
+   "title": "Iringa hospital becomes learning hub for peers",
+   "url": "https://dailynews.co.tz/iringa-hospital-becomes-learning-hub-for-peers",
+   "summary": "IRINGA: IRINGA Regional Referral Hospital has become a learning hub for regional hospitals across the country after its second-place national ranking prompted health facilities to study the management systems behind its success. The latest team to visit the hospital was from Bukoba Regional Referral Hospital (RRH), whose staff toured various departments and units to learn \u2026 The post Iringa hospita",
+   "kind": "item",
+   "source": "Daily News (Tanzania)",
+   "source_id": "np-dailynews-tz",
+   "tier": 2,
+   "country": "TZ",
+   "category": "press",
+   "segments": [
+    "city",
+    "bush",
+    "beach"
+   ],
+   "first_seen": "2026-08-24T10:02+03:00",
+   "published": "2026-08-24",
+   "verdict": "weak"
+  },
+  {
+   "score": 53.7,
+   "components": {
+    "tier": 20,
+    "category": 4,
+    "lead": 0.0,
+    "relevance": 0,
+    "freshness": 19.7,
+    "corroborated": 10
+   },
+   "keywords": [],
+   "shock_terms": [],
+   "dedupe_match": null,
+   "dedupe_similarity": 0.2,
+   "id": "4eed52971fff",
+   "title": "BoT reassures public over payment systems",
+   "url": "https://dailynews.co.tz/bot-reassures-public-over-payment-systems",
+   "summary": "GEITA: THE Bank of Tanzania (BoT) Governor, Mr Emmanuel Tutuba has assured the public that the country\u2019s payment systems remain secure and have neither been compromised nor hacked, urging traders and public to continue using official platforms for financial transactions. Mr Tutuba gave the assurance yesterday in Geita Region when he closed a meeting involving \u2026 The post BoT reassures public over p",
+   "kind": "item",
+   "source": "Daily News (Tanzania)",
+   "source_id": "np-dailynews-tz",
+   "tier": 2,
+   "country": "TZ",
+   "category": "press",
+   "segments": [
+    "city",
+    "bush",
+    "beach"
+   ],
+   "first_seen": "2026-08-24T10:02+03:00",
+   "published": "2026-08-24",
+   "verdict": "weak"
+  },
+  {
+   "score": 53.7,
+   "components": {
+    "tier": 20,
+    "category": 4,
+    "lead": 0.0,
+    "relevance": 0,
+    "freshness": 19.7,
+    "corroborated": 10
+   },
+   "keywords": [],
+   "shock_terms": [],
+   "dedupe_match": null,
+   "dedupe_similarity": 0.2,
+   "id": "4daccc0e21e3",
+   "title": "Economic diplomacy unlocks new markets for Tanzanian enterprises in Mozambique",
+   "url": "https://dailynews.co.tz/157697-2",
+   "summary": "TANZANIA: BREAKING into a foreign market demands more than a competitive product. It requires an understanding of local regulations, reliable market intelligence and trusted business partners capable of supporting longterm commercial success. In this latest part of the \u2018Daily News\u2019 Diplomatic Bench Interview series, Tanzania\u2019s High Commissioner to Mozambique, CP Hamad Khamis, explains how the \u2026 Th",
+   "kind": "item",
+   "source": "Daily News (Tanzania)",
+   "source_id": "np-dailynews-tz",
+   "tier": 2,
+   "country": "TZ",
+   "category": "press",
+   "segments": [
+    "city",
+    "bush",
+    "beach"
+   ],
+   "first_seen": "2026-08-24T10:02+03:00",
+   "published": "2026-08-24",
+   "verdict": "weak"
+  },
+  {
+   "score": 53.7,
+   "components": {
+    "tier": 20,
+    "category": 4,
+    "lead": 0.0,
+    "relevance": 0,
+    "freshness": 19.7,
+    "corroborated": 10
+   },
+   "keywords": [],
+   "shock_terms": [],
+   "dedupe_match": null,
+   "dedupe_similarity": 0.2,
+   "id": "679f4db6cbe7",
+   "title": "Smart, stronger land management to propel growth",
+   "url": "https://dailynews.co.tz/157693-2",
+   "summary": "TANZANIA: FEW people think about land until they need it. A young family looking for a place to build a home, a farmer seeking to expand production, an entrepreneur planning a warehouse or an investor considering a manufacturing plant will all eventually confront the same question: who owns the land, how is it managed and \u2026 The post Smart, stronger land management to propel growth appeared first o",
+   "kind": "item",
+   "source": "Daily News (Tanzania)",
+   "source_id": "np-dailynews-tz",
+   "tier": 2,
+   "country": "TZ",
+   "category": "press",
+   "segments": [
+    "city",
+    "bush",
+    "beach"
+   ],
+   "first_seen": "2026-08-24T10:02+03:00",
+   "published": "2026-08-24",
+   "verdict": "weak"
+  },
+  {
+   "score": 53.7,
+   "components": {
+    "tier": 20,
+    "category": 4,
+    "lead": 0.0,
+    "relevance": 0,
+    "freshness": 19.7,
+    "corroborated": 10
+   },
+   "keywords": [],
+   "shock_terms": [],
+   "dedupe_match": null,
+   "dedupe_similarity": 0.0,
+   "id": "ec2b5d5b35d1",
+   "title": "Why are you here?",
+   "url": "https://www.monitor.co.ug/uganda/magazines/life/why-are-you-here--5566602",
+   "summary": "I am absolutely sure there is a brilliant playwright out there in Najjera sipping on Mojitos...",
+   "kind": "item",
+   "source": "Daily Monitor (Uganda)",
+   "source_id": "np-monitor-ug",
+   "tier": 2,
+   "country": "UG",
+   "category": "press",
+   "segments": [
+    "city",
+    "bush",
+    "beach"
+   ],
+   "first_seen": "2026-08-24T10:02+03:00",
+   "published": "2026-08-24",
+   "verdict": "weak"
+  },
+  {
+   "score": 53.7,
+   "components": {
+    "tier": 20,
+    "category": 4,
+    "lead": 0.0,
+    "relevance": 0,
+    "freshness": 19.7,
+    "corroborated": 10
+   },
+   "keywords": [],
+   "shock_terms": [],
+   "dedupe_match": null,
+   "dedupe_similarity": 0.33,
+   "id": "9118a601cf2d",
+   "title": "Uganda\u2019s young population is not yet a dividend",
+   "url": "https://www.monitor.co.ug/uganda/oped/commentary/uganda-s-young-population-is-not-yet-a-dividend-5568656",
+   "summary": "The figures matter because almost every major development and market question in Uganda is also...",
+   "kind": "item",
+   "source": "Daily Monitor (Uganda)",
+   "source_id": "np-monitor-ug",
+   "tier": 2,
+   "country": "UG",
+   "category": "press",
+   "segments": [
+    "city",
+    "bush",
+    "beach"
+   ],
+   "first_seen": "2026-08-24T10:02+03:00",
+   "published": "2026-08-24",
+   "verdict": "weak"
+  },
+  {
+   "score": 53.7,
+   "components": {
+    "tier": 20,
+    "category": 4,
+    "lead": 0.0,
+    "relevance": 0,
+    "freshness": 19.7,
+    "corroborated": 10
+   },
+   "keywords": [],
+   "shock_terms": [],
+   "dedupe_match": null,
+   "dedupe_similarity": 0.0,
+   "id": "7b744caec09b",
+   "title": "Africa must invest in women\u2019s health",
+   "url": "https://www.monitor.co.ug/uganda/oped/commentary/africa-must-invest-in-women-s-health-5568652",
+   "summary": "A woman in sub-Saharan Africa is 250 times more likely to die in childbirth than a woman in...",
+   "kind": "item",
+   "source": "Daily Monitor (Uganda)",
+   "source_id": "np-monitor-ug",
+   "tier": 2,
+   "country": "UG",
+   "category": "press",
+   "segments": [
+    "city",
+    "bush",
+    "beach"
+   ],
+   "first_seen": "2026-08-24T10:02+03:00",
+   "published": "2026-08-24",
+   "verdict": "weak"
+  },
+  {
+   "score": 53.7,
+   "components": {
+    "tier": 20,
+    "category": 4,
+    "lead": 0.0,
+    "relevance": 0,
+    "freshness": 19.7,
+    "corroborated": 10
+   },
+   "keywords": [],
+   "shock_terms": [],
+   "dedupe_match": null,
+   "dedupe_similarity": 0.0,
+   "id": "932efa0994fd",
+   "title": "What if Africa\u2019s problems are humanity\u2019s problems?",
+   "url": "https://www.monitor.co.ug/uganda/oped/commentary/what-if-africa-s-problems-are-humanity-s-problems--5568648",
+   "summary": "More than 60 years after independence, Africans must confront corruption, strengthen...",
+   "kind": "item",
+   "source": "Daily Monitor (Uganda)",
+   "source_id": "np-monitor-ug",
+   "tier": 2,
+   "country": "UG",
+   "category": "press",
+   "segments": [
+    "city",
+    "bush",
+    "beach"
+   ],
+   "first_seen": "2026-08-24T10:02+03:00",
+   "published": "2026-08-24",
+   "verdict": "weak"
+  },
+  {
+   "score": 53.7,
+   "components": {
+    "tier": 20,
+    "category": 4,
+    "lead": 0.0,
+    "relevance": 0,
+    "freshness": 19.7,
+    "corroborated": 10
+   },
+   "keywords": [],
+   "shock_terms": [],
+   "dedupe_match": null,
+   "dedupe_similarity": 0.0,
+   "id": "e18960cd51f0",
+   "title": "Could supplements give your diet a boost?",
+   "url": "https://www.monitor.co.ug/uganda/magazines/healthy-living/could-supplements-give-your-diet-a-boost--5566564",
+   "summary": "Supplements are not a shortcut to good health but can provide nutrients that may be lacking in...",
+   "kind": "item",
+   "source": "Daily Monitor (Uganda)",
+   "source_id": "np-monitor-ug",
+   "tier": 2,
+   "country": "UG",
+   "category": "press",
+   "segments": [
+    "city",
+    "bush",
+    "beach"
+   ],
+   "first_seen": "2026-08-24T10:02+03:00",
+   "published": "2026-08-24",
+   "verdict": "weak"
+  },
+  {
+   "score": 53.7,
+   "components": {
+    "tier": 20,
+    "category": 4,
+    "lead": 0.0,
+    "relevance": 0,
+    "freshness": 19.7,
+    "corroborated": 10
+   },
+   "keywords": [],
+   "shock_terms": [],
+   "dedupe_match": null,
+   "dedupe_similarity": 0.0,
+   "id": "f9a0db4582a0",
+   "title": "Living young, wild and free: The pain of discipline or the pain of regret",
+   "url": "https://www.monitor.co.ug/uganda/oped/letters/living-young-wild-and-free-the-pain-of-discipline-or-the-pain-of-regret-5568660",
+   "summary": "The pursuit of pleasure at brunch can lead to harmful, excessive alcohol consumption, resulting...",
+   "kind": "item",
+   "source": "Daily Monitor (Uganda)",
+   "source_id": "np-monitor-ug",
+   "tier": 2,
+   "country": "UG",
+   "category": "press",
+   "segments": [
+    "city",
+    "bush",
+    "beach"
+   ],
+   "first_seen": "2026-08-24T10:02+03:00",
+   "published": "2026-08-24",
+   "verdict": "weak"
+  },
+  {
+   "score": 53.7,
+   "components": {
+    "tier": 20,
+    "category": 4,
+    "lead": 0.0,
+    "relevance": 0,
+    "freshness": 19.7,
+    "corroborated": 10
+   },
+   "keywords": [],
+   "shock_terms": [],
+   "dedupe_match": null,
+   "dedupe_similarity": 0.33,
+   "id": "6f1762a2088c",
+   "title": "End theft of public land",
+   "url": "https://www.monitor.co.ug/uganda/oped/editorial/end-theft-of-public-land-5568642",
+   "summary": "Public land is not government property in the narrow sense. It belongs to the people of Uganda.",
+   "kind": "item",
+   "source": "Daily Monitor (Uganda)",
+   "source_id": "np-monitor-ug",
+   "tier": 2,
+   "country": "UG",
+   "category": "press",
+   "segments": [
+    "city",
+    "bush",
+    "beach"
+   ],
+   "first_seen": "2026-08-24T10:02+03:00",
+   "published": "2026-08-24",
+   "verdict": "weak"
+  },
+  {
+   "score": 53.7,
+   "components": {
+    "tier": 20,
+    "category": 4,
+    "lead": 0.0,
+    "relevance": 0,
+    "freshness": 19.7,
+    "corroborated": 10
+   },
+   "keywords": [],
+   "shock_terms": [],
+   "dedupe_match": null,
+   "dedupe_similarity": 0.0,
+   "id": "09ca735d2bd0",
+   "title": "Understanding canker sores",
+   "url": "https://www.monitor.co.ug/uganda/magazines/healthy-living/understanding-canker-sores-5566556",
+   "summary": "Nutritional deficiencies, particularly low levels of iron, vitamin B12, or folate, may be...",
+   "kind": "item",
+   "source": "Daily Monitor (Uganda)",
+   "source_id": "np-monitor-ug",
+   "tier": 2,
+   "country": "UG",
+   "category": "press",
+   "segments": [
+    "city",
+    "bush",
+    "beach"
+   ],
+   "first_seen": "2026-08-24T10:02+03:00",
+   "published": "2026-08-24",
+   "verdict": "weak"
+  },
+  {
+   "score": 53.7,
+   "components": {
+    "tier": 20,
+    "category": 4,
+    "lead": 0.0,
+    "relevance": 0,
+    "freshness": 19.7,
+    "corroborated": 10
+   },
+   "keywords": [],
+   "shock_terms": [],
+   "dedupe_match": null,
+   "dedupe_similarity": 0.0,
+   "id": "6925ba13c104",
+   "title": "Cancer-free? Why you still need check-ups",
+   "url": "https://www.monitor.co.ug/uganda/magazines/healthy-living/cancer-free-why-you-still-need-check-ups-5566536",
+   "summary": "Survivours are encouraged to avoid tobacco, limit alcohol consumption, maintain a healthy...",
+   "kind": "item",
+   "source": "Daily Monitor (Uganda)",
+   "source_id": "np-monitor-ug",
+   "tier": 2,
+   "country": "UG",
+   "category": "press",
+   "segments": [
+    "city",
+    "bush",
+    "beach"
+   ],
+   "first_seen": "2026-08-24T10:02+03:00",
+   "published": "2026-08-24",
+   "verdict": "weak"
+  },
+  {
+   "score": 53.7,
+   "components": {
+    "tier": 20,
+    "category": 4,
+    "lead": 0.0,
+    "relevance": 0,
+    "freshness": 19.7,
+    "corroborated": 10
+   },
+   "keywords": [],
+   "shock_terms": [],
+   "dedupe_match": null,
+   "dedupe_similarity": 0.0,
+   "id": "8abd54943ce0",
+   "title": "Why can\u2019t I get my wife pregnant if my sperm is normal?",
+   "url": "https://www.monitor.co.ug/uganda/magazines/healthy-living/why-can-t-i-get-my-wife-pregnant-if-my-sperm-is-normal--5566510",
+   "summary": "While men are often perceived as the primary contributors to infertility, women can also face...",
+   "kind": "item",
+   "source": "Daily Monitor (Uganda)",
+   "source_id": "np-monitor-ug",
+   "tier": 2,
+   "country": "UG",
+   "category": "press",
+   "segments": [
+    "city",
+    "bush",
+    "beach"
+   ],
+   "first_seen": "2026-08-24T10:02+03:00",
+   "published": "2026-08-24",
+   "verdict": "weak"
+  },
+  {
+   "score": 53.7,
+   "components": {
+    "tier": 20,
+    "category": 4,
+    "lead": 0.0,
+    "relevance": 0,
+    "freshness": 19.7,
+    "corroborated": 10
+   },
+   "keywords": [],
+   "shock_terms": [],
+   "dedupe_match": null,
+   "dedupe_similarity": 0.0,
+   "id": "da6e3a158e83",
+   "title": "Landslide at Guinea landfill kills 30, government says",
+   "url": "https://www.monitor.co.ug/uganda/news/landslide-at-guinea-landfill-kills-30-government-says-5568626",
+   "summary": "The incident occurred less than a week after the government announced plans to close the site",
+   "kind": "item",
+   "source": "Daily Monitor (Uganda)",
+   "source_id": "np-monitor-ug",
+   "tier": 2,
+   "country": "UG",
+   "category": "press",
+   "segments": [
+    "city",
+    "bush",
+    "beach"
+   ],
+   "first_seen": "2026-08-24T10:02+03:00",
+   "published": "2026-08-24",
+   "verdict": "weak"
+  },
+  {
+   "score": 49.7,
+   "components": {
+    "tier": 20,
+    "category": 4,
+    "lead": 0.0,
+    "relevance": 12,
+    "freshness": 19.7,
+    "undated": -6
+   },
+   "keywords": [
+    "eta",
+    "camp"
+   ],
+   "shock_terms": [],
+   "dedupe_match": null,
+   "dedupe_similarity": 0.0,
+   "id": "56e86a7bfb32",
+   "title": "World After Wildberries, Ukraine launches drone campaign on Russia's Ozon Ukraine has for weeks mounted a campaign targeting Russia's Wildberries -- the country's top online retailer \u2014 alleging it supplied components to the military. Ozon is Russia's second-largest online marketplace, with its pick-up points and delivery boxes ubiquitous across the country.",
+   "url": "https://www.newvision.co.ug/category/world/after-wildberries-ukraine-launches-drone-camp-NV_239361_082026",
+   "summary": "",
+   "kind": "item",
+   "source": "New Vision (Uganda)",
+   "source_id": "np-newvision-ug",
+   "tier": 2,
+   "country": "UG",
+   "category": "press",
+   "segments": [
+    "city",
+    "bush",
+    "beach"
+   ],
+   "first_seen": "2026-08-24T10:02+03:00",
    "published": null,
-   "verdict": "CONSIDER"
+   "verdict": "weak"
   },
   {
-   "score": 74.0,
+   "score": 49.7,
    "components": {
-    "tier": 40,
-    "category": 20,
-    "lead": 12.0,
-    "relevance": 0,
-    "freshness": 12.0,
-    "stale_trap": -10
+    "tier": 20,
+    "category": 4,
+    "lead": 0.0,
+    "relevance": 12,
+    "freshness": 19.7,
+    "undated": -6
    },
-   "keywords": [],
+   "keywords": [
+    "ebola"
+   ],
    "shock_terms": [],
    "dedupe_match": null,
-   "dedupe_similarity": 0.0,
-   "id": "0306e3166b9a",
-   "title": "Republic v Kiboi (Criminal Case E028 of 2024) [2026] KEHC 13041 (KLR) (19 August 2026) (Sentence)",
-   "url": "https://new.kenyalaw.org/akn/ke/judgment/kehc/2026/13041/eng@2026-08-19",
-   "summary": "Republic v Kiboi (Criminal Case E028 of 2024) [2026] KEHC 13041 (KLR) (19 August 2026) (Sentence)",
+   "dedupe_similarity": 0.33,
+   "id": "74817e7a251f",
+   "title": "Pope Leo XIV Pope calls for more efforts to stop Ebola in DR Congo",
+   "url": "https://www.newvision.co.ug/category/health/pope-calls-for-more-efforts-to-stop-ebola-in",
+   "summary": "",
    "kind": "item",
-   "source": "Kenya Gazette (Kenya Law)",
-   "source_id": "ke-gazette",
-   "tier": 1,
-   "country": "KE",
-   "category": "gazette",
+   "source": "New Vision (Uganda)",
+   "source_id": "np-newvision-ug",
+   "tier": 2,
+   "country": "UG",
+   "category": "press",
    "segments": [
     "city",
     "bush",
     "beach"
    ],
-   "first_seen": "2026-08-24T01:24+03:00",
-   "published": "2026-08-19",
-   "verdict": "CHECK \u2014 source date older than the window"
-  },
-  {
-   "score": 74.0,
-   "components": {
-    "tier": 40,
-    "category": 20,
-    "lead": 12.0,
-    "relevance": 0,
-    "freshness": 12.0,
-    "stale_trap": -10
-   },
-   "keywords": [],
-   "shock_terms": [],
-   "dedupe_match": null,
-   "dedupe_similarity": 0.0,
-   "id": "77977e9544d0",
-   "title": "Mutuvi v Republic (Criminal Revision E024 of 2026) [2026] KEHC 13040 (KLR) (21 August 2026) (Ruling)",
-   "url": "https://new.kenyalaw.org/akn/ke/judgment/kehc/2026/13040/eng@2026-08-21",
-   "summary": "Mutuvi v Republic (Criminal Revision E024 of 2026) [2026] KEHC 13040 (KLR) (21 August 2026) (Ruling)",
-   "kind": "item",
-   "source": "Kenya Gazette (Kenya Law)",
-   "source_id": "ke-gazette",
-   "tier": 1,
-   "country": "KE",
-   "category": "gazette",
-   "segments": [
-    "city",
-    "bush",
-    "beach"
-   ],
-   "first_seen": "2026-08-24T01:24+03:00",
-   "published": "2026-08-21",
-   "verdict": "CHECK \u2014 source date older than the window"
-  },
-  {
-   "score": 74.0,
-   "components": {
-    "tier": 40,
-    "category": 20,
-    "lead": 12.0,
-    "relevance": 0,
-    "freshness": 12.0,
-    "stale_trap": -10
-   },
-   "keywords": [],
-   "shock_terms": [],
-   "dedupe_match": null,
-   "dedupe_similarity": 0.0,
-   "id": "7bb4821ef128",
-   "title": "Ochieng & another v Managing Director, Kenya Railways Corporation & 2 others (Judicial Review Application E002 of 2025) [2026] KEELC 5328 (KLR) (21 August 2026) (Judgment)",
-   "url": "https://new.kenyalaw.org/akn/ke/judgment/keelc/2026/5328/eng@2026-08-21",
-   "summary": "Ochieng & another v Managing Director, Kenya Railways Corporation & 2 others (Judicial Review Application E002 of 2025) [2026] KEELC 5328 (KLR) (21 August 2026) (Judgment)",
-   "kind": "item",
-   "source": "Kenya Gazette (Kenya Law)",
-   "source_id": "ke-gazette",
-   "tier": 1,
-   "country": "KE",
-   "category": "gazette",
-   "segments": [
-    "city",
-    "bush",
-    "beach"
-   ],
-   "first_seen": "2026-08-24T01:24+03:00",
-   "published": "2026-08-21",
-   "verdict": "CHECK \u2014 source date older than the window"
-  },
-  {
-   "score": 74.0,
-   "components": {
-    "tier": 40,
-    "category": 20,
-    "lead": 12.0,
-    "relevance": 0,
-    "freshness": 12.0,
-    "stale_trap": -10
-   },
-   "keywords": [],
-   "shock_terms": [],
-   "dedupe_match": null,
-   "dedupe_similarity": 0.0,
-   "id": "53b6e79fca7e",
-   "title": "JMN v Republic (Miscellaneous Criminal Application E068 of 2024) [2026] KEHC 13038 (KLR) (21 August 2026) (Ruling)",
-   "url": "https://new.kenyalaw.org/akn/ke/judgment/kehc/2026/13038/eng@2026-08-21",
-   "summary": "JMN v Republic (Miscellaneous Criminal Application E068 of 2024) [2026] KEHC 13038 (KLR) (21 August 2026) (Ruling)",
-   "kind": "item",
-   "source": "Kenya Gazette (Kenya Law)",
-   "source_id": "ke-gazette",
-   "tier": 1,
-   "country": "KE",
-   "category": "gazette",
-   "segments": [
-    "city",
-    "bush",
-    "beach"
-   ],
-   "first_seen": "2026-08-24T01:24+03:00",
-   "published": "2026-08-21",
-   "verdict": "CHECK \u2014 source date older than the window"
+   "first_seen": "2026-08-24T10:02+03:00",
+   "published": null,
+   "verdict": "weak"
   }
  ]
 }
