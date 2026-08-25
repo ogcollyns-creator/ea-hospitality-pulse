@@ -434,9 +434,17 @@ def editorial_pass():
         if not url:
             continue
         try:
-            req = urllib.request.Request(url, headers={
-                "User-Agent": "Mozilla/5.0 (compatible; EAHospitalityPulse/1.0; "
-                              "+https://eahospitalitypulse.com)"})
+            # Some publishers block hotlinking without a Referer; send one derived
+            # from the article page so a legitimate editorial pull is not refused.
+            # A failure here must be LOUD, otherwise the edition silently falls
+            # through to an automatic photo of the wrong subject.
+            hdrs = {"User-Agent": "Mozilla/5.0 (compatible; EAHospitalityPulse/1.0; "
+                                  "+https://eahospitalitypulse.com)",
+                    "Accept": "image/avif,image/webp,image/jpeg,image/png,*/*"}
+            ref = pick.get("descurl") or url
+            if ref:
+                hdrs["Referer"] = ref
+            req = urllib.request.Request(url, headers=hdrs)
             with urllib.request.urlopen(req, timeout=60) as r:
                 blob = r.read()
             im = Image.open(io.BytesIO(blob)).convert("RGB")
@@ -445,7 +453,9 @@ def editorial_pass():
             os.makedirs(EDIMG, exist_ok=True)
             im.save(os.path.join(EDIMG, eid + ".jpg"), "JPEG", quality=88, optimize=True)
         except Exception as ex:
-            print(f"  editorial: failed to fetch {eid} <- {url}: {ex}"); continue
+            print(f"::warning::editorial pin FAILED for {eid} <- {url}: {ex} "
+                  f"(edition will fall through to an automatic photo — fix the pin)")
+            continue
         credits[eid] = {
             "id": eid,
             "title": pick.get("title") or eid,
