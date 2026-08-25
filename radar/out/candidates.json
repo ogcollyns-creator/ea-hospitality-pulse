@@ -1,18 +1,18 @@
 {
- "generated": "2026-08-25T17:48:40+03:00",
+ "generated": "2026-08-25T19:06:25+03:00",
  "slot": "evening",
  "window_start": 1787652000,
- "observations_in_window": 175,
+ "observations_in_window": 244,
  "deduped_against": 4,
  "candidates": [
   {
-   "score": 63.2,
+   "score": 61.8,
    "components": {
     "tier": 40,
     "category": 12,
     "lead": 3.6,
     "relevance": 0,
-    "freshness": 17.6,
+    "freshness": 16.2,
     "undated": -6,
     "page_change": -4
    },
@@ -40,13 +40,13 @@
    "verdict": "OPEN THIS \u2014 tier-1 airline page moved; content not auto-parsed, read it manually"
   },
   {
-   "score": 108.2,
+   "score": 106.8,
    "components": {
     "tier": 20,
     "category": 14,
     "lead": 8.4,
     "relevance": 36,
-    "freshness": 19.8,
+    "freshness": 18.4,
     "corroborated": 10
    },
    "keywords": [
@@ -79,13 +79,13 @@
    "verdict": "CONSIDER"
   },
   {
-   "score": 92.2,
+   "score": 90.8,
    "components": {
     "tier": 20,
     "category": 14,
     "lead": 8.4,
     "relevance": 20,
-    "freshness": 19.8,
+    "freshness": 18.4,
     "corroborated": 10
    },
    "keywords": [
@@ -116,13 +116,48 @@
    "verdict": "CONSIDER"
   },
   {
-   "score": 89.8,
+   "score": 89.4,
+   "components": {
+    "tier": 40,
+    "category": 32,
+    "lead": 3.6,
+    "relevance": 8,
+    "freshness": 19.8,
+    "stale_trap": -10,
+    "page_change": -4
+   },
+   "keywords": [
+    "election"
+   ],
+   "shock_terms": [],
+   "dedupe_match": null,
+   "dedupe_similarity": 0.0,
+   "id": "87b15b5c0812",
+   "title": "[page changed] Federal Register \u2014 public inspection (HHS/CDC), pre-publication",
+   "url": "https://www.federalregister.gov/api/v1/public-inspection-documents/current.json",
+   "summary": "{\"count\":92,\"results\":[{\"agencies\":[{\"raw_name\":\"POSTAL SERVICE\",\"name\":\"Postal Service\",\"id\":410,\"url\":\"https://www.federalregister.gov/agencies/postal-service\",\"json_url\":\"https://www.federalregister.gov/api/v1/agencies/410\",\"parent_id\":null,\"slug\":\"postal-service\"}],\"agency_letters\":[],\"agency_names\":[\"Postal Service\"],\"docket_numbers\":[],\"document_number\":\"2026-17238\",\"editorial_note\":null,\"ex",
+   "kind": "page-change",
+   "source": "Federal Register \u2014 public inspection (HHS/CDC), pre-publication",
+   "source_id": "us-fedreg-pubinspect-hhs",
+   "tier": 1,
+   "country": "REG",
+   "category": "advisory",
+   "segments": [
+    "city",
+    "bush"
+   ],
+   "first_seen": "2026-08-25T19:04+03:00",
+   "published": "2026-08-21",
+   "verdict": "CHECK \u2014 source date older than the window"
+  },
+  {
+   "score": 88.4,
    "components": {
     "tier": 40,
     "category": 20,
     "lead": 12.0,
     "relevance": 8,
-    "freshness": 19.8,
+    "freshness": 18.4,
     "stale_trap": -10
    },
    "keywords": [
@@ -151,13 +186,13 @@
    "verdict": "CHECK \u2014 source date older than the window"
   },
   {
-   "score": 89.8,
+   "score": 88.4,
    "components": {
     "tier": 40,
     "category": 20,
     "lead": 12.0,
     "relevance": 8,
-    "freshness": 19.8,
+    "freshness": 18.4,
     "stale_trap": -10
    },
    "keywords": [
@@ -186,13 +221,13 @@
    "verdict": "CHECK \u2014 source date older than the window"
   },
   {
-   "score": 89.6,
+   "score": 88.2,
    "components": {
     "tier": 40,
     "category": 12,
     "lead": 6.0,
     "relevance": 4,
-    "freshness": 17.6,
+    "freshness": 16.2,
     "corroborated": 10
    },
    "keywords": [
@@ -221,13 +256,13 @@
    "verdict": "CONSIDER"
   },
   {
-   "score": 88.2,
+   "score": 86.8,
    "components": {
     "tier": 20,
     "category": 14,
     "lead": 8.4,
     "relevance": 16,
-    "freshness": 19.8,
+    "freshness": 18.4,
     "corroborated": 10
    },
    "keywords": [
@@ -258,13 +293,13 @@
    "verdict": "CONSIDER"
   },
   {
-   "score": 87.2,
+   "score": 85.8,
    "components": {
     "tier": 40,
     "category": 32,
     "lead": 3.6,
     "relevance": 8,
-    "freshness": 17.6,
+    "freshness": 16.2,
     "stale_trap": -10,
     "page_change": -4
    },
@@ -293,13 +328,13 @@
    "verdict": "CHECK \u2014 source date older than the window"
   },
   {
-   "score": 84.2,
+   "score": 82.8,
    "components": {
     "tier": 20,
     "category": 14,
     "lead": 8.4,
     "relevance": 12,
-    "freshness": 19.8,
+    "freshness": 18.4,
     "corroborated": 10
    },
    "keywords": [
@@ -329,13 +364,13 @@
    "verdict": "CONSIDER"
   },
   {
-   "score": 84.2,
+   "score": 82.8,
    "components": {
     "tier": 20,
     "category": 5,
     "lead": 3.6,
     "relevance": 28,
-    "freshness": 17.6,
+    "freshness": 16.2,
     "corroborated": 10
    },
    "keywords": [
@@ -367,13 +402,13 @@
    "verdict": "CONSIDER"
   },
   {
-   "score": 81.8,
+   "score": 80.4,
    "components": {
     "tier": 40,
     "category": 20,
     "lead": 12.0,
     "relevance": 0,
-    "freshness": 19.8,
+    "freshness": 18.4,
     "stale_trap": -10
    },
    "keywords": [],
@@ -400,13 +435,13 @@
    "verdict": "CHECK \u2014 source date older than the window"
   },
   {
-   "score": 81.8,
+   "score": 80.4,
    "components": {
     "tier": 40,
     "category": 20,
     "lead": 12.0,
     "relevance": 0,
-    "freshness": 19.8,
+    "freshness": 18.4,
     "stale_trap": -10
    },
    "keywords": [],
@@ -435,11 +470,44 @@
   {
    "score": 80.2,
    "components": {
+    "tier": 40,
+    "category": 24,
+    "lead": 2.4,
+    "relevance": 0,
+    "freshness": 19.8,
+    "undated": -6
+   },
+   "keywords": [],
+   "shock_terms": [],
+   "dedupe_match": null,
+   "dedupe_similarity": 0.0,
+   "id": "331f71cfe4b5",
+   "title": "Government Moves to Strengthen Specialised Rehabilitation Services",
+   "url": "https://www.health.go.ke/government-moves-strengthen-specialised-rehabilitation-services",
+   "summary": "",
+   "kind": "item",
+   "source": "Kenya Ministry of Health",
+   "source_id": "ke-moh",
+   "tier": 1,
+   "country": "KE",
+   "category": "health",
+   "segments": [
+    "city",
+    "bush",
+    "beach"
+   ],
+   "first_seen": "2026-08-25T19:04+03:00",
+   "published": null,
+   "verdict": "CONSIDER"
+  },
+  {
+   "score": 78.8,
+   "components": {
     "tier": 20,
     "category": 14,
     "lead": 8.4,
     "relevance": 8,
-    "freshness": 19.8,
+    "freshness": 18.4,
     "corroborated": 10
    },
    "keywords": [
@@ -469,13 +537,13 @@
    "verdict": "CONSIDER"
   },
   {
-   "score": 80.2,
+   "score": 78.8,
    "components": {
     "tier": 20,
     "category": 5,
     "lead": 3.6,
     "relevance": 24,
-    "freshness": 17.6,
+    "freshness": 16.2,
     "corroborated": 10
    },
    "keywords": [
@@ -507,13 +575,13 @@
    "verdict": "CONSIDER"
   },
   {
-   "score": 74.8,
+   "score": 73.4,
    "components": {
     "tier": 40,
     "category": 20,
     "lead": 12.0,
     "relevance": 8,
-    "freshness": 19.8,
+    "freshness": 18.4,
     "stale_trap": -25
    },
    "keywords": [
@@ -542,13 +610,13 @@
    "verdict": "CHECK \u2014 source date older than the window"
   },
   {
-   "score": 74.8,
+   "score": 73.4,
    "components": {
     "tier": 40,
     "category": 20,
     "lead": 12.0,
     "relevance": 8,
-    "freshness": 19.8,
+    "freshness": 18.4,
     "stale_trap": -25
    },
    "keywords": [
@@ -577,13 +645,13 @@
    "verdict": "CHECK \u2014 source date older than the window"
   },
   {
-   "score": 74.8,
+   "score": 73.4,
    "components": {
     "tier": 40,
     "category": 20,
     "lead": 12.0,
     "relevance": 8,
-    "freshness": 19.8,
+    "freshness": 18.4,
     "stale_trap": -25
    },
    "keywords": [
@@ -612,13 +680,13 @@
    "verdict": "CHECK \u2014 source date older than the window"
   },
   {
-   "score": 72.2,
+   "score": 70.8,
    "components": {
     "tier": 20,
     "category": 14,
     "lead": 8.4,
     "relevance": 0,
-    "freshness": 19.8,
+    "freshness": 18.4,
     "corroborated": 10
    },
    "keywords": [],
@@ -645,13 +713,13 @@
    "verdict": "CONSIDER"
   },
   {
-   "score": 72.2,
+   "score": 70.8,
    "components": {
     "tier": 20,
     "category": 5,
     "lead": 3.6,
     "relevance": 16,
-    "freshness": 17.6,
+    "freshness": 16.2,
     "corroborated": 10
    },
    "keywords": [
@@ -682,13 +750,13 @@
    "verdict": "CONSIDER"
   },
   {
-   "score": 70.8,
+   "score": 69.4,
    "components": {
     "tier": 40,
     "category": 20,
     "lead": 12.0,
     "relevance": 4,
-    "freshness": 19.8,
+    "freshness": 18.4,
     "stale_trap": -25
    },
    "keywords": [
@@ -717,13 +785,13 @@
    "verdict": "CHECK \u2014 source date older than the window"
   },
   {
-   "score": 68.2,
+   "score": 66.8,
    "components": {
     "tier": 20,
     "category": 5,
     "lead": 3.6,
     "relevance": 12,
-    "freshness": 17.6,
+    "freshness": 16.2,
     "corroborated": 10
    },
    "keywords": [
@@ -753,13 +821,13 @@
    "verdict": "weak"
   },
   {
-   "score": 68.2,
+   "score": 66.8,
    "components": {
     "tier": 20,
     "category": 5,
     "lead": 3.6,
     "relevance": 12,
-    "freshness": 17.6,
+    "freshness": 16.2,
     "corroborated": 10
    },
    "keywords": [
@@ -790,13 +858,13 @@
    "verdict": "weak"
   },
   {
-   "score": 68.2,
+   "score": 66.8,
    "components": {
     "tier": 20,
     "category": 5,
     "lead": 3.6,
     "relevance": 12,
-    "freshness": 17.6,
+    "freshness": 16.2,
     "corroborated": 10
    },
    "keywords": [
@@ -826,13 +894,13 @@
    "verdict": "weak"
   },
   {
-   "score": 64.2,
+   "score": 62.8,
    "components": {
     "tier": 20,
     "category": 5,
     "lead": 3.6,
     "relevance": 8,
-    "freshness": 17.6,
+    "freshness": 16.2,
     "corroborated": 10
    },
    "keywords": [
@@ -862,13 +930,13 @@
    "verdict": "weak"
   },
   {
-   "score": 64.2,
+   "score": 62.8,
    "components": {
     "tier": 20,
     "category": 5,
     "lead": 3.6,
     "relevance": 8,
-    "freshness": 17.6,
+    "freshness": 16.2,
     "corroborated": 10
    },
    "keywords": [
@@ -898,13 +966,13 @@
    "verdict": "weak"
   },
   {
-   "score": 64.0,
+   "score": 62.6,
    "components": {
     "tier": 20,
     "category": 5,
     "lead": 1.2,
     "relevance": 8,
-    "freshness": 19.8,
+    "freshness": 18.4,
     "corroborated": 10
    },
    "keywords": [
@@ -934,13 +1002,13 @@
    "verdict": "weak"
   },
   {
-   "score": 64.0,
+   "score": 62.6,
    "components": {
     "tier": 20,
     "category": 5,
     "lead": 1.2,
     "relevance": 8,
-    "freshness": 19.8,
+    "freshness": 18.4,
     "corroborated": 10
    },
    "keywords": [
@@ -970,13 +1038,13 @@
    "verdict": "weak"
   },
   {
-   "score": 61.8,
+   "score": 60.4,
    "components": {
     "tier": 20,
     "category": 4,
     "lead": 0.0,
     "relevance": 8,
-    "freshness": 19.8,
+    "freshness": 18.4,
     "corroborated": 10
    },
    "keywords": [
@@ -1005,13 +1073,13 @@
    "verdict": "weak"
   },
   {
-   "score": 61.8,
+   "score": 60.4,
    "components": {
     "tier": 20,
     "category": 5,
     "lead": 1.2,
     "relevance": 8,
-    "freshness": 17.6,
+    "freshness": 16.2,
     "corroborated": 10
    },
    "keywords": [
@@ -1041,13 +1109,13 @@
    "verdict": "weak"
   },
   {
-   "score": 61.8,
+   "score": 60.4,
    "components": {
     "tier": 20,
     "category": 5,
     "lead": 1.2,
     "relevance": 8,
-    "freshness": 17.6,
+    "freshness": 16.2,
     "corroborated": 10
    },
    "keywords": [
@@ -1076,13 +1144,83 @@
    "verdict": "weak"
   },
   {
-   "score": 60.2,
+   "score": 60.0,
+   "components": {
+    "tier": 20,
+    "category": 5,
+    "lead": 1.2,
+    "relevance": 4,
+    "freshness": 19.8,
+    "corroborated": 10
+   },
+   "keywords": [
+    "tourism"
+   ],
+   "shock_terms": [],
+   "dedupe_match": null,
+   "dedupe_similarity": 0.0,
+   "id": "40640a24691b",
+   "title": "Brand USA Chief in Advanced Talks to Rejoin NYC Tourism: Scoop",
+   "url": "https://skift.com/2026/08/25/brand-usa-fred-dixon-nyc-tourism",
+   "summary": "The pivot comes two years after Fred Dixon joined the nation's destination marketing organization.",
+   "kind": "item",
+   "source": "Skift",
+   "source_id": "tp-skift",
+   "tier": 2,
+   "country": "GLOBAL",
+   "category": "trade",
+   "segments": [
+    "city",
+    "bush",
+    "beach"
+   ],
+   "first_seen": "2026-08-25T19:04+03:00",
+   "published": "2026-08-25",
+   "verdict": "weak"
+  },
+  {
+   "score": 60.0,
+   "components": {
+    "tier": 20,
+    "category": 5,
+    "lead": 1.2,
+    "relevance": 4,
+    "freshness": 19.8,
+    "corroborated": 10
+   },
+   "keywords": [
+    "guest"
+   ],
+   "shock_terms": [],
+   "dedupe_match": null,
+   "dedupe_similarity": 0.0,
+   "id": "87553da92ad9",
+   "title": "Can\u2019t Afford Hoxton or Moxy? Generator\u2019s New CEO Says: We\u2019re Premium Too \u2014 But Just \u00a340 Per Bunk",
+   "url": "https://skift.com/2026/08/25/cant-afford-hoxton-or-moxy-generators-new-ceo-says-were-premium-too-but-just-40-per-bunk",
+   "summary": "Strip out the four-star furniture, add bunk beds, charge \u00a340 a night. Now convince your guests they\u2019re staying somewhere premium. That\u2019s Generator\u2019s pitch.",
+   "kind": "item",
+   "source": "Skift",
+   "source_id": "tp-skift",
+   "tier": 2,
+   "country": "GLOBAL",
+   "category": "trade",
+   "segments": [
+    "city",
+    "bush",
+    "beach"
+   ],
+   "first_seen": "2026-08-25T19:04+03:00",
+   "published": "2026-08-25",
+   "verdict": "weak"
+  },
+  {
+   "score": 58.8,
    "components": {
     "tier": 20,
     "category": 5,
     "lead": 3.6,
     "relevance": 4,
-    "freshness": 17.6,
+    "freshness": 16.2,
     "corroborated": 10
    },
    "keywords": [
@@ -1111,13 +1249,13 @@
    "verdict": "weak"
   },
   {
-   "score": 60.2,
+   "score": 58.8,
    "components": {
     "tier": 20,
     "category": 5,
     "lead": 3.6,
     "relevance": 4,
-    "freshness": 17.6,
+    "freshness": 16.2,
     "corroborated": 10
    },
    "keywords": [
@@ -1146,13 +1284,13 @@
    "verdict": "weak"
   },
   {
-   "score": 60.0,
+   "score": 58.6,
    "components": {
     "tier": 20,
     "category": 5,
     "lead": 1.2,
     "relevance": 4,
-    "freshness": 19.8,
+    "freshness": 18.4,
     "corroborated": 10
    },
    "keywords": [
@@ -1181,13 +1319,13 @@
    "verdict": "weak"
   },
   {
-   "score": 59.6,
+   "score": 58.2,
    "components": {
     "tier": 20,
     "category": 4,
     "lead": 0.0,
     "relevance": 8,
-    "freshness": 17.6,
+    "freshness": 16.2,
     "corroborated": 10
    },
    "keywords": [
@@ -1216,13 +1354,13 @@
    "verdict": "weak"
   },
   {
-   "score": 57.8,
+   "score": 56.4,
    "components": {
     "tier": 20,
     "category": 4,
     "lead": 0.0,
     "relevance": 4,
-    "freshness": 19.8,
+    "freshness": 18.4,
     "corroborated": 10
    },
    "keywords": [
@@ -1251,164 +1389,29 @@
    "verdict": "weak"
   },
   {
-   "score": 56.2,
+   "score": 55.8,
    "components": {
     "tier": 20,
-    "category": 24,
-    "lead": 2.4,
+    "category": 4,
+    "lead": 0.0,
     "relevance": 0,
     "freshness": 19.8,
     "undated": -6,
-    "page_change": -4
+    "shock": 18
    },
    "keywords": [],
-   "shock_terms": [],
+   "shock_terms": [
+    "attack"
+   ],
    "dedupe_match": null,
    "dedupe_similarity": 0.0,
-   "id": "2564504cdaa5",
-   "title": "[page changed] ProMED-mail",
-   "url": "https://promedmail.org/",
-   "summary": "Protecting Global Health, One Alert at a Time | ProMED Previous slide Next slide Protecting Global Health, One Alert at a Time ProMED: Your 24/7 early warning system for emerging infectious diseases worldwide. Subscribe ProMED's Weekly Pulse A snapshot of global health events from the past 7 days Latest Posts on ProMED All Date Title Tue Aug 25 2026 PILCHARD HERPESVIRUS - SOUTH AFRICA: (WESTERN CA",
-   "kind": "page-change",
-   "source": "ProMED-mail",
-   "source_id": "promed",
-   "tier": 2,
-   "country": "GLOBAL",
-   "category": "health",
-   "segments": [
-    "city",
-    "bush",
-    "beach"
-   ],
-   "first_seen": "2026-08-25T17:48+03:00",
-   "published": null,
-   "verdict": "weak"
-  },
-  {
-   "score": 56.2,
-   "components": {
-    "tier": 20,
-    "category": 5,
-    "lead": 3.6,
-    "relevance": 0,
-    "freshness": 17.6,
-    "corroborated": 10
-   },
-   "keywords": [],
-   "shock_terms": [],
-   "dedupe_match": null,
-   "dedupe_similarity": 0.0,
-   "id": "7e5ee50d1617",
-   "title": "Airbnb commits $1 million to environmental protection in Washington",
-   "url": "https://www.hospitalitynet.org/news/4134078/airbnb-commits-1-million-to-environmental-protection-in-washington",
-   "summary": "Airbnb's $1M Washington State commitment funds national park nonprofits, Leave No Trace partnerships, and sustainable forestry projects, plus a volunteer incentive offering $100 in Airbnb credit.",
-   "kind": "item",
-   "source": "Hospitality Net \u2014 Africa announcements",
-   "source_id": "dev-hospitalitynet-africa",
-   "tier": 2,
-   "country": "REG",
-   "category": "trade",
-   "segments": [
-    "city",
-    "bush",
-    "beach"
-   ],
-   "first_seen": "2026-08-25T15:50+03:00",
-   "published": "2026-08-25",
-   "verdict": "weak"
-  },
-  {
-   "score": 56.0,
-   "components": {
-    "tier": 20,
-    "category": 5,
-    "lead": 1.2,
-    "relevance": 16,
-    "freshness": 19.8,
-    "undated": -6
-   },
-   "keywords": [
-    "route",
-    "flood"
-   ],
-   "shock_terms": [],
-   "dedupe_match": null,
-   "dedupe_similarity": 0.0,
-   "id": "1ae170183f64",
-   "title": "Garden Route rebuilds after flooding, storms",
-   "url": "https://www.tourismupdate.com/article/garden-route-rebuilds-after-flooding-storms",
+   "id": "d435b9ce8dcf",
+   "title": "World Around 40 dead in gang attack near Haiti's capital",
+   "url": "https://www.newvision.co.ug/category/world/around-40-dead-in-gang-attack-near-haitis-cap-NV_239452_082026",
    "summary": "",
    "kind": "item",
-   "source": "Tourism Update (Southern & East Africa)",
-   "source_id": "tp-tourismupdate",
-   "tier": 2,
-   "country": "REG",
-   "category": "trade",
-   "segments": [
-    "city",
-    "bush",
-    "beach"
-   ],
-   "first_seen": "2026-08-25T17:48+03:00",
-   "published": null,
-   "verdict": "weak"
-  },
-  {
-   "score": 55.6,
-   "components": {
-    "tier": 20,
-    "category": 4,
-    "lead": 0.0,
-    "relevance": 4,
-    "freshness": 17.6,
-    "corroborated": 10
-   },
-   "keywords": [
-    "investment"
-   ],
-   "shock_terms": [],
-   "dedupe_match": null,
-   "dedupe_similarity": 0.0,
-   "id": "2c75a6a93eec",
-   "title": "EA seeks broader public participation in capital markets",
-   "url": "https://dailynews.co.tz/ea-seeks-broader-public-participation-in-capital-markets",
-   "summary": "DAR ES SALAAM: EAST African capital markets need to move beyond simply making investment products accessible and focus on turning growing financial inclusion into meaningful participation and long-term wealth creation, financial-sector experts have said. The region has made notable progress in expanding investment products and using technology to bring financial services closer to ordinary people.",
-   "kind": "item",
-   "source": "Daily News (Tanzania)",
-   "source_id": "np-dailynews-tz",
-   "tier": 2,
-   "country": "TZ",
-   "category": "press",
-   "segments": [
-    "city",
-    "bush",
-    "beach"
-   ],
-   "first_seen": "2026-08-25T15:50+03:00",
-   "published": "2026-08-25",
-   "verdict": "weak"
-  },
-  {
-   "score": 53.8,
-   "components": {
-    "tier": 20,
-    "category": 4,
-    "lead": 0.0,
-    "relevance": 0,
-    "freshness": 19.8,
-    "corroborated": 10
-   },
-   "keywords": [],
-   "shock_terms": [],
-   "dedupe_match": null,
-   "dedupe_similarity": 0.0,
-   "id": "cde5c99093a2",
-   "title": "Court bans live coverage of Ex-MP Kivumbi's incitement case",
-   "url": "https://www.monitor.co.ug/uganda/news/national/court-bans-live-coverage-of-ex-mp-kivumbi-s-incitement-case-5570582",
-   "summary": "The decision was made on Tuesday by Chief Magistrate Aminah Wahab, following an application by...",
-   "kind": "item",
-   "source": "Daily Monitor (Uganda)",
-   "source_id": "np-monitor-ug",
+   "source": "New Vision (Uganda)",
+   "source_id": "np-newvision-ug",
    "tier": 2,
    "country": "UG",
    "category": "press",
@@ -1417,8 +1420,8 @@
     "bush",
     "beach"
    ],
-   "first_seen": "2026-08-25T17:48+03:00",
-   "published": "2026-08-25",
+   "first_seen": "2026-08-25T19:04+03:00",
+   "published": null,
    "verdict": "weak"
   }
  ]
