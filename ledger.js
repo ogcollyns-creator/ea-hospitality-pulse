@@ -1,8 +1,8 @@
 window.LEDGER = {
- "updated": "2026-08-25 07:47",
+ "updated": "2026-08-25 16:49",
  "stats": {
-  "total": 127,
-  "open": 104,
+  "total": 128,
+  "open": 105,
   "resolved": 23,
   "correct": 17,
   "partial": 1,
@@ -792,6 +792,22 @@ window.LEDGER = {
    "resolved_date": "",
    "evidence": "",
    "source_url": "https://www.standardmedia.co.ke/national/article/2001553563/why-uk-moved-batuk-training-to-tanzania",
+   "overdue": false
+  },
+  {
+   "id": "P127",
+   "made_date": "2026-08-25",
+   "edition": "pulse-2026-08-25-evening",
+   "claim": "US luxury chain-scale RevPAR growth for Q3 2026 will print in double digits (10% or more) — confirming that top-end price tolerance is structural rather than a post-pandemic echo, and that the pricing-power divide widens rather than closes",
+   "resolution_criteria": "STR/CoStar US chain-scale reporting for Q3 2026 shows Luxury RevPAR growth of 10% or more year-on-year",
+   "resolve_by": "2026-12-15",
+   "market": "GLOBAL",
+   "segment": "All",
+   "confidence": "Reported",
+   "status": "open",
+   "resolved_date": "",
+   "evidence": "",
+   "source_url": "",
    "overdue": false
   },
   {

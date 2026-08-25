@@ -9,13 +9,13 @@
 // source — mostly hospitality, tourism and business-events trade. Delegate counts are
 // only included where a named source states one; we do not estimate or invent them.
 window.MICE = {
- updated: "20 August 2026",
+ updated: "25 August 2026",
  events: [
   { event:"Tusker Lite Mt Rwenzori Marathon 2026", city:"Kasese (Rwenzori foothills)", country:"Uganda", flag:"🇺🇬",
-    dates:"22 August 2026", status:"Confirmed", delegates:"Runners from ~45 countries (organiser/govt figure); no single headcount published",
+    dates:"22 August 2026", status:"Held", delegates:"Runners from ~45 countries (organiser/govt figure); no single headcount published",
     detail:"Government- and Uganda Tourism Board-backed scenic marathon (42km/35km/10km/5km) positioned as a tourism-and-investment showcase for the Rwenzori region. Organisers and government flagged an accommodation shortfall in Kasese, whose bed stock is thin for the race weekend.",
     soWhat:"A genuine short compression on a small town. Hold rate on remaining Kasese inventory and price overflow into Queen Elizabeth NP lodges and Fort Portal; sell the marathon as a QENP/Kazinga Channel extension, not a one-night stay.",
-    segment:"City, Bush", source:"APO Group / ATTA / Africa24, mid-Aug 2026", verified:true, flagged:"action" },
+    segment:"City, Bush", source:"APO Group / ATTA / Africa24, mid-Aug 2026; Uganda Ministry of Tourism, Wildlife & Antiquities post-event statement, 25 Aug 2026", verified:true, flagged:"action" },
 
 
   { event:"Miss Tourism East Africa 2026 \u2014 inaugural finals", city:"Kampala (Kampala Serena / Marriott)", country:"Uganda", flag:"\ud83c\uddfa\ud83c\uddec",
