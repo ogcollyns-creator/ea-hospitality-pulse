@@ -1,18 +1,98 @@
 {
- "generated": "2026-08-25T19:39:06+03:00",
+ "generated": "2026-08-25T21:44:23+03:00",
  "slot": "evening",
  "window_start": 1787652000,
- "observations_in_window": 244,
+ "observations_in_window": 344,
  "deduped_against": 4,
  "candidates": [
   {
-   "score": 61.2,
+   "score": 140.9,
+   "components": {
+    "tier": 40,
+    "category": 32,
+    "lead": 1.2,
+    "relevance": 36,
+    "freshness": 19.7,
+    "undated": -6,
+    "shock": 18
+   },
+   "keywords": [
+    "advisory",
+    "terror",
+    "kidnap"
+   ],
+   "shock_terms": [
+    "do not travel"
+   ],
+   "dedupe_match": null,
+   "dedupe_similarity": 0.0,
+   "id": "c754bdc59059",
+   "title": "Algeria - Level 2: Exercise Increased Caution",
+   "url": "https://travel.state.gov/content/travel/en/traveladvisories/traveladvisories/algeria-travel-advisory.html",
+   "summary": "There were no changes to the advisory level or risk indicators. Advisory summary was updated. Exercise increased caution in Algeria due to terrorism and kidnapping . Some areas have increased risk. Read the entire Travel Advisory. Do Not Travel to: Areas near the eastern, and southern borders, Bordj Badji Mokhtar, Illiz, In Guezzsam, In Salah, Tamanrasset, the mountainous areas of the Wilaya of Te",
+   "kind": "item",
+   "source": "US State Dept travel advisories (EA feed)",
+   "source_id": "adv-us-ea",
+   "tier": 1,
+   "country": "REG",
+   "category": "advisory",
+   "segments": [
+    "city",
+    "bush",
+    "beach"
+   ],
+   "first_seen": "2026-08-25T21:41+03:00",
+   "published": null,
+   "verdict": "LEAD CANDIDATE \u2014 tier-1 shock language"
+  },
+  {
+   "score": 128.9,
+   "components": {
+    "tier": 40,
+    "category": 32,
+    "lead": 1.2,
+    "relevance": 24,
+    "freshness": 19.7,
+    "undated": -6,
+    "shock": 18
+   },
+   "keywords": [
+    "advisory",
+    "terror"
+   ],
+   "shock_terms": [
+    "reconsider travel",
+    "attack"
+   ],
+   "dedupe_match": null,
+   "dedupe_similarity": 0.0,
+   "id": "1d55d4c49f54",
+   "title": "Kosovo - Level 2: Exercise Increased Caution",
+   "url": "https://travel.state.gov/content/travel/en/traveladvisories/traveladvisories/kosovo-travel-advisory.html",
+   "summary": "Exercise increased caution in Kosovo due to risk of unrest and terrorism. Some areas have increased risk. Read the entire Travel Advisory. Reconsider travel to North Kosovo area due to risk of unrest. Advisory summary Unrest Demonstrations related to the local political situation may occur with little notice. They may disrupt transportation and other essential services. Terrorism There is risk of ",
+   "kind": "item",
+   "source": "US State Dept travel advisories (EA feed)",
+   "source_id": "adv-us-ea",
+   "tier": 1,
+   "country": "REG",
+   "category": "advisory",
+   "segments": [
+    "city",
+    "bush",
+    "beach"
+   ],
+   "first_seen": "2026-08-25T21:41+03:00",
+   "published": null,
+   "verdict": "LEAD CANDIDATE \u2014 tier-1 shock language"
+  },
+  {
+   "score": 58.9,
    "components": {
     "tier": 40,
     "category": 12,
     "lead": 3.6,
     "relevance": 0,
-    "freshness": 15.6,
+    "freshness": 13.3,
     "undated": -6,
     "page_change": -4
    },
@@ -40,13 +120,13 @@
    "verdict": "OPEN THIS \u2014 tier-1 airline page moved; content not auto-parsed, read it manually"
   },
   {
-   "score": 106.2,
+   "score": 103.9,
    "components": {
     "tier": 20,
     "category": 14,
     "lead": 8.4,
     "relevance": 36,
-    "freshness": 17.8,
+    "freshness": 15.5,
     "corroborated": 10
    },
    "keywords": [
@@ -79,13 +159,122 @@
    "verdict": "CONSIDER"
   },
   {
-   "score": 90.2,
+   "score": 89.4,
+   "components": {
+    "tier": 40,
+    "category": 32,
+    "lead": 3.6,
+    "relevance": 8,
+    "freshness": 19.8,
+    "stale_trap": -10,
+    "page_change": -4
+   },
+   "keywords": [
+    "election"
+   ],
+   "shock_terms": [],
+   "dedupe_match": null,
+   "dedupe_similarity": 0.0,
+   "id": "1e810a9aee04",
+   "title": "[page changed] Federal Register \u2014 public inspection (HHS/CDC), pre-publication",
+   "url": "https://www.federalregister.gov/api/v1/public-inspection-documents/current.json",
+   "summary": "{\"count\":92,\"results\":[{\"agencies\":[{\"raw_name\":\"POSTAL SERVICE\",\"name\":\"Postal Service\",\"id\":410,\"url\":\"https://www.federalregister.gov/agencies/postal-service\",\"json_url\":\"https://www.federalregister.gov/api/v1/agencies/410\",\"parent_id\":null,\"slug\":\"postal-service\"}],\"agency_letters\":[],\"agency_names\":[\"Postal Service\"],\"docket_numbers\":[],\"document_number\":\"2026-17238\",\"editorial_note\":null,\"ex",
+   "kind": "page-change",
+   "source": "Federal Register \u2014 public inspection (HHS/CDC), pre-publication",
+   "source_id": "us-fedreg-pubinspect-hhs",
+   "tier": 1,
+   "country": "REG",
+   "category": "advisory",
+   "segments": [
+    "city",
+    "bush"
+   ],
+   "first_seen": "2026-08-25T21:41+03:00",
+   "published": "2026-08-21",
+   "verdict": "CHECK \u2014 source date older than the window"
+  },
+  {
+   "score": 88.2,
+   "components": {
+    "tier": 20,
+    "category": 14,
+    "lead": 8.4,
+    "relevance": 16,
+    "freshness": 19.8,
+    "corroborated": 10
+   },
+   "keywords": [
+    "route",
+    "airline",
+    "flight"
+   ],
+   "shock_terms": [],
+   "dedupe_match": null,
+   "dedupe_similarity": 0.33,
+   "id": "61f3c4ae064c",
+   "title": "Uganda Airlines Adds Kigali From Nov 2026",
+   "url": "https://www.aeroroutes.com/eng/260825-urnov26kgl",
+   "summary": "Published at 1100PDT / 1800GMT 25AUG26 Uganda Airlines in the fourth quarter of 2026 plans to launch Entebbe \u2013 Kigali route, on board CRJ900 aircraft. The airline currently plans 1 daily flight from 18NOV26. UR380 EBB0400 \u2013 0400KGL CR9 257 UR382 EBB0815 \u2013 0815KGL CR9 x257 UR381 KGL0445 \u2013 0645EBB CR9 257 UR383 KGL0900 \u2013 1100EBB CR9 x257",
+   "kind": "item",
+   "source": "AeroRoutes schedule filings",
+   "source_id": "aeroroutes",
+   "tier": 2,
+   "country": "GLOBAL",
+   "category": "aviation-tracker",
+   "segments": [
+    "city",
+    "bush",
+    "beach"
+   ],
+   "first_seen": "2026-08-25T21:42+03:00",
+   "published": "2026-08-25",
+   "verdict": "CONSIDER"
+  },
+  {
+   "score": 88.2,
+   "components": {
+    "tier": 20,
+    "category": 14,
+    "lead": 8.4,
+    "relevance": 16,
+    "freshness": 19.8,
+    "corroborated": 10
+   },
+   "keywords": [
+    "seat",
+    "airline",
+    "flight"
+   ],
+   "shock_terms": [],
+   "dedupe_match": null,
+   "dedupe_similarity": 0.0,
+   "id": "b5695e0dcff3",
+   "title": "Virgin Atlantic NW26 Toronto Service Reductions",
+   "url": "https://www.aeroroutes.com/eng/260825-vsnw26yyz",
+   "summary": "Published at 1000PDT / 1700GMT 25AUG26 Virgin Atlantic in recent weeks adjusted London Heathrow \u2013 Toronto Pearson operations for Northern winter 2026/27 season, operated by 397-seater Airbus A350-1000 aircraft. For the period of 25OCT26 \u2013 27MAR27, the airline operates 3 weekly flights, instead of 4 weekly. dssVS147 LHR1305 \u2013 1600YYZ 351 146 VS148 YYZ2030 \u2013 0835+1LHR 351 14 VS148 YYZ2100 \u2013 0905+1LH",
+   "kind": "item",
+   "source": "AeroRoutes schedule filings",
+   "source_id": "aeroroutes",
+   "tier": 2,
+   "country": "GLOBAL",
+   "category": "aviation-tracker",
+   "segments": [
+    "city",
+    "bush",
+    "beach"
+   ],
+   "first_seen": "2026-08-25T21:42+03:00",
+   "published": "2026-08-25",
+   "verdict": "CONSIDER"
+  },
+  {
+   "score": 87.9,
    "components": {
     "tier": 20,
     "category": 14,
     "lead": 8.4,
     "relevance": 20,
-    "freshness": 17.8,
+    "freshness": 15.5,
     "corroborated": 10
    },
    "keywords": [
@@ -116,13 +305,13 @@
    "verdict": "CONSIDER"
   },
   {
-   "score": 88.8,
+   "score": 86.5,
    "components": {
     "tier": 40,
     "category": 32,
     "lead": 3.6,
     "relevance": 8,
-    "freshness": 19.2,
+    "freshness": 16.9,
     "stale_trap": -10,
     "page_change": -4
    },
@@ -151,13 +340,13 @@
    "verdict": "CHECK \u2014 source date older than the window"
   },
   {
-   "score": 87.8,
+   "score": 85.5,
    "components": {
     "tier": 40,
     "category": 20,
     "lead": 12.0,
     "relevance": 8,
-    "freshness": 17.8,
+    "freshness": 15.5,
     "stale_trap": -10
    },
    "keywords": [
@@ -186,13 +375,13 @@
    "verdict": "CHECK \u2014 source date older than the window"
   },
   {
-   "score": 87.8,
+   "score": 85.5,
    "components": {
     "tier": 40,
     "category": 20,
     "lead": 12.0,
     "relevance": 8,
-    "freshness": 17.8,
+    "freshness": 15.5,
     "stale_trap": -10
    },
    "keywords": [
@@ -221,13 +410,13 @@
    "verdict": "CHECK \u2014 source date older than the window"
   },
   {
-   "score": 87.6,
+   "score": 85.3,
    "components": {
     "tier": 40,
     "category": 12,
     "lead": 6.0,
     "relevance": 4,
-    "freshness": 15.6,
+    "freshness": 13.3,
     "corroborated": 10
    },
    "keywords": [
@@ -256,13 +445,13 @@
    "verdict": "CONSIDER"
   },
   {
-   "score": 86.2,
+   "score": 83.9,
    "components": {
     "tier": 20,
     "category": 14,
     "lead": 8.4,
     "relevance": 16,
-    "freshness": 17.8,
+    "freshness": 15.5,
     "corroborated": 10
    },
    "keywords": [
@@ -293,13 +482,13 @@
    "verdict": "CONSIDER"
   },
   {
-   "score": 85.2,
+   "score": 82.9,
    "components": {
     "tier": 40,
     "category": 32,
     "lead": 3.6,
     "relevance": 8,
-    "freshness": 15.6,
+    "freshness": 13.3,
     "stale_trap": -10,
     "page_change": -4
    },
@@ -328,13 +517,48 @@
    "verdict": "CHECK \u2014 source date older than the window"
   },
   {
-   "score": 82.2,
+   "score": 80.2,
+   "components": {
+    "tier": 20,
+    "category": 14,
+    "lead": 8.4,
+    "relevance": 8,
+    "freshness": 19.8,
+    "corroborated": 10
+   },
+   "keywords": [
+    "route"
+   ],
+   "shock_terms": [],
+   "dedupe_match": null,
+   "dedupe_similarity": 0.0,
+   "id": "191bdb6c4c03",
+   "title": "Emirates Adds SAA Codeshare to Kinshasa From Aug 2026",
+   "url": "https://www.aeroroutes.com/eng/260825-eksacodeshare",
+   "summary": "Published at 0800PDT / 1500GMT 25AUG26 Emirates earlier this month expanded codeshare partnership with South African Airways (SAA), covering the latter\u2019s service on Johannesburg \u2013 Kinshasa route. Following codeshare schedule went into effect since mid-August 2026. SA058/EK7651 JNB2100 \u2013 2350FIH 320 x14 SA059/EK7650 FIH0050 \u2013 0540JNB 320 x25",
+   "kind": "item",
+   "source": "AeroRoutes schedule filings",
+   "source_id": "aeroroutes",
+   "tier": 2,
+   "country": "GLOBAL",
+   "category": "aviation-tracker",
+   "segments": [
+    "city",
+    "bush",
+    "beach"
+   ],
+   "first_seen": "2026-08-25T21:42+03:00",
+   "published": "2026-08-25",
+   "verdict": "CONSIDER"
+  },
+  {
+   "score": 79.9,
    "components": {
     "tier": 20,
     "category": 14,
     "lead": 8.4,
     "relevance": 12,
-    "freshness": 17.8,
+    "freshness": 15.5,
     "corroborated": 10
    },
    "keywords": [
@@ -364,13 +588,13 @@
    "verdict": "CONSIDER"
   },
   {
-   "score": 82.2,
+   "score": 79.9,
    "components": {
     "tier": 20,
     "category": 5,
     "lead": 3.6,
     "relevance": 28,
-    "freshness": 15.6,
+    "freshness": 13.3,
     "corroborated": 10
    },
    "keywords": [
@@ -402,13 +626,13 @@
    "verdict": "CONSIDER"
   },
   {
-   "score": 79.8,
+   "score": 77.5,
    "components": {
     "tier": 40,
     "category": 20,
     "lead": 12.0,
     "relevance": 0,
-    "freshness": 17.8,
+    "freshness": 15.5,
     "stale_trap": -10
    },
    "keywords": [],
@@ -435,13 +659,13 @@
    "verdict": "CHECK \u2014 source date older than the window"
   },
   {
-   "score": 79.8,
+   "score": 77.5,
    "components": {
     "tier": 40,
     "category": 20,
     "lead": 12.0,
     "relevance": 0,
-    "freshness": 17.8,
+    "freshness": 15.5,
     "stale_trap": -10
    },
    "keywords": [],
@@ -468,13 +692,13 @@
    "verdict": "CHECK \u2014 source date older than the window"
   },
   {
-   "score": 79.6,
+   "score": 77.3,
    "components": {
     "tier": 40,
     "category": 24,
     "lead": 2.4,
     "relevance": 0,
-    "freshness": 19.2,
+    "freshness": 16.9,
     "undated": -6
    },
    "keywords": [],
@@ -501,13 +725,48 @@
    "verdict": "CONSIDER"
   },
   {
-   "score": 78.2,
+   "score": 76.2,
+   "components": {
+    "tier": 20,
+    "category": 14,
+    "lead": 8.4,
+    "relevance": 4,
+    "freshness": 19.8,
+    "corroborated": 10
+   },
+   "keywords": [
+    "airline"
+   ],
+   "shock_terms": [],
+   "dedupe_match": null,
+   "dedupe_similarity": 0.0,
+   "id": "5b5ef43a1f1d",
+   "title": "Sunclass Airlines NW26 Ilha do Sal Service Changes",
+   "url": "https://www.aeroroutes.com/eng/260825-dknw26sid",
+   "summary": "Published at 0900PDT / 1600GMT 25AUG26 Sunclass Airlines during Northern winter 2026/27 season is adjusting service to Ilha do Sal . The carrier will now operate Gothenburg \u2013 Ilha do Sal and Oslo \u2013 Ilha do Sal nonstop terminator, instead of Gothenburg \u2013 Oslo \u2013 Ilha do Sal. Gothenburg \u2013 Ilha do Sal eff 29OCT26 1 weekly A321neo DK632 GOT0700 \u2013 1210SID 32Q 4 DK633 SID1330 \u2013 2335GOT 32Q 4 Oslo \u2013 Ilha ",
+   "kind": "item",
+   "source": "AeroRoutes schedule filings",
+   "source_id": "aeroroutes",
+   "tier": 2,
+   "country": "GLOBAL",
+   "category": "aviation-tracker",
+   "segments": [
+    "city",
+    "bush",
+    "beach"
+   ],
+   "first_seen": "2026-08-25T21:42+03:00",
+   "published": "2026-08-25",
+   "verdict": "CONSIDER"
+  },
+  {
+   "score": 75.9,
    "components": {
     "tier": 20,
     "category": 14,
     "lead": 8.4,
     "relevance": 8,
-    "freshness": 17.8,
+    "freshness": 15.5,
     "corroborated": 10
    },
    "keywords": [
@@ -537,13 +796,13 @@
    "verdict": "CONSIDER"
   },
   {
-   "score": 78.2,
+   "score": 75.9,
    "components": {
     "tier": 20,
     "category": 5,
     "lead": 3.6,
     "relevance": 24,
-    "freshness": 15.6,
+    "freshness": 13.3,
     "corroborated": 10
    },
    "keywords": [
@@ -575,13 +834,13 @@
    "verdict": "CONSIDER"
   },
   {
-   "score": 72.8,
+   "score": 70.5,
    "components": {
     "tier": 40,
     "category": 20,
     "lead": 12.0,
     "relevance": 8,
-    "freshness": 17.8,
+    "freshness": 15.5,
     "stale_trap": -25
    },
    "keywords": [
@@ -610,13 +869,13 @@
    "verdict": "CHECK \u2014 source date older than the window"
   },
   {
-   "score": 72.8,
+   "score": 70.5,
    "components": {
     "tier": 40,
     "category": 20,
     "lead": 12.0,
     "relevance": 8,
-    "freshness": 17.8,
+    "freshness": 15.5,
     "stale_trap": -25
    },
    "keywords": [
@@ -645,13 +904,13 @@
    "verdict": "CHECK \u2014 source date older than the window"
   },
   {
-   "score": 72.8,
+   "score": 70.5,
    "components": {
     "tier": 40,
     "category": 20,
     "lead": 12.0,
     "relevance": 8,
-    "freshness": 17.8,
+    "freshness": 15.5,
     "stale_trap": -25
    },
    "keywords": [
@@ -680,13 +939,13 @@
    "verdict": "CHECK \u2014 source date older than the window"
   },
   {
-   "score": 70.2,
+   "score": 67.9,
    "components": {
     "tier": 20,
     "category": 14,
     "lead": 8.4,
     "relevance": 0,
-    "freshness": 17.8,
+    "freshness": 15.5,
     "corroborated": 10
    },
    "keywords": [],
@@ -710,16 +969,16 @@
    ],
    "first_seen": "2026-08-25T17:48+03:00",
    "published": "2026-08-25",
-   "verdict": "CONSIDER"
+   "verdict": "weak"
   },
   {
-   "score": 70.2,
+   "score": 67.9,
    "components": {
     "tier": 20,
     "category": 5,
     "lead": 3.6,
     "relevance": 16,
-    "freshness": 15.6,
+    "freshness": 13.3,
     "corroborated": 10
    },
    "keywords": [
@@ -747,16 +1006,16 @@
    ],
    "first_seen": "2026-08-25T15:50+03:00",
    "published": "2026-08-25",
-   "verdict": "CONSIDER"
+   "verdict": "weak"
   },
   {
-   "score": 68.8,
+   "score": 66.5,
    "components": {
     "tier": 40,
     "category": 20,
     "lead": 12.0,
     "relevance": 4,
-    "freshness": 17.8,
+    "freshness": 15.5,
     "stale_trap": -25
    },
    "keywords": [
@@ -785,13 +1044,120 @@
    "verdict": "CHECK \u2014 source date older than the window"
   },
   {
-   "score": 66.2,
+   "score": 65.8,
+   "components": {
+    "tier": 20,
+    "category": 4,
+    "lead": 0.0,
+    "relevance": 12,
+    "freshness": 19.8,
+    "corroborated": 10
+   },
+   "keywords": [
+    "fee",
+    "tourism"
+   ],
+   "shock_terms": [],
+   "dedupe_match": null,
+   "dedupe_similarity": 0.33,
+   "id": "71645b43f942",
+   "title": "Uganda seeks a place on East Africa\u2019s coffee tourism trail",
+   "url": "https://www.theeastafrican.co.ke/tea/business-tech/uganda-seeks-a-place-on-east-africa-s-coffee-tourism-trail-5570668",
+   "summary": "At the Coffee and Cocoa Expo, Uganda Tourism Board pitched coffee tourism as a key product...",
+   "kind": "item",
+   "source": "The EastAfrican",
+   "source_id": "np-eastafrican",
+   "tier": 2,
+   "country": "REG",
+   "category": "press",
+   "segments": [
+    "city",
+    "bush",
+    "beach"
+   ],
+   "first_seen": "2026-08-25T21:42+03:00",
+   "published": "2026-08-25",
+   "verdict": "weak"
+  },
+  {
+   "score": 65.8,
+   "components": {
+    "tier": 20,
+    "category": 4,
+    "lead": 0.0,
+    "relevance": 12,
+    "freshness": 19.8,
+    "corroborated": 10
+   },
+   "keywords": [
+    "suspend"
+   ],
+   "shock_terms": [],
+   "dedupe_match": null,
+   "dedupe_similarity": 0.0,
+   "id": "ef25bae53a8b",
+   "title": "Kenya court suspends mandatory $50,000 visitor health insurance",
+   "url": "https://www.theeastafrican.co.ke/tea/news/east-africa/kenya-court-suspends-mandatory-visitor-health-insurance-5570010",
+   "summary": "Petitioners argue that the rollout lacks the policy and administrative framework required.",
+   "kind": "item",
+   "source": "The EastAfrican",
+   "source_id": "np-eastafrican",
+   "tier": 2,
+   "country": "REG",
+   "category": "press",
+   "segments": [
+    "city",
+    "bush",
+    "beach"
+   ],
+   "first_seen": "2026-08-25T21:42+03:00",
+   "published": "2026-08-25",
+   "verdict": "weak"
+  },
+  {
+   "score": 64.0,
+   "components": {
+    "tier": 20,
+    "category": 5,
+    "lead": 1.2,
+    "relevance": 8,
+    "freshness": 19.8,
+    "corroborated": 10
+   },
+   "keywords": [
+    "tourism",
+    "summit"
+   ],
+   "shock_terms": [],
+   "dedupe_match": null,
+   "dedupe_similarity": 0.0,
+   "id": "cd79e22452cf",
+   "title": "Live Tourism Economy: Where Event-Driven Travel Spending Lands",
+   "url": "https://skift.com/2026/08/25/live-tourism-economy-where-event-driven-travel-spending-lands",
+   "summary": "A concert or a final now decides where hundreds of thousands of people travel and when. The harder question is who captures the money that arrives with them. The Skift Live Tourism Summit is where destinations and the live industry settle it.",
+   "kind": "item",
+   "source": "Skift",
+   "source_id": "tp-skift",
+   "tier": 2,
+   "country": "GLOBAL",
+   "category": "trade",
+   "segments": [
+    "city",
+    "bush",
+    "beach"
+   ],
+   "first_seen": "2026-08-25T21:42+03:00",
+   "published": "2026-08-25",
+   "verdict": "weak"
+  },
+  {
+   "score": 63.9,
    "components": {
     "tier": 20,
     "category": 5,
     "lead": 3.6,
     "relevance": 12,
-    "freshness": 15.6,
+    "freshness": 13.3,
     "corroborated": 10
    },
    "keywords": [
@@ -821,13 +1187,13 @@
    "verdict": "weak"
   },
   {
-   "score": 66.2,
+   "score": 63.9,
    "components": {
     "tier": 20,
     "category": 5,
     "lead": 3.6,
     "relevance": 12,
-    "freshness": 15.6,
+    "freshness": 13.3,
     "corroborated": 10
    },
    "keywords": [
@@ -858,13 +1224,13 @@
    "verdict": "weak"
   },
   {
-   "score": 66.2,
+   "score": 63.9,
    "components": {
     "tier": 20,
     "category": 5,
     "lead": 3.6,
     "relevance": 12,
-    "freshness": 15.6,
+    "freshness": 13.3,
     "corroborated": 10
    },
    "keywords": [
@@ -894,13 +1260,83 @@
    "verdict": "weak"
   },
   {
-   "score": 62.2,
+   "score": 60.0,
+   "components": {
+    "tier": 20,
+    "category": 5,
+    "lead": 1.2,
+    "relevance": 4,
+    "freshness": 19.8,
+    "corroborated": 10
+   },
+   "keywords": [
+    "guest"
+   ],
+   "shock_terms": [],
+   "dedupe_match": null,
+   "dedupe_similarity": 0.0,
+   "id": "a68998ece49b",
+   "title": "VayKLife Just Acquired Xplorie. The Guest Experience Layer Finally Gets Its Moment.",
+   "url": "https://skift.com/2026/08/25/vayklife-just-acquired-xplorie-the-guest-experience-layer-finally-gets-its-moment",
+   "summary": "On this bonus episode of \u2060Good Morning Hospitality, A Skift Podcast\u2060, \u2060Wil Slickers\u2060 sits down with \u2060Dan Gaertner\u2060, CEO of \u2060VayKLife\u2060, to break the news that VayKLife has acquired \u2060Xplorie\u2060, bringing gear and amenities together with local activities and experiences under one platform for vacation rental managers.",
+   "kind": "item",
+   "source": "Skift",
+   "source_id": "tp-skift",
+   "tier": 2,
+   "country": "GLOBAL",
+   "category": "trade",
+   "segments": [
+    "city",
+    "bush",
+    "beach"
+   ],
+   "first_seen": "2026-08-25T21:42+03:00",
+   "published": "2026-08-25",
+   "verdict": "weak"
+  },
+  {
+   "score": 60.0,
+   "components": {
+    "tier": 20,
+    "category": 5,
+    "lead": 1.2,
+    "relevance": 4,
+    "freshness": 19.8,
+    "corroborated": 10
+   },
+   "keywords": [
+    "tourism"
+   ],
+   "shock_terms": [],
+   "dedupe_match": null,
+   "dedupe_similarity": 0.0,
+   "id": "ff4964de17dc",
+   "title": "ATTA\u00ae CEO unveils vision for a bolder, more influential African Travel & Tourism Association",
+   "url": "https://voyagesafriq.com/2026/08/25/atta-ceo-unveils-vision-for-a-bolder-more-influential-african-travel-tourism-association",
+   "summary": "Virginia Messina, Group CEO of the African Travel and Tourism Association (ATTA\u00ae), has outlined an ambitious vision for the organisation, positioning it to play a more influential role in shaping [\u2026] The post ATTA\u00ae CEO unveils vision for a bolder, more influential African Travel & Tourism Association<gwmw style=\"display:none;\"></gwmw> appeared first on Voyages Afriq .",
+   "kind": "item",
+   "source": "VoyagesAfriq",
+   "source_id": "tp-voyagesafriq",
+   "tier": 2,
+   "country": "REG",
+   "category": "trade",
+   "segments": [
+    "city",
+    "bush",
+    "beach"
+   ],
+   "first_seen": "2026-08-25T21:42+03:00",
+   "published": "2026-08-25",
+   "verdict": "weak"
+  },
+  {
+   "score": 59.9,
    "components": {
     "tier": 20,
     "category": 5,
     "lead": 3.6,
     "relevance": 8,
-    "freshness": 15.6,
+    "freshness": 13.3,
     "corroborated": 10
    },
    "keywords": [
@@ -930,13 +1366,13 @@
    "verdict": "weak"
   },
   {
-   "score": 62.2,
+   "score": 59.9,
    "components": {
     "tier": 20,
     "category": 5,
     "lead": 3.6,
     "relevance": 8,
-    "freshness": 15.6,
+    "freshness": 13.3,
     "corroborated": 10
    },
    "keywords": [
@@ -966,13 +1402,13 @@
    "verdict": "weak"
   },
   {
-   "score": 62.0,
+   "score": 59.7,
    "components": {
     "tier": 20,
     "category": 5,
     "lead": 1.2,
     "relevance": 8,
-    "freshness": 17.8,
+    "freshness": 15.5,
     "corroborated": 10
    },
    "keywords": [
@@ -999,429 +1435,6 @@
    ],
    "first_seen": "2026-08-25T17:48+03:00",
    "published": "2026-08-25",
-   "verdict": "weak"
-  },
-  {
-   "score": 62.0,
-   "components": {
-    "tier": 20,
-    "category": 5,
-    "lead": 1.2,
-    "relevance": 8,
-    "freshness": 17.8,
-    "corroborated": 10
-   },
-   "keywords": [
-    "tourism",
-    "investment"
-   ],
-   "shock_terms": [],
-   "dedupe_match": null,
-   "dedupe_similarity": 0.0,
-   "id": "e82a9e8fa78e",
-   "title": "Mona Boyd calls for bold investment to transform Ghana from niche to mainstream destination",
-   "url": "https://voyagesafriq.com/2026/08/25/mona-boyd-calls-for-bold-investment-to-transform-ghana-from-niche-to-mainstream-destination",
-   "summary": "At the 2026 edition of WTM Africa in Cape Town, Mona Boyd, Executive Chair of Landtours Ghana, delivered a candid assessment of Ghana\u2019s tourism industry, praising the country\u2019s growing appeal [\u2026] The post Mona Boyd calls for bold investment to transform Ghana from niche to mainstream destination appeared first on Voyages Afriq .",
-   "kind": "item",
-   "source": "VoyagesAfriq",
-   "source_id": "tp-voyagesafriq",
-   "tier": 2,
-   "country": "REG",
-   "category": "trade",
-   "segments": [
-    "city",
-    "bush",
-    "beach"
-   ],
-   "first_seen": "2026-08-25T17:48+03:00",
-   "published": "2026-08-25",
-   "verdict": "weak"
-  },
-  {
-   "score": 59.8,
-   "components": {
-    "tier": 20,
-    "category": 4,
-    "lead": 0.0,
-    "relevance": 8,
-    "freshness": 17.8,
-    "corroborated": 10
-   },
-   "keywords": [
-    "fuel"
-   ],
-   "shock_terms": [],
-   "dedupe_match": null,
-   "dedupe_similarity": 0.33,
-   "id": "7ae1180a97af",
-   "title": "Uganda set to hit 5% ethanol fuel blending target within three months",
-   "url": "https://www.monitor.co.ug/uganda/news/national/uganda-set-to-hit-5-ethanol-fuel-blending-target-within-three-months-5570132",
-   "summary": "Uganda could hit ethanol blending target 14 years early",
-   "kind": "item",
-   "source": "Daily Monitor (Uganda)",
-   "source_id": "np-monitor-ug",
-   "tier": 2,
-   "country": "UG",
-   "category": "press",
-   "segments": [
-    "city",
-    "bush",
-    "beach"
-   ],
-   "first_seen": "2026-08-25T17:48+03:00",
-   "published": "2026-08-25",
-   "verdict": "weak"
-  },
-  {
-   "score": 59.8,
-   "components": {
-    "tier": 20,
-    "category": 5,
-    "lead": 1.2,
-    "relevance": 8,
-    "freshness": 15.6,
-    "corroborated": 10
-   },
-   "keywords": [
-    "tourism",
-    "investment"
-   ],
-   "shock_terms": [],
-   "dedupe_match": null,
-   "dedupe_similarity": 0.17,
-   "id": "f906bcd9544f",
-   "title": "Fitch Revises Tanzania Outlook to Positive, Affirms \u2018B+\u2019 Rating, Forecasts GDP Growth of 5.8% in 2026 Driven by Tourism and Mining",
-   "url": "https://www.tanzaniainvest.com/economy/fitch-positive-outlook-b-plus-rating-august-2026",
-   "summary": "Fitch Ratings revised Tanzania's outlook to positive from stable while affirming the sovereign rating at 'B+', citing strengthening reserves and a gradual decline in government debt, warning, however, that the credit rating remains constrained by weak governance and low government revenue. The agency forecasts real GDP growth of 5.8% in 2026 and an average of 6.1% in 2027 and 2028, driven by publi",
-   "kind": "item",
-   "source": "TanzaniaInvest \u2014 tourism",
-   "source_id": "tp-tanzaniainvest",
-   "tier": 2,
-   "country": "TZ",
-   "category": "trade",
-   "segments": [
-    "city",
-    "bush",
-    "beach"
-   ],
-   "first_seen": "2026-08-25T15:50+03:00",
-   "published": "2026-08-25",
-   "verdict": "weak"
-  },
-  {
-   "score": 59.8,
-   "components": {
-    "tier": 20,
-    "category": 5,
-    "lead": 1.2,
-    "relevance": 8,
-    "freshness": 15.6,
-    "corroborated": 10
-   },
-   "keywords": [
-    "route"
-   ],
-   "shock_terms": [],
-   "dedupe_match": null,
-   "dedupe_similarity": 0.0,
-   "id": "bd790f6fe439",
-   "title": "United Adds 10 Routes Across Europe and Asia \u2014 From Okinawa to Ibiza",
-   "url": "https://skift.com/2026/08/25/united-adds-10-new-international-routes-from-okinawa-to-ibiza",
-   "summary": "Unique destinations have become a central part of United\u2019s strategy as it caters to more premium travelers and operates in an increasingly competitive transatlantic market.",
-   "kind": "item",
-   "source": "Skift",
-   "source_id": "tp-skift",
-   "tier": 2,
-   "country": "GLOBAL",
-   "category": "trade",
-   "segments": [
-    "city",
-    "bush",
-    "beach"
-   ],
-   "first_seen": "2026-08-25T15:50+03:00",
-   "published": "2026-08-25",
-   "verdict": "weak"
-  },
-  {
-   "score": 59.4,
-   "components": {
-    "tier": 20,
-    "category": 5,
-    "lead": 1.2,
-    "relevance": 4,
-    "freshness": 19.2,
-    "corroborated": 10
-   },
-   "keywords": [
-    "tourism"
-   ],
-   "shock_terms": [],
-   "dedupe_match": null,
-   "dedupe_similarity": 0.0,
-   "id": "40640a24691b",
-   "title": "Brand USA Chief in Advanced Talks to Rejoin NYC Tourism: Scoop",
-   "url": "https://skift.com/2026/08/25/brand-usa-fred-dixon-nyc-tourism",
-   "summary": "The pivot comes two years after Fred Dixon joined the nation's destination marketing organization.",
-   "kind": "item",
-   "source": "Skift",
-   "source_id": "tp-skift",
-   "tier": 2,
-   "country": "GLOBAL",
-   "category": "trade",
-   "segments": [
-    "city",
-    "bush",
-    "beach"
-   ],
-   "first_seen": "2026-08-25T19:04+03:00",
-   "published": "2026-08-25",
-   "verdict": "weak"
-  },
-  {
-   "score": 59.4,
-   "components": {
-    "tier": 20,
-    "category": 5,
-    "lead": 1.2,
-    "relevance": 4,
-    "freshness": 19.2,
-    "corroborated": 10
-   },
-   "keywords": [
-    "guest"
-   ],
-   "shock_terms": [],
-   "dedupe_match": null,
-   "dedupe_similarity": 0.0,
-   "id": "87553da92ad9",
-   "title": "Can\u2019t Afford Hoxton or Moxy? Generator\u2019s New CEO Says: We\u2019re Premium Too \u2014 But Just \u00a340 Per Bunk",
-   "url": "https://skift.com/2026/08/25/cant-afford-hoxton-or-moxy-generators-new-ceo-says-were-premium-too-but-just-40-per-bunk",
-   "summary": "Strip out the four-star furniture, add bunk beds, charge \u00a340 a night. Now convince your guests they\u2019re staying somewhere premium. That\u2019s Generator\u2019s pitch.",
-   "kind": "item",
-   "source": "Skift",
-   "source_id": "tp-skift",
-   "tier": 2,
-   "country": "GLOBAL",
-   "category": "trade",
-   "segments": [
-    "city",
-    "bush",
-    "beach"
-   ],
-   "first_seen": "2026-08-25T19:04+03:00",
-   "published": "2026-08-25",
-   "verdict": "weak"
-  },
-  {
-   "score": 58.2,
-   "components": {
-    "tier": 20,
-    "category": 5,
-    "lead": 3.6,
-    "relevance": 4,
-    "freshness": 15.6,
-    "corroborated": 10
-   },
-   "keywords": [
-    "hotel"
-   ],
-   "shock_terms": [],
-   "dedupe_match": null,
-   "dedupe_similarity": 0.0,
-   "id": "6a6f78e41d38",
-   "title": "Predicting AI is futile, preparing isn\u2019t",
-   "url": "https://www.hospitalitynet.org/opinion/4134084/predicting-ai-is-futile-preparing-isnt",
-   "summary": "A strategic case for why hotels should prioritize open APIs, data accessibility, and AI-ready PMS flexibility over chasing today's best AI features.",
-   "kind": "item",
-   "source": "Hospitality Net \u2014 Africa announcements",
-   "source_id": "dev-hospitalitynet-africa",
-   "tier": 2,
-   "country": "REG",
-   "category": "trade",
-   "segments": [
-    "city",
-    "bush",
-    "beach"
-   ],
-   "first_seen": "2026-08-25T15:50+03:00",
-   "published": "2026-08-25",
-   "verdict": "weak"
-  },
-  {
-   "score": 58.2,
-   "components": {
-    "tier": 20,
-    "category": 5,
-    "lead": 3.6,
-    "relevance": 4,
-    "freshness": 15.6,
-    "corroborated": 10
-   },
-   "keywords": [
-    "tourism"
-   ],
-   "shock_terms": [],
-   "dedupe_match": null,
-   "dedupe_similarity": 0.0,
-   "id": "2707fa694b59",
-   "title": "Who Is Tourism For?",
-   "url": "https://www.hospitalitynet.org/opinion/4134068/who-is-tourism-for",
-   "summary": "The author challenges the industry's growth-at-all-costs mindset, arguing destinations must measure resident benefit alongside visitor volume and establish a transparent social contract for tourism.",
-   "kind": "item",
-   "source": "Hospitality Net \u2014 Africa announcements",
-   "source_id": "dev-hospitalitynet-africa",
-   "tier": 2,
-   "country": "REG",
-   "category": "trade",
-   "segments": [
-    "city",
-    "bush",
-    "beach"
-   ],
-   "first_seen": "2026-08-25T15:50+03:00",
-   "published": "2026-08-25",
-   "verdict": "weak"
-  },
-  {
-   "score": 58.0,
-   "components": {
-    "tier": 20,
-    "category": 5,
-    "lead": 1.2,
-    "relevance": 4,
-    "freshness": 17.8,
-    "corroborated": 10
-   },
-   "keywords": [
-    "mice"
-   ],
-   "shock_terms": [],
-   "dedupe_match": null,
-   "dedupe_similarity": 0.0,
-   "id": "55ea8ae1242a",
-   "title": "Angola opens new convention centre as it targets greater share of Africa\u2019s MICE market",
-   "url": "https://voyagesafriq.com/2026/08/25/angola-opens-new-convention-centre-as-it-targets-greater-share-of-africas-mice-market",
-   "summary": "Angola has opened a major new chapter in its ambition to compete for Africa\u2019s business events market, with President Jo\u00e3o Louren\u00e7o inaugurating the Pal\u00e1cio de Conven\u00e7\u00f5es de Luanda as the country seeks [\u2026] The post Angola opens new convention centre as it targets greater share of Africa\u2019s MICE market appeared first on Voyages Afriq .",
-   "kind": "item",
-   "source": "VoyagesAfriq",
-   "source_id": "tp-voyagesafriq",
-   "tier": 2,
-   "country": "REG",
-   "category": "trade",
-   "segments": [
-    "city",
-    "bush",
-    "beach"
-   ],
-   "first_seen": "2026-08-25T17:48+03:00",
-   "published": "2026-08-25",
-   "verdict": "weak"
-  },
-  {
-   "score": 57.6,
-   "components": {
-    "tier": 20,
-    "category": 4,
-    "lead": 0.0,
-    "relevance": 8,
-    "freshness": 15.6,
-    "corroborated": 10
-   },
-   "keywords": [
-    "eta"
-   ],
-   "shock_terms": [],
-   "dedupe_match": null,
-   "dedupe_similarity": 0.17,
-   "id": "e063519c8b13",
-   "title": "Dr Magembe joins Tanzanian delegation at the WHO-backed 76th Session for Africa",
-   "url": "https://dailynews.co.tz/dr-magembe-joins-tanzanian-delegation-at-the-who-backed-76th-session-for-africa",
-   "summary": "ADDIS ABABA: TANZANIA\u2019 S Chief Medical Officer and Permanent Secretary in the Ministry of Health, Dr Grace Magembe, has arrived in Addis Ababa, Ethiopia, to join the Tanzanian delegation led by Deputy Minister for Health, Dr Florence Samizi, at the 76th Session of the World Health Organization (WHO) Regional Committee for Africa. The meeting is \u2026 The post Dr Magembe joins Tanzanian delegation at t",
-   "kind": "item",
-   "source": "Daily News (Tanzania)",
-   "source_id": "np-dailynews-tz",
-   "tier": 2,
-   "country": "TZ",
-   "category": "press",
-   "segments": [
-    "city",
-    "bush",
-    "beach"
-   ],
-   "first_seen": "2026-08-25T15:50+03:00",
-   "published": "2026-08-25",
-   "verdict": "weak"
-  },
-  {
-   "score": 55.8,
-   "components": {
-    "tier": 20,
-    "category": 4,
-    "lead": 0.0,
-    "relevance": 4,
-    "freshness": 17.8,
-    "corroborated": 10
-   },
-   "keywords": [
-    "airline"
-   ],
-   "shock_terms": [],
-   "dedupe_match": null,
-   "dedupe_similarity": 0.33,
-   "id": "c6244cd904f7",
-   "title": "Uganda Airlines may not be there yet, but it can be",
-   "url": "https://www.monitor.co.ug/uganda/oped/commentary/uganda-airlines-may-not-be-there-yet-but-it-can-be-5570218",
-   "summary": "Uganda Airlines can become a symbol of national competence",
-   "kind": "item",
-   "source": "Daily Monitor (Uganda)",
-   "source_id": "np-monitor-ug",
-   "tier": 2,
-   "country": "UG",
-   "category": "press",
-   "segments": [
-    "city",
-    "bush",
-    "beach"
-   ],
-   "first_seen": "2026-08-25T17:48+03:00",
-   "published": "2026-08-25",
-   "verdict": "weak"
-  },
-  {
-   "score": 55.2,
-   "components": {
-    "tier": 20,
-    "category": 4,
-    "lead": 0.0,
-    "relevance": 0,
-    "freshness": 19.2,
-    "undated": -6,
-    "shock": 18
-   },
-   "keywords": [],
-   "shock_terms": [
-    "attack"
-   ],
-   "dedupe_match": null,
-   "dedupe_similarity": 0.0,
-   "id": "d435b9ce8dcf",
-   "title": "World Around 40 dead in gang attack near Haiti's capital",
-   "url": "https://www.newvision.co.ug/category/world/around-40-dead-in-gang-attack-near-haitis-cap-NV_239452_082026",
-   "summary": "",
-   "kind": "item",
-   "source": "New Vision (Uganda)",
-   "source_id": "np-newvision-ug",
-   "tier": 2,
-   "country": "UG",
-   "category": "press",
-   "segments": [
-    "city",
-    "bush",
-    "beach"
-   ],
-   "first_seen": "2026-08-25T19:04+03:00",
-   "published": null,
    "verdict": "weak"
   }
  ]
