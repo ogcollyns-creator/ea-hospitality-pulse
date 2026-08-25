@@ -1,18 +1,18 @@
 {
- "generated": "2026-08-25T16:41:21+03:00",
+ "generated": "2026-08-25T17:48:40+03:00",
  "slot": "evening",
  "window_start": 1787652000,
- "observations_in_window": 86,
+ "observations_in_window": 175,
  "deduped_against": 4,
  "candidates": [
   {
-   "score": 64.5,
+   "score": 63.2,
    "components": {
     "tier": 40,
     "category": 12,
     "lead": 3.6,
     "relevance": 0,
-    "freshness": 18.9,
+    "freshness": 17.6,
     "undated": -6,
     "page_change": -4
    },
@@ -23,7 +23,7 @@
    "id": "8cf0ecbcd60d",
    "title": "[page changed] Jambojet media",
    "url": "https://www.jambojet.com/en/press-release",
-   "summary": "",
+   "summary": "Request unsuccessful. Incapsula incident ID: 362000350076597847-85678936812030191",
    "kind": "page-change",
    "source": "Jambojet media",
    "source_id": "air-jambojet",
@@ -40,13 +40,159 @@
    "verdict": "OPEN THIS \u2014 tier-1 airline page moved; content not auto-parsed, read it manually"
   },
   {
-   "score": 90.9,
+   "score": 108.2,
+   "components": {
+    "tier": 20,
+    "category": 14,
+    "lead": 8.4,
+    "relevance": 36,
+    "freshness": 19.8,
+    "corroborated": 10
+   },
+   "keywords": [
+    "cancel",
+    "vat",
+    "route",
+    "airline",
+    "flight"
+   ],
+   "shock_terms": [],
+   "dedupe_match": null,
+   "dedupe_similarity": 0.0,
+   "id": "0151b8764bc2",
+   "title": "China Eastern NW26 Middle East Service Changes \u2013 25AUG26",
+   "url": "https://www.aeroroutes.com/eng/260825-munw26me",
+   "summary": "Published at 0300PDT / 1000GMT 25AUG26 China Eastern in last week\u2019s schedule update extended service suspension on Shanghai Pu Dong \u2013 Abu Dhabi route, as the airline removed schedule filing between 01SEP26 and 24OCT26. Despite the Skyteam member lists 1 daily flight from 25OCT26, reservations between 25OCT26 and 27MAR27 are not available. MU237 PVG1400 \u2013 2030AUH 332 D MU238 AUH2330 \u2013 1250+1PVG 332",
+   "kind": "item",
+   "source": "AeroRoutes schedule filings",
+   "source_id": "aeroroutes",
+   "tier": 2,
+   "country": "GLOBAL",
+   "category": "aviation-tracker",
+   "segments": [
+    "city",
+    "bush",
+    "beach"
+   ],
+   "first_seen": "2026-08-25T17:48+03:00",
+   "published": "2026-08-25",
+   "verdict": "CONSIDER"
+  },
+  {
+   "score": 92.2,
+   "components": {
+    "tier": 20,
+    "category": 14,
+    "lead": 8.4,
+    "relevance": 20,
+    "freshness": 19.8,
+    "corroborated": 10
+   },
+   "keywords": [
+    "vat",
+    "route",
+    "airline"
+   ],
+   "shock_terms": [],
+   "dedupe_match": null,
+   "dedupe_similarity": 0.0,
+   "id": "0b952fc112ab",
+   "title": "United NS27 European Network Expansion",
+   "url": "https://www.aeroroutes.com/eng/260825-uans27eu",
+   "summary": "Additional update at 1110GMT 25AUG26 (Addition of Washington Dulles - Milan Malpensa route) Published at 0345PDT / 1045GMT 25AUG26 United as of 1000GMT 25AUG26 gradually filed planned European network expansion for Northern summer 2027 season, including the new Airbus A321XLR aircraft (configuration J20W12Y120). Reservations for these routes gradually opened after 1100GMT when the airline announce",
+   "kind": "item",
+   "source": "AeroRoutes schedule filings",
+   "source_id": "aeroroutes",
+   "tier": 2,
+   "country": "GLOBAL",
+   "category": "aviation-tracker",
+   "segments": [
+    "city",
+    "bush",
+    "beach"
+   ],
+   "first_seen": "2026-08-25T17:48+03:00",
+   "published": "2026-08-25",
+   "verdict": "CONSIDER"
+  },
+  {
+   "score": 89.8,
+   "components": {
+    "tier": 40,
+    "category": 20,
+    "lead": 12.0,
+    "relevance": 8,
+    "freshness": 19.8,
+    "stale_trap": -10
+   },
+   "keywords": [
+    "gazette"
+   ],
+   "shock_terms": [],
+   "dedupe_match": null,
+   "dedupe_similarity": 0.0,
+   "id": "7f91c29a4064",
+   "title": "Kenya Gazette Vol. CXXVIII-No. 144",
+   "url": "https://new.kenyalaw.org/akn/ke/officialGazette/2026-08-20/144/eng@2026-08-20",
+   "summary": "Kenya Gazette Vol. CXXVIII-No. 144",
+   "kind": "item",
+   "source": "Kenya Gazette (Kenya Law)",
+   "source_id": "ke-gazette",
+   "tier": 1,
+   "country": "KE",
+   "category": "gazette",
+   "segments": [
+    "city",
+    "bush",
+    "beach"
+   ],
+   "first_seen": "2026-08-25T17:48+03:00",
+   "published": "2026-08-20",
+   "verdict": "CHECK \u2014 source date older than the window"
+  },
+  {
+   "score": 89.8,
+   "components": {
+    "tier": 40,
+    "category": 20,
+    "lead": 12.0,
+    "relevance": 8,
+    "freshness": 19.8,
+    "stale_trap": -10
+   },
+   "keywords": [
+    "gazette"
+   ],
+   "shock_terms": [],
+   "dedupe_match": null,
+   "dedupe_similarity": 0.0,
+   "id": "8ac11282ff59",
+   "title": "Kenya Gazette Vol. CXXVIII-No. 143",
+   "url": "https://new.kenyalaw.org/akn/ke/officialGazette/2026-08-19/143/eng@2026-08-19",
+   "summary": "Kenya Gazette Vol. CXXVIII-No. 143",
+   "kind": "item",
+   "source": "Kenya Gazette (Kenya Law)",
+   "source_id": "ke-gazette",
+   "tier": 1,
+   "country": "KE",
+   "category": "gazette",
+   "segments": [
+    "city",
+    "bush",
+    "beach"
+   ],
+   "first_seen": "2026-08-25T17:48+03:00",
+   "published": "2026-08-19",
+   "verdict": "CHECK \u2014 source date older than the window"
+  },
+  {
+   "score": 89.6,
    "components": {
     "tier": 40,
     "category": 12,
     "lead": 6.0,
     "relevance": 4,
-    "freshness": 18.9,
+    "freshness": 17.6,
     "corroborated": 10
    },
    "keywords": [
@@ -58,7 +204,7 @@
    "id": "e096aefef0ba",
    "title": "FIFTH TUSKER LITE RWENZORI MARATHON POSITIONS KASESE AS UGANDA\u2019S INTERNATIONAL SPORTS TOURISM REGION",
    "url": "https://www.tourism.go.ug/single-post/fifth-tusker-lite-rwenzori-marathon-positions-kasese-as-uganda-s-international-sports-tourism-region",
-   "summary": "",
+   "summary": "The fifth Tusker Lite Rwenzori Marathon delivered elite racing, international recognition and a powerful tourism showcase in Kasese on Saturday, August 22, 2026. Against the dramatic backdrop of the Rwenzori Mountains, thousands of runners, spectators and visitors converged on the western Ugandan town for an edition that carried significance well beyond the finish line. For the first time, the rac",
    "kind": "item",
    "source": "Ministry of Tourism, Wildlife & Antiquities",
    "source_id": "ug-tourism-ministry",
@@ -72,27 +218,66 @@
    ],
    "first_seen": "2026-08-25T15:50+03:00",
    "published": "2026-08-25",
-   "verdict": "STRONG \u2014 tier-1, upstream"
+   "verdict": "CONSIDER"
   },
   {
-   "score": 80.5,
+   "score": 88.2,
+   "components": {
+    "tier": 20,
+    "category": 14,
+    "lead": 8.4,
+    "relevance": 16,
+    "freshness": 19.8,
+    "corroborated": 10
+   },
+   "keywords": [
+    "route",
+    "airline",
+    "franc"
+   ],
+   "shock_terms": [],
+   "dedupe_match": null,
+   "dedupe_similarity": 0.0,
+   "id": "742cf5bb66a3",
+   "title": "United NS27 Japan Network Expansion",
+   "url": "https://www.aeroroutes.com/eng/260825-uans27jp",
+   "summary": "Published at 0425PDT / 1125GMT 25AUG26 United in Northern summer 2027 season is launching a pair of new routes to Japan, the airline has announced at 1100GMT, although schedule has been filed after 1000GMT. Planned new service marks the carrier\u2019s return on Los Angeles \u2013 Osaka route and overall service to Okinawa. Los Angeles \u2013 Osaka Kansai eff 27MAR27 1 daily 787-9 (United last served this route u",
+   "kind": "item",
+   "source": "AeroRoutes schedule filings",
+   "source_id": "aeroroutes",
+   "tier": 2,
+   "country": "GLOBAL",
+   "category": "aviation-tracker",
+   "segments": [
+    "city",
+    "bush",
+    "beach"
+   ],
+   "first_seen": "2026-08-25T17:48+03:00",
+   "published": "2026-08-25",
+   "verdict": "CONSIDER"
+  },
+  {
+   "score": 87.2,
    "components": {
     "tier": 40,
     "category": 32,
     "lead": 3.6,
-    "relevance": 0,
-    "freshness": 18.9,
+    "relevance": 8,
+    "freshness": 17.6,
     "stale_trap": -10,
     "page_change": -4
    },
-   "keywords": [],
+   "keywords": [
+    "election"
+   ],
    "shock_terms": [],
    "dedupe_match": null,
    "dedupe_similarity": 0.0,
    "id": "82ed019cecde",
    "title": "[page changed] Federal Register \u2014 public inspection (HHS/CDC), pre-publication",
    "url": "https://www.federalregister.gov/api/v1/public-inspection-documents/current.json",
-   "summary": "",
+   "summary": "{\"count\":91,\"results\":[{\"agencies\":[{\"raw_name\":\"POSTAL SERVICE\",\"name\":\"Postal Service\",\"id\":410,\"url\":\"https://www.federalregister.gov/agencies/postal-service\",\"json_url\":\"https://www.federalregister.gov/api/v1/agencies/410\",\"parent_id\":null,\"slug\":\"postal-service\"}],\"agency_letters\":[],\"agency_names\":[\"Postal Service\"],\"docket_numbers\":[],\"document_number\":\"2026-17238\",\"editorial_note\":null,\"ex",
    "kind": "page-change",
    "source": "Federal Register \u2014 public inspection (HHS/CDC), pre-publication",
    "source_id": "us-fedreg-pubinspect-hhs",
@@ -108,263 +293,55 @@
    "verdict": "CHECK \u2014 source date older than the window"
   },
   {
-   "score": 69.5,
+   "score": 84.2,
    "components": {
     "tier": 20,
-    "category": 5,
-    "lead": 3.6,
+    "category": 14,
+    "lead": 8.4,
     "relevance": 12,
-    "freshness": 18.9,
+    "freshness": 19.8,
     "corroborated": 10
    },
    "keywords": [
-    "fuel",
-    "hotel"
+    "route",
+    "airline"
    ],
    "shock_terms": [],
    "dedupe_match": null,
    "dedupe_similarity": 0.0,
-   "id": "8e04e223b2bc",
-   "title": "Boise\u2019s Expanding Economy Fuels Long-Term Hotel Market Strength",
-   "url": "https://www.hospitalitynet.org/opinion/4134076/boises-expanding-economy-fuels-long-term-hotel-market-strength",
-   "summary": "",
+   "id": "019561376d44",
+   "title": "Africa World Schedules Accra \u2013 Abidjan late-Aug 2026 Launch",
+   "url": "https://www.aeroroutes.com/eng/260825-awaug26abj",
+   "summary": "Published at 0700PDT / 1400GMT 25AUG26 Africa World Airlines at the end of August 2026 schedules new international service to Cote d\u2019Ivoire, where the airline plans Accra \u2013 Abidjan inaugural on 31AUG26. Embraer ERJ145 aircraft to serve this route 4 times weekly. AW324 ACC1400 \u2013 1500ABJ ER4 x246 AW325 ABJ1540 \u2013 1640ACC ER4 13 AW325 ABJ1610 \u2013 1710ACC ER4 57",
    "kind": "item",
-   "source": "Hospitality Net \u2014 Africa announcements",
-   "source_id": "dev-hospitalitynet-africa",
-   "tier": 2,
-   "country": "REG",
-   "category": "trade",
-   "segments": [
-    "city",
-    "bush",
-    "beach"
-   ],
-   "first_seen": "2026-08-25T15:50+03:00",
-   "published": "2026-08-25",
-   "verdict": "weak"
-  },
-  {
-   "score": 69.5,
-   "components": {
-    "tier": 20,
-    "category": 5,
-    "lead": 3.6,
-    "relevance": 12,
-    "freshness": 18.9,
-    "corroborated": 10
-   },
-   "keywords": [
-    "fee",
-    "guest"
-   ],
-   "shock_terms": [],
-   "dedupe_match": null,
-   "dedupe_similarity": 0.0,
-   "id": "49b62f8c7612",
-   "title": "Guests Don\u2019t Want Your Playlist (They Want the Feeling They Can Take Home)",
-   "url": "https://www.hospitalitynet.org/opinion/4134082/guests-dont-want-your-playlist-they-want-the-feeling-they-can-take-home",
-   "summary": "",
-   "kind": "item",
-   "source": "Hospitality Net \u2014 Africa announcements",
-   "source_id": "dev-hospitalitynet-africa",
-   "tier": 2,
-   "country": "REG",
-   "category": "trade",
-   "segments": [
-    "city",
-    "bush",
-    "beach"
-   ],
-   "first_seen": "2026-08-25T15:50+03:00",
-   "published": "2026-08-25",
-   "verdict": "weak"
-  },
-  {
-   "score": 63.1,
-   "components": {
-    "tier": 20,
-    "category": 5,
-    "lead": 1.2,
-    "relevance": 8,
-    "freshness": 18.9,
-    "corroborated": 10
-   },
-   "keywords": [
-    "route"
-   ],
-   "shock_terms": [],
-   "dedupe_match": null,
-   "dedupe_similarity": 0.0,
-   "id": "bd790f6fe439",
-   "title": "United Adds 10 Routes Across Europe and Asia \u2014 From Okinawa to Ibiza",
-   "url": "https://skift.com/2026/08/25/united-adds-10-new-international-routes-from-okinawa-to-ibiza",
-   "summary": "",
-   "kind": "item",
-   "source": "Skift",
-   "source_id": "tp-skift",
+   "source": "AeroRoutes schedule filings",
+   "source_id": "aeroroutes",
    "tier": 2,
    "country": "GLOBAL",
-   "category": "trade",
+   "category": "aviation-tracker",
    "segments": [
     "city",
     "bush",
     "beach"
    ],
-   "first_seen": "2026-08-25T15:50+03:00",
+   "first_seen": "2026-08-25T17:48+03:00",
    "published": "2026-08-25",
-   "verdict": "weak"
+   "verdict": "CONSIDER"
   },
   {
-   "score": 61.5,
+   "score": 84.2,
    "components": {
     "tier": 20,
     "category": 5,
     "lead": 3.6,
-    "relevance": 4,
-    "freshness": 18.9,
+    "relevance": 28,
+    "freshness": 17.6,
     "corroborated": 10
    },
    "keywords": [
-    "hotel"
-   ],
-   "shock_terms": [],
-   "dedupe_match": null,
-   "dedupe_similarity": 0.0,
-   "id": "80d70782504d",
-   "title": "HVS Europe Hotel Transactions Bulletin - Week Ending 21 August 2026",
-   "url": "https://www.hospitalitynet.org/news/4134079/hvs-europe-hotel-transactions-bulletin-week-ending-21-august-2026",
-   "summary": "",
-   "kind": "item",
-   "source": "Hospitality Net \u2014 Africa announcements",
-   "source_id": "dev-hospitalitynet-africa",
-   "tier": 2,
-   "country": "REG",
-   "category": "trade",
-   "segments": [
-    "city",
-    "bush",
-    "beach"
-   ],
-   "first_seen": "2026-08-25T15:50+03:00",
-   "published": "2026-08-25",
-   "verdict": "weak"
-  },
-  {
-   "score": 61.5,
-   "components": {
-    "tier": 20,
-    "category": 5,
-    "lead": 3.6,
-    "relevance": 4,
-    "freshness": 18.9,
-    "corroborated": 10
-   },
-   "keywords": [
-    "guest"
-   ],
-   "shock_terms": [],
-   "dedupe_match": null,
-   "dedupe_similarity": 0.0,
-   "id": "07ad7e7e6a1d",
-   "title": "Everything the OTA sends you about your guest expires",
-   "url": "https://www.hospitalitynet.org/opinion/4134066/everything-the-ota-sends-you-about-your-guest-expires",
-   "summary": "",
-   "kind": "item",
-   "source": "Hospitality Net \u2014 Africa announcements",
-   "source_id": "dev-hospitalitynet-africa",
-   "tier": 2,
-   "country": "REG",
-   "category": "trade",
-   "segments": [
-    "city",
-    "bush",
-    "beach"
-   ],
-   "first_seen": "2026-08-25T15:50+03:00",
-   "published": "2026-08-25",
-   "verdict": "weak"
-  },
-  {
-   "score": 61.5,
-   "components": {
-    "tier": 20,
-    "category": 5,
-    "lead": 3.6,
-    "relevance": 4,
-    "freshness": 18.9,
-    "corroborated": 10
-   },
-   "keywords": [
-    "tourism"
-   ],
-   "shock_terms": [],
-   "dedupe_match": null,
-   "dedupe_similarity": 0.0,
-   "id": "2707fa694b59",
-   "title": "Who Is Tourism For?",
-   "url": "https://www.hospitalitynet.org/opinion/4134068/who-is-tourism-for",
-   "summary": "",
-   "kind": "item",
-   "source": "Hospitality Net \u2014 Africa announcements",
-   "source_id": "dev-hospitalitynet-africa",
-   "tier": 2,
-   "country": "REG",
-   "category": "trade",
-   "segments": [
-    "city",
-    "bush",
-    "beach"
-   ],
-   "first_seen": "2026-08-25T15:50+03:00",
-   "published": "2026-08-25",
-   "verdict": "weak"
-  },
-  {
-   "score": 61.5,
-   "components": {
-    "tier": 20,
-    "category": 5,
-    "lead": 3.6,
-    "relevance": 4,
-    "freshness": 18.9,
-    "corroborated": 10
-   },
-   "keywords": [
-    "hotel"
-   ],
-   "shock_terms": [],
-   "dedupe_match": null,
-   "dedupe_similarity": 0.0,
-   "id": "c1bfd57e4ac3",
-   "title": "IHCL and Oriental Hotels Limited Announce Merger",
-   "url": "https://www.hospitalitynet.org/news/4134081/ihcl-and-oriental-hotels-limited-announce-merger",
-   "summary": "",
-   "kind": "item",
-   "source": "Hospitality Net \u2014 Africa announcements",
-   "source_id": "dev-hospitalitynet-africa",
-   "tier": 2,
-   "country": "REG",
-   "category": "trade",
-   "segments": [
-    "city",
-    "bush",
-    "beach"
-   ],
-   "first_seen": "2026-08-25T15:50+03:00",
-   "published": "2026-08-25",
-   "verdict": "weak"
-  },
-  {
-   "score": 61.5,
-   "components": {
-    "tier": 20,
-    "category": 5,
-    "lead": 3.6,
-    "relevance": 4,
-    "freshness": 18.9,
-    "corroborated": 10
-   },
-   "keywords": [
+    "occupancy",
+    "adr",
+    "revpar",
     "hotel"
    ],
    "shock_terms": [],
@@ -373,7 +350,393 @@
    "id": "90b7f8b7948b",
    "title": "The Pricing-Power Divide: Why Luxury Is Leading the US Hotel Recovery",
    "url": "https://www.hospitalitynet.org/opinion/4134038/the-pricing-power-divide-why-luxury-is-leading-the-us-hotel-recovery",
-   "summary": "",
+   "summary": "US H1 data shows luxury hotels grew RevPAR 15.9% by capturing both rate and volume gains, while economy hotels grew occupancy but saw ADR fall 9.3%, producing a RevPAR decline.",
+   "kind": "item",
+   "source": "Hospitality Net \u2014 Africa announcements",
+   "source_id": "dev-hospitalitynet-africa",
+   "tier": 2,
+   "country": "REG",
+   "category": "trade",
+   "segments": [
+    "city",
+    "bush",
+    "beach"
+   ],
+   "first_seen": "2026-08-25T15:50+03:00",
+   "published": "2026-08-25",
+   "verdict": "CONSIDER"
+  },
+  {
+   "score": 81.8,
+   "components": {
+    "tier": 40,
+    "category": 20,
+    "lead": 12.0,
+    "relevance": 0,
+    "freshness": 19.8,
+    "stale_trap": -10
+   },
+   "keywords": [],
+   "shock_terms": [],
+   "dedupe_match": null,
+   "dedupe_similarity": 0.0,
+   "id": "fb9fbfce6900",
+   "title": "The State Corporations (Amendment) Bill, 2026",
+   "url": "https://new.kenyalaw.org/akn/ke/bill/na/2026-08-19/the-state-corporations-amendment-bill-2026/eng@2026-08-19",
+   "summary": "The State Corporations (Amendment) Bill, 2026",
+   "kind": "item",
+   "source": "Kenya Gazette (Kenya Law)",
+   "source_id": "ke-gazette",
+   "tier": 1,
+   "country": "KE",
+   "category": "gazette",
+   "segments": [
+    "city",
+    "bush",
+    "beach"
+   ],
+   "first_seen": "2026-08-25T17:48+03:00",
+   "published": "2026-08-19",
+   "verdict": "CHECK \u2014 source date older than the window"
+  },
+  {
+   "score": 81.8,
+   "components": {
+    "tier": 40,
+    "category": 20,
+    "lead": 12.0,
+    "relevance": 0,
+    "freshness": 19.8,
+    "stale_trap": -10
+   },
+   "keywords": [],
+   "shock_terms": [],
+   "dedupe_match": null,
+   "dedupe_similarity": 0.0,
+   "id": "9469ba86cd16",
+   "title": "The County Governments Retirement Scheme Bill, 2026",
+   "url": "https://new.kenyalaw.org/akn/ke/bill/na/2026-08-19/the-county-governments-retirement-scheme-bill-2026/eng@2026-08-19",
+   "summary": "The County Governments Retirement Scheme Bill, 2026",
+   "kind": "item",
+   "source": "Kenya Gazette (Kenya Law)",
+   "source_id": "ke-gazette",
+   "tier": 1,
+   "country": "KE",
+   "category": "gazette",
+   "segments": [
+    "city",
+    "bush",
+    "beach"
+   ],
+   "first_seen": "2026-08-25T17:48+03:00",
+   "published": "2026-08-19",
+   "verdict": "CHECK \u2014 source date older than the window"
+  },
+  {
+   "score": 80.2,
+   "components": {
+    "tier": 20,
+    "category": 14,
+    "lead": 8.4,
+    "relevance": 8,
+    "freshness": 19.8,
+    "corroborated": 10
+   },
+   "keywords": [
+    "airline",
+    "flight"
+   ],
+   "shock_terms": [],
+   "dedupe_match": null,
+   "dedupe_similarity": 0.0,
+   "id": "38c20b032bc9",
+   "title": "Asky Airlines Moves Kano Launch to September 2026",
+   "url": "https://www.aeroroutes.com/eng/260825-kpsep26kan",
+   "summary": "Published at 0600PDT / 1300GMT 25AUG26 Asky Airlines from September 2026 plans to launch service to Kano, with 3 weekly flights scheduled on board Boeing 737-800 aircraft. The airline will operate Lome \u2013 Niamey \u2013 Kano routing from 02SEP26. KP026 LFW1435 \u2013 1725NIM1805 \u2013 1940KAN 738 367 KP027 KAN0750 \u2013 0925NIM1005 \u2013 1045LFW 738 147 Note the airline previously scheduled to launch this routing on 05AU",
+   "kind": "item",
+   "source": "AeroRoutes schedule filings",
+   "source_id": "aeroroutes",
+   "tier": 2,
+   "country": "GLOBAL",
+   "category": "aviation-tracker",
+   "segments": [
+    "city",
+    "bush",
+    "beach"
+   ],
+   "first_seen": "2026-08-25T17:48+03:00",
+   "published": "2026-08-25",
+   "verdict": "CONSIDER"
+  },
+  {
+   "score": 80.2,
+   "components": {
+    "tier": 20,
+    "category": 5,
+    "lead": 3.6,
+    "relevance": 24,
+    "freshness": 17.6,
+    "corroborated": 10
+   },
+   "keywords": [
+    "occupancy",
+    "fuel",
+    "hotel",
+    "investment"
+   ],
+   "shock_terms": [],
+   "dedupe_match": null,
+   "dedupe_similarity": 0.0,
+   "id": "8e04e223b2bc",
+   "title": "Boise\u2019s Expanding Economy Fuels Long-Term Hotel Market Strength",
+   "url": "https://www.hospitalitynet.org/opinion/4134076/boises-expanding-economy-fuels-long-term-hotel-market-strength",
+   "summary": "Boise's hotel market has maintained ~70% occupancy despite a 50,000-room-night supply increase since 2019, driven by tech sector investment, healthcare expansion, and 10%+ population growth in Ada County.",
+   "kind": "item",
+   "source": "Hospitality Net \u2014 Africa announcements",
+   "source_id": "dev-hospitalitynet-africa",
+   "tier": 2,
+   "country": "REG",
+   "category": "trade",
+   "segments": [
+    "city",
+    "bush",
+    "beach"
+   ],
+   "first_seen": "2026-08-25T15:50+03:00",
+   "published": "2026-08-25",
+   "verdict": "CONSIDER"
+  },
+  {
+   "score": 74.8,
+   "components": {
+    "tier": 40,
+    "category": 20,
+    "lead": 12.0,
+    "relevance": 8,
+    "freshness": 19.8,
+    "stale_trap": -25
+   },
+   "keywords": [
+    "gazette"
+   ],
+   "shock_terms": [],
+   "dedupe_match": null,
+   "dedupe_similarity": 0.0,
+   "id": "36ed1951ccef",
+   "title": "Kenya Gazette Vol. CXXVIII-No. 142",
+   "url": "https://new.kenyalaw.org/akn/ke/officialGazette/2026-08-18/142/eng@2026-08-18",
+   "summary": "Kenya Gazette Vol. CXXVIII-No. 142",
+   "kind": "item",
+   "source": "Kenya Gazette (Kenya Law)",
+   "source_id": "ke-gazette",
+   "tier": 1,
+   "country": "KE",
+   "category": "gazette",
+   "segments": [
+    "city",
+    "bush",
+    "beach"
+   ],
+   "first_seen": "2026-08-25T17:48+03:00",
+   "published": "2026-08-18",
+   "verdict": "CHECK \u2014 source date older than the window"
+  },
+  {
+   "score": 74.8,
+   "components": {
+    "tier": 40,
+    "category": 20,
+    "lead": 12.0,
+    "relevance": 8,
+    "freshness": 19.8,
+    "stale_trap": -25
+   },
+   "keywords": [
+    "gazette"
+   ],
+   "shock_terms": [],
+   "dedupe_match": null,
+   "dedupe_similarity": 0.0,
+   "id": "d64e94e42e7a",
+   "title": "Kenya Gazette Vol. CXXVIII-No. 141",
+   "url": "https://new.kenyalaw.org/akn/ke/officialGazette/2026-08-18/141/eng@2026-08-18",
+   "summary": "Kenya Gazette Vol. CXXVIII-No. 141",
+   "kind": "item",
+   "source": "Kenya Gazette (Kenya Law)",
+   "source_id": "ke-gazette",
+   "tier": 1,
+   "country": "KE",
+   "category": "gazette",
+   "segments": [
+    "city",
+    "bush",
+    "beach"
+   ],
+   "first_seen": "2026-08-25T17:48+03:00",
+   "published": "2026-08-18",
+   "verdict": "CHECK \u2014 source date older than the window"
+  },
+  {
+   "score": 74.8,
+   "components": {
+    "tier": 40,
+    "category": 20,
+    "lead": 12.0,
+    "relevance": 8,
+    "freshness": 19.8,
+    "stale_trap": -25
+   },
+   "keywords": [
+    "gazette"
+   ],
+   "shock_terms": [],
+   "dedupe_match": null,
+   "dedupe_similarity": 0.0,
+   "id": "d86caf4b2ed4",
+   "title": "Kenya Gazette Vol. CXXVIII-No. 139",
+   "url": "https://new.kenyalaw.org/akn/ke/officialGazette/2026-08-14/139/eng@2026-08-14",
+   "summary": "Kenya Gazette Vol. CXXVIII-No. 139",
+   "kind": "item",
+   "source": "Kenya Gazette (Kenya Law)",
+   "source_id": "ke-gazette",
+   "tier": 1,
+   "country": "KE",
+   "category": "gazette",
+   "segments": [
+    "city",
+    "bush",
+    "beach"
+   ],
+   "first_seen": "2026-08-25T17:48+03:00",
+   "published": "2026-08-14",
+   "verdict": "CHECK \u2014 source date older than the window"
+  },
+  {
+   "score": 72.2,
+   "components": {
+    "tier": 20,
+    "category": 14,
+    "lead": 8.4,
+    "relevance": 0,
+    "freshness": 19.8,
+    "corroborated": 10
+   },
+   "keywords": [],
+   "shock_terms": [],
+   "dedupe_match": null,
+   "dedupe_similarity": 0.0,
+   "id": "5bf8ee51dbd5",
+   "title": "Riyadh Air NW26 Kuala Lumpur / Manchester Operational Day Changes",
+   "url": "https://www.aeroroutes.com/eng/260825-rxnw26kulman",
+   "summary": "Published at 0500PDT / 1200GMT 25AUG26 Riyadh Air in recent schedule update filed operational day changes for service to Kuala Lumpur and Manchester during Northern winter 2026/27 season. Riyadh \u2013 Kuala Lumpur eff 26OCT26 Day 135 replaces Day 246 (KUL departure Day 246 replaces Day 357) RX863 RUH2250 \u2013 1125+1KUL 789 135 RX864 KUL1620 \u2013 1945RUH 789 246 Riyadh \u2013 Manchester eff 28OCT26 Day 357 replac",
+   "kind": "item",
+   "source": "AeroRoutes schedule filings",
+   "source_id": "aeroroutes",
+   "tier": 2,
+   "country": "GLOBAL",
+   "category": "aviation-tracker",
+   "segments": [
+    "city",
+    "bush",
+    "beach"
+   ],
+   "first_seen": "2026-08-25T17:48+03:00",
+   "published": "2026-08-25",
+   "verdict": "CONSIDER"
+  },
+  {
+   "score": 72.2,
+   "components": {
+    "tier": 20,
+    "category": 5,
+    "lead": 3.6,
+    "relevance": 16,
+    "freshness": 17.6,
+    "corroborated": 10
+   },
+   "keywords": [
+    "fee",
+    "hotel",
+    "guest"
+   ],
+   "shock_terms": [],
+   "dedupe_match": null,
+   "dedupe_similarity": 0.0,
+   "id": "49b62f8c7612",
+   "title": "Guests Don\u2019t Want Your Playlist (They Want the Feeling They Can Take Home)",
+   "url": "https://www.hospitalitynet.org/opinion/4134082/guests-dont-want-your-playlist-they-want-the-feeling-they-can-take-home",
+   "summary": "Sonic identity is framed as a portable, shareable brand asset, with research showing distinct hotel music boosts guest favorability and F&B revenue when programmed intentionally across dayparts.",
+   "kind": "item",
+   "source": "Hospitality Net \u2014 Africa announcements",
+   "source_id": "dev-hospitalitynet-africa",
+   "tier": 2,
+   "country": "REG",
+   "category": "trade",
+   "segments": [
+    "city",
+    "bush",
+    "beach"
+   ],
+   "first_seen": "2026-08-25T15:50+03:00",
+   "published": "2026-08-25",
+   "verdict": "CONSIDER"
+  },
+  {
+   "score": 70.8,
+   "components": {
+    "tier": 40,
+    "category": 20,
+    "lead": 12.0,
+    "relevance": 4,
+    "freshness": 19.8,
+    "stale_trap": -25
+   },
+   "keywords": [
+    "passenger"
+   ],
+   "shock_terms": [],
+   "dedupe_match": null,
+   "dedupe_similarity": 0.0,
+   "id": "4010c60c3d91",
+   "title": "The Air Passenger Service Charge (Amendment) Bill, 2026",
+   "url": "https://new.kenyalaw.org/akn/ke/bill/na/2026-08-12/the-air-passenger-service-charge-amendment-bill-2026/eng@2026-08-12",
+   "summary": "The Air Passenger Service Charge (Amendment) Bill, 2026",
+   "kind": "item",
+   "source": "Kenya Gazette (Kenya Law)",
+   "source_id": "ke-gazette",
+   "tier": 1,
+   "country": "KE",
+   "category": "gazette",
+   "segments": [
+    "city",
+    "bush",
+    "beach"
+   ],
+   "first_seen": "2026-08-25T17:48+03:00",
+   "published": "2026-08-12",
+   "verdict": "CHECK \u2014 source date older than the window"
+  },
+  {
+   "score": 68.2,
+   "components": {
+    "tier": 20,
+    "category": 5,
+    "lead": 3.6,
+    "relevance": 12,
+    "freshness": 17.6,
+    "corroborated": 10
+   },
+   "keywords": [
+    "revpar",
+    "hotel"
+   ],
+   "shock_terms": [],
+   "dedupe_match": null,
+   "dedupe_similarity": 0.0,
+   "id": "1af8ba6a62bf",
+   "title": "How the Improved Forecast Should Shape Your 2027 Budget",
+   "url": "https://www.hospitalitynet.org/opinion/4134085/how-the-improved-forecast-should-shape-your-2027-budget",
+   "summary": "STR raised its 2026 U.S. RevPAR forecast to 4.4% growth, and this piece explains how hoteliers should translate national trends into property-level 2027 budgets by aligning financial and demand forecasts.",
    "kind": "item",
    "source": "Hospitality Net \u2014 Africa announcements",
    "source_id": "dev-hospitalitynet-africa",
@@ -390,17 +753,270 @@
    "verdict": "weak"
   },
   {
-   "score": 59.1,
+   "score": 68.2,
+   "components": {
+    "tier": 20,
+    "category": 5,
+    "lead": 3.6,
+    "relevance": 12,
+    "freshness": 17.6,
+    "corroborated": 10
+   },
+   "keywords": [
+    "hotel",
+    "booking",
+    "guest"
+   ],
+   "shock_terms": [],
+   "dedupe_match": null,
+   "dedupe_similarity": 0.0,
+   "id": "07ad7e7e6a1d",
+   "title": "Everything the OTA sends you about your guest expires",
+   "url": "https://www.hospitalitynet.org/opinion/4134066/everything-the-ota-sends-you-about-your-guest-expires",
+   "summary": "OTA-provided guest emails, phone numbers, and virtual cards all expire within days or weeks, leaving hotels with no reachable guest list \u2014 and AI booking agents are set to repeat the same pattern.",
+   "kind": "item",
+   "source": "Hospitality Net \u2014 Africa announcements",
+   "source_id": "dev-hospitalitynet-africa",
+   "tier": 2,
+   "country": "REG",
+   "category": "trade",
+   "segments": [
+    "city",
+    "bush",
+    "beach"
+   ],
+   "first_seen": "2026-08-25T15:50+03:00",
+   "published": "2026-08-25",
+   "verdict": "weak"
+  },
+  {
+   "score": 68.2,
+   "components": {
+    "tier": 20,
+    "category": 5,
+    "lead": 3.6,
+    "relevance": 12,
+    "freshness": 17.6,
+    "corroborated": 10
+   },
+   "keywords": [
+    "adr",
+    "hotel"
+   ],
+   "shock_terms": [],
+   "dedupe_match": null,
+   "dedupe_similarity": 0.0,
+   "id": "80d70782504d",
+   "title": "HVS Europe Hotel Transactions Bulletin - Week Ending 21 August 2026",
+   "url": "https://www.hospitalitynet.org/news/4134079/hvs-europe-hotel-transactions-bulletin-week-ending-21-august-2026",
+   "summary": "HVS Europe's weekly bulletin covers three hotel transactions: BNP Paribas selling a Madrid hotel for \u20ac80M, HWS acquiring IntercityHotel Kiel, and Townhouse Hotels buying two properties in Breda.",
+   "kind": "item",
+   "source": "Hospitality Net \u2014 Africa announcements",
+   "source_id": "dev-hospitalitynet-africa",
+   "tier": 2,
+   "country": "REG",
+   "category": "trade",
+   "segments": [
+    "city",
+    "bush",
+    "beach"
+   ],
+   "first_seen": "2026-08-25T15:50+03:00",
+   "published": "2026-08-25",
+   "verdict": "weak"
+  },
+  {
+   "score": 64.2,
+   "components": {
+    "tier": 20,
+    "category": 5,
+    "lead": 3.6,
+    "relevance": 8,
+    "freshness": 17.6,
+    "corroborated": 10
+   },
+   "keywords": [
+    "hotel",
+    "rooms"
+   ],
+   "shock_terms": [],
+   "dedupe_match": null,
+   "dedupe_similarity": 0.0,
+   "id": "c1bfd57e4ac3",
+   "title": "IHCL and Oriental Hotels Limited Announce Merger",
+   "url": "https://www.hospitalitynet.org/news/4134081/ihcl-and-oriental-hotels-limited-announce-merger",
+   "summary": "IHCL will absorb associate company OHL via an all-stock deal at 25 IHCL shares per 117 OHL shares, folding in seven hotels and 825 rooms, with completion targeted in H2 FY2028.",
+   "kind": "item",
+   "source": "Hospitality Net \u2014 Africa announcements",
+   "source_id": "dev-hospitalitynet-africa",
+   "tier": 2,
+   "country": "REG",
+   "category": "trade",
+   "segments": [
+    "city",
+    "bush",
+    "beach"
+   ],
+   "first_seen": "2026-08-25T15:50+03:00",
+   "published": "2026-08-25",
+   "verdict": "weak"
+  },
+  {
+   "score": 64.2,
+   "components": {
+    "tier": 20,
+    "category": 5,
+    "lead": 3.6,
+    "relevance": 8,
+    "freshness": 17.6,
+    "corroborated": 10
+   },
+   "keywords": [
+    "flight",
+    "booking"
+   ],
+   "shock_terms": [],
+   "dedupe_match": null,
+   "dedupe_similarity": 0.17,
+   "id": "e57731514de5",
+   "title": "Cruises, National Parks, and European Cities Popular Among Labor Day Travelers",
+   "url": "https://www.hospitalitynet.org/news/4134080/cruises-national-parks-and-european-cities-popular-among-labor-day-travelers",
+   "summary": "AAA booking data shows Alaska cruises, National Parks, and European cities topping Labor Day 2025 demand, with domestic airfares up 20% for top destinations while international flights fell 4%.",
+   "kind": "item",
+   "source": "Hospitality Net \u2014 Africa announcements",
+   "source_id": "dev-hospitalitynet-africa",
+   "tier": 2,
+   "country": "REG",
+   "category": "trade",
+   "segments": [
+    "city",
+    "bush",
+    "beach"
+   ],
+   "first_seen": "2026-08-25T15:50+03:00",
+   "published": "2026-08-25",
+   "verdict": "weak"
+  },
+  {
+   "score": 64.0,
    "components": {
     "tier": 20,
     "category": 5,
     "lead": 1.2,
-    "relevance": 4,
-    "freshness": 18.9,
+    "relevance": 8,
+    "freshness": 19.8,
     "corroborated": 10
    },
    "keywords": [
-    "tourism"
+    "flight",
+    "mice"
+   ],
+   "shock_terms": [],
+   "dedupe_match": null,
+   "dedupe_similarity": 0.0,
+   "id": "64726f882896",
+   "title": "From Aspirations to Action: Moving Africa\u2019s MICE share beyond 2%",
+   "url": "https://voyagesafriq.com/2026/08/25/from-aspirations-to-action-moving-africas-mice-share-beyond-2",
+   "summary": "Imagine taking a flight to a destination, not for a vacation, but for a business event. Upon arrival, you meet people from different destinations, industries and cultures. In one room, [\u2026] The post From Aspirations to Action: Moving Africa\u2019s MICE share beyond 2%<gwmw style=\"display:none;\"></gwmw> appeared first on Voyages Afriq .",
+   "kind": "item",
+   "source": "VoyagesAfriq",
+   "source_id": "tp-voyagesafriq",
+   "tier": 2,
+   "country": "REG",
+   "category": "trade",
+   "segments": [
+    "city",
+    "bush",
+    "beach"
+   ],
+   "first_seen": "2026-08-25T17:48+03:00",
+   "published": "2026-08-25",
+   "verdict": "weak"
+  },
+  {
+   "score": 64.0,
+   "components": {
+    "tier": 20,
+    "category": 5,
+    "lead": 1.2,
+    "relevance": 8,
+    "freshness": 19.8,
+    "corroborated": 10
+   },
+   "keywords": [
+    "tourism",
+    "investment"
+   ],
+   "shock_terms": [],
+   "dedupe_match": null,
+   "dedupe_similarity": 0.0,
+   "id": "e82a9e8fa78e",
+   "title": "Mona Boyd calls for bold investment to transform Ghana from niche to mainstream destination",
+   "url": "https://voyagesafriq.com/2026/08/25/mona-boyd-calls-for-bold-investment-to-transform-ghana-from-niche-to-mainstream-destination",
+   "summary": "At the 2026 edition of WTM Africa in Cape Town, Mona Boyd, Executive Chair of Landtours Ghana, delivered a candid assessment of Ghana\u2019s tourism industry, praising the country\u2019s growing appeal [\u2026] The post Mona Boyd calls for bold investment to transform Ghana from niche to mainstream destination appeared first on Voyages Afriq .",
+   "kind": "item",
+   "source": "VoyagesAfriq",
+   "source_id": "tp-voyagesafriq",
+   "tier": 2,
+   "country": "REG",
+   "category": "trade",
+   "segments": [
+    "city",
+    "bush",
+    "beach"
+   ],
+   "first_seen": "2026-08-25T17:48+03:00",
+   "published": "2026-08-25",
+   "verdict": "weak"
+  },
+  {
+   "score": 61.8,
+   "components": {
+    "tier": 20,
+    "category": 4,
+    "lead": 0.0,
+    "relevance": 8,
+    "freshness": 19.8,
+    "corroborated": 10
+   },
+   "keywords": [
+    "fuel"
+   ],
+   "shock_terms": [],
+   "dedupe_match": null,
+   "dedupe_similarity": 0.33,
+   "id": "7ae1180a97af",
+   "title": "Uganda set to hit 5% ethanol fuel blending target within three months",
+   "url": "https://www.monitor.co.ug/uganda/news/national/uganda-set-to-hit-5-ethanol-fuel-blending-target-within-three-months-5570132",
+   "summary": "Uganda could hit ethanol blending target 14 years early",
+   "kind": "item",
+   "source": "Daily Monitor (Uganda)",
+   "source_id": "np-monitor-ug",
+   "tier": 2,
+   "country": "UG",
+   "category": "press",
+   "segments": [
+    "city",
+    "bush",
+    "beach"
+   ],
+   "first_seen": "2026-08-25T17:48+03:00",
+   "published": "2026-08-25",
+   "verdict": "weak"
+  },
+  {
+   "score": 61.8,
+   "components": {
+    "tier": 20,
+    "category": 5,
+    "lead": 1.2,
+    "relevance": 8,
+    "freshness": 17.6,
+    "corroborated": 10
+   },
+   "keywords": [
+    "tourism",
+    "investment"
    ],
    "shock_terms": [],
    "dedupe_match": null,
@@ -408,7 +1024,7 @@
    "id": "f906bcd9544f",
    "title": "Fitch Revises Tanzania Outlook to Positive, Affirms \u2018B+\u2019 Rating, Forecasts GDP Growth of 5.8% in 2026 Driven by Tourism and Mining",
    "url": "https://www.tanzaniainvest.com/economy/fitch-positive-outlook-b-plus-rating-august-2026",
-   "summary": "",
+   "summary": "Fitch Ratings revised Tanzania's outlook to positive from stable while affirming the sovereign rating at 'B+', citing strengthening reserves and a gradual decline in government debt, warning, however, that the credit rating remains constrained by weak governance and low government revenue. The agency forecasts real GDP growth of 5.8% in 2026 and an average of 6.1% in 2027 and 2028, driven by publi",
    "kind": "item",
    "source": "TanzaniaInvest \u2014 tourism",
    "source_id": "tp-tanzaniainvest",
@@ -425,13 +1041,257 @@
    "verdict": "weak"
   },
   {
-   "score": 57.5,
+   "score": 61.8,
+   "components": {
+    "tier": 20,
+    "category": 5,
+    "lead": 1.2,
+    "relevance": 8,
+    "freshness": 17.6,
+    "corroborated": 10
+   },
+   "keywords": [
+    "route"
+   ],
+   "shock_terms": [],
+   "dedupe_match": null,
+   "dedupe_similarity": 0.0,
+   "id": "bd790f6fe439",
+   "title": "United Adds 10 Routes Across Europe and Asia \u2014 From Okinawa to Ibiza",
+   "url": "https://skift.com/2026/08/25/united-adds-10-new-international-routes-from-okinawa-to-ibiza",
+   "summary": "Unique destinations have become a central part of United\u2019s strategy as it caters to more premium travelers and operates in an increasingly competitive transatlantic market.",
+   "kind": "item",
+   "source": "Skift",
+   "source_id": "tp-skift",
+   "tier": 2,
+   "country": "GLOBAL",
+   "category": "trade",
+   "segments": [
+    "city",
+    "bush",
+    "beach"
+   ],
+   "first_seen": "2026-08-25T15:50+03:00",
+   "published": "2026-08-25",
+   "verdict": "weak"
+  },
+  {
+   "score": 60.2,
+   "components": {
+    "tier": 20,
+    "category": 5,
+    "lead": 3.6,
+    "relevance": 4,
+    "freshness": 17.6,
+    "corroborated": 10
+   },
+   "keywords": [
+    "hotel"
+   ],
+   "shock_terms": [],
+   "dedupe_match": null,
+   "dedupe_similarity": 0.0,
+   "id": "6a6f78e41d38",
+   "title": "Predicting AI is futile, preparing isn\u2019t",
+   "url": "https://www.hospitalitynet.org/opinion/4134084/predicting-ai-is-futile-preparing-isnt",
+   "summary": "A strategic case for why hotels should prioritize open APIs, data accessibility, and AI-ready PMS flexibility over chasing today's best AI features.",
+   "kind": "item",
+   "source": "Hospitality Net \u2014 Africa announcements",
+   "source_id": "dev-hospitalitynet-africa",
+   "tier": 2,
+   "country": "REG",
+   "category": "trade",
+   "segments": [
+    "city",
+    "bush",
+    "beach"
+   ],
+   "first_seen": "2026-08-25T15:50+03:00",
+   "published": "2026-08-25",
+   "verdict": "weak"
+  },
+  {
+   "score": 60.2,
+   "components": {
+    "tier": 20,
+    "category": 5,
+    "lead": 3.6,
+    "relevance": 4,
+    "freshness": 17.6,
+    "corroborated": 10
+   },
+   "keywords": [
+    "tourism"
+   ],
+   "shock_terms": [],
+   "dedupe_match": null,
+   "dedupe_similarity": 0.0,
+   "id": "2707fa694b59",
+   "title": "Who Is Tourism For?",
+   "url": "https://www.hospitalitynet.org/opinion/4134068/who-is-tourism-for",
+   "summary": "The author challenges the industry's growth-at-all-costs mindset, arguing destinations must measure resident benefit alongside visitor volume and establish a transparent social contract for tourism.",
+   "kind": "item",
+   "source": "Hospitality Net \u2014 Africa announcements",
+   "source_id": "dev-hospitalitynet-africa",
+   "tier": 2,
+   "country": "REG",
+   "category": "trade",
+   "segments": [
+    "city",
+    "bush",
+    "beach"
+   ],
+   "first_seen": "2026-08-25T15:50+03:00",
+   "published": "2026-08-25",
+   "verdict": "weak"
+  },
+  {
+   "score": 60.0,
+   "components": {
+    "tier": 20,
+    "category": 5,
+    "lead": 1.2,
+    "relevance": 4,
+    "freshness": 19.8,
+    "corroborated": 10
+   },
+   "keywords": [
+    "mice"
+   ],
+   "shock_terms": [],
+   "dedupe_match": null,
+   "dedupe_similarity": 0.0,
+   "id": "55ea8ae1242a",
+   "title": "Angola opens new convention centre as it targets greater share of Africa\u2019s MICE market",
+   "url": "https://voyagesafriq.com/2026/08/25/angola-opens-new-convention-centre-as-it-targets-greater-share-of-africas-mice-market",
+   "summary": "Angola has opened a major new chapter in its ambition to compete for Africa\u2019s business events market, with President Jo\u00e3o Louren\u00e7o inaugurating the Pal\u00e1cio de Conven\u00e7\u00f5es de Luanda as the country seeks [\u2026] The post Angola opens new convention centre as it targets greater share of Africa\u2019s MICE market appeared first on Voyages Afriq .",
+   "kind": "item",
+   "source": "VoyagesAfriq",
+   "source_id": "tp-voyagesafriq",
+   "tier": 2,
+   "country": "REG",
+   "category": "trade",
+   "segments": [
+    "city",
+    "bush",
+    "beach"
+   ],
+   "first_seen": "2026-08-25T17:48+03:00",
+   "published": "2026-08-25",
+   "verdict": "weak"
+  },
+  {
+   "score": 59.6,
+   "components": {
+    "tier": 20,
+    "category": 4,
+    "lead": 0.0,
+    "relevance": 8,
+    "freshness": 17.6,
+    "corroborated": 10
+   },
+   "keywords": [
+    "eta"
+   ],
+   "shock_terms": [],
+   "dedupe_match": null,
+   "dedupe_similarity": 0.17,
+   "id": "e063519c8b13",
+   "title": "Dr Magembe joins Tanzanian delegation at the WHO-backed 76th Session for Africa",
+   "url": "https://dailynews.co.tz/dr-magembe-joins-tanzanian-delegation-at-the-who-backed-76th-session-for-africa",
+   "summary": "ADDIS ABABA: TANZANIA\u2019 S Chief Medical Officer and Permanent Secretary in the Ministry of Health, Dr Grace Magembe, has arrived in Addis Ababa, Ethiopia, to join the Tanzanian delegation led by Deputy Minister for Health, Dr Florence Samizi, at the 76th Session of the World Health Organization (WHO) Regional Committee for Africa. The meeting is \u2026 The post Dr Magembe joins Tanzanian delegation at t",
+   "kind": "item",
+   "source": "Daily News (Tanzania)",
+   "source_id": "np-dailynews-tz",
+   "tier": 2,
+   "country": "TZ",
+   "category": "press",
+   "segments": [
+    "city",
+    "bush",
+    "beach"
+   ],
+   "first_seen": "2026-08-25T15:50+03:00",
+   "published": "2026-08-25",
+   "verdict": "weak"
+  },
+  {
+   "score": 57.8,
+   "components": {
+    "tier": 20,
+    "category": 4,
+    "lead": 0.0,
+    "relevance": 4,
+    "freshness": 19.8,
+    "corroborated": 10
+   },
+   "keywords": [
+    "airline"
+   ],
+   "shock_terms": [],
+   "dedupe_match": null,
+   "dedupe_similarity": 0.33,
+   "id": "c6244cd904f7",
+   "title": "Uganda Airlines may not be there yet, but it can be",
+   "url": "https://www.monitor.co.ug/uganda/oped/commentary/uganda-airlines-may-not-be-there-yet-but-it-can-be-5570218",
+   "summary": "Uganda Airlines can become a symbol of national competence",
+   "kind": "item",
+   "source": "Daily Monitor (Uganda)",
+   "source_id": "np-monitor-ug",
+   "tier": 2,
+   "country": "UG",
+   "category": "press",
+   "segments": [
+    "city",
+    "bush",
+    "beach"
+   ],
+   "first_seen": "2026-08-25T17:48+03:00",
+   "published": "2026-08-25",
+   "verdict": "weak"
+  },
+  {
+   "score": 56.2,
+   "components": {
+    "tier": 20,
+    "category": 24,
+    "lead": 2.4,
+    "relevance": 0,
+    "freshness": 19.8,
+    "undated": -6,
+    "page_change": -4
+   },
+   "keywords": [],
+   "shock_terms": [],
+   "dedupe_match": null,
+   "dedupe_similarity": 0.0,
+   "id": "2564504cdaa5",
+   "title": "[page changed] ProMED-mail",
+   "url": "https://promedmail.org/",
+   "summary": "Protecting Global Health, One Alert at a Time | ProMED Previous slide Next slide Protecting Global Health, One Alert at a Time ProMED: Your 24/7 early warning system for emerging infectious diseases worldwide. Subscribe ProMED's Weekly Pulse A snapshot of global health events from the past 7 days Latest Posts on ProMED All Date Title Tue Aug 25 2026 PILCHARD HERPESVIRUS - SOUTH AFRICA: (WESTERN CA",
+   "kind": "page-change",
+   "source": "ProMED-mail",
+   "source_id": "promed",
+   "tier": 2,
+   "country": "GLOBAL",
+   "category": "health",
+   "segments": [
+    "city",
+    "bush",
+    "beach"
+   ],
+   "first_seen": "2026-08-25T17:48+03:00",
+   "published": null,
+   "verdict": "weak"
+  },
+  {
+   "score": 56.2,
    "components": {
     "tier": 20,
     "category": 5,
     "lead": 3.6,
     "relevance": 0,
-    "freshness": 18.9,
+    "freshness": 17.6,
     "corroborated": 10
    },
    "keywords": [],
@@ -441,7 +1301,7 @@
    "id": "7e5ee50d1617",
    "title": "Airbnb commits $1 million to environmental protection in Washington",
    "url": "https://www.hospitalitynet.org/news/4134078/airbnb-commits-1-million-to-environmental-protection-in-washington",
-   "summary": "",
+   "summary": "Airbnb's $1M Washington State commitment funds national park nonprofits, Leave No Trace partnerships, and sustainable forestry projects, plus a volunteer incentive offering $100 in Airbnb credit.",
    "kind": "item",
    "source": "Hospitality Net \u2014 Africa announcements",
    "source_id": "dev-hospitalitynet-africa",
@@ -458,26 +1318,29 @@
    "verdict": "weak"
   },
   {
-   "score": 57.5,
+   "score": 56.0,
    "components": {
     "tier": 20,
     "category": 5,
-    "lead": 3.6,
-    "relevance": 0,
-    "freshness": 18.9,
-    "corroborated": 10
+    "lead": 1.2,
+    "relevance": 16,
+    "freshness": 19.8,
+    "undated": -6
    },
-   "keywords": [],
+   "keywords": [
+    "route",
+    "flood"
+   ],
    "shock_terms": [],
    "dedupe_match": null,
-   "dedupe_similarity": 0.17,
-   "id": "e57731514de5",
-   "title": "Cruises, National Parks, and European Cities Popular Among Labor Day Travelers",
-   "url": "https://www.hospitalitynet.org/news/4134080/cruises-national-parks-and-european-cities-popular-among-labor-day-travelers",
+   "dedupe_similarity": 0.0,
+   "id": "1ae170183f64",
+   "title": "Garden Route rebuilds after flooding, storms",
+   "url": "https://www.tourismupdate.com/article/garden-route-rebuilds-after-flooding-storms",
    "summary": "",
    "kind": "item",
-   "source": "Hospitality Net \u2014 Africa announcements",
-   "source_id": "dev-hospitalitynet-africa",
+   "source": "Tourism Update (Southern & East Africa)",
+   "source_id": "tp-tourismupdate",
    "tier": 2,
    "country": "REG",
    "category": "trade",
@@ -486,534 +1349,19 @@
     "bush",
     "beach"
    ],
-   "first_seen": "2026-08-25T15:50+03:00",
-   "published": "2026-08-25",
-   "verdict": "weak"
-  },
-  {
-   "score": 57.5,
-   "components": {
-    "tier": 20,
-    "category": 5,
-    "lead": 3.6,
-    "relevance": 0,
-    "freshness": 18.9,
-    "corroborated": 10
-   },
-   "keywords": [],
-   "shock_terms": [],
-   "dedupe_match": null,
-   "dedupe_similarity": 0.0,
-   "id": "6a6f78e41d38",
-   "title": "Predicting AI is futile, preparing isn\u2019t",
-   "url": "https://www.hospitalitynet.org/opinion/4134084/predicting-ai-is-futile-preparing-isnt",
-   "summary": "",
-   "kind": "item",
-   "source": "Hospitality Net \u2014 Africa announcements",
-   "source_id": "dev-hospitalitynet-africa",
-   "tier": 2,
-   "country": "REG",
-   "category": "trade",
-   "segments": [
-    "city",
-    "bush",
-    "beach"
-   ],
-   "first_seen": "2026-08-25T15:50+03:00",
-   "published": "2026-08-25",
-   "verdict": "weak"
-  },
-  {
-   "score": 57.5,
-   "components": {
-    "tier": 20,
-    "category": 5,
-    "lead": 3.6,
-    "relevance": 0,
-    "freshness": 18.9,
-    "corroborated": 10
-   },
-   "keywords": [],
-   "shock_terms": [],
-   "dedupe_match": null,
-   "dedupe_similarity": 0.0,
-   "id": "1af8ba6a62bf",
-   "title": "How the Improved Forecast Should Shape Your 2027 Budget",
-   "url": "https://www.hospitalitynet.org/opinion/4134085/how-the-improved-forecast-should-shape-your-2027-budget",
-   "summary": "",
-   "kind": "item",
-   "source": "Hospitality Net \u2014 Africa announcements",
-   "source_id": "dev-hospitalitynet-africa",
-   "tier": 2,
-   "country": "REG",
-   "category": "trade",
-   "segments": [
-    "city",
-    "bush",
-    "beach"
-   ],
-   "first_seen": "2026-08-25T15:50+03:00",
-   "published": "2026-08-25",
-   "verdict": "weak"
-  },
-  {
-   "score": 52.9,
-   "components": {
-    "tier": 20,
-    "category": 4,
-    "lead": 0.0,
-    "relevance": 0,
-    "freshness": 18.9,
-    "corroborated": 10
-   },
-   "keywords": [],
-   "shock_terms": [],
-   "dedupe_match": null,
-   "dedupe_similarity": 0.0,
-   "id": "2c75a6a93eec",
-   "title": "EA seeks broader public participation in capital markets",
-   "url": "https://dailynews.co.tz/ea-seeks-broader-public-participation-in-capital-markets",
-   "summary": "",
-   "kind": "item",
-   "source": "Daily News (Tanzania)",
-   "source_id": "np-dailynews-tz",
-   "tier": 2,
-   "country": "TZ",
-   "category": "press",
-   "segments": [
-    "city",
-    "bush",
-    "beach"
-   ],
-   "first_seen": "2026-08-25T15:50+03:00",
-   "published": "2026-08-25",
-   "verdict": "weak"
-  },
-  {
-   "score": 52.9,
-   "components": {
-    "tier": 20,
-    "category": 4,
-    "lead": 0.0,
-    "relevance": 0,
-    "freshness": 18.9,
-    "corroborated": 10
-   },
-   "keywords": [],
-   "shock_terms": [],
-   "dedupe_match": null,
-   "dedupe_similarity": 0.0,
-   "id": "fc0cc95d6111",
-   "title": "Maulid offers Africa new view of wealth",
-   "url": "https://dailynews.co.tz/maulid-offers-africa-new-view-of-wealth",
-   "summary": "",
-   "kind": "item",
-   "source": "Daily News (Tanzania)",
-   "source_id": "np-dailynews-tz",
-   "tier": 2,
-   "country": "TZ",
-   "category": "press",
-   "segments": [
-    "city",
-    "bush",
-    "beach"
-   ],
-   "first_seen": "2026-08-25T15:50+03:00",
-   "published": "2026-08-25",
-   "verdict": "weak"
-  },
-  {
-   "score": 52.9,
-   "components": {
-    "tier": 20,
-    "category": 4,
-    "lead": 0.0,
-    "relevance": 0,
-    "freshness": 18.9,
-    "corroborated": 10
-   },
-   "keywords": [],
-   "shock_terms": [],
-   "dedupe_match": null,
-   "dedupe_similarity": 0.0,
-   "id": "e063519c8b13",
-   "title": "Dr Magembe joins Tanzanian delegation at the WHO-backed 76th Session for Africa",
-   "url": "https://dailynews.co.tz/dr-magembe-joins-tanzanian-delegation-at-the-who-backed-76th-session-for-africa",
-   "summary": "",
-   "kind": "item",
-   "source": "Daily News (Tanzania)",
-   "source_id": "np-dailynews-tz",
-   "tier": 2,
-   "country": "TZ",
-   "category": "press",
-   "segments": [
-    "city",
-    "bush",
-    "beach"
-   ],
-   "first_seen": "2026-08-25T15:50+03:00",
-   "published": "2026-08-25",
-   "verdict": "weak"
-  },
-  {
-   "score": 44.9,
-   "components": {
-    "tier": 20,
-    "category": 4,
-    "lead": 0.0,
-    "relevance": 8,
-    "freshness": 18.9,
-    "undated": -6
-   },
-   "keywords": [
-    "tariff"
-   ],
-   "shock_terms": [],
-   "dedupe_match": null,
-   "dedupe_similarity": 0.0,
-   "id": "fb18f867e5e5",
-   "title": "World Canada to announce response to Trump's new tariffs",
-   "url": "https://www.newvision.co.ug/category/world/canada-to-announce-response-to-trumps-new-tar-NV_239418_082026",
-   "summary": "",
-   "kind": "item",
-   "source": "New Vision (Uganda)",
-   "source_id": "np-newvision-ug",
-   "tier": 2,
-   "country": "UG",
-   "category": "press",
-   "segments": [
-    "city",
-    "bush",
-    "beach"
-   ],
-   "first_seen": "2026-08-25T15:50+03:00",
+   "first_seen": "2026-08-25T17:48+03:00",
    "published": null,
    "verdict": "weak"
   },
   {
-   "score": 44.9,
-   "components": {
-    "tier": 20,
-    "category": 4,
-    "lead": 0.0,
-    "relevance": 8,
-    "freshness": 18.9,
-    "undated": -6
-   },
-   "keywords": [
-    "eta"
-   ],
-   "shock_terms": [],
-   "dedupe_match": null,
-   "dedupe_similarity": 0.0,
-   "id": "974b684c9d29",
-   "title": "Gatare calls for \u2018Meta-Africanism\u2019 to drive Africa\u2019s next step",
-   "url": "https://www.newtimes.co.rw/article/38412/news/rwanda/gatare-calls-for-meta-africanism-to-drive-africas-next-step",
-   "summary": "",
-   "kind": "item",
-   "source": "The New Times (Rwanda)",
-   "source_id": "np-newtimes-rw",
-   "tier": 2,
-   "country": "RW",
-   "category": "press",
-   "segments": [
-    "city",
-    "bush",
-    "beach"
-   ],
-   "first_seen": "2026-08-25T15:50+03:00",
-   "published": null,
-   "verdict": "weak"
-  },
-  {
-   "score": 44.9,
-   "components": {
-    "tier": 20,
-    "category": 4,
-    "lead": 0.0,
-    "relevance": 8,
-    "freshness": 18.9,
-    "undated": -6
-   },
-   "keywords": [
-    "capacity"
-   ],
-   "shock_terms": [],
-   "dedupe_match": null,
-   "dedupe_similarity": 0.17,
-   "id": "485730197091",
-   "title": "Tanzania targets power exports after attaining surplus capacity 3 hours ago - 4 min read",
-   "url": "https://www.thecitizen.co.tz/tanzania/news/national/tanzania-targets-power-exports-after-attaining-surplus-capacity-5568828",
-   "summary": "",
-   "kind": "item",
-   "source": "The Citizen (Tanzania)",
-   "source_id": "np-citizen-tz",
-   "tier": 2,
-   "country": "TZ",
-   "category": "press",
-   "segments": [
-    "city",
-    "bush",
-    "beach"
-   ],
-   "first_seen": "2026-08-25T15:50+03:00",
-   "published": null,
-   "verdict": "weak"
-  },
-  {
-   "score": 44.9,
-   "components": {
-    "tier": 20,
-    "category": 4,
-    "lead": 0.0,
-    "relevance": 8,
-    "freshness": 18.9,
-    "undated": -6
-   },
-   "keywords": [
-    "election"
-   ],
-   "shock_terms": [],
-   "dedupe_match": null,
-   "dedupe_similarity": 0.0,
-   "id": "77a5889428fc",
-   "title": "National Election inquiry commences 150-day journey with gathering of evidence 4 hours ago - 5 min read",
-   "url": "https://www.thecitizen.co.tz/tanzania/news/national/election-inquiry-commences-150-day-journey-with-gathering-of-evidence-5570120",
-   "summary": "",
-   "kind": "item",
-   "source": "The Citizen (Tanzania)",
-   "source_id": "np-citizen-tz",
-   "tier": 2,
-   "country": "TZ",
-   "category": "press",
-   "segments": [
-    "city",
-    "bush",
-    "beach"
-   ],
-   "first_seen": "2026-08-25T15:50+03:00",
-   "published": null,
-   "verdict": "weak"
-  },
-  {
-   "score": 44.9,
-   "components": {
-    "tier": 20,
-    "category": 4,
-    "lead": 0.0,
-    "relevance": 8,
-    "freshness": 18.9,
-    "undated": -6
-   },
-   "keywords": [
-    "election"
-   ],
-   "shock_terms": [],
-   "dedupe_match": null,
-   "dedupe_similarity": 0.0,
-   "id": "c49edd438c63",
-   "title": "Kenya must win election disinformation fight BY Emmanuel Juma 22 hours ago - 6 min read",
-   "url": "https://www.businessdailyafrica.com/bd/opinion-analysis/letters/kenya-must-win-election-disinformation-fight-5569466",
-   "summary": "",
-   "kind": "item",
-   "source": "Business Daily Africa",
-   "source_id": "np-businessdaily",
-   "tier": 2,
-   "country": "KE",
-   "category": "press",
-   "segments": [
-    "city",
-    "bush",
-    "beach"
-   ],
-   "first_seen": "2026-08-25T15:50+03:00",
-   "published": null,
-   "verdict": "weak"
-  },
-  {
-   "score": 44.9,
-   "components": {
-    "tier": 20,
-    "category": 4,
-    "lead": 0.0,
-    "relevance": 8,
-    "freshness": 18.9,
-    "undated": -6
-   },
-   "keywords": [
-    "tax"
-   ],
-   "shock_terms": [],
-   "dedupe_match": null,
-   "dedupe_similarity": 0.0,
-   "id": "6c132beab55e",
-   "title": "Economy Landlords push tenants to show payslips, tax records as rental vetting tightens 21 hours ago - 5 min read",
-   "url": "https://www.businessdailyafrica.com/bd/economy/landlords-push-tenants-to-show-payslips-tax-records-5569644",
-   "summary": "",
-   "kind": "item",
-   "source": "Business Daily Africa",
-   "source_id": "np-businessdaily",
-   "tier": 2,
-   "country": "KE",
-   "category": "press",
-   "segments": [
-    "city",
-    "bush",
-    "beach"
-   ],
-   "first_seen": "2026-08-25T15:50+03:00",
-   "published": null,
-   "verdict": "weak"
-  },
-  {
-   "score": 44.9,
-   "components": {
-    "tier": 20,
-    "category": 4,
-    "lead": 0.0,
-    "relevance": 8,
-    "freshness": 18.9,
-    "undated": -6
-   },
-   "keywords": [
-    "fuel"
-   ],
-   "shock_terms": [],
-   "dedupe_match": null,
-   "dedupe_similarity": 0.0,
-   "id": "d08df840b73c",
-   "title": "Companies Equity, Proto Energy sign deal for loan on vehicle clean fuel 23 hours ago - 2 min read",
-   "url": "https://www.businessdailyafrica.com/bd/corporate/companies/equity-enters-the-autogas-vehicle-market-5569386",
-   "summary": "",
-   "kind": "item",
-   "source": "Business Daily Africa",
-   "source_id": "np-businessdaily",
-   "tier": 2,
-   "country": "KE",
-   "category": "press",
-   "segments": [
-    "city",
-    "bush",
-    "beach"
-   ],
-   "first_seen": "2026-08-25T15:50+03:00",
-   "published": null,
-   "verdict": "weak"
-  },
-  {
-   "score": 44.9,
-   "components": {
-    "tier": 20,
-    "category": 4,
-    "lead": 0.0,
-    "relevance": 8,
-    "freshness": 18.9,
-    "undated": -6
-   },
-   "keywords": [
-    "fee"
-   ],
-   "shock_terms": [],
-   "dedupe_match": null,
-   "dedupe_similarity": 0.0,
-   "id": "0c6c9dfbb57a",
-   "title": "Companies Audit cuts coffee co-operatives\u2019 debt claim to Sh6.8bn 18 hours ago - 3 min read",
-   "url": "https://www.businessdailyafrica.com/bd/corporate/companies/audit-cuts-coffee-co-operatives-debt-claim-to-sh6-8bn-5569814",
-   "summary": "",
-   "kind": "item",
-   "source": "Business Daily Africa",
-   "source_id": "np-businessdaily",
-   "tier": 2,
-   "country": "KE",
-   "category": "press",
-   "segments": [
-    "city",
-    "bush",
-    "beach"
-   ],
-   "first_seen": "2026-08-25T15:50+03:00",
-   "published": null,
-   "verdict": "weak"
-  },
-  {
-   "score": 44.9,
-   "components": {
-    "tier": 20,
-    "category": 4,
-    "lead": 0.0,
-    "relevance": 8,
-    "freshness": 18.9,
-    "undated": -6
-   },
-   "keywords": [
-    "tax"
-   ],
-   "shock_terms": [],
-   "dedupe_match": null,
-   "dedupe_similarity": 0.0,
-   "id": "37638889dda5",
-   "title": "Columnists Withholding tax hurts Kenya\u2019s creative economy 28 min ago - 4 min read",
-   "url": "https://www.businessdailyafrica.com/bd/opinion-analysis/columnists/withholding-tax-hurts-kenya-s-creative-economy-5570484",
-   "summary": "",
-   "kind": "item",
-   "source": "Business Daily Africa",
-   "source_id": "np-businessdaily",
-   "tier": 2,
-   "country": "KE",
-   "category": "press",
-   "segments": [
-    "city",
-    "bush",
-    "beach"
-   ],
-   "first_seen": "2026-08-25T15:50+03:00",
-   "published": null,
-   "verdict": "weak"
-  },
-  {
-   "score": 40.9,
+   "score": 55.6,
    "components": {
     "tier": 20,
     "category": 4,
     "lead": 0.0,
     "relevance": 4,
-    "freshness": 18.9,
-    "undated": -6
-   },
-   "keywords": [
-    "camp"
-   ],
-   "shock_terms": [],
-   "dedupe_match": null,
-   "dedupe_similarity": 0.0,
-   "id": "6a325dd8155e",
-   "title": "Museveni orders release of former Speaker Among from house arrest Sources confirmed that the Special Forces Command (SFC) soldiers, who were camped at Among\u2019s home in Nakasero and Kigo, left the residences Tuesday morning following the directive. News",
-   "url": "https://www.newvision.co.ug/category/news/museveni-orders-release-of-former-speaker-amo-NV_239427_082026",
-   "summary": "",
-   "kind": "item",
-   "source": "New Vision (Uganda)",
-   "source_id": "np-newvision-ug",
-   "tier": 2,
-   "country": "UG",
-   "category": "press",
-   "segments": [
-    "city",
-    "bush",
-    "beach"
-   ],
-   "first_seen": "2026-08-25T15:50+03:00",
-   "published": null,
-   "verdict": "weak"
-  },
-  {
-   "score": 40.9,
-   "components": {
-    "tier": 20,
-    "category": 4,
-    "lead": 0.0,
-    "relevance": 4,
-    "freshness": 18.9,
-    "undated": -6
+    "freshness": 17.6,
+    "corroborated": 10
    },
    "keywords": [
     "investment"
@@ -1021,119 +1369,16 @@
    "shock_terms": [],
    "dedupe_match": null,
    "dedupe_similarity": 0.0,
-   "id": "165cb518f05f",
-   "title": "international Talks between Macron and Saudi Crown Prince put Middle East tensions, investment in spotlight Yesterday - 2 min read",
-   "url": "https://www.thecitizen.co.tz/tanzania/news/international/talks-between-macron-and-saudi-crown-prince-put-middle-east-tensions-investment-in-spotlight-5569152",
-   "summary": "",
+   "id": "2c75a6a93eec",
+   "title": "EA seeks broader public participation in capital markets",
+   "url": "https://dailynews.co.tz/ea-seeks-broader-public-participation-in-capital-markets",
+   "summary": "DAR ES SALAAM: EAST African capital markets need to move beyond simply making investment products accessible and focus on turning growing financial inclusion into meaningful participation and long-term wealth creation, financial-sector experts have said. The region has made notable progress in expanding investment products and using technology to bring financial services closer to ordinary people.",
    "kind": "item",
-   "source": "The Citizen (Tanzania)",
-   "source_id": "np-citizen-tz",
+   "source": "Daily News (Tanzania)",
+   "source_id": "np-dailynews-tz",
    "tier": 2,
    "country": "TZ",
    "category": "press",
-   "segments": [
-    "city",
-    "bush",
-    "beach"
-   ],
-   "first_seen": "2026-08-25T15:50+03:00",
-   "published": null,
-   "verdict": "weak"
-  },
-  {
-   "score": 40.9,
-   "components": {
-    "tier": 20,
-    "category": 4,
-    "lead": 0.0,
-    "relevance": 4,
-    "freshness": 18.9,
-    "undated": -6
-   },
-   "keywords": [
-    "traffic"
-   ],
-   "shock_terms": [],
-   "dedupe_match": null,
-   "dedupe_similarity": 0.0,
-   "id": "578b065a3c20",
-   "title": "National Study reveals traffic congestion costs Dar es Salaam over Sh2 trillion annually 29 min ago - 4 min read",
-   "url": "https://www.thecitizen.co.tz/tanzania/news/national/study-reveals-traffic-congestion-costs-dar-es-salaam-over-sh2-trillion-annually-5570414",
-   "summary": "",
-   "kind": "item",
-   "source": "The Citizen (Tanzania)",
-   "source_id": "np-citizen-tz",
-   "tier": 2,
-   "country": "TZ",
-   "category": "press",
-   "segments": [
-    "city",
-    "bush",
-    "beach"
-   ],
-   "first_seen": "2026-08-25T15:50+03:00",
-   "published": null,
-   "verdict": "weak"
-  },
-  {
-   "score": 40.9,
-   "components": {
-    "tier": 20,
-    "category": 4,
-    "lead": 0.0,
-    "relevance": 4,
-    "freshness": 18.9,
-    "undated": -6
-   },
-   "keywords": [
-    "tourism"
-   ],
-   "shock_terms": [],
-   "dedupe_match": null,
-   "dedupe_similarity": 0.0,
-   "id": "3ad0436027ab",
-   "title": "Kenya\u2019s tourism competitive edge in AI age BY JUNE CHEPKEMEI 22 hours ago - 4 min read",
-   "url": "https://www.businessdailyafrica.com/bd/opinion-analysis/columnists/kenya-s-tourism-competitive-edge-in-ai-age-5569534",
-   "summary": "",
-   "kind": "item",
-   "source": "Business Daily Africa",
-   "source_id": "np-businessdaily",
-   "tier": 2,
-   "country": "KE",
-   "category": "press",
-   "segments": [
-    "city",
-    "bush",
-    "beach"
-   ],
-   "first_seen": "2026-08-25T15:50+03:00",
-   "published": null,
-   "verdict": "weak"
-  },
-  {
-   "score": 38.9,
-   "components": {
-    "tier": 5,
-    "category": 5,
-    "lead": 0.0,
-    "relevance": 0,
-    "freshness": 18.9,
-    "corroborated": 10
-   },
-   "keywords": [],
-   "shock_terms": [],
-   "dedupe_match": null,
-   "dedupe_similarity": 0.0,
-   "id": "9cf55907c5fc",
-   "title": "Africa: AFRAA Welcomes Global Airtech as Partner to Strengthen Aviation Component Support and Supply Chain Resilience Across Africa",
-   "url": "https://atqnews.com/africa-afraa-welcomes-global-airtech-as-partner-to-strengthen-aviation-component-support-and-supply-chain-resilience-across-africa",
-   "summary": "",
-   "kind": "item",
-   "source": "ATQ News",
-   "source_id": "tp-atqnews",
-   "tier": 3,
-   "country": "REG",
-   "category": "trade",
    "segments": [
     "city",
     "bush",
@@ -1144,26 +1389,26 @@
    "verdict": "weak"
   },
   {
-   "score": 36.9,
+   "score": 53.8,
    "components": {
     "tier": 20,
     "category": 4,
     "lead": 0.0,
     "relevance": 0,
-    "freshness": 18.9,
-    "undated": -6
+    "freshness": 19.8,
+    "corroborated": 10
    },
    "keywords": [],
    "shock_terms": [],
    "dedupe_match": null,
    "dedupe_similarity": 0.0,
-   "id": "663ccdea7fb0",
-   "title": "Ahmed Kateete Kateete acquires new Subaru Impreza N12 as NRC ambitions grow",
-   "url": "https://www.newvision.co.ug/category/health/kateete-acquires-new-subaru-impreza-n12-as-nr",
-   "summary": "",
+   "id": "cde5c99093a2",
+   "title": "Court bans live coverage of Ex-MP Kivumbi's incitement case",
+   "url": "https://www.monitor.co.ug/uganda/news/national/court-bans-live-coverage-of-ex-mp-kivumbi-s-incitement-case-5570582",
+   "summary": "The decision was made on Tuesday by Chief Magistrate Aminah Wahab, following an application by...",
    "kind": "item",
-   "source": "New Vision (Uganda)",
-   "source_id": "np-newvision-ug",
+   "source": "Daily Monitor (Uganda)",
+   "source_id": "np-monitor-ug",
    "tier": 2,
    "country": "UG",
    "category": "press",
@@ -1172,206 +1417,8 @@
     "bush",
     "beach"
    ],
-   "first_seen": "2026-08-25T15:50+03:00",
-   "published": null,
-   "verdict": "weak"
-  },
-  {
-   "score": 36.9,
-   "components": {
-    "tier": 20,
-    "category": 4,
-    "lead": 0.0,
-    "relevance": 0,
-    "freshness": 18.9,
-    "undated": -6
-   },
-   "keywords": [],
-   "shock_terms": [],
-   "dedupe_match": null,
-   "dedupe_similarity": 0.33,
-   "id": "48a5a9f7cee7",
-   "title": "Uganda Volleyball Federation UVF tightens transfer rules, sets deadline for clubs",
-   "url": "https://www.newvision.co.ug/category/health/uvf-tightens-transfer-rules-sets-deadline-for",
-   "summary": "",
-   "kind": "item",
-   "source": "New Vision (Uganda)",
-   "source_id": "np-newvision-ug",
-   "tier": 2,
-   "country": "UG",
-   "category": "press",
-   "segments": [
-    "city",
-    "bush",
-    "beach"
-   ],
-   "first_seen": "2026-08-25T15:50+03:00",
-   "published": null,
-   "verdict": "weak"
-  },
-  {
-   "score": 36.9,
-   "components": {
-    "tier": 20,
-    "category": 4,
-    "lead": 0.0,
-    "relevance": 0,
-    "freshness": 18.9,
-    "undated": -6
-   },
-   "keywords": [],
-   "shock_terms": [],
-   "dedupe_match": null,
-   "dedupe_similarity": 0.33,
-   "id": "3fd404570dd3",
-   "title": "Khokho Uganda Khokho Uganda trains 30 coaches, targets nationwide growth",
-   "url": "https://www.newvision.co.ug/category/health/khokho-uganda-trains-30-coaches-targets-natio",
-   "summary": "",
-   "kind": "item",
-   "source": "New Vision (Uganda)",
-   "source_id": "np-newvision-ug",
-   "tier": 2,
-   "country": "UG",
-   "category": "press",
-   "segments": [
-    "city",
-    "bush",
-    "beach"
-   ],
-   "first_seen": "2026-08-25T15:50+03:00",
-   "published": null,
-   "verdict": "weak"
-  },
-  {
-   "score": 36.9,
-   "components": {
-    "tier": 20,
-    "category": 4,
-    "lead": 0.0,
-    "relevance": 0,
-    "freshness": 18.9,
-    "undated": -6
-   },
-   "keywords": [],
-   "shock_terms": [],
-   "dedupe_match": null,
-   "dedupe_similarity": 0.0,
-   "id": "8e47b29677dd",
-   "title": "Yusuf 'The Rolling Tiger' Babu Yusuf Babu registers ferocious knockout at showdown 2",
-   "url": "https://www.newvision.co.ug/category/health/yusuf-babu-registers-ferocious-knockout-at-sh",
-   "summary": "",
-   "kind": "item",
-   "source": "New Vision (Uganda)",
-   "source_id": "np-newvision-ug",
-   "tier": 2,
-   "country": "UG",
-   "category": "press",
-   "segments": [
-    "city",
-    "bush",
-    "beach"
-   ],
-   "first_seen": "2026-08-25T15:50+03:00",
-   "published": null,
-   "verdict": "weak"
-  },
-  {
-   "score": 36.9,
-   "components": {
-    "tier": 20,
-    "category": 4,
-    "lead": 0.0,
-    "relevance": 0,
-    "freshness": 18.9,
-    "undated": -6
-   },
-   "keywords": [],
-   "shock_terms": [],
-   "dedupe_match": null,
-   "dedupe_similarity": 0.0,
-   "id": "c5198aa83231",
-   "title": "Bukooli Namayingo Bukooli Namayingo and Bunha register wins as Busoga Masaza Cup continues \u00b7 2 min read",
-   "url": "https://www.newvision.co.ug/category/sports/bukooli-namayingo-and-bunha-register-wins-as-NV_239437_082026",
-   "summary": "",
-   "kind": "item",
-   "source": "New Vision (Uganda)",
-   "source_id": "np-newvision-ug",
-   "tier": 2,
-   "country": "UG",
-   "category": "press",
-   "segments": [
-    "city",
-    "bush",
-    "beach"
-   ],
-   "first_seen": "2026-08-25T15:50+03:00",
-   "published": null,
-   "verdict": "weak"
-  },
-  {
-   "score": 36.9,
-   "components": {
-    "tier": 20,
-    "category": 4,
-    "lead": 0.0,
-    "relevance": 0,
-    "freshness": 18.9,
-    "undated": -6
-   },
-   "keywords": [],
-   "shock_terms": [],
-   "dedupe_match": null,
-   "dedupe_similarity": 0.0,
-   "id": "8c856c587807",
-   "title": "#EssenshowByJESA School Holidays: Rest Time or Chaos Time?",
-   "url": "https://www.newvision.co.ug/category/entertainment/school-holidays-rest-time-or-chaos-time-NV_239433_082026",
-   "summary": "",
-   "kind": "item",
-   "source": "New Vision (Uganda)",
-   "source_id": "np-newvision-ug",
-   "tier": 2,
-   "country": "UG",
-   "category": "press",
-   "segments": [
-    "city",
-    "bush",
-    "beach"
-   ],
-   "first_seen": "2026-08-25T15:50+03:00",
-   "published": null,
-   "verdict": "weak"
-  },
-  {
-   "score": 36.9,
-   "components": {
-    "tier": 20,
-    "category": 4,
-    "lead": 0.0,
-    "relevance": 0,
-    "freshness": 18.9,
-    "undated": -6
-   },
-   "keywords": [],
-   "shock_terms": [],
-   "dedupe_match": null,
-   "dedupe_similarity": 0.0,
-   "id": "a80cccf85bb0",
-   "title": "\u2605 PREMIUM News Who is responsible for growing criminal gangs in Kampala?",
-   "url": "https://www.newvision.co.ug/category/news/who-is-responsible-for-growing-criminal-gangs-NV_239411_082026",
-   "summary": "",
-   "kind": "item",
-   "source": "New Vision (Uganda)",
-   "source_id": "np-newvision-ug",
-   "tier": 2,
-   "country": "UG",
-   "category": "press",
-   "segments": [
-    "city",
-    "bush",
-    "beach"
-   ],
-   "first_seen": "2026-08-25T15:50+03:00",
-   "published": null,
+   "first_seen": "2026-08-25T17:48+03:00",
+   "published": "2026-08-25",
    "verdict": "weak"
   }
  ]
