@@ -1,18 +1,18 @@
 {
- "generated": "2026-08-26T11:45:57+03:00",
+ "generated": "2026-08-26T12:59:10+03:00",
  "slot": "midday",
  "window_start": 1787716800,
- "observations_in_window": 179,
+ "observations_in_window": 266,
  "deduped_against": 4,
  "candidates": [
   {
-   "score": 99.7,
+   "score": 98.4,
    "components": {
     "tier": 40,
     "category": 32,
     "lead": 12.0,
     "relevance": 8,
-    "freshness": 17.7,
+    "freshness": 16.4,
     "undated": -6,
     "page_change": -4
    },
@@ -41,13 +41,47 @@
    "verdict": "OPEN THIS \u2014 tier-1 advisory page moved; content not auto-parsed, read it manually"
   },
   {
-   "score": 99.7,
+   "score": 65.4,
+   "components": {
+    "tier": 40,
+    "category": 12,
+    "lead": 3.6,
+    "relevance": 0,
+    "freshness": 19.8,
+    "undated": -6,
+    "page_change": -4
+   },
+   "keywords": [],
+   "shock_terms": [],
+   "dedupe_match": null,
+   "dedupe_similarity": 0.0,
+   "id": "255d8f3b1db7",
+   "title": "[page changed] Jambojet media",
+   "url": "https://www.jambojet.com/en/press-release",
+   "summary": "Request unsuccessful. Incapsula incident ID: 68011380004756256-9798551278460093",
+   "kind": "page-change",
+   "source": "Jambojet media",
+   "source_id": "air-jambojet",
+   "tier": 1,
+   "country": "KE",
+   "category": "airline",
+   "segments": [
+    "city",
+    "bush",
+    "beach"
+   ],
+   "first_seen": "2026-08-26T12:58+03:00",
+   "published": null,
+   "verdict": "OPEN THIS \u2014 tier-1 airline page moved; content not auto-parsed, read it manually"
+  },
+  {
+   "score": 98.4,
    "components": {
     "tier": 40,
     "category": 20,
     "lead": 12.0,
     "relevance": 0,
-    "freshness": 17.7,
+    "freshness": 16.4,
     "corroborated": 10
    },
    "keywords": [],
@@ -74,13 +108,13 @@
    "verdict": "STRONG \u2014 tier-1, upstream"
   },
   {
-   "score": 99.7,
+   "score": 98.4,
    "components": {
     "tier": 40,
     "category": 20,
     "lead": 12.0,
     "relevance": 0,
-    "freshness": 17.7,
+    "freshness": 16.4,
     "corroborated": 10
    },
    "keywords": [],
@@ -107,13 +141,13 @@
    "verdict": "STRONG \u2014 tier-1, upstream"
   },
   {
-   "score": 99.7,
+   "score": 98.4,
    "components": {
     "tier": 40,
     "category": 20,
     "lead": 12.0,
     "relevance": 0,
-    "freshness": 17.7,
+    "freshness": 16.4,
     "corroborated": 10
    },
    "keywords": [],
@@ -140,13 +174,13 @@
    "verdict": "STRONG \u2014 tier-1, upstream"
   },
   {
-   "score": 99.7,
+   "score": 98.4,
    "components": {
     "tier": 40,
     "category": 20,
     "lead": 12.0,
     "relevance": 0,
-    "freshness": 17.7,
+    "freshness": 16.4,
     "corroborated": 10
    },
    "keywords": [],
@@ -173,13 +207,13 @@
    "verdict": "STRONG \u2014 tier-1, upstream"
   },
   {
-   "score": 99.7,
+   "score": 98.4,
    "components": {
     "tier": 40,
     "category": 20,
     "lead": 12.0,
     "relevance": 0,
-    "freshness": 17.7,
+    "freshness": 16.4,
     "corroborated": 10
    },
    "keywords": [],
@@ -206,13 +240,13 @@
    "verdict": "STRONG \u2014 tier-1, upstream"
   },
   {
-   "score": 99.7,
+   "score": 98.4,
    "components": {
     "tier": 40,
     "category": 20,
     "lead": 12.0,
     "relevance": 0,
-    "freshness": 17.7,
+    "freshness": 16.4,
     "corroborated": 10
    },
    "keywords": [],
@@ -239,13 +273,13 @@
    "verdict": "STRONG \u2014 tier-1, upstream"
   },
   {
-   "score": 99.7,
+   "score": 98.4,
    "components": {
     "tier": 40,
     "category": 20,
     "lead": 12.0,
     "relevance": 0,
-    "freshness": 17.7,
+    "freshness": 16.4,
     "corroborated": 10
    },
    "keywords": [],
@@ -272,13 +306,122 @@
    "verdict": "STRONG \u2014 tier-1, upstream"
   },
   {
-   "score": 87.3,
+   "score": 89.4,
    "components": {
     "tier": 40,
     "category": 32,
     "lead": 3.6,
     "relevance": 8,
-    "freshness": 17.7,
+    "freshness": 19.8,
+    "stale_trap": -10,
+    "page_change": -4
+   },
+   "keywords": [
+    "election"
+   ],
+   "shock_terms": [],
+   "dedupe_match": null,
+   "dedupe_similarity": 0.0,
+   "id": "b003ea170883",
+   "title": "[page changed] Federal Register \u2014 public inspection (HHS/CDC), pre-publication",
+   "url": "https://www.federalregister.gov/api/v1/public-inspection-documents/current.json",
+   "summary": "{\"count\":94,\"results\":[{\"agencies\":[{\"raw_name\":\"POSTAL SERVICE\",\"name\":\"Postal Service\",\"id\":410,\"url\":\"https://www.federalregister.gov/agencies/postal-service\",\"json_url\":\"https://www.federalregister.gov/api/v1/agencies/410\",\"parent_id\":null,\"slug\":\"postal-service\"}],\"agency_letters\":[],\"agency_names\":[\"Postal Service\"],\"docket_numbers\":[],\"document_number\":\"2026-17238\",\"editorial_note\":null,\"ex",
+   "kind": "page-change",
+   "source": "Federal Register \u2014 public inspection (HHS/CDC), pre-publication",
+   "source_id": "us-fedreg-pubinspect-hhs",
+   "tier": 1,
+   "country": "REG",
+   "category": "advisory",
+   "segments": [
+    "city",
+    "bush"
+   ],
+   "first_seen": "2026-08-26T12:58+03:00",
+   "published": "2026-08-21",
+   "verdict": "CHECK \u2014 source date older than the window"
+  },
+  {
+   "score": 88.2,
+   "components": {
+    "tier": 20,
+    "category": 14,
+    "lead": 8.4,
+    "relevance": 16,
+    "freshness": 19.8,
+    "corroborated": 10
+   },
+   "keywords": [
+    "route",
+    "airline",
+    "flight"
+   ],
+   "shock_terms": [],
+   "dedupe_match": null,
+   "dedupe_similarity": 0.0,
+   "id": "515ae601280a",
+   "title": "Asiana Airlines NW26 US Aircraft Changes \u2013 26AUG26",
+   "url": "https://www.aeroroutes.com/eng/260826-oznw26us",
+   "summary": "Published at 0100PDT / 0800GMT 26AUG26 Asiana Airlines today (26AUG26) filed additional changes to US during Northern winter 2026/27 season. Similar to Europe which was reported yesterday (25AUG26) on AeroRoutes , selected routes under OZ-coded flight numbers to be operated by Korean Air aircraft from 17DEC26, including 777-300ER, 787-10 and A380, replacing Asiana A350. Seoul Incheon \u2013 Los Angeles",
+   "kind": "item",
+   "source": "AeroRoutes schedule filings",
+   "source_id": "aeroroutes",
+   "tier": 2,
+   "country": "GLOBAL",
+   "category": "aviation-tracker",
+   "segments": [
+    "city",
+    "bush",
+    "beach"
+   ],
+   "first_seen": "2026-08-26T12:58+03:00",
+   "published": "2026-08-26",
+   "verdict": "CONSIDER"
+  },
+  {
+   "score": 88.2,
+   "components": {
+    "tier": 20,
+    "category": 14,
+    "lead": 8.4,
+    "relevance": 16,
+    "freshness": 19.8,
+    "corroborated": 10
+   },
+   "keywords": [
+    "route",
+    "airline",
+    "flight"
+   ],
+   "shock_terms": [],
+   "dedupe_match": null,
+   "dedupe_similarity": 0.0,
+   "id": "a608ac76a4e5",
+   "title": "China Southern Increases Guangzhou \u2013 Vancouver Service in NW26",
+   "url": "https://www.aeroroutes.com/eng/260826-cznw26yvr",
+   "summary": "Published at 0000PDT / 0700GMT 26AUG26 China Southern this week filed service increase on Guangzhou \u2013 Vancouver route, as the airline restores 3rd and 4th weekly flight from 25OCT26. This route is operated by 777-300ER aircraft. CZ329 CAN0025 \u2013 2125-1YVR 77W 25 CZ329 CAN0030 \u2013 2125-1YVR 77W 37 CZ330 YVR0020 \u2013 0535+1CAN 77W 37 CZ330 YVR0020 \u2013 0615+1CAN 77W 25 5th weekly flight to be restored from 0",
+   "kind": "item",
+   "source": "AeroRoutes schedule filings",
+   "source_id": "aeroroutes",
+   "tier": 2,
+   "country": "GLOBAL",
+   "category": "aviation-tracker",
+   "segments": [
+    "city",
+    "bush",
+    "beach"
+   ],
+   "first_seen": "2026-08-26T12:58+03:00",
+   "published": "2026-08-26",
+   "verdict": "CONSIDER"
+  },
+  {
+   "score": 86.0,
+   "components": {
+    "tier": 40,
+    "category": 32,
+    "lead": 3.6,
+    "relevance": 8,
+    "freshness": 16.4,
     "stale_trap": -10,
     "page_change": -4
    },
@@ -307,13 +450,13 @@
    "verdict": "CHECK \u2014 source date older than the window"
   },
   {
-   "score": 84.3,
+   "score": 82.9,
    "components": {
     "tier": 40,
     "category": 32,
     "lead": 3.6,
     "relevance": 8,
-    "freshness": 14.7,
+    "freshness": 13.3,
     "stale_trap": -10,
     "page_change": -4
    },
@@ -342,13 +485,120 @@
    "verdict": "CHECK \u2014 source date older than the window"
   },
   {
-   "score": 79.7,
+   "score": 80.2,
+   "components": {
+    "tier": 40,
+    "category": 24,
+    "lead": 2.4,
+    "relevance": 0,
+    "freshness": 19.8,
+    "undated": -6
+   },
+   "keywords": [],
+   "shock_terms": [],
+   "dedupe_match": null,
+   "dedupe_similarity": 0.0,
+   "id": "48ffdb67038e",
+   "title": "Kenya Calls for Action to Build a Self-Reliant African Health Sector",
+   "url": "https://www.health.go.ke/kenya-calls-action-build-self-reliant-african-health-sector",
+   "summary": "",
+   "kind": "item",
+   "source": "Kenya Ministry of Health",
+   "source_id": "ke-moh",
+   "tier": 1,
+   "country": "KE",
+   "category": "health",
+   "segments": [
+    "city",
+    "bush",
+    "beach"
+   ],
+   "first_seen": "2026-08-26T12:58+03:00",
+   "published": null,
+   "verdict": "CONSIDER"
+  },
+  {
+   "score": 80.2,
+   "components": {
+    "tier": 20,
+    "category": 14,
+    "lead": 8.4,
+    "relevance": 8,
+    "freshness": 19.8,
+    "corroborated": 10
+   },
+   "keywords": [
+    "airline",
+    "flight"
+   ],
+   "shock_terms": [],
+   "dedupe_match": null,
+   "dedupe_similarity": 0.0,
+   "id": "fb4c8f8742b3",
+   "title": "Asiana Airlines NW26 Japan Aircraft Changes \u2013 26AUG26",
+   "url": "https://www.aeroroutes.com/eng/260826-oznw26jp",
+   "summary": "Published at 0200PDT / 0900GMT 26AUG26 Asiana Airlines today (26AUG26) filed selected aircraft changes for service to Japan during Northern winter 2026/27 season, including extended A380 service to mid-December 2026, while Korean Air aircraft begins operating on selected OZ-coded flights from 17DEC26. Seoul Incheon \u2013 Fukuoka eff 17DEC26 OZ132/131 Korean Air A321neo replaces Asiana A321neo Seoul In",
+   "kind": "item",
+   "source": "AeroRoutes schedule filings",
+   "source_id": "aeroroutes",
+   "tier": 2,
+   "country": "GLOBAL",
+   "category": "aviation-tracker",
+   "segments": [
+    "city",
+    "bush",
+    "beach"
+   ],
+   "first_seen": "2026-08-26T12:58+03:00",
+   "published": "2026-08-26",
+   "verdict": "CONSIDER"
+  },
+  {
+   "score": 78.4,
+   "components": {
+    "tier": 20,
+    "category": 5,
+    "lead": 3.6,
+    "relevance": 20,
+    "freshness": 19.8,
+    "corroborated": 10
+   },
+   "keywords": [
+    "revpar",
+    "hotel",
+    "tourism",
+    "exchange rate"
+   ],
+   "shock_terms": [],
+   "dedupe_match": null,
+   "dedupe_similarity": 0.0,
+   "id": "ddf692dbf9f6",
+   "title": "HVS Canadian Lodging Outlook Quarterly 2026-Q2",
+   "url": "https://www.hospitalitynet.org/news/4134099/hvs-canadian-lodging-outlook-quarterly-2026-q2",
+   "summary": "HVS and CoStar report Canadian hotel RevPAR grew 4.0% in 2025 and is up 6.5% year-to-date, driven by domestic travel, Chinese tourism, and a favourable exchange rate luring U.S. visitors.",
+   "kind": "item",
+   "source": "Hospitality Net \u2014 Africa announcements",
+   "source_id": "dev-hospitalitynet-africa",
+   "tier": 2,
+   "country": "REG",
+   "category": "trade",
+   "segments": [
+    "city",
+    "bush",
+    "beach"
+   ],
+   "first_seen": "2026-08-26T12:58+03:00",
+   "published": "2026-08-26",
+   "verdict": "CONSIDER"
+  },
+  {
+   "score": 78.4,
    "components": {
     "tier": 40,
     "category": 20,
     "lead": 12.0,
     "relevance": 0,
-    "freshness": 17.7,
+    "freshness": 16.4,
     "stale_trap": -10
    },
    "keywords": [],
@@ -375,13 +625,13 @@
    "verdict": "CHECK \u2014 source date older than the window"
   },
   {
-   "score": 79.7,
+   "score": 78.4,
    "components": {
     "tier": 40,
     "category": 20,
     "lead": 12.0,
     "relevance": 0,
-    "freshness": 17.7,
+    "freshness": 16.4,
     "stale_trap": -10
    },
    "keywords": [],
@@ -408,13 +658,13 @@
    "verdict": "CHECK \u2014 source date older than the window"
   },
   {
-   "score": 79.7,
+   "score": 78.4,
    "components": {
     "tier": 40,
     "category": 20,
     "lead": 12.0,
     "relevance": 0,
-    "freshness": 17.7,
+    "freshness": 16.4,
     "stale_trap": -10
    },
    "keywords": [],
@@ -441,13 +691,13 @@
    "verdict": "CHECK \u2014 source date older than the window"
   },
   {
-   "score": 79.7,
+   "score": 78.4,
    "components": {
     "tier": 40,
     "category": 20,
     "lead": 12.0,
     "relevance": 0,
-    "freshness": 17.7,
+    "freshness": 16.4,
     "stale_trap": -10
    },
    "keywords": [],
@@ -474,13 +724,13 @@
    "verdict": "CHECK \u2014 source date older than the window"
   },
   {
-   "score": 79.7,
+   "score": 78.4,
    "components": {
     "tier": 40,
     "category": 20,
     "lead": 12.0,
     "relevance": 0,
-    "freshness": 17.7,
+    "freshness": 16.4,
     "stale_trap": -10
    },
    "keywords": [],
@@ -507,13 +757,123 @@
    "verdict": "CHECK \u2014 source date older than the window"
   },
   {
-   "score": 72.7,
+   "score": 73.8,
+   "components": {
+    "tier": 20,
+    "category": 4,
+    "lead": 0.0,
+    "relevance": 20,
+    "freshness": 19.8,
+    "corroborated": 10
+   },
+   "keywords": [
+    "vat",
+    "conservanc",
+    "investment"
+   ],
+   "shock_terms": [],
+   "dedupe_match": null,
+   "dedupe_similarity": 0.17,
+   "id": "352bea2e43dc",
+   "title": "Fisheries research seen key to blue economy",
+   "url": "https://dailynews.co.tz/fisheries-research-seen-key-to-blue-economy",
+   "summary": "TANZANIA: STRONGER fisheries research, reliable data and private-sector partnerships could help unlock greater economic value from the country\u2019s marine and freshwater resources as pressure on aquatic ecosystems intensifies. The Nature Conservancy (TNC) Country Director Ms Lucy Magembe said yesterday that credible scientific evidence would increasingly determine Tanzania\u2019s ability to manage fisheri",
+   "kind": "item",
+   "source": "Daily News (Tanzania)",
+   "source_id": "np-dailynews-tz",
+   "tier": 2,
+   "country": "TZ",
+   "category": "press",
+   "segments": [
+    "city",
+    "bush",
+    "beach"
+   ],
+   "first_seen": "2026-08-26T12:58+03:00",
+   "published": "2026-08-26",
+   "verdict": "CONSIDER"
+  },
+  {
+   "score": 73.8,
+   "components": {
+    "tier": 20,
+    "category": 4,
+    "lead": 0.0,
+    "relevance": 20,
+    "freshness": 19.8,
+    "corroborated": 10
+   },
+   "keywords": [
+    "vat",
+    "adr",
+    "camp"
+   ],
+   "shock_terms": [],
+   "dedupe_match": null,
+   "dedupe_similarity": 0.25,
+   "id": "4ca0798c2376",
+   "title": "How IIT Madras Z\u2019bar is building a new hub for science and technology",
+   "url": "https://dailynews.co.tz/how-iit-madras-zbar-is-building-a-new-hub-for-science-and-technology",
+   "summary": "ZANZIBAR: WHEN the Indian Institute of Technology Madras (IIT Madras) opened its first international campus in Zanzibar in 2023, the decision was more than an expansion of a prestigious Indian institution. It was a bold experiment: could a small island in the Indian Ocean become a gateway for advanced science, technology and innovation for Africa? \u2026 The post How IIT Madras Z\u2019bar is building a new ",
+   "kind": "item",
+   "source": "Daily News (Tanzania)",
+   "source_id": "np-dailynews-tz",
+   "tier": 2,
+   "country": "TZ",
+   "category": "press",
+   "segments": [
+    "city",
+    "bush",
+    "beach"
+   ],
+   "first_seen": "2026-08-26T12:58+03:00",
+   "published": "2026-08-26",
+   "verdict": "CONSIDER"
+  },
+  {
+   "score": 71.8,
+   "components": {
+    "tier": 20,
+    "category": 4,
+    "lead": 0.0,
+    "relevance": 0,
+    "freshness": 19.8,
+    "corroborated": 10,
+    "shock": 18
+   },
+   "keywords": [],
+   "shock_terms": [
+    "attack"
+   ],
+   "dedupe_match": null,
+   "dedupe_similarity": 0.17,
+   "id": "2403217f40cf",
+   "title": "Manqoba: Yanga yet to peak",
+   "url": "https://dailynews.co.tz/manqoba-yanga-yet-to-peak",
+   "summary": "DAR ES SALAAM: YOUNG Africans Head Coach Manqoba Mngqithi has hailed his side\u2019s convincing victory over JKT Tanzania but insists the team remains a work in progress, with significant room for improvement despite another strong attacking display and a clean sheet. Manqoba made the reaction following his side won 4-0 at KMC Complex in Dar \u2026 The post Manqoba: Yanga yet to peak appeared first on Daily",
+   "kind": "item",
+   "source": "Daily News (Tanzania)",
+   "source_id": "np-dailynews-tz",
+   "tier": 2,
+   "country": "TZ",
+   "category": "press",
+   "segments": [
+    "city",
+    "bush",
+    "beach"
+   ],
+   "first_seen": "2026-08-26T12:58+03:00",
+   "published": "2026-08-26",
+   "verdict": "CONSIDER"
+  },
+  {
+   "score": 71.4,
    "components": {
     "tier": 40,
     "category": 20,
     "lead": 12.0,
     "relevance": 8,
-    "freshness": 17.7,
+    "freshness": 16.4,
     "stale_trap": -25
    },
    "keywords": [
@@ -542,13 +902,13 @@
    "verdict": "CHECK \u2014 source date older than the window"
   },
   {
-   "score": 70.1,
+   "score": 68.8,
    "components": {
     "tier": 40,
     "category": 16,
     "lead": 2.4,
     "relevance": 0,
-    "freshness": 17.7,
+    "freshness": 16.4,
     "undated": -6
    },
    "keywords": [],
@@ -572,16 +932,160 @@
    ],
    "first_seen": "2026-08-26T09:52+03:00",
    "published": null,
-   "verdict": "CONSIDER"
+   "verdict": "weak"
   },
   {
-   "score": 64.7,
+   "score": 68.0,
+   "components": {
+    "tier": 20,
+    "category": 5,
+    "lead": 1.2,
+    "relevance": 12,
+    "freshness": 19.8,
+    "corroborated": 10
+   },
+   "keywords": [
+    "vat",
+    "tourism"
+   ],
+   "shock_terms": [],
+   "dedupe_match": null,
+   "dedupe_similarity": 0.0,
+   "id": "8d2618b6e1ed",
+   "title": "Hospitality Awards Africa 2026 heads to Lagos for Pan-African celebration of excellence",
+   "url": "https://voyagesafriq.com/2026/08/26/hospitality-awards-africa-2026-heads-to-lagos-for-pan-african-celebration-of-excellence",
+   "summary": "Hospitality Awards Africa, one of the continent\u2019s leading platforms celebrating excellence and innovation in hospitality and tourism, will hold its 2026 edition in Lagos, Nigeria, on 24 October 2026. The [\u2026] The post Hospitality Awards Africa 2026 heads to Lagos for Pan-African celebration of excellence appeared first on Voyages Afriq .",
+   "kind": "item",
+   "source": "VoyagesAfriq",
+   "source_id": "tp-voyagesafriq",
+   "tier": 2,
+   "country": "REG",
+   "category": "trade",
+   "segments": [
+    "city",
+    "bush",
+    "beach"
+   ],
+   "first_seen": "2026-08-26T12:58+03:00",
+   "published": "2026-08-26",
+   "verdict": "weak"
+  },
+  {
+   "score": 66.4,
+   "components": {
+    "tier": 20,
+    "category": 5,
+    "lead": 3.6,
+    "relevance": 8,
+    "freshness": 19.8,
+    "corroborated": 10
+   },
+   "keywords": [
+    "hotel",
+    "rooms"
+   ],
+   "shock_terms": [],
+   "dedupe_match": null,
+   "dedupe_similarity": 0.0,
+   "id": "a174456415ff",
+   "title": "Highline Hospitality Partners Acquires Dual-Branded AC Hotel and Element San Antonio Riverwalk",
+   "url": "https://www.hospitalitynet.org/news/4134101/highline-hospitality-partners-acquires-dual-branded-ac-hotel-and-element-san-antonio-riverwalk",
+   "summary": "Highline Hospitality Partners acquires its 20th and 21st hotels, bringing its portfolio to 21 properties, over 5,500 rooms, and ~$1.7B in assets under management.",
+   "kind": "item",
+   "source": "Hospitality Net \u2014 Africa announcements",
+   "source_id": "dev-hospitalitynet-africa",
+   "tier": 2,
+   "country": "REG",
+   "category": "trade",
+   "segments": [
+    "city",
+    "bush",
+    "beach"
+   ],
+   "first_seen": "2026-08-26T12:58+03:00",
+   "published": "2026-08-26",
+   "verdict": "weak"
+  },
+  {
+   "score": 66.4,
+   "components": {
+    "tier": 20,
+    "category": 5,
+    "lead": 3.6,
+    "relevance": 8,
+    "freshness": 19.8,
+    "corroborated": 10
+   },
+   "keywords": [
+    "hotel",
+    "guest"
+   ],
+   "shock_terms": [],
+   "dedupe_match": null,
+   "dedupe_similarity": 0.0,
+   "id": "73bff5b3136e",
+   "title": "The email you want is the one she gives you for a reason",
+   "url": "https://www.hospitalitynet.org/opinion/4134098/the-email-you-want-is-the-one-she-gives-you-for-a-reason",
+   "summary": "Hotels receive OTA guest emails for operational use only, but an address given directly by a guest during their stay is unencumbered by platform restrictions and is the only record the hotel truly owns.",
+   "kind": "item",
+   "source": "Hospitality Net \u2014 Africa announcements",
+   "source_id": "dev-hospitalitynet-africa",
+   "tier": 2,
+   "country": "REG",
+   "category": "trade",
+   "segments": [
+    "city",
+    "bush",
+    "beach"
+   ],
+   "first_seen": "2026-08-26T12:58+03:00",
+   "published": "2026-08-26",
+   "verdict": "weak"
+  },
+  {
+   "score": 64.2,
+   "components": {
+    "tier": 20,
+    "category": 24,
+    "lead": 2.4,
+    "relevance": 8,
+    "freshness": 19.8,
+    "undated": -6,
+    "page_change": -4
+   },
+   "keywords": [
+    "vat"
+   ],
+   "shock_terms": [],
+   "dedupe_match": null,
+   "dedupe_similarity": 0.0,
+   "id": "fa9e7680189e",
+   "title": "[page changed] ProMED-mail",
+   "url": "https://promedmail.org/",
+   "summary": "Protecting Global Health, One Alert at a Time | ProMED Previous slide Next slide Protecting Global Health, One Alert at a Time ProMED: Your 24/7 early warning system for emerging infectious diseases worldwide. Subscribe ProMED's Weekly Pulse A snapshot of global health events from the past 7 days Latest Posts on ProMED All Date Title Wed Aug 26 2026 RESEARCH & INNOVATION (171): CANDIDA AURIS, NUTR",
+   "kind": "page-change",
+   "source": "ProMED-mail",
+   "source_id": "promed",
+   "tier": 2,
+   "country": "GLOBAL",
+   "category": "health",
+   "segments": [
+    "city",
+    "bush",
+    "beach"
+   ],
+   "first_seen": "2026-08-26T12:58+03:00",
+   "published": null,
+   "verdict": "weak"
+  },
+  {
+   "score": 63.4,
    "components": {
     "tier": 40,
     "category": 20,
     "lead": 12.0,
     "relevance": 0,
-    "freshness": 17.7,
+    "freshness": 16.4,
     "stale_trap": -25
    },
    "keywords": [],
@@ -608,13 +1112,13 @@
    "verdict": "CHECK \u2014 source date older than the window"
   },
   {
-   "score": 64.7,
+   "score": 63.4,
    "components": {
     "tier": 40,
     "category": 20,
     "lead": 12.0,
     "relevance": 0,
-    "freshness": 17.7,
+    "freshness": 16.4,
     "stale_trap": -25
    },
    "keywords": [],
@@ -641,13 +1145,13 @@
    "verdict": "CHECK \u2014 source date older than the window"
   },
   {
-   "score": 64.7,
+   "score": 63.4,
    "components": {
     "tier": 40,
     "category": 20,
     "lead": 12.0,
     "relevance": 0,
-    "freshness": 17.7,
+    "freshness": 16.4,
     "stale_trap": -25
    },
    "keywords": [],
@@ -674,13 +1178,13 @@
    "verdict": "CHECK \u2014 source date older than the window"
   },
   {
-   "score": 64.7,
+   "score": 63.4,
    "components": {
     "tier": 40,
     "category": 20,
     "lead": 12.0,
     "relevance": 0,
-    "freshness": 17.7,
+    "freshness": 16.4,
     "stale_trap": -25
    },
    "keywords": [],
@@ -707,13 +1211,13 @@
    "verdict": "CHECK \u2014 source date older than the window"
   },
   {
-   "score": 64.7,
+   "score": 63.4,
    "components": {
     "tier": 40,
     "category": 20,
     "lead": 12.0,
     "relevance": 0,
-    "freshness": 17.7,
+    "freshness": 16.4,
     "stale_trap": -25
    },
    "keywords": [],
@@ -740,13 +1244,118 @@
    "verdict": "CHECK \u2014 source date older than the window"
   },
   {
-   "score": 63.7,
+   "score": 62.4,
+   "components": {
+    "tier": 20,
+    "category": 5,
+    "lead": 3.6,
+    "relevance": 4,
+    "freshness": 19.8,
+    "corroborated": 10
+   },
+   "keywords": [
+    "investment"
+   ],
+   "shock_terms": [],
+   "dedupe_match": null,
+   "dedupe_similarity": 0.0,
+   "id": "3c4c0eebec8a",
+   "title": "From Real Estate to Lifestyle: The Evolution of Branded Living",
+   "url": "https://www.hospitalitynet.org/news/4134091/from-real-estate-to-lifestyle-the-evolution-of-branded-living",
+   "summary": "Executives from Meli\u00e1, Rotana, Wyndham, and STORY Hospitality outline the forces behind branded residences' rise, with Saudi Arabia and the UAE highlighted as top investment markets.",
+   "kind": "item",
+   "source": "Hospitality Net \u2014 Africa announcements",
+   "source_id": "dev-hospitalitynet-africa",
+   "tier": 2,
+   "country": "REG",
+   "category": "trade",
+   "segments": [
+    "city",
+    "bush",
+    "beach"
+   ],
+   "first_seen": "2026-08-26T12:58+03:00",
+   "published": "2026-08-26",
+   "verdict": "weak"
+  },
+  {
+   "score": 62.4,
+   "components": {
+    "tier": 20,
+    "category": 5,
+    "lead": 3.6,
+    "relevance": 4,
+    "freshness": 19.8,
+    "corroborated": 10
+   },
+   "keywords": [
+    "hotel"
+   ],
+   "shock_terms": [],
+   "dedupe_match": null,
+   "dedupe_similarity": 0.0,
+   "id": "7cc2eb22238a",
+   "title": "Bill Bensley\u2019s Blueprint for a Bhutanese Hideaway",
+   "url": "https://www.hospitalitynet.org/news/4134102/bill-bensleys-blueprint-for-a-bhutanese-hideaway",
+   "summary": "Pemako Punakha, conceptually designed by Bill Bensley, is Bhutan's first luxury tented villa property and flagship of the country's first Bhutanese-owned luxury hotel group, with rates from $1,800 per night.",
+   "kind": "item",
+   "source": "Hospitality Net \u2014 Africa announcements",
+   "source_id": "dev-hospitalitynet-africa",
+   "tier": 2,
+   "country": "REG",
+   "category": "trade",
+   "segments": [
+    "city",
+    "bush",
+    "beach"
+   ],
+   "first_seen": "2026-08-26T12:58+03:00",
+   "published": "2026-08-26",
+   "verdict": "weak"
+  },
+  {
+   "score": 62.4,
+   "components": {
+    "tier": 20,
+    "category": 5,
+    "lead": 3.6,
+    "relevance": 4,
+    "freshness": 19.8,
+    "corroborated": 10
+   },
+   "keywords": [
+    "conference"
+   ],
+   "shock_terms": [],
+   "dedupe_match": null,
+   "dedupe_similarity": 0.0,
+   "id": "7be46e567e67",
+   "title": "AHLA Foundation Names Jagruti Panwala as 2026 Peggy Berg Castell Award Recipient",
+   "url": "https://www.hospitalitynet.org/news/4134100/ahla-foundation-names-jagruti-panwala-as-2026-peggy-berg-castell-award-recipient",
+   "summary": "Jagruti Panwala, President and CEO of Wealth Protection Strategies and AHLA Executive Committee member, will receive the award at The Lodging Conference 2026 in Phoenix on October 7.",
+   "kind": "item",
+   "source": "Hospitality Net \u2014 Africa announcements",
+   "source_id": "dev-hospitalitynet-africa",
+   "tier": 2,
+   "country": "REG",
+   "category": "trade",
+   "segments": [
+    "city",
+    "bush",
+    "beach"
+   ],
+   "first_seen": "2026-08-26T12:58+03:00",
+   "published": "2026-08-26",
+   "verdict": "weak"
+  },
+  {
+   "score": 62.4,
    "components": {
     "tier": 20,
     "category": 4,
     "lead": 0.0,
     "relevance": 12,
-    "freshness": 17.7,
+    "freshness": 16.4,
     "corroborated": 10
    },
    "keywords": [
@@ -773,592 +1382,6 @@
    ],
    "first_seen": "2026-08-26T09:52+03:00",
    "published": "2026-08-26",
-   "verdict": "weak"
-  },
-  {
-   "score": 61.9,
-   "components": {
-    "tier": 20,
-    "category": 5,
-    "lead": 1.2,
-    "relevance": 8,
-    "freshness": 17.7,
-    "corroborated": 10
-   },
-   "keywords": [
-    "vat"
-   ],
-   "shock_terms": [],
-   "dedupe_match": null,
-   "dedupe_similarity": 0.17,
-   "id": "fc4417179cdd",
-   "title": "Tanzania Fintech Festival 2026 Highlights Need for Interoperable Digital Infrastructure, AI Adoption and Pan-African Payment Systems",
-   "url": "https://www.tanzaniainvest.com/finance/fintech-festival-2026-2",
-   "summary": "On the 20th-21st August 2026, Tanzania\u2019s Fintech Festival brought together financial and technology stakeholders to discuss AI, banking innovation, and digital infrastructure. The discussions focused on internet access and big data, the relationship between banks and fintech companies, digital public infrastructure, cross-border payments, stablecoin infrastructure, and financial inclusion.",
-   "kind": "item",
-   "source": "TanzaniaInvest \u2014 tourism",
-   "source_id": "tp-tanzaniainvest",
-   "tier": 2,
-   "country": "TZ",
-   "category": "trade",
-   "segments": [
-    "city",
-    "bush",
-    "beach"
-   ],
-   "first_seen": "2026-08-26T09:52+03:00",
-   "published": "2026-08-25",
-   "verdict": "weak"
-  },
-  {
-   "score": 61.8,
-   "components": {
-    "tier": 20,
-    "category": 4,
-    "lead": 0.0,
-    "relevance": 8,
-    "freshness": 19.8,
-    "corroborated": 10
-   },
-   "keywords": [
-    "visa"
-   ],
-   "shock_terms": [],
-   "dedupe_match": null,
-   "dedupe_similarity": 0.0,
-   "id": "6167fcfa053b",
-   "title": "Trump administration issues pause on visa appointments for applicants worldwide",
-   "url": "https://www.monitor.co.ug/uganda/news/world/trump-administration-issues-pause-on-visa-appointments-for-applicants-worldwide-5571178",
-   "summary": "Trump has pursued an aggressive immigration crackdown.",
-   "kind": "item",
-   "source": "Daily Monitor (Uganda)",
-   "source_id": "np-monitor-ug",
-   "tier": 2,
-   "country": "UG",
-   "category": "press",
-   "segments": [
-    "city",
-    "bush",
-    "beach"
-   ],
-   "first_seen": "2026-08-26T11:45+03:00",
-   "published": "2026-08-26",
-   "verdict": "weak"
-  },
-  {
-   "score": 59.7,
-   "components": {
-    "tier": 20,
-    "category": 4,
-    "lead": 0.0,
-    "relevance": 8,
-    "freshness": 17.7,
-    "corroborated": 10
-   },
-   "keywords": [
-    "eta"
-   ],
-   "shock_terms": [],
-   "dedupe_match": null,
-   "dedupe_similarity": 0.0,
-   "id": "4caac3092033",
-   "title": "Samia endorses Nchimbi\u2019s exit",
-   "url": "https://dailynews.co.tz/samia-endorses-nchimbis-exit",
-   "summary": "DODOMA: PRESIDENT Samia Suluhu Hassan has accepted the resignation of Vice-President Dr Emmanuel Nchimbi, who has stepped down from office and retired from politics and public service. A statement issued yesterday by Chief Secretary Dr Moses Kusiluka said that President Samia Suluhu Hassan has received the request by the Vice-President, Dr Emmanuel Nchimbi, to resign \u2026 The post Samia endorses Nchi",
-   "kind": "item",
-   "source": "Daily News (Tanzania)",
-   "source_id": "np-dailynews-tz",
-   "tier": 2,
-   "country": "TZ",
-   "category": "press",
-   "segments": [
-    "city",
-    "bush",
-    "beach"
-   ],
-   "first_seen": "2026-08-26T09:52+03:00",
-   "published": "2026-08-26",
-   "verdict": "weak"
-  },
-  {
-   "score": 54.1,
-   "components": {
-    "tier": 20,
-    "category": 24,
-    "lead": 2.4,
-    "relevance": 0,
-    "freshness": 17.7,
-    "undated": -6,
-    "page_change": -4
-   },
-   "keywords": [],
-   "shock_terms": [],
-   "dedupe_match": null,
-   "dedupe_similarity": 0.0,
-   "id": "849aeafb1612",
-   "title": "[page changed] ProMED-mail",
-   "url": "https://promedmail.org/",
-   "summary": "Protecting Global Health, One Alert at a Time | ProMED Previous slide Next slide Protecting Global Health, One Alert at a Time ProMED: Your 24/7 early warning system for emerging infectious diseases worldwide. Subscribe ProMED's Weekly Pulse A snapshot of global health events from the past 7 days Latest Posts on ProMED All Date Title Wed Aug 26 2026 MEASLES - USA (96): (PENNSYLVANIA) 2 FATALITIES/",
-   "kind": "page-change",
-   "source": "ProMED-mail",
-   "source_id": "promed",
-   "tier": 2,
-   "country": "GLOBAL",
-   "category": "health",
-   "segments": [
-    "city",
-    "bush",
-    "beach"
-   ],
-   "first_seen": "2026-08-26T09:52+03:00",
-   "published": null,
-   "verdict": "weak"
-  },
-  {
-   "score": 51.7,
-   "components": {
-    "tier": 20,
-    "category": 4,
-    "lead": 0.0,
-    "relevance": 0,
-    "freshness": 17.7,
-    "corroborated": 10
-   },
-   "keywords": [],
-   "shock_terms": [],
-   "dedupe_match": null,
-   "dedupe_similarity": 0.17,
-   "id": "b892f5135258",
-   "title": "CCM invites opposition to offer useful ideas",
-   "url": "https://dailynews.co.tz/ccm-invites-opposition-to-offer-useful-ideas",
-   "summary": "IKUNGI: CHAMA Cha Mapinduzi (CCM) Vice-Chairman for Mainland Tanzania, Mr Stephen Wasira, has said the ruling party remains strong and united, urging opposition parties to offer constructive ideas instead of opposing government initiatives. Mr Wasira made the remarks recently during the first day of his three-day working tour aimed at holding internal meetings with CCM \u2026 The post CCM invites oppos",
-   "kind": "item",
-   "source": "Daily News (Tanzania)",
-   "source_id": "np-dailynews-tz",
-   "tier": 2,
-   "country": "TZ",
-   "category": "press",
-   "segments": [
-    "city",
-    "bush",
-    "beach"
-   ],
-   "first_seen": "2026-08-26T09:52+03:00",
-   "published": "2026-08-26",
-   "verdict": "weak"
-  },
-  {
-   "score": 51.7,
-   "components": {
-    "tier": 20,
-    "category": 4,
-    "lead": 0.0,
-    "relevance": 0,
-    "freshness": 17.7,
-    "corroborated": 10
-   },
-   "keywords": [],
-   "shock_terms": [],
-   "dedupe_match": null,
-   "dedupe_similarity": 0.17,
-   "id": "e61b294ae72b",
-   "title": "Religious leaders call for moral revival",
-   "url": "https://dailynews.co.tz/religious-leaders-call-for-moral-revival",
-   "summary": "DAR ES SALAAM: RELIGIOUS leaders have called for renewed efforts to restore good character and responsible upbringing, warning that Tanzania cannot achieve sustainable development if young people lose moral values. They stressed that the country\u2019s progress depends not only on economic development but also on the values and character of its people, particularly the younger \u2026 The post Religious lead",
-   "kind": "item",
-   "source": "Daily News (Tanzania)",
-   "source_id": "np-dailynews-tz",
-   "tier": 2,
-   "country": "TZ",
-   "category": "press",
-   "segments": [
-    "city",
-    "bush",
-    "beach"
-   ],
-   "first_seen": "2026-08-26T09:52+03:00",
-   "published": "2026-08-26",
-   "verdict": "weak"
-  },
-  {
-   "score": 51.7,
-   "components": {
-    "tier": 20,
-    "category": 4,
-    "lead": 0.0,
-    "relevance": 0,
-    "freshness": 17.7,
-    "corroborated": 10
-   },
-   "keywords": [],
-   "shock_terms": [],
-   "dedupe_match": null,
-   "dedupe_similarity": 0.25,
-   "id": "a67fe845a57c",
-   "title": "\u2018Sema na Waziri\u2019 benefits volunteering teachers",
-   "url": "https://dailynews.co.tz/sema-na-waziri-benefits-volunteering-teachers",
-   "summary": "DODOMA: PRESIDENT Samia Suluhu Hassan has intervened in several cases brought before the Ministry of Constitutional and Legal Affairs through the \u2018Sema na Waziri\u2019 programme, providing financial assistance to vulnerable citizens and directing action to resolve their grievances. Minister for Constitutional and Legal Affairs, Dr Juma Homera, said on Monday that President Samia had provided \u2026 The post",
-   "kind": "item",
-   "source": "Daily News (Tanzania)",
-   "source_id": "np-dailynews-tz",
-   "tier": 2,
-   "country": "TZ",
-   "category": "press",
-   "segments": [
-    "city",
-    "bush",
-    "beach"
-   ],
-   "first_seen": "2026-08-26T09:52+03:00",
-   "published": "2026-08-26",
-   "verdict": "weak"
-  },
-  {
-   "score": 51.7,
-   "components": {
-    "tier": 20,
-    "category": 4,
-    "lead": 0.0,
-    "relevance": 0,
-    "freshness": 17.7,
-    "corroborated": 10
-   },
-   "keywords": [],
-   "shock_terms": [],
-   "dedupe_match": null,
-   "dedupe_similarity": 0.0,
-   "id": "e62b940d376a",
-   "title": "\u2018Uphold unity, stability\u2019",
-   "url": "https://dailynews.co.tz/uphold-unity-stability",
-   "summary": "DAR ES SALAAM: PRESIDENT Samia Suluhu Hassan yesterday called on Tanzanians to uphold unity and solidarity and continue safeguarding peace and stability as Muslims across the country celebrated Maulid, commemorating the birth of Prophet Muhammad (SAW). In a message shared on her Instagram page, President Samia extended her greetings and blessings to Muslims and all \u2026 The post \u2018Uphold unity, stabil",
-   "kind": "item",
-   "source": "Daily News (Tanzania)",
-   "source_id": "np-dailynews-tz",
-   "tier": 2,
-   "country": "TZ",
-   "category": "press",
-   "segments": [
-    "city",
-    "bush",
-    "beach"
-   ],
-   "first_seen": "2026-08-26T09:52+03:00",
-   "published": "2026-08-26",
-   "verdict": "weak"
-  },
-  {
-   "score": 51.7,
-   "components": {
-    "tier": 20,
-    "category": 4,
-    "lead": 0.0,
-    "relevance": 0,
-    "freshness": 17.7,
-    "corroborated": 10
-   },
-   "keywords": [],
-   "shock_terms": [],
-   "dedupe_match": null,
-   "dedupe_similarity": 0.0,
-   "id": "1fface210888",
-   "title": "How Somalia\u2019s reconstruction can rejig regional transformation",
-   "url": "https://www.theeastafrican.co.ke/tea/opinion/guest-blogs/how-somalia-s-reconstruction-can-rejig-regional-transformation-5571042",
-   "summary": "In today\u2019s interconnected world, the success of Somalia\u2019s infrastructure depends on its ability...",
-   "kind": "item",
-   "source": "The EastAfrican",
-   "source_id": "np-eastafrican",
-   "tier": 2,
-   "country": "REG",
-   "category": "press",
-   "segments": [
-    "city",
-    "bush",
-    "beach"
-   ],
-   "first_seen": "2026-08-26T09:52+03:00",
-   "published": "2026-08-26",
-   "verdict": "weak"
-  },
-  {
-   "score": 51.7,
-   "components": {
-    "tier": 20,
-    "category": 4,
-    "lead": 0.0,
-    "relevance": 0,
-    "freshness": 17.7,
-    "corroborated": 10
-   },
-   "keywords": [],
-   "shock_terms": [],
-   "dedupe_match": null,
-   "dedupe_similarity": 0.0,
-   "id": "2c89e38fdfa8",
-   "title": "Moscow\u2019s influence? Russian Orthodox Church expands Africa footprint",
-   "url": "https://www.theeastafrican.co.ke/tea/news/world/moscow-s-influence-russian-orthodox-church-expands-africa-footprint-5571016",
-   "summary": "The expansion has taken on a new dimension amid Russia\u2019s war in Ukraine, with experts and...",
-   "kind": "item",
-   "source": "The EastAfrican",
-   "source_id": "np-eastafrican",
-   "tier": 2,
-   "country": "REG",
-   "category": "press",
-   "segments": [
-    "city",
-    "bush",
-    "beach"
-   ],
-   "first_seen": "2026-08-26T09:52+03:00",
-   "published": "2026-08-26",
-   "verdict": "weak"
-  },
-  {
-   "score": 49.8,
-   "components": {
-    "tier": 20,
-    "category": 4,
-    "lead": 0.0,
-    "relevance": 12,
-    "freshness": 19.8,
-    "undated": -6
-   },
-   "keywords": [
-    "tax",
-    "operator"
-   ],
-   "shock_terms": [],
-   "dedupe_match": null,
-   "dedupe_similarity": 0.0,
-   "id": "3dbaaec27bc7",
-   "title": "National Tanga: Bicycle taxi operators lose business to \u2018bodaboda\u2019 2 hours ago - 3 min read",
-   "url": "https://www.thecitizen.co.tz/tanzania/news/national/tanga-bicycle-taxi-operators-lose-business-to-bodaboda--5571320",
-   "summary": "",
-   "kind": "item",
-   "source": "The Citizen (Tanzania)",
-   "source_id": "np-citizen-tz",
-   "tier": 2,
-   "country": "TZ",
-   "category": "press",
-   "segments": [
-    "city",
-    "bush",
-    "beach"
-   ],
-   "first_seen": "2026-08-26T11:45+03:00",
-   "published": null,
-   "verdict": "weak"
-  },
-  {
-   "score": 49.8,
-   "components": {
-    "tier": 20,
-    "category": 4,
-    "lead": 0.0,
-    "relevance": 12,
-    "freshness": 19.8,
-    "undated": -6
-   },
-   "keywords": [
-    "suspend"
-   ],
-   "shock_terms": [],
-   "dedupe_match": null,
-   "dedupe_similarity": 0.0,
-   "id": "820ac5ea2589",
-   "title": "Kinshasa suspends universities in AFC/M23-controlled areas",
-   "url": "https://www.newtimes.co.rw/article/38440/news/africa/kinshasa-suspends-universities-in-afcm23-controlled-areas",
-   "summary": "",
-   "kind": "item",
-   "source": "The New Times (Rwanda)",
-   "source_id": "np-newtimes-rw",
-   "tier": 2,
-   "country": "RW",
-   "category": "press",
-   "segments": [
-    "city",
-    "bush",
-    "beach"
-   ],
-   "first_seen": "2026-08-26T11:45+03:00",
-   "published": null,
-   "verdict": "weak"
-  },
-  {
-   "score": 47.7,
-   "components": {
-    "tier": 20,
-    "category": 4,
-    "lead": 0.0,
-    "relevance": 12,
-    "freshness": 17.7,
-    "undated": -6
-   },
-   "keywords": [
-    "tax",
-    "operator"
-   ],
-   "shock_terms": [],
-   "dedupe_match": null,
-   "dedupe_similarity": 0.0,
-   "id": "0509e2301795",
-   "title": "National Tanga: Bicycle taxi operators lose business to \u2018bodaboda\u2019 26 min ago - 3 min read",
-   "url": "https://www.thecitizen.co.tz/tanzania/news/national/tanga-bicycle-taxi-operators-lose-business-to-bodaboda--5571320",
-   "summary": "",
-   "kind": "item",
-   "source": "The Citizen (Tanzania)",
-   "source_id": "np-citizen-tz",
-   "tier": 2,
-   "country": "TZ",
-   "category": "press",
-   "segments": [
-    "city",
-    "bush",
-    "beach"
-   ],
-   "first_seen": "2026-08-26T09:52+03:00",
-   "published": null,
-   "verdict": "weak"
-  },
-  {
-   "score": 45.9,
-   "components": {
-    "tier": 20,
-    "category": 5,
-    "lead": 1.2,
-    "relevance": 8,
-    "freshness": 17.7,
-    "undated": -6
-   },
-   "keywords": [
-    "airline",
-    "flight"
-   ],
-   "shock_terms": [],
-   "dedupe_match": null,
-   "dedupe_similarity": 0.0,
-   "id": "f40347ec4d1a",
-   "title": "Ethiopian Airlines Boosts Kinshasa Services to 21 Weekly Flights in Major DRC Push",
-   "url": "https://travelnews.africa/news-single.html?id=18245&title=Ethiopian+Airlines+Boosts+Kinshasa+Services+to+21+Weekly+Flights+in+Major+DRC+Push",
-   "summary": "",
-   "kind": "item",
-   "source": "travelnews.africa",
-   "source_id": "tp-travelnews-africa",
-   "tier": 2,
-   "country": "REG",
-   "category": "trade",
-   "segments": [
-    "city",
-    "bush",
-    "beach"
-   ],
-   "first_seen": "2026-08-26T09:52+03:00",
-   "published": null,
-   "verdict": "weak"
-  },
-  {
-   "score": 45.9,
-   "components": {
-    "tier": 20,
-    "category": 5,
-    "lead": 1.2,
-    "relevance": 8,
-    "freshness": 17.7,
-    "undated": -6
-   },
-   "keywords": [
-    "airline",
-    "flight"
-   ],
-   "shock_terms": [],
-   "dedupe_match": null,
-   "dedupe_similarity": 0.0,
-   "id": "385e0b2a9943",
-   "title": "Ethiopian Airlines Boosts Kinshasa Services to 21 Weekly Flights in Major DRC Push",
-   "url": "https://travelnews.africa/news-single.html?id=18245",
-   "summary": "",
-   "kind": "item",
-   "source": "travelnews.africa",
-   "source_id": "tp-travelnews-africa",
-   "tier": 2,
-   "country": "REG",
-   "category": "trade",
-   "segments": [
-    "city",
-    "bush",
-    "beach"
-   ],
-   "first_seen": "2026-08-26T09:52+03:00",
-   "published": null,
-   "verdict": "weak"
-  },
-  {
-   "score": 45.8,
-   "components": {
-    "tier": 20,
-    "category": 4,
-    "lead": 0.0,
-    "relevance": 8,
-    "freshness": 19.8,
-    "undated": -6
-   },
-   "keywords": [
-    "vat"
-   ],
-   "shock_terms": [],
-   "dedupe_match": null,
-   "dedupe_similarity": 0.17,
-   "id": "65fd85303fe0",
-   "title": "Business Tanzania innovator develops on-demand hydrogen gas system for clean cooking 2 hours ago - 4 min read",
-   "url": "https://www.thecitizen.co.tz/tanzania/business/tanzania-innovator-develops-on-demand-hydrogen-gas-system-for-clean-cooking-5571280",
-   "summary": "",
-   "kind": "item",
-   "source": "The Citizen (Tanzania)",
-   "source_id": "np-citizen-tz",
-   "tier": 2,
-   "country": "TZ",
-   "category": "press",
-   "segments": [
-    "city",
-    "bush",
-    "beach"
-   ],
-   "first_seen": "2026-08-26T11:45+03:00",
-   "published": null,
-   "verdict": "weak"
-  },
-  {
-   "score": 45.8,
-   "components": {
-    "tier": 20,
-    "category": 4,
-    "lead": 0.0,
-    "relevance": 8,
-    "freshness": 19.8,
-    "undated": -6
-   },
-   "keywords": [
-    "election"
-   ],
-   "shock_terms": [],
-   "dedupe_match": null,
-   "dedupe_similarity": 0.0,
-   "id": "0e39bfd67cb1",
-   "title": "Election inquiry commences 150-day journey with gathering of evidence Yesterday - 5 min read",
-   "url": "https://www.thecitizen.co.tz/tanzania/news/national/election-inquiry-commences-150-day-journey-with-gathering-of-evidence-5570120",
-   "summary": "",
-   "kind": "item",
-   "source": "The Citizen (Tanzania)",
-   "source_id": "np-citizen-tz",
-   "tier": 2,
-   "country": "TZ",
-   "category": "press",
-   "segments": [
-    "city",
-    "bush",
-    "beach"
-   ],
-   "first_seen": "2026-08-26T11:45+03:00",
-   "published": null,
    "verdict": "weak"
   }
  ]
