@@ -1,8 +1,8 @@
 window.LEDGER = {
- "updated": "2026-08-25 13:51",
+ "updated": "2026-08-26 17:07",
  "stats": {
-  "total": 128,
-  "open": 105,
+  "total": 130,
+  "open": 107,
   "resolved": 23,
   "correct": 17,
   "partial": 1,
@@ -744,6 +744,22 @@ window.LEDGER = {
    "resolved_date": "",
    "evidence": "",
    "source_url": "",
+   "overdue": false
+  },
+  {
+   "id": "P128",
+   "made_date": "2026-08-26",
+   "edition": "pulse-2026-08-26-evening",
+   "claim": "Booking Holdings management will again name pressure on organic search from Google's AI features on its Q3 2026 earnings call , rather than reporting that the pressure has eased",
+   "resolution_criteria": "Q3 2026 Booking Holdings earnings call transcript (investor relations) or Skift/Reuters coverage of it. Correct if management repeats or escalates the AI-Overviews/SEO-pressure commentary; incorrect if management states the pressure eased or does not raise it when asked",
+   "resolve_by": "2026-11-15",
+   "market": "GLOBAL",
+   "segment": "City|Bush|Beach",
+   "confidence": "Medium",
+   "status": "open",
+   "resolved_date": "",
+   "evidence": "",
+   "source_url": "https://skift.com/2026/08/04/booking-holdings-saw-pressure-from-googles-ai-overviews/",
    "overdue": false
   },
   {
@@ -1624,6 +1640,22 @@ window.LEDGER = {
    "resolved_date": "",
    "evidence": "",
    "source_url": "",
+   "overdue": false
+  },
+  {
+   "id": "P129",
+   "made_date": "2026-08-26",
+   "edition": "pulse-2026-08-26-evening",
+   "claim": "No East African national tourism authority (KTB , Tanzania Tourist Board , Uganda Tourism Board , RDB , Zanzibar Commission for Tourism) will publish an AI-answer-engine visibility , LLM-citation or GEO metric in any public report or press release before 30 June 2027",
+   "resolution_criteria": "Search of ktb.go.ke , tanzaniatourism.go.tz , utb.go.ug , rdb.rw and Zanzibar Commission for Tourism publications and press releases. Incorrect if any names an AI-search visibility share , LLM citation metric or generative-engine-optimisation KPI",
+   "resolve_by": "2027-06-30",
+   "market": "KE|TZ|UG|RW|ZNZ",
+   "segment": "City|Bush|Beach",
+   "confidence": "Medium",
+   "status": "open",
+   "resolved_date": "",
+   "evidence": "",
+   "source_url": "https://searchengineland.com/google-zero-click-searches-2026-study-479717",
    "overdue": false
   },
   {
