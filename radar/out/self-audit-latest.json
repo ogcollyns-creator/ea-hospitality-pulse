@@ -1,6 +1,6 @@
 {
- "generated": "2026-08-25T06:34+03:00",
- "health": 0.567,
+ "generated": "2026-08-26T06:40+03:00",
+ "health": 0.517,
  "grade": "D",
  "fails": [
   "source coverage",
@@ -9,6 +9,7 @@
  ],
  "warns": [
   "signal quality",
+  "ledger hygiene",
   "data freshness",
   "rate-index integrity"
  ],
@@ -23,21 +24,21 @@
   {
    "name": "source staleness",
    "status": "FAIL",
-   "detail": "46 tier-1 HEALTHY sources quiet >14d: ke-gazettes-africa, ke-knbs-releases, ke-knbs-calendar, ke-tri, ke-ktb-news, ke-tra, ke-tourism-fund, ke-kcaa",
+   "detail": "52 tier-1 HEALTHY sources quiet >14d: ke-gazettes-africa, ke-knbs-releases, ke-knbs-calendar, ke-tri, ke-ktb-news, ke-tra, ke-tourism-fund, ke-kcaa",
    "fix": "Confirm the source still publishes; fix URL if it moved.",
    "score": 0.0
   },
   {
    "name": "radar feed freshness",
    "status": "PASS",
-   "detail": "499 in-window obs; newest observation 0.6h old (2026-08-25T06:00:00+03:00).",
+   "detail": "489 in-window obs; newest observation 0.6h old (2026-08-26T06:07:00+03:00).",
    "fix": "",
    "score": 1.0
   },
   {
    "name": "edition cadence",
    "status": "FAIL",
-   "detail": "Missing slots (last 2 full days): 2026-08-24 morning, 2026-08-24 midday, 2026-08-23 morning, 2026-08-23 midday",
+   "detail": "Missing slots (last 2 full days): 2026-08-25 morning, 2026-08-24 morning, 2026-08-24 midday",
    "fix": "Confirm the scheduled Pulse task fired for each slot.",
    "score": 0.0
   },
@@ -50,36 +51,36 @@
   },
   {
    "name": "ledger hygiene",
-   "status": "PASS",
-   "detail": "119 calls: 96 open, 23 resolved. Overdue-open: 0. Missing source_url: 28.",
-   "fix": "",
-   "score": 1.0
+   "status": "WARN",
+   "detail": "128 calls: 105 open, 23 resolved. Overdue-open: 0. Missing source_url: 37.",
+   "fix": "Backfill source_url on early calls.",
+   "score": 0.5
   },
   {
    "name": "data freshness",
    "status": "WARN",
-   "detail": "Stale/again-verify: advisories.js 13d>4, calendar.js 27d>21",
+   "detail": "Stale/again-verify: advisories.js 14d>4, costs.js 11d>10, calendar.js 28d>21",
    "fix": "Re-verify each dataset's values and bump its 'updated:' field, or note it in-edition.",
    "score": 0.5
   },
   {
    "name": "rate-index integrity",
    "status": "WARN",
-   "detail": "n values seen: [0, 1, 2, 3, 4, 5]; confident true=63 false=10.",
+   "detail": "n values seen: [0, 1, 3, 4, 5, 6]; confident true=65 false=8.",
    "fix": "Index still thin \u2014 never quote a median where n<3 or confident:false. Enforced in copy.",
    "score": 0.5
   },
   {
    "name": "forecast throughput",
    "status": "PASS",
-   "detail": "19 new falsifiable calls logged in last 7d.",
+   "detail": "24 new falsifiable calls logged in last 7d.",
    "fix": "",
    "score": 1.0
   },
   {
    "name": "published content",
    "status": "PASS",
-   "detail": "3 recent editions; no advisory claim contradicts the board.",
+   "detail": "5 recent editions; no advisory claim contradicts the board.",
    "fix": "",
    "score": 1.0
   }
