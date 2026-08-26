@@ -5,7 +5,7 @@
 🏨 **EA HOSPITALITY PULSE — Evening Wrap**
 📅 Wednesday, 26 August 2026 | 🇰🇪 🇺🇬 🇹🇿 🇷🇼
 
-Nothing moved upstream today. So here is the thing quietly rewiring your top of funnel while nobody in this region talks about it.
+Google searches now end with zero clicks 68% of the time. For a safari sale built on weeks of research, that is where your guest quietly disappears.
 ━━━━━━━━━
 **1️⃣ 🌍 THE SEARCH BOX STOPPED SENDING PEOPLE — AND A SAFARI IS THE MOST RESEARCHED PURCHASE IN TRAVEL**
 
