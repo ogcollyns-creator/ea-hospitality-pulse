@@ -1,18 +1,18 @@
 {
- "generated": "2026-08-26T07:41:54+03:00",
+ "generated": "2026-08-26T09:53:19+03:00",
  "slot": "morning",
  "window_start": 1787670000,
- "observations_in_window": 530,
+ "observations_in_window": 621,
  "deduped_against": 4,
  "candidates": [
   {
-   "score": 130.0,
+   "score": 127.6,
    "components": {
     "tier": 40,
     "category": 32,
     "lead": 1.2,
     "relevance": 36,
-    "freshness": 8.8,
+    "freshness": 6.4,
     "undated": -6,
     "shock": 18
    },
@@ -46,13 +46,13 @@
    "verdict": "LEAD CANDIDATE \u2014 tier-1 shock language"
   },
   {
-   "score": 118.0,
+   "score": 115.6,
    "components": {
     "tier": 40,
     "category": 32,
     "lead": 1.2,
     "relevance": 24,
-    "freshness": 8.8,
+    "freshness": 6.4,
     "undated": -6,
     "shock": 18
    },
@@ -86,13 +86,48 @@
    "verdict": "LEAD CANDIDATE \u2014 tier-1 shock language"
   },
   {
-   "score": 63.7,
+   "score": 101.8,
+   "components": {
+    "tier": 40,
+    "category": 32,
+    "lead": 12.0,
+    "relevance": 8,
+    "freshness": 19.8,
+    "undated": -6,
+    "page_change": -4
+   },
+   "keywords": [
+    "fee"
+   ],
+   "shock_terms": [],
+   "dedupe_match": null,
+   "dedupe_similarity": 0.0,
+   "id": "ce078b6fb005",
+   "title": "[page changed] Federal Register \u2014 CDC notices",
+   "url": "https://www.federalregister.gov/api/v1/documents.rss?conditions%5Bagencies%5D%5B%5D=centers-for-disease-control-and-prevention&order=newest",
+   "summary": "Federal Register Documents published on or after 07/27/2026 and from Centers for Disease Control and Prevention https://www.federalregister.gov/api/v1/documents.rss?conditions%5Bagencies%5D%5B%5D=centers-for-disease-control-and-prevention&order=newest Thu, 20 Aug 2026 04:00:00 GMT The documents in this feed originate from FederalRegister.gov which displays an unofficial web version of the daily Fe",
+   "kind": "page-change",
+   "source": "Federal Register \u2014 CDC notices",
+   "source_id": "us-fedreg-cdc",
+   "tier": 1,
+   "country": "REG",
+   "category": "advisory",
+   "segments": [
+    "city",
+    "bush"
+   ],
+   "first_seen": "2026-08-26T09:52+03:00",
+   "published": null,
+   "verdict": "OPEN THIS \u2014 tier-1 advisory page moved; content not auto-parsed, read it manually"
+  },
+  {
+   "score": 61.2,
    "components": {
     "tier": 40,
     "category": 12,
     "lead": 3.6,
     "relevance": 0,
-    "freshness": 18.1,
+    "freshness": 15.6,
     "undated": -6,
     "page_change": -4
    },
@@ -120,13 +155,13 @@
    "verdict": "OPEN THIS \u2014 tier-1 airline page moved; content not auto-parsed, read it manually"
   },
   {
-   "score": 58.6,
+   "score": 56.2,
    "components": {
     "tier": 40,
     "category": 12,
     "lead": 3.6,
     "relevance": 0,
-    "freshness": 13.0,
+    "freshness": 10.6,
     "undated": -6,
     "page_change": -4
    },
@@ -154,13 +189,13 @@
    "verdict": "OPEN THIS \u2014 tier-1 airline page moved; content not auto-parsed, read it manually"
   },
   {
-   "score": 56.4,
+   "score": 54.0,
    "components": {
     "tier": 40,
     "category": 12,
     "lead": 3.6,
     "relevance": 0,
-    "freshness": 10.8,
+    "freshness": 8.4,
     "undated": -6,
     "page_change": -4
    },
@@ -188,13 +223,13 @@
    "verdict": "OPEN THIS \u2014 tier-1 airline page moved; content not auto-parsed, read it manually"
   },
   {
-   "score": 104.8,
+   "score": 102.4,
    "components": {
     "tier": 40,
     "category": 9,
     "lead": 16.8,
     "relevance": 16,
-    "freshness": 13.0,
+    "freshness": 10.6,
     "corroborated": 10
    },
    "keywords": [
@@ -225,13 +260,279 @@
    "verdict": "STRONG \u2014 tier-1, upstream"
   },
   {
-   "score": 90.5,
+   "score": 101.8,
+   "components": {
+    "tier": 40,
+    "category": 20,
+    "lead": 12.0,
+    "relevance": 0,
+    "freshness": 19.8,
+    "corroborated": 10
+   },
+   "keywords": [],
+   "shock_terms": [],
+   "dedupe_match": null,
+   "dedupe_similarity": 0.0,
+   "id": "cec5dda2089e",
+   "title": "Tongaren Mobile Court \u2013 Civil Division \u2013 Weekly Cause List \u2013 31 August 2026 to 04 September 2026",
+   "url": "https://new.kenyalaw.org/akn/ke/doc/cause-list-weekly/kemc/2026-08-31/2/eng@2026-08-31",
+   "summary": "Tongaren Mobile Court \u2013 Civil Division \u2013 Weekly Cause List \u2013 31 August 2026 to 04 September 2026",
+   "kind": "item",
+   "source": "Kenya Gazette (Kenya Law)",
+   "source_id": "ke-gazette",
+   "tier": 1,
+   "country": "KE",
+   "category": "gazette",
+   "segments": [
+    "city",
+    "bush",
+    "beach"
+   ],
+   "first_seen": "2026-08-26T09:52+03:00",
+   "published": "2026-08-31",
+   "verdict": "STRONG \u2014 tier-1, upstream"
+  },
+  {
+   "score": 101.8,
+   "components": {
+    "tier": 40,
+    "category": 20,
+    "lead": 12.0,
+    "relevance": 0,
+    "freshness": 19.8,
+    "corroborated": 10
+   },
+   "keywords": [],
+   "shock_terms": [],
+   "dedupe_match": null,
+   "dedupe_similarity": 0.0,
+   "id": "25cf9a0781fe",
+   "title": "Tongaren Mobile Court \u2013 Weekly Cause List \u2013 31 August 2026 to 04 September 2026",
+   "url": "https://new.kenyalaw.org/akn/ke/doc/cause-list-weekly/kemc/2026-08-31/3/eng@2026-08-31",
+   "summary": "Tongaren Mobile Court \u2013 Weekly Cause List \u2013 31 August 2026 to 04 September 2026",
+   "kind": "item",
+   "source": "Kenya Gazette (Kenya Law)",
+   "source_id": "ke-gazette",
+   "tier": 1,
+   "country": "KE",
+   "category": "gazette",
+   "segments": [
+    "city",
+    "bush",
+    "beach"
+   ],
+   "first_seen": "2026-08-26T09:52+03:00",
+   "published": "2026-08-31",
+   "verdict": "STRONG \u2014 tier-1, upstream"
+  },
+  {
+   "score": 101.8,
+   "components": {
+    "tier": 40,
+    "category": 20,
+    "lead": 12.0,
+    "relevance": 0,
+    "freshness": 19.8,
+    "corroborated": 10
+   },
+   "keywords": [],
+   "shock_terms": [],
+   "dedupe_match": null,
+   "dedupe_similarity": 0.0,
+   "id": "0657c1973f01",
+   "title": "Githunguri Law Courts \u2013 Daily Cause List \u2013 25 August 2026",
+   "url": "https://new.kenyalaw.org/akn/ke/doc/cause-list-daily/kemc/2026-08-25/1/eng@2026-08-25",
+   "summary": "Githunguri Law Courts \u2013 Daily Cause List \u2013 25 August 2026",
+   "kind": "item",
+   "source": "Kenya Gazette (Kenya Law)",
+   "source_id": "ke-gazette",
+   "tier": 1,
+   "country": "KE",
+   "category": "gazette",
+   "segments": [
+    "city",
+    "bush",
+    "beach"
+   ],
+   "first_seen": "2026-08-26T09:52+03:00",
+   "published": "2026-08-25",
+   "verdict": "STRONG \u2014 tier-1, upstream"
+  },
+  {
+   "score": 101.8,
+   "components": {
+    "tier": 40,
+    "category": 20,
+    "lead": 12.0,
+    "relevance": 0,
+    "freshness": 19.8,
+    "corroborated": 10
+   },
+   "keywords": [],
+   "shock_terms": [],
+   "dedupe_match": null,
+   "dedupe_similarity": 0.0,
+   "id": "362f2fc9966c",
+   "title": "Business Premises Rent Tribunal \u2013 Daily Cause List \u2013 25 August 2026",
+   "url": "https://new.kenyalaw.org/akn/ke/doc/cause-list-daily/kebprt/2026-08-25/1/eng@2026-08-25",
+   "summary": "Business Premises Rent Tribunal \u2013 Daily Cause List \u2013 25 August 2026",
+   "kind": "item",
+   "source": "Kenya Gazette (Kenya Law)",
+   "source_id": "ke-gazette",
+   "tier": 1,
+   "country": "KE",
+   "category": "gazette",
+   "segments": [
+    "city",
+    "bush",
+    "beach"
+   ],
+   "first_seen": "2026-08-26T09:52+03:00",
+   "published": "2026-08-25",
+   "verdict": "STRONG \u2014 tier-1, upstream"
+  },
+  {
+   "score": 101.8,
+   "components": {
+    "tier": 40,
+    "category": 20,
+    "lead": 12.0,
+    "relevance": 0,
+    "freshness": 19.8,
+    "corroborated": 10
+   },
+   "keywords": [],
+   "shock_terms": [],
+   "dedupe_match": null,
+   "dedupe_similarity": 0.0,
+   "id": "ed3a9e8f6537",
+   "title": "Butere Law Courts \u2013 Criminal Division \u2013 Weekly Cause List \u2013 31 August 2026 to 04 September 2026",
+   "url": "https://new.kenyalaw.org/akn/ke/doc/cause-list-weekly/kemc/2026-08-31/4/eng@2026-08-31",
+   "summary": "Butere Law Courts \u2013 Criminal Division \u2013 Weekly Cause List \u2013 31 August 2026 to 04 September 2026",
+   "kind": "item",
+   "source": "Kenya Gazette (Kenya Law)",
+   "source_id": "ke-gazette",
+   "tier": 1,
+   "country": "KE",
+   "category": "gazette",
+   "segments": [
+    "city",
+    "bush",
+    "beach"
+   ],
+   "first_seen": "2026-08-26T09:52+03:00",
+   "published": "2026-08-31",
+   "verdict": "STRONG \u2014 tier-1, upstream"
+  },
+  {
+   "score": 101.8,
+   "components": {
+    "tier": 40,
+    "category": 20,
+    "lead": 12.0,
+    "relevance": 0,
+    "freshness": 19.8,
+    "corroborated": 10
+   },
+   "keywords": [],
+   "shock_terms": [],
+   "dedupe_match": null,
+   "dedupe_similarity": 0.0,
+   "id": "427d68e4caad",
+   "title": "Kimilili Law Courts \u2013 Criminal Division \u2013 Weekly Cause List \u2013 31 August 2026 to 04 September 2026",
+   "url": "https://new.kenyalaw.org/akn/ke/doc/cause-list-weekly/kemc/2026-08-31/5/eng@2026-08-31",
+   "summary": "Kimilili Law Courts \u2013 Criminal Division \u2013 Weekly Cause List \u2013 31 August 2026 to 04 September 2026",
+   "kind": "item",
+   "source": "Kenya Gazette (Kenya Law)",
+   "source_id": "ke-gazette",
+   "tier": 1,
+   "country": "KE",
+   "category": "gazette",
+   "segments": [
+    "city",
+    "bush",
+    "beach"
+   ],
+   "first_seen": "2026-08-26T09:52+03:00",
+   "published": "2026-08-31",
+   "verdict": "STRONG \u2014 tier-1, upstream"
+  },
+  {
+   "score": 101.8,
+   "components": {
+    "tier": 40,
+    "category": 20,
+    "lead": 12.0,
+    "relevance": 0,
+    "freshness": 19.8,
+    "corroborated": 10
+   },
+   "keywords": [],
+   "shock_terms": [],
+   "dedupe_match": null,
+   "dedupe_similarity": 0.0,
+   "id": "6fc5922595eb",
+   "title": "Githunguri Law Courts \u2013 Daily Cause List \u2013 26 August 2026",
+   "url": "https://new.kenyalaw.org/akn/ke/doc/cause-list-daily/kemc/2026-08-26/1/eng@2026-08-26",
+   "summary": "Githunguri Law Courts \u2013 Daily Cause List \u2013 26 August 2026",
+   "kind": "item",
+   "source": "Kenya Gazette (Kenya Law)",
+   "source_id": "ke-gazette",
+   "tier": 1,
+   "country": "KE",
+   "category": "gazette",
+   "segments": [
+    "city",
+    "bush",
+    "beach"
+   ],
+   "first_seen": "2026-08-26T09:52+03:00",
+   "published": "2026-08-26",
+   "verdict": "STRONG \u2014 tier-1, upstream"
+  },
+  {
+   "score": 89.4,
+   "components": {
+    "tier": 40,
+    "category": 32,
+    "lead": 3.6,
+    "relevance": 8,
+    "freshness": 19.8,
+    "stale_trap": -10,
+    "page_change": -4
+   },
+   "keywords": [
+    "election"
+   ],
+   "shock_terms": [],
+   "dedupe_match": null,
+   "dedupe_similarity": 0.0,
+   "id": "9e37b9fd36b8",
+   "title": "[page changed] Federal Register \u2014 public inspection (HHS/CDC), pre-publication",
+   "url": "https://www.federalregister.gov/api/v1/public-inspection-documents/current.json",
+   "summary": "{\"count\":94,\"results\":[{\"agencies\":[{\"raw_name\":\"POSTAL SERVICE\",\"name\":\"Postal Service\",\"id\":410,\"url\":\"https://www.federalregister.gov/agencies/postal-service\",\"json_url\":\"https://www.federalregister.gov/api/v1/agencies/410\",\"parent_id\":null,\"slug\":\"postal-service\"}],\"agency_letters\":[],\"agency_names\":[\"Postal Service\"],\"docket_numbers\":[],\"document_number\":\"2026-17238\",\"editorial_note\":null,\"ex",
+   "kind": "page-change",
+   "source": "Federal Register \u2014 public inspection (HHS/CDC), pre-publication",
+   "source_id": "us-fedreg-pubinspect-hhs",
+   "tier": 1,
+   "country": "REG",
+   "category": "advisory",
+   "segments": [
+    "city",
+    "bush"
+   ],
+   "first_seen": "2026-08-26T09:52+03:00",
+   "published": "2026-08-21",
+   "verdict": "CHECK \u2014 source date older than the window"
+  },
+  {
+   "score": 88.1,
    "components": {
     "tier": 20,
     "category": 14,
     "lead": 8.4,
     "relevance": 20,
-    "freshness": 18.1,
+    "freshness": 15.7,
     "corroborated": 10
    },
    "keywords": [
@@ -262,13 +563,13 @@
    "verdict": "CONSIDER"
   },
   {
-   "score": 89.8,
+   "score": 87.4,
    "components": {
     "tier": 40,
     "category": 10,
     "lead": 16.8,
     "relevance": 0,
-    "freshness": 13.0,
+    "freshness": 10.6,
     "corroborated": 10
    },
    "keywords": [],
@@ -295,13 +596,13 @@
    "verdict": "CONSIDER"
   },
   {
-   "score": 88.7,
+   "score": 86.3,
    "components": {
     "tier": 40,
     "category": 32,
     "lead": 3.6,
     "relevance": 8,
-    "freshness": 19.1,
+    "freshness": 16.7,
     "stale_trap": -10,
     "page_change": -4
    },
@@ -330,13 +631,13 @@
    "verdict": "CHECK \u2014 source date older than the window"
   },
   {
-   "score": 86.5,
+   "score": 84.1,
    "components": {
     "tier": 20,
     "category": 14,
     "lead": 8.4,
     "relevance": 16,
-    "freshness": 18.1,
+    "freshness": 15.7,
     "corroborated": 10
    },
    "keywords": [
@@ -367,13 +668,13 @@
    "verdict": "CONSIDER"
   },
   {
-   "score": 86.5,
+   "score": 84.1,
    "components": {
     "tier": 20,
     "category": 14,
     "lead": 8.4,
     "relevance": 16,
-    "freshness": 18.1,
+    "freshness": 15.7,
     "corroborated": 10
    },
    "keywords": [
@@ -403,13 +704,13 @@
    "verdict": "CONSIDER"
   },
   {
-   "score": 85.7,
+   "score": 83.3,
    "components": {
     "tier": 40,
     "category": 32,
     "lead": 3.6,
     "relevance": 8,
-    "freshness": 16.1,
+    "freshness": 13.7,
     "stale_trap": -10,
     "page_change": -4
    },
@@ -438,13 +739,13 @@
    "verdict": "CHECK \u2014 source date older than the window"
   },
   {
-   "score": 84.8,
+   "score": 82.4,
    "components": {
     "tier": 40,
     "category": 9,
     "lead": 16.8,
     "relevance": 12,
-    "freshness": 13.0,
+    "freshness": 10.6,
     "undated": -6
    },
    "keywords": [
@@ -475,13 +776,178 @@
    "verdict": "CONSIDER"
   },
   {
-   "score": 82.6,
+   "score": 81.8,
+   "components": {
+    "tier": 40,
+    "category": 20,
+    "lead": 12.0,
+    "relevance": 0,
+    "freshness": 19.8,
+    "stale_trap": -10
+   },
+   "keywords": [],
+   "shock_terms": [],
+   "dedupe_match": null,
+   "dedupe_similarity": 0.0,
+   "id": "e7574989afa0",
+   "title": "The Export Processing - Declaration of Export Processing Zone",
+   "url": "https://new.kenyalaw.org/akn/ke/act/ln/2026/159/eng@2026-08-21",
+   "summary": "The Export Processing - Declaration of Export Processing Zone",
+   "kind": "item",
+   "source": "Kenya Gazette (Kenya Law)",
+   "source_id": "ke-gazette",
+   "tier": 1,
+   "country": "KE",
+   "category": "gazette",
+   "segments": [
+    "city",
+    "bush",
+    "beach"
+   ],
+   "first_seen": "2026-08-26T09:52+03:00",
+   "published": "2026-08-21",
+   "verdict": "CHECK \u2014 source date older than the window"
+  },
+  {
+   "score": 81.8,
+   "components": {
+    "tier": 40,
+    "category": 20,
+    "lead": 12.0,
+    "relevance": 0,
+    "freshness": 19.8,
+    "stale_trap": -10
+   },
+   "keywords": [],
+   "shock_terms": [],
+   "dedupe_match": null,
+   "dedupe_similarity": 0.0,
+   "id": "7022c7afa31e",
+   "title": "The Export Processing - Declaration of Export Processing Zone",
+   "url": "https://new.kenyalaw.org/akn/ke/act/ln/2026/158/eng@2026-08-21",
+   "summary": "The Export Processing - Declaration of Export Processing Zone",
+   "kind": "item",
+   "source": "Kenya Gazette (Kenya Law)",
+   "source_id": "ke-gazette",
+   "tier": 1,
+   "country": "KE",
+   "category": "gazette",
+   "segments": [
+    "city",
+    "bush",
+    "beach"
+   ],
+   "first_seen": "2026-08-26T09:52+03:00",
+   "published": "2026-08-21",
+   "verdict": "CHECK \u2014 source date older than the window"
+  },
+  {
+   "score": 81.8,
+   "components": {
+    "tier": 40,
+    "category": 20,
+    "lead": 12.0,
+    "relevance": 0,
+    "freshness": 19.8,
+    "stale_trap": -10
+   },
+   "keywords": [],
+   "shock_terms": [],
+   "dedupe_match": null,
+   "dedupe_similarity": 0.0,
+   "id": "779f3d4b3ee6",
+   "title": "The Export Processing Zone - Declaration of Export Processing Zone",
+   "url": "https://new.kenyalaw.org/akn/ke/act/ln/2026/157/eng@2026-08-21",
+   "summary": "The Export Processing Zone - Declaration of Export Processing Zone",
+   "kind": "item",
+   "source": "Kenya Gazette (Kenya Law)",
+   "source_id": "ke-gazette",
+   "tier": 1,
+   "country": "KE",
+   "category": "gazette",
+   "segments": [
+    "city",
+    "bush",
+    "beach"
+   ],
+   "first_seen": "2026-08-26T09:52+03:00",
+   "published": "2026-08-21",
+   "verdict": "CHECK \u2014 source date older than the window"
+  },
+  {
+   "score": 81.8,
+   "components": {
+    "tier": 40,
+    "category": 20,
+    "lead": 12.0,
+    "relevance": 0,
+    "freshness": 19.8,
+    "stale_trap": -10
+   },
+   "keywords": [],
+   "shock_terms": [],
+   "dedupe_match": null,
+   "dedupe_similarity": 0.0,
+   "id": "b517672bb5c2",
+   "title": "The Export Processing Zones - Declaration of Export processing Zone",
+   "url": "https://new.kenyalaw.org/akn/ke/act/ln/2026/156/eng@2026-08-21",
+   "summary": "The Export Processing Zones - Declaration of Export processing Zone",
+   "kind": "item",
+   "source": "Kenya Gazette (Kenya Law)",
+   "source_id": "ke-gazette",
+   "tier": 1,
+   "country": "KE",
+   "category": "gazette",
+   "segments": [
+    "city",
+    "bush",
+    "beach"
+   ],
+   "first_seen": "2026-08-26T09:52+03:00",
+   "published": "2026-08-21",
+   "verdict": "CHECK \u2014 source date older than the window"
+  },
+  {
+   "score": 81.8,
+   "components": {
+    "tier": 40,
+    "category": 20,
+    "lead": 12.0,
+    "relevance": 0,
+    "freshness": 19.8,
+    "stale_trap": -10
+   },
+   "keywords": [],
+   "shock_terms": [],
+   "dedupe_match": null,
+   "dedupe_similarity": 0.0,
+   "id": "406a27d5d6be",
+   "title": "The Export Processing - Declaration of Export Processing Zone",
+   "url": "https://new.kenyalaw.org/akn/ke/act/ln/2026/155/eng@2026-08-21",
+   "summary": "The Export Processing - Declaration of Export Processing Zone",
+   "kind": "item",
+   "source": "Kenya Gazette (Kenya Law)",
+   "source_id": "ke-gazette",
+   "tier": 1,
+   "country": "KE",
+   "category": "gazette",
+   "segments": [
+    "city",
+    "bush",
+    "beach"
+   ],
+   "first_seen": "2026-08-26T09:52+03:00",
+   "published": "2026-08-21",
+   "verdict": "CHECK \u2014 source date older than the window"
+  },
+  {
+   "score": 80.2,
    "components": {
     "tier": 40,
     "category": 32,
     "lead": 3.6,
     "relevance": 8,
-    "freshness": 13.0,
+    "freshness": 10.6,
     "stale_trap": -10,
     "page_change": -4
    },
@@ -510,13 +976,13 @@
    "verdict": "CHECK \u2014 source date older than the window"
   },
   {
-   "score": 82.5,
+   "score": 80.1,
    "components": {
     "tier": 20,
     "category": 14,
     "lead": 8.4,
     "relevance": 12,
-    "freshness": 18.1,
+    "freshness": 15.7,
     "corroborated": 10
    },
    "keywords": [
@@ -546,13 +1012,13 @@
    "verdict": "CONSIDER"
   },
   {
-   "score": 82.5,
+   "score": 80.1,
    "components": {
     "tier": 20,
     "category": 14,
     "lead": 8.4,
     "relevance": 12,
-    "freshness": 18.1,
+    "freshness": 15.7,
     "corroborated": 10
    },
    "keywords": [
@@ -582,13 +1048,13 @@
    "verdict": "CONSIDER"
   },
   {
-   "score": 81.4,
+   "score": 79.0,
    "components": {
     "tier": 20,
     "category": 14,
     "lead": 8.4,
     "relevance": 16,
-    "freshness": 13.0,
+    "freshness": 10.6,
     "corroborated": 10
    },
    "keywords": [
@@ -619,13 +1085,13 @@
    "verdict": "CONSIDER"
   },
   {
-   "score": 78.4,
+   "score": 76.0,
    "components": {
     "tier": 40,
     "category": 32,
     "lead": 3.6,
     "relevance": 8,
-    "freshness": 8.8,
+    "freshness": 6.4,
     "stale_trap": -10,
     "page_change": -4
    },
@@ -654,13 +1120,13 @@
    "verdict": "CHECK \u2014 source date older than the window"
   },
   {
-   "score": 77.4,
+   "score": 75.0,
    "components": {
     "tier": 20,
     "category": 14,
     "lead": 8.4,
     "relevance": 12,
-    "freshness": 13.0,
+    "freshness": 10.6,
     "corroborated": 10
    },
    "keywords": [
@@ -690,13 +1156,48 @@
    "verdict": "CONSIDER"
   },
   {
-   "score": 77.2,
+   "score": 74.8,
+   "components": {
+    "tier": 40,
+    "category": 20,
+    "lead": 12.0,
+    "relevance": 8,
+    "freshness": 19.8,
+    "stale_trap": -25
+   },
+   "keywords": [
+    "levy"
+   ],
+   "shock_terms": [],
+   "dedupe_match": null,
+   "dedupe_similarity": 0.25,
+   "id": "75996455fcca",
+   "title": "Tea (Levy)(Amendment) Regulations, 2026",
+   "url": "https://new.kenyalaw.org/akn/ke/act/ln/2026/150/eng@2026-08-18",
+   "summary": "Tea (Levy)(Amendment) Regulations, 2026",
+   "kind": "item",
+   "source": "Kenya Gazette (Kenya Law)",
+   "source_id": "ke-gazette",
+   "tier": 1,
+   "country": "KE",
+   "category": "gazette",
+   "segments": [
+    "city",
+    "bush",
+    "beach"
+   ],
+   "first_seen": "2026-08-26T09:52+03:00",
+   "published": "2026-08-18",
+   "verdict": "CHECK \u2014 source date older than the window"
+  },
+  {
+   "score": 74.8,
    "components": {
     "tier": 20,
     "category": 14,
     "lead": 8.4,
     "relevance": 16,
-    "freshness": 8.8,
+    "freshness": 6.4,
     "corroborated": 10
    },
    "keywords": [
@@ -727,13 +1228,13 @@
    "verdict": "CONSIDER"
   },
   {
-   "score": 77.2,
+   "score": 74.8,
    "components": {
     "tier": 20,
     "category": 14,
     "lead": 8.4,
     "relevance": 16,
-    "freshness": 8.8,
+    "freshness": 6.4,
     "corroborated": 10
    },
    "keywords": [
@@ -764,13 +1265,13 @@
    "verdict": "CONSIDER"
   },
   {
-   "score": 77.1,
+   "score": 74.7,
    "components": {
     "tier": 40,
     "category": 13,
     "lead": 6.0,
     "relevance": 8,
-    "freshness": 16.1,
+    "freshness": 13.7,
     "undated": -6
    },
    "keywords": [
@@ -799,13 +1300,13 @@
    "verdict": "CONSIDER"
   },
   {
-   "score": 76.8,
+   "score": 74.4,
    "components": {
     "tier": 40,
     "category": 9,
     "lead": 16.8,
     "relevance": 4,
-    "freshness": 13.0,
+    "freshness": 10.6,
     "undated": -6
    },
    "keywords": [
@@ -832,13 +1333,13 @@
    "verdict": "CONSIDER"
   },
   {
-   "score": 76.8,
+   "score": 74.4,
    "components": {
     "tier": 40,
     "category": 9,
     "lead": 16.8,
     "relevance": 4,
-    "freshness": 13.0,
+    "freshness": 10.6,
     "undated": -6
    },
    "keywords": [
@@ -865,13 +1366,13 @@
    "verdict": "CONSIDER"
   },
   {
-   "score": 75.5,
+   "score": 73.1,
    "components": {
     "tier": 40,
     "category": 32,
     "lead": 3.6,
     "relevance": 8,
-    "freshness": 5.9,
+    "freshness": 3.5,
     "stale_trap": -10,
     "page_change": -4
    },
@@ -898,516 +1399,6 @@
    "first_seen": "2026-08-25T19:04+03:00",
    "published": "2026-08-21",
    "verdict": "CHECK \u2014 source date older than the window"
-  },
-  {
-   "score": 75.0,
-   "components": {
-    "tier": 40,
-    "category": 20,
-    "lead": 12.0,
-    "relevance": 0,
-    "freshness": 13.0,
-    "stale_trap": -10
-   },
-   "keywords": [],
-   "shock_terms": [],
-   "dedupe_match": null,
-   "dedupe_similarity": 0.0,
-   "id": "92275667c671",
-   "title": "DA v ANW (Children's Case E022 of 2026) [2026] KEMC 663 (KLR) (20 August 2026) (Ruling)",
-   "url": "https://new.kenyalaw.org/akn/ke/judgment/kemc/2026/663/eng@2026-08-20",
-   "summary": "DA v ANW (Children's Case E022 of 2026) [2026] KEMC 663 (KLR) (20 August 2026) (Ruling)",
-   "kind": "item",
-   "source": "Kenya Gazette (Kenya Law)",
-   "source_id": "ke-gazette",
-   "tier": 1,
-   "country": "KE",
-   "category": "gazette",
-   "segments": [
-    "city",
-    "bush",
-    "beach"
-   ],
-   "first_seen": "2026-08-26T01:29+03:00",
-   "published": "2026-08-20",
-   "verdict": "CHECK \u2014 source date older than the window"
-  },
-  {
-   "score": 73.8,
-   "components": {
-    "tier": 40,
-    "category": 10,
-    "lead": 16.8,
-    "relevance": 0,
-    "freshness": 13.0,
-    "undated": -6
-   },
-   "keywords": [],
-   "shock_terms": [],
-   "dedupe_match": null,
-   "dedupe_similarity": 0.0,
-   "id": "766535a61c7f",
-   "title": "MPs call for take over of government operations of Kampala-Entebbe Expressway Tuesday, 25 August 2026",
-   "url": "https://www.parliament.go.ug/news/4578/mps-call-take-over-government-operations-kampala-entebbe-expressway",
-   "summary": "",
-   "kind": "item",
-   "source": "Parliament of Uganda",
-   "source_id": "ug-parliament",
-   "tier": 1,
-   "country": "UG",
-   "category": "legislature",
-   "segments": [
-    "city",
-    "bush",
-    "beach"
-   ],
-   "first_seen": "2026-08-26T01:29+03:00",
-   "published": null,
-   "verdict": "CONSIDER"
-  },
-  {
-   "score": 73.8,
-   "components": {
-    "tier": 40,
-    "category": 10,
-    "lead": 16.8,
-    "relevance": 0,
-    "freshness": 13.0,
-    "undated": -6
-   },
-   "keywords": [],
-   "shock_terms": [],
-   "dedupe_match": null,
-   "dedupe_similarity": 0.0,
-   "id": "7295de0017f3",
-   "title": "Bill to regulate manufacture and sell of agricultural inputs tabled Tuesday, 25 August 2026",
-   "url": "https://www.parliament.go.ug/news/4577/bill-regulate-manufacture-and-sell-agricultural-inputs-tabled",
-   "summary": "",
-   "kind": "item",
-   "source": "Parliament of Uganda",
-   "source_id": "ug-parliament",
-   "tier": 1,
-   "country": "UG",
-   "category": "legislature",
-   "segments": [
-    "city",
-    "bush",
-    "beach"
-   ],
-   "first_seen": "2026-08-26T01:29+03:00",
-   "published": null,
-   "verdict": "CONSIDER"
-  },
-  {
-   "score": 73.8,
-   "components": {
-    "tier": 40,
-    "category": 10,
-    "lead": 16.8,
-    "relevance": 0,
-    "freshness": 13.0,
-    "undated": -6
-   },
-   "keywords": [],
-   "shock_terms": [],
-   "dedupe_match": null,
-   "dedupe_similarity": 0.0,
-   "id": "4fb583159c50",
-   "title": "Speaker to name persons threatening committee chairpersons Tuesday, 25 August 2026",
-   "url": "https://www.parliament.go.ug/news/4576/speaker-name-persons-threatening-committee-chairpersons",
-   "summary": "",
-   "kind": "item",
-   "source": "Parliament of Uganda",
-   "source_id": "ug-parliament",
-   "tier": 1,
-   "country": "UG",
-   "category": "legislature",
-   "segments": [
-    "city",
-    "bush",
-    "beach"
-   ],
-   "first_seen": "2026-08-26T01:29+03:00",
-   "published": null,
-   "verdict": "CONSIDER"
-  },
-  {
-   "score": 73.4,
-   "components": {
-    "tier": 20,
-    "category": 14,
-    "lead": 8.4,
-    "relevance": 8,
-    "freshness": 13.0,
-    "corroborated": 10
-   },
-   "keywords": [
-    "route"
-   ],
-   "shock_terms": [],
-   "dedupe_match": null,
-   "dedupe_similarity": 0.0,
-   "id": "816836a51578",
-   "title": "Riyadh Air Revises Manila Sep 2026 Operations",
-   "url": "https://www.aeroroutes.com/eng/260825-rxsep26mnl",
-   "summary": "Published at 1430PDT / 2130GMT 25AUG26 Riyadh Air as of today (25AUG26) filed changes to its planned Riyadh \u2013 Manila route. The carrier\u2019s planned service launch on 09SEP26 remains unchanged, however service will be reduced from 1 daily to 4 weekly. Planned 1 daily service is now scheduled from 30SEP26. Boeing 787-9 operates this route. RX873 RUH0105 \u2013 1555MNL 789 D RX874 MNL1725 \u2013 2215RUH 789 D",
-   "kind": "item",
-   "source": "AeroRoutes schedule filings",
-   "source_id": "aeroroutes",
-   "tier": 2,
-   "country": "GLOBAL",
-   "category": "aviation-tracker",
-   "segments": [
-    "city",
-    "bush",
-    "beach"
-   ],
-   "first_seen": "2026-08-26T01:29+03:00",
-   "published": "2026-08-26",
-   "verdict": "CONSIDER"
-  },
-  {
-   "score": 73.4,
-   "components": {
-    "tier": 20,
-    "category": 14,
-    "lead": 8.4,
-    "relevance": 8,
-    "freshness": 13.0,
-    "corroborated": 10
-   },
-   "keywords": [
-    "route"
-   ],
-   "shock_terms": [],
-   "dedupe_match": null,
-   "dedupe_similarity": 0.0,
-   "id": "fd9333be9aeb",
-   "title": "Sky Express Adds Athens \u2013 Cairo From Dec 2026",
-   "url": "https://www.aeroroutes.com/eng/260825-gqdec26cai",
-   "summary": "Published at 1200PDT / 1900GMT 25AUG26 Greek carrier Sky Express from December 2026 is adding new service to Egypt, with the launch of Athens \u2013 Cairo route on 02DEC26. Airbus A320neo operates this route once a day. GQ730 ATH0345 \u2013 0550CAI 32N 257 GQ730 ATH2020 \u2013 2225CAI 32N x257 GQ731 CAI0650 \u2013 0850ATH 32N 257 GQ731 CAI2325 \u2013 0125+1ATH 32N x257",
-   "kind": "item",
-   "source": "AeroRoutes schedule filings",
-   "source_id": "aeroroutes",
-   "tier": 2,
-   "country": "GLOBAL",
-   "category": "aviation-tracker",
-   "segments": [
-    "city",
-    "bush",
-    "beach"
-   ],
-   "first_seen": "2026-08-26T01:29+03:00",
-   "published": "2026-08-25",
-   "verdict": "CONSIDER"
-  },
-  {
-   "score": 73.2,
-   "components": {
-    "tier": 20,
-    "category": 5,
-    "lead": 1.2,
-    "relevance": 24,
-    "freshness": 13.0,
-    "corroborated": 10
-   },
-   "keywords": [
-    "vat",
-    "fuel",
-    "capacity"
-   ],
-   "shock_terms": [],
-   "dedupe_match": null,
-   "dedupe_similarity": 0.0,
-   "id": "fa30cda6cad8",
-   "title": "United CEO on Fares in 2027: Fuel Stays \u2018Elevated,\u2019 But We Can \u2018Pass All of That On\u2019",
-   "url": "https://skift.com/2026/08/25/united-ceo-expects-high-demand-will-continue-to-offset-fuel-in-2027",
-   "summary": "United is betting demand stays strong. But at some point, added capacity will put pressure on prices.",
-   "kind": "item",
-   "source": "Skift",
-   "source_id": "tp-skift",
-   "tier": 2,
-   "country": "GLOBAL",
-   "category": "trade",
-   "segments": [
-    "city",
-    "bush",
-    "beach"
-   ],
-   "first_seen": "2026-08-26T01:29+03:00",
-   "published": "2026-08-25",
-   "verdict": "CONSIDER"
-  },
-  {
-   "score": 70.8,
-   "components": {
-    "tier": 40,
-    "category": 7,
-    "lead": 16.8,
-    "relevance": 0,
-    "freshness": 13.0,
-    "undated": -6
-   },
-   "keywords": [],
-   "shock_terms": [],
-   "dedupe_match": null,
-   "dedupe_similarity": 0.0,
-   "id": "a6cfe60e8246",
-   "title": "Procurement of One Station Wagon and One Doub...",
-   "url": "https://egpuganda.go.ug/index/393412732_egp",
-   "summary": "",
-   "kind": "item",
-   "source": "Uganda EGP portal",
-   "source_id": "ug-tenders",
-   "tier": 1,
-   "country": "UG",
-   "category": "tender",
-   "segments": [
-    "city",
-    "bush",
-    "beach"
-   ],
-   "first_seen": "2026-08-26T01:29+03:00",
-   "published": null,
-   "verdict": "CONSIDER"
-  },
-  {
-   "score": 69.4,
-   "components": {
-    "tier": 20,
-    "category": 5,
-    "lead": 3.6,
-    "relevance": 20,
-    "freshness": 10.8,
-    "corroborated": 10
-   },
-   "keywords": [
-    "revpar",
-    "hotel",
-    "booking",
-    "guest"
-   ],
-   "shock_terms": [],
-   "dedupe_match": null,
-   "dedupe_similarity": 0.0,
-   "id": "608e90f4a05e",
-   "title": "The Guest Data OTAs Send You Comes With a Countdown, World Panel Weighs the Human-Free Hotel, Luxury RevPAR Runs 15.9% Ahead",
-   "url": "https://www.hospitalitynet.org/editorial/4134088/the-guest-data-otas-send-you-comes-with-a-countdown-world-panel-weighs-the-human-free-hotel-luxury-revpar-runs-159-ahead",
-   "summary": "Tuesday brought a forensic look at what a hotel actually receives about an OTA guest: an alias email that stops working seven days after checkout at Booking.com, a 45-day window at Expedia, and a virtual card that dies within a year, while the agentic commerce standard published by Stripe, OpenAI...",
-   "kind": "item",
-   "source": "Hospitality Net \u2014 Africa announcements",
-   "source_id": "dev-hospitalitynet-africa",
-   "tier": 2,
-   "country": "REG",
-   "category": "trade",
-   "segments": [
-    "city",
-    "bush",
-    "beach"
-   ],
-   "first_seen": "2026-08-25T23:31+03:00",
-   "published": "2026-08-25",
-   "verdict": "weak"
-  },
-  {
-   "score": 69.2,
-   "components": {
-    "tier": 20,
-    "category": 14,
-    "lead": 8.4,
-    "relevance": 8,
-    "freshness": 8.8,
-    "corroborated": 10
-   },
-   "keywords": [
-    "route"
-   ],
-   "shock_terms": [],
-   "dedupe_match": null,
-   "dedupe_similarity": 0.0,
-   "id": "191bdb6c4c03",
-   "title": "Emirates Adds SAA Codeshare to Kinshasa From Aug 2026",
-   "url": "https://www.aeroroutes.com/eng/260825-eksacodeshare",
-   "summary": "Published at 0800PDT / 1500GMT 25AUG26 Emirates earlier this month expanded codeshare partnership with South African Airways (SAA), covering the latter\u2019s service on Johannesburg \u2013 Kinshasa route. Following codeshare schedule went into effect since mid-August 2026. SA058/EK7651 JNB2100 \u2013 2350FIH 320 x14 SA059/EK7650 FIH0050 \u2013 0540JNB 320 x25",
-   "kind": "item",
-   "source": "AeroRoutes schedule filings",
-   "source_id": "aeroroutes",
-   "tier": 2,
-   "country": "GLOBAL",
-   "category": "aviation-tracker",
-   "segments": [
-    "city",
-    "bush",
-    "beach"
-   ],
-   "first_seen": "2026-08-25T21:42+03:00",
-   "published": "2026-08-25",
-   "verdict": "weak"
-  },
-  {
-   "score": 69.1,
-   "components": {
-    "tier": 40,
-    "category": 13,
-    "lead": 6.0,
-    "relevance": 0,
-    "freshness": 16.1,
-    "undated": -6
-   },
-   "keywords": [],
-   "shock_terms": [],
-   "dedupe_match": null,
-   "dedupe_similarity": 0.0,
-   "id": "6fe872c9a478",
-   "title": "TCAA DIRECTOR GENERAL AND SASO DISCUSS COOPERATION TO STRENGTHEN AVIATION SAFETY - 18 June, 2026",
-   "url": "https://www.tcaa.go.tz/news/tcaa-director-general-and-saso-discuss-cooperation-to-strengthen-aviation-safety",
-   "summary": "",
-   "kind": "item",
-   "source": "Tanzania Civil Aviation Authority",
-   "source_id": "tz-tcaa",
-   "tier": 1,
-   "country": "TZ",
-   "category": "aviation",
-   "segments": [
-    "city",
-    "bush",
-    "beach"
-   ],
-   "first_seen": "2026-08-26T04:22+03:00",
-   "published": null,
-   "verdict": "weak"
-  },
-  {
-   "score": 69.1,
-   "components": {
-    "tier": 40,
-    "category": 13,
-    "lead": 6.0,
-    "relevance": 0,
-    "freshness": 16.1,
-    "undated": -6
-   },
-   "keywords": [],
-   "shock_terms": [],
-   "dedupe_match": null,
-   "dedupe_similarity": 0.0,
-   "id": "cd3b5216271b",
-   "title": "TCAA DIRECTOR GENERAL AND JICA DISCUSS COOPERATION OPPORTUNITIES - 18 June, 2026",
-   "url": "https://www.tcaa.go.tz/news/tcaa-director-general-and-jica-discuss-cooperation-opportunities",
-   "summary": "",
-   "kind": "item",
-   "source": "Tanzania Civil Aviation Authority",
-   "source_id": "tz-tcaa",
-   "tier": 1,
-   "country": "TZ",
-   "category": "aviation",
-   "segments": [
-    "city",
-    "bush",
-    "beach"
-   ],
-   "first_seen": "2026-08-26T04:22+03:00",
-   "published": null,
-   "verdict": "weak"
-  },
-  {
-   "score": 69.1,
-   "components": {
-    "tier": 40,
-    "category": 13,
-    "lead": 6.0,
-    "relevance": 0,
-    "freshness": 16.1,
-    "undated": -6
-   },
-   "keywords": [],
-   "shock_terms": [],
-   "dedupe_match": null,
-   "dedupe_similarity": 0.0,
-   "id": "ca5c2fd1e70e",
-   "title": "DG TCAA RECEIVES ICAO TEAM ON AVIATION SAFETY SUPPORT MISSION - 16 June, 2026",
-   "url": "https://www.tcaa.go.tz/news/dg-tcaa-receives-icao-team-on-aviation-safety-support-mission",
-   "summary": "",
-   "kind": "item",
-   "source": "Tanzania Civil Aviation Authority",
-   "source_id": "tz-tcaa",
-   "tier": 1,
-   "country": "TZ",
-   "category": "aviation",
-   "segments": [
-    "city",
-    "bush",
-    "beach"
-   ],
-   "first_seen": "2026-08-26T04:22+03:00",
-   "published": null,
-   "verdict": "weak"
-  },
-  {
-   "score": 69.1,
-   "components": {
-    "tier": 40,
-    "category": 13,
-    "lead": 6.0,
-    "relevance": 0,
-    "freshness": 16.1,
-    "undated": -6
-   },
-   "keywords": [],
-   "shock_terms": [],
-   "dedupe_match": null,
-   "dedupe_similarity": 0.0,
-   "id": "ae584fff9d4a",
-   "title": "TCAA HOSTS WMO AFRICA REGIONAL DIRECTOR TO ADVANCE METEOROLOGICAL AND AVIATION COOPERATION - 13 June, 2026",
-   "url": "https://www.tcaa.go.tz/news/tcaa-hosts-wmo-africa-regional-director-to-advance-meteorological-and-aviation-cooperation",
-   "summary": "",
-   "kind": "item",
-   "source": "Tanzania Civil Aviation Authority",
-   "source_id": "tz-tcaa",
-   "tier": 1,
-   "country": "TZ",
-   "category": "aviation",
-   "segments": [
-    "city",
-    "bush",
-    "beach"
-   ],
-   "first_seen": "2026-08-26T04:22+03:00",
-   "published": null,
-   "verdict": "weak"
-  },
-  {
-   "score": 66.3,
-   "components": {
-    "tier": 40,
-    "category": 24,
-    "lead": 2.4,
-    "relevance": 0,
-    "freshness": 5.9,
-    "undated": -6
-   },
-   "keywords": [],
-   "shock_terms": [],
-   "dedupe_match": null,
-   "dedupe_similarity": 0.0,
-   "id": "331f71cfe4b5",
-   "title": "Government Moves to Strengthen Specialised Rehabilitation Services",
-   "url": "https://www.health.go.ke/government-moves-strengthen-specialised-rehabilitation-services",
-   "summary": "",
-   "kind": "item",
-   "source": "Kenya Ministry of Health",
-   "source_id": "ke-moh",
-   "tier": 1,
-   "country": "KE",
-   "category": "health",
-   "segments": [
-    "city",
-    "bush",
-    "beach"
-   ],
-   "first_seen": "2026-08-25T19:04+03:00",
-   "published": null,
-   "verdict": "weak"
   }
  ]
 }
