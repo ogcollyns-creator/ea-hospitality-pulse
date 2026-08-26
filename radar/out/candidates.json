@@ -1,18 +1,18 @@
 {
- "generated": "2026-08-26T01:32:14+03:00",
+ "generated": "2026-08-26T04:24:28+03:00",
  "slot": "morning",
  "window_start": 1787670000,
- "observations_in_window": 390,
+ "observations_in_window": 440,
  "deduped_against": 4,
  "candidates": [
   {
-   "score": 136.8,
+   "score": 133.6,
    "components": {
     "tier": 40,
     "category": 32,
     "lead": 1.2,
     "relevance": 36,
-    "freshness": 15.6,
+    "freshness": 12.4,
     "undated": -6,
     "shock": 18
    },
@@ -46,13 +46,13 @@
    "verdict": "LEAD CANDIDATE \u2014 tier-1 shock language"
   },
   {
-   "score": 124.8,
+   "score": 121.6,
    "components": {
     "tier": 40,
     "category": 32,
     "lead": 1.2,
     "relevance": 24,
-    "freshness": 15.6,
+    "freshness": 12.4,
     "undated": -6,
     "shock": 18
    },
@@ -86,13 +86,13 @@
    "verdict": "LEAD CANDIDATE \u2014 tier-1 shock language"
   },
   {
-   "score": 65.4,
+   "score": 62.2,
    "components": {
     "tier": 40,
     "category": 12,
     "lead": 3.6,
     "relevance": 0,
-    "freshness": 19.8,
+    "freshness": 16.6,
     "undated": -6,
     "page_change": -4
    },
@@ -120,13 +120,13 @@
    "verdict": "OPEN THIS \u2014 tier-1 airline page moved; content not auto-parsed, read it manually"
   },
   {
-   "score": 63.2,
+   "score": 60.0,
    "components": {
     "tier": 40,
     "category": 12,
     "lead": 3.6,
     "relevance": 0,
-    "freshness": 17.6,
+    "freshness": 14.4,
     "undated": -6,
     "page_change": -4
    },
@@ -154,13 +154,13 @@
    "verdict": "OPEN THIS \u2014 tier-1 airline page moved; content not auto-parsed, read it manually"
   },
   {
-   "score": 111.6,
+   "score": 108.4,
    "components": {
     "tier": 40,
     "category": 9,
     "lead": 16.8,
     "relevance": 16,
-    "freshness": 19.8,
+    "freshness": 16.6,
     "corroborated": 10
    },
    "keywords": [
@@ -191,13 +191,13 @@
    "verdict": "STRONG \u2014 tier-1, upstream"
   },
   {
-   "score": 96.6,
+   "score": 93.4,
    "components": {
     "tier": 40,
     "category": 10,
     "lead": 16.8,
     "relevance": 0,
-    "freshness": 19.8,
+    "freshness": 16.6,
     "corroborated": 10
    },
    "keywords": [],
@@ -224,13 +224,48 @@
    "verdict": "STRONG \u2014 tier-1, upstream"
   },
   {
-   "score": 91.6,
+   "score": 89.4,
+   "components": {
+    "tier": 40,
+    "category": 32,
+    "lead": 3.6,
+    "relevance": 8,
+    "freshness": 19.8,
+    "stale_trap": -10,
+    "page_change": -4
+   },
+   "keywords": [
+    "election"
+   ],
+   "shock_terms": [],
+   "dedupe_match": null,
+   "dedupe_similarity": 0.0,
+   "id": "3538d6c3a8f1",
+   "title": "[page changed] Federal Register \u2014 public inspection (HHS/CDC), pre-publication",
+   "url": "https://www.federalregister.gov/api/v1/public-inspection-documents/current.json",
+   "summary": "{\"count\":94,\"results\":[{\"agencies\":[{\"raw_name\":\"POSTAL SERVICE\",\"name\":\"Postal Service\",\"id\":410,\"url\":\"https://www.federalregister.gov/agencies/postal-service\",\"json_url\":\"https://www.federalregister.gov/api/v1/agencies/410\",\"parent_id\":null,\"slug\":\"postal-service\"}],\"agency_letters\":[],\"agency_names\":[\"Postal Service\"],\"docket_numbers\":[],\"document_number\":\"2026-17238\",\"editorial_note\":null,\"ex",
+   "kind": "page-change",
+   "source": "Federal Register \u2014 public inspection (HHS/CDC), pre-publication",
+   "source_id": "us-fedreg-pubinspect-hhs",
+   "tier": 1,
+   "country": "REG",
+   "category": "advisory",
+   "segments": [
+    "city",
+    "bush"
+   ],
+   "first_seen": "2026-08-26T04:22+03:00",
+   "published": "2026-08-21",
+   "verdict": "CHECK \u2014 source date older than the window"
+  },
+  {
+   "score": 88.4,
    "components": {
     "tier": 40,
     "category": 9,
     "lead": 16.8,
     "relevance": 12,
-    "freshness": 19.8,
+    "freshness": 16.6,
     "undated": -6
    },
    "keywords": [
@@ -258,16 +293,16 @@
    ],
    "first_seen": "2026-08-26T01:29+03:00",
    "published": null,
-   "verdict": "STRONG \u2014 tier-1, upstream"
+   "verdict": "CONSIDER"
   },
   {
-   "score": 89.4,
+   "score": 86.2,
    "components": {
     "tier": 40,
     "category": 32,
     "lead": 3.6,
     "relevance": 8,
-    "freshness": 19.8,
+    "freshness": 16.6,
     "stale_trap": -10,
     "page_change": -4
    },
@@ -296,13 +331,13 @@
    "verdict": "CHECK \u2014 source date older than the window"
   },
   {
-   "score": 88.2,
+   "score": 85.0,
    "components": {
     "tier": 20,
     "category": 14,
     "lead": 8.4,
     "relevance": 16,
-    "freshness": 19.8,
+    "freshness": 16.6,
     "corroborated": 10
    },
    "keywords": [
@@ -333,13 +368,13 @@
    "verdict": "CONSIDER"
   },
   {
-   "score": 85.2,
+   "score": 82.0,
    "components": {
     "tier": 40,
     "category": 32,
     "lead": 3.6,
     "relevance": 8,
-    "freshness": 15.6,
+    "freshness": 12.4,
     "stale_trap": -10,
     "page_change": -4
    },
@@ -368,13 +403,13 @@
    "verdict": "CHECK \u2014 source date older than the window"
   },
   {
-   "score": 84.2,
+   "score": 81.0,
    "components": {
     "tier": 20,
     "category": 14,
     "lead": 8.4,
     "relevance": 12,
-    "freshness": 19.8,
+    "freshness": 16.6,
     "corroborated": 10
    },
    "keywords": [
@@ -404,13 +439,48 @@
    "verdict": "CONSIDER"
   },
   {
-   "score": 84.0,
+   "score": 80.8,
+   "components": {
+    "tier": 40,
+    "category": 13,
+    "lead": 6.0,
+    "relevance": 8,
+    "freshness": 19.8,
+    "undated": -6
+   },
+   "keywords": [
+    "vat"
+   ],
+   "shock_terms": [],
+   "dedupe_match": null,
+   "dedupe_similarity": 0.0,
+   "id": "33e4e1d06fd3",
+   "title": "TCAA RETREAT REINFORCES CULTURE OF EXCELLENCE, INNOVATION AND STAKEHOLDER FOCUS - 13 June, 2026",
+   "url": "https://www.tcaa.go.tz/news/tcaa-retreat-reinforces-culture-of-excellence-innovation-and-stakeholder-focus",
+   "summary": "",
+   "kind": "item",
+   "source": "Tanzania Civil Aviation Authority",
+   "source_id": "tz-tcaa",
+   "tier": 1,
+   "country": "TZ",
+   "category": "aviation",
+   "segments": [
+    "city",
+    "bush",
+    "beach"
+   ],
+   "first_seen": "2026-08-26T04:22+03:00",
+   "published": null,
+   "verdict": "CONSIDER"
+  },
+  {
+   "score": 80.8,
    "components": {
     "tier": 20,
     "category": 14,
     "lead": 8.4,
     "relevance": 16,
-    "freshness": 15.6,
+    "freshness": 12.4,
     "corroborated": 10
    },
    "keywords": [
@@ -441,13 +511,13 @@
    "verdict": "CONSIDER"
   },
   {
-   "score": 84.0,
+   "score": 80.8,
    "components": {
     "tier": 20,
     "category": 14,
     "lead": 8.4,
     "relevance": 16,
-    "freshness": 15.6,
+    "freshness": 12.4,
     "corroborated": 10
    },
    "keywords": [
@@ -478,13 +548,13 @@
    "verdict": "CONSIDER"
   },
   {
-   "score": 83.6,
+   "score": 80.4,
    "components": {
     "tier": 40,
     "category": 9,
     "lead": 16.8,
     "relevance": 4,
-    "freshness": 19.8,
+    "freshness": 16.6,
     "undated": -6
    },
    "keywords": [
@@ -511,13 +581,13 @@
    "verdict": "CONSIDER"
   },
   {
-   "score": 83.6,
+   "score": 80.4,
    "components": {
     "tier": 40,
     "category": 9,
     "lead": 16.8,
     "relevance": 4,
-    "freshness": 19.8,
+    "freshness": 16.6,
     "undated": -6
    },
    "keywords": [
@@ -544,13 +614,13 @@
    "verdict": "CONSIDER"
   },
   {
-   "score": 82.3,
+   "score": 79.1,
    "components": {
     "tier": 40,
     "category": 32,
     "lead": 3.6,
     "relevance": 8,
-    "freshness": 12.7,
+    "freshness": 9.5,
     "stale_trap": -10,
     "page_change": -4
    },
@@ -579,13 +649,13 @@
    "verdict": "CHECK \u2014 source date older than the window"
   },
   {
-   "score": 81.8,
+   "score": 78.6,
    "components": {
     "tier": 40,
     "category": 20,
     "lead": 12.0,
     "relevance": 0,
-    "freshness": 19.8,
+    "freshness": 16.6,
     "stale_trap": -10
    },
    "keywords": [],
@@ -612,13 +682,13 @@
    "verdict": "CHECK \u2014 source date older than the window"
   },
   {
-   "score": 80.6,
+   "score": 77.4,
    "components": {
     "tier": 40,
     "category": 10,
     "lead": 16.8,
     "relevance": 0,
-    "freshness": 19.8,
+    "freshness": 16.6,
     "undated": -6
    },
    "keywords": [],
@@ -645,13 +715,13 @@
    "verdict": "CONSIDER"
   },
   {
-   "score": 80.6,
+   "score": 77.4,
    "components": {
     "tier": 40,
     "category": 10,
     "lead": 16.8,
     "relevance": 0,
-    "freshness": 19.8,
+    "freshness": 16.6,
     "undated": -6
    },
    "keywords": [],
@@ -678,13 +748,13 @@
    "verdict": "CONSIDER"
   },
   {
-   "score": 80.6,
+   "score": 77.4,
    "components": {
     "tier": 40,
     "category": 10,
     "lead": 16.8,
     "relevance": 0,
-    "freshness": 19.8,
+    "freshness": 16.6,
     "undated": -6
    },
    "keywords": [],
@@ -711,13 +781,13 @@
    "verdict": "CONSIDER"
   },
   {
-   "score": 80.2,
+   "score": 77.0,
    "components": {
     "tier": 20,
     "category": 14,
     "lead": 8.4,
     "relevance": 8,
-    "freshness": 19.8,
+    "freshness": 16.6,
     "corroborated": 10
    },
    "keywords": [
@@ -746,13 +816,13 @@
    "verdict": "CONSIDER"
   },
   {
-   "score": 80.2,
+   "score": 77.0,
    "components": {
     "tier": 20,
     "category": 14,
     "lead": 8.4,
     "relevance": 8,
-    "freshness": 19.8,
+    "freshness": 16.6,
     "corroborated": 10
    },
    "keywords": [
@@ -781,13 +851,13 @@
    "verdict": "CONSIDER"
   },
   {
-   "score": 80.0,
+   "score": 76.8,
    "components": {
     "tier": 20,
     "category": 5,
     "lead": 1.2,
     "relevance": 24,
-    "freshness": 19.8,
+    "freshness": 16.6,
     "corroborated": 10
    },
    "keywords": [
@@ -818,13 +888,13 @@
    "verdict": "CONSIDER"
   },
   {
-   "score": 77.6,
+   "score": 74.4,
    "components": {
     "tier": 40,
     "category": 7,
     "lead": 16.8,
     "relevance": 0,
-    "freshness": 19.8,
+    "freshness": 16.6,
     "undated": -6
    },
    "keywords": [],
@@ -851,13 +921,13 @@
    "verdict": "CONSIDER"
   },
   {
-   "score": 76.2,
+   "score": 73.0,
    "components": {
     "tier": 20,
     "category": 5,
     "lead": 3.6,
     "relevance": 20,
-    "freshness": 17.6,
+    "freshness": 14.4,
     "corroborated": 10
    },
    "keywords": [
@@ -889,13 +959,145 @@
    "verdict": "CONSIDER"
   },
   {
-   "score": 76.0,
+   "score": 72.8,
+   "components": {
+    "tier": 40,
+    "category": 13,
+    "lead": 6.0,
+    "relevance": 0,
+    "freshness": 19.8,
+    "undated": -6
+   },
+   "keywords": [],
+   "shock_terms": [],
+   "dedupe_match": null,
+   "dedupe_similarity": 0.0,
+   "id": "6fe872c9a478",
+   "title": "TCAA DIRECTOR GENERAL AND SASO DISCUSS COOPERATION TO STRENGTHEN AVIATION SAFETY - 18 June, 2026",
+   "url": "https://www.tcaa.go.tz/news/tcaa-director-general-and-saso-discuss-cooperation-to-strengthen-aviation-safety",
+   "summary": "",
+   "kind": "item",
+   "source": "Tanzania Civil Aviation Authority",
+   "source_id": "tz-tcaa",
+   "tier": 1,
+   "country": "TZ",
+   "category": "aviation",
+   "segments": [
+    "city",
+    "bush",
+    "beach"
+   ],
+   "first_seen": "2026-08-26T04:22+03:00",
+   "published": null,
+   "verdict": "CONSIDER"
+  },
+  {
+   "score": 72.8,
+   "components": {
+    "tier": 40,
+    "category": 13,
+    "lead": 6.0,
+    "relevance": 0,
+    "freshness": 19.8,
+    "undated": -6
+   },
+   "keywords": [],
+   "shock_terms": [],
+   "dedupe_match": null,
+   "dedupe_similarity": 0.0,
+   "id": "cd3b5216271b",
+   "title": "TCAA DIRECTOR GENERAL AND JICA DISCUSS COOPERATION OPPORTUNITIES - 18 June, 2026",
+   "url": "https://www.tcaa.go.tz/news/tcaa-director-general-and-jica-discuss-cooperation-opportunities",
+   "summary": "",
+   "kind": "item",
+   "source": "Tanzania Civil Aviation Authority",
+   "source_id": "tz-tcaa",
+   "tier": 1,
+   "country": "TZ",
+   "category": "aviation",
+   "segments": [
+    "city",
+    "bush",
+    "beach"
+   ],
+   "first_seen": "2026-08-26T04:22+03:00",
+   "published": null,
+   "verdict": "CONSIDER"
+  },
+  {
+   "score": 72.8,
+   "components": {
+    "tier": 40,
+    "category": 13,
+    "lead": 6.0,
+    "relevance": 0,
+    "freshness": 19.8,
+    "undated": -6
+   },
+   "keywords": [],
+   "shock_terms": [],
+   "dedupe_match": null,
+   "dedupe_similarity": 0.0,
+   "id": "ca5c2fd1e70e",
+   "title": "DG TCAA RECEIVES ICAO TEAM ON AVIATION SAFETY SUPPORT MISSION - 16 June, 2026",
+   "url": "https://www.tcaa.go.tz/news/dg-tcaa-receives-icao-team-on-aviation-safety-support-mission",
+   "summary": "",
+   "kind": "item",
+   "source": "Tanzania Civil Aviation Authority",
+   "source_id": "tz-tcaa",
+   "tier": 1,
+   "country": "TZ",
+   "category": "aviation",
+   "segments": [
+    "city",
+    "bush",
+    "beach"
+   ],
+   "first_seen": "2026-08-26T04:22+03:00",
+   "published": null,
+   "verdict": "CONSIDER"
+  },
+  {
+   "score": 72.8,
+   "components": {
+    "tier": 40,
+    "category": 13,
+    "lead": 6.0,
+    "relevance": 0,
+    "freshness": 19.8,
+    "undated": -6
+   },
+   "keywords": [],
+   "shock_terms": [],
+   "dedupe_match": null,
+   "dedupe_similarity": 0.0,
+   "id": "ae584fff9d4a",
+   "title": "TCAA HOSTS WMO AFRICA REGIONAL DIRECTOR TO ADVANCE METEOROLOGICAL AND AVIATION COOPERATION - 13 June, 2026",
+   "url": "https://www.tcaa.go.tz/news/tcaa-hosts-wmo-africa-regional-director-to-advance-meteorological-and-aviation-cooperation",
+   "summary": "",
+   "kind": "item",
+   "source": "Tanzania Civil Aviation Authority",
+   "source_id": "tz-tcaa",
+   "tier": 1,
+   "country": "TZ",
+   "category": "aviation",
+   "segments": [
+    "city",
+    "bush",
+    "beach"
+   ],
+   "first_seen": "2026-08-26T04:22+03:00",
+   "published": null,
+   "verdict": "CONSIDER"
+  },
+  {
+   "score": 72.8,
    "components": {
     "tier": 20,
     "category": 14,
     "lead": 8.4,
     "relevance": 8,
-    "freshness": 15.6,
+    "freshness": 12.4,
     "corroborated": 10
    },
    "keywords": [
@@ -924,13 +1126,13 @@
    "verdict": "CONSIDER"
   },
   {
-   "score": 73.1,
+   "score": 69.9,
    "components": {
     "tier": 40,
     "category": 24,
     "lead": 2.4,
     "relevance": 0,
-    "freshness": 12.7,
+    "freshness": 9.5,
     "undated": -6
    },
    "keywords": [],
@@ -954,16 +1156,16 @@
    ],
    "first_seen": "2026-08-25T19:04+03:00",
    "published": null,
-   "verdict": "CONSIDER"
+   "verdict": "weak"
   },
   {
-   "score": 72.0,
+   "score": 68.8,
    "components": {
     "tier": 20,
     "category": 14,
     "lead": 8.4,
     "relevance": 4,
-    "freshness": 15.6,
+    "freshness": 12.4,
     "corroborated": 10
    },
    "keywords": [
@@ -989,16 +1191,16 @@
    ],
    "first_seen": "2026-08-25T21:42+03:00",
    "published": "2026-08-25",
-   "verdict": "CONSIDER"
+   "verdict": "weak"
   },
   {
-   "score": 70.4,
+   "score": 67.2,
    "components": {
     "tier": 20,
     "category": 9,
     "lead": 3.6,
     "relevance": 8,
-    "freshness": 19.8,
+    "freshness": 16.6,
     "corroborated": 10
    },
    "keywords": [
@@ -1024,16 +1226,16 @@
    ],
    "first_seen": "2026-08-26T01:29+03:00",
    "published": "2026-08-25",
-   "verdict": "CONSIDER"
+   "verdict": "weak"
   },
   {
-   "score": 70.4,
+   "score": 67.2,
    "components": {
     "tier": 20,
     "category": 9,
     "lead": 3.6,
     "relevance": 8,
-    "freshness": 19.8,
+    "freshness": 16.6,
     "corroborated": 10
    },
    "keywords": [
@@ -1058,16 +1260,16 @@
    ],
    "first_seen": "2026-08-26T01:29+03:00",
    "published": "2026-08-25",
-   "verdict": "CONSIDER"
+   "verdict": "weak"
   },
   {
-   "score": 70.4,
+   "score": 67.2,
    "components": {
     "tier": 20,
     "category": 9,
     "lead": 3.6,
     "relevance": 8,
-    "freshness": 19.8,
+    "freshness": 16.6,
     "corroborated": 10
    },
    "keywords": [
@@ -1092,16 +1294,51 @@
    ],
    "first_seen": "2026-08-26T01:29+03:00",
    "published": "2026-08-25",
-   "verdict": "CONSIDER"
+   "verdict": "weak"
   },
   {
-   "score": 66.8,
+   "score": 65.8,
+   "components": {
+    "tier": 20,
+    "category": 4,
+    "lead": 0.0,
+    "relevance": 12,
+    "freshness": 19.8,
+    "corroborated": 10
+   },
+   "keywords": [
+    "cancel"
+   ],
+   "shock_terms": [],
+   "dedupe_match": null,
+   "dedupe_similarity": 0.0,
+   "id": "ada19f0f40f2",
+   "title": "Parliament demands cancellation of Entebbe expressway toll contract over alleged massive revenue leakages",
+   "url": "https://www.monitor.co.ug/uganda/news/national/parliament-demands-cancellation-of-entebbe-expressway-toll-contract-over-alleged-massive-revenue-leakages--5571038",
+   "summary": "The Parliamentary Committee on Physical Infrastructure reported mismanagement and massive...",
+   "kind": "item",
+   "source": "Daily Monitor (Uganda)",
+   "source_id": "np-monitor-ug",
+   "tier": 2,
+   "country": "UG",
+   "category": "press",
+   "segments": [
+    "city",
+    "bush",
+    "beach"
+   ],
+   "first_seen": "2026-08-26T04:22+03:00",
+   "published": "2026-08-25",
+   "verdict": "weak"
+  },
+  {
+   "score": 63.6,
    "components": {
     "tier": 40,
     "category": 20,
     "lead": 12.0,
     "relevance": 0,
-    "freshness": 19.8,
+    "freshness": 16.6,
     "stale_trap": -25
    },
    "keywords": [],
@@ -1128,13 +1365,13 @@
    "verdict": "CHECK \u2014 source date older than the window"
   },
   {
-   "score": 66.8,
+   "score": 63.6,
    "components": {
     "tier": 40,
     "category": 20,
     "lead": 12.0,
     "relevance": 0,
-    "freshness": 19.8,
+    "freshness": 16.6,
     "stale_trap": -25
    },
    "keywords": [],
@@ -1159,243 +1396,6 @@
    "first_seen": "2026-08-26T01:29+03:00",
    "published": "2026-08-11",
    "verdict": "CHECK \u2014 source date older than the window"
-  },
-  {
-   "score": 66.8,
-   "components": {
-    "tier": 40,
-    "category": 20,
-    "lead": 12.0,
-    "relevance": 0,
-    "freshness": 19.8,
-    "stale_trap": -25
-   },
-   "keywords": [],
-   "shock_terms": [],
-   "dedupe_match": null,
-   "dedupe_similarity": 0.0,
-   "id": "dbba9e5cd4e3",
-   "title": "Namwoso v Namwoso (Environment and Land Case E041 of 2026) [2026] KEMC 643 (KLR) (18 August 2026) (Ruling)",
-   "url": "https://new.kenyalaw.org/akn/ke/judgment/kemc/2026/643/eng@2026-08-18",
-   "summary": "Namwoso v Namwoso (Environment and Land Case E041 of 2026) [2026] KEMC 643 (KLR) (18 August 2026) (Ruling)",
-   "kind": "item",
-   "source": "Kenya Gazette (Kenya Law)",
-   "source_id": "ke-gazette",
-   "tier": 1,
-   "country": "KE",
-   "category": "gazette",
-   "segments": [
-    "city",
-    "bush",
-    "beach"
-   ],
-   "first_seen": "2026-08-26T01:29+03:00",
-   "published": "2026-08-18",
-   "verdict": "CHECK \u2014 source date older than the window"
-  },
-  {
-   "score": 66.4,
-   "components": {
-    "tier": 20,
-    "category": 9,
-    "lead": 3.6,
-    "relevance": 4,
-    "freshness": 19.8,
-    "corroborated": 10
-   },
-   "keywords": [
-    "hotel"
-   ],
-   "shock_terms": [],
-   "dedupe_match": null,
-   "dedupe_similarity": 0.0,
-   "id": "6b404bd5d6b6",
-   "title": "Raxeria Hotel in Antalya: So reagieren TUI, Alltours & Check24 aufs Er\u00f6ffnungschaos",
-   "url": "https://www.fvw.de/touristik/veranstalter/raxeria-hotel-in-antalya-so-reagieren-tui-alltours-und-co-auf-eroeffnungschaos-263972",
-   "summary": "Eigentlich sollte das Raxeria Hotel in Manavgat in der T\u00fcrkei bereits im Juni seine Pforten \u00f6ffnen. Doch daraus wurde nichts. Dennoch wurde es Kunden bereits verkauft. Wie Veranstalter und Buchungsplattformen, wie Check24, nun reagieren.",
-   "kind": "item",
-   "source": "FVW / German travel trade",
-   "source_id": "sm-derreise",
-   "tier": 2,
-   "country": "GLOBAL",
-   "category": "source-market",
-   "segments": [
-    "beach",
-    "bush"
-   ],
-   "first_seen": "2026-08-26T01:29+03:00",
-   "published": "2026-08-25",
-   "verdict": "weak"
-  },
-  {
-   "score": 66.4,
-   "components": {
-    "tier": 20,
-    "category": 9,
-    "lead": 3.6,
-    "relevance": 4,
-    "freshness": 19.8,
-    "corroborated": 10
-   },
-   "keywords": [
-    "tourism"
-   ],
-   "shock_terms": [],
-   "dedupe_match": null,
-   "dedupe_similarity": 0.0,
-   "id": "94b6c9e14078",
-   "title": "Wichtiger Gr\u00fcndungskunde verl\u00e4ngert: Harwardt Marketing setzt zum Jubil\u00e4um auf Kontinuit\u00e4t",
-   "url": "https://www.fvw.de/touristik/destination/harwardt-harwardt-264025",
-   "summary": "F\u00fcr Sarah Harwardt schlie\u00dft sich gerade der Kreis: P\u00fcnktlich zum zehnj\u00e4hrigen Jubil\u00e4um ihrer Tourismusagentur hat der Gr\u00fcndungskunde die Zusammenarbeit erneut um f\u00fcnf Jahre verl\u00e4ngert. Die Boutique-Agentur trotz dabei einem Trend im Markt der Repr\u00e4sentanzen.",
-   "kind": "item",
-   "source": "FVW / German travel trade",
-   "source_id": "sm-derreise",
-   "tier": 2,
-   "country": "GLOBAL",
-   "category": "source-market",
-   "segments": [
-    "beach",
-    "bush"
-   ],
-   "first_seen": "2026-08-26T01:29+03:00",
-   "published": "2026-08-25",
-   "verdict": "weak"
-  },
-  {
-   "score": 66.4,
-   "components": {
-    "tier": 20,
-    "category": 9,
-    "lead": 3.6,
-    "relevance": 4,
-    "freshness": 19.8,
-    "corroborated": 10
-   },
-   "keywords": [
-    "hotel"
-   ],
-   "shock_terms": [],
-   "dedupe_match": null,
-   "dedupe_similarity": 0.0,
-   "id": "ec59f413b6cd",
-   "title": "Umbau der Clubmarke: Dertour-Hotelchef: Aldiana bleibt im Fokus",
-   "url": "https://www.fvw.de/touristik/veranstalter/umbau-der-clubmarke-dertour-hotelchef-aldiana-bleibt-im-fokus-263830",
-   "summary": "F\u00fcr die Clubmarke beginnt die n\u00e4chste Phase unter dem Dach der Dertour Group. Hotelstrukturen werden zusammengef\u00fchrt, Veranstalter-Aktivit\u00e4ten gr\u00f6\u00dftenteils verlagert. Warum die Marke f\u00fcr Dertour auch trotz k\u00fcrzlicher Schlie\u00dfungen so bedeutend ist, erl\u00e4utert Hotel-CEO Ingo Burmester.",
-   "kind": "item",
-   "source": "FVW / German travel trade",
-   "source_id": "sm-derreise",
-   "tier": 2,
-   "country": "GLOBAL",
-   "category": "source-market",
-   "segments": [
-    "beach",
-    "bush"
-   ],
-   "first_seen": "2026-08-26T01:29+03:00",
-   "published": "2026-08-25",
-   "verdict": "weak"
-  },
-  {
-   "score": 66.4,
-   "components": {
-    "tier": 20,
-    "category": 9,
-    "lead": 3.6,
-    "relevance": 4,
-    "freshness": 19.8,
-    "corroborated": 10
-   },
-   "keywords": [
-    "hotel"
-   ],
-   "shock_terms": [],
-   "dedupe_match": null,
-   "dedupe_similarity": 0.0,
-   "id": "2b2a0c364812",
-   "title": "TUI, Interhome, Center Parcs (+Video): So profitieren Reiseb\u00fcros vom Deutschland-Trend",
-   "url": "https://www.fvw.de/touristik/vertrieb/tui-interhome-center-parcs--video-so-koennen-reisebueros-vom-deutschland-trend-profitieren-263991",
-   "summary": "Urlaub in Deutschland legt zu. Welche Verkaufsargumente es gibt, wie sich das Angebot entwickelt und warum Reisen in Hotels, Ferienparks sowie Ferienh\u00e4user und Ferienwohnungen ein lukratives Gesch\u00e4ft sind, erl\u00e4uterten Experten von TUI, Interhome und Center Parcs bei einem Talk auf fvw.de.",
-   "kind": "item",
-   "source": "FVW / German travel trade",
-   "source_id": "sm-derreise",
-   "tier": 2,
-   "country": "GLOBAL",
-   "category": "source-market",
-   "segments": [
-    "beach",
-    "bush"
-   ],
-   "first_seen": "2026-08-26T01:29+03:00",
-   "published": "2026-08-25",
-   "verdict": "weak"
-  },
-  {
-   "score": 66.4,
-   "components": {
-    "tier": 20,
-    "category": 9,
-    "lead": 3.6,
-    "relevance": 4,
-    "freshness": 19.8,
-    "corroborated": 10
-   },
-   "keywords": [
-    "franc"
-   ],
-   "shock_terms": [],
-   "dedupe_match": null,
-   "dedupe_similarity": 0.0,
-   "id": "462e02b6e56e",
-   "title": "\"Good Vibes Only\": \u00dcberraschung f\u00fcr Reiseb\u00fcros von Holiday Land",
-   "url": "https://www.fvw.de/touristik/vertrieb/good-vibes-only-ueberraschung-fuer-reisebueros-von-holiday-land-263980",
-   "summary": "Holiday Land hat alle etwa 200 Reiseb\u00fcros seiner Franchise-Familie unter dem Motto \"Good Vibes Only\" mit einem sommerlichen \u00dcberraschungspaket versorgt.",
-   "kind": "item",
-   "source": "FVW / German travel trade",
-   "source_id": "sm-derreise",
-   "tier": 2,
-   "country": "GLOBAL",
-   "category": "source-market",
-   "segments": [
-    "beach",
-    "bush"
-   ],
-   "first_seen": "2026-08-26T01:29+03:00",
-   "published": "2026-08-25",
-   "verdict": "weak"
-  },
-  {
-   "score": 66.4,
-   "components": {
-    "tier": 20,
-    "category": 9,
-    "lead": 3.6,
-    "relevance": 4,
-    "freshness": 19.8,
-    "corroborated": 10
-   },
-   "keywords": [
-    "tourism"
-   ],
-   "shock_terms": [],
-   "dedupe_match": null,
-   "dedupe_similarity": 0.0,
-   "id": "16dd2348f99c",
-   "title": "Angst vor Overtourism: Gr\u00f6nland will Kreuzfahrt-Anl\u00e4ufe besser steuern",
-   "url": "https://www.fvw.de/touristik/kreuzfahrt/angst-vor-overtourism-groenland-will-kreuzfahrtanlaeufe-besser-steuern-263982",
-   "summary": "Der Klimawandel macht Gr\u00f6nland auch f\u00fcr Kreuzfahrtschiffe leichter und auch l\u00e4nger erreichbar. Das gef\u00e4llt nicht allen Einheimischen. Sie f\u00fchlen sich gest\u00f6rt. Die Regierung des Landes appelliert daher an die Reedereien, Fjorde nur eingeschr\u00e4nkt anzusteuern. Zudem k\u00fcndigt sie einen Plan zur Regulierung der Anl\u00e4ufe an.",
-   "kind": "item",
-   "source": "FVW / German travel trade",
-   "source_id": "sm-derreise",
-   "tier": 2,
-   "country": "GLOBAL",
-   "category": "source-market",
-   "segments": [
-    "beach",
-    "bush"
-   ],
-   "first_seen": "2026-08-26T01:29+03:00",
-   "published": "2026-08-25",
-   "verdict": "weak"
   }
  ]
 }
