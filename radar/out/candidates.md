@@ -1,277 +1,174 @@
-# Radar candidates — morning slot
-_Window opens Wed 26 Aug 18:00 EAT · 368 observations in window · 4 headlines deduped against_
+# Radar candidates — midday slot
+_Window opens Thu 27 Aug 07:00 EAT · 152 observations in window · 4 headlines deduped against_
 
 Ranked by first-seen recency, source tier and hospitality relevance. `first seen` is when the radar observed the item, which is the date the recency gate runs on. `published` is what the source claims — where the two disagree, the disagreement is the story.
 
-### 🚨 [101.3] [page changed] Federal Register — public inspection (HHS/CDC), pre-publication
+### 🚨 [101.7] [page changed] Federal Register — CDC notices
+- **Verdict:** OPEN THIS — tier-1 advisory page moved; content not auto-parsed, read it manually
+- **Source:** Federal Register — CDC notices · tier 1 · REG · advisory
+- **First seen:** 2026-08-27T11:03+03:00 EAT · **Source date:** — none stated
+- **URL:** https://www.federalregister.gov/api/v1/documents.rss?conditions%5Bagencies%5D%5B%5D=centers-for-disease-control-and-prevention&order=newest
+- **Extract:** Federal Register Documents published on or after 07/28/2026 and from Centers for Disease Control and Prevention https://www.federalregister.gov/api/v1/documents.rss?conditions%5Bagencies%5D%5B%5D=centers-for-disease-control-and-prevention&order=newest Thu, 27 
+- **Score parts:** tier +40, category +32, lead +12, relevance +8, freshness +19.7, undated -6, page_change -4
+
+### 🚨 [91.3] [page changed] Federal Register — public inspection (HHS/CDC), pre-publication
 - **Verdict:** OPEN THIS — tier-1 advisory page moved; content not auto-parsed, read it manually
 - **Source:** Federal Register — public inspection (HHS/CDC), pre-publication · tier 1 · REG · advisory
-- **First seen:** 2026-08-27T01:50+03:00 EAT · **Source date:** 2026-08-25
+- **First seen:** 2026-08-27T11:03+03:00 EAT · **Source date:** 2026-08-25
 - **URL:** https://www.federalregister.gov/api/v1/public-inspection-documents/current.json
 - **Extract:** {"count":103,"results":[{"agencies":[{"raw_name":"NUCLEAR REGULATORY COMMISSION","name":"Nuclear Regulatory Commission","id":383,"url":"https://www.federalregister.gov/agencies/nuclear-regulatory-commission","json_url":"https://www.federalregister.gov/api/v1/a
-- **Score parts:** tier +40, category +32, lead +3.6, relevance +0, freshness +19.7, corroborated +10, page_change -4
-
-### 🚨 [98.0] [page changed] Federal Register — public inspection (HHS/CDC), pre-publication
-- **Verdict:** OPEN THIS — tier-1 advisory page moved; content not auto-parsed, read it manually
-- **Source:** Federal Register — public inspection (HHS/CDC), pre-publication · tier 1 · REG · advisory
-- **First seen:** 2026-08-26T22:48+03:00 EAT · **Source date:** 2026-08-25
-- **URL:** https://www.federalregister.gov/api/v1/public-inspection-documents/current.json
-- **Extract:** {"count":101,"results":[{"agencies":[{"raw_name":"NUCLEAR REGULATORY COMMISSION","name":"Nuclear Regulatory Commission","id":383,"url":"https://www.federalregister.gov/agencies/nuclear-regulatory-commission","json_url":"https://www.federalregister.gov/api/v1/a
-- **Score parts:** tier +40, category +32, lead +3.6, relevance +0, freshness +16.4, corroborated +10, page_change -4
-
-### 🚨 [94.4] [page changed] Federal Register — public inspection (HHS/CDC), pre-publication
-- **Verdict:** OPEN THIS — tier-1 advisory page moved; content not auto-parsed, read it manually
-- **Source:** Federal Register — public inspection (HHS/CDC), pre-publication · tier 1 · REG · advisory
-- **First seen:** 2026-08-26T19:35+03:00 EAT · **Source date:** 2026-08-25
-- **URL:** https://www.federalregister.gov/api/v1/public-inspection-documents/current.json
-- **Extract:** {"count":101,"results":[{"agencies":[{"raw_name":"NUCLEAR REGULATORY COMMISSION","name":"Nuclear Regulatory Commission","id":383,"url":"https://www.federalregister.gov/agencies/nuclear-regulatory-commission","json_url":"https://www.federalregister.gov/api/v1/a
-- **Score parts:** tier +40, category +32, lead +3.6, relevance +0, freshness +12.8, corroborated +10, page_change -4
+- **Score parts:** tier +40, category +32, lead +3.6, relevance +0, freshness +19.7, page_change -4
 
 ### 🚨 [65.3] [page changed] Jambojet media
 - **Verdict:** OPEN THIS — tier-1 airline page moved; content not auto-parsed, read it manually
 - **Source:** Jambojet media · tier 1 · KE · airline
-- **First seen:** 2026-08-27T01:50+03:00 EAT · **Source date:** — none stated
+- **First seen:** 2026-08-27T11:03+03:00 EAT · **Source date:** — none stated
 - **URL:** https://www.jambojet.com/en/press-release
-- **Extract:** Request unsuccessful. Incapsula incident ID: 1024000060528757283-111503329665745304
+- **Extract:** Request unsuccessful. Incapsula incident ID: 201000710017990616-39704485878632911
 - **Score parts:** tier +40, category +12, lead +3.6, relevance +0, freshness +19.7, undated -6, page_change -4
 
-### 🚨 [65.3] [page changed] Airlink news
-- **Verdict:** OPEN THIS — tier-1 airline page moved; content not auto-parsed, read it manually
-- **Source:** Airlink news · tier 1 · REG · airline
-- **First seen:** 2026-08-27T01:50+03:00 EAT · **Source date:** — none stated
-- **URL:** https://www.flyairlink.com/
-- **Extract:** Request unsuccessful. Incapsula incident ID: 1015000050465097759-296703917196509554
-- **Score parts:** tier +40, category +12, lead +3.6, relevance +0, freshness +19.7, undated -6, page_change -4
+### 🟠 [106.9] U.S. Government Hands Over Potentially Lifesaving Ebola Treatment to Uganda
+- **Verdict:** STRONG — tier-1, upstream
+- **Source:** Uganda Ministry of Health — news · tier 1 · UG · health
+- **First seen:** 2026-08-27T11:03+03:00 EAT · **Source date:** 2026-08-26
+- **URL:** https://health.go.ug/u-s-government-hands-over-potentially-lifesaving-ebola-treatment-to-uganda
+- **Extract:** Kajjansi, 26 August 2026 — The United States Government handed over a rare, potentially lifesaving Ebola antibody treatment, MBP134 to Uganda through the Ministry of Health to strengthen the country’s preparedness and ability to respond rapidly should an Ebola
+- **Score parts:** tier +40, category +24, lead +1.2, relevance +12, freshness +19.7, corroborated +10
 
-### 🚨 [58.4] [page changed] Jambojet media
-- **Verdict:** OPEN THIS — tier-1 airline page moved; content not auto-parsed, read it manually
-- **Source:** Jambojet media · tier 1 · KE · airline
-- **First seen:** 2026-08-26T19:35+03:00 EAT · **Source date:** — none stated
-- **URL:** https://www.jambojet.com/en/press-release
-- **Extract:** Request unsuccessful. Incapsula incident ID: 395000340023816023-45285774417660085
-- **Score parts:** tier +40, category +12, lead +3.6, relevance +0, freshness +12.8, undated -6, page_change -4
+### 🟠 [106.9] U.S. Government Hands Over Potentially Lifesaving Ebola Treatment to Uganda
+- **Verdict:** STRONG — tier-1, upstream
+- **Source:** Uganda Ministry of Health · tier 1 · UG · health
+- **First seen:** 2026-08-27T11:03+03:00 EAT · **Source date:** 2026-08-26
+- **URL:** https://health.go.ug/u-s-government-hands-over-potentially-lifesaving-ebola-treatment-to-uganda
+- **Extract:** Kajjansi, 26 August 2026 — The United States Government handed over a rare, potentially lifesaving Ebola antibody treatment, MBP134 to Uganda through the Ministry of Health to strengthen the country’s preparedness and ability to respond rapidly should an Ebola
+- **Score parts:** tier +40, category +24, lead +1.2, relevance +12, freshness +19.7, corroborated +10
 
-### 🟠 [101.7] Republic v Riungu & another (Criminal Appeal E146 of 2025) [2026] KEHC 13089 (KLR) (25 August 2026) (Judgment)
+### 🟠 [101.7] High Court at Kibera – Daily Cause List – 26 August 2026 to 26 August 2026
 - **Verdict:** STRONG — tier-1, upstream
 - **Source:** Kenya Gazette (Kenya Law) · tier 1 · KE · gazette
-- **First seen:** 2026-08-27T01:51+03:00 EAT · **Source date:** 2026-08-25
-- **URL:** https://new.kenyalaw.org/akn/ke/judgment/kehc/2026/13089/eng@2026-08-25
-- **Extract:** Republic v Riungu & another (Criminal Appeal E146 of 2025) [2026] KEHC 13089 (KLR) (25 August 2026) (Judgment)
+- **First seen:** 2026-08-27T11:03+03:00 EAT · **Source date:** 2026-08-26
+- **URL:** https://new.kenyalaw.org/akn/ke/doc/cause-list-daily/kehc/2026-08-26/1/eng@2026-08-26
+- **Extract:** High Court at Kibera – Daily Cause List – 26 August 2026 to 26 August 2026
 - **Score parts:** tier +40, category +20, lead +12, relevance +0, freshness +19.7, corroborated +10
 
-### 🟠 [101.7] Hajnur & another v Republic (Criminal Revision E087 of 2026) [2026] KEHC 13088 (KLR) (25 August 2026) (Ruling)
-- **Verdict:** STRONG — tier-1, upstream
-- **Source:** Kenya Gazette (Kenya Law) · tier 1 · KE · gazette
-- **First seen:** 2026-08-27T01:51+03:00 EAT · **Source date:** 2026-08-25
-- **URL:** https://new.kenyalaw.org/akn/ke/judgment/kehc/2026/13088/eng@2026-08-25
-- **Extract:** Hajnur & another v Republic (Criminal Revision E087 of 2026) [2026] KEHC 13088 (KLR) (25 August 2026) (Ruling)
-- **Score parts:** tier +40, category +20, lead +12, relevance +0, freshness +19.7, corroborated +10
-
-### 🟠 [96.5] Wednesday, 26th August, 2026 at 2.30pm Supplementary order Paper
-- **Verdict:** STRONG — tier-1, upstream
-- **Source:** Parliament of Kenya — bills & papers · tier 1 · KE · legislature
-- **First seen:** 2026-08-27T01:50+03:00 EAT · **Source date:** 2026-08-26
-- **URL:** https://www.parliament.go.ke/sites/default/files/2026-08/SUPPLEMENTARY%20ORDER%20PAPER%20FOR%20WEDNESDAY%2C%2026TH%20AUGUST%202026%20-%20AFTERNOON%20SITTING_0.pdf
-- **Extract:** en-USThirteenth Parliament Fifth Session en-US Afternoon Sitting en-US(No. 81) (2218) en-US en-US en-US en-USREPUBLIC OF KENYA en-US en-USTHIRTEENTH PARLIAMENT (FIFTH SESSION) en-US en-USTHE NATIONAL ASSEMBLY en-US en-USORDERS OF THE DAY en-USSUPPLEMENTARY en-
-- **Score parts:** tier +40, category +10, lead +16.8, relevance +0, freshness +19.7, corroborated +10
-
-### 🟡 [92.8] Saudia Opens Booking For Expanded Manchester Service in 1Q27
+### 🟡 [100.1] SAS Cancels Planned Dubai Service in NW26
 - **Verdict:** CONSIDER
 - **Source:** AeroRoutes schedule filings · tier 2 · GLOBAL · aviation-tracker
-- **First seen:** 2026-08-26T22:48+03:00 EAT · **Source date:** 2026-08-26
-- **URL:** https://www.aeroroutes.com/eng/260826-sv1q27man
-- **Extract:** Published at 1000PDT / 1700GMT 26AUG26 Saudia this week opened reservations for additional flights on Jeddah – Manchester route. Reported earlier this month on AeroRoutes , the Skyteam member plans to increase service from 7 to 10 weekly from 02JAN27, with add
-- **Score parts:** tier +20, category +14, lead +8.4, relevance +24, freshness +16.4, corroborated +10
+- **First seen:** 2026-08-27T11:03+03:00 EAT · **Source date:** 2026-08-27
+- **URL:** https://www.aeroroutes.com/eng/260826-sknw26dwc
+- **Extract:** Published at 1800PDT 26AUG26 / 0100GMT 27AUG26 SAS in this week’s schedule update has removed the filing of Copenhagen – Dubai al Maktoum route, which would mark the carrier’s return to Dubai since 2011. The Skyteam member previously planned to serve this rout
+- **Score parts:** tier +20, category +14, lead +8.4, relevance +28, freshness +19.7, corroborated +10
 
-### 🟡 [88.5] 120 traditional secondary schools to be renovated Wednesday, 26 August 2026
-- **Verdict:** CONSIDER
-- **Source:** Parliament of Uganda · tier 1 · UG · legislature
-- **First seen:** 2026-08-27T01:50+03:00 EAT · **Source date:** — none stated
-- **URL:** https://www.parliament.go.ug/news/4579/120-traditional-secondary-schools-be-renovated
-- **Score parts:** tier +40, category +10, lead +16.8, relevance +8, freshness +19.7, undated -6
-
-### 🟡 [84.8] Riyadh Air Begins Saudia Codeshare From late-August 2026
+### 🟡 [96.1] Syrian Airlines Resumes Copenhagen Service in late-Sep 2026
 - **Verdict:** CONSIDER
 - **Source:** AeroRoutes schedule filings · tier 2 · GLOBAL · aviation-tracker
-- **First seen:** 2026-08-26T22:48+03:00 EAT · **Source date:** 2026-08-26
-- **URL:** https://www.aeroroutes.com/eng/260826-rxsvcodeshare
-- **Extract:** Published at 0900PDT / 1600GMT 26AUG26 Riyadh Air from late-August 2026 launches codeshare partnership with Saudia, as Riyadh Air’s website are now showing domestic Saudi Arabia codeshare routes available for reservations, when connecting Riyadh Air’s internat
-- **Score parts:** tier +20, category +14, lead +8.4, relevance +16, freshness +16.4, corroborated +10
+- **First seen:** 2026-08-27T11:03+03:00 EAT · **Source date:** 2026-08-27
+- **URL:** https://www.aeroroutes.com/eng/260826-rbsep26cph
+- **Extract:** Published at 2200PDT 26AUG26 / 0500GMT 27AUG26 Syrian Airlines on Wednesday (26AUG26) announced service resumption to two European destinations, including the opening of reservations on Damascus – Copenhagen route. Airbus A320 aircraft to serve this route once
+- **Score parts:** tier +20, category +14, lead +8.4, relevance +24, freshness +19.7, corroborated +10
 
-### 🟡 [84.1] Hunnu Air Adds Ulaanbaatar – Delhi From late-Sep 2026
+### 🟡 [96.1] THAI NW26 Bangkok – Seoul Aircraft Changes
 - **Verdict:** CONSIDER
 - **Source:** AeroRoutes schedule filings · tier 2 · GLOBAL · aviation-tracker
-- **First seen:** 2026-08-27T01:51+03:00 EAT · **Source date:** 2026-08-27
-- **URL:** https://www.aeroroutes.com/eng/260826-mrsep26ubn
-- **Extract:** Published at 1400PDT / 2100GMT 26AUG26 Mongolian carrier Hunnu Air in late-September 2026 plans to add scheduled service to India, as the carrier lists Ulaanbaatar – Delhi weekly flight, from 28SEP26 to 19OCT26. This route is oeprated by Embraer E195-E2 aircra
+- **First seen:** 2026-08-27T11:03+03:00 EAT · **Source date:** 2026-08-27
+- **URL:** https://www.aeroroutes.com/eng/260826-tgnw26icn
+- **Extract:** Published at 2100PDT 26AUG26 / 0400GMT 27AUG26 Thai Airways International (THAI) has filed aircraft changes on Bangkok Suvarnabhumi – Seoul Incheon route, which was not covered in earlier AeroRoutes ’ summary update of the carrier’s international service chang
+- **Score parts:** tier +20, category +14, lead +8.4, relevance +24, freshness +19.7, corroborated +10
+
+### 🟡 [96.1] Finnair Cancels Dubai NW26 Service
+- **Verdict:** CONSIDER
+- **Source:** AeroRoutes schedule filings · tier 2 · GLOBAL · aviation-tracker
+- **First seen:** 2026-08-27T11:03+03:00 EAT · **Source date:** 2026-08-27
+- **URL:** https://www.aeroroutes.com/eng/260826-aynw26dxb
+- **Extract:** Published at 1701PDT 26AUG26 / 0001GMT 27AUG26 Finnair this week announced the cancellation of Helsinki – Dubai route during Northern winter 2026/27 season, where it previously planned 1 daily flight for the period of 25OCT26 – 27AMR27. Previously filed schedu
+- **Score parts:** tier +20, category +14, lead +8.4, relevance +24, freshness +19.7, corroborated +10
+
+### 🟡 [95.7] Uganda gets Shs1.87b mobile lab to speed up Ebola detection
+- **Verdict:** CONSIDER
+- **Source:** Daily Monitor (Uganda) · tier 2 · UG · press
+- **First seen:** 2026-08-27T11:03+03:00 EAT · **Source date:** 2026-08-27
+- **URL:** https://www.monitor.co.ug/uganda/news/national/uganda-gets-shs1-87b-mobile-lab-to-speed-up-ebola-detection--5572556
+- **Shock language:** outbreak
+- **Extract:** New mobile lab to take Ebola testing closer to outbreak zones
+- **Score parts:** tier +20, category +4, lead +0, relevance +24, freshness +19.7, corroborated +10, shock +18
+
+### 🟡 [86.3] Global Hospitality Industry Review - First Half of 2026
+- **Verdict:** CONSIDER
+- **Source:** Hospitality Net — Africa announcements · tier 2 · REG · trade
+- **First seen:** 2026-08-27T11:03+03:00 EAT · **Source date:** 2026-08-27
+- **URL:** https://www.hospitalitynet.org/opinion/4133892/global-hospitality-industry-review-first-half-of-2026
+- **Extract:** H1 2026 global hotel performance was driven by ADR growth rather than occupancy gains, with shrinking booking windows, shorter stays, and rising guest expectations reshaping commercial strategy.
+- **Score parts:** tier +20, category +5, lead +3.6, relevance +28, freshness +19.7, corroborated +10
+
+### 🟡 [84.1] United Adds Chicago – Santa Fe From Dec 2026
+- **Verdict:** CONSIDER
+- **Source:** AeroRoutes schedule filings · tier 2 · GLOBAL · aviation-tracker
+- **First seen:** 2026-08-27T11:03+03:00 EAT · **Source date:** 2026-08-27
+- **URL:** https://www.aeroroutes.com/eng/260827-uadec26saf
+- **Extract:** Published at 0000PDT / 0700GMT 27AUG26 United during Northern winter 2026/27 season schedules new domestic route from Chicago, as the airline launches Chicago O'Hare – Santa Fe on 17DEC26. Embraer E175 aircraft operates this route on daily basis, operated by S
 - **Score parts:** tier +20, category +14, lead +8.4, relevance +12, freshness +19.7, corroborated +10
 
-### 🟡 [83.5] Elewana Collection Strengthens Commitment to Family Safaris Across Kenya and Tanzania with New Activities and Experie...
+### 🟡 [83.7] Why Ghana rejected $1.78 m MTN aid for citizens repatriated from South Africa
 - **Verdict:** CONSIDER
-- **Source:** Minor Hotels newsroom · tier 1 · GLOBAL · hotel-group
-- **First seen:** 2026-08-27T01:50+03:00 EAT · **Source date:** — none stated
-- **URL:** https://media.minorhotels.com/en-GLO/269531-elewana-collection-strengthens-commitment-to-family-safaris-across-kenya-and-tanzania-with-new-activities-and-experiences
-- **Score parts:** tier +40, category +9, lead +16.8, relevance +4, freshness +19.7, undated -6
+- **Source:** The EastAfrican · tier 2 · REG · press
+- **First seen:** 2026-08-27T11:03+03:00 EAT · **Source date:** 2026-08-27
+- **URL:** https://www.theeastafrican.co.ke/tea/news/west-africa/why-ghana-rejected-mtn-aid-for-repatriated-citizens-5572236
+- **Shock language:** evacuat
+- **Extract:** Ghana says it has made adequate financial provision for the evacuation of Ghanaians and the...
+- **Score parts:** tier +20, category +4, lead +0, relevance +12, freshness +19.7, corroborated +10, shock +18
 
-### 🟡 [81.7] Kyanzavi Farmers Company Ltd v Kigen & another (Civil Appeal E248 of 2025) [2026] KEHC 13091 (KLR) (20 August 2026) (Rul
+### 🟡 [81.7] Isiolo Law Courts – Environment and Land Division – Weekly Cause List – 24 August 2026 to 28 August 2026
 - **Verdict:** CHECK — source date older than the window
 - **Source:** Kenya Gazette (Kenya Law) · tier 1 · KE · gazette
-- **First seen:** 2026-08-27T01:51+03:00 EAT · **Source date:** 2026-08-20
-- **URL:** https://new.kenyalaw.org/akn/ke/judgment/kehc/2026/13091/eng@2026-08-20
-- **Extract:** Kyanzavi Farmers Company Ltd v Kigen & another (Civil Appeal E248 of 2025) [2026] KEHC 13091 (KLR) (20 August 2026) (Ruling)
+- **First seen:** 2026-08-27T11:03+03:00 EAT · **Source date:** 2026-08-24
+- **URL:** https://new.kenyalaw.org/akn/ke/doc/cause-list-weekly/kemc/2026-08-24/23/eng@2026-08-24
+- **Extract:** Isiolo Law Courts – Environment and Land Division – Weekly Cause List – 24 August 2026 to 28 August 2026
 - **Score parts:** tier +40, category +20, lead +12, relevance +0, freshness +19.7, stale_trap -10
 
-### 🟡 [81.7] Siocha v Hashimweyezu (Legal Representative of the Estate of John Mbumba (Deceased) (Civil Appeal E195 of 2025) [2026] K
+### 🟡 [81.7] Kimilili Law Courts – Civil Division – Weekly Cause List – 24 August 2026 to 28 August 2026
 - **Verdict:** CHECK — source date older than the window
 - **Source:** Kenya Gazette (Kenya Law) · tier 1 · KE · gazette
-- **First seen:** 2026-08-27T01:51+03:00 EAT · **Source date:** 2026-08-20
-- **URL:** https://new.kenyalaw.org/akn/ke/judgment/kehc/2026/13090/eng@2026-08-20
-- **Extract:** Siocha v Hashimweyezu (Legal Representative of the Estate of John Mbumba (Deceased) (Civil Appeal E195 of 2025) [2026] KEHC 13090 (KLR) (20 August 2026) (Judgment)
+- **First seen:** 2026-08-27T11:03+03:00 EAT · **Source date:** 2026-08-24
+- **URL:** https://new.kenyalaw.org/akn/ke/doc/cause-list-weekly/kemc/2026-08-24/24/eng@2026-08-24
+- **Extract:** Kimilili Law Courts – Civil Division – Weekly Cause List – 24 August 2026 to 28 August 2026
 - **Score parts:** tier +40, category +20, lead +12, relevance +0, freshness +19.7, stale_trap -10
 
-### 🟡 [80.8] LOT Adds Gdansk – Paris Orly From April 2027
+### 🟡 [80.1] Air North Expands Yellowknife – Vancouver; Adds Edmonton in NW26
 - **Verdict:** CONSIDER
 - **Source:** AeroRoutes schedule filings · tier 2 · GLOBAL · aviation-tracker
-- **First seen:** 2026-08-26T22:48+03:00 EAT · **Source date:** 2026-08-26
-- **URL:** https://www.aeroroutes.com/eng/260826-lons27gdnory
-- **Extract:** Published at 1100PDT / 1800GMT 26AUG26 LOT Polish Airlines last week announced the launch of Gdansk – Paris Orly route, scheduled to launch on 05APR27. This route will be served by Boeing 737 MAX 8, 4 times weekly. LO2311 GDN1700 – 1920ORY 7M8 x246 LO2312 ORY2
-- **Score parts:** tier +20, category +14, lead +8.4, relevance +12, freshness +16.4, corroborated +10
-
-### 🟡 [80.8] flydubai Boosts Bangkok Flights in NW26
-- **Verdict:** CONSIDER
-- **Source:** AeroRoutes schedule filings · tier 2 · GLOBAL · aviation-tracker
-- **First seen:** 2026-08-26T22:48+03:00 EAT · **Source date:** 2026-08-26
-- **URL:** https://www.aeroroutes.com/eng/260826-fznw26dmk
-- **Extract:** Published at 0800PDT / 1500GMT 26AUG26 flydubai during Northern winter 2026/27 season plans to expand service on Dubai – Bangkok Don Mueang flight, with the launch of 3rd daily FZ1345/1346 service on 27NOV26 (Dubai departure). This route is operated by 737 MAX
-- **Score parts:** tier +20, category +14, lead +8.4, relevance +12, freshness +16.4, corroborated +10
-
-### 🟡 [80.5] MPs demand tougher action against illegal gaming in rural areas Wednesday, 26 August 2026
-- **Verdict:** CONSIDER
-- **Source:** Parliament of Uganda · tier 1 · UG · legislature
-- **First seen:** 2026-08-27T01:50+03:00 EAT · **Source date:** — none stated
-- **URL:** https://www.parliament.go.ug/news/4580/mps-demand-tougher-action-against-illegal-gaming-rural-areas
-- **Score parts:** tier +40, category +10, lead +16.8, relevance +0, freshness +19.7, undated -6
-
-### 🟡 [80.1] Qatar Airways NW26 Beijing Aircraft Changes
-- **Verdict:** CONSIDER
-- **Source:** AeroRoutes schedule filings · tier 2 · GLOBAL · aviation-tracker
-- **First seen:** 2026-08-27T01:51+03:00 EAT · **Source date:** 2026-08-27
-- **URL:** https://www.aeroroutes.com/eng/260826-qrnw26pkx
-- **Extract:** Published at 1500PDT / 2200GMT 26AUG26 Qatar Airways during Northern winter 2026/27 season schedules aircraft changes on Doha – Beijing Daxing route. From 25OCT26, the Oneworld member schedules Airbus A350-1000 aircraft on this route on daily basis, replacing 
+- **First seen:** 2026-08-27T11:03+03:00 EAT · **Source date:** 2026-08-27
+- **URL:** https://www.aeroroutes.com/eng/260826-4nnw26yzf
+- **Extract:** Published at 2300PDT 26AUG26 / 0600GMT 27AUG26 Canadian carrier Air North during Northern winter 2026/27 season plans to launch new scheduled service on Yellowknife – Edmonton route, which will be offered on year-round basis. From 26NOV26, Boeing 737-500 aircr
 - **Score parts:** tier +20, category +14, lead +8.4, relevance +8, freshness +19.7, corroborated +10
 
-### 🟡 [80.1] Cyprus Airways December 2026 Network Additions
+### 🟡 [80.1] AirAsia X Moves KL – Seoul Service to AirAsia in NW26
 - **Verdict:** CONSIDER
 - **Source:** AeroRoutes schedule filings · tier 2 · GLOBAL · aviation-tracker
-- **First seen:** 2026-08-27T01:51+03:00 EAT · **Source date:** 2026-08-26
-- **URL:** https://www.aeroroutes.com/eng/260826-cydec26
-- **Extract:** Published at 1300PDT / 2000GMT 26AUG26 Cyprus Airways in December 2026 plans to add 2 European routes, with service to Munich and Rome scheduled. Planned schedule as follows. Larnaca – Munich eff 17DEC26 2 weekly A220 CY372 LCA0940 – 1230MUC 220 47 CY373 MUC13
+- **First seen:** 2026-08-27T11:03+03:00 EAT · **Source date:** 2026-08-27
+- **URL:** https://www.aeroroutes.com/eng/260826-aknw26icn
+- **Extract:** Published at 2000PDT 26AUG26 / 0300GMT 27AUG26 AirAsia X this week continues to adjust operational network, with Kuala Lumpur – Seoul Incheon service to be transferred to AirAsia from 25OCT26. AirAsia’s A321LR to serve this route on daily basis, replacing AirA
 - **Score parts:** tier +20, category +14, lead +8.4, relevance +8, freshness +19.7, corroborated +10
 
-### 🟡 [79.5] InterContinental reinforces commitment to restorative travel through extended worldwide partnership with Timeshifter
-- **Verdict:** CONSIDER
-- **Source:** IHG news · tier 1 · GLOBAL · hotel-group
-- **First seen:** 2026-08-27T01:50+03:00 EAT · **Source date:** — none stated
-- **URL:** https://www.ihgplc.com/en/news-and-media/news-releases/2026/intercontinental-reinforces-commitment-to-restorative-travel-through-extended-worldwide-partnership-with-timeshifter
-- **Score parts:** tier +40, category +9, lead +16.8, relevance +0, freshness +19.7, undated -6
-
-### 🟡 [77.5] FRAMEWORK CONTRACT FOR SUPPLY OF ELECTRICAL I...
-- **Verdict:** CONSIDER
-- **Source:** Uganda EGP portal · tier 1 · UG · tender
-- **First seen:** 2026-08-27T01:50+03:00 EAT · **Source date:** — none stated
-- **URL:** https://egpuganda.go.ug/index/390594566_egp
-- **Score parts:** tier +40, category +7, lead +16.8, relevance +0, freshness +19.7, undated -6
-
-### 🟡 [77.5] Procurement of Framework contracts for the Su...
-- **Verdict:** CONSIDER
-- **Source:** Uganda EGP portal · tier 1 · UG · tender
-- **First seen:** 2026-08-27T01:50+03:00 EAT · **Source date:** — none stated
-- **URL:** https://egpuganda.go.ug/index/391848660_egp
-- **Score parts:** tier +40, category +7, lead +16.8, relevance +0, freshness +19.7, undated -6
-
-### 🟡 [76.8] Paratyphoid Fever in Yemen
-- **Verdict:** CONSIDER
-- **Source:** US CDC travel health notices · tier 1 · GLOBAL · health
-- **First seen:** 2026-08-26T22:48+03:00 EAT · **Source date:** — none stated
-- **URL:** https://wwwnc.cdc.gov/travel/notices/level1/paratyphoid-fever-yemen
-- **Score parts:** tier +40, category +24, lead +2.4, relevance +0, freshness +16.4, undated -6
-
-### 🟡 [76.8] Wizz Air Dec 2026 Sarajevo Network Expansion
+### 🟡 [80.1] Air Arabia Adds Sharjah – Gdansk From Dec 2026
 - **Verdict:** CONSIDER
 - **Source:** AeroRoutes schedule filings · tier 2 · GLOBAL · aviation-tracker
-- **First seen:** 2026-08-26T22:48+03:00 EAT · **Source date:** 2026-08-26
-- **URL:** https://www.aeroroutes.com/eng/260826-w6dec26sjj
-- **Extract:** Published at 1200PDT / 1900GMT 26AUG26 Wizz Air last week announced network expansion at Sarajevo , with 3 routes to be added from December 2026. Berlin – Sarajevo eff 03DEC26 2 weekly A321neo W64696 BER1005 – 1155SJJ 32Q 7 W64696 BER1045 – 1235SJJ 32Q 4 W6469
-- **Score parts:** tier +20, category +14, lead +8.4, relevance +8, freshness +16.4, corroborated +10
+- **First seen:** 2026-08-27T11:03+03:00 EAT · **Source date:** 2026-08-27
+- **URL:** https://www.aeroroutes.com/eng/260826-g9dec26gdn
+- **Extract:** Published at 1900PDT 26AUG26 / 0200GMT 27AUG26 Air Arabia during Northern winter 2026/27 season continues to expand service to Poland, as the carrier now plans to launch Sharjah – Gdansk route on 14DEC26. Airbus A320neo aircraft to serve this route 5 times wee
+- **Score parts:** tier +20, category +14, lead +8.4, relevance +8, freshness +19.7, corroborated +10
 
-### 🟡 [76.1] [page changed] ProMED-mail
+### 🟡 [80.1] Finnair NW26 Leased 737-800 Operations
 - **Verdict:** CONSIDER
-- **Source:** ProMED-mail · tier 2 · GLOBAL · health
-- **First seen:** 2026-08-27T01:51+03:00 EAT · **Source date:** — none stated
-- **URL:** https://promedmail.org/
-- **Extract:** Protecting Global Health, One Alert at a Time | ProMED Previous slide Next slide Protecting Global Health, One Alert at a Time ProMED: Your 24/7 early warning system for emerging infectious diseases worldwide. Subscribe ProMED's Weekly Pulse A snapshot of glob
-- **Score parts:** tier +20, category +24, lead +2.4, relevance +20, freshness +19.7, undated -6, page_change -4
+- **Source:** AeroRoutes schedule filings · tier 2 · GLOBAL · aviation-tracker
+- **First seen:** 2026-08-27T11:03+03:00 EAT · **Source date:** 2026-08-27
+- **URL:** https://www.aeroroutes.com/eng/260826-aynw2673h
+- **Extract:** Published at 1600PDT / 2300GMT 26AUG26 Finnair earlier this month stated it plans to extend the lease of Jettime 737-800 aircraft to October 2027. For Northern winter 2026/27 season between 25OCT26 and 27MAR27, the leased 737 will serve following routes on reg
+- **Score parts:** tier +20, category +14, lead +8.4, relevance +8, freshness +19.7, corroborated +10
 
-### 🟡 [74.3] Bloomberg-Bericht: Europäische Airlines führend bei SAF-Betankung
+### 🟡 [76.1] SIA NS27 Service Changes – 27AUG26
 - **Verdict:** CONSIDER
-- **Source:** FVW / German travel trade · tier 2 · GLOBAL · source-market
-- **First seen:** 2026-08-27T01:51+03:00 EAT · **Source date:** 2026-08-26
-- **URL:** https://www.fvw.de/touristik/verkehr/bloomberg-bericht-europaeische-airlines-fuehrend-bei-saf-betankung-264048
-- **Extract:** Europäische Fluggesellschaften haben im vergangenen Jahr bei der Verwendung von nachhaltigem Flugkraftstoff (SAF) im Vergleich zu Fluggesellschaften aus den USA und Asien einen großen Vorsprung erzielt.
-- **Score parts:** tier +20, category +9, lead +3.6, relevance +12, freshness +19.7, corroborated +10
-
-### 🟡 [74.3] Achtsamer Tourismus: Wie Barbuda das touristische Wachstum gestaltet
-- **Verdict:** CONSIDER
-- **Source:** FVW / German travel trade · tier 2 · GLOBAL · source-market
-- **First seen:** 2026-08-27T01:51+03:00 EAT · **Source date:** 2026-08-26
-- **URL:** https://www.fvw.de/touristik/destination/achtsamer-tourismus-wie-barbuda-das-touristische-wachstum-gestaltet-264036
-- **Extract:** Ein internationaler Flughafen, neue Investitionen und Hotels kurbeln das Wachstum auf der Karibik-Insel Barbuda an. Wie die Insel das Wachstum genau gestaltet.
-- **Score parts:** tier +20, category +9, lead +3.6, relevance +12, freshness +19.7, corroborated +10
-
-### 🟡 [74.3] DTV zur Wahl in Sachsen-Anhalt: Meyer gegen "patriotische Tourismuskonzepte"
-- **Verdict:** CONSIDER
-- **Source:** FVW / German travel trade · tier 2 · GLOBAL · source-market
-- **First seen:** 2026-08-27T01:51+03:00 EAT · **Source date:** 2026-08-26
-- **URL:** https://www.fvw.de/touristik/destination/vor-wahl-in-sachsen-anhalt-dtv-chef-meyer-warnt-vor-patriotischen-tourismuskonzepten-264030
-- **Extract:** Der Präsident des Deutschen Tourismusverbands, Reinhard Meyer, betrachtet mit Sorge die Kritik der AfD am Bauhaus. Es sei ein Fehler, international etablierte Kulturmarken zum Gegenstand parteipolitischer Auseinandersetzungen zu machen. Tourismus lebe von Welt
-- **Score parts:** tier +20, category +9, lead +3.6, relevance +12, freshness +19.7, corroborated +10
-
-### 🟡 [72.8] [page changed] ProMED-mail
-- **Verdict:** CONSIDER
-- **Source:** ProMED-mail · tier 2 · GLOBAL · health
-- **First seen:** 2026-08-26T22:48+03:00 EAT · **Source date:** — none stated
-- **URL:** https://promedmail.org/
-- **Extract:** Protecting Global Health, One Alert at a Time | ProMED Previous slide Next slide Protecting Global Health, One Alert at a Time ProMED: Your 24/7 early warning system for emerging infectious diseases worldwide. Subscribe ProMED's Weekly Pulse A snapshot of glob
-- **Score parts:** tier +20, category +24, lead +2.4, relevance +20, freshness +16.4, undated -6, page_change -4
-
-### 🟡 [70.3] Branchenverband BDL: Drohnen verursachen an Airports Millionenschäden
-- **Verdict:** CONSIDER
-- **Source:** FVW / German travel trade · tier 2 · GLOBAL · source-market
-- **First seen:** 2026-08-27T01:51+03:00 EAT · **Source date:** 2026-08-26
-- **URL:** https://www.fvw.de/touristik/verkehr/branchenverband-bdl-drohnen-verursachen-an-airports-millionenschaeden-264051
-- **Extract:** Nach dem Drohnenfund am Flughafen Leipzig/Halle gibt es aus der Luftfahrtbranche Forderungen nach mehr Schutz auch für kleinere Flughäfen. Denn Drohnen richten auch wirtschaftlichen Schaden an.
-- **Score parts:** tier +20, category +9, lead +3.6, relevance +8, freshness +19.7, corroborated +10
-
-### 🟡 [70.3] Emirates, Etihad, Lufthansa & Co (Update): Das sind die Flugpläne für den Nahen Osten
-- **Verdict:** CONSIDER
-- **Source:** FVW / German travel trade · tier 2 · GLOBAL · source-market
-- **First seen:** 2026-08-27T01:51+03:00 EAT · **Source date:** 2026-08-26
-- **URL:** https://www.fvw.de/touristik/verkehr/emirates-etihad-lufthansa-und-mehr-das-sind-die-flugplaene-fuer-den-nahen-osten-263967
-- **Extract:** Aufgrund der Spannungen im Nahen Osten haben zahlreiche internationale Fluggesellschaften ihre Flugpläne erneut angepasst. Eine detaillierte Übersicht.
-- **Score parts:** tier +20, category +9, lead +3.6, relevance +8, freshness +19.7, corroborated +10
-
-### 🟡 [70.3] Ernüchternde Halbjahresbilanz: Dubai Airport verliert ein Drittel der Fluggäste
-- **Verdict:** CONSIDER
-- **Source:** FVW / German travel trade · tier 2 · GLOBAL · source-market
-- **First seen:** 2026-08-27T01:51+03:00 EAT · **Source date:** 2026-08-26
-- **URL:** https://www.fvw.de/touristik/verkehr/ernuechternde-halbjahresbilanz-dubai-airport-verliert-ein-drittel-der-fluggaeste-264031
-- **Extract:** Der Iran-Krieg und die Krise am Persischen Golf schlägt kräftig auf das Verkehrsaufkommen am Dubai Airport durch. Die Zahl der Fluggäste geht im ersten Halbjahr 2026 deutlich zurück. Zuletzt allerdings erholte sich das Geschäft wieder etwas.
-- **Score parts:** tier +20, category +9, lead +3.6, relevance +8, freshness +19.7, corroborated +10
-
-### 🟡 [66.7] Ikanda v Iwaki Trading Limited & another (Civil Suit E265 of 2025) [2026] KEMC 718 (KLR) (11 August 2026) (Ruling)
-- **Verdict:** CHECK — source date older than the window
-- **Source:** Kenya Gazette (Kenya Law) · tier 1 · KE · gazette
-- **First seen:** 2026-08-27T01:51+03:00 EAT · **Source date:** 2026-08-11
-- **URL:** https://new.kenyalaw.org/akn/ke/judgment/kemc/2026/718/eng@2026-08-11
-- **Extract:** Ikanda v Iwaki Trading Limited & another (Civil Suit E265 of 2025) [2026] KEMC 718 (KLR) (11 August 2026) (Ruling)
-- **Score parts:** tier +40, category +20, lead +12, relevance +0, freshness +19.7, stale_trap -25
+- **Source:** AeroRoutes schedule filings · tier 2 · GLOBAL · aviation-tracker
+- **First seen:** 2026-08-27T11:03+03:00 EAT · **Source date:** 2026-08-27
+- **URL:** https://www.aeroroutes.com/eng/260827-sqns27
+- **Extract:** Published at 0100PDT / 0800GMT 27AUG26 Singapore Airlines (SIA) during Northern summer 2027 season schedules selected changes to Oceania, reflected in recent schedule update. Selected changes listed below filed during this week’s schedule update, up to 27AUG26
+- **Score parts:** tier +20, category +14, lead +8.4, relevance +4, freshness +19.7, corroborated +10
