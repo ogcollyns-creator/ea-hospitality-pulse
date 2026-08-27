@@ -1,5 +1,5 @@
 {
- "generated": "2026-08-26T06:40+03:00",
+ "generated": "2026-08-27T16:07+03:00",
  "health": 0.517,
  "grade": "D",
  "fails": [
@@ -24,21 +24,21 @@
   {
    "name": "source staleness",
    "status": "FAIL",
-   "detail": "52 tier-1 HEALTHY sources quiet >14d: ke-gazettes-africa, ke-knbs-releases, ke-knbs-calendar, ke-tri, ke-ktb-news, ke-tra, ke-tourism-fund, ke-kcaa",
+   "detail": "51 tier-1 HEALTHY sources quiet >14d: ke-gazettes-africa, ke-knbs-releases, ke-knbs-calendar, ke-tri, ke-ktb-news, ke-tra, ke-tourism-fund, ke-kcaa",
    "fix": "Confirm the source still publishes; fix URL if it moved.",
    "score": 0.0
   },
   {
    "name": "radar feed freshness",
    "status": "PASS",
-   "detail": "489 in-window obs; newest observation 0.6h old (2026-08-26T06:07:00+03:00).",
+   "detail": "152 in-window obs; newest observation 5.1h old (2026-08-27T11:03:00+03:00).",
    "fix": "",
    "score": 1.0
   },
   {
    "name": "edition cadence",
    "status": "FAIL",
-   "detail": "Missing slots (last 2 full days): 2026-08-25 morning, 2026-08-24 morning, 2026-08-24 midday",
+   "detail": "Missing slots (last 2 full days): 2026-08-26 morning, 2026-08-26 midday, 2026-08-25 morning",
    "fix": "Confirm the scheduled Pulse task fired for each slot.",
    "score": 0.0
   },
@@ -52,14 +52,14 @@
   {
    "name": "ledger hygiene",
    "status": "WARN",
-   "detail": "128 calls: 105 open, 23 resolved. Overdue-open: 0. Missing source_url: 37.",
+   "detail": "130 calls: 107 open, 23 resolved. Overdue-open: 0. Missing source_url: 37.",
    "fix": "Backfill source_url on early calls.",
    "score": 0.5
   },
   {
    "name": "data freshness",
    "status": "WARN",
-   "detail": "Stale/again-verify: advisories.js 14d>4, costs.js 11d>10, calendar.js 28d>21",
+   "detail": "Stale/again-verify: advisories.js 15d>4, costs.js 12d>10, calendar.js 29d>21",
    "fix": "Re-verify each dataset's values and bump its 'updated:' field, or note it in-edition.",
    "score": 0.5
   },
