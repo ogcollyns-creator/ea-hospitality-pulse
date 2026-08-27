@@ -1,8 +1,8 @@
 window.LEDGER = {
- "updated": "2026-08-26 14:23",
+ "updated": "2026-08-27 16:39",
  "stats": {
-  "total": 130,
-  "open": 107,
+  "total": 132,
+  "open": 109,
   "resolved": 23,
   "correct": 17,
   "partial": 1,
@@ -392,6 +392,22 @@ window.LEDGER = {
    "resolved_date": "",
    "evidence": "",
    "source_url": "",
+   "overdue": false
+  },
+  {
+   "id": "P130",
+   "made_date": "2026-08-27",
+   "edition": "pulse-2026-08-27-evening",
+   "claim": "WHO's 26 August 2026 certification that Uganda is Ebola-free will NOT be followed by any change to Uganda's US State Department travel advisory LEVEL within 30 days — the Level 4 was set on 17 May 2026 on the stated ground of the Bundibugyo outbreak in Ituri Province, DRC, which is still growing",
+   "resolution_criteria": "travel.state.gov Uganda advisory page checked on 26 Sep 2026 still shows Level 4 (Do Not Travel). A drop to Level 3 or below on or before 26 Sep 2026 resolves incorrect",
+   "resolve_by": "2026-09-26",
+   "market": "Uganda",
+   "segment": "City|Bush",
+   "confidence": "High",
+   "status": "open",
+   "resolved_date": "",
+   "evidence": "",
+   "source_url": "https://travel.state.gov/en/international-travel/travel-advisories/uganda.html",
    "overdue": false
   },
   {
@@ -1048,6 +1064,22 @@ window.LEDGER = {
    "resolved_date": "",
    "evidence": "",
    "source_url": "",
+   "overdue": false
+  },
+  {
+   "id": "P131",
+   "made_date": "2026-08-27",
+   "edition": "pulse-2026-08-27-evening",
+   "claim": "The next US State Department re-issue of the Uganda advisory before 31 December 2026 will RETAIN the \"health\" indicator — the indicator is pinned to DRC-side transmission, so a Ugandan all-clear does not remove it even if the level eventually moves",
+   "resolution_criteria": "travel.state.gov Uganda advisory page and its advisory history checked on 31 Dec 2026. Correct if the most recent re-issue after 27 Aug 2026 still lists \"health\" among the indicators. Removal of the health indicator resolves incorrect. No re-issue by 31 Dec 2026 resolves unresolved",
+   "resolve_by": "2026-12-31",
+   "market": "Uganda",
+   "segment": "City|Bush",
+   "confidence": "Medium",
+   "status": "open",
+   "resolved_date": "",
+   "evidence": "",
+   "source_url": "https://travel.state.gov/en/international-travel/travel-advisories/uganda.html",
    "overdue": false
   },
   {
