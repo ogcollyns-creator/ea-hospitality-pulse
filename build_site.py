@@ -792,7 +792,7 @@ def build_credits_page():
 <html lang="en"><head>
 <meta charset="UTF-8"><meta name="viewport" content="width=device-width,initial-scale=1">
 <title>Image credits | EA Hospitality Pulse</title>
-<meta name="description" content="Attribution for photography used across EA Hospitality Pulse — sourced from Wikimedia Commons under Creative Commons / public-domain licences.">
+<meta name="description" content="Attribution for imagery used across EA Hospitality Pulse — data cards (own work), official press and media libraries, and legacy Creative Commons photography.">
 <link rel="canonical" href="{BASE}/credits.html">
 <meta name="robots" content="index,follow">
 <style>{ARTICLE_CSS}
@@ -806,7 +806,8 @@ def build_credits_page():
 <div class="wrap"><article class="art">
 <a class="nav" href="./index.html">← Home</a>
 <h1>Image credits</h1>
-<p>Photography across this site is sourced from <a href="https://commons.wikimedia.org/" target="_blank" rel="noopener">Wikimedia Commons</a> under Creative Commons or public-domain licences, and is cropped and tinted for layout. Each image remains under its original licence; the source and licence for every photo are listed below.</p>
+<p>Most editions lead with a <strong>data card</strong> — a typographic hero carrying the edition's own headline figure. For a market-intelligence brief that is content rather than decoration, and it cannot be off-topic. Those cards are our own work.</p>
+<p>Where a photograph is genuinely the right image, we use <strong>official press and media libraries</strong> — national tourism boards, park authorities, hotel groups and airlines — which publish images for editorial reuse, plus public-health imagery from WHO and Africa CDC. We do not use press-agency or news-outlet photographs, and we do not hot-link images from other publishers’ servers. Historic editions may still carry Creative Commons photography from Wikimedia Commons under its original licence; that source was retired on 28 August 2026 because it supplied regional scenery unrelated to the story. Source and licence for every image are listed below.</p>
 <div class="tw"><table><thead><tr><th>Used for</th><th>Source (Wikimedia Commons)</th><th>Licence</th></tr></thead>
 <tbody>
 {body}

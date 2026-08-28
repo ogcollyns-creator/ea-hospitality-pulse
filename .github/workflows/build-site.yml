@@ -12,8 +12,6 @@ on:
       # edition happens to be published.
       - 'build_site.py'
       - 'hero_extra.py'
-      - 'fetch_edition_images.py'
-      - 'fetch_images.py'
       - 'make_og_images.py'
       - 'img/edition-credits.json'
       - 'img/editorial-picks.json'
@@ -52,21 +50,11 @@ jobs:
           git add -A editions-src
           git diff --staged --quiet || git commit -m "Gate auto-fix: $(date -u +'%Y-%m-%d %H:%M UTC')"
           git push origin HEAD:main || true
-
-      - name: Fetch photo pool (best-effort; expands clean-image variety)
-        run: python3 fetch_images.py || echo "image fetch skipped (network); using photos already in img/"
-
-      - name: Assign hand-picked editorial photos (Google/web-search sourced; explicit pins win)
-        run: python3 hero_extra.py --editorial || echo "editorial pass skipped"
-
       - name: Assign vetted press-kit images (best-effort; before the Wikimedia fetch)
         run: python3 hero_extra.py --press-kit || echo "press-kit pass skipped"
 
-      - name: Assign broad-pool Openverse images (best-effort; credited)
-        run: python3 hero_extra.py --openverse || echo "openverse pass skipped"
-
-      - name: Assign a unique photo per edition (best-effort; Commons + attribution)
-        run: python3 fetch_edition_images.py || echo "per-edition image fetch skipped (network); editions fall back to the curated pool"
+      - name: Hero — data card (default; a brief's hero is its number, not scenery)
+        run: python3 hero_extra.py --data-card || echo "data-card pass skipped"
 
       - name: Generate AI illustration for any edition still without a hero (best-effort)
         env:

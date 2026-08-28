@@ -20,7 +20,7 @@ so build_site.py and .github/scripts/post_telegram.py attribute them correctly.
 See docs/image-policy.md. Any failure leaves the edition for the next source in the
 chain, so the site never breaks and never shows an unattributed image.
 """
-import os, re, json, sys, shutil, hashlib
+import os, re, json, sys, shutil, hashlib, io
 
 HERE  = os.path.dirname(os.path.abspath(__file__))
 IMG   = os.path.join(HERE, "img")
@@ -472,15 +472,147 @@ def editorial_pass():
     _save_credits(credits)
     print(f"  editorial: assigned {done} edition(s)")
 
+
+# ---------- data-card pass ----------------------------------------------------
+def _raw_edition_md(eid):
+    """Source markdown for an edition. data.js carries only the Telegram body, and
+    _edition_text() lowercases it — neither is usable for pulling a curated figure."""
+    p = os.path.join(HERE, "editions-src", eid + ".md")
+    try:
+        return io.open(p, encoding="utf-8").read()
+    except Exception:
+        return ""
+
+
+def _number_of_the_day(md):
+    """Pull the edition's own curated headline figure.
+
+    The WhatsApp block already carries NUMBER OF THE DAY — the single most striking
+    verified figure of the edition, chosen by hand and traced to a named source. That
+    is better hero material than any stock photograph, and it can never be off-topic.
+    """
+    m = re.search(r"NUMBER OF THE DAY\*?\s*\n+\*?\s*([^\n*]+?)\s*\*?\s*[\u2014-]\s*([^\n]+)", md)
+    if not m:
+        return None, None
+    fig = m.group(1).strip().strip("*").strip()
+    cap = m.group(2).strip().rstrip("*").strip()
+    return (fig or None), (cap or None)
+
+
+def _lead_headline(md):
+    m = re.search(r"^1\ufe0f\u20e3\s*(.+)$", md, re.M)
+    if m:
+        return re.sub(r"^[\U0001F000-\U0001FAFF\u2600-\u27BF\s]+", "", m.group(1)).strip()
+    return None
+
+
+def data_card_pass():
+    """Default hero: a typographic data card, not scenery.
+
+    Why this is the default. On 28 Aug 2026 an edition arguing Zanzibar package-tour
+    yield economics was topped with a photograph of a baby elephant in the Serengeti,
+    because the Commons topic-matcher reaches for regional scenery whenever it cannot
+    match a subject. For a market-intelligence brief that is decoration, and worse, it
+    is decoration that looks like a mismatch to any reader who reads the headline.
+
+    A card carrying 'USD 289 v USD 274' is content. It is always relevant, always
+    on-brand, rights-clean, and impossible to get wrong. Photographs are reserved for
+    editions with a genuine visual subject and a vetted press-kit image (see
+    press_kit_pass) — never reached for merely to fill the slot.
+    """
+    try:
+        from PIL import Image, ImageDraw, ImageFont
+    except Exception:
+        print("  data-card: Pillow missing — skipping"); return
+    eds, credits = _load_editions(), _load_credits()
+    os.makedirs(EDIMG, exist_ok=True)
+    made = 0
+    for e in eds:
+        eid = e.get("id")
+        if not eid or _has_hero(eid, credits):
+            continue
+        md = _raw_edition_md(eid)
+        fig, cap = _number_of_the_day(md)
+        head = _lead_headline(md) or (e.get("edition") or "")
+        if not fig:
+            continue                       # nothing verified to show — leave for the chain
+        W, H = WIDTH, int(WIDTH * 0.525)
+        img = Image.new("RGB", (W, H), TEAL)
+        d = ImageDraw.Draw(img)
+        for y in range(H):                                   # vertical wash
+            t = y / max(H - 1, 1)
+            d.line([(0, y), (W, y)],
+                   fill=(int(TEAL[0] + (TEAL2[0] - TEAL[0]) * t),
+                         int(TEAL[1] + (TEAL2[1] - TEAL[1]) * t),
+                         int(TEAL[2] + (TEAL2[2] - TEAL[2]) * t)))
+        d.rectangle([0, 0, 14, H], fill=GOLD)
+        try:
+            f_kick = ImageFont.truetype(FONTB, 30)
+            f_fig  = ImageFont.truetype(FONTB, 148)
+            f_cap  = ImageFont.truetype(FONT, 34)
+            f_head = ImageFont.truetype(FONTB, 40)
+        except Exception:
+            f_kick = f_fig = f_cap = f_head = ImageFont.load_default()
+        pad = 88
+        d.text((pad, 66), "EA HOSPITALITY PULSE", font=f_kick, fill=GOLD)
+        # figure — shrink to fit rather than overflow
+        size, fitted = 148, f_fig
+        while size > 54:
+            if d.textlength(fig, font=fitted) <= W - 2 * pad:
+                break
+            size -= 6
+            try: fitted = ImageFont.truetype(FONTB, size)
+            except Exception: break
+        d.text((pad, 156), fig, font=fitted, fill=WHITE)
+        y = 156 + size + 30
+        for line in _wrap(d, cap or "", f_cap, W - 2 * pad)[:3]:
+            d.text((pad, y), line, font=f_cap, fill=SAND); y += 46
+        y += 34
+        d.line([(pad, y), (pad + 120, y)], fill=GOLD, width=3); y += 26
+        for line in _wrap(d, head, f_head, W - 2 * pad)[:2]:
+            d.text((pad, y), line, font=f_head, fill=WHITE); y += 50
+        # date strip, bottom-left — keeps the card self-dating in a shared image
+        try:
+            f_dt = ImageFont.truetype(FONT, 26)
+            d.text((pad, H - 62), (e.get("dateDisplay") or e.get("edition") or "").strip(),
+                   font=f_dt, fill=(150, 190, 182))
+        except Exception:
+            pass
+        img.save(os.path.join(EDIMG, eid + ".jpg"), "JPEG", quality=92)
+        credits[eid] = {"id": eid, "title": "Data card — " + (fig or ""),
+                        "artist": "EA Hospitality Pulse",
+                        "source": "EA Hospitality Pulse", "source_kind": "data-card",
+                        "license": "Own work", "licenseurl": "", "descurl": ""}
+        made += 1
+        print(f"  data-card: {eid}.jpg <- {fig}")
+    _save_credits(credits)
+    print(f"  data-card: generated {made} card(s)")
+
+
+def _wrap(d, text, font, maxw):
+    words, lines, cur = (text or "").split(), [], ""
+    for w in words:
+        t = (cur + " " + w).strip()
+        if d.textlength(t, font=font) <= maxw:
+            cur = t
+        else:
+            if cur: lines.append(cur)
+            cur = w
+    if cur: lines.append(cur)
+    return lines
+
+
 if __name__ == "__main__":
     args = sys.argv[1:]
     if "--editorial" in args:
         editorial_pass()
     if "--press-kit" in args:
         press_kit_pass()
+    if "--data-card" in args:
+        data_card_pass()
     if "--openverse" in args:
         openverse_pass()
     if "--ai-fallback" in args:
         ai_fallback_pass()
     if not args:
-        print("usage: hero_extra.py [--editorial] [--press-kit] [--openverse] [--ai-fallback]")
+        print("usage: hero_extra.py [--editorial] [--press-kit] [--data-card] [--openverse] [--ai-fallback]")
