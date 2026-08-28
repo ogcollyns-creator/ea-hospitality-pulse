@@ -9,6 +9,15 @@ window.EDITIONS = [
   "bodyHtml": "<p><span class=\"meta-line\">🏨 EA HOSPITALITY PULSE — Midday Pulse</span><br><span class=\"meta-line\">📅 Friday, 28 August 2026 | 🇹🇿🇰🇪🇷🇼</span></p>\n<p>Quiet news slot. So here is a number in the Bank of Tanzania&#x27;s survey that nobody has read properly.</p>\n<p>⚠️ CORRECTION (added 28 Aug, 13:20 EAT) — this edition first argued Zanzibar&#x27;s arrivals growth was &quot;running out&quot;, citing June&#x27;s +3.1%. That was wrong, and it was wrong when written. July 2026 set an all-time July record of 107,801 arrivals, +9.6% on July 2025 — published by the Office of the Chief Government Statistician on 14 August, a fortnight before we wrote. We built a trend on one month of a violently seasonal series and missed the release. The yield and package-mix findings below are unaffected; the volume read is corrected in place.<br>━━━━━━━━━<br><span class=\"item-head\">1️⃣ THE MAINLAND JUST OVERTOOK ZANZIBAR ON YIELD</span></p>\n<p>For the first time, a visitor night on mainland Tanzania is worth more than a visitor night in Zanzibar: USD 289 against USD 274 (Bank of Tanzania, 2025 International Visitors&#x27; Exit Survey, released 13 July 2026). A year earlier the island led, USD 251 to USD 243. Mainland spend rose 19.1%; Zanzibar&#x27;s rose 9%.</p>\n<p>The mechanism sits in the same document. Package tours took 67.2% of Zanzibar&#x27;s visitors in 2025, up from 61.8% — but their share of the island&#x27;s earnings fell to 59.1% from 63.6%. Zanzibar&#x27;s package guests spent USD 379 a night, DOWN from USD 391. That is the only spend line in the survey that moved backwards. Independent travellers went the other way: USD 211, up 14% from USD 185.</p>\n<p>Our read, labelled as inference: the island is selling more of its inventory through intermediaries paying less for it — and record volume is what keeps the trade invisible. July 2026 was an all-time July high of 107,801 arrivals, +9.6% on July 2025 and +54.9% on June (Office of the Chief Government Statistician, via The Citizen, 14 August 2026). Record arrivals and a falling package rate are not a contradiction. They are the trade.</p>\n<p><span class=\"sowhat\">🎯 So what: Count what share of your room-nights went through contracted allocation this year against last. Zanzibar added 5.4 points of package mix and was paid 3% less per night for it.</span><br><span class=\"tagline\">🏷 Beach, Bush | 🇹🇿 Zanzibar, Tanzania (read-across: 🇰🇪 coast) | Confirmed | impact:watch</span></p>\n<p><span class=\"item-head\">2️⃣ PACKAGE ISN&#x27;T THE PROBLEM. UNDIFFERENTIATED PACKAGE IS.</span></p>\n<p>Same survey: mainland package guests spent USD 479 a night, up from USD 416. By activity, hunting took USD 710.8 (+54%), cultural tourism USD 537 and wildlife safari USD 452 — against birdwatching at USD 105.6. Average stay fell a night on both circuits, to 9 on the mainland and 6 in Zanzibar.</p>\n<p><span class=\"sowhat\">🎯 So what: Specialisation prices; a substitutable beach night does not. Bush operators can hold rate on specialist product. Everyone lost a night of stay — recover it on rate, not volume.</span><br><span class=\"tagline\">🏷 Bush, Beach | 🇹🇿 | Confirmed | impact:demand</span></p>\n<p><span class=\"item-head\">3️⃣ STILL TRUE — THE ADVISORY SPLIT ON ZANZIBAR</span></p>\n<p>The US has held Tanzania and Zanzibar at Level 3 &quot;Reconsider travel&quot; since 31 October 2025, with no Zanzibar carve-out (verified against travel.state.gov, 4 August 2026). The UK has no advisory against travel. Zanzibar&#x27;s two biggest source markets are Italy at 18.8% and France at 10.6%.</p>\n<p><span class=\"sowhat\">🎯 So what: Don&#x27;t discount a European base against an American advisory that doesn&#x27;t bind it.</span><br><span class=\"tagline\">🏷 Beach | 🇹🇿 Zanzibar | Confirmed | impact:demand</span><br>━━━━━━━━━<br><span class=\"meta-line\">📡 DIARY: World Travel Awards Africa Gala tonight at Diamonds Bijoux, Zanzibar. Kwita Izina 4 September, Musanze — exhibition runs to 8 September. EPRA Kenya fuel review around 14 September, effective the 15th.</span></p>\n<p><span class=\"meta-line\">💬 What share of your room-nights was contracted allocation this year, against last?</span></p>\n<p>🔗 This edition on the web: <a href=\"https://eahospitalitypulse.com/editions/pulse-2026-08-28-midday.html\" rel=\"noopener\">eahospitalitypulse.com/editions/pulse-2026-08-28-midday…</a><br>— EA Hospitality Pulse | Daily intelligence for city, bush &amp; beach properties</p>"
  },
  {
+  "id": "pulse-2026-08-28-special",
+  "date": "2026-08-28",
+  "dateDisplay": "Friday, 28 August 2026",
+  "edition": "Morning Brief",
+  "editionKey": "morning",
+  "summary": "Off-slot, because tomorrow morning Uganda closes its roads — and your guests are exempt, which the advisory pages do not yet tell you.",
+  "bodyHtml": "<p><span class=\"meta-line\">🏨 EA HOSPITALITY PULSE — Special Edition</span><br><span class=\"meta-line\">📅 Friday, 28 August 2026 | 🇺🇬🇷🇼🇹🇿</span></p>\n<p>Off-slot, because tomorrow morning Uganda closes its roads — and your guests are exempt, which the advisory pages do not yet tell you.<br>━━━━━━━━━<br><span class=\"item-head\">1️⃣ UGANDA STOPS MOVING TOMORROW 07:00–10:00. TOURISTS ARE EXEMPT.</span></p>\n<p>Uganda&#x27;s second mandatory National Cleaning Day falls tomorrow, Saturday 29 August, 07:00–10:00. Nationwide: vehicles, motorcycles and bicycles off the roads, vessels restricted on water, businesses closed, police enforcing (Uganda Police spokesperson Kituuma Rusoke, 24 August 2026).</p>\n<p>Police published exemptions after what they called challenges during the first round on 25 July: patients, hospital staff with ID, journalists on duty, security personnel, people travelling abroad, cross-border traffic on designated routes — and <strong>tourists</strong>.</p>\n<p>Read it precisely: police said exemptions are not unrestricted movement, and guests may be asked to identify themselves. The UK FCDO page, updated 27 July, still calls it &quot;unclear… what it means for UK travellers, including for hotel and airport access&quot; — written four weeks before police clarified.</p>\n<p><span class=\"sowhat\">🎯 So what: Brief guests tonight, not at breakfast. Shift 07:00–10:00 airport transfers and game-drive departures either side of the window, or send guests with a printed itinerary, passport copy and lodge contact. Brief drivers now: designated routes, no improvising.</span><br><span class=\"tagline\">🏷 City, Bush | 🇺🇬 Uganda | Confirmed | impact:risk</span></p>\n<p><span class=\"item-head\">2️⃣ KING OYO OF TOORO HAS DIED</span></p>\n<p>Omukama Oyo Nyimba Kabamba Iguru Rukidi IV died about 22:00 on Thursday 27 August, aged 34, ending a 31-year reign — announced by Tooro Kingdom PM Calvin Armstrong Rwomiire Akiiki (The Independent / ChimpReports, 28 August 2026). Funeral arrangements are still to be announced. Tooro&#x27;s seat is Fort Portal — gateway to Kibale, the Rwenzoris, Semuliki and the northern approach to Queen Elizabeth.</p>\n<p><span class=\"sowhat\">🎯 So what: Expect processions and road closures around Fort Portal and Kabarole once dates are set, and a subdued local tone. Don&#x27;t book celebratory events there next week.</span><br><span class=\"tagline\">🏷 Bush | 🇺🇬 Uganda | Reported | impact:watch</span></p>\n<p><span class=\"item-head\">3️⃣ ⚠️ CORRECTION — WE HAD THE UK ON UGANDA WRONG FOR NINE MONTHS</span></p>\n<p>Our board said the UK advised against all-but-essential travel to Queen Elizabeth and Semuliki. It does not, and has not since 2 December 2025. Checked against gov.uk today: every &quot;advises against all travel&quot; line on the Regional risks page refers to the DRC and South Sudan, not Uganda. Board corrected.</p>\n<p><span class=\"sowhat\">🎯 So what: The widest advisory split in the region, and it runs in your favour — the US holds Uganda at Level 4 Do Not Travel, the UK advises against travel to no part of it. If you sell into the UK or EU, put that in writing to your agents this week.</span><br><span class=\"tagline\">🏷 Bush, City | 🇺🇬 Uganda | Confirmed | impact:demand</span></p>\n<p><span class=\"item-head\">4️⃣ 🇷🇼 RWANDA GOES TO 8.75% AS INFLATION HITS 14.5%</span></p>\n<p>BNR&#x27;s MPC met 26 August and raised the Central Bank Rate 50bp to 8.75% — a third straight rise, +175bp since November 2025. July inflation 14.5% against a 2–8% target; energy 45.7% (KT Press, 27 August 2026).</p>\n<p><span class=\"sowhat\">🎯 So what: Energy at 45.7% hits hardest — audit generator, cooking-gas and cold-chain contracts before Q4, and reprice RWF refurbishment plans now.</span><br><span class=\"tagline\">🏷 City | 🇷🇼 Rwanda | Confirmed | impact:margin</span><br>━━━━━━━━━<br><span class=\"meta-line\">📡 Also corrected today: Zanzibar&#x27;s July arrivals were an all-time record — 107,801, +9.6% (OCGS, published 14 August). Our midday edition said growth was &quot;running out&quot;. It isn&#x27;t.</span></p>\n<p><span class=\"meta-line\">💬 Have you briefed tomorrow&#x27;s transfers yet?</span></p>\n<p>🔗 This edition on the web: <a href=\"https://eahospitalitypulse.com/editions/pulse-2026-08-28-special.html\" rel=\"noopener\">eahospitalitypulse.com/editions/pulse-2026-08-28-specia…</a><br>— EA Hospitality Pulse | Daily intelligence for city, bush &amp; beach properties</p>"
+ },
+ {
   "id": "pulse-2026-08-27-evening",
   "date": "2026-08-27",
   "dateDisplay": "Thursday, 27 August 2026",
@@ -721,6 +730,84 @@ window.EDITIONS = [
  }
 ];
 window.INSIGHTS = [
+ {
+  "headline": "UGANDA STOPS MOVING TOMORROW 07:00–10:00. TOURISTS ARE EXEMPT.",
+  "body": "Uganda's second mandatory National Cleaning Day falls tomorrow, Saturday 29 August, 07:00–10:00. Nationwide: vehicles, motorcycles and bicycles off the roads, vessels restricted on water, businesses closed, police enforcing (Uganda Police spokesperson Kituuma Rusoke, 24 August 2026). Police published exemptions after what they called challenges during the first round on 25 July: patients, hospital staff with ID, journalists on duty, security personnel, people travelling abroad, cross-border traffic on designated routes — and **tourists**. Read it precisely: police said exemptions are not unrestricted movement, and guests may be asked to identify themselves. The UK FCDO page, updated 27 July, still calls it \"unclear… what it means for UK travellers, including for hotel and airport access\" — written four weeks before police clarified.",
+  "sowhat": "🎯 So what: Brief guests tonight, not at breakfast. Shift 07:00–10:00 airport transfers and game-drive departures either side of the window, or send guests with a printed itinerary, passport copy and lodge contact. Brief drivers now: designated routes, no improvising.",
+  "segments": [
+   "city",
+   "bush"
+  ],
+  "countries": "🇺🇬 Uganda",
+  "confidence": "Confirmed",
+  "impact": "risk",
+  "impactClass": "risk",
+  "intensity": 3,
+  "impactSet": "author",
+  "source": "pulse-2026-08-28-special",
+  "date": "2026-08-28",
+  "dateDisplay": "Friday, 28 August 2026",
+  "edition": "Morning Brief",
+  "editionKey": "morning"
+ },
+ {
+  "headline": "KING OYO OF TOORO HAS DIED",
+  "body": "Omukama Oyo Nyimba Kabamba Iguru Rukidi IV died about 22:00 on Thursday 27 August, aged 34, ending a 31-year reign — announced by Tooro Kingdom PM Calvin Armstrong Rwomiire Akiiki (The Independent / ChimpReports, 28 August 2026). Funeral arrangements are still to be announced. Tooro's seat is Fort Portal — gateway to Kibale, the Rwenzoris, Semuliki and the northern approach to Queen Elizabeth.",
+  "sowhat": "🎯 So what: Expect processions and road closures around Fort Portal and Kabarole once dates are set, and a subdued local tone. Don't book celebratory events there next week.",
+  "segments": [
+   "bush"
+  ],
+  "countries": "🇺🇬 Uganda",
+  "confidence": "Reported",
+  "impact": "watch",
+  "impactClass": "watch",
+  "intensity": 2,
+  "impactSet": "author",
+  "source": "pulse-2026-08-28-special",
+  "date": "2026-08-28",
+  "dateDisplay": "Friday, 28 August 2026",
+  "edition": "Morning Brief",
+  "editionKey": "morning"
+ },
+ {
+  "headline": "⚠️ CORRECTION — WE HAD THE UK ON UGANDA WRONG FOR NINE MONTHS",
+  "body": "Our board said the UK advised against all-but-essential travel to Queen Elizabeth and Semuliki. It does not, and has not since 2 December 2025. Checked against gov.uk today: every \"advises against all travel\" line on the Regional risks page refers to the DRC and South Sudan, not Uganda. Board corrected.",
+  "sowhat": "🎯 So what: The widest advisory split in the region, and it runs in your favour — the US holds Uganda at Level 4 Do Not Travel, the UK advises against travel to no part of it. If you sell into the UK or EU, put that in writing to your agents this week.",
+  "segments": [
+   "city",
+   "bush"
+  ],
+  "countries": "🇺🇬 Uganda",
+  "confidence": "Confirmed",
+  "impact": "+demand",
+  "impactClass": "demand",
+  "intensity": 3,
+  "impactSet": "author",
+  "source": "pulse-2026-08-28-special",
+  "date": "2026-08-28",
+  "dateDisplay": "Friday, 28 August 2026",
+  "edition": "Morning Brief",
+  "editionKey": "morning"
+ },
+ {
+  "headline": "🇷🇼 RWANDA GOES TO 8.75% AS INFLATION HITS 14.5%",
+  "body": "BNR's MPC met 26 August and raised the Central Bank Rate 50bp to 8.75% — a third straight rise, +175bp since November 2025. July inflation 14.5% against a 2–8% target; energy 45.7% (KT Press, 27 August 2026).",
+  "sowhat": "🎯 So what: Energy at 45.7% hits hardest — audit generator, cooking-gas and cold-chain contracts before Q4, and reprice RWF refurbishment plans now.",
+  "segments": [
+   "city"
+  ],
+  "countries": "🇷🇼 Rwanda",
+  "confidence": "Confirmed",
+  "impact": "-margin",
+  "impactClass": "margin",
+  "intensity": 3,
+  "impactSet": "author",
+  "source": "pulse-2026-08-28-special",
+  "date": "2026-08-28",
+  "dateDisplay": "Friday, 28 August 2026",
+  "edition": "Morning Brief",
+  "editionKey": "morning"
+ },
  {
   "headline": "THE MAINLAND JUST OVERTOOK ZANZIBAR ON YIELD",
   "body": "For the first time, a visitor night on mainland Tanzania is worth more than a visitor night in Zanzibar: USD 289 against USD 274 (Bank of Tanzania, 2025 International Visitors' Exit Survey, released 13 July 2026). A year earlier the island led, USD 251 to USD 243. Mainland spend rose 19.1%; Zanzibar's rose 9%. The mechanism sits in the same document. Package tours took 67.2% of Zanzibar's visitors in 2025, up from 61.8% — but their share of the island's earnings fell to 59.1% from 63.6%. Zanzibar's package guests spent USD 379 a night, DOWN from USD 391. That is the only spend line in the survey that moved backwards. Independent travellers went the other way: USD 211, up 14% from USD 185. Our read, labelled as inference: the island is selling more of its inventory through intermediaries paying less for it — and record volume is what keeps the trade invisible. July 2026 was an all-time July high of 107,801 arrivals, +9.6% on July 2025 and +54.9% on June (Office of the Chief Government Statistician, via The Citizen, 14 August 2026). Record arrivals and a falling package rate are not a contradiction. They are the trade.",
@@ -3085,4 +3172,4 @@ window.INSIGHTS = [
   "editionKey": "evening"
  }
 ];
-window.BUILT_AT = "2026-08-28 12:58";
+window.BUILT_AT = "2026-08-28 13:05";

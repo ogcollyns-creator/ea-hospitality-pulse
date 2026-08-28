@@ -1,8 +1,8 @@
 window.LEDGER = {
- "updated": "2026-08-28 12:59",
+ "updated": "2026-08-28 13:06",
  "stats": {
-  "total": 135,
-  "open": 111,
+  "total": 137,
+  "open": 113,
   "resolved": 23,
   "correct": 17,
   "partial": 1,
@@ -1115,6 +1115,22 @@ window.LEDGER = {
    "overdue": false
   },
   {
+   "id": "P135",
+   "made_date": "2026-08-28",
+   "edition": "pulse-2026-08-28-special",
+   "claim": "Uganda's mandatory National Cleaning Day movement restriction will still be operating on the last Saturday of the month in January 2027 — it is a standing monthly fixture, not a short-lived campaign that lapses after the launch rounds",
+   "resolution_criteria": "Uganda Police, Ministry of ICT and National Guidance or credible Ugandan press (New Vision, Daily Monitor, The Observer, Pulse UG) confirms a National Cleaning Day movement restriction was enforced on the final Saturday of January 2027. No such restriction resolves incorrect",
+   "resolve_by": "2027-02-15",
+   "market": "UG",
+   "segment": "City|Bush",
+   "confidence": "Medium",
+   "status": "open",
+   "resolved_date": "",
+   "evidence": "",
+   "source_url": "https://www.pulse.ug/story/national-cleaning-day-police-travel-exemptions-2026082407404062456",
+   "overdue": false
+  },
+  {
    "id": "P055",
    "made_date": "2026-08-05",
    "edition": "Evening Wrap",
@@ -1688,6 +1704,22 @@ window.LEDGER = {
    "resolved_date": "",
    "evidence": "",
    "source_url": "https://searchengineland.com/google-zero-click-searches-2026-study-479717",
+   "overdue": false
+  },
+  {
+   "id": "P136",
+   "made_date": "2026-08-28",
+   "edition": "pulse-2026-08-28-special",
+   "claim": "The UK FCDO will NOT reinstate advice against all-but-essential travel to Queen Elizabeth or Semuliki National Parks before 30 June 2027 — the December 2025 lifting holds absent a new attack on tourists",
+   "resolution_criteria": "gov.uk/foreign-travel-advice/uganda Regional risks page checked on 30 Jun 2027 still carries no FCDO advice against travel to any part of Uganda. Reinstatement of an advice-against-travel covering QENP or Semuliki resolves incorrect",
+   "resolve_by": "2027-06-30",
+   "market": "UG",
+   "segment": "Bush",
+   "confidence": "Medium",
+   "status": "open",
+   "resolved_date": "",
+   "evidence": "",
+   "source_url": "https://www.gov.uk/foreign-travel-advice/uganda/regional-risks",
    "overdue": false
   },
   {
