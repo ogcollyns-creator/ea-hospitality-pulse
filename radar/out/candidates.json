@@ -1,18 +1,18 @@
 {
- "generated": "2026-08-28T03:28:24+03:00",
+ "generated": "2026-08-28T09:07:34+03:00",
  "slot": "morning",
  "window_start": 1787842800,
- "observations_in_window": 294,
+ "observations_in_window": 397,
  "deduped_against": 4,
  "candidates": [
   {
-   "score": 147.9,
+   "score": 141.7,
    "components": {
     "tier": 40,
     "category": 32,
     "lead": 1.2,
     "relevance": 48,
-    "freshness": 14.7,
+    "freshness": 8.5,
     "undated": -6,
     "shock": 18
    },
@@ -49,13 +49,13 @@
    "verdict": "LEAD CANDIDATE \u2014 tier-1 shock language"
   },
   {
-   "score": 143.9,
+   "score": 137.7,
    "components": {
     "tier": 40,
     "category": 32,
     "lead": 1.2,
     "relevance": 44,
-    "freshness": 14.7,
+    "freshness": 8.5,
     "undated": -6,
     "shock": 18
    },
@@ -91,13 +91,13 @@
    "verdict": "LEAD CANDIDATE \u2014 tier-1 shock language"
   },
   {
-   "score": 127.9,
+   "score": 121.7,
    "components": {
     "tier": 40,
     "category": 32,
     "lead": 1.2,
     "relevance": 28,
-    "freshness": 14.7,
+    "freshness": 8.5,
     "undated": -6,
     "shock": 18
    },
@@ -133,13 +133,13 @@
    "verdict": "LEAD CANDIDATE \u2014 tier-1 shock language"
   },
   {
-   "score": 115.9,
+   "score": 109.7,
    "components": {
     "tier": 40,
     "category": 32,
     "lead": 1.2,
     "relevance": 16,
-    "freshness": 14.7,
+    "freshness": 8.5,
     "undated": -6,
     "shock": 18
    },
@@ -173,13 +173,80 @@
    "verdict": "LEAD CANDIDATE \u2014 tier-1 shock language"
   },
   {
-   "score": 91.4,
+   "score": 101.7,
+   "components": {
+    "tier": 40,
+    "category": 32,
+    "lead": 12.0,
+    "relevance": 8,
+    "freshness": 19.7,
+    "undated": -6,
+    "page_change": -4
+   },
+   "keywords": [
+    "fee"
+   ],
+   "shock_terms": [],
+   "dedupe_match": null,
+   "dedupe_similarity": 0.0,
+   "id": "55e8f08d473d",
+   "title": "[page changed] Federal Register \u2014 CDC notices",
+   "url": "https://www.federalregister.gov/api/v1/documents.rss?conditions%5Bagencies%5D%5B%5D=centers-for-disease-control-and-prevention&order=newest",
+   "summary": "Federal Register Documents published on or after 07/29/2026 and from Centers for Disease Control and Prevention https://www.federalregister.gov/api/v1/documents.rss?conditions%5Bagencies%5D%5B%5D=centers-for-disease-control-and-prevention&order=newest Thu, 27 Aug 2026 04:00:00 GMT The documents in this feed originate from FederalRegister.gov which displays an unofficial web version of the daily Fe",
+   "kind": "page-change",
+   "source": "Federal Register \u2014 CDC notices",
+   "source_id": "us-fedreg-cdc",
+   "tier": 1,
+   "country": "REG",
+   "category": "advisory",
+   "segments": [
+    "city",
+    "bush"
+   ],
+   "first_seen": "2026-08-28T09:00+03:00",
+   "published": null,
+   "verdict": "OPEN THIS \u2014 tier-1 advisory page moved; content not auto-parsed, read it manually"
+  },
+  {
+   "score": 91.3,
    "components": {
     "tier": 40,
     "category": 32,
     "lead": 3.6,
     "relevance": 0,
-    "freshness": 19.8,
+    "freshness": 19.7,
+    "page_change": -4
+   },
+   "keywords": [],
+   "shock_terms": [],
+   "dedupe_match": null,
+   "dedupe_similarity": 0.0,
+   "id": "8b3ffa8ccf11",
+   "title": "[page changed] Federal Register \u2014 public inspection (HHS/CDC), pre-publication",
+   "url": "https://www.federalregister.gov/api/v1/public-inspection-documents/current.json",
+   "summary": "{\"count\":116,\"results\":[{\"agencies\":[{\"raw_name\":\"Federal Aviation Administration\",\"name\":\"Federal Aviation Administration\",\"id\":159,\"url\":\"https://www.federalregister.gov/agencies/federal-aviation-administration\",\"json_url\":\"https://www.federalregister.gov/api/v1/agencies/159\",\"parent_id\":492,\"slug\":\"federal-aviation-administration\"}],\"agency_letters\":[],\"agency_names\":[\"Federal Aviation Administ",
+   "kind": "page-change",
+   "source": "Federal Register \u2014 public inspection (HHS/CDC), pre-publication",
+   "source_id": "us-fedreg-pubinspect-hhs",
+   "tier": 1,
+   "country": "REG",
+   "category": "advisory",
+   "segments": [
+    "city",
+    "bush"
+   ],
+   "first_seen": "2026-08-28T09:00+03:00",
+   "published": "2026-08-26",
+   "verdict": "OPEN THIS \u2014 tier-1 advisory page moved; content not auto-parsed, read it manually"
+  },
+  {
+   "score": 85.2,
+   "components": {
+    "tier": 40,
+    "category": 32,
+    "lead": 3.6,
+    "relevance": 0,
+    "freshness": 13.6,
     "page_change": -4
    },
    "keywords": [],
@@ -205,13 +272,13 @@
    "verdict": "OPEN THIS \u2014 tier-1 advisory page moved; content not auto-parsed, read it manually"
   },
   {
-   "score": 86.3,
+   "score": 80.1,
    "components": {
     "tier": 40,
     "category": 32,
     "lead": 3.6,
     "relevance": 0,
-    "freshness": 14.7,
+    "freshness": 8.5,
     "page_change": -4
    },
    "keywords": [],
@@ -237,13 +304,47 @@
    "verdict": "OPEN THIS \u2014 tier-1 advisory page moved; content not auto-parsed, read it manually"
   },
   {
-   "score": 65.4,
+   "score": 65.3,
    "components": {
     "tier": 40,
     "category": 12,
     "lead": 3.6,
     "relevance": 0,
-    "freshness": 19.8,
+    "freshness": 19.7,
+    "undated": -6,
+    "page_change": -4
+   },
+   "keywords": [],
+   "shock_terms": [],
+   "dedupe_match": null,
+   "dedupe_similarity": 0.0,
+   "id": "bfd916b4d7b6",
+   "title": "[page changed] Airlink news",
+   "url": "https://www.flyairlink.com/",
+   "summary": "Request unsuccessful. Incapsula incident ID: 1025000060696079466-419675728599122353",
+   "kind": "page-change",
+   "source": "Airlink news",
+   "source_id": "air-airlink",
+   "tier": 1,
+   "country": "REG",
+   "category": "airline",
+   "segments": [
+    "city",
+    "bush",
+    "beach"
+   ],
+   "first_seen": "2026-08-28T08:59+03:00",
+   "published": null,
+   "verdict": "OPEN THIS \u2014 tier-1 airline page moved; content not auto-parsed, read it manually"
+  },
+  {
+   "score": 59.2,
+   "components": {
+    "tier": 40,
+    "category": 12,
+    "lead": 3.6,
+    "relevance": 0,
+    "freshness": 13.6,
     "undated": -6,
     "page_change": -4
    },
@@ -271,13 +372,120 @@
    "verdict": "OPEN THIS \u2014 tier-1 airline page moved; content not auto-parsed, read it manually"
   },
   {
-   "score": 107.1,
+   "score": 111.5,
+   "components": {
+    "tier": 40,
+    "category": 9,
+    "lead": 16.8,
+    "relevance": 16,
+    "freshness": 19.7,
+    "corroborated": 10
+   },
+   "keywords": [
+    "hotel",
+    "resort",
+    "beach",
+    "signing"
+   ],
+   "shock_terms": [],
+   "dedupe_match": null,
+   "dedupe_similarity": 0.0,
+   "id": "245331f36eea",
+   "title": "Hilton Expands LXR Hotels & Resorts in Costa Rica with Marav\u00e9 Manuel Antonio Signing",
+   "url": "https://stories.hilton.com/releases/hilton-expands-lxr-hotels-resorts-in-costa-rica-marave-manuel-antonio-signing",
+   "summary": "MANUEL ANTONIO, Costa Rica and MIAMI \u2013 Hilton (NYSE: HLT) today announced the signing of Marav\u00e9 Manuel Antonio, LXR Hotels & Resorts, marking the brand\u2019s upcoming debut in Costa Rica and a significant step in Hilton\u2019s continued luxury expansion across the Caribbean and Latin America. Located on a nearly 40-acre estate of rare, titled beachfront that [\u2026] The post Hilton Expands LXR Hotels & Resorts",
+   "kind": "item",
+   "source": "Hilton stories/newsroom",
+   "source_id": "dev-hilton",
+   "tier": 1,
+   "country": "GLOBAL",
+   "category": "hotel-group",
+   "segments": [
+    "city",
+    "bush",
+    "beach"
+   ],
+   "first_seen": "2026-08-28T08:59+03:00",
+   "published": "2026-08-27",
+   "verdict": "STRONG \u2014 tier-1, upstream"
+  },
+  {
+   "score": 102.9,
+   "components": {
+    "tier": 40,
+    "category": 24,
+    "lead": 1.2,
+    "relevance": 8,
+    "freshness": 19.7,
+    "corroborated": 10
+   },
+   "keywords": [
+    "fee"
+   ],
+   "shock_terms": [],
+   "dedupe_match": null,
+   "dedupe_similarity": 0.0,
+   "id": "3cf772431b3f",
+   "title": "Ministry of Health Reviews User Experience with AI-Enabled Febrile Surveillance for VHTs.",
+   "url": "https://health.go.ug/ministry-of-health-reviews-user-experience-with-ai-enabled-febrile-surveillance-for-vhts",
+   "summary": "26th August 2026, Kampala \u2013 The Ministry of Health, in collaboration with Medic, yesterday convened a User Feedback and Synthesis Workshop on the AI-Enabled Febrile Surveillance Workflow for Village Health Teams (VHTs). The workshop brought together stakeholders to reflect on four months of implementation of a study exploring the use of Artificial Intelligence (AI) to support febrile illness surve",
+   "kind": "item",
+   "source": "Uganda Ministry of Health \u2014 news",
+   "source_id": "ug-moh-news",
+   "tier": 1,
+   "country": "UG",
+   "category": "health",
+   "segments": [
+    "city",
+    "bush"
+   ],
+   "first_seen": "2026-08-28T09:00+03:00",
+   "published": "2026-08-26",
+   "verdict": "STRONG \u2014 tier-1, upstream"
+  },
+  {
+   "score": 102.9,
+   "components": {
+    "tier": 40,
+    "category": 24,
+    "lead": 1.2,
+    "relevance": 8,
+    "freshness": 19.7,
+    "corroborated": 10
+   },
+   "keywords": [
+    "fee"
+   ],
+   "shock_terms": [],
+   "dedupe_match": null,
+   "dedupe_similarity": 0.0,
+   "id": "4f383b799f47",
+   "title": "Ministry of Health Reviews User Experience with AI-Enabled Febrile Surveillance for VHTs.",
+   "url": "https://health.go.ug/ministry-of-health-reviews-user-experience-with-ai-enabled-febrile-surveillance-for-vhts",
+   "summary": "26th August 2026, Kampala \u2013 The Ministry of Health, in collaboration with Medic, yesterday convened a User Feedback and Synthesis Workshop on the AI-Enabled Febrile Surveillance Workflow for Village Health Teams (VHTs). The workshop brought together stakeholders to reflect on four months of implementation of a study exploring the use of Artificial Intelligence (AI) to support febrile illness surve",
+   "kind": "item",
+   "source": "Uganda Ministry of Health",
+   "source_id": "ug-moh",
+   "tier": 1,
+   "country": "UG",
+   "category": "health",
+   "segments": [
+    "city",
+    "bush",
+    "beach"
+   ],
+   "first_seen": "2026-08-28T09:00+03:00",
+   "published": "2026-08-26",
+   "verdict": "STRONG \u2014 tier-1, upstream"
+  },
+  {
+   "score": 100.9,
    "components": {
     "tier": 40,
     "category": 18,
     "lead": 8.4,
     "relevance": 16,
-    "freshness": 14.7,
+    "freshness": 8.5,
     "corroborated": 10
    },
    "keywords": [
@@ -306,13 +514,52 @@
    "verdict": "STRONG \u2014 tier-1, upstream"
   },
   {
-   "score": 101.8,
+   "score": 95.7,
+   "components": {
+    "tier": 20,
+    "category": 4,
+    "lead": 0.0,
+    "relevance": 24,
+    "freshness": 19.7,
+    "corroborated": 10,
+    "shock": 18
+   },
+   "keywords": [
+    "outbreak",
+    "ebola"
+   ],
+   "shock_terms": [
+    "outbreak"
+   ],
+   "dedupe_match": null,
+   "dedupe_similarity": 0.33,
+   "id": "882886f39483",
+   "title": "Uganda receives WHO recognition for Ebola response",
+   "url": "https://www.monitor.co.ug/uganda/news/national/uganda-receives-who-recognition-for-ebola-response-5573884",
+   "summary": "WHO certifies Uganda after successful Ebola outbreak response",
+   "kind": "item",
+   "source": "Daily Monitor (Uganda)",
+   "source_id": "np-monitor-ug",
+   "tier": 2,
+   "country": "UG",
+   "category": "press",
+   "segments": [
+    "city",
+    "bush",
+    "beach"
+   ],
+   "first_seen": "2026-08-28T09:01+03:00",
+   "published": "2026-08-28",
+   "verdict": "CONSIDER"
+  },
+  {
+   "score": 95.6,
    "components": {
     "tier": 40,
     "category": 20,
     "lead": 12.0,
     "relevance": 0,
-    "freshness": 19.8,
+    "freshness": 13.6,
     "corroborated": 10
    },
    "keywords": [],
@@ -339,13 +586,13 @@
    "verdict": "STRONG \u2014 tier-1, upstream"
   },
   {
-   "score": 101.8,
+   "score": 95.6,
    "components": {
     "tier": 40,
     "category": 20,
     "lead": 12.0,
     "relevance": 0,
-    "freshness": 19.8,
+    "freshness": 13.6,
     "corroborated": 10
    },
    "keywords": [],
@@ -372,13 +619,13 @@
    "verdict": "STRONG \u2014 tier-1, upstream"
   },
   {
-   "score": 101.8,
+   "score": 95.6,
    "components": {
     "tier": 40,
     "category": 20,
     "lead": 12.0,
     "relevance": 0,
-    "freshness": 19.8,
+    "freshness": 13.6,
     "corroborated": 10
    },
    "keywords": [],
@@ -405,13 +652,13 @@
    "verdict": "STRONG \u2014 tier-1, upstream"
   },
   {
-   "score": 101.8,
+   "score": 95.6,
    "components": {
     "tier": 40,
     "category": 20,
     "lead": 12.0,
     "relevance": 0,
-    "freshness": 19.8,
+    "freshness": 13.6,
     "corroborated": 10
    },
    "keywords": [],
@@ -438,13 +685,13 @@
    "verdict": "STRONG \u2014 tier-1, upstream"
   },
   {
-   "score": 101.8,
+   "score": 95.6,
    "components": {
     "tier": 40,
     "category": 20,
     "lead": 12.0,
     "relevance": 0,
-    "freshness": 19.8,
+    "freshness": 13.6,
     "corroborated": 10
    },
    "keywords": [],
@@ -471,13 +718,13 @@
    "verdict": "STRONG \u2014 tier-1, upstream"
   },
   {
-   "score": 101.8,
+   "score": 95.6,
    "components": {
     "tier": 40,
     "category": 20,
     "lead": 12.0,
     "relevance": 0,
-    "freshness": 19.8,
+    "freshness": 13.6,
     "corroborated": 10
    },
    "keywords": [],
@@ -504,13 +751,13 @@
    "verdict": "STRONG \u2014 tier-1, upstream"
   },
   {
-   "score": 101.8,
+   "score": 95.6,
    "components": {
     "tier": 40,
     "category": 20,
     "lead": 12.0,
     "relevance": 0,
-    "freshness": 19.8,
+    "freshness": 13.6,
     "corroborated": 10
    },
    "keywords": [],
@@ -537,13 +784,13 @@
    "verdict": "STRONG \u2014 tier-1, upstream"
   },
   {
-   "score": 101.8,
+   "score": 95.6,
    "components": {
     "tier": 40,
     "category": 20,
     "lead": 12.0,
     "relevance": 0,
-    "freshness": 19.8,
+    "freshness": 13.6,
     "corroborated": 10
    },
    "keywords": [],
@@ -570,13 +817,13 @@
    "verdict": "STRONG \u2014 tier-1, upstream"
   },
   {
-   "score": 101.8,
+   "score": 95.6,
    "components": {
     "tier": 40,
     "category": 20,
     "lead": 12.0,
     "relevance": 0,
-    "freshness": 19.8,
+    "freshness": 13.6,
     "corroborated": 10
    },
    "keywords": [],
@@ -603,13 +850,13 @@
    "verdict": "STRONG \u2014 tier-1, upstream"
   },
   {
-   "score": 101.8,
+   "score": 95.6,
    "components": {
     "tier": 40,
     "category": 20,
     "lead": 12.0,
     "relevance": 0,
-    "freshness": 19.8,
+    "freshness": 13.6,
     "corroborated": 10
    },
    "keywords": [],
@@ -636,13 +883,13 @@
    "verdict": "STRONG \u2014 tier-1, upstream"
   },
   {
-   "score": 101.8,
+   "score": 95.6,
    "components": {
     "tier": 40,
     "category": 20,
     "lead": 12.0,
     "relevance": 0,
-    "freshness": 19.8,
+    "freshness": 13.6,
     "corroborated": 10
    },
    "keywords": [],
@@ -669,13 +916,13 @@
    "verdict": "STRONG \u2014 tier-1, upstream"
   },
   {
-   "score": 101.8,
+   "score": 95.6,
    "components": {
     "tier": 40,
     "category": 20,
     "lead": 12.0,
     "relevance": 0,
-    "freshness": 19.8,
+    "freshness": 13.6,
     "corroborated": 10
    },
    "keywords": [],
@@ -702,13 +949,13 @@
    "verdict": "STRONG \u2014 tier-1, upstream"
   },
   {
-   "score": 101.8,
+   "score": 95.6,
    "components": {
     "tier": 40,
     "category": 20,
     "lead": 12.0,
     "relevance": 0,
-    "freshness": 19.8,
+    "freshness": 13.6,
     "corroborated": 10
    },
    "keywords": [],
@@ -735,13 +982,13 @@
    "verdict": "STRONG \u2014 tier-1, upstream"
   },
   {
-   "score": 101.8,
+   "score": 95.6,
    "components": {
     "tier": 40,
     "category": 20,
     "lead": 12.0,
     "relevance": 0,
-    "freshness": 19.8,
+    "freshness": 13.6,
     "corroborated": 10
    },
    "keywords": [],
@@ -768,13 +1015,13 @@
    "verdict": "STRONG \u2014 tier-1, upstream"
   },
   {
-   "score": 101.8,
+   "score": 95.6,
    "components": {
     "tier": 40,
     "category": 20,
     "lead": 12.0,
     "relevance": 0,
-    "freshness": 19.8,
+    "freshness": 13.6,
     "corroborated": 10
    },
    "keywords": [],
@@ -801,13 +1048,13 @@
    "verdict": "STRONG \u2014 tier-1, upstream"
   },
   {
-   "score": 101.8,
+   "score": 95.6,
    "components": {
     "tier": 40,
     "category": 20,
     "lead": 12.0,
     "relevance": 0,
-    "freshness": 19.8,
+    "freshness": 13.6,
     "corroborated": 10
    },
    "keywords": [],
@@ -834,13 +1081,13 @@
    "verdict": "STRONG \u2014 tier-1, upstream"
   },
   {
-   "score": 101.8,
+   "score": 95.6,
    "components": {
     "tier": 40,
     "category": 20,
     "lead": 12.0,
     "relevance": 0,
-    "freshness": 19.8,
+    "freshness": 13.6,
     "corroborated": 10
    },
    "keywords": [],
@@ -867,13 +1114,13 @@
    "verdict": "STRONG \u2014 tier-1, upstream"
   },
   {
-   "score": 101.8,
+   "score": 95.6,
    "components": {
     "tier": 40,
     "category": 20,
     "lead": 12.0,
     "relevance": 0,
-    "freshness": 19.8,
+    "freshness": 13.6,
     "corroborated": 10
    },
    "keywords": [],
@@ -900,13 +1147,13 @@
    "verdict": "STRONG \u2014 tier-1, upstream"
   },
   {
-   "score": 97.9,
+   "score": 91.7,
    "components": {
     "tier": 40,
     "category": 32,
     "lead": 1.2,
     "relevance": 16,
-    "freshness": 14.7,
+    "freshness": 8.5,
     "undated": -6
    },
    "keywords": [
@@ -936,13 +1183,13 @@
    "verdict": "STRONG \u2014 tier-1, upstream"
   },
   {
-   "score": 95.7,
+   "score": 89.5,
    "components": {
     "tier": 40,
     "category": 17,
     "lead": 6.0,
     "relevance": 8,
-    "freshness": 14.7,
+    "freshness": 8.5,
     "corroborated": 10
    },
    "keywords": [
@@ -969,16 +1216,16 @@
    ],
    "first_seen": "2026-08-27T22:52+03:00",
    "published": "2026-08-27",
-   "verdict": "STRONG \u2014 tier-1, upstream"
+   "verdict": "CONSIDER"
   },
   {
-   "score": 95.1,
+   "score": 88.9,
    "components": {
     "tier": 20,
     "category": 14,
     "lead": 8.4,
     "relevance": 28,
-    "freshness": 14.7,
+    "freshness": 8.5,
     "corroborated": 10
    },
    "keywords": [
@@ -1009,13 +1256,48 @@
    "verdict": "CONSIDER"
   },
   {
-   "score": 93.9,
+   "score": 88.5,
+   "components": {
+    "tier": 40,
+    "category": 10,
+    "lead": 16.8,
+    "relevance": 8,
+    "freshness": 19.7,
+    "undated": -6
+   },
+   "keywords": [
+    "flood"
+   ],
+   "shock_terms": [],
+   "dedupe_match": null,
+   "dedupe_similarity": 0.0,
+   "id": "5e8cf023c52c",
+   "title": "Conflicting lists delay compensation for Nakivubo flood victims Thursday, 27 August 2026",
+   "url": "https://www.parliament.go.ug/news/4587/conflicting-lists-delay-compensation-nakivubo-flood-victims",
+   "summary": "",
+   "kind": "item",
+   "source": "Parliament of Uganda",
+   "source_id": "ug-parliament",
+   "tier": 1,
+   "country": "UG",
+   "category": "legislature",
+   "segments": [
+    "city",
+    "bush",
+    "beach"
+   ],
+   "first_seen": "2026-08-28T08:59+03:00",
+   "published": null,
+   "verdict": "CONSIDER"
+  },
+  {
+   "score": 87.7,
    "components": {
     "tier": 40,
     "category": 32,
     "lead": 1.2,
     "relevance": 12,
-    "freshness": 14.7,
+    "freshness": 8.5,
     "undated": -6
    },
    "keywords": [
@@ -1041,16 +1323,16 @@
    ],
    "first_seen": "2026-08-27T22:52+03:00",
    "published": null,
-   "verdict": "STRONG \u2014 tier-1, upstream"
+   "verdict": "CONSIDER"
   },
   {
-   "score": 92.2,
+   "score": 86.0,
    "components": {
     "tier": 20,
     "category": 14,
     "lead": 8.4,
     "relevance": 20,
-    "freshness": 19.8,
+    "freshness": 13.6,
     "corroborated": 10
    },
    "keywords": [
@@ -1081,13 +1363,13 @@
    "verdict": "CONSIDER"
   },
   {
-   "score": 91.8,
+   "score": 85.6,
    "components": {
     "tier": 40,
     "category": 20,
     "lead": 12.0,
     "relevance": 0,
-    "freshness": 19.8
+    "freshness": 13.6
    },
    "keywords": [],
    "shock_terms": [],
@@ -1110,282 +1392,6 @@
    ],
    "first_seen": "2026-08-28T03:28+03:00",
    "published": "2026-08-26",
-   "verdict": "STRONG \u2014 tier-1, upstream"
-  },
-  {
-   "score": 91.8,
-   "components": {
-    "tier": 40,
-    "category": 20,
-    "lead": 12.0,
-    "relevance": 0,
-    "freshness": 19.8
-   },
-   "keywords": [],
-   "shock_terms": [],
-   "dedupe_match": null,
-   "dedupe_similarity": 0.0,
-   "id": "39ee900cfb75",
-   "title": "Koech v Mara Multi Farming (Civil Suit 333 of 2015) [2026] KEMC 800 (KLR) (26 August 2026) (Judgment)",
-   "url": "https://new.kenyalaw.org/akn/ke/judgment/kemc/2026/800/eng@2026-08-26",
-   "summary": "Koech v Mara Multi Farming (Civil Suit 333 of 2015) [2026] KEMC 800 (KLR) (26 August 2026) (Judgment)",
-   "kind": "item",
-   "source": "Kenya Gazette (Kenya Law)",
-   "source_id": "ke-gazette",
-   "tier": 1,
-   "country": "KE",
-   "category": "gazette",
-   "segments": [
-    "city",
-    "bush",
-    "beach"
-   ],
-   "first_seen": "2026-08-28T03:28+03:00",
-   "published": "2026-08-26",
-   "verdict": "STRONG \u2014 tier-1, upstream"
-  },
-  {
-   "score": 91.8,
-   "components": {
-    "tier": 40,
-    "category": 20,
-    "lead": 12.0,
-    "relevance": 0,
-    "freshness": 19.8
-   },
-   "keywords": [],
-   "shock_terms": [],
-   "dedupe_match": null,
-   "dedupe_similarity": 0.0,
-   "id": "ec17c9285ab3",
-   "title": "Jackson v County Government of Nakuru (Civil Suit E866 of 2025) [2026] KEMC 799 (KLR) (26 August 2026) (Judgment)",
-   "url": "https://new.kenyalaw.org/akn/ke/judgment/kemc/2026/799/eng@2026-08-26",
-   "summary": "Jackson v County Government of Nakuru (Civil Suit E866 of 2025) [2026] KEMC 799 (KLR) (26 August 2026) (Judgment)",
-   "kind": "item",
-   "source": "Kenya Gazette (Kenya Law)",
-   "source_id": "ke-gazette",
-   "tier": 1,
-   "country": "KE",
-   "category": "gazette",
-   "segments": [
-    "city",
-    "bush",
-    "beach"
-   ],
-   "first_seen": "2026-08-28T03:28+03:00",
-   "published": "2026-08-26",
-   "verdict": "STRONG \u2014 tier-1, upstream"
-  },
-  {
-   "score": 91.8,
-   "components": {
-    "tier": 40,
-    "category": 20,
-    "lead": 12.0,
-    "relevance": 0,
-    "freshness": 19.8
-   },
-   "keywords": [],
-   "shock_terms": [],
-   "dedupe_match": null,
-   "dedupe_similarity": 0.0,
-   "id": "eedb63bf73ed",
-   "title": "Wang\u2019ombe v Njoroge & another (Civil Case E10171 of 2021) [2026] KEHC 13118 (KLR) (26 August 2026) (Judgment)",
-   "url": "https://new.kenyalaw.org/akn/ke/judgment/kehc/2026/13118/eng@2026-08-26",
-   "summary": "Wang\u2019ombe v Njoroge & another (Civil Case E10171 of 2021) [2026] KEHC 13118 (KLR) (26 August 2026) (Judgment)",
-   "kind": "item",
-   "source": "Kenya Gazette (Kenya Law)",
-   "source_id": "ke-gazette",
-   "tier": 1,
-   "country": "KE",
-   "category": "gazette",
-   "segments": [
-    "city",
-    "bush",
-    "beach"
-   ],
-   "first_seen": "2026-08-28T03:28+03:00",
-   "published": "2026-08-26",
-   "verdict": "STRONG \u2014 tier-1, upstream"
-  },
-  {
-   "score": 88.2,
-   "components": {
-    "tier": 20,
-    "category": 14,
-    "lead": 8.4,
-    "relevance": 16,
-    "freshness": 19.8,
-    "corroborated": 10
-   },
-   "keywords": [
-    "route",
-    "airline",
-    "flight"
-   ],
-   "shock_terms": [],
-   "dedupe_match": null,
-   "dedupe_similarity": 0.25,
-   "id": "f783049271e2",
-   "title": "Etihad NW26 Zanzibar Service Increases",
-   "url": "https://www.aeroroutes.com/eng/260827-eynw26znz",
-   "summary": "Published at 1500PDT / 2200GMT 27AUG26 Etihad Airways during Northern winter 2026/27 season plans to increase Abu Dhabi \u2013 Zanzibar route, currently scheduled 4 times weekly. From 25OCT26, the airline will increase overall service to 1 daily, with 2nd daily flight scheduled from 01DEC26. Airbus A320ceo/320neo aircraft to serve this route. EY791 AUH0850 \u2013 1335ZNZ 32N D EY793 AUH2115 \u2013 0200+1ZNZ 32A ",
-   "kind": "item",
-   "source": "AeroRoutes schedule filings",
-   "source_id": "aeroroutes",
-   "tier": 2,
-   "country": "GLOBAL",
-   "category": "aviation-tracker",
-   "segments": [
-    "city",
-    "bush",
-    "beach"
-   ],
-   "first_seen": "2026-08-28T03:28+03:00",
-   "published": "2026-08-28",
-   "verdict": "CONSIDER"
-  },
-  {
-   "score": 88.2,
-   "components": {
-    "tier": 20,
-    "category": 14,
-    "lead": 8.4,
-    "relevance": 16,
-    "freshness": 19.8,
-    "corroborated": 10
-   },
-   "keywords": [
-    "route",
-    "airline",
-    "flight"
-   ],
-   "shock_terms": [],
-   "dedupe_match": null,
-   "dedupe_similarity": 0.0,
-   "id": "a14429091f08",
-   "title": "Batik Air Malaysia Adds Penang \u2013 Batam From Oct 2026",
-   "url": "https://www.aeroroutes.com/eng/260827-odnw26bth",
-   "summary": "Published at 1300PDT / 2000GMT 27AUG26 Batik Air Malaysia in the fourth quarter of 2026 schedules new route to Indonesia. From 18OCT26, the airline to operate 4 weekly Penang \u2013 Batam flights, switching to 3 weekly from 27OCT26. Boeing 737-800 aircraft operates this route. OD358 PEN1010 \u2013 1050BTH 738 246 OD359 BTH1130 \u2013 1355PEN 738 246",
-   "kind": "item",
-   "source": "AeroRoutes schedule filings",
-   "source_id": "aeroroutes",
-   "tier": 2,
-   "country": "GLOBAL",
-   "category": "aviation-tracker",
-   "segments": [
-    "city",
-    "bush",
-    "beach"
-   ],
-   "first_seen": "2026-08-28T03:28+03:00",
-   "published": "2026-08-27",
-   "verdict": "CONSIDER"
-  },
-  {
-   "score": 87.6,
-   "components": {
-    "tier": 40,
-    "category": 9,
-    "lead": 16.8,
-    "relevance": 8,
-    "freshness": 19.8,
-    "undated": -6
-   },
-   "keywords": [
-    "airport"
-   ],
-   "shock_terms": [],
-   "dedupe_match": null,
-   "dedupe_similarity": 0.0,
-   "id": "4ccb167cb2a6",
-   "title": "Holiday Inn by IHG Opens First New-Build Featuring Reimagined Lobby Design Near Denver Airport",
-   "url": "https://www.ihgplc.com/en/news-and-media/news-releases/2026/holiday-inn-by-ihg-opens-first-new-build-featuring-reimagined-lobby-design-near-denver-airport",
-   "summary": "",
-   "kind": "item",
-   "source": "IHG news",
-   "source_id": "dev-ihg",
-   "tier": 1,
-   "country": "GLOBAL",
-   "category": "hotel-group",
-   "segments": [
-    "city",
-    "bush",
-    "beach"
-   ],
-   "first_seen": "2026-08-28T03:27+03:00",
-   "published": null,
-   "verdict": "CONSIDER"
-  },
-  {
-   "score": 85.9,
-   "components": {
-    "tier": 40,
-    "category": 32,
-    "lead": 1.2,
-    "relevance": 4,
-    "freshness": 14.7,
-    "undated": -6
-   },
-   "keywords": [
-    "tourist"
-   ],
-   "shock_terms": [],
-   "dedupe_match": null,
-   "dedupe_similarity": 0.25,
-   "id": "47bc9c78a14c",
-   "title": "Sint Maarten - Level 1: Exercise Normal Precautions",
-   "url": "https://travel.state.gov/content/tsg_aem/us/en/home/international-travel/travel-advisories/destination.sxm.html",
-   "summary": "Exercise normal precaution in Sint Maarten Sint Maarten is generally a safe destination for travelers. Petty crime is most likely to occur in popular tourist locations. Stay aware of your surroundings. Most crimes against foreigners are crimes of opportunity, such as theft of unsecured property or vehicle break-ins. Beware of overcharges and scams in tourist areas. You may encounter aggressive ven",
-   "kind": "item",
-   "source": "US State Dept travel advisories (EA feed)",
-   "source_id": "adv-us-ea",
-   "tier": 1,
-   "country": "REG",
-   "category": "advisory",
-   "segments": [
-    "city",
-    "bush",
-    "beach"
-   ],
-   "first_seen": "2026-08-27T22:52+03:00",
-   "published": null,
-   "verdict": "CONSIDER"
-  },
-  {
-   "score": 84.2,
-   "components": {
-    "tier": 20,
-    "category": 14,
-    "lead": 8.4,
-    "relevance": 12,
-    "freshness": 19.8,
-    "corroborated": 10
-   },
-   "keywords": [
-    "route",
-    "airline"
-   ],
-   "shock_terms": [],
-   "dedupe_match": null,
-   "dedupe_similarity": 0.0,
-   "id": "cdcaf8eb3c9c",
-   "title": "S7 Airlines Adds Novosibirsk \u2013 Colombo in Dec 2026",
-   "url": "https://www.aeroroutes.com/eng/260827-s7nw26cmb",
-   "summary": "Published at 1600PDT / 2300GMT 27AUG26 S7 Airlines during Northern winter 2026/27 season plans to launch service to Sri Lanka, the airline has announced. From 20DEC26, the airline to operate Novosibirsk \u2013 Colombo route twice weekly, with Airbus A320 aircraft. S75809 OVB0500 \u2013 1340CMB 320 7 S75809 OVB0515 \u2013 1340CMB 320 4 S75810 CMB1450 \u2013 0215+1OVB 320 47",
-   "kind": "item",
-   "source": "AeroRoutes schedule filings",
-   "source_id": "aeroroutes",
-   "tier": 2,
-   "country": "GLOBAL",
-   "category": "aviation-tracker",
-   "segments": [
-    "city",
-    "bush",
-    "beach"
-   ],
-   "first_seen": "2026-08-28T03:28+03:00",
-   "published": "2026-08-28",
    "verdict": "CONSIDER"
   }
  ]
