@@ -1,8 +1,8 @@
 window.LEDGER = {
- "updated": "2026-08-27 13:41",
+ "updated": "2026-08-28 12:21",
  "stats": {
-  "total": 132,
-  "open": 109,
+  "total": 135,
+  "open": 112,
   "resolved": 23,
   "correct": 17,
   "partial": 1,
@@ -808,6 +808,22 @@ window.LEDGER = {
    "resolved_date": "",
    "evidence": "",
    "source_url": "",
+   "overdue": false
+  },
+  {
+   "id": "P133",
+   "made_date": "2026-08-28",
+   "edition": "pulse-2026-08-28-midday",
+   "claim": "Zanzibar's monthly arrivals growth stays in single digits through the 2026 peak — both the July 2026 and August 2026 Zanzibar Commission for Tourism monthly releases show year-on-year growth below 10%",
+   "resolution_criteria": "Zanzibar Commission for Tourism monthly arrivals releases for July 2026 and August 2026 (as reported by TanzaniaInvest, The Citizen or Daily News TZ) each show YoY growth below 10%. Either month at or above 10% resolves incorrect",
+   "resolve_by": "2026-11-30",
+   "market": "ZNZ",
+   "segment": "Beach",
+   "confidence": "Medium",
+   "status": "open",
+   "resolved_date": "",
+   "evidence": "",
+   "source_url": "https://www.tanzaniainvest.com/tourism/zanzibar-tourist-arrivals-june-2026",
    "overdue": false
   },
   {
@@ -1688,6 +1704,38 @@ window.LEDGER = {
    "resolved_date": "",
    "evidence": "",
    "source_url": "https://searchengineland.com/google-zero-click-searches-2026-study-479717",
+   "overdue": false
+  },
+  {
+   "id": "P132",
+   "made_date": "2026-08-28",
+   "edition": "pulse-2026-08-28-midday",
+   "claim": "Zanzibar package-tourist expenditure per person per night will fall for a second consecutive year — the Bank of Tanzania 2026 International Visitors' Exit Survey will report a figure below USD 379",
+   "resolution_criteria": "BoT 2026 International Visitors' Exit Survey (bot.go.tz, expected ~July 2027) reports Zanzibar package tourist expenditure per person per night below USD 379. A figure at or above USD 379 resolves incorrect",
+   "resolve_by": "2027-09-30",
+   "market": "ZNZ",
+   "segment": "Beach",
+   "confidence": "Medium",
+   "status": "open",
+   "resolved_date": "",
+   "evidence": "",
+   "source_url": "https://www.tanzaniainvest.com/tourism/tourism-arrivals-earnings-2025",
+   "overdue": false
+  },
+  {
+   "id": "P134",
+   "made_date": "2026-08-28",
+   "edition": "pulse-2026-08-28-midday",
+   "claim": "Mainland Tanzania retains the higher spend per person per night over Zanzibar in the BoT 2026 exit survey — the 2025 crossover (USD 289 vs USD 274) is a trend, not a one-year artefact",
+   "resolution_criteria": "BoT 2026 International Visitors' Exit Survey reports mainland expenditure per person per night above the Zanzibar figure. Zanzibar above mainland resolves incorrect",
+   "resolve_by": "2027-09-30",
+   "market": "TZ|ZNZ",
+   "segment": "Beach|Bush",
+   "confidence": "Medium",
+   "status": "open",
+   "resolved_date": "",
+   "evidence": "",
+   "source_url": "https://www.tanzaniainvest.com/tourism/tourism-arrivals-earnings-2025",
    "overdue": false
   },
   {
