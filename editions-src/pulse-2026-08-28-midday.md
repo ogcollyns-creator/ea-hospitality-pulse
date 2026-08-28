@@ -4,6 +4,8 @@
 📅 Friday, 28 August 2026 | 🇹🇿🇰🇪🇷🇼
 
 Quiet news slot. So here is a number in the Bank of Tanzania's survey that nobody has read properly.
+
+⚠️ CORRECTION (added 28 Aug, 13:20 EAT) — this edition first argued Zanzibar's arrivals growth was "running out", citing June's +3.1%. That was wrong, and it was wrong when written. July 2026 set an all-time July record of 107,801 arrivals, +9.6% on July 2025 — published by the Office of the Chief Government Statistician on 14 August, a fortnight before we wrote. We built a trend on one month of a violently seasonal series and missed the release. The yield and package-mix findings below are unaffected; the volume read is corrected in place.
 ━━━━━━━━━
 1️⃣ THE MAINLAND JUST OVERTOOK ZANZIBAR ON YIELD
 
@@ -11,7 +13,7 @@ For the first time, a visitor night on mainland Tanzania is worth more than a vi
 
 The mechanism sits in the same document. Package tours took 67.2% of Zanzibar's visitors in 2025, up from 61.8% — but their share of the island's earnings fell to 59.1% from 63.6%. Zanzibar's package guests spent USD 379 a night, DOWN from USD 391. That is the only spend line in the survey that moved backwards. Independent travellers went the other way: USD 211, up 14% from USD 185.
 
-Our read, labelled as inference: the island is selling more of its inventory through intermediaries paying less for it. Arrivals growth covered that trade while it lasted. The June 2026 print — 69,605 arrivals, +3.1% year-on-year (Zanzibar Commission for Tourism, 13 July 2026) — says the cover is thinning.
+Our read, labelled as inference: the island is selling more of its inventory through intermediaries paying less for it — and record volume is what keeps the trade invisible. July 2026 was an all-time July high of 107,801 arrivals, +9.6% on July 2025 and +54.9% on June (Office of the Chief Government Statistician, via The Citizen, 14 August 2026). Record arrivals and a falling package rate are not a contradiction. They are the trade.
 
 🎯 So what: Count what share of your room-nights went through contracted allocation this year against last. Zanzibar added 5.4 points of package mix and was paid 3% less per night for it.
 🏷 Beach, Bush | 🇹🇿 Zanzibar, Tanzania (read-across: 🇰🇪 coast) | Confirmed | impact:watch
@@ -66,7 +68,7 @@ The Bank of Tanzania's 2025 International Visitors' Exit Survey, released on 13 
 
 The reason sits in the same document, and almost nobody has quoted it. Package tours took 67.2% of Zanzibar's visitors in 2025, up from 61.8%. Their share of the island's earnings fell to 59.1%, from 63.6%. Zanzibar's package guests spent USD 379 a night, down from USD 391 — the only spend line in the survey that moved backwards. Independent travellers went the other way, to USD 211 from USD 185.
 
-Read plainly, the island is selling more of its inventory through intermediaries who are paying less for it. Arrivals growth paid for that trade while it lasted. The Zanzibar Commission for Tourism's June 2026 print, +3.1% year-on-year, suggests it is running out.
+Read plainly, the island is selling more of its inventory through intermediaries who are paying less for it. And volume is what keeps that invisible: July 2026 was an all-time July record, 107,801 arrivals, +9.6% year-on-year, per the Office of the Chief Government Statistician on 14 August. Record arrivals alongside a falling package rate is not a contradiction — it is the trade itself.
 
 The question for a beach owner in Zanzibar, Diani or Watamu is not what occupancy did. It is what share of room-nights was contracted allocation this year against last, and whether the rate moved with it.
 

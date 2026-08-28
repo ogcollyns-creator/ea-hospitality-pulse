@@ -1,8 +1,8 @@
 window.LEDGER = {
- "updated": "2026-08-28 09:24",
+ "updated": "2026-08-28 12:52",
  "stats": {
   "total": 135,
-  "open": 112,
+  "open": 111,
   "resolved": 23,
   "correct": 17,
   "partial": 1,
@@ -808,22 +808,6 @@ window.LEDGER = {
    "resolved_date": "",
    "evidence": "",
    "source_url": "",
-   "overdue": false
-  },
-  {
-   "id": "P133",
-   "made_date": "2026-08-28",
-   "edition": "pulse-2026-08-28-midday",
-   "claim": "Zanzibar's monthly arrivals growth stays in single digits through the 2026 peak — both the July 2026 and August 2026 Zanzibar Commission for Tourism monthly releases show year-on-year growth below 10%",
-   "resolution_criteria": "Zanzibar Commission for Tourism monthly arrivals releases for July 2026 and August 2026 (as reported by TanzaniaInvest, The Citizen or Daily News TZ) each show YoY growth below 10%. Either month at or above 10% resolves incorrect",
-   "resolve_by": "2026-11-30",
-   "market": "ZNZ",
-   "segment": "Beach",
-   "confidence": "Medium",
-   "status": "open",
-   "resolved_date": "",
-   "evidence": "",
-   "source_url": "https://www.tanzaniainvest.com/tourism/zanzibar-tourist-arrivals-june-2026",
    "overdue": false
   },
   {
