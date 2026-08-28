@@ -1,18 +1,18 @@
 {
- "generated": "2026-08-28T18:30:57+03:00",
+ "generated": "2026-08-28T21:40:28+03:00",
  "slot": "evening",
  "window_start": 1787911200,
- "observations_in_window": 216,
+ "observations_in_window": 303,
  "deduped_against": 11,
  "candidates": [
   {
-   "score": 132.9,
+   "score": 129.5,
    "components": {
     "tier": 40,
     "category": 32,
     "lead": 1.2,
     "relevance": 28,
-    "freshness": 19.7,
+    "freshness": 16.3,
     "undated": -6,
     "shock": 18
    },
@@ -48,13 +48,13 @@
    "verdict": "LEAD CANDIDATE \u2014 tier-1 shock language"
   },
   {
-   "score": 127.3,
+   "score": 123.9,
    "components": {
     "tier": 40,
     "category": 8,
     "lead": 3.6,
     "relevance": 28,
-    "freshness": 19.7,
+    "freshness": 16.3,
     "corroborated": 10,
     "shock": 18
    },
@@ -89,13 +89,13 @@
    "verdict": "LEAD CANDIDATE \u2014 tier-1 shock language"
   },
   {
-   "score": 123.3,
+   "score": 119.9,
    "components": {
     "tier": 40,
     "category": 24,
     "lead": 3.6,
     "relevance": 24,
-    "freshness": 19.7,
+    "freshness": 16.3,
     "undated": -6,
     "shock": 18
    },
@@ -128,13 +128,13 @@
    "verdict": "LEAD CANDIDATE \u2014 tier-1 shock language"
   },
   {
-   "score": 122.1,
+   "score": 118.7,
    "components": {
     "tier": 40,
     "category": 24,
     "lead": 2.4,
     "relevance": 24,
-    "freshness": 19.7,
+    "freshness": 16.3,
     "undated": -6,
     "shock": 18
    },
@@ -166,13 +166,46 @@
    "verdict": "LEAD CANDIDATE \u2014 tier-1 shock language"
   },
   {
-   "score": 101.7,
+   "score": 101.3,
+   "components": {
+    "tier": 40,
+    "category": 32,
+    "lead": 3.6,
+    "relevance": 0,
+    "freshness": 19.7,
+    "corroborated": 10,
+    "page_change": -4
+   },
+   "keywords": [],
+   "shock_terms": [],
+   "dedupe_match": null,
+   "dedupe_similarity": 0.0,
+   "id": "cfbeb2bf31f3",
+   "title": "[page changed] Federal Register \u2014 public inspection (HHS/CDC), pre-publication",
+   "url": "https://www.federalregister.gov/api/v1/public-inspection-documents/current.json",
+   "summary": "{\"count\":122,\"results\":[{\"agencies\":[{\"raw_name\":\"National Institute of Standards and Technology\",\"name\":\"National Institute of Standards and Technology\",\"id\":352,\"url\":\"https://www.federalregister.gov/agencies/national-institute-of-standards-and-technology\",\"json_url\":\"https://www.federalregister.gov/api/v1/agencies/352\",\"parent_id\":54,\"slug\":\"national-institute-of-standards-and-technology\"}],\"ag",
+   "kind": "page-change",
+   "source": "Federal Register \u2014 public inspection (HHS/CDC), pre-publication",
+   "source_id": "us-fedreg-pubinspect-hhs",
+   "tier": 1,
+   "country": "REG",
+   "category": "advisory",
+   "segments": [
+    "city",
+    "bush"
+   ],
+   "first_seen": "2026-08-28T21:34+03:00",
+   "published": "2026-08-28",
+   "verdict": "OPEN THIS \u2014 tier-1 advisory page moved; content not auto-parsed, read it manually"
+  },
+  {
+   "score": 98.3,
    "components": {
     "tier": 40,
     "category": 32,
     "lead": 12.0,
     "relevance": 8,
-    "freshness": 19.7,
+    "freshness": 16.3,
     "undated": -6,
     "page_change": -4
    },
@@ -201,13 +234,13 @@
    "verdict": "OPEN THIS \u2014 tier-1 advisory page moved; content not auto-parsed, read it manually"
   },
   {
-   "score": 101.3,
+   "score": 97.9,
    "components": {
     "tier": 40,
     "category": 32,
     "lead": 3.6,
     "relevance": 0,
-    "freshness": 19.7,
+    "freshness": 16.3,
     "corroborated": 10,
     "page_change": -4
    },
@@ -248,6 +281,40 @@
    "shock_terms": [],
    "dedupe_match": null,
    "dedupe_similarity": 0.0,
+   "id": "5215d3b76d1d",
+   "title": "[page changed] Airlink news",
+   "url": "https://www.flyairlink.com/",
+   "summary": "Request unsuccessful. Incapsula incident ID: 1025000060792674809-410906015266046379",
+   "kind": "page-change",
+   "source": "Airlink news",
+   "source_id": "air-airlink",
+   "tier": 1,
+   "country": "REG",
+   "category": "airline",
+   "segments": [
+    "city",
+    "bush",
+    "beach"
+   ],
+   "first_seen": "2026-08-28T21:33+03:00",
+   "published": null,
+   "verdict": "OPEN THIS \u2014 tier-1 airline page moved; content not auto-parsed, read it manually"
+  },
+  {
+   "score": 61.9,
+   "components": {
+    "tier": 40,
+    "category": 12,
+    "lead": 3.6,
+    "relevance": 0,
+    "freshness": 16.3,
+    "undated": -6,
+    "page_change": -4
+   },
+   "keywords": [],
+   "shock_terms": [],
+   "dedupe_match": null,
+   "dedupe_similarity": 0.0,
    "id": "3202b604a3b4",
    "title": "[page changed] Jambojet media",
    "url": "https://www.jambojet.com/en/press-release",
@@ -268,13 +335,49 @@
    "verdict": "OPEN THIS \u2014 tier-1 airline page moved; content not auto-parsed, read it manually"
   },
   {
-   "score": 108.1,
+   "score": 107.5,
+   "components": {
+    "tier": 40,
+    "category": 9,
+    "lead": 16.8,
+    "relevance": 12,
+    "freshness": 19.7,
+    "corroborated": 10
+   },
+   "keywords": [
+    "vat",
+    "hotel"
+   ],
+   "shock_terms": [],
+   "dedupe_match": null,
+   "dedupe_similarity": 0.0,
+   "id": "9bd0407a747f",
+   "title": "A More Seamless Way to Dream, Shop and Book: New Extensions of Hilton\u2019s Industry-Leading Technology Platform are Connecting the Journey from Search to Stay",
+   "url": "https://stories.hilton.com/innovation/new-extensions-of-hiltons-industry-leading-technology-platform-connecting-the-journey-from-search-to-stay",
+   "summary": "Hilton is reimagining the path from inspiration to reservation across search, AI assistants, Hilton.com and the Hilton Honors App. As travel planning becomes more conversational, these innovations help turn a passing idea into a place to go, a hotel to choose and a stay to look forward to. The recently launched Hilton AI Planner, on both [\u2026] The post A More Seamless Way to Dream, Shop and Book: Ne",
+   "kind": "item",
+   "source": "Hilton stories/newsroom",
+   "source_id": "dev-hilton",
+   "tier": 1,
+   "country": "GLOBAL",
+   "category": "hotel-group",
+   "segments": [
+    "city",
+    "bush",
+    "beach"
+   ],
+   "first_seen": "2026-08-28T21:33+03:00",
+   "published": "2026-08-28",
+   "verdict": "STRONG \u2014 tier-1, upstream"
+  },
+  {
+   "score": 104.7,
    "components": {
     "tier": 20,
     "category": 14,
     "lead": 8.4,
     "relevance": 36,
-    "freshness": 19.7,
+    "freshness": 16.3,
     "corroborated": 10
    },
    "keywords": [
@@ -306,13 +409,13 @@
    "verdict": "CONSIDER"
   },
   {
-   "score": 107.2,
+   "score": 103.7,
    "components": {
     "tier": 20,
     "category": 5,
     "lead": 2.4,
     "relevance": 32,
-    "freshness": 19.8,
+    "freshness": 16.3,
     "corroborated": 10,
     "shock": 18
    },
@@ -348,13 +451,13 @@
    "verdict": "CONSIDER"
   },
   {
-   "score": 104.1,
+   "score": 100.7,
    "components": {
     "tier": 20,
     "category": 14,
     "lead": 8.4,
     "relevance": 32,
-    "freshness": 19.7,
+    "freshness": 16.3,
     "corroborated": 10
    },
    "keywords": [
@@ -387,13 +490,53 @@
    "verdict": "CONSIDER"
   },
   {
-   "score": 92.1,
+   "score": 99.7,
+   "components": {
+    "tier": 20,
+    "category": 4,
+    "lead": 0.0,
+    "relevance": 28,
+    "freshness": 19.7,
+    "corroborated": 10,
+    "shock": 18
+   },
+   "keywords": [
+    "outbreak",
+    "ebola",
+    "opening"
+   ],
+   "shock_terms": [
+    "outbreak"
+   ],
+   "dedupe_match": null,
+   "dedupe_similarity": 0.0,
+   "id": "1575e58ad4bb",
+   "title": "Ebola outbreak sparks concern over school reopening in DR Congo",
+   "url": "https://www.theeastafrican.co.ke/tea/sustainability/health/ebola-outbreak-sparks-concern-over-school-reopening-congo-5574682",
+   "summary": "Classes are due to resume nationwide on September 1, but in areas hit by the Ebola outbreak...",
+   "kind": "item",
+   "source": "The EastAfrican",
+   "source_id": "np-eastafrican",
+   "tier": 2,
+   "country": "REG",
+   "category": "press",
+   "segments": [
+    "city",
+    "bush",
+    "beach"
+   ],
+   "first_seen": "2026-08-28T21:34+03:00",
+   "published": "2026-08-28",
+   "verdict": "CONSIDER"
+  },
+  {
+   "score": 88.7,
    "components": {
     "tier": 20,
     "category": 14,
     "lead": 8.4,
     "relevance": 20,
-    "freshness": 19.7,
+    "freshness": 16.3,
     "corroborated": 10
    },
    "keywords": [
@@ -424,13 +567,86 @@
    "verdict": "CONSIDER"
   },
   {
-   "score": 89.2,
+   "score": 88.1,
+   "components": {
+    "tier": 20,
+    "category": 14,
+    "lead": 8.4,
+    "relevance": 16,
+    "freshness": 19.7,
+    "corroborated": 10
+   },
+   "keywords": [
+    "route",
+    "seat"
+   ],
+   "shock_terms": [],
+   "dedupe_match": null,
+   "dedupe_similarity": 0.0,
+   "id": "cf670f1b2a48",
+   "title": "ANA Extends 777-300 Schedule Listing to mid-Jan 2027",
+   "url": "https://www.aeroroutes.com/eng/260828-nhnw26773",
+   "summary": "Published at 1100PDT / 1800GMT 28AUG26 Star Alliance member ANA in the last few days filed Boeing 777-300 operations on domestic routes for Northern winter 2026/27 season. Previously listed until 24OCT26, ANA tentatively lists the 514-seater operation until 13JAN27 inclusive. Further changes to planned 777-300 remain likely. Osaka Itami \u2013 Okinawa 05NOV26, selected dates 05DEC26 \u2013 11DEC26 Tokyo Han",
+   "kind": "item",
+   "source": "AeroRoutes schedule filings",
+   "source_id": "aeroroutes",
+   "tier": 2,
+   "country": "GLOBAL",
+   "category": "aviation-tracker",
+   "segments": [
+    "city",
+    "bush",
+    "beach"
+   ],
+   "first_seen": "2026-08-28T21:34+03:00",
+   "published": "2026-08-28",
+   "verdict": "CONSIDER"
+  },
+  {
+   "score": 88.1,
+   "components": {
+    "tier": 20,
+    "category": 14,
+    "lead": 8.4,
+    "relevance": 16,
+    "freshness": 19.7,
+    "corroborated": 10
+   },
+   "keywords": [
+    "route",
+    "airline",
+    "flight"
+   ],
+   "shock_terms": [],
+   "dedupe_match": null,
+   "dedupe_similarity": 0.0,
+   "id": "7f8fabc1d887",
+   "title": "Kuwait Airways Adds Phuket in NW26",
+   "url": "https://www.aeroroutes.com/eng/260828-kunw26hkt",
+   "summary": "Published at 0900PDT / 1600GMT 28AUG26 Kuwait Airways during Northern winter 2026/27 season plans to add Kuwait City \u2013 Phuket route, on board Airbus A330-900neo aircraft. The airline currently lists 2 weekly flights from 27OCT26. KU407 KWI0330 \u2013 1455HKT 339 2 KU407 KWI0325 \u2013 1450HKT 339 6 KU408 HKT1615 \u2013 2035KWI 339 26",
+   "kind": "item",
+   "source": "AeroRoutes schedule filings",
+   "source_id": "aeroroutes",
+   "tier": 2,
+   "country": "GLOBAL",
+   "category": "aviation-tracker",
+   "segments": [
+    "city",
+    "bush",
+    "beach"
+   ],
+   "first_seen": "2026-08-28T21:34+03:00",
+   "published": "2026-08-28",
+   "verdict": "CONSIDER"
+  },
+  {
+   "score": 85.7,
    "components": {
     "tier": 20,
     "category": 5,
     "lead": 2.4,
     "relevance": 32,
-    "freshness": 19.8,
+    "freshness": 16.3,
     "corroborated": 10
    },
    "keywords": [
@@ -463,13 +679,13 @@
    "verdict": "CONSIDER"
   },
   {
-   "score": 88.1,
+   "score": 84.7,
    "components": {
     "tier": 20,
     "category": 14,
     "lead": 8.4,
     "relevance": 16,
-    "freshness": 19.7,
+    "freshness": 16.3,
     "corroborated": 10
    },
    "keywords": [
@@ -500,13 +716,13 @@
    "verdict": "CONSIDER"
   },
   {
-   "score": 88.1,
+   "score": 84.7,
    "components": {
     "tier": 20,
     "category": 14,
     "lead": 8.4,
     "relevance": 16,
-    "freshness": 19.7,
+    "freshness": 16.3,
     "corroborated": 10
    },
    "keywords": [
@@ -537,13 +753,13 @@
    "verdict": "CONSIDER"
   },
   {
-   "score": 88.1,
+   "score": 84.7,
    "components": {
     "tier": 20,
     "category": 14,
     "lead": 8.4,
     "relevance": 16,
-    "freshness": 19.7,
+    "freshness": 16.3,
     "corroborated": 10
    },
    "keywords": [
@@ -590,6 +806,42 @@
    "shock_terms": [],
    "dedupe_match": null,
    "dedupe_similarity": 0.0,
+   "id": "c6d294c01c9a",
+   "title": "Malaysia Airlines 1Q27 Osaka Aircraft Changes",
+   "url": "https://www.aeroroutes.com/eng/260828-mh1q27kix",
+   "summary": "Published at 1000PDT / 1700GMT 28AUG26 Malaysia Airlines in recent schedule update filed aircraft changes on Kuala Lumpur \u2013 Osaka Kansai route, as the carrier launches A330-900neo service on 15JAN27, replacing -300. Osaka is the carrier\u2019s Japanese destination to be served by A330neo. MH052 KUL2240 \u2013 0550+1KIX 339 D MH053 KIX0925 \u2013 1555KUL 339 D",
+   "kind": "item",
+   "source": "AeroRoutes schedule filings",
+   "source_id": "aeroroutes",
+   "tier": 2,
+   "country": "GLOBAL",
+   "category": "aviation-tracker",
+   "segments": [
+    "city",
+    "bush",
+    "beach"
+   ],
+   "first_seen": "2026-08-28T21:34+03:00",
+   "published": "2026-08-28",
+   "verdict": "CONSIDER"
+  },
+  {
+   "score": 80.7,
+   "components": {
+    "tier": 20,
+    "category": 14,
+    "lead": 8.4,
+    "relevance": 12,
+    "freshness": 16.3,
+    "corroborated": 10
+   },
+   "keywords": [
+    "route",
+    "airline"
+   ],
+   "shock_terms": [],
+   "dedupe_match": null,
+   "dedupe_similarity": 0.0,
    "id": "fb2258401668",
    "title": "Air Premia Moves Ho Chi Minh City Resumption to Dec 2026",
    "url": "https://www.aeroroutes.com/eng/260828-ypdec26sgn",
@@ -610,13 +862,250 @@
    "verdict": "CONSIDER"
   },
   {
-   "score": 82.3,
+   "score": 80.5,
+   "components": {
+    "tier": 40,
+    "category": 10,
+    "lead": 16.8,
+    "relevance": 0,
+    "freshness": 19.7,
+    "undated": -6
+   },
+   "keywords": [],
+   "shock_terms": [],
+   "dedupe_match": null,
+   "dedupe_similarity": 0.0,
+   "id": "c82e2bfc7801",
+   "title": "\ud835\udc0b\ud835\udc04\ud835\udc06\ud835\udc08\ud835\udc12\ud835\udc0b\ud835\udc00\ud835\udc13\ud835\udc0e\ud835\udc11\ud835\udc12 \ud835\udc01\ud835\udc00\ud835\udc02\ud835\udc0a \ud835\udc01\ud835\udc08\ud835\udc0b\ud835\udc0b \ud835\udc13\ud835\udc0e \ud835\udc04\ud835\udc17\ud835\udc0f\ud835\udc00\ud835\udc0d\ud835\udc03 \ud835\udc0b\ud835\udc08\ud835\udc01\ud835\udc11\ud835\udc00\ud835\udc11\ud835\udc18 \ud835\udc12\ud835\udc04\ud835\udc11\ud835\udc15\ud835\udc08\ud835\udc02\ud835\udc04\ud835\udc12 \ud835\udc0d\ud835\udc00\ud835\udc13\ud835\udc08\ud835\udc0e\ud835\udc0d\ud835\udc16\ud835\udc08\ud835\udc03\ud835\udc04",
+   "url": "https://www.parliament.go.ke/index.php/node/26344",
+   "summary": "",
+   "kind": "item",
+   "source": "Parliament of Kenya \u2014 bills & papers",
+   "source_id": "ke-parliament",
+   "tier": 1,
+   "country": "KE",
+   "category": "legislature",
+   "segments": [
+    "city",
+    "bush",
+    "beach"
+   ],
+   "first_seen": "2026-08-28T21:33+03:00",
+   "published": null,
+   "verdict": "CONSIDER"
+  },
+  {
+   "score": 80.5,
+   "components": {
+    "tier": 40,
+    "category": 10,
+    "lead": 16.8,
+    "relevance": 0,
+    "freshness": 19.7,
+    "undated": -6
+   },
+   "keywords": [],
+   "shock_terms": [],
+   "dedupe_match": null,
+   "dedupe_similarity": 0.0,
+   "id": "6a4291b829f2",
+   "title": "\ud835\udc0c\ud835\udc0f\ud835\udc12 \ud835\udc01\ud835\udc00\ud835\udc02\ud835\udc0a \ud835\udc01\ud835\udc08\ud835\udc0b\ud835\udc0b \ud835\udc13\ud835\udc0e \ud835\udc0f\ud835\udc11\ud835\udc0e\ud835\udc15\ud835\udc08\ud835\udc03\ud835\udc04 \ud835\udc12\ud835\udc13\ud835\udc00\ud835\udc13\ud835\udc04 \ud835\udc12\ud835\udc14\ud835\udc0f\ud835\udc0f\ud835\udc0e\ud835\udc11\ud835\udc13 \ud835\udc05\ud835\udc0e\ud835\udc11 \ud835\udc13\ud835\udc07\ud835\udc0e\ud835\udc14\ud835\udc12\ud835\udc00\ud835\udc0d\ud835\udc03\ud835\udc12 \ud835\udc0e\ud835\udc05 \ud835\udc0b\ud835\udc04\ud835\udc00\ud835\udc11\ud835\udc0d\ud835\udc04\ud835\udc11\ud835\udc12 \ud835\udc08\ud835\udc0d \ud835\udc08\ud835\udc0d\ud835\udc05\ud835\udc0e\ud835\udc11\ud835\udc0c\ud835\udc00\ud835\udc0b \ud835\udc12\ud835\udc02\ud835\udc07\ud835\udc0e\ud835\udc0e\ud835\udc0b\ud835\udc12",
+   "url": "https://www.parliament.go.ke/index.php/node/26343",
+   "summary": "",
+   "kind": "item",
+   "source": "Parliament of Kenya \u2014 bills & papers",
+   "source_id": "ke-parliament",
+   "tier": 1,
+   "country": "KE",
+   "category": "legislature",
+   "segments": [
+    "city",
+    "bush",
+    "beach"
+   ],
+   "first_seen": "2026-08-28T21:33+03:00",
+   "published": null,
+   "verdict": "CONSIDER"
+  },
+  {
+   "score": 80.5,
+   "components": {
+    "tier": 40,
+    "category": 10,
+    "lead": 16.8,
+    "relevance": 0,
+    "freshness": 19.7,
+    "undated": -6
+   },
+   "keywords": [],
+   "shock_terms": [],
+   "dedupe_match": null,
+   "dedupe_similarity": 0.0,
+   "id": "e083661d051e",
+   "title": "\ud835\udc07\ud835\udc0e\ud835\udc14\ud835\udc12\ud835\udc04 \ud835\udc0f\ud835\udc00\ud835\udc12\ud835\udc12\ud835\udc04\ud835\udc12 \ud835\udc0f\ud835\udc14\ud835\udc01\ud835\udc0b\ud835\udc08\ud835\udc02 \ud835\udc05\ud835\udc08\ud835\udc0d\ud835\udc00\ud835\udc0d\ud835\udc02\ud835\udc04 \ud835\udc00\ud835\udc0c\ud835\udc04\ud835\udc0d\ud835\udc03\ud835\udc0c\ud835\udc04\ud835\udc0d\ud835\udc13 \ud835\udc01\ud835\udc08\ud835\udc0b\ud835\udc0b \ud835\udc13\ud835\udc0e \ud835\udc12\ud835\udc13\ud835\udc11\ud835\udc04\ud835\udc00\ud835\udc0c\ud835\udc0b\ud835\udc08\ud835\udc0d\ud835\udc04 \ud835\udc02\ud835\udc0e\ud835\udc14\ud835\udc0d\ud835\udc13\ud835\udc18 \ud835\udc05\ud835\udc14\ud835\udc0d\ud835\udc03\ud835\udc12 \ud835\udc00\ud835\udc0d\ud835\udc03 \ud835\udc04\ud835\udc0b\ud835\udc08\ud835\udc0c\ud835\udc08\ud835\udc0d\ud835\udc00\ud835\udc13\ud835\udc04 \ud835\udc05\ud835\udc08\ud835\udc12\ud835\udc02\ud835\udc00\ud835\udc0b \ud835\udc03\ud835\udc14\ud835\udc0f\ud835\udc0b\ud835\udc08\ud835\udc02\ud835\udc00\ud835\udc13\ud835\udc08\ud835\udc0e\ud835\udc0d",
+   "url": "https://www.parliament.go.ke/index.php/node/26341",
+   "summary": "",
+   "kind": "item",
+   "source": "Parliament of Kenya \u2014 bills & papers",
+   "source_id": "ke-parliament",
+   "tier": 1,
+   "country": "KE",
+   "category": "legislature",
+   "segments": [
+    "city",
+    "bush",
+    "beach"
+   ],
+   "first_seen": "2026-08-28T21:33+03:00",
+   "published": null,
+   "verdict": "CONSIDER"
+  },
+  {
+   "score": 80.5,
+   "components": {
+    "tier": 40,
+    "category": 10,
+    "lead": 16.8,
+    "relevance": 0,
+    "freshness": 19.7,
+    "undated": -6
+   },
+   "keywords": [],
+   "shock_terms": [],
+   "dedupe_match": null,
+   "dedupe_similarity": 0.0,
+   "id": "f8524dff8b16",
+   "title": "\ud835\udc12\ud835\udc04\ud835\udc0d\ud835\udc00\ud835\udc13\ud835\udc04 \ud835\udc02\ud835\udc07\ud835\udc00\ud835\udc0b\ud835\udc0b\ud835\udc04\ud835\udc0d\ud835\udc06\ud835\udc04\ud835\udc12 \ud835\udc12\ud835\udc08\ud835\udc00\ud835\udc18\ud835\udc00 \ud835\udc0e\ud835\udc15\ud835\udc04\ud835\udc11 \ud835\udc07\ud835\udc0e\ud835\udc12\ud835\udc0f\ud835\udc08\ud835\udc13\ud835\udc00\ud835\udc0b \ud835\udc00\ud835\udc12\ud835\udc12\ud835\udc04\ud835\udc13\ud835\udc12, \ud835\udc13\ud835\udc08\ud835\udc13\ud835\udc0b\ud835\udc04\ud835\udc12 \ud835\udc00\ud835\udc0d\ud835\udc03 \ud835\udc07\ud835\udc04\ud835\udc00\ud835\udc0b\ud835\udc13\ud835\udc07 \ud835\udc0b\ud835\udc00\ud835\udc16 \ud835\udc02\ud835\udc0e\ud835\udc0c\ud835\udc0f\ud835\udc0b\ud835\udc08\ud835\udc00\ud835\udc0d\ud835\udc02\ud835\udc04",
+   "url": "https://www.parliament.go.ke/index.php/node/26340",
+   "summary": "",
+   "kind": "item",
+   "source": "Parliament of Kenya \u2014 bills & papers",
+   "source_id": "ke-parliament",
+   "tier": 1,
+   "country": "KE",
+   "category": "legislature",
+   "segments": [
+    "city",
+    "bush",
+    "beach"
+   ],
+   "first_seen": "2026-08-28T21:33+03:00",
+   "published": null,
+   "verdict": "CONSIDER"
+  },
+  {
+   "score": 80.5,
+   "components": {
+    "tier": 40,
+    "category": 10,
+    "lead": 16.8,
+    "relevance": 0,
+    "freshness": 19.7,
+    "undated": -6
+   },
+   "keywords": [],
+   "shock_terms": [],
+   "dedupe_match": null,
+   "dedupe_similarity": 0.0,
+   "id": "845d749004cd",
+   "title": "\ud835\udc0b\ud835\udc00\ud835\udc16\ud835\udc0c\ud835\udc00\ud835\udc0a\ud835\udc04\ud835\udc11\ud835\udc12 \ud835\udc0f\ud835\udc14\ud835\udc12\ud835\udc07 \ud835\udc13\ud835\udc11\ud835\udc04\ud835\udc00\ud835\udc12\ud835\udc14\ud835\udc11\ud835\udc18 \ud835\udc13\ud835\udc0e \ud835\udc12\ud835\udc0f\ud835\udc04\ud835\udc04\ud835\udc03 \ud835\udc14\ud835\udc0f \ud835\udc04\ud835\udc10\ud835\udc14\ud835\udc00\ud835\udc0b\ud835\udc08\ud835\udc12\ud835\udc00\ud835\udc13\ud835\udc08\ud835\udc0e\ud835\udc0d \ud835\udc05\ud835\udc14\ud835\udc0d\ud835\udc03 \ud835\udc03\ud835\udc08\ud835\udc12\ud835\udc01\ud835\udc14\ud835\udc11\ud835\udc12\ud835\udc04\ud835\udc0c\ud835\udc04\ud835\udc0d\ud835\udc13",
+   "url": "https://www.parliament.go.ke/index.php/node/26339",
+   "summary": "",
+   "kind": "item",
+   "source": "Parliament of Kenya \u2014 bills & papers",
+   "source_id": "ke-parliament",
+   "tier": 1,
+   "country": "KE",
+   "category": "legislature",
+   "segments": [
+    "city",
+    "bush",
+    "beach"
+   ],
+   "first_seen": "2026-08-28T21:33+03:00",
+   "published": null,
+   "verdict": "CONSIDER"
+  },
+  {
+   "score": 80.5,
+   "components": {
+    "tier": 40,
+    "category": 10,
+    "lead": 16.8,
+    "relevance": 0,
+    "freshness": 19.7,
+    "undated": -6
+   },
+   "keywords": [],
+   "shock_terms": [],
+   "dedupe_match": null,
+   "dedupe_similarity": 0.0,
+   "id": "d05d8fec6657",
+   "title": "\ud835\udc0d\ud835\udc00\ud835\udc13\ud835\udc08\ud835\udc0e\ud835\udc0d\ud835\udc00\ud835\udc0b \ud835\udc00\ud835\udc12\ud835\udc12\ud835\udc04\ud835\udc0c\ud835\udc01\ud835\udc0b\ud835\udc18 \ud835\udc0f\ud835\udc00\ud835\udc12\ud835\udc12\ud835\udc04\ud835\udc12 \ud835\udc01\ud835\udc08\ud835\udc0b\ud835\udc0b \ud835\udc13\ud835\udc0e \ud835\udc12\ud835\udc13\ud835\udc11\ud835\udc04\ud835\udc0d\ud835\udc06\ud835\udc13\ud835\udc07\ud835\udc04\ud835\udc0d \ud835\udc00\ud835\udc15\ud835\udc08\ud835\udc00\ud835\udc13\ud835\udc08\ud835\udc0e\ud835\udc0d \ud835\udc12\ud835\udc00\ud835\udc05\ud835\udc04\ud835\udc13\ud835\udc18 \ud835\udc00\ud835\udc0d\ud835\udc03 \ud835\udc13\ud835\udc0e\ud835\udc14\ud835\udc11\ud835\udc08\ud835\udc12\ud835\udc0c",
+   "url": "https://www.parliament.go.ke/index.php/node/26338",
+   "summary": "",
+   "kind": "item",
+   "source": "Parliament of Kenya \u2014 bills & papers",
+   "source_id": "ke-parliament",
+   "tier": 1,
+   "country": "KE",
+   "category": "legislature",
+   "segments": [
+    "city",
+    "bush",
+    "beach"
+   ],
+   "first_seen": "2026-08-28T21:33+03:00",
+   "published": null,
+   "verdict": "CONSIDER"
+  },
+  {
+   "score": 79.7,
+   "components": {
+    "tier": 20,
+    "category": 4,
+    "lead": 0.0,
+    "relevance": 24,
+    "freshness": 19.7,
+    "undated": -6,
+    "shock": 18
+   },
+   "keywords": [
+    "outbreak",
+    "ebola"
+   ],
+   "shock_terms": [
+    "outbreak"
+   ],
+   "dedupe_match": null,
+   "dedupe_similarity": 0.0,
+   "id": "e6e24024d7fb",
+   "title": "Africa DR Congo begins Ebola vaccinations as outbreak death toll nears 2,800 8 hours ago - 3 min read",
+   "url": "https://www.thecitizen.co.tz/tanzania/news/africa/dr-congo-begins-ebola-vaccinations-as-outbreak-death-toll-nears-2-800-5574256",
+   "summary": "",
+   "kind": "item",
+   "source": "The Citizen (Tanzania)",
+   "source_id": "np-citizen-tz",
+   "tier": 2,
+   "country": "TZ",
+   "category": "press",
+   "segments": [
+    "city",
+    "bush",
+    "beach"
+   ],
+   "first_seen": "2026-08-28T21:34+03:00",
+   "published": null,
+   "verdict": "CONSIDER"
+  },
+  {
+   "score": 78.9,
    "components": {
     "tier": 20,
     "category": 5,
     "lead": 3.6,
     "relevance": 24,
-    "freshness": 19.7,
+    "freshness": 16.3,
     "corroborated": 10
    },
    "keywords": [
@@ -649,13 +1138,13 @@
    "verdict": "CONSIDER"
   },
   {
-   "score": 81.3,
+   "score": 77.9,
    "components": {
     "tier": 40,
     "category": 24,
     "lead": 3.6,
     "relevance": 0,
-    "freshness": 19.7,
+    "freshness": 16.3,
     "undated": -6
    },
    "keywords": [],
@@ -682,13 +1171,13 @@
    "verdict": "CONSIDER"
   },
   {
-   "score": 80.1,
+   "score": 76.7,
    "components": {
     "tier": 20,
     "category": 14,
     "lead": 8.4,
     "relevance": 8,
-    "freshness": 19.7,
+    "freshness": 16.3,
     "corroborated": 10
    },
    "keywords": [
@@ -718,13 +1207,13 @@
    "verdict": "CONSIDER"
   },
   {
-   "score": 80.1,
+   "score": 76.7,
    "components": {
     "tier": 40,
     "category": 24,
     "lead": 2.4,
     "relevance": 0,
-    "freshness": 19.7,
+    "freshness": 16.3,
     "undated": -6
    },
    "keywords": [],
@@ -751,13 +1240,13 @@
    "verdict": "CONSIDER"
   },
   {
-   "score": 80.1,
+   "score": 76.7,
    "components": {
     "tier": 40,
     "category": 24,
     "lead": 2.4,
     "relevance": 0,
-    "freshness": 19.7,
+    "freshness": 16.3,
     "undated": -6
    },
    "keywords": [],
@@ -784,13 +1273,13 @@
    "verdict": "CONSIDER"
   },
   {
-   "score": 80.1,
+   "score": 76.7,
    "components": {
     "tier": 40,
     "category": 24,
     "lead": 2.4,
     "relevance": 0,
-    "freshness": 19.7,
+    "freshness": 16.3,
     "undated": -6
    },
    "keywords": [],
@@ -817,13 +1306,13 @@
    "verdict": "CONSIDER"
   },
   {
-   "score": 80.1,
+   "score": 76.7,
    "components": {
     "tier": 40,
     "category": 24,
     "lead": 2.4,
     "relevance": 0,
-    "freshness": 19.7,
+    "freshness": 16.3,
     "undated": -6
    },
    "keywords": [],
@@ -850,13 +1339,13 @@
    "verdict": "CONSIDER"
   },
   {
-   "score": 80.1,
+   "score": 76.7,
    "components": {
     "tier": 40,
     "category": 24,
     "lead": 2.4,
     "relevance": 0,
-    "freshness": 19.7,
+    "freshness": 16.3,
     "undated": -6
    },
    "keywords": [],
@@ -883,13 +1372,13 @@
    "verdict": "CONSIDER"
   },
   {
-   "score": 80.1,
+   "score": 76.7,
    "components": {
     "tier": 40,
     "category": 24,
     "lead": 2.4,
     "relevance": 0,
-    "freshness": 19.7,
+    "freshness": 16.3,
     "undated": -6
    },
    "keywords": [],
@@ -916,13 +1405,13 @@
    "verdict": "CONSIDER"
   },
   {
-   "score": 80.1,
+   "score": 76.7,
    "components": {
     "tier": 40,
     "category": 24,
     "lead": 2.4,
     "relevance": 0,
-    "freshness": 19.7,
+    "freshness": 16.3,
     "undated": -6
    },
    "keywords": [],
@@ -947,503 +1436,6 @@
    "first_seen": "2026-08-28T18:27+03:00",
    "published": null,
    "verdict": "CONSIDER"
-  },
-  {
-   "score": 80.1,
-   "components": {
-    "tier": 40,
-    "category": 24,
-    "lead": 2.4,
-    "relevance": 0,
-    "freshness": 19.7,
-    "undated": -6
-   },
-   "keywords": [],
-   "shock_terms": [],
-   "dedupe_match": null,
-   "dedupe_similarity": 0.17,
-   "id": "b1f65689c612",
-   "title": "TANZANIA YALENGA KUTOKOMEZA MALARIA IFIKAPO 2030...",
-   "url": "https://www.moh.go.tz/news-single/tanzania-yalenga-kutokomeza-malaria-ifikapo-2030",
-   "summary": "",
-   "kind": "item",
-   "source": "Tanzania Ministry of Health",
-   "source_id": "tz-moh",
-   "tier": 1,
-   "country": "TZ",
-   "category": "health",
-   "segments": [
-    "city",
-    "bush",
-    "beach"
-   ],
-   "first_seen": "2026-08-28T18:27+03:00",
-   "published": null,
-   "verdict": "CONSIDER"
-  },
-  {
-   "score": 80.1,
-   "components": {
-    "tier": 40,
-    "category": 24,
-    "lead": 2.4,
-    "relevance": 0,
-    "freshness": 19.7,
-    "undated": -6
-   },
-   "keywords": [],
-   "shock_terms": [],
-   "dedupe_match": null,
-   "dedupe_similarity": 0.0,
-   "id": "51a402d023d4",
-   "title": "Kenya and US Review Progress in Health Cooperation Framework",
-   "url": "https://www.health.go.ke/kenya-and-us-review-progress-health-cooperation-framework",
-   "summary": "",
-   "kind": "item",
-   "source": "Kenya Ministry of Health",
-   "source_id": "ke-moh",
-   "tier": 1,
-   "country": "KE",
-   "category": "health",
-   "segments": [
-    "city",
-    "bush",
-    "beach"
-   ],
-   "first_seen": "2026-08-28T18:27+03:00",
-   "published": null,
-   "verdict": "CONSIDER"
-  },
-  {
-   "score": 80.1,
-   "components": {
-    "tier": 40,
-    "category": 24,
-    "lead": 2.4,
-    "relevance": 0,
-    "freshness": 19.7,
-    "undated": -6
-   },
-   "keywords": [],
-   "shock_terms": [],
-   "dedupe_match": null,
-   "dedupe_similarity": 0.0,
-   "id": "e6567fa19b29",
-   "title": "Government Steps Up Action Against Triple Threat Facing Young People",
-   "url": "https://www.health.go.ke/government-steps-action-against-triple-threat-facing-young-people",
-   "summary": "",
-   "kind": "item",
-   "source": "Kenya Ministry of Health",
-   "source_id": "ke-moh",
-   "tier": 1,
-   "country": "KE",
-   "category": "health",
-   "segments": [
-    "city",
-    "bush",
-    "beach"
-   ],
-   "first_seen": "2026-08-28T18:27+03:00",
-   "published": null,
-   "verdict": "CONSIDER"
-  },
-  {
-   "score": 79.7,
-   "components": {
-    "tier": 20,
-    "category": 4,
-    "lead": 0.0,
-    "relevance": 24,
-    "freshness": 19.7,
-    "undated": -6,
-    "shock": 18
-   },
-   "keywords": [
-    "outbreak",
-    "ebola"
-   ],
-   "shock_terms": [
-    "outbreak"
-   ],
-   "dedupe_match": null,
-   "dedupe_similarity": 0.0,
-   "id": "ef2880fc9bba",
-   "title": "Africa DR Congo begins Ebola vaccinations as outbreak death toll nears 2,800 4 hours ago - 3 min read",
-   "url": "https://www.thecitizen.co.tz/tanzania/news/africa/dr-congo-begins-ebola-vaccinations-as-outbreak-death-toll-nears-2-800-5574256",
-   "summary": "",
-   "kind": "item",
-   "source": "The Citizen (Tanzania)",
-   "source_id": "np-citizen-tz",
-   "tier": 2,
-   "country": "TZ",
-   "category": "press",
-   "segments": [
-    "city",
-    "bush",
-    "beach"
-   ],
-   "first_seen": "2026-08-28T18:28+03:00",
-   "published": null,
-   "verdict": "CONSIDER"
-  },
-  {
-   "score": 77.2,
-   "components": {
-    "tier": 20,
-    "category": 5,
-    "lead": 2.4,
-    "relevance": 20,
-    "freshness": 19.8,
-    "corroborated": 10
-   },
-   "keywords": [
-    "route",
-    "seat",
-    "flight"
-   ],
-   "shock_terms": [],
-   "dedupe_match": null,
-   "dedupe_similarity": 0.25,
-   "id": "162be4e70d41",
-   "title": "Lufthansa Brings Allegris to Nairobi, Raising the Bar for Long-Haul Travel",
-   "url": "https://katakenya.org/lufthansa-brings-allegris-to-nairobi-raising-the-bar-for-long-haul-travel",
-   "summary": "Lufthansa is ushering in a new era of long-haul travel from Nairobi with the introduction of its Allegris cabin experience on flights to Frankfurt and beyond, giving Kenyan travellers access to redesigned cabins, greater privacy and more personalised seating options. The new product, being introduced on the Nairobi-Frankfurt route from August 2026, marks one of [\u2026]",
-   "kind": "item",
-   "source": "Kenya Association of Travel Agents news",
-   "source_id": "tp-kata",
-   "tier": 2,
-   "country": "KE",
-   "category": "trade",
-   "segments": [
-    "city",
-    "bush",
-    "beach"
-   ],
-   "first_seen": "2026-08-28T18:28+03:00",
-   "published": "2026-08-28",
-   "verdict": "CONSIDER"
-  },
-  {
-   "score": 76.1,
-   "components": {
-    "tier": 20,
-    "category": 14,
-    "lead": 8.4,
-    "relevance": 4,
-    "freshness": 19.7,
-    "corroborated": 10
-   },
-   "keywords": [
-    "flight"
-   ],
-   "shock_terms": [],
-   "dedupe_match": null,
-   "dedupe_similarity": 0.0,
-   "id": "2501fce5df20",
-   "title": "LEVEL Increases Lima Service in NS27",
-   "url": "https://www.aeroroutes.com/eng/260828-llns27lim",
-   "summary": "Published at 0400PDT / 1100GMT 28AUG26 LEVEL during Northern summer 2027 season plans to increase Barcelona \u2013 Lima flight, with the addition of 4th weekly flight effective 29MAR27. The new service operates on Mondays with Airbus A330-200 aircraft. IB2611 BCN1330 \u2013 1955LIM 332 x246 IB2612 LIM2140 \u2013 1725+1BCN 332 x246",
-   "kind": "item",
-   "source": "AeroRoutes schedule filings",
-   "source_id": "aeroroutes",
-   "tier": 2,
-   "country": "GLOBAL",
-   "category": "aviation-tracker",
-   "segments": [
-    "city",
-    "bush",
-    "beach"
-   ],
-   "first_seen": "2026-08-28T18:28+03:00",
-   "published": "2026-08-28",
-   "verdict": "CONSIDER"
-  },
-  {
-   "score": 75.3,
-   "components": {
-    "tier": 40,
-    "category": 8,
-    "lead": 3.6,
-    "relevance": 4,
-    "freshness": 19.7
-   },
-   "keywords": [
-    "tourism"
-   ],
-   "shock_terms": [],
-   "dedupe_match": null,
-   "dedupe_similarity": 0.33,
-   "id": "9ca2bb328fb7",
-   "title": "UGANDA LAUNCHES \u201cRACE THE NILE,\u201d ITS FIRST-EVER 800KM GRAVEL BIKING RACE ACROSS WEST NILE",
-   "url": "https://utb.go.ug/uganda-launches-race-the-nile-its-first-ever-800km-gravel-biking-race-across-west-nile",
-   "summary": "Tourism stakeholders, cycling clubs and associations, the wider sports fraternity and media gathered for the official launch of Race the Nile, Uganda\u2019s first-ever 800km self-supported gravel biking race across the West Nile region. The five-day race will start and finish in Arua City, taking riders across the districts of West Nile on a journey that [\u2026] The post UGANDA LAUNCHES \u201cRACE THE NILE,\u201d IT",
-   "kind": "item",
-   "source": "Uganda Tourism Board",
-   "source_id": "ug-utb",
-   "tier": 1,
-   "country": "UG",
-   "category": "dmo",
-   "segments": [
-    "city",
-    "bush",
-    "beach"
-   ],
-   "first_seen": "2026-08-28T18:27+03:00",
-   "published": "2026-08-26",
-   "verdict": "CONSIDER"
-  },
-  {
-   "score": 74.3,
-   "components": {
-    "tier": 20,
-    "category": 5,
-    "lead": 3.6,
-    "relevance": 16,
-    "freshness": 19.7,
-    "corroborated": 10
-   },
-   "keywords": [
-    "revpar",
-    "hotel",
-    "franc"
-   ],
-   "shock_terms": [],
-   "dedupe_match": null,
-   "dedupe_similarity": 0.0,
-   "id": "c1494f063849",
-   "title": "U.S. hotel results for week ending 22 August",
-   "url": "https://www.hospitalitynet.org/news/4134136/us-hotel-results-for-week-ending-22-august",
-   "summary": "U.S. hotels posted their 19th straight week of positive year-over-year results for the week of 16-22 August, with RevPAR up 4.4% to $106.12; San Francisco and St. Louis led gains.",
-   "kind": "item",
-   "source": "Hospitality Net \u2014 Africa announcements",
-   "source_id": "dev-hospitalitynet-africa",
-   "tier": 2,
-   "country": "REG",
-   "category": "trade",
-   "segments": [
-    "city",
-    "bush",
-    "beach"
-   ],
-   "first_seen": "2026-08-28T18:28+03:00",
-   "published": "2026-08-28",
-   "verdict": "CONSIDER"
-  },
-  {
-   "score": 73.8,
-   "components": {
-    "tier": 20,
-    "category": 4,
-    "lead": 0.0,
-    "relevance": 20,
-    "freshness": 19.8,
-    "corroborated": 10
-   },
-   "keywords": [
-    "advisory",
-    "eta"
-   ],
-   "shock_terms": [],
-   "dedupe_match": null,
-   "dedupe_similarity": 0.2,
-   "id": "c584e4e22609",
-   "title": "VETA, Lindi Jumbo eye skills partnership",
-   "url": "https://dailynews.co.tz/veta-lindi-jumbo-eye-skills-partnership",
-   "summary": "LINDI: THE Vocational Education and Training Authority (VETA) and ASNL Advisory Limited have visited Lindi Jumbo Graphite Mine in Ruangwa District, Lindi Region, to identify technologies and skills required to prepare trainees for employment in the mining sector. The visit, conducted yesterday, was aimed at enabling VETA to understand the technologies used at the mine \u2026 The post VETA, Lindi Jumbo ",
-   "kind": "item",
-   "source": "Daily News (Tanzania)",
-   "source_id": "np-dailynews-tz",
-   "tier": 2,
-   "country": "TZ",
-   "category": "press",
-   "segments": [
-    "city",
-    "bush",
-    "beach"
-   ],
-   "first_seen": "2026-08-28T18:28+03:00",
-   "published": "2026-08-28",
-   "verdict": "CONSIDER"
-  },
-  {
-   "score": 73.2,
-   "components": {
-    "tier": 20,
-    "category": 5,
-    "lead": 2.4,
-    "relevance": 16,
-    "freshness": 19.8,
-    "corroborated": 10
-   },
-   "keywords": [
-    "airport",
-    "traffic",
-    "passenger"
-   ],
-   "shock_terms": [],
-   "dedupe_match": null,
-   "dedupe_similarity": 0.0,
-   "id": "3b7a7c884d56",
-   "title": "Dubai looks to stronger second half as air connectivity recovers",
-   "url": "https://katakenya.org/dubai-looks-to-stronger-second-half-as-air-connectivity-recovers",
-   "summary": "Dubai is entering the second half of 2026 with signs of recovery in air traffic, creating fresh opportunities for travel agents to rebuild demand for the destination following significant disruption to regional aviation earlier in the year. Dubai International Airport (DXB) handled 31.5 million passengers in the first six months of 2026, according to Dubai [\u2026]",
-   "kind": "item",
-   "source": "Kenya Association of Travel Agents news",
-   "source_id": "tp-kata",
-   "tier": 2,
-   "country": "KE",
-   "category": "trade",
-   "segments": [
-    "city",
-    "bush",
-    "beach"
-   ],
-   "first_seen": "2026-08-28T18:28+03:00",
-   "published": "2026-08-28",
-   "verdict": "CONSIDER"
-  },
-  {
-   "score": 70.3,
-   "components": {
-    "tier": 20,
-    "category": 5,
-    "lead": 3.6,
-    "relevance": 12,
-    "freshness": 19.7,
-    "corroborated": 10
-   },
-   "keywords": [
-    "hotel",
-    "booking",
-    "guest"
-   ],
-   "shock_terms": [],
-   "dedupe_match": null,
-   "dedupe_similarity": 0.0,
-   "id": "b756a50522d9",
-   "title": "56% of Guests Are Ready to Book\u2014Why Do 98% Abandon Your Hotel Website?",
-   "url": "https://www.hospitalitynet.org/opinion/4134083/56-of-guests-are-ready-to-bookwhy-do-98-abandon-your-hotel-website",
-   "summary": "GuestCentric's AI assistant Melissa shows 56% of engaged hotel website visitors have high booking intent, yet a 2% average conversion rate persists due to unanswered questions and checkout friction.",
-   "kind": "item",
-   "source": "Hospitality Net \u2014 Africa announcements",
-   "source_id": "dev-hospitalitynet-africa",
-   "tier": 2,
-   "country": "REG",
-   "category": "trade",
-   "segments": [
-    "city",
-    "bush",
-    "beach"
-   ],
-   "first_seen": "2026-08-28T18:28+03:00",
-   "published": "2026-08-28",
-   "verdict": "CONSIDER"
-  },
-  {
-   "score": 70.3,
-   "components": {
-    "tier": 20,
-    "category": 5,
-    "lead": 3.6,
-    "relevance": 12,
-    "freshness": 19.7,
-    "corroborated": 10
-   },
-   "keywords": [
-    "hotel",
-    "signing",
-    "guest"
-   ],
-   "shock_terms": [],
-   "dedupe_match": null,
-   "dedupe_similarity": 0.0,
-   "id": "7ff67c860a65",
-   "title": "Beyond the First Drink: Engineering the Cocktail Journey",
-   "url": "https://www.hospitalitynet.org/opinion/4134010/beyond-the-first-drink-engineering-the-cocktail-journey",
-   "summary": "A strategic framework for designing hotel cocktail menus around consumption occasions, pricing psychology, and sequencing to maximize per-guest contribution rather than per-item profit.",
-   "kind": "item",
-   "source": "Hospitality Net \u2014 Africa announcements",
-   "source_id": "dev-hospitalitynet-africa",
-   "tier": 2,
-   "country": "REG",
-   "category": "trade",
-   "segments": [
-    "city",
-    "bush",
-    "beach"
-   ],
-   "first_seen": "2026-08-28T18:28+03:00",
-   "published": "2026-08-28",
-   "verdict": "CONSIDER"
-  },
-  {
-   "score": 70.3,
-   "components": {
-    "tier": 20,
-    "category": 5,
-    "lead": 3.6,
-    "relevance": 12,
-    "freshness": 19.7,
-    "corroborated": 10
-   },
-   "keywords": [
-    "vat",
-    "guest"
-   ],
-   "shock_terms": [],
-   "dedupe_match": null,
-   "dedupe_similarity": 0.0,
-   "id": "9402a86a824c",
-   "title": "Meeting Evolving Guest Expectations: How Operational Excellence Shapes the Modern Guest Experience",
-   "url": "https://www.hospitalitynet.org/opinion/4133929/meeting-evolving-guest-expectations-how-operational-excellence-shapes-the-modern-guest-experience",
-   "summary": "The GM of Hilton Anaheim shares how a full-property renovation was used to align design, technology, and team performance, showing that operational efficiency, not aesthetics alone, drives lasting guest loyalty.",
-   "kind": "item",
-   "source": "Hospitality Net \u2014 Africa announcements",
-   "source_id": "dev-hospitalitynet-africa",
-   "tier": 2,
-   "country": "REG",
-   "category": "trade",
-   "segments": [
-    "city",
-    "bush",
-    "beach"
-   ],
-   "first_seen": "2026-08-28T18:28+03:00",
-   "published": "2026-08-28",
-   "verdict": "CONSIDER"
-  },
-  {
-   "score": 69.3,
-   "components": {
-    "tier": 40,
-    "category": 12,
-    "lead": 3.6,
-    "relevance": 0,
-    "freshness": 19.7,
-    "undated": -6
-   },
-   "keywords": [],
-   "shock_terms": [],
-   "dedupe_match": null,
-   "dedupe_similarity": 0.0,
-   "id": "fcc47d853a1d",
-   "title": "Kenya Airways Revenue Rises 9% to KShs 81 billion",
-   "url": "https://corporate.kenya-airways.com/en/news-press-release/2026/august/kenya-airways-revenue-rises",
-   "summary": "",
-   "kind": "item",
-   "source": "Kenya Airways newsroom",
-   "source_id": "air-kq",
-   "tier": 1,
-   "country": "KE",
-   "category": "airline",
-   "segments": [
-    "city",
-    "bush",
-    "beach"
-   ],
-   "first_seen": "2026-08-28T18:27+03:00",
-   "published": null,
-   "verdict": "weak"
   }
  ]
 }
