@@ -12,7 +12,7 @@ exits non-zero) with a precise reason, rather than shipping a guess.
 
 Exit code: 0 = clean (or all defects auto-fixed); 1 = a blocker remains (--strict).
 """
-import os, sys, re, json, subprocess, glob
+import os, json, sys, re, json, subprocess, glob
 
 HERE = os.path.dirname(os.path.abspath(__file__)); REPO = os.path.dirname(HERE)
 CFG  = json.load(open(os.path.join(REPO, "site_config.json")))
@@ -119,6 +119,45 @@ def changed_editions():
         return []
     return [os.path.join(REPO,f) for f in out.split() if f.startswith("editions-src/") and f.endswith(".md")]
 
+
+def sweep_coverage():
+    """Primary Source Sweep gate.
+
+    100 of 161 registered sources were dark for 7+ days on 28 Aug 2026 because the
+    crawler is blocked at the HTTP layer on government hosts. Those sources moved to
+    the agent search path (sweep/sweep_due.py). This check refuses to let an edition
+    publish while claiming coverage the sweep did not actually provide.
+
+    Returns (blockers, warns).
+    """
+    import datetime
+    base = os.path.join(REPO, "sweep")
+    tiers_p, state_p = os.path.join(base,"sweep_tiers.json"), os.path.join(base,"sweep_state.json")
+    if not os.path.exists(tiers_p):
+        return [], ["sweep not installed — sweep/sweep_tiers.json missing"]
+    try:
+        tiers = json.load(open(tiers_p, encoding="utf-8")).get("entries", [])
+        state = json.load(open(state_p, encoding="utf-8")) if os.path.exists(state_p) else {}
+    except Exception as e:
+        return [], [f"sweep files unreadable: {e}"]
+    try:
+        from zoneinfo import ZoneInfo
+        today = datetime.datetime.now(ZoneInfo("Africa/Nairobi")).date().isoformat()
+    except Exception:
+        today = datetime.date.today().isoformat()
+    tier_a = [e["id"] for e in tiers if e.get("tier") == "A"]
+    missed = [i for i in tier_a if state.get(i, {}).get("last_swept_date") != today]
+    blockers, warns = [], []
+    if missed:
+        show = ", ".join(missed[:6]) + (" …" if len(missed) > 6 else "")
+        blockers.append(f"Primary Source Sweep incomplete — {len(missed)}/{len(tier_a)} tier-A sources unchecked today ({show}). Run: python3 sweep/sweep_due.py --slot <slot>")
+    blocked_today = [i for i, v in state.items()
+                     if v.get("last_swept_date") == today and v.get("last_outcome") == "blocked"]
+    if blocked_today:
+        warns.append(f"{len(blocked_today)} source(s) unreachable today — declare as a blind spot in the edition: {', '.join(blocked_today[:5])}")
+    return blockers, warns
+
+
 def main():
     do_fix = "--fix" in sys.argv
     strict = "--strict" in sys.argv
@@ -141,6 +180,13 @@ def main():
         for x in blockers: print(f"   ⛔ blocker: {x}")
         for x in warns:    print(f"   🟡 warn:    {x}")
         any_block = any_block or bool(blockers)
+    sb, sw = sweep_coverage()
+    if sb or sw:
+        print("\n— Primary Source Sweep —")
+        for x in sb: print(f"   \u26d4 blocker: {x}")
+        for x in sw: print(f"   \U0001f7e1 warn:    {x}")
+        any_block = any_block or bool(sb)
+
     if strict and any_block:
         print("\nPUBLISH BLOCKED — fix the blockers above; nothing shipped.")
         sys.exit(1)

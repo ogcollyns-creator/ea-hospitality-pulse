@@ -1,0 +1,773 @@
+{
+ "_readme": "Primary Source Sweep tiers. These sources are unreachable by radar/fetcher.py (blocked at the HTTP layer) and are worked by the agent over the search path instead. Tier A = every run. Tier B = diarised, must-check when due or overdue. Tier C = 3-day rotation. Keep schedules in sync with calendar.js.",
+ "generated": "2026-08-28",
+ "entries": [
+  {
+   "id": "adv-uk-kenya",
+   "tier": "A",
+   "name": "UK FCDO advice \u2014 Kenya",
+   "country": "KE",
+   "query": "UK FCDO foreign travel advice Kenya latest update {MON} {YYYY}"
+  },
+  {
+   "id": "adv-uk-uganda",
+   "tier": "A",
+   "name": "UK FCDO advice \u2014 Uganda",
+   "country": "UG",
+   "query": "UK FCDO foreign travel advice Uganda latest update {MON} {YYYY}"
+  },
+  {
+   "id": "adv-uk-tanzania",
+   "tier": "A",
+   "name": "UK FCDO advice \u2014 Tanzania",
+   "country": "TZ",
+   "query": "UK FCDO foreign travel advice Tanzania latest update {MON} {YYYY}"
+  },
+  {
+   "id": "adv-uk-rwanda",
+   "tier": "A",
+   "name": "UK FCDO advice \u2014 Rwanda",
+   "country": "RW",
+   "query": "UK FCDO foreign travel advice Rwanda latest update {MON} {YYYY}"
+  },
+  {
+   "id": "adv-ca-kenya",
+   "tier": "A",
+   "name": "Canada travel advice \u2014 Kenya",
+   "country": "KE",
+   "query": "Canada travel advisory Kenya risk level update {MON} {YYYY}"
+  },
+  {
+   "id": "adv-de-kenya",
+   "tier": "A",
+   "name": "Ausw\u00e4rtiges Amt \u2014 Kenya",
+   "country": "KE",
+   "query": "Auswaertiges Amt Kenia Reise und Sicherheitshinweise {MON} {YYYY}"
+  },
+  {
+   "id": "adv-fr-kenya",
+   "tier": "A",
+   "name": "France Conseils aux voyageurs \u2014 Kenya",
+   "country": "KE",
+   "query": "France conseils aux voyageurs Kenya securite {MON} {YYYY}"
+  },
+  {
+   "id": "who-don",
+   "tier": "A",
+   "name": "WHO Disease Outbreak News",
+   "country": "GLOBAL",
+   "query": "WHO Disease Outbreak News Africa {MON} {YYYY}"
+  },
+  {
+   "id": "africacdc-outbreaks",
+   "tier": "A",
+   "name": "Africa CDC outbreak briefs",
+   "country": "REG",
+   "query": "Africa CDC Epidemic Intelligence Weekly Report {MON} {YYYY}"
+  },
+  {
+   "id": "ug-evd-dashboard",
+   "tier": "A",
+   "name": "Uganda MoH EVD daily dashboard",
+   "country": "UG",
+   "query": "Uganda Ebola outbreak situation report cases {MON} {YYYY}"
+  },
+  {
+   "id": "rw-moh",
+   "tier": "A",
+   "name": "Rwanda Ministry of Health",
+   "country": "RW",
+   "query": "Rwanda Ministry of Health outbreak statement {MON} {YYYY}"
+  },
+  {
+   "id": "zn-moh",
+   "tier": "A",
+   "name": "Zanzibar Ministry of Health",
+   "country": "ZNZ",
+   "query": "Zanzibar Ministry of Health advisory outbreak {MON} {YYYY}"
+  },
+  {
+   "id": "ke-kcaa",
+   "tier": "A",
+   "name": "KCAA \u2014 aeronautical information & circulars",
+   "country": "KE",
+   "query": "KCAA Kenya aeronautical information circular AIC {YYYY}"
+  },
+  {
+   "id": "ug-uwa",
+   "tier": "A",
+   "name": "Uganda Wildlife Authority updates",
+   "country": "UG",
+   "query": "Uganda Wildlife Authority permit tariff park fee notice {MON} {YYYY}"
+  },
+  {
+   "id": "tz-tanapa",
+   "tier": "A",
+   "name": "TANAPA",
+   "country": "TZ",
+   "query": "TANAPA Tanzania national park fees tariff notice {MON} {YYYY}"
+  },
+  {
+   "id": "tz-ncaa",
+   "tier": "A",
+   "name": "Ngorongoro Conservation Area Authority",
+   "country": "TZ",
+   "query": "Ngorongoro Conservation Area Authority fee access notice {MON} {YYYY}"
+  },
+  {
+   "id": "ke-gazettes-africa",
+   "tier": "A",
+   "name": "Kenya Gazette mirror (gazettes.africa)",
+   "country": "KE",
+   "query": "Kenya Gazette notice tourism levy licensing {MON} {YYYY}"
+  },
+  {
+   "id": "ke-epra-fuel",
+   "tier": "B",
+   "name": "EPRA maximum retail petroleum prices",
+   "country": "KE",
+   "schedule": {
+    "type": "monthly_day",
+    "day": 14,
+    "grace": 3
+   },
+   "query": "EPRA Kenya maximum retail petroleum prices {MON} {YYYY} petrol diesel kerosene"
+  },
+  {
+   "id": "ke-knbs-releases",
+   "tier": "B",
+   "name": "KNBS statistical releases",
+   "country": "KE",
+   "schedule": {
+    "type": "month_end",
+    "grace": 4
+   },
+   "query": "KNBS Kenya Consumer Price Index inflation {MON} {YYYY} statistical release"
+  },
+  {
+   "id": "ke-cbk-bulletin",
+   "tier": "B",
+   "name": "CBK weekly bulletin",
+   "country": "KE",
+   "schedule": {
+    "type": "weekly_dow",
+    "dow": 4,
+    "grace": 2
+   },
+   "query": "Central Bank of Kenya weekly bulletin {MON} {YYYY} reserves shilling"
+  },
+  {
+   "id": "zn-ocgs",
+   "tier": "B",
+   "name": "OCGS Zanzibar statistics",
+   "country": "ZNZ",
+   "schedule": {
+    "type": "monthly_day",
+    "day": 12,
+    "grace": 6
+   },
+   "query": "OCGS Zanzibar tourist arrivals statistics {MON} {YYYY} monthly"
+  },
+  {
+   "id": "rw-bnr",
+   "tier": "B",
+   "name": "National Bank of Rwanda",
+   "country": "RW",
+   "schedule": {
+    "type": "bimonthly_mpc",
+    "grace": 4
+   },
+   "query": "National Bank of Rwanda BNR central bank rate MPC decision {MON} {YYYY}"
+  },
+  {
+   "id": "rw-nisr",
+   "tier": "B",
+   "name": "NISR publications",
+   "country": "RW",
+   "schedule": {
+    "type": "month_end",
+    "grace": 5
+   },
+   "query": "NISR Rwanda CPI inflation {MON} {YYYY}"
+  },
+  {
+   "id": "ug-ubos",
+   "tier": "B",
+   "name": "UBOS statistical releases",
+   "country": "UG",
+   "schedule": {
+    "type": "month_end",
+    "grace": 4
+   },
+   "query": "UBOS Uganda CPI inflation {MON} {YYYY}"
+  },
+  {
+   "id": "ug-bou",
+   "tier": "B",
+   "name": "Bank of Uganda",
+   "country": "UG",
+   "schedule": {
+    "type": "bimonthly_mpc",
+    "grace": 4
+   },
+   "query": "Bank of Uganda MPC rate decision {MON} {YYYY}"
+  },
+  {
+   "id": "tz-nbs",
+   "tier": "B",
+   "name": "NBS Tanzania statistics",
+   "country": "TZ",
+   "schedule": {
+    "type": "month_end",
+    "grace": 5
+   },
+   "query": "NBS Tanzania CPI inflation {MON} {YYYY}"
+  },
+  {
+   "id": "tz-bot",
+   "tier": "B",
+   "name": "Bank of Tanzania",
+   "country": "TZ",
+   "schedule": {
+    "type": "monthly_day",
+    "day": 8,
+    "grace": 6
+   },
+   "query": "Bank of Tanzania monthly economic review {MON} {YYYY} tourism travel earnings"
+  },
+  {
+   "id": "ke-tri",
+   "tier": "B",
+   "name": "Tourism Research Institute",
+   "country": "KE",
+   "schedule": {
+    "type": "quarterly",
+    "grace": 14
+   },
+   "query": "Tourism Research Institute Kenya arrivals report {YYYY}"
+  },
+  {
+   "id": "zn-zrb",
+   "tier": "B",
+   "name": "Zanzibar Revenue Board",
+   "country": "ZNZ",
+   "schedule": {
+    "type": "monthly_day",
+    "day": 20,
+    "grace": 8
+   },
+   "query": "Zanzibar Revenue Board infrastructure levy tourism {MON} {YYYY}"
+  },
+  {
+   "id": "ke-epra-press",
+   "tier": "C",
+   "name": "EPRA press releases",
+   "country": "KE",
+   "query": "EPRA press releases {MON} {YYYY}"
+  },
+  {
+   "id": "ke-knbs-calendar",
+   "tier": "C",
+   "name": "KNBS advance release calendar",
+   "country": "KE",
+   "query": "KNBS advance release calendar {MON} {YYYY}"
+  },
+  {
+   "id": "ke-ktb-news",
+   "tier": "C",
+   "name": "Kenya Tourism Board news",
+   "country": "KE",
+   "query": "Kenya Tourism Board news {MON} {YYYY}"
+  },
+  {
+   "id": "ke-tra",
+   "tier": "C",
+   "name": "Tourism Regulatory Authority",
+   "country": "KE",
+   "query": "Tourism Regulatory Authority {MON} {YYYY}"
+  },
+  {
+   "id": "ke-tourism-fund",
+   "tier": "C",
+   "name": "Tourism Fund",
+   "country": "KE",
+   "query": "Tourism Fund {MON} {YYYY}"
+  },
+  {
+   "id": "ke-kaa",
+   "tier": "C",
+   "name": "Kenya Airports Authority",
+   "country": "KE",
+   "query": "Kenya Airports Authority {MON} {YYYY}"
+  },
+  {
+   "id": "ke-kaa-tenders",
+   "tier": "C",
+   "name": "KAA tenders",
+   "country": "KE",
+   "query": "KAA tenders {MON} {YYYY}"
+  },
+  {
+   "id": "ke-eta",
+   "tier": "C",
+   "name": "Kenya eTA portal",
+   "country": "KE",
+   "query": "Kenya eTA portal {MON} {YYYY}"
+  },
+  {
+   "id": "ke-tenders",
+   "tier": "C",
+   "name": "Kenya PPIP tender portal",
+   "country": "KE",
+   "query": "Kenya PPIP tender portal {MON} {YYYY}"
+  },
+  {
+   "id": "ke-nse",
+   "tier": "C",
+   "name": "Nairobi Securities Exchange announcements",
+   "country": "KE",
+   "query": "Nairobi Securities Exchange announcements {MON} {YYYY}"
+  },
+  {
+   "id": "ke-met",
+   "tier": "C",
+   "name": "Kenya Meteorological Department",
+   "country": "KE",
+   "query": "Kenya Meteorological Department {MON} {YYYY}"
+  },
+  {
+   "id": "ug-gazette",
+   "tier": "C",
+   "name": "Uganda Gazette (gazettes.africa)",
+   "country": "UG",
+   "query": "Uganda Gazette (gazettes.africa) {MON} {YYYY}"
+  },
+  {
+   "id": "ug-utb",
+   "tier": "C",
+   "name": "Uganda Tourism Board",
+   "country": "UG",
+   "query": "Uganda Tourism Board {MON} {YYYY}"
+  },
+  {
+   "id": "ug-ucaa",
+   "tier": "C",
+   "name": "Uganda Civil Aviation Authority",
+   "country": "UG",
+   "query": "Uganda Civil Aviation Authority {MON} {YYYY}"
+  },
+  {
+   "id": "ug-ura",
+   "tier": "C",
+   "name": "Uganda Revenue Authority",
+   "country": "UG",
+   "query": "Uganda Revenue Authority {MON} {YYYY}"
+  },
+  {
+   "id": "tz-gazette",
+   "tier": "C",
+   "name": "Tanzania Government Gazette (gazettes.africa)",
+   "country": "TZ",
+   "query": "Tanzania Government Gazette (gazettes.africa) {MON} {YYYY}"
+  },
+  {
+   "id": "tz-mnrt",
+   "tier": "C",
+   "name": "Ministry of Natural Resources & Tourism",
+   "country": "TZ",
+   "query": "Ministry of Natural Resources & Tourism {MON} {YYYY}"
+  },
+  {
+   "id": "tz-ttb",
+   "tier": "C",
+   "name": "Tanzania Tourist Board",
+   "country": "TZ",
+   "query": "Tanzania Tourist Board {MON} {YYYY}"
+  },
+  {
+   "id": "tz-taa",
+   "tier": "C",
+   "name": "Tanzania Airports Authority",
+   "country": "TZ",
+   "query": "Tanzania Airports Authority {MON} {YYYY}"
+  },
+  {
+   "id": "tz-immigration",
+   "tier": "C",
+   "name": "Tanzania Immigration Services",
+   "country": "TZ",
+   "query": "Tanzania Immigration Services {MON} {YYYY}"
+  },
+  {
+   "id": "tz-tenders",
+   "tier": "C",
+   "name": "Tanzania NeST procurement portal",
+   "country": "TZ",
+   "query": "Tanzania NeST procurement portal {MON} {YYYY}"
+  },
+  {
+   "id": "zn-tourism",
+   "tier": "C",
+   "name": "Zanzibar Commission for Tourism",
+   "country": "ZNZ",
+   "query": "Zanzibar Commission for Tourism {MON} {YYYY}"
+  },
+  {
+   "id": "rw-gazette",
+   "tier": "C",
+   "name": "Rwanda Official Gazette (gazettes.africa)",
+   "country": "RW",
+   "query": "Rwanda Official Gazette (gazettes.africa) {MON} {YYYY}"
+  },
+  {
+   "id": "rw-visitrwanda",
+   "tier": "C",
+   "name": "Visit Rwanda news",
+   "country": "RW",
+   "query": "Visit Rwanda news {MON} {YYYY}"
+  },
+  {
+   "id": "rw-rca",
+   "tier": "C",
+   "name": "Rwanda Civil Aviation Authority",
+   "country": "RW",
+   "query": "Rwanda Civil Aviation Authority {MON} {YYYY}"
+  },
+  {
+   "id": "rw-rra",
+   "tier": "C",
+   "name": "Rwanda Revenue Authority",
+   "country": "RW",
+   "query": "Rwanda Revenue Authority {MON} {YYYY}"
+  },
+  {
+   "id": "rw-rppa",
+   "tier": "C",
+   "name": "Rwanda public procurement (RPPA)",
+   "country": "RW",
+   "query": "Rwanda public procurement (RPPA) {MON} {YYYY}"
+  },
+  {
+   "id": "africacdc-downloads",
+   "tier": "C",
+   "name": "Africa CDC downloads (sit reps & EIW)",
+   "country": "REG",
+   "query": "Africa CDC downloads (sit reps & EIW) {MON} {YYYY}"
+  },
+  {
+   "id": "reliefweb-ea",
+   "tier": "C",
+   "name": "ReliefWeb \u2014 East Africa updates",
+   "country": "REG",
+   "query": "ReliefWeb \u2014 East Africa updates {MON} {YYYY}"
+  },
+  {
+   "id": "adv-au-kenya",
+   "tier": "C",
+   "name": "Smartraveller \u2014 Kenya",
+   "country": "KE",
+   "query": "Smartraveller \u2014 Kenya {MON} {YYYY}"
+  },
+  {
+   "id": "adv-ca-tanzania",
+   "tier": "C",
+   "name": "Canada travel advice \u2014 Tanzania",
+   "country": "TZ",
+   "query": "Canada travel advice \u2014 Tanzania {MON} {YYYY}"
+  },
+  {
+   "id": "adv-au-tanzania",
+   "tier": "C",
+   "name": "Smartraveller \u2014 Tanzania",
+   "country": "TZ",
+   "query": "Smartraveller \u2014 Tanzania {MON} {YYYY}"
+  },
+  {
+   "id": "adv-de-tanzania",
+   "tier": "C",
+   "name": "Ausw\u00e4rtiges Amt \u2014 Tanzania",
+   "country": "TZ",
+   "query": "Ausw\u00e4rtiges Amt \u2014 Tanzania {MON} {YYYY}"
+  },
+  {
+   "id": "adv-fr-tanzania",
+   "tier": "C",
+   "name": "France Conseils aux voyageurs \u2014 Tanzania",
+   "country": "TZ",
+   "query": "France Conseils aux voyageurs \u2014 Tanzania {MON} {YYYY}"
+  },
+  {
+   "id": "air-kq",
+   "tier": "C",
+   "name": "Kenya Airways newsroom",
+   "country": "KE",
+   "query": "Kenya Airways newsroom {MON} {YYYY}"
+  },
+  {
+   "id": "air-ug",
+   "tier": "C",
+   "name": "Uganda Airlines news",
+   "country": "UG",
+   "query": "Uganda Airlines news {MON} {YYYY}"
+  },
+  {
+   "id": "air-wb",
+   "tier": "C",
+   "name": "RwandAir media centre",
+   "country": "RW",
+   "query": "RwandAir media centre {MON} {YYYY}"
+  },
+  {
+   "id": "air-tc",
+   "tier": "C",
+   "name": "Air Tanzania",
+   "country": "TZ",
+   "query": "Air Tanzania {MON} {YYYY}"
+  },
+  {
+   "id": "air-precision",
+   "tier": "C",
+   "name": "Precision Air",
+   "country": "TZ",
+   "query": "Precision Air {MON} {YYYY}"
+  },
+  {
+   "id": "air-et",
+   "tier": "C",
+   "name": "Ethiopian Airlines press room",
+   "country": "REG",
+   "query": "Ethiopian Airlines press room {MON} {YYYY}"
+  },
+  {
+   "id": "air-ek",
+   "tier": "C",
+   "name": "Emirates media centre",
+   "country": "GLOBAL",
+   "query": "Emirates media centre {MON} {YYYY}"
+  },
+  {
+   "id": "air-tk",
+   "tier": "C",
+   "name": "Turkish Airlines press room",
+   "country": "GLOBAL",
+   "query": "Turkish Airlines press room {MON} {YYYY}"
+  },
+  {
+   "id": "air-klm",
+   "tier": "C",
+   "name": "KLM/Air France newsroom",
+   "country": "GLOBAL",
+   "query": "KLM/Air France newsroom {MON} {YYYY}"
+  },
+  {
+   "id": "air-lh",
+   "tier": "C",
+   "name": "Lufthansa Group newsroom",
+   "country": "GLOBAL",
+   "query": "Lufthansa Group newsroom {MON} {YYYY}"
+  },
+  {
+   "id": "chaviation",
+   "tier": "C",
+   "name": "ch-aviation news",
+   "country": "GLOBAL",
+   "query": "ch-aviation news {MON} {YYYY}"
+  },
+  {
+   "id": "dev-marriott",
+   "tier": "C",
+   "name": "Marriott news centre",
+   "country": "GLOBAL",
+   "query": "Marriott news centre {MON} {YYYY}"
+  },
+  {
+   "id": "dev-radisson",
+   "tier": "C",
+   "name": "Radisson Hotel Group media",
+   "country": "GLOBAL",
+   "query": "Radisson Hotel Group media {MON} {YYYY}"
+  },
+  {
+   "id": "dev-kempinski",
+   "tier": "C",
+   "name": "Kempinski press",
+   "country": "GLOBAL",
+   "query": "Kempinski press {MON} {YYYY}"
+  },
+  {
+   "id": "dev-whospitality",
+   "tier": "C",
+   "name": "W Hospitality Group pipeline reports",
+   "country": "REG",
+   "query": "W Hospitality Group pipeline reports {MON} {YYYY}"
+  },
+  {
+   "id": "dev-costar",
+   "tier": "C",
+   "name": "CoStar / STR hospitality news",
+   "country": "GLOBAL",
+   "query": "CoStar / STR hospitality news {MON} {YYYY}"
+  },
+  {
+   "id": "dev-jll-hotels",
+   "tier": "C",
+   "name": "JLL Hotels & Hospitality research",
+   "country": "GLOBAL",
+   "query": "JLL Hotels & Hospitality research {MON} {YYYY}"
+  },
+  {
+   "id": "dev-tophotel",
+   "tier": "C",
+   "name": "TOPHOTELNEWS development pipeline",
+   "country": "GLOBAL",
+   "query": "TOPHOTELNEWS development pipeline {MON} {YYYY}"
+  },
+  {
+   "id": "dev-luxcollective",
+   "tier": "C",
+   "name": "The Lux Collective press",
+   "country": "REG",
+   "query": "The Lux Collective press {MON} {YYYY}"
+  },
+  {
+   "id": "tp-hotelonline",
+   "tier": "C",
+   "name": "HotelOnline Africa",
+   "country": "REG",
+   "query": "HotelOnline Africa {MON} {YYYY}"
+  },
+  {
+   "id": "sm-unwto",
+   "tier": "C",
+   "name": "UN Tourism news & barometer",
+   "country": "GLOBAL",
+   "query": "UN Tourism news & barometer {MON} {YYYY}"
+  },
+  {
+   "id": "sm-tui",
+   "tier": "C",
+   "name": "TUI Group press",
+   "country": "GLOBAL",
+   "query": "TUI Group press {MON} {YYYY}"
+  },
+  {
+   "id": "sm-forwardkeys",
+   "tier": "C",
+   "name": "ForwardKeys insights",
+   "country": "GLOBAL",
+   "query": "ForwardKeys insights {MON} {YYYY}"
+  },
+  {
+   "id": "us-cdc-evdorder",
+   "tier": "C",
+   "name": "CDC port health \u2014 s.362 Ebola entry orders",
+   "country": "REG",
+   "query": "CDC port health \u2014 s.362 Ebola entry orders {MON} {YYYY}"
+  },
+  {
+   "id": "ug-mediacentre",
+   "tier": "C",
+   "name": "Uganda Media Centre \u2014 press room",
+   "country": "UG",
+   "query": "Uganda Media Centre \u2014 press room {MON} {YYYY}"
+  },
+  {
+   "id": "ke-usembassy-alerts",
+   "tier": "C",
+   "name": "US Embassy Nairobi \u2014 alerts & messages",
+   "country": "KE",
+   "query": "US Embassy Nairobi \u2014 alerts & messages {MON} {YYYY}"
+  },
+  {
+   "id": "osac-kenya",
+   "tier": "C",
+   "name": "OSAC \u2014 Kenya reports & advisory notices",
+   "country": "KE",
+   "query": "OSAC \u2014 Kenya reports & advisory notices {MON} {YYYY}"
+  },
+  {
+   "id": "adv-us-embassy-kenya",
+   "tier": "C",
+   "name": "US Embassy Nairobi \u2014 travel advisory & alerts",
+   "country": "KE",
+   "query": "US Embassy Nairobi \u2014 travel advisory & alerts {MON} {YYYY}"
+  },
+  {
+   "id": "adv-us-embassy-uganda",
+   "tier": "C",
+   "name": "US Embassy Kampala \u2014 travel advisory & alerts",
+   "country": "UG",
+   "query": "US Embassy Kampala \u2014 travel advisory & alerts {MON} {YYYY}"
+  },
+  {
+   "id": "us-regulations-cdc-docket",
+   "tier": "C",
+   "name": "regulations.gov \u2014 docket CDC-2026-0892 (Ebola entry order)",
+   "country": "REG",
+   "query": "regulations.gov \u2014 docket CDC-2026-0892 (Ebola entry order) {MON} {YYYY}"
+  },
+  {
+   "id": "cdc-ebola-situation-summary",
+   "tier": "C",
+   "name": "US CDC Ebola situation summary (policy text)",
+   "country": "GLOBAL",
+   "query": "US CDC Ebola situation summary (policy text) {MON} {YYYY}"
+  },
+  {
+   "id": "tz-zpc",
+   "tier": "C",
+   "name": "Zanzibar Ports Corporation",
+   "country": "TZ",
+   "query": "Zanzibar Ports Corporation {MON} {YYYY}"
+  },
+  {
+   "id": "tz-tanesco",
+   "tier": "C",
+   "name": "TANESCO \u2014 notices and press",
+   "country": "TZ",
+   "query": "TANESCO \u2014 notices and press {MON} {YYYY}"
+  },
+  {
+   "id": "tz-ewura",
+   "tier": "C",
+   "name": "EWURA \u2014 Tanzania energy & water regulator",
+   "country": "TZ",
+   "query": "EWURA \u2014 Tanzania energy & water regulator {MON} {YYYY}"
+  },
+  {
+   "id": "et-gazette",
+   "tier": "C",
+   "name": "Federal Negarit Gazette (Ethiopia, via gazettes.africa)",
+   "country": "ET",
+   "query": "Federal Negarit Gazette (Ethiopia, via gazettes.africa) {MON} {YYYY}"
+  },
+  {
+   "id": "et-ecaa",
+   "tier": "C",
+   "name": "Ethiopian Civil Aviation Authority (ECAA)",
+   "country": "ET",
+   "query": "Ethiopian Civil Aviation Authority (ECAA) {MON} {YYYY}"
+  },
+  {
+   "id": "et-nbe",
+   "tier": "C",
+   "name": "National Bank of Ethiopia (NBE)",
+   "country": "ET",
+   "query": "National Bank of Ethiopia (NBE) {MON} {YYYY}"
+  },
+  {
+   "id": "et-ess",
+   "tier": "C",
+   "name": "Ethiopian Statistical Service (ESS)",
+   "country": "ET",
+   "query": "Ethiopian Statistical Service (ESS) {MON} {YYYY}"
+  },
+  {
+   "id": "et-ecb",
+   "tier": "C",
+   "name": "Ethiopia Convention Bureau (Tourism Ethiopia)",
+   "country": "ET",
+   "query": "Ethiopia Convention Bureau (Tourism Ethiopia) {MON} {YYYY}"
+  }
+ ]
+}
