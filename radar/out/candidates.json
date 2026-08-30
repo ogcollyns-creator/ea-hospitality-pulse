@@ -1,18 +1,18 @@
 {
- "generated": "2026-08-30T03:00:54+03:00",
+ "generated": "2026-08-30T07:32:24+03:00",
  "slot": "morning",
  "window_start": 1788015600,
- "observations_in_window": 127,
+ "observations_in_window": 148,
  "deduped_against": 11,
  "candidates": [
   {
-   "score": 144.9,
+   "score": 139.9,
    "components": {
     "tier": 40,
     "category": 32,
     "lead": 1.2,
     "relevance": 40,
-    "freshness": 19.7,
+    "freshness": 14.7,
     "undated": -6,
     "shock": 18
    },
@@ -49,6 +49,41 @@
    "verdict": "LEAD CANDIDATE \u2014 tier-1 shock language"
   },
   {
+   "score": 101.7,
+   "components": {
+    "tier": 40,
+    "category": 32,
+    "lead": 12.0,
+    "relevance": 8,
+    "freshness": 19.7,
+    "undated": -6,
+    "page_change": -4
+   },
+   "keywords": [
+    "fee"
+   ],
+   "shock_terms": [],
+   "dedupe_match": null,
+   "dedupe_similarity": 0.25,
+   "id": "99d381f05126",
+   "title": "[page changed] Federal Register \u2014 CDC notices",
+   "url": "https://www.federalregister.gov/api/v1/documents.rss?conditions%5Bagencies%5D%5B%5D=centers-for-disease-control-and-prevention&order=newest",
+   "summary": "Federal Register Documents published on or after 07/31/2026 and from Centers for Disease Control and Prevention https://www.federalregister.gov/api/v1/documents.rss?conditions%5Bagencies%5D%5B%5D=centers-for-disease-control-and-prevention&order=newest Fri, 28 Aug 2026 04:00:00 GMT The documents in this feed originate from FederalRegister.gov which displays an unofficial web version of the daily Fe",
+   "kind": "page-change",
+   "source": "Federal Register \u2014 CDC notices",
+   "source_id": "us-fedreg-cdc",
+   "tier": 1,
+   "country": "REG",
+   "category": "advisory",
+   "segments": [
+    "city",
+    "bush"
+   ],
+   "first_seen": "2026-08-30T07:29+03:00",
+   "published": null,
+   "verdict": "OPEN THIS \u2014 tier-1 advisory page moved; content not auto-parsed, read it manually"
+  },
+  {
    "score": 91.3,
    "components": {
     "tier": 40,
@@ -56,6 +91,38 @@
     "lead": 3.6,
     "relevance": 0,
     "freshness": 19.7,
+    "page_change": -4
+   },
+   "keywords": [],
+   "shock_terms": [],
+   "dedupe_match": null,
+   "dedupe_similarity": 0.0,
+   "id": "6f3c60292ec6",
+   "title": "[page changed] Federal Register \u2014 public inspection (HHS/CDC), pre-publication",
+   "url": "https://www.federalregister.gov/api/v1/public-inspection-documents/current.json",
+   "summary": "{\"count\":124,\"results\":[{\"agencies\":[{\"raw_name\":\"National Institute of Standards and Technology\",\"name\":\"National Institute of Standards and Technology\",\"id\":352,\"url\":\"https://www.federalregister.gov/agencies/national-institute-of-standards-and-technology\",\"json_url\":\"https://www.federalregister.gov/api/v1/agencies/352\",\"parent_id\":54,\"slug\":\"national-institute-of-standards-and-technology\"}],\"ag",
+   "kind": "page-change",
+   "source": "Federal Register \u2014 public inspection (HHS/CDC), pre-publication",
+   "source_id": "us-fedreg-pubinspect-hhs",
+   "tier": 1,
+   "country": "REG",
+   "category": "advisory",
+   "segments": [
+    "city",
+    "bush"
+   ],
+   "first_seen": "2026-08-30T07:29+03:00",
+   "published": "2026-08-28",
+   "verdict": "OPEN THIS \u2014 tier-1 advisory page moved; content not auto-parsed, read it manually"
+  },
+  {
+   "score": 86.3,
+   "components": {
+    "tier": 40,
+    "category": 32,
+    "lead": 3.6,
+    "relevance": 0,
+    "freshness": 14.7,
     "page_change": -4
    },
    "keywords": [],
@@ -81,13 +148,13 @@
    "verdict": "OPEN THIS \u2014 tier-1 advisory page moved; content not auto-parsed, read it manually"
   },
   {
-   "score": 85.5,
+   "score": 80.5,
    "components": {
     "tier": 40,
     "category": 32,
     "lead": 3.6,
     "relevance": 0,
-    "freshness": 13.9,
+    "freshness": 8.9,
     "page_change": -4
    },
    "keywords": [],
@@ -113,13 +180,13 @@
    "verdict": "OPEN THIS \u2014 tier-1 advisory page moved; content not auto-parsed, read it manually"
   },
   {
-   "score": 65.3,
+   "score": 60.3,
    "components": {
     "tier": 40,
     "category": 12,
     "lead": 3.6,
     "relevance": 0,
-    "freshness": 19.7,
+    "freshness": 14.7,
     "undated": -6,
     "page_change": -4
    },
@@ -147,13 +214,13 @@
    "verdict": "OPEN THIS \u2014 tier-1 airline page moved; content not auto-parsed, read it manually"
   },
   {
-   "score": 65.3,
+   "score": 60.3,
    "components": {
     "tier": 40,
     "category": 12,
     "lead": 3.6,
     "relevance": 0,
-    "freshness": 19.7,
+    "freshness": 14.7,
     "undated": -6,
     "page_change": -4
    },
@@ -181,13 +248,13 @@
    "verdict": "OPEN THIS \u2014 tier-1 airline page moved; content not auto-parsed, read it manually"
   },
   {
-   "score": 57.0,
+   "score": 52.0,
    "components": {
     "tier": 40,
     "category": 12,
     "lead": 3.6,
     "relevance": 0,
-    "freshness": 11.4,
+    "freshness": 6.4,
     "undated": -6,
     "page_change": -4
    },
@@ -215,13 +282,13 @@
    "verdict": "OPEN THIS \u2014 tier-1 airline page moved; content not auto-parsed, read it manually"
   },
   {
-   "score": 101.7,
+   "score": 96.7,
    "components": {
     "tier": 40,
     "category": 20,
     "lead": 12.0,
     "relevance": 0,
-    "freshness": 19.7,
+    "freshness": 14.7,
     "corroborated": 10
    },
    "keywords": [],
@@ -248,13 +315,13 @@
    "verdict": "STRONG \u2014 tier-1, upstream"
   },
   {
-   "score": 101.7,
+   "score": 96.7,
    "components": {
     "tier": 40,
     "category": 20,
     "lead": 12.0,
     "relevance": 0,
-    "freshness": 19.7,
+    "freshness": 14.7,
     "corroborated": 10
    },
    "keywords": [],
@@ -281,13 +348,13 @@
    "verdict": "STRONG \u2014 tier-1, upstream"
   },
   {
-   "score": 101.7,
+   "score": 96.7,
    "components": {
     "tier": 40,
     "category": 20,
     "lead": 12.0,
     "relevance": 0,
-    "freshness": 19.7,
+    "freshness": 14.7,
     "corroborated": 10
    },
    "keywords": [],
@@ -314,13 +381,13 @@
    "verdict": "STRONG \u2014 tier-1, upstream"
   },
   {
-   "score": 101.7,
+   "score": 96.7,
    "components": {
     "tier": 40,
     "category": 20,
     "lead": 12.0,
     "relevance": 0,
-    "freshness": 19.7,
+    "freshness": 14.7,
     "corroborated": 10
    },
    "keywords": [],
@@ -347,13 +414,13 @@
    "verdict": "STRONG \u2014 tier-1, upstream"
   },
   {
-   "score": 101.7,
+   "score": 96.7,
    "components": {
     "tier": 40,
     "category": 20,
     "lead": 12.0,
     "relevance": 0,
-    "freshness": 19.7,
+    "freshness": 14.7,
     "corroborated": 10
    },
    "keywords": [],
@@ -380,13 +447,13 @@
    "verdict": "STRONG \u2014 tier-1, upstream"
   },
   {
-   "score": 101.7,
+   "score": 96.7,
    "components": {
     "tier": 40,
     "category": 20,
     "lead": 12.0,
     "relevance": 0,
-    "freshness": 19.7,
+    "freshness": 14.7,
     "corroborated": 10
    },
    "keywords": [],
@@ -413,13 +480,13 @@
    "verdict": "STRONG \u2014 tier-1, upstream"
   },
   {
-   "score": 91.7,
+   "score": 86.7,
    "components": {
     "tier": 40,
     "category": 20,
     "lead": 12.0,
     "relevance": 0,
-    "freshness": 19.7
+    "freshness": 14.7
    },
    "keywords": [],
    "shock_terms": [],
@@ -442,16 +509,54 @@
    ],
    "first_seen": "2026-08-30T02:56+03:00",
    "published": "2026-08-28",
-   "verdict": "STRONG \u2014 tier-1, upstream"
+   "verdict": "CONSIDER"
   },
   {
-   "score": 81.7,
+   "score": 80.0,
+   "components": {
+    "tier": 20,
+    "category": 5,
+    "lead": 1.2,
+    "relevance": 24,
+    "freshness": 19.8,
+    "corroborated": 10
+   },
+   "keywords": [
+    "vat",
+    "fee",
+    "booking",
+    "guest"
+   ],
+   "shock_terms": [],
+   "dedupe_match": null,
+   "dedupe_similarity": 0.2,
+   "id": "07f939f8ae5f",
+   "title": "Airbnb Is Testing Lower Fees for Hosts Who Bring Their Own Guests",
+   "url": "https://skift.com/2026/08/29/airbnb-is-testing-lower-fees-for-hosts-who-bring-their-own-guests",
+   "summary": "Call it \"direct booking\" if you like, but the reservation still runs on Airbnb's platform. And Airbnb's take rate now seems variable.",
+   "kind": "item",
+   "source": "Skift",
+   "source_id": "tp-skift",
+   "tier": 2,
+   "country": "GLOBAL",
+   "category": "trade",
+   "segments": [
+    "city",
+    "bush",
+    "beach"
+   ],
+   "first_seen": "2026-08-30T07:30+03:00",
+   "published": "2026-08-30",
+   "verdict": "CONSIDER"
+  },
+  {
+   "score": 76.7,
    "components": {
     "tier": 40,
     "category": 20,
     "lead": 12.0,
     "relevance": 0,
-    "freshness": 19.7,
+    "freshness": 14.7,
     "stale_trap": -10
    },
    "keywords": [],
@@ -478,13 +583,13 @@
    "verdict": "CHECK \u2014 source date older than the window"
   },
   {
-   "score": 81.7,
+   "score": 76.7,
    "components": {
     "tier": 40,
     "category": 20,
     "lead": 12.0,
     "relevance": 0,
-    "freshness": 19.7,
+    "freshness": 14.7,
     "stale_trap": -10
    },
    "keywords": [],
@@ -511,13 +616,13 @@
    "verdict": "CHECK \u2014 source date older than the window"
   },
   {
-   "score": 81.7,
+   "score": 76.7,
    "components": {
     "tier": 40,
     "category": 20,
     "lead": 12.0,
     "relevance": 0,
-    "freshness": 19.7,
+    "freshness": 14.7,
     "stale_trap": -10
    },
    "keywords": [],
@@ -544,13 +649,83 @@
    "verdict": "CHECK \u2014 source date older than the window"
   },
   {
-   "score": 63.7,
+   "score": 63.8,
    "components": {
     "tier": 20,
     "category": 4,
     "lead": 0.0,
     "relevance": 8,
-    "freshness": 19.7,
+    "freshness": 19.8,
+    "undated": -6,
+    "shock": 18
+   },
+   "keywords": [
+    "airport"
+   ],
+   "shock_terms": [
+    "attack"
+   ],
+   "dedupe_match": null,
+   "dedupe_similarity": 0.0,
+   "id": "af4f344bbf8e",
+   "title": "Africa Mutinous soldiers attack airport, presidency in Niger capital 18 hours ago - 3 min read",
+   "url": "https://www.thecitizen.co.tz/tanzania/news/africa/mutinous-soldiers-attack-airport-presidency-in-niger-capital-5575430",
+   "summary": "",
+   "kind": "item",
+   "source": "The Citizen (Tanzania)",
+   "source_id": "np-citizen-tz",
+   "tier": 2,
+   "country": "TZ",
+   "category": "press",
+   "segments": [
+    "city",
+    "bush",
+    "beach"
+   ],
+   "first_seen": "2026-08-30T07:30+03:00",
+   "published": null,
+   "verdict": "weak"
+  },
+  {
+   "score": 62.4,
+   "components": {
+    "tier": 20,
+    "category": 9,
+    "lead": 3.6,
+    "relevance": 0,
+    "freshness": 19.8,
+    "corroborated": 10
+   },
+   "keywords": [],
+   "shock_terms": [],
+   "dedupe_match": null,
+   "dedupe_similarity": 0.0,
+   "id": "5ed87fb50aca",
+   "title": "fvw|TravelTalk-Kongress 15./16.9.2026: Cashback versus Marge \u2013 wohin steuert der Vertrieb?",
+   "url": "https://www.fvw.de/touristik/vertrieb/fvwtraveltalk-kongress-15.16.9.2026-zwischen-cashback-und-marge--wohin-steuert-der-vertrieb-264142",
+   "summary": "Preisaktionen, Cashback und andere Anreizsysteme befeuern die Diskussionen \u00fcber Wertsch\u00f6pfung und Margen. Wie noch wer im Vertrieb Geld verdienen kann, beantworten Thomas B\u00f6sl (RTK), Gabriela Mendoza Rohde (Lastminute.com) und Ann-Katrin Lukasiewicz (Reiseagentur Grenzenlosi) im Panel am 16. September.",
+   "kind": "item",
+   "source": "FVW / German travel trade",
+   "source_id": "sm-derreise",
+   "tier": 2,
+   "country": "GLOBAL",
+   "category": "source-market",
+   "segments": [
+    "beach",
+    "bush"
+   ],
+   "first_seen": "2026-08-30T07:30+03:00",
+   "published": "2026-08-29",
+   "verdict": "weak"
+  },
+  {
+   "score": 58.7,
+   "components": {
+    "tier": 20,
+    "category": 4,
+    "lead": 0.0,
+    "relevance": 8,
+    "freshness": 14.7,
     "undated": -6,
     "shock": 18
    },
@@ -582,13 +757,13 @@
    "verdict": "weak"
   },
   {
-   "score": 63.7,
+   "score": 58.7,
    "components": {
     "tier": 20,
     "category": 4,
     "lead": 0.0,
     "relevance": 8,
-    "freshness": 19.7,
+    "freshness": 14.7,
     "undated": -6,
     "shock": 18
    },
@@ -620,13 +795,13 @@
    "verdict": "weak"
   },
   {
-   "score": 63.5,
+   "score": 58.5,
    "components": {
     "tier": 40,
     "category": 12,
     "lead": 3.6,
     "relevance": 0,
-    "freshness": 13.9,
+    "freshness": 8.9,
     "undated": -6
    },
    "keywords": [],
@@ -653,13 +828,47 @@
    "verdict": "weak"
   },
   {
-   "score": 60.0,
+   "score": 56.2,
+   "components": {
+    "tier": 20,
+    "category": 24,
+    "lead": 2.4,
+    "relevance": 0,
+    "freshness": 19.8,
+    "undated": -6,
+    "page_change": -4
+   },
+   "keywords": [],
+   "shock_terms": [],
+   "dedupe_match": null,
+   "dedupe_similarity": 0.0,
+   "id": "ddd06f9ad93c",
+   "title": "[page changed] ProMED-mail",
+   "url": "https://promedmail.org/",
+   "summary": "Protecting Global Health, One Alert at a Time | ProMED Previous slide Next slide Protecting Global Health, One Alert at a Time ProMED: Your 24/7 early warning system for emerging infectious diseases worldwide. Subscribe ProMED's Weekly Pulse A snapshot of global health events from the past 7 days Latest Posts on ProMED All Date Title Sun Aug 30 2026 INFLUENZA - INDIA (07): (DELHI) H1N1 UPDATE Sun ",
+   "kind": "page-change",
+   "source": "ProMED-mail",
+   "source_id": "promed",
+   "tier": 2,
+   "country": "GLOBAL",
+   "category": "health",
+   "segments": [
+    "city",
+    "bush",
+    "beach"
+   ],
+   "first_seen": "2026-08-30T07:30+03:00",
+   "published": null,
+   "verdict": "weak"
+  },
+  {
+   "score": 55.0,
    "components": {
     "tier": 20,
     "category": 4,
     "lead": 0.0,
     "relevance": 8,
-    "freshness": 16.0,
+    "freshness": 11.0,
     "undated": -6,
     "shock": 18
    },
@@ -691,13 +900,13 @@
    "verdict": "weak"
   },
   {
-   "score": 59.7,
+   "score": 54.7,
    "components": {
     "tier": 5,
     "category": 5,
     "lead": 0.0,
     "relevance": 20,
-    "freshness": 19.7,
+    "freshness": 14.7,
     "corroborated": 10
    },
    "keywords": [
@@ -730,13 +939,13 @@
    "verdict": "weak"
   },
   {
-   "score": 58.3,
+   "score": 53.3,
    "components": {
     "tier": 20,
     "category": 24,
     "lead": 2.4,
     "relevance": 8,
-    "freshness": 13.9,
+    "freshness": 8.9,
     "undated": -6,
     "page_change": -4
    },
@@ -766,13 +975,13 @@
    "verdict": "weak"
   },
   {
-   "score": 57.9,
+   "score": 52.9,
    "components": {
     "tier": 20,
     "category": 4,
     "lead": 0.0,
     "relevance": 8,
-    "freshness": 13.9,
+    "freshness": 8.9,
     "undated": -6,
     "shock": 18
    },
@@ -804,13 +1013,13 @@
    "verdict": "weak"
   },
   {
-   "score": 57.7,
+   "score": 52.7,
    "components": {
     "tier": 20,
     "category": 4,
     "lead": 0.0,
     "relevance": 20,
-    "freshness": 19.7,
+    "freshness": 14.7,
     "undated": -6
    },
    "keywords": [
@@ -840,13 +1049,13 @@
    "verdict": "weak"
   },
   {
-   "score": 56.1,
+   "score": 51.1,
    "components": {
     "tier": 20,
     "category": 24,
     "lead": 2.4,
     "relevance": 0,
-    "freshness": 19.7,
+    "freshness": 14.7,
     "undated": -6,
     "page_change": -4
    },
@@ -874,13 +1083,13 @@
    "verdict": "weak"
   },
   {
-   "score": 55.7,
+   "score": 50.7,
    "components": {
     "tier": 5,
     "category": 5,
     "lead": 0.0,
     "relevance": 16,
-    "freshness": 19.7,
+    "freshness": 14.7,
     "corroborated": 10
    },
    "keywords": [
@@ -911,13 +1120,13 @@
    "verdict": "weak"
   },
   {
-   "score": 55.7,
+   "score": 50.7,
    "components": {
     "tier": 20,
     "category": 4,
     "lead": 0.0,
     "relevance": 0,
-    "freshness": 19.7,
+    "freshness": 14.7,
     "undated": -6,
     "shock": 18
    },
@@ -947,13 +1156,13 @@
    "verdict": "weak"
   },
   {
-   "score": 55.4,
+   "score": 50.4,
    "components": {
     "tier": 20,
     "category": 4,
     "lead": 0.0,
     "relevance": 8,
-    "freshness": 11.4,
+    "freshness": 6.4,
     "undated": -6,
     "shock": 18
    },
@@ -985,13 +1194,13 @@
    "verdict": "weak"
   },
   {
-   "score": 54.0,
+   "score": 49.0,
    "components": {
     "tier": 20,
     "category": 4,
     "lead": 0.0,
     "relevance": 4,
-    "freshness": 16.0,
+    "freshness": 11.0,
     "corroborated": 10
    },
    "keywords": [
@@ -1020,13 +1229,13 @@
    "verdict": "weak"
   },
   {
-   "score": 51.9,
+   "score": 46.9,
    "components": {
     "tier": 20,
     "category": 4,
     "lead": 0.0,
     "relevance": 4,
-    "freshness": 13.9,
+    "freshness": 8.9,
     "corroborated": 10
    },
    "keywords": [
@@ -1055,13 +1264,13 @@
    "verdict": "weak"
   },
   {
-   "score": 51.9,
+   "score": 46.9,
    "components": {
     "tier": 20,
     "category": 4,
     "lead": 0.0,
     "relevance": 4,
-    "freshness": 13.9,
+    "freshness": 8.9,
     "corroborated": 10
    },
    "keywords": [
@@ -1090,13 +1299,13 @@
    "verdict": "weak"
   },
   {
-   "score": 51.7,
+   "score": 46.7,
    "components": {
     "tier": 5,
     "category": 5,
     "lead": 0.0,
     "relevance": 12,
-    "freshness": 19.7,
+    "freshness": 14.7,
     "corroborated": 10
    },
    "keywords": [
@@ -1127,13 +1336,13 @@
    "verdict": "weak"
   },
   {
-   "score": 50.0,
+   "score": 45.0,
    "components": {
     "tier": 20,
     "category": 4,
     "lead": 0.0,
     "relevance": 0,
-    "freshness": 16.0,
+    "freshness": 11.0,
     "corroborated": 10
    },
    "keywords": [],
@@ -1160,13 +1369,13 @@
    "verdict": "weak"
   },
   {
-   "score": 50.0,
+   "score": 45.0,
    "components": {
     "tier": 20,
     "category": 4,
     "lead": 0.0,
     "relevance": 0,
-    "freshness": 16.0,
+    "freshness": 11.0,
     "corroborated": 10
    },
    "keywords": [],
@@ -1190,212 +1399,6 @@
    ],
    "first_seen": "2026-08-29T23:33+03:00",
    "published": "2026-08-29",
-   "verdict": "weak"
-  },
-  {
-   "score": 50.0,
-   "components": {
-    "tier": 20,
-    "category": 4,
-    "lead": 0.0,
-    "relevance": 0,
-    "freshness": 16.0,
-    "corroborated": 10
-   },
-   "keywords": [],
-   "shock_terms": [],
-   "dedupe_match": null,
-   "dedupe_similarity": 0.0,
-   "id": "be118bb8797e",
-   "title": "Govt drafting Bill to regulate sand mining",
-   "url": "https://www.monitor.co.ug/uganda/news/national/govt-drafting-bill-to-regulate-sand-mining-5575798",
-   "summary": "This comes after government temporarily deferred granting new mineral rights, licences and...",
-   "kind": "item",
-   "source": "Daily Monitor (Uganda)",
-   "source_id": "np-monitor-ug",
-   "tier": 2,
-   "country": "UG",
-   "category": "press",
-   "segments": [
-    "city",
-    "bush",
-    "beach"
-   ],
-   "first_seen": "2026-08-29T23:33+03:00",
-   "published": "2026-08-29",
-   "verdict": "weak"
-  },
-  {
-   "score": 50.0,
-   "components": {
-    "tier": 20,
-    "category": 4,
-    "lead": 0.0,
-    "relevance": 0,
-    "freshness": 16.0,
-    "corroborated": 10
-   },
-   "keywords": [],
-   "shock_terms": [],
-   "dedupe_match": null,
-   "dedupe_similarity": 0.0,
-   "id": "d4359583d133",
-   "title": "Lady Volleyball Cranes sweep past DR Congo to reach African Championship quarterfinals",
-   "url": "https://www.monitor.co.ug/uganda/sports/other-sport/lady-volleyball-cranes-sweep-past-dr-congo-to-reach-african-championship-quarterfinals-5575766",
-   "summary": "The hard-fought second set proved to be the turning point of the contest",
-   "kind": "item",
-   "source": "Daily Monitor (Uganda)",
-   "source_id": "np-monitor-ug",
-   "tier": 2,
-   "country": "UG",
-   "category": "press",
-   "segments": [
-    "city",
-    "bush",
-    "beach"
-   ],
-   "first_seen": "2026-08-29T23:33+03:00",
-   "published": "2026-08-29",
-   "verdict": "weak"
-  },
-  {
-   "score": 47.9,
-   "components": {
-    "tier": 20,
-    "category": 4,
-    "lead": 0.0,
-    "relevance": 0,
-    "freshness": 13.9,
-    "corroborated": 10
-   },
-   "keywords": [],
-   "shock_terms": [],
-   "dedupe_match": null,
-   "dedupe_similarity": 0.17,
-   "id": "2fe891b07f0a",
-   "title": "Rwanda\u2019s \u2018Babyeyi\u2019: The School-Year Nightmare Facing Parents",
-   "url": "https://www.ktpress.rw/2026/08/rwandas-babyeyi-the-school-year-nightmare-facing-parents",
-   "summary": "KIGALI \u2014 As Rwanda prepares to open the 2026-2027 academic year starting next week September, thousands of parents are preparing for more than the return of their children to school.\u2026 The post Rwanda\u2019s \u2018Babyeyi\u2019: The School-Year Nightmare Facing Parents appeared first on KT PRESS .",
-   "kind": "item",
-   "source": "KT Press (Rwanda)",
-   "source_id": "np-ktpress-rw",
-   "tier": 2,
-   "country": "RW",
-   "category": "press",
-   "segments": [
-    "city",
-    "bush",
-    "beach"
-   ],
-   "first_seen": "2026-08-29T21:40+03:00",
-   "published": "2026-08-29",
-   "verdict": "weak"
-  },
-  {
-   "score": 47.7,
-   "components": {
-    "tier": 5,
-    "category": 5,
-    "lead": 0.0,
-    "relevance": 8,
-    "freshness": 19.7,
-    "corroborated": 10
-   },
-   "keywords": [
-    "resort",
-    "flight"
-   ],
-   "shock_terms": [],
-   "dedupe_match": null,
-   "dedupe_similarity": 0.0,
-   "id": "c058c7c425d0",
-   "title": "Africa: Obudu Ranch Resort Set for Major Rehabilitation as Bebi Airstrip Records Successful Test Flight",
-   "url": "https://atqnews.com/africa-obudu-ranch-resort-set-for-major-rehabilitation-as-bebi-airstrip-records-successful-test-flight",
-   "summary": "The Obudu Ranch Resort in Cross River State is set for a major rehabilitation and reconstruction as the state government moves to\u2026 The post Africa: Obudu Ranch Resort Set for Major Rehabilitation as Bebi Airstrip Records Successful Test Flight appeared first on ATQ News .",
-   "kind": "item",
-   "source": "ATQ News",
-   "source_id": "tp-atqnews",
-   "tier": 3,
-   "country": "REG",
-   "category": "trade",
-   "segments": [
-    "city",
-    "bush",
-    "beach"
-   ],
-   "first_seen": "2026-08-30T02:56+03:00",
-   "published": "2026-08-30",
-   "verdict": "weak"
-  },
-  {
-   "score": 45.7,
-   "components": {
-    "tier": 20,
-    "category": 4,
-    "lead": 0.0,
-    "relevance": 8,
-    "freshness": 19.7,
-    "undated": -6
-   },
-   "keywords": [
-    "investment",
-    "shilling"
-   ],
-   "shock_terms": [],
-   "dedupe_match": null,
-   "dedupe_similarity": 0.0,
-   "id": "37475f753a51",
-   "title": "Ugandan shilling appreciates against US dollar The appreciation was mainly driven by increased foreign exchange inflows from remittances, portfolio investments, and export earnings from agriculture, mining and energy sectors.",
-   "url": "https://www.newvision.co.ug/category/business/ugandan-shilling-appreciates-against-us-dolla-NV_239703_082026",
-   "summary": "",
-   "kind": "item",
-   "source": "New Vision (Uganda)",
-   "source_id": "np-newvision-ug",
-   "tier": 2,
-   "country": "UG",
-   "category": "press",
-   "segments": [
-    "city",
-    "bush",
-    "beach"
-   ],
-   "first_seen": "2026-08-30T02:56+03:00",
-   "published": null,
-   "verdict": "weak"
-  },
-  {
-   "score": 45.7,
-   "components": {
-    "tier": 20,
-    "category": 4,
-    "lead": 0.0,
-    "relevance": 8,
-    "freshness": 19.7,
-    "undated": -6
-   },
-   "keywords": [
-    "eta"
-   ],
-   "shock_terms": [],
-   "dedupe_match": null,
-   "dedupe_similarity": 0.0,
-   "id": "8835f300e821",
-   "title": "US Meta, US states agree $18 bn settlement in landmark teen safety case \u00b7 3 min read",
-   "url": "https://www.newvision.co.ug/category/science/meta-us-states-agree-18-bn-settlement-in-land-NV_239605_082026",
-   "summary": "",
-   "kind": "item",
-   "source": "New Vision (Uganda)",
-   "source_id": "np-newvision-ug",
-   "tier": 2,
-   "country": "UG",
-   "category": "press",
-   "segments": [
-    "city",
-    "bush",
-    "beach"
-   ],
-   "first_seen": "2026-08-30T02:56+03:00",
-   "published": null,
    "verdict": "weak"
   }
  ]
