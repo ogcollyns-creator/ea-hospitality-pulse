@@ -1,61 +1,18 @@
 {
- "generated": "2026-08-30T07:32:24+03:00",
- "slot": "morning",
- "window_start": 1788015600,
- "observations_in_window": 148,
+ "generated": "2026-08-30T12:20:51+03:00",
+ "slot": "midday",
+ "window_start": 1788062400,
+ "observations_in_window": 69,
  "deduped_against": 11,
  "candidates": [
   {
-   "score": 139.9,
-   "components": {
-    "tier": 40,
-    "category": 32,
-    "lead": 1.2,
-    "relevance": 40,
-    "freshness": 14.7,
-    "undated": -6,
-    "shock": 18
-   },
-   "keywords": [
-    "advisory",
-    "terror",
-    "level 3",
-    "flight"
-   ],
-   "shock_terms": [
-    "level 3",
-    "reconsider travel",
-    "attack"
-   ],
-   "dedupe_match": null,
-   "dedupe_similarity": 0.2,
-   "id": "e66447a169e5",
-   "title": "Jordan - Level 3: Reconsider Travel",
-   "url": "https://travel.state.gov/content/tsg_aem/us/en/home/international-travel/travel-advisories/destination.jor.html",
-   "summary": "Reconsider travel to Jordan due to terrorism and armed conflict . Some areas have increased risk. Read the entire Travel Advisory. As of August 29, 2026, family members may join U.S. government employees who work in Jordan. Armed Conflict Following the onset of hostilities between the United States and Iran on February 28, 2026, there has been an ongoing threat of drone and missile attacks from Ir",
-   "kind": "item",
-   "source": "US State Dept travel advisories (EA feed)",
-   "source_id": "adv-us-ea",
-   "tier": 1,
-   "country": "REG",
-   "category": "advisory",
-   "segments": [
-    "city",
-    "bush",
-    "beach"
-   ],
-   "first_seen": "2026-08-30T02:56+03:00",
-   "published": null,
-   "verdict": "LEAD CANDIDATE \u2014 tier-1 shock language"
-  },
-  {
-   "score": 101.7,
+   "score": 96.5,
    "components": {
     "tier": 40,
     "category": 32,
     "lead": 12.0,
     "relevance": 8,
-    "freshness": 19.7,
+    "freshness": 14.5,
     "undated": -6,
     "page_change": -4
    },
@@ -97,6 +54,38 @@
    "shock_terms": [],
    "dedupe_match": null,
    "dedupe_similarity": 0.0,
+   "id": "0937fd9b121b",
+   "title": "[page changed] Federal Register \u2014 public inspection (HHS/CDC), pre-publication",
+   "url": "https://www.federalregister.gov/api/v1/public-inspection-documents/current.json",
+   "summary": "{\"count\":124,\"results\":[{\"agencies\":[{\"raw_name\":\"National Institute of Standards and Technology\",\"name\":\"National Institute of Standards and Technology\",\"id\":352,\"url\":\"https://www.federalregister.gov/agencies/national-institute-of-standards-and-technology\",\"json_url\":\"https://www.federalregister.gov/api/v1/agencies/352\",\"parent_id\":54,\"slug\":\"national-institute-of-standards-and-technology\"}],\"ag",
+   "kind": "page-change",
+   "source": "Federal Register \u2014 public inspection (HHS/CDC), pre-publication",
+   "source_id": "us-fedreg-pubinspect-hhs",
+   "tier": 1,
+   "country": "REG",
+   "category": "advisory",
+   "segments": [
+    "city",
+    "bush"
+   ],
+   "first_seen": "2026-08-30T12:17+03:00",
+   "published": "2026-08-28",
+   "verdict": "OPEN THIS \u2014 tier-1 advisory page moved; content not auto-parsed, read it manually"
+  },
+  {
+   "score": 86.1,
+   "components": {
+    "tier": 40,
+    "category": 32,
+    "lead": 3.6,
+    "relevance": 0,
+    "freshness": 14.5,
+    "page_change": -4
+   },
+   "keywords": [],
+   "shock_terms": [],
+   "dedupe_match": null,
+   "dedupe_similarity": 0.0,
    "id": "6f3c60292ec6",
    "title": "[page changed] Federal Register \u2014 public inspection (HHS/CDC), pre-publication",
    "url": "https://www.federalregister.gov/api/v1/public-inspection-documents/current.json",
@@ -116,77 +105,13 @@
    "verdict": "OPEN THIS \u2014 tier-1 advisory page moved; content not auto-parsed, read it manually"
   },
   {
-   "score": 86.3,
-   "components": {
-    "tier": 40,
-    "category": 32,
-    "lead": 3.6,
-    "relevance": 0,
-    "freshness": 14.7,
-    "page_change": -4
-   },
-   "keywords": [],
-   "shock_terms": [],
-   "dedupe_match": null,
-   "dedupe_similarity": 0.0,
-   "id": "153a0f49ec70",
-   "title": "[page changed] Federal Register \u2014 public inspection (HHS/CDC), pre-publication",
-   "url": "https://www.federalregister.gov/api/v1/public-inspection-documents/current.json",
-   "summary": "{\"count\":124,\"results\":[{\"agencies\":[{\"raw_name\":\"National Institute of Standards and Technology\",\"name\":\"National Institute of Standards and Technology\",\"id\":352,\"url\":\"https://www.federalregister.gov/agencies/national-institute-of-standards-and-technology\",\"json_url\":\"https://www.federalregister.gov/api/v1/agencies/352\",\"parent_id\":54,\"slug\":\"national-institute-of-standards-and-technology\"}],\"ag",
-   "kind": "page-change",
-   "source": "Federal Register \u2014 public inspection (HHS/CDC), pre-publication",
-   "source_id": "us-fedreg-pubinspect-hhs",
-   "tier": 1,
-   "country": "REG",
-   "category": "advisory",
-   "segments": [
-    "city",
-    "bush"
-   ],
-   "first_seen": "2026-08-30T02:56+03:00",
-   "published": "2026-08-28",
-   "verdict": "OPEN THIS \u2014 tier-1 advisory page moved; content not auto-parsed, read it manually"
-  },
-  {
-   "score": 80.5,
-   "components": {
-    "tier": 40,
-    "category": 32,
-    "lead": 3.6,
-    "relevance": 0,
-    "freshness": 8.9,
-    "page_change": -4
-   },
-   "keywords": [],
-   "shock_terms": [],
-   "dedupe_match": null,
-   "dedupe_similarity": 0.0,
-   "id": "00d373395856",
-   "title": "[page changed] Federal Register \u2014 public inspection (HHS/CDC), pre-publication",
-   "url": "https://www.federalregister.gov/api/v1/public-inspection-documents/current.json",
-   "summary": "{\"count\":124,\"results\":[{\"agencies\":[{\"raw_name\":\"National Institute of Standards and Technology\",\"name\":\"National Institute of Standards and Technology\",\"id\":352,\"url\":\"https://www.federalregister.gov/agencies/national-institute-of-standards-and-technology\",\"json_url\":\"https://www.federalregister.gov/api/v1/agencies/352\",\"parent_id\":54,\"slug\":\"national-institute-of-standards-and-technology\"}],\"ag",
-   "kind": "page-change",
-   "source": "Federal Register \u2014 public inspection (HHS/CDC), pre-publication",
-   "source_id": "us-fedreg-pubinspect-hhs",
-   "tier": 1,
-   "country": "REG",
-   "category": "advisory",
-   "segments": [
-    "city",
-    "bush"
-   ],
-   "first_seen": "2026-08-29T21:39+03:00",
-   "published": "2026-08-28",
-   "verdict": "OPEN THIS \u2014 tier-1 advisory page moved; content not auto-parsed, read it manually"
-  },
-  {
-   "score": 60.3,
+   "score": 65.3,
    "components": {
     "tier": 40,
     "category": 12,
     "lead": 3.6,
     "relevance": 0,
-    "freshness": 14.7,
+    "freshness": 19.7,
     "undated": -6,
     "page_change": -4
    },
@@ -194,10 +119,10 @@
    "shock_terms": [],
    "dedupe_match": null,
    "dedupe_similarity": 0.0,
-   "id": "d4edccf33068",
+   "id": "792362511f37",
    "title": "[page changed] Jambojet media",
    "url": "https://www.jambojet.com/en/press-release",
-   "summary": "Request unsuccessful. Incapsula incident ID: 699000780056651429-190126807691498385",
+   "summary": "Request unsuccessful. Incapsula incident ID: 409000850112220195-356773037700879697",
    "kind": "page-change",
    "source": "Jambojet media",
    "source_id": "air-jambojet",
@@ -209,316 +134,18 @@
     "bush",
     "beach"
    ],
-   "first_seen": "2026-08-30T02:56+03:00",
+   "first_seen": "2026-08-30T12:17+03:00",
    "published": null,
    "verdict": "OPEN THIS \u2014 tier-1 airline page moved; content not auto-parsed, read it manually"
   },
   {
-   "score": 60.3,
-   "components": {
-    "tier": 40,
-    "category": 12,
-    "lead": 3.6,
-    "relevance": 0,
-    "freshness": 14.7,
-    "undated": -6,
-    "page_change": -4
-   },
-   "keywords": [],
-   "shock_terms": [],
-   "dedupe_match": null,
-   "dedupe_similarity": 0.0,
-   "id": "90c24d93da24",
-   "title": "[page changed] Airlink news",
-   "url": "https://www.flyairlink.com/",
-   "summary": "Request unsuccessful. Incapsula incident ID: 473000030187680618-10957647014068449",
-   "kind": "page-change",
-   "source": "Airlink news",
-   "source_id": "air-airlink",
-   "tier": 1,
-   "country": "REG",
-   "category": "airline",
-   "segments": [
-    "city",
-    "bush",
-    "beach"
-   ],
-   "first_seen": "2026-08-30T02:56+03:00",
-   "published": null,
-   "verdict": "OPEN THIS \u2014 tier-1 airline page moved; content not auto-parsed, read it manually"
-  },
-  {
-   "score": 52.0,
-   "components": {
-    "tier": 40,
-    "category": 12,
-    "lead": 3.6,
-    "relevance": 0,
-    "freshness": 6.4,
-    "undated": -6,
-    "page_change": -4
-   },
-   "keywords": [],
-   "shock_terms": [],
-   "dedupe_match": null,
-   "dedupe_similarity": 0.0,
-   "id": "0e1e20fd1fab",
-   "title": "[page changed] Jambojet media",
-   "url": "https://www.jambojet.com/en/press-release",
-   "summary": "Request unsuccessful. Incapsula incident ID: 1093000040475772299-278718591325765931",
-   "kind": "page-change",
-   "source": "Jambojet media",
-   "source_id": "air-jambojet",
-   "tier": 1,
-   "country": "KE",
-   "category": "airline",
-   "segments": [
-    "city",
-    "bush",
-    "beach"
-   ],
-   "first_seen": "2026-08-29T19:21+03:00",
-   "published": null,
-   "verdict": "OPEN THIS \u2014 tier-1 airline page moved; content not auto-parsed, read it manually"
-  },
-  {
-   "score": 96.7,
-   "components": {
-    "tier": 40,
-    "category": 20,
-    "lead": 12.0,
-    "relevance": 0,
-    "freshness": 14.7,
-    "corroborated": 10
-   },
-   "keywords": [],
-   "shock_terms": [],
-   "dedupe_match": null,
-   "dedupe_similarity": 0.0,
-   "id": "fa6095fb9a12",
-   "title": "Kiambere Mobile Court \u2013 Civil Division \u2013 Daily Cause List \u2013 31 August 2026 to 04 September 2026",
-   "url": "https://new.kenyalaw.org/akn/ke/doc/cause-list-daily/kemc/2026-08-31/2/eng@2026-08-31",
-   "summary": "Kiambere Mobile Court \u2013 Civil Division \u2013 Daily Cause List \u2013 31 August 2026 to 04 September 2026",
-   "kind": "item",
-   "source": "Kenya Gazette (Kenya Law)",
-   "source_id": "ke-gazette",
-   "tier": 1,
-   "country": "KE",
-   "category": "gazette",
-   "segments": [
-    "city",
-    "bush",
-    "beach"
-   ],
-   "first_seen": "2026-08-30T02:56+03:00",
-   "published": "2026-08-31",
-   "verdict": "STRONG \u2014 tier-1, upstream"
-  },
-  {
-   "score": 96.7,
-   "components": {
-    "tier": 40,
-    "category": 20,
-    "lead": 12.0,
-    "relevance": 0,
-    "freshness": 14.7,
-    "corroborated": 10
-   },
-   "keywords": [],
-   "shock_terms": [],
-   "dedupe_match": null,
-   "dedupe_similarity": 0.0,
-   "id": "e52611764f28",
-   "title": "Naivasha Law Courts \u2013 Civil Division \u2013 General Notice \u2013 03 September 2026 to 03 September 2026",
-   "url": "https://new.kenyalaw.org/akn/ke/doc/general_notice/kemc/2026-09-03/1/eng@2026-09-03",
-   "summary": "Naivasha Law Courts \u2013 Civil Division \u2013 General Notice \u2013 03 September 2026 to 03 September 2026",
-   "kind": "item",
-   "source": "Kenya Gazette (Kenya Law)",
-   "source_id": "ke-gazette",
-   "tier": 1,
-   "country": "KE",
-   "category": "gazette",
-   "segments": [
-    "city",
-    "bush",
-    "beach"
-   ],
-   "first_seen": "2026-08-30T02:56+03:00",
-   "published": "2026-09-03",
-   "verdict": "STRONG \u2014 tier-1, upstream"
-  },
-  {
-   "score": 96.7,
-   "components": {
-    "tier": 40,
-    "category": 20,
-    "lead": 12.0,
-    "relevance": 0,
-    "freshness": 14.7,
-    "corroborated": 10
-   },
-   "keywords": [],
-   "shock_terms": [],
-   "dedupe_match": null,
-   "dedupe_similarity": 0.25,
-   "id": "8df02e674549",
-   "title": "Employment and Labour Relations Court at Nairobi \u2013 Daily Cause List \u2013 31 August 2026",
-   "url": "https://new.kenyalaw.org/akn/ke/doc/cause-list-daily/keelrc/2026-08-31/1/eng@2026-08-31",
-   "summary": "Employment and Labour Relations Court at Nairobi \u2013 Daily Cause List \u2013 31 August 2026",
-   "kind": "item",
-   "source": "Kenya Gazette (Kenya Law)",
-   "source_id": "ke-gazette",
-   "tier": 1,
-   "country": "KE",
-   "category": "gazette",
-   "segments": [
-    "city",
-    "bush",
-    "beach"
-   ],
-   "first_seen": "2026-08-30T02:56+03:00",
-   "published": "2026-08-31",
-   "verdict": "STRONG \u2014 tier-1, upstream"
-  },
-  {
-   "score": 96.7,
-   "components": {
-    "tier": 40,
-    "category": 20,
-    "lead": 12.0,
-    "relevance": 0,
-    "freshness": 14.7,
-    "corroborated": 10
-   },
-   "keywords": [],
-   "shock_terms": [],
-   "dedupe_match": null,
-   "dedupe_similarity": 0.0,
-   "id": "ff366e1bc3a7",
-   "title": "Narok Law Courts \u2013 Daily Cause List \u2013 04 September 2026",
-   "url": "https://new.kenyalaw.org/akn/ke/doc/cause-list-daily/kemc/2026-09-04/1/eng@2026-09-04",
-   "summary": "Narok Law Courts \u2013 Daily Cause List \u2013 04 September 2026",
-   "kind": "item",
-   "source": "Kenya Gazette (Kenya Law)",
-   "source_id": "ke-gazette",
-   "tier": 1,
-   "country": "KE",
-   "category": "gazette",
-   "segments": [
-    "city",
-    "bush",
-    "beach"
-   ],
-   "first_seen": "2026-08-30T02:56+03:00",
-   "published": "2026-09-04",
-   "verdict": "STRONG \u2014 tier-1, upstream"
-  },
-  {
-   "score": 96.7,
-   "components": {
-    "tier": 40,
-    "category": 20,
-    "lead": 12.0,
-    "relevance": 0,
-    "freshness": 14.7,
-    "corroborated": 10
-   },
-   "keywords": [],
-   "shock_terms": [],
-   "dedupe_match": null,
-   "dedupe_similarity": 0.0,
-   "id": "c60d228deeca",
-   "title": "Environment and Land Court at Isiolo \u2013 Environment and Land Division \u2013 Daily Cause List \u2013 31 August 2026 to 31 August 2026",
-   "url": "https://new.kenyalaw.org/akn/ke/doc/cause-list-daily/keelc/2026-08-31/1/eng@2026-08-31",
-   "summary": "Environment and Land Court at Isiolo \u2013 Environment and Land Division \u2013 Daily Cause List \u2013 31 August 2026 to 31 August 2026",
-   "kind": "item",
-   "source": "Kenya Gazette (Kenya Law)",
-   "source_id": "ke-gazette",
-   "tier": 1,
-   "country": "KE",
-   "category": "gazette",
-   "segments": [
-    "city",
-    "bush",
-    "beach"
-   ],
-   "first_seen": "2026-08-30T02:56+03:00",
-   "published": "2026-08-31",
-   "verdict": "STRONG \u2014 tier-1, upstream"
-  },
-  {
-   "score": 96.7,
-   "components": {
-    "tier": 40,
-    "category": 20,
-    "lead": 12.0,
-    "relevance": 0,
-    "freshness": 14.7,
-    "corroborated": 10
-   },
-   "keywords": [],
-   "shock_terms": [],
-   "dedupe_match": null,
-   "dedupe_similarity": 0.0,
-   "id": "f49b54f911f7",
-   "title": "HIV and AIDS Tribunal \u2013 Daily Cause List \u2013 03 September 2026 to 03 September 2026",
-   "url": "https://new.kenyalaw.org/akn/ke/doc/cause-list-daily/kehat/2026-09-03/1/eng@2026-09-03",
-   "summary": "HIV and AIDS Tribunal \u2013 Daily Cause List \u2013 03 September 2026 to 03 September 2026",
-   "kind": "item",
-   "source": "Kenya Gazette (Kenya Law)",
-   "source_id": "ke-gazette",
-   "tier": 1,
-   "country": "KE",
-   "category": "gazette",
-   "segments": [
-    "city",
-    "bush",
-    "beach"
-   ],
-   "first_seen": "2026-08-30T02:56+03:00",
-   "published": "2026-09-03",
-   "verdict": "STRONG \u2014 tier-1, upstream"
-  },
-  {
-   "score": 86.7,
-   "components": {
-    "tier": 40,
-    "category": 20,
-    "lead": 12.0,
-    "relevance": 0,
-    "freshness": 14.7
-   },
-   "keywords": [],
-   "shock_terms": [],
-   "dedupe_match": null,
-   "dedupe_similarity": 0.25,
-   "id": "bfc24ef1dff2",
-   "title": "Employment and Labour Relations Court at Nairobi \u2013 Daily Cause List \u2013 28 August 2026",
-   "url": "https://new.kenyalaw.org/akn/ke/doc/cause-list-daily/keelrc/2026-08-28/1/eng@2026-08-28",
-   "summary": "Employment and Labour Relations Court at Nairobi \u2013 Daily Cause List \u2013 28 August 2026",
-   "kind": "item",
-   "source": "Kenya Gazette (Kenya Law)",
-   "source_id": "ke-gazette",
-   "tier": 1,
-   "country": "KE",
-   "category": "gazette",
-   "segments": [
-    "city",
-    "bush",
-    "beach"
-   ],
-   "first_seen": "2026-08-30T02:56+03:00",
-   "published": "2026-08-28",
-   "verdict": "CONSIDER"
-  },
-  {
-   "score": 80.0,
+   "score": 74.7,
    "components": {
     "tier": 20,
     "category": 5,
     "lead": 1.2,
     "relevance": 24,
-    "freshness": 19.8,
+    "freshness": 14.5,
     "corroborated": 10
    },
    "keywords": [
@@ -550,112 +177,86 @@
    "verdict": "CONSIDER"
   },
   {
-   "score": 76.7,
+   "score": 63.7,
    "components": {
-    "tier": 40,
-    "category": 20,
-    "lead": 12.0,
-    "relevance": 0,
-    "freshness": 14.7,
-    "stale_trap": -10
+    "tier": 20,
+    "category": 4,
+    "lead": 0.0,
+    "relevance": 8,
+    "freshness": 19.7,
+    "undated": -6,
+    "shock": 18
    },
-   "keywords": [],
-   "shock_terms": [],
-   "dedupe_match": null,
-   "dedupe_similarity": 0.25,
-   "id": "d622e46d903d",
-   "title": "Employment and Labour Relations Court at Nairobi \u2013 Employment and Labour Division \u2013 Weekly Cause List \u2013 25 August 2026 to 28 August 2026",
-   "url": "https://new.kenyalaw.org/akn/ke/doc/cause-list-weekly/keelrc/2026-08-25/1/eng@2026-08-25",
-   "summary": "Employment and Labour Relations Court at Nairobi \u2013 Employment and Labour Division \u2013 Weekly Cause List \u2013 25 August 2026 to 28 August 2026",
-   "kind": "item",
-   "source": "Kenya Gazette (Kenya Law)",
-   "source_id": "ke-gazette",
-   "tier": 1,
-   "country": "KE",
-   "category": "gazette",
-   "segments": [
-    "city",
-    "bush",
-    "beach"
+   "keywords": [
+    "airport"
    ],
-   "first_seen": "2026-08-30T02:56+03:00",
-   "published": "2026-08-25",
-   "verdict": "CHECK \u2014 source date older than the window"
-  },
-  {
-   "score": 76.7,
-   "components": {
-    "tier": 40,
-    "category": 20,
-    "lead": 12.0,
-    "relevance": 0,
-    "freshness": 14.7,
-    "stale_trap": -10
-   },
-   "keywords": [],
-   "shock_terms": [],
+   "shock_terms": [
+    "attack"
+   ],
    "dedupe_match": null,
    "dedupe_similarity": 0.0,
-   "id": "0aa1bc593ac8",
-   "title": "High Court at Kibera \u2013 Daily Cause List \u2013 25 August 2026",
-   "url": "https://new.kenyalaw.org/akn/ke/doc/cause-list-daily/kehc/2026-08-25/1/eng@2026-08-25",
-   "summary": "High Court at Kibera \u2013 Daily Cause List \u2013 25 August 2026",
+   "id": "3c928fb9a709",
+   "title": "Africa Mutinous soldiers attack airport, presidency in Niger capital 23 hours ago - 3 min read",
+   "url": "https://www.thecitizen.co.tz/tanzania/news/africa/mutinous-soldiers-attack-airport-presidency-in-niger-capital-5575430",
+   "summary": "",
    "kind": "item",
-   "source": "Kenya Gazette (Kenya Law)",
-   "source_id": "ke-gazette",
-   "tier": 1,
-   "country": "KE",
-   "category": "gazette",
+   "source": "The Citizen (Tanzania)",
+   "source_id": "np-citizen-tz",
+   "tier": 2,
+   "country": "TZ",
+   "category": "press",
    "segments": [
     "city",
     "bush",
     "beach"
    ],
-   "first_seen": "2026-08-30T02:56+03:00",
-   "published": "2026-08-25",
-   "verdict": "CHECK \u2014 source date older than the window"
+   "first_seen": "2026-08-30T12:18+03:00",
+   "published": null,
+   "verdict": "weak"
   },
   {
-   "score": 76.7,
-   "components": {
-    "tier": 40,
-    "category": 20,
-    "lead": 12.0,
-    "relevance": 0,
-    "freshness": 14.7,
-    "stale_trap": -10
-   },
-   "keywords": [],
-   "shock_terms": [],
-   "dedupe_match": null,
-   "dedupe_similarity": 0.25,
-   "id": "1a732c19f973",
-   "title": "Employment and Labour Relations Court at Nairobi \u2013 Employment and Labour Division \u2013 Daily Cause List \u2013 27 August 2026 to 27 August 2026",
-   "url": "https://new.kenyalaw.org/akn/ke/doc/cause-list-daily/keelrc/2026-08-27/1/eng@2026-08-27",
-   "summary": "Employment and Labour Relations Court at Nairobi \u2013 Employment and Labour Division \u2013 Daily Cause List \u2013 27 August 2026 to 27 August 2026",
-   "kind": "item",
-   "source": "Kenya Gazette (Kenya Law)",
-   "source_id": "ke-gazette",
-   "tier": 1,
-   "country": "KE",
-   "category": "gazette",
-   "segments": [
-    "city",
-    "bush",
-    "beach"
-   ],
-   "first_seen": "2026-08-30T02:56+03:00",
-   "published": "2026-08-27",
-   "verdict": "CHECK \u2014 source date older than the window"
-  },
-  {
-   "score": 63.8,
+   "score": 61.8,
    "components": {
     "tier": 20,
     "category": 4,
     "lead": 0.0,
     "relevance": 8,
     "freshness": 19.8,
+    "corroborated": 10
+   },
+   "keywords": [
+    "airport"
+   ],
+   "shock_terms": [],
+   "dedupe_match": null,
+   "dedupe_similarity": 0.0,
+   "id": "9473eaf62a0a",
+   "title": "GEL opens global education pathways for Tanzanian students",
+   "url": "https://dailynews.co.tz/gel-opens-global-education-pathways-for-tanzanian-students",
+   "summary": "DAR ES SALAAM: HUNDREDS of Tanzanian students departed the country today for various international universities to pursue higher education opportunities through Global Education Link (GEL). The students, who departed through Terminal 3 of Julius Nyerere International Airport in Dar es Salaam, have largely opted for academic programmes aligned with science, technology and other disciplines that \u2026 T",
+   "kind": "item",
+   "source": "Daily News (Tanzania)",
+   "source_id": "np-dailynews-tz",
+   "tier": 2,
+   "country": "TZ",
+   "category": "press",
+   "segments": [
+    "city",
+    "bush",
+    "beach"
+   ],
+   "first_seen": "2026-08-30T12:18+03:00",
+   "published": "2026-08-29",
+   "verdict": "weak"
+  },
+  {
+   "score": 58.5,
+   "components": {
+    "tier": 20,
+    "category": 4,
+    "lead": 0.0,
+    "relevance": 8,
+    "freshness": 14.5,
     "undated": -6,
     "shock": 18
    },
@@ -687,13 +288,49 @@
    "verdict": "weak"
   },
   {
-   "score": 62.4,
+   "score": 57.7,
+   "components": {
+    "tier": 20,
+    "category": 4,
+    "lead": 0.0,
+    "relevance": 20,
+    "freshness": 19.7,
+    "undated": -6
+   },
+   "keywords": [
+    "suspend",
+    "permit"
+   ],
+   "shock_terms": [],
+   "dedupe_match": null,
+   "dedupe_similarity": 0.0,
+   "id": "d1c856cbfb99",
+   "title": "Business Why govt has suspended issuance of new mineral permits",
+   "url": "https://www.newvision.co.ug/category/business/why-govt-has-suspended-issuance-of-new-minera-NV_239712_082026",
+   "summary": "",
+   "kind": "item",
+   "source": "New Vision (Uganda)",
+   "source_id": "np-newvision-ug",
+   "tier": 2,
+   "country": "UG",
+   "category": "press",
+   "segments": [
+    "city",
+    "bush",
+    "beach"
+   ],
+   "first_seen": "2026-08-30T12:18+03:00",
+   "published": null,
+   "verdict": "weak"
+  },
+  {
+   "score": 57.1,
    "components": {
     "tier": 20,
     "category": 9,
     "lead": 3.6,
     "relevance": 0,
-    "freshness": 19.8,
+    "freshness": 14.5,
     "corroborated": 10
    },
    "keywords": [],
@@ -719,27 +356,59 @@
    "verdict": "weak"
   },
   {
-   "score": 58.7,
+   "score": 56.1,
+   "components": {
+    "tier": 20,
+    "category": 24,
+    "lead": 2.4,
+    "relevance": 0,
+    "freshness": 19.7,
+    "undated": -6,
+    "page_change": -4
+   },
+   "keywords": [],
+   "shock_terms": [],
+   "dedupe_match": null,
+   "dedupe_similarity": 0.0,
+   "id": "989df59ed4fb",
+   "title": "[page changed] ProMED-mail",
+   "url": "https://promedmail.org/",
+   "summary": "Protecting Global Health, One Alert at a Time | ProMED Previous slide Next slide Protecting Global Health, One Alert at a Time ProMED: Your 24/7 early warning system for emerging infectious diseases worldwide. Subscribe ProMED's Weekly Pulse A snapshot of global health events from the past 7 days Latest Posts on ProMED All Date Title Sun Aug 30 2026 INFLUENZA - INDIA (07): (DELHI) H1N1 UPDATE Sun ",
+   "kind": "page-change",
+   "source": "ProMED-mail",
+   "source_id": "promed",
+   "tier": 2,
+   "country": "GLOBAL",
+   "category": "health",
+   "segments": [
+    "city",
+    "bush",
+    "beach"
+   ],
+   "first_seen": "2026-08-30T12:18+03:00",
+   "published": null,
+   "verdict": "weak"
+  },
+  {
+   "score": 55.7,
    "components": {
     "tier": 20,
     "category": 4,
     "lead": 0.0,
-    "relevance": 8,
-    "freshness": 14.7,
+    "relevance": 0,
+    "freshness": 19.7,
     "undated": -6,
     "shock": 18
    },
-   "keywords": [
-    "strike"
-   ],
+   "keywords": [],
    "shock_terms": [
-    "strike"
+    "attack"
    ],
    "dedupe_match": null,
    "dedupe_similarity": 0.0,
-   "id": "749f24014070",
-   "title": "World Russian strike blows up arms depot near Kyiv, killing 37",
-   "url": "https://www.newvision.co.ug/category/world/russian-strike-blows-up-arms-depot-near-kyiv-NV_239707_082026",
+   "id": "d4ef794c3d50",
+   "title": "World Dozens of Israeli settlers attack flashpoint West Bank village",
+   "url": "https://www.newvision.co.ug/category/world/dozens-of-israeli-settlers-attack-flashpoint-NV_239714_082026",
    "summary": "",
    "kind": "item",
    "source": "New Vision (Uganda)",
@@ -752,32 +421,30 @@
     "bush",
     "beach"
    ],
-   "first_seen": "2026-08-30T02:56+03:00",
+   "first_seen": "2026-08-30T12:18+03:00",
    "published": null,
    "verdict": "weak"
   },
   {
-   "score": 58.7,
+   "score": 53.7,
    "components": {
     "tier": 20,
     "category": 4,
     "lead": 0.0,
-    "relevance": 8,
-    "freshness": 14.7,
-    "undated": -6,
-    "shock": 18
+    "relevance": 16,
+    "freshness": 19.7,
+    "undated": -6
    },
    "keywords": [
-    "airport"
+    "protest",
+    "election"
    ],
-   "shock_terms": [
-    "attack"
-   ],
+   "shock_terms": [],
    "dedupe_match": null,
    "dedupe_similarity": 0.0,
-   "id": "19bddbb3e1d6",
-   "title": "Africa Mutinous soldiers attack airport, presidency in Niger capital 13 hours ago - 3 min read",
-   "url": "https://www.thecitizen.co.tz/tanzania/news/africa/mutinous-soldiers-attack-airport-presidency-in-niger-capital-5575430",
+   "id": "ecb763bf74c8",
+   "title": "Lissu, prosecutor clash over election protests, rule of law Aug 28 - 5 min read",
+   "url": "https://www.thecitizen.co.tz/tanzania/news/national/lissu-prosecutor-clash-over-election-protests-rule-of-law-5573928",
    "summary": "",
    "kind": "item",
    "source": "The Citizen (Tanzania)",
@@ -790,51 +457,51 @@
     "bush",
     "beach"
    ],
-   "first_seen": "2026-08-30T02:56+03:00",
+   "first_seen": "2026-08-30T12:18+03:00",
    "published": null,
    "verdict": "weak"
   },
   {
-   "score": 58.5,
+   "score": 53.7,
    "components": {
-    "tier": 40,
-    "category": 12,
-    "lead": 3.6,
+    "tier": 20,
+    "category": 4,
+    "lead": 0.0,
     "relevance": 0,
-    "freshness": 8.9,
-    "undated": -6
+    "freshness": 19.7,
+    "corroborated": 10
    },
    "keywords": [],
    "shock_terms": [],
    "dedupe_match": null,
    "dedupe_similarity": 0.0,
-   "id": "4cd6bee74611",
-   "title": "Kenya Airways wins Four 2026 World Travel Awards",
-   "url": "https://corporate.kenya-airways.com/en/news-press-release/2026/august/kenya-airways-wins-four-world-travel-awards",
-   "summary": "",
+   "id": "2c611ec5a559",
+   "title": "How World Bank sanctions exposed procurement risks in Somalia",
+   "url": "https://www.theeastafrican.co.ke/tea/business-tech/how-world-bank-sanctions-exposed-procurement-risks-somalia-5575246",
+   "summary": "Within six years, the multilateral lender blacklisted six firms for fraud and corruption linked...",
    "kind": "item",
-   "source": "Kenya Airways newsroom",
-   "source_id": "air-kq",
-   "tier": 1,
-   "country": "KE",
-   "category": "airline",
+   "source": "The EastAfrican",
+   "source_id": "np-eastafrican",
+   "tier": 2,
+   "country": "REG",
+   "category": "press",
    "segments": [
     "city",
     "bush",
     "beach"
    ],
-   "first_seen": "2026-08-29T21:39+03:00",
-   "published": null,
+   "first_seen": "2026-08-30T12:18+03:00",
+   "published": "2026-08-30",
    "verdict": "weak"
   },
   {
-   "score": 56.2,
+   "score": 50.9,
    "components": {
     "tier": 20,
     "category": 24,
     "lead": 2.4,
     "relevance": 0,
-    "freshness": 19.8,
+    "freshness": 14.5,
     "undated": -6,
     "page_change": -4
    },
@@ -862,140 +529,59 @@
    "verdict": "weak"
   },
   {
-   "score": 55.0,
+   "score": 49.7,
    "components": {
     "tier": 20,
     "category": 4,
     "lead": 0.0,
-    "relevance": 8,
-    "freshness": 11.0,
-    "undated": -6,
-    "shock": 18
+    "relevance": 12,
+    "freshness": 19.7,
+    "undated": -6
    },
    "keywords": [
-    "airport"
+    "collapse"
    ],
-   "shock_terms": [
-    "attack"
-   ],
+   "shock_terms": [],
    "dedupe_match": null,
-   "dedupe_similarity": 0.12,
-   "id": "08c1e55edbd4",
-   "title": "Africa Mutinous soldiers attack airport, presidency in Niger capital 10 hours ago - 3 min read",
-   "url": "https://www.thecitizen.co.tz/tanzania/news/africa/mutinous-soldiers-attack-airport-presidency-in-niger-capital-5575430",
+   "dedupe_similarity": 0.0,
+   "id": "ccb763a6ae3a",
+   "title": "World Guinea's president visits district hit by landfill disaster At least 34 people were killed when a huge mound of rubbish collapsed onto homes in the Dar es Salam neighbourhood following heavy rains in the early hours of last Sunday. Another 33 people were injured, six of them seriously.",
+   "url": "https://www.newvision.co.ug/category/world/guineas-president-visits-district-hit-by-land-NV_239722_082026",
    "summary": "",
    "kind": "item",
-   "source": "The Citizen (Tanzania)",
-   "source_id": "np-citizen-tz",
+   "source": "New Vision (Uganda)",
+   "source_id": "np-newvision-ug",
    "tier": 2,
-   "country": "TZ",
+   "country": "UG",
    "category": "press",
    "segments": [
     "city",
     "bush",
     "beach"
    ],
-   "first_seen": "2026-08-29T23:33+03:00",
+   "first_seen": "2026-08-30T12:18+03:00",
    "published": null,
    "verdict": "weak"
   },
   {
-   "score": 54.7,
+   "score": 45.7,
    "components": {
-    "tier": 5,
-    "category": 5,
+    "tier": 20,
+    "category": 4,
     "lead": 0.0,
-    "relevance": 20,
-    "freshness": 14.7,
-    "corroborated": 10
+    "relevance": 8,
+    "freshness": 19.7,
+    "undated": -6
    },
    "keywords": [
-    "hotel",
-    "resort",
-    "tourism",
-    "tourist",
-    "beach"
+    "election"
    ],
    "shock_terms": [],
    "dedupe_match": null,
    "dedupe_similarity": 0.17,
-   "id": "056682b17e61",
-   "title": "North Korea\u2019s Wonsan-Kalma Beach Resort Draws Thousands of Tourists",
-   "url": "https://eturbonews.com/north-korea-wonsan-kalma-beach-resort",
-   "summary": "Thousands of tourists are flocking to North Korea\u2019s sprawling Wonsan-Kalma beach resort, where hotels, water parks, restaurants and entertainment venues line the east coast. As Pyongyang expands rail and air connections and showcases the resort to Chinese and Russian visitors, Wonsan-Kalma is emerging as a centerpiece of North Korea\u2019s tourism ambitions. SOURCE: North Korea\u2019s Wonsan-Kalma Beach Res",
-   "kind": "item",
-   "source": "eTurboNews Africa",
-   "source_id": "tp-eturbonews",
-   "tier": 3,
-   "country": "GLOBAL",
-   "category": "trade",
-   "segments": [
-    "city",
-    "bush",
-    "beach"
-   ],
-   "first_seen": "2026-08-30T02:56+03:00",
-   "published": "2026-08-29",
-   "verdict": "weak"
-  },
-  {
-   "score": 53.3,
-   "components": {
-    "tier": 20,
-    "category": 24,
-    "lead": 2.4,
-    "relevance": 8,
-    "freshness": 8.9,
-    "undated": -6,
-    "page_change": -4
-   },
-   "keywords": [
-    "eta"
-   ],
-   "shock_terms": [],
-   "dedupe_match": null,
-   "dedupe_similarity": 0.0,
-   "id": "1ddd32d320e8",
-   "title": "[page changed] ProMED-mail",
-   "url": "https://promedmail.org/",
-   "summary": "Protecting Global Health, One Alert at a Time | ProMED Previous slide Next slide Protecting Global Health, One Alert at a Time ProMED: Your 24/7 early warning system for emerging infectious diseases worldwide. Subscribe ProMED's Weekly Pulse A snapshot of global health events from the past 7 days Latest Posts on ProMED All Date Title Sat Aug 29 2026 HIDATIDOSIS - ARGENTINA: (SALTA) NUEVOS CASOS , ",
-   "kind": "page-change",
-   "source": "ProMED-mail",
-   "source_id": "promed",
-   "tier": 2,
-   "country": "GLOBAL",
-   "category": "health",
-   "segments": [
-    "city",
-    "bush",
-    "beach"
-   ],
-   "first_seen": "2026-08-29T21:39+03:00",
-   "published": null,
-   "verdict": "weak"
-  },
-  {
-   "score": 52.9,
-   "components": {
-    "tier": 20,
-    "category": 4,
-    "lead": 0.0,
-    "relevance": 8,
-    "freshness": 8.9,
-    "undated": -6,
-    "shock": 18
-   },
-   "keywords": [
-    "airport"
-   ],
-   "shock_terms": [
-    "attack"
-   ],
-   "dedupe_match": null,
-   "dedupe_similarity": 0.0,
-   "id": "f99f78acc306",
-   "title": "Africa Mutinous soldiers attack airport, presidency in Niger capital 8 hours ago - 3 min read",
-   "url": "https://www.thecitizen.co.tz/tanzania/news/africa/mutinous-soldiers-attack-airport-presidency-in-niger-capital-5575430",
+   "id": "4551f9283588",
+   "title": "Africa Zambia opposition leader charged with treason days after accusing Tanzania of election interference 48 min ago - 1 min read",
+   "url": "https://www.thecitizen.co.tz/tanzania/news/africa/zambia-opposition-leader-charged-with-treason-days-after-accusing-tanzania-of-election-interference-5576104",
    "summary": "",
    "kind": "item",
    "source": "The Citizen (Tanzania)",
@@ -1008,175 +594,29 @@
     "bush",
     "beach"
    ],
-   "first_seen": "2026-08-29T21:40+03:00",
+   "first_seen": "2026-08-30T12:18+03:00",
    "published": null,
    "verdict": "weak"
   },
   {
-   "score": 52.7,
+   "score": 45.7,
    "components": {
     "tier": 20,
     "category": 4,
     "lead": 0.0,
-    "relevance": 20,
-    "freshness": 14.7,
+    "relevance": 8,
+    "freshness": 19.7,
     "undated": -6
    },
    "keywords": [
-    "suspend",
-    "permit"
+    "flood"
    ],
    "shock_terms": [],
    "dedupe_match": null,
-   "dedupe_similarity": 0.0,
-   "id": "75b277aa506b",
-   "title": "Why govt has suspended issuance of new mineral permits",
-   "url": "https://www.newvision.co.ug/category/business/why-govt-has-suspended-issuance-of-new-minera-NV_239712_082026",
-   "summary": "",
-   "kind": "item",
-   "source": "New Vision (Uganda)",
-   "source_id": "np-newvision-ug",
-   "tier": 2,
-   "country": "UG",
-   "category": "press",
-   "segments": [
-    "city",
-    "bush",
-    "beach"
-   ],
-   "first_seen": "2026-08-30T02:56+03:00",
-   "published": null,
-   "verdict": "weak"
-  },
-  {
-   "score": 51.1,
-   "components": {
-    "tier": 20,
-    "category": 24,
-    "lead": 2.4,
-    "relevance": 0,
-    "freshness": 14.7,
-    "undated": -6,
-    "page_change": -4
-   },
-   "keywords": [],
-   "shock_terms": [],
-   "dedupe_match": null,
-   "dedupe_similarity": 0.0,
-   "id": "c16da57d41f6",
-   "title": "[page changed] ProMED-mail",
-   "url": "https://promedmail.org/",
-   "summary": "Protecting Global Health, One Alert at a Time | ProMED Previous slide Next slide Protecting Global Health, One Alert at a Time ProMED: Your 24/7 early warning system for emerging infectious diseases worldwide. Subscribe ProMED's Weekly Pulse A snapshot of global health events from the past 7 days Latest Posts on ProMED All Date Title Sat Aug 29 2026 \u041b\u0438\u0445\u043e\u0440\u0430\u0434\u043a\u0430 \u0434\u0435\u043d\u0433\u0435 (\u0437\u0430\u0432\u043e\u0437\u043d\u044b\u0435 \u0441\u043b\u0443\u0447\u0430\u0438) - \u041a\u0430\u0437\u0430\u0445\u0441\u0442\u0430\u043d Sa",
-   "kind": "page-change",
-   "source": "ProMED-mail",
-   "source_id": "promed",
-   "tier": 2,
-   "country": "GLOBAL",
-   "category": "health",
-   "segments": [
-    "city",
-    "bush",
-    "beach"
-   ],
-   "first_seen": "2026-08-30T02:56+03:00",
-   "published": null,
-   "verdict": "weak"
-  },
-  {
-   "score": 50.7,
-   "components": {
-    "tier": 5,
-    "category": 5,
-    "lead": 0.0,
-    "relevance": 16,
-    "freshness": 14.7,
-    "corroborated": 10
-   },
-   "keywords": [
-    "airport",
-    "flight",
-    "passenger"
-   ],
-   "shock_terms": [],
-   "dedupe_match": null,
-   "dedupe_similarity": 0.0,
-   "id": "11a045d3ec69",
-   "title": "Africa: Chinua Achebe International Airport Begins Night Flights After Airfield Upgrade, Records 8,624 Flights and 600,000 Passengers Since 2021",
-   "url": "https://atqnews.com/africa-chinua-achebe-international-airport-begins-night-flights-after-airfield-upgrade-records-8624-flights-and-600000-passengers-since-2021",
-   "summary": "UMUERI, ANAMBRA STATE: Chinua Achebe International Airport, Umueri, has entered a new phase of operations with the commencement of night flights following\u2026 The post Africa: Chinua Achebe International Airport Begins Night Flights After Airfield Upgrade, Records 8,624 Flights and 600,000 Passengers Since 2021 appeared first on ATQ News .",
-   "kind": "item",
-   "source": "ATQ News",
-   "source_id": "tp-atqnews",
-   "tier": 3,
-   "country": "REG",
-   "category": "trade",
-   "segments": [
-    "city",
-    "bush",
-    "beach"
-   ],
-   "first_seen": "2026-08-30T02:56+03:00",
-   "published": "2026-08-30",
-   "verdict": "weak"
-  },
-  {
-   "score": 50.7,
-   "components": {
-    "tier": 20,
-    "category": 4,
-    "lead": 0.0,
-    "relevance": 0,
-    "freshness": 14.7,
-    "undated": -6,
-    "shock": 18
-   },
-   "keywords": [],
-   "shock_terms": [
-    "attack"
-   ],
-   "dedupe_match": null,
-   "dedupe_similarity": 0.0,
-   "id": "5d1533f1cd3f",
-   "title": "World Dozens of Israeli settlers attack flashpoint West Bank village On Saturday, Qusra resident Yussef Abdul Kareem Hassan told AFP that a handful of villagers were doing work on a house when they were approached by a small group of settlers.",
-   "url": "https://www.newvision.co.ug/category/world/dozens-of-israeli-settlers-attack-flashpoint-NV_239714_082026",
-   "summary": "",
-   "kind": "item",
-   "source": "New Vision (Uganda)",
-   "source_id": "np-newvision-ug",
-   "tier": 2,
-   "country": "UG",
-   "category": "press",
-   "segments": [
-    "city",
-    "bush",
-    "beach"
-   ],
-   "first_seen": "2026-08-30T02:56+03:00",
-   "published": null,
-   "verdict": "weak"
-  },
-  {
-   "score": 50.4,
-   "components": {
-    "tier": 20,
-    "category": 4,
-    "lead": 0.0,
-    "relevance": 8,
-    "freshness": 6.4,
-    "undated": -6,
-    "shock": 18
-   },
-   "keywords": [
-    "airport"
-   ],
-   "shock_terms": [
-    "attack"
-   ],
-   "dedupe_match": null,
-   "dedupe_similarity": 0.0,
-   "id": "b18a36bea5c6",
-   "title": "Africa Mutinous soldiers attack airport, presidency in Niger capital 5 hours ago - 3 min read",
-   "url": "https://www.thecitizen.co.tz/tanzania/news/africa/mutinous-soldiers-attack-airport-presidency-in-niger-capital-5575430",
+   "dedupe_similarity": 0.2,
+   "id": "37e3f183aef7",
+   "title": "international Death toll from Himalayan floods hits 750 as 3,000 still missing in Nepal-Tibet 1 hour ago - 3 min read",
+   "url": "https://www.thecitizen.co.tz/tanzania/news/international/death-toll-from-himalayan-floods-hits-750-as-3-000-still-missing-in-nepal-tibet-5576092",
    "summary": "",
    "kind": "item",
    "source": "The Citizen (Tanzania)",
@@ -1189,19 +629,54 @@
     "bush",
     "beach"
    ],
-   "first_seen": "2026-08-29T19:21+03:00",
+   "first_seen": "2026-08-30T12:18+03:00",
    "published": null,
    "verdict": "weak"
   },
   {
-   "score": 49.0,
+   "score": 45.7,
+   "components": {
+    "tier": 20,
+    "category": 4,
+    "lead": 0.0,
+    "relevance": 8,
+    "freshness": 19.7,
+    "undated": -6
+   },
+   "keywords": [
+    "electricity"
+   ],
+   "shock_terms": [],
+   "dedupe_match": null,
+   "dedupe_similarity": 0.0,
+   "id": "a35380f9b362",
+   "title": "Industry Kenya electricity imports rise further to avert rationing 3 hours ago - 3 min read",
+   "url": "https://www.businessdailyafrica.com/bd/corporate/industry/kenya-electricity-imports-rise-further-to-avert-rationing-5575112",
+   "summary": "",
+   "kind": "item",
+   "source": "Business Daily Africa",
+   "source_id": "np-businessdaily",
+   "tier": 2,
+   "country": "KE",
+   "category": "press",
+   "segments": [
+    "city",
+    "bush",
+    "beach"
+   ],
+   "first_seen": "2026-08-30T12:18+03:00",
+   "published": null,
+   "verdict": "weak"
+  },
+  {
+   "score": 41.7,
    "components": {
     "tier": 20,
     "category": 4,
     "lead": 0.0,
     "relevance": 4,
-    "freshness": 11.0,
-    "corroborated": 10
+    "freshness": 19.7,
+    "undated": -6
    },
    "keywords": [
     "investment"
@@ -1209,69 +684,69 @@
    "shock_terms": [],
    "dedupe_match": null,
    "dedupe_similarity": 0.0,
-   "id": "0c4b542e0252",
-   "title": "NWSC seeks Shs650b to boost water supply in 50 towns",
-   "url": "https://www.monitor.co.ug/uganda/news/national/nwsc-seeks-shs650b-to-boost-water-supply-in-50-towns-5575814",
-   "summary": "Eng Mugisha said the investment is necessary because water demand is increasingly outstripping...",
+   "id": "0fb0f07693da",
+   "title": "Business East Africa property players to explore investment opportunities at Dar expo Aug 28 - 4 min read",
+   "url": "https://www.thecitizen.co.tz/tanzania/business/east-africa-property-players-to-explore-investment-opportunities-at-dar-expo-5574040",
+   "summary": "",
    "kind": "item",
-   "source": "Daily Monitor (Uganda)",
-   "source_id": "np-monitor-ug",
+   "source": "The Citizen (Tanzania)",
+   "source_id": "np-citizen-tz",
    "tier": 2,
-   "country": "UG",
+   "country": "TZ",
    "category": "press",
    "segments": [
     "city",
     "bush",
     "beach"
    ],
-   "first_seen": "2026-08-29T23:33+03:00",
-   "published": "2026-08-29",
+   "first_seen": "2026-08-30T12:18+03:00",
+   "published": null,
    "verdict": "weak"
   },
   {
-   "score": 46.9,
+   "score": 41.7,
    "components": {
     "tier": 20,
     "category": 4,
     "lead": 0.0,
     "relevance": 4,
-    "freshness": 8.9,
-    "corroborated": 10
+    "freshness": 19.7,
+    "undated": -6
    },
    "keywords": [
-    "camp"
+    "tourist"
    ],
    "shock_terms": [],
    "dedupe_match": null,
-   "dedupe_similarity": 0.17,
-   "id": "15236b75561b",
-   "title": "IGP Namuhoranye Reveals How More Than 50 Young People Were Found Drugged in House Party",
-   "url": "https://www.ktpress.rw/2026/08/igp-namuhoranye-reveals-how-more-than-50-young-people-were-found-drugged-in-house-party",
-   "summary": "KIGALI \u2014 Rwanda on Saturday combined its monthly community work, Umuganda, with a nationwide campaign against alcohol and drug abuse, as authorities stepped up efforts to combat the use of\u2026 The post IGP Namuhoranye Reveals How More Than 50 Young People Were Found Drugged in House Party appeared first on KT PRESS .",
+   "dedupe_similarity": 0.25,
+   "id": "669329765872",
+   "title": "Sound Living Beads, bone and brass: The wearable art that\u2019s drawing tourists to Zanzibar BY Anganile Mwakyanjala Yesterday - 6 min read",
+   "url": "https://www.thecitizen.co.tz/tanzania/magazines/sound-living/beads-bone-and-brass-the-wearable-art-that-s-drawing-tourists-to-zanzibar-5574166",
+   "summary": "",
    "kind": "item",
-   "source": "KT Press (Rwanda)",
-   "source_id": "np-ktpress-rw",
+   "source": "The Citizen (Tanzania)",
+   "source_id": "np-citizen-tz",
    "tier": 2,
-   "country": "RW",
+   "country": "TZ",
    "category": "press",
    "segments": [
     "city",
     "bush",
     "beach"
    ],
-   "first_seen": "2026-08-29T21:40+03:00",
-   "published": "2026-08-29",
+   "first_seen": "2026-08-30T12:18+03:00",
+   "published": null,
    "verdict": "weak"
   },
   {
-   "score": 46.9,
+   "score": 41.7,
    "components": {
     "tier": 20,
     "category": 4,
     "lead": 0.0,
     "relevance": 4,
-    "freshness": 8.9,
-    "corroborated": 10
+    "freshness": 19.7,
+    "undated": -6
    },
    "keywords": [
     "summit"
@@ -1279,83 +754,46 @@
    "shock_terms": [],
    "dedupe_match": null,
    "dedupe_similarity": 0.0,
-   "id": "c78c31e531a0",
-   "title": "PM is in Angola for AU Peace and Security Summit",
-   "url": "https://www.ktpress.rw/2026/08/pm-is-in-angola-for-au-peace-and-security-summit",
-   "summary": "KIGALI \u2014 Prime Minister Justin Nsengiyumva has arrived in Luanda, Angola, where he will represent President Paul Kagame at an African Union summit focused on strengthening the continent\u2019s response to\u2026 The post PM is in Angola for AU Peace and Security Summit appeared first on KT PRESS .",
+   "id": "265e04cf663c",
+   "title": "Football Toure, Nzengeli keep Yanga flying, overtake Simba at summit Yesterday - 3 min read",
+   "url": "https://www.thecitizen.co.tz/tanzania/sports/football/toure-nzengeli-keep-yanga-flying-overtake-simba-at-summit-5575314",
+   "summary": "",
    "kind": "item",
-   "source": "KT Press (Rwanda)",
-   "source_id": "np-ktpress-rw",
+   "source": "The Citizen (Tanzania)",
+   "source_id": "np-citizen-tz",
    "tier": 2,
-   "country": "RW",
+   "country": "TZ",
    "category": "press",
    "segments": [
     "city",
     "bush",
     "beach"
    ],
-   "first_seen": "2026-08-29T21:40+03:00",
-   "published": "2026-08-29",
+   "first_seen": "2026-08-30T12:18+03:00",
+   "published": null,
    "verdict": "weak"
   },
   {
-   "score": 46.7,
-   "components": {
-    "tier": 5,
-    "category": 5,
-    "lead": 0.0,
-    "relevance": 12,
-    "freshness": 14.7,
-    "corroborated": 10
-   },
-   "keywords": [
-    "resort",
-    "tourism",
-    "flight"
-   ],
-   "shock_terms": [],
-   "dedupe_match": null,
-   "dedupe_similarity": 0.0,
-   "id": "b99d9389aed9",
-   "title": "Africa: Obudu Ranch Resort to Close September 1, Eyes World-Class Tourism Destination",
-   "url": "https://atqnews.com/africa-obudu-ranch-resort-to-close-september-1-eyes-world-class-tourism-destination",
-   "summary": "The successful test-run flight at Bebi Airstrip marks a significant milestone in the ongoing efforts to reposition Obudu as a world-class tourism\u2026 The post Africa: Obudu Ranch Resort to Close September 1, Eyes World-Class Tourism Destination appeared first on ATQ News .",
-   "kind": "item",
-   "source": "ATQ News",
-   "source_id": "tp-atqnews",
-   "tier": 3,
-   "country": "REG",
-   "category": "trade",
-   "segments": [
-    "city",
-    "bush",
-    "beach"
-   ],
-   "first_seen": "2026-08-30T02:56+03:00",
-   "published": "2026-08-30",
-   "verdict": "weak"
-  },
-  {
-   "score": 45.0,
+   "score": 37.7,
    "components": {
     "tier": 20,
     "category": 4,
     "lead": 0.0,
     "relevance": 0,
-    "freshness": 11.0,
-    "corroborated": 10
+    "freshness": 19.7,
+    "undated": -6
    },
    "keywords": [],
    "shock_terms": [],
    "dedupe_match": null,
    "dedupe_similarity": 0.0,
-   "id": "2d1e563c8536",
-   "title": "Why Kampala cannot stop dancing to its past",
-   "url": "https://www.monitor.co.ug/uganda/lifestyle/why-kampala-cannot-stop-dancing-to-its-past-5575912",
-   "summary": "In Kampala, old-school music parties are no longer occasional throwbacks. They are becoming a...",
+   "id": "b9555804380a",
+   "title": "News Diplomatic experts urge Africa to unite against rising Afrophobia",
+   "url": "https://www.newvision.co.ug/category/news/diplomatic-experts-urge-africa-to-unite-again-NV_239706_082026",
+   "summary": "",
    "kind": "item",
-   "source": "Daily Monitor (Uganda)",
-   "source_id": "np-monitor-ug",
+   "source": "New Vision (Uganda)",
+   "source_id": "np-newvision-ug",
    "tier": 2,
    "country": "UG",
    "category": "press",
@@ -1364,31 +802,31 @@
     "bush",
     "beach"
    ],
-   "first_seen": "2026-08-29T23:33+03:00",
-   "published": "2026-08-29",
+   "first_seen": "2026-08-30T12:18+03:00",
+   "published": null,
    "verdict": "weak"
   },
   {
-   "score": 45.0,
+   "score": 37.7,
    "components": {
     "tier": 20,
     "category": 4,
     "lead": 0.0,
     "relevance": 0,
-    "freshness": 11.0,
-    "corroborated": 10
+    "freshness": 19.7,
+    "undated": -6
    },
    "keywords": [],
    "shock_terms": [],
    "dedupe_match": null,
    "dedupe_similarity": 0.0,
-   "id": "19e5930761fc",
-   "title": "EAC women lawyers push for deal to ease cross-border practice",
-   "url": "https://www.monitor.co.ug/uganda/news/national/eac-women-lawyers-push-for-deal-to-ease-cross-border-practice-5575836",
-   "summary": "The absence of the agreement continues to make cross-border legal practice difficult despite...",
+   "id": "1e175437f8b9",
+   "title": "Education West Nile pride at stake as Muni eyes Ultimate University Quiz crown",
+   "url": "https://www.newvision.co.ug/category/education/west-nile-pride-at-stake-as-muni-eyes-ultimat-NV_239720_082026",
+   "summary": "",
    "kind": "item",
-   "source": "Daily Monitor (Uganda)",
-   "source_id": "np-monitor-ug",
+   "source": "New Vision (Uganda)",
+   "source_id": "np-newvision-ug",
    "tier": 2,
    "country": "UG",
    "category": "press",
@@ -1397,8 +835,536 @@
     "bush",
     "beach"
    ],
-   "first_seen": "2026-08-29T23:33+03:00",
-   "published": "2026-08-29",
+   "first_seen": "2026-08-30T12:18+03:00",
+   "published": null,
+   "verdict": "weak"
+  },
+  {
+   "score": 37.7,
+   "components": {
+    "tier": 20,
+    "category": 4,
+    "lead": 0.0,
+    "relevance": 0,
+    "freshness": 19.7,
+    "undated": -6
+   },
+   "keywords": [],
+   "shock_terms": [],
+   "dedupe_match": null,
+   "dedupe_similarity": 0.17,
+   "id": "365c2ebe599b",
+   "title": "World Niger junta says it is back in control after soldiers' mutiny",
+   "url": "https://www.newvision.co.ug/category/world/niger-junta-says-it-is-back-in-control-after-NV_239721_082026",
+   "summary": "",
+   "kind": "item",
+   "source": "New Vision (Uganda)",
+   "source_id": "np-newvision-ug",
+   "tier": 2,
+   "country": "UG",
+   "category": "press",
+   "segments": [
+    "city",
+    "bush",
+    "beach"
+   ],
+   "first_seen": "2026-08-30T12:18+03:00",
+   "published": null,
+   "verdict": "weak"
+  },
+  {
+   "score": 37.7,
+   "components": {
+    "tier": 20,
+    "category": 4,
+    "lead": 0.0,
+    "relevance": 0,
+    "freshness": 19.7,
+    "undated": -6
+   },
+   "keywords": [],
+   "shock_terms": [],
+   "dedupe_match": null,
+   "dedupe_similarity": 0.0,
+   "id": "5257d96dc212",
+   "title": "Online Church Online Church: @Our Lady of Africa Church Mbuya today, August 30, 2026",
+   "url": "https://www.newvision.co.ug/category/entertainment/online-church-our-lady-of-africa-church-mbuya-NV_239717_082026",
+   "summary": "",
+   "kind": "item",
+   "source": "New Vision (Uganda)",
+   "source_id": "np-newvision-ug",
+   "tier": 2,
+   "country": "UG",
+   "category": "press",
+   "segments": [
+    "city",
+    "bush",
+    "beach"
+   ],
+   "first_seen": "2026-08-30T12:18+03:00",
+   "published": null,
+   "verdict": "weak"
+  },
+  {
+   "score": 37.7,
+   "components": {
+    "tier": 20,
+    "category": 4,
+    "lead": 0.0,
+    "relevance": 0,
+    "freshness": 19.7,
+    "undated": -6
+   },
+   "keywords": [],
+   "shock_terms": [],
+   "dedupe_match": null,
+   "dedupe_similarity": 0.0,
+   "id": "ee0cc3afb719",
+   "title": "Online Church Online Church: @Worship Harvest Today - August 30, 2026",
+   "url": "https://www.newvision.co.ug/category/entertainment/online-church-worship-harvest-today---august-NV_239716_082026",
+   "summary": "",
+   "kind": "item",
+   "source": "New Vision (Uganda)",
+   "source_id": "np-newvision-ug",
+   "tier": 2,
+   "country": "UG",
+   "category": "press",
+   "segments": [
+    "city",
+    "bush",
+    "beach"
+   ],
+   "first_seen": "2026-08-30T12:18+03:00",
+   "published": null,
+   "verdict": "weak"
+  },
+  {
+   "score": 37.7,
+   "components": {
+    "tier": 20,
+    "category": 4,
+    "lead": 0.0,
+    "relevance": 0,
+    "freshness": 19.7,
+    "undated": -6
+   },
+   "keywords": [],
+   "shock_terms": [],
+   "dedupe_match": null,
+   "dedupe_similarity": 0.0,
+   "id": "7d71b4ca6e53",
+   "title": "Online Church Online Church: @All Saints Cathedral today, August 30, 2026",
+   "url": "https://www.newvision.co.ug/category/entertainment/online-church-all-saints-cathedral-today-augu-NV_239715_082026",
+   "summary": "",
+   "kind": "item",
+   "source": "New Vision (Uganda)",
+   "source_id": "np-newvision-ug",
+   "tier": 2,
+   "country": "UG",
+   "category": "press",
+   "segments": [
+    "city",
+    "bush",
+    "beach"
+   ],
+   "first_seen": "2026-08-30T12:18+03:00",
+   "published": null,
+   "verdict": "weak"
+  },
+  {
+   "score": 37.7,
+   "components": {
+    "tier": 20,
+    "category": 4,
+    "lead": 0.0,
+    "relevance": 0,
+    "freshness": 19.7,
+    "undated": -6
+   },
+   "keywords": [],
+   "shock_terms": [],
+   "dedupe_match": null,
+   "dedupe_similarity": 0.0,
+   "id": "f6c1e3ee1917",
+   "title": "Harry Kane Kane confirms talks on Bayern extension \u00b7 1 min read",
+   "url": "https://www.newvision.co.ug/category/sports/kane-confirms-talks-on-bayern-extension-NV_239726_082026",
+   "summary": "",
+   "kind": "item",
+   "source": "New Vision (Uganda)",
+   "source_id": "np-newvision-ug",
+   "tier": 2,
+   "country": "UG",
+   "category": "press",
+   "segments": [
+    "city",
+    "bush",
+    "beach"
+   ],
+   "first_seen": "2026-08-30T12:18+03:00",
+   "published": null,
+   "verdict": "weak"
+  },
+  {
+   "score": 37.7,
+   "components": {
+    "tier": 20,
+    "category": 4,
+    "lead": 0.0,
+    "relevance": 0,
+    "freshness": 19.7,
+    "undated": -6
+   },
+   "keywords": [],
+   "shock_terms": [],
+   "dedupe_match": null,
+   "dedupe_similarity": 0.33,
+   "id": "5f4e27f72a08",
+   "title": "Women\u2019s African Nations Volleyball Championship Uganda reach CAVB quarterfinals after sweeping aside DRC",
+   "url": "https://www.newvision.co.ug/category/health/uganda-reach-cavb-quarterfinals-after-sweepin",
+   "summary": "",
+   "kind": "item",
+   "source": "New Vision (Uganda)",
+   "source_id": "np-newvision-ug",
+   "tier": 2,
+   "country": "UG",
+   "category": "press",
+   "segments": [
+    "city",
+    "bush",
+    "beach"
+   ],
+   "first_seen": "2026-08-30T12:18+03:00",
+   "published": null,
+   "verdict": "weak"
+  },
+  {
+   "score": 37.7,
+   "components": {
+    "tier": 20,
+    "category": 4,
+    "lead": 0.0,
+    "relevance": 0,
+    "freshness": 19.7,
+    "undated": -6
+   },
+   "keywords": [],
+   "shock_terms": [],
+   "dedupe_match": null,
+   "dedupe_similarity": 0.33,
+   "id": "7440f5d272da",
+   "title": "Zambian Dominic Musonda Zambia's Musonda wins Uganda Amateur Golf Open",
+   "url": "https://www.newvision.co.ug/category/health/zambias-musonda-wins-uganda-amateur-golf-open",
+   "summary": "",
+   "kind": "item",
+   "source": "New Vision (Uganda)",
+   "source_id": "np-newvision-ug",
+   "tier": 2,
+   "country": "UG",
+   "category": "press",
+   "segments": [
+    "city",
+    "bush",
+    "beach"
+   ],
+   "first_seen": "2026-08-30T12:18+03:00",
+   "published": null,
+   "verdict": "weak"
+  },
+  {
+   "score": 37.7,
+   "components": {
+    "tier": 20,
+    "category": 4,
+    "lead": 0.0,
+    "relevance": 0,
+    "freshness": 19.7,
+    "undated": -6
+   },
+   "keywords": [],
+   "shock_terms": [],
+   "dedupe_match": null,
+   "dedupe_similarity": 0.0,
+   "id": "a1f6796ffb77",
+   "title": "Kawempe Muslim Ladies Kawempe eye Champions League ticket after reaching CECAFA final",
+   "url": "https://www.newvision.co.ug/category/health/kawempe-eye-champions-league-ticket-after-rea",
+   "summary": "",
+   "kind": "item",
+   "source": "New Vision (Uganda)",
+   "source_id": "np-newvision-ug",
+   "tier": 2,
+   "country": "UG",
+   "category": "press",
+   "segments": [
+    "city",
+    "bush",
+    "beach"
+   ],
+   "first_seen": "2026-08-30T12:18+03:00",
+   "published": null,
+   "verdict": "weak"
+  },
+  {
+   "score": 37.7,
+   "components": {
+    "tier": 20,
+    "category": 4,
+    "lead": 0.0,
+    "relevance": 0,
+    "freshness": 19.7,
+    "undated": -6
+   },
+   "keywords": [],
+   "shock_terms": [],
+   "dedupe_match": null,
+   "dedupe_similarity": 0.0,
+   "id": "6a40440d0d90",
+   "title": "Lifeguard Rams Gulu 7s: Rams set sights on Buffaloes after another Pirates upset",
+   "url": "https://www.newvision.co.ug/category/health/gulu-7s-rams-set-sights-on-buffaloes-after-an",
+   "summary": "",
+   "kind": "item",
+   "source": "New Vision (Uganda)",
+   "source_id": "np-newvision-ug",
+   "tier": 2,
+   "country": "UG",
+   "category": "press",
+   "segments": [
+    "city",
+    "bush",
+    "beach"
+   ],
+   "first_seen": "2026-08-30T12:18+03:00",
+   "published": null,
+   "verdict": "weak"
+  },
+  {
+   "score": 37.7,
+   "components": {
+    "tier": 20,
+    "category": 4,
+    "lead": 0.0,
+    "relevance": 0,
+    "freshness": 19.7,
+    "undated": -6
+   },
+   "keywords": [],
+   "shock_terms": [],
+   "dedupe_match": null,
+   "dedupe_similarity": 0.0,
+   "id": "957f69c083be",
+   "title": "National Beyond Magufuli: Solving upcountry bus challenges Yesterday - 4 min read",
+   "url": "https://www.thecitizen.co.tz/tanzania/news/national/beyond-magufuli-solving-upcountry-bus-challenges-5573916",
+   "summary": "",
+   "kind": "item",
+   "source": "The Citizen (Tanzania)",
+   "source_id": "np-citizen-tz",
+   "tier": 2,
+   "country": "TZ",
+   "category": "press",
+   "segments": [
+    "city",
+    "bush",
+    "beach"
+   ],
+   "first_seen": "2026-08-30T12:18+03:00",
+   "published": null,
+   "verdict": "weak"
+  },
+  {
+   "score": 37.7,
+   "components": {
+    "tier": 20,
+    "category": 4,
+    "lead": 0.0,
+    "relevance": 0,
+    "freshness": 19.7,
+    "undated": -6
+   },
+   "keywords": [],
+   "shock_terms": [],
+   "dedupe_match": null,
+   "dedupe_similarity": 0.0,
+   "id": "d2e0836a55a3",
+   "title": "National Why Nchimbi\u2019s political journey may not be over Yesterday - 7 min read",
+   "url": "https://www.thecitizen.co.tz/tanzania/news/national/why-nchimbi-s-political-journey-may-not-be-over-5573904",
+   "summary": "",
+   "kind": "item",
+   "source": "The Citizen (Tanzania)",
+   "source_id": "np-citizen-tz",
+   "tier": 2,
+   "country": "TZ",
+   "category": "press",
+   "segments": [
+    "city",
+    "bush",
+    "beach"
+   ],
+   "first_seen": "2026-08-30T12:18+03:00",
+   "published": null,
+   "verdict": "weak"
+  },
+  {
+   "score": 37.7,
+   "components": {
+    "tier": 20,
+    "category": 4,
+    "lead": 0.0,
+    "relevance": 0,
+    "freshness": 19.7,
+    "undated": -6
+   },
+   "keywords": [],
+   "shock_terms": [],
+   "dedupe_match": null,
+   "dedupe_similarity": 0.17,
+   "id": "0a0dfb1b16fa",
+   "title": "National Tanzania warned against rushing into new Constitution before national healing Yesterday - 6 min read",
+   "url": "https://www.thecitizen.co.tz/tanzania/news/national/tanzania-warned-against-rushing-into-new-constitution-before-national-healing-5575024",
+   "summary": "",
+   "kind": "item",
+   "source": "The Citizen (Tanzania)",
+   "source_id": "np-citizen-tz",
+   "tier": 2,
+   "country": "TZ",
+   "category": "press",
+   "segments": [
+    "city",
+    "bush",
+    "beach"
+   ],
+   "first_seen": "2026-08-30T12:18+03:00",
+   "published": null,
+   "verdict": "weak"
+  },
+  {
+   "score": 37.7,
+   "components": {
+    "tier": 20,
+    "category": 4,
+    "lead": 0.0,
+    "relevance": 0,
+    "freshness": 19.7,
+    "undated": -6
+   },
+   "keywords": [],
+   "shock_terms": [],
+   "dedupe_match": null,
+   "dedupe_similarity": 0.0,
+   "id": "db816d441e20",
+   "title": "National Nchimbi ceased to be Vice President on August 26 after losing CCM membership, Attorney General says Yesterday - 4 min read",
+   "url": "https://www.thecitizen.co.tz/tanzania/news/national/nchimbi-ceased-to-be-vice-president-on-august-26-after-losing-ccm-membership-attorney-general-says-5574376",
+   "summary": "",
+   "kind": "item",
+   "source": "The Citizen (Tanzania)",
+   "source_id": "np-citizen-tz",
+   "tier": 2,
+   "country": "TZ",
+   "category": "press",
+   "segments": [
+    "city",
+    "bush",
+    "beach"
+   ],
+   "first_seen": "2026-08-30T12:18+03:00",
+   "published": null,
+   "verdict": "weak"
+  },
+  {
+   "score": 37.7,
+   "components": {
+    "tier": 20,
+    "category": 4,
+    "lead": 0.0,
+    "relevance": 0,
+    "freshness": 19.7,
+    "undated": -6
+   },
+   "keywords": [],
+   "shock_terms": [],
+   "dedupe_match": null,
+   "dedupe_similarity": 0.17,
+   "id": "0a25d0ded070",
+   "title": "Tanzania now targets return to Africa\u2019s top cashew crown Aug 28 - 3 min read",
+   "url": "https://www.thecitizen.co.tz/tanzania/news/national/tanzania-now-targets-return-to-africa-s-top-cashew-crown-5573912",
+   "summary": "",
+   "kind": "item",
+   "source": "The Citizen (Tanzania)",
+   "source_id": "np-citizen-tz",
+   "tier": 2,
+   "country": "TZ",
+   "category": "press",
+   "segments": [
+    "city",
+    "bush",
+    "beach"
+   ],
+   "first_seen": "2026-08-30T12:18+03:00",
+   "published": null,
+   "verdict": "weak"
+  },
+  {
+   "score": 37.7,
+   "components": {
+    "tier": 20,
+    "category": 4,
+    "lead": 0.0,
+    "relevance": 0,
+    "freshness": 19.7,
+    "undated": -6
+   },
+   "keywords": [],
+   "shock_terms": [],
+   "dedupe_match": null,
+   "dedupe_similarity": 0.17,
+   "id": "b6879fb5d1f0",
+   "title": "Tanzania, China pursue new chapter in SOE cooperation Aug 28 - 3 min read",
+   "url": "https://www.thecitizen.co.tz/tanzania/news/national/tanzania-china-pursue-new-chapter-in-soe-cooperation-5573922",
+   "summary": "",
+   "kind": "item",
+   "source": "The Citizen (Tanzania)",
+   "source_id": "np-citizen-tz",
+   "tier": 2,
+   "country": "TZ",
+   "category": "press",
+   "segments": [
+    "city",
+    "bush",
+    "beach"
+   ],
+   "first_seen": "2026-08-30T12:18+03:00",
+   "published": null,
+   "verdict": "weak"
+  },
+  {
+   "score": 37.7,
+   "components": {
+    "tier": 20,
+    "category": 4,
+    "lead": 0.0,
+    "relevance": 0,
+    "freshness": 19.7,
+    "undated": -6
+   },
+   "keywords": [],
+   "shock_terms": [],
+   "dedupe_match": null,
+   "dedupe_similarity": 0.25,
+   "id": "3e1507102198",
+   "title": "Zanzibar Football stadium security goes beyond ticket checks Aug 28 - 6 min read",
+   "url": "https://www.thecitizen.co.tz/tanzania/zanzibar/football-stadium-security-goes-beyond-ticket-checks-5573988",
+   "summary": "",
+   "kind": "item",
+   "source": "The Citizen (Tanzania)",
+   "source_id": "np-citizen-tz",
+   "tier": 2,
+   "country": "TZ",
+   "category": "press",
+   "segments": [
+    "city",
+    "bush",
+    "beach"
+   ],
+   "first_seen": "2026-08-30T12:18+03:00",
+   "published": null,
    "verdict": "weak"
   }
  ]
