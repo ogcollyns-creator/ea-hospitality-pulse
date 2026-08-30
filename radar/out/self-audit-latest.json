@@ -1,6 +1,6 @@
 {
- "generated": "2026-08-29T12:23+03:00",
- "health": 0.4,
+ "generated": "2026-08-30T11:33+03:00",
+ "health": 0.467,
  "grade": "D",
  "fails": [
   "source coverage",
@@ -9,7 +9,6 @@
   "ledger hygiene"
  ],
  "warns": [
-  "radar feed freshness",
   "signal quality",
   "data freshness",
   "rate-index integrity"
@@ -31,15 +30,15 @@
   },
   {
    "name": "radar feed freshness",
-   "status": "WARN",
-   "detail": "495 in-window obs; newest observation 6.6h old (2026-08-29T05:45:00+03:00).",
-   "fix": "Top up with a bounded scan before the edition.",
-   "score": 0.5
+   "status": "PASS",
+   "detail": "148 in-window obs; newest observation 4.1h old (2026-08-30T07:30:00+03:00).",
+   "fix": "",
+   "score": 1.0
   },
   {
    "name": "edition cadence",
    "status": "FAIL",
-   "detail": "Missing slots (last 2 full days): 2026-08-28 morning, 2026-08-28 evening, 2026-08-27 morning, 2026-08-27 midday",
+   "detail": "Missing slots (last 2 full days): 2026-08-29 morning, 2026-08-29 midday, 2026-08-29 evening, 2026-08-28 morning, 2026-08-28 evening",
    "fix": "Confirm the scheduled Pulse task fired for each slot.",
    "score": 0.0
   },
@@ -60,7 +59,7 @@
   {
    "name": "data freshness",
    "status": "WARN",
-   "detail": "Stale/again-verify: costs.js 14d>10, calendar.js 31d>21",
+   "detail": "Stale/again-verify: costs.js 15d>10, calendar.js 32d>21",
    "fix": "Re-verify each dataset's values and bump its 'updated:' field, or note it in-edition.",
    "score": 0.5
   },
@@ -74,14 +73,14 @@
   {
    "name": "forecast throughput",
    "status": "PASS",
-   "detail": "27 new falsifiable calls logged in last 7d.",
+   "detail": "26 new falsifiable calls logged in last 7d.",
    "fix": "",
    "score": 1.0
   },
   {
    "name": "published content",
    "status": "PASS",
-   "detail": "4 recent editions; no advisory claim contradicts the board.",
+   "detail": "3 recent editions; no advisory claim contradicts the board.",
    "fix": "",
    "score": 1.0
   }
