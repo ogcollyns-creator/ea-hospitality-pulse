@@ -1,31 +1,15 @@
 window.LEDGER = {
- "updated": "2026-08-28 10:07",
+ "updated": "2026-08-31 08:47",
  "stats": {
-  "total": 137,
+  "total": 140,
   "open": 113,
-  "resolved": 23,
-  "correct": 17,
+  "resolved": 26,
+  "correct": 20,
   "partial": 1,
   "incorrect": 5,
-  "accuracy": 76
+  "accuracy": 79
  },
  "open": [
-  {
-   "id": "P032",
-   "made_date": "2026-07-28",
-   "edition": "Evening Wrap",
-   "claim": "Uganda will record no new confirmed Bundibugyo case before 27 August 2026 and will complete the 42-day countdown — zero active contacts as at 28 July holds",
-   "resolution_criteria": "Uganda Ministry of Health EVD dashboard (evd-daily.health.go.ug) or WHO AFRO showing cumulative confirmed cases still at 20 on 27 Aug 2026",
-   "resolve_by": "2026-08-28",
-   "market": "UG",
-   "segment": "Bush/City",
-   "confidence": "Early signal",
-   "status": "open",
-   "resolved_date": "",
-   "evidence": "",
-   "source_url": "https://evd-daily.health.go.ug/",
-   "overdue": false
-  },
   {
    "id": "P031",
    "made_date": "2026-07-28",
@@ -40,22 +24,6 @@ window.LEDGER = {
    "resolved_date": "",
    "evidence": "",
    "source_url": "https://www.cdc.gov/port-health/legal-authorities/evdorder.html",
-   "overdue": false
-  },
-  {
-   "id": "P033",
-   "made_date": "2026-07-29",
-   "edition": "Morning Brief",
-   "claim": "WHO (AFRO or HQ) will publish its own statement acknowledging the end of Uganda's 2026 Bundibugyo outbreak by 31 August 2026",
-   "resolution_criteria": "A WHO AFRO news release,Disease Outbreak News item or situation report published between 29 Jul and 31 Aug 2026 stating that Uganda's outbreak has ended or been declared over",
-   "resolve_by": "2026-08-31",
-   "market": "UG",
-   "segment": "Bush/City",
-   "confidence": "Early signal",
-   "status": "open",
-   "resolved_date": "",
-   "evidence": "",
-   "source_url": "https://www.afro.who.int/countries/uganda/news/uganda-begins-countdown-end-ebola-outbreak",
    "overdue": false
   },
   {
@@ -75,22 +43,6 @@ window.LEDGER = {
    "overdue": false
   },
   {
-   "id": "P037",
-   "made_date": "2026-07-29",
-   "edition": "Midday Pulse (unpublished)",
-   "claim": "Kenya's overall US State Department advisory level will remain Level 2 (Exercise Increased Caution) through 31 August 2026 — the 29 July re-issue changed risk indicators and area wording, not the country level",
-   "resolution_criteria": "travel.state.gov Kenya travel advisory checked on 31 Aug 2026 still showing 'Kenya - Level 2: Exercise Increased Caution'",
-   "resolve_by": "2026-08-31",
-   "market": "KE",
-   "segment": "City/Bush/Beach",
-   "confidence": "Confirmed",
-   "status": "open",
-   "resolved_date": "",
-   "evidence": "",
-   "source_url": "https://travel.state.gov/content/travel/en/traveladvisories/traveladvisories/kenya-travel-advisory.html",
-   "overdue": false
-  },
-  {
    "id": "P085",
    "made_date": "2026-08-16",
    "edition": "pulse-2026-08-16-midday",
@@ -104,6 +56,22 @@ window.LEDGER = {
    "resolved_date": "",
    "evidence": "",
    "source_url": "https://www.regulations.gov/docket/CDC-2026-0892",
+   "overdue": false
+  },
+  {
+   "id": "P137",
+   "made_date": "2026-08-31",
+   "edition": "pulse-2026-08-31-morning",
+   "claim": "The 30 August 2026 KAWU strike will be settled by a return-to-work formula or suspension on or before 6 September 2026 — the February 2026 round closed on day two via ministerial mediation, and that settlement template holds",
+   "resolution_criteria": "A KAA, KCAA, Ministry of Roads and Transport or KAWU statement, or credible Kenyan press (Daily Nation, The Star, Capital FM, People Daily, KBC), confirming a return-to-work formula, suspension or call-off dated on or before 6 September 2026. Industrial action still live on 7 September 2026 resolves incorrect",
+   "resolve_by": "2026-09-07",
+   "market": "KE",
+   "segment": "City|Bush|Beach",
+   "confidence": "Medium",
+   "status": "open",
+   "resolved_date": "",
+   "evidence": "",
+   "source_url": "https://katakenya.org/kenyas-aviation-sector-hit-by-fresh-workers-strike-as-flight-delays-mount-at-jkia/",
    "overdue": false
   },
   {
@@ -552,6 +520,22 @@ window.LEDGER = {
    "resolved_date": "",
    "evidence": "",
    "source_url": "",
+   "overdue": false
+  },
+  {
+   "id": "P138",
+   "made_date": "2026-08-31",
+   "edition": "pulse-2026-08-31-morning",
+   "claim": "Kenya's US State Department advisory will remain at Level 2 through 30 September 2026 — a domestic labour disruption at JKIA does not move a country risk level, which is set on crime, terrorism, kidnapping, unrest, health and traffic grounds",
+   "resolution_criteria": "travel.state.gov Kenya travel advisory checked on 30 September 2026 still shows 'Kenya - Level 2: Exercise Increased Caution'. Any move to Level 3 or above resolves incorrect",
+   "resolve_by": "2026-09-30",
+   "market": "KE",
+   "segment": "City|Bush|Beach",
+   "confidence": "High",
+   "status": "open",
+   "resolved_date": "",
+   "evidence": "",
+   "source_url": "https://travel.state.gov/content/travel/en/traveladvisories/traveladvisories/kenya-travel-advisory.html",
    "overdue": false
   },
   {
@@ -1723,6 +1707,22 @@ window.LEDGER = {
    "overdue": false
   },
   {
+   "id": "P139",
+   "made_date": "2026-08-31",
+   "edition": "pulse-2026-08-31-morning",
+   "claim": "A FOURTH KAWU industrial action or formal strike notice affecting JKIA will occur before 30 June 2027 — the February and July 2026 settlements were suspensions rather than resolutions of the underlying collective bargaining agreement, and the August round was triggered by the July deal going unhonoured",
+   "resolution_criteria": "A KAWU strike, go-slow or formal strike notice affecting KAA, KCAA, Kenya Airways or Jambojet operations, reported by credible Kenyan press or confirmed by KAA/KAWU statement, dated between 7 September 2026 and 30 June 2027. No such action or notice in that window resolves incorrect",
+   "resolve_by": "2027-06-30",
+   "market": "KE",
+   "segment": "City|Bush|Beach",
+   "confidence": "Medium",
+   "status": "open",
+   "resolved_date": "",
+   "evidence": "",
+   "source_url": "https://allafrica.com/stories/202602190130.html",
+   "overdue": false
+  },
+  {
    "id": "P132",
    "made_date": "2026-08-28",
    "edition": "pulse-2026-08-28-midday",
@@ -1820,6 +1820,54 @@ window.LEDGER = {
   }
  ],
  "resolved": [
+  {
+   "id": "P032",
+   "made_date": "2026-07-28",
+   "edition": "Evening Wrap",
+   "claim": "Uganda will record no new confirmed Bundibugyo case before 27 August 2026 and will complete the 42-day countdown — zero active contacts as at 28 July holds",
+   "resolution_criteria": "Uganda Ministry of Health EVD dashboard (evd-daily.health.go.ug) or WHO AFRO showing cumulative confirmed cases still at 20 on 27 Aug 2026",
+   "resolve_by": "2026-08-28",
+   "market": "UG",
+   "segment": "Bush/City",
+   "confidence": "Early signal",
+   "status": "correct",
+   "resolved_date": "2026-08-31",
+   "evidence": "WHO AFRO confirmed Uganda completed the 42-day countdown with cumulative confirmed cases at 20 (18 recovered, 2 deaths). No new confirmed case before 27 Aug 2026.",
+   "source_url": "https://www.afro.who.int/countries/uganda/news/uganda-ends-ebola-outbreak-following-completion-42-day-countdown",
+   "overdue": false
+  },
+  {
+   "id": "P033",
+   "made_date": "2026-07-29",
+   "edition": "Morning Brief",
+   "claim": "WHO (AFRO or HQ) will publish its own statement acknowledging the end of Uganda's 2026 Bundibugyo outbreak by 31 August 2026",
+   "resolution_criteria": "A WHO AFRO news release,Disease Outbreak News item or situation report published between 29 Jul and 31 Aug 2026 stating that Uganda's outbreak has ended or been declared over",
+   "resolve_by": "2026-08-31",
+   "market": "UG",
+   "segment": "Bush/City",
+   "confidence": "Early signal",
+   "status": "correct",
+   "resolved_date": "2026-08-31",
+   "evidence": "WHO AFRO published 'Uganda ends Ebola outbreak following completion of 42-day countdown' on 26 August 2026, inside the 29 Jul-31 Aug window. Corroborated by Al Jazeera, 26 Aug 2026.",
+   "source_url": "https://www.afro.who.int/countries/uganda/news/uganda-ends-ebola-outbreak-following-completion-42-day-countdown",
+   "overdue": false
+  },
+  {
+   "id": "P037",
+   "made_date": "2026-07-29",
+   "edition": "Midday Pulse (unpublished)",
+   "claim": "Kenya's overall US State Department advisory level will remain Level 2 (Exercise Increased Caution) through 31 August 2026 — the 29 July re-issue changed risk indicators and area wording, not the country level",
+   "resolution_criteria": "travel.state.gov Kenya travel advisory checked on 31 Aug 2026 still showing 'Kenya - Level 2: Exercise Increased Caution'",
+   "resolve_by": "2026-08-31",
+   "market": "KE",
+   "segment": "City/Bush/Beach",
+   "confidence": "Confirmed",
+   "status": "correct",
+   "resolved_date": "2026-08-31",
+   "evidence": "travel.state.gov Kenya advisory fetched and read directly on 31 Aug 2026: 'Level 2 - Exercise increased caution', Date issued: July 28, 2026. Country level unchanged through the resolution date, including through the 30-31 Aug JKIA labour disruption.",
+   "source_url": "https://travel.state.gov/content/travel/en/traveladvisories/traveladvisories/kenya-travel-advisory.html",
+   "overdue": false
+  },
   {
    "id": "P052",
    "made_date": "2026-08-05",

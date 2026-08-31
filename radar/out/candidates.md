@@ -3,68 +3,45 @@ _Window opens Sun 30 Aug 18:00 EAT · 133 observations in window · 7 headlines 
 
 Ranked by first-seen recency, source tier and hospitality relevance. `first seen` is when the radar observed the item, which is the date the recency gate runs on. `published` is what the source claims — where the two disagree, the disagreement is the story.
 
-### 🚨 [65.3] [page changed] Jambojet media
+### 🚨 [59.4] [page changed] Jambojet media
 - **Verdict:** OPEN THIS — tier-1 airline page moved; content not auto-parsed, read it manually
 - **Source:** Jambojet media · tier 1 · KE · airline
 - **First seen:** 2026-08-31T03:15+03:00 EAT · **Source date:** — none stated
 - **URL:** https://www.jambojet.com/en/press-release
-- **Extract:** Request unsuccessful. Incapsula incident ID: 1327000750088665567-101765771242181322
-- **Score parts:** tier +40, category +12, lead +3.6, relevance +0, freshness +19.7, undated -6, page_change -4
+- **Score parts:** tier +40, category +12, lead +3.6, relevance +0, freshness +13.8, undated -6, page_change -4
 
-### 🚨 [56.5] [page changed] Jambojet media
+### 🚨 [50.6] [page changed] Jambojet media
 - **Verdict:** OPEN THIS — tier-1 airline page moved; content not auto-parsed, read it manually
 - **Source:** Jambojet media · tier 1 · KE · airline
 - **First seen:** 2026-08-30T19:14+03:00 EAT · **Source date:** — none stated
 - **URL:** https://www.jambojet.com/en/press-release
-- **Extract:** Request unsuccessful. Incapsula incident ID: 7226000730085038113-241224905918124621
-- **Score parts:** tier +40, category +12, lead +3.6, relevance +0, freshness +10.9, undated -6, page_change -4
+- **Score parts:** tier +40, category +12, lead +3.6, relevance +0, freshness +5, undated -6, page_change -4
 
-### 🟡 [103.2] Kenya’s Aviation Sector Hit by Fresh Workers’ Strike as Flight Delays Mount at JKIA
+### 🟡 [81.3] Kenya’s Aviation Sector Hit by Fresh Workers’ Strike as Flight Delays Mount at JKIA
 - **Verdict:** CONSIDER
 - **Source:** Kenya Association of Travel Agents news · tier 2 · KE · trade
 - **First seen:** 2026-08-31T03:16+03:00 EAT · **Source date:** 2026-08-30
 - **URL:** https://katakenya.org/kenyas-aviation-sector-hit-by-fresh-workers-strike-as-flight-delays-mount-at-jkia
 - **Shock language:** strike
-- **Extract:** Flight operations at Kenya’s main airports were disrupted on Sunday after aviation workers resumed industrial action, leaving passengers facing lengthy delays and uncertainty over departures. The disruption was most pronounced at Jomo Kenyatta International Ai
-- **Score parts:** tier +20, category +5, lead +2.4, relevance +28, freshness +19.8, corroborated +10, shock +18
+- **Score parts:** tier +20, category +5, lead +2.4, relevance +12, freshness +13.9, corroborated +10, shock +18
 
-### 🟡 [81.4] [page changed] Federal Register — public inspection (HHS/CDC), pre-publication
+### 🟡 [75.4] [page changed] Federal Register — public inspection (HHS/CDC), pre-publication
 - **Verdict:** CHECK — source date older than the window
 - **Source:** Federal Register — public inspection (HHS/CDC), pre-publication · tier 1 · REG · advisory
 - **First seen:** 2026-08-31T03:15+03:00 EAT · **Source date:** 2026-08-28
 - **URL:** https://www.federalregister.gov/api/v1/public-inspection-documents/current.json
-- **Extract:** {"count":124,"results":[{"agencies":[{"raw_name":"National Institute of Standards and Technology","name":"National Institute of Standards and Technology","id":352,"url":"https://www.federalregister.gov/agencies/national-institute-of-standards-and-technology","
-- **Score parts:** tier +40, category +32, lead +3.6, relevance +0, freshness +19.8, stale_trap -10, page_change -4
+- **Score parts:** tier +40, category +32, lead +3.6, relevance +0, freshness +13.8, stale_trap -10, page_change -4
 
-### 🟡 [80.0] [page changed] ProMED-mail
-- **Verdict:** CONSIDER
-- **Source:** ProMED-mail · tier 2 · GLOBAL · health
-- **First seen:** 2026-08-30T21:40+03:00 EAT · **Source date:** — none stated
-- **URL:** https://promedmail.org/
-- **Shock language:** outbreak
-- **Extract:** Protecting Global Health, One Alert at a Time | ProMED Previous slide Next slide Protecting Global Health, One Alert at a Time ProMED: Your 24/7 early warning system for emerging infectious diseases worldwide. Subscribe ProMED's Weekly Pulse A snapshot of glob
-- **Score parts:** tier +20, category +24, lead +2.4, relevance +12, freshness +13.6, undated -6, shock +18, page_change -4
-
-### 🟡 [77.4] [page changed] Federal Register — public inspection (HHS/CDC), pre-publication
+### 🟡 [71.5] [page changed] Federal Register — public inspection (HHS/CDC), pre-publication
 - **Verdict:** CHECK — source date older than the window
 - **Source:** Federal Register — public inspection (HHS/CDC), pre-publication · tier 1 · REG · advisory
 - **First seen:** 2026-08-30T23:42+03:00 EAT · **Source date:** 2026-08-28
 - **URL:** https://www.federalregister.gov/api/v1/public-inspection-documents/current.json
-- **Extract:** {"count":124,"results":[{"agencies":[{"raw_name":"National Institute of Standards and Technology","name":"National Institute of Standards and Technology","id":352,"url":"https://www.federalregister.gov/agencies/national-institute-of-standards-and-technology","
-- **Score parts:** tier +40, category +32, lead +3.6, relevance +0, freshness +15.8, stale_trap -10, page_change -4
+- **Score parts:** tier +40, category +32, lead +3.6, relevance +0, freshness +9.9, stale_trap -10, page_change -4
 
-### 🟡 [75.2] [page changed] Federal Register — public inspection (HHS/CDC), pre-publication
+### 🟡 [69.3] [page changed] Federal Register — public inspection (HHS/CDC), pre-publication
 - **Verdict:** CHECK — source date older than the window
 - **Source:** Federal Register — public inspection (HHS/CDC), pre-publication · tier 1 · REG · advisory
 - **First seen:** 2026-08-30T21:39+03:00 EAT · **Source date:** 2026-08-28
 - **URL:** https://www.federalregister.gov/api/v1/public-inspection-documents/current.json
-- **Extract:** {"count":124,"results":[{"agencies":[{"raw_name":"National Institute of Standards and Technology","name":"National Institute of Standards and Technology","id":352,"url":"https://www.federalregister.gov/agencies/national-institute-of-standards-and-technology","
-- **Score parts:** tier +40, category +32, lead +3.6, relevance +0, freshness +13.6, stale_trap -10, page_change -4
-
-### 🟡 [73.2] KATA Deepens Engagement with Coast Travel Agents Through Training and Industry Partnerships
-- **Verdict:** CONSIDER
-- **Source:** Kenya Association of Travel Agents news · tier 2 · KE · trade
-- **First seen:** 2026-08-31T03:16+03:00 EAT · **Source date:** 2026-08-30
-- **URL:** https://katakenya.org/kata-deepens-engagement-with-coast-travel-agents-through-training-and-industry-partnerships
-- **Extract:** The Kenya Association of Travel Agents (KATA) is stepping up efforts to strengthen the capacity and business opportunities of travel agents at the Coast through a series of engagements focused on technology, airline partnerships and industry collaboration. The
-- **Score parts:** tier +20, category +5, lead +2.4, relevance +16, freshness +19.8, corroborated +10
+- **Score parts:** tier +40, category +32, lead +3.6, relevance +0, freshness +7.7, stale_trap -10, page_change -4
