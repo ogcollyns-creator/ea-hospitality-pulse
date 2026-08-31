@@ -1,5 +1,5 @@
 window.RATE_INDEX = {
- "updated": "2026-08-30 10:15",
+ "updated": "2026-08-31 11:19",
  "convention": {
   "los": 2,
   "lead_days": 30,
