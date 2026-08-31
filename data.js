@@ -1,5 +1,14 @@
 window.EDITIONS = [
  {
+  "id": "foresight-2026-08-31",
+  "date": "2026-08-31",
+  "dateDisplay": "Monday, 31 August 2026",
+  "edition": "Sunday Foresight",
+  "editionKey": "foresight",
+  "summary": "This week's results all say the same thing: bigger top line, worse unit economics.",
+  "bodyHtml": "<p><span class=\"meta-line\">🏨 EA HOSPITALITY PULSE — Sunday Foresight</span><br><span class=\"meta-line\">📅 Monday, 31 August 2026 | 🇰🇪 🇺🇬 🇹🇿 🇷🇼</span></p>\n<p>This week&#x27;s results all say the same thing: bigger top line, worse unit economics.<br>━━━━━━━━━<br><strong>EAST AFRICA HAS AFRICA&#x27;S LEAST CANCELLABLE HOTEL PIPELINE</strong></p>\n<p>Kenya Airways reported on 25 August: revenue KSh81.2bn, up 9.1% — and a net loss of KSh16.08bn, 32% worse than H1 2025. That is the region&#x27;s shape. Kenya&#x27;s 2025 tourism report gave record arrivals and earnings while earnings per arrival rose 3.13% against its own 4.075% inflation assumption: real yield per guest fell. Mainland Tanzania has overtaken Zanzibar on spend per night.</p>\n<p>Now the supply table. W Hospitality Group&#x27;s 2026 Africa pipeline report (10 Mar 2026): Kenya has 6,190 pipeline rooms, of which <strong>4,922 — 79.5% — are already under construction.</strong> Ethiopia 79.9%, Tanzania 77.5%. Egypt, the continent&#x27;s largest pipeline, 51.4%; Nigeria 39.2%; Cape Verde 8.6%.</p>\n<p><strong>What everyone is missing:</strong> the trade read that table as confidence. It is the opposite. A room in planning is an option you can let expire; a room under construction is a commitment with a drawdown schedule. Egypt can defer 22,362 rooms, Nigeria 5,152, Cape Verde 3,954. Kenya can defer 1,268. When demand softens, other African markets adjust through supply. East Africa can only adjust through price — and it lands on you, not the developer. A new branded hotel opens with debt to service and no legacy rate to protect.<br>━━━━━━━━━<br><strong>THE WEEK&#x27;S SIGNALS</strong></p>\n<p><span class=\"item-head\">1️⃣ <strong>KENYA AIRWAYS: RECORD REVENUE, LOSS WIDENS 32%</strong></span><br>KSh81.2bn revenue (+9.1%); KSh16.08bn net loss vs KSh12.15bn; fuel +32% to KSh29bn (results 25 Aug 2026, Business Today / KBC).<br><span class=\"sowhat\">🎯 So what: your gateway is loss-making at record volume — and its ground staff are in their third strike round of 2026 (see today&#x27;s Morning Brief). Cost 2027 assuming fare pressure, not relief.</span><br><span class=\"tagline\">🏷 City/Bush/Beach | KE | Confirmed | impact:margin</span></p>\n<p><span class=\"item-head\">2️⃣ <strong>TANZANIA SWEEPS THE WORLD TRAVEL AWARDS</strong></span><br>WTA Africa Gala, Bwejuu, 28 Aug: Tanzania took Africa&#x27;s Leading Destination and Leading Tourist Board; Zanzibar Leading Beach Destination; TANAPA six park titles (The Respondents TZ, 28 Aug).<br><span class=\"sowhat\">🎯 So what: into direct and agent copy now, where it converts — not licence to hold rate.</span><br><span class=\"tagline\">🏷 Bush/Beach | TZ/ZNZ | Confirmed | impact:demand</span></p>\n<p><span class=\"item-head\">3️⃣ <strong>DRC EBOLA NOW THE LARGEST BUNDIBUGYO OUTBREAK ON RECORD</strong></span><br>5,794 confirmed cases, 2,786 deaths as at 26 Aug, CFR 48.1%, 60 of 151 health zones (WHO 2026-DON616, reported 29 Aug 2026).<br><span class=\"sowhat\">🎯 So what: Uganda&#x27;s US Level 4 is pinned to Ituri, not Ugandan epidemiology. Sell Uganda on the German, French and regional books.</span><br><span class=\"tagline\">🏷 Bush/City | UG/Regional | Confirmed | impact:risk</span></p>\n<p><span class=\"item-head\">4️⃣ <strong>KENYA&#x27;S DRAFT BROP CARRIES A KSh1.32trn HOLE</strong></span><br>A KSh5.323trn FY2027/28 budget against KSh3.94trn revenue — 5.7% of GDP; Cabinet submission 26 Aug (People Daily / Mwango Capital).<br><span class=\"sowhat\">🎯 So what: that gap, in an election run-up, is where tourism levies are invented.</span><br><span class=\"tagline\">🏷 City/Bush/Beach | KE | Confirmed | impact:watch</span><br>━━━━━━━━━<br><span class=\"meta-line\">📡 <strong>30/90-DAY CALENDAR</strong></span></p>\n<p>🇷🇼 4 Sep — Kwita Izina, Kinigi. <strong>Sell the Musanze transfer night.</strong><br>🇰🇪 ~15 Sep — EPRA fuel review effective. <strong>Re-cost transfers that day.</strong><br>🇰🇪 16 Sep — Hearing on the US$50,000 insurance rule.<br>🇰🇪🇺🇬 1 Oct — Jambojet daily Nairobi–Entebbe.<br>🇰🇪 6–8 Oct — Magical Kenya Travel Expo. <strong>Block buyer rooms now.</strong><br>🇺🇬 27 Oct / 18 Nov — Uganda Airlines: Accra, then Kigali.</p>\n<p>✅ <strong>LEDGER</strong> — P032 correct: WHO certified Uganda Ebola-free, 26 Aug 2026.</p>\n<p><span class=\"meta-line\">💬 If 200 branded rooms open near you in 2027, what is your defence besides price?</span></p>\n<p>🔗 This edition on the web: <a href=\"https://eahospitalitypulse.com/editions/foresight-2026-08-31.html\" rel=\"noopener\">eahospitalitypulse.com/editions/foresight-2026-08-31.html</a><br>💼 This week&#x27;s Big Read on LinkedIn: <a href=\"https://www.linkedin.com/company/ea-hospitality-pulse/\" rel=\"noopener\">linkedin.com/company/ea-hospitality-pulse/</a><br>— EA Hospitality Pulse | Daily intelligence for city, bush &amp; beach properties</p>"
+ },
+ {
   "id": "pulse-2026-08-31-morning",
   "date": "2026-08-31",
   "dateDisplay": "Monday, 31 August 2026",
@@ -800,6 +809,88 @@ window.INSIGHTS = [
   "dateDisplay": "Monday, 31 August 2026",
   "edition": "Morning Brief",
   "editionKey": "morning"
+ },
+ {
+  "headline": "**KENYA AIRWAYS: RECORD REVENUE, LOSS WIDENS 32%",
+  "body": "KSh81.2bn revenue (+9.1%); KSh16.08bn net loss vs KSh12.15bn; fuel +32% to KSh29bn (results 25 Aug 2026, Business Today / KBC).",
+  "sowhat": "🎯 So what: your gateway is loss-making at record volume — and its ground staff are in their third strike round of 2026 (see today's Morning Brief). Cost 2027 assuming fare pressure, not relief.",
+  "segments": [
+   "city",
+   "bush",
+   "beach"
+  ],
+  "countries": "KE",
+  "confidence": "Confirmed",
+  "impact": "-margin",
+  "impactClass": "margin",
+  "intensity": 3,
+  "impactSet": "author",
+  "source": "foresight-2026-08-31",
+  "date": "2026-08-31",
+  "dateDisplay": "Monday, 31 August 2026",
+  "edition": "Sunday Foresight",
+  "editionKey": "foresight"
+ },
+ {
+  "headline": "**TANZANIA SWEEPS THE WORLD TRAVEL AWARDS",
+  "body": "WTA Africa Gala, Bwejuu, 28 Aug: Tanzania took Africa's Leading Destination and Leading Tourist Board; Zanzibar Leading Beach Destination; TANAPA six park titles (The Respondents TZ, 28 Aug).",
+  "sowhat": "🎯 So what: into direct and agent copy now, where it converts — not licence to hold rate.",
+  "segments": [
+   "bush",
+   "beach"
+  ],
+  "countries": "TZ/ZNZ",
+  "confidence": "Confirmed",
+  "impact": "+demand",
+  "impactClass": "demand",
+  "intensity": 3,
+  "impactSet": "author",
+  "source": "foresight-2026-08-31",
+  "date": "2026-08-31",
+  "dateDisplay": "Monday, 31 August 2026",
+  "edition": "Sunday Foresight",
+  "editionKey": "foresight"
+ },
+ {
+  "headline": "**DRC EBOLA NOW THE LARGEST BUNDIBUGYO OUTBREAK ON RECORD",
+  "body": "5,794 confirmed cases, 2,786 deaths as at 26 Aug, CFR 48.1%, 60 of 151 health zones (WHO 2026-DON616, reported 29 Aug 2026).",
+  "sowhat": "🎯 So what: Uganda's US Level 4 is pinned to Ituri, not Ugandan epidemiology. Sell Uganda on the German, French and regional books.",
+  "segments": [
+   "city",
+   "bush"
+  ],
+  "countries": "UG/Regional",
+  "confidence": "Confirmed",
+  "impact": "risk",
+  "impactClass": "risk",
+  "intensity": 3,
+  "impactSet": "author",
+  "source": "foresight-2026-08-31",
+  "date": "2026-08-31",
+  "dateDisplay": "Monday, 31 August 2026",
+  "edition": "Sunday Foresight",
+  "editionKey": "foresight"
+ },
+ {
+  "headline": "**KENYA'S DRAFT BROP CARRIES A KSh1.32trn HOLE",
+  "body": "A KSh5.323trn FY2027/28 budget against KSh3.94trn revenue — 5.7% of GDP; Cabinet submission 26 Aug (People Daily / Mwango Capital).",
+  "sowhat": "🎯 So what: that gap, in an election run-up, is where tourism levies are invented.",
+  "segments": [
+   "city",
+   "bush",
+   "beach"
+  ],
+  "countries": "KE",
+  "confidence": "Confirmed",
+  "impact": "watch",
+  "impactClass": "watch",
+  "intensity": 3,
+  "impactSet": "author",
+  "source": "foresight-2026-08-31",
+  "date": "2026-08-31",
+  "dateDisplay": "Monday, 31 August 2026",
+  "edition": "Sunday Foresight",
+  "editionKey": "foresight"
  },
  {
   "headline": "UGANDA STOPS MOVING TOMORROW 07:00–10:00. TOURISTS ARE EXEMPT.",
@@ -3243,4 +3334,4 @@ window.INSIGHTS = [
   "editionKey": "evening"
  }
 ];
-window.BUILT_AT = "2026-08-31 08:46";
+window.BUILT_AT = "2026-08-31 08:56";
