@@ -393,6 +393,8 @@ ARTICLE_CSS = """
 *{box-sizing:border-box}body{margin:0;font-family:Georgia,"Times New Roman",serif;color:var(--ink);background:var(--sand);line-height:1.68;font-size:18px;-webkit-font-smoothing:antialiased;text-rendering:optimizeLegibility}
 ::selection{background:var(--gold);color:#231a06}
 .wrap{max-width:760px;margin:0 auto;padding:0 20px}
+.skip{position:absolute;left:-9999px;top:0;z-index:20;background:var(--gold);color:#231a06;font:600 13px/1 var(--sans);padding:10px 14px;border-radius:0 0 4px 0}
+.skip:focus{left:0}
 a{color:var(--teal-d);text-decoration:none}
 a:focus-visible{outline:2px solid var(--gold);outline-offset:2px;border-radius:2px}
 .art p a{text-decoration:underline;text-decoration-color:rgba(15,109,99,.35);text-underline-offset:2px;text-decoration-thickness:1px}
@@ -492,6 +494,32 @@ footer.s{text-align:center;color:var(--muted);font-family:Helvetica Neue,Arial,s
 footer.s a{color:var(--muted);border-bottom:1px solid transparent}
 footer.s a:hover{color:var(--teal-d);border-bottom-color:var(--gold)}
 
+/* --- dark mode -------------------------------------------------------------
+   Operators read the morning brief at 05:30 on a phone in a dark room. The
+   cream field that reads as newsprint by day is a torch at night. Same
+   editorial palette, inverted: warm ink-green ground, gold kept as the single
+   accent, teal lifted so links stay legible instead of drowning. Chrome that
+   uses teal as a *background* (header, hero placeholder) is set explicitly —
+   swapping the variable alone would flip those to light panels. */
+@media (prefers-color-scheme: dark){
+  :root{--sand:#0d1512;--sand-2:#18211e;--ink:#e6e3d8;--muted:#98a29c;
+        --gold:#d9a441;--gold-d:#e8bc63;--teal:#3fae9f;--teal-d:#5fc9b8;
+        --line:#26302c;--card:#121a17}
+  header.s{background:#0a100e;border-bottom-color:var(--gold)}
+  header.s .logo{background:var(--gold);color:#0a100e}
+  .art{box-shadow:none}
+  .art .hero{background:#0a100e}
+  .standfirst{color:#b9c2bc}
+  .hcredit{color:#7d8a85}
+  .sowhat{background:#1b2521}
+  ::selection{background:var(--gold);color:#0a100e}
+  .refs{border-left-color:var(--gold)}
+  .refs h2{color:var(--gold-d)}
+  .art th{color:var(--gold-d)}
+  .art p a{text-decoration-color:rgba(95,201,184,.4)}
+  img{opacity:.94}
+}
+
 /* Operators print these briefs and take them into rate meetings. */
 @media print{
   body{background:#fff;font-size:11.5pt;line-height:1.45}
@@ -514,6 +542,10 @@ footer.s a:hover{color:var(--teal-d);border-bottom-color:var(--gold)}
 # One @id, referenced everywhere, consolidates them into a single known entity —
 # and typed, sameAs-anchored subjects let an engine resolve "Zanzibar" to a place
 # rather than a keyword.
+# Distribution channels, not sources — excluded from schema.org `citation`.
+_SELF_DOMAINS = ("linkedin.com", "t.me", "telegram.me", "whatsapp.com", "x.com",
+                 "twitter.com", "facebook.com", "instagram.com", "youtube.com",
+                 "eahospitalitypulse.com", "github.io")
 ORG_ID = BASE + "/#org"
 SITE_ID = BASE + "/#website"
 
@@ -608,6 +640,30 @@ def edition_page(e, siblings=None, prev=None, nxt=None, hero=None, credit=None):
     if prev: pn.append(f'<a class="pn prev" href="{prev["id"]}.html" rel="prev">← {html.escape(prev["edition"])} · {html.escape(prev["dateDisplay"])}</a>')
     if nxt: pn.append(f'<a class="pn next" href="{nxt["id"]}.html" rel="next">{html.escape(nxt["edition"])} · {html.escape(nxt["dateDisplay"])} →</a>')
     pn_html = f'<nav class="pnrow">{"".join(pn)}</nav>' if pn else ""
+    # Answer engines weight sourced content. Every edition already links its
+    # primary sources inline; surfacing them as schema.org `citation` tells a
+    # retrieval engine *what this brief is built on* instead of making it infer.
+    _cites, _seen = [], set()
+    for _m in re.finditer(r'href="(https?://[^"]+)"', body_html):
+        _u = _m.group(1)
+        if _u.startswith(BASE) or "eahospitalitypulse.com" in _u:
+            continue
+        _root = re.sub(r"^https?://(www\.)?", "", _u).split("/")[0].lower()
+        # Our own distribution channels are not evidence. Declaring a LinkedIn
+        # post as `citation` would tell an answer engine this brief is sourced
+        # from social media, which is the opposite of the truth.
+        if any(_root.endswith(_d) for _d in _SELF_DOMAINS):
+            continue
+        if _u in _seen:
+            continue
+        _seen.add(_u); _cites.append(_u)
+        if len(_cites) >= 12:
+            break
+    # Head-level prev/next: the crawl hint <a rel> cannot give, so an engine can
+    # walk the archive in order without re-parsing every page body.
+    head_rel = ""
+    if prev: head_rel += f'<link rel="prev" href="{BASE}/editions/{prev["id"]}.html">\n'
+    if nxt:  head_rel += f'<link rel="next" href="{BASE}/editions/{nxt["id"]}.html">\n'
     ld = {
         "@context":"https://schema.org","@type":"NewsArticle",
         "headline": headline,
@@ -625,6 +681,8 @@ def edition_page(e, siblings=None, prev=None, nxt=None, hero=None, credit=None):
         "about":ABOUT_ENTITIES,
         "spatialCoverage":[a for a in ABOUT_ENTITIES if a["@type"]=="Place"]
     }
+    if _cites:
+        ld["citation"] = [{"@type": "WebPage", "url": u} for u in _cites]
     crumbs = {
         "@context":"https://schema.org","@type":"BreadcrumbList",
         "itemListElement":[
@@ -664,6 +722,9 @@ def edition_page(e, siblings=None, prev=None, nxt=None, hero=None, credit=None):
 <meta name="author" content="EA Hospitality Pulse">
 <meta name="news_keywords" content="{news_kw}">
 <link rel="canonical" href="{url}">
+{head_rel}<meta name="theme-color" content="#0a4f48" media="(prefers-color-scheme: light)">
+<meta name="theme-color" content="#0d1512" media="(prefers-color-scheme: dark)">
+<meta name="color-scheme" content="light dark">
 <link rel="alternate" type="application/rss+xml" title="EA Hospitality Pulse" href="../feed.xml">
 <meta property="og:type" content="article"><meta property="og:site_name" content="EA Hospitality Pulse">
 <meta property="og:title" content="{html.escape(social_title)}">
@@ -688,10 +749,11 @@ def edition_page(e, siblings=None, prev=None, nxt=None, hero=None, credit=None):
 .hcredit{{margin:-8px 0 18px;font:12px/1.5 Helvetica Neue,Arial,sans-serif;color:#7c8a86}}
 .hcredit a{{color:#5566a3;text-decoration:none}}</style></head>
 <body>
+<a class="skip" href="#content">Skip to the brief</a>
 <header class="s"><div class="wrap"><a href="/"><span class="logo" aria-hidden="true">EA</span><b>EA Hospitality Pulse</b></a></div></header>
-<div class="wrap">
+<main class="wrap" id="content">
   <article class="art">
-    <img class="hero" src="{hero_src}" alt="{html.escape(e['edition']+' — '+e['dateDisplay'])}" loading="eager">
+    <img class="hero" src="{hero_src}" width="1200" height="630" alt="{html.escape(e['edition']+' — '+e['dateDisplay'])}" loading="eager" fetchpriority="high" decoding="async">
     {credit_html}
     {crumb_html}
     <div class="kicker"><span class="badge">{html.escape(e['edition'])}</span><time datetime="{e['date']}">{html.escape(e['dateDisplay'])}</time></div>
@@ -709,7 +771,7 @@ def edition_page(e, siblings=None, prev=None, nxt=None, hero=None, credit=None):
       <a href="../index.html#archive">🗂 Every edition</a>
     </div>
   </article>
-</div>
+</main>
 <footer class="s">EA Hospitality Pulse — Daily intelligence for city, bush &amp; beach properties across East Africa.<br>
 <a href="../index.html">Home</a> · <a href="../credits.html">Image credits</a> · Kenya · Uganda · Tanzania · Zanzibar · Rwanda</footer>
 </body></html>"""
@@ -874,6 +936,17 @@ def main():
         # engines the wrong identity. Drive it from site_config.json like everything else.
         _same = json.dumps([CHANNELS[k] for k in ("telegram", "linkedin", "whatsapp") if CHANNELS.get(k)])
         idx = re.sub(r'("sameAs":)\[[^\]]*\]', lambda m: m.group(1) + _same, idx, count=1)
+        # Every edition page declares isPartOf {"@id": BASE+"/#website"}. The home
+        # page's WebSite node carried no @id, so that reference resolved to nothing
+        # and the site graph stayed unlinked. Give the node the id it is referenced by.
+        if '"@type":"WebSite"' in idx and '#website' not in idx:
+            idx = idx.replace('{"@context":"https://schema.org","@type":"WebSite",',
+                              '{"@context":"https://schema.org","@type":"WebSite","@id":"' + SITE_ID + '",', 1)
+        # AI Overviews and large-snippet surfaces need explicit permission; the home
+        # page had no robots directive at all, so it inherited the conservative default.
+        if '<meta name="robots"' not in idx:
+            idx = idx.replace('<link rel="canonical"',
+                '<meta name="robots" content="index,follow,max-image-preview:large,max-snippet:-1,max-video-preview:-1">\n<link rel="canonical"', 1)
         open(idx_path, "w", encoding="utf-8").write(idx)
     except Exception as e:
         print("build stamp skipped:", e)
@@ -981,6 +1054,28 @@ def main():
         _robots += f"User-agent: {_b}\nAllow: /\n\n"
     _robots += "Sitemap: "+BASE+"/sitemap.xml\n"
     open(os.path.join(HERE,"robots.txt"),"w",encoding="utf-8").write(_robots)
+
+    # llms.txt is the file answer engines fetch to orient themselves. It was
+    # hand-written and static, so it pointed at the archive but never at an actual
+    # edition — an engine had to crawl to find anything datable. Regenerate one
+    # marked block with the ten most recent editions, leaving the prose untouched.
+    _llms_path = os.path.join(HERE, "llms.txt")
+    try:
+        _llms = open(_llms_path, encoding="utf-8").read()
+        _recent = "\n".join(
+            f"- [{e['edition']} — {e['dateDisplay']}]({BASE}/editions/{e['id']}.html): "
+            f"{md_strip(clean_headline(e['summary']) or e['edition'])[:150]}"
+            for e in editions[:10])
+        _block = ("<!--AUTO:RECENT-->\n## Ten most recent editions (auto-updated "
+                  + today + ")\n" + _recent + "\n<!--/AUTO:RECENT-->")
+        if "<!--AUTO:RECENT-->" in _llms:
+            _llms = re.sub(r"<!--AUTO:RECENT-->.*?<!--/AUTO:RECENT-->", lambda m: _block,
+                           _llms, flags=re.S)
+        else:
+            _llms = _llms.replace("## Contact", _block + "\n\n## Contact", 1)
+        open(_llms_path, "w", encoding="utf-8").write(_llms)
+    except Exception as _ex:
+        print("llms.txt refresh skipped:", _ex)
 
     try:
         import subprocess
