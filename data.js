@@ -1,5 +1,14 @@
 window.EDITIONS = [
  {
+  "id": "pulse-2026-09-01-evening",
+  "date": "2026-09-01",
+  "dateDisplay": "Tuesday, 1 September 2026",
+  "edition": "Evening Wrap",
+  "editionKey": "evening",
+  "summary": "Nothing cleared the recency gate since midday. So tonight, the thing 26 days out that almost nobody here has diarised.",
+  "bodyHtml": "<p><span class=\"meta-line\">🏨 EA HOSPITALITY PULSE — Evening Wrap</span><br><span class=\"meta-line\">📅 Tuesday, 1 September 2026 | 🇰🇪 🇺🇬 🇹🇿 🇷🇼</span></p>\n<p>Nothing cleared the recency gate since midday. So tonight, the thing 26 days out that almost nobody here has diarised.<br>━━━━━━━━━<br><span class=\"item-head\">1️⃣ ON 27 SEPTEMBER, &quot;ECO-LODGE&quot; STOPS BEING FREE</span></p>\n<p>EU Directive 2024/825 — Empowering Consumers for the Green Transition — applies from 27 September 2026 (EUR-Lex; European Commission). It bans generic green claims to EU consumers unless a recognised certification backs them: &quot;eco-friendly&quot;, &quot;green&quot;, &quot;sustainable&quot;, &quot;responsible&quot;. It bans &quot;carbon neutral&quot; where the claim rests on offsets outside your value chain. It bans self-made badges. Where you are based is irrelevant: per Sustainable Travel International&#x27;s guide (5 August 2026), the rules bind anyone marketing to EU consumers, Africa included.</p>\n<p><strong>What everyone is missing.</strong> Enforcement won&#x27;t come from Brussels. It will come from your German agent. The EU operator reselling your lodge is squarely in scope, carries the fine risk — the Unfair Commercial Practices Directive that EmpCo amends allows maximum fines of at least 4% of turnover in the member states concerned — and reuses your copy in its brochure. Our inference, labelled as such: the Q4 contracting round brings substantiation questionnaires down the chain for the first time.</p>\n<p>And this is not a cost. It is a repricing. Conservation credentials have been commercially worthless here for twenty years because they were free to claim: a conservancy paying real lease fees competed against a lodge whose entire programme was the word &quot;eco&quot;. From 27 September only one of them can keep saying it.<br><span class=\"sowhat\">🎯 So what: Search your website tonight for &quot;eco&quot;, &quot;green&quot;, &quot;sustainable&quot;, &quot;carbon neutral&quot;. Evidence each hit, replace it with a measured fact, or delete it by 27 September. Then start a Travelife or Green Key application — both are named as legitimate schemes.</span><br><span class=\"tagline\">🏷 Bush, Beach, City | 🇰🇪 🇺🇬 🇹🇿 🇷🇼 | Confirmed (directive) / Inference (operator behaviour) | impact:watch</span><br>━━━━━━━━━<br><span class=\"item-head\">2️⃣ STILL TRUE — KENYA IS STILL LEVEL 2</span></p>\n<p>No advisory movement on any of the five markets today. Kenya remains US Level 2 (re-issued 28 July 2026, verified 12 August); Diani, Watamu and the Nairobi hotel corridors sit outside every Level 4 zone. The UK still advises against travel to no part of Uganda (verified vs gov.uk, 28 August 2026).<br><span class=\"sowhat\">🎯 So what: An agent asking about &quot;the Kenya situation&quot; is asking about a labour dispute that ended yesterday, not a risk level. Don&#x27;t discount into a question you can answer with a link.</span><br><span class=\"tagline\">🏷 City, Bush, Beach | 🇰🇪 🇺🇬 | Confirmed | impact:demand</span><br>━━━━━━━━━<br><span class=\"item-head\">3️⃣ COST PULSE — THE FUEL CYCLE TURNS IN 13 DAYS</span></p>\n<p>Kenyan diesel holds at KSh 217.86/L to 14 September 2026, roughly KSh 14 above what landed costs implied, because diesel users are cross-subsidising petrol (EPRA notice / Business Daily, 14 August 2026). Diarise two dates: the EPRA review on 14 September, and the expiry of the 8% VAT rate on petroleum on 14 October 2026.<br><span class=\"sowhat\">🎯 So what: Refuse any supplier fuel surcharge before 14 September — the landed-cost figure kills the argument. Model a step-up for Q4 transfers.</span><br><span class=\"tagline\">🏷 Bush, City | 🇰🇪 | Confirmed | impact:margin</span></p>\n<p><span class=\"meta-line\">💬 Open your own website tonight. How many green claims could you evidence in writing by 27 September?</span></p>\n<p>🔗 This edition on the web: <a href=\"https://eahospitalitypulse.com/editions/pulse-2026-09-01-evening.html\" rel=\"noopener\">eahospitalitypulse.com/editions/pulse-2026-09-01-evenin…</a><br>💼 Today&#x27;s Big Read on LinkedIn: <a href=\"https://www.linkedin.com/company/ea-hospitality-pulse/\" rel=\"noopener\">linkedin.com/company/ea-hospitality-pulse/</a><br>— EA Hospitality Pulse | Daily intelligence for city, bush &amp; beach properties</p>"
+ },
+ {
   "id": "pulse-2026-09-01-morning",
   "date": "2026-09-01",
   "dateDisplay": "Tuesday, 1 September 2026",
@@ -818,6 +827,68 @@ window.INSIGHTS = [
   "dateDisplay": "Tuesday, 1 September 2026",
   "edition": "Morning Brief",
   "editionKey": "morning"
+ },
+ {
+  "headline": "ON 27 SEPTEMBER, \"ECO-LODGE\" STOPS BEING FREE",
+  "body": "EU Directive 2024/825 — Empowering Consumers for the Green Transition — applies from 27 September 2026 (EUR-Lex; European Commission). It bans generic green claims to EU consumers unless a recognised certification backs them: \"eco-friendly\", \"green\", \"sustainable\", \"responsible\". It bans \"carbon neutral\" where the claim rests on offsets outside your value chain. It bans self-made badges. Where you are based is irrelevant: per Sustainable Travel International's guide (5 August 2026), the rules bind anyone marketing to EU consumers, Africa included. **What everyone is missing.** Enforcement won't come from Brussels. It will come from your German agent. The EU operator reselling your lodge is squarely in scope, carries the fine risk — the Unfair Commercial Practices Directive that EmpCo amends allows maximum fines of at least 4% of turnover in the member states concerned — and reuses your copy in its brochure. Our inference, labelled as such: the Q4 contracting round brings substantiation questionnaires down the chain for the first time. And this is not a cost. It is a repricing. Conservation credentials have been commercially worthless here for twenty years because they were free to claim: a conservancy paying real lease fees competed against a lodge whose entire programme was the word \"eco\". From 27 September only one of them can keep saying it.",
+  "sowhat": "🎯 So what: Search your website tonight for \"eco\", \"green\", \"sustainable\", \"carbon neutral\". Evidence each hit, replace it with a measured fact, or delete it by 27 September. Then start a Travelife or Green Key application — both are named as legitimate schemes.",
+  "segments": [
+   "city",
+   "bush",
+   "beach"
+  ],
+  "countries": "🇰🇪 🇺🇬 🇹🇿 🇷🇼",
+  "confidence": "Confirmed (directive) / Inference (operator behaviour)",
+  "impact": "watch",
+  "impactClass": "watch",
+  "intensity": 3,
+  "impactSet": "author",
+  "source": "pulse-2026-09-01-evening",
+  "date": "2026-09-01",
+  "dateDisplay": "Tuesday, 1 September 2026",
+  "edition": "Evening Wrap",
+  "editionKey": "evening"
+ },
+ {
+  "headline": "STILL TRUE — KENYA IS STILL LEVEL 2",
+  "body": "No advisory movement on any of the five markets today. Kenya remains US Level 2 (re-issued 28 July 2026, verified 12 August); Diani, Watamu and the Nairobi hotel corridors sit outside every Level 4 zone. The UK still advises against travel to no part of Uganda (verified vs gov.uk, 28 August 2026).",
+  "sowhat": "🎯 So what: An agent asking about \"the Kenya situation\" is asking about a labour dispute that ended yesterday, not a risk level. Don't discount into a question you can answer with a link.",
+  "segments": [
+   "city",
+   "bush",
+   "beach"
+  ],
+  "countries": "🇰🇪 🇺🇬",
+  "confidence": "Confirmed",
+  "impact": "+demand",
+  "impactClass": "demand",
+  "intensity": 3,
+  "impactSet": "author",
+  "source": "pulse-2026-09-01-evening",
+  "date": "2026-09-01",
+  "dateDisplay": "Tuesday, 1 September 2026",
+  "edition": "Evening Wrap",
+  "editionKey": "evening"
+ },
+ {
+  "headline": "COST PULSE — THE FUEL CYCLE TURNS IN 13 DAYS",
+  "body": "Kenyan diesel holds at KSh 217.86/L to 14 September 2026, roughly KSh 14 above what landed costs implied, because diesel users are cross-subsidising petrol (EPRA notice / Business Daily, 14 August 2026). Diarise two dates: the EPRA review on 14 September, and the expiry of the 8% VAT rate on petroleum on 14 October 2026.",
+  "sowhat": "🎯 So what: Refuse any supplier fuel surcharge before 14 September — the landed-cost figure kills the argument. Model a step-up for Q4 transfers.",
+  "segments": [
+   "city",
+   "bush"
+  ],
+  "countries": "🇰🇪",
+  "confidence": "Confirmed",
+  "impact": "-margin",
+  "impactClass": "margin",
+  "intensity": 3,
+  "impactSet": "author",
+  "source": "pulse-2026-09-01-evening",
+  "date": "2026-09-01",
+  "dateDisplay": "Tuesday, 1 September 2026",
+  "edition": "Evening Wrap",
+  "editionKey": "evening"
  },
  {
   "headline": "JKIA STRIKE ENTERS DAY TWO. 30% OF KQ FLIGHTS LEFT BY 2PM.",
@@ -3405,4 +3476,4 @@ window.INSIGHTS = [
   "editionKey": "evening"
  }
 ];
-window.BUILT_AT = "2026-09-01 08:41";
+window.BUILT_AT = "2026-09-01 17:10";

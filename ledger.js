@@ -1,47 +1,15 @@
 window.LEDGER = {
- "updated": "2026-09-01 08:42",
+ "updated": "2026-09-01 17:11",
  "stats": {
-  "total": 143,
+  "total": 145,
   "open": 115,
-  "resolved": 27,
-  "correct": 21,
+  "resolved": 29,
+  "correct": 22,
   "partial": 1,
-  "incorrect": 5,
-  "accuracy": 80
+  "incorrect": 6,
+  "accuracy": 78
  },
  "open": [
-  {
-   "id": "P031",
-   "made_date": "2026-07-28",
-   "edition": "Evening Wrap",
-   "claim": "The CDC order expiring 12 August 2026 will be renewed with Uganda still on the designated list — Uganda will NOT be decoupled from DRC before its 42-day all-clear around 27 August 2026",
-   "resolution_criteria": "A CDC order or Federal Register notice published between 1 Aug and 27 Aug 2026 continuing the s.362 suspension and naming Uganda among the designated countries",
-   "resolve_by": "2026-08-31",
-   "market": "Regional",
-   "segment": "Bush/City",
-   "confidence": "Reported",
-   "status": "open",
-   "resolved_date": "",
-   "evidence": "",
-   "source_url": "https://www.cdc.gov/port-health/legal-authorities/evdorder.html",
-   "overdue": true
-  },
-  {
-   "id": "P035",
-   "made_date": "2026-07-29",
-   "edition": "Morning Brief",
-   "claim": "The US CDC s.362 entry suspension expiring 12 August 2026 will be renewed or replaced with Uganda REMOVED from the designated country list — the 28 July declaration decouples Uganda from DRC",
-   "resolution_criteria": "A CDC order or Federal Register notice published between 1 Aug and 31 Aug 2026 continuing the s.362 suspension WITHOUT naming Uganda among the designated countries",
-   "resolve_by": "2026-08-31",
-   "market": "Regional",
-   "segment": "Bush/City",
-   "confidence": "Early signal",
-   "status": "open",
-   "resolved_date": "",
-   "evidence": "",
-   "source_url": "https://www.cdc.gov/port-health/legal-authorities/evdorder.html",
-   "overdue": true
-  },
   {
    "id": "P085",
    "made_date": "2026-08-16",
@@ -1115,6 +1083,22 @@ window.LEDGER = {
    "overdue": false
   },
   {
+   "id": "P144",
+   "made_date": "2026-09-01",
+   "edition": "pulse-2026-09-01-evening",
+   "claim": "At least one East African tourism trade body or national tourism board will publish member guidance, an advisory or a training session referencing the EU EmpCo Directive (2024/825) on or before 31 January 2027 — the 27 September 2026 application date creates a compliance question for every member selling to European source markets",
+   "resolution_criteria": "A published advisory, circular, webinar, training notice or guidance document referencing Directive (EU) 2024/825, EmpCo or the EU green-claims rules, issued between 1 September 2026 and 31 January 2027 by any of: Kenya Association of Tour Operators, Kenya Tourism Federation, Ecotourism Kenya, Kenya Tourism Board, Tanzania Association of Tour Operators, Tanzania Tourist Board, Zanzibar Association of Tourism Investors, Association of Uganda Tour Operators, Uganda Tourism Board, Rwanda Tours and Travel Association, Rwanda Development Board, or the East African Tourism Platform. Nothing published by 31 January 2027 resolves incorrect",
+   "resolve_by": "2027-01-31",
+   "market": "KE|UG|TZ|RW",
+   "segment": "Bush|Beach|City",
+   "confidence": "Medium",
+   "status": "open",
+   "resolved_date": "",
+   "evidence": "",
+   "source_url": "https://sustainabletravel.org/eu-green-claims-empowering-consumers-directive/",
+   "overdue": false
+  },
+  {
    "id": "P010",
    "made_date": "2026-07-25",
    "edition": "Evening Wrap",
@@ -1336,6 +1320,22 @@ window.LEDGER = {
    "resolved_date": "",
    "evidence": "",
    "source_url": "https://www.thecitizen.co.tz/tanzania/zanzibar/kenyan-arrested-in-zanzibar-over-illegal-tour-operations--5567298",
+   "overdue": false
+  },
+  {
+   "id": "P143",
+   "made_date": "2026-09-01",
+   "edition": "pulse-2026-09-01-evening",
+   "claim": "At least one European tour operator, package organiser or OTA selling East African safari or beach product will issue a written sustainability-substantiation request to EA supplier properties citing EU Directive 2024/825 (EmpCo) on or before 31 March 2027 — the directive applies from 27 September 2026 and the EU trader, not the EA property, carries the penalty exposure, so the rational response is to push evidence obligations down the supply chain at the Q4 contracting round",
+   "resolution_criteria": "Documentary evidence of an EmpCo-citing supplier questionnaire, contract clause or trade communication issued to an East African accommodation supplier, dated between 27 September 2026 and 31 March 2027, reported by trade press (Travel Weekly, FVW, Reisevor 9, Tourism Update, VoyagesAfriq, Skift), published by a trade body (KATO, TATO, AUTO, ZATI, RTTA, ABTA, DRV), or shown to us by an operator. No such evidence by 31 March 2027 resolves incorrect",
+   "resolve_by": "2027-03-31",
+   "market": "KE|UG|TZ|RW",
+   "segment": "Bush|Beach|City",
+   "confidence": "Medium",
+   "status": "open",
+   "resolved_date": "",
+   "evidence": "",
+   "source_url": "https://eur-lex.europa.eu/eli/dir/2024/825/oj/eng",
    "overdue": false
   },
   {
@@ -1852,6 +1852,38 @@ window.LEDGER = {
   }
  ],
  "resolved": [
+  {
+   "id": "P031",
+   "made_date": "2026-07-28",
+   "edition": "Evening Wrap",
+   "claim": "The CDC order expiring 12 August 2026 will be renewed with Uganda still on the designated list — Uganda will NOT be decoupled from DRC before its 42-day all-clear around 27 August 2026",
+   "resolution_criteria": "A CDC order or Federal Register notice published between 1 Aug and 27 Aug 2026 continuing the s.362 suspension and naming Uganda among the designated countries",
+   "resolve_by": "2026-08-31",
+   "market": "Regional",
+   "segment": "Bush/City",
+   "confidence": "Reported",
+   "status": "correct",
+   "resolved_date": "2026-09-01",
+   "evidence": "CDC order under PHS Act ss.362/365 issued 12 August 2026 and published in the Federal Register on 17 August 2026 (doc 2026-16706) continued the 30-day suspension and expressly applies to covered aliens present in DRC, UGANDA or South Sudan in the prior 21 days. Uganda was NOT decoupled despite its Ministry of Health declaring the outbreak over on 28 July 2026, the order citing continued overland cross-border risk from DRC.",
+   "source_url": "https://www.federalregister.gov/documents/2026/08/17/2026-16706/order-under-sections-362-and-365-of-the-public-health-service-act-continuing-the-suspension-of-the",
+   "overdue": false
+  },
+  {
+   "id": "P035",
+   "made_date": "2026-07-29",
+   "edition": "Morning Brief",
+   "claim": "The US CDC s.362 entry suspension expiring 12 August 2026 will be renewed or replaced with Uganda REMOVED from the designated country list — the 28 July declaration decouples Uganda from DRC",
+   "resolution_criteria": "A CDC order or Federal Register notice published between 1 Aug and 31 Aug 2026 continuing the s.362 suspension WITHOUT naming Uganda among the designated countries",
+   "resolve_by": "2026-08-31",
+   "market": "Regional",
+   "segment": "Bush/City",
+   "confidence": "Early signal",
+   "status": "incorrect",
+   "resolved_date": "2026-09-01",
+   "evidence": "The paired call failed. The 12 August 2026 CDC order, published in the Federal Register 17 August 2026 (doc 2026-16706), renewed the s.362 suspension WITH Uganda still named among the designated countries. The 28 July 2026 Ugandan end-of-outbreak declaration did not decouple Uganda from DRC in US entry policy.",
+   "source_url": "https://www.federalregister.gov/documents/2026/08/17/2026-16706/order-under-sections-362-and-365-of-the-public-health-service-act-continuing-the-suspension-of-the",
+   "overdue": false
+  },
   {
    "id": "P137",
    "made_date": "2026-08-31",
