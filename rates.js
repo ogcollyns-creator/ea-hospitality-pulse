@@ -1,5 +1,5 @@
 window.RATE_INDEX = {
- "updated": "2026-08-31 16:23",
+ "updated": "2026-09-01 09:43",
  "convention": {
   "los": 2,
   "lead_days": 30,
@@ -25,7 +25,7 @@ window.RATE_INDEX = {
     {
      "week": "2026-W31",
      "weekStart": "2026-07-27",
-     "median": 206,
+     "median": 206.0,
      "n": 1,
      "observations": 1,
      "coverage": 6,
@@ -44,10 +44,10 @@ window.RATE_INDEX = {
     {
      "week": "2026-W32",
      "weekStart": "2026-08-03",
-     "median": 190.89,
+     "median": 190.88,
      "n": 10,
      "observations": 10,
-     "coverage": 63,
+     "coverage": 62,
      "confident": true,
      "basisMix": {
       "BB": 10
@@ -58,7 +58,7 @@ window.RATE_INDEX = {
      "levelComparable": true,
      "matched": 0,
      "link": null,
-     "index": 100
+     "index": 100.0
     },
     {
      "week": "2026-W33",
@@ -120,11 +120,11 @@ window.RATE_INDEX = {
      },
      "levelComparable": true,
      "matched": 9,
-     "link": 1,
+     "link": 1.0,
      "index": 106.6,
      "basisChangedPairs": 0,
      "cleanMatched": 9,
-     "linkClean": 1
+     "linkClean": 1.0
     },
     {
      "week": "2026-W36",
@@ -149,7 +149,7 @@ window.RATE_INDEX = {
      "linkClean": 1.03521
     }
    ],
-   "baseline": 190.89,
+   "baseline": 190.88,
    "latest": {
     "week": "2026-W36",
     "weekStart": "2026-08-31",
@@ -188,7 +188,7 @@ window.RATE_INDEX = {
      {
       "week": "2026-W31",
       "weekStart": "2026-07-27",
-      "median": 1054,
+      "median": 1054.0,
       "n": 1,
       "observations": 1,
       "coverage": 6,
@@ -207,7 +207,7 @@ window.RATE_INDEX = {
      {
       "week": "2026-W32",
       "weekStart": "2026-08-03",
-      "median": 221,
+      "median": 221.0,
       "n": 8,
       "observations": 8,
       "coverage": 50,
@@ -221,7 +221,7 @@ window.RATE_INDEX = {
       "levelComparable": true,
       "matched": 0,
       "link": null,
-      "index": 100
+      "index": 100.0
      },
      {
       "week": "2026-W33",
@@ -229,7 +229,7 @@ window.RATE_INDEX = {
       "median": 239.75,
       "n": 10,
       "observations": 10,
-      "coverage": 63,
+      "coverage": 62,
       "confident": true,
       "basisMix": {
        "UNK": 10
@@ -248,7 +248,7 @@ window.RATE_INDEX = {
      {
       "week": "2026-W34",
       "weekStart": "2026-08-17",
-      "median": 213,
+      "median": 213.0,
       "n": 7,
       "observations": 7,
       "coverage": 44,
@@ -361,7 +361,7 @@ window.RATE_INDEX = {
     {
      "week": "2026-W31",
      "weekStart": "2026-07-27",
-     "median": 278,
+     "median": 278.0,
      "n": 5,
      "observations": 5,
      "coverage": 38,
@@ -376,7 +376,7 @@ window.RATE_INDEX = {
      "levelComparable": false,
      "matched": 0,
      "link": null,
-     "index": 100
+     "index": 100.0
     },
     {
      "week": "2026-W32",
@@ -418,7 +418,7 @@ window.RATE_INDEX = {
      },
      "levelComparable": false,
      "matched": 9,
-     "link": 1,
+     "link": 1.0,
      "index": 110.5,
      "basisChangedPairs": 1,
      "cleanMatched": 8,
@@ -427,7 +427,7 @@ window.RATE_INDEX = {
     {
      "week": "2026-W34",
      "weekStart": "2026-08-17",
-     "median": 315,
+     "median": 315.0,
      "n": 7,
      "observations": 7,
      "coverage": 54,
@@ -440,11 +440,11 @@ window.RATE_INDEX = {
      },
      "levelComparable": true,
      "matched": 7,
-     "link": 1,
+     "link": 1.0,
      "index": 110.5,
      "basisChangedPairs": 0,
      "cleanMatched": 7,
-     "linkClean": 1
+     "linkClean": 1.0
     },
     {
      "week": "2026-W35",
@@ -462,16 +462,16 @@ window.RATE_INDEX = {
      },
      "levelComparable": true,
      "matched": 8,
-     "link": 1,
+     "link": 1.0,
      "index": 110.5,
      "basisChangedPairs": 0,
      "cleanMatched": 8,
-     "linkClean": 1
+     "linkClean": 1.0
     },
     {
      "week": "2026-W36",
      "weekStart": "2026-08-31",
-     "median": 296,
+     "median": 296.0,
      "n": 7,
      "observations": 7,
      "coverage": 54,
@@ -485,18 +485,18 @@ window.RATE_INDEX = {
      },
      "levelComparable": false,
      "matched": 7,
-     "link": 1,
+     "link": 1.0,
      "index": 110.5,
      "basisChangedPairs": 1,
      "cleanMatched": 6,
-     "linkClean": 1
+     "linkClean": 1.0
     }
    ],
-   "baseline": 278,
+   "baseline": 278.0,
    "latest": {
     "week": "2026-W36",
     "weekStart": "2026-08-31",
-    "median": 296,
+    "median": 296.0,
     "n": 7,
     "observations": 7,
     "coverage": 54,
@@ -510,14 +510,14 @@ window.RATE_INDEX = {
     },
     "levelComparable": false,
     "matched": 7,
-    "link": 1,
+    "link": 1.0,
     "index": 110.5,
     "basisChangedPairs": 1,
     "cleanMatched": 6,
-    "linkClean": 1
+    "linkClean": 1.0
    },
-   "wow": 0,
-   "wowClean": 0,
+   "wow": 0.0,
+   "wowClean": 0.0,
    "basisChangedPairs": 1,
    "basisMix": {
     "HB": 3,
@@ -537,7 +537,7 @@ window.RATE_INDEX = {
      {
       "week": "2026-W31",
       "weekStart": "2026-07-27",
-      "median": 209,
+      "median": 209.0,
       "n": 1,
       "observations": 1,
       "coverage": 8,
@@ -571,12 +571,12 @@ window.RATE_INDEX = {
       "levelComparable": false,
       "matched": 0,
       "link": null,
-      "index": 100
+      "index": 100.0
      },
      {
       "week": "2026-W33",
       "weekStart": "2026-08-10",
-      "median": 209,
+      "median": 209.0,
       "n": 9,
       "observations": 9,
       "coverage": 69,
@@ -598,7 +598,7 @@ window.RATE_INDEX = {
      {
       "week": "2026-W34",
       "weekStart": "2026-08-17",
-      "median": 209,
+      "median": 209.0,
       "n": 1,
       "observations": 1,
       "coverage": 8,
@@ -611,7 +611,7 @@ window.RATE_INDEX = {
       },
       "levelComparable": true,
       "matched": 1,
-      "link": 1,
+      "link": 1.0,
       "index": 93.7,
       "basisChangedPairs": 1,
       "cleanMatched": 0,
@@ -620,7 +620,7 @@ window.RATE_INDEX = {
      {
       "week": "2026-W35",
       "weekStart": "2026-08-24",
-      "median": 360,
+      "median": 360.0,
       "n": 1,
       "observations": 1,
       "coverage": 8,
@@ -634,13 +634,16 @@ window.RATE_INDEX = {
       "levelComparable": true,
       "matched": 0,
       "link": null,
-      "index": null
+      "index": 93.7,
+      "basisChangedPairs": 0,
+      "cleanMatched": 0,
+      "linkClean": null
      }
     ],
     "latest": {
      "week": "2026-W35",
      "weekStart": "2026-08-24",
-     "median": 360,
+     "median": 360.0,
      "n": 1,
      "observations": 1,
      "coverage": 8,
@@ -654,7 +657,10 @@ window.RATE_INDEX = {
      "levelComparable": true,
      "matched": 0,
      "link": null,
-     "index": null
+     "index": 93.7,
+     "basisChangedPairs": 0,
+     "cleanMatched": 0,
+     "linkClean": null
     },
     "wow": null
    },
@@ -662,7 +668,7 @@ window.RATE_INDEX = {
     {
      "week": "2026-W32",
      "weekStart": "2026-08-03",
-     "spreadPct": 22,
+     "spreadPct": 22.0,
      "n": 5,
      "skippedNonComparableBasis": 0
     },
@@ -691,7 +697,7 @@ window.RATE_INDEX = {
     {
      "week": "2026-W31",
      "weekStart": "2026-07-27",
-     "median": 1160,
+     "median": 1160.0,
      "n": 1,
      "observations": 1,
      "coverage": 8,
@@ -726,12 +732,12 @@ window.RATE_INDEX = {
      "levelComparable": false,
      "matched": 0,
      "link": null,
-     "index": 100
+     "index": 100.0
     },
     {
      "week": "2026-W33",
      "weekStart": "2026-08-10",
-     "median": 1160,
+     "median": 1160.0,
      "n": 9,
      "observations": 9,
      "coverage": 75,
@@ -746,11 +752,11 @@ window.RATE_INDEX = {
      },
      "levelComparable": false,
      "matched": 9,
-     "link": 1,
-     "index": 100,
+     "link": 1.0,
+     "index": 100.0,
      "basisChangedPairs": 2,
      "cleanMatched": 7,
-     "linkClean": 1
+     "linkClean": 1.0
     },
     {
      "week": "2026-W34",
@@ -779,7 +785,7 @@ window.RATE_INDEX = {
     {
      "week": "2026-W35",
      "weekStart": "2026-08-24",
-     "median": 1160,
+     "median": 1160.0,
      "n": 9,
      "observations": 9,
      "coverage": 75,
@@ -803,7 +809,7 @@ window.RATE_INDEX = {
     {
      "week": "2026-W36",
      "weekStart": "2026-08-31",
-     "median": 1160,
+     "median": 1160.0,
      "n": 9,
      "observations": 9,
      "coverage": 75,
@@ -818,18 +824,18 @@ window.RATE_INDEX = {
      },
      "levelComparable": false,
      "matched": 9,
-     "link": 1,
+     "link": 1.0,
      "index": 102.5,
      "basisChangedPairs": 0,
      "cleanMatched": 9,
-     "linkClean": 1
+     "linkClean": 1.0
     }
    ],
    "baseline": 818.5,
    "latest": {
     "week": "2026-W36",
     "weekStart": "2026-08-31",
-    "median": 1160,
+    "median": 1160.0,
     "n": 9,
     "observations": 9,
     "coverage": 75,
@@ -844,14 +850,14 @@ window.RATE_INDEX = {
     },
     "levelComparable": false,
     "matched": 9,
-    "link": 1,
+    "link": 1.0,
     "index": 102.5,
     "basisChangedPairs": 0,
     "cleanMatched": 9,
-    "linkClean": 1
+    "linkClean": 1.0
    },
-   "wow": 0,
-   "wowClean": 0,
+   "wow": 0.0,
+   "wowClean": 0.0,
    "basisChangedPairs": 0,
    "basisMix": {
     "HB": 19,
@@ -869,7 +875,7 @@ window.RATE_INDEX = {
      {
       "week": "2026-W33",
       "weekStart": "2026-08-10",
-      "median": 867,
+      "median": 867.0,
       "n": 8,
       "observations": 8,
       "coverage": 67,
@@ -883,13 +889,13 @@ window.RATE_INDEX = {
       "levelComparable": true,
       "matched": 0,
       "link": null,
-      "index": 100
+      "index": 100.0
      }
     ],
     "latest": {
      "week": "2026-W33",
      "weekStart": "2026-08-10",
-     "median": 867,
+     "median": 867.0,
      "n": 8,
      "observations": 8,
      "coverage": 67,
@@ -903,7 +909,7 @@ window.RATE_INDEX = {
      "levelComparable": true,
      "matched": 0,
      "link": null,
-     "index": 100
+     "index": 100.0
     },
     "wow": null
    },
@@ -911,7 +917,7 @@ window.RATE_INDEX = {
     {
      "week": "2026-W33",
      "weekStart": "2026-08-10",
-     "spreadPct": -33,
+     "spreadPct": -33.0,
      "n": 1,
      "skippedNonComparableBasis": 7
     }
@@ -919,7 +925,7 @@ window.RATE_INDEX = {
    "spreadLatest": {
     "week": "2026-W33",
     "weekStart": "2026-08-10",
-    "spreadPct": -33,
+    "spreadPct": -33.0,
     "n": 1,
     "skippedNonComparableBasis": 7
    }
@@ -948,7 +954,7 @@ window.RATE_INDEX = {
      "levelComparable": false,
      "matched": 0,
      "link": null,
-     "index": 100
+     "index": 100.0
     },
     {
      "week": "2026-W33",
@@ -992,7 +998,7 @@ window.RATE_INDEX = {
      "index": 93.3,
      "basisChangedPairs": 1,
      "cleanMatched": 7,
-     "linkClean": 1
+     "linkClean": 1.0
     },
     {
      "week": "2026-W35",
@@ -1010,16 +1016,16 @@ window.RATE_INDEX = {
      },
      "levelComparable": true,
      "matched": 7,
-     "link": 1,
+     "link": 1.0,
      "index": 93.3,
      "basisChangedPairs": 0,
      "cleanMatched": 7,
-     "linkClean": 1
+     "linkClean": 1.0
     },
     {
      "week": "2026-W36",
      "weekStart": "2026-08-31",
-     "median": 255,
+     "median": 255.0,
      "n": 7,
      "observations": 7,
      "coverage": 64,
@@ -1043,7 +1049,7 @@ window.RATE_INDEX = {
    "latest": {
     "week": "2026-W36",
     "weekStart": "2026-08-31",
-    "median": 255,
+    "median": 255.0,
     "n": 7,
     "observations": 7,
     "coverage": 64,
@@ -1093,12 +1099,12 @@ window.RATE_INDEX = {
       "levelComparable": true,
       "matched": 0,
       "link": null,
-      "index": 100
+      "index": 100.0
      },
      {
       "week": "2026-W35",
       "weekStart": "2026-08-24",
-      "median": 104,
+      "median": 104.0,
       "n": 3,
       "observations": 3,
       "coverage": 27,
@@ -1112,7 +1118,7 @@ window.RATE_INDEX = {
       "levelComparable": true,
       "matched": 3,
       "link": 0.87029,
-      "index": 87,
+      "index": 87.0,
       "basisChangedPairs": 3,
       "cleanMatched": 0,
       "linkClean": null
@@ -1120,7 +1126,7 @@ window.RATE_INDEX = {
      {
       "week": "2026-W36",
       "weekStart": "2026-08-31",
-      "median": 105,
+      "median": 105.0,
       "n": 2,
       "observations": 2,
       "coverage": 18,
@@ -1143,7 +1149,7 @@ window.RATE_INDEX = {
     "latest": {
      "week": "2026-W36",
      "weekStart": "2026-08-31",
-     "median": 105,
+     "median": 105.0,
      "n": 2,
      "observations": 2,
      "coverage": 18,
@@ -1190,7 +1196,7 @@ window.RATE_INDEX = {
     {
      "week": "2026-W32",
      "weekStart": "2026-08-03",
-     "median": 176,
+     "median": 176.0,
      "n": 9,
      "observations": 9,
      "coverage": 75,
@@ -1205,7 +1211,7 @@ window.RATE_INDEX = {
      "levelComparable": false,
      "matched": 0,
      "link": null,
-     "index": 100
+     "index": 100.0
     },
     {
      "week": "2026-W33",
@@ -1232,7 +1238,7 @@ window.RATE_INDEX = {
     {
      "week": "2026-W34",
      "weekStart": "2026-08-17",
-     "median": 182,
+     "median": 182.0,
      "n": 11,
      "observations": 11,
      "coverage": 92,
@@ -1245,7 +1251,7 @@ window.RATE_INDEX = {
      },
      "levelComparable": true,
      "matched": 11,
-     "link": 1,
+     "link": 1.0,
      "index": 100.8,
      "basisChangedPairs": 1,
      "cleanMatched": 10,
@@ -1254,7 +1260,7 @@ window.RATE_INDEX = {
     {
      "week": "2026-W35",
      "weekStart": "2026-08-24",
-     "median": 182,
+     "median": 182.0,
      "n": 11,
      "observations": 11,
      "coverage": 92,
@@ -1267,16 +1273,16 @@ window.RATE_INDEX = {
      },
      "levelComparable": true,
      "matched": 11,
-     "link": 1,
+     "link": 1.0,
      "index": 100.8,
      "basisChangedPairs": 0,
      "cleanMatched": 11,
-     "linkClean": 1
+     "linkClean": 1.0
     },
     {
      "week": "2026-W36",
      "weekStart": "2026-08-31",
-     "median": 182,
+     "median": 182.0,
      "n": 11,
      "observations": 11,
      "coverage": 92,
@@ -1289,18 +1295,18 @@ window.RATE_INDEX = {
      },
      "levelComparable": true,
      "matched": 11,
-     "link": 1,
+     "link": 1.0,
      "index": 100.8,
      "basisChangedPairs": 0,
      "cleanMatched": 11,
-     "linkClean": 1
+     "linkClean": 1.0
     }
    ],
-   "baseline": 176,
+   "baseline": 176.0,
    "latest": {
     "week": "2026-W36",
     "weekStart": "2026-08-31",
-    "median": 182,
+    "median": 182.0,
     "n": 11,
     "observations": 11,
     "coverage": 92,
@@ -1313,14 +1319,14 @@ window.RATE_INDEX = {
     },
     "levelComparable": true,
     "matched": 11,
-    "link": 1,
+    "link": 1.0,
     "index": 100.8,
     "basisChangedPairs": 0,
     "cleanMatched": 11,
-    "linkClean": 1
+    "linkClean": 1.0
    },
-   "wow": 0,
-   "wowClean": 0,
+   "wow": 0.0,
+   "wowClean": 0.0,
    "basisChangedPairs": 0,
    "basisMix": {
     "UNK": 1,
@@ -1336,7 +1342,7 @@ window.RATE_INDEX = {
      {
       "week": "2026-W33",
       "weekStart": "2026-08-10",
-      "median": 187,
+      "median": 187.0,
       "n": 10,
       "observations": 10,
       "coverage": 83,
@@ -1350,13 +1356,13 @@ window.RATE_INDEX = {
       "levelComparable": true,
       "matched": 0,
       "link": null,
-      "index": 100
+      "index": 100.0
      }
     ],
     "latest": {
      "week": "2026-W33",
      "weekStart": "2026-08-10",
-     "median": 187,
+     "median": 187.0,
      "n": 10,
      "observations": 10,
      "coverage": 83,
@@ -1370,7 +1376,7 @@ window.RATE_INDEX = {
      "levelComparable": true,
      "matched": 0,
      "link": null,
-     "index": 100
+     "index": 100.0
     },
     "wow": null
    },
@@ -1400,7 +1406,7 @@ window.RATE_INDEX = {
     {
      "week": "2026-W31",
      "weekStart": "2026-07-27",
-     "median": 1996,
+     "median": 1996.0,
      "n": 5,
      "observations": 5,
      "coverage": 23,
@@ -1416,12 +1422,12 @@ window.RATE_INDEX = {
      "levelComparable": false,
      "matched": 0,
      "link": null,
-     "index": 100
+     "index": 100.0
     },
     {
      "week": "2026-W32",
      "weekStart": "2026-08-03",
-     "median": 4293,
+     "median": 4293.0,
      "n": 18,
      "observations": 18,
      "coverage": 82,
@@ -1436,8 +1442,8 @@ window.RATE_INDEX = {
      },
      "levelComparable": false,
      "matched": 3,
-     "link": 1,
-     "index": 100,
+     "link": 1.0,
+     "index": 100.0,
      "basisChangedPairs": 2,
      "cleanMatched": 1,
      "linkClean": 0.8999
@@ -1461,16 +1467,16 @@ window.RATE_INDEX = {
      },
      "levelComparable": false,
      "matched": 20,
-     "link": 1,
-     "index": 100,
+     "link": 1.0,
+     "index": 100.0,
      "basisChangedPairs": 8,
      "cleanMatched": 12,
-     "linkClean": 1
+     "linkClean": 1.0
     },
     {
      "week": "2026-W34",
      "weekStart": "2026-08-17",
-     "median": 4900,
+     "median": 4900.0,
      "n": 19,
      "observations": 19,
      "coverage": 86,
@@ -1485,16 +1491,16 @@ window.RATE_INDEX = {
      },
      "levelComparable": false,
      "matched": 19,
-     "link": 1,
-     "index": 100,
+     "link": 1.0,
+     "index": 100.0,
      "basisChangedPairs": 0,
      "cleanMatched": 19,
-     "linkClean": 1
+     "linkClean": 1.0
     },
     {
      "week": "2026-W35",
      "weekStart": "2026-08-24",
-     "median": 4900,
+     "median": 4900.0,
      "n": 19,
      "observations": 19,
      "coverage": 86,
@@ -1507,8 +1513,8 @@ window.RATE_INDEX = {
      },
      "levelComparable": true,
      "matched": 19,
-     "link": 1,
-     "index": 100,
+     "link": 1.0,
+     "index": 100.0,
      "basisChangedPairs": 19,
      "cleanMatched": 0,
      "linkClean": null
@@ -1516,7 +1522,7 @@ window.RATE_INDEX = {
     {
      "week": "2026-W36",
      "weekStart": "2026-08-31",
-     "median": 4900,
+     "median": 4900.0,
      "n": 19,
      "observations": 19,
      "coverage": 86,
@@ -1529,18 +1535,18 @@ window.RATE_INDEX = {
      },
      "levelComparable": true,
      "matched": 19,
-     "link": 1,
-     "index": 100,
+     "link": 1.0,
+     "index": 100.0,
      "basisChangedPairs": 19,
      "cleanMatched": 0,
      "linkClean": null
     }
    ],
-   "baseline": 1996,
+   "baseline": 1996.0,
    "latest": {
     "week": "2026-W36",
     "weekStart": "2026-08-31",
-    "median": 4900,
+    "median": 4900.0,
     "n": 19,
     "observations": 19,
     "coverage": 86,
@@ -1553,13 +1559,13 @@ window.RATE_INDEX = {
     },
     "levelComparable": true,
     "matched": 19,
-    "link": 1,
-    "index": 100,
+    "link": 1.0,
+    "index": 100.0,
     "basisChangedPairs": 19,
     "cleanMatched": 0,
     "linkClean": null
    },
-   "wow": 0,
+   "wow": 0.0,
    "wowClean": null,
    "basisChangedPairs": 19,
    "basisMix": {
@@ -1601,7 +1607,7 @@ window.RATE_INDEX = {
      "levelComparable": true,
      "matched": 0,
      "link": null,
-     "index": 100
+     "index": 100.0
     },
     {
      "week": "2026-W33",
@@ -1628,7 +1634,7 @@ window.RATE_INDEX = {
     {
      "week": "2026-W34",
      "weekStart": "2026-08-17",
-     "median": 213,
+     "median": 213.0,
      "n": 6,
      "observations": 6,
      "coverage": 67,
@@ -1663,11 +1669,11 @@ window.RATE_INDEX = {
      },
      "levelComparable": true,
      "matched": 6,
-     "link": 1,
+     "link": 1.0,
      "index": 83.6,
      "basisChangedPairs": 1,
      "cleanMatched": 5,
-     "linkClean": 1
+     "linkClean": 1.0
     },
     {
      "week": "2026-W36",
@@ -1746,7 +1752,7 @@ window.RATE_INDEX = {
       "levelComparable": true,
       "matched": 0,
       "link": null,
-      "index": 100
+      "index": 100.0
      },
      {
       "week": "2026-W35",
@@ -1765,7 +1771,7 @@ window.RATE_INDEX = {
       "levelComparable": true,
       "matched": 2,
       "link": 0.9196,
-      "index": 92,
+      "index": 92.0,
       "basisChangedPairs": 2,
       "cleanMatched": 0,
       "linkClean": null
@@ -1857,7 +1863,7 @@ window.RATE_INDEX = {
      "levelComparable": true,
      "matched": 0,
      "link": null,
-     "index": 100
+     "index": 100.0
     },
     {
      "week": "2026-W33",
@@ -1884,7 +1890,7 @@ window.RATE_INDEX = {
     {
      "week": "2026-W34",
      "weekStart": "2026-08-17",
-     "median": 300,
+     "median": 300.0,
      "n": 7,
      "observations": 7,
      "coverage": 78,
@@ -1898,16 +1904,16 @@ window.RATE_INDEX = {
      },
      "levelComparable": false,
      "matched": 6,
-     "link": 1,
+     "link": 1.0,
      "index": 99.9,
      "basisChangedPairs": 2,
      "cleanMatched": 4,
-     "linkClean": 1
+     "linkClean": 1.0
     },
     {
      "week": "2026-W35",
      "weekStart": "2026-08-24",
-     "median": 300,
+     "median": 300.0,
      "n": 3,
      "observations": 3,
      "coverage": 33,
@@ -1920,11 +1926,11 @@ window.RATE_INDEX = {
      },
      "levelComparable": true,
      "matched": 3,
-     "link": 1,
+     "link": 1.0,
      "index": 99.9,
      "basisChangedPairs": 0,
      "cleanMatched": 3,
-     "linkClean": 1
+     "linkClean": 1.0
     },
     {
      "week": "2026-W36",
@@ -1943,11 +1949,11 @@ window.RATE_INDEX = {
      },
      "levelComparable": false,
      "matched": 4,
-     "link": 1,
+     "link": 1.0,
      "index": 99.9,
      "basisChangedPairs": 1,
      "cleanMatched": 3,
-     "linkClean": 1
+     "linkClean": 1.0
     }
    ],
    "baseline": 300.4,
@@ -1968,14 +1974,14 @@ window.RATE_INDEX = {
     },
     "levelComparable": false,
     "matched": 4,
-    "link": 1,
+    "link": 1.0,
     "index": 99.9,
     "basisChangedPairs": 1,
     "cleanMatched": 3,
-    "linkClean": 1
+    "linkClean": 1.0
    },
-   "wow": 0,
-   "wowClean": 0,
+   "wow": 0.0,
+   "wowClean": 0.0,
    "basisChangedPairs": 1,
    "basisMix": {
     "UNK": 7,
@@ -1992,7 +1998,7 @@ window.RATE_INDEX = {
      {
       "week": "2026-W33",
       "weekStart": "2026-08-10",
-      "median": 217,
+      "median": 217.0,
       "n": 7,
       "observations": 7,
       "coverage": 78,
@@ -2006,7 +2012,7 @@ window.RATE_INDEX = {
       "levelComparable": true,
       "matched": 0,
       "link": null,
-      "index": 100
+      "index": 100.0
      },
      {
       "week": "2026-W35",
@@ -2048,11 +2054,11 @@ window.RATE_INDEX = {
       },
       "levelComparable": false,
       "matched": 3,
-      "link": 1,
+      "link": 1.0,
       "index": 85.8,
       "basisChangedPairs": 0,
       "cleanMatched": 3,
-      "linkClean": 1
+      "linkClean": 1.0
      }
     ],
     "latest": {
@@ -2072,19 +2078,19 @@ window.RATE_INDEX = {
      },
      "levelComparable": false,
      "matched": 3,
-     "link": 1,
+     "link": 1.0,
      "index": 85.8,
      "basisChangedPairs": 0,
      "cleanMatched": 3,
-     "linkClean": 1
+     "linkClean": 1.0
     },
-    "wow": 0
+    "wow": 0.0
    },
    "spread": [
     {
      "week": "2026-W33",
      "weekStart": "2026-08-10",
-     "spreadPct": 2,
+     "spreadPct": 2.0,
      "n": 3,
      "skippedNonComparableBasis": 0
     }
@@ -2092,7 +2098,7 @@ window.RATE_INDEX = {
    "spreadLatest": {
     "week": "2026-W33",
     "weekStart": "2026-08-10",
-    "spreadPct": 2,
+    "spreadPct": 2.0,
     "n": 3,
     "skippedNonComparableBasis": 0
    }
@@ -2106,7 +2112,7 @@ window.RATE_INDEX = {
     {
      "week": "2026-W32",
      "weekStart": "2026-08-03",
-     "median": 1770,
+     "median": 1770.0,
      "n": 10,
      "observations": 10,
      "coverage": 100,
@@ -2120,12 +2126,12 @@ window.RATE_INDEX = {
      "levelComparable": true,
      "matched": 0,
      "link": null,
-     "index": 100
+     "index": 100.0
     },
     {
      "week": "2026-W33",
      "weekStart": "2026-08-10",
-     "median": 3010,
+     "median": 3010.0,
      "n": 9,
      "observations": 9,
      "coverage": 90,
@@ -2147,7 +2153,7 @@ window.RATE_INDEX = {
     {
      "week": "2026-W34",
      "weekStart": "2026-08-17",
-     "median": 2137,
+     "median": 2137.0,
      "n": 10,
      "observations": 10,
      "coverage": 100,
@@ -2160,16 +2166,16 @@ window.RATE_INDEX = {
      },
      "levelComparable": true,
      "matched": 10,
-     "link": 1,
+     "link": 1.0,
      "index": 111.7,
      "basisChangedPairs": 1,
      "cleanMatched": 9,
-     "linkClean": 1
+     "linkClean": 1.0
     },
     {
      "week": "2026-W35",
      "weekStart": "2026-08-24",
-     "median": 3010,
+     "median": 3010.0,
      "n": 9,
      "observations": 9,
      "coverage": 90,
@@ -2182,7 +2188,7 @@ window.RATE_INDEX = {
      },
      "levelComparable": true,
      "matched": 9,
-     "link": 1,
+     "link": 1.0,
      "index": 111.7,
      "basisChangedPairs": 9,
      "cleanMatched": 0,
@@ -2191,7 +2197,7 @@ window.RATE_INDEX = {
     {
      "week": "2026-W36",
      "weekStart": "2026-08-31",
-     "median": 3010,
+     "median": 3010.0,
      "n": 9,
      "observations": 9,
      "coverage": 90,
@@ -2204,18 +2210,18 @@ window.RATE_INDEX = {
      },
      "levelComparable": true,
      "matched": 9,
-     "link": 1,
+     "link": 1.0,
      "index": 111.7,
      "basisChangedPairs": 0,
      "cleanMatched": 9,
-     "linkClean": 1
+     "linkClean": 1.0
     }
    ],
-   "baseline": 1770,
+   "baseline": 1770.0,
    "latest": {
     "week": "2026-W36",
     "weekStart": "2026-08-31",
-    "median": 3010,
+    "median": 3010.0,
     "n": 9,
     "observations": 9,
     "coverage": 90,
@@ -2228,14 +2234,14 @@ window.RATE_INDEX = {
     },
     "levelComparable": true,
     "matched": 9,
-    "link": 1,
+    "link": 1.0,
     "index": 111.7,
     "basisChangedPairs": 0,
     "cleanMatched": 9,
-    "linkClean": 1
+    "linkClean": 1.0
    },
-   "wow": 0,
-   "wowClean": 0,
+   "wow": 0.0,
+   "wowClean": 0.0,
    "basisChangedPairs": 0,
    "basisMix": {
     "UNK": 10,
@@ -2252,7 +2258,7 @@ window.RATE_INDEX = {
      {
       "week": "2026-W33",
       "weekStart": "2026-08-10",
-      "median": 1070,
+      "median": 1070.0,
       "n": 1,
       "observations": 1,
       "coverage": 10,
@@ -2271,7 +2277,7 @@ window.RATE_INDEX = {
      {
       "week": "2026-W35",
       "weekStart": "2026-08-24",
-      "median": 1070,
+      "median": 1070.0,
       "n": 1,
       "observations": 1,
       "coverage": 10,
@@ -2290,7 +2296,7 @@ window.RATE_INDEX = {
      {
       "week": "2026-W36",
       "weekStart": "2026-08-31",
-      "median": 1070,
+      "median": 1070.0,
       "n": 1,
       "observations": 1,
       "coverage": 10,
@@ -2310,7 +2316,7 @@ window.RATE_INDEX = {
     "latest": {
      "week": "2026-W36",
      "weekStart": "2026-08-31",
-     "median": 1070,
+     "median": 1070.0,
      "n": 1,
      "observations": 1,
      "coverage": 10,
@@ -2355,7 +2361,7 @@ window.RATE_INDEX = {
      "levelComparable": false,
      "matched": 0,
      "link": null,
-     "index": 100
+     "index": 100.0
     },
     {
      "week": "2026-W33",
@@ -2373,8 +2379,8 @@ window.RATE_INDEX = {
      },
      "levelComparable": true,
      "matched": 6,
-     "link": 1,
-     "index": 100,
+     "link": 1.0,
+     "index": 100.0,
      "basisChangedPairs": 4,
      "cleanMatched": 2,
      "linkClean": 0.9227
@@ -2395,16 +2401,16 @@ window.RATE_INDEX = {
      },
      "levelComparable": true,
      "matched": 6,
-     "link": 1,
-     "index": 100,
+     "link": 1.0,
+     "index": 100.0,
      "basisChangedPairs": 0,
      "cleanMatched": 6,
-     "linkClean": 1
+     "linkClean": 1.0
     },
     {
      "week": "2026-W35",
      "weekStart": "2026-08-24",
-     "median": 135,
+     "median": 135.0,
      "n": 6,
      "observations": 6,
      "coverage": 60,
@@ -2417,11 +2423,11 @@ window.RATE_INDEX = {
      },
      "levelComparable": true,
      "matched": 6,
-     "link": 1,
-     "index": 100,
+     "link": 1.0,
+     "index": 100.0,
      "basisChangedPairs": 0,
      "cleanMatched": 6,
-     "linkClean": 1
+     "linkClean": 1.0
     },
     {
      "week": "2026-W36",
@@ -2439,11 +2445,11 @@ window.RATE_INDEX = {
      },
      "levelComparable": true,
      "matched": 6,
-     "link": 1,
-     "index": 100,
+     "link": 1.0,
+     "index": 100.0,
      "basisChangedPairs": 0,
      "cleanMatched": 6,
-     "linkClean": 1
+     "linkClean": 1.0
     }
    ],
    "baseline": 151.25,
@@ -2463,14 +2469,14 @@ window.RATE_INDEX = {
     },
     "levelComparable": true,
     "matched": 6,
-    "link": 1,
-    "index": 100,
+    "link": 1.0,
+    "index": 100.0,
     "basisChangedPairs": 0,
     "cleanMatched": 6,
-    "linkClean": 1
+    "linkClean": 1.0
    },
-   "wow": 0,
-   "wowClean": 0,
+   "wow": 0.0,
+   "wowClean": 0.0,
    "basisChangedPairs": 0,
    "basisMix": {
     "BB": 30,
@@ -2500,7 +2506,7 @@ window.RATE_INDEX = {
       "levelComparable": true,
       "matched": 0,
       "link": null,
-      "index": 100
+      "index": 100.0
      },
      {
       "week": "2026-W35",
@@ -2597,7 +2603,7 @@ window.RATE_INDEX = {
     {
      "week": "2026-W32",
      "weekStart": "2026-08-03",
-     "median": 4095,
+     "median": 4095.0,
      "n": 10,
      "observations": 10,
      "coverage": 100,
@@ -2611,12 +2617,12 @@ window.RATE_INDEX = {
      "levelComparable": true,
      "matched": 0,
      "link": null,
-     "index": 100
+     "index": 100.0
     },
     {
      "week": "2026-W33",
      "weekStart": "2026-08-10",
-     "median": 4090,
+     "median": 4090.0,
      "n": 10,
      "observations": 10,
      "coverage": 100,
@@ -2629,8 +2635,8 @@ window.RATE_INDEX = {
      },
      "levelComparable": true,
      "matched": 10,
-     "link": 1,
-     "index": 100,
+     "link": 1.0,
+     "index": 100.0,
      "basisChangedPairs": 10,
      "cleanMatched": 0,
      "linkClean": null
@@ -2638,7 +2644,7 @@ window.RATE_INDEX = {
     {
      "week": "2026-W34",
      "weekStart": "2026-08-17",
-     "median": 4090,
+     "median": 4090.0,
      "n": 10,
      "observations": 10,
      "coverage": 100,
@@ -2651,16 +2657,16 @@ window.RATE_INDEX = {
      },
      "levelComparable": true,
      "matched": 10,
-     "link": 1,
-     "index": 100,
+     "link": 1.0,
+     "index": 100.0,
      "basisChangedPairs": 0,
      "cleanMatched": 10,
-     "linkClean": 1
+     "linkClean": 1.0
     },
     {
      "week": "2026-W35",
      "weekStart": "2026-08-24",
-     "median": 4090,
+     "median": 4090.0,
      "n": 10,
      "observations": 10,
      "coverage": 100,
@@ -2673,8 +2679,8 @@ window.RATE_INDEX = {
      },
      "levelComparable": true,
      "matched": 10,
-     "link": 1,
-     "index": 100,
+     "link": 1.0,
+     "index": 100.0,
      "basisChangedPairs": 10,
      "cleanMatched": 0,
      "linkClean": null
@@ -2682,7 +2688,7 @@ window.RATE_INDEX = {
     {
      "week": "2026-W36",
      "weekStart": "2026-08-31",
-     "median": 4090,
+     "median": 4090.0,
      "n": 10,
      "observations": 10,
      "coverage": 100,
@@ -2695,18 +2701,18 @@ window.RATE_INDEX = {
      },
      "levelComparable": true,
      "matched": 10,
-     "link": 1,
-     "index": 100,
+     "link": 1.0,
+     "index": 100.0,
      "basisChangedPairs": 0,
      "cleanMatched": 10,
-     "linkClean": 1
+     "linkClean": 1.0
     }
    ],
-   "baseline": 4095,
+   "baseline": 4095.0,
    "latest": {
     "week": "2026-W36",
     "weekStart": "2026-08-31",
-    "median": 4090,
+    "median": 4090.0,
     "n": 10,
     "observations": 10,
     "coverage": 100,
@@ -2719,14 +2725,14 @@ window.RATE_INDEX = {
     },
     "levelComparable": true,
     "matched": 10,
-    "link": 1,
-    "index": 100,
+    "link": 1.0,
+    "index": 100.0,
     "basisChangedPairs": 0,
     "cleanMatched": 10,
-    "linkClean": 1
+    "linkClean": 1.0
    },
-   "wow": 0,
-   "wowClean": 0,
+   "wow": 0.0,
+   "wowClean": 0.0,
    "basisChangedPairs": 0,
    "basisMix": {
     "UNK": 10,
