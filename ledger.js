@@ -1,13 +1,13 @@
 window.LEDGER = {
- "updated": "2026-08-31 08:09",
+ "updated": "2026-09-01 08:42",
  "stats": {
-  "total": 140,
-  "open": 113,
-  "resolved": 26,
-  "correct": 20,
+  "total": 143,
+  "open": 115,
+  "resolved": 27,
+  "correct": 21,
   "partial": 1,
   "incorrect": 5,
-  "accuracy": 79
+  "accuracy": 80
  },
  "open": [
   {
@@ -24,7 +24,7 @@ window.LEDGER = {
    "resolved_date": "",
    "evidence": "",
    "source_url": "https://www.cdc.gov/port-health/legal-authorities/evdorder.html",
-   "overdue": false
+   "overdue": true
   },
   {
    "id": "P035",
@@ -40,7 +40,7 @@ window.LEDGER = {
    "resolved_date": "",
    "evidence": "",
    "source_url": "https://www.cdc.gov/port-health/legal-authorities/evdorder.html",
-   "overdue": false
+   "overdue": true
   },
   {
    "id": "P085",
@@ -56,22 +56,6 @@ window.LEDGER = {
    "resolved_date": "",
    "evidence": "",
    "source_url": "https://www.regulations.gov/docket/CDC-2026-0892",
-   "overdue": false
-  },
-  {
-   "id": "P137",
-   "made_date": "2026-08-31",
-   "edition": "pulse-2026-08-31-morning",
-   "claim": "The 30 August 2026 KAWU strike will be settled by a return-to-work formula or suspension on or before 6 September 2026 — the February 2026 round closed on day two via ministerial mediation, and that settlement template holds",
-   "resolution_criteria": "A KAA, KCAA, Ministry of Roads and Transport or KAWU statement, or credible Kenyan press (Daily Nation, The Star, Capital FM, People Daily, KBC), confirming a return-to-work formula, suspension or call-off dated on or before 6 September 2026. Industrial action still live on 7 September 2026 resolves incorrect",
-   "resolve_by": "2026-09-07",
-   "market": "KE",
-   "segment": "City|Bush|Beach",
-   "confidence": "Medium",
-   "status": "open",
-   "resolved_date": "",
-   "evidence": "",
-   "source_url": "https://katakenya.org/kenyas-aviation-sector-hit-by-fresh-workers-strike-as-flight-delays-mount-at-jkia/",
    "overdue": false
   },
   {
@@ -539,6 +523,22 @@ window.LEDGER = {
    "overdue": false
   },
   {
+   "id": "P140",
+   "made_date": "2026-09-01",
+   "edition": "pulse-2026-09-01-morning",
+   "claim": "The KAWU grievances from the 20 July 2026 strike notice will NOT be fully arbitrated and closed within the three weeks the 1 September return-to-work agreement allows — the arbitration under the PS for Aviation and Aerospace Development will still be open, extended or unresolved on 26 September 2026",
+   "resolution_criteria": "KAA, KCAA, KAWU, Ministry of Roads and Transport or Ministry of Aviation and Aerospace Development statement, or credible Kenyan press (Daily Nation, The Star, Capital FM, People Daily, KBC, Business Daily), confirming on or before 26 September 2026 that the arbitration concluded with all strike-notice grievances settled. Any confirmed full closure within the window resolves incorrect. No reporting either way resolves unresolved",
+   "resolve_by": "2026-09-30",
+   "market": "KE",
+   "segment": "City|Bush|Beach",
+   "confidence": "Medium",
+   "status": "open",
+   "resolved_date": "",
+   "evidence": "",
+   "source_url": "https://www.kbc.co.ke/flight-disruptions-persist-at-jkia-as-kawu-calls-off-strike/",
+   "overdue": false
+  },
+  {
    "id": "P110",
    "made_date": "2026-08-22",
    "edition": "pulse-2026-08-22-evening",
@@ -584,6 +584,22 @@ window.LEDGER = {
    "resolved_date": "",
    "evidence": "",
    "source_url": "https://www.rwandair.com/",
+   "overdue": false
+  },
+  {
+   "id": "P142",
+   "made_date": "2026-09-01",
+   "edition": "pulse-2026-09-01-morning",
+   "claim": "Kenya's annual transport inflation will stay above 10% in the KNBS September 2026 CPI release — the August print of 15.7% was driven by fares and services rather than pump prices, since average diesel fell 2.2% month-on-month in the same period, so it does not unwind with fuel",
+   "resolution_criteria": "KNBS Consumer Price Indices and Inflation Rates release for September 2026 (knbs.or.ke, expected ~30 September 2026) reports annual Transport division inflation above 10.0%. A figure at or below 10.0% resolves incorrect",
+   "resolve_by": "2026-10-15",
+   "market": "KE",
+   "segment": "City|Bush",
+   "confidence": "Medium",
+   "status": "open",
+   "resolved_date": "",
+   "evidence": "",
+   "source_url": "https://www.knbs.or.ke/wp-content/uploads/2026/08/Kenya-Consumer-Price-Indices-and-Inflation-Rates-August-2026.pdf",
    "overdue": false
   },
   {
@@ -1064,6 +1080,22 @@ window.LEDGER = {
    "resolved_date": "",
    "evidence": "",
    "source_url": "https://travel.state.gov/en/international-travel/travel-advisories/uganda.html",
+   "overdue": false
+  },
+  {
+   "id": "P141",
+   "made_date": "2026-09-01",
+   "edition": "pulse-2026-09-01-morning",
+   "claim": "The UK FCDO will NOT add any new advise-against-travel geography to Kenya on aviation or industrial-action grounds before 31 December 2026 — the 31 August 2026 update was an operational note appended to an unchanged Somalia-border terrorism geography, and labour disruption does not generate advise-against-travel zones",
+   "resolution_criteria": "gov.uk/foreign-travel-advice/kenya Warnings and Regional risks pages checked on 31 December 2026. Correct if the advise-against-all-travel geography still comprises only Mandera, parts of Wajir, parts of Garissa and parts of Lamu on Somalia-linked terrorism grounds. Any added zone citing aviation, airport or industrial action resolves incorrect",
+   "resolve_by": "2026-12-31",
+   "market": "KE",
+   "segment": "City|Bush|Beach",
+   "confidence": "High",
+   "status": "open",
+   "resolved_date": "",
+   "evidence": "",
+   "source_url": "https://www.gov.uk/foreign-travel-advice/kenya",
    "overdue": false
   },
   {
@@ -1820,6 +1852,22 @@ window.LEDGER = {
   }
  ],
  "resolved": [
+  {
+   "id": "P137",
+   "made_date": "2026-08-31",
+   "edition": "pulse-2026-08-31-morning",
+   "claim": "The 30 August 2026 KAWU strike will be settled by a return-to-work formula or suspension on or before 6 September 2026 — the February 2026 round closed on day two via ministerial mediation, and that settlement template holds",
+   "resolution_criteria": "A KAA, KCAA, Ministry of Roads and Transport or KAWU statement, or credible Kenyan press (Daily Nation, The Star, Capital FM, People Daily, KBC), confirming a return-to-work formula, suspension or call-off dated on or before 6 September 2026. Industrial action still live on 7 September 2026 resolves incorrect",
+   "resolve_by": "2026-09-07",
+   "market": "KE",
+   "segment": "City|Bush|Beach",
+   "confidence": "Medium",
+   "status": "correct",
+   "resolved_date": "2026-09-01",
+   "evidence": "KAWU signed a return-to-work agreement with KCAA, KAA and Jambojet on 1 September 2026 following a meeting chaired by Transport CS Davis Chirchir, and directed members back to work immediately. Settled on day three, five days inside the 6 September resolve-by date.",
+   "source_url": "https://www.kbc.co.ke/flight-disruptions-persist-at-jkia-as-kawu-calls-off-strike/",
+   "overdue": false
+  },
   {
    "id": "P032",
    "made_date": "2026-07-28",
