@@ -1,18 +1,51 @@
 {
- "generated": "2026-09-02T17:10:12+03:00",
+ "generated": "2026-09-02T21:49:40+03:00",
  "slot": "evening",
  "window_start": 1788343200,
- "observations_in_window": 205,
+ "observations_in_window": 316,
  "deduped_against": 20,
  "candidates": [
   {
-   "score": 100.9,
+   "score": 101.4,
    "components": {
     "tier": 40,
     "category": 32,
     "lead": 3.6,
     "relevance": 0,
-    "freshness": 19.3,
+    "freshness": 19.8,
+    "corroborated": 10,
+    "page_change": -4
+   },
+   "keywords": [],
+   "shock_terms": [],
+   "dedupe_match": null,
+   "dedupe_similarity": 0.0,
+   "id": "e1b1e93a95ab",
+   "title": "[page changed] Federal Register \u2014 public inspection (HHS/CDC), pre-publication",
+   "url": "https://www.federalregister.gov/api/v1/public-inspection-documents/current.json",
+   "summary": "{\"count\":108,\"results\":[{\"agencies\":[{\"raw_name\":\"Federal Aviation Administration\",\"name\":\"Federal Aviation Administration\",\"id\":159,\"url\":\"https://www.federalregister.gov/agencies/federal-aviation-administration\",\"json_url\":\"https://www.federalregister.gov/api/v1/agencies/159\",\"parent_id\":492,\"slug\":\"federal-aviation-administration\"}],\"agency_letters\":[],\"agency_names\":[\"Federal Aviation Administ",
+   "kind": "page-change",
+   "source": "Federal Register \u2014 public inspection (HHS/CDC), pre-publication",
+   "source_id": "us-fedreg-pubinspect-hhs",
+   "tier": 1,
+   "country": "REG",
+   "category": "advisory",
+   "segments": [
+    "city",
+    "bush"
+   ],
+   "first_seen": "2026-09-02T21:48+03:00",
+   "published": "2026-09-01",
+   "verdict": "OPEN THIS \u2014 tier-1 advisory page moved; content not auto-parsed, read it manually"
+  },
+  {
+   "score": 95.8,
+   "components": {
+    "tier": 40,
+    "category": 32,
+    "lead": 3.6,
+    "relevance": 0,
+    "freshness": 14.2,
     "corroborated": 10,
     "page_change": -4
    },
@@ -39,13 +72,13 @@
    "verdict": "OPEN THIS \u2014 tier-1 advisory page moved; content not auto-parsed, read it manually"
   },
   {
-   "score": 64.9,
+   "score": 59.8,
    "components": {
     "tier": 40,
     "category": 12,
     "lead": 3.6,
     "relevance": 0,
-    "freshness": 19.3,
+    "freshness": 14.2,
     "undated": -6,
     "page_change": -4
    },
@@ -73,13 +106,13 @@
    "verdict": "OPEN THIS \u2014 tier-1 airline page moved; content not auto-parsed, read it manually"
   },
   {
-   "score": 107.7,
+   "score": 102.6,
    "components": {
     "tier": 40,
     "category": 18,
     "lead": 8.4,
     "relevance": 12,
-    "freshness": 19.3,
+    "freshness": 14.2,
     "corroborated": 10
    },
    "keywords": [
@@ -107,13 +140,80 @@
    "verdict": "STRONG \u2014 tier-1, upstream"
   },
   {
-   "score": 103.1,
+   "score": 99.8,
+   "components": {
+    "tier": 40,
+    "category": 20,
+    "lead": 12.0,
+    "relevance": 8,
+    "freshness": 19.8
+   },
+   "keywords": [
+    "gazette"
+   ],
+   "shock_terms": [],
+   "dedupe_match": null,
+   "dedupe_similarity": 0.25,
+   "id": "7844b050c92d",
+   "title": "Kenya Gazette Vol. CXXVIII-No. 153",
+   "url": "https://new.kenyalaw.org/akn/ke/officialGazette/2026-08-31/153/eng@2026-08-31",
+   "summary": "Kenya Gazette Vol. CXXVIII-No. 153",
+   "kind": "item",
+   "source": "Kenya Gazette (Kenya Law)",
+   "source_id": "ke-gazette",
+   "tier": 1,
+   "country": "KE",
+   "category": "gazette",
+   "segments": [
+    "city",
+    "bush",
+    "beach"
+   ],
+   "first_seen": "2026-09-02T21:48+03:00",
+   "published": "2026-08-31",
+   "verdict": "STRONG \u2014 tier-1, upstream"
+  },
+  {
+   "score": 98.2,
+   "components": {
+    "tier": 40,
+    "category": 24,
+    "lead": 2.4,
+    "relevance": 12,
+    "freshness": 19.8
+   },
+   "keywords": [
+    "ebola"
+   ],
+   "shock_terms": [],
+   "dedupe_match": null,
+   "dedupe_similarity": 0.2,
+   "id": "c1f670f62623",
+   "title": "Democratic Republic of the Congo (DRC) reported",
+   "url": "https://insp.cd/wp-content/uploads/2026/09/SitRep_MVEBDB_109_31_08_2026.pdf",
+   "summary": "1 fr-FR fr-FR fr-FR fr-FRRapport de Situation de la 17\u00e8me \u00c9pid\u00e9mie de la Maladie \u00e0 Virus EBOLA /RDC fr-FR fr-FRSitRep N\u00b0109/MVEBDB/31/08/2026 fr-FR Date de rapportage : 31 ao\u00fbt 2026 Date de publication : 01 septembre 2026 fr-FR fr-FR fr-FR fr-FR fr-FR fr-FR fr-FR fr-FR fr-FR fr-CD fr-FR fr-FR fr-CD fr-CD fr-FR fr-FR fr-FR fr-FR fr-FR fr-FR fr-FR fr-FR fr-FR fr-FR fr-FR fr-FR fr-FR fr-FR fr-FR fr-F",
+   "kind": "doc",
+   "source": "ECDC \u2014 DRC/Uganda Ebola outbreak page",
+   "source_id": "ecdc-ebola",
+   "tier": 1,
+   "country": "GLOBAL",
+   "category": "health",
+   "segments": [
+    "city",
+    "bush"
+   ],
+   "first_seen": "2026-09-02T21:47+03:00",
+   "published": "2026-08-31",
+   "verdict": "STRONG \u2014 tier-1, upstream"
+  },
+  {
+   "score": 98.0,
    "components": {
     "tier": 40,
     "category": 9,
     "lead": 16.8,
     "relevance": 8,
-    "freshness": 19.3,
+    "freshness": 14.2,
     "corroborated": 10
    },
    "keywords": [
@@ -142,13 +242,87 @@
    "verdict": "STRONG \u2014 tier-1, upstream"
   },
   {
-   "score": 91.9,
+   "score": 88.2,
+   "components": {
+    "tier": 20,
+    "category": 14,
+    "lead": 8.4,
+    "relevance": 16,
+    "freshness": 19.8,
+    "corroborated": 10
+   },
+   "keywords": [
+    "route",
+    "airline",
+    "flight"
+   ],
+   "shock_terms": [],
+   "dedupe_match": null,
+   "dedupe_similarity": 0.17,
+   "id": "89a8483d76f4",
+   "title": "Batik Air Malaysia Nov 2026 Sydney Service Reductions",
+   "url": "https://www.aeroroutes.com/eng/260902-odnov26syd",
+   "summary": "Published at 1100PDT / 1800GMT 02SEP26 Batik Air Malaysia during the month of November 2026 schedules service reduction on the nonstop Kuala Lumpur \u2013 Sydney route, based on recent schedule update, not announced by the airline. From 25OCT26 to 01DEC26, the airline schedules 5 weekly flights with A330-300, instead of 7 weekly. OD119 KUL0840 \u2013 2000SYD 330 2 OD121 KUL1950 \u2013 0710+1SYD 330 x126 OD122 SY",
+   "kind": "item",
+   "source": "AeroRoutes schedule filings",
+   "source_id": "aeroroutes",
+   "tier": 2,
+   "country": "GLOBAL",
+   "category": "aviation-tracker",
+   "segments": [
+    "city",
+    "bush",
+    "beach"
+   ],
+   "first_seen": "2026-09-02T21:48+03:00",
+   "published": "2026-09-02",
+   "verdict": "CONSIDER"
+  },
+  {
+   "score": 88.2,
+   "components": {
+    "tier": 20,
+    "category": 14,
+    "lead": 8.4,
+    "relevance": 16,
+    "freshness": 19.8,
+    "corroborated": 10
+   },
+   "keywords": [
+    "route",
+    "airline",
+    "flight"
+   ],
+   "shock_terms": [],
+   "dedupe_match": null,
+   "dedupe_similarity": 0.17,
+   "id": "c6203e7b5286",
+   "title": "Royal Jordanian Adds Aqaba \u2013 Moscow in NW26",
+   "url": "https://www.aeroroutes.com/eng/260902-rjnw26dme",
+   "summary": "Published at 0800PDT / 1500GMT 02SEP26 Royal Jordanian during Northern winter 2026/27 season intends to launch service on Aqaba \u2013 Moscow Domodedovo route, on board Airbus A320neo aircraft. The airline\u2019s schedule listing currently shows 2 weekly flights from 01NOV26 to 25MAR27. RJ320 AQJ0940 \u2013 1505DME 32N 47 RJ321 DME1605 \u2013 2150AQJ 32N 47",
+   "kind": "item",
+   "source": "AeroRoutes schedule filings",
+   "source_id": "aeroroutes",
+   "tier": 2,
+   "country": "GLOBAL",
+   "category": "aviation-tracker",
+   "segments": [
+    "city",
+    "bush",
+    "beach"
+   ],
+   "first_seen": "2026-09-02T21:48+03:00",
+   "published": "2026-09-02",
+   "verdict": "CONSIDER"
+  },
+  {
+   "score": 86.8,
    "components": {
     "tier": 20,
     "category": 9,
     "lead": 3.6,
     "relevance": 12,
-    "freshness": 19.3,
+    "freshness": 14.2,
     "corroborated": 10,
     "shock": 18
    },
@@ -179,13 +353,49 @@
    "verdict": "CONSIDER"
   },
   {
-   "score": 88.1,
+   "score": 84.2,
+   "components": {
+    "tier": 20,
+    "category": 14,
+    "lead": 8.4,
+    "relevance": 12,
+    "freshness": 19.8,
+    "corroborated": 10
+   },
+   "keywords": [
+    "route",
+    "airline"
+   ],
+   "shock_terms": [],
+   "dedupe_match": null,
+   "dedupe_similarity": 0.0,
+   "id": "d5115f71cc47",
+   "title": "Somon Air Begins Dushanbe \u2013 Minsk Service in late-Aug 2026",
+   "url": "https://www.aeroroutes.com/eng/260902-szaug26msq",
+   "summary": "Published at 0900PDT / 1600GMT 02SEP26 Somon Air last week launched new nonstop service to Belarus, as the carrier inaugurated Dushanbe \u2013 Minsk route on 29AUG26. Boeing 737-800 aircraft operates this route on weekly basis. Previously reported on AeroRoutes in early-August 2026, the airline initially filed schedule until 12SEP26, however it has since been extended to 24OCT26. SZ111 DYU0630 \u2013 0950MS",
+   "kind": "item",
+   "source": "AeroRoutes schedule filings",
+   "source_id": "aeroroutes",
+   "tier": 2,
+   "country": "GLOBAL",
+   "category": "aviation-tracker",
+   "segments": [
+    "city",
+    "bush",
+    "beach"
+   ],
+   "first_seen": "2026-09-02T21:48+03:00",
+   "published": "2026-09-02",
+   "verdict": "CONSIDER"
+  },
+  {
+   "score": 83.0,
    "components": {
     "tier": 40,
     "category": 10,
     "lead": 16.8,
     "relevance": 8,
-    "freshness": 19.3,
+    "freshness": 14.2,
     "undated": -6
    },
    "keywords": [
@@ -214,13 +424,13 @@
    "verdict": "CONSIDER"
   },
   {
-   "score": 87.7,
+   "score": 82.6,
    "components": {
     "tier": 20,
     "category": 14,
     "lead": 8.4,
     "relevance": 16,
-    "freshness": 19.3,
+    "freshness": 14.2,
     "corroborated": 10
    },
    "keywords": [
@@ -251,13 +461,13 @@
    "verdict": "CONSIDER"
   },
   {
-   "score": 87.7,
+   "score": 82.6,
    "components": {
     "tier": 20,
     "category": 14,
     "lead": 8.4,
     "relevance": 16,
-    "freshness": 19.3,
+    "freshness": 14.2,
     "corroborated": 10
    },
    "keywords": [
@@ -288,13 +498,122 @@
    "verdict": "CONSIDER"
   },
   {
-   "score": 84.9,
+   "score": 80.2,
+   "components": {
+    "tier": 20,
+    "category": 14,
+    "lead": 8.4,
+    "relevance": 8,
+    "freshness": 19.8,
+    "corroborated": 10
+   },
+   "keywords": [
+    "route"
+   ],
+   "shock_terms": [],
+   "dedupe_match": null,
+   "dedupe_similarity": 0.0,
+   "id": "ed40bc9d6247",
+   "title": "Air China 4Q26 Europe Service Reductions",
+   "url": "https://www.aeroroutes.com/eng/260902-ca4q26eu",
+   "summary": "Published at 1000PDT / 1700GMT 02SEP26 Air China in the fourth quarter of 2026 plans service reductions on various European routes, reflected in recent schedule update. Beijing Capital \u2013 Brussels 09NOV26 \u2013 29DEC26 Reduce from 7 to 6 weekly (selected weeks 5 weekly), A330-300 Beijing Capital \u2013 Budapest 25OCT26 \u2013 05JAN27 Reduce from 7 to 6 weekly, 787-9 Beijing Capital \u2013 Geneva 25OCT26 \u2013 04JAN27 Red",
+   "kind": "item",
+   "source": "AeroRoutes schedule filings",
+   "source_id": "aeroroutes",
+   "tier": 2,
+   "country": "GLOBAL",
+   "category": "aviation-tracker",
+   "segments": [
+    "city",
+    "bush",
+    "beach"
+   ],
+   "first_seen": "2026-09-02T21:48+03:00",
+   "published": "2026-09-02",
+   "verdict": "CONSIDER"
+  },
+  {
+   "score": 80.2,
+   "components": {
+    "tier": 20,
+    "category": 14,
+    "lead": 8.4,
+    "relevance": 8,
+    "freshness": 19.8,
+    "corroborated": 10
+   },
+   "keywords": [
+    "charter"
+   ],
+   "shock_terms": [],
+   "dedupe_match": null,
+   "dedupe_similarity": 0.0,
+   "id": "9ac6490d9180",
+   "title": "Smartwings OCt 2026 / 2Q27 Akureyri and Egilssta\u00f0ir Charters",
+   "url": "https://www.aeroroutes.com/eng/260902-qs2627is",
+   "summary": "Published at 0700PDT / 1400GMT 02SEP26 Smartwings in October 2026 and April 2027 schedules charter service from Akureyri and Egilssta\u00f0ir to continental Europe. Planned operation as follows. Akureyri \u2013 Gdansk QS4365 AEY0900 \u2013 1430GDN 73H 05MAY27 QS4366 GDN2200 \u2013 2345AEY 73H 09MAY27 Akureyri \u2013 Prague QS4301 PRG0700 \u2013 0850AEY 73H 21APR27 QS4301 PRG2145 \u2013 2335AEY 73H 25APR27 QS4302 AEY0940 \u2013 1515PRG 7",
+   "kind": "item",
+   "source": "AeroRoutes schedule filings",
+   "source_id": "aeroroutes",
+   "tier": 2,
+   "country": "GLOBAL",
+   "category": "aviation-tracker",
+   "segments": [
+    "city",
+    "bush",
+    "beach"
+   ],
+   "first_seen": "2026-09-02T21:48+03:00",
+   "published": "2026-09-02",
+   "verdict": "CONSIDER"
+  },
+  {
+   "score": 79.8,
+   "components": {
+    "tier": 20,
+    "category": 4,
+    "lead": 0.0,
+    "relevance": 24,
+    "freshness": 19.8,
+    "undated": -6,
+    "shock": 18
+   },
+   "keywords": [
+    "outbreak",
+    "ebola"
+   ],
+   "shock_terms": [
+    "outbreak"
+   ],
+   "dedupe_match": null,
+   "dedupe_similarity": 0.4,
+   "id": "494f6ccdabe1",
+   "title": "Africa Congo's Ebola outbreak kills more than 3,000, government figures show 8 hours ago - 2 min read",
+   "url": "https://www.thecitizen.co.tz/tanzania/news/africa/congo-s-ebola-outbreak-kills-more-than-3-000-government-figures-show-5580798",
+   "summary": "",
+   "kind": "item",
+   "source": "The Citizen (Tanzania)",
+   "source_id": "np-citizen-tz",
+   "tier": 2,
+   "country": "TZ",
+   "category": "press",
+   "segments": [
+    "city",
+    "bush",
+    "beach"
+   ],
+   "first_seen": "2026-09-02T21:48+03:00",
+   "published": null,
+   "verdict": "CONSIDER"
+  },
+  {
+   "score": 79.8,
    "components": {
     "tier": 40,
     "category": 12,
     "lead": 3.6,
     "relevance": 0,
-    "freshness": 19.3,
+    "freshness": 14.2,
     "corroborated": 10
    },
    "keywords": [],
@@ -321,13 +640,13 @@
    "verdict": "CONSIDER"
   },
   {
-   "score": 83.7,
+   "score": 78.6,
    "components": {
     "tier": 20,
     "category": 14,
     "lead": 8.4,
     "relevance": 12,
-    "freshness": 19.3,
+    "freshness": 14.2,
     "corroborated": 10
    },
    "keywords": [
@@ -357,13 +676,13 @@
    "verdict": "CONSIDER"
   },
   {
-   "score": 83.7,
+   "score": 78.6,
    "components": {
     "tier": 20,
     "category": 14,
     "lead": 8.4,
     "relevance": 12,
-    "freshness": 19.3,
+    "freshness": 14.2,
     "corroborated": 10
    },
    "keywords": [
@@ -393,13 +712,13 @@
    "verdict": "CONSIDER"
   },
   {
-   "score": 83.7,
+   "score": 78.6,
    "components": {
     "tier": 40,
     "category": 12,
     "lead": 2.4,
     "relevance": 0,
-    "freshness": 19.3,
+    "freshness": 14.2,
     "corroborated": 10
    },
    "keywords": [],
@@ -426,13 +745,13 @@
    "verdict": "CONSIDER"
   },
   {
-   "score": 83.3,
+   "score": 78.2,
    "components": {
     "tier": 20,
     "category": 4,
     "lead": 0.0,
     "relevance": 12,
-    "freshness": 19.3,
+    "freshness": 14.2,
     "corroborated": 10,
     "shock": 18
    },
@@ -464,13 +783,13 @@
    "verdict": "CONSIDER"
   },
   {
-   "score": 83.1,
+   "score": 78.0,
    "components": {
     "tier": 40,
     "category": 9,
     "lead": 16.8,
     "relevance": 4,
-    "freshness": 19.3,
+    "freshness": 14.2,
     "undated": -6
    },
    "keywords": [
@@ -497,13 +816,13 @@
    "verdict": "CONSIDER"
   },
   {
-   "score": 81.9,
+   "score": 76.8,
    "components": {
     "tier": 20,
     "category": 9,
     "lead": 3.6,
     "relevance": 20,
-    "freshness": 19.3,
+    "freshness": 14.2,
     "corroborated": 10
    },
    "keywords": [
@@ -533,13 +852,53 @@
    "verdict": "CONSIDER"
   },
   {
-   "score": 80.1,
+   "score": 75.8,
+   "components": {
+    "tier": 20,
+    "category": 4,
+    "lead": 0.0,
+    "relevance": 20,
+    "freshness": 19.8,
+    "undated": -6,
+    "shock": 18
+   },
+   "keywords": [
+    "airport",
+    "strike",
+    "flight"
+   ],
+   "shock_terms": [
+    "strike"
+   ],
+   "dedupe_match": null,
+   "dedupe_similarity": 0.17,
+   "id": "434c9c6afb5b",
+   "title": "Transport Flight disruptions persist as airport workers strike impact lingers Yesterday - 3 min read",
+   "url": "https://www.businessdailyafrica.com/bd/corporate/shipping-logistics/flight-disruptions-persist-as-workers-strike-impact-lingers-5580088",
+   "summary": "",
+   "kind": "item",
+   "source": "Business Daily Africa",
+   "source_id": "np-businessdaily",
+   "tier": 2,
+   "country": "KE",
+   "category": "press",
+   "segments": [
+    "city",
+    "bush",
+    "beach"
+   ],
+   "first_seen": "2026-09-02T21:48+03:00",
+   "published": null,
+   "verdict": "CONSIDER"
+  },
+  {
+   "score": 75.0,
    "components": {
     "tier": 40,
     "category": 10,
     "lead": 16.8,
     "relevance": 0,
-    "freshness": 19.3,
+    "freshness": 14.2,
     "undated": -6
    },
    "keywords": [],
@@ -566,13 +925,13 @@
    "verdict": "CONSIDER"
   },
   {
-   "score": 80.1,
+   "score": 75.0,
    "components": {
     "tier": 40,
     "category": 10,
     "lead": 16.8,
     "relevance": 0,
-    "freshness": 19.3,
+    "freshness": 14.2,
     "undated": -6
    },
    "keywords": [],
@@ -599,13 +958,13 @@
    "verdict": "CONSIDER"
   },
   {
-   "score": 79.5,
+   "score": 74.4,
    "components": {
     "tier": 20,
     "category": 5,
     "lead": 1.2,
     "relevance": 24,
-    "freshness": 19.3,
+    "freshness": 14.2,
     "corroborated": 10
    },
    "keywords": [
@@ -637,13 +996,13 @@
    "verdict": "CONSIDER"
   },
   {
-   "score": 79.3,
+   "score": 74.2,
    "components": {
     "tier": 20,
     "category": 4,
     "lead": 0.0,
     "relevance": 24,
-    "freshness": 19.3,
+    "freshness": 14.2,
     "undated": -6,
     "shock": 18
    },
@@ -676,13 +1035,52 @@
    "verdict": "CONSIDER"
   },
   {
-   "score": 79.1,
+   "score": 74.0,
+   "components": {
+    "tier": 20,
+    "category": 5,
+    "lead": 1.2,
+    "relevance": 16,
+    "freshness": 19.8,
+    "undated": -6,
+    "shock": 18
+   },
+   "keywords": [
+    "airport",
+    "strike"
+   ],
+   "shock_terms": [
+    "strike"
+   ],
+   "dedupe_match": null,
+   "dedupe_similarity": 0.33,
+   "id": "3bd1eeca6b00",
+   "title": "Kenya counts cost of repeated airport strikes",
+   "url": "https://www.tourismupdate.com/article/kenya-counts-cost-of-repeated-airport-strikes",
+   "summary": "",
+   "kind": "item",
+   "source": "Tourism Update (Southern & East Africa)",
+   "source_id": "tp-tourismupdate",
+   "tier": 2,
+   "country": "REG",
+   "category": "trade",
+   "segments": [
+    "city",
+    "bush",
+    "beach"
+   ],
+   "first_seen": "2026-09-02T21:48+03:00",
+   "published": null,
+   "verdict": "CONSIDER"
+  },
+  {
+   "score": 74.0,
    "components": {
     "tier": 40,
     "category": 9,
     "lead": 16.8,
     "relevance": 0,
-    "freshness": 19.3,
+    "freshness": 14.2,
     "undated": -6
    },
    "keywords": [],
@@ -709,13 +1107,13 @@
    "verdict": "CONSIDER"
   },
   {
-   "score": 77.9,
+   "score": 72.8,
    "components": {
     "tier": 20,
     "category": 5,
     "lead": 3.6,
     "relevance": 20,
-    "freshness": 19.3,
+    "freshness": 14.2,
     "corroborated": 10
    },
    "keywords": [
@@ -746,13 +1144,13 @@
    "verdict": "CONSIDER"
   },
   {
-   "score": 77.9,
+   "score": 72.8,
    "components": {
     "tier": 20,
     "category": 5,
     "lead": 3.6,
     "relevance": 20,
-    "freshness": 19.3,
+    "freshness": 14.2,
     "corroborated": 10
    },
    "keywords": [
@@ -784,13 +1182,13 @@
    "verdict": "CONSIDER"
   },
   {
-   "score": 76.9,
+   "score": 71.8,
    "components": {
     "tier": 40,
     "category": 12,
     "lead": 3.6,
     "relevance": 8,
-    "freshness": 19.3,
+    "freshness": 14.2,
     "undated": -6
    },
    "keywords": [
@@ -819,13 +1217,13 @@
    "verdict": "CONSIDER"
   },
   {
-   "score": 75.7,
+   "score": 70.6,
    "components": {
     "tier": 20,
     "category": 14,
     "lead": 8.4,
     "relevance": 4,
-    "freshness": 19.3,
+    "freshness": 14.2,
     "corroborated": 10
    },
    "keywords": [
@@ -854,13 +1252,13 @@
    "verdict": "CONSIDER"
   },
   {
-   "score": 75.7,
+   "score": 70.6,
    "components": {
     "tier": 20,
     "category": 14,
     "lead": 8.4,
     "relevance": 4,
-    "freshness": 19.3,
+    "freshness": 14.2,
     "corroborated": 10
    },
    "keywords": [
@@ -889,13 +1287,13 @@
    "verdict": "CONSIDER"
   },
   {
-   "score": 75.3,
+   "score": 70.2,
    "components": {
     "tier": 20,
     "category": 4,
     "lead": 0.0,
     "relevance": 20,
-    "freshness": 19.3,
+    "freshness": 14.2,
     "undated": -6,
     "shock": 18
    },
@@ -929,13 +1327,13 @@
    "verdict": "CONSIDER"
   },
   {
-   "score": 75.3,
+   "score": 70.2,
    "components": {
     "tier": 20,
     "category": 4,
     "lead": 0.0,
     "relevance": 20,
-    "freshness": 19.3,
+    "freshness": 14.2,
     "undated": -6,
     "shock": 18
    },
@@ -969,13 +1367,13 @@
    "verdict": "CONSIDER"
   },
   {
-   "score": 74.3,
+   "score": 69.2,
    "components": {
     "tier": 40,
     "category": 20,
     "lead": 12.0,
     "relevance": 8,
-    "freshness": 19.3,
+    "freshness": 14.2,
     "stale_trap": -25
    },
    "keywords": [
@@ -1004,13 +1402,13 @@
    "verdict": "CHECK \u2014 source date older than the window"
   },
   {
-   "score": 74.3,
+   "score": 69.2,
    "components": {
     "tier": 40,
     "category": 20,
     "lead": 12.0,
     "relevance": 8,
-    "freshness": 19.3,
+    "freshness": 14.2,
     "stale_trap": -25
    },
    "keywords": [
@@ -1037,391 +1435,6 @@
    "first_seen": "2026-09-02T16:42+03:00",
    "published": "2026-08-25",
    "verdict": "CHECK \u2014 source date older than the window"
-  },
-  {
-   "score": 73.9,
-   "components": {
-    "tier": 20,
-    "category": 5,
-    "lead": 3.6,
-    "relevance": 16,
-    "freshness": 19.3,
-    "corroborated": 10
-   },
-   "keywords": [
-    "revpar",
-    "hotel",
-    "investment"
-   ],
-   "shock_terms": [],
-   "dedupe_match": null,
-   "dedupe_similarity": 0.4,
-   "id": "168cdffd00c0",
-   "title": "Lodging Analytics Research & Consulting (LARC)\u2019s 3Q-2026 U.S. Hotel Industry Outlook and Market Intelligence Reports",
-   "url": "https://www.hospitalitynet.org/opinion/4134186/lodging-analytics-research-consulting-larcs-3q-2026-us-hotel-industry-outlook-and-market-intelligence-reports",
-   "summary": "LARC forecasts 2026 U.S. RevPAR growth of 5.1%, buoyed by FIFA World Cup and corporate transient strength, with growth moderating to 2.1% in 2027 as group demand slows and AI investment reshapes business travel.",
-   "kind": "item",
-   "source": "Hospitality Net \u2014 Africa announcements",
-   "source_id": "dev-hospitalitynet-africa",
-   "tier": 2,
-   "country": "REG",
-   "category": "trade",
-   "segments": [
-    "city",
-    "bush",
-    "beach"
-   ],
-   "first_seen": "2026-09-02T16:43+03:00",
-   "published": "2026-09-02",
-   "verdict": "CONSIDER"
-  },
-  {
-   "score": 73.9,
-   "components": {
-    "tier": 20,
-    "category": 9,
-    "lead": 3.6,
-    "relevance": 12,
-    "freshness": 19.3,
-    "corroborated": 10
-   },
-   "keywords": [
-    "terror"
-   ],
-   "shock_terms": [],
-   "dedupe_match": null,
-   "dedupe_similarity": 0.2,
-   "id": "9a763064d721",
-   "title": "Wie erinnern Sie sich?: 25 Jahre \"9/11\": Der Tag, der auch das Reisen ver\u00e4nderte",
-   "url": "https://www.fvw.de/touristik/vertrieb/wie-erinnern-sie-den-tag-und-die-folgen-25-jahre-911-der-tag-der-auch-das-reisen-veraenderte-264249",
-   "summary": "Kommende Woche j\u00e4hren sich zum 25. Mal die Terroranschl\u00e4ge vom 11. September 2001 in den USA. Viele Menschen erinnern sich genau an den Tag, an dem die Zwillingst\u00fcrme des World Trade Center einst\u00fcrzten. F\u00fcr die Reisebranche bildeten die Anschl\u00e4ge und der darauffolgende Irak-Krieg eine Z\u00e4sur. Wie haben Sie \"Nine Eleven\" erlebt, was hat das f\u00fcr Ihr Gesch\u00e4ft bedeutet?",
-   "kind": "item",
-   "source": "FVW / German travel trade",
-   "source_id": "sm-derreise",
-   "tier": 2,
-   "country": "GLOBAL",
-   "category": "source-market",
-   "segments": [
-    "beach",
-    "bush"
-   ],
-   "first_seen": "2026-09-02T16:43+03:00",
-   "published": "2026-09-02",
-   "verdict": "CONSIDER"
-  },
-  {
-   "score": 73.9,
-   "components": {
-    "tier": 20,
-    "category": 9,
-    "lead": 3.6,
-    "relevance": 12,
-    "freshness": 19.3,
-    "corroborated": 10
-   },
-   "keywords": [
-    "airport",
-    "airline"
-   ],
-   "shock_terms": [],
-   "dedupe_match": null,
-   "dedupe_similarity": 0.17,
-   "id": "e90853b6bee7",
-   "title": "Winterflugplan 2026/27: Finnair verbindet f\u00fcnf deutsche Airports mit Helsinki",
-   "url": "https://www.fvw.de/touristik/verkehr/winterflugplan-202627-finnair-verbindet-fuenf-deutsche-airports-mit-helsinki-264234",
-   "summary": "Im Winter 2026/27 verbindet Finnair f\u00fcnf deutsche Flugh\u00e4fen mit dem Drehkreuz Helsinki mit mehr als 80 Abfl\u00fcgen pro Woche. Von dort aus erm\u00f6glicht die Airline Anschl\u00fcsse zu 15 Zielen in Finnland.",
-   "kind": "item",
-   "source": "FVW / German travel trade",
-   "source_id": "sm-derreise",
-   "tier": 2,
-   "country": "GLOBAL",
-   "category": "source-market",
-   "segments": [
-    "beach",
-    "bush"
-   ],
-   "first_seen": "2026-09-02T16:43+03:00",
-   "published": "2026-09-02",
-   "verdict": "CONSIDER"
-  },
-  {
-   "score": 72.3,
-   "components": {
-    "tier": 40,
-    "category": 13,
-    "lead": 6.0,
-    "relevance": 0,
-    "freshness": 19.3,
-    "undated": -6
-   },
-   "keywords": [],
-   "shock_terms": [],
-   "dedupe_match": null,
-   "dedupe_similarity": 0.25,
-   "id": "9ce1e36a4b16",
-   "title": "Perfomance Based Navigation (PBN) Implementation Plan",
-   "url": "https://www.kcaa.or.ke/sites/default/files/docs/pbn/The%20Kenya%20National%20PBN%20Implementation%20Plan%20-%20Version%203%2C%20June%202026.pdf",
-   "summary": "Kenya Civil Aviation Authority Version 3 Issued: 30-06-2026 Page 1 en-GBKENYA CIVIL AVIATION AUTHORITY (KCAA) en-GB en-GB en-GB PERFORMANCE BASED NAVIGATION (PBN) en-GBIMPLEMENTATION PLAN KENYA en-GB en-GB \u0000\u0002\u0000\u0001\u0000\u0003\u0004\u00ec\u0001\u0090\u0000\u0005\u0000\b\u0005\u009a\u00053\u0000\u0000\u0000\u009c\u0005\u009a\u00053\u0000\u0000\u0001\u00f7\u0000f\u0001\u00fe\u0002\u000f\u0002\u0004\u0005\u0003\u0005\u0004\u0006\u0003\u0002\u0004\u00e0\u0000\u0006\u00ffB\u0000$\u00ff\u0002\u0000\u0000\u0000\u0000\u0000\u0000\u0000MS \u0000@\u0000\u0000 \u0089\u00069\u00fe9\u0001a\u0007\u009a\u0001\u00c7 \u0000\u0001\u009f\u0000\u0000\u0000\u0000\u0003\u00bc\u0005U\u0000\u0000\u0000 \u0000\u0003\u0005D\u0000\u00be\u0000\u0000\u0000\u0000\u0001\u00c3\u0000\u0000\u0001\u00c3\u0000\u0000\u0004\u00fc\u0000\u0006\u0000\u0000\u0000\u0000\u0004\u0080\u0000w\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0002\u0098\u0000y\u0000\u0000\u0000\u0000\u0005 \u0000y\u0000\u0000\u0000\u0000\u0006\u0086\u0000u\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0004\u008b\u0000y\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000",
-   "kind": "doc",
-   "source": "KCAA \u2014 aeronautical information & circulars",
-   "source_id": "ke-kcaa",
-   "tier": 1,
-   "country": "KE",
-   "category": "aviation",
-   "segments": [
-    "city",
-    "bush",
-    "beach"
-   ],
-   "first_seen": "2026-09-02T16:42+03:00",
-   "published": null,
-   "verdict": "CONSIDER"
-  },
-  {
-   "score": 71.3,
-   "components": {
-    "tier": 20,
-    "category": 4,
-    "lead": 0.0,
-    "relevance": 0,
-    "freshness": 19.3,
-    "corroborated": 10,
-    "shock": 18
-   },
-   "keywords": [],
-   "shock_terms": [
-    "attack"
-   ],
-   "dedupe_match": null,
-   "dedupe_similarity": 0.2,
-   "id": "786af9063371",
-   "title": "US and Iran exchange attacks as lull in war appears over",
-   "url": "https://www.monitor.co.ug/uganda/news/world/us-and-iran-exchange-attacks-as-lull-in-war-appears-over-5580448",
-   "summary": "The exchange of fire marked the first serious combat since July.",
-   "kind": "item",
-   "source": "Daily Monitor (Uganda)",
-   "source_id": "np-monitor-ug",
-   "tier": 2,
-   "country": "UG",
-   "category": "press",
-   "segments": [
-    "city",
-    "bush",
-    "beach"
-   ],
-   "first_seen": "2026-09-02T16:44+03:00",
-   "published": "2026-09-02",
-   "verdict": "CONSIDER"
-  },
-  {
-   "score": 69.9,
-   "components": {
-    "tier": 20,
-    "category": 5,
-    "lead": 3.6,
-    "relevance": 12,
-    "freshness": 19.3,
-    "corroborated": 10
-   },
-   "keywords": [
-    "eta",
-    "hotel"
-   ],
-   "shock_terms": [],
-   "dedupe_match": null,
-   "dedupe_similarity": 0.2,
-   "id": "52dd0ca86a09",
-   "title": "Actabl\u2019s AI Insights Cut Overtime Share of Hours by 13% Across 100-plus Hotels",
-   "url": "https://www.hospitalitynet.org/news/4134178/actabls-ai-insights-cut-overtime-share-of-hours-by-13-across-100-plus-hotels",
-   "summary": "Actabl's AI Insights tool reduced overtime share of hours by 13% across 100+ beta hotels since its June 2026 HITEC launch, with one property cutting overtime spend by 75% in two months.",
-   "kind": "item",
-   "source": "Hospitality Net \u2014 Africa announcements",
-   "source_id": "dev-hospitalitynet-africa",
-   "tier": 2,
-   "country": "REG",
-   "category": "trade",
-   "segments": [
-    "city",
-    "bush",
-    "beach"
-   ],
-   "first_seen": "2026-09-02T16:43+03:00",
-   "published": "2026-09-02",
-   "verdict": "weak"
-  },
-  {
-   "score": 69.9,
-   "components": {
-    "tier": 20,
-    "category": 5,
-    "lead": 3.6,
-    "relevance": 12,
-    "freshness": 19.3,
-    "corroborated": 10
-   },
-   "keywords": [
-    "vat",
-    "guest"
-   ],
-   "shock_terms": [],
-   "dedupe_match": null,
-   "dedupe_similarity": 0.0,
-   "id": "52c43235d31a",
-   "title": "Quorum Hospitality Continues Growth with Management of Hilton Garden Inn Kauai Wailua Bay",
-   "url": "https://www.hospitalitynet.org/news/4134189/quorum-hospitality-continues-growth-with-management-of-hilton-garden-inn-kauai-wailua-bay",
-   "summary": "Quorum Hospitality takes over management of the 216-key Hilton Garden Inn Kauai Wailua Bay, with guest room and common area renovations planned for early 2027.",
-   "kind": "item",
-   "source": "Hospitality Net \u2014 Africa announcements",
-   "source_id": "dev-hospitalitynet-africa",
-   "tier": 2,
-   "country": "REG",
-   "category": "trade",
-   "segments": [
-    "city",
-    "bush",
-    "beach"
-   ],
-   "first_seen": "2026-09-02T16:43+03:00",
-   "published": "2026-09-02",
-   "verdict": "weak"
-  },
-  {
-   "score": 69.9,
-   "components": {
-    "tier": 20,
-    "category": 5,
-    "lead": 3.6,
-    "relevance": 12,
-    "freshness": 19.3,
-    "corroborated": 10
-   },
-   "keywords": [
-    "eta",
-    "hotel"
-   ],
-   "shock_terms": [],
-   "dedupe_match": null,
-   "dedupe_similarity": 0.0,
-   "id": "c8d1a519b5ea",
-   "title": "Aimbridge Hospitality Launches LIFT to Standardize Labor Planning and Management Across Its Portfolio",
-   "url": "https://www.hospitalitynet.org/news/4134184/aimbridge-hospitality-launches-lift-to-standardize-labor-planning-and-management-across-its-portfolio",
-   "summary": "Aimbridge's proprietary LIFT platform unifies forecasting, scheduling, and execution data across its portfolio, with pilot hotels reporting measurable labor productivity gains, particularly in housekeeping and laundry.",
-   "kind": "item",
-   "source": "Hospitality Net \u2014 Africa announcements",
-   "source_id": "dev-hospitalitynet-africa",
-   "tier": 2,
-   "country": "REG",
-   "category": "trade",
-   "segments": [
-    "city",
-    "bush",
-    "beach"
-   ],
-   "first_seen": "2026-09-02T16:43+03:00",
-   "published": "2026-09-02",
-   "verdict": "weak"
-  },
-  {
-   "score": 69.9,
-   "components": {
-    "tier": 20,
-    "category": 9,
-    "lead": 3.6,
-    "relevance": 8,
-    "freshness": 19.3,
-    "corroborated": 10
-   },
-   "keywords": [
-    "visa"
-   ],
-   "shock_terms": [],
-   "dedupe_match": null,
-   "dedupe_similarity": 0.0,
-   "id": "af95249ba7ef",
-   "title": "Bundesregierung: \"Zu viele Urlaubsvisa f\u00fcr Russen in der EU\"",
-   "url": "https://www.fvw.de/touristik/destination/bundesregierung-zu-viele-urlaubsvisa-fuer-russen-in-der-eu-264271",
-   "summary": "Die Bundesregierung will eine konsequente Anwendung von Regeln f\u00fcr Urlaubsvisa russischer Staatsb\u00fcrger in der EU. Diese w\u00fcrden noch \"von verschiedenen L\u00e4ndern unterschiedlich streng ausgef\u00fchrt\".",
-   "kind": "item",
-   "source": "FVW / German travel trade",
-   "source_id": "sm-derreise",
-   "tier": 2,
-   "country": "GLOBAL",
-   "category": "source-market",
-   "segments": [
-    "beach",
-    "bush"
-   ],
-   "first_seen": "2026-09-02T16:43+03:00",
-   "published": "2026-09-02",
-   "verdict": "weak"
-  },
-  {
-   "score": 69.9,
-   "components": {
-    "tier": 20,
-    "category": 9,
-    "lead": 3.6,
-    "relevance": 8,
-    "freshness": 19.3,
-    "corroborated": 10
-   },
-   "keywords": [
-    "visa"
-   ],
-   "shock_terms": [],
-   "dedupe_match": null,
-   "dedupe_similarity": 0.0,
-   "id": "41a05b4ffa07",
-   "title": "Ab 2027: Wird \u00c4gypten-Visum noch mal teurer?",
-   "url": "https://www.fvw.de/touristik/destination/ab-2027-wird-aegypten-visum-noch-mal-teurer-264264",
-   "summary": "Eine neue Entscheidung der \u00e4gyptischen Regierung sorgt aktuell unter Urlaubern f\u00fcr Gespr\u00e4chsstoff: Ab dem 1. Januar 2027 soll eine Abgabe von 15 US-Dollar auf Einreise- und Transitvisa eingef\u00fchrt werden. Bedeutet das, dass der \u00c4gypten-Urlaub teurer wird?",
-   "kind": "item",
-   "source": "FVW / German travel trade",
-   "source_id": "sm-derreise",
-   "tier": 2,
-   "country": "GLOBAL",
-   "category": "source-market",
-   "segments": [
-    "beach",
-    "bush"
-   ],
-   "first_seen": "2026-09-02T16:43+03:00",
-   "published": "2026-09-02",
-   "verdict": "weak"
-  },
-  {
-   "score": 69.9,
-   "components": {
-    "tier": 20,
-    "category": 9,
-    "lead": 3.6,
-    "relevance": 8,
-    "freshness": 19.3,
-    "corroborated": 10
-   },
-   "keywords": [
-    "airport"
-   ],
-   "shock_terms": [],
-   "dedupe_match": null,
-   "dedupe_similarity": 0.17,
-   "id": "e8e3897188eb",
-   "title": "Rum\u00e4nien: Wizz Air verbindet N\u00fcrnberg mit T\u00e2rgu Mure\u0219",
-   "url": "https://www.fvw.de/touristik/verkehr/rumaenien-wizz-air-verbindet-nuernberg-mit-trgu-mure-264223",
-   "summary": "Zum 20. Dezember 2026 verbindet Wizz Air den Albrecht D\u00fcrer Airport N\u00fcrnberg zweimal w\u00f6chentlich mit T\u00e2rgu Mure\u0219 in Zentralrum\u00e4nien.",
-   "kind": "item",
-   "source": "FVW / German travel trade",
-   "source_id": "sm-derreise",
-   "tier": 2,
-   "country": "GLOBAL",
-   "category": "source-market",
-   "segments": [
-    "beach",
-    "bush"
-   ],
-   "first_seen": "2026-09-02T16:43+03:00",
-   "published": "2026-09-02",
-   "verdict": "weak"
   }
  ]
 }
