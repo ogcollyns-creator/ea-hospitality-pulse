@@ -1,28 +1,29 @@
 {
- "generated": "2026-09-02T11:30:47+03:00",
- "slot": "midday",
- "window_start": 1788321600,
- "observations_in_window": 86,
+ "generated": "2026-09-02T16:47:47+03:00",
+ "slot": "evening",
+ "window_start": 1788343200,
+ "observations_in_window": 205,
  "deduped_against": 20,
  "candidates": [
   {
-   "score": 90.8,
+   "score": 101.3,
    "components": {
     "tier": 40,
     "category": 32,
     "lead": 3.6,
     "relevance": 0,
-    "freshness": 19.2,
+    "freshness": 19.7,
+    "corroborated": 10,
     "page_change": -4
    },
    "keywords": [],
    "shock_terms": [],
    "dedupe_match": null,
    "dedupe_similarity": 0.0,
-   "id": "4473dac79074",
+   "id": "219493823858",
    "title": "[page changed] Federal Register \u2014 public inspection (HHS/CDC), pre-publication",
    "url": "https://www.federalregister.gov/api/v1/public-inspection-documents/current.json",
-   "summary": "{\"count\":86,\"results\":[{\"agencies\":[{\"raw_name\":\"MARINE MAMMAL COMMISSION\",\"name\":\"Marine Mammal Commission\",\"id\":281,\"url\":\"https://www.federalregister.gov/agencies/marine-mammal-commission\",\"json_url\":\"https://www.federalregister.gov/api/v1/agencies/281\",\"parent_id\":null,\"slug\":\"marine-mammal-commission\"}],\"agency_letters\":[],\"agency_names\":[\"Marine Mammal Commission\"],\"docket_numbers\":[],\"docum",
+   "summary": "{\"count\":107,\"results\":[{\"agencies\":[{\"raw_name\":\"Federal Aviation Administration\",\"name\":\"Federal Aviation Administration\",\"id\":159,\"url\":\"https://www.federalregister.gov/agencies/federal-aviation-administration\",\"json_url\":\"https://www.federalregister.gov/api/v1/agencies/159\",\"parent_id\":492,\"slug\":\"federal-aviation-administration\"}],\"agency_letters\":[],\"agency_names\":[\"Federal Aviation Administ",
    "kind": "page-change",
    "source": "Federal Register \u2014 public inspection (HHS/CDC), pre-publication",
    "source_id": "us-fedreg-pubinspect-hhs",
@@ -33,30 +34,65 @@
     "city",
     "bush"
    ],
-   "first_seen": "2026-09-02T10:58+03:00",
-   "published": "2026-08-31",
+   "first_seen": "2026-09-02T16:42+03:00",
+   "published": "2026-09-01",
    "verdict": "OPEN THIS \u2014 tier-1 advisory page moved; content not auto-parsed, read it manually"
   },
   {
-   "score": 103.6,
+   "score": 65.3,
+   "components": {
+    "tier": 40,
+    "category": 12,
+    "lead": 3.6,
+    "relevance": 0,
+    "freshness": 19.7,
+    "undated": -6,
+    "page_change": -4
+   },
+   "keywords": [],
+   "shock_terms": [],
+   "dedupe_match": null,
+   "dedupe_similarity": 0.0,
+   "id": "dd20a73153d7",
+   "title": "[page changed] Airlink news",
+   "url": "https://www.flyairlink.com/",
+   "summary": "Request unsuccessful. Incapsula incident ID: 87000010334126301-381380881003511930",
+   "kind": "page-change",
+   "source": "Airlink news",
+   "source_id": "air-airlink",
+   "tier": 1,
+   "country": "REG",
+   "category": "airline",
+   "segments": [
+    "city",
+    "bush",
+    "beach"
+   ],
+   "first_seen": "2026-09-02T16:42+03:00",
+   "published": null,
+   "verdict": "OPEN THIS \u2014 tier-1 airline page moved; content not auto-parsed, read it manually"
+  },
+  {
+   "score": 108.1,
    "components": {
     "tier": 40,
     "category": 18,
     "lead": 8.4,
-    "relevance": 8,
-    "freshness": 19.2,
+    "relevance": 12,
+    "freshness": 19.7,
     "corroborated": 10
    },
    "keywords": [
-    "wildlife"
+    "wildlife",
+    "safari"
    ],
    "shock_terms": [],
    "dedupe_match": null,
-   "dedupe_similarity": 0.0,
-   "id": "6e041065233f",
-   "title": "When the Waters Rise: KWS Relocates Crocodiles to Protect Communities and Wildlife",
-   "url": "https://kws.go.ke/when-the-waters-rise-kws-relocates-crocodiles-to-protect-communities-and-wildlife",
-   "summary": "For over a decade, residents of Kampi ya Samaki on the western shores of Lake Baringo have watched the lake slowly take over their homes, schools, roads and livelihoods. What was once familiar ground has become a memory, swallowed by advancing waters that show no signs of retreating. And as the rising waters push people [...]",
+   "dedupe_similarity": 0.25,
+   "id": "9a75c0563ab3",
+   "title": "Meru National Park \u2013 Kenya\u2019s Wilderness is Rising Again!",
+   "url": "https://kws.go.ke/meru-national-park-kenyas-wilderness-is-rising-again",
+   "summary": "Kenya Wildlife Service is revitalizing Meru National Park \u2013 a unique destination where spectacular wildlife, breath-taking landscapes, rich heritage and authentic culture come together. From the legacy of George and Joy Adamson and Elsa, to the Big Five, Special Five, rich birdlife and rhino sanctuary, Meru offers a safari experience beyond the ordinary. For years, [...]",
    "kind": "item",
    "source": "Kenya Wildlife Service",
    "source_id": "ke-kws",
@@ -66,33 +102,139 @@
    "segments": [
     "bush"
    ],
-   "first_seen": "2026-09-02T10:58+03:00",
+   "first_seen": "2026-09-02T16:42+03:00",
    "published": "2026-09-02",
    "verdict": "STRONG \u2014 tier-1, upstream"
   },
   {
-   "score": 95.6,
+   "score": 103.5,
+   "components": {
+    "tier": 40,
+    "category": 9,
+    "lead": 16.8,
+    "relevance": 8,
+    "freshness": 19.7,
+    "corroborated": 10
+   },
+   "keywords": [
+    "airport"
+   ],
+   "shock_terms": [],
+   "dedupe_match": null,
+   "dedupe_similarity": 0.17,
+   "id": "4808aaffcb55",
+   "title": "Meet the DoubleTree by Hilton Bengaluru Whitefield Team Embracing the Rhythm of Care",
+   "url": "https://stories.hilton.com/hilton-culture/meet-the-doubletree-by-hilton-bengaluru-whitefield-team",
+   "summary": "In Bengaluru, India, business travelers arrive from different countries, adjust to new time zones and navigate packed schedules filled with work, meetings and airport transfers. Through it all, they discover a welcoming home base in DoubleTree by Hilton Bengaluru Whitefield, where they\u2019re greeted with DoubleTree\u2019s original, warm chocolate chip cookie, a small gesture that reflects [\u2026] The post Mee",
+   "kind": "item",
+   "source": "Hilton stories/newsroom",
+   "source_id": "dev-hilton",
+   "tier": 1,
+   "country": "GLOBAL",
+   "category": "hotel-group",
+   "segments": [
+    "city",
+    "bush",
+    "beach"
+   ],
+   "first_seen": "2026-09-02T16:42+03:00",
+   "published": "2026-09-02",
+   "verdict": "STRONG \u2014 tier-1, upstream"
+  },
+  {
+   "score": 92.3,
+   "components": {
+    "tier": 20,
+    "category": 9,
+    "lead": 3.6,
+    "relevance": 12,
+    "freshness": 19.7,
+    "corroborated": 10,
+    "shock": 18
+   },
+   "keywords": [
+    "insolven"
+   ],
+   "shock_terms": [
+    "insolven"
+   ],
+   "dedupe_match": null,
+   "dedupe_similarity": 0.0,
+   "id": "a82bb230bbb5",
+   "title": "F\u00fcr Pauschalreisende: Neues Logo soll DRSF f\u00fcr Verbraucher erkl\u00e4ren",
+   "url": "https://www.fvw.de/touristik/veranstalter/fuer-pauschalreisende-neues-logo-soll-drsf-fuer-verbraucher-erklaeren-264227",
+   "summary": "Wof\u00fcr steht der DRSF, wenn ein Reiseveranstalter insolvent wird? Ein spezifisches Insolvenzschutzlogo soll Verbrauchern die Antwort k\u00fcnftig einfacher vermitteln. Mit weiteren Mitteln will der Fonds seine Kommunikation gegen\u00fcber Reisenden und Branche ausbauen.",
+   "kind": "item",
+   "source": "FVW / German travel trade",
+   "source_id": "sm-derreise",
+   "tier": 2,
+   "country": "GLOBAL",
+   "category": "source-market",
+   "segments": [
+    "beach",
+    "bush"
+   ],
+   "first_seen": "2026-09-02T16:43+03:00",
+   "published": "2026-09-01",
+   "verdict": "CONSIDER"
+  },
+  {
+   "score": 88.5,
+   "components": {
+    "tier": 40,
+    "category": 10,
+    "lead": 16.8,
+    "relevance": 8,
+    "freshness": 19.7,
+    "undated": -6
+   },
+   "keywords": [
+    "tax"
+   ],
+   "shock_terms": [],
+   "dedupe_match": null,
+   "dedupe_similarity": 0.17,
+   "id": "79ffafc12b9d",
+   "title": "Parliament approves Shs8.7 billion Fresh Cuts tax waiver Wednesday, 2 September 2026",
+   "url": "https://www.parliament.go.ug/news/4594/parliament-approves-shs87-billion-fresh-cuts-tax-waiver",
+   "summary": "",
+   "kind": "item",
+   "source": "Parliament of Uganda",
+   "source_id": "ug-parliament",
+   "tier": 1,
+   "country": "UG",
+   "category": "legislature",
+   "segments": [
+    "city",
+    "bush",
+    "beach"
+   ],
+   "first_seen": "2026-09-02T16:42+03:00",
+   "published": null,
+   "verdict": "CONSIDER"
+  },
+  {
+   "score": 88.1,
    "components": {
     "tier": 20,
     "category": 14,
     "lead": 8.4,
-    "relevance": 24,
-    "freshness": 19.2,
+    "relevance": 16,
+    "freshness": 19.7,
     "corroborated": 10
    },
    "keywords": [
-    "vat",
     "route",
     "airline",
     "flight"
    ],
    "shock_terms": [],
    "dedupe_match": null,
-   "dedupe_similarity": 0.17,
-   "id": "3eb5f575505b",
-   "title": "Starlux Airlines NW26 Denpasar Operations",
-   "url": "https://www.aeroroutes.com/eng/260902-jxnw26dps",
-   "summary": "Published at 0000PDT / 0700GMT 02SEP26 Starlux Airlines this week filed additional changes to Taipei Taoyuan \u2013 Denpasar route for Northern winter 2026/27 season, as the carrier opened reservations for the 5th weekly flight for flights on/after 25OCT26. Airbus A321neo operates this route. JX765 TPE1010 \u2013 1540DPS 32Q x36 JX766 DPS1640 \u2013 2205TPE 32Q x36",
+   "dedupe_similarity": 0.0,
+   "id": "8a1699e466a9",
+   "title": "SkyUp NS27 Moldova Network Expansion \u2013 30AUG26",
+   "url": "https://www.aeroroutes.com/eng/260902-u54vns27rmo",
+   "summary": "Published at 0600PDT / 1300GMT 02SEP26 SkyUp Airlines in Northern summer 2027 season further expands planned operations at Chisinau , where the airline launches 12 routes, instead of previously reported 4 on AeroRoutes . Service operated by SkyUp Nistru with 4V-coded flight numbers: Chisinau \u2013 Batumi eff 29MAY27 2 weekly 737-800 (3 weekly from 07JUN27) Chisinau \u2013 London Stansted eff 26MAR27 2 week",
    "kind": "item",
    "source": "AeroRoutes schedule filings",
    "source_id": "aeroroutes",
@@ -104,18 +246,696 @@
     "bush",
     "beach"
    ],
-   "first_seen": "2026-09-02T10:58+03:00",
+   "first_seen": "2026-09-02T16:43+03:00",
    "published": "2026-09-02",
    "verdict": "CONSIDER"
   },
   {
-   "score": 75.2,
+   "score": 88.1,
+   "components": {
+    "tier": 20,
+    "category": 14,
+    "lead": 8.4,
+    "relevance": 16,
+    "freshness": 19.7,
+    "corroborated": 10
+   },
+   "keywords": [
+    "route",
+    "airline",
+    "booking"
+   ],
+   "shock_terms": [],
+   "dedupe_match": null,
+   "dedupe_similarity": 0.2,
+   "id": "da2d8f7091a4",
+   "title": "Discover Airlines Adds UK Service in NS27",
+   "url": "https://www.aeroroutes.com/eng/260902-4yns27gb",
+   "summary": "Published at 0200PDT / 0900GMT 02SEP26 Discover Airlines in Northern summer 2027 season plans to launch service to the UK, where it schedules 4 routes, available for booking since last week. Frankfurt \u2013 Bristol eff 17MAY27 2 weekly A320 Frankfurt \u2013 Glasgow eff 29MAR27 3 weekly (1 daily from 22APR27; Lufthansa last served this route until May 2026) Frankfurt \u2013 Inverness eff 19JUN27 1 weekly A320 Mu",
+   "kind": "item",
+   "source": "AeroRoutes schedule filings",
+   "source_id": "aeroroutes",
+   "tier": 2,
+   "country": "GLOBAL",
+   "category": "aviation-tracker",
+   "segments": [
+    "city",
+    "bush",
+    "beach"
+   ],
+   "first_seen": "2026-09-02T16:43+03:00",
+   "published": "2026-09-02",
+   "verdict": "CONSIDER"
+  },
+  {
+   "score": 85.3,
+   "components": {
+    "tier": 40,
+    "category": 12,
+    "lead": 3.6,
+    "relevance": 0,
+    "freshness": 19.7,
+    "corroborated": 10
+   },
+   "keywords": [],
+   "shock_terms": [],
+   "dedupe_match": null,
+   "dedupe_similarity": 0.0,
+   "id": "871068d11960",
+   "title": "Credit Officer Survey Report for June 2026",
+   "url": "https://www.centralbank.go.ke/2026/09/02/credit-officer-survey-report-for-june-2026",
+   "summary": "",
+   "kind": "item",
+   "source": "CBK weekly bulletin",
+   "source_id": "ke-cbk-bulletin",
+   "tier": 1,
+   "country": "KE",
+   "category": "central-bank",
+   "segments": [
+    "city",
+    "bush",
+    "beach"
+   ],
+   "first_seen": "2026-09-02T16:42+03:00",
+   "published": "2026-09-02",
+   "verdict": "CONSIDER"
+  },
+  {
+   "score": 84.1,
+   "components": {
+    "tier": 20,
+    "category": 14,
+    "lead": 8.4,
+    "relevance": 12,
+    "freshness": 19.7,
+    "corroborated": 10
+   },
+   "keywords": [
+    "route",
+    "airline"
+   ],
+   "shock_terms": [],
+   "dedupe_match": null,
+   "dedupe_similarity": 0.0,
+   "id": "c7c9e3a7ba78",
+   "title": "airBaltic NS27 Removed Routes Summary \u2013 01SEP26",
+   "url": "https://www.aeroroutes.com/eng/260902-btns27cxl",
+   "summary": "Published at 0400PDT / 1100GMT 02SEP26 airBaltic this week filed service changes for Northern summer 2027 season, as the airline removed 18 routes, based on schedule filing comparisons 30AUG26 vs 01SEP26. Riga \u2013 Dubai 3 weekly Riga \u2013 Dublin 3 weekly Riga \u2013 Malta 2 weekly Riga \u2013 Olbia 2 weekly Riga \u2013 Valencia 2 weekly Tallinn \u2013 Burgas 2 weekly Tallinn \u2013 Copenhagen 4 weekly Tallinn \u2013 Malta 2 weekly ",
+   "kind": "item",
+   "source": "AeroRoutes schedule filings",
+   "source_id": "aeroroutes",
+   "tier": 2,
+   "country": "GLOBAL",
+   "category": "aviation-tracker",
+   "segments": [
+    "city",
+    "bush",
+    "beach"
+   ],
+   "first_seen": "2026-09-02T16:43+03:00",
+   "published": "2026-09-02",
+   "verdict": "CONSIDER"
+  },
+  {
+   "score": 84.1,
+   "components": {
+    "tier": 20,
+    "category": 14,
+    "lead": 8.4,
+    "relevance": 12,
+    "freshness": 19.7,
+    "corroborated": 10
+   },
+   "keywords": [
+    "route",
+    "airline"
+   ],
+   "shock_terms": [],
+   "dedupe_match": null,
+   "dedupe_similarity": 0.0,
+   "id": "647902ed6cec",
+   "title": "Pegasus Adds Tripoli From Oct 2026",
+   "url": "https://www.aeroroutes.com/eng/260902-pcoct26mji",
+   "summary": "Published at 0100PDT / 0800GMT 02SEP26 Pegasus Airlines from October 2026 plans to add service to Libya, with the launch of Istanbul Sabiha Gokcen \u2013 Tripoli Mitiga route on 05OCT26. This route will be served on daily basis with 737-800 aircraft. Schedule below focuses on the period of 25OCT26 \u2013 03JAN27. PC641 SAW0830 \u2013 1025MJI 738 D PC642 MJI1135 \u2013 1520SAW 738 D",
+   "kind": "item",
+   "source": "AeroRoutes schedule filings",
+   "source_id": "aeroroutes",
+   "tier": 2,
+   "country": "GLOBAL",
+   "category": "aviation-tracker",
+   "segments": [
+    "city",
+    "bush",
+    "beach"
+   ],
+   "first_seen": "2026-09-02T16:43+03:00",
+   "published": "2026-09-02",
+   "verdict": "CONSIDER"
+  },
+  {
+   "score": 84.1,
+   "components": {
+    "tier": 40,
+    "category": 12,
+    "lead": 2.4,
+    "relevance": 0,
+    "freshness": 19.7,
+    "corroborated": 10
+   },
+   "keywords": [],
+   "shock_terms": [],
+   "dedupe_match": null,
+   "dedupe_similarity": 0.0,
+   "id": "2928642ae995",
+   "title": "Credit Officer Survey Report for June 2026",
+   "url": "https://www.centralbank.go.ke/2026/09/02/credit-officer-survey-report-for-june-2026",
+   "summary": "",
+   "kind": "item",
+   "source": "Central Bank of Kenya press releases",
+   "source_id": "ke-cbk-press",
+   "tier": 1,
+   "country": "KE",
+   "category": "central-bank",
+   "segments": [
+    "city",
+    "bush",
+    "beach"
+   ],
+   "first_seen": "2026-09-02T16:42+03:00",
+   "published": "2026-09-02",
+   "verdict": "CONSIDER"
+  },
+  {
+   "score": 83.7,
+   "components": {
+    "tier": 20,
+    "category": 4,
+    "lead": 0.0,
+    "relevance": 12,
+    "freshness": 19.7,
+    "corroborated": 10,
+    "shock": 18
+   },
+   "keywords": [
+    "evacuat"
+   ],
+   "shock_terms": [
+    "evacuat"
+   ],
+   "dedupe_match": null,
+   "dedupe_similarity": 0.0,
+   "id": "502c345604f6",
+   "title": "Besigye, Lukwago evacuated from Luzira Prison for medical care",
+   "url": "https://www.theeastafrican.co.ke/tea/news/east-africa/besigye-lukwago-evacuated-from-luzira-prison-for-medical-care-5580614",
+   "summary": "Prisons dismisses critical-health reports on Besigye, Lukwago",
+   "kind": "item",
+   "source": "The EastAfrican",
+   "source_id": "np-eastafrican",
+   "tier": 2,
+   "country": "REG",
+   "category": "press",
+   "segments": [
+    "city",
+    "bush",
+    "beach"
+   ],
+   "first_seen": "2026-09-02T16:43+03:00",
+   "published": "2026-09-02",
+   "verdict": "CONSIDER"
+  },
+  {
+   "score": 83.5,
+   "components": {
+    "tier": 40,
+    "category": 9,
+    "lead": 16.8,
+    "relevance": 4,
+    "freshness": 19.7,
+    "undated": -6
+   },
+   "keywords": [
+    "hotel"
+   ],
+   "shock_terms": [],
+   "dedupe_match": null,
+   "dedupe_similarity": 0.0,
+   "id": "fb39d8ef664a",
+   "title": "Minor Hotels Appoints Jason Marques as General Manager of Tivoli Avenida Liberdade",
+   "url": "https://media.minorhotels.com/en-GLO/269905-minor-hotels-appoints-jason-marques-as-general-manager-of-tivoli-avenida-liberdade",
+   "summary": "",
+   "kind": "item",
+   "source": "Minor Hotels newsroom",
+   "source_id": "dev-minor",
+   "tier": 1,
+   "country": "GLOBAL",
+   "category": "hotel-group",
+   "segments": [
+    "beach"
+   ],
+   "first_seen": "2026-09-02T16:42+03:00",
+   "published": null,
+   "verdict": "CONSIDER"
+  },
+  {
+   "score": 82.3,
+   "components": {
+    "tier": 20,
+    "category": 9,
+    "lead": 3.6,
+    "relevance": 20,
+    "freshness": 19.7,
+    "corroborated": 10
+   },
+   "keywords": [
+    "eta",
+    "airport",
+    "franc"
+   ],
+   "shock_terms": [],
+   "dedupe_match": null,
+   "dedupe_similarity": 0.17,
+   "id": "164958f84cd4",
+   "title": "Im Terminal 3: Air France er\u00f6ffnet neue Lounge am Frankfurt Airport",
+   "url": "https://www.fvw.de/touristik/verkehr/im-terminal-3-air-france-eroeffnet-neue-lounge-am-frankfurt-airport-264236",
+   "summary": "Air France hat ihre neue Lounge am Flughafen Frankfurt er\u00f6ffnet. Sie wird in Zusammenarbeit mit Global Lounge Network betrieben und befindet sich im Schengen-Bereich des Terminals 3 auf der obersten Etage des Hauptgeb\u00e4udes.",
+   "kind": "item",
+   "source": "FVW / German travel trade",
+   "source_id": "sm-derreise",
+   "tier": 2,
+   "country": "GLOBAL",
+   "category": "source-market",
+   "segments": [
+    "beach",
+    "bush"
+   ],
+   "first_seen": "2026-09-02T16:43+03:00",
+   "published": "2026-09-02",
+   "verdict": "CONSIDER"
+  },
+  {
+   "score": 80.5,
+   "components": {
+    "tier": 40,
+    "category": 10,
+    "lead": 16.8,
+    "relevance": 0,
+    "freshness": 19.7,
+    "undated": -6
+   },
+   "keywords": [],
+   "shock_terms": [],
+   "dedupe_match": null,
+   "dedupe_similarity": 0.17,
+   "id": "80198d480a20",
+   "title": "Shortage of vehicle number plates disrupting business - KACITA Wednesday, 2 September 2026",
+   "url": "https://www.parliament.go.ug/news/4596/shortage-vehicle-number-plates-disrupting-business-kacita",
+   "summary": "",
+   "kind": "item",
+   "source": "Parliament of Uganda",
+   "source_id": "ug-parliament",
+   "tier": 1,
+   "country": "UG",
+   "category": "legislature",
+   "segments": [
+    "city",
+    "bush",
+    "beach"
+   ],
+   "first_seen": "2026-09-02T16:42+03:00",
+   "published": null,
+   "verdict": "CONSIDER"
+  },
+  {
+   "score": 80.5,
+   "components": {
+    "tier": 40,
+    "category": 10,
+    "lead": 16.8,
+    "relevance": 0,
+    "freshness": 19.7,
+    "undated": -6
+   },
+   "keywords": [],
+   "shock_terms": [],
+   "dedupe_match": null,
+   "dedupe_similarity": 0.2,
+   "id": "7bac0e6067da",
+   "title": "MPs probe use of foreign travel rates for inland trips Wednesday, 2 September 2026",
+   "url": "https://www.parliament.go.ug/news/4595/mps-probe-use-foreign-travel-rates-inland-trips",
+   "summary": "",
+   "kind": "item",
+   "source": "Parliament of Uganda",
+   "source_id": "ug-parliament",
+   "tier": 1,
+   "country": "UG",
+   "category": "legislature",
+   "segments": [
+    "city",
+    "bush",
+    "beach"
+   ],
+   "first_seen": "2026-09-02T16:42+03:00",
+   "published": null,
+   "verdict": "CONSIDER"
+  },
+  {
+   "score": 79.9,
+   "components": {
+    "tier": 20,
+    "category": 5,
+    "lead": 1.2,
+    "relevance": 24,
+    "freshness": 19.7,
+    "corroborated": 10
+   },
+   "keywords": [
+    "fuel",
+    "capacity",
+    "airline",
+    "flight"
+   ],
+   "shock_terms": [],
+   "dedupe_match": null,
+   "dedupe_similarity": 0.25,
+   "id": "6756dc7db411",
+   "title": "Ryanair Pulls Winter Capacity and Warns Rivals May Struggle to Survive",
+   "url": "https://skift.com/2026/09/02/ryanair-pulls-winter-capacity-and-warns-rivals-may-struggle-to-survive",
+   "summary": "Ryanair has a fuel hedge most airlines would envy, and it's still cutting unprofitable winter flights. Its more exposed rivals should be nervous.",
+   "kind": "item",
+   "source": "Skift",
+   "source_id": "tp-skift",
+   "tier": 2,
+   "country": "GLOBAL",
+   "category": "trade",
+   "segments": [
+    "city",
+    "bush",
+    "beach"
+   ],
+   "first_seen": "2026-09-02T16:43+03:00",
+   "published": "2026-09-02",
+   "verdict": "CONSIDER"
+  },
+  {
+   "score": 79.7,
+   "components": {
+    "tier": 20,
+    "category": 4,
+    "lead": 0.0,
+    "relevance": 24,
+    "freshness": 19.7,
+    "undated": -6,
+    "shock": 18
+   },
+   "keywords": [
+    "outbreak",
+    "ebola"
+   ],
+   "shock_terms": [
+    "outbreak"
+   ],
+   "dedupe_match": null,
+   "dedupe_similarity": 0.4,
+   "id": "ee63f37af291",
+   "title": "Africa Congo's Ebola outbreak kills more than 3,000, government figures show 3 hours ago - 2 min read",
+   "url": "https://www.thecitizen.co.tz/tanzania/news/africa/congo-s-ebola-outbreak-kills-more-than-3-000-government-figures-show-5580798",
+   "summary": "",
+   "kind": "item",
+   "source": "The Citizen (Tanzania)",
+   "source_id": "np-citizen-tz",
+   "tier": 2,
+   "country": "TZ",
+   "category": "press",
+   "segments": [
+    "city",
+    "bush",
+    "beach"
+   ],
+   "first_seen": "2026-09-02T16:43+03:00",
+   "published": null,
+   "verdict": "CONSIDER"
+  },
+  {
+   "score": 79.5,
+   "components": {
+    "tier": 40,
+    "category": 9,
+    "lead": 16.8,
+    "relevance": 0,
+    "freshness": 19.7,
+    "undated": -6
+   },
+   "keywords": [],
+   "shock_terms": [],
+   "dedupe_match": null,
+   "dedupe_similarity": 0.0,
+   "id": "d674b7f1f03b",
+   "title": "Crowne Plaza by IHG Debuts New Flagship Property in the Heart of New York City",
+   "url": "https://www.ihgplc.com/en/news-and-media/news-releases/2026/crowne-plaza-by-ihg-debuts-new-flagship-property-in-the-heart-of-new-york-city",
+   "summary": "",
+   "kind": "item",
+   "source": "IHG news",
+   "source_id": "dev-ihg",
+   "tier": 1,
+   "country": "GLOBAL",
+   "category": "hotel-group",
+   "segments": [
+    "city",
+    "bush",
+    "beach"
+   ],
+   "first_seen": "2026-09-02T16:42+03:00",
+   "published": null,
+   "verdict": "CONSIDER"
+  },
+  {
+   "score": 78.3,
+   "components": {
+    "tier": 20,
+    "category": 5,
+    "lead": 3.6,
+    "relevance": 20,
+    "freshness": 19.7,
+    "corroborated": 10
+   },
+   "keywords": [
+    "occupancy",
+    "adr",
+    "hotel"
+   ],
+   "shock_terms": [],
+   "dedupe_match": null,
+   "dedupe_similarity": 0.17,
+   "id": "b7815214e777",
+   "title": "Madrid prepares for a star-studded September as Formula 1 and Shakira draw travelers",
+   "url": "https://www.hospitalitynet.org/news/4134199/madrid-prepares-for-a-star-studded-september-as-formula-1-and-shakira-draw-travelers",
+   "summary": "Amadeus data shows Madrid hotel occupancy at 52% and ADR up 25% to $413 during the overlapping Spanish Grand Prix and Shakira tour week in September 2025.",
+   "kind": "item",
+   "source": "Hospitality Net \u2014 Africa announcements",
+   "source_id": "dev-hospitalitynet-africa",
+   "tier": 2,
+   "country": "REG",
+   "category": "trade",
+   "segments": [
+    "city",
+    "bush",
+    "beach"
+   ],
+   "first_seen": "2026-09-02T16:43+03:00",
+   "published": "2026-09-02",
+   "verdict": "CONSIDER"
+  },
+  {
+   "score": 78.3,
+   "components": {
+    "tier": 20,
+    "category": 5,
+    "lead": 3.6,
+    "relevance": 20,
+    "freshness": 19.7,
+    "corroborated": 10
+   },
+   "keywords": [
+    "fee",
+    "hotel",
+    "camp",
+    "resort"
+   ],
+   "shock_terms": [],
+   "dedupe_match": null,
+   "dedupe_similarity": 0.2,
+   "id": "fdaf9751bdf0",
+   "title": "Omni Hotels & Resorts Doubles Meal Donations for Every Stay During Hunger Action Month",
+   "url": "https://www.hospitalitynet.org/news/4134192/omni-hotels-resorts-doubles-meal-donations-for-every-stay-during-hunger-action-month",
+   "summary": "Omni's Say Goodnight to Hunger campaign will double meal donations to Feeding America for every stay in September, surpassing 30 million total meals since launching in 2016.",
+   "kind": "item",
+   "source": "Hospitality Net \u2014 Africa announcements",
+   "source_id": "dev-hospitalitynet-africa",
+   "tier": 2,
+   "country": "REG",
+   "category": "trade",
+   "segments": [
+    "city",
+    "bush",
+    "beach"
+   ],
+   "first_seen": "2026-09-02T16:43+03:00",
+   "published": "2026-09-02",
+   "verdict": "CONSIDER"
+  },
+  {
+   "score": 77.3,
+   "components": {
+    "tier": 40,
+    "category": 12,
+    "lead": 3.6,
+    "relevance": 8,
+    "freshness": 19.7,
+    "undated": -6
+   },
+   "keywords": [
+    "airport"
+   ],
+   "shock_terms": [],
+   "dedupe_match": null,
+   "dedupe_similarity": 0.17,
+   "id": "f2c340e1b7a1",
+   "title": "Qatar Airways Signs Memorandum of Understanding with Priority Pass to Offer Beyond Business Members Enhanced Airport ...",
+   "url": "https://www.qatarairways.com/press-releases/en-WW/270042-qatar-airways-signs-memorandum-of-understanding-with-priority-pass-to-offer-beyond-business-members-enhanced-airport-lounge-benefits",
+   "summary": "",
+   "kind": "item",
+   "source": "Qatar Airways press releases",
+   "source_id": "air-qr",
+   "tier": 1,
+   "country": "GLOBAL",
+   "category": "airline",
+   "segments": [
+    "city",
+    "bush",
+    "beach"
+   ],
+   "first_seen": "2026-09-02T16:42+03:00",
+   "published": null,
+   "verdict": "CONSIDER"
+  },
+  {
+   "score": 76.1,
+   "components": {
+    "tier": 20,
+    "category": 14,
+    "lead": 8.4,
+    "relevance": 4,
+    "freshness": 19.7,
+    "corroborated": 10
+   },
+   "keywords": [
+    "airline"
+   ],
+   "shock_terms": [],
+   "dedupe_match": null,
+   "dedupe_similarity": 0.17,
+   "id": "81d33612859f",
+   "title": "Sunclass Airlines NW26 Helsinki \u2013 Ilha do Sal Routing Changes",
+   "url": "https://www.aeroroutes.com/eng/260902-dknw26helsid",
+   "summary": "Published at 0500PDT / 1200GMT 02SEP26 Sunclass Airlines during Northern winter 2026/27 season schedules service changes between Helsinki and Ilha do Sal, as the airline schedules nonstop Helsinki \u2013 Ilha do Sal terminator routing in both directions when seasonal service resumes on 13OCT26. Airbus A321neo aircraft to operate weekly service, instead of Helsinki \u2013 Stockholm Arlanda \u2013 Ilha do Sal \u2013 He",
+   "kind": "item",
+   "source": "AeroRoutes schedule filings",
+   "source_id": "aeroroutes",
+   "tier": 2,
+   "country": "GLOBAL",
+   "category": "aviation-tracker",
+   "segments": [
+    "city",
+    "bush",
+    "beach"
+   ],
+   "first_seen": "2026-09-02T16:43+03:00",
+   "published": "2026-09-02",
+   "verdict": "CONSIDER"
+  },
+  {
+   "score": 76.1,
+   "components": {
+    "tier": 20,
+    "category": 14,
+    "lead": 8.4,
+    "relevance": 4,
+    "freshness": 19.7,
+    "corroborated": 10
+   },
+   "keywords": [
+    "airline"
+   ],
+   "shock_terms": [],
+   "dedupe_match": null,
+   "dedupe_similarity": 0.17,
+   "id": "24b7ac8beb16",
+   "title": "Lufthansa Group NW26 Germany \u2013 Europe Network Changes",
+   "url": "https://www.aeroroutes.com/eng/260902-lhgnw26de",
+   "summary": "Published at 0300PDT / 1000GMT 02SEP26 Lufthansa in late-August 2026 filed additional service changes for Europe, which sees certain Lufthansa mainline service being replaced by Air Dolomiti, Discover Airlines and Lufthansa City. Air Dolomiti (EN) assumes selected Lufthansa mainline: Munich \u2013 Zagreb 1 daily Munich \u2013 Zurich 2 weekly Discover Airlines (4Y) assumes selected or all Lufthansa mainline ",
+   "kind": "item",
+   "source": "AeroRoutes schedule filings",
+   "source_id": "aeroroutes",
+   "tier": 2,
+   "country": "GLOBAL",
+   "category": "aviation-tracker",
+   "segments": [
+    "city",
+    "bush",
+    "beach"
+   ],
+   "first_seen": "2026-09-02T16:43+03:00",
+   "published": "2026-09-02",
+   "verdict": "CONSIDER"
+  },
+  {
+   "score": 75.7,
    "components": {
     "tier": 20,
     "category": 4,
     "lead": 0.0,
     "relevance": 20,
-    "freshness": 19.2,
+    "freshness": 19.7,
+    "undated": -6,
+    "shock": 18
+   },
+   "keywords": [
+    "airport",
+    "strike",
+    "passenger"
+   ],
+   "shock_terms": [
+    "strike"
+   ],
+   "dedupe_match": null,
+   "dedupe_similarity": 0.33,
+   "id": "7f830c8ae8e3",
+   "title": "Africa Kenya airport staff strike delays thousands of passengers Aug 31 - 2 min read",
+   "url": "https://www.thecitizen.co.tz/tanzania/news/africa/kenya-airport-staff-strike-delays-thousands-of-passengers-5577236",
+   "summary": "",
+   "kind": "item",
+   "source": "The Citizen (Tanzania)",
+   "source_id": "np-citizen-tz",
+   "tier": 2,
+   "country": "TZ",
+   "category": "press",
+   "segments": [
+    "city",
+    "bush",
+    "beach"
+   ],
+   "first_seen": "2026-09-02T16:43+03:00",
+   "published": null,
+   "verdict": "CONSIDER"
+  },
+  {
+   "score": 75.7,
+   "components": {
+    "tier": 20,
+    "category": 4,
+    "lead": 0.0,
+    "relevance": 20,
+    "freshness": 19.7,
     "undated": -6,
     "shock": 18
    },
@@ -129,8 +949,8 @@
    ],
    "dedupe_match": null,
    "dedupe_similarity": 0.17,
-   "id": "55d6bfabc359",
-   "title": "Transport Flight disruptions persist as airport workers strike impact lingers 16 hours ago - 3 min read",
+   "id": "30720216ca5d",
+   "title": "Transport Flight disruptions persist as airport workers strike impact lingers 21 hours ago - 3 min read",
    "url": "https://www.businessdailyafrica.com/bd/corporate/shipping-logistics/flight-disruptions-persist-as-workers-strike-impact-lingers-5580088",
    "summary": "",
    "kind": "item",
@@ -144,90 +964,228 @@
     "bush",
     "beach"
    ],
-   "first_seen": "2026-09-02T10:58+03:00",
+   "first_seen": "2026-09-02T16:43+03:00",
    "published": null,
    "verdict": "CONSIDER"
   },
   {
-   "score": 63.6,
+   "score": 74.7,
    "components": {
-    "tier": 20,
-    "category": 24,
-    "lead": 2.4,
+    "tier": 40,
+    "category": 20,
+    "lead": 12.0,
     "relevance": 8,
-    "freshness": 19.2,
-    "undated": -6,
-    "page_change": -4
+    "freshness": 19.7,
+    "stale_trap": -25
    },
    "keywords": [
-    "vat"
+    "gazette"
    ],
    "shock_terms": [],
    "dedupe_match": null,
-   "dedupe_similarity": 0.17,
-   "id": "de74aa014452",
-   "title": "[page changed] ProMED-mail",
-   "url": "https://promedmail.org/",
-   "summary": "Protecting Global Health, One Alert at a Time | ProMED Previous slide Next slide Protecting Global Health, One Alert at a Time ProMED: Your 24/7 early warning system for emerging infectious diseases worldwide. Subscribe ProMED's Weekly Pulse A snapshot of global health events from the past 7 days Latest Posts on ProMED All Date Title Wed Sep 02 2026 ANTIMICROBIAL STEWARDSHIP (305): INDIA, COLISTIN",
-   "kind": "page-change",
-   "source": "ProMED-mail",
-   "source_id": "promed",
-   "tier": 2,
-   "country": "GLOBAL",
-   "category": "health",
+   "dedupe_similarity": 0.25,
+   "id": "5a7e9c38072d",
+   "title": "Kenya Gazette Vol. CXXVIII-No. 149",
+   "url": "https://new.kenyalaw.org/akn/ke/officialGazette/2026-08-25/149/eng@2026-08-25",
+   "summary": "Kenya Gazette Vol. CXXVIII-No. 149",
+   "kind": "item",
+   "source": "Kenya Gazette (Kenya Law)",
+   "source_id": "ke-gazette",
+   "tier": 1,
+   "country": "KE",
+   "category": "gazette",
    "segments": [
     "city",
     "bush",
     "beach"
    ],
-   "first_seen": "2026-09-02T10:58+03:00",
-   "published": null,
-   "verdict": "weak"
+   "first_seen": "2026-09-02T16:42+03:00",
+   "published": "2026-08-25",
+   "verdict": "CHECK \u2014 source date older than the window"
   },
   {
-   "score": 63.4,
+   "score": 74.7,
    "components": {
-    "tier": 20,
-    "category": 5,
-    "lead": 1.2,
+    "tier": 40,
+    "category": 20,
+    "lead": 12.0,
     "relevance": 8,
-    "freshness": 19.2,
-    "corroborated": 10
+    "freshness": 19.7,
+    "stale_trap": -25
    },
    "keywords": [
-    "vat"
+    "gazette"
    ],
    "shock_terms": [],
    "dedupe_match": null,
-   "dedupe_similarity": 0.2,
-   "id": "a503faaf4ee0",
-   "title": "Tanzania Tables Bill to Let Banks Accept Movable Assets as Loan Collateral, Targets 50% Credit-to-GDP by 2030",
-   "url": "https://www.tanzaniainvest.com/finance/banking/movable-property-security-rights-bill",
-   "summary": "Tanzania's Minister for Finance, Ambassador Khamis Mussa Omar, tabled a Bill in the National Assembly in Dodoma that would let banks accept movable assets as loan collateral, creating a legal framework for registering, managing and enforcing such security interests instead of relying predominantly on land and buildings. The Bill targets an increase in private sector credit-to-GDP from 22.5% in 202",
+   "dedupe_similarity": 0.25,
+   "id": "5a20e744aec8",
+   "title": "Kenya Gazette Vol. CXXVIII-No. 148",
+   "url": "https://new.kenyalaw.org/akn/ke/officialGazette/2026-08-25/148/eng@2026-08-25",
+   "summary": "Kenya Gazette Vol. CXXVIII-No. 148",
    "kind": "item",
-   "source": "TanzaniaInvest \u2014 tourism",
-   "source_id": "tp-tanzaniainvest",
+   "source": "Kenya Gazette (Kenya Law)",
+   "source_id": "ke-gazette",
+   "tier": 1,
+   "country": "KE",
+   "category": "gazette",
+   "segments": [
+    "city",
+    "bush",
+    "beach"
+   ],
+   "first_seen": "2026-09-02T16:42+03:00",
+   "published": "2026-08-25",
+   "verdict": "CHECK \u2014 source date older than the window"
+  },
+  {
+   "score": 74.3,
+   "components": {
+    "tier": 20,
+    "category": 5,
+    "lead": 3.6,
+    "relevance": 16,
+    "freshness": 19.7,
+    "corroborated": 10
+   },
+   "keywords": [
+    "revpar",
+    "hotel",
+    "investment"
+   ],
+   "shock_terms": [],
+   "dedupe_match": null,
+   "dedupe_similarity": 0.4,
+   "id": "168cdffd00c0",
+   "title": "Lodging Analytics Research & Consulting (LARC)\u2019s 3Q-2026 U.S. Hotel Industry Outlook and Market Intelligence Reports",
+   "url": "https://www.hospitalitynet.org/opinion/4134186/lodging-analytics-research-consulting-larcs-3q-2026-us-hotel-industry-outlook-and-market-intelligence-reports",
+   "summary": "LARC forecasts 2026 U.S. RevPAR growth of 5.1%, buoyed by FIFA World Cup and corporate transient strength, with growth moderating to 2.1% in 2027 as group demand slows and AI investment reshapes business travel.",
+   "kind": "item",
+   "source": "Hospitality Net \u2014 Africa announcements",
+   "source_id": "dev-hospitalitynet-africa",
    "tier": 2,
-   "country": "TZ",
+   "country": "REG",
    "category": "trade",
    "segments": [
     "city",
     "bush",
     "beach"
    ],
-   "first_seen": "2026-09-02T10:58+03:00",
+   "first_seen": "2026-09-02T16:43+03:00",
    "published": "2026-09-02",
-   "verdict": "weak"
+   "verdict": "CONSIDER"
   },
   {
-   "score": 55.2,
+   "score": 74.3,
+   "components": {
+    "tier": 20,
+    "category": 9,
+    "lead": 3.6,
+    "relevance": 12,
+    "freshness": 19.7,
+    "corroborated": 10
+   },
+   "keywords": [
+    "terror"
+   ],
+   "shock_terms": [],
+   "dedupe_match": null,
+   "dedupe_similarity": 0.2,
+   "id": "9a763064d721",
+   "title": "Wie erinnern Sie sich?: 25 Jahre \"9/11\": Der Tag, der auch das Reisen ver\u00e4nderte",
+   "url": "https://www.fvw.de/touristik/vertrieb/wie-erinnern-sie-den-tag-und-die-folgen-25-jahre-911-der-tag-der-auch-das-reisen-veraenderte-264249",
+   "summary": "Kommende Woche j\u00e4hren sich zum 25. Mal die Terroranschl\u00e4ge vom 11. September 2001 in den USA. Viele Menschen erinnern sich genau an den Tag, an dem die Zwillingst\u00fcrme des World Trade Center einst\u00fcrzten. F\u00fcr die Reisebranche bildeten die Anschl\u00e4ge und der darauffolgende Irak-Krieg eine Z\u00e4sur. Wie haben Sie \"Nine Eleven\" erlebt, was hat das f\u00fcr Ihr Gesch\u00e4ft bedeutet?",
+   "kind": "item",
+   "source": "FVW / German travel trade",
+   "source_id": "sm-derreise",
+   "tier": 2,
+   "country": "GLOBAL",
+   "category": "source-market",
+   "segments": [
+    "beach",
+    "bush"
+   ],
+   "first_seen": "2026-09-02T16:43+03:00",
+   "published": "2026-09-02",
+   "verdict": "CONSIDER"
+  },
+  {
+   "score": 74.3,
+   "components": {
+    "tier": 20,
+    "category": 9,
+    "lead": 3.6,
+    "relevance": 12,
+    "freshness": 19.7,
+    "corroborated": 10
+   },
+   "keywords": [
+    "airport",
+    "airline"
+   ],
+   "shock_terms": [],
+   "dedupe_match": null,
+   "dedupe_similarity": 0.17,
+   "id": "e90853b6bee7",
+   "title": "Winterflugplan 2026/27: Finnair verbindet f\u00fcnf deutsche Airports mit Helsinki",
+   "url": "https://www.fvw.de/touristik/verkehr/winterflugplan-202627-finnair-verbindet-fuenf-deutsche-airports-mit-helsinki-264234",
+   "summary": "Im Winter 2026/27 verbindet Finnair f\u00fcnf deutsche Flugh\u00e4fen mit dem Drehkreuz Helsinki mit mehr als 80 Abfl\u00fcgen pro Woche. Von dort aus erm\u00f6glicht die Airline Anschl\u00fcsse zu 15 Zielen in Finnland.",
+   "kind": "item",
+   "source": "FVW / German travel trade",
+   "source_id": "sm-derreise",
+   "tier": 2,
+   "country": "GLOBAL",
+   "category": "source-market",
+   "segments": [
+    "beach",
+    "bush"
+   ],
+   "first_seen": "2026-09-02T16:43+03:00",
+   "published": "2026-09-02",
+   "verdict": "CONSIDER"
+  },
+  {
+   "score": 72.7,
+   "components": {
+    "tier": 40,
+    "category": 13,
+    "lead": 6.0,
+    "relevance": 0,
+    "freshness": 19.7,
+    "undated": -6
+   },
+   "keywords": [],
+   "shock_terms": [],
+   "dedupe_match": null,
+   "dedupe_similarity": 0.25,
+   "id": "9ce1e36a4b16",
+   "title": "Perfomance Based Navigation (PBN) Implementation Plan",
+   "url": "https://www.kcaa.or.ke/sites/default/files/docs/pbn/The%20Kenya%20National%20PBN%20Implementation%20Plan%20-%20Version%203%2C%20June%202026.pdf",
+   "summary": "Kenya Civil Aviation Authority Version 3 Issued: 30-06-2026 Page 1 en-GBKENYA CIVIL AVIATION AUTHORITY (KCAA) en-GB en-GB en-GB PERFORMANCE BASED NAVIGATION (PBN) en-GBIMPLEMENTATION PLAN KENYA en-GB en-GB \u0000\u0002\u0000\u0001\u0000\u0003\u0004\u00ec\u0001\u0090\u0000\u0005\u0000\b\u0005\u009a\u00053\u0000\u0000\u0000\u009c\u0005\u009a\u00053\u0000\u0000\u0001\u00f7\u0000f\u0001\u00fe\u0002\u000f\u0002\u0004\u0005\u0003\u0005\u0004\u0006\u0003\u0002\u0004\u00e0\u0000\u0006\u00ffB\u0000$\u00ff\u0002\u0000\u0000\u0000\u0000\u0000\u0000\u0000MS \u0000@\u0000\u0000 \u0089\u00069\u00fe9\u0001a\u0007\u009a\u0001\u00c7 \u0000\u0001\u009f\u0000\u0000\u0000\u0000\u0003\u00bc\u0005U\u0000\u0000\u0000 \u0000\u0003\u0005D\u0000\u00be\u0000\u0000\u0000\u0000\u0001\u00c3\u0000\u0000\u0001\u00c3\u0000\u0000\u0004\u00fc\u0000\u0006\u0000\u0000\u0000\u0000\u0004\u0080\u0000w\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0002\u0098\u0000y\u0000\u0000\u0000\u0000\u0005 \u0000y\u0000\u0000\u0000\u0000\u0006\u0086\u0000u\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0004\u008b\u0000y\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000",
+   "kind": "doc",
+   "source": "KCAA \u2014 aeronautical information & circulars",
+   "source_id": "ke-kcaa",
+   "tier": 1,
+   "country": "KE",
+   "category": "aviation",
+   "segments": [
+    "city",
+    "bush",
+    "beach"
+   ],
+   "first_seen": "2026-09-02T16:42+03:00",
+   "published": null,
+   "verdict": "CONSIDER"
+  },
+  {
+   "score": 71.7,
    "components": {
     "tier": 20,
     "category": 4,
     "lead": 0.0,
     "relevance": 0,
-    "freshness": 19.2,
-    "undated": -6,
+    "freshness": 19.7,
+    "corroborated": 10,
     "shock": 18
    },
    "keywords": [],
@@ -235,44 +1193,11 @@
     "attack"
    ],
    "dedupe_match": null,
-   "dedupe_similarity": 0.0,
-   "id": "816412ed712f",
-   "title": "international US and Iran exchange attacks as lull in war appears over 22 min ago - 4 min read",
-   "url": "https://www.thecitizen.co.tz/tanzania/news/international/us-and-iran-exchange-attacks-as-lull-in-war-appears-over-5580590",
-   "summary": "",
-   "kind": "item",
-   "source": "The Citizen (Tanzania)",
-   "source_id": "np-citizen-tz",
-   "tier": 2,
-   "country": "TZ",
-   "category": "press",
-   "segments": [
-    "city",
-    "bush",
-    "beach"
-   ],
-   "first_seen": "2026-09-02T10:58+03:00",
-   "published": null,
-   "verdict": "weak"
-  },
-  {
-   "score": 53.2,
-   "components": {
-    "tier": 20,
-    "category": 4,
-    "lead": 0.0,
-    "relevance": 0,
-    "freshness": 19.2,
-    "corroborated": 10
-   },
-   "keywords": [],
-   "shock_terms": [],
-   "dedupe_match": null,
-   "dedupe_similarity": 0.0,
-   "id": "16ba85376d6f",
-   "title": "Road upgrades give locals shot in arm",
-   "url": "https://www.monitor.co.ug/uganda/news/national/road-upgrades-give-locals-shot-in-arm-5580414",
-   "summary": "\u201cPlots of land measuring 12 decimals that were costing between Shs15m and Shs20m now go for...",
+   "dedupe_similarity": 0.2,
+   "id": "786af9063371",
+   "title": "US and Iran exchange attacks as lull in war appears over",
+   "url": "https://www.monitor.co.ug/uganda/news/world/us-and-iran-exchange-attacks-as-lull-in-war-appears-over-5580448",
+   "summary": "The exchange of fire marked the first serious combat since July.",
    "kind": "item",
    "source": "Daily Monitor (Uganda)",
    "source_id": "np-monitor-ug",
@@ -284,100 +1209,34 @@
     "bush",
     "beach"
    ],
-   "first_seen": "2026-09-02T10:58+03:00",
+   "first_seen": "2026-09-02T16:44+03:00",
    "published": "2026-09-02",
-   "verdict": "weak"
+   "verdict": "CONSIDER"
   },
   {
-   "score": 53.2,
-   "components": {
-    "tier": 20,
-    "category": 4,
-    "lead": 0.0,
-    "relevance": 0,
-    "freshness": 19.2,
-    "corroborated": 10
-   },
-   "keywords": [],
-   "shock_terms": [],
-   "dedupe_match": null,
-   "dedupe_similarity": 0.17,
-   "id": "469e81b42e9e",
-   "title": "Locals given free charcoal after seizure of 1,000 bags",
-   "url": "https://www.monitor.co.ug/uganda/news/national/locals-given-free-charcoal-after-seizure-of-1-000-bags-5580410",
-   "summary": "An investigation by this publication found that commercial charcoal production continues in...",
-   "kind": "item",
-   "source": "Daily Monitor (Uganda)",
-   "source_id": "np-monitor-ug",
-   "tier": 2,
-   "country": "UG",
-   "category": "press",
-   "segments": [
-    "city",
-    "bush",
-    "beach"
-   ],
-   "first_seen": "2026-09-02T10:58+03:00",
-   "published": "2026-09-02",
-   "verdict": "weak"
-  },
-  {
-   "score": 53.2,
-   "components": {
-    "tier": 20,
-    "category": 4,
-    "lead": 0.0,
-    "relevance": 0,
-    "freshness": 19.2,
-    "corroborated": 10
-   },
-   "keywords": [],
-   "shock_terms": [],
-   "dedupe_match": null,
-   "dedupe_similarity": 0.25,
-   "id": "2f59192774d9",
-   "title": "Uganda\u2019s journey from sugar shortage to regional supplier",
-   "url": "https://www.monitor.co.ug/uganda/news/national/uganda-s-journey-from-sugar-shortage-to-regional-supplier-5580406",
-   "summary": "According to Bank of Uganda figures, the country produces more than 800,000 metric tonnes of...",
-   "kind": "item",
-   "source": "Daily Monitor (Uganda)",
-   "source_id": "np-monitor-ug",
-   "tier": 2,
-   "country": "UG",
-   "category": "press",
-   "segments": [
-    "city",
-    "bush",
-    "beach"
-   ],
-   "first_seen": "2026-09-02T10:58+03:00",
-   "published": "2026-09-02",
-   "verdict": "weak"
-  },
-  {
-   "score": 51.4,
+   "score": 70.3,
    "components": {
     "tier": 20,
     "category": 5,
-    "lead": 1.2,
+    "lead": 3.6,
     "relevance": 12,
-    "freshness": 19.2,
-    "undated": -6
+    "freshness": 19.7,
+    "corroborated": 10
    },
    "keywords": [
-    "airport",
-    "flight"
+    "eta",
+    "hotel"
    ],
    "shock_terms": [],
    "dedupe_match": null,
    "dedupe_similarity": 0.2,
-   "id": "1a539fb4402c",
-   "title": "Air Tanzania unlocks 24-hour Arusha Airport potential with successful night flight trials",
-   "url": "https://travelnews.africa/news-single.html?id=18297&title=Air+Tanzania+unlocks+24-hour+Arusha+Airport+potential+with+successful+night+flight+trials",
-   "summary": "",
+   "id": "52dd0ca86a09",
+   "title": "Actabl\u2019s AI Insights Cut Overtime Share of Hours by 13% Across 100-plus Hotels",
+   "url": "https://www.hospitalitynet.org/news/4134178/actabls-ai-insights-cut-overtime-share-of-hours-by-13-across-100-plus-hotels",
+   "summary": "Actabl's AI Insights tool reduced overtime share of hours by 13% across 100+ beta hotels since its June 2026 HITEC launch, with one property cutting overtime spend by 75% in two months.",
    "kind": "item",
-   "source": "travelnews.africa",
-   "source_id": "tp-travelnews-africa",
+   "source": "Hospitality Net \u2014 Africa announcements",
+   "source_id": "dev-hospitalitynet-africa",
    "tier": 2,
    "country": "REG",
    "category": "trade",
@@ -386,34 +1245,34 @@
     "bush",
     "beach"
    ],
-   "first_seen": "2026-09-02T10:58+03:00",
-   "published": null,
-   "verdict": "weak"
+   "first_seen": "2026-09-02T16:43+03:00",
+   "published": "2026-09-02",
+   "verdict": "CONSIDER"
   },
   {
-   "score": 51.4,
+   "score": 70.3,
    "components": {
     "tier": 20,
     "category": 5,
-    "lead": 1.2,
+    "lead": 3.6,
     "relevance": 12,
-    "freshness": 19.2,
-    "undated": -6
+    "freshness": 19.7,
+    "corroborated": 10
    },
    "keywords": [
-    "visa",
-    "tourism"
+    "vat",
+    "guest"
    ],
    "shock_terms": [],
    "dedupe_match": null,
    "dedupe_similarity": 0.0,
-   "id": "2b7980129d9e",
-   "title": "South Africa fast-tracks tourism growth with new digital visa and biometric border launch",
-   "url": "https://travelnews.africa/news-single.html?id=18296&title=South+Africa+fast-tracks+tourism+growth+with+new+digital+visa+and+biometric+border+launch",
-   "summary": "",
+   "id": "52c43235d31a",
+   "title": "Quorum Hospitality Continues Growth with Management of Hilton Garden Inn Kauai Wailua Bay",
+   "url": "https://www.hospitalitynet.org/news/4134189/quorum-hospitality-continues-growth-with-management-of-hilton-garden-inn-kauai-wailua-bay",
+   "summary": "Quorum Hospitality takes over management of the 216-key Hilton Garden Inn Kauai Wailua Bay, with guest room and common area renovations planned for early 2027.",
    "kind": "item",
-   "source": "travelnews.africa",
-   "source_id": "tp-travelnews-africa",
+   "source": "Hospitality Net \u2014 Africa announcements",
+   "source_id": "dev-hospitalitynet-africa",
    "tier": 2,
    "country": "REG",
    "category": "trade",
@@ -422,70 +1281,34 @@
     "bush",
     "beach"
    ],
-   "first_seen": "2026-09-02T10:58+03:00",
-   "published": null,
-   "verdict": "weak"
+   "first_seen": "2026-09-02T16:43+03:00",
+   "published": "2026-09-02",
+   "verdict": "CONSIDER"
   },
   {
-   "score": 51.4,
+   "score": 70.3,
    "components": {
     "tier": 20,
     "category": 5,
-    "lead": 1.2,
+    "lead": 3.6,
     "relevance": 12,
-    "freshness": 19.2,
-    "undated": -6
+    "freshness": 19.7,
+    "corroborated": 10
    },
    "keywords": [
-    "airport",
-    "flight"
-   ],
-   "shock_terms": [],
-   "dedupe_match": null,
-   "dedupe_similarity": 0.2,
-   "id": "590526d0387a",
-   "title": "Air Tanzania unlocks 24-hour Arusha Airport potential with successful night flight trials",
-   "url": "https://travelnews.africa/news-single.html?id=18297",
-   "summary": "",
-   "kind": "item",
-   "source": "travelnews.africa",
-   "source_id": "tp-travelnews-africa",
-   "tier": 2,
-   "country": "REG",
-   "category": "trade",
-   "segments": [
-    "city",
-    "bush",
-    "beach"
-   ],
-   "first_seen": "2026-09-02T10:58+03:00",
-   "published": null,
-   "verdict": "weak"
-  },
-  {
-   "score": 51.4,
-   "components": {
-    "tier": 20,
-    "category": 5,
-    "lead": 1.2,
-    "relevance": 12,
-    "freshness": 19.2,
-    "undated": -6
-   },
-   "keywords": [
-    "visa",
-    "tourism"
+    "eta",
+    "hotel"
    ],
    "shock_terms": [],
    "dedupe_match": null,
    "dedupe_similarity": 0.0,
-   "id": "550929f07794",
-   "title": "South Africa fast-tracks tourism growth with new digital visa and biometric border launch",
-   "url": "https://travelnews.africa/news-single.html?id=18296",
-   "summary": "",
+   "id": "c8d1a519b5ea",
+   "title": "Aimbridge Hospitality Launches LIFT to Standardize Labor Planning and Management Across Its Portfolio",
+   "url": "https://www.hospitalitynet.org/news/4134184/aimbridge-hospitality-launches-lift-to-standardize-labor-planning-and-management-across-its-portfolio",
+   "summary": "Aimbridge's proprietary LIFT platform unifies forecasting, scheduling, and execution data across its portfolio, with pilot hotels reporting measurable labor productivity gains, particularly in housekeeping and laundry.",
    "kind": "item",
-   "source": "travelnews.africa",
-   "source_id": "tp-travelnews-africa",
+   "source": "Hospitality Net \u2014 Africa announcements",
+   "source_id": "dev-hospitalitynet-africa",
    "tier": 2,
    "country": "REG",
    "category": "trade",
@@ -494,903 +1317,111 @@
     "bush",
     "beach"
    ],
-   "first_seen": "2026-09-02T10:58+03:00",
-   "published": null,
-   "verdict": "weak"
+   "first_seen": "2026-09-02T16:43+03:00",
+   "published": "2026-09-02",
+   "verdict": "CONSIDER"
   },
   {
-   "score": 47.4,
+   "score": 70.3,
    "components": {
     "tier": 20,
-    "category": 5,
-    "lead": 1.2,
+    "category": 9,
+    "lead": 3.6,
     "relevance": 8,
-    "freshness": 19.2,
-    "undated": -6
+    "freshness": 19.7,
+    "corroborated": 10
    },
    "keywords": [
-    "flood"
+    "visa"
    ],
    "shock_terms": [],
    "dedupe_match": null,
    "dedupe_similarity": 0.0,
-   "id": "f826bb531485",
-   "title": "Bontebok National Park reopens more chalets and trails after devastating Breede River floods",
-   "url": "https://travelnews.africa/news-single.html?id=18295&title=Bontebok+National+Park+reopens+more+chalets+and+trails+after+devastating+Breede+River+floods",
-   "summary": "",
+   "id": "af95249ba7ef",
+   "title": "Bundesregierung: \"Zu viele Urlaubsvisa f\u00fcr Russen in der EU\"",
+   "url": "https://www.fvw.de/touristik/destination/bundesregierung-zu-viele-urlaubsvisa-fuer-russen-in-der-eu-264271",
+   "summary": "Die Bundesregierung will eine konsequente Anwendung von Regeln f\u00fcr Urlaubsvisa russischer Staatsb\u00fcrger in der EU. Diese w\u00fcrden noch \"von verschiedenen L\u00e4ndern unterschiedlich streng ausgef\u00fchrt\".",
    "kind": "item",
-   "source": "travelnews.africa",
-   "source_id": "tp-travelnews-africa",
+   "source": "FVW / German travel trade",
+   "source_id": "sm-derreise",
    "tier": 2,
-   "country": "REG",
-   "category": "trade",
+   "country": "GLOBAL",
+   "category": "source-market",
    "segments": [
-    "city",
-    "bush",
-    "beach"
-   ],
-   "first_seen": "2026-09-02T10:58+03:00",
-   "published": null,
-   "verdict": "weak"
-  },
-  {
-   "score": 47.4,
-   "components": {
-    "tier": 20,
-    "category": 5,
-    "lead": 1.2,
-    "relevance": 8,
-    "freshness": 19.2,
-    "undated": -6
-   },
-   "keywords": [
-    "flood"
-   ],
-   "shock_terms": [],
-   "dedupe_match": null,
-   "dedupe_similarity": 0.0,
-   "id": "d36be4c414a9",
-   "title": "Bontebok National Park reopens more chalets and trails after devastating Breede River floods",
-   "url": "https://travelnews.africa/news-single.html?id=18295",
-   "summary": "",
-   "kind": "item",
-   "source": "travelnews.africa",
-   "source_id": "tp-travelnews-africa",
-   "tier": 2,
-   "country": "REG",
-   "category": "trade",
-   "segments": [
-    "city",
-    "bush",
-    "beach"
-   ],
-   "first_seen": "2026-09-02T10:58+03:00",
-   "published": null,
-   "verdict": "weak"
-  },
-  {
-   "score": 47.2,
-   "components": {
-    "tier": 40,
-    "category": 32,
-    "lead": 12.0,
-    "relevance": 8,
-    "freshness": 19.2,
-    "stale_trap": -60,
-    "page_change": -4
-   },
-   "keywords": [
-    "fee"
-   ],
-   "shock_terms": [],
-   "dedupe_match": null,
-   "dedupe_similarity": 0.12,
-   "id": "d2cc9ee03e79",
-   "title": "[page changed] Federal Register \u2014 CDC notices",
-   "url": "https://www.federalregister.gov/api/v1/documents.rss?conditions%5Bagencies%5D%5B%5D=centers-for-disease-control-and-prevention&order=newest",
-   "summary": "Federal Register Documents published on or after 08/03/2026 and from Centers for Disease Control and Prevention https://www.federalregister.gov/api/v1/documents.rss?conditions%5Bagencies%5D%5B%5D=centers-for-disease-control-and-prevention&order=newest Fri, 28 Aug 2026 04:00:00 GMT The documents in this feed originate from FederalRegister.gov which displays an unofficial web version of the daily Fe",
-   "kind": "page-change",
-   "source": "Federal Register \u2014 CDC notices",
-   "source_id": "us-fedreg-cdc",
-   "tier": 1,
-   "country": "REG",
-   "category": "advisory",
-   "segments": [
-    "city",
+    "beach",
     "bush"
    ],
-   "first_seen": "2026-09-02T10:58+03:00",
-   "published": "2026-03-08",
-   "verdict": "DROP \u2014 stale trap: source date far outside window"
+   "first_seen": "2026-09-02T16:43+03:00",
+   "published": "2026-09-02",
+   "verdict": "CONSIDER"
   },
   {
-   "score": 45.2,
+   "score": 70.3,
    "components": {
     "tier": 20,
-    "category": 4,
-    "lead": 0.0,
+    "category": 9,
+    "lead": 3.6,
     "relevance": 8,
-    "freshness": 19.2,
-    "undated": -6
+    "freshness": 19.7,
+    "corroborated": 10
    },
    "keywords": [
-    "eta"
+    "visa"
    ],
    "shock_terms": [],
    "dedupe_match": null,
-   "dedupe_similarity": 0.2,
-   "id": "aec1814f7926",
-   "title": "World UN says world must navigate 'reality' of 1.5C overshoot UN Secretary General Antonio Guterres last year acknowledged the inevitability of overshooting 1.5C, but this is the first time a UN agency has addressed this head-on in a dedicated report.",
-   "url": "https://www.newvision.co.ug/category/world/un-says-world-must-navigate-reality-of-15c-ov-NV_239906_092026",
-   "summary": "",
+   "dedupe_similarity": 0.0,
+   "id": "41a05b4ffa07",
+   "title": "Ab 2027: Wird \u00c4gypten-Visum noch mal teurer?",
+   "url": "https://www.fvw.de/touristik/destination/ab-2027-wird-aegypten-visum-noch-mal-teurer-264264",
+   "summary": "Eine neue Entscheidung der \u00e4gyptischen Regierung sorgt aktuell unter Urlaubern f\u00fcr Gespr\u00e4chsstoff: Ab dem 1. Januar 2027 soll eine Abgabe von 15 US-Dollar auf Einreise- und Transitvisa eingef\u00fchrt werden. Bedeutet das, dass der \u00c4gypten-Urlaub teurer wird?",
    "kind": "item",
-   "source": "New Vision (Uganda)",
-   "source_id": "np-newvision-ug",
+   "source": "FVW / German travel trade",
+   "source_id": "sm-derreise",
    "tier": 2,
-   "country": "UG",
-   "category": "press",
+   "country": "GLOBAL",
+   "category": "source-market",
    "segments": [
-    "city",
-    "bush",
-    "beach"
+    "beach",
+    "bush"
    ],
-   "first_seen": "2026-09-02T10:58+03:00",
-   "published": null,
-   "verdict": "weak"
+   "first_seen": "2026-09-02T16:43+03:00",
+   "published": "2026-09-02",
+   "verdict": "CONSIDER"
   },
   {
-   "score": 45.2,
+   "score": 70.3,
    "components": {
     "tier": 20,
-    "category": 4,
-    "lead": 0.0,
+    "category": 9,
+    "lead": 3.6,
     "relevance": 8,
-    "freshness": 19.2,
-    "undated": -6
+    "freshness": 19.7,
+    "corroborated": 10
    },
    "keywords": [
-    "flood"
-   ],
-   "shock_terms": [],
-   "dedupe_match": null,
-   "dedupe_similarity": 0.2,
-   "id": "13e82967db77",
-   "title": "World Nepali families hold symbolic funerals for missing after floods",
-   "url": "https://www.newvision.co.ug/category/world/nepali-families-hold-symbolic-funerals-for-mi-NV_239899_092026",
-   "summary": "",
-   "kind": "item",
-   "source": "New Vision (Uganda)",
-   "source_id": "np-newvision-ug",
-   "tier": 2,
-   "country": "UG",
-   "category": "press",
-   "segments": [
-    "city",
-    "bush",
-    "beach"
-   ],
-   "first_seen": "2026-09-02T10:58+03:00",
-   "published": null,
-   "verdict": "weak"
-  },
-  {
-   "score": 45.2,
-   "components": {
-    "tier": 20,
-    "category": 4,
-    "lead": 0.0,
-    "relevance": 8,
-    "freshness": 19.2,
-    "undated": -6
-   },
-   "keywords": [
-    "eta"
+    "airport"
    ],
    "shock_terms": [],
    "dedupe_match": null,
    "dedupe_similarity": 0.17,
-   "id": "d9a11b3d0222",
-   "title": "Musasizi calls for pension reforms to protect retirement incomes According to Musasizi, people can enjoy a more secure retirement if they retain what he termed \u201creplacement income\u201d.",
-   "url": "https://www.newvision.co.ug/category/business/musasizi-calls-for-pension-reforms-to-protect-NV_239904_092026",
-   "summary": "",
+   "id": "e8e3897188eb",
+   "title": "Rum\u00e4nien: Wizz Air verbindet N\u00fcrnberg mit T\u00e2rgu Mure\u0219",
+   "url": "https://www.fvw.de/touristik/verkehr/rumaenien-wizz-air-verbindet-nuernberg-mit-trgu-mure-264223",
+   "summary": "Zum 20. Dezember 2026 verbindet Wizz Air den Albrecht D\u00fcrer Airport N\u00fcrnberg zweimal w\u00f6chentlich mit T\u00e2rgu Mure\u0219 in Zentralrum\u00e4nien.",
    "kind": "item",
-   "source": "New Vision (Uganda)",
-   "source_id": "np-newvision-ug",
+   "source": "FVW / German travel trade",
+   "source_id": "sm-derreise",
    "tier": 2,
-   "country": "UG",
-   "category": "press",
+   "country": "GLOBAL",
+   "category": "source-market",
    "segments": [
-    "city",
-    "bush",
-    "beach"
+    "beach",
+    "bush"
    ],
-   "first_seen": "2026-09-02T10:58+03:00",
-   "published": null,
-   "verdict": "weak"
-  },
-  {
-   "score": 45.2,
-   "components": {
-    "tier": 20,
-    "category": 4,
-    "lead": 0.0,
-    "relevance": 8,
-    "freshness": 19.2,
-    "undated": -6
-   },
-   "keywords": [
-    "diesel"
-   ],
-   "shock_terms": [],
-   "dedupe_match": null,
-   "dedupe_similarity": 0.2,
-   "id": "fdf276308f37",
-   "title": "Petrol, diesel prices drop in September",
-   "url": "https://www.thecitizen.co.tz/tanzania/news/national/petrol-diesel-prices-drop-in-september-5580594",
-   "summary": "",
-   "kind": "item",
-   "source": "The Citizen (Tanzania)",
-   "source_id": "np-citizen-tz",
-   "tier": 2,
-   "country": "TZ",
-   "category": "press",
-   "segments": [
-    "city",
-    "bush",
-    "beach"
-   ],
-   "first_seen": "2026-09-02T10:58+03:00",
-   "published": null,
-   "verdict": "weak"
-  },
-  {
-   "score": 45.2,
-   "components": {
-    "tier": 20,
-    "category": 4,
-    "lead": 0.0,
-    "relevance": 8,
-    "freshness": 19.2,
-    "undated": -6
-   },
-   "keywords": [
-    "wildlife"
-   ],
-   "shock_terms": [],
-   "dedupe_match": null,
-   "dedupe_similarity": 0.0,
-   "id": "2a784a97a495",
-   "title": "National Serengeti wants electric fence to control destructive wildlife 1 hour ago - 6 min read",
-   "url": "https://www.thecitizen.co.tz/tanzania/news/national/serengeti-wants-electric-fence-to-control-destructive-wildlife-5580480",
-   "summary": "",
-   "kind": "item",
-   "source": "The Citizen (Tanzania)",
-   "source_id": "np-citizen-tz",
-   "tier": 2,
-   "country": "TZ",
-   "category": "press",
-   "segments": [
-    "city",
-    "bush",
-    "beach"
-   ],
-   "first_seen": "2026-09-02T10:58+03:00",
-   "published": null,
-   "verdict": "weak"
-  },
-  {
-   "score": 45.2,
-   "components": {
-    "tier": 20,
-    "category": 4,
-    "lead": 0.0,
-    "relevance": 8,
-    "freshness": 19.2,
-    "undated": -6
-   },
-   "keywords": [
-    "election"
-   ],
-   "shock_terms": [],
-   "dedupe_match": null,
-   "dedupe_similarity": 0.2,
-   "id": "920cb05627c9",
-   "title": "Zanzibar Zanzibar Court dismisses election petitions due to flawed affidavits 17 hours ago - 4 min read",
-   "url": "https://www.thecitizen.co.tz/tanzania/zanzibar/zanzibar-court-dismisses-election-petitions-due-to-flawed-affidavits-5579834",
-   "summary": "",
-   "kind": "item",
-   "source": "The Citizen (Tanzania)",
-   "source_id": "np-citizen-tz",
-   "tier": 2,
-   "country": "TZ",
-   "category": "press",
-   "segments": [
-    "city",
-    "bush",
-    "beach"
-   ],
-   "first_seen": "2026-09-02T10:58+03:00",
-   "published": null,
-   "verdict": "weak"
-  },
-  {
-   "score": 45.2,
-   "components": {
-    "tier": 20,
-    "category": 4,
-    "lead": 0.0,
-    "relevance": 8,
-    "freshness": 19.2,
-    "undated": -6
-   },
-   "keywords": [
-    "fee"
-   ],
-   "shock_terms": [],
-   "dedupe_match": null,
-   "dedupe_similarity": 0.0,
-   "id": "c7ab1682ebdd",
-   "title": "Business WhatsApp charges: New fees to affect Tanzanian businesses 1 hour ago - 4 min read",
-   "url": "https://www.thecitizen.co.tz/tanzania/business/whatsapp-charges-new-fees-to-affect-tanzanian-businesses-5580516",
-   "summary": "",
-   "kind": "item",
-   "source": "The Citizen (Tanzania)",
-   "source_id": "np-citizen-tz",
-   "tier": 2,
-   "country": "TZ",
-   "category": "press",
-   "segments": [
-    "city",
-    "bush",
-    "beach"
-   ],
-   "first_seen": "2026-09-02T10:58+03:00",
-   "published": null,
-   "verdict": "weak"
-  },
-  {
-   "score": 45.2,
-   "components": {
-    "tier": 20,
-    "category": 4,
-    "lead": 0.0,
-    "relevance": 8,
-    "freshness": 19.2,
-    "undated": -6
-   },
-   "keywords": [
-    "election"
-   ],
-   "shock_terms": [],
-   "dedupe_match": null,
-   "dedupe_similarity": 0.0,
-   "id": "4e0233f10d32",
-   "title": "Africa Zambia's chaotic election casts shadow over Hichilema swearing-in 17 hours ago - 3 min read",
-   "url": "https://www.thecitizen.co.tz/tanzania/news/africa/zambia-s-chaotic-election-casts-shadow-over-hichilema-swearing-in-5579938",
-   "summary": "",
-   "kind": "item",
-   "source": "The Citizen (Tanzania)",
-   "source_id": "np-citizen-tz",
-   "tier": 2,
-   "country": "TZ",
-   "category": "press",
-   "segments": [
-    "city",
-    "bush",
-    "beach"
-   ],
-   "first_seen": "2026-09-02T10:58+03:00",
-   "published": null,
-   "verdict": "weak"
-  },
-  {
-   "score": 45.2,
-   "components": {
-    "tier": 20,
-    "category": 4,
-    "lead": 0.0,
-    "relevance": 8,
-    "freshness": 19.2,
-    "undated": -6
-   },
-   "keywords": [
-    "vat"
-   ],
-   "shock_terms": [],
-   "dedupe_match": null,
-   "dedupe_similarity": 0.17,
-   "id": "727021399cb6",
-   "title": "Technology Telcos to wait 6 months before deactivating dormant lines 14 hours ago - 5 min read",
-   "url": "https://www.businessdailyafrica.com/bd/corporate/technology/telcos-to-wait-6-months-before-deactivating-dormant-lines-5580224",
-   "summary": "",
-   "kind": "item",
-   "source": "Business Daily Africa",
-   "source_id": "np-businessdaily",
-   "tier": 2,
-   "country": "KE",
-   "category": "press",
-   "segments": [
-    "city",
-    "bush",
-    "beach"
-   ],
-   "first_seen": "2026-09-02T10:58+03:00",
-   "published": null,
-   "verdict": "weak"
-  },
-  {
-   "score": 43.4,
-   "components": {
-    "tier": 20,
-    "category": 5,
-    "lead": 1.2,
-    "relevance": 4,
-    "freshness": 19.2,
-    "undated": -6
-   },
-   "keywords": [
-    "tourism"
-   ],
-   "shock_terms": [],
-   "dedupe_match": null,
-   "dedupe_similarity": 0.2,
-   "id": "68265a08a2a2",
-   "title": "South Africa launches Tourism Month 2026 with bold digital and domestic travel push",
-   "url": "https://travelnews.africa/news-single.html?id=18294&title=South+Africa+launches+Tourism+Month+2026+with+bold+digital+and+domestic+travel+push",
-   "summary": "",
-   "kind": "item",
-   "source": "travelnews.africa",
-   "source_id": "tp-travelnews-africa",
-   "tier": 2,
-   "country": "REG",
-   "category": "trade",
-   "segments": [
-    "city",
-    "bush",
-    "beach"
-   ],
-   "first_seen": "2026-09-02T10:58+03:00",
-   "published": null,
-   "verdict": "weak"
-  },
-  {
-   "score": 43.4,
-   "components": {
-    "tier": 20,
-    "category": 5,
-    "lead": 1.2,
-    "relevance": 4,
-    "freshness": 19.2,
-    "undated": -6
-   },
-   "keywords": [
-    "airline"
-   ],
-   "shock_terms": [],
-   "dedupe_match": null,
-   "dedupe_similarity": 0.0,
-   "id": "204bc8b41a94",
-   "title": "Namibia Air courts Ethiopian Airlines partnership as new national carrier takes shape",
-   "url": "https://travelnews.africa/news-single.html?id=18293&title=Namibia+Air+courts+Ethiopian+Airlines+partnership+as+new+national+carrier+takes+shape",
-   "summary": "",
-   "kind": "item",
-   "source": "travelnews.africa",
-   "source_id": "tp-travelnews-africa",
-   "tier": 2,
-   "country": "REG",
-   "category": "trade",
-   "segments": [
-    "city",
-    "bush",
-    "beach"
-   ],
-   "first_seen": "2026-09-02T10:58+03:00",
-   "published": null,
-   "verdict": "weak"
-  },
-  {
-   "score": 43.4,
-   "components": {
-    "tier": 20,
-    "category": 5,
-    "lead": 1.2,
-    "relevance": 4,
-    "freshness": 19.2,
-    "undated": -6
-   },
-   "keywords": [
-    "airline"
-   ],
-   "shock_terms": [],
-   "dedupe_match": null,
-   "dedupe_similarity": 0.0,
-   "id": "44d702749863",
-   "title": "Libyan Airlines set to double active fleet as repaired Airbus A320 returns to skies",
-   "url": "https://travelnews.africa/news-single.html?id=18292&title=Libyan+Airlines+set+to+double+active+fleet+as+repaired+Airbus+A320+returns+to+skies",
-   "summary": "",
-   "kind": "item",
-   "source": "travelnews.africa",
-   "source_id": "tp-travelnews-africa",
-   "tier": 2,
-   "country": "REG",
-   "category": "trade",
-   "segments": [
-    "city",
-    "bush",
-    "beach"
-   ],
-   "first_seen": "2026-09-02T10:58+03:00",
-   "published": null,
-   "verdict": "weak"
-  },
-  {
-   "score": 41.2,
-   "components": {
-    "tier": 20,
-    "category": 4,
-    "lead": 0.0,
-    "relevance": 4,
-    "freshness": 19.2,
-    "undated": -6
-   },
-   "keywords": [
-    "shilling"
-   ],
-   "shock_terms": [],
-   "dedupe_match": null,
-   "dedupe_similarity": 0.0,
-   "id": "e3d2f26f7335",
-   "title": "Shilling recovers slight losses to the dollar",
-   "url": "https://www.newvision.co.ug/category/business/shilling-recovers-slight-losses-to-the-dollar-NV_239885_092026",
-   "summary": "",
-   "kind": "item",
-   "source": "New Vision (Uganda)",
-   "source_id": "np-newvision-ug",
-   "tier": 2,
-   "country": "UG",
-   "category": "press",
-   "segments": [
-    "city",
-    "bush",
-    "beach"
-   ],
-   "first_seen": "2026-09-02T10:58+03:00",
-   "published": null,
-   "verdict": "weak"
-  },
-  {
-   "score": 41.2,
-   "components": {
-    "tier": 20,
-    "category": 4,
-    "lead": 0.0,
-    "relevance": 4,
-    "freshness": 19.2,
-    "undated": -6
-   },
-   "keywords": [
-    "investment"
-   ],
-   "shock_terms": [],
-   "dedupe_match": null,
-   "dedupe_similarity": 0.0,
-   "id": "ba934ddb428b",
-   "title": "Markets & Finance Civil servants pension fund lifts NSE investments, collections hit Sh60bn 16 hours ago - 4 min read",
-   "url": "https://www.businessdailyafrica.com/bd/markets/civil-servants-pension-fund-lifts-nse-investments-5580046",
-   "summary": "",
-   "kind": "item",
-   "source": "Business Daily Africa",
-   "source_id": "np-businessdaily",
-   "tier": 2,
-   "country": "KE",
-   "category": "press",
-   "segments": [
-    "city",
-    "bush",
-    "beach"
-   ],
-   "first_seen": "2026-09-02T10:58+03:00",
-   "published": null,
-   "verdict": "weak"
-  },
-  {
-   "score": 41.2,
-   "components": {
-    "tier": 20,
-    "category": 4,
-    "lead": 0.0,
-    "relevance": 4,
-    "freshness": 19.2,
-    "undated": -6
-   },
-   "keywords": [
-    "safari"
-   ],
-   "shock_terms": [],
-   "dedupe_match": null,
-   "dedupe_similarity": 0.17,
-   "id": "e4a31769bd17",
-   "title": "Companies Safaricom in early payment of Sh46bn dividend 14 hours ago - 2 min read",
-   "url": "https://www.businessdailyafrica.com/bd/corporate/companies/safaricom-in-early-payment-of-sh46bn-dividend-5580248",
-   "summary": "",
-   "kind": "item",
-   "source": "Business Daily Africa",
-   "source_id": "np-businessdaily",
-   "tier": 2,
-   "country": "KE",
-   "category": "press",
-   "segments": [
-    "city",
-    "bush",
-    "beach"
-   ],
-   "first_seen": "2026-09-02T10:58+03:00",
-   "published": null,
-   "verdict": "weak"
-  },
-  {
-   "score": 39.4,
-   "components": {
-    "tier": 20,
-    "category": 5,
-    "lead": 1.2,
-    "relevance": 0,
-    "freshness": 19.2,
-    "undated": -6
-   },
-   "keywords": [],
-   "shock_terms": [],
-   "dedupe_match": null,
-   "dedupe_similarity": 0.29,
-   "id": "1a8f17cc67b2",
-   "title": "Kenya Airways set for leadership shake-up as Habil Waswani steps in as interim CEO",
-   "url": "https://travelnews.africa/news-single.html?id=18291&title=Kenya+Airways+set+for+leadership+shake-up+as+Habil+Waswani+steps+in+as+interim+CEO",
-   "summary": "",
-   "kind": "item",
-   "source": "travelnews.africa",
-   "source_id": "tp-travelnews-africa",
-   "tier": 2,
-   "country": "REG",
-   "category": "trade",
-   "segments": [
-    "city",
-    "bush",
-    "beach"
-   ],
-   "first_seen": "2026-09-02T10:58+03:00",
-   "published": null,
-   "verdict": "weak"
-  },
-  {
-   "score": 39.4,
-   "components": {
-    "tier": 20,
-    "category": 5,
-    "lead": 1.2,
-    "relevance": 0,
-    "freshness": 19.2,
-    "undated": -6
-   },
-   "keywords": [],
-   "shock_terms": [],
-   "dedupe_match": null,
-   "dedupe_similarity": 0.33,
-   "id": "42d4a86c2355",
-   "title": "travel news Destinations 2163",
-   "url": "https://travelnews.africa/index.html?a=destinations",
-   "summary": "",
-   "kind": "item",
-   "source": "travelnews.africa",
-   "source_id": "tp-travelnews-africa",
-   "tier": 2,
-   "country": "REG",
-   "category": "trade",
-   "segments": [
-    "city",
-    "bush",
-    "beach"
-   ],
-   "first_seen": "2026-09-02T10:58+03:00",
-   "published": null,
-   "verdict": "weak"
-  },
-  {
-   "score": 39.4,
-   "components": {
-    "tier": 20,
-    "category": 5,
-    "lead": 1.2,
-    "relevance": 0,
-    "freshness": 19.2,
-    "undated": -6
-   },
-   "keywords": [],
-   "shock_terms": [],
-   "dedupe_match": null,
-   "dedupe_similarity": 0.29,
-   "id": "6799bbf85379",
-   "title": "Kenya Airways set for leadership shake-up as Habil Waswani steps in as interim CEO",
-   "url": "https://travelnews.africa/news-single.html?id=18291",
-   "summary": "",
-   "kind": "item",
-   "source": "travelnews.africa",
-   "source_id": "tp-travelnews-africa",
-   "tier": 2,
-   "country": "REG",
-   "category": "trade",
-   "segments": [
-    "city",
-    "bush",
-    "beach"
-   ],
-   "first_seen": "2026-09-02T10:58+03:00",
-   "published": null,
-   "verdict": "weak"
-  },
-  {
-   "score": 37.2,
-   "components": {
-    "tier": 20,
-    "category": 4,
-    "lead": 0.0,
-    "relevance": 0,
-    "freshness": 19.2,
-    "undated": -6
-   },
-   "keywords": [],
-   "shock_terms": [],
-   "dedupe_match": null,
-   "dedupe_similarity": 0.25,
-   "id": "7bd1555b783b",
-   "title": "Uganda names its crude oil today The naming ceremony is part of President Museveni's visit to the Kingfisher Development Area in Kikuube District to inspect progress in Uganda\u2019s oil and gas journey. News",
-   "url": "https://www.newvision.co.ug/category/news/uganda-names-its-crude-oil-today-NV_239905_092026",
-   "summary": "",
-   "kind": "item",
-   "source": "New Vision (Uganda)",
-   "source_id": "np-newvision-ug",
-   "tier": 2,
-   "country": "UG",
-   "category": "press",
-   "segments": [
-    "city",
-    "bush",
-    "beach"
-   ],
-   "first_seen": "2026-09-02T10:58+03:00",
-   "published": null,
-   "verdict": "weak"
-  },
-  {
-   "score": 37.2,
-   "components": {
-    "tier": 20,
-    "category": 4,
-    "lead": 0.0,
-    "relevance": 0,
-    "freshness": 19.2,
-    "undated": -6
-   },
-   "keywords": [],
-   "shock_terms": [],
-   "dedupe_match": null,
-   "dedupe_similarity": 0.0,
-   "id": "39d383f077a0",
-   "title": "News Parliament committee to review halt on special land title certificates",
-   "url": "https://www.newvision.co.ug/category/news/parliament-committee-to-review-halt-on-specia-NV_239900_092026",
-   "summary": "",
-   "kind": "item",
-   "source": "New Vision (Uganda)",
-   "source_id": "np-newvision-ug",
-   "tier": 2,
-   "country": "UG",
-   "category": "press",
-   "segments": [
-    "city",
-    "bush",
-    "beach"
-   ],
-   "first_seen": "2026-09-02T10:58+03:00",
-   "published": null,
-   "verdict": "weak"
-  },
-  {
-   "score": 37.2,
-   "components": {
-    "tier": 20,
-    "category": 4,
-    "lead": 0.0,
-    "relevance": 0,
-    "freshness": 19.2,
-    "undated": -6
-   },
-   "keywords": [],
-   "shock_terms": [],
-   "dedupe_match": null,
-   "dedupe_similarity": 0.0,
-   "id": "2cee83943a82",
-   "title": "Politics DP summons NEC for emergency meeting over internal conflicts",
-   "url": "https://www.newvision.co.ug/category/politics/dp-summons-nec-for-emergency-meeting-over-int-NV_239893_092026",
-   "summary": "",
-   "kind": "item",
-   "source": "New Vision (Uganda)",
-   "source_id": "np-newvision-ug",
-   "tier": 2,
-   "country": "UG",
-   "category": "press",
-   "segments": [
-    "city",
-    "bush",
-    "beach"
-   ],
-   "first_seen": "2026-09-02T10:58+03:00",
-   "published": null,
-   "verdict": "weak"
-  },
-  {
-   "score": 37.2,
-   "components": {
-    "tier": 20,
-    "category": 4,
-    "lead": 0.0,
-    "relevance": 0,
-    "freshness": 19.2,
-    "undated": -6
-   },
-   "keywords": [],
-   "shock_terms": [],
-   "dedupe_match": null,
-   "dedupe_similarity": 0.33,
-   "id": "26cdc345a1f8",
-   "title": "News Power struggle erupts as security block Tooro Kingdom Council meeting",
-   "url": "https://www.newvision.co.ug/category/news/power-struggle-erupts-as-security-block-tooro-NV_239871_092026",
-   "summary": "",
-   "kind": "item",
-   "source": "New Vision (Uganda)",
-   "source_id": "np-newvision-ug",
-   "tier": 2,
-   "country": "UG",
-   "category": "press",
-   "segments": [
-    "city",
-    "bush",
-    "beach"
-   ],
-   "first_seen": "2026-09-02T10:58+03:00",
-   "published": null,
-   "verdict": "weak"
-  },
-  {
-   "score": 37.2,
-   "components": {
-    "tier": 20,
-    "category": 4,
-    "lead": 0.0,
-    "relevance": 0,
-    "freshness": 19.2,
-    "undated": -6
-   },
-   "keywords": [],
-   "shock_terms": [],
-   "dedupe_match": null,
-   "dedupe_similarity": 0.33,
-   "id": "c200e14f593b",
-   "title": "News UNAIDS honours King Oyo\u2019s legacy in the fight against AIDS",
-   "url": "https://www.newvision.co.ug/category/news/unaids-honours-king-oyos-legacy-in-the-fight-NV_239892_092026",
-   "summary": "",
-   "kind": "item",
-   "source": "New Vision (Uganda)",
-   "source_id": "np-newvision-ug",
-   "tier": 2,
-   "country": "UG",
-   "category": "press",
-   "segments": [
-    "city",
-    "bush",
-    "beach"
-   ],
-   "first_seen": "2026-09-02T10:58+03:00",
-   "published": null,
-   "verdict": "weak"
+   "first_seen": "2026-09-02T16:43+03:00",
+   "published": "2026-09-02",
+   "verdict": "CONSIDER"
   }
  ]
 }
