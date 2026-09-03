@@ -1,18 +1,18 @@
 {
- "generated": "2026-09-03T17:12:57+03:00",
+ "generated": "2026-09-03T21:49:24+03:00",
  "slot": "evening",
  "window_start": 1788429600,
- "observations_in_window": 231,
+ "observations_in_window": 387,
  "deduped_against": 24,
  "candidates": [
   {
-   "score": 113.5,
+   "score": 108.5,
    "components": {
     "tier": 40,
     "category": 18,
     "lead": 8.4,
     "relevance": 0,
-    "freshness": 19.1,
+    "freshness": 14.1,
     "corroborated": 10,
     "shock": 18
    },
@@ -40,13 +40,46 @@
    "verdict": "LEAD CANDIDATE \u2014 tier-1 shock language"
   },
   {
-   "score": 100.7,
+   "score": 101.3,
    "components": {
     "tier": 40,
     "category": 32,
     "lead": 3.6,
     "relevance": 0,
-    "freshness": 19.1,
+    "freshness": 19.7,
+    "corroborated": 10,
+    "page_change": -4
+   },
+   "keywords": [],
+   "shock_terms": [],
+   "dedupe_match": null,
+   "dedupe_similarity": 0.0,
+   "id": "aa3c73e640ec",
+   "title": "[page changed] Federal Register \u2014 public inspection (HHS/CDC), pre-publication",
+   "url": "https://www.federalregister.gov/api/v1/public-inspection-documents/current.json",
+   "summary": "{\"count\":83,\"results\":[{\"agencies\":[{\"raw_name\":\"NUCLEAR REGULATORY COMMISSION\",\"name\":\"Nuclear Regulatory Commission\",\"id\":383,\"url\":\"https://www.federalregister.gov/agencies/nuclear-regulatory-commission\",\"json_url\":\"https://www.federalregister.gov/api/v1/agencies/383\",\"parent_id\":null,\"slug\":\"nuclear-regulatory-commission\"}],\"agency_letters\":[],\"agency_names\":[\"Nuclear Regulatory Commission\"],\"",
+   "kind": "page-change",
+   "source": "Federal Register \u2014 public inspection (HHS/CDC), pre-publication",
+   "source_id": "us-fedreg-pubinspect-hhs",
+   "tier": 1,
+   "country": "REG",
+   "category": "advisory",
+   "segments": [
+    "city",
+    "bush"
+   ],
+   "first_seen": "2026-09-03T21:46+03:00",
+   "published": "2026-09-02",
+   "verdict": "OPEN THIS \u2014 tier-1 advisory page moved; content not auto-parsed, read it manually"
+  },
+  {
+   "score": 95.7,
+   "components": {
+    "tier": 40,
+    "category": 32,
+    "lead": 3.6,
+    "relevance": 0,
+    "freshness": 14.1,
     "corroborated": 10,
     "page_change": -4
    },
@@ -73,13 +106,84 @@
    "verdict": "OPEN THIS \u2014 tier-1 advisory page moved; content not auto-parsed, read it manually"
   },
   {
-   "score": 98.8,
+   "score": 65.3,
+   "components": {
+    "tier": 40,
+    "category": 12,
+    "lead": 3.6,
+    "relevance": 0,
+    "freshness": 19.7,
+    "undated": -6,
+    "page_change": -4
+   },
+   "keywords": [],
+   "shock_terms": [],
+   "dedupe_match": null,
+   "dedupe_similarity": 0.0,
+   "id": "5b83e109d365",
+   "title": "[page changed] Airlink news",
+   "url": "https://www.flyairlink.com/",
+   "summary": "Request unsuccessful. Incapsula incident ID: 361000370864793670-912607995541129583",
+   "kind": "page-change",
+   "source": "Airlink news",
+   "source_id": "air-airlink",
+   "tier": 1,
+   "country": "REG",
+   "category": "airline",
+   "segments": [
+    "city",
+    "bush",
+    "beach"
+   ],
+   "first_seen": "2026-09-03T21:45+03:00",
+   "published": null,
+   "verdict": "OPEN THIS \u2014 tier-1 airline page moved; content not auto-parsed, read it manually"
+  },
+  {
+   "score": 112.7,
+   "components": {
+    "tier": 40,
+    "category": 17,
+    "lead": 6.0,
+    "relevance": 20,
+    "freshness": 19.7,
+    "corroborated": 10
+   },
+   "keywords": [
+    "vat",
+    "gorilla",
+    "tourism"
+   ],
+   "shock_terms": [],
+   "dedupe_match": null,
+   "dedupe_similarity": 0.17,
+   "id": "5cf6ccbbc9ab",
+   "title": "Rwanda Announces Namers for the 21st Kwita Izina Gorilla Naming Ceremony",
+   "url": "https://rdb.rw/rwanda-announces-namers-for-the-21st-kwita-izina-gorilla-naming-ceremony",
+   "summary": "Kigali, Rwanda | 2 September 2026 \u2013 Rwanda has announced the distinguished Namers who will take part in the 21st Kwita Izina Gorilla Naming Ceremony on Friday, 4 September 2026, in Kinigi, Musanze District. This year\u2019s Namers bring together leaders and personalities from conservation, tourism, business, sport, entertainment, philanthropy and public service from Rwanda and [\u2026] The post Rwanda Annou",
+   "kind": "item",
+   "source": "Rwanda Development Board media",
+   "source_id": "rw-rdb",
+   "tier": 1,
+   "country": "RW",
+   "category": "regulator",
+   "segments": [
+    "city",
+    "bush",
+    "beach"
+   ],
+   "first_seen": "2026-09-03T21:46+03:00",
+   "published": "2026-09-03",
+   "verdict": "STRONG \u2014 tier-1, upstream"
+  },
+  {
+   "score": 93.7,
    "components": {
     "tier": 40,
     "category": 7,
     "lead": 6.0,
     "relevance": 16,
-    "freshness": 19.8,
+    "freshness": 14.7,
     "corroborated": 10
    },
    "keywords": [
@@ -107,13 +211,13 @@
    "verdict": "STRONG \u2014 tier-1, upstream"
   },
   {
-   "score": 95.5,
+   "score": 90.5,
    "components": {
     "tier": 20,
     "category": 14,
     "lead": 8.4,
     "relevance": 24,
-    "freshness": 19.1,
+    "freshness": 14.1,
     "corroborated": 10
    },
    "keywords": [
@@ -144,13 +248,13 @@
    "verdict": "CONSIDER"
   },
   {
-   "score": 91.6,
+   "score": 86.5,
    "components": {
     "tier": 40,
     "category": 9,
     "lead": 16.8,
     "relevance": 12,
-    "freshness": 19.8,
+    "freshness": 14.7,
     "undated": -6
    },
    "keywords": [
@@ -178,16 +282,16 @@
    ],
    "first_seen": "2026-09-03T17:12+03:00",
    "published": null,
-   "verdict": "STRONG \u2014 tier-1, upstream"
+   "verdict": "CONSIDER"
   },
   {
-   "score": 91.5,
+   "score": 86.5,
    "components": {
     "tier": 20,
     "category": 14,
     "lead": 8.4,
     "relevance": 20,
-    "freshness": 19.1,
+    "freshness": 14.1,
     "corroborated": 10
    },
    "keywords": [
@@ -219,13 +323,193 @@
    "verdict": "CONSIDER"
   },
   {
-   "score": 87.5,
+   "score": 84.2,
+   "components": {
+    "tier": 20,
+    "category": 14,
+    "lead": 8.4,
+    "relevance": 12,
+    "freshness": 19.8,
+    "corroborated": 10
+   },
+   "keywords": [
+    "route",
+    "flight"
+   ],
+   "shock_terms": [],
+   "dedupe_match": null,
+   "dedupe_similarity": 0.0,
+   "id": "e59d0e39dc81",
+   "title": "Air Corsica Resumes Limited Time Bastia \u2013 Casablanca Service in 4Q26",
+   "url": "https://www.aeroroutes.com/eng/260903-xk4q26cmn",
+   "summary": "Published at 1100PDT / 1800GMT 03SEP26 Air Corsica in October 2026 once again schedules limited time service on Bastia \u2013 Casablanca route, after the hiatus in 2025. Airbus A320neo aircraft to operate 1 weekly flight from 11OCT26 to 01NOV26. Schedule below focuses on the period of 11OCT25 \u2013 18OCT26. XK012 BIA0655 \u2013 0745CMN 32N 7 XK803 CMN0900 \u2013 1350BIA 32N 7",
+   "kind": "item",
+   "source": "AeroRoutes schedule filings",
+   "source_id": "aeroroutes",
+   "tier": 2,
+   "country": "GLOBAL",
+   "category": "aviation-tracker",
+   "segments": [
+    "city",
+    "bush",
+    "beach"
+   ],
+   "first_seen": "2026-09-03T21:46+03:00",
+   "published": "2026-09-03",
+   "verdict": "CONSIDER"
+  },
+  {
+   "score": 84.2,
+   "components": {
+    "tier": 20,
+    "category": 14,
+    "lead": 8.4,
+    "relevance": 12,
+    "freshness": 19.8,
+    "corroborated": 10
+   },
+   "keywords": [
+    "route",
+    "airline"
+   ],
+   "shock_terms": [],
+   "dedupe_match": null,
+   "dedupe_similarity": 0.33,
+   "id": "43f241ad4df9",
+   "title": "Safair Adds Johannesburg \u2013 Lusaka From Feb 2027",
+   "url": "https://www.aeroroutes.com/eng/260903-fafeb27lun",
+   "summary": "Published at 1000PDT / 1700GMT 03SEP26 South African Safair in the first quarter of 2027 schedules Johannesburg \u2013 Lusaka route, on board Boeing 737-800 aircraft. The airline plans to serve this route 5 times weekly from 01FEB27. FA855 JNB0750 \u2013 0950LUN 738 x26 FA856 LUN1050 \u2013 1250JNB 738 x26",
+   "kind": "item",
+   "source": "AeroRoutes schedule filings",
+   "source_id": "aeroroutes",
+   "tier": 2,
+   "country": "GLOBAL",
+   "category": "aviation-tracker",
+   "segments": [
+    "city",
+    "bush",
+    "beach"
+   ],
+   "first_seen": "2026-09-03T21:46+03:00",
+   "published": "2026-09-03",
+   "verdict": "CONSIDER"
+  },
+  {
+   "score": 84.2,
+   "components": {
+    "tier": 20,
+    "category": 14,
+    "lead": 8.4,
+    "relevance": 12,
+    "freshness": 19.8,
+    "corroborated": 10
+   },
+   "keywords": [
+    "route",
+    "flight"
+   ],
+   "shock_terms": [],
+   "dedupe_match": null,
+   "dedupe_similarity": 0.17,
+   "id": "4c706bc9a0da",
+   "title": "Air China late-Sep 2026 Limited Time A350 New York Flights",
+   "url": "https://www.aeroroutes.com/eng/260903-casep26jfk",
+   "summary": "Published at 0900PDT / 1600GMT 03SEP26 Star Alliance member Air China in late-September 2026 schedules limited time Airbus A350-900 aircraft operation on Beijing Capital \u2013 New York JFK route, replacing the 747-8I. From Beijing, service on 26SEP26, 28SEP26 and 30SEP26 will be served by the A350 (New York departs the following day). CA981 PEK1935 \u2013 2305JFK 359 CA982 JFK0205 \u2013 0640+1PEK 359 Air China",
+   "kind": "item",
+   "source": "AeroRoutes schedule filings",
+   "source_id": "aeroroutes",
+   "tier": 2,
+   "country": "GLOBAL",
+   "category": "aviation-tracker",
+   "segments": [
+    "city",
+    "bush",
+    "beach"
+   ],
+   "first_seen": "2026-09-03T21:46+03:00",
+   "published": "2026-09-03",
+   "verdict": "CONSIDER"
+  },
+  {
+   "score": 84.2,
+   "components": {
+    "tier": 20,
+    "category": 14,
+    "lead": 8.4,
+    "relevance": 12,
+    "freshness": 19.8,
+    "corroborated": 10
+   },
+   "keywords": [
+    "route",
+    "airline"
+   ],
+   "shock_terms": [],
+   "dedupe_match": null,
+   "dedupe_similarity": 0.0,
+   "id": "9d271331a89c",
+   "title": "Sky Airline Adds Cuzco \u2013 Santiago de Chile in 1Q27",
+   "url": "https://www.aeroroutes.com/eng/260903-h21q27cuzscl",
+   "summary": "Published at 0800PDT / 1500GMT 03SEP26 Sky Airline Peru in the first quarter of 2027 plans to launch Cuzco \u2013 Santiago de Chile nonstop route, on board Airbus A320neo. Service will be offered once a day from 03JAN27, reducing to 4 weekly from 02MAR27. H25627 CUZ1800 \u2013 2329SCL 32N D H25628 SCL1510 \u2013 1640CUZ 32N D",
+   "kind": "item",
+   "source": "AeroRoutes schedule filings",
+   "source_id": "aeroroutes",
+   "tier": 2,
+   "country": "GLOBAL",
+   "category": "aviation-tracker",
+   "segments": [
+    "city",
+    "bush",
+    "beach"
+   ],
+   "first_seen": "2026-09-03T21:46+03:00",
+   "published": "2026-09-03",
+   "verdict": "CONSIDER"
+  },
+  {
+   "score": 84.2,
+   "components": {
+    "tier": 20,
+    "category": 14,
+    "lead": 8.4,
+    "relevance": 12,
+    "freshness": 19.8,
+    "corroborated": 10
+   },
+   "keywords": [
+    "route",
+    "airline"
+   ],
+   "shock_terms": [],
+   "dedupe_match": null,
+   "dedupe_similarity": 0.17,
+   "id": "c286119dd9de",
+   "title": "Sky Airline Peru Sep 2026 \u2013 Mar 2027 Domestic Network Additions",
+   "url": "https://www.aeroroutes.com/eng/260903-h2sep26pe",
+   "summary": "Published at 0700PDT / 1400GMT 03SEP26 Sky Airline Peru between September 2026 and March 2027 plans to introduce 3 domestic routes, including 2 service resumptions. Planned network addition as follows. Lima \u2013 Cajamarca eff 01SEP26 1 daily A320neo (Last served until January 2024) Lima \u2013 Puerto Maldonado eff 01MAR27 1 daily A320neo Lima \u2013 Talara eff 02OCT26 4 weekly A320neo (5 weekly form 07NOV26, 7",
+   "kind": "item",
+   "source": "AeroRoutes schedule filings",
+   "source_id": "aeroroutes",
+   "tier": 2,
+   "country": "GLOBAL",
+   "category": "aviation-tracker",
+   "segments": [
+    "city",
+    "bush",
+    "beach"
+   ],
+   "first_seen": "2026-09-03T21:46+03:00",
+   "published": "2026-09-03",
+   "verdict": "CONSIDER"
+  },
+  {
+   "score": 82.5,
    "components": {
     "tier": 40,
     "category": 24,
     "lead": 2.4,
     "relevance": 12,
-    "freshness": 19.1,
+    "freshness": 14.1,
     "stale_trap": -10
    },
    "keywords": [
@@ -253,13 +537,442 @@
    "verdict": "CHECK \u2014 source date older than the window"
   },
   {
-   "score": 83.5,
+   "score": 80.5,
+   "components": {
+    "tier": 40,
+    "category": 10,
+    "lead": 16.8,
+    "relevance": 0,
+    "freshness": 19.7,
+    "undated": -6
+   },
+   "keywords": [],
+   "shock_terms": [],
+   "dedupe_match": null,
+   "dedupe_similarity": 0.17,
+   "id": "3a458484cb45",
+   "title": "Parliament hails Omukama Oyo as developmental monarch Thursday, 3 September 2026",
+   "url": "https://www.parliament.go.ug/news/4604/parliament-hails-omukama-oyo-developmental-monarch",
+   "summary": "",
+   "kind": "item",
+   "source": "Parliament of Uganda",
+   "source_id": "ug-parliament",
+   "tier": 1,
+   "country": "UG",
+   "category": "legislature",
+   "segments": [
+    "city",
+    "bush",
+    "beach"
+   ],
+   "first_seen": "2026-09-03T21:45+03:00",
+   "published": null,
+   "verdict": "CONSIDER"
+  },
+  {
+   "score": 80.5,
+   "components": {
+    "tier": 40,
+    "category": 10,
+    "lead": 16.8,
+    "relevance": 0,
+    "freshness": 19.7,
+    "undated": -6
+   },
+   "keywords": [],
+   "shock_terms": [],
+   "dedupe_match": null,
+   "dedupe_similarity": 0.17,
+   "id": "a7d56d5dc167",
+   "title": "Gov't given go ahead to aquire loan for Busoga roads Thursday, 3 September 2026",
+   "url": "https://www.parliament.go.ug/news/4603/govt-given-go-ahead-aquire-loan-busoga-roads",
+   "summary": "",
+   "kind": "item",
+   "source": "Parliament of Uganda",
+   "source_id": "ug-parliament",
+   "tier": 1,
+   "country": "UG",
+   "category": "legislature",
+   "segments": [
+    "city",
+    "bush",
+    "beach"
+   ],
+   "first_seen": "2026-09-03T21:45+03:00",
+   "published": null,
+   "verdict": "CONSIDER"
+  },
+  {
+   "score": 80.5,
+   "components": {
+    "tier": 40,
+    "category": 10,
+    "lead": 16.8,
+    "relevance": 0,
+    "freshness": 19.7,
+    "undated": -6
+   },
+   "keywords": [],
+   "shock_terms": [],
+   "dedupe_match": null,
+   "dedupe_similarity": 0.17,
+   "id": "90872e2f6267",
+   "title": "UETCL facing 136 court cases with possible Shs777 billion liability Thursday, 3 September 2026",
+   "url": "https://www.parliament.go.ug/news/4602/uetcl-facing-136-court-cases-possible-shs777-billion-liability",
+   "summary": "",
+   "kind": "item",
+   "source": "Parliament of Uganda",
+   "source_id": "ug-parliament",
+   "tier": 1,
+   "country": "UG",
+   "category": "legislature",
+   "segments": [
+    "city",
+    "bush",
+    "beach"
+   ],
+   "first_seen": "2026-09-03T21:45+03:00",
+   "published": null,
+   "verdict": "CONSIDER"
+  },
+  {
+   "score": 80.5,
+   "components": {
+    "tier": 40,
+    "category": 10,
+    "lead": 16.8,
+    "relevance": 0,
+    "freshness": 19.7,
+    "undated": -6
+   },
+   "keywords": [],
+   "shock_terms": [],
+   "dedupe_match": null,
+   "dedupe_similarity": 0.17,
+   "id": "224069b5a9ee",
+   "title": "'Revival of Lira Spinning Mills key for economic growth in region' Thursday, 3 September 2026",
+   "url": "https://www.parliament.go.ug/news/4601/revival-lira-spinning-mills-key-economic-growth-region",
+   "summary": "",
+   "kind": "item",
+   "source": "Parliament of Uganda",
+   "source_id": "ug-parliament",
+   "tier": 1,
+   "country": "UG",
+   "category": "legislature",
+   "segments": [
+    "city",
+    "bush",
+    "beach"
+   ],
+   "first_seen": "2026-09-03T21:45+03:00",
+   "published": null,
+   "verdict": "CONSIDER"
+  },
+  {
+   "score": 80.5,
+   "components": {
+    "tier": 40,
+    "category": 10,
+    "lead": 16.8,
+    "relevance": 0,
+    "freshness": 19.7,
+    "undated": -6
+   },
+   "keywords": [],
+   "shock_terms": [],
+   "dedupe_match": null,
+   "dedupe_similarity": 0.0,
+   "id": "d8c63a7fd3d7",
+   "title": "LIST OF APPLICANTS AND SHORTLISTED CANDIDATES; VACANT POSITION FOR THE FEMALE MEMBER OF THE PARLIAMENTARY SERVICE COMMISSION UNDER ARTICLE 127(2)(D) OF THE CONSTITUTION",
+   "url": "https://www.parliament.go.ke/list-applicants-and-shortlisted-candidates-vacant-position-female-member-parliamentary-service",
+   "summary": "",
+   "kind": "item",
+   "source": "Parliament of Kenya \u2014 bills & papers",
+   "source_id": "ke-parliament",
+   "tier": 1,
+   "country": "KE",
+   "category": "legislature",
+   "segments": [
+    "city",
+    "bush",
+    "beach"
+   ],
+   "first_seen": "2026-09-03T21:45+03:00",
+   "published": null,
+   "verdict": "CONSIDER"
+  },
+  {
+   "score": 80.2,
+   "components": {
+    "tier": 40,
+    "category": 24,
+    "lead": 2.4,
+    "relevance": 0,
+    "freshness": 19.8,
+    "undated": -6
+   },
+   "keywords": [],
+   "shock_terms": [],
+   "dedupe_match": null,
+   "dedupe_similarity": 0.0,
+   "id": "8b5fdcbfdaa4",
+   "title": "SERIKALI, WADAU WAJADILI MFUMO WA KUONGEZA UFANISI UPATI...",
+   "url": "https://www.moh.go.tz/news-single/serikali-wadau-wajadili-mfumo-wa-kuongeza-ufanisi-upatikanaji-wa-rasilimali-watu-na-fedha-sekta-ya-afya",
+   "summary": "",
+   "kind": "item",
+   "source": "Tanzania Ministry of Health",
+   "source_id": "tz-moh",
+   "tier": 1,
+   "country": "TZ",
+   "category": "health",
+   "segments": [
+    "city",
+    "bush",
+    "beach"
+   ],
+   "first_seen": "2026-09-03T21:46+03:00",
+   "published": null,
+   "verdict": "CONSIDER"
+  },
+  {
+   "score": 80.2,
+   "components": {
+    "tier": 40,
+    "category": 24,
+    "lead": 2.4,
+    "relevance": 0,
+    "freshness": 19.8,
+    "undated": -6
+   },
+   "keywords": [],
+   "shock_terms": [],
+   "dedupe_match": null,
+   "dedupe_similarity": 0.2,
+   "id": "d1b073272561",
+   "title": "TANZANIA YASISITIZA UWEKEZAJI WA AFYA KUBORESHA HUDU...",
+   "url": "https://www.moh.go.tz/news-single/tanzania-yasisitiza-uwekezaji-wa-afya-kuboresha-huduma-kwa-wananchi",
+   "summary": "",
+   "kind": "item",
+   "source": "Tanzania Ministry of Health",
+   "source_id": "tz-moh",
+   "tier": 1,
+   "country": "TZ",
+   "category": "health",
+   "segments": [
+    "city",
+    "bush",
+    "beach"
+   ],
+   "first_seen": "2026-09-03T21:46+03:00",
+   "published": null,
+   "verdict": "CONSIDER"
+  },
+  {
+   "score": 80.2,
+   "components": {
+    "tier": 40,
+    "category": 24,
+    "lead": 2.4,
+    "relevance": 0,
+    "freshness": 19.8,
+    "undated": -6
+   },
+   "keywords": [],
+   "shock_terms": [],
+   "dedupe_match": null,
+   "dedupe_similarity": 0.0,
+   "id": "040057796aa5",
+   "title": "BONANZA LA JIONGEZE360 LATOA ELIMU YA AFYA YA UZAZI ...",
+   "url": "https://www.moh.go.tz/news-single/bonanza-la-jiongeze360-latoa-elimu-ya-afya-ya-uzazi-kwa-vijana-tunduru",
+   "summary": "",
+   "kind": "item",
+   "source": "Tanzania Ministry of Health",
+   "source_id": "tz-moh",
+   "tier": 1,
+   "country": "TZ",
+   "category": "health",
+   "segments": [
+    "city",
+    "bush",
+    "beach"
+   ],
+   "first_seen": "2026-09-03T21:46+03:00",
+   "published": null,
+   "verdict": "CONSIDER"
+  },
+  {
+   "score": 80.2,
+   "components": {
+    "tier": 40,
+    "category": 24,
+    "lead": 2.4,
+    "relevance": 0,
+    "freshness": 19.8,
+    "undated": -6
+   },
+   "keywords": [],
+   "shock_terms": [],
+   "dedupe_match": null,
+   "dedupe_similarity": 0.2,
+   "id": "a785d43623a9",
+   "title": "TANZANIA YAMUENZI DKT. SENAIT FISSEHA KWA MCHANGO WA...",
+   "url": "https://www.moh.go.tz/news-single/tanzania-yamuenzi-dkt-senait-fisseha-kwa-mchango-wake-katika-afya-ya-wanawake-2",
+   "summary": "",
+   "kind": "item",
+   "source": "Tanzania Ministry of Health",
+   "source_id": "tz-moh",
+   "tier": 1,
+   "country": "TZ",
+   "category": "health",
+   "segments": [
+    "city",
+    "bush",
+    "beach"
+   ],
+   "first_seen": "2026-09-03T21:46+03:00",
+   "published": null,
+   "verdict": "CONSIDER"
+  },
+  {
+   "score": 80.2,
+   "components": {
+    "tier": 40,
+    "category": 24,
+    "lead": 2.4,
+    "relevance": 0,
+    "freshness": 19.8,
+    "undated": -6
+   },
+   "keywords": [],
+   "shock_terms": [],
+   "dedupe_match": null,
+   "dedupe_similarity": 0.2,
+   "id": "d73525ea2c77",
+   "title": "TANZANIA YAMUENZI DKT. SENAIT FISSEHA KWA MCHANGO WA...",
+   "url": "https://www.moh.go.tz/news-single/tanzania-yamuenzi-dkt-senait-fisseha-kwa-mchango-wake-katika-afya-ya-wanawake",
+   "summary": "",
+   "kind": "item",
+   "source": "Tanzania Ministry of Health",
+   "source_id": "tz-moh",
+   "tier": 1,
+   "country": "TZ",
+   "category": "health",
+   "segments": [
+    "city",
+    "bush",
+    "beach"
+   ],
+   "first_seen": "2026-09-03T21:46+03:00",
+   "published": null,
+   "verdict": "CONSIDER"
+  },
+  {
+   "score": 80.2,
+   "components": {
+    "tier": 40,
+    "category": 24,
+    "lead": 2.4,
+    "relevance": 0,
+    "freshness": 19.8,
+    "undated": -6
+   },
+   "keywords": [],
+   "shock_terms": [],
+   "dedupe_match": null,
+   "dedupe_similarity": 0.2,
+   "id": "ea53859a482b",
+   "title": "TANZANIA, GATES FOUNDATION KUSHIRIKIANA KUIMARISHA M...",
+   "url": "https://www.moh.go.tz/news-single/tanzania-gates-foundation-kushirikiana-kuimarisha-mfumo-wa-sekta-ya-afya-nchini",
+   "summary": "",
+   "kind": "item",
+   "source": "Tanzania Ministry of Health",
+   "source_id": "tz-moh",
+   "tier": 1,
+   "country": "TZ",
+   "category": "health",
+   "segments": [
+    "city",
+    "bush",
+    "beach"
+   ],
+   "first_seen": "2026-09-03T21:46+03:00",
+   "published": null,
+   "verdict": "CONSIDER"
+  },
+  {
+   "score": 80.2,
+   "components": {
+    "tier": 40,
+    "category": 24,
+    "lead": 2.4,
+    "relevance": 0,
+    "freshness": 19.8,
+    "undated": -6
+   },
+   "keywords": [],
+   "shock_terms": [],
+   "dedupe_match": null,
+   "dedupe_similarity": 0.2,
+   "id": "4dec805f92c6",
+   "title": "TANZANIA YASISITIZA KUIMARISHA HUDUMA ZA CHANJO, KUW...",
+   "url": "https://www.moh.go.tz/news-single/tanzania-yasisitiza-kuimarisha-huduma-za-chanjo-kuwafikia-watoto-wote",
+   "summary": "",
+   "kind": "item",
+   "source": "Tanzania Ministry of Health",
+   "source_id": "tz-moh",
+   "tier": 1,
+   "country": "TZ",
+   "category": "health",
+   "segments": [
+    "city",
+    "bush",
+    "beach"
+   ],
+   "first_seen": "2026-09-03T21:46+03:00",
+   "published": null,
+   "verdict": "CONSIDER"
+  },
+  {
+   "score": 80.2,
+   "components": {
+    "tier": 40,
+    "category": 24,
+    "lead": 2.4,
+    "relevance": 0,
+    "freshness": 19.8,
+    "undated": -6
+   },
+   "keywords": [],
+   "shock_terms": [],
+   "dedupe_match": null,
+   "dedupe_similarity": 0.2,
+   "id": "df074b2035f6",
+   "title": "TANZANIA YASISITIZA USHIRIKIANO WA UMOJA WA AFRIKA I...",
+   "url": "https://www.moh.go.tz/news-single/tanzania-yasisitiza-ushirikiano-wa-umoja-wa-afrika-ili-kupunguza-vifo-vya-mama-na-mtoto",
+   "summary": "",
+   "kind": "item",
+   "source": "Tanzania Ministry of Health",
+   "source_id": "tz-moh",
+   "tier": 1,
+   "country": "TZ",
+   "category": "health",
+   "segments": [
+    "city",
+    "bush",
+    "beach"
+   ],
+   "first_seen": "2026-09-03T21:46+03:00",
+   "published": null,
+   "verdict": "CONSIDER"
+  },
+  {
+   "score": 78.5,
    "components": {
     "tier": 40,
     "category": 24,
     "lead": 2.4,
     "relevance": 4,
-    "freshness": 19.1,
+    "freshness": 14.1,
     "undated": -6
    },
    "keywords": [
@@ -288,13 +1001,13 @@
    "verdict": "CONSIDER"
   },
   {
-   "score": 83.5,
+   "score": 78.5,
    "components": {
     "tier": 20,
     "category": 14,
     "lead": 8.4,
     "relevance": 12,
-    "freshness": 19.1,
+    "freshness": 14.1,
     "corroborated": 10
    },
    "keywords": [
@@ -324,13 +1037,13 @@
    "verdict": "CONSIDER"
   },
   {
-   "score": 83.5,
+   "score": 78.5,
    "components": {
     "tier": 20,
     "category": 14,
     "lead": 8.4,
     "relevance": 12,
-    "freshness": 19.1,
+    "freshness": 14.1,
     "corroborated": 10
    },
    "keywords": [
@@ -360,13 +1073,53 @@
    "verdict": "CONSIDER"
   },
   {
-   "score": 79.6,
+   "score": 75.8,
+   "components": {
+    "tier": 20,
+    "category": 4,
+    "lead": 0.0,
+    "relevance": 20,
+    "freshness": 19.8,
+    "undated": -6,
+    "shock": 18
+   },
+   "keywords": [
+    "airport",
+    "strike",
+    "flight"
+   ],
+   "shock_terms": [
+    "strike"
+   ],
+   "dedupe_match": null,
+   "dedupe_similarity": 0.25,
+   "id": "9d01ec1a59e0",
+   "title": "Flight disruptions persist as airport workers strike impact lingers Sep 01 - 3 min read",
+   "url": "https://www.businessdailyafrica.com/bd/corporate/shipping-logistics/flight-disruptions-persist-as-workers-strike-impact-lingers-5580088",
+   "summary": "",
+   "kind": "item",
+   "source": "Business Daily Africa",
+   "source_id": "np-businessdaily",
+   "tier": 2,
+   "country": "KE",
+   "category": "press",
+   "segments": [
+    "city",
+    "bush",
+    "beach"
+   ],
+   "first_seen": "2026-09-03T21:46+03:00",
+   "published": null,
+   "verdict": "CONSIDER"
+  },
+  {
+   "score": 74.5,
    "components": {
     "tier": 40,
     "category": 9,
     "lead": 16.8,
     "relevance": 0,
-    "freshness": 19.8,
+    "freshness": 14.7,
     "undated": -6
    },
    "keywords": [],
@@ -391,13 +1144,13 @@
    "verdict": "CONSIDER"
   },
   {
-   "score": 79.5,
+   "score": 74.5,
    "components": {
     "tier": 40,
     "category": 24,
     "lead": 2.4,
     "relevance": 0,
-    "freshness": 19.1,
+    "freshness": 14.1,
     "undated": -6
    },
    "keywords": [],
@@ -424,13 +1177,13 @@
    "verdict": "CONSIDER"
   },
   {
-   "score": 79.5,
+   "score": 74.5,
    "components": {
     "tier": 40,
     "category": 24,
     "lead": 2.4,
     "relevance": 0,
-    "freshness": 19.1,
+    "freshness": 14.1,
     "undated": -6
    },
    "keywords": [],
@@ -457,13 +1210,13 @@
    "verdict": "CONSIDER"
   },
   {
-   "score": 79.5,
+   "score": 74.5,
    "components": {
     "tier": 40,
     "category": 24,
     "lead": 2.4,
     "relevance": 0,
-    "freshness": 19.1,
+    "freshness": 14.1,
     "undated": -6
    },
    "keywords": [],
@@ -490,13 +1243,13 @@
    "verdict": "CONSIDER"
   },
   {
-   "score": 79.5,
+   "score": 74.5,
    "components": {
     "tier": 40,
     "category": 24,
     "lead": 2.4,
     "relevance": 0,
-    "freshness": 19.1,
+    "freshness": 14.1,
     "undated": -6
    },
    "keywords": [],
@@ -523,13 +1276,13 @@
    "verdict": "CONSIDER"
   },
   {
-   "score": 79.5,
+   "score": 74.5,
    "components": {
     "tier": 20,
     "category": 14,
     "lead": 8.4,
     "relevance": 8,
-    "freshness": 19.1,
+    "freshness": 14.1,
     "corroborated": 10
    },
    "keywords": [
@@ -558,13 +1311,13 @@
    "verdict": "CONSIDER"
   },
   {
-   "score": 79.1,
+   "score": 74.1,
    "components": {
     "tier": 20,
     "category": 4,
     "lead": 0.0,
     "relevance": 24,
-    "freshness": 19.1,
+    "freshness": 14.1,
     "undated": -6,
     "shock": 18
    },
@@ -597,809 +1350,41 @@
    "verdict": "CONSIDER"
   },
   {
-   "score": 78.4,
+   "score": 73.8,
    "components": {
     "tier": 20,
-    "category": 5,
-    "lead": 3.6,
+    "category": 4,
+    "lead": 0.0,
     "relevance": 20,
     "freshness": 19.8,
     "corroborated": 10
    },
    "keywords": [
     "vat",
-    "permit",
-    "hotel"
-   ],
-   "shock_terms": [],
-   "dedupe_match": null,
-   "dedupe_similarity": 0.0,
-   "id": "23bf4b0383eb",
-   "title": "Hospitality Leaders, Take Your Marks! Preparing Hotels for the LA28 Olympics",
-   "url": "https://www.hospitalitynet.org/opinion/4134222/hospitality-leaders-take-your-marks-preparing-hotels-for-the-la28-olympics",
-   "summary": "With LA28 approaching, hotel owners face tightening timelines for renovation projects as labor, procurement, and permitting pressures intensify ahead of the 2028 deadline.",
-   "kind": "item",
-   "source": "Hospitality Net \u2014 Africa announcements",
-   "source_id": "dev-hospitalitynet-africa",
-   "tier": 2,
-   "country": "REG",
-   "category": "trade",
-   "segments": [
-    "city",
-    "bush",
-    "beach"
-   ],
-   "first_seen": "2026-09-03T17:12+03:00",
-   "published": "2026-09-03",
-   "verdict": "CONSIDER"
-  },
-  {
-   "score": 77.6,
-   "components": {
-    "tier": 40,
-    "category": 7,
-    "lead": 16.8,
-    "relevance": 0,
-    "freshness": 19.8,
-    "undated": -6
-   },
-   "keywords": [],
-   "shock_terms": [],
-   "dedupe_match": null,
-   "dedupe_similarity": 0.0,
-   "id": "c6160b66179e",
-   "title": "SUPPLY, INSTALLATION, TESTING, AND COMMISSION...",
-   "url": "https://egpuganda.go.ug/index/394369004_egp",
-   "summary": "",
-   "kind": "item",
-   "source": "Uganda EGP portal",
-   "source_id": "ug-tenders",
-   "tier": 1,
-   "country": "UG",
-   "category": "tender",
-   "segments": [
-    "city",
-    "bush",
-    "beach"
-   ],
-   "first_seen": "2026-09-03T17:12+03:00",
-   "published": null,
-   "verdict": "CONSIDER"
-  },
-  {
-   "score": 77.6,
-   "components": {
-    "tier": 40,
-    "category": 7,
-    "lead": 16.8,
-    "relevance": 0,
-    "freshness": 19.8,
-    "undated": -6
-   },
-   "keywords": [],
-   "shock_terms": [],
-   "dedupe_match": null,
-   "dedupe_similarity": 0.0,
-   "id": "923bd13616b7",
-   "title": "Framework contract (two years) for ESET Prote...",
-   "url": "https://egpuganda.go.ug/index/396022220_egp",
-   "summary": "",
-   "kind": "item",
-   "source": "Uganda EGP portal",
-   "source_id": "ug-tenders",
-   "tier": 1,
-   "country": "UG",
-   "category": "tender",
-   "segments": [
-    "city",
-    "bush",
-    "beach"
-   ],
-   "first_seen": "2026-09-03T17:12+03:00",
-   "published": null,
-   "verdict": "CONSIDER"
-  },
-  {
-   "score": 77.6,
-   "components": {
-    "tier": 40,
-    "category": 7,
-    "lead": 16.8,
-    "relevance": 0,
-    "freshness": 19.8,
-    "undated": -6
-   },
-   "keywords": [],
-   "shock_terms": [],
-   "dedupe_match": null,
-   "dedupe_similarity": 0.0,
-   "id": "11285f12d1cc",
-   "title": "Supply and Delivery of Motor Vehicles under 6...",
-   "url": "https://egpuganda.go.ug/index/396360562_egp",
-   "summary": "",
-   "kind": "item",
-   "source": "Uganda EGP portal",
-   "source_id": "ug-tenders",
-   "tier": 1,
-   "country": "UG",
-   "category": "tender",
-   "segments": [
-    "city",
-    "bush",
-    "beach"
-   ],
-   "first_seen": "2026-09-03T17:12+03:00",
-   "published": null,
-   "verdict": "CONSIDER"
-  },
-  {
-   "score": 74.4,
-   "components": {
-    "tier": 20,
-    "category": 5,
-    "lead": 3.6,
-    "relevance": 16,
-    "freshness": 19.8,
-    "corroborated": 10
-   },
-   "keywords": [
-    "electricity",
-    "hotel",
+    "eta",
     "investment"
    ],
    "shock_terms": [],
    "dedupe_match": null,
-   "dedupe_similarity": 0.0,
-   "id": "88cf46155344",
-   "title": "Proudly Committed: RIU Hotels increases its social investment by 62% in 2025 and achieves 100% sustainable certifications",
-   "url": "https://www.hospitalitynet.org/news/4134227/proudly-committed-riu-hotels-increases-its-social-investment-by-62-in-2025-and-achieves-100-sustainable-certifications",
-   "summary": "RIU Hotels raised social investment to 5.13M euros in 2025, achieved 100% Ecostars certification across its 101-hotel portfolio, and sourced 90% of electricity from renewables.",
+   "dedupe_similarity": 0.2,
+   "id": "0293cfc6fe15",
+   "title": "Tanzania invites Turkish investors to tap into its rich investment opportunities",
+   "url": "https://dailynews.co.tz/tanzania-invites-turkish-investors-to-tap-into-its-rich-investment-opportunities",
+   "summary": "ISTANBUL: TANZANIA has invited Turkish investors to tap into its vast investment opportunities as the country begins implementing Vision 2050, which targets the private sector to contribute 70 per cent of the nation\u2019s Gross Domestic Product (GDP). Speaking at the Tanzania-Turkey Business Forum in Turkey today, September 3, 2026, the Permanent Secretary in the President\u2019s \u2026 The post Tanzania invite",
    "kind": "item",
-   "source": "Hospitality Net \u2014 Africa announcements",
-   "source_id": "dev-hospitalitynet-africa",
+   "source": "Daily News (Tanzania)",
+   "source_id": "np-dailynews-tz",
    "tier": 2,
-   "country": "REG",
-   "category": "trade",
-   "segments": [
-    "city",
-    "bush",
-    "beach"
-   ],
-   "first_seen": "2026-09-03T17:12+03:00",
-   "published": "2026-09-03",
-   "verdict": "CONSIDER"
-  },
-  {
-   "score": 74.1,
-   "components": {
-    "tier": 40,
-    "category": 20,
-    "lead": 12.0,
-    "relevance": 8,
-    "freshness": 19.1,
-    "stale_trap": -25
-   },
-   "keywords": [
-    "levy"
-   ],
-   "shock_terms": [],
-   "dedupe_match": null,
-   "dedupe_similarity": 0.0,
-   "id": "421ccdc9dde8",
-   "title": "The Tea (Levy) Regulations, 2026",
-   "url": "https://new.kenyalaw.org/akn/ke/act/ln/2026/56/eng@2026-08-18",
-   "summary": "The Tea (Levy) Regulations, 2026",
-   "kind": "item",
-   "source": "Kenya Gazette (Kenya Law)",
-   "source_id": "ke-gazette",
-   "tier": 1,
-   "country": "KE",
-   "category": "gazette",
-   "segments": [
-    "city",
-    "bush",
-    "beach"
-   ],
-   "first_seen": "2026-09-03T16:36+03:00",
-   "published": "2026-08-18",
-   "verdict": "CHECK \u2014 source date older than the window"
-  },
-  {
-   "score": 73.1,
-   "components": {
-    "tier": 20,
-    "category": 4,
-    "lead": 0.0,
-    "relevance": 20,
-    "freshness": 19.1,
-    "corroborated": 10
-   },
-   "keywords": [
-    "tax",
-    "seat",
-    "passenger"
-   ],
-   "shock_terms": [],
-   "dedupe_match": null,
-   "dedupe_similarity": 0.33,
-   "id": "599bf5a44323",
-   "title": "DMC taxis have to go. Here is why",
-   "url": "https://www.monitor.co.ug/uganda/business/auto/dmc-taxis-have-to-go-here-is-why-5581546",
-   "summary": "Leaking roofs, bendable seats, resident rats, fish buckets, loud passengers and disputed fares,...",
-   "kind": "item",
-   "source": "Daily Monitor (Uganda)",
-   "source_id": "np-monitor-ug",
-   "tier": 2,
-   "country": "UG",
+   "country": "TZ",
    "category": "press",
    "segments": [
     "city",
     "bush",
     "beach"
    ],
-   "first_seen": "2026-09-03T16:36+03:00",
+   "first_seen": "2026-09-03T21:47+03:00",
    "published": "2026-09-03",
    "verdict": "CONSIDER"
-  },
-  {
-   "score": 71.1,
-   "components": {
-    "tier": 20,
-    "category": 4,
-    "lead": 0.0,
-    "relevance": 0,
-    "freshness": 19.1,
-    "corroborated": 10,
-    "shock": 18
-   },
-   "keywords": [],
-   "shock_terms": [
-    "attack"
-   ],
-   "dedupe_match": null,
-   "dedupe_similarity": 0.0,
-   "id": "42d3abee6c6b",
-   "title": "How Vipers, KCCA cash in on Okello\u2019s Moroccan move",
-   "url": "https://www.monitor.co.ug/uganda/sports/soccer/how-vipers-kcca-cash-in-on-okello-s-moroccan-move-5582060",
-   "summary": "Vipers sold Okello to Yanga in January for a reported $300,000 (Shs1.12b) after the attacking...",
-   "kind": "item",
-   "source": "Daily Monitor (Uganda)",
-   "source_id": "np-monitor-ug",
-   "tier": 2,
-   "country": "UG",
-   "category": "press",
-   "segments": [
-    "city",
-    "bush",
-    "beach"
-   ],
-   "first_seen": "2026-09-03T16:36+03:00",
-   "published": "2026-09-03",
-   "verdict": "CONSIDER"
-  },
-  {
-   "score": 71.1,
-   "components": {
-    "tier": 20,
-    "category": 4,
-    "lead": 0.0,
-    "relevance": 0,
-    "freshness": 19.1,
-    "corroborated": 10,
-    "shock": 18
-   },
-   "keywords": [],
-   "shock_terms": [
-    "attack"
-   ],
-   "dedupe_match": null,
-   "dedupe_similarity": 0.17,
-   "id": "e1e19e53122f",
-   "title": "Bunga child murder suspect taken to Butabika for mental assessment",
-   "url": "https://www.monitor.co.ug/uganda/news/national/bunga-child-murder-suspect-taken-to-butabika-for-mental-assessment-5581662",
-   "summary": "Detectives said Wamwoyo, 43, allegedly killed her two children in a brutal attack that left...",
-   "kind": "item",
-   "source": "Daily Monitor (Uganda)",
-   "source_id": "np-monitor-ug",
-   "tier": 2,
-   "country": "UG",
-   "category": "press",
-   "segments": [
-    "city",
-    "bush",
-    "beach"
-   ],
-   "first_seen": "2026-09-03T16:36+03:00",
-   "published": "2026-09-03",
-   "verdict": "CONSIDER"
-  },
-  {
-   "score": 71.1,
-   "components": {
-    "tier": 20,
-    "category": 4,
-    "lead": 0.0,
-    "relevance": 16,
-    "freshness": 19.1,
-    "undated": -6,
-    "shock": 18
-   },
-   "keywords": [
-    "airport",
-    "strike"
-   ],
-   "shock_terms": [
-    "strike"
-   ],
-   "dedupe_match": null,
-   "dedupe_similarity": 0.25,
-   "id": "3381f0adc475",
-   "title": "Transport KQ, Jambojet lose Sh976m in 2-day airport workers strike 1 hour ago - 3 min read",
-   "url": "https://www.businessdailyafrica.com/bd/corporate/shipping-logistics/kq-jambojet-lose-sh976m-in-2-day-airport-workers-strike-5582202",
-   "summary": "",
-   "kind": "item",
-   "source": "Business Daily Africa",
-   "source_id": "np-businessdaily",
-   "tier": 2,
-   "country": "KE",
-   "category": "press",
-   "segments": [
-    "city",
-    "bush",
-    "beach"
-   ],
-   "first_seen": "2026-09-03T16:36+03:00",
-   "published": null,
-   "verdict": "CONSIDER"
-  },
-  {
-   "score": 70.4,
-   "components": {
-    "tier": 20,
-    "category": 9,
-    "lead": 3.6,
-    "relevance": 8,
-    "freshness": 19.8,
-    "corroborated": 10
-   },
-   "keywords": [
-    "airport"
-   ],
-   "shock_terms": [],
-   "dedupe_match": null,
-   "dedupe_similarity": 0.25,
-   "id": "016bc372dc5a",
-   "title": "Zum 17. Oktober: Air Cairo verbindet K\u00f6ln Bonn Airport mit Luxor",
-   "url": "https://www.fvw.de/touristik/verkehr/zum-17.-oktober-air-cairo-verbindet-koeln-bonn-airport-mit-luxor-264293",
-   "summary": "Air Cairo nimmt zum 17. Oktober eine neue Strecke zwischen dem K\u00f6ln Bonn Airport und Luxor auf.",
-   "kind": "item",
-   "source": "FVW / German travel trade",
-   "source_id": "sm-derreise",
-   "tier": 2,
-   "country": "GLOBAL",
-   "category": "source-market",
-   "segments": [
-    "beach",
-    "bush"
-   ],
-   "first_seen": "2026-09-03T17:12+03:00",
-   "published": "2026-09-03",
-   "verdict": "CONSIDER"
-  },
-  {
-   "score": 70.4,
-   "components": {
-    "tier": 20,
-    "category": 9,
-    "lead": 3.6,
-    "relevance": 8,
-    "freshness": 19.8,
-    "corroborated": 10
-   },
-   "keywords": [
-    "visa"
-   ],
-   "shock_terms": [],
-   "dedupe_match": null,
-   "dedupe_similarity": 0.0,
-   "id": "a8dddd45ee23",
-   "title": "Bundesregierung: \"Zu viele Urlaubsvisa f\u00fcr Russen in der EU\"",
-   "url": "https://www.fvw.de/touristik/destination/bundesregierung-zu-viele-urlaubsvisa-fuer-russen-in-der-eu-264276",
-   "summary": "Die Bundesregierung will eine konsequente Anwendung von Regeln f\u00fcr Urlaubsvisa russischer Staatsb\u00fcrger in der EU. Diese w\u00fcrden noch \"von verschiedenen L\u00e4ndern unterschiedlich streng ausgef\u00fchrt\".",
-   "kind": "item",
-   "source": "FVW / German travel trade",
-   "source_id": "sm-derreise",
-   "tier": 2,
-   "country": "GLOBAL",
-   "category": "source-market",
-   "segments": [
-    "beach",
-    "bush"
-   ],
-   "first_seen": "2026-09-03T17:12+03:00",
-   "published": "2026-09-03",
-   "verdict": "CONSIDER"
-  },
-  {
-   "score": 70.4,
-   "components": {
-    "tier": 20,
-    "category": 9,
-    "lead": 3.6,
-    "relevance": 8,
-    "freshness": 19.8,
-    "corroborated": 10
-   },
-   "keywords": [
-    "eta"
-   ],
-   "shock_terms": [],
-   "dedupe_match": null,
-   "dedupe_similarity": 0.17,
-   "id": "eb2b64ba147f",
-   "title": "F\u00fcr alle Inlandsfl\u00fcge (+Video): Das bietet die neue Business Class von Jetblue",
-   "url": "https://www.fvw.de/touristik/verkehr/fuer-alle-inlandsfluege-video-das-bietet-die-neue-business-class-von-jet-blue-264275",
-   "summary": "Jetblue Airways hat Details zu ihrer neuen Business-Class-Option f\u00fcr Inlandsfl\u00fcge, Blue First, enth\u00fcllt. Blue-First-Passagiere profitieren von gr\u00f6\u00dferen, komfortablen Sitzen in einer Zwei-zwei-Anordnung, deren R\u00fcckenlehnen mit \u00fcber 13 Zoll gro\u00dfen Bildschirmen ausgestattet sind.",
-   "kind": "item",
-   "source": "FVW / German travel trade",
-   "source_id": "sm-derreise",
-   "tier": 2,
-   "country": "GLOBAL",
-   "category": "source-market",
-   "segments": [
-    "beach",
-    "bush"
-   ],
-   "first_seen": "2026-09-03T17:12+03:00",
-   "published": "2026-09-02",
-   "verdict": "CONSIDER"
-  },
-  {
-   "score": 70.4,
-   "components": {
-    "tier": 20,
-    "category": 5,
-    "lead": 3.6,
-    "relevance": 12,
-    "freshness": 19.8,
-    "corroborated": 10
-   },
-   "keywords": [
-    "fee",
-    "booking"
-   ],
-   "shock_terms": [],
-   "dedupe_match": null,
-   "dedupe_similarity": 0.14,
-   "id": "2bab19cdc329",
-   "title": "Pembroke Inn & Cloudbeds: Proof that independence looks good on the bottom line",
-   "url": "https://www.hospitalitynet.org/casestudy/4134231/pembroke-inn-cloudbeds-proof-that-independence-looks-good-on-the-bottom-line",
-   "summary": "Toronto's 52-room Pembroke Inn cut OTA bookings from nearly 100% to 10-15% using Cloudbeds digital marketing tools, generating $263,000 in attributed revenue and saving an estimated $60-70K in monthly high-season OTA fees.",
-   "kind": "item",
-   "source": "Hospitality Net \u2014 Africa announcements",
-   "source_id": "dev-hospitalitynet-africa",
-   "tier": 2,
-   "country": "REG",
-   "category": "trade",
-   "segments": [
-    "city",
-    "bush",
-    "beach"
-   ],
-   "first_seen": "2026-09-03T17:12+03:00",
-   "published": "2026-09-03",
-   "verdict": "CONSIDER"
-  },
-  {
-   "score": 70.4,
-   "components": {
-    "tier": 20,
-    "category": 5,
-    "lead": 3.6,
-    "relevance": 12,
-    "freshness": 19.8,
-    "corroborated": 10
-   },
-   "keywords": [
-    "hotel",
-    "resort",
-    "signing"
-   ],
-   "shock_terms": [],
-   "dedupe_match": null,
-   "dedupe_similarity": 0.0,
-   "id": "9f081eaba021",
-   "title": "RBH Hospitality Appointed by Victory Group to Manage Luxury Property, Cameron House Resort on Loch Lomond",
-   "url": "https://www.hospitalitynet.org/news/4134230/rbh-hospitality-appointed-by-victory-group-to-manage-luxury-property-cameron-house-resort-on-loch-lomond",
-   "summary": "RBH Hospitality will manage Cameron House Resort on Loch Lomond following Victory Group's acquisition, marking the investor's first UK hotel and RBH's sixth new signing in 2025.",
-   "kind": "item",
-   "source": "Hospitality Net \u2014 Africa announcements",
-   "source_id": "dev-hospitalitynet-africa",
-   "tier": 2,
-   "country": "REG",
-   "category": "trade",
-   "segments": [
-    "city",
-    "bush",
-    "beach"
-   ],
-   "first_seen": "2026-09-03T17:12+03:00",
-   "published": "2026-09-03",
-   "verdict": "CONSIDER"
-  },
-  {
-   "score": 70.4,
-   "components": {
-    "tier": 20,
-    "category": 5,
-    "lead": 3.6,
-    "relevance": 12,
-    "freshness": 19.8,
-    "corroborated": 10
-   },
-   "keywords": [
-    "election",
-    "resort"
-   ],
-   "shock_terms": [],
-   "dedupe_match": null,
-   "dedupe_similarity": 0.25,
-   "id": "f32b04460567",
-   "title": "Vail Resorts Announces Sue Decker Will Transition Off of Board After Eleven Years of Service",
-   "url": "https://www.hospitalitynet.org/news/4134213/vail-resorts-announces-sue-decker-will-transition-off-of-board-after-eleven-years-of-service",
-   "summary": "Sue Decker will not seek reelection at Vail Resorts' 2026 Annual Meeting after 11 years, with the board shrinking to nine members before a new independent director search targets a return to ten in early 2027.",
-   "kind": "item",
-   "source": "Hospitality Net \u2014 Africa announcements",
-   "source_id": "dev-hospitalitynet-africa",
-   "tier": 2,
-   "country": "REG",
-   "category": "trade",
-   "segments": [
-    "city",
-    "bush",
-    "beach"
-   ],
-   "first_seen": "2026-09-03T17:12+03:00",
-   "published": "2026-09-03",
-   "verdict": "CONSIDER"
-  },
-  {
-   "score": 66.4,
-   "components": {
-    "tier": 20,
-    "category": 9,
-    "lead": 3.6,
-    "relevance": 4,
-    "freshness": 19.8,
-    "corroborated": 10
-   },
-   "keywords": [
-    "airline"
-   ],
-   "shock_terms": [],
-   "dedupe_match": null,
-   "dedupe_similarity": 0.0,
-   "id": "4be519f17f32",
-   "title": "Aufsichtsratschef Teyssen: \"Lufthansa-Konzern hat Schwachpunkte\"",
-   "url": "https://www.fvw.de/touristik/verkehr/aufsichtsratschef-teyssen-lufthansa-konzern-hat-schwachpunkte-264282",
-   "summary": "Die Lufthansa Group hat seit Mai mit Johannes Teyssen einen neuen Aufsichtsratschef. In einem ersten Interview hat er Handlungsbedarf bei der Airline-Gruppe ausgemacht: \"Es gibt klare Schwachpunkte des Konzerns.\" Was er damit meint.",
-   "kind": "item",
-   "source": "FVW / German travel trade",
-   "source_id": "sm-derreise",
-   "tier": 2,
-   "country": "GLOBAL",
-   "category": "source-market",
-   "segments": [
-    "beach",
-    "bush"
-   ],
-   "first_seen": "2026-09-03T17:12+03:00",
-   "published": "2026-09-03",
-   "verdict": "weak"
-  },
-  {
-   "score": 66.4,
-   "components": {
-    "tier": 20,
-    "category": 9,
-    "lead": 3.6,
-    "relevance": 4,
-    "freshness": 19.8,
-    "corroborated": 10
-   },
-   "keywords": [
-    "tourist"
-   ],
-   "shock_terms": [],
-   "dedupe_match": null,
-   "dedupe_similarity": 0.0,
-   "id": "b6e0077faef5",
-   "title": "Spenden und Hilfsaktionen: Wie sich die Touristik f\u00fcr Nepal engagiert",
-   "url": "https://www.fvw.de/touristik/destination/spenden-und-hilfsaktionen-wie-sich-die-touristik-fuer-nepal-engagiert-264286",
-   "summary": "Spendenaufrufe, Hilfsaktionen und aktive Unterst\u00fctzung vor Ort: Nach der Flutkatastrophe in Nepal zeigt die Touristik viel Solidarit\u00e4t mit den Menschen vor Ort. Ein \u00dcberblick, wie das Engagement genau aussieht.",
-   "kind": "item",
-   "source": "FVW / German travel trade",
-   "source_id": "sm-derreise",
-   "tier": 2,
-   "country": "GLOBAL",
-   "category": "source-market",
-   "segments": [
-    "beach",
-    "bush"
-   ],
-   "first_seen": "2026-09-03T17:12+03:00",
-   "published": "2026-09-03",
-   "verdict": "weak"
-  },
-  {
-   "score": 66.4,
-   "components": {
-    "tier": 20,
-    "category": 9,
-    "lead": 3.6,
-    "relevance": 4,
-    "freshness": 19.8,
-    "corroborated": 10
-   },
-   "keywords": [
-    "airline"
-   ],
-   "shock_terms": [],
-   "dedupe_match": null,
-   "dedupe_similarity": 0.0,
-   "id": "7ffa32803ba2",
-   "title": "Gewerkschaft begehrt auf: Sind Tel-Aviv-Fl\u00fcge zu gef\u00e4hrlich?",
-   "url": "https://www.fvw.de/touristik/verkehr/gewerkschaft-begehrt-auf-sind-tel-aviv-fluege-zu-gefaehrlich-264298",
-   "summary": "Bei der belgischen LH-Tochter Brussels Airlines h\u00e4ngt wieder einmal der Haussegen schief. Die Gewerkschaft ACV droht mit einem Ausstand gegen Tel-Aviv-Fl\u00fcge, weil die zu gef\u00e4hrlich seien.",
-   "kind": "item",
-   "source": "FVW / German travel trade",
-   "source_id": "sm-derreise",
-   "tier": 2,
-   "country": "GLOBAL",
-   "category": "source-market",
-   "segments": [
-    "beach",
-    "bush"
-   ],
-   "first_seen": "2026-09-03T17:12+03:00",
-   "published": "2026-09-03",
-   "verdict": "weak"
-  },
-  {
-   "score": 66.4,
-   "components": {
-    "tier": 20,
-    "category": 9,
-    "lead": 3.6,
-    "relevance": 4,
-    "freshness": 19.8,
-    "corroborated": 10
-   },
-   "keywords": [
-    "tourist"
-   ],
-   "shock_terms": [],
-   "dedupe_match": null,
-   "dedupe_similarity": 0.0,
-   "id": "f3d79f041b3b",
-   "title": "Auf der Sinai-Halbinsel: 22 Touristen bei Busunfall get\u00f6tet",
-   "url": "https://www.fvw.de/touristik/destination/auf-der-sinai-halbinsel-22-tote-nach-busunfall-in-aegypten-264285",
-   "summary": "Zahlreiche Tote und Verletzte: Ein Busunfall in einer beliebten Urlaubsregion endet tragisch. Ausl\u00f6ser soll ein geplatzter Reifen gewesen sein.",
-   "kind": "item",
-   "source": "FVW / German travel trade",
-   "source_id": "sm-derreise",
-   "tier": 2,
-   "country": "GLOBAL",
-   "category": "source-market",
-   "segments": [
-    "beach",
-    "bush"
-   ],
-   "first_seen": "2026-09-03T17:12+03:00",
-   "published": "2026-09-03",
-   "verdict": "weak"
-  },
-  {
-   "score": 66.4,
-   "components": {
-    "tier": 20,
-    "category": 9,
-    "lead": 3.6,
-    "relevance": 4,
-    "freshness": 19.8,
-    "corroborated": 10
-   },
-   "keywords": [
-    "tourism"
-   ],
-   "shock_terms": [],
-   "dedupe_match": null,
-   "dedupe_similarity": 0.0,
-   "id": "529812589494",
-   "title": "Dekarbonisierung des Luftverkehrs: Neuer Praxis-Guide \"SAF im Tourismus\" erschienen",
-   "url": "https://www.fvw.de/touristik/verkehr/dekarbonisierung-des-luftverkehrs-neuer-praxis-guide-saf-im-tourismus-erschienen-264284",
-   "summary": "\"Fliegen bleibt die gr\u00f6\u00dfte Klimaherausforderung des Tourismus\", sagt die Futouris-Gesch\u00e4ftsf\u00fchrerin Swantje Lehner. Also gilt: Alle Hebel in Bewegung zu setzen, um den Kohlendioxid-Aussto\u00df zu verringern. Und wie geht das? Dazu gibt es nun eine neue Futouris-Publikation.",
-   "kind": "item",
-   "source": "FVW / German travel trade",
-   "source_id": "sm-derreise",
-   "tier": 2,
-   "country": "GLOBAL",
-   "category": "source-market",
-   "segments": [
-    "beach",
-    "bush"
-   ],
-   "first_seen": "2026-09-03T17:12+03:00",
-   "published": "2026-09-03",
-   "verdict": "weak"
-  },
-  {
-   "score": 66.4,
-   "components": {
-    "tier": 20,
-    "category": 9,
-    "lead": 3.6,
-    "relevance": 4,
-    "freshness": 19.8,
-    "corroborated": 10
-   },
-   "keywords": [
-    "airline"
-   ],
-   "shock_terms": [],
-   "dedupe_match": null,
-   "dedupe_similarity": 0.0,
-   "id": "cdbc518cb82f",
-   "title": "Europa und Asien: Pegasus und Air Asia Group vereinbaren Code Sharing",
-   "url": "https://www.fvw.de/touristik/verkehr/europa-und-asien-pegasus-und-air-asia-group-mit-code-sharing-264281",
-   "summary": "Pegasus Airlines und die Air Asia Group sind eine Code-Share-Partnerschaft eingegangen.",
-   "kind": "item",
-   "source": "FVW / German travel trade",
-   "source_id": "sm-derreise",
-   "tier": 2,
-   "country": "GLOBAL",
-   "category": "source-market",
-   "segments": [
-    "beach",
-    "bush"
-   ],
-   "first_seen": "2026-09-03T17:12+03:00",
-   "published": "2026-09-03",
-   "verdict": "weak"
-  },
-  {
-   "score": 66.4,
-   "components": {
-    "tier": 20,
-    "category": 9,
-    "lead": 3.6,
-    "relevance": 4,
-    "freshness": 19.8,
-    "corroborated": 10
-   },
-   "keywords": [
-    "tourist"
-   ],
-   "shock_terms": [],
-   "dedupe_match": null,
-   "dedupe_similarity": 0.0,
-   "id": "7e23d8f8744f",
-   "title": "Leipziger Sprengstoffdrohne: Italien pr\u00fcft Infos zu Verd\u00e4chtigem",
-   "url": "https://www.fvw.de/touristik/destination/leipziger-sprengstoffdrohne-italien-prueft-infos-zu-verdaechtigem-264277",
-   "summary": "Italien will pr\u00fcfen, ob ein m\u00f6glicher Verd\u00e4chtiger im Fall der Leipziger Sprengstoffdrohne mit einem Touristenvisum in die EU eingereist ist. Auf EU-Ebene kocht eine brisante Diskussion wieder hoch.",
-   "kind": "item",
-   "source": "FVW / German travel trade",
-   "source_id": "sm-derreise",
-   "tier": 2,
-   "country": "GLOBAL",
-   "category": "source-market",
-   "segments": [
-    "beach",
-    "bush"
-   ],
-   "first_seen": "2026-09-03T17:12+03:00",
-   "published": "2026-09-03",
-   "verdict": "weak"
   }
  ]
 }
