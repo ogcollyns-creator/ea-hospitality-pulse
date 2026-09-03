@@ -1,52 +1,132 @@
 {
- "generated": "2026-09-03T22:10:13+03:00",
- "slot": "evening",
- "window_start": 1788429600,
- "observations_in_window": 390,
+ "generated": "2026-09-04T01:23:33+03:00",
+ "slot": "morning",
+ "window_start": 1788447600,
+ "observations_in_window": 240,
  "deduped_against": 24,
  "candidates": [
   {
-   "score": 108.1,
+   "score": 141.0,
    "components": {
     "tier": 40,
-    "category": 18,
-    "lead": 8.4,
-    "relevance": 0,
-    "freshness": 13.7,
-    "corroborated": 10,
+    "category": 32,
+    "lead": 1.2,
+    "relevance": 36,
+    "freshness": 19.8,
+    "undated": -6,
     "shock": 18
    },
-   "keywords": [],
+   "keywords": [
+    "advisory",
+    "terror",
+    "kidnap"
+   ],
    "shock_terms": [
     "attack"
    ],
    "dedupe_match": null,
-   "dedupe_similarity": 0.0,
-   "id": "c490e80334f5",
-   "title": "Gerenuk Calf Rescued from Baboon Attack",
-   "url": "https://kws.go.ke/gerenuk-calf-rescued-from-baboon-attack",
-   "summary": "'Weather forecast for tonight: dark. Continued dark overnight, with widely scattered light by morning.\u2019 George Carlin's words, delivered with his characteristic wit, were meant to make us laugh. But for a tiny gerenuk calf in Ol Donyiro, the forecast was all too real. And the scattered light could not come soon enough. Gerenuks are among [...]",
+   "dedupe_similarity": 0.33,
+   "id": "3bd861c22b84",
+   "title": "Algeria - Level 2: Exercise Increased Caution",
+   "url": "https://travel.state.gov/content/tsg_aem/us/en/home/international-travel/travel-advisories/destination.dza.html",
+   "summary": "Exercise increased caution in Algeria due to terrorism and kidnapping . Some areas have increased risk. Read the entire Travel Advisory. Terrorism remains a possible threat in Algeria. Terrorist attacks have historically targeted Algerian security forces. Attacks are possible in both rural and urban areas despite a heavy and active police presence. Kidnapping for ransom events in Algeria\u2019s deep so",
    "kind": "item",
-   "source": "Kenya Wildlife Service",
-   "source_id": "ke-kws",
+   "source": "US State Dept travel advisories (EA feed)",
+   "source_id": "adv-us-ea",
    "tier": 1,
-   "country": "KE",
-   "category": "parks",
+   "country": "REG",
+   "category": "advisory",
    "segments": [
-    "bush"
+    "city",
+    "bush",
+    "beach"
    ],
-   "first_seen": "2026-09-03T16:36+03:00",
-   "published": "2026-09-03",
+   "first_seen": "2026-09-04T01:22+03:00",
+   "published": null,
    "verdict": "LEAD CANDIDATE \u2014 tier-1 shock language"
   },
   {
-   "score": 101.0,
+   "score": 141.0,
+   "components": {
+    "tier": 40,
+    "category": 32,
+    "lead": 1.2,
+    "relevance": 36,
+    "freshness": 19.8,
+    "undated": -6,
+    "shock": 18
+   },
+   "keywords": [
+    "advisory",
+    "terror",
+    "level 3"
+   ],
+   "shock_terms": [
+    "level 3",
+    "reconsider travel"
+   ],
+   "dedupe_match": null,
+   "dedupe_similarity": 0.33,
+   "id": "e515f19485dd",
+   "title": "Mauritania - Level 3: Reconsider Travel",
+   "url": "https://travel.state.gov/content/tsg_aem/us/en/home/international-travel/travel-advisories/destination.mrt.html",
+   "summary": "Reconsider travel to Mauritania due to terrorism, crime, and limited health infrastructure . Some areas have increased risk. Read the entire Travel Advisory. U.S. government employee travel restrictions The U.S. government has limited ability to offer emergency services to American citizens in Mauritania due to safety risks. U.S. government employees working in Mauritania are not allowed to travel",
+   "kind": "item",
+   "source": "US State Dept travel advisories (EA feed)",
+   "source_id": "adv-us-ea",
+   "tier": 1,
+   "country": "REG",
+   "category": "advisory",
+   "segments": [
+    "city",
+    "bush",
+    "beach"
+   ],
+   "first_seen": "2026-09-04T01:22+03:00",
+   "published": null,
+   "verdict": "LEAD CANDIDATE \u2014 tier-1 shock language"
+  },
+  {
+   "score": 101.4,
    "components": {
     "tier": 40,
     "category": 32,
     "lead": 3.6,
     "relevance": 0,
-    "freshness": 19.4,
+    "freshness": 19.8,
+    "corroborated": 10,
+    "page_change": -4
+   },
+   "keywords": [],
+   "shock_terms": [],
+   "dedupe_match": null,
+   "dedupe_similarity": 0.0,
+   "id": "00466a64578d",
+   "title": "[page changed] Federal Register \u2014 public inspection (HHS/CDC), pre-publication",
+   "url": "https://www.federalregister.gov/api/v1/public-inspection-documents/current.json",
+   "summary": "{\"count\":86,\"results\":[{\"agencies\":[{\"raw_name\":\"NUCLEAR REGULATORY COMMISSION\",\"name\":\"Nuclear Regulatory Commission\",\"id\":383,\"url\":\"https://www.federalregister.gov/agencies/nuclear-regulatory-commission\",\"json_url\":\"https://www.federalregister.gov/api/v1/agencies/383\",\"parent_id\":null,\"slug\":\"nuclear-regulatory-commission\"}],\"agency_letters\":[],\"agency_names\":[\"Nuclear Regulatory Commission\"],\"",
+   "kind": "page-change",
+   "source": "Federal Register \u2014 public inspection (HHS/CDC), pre-publication",
+   "source_id": "us-fedreg-pubinspect-hhs",
+   "tier": 1,
+   "country": "REG",
+   "category": "advisory",
+   "segments": [
+    "city",
+    "bush"
+   ],
+   "first_seen": "2026-09-04T01:22+03:00",
+   "published": "2026-09-02",
+   "verdict": "OPEN THIS \u2014 tier-1 advisory page moved; content not auto-parsed, read it manually"
+  },
+  {
+   "score": 97.4,
+   "components": {
+    "tier": 40,
+    "category": 32,
+    "lead": 3.6,
+    "relevance": 0,
+    "freshness": 15.8,
     "corroborated": 10,
     "page_change": -4
    },
@@ -73,46 +153,13 @@
    "verdict": "OPEN THIS \u2014 tier-1 advisory page moved; content not auto-parsed, read it manually"
   },
   {
-   "score": 95.3,
-   "components": {
-    "tier": 40,
-    "category": 32,
-    "lead": 3.6,
-    "relevance": 0,
-    "freshness": 13.7,
-    "corroborated": 10,
-    "page_change": -4
-   },
-   "keywords": [],
-   "shock_terms": [],
-   "dedupe_match": null,
-   "dedupe_similarity": 0.0,
-   "id": "abb110704158",
-   "title": "[page changed] Federal Register \u2014 public inspection (HHS/CDC), pre-publication",
-   "url": "https://www.federalregister.gov/api/v1/public-inspection-documents/current.json",
-   "summary": "{\"count\":83,\"results\":[{\"agencies\":[{\"raw_name\":\"NUCLEAR REGULATORY COMMISSION\",\"name\":\"Nuclear Regulatory Commission\",\"id\":383,\"url\":\"https://www.federalregister.gov/agencies/nuclear-regulatory-commission\",\"json_url\":\"https://www.federalregister.gov/api/v1/agencies/383\",\"parent_id\":null,\"slug\":\"nuclear-regulatory-commission\"}],\"agency_letters\":[],\"agency_names\":[\"Nuclear Regulatory Commission\"],\"",
-   "kind": "page-change",
-   "source": "Federal Register \u2014 public inspection (HHS/CDC), pre-publication",
-   "source_id": "us-fedreg-pubinspect-hhs",
-   "tier": 1,
-   "country": "REG",
-   "category": "advisory",
-   "segments": [
-    "city",
-    "bush"
-   ],
-   "first_seen": "2026-09-03T16:36+03:00",
-   "published": "2026-09-02",
-   "verdict": "OPEN THIS \u2014 tier-1 advisory page moved; content not auto-parsed, read it manually"
-  },
-  {
-   "score": 65.0,
+   "score": 61.4,
    "components": {
     "tier": 40,
     "category": 12,
     "lead": 3.6,
     "relevance": 0,
-    "freshness": 19.4,
+    "freshness": 15.8,
     "undated": -6,
     "page_change": -4
    },
@@ -140,13 +187,13 @@
    "verdict": "OPEN THIS \u2014 tier-1 airline page moved; content not auto-parsed, read it manually"
   },
   {
-   "score": 112.4,
+   "score": 108.8,
    "components": {
     "tier": 40,
     "category": 17,
     "lead": 6.0,
     "relevance": 20,
-    "freshness": 19.4,
+    "freshness": 15.8,
     "corroborated": 10
    },
    "keywords": [
@@ -177,47 +224,118 @@
    "verdict": "STRONG \u2014 tier-1, upstream"
   },
   {
-   "score": 93.3,
+   "score": 91.0,
    "components": {
     "tier": 40,
-    "category": 7,
-    "lead": 6.0,
-    "relevance": 16,
-    "freshness": 14.3,
-    "corroborated": 10
+    "category": 32,
+    "lead": 1.2,
+    "relevance": 4,
+    "freshness": 19.8,
+    "undated": -6
    },
    "keywords": [
-    "fee",
-    "eta"
+    "tourist"
    ],
    "shock_terms": [],
    "dedupe_match": null,
-   "dedupe_similarity": 0.2,
-   "id": "fe38d3715484",
-   "title": "EAC Calls for Public Participation in Shaping Better Regional Statistics",
-   "url": "https://www.eac.int/press-releases/3590-eac-calls-for-public-participation-in-shaping-better-regional-statistics",
-   "summary": "East African Community Headquarters, Arusha, Tanzania, 3rd September, 2026: The East African Community (EAC) Secretariat is inviting users across the Partner States to participate in the ongoing User Satisfaction Survey on EAC Regional Statistics. Conducted under the Eastern Africa Regional Statistics Program for Results (EARSPforR), the survey gives users a direct opportunity to influence how reg",
+   "dedupe_similarity": 0.25,
+   "id": "cc25eeb43f89",
+   "title": "Serbia - Level 2: Exercise Increased Caution",
+   "url": "https://travel.state.gov/content/tsg_aem/us/en/home/international-travel/travel-advisories/destination.srb.html",
+   "summary": "Exercise increased caution in Serbia due to crime . Crime can occur anywhere in Serbia. Police may take longer to respond than they do in the United States. Crime Violence associated with organized crime and high-profile sporting events is common. Petty crime is common, especially in popular tourist locations. Stay aware of your surroundings. Most crimes against foreigners are crimes of opportunit",
    "kind": "item",
-   "source": "East African Community \u2014 Secretariat news",
-   "source_id": "eac-secretariat",
+   "source": "US State Dept travel advisories (EA feed)",
+   "source_id": "adv-us-ea",
    "tier": 1,
-   "country": "Regional",
-   "category": "body",
+   "country": "REG",
+   "category": "advisory",
    "segments": [
-    "city"
+    "city",
+    "bush",
+    "beach"
    ],
-   "first_seen": "2026-09-03T17:12+03:00",
-   "published": "2026-09-03",
+   "first_seen": "2026-09-04T01:22+03:00",
+   "published": null,
    "verdict": "STRONG \u2014 tier-1, upstream"
   },
   {
-   "score": 91.6,
+   "score": 91.0,
+   "components": {
+    "tier": 40,
+    "category": 32,
+    "lead": 1.2,
+    "relevance": 4,
+    "freshness": 19.8,
+    "undated": -6
+   },
+   "keywords": [
+    "tourist"
+   ],
+   "shock_terms": [],
+   "dedupe_match": null,
+   "dedupe_similarity": 0.25,
+   "id": "6f7cfc8a3516",
+   "title": "Bonaire - Level 1: Exercise Normal Precautions",
+   "url": "https://travel.state.gov/content/tsg_aem/us/en/home/international-travel/travel-advisories/destination.bes.html",
+   "summary": "Exercise normal precaution in Bonaire . Bonaire is generally a safe destination for travelers. Petty crime is most likely to occur in popular tourist locations. Stay aware of your surroundings. Most crimes against foreigners are crimes of opportunity, such as theft of unsecured property or vehicle break-ins. Beware of overcharges and scams in tourist areas. Some sellers may be aggressive. Most sit",
+   "kind": "item",
+   "source": "US State Dept travel advisories (EA feed)",
+   "source_id": "adv-us-ea",
+   "tier": 1,
+   "country": "REG",
+   "category": "advisory",
+   "segments": [
+    "city",
+    "bush",
+    "beach"
+   ],
+   "first_seen": "2026-09-04T01:22+03:00",
+   "published": null,
+   "verdict": "STRONG \u2014 tier-1, upstream"
+  },
+  {
+   "score": 91.0,
+   "components": {
+    "tier": 40,
+    "category": 32,
+    "lead": 1.2,
+    "relevance": 4,
+    "freshness": 19.8,
+    "undated": -6
+   },
+   "keywords": [
+    "tourist"
+   ],
+   "shock_terms": [],
+   "dedupe_match": null,
+   "dedupe_similarity": 0.25,
+   "id": "1632d555898d",
+   "title": "Saba and Sint Eustatius - Level 1: Exercise Normal Precautions",
+   "url": "https://travel.state.gov/content/tsg_aem/us/en/home/international-travel/travel-advisories/destination.xqx.html",
+   "summary": "Exercise normal precaution in Saba and Sint Eustatius . Saba and Sint Eustatius are generally safe destinations for travelers. Petty crime is most likely to occur in popular tourist locations. Stay aware of your surroundings. Most crimes against foreigners are crimes of opportunity, such as theft of unsecured property or vehicle break-ins. Beware of overcharges and scams in tourist areas. Some sel",
+   "kind": "item",
+   "source": "US State Dept travel advisories (EA feed)",
+   "source_id": "adv-us-ea",
+   "tier": 1,
+   "country": "REG",
+   "category": "advisory",
+   "segments": [
+    "city",
+    "bush",
+    "beach"
+   ],
+   "first_seen": "2026-09-04T01:22+03:00",
+   "published": null,
+   "verdict": "STRONG \u2014 tier-1, upstream"
+  },
+  {
+   "score": 88.1,
    "components": {
     "tier": 40,
     "category": 17,
     "lead": 16.8,
     "relevance": 4,
-    "freshness": 19.8,
+    "freshness": 16.3,
     "undated": -6
    },
    "keywords": [
@@ -243,53 +361,49 @@
    ],
    "first_seen": "2026-09-03T22:10+03:00",
    "published": null,
-   "verdict": "STRONG \u2014 tier-1, upstream"
+   "verdict": "CONSIDER"
   },
   {
-   "score": 90.1,
+   "score": 87.0,
    "components": {
-    "tier": 20,
-    "category": 14,
-    "lead": 8.4,
-    "relevance": 24,
-    "freshness": 13.7,
-    "corroborated": 10
+    "tier": 40,
+    "category": 32,
+    "lead": 1.2,
+    "relevance": 0,
+    "freshness": 19.8,
+    "undated": -6
    },
-   "keywords": [
-    "cancel",
-    "route",
-    "airline"
-   ],
+   "keywords": [],
    "shock_terms": [],
    "dedupe_match": null,
-   "dedupe_similarity": 0.0,
-   "id": "0a8745c23f7b",
-   "title": "avianca Removes Selected North America Routes in NW26",
-   "url": "https://www.aeroroutes.com/eng/260903-avnw26na",
-   "summary": "Published at 0200PDT / 0900GMT 03SEP26 avianca in recent schedule update adjusted operations to North America, where the airline removed selected seasonal route previously scheduled during holidays period. Cali \u2013 Miami Planned 1 daily seasonal service 16DEC26 \u2013 30JAN27 cancelled Cali \u2013 New York JFK Planned 3 weekly seasonal service 16DEC26 \u2013 29JAN27 cancelled Cartagena \u2013 Miami Planned 4 weekly sea",
+   "dedupe_similarity": 0.25,
+   "id": "0af162730a7b",
+   "title": "Turkmenistan - Level 1: Exercise Normal Precautions",
+   "url": "https://travel.state.gov/content/tsg_aem/us/en/home/international-travel/travel-advisories/destination.tkm.html",
+   "summary": "Exercise normal precaution in Turkmenistan . Turkmenistan is generally a safe destination for travelers. Medical services for routine and emergency procedures are limited. Review the Health section of the Travel Guidance on this page for more information. Turkmenistan is located in a seismically active zone. Review our information on Weather and Natural Distasters . Review our Travel Guidance for ",
    "kind": "item",
-   "source": "AeroRoutes schedule filings",
-   "source_id": "aeroroutes",
-   "tier": 2,
-   "country": "GLOBAL",
-   "category": "aviation-tracker",
+   "source": "US State Dept travel advisories (EA feed)",
+   "source_id": "adv-us-ea",
+   "tier": 1,
+   "country": "REG",
+   "category": "advisory",
    "segments": [
     "city",
     "bush",
     "beach"
    ],
-   "first_seen": "2026-09-03T16:36+03:00",
-   "published": "2026-09-03",
+   "first_seen": "2026-09-04T01:22+03:00",
+   "published": null,
    "verdict": "CONSIDER"
   },
   {
-   "score": 87.6,
+   "score": 84.1,
    "components": {
     "tier": 40,
     "category": 17,
     "lead": 16.8,
     "relevance": 0,
-    "freshness": 19.8,
+    "freshness": 16.3,
     "undated": -6
    },
    "keywords": [],
@@ -316,13 +430,13 @@
    "verdict": "CONSIDER"
   },
   {
-   "score": 87.6,
+   "score": 84.1,
    "components": {
     "tier": 40,
     "category": 17,
     "lead": 16.8,
     "relevance": 0,
-    "freshness": 19.8,
+    "freshness": 16.3,
     "undated": -6
    },
    "keywords": [],
@@ -349,65 +463,25 @@
    "verdict": "CONSIDER"
   },
   {
-   "score": 86.1,
-   "components": {
-    "tier": 40,
-    "category": 9,
-    "lead": 16.8,
-    "relevance": 12,
-    "freshness": 14.3,
-    "undated": -6
-   },
-   "keywords": [
-    "hotel",
-    "resort",
-    "guest"
-   ],
-   "shock_terms": [],
-   "dedupe_match": null,
-   "dedupe_similarity": 0.0,
-   "id": "514070c30322",
-   "title": "IHG Hotels & Resorts Enhances the Guest Journey with Concert-Focused Hospitality Solutions in Greater China",
-   "url": "https://www.ihgplc.com/en/news-and-media/news-releases/2026/ihg-hotels-and-resorts-enhances-the-guest-journey-with-concert-focused-hospitality",
-   "summary": "",
-   "kind": "item",
-   "source": "IHG news",
-   "source_id": "dev-ihg",
-   "tier": 1,
-   "country": "GLOBAL",
-   "category": "hotel-group",
-   "segments": [
-    "city",
-    "bush",
-    "beach"
-   ],
-   "first_seen": "2026-09-03T17:12+03:00",
-   "published": null,
-   "verdict": "CONSIDER"
-  },
-  {
-   "score": 86.1,
+   "score": 80.2,
    "components": {
     "tier": 20,
     "category": 14,
     "lead": 8.4,
-    "relevance": 20,
-    "freshness": 13.7,
+    "relevance": 8,
+    "freshness": 19.8,
     "corroborated": 10
    },
    "keywords": [
-    "route",
-    "airline",
-    "flight",
-    "booking"
+    "route"
    ],
    "shock_terms": [],
    "dedupe_match": null,
-   "dedupe_similarity": 0.17,
-   "id": "bf5846c79128",
-   "title": "Aeromexico Resumes Guadalajara \u2013 New York JFK in NW26",
-   "url": "https://www.aeroroutes.com/eng/260903-amnw26gdljfk",
-   "summary": "Published at 0300PDT / 1000GMT 03SEP26 Aeromexico during Northern winter 2026/27 season plans to offer Guadalajara \u2013 New York JFK service for the holidays season, as the airline opened bookings for 1 daily flight between 17DEC26 and 02JAN27. This marks the carrier\u2019s return on this route for the first time since October 1985. Boeing 737 MAX 8 aircraft operates this route. AM296 GDL1650 \u2013 2300JFK 7M",
+   "dedupe_similarity": 0.0,
+   "id": "ba290d7e785d",
+   "title": "KLM Moves A350 Toronto Service Entry to late-Oct 2026",
+   "url": "https://www.aeroroutes.com/eng/260903-kloct26yyz",
+   "summary": "Published at 1500PDT / 2200GMT 03SEP26 KLM this week further revised planned service entry of Airbus A350-900 aircraft on Amsterdam \u2013 Toronto Pearson route. Previously scheduled from 09OCT26, the A350 is now scheduled to serve this route from 23OCT26, initially 5 times weekly. Schedule below focuses on the month of November 2026. KL691 AMS1330 \u2013 1540YYZ 359 x16 KL691 AMS1330 \u2013 1540YYZ 781 16 KL695",
    "kind": "item",
    "source": "AeroRoutes schedule filings",
    "source_id": "aeroroutes",
@@ -419,18 +493,18 @@
     "bush",
     "beach"
    ],
-   "first_seen": "2026-09-03T16:36+03:00",
-   "published": "2026-09-03",
+   "first_seen": "2026-09-04T01:22+03:00",
+   "published": "2026-09-04",
    "verdict": "CONSIDER"
   },
   {
-   "score": 83.8,
+   "score": 80.2,
    "components": {
     "tier": 20,
     "category": 14,
     "lead": 8.4,
     "relevance": 12,
-    "freshness": 19.4,
+    "freshness": 15.8,
     "corroborated": 10
    },
    "keywords": [
@@ -460,13 +534,13 @@
    "verdict": "CONSIDER"
   },
   {
-   "score": 83.8,
+   "score": 80.2,
    "components": {
     "tier": 20,
     "category": 14,
     "lead": 8.4,
     "relevance": 12,
-    "freshness": 19.4,
+    "freshness": 15.8,
     "corroborated": 10
    },
    "keywords": [
@@ -496,13 +570,13 @@
    "verdict": "CONSIDER"
   },
   {
-   "score": 83.8,
+   "score": 80.2,
    "components": {
     "tier": 20,
     "category": 14,
     "lead": 8.4,
     "relevance": 12,
-    "freshness": 19.4,
+    "freshness": 15.8,
     "corroborated": 10
    },
    "keywords": [
@@ -532,13 +606,13 @@
    "verdict": "CONSIDER"
   },
   {
-   "score": 83.8,
+   "score": 80.2,
    "components": {
     "tier": 20,
     "category": 14,
     "lead": 8.4,
     "relevance": 12,
-    "freshness": 19.4,
+    "freshness": 15.8,
     "corroborated": 10
    },
    "keywords": [
@@ -568,13 +642,13 @@
    "verdict": "CONSIDER"
   },
   {
-   "score": 83.8,
+   "score": 80.2,
    "components": {
     "tier": 20,
     "category": 14,
     "lead": 8.4,
     "relevance": 12,
-    "freshness": 19.4,
+    "freshness": 15.8,
     "corroborated": 10
    },
    "keywords": [
@@ -604,47 +678,13 @@
    "verdict": "CONSIDER"
   },
   {
-   "score": 82.1,
-   "components": {
-    "tier": 40,
-    "category": 24,
-    "lead": 2.4,
-    "relevance": 12,
-    "freshness": 13.7,
-    "stale_trap": -10
-   },
-   "keywords": [
-    "ebola"
-   ],
-   "shock_terms": [],
-   "dedupe_match": null,
-   "dedupe_similarity": 0.2,
-   "id": "e3a8d528baff",
-   "title": "",
-   "url": "https://insp.cd/wp-content/uploads/2026/08/SitRep_MVEBDB_108_30_08_2026.pdf",
-   "summary": "1 fr-FR fr-FR fr-FR fr-FRRapport de Situation de la 17\u00e8me \u00c9pid\u00e9mie de la Maladie \u00e0 Virus EBOLA /RDC fr-FR fr-FRSitRep N\u00b0108/MVEBDB/30/08/2026 fr-FR Date de rapportage : 30 ao\u00fbt 2026 Date de publication : 31 ao\u00fbt 2026 fr-FR fr-FR fr-FR fr-FR fr-FR fr-FR fr-FR fr-FR fr-FR fr-CD fr-FR fr-FR fr-CD fr-CD fr-FR fr-FR fr-FR fr-FR fr-FR fr-FR fr-FR fr-FR fr-FR fr-FR fr-FR fr-FR fr-FR fr-FR fr-FR fr-FR fr-",
-   "kind": "doc",
-   "source": "ECDC \u2014 DRC/Uganda Ebola outbreak page",
-   "source_id": "ecdc-ebola",
-   "tier": 1,
-   "country": "GLOBAL",
-   "category": "health",
-   "segments": [
-    "city",
-    "bush"
-   ],
-   "first_seen": "2026-09-03T16:36+03:00",
-   "published": "2026-08-30",
-   "verdict": "CHECK \u2014 source date older than the window"
-  },
-  {
-   "score": 80.2,
+   "score": 76.6,
    "components": {
     "tier": 40,
     "category": 10,
     "lead": 16.8,
     "relevance": 0,
-    "freshness": 19.4,
+    "freshness": 15.8,
     "undated": -6
    },
    "keywords": [],
@@ -671,13 +711,13 @@
    "verdict": "CONSIDER"
   },
   {
-   "score": 80.2,
+   "score": 76.6,
    "components": {
     "tier": 40,
     "category": 10,
     "lead": 16.8,
     "relevance": 0,
-    "freshness": 19.4,
+    "freshness": 15.8,
     "undated": -6
    },
    "keywords": [],
@@ -704,13 +744,13 @@
    "verdict": "CONSIDER"
   },
   {
-   "score": 80.2,
+   "score": 76.6,
    "components": {
     "tier": 40,
     "category": 10,
     "lead": 16.8,
     "relevance": 0,
-    "freshness": 19.4,
+    "freshness": 15.8,
     "undated": -6
    },
    "keywords": [],
@@ -737,13 +777,13 @@
    "verdict": "CONSIDER"
   },
   {
-   "score": 80.2,
+   "score": 76.6,
    "components": {
     "tier": 40,
     "category": 10,
     "lead": 16.8,
     "relevance": 0,
-    "freshness": 19.4,
+    "freshness": 15.8,
     "undated": -6
    },
    "keywords": [],
@@ -770,13 +810,13 @@
    "verdict": "CONSIDER"
   },
   {
-   "score": 80.2,
+   "score": 76.6,
    "components": {
     "tier": 40,
     "category": 10,
     "lead": 16.8,
     "relevance": 0,
-    "freshness": 19.4,
+    "freshness": 15.8,
     "undated": -6
    },
    "keywords": [],
@@ -803,13 +843,13 @@
    "verdict": "CONSIDER"
   },
   {
-   "score": 79.8,
+   "score": 76.2,
    "components": {
     "tier": 40,
     "category": 24,
     "lead": 2.4,
     "relevance": 0,
-    "freshness": 19.4,
+    "freshness": 15.8,
     "undated": -6
    },
    "keywords": [],
@@ -836,13 +876,13 @@
    "verdict": "CONSIDER"
   },
   {
-   "score": 79.8,
+   "score": 76.2,
    "components": {
     "tier": 40,
     "category": 24,
     "lead": 2.4,
     "relevance": 0,
-    "freshness": 19.4,
+    "freshness": 15.8,
     "undated": -6
    },
    "keywords": [],
@@ -869,13 +909,13 @@
    "verdict": "CONSIDER"
   },
   {
-   "score": 79.8,
+   "score": 76.2,
    "components": {
     "tier": 40,
     "category": 24,
     "lead": 2.4,
     "relevance": 0,
-    "freshness": 19.4,
+    "freshness": 15.8,
     "undated": -6
    },
    "keywords": [],
@@ -902,13 +942,13 @@
    "verdict": "CONSIDER"
   },
   {
-   "score": 79.8,
+   "score": 76.2,
    "components": {
     "tier": 40,
     "category": 24,
     "lead": 2.4,
     "relevance": 0,
-    "freshness": 19.4,
+    "freshness": 15.8,
     "undated": -6
    },
    "keywords": [],
@@ -935,13 +975,13 @@
    "verdict": "CONSIDER"
   },
   {
-   "score": 79.8,
+   "score": 76.2,
    "components": {
     "tier": 40,
     "category": 24,
     "lead": 2.4,
     "relevance": 0,
-    "freshness": 19.4,
+    "freshness": 15.8,
     "undated": -6
    },
    "keywords": [],
@@ -968,13 +1008,13 @@
    "verdict": "CONSIDER"
   },
   {
-   "score": 79.8,
+   "score": 76.2,
    "components": {
     "tier": 40,
     "category": 24,
     "lead": 2.4,
     "relevance": 0,
-    "freshness": 19.4,
+    "freshness": 15.8,
     "undated": -6
    },
    "keywords": [],
@@ -1001,13 +1041,13 @@
    "verdict": "CONSIDER"
   },
   {
-   "score": 79.8,
+   "score": 76.2,
    "components": {
     "tier": 40,
     "category": 24,
     "lead": 2.4,
     "relevance": 0,
-    "freshness": 19.4,
+    "freshness": 15.8,
     "undated": -6
    },
    "keywords": [],
@@ -1034,13 +1074,13 @@
    "verdict": "CONSIDER"
   },
   {
-   "score": 79.8,
+   "score": 76.2,
    "components": {
     "tier": 40,
     "category": 24,
     "lead": 2.4,
     "relevance": 0,
-    "freshness": 19.4,
+    "freshness": 15.8,
     "undated": -6
    },
    "keywords": [],
@@ -1067,120 +1107,13 @@
    "verdict": "CONSIDER"
   },
   {
-   "score": 78.1,
-   "components": {
-    "tier": 40,
-    "category": 24,
-    "lead": 2.4,
-    "relevance": 4,
-    "freshness": 13.7,
-    "undated": -6
-   },
-   "keywords": [
-    "summit"
-   ],
-   "shock_terms": [],
-   "dedupe_match": null,
-   "dedupe_similarity": 0.25,
-   "id": "5b2574cff883",
-   "title": "Kenya Steps Up Preparations for Extraordinary African Manufacturing Summit",
-   "url": "https://www.health.go.ke/kenya-steps-preparations-extraordinary-african-manufacturing-summit",
-   "summary": "",
-   "kind": "item",
-   "source": "Kenya Ministry of Health",
-   "source_id": "ke-moh",
-   "tier": 1,
-   "country": "KE",
-   "category": "health",
-   "segments": [
-    "city",
-    "bush",
-    "beach"
-   ],
-   "first_seen": "2026-09-03T16:36+03:00",
-   "published": null,
-   "verdict": "CONSIDER"
-  },
-  {
-   "score": 78.1,
-   "components": {
-    "tier": 20,
-    "category": 14,
-    "lead": 8.4,
-    "relevance": 12,
-    "freshness": 13.7,
-    "corroborated": 10
-   },
-   "keywords": [
-    "route",
-    "flight"
-   ],
-   "shock_terms": [],
-   "dedupe_match": null,
-   "dedupe_similarity": 0.0,
-   "id": "5ca6469c869b",
-   "title": "BermudAir Adds South Caicos \u2013 Providenciales in NW26",
-   "url": "https://www.aeroroutes.com/eng/260903-2tnw26xscpls",
-   "summary": "Published at 0600PDT / 1300GMT 03SEP26 BermudAir from late-December 2026 plans to operate domestic service in The Turks and Caicos Islands, as the carrier lists 2 weekly South Caicos \u2013 Providenciales route with Embraer E190. First flight is scheduled on 20DEC26. 2T187 XSC1515 \u2013 1545PLS E90 47 2T188 PLS1810 \u2013 1840XSC E90 47 This service is part of the carrier\u2019s planned new route on South Caicos \u2013 N",
-   "kind": "item",
-   "source": "AeroRoutes schedule filings",
-   "source_id": "aeroroutes",
-   "tier": 2,
-   "country": "GLOBAL",
-   "category": "aviation-tracker",
-   "segments": [
-    "city",
-    "bush",
-    "beach"
-   ],
-   "first_seen": "2026-09-03T16:36+03:00",
-   "published": "2026-09-03",
-   "verdict": "CONSIDER"
-  },
-  {
-   "score": 78.1,
-   "components": {
-    "tier": 20,
-    "category": 14,
-    "lead": 8.4,
-    "relevance": 12,
-    "freshness": 13.7,
-    "corroborated": 10
-   },
-   "keywords": [
-    "route",
-    "airline"
-   ],
-   "shock_terms": [],
-   "dedupe_match": null,
-   "dedupe_similarity": 0.0,
-   "id": "cee95bc88cfe",
-   "title": "interCaribbean Plans 2 Providenciales Routes Addition in Sep 2026",
-   "url": "https://www.aeroroutes.com/eng/260903-jysep26pls",
-   "summary": "Published at 0500PDT / 1200GMT 03SEP26 interCaribbean in the GDS and OAG filed 2 routes from Providenciales , scheduled to commence this coming weekend. Providenciales \u2013 Georgetown eff 05SEP26 1 weekly Embraer E170 (schedule below eff 15NOV26 \u2013 07MAR27) JY329 PLS1410 \u2013 1840GEO E70 7 The airline only lists one-way schedule Providenciales \u2013 Santiago de Cuba eff 05SEP26 1 weekly Embraer E170 (schedul",
-   "kind": "item",
-   "source": "AeroRoutes schedule filings",
-   "source_id": "aeroroutes",
-   "tier": 2,
-   "country": "GLOBAL",
-   "category": "aviation-tracker",
-   "segments": [
-    "city",
-    "bush",
-    "beach"
-   ],
-   "first_seen": "2026-09-03T16:36+03:00",
-   "published": "2026-09-03",
-   "verdict": "CONSIDER"
-  },
-  {
-   "score": 75.4,
+   "score": 71.8,
    "components": {
     "tier": 20,
     "category": 4,
     "lead": 0.0,
     "relevance": 20,
-    "freshness": 19.4,
+    "freshness": 15.8,
     "undated": -6,
     "shock": 18
    },
@@ -1214,167 +1147,263 @@
    "verdict": "CONSIDER"
   },
   {
-   "score": 74.1,
+   "score": 70.4,
    "components": {
-    "tier": 40,
-    "category": 9,
-    "lead": 16.8,
-    "relevance": 0,
-    "freshness": 14.3,
-    "undated": -6
+    "tier": 20,
+    "category": 5,
+    "lead": 3.6,
+    "relevance": 12,
+    "freshness": 19.8,
+    "corroborated": 10
    },
-   "keywords": [],
+   "keywords": [
+    "hotel",
+    "booking",
+    "guest"
+   ],
    "shock_terms": [],
    "dedupe_match": null,
-   "dedupe_similarity": 0.0,
-   "id": "46485ad4cb38",
-   "title": "People Who Inspire: Tasting Sri Lanka with Anantara\u2019s Tea Expert",
-   "url": "https://media.minorhotels.com/en-GLO/269107-people-who-inspire-tasting-sri-lanka-with-anantara-s-tea-expert",
-   "summary": "",
+   "dedupe_similarity": 0.12,
+   "id": "2b4246fc9474",
+   "title": "OYO's Autonomous GM Agent Has No One to Answer To, One Hotel Cut OTA Dependency from 100% to 10% in a Year, What Hotel Groups Really Want from Vendors",
+   "url": "https://www.hospitalitynet.org/editorial/4134234/oyos-autonomous-gm-agent-has-no-one-to-answer-to-one-hotel-cut-ota-dependency-from-100-to-10-in-a-year-what-hotel-groups-really-want-from-vendors",
+   "summary": "Thursday brought Pertlink's accountability analysis of OYO parent Prism's fully autonomous GM Agent raising unresolved questions on guest data, privacy, and liability ahead of a Rs 6,650 crore IPO, a Cloudbeds case study showing Toronto's 52-room Pembroke Inn cutting OTA bookings from nearly 100%...",
    "kind": "item",
-   "source": "Minor Hotels newsroom",
-   "source_id": "dev-minor",
+   "source": "Hospitality Net \u2014 Africa announcements",
+   "source_id": "dev-hospitalitynet-africa",
+   "tier": 2,
+   "country": "REG",
+   "category": "trade",
+   "segments": [
+    "city",
+    "bush",
+    "beach"
+   ],
+   "first_seen": "2026-09-04T01:22+03:00",
+   "published": "2026-09-03",
+   "verdict": "CONSIDER"
+  },
+  {
+   "score": 69.8,
+   "components": {
+    "tier": 20,
+    "category": 4,
+    "lead": 0.0,
+    "relevance": 20,
+    "freshness": 15.8,
+    "corroborated": 10
+   },
+   "keywords": [
+    "vat",
+    "eta",
+    "investment"
+   ],
+   "shock_terms": [],
+   "dedupe_match": null,
+   "dedupe_similarity": 0.2,
+   "id": "0293cfc6fe15",
+   "title": "Tanzania invites Turkish investors to tap into its rich investment opportunities",
+   "url": "https://dailynews.co.tz/tanzania-invites-turkish-investors-to-tap-into-its-rich-investment-opportunities",
+   "summary": "ISTANBUL: TANZANIA has invited Turkish investors to tap into its vast investment opportunities as the country begins implementing Vision 2050, which targets the private sector to contribute 70 per cent of the nation\u2019s Gross Domestic Product (GDP). Speaking at the Tanzania-Turkey Business Forum in Turkey today, September 3, 2026, the Permanent Secretary in the President\u2019s \u2026 The post Tanzania invite",
+   "kind": "item",
+   "source": "Daily News (Tanzania)",
+   "source_id": "np-dailynews-tz",
+   "tier": 2,
+   "country": "TZ",
+   "category": "press",
+   "segments": [
+    "city",
+    "bush",
+    "beach"
+   ],
+   "first_seen": "2026-09-03T21:47+03:00",
+   "published": "2026-09-03",
+   "verdict": "weak"
+  },
+  {
+   "score": 64.4,
+   "components": {
+    "tier": 40,
+    "category": 7,
+    "lead": 3.6,
+    "relevance": 8,
+    "freshness": 15.8,
+    "undated": -6,
+    "page_change": -4
+   },
+   "keywords": [
+    "tourism",
+    "summit"
+   ],
+   "shock_terms": [],
+   "dedupe_match": null,
+   "dedupe_similarity": 0.2,
+   "id": "26a02ddec8e8",
+   "title": "[page changed] WTTC news",
+   "url": "https://wttc.org/news",
+   "summary": "Travel & Tourism News and Press Releases | WTTC Travel & Tourism News and Press Releases Below you can find all the latest news and press releases from WTTC. News Below you can find all the latest news and press releases from WTTC. Use the filters to narrow down by language, region and topics that interest you. Filter by: Language Region Topic Clear Loading... 3 Sep 2026 WTTC to Host More Than 200",
+   "kind": "page-change",
+   "source": "WTTC news",
+   "source_id": "sm-wttc",
    "tier": 1,
    "country": "GLOBAL",
-   "category": "hotel-group",
+   "category": "body",
    "segments": [
+    "city",
+    "bush",
     "beach"
    ],
-   "first_seen": "2026-09-03T17:12+03:00",
+   "first_seen": "2026-09-03T21:45+03:00",
    "published": null,
-   "verdict": "CONSIDER"
+   "verdict": "weak"
   },
   {
-   "score": 74.1,
+   "score": 64.2,
    "components": {
-    "tier": 40,
+    "tier": 20,
     "category": 24,
     "lead": 2.4,
-    "relevance": 0,
-    "freshness": 13.7,
-    "undated": -6
+    "relevance": 12,
+    "freshness": 15.8,
+    "undated": -6,
+    "page_change": -4
    },
-   "keywords": [],
+   "keywords": [
+    "ebola"
+   ],
    "shock_terms": [],
    "dedupe_match": null,
-   "dedupe_similarity": 0.25,
-   "id": "8d5732913038",
-   "title": "Kenya and United States Advance New Phase of Health Cooperation",
-   "url": "https://www.health.go.ke/kenya-and-united-states-advance-new-phase-health-cooperation",
-   "summary": "",
-   "kind": "item",
-   "source": "Kenya Ministry of Health",
-   "source_id": "ke-moh",
-   "tier": 1,
-   "country": "KE",
+   "dedupe_similarity": 0.17,
+   "id": "06334c7f2e5f",
+   "title": "[page changed] ProMED-mail",
+   "url": "https://promedmail.org/",
+   "summary": "Protecting Global Health, One Alert at a Time | ProMED Previous slide Next slide Protecting Global Health, One Alert at a Time ProMED: Your 24/7 early warning system for emerging infectious diseases worldwide. Subscribe ProMED's Weekly Pulse A snapshot of global health events from the past 7 days Latest Posts on ProMED All Date Title Thu Sep 03 2026 EBOLA DISEASE - DEMOCRATIC REPUBLIC OF CONGO (55",
+   "kind": "page-change",
+   "source": "ProMED-mail",
+   "source_id": "promed",
+   "tier": 2,
+   "country": "GLOBAL",
    "category": "health",
    "segments": [
     "city",
     "bush",
     "beach"
    ],
-   "first_seen": "2026-09-03T16:36+03:00",
+   "first_seen": "2026-09-03T21:46+03:00",
    "published": null,
-   "verdict": "CONSIDER"
+   "verdict": "weak"
   },
   {
-   "score": 74.1,
+   "score": 64.0,
    "components": {
-    "tier": 40,
-    "category": 24,
-    "lead": 2.4,
-    "relevance": 0,
-    "freshness": 13.7,
-    "undated": -6
+    "tier": 20,
+    "category": 5,
+    "lead": 1.2,
+    "relevance": 12,
+    "freshness": 15.8,
+    "corroborated": 10
    },
-   "keywords": [],
+   "keywords": [
+    "airport",
+    "passenger"
+   ],
    "shock_terms": [],
    "dedupe_match": null,
-   "dedupe_similarity": 0.0,
-   "id": "68182211679f",
-   "title": "Government Mobilises All Sectors to Accelerate Maternal and Newborn Survival",
-   "url": "https://www.health.go.ke/government-mobilises-all-sectors-accelerate-maternal-and-newborn-survival",
-   "summary": "",
+   "dedupe_similarity": 0.33,
+   "id": "be10d0cd536d",
+   "title": "How Airports Are Growing Without Blowing Their Climate Goals",
+   "url": "https://skift.com/2026/09/03/how-airports-are-growing-without-blowing-their-climate-goals",
+   "summary": "Airports insist that passenger growth and net zero aren\u2019t in conflict but nearly all of their progress is over emissions that they control. The bigger problem, emissions that lie in the supply chain, is starting to gain traction.",
    "kind": "item",
-   "source": "Kenya Ministry of Health",
-   "source_id": "ke-moh",
-   "tier": 1,
-   "country": "KE",
-   "category": "health",
+   "source": "Skift",
+   "source_id": "tp-skift",
+   "tier": 2,
+   "country": "GLOBAL",
+   "category": "trade",
    "segments": [
     "city",
     "bush",
     "beach"
    ],
-   "first_seen": "2026-09-03T16:36+03:00",
-   "published": null,
-   "verdict": "CONSIDER"
+   "first_seen": "2026-09-03T21:46+03:00",
+   "published": "2026-09-03",
+   "verdict": "weak"
   },
   {
-   "score": 74.1,
+   "score": 63.8,
    "components": {
-    "tier": 40,
-    "category": 24,
-    "lead": 2.4,
-    "relevance": 0,
-    "freshness": 13.7,
-    "undated": -6
+    "tier": 20,
+    "category": 4,
+    "lead": 0.0,
+    "relevance": 8,
+    "freshness": 19.8,
+    "undated": -6,
+    "shock": 18
    },
-   "keywords": [],
-   "shock_terms": [],
+   "keywords": [
+    "election"
+   ],
+   "shock_terms": [
+    "attack"
+   ],
    "dedupe_match": null,
-   "dedupe_similarity": 0.0,
-   "id": "a8eb0f2f6ed5",
-   "title": "National and County Governments Strengthen Coordination on Health Reforms",
-   "url": "https://www.health.go.ke/national-and-county-governments-strengthen-coordination-health-reforms",
+   "dedupe_similarity": 0.17,
+   "id": "e5561b453d01",
+   "title": "international Trump aides seek 'quiet' in Iran war but say attacks may intensify after November elections 13 hours ago - 6 min read",
+   "url": "https://www.thecitizen.co.tz/tanzania/news/international/trump-aides-seek-quiet-in-iran-war-but-say-attacks-may-intensify-after-november-elections-5581900",
    "summary": "",
    "kind": "item",
-   "source": "Kenya Ministry of Health",
-   "source_id": "ke-moh",
-   "tier": 1,
-   "country": "KE",
-   "category": "health",
+   "source": "The Citizen (Tanzania)",
+   "source_id": "np-citizen-tz",
+   "tier": 2,
+   "country": "TZ",
+   "category": "press",
    "segments": [
     "city",
     "bush",
     "beach"
    ],
-   "first_seen": "2026-09-03T16:36+03:00",
+   "first_seen": "2026-09-04T01:22+03:00",
    "published": null,
-   "verdict": "CONSIDER"
+   "verdict": "weak"
   },
   {
-   "score": 74.1,
+   "score": 63.8,
    "components": {
-    "tier": 40,
-    "category": 24,
-    "lead": 2.4,
-    "relevance": 0,
-    "freshness": 13.7,
-    "undated": -6
+    "tier": 20,
+    "category": 4,
+    "lead": 0.0,
+    "relevance": 8,
+    "freshness": 19.8,
+    "undated": -6,
+    "shock": 18
    },
-   "keywords": [],
-   "shock_terms": [],
+   "keywords": [
+    "strike"
+   ],
+   "shock_terms": [
+    "strike"
+   ],
    "dedupe_match": null,
-   "dedupe_similarity": 0.0,
-   "id": "bffb6130169e",
-   "title": "Vihiga Teaching and Referral Hospital Prepares for October Commissioning",
-   "url": "https://www.health.go.ke/vihiga-teaching-and-referral-hospital-prepares-october-commissioning",
+   "dedupe_similarity": 0.17,
+   "id": "cfa78b4c147f",
+   "title": "Why aviation sector strike wasn\u2019t inevitable BY Jaindi Kisero 6 hours ago - 4 min read",
+   "url": "https://www.businessdailyafrica.com/bd/opinion-analysis/columnists/why-aviation-sector-strike-wasn-t-inevitable-5582642",
    "summary": "",
    "kind": "item",
-   "source": "Kenya Ministry of Health",
-   "source_id": "ke-moh",
-   "tier": 1,
+   "source": "Business Daily Africa",
+   "source_id": "np-businessdaily",
+   "tier": 2,
    "country": "KE",
-   "category": "health",
+   "category": "press",
    "segments": [
     "city",
     "bush",
     "beach"
    ],
-   "first_seen": "2026-09-03T16:36+03:00",
+   "first_seen": "2026-09-04T01:22+03:00",
    "published": null,
-   "verdict": "CONSIDER"
+   "verdict": "weak"
   }
  ]
 }
