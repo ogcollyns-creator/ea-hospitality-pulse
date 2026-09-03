@@ -1,8 +1,8 @@
 window.LEDGER = {
- "updated": "2026-09-01 17:11",
+ "updated": "2026-09-03 08:28",
  "stats": {
-  "total": 145,
-  "open": 115,
+  "total": 147,
+  "open": 117,
   "resolved": 29,
   "correct": 22,
   "partial": 1,
@@ -1067,6 +1067,22 @@ window.LEDGER = {
    "overdue": false
   },
   {
+   "id": "P145",
+   "made_date": "2026-09-03",
+   "edition": "pulse-2026-09-03-morning",
+   "claim": "The US State Department will NOT lower its Uganda travel advisory below Level 4 before 31 December 2026 — the advisory was raised on 17 May 2026 on grounds stated as the Bundibugyo outbreak in Ituri Province in the DRC, and DRC transmission has worsened since, so Uganda ending its own outbreak is not the binding variable",
+   "resolution_criteria": "travel.state.gov Uganda travel advisory checked on 31 December 2026 still shows Level 4 - Do Not Travel. Any re-issue at Level 3 or below on or before 31 December 2026 resolves incorrect",
+   "resolve_by": "2026-12-31",
+   "market": "UG",
+   "segment": "Bush|City",
+   "confidence": "Medium",
+   "status": "open",
+   "resolved_date": "",
+   "evidence": "",
+   "source_url": "https://travel.state.gov/en/international-travel/travel-advisories/uganda.html",
+   "overdue": false
+  },
+  {
    "id": "P006",
    "made_date": "2026-07-25",
    "edition": "Morning Brief",
@@ -1752,6 +1768,22 @@ window.LEDGER = {
    "resolved_date": "",
    "evidence": "",
    "source_url": "https://allafrica.com/stories/202602190130.html",
+   "overdue": false
+  },
+  {
+   "id": "P146",
+   "made_date": "2026-09-03",
+   "edition": "pulse-2026-09-03-morning",
+   "claim": "Physical construction of the JKIA second terminal will NOT have commenced by 30 June 2027 — the CRBC tender is awarded but the ~USD 630m syndicated facility via TDB and AFC was still being arranged as at 2 September 2026, and the remaining 30% depends on securitising Air Passenger Service Charge collections",
+   "resolution_criteria": "A Kenya Airports Authority, Ministry of Roads and Transport, CRBC or credible Kenyan press (Business Daily, Daily Nation, The EastAfrican, The Star) report dated on or before 30 June 2027 confirming ground-breaking or start of physical works on the JKIA second terminal resolves incorrect. No such confirmation resolves correct",
+   "resolve_by": "2027-06-30",
+   "market": "KE",
+   "segment": "City",
+   "confidence": "Medium",
+   "status": "open",
+   "resolved_date": "",
+   "evidence": "",
+   "source_url": "https://www.theeastafrican.co.ke/tea/business-tech/jkia-upgrade-delays-leave-kenya-exposed-to-regional-airport-challenge-5580270",
    "overdue": false
   },
   {

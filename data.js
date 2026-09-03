@@ -1,5 +1,14 @@
 window.EDITIONS = [
  {
+  "id": "pulse-2026-09-03-morning",
+  "date": "2026-09-03",
+  "dateDisplay": "Thursday, 3 September 2026",
+  "edition": "Morning Brief",
+  "editionKey": "morning",
+  "summary": "Uganda got its all-clear eight days ago. Washington hasn't noticed.",
+  "bodyHtml": "<p><span class=\"meta-line\">🏨 EA HOSPITALITY PULSE — Morning Brief</span><br><span class=\"meta-line\">📅 Thursday, 3 September 2026 | 🇺🇬 🇰🇪 🇷🇼 🇹🇿</span></p>\n<p>Uganda got its all-clear eight days ago. Washington hasn&#x27;t noticed.<br>━━━━━━━━━<br><span class=\"item-head\">1️⃣ US STILL HAS UGANDA AT &quot;DO NOT TRAVEL&quot; — OVER AN ENDED OUTBREAK</span></p>\n<p>We read the State Department&#x27;s Uganda page this morning. It is still <strong>Level 4 — Do Not Travel</strong>, date issued <strong>4 June 2026</strong>, with Health among its four indicators. The advisory history is explicit: Uganda was moved from Level 3 to Level 4 on <strong>17 May 2026</strong> &quot;due to the Ebola Bundibugyo Virus Disease outbreak in Ituri Province in the DRC.&quot; The live page still describes mass-gathering restrictions in Kampala and 21-day quarantine for DRC arrivals.</p>\n<p>Uganda&#x27;s Ministry of Health declared the outbreak over on <strong>28 July</strong>. WHO certified it on <strong>26 August</strong> after the full 42-day countdown. The advisory has not been re-issued in 91 days. The UK, by contrast, advises against travel to no part of Uganda. State&#x27;s own text links out to a CDC health notice filed under Level 2.</p>\n<p>We haven&#x27;t seen this gap reported anywhere yet.<br><span class=\"sowhat\">🎯 So what: Stop waiting for the downgrade before you sell. Put the WHO 26 August certification and the FCDO position in your agent pack this week — you are selling against a US document, not a disease.</span><br><span class=\"tagline\">🏷 Bush, City | 🇺🇬 | Confirmed | impact:risk</span></p>\n<p><span class=\"item-head\">2️⃣ AND HERE IS WHY THE DOWNGRADE MAY NOT COME</span></p>\n<p>DRC&#x27;s health ministry put the outbreak at <strong>6,186 confirmed cases and 3,007 deaths</strong> on 2 September (data to 31 August) — past 3,000 dead, and the second-largest Ebola outbreak ever recorded. Ituri alone carries 5,065 cases and 2,305 deaths. WHO&#x27;s 14 August notice called it the fastest-expanding Ebola outbreak on record, CFR 46.8%, with no licensed vaccine for this strain.<br><span class=\"sowhat\">🎯 So what: Washington&#x27;s stated grounds were always Ituri, not Uganda. Inference, not fact — but budget Level 4 through Q4 and price US groups accordingly rather than holding inventory for a rebound.</span><br><span class=\"tagline\">🏷 Bush, City | 🇺🇬 🇷🇼 | Confirmed | impact:risk</span></p>\n<p><span class=\"item-head\">3️⃣ 8.9 MILLION PASSENGERS THROUGH A 7.5 MILLION AIRPORT</span></p>\n<p>KAA has disclosed that JKIA is running beyond design capacity and risks losing share to Bishoftu, Bugesera and Msalato (The EastAfrican, 2 September). The $900m upgrade to 25m passengers is tendered to CRBC but unfunded — ~$630m is still being arranged via TDB and AFC.<br><span class=\"sowhat\">🎯 So what: Nairobi&#x27;s hub premium has a visible expiry date. If your 2027 corporate rate card assumes JKIA connectivity, hedge it now with direct-arrival product.</span><br><span class=\"tagline\">🏷 City | 🇰🇪 | Confirmed | impact:watch</span></p>\n<p><span class=\"item-head\">4️⃣ $800 TO FLY MOMBASA–ENTEBBE</span></p>\n<p>KATO&#x27;s Coast representative Patrick Kamanga put the fare at nearly $800 — &quot;equivalent to travelling to Europe&quot; (The EastAfrican, 2 September). Uganda sent 234,556 visitors to Kenya in 2025. M-Pesa and MoMo still cannot pay each other&#x27;s tills across the border.<br><span class=\"sowhat\">🎯 So what: Your best-converting regional guest cannot pay you on their phone. Add a Ugandan mobile-money option at the coast before the 26–27 October summit talks about it.</span><br><span class=\"tagline\">🏷 Beach, City | 🇰🇪 🇺🇬 | Confirmed | impact:demand</span><br>━━━━━━━━━<br><span class=\"meta-line\">📡 RADAR</span><br>• 4 Sep — Kwita Izina, Kinigi; exhibition runs to 8 Sep (RDB)<br>• 5–12 Sep — Miss Tourism East Africa finals, Kampala<br>• 14 Sep — EPRA fuel cycle closes; new Kenyan prices 15 Sep<br>• 27 Sep — EU EmpCo directive applies; &quot;eco-lodge&quot; claims need evidence<br>• 26–27 Oct — EAC regional tourism summit</p>\n<p><span class=\"meta-line\">💬 Are your US agents still quoting the Level 4, or have they moved on?</span></p>\n<p>🔗 This edition on the web: <a href=\"https://eahospitalitypulse.com/editions/pulse-2026-09-03-morning.html\" rel=\"noopener\">eahospitalitypulse.com/editions/pulse-2026-09-03-mornin…</a><br>— EA Hospitality Pulse | Daily intelligence for city, bush &amp; beach properties</p>"
+ },
+ {
   "id": "pulse-2026-09-01-evening",
   "date": "2026-09-01",
   "dateDisplay": "Tuesday, 1 September 2026",
@@ -766,6 +775,85 @@ window.EDITIONS = [
  }
 ];
 window.INSIGHTS = [
+ {
+  "headline": "US STILL HAS UGANDA AT \"DO NOT TRAVEL\" — OVER AN ENDED OUTBREAK",
+  "body": "We read the State Department's Uganda page this morning. It is still **Level 4 — Do Not Travel**, date issued **4 June 2026**, with Health among its four indicators. The advisory history is explicit: Uganda was moved from Level 3 to Level 4 on **17 May 2026** \"due to the Ebola Bundibugyo Virus Disease outbreak in Ituri Province in the DRC.\" The live page still describes mass-gathering restrictions in Kampala and 21-day quarantine for DRC arrivals. Uganda's Ministry of Health declared the outbreak over on **28 July**. WHO certified it on **26 August** after the full 42-day countdown. The advisory has not been re-issued in 91 days. The UK, by contrast, advises against travel to no part of Uganda. State's own text links out to a CDC health notice filed under Level 2. We haven't seen this gap reported anywhere yet.",
+  "sowhat": "🎯 So what: Stop waiting for the downgrade before you sell. Put the WHO 26 August certification and the FCDO position in your agent pack this week — you are selling against a US document, not a disease.",
+  "segments": [
+   "city",
+   "bush"
+  ],
+  "countries": "🇺🇬",
+  "confidence": "Confirmed",
+  "impact": "risk",
+  "impactClass": "risk",
+  "intensity": 3,
+  "impactSet": "author",
+  "source": "pulse-2026-09-03-morning",
+  "date": "2026-09-03",
+  "dateDisplay": "Thursday, 3 September 2026",
+  "edition": "Morning Brief",
+  "editionKey": "morning"
+ },
+ {
+  "headline": "AND HERE IS WHY THE DOWNGRADE MAY NOT COME",
+  "body": "DRC's health ministry put the outbreak at **6,186 confirmed cases and 3,007 deaths** on 2 September (data to 31 August) — past 3,000 dead, and the second-largest Ebola outbreak ever recorded. Ituri alone carries 5,065 cases and 2,305 deaths. WHO's 14 August notice called it the fastest-expanding Ebola outbreak on record, CFR 46.8%, with no licensed vaccine for this strain.",
+  "sowhat": "🎯 So what: Washington's stated grounds were always Ituri, not Uganda. Inference, not fact — but budget Level 4 through Q4 and price US groups accordingly rather than holding inventory for a rebound.",
+  "segments": [
+   "city",
+   "bush"
+  ],
+  "countries": "🇺🇬 🇷🇼",
+  "confidence": "Confirmed",
+  "impact": "risk",
+  "impactClass": "risk",
+  "intensity": 3,
+  "impactSet": "author",
+  "source": "pulse-2026-09-03-morning",
+  "date": "2026-09-03",
+  "dateDisplay": "Thursday, 3 September 2026",
+  "edition": "Morning Brief",
+  "editionKey": "morning"
+ },
+ {
+  "headline": "8.9 MILLION PASSENGERS THROUGH A 7.5 MILLION AIRPORT",
+  "body": "KAA has disclosed that JKIA is running beyond design capacity and risks losing share to Bishoftu, Bugesera and Msalato (The EastAfrican, 2 September). The $900m upgrade to 25m passengers is tendered to CRBC but unfunded — ~$630m is still being arranged via TDB and AFC.",
+  "sowhat": "🎯 So what: Nairobi's hub premium has a visible expiry date. If your 2027 corporate rate card assumes JKIA connectivity, hedge it now with direct-arrival product.",
+  "segments": [
+   "city"
+  ],
+  "countries": "🇰🇪",
+  "confidence": "Confirmed",
+  "impact": "watch",
+  "impactClass": "watch",
+  "intensity": 3,
+  "impactSet": "author",
+  "source": "pulse-2026-09-03-morning",
+  "date": "2026-09-03",
+  "dateDisplay": "Thursday, 3 September 2026",
+  "edition": "Morning Brief",
+  "editionKey": "morning"
+ },
+ {
+  "headline": "$800 TO FLY MOMBASA–ENTEBBE",
+  "body": "KATO's Coast representative Patrick Kamanga put the fare at nearly $800 — \"equivalent to travelling to Europe\" (The EastAfrican, 2 September). Uganda sent 234,556 visitors to Kenya in 2025. M-Pesa and MoMo still cannot pay each other's tills across the border.",
+  "sowhat": "🎯 So what: Your best-converting regional guest cannot pay you on their phone. Add a Ugandan mobile-money option at the coast before the 26–27 October summit talks about it.",
+  "segments": [
+   "city",
+   "beach"
+  ],
+  "countries": "🇰🇪 🇺🇬",
+  "confidence": "Confirmed",
+  "impact": "+demand",
+  "impactClass": "demand",
+  "intensity": 3,
+  "impactSet": "author",
+  "source": "pulse-2026-09-03-morning",
+  "date": "2026-09-03",
+  "dateDisplay": "Thursday, 3 September 2026",
+  "edition": "Morning Brief",
+  "editionKey": "morning"
+ },
  {
   "headline": "KAWU CALLS OFF THE STRIKE. THE DEAL HAS A THREE-WEEK FUSE.",
   "body": "The Kenya Aviation Workers Union signed a return-to-work agreement this morning with KCAA, the Kenya Airports Authority and Jambojet, after a meeting chaired by Transport CS Davis Chirchir. Members were sent back immediately; agency fees held by KAA go to the union at once (KBC, 1 September, 07:36 EAT). Now the fine print. The Salaries and Remuneration Commission withdrew its 28 July guidance and issued fresh parameters on 1 September — and **the union recorded reservations about those parameters inside the agreement itself**. The 20 July strike-notice grievances go to arbitration under the PS for Aviation **within three weeks — by roughly 22 September**. The Jambojet recognition dispute is parked with a court.",
@@ -3476,4 +3564,4 @@ window.INSIGHTS = [
   "editionKey": "evening"
  }
 ];
-window.BUILT_AT = "2026-09-01 17:10";
+window.BUILT_AT = "2026-09-03 08:27";
