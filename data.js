@@ -1,5 +1,14 @@
 window.EDITIONS = [
  {
+  "id": "pulse-2026-09-04-morning",
+  "date": "2026-09-04",
+  "dateDisplay": "Friday, 4 September 2026",
+  "edition": "Morning Brief",
+  "editionKey": "morning",
+  "summary": "Tanzania is still banned from EU skies. Much of the trade has been told otherwise for a year.",
+  "bodyHtml": "<p><span class=\"meta-line\">🏨 EA HOSPITALITY PULSE — Morning Brief</span><br><span class=\"meta-line\">📅 Friday, 4 September 2026 | 🇹🇿 🇰🇪 🇷🇼</span></p>\n<p>Tanzania is still banned from EU skies. Much of the trade has been told otherwise for a year.<br>━━━━━━━━━<br><span class=\"item-head\">1️⃣ TANZANIA IS STILL ON THE EU BAN LIST. THE TRADE THINKS IT ISN&#x27;T.</span><br>The Commission&#x27;s 48th update of the EU Air Safety List (DG MOVE, 9 June 2026) still bans every Tanzanian-certified airline — one of 16 states listed for inadequate <strong>regulator</strong> oversight, not aircraft faults. Kyrgyzstan came off the same list entirely, so it is a two-way door. Yet ATTA&#x27;s library still carries &quot;Tanzanian Airlines to Resume Flights to Europe After EU Safety Ban Lifted&quot;, 15 September 2025, sourced to Tuko. Wrong then, still circulating. Separately, TCAA posted a notice headlined &quot;TCAA and EU reaffirm commitment to strengthen aviation safety oversight&quot; (tcaa.go.tz, 4 September 2026; seen 06:23 EAT, no press coverage found). The notice exists — the page would not render for us, so we make no claim on its contents.<br><span class=\"sowhat\">🎯 So what: the ban is on the authority, not the fleet, and guests will not draw that line for you. Put one written sentence in your agent sheet saying domestic Tanzanian flights are unaffected — and stop the &quot;ban lifted&quot; story where you find it.</span><br><span class=\"tagline\">🏷 Bush, Beach, City | 🇹🇿 | Confirmed (list) / Early signal (TCAA notice) | impact:risk</span></p>\n<p><span class=\"item-head\">2️⃣ ARUSHA GOES 24 HOURS — THE COMPULSORY OVERNIGHT ENDS</span><br>ATCL chief executive Eng. Peter Ulanga says Arusha Airport begins round-the-clock operations within two weeks, after a lighting upgrade cleared night flights (Daily News Tanzania, 2 September 2026). Daily capacity rises from about 200 passengers to 300, on Dar es Salaam and Zanzibar routes. The stated purpose is evening safari arrivals: guests no longer need to sleep in Arusha before continuing. It is also positioned for Tanzania&#x27;s co-hosting of AFCON 2027.<br><span class=\"sowhat\">🎯 So what: Arusha town has sold a captive night for years. From mid-September that night is optional, and same-day bush-to-beach moves it to Zanzibar. Rebuild the Arusha rate case on a reason to stay — this month.</span><br><span class=\"tagline\">🏷 City, Bush, Beach | 🇹🇿 | Confirmed | impact:watch</span></p>\n<p><span class=\"item-head\">3️⃣ TURKANA GETS A TEN-YEAR PLAN AND A FUNDED PARTNER</span><br>KWS formalised a management partnership with Archipelagus on 29 August 2026 covering Sibiloi and Central Island National Parks (KWS press release, Aug 2026; via ATTA, 3 September). It anchors the Lake Turkana National Parks Management Plan 2026–2036 across more than 6,000 km² of parks and community rangelands, currently on UNESCO&#x27;s &quot;In Danger&quot; list. First moves: a Sibiloi headquarters, a joint operations centre, ranger outposts on real-time monitoring. Later: grassland restoration, phased reintroduction of reticulated giraffe, Grevy&#x27;s zebra and black rhino, and nature-based tourism.<br><span class=\"sowhat\">🎯 So what: Kenya&#x27;s emptiest circuit just got a decade-long plan and a funded partner, with almost no bed stock in it. Read it if you are looking at concessions. Do not put Turkana in a brochure yet.</span><br><span class=\"tagline\">🏷 Bush | 🇰🇪 | Confirmed | impact:demand</span><br>━━━━━━━━━<br><span class=\"meta-line\">📡 RADAR</span><br>• Today, 4 Sep — 21st Kwita Izina, Kinigi. 22 gorillas named, total 460 (RDB, 2 Sep). Exhibition to 8 Sep: hold rate across the window, not the ceremony night alone.<br>• 5–12 Sep — Miss Tourism East Africa finals, Kampala. ~24 contestants: one house&#x27;s group booking, not city compression.<br>• ~16 Sep — Arusha night operations live, on ATCL&#x27;s two-week timeline.<br>• 16 Sep — Kenya&#x27;s High Court hears the US$50,000 travel-health insurance petition; suspended until then.<br>• ~26 Sep — the three-week KAWU arbitration window from the 1 September deal closes.</p>\n<p><span class=\"meta-line\">💬 Selling Tanzania into Europe: has any agent raised the EU list with you this year?</span></p>\n<p>🔗 This edition on the web: <a href=\"https://eahospitalitypulse.com/editions/pulse-2026-09-04-morning.html\" rel=\"noopener\">eahospitalitypulse.com/editions/pulse-2026-09-04-mornin…</a><br>— EA Hospitality Pulse | Daily intelligence for city, bush &amp; beach properties</p>"
+ },
+ {
   "id": "pulse-2026-09-03-morning",
   "date": "2026-09-03",
   "dateDisplay": "Thursday, 3 September 2026",
@@ -775,6 +784,67 @@ window.EDITIONS = [
  }
 ];
 window.INSIGHTS = [
+ {
+  "headline": "TANZANIA IS STILL ON THE EU BAN LIST. THE TRADE THINKS IT ISN'T.",
+  "body": "The Commission's 48th update of the EU Air Safety List (DG MOVE, 9 June 2026) still bans every Tanzanian-certified airline — one of 16 states listed for inadequate *regulator* oversight, not aircraft faults. Kyrgyzstan came off the same list entirely, so it is a two-way door. Yet ATTA's library still carries \"Tanzanian Airlines to Resume Flights to Europe After EU Safety Ban Lifted\", 15 September 2025, sourced to Tuko. Wrong then, still circulating. Separately, TCAA posted a notice headlined \"TCAA and EU reaffirm commitment to strengthen aviation safety oversight\" (tcaa.go.tz, 4 September 2026; seen 06:23 EAT, no press coverage found). The notice exists — the page would not render for us, so we make no claim on its contents.",
+  "sowhat": "🎯 So what: the ban is on the authority, not the fleet, and guests will not draw that line for you. Put one written sentence in your agent sheet saying domestic Tanzanian flights are unaffected — and stop the \"ban lifted\" story where you find it.",
+  "segments": [
+   "city",
+   "bush",
+   "beach"
+  ],
+  "countries": "🇹🇿",
+  "confidence": "Confirmed (list) / Early signal (TCAA notice)",
+  "impact": "risk",
+  "impactClass": "risk",
+  "intensity": 3,
+  "impactSet": "author",
+  "source": "pulse-2026-09-04-morning",
+  "date": "2026-09-04",
+  "dateDisplay": "Friday, 4 September 2026",
+  "edition": "Morning Brief",
+  "editionKey": "morning"
+ },
+ {
+  "headline": "ARUSHA GOES 24 HOURS — THE COMPULSORY OVERNIGHT ENDS",
+  "body": "ATCL chief executive Eng. Peter Ulanga says Arusha Airport begins round-the-clock operations within two weeks, after a lighting upgrade cleared night flights (Daily News Tanzania, 2 September 2026). Daily capacity rises from about 200 passengers to 300, on Dar es Salaam and Zanzibar routes. The stated purpose is evening safari arrivals: guests no longer need to sleep in Arusha before continuing. It is also positioned for Tanzania's co-hosting of AFCON 2027.",
+  "sowhat": "🎯 So what: Arusha town has sold a captive night for years. From mid-September that night is optional, and same-day bush-to-beach moves it to Zanzibar. Rebuild the Arusha rate case on a reason to stay — this month.",
+  "segments": [
+   "city",
+   "bush",
+   "beach"
+  ],
+  "countries": "🇹🇿",
+  "confidence": "Confirmed",
+  "impact": "watch",
+  "impactClass": "watch",
+  "intensity": 3,
+  "impactSet": "author",
+  "source": "pulse-2026-09-04-morning",
+  "date": "2026-09-04",
+  "dateDisplay": "Friday, 4 September 2026",
+  "edition": "Morning Brief",
+  "editionKey": "morning"
+ },
+ {
+  "headline": "TURKANA GETS A TEN-YEAR PLAN AND A FUNDED PARTNER",
+  "body": "KWS formalised a management partnership with Archipelagus on 29 August 2026 covering Sibiloi and Central Island National Parks (KWS press release, Aug 2026; via ATTA, 3 September). It anchors the Lake Turkana National Parks Management Plan 2026–2036 across more than 6,000 km² of parks and community rangelands, currently on UNESCO's \"In Danger\" list. First moves: a Sibiloi headquarters, a joint operations centre, ranger outposts on real-time monitoring. Later: grassland restoration, phased reintroduction of reticulated giraffe, Grevy's zebra and black rhino, and nature-based tourism.",
+  "sowhat": "🎯 So what: Kenya's emptiest circuit just got a decade-long plan and a funded partner, with almost no bed stock in it. Read it if you are looking at concessions. Do not put Turkana in a brochure yet.",
+  "segments": [
+   "bush"
+  ],
+  "countries": "🇰🇪",
+  "confidence": "Confirmed",
+  "impact": "+demand",
+  "impactClass": "demand",
+  "intensity": 3,
+  "impactSet": "author",
+  "source": "pulse-2026-09-04-morning",
+  "date": "2026-09-04",
+  "dateDisplay": "Friday, 4 September 2026",
+  "edition": "Morning Brief",
+  "editionKey": "morning"
+ },
  {
   "headline": "US STILL HAS UGANDA AT \"DO NOT TRAVEL\" — OVER AN ENDED OUTBREAK",
   "body": "We read the State Department's Uganda page this morning. It is still **Level 4 — Do Not Travel**, date issued **4 June 2026**, with Health among its four indicators. The advisory history is explicit: Uganda was moved from Level 3 to Level 4 on **17 May 2026** \"due to the Ebola Bundibugyo Virus Disease outbreak in Ituri Province in the DRC.\" The live page still describes mass-gathering restrictions in Kampala and 21-day quarantine for DRC arrivals. Uganda's Ministry of Health declared the outbreak over on **28 July**. WHO certified it on **26 August** after the full 42-day countdown. The advisory has not been re-issued in 91 days. The UK, by contrast, advises against travel to no part of Uganda. State's own text links out to a CDC health notice filed under Level 2. We haven't seen this gap reported anywhere yet.",
@@ -3564,4 +3634,4 @@ window.INSIGHTS = [
   "editionKey": "evening"
  }
 ];
-window.BUILT_AT = "2026-09-03 08:27";
+window.BUILT_AT = "2026-09-04 08:30";

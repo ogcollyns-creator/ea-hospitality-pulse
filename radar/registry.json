@@ -1,6 +1,6 @@
 {
  "version": 1,
- "updated": "2026-08-20",
+ "updated": "2026-09-04",
  "note": "Upstream-weighted source registry for the EA Hospitality Pulse radar. tier 1 = primary/official, 2 = reputable secondary, 3 = weak (lead only, never publishable alone). lead_days = typical head start over mainstream coverage. Sources that fail repeatedly are surfaced by monitor.py rather than silently dropped. | 2026-08-20: added Ethiopia (ET) upstream sources as comparator — gazette, ECAA, NBE, ESS, Ethiopia Convention Bureau; Ethiopian Airlines already tracked (air-et). Enables promotion to a full sixth market once the radar records healthy observations.",
  "sources": [
   {
@@ -3842,6 +3842,50 @@
     "evening"
    ],
    "why": "Where EU tourism-specific compliance guidance lands first — the language that later appears in European operator supplier contracts.",
+   "frag": ""
+  },
+  {
+   "id": "eu-air-safety-list",
+   "name": "European Commission — EU Air Safety List",
+   "url": "https://transport.ec.europa.eu/transport-themes/eu-air-safety-list_en",
+   "tier": 1,
+   "country": "REG",
+   "category": "aviation",
+   "method": "html",
+   "cadence_min": 720,
+   "lead_days": 10,
+   "segments": [
+    "bush",
+    "beach",
+    "city"
+   ],
+   "slots": [
+    "midday"
+   ],
+   "why": "All Tanzanian-certified airlines are banned from EU skies (48th update, 9 Jun 2026). Additions and removals move European source-market perception of a whole destination.",
+   "frag": ""
+  },
+  {
+   "id": "trade-atta-news",
+   "name": "ATTA — African Travel & Tourism Association news",
+   "url": "https://atta.travel/news.html",
+   "tier": 2,
+   "country": "REG",
+   "category": "press",
+   "method": "html",
+   "cadence_min": 180,
+   "lead_days": 1,
+   "segments": [
+    "bush",
+    "beach",
+    "city"
+   ],
+   "slots": [
+    "morning",
+    "midday",
+    "evening"
+   ],
+   "why": "Carried three EA operator-relevant items on 2-3 Sep 2026 (Arusha night ops, KWS Lake Turkana, Uganda Ebola-free) that the radar registry missed entirely. Also a source of stale-claim traps worth auditing.",
    "frag": ""
   }
  ]

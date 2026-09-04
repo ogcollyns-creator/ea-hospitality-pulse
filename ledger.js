@@ -1,8 +1,8 @@
 window.LEDGER = {
- "updated": "2026-09-03 08:28",
+ "updated": "2026-09-04 08:30",
  "stats": {
-  "total": 147,
-  "open": 117,
+  "total": 150,
+  "open": 120,
   "resolved": 29,
   "correct": 22,
   "partial": 1,
@@ -728,6 +728,22 @@ window.LEDGER = {
    "resolved_date": "",
    "evidence": "",
    "source_url": "",
+   "overdue": false
+  },
+  {
+   "id": "P148",
+   "made_date": "2026-09-04",
+   "edition": "pulse-2026-09-04-morning",
+   "claim": "Arusha Airport will be operating scheduled night flights by 31 October 2026 — ATCL's stated two-week timeline from 2 September 2026 slips, but the lighting works are already complete, so the delay is procedural rather than capital",
+   "resolution_criteria": "Confirmation from Tanzania Airports Authority, TCAA, Air Tanzania (ATCL) or credible Tanzanian press (Daily News, The Citizen, Mwananchi, IPP Media) dated on or before 31 October 2026 that scheduled commercial flights are operating at Arusha Airport outside daylight hours. No such confirmation resolves incorrect",
+   "resolve_by": "2026-10-31",
+   "market": "TZ",
+   "segment": "City|Bush|Beach",
+   "confidence": "Medium",
+   "status": "open",
+   "resolved_date": "",
+   "evidence": "",
+   "source_url": "https://dailynews.co.tz/upgraded-arusha-airport-ready-for-24-operations-in-its-bid-to-boost-tourism/",
    "overdue": false
   },
   {
@@ -1787,6 +1803,22 @@ window.LEDGER = {
    "overdue": false
   },
   {
+   "id": "P147",
+   "made_date": "2026-09-04",
+   "edition": "pulse-2026-09-04-morning",
+   "claim": "Tanzania will still appear on the EU Air Safety List at the next published update on or before 30 June 2027 — the June 2026 listing is on state-level oversight capacity, which takes years to remediate, and TCAA's 4 September 2026 notice describes continued engagement rather than a resolved audit",
+   "resolution_criteria": "The European Commission DG MOVE EU Air Safety List page (transport.ec.europa.eu/transport-themes/eu-air-safety-list_en) and the associated Commission news release for the next update published on or before 30 June 2027. Correct if Tanzania remains among the listed states. Removal of Tanzania resolves incorrect. No update published in the window resolves unresolved",
+   "resolve_by": "2027-06-30",
+   "market": "TZ",
+   "segment": "Bush|Beach|City",
+   "confidence": "Medium",
+   "status": "open",
+   "resolved_date": "",
+   "evidence": "",
+   "source_url": "https://transport.ec.europa.eu/news-events/news/commission-updates-eu-air-safety-list-all-air-carriers-kyrgyzstan-removed-air-express-algeria-added-2026-06-09_en",
+   "overdue": false
+  },
+  {
    "id": "P132",
    "made_date": "2026-08-28",
    "edition": "pulse-2026-08-28-midday",
@@ -1880,6 +1912,22 @@ window.LEDGER = {
    "resolved_date": "",
    "evidence": "",
    "source_url": "https://www.thecitizen.co.tz/tanzania/zanzibar/kenyan-arrested-in-zanzibar-over-illegal-tour-operations--5567298",
+   "overdue": false
+  },
+  {
+   "id": "P149",
+   "made_date": "2026-09-04",
+   "edition": "pulse-2026-09-04-morning",
+   "claim": "Lake Turkana National Parks will still carry the UNESCO World Heritage 'In Danger' classification at the close of the 2027 World Heritage Committee session — the KWS/Archipelagus plan begins in 2026 and de-listing requires demonstrated recovery, not a signed partnership",
+   "resolution_criteria": "UNESCO World Heritage Centre List of World Heritage in Danger (whc.unesco.org/en/danger) checked after the close of the 2027 World Heritage Committee session. Correct if Lake Turkana National Parks remains listed. Removal from the danger list resolves incorrect",
+   "resolve_by": "2027-12-31",
+   "market": "KE",
+   "segment": "Bush",
+   "confidence": "High",
+   "status": "open",
+   "resolved_date": "",
+   "evidence": "",
+   "source_url": "https://kws.go.ke/wp-content/uploads/2026/08/KWS-Archipelagus-Press-Release-August-2026.pdf",
    "overdue": false
   }
  ],
