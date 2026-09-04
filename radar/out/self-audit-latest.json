@@ -1,6 +1,6 @@
 {
- "generated": "2026-09-03T10:23+03:00",
- "health": 0.517,
+ "generated": "2026-09-04T10:25+03:00",
+ "health": 0.567,
  "grade": "D",
  "fails": [
   "source coverage",
@@ -9,7 +9,6 @@
  ],
  "warns": [
   "signal quality",
-  "ledger hygiene",
   "data freshness",
   "rate-index integrity"
  ],
@@ -17,28 +16,28 @@
   {
    "name": "source coverage",
    "status": "FAIL",
-   "detail": "133 tier-1 sources: 96 HEALTHY, 21 MUTE, 16 SILENT. Blind examples: ke-tenders, ug-bou, tz-mnrt, tz-tanapa, tz-immigration, tz-tenders",
+   "detail": "134 tier-1 sources: 96 HEALTHY, 21 MUTE, 17 SILENT. Blind examples: ke-tenders, ug-bou, tz-mnrt, tz-tanapa, tz-immigration, tz-tenders",
    "fix": "Give each blind tier-1 source an RSS/feed URL or frag selector; validate on the runner.",
    "score": 0.0
   },
   {
    "name": "source staleness",
    "status": "FAIL",
-   "detail": "49 tier-1 HEALTHY sources quiet >14d: ke-gazettes-africa, ke-knbs-releases, ke-knbs-calendar, ke-tri, ke-ktb-news, ke-tra, ke-tourism-fund, ke-kaa",
+   "detail": "52 tier-1 HEALTHY sources quiet >14d: ke-gazettes-africa, ke-knbs-releases, ke-knbs-calendar, ke-tri, ke-ktb-news, ke-tra, ke-tourism-fund, ke-kaa",
    "fix": "Confirm the source still publishes; fix URL if it moved.",
    "score": 0.0
   },
   {
    "name": "radar feed freshness",
    "status": "PASS",
-   "detail": "322 in-window obs; newest observation 4.0h old (2026-09-03T06:26:00+03:00).",
+   "detail": "362 in-window obs; newest observation 4.0h old (2026-09-04T06:24:00+03:00).",
    "fix": "",
    "score": 1.0
   },
   {
    "name": "edition cadence",
    "status": "FAIL",
-   "detail": "Missing slots (last 2 full days): 2026-09-02 morning, 2026-09-02 midday, 2026-09-02 evening, 2026-09-01 midday",
+   "detail": "Missing slots (last 2 full days): 2026-09-03 midday, 2026-09-03 evening, 2026-09-02 morning, 2026-09-02 midday, 2026-09-02 evening",
    "fix": "Confirm the scheduled Pulse task fired for each slot.",
    "score": 0.0
   },
@@ -51,15 +50,15 @@
   },
   {
    "name": "ledger hygiene",
-   "status": "WARN",
-   "detail": "147 calls: 117 open, 29 resolved. Overdue-open: 0. Missing source_url: 37.",
-   "fix": "Backfill source_url on early calls.",
-   "score": 0.5
+   "status": "PASS",
+   "detail": "150 calls: 120 open, 29 resolved. Overdue-open: 0. Missing source_url: 37.",
+   "fix": "",
+   "score": 1.0
   },
   {
    "name": "data freshness",
    "status": "WARN",
-   "detail": "Stale/again-verify: costs.js 19d>10, calendar.js 36d>21",
+   "detail": "Stale/again-verify: costs.js 20d>10, calendar.js 37d>21",
    "fix": "Re-verify each dataset's values and bump its 'updated:' field, or note it in-edition.",
    "score": 0.5
   },
@@ -73,7 +72,7 @@
   {
    "name": "forecast throughput",
    "status": "PASS",
-   "detail": "17 new falsifiable calls logged in last 7d.",
+   "detail": "18 new falsifiable calls logged in last 7d.",
    "fix": "",
    "score": 1.0
   },
