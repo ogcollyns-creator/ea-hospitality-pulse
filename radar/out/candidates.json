@@ -1,18 +1,50 @@
 {
- "generated": "2026-09-05T18:27:23+03:00",
+ "generated": "2026-09-05T19:39:33+03:00",
  "slot": "evening",
  "window_start": 1788602400,
- "observations_in_window": 88,
- "deduped_against": 22,
+ "observations_in_window": 162,
+ "deduped_against": 25,
  "candidates": [
   {
-   "score": 88.4,
+   "score": 91.3,
    "components": {
     "tier": 40,
     "category": 32,
     "lead": 3.6,
     "relevance": 0,
-    "freshness": 16.8,
+    "freshness": 19.7,
+    "page_change": -4
+   },
+   "keywords": [],
+   "shock_terms": [],
+   "dedupe_match": null,
+   "dedupe_similarity": 0.0,
+   "id": "70d9d36d8e95",
+   "title": "[page changed] Federal Register \u2014 public inspection (HHS/CDC), pre-publication",
+   "url": "https://www.federalregister.gov/api/v1/public-inspection-documents/current.json",
+   "summary": "{\"count\":77,\"results\":[{\"agencies\":[{\"raw_name\":\"Health Resources and Services Administration\",\"name\":\"Health Resources and Services Administration\",\"id\":222,\"url\":\"https://www.federalregister.gov/agencies/health-resources-and-services-administration\",\"json_url\":\"https://www.federalregister.gov/api/v1/agencies/222\",\"parent_id\":221,\"slug\":\"health-resources-and-services-administration\"}],\"agency_let",
+   "kind": "page-change",
+   "source": "Federal Register \u2014 public inspection (HHS/CDC), pre-publication",
+   "source_id": "us-fedreg-pubinspect-hhs",
+   "tier": 1,
+   "country": "REG",
+   "category": "advisory",
+   "segments": [
+    "city",
+    "bush"
+   ],
+   "first_seen": "2026-09-05T19:36+03:00",
+   "published": "2026-09-03",
+   "verdict": "OPEN THIS \u2014 tier-1 advisory page moved; content not auto-parsed, read it manually"
+  },
+  {
+   "score": 87.1,
+   "components": {
+    "tier": 40,
+    "category": 32,
+    "lead": 3.6,
+    "relevance": 0,
+    "freshness": 15.5,
     "page_change": -4
    },
    "keywords": [],
@@ -22,7 +54,7 @@
    "id": "b2690806f6ed",
    "title": "[page changed] Federal Register \u2014 public inspection (HHS/CDC), pre-publication",
    "url": "https://www.federalregister.gov/api/v1/public-inspection-documents/current.json",
-   "summary": "",
+   "summary": "{\"count\":77,\"results\":[{\"agencies\":[{\"raw_name\":\"Health Resources and Services Administration\",\"name\":\"Health Resources and Services Administration\",\"id\":222,\"url\":\"https://www.federalregister.gov/agencies/health-resources-and-services-administration\",\"json_url\":\"https://www.federalregister.gov/api/v1/agencies/222\",\"parent_id\":221,\"slug\":\"health-resources-and-services-administration\"}],\"agency_let",
    "kind": "page-change",
    "source": "Federal Register \u2014 public inspection (HHS/CDC), pre-publication",
    "source_id": "us-fedreg-pubinspect-hhs",
@@ -38,13 +70,13 @@
    "verdict": "OPEN THIS \u2014 tier-1 advisory page moved; content not auto-parsed, read it manually"
   },
   {
-   "score": 62.4,
+   "score": 61.1,
    "components": {
     "tier": 40,
     "category": 12,
     "lead": 3.6,
     "relevance": 0,
-    "freshness": 16.8,
+    "freshness": 15.5,
     "undated": -6,
     "page_change": -4
    },
@@ -55,7 +87,7 @@
    "id": "dd98109856e3",
    "title": "[page changed] Airlink news",
    "url": "https://www.flyairlink.com/",
-   "summary": "",
+   "summary": "Request unsuccessful. Incapsula incident ID: 491000030540192462-1340034885920424182",
    "kind": "page-change",
    "source": "Airlink news",
    "source_id": "air-airlink",
@@ -72,13 +104,48 @@
    "verdict": "OPEN THIS \u2014 tier-1 airline page moved; content not auto-parsed, read it manually"
   },
   {
-   "score": 92.8,
+   "score": 109.7,
+   "components": {
+    "tier": 40,
+    "category": 20,
+    "lead": 12.0,
+    "relevance": 8,
+    "freshness": 19.7,
+    "corroborated": 10
+   },
+   "keywords": [
+    "gazette"
+   ],
+   "shock_terms": [],
+   "dedupe_match": null,
+   "dedupe_similarity": 0.25,
+   "id": "a822a6b37b06",
+   "title": "Kenya Gazette Vol. CXXVIII-No. 159",
+   "url": "https://new.kenyalaw.org/akn/ke/officialGazette/2026-09-04/159/eng@2026-09-04",
+   "summary": "Kenya Gazette Vol. CXXVIII-No. 159",
+   "kind": "item",
+   "source": "Kenya Gazette (Kenya Law)",
+   "source_id": "ke-gazette",
+   "tier": 1,
+   "country": "KE",
+   "category": "gazette",
+   "segments": [
+    "city",
+    "bush",
+    "beach"
+   ],
+   "first_seen": "2026-09-05T19:36+03:00",
+   "published": "2026-09-04",
+   "verdict": "STRONG \u2014 tier-1, upstream"
+  },
+  {
+   "score": 91.5,
    "components": {
     "tier": 20,
     "category": 4,
     "lead": 0.0,
     "relevance": 24,
-    "freshness": 16.8,
+    "freshness": 15.5,
     "corroborated": 10,
     "shock": 18
    },
@@ -87,14 +154,15 @@
     "ebola"
    ],
    "shock_terms": [
-    "outbreak"
+    "outbreak",
+    "confirmed case"
    ],
    "dedupe_match": null,
    "dedupe_similarity": 0.4,
    "id": "174201f404a7",
    "title": "Pressure mounts on DR Congo to contain Ebola outbreak",
    "url": "https://www.theeastafrican.co.ke/tea/sustainability/health/pressure-mounts-on-dr-congo-to-contain-ebola-outbreak-5584192",
-   "summary": "",
+   "summary": "As of August 31, there were 6,186 confirmed cases, including 3,007 deaths and 1,409 recoveries.",
    "kind": "item",
    "source": "The EastAfrican",
    "source_id": "np-eastafrican",
@@ -111,22 +179,25 @@
    "verdict": "CONSIDER"
   },
   {
-   "score": 82.6,
+   "score": 89.3,
    "components": {
     "tier": 40,
     "category": 9,
     "lead": 16.8,
-    "relevance": 0,
-    "freshness": 16.8
+    "relevance": 8,
+    "freshness": 15.5
    },
-   "keywords": [],
+   "keywords": [
+    "hotel",
+    "opening"
+   ],
    "shock_terms": [],
    "dedupe_match": null,
-   "dedupe_similarity": 0.0,
+   "dedupe_similarity": 0.14,
    "id": "9410496cfc6d",
    "title": "Xi Zhe Wuxi, Curio Collection by Hilton Opens, Bringing Century-Old Jiangnan Story to Life",
    "url": "https://stories.hilton.com/releases/xi-zhe-wuxi-curio-collection-by-hilton-opens",
-   "summary": "",
+   "summary": "WUXI, China \u2014 Hilton (NYSE: HLT) today announced the opening of Xi Zhe Wuxi, Curio Collection by Hilton, marking Curio Collection by Hilton\u2019s first property in Jiangsu Province. Comprising a historic residence alongside a newly constructed building, the hotel\u2019s design embraces the coexistence of past and present, creating an urban retreat that blends historical heritage [\u2026] The post Xi Zhe Wuxi, C",
    "kind": "item",
    "source": "Hilton stories/newsroom",
    "source_id": "dev-hilton",
@@ -143,13 +214,229 @@
    "verdict": "CONSIDER"
   },
   {
-   "score": 62.8,
+   "score": 77.8,
+   "components": {
+    "tier": 20,
+    "category": 4,
+    "lead": 0.0,
+    "relevance": 24,
+    "freshness": 19.8,
+    "corroborated": 10
+   },
+   "keywords": [
+    "route",
+    "wildlife",
+    "tourist",
+    "safari"
+   ],
+   "shock_terms": [],
+   "dedupe_match": null,
+   "dedupe_similarity": 0.2,
+   "id": "0bd2badba87f",
+   "title": "Tanzania\u2019s garden in the Sky: Discovering the beauty of Kitulo",
+   "url": "https://dailynews.co.tz/tanzanias-garden-in-the-sky-discovering-the-beauty-of-kitulo",
+   "summary": "FAR from the busy streets and crowded tourist routes, Tanzania hides a spectacular highland destination where nature paints the landscape with flowers. This is Kitulo National Park, a unique destination in the southern highlands of Tanzania that offers travellers an experience unlike the traditional wildlife safari. Often described as Tanzania\u2019s \u201cGarden in the Sky,\u201d Kitulo \u2026 The post Tanzania\u2019s ga",
+   "kind": "item",
+   "source": "Daily News (Tanzania)",
+   "source_id": "np-dailynews-tz",
+   "tier": 2,
+   "country": "TZ",
+   "category": "press",
+   "segments": [
+    "city",
+    "bush",
+    "beach"
+   ],
+   "first_seen": "2026-09-05T19:36+03:00",
+   "published": "2026-09-05",
+   "verdict": "CONSIDER"
+  },
+  {
+   "score": 63.7,
+   "components": {
+    "tier": 20,
+    "category": 4,
+    "lead": 0.0,
+    "relevance": 8,
+    "freshness": 19.7,
+    "undated": -6,
+    "shock": 18
+   },
+   "keywords": [
+    "strike"
+   ],
+   "shock_terms": [
+    "strike"
+   ],
+   "dedupe_match": null,
+   "dedupe_similarity": 0.17,
+   "id": "5b31c5a6d5d6",
+   "title": "Why aviation sector strike wasn\u2019t inevitable BY Jaindi Kisero Sep 03 - 4 min read",
+   "url": "https://www.businessdailyafrica.com/bd/opinion-analysis/columnists/why-aviation-sector-strike-wasn-t-inevitable-5582642",
+   "summary": "",
+   "kind": "item",
+   "source": "Business Daily Africa",
+   "source_id": "np-businessdaily",
+   "tier": 2,
+   "country": "KE",
+   "category": "press",
+   "segments": [
+    "city",
+    "bush",
+    "beach"
+   ],
+   "first_seen": "2026-09-05T19:36+03:00",
+   "published": null,
+   "verdict": "weak"
+  },
+  {
+   "score": 61.8,
+   "components": {
+    "tier": 20,
+    "category": 4,
+    "lead": 0.0,
+    "relevance": 8,
+    "freshness": 19.8,
+    "corroborated": 10
+   },
+   "keywords": [
+    "adr"
+   ],
+   "shock_terms": [],
+   "dedupe_match": null,
+   "dedupe_similarity": 0.2,
+   "id": "e32ab42f8e2f",
+   "title": "Digital technology takes centre stage in healthcare transformation",
+   "url": "https://dailynews.co.tz/digital-technology-takes-centre-stage-in-healthcare-transformation",
+   "summary": "DAR ES SALAAM: FROM electronic medical records and digital health platforms to advanced diagnostic equipment and datadriven decision-making, technology is rapidly changing the way healthcare is delivered around the world. What was once largely dependent on paper records, physical files and face-toface consultations is increasingly becoming a digitally connected system in which patient information ",
+   "kind": "item",
+   "source": "Daily News (Tanzania)",
+   "source_id": "np-dailynews-tz",
+   "tier": 2,
+   "country": "TZ",
+   "category": "press",
+   "segments": [
+    "city",
+    "bush",
+    "beach"
+   ],
+   "first_seen": "2026-09-05T19:36+03:00",
+   "published": "2026-09-05",
+   "verdict": "weak"
+  },
+  {
+   "score": 61.8,
+   "components": {
+    "tier": 20,
+    "category": 4,
+    "lead": 0.0,
+    "relevance": 8,
+    "freshness": 19.8,
+    "corroborated": 10
+   },
+   "keywords": [
+    "fuel"
+   ],
+   "shock_terms": [],
+   "dedupe_match": null,
+   "dedupe_similarity": 0.17,
+   "id": "b0c917c2e340",
+   "title": "Green technology, smarter systems drive Dar Port transformation",
+   "url": "https://dailynews.co.tz/green-technology-smarter-systems-drive-dar-port-transformation",
+   "summary": "DAR ES SALAAM: THE transformation of the Port of Dar es Salaam is increasingly taking an environmental dimension, with the adoption of hybrid cargo-handling equipment significantly reducing fuel consumption, while improving operational efficiency. During a tour of the facility by editors on Thursday, Port Director Abed Gallus said modern equipment being introduced was not only \u2026 The post Green tec",
+   "kind": "item",
+   "source": "Daily News (Tanzania)",
+   "source_id": "np-dailynews-tz",
+   "tier": 2,
+   "country": "TZ",
+   "category": "press",
+   "segments": [
+    "city",
+    "bush",
+    "beach"
+   ],
+   "first_seen": "2026-09-05T19:36+03:00",
+   "published": "2026-09-05",
+   "verdict": "weak"
+  },
+  {
+   "score": 61.8,
+   "components": {
+    "tier": 20,
+    "category": 4,
+    "lead": 0.0,
+    "relevance": 8,
+    "freshness": 19.8,
+    "corroborated": 10
+   },
+   "keywords": [
+    "vat"
+   ],
+   "shock_terms": [],
+   "dedupe_match": null,
+   "dedupe_similarity": 0.0,
+   "id": "3f31cc7538ab",
+   "title": "Rapid diagnostics bring innovation closer to Tanzanian patients",
+   "url": "https://dailynews.co.tz/rapid-diagnostics-bring-innovation-closer-to-tanzanian-patients",
+   "summary": "DAR ES SALAAM: A SMALL test strip, a few drops of urine and a colour chart may not immediately look like a major technological breakthrough. Yet, for a patient trying to understand what is causing uncomfortable symptoms, that simple combination can represent an important shift in the way health information is accessed. Instead of moving \u2026 The post Rapid diagnostics bring innovation closer to Tanza",
+   "kind": "item",
+   "source": "Daily News (Tanzania)",
+   "source_id": "np-dailynews-tz",
+   "tier": 2,
+   "country": "TZ",
+   "category": "press",
+   "segments": [
+    "city",
+    "bush",
+    "beach"
+   ],
+   "first_seen": "2026-09-05T19:36+03:00",
+   "published": "2026-09-05",
+   "verdict": "weak"
+  },
+  {
+   "score": 61.7,
+   "components": {
+    "tier": 20,
+    "category": 4,
+    "lead": 0.0,
+    "relevance": 8,
+    "freshness": 19.7,
+    "corroborated": 10
+   },
+   "keywords": [
+    "eta"
+   ],
+   "shock_terms": [],
+   "dedupe_match": null,
+   "dedupe_similarity": 0.17,
+   "id": "01b9f6f046f3",
+   "title": "Lango turns to songs and drama to address societal problems",
+   "url": "https://www.monitor.co.ug/uganda/news/national/lango-turns-to-songs-and-drama-to-address-societal-problems-5584634",
+   "summary": "The initiative revives an age-old tradition of using song, drama, and cultural performance to...",
+   "kind": "item",
+   "source": "Daily Monitor (Uganda)",
+   "source_id": "np-monitor-ug",
+   "tier": 2,
+   "country": "UG",
+   "category": "press",
+   "segments": [
+    "city",
+    "bush",
+    "beach"
+   ],
+   "first_seen": "2026-09-05T19:36+03:00",
+   "published": "2026-09-05",
+   "verdict": "weak"
+  },
+  {
+   "score": 61.5,
    "components": {
     "tier": 20,
     "category": 4,
     "lead": 0.0,
     "relevance": 12,
-    "freshness": 16.8,
+    "freshness": 15.5,
     "corroborated": 10
    },
    "keywords": [
@@ -161,7 +448,7 @@
    "id": "870d0ff760d0",
    "title": "When love defied Ethiopia\u2019s red terror in Born at the End of the World",
    "url": "https://www.monitor.co.ug/uganda/lifestyle/reviews-profiles/when-love-defied-ethiopia-s-red-terror-in-born-at-the-end-of-the-world--5584156",
-   "summary": "",
+   "summary": "Born at the End of the World is a debut historical fiction novel written by Donica Merhazion.",
    "kind": "item",
    "source": "Daily Monitor (Uganda)",
    "source_id": "np-monitor-ug",
@@ -178,13 +465,13 @@
    "verdict": "weak"
   },
   {
-   "score": 58.8,
+   "score": 57.5,
    "components": {
     "tier": 20,
     "category": 4,
     "lead": 0.0,
     "relevance": 8,
-    "freshness": 16.8,
+    "freshness": 15.5,
     "corroborated": 10
    },
    "keywords": [
@@ -196,7 +483,7 @@
    "id": "8277c7c7fcfe",
    "title": "Kigali Today and Women\u2019s Council Join Forces to Get More Women and Youth Into Elections",
    "url": "https://www.ktpress.rw/2026/09/kigali-today-and-womens-council-join-forces-to-get-more-women-and-youth-into-elections",
-   "summary": "",
+   "summary": "KIGALI \u2014 Rwanda\u2019s National Women\u2019s Council is turning to the media to reach millions of women and young people with a simple message ahead of the country\u2019s next electoral activities:\u2026 The post Kigali Today and Women\u2019s Council Join Forces to Get More Women and Youth Into Elections appeared first on KT PRESS .",
    "kind": "item",
    "source": "KT Press (Rwanda)",
    "source_id": "np-ktpress-rw",
@@ -213,25 +500,25 @@
    "verdict": "weak"
   },
   {
-   "score": 58.8,
+   "score": 57.5,
    "components": {
     "tier": 20,
     "category": 4,
     "lead": 0.0,
     "relevance": 8,
-    "freshness": 16.8,
+    "freshness": 15.5,
     "corroborated": 10
    },
    "keywords": [
-    "vat"
+    "tax"
    ],
    "shock_terms": [],
    "dedupe_match": null,
-   "dedupe_similarity": 0.0,
-   "id": "d33d5e10d019",
-   "title": "Immaculate Acheng Otuko wins Femrite Youth Innovation Poetry Challenge 2026",
-   "url": "https://www.monitor.co.ug/uganda/lifestyle/reviews-profiles/immaculate-acheng-otuko-wins-femrite-youth-innovation-poetry-challenge-2026-5584228",
-   "summary": "",
+   "dedupe_similarity": 0.2,
+   "id": "3079c7b5ba1c",
+   "title": "How new tax regime could change creative industries",
+   "url": "https://www.monitor.co.ug/uganda/lifestyle/entertainment/how-new-tax-regime-could-change-creative-industries-5584382",
+   "summary": "Uganda\u2019s 6% entertainment tax raises questions over creative-sector growth",
    "kind": "item",
    "source": "Daily Monitor (Uganda)",
    "source_id": "np-monitor-ug",
@@ -248,13 +535,13 @@
    "verdict": "weak"
   },
   {
-   "score": 58.8,
+   "score": 57.5,
    "components": {
     "tier": 20,
     "category": 4,
     "lead": 0.0,
     "relevance": 8,
-    "freshness": 16.8,
+    "freshness": 15.5,
     "corroborated": 10
    },
    "keywords": [
@@ -263,10 +550,10 @@
    "shock_terms": [],
    "dedupe_match": null,
    "dedupe_similarity": 0.0,
-   "id": "74b644b5c274",
-   "title": "Rukungiri pastor arrested over alleged assault of church secretary",
-   "url": "https://www.monitor.co.ug/uganda/news/national/rukungiri-pastor-arrested-over-alleged-assault-of-church-secretary-5584358",
-   "summary": "",
+   "id": "d76429fb9804",
+   "title": "Ndiisa Farm: A hub of multiple activities",
+   "url": "https://www.monitor.co.ug/uganda/magazines/farming/ndiisa-farm-a-hub-of-multiple-activities-5584424",
+   "summary": "Ndiisa Farm produces milk, eggs, honey, vegetables, potatoes, orange fleshed maize flour...",
    "kind": "item",
    "source": "Daily Monitor (Uganda)",
    "source_id": "np-monitor-ug",
@@ -283,13 +570,13 @@
    "verdict": "weak"
   },
   {
-   "score": 58.8,
+   "score": 57.5,
    "components": {
     "tier": 20,
     "category": 4,
     "lead": 0.0,
     "relevance": 8,
-    "freshness": 16.8,
+    "freshness": 15.5,
     "corroborated": 10
    },
    "keywords": [
@@ -301,7 +588,7 @@
    "id": "9557fa9fe8b1",
    "title": "On Mobutu\u2019s Zegebe tax, national cleaning day",
    "url": "https://www.monitor.co.ug/uganda/oped/commentary/on-mobutu-s-zegebe-tax-national-cleaning-day-5584370",
-   "summary": "",
+   "summary": "I have participated in salongo activities in Rwanda and Mobutu\u2019s Zaire. In both countries, the...",
    "kind": "item",
    "source": "Daily Monitor (Uganda)",
    "source_id": "np-monitor-ug",
@@ -318,25 +605,25 @@
    "verdict": "weak"
   },
   {
-   "score": 58.8,
+   "score": 57.5,
    "components": {
     "tier": 20,
     "category": 4,
     "lead": 0.0,
     "relevance": 8,
-    "freshness": 16.8,
+    "freshness": 15.5,
     "corroborated": 10
    },
    "keywords": [
-    "tax"
+    "eta"
    ],
    "shock_terms": [],
    "dedupe_match": null,
    "dedupe_similarity": 0.0,
-   "id": "3079c7b5ba1c",
-   "title": "How new tax regime could change creative industries",
-   "url": "https://www.monitor.co.ug/uganda/lifestyle/entertainment/how-new-tax-regime-could-change-creative-industries-5584382",
-   "summary": "",
+   "id": "74b644b5c274",
+   "title": "Rukungiri pastor arrested over alleged assault of church secretary",
+   "url": "https://www.monitor.co.ug/uganda/news/national/rukungiri-pastor-arrested-over-alleged-assault-of-church-secretary-5584358",
+   "summary": "Tumushime said the suspect was arrested and remains in custody as investigations continue.",
    "kind": "item",
    "source": "Daily Monitor (Uganda)",
    "source_id": "np-monitor-ug",
@@ -353,13 +640,387 @@
    "verdict": "weak"
   },
   {
-   "score": 54.8,
+   "score": 57.5,
+   "components": {
+    "tier": 20,
+    "category": 4,
+    "lead": 0.0,
+    "relevance": 8,
+    "freshness": 15.5,
+    "corroborated": 10
+   },
+   "keywords": [
+    "vat"
+   ],
+   "shock_terms": [],
+   "dedupe_match": null,
+   "dedupe_similarity": 0.0,
+   "id": "d33d5e10d019",
+   "title": "Immaculate Acheng Otuko wins Femrite Youth Innovation Poetry Challenge 2026",
+   "url": "https://www.monitor.co.ug/uganda/lifestyle/reviews-profiles/immaculate-acheng-otuko-wins-femrite-youth-innovation-poetry-challenge-2026-5584228",
+   "summary": "Immaculate Acheng Otuko, a Lira-based female writer, won the Femrite youth innovation poetry...",
+   "kind": "item",
+   "source": "Daily Monitor (Uganda)",
+   "source_id": "np-monitor-ug",
+   "tier": 2,
+   "country": "UG",
+   "category": "press",
+   "segments": [
+    "city",
+    "bush",
+    "beach"
+   ],
+   "first_seen": "2026-09-05T15:45+03:00",
+   "published": "2026-09-05",
+   "verdict": "weak"
+  },
+  {
+   "score": 56.2,
+   "components": {
+    "tier": 20,
+    "category": 24,
+    "lead": 2.4,
+    "relevance": 0,
+    "freshness": 19.8,
+    "undated": -6,
+    "page_change": -4
+   },
+   "keywords": [],
+   "shock_terms": [],
+   "dedupe_match": null,
+   "dedupe_similarity": 0.2,
+   "id": "390d99d23907",
+   "title": "[page changed] ProMED-mail",
+   "url": "https://promedmail.org/",
+   "summary": "Protecting Global Health, One Alert at a Time | ProMED Previous slide Next slide Protecting Global Health, One Alert at a Time ProMED: Your 24/7 early warning system for emerging infectious diseases worldwide. Subscribe ProMED's Weekly Pulse A snapshot of global health events from the past 7 days Latest Posts on ProMED All Date Title Sat Sep 05 2026 ENFERMEDADES ENT\u00c9RICAS \u2013 CUBA: ALERTA DE SALUD D",
+   "kind": "page-change",
+   "source": "ProMED-mail",
+   "source_id": "promed",
+   "tier": 2,
+   "country": "GLOBAL",
+   "category": "health",
+   "segments": [
+    "city",
+    "bush",
+    "beach"
+   ],
+   "first_seen": "2026-09-05T19:36+03:00",
+   "published": null,
+   "verdict": "weak"
+  },
+  {
+   "score": 55.7,
+   "components": {
+    "tier": 20,
+    "category": 4,
+    "lead": 0.0,
+    "relevance": 0,
+    "freshness": 19.7,
+    "undated": -6,
+    "shock": 18
+   },
+   "keywords": [],
+   "shock_terms": [
+    "attack"
+   ],
+   "dedupe_match": null,
+   "dedupe_similarity": 0.14,
+   "id": "49e717c06fe4",
+   "title": "international Iranian tanker hit by US attack near Iran's Kharg Island, Tasnim says 7 hours ago - 2 min read",
+   "url": "https://www.thecitizen.co.tz/tanzania/news/international/iranian-tanker-hit-by-us-attack-near-iran-s-kharg-island-tasnim-says-5584480",
+   "summary": "",
+   "kind": "item",
+   "source": "The Citizen (Tanzania)",
+   "source_id": "np-citizen-tz",
+   "tier": 2,
+   "country": "TZ",
+   "category": "press",
+   "segments": [
+    "city",
+    "bush",
+    "beach"
+   ],
+   "first_seen": "2026-09-05T19:36+03:00",
+   "published": null,
+   "verdict": "weak"
+  },
+  {
+   "score": 55.7,
+   "components": {
+    "tier": 20,
+    "category": 4,
+    "lead": 0.0,
+    "relevance": 0,
+    "freshness": 19.7,
+    "undated": -6,
+    "shock": 18
+   },
+   "keywords": [],
+   "shock_terms": [
+    "explosion"
+   ],
+   "dedupe_match": null,
+   "dedupe_similarity": 0.14,
+   "id": "df2e1aae8655",
+   "title": "international Explosion at Bolivia military base kills at least 2, 14 missing, ministry says 7 hours ago - 2 min read",
+   "url": "https://www.thecitizen.co.tz/tanzania/news/international/explosion-at-bolivia-military-base-kills-at-least-2-14-missing-ministry-says-5584470",
+   "summary": "",
+   "kind": "item",
+   "source": "The Citizen (Tanzania)",
+   "source_id": "np-citizen-tz",
+   "tier": 2,
+   "country": "TZ",
+   "category": "press",
+   "segments": [
+    "city",
+    "bush",
+    "beach"
+   ],
+   "first_seen": "2026-09-05T19:36+03:00",
+   "published": null,
+   "verdict": "weak"
+  },
+  {
+   "score": 53.8,
+   "components": {
+    "tier": 20,
+    "category": 4,
+    "lead": 0.0,
+    "relevance": 0,
+    "freshness": 19.8,
+    "corroborated": 10
+   },
+   "keywords": [],
+   "shock_terms": [],
+   "dedupe_match": null,
+   "dedupe_similarity": 0.2,
+   "id": "a1a49bdac915",
+   "title": "Grape harvests surge in Dodoma",
+   "url": "https://dailynews.co.tz/grape-harvests-surge-in-dodoma",
+   "summary": "DODOMA: DODOMA grape farmers in Matumbulu are increasing their annual production from 70 tonnes to 480 tonnes on the same 170-acre area thanks to financing, inputs and technical support from the Tanzania Agricultural Development Bank (TADB). The sharp increase in production has also created new employment opportunities, with more than 300 women and at least \u2026 The post Grape harvests surge in Dodom",
+   "kind": "item",
+   "source": "Daily News (Tanzania)",
+   "source_id": "np-dailynews-tz",
+   "tier": 2,
+   "country": "TZ",
+   "category": "press",
+   "segments": [
+    "city",
+    "bush",
+    "beach"
+   ],
+   "first_seen": "2026-09-05T19:36+03:00",
+   "published": "2026-09-05",
+   "verdict": "weak"
+  },
+  {
+   "score": 53.8,
+   "components": {
+    "tier": 20,
+    "category": 4,
+    "lead": 0.0,
+    "relevance": 0,
+    "freshness": 19.8,
+    "corroborated": 10
+   },
+   "keywords": [],
+   "shock_terms": [],
+   "dedupe_match": null,
+   "dedupe_similarity": 0.25,
+   "id": "6641835dbe84",
+   "title": "Tanzania, DRC agree to fast-track SGR link and fibre-optic cable across Lake Tanganyika",
+   "url": "https://dailynews.co.tz/tanzania-drc-agree-to-fast-track-sgr-link-and-fibre-optic-cable-across-lake-tanganyika",
+   "summary": "DAR ES SALAAM: TANZANIA and the Democratic Republic of Congo (DRC) are set to accelerate implementation of strategic joint projects, including the planned Standard Gauge Railway (SGR) link through Burundi and a national fibre-optic cable across Lake Tanganyika. The commitment was reaffirmed by Minister for Foreign Affairs and East African Cooperation, Dr Mahmoud Thabit Kombo, \u2026 The post Tanzania, ",
+   "kind": "item",
+   "source": "Daily News (Tanzania)",
+   "source_id": "np-dailynews-tz",
+   "tier": 2,
+   "country": "TZ",
+   "category": "press",
+   "segments": [
+    "city",
+    "bush",
+    "beach"
+   ],
+   "first_seen": "2026-09-05T19:36+03:00",
+   "published": "2026-09-05",
+   "verdict": "weak"
+  },
+  {
+   "score": 53.8,
+   "components": {
+    "tier": 20,
+    "category": 4,
+    "lead": 0.0,
+    "relevance": 0,
+    "freshness": 19.8,
+    "corroborated": 10
+   },
+   "keywords": [],
+   "shock_terms": [],
+   "dedupe_match": null,
+   "dedupe_similarity": 0.0,
+   "id": "8322c5f9621b",
+   "title": "Young women changing face of male dominated careers",
+   "url": "https://dailynews.co.tz/young-women-changing-face-of-male-dominated-careers",
+   "summary": "FOR decades, Tanzanian society has associated certain careers with men, particularly professions such as engineering, construction, mechanics, aviation, information technology and other technical fields. Women have often been encouraged to pursue careers considered more traditionally feminine, while technical and physically demanding professions have remained largely male-dominated. Across Tanzani",
+   "kind": "item",
+   "source": "Daily News (Tanzania)",
+   "source_id": "np-dailynews-tz",
+   "tier": 2,
+   "country": "TZ",
+   "category": "press",
+   "segments": [
+    "city",
+    "bush",
+    "beach"
+   ],
+   "first_seen": "2026-09-05T19:36+03:00",
+   "published": "2026-09-05",
+   "verdict": "weak"
+  },
+  {
+   "score": 53.8,
+   "components": {
+    "tier": 20,
+    "category": 4,
+    "lead": 0.0,
+    "relevance": 0,
+    "freshness": 19.8,
+    "corroborated": 10
+   },
+   "keywords": [],
+   "shock_terms": [],
+   "dedupe_match": null,
+   "dedupe_similarity": 0.0,
+   "id": "27f91b938dd1",
+   "title": "Evolution of the beautiful Kudu in Africa",
+   "url": "https://dailynews.co.tz/evolution-of-the-beautiful-kudu-in-africa",
+   "summary": "DAR ES SALAAM: KUDUS are among the most striking antelopes in Africa. They are instantly recognisable by their elegant bodies, distinctive striped coats and, in males, magnificent spiral horns that seem almost too large for their heads. There are two main types: The greater kudu, which is the larger of the two, and the lesser \u2026 The post Evolution of the beautiful Kudu in Africa appeared first on D",
+   "kind": "item",
+   "source": "Daily News (Tanzania)",
+   "source_id": "np-dailynews-tz",
+   "tier": 2,
+   "country": "TZ",
+   "category": "press",
+   "segments": [
+    "city",
+    "bush",
+    "beach"
+   ],
+   "first_seen": "2026-09-05T19:36+03:00",
+   "published": "2026-09-05",
+   "verdict": "weak"
+  },
+  {
+   "score": 53.8,
+   "components": {
+    "tier": 20,
+    "category": 4,
+    "lead": 0.0,
+    "relevance": 0,
+    "freshness": 19.8,
+    "corroborated": 10
+   },
+   "keywords": [],
+   "shock_terms": [],
+   "dedupe_match": null,
+   "dedupe_similarity": 0.2,
+   "id": "528ccaad8ab9",
+   "title": "The job queue is growing, why Tanzania\u2019s youth must learn to create opportunities, not wait",
+   "url": "https://dailynews.co.tz/the-job-queue-is-growing-why-tanzanias-youth-must-learn-to-create-opportunities-not-wait",
+   "summary": "MWANZA: AT a time when young people across Tanzania are increasingly searching for ways to earn a living and build sustainable careers, the Inuka Hub Economic Empowerment Platform is urging them to look beyond formal employment. The platform is encouraging youth to embrace practical training, entrepreneurship and technology as important tools for creating employment, generating \u2026 The post The job ",
+   "kind": "item",
+   "source": "Daily News (Tanzania)",
+   "source_id": "np-dailynews-tz",
+   "tier": 2,
+   "country": "TZ",
+   "category": "press",
+   "segments": [
+    "city",
+    "bush",
+    "beach"
+   ],
+   "first_seen": "2026-09-05T19:36+03:00",
+   "published": "2026-09-05",
+   "verdict": "weak"
+  },
+  {
+   "score": 53.8,
+   "components": {
+    "tier": 20,
+    "category": 4,
+    "lead": 0.0,
+    "relevance": 0,
+    "freshness": 19.8,
+    "corroborated": 10
+   },
+   "keywords": [],
+   "shock_terms": [],
+   "dedupe_match": null,
+   "dedupe_similarity": 0.4,
+   "id": "d0e00e06bd4c",
+   "title": "Two wheels, One dream: A day in the life of a Tanzanian boda boda rider",
+   "url": "https://dailynews.co.tz/two-wheels-one-dream-a-day-in-the-life-of-a-tanzanian-boda-boda-rider",
+   "summary": "DAR ES SALAAM: BEFORE most people step out of their homes, Tanzania\u2019s streets are already beginning to come alive. In the early hours of the morning, when the air is still cool and the roads are relatively quiet, boda boda riders begin preparing for another day. At a small parking area on the edge of \u2026 The post Two wheels, One dream: A day in the life of a Tanzanian boda boda rider appeared first ",
+   "kind": "item",
+   "source": "Daily News (Tanzania)",
+   "source_id": "np-dailynews-tz",
+   "tier": 2,
+   "country": "TZ",
+   "category": "press",
+   "segments": [
+    "city",
+    "bush",
+    "beach"
+   ],
+   "first_seen": "2026-09-05T19:36+03:00",
+   "published": "2026-09-05",
+   "verdict": "weak"
+  },
+  {
+   "score": 53.5,
    "components": {
     "tier": 20,
     "category": 4,
     "lead": 0.0,
     "relevance": 4,
-    "freshness": 16.8,
+    "freshness": 15.5,
+    "corroborated": 10
+   },
+   "keywords": [
+    "investment"
+   ],
+   "shock_terms": [],
+   "dedupe_match": null,
+   "dedupe_similarity": 0.25,
+   "id": "1f63273897ea",
+   "title": "There is always opportunity in East Africa",
+   "url": "https://www.theeastafrican.co.ke/tea/business-tech/there-is-always-opportunity-in-east-africa-5584294",
+   "summary": "We have grown as a bank by entering markets through corporate and investment banking, then...",
+   "kind": "item",
+   "source": "The EastAfrican",
+   "source_id": "np-eastafrican",
+   "tier": 2,
+   "country": "REG",
+   "category": "press",
+   "segments": [
+    "city",
+    "bush",
+    "beach"
+   ],
+   "first_seen": "2026-09-05T15:45+03:00",
+   "published": "2026-09-05",
+   "verdict": "weak"
+  },
+  {
+   "score": 53.5,
+   "components": {
+    "tier": 20,
+    "category": 4,
+    "lead": 0.0,
+    "relevance": 4,
+    "freshness": 15.5,
     "corroborated": 10
    },
    "keywords": [
@@ -371,7 +1032,7 @@
    "id": "af3f13a9fe8f",
    "title": "Shs54b Ssezibwa Bridge nears opening as motorists await relief",
    "url": "https://www.monitor.co.ug/uganda/news/national/shs54b-ssezibwa-bridge-nears-opening-as-motorists-await-relief-5582926",
-   "summary": "",
+   "summary": "Kayunga motorists count days to new Ssezibwa Bridge",
    "kind": "item",
    "source": "Daily Monitor (Uganda)",
    "source_id": "np-monitor-ug",
@@ -388,24 +1049,59 @@
    "verdict": "weak"
   },
   {
-   "score": 53.2,
+   "score": 53.5,
+   "components": {
+    "tier": 20,
+    "category": 4,
+    "lead": 0.0,
+    "relevance": 4,
+    "freshness": 15.5,
+    "corroborated": 10
+   },
+   "keywords": [
+    "camp"
+   ],
+   "shock_terms": [],
+   "dedupe_match": null,
+   "dedupe_similarity": 0.4,
+   "id": "9929031f3d38",
+   "title": "Susan Busingye: From TV star to travel influencer uncovering Uganda\u2019s hidden gems",
+   "url": "https://www.monitor.co.ug/uganda/lifestyle/reviews-profiles/susan-busingye-from-tv-star-to-travel-influencer-uncovering-uganda-s-hidden-gems-5584266",
+   "summary": "For many Ugandans, Susan Busingye is a familiar face from TV screens, fashion campaigns and...",
+   "kind": "item",
+   "source": "Daily Monitor (Uganda)",
+   "source_id": "np-monitor-ug",
+   "tier": 2,
+   "country": "UG",
+   "category": "press",
+   "segments": [
+    "city",
+    "bush",
+    "beach"
+   ],
+   "first_seen": "2026-09-05T15:45+03:00",
+   "published": "2026-09-05",
+   "verdict": "weak"
+  },
+  {
+   "score": 51.9,
    "components": {
     "tier": 20,
     "category": 24,
     "lead": 2.4,
     "relevance": 0,
-    "freshness": 16.8,
+    "freshness": 15.5,
     "undated": -6,
     "page_change": -4
    },
    "keywords": [],
    "shock_terms": [],
    "dedupe_match": null,
-   "dedupe_similarity": 0.0,
+   "dedupe_similarity": 0.2,
    "id": "26fb5cd23b8b",
    "title": "[page changed] ProMED-mail",
    "url": "https://promedmail.org/",
-   "summary": "",
+   "summary": "Protecting Global Health, One Alert at a Time | ProMED Previous slide Next slide Protecting Global Health, One Alert at a Time ProMED: Your 24/7 early warning system for emerging infectious diseases worldwide. Subscribe ProMED's Weekly Pulse A snapshot of global health events from the past 7 days Latest Posts on ProMED All Date Title Sat Sep 05 2026 DENGUE - INDIA (02): (WEST BENGAL) Sat Sep 05 20",
    "kind": "page-change",
    "source": "ProMED-mail",
    "source_id": "promed",
@@ -422,49 +1118,13 @@
    "verdict": "weak"
   },
   {
-   "score": 52.8,
+   "score": 51.5,
    "components": {
     "tier": 20,
     "category": 4,
     "lead": 0.0,
     "relevance": 0,
-    "freshness": 16.8,
-    "undated": -6,
-    "shock": 18
-   },
-   "keywords": [],
-   "shock_terms": [
-    "explosion"
-   ],
-   "dedupe_match": null,
-   "dedupe_similarity": 0.14,
-   "id": "d6026f0fc84b",
-   "title": "international Explosion at Bolivia military base kills at least 2, 14 missing, ministry says 3 hours ago - 2 min read",
-   "url": "https://www.thecitizen.co.tz/tanzania/news/international/explosion-at-bolivia-military-base-kills-at-least-2-14-missing-ministry-says-5584470",
-   "summary": "",
-   "kind": "item",
-   "source": "The Citizen (Tanzania)",
-   "source_id": "np-citizen-tz",
-   "tier": 2,
-   "country": "TZ",
-   "category": "press",
-   "segments": [
-    "city",
-    "bush",
-    "beach"
-   ],
-   "first_seen": "2026-09-05T15:45+03:00",
-   "published": null,
-   "verdict": "weak"
-  },
-  {
-   "score": 52.8,
-   "components": {
-    "tier": 20,
-    "category": 4,
-    "lead": 0.0,
-    "relevance": 0,
-    "freshness": 16.8,
+    "freshness": 15.5,
     "undated": -6,
     "shock": 18
    },
@@ -494,28 +1154,31 @@
    "verdict": "weak"
   },
   {
-   "score": 50.8,
+   "score": 51.5,
    "components": {
     "tier": 20,
     "category": 4,
     "lead": 0.0,
     "relevance": 0,
-    "freshness": 16.8,
-    "corroborated": 10
+    "freshness": 15.5,
+    "undated": -6,
+    "shock": 18
    },
    "keywords": [],
-   "shock_terms": [],
+   "shock_terms": [
+    "explosion"
+   ],
    "dedupe_match": null,
-   "dedupe_similarity": 0.0,
-   "id": "a9840e8fe825",
-   "title": "Speaker Oboth orders Roko to complete new Parliament chamber by June 2027",
-   "url": "https://www.monitor.co.ug/uganda/news/national/speaker-oboth-orders-roko-to-complete-new-parliament-chamber-by-june-2027-5584414",
+   "dedupe_similarity": 0.14,
+   "id": "d6026f0fc84b",
+   "title": "international Explosion at Bolivia military base kills at least 2, 14 missing, ministry says 3 hours ago - 2 min read",
+   "url": "https://www.thecitizen.co.tz/tanzania/news/international/explosion-at-bolivia-military-base-kills-at-least-2-14-missing-ministry-says-5584470",
    "summary": "",
    "kind": "item",
-   "source": "Daily Monitor (Uganda)",
-   "source_id": "np-monitor-ug",
+   "source": "The Citizen (Tanzania)",
+   "source_id": "np-citizen-tz",
    "tier": 2,
-   "country": "UG",
+   "country": "TZ",
    "category": "press",
    "segments": [
     "city",
@@ -523,710 +1186,17 @@
     "beach"
    ],
    "first_seen": "2026-09-05T15:45+03:00",
-   "published": "2026-09-05",
+   "published": null,
    "verdict": "weak"
   },
   {
-   "score": 50.8,
-   "components": {
-    "tier": 20,
-    "category": 4,
-    "lead": 0.0,
-    "relevance": 0,
-    "freshness": 16.8,
-    "corroborated": 10
-   },
-   "keywords": [],
-   "shock_terms": [],
-   "dedupe_match": null,
-   "dedupe_similarity": 0.4,
-   "id": "9929031f3d38",
-   "title": "Susan Busingye: From TV star to travel influencer uncovering Uganda\u2019s hidden gems",
-   "url": "https://www.monitor.co.ug/uganda/lifestyle/reviews-profiles/susan-busingye-from-tv-star-to-travel-influencer-uncovering-uganda-s-hidden-gems-5584266",
-   "summary": "",
-   "kind": "item",
-   "source": "Daily Monitor (Uganda)",
-   "source_id": "np-monitor-ug",
-   "tier": 2,
-   "country": "UG",
-   "category": "press",
-   "segments": [
-    "city",
-    "bush",
-    "beach"
-   ],
-   "first_seen": "2026-09-05T15:45+03:00",
-   "published": "2026-09-05",
-   "verdict": "weak"
-  },
-  {
-   "score": 50.8,
-   "components": {
-    "tier": 20,
-    "category": 4,
-    "lead": 0.0,
-    "relevance": 0,
-    "freshness": 16.8,
-    "corroborated": 10
-   },
-   "keywords": [],
-   "shock_terms": [],
-   "dedupe_match": null,
-   "dedupe_similarity": 0.0,
-   "id": "420bd2492341",
-   "title": "What to know about postpartum mental illness",
-   "url": "https://www.monitor.co.ug/uganda/news/insight/what-to-know-about-postpartum-mental-illness-5584346",
-   "summary": "",
-   "kind": "item",
-   "source": "Daily Monitor (Uganda)",
-   "source_id": "np-monitor-ug",
-   "tier": 2,
-   "country": "UG",
-   "category": "press",
-   "segments": [
-    "city",
-    "bush",
-    "beach"
-   ],
-   "first_seen": "2026-09-05T15:45+03:00",
-   "published": "2026-09-05",
-   "verdict": "weak"
-  },
-  {
-   "score": 50.8,
-   "components": {
-    "tier": 20,
-    "category": 4,
-    "lead": 0.0,
-    "relevance": 0,
-    "freshness": 16.8,
-    "corroborated": 10
-   },
-   "keywords": [],
-   "shock_terms": [],
-   "dedupe_match": null,
-   "dedupe_similarity": 0.2,
-   "id": "94978b6cb50e",
-   "title": "Uganda drafts 10-year health financing strategy to cut donor dependence",
-   "url": "https://www.monitor.co.ug/uganda/news/national/uganda-drafts-10-year-health-financing-strategy-to-cut-donor-dependence-5584386",
-   "summary": "",
-   "kind": "item",
-   "source": "Daily Monitor (Uganda)",
-   "source_id": "np-monitor-ug",
-   "tier": 2,
-   "country": "UG",
-   "category": "press",
-   "segments": [
-    "city",
-    "bush",
-    "beach"
-   ],
-   "first_seen": "2026-09-05T15:45+03:00",
-   "published": "2026-09-05",
-   "verdict": "weak"
-  },
-  {
-   "score": 50.8,
-   "components": {
-    "tier": 20,
-    "category": 4,
-    "lead": 0.0,
-    "relevance": 0,
-    "freshness": 16.8,
-    "corroborated": 10
-   },
-   "keywords": [],
-   "shock_terms": [],
-   "dedupe_match": null,
-   "dedupe_similarity": 0.0,
-   "id": "f7140c2ba265",
-   "title": "Tayebwa asks Kabale District to expand university land",
-   "url": "https://www.monitor.co.ug/uganda/news/national/tayebwa-asks-kabale-district-to-expand-university-land-5584350",
-   "summary": "",
-   "kind": "item",
-   "source": "Daily Monitor (Uganda)",
-   "source_id": "np-monitor-ug",
-   "tier": 2,
-   "country": "UG",
-   "category": "press",
-   "segments": [
-    "city",
-    "bush",
-    "beach"
-   ],
-   "first_seen": "2026-09-05T15:45+03:00",
-   "published": "2026-09-05",
-   "verdict": "weak"
-  },
-  {
-   "score": 50.8,
-   "components": {
-    "tier": 20,
-    "category": 4,
-    "lead": 0.0,
-    "relevance": 0,
-    "freshness": 16.8,
-    "corroborated": 10
-   },
-   "keywords": [],
-   "shock_terms": [],
-   "dedupe_match": null,
-   "dedupe_similarity": 0.0,
-   "id": "38b0cbfb0a54",
-   "title": "Balaalo have exited the north; let Zebu cows occupy the space",
-   "url": "https://www.monitor.co.ug/uganda/oped/commentary/balaalo-have-exited-the-north-let-zebu-cows-occupy-the-space-5584368",
-   "summary": "",
-   "kind": "item",
-   "source": "Daily Monitor (Uganda)",
-   "source_id": "np-monitor-ug",
-   "tier": 2,
-   "country": "UG",
-   "category": "press",
-   "segments": [
-    "city",
-    "bush",
-    "beach"
-   ],
-   "first_seen": "2026-09-05T15:45+03:00",
-   "published": "2026-09-05",
-   "verdict": "weak"
-  },
-  {
-   "score": 50.8,
-   "components": {
-    "tier": 20,
-    "category": 4,
-    "lead": 0.0,
-    "relevance": 0,
-    "freshness": 16.8,
-    "corroborated": 10
-   },
-   "keywords": [],
-   "shock_terms": [],
-   "dedupe_match": null,
-   "dedupe_similarity": 0.0,
-   "id": "493c7933627f",
-   "title": "Bugiri hospital overwhelmed by rising eye disease cases",
-   "url": "https://www.monitor.co.ug/uganda/news/national/bugiri-hospital-overwhelmed-by-rising-eye-disease-cases-5580288",
-   "summary": "",
-   "kind": "item",
-   "source": "Daily Monitor (Uganda)",
-   "source_id": "np-monitor-ug",
-   "tier": 2,
-   "country": "UG",
-   "category": "press",
-   "segments": [
-    "city",
-    "bush",
-    "beach"
-   ],
-   "first_seen": "2026-09-05T15:45+03:00",
-   "published": "2026-09-05",
-   "verdict": "weak"
-  },
-  {
-   "score": 50.8,
-   "components": {
-    "tier": 20,
-    "category": 4,
-    "lead": 0.0,
-    "relevance": 0,
-    "freshness": 16.8,
-    "corroborated": 10
-   },
-   "keywords": [],
-   "shock_terms": [],
-   "dedupe_match": null,
-   "dedupe_similarity": 0.0,
-   "id": "d792ccdc161e",
-   "title": "Pearl Sweet and bitter truth of the oil resource",
-   "url": "https://www.monitor.co.ug/uganda/oped/commentary/pearl-sweet-and-bitter-truth-of-the-oil-resource-5584374",
-   "summary": "",
-   "kind": "item",
-   "source": "Daily Monitor (Uganda)",
-   "source_id": "np-monitor-ug",
-   "tier": 2,
-   "country": "UG",
-   "category": "press",
-   "segments": [
-    "city",
-    "bush",
-    "beach"
-   ],
-   "first_seen": "2026-09-05T15:45+03:00",
-   "published": "2026-09-05",
-   "verdict": "weak"
-  },
-  {
-   "score": 50.8,
-   "components": {
-    "tier": 20,
-    "category": 4,
-    "lead": 0.0,
-    "relevance": 0,
-    "freshness": 16.8,
-    "corroborated": 10
-   },
-   "keywords": [],
-   "shock_terms": [],
-   "dedupe_match": null,
-   "dedupe_similarity": 0.4,
-   "id": "4e57561d70d1",
-   "title": "Why Uganda still lacks a commercial paper market",
-   "url": "https://www.monitor.co.ug/uganda/business/finance/why-uganda-still-lacks-a-commercial-paper-market-5584362",
-   "summary": "",
-   "kind": "item",
-   "source": "Daily Monitor (Uganda)",
-   "source_id": "np-monitor-ug",
-   "tier": 2,
-   "country": "UG",
-   "category": "press",
-   "segments": [
-    "city",
-    "bush",
-    "beach"
-   ],
-   "first_seen": "2026-09-05T15:45+03:00",
-   "published": "2026-09-05",
-   "verdict": "weak"
-  },
-  {
-   "score": 50.8,
-   "components": {
-    "tier": 20,
-    "category": 4,
-    "lead": 0.0,
-    "relevance": 0,
-    "freshness": 16.8,
-    "corroborated": 10
-   },
-   "keywords": [],
-   "shock_terms": [],
-   "dedupe_match": null,
-   "dedupe_similarity": 0.2,
-   "id": "2e7f2285a32a",
-   "title": "Inside the Harrier grille theft racket in Uganda",
-   "url": "https://www.monitor.co.ug/uganda/business/auto/inside-the-harrier-grille-theft-racket-in-uganda-5584360",
-   "summary": "",
-   "kind": "item",
-   "source": "Daily Monitor (Uganda)",
-   "source_id": "np-monitor-ug",
-   "tier": 2,
-   "country": "UG",
-   "category": "press",
-   "segments": [
-    "city",
-    "bush",
-    "beach"
-   ],
-   "first_seen": "2026-09-05T15:45+03:00",
-   "published": "2026-09-05",
-   "verdict": "weak"
-  },
-  {
-   "score": 50.8,
-   "components": {
-    "tier": 20,
-    "category": 4,
-    "lead": 0.0,
-    "relevance": 0,
-    "freshness": 16.8,
-    "corroborated": 10
-   },
-   "keywords": [],
-   "shock_terms": [],
-   "dedupe_match": null,
-   "dedupe_similarity": 0.2,
-   "id": "02bf8972c01f",
-   "title": "Uganda to benefit from Shs755 billion climate finance scheme for farmers",
-   "url": "https://www.monitor.co.ug/uganda/news/national/uganda-to-benefit-from-shs755-billion-climate-finance-scheme-for-farmers-5584388",
-   "summary": "",
-   "kind": "item",
-   "source": "Daily Monitor (Uganda)",
-   "source_id": "np-monitor-ug",
-   "tier": 2,
-   "country": "UG",
-   "category": "press",
-   "segments": [
-    "city",
-    "bush",
-    "beach"
-   ],
-   "first_seen": "2026-09-05T15:45+03:00",
-   "published": "2026-09-05",
-   "verdict": "weak"
-  },
-  {
-   "score": 50.8,
-   "components": {
-    "tier": 20,
-    "category": 4,
-    "lead": 0.0,
-    "relevance": 0,
-    "freshness": 16.8,
-    "corroborated": 10
-   },
-   "keywords": [],
-   "shock_terms": [],
-   "dedupe_match": null,
-   "dedupe_similarity": 0.2,
-   "id": "3964ba1a0e48",
-   "title": "Uganda, South Sudan agree to pursue individuals behind Moyo border violence",
-   "url": "https://www.monitor.co.ug/uganda/news/national/uganda-south-sudan-agree-to-pursue-individuals-behind-moyo-border-violence-5584392",
-   "summary": "",
-   "kind": "item",
-   "source": "Daily Monitor (Uganda)",
-   "source_id": "np-monitor-ug",
-   "tier": 2,
-   "country": "UG",
-   "category": "press",
-   "segments": [
-    "city",
-    "bush",
-    "beach"
-   ],
-   "first_seen": "2026-09-05T15:45+03:00",
-   "published": "2026-09-05",
-   "verdict": "weak"
-  },
-  {
-   "score": 50.8,
-   "components": {
-    "tier": 20,
-    "category": 4,
-    "lead": 0.0,
-    "relevance": 0,
-    "freshness": 16.8,
-    "corroborated": 10
-   },
-   "keywords": [],
-   "shock_terms": [],
-   "dedupe_match": null,
-   "dedupe_similarity": 0.0,
-   "id": "ecf96a753d37",
-   "title": "Jinja roads set for major facelift under Shs83b project after years of neglect",
-   "url": "https://www.monitor.co.ug/uganda/news/national/jinja-roads-set-for-major-facelift-under-shs83b-project-after-years-of-neglect-5584398",
-   "summary": "",
-   "kind": "item",
-   "source": "Daily Monitor (Uganda)",
-   "source_id": "np-monitor-ug",
-   "tier": 2,
-   "country": "UG",
-   "category": "press",
-   "segments": [
-    "city",
-    "bush",
-    "beach"
-   ],
-   "first_seen": "2026-09-05T15:45+03:00",
-   "published": "2026-09-05",
-   "verdict": "weak"
-  },
-  {
-   "score": 50.8,
-   "components": {
-    "tier": 20,
-    "category": 4,
-    "lead": 0.0,
-    "relevance": 0,
-    "freshness": 16.8,
-    "corroborated": 10
-   },
-   "keywords": [],
-   "shock_terms": [],
-   "dedupe_match": null,
-   "dedupe_similarity": 0.0,
-   "id": "3a90040b829a",
-   "title": "Rethinking smallholder farmers, the Heifer way",
-   "url": "https://www.monitor.co.ug/uganda/magazines/farming/rethinking-smallholder-farmers-the-heifer-way-5584420",
-   "summary": "",
-   "kind": "item",
-   "source": "Daily Monitor (Uganda)",
-   "source_id": "np-monitor-ug",
-   "tier": 2,
-   "country": "UG",
-   "category": "press",
-   "segments": [
-    "city",
-    "bush",
-    "beach"
-   ],
-   "first_seen": "2026-09-05T15:45+03:00",
-   "published": "2026-09-05",
-   "verdict": "weak"
-  },
-  {
-   "score": 50.8,
-   "components": {
-    "tier": 20,
-    "category": 4,
-    "lead": 0.0,
-    "relevance": 0,
-    "freshness": 16.8,
-    "corroborated": 10
-   },
-   "keywords": [],
-   "shock_terms": [],
-   "dedupe_match": null,
-   "dedupe_similarity": 0.0,
-   "id": "d76429fb9804",
-   "title": "Ndiisa Farm: A hub of multiple activities",
-   "url": "https://www.monitor.co.ug/uganda/magazines/farming/ndiisa-farm-a-hub-of-multiple-activities-5584424",
-   "summary": "",
-   "kind": "item",
-   "source": "Daily Monitor (Uganda)",
-   "source_id": "np-monitor-ug",
-   "tier": 2,
-   "country": "UG",
-   "category": "press",
-   "segments": [
-    "city",
-    "bush",
-    "beach"
-   ],
-   "first_seen": "2026-09-05T15:45+03:00",
-   "published": "2026-09-05",
-   "verdict": "weak"
-  },
-  {
-   "score": 50.8,
-   "components": {
-    "tier": 20,
-    "category": 4,
-    "lead": 0.0,
-    "relevance": 0,
-    "freshness": 16.8,
-    "corroborated": 10
-   },
-   "keywords": [],
-   "shock_terms": [],
-   "dedupe_match": null,
-   "dedupe_similarity": 0.0,
-   "id": "b1473cd24548",
-   "title": "Nigerian Okoko sets pace at Pros Open",
-   "url": "https://www.monitor.co.ug/uganda/sports/golf/nigerian-okoko-sets-pace-at-pros-open-5584516",
-   "summary": "",
-   "kind": "item",
-   "source": "Daily Monitor (Uganda)",
-   "source_id": "np-monitor-ug",
-   "tier": 2,
-   "country": "UG",
-   "category": "press",
-   "segments": [
-    "city",
-    "bush",
-    "beach"
-   ],
-   "first_seen": "2026-09-05T15:45+03:00",
-   "published": "2026-09-05",
-   "verdict": "weak"
-  },
-  {
-   "score": 50.8,
-   "components": {
-    "tier": 20,
-    "category": 4,
-    "lead": 0.0,
-    "relevance": 0,
-    "freshness": 16.8,
-    "corroborated": 10
-   },
-   "keywords": [],
-   "shock_terms": [],
-   "dedupe_match": null,
-   "dedupe_similarity": 0.0,
-   "id": "1f22549cae77",
-   "title": "Armed men storm Radio Simba, seize political analyst Rwomushana",
-   "url": "https://www.monitor.co.ug/uganda/news/national/armed-men-storm-radio-simba-seize-political-analyst-rwomushana-5584468",
-   "summary": "",
-   "kind": "item",
-   "source": "Daily Monitor (Uganda)",
-   "source_id": "np-monitor-ug",
-   "tier": 2,
-   "country": "UG",
-   "category": "press",
-   "segments": [
-    "city",
-    "bush",
-    "beach"
-   ],
-   "first_seen": "2026-09-05T15:45+03:00",
-   "published": "2026-09-05",
-   "verdict": "weak"
-  },
-  {
-   "score": 50.8,
-   "components": {
-    "tier": 20,
-    "category": 4,
-    "lead": 0.0,
-    "relevance": 0,
-    "freshness": 16.8,
-    "corroborated": 10
-   },
-   "keywords": [],
-   "shock_terms": [],
-   "dedupe_match": null,
-   "dedupe_similarity": 0.0,
-   "id": "a75e2e4092de",
-   "title": "King Oyo\u2019s final journey home",
-   "url": "https://www.monitor.co.ug/uganda/news/national/king-oyo-s-final-journey-home-5584602",
-   "summary": "",
-   "kind": "item",
-   "source": "Daily Monitor (Uganda)",
-   "source_id": "np-monitor-ug",
-   "tier": 2,
-   "country": "UG",
-   "category": "press",
-   "segments": [
-    "city",
-    "bush",
-    "beach"
-   ],
-   "first_seen": "2026-09-05T15:45+03:00",
-   "published": "2026-09-05",
-   "verdict": "weak"
-  },
-  {
-   "score": 50.8,
-   "components": {
-    "tier": 20,
-    "category": 4,
-    "lead": 0.0,
-    "relevance": 0,
-    "freshness": 16.8,
-    "corroborated": 10
-   },
-   "keywords": [],
-   "shock_terms": [],
-   "dedupe_match": null,
-   "dedupe_similarity": 0.25,
-   "id": "86005e963f22",
-   "title": "Milk shortage persists in Kenya, Rwanda",
-   "url": "https://www.theeastafrican.co.ke/tea/business-tech/milk-shortage-persists-in-kenya-rwanda-5584224",
-   "summary": "",
-   "kind": "item",
-   "source": "The EastAfrican",
-   "source_id": "np-eastafrican",
-   "tier": 2,
-   "country": "REG",
-   "category": "press",
-   "segments": [
-    "city",
-    "bush",
-    "beach"
-   ],
-   "first_seen": "2026-09-05T15:45+03:00",
-   "published": "2026-09-05",
-   "verdict": "weak"
-  },
-  {
-   "score": 50.8,
-   "components": {
-    "tier": 20,
-    "category": 4,
-    "lead": 0.0,
-    "relevance": 0,
-    "freshness": 16.8,
-    "corroborated": 10
-   },
-   "keywords": [],
-   "shock_terms": [],
-   "dedupe_match": null,
-   "dedupe_similarity": 0.25,
-   "id": "12e4730f8a9c",
-   "title": "Foreigners can now pay in Kenya without a local SIM card \u2013 but it comes at a cost",
-   "url": "https://www.theeastafrican.co.ke/tea/business-tech/foreigners-can-now-pay-in-kenya-without-a-local-sim-card-at-cost-5584292",
-   "summary": "",
-   "kind": "item",
-   "source": "The EastAfrican",
-   "source_id": "np-eastafrican",
-   "tier": 2,
-   "country": "REG",
-   "category": "press",
-   "segments": [
-    "city",
-    "bush",
-    "beach"
-   ],
-   "first_seen": "2026-09-05T15:45+03:00",
-   "published": "2026-09-05",
-   "verdict": "weak"
-  },
-  {
-   "score": 50.8,
-   "components": {
-    "tier": 20,
-    "category": 4,
-    "lead": 0.0,
-    "relevance": 0,
-    "freshness": 16.8,
-    "corroborated": 10
-   },
-   "keywords": [],
-   "shock_terms": [],
-   "dedupe_match": null,
-   "dedupe_similarity": 0.0,
-   "id": "530edd832f1f",
-   "title": "What next? Somalia prepares to defend its territory when A. Union troops leave",
-   "url": "https://www.theeastafrican.co.ke/tea/news/east-africa/somalia-prepares-to-defend-its-territory-when-au-troops-leave-5584272",
-   "summary": "",
-   "kind": "item",
-   "source": "The EastAfrican",
-   "source_id": "np-eastafrican",
-   "tier": 2,
-   "country": "REG",
-   "category": "press",
-   "segments": [
-    "city",
-    "bush",
-    "beach"
-   ],
-   "first_seen": "2026-09-05T15:45+03:00",
-   "published": "2026-09-05",
-   "verdict": "weak"
-  },
-  {
-   "score": 50.8,
-   "components": {
-    "tier": 20,
-    "category": 4,
-    "lead": 0.0,
-    "relevance": 0,
-    "freshness": 16.8,
-    "corroborated": 10
-   },
-   "keywords": [],
-   "shock_terms": [],
-   "dedupe_match": null,
-   "dedupe_similarity": 0.0,
-   "id": "1f63273897ea",
-   "title": "There is always opportunity in East Africa",
-   "url": "https://www.theeastafrican.co.ke/tea/business-tech/there-is-always-opportunity-in-east-africa-5584294",
-   "summary": "",
-   "kind": "item",
-   "source": "The EastAfrican",
-   "source_id": "np-eastafrican",
-   "tier": 2,
-   "country": "REG",
-   "category": "press",
-   "segments": [
-    "city",
-    "bush",
-    "beach"
-   ],
-   "first_seen": "2026-09-05T15:45+03:00",
-   "published": "2026-09-05",
-   "verdict": "weak"
-  },
-  {
-   "score": 50.8,
+   "score": 49.5,
    "components": {
     "tier": 20,
     "category": 4,
     "lead": 0.0,
     "relevance": 16,
-    "freshness": 16.8,
+    "freshness": 15.5,
     "undated": -6
    },
    "keywords": [
@@ -1256,31 +1226,28 @@
    "verdict": "weak"
   },
   {
-   "score": 42.8,
+   "score": 49.5,
    "components": {
     "tier": 20,
     "category": 4,
     "lead": 0.0,
-    "relevance": 8,
-    "freshness": 16.8,
-    "undated": -6
+    "relevance": 0,
+    "freshness": 15.5,
+    "corroborated": 10
    },
-   "keywords": [
-    "operator",
-    "passenger"
-   ],
+   "keywords": [],
    "shock_terms": [],
    "dedupe_match": null,
    "dedupe_similarity": 0.0,
-   "id": "7913f20d3063",
-   "title": "Bus operators turn to shuttles for passenger convenient drop-offs Sep 03 - 3 min read",
-   "url": "https://www.thecitizen.co.tz/tanzania/news/national/bus-operators-turn-to-shuttles-for-passenger-convenient-drop-offs-5581738",
-   "summary": "",
+   "id": "530edd832f1f",
+   "title": "What next? Somalia prepares to defend its territory when A. Union troops leave",
+   "url": "https://www.theeastafrican.co.ke/tea/news/east-africa/somalia-prepares-to-defend-its-territory-when-au-troops-leave-5584272",
+   "summary": "Top officials met to discuss transitioning full domestic security responsibilities to Somalia...",
    "kind": "item",
-   "source": "The Citizen (Tanzania)",
-   "source_id": "np-citizen-tz",
+   "source": "The EastAfrican",
+   "source_id": "np-eastafrican",
    "tier": 2,
-   "country": "TZ",
+   "country": "REG",
    "category": "press",
    "segments": [
     "city",
@@ -1288,34 +1255,32 @@
     "beach"
    ],
    "first_seen": "2026-09-05T15:45+03:00",
-   "published": null,
+   "published": "2026-09-05",
    "verdict": "weak"
   },
   {
-   "score": 38.8,
+   "score": 49.5,
    "components": {
     "tier": 20,
     "category": 4,
     "lead": 0.0,
-    "relevance": 4,
-    "freshness": 16.8,
-    "undated": -6
+    "relevance": 0,
+    "freshness": 15.5,
+    "corroborated": 10
    },
-   "keywords": [
-    "tourism"
-   ],
+   "keywords": [],
    "shock_terms": [],
    "dedupe_match": null,
-   "dedupe_similarity": 0.17,
-   "id": "21397d7e0081",
-   "title": "Zanzibar bags three top African tourism titles Aug 31 - 2 min read",
-   "url": "https://www.thecitizen.co.tz/tanzania/zanzibar/zanzibar-bags-three-top-african-tourism-titles-5577124",
-   "summary": "",
+   "dedupe_similarity": 0.25,
+   "id": "12e4730f8a9c",
+   "title": "Foreigners can now pay in Kenya without a local SIM card \u2013 but it comes at a cost",
+   "url": "https://www.theeastafrican.co.ke/tea/business-tech/foreigners-can-now-pay-in-kenya-without-a-local-sim-card-at-cost-5584292",
+   "summary": "Across Africa, accessing digital payment options, let alone affordable ones, is limited for...",
    "kind": "item",
-   "source": "The Citizen (Tanzania)",
-   "source_id": "np-citizen-tz",
+   "source": "The EastAfrican",
+   "source_id": "np-eastafrican",
    "tier": 2,
-   "country": "TZ",
+   "country": "REG",
    "category": "press",
    "segments": [
     "city",
@@ -1323,34 +1288,32 @@
     "beach"
    ],
    "first_seen": "2026-09-05T15:45+03:00",
-   "published": null,
+   "published": "2026-09-05",
    "verdict": "weak"
   },
   {
-   "score": 38.8,
+   "score": 49.5,
    "components": {
     "tier": 20,
     "category": 4,
     "lead": 0.0,
-    "relevance": 4,
-    "freshness": 16.8,
-    "undated": -6
+    "relevance": 0,
+    "freshness": 15.5,
+    "corroborated": 10
    },
-   "keywords": [
-    "camp"
-   ],
+   "keywords": [],
    "shock_terms": [],
    "dedupe_match": null,
-   "dedupe_similarity": 0.33,
-   "id": "7bac254bf475",
-   "title": "Zanzibar Free medical camp delivers eye surgeries and care to over 6,800 Zanzibaris 3 hours ago - 3 min read",
-   "url": "https://www.thecitizen.co.tz/tanzania/zanzibar/free-medical-camp-delivers-eye-surgeries-and-care-to-over-6-800-zanzibaris-5584462",
-   "summary": "",
+   "dedupe_similarity": 0.25,
+   "id": "86005e963f22",
+   "title": "Milk shortage persists in Kenya, Rwanda",
+   "url": "https://www.theeastafrican.co.ke/tea/business-tech/milk-shortage-persists-in-kenya-rwanda-5584224",
+   "summary": "Some top supermarkets in Kenya have started restricting purchases to fewer than five packets...",
    "kind": "item",
-   "source": "The Citizen (Tanzania)",
-   "source_id": "np-citizen-tz",
+   "source": "The EastAfrican",
+   "source_id": "np-eastafrican",
    "tier": 2,
-   "country": "TZ",
+   "country": "REG",
    "category": "press",
    "segments": [
     "city",
@@ -1358,7 +1321,73 @@
     "beach"
    ],
    "first_seen": "2026-09-05T15:45+03:00",
-   "published": null,
+   "published": "2026-09-05",
+   "verdict": "weak"
+  },
+  {
+   "score": 49.5,
+   "components": {
+    "tier": 20,
+    "category": 4,
+    "lead": 0.0,
+    "relevance": 0,
+    "freshness": 15.5,
+    "corroborated": 10
+   },
+   "keywords": [],
+   "shock_terms": [],
+   "dedupe_match": null,
+   "dedupe_similarity": 0.0,
+   "id": "a75e2e4092de",
+   "title": "King Oyo\u2019s final journey home",
+   "url": "https://www.monitor.co.ug/uganda/news/national/king-oyo-s-final-journey-home-5584602",
+   "summary": "A series of cultural rituals was performed to receive, protect, and formally welcome the fallen...",
+   "kind": "item",
+   "source": "Daily Monitor (Uganda)",
+   "source_id": "np-monitor-ug",
+   "tier": 2,
+   "country": "UG",
+   "category": "press",
+   "segments": [
+    "city",
+    "bush",
+    "beach"
+   ],
+   "first_seen": "2026-09-05T15:45+03:00",
+   "published": "2026-09-05",
+   "verdict": "weak"
+  },
+  {
+   "score": 49.5,
+   "components": {
+    "tier": 20,
+    "category": 4,
+    "lead": 0.0,
+    "relevance": 0,
+    "freshness": 15.5,
+    "corroborated": 10
+   },
+   "keywords": [],
+   "shock_terms": [],
+   "dedupe_match": null,
+   "dedupe_similarity": 0.0,
+   "id": "1f22549cae77",
+   "title": "Armed men storm Radio Simba, seize political analyst Rwomushana",
+   "url": "https://www.monitor.co.ug/uganda/news/national/armed-men-storm-radio-simba-seize-political-analyst-rwomushana-5584468",
+   "summary": "The armed men swiftly grabbed Rwomushana and took him away from the radio station to an unknown...",
+   "kind": "item",
+   "source": "Daily Monitor (Uganda)",
+   "source_id": "np-monitor-ug",
+   "tier": 2,
+   "country": "UG",
+   "category": "press",
+   "segments": [
+    "city",
+    "bush",
+    "beach"
+   ],
+   "first_seen": "2026-09-05T15:45+03:00",
+   "published": "2026-09-05",
    "verdict": "weak"
   }
  ]
