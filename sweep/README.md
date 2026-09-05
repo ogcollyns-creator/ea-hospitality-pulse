@@ -74,3 +74,68 @@ a month.
 
 Keep `sweep_tiers.json` schedules in sync with `calendar.js`; `calendar.js` is the
 human-facing diary, `sweep_tiers.json` is the machine schedule.
+
+---
+
+## Where the gate runs
+
+`radar/prepublish_gate.py --changed --fix --strict` used to run as the **first step
+of `.github/workflows/post-to-telegram.yml`**. It no longer does, and it must not be
+put back there.
+
+### The failure that moved it
+
+The sweep gate blocks when any tier-A source has `last_swept_date != today`. The
+sweep is agent-driven — nothing polls it on a schedule — so the state file only
+stays fresh if the authoring run refreshes and commits it.
+
+The last sweep was logged **31 August 2026**. From 1 September the gate therefore
+failed on every push. Because it was step one, the job died before
+`actions/setup-python` had even run, and **six editions — 1 Sep morning, 1 Sep
+evening, 3 Sep, 4 Sep, 5 Sep morning, 5 Sep evening — were built, committed and
+published to the website but never posted to Telegram.**
+
+Nobody noticed for five days, because a dead delivery job and a quiet news day look
+identical from inside the channel.
+
+### The rule
+
+**The gate protects what gets written. It does not decide what gets delivered.**
+
+By the time a commit reaches `editions-src/`, the edition is already live on the
+website — `build-site.yml` does not consult the gate. Blocking Telegram at that
+point does not prevent publication; it just removes the audience from an edition
+that shipped anyway. That is the worst of both outcomes: the reader loses the
+brief, and the quality problem the gate found goes unfixed because nobody sees the
+log of a workflow they were not watching.
+
+So:
+
+| Stage | Where | Mode |
+|---|---|---|
+| Sweep + gate | Authoring run, **before** the edition file is written | `--fix --strict`, **blocking** |
+| Gate report | `post-to-telegram.yml` | `--changed`, **non-blocking** (`continue-on-error`) |
+
+### What the authoring run must do, every run
+
+```bash
+python3 sweep/sweep_due.py --slot {morning|midday|evening}   # get the list
+python3 sweep/sweep_due.py --log <id> --outcome found|none|blocked --url ... --note ...
+python3 radar/prepublish_gate.py --changed --fix --strict    # must exit 0
+```
+
+Then commit `sweep/sweep_state.json` and `sweep/sweep_log.jsonl` **with the
+edition**, in the same commit. A sweep that is not committed did not happen, because
+the Actions runner checks out a fresh clone and sees only what is in git.
+
+If the gate blocks, fix the edition or complete the sweep. Do not push and hope.
+
+### Catching up after a missed run
+
+`post-to-telegram.yml` has a `workflow_dispatch` with a `files` input:
+
+- blank → posts the most recently committed edition
+- `pulse-2026-09-01-morning pulse-2026-09-01-evening` → posts exactly those, in the
+  order given, with `gap_seconds` between them
+
+Post backlogs oldest-first so the channel reads chronologically.

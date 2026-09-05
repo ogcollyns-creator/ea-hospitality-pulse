@@ -14,8 +14,18 @@ import urllib.request, urllib.parse, urllib.error
 TOKEN = os.environ.get("TG_TOKEN", "").strip()
 CHAT = os.environ.get("TG_CHAT", "@africabusinessriskreview").strip()
 MAX = 3800  # safety margin under Telegram's 4096 limit
+DRY = os.environ.get("TG_DRY_RUN", "").strip() not in ("", "0", "false", "False")
 
-if not TOKEN:
+# Explicit catch-up list: space- or comma-separated edition paths (or bare
+# filenames). Set by the workflow_dispatch "files" input. Used to repost a
+# backlog after a failed run; ignored on ordinary pushes.
+FILES_IN = os.environ.get("TG_FILES", "").strip()
+
+# Seconds between editions when posting more than one, so a catch-up run
+# arrives as a readable sequence rather than a wall of notifications.
+GAP = int(os.environ.get("TG_GAP_SECONDS", "45") or 45)
+
+if not TOKEN and not DRY:
     print("::error::TELEGRAM_BOT_TOKEN secret is not set — skipping post.")
     sys.exit(0)
 
@@ -80,6 +90,9 @@ def build_caption(body, credit):
 
 def send_photo(img_path, caption):
     """Upload the hero image via a multipart/form-data sendPhoto call."""
+    if DRY:
+        print(f"[dry-run] sendPhoto {os.path.basename(img_path)} caption={caption[:70]!r}")
+        return {"ok": True, "result": {"message_id": 0}}
     boundary = "----EAPulse" + str(int(time.time() * 1000))
     with open(img_path, "rb") as fh:
         img = fh.read()
@@ -159,6 +172,46 @@ def added_files():
     return [f for f in out.splitlines()
             if f.startswith("editions-src/") and f.endswith(".md")]
 
+def _section(md, *names):
+    """Body of the first '## NAME' section whose heading starts with any of
+    NAMES. Splitting on '##+' means a nested '### FIRST COMMENT' also ends the
+    section, which is what we want — the link block is not part of the article."""
+    for part in re.split(r"\n##+\s*", "\n" + md):
+        head = part.strip().split("\n", 1)[0].strip().upper()
+        for n in names:
+            if head.startswith(n):
+                return (part.split("\n", 1)[1] if "\n" in part else "").strip()
+    return ""
+
+
+def article_section(md):
+    """The edition's long-form article, cleaned for Telegram.
+
+    Telegram subscribers were only ever getting the 250-450 word digest; the
+    Big Read went to LinkedIn and the web, so the channel carried a trailer for
+    an article its readers could not read in place. This lifts the long-form
+    piece into the channel as a follow-up message.
+
+    Prefers the evening Big Read, falls back to the morning/midday LinkedIn
+    post. Strips the hashtag block and the LinkedIn sign-off line, which are
+    platform furniture and read as noise here.
+    """
+    body = _section(md, "LINKEDIN BIG READ") or _section(md, "LINKEDIN")
+    if not body:
+        return ""
+    kept = []
+    for line in body.split("\n"):
+        t = line.strip()
+        if t.startswith("#") and re.fullmatch(r"(#\w+\s*)+", t):
+            continue                      # hashtag block
+        if t == "We track this daily at EA Hospitality Pulse.":
+            continue                      # LinkedIn CTA; the channel IS the CTA
+        kept.append(line)
+    out = re.sub(r"\n{3,}", "\n\n", "\n".join(kept)).strip()
+    # Too short to be an article — a stub LinkedIn post adds nothing here.
+    return out if len(out.split()) >= 250 else ""
+
+
 def telegram_section(md):
     for part in re.split(r"\n##+\s*", "\n" + md):
         if part.strip().split("\n", 1)[0].strip().upper().startswith("TELEGRAM"):
@@ -200,6 +253,12 @@ def chunk(text):
             for i, p in enumerate(parts)]
 
 def send(text):
+    if DRY:
+        html = to_html(text)
+        print(f"[dry-run] sendMessage {len(html)} chars (limit 4096)"
+              + ("  <-- OVER LIMIT" if len(html) > 4096 else ""))
+        print("    " + html[:160].replace("\n", " ⏎ "))
+        return {"ok": True, "result": {"message_id": 0}}
     data = urllib.parse.urlencode({
         "chat_id": CHAT,
         "text": to_html(text),
@@ -213,7 +272,24 @@ def send(text):
 
 def main():
     event = os.environ.get("GITHUB_EVENT_NAME", "")
-    if event == "workflow_dispatch":
+    if FILES_IN:
+        # Explicit catch-up list. Accepts bare filenames or full paths, in the
+        # order given, so a backlog is posted oldest-first and reads correctly.
+        files = []
+        for raw in re.split(r"[,\s]+", FILES_IN):
+            if not raw.strip():
+                continue
+            cand = raw.strip()
+            if not cand.startswith("editions-src/"):
+                cand = "editions-src/" + os.path.basename(cand)
+            if not cand.endswith(".md"):
+                cand += ".md"
+            if os.path.exists(cand):
+                files.append(cand)
+            else:
+                print(f"::warning::requested edition not found, skipping: {cand}")
+        print(f"Explicit catch-up list — {len(files)} edition(s): {files}")
+    elif event == "workflow_dispatch":
         # Manual run from the Actions tab: post the most recent edition.
         # Use this to catch up after a failed run, or to test the pipeline.
         files = newest_edition()
@@ -223,7 +299,10 @@ def main():
     if not files:
         print("No new edition files in this push — nothing to post.")
         return
-    for f in files:
+    for fi, f in enumerate(files):
+        if fi:
+            print(f"waiting {GAP}s before the next edition…")
+            time.sleep(GAP)
         try:
             md = open(f, encoding="utf-8").read()
         except OSError as e:
@@ -235,12 +314,21 @@ def main():
             continue
         # Hero image first (best-effort — never blocks the text post)
         post_hero(f, body)
-        for i, part in enumerate(chunk(body)):
+        article = article_section(md)
+        blocks = [("digest", body)]
+        if article:
+            header = ("\U0001F4D6 <b>THE FULL ARTICLE</b>\n"
+                      "The piece behind tonight's brief, in full.\n\n")
+            blocks.append(("article", header + article))
+        else:
+            print(f"no long-form article section in {f} — digest only")
+        for label, text in blocks:
+          for i, part in enumerate(chunk(text)):
             for attempt in (1, 2, 3):
                 try:
                     res = send(part)
                     if res.get("ok"):
-                        print(f"posted {f} part {i+1} -> message_id {res['result']['message_id']}")
+                        print(f"posted {f} [{label}] part {i+1} -> message_id {res['result']['message_id']}")
                         break
                     print(f"::warning::attempt {attempt} not ok: {res}")
                 except urllib.error.HTTPError as e:
@@ -252,7 +340,7 @@ def main():
                     print(f"::warning::attempt {attempt} failed: {e}")
                 time.sleep(3 * attempt)
             else:
-                print(f"::error::failed to post {f} part {i+1} after 3 attempts")
+                print(f"::error::failed to post {f} [{label}] part {i+1} after 3 attempts")
                 sys.exit(1)
             time.sleep(2)   # be gentle between parts
 
