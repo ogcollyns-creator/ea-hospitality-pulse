@@ -1,8 +1,8 @@
 window.LEDGER = {
- "updated": "2026-09-05 09:27",
+ "updated": "2026-09-05 18:37",
  "stats": {
-  "total": 152,
-  "open": 122,
+  "total": 155,
+  "open": 125,
   "resolved": 29,
   "correct": 22,
   "partial": 1,
@@ -1115,6 +1115,22 @@ window.LEDGER = {
    "overdue": false
   },
   {
+   "id": "P154",
+   "made_date": "2026-09-05",
+   "edition": "pulse-2026-09-05-evening",
+   "claim": "The US State Department will still list Tanzania at Level 3 on 31 December 2026 — the October 2025 'unrest' downgrade will not be reversed within the calendar year",
+   "resolution_criteria": "travel.state.gov Tanzania Travel Advisory page checked 2026-12-31. Level 3 = correct. Level 2 or lower = incorrect. Level 4 = incorrect (different movement)",
+   "resolve_by": "2026-12-31",
+   "market": "TZ",
+   "segment": "Beach/Bush",
+   "confidence": "Medium",
+   "status": "open",
+   "resolved_date": "",
+   "evidence": "",
+   "source_url": "https://travel.state.gov/content/travel/en/traveladvisories/traveladvisories/tanzania-travel-advisory.html",
+   "overdue": false
+  },
+  {
    "id": "P006",
    "made_date": "2026-07-25",
    "edition": "Morning Brief",
@@ -1851,6 +1867,22 @@ window.LEDGER = {
    "overdue": false
   },
   {
+   "id": "P152",
+   "made_date": "2026-09-05",
+   "edition": "pulse-2026-09-05-evening",
+   "claim": "The Tourism (Amendment) Bill 2026 will be enacted with the Tourism Research Institute dissolved and its functions transferred to the Kenya Tourism Board — the KATO/committee objections will not preserve TRI as a separate body",
+   "resolution_criteria": "Kenya Gazette publication of the Tourism (Amendment) Act following presidential assent, checked via kenyalaw.org and the National Assembly Bill Tracker. TRI dissolved = correct. TRI retained as a separate corporate body = incorrect. Enacted with a statutory research directorate inside KTB but TRI dissolved = partial",
+   "resolve_by": "2027-06-30",
+   "market": "KE",
+   "segment": "City/Bush/Beach",
+   "confidence": "Medium",
+   "status": "open",
+   "resolved_date": "",
+   "evidence": "",
+   "source_url": "https://thekenyatimes.com/lifestyle/travel-tourism/tourism-ministry-proposes-lvey-changes-to-collection-and-management-of-hotel-levies/",
+   "overdue": false
+  },
+  {
    "id": "P132",
    "made_date": "2026-08-28",
    "edition": "pulse-2026-08-28-midday",
@@ -1880,6 +1912,22 @@ window.LEDGER = {
    "resolved_date": "",
    "evidence": "",
    "source_url": "https://www.tanzaniainvest.com/tourism/tourism-arrivals-earnings-2025",
+   "overdue": false
+  },
+  {
+   "id": "P153",
+   "made_date": "2026-09-05",
+   "edition": "pulse-2026-09-05-evening",
+   "claim": "Kenya's Tourism Research Institute domain (tri.go.ke) will still be resolving and serving its Annual Tourism Sector Performance Report archive twelve months after any enactment dissolving TRI — i.e. the archive survives the institution",
+   "resolution_criteria": "Direct HTTP check of tri.go.ke and the Annual Tourism Sector Performance Report PDF links on 2027-09-30. Archive reachable = correct. Domain dead, redirected without the report archive, or reports unreachable = incorrect. Archive moved intact to a ktb.go.ke path = partial",
+   "resolve_by": "2027-09-30",
+   "market": "KE",
+   "segment": "City/Bush/Beach",
+   "confidence": "Low",
+   "status": "open",
+   "resolved_date": "",
+   "evidence": "",
+   "source_url": "https://tri.go.ke/wp-content/uploads/2025/02/TRI-Tourism-Sector-Performance-Report-2024.pdf",
    "overdue": false
   },
   {

@@ -1,5 +1,14 @@
 window.EDITIONS = [
  {
+  "id": "pulse-2026-09-05-evening",
+  "date": "2026-09-05",
+  "dateDisplay": "Saturday, 5 September 2026",
+  "edition": "Evening Wrap",
+  "editionKey": "evening",
+  "summary": "Nothing cleared the recency gate since midday. So tonight, the Bill in committee that changes who collects your levy, who decides how it is spent, and who counts your guests.",
+  "bodyHtml": "<p><span class=\"meta-line\">🏨 EA HOSPITALITY PULSE — Evening Wrap</span><br><span class=\"meta-line\">📅 Saturday, 5 September 2026 | 🇰🇪 🇺🇬 🇹🇿 🇷🇼</span></p>\n<p>Nothing cleared the recency gate since midday. So tonight, the Bill in committee that changes who collects your levy, who decides how it is spent, and who counts your guests.<br>━━━━━━━━━<br><span class=\"item-head\">1️⃣ KENYA WOULD PUT ITS TOURISM STATISTICS INSIDE ITS TOURISM MARKETING AGENCY</span></p>\n<p>The Tourism (Amendment) Bill 2026 transfers the functions, assets, liabilities, pending proceedings and licences of the Tourism Research Institute to the Kenya Tourism Board, ending TRI as a separate body; staff go to the Public Service Commission. The Tourism Finance Corporation goes the same way. The Tourism Fund keeps collecting hotel and restaurant levies, with the Cabinet Secretary overseeing management, and its mandate widens to research, data, events, county matching grants — and &quot;marketing and branding&quot;. It would also draw proceeds from the Air Passenger Service Charge. (The Kenya Times, 21 August 2026, on the Departmental Committee sitting of 20 August.)</p>\n<p><strong>What everyone is missing.</strong> The debate is about institutional power — KATO&#x27;s Fred Odek warned of a &quot;data vacuum&quot;; Hospitality EQ&#x27;s Barry Clemens flagged concentration risk (Tourism Update, 26 August 2026).</p>\n<p>The operator issue is narrower. You fund this through the levy. TRI&#x27;s arrivals series — 2.7 million international visitors in 2025, up about 9% (TRI Annual Tourism Sector Performance Report 2025, reported 2 April 2026) — is what the whole region prices off, because nothing more granular is published free anywhere in East Africa. Move it inside the agency paid to make Kenya look good and it stops being usable in a lender&#x27;s feasibility study. Inference, labelled: that discount lands in credit committees, not headlines.</p>\n<p>And the archive is physical. TRI&#x27;s reports sit on TRI&#x27;s own domain. Dissolve the institution and the domain goes with it.<br><span class=\"sowhat\">🎯 So what: Download every TRI report your models cite — tonight — and write the source and retrieval date into the document. If you submit during public participation, ask for series continuity and a protected archive, not just a directorate.</span><br><span class=\"tagline\">🏷 City, Bush, Beach | 🇰🇪 (regional read 🇺🇬 🇹🇿 🇷🇼) | Confirmed (Bill contents, as reported) / Inference (effects) | impact:strategy</span><br>━━━━━━━━━<br><span class=\"item-head\">2️⃣ STILL TRUE — TANZANIA AND ZANZIBAR ARE STILL TWO LEVELS APART</span></p>\n<p>No advisory movement on any of the five markets today. The US holds Tanzania and Zanzibar at Level 3, raised from Level 2 on 31 October 2025 on an &quot;unrest&quot; indicator (verified vs travel.state.gov, 4 August 2026). The UK has the same ground at Level 1, advising against travel only within 20km of the Cabo Delgado border. Ten months, no movement.<br><span class=\"sowhat\">🎯 So what: A client quoting &quot;Level 3&quot; is quoting a 2025 decision. Send the FCDO page rather than discounting a beach rate.</span><br><span class=\"tagline\">🏷 Beach, Bush | 🇹🇿 | Confirmed | impact:demand</span><br>━━━━━━━━━<br><span class=\"item-head\">3️⃣ COST PULSE — NINE DAYS TO EPRA, THEN THE VAT CLIFF</span></p>\n<p>Kenyan diesel holds at KSh 217.86/L to 14 September 2026, roughly KSh 14 above what landed costs implied, because diesel users are cross-subsidising petrol (EPRA notice / Business Daily, 14 August 2026). The bigger date is 14 October, when the 8% VAT rate on petroleum expires.<br><span class=\"sowhat\">🎯 So what: Refuse any supplier fuel surcharge before 14 September — the landed-cost figure kills the argument.</span><br><span class=\"tagline\">🏷 Bush, City | 🇰🇪 | Confirmed | impact:margin</span></p>\n<p><span class=\"meta-line\">📅 MICE WATCH: Miss Tourism East Africa 2026 runs 5–12 September in Kampala. Two dozen contestants plus crew is one property&#x27;s group booking, not city compression.</span></p>\n<p>🔗 This edition on the web: <a href=\"https://eahospitalitypulse.com/editions/pulse-2026-09-05-evening.html\" rel=\"noopener\">eahospitalitypulse.com/editions/pulse-2026-09-05-evenin…</a><br>💼 Today&#x27;s Big Read on LinkedIn: <a href=\"https://www.linkedin.com/company/ea-hospitality-pulse/\" rel=\"noopener\">linkedin.com/company/ea-hospitality-pulse/</a><br>— EA Hospitality Pulse | Daily intelligence for city, bush &amp; beach properties</p>"
+ },
+ {
   "id": "pulse-2026-09-05-morning",
   "date": "2026-09-05",
   "dateDisplay": "Saturday, 5 September 2026",
@@ -833,6 +842,67 @@ window.INSIGHTS = [
   "dateDisplay": "Saturday, 5 September 2026",
   "edition": "Morning Brief",
   "editionKey": "morning"
+ },
+ {
+  "headline": "KENYA WOULD PUT ITS TOURISM STATISTICS INSIDE ITS TOURISM MARKETING AGENCY",
+  "body": "The Tourism (Amendment) Bill 2026 transfers the functions, assets, liabilities, pending proceedings and licences of the Tourism Research Institute to the Kenya Tourism Board, ending TRI as a separate body; staff go to the Public Service Commission. The Tourism Finance Corporation goes the same way. The Tourism Fund keeps collecting hotel and restaurant levies, with the Cabinet Secretary overseeing management, and its mandate widens to research, data, events, county matching grants — and \"marketing and branding\". It would also draw proceeds from the Air Passenger Service Charge. (The Kenya Times, 21 August 2026, on the Departmental Committee sitting of 20 August.) **What everyone is missing.** The debate is about institutional power — KATO's Fred Odek warned of a \"data vacuum\"; Hospitality EQ's Barry Clemens flagged concentration risk (Tourism Update, 26 August 2026). The operator issue is narrower. You fund this through the levy. TRI's arrivals series — 2.7 million international visitors in 2025, up about 9% (TRI Annual Tourism Sector Performance Report 2025, reported 2 April 2026) — is what the whole region prices off, because nothing more granular is published free anywhere in East Africa. Move it inside the agency paid to make Kenya look good and it stops being usable in a lender's feasibility study. Inference, labelled: that discount lands in credit committees, not headlines. And the archive is physical. TRI's reports sit on TRI's own domain. Dissolve the institution and the domain goes with it.",
+  "sowhat": "🎯 So what: Download every TRI report your models cite — tonight — and write the source and retrieval date into the document. If you submit during public participation, ask for series continuity and a protected archive, not just a directorate.",
+  "segments": [
+   "city",
+   "bush",
+   "beach"
+  ],
+  "countries": "🇰🇪 (regional read 🇺🇬 🇹🇿 🇷🇼)",
+  "confidence": "Confirmed (Bill contents, as reported) / Inference (effects)",
+  "impact": "-margin",
+  "impactClass": "margin",
+  "intensity": 3,
+  "impactSet": "auto",
+  "source": "pulse-2026-09-05-evening",
+  "date": "2026-09-05",
+  "dateDisplay": "Saturday, 5 September 2026",
+  "edition": "Evening Wrap",
+  "editionKey": "evening"
+ },
+ {
+  "headline": "STILL TRUE — TANZANIA AND ZANZIBAR ARE STILL TWO LEVELS APART",
+  "body": "No advisory movement on any of the five markets today. The US holds Tanzania and Zanzibar at Level 3, raised from Level 2 on 31 October 2025 on an \"unrest\" indicator (verified vs travel.state.gov, 4 August 2026). The UK has the same ground at Level 1, advising against travel only within 20km of the Cabo Delgado border. Ten months, no movement.",
+  "sowhat": "🎯 So what: A client quoting \"Level 3\" is quoting a 2025 decision. Send the FCDO page rather than discounting a beach rate.",
+  "segments": [
+   "bush",
+   "beach"
+  ],
+  "countries": "🇹🇿",
+  "confidence": "Confirmed",
+  "impact": "+demand",
+  "impactClass": "demand",
+  "intensity": 3,
+  "impactSet": "author",
+  "source": "pulse-2026-09-05-evening",
+  "date": "2026-09-05",
+  "dateDisplay": "Saturday, 5 September 2026",
+  "edition": "Evening Wrap",
+  "editionKey": "evening"
+ },
+ {
+  "headline": "COST PULSE — NINE DAYS TO EPRA, THEN THE VAT CLIFF",
+  "body": "Kenyan diesel holds at KSh 217.86/L to 14 September 2026, roughly KSh 14 above what landed costs implied, because diesel users are cross-subsidising petrol (EPRA notice / Business Daily, 14 August 2026). The bigger date is 14 October, when the 8% VAT rate on petroleum expires.",
+  "sowhat": "🎯 So what: Refuse any supplier fuel surcharge before 14 September — the landed-cost figure kills the argument.",
+  "segments": [
+   "city",
+   "bush"
+  ],
+  "countries": "🇰🇪",
+  "confidence": "Confirmed",
+  "impact": "-margin",
+  "impactClass": "margin",
+  "intensity": 3,
+  "impactSet": "author",
+  "source": "pulse-2026-09-05-evening",
+  "date": "2026-09-05",
+  "dateDisplay": "Saturday, 5 September 2026",
+  "edition": "Evening Wrap",
+  "editionKey": "evening"
  },
  {
   "headline": "TANZANIA IS STILL ON THE EU BAN LIST. THE TRADE THINKS IT ISN'T.",
@@ -3684,4 +3754,4 @@ window.INSIGHTS = [
   "editionKey": "evening"
  }
 ];
-window.BUILT_AT = "2026-09-05 09:26";
+window.BUILT_AT = "2026-09-05 18:36";
