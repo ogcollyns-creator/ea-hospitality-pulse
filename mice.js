@@ -9,7 +9,7 @@
 // source — mostly hospitality, tourism and business-events trade. Delegate counts are
 // only included where a named source states one; we do not estimate or invent them.
 window.MICE = {
- updated: "25 August 2026",
+ updated: "5 September 2026",
  events: [
   { event:"Tusker Lite Mt Rwenzori Marathon 2026", city:"Kasese (Rwenzori foothills)", country:"Uganda", flag:"🇺🇬",
     dates:"22 August 2026", status:"Held", delegates:"Runners from ~45 countries (organiser/govt figure); no single headcount published",
@@ -31,8 +31,8 @@ window.MICE = {
     segment:"City, Bush", source:"ATTA (8 Jul 2026) / Capital FM / africaprweek.com", verified:true, flagged:"action" },
 
   { event:"Kwita Izina 2026 \u2014 21st gorilla naming ceremony", city:"Kinigi, Musanze District", country:"Rwanda", flag:"\ud83c\uddf7\ud83c\uddfc",
-    dates:"4 September 2026 (Exhibition 28 Aug\u20138 Sep; Smart Green Village ground-breaking 27 Aug)", status:"Confirmed", delegates:null,
-    detail:"22 baby mountain gorillas to be named by international Namers from conservation, business, sport, entertainment and public service. Total named gorillas expected to reach 460. No official delegate count published \u2014 we do not estimate one.",
+    dates:"4 September 2026 (Exhibition 28 Aug\u20138 Sep; Smart Green Village ground-breaking 27 Aug)", status:"Held", delegates:null,
+    detail:"HELD 4 Sep 2026: RDB confirmed 22 baby mountain gorillas were named at Kinigi (RDB release, 4 September 2026). Originally: 22 baby mountain gorillas to be named by international Namers from conservation, business, sport, entertainment and public service. Total named gorillas expected to reach 460. No official delegate count published \u2014 we do not estimate one.",
     soWhat:"A three-week tail of activity around Musanze from 27 Aug to 8 Sep, not a single night. Volcanoes-area lodges should hold rate across the exhibition window rather than just the 4 Sep ceremony date, and Kigali city hotels should expect inbound/outbound transit either side. Note the date: this is early September, NOT late August \u2014 it does not overlap AfPIF or the WTA gala.",
     segment:"Bush, City", source:"RDB / Taarifa Rwanda (11 Aug 2026) / ATTA (12 Aug 2026)", verified:true, flagged:"action" },
   { event:"15th African Peering & Interconnection Forum (AfPIF 2026)", city:"Kigali (Kigali Marriott Hotel)", country:"Rwanda", flag:"\ud83c\uddf7\ud83c\uddfc",

@@ -1,5 +1,14 @@
 window.EDITIONS = [
  {
+  "id": "pulse-2026-09-05-morning",
+  "date": "2026-09-05",
+  "dateDisplay": "Saturday, 5 September 2026",
+  "edition": "Morning Brief",
+  "editionKey": "morning",
+  "summary": "Ethiopian Airlines has filed to more than double its Addis–Kilimanjaro–Zanzibar service from 30 November. We have not seen this reported anywhere in the East African trade press yet.",
+  "bodyHtml": "<p><span class=\"meta-line\">🏨 EA HOSPITALITY PULSE — Morning Brief</span><br><span class=\"meta-line\">📅 Saturday, 5 September 2026 | 🇹🇿 🇷🇼 🌍</span></p>\n<p>Ethiopian Airlines has filed to more than double its Addis–Kilimanjaro–Zanzibar service from 30 November. We have not seen this reported anywhere in the East African trade press yet.<br>━━━━━━━━━<br><span class=\"item-head\">1️⃣ ETHIOPIAN GOES DAILY INTO KILIMANJARO AND ZANZIBAR — FROM 30 NOVEMBER</span><br>Ethiopian has filed a schedule increase on the Addis Ababa – Kilimanjaro – Zanzibar – Addis triangle: from the 3 weekly originally filed to 7 weekly, effective 30 November 2026 (AeroRoutes, published 04 September 2026). Overall Ethiopian service into those two airports rises from 17–18 weekly to 21. The rotation is ET855, a 737-800: ADD 23:00 → JRO 01:20 → ZNZ 03:30, back into ADD 07:00.<br>Read the clock before you read the capacity. Kilimanjaro receives at 01:20 and dispatches at 02:10; Zanzibar receives at 03:30 and dispatches at 04:20. That is a connecting bank feeding the Addis wave from Europe, Asia and the Gulf — not leisure timing. What arrives with it is night transfers and 06:00 arrivals at your gate, from guests on a through-fare who will not pay a supplement for an early room.<br>The demand side is where the caution sits. Zanzibar&#x27;s arrivals growth has cooled: +19.2% year-on-year in January 2026, +4.9% in February, +3.1% in June, +9.6% in July (Office of the Chief Government Statistician, monthly releases). Seats are landing into the December–March peak faster than arrivals are currently growing.<br><span class=\"sowhat\">🎯 So what: publish a priced 06:00 early-check-in policy before 30 November — you will be asked. And stress-test your peak rate strategy against arrivals growth of three per cent, not nineteen. New lift is not new demand.</span><br><span class=\"tagline\">🏷 Beach, Bush | 🇹🇿 | Confirmed (filing) / Inference (rate effect, ours) | impact:demand</span></p>\n<p><span class=\"item-head\">2️⃣ 92% OF LUXURY HOTEL PHONE CALLS CAPTURE NOTHING</span><br>A Revinate mystery-shopper study of 308 calls to 135 luxury and upscale properties found 92.2% captured no guest contact detail, and staff asked zero discovery questions on more than half the calls (via Hospitality Net, 4 September 2026). The sample is North American. The failure is not.<br>Our transmission is direct. EA lodges and camps run far more enquiry by phone and WhatsApp than a European city hotel, and far more confirmed business through agents. The direct enquiry is the one channel where you own the guest record outright. Losing the name and email on nine calls in ten means paying commission twice — to whoever converts the guest this year, and again next year because you cannot reach them.<br><span class=\"sowhat\">🎯 So what: mystery-shop your own reservations line this week. One call, at 19:00. If your team quotes a rate before asking for a name and an email, that is a free fix worth more than any channel-mix project you have.</span><br><span class=\"tagline\">🏷 City, Bush, Beach | 🌍→EA | Confirmed (study) / Inference (EA read, ours) | impact:cost</span><br>━━━━━━━━━<br><span class=\"meta-line\">📡 RADAR</span><br>• 4 Sep, held — 21st Kwita Izina at Kinigi; 22 gorillas named (RDB, 4 Sep). Exhibition runs to 8 Sep: three nights of Musanze demand still open.<br>• 5–12 Sep, running — Miss Tourism East Africa finals, Kampala. ~24 contestants: one property&#x27;s group booking. Do not lift Kampala BAR on it.<br>• 11 Sep, 16:59 EDT — the CDC order rerouting Uganda- and South Sudan-origin arrivals expires. Watch for renewal or lapse.<br>• ~14 Sep — EPRA fuel review; the current Kenya cycle ends 14 Sep.<br>• 30 Nov — Ethiopian&#x27;s daily JRO/ZNZ rotation begins, on today&#x27;s filing.</p>\n<p><span class=\"meta-line\">💬 Beach operators: what does a 03:30 arrival actually cost you in transfers and early check-ins?</span></p>\n<p>🔗 This edition on the web: <a href=\"https://eahospitalitypulse.com/editions/pulse-2026-09-05-morning.html\" rel=\"noopener\">eahospitalitypulse.com/editions/pulse-2026-09-05-mornin…</a><br>— EA Hospitality Pulse | Daily intelligence for city, bush &amp; beach properties</p>"
+ },
+ {
   "id": "pulse-2026-09-04-morning",
   "date": "2026-09-04",
   "dateDisplay": "Friday, 4 September 2026",
@@ -784,6 +793,47 @@ window.EDITIONS = [
  }
 ];
 window.INSIGHTS = [
+ {
+  "headline": "ETHIOPIAN GOES DAILY INTO KILIMANJARO AND ZANZIBAR — FROM 30 NOVEMBER",
+  "body": "Ethiopian has filed a schedule increase on the Addis Ababa – Kilimanjaro – Zanzibar – Addis triangle: from the 3 weekly originally filed to 7 weekly, effective 30 November 2026 (AeroRoutes, published 04 September 2026). Overall Ethiopian service into those two airports rises from 17–18 weekly to 21. The rotation is ET855, a 737-800: ADD 23:00 → JRO 01:20 → ZNZ 03:30, back into ADD 07:00. Read the clock before you read the capacity. Kilimanjaro receives at 01:20 and dispatches at 02:10; Zanzibar receives at 03:30 and dispatches at 04:20. That is a connecting bank feeding the Addis wave from Europe, Asia and the Gulf — not leisure timing. What arrives with it is night transfers and 06:00 arrivals at your gate, from guests on a through-fare who will not pay a supplement for an early room. The demand side is where the caution sits. Zanzibar's arrivals growth has cooled: +19.2% year-on-year in January 2026, +4.9% in February, +3.1% in June, +9.6% in July (Office of the Chief Government Statistician, monthly releases). Seats are landing into the December–March peak faster than arrivals are currently growing.",
+  "sowhat": "🎯 So what: publish a priced 06:00 early-check-in policy before 30 November — you will be asked. And stress-test your peak rate strategy against arrivals growth of three per cent, not nineteen. New lift is not new demand.",
+  "segments": [
+   "bush",
+   "beach"
+  ],
+  "countries": "🇹🇿",
+  "confidence": "Confirmed (filing) / Inference (rate effect, ours)",
+  "impact": "+demand",
+  "impactClass": "demand",
+  "intensity": 3,
+  "impactSet": "author",
+  "source": "pulse-2026-09-05-morning",
+  "date": "2026-09-05",
+  "dateDisplay": "Saturday, 5 September 2026",
+  "edition": "Morning Brief",
+  "editionKey": "morning"
+ },
+ {
+  "headline": "92% OF LUXURY HOTEL PHONE CALLS CAPTURE NOTHING",
+  "body": "A Revinate mystery-shopper study of 308 calls to 135 luxury and upscale properties found 92.2% captured no guest contact detail, and staff asked zero discovery questions on more than half the calls (via Hospitality Net, 4 September 2026). The sample is North American. The failure is not. Our transmission is direct. EA lodges and camps run far more enquiry by phone and WhatsApp than a European city hotel, and far more confirmed business through agents. The direct enquiry is the one channel where you own the guest record outright. Losing the name and email on nine calls in ten means paying commission twice — to whoever converts the guest this year, and again next year because you cannot reach them.",
+  "sowhat": "🎯 So what: mystery-shop your own reservations line this week. One call, at 19:00. If your team quotes a rate before asking for a name and an email, that is a free fix worth more than any channel-mix project you have.",
+  "segments": [
+   "city",
+   "bush",
+   "beach"
+  ],
+  "countries": "🌍→EA",
+  "confidence": "Confirmed (study) / Inference (EA read, ours)",
+  "impact": "-margin",
+  "impactClass": "margin",
+  "intensity": 3,
+  "impactSet": "author",
+  "source": "pulse-2026-09-05-morning",
+  "date": "2026-09-05",
+  "dateDisplay": "Saturday, 5 September 2026",
+  "edition": "Morning Brief",
+  "editionKey": "morning"
+ },
  {
   "headline": "TANZANIA IS STILL ON THE EU BAN LIST. THE TRADE THINKS IT ISN'T.",
   "body": "The Commission's 48th update of the EU Air Safety List (DG MOVE, 9 June 2026) still bans every Tanzanian-certified airline — one of 16 states listed for inadequate *regulator* oversight, not aircraft faults. Kyrgyzstan came off the same list entirely, so it is a two-way door. Yet ATTA's library still carries \"Tanzanian Airlines to Resume Flights to Europe After EU Safety Ban Lifted\", 15 September 2025, sourced to Tuko. Wrong then, still circulating. Separately, TCAA posted a notice headlined \"TCAA and EU reaffirm commitment to strengthen aviation safety oversight\" (tcaa.go.tz, 4 September 2026; seen 06:23 EAT, no press coverage found). The notice exists — the page would not render for us, so we make no claim on its contents.",
@@ -3634,4 +3684,4 @@ window.INSIGHTS = [
   "editionKey": "evening"
  }
 ];
-window.BUILT_AT = "2026-09-04 08:30";
+window.BUILT_AT = "2026-09-05 09:26";

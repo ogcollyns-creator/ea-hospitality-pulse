@@ -1,8 +1,8 @@
 window.LEDGER = {
- "updated": "2026-09-04 08:30",
+ "updated": "2026-09-05 09:27",
  "stats": {
-  "total": 150,
-  "open": 120,
+  "total": 152,
+  "open": 122,
   "resolved": 29,
   "correct": 22,
   "partial": 1,
@@ -10,22 +10,6 @@ window.LEDGER = {
   "accuracy": 78
  },
  "open": [
-  {
-   "id": "P085",
-   "made_date": "2026-08-16",
-   "edition": "pulse-2026-08-16-midday",
-   "claim": "Docket CDC-2026-0892 will close its 15-day comment window (opening on Federal Register publication 17 Aug 2026, closing on or about 1 Sep 2026) having received fewer than ten public comments — the East African hospitality trade will again not file",
-   "resolution_criteria": "regulations.gov docket CDC-2026-0892 comment count for the August 2026 order, checked after the window closes, is fewer than 10. If ten or more comments are received, incorrect",
-   "resolve_by": "2026-09-05",
-   "market": "Regional",
-   "segment": "Bush/City",
-   "confidence": "Medium",
-   "status": "open",
-   "resolved_date": "",
-   "evidence": "",
-   "source_url": "https://www.regulations.gov/docket/CDC-2026-0892",
-   "overdue": false
-  },
   {
    "id": "P042",
    "made_date": "2026-08-01",
@@ -200,6 +184,22 @@ window.LEDGER = {
    "resolved_date": "",
    "evidence": "",
    "source_url": "https://wwwnc.cdc.gov/travel/notices",
+   "overdue": false
+  },
+  {
+   "id": "P085",
+   "made_date": "2026-08-16",
+   "edition": "pulse-2026-08-16-midday",
+   "claim": "Docket CDC-2026-0892 will close its 15-day comment window (opening on Federal Register publication 17 Aug 2026, closing on or about 1 Sep 2026) having received fewer than ten public comments — the East African hospitality trade will again not file",
+   "resolution_criteria": "regulations.gov docket CDC-2026-0892 comment count for the August 2026 order, checked after the window closes, is fewer than 10. If ten or more comments are received, incorrect",
+   "resolve_by": "2026-09-19",
+   "market": "Regional",
+   "segment": "Bush/City",
+   "confidence": "Medium",
+   "status": "open",
+   "resolved_date": "",
+   "evidence": "Checked 5 Sep 2026: no post-close comment count for the August window (FR Doc 2026-16706, docket CDC-2026-0892) could be retrieved. CDC's own record of prior windows — 3 comments on the May original/amended order, 5 on the 21 June continuation, 0 on the 13 July continuation — points the same way, but the specific count is the resolution criterion and it is not yet published. Resolve_by extended to 19 Sep rather than resolved on inference.",
+   "source_url": "https://www.regulations.gov/docket/CDC-2026-0892",
    "overdue": false
   },
   {
@@ -827,6 +827,22 @@ window.LEDGER = {
    "overdue": false
   },
   {
+   "id": "P150",
+   "made_date": "2026-09-05",
+   "edition": "pulse-2026-09-05-morning",
+   "claim": "Ethiopian Airlines will be operating the Addis Ababa – Kilimanjaro – Zanzibar – Addis rotation (ET855) at 7 weekly on 15 December 2026 — the 4 Sep 2026 filing will be flown, not cut back",
+   "resolution_criteria": "Published Ethiopian Airlines timetable or an AeroRoutes/ch-aviation schedule check on or about 15 Dec 2026 shows ET855 ADD-JRO-ZNZ-ADD operating 7 weekly. Fewer than 7 weekly = incorrect; 7 weekly but re-timed = partial",
+   "resolve_by": "2026-12-20",
+   "market": "TZ",
+   "segment": "Beach/Bush",
+   "confidence": "Medium",
+   "status": "open",
+   "resolved_date": "",
+   "evidence": "",
+   "source_url": "https://www.aeroroutes.com/eng/260904-etnw26jroznz",
+   "overdue": false
+  },
+  {
    "id": "P015",
    "made_date": "2026-07-26",
    "edition": "Midday Pulse",
@@ -1176,6 +1192,22 @@ window.LEDGER = {
    "resolved_date": "",
    "evidence": "",
    "source_url": "https://www.rwandair.com/",
+   "overdue": false
+  },
+  {
+   "id": "P151",
+   "made_date": "2026-09-05",
+   "edition": "pulse-2026-09-05-morning",
+   "claim": "Zanzibar's December 2026 international arrivals will grow by less than 15% year-on-year — added seat capacity into the peak will not restore the January 2026 growth rate",
+   "resolution_criteria": "OCGS monthly tourism arrival release for December 2026 shows YoY growth below 15.0%. 15.0% or above = incorrect. Compare against Jan 2026 +19.2%, Jun +3.1%, Jul +9.6%",
+   "resolve_by": "2027-02-28",
+   "market": "ZNZ",
+   "segment": "Beach",
+   "confidence": "Medium",
+   "status": "open",
+   "resolved_date": "",
+   "evidence": "",
+   "source_url": "https://www.ocgs.go.tz/tourism",
    "overdue": false
   },
   {
