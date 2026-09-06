@@ -1,18 +1,18 @@
 {
- "generated": "2026-09-06T20:37:37+03:00",
+ "generated": "2026-09-06T23:07:26+03:00",
  "slot": "evening",
  "window_start": 1788688800,
- "observations_in_window": 143,
+ "observations_in_window": 202,
  "deduped_against": 29,
  "candidates": [
   {
-   "score": 64.4,
+   "score": 61.7,
    "components": {
     "tier": 40,
     "category": 12,
     "lead": 3.6,
     "relevance": 0,
-    "freshness": 18.8,
+    "freshness": 16.1,
     "undated": -6,
     "page_change": -4
    },
@@ -40,13 +40,46 @@
    "verdict": "OPEN THIS \u2014 tier-1 airline page moved; content not auto-parsed, read it manually"
   },
   {
-   "score": 81.8,
+   "score": 81.4,
+   "components": {
+    "tier": 40,
+    "category": 32,
+    "lead": 3.6,
+    "relevance": 0,
+    "freshness": 19.8,
+    "stale_trap": -10,
+    "page_change": -4
+   },
+   "keywords": [],
+   "shock_terms": [],
+   "dedupe_match": null,
+   "dedupe_similarity": 0.0,
+   "id": "b9da6f75334e",
+   "title": "[page changed] Federal Register \u2014 public inspection (HHS/CDC), pre-publication",
+   "url": "https://www.federalregister.gov/api/v1/public-inspection-documents/current.json",
+   "summary": "{\"count\":77,\"results\":[{\"agencies\":[{\"raw_name\":\"Health Resources and Services Administration\",\"name\":\"Health Resources and Services Administration\",\"id\":222,\"url\":\"https://www.federalregister.gov/agencies/health-resources-and-services-administration\",\"json_url\":\"https://www.federalregister.gov/api/v1/agencies/222\",\"parent_id\":221,\"slug\":\"health-resources-and-services-administration\"}],\"agency_let",
+   "kind": "page-change",
+   "source": "Federal Register \u2014 public inspection (HHS/CDC), pre-publication",
+   "source_id": "us-fedreg-pubinspect-hhs",
+   "tier": 1,
+   "country": "REG",
+   "category": "advisory",
+   "segments": [
+    "city",
+    "bush"
+   ],
+   "first_seen": "2026-09-06T23:06+03:00",
+   "published": "2026-09-03",
+   "verdict": "CHECK \u2014 source date older than the window"
+  },
+  {
+   "score": 79.1,
    "components": {
     "tier": 40,
     "category": 32,
     "lead": 1.2,
     "relevance": 0,
-    "freshness": 14.6,
+    "freshness": 11.9,
     "undated": -6
    },
    "keywords": [],
@@ -73,13 +106,13 @@
    "verdict": "CONSIDER"
   },
   {
-   "score": 80.4,
+   "score": 77.7,
    "components": {
     "tier": 40,
     "category": 32,
     "lead": 3.6,
     "relevance": 0,
-    "freshness": 18.8,
+    "freshness": 16.1,
     "stale_trap": -10,
     "page_change": -4
    },
@@ -106,13 +139,13 @@
    "verdict": "CHECK \u2014 source date older than the window"
   },
   {
-   "score": 79.6,
+   "score": 76.9,
    "components": {
     "tier": 40,
     "category": 10,
     "lead": 16.8,
     "relevance": 0,
-    "freshness": 18.8,
+    "freshness": 16.1,
     "undated": -6
    },
    "keywords": [],
@@ -139,13 +172,13 @@
    "verdict": "CONSIDER"
   },
   {
-   "score": 76.2,
+   "score": 73.5,
    "components": {
     "tier": 40,
     "category": 32,
     "lead": 3.6,
     "relevance": 0,
-    "freshness": 14.6,
+    "freshness": 11.9,
     "stale_trap": -10,
     "page_change": -4
    },
@@ -172,13 +205,13 @@
    "verdict": "CHECK \u2014 source date older than the window"
   },
   {
-   "score": 72.8,
+   "score": 70.1,
    "components": {
     "tier": 40,
     "category": 13,
     "lead": 6.0,
     "relevance": 0,
-    "freshness": 19.8,
+    "freshness": 17.1,
     "undated": -6
    },
    "keywords": [],
@@ -205,13 +238,13 @@
    "verdict": "CONSIDER"
   },
   {
-   "score": 72.3,
+   "score": 69.5,
    "components": {
     "tier": 20,
     "category": 5,
     "lead": 2.4,
     "relevance": 16,
-    "freshness": 18.9,
+    "freshness": 16.1,
     "corroborated": 10
    },
    "keywords": [
@@ -240,16 +273,16 @@
    ],
    "first_seen": "2026-09-06T19:45+03:00",
    "published": "2026-09-06",
-   "verdict": "CONSIDER"
+   "verdict": "weak"
   },
   {
-   "score": 68.0,
+   "score": 65.3,
    "components": {
     "tier": 20,
     "category": 5,
     "lead": 2.4,
     "relevance": 16,
-    "freshness": 14.6,
+    "freshness": 11.9,
     "corroborated": 10
    },
    "keywords": [
@@ -281,13 +314,122 @@
    "verdict": "weak"
   },
   {
-   "score": 64.3,
+   "score": 64.2,
+   "components": {
+    "tier": 20,
+    "category": 24,
+    "lead": 2.4,
+    "relevance": 8,
+    "freshness": 19.8,
+    "undated": -6,
+    "page_change": -4
+   },
+   "keywords": [
+    "vat"
+   ],
+   "shock_terms": [],
+   "dedupe_match": null,
+   "dedupe_similarity": 0.2,
+   "id": "11041c8f2903",
+   "title": "[page changed] ProMED-mail",
+   "url": "https://promedmail.org/",
+   "summary": "Protecting Global Health, One Alert at a Time | ProMED Previous slide Next slide Protecting Global Health, One Alert at a Time ProMED: Your 24/7 early warning system for emerging infectious diseases worldwide. Subscribe ProMED's Weekly Pulse A snapshot of global health events from the past 7 days Latest Posts on ProMED All Date Title Sun Sep 06 2026 \u0417\u0430\u0440\u0443\u0431\u0435\u0436\u043d\u043e\u0435 \u044d\u043f\u0438\u0434\u043e\u0431\u043e\u0437\u0440\u0435\u043d\u0438\u0435 \u2013 \u043a\u043e\u0440\u044c \u2013 \u0421\u0428\u0410 (2) Sun Se",
+   "kind": "page-change",
+   "source": "ProMED-mail",
+   "source_id": "promed",
+   "tier": 2,
+   "country": "GLOBAL",
+   "category": "health",
+   "segments": [
+    "city",
+    "bush",
+    "beach"
+   ],
+   "first_seen": "2026-09-06T23:06+03:00",
+   "published": null,
+   "verdict": "weak"
+  },
+  {
+   "score": 63.8,
+   "components": {
+    "tier": 20,
+    "category": 4,
+    "lead": 0.0,
+    "relevance": 8,
+    "freshness": 19.8,
+    "undated": -6,
+    "shock": 18
+   },
+   "keywords": [
+    "strike"
+   ],
+   "shock_terms": [
+    "strike"
+   ],
+   "dedupe_match": null,
+   "dedupe_similarity": 0.4,
+   "id": "d48b36abad3e",
+   "title": "World US envoys hold talks with Zelensky on first Kyiv visit Witkoff and Kushner have visited Moscow eight times but had never held talks in Kyiv \u2014 hit by deadly strikes since Russia's February 2022 invasion \u2014 until now.Ukraine's top security officials and negotiators were also present, along with several European national security advisors.",
+   "url": "https://www.newvision.co.ug/category/world/us-envoys-hold-talks-with-zelensky-on-first-k-NV_240175_092026",
+   "summary": "",
+   "kind": "item",
+   "source": "New Vision (Uganda)",
+   "source_id": "np-newvision-ug",
+   "tier": 2,
+   "country": "UG",
+   "category": "press",
+   "segments": [
+    "city",
+    "bush",
+    "beach"
+   ],
+   "first_seen": "2026-09-06T23:07+03:00",
+   "published": null,
+   "verdict": "weak"
+  },
+  {
+   "score": 61.8,
+   "components": {
+    "tier": 20,
+    "category": 4,
+    "lead": 0.0,
+    "relevance": 8,
+    "freshness": 19.8,
+    "corroborated": 10
+   },
+   "keywords": [
+    "occupancy"
+   ],
+   "shock_terms": [],
+   "dedupe_match": null,
+   "dedupe_similarity": 0.0,
+   "id": "1082ea05eb3a",
+   "title": "Certificate of occupancy: What landowners need to know",
+   "url": "https://dailynews.co.tz/certificate-of-occupancy-what-landowners-need-to-know",
+   "summary": "DAR ES SALAAM: FOR holders of a Certificate of Right of Occupancy, the right to use and occupy land comes with conditions, including, in many cases, a requirement to develop the land within a specified period. This is one of the important aspects of land ownership that prospective buyers and existing landholders need to understand \u2026 The post Certificate of occupancy: What landowners need to know a",
+   "kind": "item",
+   "source": "Daily News (Tanzania)",
+   "source_id": "np-dailynews-tz",
+   "tier": 2,
+   "country": "TZ",
+   "category": "press",
+   "segments": [
+    "city",
+    "bush",
+    "beach"
+   ],
+   "first_seen": "2026-09-06T23:06+03:00",
+   "published": "2026-09-06",
+   "verdict": "weak"
+  },
+  {
+   "score": 61.5,
    "components": {
     "tier": 20,
     "category": 5,
     "lead": 2.4,
     "relevance": 8,
-    "freshness": 18.9,
+    "freshness": 16.1,
     "corroborated": 10
    },
    "keywords": [
@@ -317,13 +459,13 @@
    "verdict": "weak"
   },
   {
-   "score": 64.0,
+   "score": 61.3,
    "components": {
     "tier": 20,
     "category": 5,
     "lead": 2.4,
     "relevance": 12,
-    "freshness": 14.6,
+    "freshness": 11.9,
     "corroborated": 10
    },
    "keywords": [
@@ -353,13 +495,13 @@
    "verdict": "weak"
   },
   {
-   "score": 63.3,
+   "score": 60.5,
    "components": {
     "tier": 20,
     "category": 24,
     "lead": 2.4,
     "relevance": 8,
-    "freshness": 18.9,
+    "freshness": 16.1,
     "undated": -6,
     "page_change": -4
    },
@@ -389,13 +531,13 @@
    "verdict": "weak"
   },
   {
-   "score": 63.1,
+   "score": 60.3,
    "components": {
     "tier": 20,
     "category": 5,
     "lead": 1.2,
     "relevance": 8,
-    "freshness": 18.9,
+    "freshness": 16.1,
     "corroborated": 10
    },
    "keywords": [
@@ -425,13 +567,13 @@
    "verdict": "weak"
   },
   {
-   "score": 60.9,
+   "score": 58.1,
    "components": {
     "tier": 20,
     "category": 4,
     "lead": 0.0,
     "relevance": 8,
-    "freshness": 18.9,
+    "freshness": 16.1,
     "corroborated": 10
    },
    "keywords": [
@@ -460,13 +602,13 @@
    "verdict": "weak"
   },
   {
-   "score": 60.6,
+   "score": 57.9,
    "components": {
     "tier": 20,
     "category": 4,
     "lead": 0.0,
     "relevance": 12,
-    "freshness": 14.6,
+    "freshness": 11.9,
     "corroborated": 10
    },
    "keywords": [
@@ -496,13 +638,48 @@
    "verdict": "weak"
   },
   {
-   "score": 60.0,
+   "score": 57.8,
+   "components": {
+    "tier": 20,
+    "category": 4,
+    "lead": 0.0,
+    "relevance": 4,
+    "freshness": 19.8,
+    "corroborated": 10
+   },
+   "keywords": [
+    "passenger"
+   ],
+   "shock_terms": [],
+   "dedupe_match": null,
+   "dedupe_similarity": 0.33,
+   "id": "0fa97b8b66d7",
+   "title": "Police in Mwanza arrest bus driver for reckless driving, uttering abusive language",
+   "url": "https://dailynews.co.tz/police-in-mwanza-arrest-bus-driver-for-reckless-driving-uttering-abusive-language",
+   "summary": "MWANZA: POLICE here have arrested the driver of the Obadia Company bus, Mr Sabatho Malima Emmanuel, aged 32, on charges of driving a motor vehicle in a dangerous manner while using a mobile phone and using abusive language towards passengers who stopped him. Speaking today at his office, Mwanza Regional Police Commander, Mr Wilbroad Mutafungwa, \u2026 The post Police in Mwanza arrest bus driver for rec",
+   "kind": "item",
+   "source": "Daily News (Tanzania)",
+   "source_id": "np-dailynews-tz",
+   "tier": 2,
+   "country": "TZ",
+   "category": "press",
+   "segments": [
+    "city",
+    "bush",
+    "beach"
+   ],
+   "first_seen": "2026-09-06T23:06+03:00",
+   "published": "2026-09-06",
+   "verdict": "weak"
+  },
+  {
+   "score": 57.3,
    "components": {
     "tier": 20,
     "category": 5,
     "lead": 2.4,
     "relevance": 8,
-    "freshness": 14.6,
+    "freshness": 11.9,
     "corroborated": 10
    },
    "keywords": [
@@ -532,13 +709,13 @@
    "verdict": "weak"
   },
   {
-   "score": 60.0,
+   "score": 57.3,
    "components": {
     "tier": 20,
     "category": 5,
     "lead": 2.4,
     "relevance": 8,
-    "freshness": 14.6,
+    "freshness": 11.9,
     "corroborated": 10
    },
    "keywords": [
@@ -568,13 +745,46 @@
    "verdict": "weak"
   },
   {
-   "score": 58.9,
+   "score": 56.4,
+   "components": {
+    "tier": 20,
+    "category": 9,
+    "lead": 3.6,
+    "relevance": 4,
+    "freshness": 19.8
+   },
+   "keywords": [
+    "tourist"
+   ],
+   "shock_terms": [],
+   "dedupe_match": null,
+   "dedupe_similarity": 0.0,
+   "id": "574b3411f466",
+   "title": "Neue Strategie soll helfen: Thailand rechnet mit massiv weniger Touristen",
+   "url": "https://www.fvw.de/touristik/destination/neue-strategie-soll-helfen-warum-thailand-seine-urlauber-prognose-deutlich-senkt-264301",
+   "summary": "Weniger G\u00e4ste als erhofft: Thailand hat seine Prognose f\u00fcr die Besucherzahlen im laufenden Jahr um 18 Prozent gesenkt. Vor allem aus einem Quellmarkt bleiben viele Urlauber aus. Nun setzt das Land noch st\u00e4rker auf Qualit\u00e4t statt Masse und wirbt gezielt um kaufkr\u00e4ftige Fernreisende aus Deutschland.",
+   "kind": "item",
+   "source": "FVW / German travel trade",
+   "source_id": "sm-derreise",
+   "tier": 2,
+   "country": "GLOBAL",
+   "category": "source-market",
+   "segments": [
+    "beach",
+    "bush"
+   ],
+   "first_seen": "2026-09-06T23:06+03:00",
+   "published": "2026-09-04",
+   "verdict": "weak"
+  },
+  {
+   "score": 56.1,
    "components": {
     "tier": 5,
     "category": 5,
     "lead": 0.0,
     "relevance": 20,
-    "freshness": 18.9,
+    "freshness": 16.1,
     "corroborated": 10
    },
    "keywords": [
@@ -606,13 +816,13 @@
    "verdict": "weak"
   },
   {
-   "score": 58.6,
+   "score": 55.9,
    "components": {
     "tier": 20,
     "category": 4,
     "lead": 0.0,
     "relevance": 8,
-    "freshness": 14.6,
+    "freshness": 11.9,
     "undated": -6,
     "shock": 18
    },
@@ -644,13 +854,13 @@
    "verdict": "weak"
   },
   {
-   "score": 56.9,
+   "score": 54.1,
    "components": {
     "tier": 20,
     "category": 4,
     "lead": 0.0,
     "relevance": 4,
-    "freshness": 18.9,
+    "freshness": 16.1,
     "corroborated": 10
    },
    "keywords": [
@@ -679,13 +889,13 @@
    "verdict": "weak"
   },
   {
-   "score": 56.9,
+   "score": 54.1,
    "components": {
     "tier": 20,
     "category": 4,
     "lead": 0.0,
     "relevance": 4,
-    "freshness": 18.9,
+    "freshness": 16.1,
     "corroborated": 10
    },
    "keywords": [
@@ -714,13 +924,13 @@
    "verdict": "weak"
   },
   {
-   "score": 56.6,
+   "score": 53.9,
    "components": {
     "tier": 20,
     "category": 4,
     "lead": 0.0,
     "relevance": 8,
-    "freshness": 14.6,
+    "freshness": 11.9,
     "corroborated": 10
    },
    "keywords": [
@@ -750,13 +960,13 @@
    "verdict": "weak"
   },
   {
-   "score": 56.6,
+   "score": 53.9,
    "components": {
     "tier": 20,
     "category": 4,
     "lead": 0.0,
     "relevance": 8,
-    "freshness": 14.6,
+    "freshness": 11.9,
     "corroborated": 10
    },
    "keywords": [
@@ -785,13 +995,13 @@
    "verdict": "weak"
   },
   {
-   "score": 56.6,
+   "score": 53.9,
    "components": {
     "tier": 20,
     "category": 4,
     "lead": 0.0,
     "relevance": 8,
-    "freshness": 14.6,
+    "freshness": 11.9,
     "corroborated": 10
    },
    "keywords": [
@@ -820,13 +1030,145 @@
    "verdict": "weak"
   },
   {
-   "score": 54.8,
+   "score": 53.8,
+   "components": {
+    "tier": 20,
+    "category": 4,
+    "lead": 0.0,
+    "relevance": 0,
+    "freshness": 19.8,
+    "corroborated": 10
+   },
+   "keywords": [],
+   "shock_terms": [],
+   "dedupe_match": null,
+   "dedupe_similarity": 0.0,
+   "id": "ebd870baac65",
+   "title": "Birdi outspeeds tough rivals to win Mkwawa Leaf Rally",
+   "url": "https://dailynews.co.tz/birdi-outspeeds-tough-rivals-to-win-mkwawa-leaf-rally",
+   "summary": "MOROGORO: ASAS Team wheeler, Manvir Birdi, is now poised to reclaim the National Rally Championship (NRC) title after winning the Mkwawa Leaf Rally this evening in Morogoro. Navigated by Zubair Piredina in Skoda Fabia, Birdi won the rally after narrowly beating his closest challenger, Ahmed Huwel by split of seconds in a closely fought encounter. \u2026 The post Birdi outspeeds tough rivals to win Mkwa",
+   "kind": "item",
+   "source": "Daily News (Tanzania)",
+   "source_id": "np-dailynews-tz",
+   "tier": 2,
+   "country": "TZ",
+   "category": "press",
+   "segments": [
+    "city",
+    "bush",
+    "beach"
+   ],
+   "first_seen": "2026-09-06T23:06+03:00",
+   "published": "2026-09-06",
+   "verdict": "weak"
+  },
+  {
+   "score": 53.8,
+   "components": {
+    "tier": 20,
+    "category": 4,
+    "lead": 0.0,
+    "relevance": 0,
+    "freshness": 19.8,
+    "corroborated": 10
+   },
+   "keywords": [],
+   "shock_terms": [],
+   "dedupe_match": null,
+   "dedupe_similarity": 0.17,
+   "id": "29f251fc2473",
+   "title": "New Mwanza RC priorities clean environment, superior contribution to national GDP",
+   "url": "https://dailynews.co.tz/new-mwanza-rc-priorities-clean-environment-superior-contribution-to-national-gdp",
+   "summary": "MWANZA: THE newly appointed Mwanza Regional Commissioner, CP Salum Rashid Hamduni, has outlined his priorities for Mwanza Region, emphasizing hard work, humility and patriotism as key drivers of development for the people, three days after a the region was hailed for contributing 14.7tri/- to the national GDP CP Hamduni made the remarks today, September 6, \u2026 The post New Mwanza RC priorities clean",
+   "kind": "item",
+   "source": "Daily News (Tanzania)",
+   "source_id": "np-dailynews-tz",
+   "tier": 2,
+   "country": "TZ",
+   "category": "press",
+   "segments": [
+    "city",
+    "bush",
+    "beach"
+   ],
+   "first_seen": "2026-09-06T23:06+03:00",
+   "published": "2026-09-06",
+   "verdict": "weak"
+  },
+  {
+   "score": 53.8,
+   "components": {
+    "tier": 20,
+    "category": 4,
+    "lead": 0.0,
+    "relevance": 0,
+    "freshness": 19.8,
+    "corroborated": 10
+   },
+   "keywords": [],
+   "shock_terms": [],
+   "dedupe_match": null,
+   "dedupe_similarity": 0.0,
+   "id": "1d7361ceef6a",
+   "title": "When Disco was number one, and DJ Super Deo ruled the night",
+   "url": "https://dailynews.co.tz/when-disco-was-number-one-and-dj-super-deo-ruled-the-night",
+   "summary": "DAR ES SALAAM: THIS week we lost one of those sounds with the passing of DJ Super Deo, real name Deonatus Kahana, a veteran disc jockey stitched firmly into Dar es Salaam golden disco years. For decades, he made people dance, sweat, laugh, flirt respectfully and pretend they knew lyrics to songs heard only three \u2026 The post When Disco was number one, and DJ Super Deo ruled the night appeared first ",
+   "kind": "item",
+   "source": "Daily News (Tanzania)",
+   "source_id": "np-dailynews-tz",
+   "tier": 2,
+   "country": "TZ",
+   "category": "press",
+   "segments": [
+    "city",
+    "bush",
+    "beach"
+   ],
+   "first_seen": "2026-09-06T23:06+03:00",
+   "published": "2026-09-06",
+   "verdict": "weak"
+  },
+  {
+   "score": 53.8,
+   "components": {
+    "tier": 20,
+    "category": 4,
+    "lead": 0.0,
+    "relevance": 0,
+    "freshness": 19.8,
+    "corroborated": 10
+   },
+   "keywords": [],
+   "shock_terms": [],
+   "dedupe_match": null,
+   "dedupe_similarity": 0.4,
+   "id": "54d877dd081c",
+   "title": "What new Africa map means for Tanzania",
+   "url": "https://dailynews.co.tz/159755-2",
+   "summary": "DAR ES SALAAM: THE United Nations decision to promote world maps that more accurately portray the size of continents could trigger a rethink of how geography is taught and understood in Tanzania. The United Nations General Assembly on Friday overwhelmingly endorsed a resolution promoting the wider use of map projections that better represent the relative \u2026 The post What new Africa map means for Ta",
+   "kind": "item",
+   "source": "Daily News (Tanzania)",
+   "source_id": "np-dailynews-tz",
+   "tier": 2,
+   "country": "TZ",
+   "category": "press",
+   "segments": [
+    "city",
+    "bush",
+    "beach"
+   ],
+   "first_seen": "2026-09-06T23:06+03:00",
+   "published": "2026-09-06",
+   "verdict": "weak"
+  },
+  {
+   "score": 52.1,
    "components": {
     "tier": 20,
     "category": 5,
     "lead": 1.2,
     "relevance": 4,
-    "freshness": 14.6,
+    "freshness": 11.9,
     "corroborated": 10
    },
    "keywords": [
@@ -855,13 +1197,13 @@
    "verdict": "weak"
   },
   {
-   "score": 52.9,
+   "score": 50.1,
    "components": {
     "tier": 20,
     "category": 4,
     "lead": 0.0,
     "relevance": 0,
-    "freshness": 18.9,
+    "freshness": 16.1,
     "corroborated": 10
    },
    "keywords": [],
@@ -888,13 +1230,13 @@
    "verdict": "weak"
   },
   {
-   "score": 52.9,
+   "score": 50.1,
    "components": {
     "tier": 20,
     "category": 4,
     "lead": 0.0,
     "relevance": 0,
-    "freshness": 18.9,
+    "freshness": 16.1,
     "corroborated": 10
    },
    "keywords": [],
@@ -921,13 +1263,13 @@
    "verdict": "weak"
   },
   {
-   "score": 52.9,
+   "score": 50.1,
    "components": {
     "tier": 20,
     "category": 4,
     "lead": 0.0,
     "relevance": 0,
-    "freshness": 18.9,
+    "freshness": 16.1,
     "corroborated": 10
    },
    "keywords": [],
@@ -954,13 +1296,13 @@
    "verdict": "weak"
   },
   {
-   "score": 52.9,
+   "score": 50.1,
    "components": {
     "tier": 20,
     "category": 4,
     "lead": 0.0,
     "relevance": 0,
-    "freshness": 18.9,
+    "freshness": 16.1,
     "corroborated": 10
    },
    "keywords": [],
@@ -987,13 +1329,13 @@
    "verdict": "weak"
   },
   {
-   "score": 52.9,
+   "score": 50.1,
    "components": {
     "tier": 20,
     "category": 4,
     "lead": 0.0,
     "relevance": 0,
-    "freshness": 18.9,
+    "freshness": 16.1,
     "corroborated": 10
    },
    "keywords": [],
@@ -1020,13 +1362,13 @@
    "verdict": "weak"
   },
   {
-   "score": 52.9,
+   "score": 50.1,
    "components": {
     "tier": 20,
     "category": 4,
     "lead": 0.0,
     "relevance": 0,
-    "freshness": 18.9,
+    "freshness": 16.1,
     "corroborated": 10
    },
    "keywords": [],
@@ -1049,352 +1391,6 @@
     "beach"
    ],
    "first_seen": "2026-09-06T19:45+03:00",
-   "published": "2026-09-06",
-   "verdict": "weak"
-  },
-  {
-   "score": 52.6,
-   "components": {
-    "tier": 20,
-    "category": 4,
-    "lead": 0.0,
-    "relevance": 4,
-    "freshness": 14.6,
-    "corroborated": 10
-   },
-   "keywords": [
-    "pipeline"
-   ],
-   "shock_terms": [],
-   "dedupe_match": null,
-   "dedupe_similarity": 0.2,
-   "id": "8e40eff5cc48",
-   "title": "EACOP achieves 99.3 percent compensation of payments in Geita region",
-   "url": "https://dailynews.co.tz/eacop-achieves-99-3-percent-compensation-of-payments-in-geita-region",
-   "summary": "GEITA: THE East African Crude Oil Pipeline (EACOP) project has successfully paid compensation to 1,482 affected people, equivalent to 99.3pc of the 1,492 people affected by the project in Geita Region. The residents are among 10,223 people affected by the EACOP project in Tanzania who deserve a total of 35/- billion compensation following the assessments \u2026 The post EACOP achieves 99.3 percent comp",
-   "kind": "item",
-   "source": "Daily News (Tanzania)",
-   "source_id": "np-dailynews-tz",
-   "tier": 2,
-   "country": "TZ",
-   "category": "press",
-   "segments": [
-    "city",
-    "bush",
-    "beach"
-   ],
-   "first_seen": "2026-09-06T15:55+03:00",
-   "published": "2026-09-06",
-   "verdict": "weak"
-  },
-  {
-   "score": 52.6,
-   "components": {
-    "tier": 20,
-    "category": 4,
-    "lead": 0.0,
-    "relevance": 4,
-    "freshness": 14.6,
-    "corroborated": 10
-   },
-   "keywords": [
-    "investment"
-   ],
-   "shock_terms": [],
-   "dedupe_match": null,
-   "dedupe_similarity": 0.0,
-   "id": "0b5c2fc165a1",
-   "title": "PM touts quality patient care",
-   "url": "https://dailynews.co.tz/pm-touts-quality-patient-care",
-   "summary": "BAHI: PRIME Minister Dr Mwigulu Nchemba has demanded better patient care in public health facilities, warning health workers and leaders against negligence and poor service delivery that could undermine the government\u2019s substantial investment in hospitals and other health infrastructure. Speaking during the public rally to residents of Bahi District in Dodoma, yesterday, Dr Nchemba said \u2026 The post",
-   "kind": "item",
-   "source": "Daily News (Tanzania)",
-   "source_id": "np-dailynews-tz",
-   "tier": 2,
-   "country": "TZ",
-   "category": "press",
-   "segments": [
-    "city",
-    "bush",
-    "beach"
-   ],
-   "first_seen": "2026-09-06T15:55+03:00",
-   "published": "2026-09-06",
-   "verdict": "weak"
-  },
-  {
-   "score": 52.6,
-   "components": {
-    "tier": 20,
-    "category": 4,
-    "lead": 0.0,
-    "relevance": 4,
-    "freshness": 14.6,
-    "corroborated": 10
-   },
-   "keywords": [
-    "camp"
-   ],
-   "shock_terms": [],
-   "dedupe_match": null,
-   "dedupe_similarity": 0.0,
-   "id": "2b77aa1e8432",
-   "title": "Scandal that could swallow Kabila camp",
-   "url": "https://www.theeastafrican.co.ke/tea/news/east-africa/scandal-that-could-swallow-kabila-camp-5584274",
-   "summary": "The Semlex trial is a major judicial case that could have political repercussions far beyond...",
-   "kind": "item",
-   "source": "The EastAfrican",
-   "source_id": "np-eastafrican",
-   "tier": 2,
-   "country": "REG",
-   "category": "press",
-   "segments": [
-    "city",
-    "bush",
-    "beach"
-   ],
-   "first_seen": "2026-09-06T15:55+03:00",
-   "published": "2026-09-06",
-   "verdict": "weak"
-  },
-  {
-   "score": 50.8,
-   "components": {
-    "tier": 20,
-    "category": 5,
-    "lead": 1.2,
-    "relevance": 0,
-    "freshness": 14.6,
-    "corroborated": 10
-   },
-   "keywords": [],
-   "shock_terms": [],
-   "dedupe_match": null,
-   "dedupe_similarity": 0.2,
-   "id": "6fe8b3922559",
-   "title": "Tanzania Registers 150 Projects on e-Delivery System to Implement Vision 2050",
-   "url": "https://www.tanzaniainvest.com/economy/e-delivery-150-projects-vision-2050",
-   "summary": "Tanzania\u2019s National Planning Commission has registered 150 development projects on its e-Delivery system since its 1 July 2026 launch, targeting more than 500 in total. The platform supports the implementation of Vision 2050, the blueprint to build a USD 1 trillion economy by mid-century.",
-   "kind": "item",
-   "source": "TanzaniaInvest \u2014 tourism",
-   "source_id": "tp-tanzaniainvest",
-   "tier": 2,
-   "country": "TZ",
-   "category": "trade",
-   "segments": [
-    "city",
-    "bush",
-    "beach"
-   ],
-   "first_seen": "2026-09-06T15:55+03:00",
-   "published": "2026-09-06",
-   "verdict": "weak"
-  },
-  {
-   "score": 50.6,
-   "components": {
-    "tier": 20,
-    "category": 4,
-    "lead": 0.0,
-    "relevance": 0,
-    "freshness": 14.6,
-    "undated": -6,
-    "shock": 18
-   },
-   "keywords": [],
-   "shock_terms": [
-    "attack"
-   ],
-   "dedupe_match": null,
-   "dedupe_similarity": 0.0,
-   "id": "e4170fad3f86",
-   "title": "international Iranian tanker hit by US attack near Iran's Kharg Island, Tasnim says Yesterday - 2 min read",
-   "url": "https://www.thecitizen.co.tz/tanzania/news/international/iranian-tanker-hit-by-us-attack-near-iran-s-kharg-island-tasnim-says-5584480",
-   "summary": "",
-   "kind": "item",
-   "source": "The Citizen (Tanzania)",
-   "source_id": "np-citizen-tz",
-   "tier": 2,
-   "country": "TZ",
-   "category": "press",
-   "segments": [
-    "city",
-    "bush",
-    "beach"
-   ],
-   "first_seen": "2026-09-06T15:55+03:00",
-   "published": null,
-   "verdict": "weak"
-  },
-  {
-   "score": 50.6,
-   "components": {
-    "tier": 20,
-    "category": 4,
-    "lead": 0.0,
-    "relevance": 0,
-    "freshness": 14.6,
-    "undated": -6,
-    "shock": 18
-   },
-   "keywords": [],
-   "shock_terms": [
-    "explosion"
-   ],
-   "dedupe_match": null,
-   "dedupe_similarity": 0.0,
-   "id": "75b74ed081db",
-   "title": "international Explosion at Bolivia military base kills at least 2, 14 missing, ministry says Yesterday - 2 min read",
-   "url": "https://www.thecitizen.co.tz/tanzania/news/international/explosion-at-bolivia-military-base-kills-at-least-2-14-missing-ministry-says-5584470",
-   "summary": "",
-   "kind": "item",
-   "source": "The Citizen (Tanzania)",
-   "source_id": "np-citizen-tz",
-   "tier": 2,
-   "country": "TZ",
-   "category": "press",
-   "segments": [
-    "city",
-    "bush",
-    "beach"
-   ],
-   "first_seen": "2026-09-06T15:55+03:00",
-   "published": null,
-   "verdict": "weak"
-  },
-  {
-   "score": 48.9,
-   "components": {
-    "tier": 20,
-    "category": 4,
-    "lead": 0.0,
-    "relevance": 12,
-    "freshness": 18.9,
-    "undated": -6
-   },
-   "keywords": [
-    "suspend"
-   ],
-   "shock_terms": [],
-   "dedupe_match": null,
-   "dedupe_similarity": 0.14,
-   "id": "cf1d5b690050",
-   "title": "Court News Tanzanian lawyer suspended for misleading court with fake cases 2 hours ago - 8 min read",
-   "url": "https://www.thecitizen.co.tz/tanzania/news/court-news/tanzanian-lawyer-suspended-for-misleading-court-with-fake-cases-5585722",
-   "summary": "",
-   "kind": "item",
-   "source": "The Citizen (Tanzania)",
-   "source_id": "np-citizen-tz",
-   "tier": 2,
-   "country": "TZ",
-   "category": "press",
-   "segments": [
-    "city",
-    "bush",
-    "beach"
-   ],
-   "first_seen": "2026-09-06T19:45+03:00",
-   "published": null,
-   "verdict": "weak"
-  },
-  {
-   "score": 48.9,
-   "components": {
-    "tier": 20,
-    "category": 4,
-    "lead": 0.0,
-    "relevance": 12,
-    "freshness": 18.9,
-    "undated": -6
-   },
-   "keywords": [
-    "suspend"
-   ],
-   "shock_terms": [],
-   "dedupe_match": null,
-   "dedupe_similarity": 0.0,
-   "id": "f9b73afbb77f",
-   "title": "Tanzanian driver\u2019s licence suspended for six months for chatting while driving 1 hour ago - 3 min read",
-   "url": "https://www.thecitizen.co.tz/tanzania/news/national/tanzanian-driver-s-licence-suspended-for-six-months-for-chatting-while-driving-5585808",
-   "summary": "",
-   "kind": "item",
-   "source": "The Citizen (Tanzania)",
-   "source_id": "np-citizen-tz",
-   "tier": 2,
-   "country": "TZ",
-   "category": "press",
-   "segments": [
-    "city",
-    "bush",
-    "beach"
-   ],
-   "first_seen": "2026-09-06T19:45+03:00",
-   "published": null,
-   "verdict": "weak"
-  },
-  {
-   "score": 48.6,
-   "components": {
-    "tier": 20,
-    "category": 4,
-    "lead": 0.0,
-    "relevance": 0,
-    "freshness": 14.6,
-    "corroborated": 10
-   },
-   "keywords": [],
-   "shock_terms": [],
-   "dedupe_match": null,
-   "dedupe_similarity": 0.2,
-   "id": "756a43ebf2a1",
-   "title": "Government reaffirms commitment to protecting local investors in mining",
-   "url": "https://dailynews.co.tz/government-reaffirms-commitment-to-protecting-local-investors-in-mining",
-   "summary": "DAR ES SALAAM: Tanzania\u2019s mining sector is not only a major source of mineral wealth; it is also an important platform for building local industries, creating jobs, developing technical skills and expanding opportunities for Tanzanian businesses. As mining activities continue to grow, the Government is placing greater emphasis on ensuring that the economic benefits generated \u2026 The post Government ",
-   "kind": "item",
-   "source": "Daily News (Tanzania)",
-   "source_id": "np-dailynews-tz",
-   "tier": 2,
-   "country": "TZ",
-   "category": "press",
-   "segments": [
-    "city",
-    "bush",
-    "beach"
-   ],
-   "first_seen": "2026-09-06T15:55+03:00",
-   "published": "2026-09-06",
-   "verdict": "weak"
-  },
-  {
-   "score": 48.6,
-   "components": {
-    "tier": 20,
-    "category": 4,
-    "lead": 0.0,
-    "relevance": 0,
-    "freshness": 14.6,
-    "corroborated": 10
-   },
-   "keywords": [],
-   "shock_terms": [],
-   "dedupe_match": null,
-   "dedupe_similarity": 0.0,
-   "id": "72c3a123a550",
-   "title": "Kakurwa warns against misuse of public resources",
-   "url": "https://dailynews.co.tz/kakurwa-warns-against-misuse-of-public-resources",
-   "summary": "DODOMA: THE Minister for Livestock and Fisheries, Ambassador Dr Bashiru Kakurwa, has warned that he will not tolerate misuse of public resources, abuse of office or negligence within the ministry and its 11 institutions, calling for stronger accountability and good governance. Dr Bashiru issued the warning yesterday in Dodoma when he inaugurated the Board of \u2026 The post Kakurwa warns against misuse",
-   "kind": "item",
-   "source": "Daily News (Tanzania)",
-   "source_id": "np-dailynews-tz",
-   "tier": 2,
-   "country": "TZ",
-   "category": "press",
-   "segments": [
-    "city",
-    "bush",
-    "beach"
-   ],
-   "first_seen": "2026-09-06T15:55+03:00",
    "published": "2026-09-06",
    "verdict": "weak"
   }
