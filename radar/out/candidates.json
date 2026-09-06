@@ -1,18 +1,18 @@
 {
- "generated": "2026-09-06T23:07:26+03:00",
- "slot": "evening",
- "window_start": 1788688800,
- "observations_in_window": 202,
+ "generated": "2026-09-07T02:37:40+03:00",
+ "slot": "morning",
+ "window_start": 1788706800,
+ "observations_in_window": 163,
  "deduped_against": 29,
  "candidates": [
   {
-   "score": 61.7,
+   "score": 57.8,
    "components": {
     "tier": 40,
     "category": 12,
     "lead": 3.6,
     "relevance": 0,
-    "freshness": 16.1,
+    "freshness": 12.2,
     "undated": -6,
     "page_change": -4
    },
@@ -54,6 +54,39 @@
    "shock_terms": [],
    "dedupe_match": null,
    "dedupe_similarity": 0.0,
+   "id": "d94fcf46cb6d",
+   "title": "[page changed] Federal Register \u2014 public inspection (HHS/CDC), pre-publication",
+   "url": "https://www.federalregister.gov/api/v1/public-inspection-documents/current.json",
+   "summary": "{\"count\":77,\"results\":[{\"agencies\":[{\"raw_name\":\"Health Resources and Services Administration\",\"name\":\"Health Resources and Services Administration\",\"id\":222,\"url\":\"https://www.federalregister.gov/agencies/health-resources-and-services-administration\",\"json_url\":\"https://www.federalregister.gov/api/v1/agencies/222\",\"parent_id\":221,\"slug\":\"health-resources-and-services-administration\"}],\"agency_let",
+   "kind": "page-change",
+   "source": "Federal Register \u2014 public inspection (HHS/CDC), pre-publication",
+   "source_id": "us-fedreg-pubinspect-hhs",
+   "tier": 1,
+   "country": "REG",
+   "category": "advisory",
+   "segments": [
+    "city",
+    "bush"
+   ],
+   "first_seen": "2026-09-07T02:34+03:00",
+   "published": "2026-09-03",
+   "verdict": "CHECK \u2014 source date older than the window"
+  },
+  {
+   "score": 77.5,
+   "components": {
+    "tier": 40,
+    "category": 32,
+    "lead": 3.6,
+    "relevance": 0,
+    "freshness": 15.9,
+    "stale_trap": -10,
+    "page_change": -4
+   },
+   "keywords": [],
+   "shock_terms": [],
+   "dedupe_match": null,
+   "dedupe_similarity": 0.0,
    "id": "b9da6f75334e",
    "title": "[page changed] Federal Register \u2014 public inspection (HHS/CDC), pre-publication",
    "url": "https://www.federalregister.gov/api/v1/public-inspection-documents/current.json",
@@ -73,46 +106,52 @@
    "verdict": "CHECK \u2014 source date older than the window"
   },
   {
-   "score": 79.1,
+   "score": 74.0,
    "components": {
-    "tier": 40,
-    "category": 32,
+    "tier": 20,
+    "category": 5,
     "lead": 1.2,
-    "relevance": 0,
-    "freshness": 11.9,
-    "undated": -6
+    "relevance": 16,
+    "freshness": 19.8,
+    "undated": -6,
+    "shock": 18
    },
-   "keywords": [],
-   "shock_terms": [],
+   "keywords": [
+    "grounded",
+    "flight"
+   ],
+   "shock_terms": [
+    "grounded"
+   ],
    "dedupe_match": null,
-   "dedupe_similarity": 0.25,
-   "id": "a38ed560ee33",
-   "title": "Albania - Level 1: Exercise Normal Precautions",
-   "url": "https://travel.state.gov/content/tsg_aem/us/en/home/international-travel/travel-advisories/destination.alb.html",
-   "summary": "Exercise normal precautionSummary not available",
+   "dedupe_similarity": 0.0,
+   "id": "7e97620f9be8",
+   "title": "Air Mozambique's New Embraer E190 Grounded Just Two Days After Maiden Flight",
+   "url": "https://travelnews.africa/news-single.html?id=18318&title=Air+Mozambique%27s+New+Embraer+E190+Grounded+Just+Two+Days+After+Maiden+Flight",
+   "summary": "",
    "kind": "item",
-   "source": "US State Dept travel advisories (EA feed)",
-   "source_id": "adv-us-ea",
-   "tier": 1,
+   "source": "travelnews.africa",
+   "source_id": "tp-travelnews-africa",
+   "tier": 2,
    "country": "REG",
-   "category": "advisory",
+   "category": "trade",
    "segments": [
     "city",
     "bush",
     "beach"
    ],
-   "first_seen": "2026-09-06T15:54+03:00",
+   "first_seen": "2026-09-07T02:35+03:00",
    "published": null,
    "verdict": "CONSIDER"
   },
   {
-   "score": 77.7,
+   "score": 73.8,
    "components": {
     "tier": 40,
     "category": 32,
     "lead": 3.6,
     "relevance": 0,
-    "freshness": 16.1,
+    "freshness": 12.2,
     "stale_trap": -10,
     "page_change": -4
    },
@@ -139,13 +178,13 @@
    "verdict": "CHECK \u2014 source date older than the window"
   },
   {
-   "score": 76.9,
+   "score": 73.0,
    "components": {
     "tier": 40,
     "category": 10,
     "lead": 16.8,
     "relevance": 0,
-    "freshness": 16.1,
+    "freshness": 12.2,
     "undated": -6
    },
    "keywords": [],
@@ -172,46 +211,13 @@
    "verdict": "CONSIDER"
   },
   {
-   "score": 73.5,
-   "components": {
-    "tier": 40,
-    "category": 32,
-    "lead": 3.6,
-    "relevance": 0,
-    "freshness": 11.9,
-    "stale_trap": -10,
-    "page_change": -4
-   },
-   "keywords": [],
-   "shock_terms": [],
-   "dedupe_match": null,
-   "dedupe_similarity": 0.0,
-   "id": "84f25ee206f4",
-   "title": "[page changed] Federal Register \u2014 public inspection (HHS/CDC), pre-publication",
-   "url": "https://www.federalregister.gov/api/v1/public-inspection-documents/current.json",
-   "summary": "{\"count\":77,\"results\":[{\"agencies\":[{\"raw_name\":\"Health Resources and Services Administration\",\"name\":\"Health Resources and Services Administration\",\"id\":222,\"url\":\"https://www.federalregister.gov/agencies/health-resources-and-services-administration\",\"json_url\":\"https://www.federalregister.gov/api/v1/agencies/222\",\"parent_id\":221,\"slug\":\"health-resources-and-services-administration\"}],\"agency_let",
-   "kind": "page-change",
-   "source": "Federal Register \u2014 public inspection (HHS/CDC), pre-publication",
-   "source_id": "us-fedreg-pubinspect-hhs",
-   "tier": 1,
-   "country": "REG",
-   "category": "advisory",
-   "segments": [
-    "city",
-    "bush"
-   ],
-   "first_seen": "2026-09-06T15:54+03:00",
-   "published": "2026-09-03",
-   "verdict": "CHECK \u2014 source date older than the window"
-  },
-  {
-   "score": 70.1,
+   "score": 66.2,
    "components": {
     "tier": 40,
     "category": 13,
     "lead": 6.0,
     "relevance": 0,
-    "freshness": 17.1,
+    "freshness": 13.2,
     "undated": -6
    },
    "keywords": [],
@@ -235,16 +241,16 @@
    ],
    "first_seen": "2026-09-06T20:37+03:00",
    "published": null,
-   "verdict": "CONSIDER"
+   "verdict": "weak"
   },
   {
-   "score": 69.5,
+   "score": 65.7,
    "components": {
     "tier": 20,
     "category": 5,
     "lead": 2.4,
     "relevance": 16,
-    "freshness": 16.1,
+    "freshness": 12.3,
     "corroborated": 10
    },
    "keywords": [
@@ -276,44 +282,6 @@
    "verdict": "weak"
   },
   {
-   "score": 65.3,
-   "components": {
-    "tier": 20,
-    "category": 5,
-    "lead": 2.4,
-    "relevance": 16,
-    "freshness": 11.9,
-    "corroborated": 10
-   },
-   "keywords": [
-    "hotel",
-    "airline",
-    "exhibition",
-    "operator"
-   ],
-   "shock_terms": [],
-   "dedupe_match": null,
-   "dedupe_similarity": 0.2,
-   "id": "5496fbbb6968",
-   "title": "26 Years On, Spotlight Travel Expo Keeps Africa\u2019s Travel Trade in Business",
-   "url": "https://katakenya.org/26-years-on-spotlight-travel-expo-keeps-africas-travel-trade-in-business",
-   "summary": "A travel exhibition can fill a room. A B2B platform has to fill appointment books. That distinction is at the heart of the Spotlight Travel Expo, which has spent the past 26 years connecting Africa\u2019s travel trade with airlines, hotels, destinations, tour operators, destination management companies and other suppliers. The latest Nairobi edition, held from [\u2026]",
-   "kind": "item",
-   "source": "Kenya Association of Travel Agents news",
-   "source_id": "tp-kata",
-   "tier": 2,
-   "country": "KE",
-   "category": "trade",
-   "segments": [
-    "city",
-    "bush",
-    "beach"
-   ],
-   "first_seen": "2026-09-06T15:55+03:00",
-   "published": "2026-09-06",
-   "verdict": "weak"
-  },
-  {
    "score": 64.2,
    "components": {
     "tier": 20,
@@ -321,6 +289,113 @@
     "lead": 2.4,
     "relevance": 8,
     "freshness": 19.8,
+    "undated": -6,
+    "page_change": -4
+   },
+   "keywords": [
+    "vat"
+   ],
+   "shock_terms": [],
+   "dedupe_match": null,
+   "dedupe_similarity": 0.2,
+   "id": "1bd3339594a2",
+   "title": "[page changed] ProMED-mail",
+   "url": "https://promedmail.org/",
+   "summary": "Protecting Global Health, One Alert at a Time | ProMED Previous slide Next slide Protecting Global Health, One Alert at a Time ProMED: Your 24/7 early warning system for emerging infectious diseases worldwide. Subscribe ProMED's Weekly Pulse A snapshot of global health events from the past 7 days Latest Posts on ProMED All Date Title Sun Sep 06 2026 \u0417\u0430\u0440\u0443\u0431\u0435\u0436\u043d\u043e\u0435 \u044d\u043f\u0438\u0434\u043e\u0431\u043e\u0437\u0440\u0435\u043d\u0438\u0435 \u2013 \u043a\u043e\u0440\u044c \u2013 \u0421\u0428\u0410 (2) Sun Se",
+   "kind": "page-change",
+   "source": "ProMED-mail",
+   "source_id": "promed",
+   "tier": 2,
+   "country": "GLOBAL",
+   "category": "health",
+   "segments": [
+    "city",
+    "bush",
+    "beach"
+   ],
+   "first_seen": "2026-09-07T02:35+03:00",
+   "published": null,
+   "verdict": "weak"
+  },
+  {
+   "score": 61.8,
+   "components": {
+    "tier": 20,
+    "category": 4,
+    "lead": 0.0,
+    "relevance": 8,
+    "freshness": 19.8,
+    "corroborated": 10
+   },
+   "keywords": [
+    "election"
+   ],
+   "shock_terms": [],
+   "dedupe_match": null,
+   "dedupe_similarity": 0.0,
+   "id": "78962ebfc353",
+   "title": "President Infantino will seek re-election in March 2027, FIFA says",
+   "url": "https://www.monitor.co.ug/uganda/sports/soccer/president-infantino-will-seek-re-election-in-march-2027-fifa-says--5585870",
+   "summary": "Infantino, who had \u200bpreviously announced that he would seek a \u200bfourth term in March next year...",
+   "kind": "item",
+   "source": "Daily Monitor (Uganda)",
+   "source_id": "np-monitor-ug",
+   "tier": 2,
+   "country": "UG",
+   "category": "press",
+   "segments": [
+    "city",
+    "bush",
+    "beach"
+   ],
+   "first_seen": "2026-09-07T02:35+03:00",
+   "published": "2026-09-06",
+   "verdict": "weak"
+  },
+  {
+   "score": 61.8,
+   "components": {
+    "tier": 20,
+    "category": 4,
+    "lead": 0.0,
+    "relevance": 8,
+    "freshness": 19.8,
+    "corroborated": 10
+   },
+   "keywords": [
+    "camp",
+    "opening"
+   ],
+   "shock_terms": [],
+   "dedupe_match": null,
+   "dedupe_similarity": 0.17,
+   "id": "f1a336eac1ea",
+   "title": "Maitland-Niles screamer earns Everton 2-2 draw with Man Utd",
+   "url": "https://www.monitor.co.ug/uganda/sports/soccer/maitland-niles-screamer-earns-everton-2-2-draw-with-man-utd-5585846",
+   "summary": "United have four points from \u200btheir opening three games of the campaign and lie in 11th place...",
+   "kind": "item",
+   "source": "Daily Monitor (Uganda)",
+   "source_id": "np-monitor-ug",
+   "tier": 2,
+   "country": "UG",
+   "category": "press",
+   "segments": [
+    "city",
+    "bush",
+    "beach"
+   ],
+   "first_seen": "2026-09-07T02:35+03:00",
+   "published": "2026-09-06",
+   "verdict": "weak"
+  },
+  {
+   "score": 60.3,
+   "components": {
+    "tier": 20,
+    "category": 24,
+    "lead": 2.4,
+    "relevance": 8,
+    "freshness": 15.9,
     "undated": -6,
     "page_change": -4
    },
@@ -350,13 +425,13 @@
    "verdict": "weak"
   },
   {
-   "score": 63.8,
+   "score": 59.9,
    "components": {
     "tier": 20,
     "category": 4,
     "lead": 0.0,
     "relevance": 8,
-    "freshness": 19.8,
+    "freshness": 15.9,
     "undated": -6,
     "shock": 18
    },
@@ -388,13 +463,13 @@
    "verdict": "weak"
   },
   {
-   "score": 61.8,
+   "score": 57.9,
    "components": {
     "tier": 20,
     "category": 4,
     "lead": 0.0,
     "relevance": 8,
-    "freshness": 19.8,
+    "freshness": 15.9,
     "corroborated": 10
    },
    "keywords": [
@@ -423,13 +498,13 @@
    "verdict": "weak"
   },
   {
-   "score": 61.5,
+   "score": 57.7,
    "components": {
     "tier": 20,
     "category": 5,
     "lead": 2.4,
     "relevance": 8,
-    "freshness": 16.1,
+    "freshness": 12.3,
     "corroborated": 10
    },
    "keywords": [
@@ -459,49 +534,13 @@
    "verdict": "weak"
   },
   {
-   "score": 61.3,
-   "components": {
-    "tier": 20,
-    "category": 5,
-    "lead": 2.4,
-    "relevance": 12,
-    "freshness": 11.9,
-    "corroborated": 10
-   },
-   "keywords": [
-    "eta",
-    "airline"
-   ],
-   "shock_terms": [],
-   "dedupe_match": null,
-   "dedupe_similarity": 0.29,
-   "id": "edaec69123fc",
-   "title": "Kenya Airways appoints Habil Waswani as Acting CEO",
-   "url": "https://katakenya.org/kenya-airways-appoints-habil-waswani-as-acting-ceo",
-   "summary": "Kenya Airways has appointed Habil Waswani as its Acting Group Managing Director and Chief Executive Officer, marking a new chapter in the leadership of the national carrier as it continues to strengthen its operations and advance its transformation agenda. Waswani, who currently serves as the airline\u2019s Company Secretary and Director of Legal Services and Regulatory [\u2026]",
-   "kind": "item",
-   "source": "Kenya Association of Travel Agents news",
-   "source_id": "tp-kata",
-   "tier": 2,
-   "country": "KE",
-   "category": "trade",
-   "segments": [
-    "city",
-    "bush",
-    "beach"
-   ],
-   "first_seen": "2026-09-06T15:55+03:00",
-   "published": "2026-09-06",
-   "verdict": "weak"
-  },
-  {
-   "score": 60.5,
+   "score": 56.6,
    "components": {
     "tier": 20,
     "category": 24,
     "lead": 2.4,
     "relevance": 8,
-    "freshness": 16.1,
+    "freshness": 12.2,
     "undated": -6,
     "page_change": -4
    },
@@ -531,13 +570,13 @@
    "verdict": "weak"
   },
   {
-   "score": 60.3,
+   "score": 56.5,
    "components": {
     "tier": 20,
     "category": 5,
     "lead": 1.2,
     "relevance": 8,
-    "freshness": 16.1,
+    "freshness": 12.3,
     "corroborated": 10
    },
    "keywords": [
@@ -567,13 +606,87 @@
    "verdict": "weak"
   },
   {
-   "score": 58.1,
+   "score": 56.0,
+   "components": {
+    "tier": 20,
+    "category": 5,
+    "lead": 1.2,
+    "relevance": 16,
+    "freshness": 19.8,
+    "undated": -6
+   },
+   "keywords": [
+    "route",
+    "airline",
+    "flight"
+   ],
+   "shock_terms": [],
+   "dedupe_match": null,
+   "dedupe_similarity": 0.17,
+   "id": "2c476e74f3c1",
+   "title": "Ethiopian Airlines Boosts Nigeria to 53 Weekly Flights and Launches New Port Harcourt Route",
+   "url": "https://travelnews.africa/news-single.html?id=18330&title=Ethiopian+Airlines+Boosts+Nigeria+to+53+Weekly+Flights+and+Launches+New+Port+Harcourt+Route",
+   "summary": "",
+   "kind": "item",
+   "source": "travelnews.africa",
+   "source_id": "tp-travelnews-africa",
+   "tier": 2,
+   "country": "REG",
+   "category": "trade",
+   "segments": [
+    "city",
+    "bush",
+    "beach"
+   ],
+   "first_seen": "2026-09-07T02:35+03:00",
+   "published": null,
+   "verdict": "weak"
+  },
+  {
+   "score": 56.0,
+   "components": {
+    "tier": 20,
+    "category": 5,
+    "lead": 1.2,
+    "relevance": 16,
+    "freshness": 19.8,
+    "undated": -6
+   },
+   "keywords": [
+    "route",
+    "airline",
+    "flight"
+   ],
+   "shock_terms": [],
+   "dedupe_match": null,
+   "dedupe_similarity": 0.17,
+   "id": "2cf10eda1815",
+   "title": "Ethiopian Airlines Boosts Nigeria to 53 Weekly Flights and Launches New Port Harcourt Route",
+   "url": "https://travelnews.africa/news-single.html?id=18330",
+   "summary": "",
+   "kind": "item",
+   "source": "travelnews.africa",
+   "source_id": "tp-travelnews-africa",
+   "tier": 2,
+   "country": "REG",
+   "category": "trade",
+   "segments": [
+    "city",
+    "bush",
+    "beach"
+   ],
+   "first_seen": "2026-09-07T02:35+03:00",
+   "published": null,
+   "verdict": "weak"
+  },
+  {
+   "score": 54.2,
    "components": {
     "tier": 20,
     "category": 4,
     "lead": 0.0,
     "relevance": 8,
-    "freshness": 16.1,
+    "freshness": 12.2,
     "corroborated": 10
    },
    "keywords": [
@@ -602,49 +715,13 @@
    "verdict": "weak"
   },
   {
-   "score": 57.9,
-   "components": {
-    "tier": 20,
-    "category": 4,
-    "lead": 0.0,
-    "relevance": 12,
-    "freshness": 11.9,
-    "corroborated": 10
-   },
-   "keywords": [
-    "diesel",
-    "inflation"
-   ],
-   "shock_terms": [],
-   "dedupe_match": null,
-   "dedupe_similarity": 0.2,
-   "id": "0578ce2ef9fc",
-   "title": "CNG cools diesel and petrol inflation rates in Tanzania",
-   "url": "https://dailynews.co.tz/cng-cools-diesel-and-petrol-inflation-rates-in-tanzania",
-   "summary": "GEITA: THE Tanzania Petroleum Development Corporation (TPDC) has hailed the use of Compressed Natural Gas (CNG) for helping cool down the impact of rising diesel and petrol prices in the country. The Head of TPDC\u2019s Public Relations and Communications Unit, Ms Marie Msellemu, made the statement during a special workshop for journalists held in Geita \u2026 The post CNG cools diesel and petrol inflation ",
-   "kind": "item",
-   "source": "Daily News (Tanzania)",
-   "source_id": "np-dailynews-tz",
-   "tier": 2,
-   "country": "TZ",
-   "category": "press",
-   "segments": [
-    "city",
-    "bush",
-    "beach"
-   ],
-   "first_seen": "2026-09-06T15:55+03:00",
-   "published": "2026-09-06",
-   "verdict": "weak"
-  },
-  {
-   "score": 57.8,
+   "score": 53.9,
    "components": {
     "tier": 20,
     "category": 4,
     "lead": 0.0,
     "relevance": 4,
-    "freshness": 19.8,
+    "freshness": 15.9,
     "corroborated": 10
    },
    "keywords": [
@@ -673,85 +750,46 @@
    "verdict": "weak"
   },
   {
-   "score": 57.3,
+   "score": 53.8,
    "components": {
     "tier": 20,
-    "category": 5,
-    "lead": 2.4,
-    "relevance": 8,
-    "freshness": 11.9,
+    "category": 4,
+    "lead": 0.0,
+    "relevance": 0,
+    "freshness": 19.8,
     "corroborated": 10
    },
-   "keywords": [
-    "airline",
-    "passenger"
-   ],
+   "keywords": [],
    "shock_terms": [],
    "dedupe_match": null,
-   "dedupe_similarity": 0.2,
-   "id": "758f56794573",
-   "title": "Africa\u2019s air travel demand rises by 6.4% amid global lull",
-   "url": "https://katakenya.org/africas-air-travel-demand-rises-by-6-4-amid-global-lull",
-   "summary": "Demand for air travel to, from and within Africa rose by 6.4 per cent year-on-year in July 2026, thereby outperforming the global market where passenger demand grew by just 0.2 per cent, the International Air Transport Association (IATA) has said. The latest IATA global passenger demand data for July 2026 showed that African airlines recorded a 6.4 [\u2026]",
+   "dedupe_similarity": 0.25,
+   "id": "d0359afbae25",
+   "title": "Arsenal pass Chelsea test in style with comeback win",
+   "url": "https://www.monitor.co.ug/uganda/sports/soccer/arsenal-pass-chelsea-test-in-style-with-comeback-win-5586010",
+   "summary": "Victory \u200bleft Arsenal level at the \u200btop \u2060with Manchester City with both sides on a maximum nine...",
    "kind": "item",
-   "source": "Kenya Association of Travel Agents news",
-   "source_id": "tp-kata",
+   "source": "Daily Monitor (Uganda)",
+   "source_id": "np-monitor-ug",
    "tier": 2,
-   "country": "KE",
-   "category": "trade",
+   "country": "UG",
+   "category": "press",
    "segments": [
     "city",
     "bush",
     "beach"
    ],
-   "first_seen": "2026-09-06T15:55+03:00",
+   "first_seen": "2026-09-07T02:35+03:00",
    "published": "2026-09-06",
    "verdict": "weak"
   },
   {
-   "score": 57.3,
-   "components": {
-    "tier": 20,
-    "category": 5,
-    "lead": 2.4,
-    "relevance": 8,
-    "freshness": 11.9,
-    "corroborated": 10
-   },
-   "keywords": [
-    "traffic",
-    "passenger"
-   ],
-   "shock_terms": [],
-   "dedupe_match": null,
-   "dedupe_similarity": 0.2,
-   "id": "38aac106c927",
-   "title": "Africa\u2019s aircraft fleet set to more than double by 2045",
-   "url": "https://katakenya.org/africas-aircraft-fleet-set-to-more-than-double-by-2045",
-   "summary": "Africa\u2019s commercial aircraft fleet is expected to more than double by 2045 as rising air travel demand, urbanisation, a growing middle class and improved infrastructure drive expansion across the continent, according to Boeing. The aerospace company\u2019s 2026 Commercial Market Outlook projects passenger traffic in Africa will grow by nearly six per cent annually over the [\u2026]",
-   "kind": "item",
-   "source": "Kenya Association of Travel Agents news",
-   "source_id": "tp-kata",
-   "tier": 2,
-   "country": "KE",
-   "category": "trade",
-   "segments": [
-    "city",
-    "bush",
-    "beach"
-   ],
-   "first_seen": "2026-09-06T15:55+03:00",
-   "published": "2026-09-06",
-   "verdict": "weak"
-  },
-  {
-   "score": 56.4,
+   "score": 52.5,
    "components": {
     "tier": 20,
     "category": 9,
     "lead": 3.6,
     "relevance": 4,
-    "freshness": 19.8
+    "freshness": 15.9
    },
    "keywords": [
     "tourist"
@@ -778,13 +816,13 @@
    "verdict": "weak"
   },
   {
-   "score": 56.1,
+   "score": 52.3,
    "components": {
     "tier": 5,
     "category": 5,
     "lead": 0.0,
     "relevance": 20,
-    "freshness": 16.1,
+    "freshness": 12.3,
     "corroborated": 10
    },
    "keywords": [
@@ -816,51 +854,13 @@
    "verdict": "weak"
   },
   {
-   "score": 55.9,
-   "components": {
-    "tier": 20,
-    "category": 4,
-    "lead": 0.0,
-    "relevance": 8,
-    "freshness": 11.9,
-    "undated": -6,
-    "shock": 18
-   },
-   "keywords": [
-    "strike"
-   ],
-   "shock_terms": [
-    "strike"
-   ],
-   "dedupe_match": null,
-   "dedupe_similarity": 0.17,
-   "id": "c9b6f030fd30",
-   "title": "Football Mwalimu strike gives Yanga lifeline in CAF Champions League opener 17 hours ago - 3 min read",
-   "url": "https://www.thecitizen.co.tz/tanzania/sports/football/mwalimu-strike-gives-yanga-lifeline-in-caf-champions-league-opener-5585144",
-   "summary": "",
-   "kind": "item",
-   "source": "The Citizen (Tanzania)",
-   "source_id": "np-citizen-tz",
-   "tier": 2,
-   "country": "TZ",
-   "category": "press",
-   "segments": [
-    "city",
-    "bush",
-    "beach"
-   ],
-   "first_seen": "2026-09-06T15:55+03:00",
-   "published": null,
-   "verdict": "weak"
-  },
-  {
-   "score": 54.1,
+   "score": 50.2,
    "components": {
     "tier": 20,
     "category": 4,
     "lead": 0.0,
     "relevance": 4,
-    "freshness": 16.1,
+    "freshness": 12.2,
     "corroborated": 10
    },
    "keywords": [
@@ -889,13 +889,13 @@
    "verdict": "weak"
   },
   {
-   "score": 54.1,
+   "score": 50.2,
    "components": {
     "tier": 20,
     "category": 4,
     "lead": 0.0,
     "relevance": 4,
-    "freshness": 16.1,
+    "freshness": 12.2,
     "corroborated": 10
    },
    "keywords": [
@@ -924,119 +924,13 @@
    "verdict": "weak"
   },
   {
-   "score": 53.9,
-   "components": {
-    "tier": 20,
-    "category": 4,
-    "lead": 0.0,
-    "relevance": 8,
-    "freshness": 11.9,
-    "corroborated": 10
-   },
-   "keywords": [
-    "tourism",
-    "investment"
-   ],
-   "shock_terms": [],
-   "dedupe_match": null,
-   "dedupe_similarity": 0.2,
-   "id": "288b0028f595",
-   "title": "Uganda woos Korea-based diaspora for investment",
-   "url": "https://www.monitor.co.ug/uganda/news/national/uganda-woos-korea-based-diaspora-for-investment-5585398",
-   "summary": "Korea-based Ugandans urged to invest in tourism, minerals, agribusiness",
-   "kind": "item",
-   "source": "Daily Monitor (Uganda)",
-   "source_id": "np-monitor-ug",
-   "tier": 2,
-   "country": "UG",
-   "category": "press",
-   "segments": [
-    "city",
-    "bush",
-    "beach"
-   ],
-   "first_seen": "2026-09-06T15:55+03:00",
-   "published": "2026-09-06",
-   "verdict": "weak"
-  },
-  {
-   "score": 53.9,
-   "components": {
-    "tier": 20,
-    "category": 4,
-    "lead": 0.0,
-    "relevance": 8,
-    "freshness": 11.9,
-    "corroborated": 10
-   },
-   "keywords": [
-    "fee"
-   ],
-   "shock_terms": [],
-   "dedupe_match": null,
-   "dedupe_similarity": 0.0,
-   "id": "fd855a82e08f",
-   "title": "NUP struggling to find feet in Bobi's absence",
-   "url": "https://www.monitor.co.ug/uganda/magazines/people-power/nup-struggling-to-find-feet-in-bobi-s-absence-5585232",
-   "summary": "Foot soldiers, who are normally draped in red berets and overalls, are a key cog in the NUP...",
-   "kind": "item",
-   "source": "Daily Monitor (Uganda)",
-   "source_id": "np-monitor-ug",
-   "tier": 2,
-   "country": "UG",
-   "category": "press",
-   "segments": [
-    "city",
-    "bush",
-    "beach"
-   ],
-   "first_seen": "2026-09-06T15:55+03:00",
-   "published": "2026-09-06",
-   "verdict": "weak"
-  },
-  {
-   "score": 53.9,
-   "components": {
-    "tier": 20,
-    "category": 4,
-    "lead": 0.0,
-    "relevance": 8,
-    "freshness": 11.9,
-    "corroborated": 10
-   },
-   "keywords": [
-    "flood"
-   ],
-   "shock_terms": [],
-   "dedupe_match": null,
-   "dedupe_similarity": 0.33,
-   "id": "a6a0e18f6ce8",
-   "title": "El Ni\u00f1o: Why a warming Pacific Ocean can change weather in East Africa",
-   "url": "https://www.monitor.co.ug/uganda/news/national/el-ni%C3%B1o-why-a-warming-pacific-ocean-can-change-weather-in-east-africa-5585202",
-   "summary": "El Ni\u00f1o is more than floods and here is what East Africa needs to know",
-   "kind": "item",
-   "source": "Daily Monitor (Uganda)",
-   "source_id": "np-monitor-ug",
-   "tier": 2,
-   "country": "UG",
-   "category": "press",
-   "segments": [
-    "city",
-    "bush",
-    "beach"
-   ],
-   "first_seen": "2026-09-06T15:55+03:00",
-   "published": "2026-09-06",
-   "verdict": "weak"
-  },
-  {
-   "score": 53.8,
+   "score": 49.9,
    "components": {
     "tier": 20,
     "category": 4,
     "lead": 0.0,
     "relevance": 0,
-    "freshness": 19.8,
+    "freshness": 15.9,
     "corroborated": 10
    },
    "keywords": [],
@@ -1063,13 +957,13 @@
    "verdict": "weak"
   },
   {
-   "score": 53.8,
+   "score": 49.9,
    "components": {
     "tier": 20,
     "category": 4,
     "lead": 0.0,
     "relevance": 0,
-    "freshness": 19.8,
+    "freshness": 15.9,
     "corroborated": 10
    },
    "keywords": [],
@@ -1096,13 +990,13 @@
    "verdict": "weak"
   },
   {
-   "score": 53.8,
+   "score": 49.9,
    "components": {
     "tier": 20,
     "category": 4,
     "lead": 0.0,
     "relevance": 0,
-    "freshness": 19.8,
+    "freshness": 15.9,
     "corroborated": 10
    },
    "keywords": [],
@@ -1129,13 +1023,13 @@
    "verdict": "weak"
   },
   {
-   "score": 53.8,
+   "score": 49.9,
    "components": {
     "tier": 20,
     "category": 4,
     "lead": 0.0,
     "relevance": 0,
-    "freshness": 19.8,
+    "freshness": 15.9,
     "corroborated": 10
    },
    "keywords": [],
@@ -1162,28 +1056,98 @@
    "verdict": "weak"
   },
   {
-   "score": 52.1,
+   "score": 49.8,
+   "components": {
+    "tier": 20,
+    "category": 4,
+    "lead": 0.0,
+    "relevance": 12,
+    "freshness": 19.8,
+    "undated": -6
+   },
+   "keywords": [
+    "suspend"
+   ],
+   "shock_terms": [],
+   "dedupe_match": null,
+   "dedupe_similarity": 0.14,
+   "id": "e8b38cd12d87",
+   "title": "Court News Tanzanian lawyer suspended for misleading court with fake cases 9 hours ago - 8 min read",
+   "url": "https://www.thecitizen.co.tz/tanzania/news/court-news/tanzanian-lawyer-suspended-for-misleading-court-with-fake-cases-5585722",
+   "summary": "",
+   "kind": "item",
+   "source": "The Citizen (Tanzania)",
+   "source_id": "np-citizen-tz",
+   "tier": 2,
+   "country": "TZ",
+   "category": "press",
+   "segments": [
+    "city",
+    "bush",
+    "beach"
+   ],
+   "first_seen": "2026-09-07T02:35+03:00",
+   "published": null,
+   "verdict": "weak"
+  },
+  {
+   "score": 49.8,
+   "components": {
+    "tier": 20,
+    "category": 4,
+    "lead": 0.0,
+    "relevance": 12,
+    "freshness": 19.8,
+    "undated": -6
+   },
+   "keywords": [
+    "suspend"
+   ],
+   "shock_terms": [],
+   "dedupe_match": null,
+   "dedupe_similarity": 0.14,
+   "id": "51689129fc0e",
+   "title": "Tanzanian driver\u2019s licence suspended for six months for chatting while driving 8 hours ago - 3 min read",
+   "url": "https://www.thecitizen.co.tz/tanzania/news/national/tanzanian-driver-s-licence-suspended-for-six-months-for-chatting-while-driving-5585808",
+   "summary": "",
+   "kind": "item",
+   "source": "The Citizen (Tanzania)",
+   "source_id": "np-citizen-tz",
+   "tier": 2,
+   "country": "TZ",
+   "category": "press",
+   "segments": [
+    "city",
+    "bush",
+    "beach"
+   ],
+   "first_seen": "2026-09-07T02:35+03:00",
+   "published": null,
+   "verdict": "weak"
+  },
+  {
+   "score": 48.0,
    "components": {
     "tier": 20,
     "category": 5,
     "lead": 1.2,
-    "relevance": 4,
-    "freshness": 11.9,
-    "corroborated": 10
+    "relevance": 8,
+    "freshness": 19.8,
+    "undated": -6
    },
    "keywords": [
-    "tourism"
+    "seat"
    ],
    "shock_terms": [],
    "dedupe_match": null,
-   "dedupe_similarity": 0.25,
-   "id": "0a665944dac1",
-   "title": "Fastjet Zimbabwe partners with ZTA to promote Sanganai Hlanganani Tourism Expo",
-   "url": "https://voyagesafriq.com/2026/09/06/fastjet-zimbabwe-partners-with-zta-to-promote-sanganai-hlanganani-tourism-expo",
-   "summary": "Fastjet Zimbabwe and the Ministry of Tourism and Hospitality, through the Zimbabwe Tourism Authority (ZTA), have announced a partnership to promote the upcoming Sanganai Hlanganani Dzimbahwe Tourism Expo, reinforcing their shared [\u2026] The post Fastjet Zimbabwe partners with ZTA to promote Sanganai Hlanganani Tourism Expo<gwmw style=\"display:none;\"></gwmw> appeared first on Voyages Afriq .",
+   "dedupe_similarity": 0.2,
+   "id": "c1e0f2b6e975",
+   "title": "Emirates Debuts World-First Electric Premium Economy Seat with Full-Height Privacy Screen",
+   "url": "https://travelnews.africa/news-single.html?id=18319&title=Emirates+Debuts+World-First+Electric+Premium+Economy+Seat+with+Full-Height+Privacy+Screen",
+   "summary": "",
    "kind": "item",
-   "source": "VoyagesAfriq",
-   "source_id": "tp-voyagesafriq",
+   "source": "travelnews.africa",
+   "source_id": "tp-travelnews-africa",
    "tier": 2,
    "country": "REG",
    "category": "trade",
@@ -1192,18 +1156,18 @@
     "bush",
     "beach"
    ],
-   "first_seen": "2026-09-06T15:55+03:00",
-   "published": "2026-09-06",
+   "first_seen": "2026-09-07T02:35+03:00",
+   "published": null,
    "verdict": "weak"
   },
   {
-   "score": 50.1,
+   "score": 46.2,
    "components": {
     "tier": 20,
     "category": 4,
     "lead": 0.0,
     "relevance": 0,
-    "freshness": 16.1,
+    "freshness": 12.2,
     "corroborated": 10
    },
    "keywords": [],
@@ -1230,13 +1194,13 @@
    "verdict": "weak"
   },
   {
-   "score": 50.1,
+   "score": 46.2,
    "components": {
     "tier": 20,
     "category": 4,
     "lead": 0.0,
     "relevance": 0,
-    "freshness": 16.1,
+    "freshness": 12.2,
     "corroborated": 10
    },
    "keywords": [],
@@ -1263,13 +1227,13 @@
    "verdict": "weak"
   },
   {
-   "score": 50.1,
+   "score": 46.2,
    "components": {
     "tier": 20,
     "category": 4,
     "lead": 0.0,
     "relevance": 0,
-    "freshness": 16.1,
+    "freshness": 12.2,
     "corroborated": 10
    },
    "keywords": [],
@@ -1296,13 +1260,13 @@
    "verdict": "weak"
   },
   {
-   "score": 50.1,
+   "score": 46.2,
    "components": {
     "tier": 20,
     "category": 4,
     "lead": 0.0,
     "relevance": 0,
-    "freshness": 16.1,
+    "freshness": 12.2,
     "corroborated": 10
    },
    "keywords": [],
@@ -1329,13 +1293,13 @@
    "verdict": "weak"
   },
   {
-   "score": 50.1,
+   "score": 46.2,
    "components": {
     "tier": 20,
     "category": 4,
     "lead": 0.0,
     "relevance": 0,
-    "freshness": 16.1,
+    "freshness": 12.2,
     "corroborated": 10
    },
    "keywords": [],
@@ -1362,13 +1326,13 @@
    "verdict": "weak"
   },
   {
-   "score": 50.1,
+   "score": 46.2,
    "components": {
     "tier": 20,
     "category": 4,
     "lead": 0.0,
     "relevance": 0,
-    "freshness": 16.1,
+    "freshness": 12.2,
     "corroborated": 10
    },
    "keywords": [],
@@ -1392,6 +1356,41 @@
    ],
    "first_seen": "2026-09-06T19:45+03:00",
    "published": "2026-09-06",
+   "verdict": "weak"
+  },
+  {
+   "score": 45.9,
+   "components": {
+    "tier": 20,
+    "category": 4,
+    "lead": 0.0,
+    "relevance": 12,
+    "freshness": 15.9,
+    "undated": -6
+   },
+   "keywords": [
+    "suspend"
+   ],
+   "shock_terms": [],
+   "dedupe_match": null,
+   "dedupe_similarity": 0.14,
+   "id": "a7b586cad13f",
+   "title": "Court News Tanzanian lawyer suspended for misleading court with fake cases 6 hours ago - 8 min read",
+   "url": "https://www.thecitizen.co.tz/tanzania/news/court-news/tanzanian-lawyer-suspended-for-misleading-court-with-fake-cases-5585722",
+   "summary": "",
+   "kind": "item",
+   "source": "The Citizen (Tanzania)",
+   "source_id": "np-citizen-tz",
+   "tier": 2,
+   "country": "TZ",
+   "category": "press",
+   "segments": [
+    "city",
+    "bush",
+    "beach"
+   ],
+   "first_seen": "2026-09-06T23:06+03:00",
+   "published": null,
    "verdict": "weak"
   }
  ]
