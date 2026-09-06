@@ -1,8 +1,8 @@
 window.LEDGER = {
- "updated": "2026-09-05 18:37",
+ "updated": "2026-09-06 17:11",
  "stats": {
-  "total": 155,
-  "open": 125,
+  "total": 158,
+  "open": 128,
   "resolved": 29,
   "correct": 22,
   "partial": 1,
@@ -328,6 +328,22 @@ window.LEDGER = {
    "resolved_date": "",
    "evidence": "",
    "source_url": "https://travel.state.gov/en/international-travel/travel-advisories/uganda.html",
+   "overdue": false
+  },
+  {
+   "id": "P156",
+   "made_date": "2026-09-06",
+   "edition": "Sunday Foresight",
+   "claim": "No East African national tourism board or trade body (KTB, Tanzania Tourist Board, Uganda Tourism Board, RDB, Zanzibar Commission for Tourism, KATO, TATO, AUTO, ZATI, RTTA, East African Tourism Platform) will publish EmpCo-specific member guidance BEFORE the directive's application date of 27 September 2026 — the tighter test on P144's 31 January 2027 window",
+   "resolution_criteria": "Published advisory, circular, webinar notice or guidance document referencing Directive (EU) 2024/825, EmpCo or the EU green-claims rules, issued by any of the named bodies and dated on or before 26 September 2026. Any such publication resolves incorrect",
+   "resolve_by": "2026-09-27",
+   "market": "KE|UG|TZ|RW|ZNZ",
+   "segment": "Bush|Beach|City",
+   "confidence": "Medium",
+   "status": "open",
+   "resolved_date": "",
+   "evidence": "",
+   "source_url": "https://sustainabletravel.org/eu-green-claims-empowering-consumers-directive/",
    "overdue": false
   },
   {
@@ -747,6 +763,22 @@ window.LEDGER = {
    "overdue": false
   },
   {
+   "id": "P157",
+   "made_date": "2026-09-06",
+   "edition": "Sunday Foresight",
+   "claim": "The US State Department will NOT re-issue or amend its Uganda travel advisory in response to the UK FCDO's 2 September 2026 update recording WHO's 27 August end-of-outbreak declaration — the US page will still show Level 4 with the health indicator on 31 October 2026",
+   "resolution_criteria": "travel.state.gov Uganda travel advisory page and its advisory history checked on 31 October 2026. Correct if the most recent entry remains the 4 June 2026 Level 4 re-issue or any later re-issue that retains Level 4. A move to Level 3 or below on or before 31 October 2026 resolves incorrect",
+   "resolve_by": "2026-10-31",
+   "market": "UG",
+   "segment": "Bush|City",
+   "confidence": "High",
+   "status": "open",
+   "resolved_date": "",
+   "evidence": "",
+   "source_url": "https://www.gov.uk/foreign-travel-advice/uganda",
+   "overdue": false
+  },
+  {
    "id": "P128",
    "made_date": "2026-08-26",
    "edition": "pulse-2026-08-26-evening",
@@ -1128,6 +1160,22 @@ window.LEDGER = {
    "resolved_date": "",
    "evidence": "",
    "source_url": "https://travel.state.gov/content/travel/en/traveladvisories/traveladvisories/tanzania-travel-advisory.html",
+   "overdue": false
+  },
+  {
+   "id": "P155",
+   "made_date": "2026-09-06",
+   "edition": "Sunday Foresight",
+   "claim": "Kenya Airways will NOT have a substantive (non-acting) Group Managing Director and CEO in post by 31 December 2026 — the board's \"competitive recruitment process\" announced on 1 September 2026 runs longer than the acting appointment implies",
+   "resolution_criteria": "A Kenya Airways board or NSE announcement, or credible Kenyan press (Business Daily, Daily Nation, The Star, The Standard, Capital FM), confirming a substantive GMD/CEO has assumed office on or before 31 December 2026 resolves incorrect. Habil Waswani or any other person still serving in an acting capacity on 31 December 2026 resolves correct",
+   "resolve_by": "2026-12-31",
+   "market": "KE",
+   "segment": "City|Bush|Beach",
+   "confidence": "Medium",
+   "status": "open",
+   "resolved_date": "",
+   "evidence": "",
+   "source_url": "https://www.the-star.co.ke/news/2026-09-01-kq-appoints-habil-waswani-as-acting-ceo",
    "overdue": false
   },
   {
