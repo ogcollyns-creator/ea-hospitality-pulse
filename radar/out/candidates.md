@@ -1,28 +1,51 @@
 # Radar candidates — evening slot
-_Window opens Sun 06 Sep 13:00 EAT · 92 observations in window · 25 headlines deduped against_
+_Window opens Sun 06 Sep 13:00 EAT · 142 observations in window · 29 headlines deduped against_
 
 Ranked by first-seen recency, source tier and hospitality relevance. `first seen` is when the radar observed the item, which is the date the recency gate runs on. `published` is what the source claims — where the two disagree, the disagreement is the story.
 
-### 🟡 [86.4] Albania - Level 1: Exercise Normal Precautions
+### 🚨 [65.3] [page changed] Airlink news
+- **Verdict:** OPEN THIS — tier-1 airline page moved; content not auto-parsed, read it manually
+- **Source:** Airlink news · tier 1 · REG · airline
+- **First seen:** 2026-09-06T19:45+03:00 EAT · **Source date:** — none stated
+- **URL:** https://www.flyairlink.com/
+- **Extract:** Request unsuccessful. Incapsula incident ID: 341000400283614070-46034803825642019
+- **Score parts:** tier +40, category +12, lead +3.6, relevance +0, freshness +19.7, undated -6, page_change -4
+
+### 🟡 [82.7] Albania - Level 1: Exercise Normal Precautions
 - **Verdict:** CONSIDER
 - **Source:** US State Dept travel advisories (EA feed) · tier 1 · REG · advisory
 - **First seen:** 2026-09-06T15:54+03:00 EAT · **Source date:** — none stated
 - **URL:** https://travel.state.gov/content/tsg_aem/us/en/home/international-travel/travel-advisories/destination.alb.html
 - **Extract:** Exercise normal precautionSummary not available
-- **Score parts:** tier +40, category +32, lead +1.2, relevance +0, freshness +19.2, undated -6
+- **Score parts:** tier +40, category +32, lead +1.2, relevance +0, freshness +15.5, undated -6
 
-### 🟡 [80.8] [page changed] Federal Register — public inspection (HHS/CDC), pre-publication
+### 🟡 [81.3] [page changed] Federal Register — public inspection (HHS/CDC), pre-publication
+- **Verdict:** CHECK — source date older than the window
+- **Source:** Federal Register — public inspection (HHS/CDC), pre-publication · tier 1 · REG · advisory
+- **First seen:** 2026-09-06T19:45+03:00 EAT · **Source date:** 2026-09-03
+- **URL:** https://www.federalregister.gov/api/v1/public-inspection-documents/current.json
+- **Extract:** {"count":77,"results":[{"agencies":[{"raw_name":"Health Resources and Services Administration","name":"Health Resources and Services Administration","id":222,"url":"https://www.federalregister.gov/agencies/health-resources-and-services-administration","json_ur
+- **Score parts:** tier +40, category +32, lead +3.6, relevance +0, freshness +19.7, stale_trap -10, page_change -4
+
+### 🟡 [80.5] Tayebwa commends Prof Kwesiga for transforming Kabale University Sunday, 6 September 2026
+- **Verdict:** CONSIDER
+- **Source:** Parliament of Uganda · tier 1 · UG · legislature
+- **First seen:** 2026-09-06T19:45+03:00 EAT · **Source date:** — none stated
+- **URL:** https://www.parliament.go.ug/news/4607/tayebwa-commends-prof-kwesiga-transforming-kabale-university
+- **Score parts:** tier +40, category +10, lead +16.8, relevance +0, freshness +19.7, undated -6
+
+### 🟡 [77.1] [page changed] Federal Register — public inspection (HHS/CDC), pre-publication
 - **Verdict:** CHECK — source date older than the window
 - **Source:** Federal Register — public inspection (HHS/CDC), pre-publication · tier 1 · REG · advisory
 - **First seen:** 2026-09-06T15:54+03:00 EAT · **Source date:** 2026-09-03
 - **URL:** https://www.federalregister.gov/api/v1/public-inspection-documents/current.json
 - **Extract:** {"count":77,"results":[{"agencies":[{"raw_name":"Health Resources and Services Administration","name":"Health Resources and Services Administration","id":222,"url":"https://www.federalregister.gov/agencies/health-resources-and-services-administration","json_ur
-- **Score parts:** tier +40, category +32, lead +3.6, relevance +0, freshness +19.2, stale_trap -10, page_change -4
+- **Score parts:** tier +40, category +32, lead +3.6, relevance +0, freshness +15.5, stale_trap -10, page_change -4
 
-### 🟡 [72.6] 26 Years On, Spotlight Travel Expo Keeps Africa’s Travel Trade in Business
+### 🟡 [73.1] Dubai prepares to welcome global travel industry for Arabian Travel Market 2026
 - **Verdict:** CONSIDER
 - **Source:** Kenya Association of Travel Agents news · tier 2 · KE · trade
-- **First seen:** 2026-09-06T15:55+03:00 EAT · **Source date:** 2026-09-06
-- **URL:** https://katakenya.org/26-years-on-spotlight-travel-expo-keeps-africas-travel-trade-in-business
-- **Extract:** A travel exhibition can fill a room. A B2B platform has to fill appointment books. That distinction is at the heart of the Spotlight Travel Expo, which has spent the past 26 years connecting Africa’s travel trade with airlines, hotels, destinations, tour opera
-- **Score parts:** tier +20, category +5, lead +2.4, relevance +16, freshness +19.2, corroborated +10
+- **First seen:** 2026-09-06T19:45+03:00 EAT · **Source date:** 2026-09-06
+- **URL:** https://katakenya.org/dubai-prepares-to-welcome-global-travel-industry-for-arabian-travel-market-2026
+- **Extract:** Dubai is preparing to host the global travel trade next week as the Arabian Travel Market (ATM) 2026 opens at Dubai World Trade Centre from 14 to 17 September. Now in its 33rd edition, ATM brings together airlines, tourism boards, hotels, tour operators, trave
+- **Score parts:** tier +20, category +5, lead +2.4, relevance +16, freshness +19.7, corroborated +10

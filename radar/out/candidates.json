@@ -1,18 +1,52 @@
 {
- "generated": "2026-09-06T16:27:00+03:00",
+ "generated": "2026-09-06T19:48:59+03:00",
  "slot": "evening",
  "window_start": 1788688800,
- "observations_in_window": 92,
- "deduped_against": 25,
+ "observations_in_window": 142,
+ "deduped_against": 29,
  "candidates": [
   {
-   "score": 86.4,
+   "score": 65.3,
+   "components": {
+    "tier": 40,
+    "category": 12,
+    "lead": 3.6,
+    "relevance": 0,
+    "freshness": 19.7,
+    "undated": -6,
+    "page_change": -4
+   },
+   "keywords": [],
+   "shock_terms": [],
+   "dedupe_match": null,
+   "dedupe_similarity": 0.0,
+   "id": "64a939a88767",
+   "title": "[page changed] Airlink news",
+   "url": "https://www.flyairlink.com/",
+   "summary": "Request unsuccessful. Incapsula incident ID: 341000400283614070-46034803825642019",
+   "kind": "page-change",
+   "source": "Airlink news",
+   "source_id": "air-airlink",
+   "tier": 1,
+   "country": "REG",
+   "category": "airline",
+   "segments": [
+    "city",
+    "bush",
+    "beach"
+   ],
+   "first_seen": "2026-09-06T19:45+03:00",
+   "published": null,
+   "verdict": "OPEN THIS \u2014 tier-1 airline page moved; content not auto-parsed, read it manually"
+  },
+  {
+   "score": 82.7,
    "components": {
     "tier": 40,
     "category": 32,
     "lead": 1.2,
     "relevance": 0,
-    "freshness": 19.2,
+    "freshness": 15.5,
     "undated": -6
    },
    "keywords": [],
@@ -39,13 +73,79 @@
    "verdict": "CONSIDER"
   },
   {
-   "score": 80.8,
+   "score": 81.3,
    "components": {
     "tier": 40,
     "category": 32,
     "lead": 3.6,
     "relevance": 0,
-    "freshness": 19.2,
+    "freshness": 19.7,
+    "stale_trap": -10,
+    "page_change": -4
+   },
+   "keywords": [],
+   "shock_terms": [],
+   "dedupe_match": null,
+   "dedupe_similarity": 0.0,
+   "id": "82480de2ddf4",
+   "title": "[page changed] Federal Register \u2014 public inspection (HHS/CDC), pre-publication",
+   "url": "https://www.federalregister.gov/api/v1/public-inspection-documents/current.json",
+   "summary": "{\"count\":77,\"results\":[{\"agencies\":[{\"raw_name\":\"Health Resources and Services Administration\",\"name\":\"Health Resources and Services Administration\",\"id\":222,\"url\":\"https://www.federalregister.gov/agencies/health-resources-and-services-administration\",\"json_url\":\"https://www.federalregister.gov/api/v1/agencies/222\",\"parent_id\":221,\"slug\":\"health-resources-and-services-administration\"}],\"agency_let",
+   "kind": "page-change",
+   "source": "Federal Register \u2014 public inspection (HHS/CDC), pre-publication",
+   "source_id": "us-fedreg-pubinspect-hhs",
+   "tier": 1,
+   "country": "REG",
+   "category": "advisory",
+   "segments": [
+    "city",
+    "bush"
+   ],
+   "first_seen": "2026-09-06T19:45+03:00",
+   "published": "2026-09-03",
+   "verdict": "CHECK \u2014 source date older than the window"
+  },
+  {
+   "score": 80.5,
+   "components": {
+    "tier": 40,
+    "category": 10,
+    "lead": 16.8,
+    "relevance": 0,
+    "freshness": 19.7,
+    "undated": -6
+   },
+   "keywords": [],
+   "shock_terms": [],
+   "dedupe_match": null,
+   "dedupe_similarity": 0.17,
+   "id": "8661e613f4a4",
+   "title": "Tayebwa commends Prof Kwesiga for transforming Kabale University Sunday, 6 September 2026",
+   "url": "https://www.parliament.go.ug/news/4607/tayebwa-commends-prof-kwesiga-transforming-kabale-university",
+   "summary": "",
+   "kind": "item",
+   "source": "Parliament of Uganda",
+   "source_id": "ug-parliament",
+   "tier": 1,
+   "country": "UG",
+   "category": "legislature",
+   "segments": [
+    "city",
+    "bush",
+    "beach"
+   ],
+   "first_seen": "2026-09-06T19:45+03:00",
+   "published": null,
+   "verdict": "CONSIDER"
+  },
+  {
+   "score": 77.1,
+   "components": {
+    "tier": 40,
+    "category": 32,
+    "lead": 3.6,
+    "relevance": 0,
+    "freshness": 15.5,
     "stale_trap": -10,
     "page_change": -4
    },
@@ -72,13 +172,51 @@
    "verdict": "CHECK \u2014 source date older than the window"
   },
   {
-   "score": 72.6,
+   "score": 73.1,
    "components": {
     "tier": 20,
     "category": 5,
     "lead": 2.4,
     "relevance": 16,
-    "freshness": 19.2,
+    "freshness": 19.7,
+    "corroborated": 10
+   },
+   "keywords": [
+    "hotel",
+    "tourism",
+    "airline",
+    "operator"
+   ],
+   "shock_terms": [],
+   "dedupe_match": null,
+   "dedupe_similarity": 0.4,
+   "id": "bdbac84c81f8",
+   "title": "Dubai prepares to welcome global travel industry for Arabian Travel Market 2026",
+   "url": "https://katakenya.org/dubai-prepares-to-welcome-global-travel-industry-for-arabian-travel-market-2026",
+   "summary": "Dubai is preparing to host the global travel trade next week as the Arabian Travel Market (ATM) 2026 opens at Dubai World Trade Centre from 14 to 17 September. Now in its 33rd edition, ATM brings together airlines, tourism boards, hotels, tour operators, travel agencies, technology companies and other travel businesses from international markets. The [\u2026]",
+   "kind": "item",
+   "source": "Kenya Association of Travel Agents news",
+   "source_id": "tp-kata",
+   "tier": 2,
+   "country": "KE",
+   "category": "trade",
+   "segments": [
+    "city",
+    "bush",
+    "beach"
+   ],
+   "first_seen": "2026-09-06T19:45+03:00",
+   "published": "2026-09-06",
+   "verdict": "CONSIDER"
+  },
+  {
+   "score": 68.9,
+   "components": {
+    "tier": 20,
+    "category": 5,
+    "lead": 2.4,
+    "relevance": 16,
+    "freshness": 15.5,
     "corroborated": 10
    },
    "keywords": [
@@ -107,16 +245,52 @@
    ],
    "first_seen": "2026-09-06T15:55+03:00",
    "published": "2026-09-06",
-   "verdict": "CONSIDER"
+   "verdict": "weak"
   },
   {
-   "score": 68.6,
+   "score": 65.1,
+   "components": {
+    "tier": 20,
+    "category": 5,
+    "lead": 2.4,
+    "relevance": 8,
+    "freshness": 19.7,
+    "corroborated": 10
+   },
+   "keywords": [
+    "tourism",
+    "operator"
+   ],
+   "shock_terms": [],
+   "dedupe_match": null,
+   "dedupe_similarity": 0.2,
+   "id": "a420ea98aa35",
+   "title": "Extreme heat is changing how African tourism is organised",
+   "url": "https://katakenya.org/extreme-heat-is-changing-how-african-tourism-is-organised",
+   "summary": "Extreme heat is increasingly affecting tourism patterns across Africa, with operators adjusting the timing and structure of travel experiences as temperatures rise. An analysis published by OkayAfrica on September 2 highlighted how climate conditions are already influencing tourism in different parts of the continent. In North Africa, particularly Egypt, rising temperatures are affecting how visit",
+   "kind": "item",
+   "source": "Kenya Association of Travel Agents news",
+   "source_id": "tp-kata",
+   "tier": 2,
+   "country": "KE",
+   "category": "trade",
+   "segments": [
+    "city",
+    "bush",
+    "beach"
+   ],
+   "first_seen": "2026-09-06T19:45+03:00",
+   "published": "2026-09-06",
+   "verdict": "weak"
+  },
+  {
+   "score": 64.9,
    "components": {
     "tier": 20,
     "category": 5,
     "lead": 2.4,
     "relevance": 12,
-    "freshness": 19.2,
+    "freshness": 15.5,
     "corroborated": 10
    },
    "keywords": [
@@ -146,13 +320,120 @@
    "verdict": "weak"
   },
   {
-   "score": 65.2,
+   "score": 64.1,
+   "components": {
+    "tier": 20,
+    "category": 24,
+    "lead": 2.4,
+    "relevance": 8,
+    "freshness": 19.7,
+    "undated": -6,
+    "page_change": -4
+   },
+   "keywords": [
+    "vat"
+   ],
+   "shock_terms": [],
+   "dedupe_match": null,
+   "dedupe_similarity": 0.2,
+   "id": "c60b49bd9c20",
+   "title": "[page changed] ProMED-mail",
+   "url": "https://promedmail.org/",
+   "summary": "Protecting Global Health, One Alert at a Time | ProMED Previous slide Next slide Protecting Global Health, One Alert at a Time ProMED: Your 24/7 early warning system for emerging infectious diseases worldwide. Subscribe ProMED's Weekly Pulse A snapshot of global health events from the past 7 days Latest Posts on ProMED All Date Title Sun Sep 06 2026 RESEARCH & INNOVATION (176): ESCHERICHIA COLI, L",
+   "kind": "page-change",
+   "source": "ProMED-mail",
+   "source_id": "promed",
+   "tier": 2,
+   "country": "GLOBAL",
+   "category": "health",
+   "segments": [
+    "city",
+    "bush",
+    "beach"
+   ],
+   "first_seen": "2026-09-06T19:45+03:00",
+   "published": null,
+   "verdict": "weak"
+  },
+  {
+   "score": 63.9,
+   "components": {
+    "tier": 20,
+    "category": 5,
+    "lead": 1.2,
+    "relevance": 8,
+    "freshness": 19.7,
+    "corroborated": 10
+   },
+   "keywords": [
+    "tourism",
+    "summit"
+   ],
+   "shock_terms": [],
+   "dedupe_match": null,
+   "dedupe_similarity": 0.2,
+   "id": "7d43ccc8d4b3",
+   "title": "Africa\u2019s Brain Bank 7th Annual Summit and Charity Ball heralds Ada Medical City project",
+   "url": "https://voyagesafriq.com/2026/09/06/africas-brain-bank-7th-annual-summit-and-charity-ball-heralds-ada-medical-city-project",
+   "summary": "Ghana\u2019s medical tourism proposition is set for a new test on Monday, September 7, when AFRICA\u2019s BRAIN BANK\u00ae Global breaks ground for its proposed Medical City in Ada, Greater Accra. The [\u2026] The post Africa\u2019s Brain Bank 7th Annual Summit and Charity Ball heralds Ada Medical City project appeared first on Voyages Afriq .",
+   "kind": "item",
+   "source": "VoyagesAfriq",
+   "source_id": "tp-voyagesafriq",
+   "tier": 2,
+   "country": "REG",
+   "category": "trade",
+   "segments": [
+    "city",
+    "bush",
+    "beach"
+   ],
+   "first_seen": "2026-09-06T19:45+03:00",
+   "published": "2026-09-06",
+   "verdict": "weak"
+  },
+  {
+   "score": 61.7,
+   "components": {
+    "tier": 20,
+    "category": 4,
+    "lead": 0.0,
+    "relevance": 8,
+    "freshness": 19.7,
+    "corroborated": 10
+   },
+   "keywords": [
+    "eta"
+   ],
+   "shock_terms": [],
+   "dedupe_match": null,
+   "dedupe_similarity": 0.0,
+   "id": "baa79c59bd12",
+   "title": "Former FDC legal secretary Okot Bitek crosses to NRM",
+   "url": "https://www.monitor.co.ug/uganda/news/national/former-fdc-legal-secretary-okot-bitek-crosses-to-nrm--5585750",
+   "summary": "Mr Todwong said the decision followed extended discussions.",
+   "kind": "item",
+   "source": "Daily Monitor (Uganda)",
+   "source_id": "np-monitor-ug",
+   "tier": 2,
+   "country": "UG",
+   "category": "press",
+   "segments": [
+    "city",
+    "bush",
+    "beach"
+   ],
+   "first_seen": "2026-09-06T19:45+03:00",
+   "published": "2026-09-06",
+   "verdict": "weak"
+  },
+  {
+   "score": 61.5,
    "components": {
     "tier": 20,
     "category": 4,
     "lead": 0.0,
     "relevance": 12,
-    "freshness": 19.2,
+    "freshness": 15.5,
     "corroborated": 10
    },
    "keywords": [
@@ -182,13 +463,13 @@
    "verdict": "weak"
   },
   {
-   "score": 64.6,
+   "score": 60.9,
    "components": {
     "tier": 20,
     "category": 5,
     "lead": 2.4,
     "relevance": 8,
-    "freshness": 19.2,
+    "freshness": 15.5,
     "corroborated": 10
    },
    "keywords": [
@@ -218,13 +499,13 @@
    "verdict": "weak"
   },
   {
-   "score": 64.6,
+   "score": 60.9,
    "components": {
     "tier": 20,
     "category": 5,
     "lead": 2.4,
     "relevance": 8,
-    "freshness": 19.2,
+    "freshness": 15.5,
     "corroborated": 10
    },
    "keywords": [
@@ -254,13 +535,51 @@
    "verdict": "weak"
   },
   {
-   "score": 63.2,
+   "score": 59.7,
+   "components": {
+    "tier": 5,
+    "category": 5,
+    "lead": 0.0,
+    "relevance": 20,
+    "freshness": 19.7,
+    "corroborated": 10
+   },
+   "keywords": [
+    "tax",
+    "hotel",
+    "tourism",
+    "tourist"
+   ],
+   "shock_terms": [],
+   "dedupe_match": null,
+   "dedupe_similarity": 0.2,
+   "id": "b3c0dc920065",
+   "title": "South Korea Tourism Boom Hits Trouble as Tourist Complaints Reach Record High",
+   "url": "https://eturbonews.com/south-korea-tourism-complaints-record-high-2026",
+   "summary": "South Korea\u2019s tourism boom has a growing downside. Record numbers of foreign visitors are being accompanied by record complaints involving hotels, taxis, overcharging and service problems. From BTS-related accommodation disputes in Busan to traveler warnings spreading online, Korea faces a new challenge: protecting the reputation its global tourism success created. SOURCE: South Korea Tourism Boom",
+   "kind": "item",
+   "source": "eTurboNews Africa",
+   "source_id": "tp-eturbonews",
+   "tier": 3,
+   "country": "GLOBAL",
+   "category": "trade",
+   "segments": [
+    "city",
+    "bush",
+    "beach"
+   ],
+   "first_seen": "2026-09-06T19:45+03:00",
+   "published": "2026-09-06",
+   "verdict": "weak"
+  },
+  {
+   "score": 59.5,
    "components": {
     "tier": 20,
     "category": 4,
     "lead": 0.0,
     "relevance": 8,
-    "freshness": 19.2,
+    "freshness": 15.5,
     "undated": -6,
     "shock": 18
    },
@@ -292,13 +611,83 @@
    "verdict": "weak"
   },
   {
-   "score": 61.2,
+   "score": 57.7,
+   "components": {
+    "tier": 20,
+    "category": 4,
+    "lead": 0.0,
+    "relevance": 4,
+    "freshness": 19.7,
+    "corroborated": 10
+   },
+   "keywords": [
+    "hotel"
+   ],
+   "shock_terms": [],
+   "dedupe_match": null,
+   "dedupe_similarity": 0.2,
+   "id": "5012607f974f",
+   "title": "Why big hotel brands are betting on Uganda",
+   "url": "https://www.monitor.co.ug/uganda/business/prosper/why-big-hotel-brands-are-betting-on-uganda-5585810",
+   "summary": "What the new hotel chains mean for Uganda",
+   "kind": "item",
+   "source": "Daily Monitor (Uganda)",
+   "source_id": "np-monitor-ug",
+   "tier": 2,
+   "country": "UG",
+   "category": "press",
+   "segments": [
+    "city",
+    "bush",
+    "beach"
+   ],
+   "first_seen": "2026-09-06T19:45+03:00",
+   "published": "2026-09-06",
+   "verdict": "weak"
+  },
+  {
+   "score": 57.7,
+   "components": {
+    "tier": 20,
+    "category": 4,
+    "lead": 0.0,
+    "relevance": 4,
+    "freshness": 19.7,
+    "corroborated": 10
+   },
+   "keywords": [
+    "camp"
+   ],
+   "shock_terms": [],
+   "dedupe_match": null,
+   "dedupe_similarity": 0.0,
+   "id": "2173dbfcd674",
+   "title": "Rotary Club of Kigali Virunga reaches 5,000 vulnerable children with Welfare Supplies",
+   "url": "https://www.ktpress.rw/2026/09/rotary-club-of-kigali-virunga-reaches-5000-vulnerable-children-with-welfare-supplies",
+   "summary": "KIGALI \u2013 The Rotary Club of Kigali Virunga has completed a five-district campaign that provided 5,000 children from vulnerable families in Rwanda with basic welfare supplies intended to improve their\u2026 The post Rotary Club of Kigali Virunga reaches 5,000 vulnerable children with Welfare Supplies appeared first on KT PRESS .",
+   "kind": "item",
+   "source": "KT Press (Rwanda)",
+   "source_id": "np-ktpress-rw",
+   "tier": 2,
+   "country": "RW",
+   "category": "press",
+   "segments": [
+    "city",
+    "bush",
+    "beach"
+   ],
+   "first_seen": "2026-09-06T19:45+03:00",
+   "published": "2026-09-06",
+   "verdict": "weak"
+  },
+  {
+   "score": 57.5,
    "components": {
     "tier": 20,
     "category": 4,
     "lead": 0.0,
     "relevance": 8,
-    "freshness": 19.2,
+    "freshness": 15.5,
     "corroborated": 10
    },
    "keywords": [
@@ -328,13 +717,13 @@
    "verdict": "weak"
   },
   {
-   "score": 61.2,
+   "score": 57.5,
    "components": {
     "tier": 20,
     "category": 4,
     "lead": 0.0,
     "relevance": 8,
-    "freshness": 19.2,
+    "freshness": 15.5,
     "corroborated": 10
    },
    "keywords": [
@@ -363,13 +752,13 @@
    "verdict": "weak"
   },
   {
-   "score": 61.2,
+   "score": 57.5,
    "components": {
     "tier": 20,
     "category": 4,
     "lead": 0.0,
     "relevance": 8,
-    "freshness": 19.2,
+    "freshness": 15.5,
     "corroborated": 10
    },
    "keywords": [
@@ -398,13 +787,13 @@
    "verdict": "weak"
   },
   {
-   "score": 59.4,
+   "score": 55.7,
    "components": {
     "tier": 20,
     "category": 5,
     "lead": 1.2,
     "relevance": 4,
-    "freshness": 19.2,
+    "freshness": 15.5,
     "corroborated": 10
    },
    "keywords": [
@@ -433,13 +822,211 @@
    "verdict": "weak"
   },
   {
-   "score": 57.2,
+   "score": 53.7,
+   "components": {
+    "tier": 20,
+    "category": 4,
+    "lead": 0.0,
+    "relevance": 0,
+    "freshness": 19.7,
+    "corroborated": 10
+   },
+   "keywords": [],
+   "shock_terms": [],
+   "dedupe_match": null,
+   "dedupe_similarity": 0.25,
+   "id": "17ccb8a605f4",
+   "title": "Unlocking short-term trading: Kenya weighs easing collateral rules for idle NSE shares",
+   "url": "https://www.theeastafrican.co.ke/tea/business-tech/kenya-weighs-easing-collateral-rules-for-idle-nse-shares-5584306",
+   "summary": "Regulators now want to allow lenders and borrowers to negotiate the value of collateral to...",
+   "kind": "item",
+   "source": "The EastAfrican",
+   "source_id": "np-eastafrican",
+   "tier": 2,
+   "country": "REG",
+   "category": "press",
+   "segments": [
+    "city",
+    "bush",
+    "beach"
+   ],
+   "first_seen": "2026-09-06T19:45+03:00",
+   "published": "2026-09-06",
+   "verdict": "weak"
+  },
+  {
+   "score": 53.7,
+   "components": {
+    "tier": 20,
+    "category": 4,
+    "lead": 0.0,
+    "relevance": 0,
+    "freshness": 19.7,
+    "corroborated": 10
+   },
+   "keywords": [],
+   "shock_terms": [],
+   "dedupe_match": null,
+   "dedupe_similarity": 0.2,
+   "id": "0077a4118d6e",
+   "title": "Runyankole to go live on Wikipedia",
+   "url": "https://www.monitor.co.ug/uganda/news/national/runyankole-to-go-live-on-wikipedia-5585682",
+   "summary": "Wikipedia is the world's largest online encyclopedia that most countries use to store...",
+   "kind": "item",
+   "source": "Daily Monitor (Uganda)",
+   "source_id": "np-monitor-ug",
+   "tier": 2,
+   "country": "UG",
+   "category": "press",
+   "segments": [
+    "city",
+    "bush",
+    "beach"
+   ],
+   "first_seen": "2026-09-06T19:45+03:00",
+   "published": "2026-09-06",
+   "verdict": "weak"
+  },
+  {
+   "score": 53.7,
+   "components": {
+    "tier": 20,
+    "category": 4,
+    "lead": 0.0,
+    "relevance": 0,
+    "freshness": 19.7,
+    "corroborated": 10
+   },
+   "keywords": [],
+   "shock_terms": [],
+   "dedupe_match": null,
+   "dedupe_similarity": 0.0,
+   "id": "664a76a6f7db",
+   "title": "Rwenzururu clarifies King Mumbere\u2019s health",
+   "url": "https://www.monitor.co.ug/uganda/news/national/rwenzururu-clarifies-king-mumbere-s-health-5585612",
+   "summary": "''HM Omusinga Charles Wesley Mumbere Irema-Ngoma is not critically ill.'' Said Mr Baritizale.",
+   "kind": "item",
+   "source": "Daily Monitor (Uganda)",
+   "source_id": "np-monitor-ug",
+   "tier": 2,
+   "country": "UG",
+   "category": "press",
+   "segments": [
+    "city",
+    "bush",
+    "beach"
+   ],
+   "first_seen": "2026-09-06T19:45+03:00",
+   "published": "2026-09-06",
+   "verdict": "weak"
+  },
+  {
+   "score": 53.7,
+   "components": {
+    "tier": 20,
+    "category": 4,
+    "lead": 0.0,
+    "relevance": 0,
+    "freshness": 19.7,
+    "corroborated": 10
+   },
+   "keywords": [],
+   "shock_terms": [],
+   "dedupe_match": null,
+   "dedupe_similarity": 0.0,
+   "id": "be26bfb4ac12",
+   "title": "Past and Present: UPC \u2018rebel\u2019 accuses Obote of clinging to party presidency",
+   "url": "https://www.monitor.co.ug/uganda/magazines/people-power/past-and-present-upc-rebel-accuses-obote-of-clinging-to-party-presidency-5585380",
+   "summary": "Mr Sakwa\u2019s missive was precipitated by a letter that Obote had earlier written to UPC directing...",
+   "kind": "item",
+   "source": "Daily Monitor (Uganda)",
+   "source_id": "np-monitor-ug",
+   "tier": 2,
+   "country": "UG",
+   "category": "press",
+   "segments": [
+    "city",
+    "bush",
+    "beach"
+   ],
+   "first_seen": "2026-09-06T19:45+03:00",
+   "published": "2026-09-06",
+   "verdict": "weak"
+  },
+  {
+   "score": 53.7,
+   "components": {
+    "tier": 20,
+    "category": 4,
+    "lead": 0.0,
+    "relevance": 0,
+    "freshness": 19.7,
+    "corroborated": 10
+   },
+   "keywords": [],
+   "shock_terms": [],
+   "dedupe_match": null,
+   "dedupe_similarity": 0.0,
+   "id": "35208d1f724a",
+   "title": "Vice President Alupo hails King Oyo",
+   "url": "https://www.monitor.co.ug/uganda/news/national/vice-president-alupo-hails-king-oyo-5585492",
+   "summary": "The Vice President said that throughout his reign, King Oyo became an important symbol of...",
+   "kind": "item",
+   "source": "Daily Monitor (Uganda)",
+   "source_id": "np-monitor-ug",
+   "tier": 2,
+   "country": "UG",
+   "category": "press",
+   "segments": [
+    "city",
+    "bush",
+    "beach"
+   ],
+   "first_seen": "2026-09-06T19:45+03:00",
+   "published": "2026-09-06",
+   "verdict": "weak"
+  },
+  {
+   "score": 53.7,
+   "components": {
+    "tier": 20,
+    "category": 4,
+    "lead": 0.0,
+    "relevance": 0,
+    "freshness": 19.7,
+    "corroborated": 10
+   },
+   "keywords": [],
+   "shock_terms": [],
+   "dedupe_match": null,
+   "dedupe_similarity": 0.25,
+   "id": "c75ee856e800",
+   "title": "Jeannette Kagame Warns Young Leaders Not to Sacrifice Family for Success",
+   "url": "https://www.ktpress.rw/2026/09/jeannette-kagame-warns-young-leaders-not-to-sacrifice-family-for-success",
+   "summary": "KIGALI \u2013 A generation can build successful careers, lead institutions and drive a country\u2019s ambitions forward, yet still fail at one of the most important responsibilities of building strong families\u2026 The post Jeannette Kagame Warns Young Leaders Not to Sacrifice Family for Success appeared first on KT PRESS .",
+   "kind": "item",
+   "source": "KT Press (Rwanda)",
+   "source_id": "np-ktpress-rw",
+   "tier": 2,
+   "country": "RW",
+   "category": "press",
+   "segments": [
+    "city",
+    "bush",
+    "beach"
+   ],
+   "first_seen": "2026-09-06T19:45+03:00",
+   "published": "2026-09-06",
+   "verdict": "weak"
+  },
+  {
+   "score": 53.5,
    "components": {
     "tier": 20,
     "category": 4,
     "lead": 0.0,
     "relevance": 4,
-    "freshness": 19.2,
+    "freshness": 15.5,
     "corroborated": 10
    },
    "keywords": [
@@ -468,13 +1055,13 @@
    "verdict": "weak"
   },
   {
-   "score": 57.2,
+   "score": 53.5,
    "components": {
     "tier": 20,
     "category": 4,
     "lead": 0.0,
     "relevance": 4,
-    "freshness": 19.2,
+    "freshness": 15.5,
     "corroborated": 10
    },
    "keywords": [
@@ -503,13 +1090,13 @@
    "verdict": "weak"
   },
   {
-   "score": 57.2,
+   "score": 53.5,
    "components": {
     "tier": 20,
     "category": 4,
     "lead": 0.0,
     "relevance": 4,
-    "freshness": 19.2,
+    "freshness": 15.5,
     "corroborated": 10
    },
    "keywords": [
@@ -538,13 +1125,13 @@
    "verdict": "weak"
   },
   {
-   "score": 55.4,
+   "score": 51.7,
    "components": {
     "tier": 20,
     "category": 5,
     "lead": 1.2,
     "relevance": 0,
-    "freshness": 19.2,
+    "freshness": 15.5,
     "corroborated": 10
    },
    "keywords": [],
@@ -571,13 +1158,13 @@
    "verdict": "weak"
   },
   {
-   "score": 55.2,
+   "score": 51.5,
    "components": {
     "tier": 20,
     "category": 4,
     "lead": 0.0,
     "relevance": 0,
-    "freshness": 19.2,
+    "freshness": 15.5,
     "undated": -6,
     "shock": 18
    },
@@ -607,13 +1194,13 @@
    "verdict": "weak"
   },
   {
-   "score": 55.2,
+   "score": 51.5,
    "components": {
     "tier": 20,
     "category": 4,
     "lead": 0.0,
     "relevance": 0,
-    "freshness": 19.2,
+    "freshness": 15.5,
     "undated": -6,
     "shock": 18
    },
@@ -643,13 +1230,83 @@
    "verdict": "weak"
   },
   {
-   "score": 53.2,
+   "score": 49.7,
+   "components": {
+    "tier": 20,
+    "category": 4,
+    "lead": 0.0,
+    "relevance": 12,
+    "freshness": 19.7,
+    "undated": -6
+   },
+   "keywords": [
+    "suspend"
+   ],
+   "shock_terms": [],
+   "dedupe_match": null,
+   "dedupe_similarity": 0.14,
+   "id": "cf1d5b690050",
+   "title": "Court News Tanzanian lawyer suspended for misleading court with fake cases 2 hours ago - 8 min read",
+   "url": "https://www.thecitizen.co.tz/tanzania/news/court-news/tanzanian-lawyer-suspended-for-misleading-court-with-fake-cases-5585722",
+   "summary": "",
+   "kind": "item",
+   "source": "The Citizen (Tanzania)",
+   "source_id": "np-citizen-tz",
+   "tier": 2,
+   "country": "TZ",
+   "category": "press",
+   "segments": [
+    "city",
+    "bush",
+    "beach"
+   ],
+   "first_seen": "2026-09-06T19:45+03:00",
+   "published": null,
+   "verdict": "weak"
+  },
+  {
+   "score": 49.7,
+   "components": {
+    "tier": 20,
+    "category": 4,
+    "lead": 0.0,
+    "relevance": 12,
+    "freshness": 19.7,
+    "undated": -6
+   },
+   "keywords": [
+    "suspend"
+   ],
+   "shock_terms": [],
+   "dedupe_match": null,
+   "dedupe_similarity": 0.0,
+   "id": "f9b73afbb77f",
+   "title": "Tanzanian driver\u2019s licence suspended for six months for chatting while driving 1 hour ago - 3 min read",
+   "url": "https://www.thecitizen.co.tz/tanzania/news/national/tanzanian-driver-s-licence-suspended-for-six-months-for-chatting-while-driving-5585808",
+   "summary": "",
+   "kind": "item",
+   "source": "The Citizen (Tanzania)",
+   "source_id": "np-citizen-tz",
+   "tier": 2,
+   "country": "TZ",
+   "category": "press",
+   "segments": [
+    "city",
+    "bush",
+    "beach"
+   ],
+   "first_seen": "2026-09-06T19:45+03:00",
+   "published": null,
+   "verdict": "weak"
+  },
+  {
+   "score": 49.5,
    "components": {
     "tier": 20,
     "category": 4,
     "lead": 0.0,
     "relevance": 0,
-    "freshness": 19.2,
+    "freshness": 15.5,
     "corroborated": 10
    },
    "keywords": [],
@@ -676,13 +1333,13 @@
    "verdict": "weak"
   },
   {
-   "score": 53.2,
+   "score": 49.5,
    "components": {
     "tier": 20,
     "category": 4,
     "lead": 0.0,
     "relevance": 0,
-    "freshness": 19.2,
+    "freshness": 15.5,
     "corroborated": 10
    },
    "keywords": [],
@@ -709,13 +1366,13 @@
    "verdict": "weak"
   },
   {
-   "score": 53.2,
+   "score": 49.5,
    "components": {
     "tier": 20,
     "category": 4,
     "lead": 0.0,
     "relevance": 0,
-    "freshness": 19.2,
+    "freshness": 15.5,
     "corroborated": 10
    },
    "keywords": [],
@@ -731,633 +1388,6 @@
    "source_id": "np-monitor-ug",
    "tier": 2,
    "country": "UG",
-   "category": "press",
-   "segments": [
-    "city",
-    "bush",
-    "beach"
-   ],
-   "first_seen": "2026-09-06T15:55+03:00",
-   "published": "2026-09-06",
-   "verdict": "weak"
-  },
-  {
-   "score": 53.2,
-   "components": {
-    "tier": 20,
-    "category": 4,
-    "lead": 0.0,
-    "relevance": 0,
-    "freshness": 19.2,
-    "corroborated": 10
-   },
-   "keywords": [],
-   "shock_terms": [],
-   "dedupe_match": null,
-   "dedupe_similarity": 0.0,
-   "id": "bfb0e7a53c2b",
-   "title": "Babiito breaks silence on new Omukama",
-   "url": "https://www.monitor.co.ug/uganda/news/national/babiito-breaks-silence-on-new-omukama-5585448",
-   "summary": "The process of enthroning the new King involves a series of rituals within the palace.",
-   "kind": "item",
-   "source": "Daily Monitor (Uganda)",
-   "source_id": "np-monitor-ug",
-   "tier": 2,
-   "country": "UG",
-   "category": "press",
-   "segments": [
-    "city",
-    "bush",
-    "beach"
-   ],
-   "first_seen": "2026-09-06T15:55+03:00",
-   "published": "2026-09-06",
-   "verdict": "weak"
-  },
-  {
-   "score": 53.2,
-   "components": {
-    "tier": 20,
-    "category": 4,
-    "lead": 0.0,
-    "relevance": 0,
-    "freshness": 19.2,
-    "corroborated": 10
-   },
-   "keywords": [],
-   "shock_terms": [],
-   "dedupe_match": null,
-   "dedupe_similarity": 0.2,
-   "id": "2a19d2c8a881",
-   "title": "Uber exit opens new chapter as Little joins Uganda's crowded ride-hailing market",
-   "url": "https://www.monitor.co.ug/uganda/news/national/uber-exit-opens-new-chapter-as-little-joins-uganda-s-crowded-ride-hailing-market-5585420",
-   "summary": "Uber exits Uganda as drivers, rising costs weigh on ride-hailing market",
-   "kind": "item",
-   "source": "Daily Monitor (Uganda)",
-   "source_id": "np-monitor-ug",
-   "tier": 2,
-   "country": "UG",
-   "category": "press",
-   "segments": [
-    "city",
-    "bush",
-    "beach"
-   ],
-   "first_seen": "2026-09-06T15:55+03:00",
-   "published": "2026-09-06",
-   "verdict": "weak"
-  },
-  {
-   "score": 53.2,
-   "components": {
-    "tier": 20,
-    "category": 4,
-    "lead": 0.0,
-    "relevance": 0,
-    "freshness": 19.2,
-    "corroborated": 10
-   },
-   "keywords": [],
-   "shock_terms": [],
-   "dedupe_match": null,
-   "dedupe_similarity": 0.0,
-   "id": "d4c4a93b80d3",
-   "title": "Past & Present: UPC \u2018rebel\u2019 accuses Obote of clinging to party presidency",
-   "url": "https://www.monitor.co.ug/uganda/magazines/people-power/past-present-upc-rebel-accuses-obote-of-clinging-to-party-presidency-5585380",
-   "summary": "Mr Sakwa\u2019s missive was precipitated by a letter that Obote had earlier written to UPC directing...",
-   "kind": "item",
-   "source": "Daily Monitor (Uganda)",
-   "source_id": "np-monitor-ug",
-   "tier": 2,
-   "country": "UG",
-   "category": "press",
-   "segments": [
-    "city",
-    "bush",
-    "beach"
-   ],
-   "first_seen": "2026-09-06T15:55+03:00",
-   "published": "2026-09-06",
-   "verdict": "weak"
-  },
-  {
-   "score": 53.2,
-   "components": {
-    "tier": 20,
-    "category": 4,
-    "lead": 0.0,
-    "relevance": 0,
-    "freshness": 19.2,
-    "corroborated": 10
-   },
-   "keywords": [],
-   "shock_terms": [],
-   "dedupe_match": null,
-   "dedupe_similarity": 0.0,
-   "id": "d88126fe56ee",
-   "title": "Ugandan pharma firm secures five-year Africa CDC supplier status",
-   "url": "https://www.monitor.co.ug/uganda/news/national/ugandan-pharma-firm-secures-five-year-africa-cdc-supplier-status-5585406",
-   "summary": "Ugandan drug maker Dei BioPharma joins Africa\u2019s pooled procurement platform",
-   "kind": "item",
-   "source": "Daily Monitor (Uganda)",
-   "source_id": "np-monitor-ug",
-   "tier": 2,
-   "country": "UG",
-   "category": "press",
-   "segments": [
-    "city",
-    "bush",
-    "beach"
-   ],
-   "first_seen": "2026-09-06T15:55+03:00",
-   "published": "2026-09-06",
-   "verdict": "weak"
-  },
-  {
-   "score": 53.2,
-   "components": {
-    "tier": 20,
-    "category": 4,
-    "lead": 0.0,
-    "relevance": 0,
-    "freshness": 19.2,
-    "corroborated": 10
-   },
-   "keywords": [],
-   "shock_terms": [],
-   "dedupe_match": null,
-   "dedupe_similarity": 0.25,
-   "id": "e9f2e25bc13c",
-   "title": "King Oyo through the lens of his classmates",
-   "url": "https://www.monitor.co.ug/uganda/magazines/people-power/king-oyo-through-the-lens-of-his-classmates-5585360",
-   "summary": "When Oyo took off in pursuit, Augustine ran. He remembers being genuinely afraid of what would...",
-   "kind": "item",
-   "source": "Daily Monitor (Uganda)",
-   "source_id": "np-monitor-ug",
-   "tier": 2,
-   "country": "UG",
-   "category": "press",
-   "segments": [
-    "city",
-    "bush",
-    "beach"
-   ],
-   "first_seen": "2026-09-06T15:55+03:00",
-   "published": "2026-09-06",
-   "verdict": "weak"
-  },
-  {
-   "score": 53.2,
-   "components": {
-    "tier": 20,
-    "category": 4,
-    "lead": 0.0,
-    "relevance": 0,
-    "freshness": 19.2,
-    "corroborated": 10
-   },
-   "keywords": [],
-   "shock_terms": [],
-   "dedupe_match": null,
-   "dedupe_similarity": 0.0,
-   "id": "724358741fb7",
-   "title": "UBOS seeks stronger kingdom data to improve future censuses",
-   "url": "https://www.monitor.co.ug/uganda/news/national/ubos-seeks-stronger-kingdom-data-to-improve-future-censuses-5585396",
-   "summary": "UBOS wants kingdoms to register births, deaths and migration",
-   "kind": "item",
-   "source": "Daily Monitor (Uganda)",
-   "source_id": "np-monitor-ug",
-   "tier": 2,
-   "country": "UG",
-   "category": "press",
-   "segments": [
-    "city",
-    "bush",
-    "beach"
-   ],
-   "first_seen": "2026-09-06T15:55+03:00",
-   "published": "2026-09-06",
-   "verdict": "weak"
-  },
-  {
-   "score": 53.2,
-   "components": {
-    "tier": 20,
-    "category": 4,
-    "lead": 0.0,
-    "relevance": 0,
-    "freshness": 19.2,
-    "corroborated": 10
-   },
-   "keywords": [],
-   "shock_terms": [],
-   "dedupe_match": null,
-   "dedupe_similarity": 0.0,
-   "id": "31b3bf2e413b",
-   "title": "Medical expert misguides court on cause of death",
-   "url": "https://www.monitor.co.ug/uganda/magazines/people-power/medical-expert-misguides-court-on-cause-of-death-5585354",
-   "summary": "The doctor was challenged during cross-examination on the inherent difficulty of distinguishing...",
-   "kind": "item",
-   "source": "Daily Monitor (Uganda)",
-   "source_id": "np-monitor-ug",
-   "tier": 2,
-   "country": "UG",
-   "category": "press",
-   "segments": [
-    "city",
-    "bush",
-    "beach"
-   ],
-   "first_seen": "2026-09-06T15:55+03:00",
-   "published": "2026-09-06",
-   "verdict": "weak"
-  },
-  {
-   "score": 53.2,
-   "components": {
-    "tier": 20,
-    "category": 4,
-    "lead": 0.0,
-    "relevance": 0,
-    "freshness": 19.2,
-    "corroborated": 10
-   },
-   "keywords": [],
-   "shock_terms": [],
-   "dedupe_match": null,
-   "dedupe_similarity": 0.0,
-   "id": "341fa2973ebc",
-   "title": "Tooro's succession question: A history",
-   "url": "https://www.monitor.co.ug/uganda/magazines/people-power/tooro-s-succession-question-a-history-5585204",
-   "summary": "It was in the 19th Century when the kingdom held its first royal send-off",
-   "kind": "item",
-   "source": "Daily Monitor (Uganda)",
-   "source_id": "np-monitor-ug",
-   "tier": 2,
-   "country": "UG",
-   "category": "press",
-   "segments": [
-    "city",
-    "bush",
-    "beach"
-   ],
-   "first_seen": "2026-09-06T15:55+03:00",
-   "published": "2026-09-06",
-   "verdict": "weak"
-  },
-  {
-   "score": 53.2,
-   "components": {
-    "tier": 20,
-    "category": 4,
-    "lead": 0.0,
-    "relevance": 0,
-    "freshness": 19.2,
-    "corroborated": 10
-   },
-   "keywords": [],
-   "shock_terms": [],
-   "dedupe_match": null,
-   "dedupe_similarity": 0.0,
-   "id": "22a824364816",
-   "title": "In memoriam: Oyo, 1992-2026",
-   "url": "https://www.monitor.co.ug/uganda/magazines/people-power/in-memoriam-oyo-1992-2026-5585262",
-   "summary": "From shy, sweet teenage bride, she became a worldly, somewhat scandal-prone celebrity. At the...",
-   "kind": "item",
-   "source": "Daily Monitor (Uganda)",
-   "source_id": "np-monitor-ug",
-   "tier": 2,
-   "country": "UG",
-   "category": "press",
-   "segments": [
-    "city",
-    "bush",
-    "beach"
-   ],
-   "first_seen": "2026-09-06T15:55+03:00",
-   "published": "2026-09-06",
-   "verdict": "weak"
-  },
-  {
-   "score": 53.2,
-   "components": {
-    "tier": 20,
-    "category": 4,
-    "lead": 0.0,
-    "relevance": 0,
-    "freshness": 19.2,
-    "corroborated": 10
-   },
-   "keywords": [],
-   "shock_terms": [],
-   "dedupe_match": null,
-   "dedupe_similarity": 0.0,
-   "id": "1d5bae39ab06",
-   "title": "Even people dying is another opportunity for jobs-Prof Openjuru",
-   "url": "https://www.monitor.co.ug/uganda/news/national/even-people-dying-is-another-opportunity-for-jobs-prof-openjuru-5585208",
-   "summary": "Even people who are dying are an opportunity for jobs.",
-   "kind": "item",
-   "source": "Daily Monitor (Uganda)",
-   "source_id": "np-monitor-ug",
-   "tier": 2,
-   "country": "UG",
-   "category": "press",
-   "segments": [
-    "city",
-    "bush",
-    "beach"
-   ],
-   "first_seen": "2026-09-06T15:55+03:00",
-   "published": "2026-09-06",
-   "verdict": "weak"
-  },
-  {
-   "score": 53.2,
-   "components": {
-    "tier": 20,
-    "category": 4,
-    "lead": 0.0,
-    "relevance": 0,
-    "freshness": 19.2,
-    "corroborated": 10
-   },
-   "keywords": [],
-   "shock_terms": [],
-   "dedupe_match": null,
-   "dedupe_similarity": 0.0,
-   "id": "4db801b62d72",
-   "title": "Minister Balaam orders interdiction of Wakiso officials over market stall allocations",
-   "url": "https://www.monitor.co.ug/uganda/news/national/minister-balaam-orders-interdiction-of-wakiso-officials-over-market-stall-allocations-5585210",
-   "summary": "Balaam orders fresh allocation of Wakiso market stalls",
-   "kind": "item",
-   "source": "Daily Monitor (Uganda)",
-   "source_id": "np-monitor-ug",
-   "tier": 2,
-   "country": "UG",
-   "category": "press",
-   "segments": [
-    "city",
-    "bush",
-    "beach"
-   ],
-   "first_seen": "2026-09-06T15:55+03:00",
-   "published": "2026-09-06",
-   "verdict": "weak"
-  },
-  {
-   "score": 53.2,
-   "components": {
-    "tier": 20,
-    "category": 4,
-    "lead": 0.0,
-    "relevance": 0,
-    "freshness": 19.2,
-    "corroborated": 10
-   },
-   "keywords": [],
-   "shock_terms": [],
-   "dedupe_match": null,
-   "dedupe_similarity": 0.0,
-   "id": "931a8500a65d",
-   "title": "How Tooro Kingdom, Ruwenzori Diocese built a century-old bond",
-   "url": "https://www.monitor.co.ug/uganda/magazines/people-power/how-tooro-kingdom-ruwenzori-diocese-built-a-century-old-bond-5585206",
-   "summary": "Tooro Kingdom donated about 150 acres of land to the Church, covering a wide stretch of land...",
-   "kind": "item",
-   "source": "Daily Monitor (Uganda)",
-   "source_id": "np-monitor-ug",
-   "tier": 2,
-   "country": "UG",
-   "category": "press",
-   "segments": [
-    "city",
-    "bush",
-    "beach"
-   ],
-   "first_seen": "2026-09-06T15:55+03:00",
-   "published": "2026-09-06",
-   "verdict": "weak"
-  },
-  {
-   "score": 53.2,
-   "components": {
-    "tier": 20,
-    "category": 4,
-    "lead": 0.0,
-    "relevance": 0,
-    "freshness": 19.2,
-    "corroborated": 10
-   },
-   "keywords": [],
-   "shock_terms": [],
-   "dedupe_match": null,
-   "dedupe_similarity": 0.2,
-   "id": "b93f8b53ac3f",
-   "title": "Govt moves to train youth in agricultural technical skills",
-   "url": "https://www.monitor.co.ug/uganda/news/national/govt-moves-to-train-youth-in-agricultural-technical-skills-5585190",
-   "summary": "New training plan targets machinery, irrigation skills in agriculture",
-   "kind": "item",
-   "source": "Daily Monitor (Uganda)",
-   "source_id": "np-monitor-ug",
-   "tier": 2,
-   "country": "UG",
-   "category": "press",
-   "segments": [
-    "city",
-    "bush",
-    "beach"
-   ],
-   "first_seen": "2026-09-06T15:55+03:00",
-   "published": "2026-09-06",
-   "verdict": "weak"
-  },
-  {
-   "score": 53.2,
-   "components": {
-    "tier": 20,
-    "category": 4,
-    "lead": 0.0,
-    "relevance": 0,
-    "freshness": 19.2,
-    "corroborated": 10
-   },
-   "keywords": [],
-   "shock_terms": [],
-   "dedupe_match": null,
-   "dedupe_similarity": 0.0,
-   "id": "6f2a4490bbea",
-   "title": "Makerere begins construction of Shs96b business college complex",
-   "url": "https://www.monitor.co.ug/uganda/news/national/makerere-begins-construction-of-shs96b-business-college-complex-5585194",
-   "summary": "Project aims to expand CoBAMS facilities",
-   "kind": "item",
-   "source": "Daily Monitor (Uganda)",
-   "source_id": "np-monitor-ug",
-   "tier": 2,
-   "country": "UG",
-   "category": "press",
-   "segments": [
-    "city",
-    "bush",
-    "beach"
-   ],
-   "first_seen": "2026-09-06T15:55+03:00",
-   "published": "2026-09-06",
-   "verdict": "weak"
-  },
-  {
-   "score": 53.2,
-   "components": {
-    "tier": 20,
-    "category": 4,
-    "lead": 0.0,
-    "relevance": 0,
-    "freshness": 19.2,
-    "corroborated": 10
-   },
-   "keywords": [],
-   "shock_terms": [],
-   "dedupe_match": null,
-   "dedupe_similarity": 0.0,
-   "id": "dfd6b0449799",
-   "title": "NRM flag bearer Ruyondo wins Women Council race unopposed after Acheng quits",
-   "url": "https://www.monitor.co.ug/uganda/news/national/nrm-flag-bearer-ruyondo-wins-women-council-race-unopposed-after-acheng-quits-5585220",
-   "summary": "Acheng stepped aside for Ruyondo in the women council leadership race",
-   "kind": "item",
-   "source": "Daily Monitor (Uganda)",
-   "source_id": "np-monitor-ug",
-   "tier": 2,
-   "country": "UG",
-   "category": "press",
-   "segments": [
-    "city",
-    "bush",
-    "beach"
-   ],
-   "first_seen": "2026-09-06T15:55+03:00",
-   "published": "2026-09-06",
-   "verdict": "weak"
-  },
-  {
-   "score": 53.2,
-   "components": {
-    "tier": 20,
-    "category": 4,
-    "lead": 0.0,
-    "relevance": 0,
-    "freshness": 19.2,
-    "corroborated": 10
-   },
-   "keywords": [],
-   "shock_terms": [],
-   "dedupe_match": null,
-   "dedupe_similarity": 0.2,
-   "id": "9751c9426f57",
-   "title": "Uganda sets up research task forces to guide policy and spending",
-   "url": "https://www.monitor.co.ug/uganda/news/national/uganda-sets-up-research-task-forces-to-guide-policy-and-spending-5585414",
-   "summary": "The initiative is part of government efforts to strengthen the use of research and evidence in...",
-   "kind": "item",
-   "source": "Daily Monitor (Uganda)",
-   "source_id": "np-monitor-ug",
-   "tier": 2,
-   "country": "UG",
-   "category": "press",
-   "segments": [
-    "city",
-    "bush",
-    "beach"
-   ],
-   "first_seen": "2026-09-06T15:55+03:00",
-   "published": "2026-09-06",
-   "verdict": "weak"
-  },
-  {
-   "score": 53.2,
-   "components": {
-    "tier": 20,
-    "category": 4,
-    "lead": 0.0,
-    "relevance": 0,
-    "freshness": 19.2,
-    "corroborated": 10
-   },
-   "keywords": [],
-   "shock_terms": [],
-   "dedupe_match": null,
-   "dedupe_similarity": 0.0,
-   "id": "865fc64c9987",
-   "title": "CSOs push solar-powered farming as climate change disrupts rainfall",
-   "url": "https://www.monitor.co.ug/uganda/news/national/csos-push-solar-powered-farming-as-climate-change-disrupts-rainfall-5585228",
-   "summary": "Solar power gains push as climate shocks threaten farm incomes",
-   "kind": "item",
-   "source": "Daily Monitor (Uganda)",
-   "source_id": "np-monitor-ug",
-   "tier": 2,
-   "country": "UG",
-   "category": "press",
-   "segments": [
-    "city",
-    "bush",
-    "beach"
-   ],
-   "first_seen": "2026-09-06T15:55+03:00",
-   "published": "2026-09-06",
-   "verdict": "weak"
-  },
-  {
-   "score": 53.2,
-   "components": {
-    "tier": 20,
-    "category": 4,
-    "lead": 0.0,
-    "relevance": 0,
-    "freshness": 19.2,
-    "corroborated": 10
-   },
-   "keywords": [],
-   "shock_terms": [],
-   "dedupe_match": null,
-   "dedupe_similarity": 0.2,
-   "id": "8053b5fcaf91",
-   "title": "Nigerian Star Rema Brings Kwita Izina Celebrations to a Roaring Finale",
-   "url": "https://www.ktpress.rw/2026/09/nigerian-star-rema-brings-kwita-izina-celebrations-to-a-roaring-finale",
-   "summary": "KIGALI \u2013 The night began with Rwanda\u2019s own sound and ended with thousands of voices singing along to one of Africa\u2019s biggest music stars, as the Kwita Izina concert turned\u2026 The post Nigerian Star Rema Brings Kwita Izina Celebrations to a Roaring Finale appeared first on KT PRESS .",
-   "kind": "item",
-   "source": "KT Press (Rwanda)",
-   "source_id": "np-ktpress-rw",
-   "tier": 2,
-   "country": "RW",
-   "category": "press",
-   "segments": [
-    "city",
-    "bush",
-    "beach"
-   ],
-   "first_seen": "2026-09-06T15:55+03:00",
-   "published": "2026-09-06",
-   "verdict": "weak"
-  },
-  {
-   "score": 53.2,
-   "components": {
-    "tier": 20,
-    "category": 4,
-    "lead": 0.0,
-    "relevance": 0,
-    "freshness": 19.2,
-    "corroborated": 10
-   },
-   "keywords": [],
-   "shock_terms": [],
-   "dedupe_match": null,
-   "dedupe_similarity": 0.17,
-   "id": "50f8431ba51d",
-   "title": "EAC single market: What has been agreed in the revised Rules of Origin",
-   "url": "https://www.theeastafrican.co.ke/tea/business-tech/eac-single-market-revised-rules-of-origin-5584302",
-   "summary": "The agreement marks a significant step towards achieving a fully integrated, duty-free single...",
-   "kind": "item",
-   "source": "The EastAfrican",
-   "source_id": "np-eastafrican",
-   "tier": 2,
-   "country": "REG",
    "category": "press",
    "segments": [
     "city",
