@@ -1,5 +1,14 @@
 window.EDITIONS = [
  {
+  "id": "pulse-2026-09-06-evening",
+  "date": "2026-09-06",
+  "dateDisplay": "Sunday, 6 September 2026",
+  "edition": "Evening Wrap",
+  "editionKey": "evening",
+  "summary": "Nothing cleared the recency gate since midday. So tonight, an expert brief: a split now visible in South African itineraries that East Africa should expect to import.",
+  "bodyHtml": "<p><span class=\"meta-line\">🏨 EA HOSPITALITY PULSE — Evening Wrap</span><br><span class=\"meta-line\">📅 Sunday, 6 September 2026 | 🇰🇪 🇺🇬 🇹🇿 🇷🇼</span></p>\n<p>Nothing cleared the recency gate since midday. So tonight, an expert brief: a split now visible in South African itineraries that East Africa should expect to import.<br>━━━━━━━━━<br><span class=\"item-head\">1️⃣ THE SAFARI TRIP IS COMING APART AT THE CITY END</span></p>\n<p>Inbound operators in South Africa report the same pattern: the client books Cape Town themselves, then comes to a specialist for the safari. Rhino Africa&#x27;s David Ryan says those enquiries have &quot;increased significantly&quot; — &quot;Cape Town is becoming like a European city.&quot; Giltedge&#x27;s Robyn-Lea Meyer calls it &quot;definitely a consistent pattern&quot;, but sees it more from advisers than consumers, driven by their own preferred-supplier agreements. Trans Africa Safaris&#x27; Jennifer Paterson is the dissent worth keeping: little change over the past year. (Tourism Update, 4 September 2026.)</p>\n<p><strong>What everyone is missing.</strong> This reads as a channel story. It is a pricing-power story, running in opposite directions along one itinerary. What held the bundle together was never loyalty. It was logistics — light aircraft schedules, luggage limits, private-reserve transfers, lodge availability that moves weekly. Where that complexity exists, the intermediary keeps the booking and price stays illegible. A city night has none of it, so the booking walks and the room is bought against a comp set the guest can see in full.</p>\n<p>One trend therefore commoditises the city bed and hardens the lodge&#x27;s margin. Inference, labelled as ours: it would land here just as our supply does. Kenya has 4,922 of 6,190 pipeline rooms already under construction (W Hospitality Group, 10 March 2026).</p>\n<p>And note where Meyer says that booking goes. Not to an OTA — to a rival hotel already inside the adviser&#x27;s agreement. A contracting failure, not a rate failure, and the 2027 round is being negotiated now.<br><span class=\"sowhat\">🎯 So what — CITY: audit which consortia, corporate and adviser programmes you are genuinely loaded on, before MKTE (6–8 Oct). Win the adviser, not the discount. BUSH: complexity is the moat — fund the operations desk. BEACH: bundle transfers and sea-days into something no OTA can reassemble.</span><br><span class=\"tagline\">🏷 City, Bush, Beach | 🇿🇦→🇰🇪 🇺🇬 🇹🇿 🇷🇼 | Reported (SA pattern) / Inference (EA read) | impact:strategy</span><br>━━━━━━━━━<br><span class=\"meta-line\">📅 WEEK AHEAD</span><br>🇺🇸🇺🇬 11 Sep — the CDC order rerouting Uganda and South Sudan arrivals through four US airports expires 4:59pm EDT (CDC, 12 August 2026). Renewed or lapsed, tell your US agents.<br>🇰🇪 14 Sep — EPRA closes the current fuel cycle.<br>🇰🇪 6–8 Oct — Magical Kenya Travel Expo, Uhuru Gardens. The 2027 contracting room.</p>\n<p>💰 COST PULSE: Kenya&#x27;s electricity pass-throughs — fuel energy cost KSh 3.20/unit plus forex adjustment KSh 1.48/unit — now add over KSh 5.00 to every kWh (EPRA tariff adjustment, July 2026 billing). Read that line, not the tariff band.</p>\n<p>🔗 This edition on the web: <a href=\"https://eahospitalitypulse.com/editions/pulse-2026-09-06-evening.html\" rel=\"noopener\">eahospitalitypulse.com/editions/pulse-2026-09-06-evenin…</a><br>💼 Today&#x27;s Big Read on LinkedIn: <a href=\"https://www.linkedin.com/company/ea-hospitality-pulse/\" rel=\"noopener\">linkedin.com/company/ea-hospitality-pulse/</a><br>— EA Hospitality Pulse | Daily intelligence for city, bush &amp; beach properties</p>"
+ },
+ {
   "id": "foresight-2026-09-06",
   "date": "2026-09-06",
   "dateDisplay": "Sunday, 6 September 2026",
@@ -811,6 +820,27 @@ window.EDITIONS = [
  }
 ];
 window.INSIGHTS = [
+ {
+  "headline": "THE SAFARI TRIP IS COMING APART AT THE CITY END",
+  "body": "Inbound operators in South Africa report the same pattern: the client books Cape Town themselves, then comes to a specialist for the safari. Rhino Africa's David Ryan says those enquiries have \"increased significantly\" — \"Cape Town is becoming like a European city.\" Giltedge's Robyn-Lea Meyer calls it \"definitely a consistent pattern\", but sees it more from advisers than consumers, driven by their own preferred-supplier agreements. Trans Africa Safaris' Jennifer Paterson is the dissent worth keeping: little change over the past year. (Tourism Update, 4 September 2026.) **What everyone is missing.** This reads as a channel story. It is a pricing-power story, running in opposite directions along one itinerary. What held the bundle together was never loyalty. It was logistics — light aircraft schedules, luggage limits, private-reserve transfers, lodge availability that moves weekly. Where that complexity exists, the intermediary keeps the booking and price stays illegible. A city night has none of it, so the booking walks and the room is bought against a comp set the guest can see in full. One trend therefore commoditises the city bed and hardens the lodge's margin. Inference, labelled as ours: it would land here just as our supply does. Kenya has 4,922 of 6,190 pipeline rooms already under construction (W Hospitality Group, 10 March 2026). And note where Meyer says that booking goes. Not to an OTA — to a rival hotel already inside the adviser's agreement. A contracting failure, not a rate failure, and the 2027 round is being negotiated now.",
+  "sowhat": "🎯 So what — CITY: audit which consortia, corporate and adviser programmes you are genuinely loaded on, before MKTE (6–8 Oct). Win the adviser, not the discount. BUSH: complexity is the moat — fund the operations desk. BEACH: bundle transfers and sea-days into something no OTA can reassemble.",
+  "segments": [
+   "city",
+   "bush",
+   "beach"
+  ],
+  "countries": "🇿🇦→🇰🇪 🇺🇬 🇹🇿 🇷🇼",
+  "confidence": "Reported (SA pattern) / Inference (EA read)",
+  "impact": "-margin",
+  "impactClass": "margin",
+  "intensity": 2,
+  "impactSet": "auto",
+  "source": "pulse-2026-09-06-evening",
+  "date": "2026-09-06",
+  "dateDisplay": "Sunday, 6 September 2026",
+  "edition": "Evening Wrap",
+  "editionKey": "evening"
+ },
  {
   "headline": "EXCLUSIVE — BRITAIN LOGGED UGANDA'S ALL-CLEAR. WASHINGTON HAS NOT.",
   "body": "FCDO updated its Uganda advice on 2 September 2026 to record WHO declaring the outbreak over on 27 August; still current at 6 Sep, and it advises against travel to no part of Uganda (gov.uk, verified directly; no press coverage found). The US holds Level 4, re-issued 4 June 2026 (travel.state.gov, checked 6 Sep). DRC — the stated ground — has 6,342 confirmed cases to 2 Sep (ECDC, 4 Sep). WHO opposes travel restrictions; ECDC puts EU/EEA risk \"very low\".",
@@ -3825,4 +3855,4 @@ window.INSIGHTS = [
   "editionKey": "evening"
  }
 ];
-window.BUILT_AT = "2026-09-06 14:12";
+window.BUILT_AT = "2026-09-06 17:24";

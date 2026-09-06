@@ -1,8 +1,8 @@
 window.LEDGER = {
- "updated": "2026-09-06 14:13",
+ "updated": "2026-09-06 17:25",
  "stats": {
-  "total": 158,
-  "open": 128,
+  "total": 160,
+  "open": 130,
   "resolved": 29,
   "correct": 22,
   "partial": 1,
@@ -1467,6 +1467,22 @@ window.LEDGER = {
    "overdue": false
   },
   {
+   "id": "P158",
+   "made_date": "2026-09-06",
+   "edition": "pulse-2026-09-06-evening",
+   "claim": "Fewer than 10 branded hotels will have opened in Nairobi during calendar 2026 — W Hospitality Group's Q1 2026 expectation of ~10 hotels (~1,500 rooms) opening in the year will not be actualised, confirming the firm's own caution that delivery falls short of projections",
+   "resolution_criteria": "The W Hospitality Group 2027 Hotel Chain Development Pipelines in Africa report, or a dated count from Tourism Update / HotelOnline / Business Daily, shows fewer than 10 branded hotel openings in Nairobi for calendar 2026",
+   "resolve_by": "2027-03-31",
+   "market": "KE",
+   "segment": "City",
+   "confidence": "Early signal",
+   "status": "open",
+   "resolved_date": "",
+   "evidence": "",
+   "source_url": "",
+   "overdue": false
+  },
+  {
    "id": "P019",
    "made_date": "2026-07-26",
    "edition": "Sunday Foresight",
@@ -1928,6 +1944,22 @@ window.LEDGER = {
    "resolved_date": "",
    "evidence": "",
    "source_url": "https://thekenyatimes.com/lifestyle/travel-tourism/tourism-ministry-proposes-lvey-changes-to-collection-and-management-of-hotel-levies/",
+   "overdue": false
+  },
+  {
+   "id": "P159",
+   "made_date": "2026-09-06",
+   "edition": "pulse-2026-09-06-evening",
+   "claim": "The 'city booked independently, safari booked with a specialist' split reported in South Africa will be publicly described in an East African context by at least one EA inbound operator, DMC, hotel group or trade body (KATO, TATO, AUTO, ZATI, RTTA) before 30 June 2027",
+   "resolution_criteria": "A dated public statement, trade-press interview or association publication in which a named East African operator, DMC or trade body describes clients self-booking the city component and using a specialist only for the safari leg",
+   "resolve_by": "2027-06-30",
+   "market": "KE|TZ|UG|RW",
+   "segment": "City|Bush",
+   "confidence": "Early signal",
+   "status": "open",
+   "resolved_date": "",
+   "evidence": "",
+   "source_url": "",
    "overdue": false
   },
   {
