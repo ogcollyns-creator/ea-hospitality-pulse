@@ -55,7 +55,6 @@ Nothing resolved this week. Seventeen calls open. The two that matter most are P
 
 — EA Hospitality Pulse | Daily intelligence for city, bush & beach properties
 
-
 ## WHATSAPP
 
 🏨 *EA HOSPITALITY PULSE*
@@ -78,7 +77,6 @@ Rwanda's number one source market in H1 2026 was DR Congo — and DR Congo's Ebo
 📖 Read on the web → https://eahospitalitypulse.com/editions/foresight-2026-07-26.html
 
 _Wiki njema — plan for the market you actually have._
-
 
 ## LINKEDIN BIG READ
 

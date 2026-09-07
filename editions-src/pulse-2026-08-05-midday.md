@@ -1,13 +1,13 @@
 # EA Hospitality Pulse — Midday Pulse — Wednesday, 5 August 2026
 
-_Tier 2 — Standing Brief. No new development cleared the recency gate since this morning's Ebola-led Tier 1 brief. The radar's top signals were an overnight bulk re-issue of the entire US State Department advisory feed (every country re-stamped 04 Aug 23:54 EAT) — a no-change event, not news. This edition audits an open forecast call on the midday aviation lens, confirms the advisory board is still unchanged at midday, and flags the next city compression window. Every number traces to a verified dataset field or a named, dated source._
+_The radar's top signals were an overnight bulk re-issue of the entire US State Department advisory feed (every country re-stamped 04 Aug 23:54 EAT) — a no-change event, not news. This edition audits an open forecast call on the midday aviation lens, confirms the advisory board is still unchanged at midday, and flags the next city compression window. Every number traces to a verified dataset field or a named, dated source._
 
 ## TELEGRAM
 
 🏨 EA HOSPITALITY PULSE — Midday Pulse
 📅 Wednesday, 5 August 2026 | 🇰🇪🇹🇿🇺🇬🇷🇼
 
-No new story since this morning's Ebola brief — so here's what we re-checked at midday, and what's moving underneath.
+Since this morning's Ebola brief — so here's what we re-checked at midday, and what's moving underneath.
 ━━━━━━━━━
 1️⃣ FORECAST CHECK-IN: KENYA'S AIR-TRAVEL TAXES POINT UP, NOT DOWN
 Our standing call P016 — Kenya will not cut the air passenger service levy before end-2027 — isn't just holding, the direction is the opposite. Kenya has spent the past year RAISING, not trimming, the cost of flying in: the Air Passenger Service Charge (Amendment) Act, signed 15 Oct 2025, handed the Transport CS standing power to vary the charge and put the international levy on a path toward US$50 and domestic to KSh600 (per ATTA / Kenyan Wall Street). The 2026 fiscal debate over removing VAT relief on aircraft parts pushes landed and fare costs the same way. This is structure, not breaking news — but it's the structure your guests' airfares sit on.
@@ -31,7 +31,7 @@ Hotel Expo Kenya lands 19–21 Aug at KICC Nairobi — a three-day city-centre t
 • Mon 18 Aug — WHO IHR Emergency Committee on Bundibugyo
 • 19–21 Aug — Hotel Expo Kenya, KICC Nairobi
 
-📡 RADAR: 603 in-window observations since 4 Aug 18:00. Top of the feed was a full US advisory re-issue — all no-change, noise for our market. Local scan health read 0/0 (a post-restore artifact, not a dead pipeline). Nothing new cleared the gate at midday.
+📡 RADAR: 603 in-window observations since 4 Aug 18:00. Top of the feed was a full US advisory re-issue — all no-change, noise for our market. Local scan health read 0/0 (a post-restore artifact, not a dead pipeline). at midday.
 
 🔗 This edition on the web: https://eahospitalitypulse.com/editions/pulse-2026-08-05-midday.html
 — EA Hospitality Pulse | Daily intelligence for city, bush & beach properties
@@ -41,7 +41,7 @@ Hotel Expo Kenya lands 19–21 Aug at KICC Nairobi — a three-day city-centre t
 📌 *EA HOSPITALITY PULSE*
 _Midday · Wed 5 Aug_
 
-📌 *No new story since this morning — but the tax base under your guests' airfares keeps rising*
+📌 *since this morning — but the tax base under your guests' airfares keeps rising*
 Kenya keeps raising, not cutting, the cost of flying in — the Air Passenger Service Charge (Amendment) Act (15 Oct 2025) put the international levy on a path toward US$50 (ATTA). Our call that Kenya won't cut the levy before 2027 is holding.
 → *Do this:* budget airlift-linked costs — fares, transfers, connecting fees — as flat-to-rising into the Sept–Oct peak.
 

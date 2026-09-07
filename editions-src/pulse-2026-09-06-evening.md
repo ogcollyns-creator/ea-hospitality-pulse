@@ -3,7 +3,7 @@
 🏨 EA HOSPITALITY PULSE — Evening Wrap
 📅 Sunday, 6 September 2026 | 🇰🇪 🇺🇬 🇹🇿 🇷🇼
 
-Nothing cleared the recency gate since midday. So tonight, an expert brief: a split now visible in South African itineraries that East Africa should expect to import.
+Tonight, an expert brief: a split now visible in South African itineraries that East Africa should expect to import.
 ━━━━━━━━━
 1️⃣ THE SAFARI TRIP IS COMING APART AT THE CITY END
 

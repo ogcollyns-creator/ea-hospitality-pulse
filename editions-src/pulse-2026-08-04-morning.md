@@ -1,13 +1,13 @@
 # EA Hospitality Pulse — Morning Brief — Tuesday, 4 August 2026
 
-_Tier 2 Standing Brief. No new development cleared the recency gate overnight — the radar surfaced 394 in-window observations but nothing EA-specific and demand-moving: global hotel-group features (Hilton Busselton, Signia Savannah), non-EA aviation schedule filings, Kenya Law court cause lists (relevance nil) and a Visit Rwanda homepage banner change with no dated event behind it. What follows is repo-backed and led by our own forecast slate, which starts resolving in eight days._
+_What follows is repo-backed and led by our own forecast slate, which starts resolving in eight days._
 
 ## TELEGRAM
 
 🏨 EA HOSPITALITY PULSE — Morning Brief
 📅 Tuesday, 4 August 2026 | 🇰🇪🇹🇿🇺🇬🇷🇼
 
-No new story clears the gate this morning — so here's the week that decides three of our standing calls, plus what's still true and moving underneath.
+Here's the week that decides three of our standing calls, plus what's still true and moving underneath.
 ━━━━━━━━━
 1️⃣ THE 12 AUGUST WEEK — EIGHT DAYS TO THREE CALLS
 Next Tuesday the US CDC §362 Ebola entry order expires (in force to 4:59pm EDT, 12 Aug, per 91 FR 43636, 16 Jul). Three of our open forecasts resolve around it. Our base case on all three is NO CHANGE: the order gets renewed with DRC still listed (DRC transmission is uncontrolled — 3,605 confirmed, 1,587 deaths, 44% CFR as at 30 Jul, per WHO DON614); the US keeps Uganda at Level 4 despite its 28 Jul end-of-outbreak declaration; and the rendered Kenya advisory page still reads "17 March 2025". Scoreboard from last week: our DRC-caseload call (>3,600) landed correct on 3 Aug; our call that Kenya's domestic press would report the 29 Jul re-issue landed incorrect — they still haven't, so our lead holds.

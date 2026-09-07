@@ -3,7 +3,7 @@
 🏨 EA HOSPITALITY PULSE — Evening Wrap
 📅 Saturday, 5 September 2026 | 🇰🇪 🇺🇬 🇹🇿 🇷🇼
 
-Nothing cleared the recency gate since midday. So tonight, the Bill in committee that changes who collects your levy, who decides how it is spent, and who counts your guests.
+Tonight, the Bill in committee that changes who collects your levy, who decides how it is spent, and who counts your guests.
 ━━━━━━━━━
 1️⃣ KENYA WOULD PUT ITS TOURISM STATISTICS INSIDE ITS TOURISM MARKETING AGENCY
 

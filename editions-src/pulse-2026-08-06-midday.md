@@ -1,13 +1,13 @@
 # EA Hospitality Pulse — Midday Pulse — Thursday, 6 August 2026
 
-_Tier 2 Standing Brief. Nothing clears the recency gate since last night's wrap — so today: the one call worth planning against this week, what's still true underneath, and the dates on the clock. Lead: six days to the US decision that sets the regional travel-risk narrative into September._
+_Lead: six days to the US decision that sets the regional travel-risk narrative into September._
 
 ## TELEGRAM
 
 🏨 EA HOSPITALITY PULSE — Midday Pulse
 📅 Thursday, 6 August 2026 | 🌍 Regional
 
-No fresh story clears the bar since last night — so today, the one call worth planning against, plus what's still true and next week's clock.
+Today, the one call worth planning against, plus what's still true and next week's clock.
 
 ━━━━━━━━━
 ⏳ FORECAST CHECK-IN: SIX DAYS TO THE 12 AUGUST CALL

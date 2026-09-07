@@ -328,7 +328,7 @@ def intro_headline(md):
             probe = re.sub(r"^[^0-9A-Za-z]+", "", cand)
             if _DATELINE.match(probe) or _DATELINE2.match(probe):
                 continue  # a bold date line is masthead furniture, not the headline
-            return cand[:220]
+            return strip_process_talk(cand)[:220]
     return None
 
 # A line that is essentially just a date (optionally with a short kicker after
@@ -337,6 +337,54 @@ def intro_headline(md):
 # ("Kampala said 28 July") are not caught.
 _DATELINE = re.compile(r"^(?:mon|tue|wed|thu|fri|sat|sun)[a-z]*\.?,?\s+\d{1,2}\s+[A-Za-z]+\s+\d{4}", re.I)
 _DATELINE2 = re.compile(r"^\d{1,2}\s+(?:jan|feb|mar|apr|may|jun|jul|aug|sep|oct|nov|dec)[a-z]*\.?,?\s+\d{4}", re.I)
+
+# ---------------------------------------------------------------- process talk
+# Internal editorial process is not reader-facing copy. Phrases like "nothing
+# cleared the recency gate" describe how the brief was made, not what happened in
+# the market -- and because the standfirst and meta description are lifted from
+# the opening line, that sentence was surfacing as the HEADLINE on quiet-day
+# editions. Owners open a brief for the story, not for our workflow.
+#
+# Belt-and-braces at build time: even if a future generation run writes the
+# phrase again, it never reaches a title, description, OG tag or standfirst.
+_PROCESS_TALK = re.compile(
+    r"(?:\*\*)?(?:Expert Brief\.\s*|Standing brief:\s*|Tier\s*\d[^.]*?Brief\.?\s*)?(?:\*\*)?"
+    r"(?:No(?:thing)?\s+new\b[^.;]*?|Nothing\b[^.;]*?)"
+    r"clear(?:ed|s)?\b[^.;]*?recency\s+gate\b[^.;]*?"
+    r"(?:[.;]\s*|,\s*so\s+|\s+—\s*|\s+But\s+)",
+    re.I)
+_PROCESS_HINT = re.compile(
+    r"recency gate|standing brief|cleared the wire|clears the bar|cleared the gate|"
+    r"no fresh story|nothing new clear|no new (?:story|development)", re.I)
+# The same "we had no news today" opener, in every phrasing it has appeared in.
+_PROCESS_TALK2 = re.compile(
+    r"(?:\*\*)?(?:Tier\s*\d[^.·]*?Brief[^.·]*?[.·]\s*)?(?:\*\*)?"
+    r"No(?:thing)?\s+(?:new|fresh)?\s*(?:story|development|developments|item)?s?\b"
+    r"[^.;—]*?(?:clear(?:ed|s)?\b[^.;—]*?(?:gate|wire|bar)|since\s+(?:this\s+)?"
+    r"(?:morning|midday|last\s+night|the\s+\w+))[^.;—]*?"
+    r"(?:\s*[—-]\s*so\s+|,\s*so\s+|[.;]\s*(?:So\s+)?)",
+    re.I)
+_STRIPPED_LOG = []
+
+def strip_process_talk(text):
+    """Remove internal editorial-process sentences from reader-facing copy."""
+    if not text or not _PROCESS_HINT.search(text):
+        return text
+    # a markdown italic wrapper would otherwise block re-capitalisation
+    wrap = text.startswith("_") and text.endswith("_") and len(text) > 2
+    body = text[1:-1] if wrap else text
+    out = _PROCESS_TALK.sub("", body)
+    out = _PROCESS_TALK2.sub("", out, count=1)
+    out = re.sub(r"^\**\s*(?:Expert Brief|Tier\s*\d\s*[\u2014-]?\s*Standing Brief)\.?\**\s*", "", out)
+    out = re.sub(r"^\s*(?:So|But)\s+(?=[a-z])", "", out).strip()
+    out = re.sub(r"^[,;\u2014\-\s]+", "", out)
+    if out and out[:1].islower():
+        out = out[:1].upper() + out[1:]
+    if wrap and out:
+        out = "_" + out + "_"
+    if out != text:
+        _STRIPPED_LOG.append((text[:70], out[:70]))
+    return out or text          # never return empty: fall back to the original
 
 def summarise(text):
     for l in text.split("\n"):
@@ -350,7 +398,11 @@ def summarise(text):
         probe = re.sub(r"^[^0-9A-Za-z]+", "", md_strip(l))   # drop leading emoji/flags
         if _DATELINE.match(probe) or _DATELINE2.match(probe): continue
         if len(l) > 40:
-            return md_strip(re.sub(r"\s+"," ",l))[:200]
+            cand = strip_process_talk(md_strip(re.sub(r"\s+"," ",l)))
+            # a line that was nothing but process talk is not a summary -- keep looking
+            if len(cand) > 40:
+                return cand[:200]
+            continue
     return "East Africa hospitality intelligence."
 
 # Editions must sort by when they were actually PUBLISHED. Filenames don't do this:
@@ -600,7 +652,12 @@ def lead_furniture(body_html):
                 if set(txt) <= set("\u2501\u2014-\u2013_ "): continue
                 _em = re.match(r"^\s*<em>(.*?)</em>\s*$", seg.strip(), re.S)
                 if _em and not standfirst:
-                    standfirst = _em.group(1).strip(); continue
+                    _raw = _em.group(1).strip()
+                    _sf = strip_process_talk(_raw)
+                    # an italic intro that was purely process talk is dropped, not shown
+                    if _PROCESS_HINT.search(_raw) and len(_sf) < 25:
+                        continue
+                    standfirst = _sf; continue
                 stripping = False
             keep.append(seg)
         if keep:

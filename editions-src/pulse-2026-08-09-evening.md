@@ -1,6 +1,6 @@
 # EA Hospitality Pulse — Evening Wrap — Sunday, 9 August 2026
 
-_Expert Brief. No new EA development clears the evening recency gate, so tonight's lead is the Big Read, not a digest: what Africa's record hotel-construction pipeline means for pricing power in East Africa's cities — and why the smart move is defensive, now. Forecast ledger checked silently (12 August CDC decision and 11 Aug WHO AFRO sit-rep both pending; nothing resolved today). Source: W Hospitality Group, Hotel Chain Development Pipelines in Africa 2026 (released March 2026), figures graded Reported; advisory and cost lines from the Pulse data board._
+_Tonight's lead is the Big Read, not a digest: what Africa's record hotel-construction pipeline means for pricing power in East Africa's cities — and why the smart move is defensive, now. Forecast ledger checked silently (12 August CDC decision and 11 Aug WHO AFRO sit-rep both pending; nothing resolved today). Source: W Hospitality Group, Hotel Chain Development Pipelines in Africa 2026 (released March 2026), figures graded Reported; advisory and cost lines from the Pulse data board._
 
 ## TELEGRAM
 

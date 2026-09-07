@@ -45,7 +45,6 @@ Which is the bigger threat to your 2027 rate card — the next advisory headline
 
 — EA Hospitality Pulse | Daily intelligence for city, bush & beach properties
 
-
 ## WHATSAPP
 
 🏨 *EA HOSPITALITY PULSE*
@@ -68,7 +67,6 @@ The scary headlines are fading — Uganda's Ebola-free, the Kenya advisory was a
 📖 Read on the web → https://eahospitalitypulse.com/editions/foresight-2026-08-02.html
 
 _Tuko pamoja._
-
 
 ## LINKEDIN BIG READ
 

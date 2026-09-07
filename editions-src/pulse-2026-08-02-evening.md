@@ -3,7 +3,7 @@
 🏨 EA HOSPITALITY PULSE — Evening Wrap
 📅 Sunday, 2 August 2026 | 🇰🇪 🇹🇿 🇺🇬 🇷🇼
 
-Standing brief: nothing new cleared the recency gate since the Midday Pulse. So tonight we do the more useful thing — audit the story everyone thinks they're reading.
+Tonight we do the more useful thing — audit the story everyone thinks they're reading.
 ━━━━━━━━━
 1️⃣ THE "JULY 2026" KENYA ADVISORY IS STILL MARCH 2025 — AND NOW THE PRESS IS RECYCLING IT
 At 19:00 EAT tonight, the US State Department's rendered Kenya advisory page still reads "Travel Advisory March 17, 2025", and Eastleigh and Kibera are still Level 3 "Reconsider Travel" — not "Do Not Travel". The page did not move all day. Meanwhile Citizen Digital's advisory story, published 18 March 2025, now carries a modified date of 2 August 2026 and is resurfacing as if it were fresh news.

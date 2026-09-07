@@ -49,7 +49,6 @@ If the US won't lift Uganda's label on Uganda's timeline, whose demand are you s
 
 — EA Hospitality Pulse | Daily intelligence for city, bush & beach properties
 
-
 ## WHATSAPP
 
 🏨 *EA HOSPITALITY PULSE*
@@ -72,7 +71,6 @@ Uganda is Ebola-free (declared 28 July), yet it stays Level 4 after this week's 
 📖 Read on the web → https://eahospitalitypulse.com/editions/foresight-2026-08-09.html
 
 _Tuko pamoja._
-
 
 ## LINKEDIN BIG READ
 

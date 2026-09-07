@@ -9,7 +9,6 @@ _Africa's own scientists have put a number on the outbreak that decides Uganda's
 
 At midday we said the condition freeing Uganda from the US entry order is a DRC number. Tonight we have it. Africa CDC's Emergency Consultative Group, chaired by Prof. Salim Abdool Karim, reports **4,449 confirmed cases, 2,061 deaths, 46.3% fatality** in DRC, **~100 new cases a day**, **R(t) consistently above 1** (Africa CDC statement, **14 August**). Its words: the epidemic is "still growing rapidly, and faster than previous Ebola epidemics." Against the US order's 4,318 and WHO AFRO's 4,381 for 9 August, the curve has not turned.
 
-
 **What everyone is missing: the vaccine sentence.** On Ervebo against Bundibugyo the ECG is blunt — **"no reliable evidence of its clinical efficacy"**, and "a reasonable chance the vaccine is not effective." It recommends use under **trial protocol**, not rollout.
 
 Since 2019 the reassurance script has been "Ebola is vaccine-preventable." For this strain, Africa's own experts say that is not established. And **63% of deaths in the last fortnight occurred in the community**, not treatment centres — detection, not capacity, is the constraint.

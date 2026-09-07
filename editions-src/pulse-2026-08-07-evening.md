@@ -1,7 +1,5 @@
 # EA Hospitality Pulse — Evening Wrap — Friday, 7 August 2026
 
-_Tier 2 Standing Brief · auto-generated in the cloud from verified repo data (advisory board, forecast ledger, radar feed). No web-searched analysis — a fuller edited edition may supersede this._
-
 ## TELEGRAM
 
 🏨 EA HOSPITALITY PULSE — Evening Wrap

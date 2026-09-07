@@ -1,12 +1,12 @@
 # EA Hospitality Pulse — Midday Pulse, Monday 3 August 2026
 
-**Tier 2 — Standing Brief.** No new independent story has cleared the recency gate since this morning's brief; the advisory-date and outbreak threads have run all week. So this edition leads with the check nobody else runs — our own forecast, audited against today's numbers — and states plainly what is still true underneath.
+The advisory-date and outbreak threads have run all week. So this edition leads with the check nobody else runs — our own forecast, audited against today's numbers — and states plainly what is still true underneath.
 
 ## TELEGRAM
 
 🇰🇪🇺🇬🇹🇿🇷🇼 **EA HOSPITALITY PULSE — Midday, Mon 3 Aug 2026**
 
-No fresh story has cleared the wire since this morning's brief. So here is the check nobody else runs — our own forecast, audited against today's numbers — plus what is still true underneath.
+Here is the check nobody else runs — our own forecast, audited against today's numbers — plus what is still true underneath.
 
 📌 **FORECAST CHECK: A CALL WE GOT WRONG**
 On 27 July we predicted DRC's Bundibugyo case count would pass 4,000 before Uganda's outbreak was declared over. It didn't. Uganda's Ministry of Health called the all-clear on 28 July — 30 days early — with DRC still at roughly 3,600 confirmed (WHO, as at 30 July). The declaration beat the caseload to the line. Call resolved: **incorrect**.
@@ -30,7 +30,7 @@ EPRA fuel review ~14–15 Aug · Hotel Expo Kenya, KICC, 19–21 Aug (city compr
 
 📌 *EA Hospitality Pulse — Midday, 3 Aug*
 
-No new story since this morning — so we audited our own forecast. We called DRC Ebola to top 4,000 cases before Uganda's all-clear. Wrong: Uganda declared the outbreak over on 28 July (30 days early) with DRC still ~3,600 (WHO, 30 Jul). But the outbreak is intensifying — a record week to 30 July.
+Since this morning — so we audited our own forecast. We called DRC Ebola to top 4,000 cases before Uganda's all-clear. Wrong: Uganda declared the outbreak over on 28 July (30 days early) with DRC still ~3,600 (WHO, 30 Jul). But the outbreak is intensifying — a record week to 30 July.
 
 → *Do this:* sell "outbreak over", not "restrictions lifted" — the US Level 4 on Uganda, the CDC screening order (to 12 Aug) and Rwanda's DRC border rule all still stand.
 

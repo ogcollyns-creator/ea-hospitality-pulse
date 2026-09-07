@@ -1,6 +1,6 @@
 # EA Hospitality Pulse — Evening Wrap — Monday, 10 August 2026
 
-_Expert Brief. No new EA development clears the evening recency gate — the 12 August CDC decision and 18 August WHO IHR review are both pending, and re-running the countdown is not intelligence. Tonight's Big Read pivots to the cost side: why Kenya's "unchanged" pump price is the most fragile number on the board, and how the Kenya–Tanzania margin gap is set to widen mechanically in Q4. Forecast ledger checked silently — nothing resolves today (P057 resolves 11 Aug; P044/P056 on 13 Aug). Figures from the Pulse cost board: EPRA July 2026 review, KNBS/CBK and NBS Tanzania June 2026 prints — all verified. Advisory lines from travel.state.gov via the Pulse data board._
+_The 12 August CDC decision and 18 August WHO IHR review are both pending, and re-running the countdown is not intelligence. Tonight's Big Read pivots to the cost side: why Kenya's "unchanged" pump price is the most fragile number on the board, and how the Kenya–Tanzania margin gap is set to widen mechanically in Q4. Forecast ledger checked silently — nothing resolves today (P057 resolves 11 Aug; P044/P056 on 13 Aug). Figures from the Pulse cost board: EPRA July 2026 review, KNBS/CBK and NBS Tanzania June 2026 prints — all verified. Advisory lines from travel.state.gov via the Pulse data board._
 
 ## TELEGRAM
 

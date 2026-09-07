@@ -3,7 +3,7 @@
 🏨 EA HOSPITALITY PULSE — Midday Pulse
 📅 Sunday, 2 August 2026 | 🇰🇪
 
-No new developments since this morning — so we went back through the open forecasts, and found one.
+Since this morning — so we went back through the open forecasts, and found one.
 ━━━━━━━━━
 1️⃣ THE "JULY 2026" KENYA ADVISORY IS DATED MARCH 2025
 We opened the US State Department's Kenya advisory page directly at 13:40 EAT today. The header reads "Travel Advisory — March 17, 2025", and Eastleigh and Kibera sit under Reconsider Travel, not Do Not Travel. Kenya's overall level is unchanged at 2. Several secondary sites are currently describing a "renewed 28 July 2026" advisory placing those neighbourhoods under Do Not Travel. The rendered page does not say that.

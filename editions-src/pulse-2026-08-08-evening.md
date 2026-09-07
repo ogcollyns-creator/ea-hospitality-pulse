@@ -2,7 +2,7 @@
 
 _Daily intelligence for city, bush & beach properties across East Africa._
 
-**Tier 2 — Standing Brief.** No new development clears tonight's recency gate since this morning's brief. But the 12 August decision cluster is now four days out, and one number moved underneath it that changes the odds. Here is what is still true, and what is moving.
+The 12 August decision cluster is now four days out, and one number moved underneath it that changes the odds. Here is what is still true, and what is moving.
 
 ---
 

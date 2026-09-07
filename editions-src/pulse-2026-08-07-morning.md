@@ -1,6 +1,6 @@
 # EA Hospitality Pulse — Morning Brief — Friday, 7 August 2026
 
-_Tier 2 Standing Brief. No new development clears the recency gate this morning — the general sweep returned only evergreen SEO aggregators and the already-covered (5 Aug) Uganda Airlines Accra/Kigali routes. This edition supersedes the automated cloud placeholder and leads with a forecast-ledger audit: the moat item, re-verified against primary sources this morning. Radar: 336 in-window observations since 6 Aug 18:00 EAT; its top signal (Federal Register CDC page-change, first seen 07:35 EAT) resolved to a trap — the CDC port-health order page still shows only the 13 July order, i.e. no early renewal._
+_This edition supersedes the automated cloud placeholder and leads with a forecast-ledger audit: the moat item, re-verified against primary sources this morning. Radar: 336 in-window observations since 6 Aug 18:00 EAT; its top signal (Federal Register CDC page-change, first seen 07:35 EAT) resolved to a trap — the CDC port-health order page still shows only the 13 July order, i.e. no early renewal._
 
 ## TELEGRAM
 

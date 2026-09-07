@@ -1,13 +1,13 @@
 # EA Hospitality Pulse — Morning Brief — Monday, 3 August 2026
 
-_Tier 2 Standing Brief. No new development cleared the recency gate overnight; the radar surfaced only Kenya Law court cause lists (relevance nil) and an already-covered Tanzania MoH outbreak-readiness note. What follows is repo-backed and led by a forecast call that resolves today._
+_What follows is repo-backed and led by a forecast call that resolves today._
 
 ## TELEGRAM
 
 🏨 EA HOSPITALITY PULSE — Morning Brief
 📅 Monday, 3 August 2026 | 🇰🇪🇹🇿🇺🇬🇷🇼
 
-No new story clears the gate this morning — so here's what's still true, what's moving underneath, and a forecast call of ours that lands today.
+Here's what's still true, what's moving underneath, and a forecast call of ours that lands today.
 ━━━━━━━━━
 1️⃣ THE "NEW" KENYA ADVISORY IS A 502-DAY-OLD ARTICLE
 On 25 July we predicted the Kenyan press would report the 29 July US advisory re-issue by today. It hasn't. What's recirculating instead is a Citizen Digital piece published 18 March 2025 — its metadata silently re-stamped "modified 2 August 2026" — resurfacing in search as if current. The text is the old advisory. We read the primary page ourselves this morning: travel.state.gov still dates Kenya "March 17, 2025" and still lists Eastleigh & Kibera as Reconsider Travel (Level 3), NOT "Do Not Travel". No outlet has independently covered the re-issue.

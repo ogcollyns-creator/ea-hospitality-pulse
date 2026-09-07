@@ -1,13 +1,13 @@
 # EA Hospitality Pulse — Evening Wrap, Monday 3 August 2026
 
-_Tier 2 — Standing Brief. No new independent story cleared the recency gate since the Midday Pulse; the general news sweep returned only aggregator SEO pages (dropped on recency). So the evening does what the calendar now forces — it puts a clock on the one decision that actually governs Uganda's bookings, and audits a forecast call that just landed. Radar candidate feed timestamped 03 Aug 13:00 EAT, 228 in-window observations; lead candidate (Africa CDC Bundibugyo SitRep 76) is the same DRC outbreak already run at midday, so it advances a call rather than leading fresh._
+_The evening does what the calendar now forces — it puts a clock on the one decision that actually governs Uganda's bookings, and audits a forecast call that just landed. Radar candidate feed timestamped 03 Aug 13:00 EAT, 228 in-window observations; lead candidate (Africa CDC Bundibugyo SitRep 76) is the same DRC outbreak already run at midday, so it advances a call rather than leading fresh._
 
 ## TELEGRAM
 
 🌆 EA HOSPITALITY PULSE — Evening Wrap
 📅 Monday, 3 August 2026 | 🇰🇪🇹🇿🇺🇬🇷🇼
 
-No new wire story cleared the gate since midday. So the evening does what the calendar forces: it puts a clock on the one decision that actually moves Uganda's bookings — and audits a forecast that just landed.
+The evening does what the calendar forces: it puts a clock on the one decision that actually moves Uganda's bookings — and audits a forecast that just landed.
 ━━━━━━━━━
 1️⃣ THE 12 AUGUST CLOCK — 9 DAYS TO THE CALL THAT MATTERS
 The US CDC's Section 362 entry order covering DR Congo, Uganda and South Sudan expires 12 August — nine days out. This, not the "Uganda is Ebola-free" headline, is the date that governs whether Ugandan arrivals face US transit screening into September.
@@ -38,7 +38,7 @@ Kenya US Level 2 / UK Level 2, board unchanged since this morning. Zanzibar's US
 🌆 *EA HOSPITALITY PULSE — Evening, Mon 3 Aug*
 
 📌 *The 12 August clock: 9 days to the call that matters*
-No new story since midday — so here's the date that governs Uganda's bookings. The US CDC entry order covering DRC, Uganda and South Sudan expires 12 August. With DRC's outbreak intensifying (WHO: 3,605 confirmed, 44% fatality, to 30 July), our base case is it renews with Uganda still listed — screening holds into September.
+Since midday — so here's the date that governs Uganda's bookings. The US CDC entry order covering DRC, Uganda and South Sudan expires 12 August. With DRC's outbreak intensifying (WHO: 3,605 confirmed, 44% fatality, to 30 July), our base case is it renews with Uganda still listed — screening holds into September.
 → *Do this:* quote Ugandan itineraries assuming screening STAYS; treat any lift as upside to announce, not a promise to walk back.
 
 📌 *ALSO TODAY*

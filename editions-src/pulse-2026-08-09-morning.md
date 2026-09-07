@@ -1,6 +1,6 @@
 # EA Hospitality Pulse — Morning Brief — Sunday, 9 August 2026
 
-_Expert Brief. No new EA development clears the recency gate this morning, so the lead is analysis, not a digest: what the H1 2026 arrivals data from across Africa says about where East Africa's resilient demand actually sits — and what most operators are still mispricing. Forecast ledger checked silently (12 August CDC cluster unchanged; nothing resolved overnight). Sources: Statistics South Africa H1 2026 (released 30 July 2026), Rwanda Development Board H1 2026 arrivals, Uganda Wildlife Authority tariff. Figures graded Reported unless the primary body is named._
+_Expert Brief. Forecast ledger checked silently (12 August CDC cluster unchanged; nothing resolved overnight). Sources: Statistics South Africa H1 2026 (released 30 July 2026), Rwanda Development Board H1 2026 arrivals, Uganda Wildlife Authority tariff. Figures graded Reported unless the primary body is named._
 
 ## TELEGRAM
 

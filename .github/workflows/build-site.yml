@@ -13,6 +13,8 @@ on:
       - 'build_site.py'
       - 'hero_extra.py'
       - 'make_og_images.py'
+      - 'assign_edition_photos.py'
+      - 'image_sources.py'
       - 'img/edition-credits.json'
       - 'img/editorial-picks.json'
   workflow_dispatch:
@@ -53,7 +55,13 @@ jobs:
       - name: Assign vetted press-kit images (best-effort; before the Wikimedia fetch)
         run: python3 hero_extra.py --press-kit || echo "press-kit pass skipped"
 
-      - name: Hero — data card (default; a brief's hero is its number, not scenery)
+      - name: Hero — real photography where the edition has a visual subject
+        env:
+          GOOGLE_CSE_KEY: ${{ secrets.GOOGLE_CSE_KEY }}
+          GOOGLE_CSE_CX: ${{ secrets.GOOGLE_CSE_CX }}
+        run: python3 assign_edition_photos.py --replace-cards --limit 30 || echo "photo pass skipped"
+
+      - name: Hero — data card (fallback where no confident visual subject exists)
         run: python3 hero_extra.py --data-card || echo "data-card pass skipped"
 
       - name: Generate AI illustration for any edition still without a hero (best-effort)

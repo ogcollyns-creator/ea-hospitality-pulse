@@ -3,7 +3,7 @@
 🏨 EA HOSPITALITY PULSE — Evening Wrap
 📅 Tuesday, 1 September 2026 | 🇰🇪 🇺🇬 🇹🇿 🇷🇼
 
-Nothing cleared the recency gate since midday. So tonight, the thing 26 days out that almost nobody here has diarised.
+Tonight, the thing 26 days out that almost nobody here has diarised.
 ━━━━━━━━━
 1️⃣ ON 27 SEPTEMBER, "ECO-LODGE" STOPS BEING FREE
 
