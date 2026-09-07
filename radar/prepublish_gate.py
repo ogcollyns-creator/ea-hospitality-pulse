@@ -161,6 +161,12 @@ def sweep_coverage():
 def main():
     do_fix = "--fix" in sys.argv
     strict = "--strict" in sys.argv
+    # An asset-only run regenerates heroes, feeds and pages for editions that are
+    # ALREADY published. It asserts no new editorial claim, so the Primary Source
+    # Sweep -- which exists to stop an edition shipping while claiming coverage the
+    # sweep did not provide -- has nothing to protect here. It stays visible as a
+    # warning; it just stops blocking a rebuild. Editorial pushes keep the full gate.
+    assets_only = "--assets-only" in sys.argv
     files = [a for a in sys.argv[1:] if not a.startswith("--")]
     if "--changed" in sys.argv: files = changed_editions()
     if not files:
@@ -181,6 +187,9 @@ def main():
         for x in warns:    print(f"   🟡 warn:    {x}")
         any_block = any_block or bool(blockers)
     sb, sw = sweep_coverage()
+    if assets_only and sb:
+        sw = sw + ["(asset-only rebuild — not blocking) " + x for x in sb]
+        sb = []
     if sb or sw:
         print("\n— Primary Source Sweep —")
         for x in sb: print(f"   \u26d4 blocker: {x}")

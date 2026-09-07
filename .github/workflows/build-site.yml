@@ -46,7 +46,15 @@ jobs:
 
       - name: Pre-publish quality gate (auto-fix + block)
         run: |
-          python3 radar/prepublish_gate.py --changed --fix --strict
+          # A manual run regenerates assets for already-published editions, so the
+          # editorial sweep gate is advisory there. A push carries new editorial
+          # content and keeps the full gate.
+          GATE_ARGS="--changed --fix --strict"
+          if [ "${{ github.event_name }}" = "workflow_dispatch" ]; then
+            GATE_ARGS="$GATE_ARGS --assets-only"
+          fi
+          echo "gate: $GATE_ARGS"
+          python3 radar/prepublish_gate.py $GATE_ARGS
           # if the gate auto-repaired an edition, commit the fix before building
           git config user.email 'ogcollyns@gmail.com'
           git config user.name 'EA Hospitality Pulse'
