@@ -942,6 +942,28 @@ def main():
         if '"@type":"WebSite"' in idx and '#website' not in idx:
             idx = idx.replace('{"@context":"https://schema.org","@type":"WebSite",',
                               '{"@context":"https://schema.org","@type":"WebSite","@id":"' + SITE_ID + '",', 1)
+        # The site has a real full-text search (archive.html reads ?q=), but the
+        # WebSite node never advertised it — so an engine had no machine-readable
+        # way to query the archive and no basis for a sitelinks search box.
+        if '"@type":"WebSite"' in idx and 'potentialAction' not in idx:
+            _search = json.dumps({
+                "potentialAction": {
+                    "@type": "SearchAction",
+                    "target": {"@type": "EntryPoint",
+                               "urlTemplate": BASE + "/archive.html?q={search_term_string}"},
+                    "query-input": "required name=search_term_string"}})[1:-1]
+            idx = re.sub(r'(\{"@context":"https://schema\.org","@type":"WebSite")',
+                         lambda m: m.group(1) + "," + _search, idx, count=1)
+        # Social/answer-engine parity with the edition pages: an image with no alt
+        # is an image an engine cannot describe, and no locale is a locale it guesses.
+        if '<meta property="og:image:alt"' not in idx:
+            _alt = ('<meta property="og:image:alt" content="EA Hospitality Pulse — daily '
+                    'intelligence for East African hospitality">\n'
+                    '<meta name="twitter:image:alt" content="EA Hospitality Pulse — daily '
+                    'intelligence for East African hospitality">\n'
+                    '<meta property="og:locale" content="en_GB">\n')
+            idx = idx.replace('<meta name="twitter:card"', _alt + '<meta name="twitter:card"', 1)
+
         # AI Overviews and large-snippet surfaces need explicit permission; the home
         # page had no robots directive at all, so it inherited the conservative default.
         if '<meta name="robots"' not in idx:
@@ -950,6 +972,66 @@ def main():
         open(idx_path, "w", encoding="utf-8").write(idx)
     except Exception as e:
         print("build stamp skipped:", e)
+
+    # ---- archive.html: give the hub page a machine-readable index -------------
+    # The archive lists every edition, but it builds that list in JavaScript from
+    # data.js — so a crawler or answer engine that does not execute scripts saw a
+    # search box and nothing else. A CollectionPage + ItemList states the same
+    # inventory in the head, where it is retrievable without a JS runtime.
+    arc_path = os.path.join(HERE, "archive.html")
+    try:
+        arc = open(arc_path, encoding="utf-8").read()
+        arc = re.sub(r"<!--ARCHIVE_LD-->.*?<!--/ARCHIVE_LD-->\n?", "", arc, flags=re.S)
+        _recent = editions[:60]
+        arc_ld = {
+            "@context": "https://schema.org", "@type": "CollectionPage",
+            "@id": BASE + "/archive.html", "url": BASE + "/archive.html",
+            "name": "EA Hospitality Pulse archive",
+            "description": ("Every EA Hospitality Pulse edition — daily briefs, Sunday "
+                            "Foresight essays and shock playbooks for hotels, lodges, camps "
+                            "and resorts in Kenya, Uganda, Tanzania, Zanzibar and Rwanda."),
+            "inLanguage": "en", "isPartOf": {"@id": SITE_ID},
+            "publisher": {"@id": ORG_ID},
+            "about": ABOUT_ENTITIES,
+            "mainEntity": {
+                "@type": "ItemList",
+                "name": "EA Hospitality Pulse editions",
+                "numberOfItems": len(editions),
+                "itemListOrder": "https://schema.org/ItemListOrderDescending",
+                "itemListElement": [
+                    {"@type": "ListItem", "position": i + 1,
+                     "url": f"{BASE}/editions/{e2['id']}.html",
+                     "name": f"{e2['edition']} — {e2['dateDisplay']}"}
+                    for i, e2 in enumerate(_recent)],
+            },
+        }
+        arc_crumbs = {
+            "@context": "https://schema.org", "@type": "BreadcrumbList",
+            "itemListElement": [
+                {"@type": "ListItem", "position": 1, "name": "Home", "item": BASE + "/"},
+                {"@type": "ListItem", "position": 2, "name": "Archive",
+                 "item": BASE + "/archive.html"},
+            ]}
+        _inject = ("<!--ARCHIVE_LD-->\n"
+                   '<meta name="robots" content="index,follow,max-image-preview:large,max-snippet:-1,max-video-preview:-1">\n'
+                   '<meta property="og:image:alt" content="EA Hospitality Pulse archive">\n'
+                   '<meta name="twitter:card" content="summary_large_image">\n'
+                   '<meta name="twitter:title" content="Archive — every EA Hospitality Pulse edition">\n'
+                   '<meta name="twitter:description" content="Filter every brief by country, segment and topic.">\n'
+                   f'<meta name="twitter:image" content="{BASE}/og/default.png">\n'
+                   '<meta name="twitter:image:alt" content="EA Hospitality Pulse archive">\n'
+                   '<meta property="og:locale" content="en_GB">\n'
+                   f'<script type="application/ld+json">{json.dumps(arc_ld)}</script>\n'
+                   f'<script type="application/ld+json">{json.dumps(arc_crumbs)}</script>\n'
+                   "<!--/ARCHIVE_LD-->\n")
+        # Drop any pre-existing duplicates of the tags we now own, then inject.
+        for _dup in ('<meta name="robots"', '<meta property="og:locale"'):
+            arc = re.sub(r"^" + re.escape(_dup) + r'[^>]*>\n', "", arc, flags=re.M)
+        arc = arc.replace("</head>", _inject + "</head>", 1)
+        open(arc_path, "w", encoding="utf-8").write(arc)
+        print(f"archive.html: structured index written ({len(_recent)} of {len(editions)} editions)")
+    except Exception as e:
+        print("archive structured data skipped:", e)
 
     # branded social share images (uses the data.js just written)
     try:
