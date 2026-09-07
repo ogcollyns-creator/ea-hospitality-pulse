@@ -254,32 +254,121 @@ def _scene_for(text):
             return scene
     return _DEFAULT_SCENE
 
-def _api_image(prompt):
-    """Best-effort text-to-image via an OpenAI-compatible endpoint. Returns JPEG
-    bytes or None. Controlled by env: IMAGE_API_KEY (required to attempt),
-    IMAGE_API_URL, IMAGE_API_MODEL. Any problem -> None (caller draws instead)."""
+# Model -> the size that model actually accepts. Getting this wrong is a 400,
+# and until now a 400 was swallowed and reported as "using illustration".
+_MODEL_SIZES = {
+    "gpt-image-1": "1536x1024",
+    "dall-e-3":    "1792x1024",
+    "dall-e-2":    "1024x1024",
+}
+_API_DIAG = []          # human-readable notes from the last run, for the log
+
+
+def _api_error_detail(ex):
+    """Pull the API's own message out of an HTTPError body.
+
+    urllib raises HTTPError whose str() is only 'HTTP Error 403: Forbidden'. The
+    reason lives in the JSON body -- e.g. 'Your organization must be verified to
+    use the model gpt-image-1'. Swallowing that is why this failed silently for
+    days, so we read the body and print it.
+    """
+    body = ""
+    try:
+        body = ex.read().decode("utf-8", "replace")[:800]
+    except Exception:
+        pass
+    code = msg = ""
+    try:
+        j = json.loads(body)
+        err = j.get("error") or {}
+        code = err.get("code") or err.get("type") or ""
+        msg = err.get("message") or ""
+    except Exception:
+        msg = body
+    status = getattr(ex, "code", "?")
+    return f"HTTP {status}" + (f" [{code}]" if code else "") + (f": {msg}" if msg else "")
+
+
+def _api_image(prompt, _models=None):
+    """Text-to-image via an OpenAI-compatible endpoint. Returns JPEG bytes or None.
+
+    env: IMAGE_API_KEY (required), IMAGE_API_URL, IMAGE_API_MODEL.
+    Tries the configured model, then falls back through the others -- gpt-image-1
+    requires organisation verification on OpenAI and 403s without it, which should
+    degrade to dall-e-3 rather than to no image at all.
+    """
+    import urllib.request, urllib.error, base64
     key = os.environ.get("IMAGE_API_KEY", "").strip()
     if not key:
+        _API_DIAG.append("IMAGE_API_KEY not set — no generation attempted")
         return None
-    import urllib.request, base64
-    url   = os.environ.get("IMAGE_API_URL",  "https://api.openai.com/v1/images/generations")
-    model = os.environ.get("IMAGE_API_MODEL", "gpt-image-1")
-    payload = json.dumps({"model": model, "prompt": prompt,
-                          "size": "1536x1024", "n": 1}).encode()
-    req = urllib.request.Request(url, data=payload, headers={
-        "Authorization": f"Bearer {key}", "Content-Type": "application/json"})
-    try:
-        with urllib.request.urlopen(req, timeout=120) as r:
-            data = json.loads(r.read().decode())
-        d0 = (data.get("data") or [{}])[0]
-        if d0.get("b64_json"):
-            return base64.b64decode(d0["b64_json"])
-        if d0.get("url"):
-            with urllib.request.urlopen(d0["url"], timeout=120) as ir:
-                return ir.read()
-    except Exception as ex:
-        print(f"  ai: image API failed ({ex}); using illustration")
+
+    url = os.environ.get("IMAGE_API_URL", "https://api.openai.com/v1/images/generations")
+    first = os.environ.get("IMAGE_API_MODEL", "gpt-image-1").strip()
+    models = _models or ([first] + [m for m in ("dall-e-3", "dall-e-2") if m != first])
+
+    for model in models:
+        size = _MODEL_SIZES.get(model, "1024x1024")
+        body = {"model": model, "prompt": prompt[:3900], "size": size, "n": 1}
+        if model.startswith("dall-e"):
+            body["response_format"] = "b64_json"   # gpt-image-1 always returns b64
+        req = urllib.request.Request(
+            url, data=json.dumps(body).encode(),
+            headers={"Authorization": f"Bearer {key}", "Content-Type": "application/json"})
+        try:
+            with urllib.request.urlopen(req, timeout=180) as r:
+                data = json.loads(r.read().decode())
+            d0 = (data.get("data") or [{}])[0]
+            if d0.get("b64_json"):
+                _API_DIAG.append(f"{model}: ok")
+                return base64.b64decode(d0["b64_json"])
+            if d0.get("url"):
+                with urllib.request.urlopen(d0["url"], timeout=180) as ir:
+                    _API_DIAG.append(f"{model}: ok (via url)")
+                    return ir.read()
+            _API_DIAG.append(f"{model}: response had no image payload")
+        except urllib.error.HTTPError as ex:
+            detail = _api_error_detail(ex)
+            _API_DIAG.append(f"{model}: {detail}")
+            print(f"  ai: {model} failed — {detail}")
+            # auth/quota problems will not be fixed by trying another model
+            if getattr(ex, "code", 0) in (401, 429) or "billing" in detail.lower():
+                break
+        except Exception as ex:
+            _API_DIAG.append(f"{model}: {type(ex).__name__}: {ex}")
+            print(f"  ai: {model} failed — {type(ex).__name__}: {ex}")
     return None
+
+
+def check_image_api():
+    """Preflight: report exactly why generation is or is not working.
+
+    Never prints the key. Prints its length and last 4 characters only, which is
+    enough to tell 'not set' from 'set but wrong' without leaking anything.
+    """
+    key = os.environ.get("IMAGE_API_KEY", "").strip()
+    url = os.environ.get("IMAGE_API_URL", "https://api.openai.com/v1/images/generations")
+    model = os.environ.get("IMAGE_API_MODEL", "gpt-image-1")
+    print("— image API preflight —")
+    if not key:
+        print("  IMAGE_API_KEY: NOT SET")
+        print("  -> add it at Settings > Secrets and variables > Actions.")
+        return 1
+    print(f"  IMAGE_API_KEY: set ({len(key)} chars, ends '{key[-4:]}')")
+    print(f"  endpoint: {url}")
+    print(f"  model:    {model} (falls back to dall-e-3, dall-e-2)")
+    blob = _api_image("A calm empty landscape at golden hour, no text, no people.")
+    for note in _API_DIAG:
+        print(f"  {note}")
+    if blob:
+        print(f"  RESULT: generation WORKS ({len(blob)} bytes)")
+        return 0
+    print("  RESULT: generation FAILED — see the messages above.")
+    print("  Common causes: gpt-image-1 needs organisation verification "
+          "(platform.openai.com/settings/organization/general); "
+          "401 = bad key; 429 = no credit or rate limit.")
+    return 1
+
 
 def _wrap(draw, text, font, max_w):
     words, lines, cur = text.split(), [], ""
@@ -389,20 +478,24 @@ def ai_fallback_pass(replace_cards=False):
                 im.save(os.path.join(EDIMG, eid + ".jpg"), "JPEG", quality=88, optimize=True)
                 kind_src = "AI-generated image"
             else:
-                _illustration(eid, headline, scene)
-                kind_src = "Original illustration (no photograph)"
+                # No generated image. Do NOT draw a gradient -- a real licensed
+                # photograph of the market is better than abstract artwork, so
+                # leave this edition for assign_edition_photos.py
+                # --destination-fallback, which runs next.
+                skipped += 1
+                continue
         except Exception as ex:
             print(f"  ai: failed for {eid}: {ex}"); continue
-        _sk = "ai" if blob else "illustration"
+        # only reached when generation succeeded -- the no-image path continues above
         credits[eid] = {
             "id": eid,
-            "title": ("AI-generated image" if blob else "Original illustration"),
+            "title": "AI-generated image",
             "artist": "EA Hospitality Pulse",
             "source": kind_src,
             "license": "Original artwork — no third-party rights",
             "licenseurl": "",
             "descurl": "",
-            "source_kind": _sk,
+            "source_kind": "ai",
         }
         made += 1
         print(f"  ai: {eid}.jpg <- {kind_src}")
@@ -719,6 +812,8 @@ if __name__ == "__main__":
         data_card_pass()
     if "--openverse" in args:
         openverse_pass()
+    if "--check-image-api" in args:
+        raise SystemExit(check_image_api())
     if "--ai-fallback" in args:
         ai_fallback_pass(replace_cards="--replace-cards" in args)
     if not args:

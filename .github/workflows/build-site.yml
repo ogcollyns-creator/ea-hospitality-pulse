@@ -85,7 +85,14 @@ jobs:
           IMAGE_API_KEY: ${{ secrets.IMAGE_API_KEY }}
           IMAGE_API_URL: ${{ secrets.IMAGE_API_URL }}
           IMAGE_API_MODEL: ${{ secrets.IMAGE_API_MODEL }}
-        run: python3 hero_extra.py --ai-fallback --replace-cards || echo "ai-fallback pass skipped"
+        run: |
+          # Preflight is informational: it prints WHY generation is or is not
+          # working (never the key) so a silent failure cannot hide again.
+          python3 hero_extra.py --check-image-api || true
+          python3 hero_extra.py --ai-fallback --replace-cards || echo "ai-fallback pass skipped"
+
+      - name: Hero — licensed destination photo where no subject fits
+        run: python3 assign_edition_photos.py --replace-cards --destination-fallback --limit 40 || echo "destination pass skipped"
 
       - name: Hero — data card (last resort, and for any news-event edition)
         run: python3 hero_extra.py --data-card || echo "data-card pass skipped"

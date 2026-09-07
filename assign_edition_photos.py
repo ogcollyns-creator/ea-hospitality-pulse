@@ -102,6 +102,64 @@ TOPICS = [
 ]
 
 
+# ---------------------------------------------------------------- destination
+# When no specific subject can be evidenced, a real photograph of the market the
+# edition is about beats an abstract gradient. This is ordinary trade-press
+# practice: the picture illustrates the DESTINATION, not the event. It stays
+# honest because the photograph is real, licensed and credited -- the failure
+# mode we care about is synthetic imagery implying footage of a real incident,
+# and a licensed skyline implies nothing.
+COUNTRY_MARKERS = {
+    "KE": (["kenya", "nairobi", "mombasa", "\U0001F1F0\U0001F1EA", "knbs", "kws", "epra",
+            "diani", "maasai mara", "jkia", "kenya airways"],
+           ["Nairobi skyline Kenya", "Nairobi city Kenya", "Diani Beach Kenya",
+            "Maasai Mara landscape Kenya"]),
+    "UG": (["uganda", "kampala", "entebbe", "\U0001F1FA\U0001F1EC", "ubos", "uwa", "bwindi"],
+           ["Kampala city Uganda", "Entebbe Lake Victoria Uganda",
+            "Uganda landscape hills"]),
+    "TZ": (["tanzania", "dar es salaam", "arusha", "\U0001F1F9\U0001F1FF", "serengeti",
+            "kilimanjaro", "tanapa", "ngorongoro"],
+           ["Dar es Salaam skyline Tanzania", "Serengeti plains Tanzania",
+            "Mount Kilimanjaro Tanzania"]),
+    "ZNZ": (["zanzibar", "stone town", "unguja", "nungwi", "ocgs"],
+            ["Stone Town Zanzibar", "Nungwi beach Zanzibar",
+             "Zanzibar dhow Indian Ocean"]),
+    "RW": (["rwanda", "kigali", "\U0001F1F7\U0001F1FC", "rdb", "volcanoes national park",
+            "nisr", "kwita izina"],
+           ["Kigali skyline Rwanda", "Kigali city Rwanda",
+            "Rwanda hills landscape"]),
+}
+# Regional catch-all when an edition is genuinely pan-EA.
+REGIONAL_QUERIES = ["East Africa landscape", "Nairobi skyline Kenya",
+                    "Serengeti plains Tanzania"]
+
+
+def detect_market(text, lead=""):
+    """Primary market for an edition, weighted to the lead. Returns a code or None."""
+    lead = lead or text
+    scores = {}
+    for code, (markers, _q) in COUNTRY_MARKERS.items():
+        scores[code] = (sum(1 for m in markers if m in text)
+                        + 3 * sum(1 for m in markers if m in lead))
+    # Zanzibar is a separate market in this product, but every Zanzibar story also
+    # says "Tanzania", so TZ outscores it on raw counts and a Zanzibar beach piece
+    # ends up under a photo of Dar es Salaam. Zanzibar wins its own stories.
+    best = max(scores, key=lambda k: scores[k]) if scores else None
+    if not best or scores[best] < 2:
+        return None
+    # ...but only against TZ. Overriding a genuine Uganda or Kenya winner would be
+    # worse than the problem it fixes.
+    if best == "TZ" and scores.get("ZNZ", 0) >= 2:
+        return "ZNZ"
+    return best
+
+
+def destination_queries(text, lead=""):
+    code = detect_market(text, lead)
+    if code:
+        return code, COUNTRY_MARKERS[code][1]
+    return "EA", REGIONAL_QUERIES
+
 def _load_credits():
     try:
         with open(CREDITS, encoding="utf-8") as f:
@@ -155,8 +213,16 @@ def detect_topic(text, lead=""):
     return None
 
 
+PLACEHOLDER_KINDS = ("data-card", "illustration")
+
+
+def _is_placeholder(entry):
+    kind = (entry or {}).get("source_kind") or ""
+    return kind in PLACEHOLDER_KINDS or str((entry or {}).get("title", "")).startswith("Data card")
+
+
 def _is_data_card(entry):
-    return str(entry.get("title", "")).startswith("Data card")
+    return _is_placeholder(entry)
 
 
 def _usable(c):
@@ -175,6 +241,9 @@ def main(argv=None):
     ap.add_argument("--replace-cards", action="store_true",
                     help="also revisit editions currently showing a data card")
     ap.add_argument("--only", default="", help="comma-separated edition ids")
+    ap.add_argument("--destination-fallback", action="store_true",
+                    help="for editions with no confident subject, use a licensed "
+                         "photograph of the market instead of leaving a placeholder")
     a = ap.parse_args(argv)
 
     os.makedirs(EDIMG, exist_ok=True)
@@ -214,12 +283,18 @@ def main(argv=None):
             print("limit reached — stopping")
             break
         _md = _edition_text(eid)
-        hit = detect_topic(_md, lead_text(_md))
-        if not hit:
+        _lead = lead_text(_md)
+        hit = detect_topic(_md, _lead)
+        if hit:
+            topic, queries, score = hit
+        elif a.destination_fallback:
+            # No specific subject -- illustrate the MARKET with a real photograph.
+            topic, queries = destination_queries(_md, _lead)
+            topic, score = f"destination:{topic}", 0
+        else:
             skipped_topic += 1
             print(f"  keep card  {eid}  (no confident visual subject)")
             continue
-        topic, queries, score = hit
 
         cands = []
         for q in queries:
