@@ -1,5 +1,21 @@
 window.GUIDES = [
  {
+  "slug": "defining-your-comp-set-east-africa",
+  "title": "Your comp set is probably wrong — and East Africa's construction pipeline is about to prove it",
+  "description": "Most properties define their competitive set by who is nearby and similar. Buyers define it by what they substitute you against. With four in five of Kenya's pipeline rooms already under construction, the gap between those two definitions is now a datable, forecastable risk.",
+  "category": "City",
+  "updated": "2026-09-07",
+  "readMins": 5
+ },
+ {
+  "slug": "three-calendars-east-africa-rate-year",
+  "title": "The three calendars that price an East African property — and why most rate cards only use one",
+  "description": "Wildlife seasonality, the fee and cost cycle, and the buyer's contracting year each move on their own schedule. Rate cards built on the first alone leave money on the table twice a year. A working method for aligning all three.",
+  "category": "Operations",
+  "updated": "2026-09-07",
+  "readMins": 5
+ },
+ {
   "slug": "ota-commission-what-it-actually-costs",
   "title": "What OTA commission actually costs an East African hotel",
   "description": "The headline commission rate is the smallest part of the bill. Here is the full arithmetic, including the costs that never appear on the invoice.",
