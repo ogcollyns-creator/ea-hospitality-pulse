@@ -18,6 +18,9 @@ on:
       - 'image_sources.py'
       - 'img/edition-credits.json'
       - 'img/editorial-picks.json'
+      # the workflow itself: a change to the gate or the hero chain must be able
+      # to trigger a rebuild, or the fix sits undeployed until something else moves
+      - '.github/workflows/build-site.yml'
   workflow_dispatch:
 
 concurrency:
