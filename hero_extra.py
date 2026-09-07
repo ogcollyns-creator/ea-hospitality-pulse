@@ -59,8 +59,26 @@ def _save_credits(credits):
         json.dump(credits, f, ensure_ascii=False, indent=1, sort_keys=True)
     os.replace(tmp, CREDITS_PATH)
 
-def _has_hero(eid, credits):
-    return os.path.exists(os.path.join(EDIMG, eid + ".jpg")) and eid in credits
+# Heroes that are placeholders rather than pictures. A pass running with
+# replace_cards=True is allowed to take these over; a real photograph or a vetted
+# press-kit image is never overwritten.
+_PLACEHOLDER_KINDS = ("data-card", "illustration")
+
+
+def _has_hero(eid, credits, replace_cards=False):
+    """True when the edition already has a hero this pass must not touch.
+
+    Without replace_cards this is 'any hero at all', which is why the AI pass
+    silently did nothing for weeks: every edition already carried a data card
+    from an earlier run, so reordering the workflow changed nothing on its own.
+    """
+    if not (os.path.exists(os.path.join(EDIMG, eid + ".jpg")) and eid in credits):
+        return False
+    if replace_cards:
+        kind = (credits.get(eid) or {}).get("source_kind") or ""
+        if kind in _PLACEHOLDER_KINDS:
+            return False          # a placeholder is fair game
+    return True
 
 def _edition_text(e):
     return (e.get("summary","") + " " +
@@ -93,7 +111,7 @@ def press_kit_pass():
 
     for e in sorted(editions, key=lambda e: e.get("id","")):
         eid = e["id"]
-        if _has_hero(eid, credits):
+        if _has_hero(eid, credits, replace_cards):
             continue
         text = _edition_text(e)
         best, best_score = None, 0
@@ -276,60 +294,69 @@ def _wrap(draw, text, font, max_w):
     return lines
 
 def _illustration(eid, headline, scene):
-    """Deterministic on-brand illustration (no network). 1536x1024 landscape."""
-    from PIL import Image, ImageDraw, ImageFont
+    """Deterministic, TEXT-FREE on-brand artwork (no network). 1536x1024 landscape.
+
+    Nothing is written into this image on purpose. It is the in-page hero, and the
+    page already carries the masthead, the edition chip and the headline in HTML
+    directly beneath it -- so any text baked in here is read twice and looks like a
+    mistake ("Evening Wrap" sitting above a slab that says Evening Wrap). Disclosure
+    moved to the credit line under the hero, which now reads "Illustration:" and is
+    where a reader looks for provenance anyway.
+
+    Deterministic from the edition id, so every edition gets its own composition and
+    the archive does not look like one image repeated ninety times.
+    """
+    from PIL import Image, ImageDraw, ImageFilter
+    import math
     W, H = 1536, 1024
     seed = int(hashlib.sha256(eid.encode()).hexdigest(), 16)
-    # deterministic accent shift so cards aren't identical
-    shift = seed % 30
-    top = (TEAL[0], min(TEAL[1]+shift, 120), min(TEAL[2]+shift, 120))
-    bot = (max(TEAL[0]-4,0), max(TEAL[1]-24,0), max(TEAL[2]-22,0))
+
+    # --- sky gradient, hue nudged per edition -----------------------------
+    shift = seed % 34
+    top = (TEAL[0], min(TEAL[1] + shift, 124), min(TEAL[2] + shift, 122))
+    bot = (max(TEAL[0] - 5, 0), max(TEAL[1] - 26, 0), max(TEAL[2] - 24, 0))
     img = Image.new("RGB", (W, H), top)
-    px = img.load()
+    d = ImageDraw.Draw(img)
     for y in range(H):
         t = y / (H - 1)
-        r = round(top[0]*(1-t) + bot[0]*t)
-        g = round(top[1]*(1-t) + bot[1]*t)
-        b = round(top[2]*(1-t) + bot[2]*t)
-        for x in range(W):
-            px[x, y] = (r, g, b)
+        d.line([(0, y), (W, y)], fill=(
+            round(top[0]*(1-t) + bot[0]*t),
+            round(top[1]*(1-t) + bot[1]*t),
+            round(top[2]*(1-t) + bot[2]*t)))
+
+    # --- sun/moon, placed per edition, sitting BEHIND the ridgelines -------
+    cx = int(W * (0.60 + ((seed >> 8) % 28) / 100.0))
+    cy = int(H * (0.20 + ((seed >> 12) % 14) / 100.0))
+    rr = 62 + (seed >> 16) % 26
+    glow = Image.new("RGB", (W, H), (0, 0, 0))
+    ImageDraw.Draw(glow).ellipse((cx-rr*3, cy-rr*3, cx+rr*3, cy+rr*3), fill=(60, 40, 12))
+    img = Image.blend(img, Image.blend(img, glow, 0.0), 0.0)
     d = ImageDraw.Draw(img)
-    # abstract "horizon + hills" motif, deterministic
-    base = int(H*0.66)
-    for i, amp in enumerate((90, 60, 34)):
-        off = (seed >> (i*4)) % 120
-        col = (top[0], top[1]+18+i*10, top[2]+16+i*8)
+    d.ellipse((cx-rr, cy-rr, cx+rr, cy+rr), fill=GOLD)
+
+    # --- four layered ridgelines, back to front, each lighter -------------
+    base = int(H * 0.56)
+    for i, amp in enumerate((104, 74, 48, 30)):
+        off = (seed >> (i * 5)) % 200
+        period = 150 + i * 55 + (seed >> (i * 3)) % 60
+        col = (min(top[0] + i*3, 255), min(top[1] + 16 + i*13, 255),
+               min(top[2] + 14 + i*11, 255))
         pts = [(0, H)]
-        for x in range(0, W+1, 24):
-            import math
-            yv = base + i*70 + int(amp*math.sin((x+off)/ (150+i*40)))
+        for x in range(0, W + 1, 12):
+            yv = base + i * 78 + int(amp * math.sin((x + off) / period)) \
+                 + int(amp * 0.35 * math.sin((x + off * 2) / (period * 0.42)))
             pts.append((x, yv))
         pts.append((W, H))
         d.polygon(pts, fill=col)
-    # sun/moon disc
-    cx = int(W*0.78); cy = int(H*0.30); rr = 70
-    d.ellipse((cx-rr, cy-rr, cx+rr, cy+rr), fill=GOLD)
-    try:
-        fk = ImageFont.truetype(FONTB, 30)
-        fh = ImageFont.truetype(FONTB, 64)
-        ff = ImageFont.truetype(FONT, 24)
-    except Exception:
-        fk = fh = ff = ImageFont.load_default()
-    d.text((70, 70), "EA HOSPITALITY PULSE", font=fk, fill=SAND)
-    d.line((70, 118, 70+260, 118), fill=GOLD, width=4)
-    lines = _wrap(d, headline, fh, W-140)[:4]
-    y = int(H*0.40)
-    for ln in lines:
-        d.text((70, y), ln, font=fh, fill=WHITE); y += 74
-    tag = "AI-ASSISTED ILLUSTRATION · not a photograph"
-    tw = d.textlength(tag, font=ff)
-    d.rectangle((70, H-70, 70+tw+28, H-30), fill=(0,0,0))
-    d.text((84, H-64), tag, font=ff, fill=SAND)
-    os.makedirs(EDIMG, exist_ok=True)
-    img.save(os.path.join(EDIMG, eid + ".jpg"), "JPEG", quality=88, optimize=True)
 
-def ai_fallback_pass():
-    """Generate a rights-free hero for any edition still missing one."""
+    # a whisper of blur keeps the flat vector look from reading as clip-art
+    img = img.filter(ImageFilter.GaussianBlur(0.6))
+    os.makedirs(EDIMG, exist_ok=True)
+    img.save(os.path.join(EDIMG, eid + ".jpg"), "JPEG", quality=90, optimize=True)
+
+
+def ai_fallback_pass(replace_cards=False):
+    """Generate a rights-free hero for any edition still missing a real picture."""
     try:
         import PIL  # noqa
     except ImportError:
@@ -363,18 +390,19 @@ def ai_fallback_pass():
                 kind_src = "AI-generated image"
             else:
                 _illustration(eid, headline, scene)
-                kind_src = "AI-assisted illustration"
+                kind_src = "Original illustration (no photograph)"
         except Exception as ex:
             print(f"  ai: failed for {eid}: {ex}"); continue
+        _sk = "ai" if blob else "illustration"
         credits[eid] = {
             "id": eid,
-            "title": "AI-generated image (illustrative)",
+            "title": ("AI-generated image" if blob else "Original illustration"),
             "artist": "EA Hospitality Pulse",
             "source": kind_src,
             "license": "Original artwork — no third-party rights",
             "licenseurl": "",
             "descurl": "",
-            "source_kind": "ai",
+            "source_kind": _sk,
         }
         made += 1
         print(f"  ai: {eid}.jpg <- {kind_src}")
@@ -692,6 +720,6 @@ if __name__ == "__main__":
     if "--openverse" in args:
         openverse_pass()
     if "--ai-fallback" in args:
-        ai_fallback_pass()
+        ai_fallback_pass(replace_cards="--replace-cards" in args)
     if not args:
         print("usage: hero_extra.py [--editorial] [--press-kit] [--data-card] [--openverse] [--ai-fallback]")

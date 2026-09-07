@@ -85,7 +85,7 @@ jobs:
           IMAGE_API_KEY: ${{ secrets.IMAGE_API_KEY }}
           IMAGE_API_URL: ${{ secrets.IMAGE_API_URL }}
           IMAGE_API_MODEL: ${{ secrets.IMAGE_API_MODEL }}
-        run: python3 hero_extra.py --ai-fallback || echo "ai-fallback pass skipped"
+        run: python3 hero_extra.py --ai-fallback --replace-cards || echo "ai-fallback pass skipped"
 
       - name: Hero — data card (last resort, and for any news-event edition)
         run: python3 hero_extra.py --data-card || echo "data-card pass skipped"
