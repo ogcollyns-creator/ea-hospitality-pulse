@@ -50,7 +50,15 @@ header.s .logo{width:32px;height:32px;border-radius:4px;background:var(--gold);c
 header.s b{letter-spacing:-.01em}
 header.s b{font-size:16px}
 .art{background:var(--card);margin:24px auto;border:1px solid var(--line);border-radius:14px;padding:26px 30px 34px;overflow:hidden}
-.art .hero{display:block;width:calc(100% + 60px);margin:-26px -30px 20px -30px;aspect-ratio:1200/630;object-fit:cover;background:var(--teal-d)}
+/* height:auto is load-bearing. The <img> carries width="1200" height="630" for
+   CLS, and that height attribute is a presentational hint that BEATS
+   aspect-ratio when CSS sets width but not height. The box rendered 718x630
+   instead of 718x377, so object-fit:cover cropped 241px off each side -- which
+   silently guillotined every typographic data card ("Evening Wrap" -> "g Wrap").
+   A photograph survives a centre-crop; a card carrying text does not. */
+.art .hero{display:block;width:calc(100% + 60px);height:auto;margin:-26px -30px 20px -30px;aspect-ratio:1200/630;object-fit:cover;background:var(--teal-d)}
+/* Cards and generated graphics are composed to the frame: show them whole. */
+.art .hero.graphic{object-fit:contain}
 .badge{font-family:Helvetica Neue,Arial,sans-serif;font-size:11px;font-weight:700;text-transform:uppercase;letter-spacing:1px;padding:4px 9px;border-radius:20px;background:var(--sand-2);color:var(--gold-d)}
 .art time{font-family:Helvetica Neue,Arial,sans-serif;font-size:13px;color:var(--muted);margin-left:8px}
 .art h1{font-size:clamp(25px,3.6vw,31px);line-height:1.22;margin:12px 0 18px;border-bottom:2px solid var(--gold);padding-bottom:14px;font-weight:700}
@@ -186,8 +194,8 @@ footer.s a:hover{color:var(--teal-d);border-bottom-color:var(--gold)}
 <header class="s"><div class="wrap"><a href="/"><span class="logo" aria-hidden="true">EA</span><b>EA Hospitality Pulse</b></a></div></header>
 <main class="wrap" id="content">
   <article class="art">
-    <img class="hero" src="../og/pulse-2026-08-28-midday-clean.png" width="1200" height="630" alt="Midday Pulse — Friday, 28 August 2026" loading="eager" fetchpriority="high" decoding="async">
-    <p class="hcredit">Photo: EA Hospitality Pulse · EA Hospitality Pulse · Own work</p>
+    <img class="hero graphic" src="../og/pulse-2026-08-28-midday-clean.png" width="1200" height="630" alt="Midday Pulse — Friday, 28 August 2026" loading="eager" fetchpriority="high" decoding="async">
+    <p class="hcredit">Graphic: EA Hospitality Pulse · EA Hospitality Pulse · Own work</p>
     <nav class="crumbs" aria-label="Breadcrumb"><a href="../index.html">Home</a><span aria-hidden="true">/</span><a href="../index.html#archive">Editions</a><span aria-hidden="true">/</span><span aria-current="page">Midday Pulse, Friday, 28 August 2026</span></nav>
     <div class="kicker"><span class="badge">Midday Pulse</span><time datetime="2026-08-28">Friday, 28 August 2026</time></div>
     <h1>Quiet news slot.</h1>

@@ -458,7 +458,15 @@ header.s .logo{width:32px;height:32px;border-radius:4px;background:var(--gold);c
 header.s b{letter-spacing:-.01em}
 header.s b{font-size:16px}
 .art{background:var(--card);margin:24px auto;border:1px solid var(--line);border-radius:14px;padding:26px 30px 34px;overflow:hidden}
-.art .hero{display:block;width:calc(100% + 60px);margin:-26px -30px 20px -30px;aspect-ratio:1200/630;object-fit:cover;background:var(--teal-d)}
+/* height:auto is load-bearing. The <img> carries width="1200" height="630" for
+   CLS, and that height attribute is a presentational hint that BEATS
+   aspect-ratio when CSS sets width but not height. The box rendered 718x630
+   instead of 718x377, so object-fit:cover cropped 241px off each side -- which
+   silently guillotined every typographic data card ("Evening Wrap" -> "g Wrap").
+   A photograph survives a centre-crop; a card carrying text does not. */
+.art .hero{display:block;width:calc(100% + 60px);height:auto;margin:-26px -30px 20px -30px;aspect-ratio:1200/630;object-fit:cover;background:var(--teal-d)}
+/* Cards and generated graphics are composed to the frame: show them whole. */
+.art .hero.graphic{object-fit:contain}
 .badge{font-family:Helvetica Neue,Arial,sans-serif;font-size:11px;font-weight:700;text-transform:uppercase;letter-spacing:1px;padding:4px 9px;border-radius:20px;background:var(--sand-2);color:var(--gold-d)}
 .art time{font-family:Helvetica Neue,Arial,sans-serif;font-size:13px;color:var(--muted);margin-left:8px}
 .art h1{font-size:clamp(25px,3.6vw,31px);line-height:1.22;margin:12px 0 18px;border-bottom:2px solid var(--gold);padding-bottom:14px;font-weight:700}
@@ -678,6 +686,9 @@ def edition_page(e, siblings=None, prev=None, nxt=None, hero=None, credit=None):
     url = f"{BASE}/editions/{e['id']}.html"
     img = f"{BASE}/og/{e['id']}.png"          # share card (OG/Twitter meta)
     hero_src = f"../og/{hero}" if hero else f"../og/{e['id']}.png"   # clean in-page photo
+    # Non-photographic heroes are composed to the frame and must not be cropped.
+    _hk = (credit or {}).get("source_kind") or ""
+    hero_cls = " graphic" if _hk in ("data-card", "illustration") else ""
     # Clean, word-boundary headline (<=110 chars — Google's NewsArticle limit).
     headline = lead.split(".")[0].strip() or lead
     if len(headline) > 110:
@@ -754,9 +765,12 @@ def edition_page(e, siblings=None, prev=None, nxt=None, hero=None, credit=None):
         _src = html.escape(credit.get("descurl") or "")
         _licurl = html.escape(credit.get("licenseurl") or "")
         _srcname = html.escape(credit.get("source") or "Wikimedia Commons")
-        # An AI hero says so plainly. "Image:" is not disclosure -- a reader
-        # scanning a photorealistic hero would read it as reportage.
-        _label = "AI-generated" if credit.get("source_kind") == "ai" else "Photo"
+        # Say what the reader is actually looking at. "Photo:" on a typographic
+        # data card is simply untrue, and an AI hero has to say so plainly --
+        # "Image:" is not disclosure when the result looks like reportage.
+        _kind = credit.get("source_kind") or ""
+        _label = {"ai": "AI-generated", "data-card": "Graphic",
+                  "illustration": "Illustration"}.get(_kind, "Photo")
         _lictag = (f'<a href="{_licurl}" target="_blank" rel="noopener nofollow">{_lic}</a>' if _licurl else _lic)
         _srctag = (f'<a href="{_src}" target="_blank" rel="noopener nofollow">{_srcname}</a>' if _src else _srcname)
         credit_html = (f'<p class="hcredit">{_label}: {_art} \u00b7 {_srctag} \u00b7 {_lictag}</p>')
@@ -812,7 +826,7 @@ def edition_page(e, siblings=None, prev=None, nxt=None, hero=None, credit=None):
 <header class="s"><div class="wrap"><a href="/"><span class="logo" aria-hidden="true">EA</span><b>EA Hospitality Pulse</b></a></div></header>
 <main class="wrap" id="content">
   <article class="art">
-    <img class="hero" src="{hero_src}" width="1200" height="630" alt="{html.escape(e['edition']+' — '+e['dateDisplay'])}" loading="eager" fetchpriority="high" decoding="async">
+    <img class="hero{hero_cls}" src="{hero_src}" width="1200" height="630" alt="{html.escape(e['edition']+' — '+e['dateDisplay'])}" loading="eager" fetchpriority="high" decoding="async">
     {credit_html}
     {crumb_html}
     <div class="kicker"><span class="badge">{html.escape(e['edition'])}</span><time datetime="{e['date']}">{html.escape(e['dateDisplay'])}</time></div>
