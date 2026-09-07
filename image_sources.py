@@ -130,7 +130,8 @@ def clean_artist(raw, limit=60):
 
 def courtesy_blocked(candidate):
     """True when the author asks to be contacted before commercial reuse."""
-    hay = " ".join(str(candidate.get(k) or "") for k in ("artist", "title")).lower()
+    hay = " ".join(str(candidate.get(k) or "")
+                   for k in ("artist_raw", "artist", "title")).lower()
     return any(f in hay for f in _COURTESY_FLAGS)
 
 def _get(url, timeout=45, headers=None):
@@ -153,8 +154,8 @@ def _strip_html(s):
 def _candidate(**kw):
     """Uniform shape every source returns."""
     c = {"title": "", "image_url": "", "page_url": "", "artist": "",
-         "licence": "", "licence_url": "", "source": "", "width": 0,
-         "height": 0, "verified": False, "verify_note": ""}
+         "artist_raw": "", "licence": "", "licence_url": "", "source": "",
+         "width": 0, "height": 0, "verified": False, "verify_note": ""}
     c.update(kw)
     return c
 
@@ -186,6 +187,9 @@ def search_wikimedia(query, n=8, width=1600):
             image_url=ii.get("thumburl") or ii.get("url", ""),
             page_url=ii.get("descriptionurl", ""),
             artist=clean_artist(em.get("Artist", {}).get("value", "")),
+            # raw text kept ONLY for the courtesy check below -- cleaning first
+            # strips the very notice we need to read
+            artist_raw=_strip_html(em.get("Artist", {}).get("value", "")),
             licence=lic,
             licence_url=em.get("LicenseUrl", {}).get("value", ""),
             source="Wikimedia Commons",
@@ -304,6 +308,7 @@ def _verify_via_commons(page_url):
     em = ii.get("extmetadata", {}) or {}
     return {
         "artist": clean_artist(em.get("Artist", {}).get("value", "")),
+        "artist_raw": _strip_html(em.get("Artist", {}).get("value", "")),
         "licence": _strip_html(em.get("LicenseShortName", {}).get("value", "")),
         "licence_url": em.get("LicenseUrl", {}).get("value", ""),
         "image_url": ii.get("thumburl") or ii.get("url", ""),
