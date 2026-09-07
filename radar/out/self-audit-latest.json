@@ -1,5 +1,5 @@
 {
- "generated": "2026-09-06T10:19+03:00",
+ "generated": "2026-09-07T10:33+03:00",
  "health": 0.567,
  "grade": "D",
  "fails": [
@@ -30,14 +30,14 @@
   {
    "name": "radar feed freshness",
    "status": "PASS",
-   "detail": "255 in-window obs; newest observation 3.9h old (2026-09-06T06:27:00+03:00).",
+   "detail": "199 in-window obs; newest observation 4.1h old (2026-09-07T06:25:00+03:00).",
    "fix": "",
    "score": 1.0
   },
   {
    "name": "edition cadence",
    "status": "FAIL",
-   "detail": "Missing slots (last 2 full days): 2026-09-05 midday, 2026-09-04 midday, 2026-09-04 evening",
+   "detail": "Missing slots (last 2 full days): 2026-09-06 morning, 2026-09-06 midday, 2026-09-05 midday",
    "fix": "Confirm the scheduled Pulse task fired for each slot.",
    "score": 0.0
   },
@@ -51,14 +51,14 @@
   {
    "name": "ledger hygiene",
    "status": "PASS",
-   "detail": "155 calls: 125 open, 29 resolved. Overdue-open: 0. Missing source_url: 37.",
+   "detail": "160 calls: 130 open, 29 resolved. Overdue-open: 0. Missing source_url: 39.",
    "fix": "",
    "score": 1.0
   },
   {
    "name": "data freshness",
    "status": "WARN",
-   "detail": "Stale/again-verify: costs.js 22d>10, calendar.js 39d>21",
+   "detail": "Stale/again-verify: costs.js 23d>10, calendar.js 40d>21",
    "fix": "Re-verify each dataset's values and bump its 'updated:' field, or note it in-edition.",
    "score": 0.5
   },
@@ -72,7 +72,7 @@
   {
    "name": "forecast throughput",
    "status": "PASS",
-   "detail": "18 new falsifiable calls logged in last 7d.",
+   "detail": "23 new falsifiable calls logged in last 7d.",
    "fix": "",
    "score": 1.0
   },
