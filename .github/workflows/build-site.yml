@@ -52,6 +52,13 @@ jobs:
           GATE_ARGS="--changed --fix --strict"
           if [ "${{ github.event_name }}" = "workflow_dispatch" ]; then
             GATE_ARGS="$GATE_ARGS --assets-only"
+          elif ! git diff --name-only HEAD~1 HEAD -- editions-src | grep -q .; then
+            # No editorial content in this push -- it is code, CSS or images. There
+            # is no new claim for the source sweep to protect, and blocking here
+            # freezes the whole site: runs #99-#104 all failed this way, so six
+            # commits' worth of fixes sat undeployed while the site served stale HTML.
+            echo "no editions-src changes in this push — asset-only gate"
+            GATE_ARGS="$GATE_ARGS --assets-only"
           fi
           echo "gate: $GATE_ARGS"
           python3 radar/prepublish_gate.py $GATE_ARGS
