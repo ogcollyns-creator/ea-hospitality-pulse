@@ -760,7 +760,18 @@ def edition_page(e, siblings=None, prev=None, nxt=None, hero=None, credit=None):
         ]}
     credit_html = ""
     if credit:
-        _art = html.escape(credit.get("artist") or "Unknown")
+        # Wikimedia artist fields are free text and are sometimes a paragraph of
+        # contact instructions. Credit the NAME; the full field stays in the JSON.
+        _artraw = re.sub(r"<[^>]+>", " ", str(credit.get("artist") or "")).strip()
+        _artraw = re.sub(r"\s+", " ", _artraw)
+        _m = re.search(r"photo(?:graph)? (?:was )?taken by\s+"
+                       r"((?:[A-Z]\.\s+|[A-Z][\w'\u2019-]+\s+){0,3}[A-Z][\w'\u2019-]+)",
+                       _artraw, re.I)
+        if _m:
+            _artraw = _m.group(1)
+        elif len(_artraw) > 60:
+            _artraw = re.split(r"(?<=[.;])\s", _artraw)[0][:60].rsplit(" ", 1)[0] + "\u2026"
+        _art = html.escape(_artraw or "Unknown")
         _lic = html.escape(credit.get("license") or "See source")
         _src = html.escape(credit.get("descurl") or "")
         _licurl = html.escape(credit.get("licenseurl") or "")

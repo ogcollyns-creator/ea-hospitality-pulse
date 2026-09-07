@@ -88,6 +88,51 @@ def licence_ok(lic: str) -> bool:
     return any(a in s for a in ALLOWED_LICENCES)
 
 
+# ---------------------------------------------------------------- attribution
+# Wikimedia's "Artist" field is free text. It is often a name, but it is just as
+# often a paragraph: contact requests, editing rules, email addresses. Rendering
+# it raw put a four-line note under a hero. We want the NAME for the credit.
+# "Timothy A. Gonsalves" must survive: a full stop after a single initial is part
+# of the name, not the end of the sentence.
+# A period is only part of the name when it follows a SINGLE letter (an initial).
+# Allowing it after any word swallowed the next sentence ("Gonsalves. Feel").
+_NAME = r"(?:[A-Z]\.\s+|[A-Z][\w'\u2019-]+\s+){0,3}[A-Z][\w'\u2019-]+"
+_ARTIST_PATTERNS = (
+    r"photo(?:graph)? (?:was )?taken by\s+(" + _NAME + r")",
+    r"^\s*(?:by\s+)?(" + _NAME + r")\s*(?:$|[.,;\n])",
+)
+# An author asking to be contacted before commercial use has not changed the
+# licence -- CC BY-SA 4.0 permits commercial reuse -- but this is a commercial
+# product and there is no shortage of alternatives. Prefer another photograph
+# rather than pick a fight nobody needs.
+_COURTESY_FLAGS = (
+    "contact me before commercial", "before commercial use",
+    "not for commercial", "no commercial", "permission required",
+    "please ask before", "commercial use requires",
+)
+
+
+def clean_artist(raw, limit=60):
+    """A displayable author name from a free-text Wikimedia artist field."""
+    t = _strip_html(raw or "").replace("\n", " ")
+    t = re.sub(r"\s+", " ", t).strip()
+    if not t:
+        return "Unknown"
+    for pat in _ARTIST_PATTERNS:
+        m = re.search(pat, t, re.I)
+        if m:
+            name = m.group(1).strip(" .,;")
+            if 2 <= len(name) <= limit:
+                return name
+    t = re.split(r"(?<=[.;])\s", t)[0].strip(" .,;")
+    return (t[:limit].rsplit(" ", 1)[0] + "…") if len(t) > limit else (t or "Unknown")
+
+
+def courtesy_blocked(candidate):
+    """True when the author asks to be contacted before commercial reuse."""
+    hay = " ".join(str(candidate.get(k) or "") for k in ("artist", "title")).lower()
+    return any(f in hay for f in _COURTESY_FLAGS)
+
 def _get(url, timeout=45, headers=None):
     h = {"User-Agent": UA}
     if headers:
@@ -140,7 +185,7 @@ def search_wikimedia(query, n=8, width=1600):
             title=page.get("title", "").replace("File:", ""),
             image_url=ii.get("thumburl") or ii.get("url", ""),
             page_url=ii.get("descriptionurl", ""),
-            artist=_strip_html(em.get("Artist", {}).get("value", "")) or "Unknown",
+            artist=clean_artist(em.get("Artist", {}).get("value", "")),
             licence=lic,
             licence_url=em.get("LicenseUrl", {}).get("value", ""),
             source="Wikimedia Commons",
@@ -258,7 +303,7 @@ def _verify_via_commons(page_url):
         return None
     em = ii.get("extmetadata", {}) or {}
     return {
-        "artist": _strip_html(em.get("Artist", {}).get("value", "")) or "Unknown",
+        "artist": clean_artist(em.get("Artist", {}).get("value", "")),
         "licence": _strip_html(em.get("LicenseShortName", {}).get("value", "")),
         "licence_url": em.get("LicenseUrl", {}).get("value", ""),
         "image_url": ii.get("thumburl") or ii.get("url", ""),
@@ -317,6 +362,12 @@ def verify(candidates, pause=0.34):
     """
     good, bad = [], []
     for c in candidates:
+        if courtesy_blocked(c):
+            c["verified"] = False
+            c["verify_note"] = ("SKIPPED — author requests contact before commercial "
+                                "use; licence allows it but we prefer another image")
+            bad.append(c)
+            continue
         if c.get("verified") and licence_ok(c.get("licence", "")):
             good.append(c)
             continue
