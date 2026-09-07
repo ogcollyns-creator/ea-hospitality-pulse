@@ -366,7 +366,7 @@ def ai_fallback_pass(replace_cards=False):
     made = skipped = 0
     for e in sorted(editions, key=lambda e: e.get("id","")):
         eid = e["id"]
-        if _has_hero(eid, credits):
+        if _has_hero(eid, credits, replace_cards):
             continue
         text = _edition_text(e)
         scene = _scene_for(text)
