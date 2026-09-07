@@ -154,6 +154,82 @@ _SCENES = [
 ]
 _DEFAULT_SCENE = "warm East African landscape at golden hour, layered hills and open sky"
 
+# ---------------------------------------------------------------- AI guardrails
+# House style is PHOTOREALISTIC (owner decision, 7 Sep 2026), disclosed in the
+# credit line under every hero. That raises the stakes on subject matter rather
+# than lowering them: a synthetic photograph of generic savannah is decoration,
+# but a synthetic photograph of a real incident is fabricated evidence.
+#
+# So these editions never get a generated hero. They fall through to the data
+# card, which cannot misrepresent anything. The test is not "is the topic
+# sensitive" but "would a photorealistic image imply we have footage of a real
+# event we do not have footage of".
+_NO_AI_SUBJECTS = (
+    # incidents and casualties
+    "crash", "accident", "collision", "wreck", "fatal", "death", "died", "killed",
+    "injur", "casualt", "funeral", "mourn",
+    # unrest and security
+    "strike", "protest", "riot", "unrest", "clash", "attack", "terror", "abduct",
+    "kidnap", "shooting", "gunmen", "militant", "police", "arrest", "raid",
+    # health emergencies
+    "ebola", "outbreak", "epidemic", "cholera", "dengue", "mpox", "quarantine",
+    "patient", "ward", "morgue", "infect",
+    # legal and political process
+    "court", "hearing", "petition", "ruling", "judge", "tribunal", "lawsuit",
+    "parliament", "impeach", "election", "ballot",
+    # named-entity depiction risks
+    "president", "minister", "ceo resign",
+)
+
+
+# Scanning the whole edition blocks almost everything: a market brief mentions
+# "police" or "court" in a passing context line most days, and one incidental hit
+# should not veto the hero. The hero stands for the LEAD story, so the lead is what
+# gets judged -- plus a dominance check, so an edition genuinely about an outbreak
+# is still caught when its headline is oblique.
+_BODY_DOMINANCE = 4
+
+
+def _ai_lead_text(md):
+    """Headline area of an edition: first numbered item plus the opening lines."""
+    parts = []
+    m = re.search(r"^1\ufe0f\u20e3\s*(.+)$", md or "", re.M)
+    if m:
+        parts.append(m.group(1))
+    parts.append(re.split(r"\n\u2501{3,}", md or "", 1)[0][:600])
+    return " ".join(parts).lower()
+
+
+def ai_subject_blocked(text, lead=None):
+    """Terms that veto a photorealistic hero, or [] when generation is safe.
+
+    Blocks when the subject is in the LEAD, or when it dominates the body.
+    """
+    t = (text or "").lower()
+    lead = _ai_lead_text(text) if lead is None else (lead or "").lower()
+    lead_hits = {w for w in _NO_AI_SUBJECTS if w in lead}
+    body_hits = {w for w in _NO_AI_SUBJECTS if w in t}
+    if lead_hits:
+        return sorted(lead_hits)
+    if len(body_hits) >= _BODY_DOMINANCE:
+        return sorted(body_hits)
+    return []
+
+
+def build_ai_prompt(scene):
+    """Photorealistic house style, with the depiction limits baked in."""
+    return (
+        "A photorealistic editorial photograph for a hospitality market-intelligence "
+        f"brief. Scene: {scene}. "
+        "Natural light, documentary travel-photography style, shallow depth of field, "
+        "wide 3:2 composition, high detail. "
+        "STRICT: no people's faces and no identifiable individuals; no real company "
+        "logos, airline liveries, brand marks or signage; no text, captions, "
+        "watermarks or numbers anywhere in the image; no depiction of any specific "
+        "real-world news event, incident, protest, crash or medical setting; no "
+        "documents, screens or charts. Generic location, not a named landmark."
+    )
+
 def _scene_for(text):
     for keys, scene in _SCENES:
         if any(k in text for k in keys):
@@ -260,7 +336,7 @@ def ai_fallback_pass():
         print("  ai: Pillow missing — skipping"); return
     editions = _load_editions()
     credits  = _load_credits()
-    made = 0
+    made = skipped = 0
     for e in sorted(editions, key=lambda e: e.get("id","")):
         eid = e["id"]
         if _has_hero(eid, credits):
@@ -268,10 +344,13 @@ def ai_fallback_pass():
         text = _edition_text(e)
         scene = _scene_for(text)
         headline = _headline(e)
-        prompt = (f"Editorial illustration for a hospitality brief. Scene: {scene}. "
-                  f"Warm, painterly, calm, no text, no logos, no watermarks, "
-                  f"no real people, wide 3:2 aspect.")
-        blob = _api_image(prompt)
+        hits = ai_subject_blocked(text)
+        if hits:
+            # leave it for the data-card pass, which cannot misrepresent anything
+            print(f"  ai: skip {eid} — news-event subject ({', '.join(hits[:4])})")
+            skipped += 1
+            continue
+        blob = _api_image(build_ai_prompt(scene))
         try:
             if blob:
                 from PIL import Image
@@ -281,7 +360,7 @@ def ai_fallback_pass():
                     im = im.resize((WIDTH, round(im.height*WIDTH/im.width)), Image.LANCZOS)
                 os.makedirs(EDIMG, exist_ok=True)
                 im.save(os.path.join(EDIMG, eid + ".jpg"), "JPEG", quality=88, optimize=True)
-                kind_src = "AI-generated (text-to-image)"
+                kind_src = "AI-generated image"
             else:
                 _illustration(eid, headline, scene)
                 kind_src = "AI-assisted illustration"
@@ -289,7 +368,7 @@ def ai_fallback_pass():
             print(f"  ai: failed for {eid}: {ex}"); continue
         credits[eid] = {
             "id": eid,
-            "title": "AI-assisted illustration",
+            "title": "AI-generated image (illustrative)",
             "artist": "EA Hospitality Pulse",
             "source": kind_src,
             "license": "Original artwork — no third-party rights",

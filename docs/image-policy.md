@@ -20,8 +20,10 @@ instead of it. (This is operational guidance, not legal advice.)
 3. **Tourism-board / brand press kits** — official destination and hotel-group media
    libraries. Great relevance, but **read each kit's terms**: many licence images only
    for editorial use or only to promote that destination. Log the grant.
-4. **AI-generated** — a bespoke image with no third-party rights. Label as illustrative;
-   never imply it is a photograph of a real, named place or event where that would mislead.
+4. **AI-generated** — a bespoke image with no third-party rights. House style is
+   **photorealistic** (owner decision, 7 Sep 2026), disclosed on every hero as
+   `AI-generated: EA Hospitality Pulse`. See "AI heroes" below for the limits that
+   make photorealism safe to publish.
 
 ## Never use
 
@@ -75,6 +77,47 @@ build never depends on it. The free tier is 100 queries/day.
 
 Credits land in `img/credits.json` in the existing schema, so `credits.html` and
 the hero captions render them with no further change.
+
+## AI heroes — photorealistic, disclosed, and fenced
+
+Photorealism raises the stakes on subject matter rather than lowering them. A
+generated photograph of generic savannah is decoration. A generated photograph of
+a real incident is fabricated evidence, and on a brief whose whole claim is that
+every number traces to a source, that would cost more than a plain hero ever saves.
+
+So the fence, enforced in `hero_extra.py`:
+
+**Never generated.** Editions whose LEAD is a real news event — crashes,
+strikes, protests, attacks, arrests, outbreaks, deaths, court and parliamentary
+proceedings, elections — get a data card instead. The rule is not "is the topic
+sensitive" but "would a photorealistic image imply we hold footage of a real event
+we do not hold". The check reads the lead headline, plus a dominance test so an
+edition genuinely about an outbreak is still caught when its headline is oblique.
+Roughly 51 of 91 editions in the current archive fall on this side.
+
+**Never depicted, in any image.** Identifiable individuals or faces; real company
+logos, airline liveries, brand marks or signage; named landmarks; any text,
+numbers or watermarks inside the frame; documents, screens or charts. These are
+written into the prompt, not left to the model's discretion.
+
+**Always disclosed.** The credit under the hero reads `AI-generated` rather than
+`Photo`, and the licence line records it as original artwork with no third-party
+rights. A reader scanning the page can tell what they are looking at without
+opening `credits.html`.
+
+**Where it sits in the chain.** Press-kit image → licence-verified photograph →
+AI image → data card. A real photograph of a real place always wins; the AI pass
+exists to replace typographic cards on editions that have no photographable
+subject, not to replace photography.
+
+### Credentials
+
+    IMAGE_API_KEY     required to attempt generation
+    IMAGE_API_URL     defaults to the OpenAI images endpoint
+    IMAGE_API_MODEL   defaults to gpt-image-1
+
+Set as GitHub Actions secrets. With no key the pass falls back to a drawn
+illustration, and failing that the data card, so the build never breaks.
 
 ## Attribution format (TASL)
 

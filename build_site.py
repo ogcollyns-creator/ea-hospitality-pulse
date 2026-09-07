@@ -754,7 +754,9 @@ def edition_page(e, siblings=None, prev=None, nxt=None, hero=None, credit=None):
         _src = html.escape(credit.get("descurl") or "")
         _licurl = html.escape(credit.get("licenseurl") or "")
         _srcname = html.escape(credit.get("source") or "Wikimedia Commons")
-        _label = "Image" if credit.get("source_kind") == "ai" else "Photo"
+        # An AI hero says so plainly. "Image:" is not disclosure -- a reader
+        # scanning a photorealistic hero would read it as reportage.
+        _label = "AI-generated" if credit.get("source_kind") == "ai" else "Photo"
         _lictag = (f'<a href="{_licurl}" target="_blank" rel="noopener nofollow">{_lic}</a>' if _licurl else _lic)
         _srctag = (f'<a href="{_src}" target="_blank" rel="noopener nofollow">{_srcname}</a>' if _src else _srcname)
         credit_html = (f'<p class="hcredit">{_label}: {_art} \u00b7 {_srctag} \u00b7 {_lictag}</p>')
