@@ -328,7 +328,9 @@ def intro_headline(md):
             probe = re.sub(r"^[^0-9A-Za-z]+", "", cand)
             if _DATELINE.match(probe) or _DATELINE2.match(probe):
                 continue  # a bold date line is masthead furniture, not the headline
-            return strip_process_talk(cand)[:220]
+            if _SLOT_FRAMING.match(cand) or _CORRECTION_LINE.match(cand):
+                continue  # framing / correction furniture, not the headline
+            return strip_edition_label(strip_process_talk(cand))[:220]
     return None
 
 # A line that is essentially just a date (optionally with a short kicker after
@@ -355,7 +357,33 @@ _PROCESS_TALK = re.compile(
     re.I)
 _PROCESS_HINT = re.compile(
     r"recency gate|standing brief|cleared the wire|clears the bar|cleared the gate|"
-    r"no fresh story|nothing new clear|no new (?:story|development)", re.I)
+    r"no fresh story|nothing new clear|no new (?:story|development)|"
+    r"quiet (?:news )?(?:slot|day|session)|slow news (?:slot|day)|"
+    r"one expert brief|then the board", re.I)
+
+# ---------------------------------------------------------------- slot framing
+# "Quiet news slot. So here is a number in the Bank of Tanzania's survey that
+# nobody has read properly." -- that was the HEADLINE on the 28 Aug midday brief,
+# on the site, in the OG card and in the feeds. It tells a reader how busy our
+# news day was before it tells them anything about their business, and the actual
+# story ("The mainland just overtook Zanzibar on yield") sat three lines below.
+#
+# The existing strip_process_talk() handles "nothing cleared the recency gate",
+# but a quiet-slot opener is not a sentence to salvage a fragment from -- the
+# whole line is framing. So summarise() SKIPS these outright and keeps looking
+# for the lead item, rather than publishing the remainder after the full stop.
+_SLOT_FRAMING = re.compile(
+    r"^\W*(?:\*|_)*\s*(?:tier\s*\d\s*[\u2014-]?\s*)?"
+    r"(?:quiet|slow|thin|light)\s+(?:news\s+)?"
+    r"(?:slot|day|session|wire|morning|midday|afternoon|evening)\b"
+    r"|^\W*(?:\*|_)*\s*no\s+(?:hard\s+)?news\b"
+    r"|^\W*(?:\*|_)*\s*one\s+expert\s+brief\b", re.I)
+
+# A correction notice is editorially essential but it is not the lead. It stays
+# in the body; it must not become the title, standfirst or social card.
+_CORRECTION_LINE = re.compile(
+    r"^\W*(?:\*|_)*\s*(?:\u26a0\ufe0f?\s*)?"
+    r"(?:correction|clarification|update|erratum)\b[\s:(\u2014-]", re.I)
 # The same "we had no news today" opener, in every phrasing it has appeared in.
 _PROCESS_TALK2 = re.compile(
     r"(?:\*\*)?(?:Tier\s*\d[^.·]*?Brief[^.·]*?[.·]\s*)?(?:\*\*)?"
@@ -364,6 +392,33 @@ _PROCESS_TALK2 = re.compile(
     r"(?:morning|midday|last\s+night|the\s+\w+))[^.;—]*?"
     r"(?:\s*[—-]\s*so\s+|,\s*so\s+|[.;]\s*(?:So\s+)?)",
     re.I)
+# ------------------------------------------------------------- edition labels
+# "Expert Brief:", "The Expert Brief \u2014", "Tonight, an expert brief:" are
+# internal edition-TYPE labels, not the story. Leading with one costs the reader
+# the first few words before they learn anything about their business, and it
+# reads as filing furniture in a search result or a shared card. Same principle
+# as the quiet-slot fix: the headline should be the main story.
+_EDITION_LABEL = re.compile(
+    r"^[\W\d]*"                       # bold marks, item keycap, section emoji
+    r"(?:(?:tonight|today|this\s+(?:morning|midday|evening))\s*,?\s*)?"
+    r"(?:the\s+|an?\s+)?"
+    r"(?:tier\s*\d\s*[\u2014\u2013-]?\s*)?"
+    r"expert\s+brief"
+    r"\s*(?:[:.\u2014\u2013-]|\s)\s*",
+    re.I)
+
+def strip_edition_label(text):
+    """Drop a leading edition-type label so the headline opens on the story."""
+    if not text:
+        return text
+    out = _EDITION_LABEL.sub("", text, count=1)
+    if out == text:
+        return text
+    out = re.sub(r"^[\s:;,\u2014\u2013-]+", "", out).strip()
+    if out and out[:1].islower():
+        out = out[:1].upper() + out[1:]
+    return out or text
+
 _STRIPPED_LOG = []
 
 def strip_process_talk(text):
@@ -397,11 +452,14 @@ def summarise(text):
         if "hospitality pulse" in low: continue
         probe = re.sub(r"^[^0-9A-Za-z]+", "", md_strip(l))   # drop leading emoji/flags
         if _DATELINE.match(probe) or _DATELINE2.match(probe): continue
+        # framing and corrections are never the headline -- keep looking
+        if _SLOT_FRAMING.match(l) or _SLOT_FRAMING.match(probe): continue
+        if _CORRECTION_LINE.match(l) or _CORRECTION_LINE.match(probe): continue
         if len(l) > 40:
             cand = strip_process_talk(md_strip(re.sub(r"\s+"," ",l)))
             # a line that was nothing but process talk is not a summary -- keep looking
             if len(cand) > 40:
-                return cand[:200]
+                return strip_edition_label(cand)[:200]
             continue
     return "East Africa hospitality intelligence."
 
