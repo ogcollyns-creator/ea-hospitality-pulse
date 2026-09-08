@@ -139,3 +139,51 @@ If the gate blocks, fix the edition or complete the sweep. Do not push and hope.
   order given, with `gap_seconds` between them
 
 Post backlogs oldest-first so the channel reads chronologically.
+
+---
+
+## Unreachable is an escalation, not an outcome (8 Sep 2026)
+
+`blocked` used to be a free pass. One word, no evidence, and the source left the
+day's coverage silently.
+
+On 8 Sep 2026 the entire sweep was skipped on exactly that reasoning — "the
+sandbox cannot reach travel.state.gov" — and the failure chained: the gate
+blocked `build-site`, the job died before the image steps, and the evening
+edition shipped to Telegram pointing at an `og:` image that did not exist. The
+website served a broken card until a human noticed.
+
+The premise was wrong. These sources are on the agent search path **because**
+the crawler is blocked on them. A 403 to `urllib` says nothing about whether a
+search engine, a mirror, or the source's own PDF is reachable. When the rule was
+enforced the next hour, the France/Kenya advisory — written off as `blocked`
+that morning — came back on the second query, and turned out to carry a *broader*
+exclusion zone than the UK or US (100km inland from the Somalia border, plus all
+of mainland Lamu).
+
+### The ladder
+
+| Outcome | Meaning | Evidence required |
+|---|---|---|
+| `found` | Source reached, something published | `--note`, `--url` |
+| `none` | Source reached, nothing new. A legitimate result | `--note` |
+| `recovered` | Primary unreachable, **scan found the substance elsewhere** | `--url` (substitute) + `≥2 --queries` + `--scan-note` |
+| `blocked` | Unreachable **and** the scan failed too | `≥2 --queries` + `--scan-note` |
+
+`recovered` is the outcome the mandatory scan exists to produce. Reach for it
+before `blocked`.
+
+### Enforcement — three places, so it cannot be skipped quietly
+
+1. **At log time.** `sweep_due.py` refuses (`exit 2`) any `blocked` or
+   `recovered` without the evidence. It never enters state.
+2. **Before drafting.** `sweep_due.py --assert-complete --slot <slot>` exits 1
+   if any tier-A source is unchecked today, or logged unreachable without a
+   documented scan. The authoring task runs this and must not draft until it
+   passes.
+3. **Before publishing.** `prepublish_gate.py` now treats an undocumented
+   unreachable source as a **blocker**. Documented-and-still-blocked stays a
+   warning, and the edition must declare it as a blind spot.
+
+Records written before 8 Sep 2026 carry no `queries` key and are read as
+undocumented. That is the honest reading: we do not know whether a scan happened.

@@ -12,10 +12,15 @@
   "last_url": "https://www.auswaertiges-amt.de/de/service/laender/kenia-node/keniasicherheit-208058"
  },
  "adv-fr-kenya": {
-  "last_note": "Not reached on this run \u2014 search path did not surface the France Diplomatie Kenya page. Carry to next slot.",
-  "last_outcome": "blocked",
+  "last_note": "RECOVERED BY THE MANDATORY SCAN \u2014 I logged this 'blocked' earlier today and it was reachable all along. France is BROADER than the UK/US: formellement deconseille covers the Kenya-Somalia border zone up to 100km inland (Mandera| Buite| El Wak| Dif| Liboi| Dadaab| Garissa and the Garissa-Dadaab road) AND the whole MAINLAND part of Lamu county. Also strong warnings on night driving outside towns| matatus and boda-bodas.",
+  "last_outcome": "found",
   "last_swept_date": "2026-09-08",
-  "last_url": ""
+  "last_url": "https://www.diplomatie.gouv.fr/fr/information-par-pays/kenya/conseils-aux-voyageurs-securite",
+  "queries": [
+   "France Diplomatie conseils aux voyageurs Kenya securite 2026",
+   "Kenya conseils aux voyageurs dernieres minutes et alertes"
+  ],
+  "scan_note": "Reached on the second query. Security page last updated 10/03/2026."
  },
  "adv-uk-kenya": {
   "last_note": "Page updated 4 Sep 2026| still current 7 Sep. Advice-against unchanged (Mandera| Wajir E/Tarbaj| 60km Somalia border| Garissa| Lamu excl Lamu & Manda islands). Latest change REMOVED the industrial-action note from Warnings and insurance.",
@@ -102,10 +107,16 @@
   "last_url": ""
  },
  "tz-bot": {
-  "last_note": "Bank of Tanzania monthly economic review was diarised due 8 Sep 2026 but not reached on this run. Carry to the next slot.",
+  "last_note": "Diarised release did not appear. Carry to next slot; do not quote a September figure.",
   "last_outcome": "blocked",
   "last_swept_date": "2026-09-08",
-  "last_url": ""
+  "last_url": "",
+  "queries": [
+   "Bank of Tanzania monthly economic review September 2026 tourism earnings",
+   "BoT Tanzania travel receipts monthly economic review latest",
+   "Tanzania monthly economic review 2026 tourist arrivals current account"
+  ],
+  "scan_note": "Three queries. The September 2026 MER has not surfaced anywhere| including the TanzaniaInvest mirror that normally carries BoT MERs within days. Most recent BoT data reachable: travel receipts USD 4|405.5m for the year ending June 2026 (+14.4% service receipts)| arrivals 2|291|479 (+4.5%). Treat the September release as genuinely not yet out rather than missed."
  },
  "tz-nbs": {
   "last_note": "Sunday Foresight sweep 31 Aug: no August 2026 print published yet",

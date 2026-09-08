@@ -151,10 +151,42 @@ def sweep_coverage():
     if missed:
         show = ", ".join(missed[:6]) + (" …" if len(missed) > 6 else "")
         blockers.append(f"Primary Source Sweep incomplete — {len(missed)}/{len(tier_a)} tier-A sources unchecked today ({show}). Run: python3 sweep/sweep_due.py --slot <slot>")
-    blocked_today = [i for i, v in state.items()
-                     if v.get("last_swept_date") == today and v.get("last_outcome") == "blocked"]
-    if blocked_today:
-        warns.append(f"{len(blocked_today)} source(s) unreachable today — declare as a blind spot in the edition: {', '.join(blocked_today[:5])}")
+
+    # "Unreachable" must be earned, not asserted.
+    #
+    # Until 8 Sep 2026 a source logged "blocked" produced a warning and shipped.
+    # That made unreachability the cheapest possible outcome: one word, no
+    # evidence, and the source left the day's coverage silently. These sources
+    # are on the agent search path BECAUSE the crawler is blocked on them, so a
+    # 403 to urllib is not evidence that the story could not be found. A blocked
+    # source now has to carry the mandatory web scan that failed to find it.
+    MIN_Q = 2
+    undocumented, documented = [], []
+    for i, v in state.items():
+        if v.get("last_swept_date") != today:
+            continue
+        if v.get("last_outcome") not in ("blocked", "recovered"):
+            continue
+        ok = len(v.get("queries") or []) >= MIN_Q and bool((v.get("scan_note") or "").strip())
+        (documented if ok else undocumented).append(i)
+
+    if undocumented:
+        blockers.append(
+            f"{len(undocumented)} source(s) logged unreachable WITHOUT a documented web scan: "
+            f"{', '.join(sorted(undocumented)[:6])}. Unreachable is an escalation, not an outcome — "
+            f"run the scan, then re-log with --queries and --scan-note "
+            f"(or --outcome recovered --url <substitute> if the scan found it elsewhere).")
+
+    blind = sorted(i for i in documented
+                   if state[i].get("last_outcome") == "blocked")
+    if blind:
+        warns.append(f"{len(blind)} source(s) unreachable today AFTER a documented scan — "
+                     f"declare as a blind spot in the edition: {', '.join(blind[:5])}")
+    recovered = sorted(i for i in documented
+                       if state[i].get("last_outcome") == "recovered")
+    if recovered:
+        warns.append(f"{len(recovered)} source(s) recovered via substitute source — "
+                     f"cite the substitute, not the primary: {', '.join(recovered[:5])}")
     return blockers, warns
 
 
