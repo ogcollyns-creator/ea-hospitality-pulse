@@ -66,6 +66,24 @@ POOL = [
         "pearl of africa","source of the nile","lake albert"]),
     ("uhuru-kilimanjaro.jpg", ["TZ"], ["kilimanjaro","uhuru","summit push","trekking","mountaineering",
         "machame","marangu","kili","climbers","altitude"]),
+    # Subject frames. "*" means the subject is not tied to a market, so the
+    # geography veto does not apply -- a laboratory or a fuel pump illustrates
+    # the story wherever it happened. Populated by fetch_pool_images.py; absent
+    # files are filtered out by available_pool(), so this degrades quietly.
+    ("pool-health-1.jpg", ["*"], ["ebola","outbreak","epidemic","pheic","cholera","marburg",
+        "mpox","treatment centre","health worker","quarantine","bundibugyo","case fatality"]),
+    ("pool-energy-1.jpg", ["*"], ["epra","fuel price","diesel","petrol","kerosene","kwh",
+        "electricity","generator","load shedding","pump price","tariff"]),
+    ("pool-currency-1.jpg", ["*"], ["shilling","inflation","cpi","central bank","forex",
+        "exchange rate","reserves","interest rate","mpc","levy","vat"]),
+    ("pool-logistics-1.jpg", ["*"], ["port","harbour","container","freight","customs",
+        "supply chain","shipping","border post"]),
+    ("pool-build-1.jpg", ["*"], ["construction","groundbreaking","refurbishment",
+        "new hotel","rooms opening","inaugurated","pipeline"]),
+    ("pool-labour-1.jpg", ["*"], ["strike","union","staffing","wages","recruitment",
+        "workforce","hospitality college","chefs","skills"]),
+    ("pool-policy-1.jpg", ["*"], ["gazette","regulation","licence","permit fee",
+        "parliament","directive","circular","visa","eta","immigration"]),
 ]
 DEFAULT_PHOTO = "hero-serengeti.jpg"   # pan-regional; claims no specific market
 
@@ -166,7 +184,7 @@ def choose_photo(eid, text, lead=""):
 
     scored = []
     for fn, markets, kws in pool:
-        if focus and not (set(markets) & focus):
+        if "*" not in markets and focus and not (set(markets) & focus):
             continue                                   # geography veto
         if sensitive and fn in WILDLIFE_FRAMES:
             continue                                   # tone veto

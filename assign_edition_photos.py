@@ -64,6 +64,58 @@ MIN_TOPIC_SCORE = 5                # weighted hits required before we trust a to
 # Topic -> (keywords proving the subject is really in the edition, search queries).
 # Queries are concrete: broad ones return out-of-region stock and waste quota.
 TOPICS = [
+    # ---------------------------------------------------------------- SUBJECTS
+    # Added 8 Sep 2026. Until now every topic in this list was scenery -- safari,
+    # beach, gorilla, skyline. So when the lead was an Ebola outbreak, a fuel
+    # review or a currency move, the BEST this pipeline could do was a pretty
+    # photograph of the right country. That is why those editions kept falling
+    # through to a card or, worse, to a district boundary map.
+    #
+    # Subject frames are deliberately listed FIRST: on a story about a thing,
+    # a picture of the thing beats a picture of the place it happened.
+    #
+    # Health queries target RESPONSE INFRASTRUCTURE -- treatment centres, PPE,
+    # laboratories, health workers -- never patients. An outbreak hero must not
+    # put a sick person's face on a hospitality brief.
+    ("health",    ["ebola", "outbreak", "epidemic", "pheic", "who afro", "africa cdc",
+                   "cholera", "marburg", "mpox", "quarantine", "case fatality",
+                   "treatment centre", "treatment center", "health worker", "vaccine",
+                   "bundibugyo", "surveillance", "ministry of health", "beds"],
+                  ["Ebola treatment centre health workers",
+                   "health worker personal protective equipment outbreak response",
+                   "mobile laboratory outbreak response Africa",
+                   "WHO emergency medical supplies airlift",
+                   "airport thermal screening health check"]),
+    ("energy",    ["epra", "fuel price", "diesel", "petrol", "kerosene", "tariff",
+                   "kilowatt", "kwh", "generator", "electricity", "power cut",
+                   "load shedding", "solar", "grid", "pump price"],
+                  ["fuel tanker filling station Africa", "electricity transmission pylons Africa",
+                   "solar panels hotel roof", "diesel generator installation"]),
+    ("currency",  ["shilling", "inflation", "cpi", "central bank", "forex", "exchange rate",
+                   "reserves", "interest rate", "mpc", "devaluation", "cost base",
+                   "levy", "vat", "tax", "duty", "bond"],
+                  ["East African banknotes currency", "central bank building Africa",
+                   "foreign exchange bureau counter", "calculator financial documents desk"]),
+    ("logistics", ["port", "harbour", "cargo", "container", "freight", "customs",
+                   "supply chain", "shipping", "imports", "border post"],
+                  ["Mombasa port container terminal", "Dar es Salaam harbour cargo",
+                   "container ship loading crane Africa"]),
+    ("build",     ["construction", "pipeline", "keys", "groundbreaking", "refurbishment",
+                   "development", "opened", "inaugurated", "new hotel", "rooms opening",
+                   "investment", "signed", "brand launch"],
+                  ["hotel construction site crane Africa", "new hotel building exterior Africa",
+                   "resort under construction tropical"]),
+    ("labour",    ["strike", "union", "staffing", "wages", "recruitment", "training",
+                   "workforce", "graduates", "hospitality college", "chefs", "skills"],
+                  ["hotel staff training hospitality school",
+                   "hotel housekeeping staff at work", "chefs working hotel kitchen"]),
+    ("policy",    ["gazette", "regulation", "licence", "permit fee", "advisory",
+                   "parliament", "ministry", "directive", "circular", "compliance",
+                   "visa", "eta", "immigration"],
+                  ["government building parliament East Africa",
+                   "passport immigration border control desk",
+                   "official government gazette document"]),
+    # ---------------------------------------------------------------- SCENERY
     ("gorilla",   ["gorilla", "bwindi", "volcanoes national park", "virunga",
                    "primate", "chimpanzee", "nyungwe", "permit"],
                   ["Bwindi Impenetrable Forest gorilla", "mountain gorilla Uganda",
@@ -176,7 +228,11 @@ def _edition_text(eid):
         return ""
 
 
-_LEAD_ITEM = re.compile(r"^1\ufe0f\u20e3\s*(.+)$", re.M)
+# The item marker is normally written **1\ufe0f\u20e3 HEADLINE**. The anchored
+# pattern could not see past the bold marks, so lead_text() fell back to the
+# masthead for most editions -- and detect_topic() rejects any topic with no
+# LEAD presence. That silently suppressed the hero on a large share of runs.
+_LEAD_ITEM = re.compile(r"^\**\s*1\ufe0f?\u20e3\s*(.+?)\s*\**$", re.M)
 
 
 def lead_text(md):

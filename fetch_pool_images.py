@@ -51,6 +51,24 @@ POOL_TOPICS = {
     "aviation":  ["Kenya Airways aircraft", "Jomo Kenyatta International Airport"],
     "amboseli":  ["Amboseli elephants Kilimanjaro", "Mount Kilimanjaro landscape"],
     "lodge":     ["safari tented camp Tanzania", "safari lodge Kenya interior"],
+    # Subject topics (added 8 Sep 2026). The pool was pure scenery, so a health,
+    # cost or policy lead had nothing to fall back to but a landscape.
+    # Health queries cover response infrastructure only -- never patients.
+    "health":    ["Ebola treatment centre health workers",
+                  "health worker personal protective equipment outbreak",
+                  "mobile laboratory outbreak response Africa",
+                  "WHO emergency medical supplies airlift"],
+    "energy":    ["fuel tanker filling station Africa",
+                  "electricity transmission pylons Africa", "solar panels hotel roof"],
+    "currency":  ["East African banknotes currency", "central bank building Africa",
+                  "foreign exchange bureau counter"],
+    "logistics": ["Mombasa port container terminal", "Dar es Salaam harbour cargo"],
+    "build":     ["hotel construction site crane Africa",
+                  "new hotel building exterior Africa"],
+    "labour":    ["hotel staff training hospitality school",
+                  "chefs working hotel kitchen"],
+    "policy":    ["passport immigration border control desk",
+                  "government building parliament East Africa"],
 }
 
 

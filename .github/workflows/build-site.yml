@@ -84,11 +84,22 @@ jobs:
       # card with a Kampala street scene minutes after it was published.
       # A card carrying "USD 289 v USD 274" is content and can never be
       # off-topic. Scenery that merely shares a country with the story is not.
+      - name: Widen the fallback image pool (subject frames, licence-verified)
+        env:
+          GOOGLE_CSE_KEY: ${{ secrets.GOOGLE_CSE_KEY }}
+          GOOGLE_CSE_CX: ${{ secrets.GOOGLE_CSE_CX }}
+        run: python3 fetch_pool_images.py health energy currency logistics build labour policy || echo "pool widen skipped"
+
       - name: Hero — real photography ONLY where the edition has a visual subject
         env:
           GOOGLE_CSE_KEY: ${{ secrets.GOOGLE_CSE_KEY }}
           GOOGLE_CSE_CX: ${{ secrets.GOOGLE_CSE_CX }}
-        run: python3 assign_edition_photos.py --limit 30 || echo "photo pass skipped"
+        # --replace-cards is safe again HERE and only here. It is scoped to the
+        # one pass that requires a topic to be evidenced in the LEAD and to clear
+        # MIN_TOPIC_SCORE. The overwrite that put a Kampala street scene over the
+        # 8 Sep Ebola card came from the destination fallback, which is now gone.
+        # A genuinely-earned subject photo SHOULD beat a card; scenery should not.
+        run: python3 assign_edition_photos.py --replace-cards --limit 30 || echo "photo pass skipped"
 
       - name: Hero — data card for every edition a photograph did not earn
         run: python3 hero_extra.py --data-card || echo "data-card pass skipped"
