@@ -18,7 +18,7 @@ Behind it: Rwandan headline inflation **14.5%** in July — transport +24.2%, ho
 • **KIGALI / MICE:** audit every rate fixed beyond March 2027. Bidding for 2028? Price off BNR's forecast path. Energy-escalation clause in anything signed this quarter.
 • **BUSH (Volcanoes, Nyungwe, Akagera):** exposure is transport +24.2% and energy +21%, not the permit — that's a dollar pass-through. Set 2027 brochure rates against those lines.
 • **BEACH / REGIONAL (Zanzibar, Diani):** a real advantage, and temporary. On 2027 multi-country programmes the Tanzanian and Kenyan legs hold value better. Tell your DMCs now.
-🏷 RW/TZ/KE · City, Bush & Beach · Confirmed (figures) / Inference (the read)
+🏷 City, Bush, Beach | 🇷🇼 🇹🇿 🇰🇪 | Confirmed (figures) / Inference (the read) | impact:margin
 
 **📻 ALSO STANDING**
 • **STILL TRUE** — Uganda's standard gorilla permit is still **US$800** *(UWA, current)*. The reported US$1,800 habituation tariff from 1 Jan 2027 remains **unsighted**. Don't requote a 2027 habituation leg off it.

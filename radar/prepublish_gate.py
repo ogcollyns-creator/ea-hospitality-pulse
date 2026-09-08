@@ -49,6 +49,47 @@ def first_comment_block(path):
             f"💬 The 15-second version on WhatsApp: {WA}\n"
             f"🗂 Archive: {BASE}")
 
+_KEYCAP_LINE = re.compile(r"^([0-9]\ufe0f?\u20e3)\s*")
+
+
+def _telegram_items(tg):
+    """Mirror of build_site.parse_items() -- headline, and the 🏷 line that follows."""
+    items, cur = [], None
+    for raw in tg.split("\n"):
+        l = raw.strip()
+        if not l:
+            continue
+        lm = l.strip("*").strip()
+        if _KEYCAP_LINE.match(lm):
+            if cur:
+                items.append(cur)
+            cur = {"head": _KEYCAP_LINE.sub("", lm).strip(), "tag": None}
+        elif cur is not None and l.startswith("\U0001F3F7"):
+            cur["tag"] = l.replace("\U0001F3F7", "").strip()
+            items.append(cur)
+            cur = None
+    if cur:
+        items.append(cur)
+    return items
+
+
+def _segments(tagstr):
+    """Mirror of build_site.segments_from_tag() applied to field 0."""
+    clean = re.sub(r"[·|]?\s*impact:\s*[+\-]?[a-zA-Z]+", "", tagstr, flags=re.I).strip(" ·|")
+    f = [x.strip() for x in re.split(r"[|·]", clean)]
+    t = (f[0] if f else "").lower()
+    if "all segment" in t:
+        return ["city", "bush", "beach"]
+    s = []
+    if "city" in t:
+        s.append("city")
+    if "bush" in t:
+        s.append("bush")
+    if "beach" in t or "coast" in t:
+        s.append("beach")
+    return s
+
+
 def check(path, do_fix):
     txt0 = open(path).read(); txt = txt0
     blockers, fixes, warns = [], [], []
@@ -67,6 +108,38 @@ def check(path, do_fix):
         blockers.append(f"Telegram section {len(tg)} chars > {TG_HARD_CHARS} hard limit")
     if tg and BASE not in tg:
         warns.append("Telegram section has no web link line")
+
+    # The edition must actually yield SIGNALS.
+    #
+    # Added 8 Sep 2026. Both editions published that day produced ZERO entries in
+    # the homepage "Today's signals" feed, silently, because their tag lines were
+    # written country-first:
+    #     WRONG  🏷 UG/RW · Bush & City · Confirmed
+    #     RIGHT  🏷 Bush, City | 🇺🇬 🇷🇼 | Confirmed | impact:risk
+    # build_site.parse_items() reads field 0 as the SEGMENT. "UG/RW" contains no
+    # segment word, segments_from_tag() returns [], and the item is dropped. The
+    # prose still read perfectly, the edition page built fine, and the live feed
+    # simply skipped the day — the failure is invisible without this check.
+    if tg is not None:
+        items = _telegram_items(tg)
+        tagged = [i for i in items if i["tag"] is not None]
+        usable = [i for i in tagged if _segments(i["tag"])]
+        if items and not tagged:
+            blockers.append(
+                f"no 🏷 tag line on any of the {len(items)} Telegram item(s) — "
+                f"the edition will contribute nothing to the homepage signal feed")
+        for i in tagged:
+            if not _segments(i["tag"]):
+                first = re.split(r"[|·]", re.sub(r"[·|]?\s*impact:\s*[+\-]?[a-zA-Z]+", "",
+                                 i["tag"], flags=re.I).strip(" ·|"))[0].strip()
+                blockers.append(
+                    f"tag line yields no segment, so this item is dropped from the signal feed: "
+                    f"field 1 is '{first}' — segments come FIRST. "
+                    f"Use: 🏷 City, Bush, Beach | <countries> | <confidence> | impact:demand|margin|risk|watch")
+        for i in tagged:
+            if not re.search(r"impact:\s*[+\-]?[a-zA-Z]+", i["tag"], re.I):
+                warns.append(f"tag line has no impact: token — the feed will auto-classify "
+                             f"'{i['head'][:40]}…' instead of using your read")
 
     # WhatsApp must carry a NUMBER OF THE DAY
     if wa and "NUMBER OF THE DAY" not in wa.upper():
