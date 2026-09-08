@@ -719,6 +719,18 @@ def _lead_headline(md):
     return None
 
 
+# Card fonts have no glyph for section/keycap emoji, so they render as a tofu
+# box. Strip them from anything drawn onto a card.
+_CARD_EMOJI = re.compile(
+    "[\U0001F000-\U0001FAFF\u2190-\u21FF\u2300-\u27BF\u2B00-\u2BFF"
+    "\uFE0F\u20E3\u2600-\u26FF]+")
+
+def _card_text(s):
+    s = _CARD_EMOJI.sub("", s or "")
+    s = re.sub(r"^\s*\d{1,2}\s+(?=[A-Za-z])", "", s)      # leftover item number
+    return re.sub(r"\s{2,}", " ", s).strip(" -\u2014\u00b7:")
+
+
 def data_card_pass():
     """Default hero: a typographic data card, not scenery.
 
@@ -746,7 +758,10 @@ def data_card_pass():
             continue
         md = _raw_edition_md(eid)
         fig, cap = _number_of_the_day(md)
-        head = _lead_headline(md) or (e.get("edition") or "")
+        fig, cap = _card_text(fig), _card_text(cap)
+        # Fall back to the edition summary, not the slot name: two of the
+        # cards rebuilt on 8 Sep would otherwise have read "Midday Pulse".
+        head = _card_text(_lead_headline(md) or e.get("summary") or (e.get("edition") or ""))
         if not fig:
             continue                       # nothing verified to show — leave for the chain
         W, H = WIDTH, int(WIDTH * 0.525)

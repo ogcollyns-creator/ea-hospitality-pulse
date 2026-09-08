@@ -74,28 +74,31 @@ jobs:
       - name: Assign vetted press-kit images (best-effort; before the Wikimedia fetch)
         run: python3 hero_extra.py --press-kit || echo "press-kit pass skipped"
 
-      - name: Hero — real photography where the edition has a visual subject
+      # HERO ORDER — a photograph must EARN the slot; otherwise the edition
+      # runs its own number. This order was inverted until 8 Sep 2026: the
+      # data-card pass ran last and three earlier passes carried
+      # --replace-cards, so any card was stripped out in favour of whatever
+      # scenery matched a place name. That shipped Rwandan district boundary
+      # maps as heroes (3 and 8 Aug), a content-free AI gradient carrying the
+      # single word "Evening Wrap" (25 Aug), and it overwrote the 8 Sep Ebola
+      # card with a Kampala street scene minutes after it was published.
+      # A card carrying "USD 289 v USD 274" is content and can never be
+      # off-topic. Scenery that merely shares a country with the story is not.
+      - name: Hero — real photography ONLY where the edition has a visual subject
         env:
           GOOGLE_CSE_KEY: ${{ secrets.GOOGLE_CSE_KEY }}
           GOOGLE_CSE_CX: ${{ secrets.GOOGLE_CSE_CX }}
-        run: python3 assign_edition_photos.py --replace-cards --limit 30 || echo "photo pass skipped"
+        run: python3 assign_edition_photos.py --limit 30 || echo "photo pass skipped"
 
-      - name: Hero — AI image where no photograph fits (photorealistic, disclosed)
-        env:
-          IMAGE_API_KEY: ${{ secrets.IMAGE_API_KEY }}
-          IMAGE_API_URL: ${{ secrets.IMAGE_API_URL }}
-          IMAGE_API_MODEL: ${{ secrets.IMAGE_API_MODEL }}
-        run: |
-          # Preflight is informational: it prints WHY generation is or is not
-          # working (never the key) so a silent failure cannot hide again.
-          python3 hero_extra.py --check-image-api || true
-          python3 hero_extra.py --ai-fallback --replace-cards || echo "ai-fallback pass skipped"
-
-      - name: Hero — licensed destination photo where no subject fits
-        run: python3 assign_edition_photos.py --replace-cards --destination-fallback --limit 40 || echo "destination pass skipped"
-
-      - name: Hero — data card (last resort, and for any news-event edition)
+      - name: Hero — data card for every edition a photograph did not earn
         run: python3 hero_extra.py --data-card || echo "data-card pass skipped"
+
+      # REMOVED 8 Sep 2026: --ai-fallback and --destination-fallback.
+      # The AI pass produced a flat teal gradient with one word on it; the
+      # destination pass deliberately dropped the relevance bar to "any photo
+      # of the right country". Both are strictly worse than the edition's own
+      # verified figure, and both ran with --replace-cards, so they actively
+      # destroyed good cards. Re-enable only behind a relevance bar.
 
       - name: Build site
         run: python3 build_site.py
