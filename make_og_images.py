@@ -314,7 +314,7 @@ def main(editions=None):
     os.makedirs(OG,exist_ok=True)
     base_card("Daily intelligence",
               "Daily market intelligence for East Africa's hospitality and travel trade.",
-              "Three briefs a day · Free on Telegram",
+              "Daily Briefs · Free on Telegram",
               DEFAULT_PHOTO).save(os.path.join(OG,"default.png"))
     # text-free in-page heroes — one per source photo (small, reused across editions)
     hero_for = {}

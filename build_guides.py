@@ -355,7 +355,7 @@ def guide_page(g):
     <p class="lede">{html.escape(g['description'])}</p>
     {g['bodyHtml']}
     <div class="sub">
-      <b>Get this daily</b> — three briefs a day across Kenya, Uganda, Tanzania, Zanzibar &amp; Rwanda.<br>
+      <b>Get the Daily Briefs</b> — across Kenya, Uganda, Tanzania, Zanzibar &amp; Rwanda.<br>
       <a href="{CHANNELS.get('telegram','#')}" target="_blank" rel="noopener">📣 Telegram</a>
       <a href="{CHANNELS.get('whatsapp','#')}" target="_blank" rel="noopener">💬 WhatsApp</a>
       <a href="{CHANNELS.get('linkedin','#')}" target="_blank" rel="noopener">💼 LinkedIn</a>

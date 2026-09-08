@@ -906,7 +906,7 @@ def edition_page(e, siblings=None, prev=None, nxt=None, hero=None, credit=None):
     {guides_html}
     {pn_html}
     <div class="sub">
-      <b>Follow the Pulse</b> — three briefs a day across Kenya, Uganda, Tanzania, Zanzibar &amp; Rwanda.<br>
+      <b>Follow the Pulse</b> — Daily Briefs across Kenya, Uganda, Tanzania, Zanzibar &amp; Rwanda.<br>
       <a href="{CHANNELS['telegram']}" target="_blank" rel="noopener">📣 Telegram (full editions)</a>
       <a href="{CHANNELS['whatsapp']}" target="_blank" rel="noopener">💬 WhatsApp (daily skim)</a>
       <a href="{CHANNELS['linkedin']}" target="_blank" rel="noopener">💼 LinkedIn (the Big Read)</a>
