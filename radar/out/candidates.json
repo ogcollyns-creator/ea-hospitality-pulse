@@ -1,18 +1,18 @@
 {
- "generated": "2026-09-08T16:42:36+03:00",
+ "generated": "2026-09-08T21:48:11+03:00",
  "slot": "evening",
  "window_start": 1788861600,
- "observations_in_window": 169,
+ "observations_in_window": 327,
  "deduped_against": 22,
  "candidates": [
   {
-   "score": 112.5,
+   "score": 106.9,
    "components": {
     "tier": 40,
     "category": 24,
     "lead": 4.8,
     "relevance": 12,
-    "freshness": 19.7,
+    "freshness": 14.1,
     "undated": -6,
     "shock": 18
    },
@@ -58,6 +58,39 @@
    "shock_terms": [],
    "dedupe_match": null,
    "dedupe_similarity": 0.2,
+   "id": "b0002b1be0c3",
+   "title": "[page changed] Federal Register \u2014 public inspection (HHS/CDC), pre-publication",
+   "url": "https://www.federalregister.gov/api/v1/public-inspection-documents/current.json",
+   "summary": "{\"count\":129,\"results\":[{\"agencies\":[{\"raw_name\":\"FEDERAL TRADE COMMISSION\",\"name\":\"Federal Trade Commission\",\"id\":192,\"url\":\"https://www.federalregister.gov/agencies/federal-trade-commission\",\"json_url\":\"https://www.federalregister.gov/api/v1/agencies/192\",\"parent_id\":null,\"slug\":\"federal-trade-commission\"}],\"agency_letters\":[],\"agency_names\":[\"Federal Trade Commission\"],\"docket_numbers\":[],\"docu",
+   "kind": "page-change",
+   "source": "Federal Register \u2014 public inspection (HHS/CDC), pre-publication",
+   "source_id": "us-fedreg-pubinspect-hhs",
+   "tier": 1,
+   "country": "REG",
+   "category": "advisory",
+   "segments": [
+    "city",
+    "bush"
+   ],
+   "first_seen": "2026-09-08T21:47+03:00",
+   "published": "2026-09-08",
+   "verdict": "OPEN THIS \u2014 tier-1 advisory page moved; content not auto-parsed, read it manually"
+  },
+  {
+   "score": 95.7,
+   "components": {
+    "tier": 40,
+    "category": 32,
+    "lead": 3.6,
+    "relevance": 0,
+    "freshness": 14.1,
+    "corroborated": 10,
+    "page_change": -4
+   },
+   "keywords": [],
+   "shock_terms": [],
+   "dedupe_match": null,
+   "dedupe_similarity": 0.2,
    "id": "3ec127b2e38a",
    "title": "[page changed] Federal Register \u2014 public inspection (HHS/CDC), pre-publication",
    "url": "https://www.federalregister.gov/api/v1/public-inspection-documents/current.json",
@@ -77,13 +110,13 @@
    "verdict": "OPEN THIS \u2014 tier-1 advisory page moved; content not auto-parsed, read it manually"
   },
   {
-   "score": 65.3,
+   "score": 59.7,
    "components": {
     "tier": 40,
     "category": 12,
     "lead": 3.6,
     "relevance": 0,
-    "freshness": 19.7,
+    "freshness": 14.1,
     "undated": -6,
     "page_change": -4
    },
@@ -111,13 +144,13 @@
    "verdict": "OPEN THIS \u2014 tier-1 airline page moved; content not auto-parsed, read it manually"
   },
   {
-   "score": 108.1,
+   "score": 102.5,
    "components": {
     "tier": 40,
     "category": 24,
     "lead": 2.4,
     "relevance": 12,
-    "freshness": 19.7,
+    "freshness": 14.1,
     "corroborated": 10
    },
    "keywords": [
@@ -155,6 +188,81 @@
     "corroborated": 10
    },
    "keywords": [
+    "vat",
+    "route",
+    "airline",
+    "flight"
+   ],
+   "shock_terms": [],
+   "dedupe_match": null,
+   "dedupe_similarity": 0.0,
+   "id": "7402fcc40d97",
+   "title": "Pegasus Begins AirAsia X Asia Codeshare From Sep 2026",
+   "url": "https://www.aeroroutes.com/eng/260908-pcd7codeshare",
+   "summary": "Published at 1000PDT / 1700GMT 08SEP26 AirAsia X and Pegasus Airlines last week launched codeshare partnership, with AirAsia\u2019s D7-coded flight numbers appearing on selected Pegasus Airlines service. The codeshare partnership was first reported by AeroRoutes on 27AUG26 , despite the reporter from Malaysia\u2019s New Straits Times claiming the exclusive on social media platform. In return, Pegasus Airlin",
+   "kind": "item",
+   "source": "AeroRoutes schedule filings",
+   "source_id": "aeroroutes",
+   "tier": 2,
+   "country": "GLOBAL",
+   "category": "aviation-tracker",
+   "segments": [
+    "city",
+    "bush",
+    "beach"
+   ],
+   "first_seen": "2026-09-08T21:47+03:00",
+   "published": "2026-09-08",
+   "verdict": "CONSIDER"
+  },
+  {
+   "score": 92.2,
+   "components": {
+    "tier": 20,
+    "category": 14,
+    "lead": 8.4,
+    "relevance": 20,
+    "freshness": 19.8,
+    "corroborated": 10
+   },
+   "keywords": [
+    "adr",
+    "route",
+    "flight"
+   ],
+   "shock_terms": [],
+   "dedupe_match": null,
+   "dedupe_similarity": 0.17,
+   "id": "62230b8bd420",
+   "title": "Iberia NW26 London Gatwick Service Changes",
+   "url": "https://www.aeroroutes.com/eng/260908-ibnw26lgw",
+   "summary": "Published at 0700PDT / 1400GMT 08SEP26 Iberia during Northern winter 2026/27 season is adjusting service on Madrid \u2013 London Gatwick route, where the 2 daily flights will be operated by Iberia mainline from 25OCT26, replacing Iberia Express. IB983 MAD0930 \u2013 1050LGW 32S D IB985 MAD1740 \u2013 1900LGW 32S D IB984 LGW1145 \u2013 1505MAD 32S D IB986 LGW1940 \u2013 2300MAD 32S D",
+   "kind": "item",
+   "source": "AeroRoutes schedule filings",
+   "source_id": "aeroroutes",
+   "tier": 2,
+   "country": "GLOBAL",
+   "category": "aviation-tracker",
+   "segments": [
+    "city",
+    "bush",
+    "beach"
+   ],
+   "first_seen": "2026-09-08T21:47+03:00",
+   "published": "2026-09-08",
+   "verdict": "CONSIDER"
+  },
+  {
+   "score": 90.6,
+   "components": {
+    "tier": 20,
+    "category": 14,
+    "lead": 8.4,
+    "relevance": 24,
+    "freshness": 14.2,
+    "corroborated": 10
+   },
+   "keywords": [
     "route",
     "seat",
     "airline",
@@ -183,13 +291,13 @@
    "verdict": "CONSIDER"
   },
   {
-   "score": 96.2,
+   "score": 90.6,
    "components": {
     "tier": 20,
     "category": 14,
     "lead": 8.4,
     "relevance": 24,
-    "freshness": 19.8,
+    "freshness": 14.2,
     "corroborated": 10
    },
    "keywords": [
@@ -221,13 +329,118 @@
    "verdict": "CONSIDER"
   },
   {
-   "score": 88.5,
+   "score": 87.0,
+   "components": {
+    "tier": 40,
+    "category": 32,
+    "lead": 1.2,
+    "relevance": 0,
+    "freshness": 19.8,
+    "undated": -6
+   },
+   "keywords": [],
+   "shock_terms": [],
+   "dedupe_match": null,
+   "dedupe_similarity": 0.0,
+   "id": "c7613a059801",
+   "title": "Dengue: Advice for travellers",
+   "url": "https://travel.gc.ca/travelling/health-safety/travel-health-notices/517",
+   "summary": "",
+   "kind": "item",
+   "source": "Canada travel advice \u2014 Kenya",
+   "source_id": "adv-ca-kenya",
+   "tier": 1,
+   "country": "KE",
+   "category": "advisory",
+   "segments": [
+    "city",
+    "bush",
+    "beach"
+   ],
+   "first_seen": "2026-09-08T21:47+03:00",
+   "published": null,
+   "verdict": "CONSIDER"
+  },
+  {
+   "score": 87.0,
+   "components": {
+    "tier": 40,
+    "category": 32,
+    "lead": 1.2,
+    "relevance": 0,
+    "freshness": 19.8,
+    "undated": -6
+   },
+   "keywords": [],
+   "shock_terms": [],
+   "dedupe_match": null,
+   "dedupe_similarity": 0.25,
+   "id": "d232ed068382",
+   "title": "Suriname - Level 1: Exercise Normal Precautions",
+   "url": "https://travel.state.gov/content/tsg_aem/us/en/home/international-travel/travel-advisories/destination.sur.html",
+   "summary": "Exercise normal precaution in Suriname . Suriname is generally a safe destination for travelers Review the Travel Guidance to learn how to prepare for a safe trip.",
+   "kind": "item",
+   "source": "US State Dept travel advisories (EA feed)",
+   "source_id": "adv-us-ea",
+   "tier": 1,
+   "country": "REG",
+   "category": "advisory",
+   "segments": [
+    "city",
+    "bush",
+    "beach"
+   ],
+   "first_seen": "2026-09-08T21:47+03:00",
+   "published": null,
+   "verdict": "CONSIDER"
+  },
+  {
+   "score": 86.4,
+   "components": {
+    "tier": 20,
+    "category": 5,
+    "lead": 3.6,
+    "relevance": 28,
+    "freshness": 19.8,
+    "corroborated": 10
+   },
+   "keywords": [
+    "fee",
+    "eta",
+    "hotel",
+    "camp",
+    "guest"
+   ],
+   "shock_terms": [],
+   "dedupe_match": null,
+   "dedupe_similarity": 0.2,
+   "id": "f191c3633c1d",
+   "title": "Cendyn brings live hotel data to Google\u2019s Search Campaigns for Travel in closed beta test",
+   "url": "https://www.hospitalitynet.org/news/4134284/cendyn-brings-live-hotel-data-to-googles-search-campaigns-for-travel-in-closed-beta-test",
+   "summary": "Cendyn joins Google's closed beta for Search Campaigns for Travel, combining live ARI feeds and first-party guest data with Google's AI to improve hotel search ad performance ahead of general availability.",
+   "kind": "item",
+   "source": "Hospitality Net \u2014 Africa announcements",
+   "source_id": "dev-hospitalitynet-africa",
+   "tier": 2,
+   "country": "REG",
+   "category": "trade",
+   "segments": [
+    "city",
+    "bush",
+    "beach"
+   ],
+   "first_seen": "2026-09-08T21:47+03:00",
+   "published": "2026-09-08",
+   "verdict": "CONSIDER"
+  },
+  {
+   "score": 82.9,
    "components": {
     "tier": 40,
     "category": 10,
     "lead": 16.8,
     "relevance": 8,
-    "freshness": 19.7,
+    "freshness": 14.1,
     "undated": -6
    },
    "keywords": [
@@ -256,13 +469,13 @@
    "verdict": "CONSIDER"
   },
   {
-   "score": 88.5,
+   "score": 82.9,
    "components": {
     "tier": 40,
     "category": 10,
     "lead": 16.8,
     "relevance": 8,
-    "freshness": 19.7,
+    "freshness": 14.1,
     "undated": -6
    },
    "keywords": [
@@ -291,13 +504,13 @@
    "verdict": "CONSIDER"
   },
   {
-   "score": 88.2,
+   "score": 82.6,
    "components": {
     "tier": 40,
     "category": 16,
     "lead": 2.4,
     "relevance": 0,
-    "freshness": 19.8,
+    "freshness": 14.2,
     "corroborated": 10
    },
    "keywords": [],
@@ -324,13 +537,13 @@
    "verdict": "CONSIDER"
   },
   {
-   "score": 88.2,
+   "score": 82.6,
    "components": {
     "tier": 20,
     "category": 14,
     "lead": 8.4,
     "relevance": 16,
-    "freshness": 19.8,
+    "freshness": 14.2,
     "corroborated": 10
    },
    "keywords": [
@@ -361,13 +574,48 @@
    "verdict": "CONSIDER"
   },
   {
-   "score": 84.2,
+   "score": 80.2,
+   "components": {
+    "tier": 20,
+    "category": 14,
+    "lead": 8.4,
+    "relevance": 8,
+    "freshness": 19.8,
+    "corroborated": 10
+   },
+   "keywords": [
+    "route"
+   ],
+   "shock_terms": [],
+   "dedupe_match": null,
+   "dedupe_similarity": 0.0,
+   "id": "6e3522c950bb",
+   "title": "Aeromexico NS27 Europe Network Additions",
+   "url": "https://www.aeroroutes.com/eng/260908-amns27eu",
+   "summary": "Published at 1100PDT / 1800GMT 08SEP26 Aeromexico last week filed operational schedule for its planned European network expansion in Northern summer 2027 season, with the launch of 2 routes. Guadalajara \u2013 Paris Charles de Gaulle eff 13APR27 3 weekly 787-9 (selected dates operated by -8) AM042 GDL1355 \u2013 0925+1CDG 789 247 AM043 CDG1140 \u2013 1610GDL 789 136 Mexico City \u2013 Milan Malpensa eff 30MAR27 4 wee",
+   "kind": "item",
+   "source": "AeroRoutes schedule filings",
+   "source_id": "aeroroutes",
+   "tier": 2,
+   "country": "GLOBAL",
+   "category": "aviation-tracker",
+   "segments": [
+    "city",
+    "bush",
+    "beach"
+   ],
+   "first_seen": "2026-09-08T21:47+03:00",
+   "published": "2026-09-08",
+   "verdict": "CONSIDER"
+  },
+  {
+   "score": 78.6,
    "components": {
     "tier": 20,
     "category": 14,
     "lead": 8.4,
     "relevance": 12,
-    "freshness": 19.8,
+    "freshness": 14.2,
     "corroborated": 10
    },
    "keywords": [
@@ -397,13 +645,13 @@
    "verdict": "CONSIDER"
   },
   {
-   "score": 84.2,
+   "score": 78.6,
    "components": {
     "tier": 20,
     "category": 14,
     "lead": 8.4,
     "relevance": 12,
-    "freshness": 19.8,
+    "freshness": 14.2,
     "corroborated": 10
    },
    "keywords": [
@@ -433,13 +681,89 @@
    "verdict": "CONSIDER"
   },
   {
-   "score": 80.5,
+   "score": 77.8,
+   "components": {
+    "tier": 5,
+    "category": 5,
+    "lead": 0.0,
+    "relevance": 20,
+    "freshness": 19.8,
+    "corroborated": 10,
+    "shock": 18
+   },
+   "keywords": [
+    "strike",
+    "hotel",
+    "tourism",
+    "traffic"
+   ],
+   "shock_terms": [
+    "strike"
+   ],
+   "dedupe_match": null,
+   "dedupe_similarity": 0.33,
+   "id": "94a211473924",
+   "title": "Africa: The Tourism impact of the Kenya Aviation Strike and its fall out By Mohammed Hersi",
+   "url": "https://atqnews.com/africa-the-tourism-impact-of-the-kenya-aviation-strike-and-its-fall-out",
+   "summary": "What a well researched, informative piece on impact of aviation strikes by hotelier Mohammed Hersi \u2026.\u201dEvery time our air traffic controllers threaten\u2026 The post Africa: The Tourism impact of the Kenya Aviation Strike and its fall out By Mohammed Hersi appeared first on ATQ News .",
+   "kind": "item",
+   "source": "ATQ News",
+   "source_id": "tp-atqnews",
+   "tier": 3,
+   "country": "REG",
+   "category": "trade",
+   "segments": [
+    "city",
+    "bush",
+    "beach"
+   ],
+   "first_seen": "2026-09-08T21:48+03:00",
+   "published": "2026-09-08",
+   "verdict": "CONSIDER"
+  },
+  {
+   "score": 76.2,
+   "components": {
+    "tier": 20,
+    "category": 14,
+    "lead": 8.4,
+    "relevance": 4,
+    "freshness": 19.8,
+    "corroborated": 10
+   },
+   "keywords": [
+    "airline"
+   ],
+   "shock_terms": [],
+   "dedupe_match": null,
+   "dedupe_similarity": 0.0,
+   "id": "56563d472cb1",
+   "title": "Aeroitalia Begins Tripoli Mitiga From Sep 2026",
+   "url": "https://www.aeroroutes.com/eng/260908-xzsep26mji",
+   "summary": "Published at 0900PDT / 1600GMT 08SEP26 Aeroitalia this past weekend launched service to Libya, where the airline schedules service to Tripoli Mitiga , from both Milan Bergamo and Rome Fiumicino. Milan Bergamo \u2013 Tripoli Mitiga eff 06SEP26 1 weekly 737-400 XZ354 BGY0830 \u2013 1050MJI 734 7 XZ353 MJI1100 \u2013 1340BGY 734 1 Rome Fiumicino \u2013 Tripoli Mitiga eff 06SEP26 1 weekly 737-400 XZ355 FCO1520 \u2013 1740MJI ",
+   "kind": "item",
+   "source": "AeroRoutes schedule filings",
+   "source_id": "aeroroutes",
+   "tier": 2,
+   "country": "GLOBAL",
+   "category": "aviation-tracker",
+   "segments": [
+    "city",
+    "bush",
+    "beach"
+   ],
+   "first_seen": "2026-09-08T21:47+03:00",
+   "published": "2026-09-08",
+   "verdict": "CONSIDER"
+  },
+  {
+   "score": 74.9,
    "components": {
     "tier": 40,
     "category": 10,
     "lead": 16.8,
     "relevance": 0,
-    "freshness": 19.7,
+    "freshness": 14.1,
     "undated": -6
    },
    "keywords": [],
@@ -466,13 +790,13 @@
    "verdict": "CONSIDER"
   },
   {
-   "score": 80.2,
+   "score": 74.6,
    "components": {
     "tier": 40,
     "category": 24,
     "lead": 2.4,
     "relevance": 0,
-    "freshness": 19.8,
+    "freshness": 14.2,
     "undated": -6
    },
    "keywords": [],
@@ -499,13 +823,13 @@
    "verdict": "CONSIDER"
   },
   {
-   "score": 80.2,
+   "score": 74.6,
    "components": {
     "tier": 40,
     "category": 24,
     "lead": 2.4,
     "relevance": 0,
-    "freshness": 19.8,
+    "freshness": 14.2,
     "undated": -6
    },
    "keywords": [],
@@ -532,13 +856,13 @@
    "verdict": "CONSIDER"
   },
   {
-   "score": 80.2,
+   "score": 74.6,
    "components": {
     "tier": 40,
     "category": 24,
     "lead": 2.4,
     "relevance": 0,
-    "freshness": 19.8,
+    "freshness": 14.2,
     "undated": -6
    },
    "keywords": [],
@@ -565,13 +889,13 @@
    "verdict": "CONSIDER"
   },
   {
-   "score": 80.2,
+   "score": 74.6,
    "components": {
     "tier": 40,
     "category": 24,
     "lead": 2.4,
     "relevance": 0,
-    "freshness": 19.8,
+    "freshness": 14.2,
     "undated": -6
    },
    "keywords": [],
@@ -598,13 +922,13 @@
    "verdict": "CONSIDER"
   },
   {
-   "score": 80.2,
+   "score": 74.6,
    "components": {
     "tier": 40,
     "category": 24,
     "lead": 2.4,
     "relevance": 0,
-    "freshness": 19.8,
+    "freshness": 14.2,
     "undated": -6
    },
    "keywords": [],
@@ -631,13 +955,13 @@
    "verdict": "CONSIDER"
   },
   {
-   "score": 80.2,
+   "score": 74.6,
    "components": {
     "tier": 40,
     "category": 24,
     "lead": 2.4,
     "relevance": 0,
-    "freshness": 19.8,
+    "freshness": 14.2,
     "undated": -6
    },
    "keywords": [],
@@ -664,13 +988,13 @@
    "verdict": "CONSIDER"
   },
   {
-   "score": 80.2,
+   "score": 74.6,
    "components": {
     "tier": 40,
     "category": 24,
     "lead": 2.4,
     "relevance": 0,
-    "freshness": 19.8,
+    "freshness": 14.2,
     "undated": -6
    },
    "keywords": [],
@@ -697,13 +1021,13 @@
    "verdict": "CONSIDER"
   },
   {
-   "score": 80.2,
+   "score": 74.6,
    "components": {
     "tier": 40,
     "category": 24,
     "lead": 2.4,
     "relevance": 0,
-    "freshness": 19.8,
+    "freshness": 14.2,
     "undated": -6
    },
    "keywords": [],
@@ -730,13 +1054,13 @@
    "verdict": "CONSIDER"
   },
   {
-   "score": 80.2,
+   "score": 74.6,
    "components": {
     "tier": 40,
     "category": 24,
     "lead": 2.4,
     "relevance": 0,
-    "freshness": 19.8,
+    "freshness": 14.2,
     "undated": -6
    },
    "keywords": [],
@@ -763,13 +1087,13 @@
    "verdict": "CONSIDER"
   },
   {
-   "score": 80.2,
+   "score": 74.6,
    "components": {
     "tier": 40,
     "category": 24,
     "lead": 2.4,
     "relevance": 0,
-    "freshness": 19.8,
+    "freshness": 14.2,
     "undated": -6
    },
    "keywords": [],
@@ -796,13 +1120,46 @@
    "verdict": "CONSIDER"
   },
   {
-   "score": 76.2,
+   "score": 72.2,
+   "components": {
+    "tier": 20,
+    "category": 14,
+    "lead": 8.4,
+    "relevance": 0,
+    "freshness": 19.8,
+    "corroborated": 10
+   },
+   "keywords": [],
+   "shock_terms": [],
+   "dedupe_match": null,
+   "dedupe_similarity": 0.0,
+   "id": "1eb244ab9c49",
+   "title": "Air Cairo Adds Brussels Service From Dec 2026",
+   "url": "https://www.aeroroutes.com/eng/260908-smdec26bru",
+   "summary": "Published at 0800PDT / 1500GMT 08SEP26 Air Cairo from mid-December 2026 plans to launch service to Brussels, connecting 2 cities in Egypt on board Airbus A320 aircraft. Cairo \u2013 Brussels eff 18DEC26 2 weekly A320 SM619 CAI1030 \u2013 1425BRU 320 45 SM620 BRU1525 \u2013 2045CAI 320 45 Cairo \u2013 Brussels \u2013 Luxor eff 20DEC26 1 weekly A320 SM619 CAI1125 \u2013 1520BRU 320 7 SM620 BRU1620 \u2013 2215LXR 320 7",
+   "kind": "item",
+   "source": "AeroRoutes schedule filings",
+   "source_id": "aeroroutes",
+   "tier": 2,
+   "country": "GLOBAL",
+   "category": "aviation-tracker",
+   "segments": [
+    "city",
+    "bush",
+    "beach"
+   ],
+   "first_seen": "2026-09-08T21:47+03:00",
+   "published": "2026-09-08",
+   "verdict": "CONSIDER"
+  },
+  {
+   "score": 70.6,
    "components": {
     "tier": 40,
     "category": 16,
     "lead": 2.4,
     "relevance": 4,
-    "freshness": 19.8,
+    "freshness": 14.2,
     "undated": -6
    },
    "keywords": [
@@ -831,13 +1188,13 @@
    "verdict": "CONSIDER"
   },
   {
-   "score": 76.0,
+   "score": 70.4,
    "components": {
     "tier": 20,
     "category": 5,
     "lead": 1.2,
     "relevance": 20,
-    "freshness": 19.8,
+    "freshness": 14.2,
     "corroborated": 10
    },
    "keywords": [
@@ -868,13 +1225,46 @@
    "verdict": "CONSIDER"
   },
   {
-   "score": 72.2,
+   "score": 69.4,
+   "components": {
+    "tier": 40,
+    "category": 12,
+    "lead": 3.6,
+    "relevance": 0,
+    "freshness": 19.8,
+    "undated": -6
+   },
+   "keywords": [],
+   "shock_terms": [],
+   "dedupe_match": null,
+   "dedupe_similarity": 0.0,
+   "id": "c8fc5ecebefd",
+   "title": "BoT Earns Global Recognition for Advancing Financial Inclusion",
+   "url": "https://www.bot.go.tz/News/index/1177",
+   "summary": "",
+   "kind": "item",
+   "source": "Bank of Tanzania",
+   "source_id": "tz-bot",
+   "tier": 1,
+   "country": "TZ",
+   "category": "central-bank",
+   "segments": [
+    "city",
+    "bush",
+    "beach"
+   ],
+   "first_seen": "2026-09-08T21:47+03:00",
+   "published": null,
+   "verdict": "weak"
+  },
+  {
+   "score": 66.6,
    "components": {
     "tier": 40,
     "category": 16,
     "lead": 2.4,
     "relevance": 0,
-    "freshness": 19.8,
+    "freshness": 14.2,
     "undated": -6
    },
    "keywords": [],
@@ -898,32 +1288,32 @@
    ],
    "first_seen": "2026-09-08T16:40+03:00",
    "published": null,
-   "verdict": "CONSIDER"
+   "verdict": "weak"
   },
   {
-   "score": 68.0,
+   "score": 66.4,
    "components": {
     "tier": 20,
     "category": 5,
-    "lead": 1.2,
-    "relevance": 12,
+    "lead": 3.6,
+    "relevance": 8,
     "freshness": 19.8,
     "corroborated": 10
    },
    "keywords": [
-    "airport",
-    "airline"
+    "hotel",
+    "flight"
    ],
    "shock_terms": [],
    "dedupe_match": null,
-   "dedupe_similarity": 0.25,
-   "id": "777661bd2c10",
-   "title": "Star Alliance and Incheon International Airport Corporation Sign MOU for Cooperation on Lounge",
-   "url": "https://voyagesafriq.com/2026/09/08/star-alliance-and-incheon-international-airport-corporation-sign-mou-for-cooperation-on-lounge",
-   "summary": "Incheon International Airport Corporation (IIAC) and Star Alliance, the world\u2019s largest airline alliance, today signed a Memorandum of Understanding (MOU) to establish a Star Alliance lounge at Terminal 1 of [\u2026] The post Star Alliance and Incheon International Airport Corporation Sign MOU for Cooperation on Lounge <gwmw style=\"display:none;\"></gwmw> appeared first on Voyages Afriq .",
+   "dedupe_similarity": 0.2,
+   "id": "007cb4937b26",
+   "title": "Amsterdam founders launch Away.ai: an AI-based travel agent",
+   "url": "https://www.hospitalitynet.org/news/4134283/amsterdam-founders-launch-awayai-an-ai-based-travel-agent",
+   "summary": "Dutch founders Loes Daniels and Jorik Schr\u00f6der launch Away.ai, an AI platform that books complete flight-and-hotel packages in minutes based on personal preferences, with a 2-4% travel credit rewards model.",
    "kind": "item",
-   "source": "VoyagesAfriq",
-   "source_id": "tp-voyagesafriq",
+   "source": "Hospitality Net \u2014 Africa announcements",
+   "source_id": "dev-hospitalitynet-africa",
    "tier": 2,
    "country": "REG",
    "category": "trade",
@@ -932,467 +1322,84 @@
     "bush",
     "beach"
    ],
-   "first_seen": "2026-09-08T16:40+03:00",
+   "first_seen": "2026-09-08T21:47+03:00",
    "published": "2026-09-08",
    "verdict": "weak"
   },
   {
-   "score": 65.8,
-   "components": {
-    "tier": 20,
-    "category": 4,
-    "lead": 0.0,
-    "relevance": 12,
-    "freshness": 19.8,
-    "corroborated": 10
-   },
-   "keywords": [
-    "tax",
-    "traffic"
-   ],
-   "shock_terms": [],
-   "dedupe_match": null,
-   "dedupe_similarity": 0.17,
-   "id": "331c316487aa",
-   "title": "Three dead, 10 injured in Bushenyi taxi crash",
-   "url": "https://www.monitor.co.ug/uganda/news/national/three-dead-10-injured-in-bushenyi-taxi-crash-5587632",
-   "summary": "The Traffic Police Spokesperson, SP Michael Kananura, said preliminary investigations indicate...",
-   "kind": "item",
-   "source": "Daily Monitor (Uganda)",
-   "source_id": "np-monitor-ug",
-   "tier": 2,
-   "country": "UG",
-   "category": "press",
-   "segments": [
-    "city",
-    "bush",
-    "beach"
-   ],
-   "first_seen": "2026-09-08T16:40+03:00",
-   "published": "2026-09-08",
-   "verdict": "weak"
-  },
-  {
-   "score": 65.8,
-   "components": {
-    "tier": 20,
-    "category": 4,
-    "lead": 0.0,
-    "relevance": 12,
-    "freshness": 19.8,
-    "corroborated": 10
-   },
-   "keywords": [
-    "tax",
-    "franc"
-   ],
-   "shock_terms": [],
-   "dedupe_match": null,
-   "dedupe_similarity": 0.17,
-   "id": "c623d1b7306c",
-   "title": "Kamulegeya\u2019s philosophy on money",
-   "url": "https://www.monitor.co.ug/uganda/business/prosper/kamulegeya-s-philosophy-on-money-5586760",
-   "summary": "Mr Francis Kamulegeya, a three-decade tax and audit veteran, does not describe wealth as a...",
-   "kind": "item",
-   "source": "Daily Monitor (Uganda)",
-   "source_id": "np-monitor-ug",
-   "tier": 2,
-   "country": "UG",
-   "category": "press",
-   "segments": [
-    "city",
-    "bush",
-    "beach"
-   ],
-   "first_seen": "2026-09-08T16:40+03:00",
-   "published": "2026-09-08",
-   "verdict": "weak"
-  },
-  {
-   "score": 63.8,
-   "components": {
-    "tier": 5,
-    "category": 5,
-    "lead": 0.0,
-    "relevance": 24,
-    "freshness": 19.8,
-    "corroborated": 10
-   },
-   "keywords": [
-    "collapse",
-    "fee",
-    "tourism"
-   ],
-   "shock_terms": [],
-   "dedupe_match": null,
-   "dedupe_similarity": 0.2,
-   "id": "195ce8679ef7",
-   "title": "Nepal Today, Peru Tomorrow? Climate Change Is Rewriting the Rules of Mountain Tourism",
-   "url": "https://eturbonews.com/nepal-glacier-disaster-climate-change-peru-tourism",
-   "summary": "A glacier collapses in Nepal. A dangerous glacial lake grows above a tourism city in Peru. Thousands of kilometers separate the Himalayas from the Andes, but climate change is raising an increasingly similar question for both destinations: are governments and the tourism industry adapting fast enough to mountains changing beneath their feet? On August 26, [\u2026] SOURCE: Nepal Today, Peru Tomorrow? Cl",
-   "kind": "item",
-   "source": "eTurboNews Africa",
-   "source_id": "tp-eturbonews",
-   "tier": 3,
-   "country": "GLOBAL",
-   "category": "trade",
-   "segments": [
-    "city",
-    "bush",
-    "beach"
-   ],
-   "first_seen": "2026-09-08T16:40+03:00",
-   "published": "2026-09-08",
-   "verdict": "weak"
-  },
-  {
-   "score": 61.8,
-   "components": {
-    "tier": 20,
-    "category": 4,
-    "lead": 0.0,
-    "relevance": 8,
-    "freshness": 19.8,
-    "corroborated": 10
-   },
-   "keywords": [
-    "eta"
-   ],
-   "shock_terms": [],
-   "dedupe_match": null,
-   "dedupe_similarity": 0.2,
-   "id": "ee4d1cbcccec",
-   "title": "Tanzania registers 1,168,649 candidates for Primary School Exams from its 20,019 schools",
-   "url": "https://dailynews.co.tz/tanzania-registers-1168649-candidates-for-primary-school-exams-from-its-20019-schools",
-   "summary": "DAR ES SALAAM: A total of 1,168,649 candidates have registered to sit for Tanzania\u2019s Primary School Leaving Examination (PSLE) in 20,019 schools across the country, with girls accounting for a larger share of candidates than boys. According to the Executive Secretary of the National Examinations Council of Tanzania (NECTA), Professor Said Mohammed, the candidates include \u2026 The post Tanzania regist",
-   "kind": "item",
-   "source": "Daily News (Tanzania)",
-   "source_id": "np-dailynews-tz",
-   "tier": 2,
-   "country": "TZ",
-   "category": "press",
-   "segments": [
-    "city",
-    "bush",
-    "beach"
-   ],
-   "first_seen": "2026-09-08T16:40+03:00",
-   "published": "2026-09-08",
-   "verdict": "weak"
-  },
-  {
-   "score": 61.8,
-   "components": {
-    "tier": 20,
-    "category": 4,
-    "lead": 0.0,
-    "relevance": 8,
-    "freshness": 19.8,
-    "corroborated": 10
-   },
-   "keywords": [
-    "election"
-   ],
-   "shock_terms": [],
-   "dedupe_match": null,
-   "dedupe_similarity": 0.17,
-   "id": "8cf6c46b8d8f",
-   "title": "Dr Mwinyi commands ZEC\u2019s professionalism in conducting the Zanzibar\u2019s Elections",
-   "url": "https://dailynews.co.tz/dr-mwinyi-commands-zecs-professionalism-in-conducting-the-zanzibars-elections",
-   "summary": "ZANZIBAR: PRESIDENT of Zanzibar and Chairman of the Revolutionary Council, Dr Hussein Ali Mwinyi, has commended the Zanzibar Electoral Commission (ZEC) for successfully conducting the 2025 Zanzibar General Elections in a peaceful and stable environment. President Dr Mwinyi made the remarks today, September 8, 2026, at State House in Zanzibar, while receiving the report on \u2026 The post Dr Mwinyi comm",
-   "kind": "item",
-   "source": "Daily News (Tanzania)",
-   "source_id": "np-dailynews-tz",
-   "tier": 2,
-   "country": "TZ",
-   "category": "press",
-   "segments": [
-    "city",
-    "bush",
-    "beach"
-   ],
-   "first_seen": "2026-09-08T16:40+03:00",
-   "published": "2026-09-08",
-   "verdict": "weak"
-  },
-  {
-   "score": 61.8,
-   "components": {
-    "tier": 20,
-    "category": 4,
-    "lead": 0.0,
-    "relevance": 8,
-    "freshness": 19.8,
-    "corroborated": 10
-   },
-   "keywords": [
-    "vat"
-   ],
-   "shock_terms": [],
-   "dedupe_match": null,
-   "dedupe_similarity": 0.0,
-   "id": "822543ab9352",
-   "title": "Why low farm productivity persists in Greater Kibaale",
-   "url": "https://www.monitor.co.ug/uganda/news/national/why-low-farm-productivity-persists-in-greater-kibaale-5587482",
-   "summary": "Continuous cultivation without replenishing nutrients is among the major causes of low crop yields",
-   "kind": "item",
-   "source": "Daily Monitor (Uganda)",
-   "source_id": "np-monitor-ug",
-   "tier": 2,
-   "country": "UG",
-   "category": "press",
-   "segments": [
-    "city",
-    "bush",
-    "beach"
-   ],
-   "first_seen": "2026-09-08T16:40+03:00",
-   "published": "2026-09-08",
-   "verdict": "weak"
-  },
-  {
-   "score": 60.0,
+   "score": 66.0,
    "components": {
     "tier": 20,
     "category": 5,
     "lead": 1.2,
-    "relevance": 4,
+    "relevance": 8,
     "freshness": 19.8,
-    "corroborated": 10
+    "undated": -6,
+    "shock": 18
    },
    "keywords": [
-    "investment"
+    "strike"
    ],
-   "shock_terms": [],
+   "shock_terms": [
+    "strike"
+   ],
    "dedupe_match": null,
-   "dedupe_similarity": 0.2,
-   "id": "7d5053308f87",
-   "title": "Tanzania\u2019s TISEZA Wins Title of Africa\u2019s Best Investment Promotion Agency in 2026",
-   "url": "https://www.tanzaniainvest.com/economy/tiseza-africa-best-investment-promotion-agency-award-dubai-aim-2026",
-   "summary": "The Tanzania Investment and Special Economic Zones Authority (TISEZA) has been named Best Investment Promotion Agency (IPA) 2026 in Africa at the AIM Investment Awards in Dubai, recognising its performance in attracting and facilitating foreign direct investment projects in Tanzania. The award follows the Authority\u2019s 2025 recognition among the world\u2019s leading investment promotion agencies by the W",
+   "dedupe_similarity": 0.33,
+   "id": "7d987acda2a9",
+   "title": "Kenya Airways Loses \\$7 Million After Three-Day JKIA Strike Shakes East Africa's Aviation Hub",
+   "url": "https://travelnews.africa/news-single.html?id=18347&title=Kenya+Airways+Loses+%5C%247+Million+After+Three-Day+JKIA+Strike+Shakes+East+Africa%27s+Aviation+Hub",
+   "summary": "",
    "kind": "item",
-   "source": "TanzaniaInvest \u2014 tourism",
-   "source_id": "tp-tanzaniainvest",
+   "source": "travelnews.africa",
+   "source_id": "tp-travelnews-africa",
    "tier": 2,
-   "country": "TZ",
+   "country": "REG",
    "category": "trade",
    "segments": [
     "city",
     "bush",
     "beach"
    ],
-   "first_seen": "2026-09-08T16:40+03:00",
-   "published": "2026-09-08",
+   "first_seen": "2026-09-08T21:48+03:00",
+   "published": null,
    "verdict": "weak"
   },
   {
-   "score": 60.0,
+   "score": 66.0,
    "components": {
     "tier": 20,
     "category": 5,
     "lead": 1.2,
-    "relevance": 4,
+    "relevance": 8,
     "freshness": 19.8,
-    "corroborated": 10
+    "undated": -6,
+    "shock": 18
    },
    "keywords": [
-    "airline"
+    "strike"
    ],
-   "shock_terms": [],
+   "shock_terms": [
+    "strike"
+   ],
    "dedupe_match": null,
-   "dedupe_similarity": 0.0,
-   "id": "a960516d0a39",
-   "title": "Everyone Is All In on the Airbus A321XLR \u2014 Except Delta",
-   "url": "https://skift.com/2026/09/08/everyone-is-all-in-on-the-airbus-a321xlr-except-for-delta",
-   "summary": "More airlines are embracing long-haul flying on narrowbody jets \u2014 in a competitive transatlantic market, they allow airlines to launch service in smaller cities. However, Delta is not convinced.",
+   "dedupe_similarity": 0.33,
+   "id": "b76f093315b0",
+   "title": "Kenya Airways Loses \\$7 Million After Three-Day JKIA Strike Shakes East Africa's Aviation Hub",
+   "url": "https://travelnews.africa/news-single.html?id=18347",
+   "summary": "",
    "kind": "item",
-   "source": "Skift",
-   "source_id": "tp-skift",
+   "source": "travelnews.africa",
+   "source_id": "tp-travelnews-africa",
    "tier": 2,
-   "country": "GLOBAL",
+   "country": "REG",
    "category": "trade",
    "segments": [
     "city",
     "bush",
     "beach"
    ],
-   "first_seen": "2026-09-08T16:40+03:00",
-   "published": "2026-09-08",
-   "verdict": "weak"
-  },
-  {
-   "score": 60.0,
-   "components": {
-    "tier": 20,
-    "category": 5,
-    "lead": 1.2,
-    "relevance": 4,
-    "freshness": 19.8,
-    "corroborated": 10
-   },
-   "keywords": [
-    "hotel"
-   ],
-   "shock_terms": [],
-   "dedupe_match": null,
-   "dedupe_similarity": 0.29,
-   "id": "1e1ddc1e0230",
-   "title": "How Wellness Hospitality Is Breaking Out of the Luxury Bubble",
-   "url": "https://skift.com/2026/09/08/novotel-longevity-travel-everyday-wellness",
-   "summary": "Health-conscious travel is entering the mainstream. Novotel\u2019s Longevity Everyday model shows how hotel brands can extend wellness beyond premium retreats by embedding supportive choices into the ordinary rhythms of a stay.",
-   "kind": "item",
-   "source": "Skift",
-   "source_id": "tp-skift",
-   "tier": 2,
-   "country": "GLOBAL",
-   "category": "trade",
-   "segments": [
-    "city",
-    "bush",
-    "beach"
-   ],
-   "first_seen": "2026-09-08T16:40+03:00",
-   "published": "2026-09-08",
-   "verdict": "weak"
-  },
-  {
-   "score": 57.8,
-   "components": {
-    "tier": 20,
-    "category": 4,
-    "lead": 0.0,
-    "relevance": 4,
-    "freshness": 19.8,
-    "corroborated": 10
-   },
-   "keywords": [
-    "investment"
-   ],
-   "shock_terms": [],
-   "dedupe_match": null,
-   "dedupe_similarity": 0.2,
-   "id": "7e4ea1f37ed7",
-   "title": "Tanzania lures Japanese investments in manufacturing, technology, higher-value production",
-   "url": "https://dailynews.co.tz/tanzania-lures-japanese-investments-in-manufacturing-technology-higher-value-production",
-   "summary": "TOKYO: Tanzania has called on Japanese companies to increase investment in manufacturing, technology and higher-value production as the country seeks to accelerate the implementation of its National Development Vision 2050 and the Fourth Five-Year National Development Plan. Minister of State in the President\u2019s Office for Planning and Investment, Professor Kitila Mkumbo, said Tanzania wants to \u2026 Th",
-   "kind": "item",
-   "source": "Daily News (Tanzania)",
-   "source_id": "np-dailynews-tz",
-   "tier": 2,
-   "country": "TZ",
-   "category": "press",
-   "segments": [
-    "city",
-    "bush",
-    "beach"
-   ],
-   "first_seen": "2026-09-08T16:40+03:00",
-   "published": "2026-09-08",
-   "verdict": "weak"
-  },
-  {
-   "score": 57.8,
-   "components": {
-    "tier": 20,
-    "category": 4,
-    "lead": 0.0,
-    "relevance": 4,
-    "freshness": 19.8,
-    "corroborated": 10
-   },
-   "keywords": [
-    "investment"
-   ],
-   "shock_terms": [],
-   "dedupe_match": null,
-   "dedupe_similarity": 0.4,
-   "id": "e3d82a17d9a0",
-   "title": "Call for Tanzania, Japan to transform their strong diplomatic ties into concrete projects in manufacturing and trade",
-   "url": "https://dailynews.co.tz/call-for-tanzania-japan-to-transform-their-strong-diplomatic-ties-into-concrete-projects-in-manufacturing-and-trade",
-   "summary": "TOKYO: TANZANIA has called on Japan to strengthen economic and investment cooperation, stressing the need to transform their long-standing diplomatic and development relations into concrete projects in production, manufacturing and trade. Minister of State in the President\u2019s Office for Planning and Investment, Professor Kitila Mkumbo, said Tanzania wants Japanese companies to invest, manufacture a",
-   "kind": "item",
-   "source": "Daily News (Tanzania)",
-   "source_id": "np-dailynews-tz",
-   "tier": 2,
-   "country": "TZ",
-   "category": "press",
-   "segments": [
-    "city",
-    "bush",
-    "beach"
-   ],
-   "first_seen": "2026-09-08T16:40+03:00",
-   "published": "2026-09-08",
-   "verdict": "weak"
-  },
-  {
-   "score": 57.8,
-   "components": {
-    "tier": 20,
-    "category": 4,
-    "lead": 0.0,
-    "relevance": 4,
-    "freshness": 19.8,
-    "corroborated": 10
-   },
-   "keywords": [
-    "investment"
-   ],
-   "shock_terms": [],
-   "dedupe_match": null,
-   "dedupe_similarity": 0.2,
-   "id": "71b7f58333f3",
-   "title": "Tanzania, Algeria explore ways to deepen ties in pharmaceutical, medical device manufacturing",
-   "url": "https://dailynews.co.tz/tanzania-algeria-explore-ways-to-deepen-ties-in-pharmaceutical-medical-device-manufacturing",
-   "summary": "ALGIERS: TANZANIA and Algeria have discussed ways to strengthen cooperation in pharmaceutical and medical device manufacturing, including investment, technology transfer and the exchange of advanced expertise in drug production. The discussions took place in Algiers when Tanzania\u2019s Ambassador to Algeria, Mobhare Matinyi, held talks with Algeria\u2019s Minister of Pharmaceutical Industry, Dr Wassim Koui",
-   "kind": "item",
-   "source": "Daily News (Tanzania)",
-   "source_id": "np-dailynews-tz",
-   "tier": 2,
-   "country": "TZ",
-   "category": "press",
-   "segments": [
-    "city",
-    "bush",
-    "beach"
-   ],
-   "first_seen": "2026-09-08T16:40+03:00",
-   "published": "2026-09-08",
-   "verdict": "weak"
-  },
-  {
-   "score": 57.8,
-   "components": {
-    "tier": 20,
-    "category": 4,
-    "lead": 0.0,
-    "relevance": 4,
-    "freshness": 19.8,
-    "corroborated": 10
-   },
-   "keywords": [
-    "investment"
-   ],
-   "shock_terms": [],
-   "dedupe_match": null,
-   "dedupe_similarity": 0.2,
-   "id": "a66498ecb2fc",
-   "title": "Tanzania seeks Japan\u2019s long-term investment to create jobs, develop skills, expand technology transfer",
-   "url": "https://dailynews.co.tz/tanzania-seeks-japans-long-term-investment-to-create-jobs-develop-skills-expand-technology-transfer",
-   "summary": "TOKYO: Tanzania is ready to attract long-term investment from Japan to create jobs, develop skills, expand technology transfer and production, and improve the competitiveness of Tanzanian products in both domestic and international markets. Speaking at the Tanzania Investment and Business Forum held in Tokyo, Japan, Minister of State in the President\u2019s Office for Planning and \u2026 The post Tanzania s",
-   "kind": "item",
-   "source": "Daily News (Tanzania)",
-   "source_id": "np-dailynews-tz",
-   "tier": 2,
-   "country": "TZ",
-   "category": "press",
-   "segments": [
-    "city",
-    "bush",
-    "beach"
-   ],
-   "first_seen": "2026-09-08T16:40+03:00",
-   "published": "2026-09-08",
+   "first_seen": "2026-09-08T21:48+03:00",
+   "published": null,
    "verdict": "weak"
   }
  ]
