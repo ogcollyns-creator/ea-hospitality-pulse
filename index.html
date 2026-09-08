@@ -236,6 +236,12 @@
   .tab:hover{color:var(--ink)}
   .tab.active{color:var(--teal-d);border-bottom-color:var(--gold)}
   .tab svg{width:15px;height:15px;vertical-align:-3px;margin-right:5px}
+  /* Live count on the Foresight record tab: the scoreboard is the point of
+     that tab, so surface it before the reader clicks. */
+  .tab-chip{display:inline-block;margin-left:6px;background:var(--gold);color:#231a06;
+    font-weight:700;font-size:10px;letter-spacing:.4px;padding:1px 6px;border-radius:999px;
+    vertical-align:middle;line-height:1.6}
+  .tab-chip[hidden]{display:none}
   .tabwrap{padding-top:8px}
   .pane{display:none}
   .pane.active{display:block}
@@ -460,7 +466,7 @@
   .imp-demand{color:var(--sage)} .imp-margin{color:var(--coral)} .imp-risk{color:#ff5b5b} .imp-watch{color:var(--amber)}
   @media(max-width:520px){.imp{position:static;display:inline-flex;margin:0 0 9px}.insight h3,.insight .imeta{padding-right:0}}
 </style>
-<!--BUILD_STAMP:20260908-0753--></head>
+<!--BUILD_STAMP:20260908-1057--></head>
 <body>
 <header class="site">
   <div class="wrap topbar">
@@ -609,7 +615,7 @@
   <p style="max-width:72ch;margin:0 0 14px;color:var(--muted);font-size:15px">
     Eight live datasets we maintain for the region — advisory levels, entry rules and fees, our proprietary rate index, operating costs, air connectivity, the development pipeline, confirmed MICE events, and the destinations competing for your guest.
   </p>
-  <div class="tabs"><button class="tab active" data-pane="rivals"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="12" cy="12" r="10"/><line x1="2" y1="12" x2="22" y2="12"/><path d="M12 2a15.3 15.3 0 0 1 4 10 15.3 15.3 0 0 1-4 10 15.3 15.3 0 0 1-4-10 15.3 15.3 0 0 1 4-10Z"/></svg> Rival destinations</button><button class="tab" data-pane="mice"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M16 21v-2a4 4 0 0 0-4-4H6a4 4 0 0 0-4 4v2"/><circle cx="9" cy="7" r="4"/><path d="M22 21v-2a4 4 0 0 0-3-3.87"/><path d="M16 3.13a4 4 0 0 1 0 7.75"/></svg> MICE</button><button class="tab" data-pane="connect"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><line x1="22" y1="2" x2="11" y2="13"/><polygon points="22 2 15 22 11 13 2 9 22 2"/></svg> Connectivity</button><button class="tab" data-pane="costs"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="3" y="4" width="18" height="18" rx="2"/><line x1="16" y1="2" x2="16" y2="6"/><line x1="8" y1="2" x2="8" y2="6"/><line x1="3" y1="10" x2="21" y2="10"/></svg> Costs &amp; calendar</button><button class="tab" data-pane="pipeline"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="4" y="2" width="16" height="20" rx="1"/><line x1="9" y1="8" x2="9" y2="8.01"/><line x1="15" y1="8" x2="15" y2="8.01"/><line x1="9" y1="14" x2="9" y2="14.01"/><line x1="15" y1="14" x2="15" y2="14.01"/></svg> Pipeline</button><button class="tab" data-pane="rules"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="8" y="2" width="8" height="4" rx="1"/><path d="M9 4H6a2 2 0 0 0-2 2v14a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V6a2 2 0 0 0-2-2h-3"/><path d="m9 14 2 2 4-4"/></svg> Rules &amp; fees</button><button class="tab" data-pane="advisories"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M10.29 3.86 1.82 18a2 2 0 0 0 1.71 3h16.94a2 2 0 0 0 1.71-3L13.71 3.86a2 2 0 0 0-3.42 0Z"/><line x1="12" y1="9" x2="12" y2="13"/><line x1="12" y1="17" x2="12.01" y2="17"/></svg> Travel advisories</button><button class="tab" data-pane="rateindex"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M3 3v18h18"/><path d="m19 9-5 5-4-4-3 3"/></svg> Rate Index</button></div>
+  <div class="tabs"><button class="tab active" data-pane="rivals"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="12" cy="12" r="10"/><line x1="2" y1="12" x2="22" y2="12"/><path d="M12 2a15.3 15.3 0 0 1 4 10 15.3 15.3 0 0 1-4 10 15.3 15.3 0 0 1-4-10 15.3 15.3 0 0 1 4-10Z"/></svg> Rival destinations</button><button class="tab" data-pane="mice"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M16 21v-2a4 4 0 0 0-4-4H6a4 4 0 0 0-4 4v2"/><circle cx="9" cy="7" r="4"/><path d="M22 21v-2a4 4 0 0 0-3-3.87"/><path d="M16 3.13a4 4 0 0 1 0 7.75"/></svg> MICE</button><button class="tab" data-pane="connect"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><line x1="22" y1="2" x2="11" y2="13"/><polygon points="22 2 15 22 11 13 2 9 22 2"/></svg> Connectivity</button><button class="tab" data-pane="costs"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="3" y="4" width="18" height="18" rx="2"/><line x1="16" y1="2" x2="16" y2="6"/><line x1="8" y1="2" x2="8" y2="6"/><line x1="3" y1="10" x2="21" y2="10"/></svg> Costs &amp; calendar</button><button class="tab" data-pane="pipeline"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="4" y="2" width="16" height="20" rx="1"/><line x1="9" y1="8" x2="9" y2="8.01"/><line x1="15" y1="8" x2="15" y2="8.01"/><line x1="9" y1="14" x2="9" y2="14.01"/><line x1="15" y1="14" x2="15" y2="14.01"/></svg> Pipeline</button><button class="tab" data-pane="track"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="12" cy="12" r="10"/><circle cx="12" cy="12" r="6"/><circle cx="12" cy="12" r="2"/></svg> Foresight record<span class="tab-chip" id="tr-chip" hidden></span></button><button class="tab" data-pane="rules"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="8" y="2" width="8" height="4" rx="1"/><path d="M9 4H6a2 2 0 0 0-2 2v14a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V6a2 2 0 0 0-2-2h-3"/><path d="m9 14 2 2 4-4"/></svg> Rules &amp; fees</button><button class="tab" data-pane="advisories"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M10.29 3.86 1.82 18a2 2 0 0 0 1.71 3h16.94a2 2 0 0 0 1.71-3L13.71 3.86a2 2 0 0 0-3.42 0Z"/><line x1="12" y1="9" x2="12" y2="13"/><line x1="12" y1="17" x2="12.01" y2="17"/></svg> Travel advisories</button><button class="tab" data-pane="rateindex"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M3 3v18h18"/><path d="m19 9-5 5-4-4-3 3"/></svg> Rate Index</button></div>
   <div class="tabwrap"><div class="pane" id="advisories"><div class="adv-head">
     <div><div class="kicker">Know before you sell</div><h2>Travel advisory status board</h2></div>
     <span id="adv-updated"></span>
@@ -692,10 +698,7 @@
   <p style="max-width:72ch;margin:0 0 12px;color:var(--muted);font-size:15px">
     East Africa isn't sold in isolation. When Mauritius discounts, Zanzibar bleeds. When the rand weakens, South African safari undercuts the Mara. These are the destinations competing for your guest.
   </p>
-  <div id="rv-body"></div></div></div>
-</section>
-
-<section id="track" class="wrap tr-wrap">
+  <div id="rv-body"></div></div><div class="pane" id="track">
   <div class="adv-head">
     <div><span class="ri-badge">The record</span><h2>Foresight track record</h2></div>
     <span id="tr-updated"></span>
@@ -710,7 +713,9 @@
     <h3 style="margin:22px 0 10px;font-size:18px">Resolved</h3>
     <div id="tr-resolved"></div>
   </div>
+</div></div>
 </section>
+
 
 <div class="band">
 <section id="about" class="wrap">
@@ -1117,6 +1122,8 @@
       '<div class="tr-stat"><div class="n">'+st.resolved+'</div><div class="l">Resolved</div></div>'+
       '<div class="tr-stat"'+(accTitle?' title="'+accTitle+'"':'')+'><div class="n">'+(st.accuracy==null?'—':st.accuracy+'%')+'</div>'+
       '<div class="l">Accuracy (n='+st.resolved+')'+(smallSample?' <span class="tr-early">early</span>':'')+'</div></div>';
+    const chip=document.getElementById('tr-chip');
+    if(chip && st.resolved>0){ chip.textContent=st.resolved+' scored'; chip.hidden=false; }
     // One compact row per call; tap to reveal the test and evidence.
     // Keeps a growing ledger scannable instead of an ever-longer wall of cards.
     const card=(p)=>{
