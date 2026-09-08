@@ -26,59 +26,163 @@ TEAL=(10,79,72); TEAL2=(15,109,99); GOLD=(200,137,47); SAND=(246,241,231); WHITE
 W,H = 1200,630
 
 # ---- curated photo pool -----------------------------------------------
-# Each photo is tagged with keywords; the edition's own text is scanned
-# for a category match so the picture fits the story. No match -> a
-# deterministic hash of the edition id picks one, so the same edition
-# always renders the same photo (stable across rebuilds).
+# Each photo carries (filename, home markets, distinctive keywords).
+#
+# WHY THE SCORING BELOW IS DEFENSIVE
+# On 8 Sep 2026 this edition -- an Ebola-risk lead plus two Zanzibar resort
+# openings -- shipped under a Kigali Convention Centre photo. It had nothing on
+# Rwanda. The cause: choose_photo() counted raw substring hits across the WHOLE
+# edition and took max(), so a single "MICE" in a Week Ahead footnote (a line
+# that explicitly told operators to IGNORE the event) scored 1, beat everything
+# else, and picked the hero. There was no minimum bar and no geography check.
+#
+# assign_edition_photos.py already solved this for its own path -- lead-weighted
+# scoring, MIN_TOPIC_SCORE, "no lead hit means no photo at all" -- but that runs
+# only on the GitHub runner. When it writes no img/editions/<id>.jpg, the build
+# silently falls through to here, which had none of those guards. Ported now.
 POOL = [
-    # These are pan-East-Africa briefs that name every country every day, so
-    # country and hub-city names are NOT discriminative. Keys below are rare,
-    # distinctive signals only; an edition with no strong theme falls back to an
-    # even hash spread, which keeps the visible photography varied.
-    ("hero-serengeti.jpg", ["safari","serengeti","savannah","game drive","game reserve",
+    ("hero-serengeti.jpg", ["TZ","KE"], ["safari","serengeti","savannah","game drive","game reserve",
         "ngorongoro","tarangire","big five","big cat","leopard","cheetah"]),
-    ("city-nairobi.jpg", ["cbd","westlands","upper hill","upperhill","gigiri",
+    ("city-nairobi.jpg", ["KE"], ["cbd","westlands","upper hill","upperhill","gigiri",
         "nairobi expressway","business district","office space","grade a office"]),
-    ("beach-zanzibar.jpg", ["diani","nungwi","kendwa","watamu","kilifi","malindi",
-        "dhow","coral reef","snorkel","white sand","beach resort"]),
-    ("gorilla-volcanoes.jpg", ["gorilla","gorillas","chimpanzee","chimp","bwindi",
+    ("beach-zanzibar.jpg", ["TZ"], ["nungwi","kendwa","pwani mchangani","unguja",
+        "dhow","coral reef","snorkel","white sand","beach resort","beach hotel"]),
+    ("gorilla-volcanoes.jpg", ["RW","UG"], ["gorilla","gorillas","chimpanzee","chimp","bwindi",
         "volcanoes national park","virunga","nyungwe","golden monkey","gorilla trek",
         "gorilla permit","primate"]),
-    ("amboseli-kilimanjaro.jpg", ["amboseli","elephant","elephants","tusker","tsavo"]),
-    ("mara-crossing.jpg", ["wildebeest","mara river","great migration","river crossing",
+    ("amboseli-kilimanjaro.jpg", ["KE","TZ"], ["amboseli","elephant","elephants","tusker","tsavo"]),
+    ("mara-crossing.jpg", ["KE","TZ"], ["wildebeest","mara river","great migration","river crossing",
         "calving","the migration"]),
-    ("stonetown-zanzibar.jpg", ["stone town","swahili","forodhani","old fort",
+    ("stonetown-zanzibar.jpg", ["TZ"], ["stone town","swahili","forodhani","old fort",
         "spice tour","world heritage"]),
-    ("kigali-convention.jpg", ["conference","convention","mice","summit","congress",
+    ("kigali-convention.jpg", ["RW"], ["conference","convention","mice","summit","congress",
         "expo","exhibition","delegates","trade show","business events","conferencing",
         "icca","incentive travel","conference tourism"]),
-    ("kigali-night.jpg", ["nyarugenge","kigali skyline","rwandan capital","kigali city"]),
-    ("kenya-airways-aircraft.jpg", ["airline","aviation","aircraft","jkia","kenya airways",
+    ("kigali-night.jpg", ["RW"], ["nyarugenge","kigali skyline","rwandan capital","kigali city"]),
+    ("kenya-airways-aircraft.jpg", ["KE"], ["airline","aviation","aircraft","jkia","kenya airways",
         "rwandair","air tanzania","new route","direct flight","seat capacity","frequencies",
         "load factor","airlift","aircraft order","route launch","widebody"]),
-    ("kyobe-nile-lodge.jpg", ["river nile","murchison","jinja","kabalega",
+    ("kyobe-nile-lodge.jpg", ["UG"], ["river nile","murchison","jinja","kabalega",
         "pearl of africa","source of the nile","lake albert"]),
-    ("uhuru-kilimanjaro.jpg", ["kilimanjaro","uhuru","summit push","trekking","mountaineering",
+    ("uhuru-kilimanjaro.jpg", ["TZ"], ["kilimanjaro","uhuru","summit push","trekking","mountaineering",
         "machame","marangu","kili","climbers","altitude"]),
 ]
-DEFAULT_PHOTO = "hero-serengeti.jpg"   # site-wide default card
+DEFAULT_PHOTO = "hero-serengeti.jpg"   # pan-regional; claims no specific market
+
+# A hero must match the LEAD, not vocabulary that happens to appear somewhere in
+# 3,000 words. Same constants as assign_edition_photos.py, same reasoning.
+LEAD_WEIGHT = 3
+SENSITIVE_LEAD = ["ebola","outbreak","epidemic","cholera","marburg","pheic",
+                  "do not travel","level 4","advisory","terror","attack","kidnap",
+                  "unrest","protest","evacuation","crash","fatal","quarantine"]
+WILDLIFE_FRAMES = {"gorilla-volcanoes.jpg", "mara-crossing.jpg",
+                   "amboseli-kilimanjaro.jpg", "hero-serengeti.jpg"}
+MIN_TOPIC_SCORE = 3        # >=1 lead hit, or >=3 body hits, before we trust a topic
+
+# Which market is the edition actually about? Used to veto a geographically
+# wrong photo even when a topic scores, and to steer the no-match fallback.
+COUNTRY_MARKERS = {
+    "KE": ["kenya","nairobi","mombasa","diani","knbs","kws","epra","jkia","kenyan"],
+    "UG": ["uganda","kampala","entebbe","ubos","bwindi","ugandan"],
+    "TZ": ["tanzania","zanzibar","dar es salaam","arusha","serengeti","unguja",
+           "pemba","stone town","tanzanian","zanzibari"],
+    "RW": ["rwanda","kigali","musanze","rdb","rwandan"],
+}
 
 def available_pool():
     """Only offer photos that are actually present, so the build never breaks
     before fetch_images.py has been run. Falls back to the full list."""
-    present = [(fn, kws) for fn, kws in POOL if os.path.exists(os.path.join(IMG, fn))]
+    present = [(fn, mk, kws) for fn, mk, kws in POOL if os.path.exists(os.path.join(IMG, fn))]
     return present or POOL
 
-def choose_photo(eid, text):
+# Item markers like "1\ufe0f\u20e3" and section emoji render as tofu boxes in the
+# card fonts -- they have no glyph in Inter/Source Sans. Strip them from headline
+# text rather than shipping a broken square next to the masthead.
+_EMOJI = re.compile(
+    "[\U0001F000-\U0001FAFF\u2190-\u21FF\u2300-\u27BF\u2B00-\u2BFF"
+    "\uFE0F\u20E3\u2600-\u26FF]+")
+
+def _strip_emoji(s):
+    s = _EMOJI.sub("", s or "")
+    # "1\ufe0f\u20e3 HEADLINE" leaves a bare "1 " once the keycap is removed
+    s = re.sub(r"^\s*\d{1,2}\s+(?=[A-Z])", "", s)
+    return re.sub(r"\s{2,}", " ", s).strip(" -\u2014\u00b7")
+
+
+_CREDITS_CACHE = {}
+
+def _is_data_card(eid):
+    """True when hero_extra.py generated a typographic data card for this edition."""
+    if not _CREDITS_CACHE:
+        try:
+            with open(os.path.join(IMG, "edition-credits.json"), encoding="utf-8") as fh:
+                _CREDITS_CACHE.update(json.load(fh))
+        except Exception:
+            _CREDITS_CACHE["__none__"] = {}
+    rec = _CREDITS_CACHE.get(eid) or {}
+    return rec.get("source_kind") == "data-card"
+
+
+def _hits(text, kws):
+    """Word-boundary matches. Substring counting was part of the old bug."""
+    n = 0
+    for kw in kws:
+        n += len(re.findall(r"(?<![a-z])" + re.escape(kw) + r"(?![a-z])", text))
+    return n
+
+
+def focus_countries(lead_low, body_low):
+    """Markets the edition genuinely COVERS.
+
+    Deliberately NOT lead-weighted. This set is a veto list, and its only job is
+    to exclude countries the edition does not discuss -- the 8 Sep Kigali error.
+    Weighting it by the lead made it a one-country filter, which then pushed an
+    Ebola-risk lead towards a gorilla photo because that was the only frame left
+    standing. Coverage decides eligibility; the topic score below decides which.
+    """
+    sc = {c: _hits(body_low, m) for c, m in COUNTRY_MARKERS.items()}
+    top = max(sc.values()) if sc else 0
+    if top == 0:
+        return set()
+    return {c for c, v in sc.items() if v >= 2 and v >= top * 0.2}
+
+
+def choose_photo(eid, text, lead=""):
+    """Pick a hero that matches the LEAD and the edition's actual geography.
+
+    Returns DEFAULT_PHOTO rather than guessing: a pan-regional savannah frame
+    claims no market, which is the honest failure mode. A confident-looking
+    photo of the wrong country is not.
+    """
     pool = available_pool()
-    text_low = (text or "").lower()
-    scores = [sum(text_low.count(kw) for kw in kws) for _, kws in pool]
-    best = max(scores) if scores else 0
-    if best > 0:
-        idx = scores.index(best)
-    else:
-        idx = int(hashlib.md5(eid.encode()).hexdigest(), 16) % len(pool)
-    return pool[idx][0]
+    body_low = (text or "").lower()
+    lead_low = (lead or "").lower()
+    focus = focus_countries(lead_low, body_low)
+
+    # A lead about an outbreak, advisory or security shock must not be
+    # illustrated with a wildlife trophy frame -- that reads as tone-deaf even
+    # when the geography is right.
+    sensitive = _hits(lead_low, SENSITIVE_LEAD) > 0
+
+    scored = []
+    for fn, markets, kws in pool:
+        if focus and not (set(markets) & focus):
+            continue                                   # geography veto
+        if sensitive and fn in WILDLIFE_FRAMES:
+            continue                                   # tone veto
+        s = _hits(lead_low, kws) * LEAD_WEIGHT + _hits(body_low, kws)
+        scored.append((s, fn))
+
+    if scored:
+        best = max(scored)
+        if best[0] >= MIN_TOPIC_SCORE:
+            return best[1]
+        # No confident subject. Stay inside the edition's geography and spread
+        # deterministically so the site does not repeat one frame all week.
+        eligible = sorted(fn for _, fn in scored)
+        if eligible:
+            return eligible[int(hashlib.md5(eid.encode()).hexdigest(), 16) % len(eligible)]
+    return DEFAULT_PHOTO
 
 def f(path,size):
     return ImageFont.truetype(path,size)
@@ -196,7 +300,7 @@ def main(editions=None):
               DEFAULT_PHOTO).save(os.path.join(OG,"default.png"))
     # text-free in-page heroes — one per source photo (small, reused across editions)
     hero_for = {}
-    for photo_file, _ in available_pool():
+    for photo_file, _, _ in available_pool():
         out = "clean-" + os.path.splitext(photo_file)[0] + ".png"
         if not os.path.exists(os.path.join(OG, out)):
             light_hero(photo_file).save(os.path.join(OG, out))
@@ -205,14 +309,25 @@ def main(editions=None):
     hero_map = {}
     if editions:
         for e in editions:
-            head=e["summary"].split(".")[0][:150]
-            match_text = e["summary"] + " " + re.sub(r"<[^>]+>", " ", e.get("bodyHtml",""))
-            ed_photo = os.path.join(EDIMG, e["id"] + ".jpg")   # unique per-edition Commons photo, if fetched
-            if os.path.exists(ed_photo):
+            head=_strip_emoji(e["summary"].split(".")[0])[:150]
+            plain = re.sub(r"<[^>]+>", " ", e.get("bodyHtml",""))
+            match_text = e["summary"] + " " + plain
+            # LEAD = headline + first story. Anything after it (Week Ahead,
+            # radar block, footnotes) must not be able to pick the hero.
+            lead_text = e["summary"] + " " + plain[:1200]
+            ed_photo = os.path.join(EDIMG, e["id"] + ".jpg")   # per-edition photo or data card
+            if os.path.exists(ed_photo) and _is_data_card(e["id"]):
+                # Already a finished, self-dating card carrying the edition's own
+                # figure and headline. Compositing base_card() on top of it printed
+                # the masthead, headline and date twice, ghosted over each other.
+                card = Image.open(ed_photo).convert("RGB")
+                cover_resize(card, W, H).save(os.path.join(OG, e["id"] + ".png"))
+                cover_resize(card, W, H).save(os.path.join(OG, e["id"] + "-clean.png"))
+            elif os.path.exists(ed_photo):
                 base_card(e["edition"], head, e["dateDisplay"], ed_photo).save(os.path.join(OG,e["id"]+".png"))
                 light_hero(ed_photo).save(os.path.join(OG, e["id"]+"-clean.png"))
             else:
-                photo = choose_photo(e["id"], match_text)          # curated-pool fallback
+                photo = choose_photo(e["id"], match_text, lead_text)          # curated-pool fallback
                 base_card(e["edition"], head, e["dateDisplay"], photo).save(os.path.join(OG,e["id"]+".png"))
                 clean_name = hero_for.get(photo, "clean-default.png")
                 shutil.copyfile(os.path.join(OG, clean_name), os.path.join(OG, e["id"]+"-clean.png"))

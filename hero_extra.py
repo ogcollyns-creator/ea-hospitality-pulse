@@ -691,18 +691,31 @@ def _number_of_the_day(md):
     verified figure of the edition, chosen by hand and traced to a named source. That
     is better hero material than any stock photograph, and it can never be off-topic.
     """
-    m = re.search(r"NUMBER OF THE DAY\*?\s*\n+\*?\s*([^\n*]+?)\s*\*?\s*[\u2014-]\s*([^\n]+)", md)
+    # Tolerant by design. The old pattern required the figure on the NEXT line and
+    # no colon after the label, so the ordinary one-line form
+    #   NUMBER OF THE DAY:* **2,071** - extra Ebola beds ...
+    # silently returned nothing. When this parser misses, data_card_pass() skips
+    # the edition and the build falls through to a stock photo -- which is how the
+    # 8 Sep brief ended up under a Kigali convention centre. Accept both layouts.
+    m = re.search(
+        r"NUMBER OF THE DAY\**\s*:?\s*\**\s*(?:\n\s*)?"     # label, colon and newline all optional
+        r"\**\s*([^\n*\u2014-]+?)\s*\**\s*"                  # the figure
+        r"[\u2014\u2013-]\s*"                                  # em/en dash or hyphen
+        r"([^\n]+)", md)
     if not m:
         return None, None
     fig = m.group(1).strip().strip("*").strip()
-    cap = m.group(2).strip().rstrip("*").strip()
+    cap = re.sub(r"\*+", "", m.group(2)).strip()
     return (fig or None), (cap or None)
 
 
 def _lead_headline(md):
-    m = re.search(r"^1\ufe0f\u20e3\s*(.+)$", md, re.M)
+    # The item marker is frequently wrapped in markdown bold (**1\ufe0f\u20e3 HEADLINE**),
+    # which the old anchored pattern could not see.
+    m = re.search(r"^\**\s*1\ufe0f?\u20e3\s*(.+?)\s*\**$", md, re.M)
     if m:
-        return re.sub(r"^[\U0001F000-\U0001FAFF\u2600-\u27BF\s]+", "", m.group(1)).strip()
+        head = re.sub(r"^[\U0001F000-\U0001FAFF\u2600-\u27BF\s]+", "", m.group(1))
+        return head.strip().strip("*").strip()
     return None
 
 
