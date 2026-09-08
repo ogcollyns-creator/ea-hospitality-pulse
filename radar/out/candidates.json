@@ -1,18 +1,18 @@
 {
- "generated": "2026-09-08T01:43:34+03:00",
+ "generated": "2026-09-08T06:35:07+03:00",
  "slot": "morning",
  "window_start": 1788793200,
- "observations_in_window": 347,
- "deduped_against": 29,
+ "observations_in_window": 422,
+ "deduped_against": 22,
  "candidates": [
   {
-   "score": 65.3,
+   "score": 59.9,
    "components": {
     "tier": 40,
     "category": 12,
     "lead": 3.6,
     "relevance": 0,
-    "freshness": 19.7,
+    "freshness": 14.3,
     "undated": -6,
     "page_change": -4
    },
@@ -40,47 +40,85 @@
    "verdict": "OPEN THIS \u2014 tier-1 airline page moved; content not auto-parsed, read it manually"
   },
   {
-   "score": 99.8,
+   "score": 97.7,
    "components": {
     "tier": 40,
-    "category": 24,
-    "lead": 2.4,
-    "relevance": 12,
-    "freshness": 11.4,
-    "corroborated": 10
+    "category": 20,
+    "lead": 12.0,
+    "relevance": 16,
+    "freshness": 19.7,
+    "stale_trap": -10
    },
    "keywords": [
-    "ebola"
+    "tax",
+    "eta"
    ],
    "shock_terms": [],
    "dedupe_match": null,
-   "dedupe_similarity": 0.2,
-   "id": "b883d4c4554d",
-   "title": "Democratic Republic of the Congo reported",
-   "url": "https://insp.cd/wp-content/uploads/2026/09/SitRep_MVEBDB_114_05_09_2026.pdf",
-   "summary": "1 fr-FR fr-FR fr-FR fr-FRRapport de Situation de la 17\u00e8me \u00c9pid\u00e9mie de la Maladie \u00e0 Virus EBOLA /RDC fr-FR fr-FRSitRep N\u00b0114/MVEBDB/06/09/2026 fr-FR Date de rapportage : 05 septembre 2026 Date de publication : 06 septembre 2026 fr-FR fr-FR fr-FR fr-FR fr-FR fr-FR fr-FR fr-FR fr-FR fr-CD fr-FR fr-FR fr-CD fr-CD fr-FR fr-FR fr-FR fr-FR fr-FR fr-FR fr-FR fr-FR fr-FR fr-FR fr-FR fr-FR fr-FR fr-FR fr-FR",
-   "kind": "doc",
-   "source": "ECDC \u2014 DRC/Uganda Ebola outbreak page",
-   "source_id": "ecdc-ebola",
+   "dedupe_similarity": 0.25,
+   "id": "3c4c2221b8b6",
+   "title": "Palsgaard Kenya Ltd v Commissioner Customs and Border Control (Tax Appeal E1237 of 2025) [2026] KETAT 338 (KLR) (4 September 2026) (Judgment)",
+   "url": "https://new.kenyalaw.org/akn/ke/judgment/ketat/2026/338/eng@2026-09-04",
+   "summary": "Palsgaard Kenya Ltd v Commissioner Customs and Border Control (Tax Appeal E1237 of 2025) [2026] KETAT 338 (KLR) (4 September 2026) (Judgment)",
+   "kind": "item",
+   "source": "Kenya Gazette (Kenya Law)",
+   "source_id": "ke-gazette",
    "tier": 1,
-   "country": "GLOBAL",
-   "category": "health",
+   "country": "KE",
+   "category": "gazette",
    "segments": [
     "city",
-    "bush"
+    "bush",
+    "beach"
    ],
-   "first_seen": "2026-09-07T18:04+03:00",
-   "published": "2026-09-06",
-   "verdict": "STRONG \u2014 tier-1, upstream"
+   "first_seen": "2026-09-08T06:32+03:00",
+   "published": "2026-09-04",
+   "verdict": "CHECK \u2014 source date older than the window"
   },
   {
-   "score": 96.3,
+   "score": 97.7,
+   "components": {
+    "tier": 40,
+    "category": 20,
+    "lead": 12.0,
+    "relevance": 16,
+    "freshness": 19.7,
+    "stale_trap": -10
+   },
+   "keywords": [
+    "tax",
+    "eta"
+   ],
+   "shock_terms": [],
+   "dedupe_match": null,
+   "dedupe_similarity": 0.17,
+   "id": "29589150fe5f",
+   "title": "Krona Plastics Ltd v Commissioner of Customs & Border Control (Tax Appeal E136 of 2026) [2026] KETAT 337 (KLR) (4 September 2026) (Judgment)",
+   "url": "https://new.kenyalaw.org/akn/ke/judgment/ketat/2026/337/eng@2026-09-04",
+   "summary": "Krona Plastics Ltd v Commissioner of Customs & Border Control (Tax Appeal E136 of 2026) [2026] KETAT 337 (KLR) (4 September 2026) (Judgment)",
+   "kind": "item",
+   "source": "Kenya Gazette (Kenya Law)",
+   "source_id": "ke-gazette",
+   "tier": 1,
+   "country": "KE",
+   "category": "gazette",
+   "segments": [
+    "city",
+    "bush",
+    "beach"
+   ],
+   "first_seen": "2026-09-08T06:32+03:00",
+   "published": "2026-09-04",
+   "verdict": "CHECK \u2014 source date older than the window"
+  },
+  {
+   "score": 90.9,
    "components": {
     "tier": 20,
     "category": 9,
     "lead": 3.6,
     "relevance": 16,
-    "freshness": 19.7,
+    "freshness": 14.3,
     "corroborated": 10,
     "shock": 18
    },
@@ -112,13 +150,13 @@
    "verdict": "CONSIDER"
   },
   {
-   "score": 92.4,
+   "score": 87.0,
    "components": {
     "tier": 20,
     "category": 14,
     "lead": 8.4,
     "relevance": 24,
-    "freshness": 16.0,
+    "freshness": 10.6,
     "corroborated": 10
    },
    "keywords": [
@@ -150,13 +188,46 @@
    "verdict": "CONSIDER"
   },
   {
-   "score": 88.1,
+   "score": 84.4,
+   "components": {
+    "tier": 40,
+    "category": 24,
+    "lead": 2.4,
+    "relevance": 12,
+    "freshness": 6.0
+   },
+   "keywords": [
+    "ebola"
+   ],
+   "shock_terms": [],
+   "dedupe_match": null,
+   "dedupe_similarity": 0.0,
+   "id": "b883d4c4554d",
+   "title": "Democratic Republic of the Congo reported",
+   "url": "https://insp.cd/wp-content/uploads/2026/09/SitRep_MVEBDB_114_05_09_2026.pdf",
+   "summary": "1 fr-FR fr-FR fr-FR fr-FRRapport de Situation de la 17\u00e8me \u00c9pid\u00e9mie de la Maladie \u00e0 Virus EBOLA /RDC fr-FR fr-FRSitRep N\u00b0114/MVEBDB/06/09/2026 fr-FR Date de rapportage : 05 septembre 2026 Date de publication : 06 septembre 2026 fr-FR fr-FR fr-FR fr-FR fr-FR fr-FR fr-FR fr-FR fr-FR fr-CD fr-FR fr-FR fr-CD fr-CD fr-FR fr-FR fr-FR fr-FR fr-FR fr-FR fr-FR fr-FR fr-FR fr-FR fr-FR fr-FR fr-FR fr-FR fr-FR",
+   "kind": "doc",
+   "source": "ECDC \u2014 DRC/Uganda Ebola outbreak page",
+   "source_id": "ecdc-ebola",
+   "tier": 1,
+   "country": "GLOBAL",
+   "category": "health",
+   "segments": [
+    "city",
+    "bush"
+   ],
+   "first_seen": "2026-09-07T18:04+03:00",
+   "published": "2026-09-06",
+   "verdict": "CONSIDER"
+  },
+  {
+   "score": 82.7,
    "components": {
     "tier": 20,
     "category": 14,
     "lead": 8.4,
     "relevance": 16,
-    "freshness": 19.7,
+    "freshness": 14.3,
     "corroborated": 10
    },
    "keywords": [
@@ -186,13 +257,13 @@
    "verdict": "CONSIDER"
   },
   {
-   "score": 87.8,
+   "score": 82.4,
    "components": {
     "tier": 20,
     "category": 14,
     "lead": 8.4,
     "relevance": 24,
-    "freshness": 11.4,
+    "freshness": 6.0,
     "corroborated": 10
    },
    "keywords": [
@@ -223,13 +294,145 @@
    "verdict": "CONSIDER"
   },
   {
-   "score": 86.9,
+   "score": 81.7,
+   "components": {
+    "tier": 40,
+    "category": 20,
+    "lead": 12.0,
+    "relevance": 0,
+    "freshness": 19.7,
+    "stale_trap": -10
+   },
+   "keywords": [],
+   "shock_terms": [],
+   "dedupe_match": null,
+   "dedupe_similarity": 0.17,
+   "id": "e61c79db598d",
+   "title": "Wafula v Musani (Civil Suit E313 of 2024) [2026] KEMC 866 (KLR) (3 September 2026) (Ruling)",
+   "url": "https://new.kenyalaw.org/akn/ke/judgment/kemc/2026/866/eng@2026-09-03",
+   "summary": "Wafula v Musani (Civil Suit E313 of 2024) [2026] KEMC 866 (KLR) (3 September 2026) (Ruling)",
+   "kind": "item",
+   "source": "Kenya Gazette (Kenya Law)",
+   "source_id": "ke-gazette",
+   "tier": 1,
+   "country": "KE",
+   "category": "gazette",
+   "segments": [
+    "city",
+    "bush",
+    "beach"
+   ],
+   "first_seen": "2026-09-08T06:32+03:00",
+   "published": "2026-09-03",
+   "verdict": "CHECK \u2014 source date older than the window"
+  },
+  {
+   "score": 81.7,
+   "components": {
+    "tier": 40,
+    "category": 20,
+    "lead": 12.0,
+    "relevance": 0,
+    "freshness": 19.7,
+    "stale_trap": -10
+   },
+   "keywords": [],
+   "shock_terms": [],
+   "dedupe_match": null,
+   "dedupe_similarity": 0.17,
+   "id": "3e4f5a2efefc",
+   "title": "Barasa v Okumu (Civil Suit E229 of 2026) [2026] KEMC 867 (KLR) (3 September 2026) (Ruling)",
+   "url": "https://new.kenyalaw.org/akn/ke/judgment/kemc/2026/867/eng@2026-09-03",
+   "summary": "Barasa v Okumu (Civil Suit E229 of 2026) [2026] KEMC 867 (KLR) (3 September 2026) (Ruling)",
+   "kind": "item",
+   "source": "Kenya Gazette (Kenya Law)",
+   "source_id": "ke-gazette",
+   "tier": 1,
+   "country": "KE",
+   "category": "gazette",
+   "segments": [
+    "city",
+    "bush",
+    "beach"
+   ],
+   "first_seen": "2026-09-08T06:32+03:00",
+   "published": "2026-09-03",
+   "verdict": "CHECK \u2014 source date older than the window"
+  },
+  {
+   "score": 81.7,
+   "components": {
+    "tier": 40,
+    "category": 20,
+    "lead": 12.0,
+    "relevance": 0,
+    "freshness": 19.7,
+    "stale_trap": -10
+   },
+   "keywords": [],
+   "shock_terms": [],
+   "dedupe_match": null,
+   "dedupe_similarity": 0.17,
+   "id": "279ab9318b9f",
+   "title": "In re Mwakulagizwa (Deceased) (Succession Cause E142 of 2026) [2026] KEMC 865 (KLR) (3 September 2026) (Judgment)",
+   "url": "https://new.kenyalaw.org/akn/ke/judgment/kemc/2026/865/eng@2026-09-03",
+   "summary": "In re Mwakulagizwa (Deceased) (Succession Cause E142 of 2026) [2026] KEMC 865 (KLR) (3 September 2026) (Judgment)",
+   "kind": "item",
+   "source": "Kenya Gazette (Kenya Law)",
+   "source_id": "ke-gazette",
+   "tier": 1,
+   "country": "KE",
+   "category": "gazette",
+   "segments": [
+    "city",
+    "bush",
+    "beach"
+   ],
+   "first_seen": "2026-09-08T06:32+03:00",
+   "published": "2026-09-03",
+   "verdict": "CHECK \u2014 source date older than the window"
+  },
+  {
+   "score": 81.7,
+   "components": {
+    "tier": 40,
+    "category": 20,
+    "lead": 12.0,
+    "relevance": 0,
+    "freshness": 19.7,
+    "stale_trap": -10
+   },
+   "keywords": [],
+   "shock_terms": [],
+   "dedupe_match": null,
+   "dedupe_similarity": 0.17,
+   "id": "b0b859938b44",
+   "title": "Republic v Nyambeka (Criminal Case E265 of 2026) [2026] KEMC 864 (KLR) (3 September 2026) (Sentence)",
+   "url": "https://new.kenyalaw.org/akn/ke/judgment/kemc/2026/864/eng@2026-09-03",
+   "summary": "Republic v Nyambeka (Criminal Case E265 of 2026) [2026] KEMC 864 (KLR) (3 September 2026) (Sentence)",
+   "kind": "item",
+   "source": "Kenya Gazette (Kenya Law)",
+   "source_id": "ke-gazette",
+   "tier": 1,
+   "country": "KE",
+   "category": "gazette",
+   "segments": [
+    "city",
+    "bush",
+    "beach"
+   ],
+   "first_seen": "2026-09-08T06:32+03:00",
+   "published": "2026-09-03",
+   "verdict": "CHECK \u2014 source date older than the window"
+  },
+  {
+   "score": 81.5,
    "components": {
     "tier": 40,
     "category": 32,
     "lead": 1.2,
     "relevance": 0,
-    "freshness": 19.7,
+    "freshness": 14.3,
     "undated": -6
    },
    "keywords": [],
@@ -256,13 +459,222 @@
    "verdict": "CONSIDER"
   },
   {
-   "score": 85.3,
+   "score": 81.3,
+   "components": {
+    "tier": 40,
+    "category": 32,
+    "lead": 3.6,
+    "relevance": 0,
+    "freshness": 19.7,
+    "stale_trap": -10,
+    "page_change": -4
+   },
+   "keywords": [],
+   "shock_terms": [],
+   "dedupe_match": null,
+   "dedupe_similarity": 0.0,
+   "id": "df2b8fc1ff72",
+   "title": "[page changed] Federal Register \u2014 public inspection (HHS/CDC), pre-publication",
+   "url": "https://www.federalregister.gov/api/v1/public-inspection-documents/current.json",
+   "summary": "{\"count\":77,\"results\":[{\"agencies\":[{\"raw_name\":\"Health Resources and Services Administration\",\"name\":\"Health Resources and Services Administration\",\"id\":222,\"url\":\"https://www.federalregister.gov/agencies/health-resources-and-services-administration\",\"json_url\":\"https://www.federalregister.gov/api/v1/agencies/222\",\"parent_id\":221,\"slug\":\"health-resources-and-services-administration\"}],\"agency_let",
+   "kind": "page-change",
+   "source": "Federal Register \u2014 public inspection (HHS/CDC), pre-publication",
+   "source_id": "us-fedreg-pubinspect-hhs",
+   "tier": 1,
+   "country": "REG",
+   "category": "advisory",
+   "segments": [
+    "city",
+    "bush"
+   ],
+   "first_seen": "2026-09-08T06:32+03:00",
+   "published": "2026-09-03",
+   "verdict": "CHECK \u2014 source date older than the window"
+  },
+  {
+   "score": 80.2,
+   "components": {
+    "tier": 20,
+    "category": 14,
+    "lead": 8.4,
+    "relevance": 8,
+    "freshness": 19.8,
+    "corroborated": 10
+   },
+   "keywords": [
+    "charter"
+   ],
+   "shock_terms": [],
+   "dedupe_match": null,
+   "dedupe_similarity": 0.17,
+   "id": "13675694e495",
+   "title": "Batik Air Malaysia Dec 2026/Jan 2027 Penang \u2013 Osaka Charters",
+   "url": "https://www.aeroroutes.com/eng/260907-oddec26penkix",
+   "summary": "Published at 2000PDT 07SEP26 / 0300GMT 08SEP26 Batik Air Malaysia during 2026-27 New Year Holidays schedules Penang \u2013 Osaka Kansai charter, on board Boeing 737 MAX 8. Planned charter schedule on 30DEC26 and 03JAN27 as follows. OD8862 PEN0030 \u2013 0805KIX 7M8 OD8863 KIX0905 \u2013 1435PEN 7M8",
+   "kind": "item",
+   "source": "AeroRoutes schedule filings",
+   "source_id": "aeroroutes",
+   "tier": 2,
+   "country": "GLOBAL",
+   "category": "aviation-tracker",
+   "segments": [
+    "city",
+    "bush",
+    "beach"
+   ],
+   "first_seen": "2026-09-08T06:32+03:00",
+   "published": "2026-09-08",
+   "verdict": "CONSIDER"
+  },
+  {
+   "score": 80.2,
+   "components": {
+    "tier": 20,
+    "category": 14,
+    "lead": 8.4,
+    "relevance": 8,
+    "freshness": 19.8,
+    "corroborated": 10
+   },
+   "keywords": [
+    "airline",
+    "flight"
+   ],
+   "shock_terms": [],
+   "dedupe_match": null,
+   "dedupe_similarity": 0.17,
+   "id": "8e9f80dcf15e",
+   "title": "Scat Airlines Adds Sanya / Singapore Service in 4Q26",
+   "url": "https://www.aeroroutes.com/eng/260907-dv4q26syxsin",
+   "summary": "Published at 1900PDT 07SEP26 / 0200GMT 08SEP26 Kazakhstan\u2019s Scat Airlines in Northern winter 2026/27 season plans to launch regular scheduled service to Sanya and Singapore, with 2 weekly flights scheduled flights from 20OCT26, on board Boeing 737 MAX 8 aircraft. Operational routing will be Shymkent \u2013 Sanya \u2013 Singapore . Schedule below focuses on 29OCT26 \u2013 31DEC26. DV777 CIT0640 \u2013 1540SYX1830 \u2013 21",
+   "kind": "item",
+   "source": "AeroRoutes schedule filings",
+   "source_id": "aeroroutes",
+   "tier": 2,
+   "country": "GLOBAL",
+   "category": "aviation-tracker",
+   "segments": [
+    "city",
+    "bush",
+    "beach"
+   ],
+   "first_seen": "2026-09-08T06:32+03:00",
+   "published": "2026-09-08",
+   "verdict": "CONSIDER"
+  },
+  {
+   "score": 80.2,
+   "components": {
+    "tier": 20,
+    "category": 14,
+    "lead": 8.4,
+    "relevance": 8,
+    "freshness": 19.8,
+    "corroborated": 10
+   },
+   "keywords": [
+    "route"
+   ],
+   "shock_terms": [],
+   "dedupe_match": null,
+   "dedupe_similarity": 0.2,
+   "id": "5d4000570e09",
+   "title": "flynas Adds Jeddah \u2013 Aleppo From Sep 2026",
+   "url": "https://www.aeroroutes.com/eng/260907-xysep26alp",
+   "summary": "Published at 1800PDT 07SEP26 / 0100GMT 08SEP26 Saudi low-cost carrier flynas last week launched additional route to Syria, which saw the inaugural of Jeddah \u2013 Aleppo route on 02SEP26. Airbus A320neo aircraft operates this route twice weekly. XY559 JED1340 \u2013 1610ALP 32N 37 XY560 ALP1720 \u2013 2000JED 32N 37",
+   "kind": "item",
+   "source": "AeroRoutes schedule filings",
+   "source_id": "aeroroutes",
+   "tier": 2,
+   "country": "GLOBAL",
+   "category": "aviation-tracker",
+   "segments": [
+    "city",
+    "bush",
+    "beach"
+   ],
+   "first_seen": "2026-09-08T06:32+03:00",
+   "published": "2026-09-08",
+   "verdict": "CONSIDER"
+  },
+  {
+   "score": 80.2,
+   "components": {
+    "tier": 20,
+    "category": 14,
+    "lead": 8.4,
+    "relevance": 8,
+    "freshness": 19.8,
+    "corroborated": 10
+   },
+   "keywords": [
+    "route"
+   ],
+   "shock_terms": [],
+   "dedupe_match": null,
+   "dedupe_similarity": 0.2,
+   "id": "d39843c1cc24",
+   "title": "flynas adds Madinah \u2013 Prishtina Service in NW26",
+   "url": "https://www.aeroroutes.com/eng/260907-xynw26prn",
+   "summary": "Published at 1701PDT 07SEP26 / 0001GMT 08SEP26 Saudi low-cost carrier flynas at the launch of Northern winter 2026/27 season plans to launch its second scheduled European route from Madinah, with the scheduling of Madinah \u2013 Prishtina route. Airbus A320neo aircraft to serve this route on weekly basis from 26OCT26. XY801 MED0455 \u2013 0725PRN 32N 1 XY802 PRN0815 \u2013 1400MED 32N 1",
+   "kind": "item",
+   "source": "AeroRoutes schedule filings",
+   "source_id": "aeroroutes",
+   "tier": 2,
+   "country": "GLOBAL",
+   "category": "aviation-tracker",
+   "segments": [
+    "city",
+    "bush",
+    "beach"
+   ],
+   "first_seen": "2026-09-08T06:32+03:00",
+   "published": "2026-09-08",
+   "verdict": "CONSIDER"
+  },
+  {
+   "score": 80.2,
+   "components": {
+    "tier": 20,
+    "category": 14,
+    "lead": 8.4,
+    "relevance": 8,
+    "freshness": 19.8,
+    "corroborated": 10
+   },
+   "keywords": [
+    "route"
+   ],
+   "shock_terms": [],
+   "dedupe_match": null,
+   "dedupe_similarity": 0.17,
+   "id": "6a6fc2b01fa7",
+   "title": "Air India Transfers Chennai \u2013 Singapore to Air India Express in NW26",
+   "url": "https://www.aeroroutes.com/eng/260907-aiixnw26sin",
+   "summary": "Published at 1600PDT / 2300GMT 07SEP26 Air India at the launch of Northern winter 2026/27 season is transferring Chennai \u2013 Singapore service to Air India Express, which marks the end of Air India\u2019s mainline international operation at Chennai. From 25OCT26, Air India Express 737 MAX 8 aircraft operates this route twice daily. IX628 MAA0205 \u2013 0855SIN 7M8 D IX630 MAA1310 \u2013 2000SIN 7M8 D IX627 SIN0955",
+   "kind": "item",
+   "source": "AeroRoutes schedule filings",
+   "source_id": "aeroroutes",
+   "tier": 2,
+   "country": "GLOBAL",
+   "category": "aviation-tracker",
+   "segments": [
+    "city",
+    "bush",
+    "beach"
+   ],
+   "first_seen": "2026-09-08T06:32+03:00",
+   "published": "2026-09-08",
+   "verdict": "CONSIDER"
+  },
+  {
+   "score": 79.9,
    "components": {
     "tier": 40,
     "category": 12,
     "lead": 3.6,
     "relevance": 0,
-    "freshness": 19.7,
+    "freshness": 14.3,
     "corroborated": 10
    },
    "keywords": [],
@@ -289,13 +701,13 @@
    "verdict": "CONSIDER"
   },
   {
-   "score": 84.4,
+   "score": 79.0,
    "components": {
     "tier": 20,
     "category": 14,
     "lead": 8.4,
     "relevance": 16,
-    "freshness": 16.0,
+    "freshness": 10.6,
     "corroborated": 10
    },
    "keywords": [
@@ -325,13 +737,13 @@
    "verdict": "CONSIDER"
   },
   {
-   "score": 84.4,
+   "score": 79.0,
    "components": {
     "tier": 20,
     "category": 14,
     "lead": 8.4,
     "relevance": 16,
-    "freshness": 16.0,
+    "freshness": 10.6,
     "corroborated": 10
    },
    "keywords": [
@@ -341,7 +753,7 @@
    ],
    "shock_terms": [],
    "dedupe_match": null,
-   "dedupe_similarity": 0.14,
+   "dedupe_similarity": 0.0,
    "id": "b29cd356022d",
    "title": "Etihad Revises 194-seater A321LR Service Entry in 2027",
    "url": "https://www.aeroroutes.com/eng/260907-eyjan2732q",
@@ -362,13 +774,13 @@
    "verdict": "CONSIDER"
   },
   {
-   "score": 84.1,
+   "score": 78.7,
    "components": {
     "tier": 20,
     "category": 14,
     "lead": 8.4,
     "relevance": 12,
-    "freshness": 19.7,
+    "freshness": 14.3,
     "corroborated": 10
    },
    "keywords": [
@@ -398,13 +810,13 @@
    "verdict": "CONSIDER"
   },
   {
-   "score": 83.8,
+   "score": 78.4,
    "components": {
     "tier": 20,
     "category": 14,
     "lead": 8.4,
     "relevance": 20,
-    "freshness": 11.4,
+    "freshness": 6.0,
     "corroborated": 10
    },
    "keywords": [
@@ -435,13 +847,13 @@
    "verdict": "CONSIDER"
   },
   {
-   "score": 83.2,
+   "score": 77.8,
    "components": {
     "tier": 40,
     "category": 32,
     "lead": 1.2,
     "relevance": 0,
-    "freshness": 16.0,
+    "freshness": 10.6,
     "undated": -6
    },
    "keywords": [],
@@ -468,13 +880,13 @@
    "verdict": "CONSIDER"
   },
   {
-   "score": 81.3,
+   "score": 75.9,
    "components": {
     "tier": 40,
     "category": 32,
     "lead": 3.6,
     "relevance": 0,
-    "freshness": 19.7,
+    "freshness": 14.3,
     "stale_trap": -10,
     "page_change": -4
    },
@@ -501,13 +913,13 @@
    "verdict": "CHECK \u2014 source date older than the window"
   },
   {
-   "score": 80.5,
+   "score": 75.1,
    "components": {
     "tier": 40,
     "category": 10,
     "lead": 16.8,
     "relevance": 0,
-    "freshness": 19.7,
+    "freshness": 14.3,
     "undated": -6
    },
    "keywords": [],
@@ -534,13 +946,13 @@
    "verdict": "CONSIDER"
   },
   {
-   "score": 79.5,
+   "score": 74.1,
    "components": {
     "tier": 40,
     "category": 9,
     "lead": 16.8,
     "relevance": 0,
-    "freshness": 19.7,
+    "freshness": 14.3,
     "undated": -6
    },
    "keywords": [],
@@ -565,13 +977,13 @@
    "verdict": "CONSIDER"
   },
   {
-   "score": 78.6,
+   "score": 73.2,
    "components": {
     "tier": 40,
     "category": 32,
     "lead": 1.2,
     "relevance": 0,
-    "freshness": 11.4,
+    "freshness": 6.0,
     "undated": -6
    },
    "keywords": [],
@@ -598,13 +1010,13 @@
    "verdict": "CONSIDER"
   },
   {
-   "score": 77.6,
+   "score": 72.2,
    "components": {
     "tier": 40,
     "category": 32,
     "lead": 3.6,
     "relevance": 0,
-    "freshness": 16.0,
+    "freshness": 10.6,
     "stale_trap": -10,
     "page_change": -4
    },
@@ -631,13 +1043,13 @@
    "verdict": "CHECK \u2014 source date older than the window"
   },
   {
-   "score": 77.5,
+   "score": 72.1,
    "components": {
     "tier": 40,
     "category": 7,
     "lead": 16.8,
     "relevance": 0,
-    "freshness": 19.7,
+    "freshness": 14.3,
     "undated": -6
    },
    "keywords": [],
@@ -664,13 +1076,13 @@
    "verdict": "CONSIDER"
   },
   {
-   "score": 75.8,
+   "score": 70.4,
    "components": {
     "tier": 20,
     "category": 14,
     "lead": 8.4,
     "relevance": 12,
-    "freshness": 11.4,
+    "freshness": 6.0,
     "corroborated": 10
    },
    "keywords": [
@@ -700,13 +1112,13 @@
    "verdict": "CONSIDER"
   },
   {
-   "score": 75.8,
+   "score": 70.4,
    "components": {
     "tier": 20,
     "category": 14,
     "lead": 8.4,
     "relevance": 12,
-    "freshness": 11.4,
+    "freshness": 6.0,
     "corroborated": 10
    },
    "keywords": [
@@ -736,13 +1148,13 @@
    "verdict": "CONSIDER"
   },
   {
-   "score": 75.8,
+   "score": 70.4,
    "components": {
     "tier": 40,
     "category": 12,
     "lead": 2.4,
     "relevance": 0,
-    "freshness": 11.4,
+    "freshness": 6.0,
     "corroborated": 10
    },
    "keywords": [],
@@ -769,13 +1181,13 @@
    "verdict": "CONSIDER"
   },
   {
-   "score": 73.0,
+   "score": 67.6,
    "components": {
     "tier": 40,
     "category": 32,
     "lead": 3.6,
     "relevance": 0,
-    "freshness": 11.4,
+    "freshness": 6.0,
     "stale_trap": -10,
     "page_change": -4
    },
@@ -802,13 +1214,13 @@
    "verdict": "CHECK \u2014 source date older than the window"
   },
   {
-   "score": 72.4,
+   "score": 67.0,
    "components": {
     "tier": 20,
     "category": 14,
     "lead": 8.4,
     "relevance": 4,
-    "freshness": 16.0,
+    "freshness": 10.6,
     "corroborated": 10
    },
    "keywords": [
@@ -834,16 +1246,115 @@
    ],
    "first_seen": "2026-09-07T22:15+03:00",
    "published": "2026-09-07",
-   "verdict": "CONSIDER"
+   "verdict": "weak"
   },
   {
-   "score": 72.1,
+   "score": 66.7,
+   "components": {
+    "tier": 40,
+    "category": 20,
+    "lead": 12.0,
+    "relevance": 0,
+    "freshness": 19.7,
+    "stale_trap": -25
+   },
+   "keywords": [],
+   "shock_terms": [],
+   "dedupe_match": null,
+   "dedupe_similarity": 0.17,
+   "id": "e162a0fc08f3",
+   "title": "In re Salimu & another (Deceaseds) (Succession Cause E139 of 2026) [2026] KEKC 27 (KLR) (27 August 2026) (Judgment)",
+   "url": "https://new.kenyalaw.org/akn/ke/judgment/kekc/2026/27/eng@2026-08-27",
+   "summary": "In re Salimu & another (Deceaseds) (Succession Cause E139 of 2026) [2026] KEKC 27 (KLR) (27 August 2026) (Judgment)",
+   "kind": "item",
+   "source": "Kenya Gazette (Kenya Law)",
+   "source_id": "ke-gazette",
+   "tier": 1,
+   "country": "KE",
+   "category": "gazette",
+   "segments": [
+    "city",
+    "bush",
+    "beach"
+   ],
+   "first_seen": "2026-09-08T06:32+03:00",
+   "published": "2026-08-27",
+   "verdict": "CHECK \u2014 source date older than the window"
+  },
+  {
+   "score": 66.7,
+   "components": {
+    "tier": 40,
+    "category": 20,
+    "lead": 12.0,
+    "relevance": 0,
+    "freshness": 19.7,
+    "stale_trap": -25
+   },
+   "keywords": [],
+   "shock_terms": [],
+   "dedupe_match": null,
+   "dedupe_similarity": 0.0,
+   "id": "d175430fb3da",
+   "title": "In re Estate of Risasi & 3 others (Deceaseds) (Succession Cause E136 of 2026) [2026] KEKC 26 (KLR) (20 August 2026) (Judgment)",
+   "url": "https://new.kenyalaw.org/akn/ke/judgment/kekc/2026/26/eng@2026-08-20",
+   "summary": "In re Estate of Risasi & 3 others (Deceaseds) (Succession Cause E136 of 2026) [2026] KEKC 26 (KLR) (20 August 2026) (Judgment)",
+   "kind": "item",
+   "source": "Kenya Gazette (Kenya Law)",
+   "source_id": "ke-gazette",
+   "tier": 1,
+   "country": "KE",
+   "category": "gazette",
+   "segments": [
+    "city",
+    "bush",
+    "beach"
+   ],
+   "first_seen": "2026-09-08T06:32+03:00",
+   "published": "2026-08-20",
+   "verdict": "CHECK \u2014 source date older than the window"
+  },
+  {
+   "score": 66.7,
+   "components": {
+    "tier": 40,
+    "category": 20,
+    "lead": 12.0,
+    "relevance": 0,
+    "freshness": 19.7,
+    "stale_trap": -25
+   },
+   "keywords": [],
+   "shock_terms": [],
+   "dedupe_match": null,
+   "dedupe_similarity": 0.17,
+   "id": "1fde1c3ec513",
+   "title": "Republic v Malala alias Tony & another (Criminal Case E050 of 2024) [2026] KEHC 13361 (KLR) (21 August 2026) (Ruling)",
+   "url": "https://new.kenyalaw.org/akn/ke/judgment/kehc/2026/13361/eng@2026-08-21",
+   "summary": "Republic v Malala alias Tony & another (Criminal Case E050 of 2024) [2026] KEHC 13361 (KLR) (21 August 2026) (Ruling)",
+   "kind": "item",
+   "source": "Kenya Gazette (Kenya Law)",
+   "source_id": "ke-gazette",
+   "tier": 1,
+   "country": "KE",
+   "category": "gazette",
+   "segments": [
+    "city",
+    "bush",
+    "beach"
+   ],
+   "first_seen": "2026-09-08T06:32+03:00",
+   "published": "2026-08-21",
+   "verdict": "CHECK \u2014 source date older than the window"
+  },
+  {
+   "score": 66.7,
    "components": {
     "tier": 20,
     "category": 14,
     "lead": 8.4,
     "relevance": 0,
-    "freshness": 19.7,
+    "freshness": 14.3,
     "corroborated": 10
    },
    "keywords": [],
@@ -867,521 +1378,6 @@
    ],
    "first_seen": "2026-09-08T01:36+03:00",
    "published": "2026-09-08",
-   "verdict": "CONSIDER"
-  },
-  {
-   "score": 71.8,
-   "components": {
-    "tier": 20,
-    "category": 14,
-    "lead": 8.4,
-    "relevance": 8,
-    "freshness": 11.4,
-    "corroborated": 10
-   },
-   "keywords": [
-    "route"
-   ],
-   "shock_terms": [],
-   "dedupe_match": null,
-   "dedupe_similarity": 0.33,
-   "id": "97e038c058dd",
-   "title": "JTA Adds Okinawa \u2013 Osaka Itami Service in NW26",
-   "url": "https://www.aeroroutes.com/eng/260907-nunw26itm",
-   "summary": "Published at 0500PDT / 1200GMT 07SEP26 Japan TransOcean Air (JTA) during Northern winter 2026/27 season plans to add Okinawa \u2013 Osaka Itami route, operating along with JAL mainline service. From 25OCT26, JTA737-800 aircraft will serve this route twice daily. Schedule below focuses on the period of 01DEC26 \u2013 24DEC26. NU264 OKA1130 \u2013 1320ITM 73H D NU268 OKA1705 \u2013 1855ITM 73H D NU265 ITM1400 \u2013 1625OKA",
-   "kind": "item",
-   "source": "AeroRoutes schedule filings",
-   "source_id": "aeroroutes",
-   "tier": 2,
-   "country": "GLOBAL",
-   "category": "aviation-tracker",
-   "segments": [
-    "city",
-    "bush",
-    "beach"
-   ],
-   "first_seen": "2026-09-07T18:04+03:00",
-   "published": "2026-09-07",
-   "verdict": "CONSIDER"
-  },
-  {
-   "score": 70.0,
-   "components": {
-    "tier": 20,
-    "category": 5,
-    "lead": 3.6,
-    "relevance": 20,
-    "freshness": 11.4,
-    "corroborated": 10
-   },
-   "keywords": [
-    "occupancy",
-    "revpar",
-    "hotel"
-   ],
-   "shock_terms": [],
-   "dedupe_match": null,
-   "dedupe_similarity": 0.2,
-   "id": "a848f2c9ff6b",
-   "title": "Warsaw Market Pulse 2026 \u2013 The WAW Factor",
-   "url": "https://www.hospitalitynet.org/report/4134266/warsaw-market-pulse-2026-the-waw-factor",
-   "summary": "Warsaw's hotel market reached near-decade-high occupancy of ~80% and a nominal RevPAR record in 2025, outperforming CEE-6 peers despite leading the region in new room supply growth since 2016.",
-   "kind": "item",
-   "source": "Hospitality Net \u2014 Africa announcements",
-   "source_id": "dev-hospitalitynet-africa",
-   "tier": 2,
-   "country": "REG",
-   "category": "trade",
-   "segments": [
-    "city",
-    "bush",
-    "beach"
-   ],
-   "first_seen": "2026-09-07T18:04+03:00",
-   "published": "2026-09-07",
-   "verdict": "CONSIDER"
-  },
-  {
-   "score": 67.8,
-   "components": {
-    "tier": 20,
-    "category": 14,
-    "lead": 8.4,
-    "relevance": 4,
-    "freshness": 11.4,
-    "corroborated": 10
-   },
-   "keywords": [
-    "airline"
-   ],
-   "shock_terms": [],
-   "dedupe_match": null,
-   "dedupe_similarity": 0.0,
-   "id": "79f5e484472f",
-   "title": "Malaysia Airlines Files One-Way Penang \u2013 Jeddah Schedule in NS27",
-   "url": "https://www.aeroroutes.com/eng/260907-mhns27jed",
-   "summary": "Published at 0800PDT / 1500GMT 07SEP26 Malaysia Airlines in Northern summer 2027 season plans to operate Penang \u2013 Jeddah service, as the carrier filed one-way schedule from 28JUN27, with Airbus A330-300 aircraft. Screenshot below is taken as of 0800GMT 07SEP26 from the airline\u2019s website. MH508 PEN1330 \u2013 1710JED 333 1",
-   "kind": "item",
-   "source": "AeroRoutes schedule filings",
-   "source_id": "aeroroutes",
-   "tier": 2,
-   "country": "GLOBAL",
-   "category": "aviation-tracker",
-   "segments": [
-    "city",
-    "bush",
-    "beach"
-   ],
-   "first_seen": "2026-09-07T18:04+03:00",
-   "published": "2026-09-07",
-   "verdict": "weak"
-  },
-  {
-   "score": 67.8,
-   "components": {
-    "tier": 20,
-    "category": 14,
-    "lead": 8.4,
-    "relevance": 4,
-    "freshness": 11.4,
-    "corroborated": 10
-   },
-   "keywords": [
-    "airline"
-   ],
-   "shock_terms": [],
-   "dedupe_match": null,
-   "dedupe_similarity": 0.2,
-   "id": "f1e5f137c75c",
-   "title": "Malaysia Airlines Expands China Airlines Codeshare From Sep 2026",
-   "url": "https://www.aeroroutes.com/eng/260907-mhcicodeshare",
-   "summary": "Published at 0700PDT / 1400GMT 07SEP26 Malaysia Airlines in September and October 2026 plans to expand codeshare partnership with China Airlines, covering the latter\u2019s additional destinations in Northeast Asia. Codeshare service to Japan went into effect since 03SEP26 (approximate), while Korea is scheduled to commence on 25OCT26. Malaysia Airlines operated by China Airlines Taipei Taoyuan \u2013 Busan",
-   "kind": "item",
-   "source": "AeroRoutes schedule filings",
-   "source_id": "aeroroutes",
-   "tier": 2,
-   "country": "GLOBAL",
-   "category": "aviation-tracker",
-   "segments": [
-    "city",
-    "bush",
-    "beach"
-   ],
-   "first_seen": "2026-09-07T18:04+03:00",
-   "published": "2026-09-07",
-   "verdict": "weak"
-  },
-  {
-   "score": 66.3,
-   "components": {
-    "tier": 20,
-    "category": 9,
-    "lead": 3.6,
-    "relevance": 4,
-    "freshness": 19.7,
-    "corroborated": 10
-   },
-   "keywords": [
-    "airline"
-   ],
-   "shock_terms": [],
-   "dedupe_match": null,
-   "dedupe_similarity": 0.0,
-   "id": "05dddfc5d2d6",
-   "title": "F\u00fcnfmal pro Woche ab 2027: D\u00fcsseldorf erh\u00e4lt neue USA-Verbindung",
-   "url": "https://www.fvw.de/touristik/verkehr/fuenfmal-pro-woche-ab-2027-duesseldorf-bekommt-neue-usa-verbindung-264358",
-   "summary": "Der Flughafen D\u00fcsseldorf kann bald wieder auf eine USA-Verbindung verweisen: Die franz\u00f6sische Airline La Compagnie will f\u00fcnfmal pro Woche D\u00fcsseldorf mit New York verbinden \u2013 mit einem Airbus 321 Neo. Das Produkt weist Besonderheiten auf.",
-   "kind": "item",
-   "source": "FVW / German travel trade",
-   "source_id": "sm-derreise",
-   "tier": 2,
-   "country": "GLOBAL",
-   "category": "source-market",
-   "segments": [
-    "beach",
-    "bush"
-   ],
-   "first_seen": "2026-09-08T01:36+03:00",
-   "published": "2026-09-07",
-   "verdict": "weak"
-  },
-  {
-   "score": 66.3,
-   "components": {
-    "tier": 20,
-    "category": 9,
-    "lead": 3.6,
-    "relevance": 4,
-    "freshness": 19.7,
-    "corroborated": 10
-   },
-   "keywords": [
-    "franc"
-   ],
-   "shock_terms": [],
-   "dedupe_match": null,
-   "dedupe_similarity": 0.17,
-   "id": "f5c8e1eb32be",
-   "title": "Personalisierte Spots : Reiseland und Aida bringen Reiseb\u00fcros ins Kino",
-   "url": "https://www.fvw.de/touristik/vertrieb/personalisierte-spots-reiseland-und-aida-bringen-reisebueros-ins-kino-264362",
-   "summary": "Vom 10. bis 23. September l\u00e4uft bundesweit in 64 Kinos ein exklusiver Kinospot von Reiseland und Aida. Im Mittelpunkt stehen 75 Filial- und Franchise-B\u00fcros mit dem \"Aida x Reiseland Shop\"-Konzept.",
-   "kind": "item",
-   "source": "FVW / German travel trade",
-   "source_id": "sm-derreise",
-   "tier": 2,
-   "country": "GLOBAL",
-   "category": "source-market",
-   "segments": [
-    "beach",
-    "bush"
-   ],
-   "first_seen": "2026-09-08T01:36+03:00",
-   "published": "2026-09-07",
-   "verdict": "weak"
-  },
-  {
-   "score": 66.3,
-   "components": {
-    "tier": 20,
-    "category": 9,
-    "lead": 3.6,
-    "relevance": 4,
-    "freshness": 19.7,
-    "corroborated": 10
-   },
-   "keywords": [
-    "airline"
-   ],
-   "shock_terms": [],
-   "dedupe_match": null,
-   "dedupe_similarity": 0.0,
-   "id": "5ee827afebad",
-   "title": "Sommer 2027: Discover erweitert Angebot f\u00fcr Italien",
-   "url": "https://www.fvw.de/touristik/verkehr/sommer-2027-discover-erweitert-angebot-fuer-italien-264354",
-   "summary": "Discover Airlines baut im Sommer 2027 ihr Angebot in Italien weiter aus. Es werden erstmals Fl\u00fcge ab M\u00fcnchen bis Alghero sowie ab Frankfurt bis Genua in den Flugplan aufgenommen.",
-   "kind": "item",
-   "source": "FVW / German travel trade",
-   "source_id": "sm-derreise",
-   "tier": 2,
-   "country": "GLOBAL",
-   "category": "source-market",
-   "segments": [
-    "beach",
-    "bush"
-   ],
-   "first_seen": "2026-09-08T01:36+03:00",
-   "published": "2026-09-07",
-   "verdict": "weak"
-  },
-  {
-   "score": 66.3,
-   "components": {
-    "tier": 20,
-    "category": 9,
-    "lead": 3.6,
-    "relevance": 4,
-    "freshness": 19.7,
-    "corroborated": 10
-   },
-   "keywords": [
-    "airline"
-   ],
-   "shock_terms": [],
-   "dedupe_match": null,
-   "dedupe_similarity": 0.0,
-   "id": "ebe34a7c1463",
-   "title": "Zwischenfinanzierung gesichert: Air Baltic nimmt Geld auf \u2013 f\u00fcr 25 Prozent Zinsen",
-   "url": "https://www.fvw.de/touristik/verkehr/zwischenfinanzierung-gesichert-air-baltic-nimmt-geld-auf--und-zahlt-25-zinsen-264352",
-   "summary": "Die finanziell angeschlagene lettische Fluggesellschaft Air Baltic hat sich eine dringend ben\u00f6tigte Zwischenfinanzierung gesichert. Der Preis daf\u00fcr ist allerdings hoch: F\u00fcr frisches Kapital muss die Airline einen Zinssatz von 25 Prozent zahlen.",
-   "kind": "item",
-   "source": "FVW / German travel trade",
-   "source_id": "sm-derreise",
-   "tier": 2,
-   "country": "GLOBAL",
-   "category": "source-market",
-   "segments": [
-    "beach",
-    "bush"
-   ],
-   "first_seen": "2026-09-08T01:36+03:00",
-   "published": "2026-09-07",
-   "verdict": "weak"
-  },
-  {
-   "score": 66.3,
-   "components": {
-    "tier": 20,
-    "category": 9,
-    "lead": 3.6,
-    "relevance": 4,
-    "freshness": 19.7,
-    "corroborated": 10
-   },
-   "keywords": [
-    "airline"
-   ],
-   "shock_terms": [],
-   "dedupe_match": null,
-   "dedupe_similarity": 0.33,
-   "id": "689c65e0ad37",
-   "title": "Turkish Airlines im Interview: \"Wir erh\u00f6hen die Pr\u00e4senz in bestehenden Destinationen\"",
-   "url": "https://www.fvw.de/touristik/verkehr/turkish-airlines-im-interview-wir-erhoehen-die-praesenz-an-bestehenden-destinationen-263582",
-   "summary": "Turkish Airlines will 2033, anl\u00e4sslich ihres 100. Geburtstags, Gr\u00f6\u00dfe zeigen: Die Fluggesellschaft will dann mit 800 Maschinen \u2013 250 mehr als heute \u2013 j\u00e4hrlich 170 Mio. Passagiere bef\u00f6rdern. Wie das gehen soll, erkl\u00e4rt der neue Europa-Vertriebschef Fatih Durmaz im Interview mit fvw|TravelTalk.",
-   "kind": "item",
-   "source": "FVW / German travel trade",
-   "source_id": "sm-derreise",
-   "tier": 2,
-   "country": "GLOBAL",
-   "category": "source-market",
-   "segments": [
-    "beach",
-    "bush"
-   ],
-   "first_seen": "2026-09-08T01:36+03:00",
-   "published": "2026-09-07",
-   "verdict": "weak"
-  },
-  {
-   "score": 66.3,
-   "components": {
-    "tier": 20,
-    "category": 9,
-    "lead": 3.6,
-    "relevance": 4,
-    "freshness": 19.7,
-    "corroborated": 10
-   },
-   "keywords": [
-    "tourist"
-   ],
-   "shock_terms": [],
-   "dedupe_match": null,
-   "dedupe_similarity": 0.0,
-   "id": "67677ea96463",
-   "title": "Zehn Fragen an TUI-Cruises-VP: Clas Eckholt reizt Asien, weil er noch nie dort war",
-   "url": "https://www.fvw.de/counter/karriere/zehn-fragen-an-tui-cruises-vp-clas-eckholt-reizt-asien-weil-er-noch-nie-dort-war-264178",
-   "summary": "Was denken bekannte Touristikerinnen und Touristiker? Welche Vorlieben haben sie? Und wovon tr\u00e4umen sie? In der Rubrik \"Zehn Fragen an\" geht es um Job, Freizeit, Alltag und Reisen \u2013 und sehr pers\u00f6nliche Antworten. Hier sind die von Clas Eckholt, Vice President Commercial bei TUI Cruises.",
-   "kind": "item",
-   "source": "FVW / German travel trade",
-   "source_id": "sm-derreise",
-   "tier": 2,
-   "country": "GLOBAL",
-   "category": "source-market",
-   "segments": [
-    "beach",
-    "bush"
-   ],
-   "first_seen": "2026-09-08T01:36+03:00",
-   "published": "2026-09-07",
-   "verdict": "weak"
-  },
-  {
-   "score": 66.0,
-   "components": {
-    "tier": 20,
-    "category": 5,
-    "lead": 3.6,
-    "relevance": 16,
-    "freshness": 11.4,
-    "corroborated": 10
-   },
-   "keywords": [
-    "revpar",
-    "hotel",
-    "franc"
-   ],
-   "shock_terms": [],
-   "dedupe_match": null,
-   "dedupe_similarity": 0.2,
-   "id": "1927137d7b0f",
-   "title": "U.S. hotel results for week ending 29 August",
-   "url": "https://www.hospitalitynet.org/news/4134264/us-hotel-results-for-week-ending-29-august",
-   "summary": "U.S. hotels posted their 20th straight week of year-over-year gains, with RevPAR up 1.7% to $100.69; San Francisco led Top 25 Markets on Pok\u00e9mon World Championships demand.",
-   "kind": "item",
-   "source": "Hospitality Net \u2014 Africa announcements",
-   "source_id": "dev-hospitalitynet-africa",
-   "tier": 2,
-   "country": "REG",
-   "category": "trade",
-   "segments": [
-    "city",
-    "bush",
-    "beach"
-   ],
-   "first_seen": "2026-09-07T18:04+03:00",
-   "published": "2026-09-07",
-   "verdict": "weak"
-  },
-  {
-   "score": 64.4,
-   "components": {
-    "tier": 20,
-    "category": 24,
-    "lead": 2.4,
-    "relevance": 12,
-    "freshness": 16.0,
-    "undated": -6,
-    "page_change": -4
-   },
-   "keywords": [
-    "cholera"
-   ],
-   "shock_terms": [],
-   "dedupe_match": null,
-   "dedupe_similarity": 0.2,
-   "id": "eafd1b1901ef",
-   "title": "[page changed] ProMED-mail",
-   "url": "https://promedmail.org/",
-   "summary": "Protecting Global Health, One Alert at a Time | ProMED Previous slide Next slide Protecting Global Health, One Alert at a Time ProMED: Your 24/7 early warning system for emerging infectious diseases worldwide. Subscribe ProMED's Weekly Pulse A snapshot of global health events from the past 7 days Latest Posts on ProMED All Date Title Mon Sep 07 2026 CHOLERA - CHAD (04): (N'DJAMENA, LAKE) SPREAD, E",
-   "kind": "page-change",
-   "source": "ProMED-mail",
-   "source_id": "promed",
-   "tier": 2,
-   "country": "GLOBAL",
-   "category": "health",
-   "segments": [
-    "city",
-    "bush",
-    "beach"
-   ],
-   "first_seen": "2026-09-07T22:15+03:00",
-   "published": null,
-   "verdict": "weak"
-  },
-  {
-   "score": 62.3,
-   "components": {
-    "tier": 20,
-    "category": 9,
-    "lead": 3.6,
-    "relevance": 0,
-    "freshness": 19.7,
-    "corroborated": 10
-   },
-   "keywords": [],
-   "shock_terms": [],
-   "dedupe_match": null,
-   "dedupe_similarity": 0.0,
-   "id": "91596990d677",
-   "title": "Veranstalter sauer: Neue Malediven-Steuer sorgt f\u00fcr Unmut",
-   "url": "https://www.fvw.de/touristik/veranstalter/veranstalter-sauer-neue-malediven-steuer-sorgt-fuer-unmut-264373",
-   "summary": "Die Malediven wollen wie berichtet ab 1. Oktober ausl\u00e4ndische Reiseveranstalter und Reiseb\u00fcros st\u00e4rker zur Kasse bitten. Der DRV h\u00e4lt die Einf\u00fchrung f\u00fcr \u00fcberhastet und warnt vor zus\u00e4tzlichen Kosten, b\u00fcrokratischem Aufwand und Problemen bei bereits verkauften Reisen.",
-   "kind": "item",
-   "source": "FVW / German travel trade",
-   "source_id": "sm-derreise",
-   "tier": 2,
-   "country": "GLOBAL",
-   "category": "source-market",
-   "segments": [
-    "beach",
-    "bush"
-   ],
-   "first_seen": "2026-09-08T01:36+03:00",
-   "published": "2026-09-07",
-   "verdict": "weak"
-  },
-  {
-   "score": 62.3,
-   "components": {
-    "tier": 20,
-    "category": 9,
-    "lead": 3.6,
-    "relevance": 0,
-    "freshness": 19.7,
-    "corroborated": 10
-   },
-   "keywords": [],
-   "shock_terms": [],
-   "dedupe_match": null,
-   "dedupe_similarity": 0.0,
-   "id": "3d70e5da32fc",
-   "title": "Europ\u00e4ischer Flugraum: Eurocontrol meldet Anstieg bei Flugversp\u00e4tungen",
-   "url": "https://www.fvw.de/touristik/verkehr/europaeischer-flugraum-eurocontrol-meldet-anstieg-bei-flugverspaetungen-264367",
-   "summary": "Der Flugverkehr im europ\u00e4ischen Luftraum verzeichnete in diesem Sommer bis einschlie\u00dflich August einen kumulierten Anstieg der Flugversp\u00e4tungen von 2,4 Prozent gegen\u00fcber dem Vorjahreszeitraum.",
-   "kind": "item",
-   "source": "FVW / German travel trade",
-   "source_id": "sm-derreise",
-   "tier": 2,
-   "country": "GLOBAL",
-   "category": "source-market",
-   "segments": [
-    "beach",
-    "bush"
-   ],
-   "first_seen": "2026-09-08T01:36+03:00",
-   "published": "2026-09-07",
-   "verdict": "weak"
-  },
-  {
-   "score": 62.3,
-   "components": {
-    "tier": 20,
-    "category": 9,
-    "lead": 3.6,
-    "relevance": 0,
-    "freshness": 19.7,
-    "corroborated": 10
-   },
-   "keywords": [],
-   "shock_terms": [],
-   "dedupe_match": null,
-   "dedupe_similarity": 0.0,
-   "id": "c824043ead01",
-   "title": "Luftfahrtbeh\u00f6rde FAA : US-Flugh\u00e4fen werden umfassend modernisiert",
-   "url": "https://www.fvw.de/touristik/verkehr/luftfahrtbehoerde-faa-finanzspritze-fuer-modernisierung-von-us-flughaefen-264366",
-   "summary": "Die US-Luftfahrtbeh\u00f6rde FAA hat diese Woche landesweit 481 Mio. US-Dollar an Infrastrukturzusch\u00fcssen an Flugh\u00e4fen ausgezahlt.",
-   "kind": "item",
-   "source": "FVW / German travel trade",
-   "source_id": "sm-derreise",
-   "tier": 2,
-   "country": "GLOBAL",
-   "category": "source-market",
-   "segments": [
-    "beach",
-    "bush"
-   ],
-   "first_seen": "2026-09-08T01:36+03:00",
-   "published": "2026-09-07",
    "verdict": "weak"
   }
  ]
