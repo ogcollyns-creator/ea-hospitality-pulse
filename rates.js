@@ -1,5 +1,5 @@
 window.RATE_INDEX = {
- "updated": "2026-09-07 09:55",
+ "updated": "2026-09-08 09:20",
  "convention": {
   "los": 2,
   "lead_days": 30,
@@ -12,7 +12,7 @@ window.RATE_INDEX = {
  "methodNote": "Each property is compared only with itself, so the index measures rate MOVEMENT validly even though the basket mixes meal bases and rate types. Raw medians are context only and are not comparable across markets — check levelComparable before quoting a level.",
  "wowNote": "wow is the matched-sample link for the latest week. wowClean is the same link computed only on pairs whose meal basis was KNOWN and UNCHANGED between the two weeks; basisChangedPairs counts the pairs excluded from it. Where basisChangedPairs is large relative to matched, the headline wow is partly a re-basing artefact — quote wowClean, or quote no move at all.",
  "spreadNote": "Commission-leakage spread = median of (OTA rate / direct rate - 1) for the same property in the same week. Computed only where the direct rate is room-only or B&B, since an OTA lowest rate is not comparable with a fully-inclusive safari rate. Markets where no property qualifies report null.",
- "totalObservations": 646,
+ "totalObservations": 647,
  "distinctProperties": 123,
  "basketSize": 134,
  "markets": {
@@ -314,22 +314,22 @@ window.RATE_INDEX = {
      {
       "week": "2026-W37",
       "weekStart": "2026-09-07",
-      "median": 318.0,
-      "n": 3,
-      "observations": 3,
-      "coverage": 19,
+      "median": 269.5,
+      "n": 4,
+      "observations": 4,
+      "coverage": 25,
       "confident": true,
       "basisMix": {
-       "UNK": 3
+       "UNK": 4
       },
       "rateTypeMix": {
-       "international": 3
+       "international": 4
       },
       "levelComparable": true,
-      "matched": 3,
-      "link": 1.07071,
-      "index": 81.9,
-      "basisChangedPairs": 3,
+      "matched": 4,
+      "link": 1.0521,
+      "index": 80.5,
+      "basisChangedPairs": 4,
       "cleanMatched": 0,
       "linkClean": null
      }
@@ -337,26 +337,26 @@ window.RATE_INDEX = {
     "latest": {
      "week": "2026-W37",
      "weekStart": "2026-09-07",
-     "median": 318.0,
-     "n": 3,
-     "observations": 3,
-     "coverage": 19,
+     "median": 269.5,
+     "n": 4,
+     "observations": 4,
+     "coverage": 25,
      "confident": true,
      "basisMix": {
-      "UNK": 3
+      "UNK": 4
      },
      "rateTypeMix": {
-      "international": 3
+      "international": 4
      },
      "levelComparable": true,
-     "matched": 3,
-     "link": 1.07071,
-     "index": 81.9,
-     "basisChangedPairs": 3,
+     "matched": 4,
+     "link": 1.0521,
+     "index": 80.5,
+     "basisChangedPairs": 4,
      "cleanMatched": 0,
      "linkClean": null
     },
-    "wow": 7.1
+    "wow": 5.2
    },
    "spread": [
     {
