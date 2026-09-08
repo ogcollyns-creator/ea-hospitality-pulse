@@ -25,6 +25,7 @@ Behind it: Rwandan headline inflation **14.5%** in July — transport +24.2%, ho
 • **COST PULSE** — EPRA review closes 14 Sep, new prices 15 Sep. Nairobi diesel KSh 217.86/L *(EPRA / Business Daily, 14 Aug)*. The 8% petroleum VAT rate expires 14 Oct.
 • **WEEK AHEAD** — EU EmpCo green-claims rules apply 27 Sep. Kenya's travel-health insurance petition heard 16 Sep. CBK MPC 7 Oct.
 • **MICE WATCH** — Nairobi's autumn calendar firms up: Kenya Transport Summit & Expo, KICC, 30 Sep–2 Oct; Africa Commerce & Industry Summit, Uhuru Gardens, 14–16 Oct; Kasneb International Conference, The Edge, 26–30 Oct, 500+ delegates *(Business Daily, 25 Aug)*.
+• **BLIND SPOT, DECLARED** — two sources on tonight's must-check list were not reached: France's Kenya advisory and the Bank of Tanzania monthly review (diarised due today). Both carry to the next slot. Everything else on the sweep was checked.
 
 🔗 This edition on the web: https://eahospitalitypulse.com/editions/pulse-2026-09-08-evening.html
 💼 Today's Big Read on LinkedIn: https://www.linkedin.com/company/ea-hospitality-pulse/
