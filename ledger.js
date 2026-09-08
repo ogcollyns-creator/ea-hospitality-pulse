@@ -1,8 +1,8 @@
 window.LEDGER = {
- "updated": "2026-09-07 12:35",
+ "updated": "2026-09-08 09:12",
  "stats": {
-  "total": 160,
-  "open": 130,
+  "total": 163,
+  "open": 133,
   "resolved": 29,
   "correct": 22,
   "partial": 1,
@@ -859,6 +859,22 @@ window.LEDGER = {
    "overdue": false
   },
   {
+   "id": "P162",
+   "made_date": "2026-09-08",
+   "edition": "Morning Brief",
+   "claim": "Zanzibar OCGS monthly arrivals will confirm President Mwinyi 6 September claim of more than 100000 visitors a month for at least one month in Q3 2026",
+   "resolution_criteria": "OCGS Zanzibar monthly arrivals publication shows a 2026 Q3 month at or above 100000 international arrivals. If no Q3 month reaches 100000 the call is incorrect",
+   "resolve_by": "2026-12-15",
+   "market": "ZNZ",
+   "segment": "Beach",
+   "confidence": "Early signal",
+   "status": "open",
+   "resolved_date": "",
+   "evidence": "",
+   "source_url": "https://www.therespondents.co.tz/2026/09/mwinyi-zanzibar-tourism-investment.html",
+   "overdue": false
+  },
+  {
    "id": "P150",
    "made_date": "2026-09-05",
    "edition": "pulse-2026-09-05-morning",
@@ -1176,6 +1192,38 @@ window.LEDGER = {
    "resolved_date": "",
    "evidence": "",
    "source_url": "https://www.the-star.co.ke/news/2026-09-01-kq-appoints-habil-waswani-as-acting-ceo",
+   "overdue": false
+  },
+  {
+   "id": "P160",
+   "made_date": "2026-09-08",
+   "edition": "Morning Brief",
+   "claim": "WHO will not declare the DRC Bundibugyo (17th) Ebola outbreak over before 31 December 2026 — the response is provisioning 2071 additional beds and 6200 additional staff over the three months from 7 September 2026",
+   "resolution_criteria": "No WHO or DRC Ministry of Health declaration of the end of the 17th DRC Ebola outbreak published by 31 Dec 2026. If declared over on or before that date the call is incorrect",
+   "resolve_by": "2026-12-31",
+   "market": "Regional",
+   "segment": "All",
+   "confidence": "Reported",
+   "status": "open",
+   "resolved_date": "",
+   "evidence": "",
+   "source_url": "https://www.afro.who.int/countries/democratic-republic-of-congo/news/adapting-care-evolving-ebola-outbreak-democratic-republic-congo",
+   "overdue": false
+  },
+  {
+   "id": "P161",
+   "made_date": "2026-09-08",
+   "edition": "Morning Brief",
+   "claim": "The US State Department will still list Uganda at Level 4 Do Not Travel on 31 December 2026 — the Ituri outbreak trajectory , not Ugandan epidemiology , is what holds the level",
+   "resolution_criteria": "travel.state.gov Uganda travel advisory rendered page still reads Level 4 on 31 Dec 2026. Any level below 4 makes the call incorrect",
+   "resolve_by": "2026-12-31",
+   "market": "UG",
+   "segment": "Bush/City",
+   "confidence": "Reported",
+   "status": "open",
+   "resolved_date": "",
+   "evidence": "",
+   "source_url": "https://travel.state.gov/content/travel/en/traveladvisories/traveladvisories/uganda-travel-advisory.html",
    "overdue": false
   },
   {
