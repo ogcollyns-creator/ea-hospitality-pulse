@@ -1,7 +1,7 @@
 {
  "version": 1,
- "updated": "2026-09-04",
- "note": "Upstream-weighted source registry for the EA Hospitality Pulse radar. tier 1 = primary/official, 2 = reputable secondary, 3 = weak (lead only, never publishable alone). lead_days = typical head start over mainstream coverage. Sources that fail repeatedly are surfaced by monitor.py rather than silently dropped. | 2026-08-20: added Ethiopia (ET) upstream sources as comparator — gazette, ECAA, NBE, ESS, Ethiopia Convention Bureau; Ethiopian Airlines already tracked (air-et). Enables promotion to a full sixth market once the radar records healthy observations.",
+ "updated": "2026-09-08",
+ "note": "Upstream-weighted source registry for the EA Hospitality Pulse radar. tier 1 = primary/official, 2 = reputable secondary, 3 = weak (lead only, never publishable alone). lead_days = typical head start over mainstream coverage. Sources that fail repeatedly are surfaced by monitor.py rather than silently dropped. | 2026-08-20: added Ethiopia (ET) upstream sources as comparator — gazette, ECAA, NBE, ESS, Ethiopia Convention Bureau; Ethiopian Airlines already tracked (air-et). Enables promotion to a full sixth market once the radar records healthy observations. | 2026-09-08: added rw-bnr-mpc (BNR monetary policy statements) — the 26-27 Aug MPC decision taking Rwanda's policy rate to 8.75% did not surface on the radar because rw-bnr points at the BNR homepage and BNR is HTTP-blocked; the MPC page is a distinct, higher-signal observation.",
  "sources": [
   {
    "id": "ke-gazette",
@@ -3887,6 +3887,29 @@
    ],
    "why": "Carried three EA operator-relevant items on 2-3 Sep 2026 (Arusha night ops, KWS Lake Turkana, Uganda Ebola-free) that the radar registry missed entirely. Also a source of stale-claim traps worth auditing.",
    "frag": ""
+  },
+  {
+   "id": "rw-bnr-mpc",
+   "name": "BNR monetary policy statements & MPC decisions",
+   "url": "https://www.bnr.rw/news-publications/publications/monetary-policy-and-financial-stability-statement/",
+   "tier": 1,
+   "country": "RW",
+   "category": "central-bank",
+   "method": "html",
+   "cadence_min": 720,
+   "lead_days": 2,
+   "segments": [
+    "city",
+    "bush",
+    "beach"
+   ],
+   "slots": [
+    "morning"
+   ],
+   "why": "MPC rate decisions and the quarterly inflation/FX outlook. Rwanda's cost base is now the region's outlier — the MPC statement carries the core/energy inflation split and the franc depreciation figure that the headline CPI release does not.",
+   "frag": "",
+   "transport": "agent-search",
+   "transport_note": "BNR is blocked at the HTTP layer (403/Incapsula) since 28 Jul 2026; use the agent-search path. Added 8 Sep 2026 after the 26-27 Aug MPC (rate to 8.75%, energy inflation 45.7%) was missed by the radar and found by hand."
   }
  ]
 }

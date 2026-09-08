@@ -1,8 +1,8 @@
 window.LEDGER = {
- "updated": "2026-09-08 11:12",
+ "updated": "2026-09-08 16:50",
  "stats": {
-  "total": 163,
-  "open": 133,
+  "total": 166,
+  "open": 136,
   "resolved": 29,
   "correct": 22,
   "partial": 1,
@@ -587,6 +587,22 @@ window.LEDGER = {
    "overdue": false
   },
   {
+   "id": "P163",
+   "made_date": "2026-09-08",
+   "edition": "Evening Wrap",
+   "claim": "Rwanda headline CPI will still print at or above 10.0% year-on-year in the NISR September 2026 release — BNR's own forecast path of 13.1% average for 2026 implies no return to single digits this year",
+   "resolution_criteria": "NISR Rwanda CPI publication for September 2026 shows headline y/y inflation at or above 10.0%. A print below 10.0% makes the call incorrect",
+   "resolve_by": "2026-10-20",
+   "market": "RW",
+   "segment": "City/Bush",
+   "confidence": "Confirmed",
+   "status": "open",
+   "resolved_date": "",
+   "evidence": "",
+   "source_url": "https://statistics.gov.rw/statistical-publications",
+   "overdue": false
+  },
+  {
    "id": "P041",
    "made_date": "2026-07-31",
    "edition": "Morning Brief",
@@ -795,6 +811,22 @@ window.LEDGER = {
    "overdue": false
   },
   {
+   "id": "P165",
+   "made_date": "2026-09-08",
+   "edition": "Evening Wrap",
+   "claim": "The Rwanda-Tanzania hospitality price gap will persist — Tanzania's NBS restaurants-and-hotels CPI line will stay at least 6 percentage points below Rwanda's restaurants-and-accommodation line in the next comparable month published by both offices",
+   "resolution_criteria": "Compare NISR Rwanda COICOP restaurants-and-accommodation y/y against NBS Tanzania restaurants-and-hotels y/y for the same reference month. A gap under 6 percentage points makes the call incorrect",
+   "resolve_by": "2026-11-15",
+   "market": "RW/TZ",
+   "segment": "All",
+   "confidence": "Confirmed",
+   "status": "open",
+   "resolved_date": "",
+   "evidence": "",
+   "source_url": "https://www.nbs.go.tz/",
+   "overdue": false
+  },
+  {
    "id": "P064",
    "made_date": "2026-08-10",
    "edition": "Evening Wrap",
@@ -824,6 +856,22 @@ window.LEDGER = {
    "resolved_date": "",
    "evidence": "",
    "source_url": "",
+   "overdue": false
+  },
+  {
+   "id": "P164",
+   "made_date": "2026-09-08",
+   "edition": "Evening Wrap",
+   "claim": "The National Bank of Rwanda will not cut the Central Bank Rate below 8.75% at its next MPC — it has raised three consecutive times and forecasts inflation inside the 2-8% band only in H2 2027",
+   "resolution_criteria": "BNR MPC decision published after the August 2026 meeting shows the Central Bank Rate at 8.75% or higher. Any rate below 8.75% makes the call incorrect",
+   "resolve_by": "2026-11-30",
+   "market": "RW",
+   "segment": "City/Bush",
+   "confidence": "Reported",
+   "status": "open",
+   "resolved_date": "",
+   "evidence": "",
+   "source_url": "https://www.bnr.rw/",
    "overdue": false
   },
   {

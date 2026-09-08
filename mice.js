@@ -9,8 +9,26 @@
 // source — mostly hospitality, tourism and business-events trade. Delegate counts are
 // only included where a named source states one; we do not estimate or invent them.
 window.MICE = {
- updated: "5 September 2026",
+ updated: "8 September 2026",
  events: [
+  { event:"Kenya Transport Summit & Expo 2026", city:"Nairobi (Kenyatta International Convention Centre)", country:"Kenya", flag:"\ud83c\uddf0\ud83c\uddea",
+    dates:"30 September \u2013 2 October 2026", status:"Confirmed", delegates:null,
+    detail:"Policy-and-industry summit bringing together transport policymakers and sector stakeholders at KICC. No organiser delegate count published \u2014 we do not estimate one. Logged from the Central Bank of Kenya market perceptions survey coverage, which cited it as part of the Aug\u2013Nov Nairobi conference calendar underpinning improved forward hotel bookings.",
+    soWhat:"A three-day city-centre event on the Wed\u2013Fri either side of the month end. KICC-cluster properties (CBD, Upper Hill) should hold corporate rate across 30 Sep\u20132 Oct rather than discounting into the shoulder. Right-size it: no delegate figure is published, so treat it as a CBD cluster event, not city-wide compression, until one is.",
+    segment:"City", source:"Business Daily Africa, 25 Aug 2026 (CBK Market Perceptions Survey coverage)", verified:true, flagged:"action" },
+
+  { event:"Africa Commerce and Industry Summit 2026", city:"Nairobi (Uhuru Gardens)", country:"Kenya", flag:"\ud83c\uddf0\ud83c\uddea",
+    dates:"14\u201316 October 2026", status:"Confirmed", delegates:null,
+    detail:"Hosted by the Kenya National Chamber of Commerce and Industry as part of its 60th anniversary. Programme covers investor forums, private deal rooms, government-business sessions and sector tracks in energy, agriculture, technology and manufacturing. No delegate count published.",
+    soWhat:"Deal-room formats bring small numbers of high-value, late-booking corporate guests rather than a delegate block. Hold rate on suites and executive floors mid-October and brief sales on the sector tracks; do not close out inventory on an event with no published headcount.",
+    segment:"City", source:"Business Daily Africa, 25 Aug 2026", verified:true },
+
+  { event:"Kasneb International Conference for Professionals 2026", city:"Nairobi (The Edge Convention Centre)", country:"Kenya", flag:"\ud83c\uddf0\ud83c\uddea",
+    dates:"26\u201330 October 2026", status:"Confirmed", delegates:"More than 500 physical delegates targeted (organiser target| per Business Daily)",
+    detail:"Five-day professional-body congress at The Edge Convention Centre. The delegate figure is a stated target for PHYSICAL attendance| not a confirmed registration count \u2014 read it as an intention| and note that professional-body congresses typically run a large virtual tail that does not consume rooms.",
+    soWhat:"The most room-relevant of Nairobi\u2019s three autumn events: five nights| a stated physical-attendance target above 500| and a professional audience that books accommodation rather than commuting. Hold rate across 26\u201330 Oct in the venue cluster and price a Sun-arrival package. Verify the registration count before allocating a block against the 500 figure.",
+    segment:"City", source:"Business Daily Africa, 25 Aug 2026", verified:true, flagged:"action" },
+
   { event:"Tusker Lite Mt Rwenzori Marathon 2026", city:"Kasese (Rwenzori foothills)", country:"Uganda", flag:"🇺🇬",
     dates:"22 August 2026", status:"Held", delegates:"Runners from ~45 countries (organiser/govt figure); no single headcount published",
     detail:"Government- and Uganda Tourism Board-backed scenic marathon (42km/35km/10km/5km) positioned as a tourism-and-investment showcase for the Rwenzori region. Organisers and government flagged an accommodation shortfall in Kasese, whose bed stock is thin for the race weekend.",
