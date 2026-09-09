@@ -1,8 +1,8 @@
 window.LEDGER = {
- "updated": "2026-09-08 14:28",
+ "updated": "2026-09-09 16:18",
  "stats": {
-  "total": 166,
-  "open": 136,
+  "total": 169,
+  "open": 139,
   "resolved": 29,
   "correct": 22,
   "partial": 1,
@@ -795,6 +795,38 @@ window.LEDGER = {
    "overdue": false
   },
   {
+   "id": "P167",
+   "made_date": "2026-09-09",
+   "edition": "Evening Wrap",
+   "claim": "The UK FCDO will add a dengue reference to its Kenya travel advice Health page by 31 October 2026 — the US, Germany and Canada have all flagged it since 3 August and the FCDO typically follows the same CDC/NaTHNaC evidence base within a quarter",
+   "resolution_criteria": "Read gov.uk/foreign-travel-advice/kenya/health on 31 Oct 2026. If the page carries no dengue reference the call is incorrect",
+   "resolve_by": "2026-10-31",
+   "market": "KE",
+   "segment": "Beach/City",
+   "confidence": "Early signal",
+   "status": "open",
+   "resolved_date": "",
+   "evidence": "",
+   "source_url": "https://www.gov.uk/foreign-travel-advice/kenya/health",
+   "overdue": false
+  },
+  {
+   "id": "P168",
+   "made_date": "2026-09-09",
+   "edition": "Evening Wrap",
+   "claim": "Mombasa County will remain Kenya's highest-burden county for confirmed mpox cases in the next Ministry of Health mpox update published on or before 31 October 2026 — it leads on 452 of 1,298 national cases and sits on the busiest transport corridor of the seven counties named highest-risk",
+   "resolution_criteria": "Next Kenya MoH mpox situation statement or briefing published on or before 31 Oct 2026 names Mombasa as the county with the highest cumulative confirmed case count. Any other county leading makes the call incorrect",
+   "resolve_by": "2026-10-31",
+   "market": "KE",
+   "segment": "City/Beach",
+   "confidence": "Confirmed",
+   "status": "open",
+   "resolved_date": "",
+   "evidence": "",
+   "source_url": "https://www.kbc.co.ke/kenyans-urged-to-adhere-to-mpox-preventive-measures-as-1298-cases-recorded/",
+   "overdue": false
+  },
+  {
    "id": "P128",
    "made_date": "2026-08-26",
    "edition": "pulse-2026-08-26-evening",
@@ -1272,6 +1304,22 @@ window.LEDGER = {
    "resolved_date": "",
    "evidence": "",
    "source_url": "https://travel.state.gov/content/travel/en/traveladvisories/traveladvisories/uganda-travel-advisory.html",
+   "overdue": false
+  },
+  {
+   "id": "P166",
+   "made_date": "2026-09-09",
+   "edition": "Evening Wrap",
+   "claim": "Kenya will still appear on the affected-destinations list of Canada's dengue Travel Health Notice 517 on 31 December 2026 — the coastal transmission season runs through the short rains and no G7 dengue notice on an African destination has been lifted inside four months",
+   "resolution_criteria": "Read travel.gc.ca/travelling/health-safety/travel-health-notices/517 on 31 Dec 2026. If Kenya is absent from the affected-destinations list the call is incorrect",
+   "resolve_by": "2026-12-31",
+   "market": "KE",
+   "segment": "Beach/City",
+   "confidence": "Reported",
+   "status": "open",
+   "resolved_date": "",
+   "evidence": "",
+   "source_url": "https://travel.gc.ca/travelling/health-safety/travel-health-notices/517",
    "overdue": false
   },
   {

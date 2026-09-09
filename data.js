@@ -1,5 +1,14 @@
 window.EDITIONS = [
  {
+  "id": "pulse-2026-09-09-evening",
+  "date": "2026-09-09",
+  "dateDisplay": "Wednesday, 9 September 2026",
+  "edition": "Evening Wrap",
+  "editionKey": "evening",
+  "summary": "1️⃣ EXCLUSIVE — CANADA PUT KENYA ON ITS DENGUE WATCHLIST YESTERDAY. THE COUNTIES IT LANDS ON ARE MOMBASA AND KILIFI.",
+  "bodyHtml": "<p>🌙 <strong>EA HOSPITALITY PULSE — EVENING WRAP</strong><br>Wednesday 9 September 2026</p>\n<p><strong>1️⃣ EXCLUSIVE — CANADA PUT KENYA ON ITS DENGUE WATCHLIST YESTERDAY. THE COUNTIES IT LANDS ON ARE MOMBASA AND KILIFI.</strong></p>\n<p>At 11:30 ET on <strong>8 September 2026</strong> Ottawa updated its Kenya travel advice. One change: <strong>&quot;Health – Travel health notice for dengue added.&quot;</strong> Kenya now sits on Travel Health Notice 517, Level 1, among eleven destinations &quot;reporting higher than expected numbers of dengue cases&quot; <strong>(travel.gc.ca, updated 8 Sep 2026)</strong>. The country risk level did not move.</p>\n<p>That is the <strong>third G7 flag in five weeks</strong>. The US Embassy in Nairobi issued a health alert naming the coast, Wajir and Garissa on <strong>3 August 2026</strong>; Germany logged the same CDC notice that day.</p>\n<p><strong>The advisories and the outbreak disagree on geography.</strong> The outbreak MoH activated its Public Health Emergency Operations Centre for is in the north-east: <strong>1,678 cases and five suspected deaths</strong> across Garissa and Wajir as at 26 August, <strong>1,276 of them in Dadaab</strong> <strong>(MoH statement, 28 Aug 2026)</strong>. None of that is near a tourist bed. But between January and May, <strong>Mombasa recorded 3,989 cases</strong> — more than that entire outbreak — with Lamu on 445 and Kilifi on 339 <strong>(CS Duale, via The Standard)</strong>. The advisories name the coast because that is where the cases have been all year.</p>\n<p><span class=\"sowhat\">🎯 <strong>So what — your mosquito protocol is the wrong protocol.</strong> Nets, evening fogging and dusk-to-dawn repellent are built for <strong>Anopheles</strong>. Dengue&#x27;s <strong>Aedes</strong> bites in <strong>daylight</strong>, and MoH&#x27;s own guidance asks for prevention of &quot;daytime mosquito bites&quot;. It breeds in a bottle-cap of clean water — plant saucers, pool-deck drainage, water features, boat covers, gutters.</span><br>• <strong>BEACH (Diani, Watamu, Malindi, Kilifi, Lamu):</strong> weekly empty-scrub-cover on every standing-water point. Move repellent to daytime — pool bar, not turndown.<br>• <strong>CITY (Nairobi, Mombasa):</strong> same drill on terraces and atria. Housekeeping SOP, not marketing.<br>• <strong>AGENTS:</strong> Level 1 means precautions, not deterrence. Say so in writing before a client reads it cold.<br><span class=\"tagline\">🏷 Beach, City | 🇰🇪 | Confirmed | impact:risk</span></p>\n<p><strong>2️⃣ AND THE MPOX MAP IS THE SAME MAP. MOMBASA 452. NAIROBI 320.</strong></p>\n<p>Public Health PS Mary Muthoni, Monday <strong>7 September 2026</strong>: <strong>1,298 confirmed mpox cases and 19 deaths across 40 of 47 counties.</strong> Seven named highest-risk, on transport corridors — <strong>Mombasa, Nairobi, Busia, Makueni, Kiambu, Kilifi, Nakuru</strong>. Mombasa leads on 452, Nairobi 320, Busia 115. Enhanced screening at all border points <strong>(KBC, 7 Sep 2026)</strong>.</p>\n<p><span class=\"sowhat\">🎯 <strong>So what:</strong> two unrelated outbreaks, one geography — the geography that holds Kenya&#x27;s rooms. CBK put September forward bookings at <strong>53%</strong>, weakest of the four months to November <strong>(Business Daily, 25 Aug 2026)</strong>. Brief front-of-house on fever-and-rash escalation now, not at the desk.</span><br><span class=\"tagline\">🏷 City, Beach | 🇰🇪 | Confirmed | impact:risk</span></p>\n<p><strong>📻 ALSO STANDING</strong><br>• <strong>WEEK AHEAD</strong> — MoH holds an El Niño stakeholder meeting <strong>today</strong>, ~18 counties flagged highest-risk for the rains <strong>(PS Muthoni, 7 Sep)</strong>. Standing water is the dengue variable. EPRA review closes <strong>14 Sep</strong>, prices <strong>15 Sep</strong>. Travel-health-insurance petition heard <strong>16 Sep</strong>.<br>• <strong>BLIND SPOT CLEARED</strong> — France&#x27;s Kenya advisory, unreachable last night, recovered on the second query: updated <strong>4 August 2026</strong>, unchanged, Somalia border zone to 100km inland <strong>(France Diplomatie country page)</strong>.<br>• <strong>STILL BLOCKED</strong> — Africa CDC&#x27;s September 2026 Epidemic Intelligence Weekly Report did not surface; August is the latest reachable. Our dengue figures come from the MoH statement and the CS&#x27;s numbers, not a live dashboard.</p>\n<p>🔗 This edition on the web: <a href=\"https://eahospitalitypulse.com/editions/pulse-2026-09-09-evening.html\" rel=\"noopener\">eahospitalitypulse.com/editions/pulse-2026-09-09-evenin…</a><br>💼 Today&#x27;s Big Read on LinkedIn: <a href=\"https://www.linkedin.com/company/ea-hospitality-pulse/\" rel=\"noopener\">linkedin.com/company/ea-hospitality-pulse/</a></p>\n<hr class=\"divider\">"
+ },
+ {
   "id": "pulse-2026-09-08-evening",
   "date": "2026-09-08",
   "dateDisplay": "Tuesday, 8 September 2026",
@@ -838,6 +847,46 @@ window.EDITIONS = [
  }
 ];
 window.INSIGHTS = [
+ {
+  "headline": "EXCLUSIVE — CANADA PUT KENYA ON ITS DENGUE WATCHLIST YESTERDAY. THE COUNTIES IT LANDS ON ARE MOMBASA AND KILIFI.",
+  "body": "At 11:30 ET on **8 September 2026** Ottawa updated its Kenya travel advice. One change: *\"Health – Travel health notice for dengue added.\"* Kenya now sits on Travel Health Notice 517, Level 1, among eleven destinations \"reporting higher than expected numbers of dengue cases\" *(travel.gc.ca, updated 8 Sep 2026)*. The country risk level did not move. That is the **third G7 flag in five weeks**. The US Embassy in Nairobi issued a health alert naming the coast, Wajir and Garissa on **3 August 2026**; Germany logged the same CDC notice that day. **The advisories and the outbreak disagree on geography.** The outbreak MoH activated its Public Health Emergency Operations Centre for is in the north-east: **1,678 cases and five suspected deaths** across Garissa and Wajir as at 26 August, **1,276 of them in Dadaab** *(MoH statement, 28 Aug 2026)*. None of that is near a tourist bed. But between January and May, **Mombasa recorded 3,989 cases** — more than that entire outbreak — with Lamu on 445 and Kilifi on 339 *(CS Duale, via The Standard)*. The advisories name the coast because that is where the cases have been all year. • **BEACH (Diani, Watamu, Malindi, Kilifi, Lamu):** weekly empty-scrub-cover on every standing-water point. Move repellent to daytime — pool bar, not turndown. • **CITY (Nairobi, Mombasa):** same drill on terraces and atria. Housekeeping SOP, not marketing. • **AGENTS:** Level 1 means precautions, not deterrence. Say so in writing before a client reads it cold.",
+  "sowhat": "🎯 **So what — your mosquito protocol is the wrong protocol.** Nets, evening fogging and dusk-to-dawn repellent are built for *Anopheles*. Dengue's *Aedes* bites in **daylight**, and MoH's own guidance asks for prevention of \"daytime mosquito bites\". It breeds in a bottle-cap of clean water — plant saucers, pool-deck drainage, water features, boat covers, gutters.",
+  "segments": [
+   "city",
+   "beach"
+  ],
+  "countries": "🇰🇪",
+  "confidence": "Confirmed",
+  "impact": "risk",
+  "impactClass": "risk",
+  "intensity": 3,
+  "impactSet": "author",
+  "source": "pulse-2026-09-09-evening",
+  "date": "2026-09-09",
+  "dateDisplay": "Wednesday, 9 September 2026",
+  "edition": "Evening Wrap",
+  "editionKey": "evening"
+ },
+ {
+  "headline": "AND THE MPOX MAP IS THE SAME MAP. MOMBASA 452. NAIROBI 320.",
+  "body": "Public Health PS Mary Muthoni, Monday **7 September 2026**: **1,298 confirmed mpox cases and 19 deaths across 40 of 47 counties.** Seven named highest-risk, on transport corridors — **Mombasa, Nairobi, Busia, Makueni, Kiambu, Kilifi, Nakuru**. Mombasa leads on 452, Nairobi 320, Busia 115. Enhanced screening at all border points *(KBC, 7 Sep 2026)*.",
+  "sowhat": "🎯 **So what:** two unrelated outbreaks, one geography — the geography that holds Kenya's rooms. CBK put September forward bookings at **53%**, weakest of the four months to November *(Business Daily, 25 Aug 2026)*. Brief front-of-house on fever-and-rash escalation now, not at the desk.",
+  "segments": [
+   "city",
+   "beach"
+  ],
+  "countries": "🇰🇪",
+  "confidence": "Confirmed",
+  "impact": "risk",
+  "impactClass": "risk",
+  "intensity": 3,
+  "impactSet": "author",
+  "source": "pulse-2026-09-09-evening",
+  "date": "2026-09-09",
+  "dateDisplay": "Wednesday, 9 September 2026",
+  "edition": "Evening Wrap",
+  "editionKey": "evening"
+ },
  {
   "headline": "WHO IS PROVISIONING 2,071 MORE EBOLA BEDS. THAT IS THE REAL CLOCK ON UGANDA'S LEVEL 4.",
   "body": "WHO AFRO published field capacity numbers yesterday (7 September). As of 1 September, Ituri Province held 974 beds across 25 facilities in 19 health zones; 1,346 beds across all affected provinces. On 19 May — four days into the response — there was one 9-bed centre. Over 4,000 extra health workers have gone in since. Then the forward line: over the next three months the response needs 6,200+ more staff and **2,071 more operational beds**. Ituri runs at ~62% bed occupancy; Bunia's centres at 90–100%. Worth putting in front of every agent: WHO explicitly **advises against international travel and trade restrictions**, and says border closures are not evidence-based.",
@@ -3954,4 +4003,4 @@ window.INSIGHTS = [
   "editionKey": "evening"
  }
 ];
-window.BUILT_AT = "2026-09-08 14:27";
+window.BUILT_AT = "2026-09-09 16:18";

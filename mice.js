@@ -9,8 +9,14 @@
 // source — mostly hospitality, tourism and business-events trade. Delegate counts are
 // only included where a named source states one; we do not estimate or invent them.
 window.MICE = {
- updated: "8 September 2026",
+ updated: "9 September 2026",
  events: [
+  { event:"Africa MICE Summit 2026 (incl. Africa MICE Awards & MICE Investors Round Table)", city:"Mombasa", country:"Kenya", flag:"\ud83c\uddf0\ud83c\uddea",
+    dates:"1\u20132 October 2026", status:"Confirmed", delegates:"600+ attendees| 25+ speakers| 50+ exhibitors (organiser figures| africamicesummit.org)",
+    detail:"NOTE THE MOVE. The 2025 edition ran 9\u201311 September in NAIROBI; the 2026 edition is 1\u20132 October in MOMBASA \u2014 anyone still holding the Nairobi September dates is holding last year\u2019s diary. Theme: \u2018Building Africa\u2019s Business Events Ecosystem for Trade| Investment and Innovation\u2019. Africa MICE Awards gala 2 October| 60+ categories. A MICE Investors & Stakeholders Round Table runs the same day| pitching convention-centre and exhibition-venue projects to investors and DFIs under an AfCFTA framing. Organised by Zuri Events. The 600+ figure is the organiser\u2019s own attendance claim and covers the summit| not a verified registration count.",
+    soWhat:"Two nights| Mombasa| in the same week Kenya\u2019s autumn conference calendar opens \u2014 and Mombasa is the county carrying Kenya\u2019s heaviest dengue and mpox burden (3|989 dengue cases Jan\u2013May; 452 mpox cases). Coast properties should hold rate 30 Sep\u20132 Oct rather than discounting into the shoulder| AND have the daytime vector protocol visibly in place before a room full of Africa\u2019s business-events buyers arrives. This is the single audience most likely to notice. Right-size the block: 600+ is an organiser figure across two days| much of it Mombasa-based trade| so treat it as a venue-cluster event until registrations are published.",
+    segment:"City, Beach", source:"africamicesummit.org (organiser site, read 9 September 2026)", verified:true, flagged:"action" },
+
   { event:"Kenya Transport Summit & Expo 2026", city:"Nairobi (Kenyatta International Convention Centre)", country:"Kenya", flag:"\ud83c\uddf0\ud83c\uddea",
     dates:"30 September \u2013 2 October 2026", status:"Confirmed", delegates:null,
     detail:"Policy-and-industry summit bringing together transport policymakers and sector stakeholders at KICC. No organiser delegate count published \u2014 we do not estimate one. Logged from the Central Bank of Kenya market perceptions survey coverage, which cited it as part of the Aug\u2013Nov Nairobi conference calendar underpinning improved forward hotel bookings.",

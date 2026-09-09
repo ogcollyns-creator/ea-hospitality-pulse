@@ -3910,6 +3910,31 @@
    "frag": "",
    "transport": "agent-search",
    "transport_note": "BNR is blocked at the HTTP layer (403/Incapsula) since 28 Jul 2026; use the agent-search path. Added 8 Sep 2026 after the 26-27 Aug MPC (rate to 8.75%, energy inflation 45.7%) was missed by the radar and found by hand."
+  },
+  {
+   "id": "health-ca-thn",
+   "name": "Canada travel health notices index (Global Affairs / PHAC)",
+   "url": "https://travel.gc.ca/travelling/health-safety/travel-health-notices",
+   "tier": 1,
+   "country": "GLOBAL",
+   "category": "health",
+   "method": "html",
+   "cadence_min": 180,
+   "lead_days": 1,
+   "segments": [
+    "city",
+    "bush",
+    "beach"
+   ],
+   "slots": [
+    "morning",
+    "midday",
+    "evening"
+   ],
+   "why": "Divergence between governments is a commercial asset, not an inconsistency.",
+   "frag": "",
+   "transport": "agent-search",
+   "transport_note": "Added 9 Sep 2026. Canada added KENYA to Travel Health Notice 517 (dengue) on 8 Sep 2026 and the change surfaced only on the Kenya country page, not in any news feed. This index is where the next EA addition will appear first."
   }
  ]
 }
