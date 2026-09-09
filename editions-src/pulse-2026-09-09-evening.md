@@ -65,6 +65,8 @@ At 11:30 Eastern on 8 September, Canada quietly changed one line on its Kenya tr
 
 It is the third such flag from a G7 government in five weeks. The US Embassy in Nairobi issued a dengue health alert naming Kenya's coast, Wajir and Garissa on 3 August; Germany logged the same CDC notice that day. None of the three changed a travel warning. All three changed what a corporate duty-of-care officer, or a travel insurer's claims handler, sees when they search.
 
+One detail worth having to hand while the searching happens: Canada's avoid-all-travel zone for the Somalia border counties explicitly excludes Lamu Island and Manda Island, where the advice is the national "exercise a high degree of caution". Lamu operators fielding a nervous agent should send the carve-out, not the county name.
+
 The instinct in the trade is to shrug. Level 1 is the mildest category Canada publishes. But the shrug misses where the notice points.
 
 The outbreak Kenya's Ministry of Health is fighting sits in the north-east. It activated its Public Health Emergency Operations Centre for 1,678 cases and five suspected deaths across Garissa and Wajir as at 26 August, and 1,276 of those are in Dadaab. That is a refugee-complex emergency. It is nowhere near a hotel.
