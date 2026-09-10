@@ -1,284 +1,299 @@
-# Radar candidates — midday slot
-_Window opens Thu 10 Sep 07:00 EAT · 196 observations in window · 16 headlines deduped against_
+# Radar candidates — evening slot
+_Window opens Thu 10 Sep 13:00 EAT · 155 observations in window · 16 headlines deduped against_
 
 Ranked by first-seen recency, source tier and hospitality relevance. `first seen` is when the radar observed the item, which is the date the recency gate runs on. `published` is what the source claims — where the two disagree, the disagreement is the story.
 
-### 🚨 [117.2] [page changed] Federal Register — CDC notices
-- **Verdict:** OPEN THIS — tier-1 advisory page moved; content not auto-parsed, read it manually
-- **Source:** Federal Register — CDC notices · tier 1 · REG · advisory
-- **First seen:** 2026-09-10T11:12+03:00 EAT · **Source date:** 2026-11-08
-- **URL:** https://www.federalregister.gov/api/v1/documents.rss?conditions%5Bagencies%5D%5B%5D=centers-for-disease-control-and-prevention&order=newest
-- **Extract:** Federal Register Documents published on or after 08/11/2026 and from Centers for Disease Control and Prevention https://www.federalregister.gov/api/v1/documents.rss?conditions%5Bagencies%5D%5B%5D=centers-for-disease-control-and-prevention&order=newest Wed, 09 
-- **Score parts:** tier +40, category +32, lead +12, relevance +8, freshness +19.2, corroborated +10, page_change -4
+### 🔴 [122.2] Rwanda’s Swift Response to the Marburg Virus Disease Outbreak: Exemplary Coordinated Partnerships in Action
+- **Verdict:** LEAD CANDIDATE — tier-1 shock language
+- **Source:** WHO AFRO — Rwanda country newsroom · tier 1 · RW · health
+- **First seen:** 2026-09-10T16:38+03:00 EAT · **Source date:** — none stated
+- **URL:** https://www.afro.who.int/countries/rwanda/news/rwandas-swift-response-marburg-virus-disease-outbreak-exemplary-coordinated-partnerships-action
+- **Shock language:** outbreak
+- **Score parts:** tier +40, category +24, lead +2.4, relevance +24, freshness +19.8, undated -6, shock +18
 
-### 🚨 [90.8] [page changed] Federal Register — public inspection (HHS/CDC), pre-publication
+### 🔴 [122.2] WHO Representative's remarks at celebration of end of Marburg Virus Disease outbreak in Rwanda
+- **Verdict:** LEAD CANDIDATE — tier-1 shock language
+- **Source:** WHO AFRO — Rwanda country newsroom · tier 1 · RW · health
+- **First seen:** 2026-09-10T16:38+03:00 EAT · **Source date:** — none stated
+- **URL:** https://www.afro.who.int/countries/rwanda/news/who-representatives-remarks-celebration-end-marburg-virus-disease-outbreak-rwanda
+- **Shock language:** outbreak
+- **Score parts:** tier +40, category +24, lead +2.4, relevance +24, freshness +19.8, undated -6, shock +18
+
+### 🔴 [122.2] Marburg outbreak in Rwanda declared over
+- **Verdict:** LEAD CANDIDATE — tier-1 shock language
+- **Source:** WHO AFRO — Rwanda country newsroom · tier 1 · RW · health
+- **First seen:** 2026-09-10T16:38+03:00 EAT · **Source date:** — none stated
+- **URL:** https://www.afro.who.int/countries/rwanda/news/marburg-outbreak-rwanda-declared-over
+- **Shock language:** outbreak
+- **Score parts:** tier +40, category +24, lead +2.4, relevance +24, freshness +19.8, undated -6, shock +18
+
+### 🔴 [122.2] Rwanda begins countdown to declare Marburg outbreak over
+- **Verdict:** LEAD CANDIDATE — tier-1 shock language
+- **Source:** WHO AFRO — Rwanda country newsroom · tier 1 · RW · health
+- **First seen:** 2026-09-10T16:38+03:00 EAT · **Source date:** — none stated
+- **URL:** https://www.afro.who.int/countries/rwanda/news/rwanda-begins-countdown-declare-marburg-outbreak-over
+- **Shock language:** outbreak
+- **Score parts:** tier +40, category +24, lead +2.4, relevance +24, freshness +19.8, undated -6, shock +18
+
+### 🔴 [122.2] Emergency 7 September 2026 | Feature Story Adapting care to an evolving Ebola outbreak in the Democratic Republic of the
+- **Verdict:** LEAD CANDIDATE — tier-1 shock language
+- **Source:** WHO AFRO — Rwanda country newsroom · tier 1 · RW · health
+- **First seen:** 2026-09-10T16:38+03:00 EAT · **Source date:** — none stated
+- **URL:** https://www.afro.who.int/countries/democratic-republic-of-congo/news/adapting-care-evolving-ebola-outbreak-democratic-republic-congo
+- **Shock language:** outbreak
+- **Score parts:** tier +40, category +24, lead +2.4, relevance +24, freshness +19.8, undated -6, shock +18
+
+### 🔴 [122.2] Uganda ends Ebola outbreak following completion of 42-day countdown
+- **Verdict:** LEAD CANDIDATE — tier-1 shock language
+- **Source:** WHO AFRO — Uganda country newsroom · tier 1 · UG · health
+- **First seen:** 2026-09-10T16:37+03:00 EAT · **Source date:** — none stated
+- **URL:** https://www.afro.who.int/countries/uganda/news/uganda-ends-ebola-outbreak-following-completion-42-day-countdown
+- **Shock language:** outbreak
+- **Score parts:** tier +40, category +24, lead +2.4, relevance +24, freshness +19.8, undated -6, shock +18
+
+### 🔴 [122.2] Uganda safeguards essential health services during Ebola outbreak response
+- **Verdict:** LEAD CANDIDATE — tier-1 shock language
+- **Source:** WHO AFRO — Uganda country newsroom · tier 1 · UG · health
+- **First seen:** 2026-09-10T16:37+03:00 EAT · **Source date:** — none stated
+- **URL:** https://www.afro.who.int/countries/uganda/news/uganda-safeguards-essential-health-services-during-ebola-outbreak-response
+- **Shock language:** outbreak
+- **Score parts:** tier +40, category +24, lead +2.4, relevance +24, freshness +19.8, undated -6, shock +18
+
+### 🔴 [122.2] Emergency 7 September 2026 | Feature Story Adapting care to an evolving Ebola outbreak in the Democratic Republic of the
+- **Verdict:** LEAD CANDIDATE — tier-1 shock language
+- **Source:** WHO AFRO — Uganda country newsroom · tier 1 · UG · health
+- **First seen:** 2026-09-10T16:37+03:00 EAT · **Source date:** — none stated
+- **URL:** https://www.afro.who.int/countries/democratic-republic-of-congo/news/adapting-care-evolving-ebola-outbreak-democratic-republic-congo
+- **Shock language:** outbreak
+- **Score parts:** tier +40, category +24, lead +2.4, relevance +24, freshness +19.8, undated -6, shock +18
+
+### 🔴 [122.1] Emergency 7 September 2026 | Feature Story Adapting care to an evolving Ebola outbreak in the Democratic Republic of the
+- **Verdict:** LEAD CANDIDATE — tier-1 shock language
+- **Source:** WHO AFRO — Kenya country newsroom · tier 1 · KE · health
+- **First seen:** 2026-09-10T16:37+03:00 EAT · **Source date:** — none stated
+- **URL:** https://www.afro.who.int/countries/democratic-republic-of-congo/news/adapting-care-evolving-ebola-outbreak-democratic-republic-congo
+- **Shock language:** outbreak
+- **Score parts:** tier +40, category +24, lead +2.4, relevance +24, freshness +19.7, undated -6, shock +18
+
+### 🔴 [110.2] WHO donates mobile laboratory to strengthen Uganda’s outbreak preparedness
+- **Verdict:** LEAD CANDIDATE — tier-1 shock language
+- **Source:** WHO AFRO — Uganda country newsroom · tier 1 · UG · health
+- **First seen:** 2026-09-10T16:37+03:00 EAT · **Source date:** — none stated
+- **URL:** https://www.afro.who.int/countries/uganda/news/who-donates-mobile-laboratory-strengthen-ugandas-outbreak-preparedness
+- **Shock language:** outbreak
+- **Score parts:** tier +40, category +24, lead +2.4, relevance +12, freshness +19.8, undated -6, shock +18
+
+### 🚨 [101.3] [page changed] Federal Register — public inspection (HHS/CDC), pre-publication
 - **Verdict:** OPEN THIS — tier-1 advisory page moved; content not auto-parsed, read it manually
 - **Source:** Federal Register — public inspection (HHS/CDC), pre-publication · tier 1 · REG · advisory
-- **First seen:** 2026-09-10T11:12+03:00 EAT · **Source date:** 2026-09-08
+- **First seen:** 2026-09-10T16:37+03:00 EAT · **Source date:** 2026-09-09
 - **URL:** https://www.federalregister.gov/api/v1/public-inspection-documents/current.json
-- **Extract:** {"count":120,"results":[{"agencies":[{"raw_name":"Foreign Assets Control Office","name":"Foreign Assets Control Office","id":203,"url":"https://www.federalregister.gov/agencies/foreign-assets-control-office","json_url":"https://www.federalregister.gov/api/v1/a
-- **Score parts:** tier +40, category +32, lead +3.6, relevance +0, freshness +19.2, page_change -4
+- **Extract:** {"count":113,"results":[{"agencies":[{"raw_name":"National Oceanic and Atmospheric Administration","name":"National Oceanic and Atmospheric Administration","id":361,"url":"https://www.federalregister.gov/agencies/national-oceanic-and-atmospheric-administration
+- **Score parts:** tier +40, category +32, lead +3.6, relevance +0, freshness +19.7, corroborated +10, page_change -4
 
-### 🚨 [64.8] [page changed] Airlink news
-- **Verdict:** OPEN THIS — tier-1 airline page moved; content not auto-parsed, read it manually
-- **Source:** Airlink news · tier 1 · REG · airline
-- **First seen:** 2026-09-10T11:12+03:00 EAT · **Source date:** — none stated
-- **URL:** https://www.flyairlink.com/
-- **Extract:** Request unsuccessful. Incapsula incident ID: 1021000030762671379-549310773738668271
-- **Score parts:** tier +40, category +12, lead +3.6, relevance +0, freshness +19.2, undated -6, page_change -4
+### 🟠 [92.1] Kenya Strengthens Ebola Readiness at Its Busiest Land Border
+- **Verdict:** STRONG — tier-1, upstream
+- **Source:** WHO AFRO — Kenya country newsroom · tier 1 · KE · health
+- **First seen:** 2026-09-10T16:37+03:00 EAT · **Source date:** — none stated
+- **URL:** https://www.afro.who.int/countries/kenya/news/kenya-strengthens-ebola-readiness-its-busiest-land-border
+- **Score parts:** tier +40, category +24, lead +2.4, relevance +12, freshness +19.7, undated -6
 
-### 🟡 [103.6] China Airlines Maintains Kaohsiung – Chongqing in NW26
+### 🟡 [88.2] 10 September 2026 | Cluster/Departmental news WHO and Africa CDC build capacity of directors of human resources for heal
+- **Verdict:** CONSIDER
+- **Source:** WHO AFRO — Rwanda country newsroom · tier 1 · RW · health
+- **First seen:** 2026-09-10T16:38+03:00 EAT · **Source date:** — none stated
+- **URL:** https://www.afro.who.int/news/who-and-africa-cdc-build-capacity-directors-human-resources-health-budget-negotiations
+- **Score parts:** tier +40, category +24, lead +2.4, relevance +8, freshness +19.8, undated -6
+
+### 🟡 [88.2] 10 September 2026 | Cluster/Departmental news WHO and Africa CDC build capacity of directors of human resources for heal
+- **Verdict:** CONSIDER
+- **Source:** WHO AFRO — Uganda country newsroom · tier 1 · UG · health
+- **First seen:** 2026-09-10T16:37+03:00 EAT · **Source date:** — none stated
+- **URL:** https://www.afro.who.int/news/who-and-africa-cdc-build-capacity-directors-human-resources-health-budget-negotiations
+- **Score parts:** tier +40, category +24, lead +2.4, relevance +8, freshness +19.8, undated -6
+
+### 🟡 [88.1] Preparing Kenya’s Health System for Potential El Niño-Related Flooding
+- **Verdict:** CONSIDER
+- **Source:** WHO AFRO — Kenya country newsroom · tier 1 · KE · health
+- **First seen:** 2026-09-10T16:37+03:00 EAT · **Source date:** — none stated
+- **URL:** https://www.afro.who.int/countries/kenya/news/preparing-kenyas-health-system-potential-el-nino-related-flooding
+- **Score parts:** tier +40, category +24, lead +2.4, relevance +8, freshness +19.7, undated -6
+
+### 🟡 [88.1] 10 September 2026 | Cluster/Departmental news WHO and Africa CDC build capacity of directors of human resources for heal
+- **Verdict:** CONSIDER
+- **Source:** WHO AFRO — Kenya country newsroom · tier 1 · KE · health
+- **First seen:** 2026-09-10T16:37+03:00 EAT · **Source date:** — none stated
+- **URL:** https://www.afro.who.int/news/who-and-africa-cdc-build-capacity-directors-human-resources-health-budget-negotiations
+- **Score parts:** tier +40, category +24, lead +2.4, relevance +8, freshness +19.7, undated -6
+
+### 🟡 [84.2] Azul Resume Porto Alegre – Foz do Iguacu in NW26
 - **Verdict:** CONSIDER
 - **Source:** AeroRoutes schedule filings · tier 2 · GLOBAL · aviation-tracker
-- **First seen:** 2026-09-10T11:12+03:00 EAT · **Source date:** 2026-09-10
-- **URL:** https://www.aeroroutes.com/eng/260910-cinw26ckg
-- **Extract:** Published at 0000PDT / 0700GMT 10SEP26 China Airlines this week filed schedule update to its planned Chongqing service during Northern winter 2026/27 season. The Skyteam member will continue to operate Kaohsiung – Chongqing 1 weekly flight, from 18NOV26, after
-- **Score parts:** tier +20, category +14, lead +8.4, relevance +32, freshness +19.2, corroborated +10
+- **First seen:** 2026-09-10T16:38+03:00 EAT · **Source date:** 2026-09-10
+- **URL:** https://www.aeroroutes.com/eng/260910-adnw26igu
+- **Extract:** Published at 0500PDT / 1200GMT 10SEP26 Brasilian carrier Azul during Northern winter 2026/27 season plans to resume Porto Alegre – Foz do Iguacu route, scheduled as seasonal route from 15DEC26 to 12FEB27. Last served until May 2024, the airline plans to serve 
+- **Score parts:** tier +20, category +14, lead +8.4, relevance +12, freshness +19.8, corroborated +10
 
-### 🟠 [97.0] DoubleTree by Hilton to Debut in Parramatta as Hilton Expands Greater Sydney Pipeline
-- **Verdict:** STRONG — tier-1, upstream
-- **Source:** Hilton stories/newsroom · tier 1 · GLOBAL · hotel-group
-- **First seen:** 2026-09-10T11:12+03:00 EAT · **Source date:** 2026-09-07
-- **URL:** https://stories.hilton.com/releases/doubletree-by-hilton-to-debut-in-parramatta-as-hilton-expands-greater-sydney-pipeline
-- **Extract:** SYDNEY – Hilton (NYSE: HLT) today announced the signing of DoubleTree by Hilton Parramatta, a 100-room hotel set to open in late 2028 at 34 Hassall Street in Parramatta, New South Wales, Australia. The signing will introduce Hilton to the Parramatta market and
-- **Score parts:** tier +40, category +9, lead +16.8, relevance +12, freshness +19.2
-
-### 🟠 [95.6] SitRep N°117/MVEBDB/08/09/2026
-- **Verdict:** STRONG — tier-1, upstream
-- **Source:** INSP RDC — Ebola daily situation reports (SitRep) · tier 1 · GLOBAL · health
-- **First seen:** 2026-09-10T11:12+03:00 EAT · **Source date:** 2026-09-09
-- **URL:** https://insp.cd/sitrep-n117-mvebdb-08-09-2026
-- **Score parts:** tier +40, category +24, lead +2.4, relevance +0, freshness +19.2, corroborated +10
-
-### 🟠 [95.6] SitRep N°116/MVEBDB/08/09/2026
-- **Verdict:** STRONG — tier-1, upstream
-- **Source:** INSP RDC — Ebola daily situation reports (SitRep) · tier 1 · GLOBAL · health
-- **First seen:** 2026-09-10T11:12+03:00 EAT · **Source date:** 2026-09-09
-- **URL:** https://insp.cd/sitrep-n116-mvebdb-08-09-2026
-- **Score parts:** tier +40, category +24, lead +2.4, relevance +0, freshness +19.2, corroborated +10
-
-### 🟠 [95.6] BULLETIN INFODEMIQUE MVE DU 24 AU 30 AOUT 2026
-- **Verdict:** STRONG — tier-1, upstream
-- **Source:** INSP RDC — Ebola daily situation reports (SitRep) · tier 1 · GLOBAL · health
-- **First seen:** 2026-09-10T11:12+03:00 EAT · **Source date:** 2026-09-08
-- **URL:** https://insp.cd/bulletin-infodemique-mve-du-24-au-30-aout-2026
-- **Score parts:** tier +40, category +24, lead +2.4, relevance +0, freshness +19.2, corroborated +10
-
-### 🟡 [95.2] Staff shortage, funding gaps hamper Congo Ebola response: WHO
-- **Verdict:** CONSIDER
-- **Source:** The EastAfrican · tier 2 · REG · press
-- **First seen:** 2026-09-10T11:12+03:00 EAT · **Source date:** 2026-09-09
-- **URL:** https://www.theeastafrican.co.ke/tea/sustainability/health/staff-shortage-funding-gaps-hamper-congo-ebola-response-5589294
-- **Shock language:** outbreak
-- **Extract:** Outbreak of the Bundibugyo species of Ebola has killed 3,175 people and infected more than...
-- **Score parts:** tier +20, category +4, lead +0, relevance +24, freshness +19.2, corroborated +10, shock +18
-
-### 🟡 [91.6] Korean Air 4Q26 Seattle Service Changes
+### 🟡 [84.2] Contour 4Q26 Eastern US Network Additions
 - **Verdict:** CONSIDER
 - **Source:** AeroRoutes schedule filings · tier 2 · GLOBAL · aviation-tracker
-- **First seen:** 2026-09-10T11:12+03:00 EAT · **Source date:** 2026-09-10
-- **URL:** https://www.aeroroutes.com/eng/260910-ke4q26sea
-- **Extract:** Published at 0100PDT / 0800GMT 10SEP26 Korean Air this week filed additional service changes on Seoul Incheon – Seattle route, as KE-coded flights to increase from 7 to 12 weekly from 12OCT26 to 15DEC26. The additional KE047/048 service, operated by Boeing 787
-- **Score parts:** tier +20, category +14, lead +8.4, relevance +20, freshness +19.2, corroborated +10
+- **First seen:** 2026-09-10T16:38+03:00 EAT · **Source date:** 2026-09-10
+- **URL:** https://www.aeroroutes.com/eng/260910-lf4q26
+- **Extract:** Published at 0300PDT / 1000GMT 10SEP26 Contour Airlines in the fourth quarter of 2026 schedules 2 domestic routes in the East Coast. Planned network addition as follows. Charlotte – Williamsport eff 19OCT26 1 daily Embraer ERJ135 LF3502 CLT1600 – 1745IPT ERJ D
+- **Score parts:** tier +20, category +14, lead +8.4, relevance +12, freshness +19.8, corroborated +10
 
-### 🟠 [91.0] Baltic Sea projects tackle tourism's wastewater, cycling and food supply chains
-- **Verdict:** STRONG — tier-1, upstream
-- **Source:** EU Tourism Transition Pathway — legislation & guidance · tier 1 · REG · regulator
-- **First seen:** 2026-09-10T11:12+03:00 EAT · **Source date:** — none stated
-- **URL:** https://transition-pathways.europa.eu/tourism/projects/baltic-sea-projects-tackle-tourisms-wastewater-cycling-and-food-supply-chains
-- **Score parts:** tier +40, category +17, lead +16.8, relevance +4, freshness +19.2, undated -6
-
-### 🟠 [91.0] Arctic tourism sector urged to rethink skills training as automation grows
-- **Verdict:** STRONG — tier-1, upstream
-- **Source:** EU Tourism Transition Pathway — legislation & guidance · tier 1 · REG · regulator
-- **First seen:** 2026-09-10T11:12+03:00 EAT · **Source date:** — none stated
-- **URL:** https://transition-pathways.europa.eu/tourism/news/arctic-tourism-sector-urged-rethink-skills-training-automation-grows
-- **Score parts:** tier +40, category +17, lead +16.8, relevance +4, freshness +19.2, undated -6
-
-### 🟠 [91.0] EU tourism nights rise 1.7% in the first half of 2026, led by foreign visitor growth
-- **Verdict:** STRONG — tier-1, upstream
-- **Source:** EU Tourism Transition Pathway — legislation & guidance · tier 1 · REG · regulator
-- **First seen:** 2026-09-10T11:12+03:00 EAT · **Source date:** — none stated
-- **URL:** https://transition-pathways.europa.eu/tourism/news/eu-tourism-nights-rise-17-first-half-2026-led-foreign-visitor-growth
-- **Score parts:** tier +40, category +17, lead +16.8, relevance +4, freshness +19.2, undated -6
-
-### 🟡 [85.8] Montenegro: Adria-Anrainer will seine Flughäfen ausbauen
+### 🟡 [84.2] Air China Expands A350 New York Flights in Sep/Oct 2026
 - **Verdict:** CONSIDER
-- **Source:** FVW / German travel trade · tier 2 · GLOBAL · source-market
-- **First seen:** 2026-09-10T11:12+03:00 EAT · **Source date:** 2026-09-10
-- **URL:** https://www.fvw.de/touristik/destination/montenegro-adria-anrainer-will-seine-flughaefen-ausbauen-264465
-- **Extract:** Der kleine Adria-Anrainer Montenegro hat große Pläne für seine zwei zivil genutzen Flughäfen. Die Airports von Podgorica und Tivat sollen ausgebaut werden.
-- **Score parts:** tier +20, category +9, lead +3.6, relevance +24, freshness +19.2, corroborated +10
+- **Source:** AeroRoutes schedule filings · tier 2 · GLOBAL · aviation-tracker
+- **First seen:** 2026-09-10T16:38+03:00 EAT · **Source date:** 2026-09-10
+- **URL:** https://www.aeroroutes.com/eng/260910-casep26jfk
+- **Extract:** Published at 0200PDT / 0900GMT 10SEP26 Air China in the last few days extended Airbus A350-900 operation on Beijing Capital – New York JFK route. Previously scheduled on 26SEP26, 28SEP26 and 30SEP26 (Beijing departure), the Star Alliance member will also opera
+- **Score parts:** tier +20, category +14, lead +8.4, relevance +12, freshness +19.8, corroborated +10
 
-### 🟡 [85.6] SitRep N°115/MVEBDB/07/09/2026
+### 🟡 [84.1] WHO reaffirms support for Kenya's universal health coverage journey at Kenya Health Summit 2026
 - **Verdict:** CONSIDER
-- **Source:** INSP RDC — Ebola daily situation reports (SitRep) · tier 1 · GLOBAL · health
-- **First seen:** 2026-09-10T11:12+03:00 EAT · **Source date:** 2026-09-07
-- **URL:** https://insp.cd/sitrep-n115-mvebdb-07-09-2026
-- **Score parts:** tier +40, category +24, lead +2.4, relevance +0, freshness +19.2
+- **Source:** WHO AFRO — Kenya country newsroom · tier 1 · KE · health
+- **First seen:** 2026-09-10T16:37+03:00 EAT · **Source date:** — none stated
+- **URL:** https://www.afro.who.int/countries/kenya/news/who-reaffirms-support-kenyas-universal-health-coverage-journey-kenya-health-summit-2026
+- **Score parts:** tier +40, category +24, lead +2.4, relevance +4, freshness +19.7, undated -6
 
-### 🟡 [83.0] Anantara Kalutara Resort Celebrates a Decade of Unforgettable Journeys
+### 🟡 [80.2] Aerolineas Argentinas Adds Cordoba – Cabo Frio in NW26
 - **Verdict:** CONSIDER
-- **Source:** Minor Hotels newsroom · tier 1 · GLOBAL · hotel-group
-- **First seen:** 2026-09-10T11:12+03:00 EAT · **Source date:** — none stated
-- **URL:** https://media.minorhotels.com/en-GLO/270401-anantara-kalutara-resort-celebrates-a-decade-of-unforgettable-journeys
-- **Score parts:** tier +40, category +9, lead +16.8, relevance +4, freshness +19.2, undated -6
+- **Source:** AeroRoutes schedule filings · tier 2 · GLOBAL · aviation-tracker
+- **First seen:** 2026-09-10T16:38+03:00 EAT · **Source date:** 2026-09-10
+- **URL:** https://www.aeroroutes.com/eng/260910-arnw26cfb
+- **Extract:** Published at 0600PDT / 1300GMT 10SEP26 Aerolineas Argentinas during Northern winter 2026/27 season plans to launch new route to Brasil, as the carrier schedules Cordoba – Cabo Frio service. From 26DEC26, Boeing 737 MAX 8 to serve this route twice weekly. AR135
+- **Score parts:** tier +20, category +14, lead +8.4, relevance +8, freshness +19.8, corroborated +10
 
-### 🟡 [83.0] IHG and ALAND sign landmark 15-hotel deal to launch Staybridge Suites in Australia
+### 🟡 [80.2] Rwanda steps up progress towards elimination of cervical cancer
 - **Verdict:** CONSIDER
-- **Source:** IHG news · tier 1 · GLOBAL · hotel-group
-- **First seen:** 2026-09-10T11:12+03:00 EAT · **Source date:** — none stated
-- **URL:** https://www.ihgplc.com/en/news-and-media/news-releases/2026/ihg-and-aland-sign-landmark-15-hotel-deal-to-launch-staybridge-suites-in-australia
-- **Score parts:** tier +40, category +9, lead +16.8, relevance +4, freshness +19.2, undated -6
+- **Source:** WHO AFRO — Rwanda country newsroom · tier 1 · RW · health
+- **First seen:** 2026-09-10T16:38+03:00 EAT · **Source date:** — none stated
+- **URL:** https://www.afro.who.int/countries/rwanda/photo-story/rwanda-steps-progress-towards-elimination-cervical-cancer
+- **Score parts:** tier +40, category +24, lead +2.4, relevance +0, freshness +19.8, undated -6
 
-### 🟡 [83.0] Ready, set, stay: Holiday Inn in Saudi Arabia is giving guests more ways to play, connect and level up every moment toge
+### 🟡 [80.2] Rwanda Conducts Second Joint External Evaluation to Strengthen Health Security
 - **Verdict:** CONSIDER
-- **Source:** IHG news · tier 1 · GLOBAL · hotel-group
-- **First seen:** 2026-09-10T11:12+03:00 EAT · **Source date:** — none stated
-- **URL:** https://www.ihgplc.com/en/news-and-media/news-releases/2026/holiday-inn-in-saudi-arabia-is-giving-guests-more-ways-to-play-connect-and-level-up-every-moment-together
-- **Score parts:** tier +40, category +9, lead +16.8, relevance +4, freshness +19.2, undated -6
+- **Source:** WHO AFRO — Rwanda country newsroom · tier 1 · RW · health
+- **First seen:** 2026-09-10T16:38+03:00 EAT · **Source date:** — none stated
+- **URL:** https://www.afro.who.int/countries/rwanda/news/rwanda-conducts-second-joint-external-evaluation-strengthen-health-security
+- **Score parts:** tier +40, category +24, lead +2.4, relevance +0, freshness +19.8, undated -6
 
-### 🟡 [81.8] ABTA statement on Air Traffic Control flight delays
+### 🟡 [80.2] Advancing the Fight against Malaria: Rwanda's Bold Steps on World Malaria Day
 - **Verdict:** CONSIDER
-- **Source:** ABTA (UK) news · tier 2 · GLOBAL · source-market
-- **First seen:** 2026-09-10T11:12+03:00 EAT · **Source date:** 2026-09-09
-- **URL:** https://www.abta.com/news/abta-statement-air-traffic-control-flight-delays
-- **Extract:** ABTA statement on Air Traffic Control flight delays Full Page image dhewitt@abta.co.uk Wed, 09/09/2026 - 09:02 ABTA statement on Air Traffic Control flight delays Luke Petherbridge, Director of Public Affairs at ABTA, said: “If your flight has been delayed or 
-- **Score parts:** tier +20, category +9, lead +3.6, relevance +20, freshness +19.2, corroborated +10
+- **Source:** WHO AFRO — Rwanda country newsroom · tier 1 · RW · health
+- **First seen:** 2026-09-10T16:38+03:00 EAT · **Source date:** — none stated
+- **URL:** https://www.afro.who.int/countries/rwanda/news/advancing-fight-against-malaria-rwandas-bold-steps-world-malaria-day
+- **Score parts:** tier +40, category +24, lead +2.4, relevance +0, freshness +19.8, undated -6
 
-### 🟡 [79.6] TANZANIA YAHIMIZA UFADHILI WA NDANI KUFIKIA BIMA YA AFYA...
+### 🟡 [80.2] Multi-month HIV treatment dispensing improves care in Rwanda
 - **Verdict:** CONSIDER
-- **Source:** Tanzania Ministry of Health · tier 1 · TZ · health
-- **First seen:** 2026-09-10T11:12+03:00 EAT · **Source date:** — none stated
-- **URL:** https://www.moh.go.tz/news-single/tanzania-yahimiza-ufadhili-wa-ndani-kufikia-bima-ya-afya-kwa-wote
-- **Score parts:** tier +40, category +24, lead +2.4, relevance +0, freshness +19.2, undated -6
+- **Source:** WHO AFRO — Rwanda country newsroom · tier 1 · RW · health
+- **First seen:** 2026-09-10T16:38+03:00 EAT · **Source date:** — none stated
+- **URL:** https://www.afro.who.int/countries/rwanda/news/multi-month-hiv-treatment-dispensing-improves-care-rwanda
+- **Score parts:** tier +40, category +24, lead +2.4, relevance +0, freshness +19.8, undated -6
 
-### 🟡 [79.6] UWEKEZAJI HUDUMA ZA AFYA YA MSINGI WASISITIZWA, KUFI...
+### 🟡 [80.2] 10 September 2026 | Cluster/Departmental news WHO AFRO, Africa CDC convene third annual health workforce technical revie
+- **Verdict:** CONSIDER
+- **Source:** WHO AFRO — Rwanda country newsroom · tier 1 · RW · health
+- **First seen:** 2026-09-10T16:38+03:00 EAT · **Source date:** — none stated
+- **URL:** https://www.afro.who.int/news/who-afro-africa-cdc-convene-third-annual-health-workforce-technical-review-meeting
+- **Score parts:** tier +40, category +24, lead +2.4, relevance +0, freshness +19.8, undated -6
+
+### 🟡 [80.2] Emergency 7 September 2026 | Feature Story African health ministers adopt landmark framework to strengthen emergency med
+- **Verdict:** CONSIDER
+- **Source:** WHO AFRO — Rwanda country newsroom · tier 1 · RW · health
+- **First seen:** 2026-09-10T16:38+03:00 EAT · **Source date:** — none stated
+- **URL:** https://www.afro.who.int/countries/ethiopia/news/african-health-ministers-adopt-landmark-framework-strengthen-emergency-medical-teams
+- **Score parts:** tier +40, category +24, lead +2.4, relevance +0, freshness +19.8, undated -6
+
+### 🟡 [80.2] TAKA TANI 689,144 HUZALISHWA KILA MWEZI: SERIKALI KUCHUK...
 - **Verdict:** CONSIDER
 - **Source:** Tanzania Ministry of Health · tier 1 · TZ · health
-- **First seen:** 2026-09-10T11:12+03:00 EAT · **Source date:** — none stated
-- **URL:** https://www.moh.go.tz/news-single/uwekezaji-huduma-za-afya-ya-msingi-wasisitizwa-kufikia-bima-ya-afya-kwa-wote
-- **Score parts:** tier +40, category +24, lead +2.4, relevance +0, freshness +19.2, undated -6
+- **First seen:** 2026-09-10T16:38+03:00 EAT · **Source date:** — none stated
+- **URL:** https://www.moh.go.tz/news-single/taka-tani-689144-huzalishwa-kila-mwezi-serikali-kuchukua-hatua-za-haraka-kulinda-afya-na-mazingira
+- **Score parts:** tier +40, category +24, lead +2.4, relevance +0, freshness +19.8, undated -6
 
-### 🟡 [79.6] WIZARA YA AFYA YAIMARISHA UTAYARI WATAALAM WA MAABAR...
+### 🟡 [80.2] DKT. SAMIZI AKABIDHI VIFAA VYA USAIDIZI WA USIKIVU K...
 - **Verdict:** CONSIDER
 - **Source:** Tanzania Ministry of Health · tier 1 · TZ · health
-- **First seen:** 2026-09-10T11:12+03:00 EAT · **Source date:** — none stated
-- **URL:** https://www.moh.go.tz/news-single/wizara-ya-afya-yaimarisha-utayari-wataalam-wa-maabara-kukabiliana-na-magonjwa-ya-mlipuko
-- **Score parts:** tier +40, category +24, lead +2.4, relevance +0, freshness +19.2, undated -6
+- **First seen:** 2026-09-10T16:38+03:00 EAT · **Source date:** — none stated
+- **URL:** https://www.moh.go.tz/news-single/dkt-samizi-akabidhi-vifaa-vya-usaidizi-wa-usikivu-kwa-watoto-15
+- **Score parts:** tier +40, category +24, lead +2.4, relevance +0, freshness +19.8, undated -6
 
-### 🟡 [79.6] SERIKALI, WADAU WAIMARISHA URATIBU WA AFYA MOJA NCHI...
+### 🟡 [80.2] SEKTA BINAFSI KUENDELEA KUSHIRIKISHWA KUBORESHA HUDU...
 - **Verdict:** CONSIDER
 - **Source:** Tanzania Ministry of Health · tier 1 · TZ · health
-- **First seen:** 2026-09-10T11:12+03:00 EAT · **Source date:** — none stated
-- **URL:** https://www.moh.go.tz/news-single/serikali-wadau-waimarisha-uratibu-wa-afya-moja-nchini
-- **Score parts:** tier +40, category +24, lead +2.4, relevance +0, freshness +19.2, undated -6
+- **First seen:** 2026-09-10T16:38+03:00 EAT · **Source date:** — none stated
+- **URL:** https://www.moh.go.tz/news-single/sekta-binafsi-kuendelea-kushirikishwa-kuboresha-huduma-za-afya-nchini
+- **Score parts:** tier +40, category +24, lead +2.4, relevance +0, freshness +19.8, undated -6
 
-### 🟡 [79.6] WATAALAMU WA MAABARA WAENDELEA KUIMARISHWA KUKABILIA...
+### 🟡 [80.2] SERIKALI YAENDELEA KUIMARISHA UFADHILI WA AFYA, YASI...
 - **Verdict:** CONSIDER
 - **Source:** Tanzania Ministry of Health · tier 1 · TZ · health
-- **First seen:** 2026-09-10T11:12+03:00 EAT · **Source date:** — none stated
-- **URL:** https://www.moh.go.tz/news-single/wataalamu-wa-maabara-waendelea-kuimarishwa-kukabiliana-na-magonjwa-ya-mlipuko
-- **Score parts:** tier +40, category +24, lead +2.4, relevance +0, freshness +19.2, undated -6
+- **First seen:** 2026-09-10T16:38+03:00 EAT · **Source date:** — none stated
+- **URL:** https://www.moh.go.tz/news-single/serikali-yaendelea-kuimarisha-ufadhili-wa-afya-yasisitiza-bima-ya-afya-kwa-wote-dkt-mwigulu
+- **Score parts:** tier +40, category +24, lead +2.4, relevance +0, freshness +19.8, undated -6
 
-### 🟡 [79.6] TIMU YA UTAYARI WA DHARURA KUWA CHACHU KWENYE DHARUL...
+### 🟡 [80.2] SERIKALI YAONGEZA WATUMISHI, UWEKEZAJI MIUNDOMBINU S...
 - **Verdict:** CONSIDER
 - **Source:** Tanzania Ministry of Health · tier 1 · TZ · health
-- **First seen:** 2026-09-10T11:12+03:00 EAT · **Source date:** — none stated
-- **URL:** https://www.moh.go.tz/news-single/timu-ya-utayari-wa-dharura-kuwa-chachu-kwenye-dharula-na-majanga-dkt-kagya
-- **Score parts:** tier +40, category +24, lead +2.4, relevance +0, freshness +19.2, undated -6
+- **First seen:** 2026-09-10T16:38+03:00 EAT · **Source date:** — none stated
+- **URL:** https://www.moh.go.tz/news-single/serikali-yaongeza-watumishi-uwekezaji-miundombinu-sekta-ya-afya
+- **Score parts:** tier +40, category +24, lead +2.4, relevance +0, freshness +19.8, undated -6
 
-### 🟡 [79.6] DKT. SAMIZI AWATAKA WANAWAKE KUJENGA UTAMADUNI WA KU...
+### 🟡 [80.2] WAZIRI MKUU DKT. MWIGULU, AZIDI KUWAITA WAWEKEZAJI S...
 - **Verdict:** CONSIDER
 - **Source:** Tanzania Ministry of Health · tier 1 · TZ · health
-- **First seen:** 2026-09-10T11:12+03:00 EAT · **Source date:** — none stated
-- **URL:** https://www.moh.go.tz/news-single/dkt-samizi-awataka-wanawake-kujenga-utamaduni-wa-kupima-saratani
-- **Score parts:** tier +40, category +24, lead +2.4, relevance +0, freshness +19.2, undated -6
+- **First seen:** 2026-09-10T16:38+03:00 EAT · **Source date:** — none stated
+- **URL:** https://www.moh.go.tz/news-single/waziri-mkuu-dkt-mwigulu-azidi-kuwaita-wawekezaji-sekta-ya-afya-nchini
+- **Score parts:** tier +40, category +24, lead +2.4, relevance +0, freshness +19.8, undated -6
 
-### 🟡 [79.6] TANZANIA YAKABIDHI TANI 52 ZA DAWA NA VIFAA TIBA DRC...
+### 🟡 [80.2] AFRIKA YAHIMIZWA KUIMARISHA HUDUMA ZA AFYA YA MSINGI...
 - **Verdict:** CONSIDER
 - **Source:** Tanzania Ministry of Health · tier 1 · TZ · health
-- **First seen:** 2026-09-10T11:12+03:00 EAT · **Source date:** — none stated
-- **URL:** https://www.moh.go.tz/news-single/tanzania-yakabidhi-tani-52-za-dawa-na-vifaa-tiba-drc-kukabiliana-na-ebola
-- **Score parts:** tier +40, category +24, lead +2.4, relevance +0, freshness +19.2, undated -6
+- **First seen:** 2026-09-10T16:38+03:00 EAT · **Source date:** — none stated
+- **URL:** https://www.moh.go.tz/news-single/afrika-yahimizwa-kuimarisha-huduma-za-afya-ya-msingi-kukabiliana-na-changamoto-za-kiafya
+- **Score parts:** tier +40, category +24, lead +2.4, relevance +0, freshness +19.8, undated -6
 
-### 🟡 [77.8] Reisejahr 2027: Thurgau veröffentlicht neuen Flussreisen-Katalog
+### 🟡 [80.2] WHO, YATAKA KUIMARISHA HUDUMA ZA AFYA YA MSINGI KUKA...
 - **Verdict:** CONSIDER
-- **Source:** FVW / German travel trade · tier 2 · GLOBAL · source-market
-- **First seen:** 2026-09-10T11:12+03:00 EAT · **Source date:** 2026-09-10
-- **URL:** https://www.fvw.de/touristik/kreuzfahrt/reisejahr-2027-thurgau-veroeffentlicht-neuen-flussreisen-katalog-264464
-- **Extract:** Thurgau Travel hat den neuen Flussreisen-Katalog 2027 veröffentlicht. Im Mittelpunkt des Katalogs stehen neue Etappenreisen, die ausgewählte Teilstrecken längerer Routen separat buchbar machen.
-- **Score parts:** tier +20, category +9, lead +3.6, relevance +16, freshness +19.2, corroborated +10
+- **Source:** Tanzania Ministry of Health · tier 1 · TZ · health
+- **First seen:** 2026-09-10T16:38+03:00 EAT · **Source date:** — none stated
+- **URL:** https://www.moh.go.tz/news-single/who-yataka-kuimarisha-huduma-za-afya-ya-msingi-kukabiliana-na-changamoto-za-kiafya
+- **Score parts:** tier +40, category +24, lead +2.4, relevance +0, freshness +19.8, undated -6
 
-### 🟡 [77.8] Ab Zürich bis San Francisco: United setzt neues Elevated-Premiumprodukt ein
+### 🟡 [80.2] Ready when the call comes: Uganda cuts emergency response from weeks to hours
 - **Verdict:** CONSIDER
-- **Source:** FVW / German travel trade · tier 2 · GLOBAL · source-market
-- **First seen:** 2026-09-10T11:12+03:00 EAT · **Source date:** 2026-09-10
-- **URL:** https://www.fvw.de/touristik/verkehr/ab-zuerich-bis-san-francisco-united-setzt-neues-elevated-premiumprodukt-ein-264462
-- **Extract:** Auf der Nonstop-Verbindung ab Zürich bis San Francisco setzt United Airlines ab sofort einen Boeing 787-9 Dreamliner mit der neuen Premiumkabine Elevated ein.
-- **Score parts:** tier +20, category +9, lead +3.6, relevance +16, freshness +19.2, corroborated +10
+- **Source:** WHO AFRO — Uganda country newsroom · tier 1 · UG · health
+- **First seen:** 2026-09-10T16:37+03:00 EAT · **Source date:** — none stated
+- **URL:** https://www.afro.who.int/countries/uganda/news/ready-when-call-comes-uganda-cuts-emergency-response-weeks-hours
+- **Score parts:** tier +40, category +24, lead +2.4, relevance +0, freshness +19.8, undated -6
 
-### 🟡 [77.0] Provision of Daily Cleaning Services to Parli...
+### 🟡 [80.2] Laboratories and Health Technology
 - **Verdict:** CONSIDER
-- **Source:** Uganda EGP portal · tier 1 · UG · tender
-- **First seen:** 2026-09-10T11:12+03:00 EAT · **Source date:** — none stated
-- **URL:** https://egpuganda.go.ug/index/396139728_egp
-- **Score parts:** tier +40, category +7, lead +16.8, relevance +0, freshness +19.2, undated -6
+- **Source:** WHO AFRO — Uganda country newsroom · tier 1 · UG · health
+- **First seen:** 2026-09-10T16:37+03:00 EAT · **Source date:** — none stated
+- **URL:** https://www.afro.who.int/health-topics/laboratories-and-health-technology
+- **Score parts:** tier +40, category +24, lead +2.4, relevance +0, freshness +19.8, undated -6
 
-### 🟡 [77.0] SUPPLY AND DELIVERY OF PIPES, FITTINGS AND RE...
+### 🟡 [80.2] Central African Republic hosts cross-border consultation on the risk of Bundibugyo virus disease
 - **Verdict:** CONSIDER
-- **Source:** Uganda EGP portal · tier 1 · UG · tender
-- **First seen:** 2026-09-10T11:12+03:00 EAT · **Source date:** — none stated
-- **URL:** https://egpuganda.go.ug/index/397472836_egp
-- **Score parts:** tier +40, category +7, lead +16.8, relevance +0, freshness +19.2, undated -6
+- **Source:** WHO AFRO — Uganda country newsroom · tier 1 · UG · health
+- **First seen:** 2026-09-10T16:37+03:00 EAT · **Source date:** — none stated
+- **URL:** https://www.afro.who.int/news/central-african-republic-hosts-cross-border-consultation-risk-bundibugyo-virus-disease
+- **Score parts:** tier +40, category +24, lead +2.4, relevance +0, freshness +19.8, undated -6
 
-### 🟡 [77.0] Purchase of Analytical Gases Under Framework ...
+### 🟡 [80.2] Renforcer la riposte à la maladie à virus Bundibugyo grâce aux données probantes issues des communautés
 - **Verdict:** CONSIDER
-- **Source:** Uganda EGP portal · tier 1 · UG · tender
-- **First seen:** 2026-09-10T11:12+03:00 EAT · **Source date:** — none stated
-- **URL:** https://egpuganda.go.ug/index/397110182_egp
-- **Score parts:** tier +40, category +7, lead +16.8, relevance +0, freshness +19.2, undated -6
+- **Source:** WHO AFRO — Uganda country newsroom · tier 1 · UG · health
+- **First seen:** 2026-09-10T16:37+03:00 EAT · **Source date:** — none stated
+- **URL:** https://www.afro.who.int/fr/news/renforcer-la-riposte-la-maladie-virus-bundibugyo-grace-aux-donnees-probantes-issues-des
+- **Score parts:** tier +40, category +24, lead +2.4, relevance +0, freshness +19.8, undated -6
 
-### 🟡 [75.6] SitRep N°114/MVEBDB/06/09/2026
-- **Verdict:** CHECK — source date older than the window
-- **Source:** INSP RDC — Ebola daily situation reports (SitRep) · tier 1 · GLOBAL · health
-- **First seen:** 2026-09-10T11:12+03:00 EAT · **Source date:** 2026-09-07
-- **URL:** https://insp.cd/sitrep-n114-mvebdb-06-09-2026
-- **Score parts:** tier +40, category +24, lead +2.4, relevance +0, freshness +19.2, stale_trap -10
-
-### 🟡 [75.6] SitRep N°113/MVEBDB/04/09/2026
-- **Verdict:** CHECK — source date older than the window
-- **Source:** INSP RDC — Ebola daily situation reports (SitRep) · tier 1 · GLOBAL · health
-- **First seen:** 2026-09-10T11:12+03:00 EAT · **Source date:** 2026-09-05
-- **URL:** https://insp.cd/sitrep-n113-mvebdb-04-09-2026
-- **Score parts:** tier +40, category +24, lead +2.4, relevance +0, freshness +19.2, stale_trap -10
-
-### 🟡 [75.6] La RDC lance un nouveau Plan de riposte de 180 jours sous la coordination de l’INSP.
-- **Verdict:** CHECK — source date older than the window
-- **Source:** INSP RDC — Ebola daily situation reports (SitRep) · tier 1 · GLOBAL · health
-- **First seen:** 2026-09-10T11:12+03:00 EAT · **Source date:** 2026-09-05
-- **URL:** https://insp.cd/la-rdc-lance-un-nouveau-plan-de-riposte-de-180-jours-sous-la-coordination-de-linsp
-- **Extract:** Un nouveau Plan de préparation et de réponse de six mois, fondé sur les données, l’anticipation et l’engagement communautaire, pour
-- **Score parts:** tier +40, category +24, lead +2.4, relevance +0, freshness +19.2, stale_trap -10
-
-### 🟡 [75.6] SitRep N°112/MVEBDB/03/09/2026
-- **Verdict:** CHECK — source date older than the window
-- **Source:** INSP RDC — Ebola daily situation reports (SitRep) · tier 1 · GLOBAL · health
-- **First seen:** 2026-09-10T11:12+03:00 EAT · **Source date:** 2026-09-05
-- **URL:** https://insp.cd/sitrep-n112-mvebdb-03-09-2026
-- **Score parts:** tier +40, category +24, lead +2.4, relevance +0, freshness +19.2, stale_trap -10
-
-### 🟡 [75.6] SitRep N°111/MVEBDB/02/09/2026
-- **Verdict:** CHECK — source date older than the window
-- **Source:** INSP RDC — Ebola daily situation reports (SitRep) · tier 1 · GLOBAL · health
-- **First seen:** 2026-09-10T11:12+03:00 EAT · **Source date:** 2026-09-04
-- **URL:** https://insp.cd/sitrep-n111-mvebdb-02-09-2026
-- **Score parts:** tier +40, category +24, lead +2.4, relevance +0, freshness +19.2, stale_trap -10
-
-### 🟡 [73.8] Global Hospitality Industry Review - First Half of 2026
+### 🟡 [80.2] Uganda, WHO and Africa CDC deepen collaboration to strengthen regional health security
 - **Verdict:** CONSIDER
-- **Source:** Hospitality Net — Africa announcements · tier 2 · REG · trade
-- **First seen:** 2026-09-10T11:12+03:00 EAT · **Source date:** 2026-09-10
-- **URL:** https://www.hospitalitynet.org/opinion/4133894/global-hospitality-industry-review-first-half-of-2026
-- **Extract:** Despite RevPAR growth in H1 2026, hotel profitability remains under pressure as labor, distribution, and operating costs rise faster than revenue, forcing operators to rethink channel mix, productivity, and cost structure.
-- **Score parts:** tier +20, category +5, lead +3.6, relevance +16, freshness +19.2, corroborated +10
+- **Source:** WHO AFRO — Uganda country newsroom · tier 1 · UG · health
+- **First seen:** 2026-09-10T16:37+03:00 EAT · **Source date:** — none stated
+- **URL:** https://www.afro.who.int/countries/uganda/news/uganda-who-and-africa-cdc-deepen-collaboration-strengthen-regional-health-security
+- **Score parts:** tier +40, category +24, lead +2.4, relevance +0, freshness +19.8, undated -6
