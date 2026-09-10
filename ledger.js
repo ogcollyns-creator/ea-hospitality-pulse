@@ -1,8 +1,8 @@
 window.LEDGER = {
- "updated": "2026-09-09 13:37",
+ "updated": "2026-09-10 08:42",
  "stats": {
-  "total": 169,
-  "open": 139,
+  "total": 171,
+  "open": 141,
   "resolved": 29,
   "correct": 22,
   "partial": 1,
@@ -587,6 +587,22 @@ window.LEDGER = {
    "overdue": false
   },
   {
+   "id": "P170",
+   "made_date": "2026-09-10",
+   "edition": "Morning Brief",
+   "claim": "WHO will publish a new Disease Outbreak News on the DRC Bundibugyo outbreak on or before 15 October 2026 reporting more than 6,000 cumulative confirmed cases in DRC — the last DON (614, 1 Aug) carried 3,605 while the DRC's own SitRep 116 of 8 Sep already reports 6,686",
+   "resolution_criteria": "Read who.int/emergencies/disease-outbreak-news on 15 Oct 2026. If no new DRC Bundibugyo DON has been published since DON614, or the newest one reports 6,000 or fewer cumulative confirmed DRC cases, the call is incorrect",
+   "resolve_by": "2026-10-15",
+   "market": "UG/RW",
+   "segment": "Bush/City",
+   "confidence": "Confirmed",
+   "status": "open",
+   "resolved_date": "",
+   "evidence": "",
+   "source_url": "https://www.who.int/emergencies/disease-outbreak-news/item/2026-DON614",
+   "overdue": false
+  },
+  {
    "id": "P163",
    "made_date": "2026-09-08",
    "edition": "Evening Wrap",
@@ -968,6 +984,22 @@ window.LEDGER = {
    "resolved_date": "",
    "evidence": "",
    "source_url": "https://www.aeroroutes.com/eng/260904-etnw26jroznz",
+   "overdue": false
+  },
+  {
+   "id": "P169",
+   "made_date": "2026-09-10",
+   "edition": "Morning Brief",
+   "claim": "IndiGo will be operating Mumbai–Dar es Salaam at daily frequency on 20 December 2026 — the 20 November launch holds and the filed daily A320neo pattern is not cut below 7 weekly within its first month",
+   "resolution_criteria": "Check the IndiGo published timetable or an AeroRoutes/ch-aviation schedule report for the week commencing 20 Dec 2026. Fewer than 7 weekly Mumbai–Dar rotations, or a launch postponed beyond 20 Dec 2026, makes the call incorrect",
+   "resolve_by": "2026-12-27",
+   "market": "TZ",
+   "segment": "City/Beach",
+   "confidence": "Confirmed",
+   "status": "open",
+   "resolved_date": "",
+   "evidence": "",
+   "source_url": "https://www.aeroroutes.com/eng/260909-6enw26dar",
    "overdue": false
   },
   {

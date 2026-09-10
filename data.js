@@ -1,5 +1,14 @@
 window.EDITIONS = [
  {
+  "id": "pulse-2026-09-10-morning",
+  "date": "2026-09-10",
+  "dateDisplay": "Thursday, 10 September 2026",
+  "edition": "Morning Brief",
+  "editionKey": "morning",
+  "summary": "1️⃣ INDIGO HAS FILED THE MUMBAI–DAR SCHEDULE. DAILY FROM 20 NOVEMBER — AND IT LANDS AT 06:05.",
+  "bodyHtml": "<p>🌅 <strong>EA HOSPITALITY PULSE — MORNING BRIEF</strong><br>Thursday 10 September 2026</p>\n<p><strong>1️⃣ INDIGO HAS FILED THE MUMBAI–DAR SCHEDULE. DAILY FROM 20 NOVEMBER — AND IT LANDS AT 06:05.</strong></p>\n<p>The intent was reported on 6 September <strong>(businessline)</strong>. Overnight the schedule itself went in: <strong>6E1851 Mumbai 02:20 → Dar 06:05; 6E1852 Dar 07:05 → Mumbai 15:55. Daily. A320neo. From 20 November 2026</strong> <strong>(AeroRoutes filing, 09 Sep 2026 22:00 GMT)</strong>. Dar becomes IndiGo&#x27;s second destination in continental Africa.</p>\n<p>Read the clock, not the route map. 06:05 lands before any standard check-in, 365 times a year. The 07:05 return means the outbound guest sleeps in Dar the night before.</p>\n<p><span class=\"sowhat\">🎯 <strong>So what:</strong> that is two bed-nights a day the timetable creates and most Dar properties currently give away. Build a priced, guaranteed 07:00 early check-in sold at booking — not begged for at the desk — and a pre-departure night with a 04:30 transfer. Zanzibar and northern-circuit operators: this is Indian leisure and MICE routing through Dar on a narrowbody daily instead of a Gulf hub. Redo the Nov–Mar India plan and contract with Indian agents before the seats go on sale.</span><br><span class=\"tagline\">🏷 City, Beach, Bush | 🇹🇿 | Confirmed (filing) / Inference (the bed-nights) | impact:demand</span></p>\n<p><strong>2️⃣ THE EBOLA NUMBER YOUR AGENTS ARE QUOTING IS 40 DAYS OLD AND HALF THE REAL ONE.</strong></p>\n<p>WHO&#x27;s last Disease Outbreak News on the DRC Bundibugyo outbreak is <strong>DON614, 1 August 2026</strong>: 3,605 confirmed cases, 1,587 deaths, as at 30 July. That is the figure still in circulation.</p>\n<p>The DRC&#x27;s own institute kept publishing. <strong>SitRep No. 116, 8 September 2026</strong> (data to 7 Sep): <strong>6,686 confirmed cases, 3,226 deaths</strong>, 82 new cases on 6–7 Sep alone — Ituri 39, North Kivu 39, Haut-Uélé 4 — 819 in isolation <strong>(INSP RDC)</strong>. That is <strong>3,081 more cases than WHO&#x27;s headline</strong>, added in six weeks. The next DON is overdue.</p>\n<p><span class=\"sowhat\">🎯 <strong>So what:</strong> quote WHO&#x27;s figure <strong>with its date</strong>, or quote the sitrep — stop passing the old number to agents as current. And if your Q4 plan assumes Washington downgrades Uganda from Level 4, it doesn&#x27;t survive this curve: Uganda&#x27;s outbreak ended 28 July, certified 26 August, and the US advisory hasn&#x27;t moved since <strong>4 June — 98 days</strong>.</span><br><span class=\"tagline\">🏷 Bush, City | 🇺🇬 🇷🇼 | Confirmed | impact:risk</span></p>\n<p><strong>3️⃣ KTB IS PAYING TATLER TO PUT ITS AFRICA OFFICE IN KENYA</strong></p>\n<p>Kenya Tourism Board has signed a <strong>three-year subvention agreement with Tatler Africa</strong> — bringing the inaugural Tatler Best of Africa event to Kenya and hosting Tatler&#x27;s Africa office — inside a stated <strong>KSh 1 trillion</strong> tourism-GDP target <strong>(ATQ News, 9 Sep 2026)</strong>. Some outlets carry an 8 October Nairobi date; unmatched to KTB or Tatler, so treat as unconfirmed.</p>\n<p><span class=\"sowhat\">🎯 <strong>So what:</strong> a national board is subsidising the platform that decides which African properties get luxury shelf space for three years. Top-end Nairobi, Laikipia and coast properties should ask KTB this week how shortlisting works — waiting to be discovered is not a strategy when the discovery mechanism is publicly funded and already signed.</span><br><span class=\"tagline\">🏷 City, Bush, Beach | 🇰🇪 | Confirmed (agreement) / Unconfirmed (date) | impact:reputation</span></p>\n<p><strong>📻 RADAR &amp; WEEK AHEAD</strong><br>• <strong>Dar &amp; Arusha direct rates +3.8% week-on-week</strong> — matched-sample, week of 31 Aug, n=7, all B&amp;B <strong>(EA Pulse Rate Index, 9 Sep)</strong>. Movement, not a level.<br>• <strong>EPRA fuel review</strong> — cycle ends 14 Sep, prices effective 15 Sep. <strong>CBK bulletin</strong> Friday.<br>• <strong>Advisories</strong> — no change across the five markets in 24 hours.<br>• <strong>MICE</strong> — Africa MICE Summit, Mombasa, 1–2 Oct. Hold coast rate 30 Sep–2 Oct.</p>\n<p>⚠️ <strong>Blind spot:</strong> no direct browser access to gov.uk or travel.state.gov this run — advisories cleared by two-query web scan, not a page read. No September Africa CDC bulletin published.</p>\n<p>🔗 This edition on the web: <a href=\"https://eahospitalitypulse.com/editions/pulse-2026-09-10-morning.html\" rel=\"noopener\">eahospitalitypulse.com/editions/pulse-2026-09-10-mornin…</a></p>"
+ },
+ {
   "id": "pulse-2026-09-09-evening",
   "date": "2026-09-09",
   "dateDisplay": "Wednesday, 9 September 2026",
@@ -847,6 +856,68 @@ window.EDITIONS = [
  }
 ];
 window.INSIGHTS = [
+ {
+  "headline": "INDIGO HAS FILED THE MUMBAI–DAR SCHEDULE. DAILY FROM 20 NOVEMBER — AND IT LANDS AT 06:05.",
+  "body": "The intent was reported on 6 September *(businessline)*. Overnight the schedule itself went in: **6E1851 Mumbai 02:20 → Dar 06:05; 6E1852 Dar 07:05 → Mumbai 15:55. Daily. A320neo. From 20 November 2026** *(AeroRoutes filing, 09 Sep 2026 22:00 GMT)*. Dar becomes IndiGo's second destination in continental Africa. Read the clock, not the route map. 06:05 lands before any standard check-in, 365 times a year. The 07:05 return means the outbound guest sleeps in Dar the night before.",
+  "sowhat": "🎯 **So what:** that is two bed-nights a day the timetable creates and most Dar properties currently give away. Build a priced, guaranteed 07:00 early check-in sold at booking — not begged for at the desk — and a pre-departure night with a 04:30 transfer. Zanzibar and northern-circuit operators: this is Indian leisure and MICE routing through Dar on a narrowbody daily instead of a Gulf hub. Redo the Nov–Mar India plan and contract with Indian agents before the seats go on sale.",
+  "segments": [
+   "city",
+   "bush",
+   "beach"
+  ],
+  "countries": "🇹🇿",
+  "confidence": "Confirmed (filing) / Inference (the bed-nights)",
+  "impact": "+demand",
+  "impactClass": "demand",
+  "intensity": 3,
+  "impactSet": "author",
+  "source": "pulse-2026-09-10-morning",
+  "date": "2026-09-10",
+  "dateDisplay": "Thursday, 10 September 2026",
+  "edition": "Morning Brief",
+  "editionKey": "morning"
+ },
+ {
+  "headline": "THE EBOLA NUMBER YOUR AGENTS ARE QUOTING IS 40 DAYS OLD AND HALF THE REAL ONE.",
+  "body": "WHO's last Disease Outbreak News on the DRC Bundibugyo outbreak is **DON614, 1 August 2026**: 3,605 confirmed cases, 1,587 deaths, as at 30 July. That is the figure still in circulation. The DRC's own institute kept publishing. **SitRep No. 116, 8 September 2026** (data to 7 Sep): **6,686 confirmed cases, 3,226 deaths**, 82 new cases on 6–7 Sep alone — Ituri 39, North Kivu 39, Haut-Uélé 4 — 819 in isolation *(INSP RDC)*. That is **3,081 more cases than WHO's headline**, added in six weeks. The next DON is overdue.",
+  "sowhat": "🎯 **So what:** quote WHO's figure *with its date*, or quote the sitrep — stop passing the old number to agents as current. And if your Q4 plan assumes Washington downgrades Uganda from Level 4, it doesn't survive this curve: Uganda's outbreak ended 28 July, certified 26 August, and the US advisory hasn't moved since **4 June — 98 days**.",
+  "segments": [
+   "city",
+   "bush"
+  ],
+  "countries": "🇺🇬 🇷🇼",
+  "confidence": "Confirmed",
+  "impact": "risk",
+  "impactClass": "risk",
+  "intensity": 3,
+  "impactSet": "author",
+  "source": "pulse-2026-09-10-morning",
+  "date": "2026-09-10",
+  "dateDisplay": "Thursday, 10 September 2026",
+  "edition": "Morning Brief",
+  "editionKey": "morning"
+ },
+ {
+  "headline": "KTB IS PAYING TATLER TO PUT ITS AFRICA OFFICE IN KENYA",
+  "body": "Kenya Tourism Board has signed a **three-year subvention agreement with Tatler Africa** — bringing the inaugural Tatler Best of Africa event to Kenya and hosting Tatler's Africa office — inside a stated **KSh 1 trillion** tourism-GDP target *(ATQ News, 9 Sep 2026)*. Some outlets carry an 8 October Nairobi date; unmatched to KTB or Tatler, so treat as unconfirmed.",
+  "sowhat": "🎯 **So what:** a national board is subsidising the platform that decides which African properties get luxury shelf space for three years. Top-end Nairobi, Laikipia and coast properties should ask KTB this week how shortlisting works — waiting to be discovered is not a strategy when the discovery mechanism is publicly funded and already signed.",
+  "segments": [
+   "city",
+   "bush",
+   "beach"
+  ],
+  "countries": "🇰🇪",
+  "confidence": "Confirmed (agreement) / Unconfirmed (date)",
+  "impact": "watch",
+  "impactClass": "watch",
+  "intensity": 3,
+  "impactSet": "auto",
+  "source": "pulse-2026-09-10-morning",
+  "date": "2026-09-10",
+  "dateDisplay": "Thursday, 10 September 2026",
+  "edition": "Morning Brief",
+  "editionKey": "morning"
+ },
  {
   "headline": "EXCLUSIVE — CANADA PUT KENYA ON ITS DENGUE WATCHLIST YESTERDAY. THE COUNTIES IT LANDS ON ARE MOMBASA AND KILIFI.",
   "body": "At 11:30 ET on **8 September 2026** Ottawa updated its Kenya travel advice. One change: *\"Health – Travel health notice for dengue added.\"* Kenya now sits on Travel Health Notice 517, Level 1, among eleven destinations \"reporting higher than expected numbers of dengue cases\" *(travel.gc.ca, updated 8 Sep 2026)*. The country risk level did not move. That is the **third G7 flag in five weeks**. The US Embassy in Nairobi issued a health alert naming the coast, Wajir and Garissa on **3 August 2026**; Germany logged the same CDC notice that day. **The advisories and the outbreak disagree on geography.** The outbreak MoH activated its Public Health Emergency Operations Centre for is in the north-east: **1,678 cases and five suspected deaths** across Garissa and Wajir as at 26 August, **1,276 of them in Dadaab** *(MoH statement, 28 Aug 2026)*. None of that is near a tourist bed. But between January and May, **Mombasa recorded 3,989 cases** — more than that entire outbreak — with Lamu on 445 and Kilifi on 339 *(CS Duale, via The Standard)*. The advisories name the coast because that is where the cases have been all year. • **BEACH (Diani, Watamu, Malindi, Kilifi, Lamu):** weekly empty-scrub-cover on every standing-water point. Move repellent to daytime — pool bar, not turndown. • **CITY (Nairobi, Mombasa):** same drill on terraces and atria. Housekeeping SOP, not marketing. • **AGENTS:** Level 1 means precautions, not deterrence. Say so in writing before a client reads it cold.",
@@ -4003,4 +4074,4 @@ window.INSIGHTS = [
   "editionKey": "evening"
  }
 ];
-window.BUILT_AT = "2026-09-09 13:36";
+window.BUILT_AT = "2026-09-10 08:42";

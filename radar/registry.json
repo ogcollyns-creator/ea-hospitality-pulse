@@ -3935,6 +3935,28 @@
    "frag": "",
    "transport": "agent-search",
    "transport_note": "Added 9 Sep 2026. Canada added KENYA to Travel Health Notice 517 (dengue) on 8 Sep 2026 and the change surfaced only on the Kenya country page, not in any news feed. This index is where the next EA addition will appear first."
+  },
+  {
+   "id": "cd-insp-sitrep",
+   "name": "INSP RDC — Ebola daily situation reports (SitRep)",
+   "url": "https://insp.cd/category/sitrep/",
+   "tier": 1,
+   "country": "GLOBAL",
+   "category": "health",
+   "method": "html",
+   "cadence_min": 120,
+   "lead_days": 2,
+   "segments": [
+    "City",
+    "Bush"
+   ],
+   "slots": [
+    "morning",
+    "midday",
+    "evening"
+   ],
+   "why": "The DRC national public health institute publishes the Bundibugyo outbreak SitRep DAILY in French, while WHO's Disease Outbreak News runs biweekly and lags badly — on 10 Sep 2026 the last DON (614, 1 Aug) carried 3,605 confirmed DRC cases against the SitRep's 6,686. This is the fastest authoritative count and the leading indicator for Uganda/Rwanda border measures and the US Uganda Level 4 advisory.",
+   "frag": ""
   }
  ]
 }

@@ -9,8 +9,14 @@
 // source — mostly hospitality, tourism and business-events trade. Delegate counts are
 // only included where a named source states one; we do not estimate or invent them.
 window.MICE = {
- updated: "9 September 2026",
+ updated: "10 September 2026",
  events: [
+  { event:"Tatler Best of Africa (inaugural)", city:"Nairobi", country:"Kenya", flag:"\ud83c\uddf0\ud83c\uddea",
+    dates:"Reported for 8 October 2026 \u2014 DATE UNCONFIRMED", status:"Announced", delegates:null,
+    detail:"Kenya Tourism Board has signed a THREE-YEAR SUBVENTION AGREEMENT with Tatler Africa to bring the inaugural Tatler Best of Africa event to Kenya and to host the Tatler Africa office on the continent| framed inside a stated KSh 1 trillion tourism-GDP target (ATQ News| 9 September 2026). Several trade aggregators carry 8 October 2026 in Nairobi as the awards date| but we have NOT matched that date to a KTB or Tatler Group source| so it is logged as reported-not-confirmed. No delegate count published and none estimated.",
+    soWhat:"An awards night is a one- or two-night top-end city compression event| not a congress \u2014 but the strategic point outweighs the room nights. A national tourism board is now subsidising the platform that will shape which African properties get international luxury shelf space for three years. Top-end Nairobi| Laikipia and coast properties should ask KTB directly how shortlisting and nomination work| this quarter| rather than waiting to be discovered. Do not block inventory against the 8 October date until it is confirmed by KTB or Tatler.",
+    segment:"City, Bush, Beach", source:"ATQ News, 9 September 2026 (KTB\u2013Tatler Africa subvention agreement); date via trade aggregators, unconfirmed", verified:false, flagged:"watch" },
+
   { event:"Africa MICE Summit 2026 (incl. Africa MICE Awards & MICE Investors Round Table)", city:"Mombasa", country:"Kenya", flag:"\ud83c\uddf0\ud83c\uddea",
     dates:"1\u20132 October 2026", status:"Confirmed", delegates:"600+ attendees| 25+ speakers| 50+ exhibitors (organiser figures| africamicesummit.org)",
     detail:"NOTE THE MOVE. The 2025 edition ran 9\u201311 September in NAIROBI; the 2026 edition is 1\u20132 October in MOMBASA \u2014 anyone still holding the Nairobi September dates is holding last year\u2019s diary. Theme: \u2018Building Africa\u2019s Business Events Ecosystem for Trade| Investment and Innovation\u2019. Africa MICE Awards gala 2 October| 60+ categories. A MICE Investors & Stakeholders Round Table runs the same day| pitching convention-centre and exhibition-venue projects to investors and DFIs under an AfCFTA framing. Organised by Zuri Events. The 600+ figure is the organiser\u2019s own attendance claim and covers the summit| not a verified registration count.",
