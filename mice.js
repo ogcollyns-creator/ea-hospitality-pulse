@@ -9,7 +9,7 @@
 // source — mostly hospitality, tourism and business-events trade. Delegate counts are
 // only included where a named source states one; we do not estimate or invent them.
 window.MICE = {
- updated: "10 September 2026",
+ updated: "10 September 2026 (evening \u2014 no event confirmed| moved| cancelled or bid resolved today. Standing watch: the 8 October Tatler Best of Africa date remains UNCONFIRMED against KTB or Tatler.)",
  events: [
   { event:"Tatler Best of Africa (inaugural)", city:"Nairobi", country:"Kenya", flag:"\ud83c\uddf0\ud83c\uddea",
     dates:"Reported for 8 October 2026 \u2014 DATE UNCONFIRMED", status:"Announced", delegates:null,

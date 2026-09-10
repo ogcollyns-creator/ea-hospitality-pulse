@@ -1,8 +1,8 @@
 window.LEDGER = {
- "updated": "2026-09-10 05:44",
+ "updated": "2026-09-10 16:15",
  "stats": {
-  "total": 171,
-  "open": 141,
+  "total": 174,
+  "open": 144,
   "resolved": 29,
   "correct": 22,
   "partial": 1,
@@ -598,8 +598,8 @@ window.LEDGER = {
    "confidence": "Confirmed",
    "status": "open",
    "resolved_date": "",
-   "evidence": "",
-   "source_url": "https://www.who.int/emergencies/disease-outbreak-news/item/2026-DON614",
+   "evidence": "PREMISE CORRECTED 10 Sep 2026 evening: the claim was built on the false belief that DON614 (1 Aug) was WHO's latest DON. DON615 published 14 Aug (4,665 cases to 12 Aug) and DON616 followed (5,794 cases to 26 Aug). Left OPEN on its literal wording - resolution now turns on whether a DON published by 15 Oct 2026 reports more than 6,000 cumulative DRC cases. DON616's 5,794 does not clear the bar; a DON617 could.",
+   "source_url": "https://www.who.int/emergencies/disease-outbreak-news/item/2026-DON616",
    "overdue": false
   },
   {
@@ -840,6 +840,22 @@ window.LEDGER = {
    "resolved_date": "",
    "evidence": "",
    "source_url": "https://www.kbc.co.ke/kenyans-urged-to-adhere-to-mpox-preventive-measures-as-1298-cases-recorded/",
+   "overdue": false
+  },
+  {
+   "id": "P173",
+   "made_date": "2026-09-10",
+   "edition": "Evening Wrap",
+   "claim": "WHO will publish at least one further DRC Bundibugyo Disease Outbreak News on or before 31 October 2026 reporting more than 7,000 cumulative confirmed DRC cases - DON616 carried 5,794 to 26 Aug and the DRC's own SitRep 116 already reported 6,686 on 8 Sep",
+   "resolution_criteria": "Read who.int/emergencies/disease-outbreak-news on 31 Oct 2026. A DON published after DON616 and on or before 31 Oct 2026 reporting more than 7,000 cumulative confirmed DRC cases resolves the call CORRECT. No such DON, or one reporting 7,000 or fewer, resolves it INCORRECT",
+   "resolve_by": "2026-10-31",
+   "market": "UG|RW",
+   "segment": "Bush|City",
+   "confidence": "Confirmed",
+   "status": "open",
+   "resolved_date": "",
+   "evidence": "",
+   "source_url": "https://www.who.int/emergencies/disease-outbreak-news/item/2026-DON616",
    "overdue": false
   },
   {
@@ -1355,6 +1371,22 @@ window.LEDGER = {
    "overdue": false
   },
   {
+   "id": "P172",
+   "made_date": "2026-09-10",
+   "edition": "Evening Wrap",
+   "claim": "Busia One-Stop Border Post will NOT be operating 24-hour Ebola screening of small-scale traders by 31 December 2026 - WHO records the constraint as county staff numbers, and no funded staffing line has been announced",
+   "resolution_criteria": "A dated WHO, Kenya National Public Health Institute, Busia County or Ministry of Health statement published on or before 31 Dec 2026 confirming round-the-clock screening at Busia OSBP resolves the call INCORRECT. Absence of any such statement, or a statement that screening still runs 08:00-18:00, resolves it CORRECT",
+   "resolve_by": "2026-12-31",
+   "market": "KE",
+   "segment": "City|Bush",
+   "confidence": "Reported",
+   "status": "open",
+   "resolved_date": "",
+   "evidence": "",
+   "source_url": "https://www.afro.who.int/countries/kenya/news/kenya-strengthens-ebola-readiness-its-busiest-land-border",
+   "overdue": false
+  },
+  {
    "id": "P006",
    "made_date": "2026-07-25",
    "edition": "Morning Brief",
@@ -1416,6 +1448,22 @@ window.LEDGER = {
    "resolved_date": "",
    "evidence": "",
    "source_url": "https://www.pulse.ug/story/national-cleaning-day-police-travel-exemptions-2026082407404062456",
+   "overdue": false
+  },
+  {
+   "id": "P171",
+   "made_date": "2026-09-10",
+   "edition": "Evening Wrap",
+   "claim": "The Kenya Meteorological Department or ICPAC seasonal forecast for October-December 2026 will verify as above-normal rainfall over at least three of Kenya's main safari-circuit counties (Narok, Kajiado, Samburu, Laikipia, Isiolo) - the El Nino plus positive IOD configuration behind the Ministry of Health contingency plan holds",
+   "resolution_criteria": "Kenya Meteorological Department OND 2026 seasonal review, or the ICPAC GHACOF verification bulletin, published by 15 Feb 2027 shows above-normal OND rainfall in at least three of Narok, Kajiado, Samburu, Laikipia, Isiolo. Near-normal or below-normal in three or more of those counties makes the call incorrect",
+   "resolve_by": "2027-02-15",
+   "market": "KE",
+   "segment": "Bush",
+   "confidence": "Reported",
+   "status": "open",
+   "resolved_date": "",
+   "evidence": "",
+   "source_url": "https://www.afro.who.int/countries/kenya/news/preparing-kenyas-health-system-potential-el-nino-related-flooding",
    "overdue": false
   },
   {

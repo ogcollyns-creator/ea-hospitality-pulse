@@ -1,5 +1,14 @@
 window.EDITIONS = [
  {
+  "id": "pulse-2026-09-10-evening",
+  "date": "2026-09-10",
+  "dateDisplay": "Thursday, 10 September 2026",
+  "edition": "Evening Wrap",
+  "editionKey": "evening",
+  "summary": "1️⃣ KENYA HAS ACTIVATED AN EL NIÑO CONTINGENCY PLAN FOR OCTOBER–DECEMBER. THAT IS YOUR SEASON.",
+  "bodyHtml": "<p>🌆 <strong>EA HOSPITALITY PULSE — EVENING WRAP</strong><br>Thursday 10 September 2026</p>\n<p><strong>1️⃣ KENYA HAS ACTIVATED AN EL NIÑO CONTINGENCY PLAN FOR OCTOBER–DECEMBER. THAT IS YOUR SEASON.</strong></p>\n<p>The Ministry of Health has activated a <strong>Health Sector El Niño Contingency Plan</strong>. Forecasters expect eastern Africa wetter than normal <strong>October–December</strong> — strong El Niño plus a positive Indian Ocean Dipole, the pairing that preceded 1997 and 2019. Named: northern Kenya, Uganda, Rwanda, Burundi, Somalia, Ethiopia <strong>(WHO AFRO, 8 Sep 2026)</strong>. Benchmark isn&#x27;t 1997 — it&#x27;s this March–May, when flooding hit <strong>27 counties, killed 122 and affected 42,259</strong> by 3 May.</p>\n<p><span class=\"sowhat\">🎯 <strong>So what:</strong> that&#x27;s a health plan. Nobody is writing yours. Three things this week. Re-grade <strong>access roads and airstrip drainage</strong> — Mara, Amboseli, Samburu, Laikipia, western Uganda. Send agents a <strong>written wet-weather transfer protocol</strong> before the first washout; the operator who has one sells through a flood, the one who improvises issues refunds. And put a <strong>boil-water trigger</strong> in writing.</span><br><span class=\"tagline\">🏷 Bush, Beach, City | 🇰🇪 🇺🇬 🇷🇼 | Confirmed (plan + forecast) / Inference (the read) | impact:risk</span></p>\n<p><strong>2️⃣ BUSIA SCREENS FOR EBOLA 08:00–18:00. THE BORDER MOVES FOR LONGER THAN THAT.</strong></p>\n<p>At <strong>Busia One-Stop Border Post — 3,000+ crossings a day</strong> on the Northern Corridor — screening of small-scale traders runs <strong>08:00 to 18:00 only</strong>. WHO says the night gap is staff numbers, not capability; traders themselves asked for 24-hour cover. In August KNPHI, with WHO and IOM, trained <strong>35 health workers and engaged 45 border stakeholders</strong> across Busia, Malaba and Lwakhakha <strong>(WHO AFRO, 9 Sep 2026)</strong>.</p>\n<p><span class=\"sowhat\">🎯 <strong>So what:</strong> Kenya has no Bundibugyo case — but this is the detail an insurer or corporate risk buyer finds first. Western-circuit and Kisumu properties: name your nearest isolation referral pathway in your risk register this week.</span><br><span class=\"tagline\">🏷 City, Bush | 🇰🇪 🇺🇬 | Confirmed | impact:risk</span></p>\n<p><strong>3️⃣ THE REPEAT GUEST ISN&#x27;T LEAVING AFRICA. THEY&#x27;RE LEAVING YOUR LODGE.</strong></p>\n<p>A guest who spent <strong>US$20,000 two years ago now faces US$25,000–30,000</strong> and is taking four-star-plus instead — the repeat is <strong>for the destination, not the property</strong> <strong>(David Ryan, Rhino Africa, via Tourism Update, 9 Sep 2026)</strong>. Same report notes shorter stays and shorter lead times; one operator dissents, putting the sensitivity on <strong>airfare</strong>, not lodge rate.</p>\n<p><span class=\"sowhat\">🎯 <strong>So what:</strong> defend the repeat, not the rate. Build a real lower category inside your own estate — smaller tent, fewer inclusions, same guiding — before the guest finds one down the road.</span><br><span class=\"tagline\">🏷 Bush | 🇰🇪 🇹🇿 🇺🇬 🇷🇼 | Reported | impact:demand</span></p>\n<p><strong>📌 CORRECTION.</strong> This morning we said WHO&#x27;s latest Ebola DON was <strong>DON614 (1 Aug)</strong> and the next was overdue. Wrong. <strong>DON615 (14 Aug)</strong> carried 4,665 DRC cases to 12 Aug; <strong>DON616</strong> carries <strong>5,794 cases and 2,786 deaths to 26 Aug</strong>, CFR 48.1%. The gap to DRC&#x27;s SitRep 116 (6,686, 8 Sep) is <strong>~2,000 over two weeks, not 3,081 over six</strong>. The second IHR Emergency Committee met 18 Aug and kept the PHEIC. WHO still advises <strong>against</strong> travel restrictions.</p>\n<p><strong>📻 STILL TRUE · WEEK AHEAD</strong><br>• <strong>Advisories — no change</strong>, all four UK pages read direct today. Uganda still carries no advice against travel anywhere (updated 2 Sep).<br>• <strong>Rate index, 2026-W36:</strong> Dar &amp; Arusha median <strong>US$226.79</strong> (n=7); Nairobi <strong>US$235.80</strong> (n=9). Levels only — wow is null this week.<br>• <strong>EPRA</strong> review closes 14 Sep, effective 15 Sep. <strong>CBK bulletin</strong> tomorrow. <strong>MICE:</strong> KICC 30 Sep–2 Oct; Africa MICE Summit, Mombasa, 1–2 Oct.</p>\n<p>⚠️ <strong>Blind spot:</strong> no September Africa CDC weekly report yet; KCAA&#x27;s eAIP portal isn&#x27;t readable from here.</p>\n<p>🔗 This edition on the web: <a href=\"https://eahospitalitypulse.com/editions/pulse-2026-09-10-evening.html\" rel=\"noopener\">eahospitalitypulse.com/editions/pulse-2026-09-10-evenin…</a><br>💼 Today&#x27;s Big Read on LinkedIn: <a href=\"https://www.linkedin.com/company/ea-hospitality-pulse/\" rel=\"noopener\">linkedin.com/company/ea-hospitality-pulse/</a></p>"
+ },
+ {
   "id": "pulse-2026-09-10-morning",
   "date": "2026-09-10",
   "dateDisplay": "Thursday, 10 September 2026",
@@ -917,6 +926,66 @@ window.INSIGHTS = [
   "dateDisplay": "Thursday, 10 September 2026",
   "edition": "Morning Brief",
   "editionKey": "morning"
+ },
+ {
+  "headline": "KENYA HAS ACTIVATED AN EL NIÑO CONTINGENCY PLAN FOR OCTOBER–DECEMBER. THAT IS YOUR SEASON.",
+  "body": "The Ministry of Health has activated a **Health Sector El Niño Contingency Plan**. Forecasters expect eastern Africa wetter than normal **October–December** — strong El Niño plus a positive Indian Ocean Dipole, the pairing that preceded 1997 and 2019. Named: northern Kenya, Uganda, Rwanda, Burundi, Somalia, Ethiopia *(WHO AFRO, 8 Sep 2026)*. Benchmark isn't 1997 — it's this March–May, when flooding hit **27 counties, killed 122 and affected 42,259** by 3 May.",
+  "sowhat": "🎯 **So what:** that's a health plan. Nobody is writing yours. Three things this week. Re-grade **access roads and airstrip drainage** — Mara, Amboseli, Samburu, Laikipia, western Uganda. Send agents a **written wet-weather transfer protocol** before the first washout; the operator who has one sells through a flood, the one who improvises issues refunds. And put a **boil-water trigger** in writing.",
+  "segments": [
+   "city",
+   "bush",
+   "beach"
+  ],
+  "countries": "🇰🇪 🇺🇬 🇷🇼",
+  "confidence": "Confirmed (plan + forecast) / Inference (the read)",
+  "impact": "risk",
+  "impactClass": "risk",
+  "intensity": 3,
+  "impactSet": "author",
+  "source": "pulse-2026-09-10-evening",
+  "date": "2026-09-10",
+  "dateDisplay": "Thursday, 10 September 2026",
+  "edition": "Evening Wrap",
+  "editionKey": "evening"
+ },
+ {
+  "headline": "BUSIA SCREENS FOR EBOLA 08:00–18:00. THE BORDER MOVES FOR LONGER THAN THAT.",
+  "body": "At **Busia One-Stop Border Post — 3,000+ crossings a day** on the Northern Corridor — screening of small-scale traders runs **08:00 to 18:00 only**. WHO says the night gap is staff numbers, not capability; traders themselves asked for 24-hour cover. In August KNPHI, with WHO and IOM, trained **35 health workers and engaged 45 border stakeholders** across Busia, Malaba and Lwakhakha *(WHO AFRO, 9 Sep 2026)*.",
+  "sowhat": "🎯 **So what:** Kenya has no Bundibugyo case — but this is the detail an insurer or corporate risk buyer finds first. Western-circuit and Kisumu properties: name your nearest isolation referral pathway in your risk register this week.",
+  "segments": [
+   "city",
+   "bush"
+  ],
+  "countries": "🇰🇪 🇺🇬",
+  "confidence": "Confirmed",
+  "impact": "risk",
+  "impactClass": "risk",
+  "intensity": 3,
+  "impactSet": "author",
+  "source": "pulse-2026-09-10-evening",
+  "date": "2026-09-10",
+  "dateDisplay": "Thursday, 10 September 2026",
+  "edition": "Evening Wrap",
+  "editionKey": "evening"
+ },
+ {
+  "headline": "THE REPEAT GUEST ISN'T LEAVING AFRICA. THEY'RE LEAVING YOUR LODGE.",
+  "body": "A guest who spent **US$20,000 two years ago now faces US$25,000–30,000** and is taking four-star-plus instead — the repeat is **for the destination, not the property** *(David Ryan, Rhino Africa, via Tourism Update, 9 Sep 2026)*. Same report notes shorter stays and shorter lead times; one operator dissents, putting the sensitivity on **airfare**, not lodge rate.",
+  "sowhat": "🎯 **So what:** defend the repeat, not the rate. Build a real lower category inside your own estate — smaller tent, fewer inclusions, same guiding — before the guest finds one down the road.",
+  "segments": [
+   "bush"
+  ],
+  "countries": "🇰🇪 🇹🇿 🇺🇬 🇷🇼",
+  "confidence": "Reported",
+  "impact": "+demand",
+  "impactClass": "demand",
+  "intensity": 2,
+  "impactSet": "author",
+  "source": "pulse-2026-09-10-evening",
+  "date": "2026-09-10",
+  "dateDisplay": "Thursday, 10 September 2026",
+  "edition": "Evening Wrap",
+  "editionKey": "evening"
  },
  {
   "headline": "EXCLUSIVE — CANADA PUT KENYA ON ITS DENGUE WATCHLIST YESTERDAY. THE COUNTIES IT LANDS ON ARE MOMBASA AND KILIFI.",
@@ -4074,4 +4143,4 @@ window.INSIGHTS = [
   "editionKey": "evening"
  }
 ];
-window.BUILT_AT = "2026-09-10 05:43";
+window.BUILT_AT = "2026-09-10 16:15";
