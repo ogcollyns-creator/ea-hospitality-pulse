@@ -33,7 +33,7 @@ A guest who spent **US$20,000 two years ago now faces US$25,000–30,000** and i
 • **Rate index, 2026-W36:** Dar & Arusha median **US$226.79** (n=7); Nairobi **US$235.80** (n=9). Levels only — wow is null this week.
 • **EPRA** review closes 14 Sep, effective 15 Sep. **CBK bulletin** tomorrow. **MICE:** KICC 30 Sep–2 Oct; Africa MICE Summit, Mombasa, 1–2 Oct.
 
-⚠️ **Blind spot:** no September Africa CDC weekly report yet; KCAA's eAIP portal isn't readable from here.
+⚠️ **Blind spot:** Africa CDC's newest weekly report is August's; KCAA's eAIP portal isn't readable here.
 
 🔗 This edition on the web: https://eahospitalitypulse.com/editions/pulse-2026-09-10-evening.html
 💼 Today's Big Read on LinkedIn: https://www.linkedin.com/company/ea-hospitality-pulse/
