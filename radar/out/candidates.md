@@ -1,299 +1,318 @@
 # Radar candidates — evening slot
-_Window opens Thu 10 Sep 13:00 EAT · 155 observations in window · 16 headlines deduped against_
+_Window opens Thu 10 Sep 13:00 EAT · 325 observations in window · 16 headlines deduped against_
 
 Ranked by first-seen recency, source tier and hospitality relevance. `first seen` is when the radar observed the item, which is the date the recency gate runs on. `published` is what the source claims — where the two disagree, the disagreement is the story.
 
-### 🔴 [121.7] Rwanda’s Swift Response to the Marburg Virus Disease Outbreak: Exemplary Coordinated Partnerships in Action
+### 🔴 [116.8] Rwanda’s Swift Response to the Marburg Virus Disease Outbreak: Exemplary Coordinated Partnerships in Action
 - **Verdict:** LEAD CANDIDATE — tier-1 shock language
 - **Source:** WHO AFRO — Rwanda country newsroom · tier 1 · RW · health
 - **First seen:** 2026-09-10T16:38+03:00 EAT · **Source date:** — none stated
 - **URL:** https://www.afro.who.int/countries/rwanda/news/rwandas-swift-response-marburg-virus-disease-outbreak-exemplary-coordinated-partnerships-action
 - **Shock language:** outbreak
-- **Score parts:** tier +40, category +24, lead +2.4, relevance +24, freshness +19.3, undated -6, shock +18
+- **Score parts:** tier +40, category +24, lead +2.4, relevance +24, freshness +14.4, undated -6, shock +18
 
-### 🔴 [121.7] WHO Representative's remarks at celebration of end of Marburg Virus Disease outbreak in Rwanda
+### 🔴 [116.8] WHO Representative's remarks at celebration of end of Marburg Virus Disease outbreak in Rwanda
 - **Verdict:** LEAD CANDIDATE — tier-1 shock language
 - **Source:** WHO AFRO — Rwanda country newsroom · tier 1 · RW · health
 - **First seen:** 2026-09-10T16:38+03:00 EAT · **Source date:** — none stated
 - **URL:** https://www.afro.who.int/countries/rwanda/news/who-representatives-remarks-celebration-end-marburg-virus-disease-outbreak-rwanda
 - **Shock language:** outbreak
-- **Score parts:** tier +40, category +24, lead +2.4, relevance +24, freshness +19.3, undated -6, shock +18
+- **Score parts:** tier +40, category +24, lead +2.4, relevance +24, freshness +14.4, undated -6, shock +18
 
-### 🔴 [121.7] Marburg outbreak in Rwanda declared over
+### 🔴 [116.8] Marburg outbreak in Rwanda declared over
 - **Verdict:** LEAD CANDIDATE — tier-1 shock language
 - **Source:** WHO AFRO — Rwanda country newsroom · tier 1 · RW · health
 - **First seen:** 2026-09-10T16:38+03:00 EAT · **Source date:** — none stated
 - **URL:** https://www.afro.who.int/countries/rwanda/news/marburg-outbreak-rwanda-declared-over
 - **Shock language:** outbreak
-- **Score parts:** tier +40, category +24, lead +2.4, relevance +24, freshness +19.3, undated -6, shock +18
+- **Score parts:** tier +40, category +24, lead +2.4, relevance +24, freshness +14.4, undated -6, shock +18
 
-### 🔴 [121.7] Rwanda begins countdown to declare Marburg outbreak over
+### 🔴 [116.8] Rwanda begins countdown to declare Marburg outbreak over
 - **Verdict:** LEAD CANDIDATE — tier-1 shock language
 - **Source:** WHO AFRO — Rwanda country newsroom · tier 1 · RW · health
 - **First seen:** 2026-09-10T16:38+03:00 EAT · **Source date:** — none stated
 - **URL:** https://www.afro.who.int/countries/rwanda/news/rwanda-begins-countdown-declare-marburg-outbreak-over
 - **Shock language:** outbreak
-- **Score parts:** tier +40, category +24, lead +2.4, relevance +24, freshness +19.3, undated -6, shock +18
+- **Score parts:** tier +40, category +24, lead +2.4, relevance +24, freshness +14.4, undated -6, shock +18
 
-### 🔴 [121.7] Emergency 7 September 2026 | Feature Story Adapting care to an evolving Ebola outbreak in the Democratic Republic of the
+### 🔴 [116.8] Emergency 7 September 2026 | Feature Story Adapting care to an evolving Ebola outbreak in the Democratic Republic of the
 - **Verdict:** LEAD CANDIDATE — tier-1 shock language
 - **Source:** WHO AFRO — Rwanda country newsroom · tier 1 · RW · health
 - **First seen:** 2026-09-10T16:38+03:00 EAT · **Source date:** — none stated
 - **URL:** https://www.afro.who.int/countries/democratic-republic-of-congo/news/adapting-care-evolving-ebola-outbreak-democratic-republic-congo
 - **Shock language:** outbreak
-- **Score parts:** tier +40, category +24, lead +2.4, relevance +24, freshness +19.3, undated -6, shock +18
+- **Score parts:** tier +40, category +24, lead +2.4, relevance +24, freshness +14.4, undated -6, shock +18
 
-### 🔴 [121.7] Uganda ends Ebola outbreak following completion of 42-day countdown
+### 🔴 [116.8] Uganda ends Ebola outbreak following completion of 42-day countdown
 - **Verdict:** LEAD CANDIDATE — tier-1 shock language
 - **Source:** WHO AFRO — Uganda country newsroom · tier 1 · UG · health
 - **First seen:** 2026-09-10T16:37+03:00 EAT · **Source date:** — none stated
 - **URL:** https://www.afro.who.int/countries/uganda/news/uganda-ends-ebola-outbreak-following-completion-42-day-countdown
 - **Shock language:** outbreak
-- **Score parts:** tier +40, category +24, lead +2.4, relevance +24, freshness +19.3, undated -6, shock +18
+- **Score parts:** tier +40, category +24, lead +2.4, relevance +24, freshness +14.4, undated -6, shock +18
 
-### 🔴 [121.7] Uganda safeguards essential health services during Ebola outbreak response
+### 🔴 [116.8] Uganda safeguards essential health services during Ebola outbreak response
 - **Verdict:** LEAD CANDIDATE — tier-1 shock language
 - **Source:** WHO AFRO — Uganda country newsroom · tier 1 · UG · health
 - **First seen:** 2026-09-10T16:37+03:00 EAT · **Source date:** — none stated
 - **URL:** https://www.afro.who.int/countries/uganda/news/uganda-safeguards-essential-health-services-during-ebola-outbreak-response
 - **Shock language:** outbreak
-- **Score parts:** tier +40, category +24, lead +2.4, relevance +24, freshness +19.3, undated -6, shock +18
+- **Score parts:** tier +40, category +24, lead +2.4, relevance +24, freshness +14.4, undated -6, shock +18
 
-### 🔴 [121.7] Emergency 7 September 2026 | Feature Story Adapting care to an evolving Ebola outbreak in the Democratic Republic of the
+### 🔴 [116.8] Emergency 7 September 2026 | Feature Story Adapting care to an evolving Ebola outbreak in the Democratic Republic of the
 - **Verdict:** LEAD CANDIDATE — tier-1 shock language
 - **Source:** WHO AFRO — Uganda country newsroom · tier 1 · UG · health
 - **First seen:** 2026-09-10T16:37+03:00 EAT · **Source date:** — none stated
 - **URL:** https://www.afro.who.int/countries/democratic-republic-of-congo/news/adapting-care-evolving-ebola-outbreak-democratic-republic-congo
 - **Shock language:** outbreak
-- **Score parts:** tier +40, category +24, lead +2.4, relevance +24, freshness +19.3, undated -6, shock +18
+- **Score parts:** tier +40, category +24, lead +2.4, relevance +24, freshness +14.4, undated -6, shock +18
 
-### 🔴 [121.7] Emergency 7 September 2026 | Feature Story Adapting care to an evolving Ebola outbreak in the Democratic Republic of the
+### 🔴 [116.8] Emergency 7 September 2026 | Feature Story Adapting care to an evolving Ebola outbreak in the Democratic Republic of the
 - **Verdict:** LEAD CANDIDATE — tier-1 shock language
 - **Source:** WHO AFRO — Kenya country newsroom · tier 1 · KE · health
 - **First seen:** 2026-09-10T16:37+03:00 EAT · **Source date:** — none stated
 - **URL:** https://www.afro.who.int/countries/democratic-republic-of-congo/news/adapting-care-evolving-ebola-outbreak-democratic-republic-congo
 - **Shock language:** outbreak
-- **Score parts:** tier +40, category +24, lead +2.4, relevance +24, freshness +19.3, undated -6, shock +18
+- **Score parts:** tier +40, category +24, lead +2.4, relevance +24, freshness +14.4, undated -6, shock +18
 
-### 🔴 [109.7] WHO donates mobile laboratory to strengthen Uganda’s outbreak preparedness
+### 🔴 [104.8] WHO donates mobile laboratory to strengthen Uganda’s outbreak preparedness
 - **Verdict:** LEAD CANDIDATE — tier-1 shock language
 - **Source:** WHO AFRO — Uganda country newsroom · tier 1 · UG · health
 - **First seen:** 2026-09-10T16:37+03:00 EAT · **Source date:** — none stated
 - **URL:** https://www.afro.who.int/countries/uganda/news/who-donates-mobile-laboratory-strengthen-ugandas-outbreak-preparedness
 - **Shock language:** outbreak
-- **Score parts:** tier +40, category +24, lead +2.4, relevance +12, freshness +19.3, undated -6, shock +18
+- **Score parts:** tier +40, category +24, lead +2.4, relevance +12, freshness +14.4, undated -6, shock +18
 
-### 🚨 [100.9] [page changed] Federal Register — public inspection (HHS/CDC), pre-publication
+### 🚨 [101.4] [page changed] Federal Register — public inspection (HHS/CDC), pre-publication
+- **Verdict:** OPEN THIS — tier-1 advisory page moved; content not auto-parsed, read it manually
+- **Source:** Federal Register — public inspection (HHS/CDC), pre-publication · tier 1 · REG · advisory
+- **First seen:** 2026-09-10T21:33+03:00 EAT · **Source date:** 2026-09-09
+- **URL:** https://www.federalregister.gov/api/v1/public-inspection-documents/current.json
+- **Extract:** {"count":116,"results":[{"agencies":[{"raw_name":"National Oceanic and Atmospheric Administration","name":"National Oceanic and Atmospheric Administration","id":361,"url":"https://www.federalregister.gov/agencies/national-oceanic-and-atmospheric-administration
+- **Score parts:** tier +40, category +32, lead +3.6, relevance +0, freshness +19.8, corroborated +10, page_change -4
+
+### 🚨 [96.0] [page changed] Federal Register — public inspection (HHS/CDC), pre-publication
 - **Verdict:** OPEN THIS — tier-1 advisory page moved; content not auto-parsed, read it manually
 - **Source:** Federal Register — public inspection (HHS/CDC), pre-publication · tier 1 · REG · advisory
 - **First seen:** 2026-09-10T16:37+03:00 EAT · **Source date:** 2026-09-09
 - **URL:** https://www.federalregister.gov/api/v1/public-inspection-documents/current.json
 - **Extract:** {"count":113,"results":[{"agencies":[{"raw_name":"National Oceanic and Atmospheric Administration","name":"National Oceanic and Atmospheric Administration","id":361,"url":"https://www.federalregister.gov/agencies/national-oceanic-and-atmospheric-administration
-- **Score parts:** tier +40, category +32, lead +3.6, relevance +0, freshness +19.3, corroborated +10, page_change -4
+- **Score parts:** tier +40, category +32, lead +3.6, relevance +0, freshness +14.4, corroborated +10, page_change -4
 
-### 🟠 [91.7] Kenya Strengthens Ebola Readiness at Its Busiest Land Border
+### 🟠 [105.8] Boma Hotel t/a Red Court Hotel Ltd v Brandables E.A. Ltd (Civil Appeal E650 of 2025) [2026] KEHC 13389 (KLR) (9 Septembe
 - **Verdict:** STRONG — tier-1, upstream
+- **Source:** Kenya Gazette (Kenya Law) · tier 1 · KE · gazette
+- **First seen:** 2026-09-10T21:33+03:00 EAT · **Source date:** 2026-09-09
+- **URL:** https://new.kenyalaw.org/akn/ke/judgment/kehc/2026/13389/eng@2026-09-09
+- **Extract:** Boma Hotel t/a Red Court Hotel Ltd v Brandables E.A. Ltd (Civil Appeal E650 of 2025) [2026] KEHC 13389 (KLR) (9 September 2026) (Judgment)
+- **Score parts:** tier +40, category +20, lead +12, relevance +4, freshness +19.8, corroborated +10
+
+### 🟠 [101.8] Ngei v Chongwo (Miscellaneous Application E243 of 2025) [2026] KEHC 13393 (KLR) (9 September 2026) (Ruling)
+- **Verdict:** STRONG — tier-1, upstream
+- **Source:** Kenya Gazette (Kenya Law) · tier 1 · KE · gazette
+- **First seen:** 2026-09-10T21:33+03:00 EAT · **Source date:** 2026-09-09
+- **URL:** https://new.kenyalaw.org/akn/ke/judgment/kehc/2026/13393/eng@2026-09-09
+- **Extract:** Ngei v Chongwo (Miscellaneous Application E243 of 2025) [2026] KEHC 13393 (KLR) (9 September 2026) (Ruling)
+- **Score parts:** tier +40, category +20, lead +12, relevance +0, freshness +19.8, corroborated +10
+
+### 🟠 [101.8] In re MR (Minor) (Adoption Cause E347 of 2025) [2026] KEHC 13392 (KLR) (9 September 2026) (Judgment)
+- **Verdict:** STRONG — tier-1, upstream
+- **Source:** Kenya Gazette (Kenya Law) · tier 1 · KE · gazette
+- **First seen:** 2026-09-10T21:33+03:00 EAT · **Source date:** 2026-09-09
+- **URL:** https://new.kenyalaw.org/akn/ke/judgment/kehc/2026/13392/eng@2026-09-09
+- **Extract:** In re MR (Minor) (Adoption Cause E347 of 2025) [2026] KEHC 13392 (KLR) (9 September 2026) (Judgment)
+- **Score parts:** tier +40, category +20, lead +12, relevance +0, freshness +19.8, corroborated +10
+
+### 🟠 [101.8] Wanyonyi v Kinatwa Prestige Ltd (Civil Suit E036 of 2025) [2026] KEMC 872 (KLR) (9 September 2026) (Judgment)
+- **Verdict:** STRONG — tier-1, upstream
+- **Source:** Kenya Gazette (Kenya Law) · tier 1 · KE · gazette
+- **First seen:** 2026-09-10T21:33+03:00 EAT · **Source date:** 2026-09-09
+- **URL:** https://new.kenyalaw.org/akn/ke/judgment/kemc/2026/872/eng@2026-09-09
+- **Extract:** Wanyonyi v Kinatwa Prestige Ltd (Civil Suit E036 of 2025) [2026] KEMC 872 (KLR) (9 September 2026) (Judgment)
+- **Score parts:** tier +40, category +20, lead +12, relevance +0, freshness +19.8, corroborated +10
+
+### 🟠 [101.8] Eurocollections Ltd v Kumari (Small Claims Appeal E270 of 2024) [2026] KEHC 13391 (KLR) (Civ) (9 September 2026) (Ruling
+- **Verdict:** STRONG — tier-1, upstream
+- **Source:** Kenya Gazette (Kenya Law) · tier 1 · KE · gazette
+- **First seen:** 2026-09-10T21:33+03:00 EAT · **Source date:** 2026-09-09
+- **URL:** https://new.kenyalaw.org/akn/ke/judgment/kehc/2026/13391/eng@2026-09-09
+- **Extract:** Eurocollections Ltd v Kumari (Small Claims Appeal E270 of 2024) [2026] KEHC 13391 (KLR) (Civ) (9 September 2026) (Ruling)
+- **Score parts:** tier +40, category +20, lead +12, relevance +0, freshness +19.8, corroborated +10
+
+### 🟠 [101.8] Chitsala v Royal Liner Express Ltd (Civil Suit E208 of 2025) [2026] KEMC 871 (KLR) (9 September 2026) (Judgment)
+- **Verdict:** STRONG — tier-1, upstream
+- **Source:** Kenya Gazette (Kenya Law) · tier 1 · KE · gazette
+- **First seen:** 2026-09-10T21:33+03:00 EAT · **Source date:** 2026-09-09
+- **URL:** https://new.kenyalaw.org/akn/ke/judgment/kemc/2026/871/eng@2026-09-09
+- **Extract:** Chitsala v Royal Liner Express Ltd (Civil Suit E208 of 2025) [2026] KEMC 871 (KLR) (9 September 2026) (Judgment)
+- **Score parts:** tier +40, category +20, lead +12, relevance +0, freshness +19.8, corroborated +10
+
+### 🟠 [101.8] In re IW (Minor) (Adoption Cause E346 of 2025) [2026] KEHC 13390 (KLR) (Family) (9 September 2026) (Judgment)
+- **Verdict:** STRONG — tier-1, upstream
+- **Source:** Kenya Gazette (Kenya Law) · tier 1 · KE · gazette
+- **First seen:** 2026-09-10T21:33+03:00 EAT · **Source date:** 2026-09-09
+- **URL:** https://new.kenyalaw.org/akn/ke/judgment/kehc/2026/13390/eng@2026-09-09
+- **Extract:** In re IW (Minor) (Adoption Cause E346 of 2025) [2026] KEHC 13390 (KLR) (Family) (9 September 2026) (Judgment)
+- **Score parts:** tier +40, category +20, lead +12, relevance +0, freshness +19.8, corroborated +10
+
+### 🟠 [101.8] Nasimiyu & another (Suing as Legal Representative of the Estate of Wycliffe Emojong Omukada) v Africa Merchant Assurance
+- **Verdict:** STRONG — tier-1, upstream
+- **Source:** Kenya Gazette (Kenya Law) · tier 1 · KE · gazette
+- **First seen:** 2026-09-10T21:33+03:00 EAT · **Source date:** 2026-09-09
+- **URL:** https://new.kenyalaw.org/akn/ke/judgment/kemc/2026/870/eng@2026-09-09
+- **Extract:** Nasimiyu & another (Suing as Legal Representative of the Estate of Wycliffe Emojong Omukada) v Africa Merchant Assurance Co Ltd (Civil Case E004 of 2026) [2026] KEMC 870 (KLR) (9 September 2026) (Ruling)
+- **Score parts:** tier +40, category +20, lead +12, relevance +0, freshness +19.8, corroborated +10
+
+### 🟠 [101.8] In re EWM (Miscellaneous Application E107 of 2026) [2026] KEHC 13388 (KLR) (Family) (9 September 2026) (Judgment)
+- **Verdict:** STRONG — tier-1, upstream
+- **Source:** Kenya Gazette (Kenya Law) · tier 1 · KE · gazette
+- **First seen:** 2026-09-10T21:33+03:00 EAT · **Source date:** 2026-09-09
+- **URL:** https://new.kenyalaw.org/akn/ke/judgment/kehc/2026/13388/eng@2026-09-09
+- **Extract:** In re EWM (Miscellaneous Application E107 of 2026) [2026] KEHC 13388 (KLR) (Family) (9 September 2026) (Judgment)
+- **Score parts:** tier +40, category +20, lead +12, relevance +0, freshness +19.8, corroborated +10
+
+### 🟠 [101.8] Makombere v Khetshi Dharamshi & Co Ltd (Miscellaneous Civil Application E207 of 2025) [2026] KEHC 13387 (KLR) (Civ) (9 S
+- **Verdict:** STRONG — tier-1, upstream
+- **Source:** Kenya Gazette (Kenya Law) · tier 1 · KE · gazette
+- **First seen:** 2026-09-10T21:33+03:00 EAT · **Source date:** 2026-09-09
+- **URL:** https://new.kenyalaw.org/akn/ke/judgment/kehc/2026/13387/eng@2026-09-09
+- **Extract:** Makombere v Khetshi Dharamshi & Co Ltd (Miscellaneous Civil Application E207 of 2025) [2026] KEHC 13387 (KLR) (Civ) (9 September 2026) (Ruling)
+- **Score parts:** tier +40, category +20, lead +12, relevance +0, freshness +19.8, corroborated +10
+
+### 🟠 [101.8] Thuku v Mutinda, Maina (Suing as the administrators of the Estate of the Late Kelvin Mutinda Mbithe) & another (Miscella
+- **Verdict:** STRONG — tier-1, upstream
+- **Source:** Kenya Gazette (Kenya Law) · tier 1 · KE · gazette
+- **First seen:** 2026-09-10T21:33+03:00 EAT · **Source date:** 2026-09-09
+- **URL:** https://new.kenyalaw.org/akn/ke/judgment/kehc/2026/13386/eng@2026-09-09
+- **Extract:** Thuku v Mutinda, Maina (Suing as the administrators of the Estate of the Late Kelvin Mutinda Mbithe) & another (Miscellaneous Civil Application E198 of 2026) [2026] KEHC 13386 (KLR) (9 September 2026) (Ruling)
+- **Score parts:** tier +40, category +20, lead +12, relevance +0, freshness +19.8, corroborated +10
+
+### 🟠 [101.8] Gaithuma v Gikonyo (Miscellaneous Civil Application E173 of 2025) [2026] KEHC 13385 (KLR) (9 September 2026) (Ruling)
+- **Verdict:** STRONG — tier-1, upstream
+- **Source:** Kenya Gazette (Kenya Law) · tier 1 · KE · gazette
+- **First seen:** 2026-09-10T21:33+03:00 EAT · **Source date:** 2026-09-09
+- **URL:** https://new.kenyalaw.org/akn/ke/judgment/kehc/2026/13385/eng@2026-09-09
+- **Extract:** Gaithuma v Gikonyo (Miscellaneous Civil Application E173 of 2025) [2026] KEHC 13385 (KLR) (9 September 2026) (Ruling)
+- **Score parts:** tier +40, category +20, lead +12, relevance +0, freshness +19.8, corroborated +10
+
+### 🟠 [101.8] Githunguri Law Courts – Daily Cause List – 10 September 2026
+- **Verdict:** STRONG — tier-1, upstream
+- **Source:** Kenya Gazette (Kenya Law) · tier 1 · KE · gazette
+- **First seen:** 2026-09-10T21:33+03:00 EAT · **Source date:** 2026-09-10
+- **URL:** https://new.kenyalaw.org/akn/ke/doc/cause-list-daily/kemc/2026-09-10/2/eng@2026-09-10
+- **Extract:** Githunguri Law Courts – Daily Cause List – 10 September 2026
+- **Score parts:** tier +40, category +20, lead +12, relevance +0, freshness +19.8, corroborated +10
+
+### 🟠 [101.8] Kibera Law Courts – Daily Cause List – 10 September 2026
+- **Verdict:** STRONG — tier-1, upstream
+- **Source:** Kenya Gazette (Kenya Law) · tier 1 · KE · gazette
+- **First seen:** 2026-09-10T21:33+03:00 EAT · **Source date:** 2026-09-10
+- **URL:** https://new.kenyalaw.org/akn/ke/doc/cause-list-daily/kemc/2026-09-10/3/eng@2026-09-10
+- **Extract:** Kibera Law Courts – Daily Cause List – 10 September 2026
+- **Score parts:** tier +40, category +20, lead +12, relevance +0, freshness +19.8, corroborated +10
+
+### 🟡 [92.2] Sunrise Airways Sep – Nov 2026 Cap-Haitien – Boston Suspensions
+- **Verdict:** CONSIDER
+- **Source:** AeroRoutes schedule filings · tier 2 · GLOBAL · aviation-tracker
+- **First seen:** 2026-09-10T21:33+03:00 EAT · **Source date:** 2026-09-10
+- **URL:** https://www.aeroroutes.com/eng/260910-s6sep26bos
+- **Extract:** Published at 0900PDT / 1600GMT 10SEP26 Haiti’s Sunrise Airways earlier this month temporarily suspended service on Cap-Haitien – Boston route, scheduled for 10-week period. The weekly service on board GlobalX A320 aircraft is suspended from 08SEP26 to 10NOV26.
+- **Score parts:** tier +20, category +14, lead +8.4, relevance +20, freshness +19.8, corroborated +10
+
+### 🟡 [87.0] Vigilance renforcée pour les ressortissants français à l’étranger
+- **Verdict:** CONSIDER
+- **Source:** France Conseils aux voyageurs — Kenya · tier 1 · KE · advisory
+- **First seen:** 2026-09-10T21:33+03:00 EAT · **Source date:** — none stated
+- **URL:** https://www.diplomatie.gouv.fr/fr/information-par-pays/alertes/vigilance-renforcee-pour-les-ressortissants-francais-a-l-etranger
+- **Score parts:** tier +40, category +32, lead +1.2, relevance +0, freshness +19.8, undated -6
+
+### 🟡 [86.8] Kenya Strengthens Ebola Readiness at Its Busiest Land Border
+- **Verdict:** CONSIDER
 - **Source:** WHO AFRO — Kenya country newsroom · tier 1 · KE · health
 - **First seen:** 2026-09-10T16:37+03:00 EAT · **Source date:** — none stated
 - **URL:** https://www.afro.who.int/countries/kenya/news/kenya-strengthens-ebola-readiness-its-busiest-land-border
-- **Score parts:** tier +40, category +24, lead +2.4, relevance +12, freshness +19.3, undated -6
+- **Score parts:** tier +40, category +24, lead +2.4, relevance +12, freshness +14.4, undated -6
 
-### 🟡 [87.7] 10 September 2026 | Cluster/Departmental news WHO and Africa CDC build capacity of directors of human resources for heal
+### 🟡 [85.4] Eerste KLM Airbus A350 maakt testvluchten
+- **Verdict:** CONSIDER
+- **Source:** KLM/Air France newsroom · tier 1 · GLOBAL · airline
+- **First seen:** 2026-09-10T21:33+03:00 EAT · **Source date:** 2026-09-10
+- **URL:** https://nieuws.klm.com/eerste-klm-airbus-a350-maakt-testvluchten
+- **Extract:** De eerste Airbus A350 van KLM heeft de afgelopen week twee testvluchten gemaakt. Daarmee komt de levering van het vliegtuig, dat later deze maand wordt verwacht, weer een stap dichterbij. Het toestel krijgt de naam De Nachtwacht, naar het wereldberoemde schild
+- **Score parts:** tier +40, category +12, lead +3.6, relevance +0, freshness +19.8, corroborated +10
+
+### 🟡 [84.2] Draft CBK Prudential Guidelines, Risk Management Guidelines, Guidance Notes, and Framework for Domestic Systemically Imp
+- **Verdict:** CONSIDER
+- **Source:** Central Bank of Kenya press releases · tier 1 · KE · central-bank
+- **First seen:** 2026-09-10T21:34+03:00 EAT · **Source date:** 2026-09-10
+- **URL:** https://www.centralbank.go.ke/2026/09/10/draft-cbk-prudential-guidelines-risk-management-guidelines-guidance-notes-and-framework-for-domestic-systemically-important-banks
+- **Score parts:** tier +40, category +12, lead +2.4, relevance +0, freshness +19.8, corroborated +10
+
+### 🟡 [84.2] Air Peace Removed Lagos – Sao Paulo Schedule Filing in Oct 2026
+- **Verdict:** CONSIDER
+- **Source:** AeroRoutes schedule filings · tier 2 · GLOBAL · aviation-tracker
+- **First seen:** 2026-09-10T21:33+03:00 EAT · **Source date:** 2026-09-10
+- **URL:** https://www.aeroroutes.com/eng/260910-p4oct26gru
+- **Extract:** Published at 1100PDT / 1800GMT 10SEP26 Nigerian carrier Air Peace in recent schedule update removed the filing of one-time Brasil service. Previously reported on AeroRoutes on 18-19AUG26 , the airline was filing Lagos – Sao Paulo Guarulhos schedule in October 
+- **Score parts:** tier +20, category +14, lead +8.4, relevance +12, freshness +19.8, corroborated +10
+
+### 🟡 [84.2] Alaska Expands American Puerto Rico Codeshare From Sep 2026
+- **Verdict:** CONSIDER
+- **Source:** AeroRoutes schedule filings · tier 2 · GLOBAL · aviation-tracker
+- **First seen:** 2026-09-10T21:33+03:00 EAT · **Source date:** 2026-09-10
+- **URL:** https://www.aeroroutes.com/eng/260910-asaacodeshare
+- **Extract:** Published at 1000PDT / 1700GMT 10SEP26 Alaska Airlines today (10SEP26) expands codeshare partnership with American Airlines, covering additional route to Puerto Rico. Planned codeshare route additions as follows. Alaska Airlines operated by American Airlines M
+- **Score parts:** tier +20, category +14, lead +8.4, relevance +12, freshness +19.8, corroborated +10
+
+### 🟡 [84.2] LATAM Peru Adds Cuzco – Sao Paulo in NS27
+- **Verdict:** CONSIDER
+- **Source:** AeroRoutes schedule filings · tier 2 · GLOBAL · aviation-tracker
+- **First seen:** 2026-09-10T21:33+03:00 EAT · **Source date:** 2026-09-10
+- **URL:** https://www.aeroroutes.com/eng/260910-lans27cuzgru
+- **Extract:** Published at 0700PDT / 1400GMT 10SEP26 LATAM Airlines Peru during Northern summer 2027 season plans to launch service to Brasil, with nonstop Cuzco – Sao Paulo Guarulhos route scheduled. From 29MAR27, Airbus A320 aircraft serves this route 4 times weekly. LA24
+- **Score parts:** tier +20, category +14, lead +8.4, relevance +12, freshness +19.8, corroborated +10
+
+### 🟡 [83.8] Staff shortage, grounded ambulances dominate Lango health assembly findings
+- **Verdict:** CONSIDER
+- **Source:** Daily Monitor (Uganda) · tier 2 · UG · press
+- **First seen:** 2026-09-10T21:33+03:00 EAT · **Source date:** 2026-09-10
+- **URL:** https://www.monitor.co.ug/uganda/news/national/staff-shortage-grounded-ambulances-dominate-lango-health-assembly-findings-5590618
+- **Shock language:** grounded
+- **Extract:** The findings paint a system stretched thin at nearly every point of contact
+- **Score parts:** tier +20, category +4, lead +0, relevance +12, freshness +19.8, corroborated +10, shock +18
+
+### 🟡 [82.8] 10 September 2026 | Cluster/Departmental news WHO and Africa CDC build capacity of directors of human resources for heal
 - **Verdict:** CONSIDER
 - **Source:** WHO AFRO — Rwanda country newsroom · tier 1 · RW · health
 - **First seen:** 2026-09-10T16:38+03:00 EAT · **Source date:** — none stated
 - **URL:** https://www.afro.who.int/news/who-and-africa-cdc-build-capacity-directors-human-resources-health-budget-negotiations
-- **Score parts:** tier +40, category +24, lead +2.4, relevance +8, freshness +19.3, undated -6
+- **Score parts:** tier +40, category +24, lead +2.4, relevance +8, freshness +14.4, undated -6
 
-### 🟡 [87.7] 10 September 2026 | Cluster/Departmental news WHO and Africa CDC build capacity of directors of human resources for heal
+### 🟡 [82.8] 10 September 2026 | Cluster/Departmental news WHO and Africa CDC build capacity of directors of human resources for heal
 - **Verdict:** CONSIDER
 - **Source:** WHO AFRO — Uganda country newsroom · tier 1 · UG · health
 - **First seen:** 2026-09-10T16:37+03:00 EAT · **Source date:** — none stated
 - **URL:** https://www.afro.who.int/news/who-and-africa-cdc-build-capacity-directors-human-resources-health-budget-negotiations
-- **Score parts:** tier +40, category +24, lead +2.4, relevance +8, freshness +19.3, undated -6
+- **Score parts:** tier +40, category +24, lead +2.4, relevance +8, freshness +14.4, undated -6
 
-### 🟡 [87.7] Preparing Kenya’s Health System for Potential El Niño-Related Flooding
+### 🟡 [82.8] Preparing Kenya’s Health System for Potential El Niño-Related Flooding
 - **Verdict:** CONSIDER
 - **Source:** WHO AFRO — Kenya country newsroom · tier 1 · KE · health
 - **First seen:** 2026-09-10T16:37+03:00 EAT · **Source date:** — none stated
 - **URL:** https://www.afro.who.int/countries/kenya/news/preparing-kenyas-health-system-potential-el-nino-related-flooding
-- **Score parts:** tier +40, category +24, lead +2.4, relevance +8, freshness +19.3, undated -6
+- **Score parts:** tier +40, category +24, lead +2.4, relevance +8, freshness +14.4, undated -6
 
-### 🟡 [87.7] 10 September 2026 | Cluster/Departmental news WHO and Africa CDC build capacity of directors of human resources for heal
+### 🟡 [82.8] 10 September 2026 | Cluster/Departmental news WHO and Africa CDC build capacity of directors of human resources for heal
 - **Verdict:** CONSIDER
 - **Source:** WHO AFRO — Kenya country newsroom · tier 1 · KE · health
 - **First seen:** 2026-09-10T16:37+03:00 EAT · **Source date:** — none stated
 - **URL:** https://www.afro.who.int/news/who-and-africa-cdc-build-capacity-directors-human-resources-health-budget-negotiations
-- **Score parts:** tier +40, category +24, lead +2.4, relevance +8, freshness +19.3, undated -6
+- **Score parts:** tier +40, category +24, lead +2.4, relevance +8, freshness +14.4, undated -6
 
-### 🟡 [83.7] Azul Resume Porto Alegre – Foz do Iguacu in NW26
+### 🟡 [82.4] Hospitality sector needs to beef up resilience
 - **Verdict:** CONSIDER
-- **Source:** AeroRoutes schedule filings · tier 2 · GLOBAL · aviation-tracker
-- **First seen:** 2026-09-10T16:38+03:00 EAT · **Source date:** 2026-09-10
-- **URL:** https://www.aeroroutes.com/eng/260910-adnw26igu
-- **Extract:** Published at 0500PDT / 1200GMT 10SEP26 Brasilian carrier Azul during Northern winter 2026/27 season plans to resume Porto Alegre – Foz do Iguacu route, scheduled as seasonal route from 15DEC26 to 12FEB27. Last served until May 2024, the airline plans to serve 
-- **Score parts:** tier +20, category +14, lead +8.4, relevance +12, freshness +19.3, corroborated +10
-
-### 🟡 [83.7] Contour 4Q26 Eastern US Network Additions
-- **Verdict:** CONSIDER
-- **Source:** AeroRoutes schedule filings · tier 2 · GLOBAL · aviation-tracker
-- **First seen:** 2026-09-10T16:38+03:00 EAT · **Source date:** 2026-09-10
-- **URL:** https://www.aeroroutes.com/eng/260910-lf4q26
-- **Extract:** Published at 0300PDT / 1000GMT 10SEP26 Contour Airlines in the fourth quarter of 2026 schedules 2 domestic routes in the East Coast. Planned network addition as follows. Charlotte – Williamsport eff 19OCT26 1 daily Embraer ERJ135 LF3502 CLT1600 – 1745IPT ERJ D
-- **Score parts:** tier +20, category +14, lead +8.4, relevance +12, freshness +19.3, corroborated +10
-
-### 🟡 [83.7] Air China Expands A350 New York Flights in Sep/Oct 2026
-- **Verdict:** CONSIDER
-- **Source:** AeroRoutes schedule filings · tier 2 · GLOBAL · aviation-tracker
-- **First seen:** 2026-09-10T16:38+03:00 EAT · **Source date:** 2026-09-10
-- **URL:** https://www.aeroroutes.com/eng/260910-casep26jfk
-- **Extract:** Published at 0200PDT / 0900GMT 10SEP26 Air China in the last few days extended Airbus A350-900 operation on Beijing Capital – New York JFK route. Previously scheduled on 26SEP26, 28SEP26 and 30SEP26 (Beijing departure), the Star Alliance member will also opera
-- **Score parts:** tier +20, category +14, lead +8.4, relevance +12, freshness +19.3, corroborated +10
-
-### 🟡 [83.7] WHO reaffirms support for Kenya's universal health coverage journey at Kenya Health Summit 2026
-- **Verdict:** CONSIDER
-- **Source:** WHO AFRO — Kenya country newsroom · tier 1 · KE · health
-- **First seen:** 2026-09-10T16:37+03:00 EAT · **Source date:** — none stated
-- **URL:** https://www.afro.who.int/countries/kenya/news/who-reaffirms-support-kenyas-universal-health-coverage-journey-kenya-health-summit-2026
-- **Score parts:** tier +40, category +24, lead +2.4, relevance +4, freshness +19.3, undated -6
-
-### 🟡 [79.7] Aerolineas Argentinas Adds Cordoba – Cabo Frio in NW26
-- **Verdict:** CONSIDER
-- **Source:** AeroRoutes schedule filings · tier 2 · GLOBAL · aviation-tracker
-- **First seen:** 2026-09-10T16:38+03:00 EAT · **Source date:** 2026-09-10
-- **URL:** https://www.aeroroutes.com/eng/260910-arnw26cfb
-- **Extract:** Published at 0600PDT / 1300GMT 10SEP26 Aerolineas Argentinas during Northern winter 2026/27 season plans to launch new route to Brasil, as the carrier schedules Cordoba – Cabo Frio service. From 26DEC26, Boeing 737 MAX 8 to serve this route twice weekly. AR135
-- **Score parts:** tier +20, category +14, lead +8.4, relevance +8, freshness +19.3, corroborated +10
-
-### 🟡 [79.7] Rwanda steps up progress towards elimination of cervical cancer
-- **Verdict:** CONSIDER
-- **Source:** WHO AFRO — Rwanda country newsroom · tier 1 · RW · health
-- **First seen:** 2026-09-10T16:38+03:00 EAT · **Source date:** — none stated
-- **URL:** https://www.afro.who.int/countries/rwanda/photo-story/rwanda-steps-progress-towards-elimination-cervical-cancer
-- **Score parts:** tier +40, category +24, lead +2.4, relevance +0, freshness +19.3, undated -6
-
-### 🟡 [79.7] Rwanda Conducts Second Joint External Evaluation to Strengthen Health Security
-- **Verdict:** CONSIDER
-- **Source:** WHO AFRO — Rwanda country newsroom · tier 1 · RW · health
-- **First seen:** 2026-09-10T16:38+03:00 EAT · **Source date:** — none stated
-- **URL:** https://www.afro.who.int/countries/rwanda/news/rwanda-conducts-second-joint-external-evaluation-strengthen-health-security
-- **Score parts:** tier +40, category +24, lead +2.4, relevance +0, freshness +19.3, undated -6
-
-### 🟡 [79.7] Advancing the Fight against Malaria: Rwanda's Bold Steps on World Malaria Day
-- **Verdict:** CONSIDER
-- **Source:** WHO AFRO — Rwanda country newsroom · tier 1 · RW · health
-- **First seen:** 2026-09-10T16:38+03:00 EAT · **Source date:** — none stated
-- **URL:** https://www.afro.who.int/countries/rwanda/news/advancing-fight-against-malaria-rwandas-bold-steps-world-malaria-day
-- **Score parts:** tier +40, category +24, lead +2.4, relevance +0, freshness +19.3, undated -6
-
-### 🟡 [79.7] Multi-month HIV treatment dispensing improves care in Rwanda
-- **Verdict:** CONSIDER
-- **Source:** WHO AFRO — Rwanda country newsroom · tier 1 · RW · health
-- **First seen:** 2026-09-10T16:38+03:00 EAT · **Source date:** — none stated
-- **URL:** https://www.afro.who.int/countries/rwanda/news/multi-month-hiv-treatment-dispensing-improves-care-rwanda
-- **Score parts:** tier +40, category +24, lead +2.4, relevance +0, freshness +19.3, undated -6
-
-### 🟡 [79.7] 10 September 2026 | Cluster/Departmental news WHO AFRO, Africa CDC convene third annual health workforce technical revie
-- **Verdict:** CONSIDER
-- **Source:** WHO AFRO — Rwanda country newsroom · tier 1 · RW · health
-- **First seen:** 2026-09-10T16:38+03:00 EAT · **Source date:** — none stated
-- **URL:** https://www.afro.who.int/news/who-afro-africa-cdc-convene-third-annual-health-workforce-technical-review-meeting
-- **Score parts:** tier +40, category +24, lead +2.4, relevance +0, freshness +19.3, undated -6
-
-### 🟡 [79.7] Emergency 7 September 2026 | Feature Story African health ministers adopt landmark framework to strengthen emergency med
-- **Verdict:** CONSIDER
-- **Source:** WHO AFRO — Rwanda country newsroom · tier 1 · RW · health
-- **First seen:** 2026-09-10T16:38+03:00 EAT · **Source date:** — none stated
-- **URL:** https://www.afro.who.int/countries/ethiopia/news/african-health-ministers-adopt-landmark-framework-strengthen-emergency-medical-teams
-- **Score parts:** tier +40, category +24, lead +2.4, relevance +0, freshness +19.3, undated -6
-
-### 🟡 [79.7] TAKA TANI 689,144 HUZALISHWA KILA MWEZI: SERIKALI KUCHUK...
-- **Verdict:** CONSIDER
-- **Source:** Tanzania Ministry of Health · tier 1 · TZ · health
-- **First seen:** 2026-09-10T16:38+03:00 EAT · **Source date:** — none stated
-- **URL:** https://www.moh.go.tz/news-single/taka-tani-689144-huzalishwa-kila-mwezi-serikali-kuchukua-hatua-za-haraka-kulinda-afya-na-mazingira
-- **Score parts:** tier +40, category +24, lead +2.4, relevance +0, freshness +19.3, undated -6
-
-### 🟡 [79.7] DKT. SAMIZI AKABIDHI VIFAA VYA USAIDIZI WA USIKIVU K...
-- **Verdict:** CONSIDER
-- **Source:** Tanzania Ministry of Health · tier 1 · TZ · health
-- **First seen:** 2026-09-10T16:38+03:00 EAT · **Source date:** — none stated
-- **URL:** https://www.moh.go.tz/news-single/dkt-samizi-akabidhi-vifaa-vya-usaidizi-wa-usikivu-kwa-watoto-15
-- **Score parts:** tier +40, category +24, lead +2.4, relevance +0, freshness +19.3, undated -6
-
-### 🟡 [79.7] SEKTA BINAFSI KUENDELEA KUSHIRIKISHWA KUBORESHA HUDU...
-- **Verdict:** CONSIDER
-- **Source:** Tanzania Ministry of Health · tier 1 · TZ · health
-- **First seen:** 2026-09-10T16:38+03:00 EAT · **Source date:** — none stated
-- **URL:** https://www.moh.go.tz/news-single/sekta-binafsi-kuendelea-kushirikishwa-kuboresha-huduma-za-afya-nchini
-- **Score parts:** tier +40, category +24, lead +2.4, relevance +0, freshness +19.3, undated -6
-
-### 🟡 [79.7] SERIKALI YAENDELEA KUIMARISHA UFADHILI WA AFYA, YASI...
-- **Verdict:** CONSIDER
-- **Source:** Tanzania Ministry of Health · tier 1 · TZ · health
-- **First seen:** 2026-09-10T16:38+03:00 EAT · **Source date:** — none stated
-- **URL:** https://www.moh.go.tz/news-single/serikali-yaendelea-kuimarisha-ufadhili-wa-afya-yasisitiza-bima-ya-afya-kwa-wote-dkt-mwigulu
-- **Score parts:** tier +40, category +24, lead +2.4, relevance +0, freshness +19.3, undated -6
-
-### 🟡 [79.7] SERIKALI YAONGEZA WATUMISHI, UWEKEZAJI MIUNDOMBINU S...
-- **Verdict:** CONSIDER
-- **Source:** Tanzania Ministry of Health · tier 1 · TZ · health
-- **First seen:** 2026-09-10T16:38+03:00 EAT · **Source date:** — none stated
-- **URL:** https://www.moh.go.tz/news-single/serikali-yaongeza-watumishi-uwekezaji-miundombinu-sekta-ya-afya
-- **Score parts:** tier +40, category +24, lead +2.4, relevance +0, freshness +19.3, undated -6
-
-### 🟡 [79.7] WAZIRI MKUU DKT. MWIGULU, AZIDI KUWAITA WAWEKEZAJI S...
-- **Verdict:** CONSIDER
-- **Source:** Tanzania Ministry of Health · tier 1 · TZ · health
-- **First seen:** 2026-09-10T16:38+03:00 EAT · **Source date:** — none stated
-- **URL:** https://www.moh.go.tz/news-single/waziri-mkuu-dkt-mwigulu-azidi-kuwaita-wawekezaji-sekta-ya-afya-nchini
-- **Score parts:** tier +40, category +24, lead +2.4, relevance +0, freshness +19.3, undated -6
-
-### 🟡 [79.7] AFRIKA YAHIMIZWA KUIMARISHA HUDUMA ZA AFYA YA MSINGI...
-- **Verdict:** CONSIDER
-- **Source:** Tanzania Ministry of Health · tier 1 · TZ · health
-- **First seen:** 2026-09-10T16:38+03:00 EAT · **Source date:** — none stated
-- **URL:** https://www.moh.go.tz/news-single/afrika-yahimizwa-kuimarisha-huduma-za-afya-ya-msingi-kukabiliana-na-changamoto-za-kiafya
-- **Score parts:** tier +40, category +24, lead +2.4, relevance +0, freshness +19.3, undated -6
-
-### 🟡 [79.7] WHO, YATAKA KUIMARISHA HUDUMA ZA AFYA YA MSINGI KUKA...
-- **Verdict:** CONSIDER
-- **Source:** Tanzania Ministry of Health · tier 1 · TZ · health
-- **First seen:** 2026-09-10T16:38+03:00 EAT · **Source date:** — none stated
-- **URL:** https://www.moh.go.tz/news-single/who-yataka-kuimarisha-huduma-za-afya-ya-msingi-kukabiliana-na-changamoto-za-kiafya
-- **Score parts:** tier +40, category +24, lead +2.4, relevance +0, freshness +19.3, undated -6
-
-### 🟡 [79.7] Ready when the call comes: Uganda cuts emergency response from weeks to hours
-- **Verdict:** CONSIDER
-- **Source:** WHO AFRO — Uganda country newsroom · tier 1 · UG · health
-- **First seen:** 2026-09-10T16:37+03:00 EAT · **Source date:** — none stated
-- **URL:** https://www.afro.who.int/countries/uganda/news/ready-when-call-comes-uganda-cuts-emergency-response-weeks-hours
-- **Score parts:** tier +40, category +24, lead +2.4, relevance +0, freshness +19.3, undated -6
-
-### 🟡 [79.7] Laboratories and Health Technology
-- **Verdict:** CONSIDER
-- **Source:** WHO AFRO — Uganda country newsroom · tier 1 · UG · health
-- **First seen:** 2026-09-10T16:37+03:00 EAT · **Source date:** — none stated
-- **URL:** https://www.afro.who.int/health-topics/laboratories-and-health-technology
-- **Score parts:** tier +40, category +24, lead +2.4, relevance +0, freshness +19.3, undated -6
-
-### 🟡 [79.7] Central African Republic hosts cross-border consultation on the risk of Bundibugyo virus disease
-- **Verdict:** CONSIDER
-- **Source:** WHO AFRO — Uganda country newsroom · tier 1 · UG · health
-- **First seen:** 2026-09-10T16:37+03:00 EAT · **Source date:** — none stated
-- **URL:** https://www.afro.who.int/news/central-african-republic-hosts-cross-border-consultation-risk-bundibugyo-virus-disease
-- **Score parts:** tier +40, category +24, lead +2.4, relevance +0, freshness +19.3, undated -6
-
-### 🟡 [79.7] Renforcer la riposte à la maladie à virus Bundibugyo grâce aux données probantes issues des communautés
-- **Verdict:** CONSIDER
-- **Source:** WHO AFRO — Uganda country newsroom · tier 1 · UG · health
-- **First seen:** 2026-09-10T16:37+03:00 EAT · **Source date:** — none stated
-- **URL:** https://www.afro.who.int/fr/news/renforcer-la-riposte-la-maladie-virus-bundibugyo-grace-aux-donnees-probantes-issues-des
-- **Score parts:** tier +40, category +24, lead +2.4, relevance +0, freshness +19.3, undated -6
-
-### 🟡 [79.7] Uganda, WHO and Africa CDC deepen collaboration to strengthen regional health security
-- **Verdict:** CONSIDER
-- **Source:** WHO AFRO — Uganda country newsroom · tier 1 · UG · health
-- **First seen:** 2026-09-10T16:37+03:00 EAT · **Source date:** — none stated
-- **URL:** https://www.afro.who.int/countries/uganda/news/uganda-who-and-africa-cdc-deepen-collaboration-strengthen-regional-health-security
-- **Score parts:** tier +40, category +24, lead +2.4, relevance +0, freshness +19.3, undated -6
+- **Source:** Hospitality Net — Africa announcements · tier 2 · REG · trade
+- **First seen:** 2026-09-10T21:33+03:00 EAT · **Source date:** 2026-09-10
+- **URL:** https://www.hospitalitynet.org/opinion/4134321/hospitality-sector-needs-to-beef-up-resilience
+- **Extract:** Dutch hotels face a tough 2025 as ADR falls, operating costs rise to 68%, and a VAT hike from 6% to 21% cuts demand, with 43.6% of hoteliers planning to reduce investment.
+- **Score parts:** tier +20, category +5, lead +3.6, relevance +24, freshness +19.8, corroborated +10
