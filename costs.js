@@ -2,9 +2,25 @@
 // Demand data tells you what you can sell; this tells you what it costs to deliver.
 // Maintained by the weekly Pulse cost sweep. Every figure carries a source.
 window.COSTS = {
- updated: "15 August 2026 (morning — EPRA cycle 15 Aug – 14 Sep 2026)",
+ updated: "11 September 2026 (morning — ADDED the four August CPI releases as a cost-of-delivery group. The finding that matters: in ALL FOUR markets transport inflation runs ABOVE the restaurants-and-accommodation line, by 6.9 to 12.7 percentage points. Kenya 15.7 v 3.0| Tanzania 13.8 v 3.0| Uganda 9.4 v 2.5| Rwanda 24.2 v 15.6. Prior: 15 August 2026 (EPRA cycle 15 Aug – 14 Sep 2026) — the fuel entries below are from that cycle and the next EPRA review is effective 15 Sep 2026.)",
  note: "Owners live on margin, not arrivals. These are the inputs that move it.",
  items: [
+  { group:"Inflation — cost of delivery", flag:"🇰🇪", metric:"Transport CPI vs Restaurants & Accommodation CPI, annual",
+    value:"Transport +15.7% · Accommodation +3.0%", change:"transport running 5.2x the hospitality line", dir:"up", period:"August 2026 (y/y)",
+    note:"Headline CPI 6.6%. Subtracting headline from the accommodation line gives a REAL room-price change of -3.6pp — the worst of the four EA markets. Food and non-alcoholic beverages +9.0%, housing/water/electricity/gas/fuels +3.6%. Overall index 155.20 to 155.85 (+0.4% m/m). The spread is our calculation; the two divisions are published figures.",
+    source:"KNBS, Kenya CPI and Inflation Report, August 2026, released 31 August 2026", verified:true },
+  { group:"Inflation — cost of delivery", flag:"🇹🇿", metric:"Transport CPI vs Restaurants & Accommodation CPI, annual",
+    value:"Transport +13.8% · Accommodation +3.0%", change:"transport running 4.6x the hospitality line", dir:"up", period:"August 2026 (y/y)",
+    note:"Headline 4.3%, up from 4.2% in July and the highest in the preceding twelve months on NBS's own account. Real room-price change -1.3pp. Energy, fuel and utilities +8.5%; services index +5.9%; core 4.1%; food 3.7%. Tanzania's cost base is still the most benign of the four, but it is no longer below 4%.",
+    source:"NBS Tanzania, National CPI for August 2026, released 8 September 2026", verified:true },
+  { group:"Inflation — cost of delivery", flag:"🇺🇬", metric:"Transport CPI vs Restaurants & Accommodation CPI, annual",
+    value:"Transport +9.4% · Accommodation +2.5%", change:"transport running 3.8x the hospitality line", dir:"up", period:"August 2026 (y/y)",
+    note:"Headline 4.1% (from 4.0%), core 3.5%. The accommodation line FELL from 3.2% to 2.5% — the softest in the region. But petrol +28.5%, kerosene +31.2%, energy/fuel/utilities +14.3%. One easing worth pricing: international flights +17.0%, down from 24.1% in July. Real room-price change -1.6pp.",
+    source:"UBOS, Consumer Price Indices and Inflation, August 2026", verified:true },
+  { group:"Inflation — cost of delivery", flag:"🇷🇼", metric:"Transport CPI vs Restaurants & Hotels CPI, annual (urban)",
+    value:"Transport +24.2% · Restaurants & hotels +15.6%", change:"urban headline up every month since March", dir:"up", period:"August 2026 (y/y)",
+    note:"Urban CPI 15.7% (14.5% July, 9.2% March); rural 16.0%; all-Rwanda 15.9%. Housing/water/electricity/gas/fuels +20.4%, food +16.3%, meat +36.7%, vegetables +24.7%. Core 11.5%; annual average 10.6%. Rwanda is the ONE market where operators have passed the shock through — real room-price change only -0.1pp — which is why Kigali is pricing out of the regional band rather than absorbing.",
+    source:"NISR, Consumer Price Index August 2026, released 10 September 2026", verified:true },
   { group:"Fuel — Kenya", flag:"🇰🇪", metric:"Super petrol (Nairobi)", value:"KSh 214.03/L",
     change:"unchanged — but landed cost rose 6.9% to USD 948.92/m³", dir:"flat", period:"15 Aug – 14 Sep 2026",
     note:"Held flat by KSh 938m of government stabilisation support PLUS a cross-subsidy funded by diesel users: without it petrol would have risen at least KSh 8.64 to KSh 222.67. The 8% VAT rate on petroleum expires 14 Oct 2026 and the Petroleum Development Levy kitty is near-depleted after the April–June Iran-war subsidy. Model a step-up rather than assuming this holds.",

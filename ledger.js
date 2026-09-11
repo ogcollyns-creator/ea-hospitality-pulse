@@ -1,47 +1,15 @@
 window.LEDGER = {
- "updated": "2026-09-10 17:16",
+ "updated": "2026-09-11 09:02",
  "stats": {
   "total": 174,
-  "open": 144,
-  "resolved": 29,
-  "correct": 22,
+  "open": 140,
+  "resolved": 33,
+  "correct": 25,
   "partial": 1,
-  "incorrect": 6,
-  "accuracy": 78
+  "incorrect": 7,
+  "accuracy": 77
  },
  "open": [
-  {
-   "id": "P042",
-   "made_date": "2026-08-01",
-   "edition": "Morning Brief",
-   "claim": "Uganda annual headline inflation (UBOS CPI) will print at or above 4.0% in the August 2026 release — i.e. July's utility-driven rise is sustained, not a one-month spike",
-   "resolution_criteria": "UBOS August 2026 CPI release (early Sept) shows annual headline inflation >= 4.0%. If below 4.0% the call is incorrect",
-   "resolve_by": "2026-09-10",
-   "market": "UG",
-   "segment": "City/Bush",
-   "confidence": "Reported",
-   "status": "open",
-   "resolved_date": "",
-   "evidence": "",
-   "source_url": "https://www.ubos.org/",
-   "overdue": false
-  },
-  {
-   "id": "P045",
-   "made_date": "2026-08-02",
-   "edition": "Morning Brief",
-   "claim": "Kenya annual headline inflation (KNBS CPI) will print at or above 6.5% in the August 2026 release (early Sept) — i.e. July's two-year high is sustained, not a one-month fuel and food spike",
-   "resolution_criteria": "KNBS August 2026 CPI release (published early Sept) shows annual headline inflation >= 6.5%. If below 6.5% the call is incorrect",
-   "resolve_by": "2026-09-10",
-   "market": "KE",
-   "segment": "City/Bush",
-   "confidence": "Confirmed",
-   "status": "open",
-   "resolved_date": "",
-   "evidence": "",
-   "source_url": "https://www.knbs.or.ke/",
-   "overdue": false
-  },
   {
    "id": "P097",
    "made_date": "2026-08-17",
@@ -216,22 +184,6 @@ window.LEDGER = {
    "resolved_date": "",
    "evidence": "",
    "source_url": "https://travel.state.gov/content/travel/en/traveladvisories/traveladvisories/kenya-travel-advisory.html",
-   "overdue": false
-  },
-  {
-   "id": "P048",
-   "made_date": "2026-08-02",
-   "edition": "Sunday Foresight",
-   "claim": "The Kenya-vs-Tanzania cost gap will widen in the next prints — KNBS August CPI (early Sept) at or above 6.5% while Tanzania NBS July/August headline CPI stays at or below 4.0%",
-   "resolution_criteria": "KNBS Aug CPI >= 6.5% AND NBS Tanzania headline CPI <= 4.0% in the releases published by 20 Sept 2026. If either fails the call is incorrect",
-   "resolve_by": "2026-09-20",
-   "market": "Regional",
-   "segment": "All",
-   "confidence": "Early signal",
-   "status": "open",
-   "resolved_date": "",
-   "evidence": "",
-   "source_url": "https://www.knbs.or.ke/",
    "overdue": false
   },
   {
@@ -582,7 +534,7 @@ window.LEDGER = {
    "confidence": "Medium",
    "status": "open",
    "resolved_date": "",
-   "evidence": "",
+   "evidence": "PREMISE CONFIRMED, NOT YET RESOLVED (11 Sep 2026). KNBS August 2026 Transport division inflation printed 15.7% y/y (release 31 Aug 2026), as the claim states. The call turns on the SEPTEMBER release (~30 Sep 2026), which is not yet published. Holding open.",
    "source_url": "https://www.knbs.or.ke/wp-content/uploads/2026/08/Kenya-Consumer-Price-Indices-and-Inflation-Rates-August-2026.pdf",
    "overdue": false
   },
@@ -614,7 +566,7 @@ window.LEDGER = {
    "confidence": "Confirmed",
    "status": "open",
    "resolved_date": "",
-   "evidence": "",
+   "evidence": "PREMISE CONFIRMED, NOT YET RESOLVED (11 Sep 2026). The NISR release PUBLISHED in September 2026 (dated 10 Sep) carries AUGUST data: urban CPI 15.7% y/y, all-Rwanda 15.9%, annual average 10.6%, core 11.5% — all far above the 10.0% bar. Deliberately NOT resolved on that reading: 'publication for September 2026' most naturally means the SEPTEMBER reference month, which NISR publishes ~10 October, and the resolve_by of 20 Oct 2026 fits that reading. Resolving early on the favourable reading of our own ambiguous wording is exactly what this ledger exists to prevent. Holding open to 10 Oct.",
    "source_url": "https://statistics.gov.rw/statistical-publications",
    "overdue": false
   },
@@ -875,22 +827,6 @@ window.LEDGER = {
    "overdue": false
   },
   {
-   "id": "P165",
-   "made_date": "2026-09-08",
-   "edition": "Evening Wrap",
-   "claim": "The Rwanda-Tanzania hospitality price gap will persist — Tanzania's NBS restaurants-and-hotels CPI line will stay at least 6 percentage points below Rwanda's restaurants-and-accommodation line in the next comparable month published by both offices",
-   "resolution_criteria": "Compare NISR Rwanda COICOP restaurants-and-accommodation y/y against NBS Tanzania restaurants-and-hotels y/y for the same reference month. A gap under 6 percentage points makes the call incorrect",
-   "resolve_by": "2026-11-15",
-   "market": "RW/TZ",
-   "segment": "All",
-   "confidence": "Confirmed",
-   "status": "open",
-   "resolved_date": "",
-   "evidence": "",
-   "source_url": "https://www.nbs.go.tz/",
-   "overdue": false
-  },
-  {
    "id": "P064",
    "made_date": "2026-08-10",
    "edition": "Evening Wrap",
@@ -934,7 +870,7 @@ window.LEDGER = {
    "confidence": "Reported",
    "status": "open",
    "resolved_date": "",
-   "evidence": "",
+   "evidence": "SUPPORTING EVIDENCE (11 Sep 2026), not a resolution. NISR August 2026 (rel. 10 Sep) shows Rwanda urban CPI at 15.7% y/y and core at 11.5%, both accelerating — urban annual change has risen every month since March (9.2 to 15.7). A BNR cut below 8.75% against that path is materially less likely than when the call was written. Resolution still requires the post-August MPC decision.",
    "source_url": "https://www.bnr.rw/",
    "overdue": false
   },
@@ -2316,6 +2252,70 @@ window.LEDGER = {
   }
  ],
  "resolved": [
+  {
+   "id": "P042",
+   "made_date": "2026-08-01",
+   "edition": "Morning Brief",
+   "claim": "Uganda annual headline inflation (UBOS CPI) will print at or above 4.0% in the August 2026 release — i.e. July's utility-driven rise is sustained, not a one-month spike",
+   "resolution_criteria": "UBOS August 2026 CPI release (early Sept) shows annual headline inflation >= 4.0%. If below 4.0% the call is incorrect",
+   "resolve_by": "2026-09-10",
+   "market": "UG",
+   "segment": "City/Bush",
+   "confidence": "Reported",
+   "status": "correct",
+   "resolved_date": "2026-09-11",
+   "evidence": "RESOLVED on the UBOS Consumer Price Indices and Inflation press release for August 2026. Annual headline inflation printed 4.1% (up from 4.0% in the year to July 2026) — at or above the 4.0% bar. Drivers were core (3.5%) and food crops and related items (2.1%); Energy, Fuel and Utilities ran 14.3% with petrol at 28.5% and kerosene 31.2%. July's rise was sustained, not a one-month spike, as claimed.",
+   "source_url": "https://www.ubos.org/",
+   "overdue": false
+  },
+  {
+   "id": "P045",
+   "made_date": "2026-08-02",
+   "edition": "Morning Brief",
+   "claim": "Kenya annual headline inflation (KNBS CPI) will print at or above 6.5% in the August 2026 release (early Sept) — i.e. July's two-year high is sustained, not a one-month fuel and food spike",
+   "resolution_criteria": "KNBS August 2026 CPI release (published early Sept) shows annual headline inflation >= 6.5%. If below 6.5% the call is incorrect",
+   "resolve_by": "2026-09-10",
+   "market": "KE",
+   "segment": "City/Bush",
+   "confidence": "Confirmed",
+   "status": "correct",
+   "resolved_date": "2026-09-11",
+   "evidence": "RESOLVED on the KNBS Kenya Consumer Price Index and Inflation Report for August 2026, released 31 August 2026. Annual headline inflation printed 6.6% — at or above the 6.5% bar. Overall index rose 155.20 to 155.85 (0.4% m/m). Drivers: Food and Non-Alcoholic Beverages 9.0%, Transport 15.7%, Housing/Water/Electricity/Gas/Other Fuels 3.6%. July's two-year high was sustained, as claimed.",
+   "source_url": "https://www.knbs.or.ke/",
+   "overdue": false
+  },
+  {
+   "id": "P048",
+   "made_date": "2026-08-02",
+   "edition": "Sunday Foresight",
+   "claim": "The Kenya-vs-Tanzania cost gap will widen in the next prints — KNBS August CPI (early Sept) at or above 6.5% while Tanzania NBS July/August headline CPI stays at or below 4.0%",
+   "resolution_criteria": "KNBS Aug CPI >= 6.5% AND NBS Tanzania headline CPI <= 4.0% in the releases published by 20 Sept 2026. If either fails the call is incorrect",
+   "resolve_by": "2026-09-20",
+   "market": "Regional",
+   "segment": "All",
+   "confidence": "Early signal",
+   "status": "incorrect",
+   "resolved_date": "2026-09-11",
+   "evidence": "RESOLVED INCORRECT. The Kenya leg passed — KNBS August 2026 headline 6.6%, at or above 6.5%. The Tanzania leg FAILED: NBS Tanzania annual headline was 4.2% in July 2026 and 4.3% in August 2026 (release dated 8 September 2026), both ABOVE the 4.0% ceiling the call required, and NBS notes 4.3% is the highest rate in the preceding twelve months. The criteria state that if either leg fails the call is incorrect. The DIRECTIONAL thesis survived — the Kenya-Tanzania gap is still roughly 2.3 percentage points — but the call was written with a ceiling Tanzania had already breached in July, and it fails on its own wording. Lesson logged: do not set a threshold on a second market without checking that market's most recent print first.",
+   "source_url": "https://www.nbs.go.tz/",
+   "overdue": false
+  },
+  {
+   "id": "P165",
+   "made_date": "2026-09-08",
+   "edition": "Evening Wrap",
+   "claim": "The Rwanda-Tanzania hospitality price gap will persist — Tanzania's NBS restaurants-and-hotels CPI line will stay at least 6 percentage points below Rwanda's restaurants-and-accommodation line in the next comparable month published by both offices",
+   "resolution_criteria": "Compare NISR Rwanda COICOP restaurants-and-accommodation y/y against NBS Tanzania restaurants-and-hotels y/y for the same reference month. A gap under 6 percentage points makes the call incorrect",
+   "resolve_by": "2026-11-15",
+   "market": "RW/TZ",
+   "segment": "All",
+   "confidence": "Confirmed",
+   "status": "correct",
+   "resolved_date": "2026-09-11",
+   "evidence": "RESOLVED on the first month both offices have now published: AUGUST 2026. NBS Tanzania 'Restaurants and accommodation services' annual inflation 3.0% (weight 6.6, release 8 September 2026). NISR Rwanda urban 'Restaurants and hotels' annual inflation 15.6% (weight 9%, release 10 September 2026). Gap 12.6 percentage points — comfortably at or above the 6-point bar. The call also holds on the stricter test: using Rwanda's ALL-RWANDA restaurants-and-hotels line (13.7%) rather than the urban headline index, the gap is still 10.7 points.",
+   "source_url": "https://www.statistics.gov.rw/publication/consumer-price-index-cpi-august-2026",
+   "overdue": false
+  },
   {
    "id": "P031",
    "made_date": "2026-07-28",

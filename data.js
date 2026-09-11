@@ -1,5 +1,14 @@
 window.EDITIONS = [
  {
+  "id": "pulse-2026-09-11-morning",
+  "date": "2026-09-11",
+  "dateDisplay": "Friday, 11 September 2026",
+  "edition": "Morning Brief",
+  "editionKey": "morning",
+  "summary": "1️⃣ FOUR STATISTICS OFFICES. ONE FINDING. YOUR BIGGEST INPUT IS INFLATING UP TO FIVE TIMES FASTER THAN YOUR ROOM RATE.",
+  "bodyHtml": "<p>🌅 <strong>EA HOSPITALITY PULSE — MORNING BRIEF</strong><br>Friday 11 September 2026</p>\n<p><strong>1️⃣ FOUR STATISTICS OFFICES. ONE FINDING. YOUR BIGGEST INPUT IS INFLATING UP TO FIVE TIMES FASTER THAN YOUR ROOM RATE.</strong></p>\n<p>All four August CPI releases are now out. Read side by side — which almost nobody does — they say the same thing. <strong>Transport inflation, annual: Kenya 15.7% · Rwanda 24.2% · Tanzania 13.8% · Uganda 9.4%.</strong> Restaurants-and-accommodation in the same releases: <strong>Kenya 3.0% · Tanzania 3.0% · Uganda 2.5% · Rwanda 15.6%</strong> <strong>(KNBS 31 Aug; NISR 10 Sep, urban; NBS TZ 8 Sep; UBOS Aug 2026)</strong>.</p>\n<p>Kenyan transport is running <strong>5.2× the hospitality line</strong>. Tanzania 4.6×. Uganda 3.8×. That second line is effectively the official record of what the trade has managed to charge — so four governments have independently documented the same squeeze.</p>\n<p><span class=\"sowhat\">🎯 <strong>So what:</strong> stop burying transfers in the rate. If road transfers, game drives and airport runs sit inside an inclusive price, you are absorbing a 9–24% input rise inside a 2.5–3.0% price. Break them out as a quoted line with a fuel-adjustment clause — you are contracting 2027 rates <strong>now</strong>.</span><br><span class=\"tagline\">🏷 Bush, Beach, City | 🇰🇪 🇹🇿 🇺🇬 🇷🇼 | Confirmed | impact:cost</span></p>\n<p><strong>2️⃣ AND KENYA IS ABSORBING THE MOST OF ANYONE.</strong></p>\n<p>Subtract headline inflation from the hospitality line and you get the real price of a room: <strong>Kenya −3.6pp · Uganda −1.6pp · Tanzania −1.3pp · Rwanda −0.1pp</strong> <strong>(our calculation from the four releases)</strong>.</p>\n<p><span class=\"sowhat\">🎯 <strong>So what:</strong> if you held Nairobi or coast rate flat this year &quot;to stay competitive&quot;, you did not hold it. You cut it about 3.6% in real terms while your transport bill rose 15.7%. Take that number into the October budget round instead of a gut feel.</span><br><span class=\"tagline\">🏷 City, Beach | 🇰🇪 | Confirmed (inputs) / Our calculation (the spread) | impact:cost</span></p>\n<p><strong>3️⃣ RWANDA HAS LEFT THE REGION&#x27;S PRICE BAND.</strong></p>\n<p>Urban CPI <strong>15.7%</strong> y/y, from 14.5% in July and 9.2% in March — up every month since. Rural 16.0%. Housing and utilities <strong>20.4%</strong>, food 16.3%, core 11.5% <strong>(NISR, 10 Sep 2026)</strong>. Kigali&#x27;s hospitality line is up <strong>15.6%</strong>: Rwandan operators have passed the shock through, Kenyan and Tanzanian ones have not.</p>\n<p><span class=\"sowhat\">🎯 <strong>So what:</strong> a Kigali conference gets dearer against Dar and Kampala every month, and RDB is chasing a US$156m MICE target into that. Selling Rwanda: quote in hard currency, shorten rate-validity windows. Selling Kampala or Dar against Kigali: your relative price has never been better — tell buyers now.</span><br><span class=\"tagline\">🏷 City, Bush | 🇷🇼 | Confirmed | impact:demand</span></p>\n<p><strong>4️⃣ UGANDA IS THE CHEAP SEAT — BUT NOT AT THE PUMP.</strong></p>\n<p>Headline <strong>4.1%</strong>, the region&#x27;s softest hospitality line at <strong>2.5%</strong> (from 3.2%). But petrol <strong>+28.5%</strong>, kerosene <strong>+31.2%</strong>, energy/fuel/utilities <strong>+14.3%</strong>. One easing: international flights <strong>+17.0%</strong>, from 24.1% <strong>(UBOS, Aug 2026)</strong>.</p>\n<p><span class=\"sowhat\">🎯 <strong>So what:</strong> Uganda is the value play and its airfare drag is loosening. Price Bwindi–Queen Elizabeth against Kenyan equivalents in the Q4 deck — but fuel-index vehicle costs.</span><br><span class=\"tagline\">🏷 Bush, City | 🇺🇬 | Confirmed | impact:demand</span></p>\n<p><strong>📒 LEDGER — FOUR CALLS SETTLED, THREE RIGHT</strong><br>✅ Uganda headline ≥4.0% (4.1%). ✅ Kenya ≥6.5% (6.6%). ✅ Rwanda–Tanzania hospitality gap ≥6 points (12.6). ❌ <strong>Wrong:</strong> we said Tanzania would stay at or below 4.0% while Kenya cleared 6.5%. Kenya did; Tanzania printed 4.2% in July and 4.3% in August — it had already breached that ceiling when we wrote the call. Resolved record: <strong>25 correct, 7 incorrect.</strong></p>\n<p><strong>📻 WEEK AHEAD</strong><br>• <strong>EPRA</strong> review closes 14 Sep, effective 15 Sep — the first test of item 1.<br>• <strong>CBK bulletin</strong> due today, not yet posted.<br>• <strong>MICE:</strong> KICC 30 Sep–2 Oct; Africa MICE Summit, Mombasa, 1–2 Oct.</p>\n<p>⚠️ All four figures read from the primary PDFs, not press coverage.</p>\n<p>🔗 This edition on the web: <a href=\"https://eahospitalitypulse.com/editions/pulse-2026-09-11-morning.html\" rel=\"noopener\">eahospitalitypulse.com/editions/pulse-2026-09-11-mornin…</a></p>"
+ },
+ {
   "id": "pulse-2026-09-10-evening",
   "date": "2026-09-10",
   "dateDisplay": "Thursday, 10 September 2026",
@@ -865,6 +874,87 @@ window.EDITIONS = [
  }
 ];
 window.INSIGHTS = [
+ {
+  "headline": "FOUR STATISTICS OFFICES. ONE FINDING. YOUR BIGGEST INPUT IS INFLATING UP TO FIVE TIMES FASTER THAN YOUR ROOM RATE.",
+  "body": "All four August CPI releases are now out. Read side by side — which almost nobody does — they say the same thing. **Transport inflation, annual: Kenya 15.7% · Rwanda 24.2% · Tanzania 13.8% · Uganda 9.4%.** Restaurants-and-accommodation in the same releases: **Kenya 3.0% · Tanzania 3.0% · Uganda 2.5% · Rwanda 15.6%** *(KNBS 31 Aug; NISR 10 Sep, urban; NBS TZ 8 Sep; UBOS Aug 2026)*. Kenyan transport is running **5.2× the hospitality line**. Tanzania 4.6×. Uganda 3.8×. That second line is effectively the official record of what the trade has managed to charge — so four governments have independently documented the same squeeze.",
+  "sowhat": "🎯 **So what:** stop burying transfers in the rate. If road transfers, game drives and airport runs sit inside an inclusive price, you are absorbing a 9–24% input rise inside a 2.5–3.0% price. Break them out as a quoted line with a fuel-adjustment clause — you are contracting 2027 rates *now*.",
+  "segments": [
+   "city",
+   "bush",
+   "beach"
+  ],
+  "countries": "🇰🇪 🇹🇿 🇺🇬 🇷🇼",
+  "confidence": "Confirmed",
+  "impact": "-margin",
+  "impactClass": "margin",
+  "intensity": 3,
+  "impactSet": "author",
+  "source": "pulse-2026-09-11-morning",
+  "date": "2026-09-11",
+  "dateDisplay": "Friday, 11 September 2026",
+  "edition": "Morning Brief",
+  "editionKey": "morning"
+ },
+ {
+  "headline": "AND KENYA IS ABSORBING THE MOST OF ANYONE.",
+  "body": "Subtract headline inflation from the hospitality line and you get the real price of a room: **Kenya −3.6pp · Uganda −1.6pp · Tanzania −1.3pp · Rwanda −0.1pp** *(our calculation from the four releases)*.",
+  "sowhat": "🎯 **So what:** if you held Nairobi or coast rate flat this year \"to stay competitive\", you did not hold it. You cut it about 3.6% in real terms while your transport bill rose 15.7%. Take that number into the October budget round instead of a gut feel.",
+  "segments": [
+   "city",
+   "beach"
+  ],
+  "countries": "🇰🇪",
+  "confidence": "Confirmed (inputs) / Our calculation (the spread)",
+  "impact": "-margin",
+  "impactClass": "margin",
+  "intensity": 3,
+  "impactSet": "author",
+  "source": "pulse-2026-09-11-morning",
+  "date": "2026-09-11",
+  "dateDisplay": "Friday, 11 September 2026",
+  "edition": "Morning Brief",
+  "editionKey": "morning"
+ },
+ {
+  "headline": "RWANDA HAS LEFT THE REGION'S PRICE BAND.",
+  "body": "Urban CPI **15.7%** y/y, from 14.5% in July and 9.2% in March — up every month since. Rural 16.0%. Housing and utilities **20.4%**, food 16.3%, core 11.5% *(NISR, 10 Sep 2026)*. Kigali's hospitality line is up **15.6%**: Rwandan operators have passed the shock through, Kenyan and Tanzanian ones have not.",
+  "sowhat": "🎯 **So what:** a Kigali conference gets dearer against Dar and Kampala every month, and RDB is chasing a US$156m MICE target into that. Selling Rwanda: quote in hard currency, shorten rate-validity windows. Selling Kampala or Dar against Kigali: your relative price has never been better — tell buyers now.",
+  "segments": [
+   "city",
+   "bush"
+  ],
+  "countries": "🇷🇼",
+  "confidence": "Confirmed",
+  "impact": "+demand",
+  "impactClass": "demand",
+  "intensity": 3,
+  "impactSet": "author",
+  "source": "pulse-2026-09-11-morning",
+  "date": "2026-09-11",
+  "dateDisplay": "Friday, 11 September 2026",
+  "edition": "Morning Brief",
+  "editionKey": "morning"
+ },
+ {
+  "headline": "UGANDA IS THE CHEAP SEAT — BUT NOT AT THE PUMP.",
+  "body": "Headline **4.1%**, the region's softest hospitality line at **2.5%** (from 3.2%). But petrol **+28.5%**, kerosene **+31.2%**, energy/fuel/utilities **+14.3%**. One easing: international flights **+17.0%**, from 24.1% *(UBOS, Aug 2026)*.",
+  "sowhat": "🎯 **So what:** Uganda is the value play and its airfare drag is loosening. Price Bwindi–Queen Elizabeth against Kenyan equivalents in the Q4 deck — but fuel-index vehicle costs.",
+  "segments": [
+   "city",
+   "bush"
+  ],
+  "countries": "🇺🇬",
+  "confidence": "Confirmed",
+  "impact": "+demand",
+  "impactClass": "demand",
+  "intensity": 3,
+  "impactSet": "author",
+  "source": "pulse-2026-09-11-morning",
+  "date": "2026-09-11",
+  "dateDisplay": "Friday, 11 September 2026",
+  "edition": "Morning Brief",
+  "editionKey": "morning"
+ },
  {
   "headline": "INDIGO HAS FILED THE MUMBAI–DAR SCHEDULE. DAILY FROM 20 NOVEMBER — AND IT LANDS AT 06:05.",
   "body": "The intent was reported on 6 September *(businessline)*. Overnight the schedule itself went in: **6E1851 Mumbai 02:20 → Dar 06:05; 6E1852 Dar 07:05 → Mumbai 15:55. Daily. A320neo. From 20 November 2026** *(AeroRoutes filing, 09 Sep 2026 22:00 GMT)*. Dar becomes IndiGo's second destination in continental Africa. Read the clock, not the route map. 06:05 lands before any standard check-in, 365 times a year. The 07:05 return means the outbound guest sleeps in Dar the night before.",
@@ -4143,4 +4233,4 @@ window.INSIGHTS = [
   "editionKey": "evening"
  }
 ];
-window.BUILT_AT = "2026-09-10 17:15";
+window.BUILT_AT = "2026-09-11 09:02";
