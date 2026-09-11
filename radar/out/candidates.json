@@ -1,18 +1,18 @@
 {
- "generated": "2026-09-11T01:25:03+03:00",
+ "generated": "2026-09-11T06:33:33+03:00",
  "slot": "morning",
  "window_start": 1789052400,
- "observations_in_window": 267,
- "deduped_against": 16,
+ "observations_in_window": 346,
+ "deduped_against": 12,
  "candidates": [
   {
-   "score": 152.9,
+   "score": 147.2,
    "components": {
     "tier": 40,
     "category": 32,
     "lead": 1.2,
     "relevance": 48,
-    "freshness": 19.7,
+    "freshness": 14.0,
     "undated": -6,
     "shock": 18
    },
@@ -28,7 +28,7 @@
     "outbreak"
    ],
    "dedupe_match": null,
-   "dedupe_similarity": 0.2,
+   "dedupe_similarity": 0.0,
    "id": "6b7f55c1d4f5",
    "title": "Iraq - Level 4: Do Not Travel",
    "url": "https://travel.state.gov/content/tsg_aem/us/en/home/international-travel/travel-advisories/destination.irq.html",
@@ -49,14 +49,84 @@
    "verdict": "LEAD CANDIDATE \u2014 tier-1 shock language"
   },
   {
-   "score": 101.3,
+   "score": 121.0,
+   "components": {
+    "tier": 40,
+    "category": 32,
+    "lead": 1.2,
+    "relevance": 16,
+    "freshness": 19.8,
+    "undated": -6,
+    "shock": 18
+   },
+   "keywords": [
+    "terror",
+    "tourist"
+   ],
+   "shock_terms": [
+    "attack"
+   ],
+   "dedupe_match": null,
+   "dedupe_similarity": 0.0,
+   "id": "8dbcbe4cfbf1",
+   "title": "Italy - Level 2: Exercise Increased Caution",
+   "url": "https://travel.state.gov/content/tsg_aem/us/en/home/international-travel/travel-advisories/destination.ita.html",
+   "summary": "Exercise increased caution in Italy due to terrorism . There is risk of terrorist violence, including terrorist attacks and other activity in Italy. Visit the U.S. Department of State's country reports on terrorism to learn more. Petty crime is common, especially in popular tourist locations and on public transportation, including trains. Stay aware of your surroundings. Most crimes against foreig",
+   "kind": "item",
+   "source": "US State Dept travel advisories (EA feed)",
+   "source_id": "adv-us-ea",
+   "tier": 1,
+   "country": "REG",
+   "category": "advisory",
+   "segments": [
+    "city",
+    "bush",
+    "beach"
+   ],
+   "first_seen": "2026-09-11T06:31+03:00",
+   "published": null,
+   "verdict": "LEAD CANDIDATE \u2014 tier-1 shock language"
+  },
+  {
+   "score": 91.4,
    "components": {
     "tier": 40,
     "category": 32,
     "lead": 3.6,
     "relevance": 0,
-    "freshness": 19.7,
-    "corroborated": 10,
+    "freshness": 19.8,
+    "page_change": -4
+   },
+   "keywords": [],
+   "shock_terms": [],
+   "dedupe_match": null,
+   "dedupe_similarity": 0.0,
+   "id": "dd4ddd4f8114",
+   "title": "[page changed] Federal Register \u2014 public inspection (HHS/CDC), pre-publication",
+   "url": "https://www.federalregister.gov/api/v1/public-inspection-documents/current.json",
+   "summary": "{\"count\":119,\"results\":[{\"agencies\":[{\"raw_name\":\"National Oceanic and Atmospheric Administration\",\"name\":\"National Oceanic and Atmospheric Administration\",\"id\":361,\"url\":\"https://www.federalregister.gov/agencies/national-oceanic-and-atmospheric-administration\",\"json_url\":\"https://www.federalregister.gov/api/v1/agencies/361\",\"parent_id\":54,\"slug\":\"national-oceanic-and-atmospheric-administration\"}]",
+   "kind": "page-change",
+   "source": "Federal Register \u2014 public inspection (HHS/CDC), pre-publication",
+   "source_id": "us-fedreg-pubinspect-hhs",
+   "tier": 1,
+   "country": "REG",
+   "category": "advisory",
+   "segments": [
+    "city",
+    "bush"
+   ],
+   "first_seen": "2026-09-11T06:31+03:00",
+   "published": "2026-09-09",
+   "verdict": "OPEN THIS \u2014 tier-1 advisory page moved; content not auto-parsed, read it manually"
+  },
+  {
+   "score": 85.6,
+   "components": {
+    "tier": 40,
+    "category": 32,
+    "lead": 3.6,
+    "relevance": 0,
+    "freshness": 14.0,
     "page_change": -4
    },
    "keywords": [],
@@ -82,14 +152,13 @@
    "verdict": "OPEN THIS \u2014 tier-1 advisory page moved; content not auto-parsed, read it manually"
   },
   {
-   "score": 97.2,
+   "score": 81.5,
    "components": {
     "tier": 40,
     "category": 32,
     "lead": 3.6,
     "relevance": 0,
-    "freshness": 15.6,
-    "corroborated": 10,
+    "freshness": 9.9,
     "page_change": -4
    },
    "keywords": [],
@@ -115,13 +184,13 @@
    "verdict": "OPEN THIS \u2014 tier-1 advisory page moved; content not auto-parsed, read it manually"
   },
   {
-   "score": 65.3,
+   "score": 59.6,
    "components": {
     "tier": 40,
     "category": 12,
     "lead": 3.6,
     "relevance": 0,
-    "freshness": 19.7,
+    "freshness": 14.0,
     "undated": -6,
     "page_change": -4
    },
@@ -149,13 +218,13 @@
    "verdict": "OPEN THIS \u2014 tier-1 airline page moved; content not auto-parsed, read it manually"
   },
   {
-   "score": 111.5,
+   "score": 105.8,
    "components": {
     "tier": 40,
     "category": 9,
     "lead": 16.8,
     "relevance": 16,
-    "freshness": 19.7,
+    "freshness": 14.0,
     "corroborated": 10
    },
    "keywords": [
@@ -186,13 +255,13 @@
    "verdict": "STRONG \u2014 tier-1, upstream"
   },
   {
-   "score": 111.5,
+   "score": 105.8,
    "components": {
     "tier": 40,
     "category": 9,
     "lead": 16.8,
     "relevance": 16,
-    "freshness": 19.7,
+    "freshness": 14.0,
     "corroborated": 10
    },
    "keywords": [
@@ -224,411 +293,45 @@
    "verdict": "STRONG \u2014 tier-1, upstream"
   },
   {
-   "score": 101.6,
+   "score": 96.2,
    "components": {
     "tier": 40,
-    "category": 20,
-    "lead": 12.0,
-    "relevance": 4,
-    "freshness": 15.6,
-    "corroborated": 10
-   },
-   "keywords": [
-    "hotel"
-   ],
-   "shock_terms": [],
-   "dedupe_match": null,
-   "dedupe_similarity": 0.14,
-   "id": "f84a21e39597",
-   "title": "Boma Hotel t/a Red Court Hotel Ltd v Brandables E.A. Ltd (Civil Appeal E650 of 2025) [2026] KEHC 13389 (KLR) (9 September 2026) (Judgment)",
-   "url": "https://new.kenyalaw.org/akn/ke/judgment/kehc/2026/13389/eng@2026-09-09",
-   "summary": "Boma Hotel t/a Red Court Hotel Ltd v Brandables E.A. Ltd (Civil Appeal E650 of 2025) [2026] KEHC 13389 (KLR) (9 September 2026) (Judgment)",
-   "kind": "item",
-   "source": "Kenya Gazette (Kenya Law)",
-   "source_id": "ke-gazette",
-   "tier": 1,
-   "country": "KE",
-   "category": "gazette",
-   "segments": [
-    "city",
-    "bush",
-    "beach"
-   ],
-   "first_seen": "2026-09-10T21:33+03:00",
-   "published": "2026-09-09",
-   "verdict": "STRONG \u2014 tier-1, upstream"
-  },
-  {
-   "score": 97.6,
-   "components": {
-    "tier": 40,
-    "category": 20,
-    "lead": 12.0,
+    "category": 24,
+    "lead": 2.4,
     "relevance": 0,
-    "freshness": 15.6,
+    "freshness": 19.8,
     "corroborated": 10
    },
    "keywords": [],
    "shock_terms": [],
    "dedupe_match": null,
    "dedupe_similarity": 0.0,
-   "id": "d43a2999c917",
-   "title": "Ngei v Chongwo (Miscellaneous Application E243 of 2025) [2026] KEHC 13393 (KLR) (9 September 2026) (Ruling)",
-   "url": "https://new.kenyalaw.org/akn/ke/judgment/kehc/2026/13393/eng@2026-09-09",
-   "summary": "Ngei v Chongwo (Miscellaneous Application E243 of 2025) [2026] KEHC 13393 (KLR) (9 September 2026) (Ruling)",
+   "id": "c0bebc1d1e5a",
+   "title": "SitRep N\u00b0118/MVEBDB/10/09/2026",
+   "url": "https://insp.cd/sitrep-n118-mvebdb-10-09-2026",
+   "summary": "",
    "kind": "item",
-   "source": "Kenya Gazette (Kenya Law)",
-   "source_id": "ke-gazette",
+   "source": "INSP RDC \u2014 Ebola daily situation reports (SitRep)",
+   "source_id": "cd-insp-sitrep",
    "tier": 1,
-   "country": "KE",
-   "category": "gazette",
+   "country": "GLOBAL",
+   "category": "health",
    "segments": [
-    "city",
-    "bush",
-    "beach"
+    "City",
+    "Bush"
    ],
-   "first_seen": "2026-09-10T21:33+03:00",
-   "published": "2026-09-09",
+   "first_seen": "2026-09-11T06:31+03:00",
+   "published": "2026-09-11",
    "verdict": "STRONG \u2014 tier-1, upstream"
   },
   {
-   "score": 97.6,
+   "score": 91.9,
    "components": {
     "tier": 40,
     "category": 20,
     "lead": 12.0,
     "relevance": 0,
-    "freshness": 15.6,
-    "corroborated": 10
-   },
-   "keywords": [],
-   "shock_terms": [],
-   "dedupe_match": null,
-   "dedupe_similarity": 0.0,
-   "id": "3a03ee2defca",
-   "title": "In re MR (Minor) (Adoption Cause E347 of 2025) [2026] KEHC 13392 (KLR) (9 September 2026) (Judgment)",
-   "url": "https://new.kenyalaw.org/akn/ke/judgment/kehc/2026/13392/eng@2026-09-09",
-   "summary": "In re MR (Minor) (Adoption Cause E347 of 2025) [2026] KEHC 13392 (KLR) (9 September 2026) (Judgment)",
-   "kind": "item",
-   "source": "Kenya Gazette (Kenya Law)",
-   "source_id": "ke-gazette",
-   "tier": 1,
-   "country": "KE",
-   "category": "gazette",
-   "segments": [
-    "city",
-    "bush",
-    "beach"
-   ],
-   "first_seen": "2026-09-10T21:33+03:00",
-   "published": "2026-09-09",
-   "verdict": "STRONG \u2014 tier-1, upstream"
-  },
-  {
-   "score": 97.6,
-   "components": {
-    "tier": 40,
-    "category": 20,
-    "lead": 12.0,
-    "relevance": 0,
-    "freshness": 15.6,
-    "corroborated": 10
-   },
-   "keywords": [],
-   "shock_terms": [],
-   "dedupe_match": null,
-   "dedupe_similarity": 0.0,
-   "id": "efcec3909d2e",
-   "title": "Wanyonyi v Kinatwa Prestige Ltd (Civil Suit E036 of 2025) [2026] KEMC 872 (KLR) (9 September 2026) (Judgment)",
-   "url": "https://new.kenyalaw.org/akn/ke/judgment/kemc/2026/872/eng@2026-09-09",
-   "summary": "Wanyonyi v Kinatwa Prestige Ltd (Civil Suit E036 of 2025) [2026] KEMC 872 (KLR) (9 September 2026) (Judgment)",
-   "kind": "item",
-   "source": "Kenya Gazette (Kenya Law)",
-   "source_id": "ke-gazette",
-   "tier": 1,
-   "country": "KE",
-   "category": "gazette",
-   "segments": [
-    "city",
-    "bush",
-    "beach"
-   ],
-   "first_seen": "2026-09-10T21:33+03:00",
-   "published": "2026-09-09",
-   "verdict": "STRONG \u2014 tier-1, upstream"
-  },
-  {
-   "score": 97.6,
-   "components": {
-    "tier": 40,
-    "category": 20,
-    "lead": 12.0,
-    "relevance": 0,
-    "freshness": 15.6,
-    "corroborated": 10
-   },
-   "keywords": [],
-   "shock_terms": [],
-   "dedupe_match": null,
-   "dedupe_similarity": 0.0,
-   "id": "f2be4a98179b",
-   "title": "Eurocollections Ltd v Kumari (Small Claims Appeal E270 of 2024) [2026] KEHC 13391 (KLR) (Civ) (9 September 2026) (Ruling)",
-   "url": "https://new.kenyalaw.org/akn/ke/judgment/kehc/2026/13391/eng@2026-09-09",
-   "summary": "Eurocollections Ltd v Kumari (Small Claims Appeal E270 of 2024) [2026] KEHC 13391 (KLR) (Civ) (9 September 2026) (Ruling)",
-   "kind": "item",
-   "source": "Kenya Gazette (Kenya Law)",
-   "source_id": "ke-gazette",
-   "tier": 1,
-   "country": "KE",
-   "category": "gazette",
-   "segments": [
-    "city",
-    "bush",
-    "beach"
-   ],
-   "first_seen": "2026-09-10T21:33+03:00",
-   "published": "2026-09-09",
-   "verdict": "STRONG \u2014 tier-1, upstream"
-  },
-  {
-   "score": 97.6,
-   "components": {
-    "tier": 40,
-    "category": 20,
-    "lead": 12.0,
-    "relevance": 0,
-    "freshness": 15.6,
-    "corroborated": 10
-   },
-   "keywords": [],
-   "shock_terms": [],
-   "dedupe_match": null,
-   "dedupe_similarity": 0.0,
-   "id": "7a6cb7e49797",
-   "title": "Chitsala v Royal Liner Express Ltd (Civil Suit E208 of 2025) [2026] KEMC 871 (KLR) (9 September 2026) (Judgment)",
-   "url": "https://new.kenyalaw.org/akn/ke/judgment/kemc/2026/871/eng@2026-09-09",
-   "summary": "Chitsala v Royal Liner Express Ltd (Civil Suit E208 of 2025) [2026] KEMC 871 (KLR) (9 September 2026) (Judgment)",
-   "kind": "item",
-   "source": "Kenya Gazette (Kenya Law)",
-   "source_id": "ke-gazette",
-   "tier": 1,
-   "country": "KE",
-   "category": "gazette",
-   "segments": [
-    "city",
-    "bush",
-    "beach"
-   ],
-   "first_seen": "2026-09-10T21:33+03:00",
-   "published": "2026-09-09",
-   "verdict": "STRONG \u2014 tier-1, upstream"
-  },
-  {
-   "score": 97.6,
-   "components": {
-    "tier": 40,
-    "category": 20,
-    "lead": 12.0,
-    "relevance": 0,
-    "freshness": 15.6,
-    "corroborated": 10
-   },
-   "keywords": [],
-   "shock_terms": [],
-   "dedupe_match": null,
-   "dedupe_similarity": 0.0,
-   "id": "a7aa4810de70",
-   "title": "In re IW (Minor) (Adoption Cause E346 of 2025) [2026] KEHC 13390 (KLR) (Family) (9 September 2026) (Judgment)",
-   "url": "https://new.kenyalaw.org/akn/ke/judgment/kehc/2026/13390/eng@2026-09-09",
-   "summary": "In re IW (Minor) (Adoption Cause E346 of 2025) [2026] KEHC 13390 (KLR) (Family) (9 September 2026) (Judgment)",
-   "kind": "item",
-   "source": "Kenya Gazette (Kenya Law)",
-   "source_id": "ke-gazette",
-   "tier": 1,
-   "country": "KE",
-   "category": "gazette",
-   "segments": [
-    "city",
-    "bush",
-    "beach"
-   ],
-   "first_seen": "2026-09-10T21:33+03:00",
-   "published": "2026-09-09",
-   "verdict": "STRONG \u2014 tier-1, upstream"
-  },
-  {
-   "score": 97.6,
-   "components": {
-    "tier": 40,
-    "category": 20,
-    "lead": 12.0,
-    "relevance": 0,
-    "freshness": 15.6,
-    "corroborated": 10
-   },
-   "keywords": [],
-   "shock_terms": [],
-   "dedupe_match": null,
-   "dedupe_similarity": 0.0,
-   "id": "92c7581df034",
-   "title": "Nasimiyu & another (Suing as Legal Representative of the Estate of Wycliffe Emojong Omukada) v Africa Merchant Assurance Co Ltd (Civil Case E004 of 2026) [2026] KEMC 870 (KLR) (9 September 2026) (Ruling)",
-   "url": "https://new.kenyalaw.org/akn/ke/judgment/kemc/2026/870/eng@2026-09-09",
-   "summary": "Nasimiyu & another (Suing as Legal Representative of the Estate of Wycliffe Emojong Omukada) v Africa Merchant Assurance Co Ltd (Civil Case E004 of 2026) [2026] KEMC 870 (KLR) (9 September 2026) (Ruling)",
-   "kind": "item",
-   "source": "Kenya Gazette (Kenya Law)",
-   "source_id": "ke-gazette",
-   "tier": 1,
-   "country": "KE",
-   "category": "gazette",
-   "segments": [
-    "city",
-    "bush",
-    "beach"
-   ],
-   "first_seen": "2026-09-10T21:33+03:00",
-   "published": "2026-09-09",
-   "verdict": "STRONG \u2014 tier-1, upstream"
-  },
-  {
-   "score": 97.6,
-   "components": {
-    "tier": 40,
-    "category": 20,
-    "lead": 12.0,
-    "relevance": 0,
-    "freshness": 15.6,
-    "corroborated": 10
-   },
-   "keywords": [],
-   "shock_terms": [],
-   "dedupe_match": null,
-   "dedupe_similarity": 0.0,
-   "id": "bba4b2325de0",
-   "title": "In re EWM (Miscellaneous Application E107 of 2026) [2026] KEHC 13388 (KLR) (Family) (9 September 2026) (Judgment)",
-   "url": "https://new.kenyalaw.org/akn/ke/judgment/kehc/2026/13388/eng@2026-09-09",
-   "summary": "In re EWM (Miscellaneous Application E107 of 2026) [2026] KEHC 13388 (KLR) (Family) (9 September 2026) (Judgment)",
-   "kind": "item",
-   "source": "Kenya Gazette (Kenya Law)",
-   "source_id": "ke-gazette",
-   "tier": 1,
-   "country": "KE",
-   "category": "gazette",
-   "segments": [
-    "city",
-    "bush",
-    "beach"
-   ],
-   "first_seen": "2026-09-10T21:33+03:00",
-   "published": "2026-09-09",
-   "verdict": "STRONG \u2014 tier-1, upstream"
-  },
-  {
-   "score": 97.6,
-   "components": {
-    "tier": 40,
-    "category": 20,
-    "lead": 12.0,
-    "relevance": 0,
-    "freshness": 15.6,
-    "corroborated": 10
-   },
-   "keywords": [],
-   "shock_terms": [],
-   "dedupe_match": null,
-   "dedupe_similarity": 0.0,
-   "id": "292e1a4e4d8f",
-   "title": "Makombere v Khetshi Dharamshi & Co Ltd (Miscellaneous Civil Application E207 of 2025) [2026] KEHC 13387 (KLR) (Civ) (9 September 2026) (Ruling)",
-   "url": "https://new.kenyalaw.org/akn/ke/judgment/kehc/2026/13387/eng@2026-09-09",
-   "summary": "Makombere v Khetshi Dharamshi & Co Ltd (Miscellaneous Civil Application E207 of 2025) [2026] KEHC 13387 (KLR) (Civ) (9 September 2026) (Ruling)",
-   "kind": "item",
-   "source": "Kenya Gazette (Kenya Law)",
-   "source_id": "ke-gazette",
-   "tier": 1,
-   "country": "KE",
-   "category": "gazette",
-   "segments": [
-    "city",
-    "bush",
-    "beach"
-   ],
-   "first_seen": "2026-09-10T21:33+03:00",
-   "published": "2026-09-09",
-   "verdict": "STRONG \u2014 tier-1, upstream"
-  },
-  {
-   "score": 97.6,
-   "components": {
-    "tier": 40,
-    "category": 20,
-    "lead": 12.0,
-    "relevance": 0,
-    "freshness": 15.6,
-    "corroborated": 10
-   },
-   "keywords": [],
-   "shock_terms": [],
-   "dedupe_match": null,
-   "dedupe_similarity": 0.0,
-   "id": "9b59f05b6d89",
-   "title": "Thuku v Mutinda, Maina (Suing as the administrators of the Estate of the Late Kelvin Mutinda Mbithe) & another (Miscellaneous Civil Application E198 of 2026) [2026] KEHC 13386 (KLR) (9 September 2026) (Ruling)",
-   "url": "https://new.kenyalaw.org/akn/ke/judgment/kehc/2026/13386/eng@2026-09-09",
-   "summary": "Thuku v Mutinda, Maina (Suing as the administrators of the Estate of the Late Kelvin Mutinda Mbithe) & another (Miscellaneous Civil Application E198 of 2026) [2026] KEHC 13386 (KLR) (9 September 2026) (Ruling)",
-   "kind": "item",
-   "source": "Kenya Gazette (Kenya Law)",
-   "source_id": "ke-gazette",
-   "tier": 1,
-   "country": "KE",
-   "category": "gazette",
-   "segments": [
-    "city",
-    "bush",
-    "beach"
-   ],
-   "first_seen": "2026-09-10T21:33+03:00",
-   "published": "2026-09-09",
-   "verdict": "STRONG \u2014 tier-1, upstream"
-  },
-  {
-   "score": 97.6,
-   "components": {
-    "tier": 40,
-    "category": 20,
-    "lead": 12.0,
-    "relevance": 0,
-    "freshness": 15.6,
-    "corroborated": 10
-   },
-   "keywords": [],
-   "shock_terms": [],
-   "dedupe_match": null,
-   "dedupe_similarity": 0.0,
-   "id": "3e61e2649e2a",
-   "title": "Gaithuma v Gikonyo (Miscellaneous Civil Application E173 of 2025) [2026] KEHC 13385 (KLR) (9 September 2026) (Ruling)",
-   "url": "https://new.kenyalaw.org/akn/ke/judgment/kehc/2026/13385/eng@2026-09-09",
-   "summary": "Gaithuma v Gikonyo (Miscellaneous Civil Application E173 of 2025) [2026] KEHC 13385 (KLR) (9 September 2026) (Ruling)",
-   "kind": "item",
-   "source": "Kenya Gazette (Kenya Law)",
-   "source_id": "ke-gazette",
-   "tier": 1,
-   "country": "KE",
-   "category": "gazette",
-   "segments": [
-    "city",
-    "bush",
-    "beach"
-   ],
-   "first_seen": "2026-09-10T21:33+03:00",
-   "published": "2026-09-09",
-   "verdict": "STRONG \u2014 tier-1, upstream"
-  },
-  {
-   "score": 97.6,
-   "components": {
-    "tier": 40,
-    "category": 20,
-    "lead": 12.0,
-    "relevance": 0,
-    "freshness": 15.6,
+    "freshness": 9.9,
     "corroborated": 10
    },
    "keywords": [],
@@ -655,13 +358,13 @@
    "verdict": "STRONG \u2014 tier-1, upstream"
   },
   {
-   "score": 97.6,
+   "score": 91.9,
    "components": {
     "tier": 40,
     "category": 20,
     "lead": 12.0,
     "relevance": 0,
-    "freshness": 15.6,
+    "freshness": 9.9,
     "corroborated": 10
    },
    "keywords": [],
@@ -688,13 +391,116 @@
    "verdict": "STRONG \u2014 tier-1, upstream"
   },
   {
-   "score": 92.1,
+   "score": 88.2,
+   "components": {
+    "tier": 20,
+    "category": 14,
+    "lead": 8.4,
+    "relevance": 16,
+    "freshness": 19.8,
+    "corroborated": 10
+   },
+   "keywords": [
+    "route",
+    "airline",
+    "flight"
+   ],
+   "shock_terms": [],
+   "dedupe_match": null,
+   "dedupe_similarity": 0.0,
+   "id": "5c44559a0088",
+   "title": "Turkish Airlines 1Q27 Maldives Service Increases",
+   "url": "https://www.aeroroutes.com/eng/260910-tk1q27mle",
+   "summary": "Published at 1600PDT / 2300GMT 10SEP26 Turkish Airlines in the first quarter of 2027 schedules service increase on Istanbul \u2013 Male route, as the carrier schedules 13th weekly flight to The Maldives, effective 06JAN27. This route is operated by a mix of 787-9 and A330-300 aircraft. TK734 IST0235 \u2013 1235MLE 333 D TK740 IST2150 \u2013 0725+1MLE 789 146 TK740 IST2150 \u2013 0725+1MLE 333 237 TK741 MLE0900 \u2013 1530",
+   "kind": "item",
+   "source": "AeroRoutes schedule filings",
+   "source_id": "aeroroutes",
+   "tier": 2,
+   "country": "GLOBAL",
+   "category": "aviation-tracker",
+   "segments": [
+    "city",
+    "bush",
+    "beach"
+   ],
+   "first_seen": "2026-09-11T06:32+03:00",
+   "published": "2026-09-11",
+   "verdict": "CONSIDER"
+  },
+  {
+   "score": 87.0,
+   "components": {
+    "tier": 40,
+    "category": 32,
+    "lead": 1.2,
+    "relevance": 0,
+    "freshness": 19.8,
+    "undated": -6
+   },
+   "keywords": [],
+   "shock_terms": [],
+   "dedupe_match": null,
+   "dedupe_similarity": 0.2,
+   "id": "5e08e46843ae",
+   "title": "North Macedonia - Level 1: Exercise Normal Precautions",
+   "url": "https://travel.state.gov/content/tsg_aem/us/en/home/international-travel/travel-advisories/destination.mkd.html",
+   "summary": "Exercise normal precaution in North Macedonia . North Macedonia is generally a safe destination for travelers. Review our Travel Guidance for North Macedonia to learn how to prepare for a safe trip.",
+   "kind": "item",
+   "source": "US State Dept travel advisories (EA feed)",
+   "source_id": "adv-us-ea",
+   "tier": 1,
+   "country": "REG",
+   "category": "advisory",
+   "segments": [
+    "city",
+    "bush",
+    "beach"
+   ],
+   "first_seen": "2026-09-11T06:31+03:00",
+   "published": null,
+   "verdict": "CONSIDER"
+  },
+  {
+   "score": 87.0,
+   "components": {
+    "tier": 40,
+    "category": 32,
+    "lead": 1.2,
+    "relevance": 0,
+    "freshness": 19.8,
+    "undated": -6
+   },
+   "keywords": [],
+   "shock_terms": [],
+   "dedupe_match": null,
+   "dedupe_similarity": 0.0,
+   "id": "720388b91d04",
+   "title": "Austria - Level 1: Exercise Normal Precautions",
+   "url": "https://travel.state.gov/content/tsg_aem/us/en/home/international-travel/travel-advisories/destination.aut.html",
+   "summary": "Exercise normal precaution in Austria . Austria is generally a safe destination for travelers. Read our Travel Guidance for additional information on travel to Austria.",
+   "kind": "item",
+   "source": "US State Dept travel advisories (EA feed)",
+   "source_id": "adv-us-ea",
+   "tier": 1,
+   "country": "REG",
+   "category": "advisory",
+   "segments": [
+    "city",
+    "bush",
+    "beach"
+   ],
+   "first_seen": "2026-09-11T06:31+03:00",
+   "published": null,
+   "verdict": "CONSIDER"
+  },
+  {
+   "score": 86.5,
    "components": {
     "tier": 20,
     "category": 14,
     "lead": 8.4,
     "relevance": 20,
-    "freshness": 19.7,
+    "freshness": 14.1,
     "corroborated": 10
    },
    "keywords": [
@@ -725,13 +531,47 @@
    "verdict": "CONSIDER"
   },
   {
-   "score": 90.9,
+   "score": 85.9,
+   "components": {
+    "tier": 40,
+    "category": 20,
+    "lead": 12.0,
+    "relevance": 4,
+    "freshness": 9.9
+   },
+   "keywords": [
+    "hotel"
+   ],
+   "shock_terms": [],
+   "dedupe_match": null,
+   "dedupe_similarity": 0.14,
+   "id": "f84a21e39597",
+   "title": "Boma Hotel t/a Red Court Hotel Ltd v Brandables E.A. Ltd (Civil Appeal E650 of 2025) [2026] KEHC 13389 (KLR) (9 September 2026) (Judgment)",
+   "url": "https://new.kenyalaw.org/akn/ke/judgment/kehc/2026/13389/eng@2026-09-09",
+   "summary": "Boma Hotel t/a Red Court Hotel Ltd v Brandables E.A. Ltd (Civil Appeal E650 of 2025) [2026] KEHC 13389 (KLR) (9 September 2026) (Judgment)",
+   "kind": "item",
+   "source": "Kenya Gazette (Kenya Law)",
+   "source_id": "ke-gazette",
+   "tier": 1,
+   "country": "KE",
+   "category": "gazette",
+   "segments": [
+    "city",
+    "bush",
+    "beach"
+   ],
+   "first_seen": "2026-09-10T21:33+03:00",
+   "published": "2026-09-09",
+   "verdict": "CONSIDER"
+  },
+  {
+   "score": 85.2,
    "components": {
     "tier": 40,
     "category": 32,
     "lead": 1.2,
     "relevance": 4,
-    "freshness": 19.7,
+    "freshness": 14.0,
     "undated": -6
    },
    "keywords": [
@@ -757,16 +597,52 @@
    ],
    "first_seen": "2026-09-11T01:19+03:00",
    "published": null,
-   "verdict": "STRONG \u2014 tier-1, upstream"
+   "verdict": "CONSIDER"
   },
   {
-   "score": 88.0,
+   "score": 84.2,
+   "components": {
+    "tier": 20,
+    "category": 14,
+    "lead": 8.4,
+    "relevance": 12,
+    "freshness": 19.8,
+    "corroborated": 10
+   },
+   "keywords": [
+    "vat",
+    "airline"
+   ],
+   "shock_terms": [],
+   "dedupe_match": null,
+   "dedupe_similarity": 0.0,
+   "id": "db7d81d423b1",
+   "title": "Xiamen Airlines Closes NW26 Middle East Reservations",
+   "url": "https://www.aeroroutes.com/eng/260910-mfnw26me",
+   "summary": "Published at 1900PDT 10SEP26 / 0200GMT 11SEP26 Xiamen Airlines since August 2026 filed additional changes to its Middle East operations for Northern winter 2026/27 season. Beijing Daxing \u2013 Doha Reservations closed for entire season until 27MAR27, instead of 31DEC26 Xiamen \u2013 Doha Reservations closed for entire season until 27MAR26, instead of 30NOV26 For the time being, reservations for Beijing Dax",
+   "kind": "item",
+   "source": "AeroRoutes schedule filings",
+   "source_id": "aeroroutes",
+   "tier": 2,
+   "country": "GLOBAL",
+   "category": "aviation-tracker",
+   "segments": [
+    "city",
+    "bush",
+    "beach"
+   ],
+   "first_seen": "2026-09-11T06:32+03:00",
+   "published": "2026-09-11",
+   "verdict": "CONSIDER"
+  },
+  {
+   "score": 82.3,
    "components": {
     "tier": 20,
     "category": 14,
     "lead": 8.4,
     "relevance": 20,
-    "freshness": 15.6,
+    "freshness": 9.9,
     "corroborated": 10
    },
    "keywords": [
@@ -796,13 +672,471 @@
    "verdict": "CONSIDER"
   },
   {
-   "score": 84.1,
+   "score": 81.9,
+   "components": {
+    "tier": 40,
+    "category": 20,
+    "lead": 12.0,
+    "relevance": 0,
+    "freshness": 9.9
+   },
+   "keywords": [],
+   "shock_terms": [],
+   "dedupe_match": null,
+   "dedupe_similarity": 0.0,
+   "id": "d43a2999c917",
+   "title": "Ngei v Chongwo (Miscellaneous Application E243 of 2025) [2026] KEHC 13393 (KLR) (9 September 2026) (Ruling)",
+   "url": "https://new.kenyalaw.org/akn/ke/judgment/kehc/2026/13393/eng@2026-09-09",
+   "summary": "Ngei v Chongwo (Miscellaneous Application E243 of 2025) [2026] KEHC 13393 (KLR) (9 September 2026) (Ruling)",
+   "kind": "item",
+   "source": "Kenya Gazette (Kenya Law)",
+   "source_id": "ke-gazette",
+   "tier": 1,
+   "country": "KE",
+   "category": "gazette",
+   "segments": [
+    "city",
+    "bush",
+    "beach"
+   ],
+   "first_seen": "2026-09-10T21:33+03:00",
+   "published": "2026-09-09",
+   "verdict": "CONSIDER"
+  },
+  {
+   "score": 81.9,
+   "components": {
+    "tier": 40,
+    "category": 20,
+    "lead": 12.0,
+    "relevance": 0,
+    "freshness": 9.9
+   },
+   "keywords": [],
+   "shock_terms": [],
+   "dedupe_match": null,
+   "dedupe_similarity": 0.0,
+   "id": "3a03ee2defca",
+   "title": "In re MR (Minor) (Adoption Cause E347 of 2025) [2026] KEHC 13392 (KLR) (9 September 2026) (Judgment)",
+   "url": "https://new.kenyalaw.org/akn/ke/judgment/kehc/2026/13392/eng@2026-09-09",
+   "summary": "In re MR (Minor) (Adoption Cause E347 of 2025) [2026] KEHC 13392 (KLR) (9 September 2026) (Judgment)",
+   "kind": "item",
+   "source": "Kenya Gazette (Kenya Law)",
+   "source_id": "ke-gazette",
+   "tier": 1,
+   "country": "KE",
+   "category": "gazette",
+   "segments": [
+    "city",
+    "bush",
+    "beach"
+   ],
+   "first_seen": "2026-09-10T21:33+03:00",
+   "published": "2026-09-09",
+   "verdict": "CONSIDER"
+  },
+  {
+   "score": 81.9,
+   "components": {
+    "tier": 40,
+    "category": 20,
+    "lead": 12.0,
+    "relevance": 0,
+    "freshness": 9.9
+   },
+   "keywords": [],
+   "shock_terms": [],
+   "dedupe_match": null,
+   "dedupe_similarity": 0.0,
+   "id": "efcec3909d2e",
+   "title": "Wanyonyi v Kinatwa Prestige Ltd (Civil Suit E036 of 2025) [2026] KEMC 872 (KLR) (9 September 2026) (Judgment)",
+   "url": "https://new.kenyalaw.org/akn/ke/judgment/kemc/2026/872/eng@2026-09-09",
+   "summary": "Wanyonyi v Kinatwa Prestige Ltd (Civil Suit E036 of 2025) [2026] KEMC 872 (KLR) (9 September 2026) (Judgment)",
+   "kind": "item",
+   "source": "Kenya Gazette (Kenya Law)",
+   "source_id": "ke-gazette",
+   "tier": 1,
+   "country": "KE",
+   "category": "gazette",
+   "segments": [
+    "city",
+    "bush",
+    "beach"
+   ],
+   "first_seen": "2026-09-10T21:33+03:00",
+   "published": "2026-09-09",
+   "verdict": "CONSIDER"
+  },
+  {
+   "score": 81.9,
+   "components": {
+    "tier": 40,
+    "category": 20,
+    "lead": 12.0,
+    "relevance": 0,
+    "freshness": 9.9
+   },
+   "keywords": [],
+   "shock_terms": [],
+   "dedupe_match": null,
+   "dedupe_similarity": 0.0,
+   "id": "f2be4a98179b",
+   "title": "Eurocollections Ltd v Kumari (Small Claims Appeal E270 of 2024) [2026] KEHC 13391 (KLR) (Civ) (9 September 2026) (Ruling)",
+   "url": "https://new.kenyalaw.org/akn/ke/judgment/kehc/2026/13391/eng@2026-09-09",
+   "summary": "Eurocollections Ltd v Kumari (Small Claims Appeal E270 of 2024) [2026] KEHC 13391 (KLR) (Civ) (9 September 2026) (Ruling)",
+   "kind": "item",
+   "source": "Kenya Gazette (Kenya Law)",
+   "source_id": "ke-gazette",
+   "tier": 1,
+   "country": "KE",
+   "category": "gazette",
+   "segments": [
+    "city",
+    "bush",
+    "beach"
+   ],
+   "first_seen": "2026-09-10T21:33+03:00",
+   "published": "2026-09-09",
+   "verdict": "CONSIDER"
+  },
+  {
+   "score": 81.9,
+   "components": {
+    "tier": 40,
+    "category": 20,
+    "lead": 12.0,
+    "relevance": 0,
+    "freshness": 9.9
+   },
+   "keywords": [],
+   "shock_terms": [],
+   "dedupe_match": null,
+   "dedupe_similarity": 0.0,
+   "id": "7a6cb7e49797",
+   "title": "Chitsala v Royal Liner Express Ltd (Civil Suit E208 of 2025) [2026] KEMC 871 (KLR) (9 September 2026) (Judgment)",
+   "url": "https://new.kenyalaw.org/akn/ke/judgment/kemc/2026/871/eng@2026-09-09",
+   "summary": "Chitsala v Royal Liner Express Ltd (Civil Suit E208 of 2025) [2026] KEMC 871 (KLR) (9 September 2026) (Judgment)",
+   "kind": "item",
+   "source": "Kenya Gazette (Kenya Law)",
+   "source_id": "ke-gazette",
+   "tier": 1,
+   "country": "KE",
+   "category": "gazette",
+   "segments": [
+    "city",
+    "bush",
+    "beach"
+   ],
+   "first_seen": "2026-09-10T21:33+03:00",
+   "published": "2026-09-09",
+   "verdict": "CONSIDER"
+  },
+  {
+   "score": 81.9,
+   "components": {
+    "tier": 40,
+    "category": 20,
+    "lead": 12.0,
+    "relevance": 0,
+    "freshness": 9.9
+   },
+   "keywords": [],
+   "shock_terms": [],
+   "dedupe_match": null,
+   "dedupe_similarity": 0.0,
+   "id": "a7aa4810de70",
+   "title": "In re IW (Minor) (Adoption Cause E346 of 2025) [2026] KEHC 13390 (KLR) (Family) (9 September 2026) (Judgment)",
+   "url": "https://new.kenyalaw.org/akn/ke/judgment/kehc/2026/13390/eng@2026-09-09",
+   "summary": "In re IW (Minor) (Adoption Cause E346 of 2025) [2026] KEHC 13390 (KLR) (Family) (9 September 2026) (Judgment)",
+   "kind": "item",
+   "source": "Kenya Gazette (Kenya Law)",
+   "source_id": "ke-gazette",
+   "tier": 1,
+   "country": "KE",
+   "category": "gazette",
+   "segments": [
+    "city",
+    "bush",
+    "beach"
+   ],
+   "first_seen": "2026-09-10T21:33+03:00",
+   "published": "2026-09-09",
+   "verdict": "CONSIDER"
+  },
+  {
+   "score": 81.9,
+   "components": {
+    "tier": 40,
+    "category": 20,
+    "lead": 12.0,
+    "relevance": 0,
+    "freshness": 9.9
+   },
+   "keywords": [],
+   "shock_terms": [],
+   "dedupe_match": null,
+   "dedupe_similarity": 0.0,
+   "id": "92c7581df034",
+   "title": "Nasimiyu & another (Suing as Legal Representative of the Estate of Wycliffe Emojong Omukada) v Africa Merchant Assurance Co Ltd (Civil Case E004 of 2026) [2026] KEMC 870 (KLR) (9 September 2026) (Ruling)",
+   "url": "https://new.kenyalaw.org/akn/ke/judgment/kemc/2026/870/eng@2026-09-09",
+   "summary": "Nasimiyu & another (Suing as Legal Representative of the Estate of Wycliffe Emojong Omukada) v Africa Merchant Assurance Co Ltd (Civil Case E004 of 2026) [2026] KEMC 870 (KLR) (9 September 2026) (Ruling)",
+   "kind": "item",
+   "source": "Kenya Gazette (Kenya Law)",
+   "source_id": "ke-gazette",
+   "tier": 1,
+   "country": "KE",
+   "category": "gazette",
+   "segments": [
+    "city",
+    "bush",
+    "beach"
+   ],
+   "first_seen": "2026-09-10T21:33+03:00",
+   "published": "2026-09-09",
+   "verdict": "CONSIDER"
+  },
+  {
+   "score": 81.9,
+   "components": {
+    "tier": 40,
+    "category": 20,
+    "lead": 12.0,
+    "relevance": 0,
+    "freshness": 9.9
+   },
+   "keywords": [],
+   "shock_terms": [],
+   "dedupe_match": null,
+   "dedupe_similarity": 0.0,
+   "id": "bba4b2325de0",
+   "title": "In re EWM (Miscellaneous Application E107 of 2026) [2026] KEHC 13388 (KLR) (Family) (9 September 2026) (Judgment)",
+   "url": "https://new.kenyalaw.org/akn/ke/judgment/kehc/2026/13388/eng@2026-09-09",
+   "summary": "In re EWM (Miscellaneous Application E107 of 2026) [2026] KEHC 13388 (KLR) (Family) (9 September 2026) (Judgment)",
+   "kind": "item",
+   "source": "Kenya Gazette (Kenya Law)",
+   "source_id": "ke-gazette",
+   "tier": 1,
+   "country": "KE",
+   "category": "gazette",
+   "segments": [
+    "city",
+    "bush",
+    "beach"
+   ],
+   "first_seen": "2026-09-10T21:33+03:00",
+   "published": "2026-09-09",
+   "verdict": "CONSIDER"
+  },
+  {
+   "score": 81.9,
+   "components": {
+    "tier": 40,
+    "category": 20,
+    "lead": 12.0,
+    "relevance": 0,
+    "freshness": 9.9
+   },
+   "keywords": [],
+   "shock_terms": [],
+   "dedupe_match": null,
+   "dedupe_similarity": 0.0,
+   "id": "292e1a4e4d8f",
+   "title": "Makombere v Khetshi Dharamshi & Co Ltd (Miscellaneous Civil Application E207 of 2025) [2026] KEHC 13387 (KLR) (Civ) (9 September 2026) (Ruling)",
+   "url": "https://new.kenyalaw.org/akn/ke/judgment/kehc/2026/13387/eng@2026-09-09",
+   "summary": "Makombere v Khetshi Dharamshi & Co Ltd (Miscellaneous Civil Application E207 of 2025) [2026] KEHC 13387 (KLR) (Civ) (9 September 2026) (Ruling)",
+   "kind": "item",
+   "source": "Kenya Gazette (Kenya Law)",
+   "source_id": "ke-gazette",
+   "tier": 1,
+   "country": "KE",
+   "category": "gazette",
+   "segments": [
+    "city",
+    "bush",
+    "beach"
+   ],
+   "first_seen": "2026-09-10T21:33+03:00",
+   "published": "2026-09-09",
+   "verdict": "CONSIDER"
+  },
+  {
+   "score": 81.9,
+   "components": {
+    "tier": 40,
+    "category": 20,
+    "lead": 12.0,
+    "relevance": 0,
+    "freshness": 9.9
+   },
+   "keywords": [],
+   "shock_terms": [],
+   "dedupe_match": null,
+   "dedupe_similarity": 0.0,
+   "id": "9b59f05b6d89",
+   "title": "Thuku v Mutinda, Maina (Suing as the administrators of the Estate of the Late Kelvin Mutinda Mbithe) & another (Miscellaneous Civil Application E198 of 2026) [2026] KEHC 13386 (KLR) (9 September 2026) (Ruling)",
+   "url": "https://new.kenyalaw.org/akn/ke/judgment/kehc/2026/13386/eng@2026-09-09",
+   "summary": "Thuku v Mutinda, Maina (Suing as the administrators of the Estate of the Late Kelvin Mutinda Mbithe) & another (Miscellaneous Civil Application E198 of 2026) [2026] KEHC 13386 (KLR) (9 September 2026) (Ruling)",
+   "kind": "item",
+   "source": "Kenya Gazette (Kenya Law)",
+   "source_id": "ke-gazette",
+   "tier": 1,
+   "country": "KE",
+   "category": "gazette",
+   "segments": [
+    "city",
+    "bush",
+    "beach"
+   ],
+   "first_seen": "2026-09-10T21:33+03:00",
+   "published": "2026-09-09",
+   "verdict": "CONSIDER"
+  },
+  {
+   "score": 81.9,
+   "components": {
+    "tier": 40,
+    "category": 20,
+    "lead": 12.0,
+    "relevance": 0,
+    "freshness": 9.9
+   },
+   "keywords": [],
+   "shock_terms": [],
+   "dedupe_match": null,
+   "dedupe_similarity": 0.0,
+   "id": "3e61e2649e2a",
+   "title": "Gaithuma v Gikonyo (Miscellaneous Civil Application E173 of 2025) [2026] KEHC 13385 (KLR) (9 September 2026) (Ruling)",
+   "url": "https://new.kenyalaw.org/akn/ke/judgment/kehc/2026/13385/eng@2026-09-09",
+   "summary": "Gaithuma v Gikonyo (Miscellaneous Civil Application E173 of 2025) [2026] KEHC 13385 (KLR) (9 September 2026) (Ruling)",
+   "kind": "item",
+   "source": "Kenya Gazette (Kenya Law)",
+   "source_id": "ke-gazette",
+   "tier": 1,
+   "country": "KE",
+   "category": "gazette",
+   "segments": [
+    "city",
+    "bush",
+    "beach"
+   ],
+   "first_seen": "2026-09-10T21:33+03:00",
+   "published": "2026-09-09",
+   "verdict": "CONSIDER"
+  },
+  {
+   "score": 80.2,
+   "components": {
+    "tier": 20,
+    "category": 14,
+    "lead": 8.4,
+    "relevance": 8,
+    "freshness": 19.8,
+    "corroborated": 10
+   },
+   "keywords": [
+    "airline",
+    "flight"
+   ],
+   "shock_terms": [],
+   "dedupe_match": null,
+   "dedupe_similarity": 0.0,
+   "id": "eecd09cc47b4",
+   "title": "Batik Air Malaysia 1Q27 Osaka Service Increases",
+   "url": "https://www.aeroroutes.com/eng/260910-od1q27kix",
+   "summary": "Published at 2000PDT 10SEP26 / 0300GMT 11SEP26 Batik Air Malaysia in the first quarter of 2027 plans to increase Kuala Lumpur \u2013 Osaka Kansai flights, where the airline lists 4th weekly flight from 06FEB27. The additional flight departs Kuala Lumpur on Saturdays with A330-300 aircraft. OD860 KUL2300 \u2013 0625+1KIX 330 x135 OD861 KIX0900 \u2013 1510KUL 330 x246",
+   "kind": "item",
+   "source": "AeroRoutes schedule filings",
+   "source_id": "aeroroutes",
+   "tier": 2,
+   "country": "GLOBAL",
+   "category": "aviation-tracker",
+   "segments": [
+    "city",
+    "bush",
+    "beach"
+   ],
+   "first_seen": "2026-09-11T06:32+03:00",
+   "published": "2026-09-11",
+   "verdict": "CONSIDER"
+  },
+  {
+   "score": 80.2,
+   "components": {
+    "tier": 20,
+    "category": 14,
+    "lead": 8.4,
+    "relevance": 8,
+    "freshness": 19.8,
+    "corroborated": 10
+   },
+   "keywords": [
+    "route"
+   ],
+   "shock_terms": [],
+   "dedupe_match": null,
+   "dedupe_similarity": 0.14,
+   "id": "b86966030ada",
+   "title": "Emirates NW26 Beijing A380 Service Changes",
+   "url": "https://www.aeroroutes.com/eng/260910-eknw26pe",
+   "summary": "Published at 1800PDT 10SEP26 / 0100GMT 11SEP26 Emirates this week filed additional aircraft changes on Dubai \u2013 Beijing Capital route during Northern winter 2026/27 season. As of 10SEP26, 1 of 2 daily EK306/307 will be operate by Airbus A380 instead of 777-300ER aircraft during following periods: 01NOV26 \u2013 30NOV26, 01FEB27 \u2013 27MAR27. EK306 DXB0320 \u2013 1445PEK 388 D EK308 DXB1100 \u2013 2230PEK 77W D EK307",
+   "kind": "item",
+   "source": "AeroRoutes schedule filings",
+   "source_id": "aeroroutes",
+   "tier": 2,
+   "country": "GLOBAL",
+   "category": "aviation-tracker",
+   "segments": [
+    "city",
+    "bush",
+    "beach"
+   ],
+   "first_seen": "2026-09-11T06:32+03:00",
+   "published": "2026-09-11",
+   "verdict": "CONSIDER"
+  },
+  {
+   "score": 80.2,
+   "components": {
+    "tier": 20,
+    "category": 14,
+    "lead": 8.4,
+    "relevance": 8,
+    "freshness": 19.8,
+    "corroborated": 10
+   },
+   "keywords": [
+    "route"
+   ],
+   "shock_terms": [],
+   "dedupe_match": null,
+   "dedupe_similarity": 0.0,
+   "id": "61f9d1c23921",
+   "title": "Hunnu Air Extends Ulaanbaatar \u2013 Delhi Route to March 2027",
+   "url": "https://www.aeroroutes.com/eng/260910-mrnw26del",
+   "summary": "Published at 1701PDT 10SEP26 / 0001GMT 11SEP26 Mongolian carrier Hunnu Air this week extended schedule filing for its planned service to India. The carrier previously filed 1 weekly Ulaanbaatar \u2013 Delhi route from 28SEP26 to 19OCT26 with Embraer E195-E2 aircraft, this is now being extended to 22MAR27. MR301 UBN0335 \u2013 0705DEL 295 1 MR302 DEL0805 \u2013 1605UBN 295 1 Schedule filing shows service on 04JAN",
+   "kind": "item",
+   "source": "AeroRoutes schedule filings",
+   "source_id": "aeroroutes",
+   "tier": 2,
+   "country": "GLOBAL",
+   "category": "aviation-tracker",
+   "segments": [
+    "city",
+    "bush",
+    "beach"
+   ],
+   "first_seen": "2026-09-11T06:32+03:00",
+   "published": "2026-09-11",
+   "verdict": "CONSIDER"
+  },
+  {
+   "score": 78.4,
    "components": {
     "tier": 40,
     "category": 12,
     "lead": 2.4,
     "relevance": 0,
-    "freshness": 19.7,
+    "freshness": 14.0,
     "corroborated": 10
    },
    "keywords": [],
@@ -829,13 +1163,13 @@
    "verdict": "CONSIDER"
   },
   {
-   "score": 82.8,
+   "score": 77.1,
    "components": {
     "tier": 40,
     "category": 32,
     "lead": 1.2,
     "relevance": 0,
-    "freshness": 15.6,
+    "freshness": 9.9,
     "undated": -6
    },
    "keywords": [],
@@ -862,13 +1196,13 @@
    "verdict": "CONSIDER"
   },
   {
-   "score": 81.2,
+   "score": 75.5,
    "components": {
     "tier": 40,
     "category": 12,
     "lead": 3.6,
     "relevance": 0,
-    "freshness": 15.6,
+    "freshness": 9.9,
     "corroborated": 10
    },
    "keywords": [],
@@ -895,13 +1229,13 @@
    "verdict": "CONSIDER"
   },
   {
-   "score": 80.5,
+   "score": 74.8,
    "components": {
     "tier": 40,
     "category": 10,
     "lead": 16.8,
     "relevance": 0,
-    "freshness": 19.7,
+    "freshness": 14.0,
     "undated": -6
    },
    "keywords": [],
@@ -928,13 +1262,13 @@
    "verdict": "CONSIDER"
   },
   {
-   "score": 80.5,
+   "score": 74.8,
    "components": {
     "tier": 40,
     "category": 10,
     "lead": 16.8,
     "relevance": 0,
-    "freshness": 19.7,
+    "freshness": 14.0,
     "undated": -6
    },
    "keywords": [],
@@ -961,13 +1295,13 @@
    "verdict": "CONSIDER"
   },
   {
-   "score": 80.3,
+   "score": 74.6,
    "components": {
     "tier": 40,
     "category": 7,
     "lead": 3.6,
     "relevance": 20,
-    "freshness": 19.7,
+    "freshness": 14.0,
     "undated": -6,
     "page_change": -4
    },
@@ -979,7 +1313,7 @@
    ],
    "shock_terms": [],
    "dedupe_match": null,
-   "dedupe_similarity": 0.2,
+   "dedupe_similarity": 0.17,
    "id": "ecfef0426516",
    "title": "[page changed] WTTC news",
    "url": "https://wttc.org/news",
@@ -1000,13 +1334,13 @@
    "verdict": "CONSIDER"
   },
   {
-   "score": 80.1,
+   "score": 74.5,
    "components": {
     "tier": 20,
     "category": 14,
     "lead": 8.4,
     "relevance": 8,
-    "freshness": 19.7,
+    "freshness": 14.1,
     "corroborated": 10
    },
    "keywords": [
@@ -1032,366 +1366,6 @@
    ],
    "first_seen": "2026-09-11T01:20+03:00",
    "published": "2026-09-11",
-   "verdict": "CONSIDER"
-  },
-  {
-   "score": 80.1,
-   "components": {
-    "tier": 20,
-    "category": 14,
-    "lead": 8.4,
-    "relevance": 8,
-    "freshness": 19.7,
-    "corroborated": 10
-   },
-   "keywords": [
-    "route"
-   ],
-   "shock_terms": [],
-   "dedupe_match": null,
-   "dedupe_similarity": 0.0,
-   "id": "7f00c14df932",
-   "title": "Air Cairo Adds El Dabaa (El Alamein) \u2013 Moscow Service From Sep 2026",
-   "url": "https://www.aeroroutes.com/eng/260910-smsep26svo",
-   "summary": "Published at 1400PDT / 2100GMT 10SEP26 Air Cairo this week launched new route to Russia, which saw the inaugural of El Dabaa (El Alamein) \u2013 Moscow Sheremetyevo route on 09SEP26. This route is operated by Airbus A320neo, 3 times weekly. SM947 DBB2135 \u2013 0245+1SVO 320 36 SM949 DBB2305 \u2013 0415+1SVO 320 4 SM948 SVO0345 \u2013 0900DBB 320 47 SM950 SVO0840 \u2013 1355DBB 320 5",
-   "kind": "item",
-   "source": "AeroRoutes schedule filings",
-   "source_id": "aeroroutes",
-   "tier": 2,
-   "country": "GLOBAL",
-   "category": "aviation-tracker",
-   "segments": [
-    "city",
-    "bush",
-    "beach"
-   ],
-   "first_seen": "2026-09-11T01:20+03:00",
-   "published": "2026-09-11",
-   "verdict": "CONSIDER"
-  },
-  {
-   "score": 80.1,
-   "components": {
-    "tier": 20,
-    "category": 14,
-    "lead": 8.4,
-    "relevance": 8,
-    "freshness": 19.7,
-    "corroborated": 10
-   },
-   "keywords": [
-    "route"
-   ],
-   "shock_terms": [],
-   "dedupe_match": null,
-   "dedupe_similarity": 0.0,
-   "id": "61678d6f3374",
-   "title": "Airlink Adds Port Elizabeth \u2013 Nelspruit From mid-Nov 2026",
-   "url": "https://www.aeroroutes.com/eng/260910-4znov26mqp",
-   "summary": "Published at 1300PDT / 2000GMT 10SEP26 South African carrier Airlink during Northern winter 2026/27 season plans to launch new domestic route, operating Port Elizabeth \u2013 Nelspruit (Kruger Mpumalanga) route. Embraer ERJ140 aircraft to serve this route 3 times weekly from 16NOV26. 4Z511 PLZ1355 \u2013 1535MQP ERD 135 4Z510 MQP1130 \u2013 1320PLZ ERD 135",
-   "kind": "item",
-   "source": "AeroRoutes schedule filings",
-   "source_id": "aeroroutes",
-   "tier": 2,
-   "country": "GLOBAL",
-   "category": "aviation-tracker",
-   "segments": [
-    "city",
-    "bush",
-    "beach"
-   ],
-   "first_seen": "2026-09-11T01:20+03:00",
-   "published": "2026-09-10",
-   "verdict": "CONSIDER"
-  },
-  {
-   "score": 80.0,
-   "components": {
-    "tier": 40,
-    "category": 12,
-    "lead": 2.4,
-    "relevance": 0,
-    "freshness": 15.6,
-    "corroborated": 10
-   },
-   "keywords": [],
-   "shock_terms": [],
-   "dedupe_match": null,
-   "dedupe_similarity": 0.0,
-   "id": "49856561e361",
-   "title": "Draft CBK Prudential Guidelines, Risk Management Guidelines, Guidance Notes, and Framework for Domestic Systemically Important Banks",
-   "url": "https://www.centralbank.go.ke/2026/09/10/draft-cbk-prudential-guidelines-risk-management-guidelines-guidance-notes-and-framework-for-domestic-systemically-important-banks",
-   "summary": "",
-   "kind": "item",
-   "source": "Central Bank of Kenya press releases",
-   "source_id": "ke-cbk-press",
-   "tier": 1,
-   "country": "KE",
-   "category": "central-bank",
-   "segments": [
-    "city",
-    "bush",
-    "beach"
-   ],
-   "first_seen": "2026-09-10T21:34+03:00",
-   "published": "2026-09-10",
-   "verdict": "CONSIDER"
-  },
-  {
-   "score": 80.0,
-   "components": {
-    "tier": 20,
-    "category": 14,
-    "lead": 8.4,
-    "relevance": 12,
-    "freshness": 15.6,
-    "corroborated": 10
-   },
-   "keywords": [
-    "route",
-    "airline"
-   ],
-   "shock_terms": [],
-   "dedupe_match": null,
-   "dedupe_similarity": 0.0,
-   "id": "7f51fe7a698f",
-   "title": "Air Peace Removed Lagos \u2013 Sao Paulo Schedule Filing in Oct 2026",
-   "url": "https://www.aeroroutes.com/eng/260910-p4oct26gru",
-   "summary": "Published at 1100PDT / 1800GMT 10SEP26 Nigerian carrier Air Peace in recent schedule update removed the filing of one-time Brasil service. Previously reported on AeroRoutes on 18-19AUG26 , the airline was filing Lagos \u2013 Sao Paulo Guarulhos schedule in October 2026, however this is no longer in effect. Previously filed schedule as follows. P47799 LOS1100 \u2013 1700GRU 777 01OCT26 P47800 GRU1200 \u2013 2300L",
-   "kind": "item",
-   "source": "AeroRoutes schedule filings",
-   "source_id": "aeroroutes",
-   "tier": 2,
-   "country": "GLOBAL",
-   "category": "aviation-tracker",
-   "segments": [
-    "city",
-    "bush",
-    "beach"
-   ],
-   "first_seen": "2026-09-10T21:33+03:00",
-   "published": "2026-09-10",
-   "verdict": "CONSIDER"
-  },
-  {
-   "score": 80.0,
-   "components": {
-    "tier": 20,
-    "category": 14,
-    "lead": 8.4,
-    "relevance": 12,
-    "freshness": 15.6,
-    "corroborated": 10
-   },
-   "keywords": [
-    "route",
-    "airline"
-   ],
-   "shock_terms": [],
-   "dedupe_match": null,
-   "dedupe_similarity": 0.0,
-   "id": "95d667296ae8",
-   "title": "Alaska Expands American Puerto Rico Codeshare From Sep 2026",
-   "url": "https://www.aeroroutes.com/eng/260910-asaacodeshare",
-   "summary": "Published at 1000PDT / 1700GMT 10SEP26 Alaska Airlines today (10SEP26) expands codeshare partnership with American Airlines, covering additional route to Puerto Rico. Planned codeshare route additions as follows. Alaska Airlines operated by American Airlines Miami \u2013 San Juan Philadelphia \u2013 San Juan",
-   "kind": "item",
-   "source": "AeroRoutes schedule filings",
-   "source_id": "aeroroutes",
-   "tier": 2,
-   "country": "GLOBAL",
-   "category": "aviation-tracker",
-   "segments": [
-    "city",
-    "bush",
-    "beach"
-   ],
-   "first_seen": "2026-09-10T21:33+03:00",
-   "published": "2026-09-10",
-   "verdict": "CONSIDER"
-  },
-  {
-   "score": 80.0,
-   "components": {
-    "tier": 20,
-    "category": 14,
-    "lead": 8.4,
-    "relevance": 12,
-    "freshness": 15.6,
-    "corroborated": 10
-   },
-   "keywords": [
-    "route",
-    "airline"
-   ],
-   "shock_terms": [],
-   "dedupe_match": null,
-   "dedupe_similarity": 0.0,
-   "id": "79692d4c734f",
-   "title": "LATAM Peru Adds Cuzco \u2013 Sao Paulo in NS27",
-   "url": "https://www.aeroroutes.com/eng/260910-lans27cuzgru",
-   "summary": "Published at 0700PDT / 1400GMT 10SEP26 LATAM Airlines Peru during Northern summer 2027 season plans to launch service to Brasil, with nonstop Cuzco \u2013 Sao Paulo Guarulhos route scheduled. From 29MAR27, Airbus A320 aircraft serves this route 4 times weekly. LA2438 CUZ2330 \u2013 0540+1GRU 320 x357 LA2439 GRU0740 \u2013 1010CUZ 320 x146",
-   "kind": "item",
-   "source": "AeroRoutes schedule filings",
-   "source_id": "aeroroutes",
-   "tier": 2,
-   "country": "GLOBAL",
-   "category": "aviation-tracker",
-   "segments": [
-    "city",
-    "bush",
-    "beach"
-   ],
-   "first_seen": "2026-09-10T21:33+03:00",
-   "published": "2026-09-10",
-   "verdict": "CONSIDER"
-  },
-  {
-   "score": 79.6,
-   "components": {
-    "tier": 20,
-    "category": 4,
-    "lead": 0.0,
-    "relevance": 12,
-    "freshness": 15.6,
-    "corroborated": 10,
-    "shock": 18
-   },
-   "keywords": [
-    "grounded"
-   ],
-   "shock_terms": [
-    "grounded"
-   ],
-   "dedupe_match": null,
-   "dedupe_similarity": 0.0,
-   "id": "e0f9dbf6991d",
-   "title": "Staff shortage, grounded ambulances dominate Lango health assembly findings",
-   "url": "https://www.monitor.co.ug/uganda/news/national/staff-shortage-grounded-ambulances-dominate-lango-health-assembly-findings-5590618",
-   "summary": "The findings paint a system stretched thin at nearly every point of contact",
-   "kind": "item",
-   "source": "Daily Monitor (Uganda)",
-   "source_id": "np-monitor-ug",
-   "tier": 2,
-   "country": "UG",
-   "category": "press",
-   "segments": [
-    "city",
-    "bush",
-    "beach"
-   ],
-   "first_seen": "2026-09-10T21:33+03:00",
-   "published": "2026-09-10",
-   "verdict": "CONSIDER"
-  },
-  {
-   "score": 78.2,
-   "components": {
-    "tier": 20,
-    "category": 5,
-    "lead": 3.6,
-    "relevance": 24,
-    "freshness": 15.6,
-    "corroborated": 10
-   },
-   "keywords": [
-    "vat",
-    "adr",
-    "hotel",
-    "investment"
-   ],
-   "shock_terms": [],
-   "dedupe_match": null,
-   "dedupe_similarity": 0.17,
-   "id": "19619bd02c7a",
-   "title": "Hospitality sector needs to beef up resilience",
-   "url": "https://www.hospitalitynet.org/opinion/4134321/hospitality-sector-needs-to-beef-up-resilience",
-   "summary": "Dutch hotels face a tough 2025 as ADR falls, operating costs rise to 68%, and a VAT hike from 6% to 21% cuts demand, with 43.6% of hoteliers planning to reduce investment.",
-   "kind": "item",
-   "source": "Hospitality Net \u2014 Africa announcements",
-   "source_id": "dev-hospitalitynet-africa",
-   "tier": 2,
-   "country": "REG",
-   "category": "trade",
-   "segments": [
-    "city",
-    "bush",
-    "beach"
-   ],
-   "first_seen": "2026-09-10T21:33+03:00",
-   "published": "2026-09-10",
-   "verdict": "CONSIDER"
-  },
-  {
-   "score": 76.0,
-   "components": {
-    "tier": 20,
-    "category": 14,
-    "lead": 8.4,
-    "relevance": 8,
-    "freshness": 15.6,
-    "corroborated": 10
-   },
-   "keywords": [
-    "route"
-   ],
-   "shock_terms": [],
-   "dedupe_match": null,
-   "dedupe_similarity": 0.33,
-   "id": "3c5f4e8efc0b",
-   "title": "Wingo Adds Bogota \u2013 Puerto Plata in Nov 2026",
-   "url": "https://www.aeroroutes.com/eng/260910-p5nov26pop",
-   "summary": "Published at 0800PDT / 1500GMT 10SEP26 Wingo during Northern winter 2026/27 season plans to add new route to The Dominican Republic, as the carrier schedules Bogota \u2013 Puerto Plata route. From 06NOV26, Boeing 737-800 aircraft to serve this route twice weekly. P57418 BOG0600 \u2013 1002POP 738 5 P57418 BOG1100 \u2013 1502POP 738 1 P57419 POP1123 \u2013 1325BOG 738 5 P57419 POP1628 \u2013 1830BOG 738 1",
-   "kind": "item",
-   "source": "AeroRoutes schedule filings",
-   "source_id": "aeroroutes",
-   "tier": 2,
-   "country": "GLOBAL",
-   "category": "aviation-tracker",
-   "segments": [
-    "city",
-    "bush",
-    "beach"
-   ],
-   "first_seen": "2026-09-10T21:33+03:00",
-   "published": "2026-09-10",
-   "verdict": "CONSIDER"
-  },
-  {
-   "score": 74.2,
-   "components": {
-    "tier": 20,
-    "category": 5,
-    "lead": 3.6,
-    "relevance": 20,
-    "freshness": 15.6,
-    "corroborated": 10
-   },
-   "keywords": [
-    "vat",
-    "resort",
-    "booking",
-    "guest"
-   ],
-   "shock_terms": [],
-   "dedupe_match": null,
-   "dedupe_similarity": 0.29,
-   "id": "acff27f4b9a8",
-   "title": "The lost art of a reservation call: How to build trust, capture data, and close bookings | a Revinate webinar",
-   "url": "https://www.hospitalitynet.org/podcast/4134320/the-lost-art-of-a-reservation-call-how-to-build-trust-capture-data-and-close-bookings-a-revinate-webinar",
-   "summary": "Revinate webinar featuring Suncadia Resort's Director of Reservations on how reservation teams can improve call handling to capture guest data, build rapport, and convert phone inquiries into direct bookings.",
-   "kind": "item",
-   "source": "Hospitality Net \u2014 Africa announcements",
-   "source_id": "dev-hospitalitynet-africa",
-   "tier": 2,
-   "country": "REG",
-   "category": "trade",
-   "segments": [
-    "city",
-    "bush",
-    "beach"
-   ],
-   "first_seen": "2026-09-10T21:33+03:00",
-   "published": "2026-09-10",
    "verdict": "CONSIDER"
   }
  ]
