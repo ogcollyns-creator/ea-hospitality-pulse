@@ -1,18 +1,50 @@
 {
- "generated": "2026-09-12T16:23:57+03:00",
+ "generated": "2026-09-12T19:54:36+03:00",
  "slot": "evening",
  "window_start": 1789207200,
- "observations_in_window": 100,
+ "observations_in_window": 153,
  "deduped_against": 9,
  "candidates": [
   {
-   "score": 90.8,
+   "score": 91.3,
    "components": {
     "tier": 40,
     "category": 32,
     "lead": 3.6,
     "relevance": 0,
-    "freshness": 19.2,
+    "freshness": 19.7,
+    "page_change": -4
+   },
+   "keywords": [],
+   "shock_terms": [],
+   "dedupe_match": null,
+   "dedupe_similarity": 0.0,
+   "id": "bd076680e841",
+   "title": "[page changed] Federal Register \u2014 public inspection (HHS/CDC), pre-publication",
+   "url": "https://www.federalregister.gov/api/v1/public-inspection-documents/current.json",
+   "summary": "{\"count\":157,\"results\":[{\"agencies\":[{\"raw_name\":\"SECURITIES AND EXCHANGE COMMISSION\",\"name\":\"Securities and Exchange Commission\",\"id\":466,\"url\":\"https://www.federalregister.gov/agencies/securities-and-exchange-commission\",\"json_url\":\"https://www.federalregister.gov/api/v1/agencies/466\",\"parent_id\":null,\"slug\":\"securities-and-exchange-commission\"}],\"agency_letters\":[],\"agency_names\":[\"Securities a",
+   "kind": "page-change",
+   "source": "Federal Register \u2014 public inspection (HHS/CDC), pre-publication",
+   "source_id": "us-fedreg-pubinspect-hhs",
+   "tier": 1,
+   "country": "REG",
+   "category": "advisory",
+   "segments": [
+    "city",
+    "bush"
+   ],
+   "first_seen": "2026-09-12T19:49+03:00",
+   "published": "2026-09-10",
+   "verdict": "OPEN THIS \u2014 tier-1 advisory page moved; content not auto-parsed, read it manually"
+  },
+  {
+   "score": 87.0,
+   "components": {
+    "tier": 40,
+    "category": 32,
+    "lead": 3.6,
+    "relevance": 0,
+    "freshness": 15.4,
     "page_change": -4
    },
    "keywords": [],
@@ -38,13 +70,47 @@
    "verdict": "OPEN THIS \u2014 tier-1 advisory page moved; content not auto-parsed, read it manually"
   },
   {
-   "score": 83.2,
+   "score": 65.3,
+   "components": {
+    "tier": 40,
+    "category": 12,
+    "lead": 3.6,
+    "relevance": 0,
+    "freshness": 19.7,
+    "undated": -6,
+    "page_change": -4
+   },
+   "keywords": [],
+   "shock_terms": [],
+   "dedupe_match": null,
+   "dedupe_similarity": 0.0,
+   "id": "3cce33e28636",
+   "title": "[page changed] Airlink news",
+   "url": "https://www.flyairlink.com/",
+   "summary": "Request unsuccessful. Incapsula incident ID: 1407000840122977364-116374256396211463",
+   "kind": "page-change",
+   "source": "Airlink news",
+   "source_id": "air-airlink",
+   "tier": 1,
+   "country": "REG",
+   "category": "airline",
+   "segments": [
+    "city",
+    "bush",
+    "beach"
+   ],
+   "first_seen": "2026-09-12T19:48+03:00",
+   "published": null,
+   "verdict": "OPEN THIS \u2014 tier-1 airline page moved; content not auto-parsed, read it manually"
+  },
+  {
+   "score": 79.4,
    "components": {
     "tier": 20,
     "category": 4,
     "lead": 0.0,
     "relevance": 12,
-    "freshness": 19.2,
+    "freshness": 15.4,
     "corroborated": 10,
     "shock": 18
    },
@@ -76,13 +142,13 @@
    "verdict": "CONSIDER"
   },
   {
-   "score": 73.8,
+   "score": 70.0,
    "components": {
     "tier": 20,
     "category": 9,
     "lead": 3.6,
     "relevance": 12,
-    "freshness": 19.2,
+    "freshness": 15.4,
     "corroborated": 10
    },
    "keywords": [
@@ -111,13 +177,13 @@
    "verdict": "CONSIDER"
   },
   {
-   "score": 73.2,
+   "score": 69.4,
    "components": {
     "tier": 20,
     "category": 4,
     "lead": 0.0,
     "relevance": 20,
-    "freshness": 19.2,
+    "freshness": 15.4,
     "corroborated": 10
    },
    "keywords": [
@@ -145,16 +211,52 @@
    ],
    "first_seen": "2026-09-12T15:53+03:00",
    "published": "2026-09-12",
-   "verdict": "CONSIDER"
+   "verdict": "weak"
   },
   {
-   "score": 65.8,
+   "score": 65.7,
+   "components": {
+    "tier": 20,
+    "category": 4,
+    "lead": 0.0,
+    "relevance": 12,
+    "freshness": 19.7,
+    "corroborated": 10
+   },
+   "keywords": [
+    "fee",
+    "tourism"
+   ],
+   "shock_terms": [],
+   "dedupe_match": null,
+   "dedupe_similarity": 0.17,
+   "id": "3b971a588716",
+   "title": "Busoga eyes coffee, cocoa tourism to create jobs",
+   "url": "https://www.monitor.co.ug/uganda/news/national/busoga-eyes-coffee-cocoa-tourism-to-create-jobs-5592852",
+   "summary": "Ms Resty Mbwali, Team leader of the Busoga Coffee and Cocoa Tourism Festival, said the...",
+   "kind": "item",
+   "source": "Daily Monitor (Uganda)",
+   "source_id": "np-monitor-ug",
+   "tier": 2,
+   "country": "UG",
+   "category": "press",
+   "segments": [
+    "city",
+    "bush",
+    "beach"
+   ],
+   "first_seen": "2026-09-12T19:49+03:00",
+   "published": "2026-09-12",
+   "verdict": "weak"
+  },
+  {
+   "score": 62.0,
    "components": {
     "tier": 20,
     "category": 9,
     "lead": 3.6,
     "relevance": 4,
-    "freshness": 19.2,
+    "freshness": 15.4,
     "corroborated": 10
    },
    "keywords": [
@@ -182,13 +284,13 @@
    "verdict": "weak"
   },
   {
-   "score": 65.8,
+   "score": 62.0,
    "components": {
     "tier": 20,
     "category": 9,
     "lead": 3.6,
     "relevance": 4,
-    "freshness": 19.2,
+    "freshness": 15.4,
     "corroborated": 10
    },
    "keywords": [
@@ -216,13 +318,13 @@
    "verdict": "weak"
   },
   {
-   "score": 65.8,
+   "score": 62.0,
    "components": {
     "tier": 20,
     "category": 9,
     "lead": 3.6,
     "relevance": 4,
-    "freshness": 19.2,
+    "freshness": 15.4,
     "corroborated": 10
    },
    "keywords": [
@@ -250,13 +352,13 @@
    "verdict": "weak"
   },
   {
-   "score": 65.8,
+   "score": 62.0,
    "components": {
     "tier": 20,
     "category": 9,
     "lead": 3.6,
     "relevance": 4,
-    "freshness": 19.2,
+    "freshness": 15.4,
     "corroborated": 10
    },
    "keywords": [
@@ -284,13 +386,13 @@
    "verdict": "weak"
   },
   {
-   "score": 65.8,
+   "score": 62.0,
    "components": {
     "tier": 20,
     "category": 9,
     "lead": 3.6,
     "relevance": 4,
-    "freshness": 19.2,
+    "freshness": 15.4,
     "corroborated": 10
    },
    "keywords": [
@@ -318,13 +420,48 @@
    "verdict": "weak"
   },
   {
-   "score": 61.8,
+   "score": 61.7,
+   "components": {
+    "tier": 20,
+    "category": 4,
+    "lead": 0.0,
+    "relevance": 8,
+    "freshness": 19.7,
+    "corroborated": 10
+   },
+   "keywords": [
+    "vat"
+   ],
+   "shock_terms": [],
+   "dedupe_match": null,
+   "dedupe_similarity": 0.33,
+   "id": "2a940693acc0",
+   "title": "ZLS condoles President Samia on husband\u2019s death",
+   "url": "https://dailynews.co.tz/zls-condoles-president-samia-on-husbands-death",
+   "summary": "ZANZIBAR: THE Zanzibar Law Society (ZLS) has conveyed its condolences to Tanzania\u2019s President, Dr Samia Suluhu Hassan, following the death of her husband, the late Maalim Hafidh Ameir Hassan. The condolences were delivered today, September 12, at President Samia\u2019s private residence in Kizimkazi, South Unguja Region, Zanzibar. The ZLS delegation was led by Masoud Mohamed, \u2026 The post ZLS condoles Pr",
+   "kind": "item",
+   "source": "Daily News (Tanzania)",
+   "source_id": "np-dailynews-tz",
+   "tier": 2,
+   "country": "TZ",
+   "category": "press",
+   "segments": [
+    "city",
+    "bush",
+    "beach"
+   ],
+   "first_seen": "2026-09-12T19:49+03:00",
+   "published": "2026-09-12",
+   "verdict": "weak"
+  },
+  {
+   "score": 58.0,
    "components": {
     "tier": 20,
     "category": 9,
     "lead": 3.6,
     "relevance": 0,
-    "freshness": 19.2,
+    "freshness": 15.4,
     "corroborated": 10
    },
    "keywords": [],
@@ -350,13 +487,13 @@
    "verdict": "weak"
   },
   {
-   "score": 61.8,
+   "score": 58.0,
    "components": {
     "tier": 20,
     "category": 9,
     "lead": 3.6,
     "relevance": 0,
-    "freshness": 19.2,
+    "freshness": 15.4,
     "corroborated": 10
    },
    "keywords": [],
@@ -382,13 +519,13 @@
    "verdict": "weak"
   },
   {
-   "score": 61.8,
+   "score": 58.0,
    "components": {
     "tier": 20,
     "category": 9,
     "lead": 3.6,
     "relevance": 0,
-    "freshness": 19.2,
+    "freshness": 15.4,
     "corroborated": 10
    },
    "keywords": [],
@@ -414,13 +551,13 @@
    "verdict": "weak"
   },
   {
-   "score": 61.8,
+   "score": 58.0,
    "components": {
     "tier": 20,
     "category": 9,
     "lead": 3.6,
     "relevance": 0,
-    "freshness": 19.2,
+    "freshness": 15.4,
     "corroborated": 10
    },
    "keywords": [],
@@ -446,13 +583,13 @@
    "verdict": "weak"
   },
   {
-   "score": 61.8,
+   "score": 58.0,
    "components": {
     "tier": 20,
     "category": 9,
     "lead": 3.6,
     "relevance": 0,
-    "freshness": 19.2,
+    "freshness": 15.4,
     "corroborated": 10
    },
    "keywords": [],
@@ -478,13 +615,13 @@
    "verdict": "weak"
   },
   {
-   "score": 61.8,
+   "score": 58.0,
    "components": {
     "tier": 20,
     "category": 9,
     "lead": 3.6,
     "relevance": 0,
-    "freshness": 19.2,
+    "freshness": 15.4,
     "corroborated": 10
    },
    "keywords": [],
@@ -510,13 +647,13 @@
    "verdict": "weak"
   },
   {
-   "score": 61.8,
+   "score": 58.0,
    "components": {
     "tier": 20,
     "category": 9,
     "lead": 3.6,
     "relevance": 0,
-    "freshness": 19.2,
+    "freshness": 15.4,
     "corroborated": 10
    },
    "keywords": [],
@@ -542,13 +679,13 @@
    "verdict": "weak"
   },
   {
-   "score": 61.8,
+   "score": 58.0,
    "components": {
     "tier": 20,
     "category": 9,
     "lead": 3.6,
     "relevance": 0,
-    "freshness": 19.2,
+    "freshness": 15.4,
     "corroborated": 10
    },
    "keywords": [],
@@ -574,13 +711,13 @@
    "verdict": "weak"
   },
   {
-   "score": 61.8,
+   "score": 58.0,
    "components": {
     "tier": 20,
     "category": 9,
     "lead": 3.6,
     "relevance": 0,
-    "freshness": 19.2,
+    "freshness": 15.4,
     "corroborated": 10
    },
    "keywords": [],
@@ -606,13 +743,13 @@
    "verdict": "weak"
   },
   {
-   "score": 61.8,
+   "score": 58.0,
    "components": {
     "tier": 20,
     "category": 9,
     "lead": 3.6,
     "relevance": 0,
-    "freshness": 19.2,
+    "freshness": 15.4,
     "corroborated": 10
    },
    "keywords": [],
@@ -638,13 +775,13 @@
    "verdict": "weak"
   },
   {
-   "score": 61.2,
+   "score": 57.4,
    "components": {
     "tier": 20,
     "category": 4,
     "lead": 0.0,
     "relevance": 8,
-    "freshness": 19.2,
+    "freshness": 15.4,
     "corroborated": 10
    },
    "keywords": [
@@ -673,13 +810,47 @@
    "verdict": "weak"
   },
   {
-   "score": 59.4,
+   "score": 56.1,
+   "components": {
+    "tier": 20,
+    "category": 24,
+    "lead": 2.4,
+    "relevance": 0,
+    "freshness": 19.7,
+    "undated": -6,
+    "page_change": -4
+   },
+   "keywords": [],
+   "shock_terms": [],
+   "dedupe_match": null,
+   "dedupe_similarity": 0.2,
+   "id": "b81f58a41cf3",
+   "title": "[page changed] ProMED-mail",
+   "url": "https://promedmail.org/",
+   "summary": "Protecting Global Health, One Alert at a Time | ProMED Previous slide Next slide Protecting Global Health, One Alert at a Time ProMED: Your 24/7 early warning system for emerging infectious diseases worldwide. Subscribe ProMED's Weekly Pulse A snapshot of global health events from the past 7 days Latest Posts on ProMED All Date Title Sat Sep 12 2026 LUMPY SKIN DISEASE - INDIA (07): (HARYANA) SAMPL",
+   "kind": "page-change",
+   "source": "ProMED-mail",
+   "source_id": "promed",
+   "tier": 2,
+   "country": "GLOBAL",
+   "category": "health",
+   "segments": [
+    "city",
+    "bush",
+    "beach"
+   ],
+   "first_seen": "2026-09-12T19:49+03:00",
+   "published": null,
+   "verdict": "weak"
+  },
+  {
+   "score": 55.6,
    "components": {
     "tier": 20,
     "category": 5,
     "lead": 1.2,
     "relevance": 4,
-    "freshness": 19.2,
+    "freshness": 15.4,
     "corroborated": 10
    },
    "keywords": [
@@ -708,13 +879,145 @@
    "verdict": "weak"
   },
   {
-   "score": 57.2,
+   "score": 53.7,
+   "components": {
+    "tier": 20,
+    "category": 4,
+    "lead": 0.0,
+    "relevance": 0,
+    "freshness": 19.7,
+    "corroborated": 10
+   },
+   "keywords": [],
+   "shock_terms": [],
+   "dedupe_match": null,
+   "dedupe_similarity": 0.17,
+   "id": "5b0c46761cc6",
+   "title": "Tooro\u2019s new King is Edward Kijanangoma, Musuuga declares as royal family steers clear of succession",
+   "url": "https://www.monitor.co.ug/uganda/news/national/tooro-s-new-king-is-edward-kijanangoma-musuuga-declares-as-royal-family-steers-clear-of-succession-5592728",
+   "summary": "Best Kemigisa and Princess Ruth Komuntale avoided discussing the succession issue",
+   "kind": "item",
+   "source": "Daily Monitor (Uganda)",
+   "source_id": "np-monitor-ug",
+   "tier": 2,
+   "country": "UG",
+   "category": "press",
+   "segments": [
+    "city",
+    "bush",
+    "beach"
+   ],
+   "first_seen": "2026-09-12T19:49+03:00",
+   "published": "2026-09-12",
+   "verdict": "weak"
+  },
+  {
+   "score": 53.7,
+   "components": {
+    "tier": 20,
+    "category": 4,
+    "lead": 0.0,
+    "relevance": 0,
+    "freshness": 19.7,
+    "corroborated": 10
+   },
+   "keywords": [],
+   "shock_terms": [],
+   "dedupe_match": null,
+   "dedupe_similarity": 0.0,
+   "id": "48b569d766d4",
+   "title": "I begged God to take me first instead of King Oyo, says Queen Mother Best Kemigisa",
+   "url": "https://www.monitor.co.ug/uganda/news/national/i-begged-god-to-take-me-first-instead-of-king-oyo-says-queen-mother-best-kemigisa-5592716",
+   "summary": "Kemigisa did not directly comment on the succession controversy during her remarks",
+   "kind": "item",
+   "source": "Daily Monitor (Uganda)",
+   "source_id": "np-monitor-ug",
+   "tier": 2,
+   "country": "UG",
+   "category": "press",
+   "segments": [
+    "city",
+    "bush",
+    "beach"
+   ],
+   "first_seen": "2026-09-12T19:49+03:00",
+   "published": "2026-09-12",
+   "verdict": "weak"
+  },
+  {
+   "score": 53.7,
+   "components": {
+    "tier": 20,
+    "category": 4,
+    "lead": 0.0,
+    "relevance": 0,
+    "freshness": 19.7,
+    "corroborated": 10
+   },
+   "keywords": [],
+   "shock_terms": [],
+   "dedupe_match": null,
+   "dedupe_similarity": 0.0,
+   "id": "dcb409dd3dbf",
+   "title": "China's Xi urges BRICS to take on peacemaking role in Middle East war",
+   "url": "https://www.monitor.co.ug/uganda/news/world/china-s-xi-urges-brics-to-take-on-peacemaking-role-in-middle-east-war-5592732",
+   "summary": "China will work with other BRICS members in that role, as the war \"does not serve the common...",
+   "kind": "item",
+   "source": "Daily Monitor (Uganda)",
+   "source_id": "np-monitor-ug",
+   "tier": 2,
+   "country": "UG",
+   "category": "press",
+   "segments": [
+    "city",
+    "bush",
+    "beach"
+   ],
+   "first_seen": "2026-09-12T19:49+03:00",
+   "published": "2026-09-12",
+   "verdict": "weak"
+  },
+  {
+   "score": 53.7,
+   "components": {
+    "tier": 20,
+    "category": 4,
+    "lead": 0.0,
+    "relevance": 0,
+    "freshness": 19.7,
+    "corroborated": 10
+   },
+   "keywords": [],
+   "shock_terms": [],
+   "dedupe_match": null,
+   "dedupe_similarity": 0.0,
+   "id": "1833a203a207",
+   "title": "BRICS agrees to joint declaration in test of unity despite Mideast tensions",
+   "url": "https://www.monitor.co.ug/uganda/news/world/brics-agrees-to-joint-declaration-in-test-of-unity-despite-mideast-tensions-5592722",
+   "summary": "Host India's Prime Minister Narendra Modi said that the bloc had come of age and it was time to...",
+   "kind": "item",
+   "source": "Daily Monitor (Uganda)",
+   "source_id": "np-monitor-ug",
+   "tier": 2,
+   "country": "UG",
+   "category": "press",
+   "segments": [
+    "city",
+    "bush",
+    "beach"
+   ],
+   "first_seen": "2026-09-12T19:49+03:00",
+   "published": "2026-09-12",
+   "verdict": "weak"
+  },
+  {
+   "score": 53.4,
    "components": {
     "tier": 20,
     "category": 4,
     "lead": 0.0,
     "relevance": 4,
-    "freshness": 19.2,
+    "freshness": 15.4,
     "corroborated": 10
    },
    "keywords": [
@@ -743,13 +1046,13 @@
    "verdict": "weak"
   },
   {
-   "score": 57.2,
+   "score": 53.4,
    "components": {
     "tier": 20,
     "category": 4,
     "lead": 0.0,
     "relevance": 4,
-    "freshness": 19.2,
+    "freshness": 15.4,
     "corroborated": 10
    },
    "keywords": [
@@ -778,13 +1081,13 @@
    "verdict": "weak"
   },
   {
-   "score": 57.2,
+   "score": 53.4,
    "components": {
     "tier": 20,
     "category": 4,
     "lead": 0.0,
     "relevance": 4,
-    "freshness": 19.2,
+    "freshness": 15.4,
     "corroborated": 10
    },
    "keywords": [
@@ -813,13 +1116,13 @@
    "verdict": "weak"
   },
   {
-   "score": 55.6,
+   "score": 51.8,
    "components": {
     "tier": 20,
     "category": 24,
     "lead": 2.4,
     "relevance": 0,
-    "freshness": 19.2,
+    "freshness": 15.4,
     "undated": -6,
     "page_change": -4
    },
@@ -847,13 +1150,13 @@
    "verdict": "weak"
   },
   {
-   "score": 53.2,
+   "score": 49.4,
    "components": {
     "tier": 20,
     "category": 4,
     "lead": 0.0,
     "relevance": 0,
-    "freshness": 19.2,
+    "freshness": 15.4,
     "corroborated": 10
    },
    "keywords": [],
@@ -880,13 +1183,13 @@
    "verdict": "weak"
   },
   {
-   "score": 53.2,
+   "score": 49.4,
    "components": {
     "tier": 20,
     "category": 4,
     "lead": 0.0,
     "relevance": 0,
-    "freshness": 19.2,
+    "freshness": 15.4,
     "corroborated": 10
    },
    "keywords": [],
@@ -913,13 +1216,13 @@
    "verdict": "weak"
   },
   {
-   "score": 53.2,
+   "score": 49.4,
    "components": {
     "tier": 20,
     "category": 4,
     "lead": 0.0,
     "relevance": 0,
-    "freshness": 19.2,
+    "freshness": 15.4,
     "corroborated": 10
    },
    "keywords": [],
@@ -946,13 +1249,13 @@
    "verdict": "weak"
   },
   {
-   "score": 53.2,
+   "score": 49.4,
    "components": {
     "tier": 20,
     "category": 4,
     "lead": 0.0,
     "relevance": 0,
-    "freshness": 19.2,
+    "freshness": 15.4,
     "corroborated": 10
    },
    "keywords": [],
@@ -979,13 +1282,13 @@
    "verdict": "weak"
   },
   {
-   "score": 53.2,
+   "score": 49.4,
    "components": {
     "tier": 20,
     "category": 4,
     "lead": 0.0,
     "relevance": 0,
-    "freshness": 19.2,
+    "freshness": 15.4,
     "corroborated": 10
    },
    "keywords": [],
@@ -1012,13 +1315,13 @@
    "verdict": "weak"
   },
   {
-   "score": 53.2,
+   "score": 49.4,
    "components": {
     "tier": 20,
     "category": 4,
     "lead": 0.0,
     "relevance": 0,
-    "freshness": 19.2,
+    "freshness": 15.4,
     "corroborated": 10
    },
    "keywords": [],
@@ -1034,303 +1337,6 @@
    "source_id": "np-dailynews-tz",
    "tier": 2,
    "country": "TZ",
-   "category": "press",
-   "segments": [
-    "city",
-    "bush",
-    "beach"
-   ],
-   "first_seen": "2026-09-12T15:53+03:00",
-   "published": "2026-09-12",
-   "verdict": "weak"
-  },
-  {
-   "score": 53.2,
-   "components": {
-    "tier": 20,
-    "category": 4,
-    "lead": 0.0,
-    "relevance": 0,
-    "freshness": 19.2,
-    "corroborated": 10
-   },
-   "keywords": [],
-   "shock_terms": [],
-   "dedupe_match": null,
-   "dedupe_similarity": 0.0,
-   "id": "6f0e347ebe53",
-   "title": "Govt warns fake seed dealers",
-   "url": "https://dailynews.co.tz/govt-warns-fake-seed-dealers",
-   "summary": "ARUSHA: THE government has warned individuals involved in the production and distribution of fake seeds that they will face action, saying such malpractice exploits farmers and threatens crop production. Agriculture Minister Daniel Chongolo (pictured) issued the warning when he officially inaugurated the Seed Co Tanzania Seed Processing and Storage Plant at Engorora in Arusha. Mr \u2026 The post Govt w",
-   "kind": "item",
-   "source": "Daily News (Tanzania)",
-   "source_id": "np-dailynews-tz",
-   "tier": 2,
-   "country": "TZ",
-   "category": "press",
-   "segments": [
-    "city",
-    "bush",
-    "beach"
-   ],
-   "first_seen": "2026-09-12T15:53+03:00",
-   "published": "2026-09-12",
-   "verdict": "weak"
-  },
-  {
-   "score": 53.2,
-   "components": {
-    "tier": 20,
-    "category": 4,
-    "lead": 0.0,
-    "relevance": 0,
-    "freshness": 19.2,
-    "corroborated": 10
-   },
-   "keywords": [],
-   "shock_terms": [],
-   "dedupe_match": null,
-   "dedupe_similarity": 0.17,
-   "id": "22d376863b81",
-   "title": "Zanzibar terminates Rand Water contract",
-   "url": "https://dailynews.co.tz/160773-2",
-   "summary": "ZANZIBAR: THE Zanzibar government has terminated its contract with South African water utility Rand Water following an assessment of the company\u2019s performance in improving water services in the Isles. All water service operations have now been handed back to the Zanzibar Water Authority (ZAWA). Deputy Minister for Water, Energy and Minerals Seif Kombo Pandu announced \u2026 The post Zanzibar terminates",
-   "kind": "item",
-   "source": "Daily News (Tanzania)",
-   "source_id": "np-dailynews-tz",
-   "tier": 2,
-   "country": "TZ",
-   "category": "press",
-   "segments": [
-    "city",
-    "bush",
-    "beach"
-   ],
-   "first_seen": "2026-09-12T15:53+03:00",
-   "published": "2026-09-12",
-   "verdict": "weak"
-  },
-  {
-   "score": 53.2,
-   "components": {
-    "tier": 20,
-    "category": 4,
-    "lead": 0.0,
-    "relevance": 0,
-    "freshness": 19.2,
-    "corroborated": 10
-   },
-   "keywords": [],
-   "shock_terms": [],
-   "dedupe_match": null,
-   "dedupe_similarity": 0.0,
-   "id": "dbcc33b4e9a0",
-   "title": "King Oyo\u2019s cancer diagnosis, treatment and final hours revealed",
-   "url": "https://www.monitor.co.ug/uganda/news/national/king-oyo-s-cancer-diagnosis-treatment-and-final-hours-revealed-5592700",
-   "summary": "King Oyo was confident of recovery before sudden health deterioration",
-   "kind": "item",
-   "source": "Daily Monitor (Uganda)",
-   "source_id": "np-monitor-ug",
-   "tier": 2,
-   "country": "UG",
-   "category": "press",
-   "segments": [
-    "city",
-    "bush",
-    "beach"
-   ],
-   "first_seen": "2026-09-12T15:53+03:00",
-   "published": "2026-09-12",
-   "verdict": "weak"
-  },
-  {
-   "score": 53.2,
-   "components": {
-    "tier": 20,
-    "category": 4,
-    "lead": 0.0,
-    "relevance": 0,
-    "freshness": 19.2,
-    "corroborated": 10
-   },
-   "keywords": [],
-   "shock_terms": [],
-   "dedupe_match": null,
-   "dedupe_similarity": 0.0,
-   "id": "06351c2e2dc6",
-   "title": "Classic Rugumayo conquers Pro Tee",
-   "url": "https://www.monitor.co.ug/uganda/sports/golf/-classic-rugumayo-conquers-pro-tee-5592662",
-   "summary": "Rugumayo\u2019s winning streak got stretched but with pure class",
-   "kind": "item",
-   "source": "Daily Monitor (Uganda)",
-   "source_id": "np-monitor-ug",
-   "tier": 2,
-   "country": "UG",
-   "category": "press",
-   "segments": [
-    "city",
-    "bush",
-    "beach"
-   ],
-   "first_seen": "2026-09-12T15:53+03:00",
-   "published": "2026-09-12",
-   "verdict": "weak"
-  },
-  {
-   "score": 53.2,
-   "components": {
-    "tier": 20,
-    "category": 4,
-    "lead": 0.0,
-    "relevance": 0,
-    "freshness": 19.2,
-    "corroborated": 10
-   },
-   "keywords": [],
-   "shock_terms": [],
-   "dedupe_match": null,
-   "dedupe_similarity": 0.0,
-   "id": "9fc0f3101216",
-   "title": "Kayunga chairman asks leaders to use PDM funds to attract opposition supporters",
-   "url": "https://www.monitor.co.ug/uganda/news/national/kayunga-chairman-asks-leaders-to-use-pdm-funds-to-attract-opposition-supporters-5592598",
-   "summary": "Kayunga chairman asks Museveni to facilitate PDM SACCO leaders",
-   "kind": "item",
-   "source": "Daily Monitor (Uganda)",
-   "source_id": "np-monitor-ug",
-   "tier": 2,
-   "country": "UG",
-   "category": "press",
-   "segments": [
-    "city",
-    "bush",
-    "beach"
-   ],
-   "first_seen": "2026-09-12T15:53+03:00",
-   "published": "2026-09-12",
-   "verdict": "weak"
-  },
-  {
-   "score": 53.2,
-   "components": {
-    "tier": 20,
-    "category": 4,
-    "lead": 0.0,
-    "relevance": 0,
-    "freshness": 19.2,
-    "corroborated": 10
-   },
-   "keywords": [],
-   "shock_terms": [],
-   "dedupe_match": null,
-   "dedupe_similarity": 0.0,
-   "id": "e43fe63ecffa",
-   "title": "Man killed by brother in Lira over Shs150,000 debt",
-   "url": "https://www.monitor.co.ug/uganda/news/national/man-killed-by-brother-in-lira-over-shs150-000-debt-5592638",
-   "summary": "Brother flees after allegedly killing sibling in Lira",
-   "kind": "item",
-   "source": "Daily Monitor (Uganda)",
-   "source_id": "np-monitor-ug",
-   "tier": 2,
-   "country": "UG",
-   "category": "press",
-   "segments": [
-    "city",
-    "bush",
-    "beach"
-   ],
-   "first_seen": "2026-09-12T15:53+03:00",
-   "published": "2026-09-12",
-   "verdict": "weak"
-  },
-  {
-   "score": 53.2,
-   "components": {
-    "tier": 20,
-    "category": 4,
-    "lead": 0.0,
-    "relevance": 0,
-    "freshness": 19.2,
-    "corroborated": 10
-   },
-   "keywords": [],
-   "shock_terms": [],
-   "dedupe_match": null,
-   "dedupe_similarity": 0.17,
-   "id": "5957d7edce4a",
-   "title": "Police intercept alleged stolen Kenyan truck in Pallisa",
-   "url": "https://www.monitor.co.ug/uganda/news/national/police-intercept-alleged-stolen-kenyan-truck-in-pallisa-5592602",
-   "summary": "Police said the vehicle had previously been reported stolen in Kenya at Katmosi Police Station",
-   "kind": "item",
-   "source": "Daily Monitor (Uganda)",
-   "source_id": "np-monitor-ug",
-   "tier": 2,
-   "country": "UG",
-   "category": "press",
-   "segments": [
-    "city",
-    "bush",
-    "beach"
-   ],
-   "first_seen": "2026-09-12T15:53+03:00",
-   "published": "2026-09-12",
-   "verdict": "weak"
-  },
-  {
-   "score": 53.2,
-   "components": {
-    "tier": 20,
-    "category": 4,
-    "lead": 0.0,
-    "relevance": 0,
-    "freshness": 19.2,
-    "corroborated": 10
-   },
-   "keywords": [],
-   "shock_terms": [],
-   "dedupe_match": null,
-   "dedupe_similarity": 0.0,
-   "id": "61053f0a2533",
-   "title": "What kind of risks do concrete graves pose to our ecosystem?",
-   "url": "https://www.monitor.co.ug/uganda/news/national/what-kind-of-risks-do-concrete-graves-pose-to-our-ecosystem--5592586",
-   "summary": "Many families across the country bury their loved ones within homesteads, filling gardens and...",
-   "kind": "item",
-   "source": "Daily Monitor (Uganda)",
-   "source_id": "np-monitor-ug",
-   "tier": 2,
-   "country": "UG",
-   "category": "press",
-   "segments": [
-    "city",
-    "bush",
-    "beach"
-   ],
-   "first_seen": "2026-09-12T15:53+03:00",
-   "published": "2026-09-12",
-   "verdict": "weak"
-  },
-  {
-   "score": 53.2,
-   "components": {
-    "tier": 20,
-    "category": 4,
-    "lead": 0.0,
-    "relevance": 0,
-    "freshness": 19.2,
-    "corroborated": 10
-   },
-   "keywords": [],
-   "shock_terms": [],
-   "dedupe_match": null,
-   "dedupe_similarity": 0.0,
-   "id": "a91a780e0f12",
-   "title": "Govt warns poor business advice hurting Ugandan enterprises",
-   "url": "https://www.monitor.co.ug/uganda/news/national/govt-warns-poor-business-advice-hurting-ugandan-enterprises-5592640",
-   "summary": "Unqualified consultants blamed for business stagnation",
-   "kind": "item",
-   "source": "Daily Monitor (Uganda)",
-   "source_id": "np-monitor-ug",
-   "tier": 2,
-   "country": "UG",
    "category": "press",
    "segments": [
     "city",
