@@ -1,5 +1,14 @@
 window.EDITIONS = [
  {
+  "id": "pulse-2026-09-12-evening",
+  "date": "2026-09-12",
+  "dateDisplay": "Saturday, 12 September 2026",
+  "edition": "Evening Wrap",
+  "editionKey": "evening",
+  "summary": "1️⃣ NAIROBI'S CBD IS OUT OF BOUNDS TOMORROW. THE PROCESSION FORMS AT ALL SAINTS.",
+  "bodyHtml": "<p>🌆 <strong>EA HOSPITALITY PULSE — EVENING WRAP</strong><br>Saturday 12 September 2026</p>\n<p><strong>1️⃣ NAIROBI&#x27;S CBD IS OUT OF BOUNDS TOMORROW. THE PROCESSION FORMS AT ALL SAINTS.</strong></p>\n<p>Nairobi Regional Police Commander <strong>Issa Mohamud</strong> said tonight the Regional Security Committee has resolved that <strong>large political rallies will not be permitted around the CBD</strong> <strong>(The Star, 12 Sep 2026, 19:47 EAT)</strong>. The Linda Mwananchi rally runs anyway tomorrow — procession <strong>All Saints Cathedral → Jacaranda Grounds</strong> <strong>(The Standard, 12 Sep)</strong>. He cited &quot;credible information&quot; that groups may be mobilised &quot;to intimidate and confront rival groups&quot;, and named tourists among those he is protecting. In Embu today, <strong>one dead and six vehicles torched</strong> outside DP Kindiki&#x27;s UDA meeting <strong>(Daily Nation, 12 Sep)</strong>.</p>\n<p><span class=\"sowhat\">🎯 <strong>So what:</strong> All Saints is the CBD&#x27;s western edge — Serena, Norfolk, Upper Hill — and tomorrow is a Sunday check-out day. Tonight: reroute <strong>JKIA transfers off Uhuru Highway and Kenyatta Avenue</strong>, hand arriving guests a written route note, move F&amp;B and housekeeping shifts earlier. Kenya Met has rain over Nairobi <strong>13–17 Sep</strong> <strong>(via The Kenya Times, 11 Sep)</strong>; wet crowds disperse badly.</span><br><span class=\"tagline\">🏷 City | 🇰🇪 | Confirmed (directive) / Inference (transfer read) | impact:risk</span></p>\n<p><strong>2️⃣ BURIED IN THE SAME BRIEFING: 18 FOREIGN NATIONALS, ONE STATION.</strong></p>\n<p>Mohamud also disclosed that <strong>Central Police Station alone has recorded 18 cases of foreign nationals</strong> assaulted, robbed or threatened, <strong>11 already before court</strong> — Burundian, Chinese and Somali. A separate Kilimani file concerns threats circulated on social media. He set it against &quot;heightened tensions surrounding the presence of foreigners in some businesses&quot; <strong>(The Star, 12 Sep)</strong>, alongside reporting on a foreign-trader crackdown <strong>(The Standard, 12 Sep)</strong>.</p>\n<p><span class=\"sowhat\">🎯 <strong>So what:</strong> the state invoked visitor safety to restrict assembly and, in the same breath, put a figure on visitor-safety incidents. <strong>Central covers the CBD; Kilimani is serviced-apartment territory.</strong> Exposure lands on staff before guests — no solo closing shifts, no late cash runs, no unaccompanied journeys home this week for non-Kenyan payroll.</span><br><span class=\"tagline\">🏷 City | 🇰🇪 | Confirmed (police figures) | impact:risk</span></p>\n<p><strong>3️⃣ ✏️ CORRECTION — ZANZIBAR DID NOT COOL. IT SET A RECORD.</strong></p>\n<p>On <strong>5 September</strong> we said stress-test peak rates &quot;at three per cent, not nineteen&quot;. Wrong. OCGS reports <strong>124,481 arrivals in August — a record, +18.0%</strong>, Jan–Aug <strong>633,228</strong>, bed occupancy <strong>92.9%</strong>. <strong>Kenya is now the largest African source market at 7,911, up 75.2%</strong> <strong>(OCGS via The Citizen, 10 Sep)</strong>.</p>\n<p><span class=\"sowhat\">🎯 <strong>So what:</strong> June was a trough, not a trend. Reverse any Dec–Mar repricing done off our 5 September read, and chase that Kenyan 75.2% direct — it is short-haul and late-booking, and most properties still sell it through European operators at 20–25% commission.</span><br><span class=\"tagline\">🏷 Beach | 🇹🇿 | Confirmed | impact:demand</span></p>\n<p><strong>📻 STILL TRUE · WEEK AHEAD</strong><br>• <strong>Coast floods have landed</strong> in Mombasa and Kwale; <strong>no cancellations</strong> on Oct–Dec bookings <strong>(Daily Nation, 12 Sep)</strong>.<br>• <strong>Rwanda still denies entry</strong> to anyone in or transiting the DRC in the previous 30 days <strong>(Rwanda MoH, 22 May — re-checked today)</strong>.<br>• <strong>DRC Bundibugyo:</strong> 6,757 cases, CFR 48.3%, 61 health zones <strong>(WHO DON617, 7 Sep)</strong>. No case in KE, TZ or RW.<br>• <strong>Ahead:</strong> Kenya&#x27;s suspended US$50,000 insurance rule back in court <strong>16 Sep</strong>; EmpCo <strong>27 Sep</strong>; Africa MICE Summit, Mombasa, <strong>1–2 Oct</strong>.</p>\n<p>✅ <strong>No blind spots tonight</strong> — all 18 due primary sources reached and logged.</p>\n<p>🔗 This edition on the web: <a href=\"https://eahospitalitypulse.com/editions/pulse-2026-09-12-evening.html\" rel=\"noopener\">eahospitalitypulse.com/editions/pulse-2026-09-12-evenin…</a><br>💼 Today&#x27;s Big Read on LinkedIn: <a href=\"https://www.linkedin.com/company/ea-hospitality-pulse/\" rel=\"noopener\">linkedin.com/company/ea-hospitality-pulse/</a></p>"
+ },
+ {
   "id": "pulse-2026-09-11-morning",
   "date": "2026-09-11",
   "dateDisplay": "Friday, 11 September 2026",
@@ -874,6 +883,63 @@ window.EDITIONS = [
  }
 ];
 window.INSIGHTS = [
+ {
+  "headline": "NAIROBI'S CBD IS OUT OF BOUNDS TOMORROW. THE PROCESSION FORMS AT ALL SAINTS.",
+  "body": "Nairobi Regional Police Commander **Issa Mohamud** said tonight the Regional Security Committee has resolved that **large political rallies will not be permitted around the CBD** *(The Star, 12 Sep 2026, 19:47 EAT)*. The Linda Mwananchi rally runs anyway tomorrow — procession **All Saints Cathedral → Jacaranda Grounds** *(The Standard, 12 Sep)*. He cited \"credible information\" that groups may be mobilised \"to intimidate and confront rival groups\", and named tourists among those he is protecting. In Embu today, **one dead and six vehicles torched** outside DP Kindiki's UDA meeting *(Daily Nation, 12 Sep)*.",
+  "sowhat": "🎯 **So what:** All Saints is the CBD's western edge — Serena, Norfolk, Upper Hill — and tomorrow is a Sunday check-out day. Tonight: reroute **JKIA transfers off Uhuru Highway and Kenyatta Avenue**, hand arriving guests a written route note, move F&B and housekeeping shifts earlier. Kenya Met has rain over Nairobi **13–17 Sep** *(via The Kenya Times, 11 Sep)*; wet crowds disperse badly.",
+  "segments": [
+   "city"
+  ],
+  "countries": "🇰🇪",
+  "confidence": "Confirmed (directive) / Inference (transfer read)",
+  "impact": "risk",
+  "impactClass": "risk",
+  "intensity": 3,
+  "impactSet": "author",
+  "source": "pulse-2026-09-12-evening",
+  "date": "2026-09-12",
+  "dateDisplay": "Saturday, 12 September 2026",
+  "edition": "Evening Wrap",
+  "editionKey": "evening"
+ },
+ {
+  "headline": "BURIED IN THE SAME BRIEFING: 18 FOREIGN NATIONALS, ONE STATION.",
+  "body": "Mohamud also disclosed that **Central Police Station alone has recorded 18 cases of foreign nationals** assaulted, robbed or threatened, **11 already before court** — Burundian, Chinese and Somali. A separate Kilimani file concerns threats circulated on social media. He set it against \"heightened tensions surrounding the presence of foreigners in some businesses\" *(The Star, 12 Sep)*, alongside reporting on a foreign-trader crackdown *(The Standard, 12 Sep)*.",
+  "sowhat": "🎯 **So what:** the state invoked visitor safety to restrict assembly and, in the same breath, put a figure on visitor-safety incidents. **Central covers the CBD; Kilimani is serviced-apartment territory.** Exposure lands on staff before guests — no solo closing shifts, no late cash runs, no unaccompanied journeys home this week for non-Kenyan payroll.",
+  "segments": [
+   "city"
+  ],
+  "countries": "🇰🇪",
+  "confidence": "Confirmed (police figures)",
+  "impact": "risk",
+  "impactClass": "risk",
+  "intensity": 3,
+  "impactSet": "author",
+  "source": "pulse-2026-09-12-evening",
+  "date": "2026-09-12",
+  "dateDisplay": "Saturday, 12 September 2026",
+  "edition": "Evening Wrap",
+  "editionKey": "evening"
+ },
+ {
+  "headline": "✏️ CORRECTION — ZANZIBAR DID NOT COOL. IT SET A RECORD.",
+  "body": "On **5 September** we said stress-test peak rates \"at three per cent, not nineteen\". Wrong. OCGS reports **124,481 arrivals in August — a record, +18.0%**, Jan–Aug **633,228**, bed occupancy **92.9%**. **Kenya is now the largest African source market at 7,911, up 75.2%** *(OCGS via The Citizen, 10 Sep)*.",
+  "sowhat": "🎯 **So what:** June was a trough, not a trend. Reverse any Dec–Mar repricing done off our 5 September read, and chase that Kenyan 75.2% direct — it is short-haul and late-booking, and most properties still sell it through European operators at 20–25% commission.",
+  "segments": [
+   "beach"
+  ],
+  "countries": "🇹🇿",
+  "confidence": "Confirmed",
+  "impact": "+demand",
+  "impactClass": "demand",
+  "intensity": 3,
+  "impactSet": "author",
+  "source": "pulse-2026-09-12-evening",
+  "date": "2026-09-12",
+  "dateDisplay": "Saturday, 12 September 2026",
+  "edition": "Evening Wrap",
+  "editionKey": "evening"
+ },
  {
   "headline": "FOUR STATISTICS OFFICES. ONE FINDING. YOUR BIGGEST INPUT IS INFLATING UP TO FIVE TIMES FASTER THAN YOUR ROOM RATE.",
   "body": "All four August CPI releases are now out. Read side by side — which almost nobody does — they say the same thing. **Transport inflation, annual: Kenya 15.7% · Rwanda 24.2% · Tanzania 13.8% · Uganda 9.4%.** Restaurants-and-accommodation in the same releases: **Kenya 3.0% · Tanzania 3.0% · Uganda 2.5% · Rwanda 15.6%** *(KNBS 31 Aug; NISR 10 Sep, urban; NBS TZ 8 Sep; UBOS Aug 2026)*. Kenyan transport is running **5.2× the hospitality line**. Tanzania 4.6×. Uganda 3.8×. That second line is effectively the official record of what the trade has managed to charge — so four governments have independently documented the same squeeze.",
@@ -4233,4 +4299,4 @@ window.INSIGHTS = [
   "editionKey": "evening"
  }
 ];
-window.BUILT_AT = "2026-09-11 06:21";
+window.BUILT_AT = "2026-09-12 20:58";

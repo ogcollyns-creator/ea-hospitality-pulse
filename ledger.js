@@ -1,13 +1,13 @@
 window.LEDGER = {
- "updated": "2026-09-11 06:22",
+ "updated": "2026-09-12 20:58",
  "stats": {
-  "total": 174,
-  "open": 140,
-  "resolved": 33,
-  "correct": 25,
+  "total": 177,
+  "open": 142,
+  "resolved": 34,
+  "correct": 26,
   "partial": 1,
   "incorrect": 7,
-  "accuracy": 77
+  "accuracy": 78
  },
  "open": [
   {
@@ -24,7 +24,7 @@ window.LEDGER = {
    "resolved_date": "",
    "evidence": "",
    "source_url": "https://www.cdc.gov/port-health/legal-authorities/evdorder.html",
-   "overdue": false
+   "overdue": true
   },
   {
    "id": "P007",
@@ -152,6 +152,22 @@ window.LEDGER = {
    "resolved_date": "",
    "evidence": "",
    "source_url": "https://wwwnc.cdc.gov/travel/notices",
+   "overdue": false
+  },
+  {
+   "id": "P174",
+   "made_date": "2026-09-12",
+   "edition": "Evening Wrap",
+   "claim": "The Linda Mwananchi rally of Sunday 13 September 2026 will proceed at Jacaranda Grounds and will NOT result in a Nairobi CBD curfew or a formal government-ordered business closure of the CBD on 13 or 14 September 2026 - police have restricted assembly, not movement",
+   "resolution_criteria": "Kenyan national press (Nation, Standard, Star, Citizen Digital) or a National Police Service / Ministry of Interior statement published on or before 15 Sep 2026. A gazetted or announced curfew covering Nairobi CBD, or an order closing CBD businesses, on 13 or 14 Sep makes the call INCORRECT. Rally cancellation by organisers also makes it incorrect",
+   "resolve_by": "2026-09-15",
+   "market": "KE",
+   "segment": "City",
+   "confidence": "Reported",
+   "status": "open",
+   "resolved_date": "",
+   "evidence": "",
+   "source_url": "https://www.standardmedia.co.ke/politics/article/2001557643/police-to-restrict-access-to-cbd-during-linda-mwananchi-nairobi-rally",
    "overdue": false
   },
   {
@@ -475,6 +491,22 @@ window.LEDGER = {
    "overdue": false
   },
   {
+   "id": "P176",
+   "made_date": "2026-09-12",
+   "edition": "Evening Wrap",
+   "claim": "Kenya's Ministry of Tourism, Kenya Tourism Board or Tourism Regulatory Authority will NOT issue any public statement or advisory addressing the safety of foreign nationals in Nairobi on or before 30 September 2026, despite the Nairobi police commander disclosing 18 such cases at Central Police Station on 12 Sep 2026 - the file is being handled as policing, not as destination reputation",
+   "resolution_criteria": "Search tourism.go.ke, ktb.go.ke, tra.go.ke and Kenyan national press to 30 Sep 2026. Any dated statement, advisory or press release from those three bodies specifically addressing foreign-national or visitor safety in Nairobi resolves the call INCORRECT. Silence resolves it CORRECT",
+   "resolve_by": "2026-09-30",
+   "market": "KE",
+   "segment": "City",
+   "confidence": "Inference",
+   "status": "open",
+   "resolved_date": "",
+   "evidence": "",
+   "source_url": "https://www.the-star.co.ke/news/2026-09-12-police-bar-large-political-rallies-from-nairobi-cbd",
+   "overdue": false
+  },
+  {
    "id": "P110",
    "made_date": "2026-08-22",
    "edition": "pulse-2026-08-22-evening",
@@ -536,22 +568,6 @@ window.LEDGER = {
    "resolved_date": "",
    "evidence": "PREMISE CONFIRMED, NOT YET RESOLVED (11 Sep 2026). KNBS August 2026 Transport division inflation printed 15.7% y/y (release 31 Aug 2026), as the claim states. The call turns on the SEPTEMBER release (~30 Sep 2026), which is not yet published. Holding open.",
    "source_url": "https://www.knbs.or.ke/wp-content/uploads/2026/08/Kenya-Consumer-Price-Indices-and-Inflation-Rates-August-2026.pdf",
-   "overdue": false
-  },
-  {
-   "id": "P170",
-   "made_date": "2026-09-10",
-   "edition": "Morning Brief",
-   "claim": "WHO will publish a new Disease Outbreak News on the DRC Bundibugyo outbreak on or before 15 October 2026 reporting more than 6,000 cumulative confirmed cases in DRC — the last DON (614, 1 Aug) carried 3,605 while the DRC's own SitRep 116 of 8 Sep already reports 6,686",
-   "resolution_criteria": "Read who.int/emergencies/disease-outbreak-news on 15 Oct 2026. If no new DRC Bundibugyo DON has been published since DON614, or the newest one reports 6,000 or fewer cumulative confirmed DRC cases, the call is incorrect",
-   "resolve_by": "2026-10-15",
-   "market": "UG/RW",
-   "segment": "Bush/City",
-   "confidence": "Confirmed",
-   "status": "open",
-   "resolved_date": "",
-   "evidence": "PREMISE CORRECTED 10 Sep 2026 evening: the claim was built on the false belief that DON614 (1 Aug) was WHO's latest DON. DON615 published 14 Aug (4,665 cases to 12 Aug) and DON616 followed (5,794 cases to 26 Aug). Left OPEN on its literal wording - resolution now turns on whether a DON published by 15 Oct 2026 reports more than 6,000 cumulative DRC cases. DON616's 5,794 does not clear the bar; a DON617 could.",
-   "source_url": "https://www.who.int/emergencies/disease-outbreak-news/item/2026-DON616",
    "overdue": false
   },
   {
@@ -808,6 +824,22 @@ window.LEDGER = {
    "resolved_date": "",
    "evidence": "",
    "source_url": "https://www.who.int/emergencies/disease-outbreak-news/item/2026-DON616",
+   "overdue": false
+  },
+  {
+   "id": "P175",
+   "made_date": "2026-09-12",
+   "edition": "Evening Wrap",
+   "claim": "Zanzibar will record more than 700,000 cumulative international arrivals for January-September 2026 in the next OCGS monthly release - Jan-Aug stands at 633,228 and September has not fallen below 67,000 in the 2026 series",
+   "resolution_criteria": "The OCGS monthly tourism arrivals release covering September 2026 (or its reporting in The Citizen, Daily News or zanzibarism.com) published on or before 31 Oct 2026 shows cumulative Jan-Sep international arrivals above 700,000. A figure of 700,000 or below makes the call INCORRECT",
+   "resolve_by": "2026-10-31",
+   "market": "TZ",
+   "segment": "Beach",
+   "confidence": "Confirmed",
+   "status": "open",
+   "resolved_date": "",
+   "evidence": "",
+   "source_url": "https://www.thecitizen.co.tz/tanzania/zanzibar/zanzibar-tourism-arrivals-hit-record-124-481-in-august-5590494",
    "overdue": false
   },
   {
@@ -2252,6 +2284,22 @@ window.LEDGER = {
   }
  ],
  "resolved": [
+  {
+   "id": "P170",
+   "made_date": "2026-09-10",
+   "edition": "Morning Brief",
+   "claim": "WHO will publish a new Disease Outbreak News on the DRC Bundibugyo outbreak on or before 15 October 2026 reporting more than 6,000 cumulative confirmed cases in DRC — the last DON (614, 1 Aug) carried 3,605 while the DRC's own SitRep 116 of 8 Sep already reports 6,686",
+   "resolution_criteria": "Read who.int/emergencies/disease-outbreak-news on 15 Oct 2026. If no new DRC Bundibugyo DON has been published since DON614, or the newest one reports 6,000 or fewer cumulative confirmed DRC cases, the call is incorrect",
+   "resolve_by": "2026-10-15",
+   "market": "UG/RW",
+   "segment": "Bush/City",
+   "confidence": "Confirmed",
+   "status": "correct",
+   "resolved_date": "2026-09-12",
+   "evidence": "RESOLVED CORRECT. WHO DON617 published 7 Sep 2026 - before the 15 Oct 2026 resolve_by - reports 6,757 cumulative confirmed DRC Bundibugyo cases and 3,267 deaths (CFR 48.3%) as at 7 Sep, clearing the stated 6,000 bar. Verified on the 12 Sep evening sweep.",
+   "source_url": "https://www.who.int/emergencies/disease-outbreak-news/item/2026-DON617",
+   "overdue": false
+  },
   {
    "id": "P042",
    "made_date": "2026-08-01",
