@@ -1,5 +1,14 @@
 window.EDITIONS = [
  {
+  "id": "foresight-2026-09-13",
+  "date": "2026-09-13",
+  "dateDisplay": "Sunday, 13 September 2026",
+  "edition": "Sunday Foresight",
+  "editionKey": "foresight",
+  "summary": "Uganda is Ebola-free and still banned. On 11 September the reason changed — and the new one has no exit.",
+  "bodyHtml": "<p><span class=\"meta-line\">🏨 EA HOSPITALITY PULSE — Sunday Foresight</span><br><span class=\"meta-line\">📅 Sunday, 13 September 2026 | 🇰🇪 🇺🇬 🇹🇿 🇷🇼</span></p>\n<p><strong>Uganda is Ebola-free and still banned. On 11 September the reason changed — and the new one has no exit.</strong></p>\n<p>Every US order against Uganda since May rested on a fact: the disease was there. Clear it, clear the order. Friday&#x27;s order says otherwise — Ebola is &quot;recently present in Uganda,&quot; with &quot;a material risk that the outbreak will spread… <strong>again to Uganda</strong>.&quot; Uganda is now listed for what might happen to it. There is no 42-day countdown for that.</p>\n<p><strong>What everyone is missing.</strong> A health renewal, a Kenya footnote, two inflation prints and a record month in Zanzibar share one mechanism: provenance. Demand routed through a foreign risk framework is priced on forecasts you cannot falsify; demand routed inside the region is priced on your own cost base — which is why the cheapest cost base set the record. The bill is contractual: you are signing 2027 dollar rates against a designation with no forecastable expiry and a cost base moving at 4.3% to 15.7%. An indexation problem, not a rate negotiation.<br>━━━━━━━━━<br><strong>THE WEEK&#x27;S SIGNALS</strong></p>\n<p><span class=\"item-head\">1️⃣ EXCLUSIVE — CDC CONCEDED UGANDA IS CLEAN AND KEPT IT BANNED</span><br>Fifth 30-day Title 42 order, issued 11 Sep 2026, running to ~11 Oct (CDC port-health PDF, read in full; not yet in the Federal Register). It records Uganda&#x27;s 27 Aug all-clear, then keeps it listed on prospective re-importation grounds. DRC: 6,779 confirmed, 3,267 deaths, 61 health zones at 9 Sep — from 4,318 / 2,011 / 41 a month earlier.<br><span class=\"sowhat\">🎯 So what: stop quoting a recovery date. Re-paper Q4 and 2027 so re-book-not-refund triggers on <strong>designation</strong>, not outbreak.</span><br><span class=\"tagline\">🏷 Bush, City | 🇺🇬 | Confirmed (primary) | impact:risk</span></p>\n<p><span class=\"item-head\">2️⃣ NAIROBI IS NAMED IN A US ENTRY RESTRICTION</span><br>The same order lists NBO and Addis Bole among hubs whose US connectivity creates a pathway for an asymptomatic case. Kenya is not restricted. It is characterised.<br><span class=\"sowhat\">🎯 So what: risk teams read these documents. Put JKIA&#x27;s naming in your own annexe, dated — a conduit you disclose beats one they find.</span><br><span class=\"tagline\">🏷 City, Beach | 🇰🇪 | Confirmed (primary) / Inference (ours) | impact:risk</span></p>\n<p><span class=\"item-head\">3️⃣ ELEVEN POINTS OF INFLATION SEPARATE TWO NEIGHBOURS</span><br>Rwanda&#x27;s August headline printed 15.7% (NISR, ~10 Sep): restaurants and hotels +15.6% y/y, utilities +20.4%, transport +24.2%. Tanzania printed 4.3% (NBS, 8 Sep); Kenya 6.6%; Uganda 4.1%.<br><span class=\"sowhat\">🎯 So what: Kigali — reopen every 2027 dollar rate agreed before this print. Your cost line moved 15.6%; your contract moved zero.</span><br><span class=\"tagline\">🏷 City, Bush | 🇷🇼 🇹🇿 🇰🇪 🇺🇬 | Confirmed (figures) | impact:margin</span></p>\n<p><span class=\"item-head\">4️⃣ ZANZIBAR&#x27;S RECORD CAME THROUGH THE REGIONAL DOOR</span><br>OCGS August: 124,481 arrivals, +18% on August 2025, at 92.9% bed occupancy. Europe fell to 58.1%. Of 114,553 air arrivals, <strong>39,339 came on domestic flights from the mainland</strong>.<br><span class=\"sowhat\">🎯 So what: 92.9% is capacity, not pricing. Sell length-of-stay into Sep–Nov; defend mainland air allocation first.</span><br><span class=\"tagline\">🏷 Beach, City | 🇹🇿 | Confirmed (figures) | impact:demand</span><br>━━━━━━━━━<br><span class=\"meta-line\">📡 30/90-DAY DEMAND CALENDAR</span></p>\n<p>🇰🇪 14–15 Sep — EPRA review. Brent closed $101.21 on 9 Sep, highest since May. Nairobi diesel is KSh217.86; refuse surcharges until it lands.<br>🇺🇬 25–27 Sep — UWA Open Park Days; Bwindi, Mgahinga, Kibale excluded. Sources conflict on game drives — get the scope in writing.<br>🇰🇪 1–2 Oct — Africa MICE Summit, <strong>Mombasa</strong>, not Nairobi. Coast hotels: compression.<br>🌍 ~11 Oct — the CDC order lapses or renews. The real date behind Uganda&#x27;s recovery.</p>\n<p>If your recovery date sits in a document you have never read, whose date is it?</p>\n<p>🔗 This edition on the web: <a href=\"https://eahospitalitypulse.com/editions/foresight-2026-09-13.html\" rel=\"noopener\">eahospitalitypulse.com/editions/foresight-2026-09-13.html</a><br>💼 This week&#x27;s Big Read on LinkedIn: <a href=\"https://www.linkedin.com/company/ea-hospitality-pulse/\" rel=\"noopener\">linkedin.com/company/ea-hospitality-pulse/</a><br>— EA Hospitality Pulse | Daily intelligence for city, bush &amp; beach properties</p>"
+ },
+ {
   "id": "pulse-2026-09-12-evening",
   "date": "2026-09-12",
   "dateDisplay": "Saturday, 12 September 2026",
@@ -883,6 +892,86 @@ window.EDITIONS = [
  }
 ];
 window.INSIGHTS = [
+ {
+  "headline": "EXCLUSIVE — CDC CONCEDED UGANDA IS CLEAN AND KEPT IT BANNED",
+  "body": "Fifth 30-day Title 42 order, issued 11 Sep 2026, running to ~11 Oct (CDC port-health PDF, read in full; not yet in the Federal Register). It records Uganda's 27 Aug all-clear, then keeps it listed on prospective re-importation grounds. DRC: 6,779 confirmed, 3,267 deaths, 61 health zones at 9 Sep — from 4,318 / 2,011 / 41 a month earlier.",
+  "sowhat": "🎯 So what: stop quoting a recovery date. Re-paper Q4 and 2027 so re-book-not-refund triggers on *designation*, not outbreak.",
+  "segments": [
+   "city",
+   "bush"
+  ],
+  "countries": "🇺🇬",
+  "confidence": "Confirmed (primary)",
+  "impact": "risk",
+  "impactClass": "risk",
+  "intensity": 3,
+  "impactSet": "author",
+  "source": "foresight-2026-09-13",
+  "date": "2026-09-13",
+  "dateDisplay": "Sunday, 13 September 2026",
+  "edition": "Sunday Foresight",
+  "editionKey": "foresight"
+ },
+ {
+  "headline": "NAIROBI IS NAMED IN A US ENTRY RESTRICTION",
+  "body": "The same order lists NBO and Addis Bole among hubs whose US connectivity creates a pathway for an asymptomatic case. Kenya is not restricted. It is characterised.",
+  "sowhat": "🎯 So what: risk teams read these documents. Put JKIA's naming in your own annexe, dated — a conduit you disclose beats one they find.",
+  "segments": [
+   "city",
+   "beach"
+  ],
+  "countries": "🇰🇪",
+  "confidence": "Confirmed (primary) / Inference (ours)",
+  "impact": "risk",
+  "impactClass": "risk",
+  "intensity": 3,
+  "impactSet": "author",
+  "source": "foresight-2026-09-13",
+  "date": "2026-09-13",
+  "dateDisplay": "Sunday, 13 September 2026",
+  "edition": "Sunday Foresight",
+  "editionKey": "foresight"
+ },
+ {
+  "headline": "ELEVEN POINTS OF INFLATION SEPARATE TWO NEIGHBOURS",
+  "body": "Rwanda's August headline printed 15.7% (NISR, ~10 Sep): restaurants and hotels +15.6% y/y, utilities +20.4%, transport +24.2%. Tanzania printed 4.3% (NBS, 8 Sep); Kenya 6.6%; Uganda 4.1%.",
+  "sowhat": "🎯 So what: Kigali — reopen every 2027 dollar rate agreed before this print. Your cost line moved 15.6%; your contract moved zero.",
+  "segments": [
+   "city",
+   "bush"
+  ],
+  "countries": "🇷🇼 🇹🇿 🇰🇪 🇺🇬",
+  "confidence": "Confirmed (figures)",
+  "impact": "-margin",
+  "impactClass": "margin",
+  "intensity": 3,
+  "impactSet": "author",
+  "source": "foresight-2026-09-13",
+  "date": "2026-09-13",
+  "dateDisplay": "Sunday, 13 September 2026",
+  "edition": "Sunday Foresight",
+  "editionKey": "foresight"
+ },
+ {
+  "headline": "ZANZIBAR'S RECORD CAME THROUGH THE REGIONAL DOOR",
+  "body": "OCGS August: 124,481 arrivals, +18% on August 2025, at 92.9% bed occupancy. Europe fell to 58.1%. Of 114,553 air arrivals, **39,339 came on domestic flights from the mainland**.",
+  "sowhat": "🎯 So what: 92.9% is capacity, not pricing. Sell length-of-stay into Sep–Nov; defend mainland air allocation first.",
+  "segments": [
+   "city",
+   "beach"
+  ],
+  "countries": "🇹🇿",
+  "confidence": "Confirmed (figures)",
+  "impact": "+demand",
+  "impactClass": "demand",
+  "intensity": 3,
+  "impactSet": "author",
+  "source": "foresight-2026-09-13",
+  "date": "2026-09-13",
+  "dateDisplay": "Sunday, 13 September 2026",
+  "edition": "Sunday Foresight",
+  "editionKey": "foresight"
+ },
  {
   "headline": "NAIROBI'S CBD IS OUT OF BOUNDS TOMORROW. THE PROCESSION FORMS AT ALL SAINTS.",
   "body": "Nairobi Regional Police Commander **Issa Mohamud** said tonight the Regional Security Committee has resolved that **large political rallies will not be permitted around the CBD** *(The Star, 12 Sep 2026, 19:47 EAT)*. The Linda Mwananchi rally runs anyway tomorrow — procession **All Saints Cathedral → Jacaranda Grounds** *(The Standard, 12 Sep)*. He cited \"credible information\" that groups may be mobilised \"to intimidate and confront rival groups\", and named tourists among those he is protecting. In Embu today, **one dead and six vehicles torched** outside DP Kindiki's UDA meeting *(Daily Nation, 12 Sep)*.",
@@ -4299,4 +4388,4 @@ window.INSIGHTS = [
   "editionKey": "evening"
  }
 ];
-window.BUILT_AT = "2026-09-12 17:59";
+window.BUILT_AT = "2026-09-13 18:14";
