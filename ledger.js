@@ -1,8 +1,8 @@
 window.LEDGER = {
- "updated": "2026-09-13 15:16",
+ "updated": "2026-09-13 22:23",
  "stats": {
-  "total": 177,
-  "open": 130,
+  "total": 179,
+  "open": 132,
   "resolved": 46,
   "correct": 37,
   "partial": 1,
@@ -395,6 +395,22 @@ window.LEDGER = {
    "overdue": false
   },
   {
+   "id": "P177",
+   "made_date": "2026-09-13",
+   "edition": "Evening Wrap",
+   "claim": "The CDC Title 42 Ebola entry order signed 11 September 2026 will be continued again on or about 11 October 2026 with UGANDA still named alongside DRC and South Sudan - the order's own release condition is DRC-side contact tracing at ~87% against a stated 95% operational threshold, and its determination cites a material risk the outbreak spreads 'again to Uganda'",
+   "resolution_criteria": "Read cdc.gov/port-health/legal-authorities/evdorder.html and the Federal Register on 20 Oct 2026. A further Order issued on or about 11 Oct 2026 that still applies to persons present in Uganda in the prior 21 days resolves the call CORRECT. An order that drops Uganda, or a lapse with no successor order, resolves it INCORRECT",
+   "resolve_by": "2026-10-20",
+   "market": "UG|RW|KE",
+   "segment": "Bush|City",
+   "confidence": "Confirmed",
+   "status": "open",
+   "resolved_date": "",
+   "evidence": "",
+   "source_url": "https://www.cdc.gov/port-health/media/pdfs/2026/09/September-T42-Order_clean_10Sept26.pdf",
+   "overdue": false
+  },
+  {
    "id": "P041",
    "made_date": "2026-07-31",
    "edition": "Morning Brief",
@@ -648,6 +664,22 @@ window.LEDGER = {
    "resolved_date": "",
    "evidence": "",
    "source_url": "https://www.thecitizen.co.tz/tanzania/zanzibar/zanzibar-tourism-arrivals-hit-record-124-481-in-august-5590494",
+   "overdue": false
+  },
+  {
+   "id": "P178",
+   "made_date": "2026-09-13",
+   "edition": "Evening Wrap",
+   "claim": "WHO will NOT add South-Ubangi to the official list of DRC provinces affected by the Bundibugyo outbreak on or before 31 October 2026 - the acting governor's 11 Sep case is an imported death with no confirmed local transmission, and 38 contacts were quarantined immediately",
+   "resolution_criteria": "Read WHO Disease Outbreak News and WHO AFRO DRC situation reports published on or before 31 Oct 2026. Any WHO product listing South-Ubangi (Sud-Ubangi) among the affected provinces resolves the call INCORRECT. Continued listing of six eastern provinces only resolves it CORRECT",
+   "resolve_by": "2026-10-31",
+   "market": "RW|UG",
+   "segment": "Bush|City",
+   "confidence": "Reported",
+   "status": "open",
+   "resolved_date": "",
+   "evidence": "",
+   "source_url": "https://www.aljazeera.com/news/2026/9/11/ebola-case-detected-in-seventh-dr-congo-province",
    "overdue": false
   },
   {

@@ -1,5 +1,14 @@
 window.EDITIONS = [
  {
+  "id": "pulse-2026-09-13-evening",
+  "date": "2026-09-13",
+  "dateDisplay": "Sunday, 13 September 2026",
+  "edition": "Evening Wrap",
+  "editionKey": "evening",
+  "summary": "This morning we said Washington now lists Uganda for what might happen. Tonight: a case has already made that journey.",
+  "bodyHtml": "<p><span class=\"meta-line\">🏨 EA HOSPITALITY PULSE — Evening Wrap</span><br><span class=\"meta-line\">📅 Sunday, 13 September 2026 | 🇰🇪 🇺🇬 🇷🇼</span></p>\n<p>This morning we said Washington now lists Uganda for what <strong>might</strong> happen. Tonight: a case has already made that journey.<br>━━━━━━━━━<br><strong>1️⃣ THE CORRIDOR WASHINGTON WARNED ABOUT HAS ALREADY BEEN TRAVELLED — RWANDA, THEN UGANDA</strong></p>\n<p>On the same day the CDC signed the order keeping Uganda listed, South-Ubangi&#x27;s acting governor Jean-René Galekwa Vundawe confirmed Ebola in a seventh DRC province — the first in <strong>western</strong> Congo. The patient had travelled through <strong>Rwanda, Uganda</strong> and Ituri, developed symptoms in Kisangani, then took a Congo River boat. He died. 38 contacts are quarantined <strong>(AFP/AP/Reuters via Al Jazeera, 11 September 2026)</strong>.</p>\n<p><strong>The sequence is the whole story, and it runs the other way to the headline.</strong> CDC&#x27;s own order states infected people &quot;do not spread the virus until symptoms begin&quot;. Onset was in Kisangani — <strong>after</strong> the East African legs. On the published evidence this case exposed nobody in Kigali or Entebbe.</p>\n<p><span class=\"sowhat\">🎯 <strong>So what:</strong> an agent will ask you about this by Tuesday. Answer with the sequence, not a shrug — vague reassurance reads as concealment, precision reads as competence. And note what the map now shows: our morning read said Uganda was listed for a prospective risk. That risk has a route, and it has been used.</span><br><span class=\"tagline\">🏷 Bush, City | 🇷🇼 🇺🇬 | Confirmed | impact:risk</span></p>\n<p><strong>2️⃣ FRANCE HAS PUT TODAY&#x27;S NAIROBI RALLY IN ITS TRAVEL ADVICE — AND DATED THE RISK TO AUGUST 2027</strong></p>\n<p>France Diplomatie now carries today&#x27;s gathering by name in its <strong>Dernières minutes</strong> and frames Kenya as in an <strong>active pre-electoral situation</strong> ahead of the 10 August 2027 general election, warning that mobilisation in this period can produce blockages, disruption and sometimes fatal violence <strong>(read 13 September 2026)</strong>. The rally itself passed off: Jacaranda Grounds filled to capacity, the CBD bar on large gatherings held, no curfew <strong>(The Star / People Daily, 13 September)</strong>.</p>\n<p><span class=\"sowhat\">🎯 <strong>So what:</strong> this is the first G7 advisory to put an <strong>11-month horizon</strong> on Kenyan political risk. Your Nairobi narrative stops being a weekend inconvenience and becomes a 2027 planning assumption. Build rally weekends into CBD group contracts now, with access clauses, rather than renegotiating each time.</span><br><span class=\"tagline\">🏷 City | 🇰🇪 | Confirmed | impact:risk</span></p>\n<p><strong>3️⃣ GERMANY IS WARNING ON LAIKIPIA LODGES. NOBODY ELSE IS.</strong></p>\n<p>The Auswärtiges Amt Kenya page warns that grazing and land-rights conflicts in <strong>Laikipia</strong> and neighbouring counties are increasing, with violent clashes and <strong>attacks on farms and lodges</strong>. No other G7 advisory we track names lodges. Germany also warns on Baringo, West Pokot, Turkana and northern Tana River <strong>including the A3 trunk road</strong>, and advises against non-essential travel to Lamu and Manda Islands — which the UK expressly exempts.</p>\n<p><span class=\"sowhat\">🎯 <strong>So what:</strong> if you sell Laikipia into the German market, your DMC has read this and you probably haven&#x27;t. Ask your conservancy for its current security posture in writing this week, and hold it ready — German operators ask for documents, not assurances.</span><br><span class=\"tagline\">🏷 Bush | 🇰🇪 | Confirmed | impact:risk</span><br>━━━━━━━━━<br>🔎 <strong>Declared blind spots:</strong> no current-week Africa CDC figures (September bulletin unindexed after three queries) and no current Zanzibar health-ministry position (site dark). Both scanned, neither recovered. UK and French pages were cleared by web scan, not a page read — browser access was unavailable this run.</p>\n<p><span class=\"meta-line\">💬 Which of your source markets would notice the Laikipia line first?</span></p>\n<p>🔗 This edition on the web: <a href=\"https://eahospitalitypulse.com/editions/pulse-2026-09-13-evening.html\" rel=\"noopener\">eahospitalitypulse.com/editions/pulse-2026-09-13-evenin…</a><br>💼 Today&#x27;s Big Read on LinkedIn: <a href=\"https://www.linkedin.com/company/ea-hospitality-pulse/\" rel=\"noopener\">linkedin.com/company/ea-hospitality-pulse/</a><br>— EA Hospitality Pulse | Daily intelligence for city, bush &amp; beach properties</p>"
+ },
+ {
   "id": "foresight-2026-09-13",
   "date": "2026-09-13",
   "dateDisplay": "Sunday, 13 September 2026",
@@ -892,6 +901,64 @@ window.EDITIONS = [
  }
 ];
 window.INSIGHTS = [
+ {
+  "headline": "THE CORRIDOR WASHINGTON WARNED ABOUT HAS ALREADY BEEN TRAVELLED — RWANDA, THEN UGANDA",
+  "body": "On the same day the CDC signed the order keeping Uganda listed, South-Ubangi's acting governor Jean-René Galekwa Vundawe confirmed Ebola in a seventh DRC province — the first in *western* Congo. The patient had travelled through **Rwanda, Uganda** and Ituri, developed symptoms in Kisangani, then took a Congo River boat. He died. 38 contacts are quarantined *(AFP/AP/Reuters via Al Jazeera, 11 September 2026)*. **The sequence is the whole story, and it runs the other way to the headline.** CDC's own order states infected people \"do not spread the virus until symptoms begin\". Onset was in Kisangani — *after* the East African legs. On the published evidence this case exposed nobody in Kigali or Entebbe.",
+  "sowhat": "🎯 **So what:** an agent will ask you about this by Tuesday. Answer with the sequence, not a shrug — vague reassurance reads as concealment, precision reads as competence. And note what the map now shows: our morning read said Uganda was listed for a prospective risk. That risk has a route, and it has been used.",
+  "segments": [
+   "city",
+   "bush"
+  ],
+  "countries": "🇷🇼 🇺🇬",
+  "confidence": "Confirmed",
+  "impact": "risk",
+  "impactClass": "risk",
+  "intensity": 3,
+  "impactSet": "author",
+  "source": "pulse-2026-09-13-evening",
+  "date": "2026-09-13",
+  "dateDisplay": "Sunday, 13 September 2026",
+  "edition": "Evening Wrap",
+  "editionKey": "evening"
+ },
+ {
+  "headline": "FRANCE HAS PUT TODAY'S NAIROBI RALLY IN ITS TRAVEL ADVICE — AND DATED THE RISK TO AUGUST 2027",
+  "body": "France Diplomatie now carries today's gathering by name in its *Dernières minutes* and frames Kenya as in an **active pre-electoral situation** ahead of the 10 August 2027 general election, warning that mobilisation in this period can produce blockages, disruption and sometimes fatal violence *(read 13 September 2026)*. The rally itself passed off: Jacaranda Grounds filled to capacity, the CBD bar on large gatherings held, no curfew *(The Star / People Daily, 13 September)*.",
+  "sowhat": "🎯 **So what:** this is the first G7 advisory to put an **11-month horizon** on Kenyan political risk. Your Nairobi narrative stops being a weekend inconvenience and becomes a 2027 planning assumption. Build rally weekends into CBD group contracts now, with access clauses, rather than renegotiating each time.",
+  "segments": [
+   "city"
+  ],
+  "countries": "🇰🇪",
+  "confidence": "Confirmed",
+  "impact": "risk",
+  "impactClass": "risk",
+  "intensity": 3,
+  "impactSet": "author",
+  "source": "pulse-2026-09-13-evening",
+  "date": "2026-09-13",
+  "dateDisplay": "Sunday, 13 September 2026",
+  "edition": "Evening Wrap",
+  "editionKey": "evening"
+ },
+ {
+  "headline": "GERMANY IS WARNING ON LAIKIPIA LODGES. NOBODY ELSE IS.",
+  "body": "The Auswärtiges Amt Kenya page warns that grazing and land-rights conflicts in **Laikipia** and neighbouring counties are increasing, with violent clashes and **attacks on farms and lodges**. No other G7 advisory we track names lodges. Germany also warns on Baringo, West Pokot, Turkana and northern Tana River **including the A3 trunk road**, and advises against non-essential travel to Lamu and Manda Islands — which the UK expressly exempts.",
+  "sowhat": "🎯 **So what:** if you sell Laikipia into the German market, your DMC has read this and you probably haven't. Ask your conservancy for its current security posture in writing this week, and hold it ready — German operators ask for documents, not assurances.",
+  "segments": [
+   "bush"
+  ],
+  "countries": "🇰🇪",
+  "confidence": "Confirmed",
+  "impact": "risk",
+  "impactClass": "risk",
+  "intensity": 3,
+  "impactSet": "author",
+  "source": "pulse-2026-09-13-evening",
+  "date": "2026-09-13",
+  "dateDisplay": "Sunday, 13 September 2026",
+  "edition": "Evening Wrap",
+  "editionKey": "evening"
+ },
  {
   "headline": "EXCLUSIVE — CDC CONCEDED UGANDA IS CLEAN AND KEPT IT BANNED",
   "body": "Fifth 30-day Title 42 order, issued 11 Sep 2026, running to ~11 Oct (CDC port-health PDF, read in full; not yet in the Federal Register). It records Uganda's 27 Aug all-clear, then keeps it listed on prospective re-importation grounds. DRC: 6,779 confirmed, 3,267 deaths, 61 health zones at 9 Sep — from 4,318 / 2,011 / 41 a month earlier.",
@@ -4388,4 +4455,4 @@ window.INSIGHTS = [
   "editionKey": "evening"
  }
 ];
-window.BUILT_AT = "2026-09-13 15:15";
+window.BUILT_AT = "2026-09-13 22:23";
