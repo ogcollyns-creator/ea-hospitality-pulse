@@ -1,18 +1,126 @@
 {
- "generated": "2026-09-13T21:35:51+03:00",
- "slot": "evening",
- "window_start": 1789293600,
- "observations_in_window": 151,
+ "generated": "2026-09-14T01:20:48+03:00",
+ "slot": "morning",
+ "window_start": 1789311600,
+ "observations_in_window": 102,
  "deduped_against": 8,
  "candidates": [
   {
-   "score": 81.0,
+   "score": 65.2,
+   "components": {
+    "tier": 40,
+    "category": 12,
+    "lead": 3.6,
+    "relevance": 0,
+    "freshness": 19.6,
+    "undated": -6,
+    "page_change": -4
+   },
+   "keywords": [],
+   "shock_terms": [],
+   "dedupe_match": null,
+   "dedupe_similarity": 0.0,
+   "id": "5f6c2becfe46",
+   "title": "[page changed] Airlink news",
+   "url": "https://www.flyairlink.com/",
+   "summary": "Request unsuccessful. Incapsula incident ID: 69000030100441489-85224920094933239",
+   "kind": "page-change",
+   "source": "Airlink news",
+   "source_id": "air-airlink",
+   "tier": 1,
+   "country": "REG",
+   "category": "airline",
+   "segments": [
+    "city",
+    "bush",
+    "beach"
+   ],
+   "first_seen": "2026-09-14T01:11+03:00",
+   "published": null,
+   "verdict": "OPEN THIS \u2014 tier-1 airline page moved; content not auto-parsed, read it manually"
+  },
+  {
+   "score": 85.6,
+   "components": {
+    "tier": 5,
+    "category": 5,
+    "lead": 0.0,
+    "relevance": 28,
+    "freshness": 19.6,
+    "corroborated": 10,
+    "shock": 18
+   },
+   "keywords": [
+    "route",
+    "airport",
+    "strike",
+    "airline"
+   ],
+   "shock_terms": [
+    "strike"
+   ],
+   "dedupe_match": null,
+   "dedupe_similarity": 0.0,
+   "id": "b9c393cb6cc4",
+   "title": "Global Aviation This Week: New Routes, New Airline Bosses and a Very Busy Sky",
+   "url": "https://eturbonews.com/global-aviation-news-airline-routes-airports-2",
+   "summary": "New airline routes, new CEOs, aircraft orders, airport disruptions and unexpected comebacks made this another restless week in global aviation. From Sydney and Dubai to London, Mexico and Africa, airlines are betting on growth while strikes, technology failures and geopolitics keep reminding travelers how quickly the skies can change. SOURCE: Global Aviation This Week: New Routes, New Airline Boss",
+   "kind": "item",
+   "source": "eTurboNews Africa",
+   "source_id": "tp-eturbonews",
+   "tier": 3,
+   "country": "GLOBAL",
+   "category": "trade",
+   "segments": [
+    "city",
+    "bush",
+    "beach"
+   ],
+   "first_seen": "2026-09-14T01:12+03:00",
+   "published": "2026-09-13",
+   "verdict": "CONSIDER"
+  },
+  {
+   "score": 81.2,
    "components": {
     "tier": 40,
     "category": 32,
     "lead": 3.6,
     "relevance": 0,
-    "freshness": 19.4,
+    "freshness": 19.6,
+    "stale_trap": -10,
+    "page_change": -4
+   },
+   "keywords": [],
+   "shock_terms": [],
+   "dedupe_match": null,
+   "dedupe_similarity": 0.0,
+   "id": "c114bd8b2d45",
+   "title": "[page changed] Federal Register \u2014 public inspection (HHS/CDC), pre-publication",
+   "url": "https://www.federalregister.gov/api/v1/public-inspection-documents/current.json",
+   "summary": "{\"count\":157,\"results\":[{\"agencies\":[{\"raw_name\":\"SECURITIES AND EXCHANGE COMMISSION\",\"name\":\"Securities and Exchange Commission\",\"id\":466,\"url\":\"https://www.federalregister.gov/agencies/securities-and-exchange-commission\",\"json_url\":\"https://www.federalregister.gov/api/v1/agencies/466\",\"parent_id\":null,\"slug\":\"securities-and-exchange-commission\"}],\"agency_letters\":[],\"agency_names\":[\"Securities a",
+   "kind": "page-change",
+   "source": "Federal Register \u2014 public inspection (HHS/CDC), pre-publication",
+   "source_id": "us-fedreg-pubinspect-hhs",
+   "tier": 1,
+   "country": "REG",
+   "category": "advisory",
+   "segments": [
+    "city",
+    "bush"
+   ],
+   "first_seen": "2026-09-14T01:12+03:00",
+   "published": "2026-09-10",
+   "verdict": "CHECK \u2014 source date older than the window"
+  },
+  {
+   "score": 76.9,
+   "components": {
+    "tier": 40,
+    "category": 32,
+    "lead": 3.6,
+    "relevance": 0,
+    "freshness": 15.3,
     "stale_trap": -10,
     "page_change": -4
    },
@@ -39,281 +147,13 @@
    "verdict": "CHECK \u2014 source date older than the window"
   },
   {
-   "score": 79.7,
-   "components": {
-    "tier": 40,
-    "category": 24,
-    "lead": 1.2,
-    "relevance": 0,
-    "freshness": 14.5
-   },
-   "keywords": [],
-   "shock_terms": [],
-   "dedupe_match": null,
-   "dedupe_similarity": 0.17,
-   "id": "afffc7d51212",
-   "title": "MINISTRY OF HEALTH AND WHO LAUNCH BASIC EMERGENCY CARE INITIATIVE TO STRENGTHEN EMERGENCY RESPONSE",
-   "url": "https://health.go.ug/ministry-of-health-and-who-launch-basic-emergency-care-initiative-to-strengthen-emergency-response",
-   "summary": "11th September 2026, Kampala \u2014 The Ministry of Health, in collaboration with the World Health Organization (WHO) and other partners, launched the Acute Care Through Basic Emergency Care initiative, aimed at strengthening emergency care services and improving timely access to lifesaving interventions across Uganda. The initiative seeks to equip healthcare workers with the knowledge and practical sk",
-   "kind": "item",
-   "source": "Uganda Ministry of Health \u2014 news",
-   "source_id": "ug-moh-news",
-   "tier": 1,
-   "country": "UG",
-   "category": "health",
-   "segments": [
-    "city",
-    "bush"
-   ],
-   "first_seen": "2026-09-13T16:49+03:00",
-   "published": "2026-09-11",
-   "verdict": "CONSIDER"
-  },
-  {
-   "score": 79.7,
-   "components": {
-    "tier": 40,
-    "category": 24,
-    "lead": 1.2,
-    "relevance": 0,
-    "freshness": 14.5
-   },
-   "keywords": [],
-   "shock_terms": [],
-   "dedupe_match": null,
-   "dedupe_similarity": 0.17,
-   "id": "b3e7e4bb7b71",
-   "title": "MINISTRY OF HEALTH AND WHO LAUNCH BASIC EMERGENCY CARE INITIATIVE TO STRENGTHEN EMERGENCY RESPONSE",
-   "url": "https://health.go.ug/ministry-of-health-and-who-launch-basic-emergency-care-initiative-to-strengthen-emergency-response",
-   "summary": "11th September 2026, Kampala \u2014 The Ministry of Health, in collaboration with the World Health Organization (WHO) and other partners, launched the Acute Care Through Basic Emergency Care initiative, aimed at strengthening emergency care services and improving timely access to lifesaving interventions across Uganda. The initiative seeks to equip healthcare workers with the knowledge and practical sk",
-   "kind": "item",
-   "source": "Uganda Ministry of Health",
-   "source_id": "ug-moh",
-   "tier": 1,
-   "country": "UG",
-   "category": "health",
-   "segments": [
-    "city",
-    "bush",
-    "beach"
-   ],
-   "first_seen": "2026-09-13T16:49+03:00",
-   "published": "2026-09-11",
-   "verdict": "CONSIDER"
-  },
-  {
-   "score": 77.7,
-   "components": {
-    "tier": 40,
-    "category": 24,
-    "lead": 1.2,
-    "relevance": 8,
-    "freshness": 14.5,
-    "stale_trap": -10
-   },
-   "keywords": [
-    "vat"
-   ],
-   "shock_terms": [],
-   "dedupe_match": null,
-   "dedupe_similarity": 0.0,
-   "id": "6c3fe0657cdb",
-   "title": "EMPOWER Field Mission Highlights Gains in Family Planning and Reproductive Health Services Across Wakiso and Kampala.",
-   "url": "https://health.go.ug/empower-field-mission-highlights-gains-in-family-planning-and-reproductive-health-services-across-wakiso-and-kampala",
-   "summary": "9th September 2026, Kampala \u2013 Ministry of Health, in collaboration with the United Nations Population Fund (UNFPA), the British High Commission and EMPOWER Project partners, concluded a two-day field mission aimed at assessing progress, documenting achievements and identifying opportunities to sustain gains in family planning and reproductive health services. Conducted from 8\u20139 September 2026, the",
-   "kind": "item",
-   "source": "Uganda Ministry of Health \u2014 news",
-   "source_id": "ug-moh-news",
-   "tier": 1,
-   "country": "UG",
-   "category": "health",
-   "segments": [
-    "city",
-    "bush"
-   ],
-   "first_seen": "2026-09-13T16:49+03:00",
-   "published": "2026-09-09",
-   "verdict": "CHECK \u2014 source date older than the window"
-  },
-  {
-   "score": 77.7,
-   "components": {
-    "tier": 40,
-    "category": 24,
-    "lead": 1.2,
-    "relevance": 8,
-    "freshness": 14.5,
-    "stale_trap": -10
-   },
-   "keywords": [
-    "vat"
-   ],
-   "shock_terms": [],
-   "dedupe_match": null,
-   "dedupe_similarity": 0.0,
-   "id": "a68982980ff7",
-   "title": "EMPOWER Field Mission Highlights Gains in Family Planning and Reproductive Health Services Across Wakiso and Kampala.",
-   "url": "https://health.go.ug/empower-field-mission-highlights-gains-in-family-planning-and-reproductive-health-services-across-wakiso-and-kampala",
-   "summary": "9th September 2026, Kampala \u2013 Ministry of Health, in collaboration with the United Nations Population Fund (UNFPA), the British High Commission and EMPOWER Project partners, concluded a two-day field mission aimed at assessing progress, documenting achievements and identifying opportunities to sustain gains in family planning and reproductive health services. Conducted from 8\u20139 September 2026, the",
-   "kind": "item",
-   "source": "Uganda Ministry of Health",
-   "source_id": "ug-moh",
-   "tier": 1,
-   "country": "UG",
-   "category": "health",
-   "segments": [
-    "city",
-    "bush",
-    "beach"
-   ],
-   "first_seen": "2026-09-13T16:49+03:00",
-   "published": "2026-09-09",
-   "verdict": "CHECK \u2014 source date older than the window"
-  },
-  {
-   "score": 76.1,
-   "components": {
-    "tier": 40,
-    "category": 32,
-    "lead": 3.6,
-    "relevance": 0,
-    "freshness": 14.5,
-    "stale_trap": -10,
-    "page_change": -4
-   },
-   "keywords": [],
-   "shock_terms": [],
-   "dedupe_match": null,
-   "dedupe_similarity": 0.0,
-   "id": "cb96e350872f",
-   "title": "[page changed] Federal Register \u2014 public inspection (HHS/CDC), pre-publication",
-   "url": "https://www.federalregister.gov/api/v1/public-inspection-documents/current.json",
-   "summary": "{\"count\":157,\"results\":[{\"agencies\":[{\"raw_name\":\"SECURITIES AND EXCHANGE COMMISSION\",\"name\":\"Securities and Exchange Commission\",\"id\":466,\"url\":\"https://www.federalregister.gov/agencies/securities-and-exchange-commission\",\"json_url\":\"https://www.federalregister.gov/api/v1/agencies/466\",\"parent_id\":null,\"slug\":\"securities-and-exchange-commission\"}],\"agency_letters\":[],\"agency_names\":[\"Securities a",
-   "kind": "page-change",
-   "source": "Federal Register \u2014 public inspection (HHS/CDC), pre-publication",
-   "source_id": "us-fedreg-pubinspect-hhs",
-   "tier": 1,
-   "country": "REG",
-   "category": "advisory",
-   "segments": [
-    "city",
-    "bush"
-   ],
-   "first_seen": "2026-09-13T16:49+03:00",
-   "published": "2026-09-10",
-   "verdict": "CHECK \u2014 source date older than the window"
-  },
-  {
-   "score": 70.5,
-   "components": {
-    "tier": 20,
-    "category": 4,
-    "lead": 0.0,
-    "relevance": 4,
-    "freshness": 14.5,
-    "corroborated": 10,
-    "shock": 18
-   },
-   "keywords": [
-    "pipeline"
-   ],
-   "shock_terms": [
-    "attack"
-   ],
-   "dedupe_match": null,
-   "dedupe_similarity": 0.0,
-   "id": "ef90e7d5ffc5",
-   "title": "New report of attack on Strait of Hormuz shipping fans fears of threats to oil supplies",
-   "url": "https://www.monitor.co.ug/uganda/news/world/new-report-of-attack-on-strait-of-hormuz-shipping-fans-fears-of-threats-to-oil-supplies-5593362",
-   "summary": "Key Saudi East-West oil pipeline shut after drone attack",
-   "kind": "item",
-   "source": "Daily Monitor (Uganda)",
-   "source_id": "np-monitor-ug",
-   "tier": 2,
-   "country": "UG",
-   "category": "press",
-   "segments": [
-    "city",
-    "bush",
-    "beach"
-   ],
-   "first_seen": "2026-09-13T16:49+03:00",
-   "published": "2026-09-13",
-   "verdict": "CONSIDER"
-  },
-  {
-   "score": 69.7,
-   "components": {
-    "tier": 40,
-    "category": 24,
-    "lead": 1.2,
-    "relevance": 0,
-    "freshness": 14.5,
-    "stale_trap": -10
-   },
-   "keywords": [],
-   "shock_terms": [],
-   "dedupe_match": null,
-   "dedupe_similarity": 0.17,
-   "id": "9964cdfe3a52",
-   "title": "PHC Minister Leads Eastern Uganda Field Mission as 484 CHEWs Pass Out in Mbale & Bukeddea Districts.",
-   "url": "https://health.go.ug/phc-minister-leads-eastern-uganda-field-mission-as-484-chews-pass-out-in-mbale-bukeddea-districts",
-   "summary": "8th September 2026, Mbale and Bukedea \u2013 The Ministry of Health has intensified efforts to strengthen primary health care services in Eastern Uganda, with the State Minister for Health in charge of Primary Health Care, Hon. Dr. Charles Ayume, leading a two-day field mission to assess service delivery, engage health workers and local leaders, and support the deployment of Community Health Extension ",
-   "kind": "item",
-   "source": "Uganda Ministry of Health \u2014 news",
-   "source_id": "ug-moh-news",
-   "tier": 1,
-   "country": "UG",
-   "category": "health",
-   "segments": [
-    "city",
-    "bush"
-   ],
-   "first_seen": "2026-09-13T16:49+03:00",
-   "published": "2026-09-08",
-   "verdict": "CHECK \u2014 source date older than the window"
-  },
-  {
-   "score": 69.7,
-   "components": {
-    "tier": 40,
-    "category": 24,
-    "lead": 1.2,
-    "relevance": 0,
-    "freshness": 14.5,
-    "stale_trap": -10
-   },
-   "keywords": [],
-   "shock_terms": [],
-   "dedupe_match": null,
-   "dedupe_similarity": 0.17,
-   "id": "0406409a1c79",
-   "title": "PHC Minister Leads Eastern Uganda Field Mission as 484 CHEWs Pass Out in Mbale & Bukeddea Districts.",
-   "url": "https://health.go.ug/phc-minister-leads-eastern-uganda-field-mission-as-484-chews-pass-out-in-mbale-bukeddea-districts",
-   "summary": "8th September 2026, Mbale and Bukedea \u2013 The Ministry of Health has intensified efforts to strengthen primary health care services in Eastern Uganda, with the State Minister for Health in charge of Primary Health Care, Hon. Dr. Charles Ayume, leading a two-day field mission to assess service delivery, engage health workers and local leaders, and support the deployment of Community Health Extension ",
-   "kind": "item",
-   "source": "Uganda Ministry of Health",
-   "source_id": "ug-moh",
-   "tier": 1,
-   "country": "UG",
-   "category": "health",
-   "segments": [
-    "city",
-    "bush",
-    "beach"
-   ],
-   "first_seen": "2026-09-13T16:49+03:00",
-   "published": "2026-09-08",
-   "verdict": "CHECK \u2014 source date older than the window"
-  },
-  {
-   "score": 65.4,
+   "score": 61.3,
    "components": {
     "tier": 20,
     "category": 4,
     "lead": 0.0,
     "relevance": 12,
-    "freshness": 19.4,
+    "freshness": 15.3,
     "corroborated": 10
    },
    "keywords": [
@@ -343,13 +183,13 @@
    "verdict": "weak"
   },
   {
-   "score": 65.4,
+   "score": 61.3,
    "components": {
     "tier": 20,
     "category": 4,
     "lead": 0.0,
     "relevance": 12,
-    "freshness": 19.4,
+    "freshness": 15.3,
     "corroborated": 10
    },
    "keywords": [
@@ -379,13 +219,51 @@
    "verdict": "weak"
   },
   {
-   "score": 61.4,
+   "score": 59.6,
+   "components": {
+    "tier": 5,
+    "category": 5,
+    "lead": 0.0,
+    "relevance": 20,
+    "freshness": 19.6,
+    "corroborated": 10
+   },
+   "keywords": [
+    "seat",
+    "hotel",
+    "resort",
+    "opening"
+   ],
+   "shock_terms": [],
+   "dedupe_match": null,
+   "dedupe_similarity": 0.0,
+   "id": "6545893292f2",
+   "title": "Global Hotel News: New Resorts, Billion-Dollar Deals and Hospitality\u2019s Next Moves",
+   "url": "https://eturbonews.com/global-hotel-news-openings-investments",
+   "summary": "Hotels are opening, investors are spending billions, and hospitality leaders are changing seats around the world. From Saudi Arabia and Japan to Europe, India, Australia and the Americas, this week\u2019s global hotel news reveals where the money is going, which destinations are growing\u2014and what could reshape the industry next. SOURCE: Global Hotel News: New Resorts, Billion-Dollar Deals and Hospitalit",
+   "kind": "item",
+   "source": "eTurboNews Africa",
+   "source_id": "tp-eturbonews",
+   "tier": 3,
+   "country": "GLOBAL",
+   "category": "trade",
+   "segments": [
+    "city",
+    "bush",
+    "beach"
+   ],
+   "first_seen": "2026-09-14T01:12+03:00",
+   "published": "2026-09-13",
+   "verdict": "weak"
+  },
+  {
+   "score": 57.3,
    "components": {
     "tier": 20,
     "category": 4,
     "lead": 0.0,
     "relevance": 8,
-    "freshness": 19.4,
+    "freshness": 15.3,
     "corroborated": 10
    },
    "keywords": [
@@ -414,13 +292,13 @@
    "verdict": "weak"
   },
   {
-   "score": 61.4,
+   "score": 57.3,
    "components": {
     "tier": 20,
     "category": 4,
     "lead": 0.0,
     "relevance": 8,
-    "freshness": 19.4,
+    "freshness": 15.3,
     "corroborated": 10
    },
    "keywords": [
@@ -449,13 +327,13 @@
    "verdict": "weak"
   },
   {
-   "score": 61.4,
+   "score": 57.3,
    "components": {
     "tier": 20,
     "category": 4,
     "lead": 0.0,
     "relevance": 8,
-    "freshness": 19.4,
+    "freshness": 15.3,
     "corroborated": 10
    },
    "keywords": [
@@ -484,13 +362,13 @@
    "verdict": "weak"
   },
   {
-   "score": 61.4,
+   "score": 57.3,
    "components": {
     "tier": 20,
     "category": 4,
     "lead": 0.0,
     "relevance": 8,
-    "freshness": 19.4,
+    "freshness": 15.3,
     "corroborated": 10
    },
    "keywords": [
@@ -519,116 +397,47 @@
    "verdict": "weak"
   },
   {
-   "score": 61.1,
+   "score": 56.0,
    "components": {
     "tier": 20,
-    "category": 9,
-    "lead": 3.6,
-    "relevance": 4,
-    "freshness": 14.5,
-    "corroborated": 10
+    "category": 24,
+    "lead": 2.4,
+    "relevance": 0,
+    "freshness": 19.6,
+    "undated": -6,
+    "page_change": -4
    },
-   "keywords": [
-    "airline"
-   ],
+   "keywords": [],
    "shock_terms": [],
    "dedupe_match": null,
    "dedupe_similarity": 0.0,
-   "id": "0b726f31e405",
-   "title": "Condor, Eurowings, Lufthansa, TUI (Update): Deutsche Luftfahrt uneins \u00fcber Emirates-Deal",
-   "url": "https://www.fvw.de/touristik/verkehr/condor-eurowings-lufthansa-tuifly-emirates--deutsche-airlines-entsetzt-ueber-regierung-264506",
-   "summary": "Die Bundesregierung gibt Emirates weitere Verkehrsrechte f\u00fcr Deutschland. W\u00e4hrend die Golf-Airline ihre Pr\u00e4senz ausbauen kann, reagiert der BDF (u.a. Lufthansa, Condor, Eurowings) mit scharfer Kritik. TUI hingegen, zu der TUIfly geh\u00f6rt, begr\u00fc\u00dft die Entscheidung.",
-   "kind": "item",
-   "source": "FVW / German travel trade",
-   "source_id": "sm-derreise",
+   "id": "3d77e1f8a4f0",
+   "title": "[page changed] ProMED-mail",
+   "url": "https://promedmail.org/",
+   "summary": "Protecting Global Health, One Alert at a Time | ProMED Previous slide Next slide Protecting Global Health, One Alert at a Time ProMED: Your 24/7 early warning system for emerging infectious diseases worldwide. Subscribe ProMED's Weekly Pulse A snapshot of global health events from the past 7 days Latest Posts on ProMED All Date Title Sun Sep 13 2026 FOOT & MOUTH DISEASE - MONGOLIA (13): LIVESTOCK,",
+   "kind": "page-change",
+   "source": "ProMED-mail",
+   "source_id": "promed",
    "tier": 2,
    "country": "GLOBAL",
-   "category": "source-market",
-   "segments": [
-    "beach",
-    "bush"
-   ],
-   "first_seen": "2026-09-13T16:49+03:00",
-   "published": "2026-09-13",
-   "verdict": "weak"
-  },
-  {
-   "score": 61.1,
-   "components": {
-    "tier": 20,
-    "category": 9,
-    "lead": 3.6,
-    "relevance": 4,
-    "freshness": 14.5,
-    "corroborated": 10
-   },
-   "keywords": [
-    "hotel"
-   ],
-   "shock_terms": [],
-   "dedupe_match": null,
-   "dedupe_similarity": 0.0,
-   "id": "1a5469a6f71e",
-   "title": "CEO-Ebel vor Aufsichtsratssitzung: TUI will 80 Prozent Eigenprodukte verkaufen",
-   "url": "https://www.fvw.de/touristik/veranstalter/vor-aufsichtsratssitzung-tui-will-80-prozent-eigenprodukte-verkaufen-264529",
-   "summary": "Reiseveranstalter TUI will den Anteil eigener Produkte im Hotelgesch\u00e4ft deutlich erh\u00f6hen. Bei der Jahrestagung der Best-Reisen-Kooperation in Kopenhagen k\u00fcndigte TUI-Chef Sebastian Ebel an, den Anteil der TUI-eigenen Produkte schrittweise auf 80 Prozent ausbauen zu wollen.",
-   "kind": "item",
-   "source": "FVW / German travel trade",
-   "source_id": "sm-derreise",
-   "tier": 2,
-   "country": "GLOBAL",
-   "category": "source-market",
-   "segments": [
-    "beach",
-    "bush"
-   ],
-   "first_seen": "2026-09-13T16:49+03:00",
-   "published": "2026-09-13",
-   "verdict": "weak"
-  },
-  {
-   "score": 60.5,
-   "components": {
-    "tier": 20,
-    "category": 4,
-    "lead": 0.0,
-    "relevance": 12,
-    "freshness": 14.5,
-    "corroborated": 10
-   },
-   "keywords": [
-    "quarantine"
-   ],
-   "shock_terms": [],
-   "dedupe_match": null,
-   "dedupe_similarity": 0.17,
-   "id": "0ad970136cc9",
-   "title": "Gov\u2019t orders mandatory 21-day quarantine for students travelling from DRC",
-   "url": "https://www.monitor.co.ug/uganda/news/national/gov-t-orders-mandatory-21-day-quarantine-for-students-travelling-from-drc-5593278",
-   "summary": "The third term starts on Monday, September 14.",
-   "kind": "item",
-   "source": "Daily Monitor (Uganda)",
-   "source_id": "np-monitor-ug",
-   "tier": 2,
-   "country": "UG",
-   "category": "press",
+   "category": "health",
    "segments": [
     "city",
     "bush",
     "beach"
    ],
-   "first_seen": "2026-09-13T16:49+03:00",
-   "published": "2026-09-13",
+   "first_seen": "2026-09-14T01:12+03:00",
+   "published": null,
    "verdict": "weak"
   },
   {
-   "score": 59.8,
+   "score": 55.7,
    "components": {
     "tier": 20,
     "category": 24,
     "lead": 2.4,
     "relevance": 4,
-    "freshness": 19.4,
+    "freshness": 15.3,
     "undated": -6,
     "page_change": -4
    },
@@ -658,49 +467,46 @@
    "verdict": "weak"
   },
   {
-   "score": 58.7,
+   "score": 53.6,
    "components": {
     "tier": 20,
-    "category": 5,
-    "lead": 1.2,
-    "relevance": 8,
-    "freshness": 14.5,
+    "category": 4,
+    "lead": 0.0,
+    "relevance": 0,
+    "freshness": 19.6,
     "corroborated": 10
    },
-   "keywords": [
-    "tourism",
-    "operator"
-   ],
+   "keywords": [],
    "shock_terms": [],
    "dedupe_match": null,
-   "dedupe_similarity": 0.0,
-   "id": "a384f5e08661",
-   "title": "Live Tourism\u2019s Biggest Operators Are Confirmed. Are You in the Room?",
-   "url": "https://skift.com/2026/09/13/skift-live-tourism-summit-confirmed-speakers",
-   "summary": "The people who decide where live demand lands, who captures it, and how it gets sold are speaking in one closed room in New York on September 22. The tourism authority that turned Las Vegas into standing economic infrastructure is on the agenda. So is Live Nation, the company routing where the next live moment [\u2026]",
+   "dedupe_similarity": 0.17,
+   "id": "7dbcb3ef3302",
+   "title": "Tooro King Oyo buried in western Uganda",
+   "url": "https://www.theeastafrican.co.ke/tea/news/east-africa/tooro-king-oyo-buried-in-western-uganda-5593906",
+   "summary": "He died last month at 34 in the United States, where he was receiving treatment for cancer.",
    "kind": "item",
-   "source": "Skift",
-   "source_id": "tp-skift",
+   "source": "The EastAfrican",
+   "source_id": "np-eastafrican",
    "tier": 2,
-   "country": "GLOBAL",
-   "category": "trade",
+   "country": "REG",
+   "category": "press",
    "segments": [
     "city",
     "bush",
     "beach"
    ],
-   "first_seen": "2026-09-13T16:49+03:00",
+   "first_seen": "2026-09-14T01:12+03:00",
    "published": "2026-09-13",
    "verdict": "weak"
   },
   {
-   "score": 57.4,
+   "score": 53.3,
    "components": {
     "tier": 20,
     "category": 4,
     "lead": 0.0,
     "relevance": 4,
-    "freshness": 19.4,
+    "freshness": 15.3,
     "corroborated": 10
    },
    "keywords": [
@@ -729,218 +535,13 @@
    "verdict": "weak"
   },
   {
-   "score": 57.1,
-   "components": {
-    "tier": 20,
-    "category": 9,
-    "lead": 3.6,
-    "relevance": 0,
-    "freshness": 14.5,
-    "corroborated": 10
-   },
-   "keywords": [],
-   "shock_terms": [],
-   "dedupe_match": null,
-   "dedupe_similarity": 0.0,
-   "id": "e213d1e7354b",
-   "title": "Marija Linnhoff bei Best-Reisen-Tagung: VUSR pr\u00fcft juristische Schritte gegen Check24",
-   "url": "https://www.fvw.de/touristik/vertrieb/marija-linnhoff-bei-best-reisen-tagung-vusr-prueft-juristische-schritte-gegen-check24-264532",
-   "summary": "Hohe Cashbacks f\u00fcr Kunden, intransparente Gesch\u00e4ftszahlen \u2013 schon seit L\u00e4ngerem \u00e4rgert sich die Vorsitzende des Verbands VUSR, Marija Linnhoff, \u00fcber das Gesch\u00e4ftsgebaren von Check24. Ihr Mitglieder leiden darunter. Linnhoff plant, aktiv dagegen vorzugehen.",
-   "kind": "item",
-   "source": "FVW / German travel trade",
-   "source_id": "sm-derreise",
-   "tier": 2,
-   "country": "GLOBAL",
-   "category": "source-market",
-   "segments": [
-    "beach",
-    "bush"
-   ],
-   "first_seen": "2026-09-13T16:49+03:00",
-   "published": "2026-09-13",
-   "verdict": "weak"
-  },
-  {
-   "score": 57.1,
-   "components": {
-    "tier": 20,
-    "category": 9,
-    "lead": 3.6,
-    "relevance": 0,
-    "freshness": 14.5,
-    "corroborated": 10
-   },
-   "keywords": [],
-   "shock_terms": [],
-   "dedupe_match": null,
-   "dedupe_similarity": 0.0,
-   "id": "16d1dd0f2400",
-   "title": "Best-Reisen-Jahrestagung 2026: Handelsvertreterstatus ist f\u00fcr viele Best-B\u00fcros existenziell",
-   "url": "https://www.fvw.de/touristik/vertrieb/best-reisen-jahrestagung-2026-handelsvertreterstatus-ist-fuer-viele-best-bueros-existenziell-264530",
-   "summary": "Der Handelsvertreterstatus ist f\u00fcr die gro\u00dfe Mehrheit der Best-Reisen-Mitgliedsb\u00fcros unverzichtbar oder sehr wichtig, so das Ergebnis einer Umfrage. Die Best-Spitze appelliert dennoch dazu, auf ein \"hybrides\" Gesch\u00e4ftsmodell zu setzen.",
-   "kind": "item",
-   "source": "FVW / German travel trade",
-   "source_id": "sm-derreise",
-   "tier": 2,
-   "country": "GLOBAL",
-   "category": "source-market",
-   "segments": [
-    "beach",
-    "bush"
-   ],
-   "first_seen": "2026-09-13T16:49+03:00",
-   "published": "2026-09-13",
-   "verdict": "weak"
-  },
-  {
-   "score": 56.5,
-   "components": {
-    "tier": 20,
-    "category": 4,
-    "lead": 0.0,
-    "relevance": 8,
-    "freshness": 14.5,
-    "corroborated": 10
-   },
-   "keywords": [
-    "fee"
-   ],
-   "shock_terms": [],
-   "dedupe_match": null,
-   "dedupe_similarity": 0.0,
-   "id": "9c701d5892b1",
-   "title": "HRNS leadership change puts Tanzanian coffee farmers at centre of next chapter",
-   "url": "https://dailynews.co.tz/hrns-leadership-change-puts-tanzanian-coffee-farmers-at-centre-of-next-chapter",
-   "summary": "DAR ES SALAAM: For Tanzania\u2019s smallholder coffee farmers, the real significance of a change at the top of a development foundation will not be measured in boardroom decisions. It will be seen in the resilience of farms, the strength of household incomes, the opportunities available to young people and the ability of coffee-growing communities to \u2026 The post HRNS leadership change puts Tanzanian cof",
-   "kind": "item",
-   "source": "Daily News (Tanzania)",
-   "source_id": "np-dailynews-tz",
-   "tier": 2,
-   "country": "TZ",
-   "category": "press",
-   "segments": [
-    "city",
-    "bush",
-    "beach"
-   ],
-   "first_seen": "2026-09-13T16:49+03:00",
-   "published": "2026-09-13",
-   "verdict": "weak"
-  },
-  {
-   "score": 56.5,
-   "components": {
-    "tier": 20,
-    "category": 4,
-    "lead": 0.0,
-    "relevance": 8,
-    "freshness": 14.5,
-    "corroborated": 10
-   },
-   "keywords": [
-    "capacity"
-   ],
-   "shock_terms": [],
-   "dedupe_match": null,
-   "dedupe_similarity": 0.0,
-   "id": "c82184e14a5a",
-   "title": "Sylvia Owori: All the scattered creative energy must become one sustainable enterprise",
-   "url": "https://www.monitor.co.ug/uganda/news/national/sylvia-owori-all-the-scattered-creative-energy-must-become-one-sustainable-enterprise-5593320",
-   "summary": "Her vision includes reorganising the industry, economic empowerment and capacity building",
-   "kind": "item",
-   "source": "Daily Monitor (Uganda)",
-   "source_id": "np-monitor-ug",
-   "tier": 2,
-   "country": "UG",
-   "category": "press",
-   "segments": [
-    "city",
-    "bush",
-    "beach"
-   ],
-   "first_seen": "2026-09-13T16:49+03:00",
-   "published": "2026-09-13",
-   "verdict": "weak"
-  },
-  {
-   "score": 56.5,
-   "components": {
-    "tier": 20,
-    "category": 4,
-    "lead": 0.0,
-    "relevance": 8,
-    "freshness": 14.5,
-    "corroborated": 10
-   },
-   "keywords": [
-    "airline",
-    "traffic"
-   ],
-   "shock_terms": [],
-   "dedupe_match": null,
-   "dedupe_similarity": 0.0,
-   "id": "88c095718240",
-   "title": "Boeing, Airbus, Embraer: Who gains from Africa\u2019s booming air traffic?",
-   "url": "https://www.theeastafrican.co.ke/tea/business-tech/who-gains-from-africa-s-booming-air-traffic-5592406",
-   "summary": "Each aircraft manufacturer is eyeing a bigger share of the market as airlines expand their...",
-   "kind": "item",
-   "source": "The EastAfrican",
-   "source_id": "np-eastafrican",
-   "tier": 2,
-   "country": "REG",
-   "category": "press",
-   "segments": [
-    "city",
-    "bush",
-    "beach"
-   ],
-   "first_seen": "2026-09-13T16:49+03:00",
-   "published": "2026-09-13",
-   "verdict": "weak"
-  },
-  {
-   "score": 54.7,
-   "components": {
-    "tier": 20,
-    "category": 5,
-    "lead": 1.2,
-    "relevance": 4,
-    "freshness": 14.5,
-    "corroborated": 10
-   },
-   "keywords": [
-    "airline"
-   ],
-   "shock_terms": [],
-   "dedupe_match": null,
-   "dedupe_similarity": 0.0,
-   "id": "3fa7aaf6aa82",
-   "title": "But Does It Have Starlink? It\u2019s the New Must-Have, but at $500k a Plane, Somebody\u2019s Got to Pay",
-   "url": "https://skift.com/2026/09/13/starlink-is-a-must-have-for-airlines-but-somebodys-got-to-pay",
-   "summary": "Airlines are racing to get into Starlink. The installation costs are high, but airlines are betting that the service will attract more customers.",
-   "kind": "item",
-   "source": "Skift",
-   "source_id": "tp-skift",
-   "tier": 2,
-   "country": "GLOBAL",
-   "category": "trade",
-   "segments": [
-    "city",
-    "bush",
-    "beach"
-   ],
-   "first_seen": "2026-09-13T16:49+03:00",
-   "published": "2026-09-13",
-   "verdict": "weak"
-  },
-  {
-   "score": 53.4,
+   "score": 49.3,
    "components": {
     "tier": 20,
     "category": 4,
     "lead": 0.0,
     "relevance": 0,
-    "freshness": 19.4,
+    "freshness": 15.3,
     "corroborated": 10
    },
    "keywords": [],
@@ -967,13 +568,13 @@
    "verdict": "weak"
   },
   {
-   "score": 53.4,
+   "score": 49.3,
    "components": {
     "tier": 20,
     "category": 4,
     "lead": 0.0,
     "relevance": 0,
-    "freshness": 19.4,
+    "freshness": 15.3,
     "corroborated": 10
    },
    "keywords": [],
@@ -1000,13 +601,13 @@
    "verdict": "weak"
   },
   {
-   "score": 53.4,
+   "score": 49.3,
    "components": {
     "tier": 20,
     "category": 4,
     "lead": 0.0,
     "relevance": 0,
-    "freshness": 19.4,
+    "freshness": 15.3,
     "corroborated": 10
    },
    "keywords": [],
@@ -1033,13 +634,13 @@
    "verdict": "weak"
   },
   {
-   "score": 53.4,
+   "score": 49.3,
    "components": {
     "tier": 20,
     "category": 4,
     "lead": 0.0,
     "relevance": 0,
-    "freshness": 19.4,
+    "freshness": 15.3,
     "corroborated": 10
    },
    "keywords": [],
@@ -1066,13 +667,13 @@
    "verdict": "weak"
   },
   {
-   "score": 53.4,
+   "score": 49.3,
    "components": {
     "tier": 20,
     "category": 4,
     "lead": 0.0,
     "relevance": 0,
-    "freshness": 19.4,
+    "freshness": 15.3,
     "corroborated": 10
    },
    "keywords": [],
@@ -1099,13 +700,13 @@
    "verdict": "weak"
   },
   {
-   "score": 53.4,
+   "score": 49.3,
    "components": {
     "tier": 20,
     "category": 4,
     "lead": 0.0,
     "relevance": 0,
-    "freshness": 19.4,
+    "freshness": 15.3,
     "corroborated": 10
    },
    "keywords": [],
@@ -1132,13 +733,13 @@
    "verdict": "weak"
   },
   {
-   "score": 53.4,
+   "score": 49.3,
    "components": {
     "tier": 20,
     "category": 4,
     "lead": 0.0,
     "relevance": 0,
-    "freshness": 19.4,
+    "freshness": 15.3,
     "corroborated": 10
    },
    "keywords": [],
@@ -1165,13 +766,13 @@
    "verdict": "weak"
   },
   {
-   "score": 53.4,
+   "score": 49.3,
    "components": {
     "tier": 20,
     "category": 4,
     "lead": 0.0,
     "relevance": 0,
-    "freshness": 19.4,
+    "freshness": 15.3,
     "corroborated": 10
    },
    "keywords": [],
@@ -1198,13 +799,13 @@
    "verdict": "weak"
   },
   {
-   "score": 53.4,
+   "score": 49.3,
    "components": {
     "tier": 20,
     "category": 4,
     "lead": 0.0,
     "relevance": 0,
-    "freshness": 19.4,
+    "freshness": 15.3,
     "corroborated": 10
    },
    "keywords": [],
@@ -1231,13 +832,13 @@
    "verdict": "weak"
   },
   {
-   "score": 53.4,
+   "score": 49.3,
    "components": {
     "tier": 20,
     "category": 4,
     "lead": 0.0,
     "relevance": 0,
-    "freshness": 19.4,
+    "freshness": 15.3,
     "corroborated": 10
    },
    "keywords": [],
@@ -1264,28 +865,28 @@
    "verdict": "weak"
   },
   {
-   "score": 52.5,
+   "score": 45.6,
    "components": {
     "tier": 20,
     "category": 4,
     "lead": 0.0,
-    "relevance": 4,
-    "freshness": 14.5,
-    "corroborated": 10
+    "relevance": 8,
+    "freshness": 19.6,
+    "undated": -6
    },
    "keywords": [
-    "investment"
+    "fuel"
    ],
    "shock_terms": [],
    "dedupe_match": null,
    "dedupe_similarity": 0.0,
-   "id": "43d8fa1e80ad",
-   "title": "Yas launches two 4G towers in K\u2019njaro steps up network investment",
-   "url": "https://dailynews.co.tz/yas-launches-two-4g-towers-in-knjaro-steps-up-network-investment",
-   "summary": "KILIMANJARO: RESIDENTS and businesses in Kilimanjaro are set to enjoy easier access to digital services after Yas Tanzania launched two new 4G towers in Moshi Municipality and Mwanga District, promising stronger connectivity for everyday activities. For residents, better network services could mean faster mobile money transactions, easier communication with family and friends and improved access \u2026",
+   "id": "a2c152e2d7b6",
+   "title": "Business Eight entrepreneurs secure Sh1.2 billion for rural fuel stations 10 hours ago - 2 min read",
+   "url": "https://www.thecitizen.co.tz/tanzania/business/eight-entrepreneurs-secure-sh1-2-billion-for-rural-fuel-stations-5593574",
+   "summary": "",
    "kind": "item",
-   "source": "Daily News (Tanzania)",
-   "source_id": "np-dailynews-tz",
+   "source": "The Citizen (Tanzania)",
+   "source_id": "np-citizen-tz",
    "tier": 2,
    "country": "TZ",
    "category": "press",
@@ -1294,33 +895,104 @@
     "bush",
     "beach"
    ],
-   "first_seen": "2026-09-13T16:49+03:00",
-   "published": "2026-09-13",
+   "first_seen": "2026-09-14T01:12+03:00",
+   "published": null,
    "verdict": "weak"
   },
   {
-   "score": 52.5,
+   "score": 43.6,
    "components": {
-    "tier": 20,
-    "category": 4,
+    "tier": 5,
+    "category": 5,
     "lead": 0.0,
     "relevance": 4,
-    "freshness": 14.5,
+    "freshness": 19.6,
     "corroborated": 10
    },
    "keywords": [
-    "summit"
+    "tourism"
    ],
    "shock_terms": [],
    "dedupe_match": null,
    "dedupe_similarity": 0.0,
-   "id": "a42b398873b6",
-   "title": "At BRICS summit, Museveni decries colonial exploitation as Modi pushes for Global South unity",
-   "url": "https://www.monitor.co.ug/uganda/news/national/at-brics-summit-museveni-decries-colonial-exploitation-as-modi-pushes-for-global-south-unity-5593364",
-   "summary": "Museveni pointed to the dramatic rise of emerging economies like China and India as proof that...",
+   "id": "cbda2e4bd7d7",
+   "title": "Jamaica to Launch Tourism Resilience Awards as World Travel Week Comes to Negril",
+   "url": "https://eturbonews.com/jamaica-world-travel-week-tourism-resilience-awards",
+   "summary": "Jamaica is putting tourism resilience on the global stage. Days after tourism leaders meet in Malta, Minister Edmund Bartlett will welcome the industry to World Travel Week in Negril, October 10\u201315, where the new Tourism Resilience Awards will debut alongside World Travel Awards in a potentially groundbreaking combination. SOURCE: Jamaica to Launch Tourism Resilience Awards as World Travel Week Co",
    "kind": "item",
-   "source": "Daily Monitor (Uganda)",
-   "source_id": "np-monitor-ug",
+   "source": "eTurboNews Africa",
+   "source_id": "tp-eturbonews",
+   "tier": 3,
+   "country": "GLOBAL",
+   "category": "trade",
+   "segments": [
+    "city",
+    "bush",
+    "beach"
+   ],
+   "first_seen": "2026-09-14T01:12+03:00",
+   "published": "2026-09-13",
+   "verdict": "weak"
+  },
+  {
+   "score": 43.6,
+   "components": {
+    "tier": 5,
+    "category": 5,
+    "lead": 0.0,
+    "relevance": 4,
+    "freshness": 19.6,
+    "corroborated": 10
+   },
+   "keywords": [
+    "tourism"
+   ],
+   "shock_terms": [],
+   "dedupe_match": null,
+   "dedupe_similarity": 0.0,
+   "id": "1ff625fd3f1e",
+   "title": "Jordan MMA Week Puts Petra, Wadi Rum and Tourism in the Fight Spotlight",
+   "url": "https://eturbonews.com/jordan-mma-week-tourism-petra-wadi-rum",
+   "summary": "Jordan is turning the global appeal of MMA into a tourism showcase. Backed by the Jordan Tourism Board, Jordan MMA Week will connect international fighters, media and audiences with Petra, Wadi Rum, the Dead Sea and other destinations, creating an unusual new platform for sports tourism and destination marketing. SOURCE: Jordan MMA Week Puts Petra, Wadi Rum and Tourism in the Fight Spotlight BY: e",
+   "kind": "item",
+   "source": "eTurboNews Africa",
+   "source_id": "tp-eturbonews",
+   "tier": 3,
+   "country": "GLOBAL",
+   "category": "trade",
+   "segments": [
+    "city",
+    "bush",
+    "beach"
+   ],
+   "first_seen": "2026-09-14T01:12+03:00",
+   "published": "2026-09-13",
+   "verdict": "weak"
+  },
+  {
+   "score": 41.3,
+   "components": {
+    "tier": 20,
+    "category": 4,
+    "lead": 0.0,
+    "relevance": 8,
+    "freshness": 15.3,
+    "undated": -6
+   },
+   "keywords": [
+    "opening",
+    "traffic"
+   ],
+   "shock_terms": [],
+   "dedupe_match": null,
+   "dedupe_similarity": 0.0,
+   "id": "e5579e019ef3",
+   "title": "Police remind motorists to put safety of learners first as schools reopen Police in the Kigezi and Rwenzori East regions have issued safety guidelines to parents, school administrators and road users, citing increased traffic, road crashes, theft and other crimes associated with school opening. News",
+   "url": "https://www.newvision.co.ug/category/news/police-remind-motorists-to-put-safety-of-lear-NV_240555_092026",
+   "summary": "",
+   "kind": "item",
+   "source": "New Vision (Uganda)",
+   "source_id": "np-newvision-ug",
    "tier": 2,
    "country": "UG",
    "category": "press",
@@ -1329,33 +1001,33 @@
     "bush",
     "beach"
    ],
-   "first_seen": "2026-09-13T16:49+03:00",
-   "published": "2026-09-13",
+   "first_seen": "2026-09-13T21:16+03:00",
+   "published": null,
    "verdict": "weak"
   },
   {
-   "score": 52.5,
+   "score": 41.3,
    "components": {
     "tier": 20,
     "category": 4,
     "lead": 0.0,
-    "relevance": 4,
-    "freshness": 14.5,
-    "corroborated": 10
+    "relevance": 8,
+    "freshness": 15.3,
+    "undated": -6
    },
    "keywords": [
-    "traffic"
+    "eta"
    ],
    "shock_terms": [],
    "dedupe_match": null,
    "dedupe_similarity": 0.0,
-   "id": "4f23554aa95c",
-   "title": "When Thousands Leave Their Cars Behind, Kigali Turns Streets into Spaces for Health",
-   "url": "https://www.ktpress.rw/2026/09/when-thousands-leave-their-cars-behind-kigali-turns-streets-into-spaces-for-health",
-   "summary": "KIGALI \u2013 On a Sunday morning, some of Kigali\u2019s busiest roads take on an unusual look. The traffic thins out and the streets fill instead with runners, cyclists, families, young\u2026 The post When Thousands Leave Their Cars Behind, Kigali Turns Streets into Spaces for Health appeared first on KT PRESS .",
+   "id": "5fccd3589492",
+   "title": "A1 Iron & Steel: Five things to know about Rwanda's new metal factory",
+   "url": "https://www.newtimes.co.rw/article/38925/news/rwanda/a1-iron-steel-five-things-to-know-about-rwandas-new-metal-factory",
+   "summary": "",
    "kind": "item",
-   "source": "KT Press (Rwanda)",
-   "source_id": "np-ktpress-rw",
+   "source": "The New Times (Rwanda)",
+   "source_id": "np-newtimes-rw",
    "tier": 2,
    "country": "RW",
    "category": "press",
@@ -1364,8 +1036,343 @@
     "bush",
     "beach"
    ],
-   "first_seen": "2026-09-13T16:49+03:00",
-   "published": "2026-09-13",
+   "first_seen": "2026-09-13T21:16+03:00",
+   "published": null,
+   "verdict": "weak"
+  },
+  {
+   "score": 41.3,
+   "components": {
+    "tier": 20,
+    "category": 4,
+    "lead": 0.0,
+    "relevance": 8,
+    "freshness": 15.3,
+    "undated": -6
+   },
+   "keywords": [
+    "fuel"
+   ],
+   "shock_terms": [],
+   "dedupe_match": null,
+   "dedupe_similarity": 0.0,
+   "id": "7df5a8574be7",
+   "title": "National How foiled fuel theft led to violent assault on SGR contractor in Tanzania Yesterday - 2 min read",
+   "url": "https://www.thecitizen.co.tz/tanzania/news/national/how-foiled-fuel-theft-led-to-violent-assault-on-sgr-contractor-in-tanzania-5593024",
+   "summary": "",
+   "kind": "item",
+   "source": "The Citizen (Tanzania)",
+   "source_id": "np-citizen-tz",
+   "tier": 2,
+   "country": "TZ",
+   "category": "press",
+   "segments": [
+    "city",
+    "bush",
+    "beach"
+   ],
+   "first_seen": "2026-09-13T21:16+03:00",
+   "published": null,
+   "verdict": "weak"
+  },
+  {
+   "score": 41.3,
+   "components": {
+    "tier": 20,
+    "category": 4,
+    "lead": 0.0,
+    "relevance": 8,
+    "freshness": 15.3,
+    "undated": -6
+   },
+   "keywords": [
+    "fuel"
+   ],
+   "shock_terms": [],
+   "dedupe_match": null,
+   "dedupe_similarity": 0.0,
+   "id": "6f59f326a7f3",
+   "title": "Business Eight entrepreneurs secure Sh1.2 billion for rural fuel stations 6 hours ago - 2 min read",
+   "url": "https://www.thecitizen.co.tz/tanzania/business/eight-entrepreneurs-secure-sh1-2-billion-for-rural-fuel-stations-5593574",
+   "summary": "",
+   "kind": "item",
+   "source": "The Citizen (Tanzania)",
+   "source_id": "np-citizen-tz",
+   "tier": 2,
+   "country": "TZ",
+   "category": "press",
+   "segments": [
+    "city",
+    "bush",
+    "beach"
+   ],
+   "first_seen": "2026-09-13T21:16+03:00",
+   "published": null,
+   "verdict": "weak"
+  },
+  {
+   "score": 40.9,
+   "components": {
+    "tier": 20,
+    "category": 12,
+    "lead": 3.6,
+    "relevance": 0,
+    "freshness": 15.3,
+    "undated": -6,
+    "page_change": -4
+   },
+   "keywords": [],
+   "shock_terms": [],
+   "dedupe_match": null,
+   "dedupe_similarity": 0.0,
+   "id": "708d56385867",
+   "title": "[page changed] Jambojet media",
+   "url": "https://www.jambojet.com/en/press-release",
+   "summary": "Request unsuccessful. Incapsula incident ID: 2108000530532713809-612109436264910162",
+   "kind": "page-change",
+   "source": "Jambojet media",
+   "source_id": "air-jambojet",
+   "tier": 2,
+   "country": "KE",
+   "category": "airline",
+   "segments": [
+    "city",
+    "bush",
+    "beach"
+   ],
+   "first_seen": "2026-09-13T21:16+03:00",
+   "published": null,
+   "verdict": "weak"
+  },
+  {
+   "score": 37.6,
+   "components": {
+    "tier": 20,
+    "category": 4,
+    "lead": 0.0,
+    "relevance": 0,
+    "freshness": 19.6,
+    "undated": -6
+   },
+   "keywords": [],
+   "shock_terms": [],
+   "dedupe_match": null,
+   "dedupe_similarity": 0.2,
+   "id": "f806fd4ce1c2",
+   "title": "News Irish ambassador calls on Karamoja to safeguard its cultural identity",
+   "url": "https://www.newvision.co.ug/category/news/irish-ambassador-calls-on-karamoja-to-safegua-NV_240571_092026",
+   "summary": "",
+   "kind": "item",
+   "source": "New Vision (Uganda)",
+   "source_id": "np-newvision-ug",
+   "tier": 2,
+   "country": "UG",
+   "category": "press",
+   "segments": [
+    "city",
+    "bush",
+    "beach"
+   ],
+   "first_seen": "2026-09-14T01:12+03:00",
+   "published": null,
+   "verdict": "weak"
+  },
+  {
+   "score": 37.6,
+   "components": {
+    "tier": 20,
+    "category": 4,
+    "lead": 0.0,
+    "relevance": 0,
+    "freshness": 19.6,
+    "undated": -6
+   },
+   "keywords": [],
+   "shock_terms": [],
+   "dedupe_match": null,
+   "dedupe_similarity": 0.0,
+   "id": "7dceb7e97477",
+   "title": "News Fisherman accused of killing wife as marital tensions spill over",
+   "url": "https://www.newvision.co.ug/category/news/fisherman-accused-of-killing-wife-as-marital-NV_240570_092026",
+   "summary": "",
+   "kind": "item",
+   "source": "New Vision (Uganda)",
+   "source_id": "np-newvision-ug",
+   "tier": 2,
+   "country": "UG",
+   "category": "press",
+   "segments": [
+    "city",
+    "bush",
+    "beach"
+   ],
+   "first_seen": "2026-09-14T01:12+03:00",
+   "published": null,
+   "verdict": "weak"
+  },
+  {
+   "score": 37.6,
+   "components": {
+    "tier": 20,
+    "category": 4,
+    "lead": 0.0,
+    "relevance": 0,
+    "freshness": 19.6,
+    "undated": -6
+   },
+   "keywords": [],
+   "shock_terms": [],
+   "dedupe_match": null,
+   "dedupe_similarity": 0.2,
+   "id": "158af3584dab",
+   "title": "Manchester City Haaland fires 10-man Man City to memorable win over Man Utd \u00b7 2 min read",
+   "url": "https://www.newvision.co.ug/category/sports/haaland-fires-10-man-man-city-to-memorable-wi-NV_240572_092026",
+   "summary": "",
+   "kind": "item",
+   "source": "New Vision (Uganda)",
+   "source_id": "np-newvision-ug",
+   "tier": 2,
+   "country": "UG",
+   "category": "press",
+   "segments": [
+    "city",
+    "bush",
+    "beach"
+   ],
+   "first_seen": "2026-09-14T01:12+03:00",
+   "published": null,
+   "verdict": "weak"
+  },
+  {
+   "score": 37.6,
+   "components": {
+    "tier": 20,
+    "category": 4,
+    "lead": 0.0,
+    "relevance": 0,
+    "freshness": 19.6,
+    "undated": -6
+   },
+   "keywords": [],
+   "shock_terms": [],
+   "dedupe_match": null,
+   "dedupe_similarity": 0.0,
+   "id": "2c388ae310a8",
+   "title": "President Sebastian Coe World Athletics stance on Russia unchanged, says Coe",
+   "url": "https://www.newvision.co.ug/category/health/world-athletics-stance-on-russia-unchanged-sa",
+   "summary": "",
+   "kind": "item",
+   "source": "New Vision (Uganda)",
+   "source_id": "np-newvision-ug",
+   "tier": 2,
+   "country": "UG",
+   "category": "press",
+   "segments": [
+    "city",
+    "bush",
+    "beach"
+   ],
+   "first_seen": "2026-09-14T01:12+03:00",
+   "published": null,
+   "verdict": "weak"
+  },
+  {
+   "score": 37.6,
+   "components": {
+    "tier": 20,
+    "category": 4,
+    "lead": 0.0,
+    "relevance": 0,
+    "freshness": 19.6,
+    "undated": -6
+   },
+   "keywords": [],
+   "shock_terms": [],
+   "dedupe_match": null,
+   "dedupe_similarity": 0.0,
+   "id": "cae4eea5716a",
+   "title": "New traceability drive seeks to protect horticulture exports",
+   "url": "https://www.newtimes.co.rw/article/38930/news/agriculture/new-traceability-drive-seeks-to-protect-horticulture-exports",
+   "summary": "",
+   "kind": "item",
+   "source": "The New Times (Rwanda)",
+   "source_id": "np-newtimes-rw",
+   "tier": 2,
+   "country": "RW",
+   "category": "press",
+   "segments": [
+    "city",
+    "bush",
+    "beach"
+   ],
+   "first_seen": "2026-09-14T01:12+03:00",
+   "published": null,
+   "verdict": "weak"
+  },
+  {
+   "score": 37.6,
+   "components": {
+    "tier": 20,
+    "category": 4,
+    "lead": 0.0,
+    "relevance": 0,
+    "freshness": 19.6,
+    "undated": -6
+   },
+   "keywords": [],
+   "shock_terms": [],
+   "dedupe_match": null,
+   "dedupe_similarity": 0.0,
+   "id": "3e593c7c1ea1",
+   "title": "Economy CBK moves to rein in \u2018too important to fail\u2019 banks 6 hours ago - 4 min read",
+   "url": "https://www.businessdailyafrica.com/bd/economy/cbk-moves-to-protect-too-important-to-fail-banks-5593844",
+   "summary": "",
+   "kind": "item",
+   "source": "Business Daily Africa",
+   "source_id": "np-businessdaily",
+   "tier": 2,
+   "country": "KE",
+   "category": "press",
+   "segments": [
+    "city",
+    "bush",
+    "beach"
+   ],
+   "first_seen": "2026-09-14T01:12+03:00",
+   "published": null,
+   "verdict": "weak"
+  },
+  {
+   "score": 37.6,
+   "components": {
+    "tier": 20,
+    "category": 4,
+    "lead": 0.0,
+    "relevance": 0,
+    "freshness": 19.6,
+    "undated": -6
+   },
+   "keywords": [],
+   "shock_terms": [],
+   "dedupe_match": null,
+   "dedupe_similarity": 0.0,
+   "id": "c4843b0de889",
+   "title": "Economy Treasury cashes in on a bigger pool of idle State cash 7 hours ago - 5 min read",
+   "url": "https://www.businessdailyafrica.com/bd/economy/treasury-cashes-in-on-a-bigger-pool-of-idle-state-cash-5593840",
+   "summary": "",
+   "kind": "item",
+   "source": "Business Daily Africa",
+   "source_id": "np-businessdaily",
+   "tier": 2,
+   "country": "KE",
+   "category": "press",
+   "segments": [
+    "city",
+    "bush",
+    "beach"
+   ],
+   "first_seen": "2026-09-14T01:12+03:00",
+   "published": null,
    "verdict": "weak"
   }
  ]

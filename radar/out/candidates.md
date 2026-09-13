@@ -1,77 +1,37 @@
-# Radar candidates — evening slot
-_Window opens Sun 13 Sep 13:00 EAT · 151 observations in window · 8 headlines deduped against_
+# Radar candidates — morning slot
+_Window opens Sun 13 Sep 18:00 EAT · 102 observations in window · 8 headlines deduped against_
 
 Ranked by first-seen recency, source tier and hospitality relevance. `first seen` is when the radar observed the item, which is the date the recency gate runs on. `published` is what the source claims — where the two disagree, the disagreement is the story.
 
-### 🟡 [81.0] [page changed] Federal Register — public inspection (HHS/CDC), pre-publication
+### 🚨 [65.2] [page changed] Airlink news
+- **Verdict:** OPEN THIS — tier-1 airline page moved; content not auto-parsed, read it manually
+- **Source:** Airlink news · tier 1 · REG · airline
+- **First seen:** 2026-09-14T01:11+03:00 EAT · **Source date:** — none stated
+- **URL:** https://www.flyairlink.com/
+- **Extract:** Request unsuccessful. Incapsula incident ID: 69000030100441489-85224920094933239
+- **Score parts:** tier +40, category +12, lead +3.6, relevance +0, freshness +19.6, undated -6, page_change -4
+
+### 🟡 [85.6] Global Aviation This Week: New Routes, New Airline Bosses and a Very Busy Sky
+- **Verdict:** CONSIDER
+- **Source:** eTurboNews Africa · tier 3 · GLOBAL · trade
+- **First seen:** 2026-09-14T01:12+03:00 EAT · **Source date:** 2026-09-13
+- **URL:** https://eturbonews.com/global-aviation-news-airline-routes-airports-2
+- **Shock language:** strike
+- **Extract:** New airline routes, new CEOs, aircraft orders, airport disruptions and unexpected comebacks made this another restless week in global aviation. From Sydney and Dubai to London, Mexico and Africa, airlines are betting on growth while strikes, technology failure
+- **Score parts:** tier +5, category +5, lead +0, relevance +28, freshness +19.6, corroborated +10, shock +18
+
+### 🟡 [81.2] [page changed] Federal Register — public inspection (HHS/CDC), pre-publication
+- **Verdict:** CHECK — source date older than the window
+- **Source:** Federal Register — public inspection (HHS/CDC), pre-publication · tier 1 · REG · advisory
+- **First seen:** 2026-09-14T01:12+03:00 EAT · **Source date:** 2026-09-10
+- **URL:** https://www.federalregister.gov/api/v1/public-inspection-documents/current.json
+- **Extract:** {"count":157,"results":[{"agencies":[{"raw_name":"SECURITIES AND EXCHANGE COMMISSION","name":"Securities and Exchange Commission","id":466,"url":"https://www.federalregister.gov/agencies/securities-and-exchange-commission","json_url":"https://www.federalregist
+- **Score parts:** tier +40, category +32, lead +3.6, relevance +0, freshness +19.6, stale_trap -10, page_change -4
+
+### 🟡 [76.9] [page changed] Federal Register — public inspection (HHS/CDC), pre-publication
 - **Verdict:** CHECK — source date older than the window
 - **Source:** Federal Register — public inspection (HHS/CDC), pre-publication · tier 1 · REG · advisory
 - **First seen:** 2026-09-13T21:15+03:00 EAT · **Source date:** 2026-09-10
 - **URL:** https://www.federalregister.gov/api/v1/public-inspection-documents/current.json
 - **Extract:** {"count":157,"results":[{"agencies":[{"raw_name":"SECURITIES AND EXCHANGE COMMISSION","name":"Securities and Exchange Commission","id":466,"url":"https://www.federalregister.gov/agencies/securities-and-exchange-commission","json_url":"https://www.federalregist
-- **Score parts:** tier +40, category +32, lead +3.6, relevance +0, freshness +19.4, stale_trap -10, page_change -4
-
-### 🟡 [79.7] MINISTRY OF HEALTH AND WHO LAUNCH BASIC EMERGENCY CARE INITIATIVE TO STRENGTHEN EMERGENCY RESPONSE
-- **Verdict:** CONSIDER
-- **Source:** Uganda Ministry of Health — news · tier 1 · UG · health
-- **First seen:** 2026-09-13T16:49+03:00 EAT · **Source date:** 2026-09-11
-- **URL:** https://health.go.ug/ministry-of-health-and-who-launch-basic-emergency-care-initiative-to-strengthen-emergency-response
-- **Extract:** 11th September 2026, Kampala — The Ministry of Health, in collaboration with the World Health Organization (WHO) and other partners, launched the Acute Care Through Basic Emergency Care initiative, aimed at strengthening emergency care services and improving t
-- **Score parts:** tier +40, category +24, lead +1.2, relevance +0, freshness +14.5
-
-### 🟡 [79.7] MINISTRY OF HEALTH AND WHO LAUNCH BASIC EMERGENCY CARE INITIATIVE TO STRENGTHEN EMERGENCY RESPONSE
-- **Verdict:** CONSIDER
-- **Source:** Uganda Ministry of Health · tier 1 · UG · health
-- **First seen:** 2026-09-13T16:49+03:00 EAT · **Source date:** 2026-09-11
-- **URL:** https://health.go.ug/ministry-of-health-and-who-launch-basic-emergency-care-initiative-to-strengthen-emergency-response
-- **Extract:** 11th September 2026, Kampala — The Ministry of Health, in collaboration with the World Health Organization (WHO) and other partners, launched the Acute Care Through Basic Emergency Care initiative, aimed at strengthening emergency care services and improving t
-- **Score parts:** tier +40, category +24, lead +1.2, relevance +0, freshness +14.5
-
-### 🟡 [77.7] EMPOWER Field Mission Highlights Gains in Family Planning and Reproductive Health Services Across Wakiso and Kampala.
-- **Verdict:** CHECK — source date older than the window
-- **Source:** Uganda Ministry of Health — news · tier 1 · UG · health
-- **First seen:** 2026-09-13T16:49+03:00 EAT · **Source date:** 2026-09-09
-- **URL:** https://health.go.ug/empower-field-mission-highlights-gains-in-family-planning-and-reproductive-health-services-across-wakiso-and-kampala
-- **Extract:** 9th September 2026, Kampala – Ministry of Health, in collaboration with the United Nations Population Fund (UNFPA), the British High Commission and EMPOWER Project partners, concluded a two-day field mission aimed at assessing progress, documenting achievement
-- **Score parts:** tier +40, category +24, lead +1.2, relevance +8, freshness +14.5, stale_trap -10
-
-### 🟡 [77.7] EMPOWER Field Mission Highlights Gains in Family Planning and Reproductive Health Services Across Wakiso and Kampala.
-- **Verdict:** CHECK — source date older than the window
-- **Source:** Uganda Ministry of Health · tier 1 · UG · health
-- **First seen:** 2026-09-13T16:49+03:00 EAT · **Source date:** 2026-09-09
-- **URL:** https://health.go.ug/empower-field-mission-highlights-gains-in-family-planning-and-reproductive-health-services-across-wakiso-and-kampala
-- **Extract:** 9th September 2026, Kampala – Ministry of Health, in collaboration with the United Nations Population Fund (UNFPA), the British High Commission and EMPOWER Project partners, concluded a two-day field mission aimed at assessing progress, documenting achievement
-- **Score parts:** tier +40, category +24, lead +1.2, relevance +8, freshness +14.5, stale_trap -10
-
-### 🟡 [76.1] [page changed] Federal Register — public inspection (HHS/CDC), pre-publication
-- **Verdict:** CHECK — source date older than the window
-- **Source:** Federal Register — public inspection (HHS/CDC), pre-publication · tier 1 · REG · advisory
-- **First seen:** 2026-09-13T16:49+03:00 EAT · **Source date:** 2026-09-10
-- **URL:** https://www.federalregister.gov/api/v1/public-inspection-documents/current.json
-- **Extract:** {"count":157,"results":[{"agencies":[{"raw_name":"SECURITIES AND EXCHANGE COMMISSION","name":"Securities and Exchange Commission","id":466,"url":"https://www.federalregister.gov/agencies/securities-and-exchange-commission","json_url":"https://www.federalregist
-- **Score parts:** tier +40, category +32, lead +3.6, relevance +0, freshness +14.5, stale_trap -10, page_change -4
-
-### 🟡 [70.5] New report of attack on Strait of Hormuz shipping fans fears of threats to oil supplies
-- **Verdict:** CONSIDER
-- **Source:** Daily Monitor (Uganda) · tier 2 · UG · press
-- **First seen:** 2026-09-13T16:49+03:00 EAT · **Source date:** 2026-09-13
-- **URL:** https://www.monitor.co.ug/uganda/news/world/new-report-of-attack-on-strait-of-hormuz-shipping-fans-fears-of-threats-to-oil-supplies-5593362
-- **Shock language:** attack
-- **Extract:** Key Saudi East-West oil pipeline shut after drone attack
-- **Score parts:** tier +20, category +4, lead +0, relevance +4, freshness +14.5, corroborated +10, shock +18
-
-### 🟡 [69.7] PHC Minister Leads Eastern Uganda Field Mission as 484 CHEWs Pass Out in Mbale & Bukeddea Districts.
-- **Verdict:** CHECK — source date older than the window
-- **Source:** Uganda Ministry of Health — news · tier 1 · UG · health
-- **First seen:** 2026-09-13T16:49+03:00 EAT · **Source date:** 2026-09-08
-- **URL:** https://health.go.ug/phc-minister-leads-eastern-uganda-field-mission-as-484-chews-pass-out-in-mbale-bukeddea-districts
-- **Extract:** 8th September 2026, Mbale and Bukedea – The Ministry of Health has intensified efforts to strengthen primary health care services in Eastern Uganda, with the State Minister for Health in charge of Primary Health Care, Hon. Dr. Charles Ayume, leading a two-day 
-- **Score parts:** tier +40, category +24, lead +1.2, relevance +0, freshness +14.5, stale_trap -10
-
-### 🟡 [69.7] PHC Minister Leads Eastern Uganda Field Mission as 484 CHEWs Pass Out in Mbale & Bukeddea Districts.
-- **Verdict:** CHECK — source date older than the window
-- **Source:** Uganda Ministry of Health · tier 1 · UG · health
-- **First seen:** 2026-09-13T16:49+03:00 EAT · **Source date:** 2026-09-08
-- **URL:** https://health.go.ug/phc-minister-leads-eastern-uganda-field-mission-as-484-chews-pass-out-in-mbale-bukeddea-districts
-- **Extract:** 8th September 2026, Mbale and Bukedea – The Ministry of Health has intensified efforts to strengthen primary health care services in Eastern Uganda, with the State Minister for Health in charge of Primary Health Care, Hon. Dr. Charles Ayume, leading a two-day 
-- **Score parts:** tier +40, category +24, lead +1.2, relevance +0, freshness +14.5, stale_trap -10
+- **Score parts:** tier +40, category +32, lead +3.6, relevance +0, freshness +15.3, stale_trap -10, page_change -4
