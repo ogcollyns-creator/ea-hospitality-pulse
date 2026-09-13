@@ -1,23 +1,56 @@
 {
- "generated": "2026-09-13T17:08:32+03:00",
+ "generated": "2026-09-13T21:18:25+03:00",
  "slot": "evening",
  "window_start": 1789293600,
- "observations_in_window": 85,
- "deduped_against": 4,
+ "observations_in_window": 151,
+ "deduped_against": 8,
  "candidates": [
   {
-   "score": 84.6,
+   "score": 81.4,
    "components": {
     "tier": 40,
-    "category": 24,
-    "lead": 1.2,
+    "category": 32,
+    "lead": 3.6,
     "relevance": 0,
-    "freshness": 19.4
+    "freshness": 19.8,
+    "stale_trap": -10,
+    "page_change": -4
    },
    "keywords": [],
    "shock_terms": [],
    "dedupe_match": null,
    "dedupe_similarity": 0.0,
+   "id": "1c29a6eaebd7",
+   "title": "[page changed] Federal Register \u2014 public inspection (HHS/CDC), pre-publication",
+   "url": "https://www.federalregister.gov/api/v1/public-inspection-documents/current.json",
+   "summary": "{\"count\":157,\"results\":[{\"agencies\":[{\"raw_name\":\"SECURITIES AND EXCHANGE COMMISSION\",\"name\":\"Securities and Exchange Commission\",\"id\":466,\"url\":\"https://www.federalregister.gov/agencies/securities-and-exchange-commission\",\"json_url\":\"https://www.federalregister.gov/api/v1/agencies/466\",\"parent_id\":null,\"slug\":\"securities-and-exchange-commission\"}],\"agency_letters\":[],\"agency_names\":[\"Securities a",
+   "kind": "page-change",
+   "source": "Federal Register \u2014 public inspection (HHS/CDC), pre-publication",
+   "source_id": "us-fedreg-pubinspect-hhs",
+   "tier": 1,
+   "country": "REG",
+   "category": "advisory",
+   "segments": [
+    "city",
+    "bush"
+   ],
+   "first_seen": "2026-09-13T21:15+03:00",
+   "published": "2026-09-10",
+   "verdict": "CHECK \u2014 source date older than the window"
+  },
+  {
+   "score": 80.1,
+   "components": {
+    "tier": 40,
+    "category": 24,
+    "lead": 1.2,
+    "relevance": 0,
+    "freshness": 14.9
+   },
+   "keywords": [],
+   "shock_terms": [],
+   "dedupe_match": null,
+   "dedupe_similarity": 0.17,
    "id": "afffc7d51212",
    "title": "MINISTRY OF HEALTH AND WHO LAUNCH BASIC EMERGENCY CARE INITIATIVE TO STRENGTHEN EMERGENCY RESPONSE",
    "url": "https://health.go.ug/ministry-of-health-and-who-launch-basic-emergency-care-initiative-to-strengthen-emergency-response",
@@ -37,18 +70,18 @@
    "verdict": "CONSIDER"
   },
   {
-   "score": 84.6,
+   "score": 80.1,
    "components": {
     "tier": 40,
     "category": 24,
     "lead": 1.2,
     "relevance": 0,
-    "freshness": 19.4
+    "freshness": 14.9
    },
    "keywords": [],
    "shock_terms": [],
    "dedupe_match": null,
-   "dedupe_similarity": 0.0,
+   "dedupe_similarity": 0.17,
    "id": "b3e7e4bb7b71",
    "title": "MINISTRY OF HEALTH AND WHO LAUNCH BASIC EMERGENCY CARE INITIATIVE TO STRENGTHEN EMERGENCY RESPONSE",
    "url": "https://health.go.ug/ministry-of-health-and-who-launch-basic-emergency-care-initiative-to-strengthen-emergency-response",
@@ -69,13 +102,13 @@
    "verdict": "CONSIDER"
   },
   {
-   "score": 82.6,
+   "score": 78.1,
    "components": {
     "tier": 40,
     "category": 24,
     "lead": 1.2,
     "relevance": 8,
-    "freshness": 19.4,
+    "freshness": 14.9,
     "stale_trap": -10
    },
    "keywords": [
@@ -103,13 +136,13 @@
    "verdict": "CHECK \u2014 source date older than the window"
   },
   {
-   "score": 82.6,
+   "score": 78.1,
    "components": {
     "tier": 40,
     "category": 24,
     "lead": 1.2,
     "relevance": 8,
-    "freshness": 19.4,
+    "freshness": 14.9,
     "stale_trap": -10
    },
    "keywords": [
@@ -138,13 +171,13 @@
    "verdict": "CHECK \u2014 source date older than the window"
   },
   {
-   "score": 81.0,
+   "score": 76.5,
    "components": {
     "tier": 40,
     "category": 32,
     "lead": 3.6,
     "relevance": 0,
-    "freshness": 19.4,
+    "freshness": 14.9,
     "stale_trap": -10,
     "page_change": -4
    },
@@ -171,13 +204,13 @@
    "verdict": "CHECK \u2014 source date older than the window"
   },
   {
-   "score": 75.4,
+   "score": 70.9,
    "components": {
     "tier": 20,
     "category": 4,
     "lead": 0.0,
     "relevance": 4,
-    "freshness": 19.4,
+    "freshness": 14.9,
     "corroborated": 10,
     "shock": 18
    },
@@ -209,13 +242,13 @@
    "verdict": "CONSIDER"
   },
   {
-   "score": 74.6,
+   "score": 70.1,
    "components": {
     "tier": 40,
     "category": 24,
     "lead": 1.2,
     "relevance": 0,
-    "freshness": 19.4,
+    "freshness": 14.9,
     "stale_trap": -10
    },
    "keywords": [],
@@ -241,13 +274,13 @@
    "verdict": "CHECK \u2014 source date older than the window"
   },
   {
-   "score": 74.6,
+   "score": 70.1,
    "components": {
     "tier": 40,
     "category": 24,
     "lead": 1.2,
     "relevance": 0,
-    "freshness": 19.4,
+    "freshness": 14.9,
     "stale_trap": -10
    },
    "keywords": [],
@@ -274,13 +307,225 @@
    "verdict": "CHECK \u2014 source date older than the window"
   },
   {
-   "score": 66.0,
+   "score": 65.8,
+   "components": {
+    "tier": 20,
+    "category": 4,
+    "lead": 0.0,
+    "relevance": 12,
+    "freshness": 19.8,
+    "corroborated": 10
+   },
+   "keywords": [
+    "eta",
+    "tourism"
+   ],
+   "shock_terms": [],
+   "dedupe_match": null,
+   "dedupe_similarity": 0.25,
+   "id": "ff6ff3042c84",
+   "title": "Tanzania, US deepen development ties",
+   "url": "https://dailynews.co.tz/tanzania-us-deepen-development-ties",
+   "summary": "NAIROBI: TANZANIA and the United States have reaffirmed their commitment to strengthening cooperation in key development sectors, including health, agriculture, energy, minerals, infrastructure, education and tourism. The commitment was made during talks between Deputy Minister for Finance Laurent Luswetula and US Deputy Secretary of the Treasury for International Affairs Erin Browne on Friday in ",
+   "kind": "item",
+   "source": "Daily News (Tanzania)",
+   "source_id": "np-dailynews-tz",
+   "tier": 2,
+   "country": "TZ",
+   "category": "press",
+   "segments": [
+    "city",
+    "bush",
+    "beach"
+   ],
+   "first_seen": "2026-09-13T21:16+03:00",
+   "published": "2026-09-13",
+   "verdict": "weak"
+  },
+  {
+   "score": 65.8,
+   "components": {
+    "tier": 20,
+    "category": 4,
+    "lead": 0.0,
+    "relevance": 12,
+    "freshness": 19.8,
+    "corroborated": 10
+   },
+   "keywords": [
+    "flood",
+    "camp"
+   ],
+   "shock_terms": [],
+   "dedupe_match": null,
+   "dedupe_similarity": 0.17,
+   "id": "17dd29770db3",
+   "title": "El-Nino readiness intensifies",
+   "url": "https://dailynews.co.tz/el-nino-readiness-intensifies",
+   "summary": "ZANZIBAR: TANZANIA is stepping up preparations for potentially heavy El Ni\u00f1o-related rains, with authorities in Zanzibar ordering drainage systems cleared and emergency services placed on standby while officials urge communities to act before flooding occurs. Zanzibar President Hussein Mwinyi yesterday directed government leaders and relevant institutions to intensify public awareness campaigns an",
+   "kind": "item",
+   "source": "Daily News (Tanzania)",
+   "source_id": "np-dailynews-tz",
+   "tier": 2,
+   "country": "TZ",
+   "category": "press",
+   "segments": [
+    "city",
+    "bush",
+    "beach"
+   ],
+   "first_seen": "2026-09-13T21:16+03:00",
+   "published": "2026-09-13",
+   "verdict": "weak"
+  },
+  {
+   "score": 61.8,
+   "components": {
+    "tier": 20,
+    "category": 4,
+    "lead": 0.0,
+    "relevance": 8,
+    "freshness": 19.8,
+    "corroborated": 10
+   },
+   "keywords": [
+    "fee"
+   ],
+   "shock_terms": [],
+   "dedupe_match": null,
+   "dedupe_similarity": 0.0,
+   "id": "3ce7d3c48cb0",
+   "title": "Samia Scholarship takes 150 students to Algeria",
+   "url": "https://dailynews.co.tz/samia-scholarship-takes-150-students-to-algeria",
+   "summary": "DAR ES SALAAM: ALGERIA has offered 150 university study opportunities to Tanzanian students under the Samia Scholarship programme, covering their tuition fees while Tanzania meets their living expenses. The beneficiaries are among 1,000 students selected under the programme to pursue Science, Technology, Engineering and Mathematics (STEM) studies. Speaking to journalists yesterday in Dar es Salaam",
+   "kind": "item",
+   "source": "Daily News (Tanzania)",
+   "source_id": "np-dailynews-tz",
+   "tier": 2,
+   "country": "TZ",
+   "category": "press",
+   "segments": [
+    "city",
+    "bush",
+    "beach"
+   ],
+   "first_seen": "2026-09-13T21:16+03:00",
+   "published": "2026-09-13",
+   "verdict": "weak"
+  },
+  {
+   "score": 61.8,
+   "components": {
+    "tier": 20,
+    "category": 4,
+    "lead": 0.0,
+    "relevance": 8,
+    "freshness": 19.8,
+    "corroborated": 10
+   },
+   "keywords": [
+    "electricity"
+   ],
+   "shock_terms": [],
+   "dedupe_match": null,
+   "dedupe_similarity": 0.0,
+   "id": "b1de93d2cf4c",
+   "title": "TANESCO, TBEA sign 198.67bn/- electricy project contract",
+   "url": "https://dailynews.co.tz/tanesco-tbea-sign-198-67bn-electricy-project-contract",
+   "summary": "SONGWE: THE Tanzania Electric Supply Company (TANESCO) and China-based TBEA Company have signed a 198.67bn/- contract for construction of a 220kV electricity transmission line from Iganjo in Mbeya Region to Saza in Songwe Region, alongside construction of a substation at Saza. The 18-month project is expected to improve electricity supply in Songwe and Chunya District \u2026 The post TANESCO, TBEA sign",
+   "kind": "item",
+   "source": "Daily News (Tanzania)",
+   "source_id": "np-dailynews-tz",
+   "tier": 2,
+   "country": "TZ",
+   "category": "press",
+   "segments": [
+    "city",
+    "bush",
+    "beach"
+   ],
+   "first_seen": "2026-09-13T21:16+03:00",
+   "published": "2026-09-13",
+   "verdict": "weak"
+  },
+  {
+   "score": 61.8,
+   "components": {
+    "tier": 20,
+    "category": 4,
+    "lead": 0.0,
+    "relevance": 8,
+    "freshness": 19.8,
+    "corroborated": 10
+   },
+   "keywords": [
+    "electricity"
+   ],
+   "shock_terms": [],
+   "dedupe_match": null,
+   "dedupe_similarity": 0.33,
+   "id": "a515fa2fe825",
+   "title": "Dar to join regional power grid by February",
+   "url": "https://dailynews.co.tz/dar-to-join-regional-power-grid-by-february",
+   "summary": "ZANZIBAR: TANZANIA and Zambia are expected to join the Southern African Power Pool (SAPP) regional electricity grid by February 2027, strengthening power trading and energy cooperation between East and Southern Africa. Speaking at the closing of the three-day 67th SAPP Management Committee meeting in Zanzibar, Deputy Minister for Water, Energy and Minerals Seif Kombo Pandu \u2026 The post Dar to join r",
+   "kind": "item",
+   "source": "Daily News (Tanzania)",
+   "source_id": "np-dailynews-tz",
+   "tier": 2,
+   "country": "TZ",
+   "category": "press",
+   "segments": [
+    "city",
+    "bush",
+    "beach"
+   ],
+   "first_seen": "2026-09-13T21:16+03:00",
+   "published": "2026-09-13",
+   "verdict": "weak"
+  },
+  {
+   "score": 61.8,
+   "components": {
+    "tier": 20,
+    "category": 4,
+    "lead": 0.0,
+    "relevance": 8,
+    "freshness": 19.8,
+    "corroborated": 10
+   },
+   "keywords": [
+    "fee"
+   ],
+   "shock_terms": [],
+   "dedupe_match": null,
+   "dedupe_similarity": 0.0,
+   "id": "aab1b0e04412",
+   "title": "Breastfeeding accounts for 73 per cent of mother-to-child HIV infections",
+   "url": "https://www.monitor.co.ug/uganda/news/national/breastfeeding-accounts-for-73-per-cent-of-mother-to-child-hiv-infections-5593722",
+   "summary": "Treatment dropouts linked to rising HIV infections during breastfeeding",
+   "kind": "item",
+   "source": "Daily Monitor (Uganda)",
+   "source_id": "np-monitor-ug",
+   "tier": 2,
+   "country": "UG",
+   "category": "press",
+   "segments": [
+    "city",
+    "bush",
+    "beach"
+   ],
+   "first_seen": "2026-09-13T21:16+03:00",
+   "published": "2026-09-13",
+   "verdict": "weak"
+  },
+  {
+   "score": 61.5,
    "components": {
     "tier": 20,
     "category": 9,
     "lead": 3.6,
     "relevance": 4,
-    "freshness": 19.4,
+    "freshness": 14.9,
     "corroborated": 10
    },
    "keywords": [
@@ -308,13 +553,13 @@
    "verdict": "weak"
   },
   {
-   "score": 66.0,
+   "score": 61.5,
    "components": {
     "tier": 20,
     "category": 9,
     "lead": 3.6,
     "relevance": 4,
-    "freshness": 19.4,
+    "freshness": 14.9,
     "corroborated": 10
    },
    "keywords": [
@@ -342,47 +587,13 @@
    "verdict": "weak"
   },
   {
-   "score": 66.0,
-   "components": {
-    "tier": 20,
-    "category": 9,
-    "lead": 3.6,
-    "relevance": 4,
-    "freshness": 19.4,
-    "corroborated": 10
-   },
-   "keywords": [
-    "hotel"
-   ],
-   "shock_terms": [],
-   "dedupe_match": null,
-   "dedupe_similarity": 0.0,
-   "id": "b23384f48bfa",
-   "title": "Travel Management: Hotelverzeichnis des Bundes f\u00fchrt zu Streit",
-   "url": "https://www.fvw.de/businesstravel/travelmanagement/travel-management-hotelverzeichnis-des-bundes-sorgt-fuer-streit-264514",
-   "summary": "Die neuen Nachhaltigkeitskriterien f\u00fcr das Hotelverzeichnis des Bundes l\u00f6sen Diskussionen in der Hotellerie aus. IHA-Gesch\u00e4ftsf\u00fchrer Markus Luthe wirft dem Umweltbundesamt eine zu starke Fokussierung auf Umweltaspekte vor und sieht Schw\u00e4chen bei der Anerkennung von Zertifizierungssystemen.",
-   "kind": "item",
-   "source": "FVW / German travel trade",
-   "source_id": "sm-derreise",
-   "tier": 2,
-   "country": "GLOBAL",
-   "category": "source-market",
-   "segments": [
-    "beach",
-    "bush"
-   ],
-   "first_seen": "2026-09-13T16:49+03:00",
-   "published": "2026-09-11",
-   "verdict": "weak"
-  },
-  {
-   "score": 65.4,
+   "score": 60.9,
    "components": {
     "tier": 20,
     "category": 4,
     "lead": 0.0,
     "relevance": 12,
-    "freshness": 19.4,
+    "freshness": 14.9,
     "corroborated": 10
    },
    "keywords": [
@@ -411,13 +622,49 @@
    "verdict": "weak"
   },
   {
-   "score": 63.6,
+   "score": 60.2,
+   "components": {
+    "tier": 20,
+    "category": 24,
+    "lead": 2.4,
+    "relevance": 4,
+    "freshness": 19.8,
+    "undated": -6,
+    "page_change": -4
+   },
+   "keywords": [
+    "camp"
+   ],
+   "shock_terms": [],
+   "dedupe_match": null,
+   "dedupe_similarity": 0.0,
+   "id": "a02cd07351b6",
+   "title": "[page changed] ProMED-mail",
+   "url": "https://promedmail.org/",
+   "summary": "Protecting Global Health, One Alert at a Time | ProMED Previous slide Next slide Protecting Global Health, One Alert at a Time ProMED: Your 24/7 early warning system for emerging infectious diseases worldwide. Subscribe ProMED's Weekly Pulse A snapshot of global health events from the past 7 days Latest Posts on ProMED All Date Title Sun Sep 13 2026 DENGUE \u2013 M\u00c9XICO: (SINALOA) BROTE, COMUNIDAD IND\u00cd",
+   "kind": "page-change",
+   "source": "ProMED-mail",
+   "source_id": "promed",
+   "tier": 2,
+   "country": "GLOBAL",
+   "category": "health",
+   "segments": [
+    "city",
+    "bush",
+    "beach"
+   ],
+   "first_seen": "2026-09-13T21:16+03:00",
+   "published": null,
+   "verdict": "weak"
+  },
+  {
+   "score": 59.1,
    "components": {
     "tier": 20,
     "category": 5,
     "lead": 1.2,
     "relevance": 8,
-    "freshness": 19.4,
+    "freshness": 14.9,
     "corroborated": 10
    },
    "keywords": [
@@ -447,13 +694,48 @@
    "verdict": "weak"
   },
   {
-   "score": 62.0,
+   "score": 57.8,
+   "components": {
+    "tier": 20,
+    "category": 4,
+    "lead": 0.0,
+    "relevance": 4,
+    "freshness": 19.8,
+    "corroborated": 10
+   },
+   "keywords": [
+    "opening"
+   ],
+   "shock_terms": [],
+   "dedupe_match": null,
+   "dedupe_similarity": 0.0,
+   "id": "57b7fb9c4123",
+   "title": "School reopening marred by Mbarara-Bushenyi crash as Kamuli orders immediate teaching",
+   "url": "https://www.monitor.co.ug/uganda/news/national/school-reopening-marred-by-mbarara-bushenyi-crash-as-kamuli-orders-immediate-teaching-5593760",
+   "summary": "The students were reportedly travelling back to school for the new term that starts September...",
+   "kind": "item",
+   "source": "Daily Monitor (Uganda)",
+   "source_id": "np-monitor-ug",
+   "tier": 2,
+   "country": "UG",
+   "category": "press",
+   "segments": [
+    "city",
+    "bush",
+    "beach"
+   ],
+   "first_seen": "2026-09-13T21:16+03:00",
+   "published": "2026-09-13",
+   "verdict": "weak"
+  },
+  {
+   "score": 57.5,
    "components": {
     "tier": 20,
     "category": 9,
     "lead": 3.6,
     "relevance": 0,
-    "freshness": 19.4,
+    "freshness": 14.9,
     "corroborated": 10
    },
    "keywords": [],
@@ -479,13 +761,13 @@
    "verdict": "weak"
   },
   {
-   "score": 62.0,
+   "score": 57.5,
    "components": {
     "tier": 20,
     "category": 9,
     "lead": 3.6,
     "relevance": 0,
-    "freshness": 19.4,
+    "freshness": 14.9,
     "corroborated": 10
    },
    "keywords": [],
@@ -511,13 +793,13 @@
    "verdict": "weak"
   },
   {
-   "score": 61.4,
+   "score": 56.9,
    "components": {
     "tier": 20,
     "category": 4,
     "lead": 0.0,
     "relevance": 8,
-    "freshness": 19.4,
+    "freshness": 14.9,
     "corroborated": 10
    },
    "keywords": [
@@ -546,13 +828,13 @@
    "verdict": "weak"
   },
   {
-   "score": 61.4,
+   "score": 56.9,
    "components": {
     "tier": 20,
     "category": 4,
     "lead": 0.0,
     "relevance": 8,
-    "freshness": 19.4,
+    "freshness": 14.9,
     "corroborated": 10
    },
    "keywords": [
@@ -581,13 +863,13 @@
    "verdict": "weak"
   },
   {
-   "score": 61.4,
+   "score": 56.9,
    "components": {
     "tier": 20,
     "category": 4,
     "lead": 0.0,
     "relevance": 8,
-    "freshness": 19.4,
+    "freshness": 14.9,
     "corroborated": 10
    },
    "keywords": [
@@ -617,13 +899,13 @@
    "verdict": "weak"
   },
   {
-   "score": 59.6,
+   "score": 55.1,
    "components": {
     "tier": 20,
     "category": 5,
     "lead": 1.2,
     "relevance": 4,
-    "freshness": 19.4,
+    "freshness": 14.9,
     "corroborated": 10
    },
    "keywords": [
@@ -652,13 +934,343 @@
    "verdict": "weak"
   },
   {
-   "score": 57.4,
+   "score": 53.8,
+   "components": {
+    "tier": 20,
+    "category": 4,
+    "lead": 0.0,
+    "relevance": 0,
+    "freshness": 19.8,
+    "corroborated": 10
+   },
+   "keywords": [],
+   "shock_terms": [],
+   "dedupe_match": null,
+   "dedupe_similarity": 0.0,
+   "id": "25ecf117eb46",
+   "title": "Watani wa Jadi, please pass the Pamoja AFCON 2027 cake!",
+   "url": "https://dailynews.co.tz/watani-wa-jadi-please-pass-the-pamoja-afcon-2027-cake",
+   "summary": "DAR ES SALAAM: A SMALL word before we begin: Watani wa Jadi is used here in the old East African spirit of affectionate rivalry, teasing and neighbourly banter. In Tanzania, the phrase is often applied to Kenyans, not as an insult, but as a warm acknowledgement of a relationship built on history, proximity, shared culture, \u2026 The post Watani wa Jadi, please pass the Pamoja AFCON 2027 cake! appeared",
+   "kind": "item",
+   "source": "Daily News (Tanzania)",
+   "source_id": "np-dailynews-tz",
+   "tier": 2,
+   "country": "TZ",
+   "category": "press",
+   "segments": [
+    "city",
+    "bush",
+    "beach"
+   ],
+   "first_seen": "2026-09-13T21:16+03:00",
+   "published": "2026-09-13",
+   "verdict": "weak"
+  },
+  {
+   "score": 53.8,
+   "components": {
+    "tier": 20,
+    "category": 4,
+    "lead": 0.0,
+    "relevance": 0,
+    "freshness": 19.8,
+    "corroborated": 10
+   },
+   "keywords": [],
+   "shock_terms": [],
+   "dedupe_match": null,
+   "dedupe_similarity": 0.0,
+   "id": "55a4ec2f9d7c",
+   "title": "Kijanangoma pledges open palace, development if crowned Tooro King",
+   "url": "https://www.monitor.co.ug/uganda/news/national/kijanangoma-pledges-open-palace-development-if-crowned-tooro-king-5593662",
+   "summary": "Kijanangoma urged Batooro to draw lessons from the unity he said had helped other kingdoms...",
+   "kind": "item",
+   "source": "Daily Monitor (Uganda)",
+   "source_id": "np-monitor-ug",
+   "tier": 2,
+   "country": "UG",
+   "category": "press",
+   "segments": [
+    "city",
+    "bush",
+    "beach"
+   ],
+   "first_seen": "2026-09-13T21:16+03:00",
+   "published": "2026-09-13",
+   "verdict": "weak"
+  },
+  {
+   "score": 53.8,
+   "components": {
+    "tier": 20,
+    "category": 4,
+    "lead": 0.0,
+    "relevance": 0,
+    "freshness": 19.8,
+    "corroborated": 10
+   },
+   "keywords": [],
+   "shock_terms": [],
+   "dedupe_match": null,
+   "dedupe_similarity": 0.0,
+   "id": "0bca5bba60da",
+   "title": "Property developers back suspension of special land titles",
+   "url": "https://www.monitor.co.ug/uganda/news/national/property-developers-back-suspension-of-special-land-titles-5593710",
+   "summary": "Land stakeholders call for tougher checks on replacement titles",
+   "kind": "item",
+   "source": "Daily Monitor (Uganda)",
+   "source_id": "np-monitor-ug",
+   "tier": 2,
+   "country": "UG",
+   "category": "press",
+   "segments": [
+    "city",
+    "bush",
+    "beach"
+   ],
+   "first_seen": "2026-09-13T21:16+03:00",
+   "published": "2026-09-13",
+   "verdict": "weak"
+  },
+  {
+   "score": 53.8,
+   "components": {
+    "tier": 20,
+    "category": 4,
+    "lead": 0.0,
+    "relevance": 0,
+    "freshness": 19.8,
+    "corroborated": 10
+   },
+   "keywords": [],
+   "shock_terms": [],
+   "dedupe_match": null,
+   "dedupe_similarity": 0.0,
+   "id": "e8d8771adf19",
+   "title": "TVET diploma applicants to undergo interviews, practical assessments",
+   "url": "https://www.monitor.co.ug/uganda/news/national/tvet-diploma-applicants-to-undergo-interviews-practical-assessments-5593800",
+   "summary": "Applicants to undergo competency assessments",
+   "kind": "item",
+   "source": "Daily Monitor (Uganda)",
+   "source_id": "np-monitor-ug",
+   "tier": 2,
+   "country": "UG",
+   "category": "press",
+   "segments": [
+    "city",
+    "bush",
+    "beach"
+   ],
+   "first_seen": "2026-09-13T21:16+03:00",
+   "published": "2026-09-13",
+   "verdict": "weak"
+  },
+  {
+   "score": 53.8,
+   "components": {
+    "tier": 20,
+    "category": 4,
+    "lead": 0.0,
+    "relevance": 0,
+    "freshness": 19.8,
+    "corroborated": 10
+   },
+   "keywords": [],
+   "shock_terms": [],
+   "dedupe_match": null,
+   "dedupe_similarity": 0.17,
+   "id": "ebda37bdd8fd",
+   "title": "Nigeria turns to Uganda for sickle-cell treatment",
+   "url": "https://www.monitor.co.ug/uganda/news/national/nigeria-turns-to-uganda-for-sickle-cell-treatment-5593738",
+   "summary": "Nigeria seeks Uganda partnership on sickle-cell treatment",
+   "kind": "item",
+   "source": "Daily Monitor (Uganda)",
+   "source_id": "np-monitor-ug",
+   "tier": 2,
+   "country": "UG",
+   "category": "press",
+   "segments": [
+    "city",
+    "bush",
+    "beach"
+   ],
+   "first_seen": "2026-09-13T21:16+03:00",
+   "published": "2026-09-13",
+   "verdict": "weak"
+  },
+  {
+   "score": 53.8,
+   "components": {
+    "tier": 20,
+    "category": 4,
+    "lead": 0.0,
+    "relevance": 0,
+    "freshness": 19.8,
+    "corroborated": 10
+   },
+   "keywords": [],
+   "shock_terms": [],
+   "dedupe_match": null,
+   "dedupe_similarity": 0.0,
+   "id": "3386c02cc262",
+   "title": "Soroti number plate theft: Suspects arrested in Mbarara, Kole, Lira",
+   "url": "https://www.monitor.co.ug/uganda/news/national/soroti-number-plate-theft-suspects-arrested-in-mbarara-kole-lira-5593650",
+   "summary": "Police probe organised gang behind Soroti number plate thefts",
+   "kind": "item",
+   "source": "Daily Monitor (Uganda)",
+   "source_id": "np-monitor-ug",
+   "tier": 2,
+   "country": "UG",
+   "category": "press",
+   "segments": [
+    "city",
+    "bush",
+    "beach"
+   ],
+   "first_seen": "2026-09-13T21:16+03:00",
+   "published": "2026-09-13",
+   "verdict": "weak"
+  },
+  {
+   "score": 53.8,
+   "components": {
+    "tier": 20,
+    "category": 4,
+    "lead": 0.0,
+    "relevance": 0,
+    "freshness": 19.8,
+    "corroborated": 10
+   },
+   "keywords": [],
+   "shock_terms": [],
+   "dedupe_match": null,
+   "dedupe_similarity": 0.0,
+   "id": "550ff6513bb9",
+   "title": "Kalangala fisherman accused of killing wife over childlessness, police say",
+   "url": "https://www.monitor.co.ug/uganda/news/national/kalangala-fisherman-accused-of-killing-wife-over-childlessness-police-say-5593548",
+   "summary": "Childlessness, adultery allegations precede Kalangala woman\u2019s death",
+   "kind": "item",
+   "source": "Daily Monitor (Uganda)",
+   "source_id": "np-monitor-ug",
+   "tier": 2,
+   "country": "UG",
+   "category": "press",
+   "segments": [
+    "city",
+    "bush",
+    "beach"
+   ],
+   "first_seen": "2026-09-13T21:16+03:00",
+   "published": "2026-09-13",
+   "verdict": "weak"
+  },
+  {
+   "score": 53.8,
+   "components": {
+    "tier": 20,
+    "category": 4,
+    "lead": 0.0,
+    "relevance": 0,
+    "freshness": 19.8,
+    "corroborated": 10
+   },
+   "keywords": [],
+   "shock_terms": [],
+   "dedupe_match": null,
+   "dedupe_similarity": 0.2,
+   "id": "f2a19c3fd9bc",
+   "title": "Police officer kills himself after shooting two at Freedom City",
+   "url": "https://www.monitor.co.ug/uganda/news/national/police-officer-kills-himself-after-shooting-two-at-freedom-city-5593602",
+   "summary": "Two injured after police officer opens fire at Freedom City",
+   "kind": "item",
+   "source": "Daily Monitor (Uganda)",
+   "source_id": "np-monitor-ug",
+   "tier": 2,
+   "country": "UG",
+   "category": "press",
+   "segments": [
+    "city",
+    "bush",
+    "beach"
+   ],
+   "first_seen": "2026-09-13T21:16+03:00",
+   "published": "2026-09-13",
+   "verdict": "weak"
+  },
+  {
+   "score": 53.8,
+   "components": {
+    "tier": 20,
+    "category": 4,
+    "lead": 0.0,
+    "relevance": 0,
+    "freshness": 19.8,
+    "corroborated": 10
+   },
+   "keywords": [],
+   "shock_terms": [],
+   "dedupe_match": null,
+   "dedupe_similarity": 0.0,
+   "id": "20942f6bb48c",
+   "title": "Inside Justice Deepa Verma's legal battle with cousins over family estate",
+   "url": "https://www.monitor.co.ug/uganda/news/national/inside-justice-deepa-verma-s-legal-battle-with-cousins-over-family-estate-5593612",
+   "summary": "High Court judge, cousins fight over disputed properties",
+   "kind": "item",
+   "source": "Daily Monitor (Uganda)",
+   "source_id": "np-monitor-ug",
+   "tier": 2,
+   "country": "UG",
+   "category": "press",
+   "segments": [
+    "city",
+    "bush",
+    "beach"
+   ],
+   "first_seen": "2026-09-13T21:16+03:00",
+   "published": "2026-09-13",
+   "verdict": "weak"
+  },
+  {
+   "score": 53.8,
+   "components": {
+    "tier": 20,
+    "category": 4,
+    "lead": 0.0,
+    "relevance": 0,
+    "freshness": 19.8,
+    "corroborated": 10
+   },
+   "keywords": [],
+   "shock_terms": [],
+   "dedupe_match": null,
+   "dedupe_similarity": 0.0,
+   "id": "4e4e3649d25a",
+   "title": "Police officer arrested after challenging bosses over domestic violence case",
+   "url": "https://www.monitor.co.ug/uganda/news/national/police-officer-arrested-after-challenging-bosses-over-domestic-violence-case-5593580",
+   "summary": "Police said officers are required to use established administrative and professional channels...",
+   "kind": "item",
+   "source": "Daily Monitor (Uganda)",
+   "source_id": "np-monitor-ug",
+   "tier": 2,
+   "country": "UG",
+   "category": "press",
+   "segments": [
+    "city",
+    "bush",
+    "beach"
+   ],
+   "first_seen": "2026-09-13T21:16+03:00",
+   "published": "2026-09-13",
+   "verdict": "weak"
+  },
+  {
+   "score": 52.9,
    "components": {
     "tier": 20,
     "category": 4,
     "lead": 0.0,
     "relevance": 4,
-    "freshness": 19.4,
+    "freshness": 14.9,
     "corroborated": 10
    },
    "keywords": [
@@ -687,13 +1299,13 @@
    "verdict": "weak"
   },
   {
-   "score": 57.4,
+   "score": 52.9,
    "components": {
     "tier": 20,
     "category": 4,
     "lead": 0.0,
     "relevance": 4,
-    "freshness": 19.4,
+    "freshness": 14.9,
     "corroborated": 10
    },
    "keywords": [
@@ -722,13 +1334,13 @@
    "verdict": "weak"
   },
   {
-   "score": 57.4,
+   "score": 52.9,
    "components": {
     "tier": 20,
     "category": 4,
     "lead": 0.0,
     "relevance": 4,
-    "freshness": 19.4,
+    "freshness": 14.9,
     "corroborated": 10
    },
    "keywords": [
@@ -746,600 +1358,6 @@
    "source_id": "np-ktpress-rw",
    "tier": 2,
    "country": "RW",
-   "category": "press",
-   "segments": [
-    "city",
-    "bush",
-    "beach"
-   ],
-   "first_seen": "2026-09-13T16:49+03:00",
-   "published": "2026-09-13",
-   "verdict": "weak"
-  },
-  {
-   "score": 53.4,
-   "components": {
-    "tier": 20,
-    "category": 4,
-    "lead": 0.0,
-    "relevance": 0,
-    "freshness": 19.4,
-    "corroborated": 10
-   },
-   "keywords": [],
-   "shock_terms": [],
-   "dedupe_match": null,
-   "dedupe_similarity": 0.0,
-   "id": "e78d542c6a86",
-   "title": "King Oyo\u2019s last journey",
-   "url": "https://www.monitor.co.ug/uganda/news/national/king-oyo-s-last-journey-5593456",
-   "summary": "Footsteps. Silence. Grief. Everyone understood the heaviness of the day. This was the last day.",
-   "kind": "item",
-   "source": "Daily Monitor (Uganda)",
-   "source_id": "np-monitor-ug",
-   "tier": 2,
-   "country": "UG",
-   "category": "press",
-   "segments": [
-    "city",
-    "bush",
-    "beach"
-   ],
-   "first_seen": "2026-09-13T16:49+03:00",
-   "published": "2026-09-13",
-   "verdict": "weak"
-  },
-  {
-   "score": 53.4,
-   "components": {
-    "tier": 20,
-    "category": 4,
-    "lead": 0.0,
-    "relevance": 0,
-    "freshness": 19.4,
-    "corroborated": 10
-   },
-   "keywords": [],
-   "shock_terms": [],
-   "dedupe_match": null,
-   "dedupe_similarity": 0.17,
-   "id": "8e76db6687ee",
-   "title": "Unregulated sexual activity, social media threaten Uganda\u2019s 2030 HIV fight",
-   "url": "https://www.monitor.co.ug/uganda/news/national/unregulated-sexual-activity-social-media-threaten-uganda-s-2030-hiv-fight-5593408",
-   "summary": "According to the Uganda AIDS Commission, about 1.5 million people were living with HIV in...",
-   "kind": "item",
-   "source": "Daily Monitor (Uganda)",
-   "source_id": "np-monitor-ug",
-   "tier": 2,
-   "country": "UG",
-   "category": "press",
-   "segments": [
-    "city",
-    "bush",
-    "beach"
-   ],
-   "first_seen": "2026-09-13T16:49+03:00",
-   "published": "2026-09-13",
-   "verdict": "weak"
-  },
-  {
-   "score": 53.4,
-   "components": {
-    "tier": 20,
-    "category": 4,
-    "lead": 0.0,
-    "relevance": 0,
-    "freshness": 19.4,
-    "corroborated": 10
-   },
-   "keywords": [],
-   "shock_terms": [],
-   "dedupe_match": null,
-   "dedupe_similarity": 0.0,
-   "id": "ea02ef123079",
-   "title": "Seven arrested over murder of KIU student in Wakiso",
-   "url": "https://www.monitor.co.ug/uganda/news/national/seven-arrested-over-murder-of-kiu-student-in-wakiso-5593380",
-   "summary": "The first suspect was picked up from Kiyanja on September 3",
-   "kind": "item",
-   "source": "Daily Monitor (Uganda)",
-   "source_id": "np-monitor-ug",
-   "tier": 2,
-   "country": "UG",
-   "category": "press",
-   "segments": [
-    "city",
-    "bush",
-    "beach"
-   ],
-   "first_seen": "2026-09-13T16:49+03:00",
-   "published": "2026-09-13",
-   "verdict": "weak"
-  },
-  {
-   "score": 53.4,
-   "components": {
-    "tier": 20,
-    "category": 4,
-    "lead": 0.0,
-    "relevance": 0,
-    "freshness": 19.4,
-    "corroborated": 10
-   },
-   "keywords": [],
-   "shock_terms": [],
-   "dedupe_match": null,
-   "dedupe_similarity": 0.17,
-   "id": "051e289b0a2a",
-   "title": "Uganda\u2019s karmic responsibility",
-   "url": "https://www.monitor.co.ug/uganda/oped/commentary/uganda-s-karmic-responsibility-5592954",
-   "summary": "Mr Museveni had absolved himself of the consequences of his actions by letting them be known",
-   "kind": "item",
-   "source": "Daily Monitor (Uganda)",
-   "source_id": "np-monitor-ug",
-   "tier": 2,
-   "country": "UG",
-   "category": "press",
-   "segments": [
-    "city",
-    "bush",
-    "beach"
-   ],
-   "first_seen": "2026-09-13T16:49+03:00",
-   "published": "2026-09-13",
-   "verdict": "weak"
-  },
-  {
-   "score": 53.4,
-   "components": {
-    "tier": 20,
-    "category": 4,
-    "lead": 0.0,
-    "relevance": 0,
-    "freshness": 19.4,
-    "corroborated": 10
-   },
-   "keywords": [],
-   "shock_terms": [],
-   "dedupe_match": null,
-   "dedupe_similarity": 0.0,
-   "id": "159bb237f8b6",
-   "title": "Kagame may not be perfect, but he\u2019s spot on about Africa",
-   "url": "https://www.monitor.co.ug/uganda/oped/commentary/kagame-may-not-be-perfect-but-he-s-spot-on-about-africa-5592948",
-   "summary": "Mindset reset will start to make sense when it evolves from words to actions",
-   "kind": "item",
-   "source": "Daily Monitor (Uganda)",
-   "source_id": "np-monitor-ug",
-   "tier": 2,
-   "country": "UG",
-   "category": "press",
-   "segments": [
-    "city",
-    "bush",
-    "beach"
-   ],
-   "first_seen": "2026-09-13T16:49+03:00",
-   "published": "2026-09-13",
-   "verdict": "weak"
-  },
-  {
-   "score": 53.4,
-   "components": {
-    "tier": 20,
-    "category": 4,
-    "lead": 0.0,
-    "relevance": 0,
-    "freshness": 19.4,
-    "corroborated": 10
-   },
-   "keywords": [],
-   "shock_terms": [],
-   "dedupe_match": null,
-   "dedupe_similarity": 0.2,
-   "id": "2eccd09d82e5",
-   "title": "Museveni, a Venezuelan girl, and myth that women always advance women",
-   "url": "https://www.monitor.co.ug/uganda/oped/commentary/museveni-a-venezuelan-girl-and-myth-that-women-always-advance-women-5592916",
-   "summary": "No woman should serve more than two terms as a District or City Woman Representative",
-   "kind": "item",
-   "source": "Daily Monitor (Uganda)",
-   "source_id": "np-monitor-ug",
-   "tier": 2,
-   "country": "UG",
-   "category": "press",
-   "segments": [
-    "city",
-    "bush",
-    "beach"
-   ],
-   "first_seen": "2026-09-13T16:49+03:00",
-   "published": "2026-09-13",
-   "verdict": "weak"
-  },
-  {
-   "score": 53.4,
-   "components": {
-    "tier": 20,
-    "category": 4,
-    "lead": 0.0,
-    "relevance": 0,
-    "freshness": 19.4,
-    "corroborated": 10
-   },
-   "keywords": [],
-   "shock_terms": [],
-   "dedupe_match": null,
-   "dedupe_similarity": 0.0,
-   "id": "f2d036a608db",
-   "title": "Can dishonesty be godly?",
-   "url": "https://www.monitor.co.ug/uganda/oped/columnists/allan-tacca/can-dishonesty-be-godly--5592946",
-   "summary": "At none of these stations did I hear a voice \u2013 just one voice \u2013 questioning the truth of these...",
-   "kind": "item",
-   "source": "Daily Monitor (Uganda)",
-   "source_id": "np-monitor-ug",
-   "tier": 2,
-   "country": "UG",
-   "category": "press",
-   "segments": [
-    "city",
-    "bush",
-    "beach"
-   ],
-   "first_seen": "2026-09-13T16:49+03:00",
-   "published": "2026-09-13",
-   "verdict": "weak"
-  },
-  {
-   "score": 53.4,
-   "components": {
-    "tier": 20,
-    "category": 4,
-    "lead": 0.0,
-    "relevance": 0,
-    "freshness": 19.4,
-    "corroborated": 10
-   },
-   "keywords": [],
-   "shock_terms": [],
-   "dedupe_match": null,
-   "dedupe_similarity": 0.17,
-   "id": "bf95fd33ca08",
-   "title": "UWA launches 10-year recovery plan over declining lion population in Ishasha",
-   "url": "https://www.monitor.co.ug/uganda/news/national/uwa-launches-10-year-recovery-plan-over-declining-lion-population-in-ishasha-5593282",
-   "summary": "Only two female lions currently remain in Ishasha, one of Uganda\u2019s most renowned destinations...",
-   "kind": "item",
-   "source": "Daily Monitor (Uganda)",
-   "source_id": "np-monitor-ug",
-   "tier": 2,
-   "country": "UG",
-   "category": "press",
-   "segments": [
-    "city",
-    "bush",
-    "beach"
-   ],
-   "first_seen": "2026-09-13T16:49+03:00",
-   "published": "2026-09-13",
-   "verdict": "weak"
-  },
-  {
-   "score": 53.4,
-   "components": {
-    "tier": 20,
-    "category": 4,
-    "lead": 0.0,
-    "relevance": 0,
-    "freshness": 19.4,
-    "corroborated": 10
-   },
-   "keywords": [],
-   "shock_terms": [],
-   "dedupe_match": null,
-   "dedupe_similarity": 0.0,
-   "id": "a894e27ce261",
-   "title": "Lightning kills footballer in Mpigi during youth day preparatory tournament",
-   "url": "https://www.monitor.co.ug/uganda/news/national/lightning-kills-footballer-in-mpigi-during-youth-day-preparatory-tournament-5593268",
-   "summary": "The deceased, identified as Andrew Makubuya, was struck by lightning at a football pitch",
-   "kind": "item",
-   "source": "Daily Monitor (Uganda)",
-   "source_id": "np-monitor-ug",
-   "tier": 2,
-   "country": "UG",
-   "category": "press",
-   "segments": [
-    "city",
-    "bush",
-    "beach"
-   ],
-   "first_seen": "2026-09-13T16:49+03:00",
-   "published": "2026-09-13",
-   "verdict": "weak"
-  },
-  {
-   "score": 53.4,
-   "components": {
-    "tier": 20,
-    "category": 4,
-    "lead": 0.0,
-    "relevance": 0,
-    "freshness": 19.4,
-    "corroborated": 10
-   },
-   "keywords": [],
-   "shock_terms": [],
-   "dedupe_match": null,
-   "dedupe_similarity": 0.0,
-   "id": "4da56dde328b",
-   "title": "Busy, Busy, Busy: When life becomes a race",
-   "url": "https://www.monitor.co.ug/uganda/magazines/life/busy-busy-busy-when-life-becomes-a-race-5593254",
-   "summary": "Well, age, time and circumstances eventually slow down even the busiest of bees, and then they...",
-   "kind": "item",
-   "source": "Daily Monitor (Uganda)",
-   "source_id": "np-monitor-ug",
-   "tier": 2,
-   "country": "UG",
-   "category": "press",
-   "segments": [
-    "city",
-    "bush",
-    "beach"
-   ],
-   "first_seen": "2026-09-13T16:49+03:00",
-   "published": "2026-09-13",
-   "verdict": "weak"
-  },
-  {
-   "score": 53.4,
-   "components": {
-    "tier": 20,
-    "category": 4,
-    "lead": 0.0,
-    "relevance": 0,
-    "freshness": 19.4,
-    "corroborated": 10
-   },
-   "keywords": [],
-   "shock_terms": [],
-   "dedupe_match": null,
-   "dedupe_similarity": 0.0,
-   "id": "b3594120bd2e",
-   "title": "From Karamoja to West Nile: Salva Two and Sundiata Mok redefining Ugandan comedy",
-   "url": "https://www.monitor.co.ug/uganda/lifestyle/theatre-cinema/from-karamoja-to-west-nile-salva-two-and-sundiata-mok-redefining-ugandan-comedy-5593232",
-   "summary": "Salva Two from Karamoja and Sundiata Mok from West Nile are bringing regional identity...",
-   "kind": "item",
-   "source": "Daily Monitor (Uganda)",
-   "source_id": "np-monitor-ug",
-   "tier": 2,
-   "country": "UG",
-   "category": "press",
-   "segments": [
-    "city",
-    "bush",
-    "beach"
-   ],
-   "first_seen": "2026-09-13T16:49+03:00",
-   "published": "2026-09-13",
-   "verdict": "weak"
-  },
-  {
-   "score": 53.4,
-   "components": {
-    "tier": 20,
-    "category": 4,
-    "lead": 0.0,
-    "relevance": 0,
-    "freshness": 19.4,
-    "corroborated": 10
-   },
-   "keywords": [],
-   "shock_terms": [],
-   "dedupe_match": null,
-   "dedupe_similarity": 0.0,
-   "id": "b4a477acb988",
-   "title": "Bruno K\u2019s other hit gives hope to Ugandans in need through his social media platforms",
-   "url": "https://www.monitor.co.ug/uganda/lifestyle/reviews-profiles/bruno-k-s-other-hit-gives-hope-to-ugandans-in-need-through-his-social-media-platforms-5593240",
-   "summary": "For Bruno Kiggundu (aka Bruno K), social media is more than a stage for promoting music...",
-   "kind": "item",
-   "source": "Daily Monitor (Uganda)",
-   "source_id": "np-monitor-ug",
-   "tier": 2,
-   "country": "UG",
-   "category": "press",
-   "segments": [
-    "city",
-    "bush",
-    "beach"
-   ],
-   "first_seen": "2026-09-13T16:49+03:00",
-   "published": "2026-09-13",
-   "verdict": "weak"
-  },
-  {
-   "score": 53.4,
-   "components": {
-    "tier": 20,
-    "category": 4,
-    "lead": 0.0,
-    "relevance": 0,
-    "freshness": 19.4,
-    "corroborated": 10
-   },
-   "keywords": [],
-   "shock_terms": [],
-   "dedupe_match": null,
-   "dedupe_similarity": 0.0,
-   "id": "1077fd457dc3",
-   "title": "We must forgive in Christ-like fashion",
-   "url": "https://www.monitor.co.ug/uganda/lifestyle/religion/we-must-forgive-in-christ-like-fashion--5593224",
-   "summary": "The cost and power of true forgiveness according to the Bible.",
-   "kind": "item",
-   "source": "Daily Monitor (Uganda)",
-   "source_id": "np-monitor-ug",
-   "tier": 2,
-   "country": "UG",
-   "category": "press",
-   "segments": [
-    "city",
-    "bush",
-    "beach"
-   ],
-   "first_seen": "2026-09-13T16:49+03:00",
-   "published": "2026-09-13",
-   "verdict": "weak"
-  },
-  {
-   "score": 53.4,
-   "components": {
-    "tier": 20,
-    "category": 4,
-    "lead": 0.0,
-    "relevance": 0,
-    "freshness": 19.4,
-    "corroborated": 10
-   },
-   "keywords": [],
-   "shock_terms": [],
-   "dedupe_match": null,
-   "dedupe_similarity": 0.0,
-   "id": "1bddde01de8f",
-   "title": "Deborah Auko Tendo on Rough Silk, childhood, family Secrets and finding her Ugandan roots",
-   "url": "https://www.monitor.co.ug/uganda/lifestyle/reviews-profiles/deborah-auko-tendo-on-rough-silk-childhood-family-secrets-and-finding-her-ugandan-roots-5593142",
-   "summary": "An interview with a top Ugandan Kenyan writer, Deborah Ouko Tendo. Her book Rough Silk has...",
-   "kind": "item",
-   "source": "Daily Monitor (Uganda)",
-   "source_id": "np-monitor-ug",
-   "tier": 2,
-   "country": "UG",
-   "category": "press",
-   "segments": [
-    "city",
-    "bush",
-    "beach"
-   ],
-   "first_seen": "2026-09-13T16:49+03:00",
-   "published": "2026-09-13",
-   "verdict": "weak"
-  },
-  {
-   "score": 53.4,
-   "components": {
-    "tier": 20,
-    "category": 4,
-    "lead": 0.0,
-    "relevance": 0,
-    "freshness": 19.4,
-    "corroborated": 10
-   },
-   "keywords": [],
-   "shock_terms": [],
-   "dedupe_match": null,
-   "dedupe_similarity": 0.0,
-   "id": "6d3843684120",
-   "title": "Blend your way through smoothies to better health",
-   "url": "https://www.monitor.co.ug/uganda/lifestyle/dining-recipes/blend-your-way-through-smoothies-to-better-health-5593058",
-   "summary": "Three nourishing smoothie recipes to try at home",
-   "kind": "item",
-   "source": "Daily Monitor (Uganda)",
-   "source_id": "np-monitor-ug",
-   "tier": 2,
-   "country": "UG",
-   "category": "press",
-   "segments": [
-    "city",
-    "bush",
-    "beach"
-   ],
-   "first_seen": "2026-09-13T16:49+03:00",
-   "published": "2026-09-13",
-   "verdict": "weak"
-  },
-  {
-   "score": 53.4,
-   "components": {
-    "tier": 20,
-    "category": 4,
-    "lead": 0.0,
-    "relevance": 0,
-    "freshness": 19.4,
-    "corroborated": 10
-   },
-   "keywords": [],
-   "shock_terms": [],
-   "dedupe_match": null,
-   "dedupe_similarity": 0.0,
-   "id": "ee96d57bfc2f",
-   "title": "Past & Present: Pluralists, federalists moot plan to form \u2018Movement\u2019",
-   "url": "https://www.monitor.co.ug/uganda/magazines/people-power/past-present-pluralists-federalists-moot-plan-to-form-movement--5593266",
-   "summary": "The convention would bring together proponents of multiparty democracy, federalists and all...",
-   "kind": "item",
-   "source": "Daily Monitor (Uganda)",
-   "source_id": "np-monitor-ug",
-   "tier": 2,
-   "country": "UG",
-   "category": "press",
-   "segments": [
-    "city",
-    "bush",
-    "beach"
-   ],
-   "first_seen": "2026-09-13T16:49+03:00",
-   "published": "2026-09-13",
-   "verdict": "weak"
-  },
-  {
-   "score": 53.4,
-   "components": {
-    "tier": 20,
-    "category": 4,
-    "lead": 0.0,
-    "relevance": 0,
-    "freshness": 19.4,
-    "corroborated": 10
-   },
-   "keywords": [],
-   "shock_terms": [],
-   "dedupe_match": null,
-   "dedupe_similarity": 0.0,
-   "id": "260d02c75106",
-   "title": "How Entebbe Expressway probe ended with whimper",
-   "url": "https://www.monitor.co.ug/uganda/magazines/people-power/how-entebbe-expressway-probe-ended-with-whimper-5593264",
-   "summary": "The 14 recommendations made by the parliamentary committee were heavily altered when a majority...",
-   "kind": "item",
-   "source": "Daily Monitor (Uganda)",
-   "source_id": "np-monitor-ug",
-   "tier": 2,
-   "country": "UG",
-   "category": "press",
-   "segments": [
-    "city",
-    "bush",
-    "beach"
-   ],
-   "first_seen": "2026-09-13T16:49+03:00",
-   "published": "2026-09-13",
-   "verdict": "weak"
-  },
-  {
-   "score": 53.4,
-   "components": {
-    "tier": 20,
-    "category": 4,
-    "lead": 0.0,
-    "relevance": 0,
-    "freshness": 19.4,
-    "corroborated": 10
-   },
-   "keywords": [],
-   "shock_terms": [],
-   "dedupe_match": null,
-   "dedupe_similarity": 0.0,
-   "id": "0070bb6d1fbd",
-   "title": "Flaws expert used to mislead court during a murder trial",
-   "url": "https://www.monitor.co.ug/uganda/magazines/people-power/flaws-expert-used-to-mislead-court-during-a-murder-trial-5593262",
-   "summary": "It is important for courts to carry out a critical analysis to evaluate whether there is a...",
-   "kind": "item",
-   "source": "Daily Monitor (Uganda)",
-   "source_id": "np-monitor-ug",
-   "tier": 2,
-   "country": "UG",
    "category": "press",
    "segments": [
     "city",
