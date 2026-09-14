@@ -129,7 +129,6 @@
   .ri-empty{background:var(--card);border:1px dashed var(--line);border-radius:12px;padding:22px 24px;margin:14px 0}
   .ri-empty h3{margin:0 0 8px;font-size:18px}
   .ri-empty p{margin:0 0 8px;font-size:14.5px;color:var(--muted)}
-  .ri-chart{background:var(--card);border:1px solid var(--line);border-radius:12px;padding:16px;margin:14px 0}
   .bm-table{width:100%;border-collapse:separate;border-spacing:0;background:var(--card);border:1px solid var(--line);border-radius:12px;overflow:hidden;margin-top:8px}
   .bm-table th,.bm-table td{text-align:left;padding:11px 13px;border-bottom:1px solid var(--line);font-size:14px}
   .bm-table thead th{font-family:'Helvetica Neue',Arial,sans-serif;font-size:11px;text-transform:uppercase;letter-spacing:1px;color:var(--muted);background:var(--sand-2)}
@@ -470,7 +469,7 @@
   .imp-demand{color:var(--sage)} .imp-margin{color:var(--coral)} .imp-risk{color:#ff5b5b} .imp-watch{color:var(--amber)}
   @media(max-width:520px){.imp{position:static;display:inline-flex;margin:0 0 9px}.insight h3,.insight .imeta{padding-right:0}}
 </style>
-<!--BUILD_STAMP:20260914-0605--></head>
+<!--BUILD_STAMP:20260914-0914--></head>
 <body>
 <header class="site">
   <div class="wrap topbar">
@@ -644,7 +643,6 @@
     A fixed basket of 40 properties across six East African markets, tracked weekly at a constant booking window — so movement in the index means movement in <em>rate</em>, not a change of sample. Published nowhere else for this region.
   </p>
   <div id="ri-body"></div>
-  <div id="ri-chartbox" class="ri-chart" style="display:none"><canvas id="ri-canvas" height="110"></canvas></div>
 
   <h3 style="margin:26px 0 2px;font-size:18px">Market benchmarks we track</h3>
   <table class="bm-table">
@@ -795,7 +793,6 @@
 <script>document.write('<scr'+'ipt src="pipeline.js?t='+Date.now()+'"></scr'+'ipt>');</script>
 <script>document.write('<scr'+'ipt src="mice.js?t='+Date.now()+'"></scr'+'ipt>');</script>
 <script>document.write('<scr'+'ipt src="rivals.js?t='+Date.now()+'"></scr'+'ipt>');</script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/4.4.1/chart.umd.min.js"></script>
 <script>document.write('<scr'+'ipt src="guides.js?t='+Date.now()+'"></scr'+'ipt>');</script>
 <script>document.write('<scr'+'ipt src="data.js?t='+Date.now()+'"></scr'+'ipt>');</script>
 <script>
@@ -1088,32 +1085,6 @@
     });
     body.innerHTML=tiles+'</div>';
 
-    // chart
-    const withSeries=Object.values(R.markets).filter(m=>m.series.filter(p=>p.index!=null).length>1);
-    if(withSeries.length && window.Chart){
-      const box=document.getElementById('ri-chartbox'); box.style.display='block';
-      const tot=Object.keys(R.markets).length;
-      if(withSeries.length<tot){
-        const n=document.createElement('p');
-        n.style.cssText='font-family:Helvetica,Arial,sans-serif;font-size:12px;color:var(--muted);margin:8px 0 0';
-        n.textContent=withSeries.length+' of '+tot+' markets have more than one week of observations and can be charted. '+
-          'The rest show a baseline only until a second collection lands.';
-        box.appendChild(n);
-      }
-      const weeks=[...new Set(withSeries.flatMap(m=>m.series.map(p=>p.week)))].sort();
-      const palette=['#0f6d63','#c8892f','#3a6ea5','#7a8b3c','#1596a3','#a3506b'];
-      new Chart(document.getElementById('ri-canvas'),{
-        type:'line',
-        data:{labels:weeks,datasets:withSeries.map((m,i)=>({
-          label:m.label, borderColor:palette[i%palette.length], backgroundColor:palette[i%palette.length],
-          tension:.3, spanGaps:true,
-          data:weeks.map(w=>{const p=m.series.find(x=>x.week===w); return p?p.index:null;})
-        }))},
-        options:{responsive:true,plugins:{legend:{labels:{font:{family:'Helvetica Neue, Arial'}}},
-          title:{display:true,text:'Rate index by market (baseline week = 100)'}},
-          scales:{y:{title:{display:true,text:'Index'}}}}
-      });
-    }
   }
   // ---- Foresight track record ----
   function renderLedger(){
