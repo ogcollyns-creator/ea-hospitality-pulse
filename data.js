@@ -1,5 +1,14 @@
 window.EDITIONS = [
  {
+  "id": "pulse-2026-09-14-evening",
+  "date": "2026-09-14",
+  "dateDisplay": "Monday, 14 September 2026",
+  "edition": "Evening Wrap",
+  "editionKey": "evening",
+  "summary": "Tomorrow's headline will be \"fuel prices unchanged\". Read the landed costs instead.",
+  "bodyHtml": "<p><span class=\"meta-line\">🏨 EA HOSPITALITY PULSE — Evening Wrap</span><br><span class=\"meta-line\">📅 Monday, 14 September 2026 | 🇰🇪 🇹🇿 🇺🇬</span></p>\n<p>Tomorrow&#x27;s headline will be &quot;fuel prices unchanged&quot;. Read the landed costs instead.<br>━━━━━━━━━<br><strong>1️⃣ EPRA FROZE THE PUMP. IT DID NOT FREEZE THE COST — AND DIESEL IS THE ONE THAT MOVED</strong></p>\n<p>At 16:04 today EPRA retained all three grades for 15 September–14 October: Nairobi super <strong>KSh 214.03</strong>, diesel <strong>KSh 217.86</strong>, kerosene <strong>KSh 191.38</strong>; Mombasa 210.87 / 214.58 / 188.09 <strong>(EPRA via The Kenya Times, 14 September 2026)</strong>.</p>\n<p>Underneath, nothing was flat. July to August the average landed cost of <strong>diesel rose 11.86%</strong> — US$855.59 to US$957.05 per cubic metre — and kerosene rose 9.71%. Petrol <strong>fell</strong> 7.87% <strong>(EPRA, 14 September 2026)</strong>. Brent settled at <strong>US$101.21</strong> on 9 September, its highest close since May, on Strait of Hormuz disruption <strong>(The Kenya Times, 10 September 2026)</strong>. For scale: the Murban benchmark CBK carried in early July was <strong>US$67.99</strong> <strong>(CBK Weekly Bulletin, 3 July 2026)</strong>.</p>\n<p><strong>What everyone is missing — the subsidy ran toward us.</strong> The petrol cut motorists never received is what paid for the diesel rise they never paid. Hotels and camps do not run on petrol. They run on diesel: transfers, generators, boreholes, laundry. Still a borrowed month — Kenya drew KSh 938m from the Petroleum Development Levy Fund last cycle and KSh 945m the one before <strong>(EPRA / People Daily, August 2026)</strong>.</p>\n<p><span class=\"sowhat\">🎯 <strong>So what:</strong> you have 30 days of known diesel cost and no more. Re-quote Q4 transfer supplements and generator surcharges against 217.86 this week, and put a fuel-adjustment clause in anything signed before 14 October.</span><br><span class=\"tagline\">🏷 Bush, Beach, City | 🇰🇪 | Confirmed | impact:margin</span></p>\n<p><strong>2️⃣ THE REGIONAL FUEL GAP WIDENED THIS MONTH AND NOBODY WROTE IT UP</strong></p>\n<p>Tanzania moved the other way: EWURA <strong>cut</strong> capped petrol 102/L and diesel 101/L effective 2 September, Dar diesel to TZS 3,877 <strong>(EWURA via The BizLens, 2 September 2026)</strong>. Uganda, which caps nothing, printed petrol +28.5% year-on-year in August <strong>(UBOS, August 2026)</strong>.</p>\n<p><span class=\"sowhat\">🎯 <strong>So what:</strong> a Mara transfer and a Serengeti transfer now sit on different fuel curves. Price the Tanzanian legs off the September cut and the Kenyan legs off a frozen number that is about to thaw.</span><br><span class=\"tagline\">🏷 Bush | 🇹🇿 🇺🇬 🇰🇪 | Confirmed | impact:margin</span><br>━━━━━━━━━<br>📋 <strong>On the record:</strong> we called this one wrong. On 15 August we said diesel would print above KSh 217.86 because the stabilisation kitty was near-depleted (P078). It printed at 217.86. The cushion was not exhausted — it was spent again.</p>\n<p>🔎 <strong>Declared blind spots:</strong> Africa CDC&#x27;s September bulletin remains unindexed (recovered via ReliefWeb); KCAA circulars came via the eAIP mirror, not the authority site. Both scanned, nothing new in either.</p>\n<p>🔗 This edition on the web: <a href=\"https://eahospitalitypulse.com/editions/pulse-2026-09-14-evening.html\" rel=\"noopener\">eahospitalitypulse.com/editions/pulse-2026-09-14-evenin…</a><br>💼 Today&#x27;s Big Read on LinkedIn: <a href=\"https://www.linkedin.com/company/ea-hospitality-pulse/\" rel=\"noopener\">linkedin.com/company/ea-hospitality-pulse/</a><br>— EA Hospitality Pulse | Daily intelligence for city, bush &amp; beach properties</p>"
+ },
+ {
   "id": "pulse-2026-09-13-evening",
   "date": "2026-09-13",
   "dateDisplay": "Sunday, 13 September 2026",
@@ -901,6 +910,46 @@ window.EDITIONS = [
  }
 ];
 window.INSIGHTS = [
+ {
+  "headline": "EPRA FROZE THE PUMP. IT DID NOT FREEZE THE COST — AND DIESEL IS THE ONE THAT MOVED",
+  "body": "At 16:04 today EPRA retained all three grades for 15 September–14 October: Nairobi super **KSh 214.03**, diesel **KSh 217.86**, kerosene **KSh 191.38**; Mombasa 210.87 / 214.58 / 188.09 *(EPRA via The Kenya Times, 14 September 2026)*. Underneath, nothing was flat. July to August the average landed cost of **diesel rose 11.86%** — US$855.59 to US$957.05 per cubic metre — and kerosene rose 9.71%. Petrol *fell* 7.87% *(EPRA, 14 September 2026)*. Brent settled at **US$101.21** on 9 September, its highest close since May, on Strait of Hormuz disruption *(The Kenya Times, 10 September 2026)*. For scale: the Murban benchmark CBK carried in early July was **US$67.99** *(CBK Weekly Bulletin, 3 July 2026)*. **What everyone is missing — the subsidy ran toward us.** The petrol cut motorists never received is what paid for the diesel rise they never paid. Hotels and camps do not run on petrol. They run on diesel: transfers, generators, boreholes, laundry. Still a borrowed month — Kenya drew KSh 938m from the Petroleum Development Levy Fund last cycle and KSh 945m the one before *(EPRA / People Daily, August 2026)*.",
+  "sowhat": "🎯 **So what:** you have 30 days of known diesel cost and no more. Re-quote Q4 transfer supplements and generator surcharges against 217.86 this week, and put a fuel-adjustment clause in anything signed before 14 October.",
+  "segments": [
+   "city",
+   "bush",
+   "beach"
+  ],
+  "countries": "🇰🇪",
+  "confidence": "Confirmed",
+  "impact": "-margin",
+  "impactClass": "margin",
+  "intensity": 3,
+  "impactSet": "author",
+  "source": "pulse-2026-09-14-evening",
+  "date": "2026-09-14",
+  "dateDisplay": "Monday, 14 September 2026",
+  "edition": "Evening Wrap",
+  "editionKey": "evening"
+ },
+ {
+  "headline": "THE REGIONAL FUEL GAP WIDENED THIS MONTH AND NOBODY WROTE IT UP",
+  "body": "Tanzania moved the other way: EWURA *cut* capped petrol 102/L and diesel 101/L effective 2 September, Dar diesel to TZS 3,877 *(EWURA via The BizLens, 2 September 2026)*. Uganda, which caps nothing, printed petrol +28.5% year-on-year in August *(UBOS, August 2026)*.",
+  "sowhat": "🎯 **So what:** a Mara transfer and a Serengeti transfer now sit on different fuel curves. Price the Tanzanian legs off the September cut and the Kenyan legs off a frozen number that is about to thaw.",
+  "segments": [
+   "bush"
+  ],
+  "countries": "🇹🇿 🇺🇬 🇰🇪",
+  "confidence": "Confirmed",
+  "impact": "-margin",
+  "impactClass": "margin",
+  "intensity": 3,
+  "impactSet": "author",
+  "source": "pulse-2026-09-14-evening",
+  "date": "2026-09-14",
+  "dateDisplay": "Monday, 14 September 2026",
+  "edition": "Evening Wrap",
+  "editionKey": "evening"
+ },
  {
   "headline": "THE CORRIDOR WASHINGTON WARNED ABOUT HAS ALREADY BEEN TRAVELLED — RWANDA, THEN UGANDA",
   "body": "On the same day the CDC signed the order keeping Uganda listed, South-Ubangi's acting governor Jean-René Galekwa Vundawe confirmed Ebola in a seventh DRC province — the first in *western* Congo. The patient had travelled through **Rwanda, Uganda** and Ituri, developed symptoms in Kisangani, then took a Congo River boat. He died. 38 contacts are quarantined *(AFP/AP/Reuters via Al Jazeera, 11 September 2026)*. **The sequence is the whole story, and it runs the other way to the headline.** CDC's own order states infected people \"do not spread the virus until symptoms begin\". Onset was in Kisangani — *after* the East African legs. On the published evidence this case exposed nobody in Kigali or Entebbe.",
@@ -4455,4 +4504,4 @@ window.INSIGHTS = [
   "editionKey": "evening"
  }
 ];
-window.BUILT_AT = "2026-09-14 15:10";
+window.BUILT_AT = "2026-09-14 16:46";

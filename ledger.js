@@ -1,13 +1,13 @@
 window.LEDGER = {
- "updated": "2026-09-14 15:10",
+ "updated": "2026-09-14 16:46",
  "stats": {
-  "total": 179,
-  "open": 132,
-  "resolved": 46,
-  "correct": 37,
+  "total": 182,
+  "open": 133,
+  "resolved": 48,
+  "correct": 38,
   "partial": 1,
-  "incorrect": 8,
-  "accuracy": 82
+  "incorrect": 9,
+  "accuracy": 80
  },
  "open": [
   {
@@ -88,38 +88,6 @@ window.LEDGER = {
    "resolved_date": "",
    "evidence": "",
    "source_url": "https://travel.state.gov/content/travel/en/traveladvisories/traveladvisories/kenya-travel-advisory.html",
-   "overdue": false
-  },
-  {
-   "id": "P078",
-   "made_date": "2026-08-15",
-   "edition": "pulse-2026-08-15-morning",
-   "claim": "EPRA's next review effective on/around 15 Sep 2026 will set Nairobi diesel ABOVE KSh217.86/L — the PDL stabilisation kitty is near-depleted and landed petrol costs rose 6.9%, leaving no cushion to repeat the cross-subsidy",
-   "resolution_criteria": "EPRA published maximum retail petroleum price schedule effective on/around 15 Sep 2026 shows Nairobi diesel above KSh217.86/L. If at or below, the call is incorrect",
-   "resolve_by": "2026-09-20",
-   "market": "Kenya",
-   "segment": "Bush/Beach/City",
-   "confidence": "Medium",
-   "status": "open",
-   "resolved_date": "",
-   "evidence": "",
-   "source_url": "https://www.epra.go.ke/",
-   "overdue": false
-  },
-  {
-   "id": "P080",
-   "made_date": "2026-08-15",
-   "edition": "pulse-2026-08-15-morning",
-   "claim": "Kenya's fuel cross-subsidy mechanism will still be in use at the 15 Sep 2026 review — the High Court challenge and MPs' legality objection will not stop it before then",
-   "resolution_criteria": "The EPRA notice for the cycle effective ~15 Sep 2026 again holds one grade flat or cross-subsidised, or explicitly cites stabilisation support. If EPRA prices all three grades to landed cost with no stabilisation, the call is incorrect",
-   "resolve_by": "2026-09-20",
-   "market": "Kenya",
-   "segment": "Bush/Beach/City",
-   "confidence": "Medium",
-   "status": "open",
-   "resolved_date": "",
-   "evidence": "",
-   "source_url": "https://www.epra.go.ke/",
    "overdue": false
   },
   {
@@ -411,6 +379,22 @@ window.LEDGER = {
    "overdue": false
   },
   {
+   "id": "P179",
+   "made_date": "2026-09-14",
+   "edition": "Evening Wrap",
+   "claim": "EPRA's review announced on/around 14 October 2026 will set the Nairobi maximum retail DIESEL price ABOVE KSh217.86/L - the 15 Sep-14 Oct cycle absorbed an 11.86% diesel landed-cost rise without passing any of it through, and Brent above US$100 since 9 Sep sits inside the 10 Sep-9 Oct import window that prices the next cycle",
+   "resolution_criteria": "The EPRA maximum retail petroleum price schedule effective on/around 15 October 2026 (epra.go.ke or its reporting in Business Daily, The Star, Citizen Digital or The Kenya Times) shows Nairobi diesel above KSh217.86/L. A price at or below KSh217.86/L resolves the call INCORRECT",
+   "resolve_by": "2026-10-20",
+   "market": "Kenya",
+   "segment": "Bush|Beach|City",
+   "confidence": "Medium",
+   "status": "open",
+   "resolved_date": "",
+   "evidence": "",
+   "source_url": "https://thekenyatimes.com/breaking-news/epra-announces-new-fuel-prices-for-september-october-cycle/",
+   "overdue": false
+  },
+  {
    "id": "P041",
    "made_date": "2026-07-31",
    "edition": "Morning Brief",
@@ -680,6 +664,38 @@ window.LEDGER = {
    "resolved_date": "",
    "evidence": "",
    "source_url": "https://www.aljazeera.com/news/2026/9/11/ebola-case-detected-in-seventh-dr-congo-province",
+   "overdue": false
+  },
+  {
+   "id": "P180",
+   "made_date": "2026-09-14",
+   "edition": "Evening Wrap",
+   "claim": "EPRA will publish or be reported to have deployed a further Petroleum Development Levy Fund stabilisation figure for the 15 Sep-14 Oct 2026 cycle - all three grades were held flat against two rising landed costs, which the pricing formula cannot produce unaided",
+   "resolution_criteria": "An EPRA notice, EPRA X/press statement, or Kenyan national press report (Business Daily, The Star, People Daily, Citizen Digital, Kenyans.co.ke) published on or before 31 Oct 2026 stating a stabilisation or Petroleum Development Levy Fund support amount applied to the cycle effective 15 Sep 2026 resolves the call CORRECT. No such figure published by 31 Oct 2026 resolves it INCORRECT",
+   "resolve_by": "2026-10-31",
+   "market": "Kenya",
+   "segment": "Bush|Beach|City",
+   "confidence": "Inference",
+   "status": "open",
+   "resolved_date": "",
+   "evidence": "",
+   "source_url": "https://peopledaily.digital/business/how-ksh938m-govt-fuel-stabilisation-support-helped-reduce-diesel-prices",
+   "overdue": false
+  },
+  {
+   "id": "P181",
+   "made_date": "2026-09-14",
+   "edition": "Evening Wrap",
+   "claim": "The Kenya-Tanzania pump diesel gap will WIDEN further in the next EWURA cap review (effective on/around 7 October 2026) - EWURA cut diesel 101/L on 2 Sep while Kenya froze, and the two mechanisms are now pulling in opposite directions",
+   "resolution_criteria": "Compare the EWURA cap price notice effective on/around early October 2026 (ewura.go.tz) with the EPRA schedule effective on/around 15 Oct 2026, both converted at the prevailing CBK KES/TZS rate. A Dar es Salaam diesel cap that falls further below the Nairobi diesel maximum than the gap implied by the 2 Sep EWURA cut and the 15 Sep EPRA freeze resolves the call CORRECT. A narrowing gap resolves it INCORRECT",
+   "resolve_by": "2026-10-31",
+   "market": "KE|TZ",
+   "segment": "Bush",
+   "confidence": "Inference",
+   "status": "open",
+   "resolved_date": "",
+   "evidence": "",
+   "source_url": "https://thebizlens.co.tz/2026/09/02/ewura-cuts-petrol-diesel-prices-amid-global-market-volatility/",
    "overdue": false
   },
   {
@@ -2124,6 +2140,38 @@ window.LEDGER = {
   }
  ],
  "resolved": [
+  {
+   "id": "P078",
+   "made_date": "2026-08-15",
+   "edition": "pulse-2026-08-15-morning",
+   "claim": "EPRA's next review effective on/around 15 Sep 2026 will set Nairobi diesel ABOVE KSh217.86/L — the PDL stabilisation kitty is near-depleted and landed petrol costs rose 6.9%, leaving no cushion to repeat the cross-subsidy",
+   "resolution_criteria": "EPRA published maximum retail petroleum price schedule effective on/around 15 Sep 2026 shows Nairobi diesel above KSh217.86/L. If at or below, the call is incorrect",
+   "resolve_by": "2026-09-20",
+   "market": "Kenya",
+   "segment": "Bush/Beach/City",
+   "confidence": "Medium",
+   "status": "incorrect",
+   "resolved_date": "2026-09-14",
+   "evidence": "EPRA's review announced 14 Sep 2026 for the cycle 15 Sep-14 Oct 2026 RETAINED Nairobi diesel at KSh217.86/L. Criterion required ABOVE 217.86; at-or-below resolves incorrect. The reasoning failed on the fund, not the pressure: the average landed cost of diesel rose 11.86% (US$855.59 to US$957.05 per cubic metre, Jul to Aug) and was absorbed rather than passed through. We judged the PDL stabilisation kitty near-depleted; it was drawn on again.",
+   "source_url": "https://www.epra.go.ke/",
+   "overdue": false
+  },
+  {
+   "id": "P080",
+   "made_date": "2026-08-15",
+   "edition": "pulse-2026-08-15-morning",
+   "claim": "Kenya's fuel cross-subsidy mechanism will still be in use at the 15 Sep 2026 review — the High Court challenge and MPs' legality objection will not stop it before then",
+   "resolution_criteria": "The EPRA notice for the cycle effective ~15 Sep 2026 again holds one grade flat or cross-subsidised, or explicitly cites stabilisation support. If EPRA prices all three grades to landed cost with no stabilisation, the call is incorrect",
+   "resolve_by": "2026-09-20",
+   "market": "Kenya",
+   "segment": "Bush/Beach/City",
+   "confidence": "Medium",
+   "status": "correct",
+   "resolved_date": "2026-09-14",
+   "evidence": "EPRA retained ALL THREE grades for 15 Sep-14 Oct 2026 despite the diesel landed cost rising 11.86% and kerosene 9.71% (petrol fell 7.87%). Holding diesel flat against an 11.86% import-cost rise is the cross-subsidy the criterion describes. Mechanism still in use; the High Court challenge and MPs' legality objection did not stop it. Precedent in the immediately prior cycles: KSh938m stabilisation support (15 Aug-14 Sep) and KSh945m (Jul-Aug) from the Petroleum Development Levy Fund.",
+   "source_url": "https://www.epra.go.ke/",
+   "overdue": false
+  },
   {
    "id": "P007",
    "made_date": "2026-07-25",
