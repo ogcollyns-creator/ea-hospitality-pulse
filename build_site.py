@@ -499,23 +499,23 @@ def load_existing():
         return {}
 
 ARTICLE_CSS = """
-:root{--sand:#f6f1e7;--ink:#1f2421;--muted:#6b6656;--gold:#c8892f;--gold-d:#a86f1f;--teal:#0f6d63;--teal-d:#0a4f48;--line:#e2d8c4;--sand-2:#efe7d6;--card:#fffdf9;--sans:"Helvetica Neue",Arial,sans-serif;--mono:ui-monospace,"SF Mono",Menlo,Consolas,"Liberation Mono",monospace}
-*{box-sizing:border-box}body{margin:0;font-family:Georgia,"Times New Roman",serif;color:var(--ink);background:var(--sand);line-height:1.68;font-size:18px;-webkit-font-smoothing:antialiased;text-rendering:optimizeLegibility}
+:root{--sand:#f6f1e7;--ink:#1f2421;--muted:#6b6656;--gold:#c8892f;--gold-d:#a86f1f;--teal:#0f6d63;--teal-d:#0a4f48;--line:#e2d8c4;--sand-2:#efe7d6;--card:#fffdf9;--serif:Georgia,"Iowan Old Style","Times New Roman",serif;--sans:-apple-system,BlinkMacSystemFont,"Segoe UI Variable Text","Segoe UI",Inter,Roboto,"Helvetica Neue",Arial,sans-serif;--mono:ui-monospace,"SF Mono",Menlo,Consolas,"Liberation Mono",monospace;--r:12px;--r-sm:6px;--r-xs:3px}
+*{box-sizing:border-box}body{margin:0;font-family:var(--serif);color:var(--ink);background:var(--sand);line-height:1.68;font-size:18px;-webkit-font-smoothing:antialiased;text-rendering:optimizeLegibility}
 ::selection{background:var(--gold);color:#231a06}
 .wrap{max-width:760px;margin:0 auto;padding:0 20px}
-.skip{position:absolute;left:-9999px;top:0;z-index:20;background:var(--gold);color:#231a06;font:600 13px/1 var(--sans);padding:10px 14px;border-radius:0 0 4px 0}
+.skip{position:absolute;left:-9999px;top:0;z-index:20;background:var(--gold);color:#231a06;font:600 13px/1 var(--sans);padding:10px 14px;border-radius:0 0 var(--r-xs) 0}
 .skip:focus{left:0}
 a{color:var(--teal-d);text-decoration:none}
-a:focus-visible{outline:2px solid var(--gold);outline-offset:2px;border-radius:2px}
+a:focus-visible{outline:2px solid var(--gold);outline-offset:2px;border-radius:var(--r-xs)}
 .art p a{text-decoration:underline;text-decoration-color:rgba(15,109,99,.35);text-underline-offset:2px;text-decoration-thickness:1px}
 .art p a:hover{text-decoration-color:var(--teal-d)}
 header.s{background:var(--teal-d);color:#fff;padding:13px 0;border-bottom:3px solid var(--gold)}
 header.s .wrap{display:flex;align-items:center;gap:10px}
 header.s .wrap>a{display:flex;align-items:center;gap:10px;color:#fff}
-header.s .logo{width:32px;height:32px;border-radius:4px;background:var(--gold);color:#231a06;display:grid;place-items:center;font:700 13px/1 var(--mono);letter-spacing:.5px}
+header.s .logo{width:32px;height:32px;border-radius:var(--r-xs);background:var(--gold);color:#231a06;display:grid;place-items:center;font:700 13px/1 var(--mono);letter-spacing:.5px}
 header.s b{letter-spacing:-.01em}
 header.s b{font-size:16px}
-.art{background:var(--card);margin:24px auto;border:1px solid var(--line);border-radius:14px;padding:26px 30px 34px;overflow:hidden}
+.art{background:var(--card);margin:24px auto;border:1px solid var(--line);border-radius:var(--r);padding:26px 30px 34px;overflow:hidden}
 /* height:auto is load-bearing. The <img> carries width="1200" height="630" for
    CLS, and that height attribute is a presentational hint that BEATS
    aspect-ratio when CSS sets width but not height. The box rendered 718x630
@@ -525,33 +525,33 @@ header.s b{font-size:16px}
 .art .hero{display:block;width:calc(100% + 60px);height:auto;margin:-26px -30px 20px -30px;aspect-ratio:1200/630;object-fit:cover;background:var(--teal-d)}
 /* Cards and generated graphics are composed to the frame: show them whole. */
 .art .hero.graphic{object-fit:contain}
-.badge{font-family:Helvetica Neue,Arial,sans-serif;font-size:11px;font-weight:700;text-transform:uppercase;letter-spacing:1px;padding:4px 9px;border-radius:20px;background:var(--sand-2);color:var(--gold-d)}
-.art time{font-family:Helvetica Neue,Arial,sans-serif;font-size:13px;color:var(--muted);margin-left:8px}
-.art h1{font-size:clamp(25px,3.6vw,31px);line-height:1.22;margin:12px 0 18px;border-bottom:2px solid var(--gold);padding-bottom:14px;font-weight:700}
+.badge{font-family:var(--sans);font-size:11px;font-weight:700;text-transform:uppercase;letter-spacing:1px;padding:4px 9px;border-radius:var(--r-xs);background:var(--sand-2);color:var(--gold-d)}
+.art time{font-family:var(--sans);font-size:13px;color:var(--muted);margin-left:8px}
+.art h1{font-size:clamp(28px,4.2vw,38px);line-height:1.14;margin:14px 0 20px;border-bottom:2px solid var(--gold);padding-bottom:16px;font-weight:700}
 .kicker{display:flex;align-items:center;gap:10px;flex-wrap:wrap;margin-top:2px}
 .art p{margin:0 0 14px}
 .item-head{font-weight:700;font-size:17px;display:inline-block;margin-top:4px}
-.sowhat{display:block;background:var(--sand-2);border-left:4px solid var(--gold);padding:8px 12px;border-radius:0 6px 6px 0;font-family:Helvetica Neue,Arial,sans-serif;font-size:14px;margin-top:4px}
-.tagline{display:inline-block;font-family:Helvetica Neue,Arial,sans-serif;font-size:12px;color:var(--muted)}
-.radar-item{display:block;font-family:Helvetica Neue,Arial,sans-serif;font-size:14px;margin:2px 0}
-.meta-line{display:block;font-family:Helvetica Neue,Arial,sans-serif;font-size:14px;color:var(--muted)}
+.sowhat{display:block;background:var(--sand-2);border-left:4px solid var(--gold);padding:8px 12px;border-radius:0 var(--r-sm) var(--r-sm) 0;font-family:var(--sans);font-size:14px;margin-top:4px}
+.tagline{display:inline-block;font-family:var(--sans);font-size:12px;color:var(--muted)}
+.radar-item{display:block;font-family:var(--sans);font-size:14px;margin:2px 0}
+.meta-line{display:block;font-family:var(--sans);font-size:14px;color:var(--muted)}
 hr.divider{border:none;border-top:1px dashed var(--line);margin:16px 0}
-.nav{font-family:Helvetica Neue,Arial,sans-serif;font-size:14px;font-weight:600;margin:0 0 6px;display:inline-block}
-.sub{font-family:Helvetica Neue,Arial,sans-serif;font-size:14px;color:var(--muted);margin-top:20px;border-top:1px solid var(--line);padding-top:16px;line-height:1.9}
-.more{font-family:Helvetica Neue,Arial,sans-serif;font-size:13.5px;background:var(--sand-2);border-radius:8px;padding:11px 14px;margin-top:22px}
+.nav{font-family:var(--sans);font-size:14px;font-weight:600;margin:0 0 6px;display:inline-block}
+.sub{font-family:var(--sans);font-size:14px;color:var(--muted);margin-top:20px;border-top:1px solid var(--line);padding-top:16px;line-height:1.9}
+.more{font-family:var(--sans);font-size:13.5px;background:var(--sand-2);border-radius:var(--r-sm);padding:11px 14px;margin-top:22px}
 .more a{margin-right:10px}
 .sub a{font-weight:600;margin-right:14px}
-footer.s{text-align:center;color:var(--muted);font-family:Helvetica Neue,Arial,sans-serif;font-size:12px;padding:20px}
-.art h1{letter-spacing:-.005em}
+footer.s{text-align:center;color:var(--muted);font-family:var(--sans);font-size:12px;padding:20px}
+.art h1{letter-spacing:-.018em}
 .pnrow{display:flex;justify-content:space-between;gap:12px;flex-wrap:wrap;margin-top:22px;border-top:1px solid var(--line);padding-top:16px}
-.pn{font-family:Helvetica Neue,Arial,sans-serif;font-size:13.5px;font-weight:600;color:var(--teal-d);text-decoration:none;max-width:48%}
+.pn{font-family:var(--sans);font-size:13.5px;font-weight:600;color:var(--teal-d);text-decoration:none;max-width:48%}
 .pn:hover{text-decoration:underline}
 .pn.next{margin-left:auto;text-align:right}
 @media(max-width:640px){
   .wrap{padding:0 16px}
-  .art{padding:20px 18px 26px;margin:16px auto;border-radius:12px}
+  .art{padding:20px 18px 26px;margin:16px auto}
   .art .hero{width:calc(100% + 36px);margin:-20px -18px 18px -18px}
-  .art h1{font-size:22px}
+  .art h1{font-size:25px}
   .pn{max-width:100%}
   .pn.next{margin-left:0;text-align:left}
   .crumbs{font-size:10.5px}
@@ -569,12 +569,12 @@ footer.s{text-align:center;color:var(--muted);font-family:Helvetica Neue,Arial,s
 .crumbs a:hover{color:var(--teal-d);border-bottom-color:var(--gold)}
 .crumbs span[aria-hidden]{opacity:.45}
 .crumbs [aria-current]{color:var(--ink)}
-.badge{font-family:var(--mono);letter-spacing:.08em;font-size:10.5px;border-radius:3px;
+.badge{font-family:var(--mono);letter-spacing:.08em;font-size:10.5px;border-radius:var(--r-xs);
   background:transparent;border:1px solid var(--gold);color:var(--gold-d);padding:4px 8px}
 .art time{font-family:var(--mono);font-size:11.5px;letter-spacing:.04em}
 /* Reference rail — the internal link graph, given a shape of its own. */
 .refs{margin:26px 0 0;padding:18px 22px;background:var(--sand-2);
-  border-left:3px solid var(--teal-d);border-radius:0 8px 8px 0}
+  border-left:3px solid var(--teal-d);border-radius:0 var(--r-sm) var(--r-sm) 0}
 .refs h2{margin:0 0 9px;font:700 11px/1 var(--mono);letter-spacing:.1em;
   text-transform:uppercase;color:var(--teal-d)}
 .refs ul{margin:0;padding:0;list-style:none}
@@ -589,7 +589,6 @@ footer.s{text-align:center;color:var(--muted);font-family:Helvetica Neue,Arial,s
    away if they read nothing else. Larger, quieter, set apart from the body. */
 .standfirst{font-size:1.14em;line-height:1.5;color:#3b4340;margin:0 0 20px;
   padding:0 0 18px;border-bottom:1px solid var(--line);text-wrap:pretty;font-weight:400}
-.standfirst::first-letter{font-size:1.05em}
 
 /* Bare URLs pasted from the chat editions now render as anchors — keep them from
    blowing out the measure on a phone. */
@@ -636,12 +635,49 @@ footer.s a:hover{color:var(--teal-d);border-bottom-color:var(--gold)}
   .art th{color:var(--gold-d)}
   .art p a{text-decoration-color:rgba(95,201,184,.4)}
   img{opacity:.94}
+  .sub-h{color:var(--gold-d)}
+  .chan-n{color:var(--gold-d)}
+  .chan a{color:var(--ink)}
+  .chan a:hover{background:#1b2521;color:var(--teal-d)}
+  footer.s .f-nav a{color:var(--ink)}
+}
+
+/* --- channel row + footer ---------------------------------------------------
+   The follow block was four emoji and four links on one line: emoji doing the
+   job that weight, rule and label should do, and a footer that ran the nav and
+   the geography together as one string of middots. Both now read as masthead
+   furniture — mono labels, hairline rules, one gold accent on hover. */
+.sub{border-top:1px solid var(--line);padding-top:18px;margin-top:26px;color:var(--muted);line-height:1.6}
+.sub-h{margin:0 0 2px;font:700 11px/1 var(--mono);letter-spacing:.1em;
+  text-transform:uppercase;color:var(--teal-d)}
+.sub-note{margin:0 0 14px;font-family:var(--sans);font-size:13.5px;line-height:1.5}
+.chan{list-style:none;margin:0;padding:0;display:grid;gap:0;
+  border-top:1px solid var(--line)}
+.chan li{border-bottom:1px solid var(--line)}
+.chan a{display:flex;align-items:baseline;gap:12px;padding:10px 2px;margin:0;line-height:1.5;
+  font-family:var(--sans);color:var(--ink);
+  border-left:2px solid transparent;padding-left:10px;
+  transition:border-color .18s ease,background-color .18s ease,color .18s ease}
+.chan a:hover{border-left-color:var(--gold);background:var(--sand-2);color:var(--teal-d)}
+.chan-n{font:700 11px/1.6 var(--mono);letter-spacing:.09em;text-transform:uppercase;
+  color:var(--teal-d);min-width:96px;flex:0 0 auto}
+.chan-d{font-size:14px;color:var(--muted);line-height:1.5}
+footer.s{border-top:1px solid var(--line);margin-top:34px;padding:22px 0 30px;text-align:left}
+footer.s .f-line{margin:0 0 12px;font-family:var(--sans);font-size:13px;
+  color:var(--muted);max-width:62ch}
+footer.s .f-nav{margin:0 0 10px;display:flex;flex-wrap:wrap;gap:0 18px}
+footer.s .f-nav a{font:600 12px/1.9 var(--sans);color:var(--ink)}
+footer.s .f-geo{margin:0;font:600 10.5px/1.6 var(--mono);letter-spacing:.12em;
+  text-transform:uppercase;color:var(--muted)}
+@media(max-width:640px){
+  .chan a{flex-direction:column;gap:2px}
+  .chan-n{min-width:0}
 }
 
 /* Operators print these briefs and take them into rate meetings. */
 @media print{
   body{background:#fff;font-size:11.5pt;line-height:1.45}
-  header.s,footer.s,.crumbs,.pnrow,.sub,.more,.art .hero,.hcredit{display:none!important}
+  header.s,footer.s,.crumbs,.pnrow,.sub,.chan,.more,.art .hero,.hcredit{display:none!important}
   .wrap{max-width:none;padding:0}
   .art{border:none;border-radius:0;margin:0;padding:0;background:#fff}
   .art h1{font-size:19pt;border-bottom:1.5pt solid #000;page-break-after:avoid}
@@ -888,7 +924,7 @@ def edition_page(e, siblings=None, prev=None, nxt=None, hero=None, credit=None):
 <script type="application/ld+json">{json.dumps(ld)}</script>
 <script type="application/ld+json">{json.dumps(crumbs)}</script>
 <style>{ARTICLE_CSS}
-.hcredit{{margin:-8px 0 18px;font:12px/1.5 Helvetica Neue,Arial,sans-serif;color:#7c8a86}}
+.hcredit{{margin:-8px 0 18px;font:12px/1.5 var(--sans);color:#7c8a86}}
 .hcredit a{{color:#5566a3;text-decoration:none}}</style></head>
 <body>
 <a class="skip" href="#content">Skip to the brief</a>
@@ -906,16 +942,22 @@ def edition_page(e, siblings=None, prev=None, nxt=None, hero=None, credit=None):
     {guides_html}
     {pn_html}
     <div class="sub">
-      <b>Follow the Pulse</b> — Daily Briefs across Kenya, Uganda, Tanzania, Zanzibar &amp; Rwanda.<br>
-      <a href="{CHANNELS['telegram']}" target="_blank" rel="noopener">📣 Telegram (full editions)</a>
-      <a href="{CHANNELS['whatsapp']}" target="_blank" rel="noopener">💬 WhatsApp (daily skim)</a>
-      <a href="{CHANNELS['linkedin']}" target="_blank" rel="noopener">💼 LinkedIn (the Big Read)</a>
-      <a href="../index.html#archive">🗂 Every edition</a>
+      <h2 class="sub-h">Follow the Pulse</h2>
+      <p class="sub-note">Daily briefs across Kenya, Uganda, Tanzania, Zanzibar and Rwanda.</p>
+      <ul class="chan">
+        <li><a href="{CHANNELS['telegram']}" target="_blank" rel="noopener"><span class="chan-n">Telegram</span><span class="chan-d">The full edition, three times a day</span></a></li>
+        <li><a href="{CHANNELS['whatsapp']}" target="_blank" rel="noopener"><span class="chan-n">WhatsApp</span><span class="chan-d">The daily skim</span></a></li>
+        <li><a href="{CHANNELS['linkedin']}" target="_blank" rel="noopener"><span class="chan-n">LinkedIn</span><span class="chan-d">The Big Read, most evenings</span></a></li>
+        <li><a href="../archive.html"><span class="chan-n">Archive</span><span class="chan-d">Every edition, searchable</span></a></li>
+      </ul>
     </div>
   </article>
 </main>
-<footer class="s">EA Hospitality Pulse — Daily intelligence for city, bush &amp; beach properties across East Africa.<br>
-<a href="../index.html">Home</a> · <a href="../credits.html">Image credits</a> · Kenya · Uganda · Tanzania · Zanzibar · Rwanda</footer>
+<footer class="s"><div class="wrap">
+<p class="f-line">EA Hospitality Pulse — daily intelligence for city, bush and beach properties across East Africa. Free to read, free to republish with attribution.</p>
+<p class="f-nav"><a href="../index.html">Home</a><a href="../archive.html">Archive</a><a href="../methodology.html">Methodology</a><a href="../faq.html">FAQ</a><a href="../republish.html">Republish</a><a href="../credits.html">Image credits</a></p>
+<p class="f-geo">Kenya &middot; Uganda &middot; Tanzania &middot; Zanzibar &middot; Rwanda</p>
+</div></footer>
 </body></html>"""
 
 
@@ -998,7 +1040,7 @@ def build_credits_page():
 <title>Image credits | EA Hospitality Pulse</title>
 <meta name="description" content="Attribution for imagery used across EA Hospitality Pulse — data cards (own work), official press and media libraries, and legacy Creative Commons photography.">
 <link rel="canonical" href="{BASE}/credits.html">
-<meta name="robots" content="index,follow">
+<meta name="robots" content="index,follow,max-image-preview:large,max-snippet:-1,max-video-preview:-1">
 <style>{ARTICLE_CSS}
 .art table{{width:100%;border-collapse:collapse;font-family:Helvetica Neue,Arial,sans-serif;font-size:14px}}
 .art th,.art td{{border:1px solid var(--line);padding:9px 11px;text-align:left;vertical-align:top}}
@@ -1006,7 +1048,7 @@ def build_credits_page():
 .tw{{overflow-x:auto}}
 </style></head>
 <body>
-<header class="s"><div class="wrap"><a href="/"><div class="logo">🏨</div><b>EA Hospitality Pulse</b></a></div></header>
+<header class="s"><div class="wrap"><a href="/"><span class="logo" aria-hidden="true">EA</span><b>EA Hospitality Pulse</b></a></div></header>
 <div class="wrap"><article class="art">
 <a class="nav" href="./index.html">← Home</a>
 <h1>Image credits</h1>
@@ -1018,10 +1060,154 @@ def build_credits_page():
 </tbody></table></div>
 <p class="meta-line">Base illustrations (savannah, Nairobi skyline, Zanzibar beach) are licensed stock held in the repository. Questions about attribution: ceo@eahospitalitypulse.com.</p>
 </article></div>
-<footer class="s">EA Hospitality Pulse — Daily intelligence for city, bush &amp; beach properties across East Africa.<br>
-<a href="./index.html">Home</a> · Kenya · Uganda · Tanzania · Zanzibar · Rwanda</footer>
+<footer class="s"><div class="wrap">
+<p class="f-line">EA Hospitality Pulse — daily intelligence for city, bush and beach properties across East Africa.</p>
+<p class="f-nav"><a href="./index.html">Home</a><a href="./archive.html">Archive</a><a href="./methodology.html">Methodology</a><a href="./faq.html">FAQ</a></p>
+<p class="f-geo">Kenya &middot; Uganda &middot; Tanzania &middot; Zanzibar &middot; Rwanda</p>
+</div></footer>
 </body></html>"""
     open(os.path.join(HERE,"credits.html"),"w",encoding="utf-8").write(page)
+
+# ---- honest lastmod ---------------------------------------------------------
+# Every static URL in the sitemap carried today's date, rebuilt daily — so the
+# sitemap claimed the terms page changed this morning when it last changed in
+# August. Search engines discount a lastmod they can see is wrong, which costs
+# the URLs where the date IS meaningful. Read the real date from git.
+_GIT_MTIME_CACHE = {}
+
+def file_lastmod(rel, fallback):
+    """Last commit date for a tracked file (YYYY-MM-DD); mtime, then fallback."""
+    if rel in _GIT_MTIME_CACHE:
+        return _GIT_MTIME_CACHE[rel]
+    val = None
+    try:
+        r = subprocess.run(["git", "log", "-1", "--format=%cs", "--", rel],
+                           capture_output=True, text=True, cwd=HERE, timeout=20)
+        out = (r.stdout or "").strip()
+        if re.fullmatch(r"\d{4}-\d{2}-\d{2}", out):
+            val = out
+    except Exception:
+        pass
+    if not val:
+        try:
+            ts = os.path.getmtime(os.path.join(HERE, rel))
+            val = datetime.date.fromtimestamp(ts).isoformat()
+        except Exception:
+            val = fallback
+    _GIT_MTIME_CACHE[rel] = val
+    return val
+
+
+# ---- static-page head hygiene ----------------------------------------------
+# index.html and archive.html get their heads patched at build time; the other
+# hand-maintained pages never did. So the FAQ — the single most citable page on
+# the site — carried no robots directive at all, which means Google applies the
+# conservative default snippet length and an AI Overview has less of the answer
+# to lift. Same story for og:locale, image alts, and two pages with no social
+# tags whatsoever. This pass writes the missing tags idempotently, inside a
+# marked block, so it can be re-run or reverted without touching hand-written
+# markup.
+SEO_MARK_OPEN  = "<!--SEO_HEAD-->"
+SEO_MARK_CLOSE = "<!--/SEO_HEAD-->"
+INDEXABLE_ROBOTS = ('<meta name="robots" content="index,follow,'
+                    'max-image-preview:large,max-snippet:-1,max-video-preview:-1">')
+
+# Pages the build already owns (index/archive) or that must never be indexed
+# (radar is an internal ops board) are handled elsewhere or left alone.
+_SEO_SKIP = {"index.html", "archive.html", "radar.html", "404.html"}
+
+def _head_has(head, needle):
+    return needle in head
+
+def polish_static_heads():
+    """Idempotently add the answer-engine meta that hand-written pages lack."""
+    targets = [f for f in sorted(os.listdir(HERE))
+               if f.endswith(".html") and f not in _SEO_SKIP]
+    tools_dir = os.path.join(HERE, "tools")
+    if os.path.isdir(tools_dir):
+        targets += [os.path.join("tools", t) for t in sorted(os.listdir(tools_dir))
+                    if t.endswith(".html")]
+    touched = []
+    for rel in targets:
+        path = os.path.join(HERE, rel)
+        try:
+            doc = open(path, encoding="utf-8").read()
+        except Exception:
+            continue
+        # strip any previous run's block so the pass is idempotent
+        doc = re.sub(re.escape(SEO_MARK_OPEN) + r".*?" + re.escape(SEO_MARK_CLOSE) + r"\n?",
+                     "", doc, flags=re.S)
+        if "</head>" not in doc:
+            continue
+        head = doc.split("</head>", 1)[0]
+        add = []
+        if '<meta name="robots"' not in head:
+            add.append(INDEXABLE_ROBOTS)
+        if 'rel="alternate" type="application/rss+xml"' not in head:
+            depth = "../" if rel.startswith("tools/") else ""
+            add.append(f'<link rel="alternate" type="application/rss+xml" '
+                       f'title="EA Hospitality Pulse" href="{depth}feed.xml">')
+        if '<meta name="color-scheme"' not in head:
+            add.append('<meta name="color-scheme" content="light dark">')
+        if '<meta name="theme-color"' not in head:
+            add.append('<meta name="theme-color" content="#0a4f48">')
+
+        # title/description are the only reliable copy on a hand-written page —
+        # reuse them rather than inventing social copy the author never wrote.
+        _t = re.search(r"<title>(.*?)</title>", head, re.S)
+        _d = re.search(r'<meta name="description" content="([^"]*)"', head)
+        page_title = html.unescape(_t.group(1).strip()) if _t else "EA Hospitality Pulse"
+        page_desc = html.unescape(_d.group(1).strip()) if _d else ""
+        _c = re.search(r'<link rel="canonical" href="([^"]*)"', head)
+        page_url = _c.group(1) if _c else f"{BASE}/{rel}"
+
+        if '<meta property="og:' not in head:
+            add.append('<meta property="og:type" content="website">')
+            add.append('<meta property="og:site_name" content="EA Hospitality Pulse">')
+            add.append(f'<meta property="og:title" content="{html.escape(page_title)}">')
+            if page_desc:
+                add.append(f'<meta property="og:description" content="{html.escape(page_desc)}">')
+            add.append(f'<meta property="og:url" content="{html.escape(page_url)}">')
+            add.append(f'<meta property="og:image" content="{BASE}/og/default.png">')
+            add.append('<meta property="og:image:width" content="1200">')
+            add.append('<meta property="og:image:height" content="630">')
+        if '<meta name="twitter:card"' not in head:
+            add.append('<meta name="twitter:card" content="summary_large_image">')
+            add.append(f'<meta name="twitter:title" content="{html.escape(page_title)}">')
+            if page_desc:
+                add.append(f'<meta name="twitter:description" content="{html.escape(page_desc)}">')
+            add.append(f'<meta name="twitter:image" content="{BASE}/og/default.png">')
+        # An image with no alt is an image an answer engine cannot describe.
+        _alt = html.escape(page_title)
+        if '<meta property="og:image:alt"' not in head:
+            add.append(f'<meta property="og:image:alt" content="{_alt}">')
+        if '<meta name="twitter:image:alt"' not in head:
+            add.append(f'<meta name="twitter:image:alt" content="{_alt}">')
+        if '<meta property="og:locale"' not in head:
+            add.append('<meta property="og:locale" content="en_GB">')
+        if '<link rel="canonical"' not in head:
+            add.append(f'<link rel="canonical" href="{BASE}/{rel}">')
+
+        if add:
+            doc = doc.replace("</head>",
+                              SEO_MARK_OPEN + "\n" + "\n".join(add) + "\n"
+                              + SEO_MARK_CLOSE + "\n</head>", 1)
+            touched.append((rel, len(add)))
+        open(path, "w", encoding="utf-8").write(doc)
+
+    # A 404 that is indexable is a 404 competing with real pages in the index.
+    _404 = os.path.join(HERE, "404.html")
+    if os.path.exists(_404):
+        d404 = open(_404, encoding="utf-8").read()
+        if '<meta name="robots"' not in d404 and "</head>" in d404:
+            d404 = d404.replace("</head>",
+                '<meta name="robots" content="noindex,follow">\n</head>', 1)
+            open(_404, "w", encoding="utf-8").write(d404)
+            touched.append(("404.html", 1))
+    if touched:
+        print("static head hygiene: " + ", ".join(f"{r} (+{n})" for r, n in touched))
+    return touched
+
 
 def main():
     existing = load_existing()
@@ -1217,6 +1403,7 @@ def main():
         print("guides skipped:", ex)
         guides = []
     build_credits_page()
+    polish_static_heads()
 
     # feed.xml — RSS 2.0, so associations / aggregators / newsletter tools can
     # auto-pull editions instead of needing a manual republish each time.
@@ -1253,14 +1440,28 @@ def main():
     open(os.path.join(HERE, "feed.xml"), "w", encoding="utf-8").write("\n".join(rss))
 
     # sitemap.xml
-    urls = [(BASE+"/", today, "daily"), (BASE+"/republish.html", today, "monthly"), (BASE+"/methodology.html", today, "monthly"), (BASE+"/faq.html", today, "monthly"), (BASE+"/start-here.html", today, "monthly"), (BASE+"/survey.html", today, "monthly"), (BASE+"/survey-pay.html", today, "monthly"), (BASE+"/survey-agents.html", today, "monthly"), (BASE+"/credits.html", today, "monthly"), (BASE+"/archive.html", today, "daily"), (BASE+"/api.html", today, "monthly"), (BASE+"/privacy.html", today, "yearly"), (BASE+"/terms.html", today, "yearly")]
+    # The home page and the archive genuinely change every build (a new edition
+    # lands in both); everything else states the date it actually last changed.
+    _STATIC = [("index.html", "daily"), ("archive.html", "daily"),
+               ("republish.html", "monthly"), ("methodology.html", "monthly"),
+               ("faq.html", "monthly"), ("start-here.html", "monthly"),
+               ("survey.html", "monthly"), ("survey-pay.html", "monthly"),
+               ("survey-agents.html", "monthly"), ("credits.html", "monthly"),
+               ("api.html", "monthly"), ("privacy.html", "yearly"),
+               ("terms.html", "yearly")]
+    urls = []
+    for _rel, _cf in _STATIC:
+        _loc = BASE + "/" if _rel == "index.html" else f"{BASE}/{_rel}"
+        _lm = today if _cf == "daily" else file_lastmod(_rel, today)
+        urls.append((_loc, _lm, _cf))
     for g in guides:
         urls.append((f"{BASE}/guides/{g['slug']}.html", g["updated"], "monthly"))
     tools_dir = os.path.join(HERE, "tools")
     if os.path.isdir(tools_dir):
         for t in sorted(os.listdir(tools_dir)):
             if t.endswith(".html"):
-                urls.append((f"{BASE}/tools/{t}", today, "monthly"))
+                urls.append((f"{BASE}/tools/{t}",
+                             file_lastmod(os.path.join("tools", t), today), "monthly"))
     for e in editions:
         urls.append((f"{BASE}/editions/{e['id']}.html", e["date"], "monthly"))
     sm = ['<?xml version="1.0" encoding="UTF-8"?>',

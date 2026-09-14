@@ -174,27 +174,27 @@ header.s .logo{width:34px;height:34px;border-radius:8px;background:var(--gold);d
 header.s b{font-size:16px}
 header.s a{color:#fff;text-decoration:none}
 .art{background:var(--card);margin:24px auto;border:1px solid var(--line);border-radius:14px;padding:30px 34px 38px}
-.nav{font-family:Helvetica Neue,Arial,sans-serif;font-size:14px;font-weight:600;margin:0 0 10px;display:inline-block}
-.cat{font-family:Helvetica Neue,Arial,sans-serif;font-size:11px;font-weight:700;text-transform:uppercase;letter-spacing:1px;padding:4px 9px;border-radius:20px;background:var(--sand-2);color:var(--gold-d)}
-.upd{font-family:Helvetica Neue,Arial,sans-serif;font-size:13px;color:var(--muted);margin-left:8px}
+.nav{font-family:var(--sans);font-size:14px;font-weight:600;margin:0 0 10px;display:inline-block}
+.cat{font-family:var(--sans);font-size:11px;font-weight:700;text-transform:uppercase;letter-spacing:1px;padding:4px 9px;border-radius:20px;background:var(--sand-2);color:var(--gold-d)}
+.upd{font-family:var(--sans);font-size:13px;color:var(--muted);margin-left:8px}
 .art h1{font-size:29px;line-height:1.22;margin:16px 0 14px;border-bottom:2px solid var(--gold);padding-bottom:14px}
 .lede{font-size:18px;color:#3a423c;margin:0 0 20px}
-.byline{font-family:Helvetica Neue,Arial,sans-serif;font-size:13.5px;color:var(--muted);margin:8px 0 0}
+.byline{font-family:var(--sans);font-size:13.5px;color:var(--muted);margin:8px 0 0}
 .art h2{font-size:22px;margin:30px 0 10px;line-height:1.3}
 .art h3{font-size:18px;margin:22px 0 8px}
 .art p{margin:0 0 15px}
 .art ul,.art ol{margin:0 0 15px;padding-left:22px}
 .art li{margin:0 0 7px}
-blockquote{margin:18px 0;background:var(--sand-2);border-left:4px solid var(--gold);padding:12px 16px;border-radius:0 6px 6px 0;font-family:Helvetica Neue,Arial,sans-serif;font-size:15px}
+blockquote{margin:18px 0;background:var(--sand-2);border-left:4px solid var(--gold);padding:12px 16px;border-radius:0 6px 6px 0;font-family:var(--sans);font-size:15px}
 code{background:var(--sand-2);padding:1px 5px;border-radius:4px;font-size:14px}
 .tw{overflow-x:auto;margin:0 0 16px}
-table{border-collapse:collapse;width:100%;font-family:Helvetica Neue,Arial,sans-serif;font-size:14.5px}
+table{border-collapse:collapse;width:100%;font-family:var(--sans);font-size:14.5px}
 th,td{border:1px solid var(--line);padding:9px 11px;text-align:left;vertical-align:top}
 th{background:var(--sand-2);font-weight:700}
 hr{border:none;border-top:1px dashed var(--line);margin:26px 0}
-.sub{font-family:Helvetica Neue,Arial,sans-serif;font-size:14px;color:var(--muted);margin-top:26px;border-top:1px solid var(--line);padding-top:18px;line-height:1.9}
+.sub{font-family:var(--sans);font-size:14px;color:var(--muted);margin-top:26px;border-top:1px solid var(--line);padding-top:18px;line-height:1.9}
 .sub a{font-weight:600;margin-right:14px}
-footer.s{text-align:center;color:var(--muted);font-family:Helvetica Neue,Arial,sans-serif;font-size:12px;padding:22px}
+footer.s{text-align:center;color:var(--muted);font-family:var(--sans);font-size:12px;padding:22px}
 .art h1{letter-spacing:-.005em}
 @media(max-width:640px){
   .wrap{padding:0 16px}
@@ -209,7 +209,7 @@ footer.s{text-align:center;color:var(--muted);font-family:Helvetica Neue,Arial,s
    The guides are the evergreen, most-linked-to pages on the site and were the
    only article surface still missing the typographic system, the dark field and
    the print sheet that every daily edition already ships. */
-:root{--sans:"Helvetica Neue",Arial,sans-serif;
+:root{--sans:-apple-system,BlinkMacSystemFont,"Segoe UI Variable Text","Segoe UI",Inter,Roboto,"Helvetica Neue",Arial,sans-serif;
       --mono:ui-monospace,"SF Mono",Menlo,Consolas,"Liberation Mono",monospace}
 body{-webkit-font-smoothing:antialiased;text-rendering:optimizeLegibility}
 ::selection{background:var(--gold);color:#231a06}
