@@ -29,7 +29,30 @@
     "The Boma Hotel",
     "Best Western Plus Westlands",
     "Four Points by Sheraton Nairobi"
-   ]
+   ],
+   "cadenceWeeks": 1,
+   "cadenceReason": "City rates repriced continuously — 30% of week-on-week readings are flat (Nairobi just 11%). Check weekly.",
+   "rotation": {
+    "0": [
+     "Sarova Stanley",
+     "Villa Rosa Kempinski",
+     "Radisson Blu Upper Hill",
+     "Trademark Hotel Gigiri",
+     "Sankara Westlands",
+     "Hemingways Nairobi",
+     "Ole Sereni",
+     "Tribe Hotel",
+     "Nairobi Serena Hotel",
+     "JW Marriott Nairobi",
+     "Fairview Hotel Nairobi",
+     "Radisson Blu Nairobi",
+     "Crowne Plaza Nairobi Airport",
+     "The Boma Hotel",
+     "Best Western Plus Westlands",
+     "Four Points by Sheraton Nairobi"
+    ]
+   },
+   "weeklyLoad": 16.0
   },
   "coast": {
    "label": "Mombasa & Diani",
@@ -49,7 +72,29 @@
     "Coral Cove Resort",
     "Jacaranda Indian Ocean Beach Resort",
     "Diamonds Leisure Beach & Golf Resort"
-   ]
+   ],
+   "cadenceWeeks": 2,
+   "cadenceReason": "Beach rates move on shoulder/peak turns — 49% of readings are flat. Half the basket each week.",
+   "rotation": {
+    "0": [
+     "Serena Beach Resort & Spa",
+     "Leopard Beach Resort",
+     "Swahili Beach",
+     "Almanara Diani",
+     "AfroChic Diani Beach",
+     "Coral Cove Resort",
+     "Diamonds Leisure Beach & Golf Resort"
+    ],
+    "1": [
+     "Diani Reef Beach Resort",
+     "Baobab Beach Resort",
+     "Voyager Beach Resort",
+     "The Sands at Nomad",
+     "Almanara Luxury Villas",
+     "Jacaranda Indian Ocean Beach Resort"
+    ]
+   },
+   "weeklyLoad": 6.5
   },
   "zanzibar": {
    "label": "Zanzibar",
@@ -69,7 +114,29 @@
     "Essque Zalu Zanzibar",
     "White Sand Luxury Villas",
     "Breezes Beach Club & Spa"
-   ]
+   ],
+   "cadenceWeeks": 2,
+   "cadenceReason": "Beach rates move on shoulder/peak turns — 49% of readings are flat. Half the basket each week.",
+   "rotation": {
+    "0": [
+     "Zuri Zanzibar",
+     "Park Hyatt Zanzibar",
+     "Baraza Resort & Spa",
+     "Diamonds Star of the East",
+     "Kilindi Zanzibar",
+     "Essque Zalu Zanzibar",
+     "Breezes Beach Club & Spa"
+    ],
+    "1": [
+     "Melia Zanzibar",
+     "Riu Palace Zanzibar",
+     "The Residence Zanzibar",
+     "Hideaway of Nungwi",
+     "Mnemba Island Lodge",
+     "White Sand Luxury Villas"
+    ]
+   },
+   "weeklyLoad": 6.5
   },
   "kigali": {
    "label": "Kigali",
@@ -87,7 +154,25 @@
     "Hotel Des Mille Collines",
     "Onomo Hotel Kigali",
     "The Retreat by Heaven"
-   ]
+   ],
+   "cadenceWeeks": 1,
+   "cadenceReason": "City rates repriced continuously — 30% of week-on-week readings are flat (Nairobi just 11%). Check weekly.",
+   "rotation": {
+    "0": [
+     "Kigali Marriott",
+     "Radisson Blu Kigali",
+     "Kigali Serena",
+     "Ubumwe Grande",
+     "Park Inn by Radisson Kigali",
+     "Radisson Blu Hotel & Convention Centre Kigali",
+     "Heaven Boutique Hotel",
+     "2000 Hotel Downtown Kigali",
+     "Hotel Des Mille Collines",
+     "Onomo Hotel Kigali",
+     "The Retreat by Heaven"
+    ]
+   },
+   "weeklyLoad": 11.0
   },
   "kampala": {
    "label": "Kampala & Entebbe",
@@ -106,7 +191,26 @@
     "Golden Tulip Canaan Kampala",
     "Pearl of Africa Hotel",
     "Hotel Africana"
-   ]
+   ],
+   "cadenceWeeks": 1,
+   "cadenceReason": "City rates repriced continuously — 30% of week-on-week readings are flat (Nairobi just 11%). Check weekly.",
+   "rotation": {
+    "0": [
+     "Kampala Serena",
+     "Sheraton Kampala",
+     "Speke Resort Munyonyo",
+     "Protea by Marriott Kampala",
+     "Latitude 0 Degrees",
+     "Mestil Hotel & Residences",
+     "Hilton Garden Inn Kampala",
+     "Four Points by Sheraton Kampala",
+     "Kabira Country Club",
+     "Golden Tulip Canaan Kampala",
+     "Pearl of Africa Hotel",
+     "Hotel Africana"
+    ]
+   },
+   "weeklyLoad": 12.0
   },
   "safari": {
    "label": "Mara & Serengeti",
@@ -135,7 +239,40 @@
     "andBeyond Grumeti Serengeti",
     "One Nature Nyaruswigwa",
     "Chem Chem Safari Lodge"
-   ]
+   ],
+   "cadenceWeeks": 3,
+   "cadenceReason": "Bush lodges publish seasonal rate sheets — 82% of readings are flat. One third of the basket each week.",
+   "rotation": {
+    "0": [
+     "Governors' Camp",
+     "Kichwa Tembo",
+     "Mara Intrepids",
+     "Olare Mara Kempinski",
+     "Mahali Mzuri",
+     "Singita Faru Faru Lodge",
+     "Mwiba Lodge",
+     "Chem Chem Safari Lodge"
+    ],
+    "1": [
+     "Mara Serena Safari Lodge",
+     "Four Seasons Safari Lodge Serengeti",
+     "andBeyond Bateleur Camp",
+     "Cottar's 1920s Safari Camp",
+     "JW Marriott Masai Mara Lodge",
+     "Serengeti Bushtops",
+     "andBeyond Grumeti Serengeti"
+    ],
+    "2": [
+     "Angama Mara",
+     "Serengeti Serena Safari Lodge",
+     "Mara Plains Camp",
+     "Sanctuary Olonana",
+     "Singita Sasakwa Lodge",
+     "Sayari Tented Camp",
+     "One Nature Nyaruswigwa"
+    ]
+   },
+   "weeklyLoad": 7.3
   },
   "dar_arusha": {
    "label": "Dar es Salaam & Arusha",
@@ -152,7 +289,24 @@
     "Blackwood Boutique Hotel",
     "Ledger Plaza Bahari Beach Hotel",
     "Hyatt Regency Arusha"
-   ]
+   ],
+   "cadenceWeeks": 1,
+   "cadenceReason": "City rates repriced continuously — 30% of week-on-week readings are flat (Nairobi just 11%). Check weekly.",
+   "rotation": {
+    "0": [
+     "Hyatt Regency Dar es Salaam",
+     "Johari Rotana",
+     "Dar es Salaam Serena Hotel",
+     "Gran Melia Arusha",
+     "Sea Cliff Hotel",
+     "Protea Hotel Dar es Salaam Courtyard",
+     "DoubleTree by Hilton Dar es Salaam",
+     "Blackwood Boutique Hotel",
+     "Ledger Plaza Bahari Beach Hotel",
+     "Hyatt Regency Arusha"
+    ]
+   },
+   "weeklyLoad": 10.0
   },
   "lakevictoria": {
    "label": "Lake Victoria & Entebbe",
@@ -168,7 +322,25 @@
     "Aero Beach Hotel Entebbe",
     "Imperial Resort Beach Entebbe",
     "Munyonyo Commonwealth Resort"
-   ]
+   ],
+   "cadenceWeeks": 2,
+   "cadenceReason": "Beach rates move on shoulder/peak turns — 49% of readings are flat. Half the basket each week.",
+   "rotation": {
+    "0": [
+     "Lake Victoria Serena Golf Resort",
+     "Wildwaters Lodge",
+     "Brovad Sands Lodge",
+     "Aero Beach Hotel Entebbe",
+     "Munyonyo Commonwealth Resort"
+    ],
+    "1": [
+     "Protea Hotel by Marriott Entebbe",
+     "Pineapple Bay Resort",
+     "Lutembe Beach Resort",
+     "Imperial Resort Beach Entebbe"
+    ]
+   },
+   "weeklyLoad": 4.5
   },
   "bwindi": {
    "label": "Bwindi, Kibale & QENP",
@@ -185,7 +357,28 @@
     "Erebero Hills (Asilia)",
     "Primate Lodge Kibale",
     "Kyambura Gorge Lodge"
-   ]
+   ],
+   "cadenceWeeks": 3,
+   "cadenceReason": "Bush lodges publish seasonal rate sheets — 82% of readings are flat. One third of the basket each week.",
+   "rotation": {
+    "0": [
+     "Clouds Mountain Gorilla Lodge",
+     "Mahogany Springs Lodge",
+     "Engagi Lodge",
+     "Kyambura Gorge Lodge"
+    ],
+    "1": [
+     "Bwindi Lodge",
+     "Sanctuary Gorilla Forest Camp",
+     "Erebero Hills (Asilia)"
+    ],
+    "2": [
+     "Nkuringo Bwindi Gorilla Lodge",
+     "Buhoma Lodge",
+     "Primate Lodge Kibale"
+    ]
+   },
+   "weeklyLoad": 3.3
   },
   "lakekivu": {
    "label": "Lake Kivu",
@@ -202,7 +395,26 @@
     "Bethany Hotel Kibuye",
     "Home Saint Jean",
     "Kibuye Guesthouse"
-   ]
+   ],
+   "cadenceWeeks": 2,
+   "cadenceReason": "Beach rates move on shoulder/peak turns — 49% of readings are flat. Half the basket each week.",
+   "rotation": {
+    "0": [
+     "Lake Kivu Serena Hotel",
+     "Kivu Marina Bay Hotel",
+     "Moriah Hill Resort",
+     "Gorillas Lake Kivu Hotel",
+     "Home Saint Jean"
+    ],
+    "1": [
+     "Cormoran Lodge",
+     "Paradise Kivu Resort",
+     "Palm Garden Resort",
+     "Bethany Hotel Kibuye",
+     "Kibuye Guesthouse"
+    ]
+   },
+   "weeklyLoad": 5.0
   },
   "volcanoes": {
    "label": "Volcanoes & Akagera",
@@ -219,7 +431,28 @@
     "Ruzizi Tented Lodge (Akagera)",
     "Karenge Bush Camp (Akagera)",
     "Nyungwe House"
-   ]
+   ],
+   "cadenceWeeks": 3,
+   "cadenceReason": "Bush lodges publish seasonal rate sheets — 82% of readings are flat. One third of the basket each week.",
+   "rotation": {
+    "0": [
+     "Bisate Lodge",
+     "Sabyinyo Silverback Lodge",
+     "Magashi Camp (Akagera)",
+     "Nyungwe House"
+    ],
+    "1": [
+     "Singita Kwitonda Lodge",
+     "Virunga Lodge",
+     "Ruzizi Tented Lodge (Akagera)"
+    ],
+    "2": [
+     "One&Only Gorilla's Nest",
+     "Five Volcanoes Boutique Hotel",
+     "Karenge Bush Camp (Akagera)"
+    ]
+   },
+   "weeklyLoad": 3.3
   }
  },
  "expanded": {
@@ -243,5 +476,6 @@
    "action": "Excluded from index and from targeting to prevent double-counting one property. Verified 13 Aug 2026 via Hotel Online / Travel Agent Central reports of the April 2018 acquisition and riu.com's Hotel Riu Palace Zanzibar page; the legacy hideawaynungwi.com site is an unmaintained Emerald-era page. Never observed under the Hideaway name, so no index history is affected."
   }
  ],
- "inactiveNote": "Properties in the basket that could not be priced because they are not trading. Kept in the file rather than deleted so the exclusion is auditable and reversible. Excluded from index computation."
+ "inactiveNote": "Properties in the basket that could not be priced because they are not trading. Kept in the file rather than deleted so the exclusion is auditable and reversible. Excluded from index computation.",
+ "cadenceNote": "Collection cadence is tiered by segment and rotated so the weekly slice is even. A property is compared only with its own previous observation, and build_rate_index.py matches back up to LOOKBACK_WEEKS=6, so a 2- or 3-week cadence chains exactly like weekly collection. Groups are sized so every market still clears MIN_N=3 matched pairs every week and no market-week is marked unconfident. Rotation group for a given ISO week = week number mod cadenceWeeks."
 }
