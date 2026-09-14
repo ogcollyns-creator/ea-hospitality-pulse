@@ -1,18 +1,18 @@
 {
- "generated": "2026-09-14T01:20:48+03:00",
+ "generated": "2026-09-14T06:55:19+03:00",
  "slot": "morning",
  "window_start": 1789311600,
- "observations_in_window": 102,
- "deduped_against": 8,
+ "observations_in_window": 152,
+ "deduped_against": 4,
  "candidates": [
   {
-   "score": 65.2,
+   "score": 59.1,
    "components": {
     "tier": 40,
     "category": 12,
     "lead": 3.6,
     "relevance": 0,
-    "freshness": 19.6,
+    "freshness": 13.5,
     "undated": -6,
     "page_change": -4
    },
@@ -40,13 +40,122 @@
    "verdict": "OPEN THIS \u2014 tier-1 airline page moved; content not auto-parsed, read it manually"
   },
   {
-   "score": 85.6,
+   "score": 82.4,
+   "components": {
+    "tier": 20,
+    "category": 5,
+    "lead": 3.6,
+    "relevance": 24,
+    "freshness": 19.8,
+    "corroborated": 10
+   },
+   "keywords": [
+    "vat",
+    "fee",
+    "hotel",
+    "guest"
+   ],
+   "shock_terms": [],
+   "dedupe_match": null,
+   "dedupe_similarity": 0.17,
+   "id": "07e9b30b673a",
+   "title": "CruVu\u2122 Helps Hotel General Managers Earn More Four- and Five-Star Reviews Through Better Guest Experiences",
+   "url": "https://www.hospitalitynet.org/news/4134345/cruvu-helps-hotel-general-managers-earn-more-four-and-five-star-reviews-through-better-guest-experiences",
+   "summary": "CruVu by Lodging Interactive collects private in-stay guest feedback to give hotel GMs real-time service recovery alerts, department recognition tools, and AI-assisted coaching to improve public review scores.",
+   "kind": "item",
+   "source": "Hospitality Net \u2014 Africa announcements",
+   "source_id": "dev-hospitalitynet-africa",
+   "tier": 2,
+   "country": "REG",
+   "category": "trade",
+   "segments": [
+    "city",
+    "bush",
+    "beach"
+   ],
+   "first_seen": "2026-09-14T06:52+03:00",
+   "published": "2026-09-14",
+   "verdict": "CONSIDER"
+  },
+  {
+   "score": 81.3,
+   "components": {
+    "tier": 40,
+    "category": 32,
+    "lead": 3.6,
+    "relevance": 0,
+    "freshness": 19.7,
+    "stale_trap": -10,
+    "page_change": -4
+   },
+   "keywords": [],
+   "shock_terms": [],
+   "dedupe_match": null,
+   "dedupe_similarity": 0.0,
+   "id": "03fec685bbab",
+   "title": "[page changed] Federal Register \u2014 public inspection (HHS/CDC), pre-publication",
+   "url": "https://www.federalregister.gov/api/v1/public-inspection-documents/current.json",
+   "summary": "{\"count\":157,\"results\":[{\"agencies\":[{\"raw_name\":\"SECURITIES AND EXCHANGE COMMISSION\",\"name\":\"Securities and Exchange Commission\",\"id\":466,\"url\":\"https://www.federalregister.gov/agencies/securities-and-exchange-commission\",\"json_url\":\"https://www.federalregister.gov/api/v1/agencies/466\",\"parent_id\":null,\"slug\":\"securities-and-exchange-commission\"}],\"agency_letters\":[],\"agency_names\":[\"Securities a",
+   "kind": "page-change",
+   "source": "Federal Register \u2014 public inspection (HHS/CDC), pre-publication",
+   "source_id": "us-fedreg-pubinspect-hhs",
+   "tier": 1,
+   "country": "REG",
+   "category": "advisory",
+   "segments": [
+    "city",
+    "bush"
+   ],
+   "first_seen": "2026-09-14T06:52+03:00",
+   "published": "2026-09-10",
+   "verdict": "CHECK \u2014 source date older than the window"
+  },
+  {
+   "score": 79.8,
+   "components": {
+    "tier": 20,
+    "category": 4,
+    "lead": 0.0,
+    "relevance": 8,
+    "freshness": 19.8,
+    "corroborated": 10,
+    "shock": 18
+   },
+   "keywords": [
+    "strike"
+   ],
+   "shock_terms": [
+    "strike"
+   ],
+   "dedupe_match": null,
+   "dedupe_similarity": 0.2,
+   "id": "996f048e8794",
+   "title": "Haaland strike gives Man City 1-0 win over Man United after Foden sent off",
+   "url": "https://www.monitor.co.ug/uganda/sports/soccer/haaland-strike-gives-man-city-1-0-win-over-man-united-after-foden-sent-off-5594034",
+   "summary": "The win moves City to second in the table on 12 points from four games, behind champions...",
+   "kind": "item",
+   "source": "Daily Monitor (Uganda)",
+   "source_id": "np-monitor-ug",
+   "tier": 2,
+   "country": "UG",
+   "category": "press",
+   "segments": [
+    "city",
+    "bush",
+    "beach"
+   ],
+   "first_seen": "2026-09-14T06:52+03:00",
+   "published": "2026-09-13",
+   "verdict": "CONSIDER"
+  },
+  {
+   "score": 79.5,
    "components": {
     "tier": 5,
     "category": 5,
     "lead": 0.0,
     "relevance": 28,
-    "freshness": 19.6,
+    "freshness": 13.5,
     "corroborated": 10,
     "shock": 18
    },
@@ -81,13 +190,13 @@
    "verdict": "CONSIDER"
   },
   {
-   "score": 81.2,
+   "score": 75.1,
    "components": {
     "tier": 40,
     "category": 32,
     "lead": 3.6,
     "relevance": 0,
-    "freshness": 19.6,
+    "freshness": 13.5,
     "stale_trap": -10,
     "page_change": -4
    },
@@ -114,13 +223,49 @@
    "verdict": "CHECK \u2014 source date older than the window"
   },
   {
-   "score": 76.9,
+   "score": 71.8,
+   "components": {
+    "tier": 20,
+    "category": 4,
+    "lead": 0.0,
+    "relevance": 0,
+    "freshness": 19.8,
+    "corroborated": 10,
+    "shock": 18
+   },
+   "keywords": [],
+   "shock_terms": [
+    "attack"
+   ],
+   "dedupe_match": null,
+   "dedupe_similarity": 0.0,
+   "id": "45af30258948",
+   "title": "Woman stabbed to death, suspected killer lynched in Kalungu",
+   "url": "https://www.monitor.co.ug/uganda/news/national/woman-stabbed-to-death-suspected-killer-lynched-in-kalungu-5594050",
+   "summary": "Police investigate double killing involving woman, suspected attacker",
+   "kind": "item",
+   "source": "Daily Monitor (Uganda)",
+   "source_id": "np-monitor-ug",
+   "tier": 2,
+   "country": "UG",
+   "category": "press",
+   "segments": [
+    "city",
+    "bush",
+    "beach"
+   ],
+   "first_seen": "2026-09-14T06:52+03:00",
+   "published": "2026-09-13",
+   "verdict": "CONSIDER"
+  },
+  {
+   "score": 70.8,
    "components": {
     "tier": 40,
     "category": 32,
     "lead": 3.6,
     "relevance": 0,
-    "freshness": 15.3,
+    "freshness": 9.2,
     "stale_trap": -10,
     "page_change": -4
    },
@@ -147,13 +292,193 @@
    "verdict": "CHECK \u2014 source date older than the window"
   },
   {
-   "score": 61.3,
+   "score": 64.2,
+   "components": {
+    "tier": 20,
+    "category": 24,
+    "lead": 2.4,
+    "relevance": 8,
+    "freshness": 19.8,
+    "undated": -6,
+    "page_change": -4
+   },
+   "keywords": [
+    "vat"
+   ],
+   "shock_terms": [],
+   "dedupe_match": null,
+   "dedupe_similarity": 0.0,
+   "id": "a1c72abe6e96",
+   "title": "[page changed] ProMED-mail",
+   "url": "https://promedmail.org/",
+   "summary": "Protecting Global Health, One Alert at a Time | ProMED Previous slide Next slide Protecting Global Health, One Alert at a Time ProMED: Your 24/7 early warning system for emerging infectious diseases worldwide. Subscribe ProMED's Weekly Pulse A snapshot of global health events from the past 7 days Latest Posts on ProMED All Date Title Mon Sep 14 2026 FOODBORNE ILLNESS - SYRIA (02): (DARAA) REQUEST ",
+   "kind": "page-change",
+   "source": "ProMED-mail",
+   "source_id": "promed",
+   "tier": 2,
+   "country": "GLOBAL",
+   "category": "health",
+   "segments": [
+    "city",
+    "bush",
+    "beach"
+   ],
+   "first_seen": "2026-09-14T06:52+03:00",
+   "published": null,
+   "verdict": "weak"
+  },
+  {
+   "score": 64.0,
+   "components": {
+    "tier": 20,
+    "category": 5,
+    "lead": 1.2,
+    "relevance": 8,
+    "freshness": 19.8,
+    "corroborated": 10
+   },
+   "keywords": [
+    "tourism",
+    "tourist"
+   ],
+   "shock_terms": [],
+   "dedupe_match": null,
+   "dedupe_similarity": 0.0,
+   "id": "9462242540d4",
+   "title": "India\u2019s Domestic Tourism Boom May Be Its Biggest Inbound Problem",
+   "url": "https://skift.com/2026/09/13/indias-domestic-tourism-boom-may-be-its-biggest-inbound-problem",
+   "summary": "India has too many domestic tourists, not enough foreign ones. Add to that the country is becoming more expensive and crowded while its international marketing muscle has shrunk dramatically.",
+   "kind": "item",
+   "source": "Skift",
+   "source_id": "tp-skift",
+   "tier": 2,
+   "country": "GLOBAL",
+   "category": "trade",
+   "segments": [
+    "city",
+    "bush",
+    "beach"
+   ],
+   "first_seen": "2026-09-14T06:52+03:00",
+   "published": "2026-09-14",
+   "verdict": "weak"
+  },
+  {
+   "score": 56.0,
+   "components": {
+    "tier": 20,
+    "category": 5,
+    "lead": 1.2,
+    "relevance": 16,
+    "freshness": 19.8,
+    "undated": -6
+   },
+   "keywords": [
+    "fuel",
+    "wildlife"
+   ],
+   "shock_terms": [],
+   "dedupe_match": null,
+   "dedupe_similarity": 0.0,
+   "id": "ba2cc39064ab",
+   "title": "Etosha National Park in October 2026: Concentrated Wildlife, Rising Heat and Fuel Realities",
+   "url": "https://travelnews.africa/news-single.html?id=18378&title=Etosha+National+Park+in+October+2026%3A+Concentrated+Wildlife%2C+Rising+Heat+and+Fuel+Realities",
+   "summary": "",
+   "kind": "item",
+   "source": "travelnews.africa",
+   "source_id": "tp-travelnews-africa",
+   "tier": 2,
+   "country": "REG",
+   "category": "trade",
+   "segments": [
+    "city",
+    "bush",
+    "beach"
+   ],
+   "first_seen": "2026-09-14T06:52+03:00",
+   "published": null,
+   "verdict": "weak"
+  },
+  {
+   "score": 56.0,
+   "components": {
+    "tier": 20,
+    "category": 5,
+    "lead": 1.2,
+    "relevance": 16,
+    "freshness": 19.8,
+    "undated": -6
+   },
+   "keywords": [
+    "vat",
+    "wildlife"
+   ],
+   "shock_terms": [],
+   "dedupe_match": null,
+   "dedupe_similarity": 0.0,
+   "id": "81a9f80a50e3",
+   "title": "travel news Conservation & Wildlife 400",
+   "url": "https://travelnews.africa/index.html?a=Conservation+%26+Wildlife",
+   "summary": "",
+   "kind": "item",
+   "source": "travelnews.africa",
+   "source_id": "tp-travelnews-africa",
+   "tier": 2,
+   "country": "REG",
+   "category": "trade",
+   "segments": [
+    "city",
+    "bush",
+    "beach"
+   ],
+   "first_seen": "2026-09-14T06:52+03:00",
+   "published": null,
+   "verdict": "weak"
+  },
+  {
+   "score": 56.0,
+   "components": {
+    "tier": 20,
+    "category": 5,
+    "lead": 1.2,
+    "relevance": 16,
+    "freshness": 19.8,
+    "undated": -6
+   },
+   "keywords": [
+    "fuel",
+    "wildlife"
+   ],
+   "shock_terms": [],
+   "dedupe_match": null,
+   "dedupe_similarity": 0.0,
+   "id": "f8326d47eb01",
+   "title": "Etosha National Park in October 2026: Concentrated Wildlife, Rising Heat and Fuel Realities",
+   "url": "https://travelnews.africa/news-single.html?id=18378",
+   "summary": "",
+   "kind": "item",
+   "source": "travelnews.africa",
+   "source_id": "tp-travelnews-africa",
+   "tier": 2,
+   "country": "REG",
+   "category": "trade",
+   "segments": [
+    "city",
+    "bush",
+    "beach"
+   ],
+   "first_seen": "2026-09-14T06:52+03:00",
+   "published": null,
+   "verdict": "weak"
+  },
+  {
+   "score": 55.2,
    "components": {
     "tier": 20,
     "category": 4,
     "lead": 0.0,
     "relevance": 12,
-    "freshness": 15.3,
+    "freshness": 9.2,
     "corroborated": 10
    },
    "keywords": [
@@ -183,13 +508,13 @@
    "verdict": "weak"
   },
   {
-   "score": 61.3,
+   "score": 55.2,
    "components": {
     "tier": 20,
     "category": 4,
     "lead": 0.0,
     "relevance": 12,
-    "freshness": 15.3,
+    "freshness": 9.2,
     "corroborated": 10
    },
    "keywords": [
@@ -219,13 +544,112 @@
    "verdict": "weak"
   },
   {
-   "score": 59.6,
+   "score": 53.8,
+   "components": {
+    "tier": 20,
+    "category": 4,
+    "lead": 0.0,
+    "relevance": 0,
+    "freshness": 19.8,
+    "corroborated": 10
+   },
+   "keywords": [],
+   "shock_terms": [],
+   "dedupe_match": null,
+   "dedupe_similarity": 0.17,
+   "id": "9ba146f2546b",
+   "title": "Road crashes kill two Ugandan learners every day - report",
+   "url": "https://www.monitor.co.ug/uganda/news/national/road-crashes-kill-two-ugandan-learners-every-day-report--5594046",
+   "summary": "Child road deaths expose gaps in Uganda\u2019s road safety measures",
+   "kind": "item",
+   "source": "Daily Monitor (Uganda)",
+   "source_id": "np-monitor-ug",
+   "tier": 2,
+   "country": "UG",
+   "category": "press",
+   "segments": [
+    "city",
+    "bush",
+    "beach"
+   ],
+   "first_seen": "2026-09-14T06:52+03:00",
+   "published": "2026-09-13",
+   "verdict": "weak"
+  },
+  {
+   "score": 53.8,
+   "components": {
+    "tier": 20,
+    "category": 4,
+    "lead": 0.0,
+    "relevance": 0,
+    "freshness": 19.8,
+    "corroborated": 10
+   },
+   "keywords": [],
+   "shock_terms": [],
+   "dedupe_match": null,
+   "dedupe_similarity": 0.0,
+   "id": "64d04309e830",
+   "title": "VP Alupo, PM Modi outline strategy for healthcare, trade boost at New Delhi engagement",
+   "url": "https://www.monitor.co.ug/uganda/news/national/vp-alupo-pm-modi-outline-strategy-for-healthcare-trade-boost-at-new-delhi-engagement--5594044",
+   "summary": "The Vice President later held bilateral talks with Indian Prime Minister Narendra Modi to...",
+   "kind": "item",
+   "source": "Daily Monitor (Uganda)",
+   "source_id": "np-monitor-ug",
+   "tier": 2,
+   "country": "UG",
+   "category": "press",
+   "segments": [
+    "city",
+    "bush",
+    "beach"
+   ],
+   "first_seen": "2026-09-14T06:52+03:00",
+   "published": "2026-09-13",
+   "verdict": "weak"
+  },
+  {
+   "score": 53.8,
+   "components": {
+    "tier": 20,
+    "category": 4,
+    "lead": 0.0,
+    "relevance": 0,
+    "freshness": 19.8,
+    "corroborated": 10
+   },
+   "keywords": [],
+   "shock_terms": [],
+   "dedupe_match": null,
+   "dedupe_similarity": 0.17,
+   "id": "978419e92792",
+   "title": "Uganda moves to implement Africa agriculture plan",
+   "url": "https://www.monitor.co.ug/uganda/news/national/uganda-moves-to-implement-africa-agriculture-plan-5594066",
+   "summary": "Uganda outlines plan to translate CAADP commitments into action",
+   "kind": "item",
+   "source": "Daily Monitor (Uganda)",
+   "source_id": "np-monitor-ug",
+   "tier": 2,
+   "country": "UG",
+   "category": "press",
+   "segments": [
+    "city",
+    "bush",
+    "beach"
+   ],
+   "first_seen": "2026-09-14T06:52+03:00",
+   "published": "2026-09-13",
+   "verdict": "weak"
+  },
+  {
+   "score": 53.5,
    "components": {
     "tier": 5,
     "category": 5,
     "lead": 0.0,
     "relevance": 20,
-    "freshness": 19.6,
+    "freshness": 13.5,
     "corroborated": 10
    },
    "keywords": [
@@ -257,13 +681,13 @@
    "verdict": "weak"
   },
   {
-   "score": 57.3,
+   "score": 51.2,
    "components": {
     "tier": 20,
     "category": 4,
     "lead": 0.0,
     "relevance": 8,
-    "freshness": 15.3,
+    "freshness": 9.2,
     "corroborated": 10
    },
    "keywords": [
@@ -292,13 +716,13 @@
    "verdict": "weak"
   },
   {
-   "score": 57.3,
+   "score": 51.2,
    "components": {
     "tier": 20,
     "category": 4,
     "lead": 0.0,
     "relevance": 8,
-    "freshness": 15.3,
+    "freshness": 9.2,
     "corroborated": 10
    },
    "keywords": [
@@ -327,13 +751,13 @@
    "verdict": "weak"
   },
   {
-   "score": 57.3,
+   "score": 51.2,
    "components": {
     "tier": 20,
     "category": 4,
     "lead": 0.0,
     "relevance": 8,
-    "freshness": 15.3,
+    "freshness": 9.2,
     "corroborated": 10
    },
    "keywords": [
@@ -362,13 +786,13 @@
    "verdict": "weak"
   },
   {
-   "score": 57.3,
+   "score": 51.2,
    "components": {
     "tier": 20,
     "category": 4,
     "lead": 0.0,
     "relevance": 8,
-    "freshness": 15.3,
+    "freshness": 9.2,
     "corroborated": 10
    },
    "keywords": [
@@ -397,13 +821,13 @@
    "verdict": "weak"
   },
   {
-   "score": 56.0,
+   "score": 49.9,
    "components": {
     "tier": 20,
     "category": 24,
     "lead": 2.4,
     "relevance": 0,
-    "freshness": 19.6,
+    "freshness": 13.5,
     "undated": -6,
     "page_change": -4
    },
@@ -431,13 +855,13 @@
    "verdict": "weak"
   },
   {
-   "score": 55.7,
+   "score": 49.6,
    "components": {
     "tier": 20,
     "category": 24,
     "lead": 2.4,
     "relevance": 4,
-    "freshness": 15.3,
+    "freshness": 9.2,
     "undated": -6,
     "page_change": -4
    },
@@ -467,13 +891,48 @@
    "verdict": "weak"
   },
   {
-   "score": 53.6,
+   "score": 48.0,
+   "components": {
+    "tier": 20,
+    "category": 5,
+    "lead": 1.2,
+    "relevance": 8,
+    "freshness": 19.8,
+    "undated": -6
+   },
+   "keywords": [
+    "wildlife"
+   ],
+   "shock_terms": [],
+   "dedupe_match": null,
+   "dedupe_similarity": 0.0,
+   "id": "5d8a1e70eded",
+   "title": "Okavango Delta in October 2026: Intense Heat, Concentrated Wildlife and a Rare High-Water Bonus",
+   "url": "https://travelnews.africa/news-single.html?id=18368&title=Okavango+Delta+in+October+2026%3A+Intense+Heat%2C+Concentrated+Wildlife+and+a+Rare+High-Water+Bonus",
+   "summary": "",
+   "kind": "item",
+   "source": "travelnews.africa",
+   "source_id": "tp-travelnews-africa",
+   "tier": 2,
+   "country": "REG",
+   "category": "trade",
+   "segments": [
+    "city",
+    "bush",
+    "beach"
+   ],
+   "first_seen": "2026-09-14T06:52+03:00",
+   "published": null,
+   "verdict": "weak"
+  },
+  {
+   "score": 47.5,
    "components": {
     "tier": 20,
     "category": 4,
     "lead": 0.0,
     "relevance": 0,
-    "freshness": 19.6,
+    "freshness": 13.5,
     "corroborated": 10
    },
    "keywords": [],
@@ -500,13 +959,13 @@
    "verdict": "weak"
   },
   {
-   "score": 53.3,
+   "score": 47.2,
    "components": {
     "tier": 20,
     "category": 4,
     "lead": 0.0,
     "relevance": 4,
-    "freshness": 15.3,
+    "freshness": 9.2,
     "corroborated": 10
    },
    "keywords": [
@@ -535,13 +994,327 @@
    "verdict": "weak"
   },
   {
-   "score": 49.3,
+   "score": 45.8,
+   "components": {
+    "tier": 20,
+    "category": 4,
+    "lead": 0.0,
+    "relevance": 8,
+    "freshness": 19.8,
+    "undated": -6
+   },
+   "keywords": [
+    "fuel"
+   ],
+   "shock_terms": [],
+   "dedupe_match": null,
+   "dedupe_similarity": 0.0,
+   "id": "e4e36f934a33",
+   "title": "Business Eight entrepreneurs secure Sh1.2 billion for rural fuel stations 15 hours ago - 2 min read",
+   "url": "https://www.thecitizen.co.tz/tanzania/business/eight-entrepreneurs-secure-sh1-2-billion-for-rural-fuel-stations-5593574",
+   "summary": "",
+   "kind": "item",
+   "source": "The Citizen (Tanzania)",
+   "source_id": "np-citizen-tz",
+   "tier": 2,
+   "country": "TZ",
+   "category": "press",
+   "segments": [
+    "city",
+    "bush",
+    "beach"
+   ],
+   "first_seen": "2026-09-14T06:52+03:00",
+   "published": null,
+   "verdict": "weak"
+  },
+  {
+   "score": 45.4,
+   "components": {
+    "tier": 20,
+    "category": 12,
+    "lead": 3.6,
+    "relevance": 0,
+    "freshness": 19.8,
+    "undated": -6,
+    "page_change": -4
+   },
+   "keywords": [],
+   "shock_terms": [],
+   "dedupe_match": null,
+   "dedupe_similarity": 0.0,
+   "id": "bcf087466484",
+   "title": "[page changed] Jambojet media",
+   "url": "https://www.jambojet.com/en/press-release",
+   "summary": "Request unsuccessful. Incapsula incident ID: 1024000071475197050-522647475031376357",
+   "kind": "page-change",
+   "source": "Jambojet media",
+   "source_id": "air-jambojet",
+   "tier": 2,
+   "country": "KE",
+   "category": "airline",
+   "segments": [
+    "city",
+    "bush",
+    "beach"
+   ],
+   "first_seen": "2026-09-14T06:52+03:00",
+   "published": null,
+   "verdict": "weak"
+  },
+  {
+   "score": 44.0,
+   "components": {
+    "tier": 20,
+    "category": 5,
+    "lead": 1.2,
+    "relevance": 4,
+    "freshness": 19.8,
+    "undated": -6
+   },
+   "keywords": [
+    "tourism"
+   ],
+   "shock_terms": [],
+   "dedupe_match": null,
+   "dedupe_similarity": 0.0,
+   "id": "499220ba279f",
+   "title": "Lobito vs Tazara: The Rail Race Redrawing Africa's Trade and Tourism Map",
+   "url": "https://travelnews.africa/news-single.html?id=18385&title=Lobito+vs+Tazara%3A+The+Rail+Race+Redrawing+Africa%27s+Trade+and+Tourism+Map",
+   "summary": "",
+   "kind": "item",
+   "source": "travelnews.africa",
+   "source_id": "tp-travelnews-africa",
+   "tier": 2,
+   "country": "REG",
+   "category": "trade",
+   "segments": [
+    "city",
+    "bush",
+    "beach"
+   ],
+   "first_seen": "2026-09-14T06:52+03:00",
+   "published": null,
+   "verdict": "weak"
+  },
+  {
+   "score": 44.0,
+   "components": {
+    "tier": 20,
+    "category": 5,
+    "lead": 1.2,
+    "relevance": 4,
+    "freshness": 19.8,
+    "undated": -6
+   },
+   "keywords": [
+    "airline"
+   ],
+   "shock_terms": [],
+   "dedupe_match": null,
+   "dedupe_similarity": 0.0,
+   "id": "fe1cb138d3c9",
+   "title": "Turkish Airlines Permanently Drops Five Key African Cities From 2027 Network Plan",
+   "url": "https://travelnews.africa/news-single.html?id=18382&title=Turkish+Airlines+Permanently+Drops+Five+Key+African+Cities+From+2027+Network+Plan",
+   "summary": "",
+   "kind": "item",
+   "source": "travelnews.africa",
+   "source_id": "tp-travelnews-africa",
+   "tier": 2,
+   "country": "REG",
+   "category": "trade",
+   "segments": [
+    "city",
+    "bush",
+    "beach"
+   ],
+   "first_seen": "2026-09-14T06:52+03:00",
+   "published": null,
+   "verdict": "weak"
+  },
+  {
+   "score": 44.0,
+   "components": {
+    "tier": 20,
+    "category": 5,
+    "lead": 1.2,
+    "relevance": 4,
+    "freshness": 19.8,
+    "undated": -6
+   },
+   "keywords": [
+    "flight"
+   ],
+   "shock_terms": [],
+   "dedupe_match": null,
+   "dedupe_similarity": 0.17,
+   "id": "71d1d73b146d",
+   "title": "Tanzania's FlightLink Orders Four New Cessna Grand Caravans to Power Regional Expansion",
+   "url": "https://travelnews.africa/news-single.html?id=18375&title=Tanzania%27s+FlightLink+Orders+Four+New+Cessna+Grand+Caravans+to+Power+Regional+Expansion",
+   "summary": "",
+   "kind": "item",
+   "source": "travelnews.africa",
+   "source_id": "tp-travelnews-africa",
+   "tier": 2,
+   "country": "REG",
+   "category": "trade",
+   "segments": [
+    "city",
+    "bush",
+    "beach"
+   ],
+   "first_seen": "2026-09-14T06:52+03:00",
+   "published": null,
+   "verdict": "weak"
+  },
+  {
+   "score": 44.0,
+   "components": {
+    "tier": 20,
+    "category": 5,
+    "lead": 1.2,
+    "relevance": 4,
+    "freshness": 19.8,
+    "undated": -6
+   },
+   "keywords": [
+    "safari"
+   ],
+   "shock_terms": [],
+   "dedupe_match": null,
+   "dedupe_similarity": 0.0,
+   "id": "3afc43d8bd79",
+   "title": "Renegade Air Wet-Leases Mombasa Air Safari's Only Dash 8-100 in Bold East African Move",
+   "url": "https://travelnews.africa/news-single.html?id=18374&title=Renegade+Air+Wet-Leases+Mombasa+Air+Safari%27s+Only+Dash+8-100+in+Bold+East+African+Move",
+   "summary": "",
+   "kind": "item",
+   "source": "travelnews.africa",
+   "source_id": "tp-travelnews-africa",
+   "tier": 2,
+   "country": "REG",
+   "category": "trade",
+   "segments": [
+    "city",
+    "bush",
+    "beach"
+   ],
+   "first_seen": "2026-09-14T06:52+03:00",
+   "published": null,
+   "verdict": "weak"
+  },
+  {
+   "score": 44.0,
+   "components": {
+    "tier": 20,
+    "category": 5,
+    "lead": 1.2,
+    "relevance": 4,
+    "freshness": 19.8,
+    "undated": -6
+   },
+   "keywords": [
+    "tourism"
+   ],
+   "shock_terms": [],
+   "dedupe_match": null,
+   "dedupe_similarity": 0.0,
+   "id": "430b49cd8abc",
+   "title": "The Gambia Woos Nigerian Trade With Bold Push for Deeper Tourism and Business Ties",
+   "url": "https://travelnews.africa/news-single.html?id=18383&title=The+Gambia+Woos+Nigerian+Trade+With+Bold+Push+for+Deeper+Tourism+and+Business+Ties",
+   "summary": "",
+   "kind": "item",
+   "source": "travelnews.africa",
+   "source_id": "tp-travelnews-africa",
+   "tier": 2,
+   "country": "REG",
+   "category": "trade",
+   "segments": [
+    "city",
+    "bush",
+    "beach"
+   ],
+   "first_seen": "2026-09-14T06:52+03:00",
+   "published": null,
+   "verdict": "weak"
+  },
+  {
+   "score": 44.0,
+   "components": {
+    "tier": 20,
+    "category": 5,
+    "lead": 1.2,
+    "relevance": 4,
+    "freshness": 19.8,
+    "undated": -6
+   },
+   "keywords": [
+    "tourism"
+   ],
+   "shock_terms": [],
+   "dedupe_match": null,
+   "dedupe_similarity": 0.0,
+   "id": "9fe55a5f29e5",
+   "title": "Lobito vs Tazara: The Rail Race Redrawing Africa's Trade and Tourism Map",
+   "url": "https://travelnews.africa/news-single.html?id=18385",
+   "summary": "",
+   "kind": "item",
+   "source": "travelnews.africa",
+   "source_id": "tp-travelnews-africa",
+   "tier": 2,
+   "country": "REG",
+   "category": "trade",
+   "segments": [
+    "city",
+    "bush",
+    "beach"
+   ],
+   "first_seen": "2026-09-14T06:52+03:00",
+   "published": null,
+   "verdict": "weak"
+  },
+  {
+   "score": 44.0,
+   "components": {
+    "tier": 20,
+    "category": 5,
+    "lead": 1.2,
+    "relevance": 4,
+    "freshness": 19.8,
+    "undated": -6
+   },
+   "keywords": [
+    "airline"
+   ],
+   "shock_terms": [],
+   "dedupe_match": null,
+   "dedupe_similarity": 0.0,
+   "id": "4408efe2a7d0",
+   "title": "Turkish Airlines Permanently Drops Five Key African Cities From 2027 Network Plan",
+   "url": "https://travelnews.africa/news-single.html?id=18382",
+   "summary": "",
+   "kind": "item",
+   "source": "travelnews.africa",
+   "source_id": "tp-travelnews-africa",
+   "tier": 2,
+   "country": "REG",
+   "category": "trade",
+   "segments": [
+    "city",
+    "bush",
+    "beach"
+   ],
+   "first_seen": "2026-09-14T06:52+03:00",
+   "published": null,
+   "verdict": "weak"
+  },
+  {
+   "score": 43.2,
    "components": {
     "tier": 20,
     "category": 4,
     "lead": 0.0,
     "relevance": 0,
-    "freshness": 15.3,
+    "freshness": 9.2,
     "corroborated": 10
    },
    "keywords": [],
@@ -568,13 +1341,13 @@
    "verdict": "weak"
   },
   {
-   "score": 49.3,
+   "score": 43.2,
    "components": {
     "tier": 20,
     "category": 4,
     "lead": 0.0,
     "relevance": 0,
-    "freshness": 15.3,
+    "freshness": 9.2,
     "corroborated": 10
    },
    "keywords": [],
@@ -601,13 +1374,13 @@
    "verdict": "weak"
   },
   {
-   "score": 49.3,
+   "score": 43.2,
    "components": {
     "tier": 20,
     "category": 4,
     "lead": 0.0,
     "relevance": 0,
-    "freshness": 15.3,
+    "freshness": 9.2,
     "corroborated": 10
    },
    "keywords": [],
@@ -631,748 +1404,6 @@
    ],
    "first_seen": "2026-09-13T21:16+03:00",
    "published": "2026-09-13",
-   "verdict": "weak"
-  },
-  {
-   "score": 49.3,
-   "components": {
-    "tier": 20,
-    "category": 4,
-    "lead": 0.0,
-    "relevance": 0,
-    "freshness": 15.3,
-    "corroborated": 10
-   },
-   "keywords": [],
-   "shock_terms": [],
-   "dedupe_match": null,
-   "dedupe_similarity": 0.0,
-   "id": "e8d8771adf19",
-   "title": "TVET diploma applicants to undergo interviews, practical assessments",
-   "url": "https://www.monitor.co.ug/uganda/news/national/tvet-diploma-applicants-to-undergo-interviews-practical-assessments-5593800",
-   "summary": "Applicants to undergo competency assessments",
-   "kind": "item",
-   "source": "Daily Monitor (Uganda)",
-   "source_id": "np-monitor-ug",
-   "tier": 2,
-   "country": "UG",
-   "category": "press",
-   "segments": [
-    "city",
-    "bush",
-    "beach"
-   ],
-   "first_seen": "2026-09-13T21:16+03:00",
-   "published": "2026-09-13",
-   "verdict": "weak"
-  },
-  {
-   "score": 49.3,
-   "components": {
-    "tier": 20,
-    "category": 4,
-    "lead": 0.0,
-    "relevance": 0,
-    "freshness": 15.3,
-    "corroborated": 10
-   },
-   "keywords": [],
-   "shock_terms": [],
-   "dedupe_match": null,
-   "dedupe_similarity": 0.17,
-   "id": "ebda37bdd8fd",
-   "title": "Nigeria turns to Uganda for sickle-cell treatment",
-   "url": "https://www.monitor.co.ug/uganda/news/national/nigeria-turns-to-uganda-for-sickle-cell-treatment-5593738",
-   "summary": "Nigeria seeks Uganda partnership on sickle-cell treatment",
-   "kind": "item",
-   "source": "Daily Monitor (Uganda)",
-   "source_id": "np-monitor-ug",
-   "tier": 2,
-   "country": "UG",
-   "category": "press",
-   "segments": [
-    "city",
-    "bush",
-    "beach"
-   ],
-   "first_seen": "2026-09-13T21:16+03:00",
-   "published": "2026-09-13",
-   "verdict": "weak"
-  },
-  {
-   "score": 49.3,
-   "components": {
-    "tier": 20,
-    "category": 4,
-    "lead": 0.0,
-    "relevance": 0,
-    "freshness": 15.3,
-    "corroborated": 10
-   },
-   "keywords": [],
-   "shock_terms": [],
-   "dedupe_match": null,
-   "dedupe_similarity": 0.0,
-   "id": "3386c02cc262",
-   "title": "Soroti number plate theft: Suspects arrested in Mbarara, Kole, Lira",
-   "url": "https://www.monitor.co.ug/uganda/news/national/soroti-number-plate-theft-suspects-arrested-in-mbarara-kole-lira-5593650",
-   "summary": "Police probe organised gang behind Soroti number plate thefts",
-   "kind": "item",
-   "source": "Daily Monitor (Uganda)",
-   "source_id": "np-monitor-ug",
-   "tier": 2,
-   "country": "UG",
-   "category": "press",
-   "segments": [
-    "city",
-    "bush",
-    "beach"
-   ],
-   "first_seen": "2026-09-13T21:16+03:00",
-   "published": "2026-09-13",
-   "verdict": "weak"
-  },
-  {
-   "score": 49.3,
-   "components": {
-    "tier": 20,
-    "category": 4,
-    "lead": 0.0,
-    "relevance": 0,
-    "freshness": 15.3,
-    "corroborated": 10
-   },
-   "keywords": [],
-   "shock_terms": [],
-   "dedupe_match": null,
-   "dedupe_similarity": 0.0,
-   "id": "550ff6513bb9",
-   "title": "Kalangala fisherman accused of killing wife over childlessness, police say",
-   "url": "https://www.monitor.co.ug/uganda/news/national/kalangala-fisherman-accused-of-killing-wife-over-childlessness-police-say-5593548",
-   "summary": "Childlessness, adultery allegations precede Kalangala woman\u2019s death",
-   "kind": "item",
-   "source": "Daily Monitor (Uganda)",
-   "source_id": "np-monitor-ug",
-   "tier": 2,
-   "country": "UG",
-   "category": "press",
-   "segments": [
-    "city",
-    "bush",
-    "beach"
-   ],
-   "first_seen": "2026-09-13T21:16+03:00",
-   "published": "2026-09-13",
-   "verdict": "weak"
-  },
-  {
-   "score": 49.3,
-   "components": {
-    "tier": 20,
-    "category": 4,
-    "lead": 0.0,
-    "relevance": 0,
-    "freshness": 15.3,
-    "corroborated": 10
-   },
-   "keywords": [],
-   "shock_terms": [],
-   "dedupe_match": null,
-   "dedupe_similarity": 0.2,
-   "id": "f2a19c3fd9bc",
-   "title": "Police officer kills himself after shooting two at Freedom City",
-   "url": "https://www.monitor.co.ug/uganda/news/national/police-officer-kills-himself-after-shooting-two-at-freedom-city-5593602",
-   "summary": "Two injured after police officer opens fire at Freedom City",
-   "kind": "item",
-   "source": "Daily Monitor (Uganda)",
-   "source_id": "np-monitor-ug",
-   "tier": 2,
-   "country": "UG",
-   "category": "press",
-   "segments": [
-    "city",
-    "bush",
-    "beach"
-   ],
-   "first_seen": "2026-09-13T21:16+03:00",
-   "published": "2026-09-13",
-   "verdict": "weak"
-  },
-  {
-   "score": 49.3,
-   "components": {
-    "tier": 20,
-    "category": 4,
-    "lead": 0.0,
-    "relevance": 0,
-    "freshness": 15.3,
-    "corroborated": 10
-   },
-   "keywords": [],
-   "shock_terms": [],
-   "dedupe_match": null,
-   "dedupe_similarity": 0.0,
-   "id": "20942f6bb48c",
-   "title": "Inside Justice Deepa Verma's legal battle with cousins over family estate",
-   "url": "https://www.monitor.co.ug/uganda/news/national/inside-justice-deepa-verma-s-legal-battle-with-cousins-over-family-estate-5593612",
-   "summary": "High Court judge, cousins fight over disputed properties",
-   "kind": "item",
-   "source": "Daily Monitor (Uganda)",
-   "source_id": "np-monitor-ug",
-   "tier": 2,
-   "country": "UG",
-   "category": "press",
-   "segments": [
-    "city",
-    "bush",
-    "beach"
-   ],
-   "first_seen": "2026-09-13T21:16+03:00",
-   "published": "2026-09-13",
-   "verdict": "weak"
-  },
-  {
-   "score": 49.3,
-   "components": {
-    "tier": 20,
-    "category": 4,
-    "lead": 0.0,
-    "relevance": 0,
-    "freshness": 15.3,
-    "corroborated": 10
-   },
-   "keywords": [],
-   "shock_terms": [],
-   "dedupe_match": null,
-   "dedupe_similarity": 0.0,
-   "id": "4e4e3649d25a",
-   "title": "Police officer arrested after challenging bosses over domestic violence case",
-   "url": "https://www.monitor.co.ug/uganda/news/national/police-officer-arrested-after-challenging-bosses-over-domestic-violence-case-5593580",
-   "summary": "Police said officers are required to use established administrative and professional channels...",
-   "kind": "item",
-   "source": "Daily Monitor (Uganda)",
-   "source_id": "np-monitor-ug",
-   "tier": 2,
-   "country": "UG",
-   "category": "press",
-   "segments": [
-    "city",
-    "bush",
-    "beach"
-   ],
-   "first_seen": "2026-09-13T21:16+03:00",
-   "published": "2026-09-13",
-   "verdict": "weak"
-  },
-  {
-   "score": 45.6,
-   "components": {
-    "tier": 20,
-    "category": 4,
-    "lead": 0.0,
-    "relevance": 8,
-    "freshness": 19.6,
-    "undated": -6
-   },
-   "keywords": [
-    "fuel"
-   ],
-   "shock_terms": [],
-   "dedupe_match": null,
-   "dedupe_similarity": 0.0,
-   "id": "a2c152e2d7b6",
-   "title": "Business Eight entrepreneurs secure Sh1.2 billion for rural fuel stations 10 hours ago - 2 min read",
-   "url": "https://www.thecitizen.co.tz/tanzania/business/eight-entrepreneurs-secure-sh1-2-billion-for-rural-fuel-stations-5593574",
-   "summary": "",
-   "kind": "item",
-   "source": "The Citizen (Tanzania)",
-   "source_id": "np-citizen-tz",
-   "tier": 2,
-   "country": "TZ",
-   "category": "press",
-   "segments": [
-    "city",
-    "bush",
-    "beach"
-   ],
-   "first_seen": "2026-09-14T01:12+03:00",
-   "published": null,
-   "verdict": "weak"
-  },
-  {
-   "score": 43.6,
-   "components": {
-    "tier": 5,
-    "category": 5,
-    "lead": 0.0,
-    "relevance": 4,
-    "freshness": 19.6,
-    "corroborated": 10
-   },
-   "keywords": [
-    "tourism"
-   ],
-   "shock_terms": [],
-   "dedupe_match": null,
-   "dedupe_similarity": 0.0,
-   "id": "cbda2e4bd7d7",
-   "title": "Jamaica to Launch Tourism Resilience Awards as World Travel Week Comes to Negril",
-   "url": "https://eturbonews.com/jamaica-world-travel-week-tourism-resilience-awards",
-   "summary": "Jamaica is putting tourism resilience on the global stage. Days after tourism leaders meet in Malta, Minister Edmund Bartlett will welcome the industry to World Travel Week in Negril, October 10\u201315, where the new Tourism Resilience Awards will debut alongside World Travel Awards in a potentially groundbreaking combination. SOURCE: Jamaica to Launch Tourism Resilience Awards as World Travel Week Co",
-   "kind": "item",
-   "source": "eTurboNews Africa",
-   "source_id": "tp-eturbonews",
-   "tier": 3,
-   "country": "GLOBAL",
-   "category": "trade",
-   "segments": [
-    "city",
-    "bush",
-    "beach"
-   ],
-   "first_seen": "2026-09-14T01:12+03:00",
-   "published": "2026-09-13",
-   "verdict": "weak"
-  },
-  {
-   "score": 43.6,
-   "components": {
-    "tier": 5,
-    "category": 5,
-    "lead": 0.0,
-    "relevance": 4,
-    "freshness": 19.6,
-    "corroborated": 10
-   },
-   "keywords": [
-    "tourism"
-   ],
-   "shock_terms": [],
-   "dedupe_match": null,
-   "dedupe_similarity": 0.0,
-   "id": "1ff625fd3f1e",
-   "title": "Jordan MMA Week Puts Petra, Wadi Rum and Tourism in the Fight Spotlight",
-   "url": "https://eturbonews.com/jordan-mma-week-tourism-petra-wadi-rum",
-   "summary": "Jordan is turning the global appeal of MMA into a tourism showcase. Backed by the Jordan Tourism Board, Jordan MMA Week will connect international fighters, media and audiences with Petra, Wadi Rum, the Dead Sea and other destinations, creating an unusual new platform for sports tourism and destination marketing. SOURCE: Jordan MMA Week Puts Petra, Wadi Rum and Tourism in the Fight Spotlight BY: e",
-   "kind": "item",
-   "source": "eTurboNews Africa",
-   "source_id": "tp-eturbonews",
-   "tier": 3,
-   "country": "GLOBAL",
-   "category": "trade",
-   "segments": [
-    "city",
-    "bush",
-    "beach"
-   ],
-   "first_seen": "2026-09-14T01:12+03:00",
-   "published": "2026-09-13",
-   "verdict": "weak"
-  },
-  {
-   "score": 41.3,
-   "components": {
-    "tier": 20,
-    "category": 4,
-    "lead": 0.0,
-    "relevance": 8,
-    "freshness": 15.3,
-    "undated": -6
-   },
-   "keywords": [
-    "opening",
-    "traffic"
-   ],
-   "shock_terms": [],
-   "dedupe_match": null,
-   "dedupe_similarity": 0.0,
-   "id": "e5579e019ef3",
-   "title": "Police remind motorists to put safety of learners first as schools reopen Police in the Kigezi and Rwenzori East regions have issued safety guidelines to parents, school administrators and road users, citing increased traffic, road crashes, theft and other crimes associated with school opening. News",
-   "url": "https://www.newvision.co.ug/category/news/police-remind-motorists-to-put-safety-of-lear-NV_240555_092026",
-   "summary": "",
-   "kind": "item",
-   "source": "New Vision (Uganda)",
-   "source_id": "np-newvision-ug",
-   "tier": 2,
-   "country": "UG",
-   "category": "press",
-   "segments": [
-    "city",
-    "bush",
-    "beach"
-   ],
-   "first_seen": "2026-09-13T21:16+03:00",
-   "published": null,
-   "verdict": "weak"
-  },
-  {
-   "score": 41.3,
-   "components": {
-    "tier": 20,
-    "category": 4,
-    "lead": 0.0,
-    "relevance": 8,
-    "freshness": 15.3,
-    "undated": -6
-   },
-   "keywords": [
-    "eta"
-   ],
-   "shock_terms": [],
-   "dedupe_match": null,
-   "dedupe_similarity": 0.0,
-   "id": "5fccd3589492",
-   "title": "A1 Iron & Steel: Five things to know about Rwanda's new metal factory",
-   "url": "https://www.newtimes.co.rw/article/38925/news/rwanda/a1-iron-steel-five-things-to-know-about-rwandas-new-metal-factory",
-   "summary": "",
-   "kind": "item",
-   "source": "The New Times (Rwanda)",
-   "source_id": "np-newtimes-rw",
-   "tier": 2,
-   "country": "RW",
-   "category": "press",
-   "segments": [
-    "city",
-    "bush",
-    "beach"
-   ],
-   "first_seen": "2026-09-13T21:16+03:00",
-   "published": null,
-   "verdict": "weak"
-  },
-  {
-   "score": 41.3,
-   "components": {
-    "tier": 20,
-    "category": 4,
-    "lead": 0.0,
-    "relevance": 8,
-    "freshness": 15.3,
-    "undated": -6
-   },
-   "keywords": [
-    "fuel"
-   ],
-   "shock_terms": [],
-   "dedupe_match": null,
-   "dedupe_similarity": 0.0,
-   "id": "7df5a8574be7",
-   "title": "National How foiled fuel theft led to violent assault on SGR contractor in Tanzania Yesterday - 2 min read",
-   "url": "https://www.thecitizen.co.tz/tanzania/news/national/how-foiled-fuel-theft-led-to-violent-assault-on-sgr-contractor-in-tanzania-5593024",
-   "summary": "",
-   "kind": "item",
-   "source": "The Citizen (Tanzania)",
-   "source_id": "np-citizen-tz",
-   "tier": 2,
-   "country": "TZ",
-   "category": "press",
-   "segments": [
-    "city",
-    "bush",
-    "beach"
-   ],
-   "first_seen": "2026-09-13T21:16+03:00",
-   "published": null,
-   "verdict": "weak"
-  },
-  {
-   "score": 41.3,
-   "components": {
-    "tier": 20,
-    "category": 4,
-    "lead": 0.0,
-    "relevance": 8,
-    "freshness": 15.3,
-    "undated": -6
-   },
-   "keywords": [
-    "fuel"
-   ],
-   "shock_terms": [],
-   "dedupe_match": null,
-   "dedupe_similarity": 0.0,
-   "id": "6f59f326a7f3",
-   "title": "Business Eight entrepreneurs secure Sh1.2 billion for rural fuel stations 6 hours ago - 2 min read",
-   "url": "https://www.thecitizen.co.tz/tanzania/business/eight-entrepreneurs-secure-sh1-2-billion-for-rural-fuel-stations-5593574",
-   "summary": "",
-   "kind": "item",
-   "source": "The Citizen (Tanzania)",
-   "source_id": "np-citizen-tz",
-   "tier": 2,
-   "country": "TZ",
-   "category": "press",
-   "segments": [
-    "city",
-    "bush",
-    "beach"
-   ],
-   "first_seen": "2026-09-13T21:16+03:00",
-   "published": null,
-   "verdict": "weak"
-  },
-  {
-   "score": 40.9,
-   "components": {
-    "tier": 20,
-    "category": 12,
-    "lead": 3.6,
-    "relevance": 0,
-    "freshness": 15.3,
-    "undated": -6,
-    "page_change": -4
-   },
-   "keywords": [],
-   "shock_terms": [],
-   "dedupe_match": null,
-   "dedupe_similarity": 0.0,
-   "id": "708d56385867",
-   "title": "[page changed] Jambojet media",
-   "url": "https://www.jambojet.com/en/press-release",
-   "summary": "Request unsuccessful. Incapsula incident ID: 2108000530532713809-612109436264910162",
-   "kind": "page-change",
-   "source": "Jambojet media",
-   "source_id": "air-jambojet",
-   "tier": 2,
-   "country": "KE",
-   "category": "airline",
-   "segments": [
-    "city",
-    "bush",
-    "beach"
-   ],
-   "first_seen": "2026-09-13T21:16+03:00",
-   "published": null,
-   "verdict": "weak"
-  },
-  {
-   "score": 37.6,
-   "components": {
-    "tier": 20,
-    "category": 4,
-    "lead": 0.0,
-    "relevance": 0,
-    "freshness": 19.6,
-    "undated": -6
-   },
-   "keywords": [],
-   "shock_terms": [],
-   "dedupe_match": null,
-   "dedupe_similarity": 0.2,
-   "id": "f806fd4ce1c2",
-   "title": "News Irish ambassador calls on Karamoja to safeguard its cultural identity",
-   "url": "https://www.newvision.co.ug/category/news/irish-ambassador-calls-on-karamoja-to-safegua-NV_240571_092026",
-   "summary": "",
-   "kind": "item",
-   "source": "New Vision (Uganda)",
-   "source_id": "np-newvision-ug",
-   "tier": 2,
-   "country": "UG",
-   "category": "press",
-   "segments": [
-    "city",
-    "bush",
-    "beach"
-   ],
-   "first_seen": "2026-09-14T01:12+03:00",
-   "published": null,
-   "verdict": "weak"
-  },
-  {
-   "score": 37.6,
-   "components": {
-    "tier": 20,
-    "category": 4,
-    "lead": 0.0,
-    "relevance": 0,
-    "freshness": 19.6,
-    "undated": -6
-   },
-   "keywords": [],
-   "shock_terms": [],
-   "dedupe_match": null,
-   "dedupe_similarity": 0.0,
-   "id": "7dceb7e97477",
-   "title": "News Fisherman accused of killing wife as marital tensions spill over",
-   "url": "https://www.newvision.co.ug/category/news/fisherman-accused-of-killing-wife-as-marital-NV_240570_092026",
-   "summary": "",
-   "kind": "item",
-   "source": "New Vision (Uganda)",
-   "source_id": "np-newvision-ug",
-   "tier": 2,
-   "country": "UG",
-   "category": "press",
-   "segments": [
-    "city",
-    "bush",
-    "beach"
-   ],
-   "first_seen": "2026-09-14T01:12+03:00",
-   "published": null,
-   "verdict": "weak"
-  },
-  {
-   "score": 37.6,
-   "components": {
-    "tier": 20,
-    "category": 4,
-    "lead": 0.0,
-    "relevance": 0,
-    "freshness": 19.6,
-    "undated": -6
-   },
-   "keywords": [],
-   "shock_terms": [],
-   "dedupe_match": null,
-   "dedupe_similarity": 0.2,
-   "id": "158af3584dab",
-   "title": "Manchester City Haaland fires 10-man Man City to memorable win over Man Utd \u00b7 2 min read",
-   "url": "https://www.newvision.co.ug/category/sports/haaland-fires-10-man-man-city-to-memorable-wi-NV_240572_092026",
-   "summary": "",
-   "kind": "item",
-   "source": "New Vision (Uganda)",
-   "source_id": "np-newvision-ug",
-   "tier": 2,
-   "country": "UG",
-   "category": "press",
-   "segments": [
-    "city",
-    "bush",
-    "beach"
-   ],
-   "first_seen": "2026-09-14T01:12+03:00",
-   "published": null,
-   "verdict": "weak"
-  },
-  {
-   "score": 37.6,
-   "components": {
-    "tier": 20,
-    "category": 4,
-    "lead": 0.0,
-    "relevance": 0,
-    "freshness": 19.6,
-    "undated": -6
-   },
-   "keywords": [],
-   "shock_terms": [],
-   "dedupe_match": null,
-   "dedupe_similarity": 0.0,
-   "id": "2c388ae310a8",
-   "title": "President Sebastian Coe World Athletics stance on Russia unchanged, says Coe",
-   "url": "https://www.newvision.co.ug/category/health/world-athletics-stance-on-russia-unchanged-sa",
-   "summary": "",
-   "kind": "item",
-   "source": "New Vision (Uganda)",
-   "source_id": "np-newvision-ug",
-   "tier": 2,
-   "country": "UG",
-   "category": "press",
-   "segments": [
-    "city",
-    "bush",
-    "beach"
-   ],
-   "first_seen": "2026-09-14T01:12+03:00",
-   "published": null,
-   "verdict": "weak"
-  },
-  {
-   "score": 37.6,
-   "components": {
-    "tier": 20,
-    "category": 4,
-    "lead": 0.0,
-    "relevance": 0,
-    "freshness": 19.6,
-    "undated": -6
-   },
-   "keywords": [],
-   "shock_terms": [],
-   "dedupe_match": null,
-   "dedupe_similarity": 0.0,
-   "id": "cae4eea5716a",
-   "title": "New traceability drive seeks to protect horticulture exports",
-   "url": "https://www.newtimes.co.rw/article/38930/news/agriculture/new-traceability-drive-seeks-to-protect-horticulture-exports",
-   "summary": "",
-   "kind": "item",
-   "source": "The New Times (Rwanda)",
-   "source_id": "np-newtimes-rw",
-   "tier": 2,
-   "country": "RW",
-   "category": "press",
-   "segments": [
-    "city",
-    "bush",
-    "beach"
-   ],
-   "first_seen": "2026-09-14T01:12+03:00",
-   "published": null,
-   "verdict": "weak"
-  },
-  {
-   "score": 37.6,
-   "components": {
-    "tier": 20,
-    "category": 4,
-    "lead": 0.0,
-    "relevance": 0,
-    "freshness": 19.6,
-    "undated": -6
-   },
-   "keywords": [],
-   "shock_terms": [],
-   "dedupe_match": null,
-   "dedupe_similarity": 0.0,
-   "id": "3e593c7c1ea1",
-   "title": "Economy CBK moves to rein in \u2018too important to fail\u2019 banks 6 hours ago - 4 min read",
-   "url": "https://www.businessdailyafrica.com/bd/economy/cbk-moves-to-protect-too-important-to-fail-banks-5593844",
-   "summary": "",
-   "kind": "item",
-   "source": "Business Daily Africa",
-   "source_id": "np-businessdaily",
-   "tier": 2,
-   "country": "KE",
-   "category": "press",
-   "segments": [
-    "city",
-    "bush",
-    "beach"
-   ],
-   "first_seen": "2026-09-14T01:12+03:00",
-   "published": null,
-   "verdict": "weak"
-  },
-  {
-   "score": 37.6,
-   "components": {
-    "tier": 20,
-    "category": 4,
-    "lead": 0.0,
-    "relevance": 0,
-    "freshness": 19.6,
-    "undated": -6
-   },
-   "keywords": [],
-   "shock_terms": [],
-   "dedupe_match": null,
-   "dedupe_similarity": 0.0,
-   "id": "c4843b0de889",
-   "title": "Economy Treasury cashes in on a bigger pool of idle State cash 7 hours ago - 5 min read",
-   "url": "https://www.businessdailyafrica.com/bd/economy/treasury-cashes-in-on-a-bigger-pool-of-idle-state-cash-5593840",
-   "summary": "",
-   "kind": "item",
-   "source": "Business Daily Africa",
-   "source_id": "np-businessdaily",
-   "tier": 2,
-   "country": "KE",
-   "category": "press",
-   "segments": [
-    "city",
-    "bush",
-    "beach"
-   ],
-   "first_seen": "2026-09-14T01:12+03:00",
-   "published": null,
    "verdict": "weak"
   }
  ]
