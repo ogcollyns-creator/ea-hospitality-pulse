@@ -5,7 +5,7 @@
 🏨 EA HOSPITALITY PULSE — Evening Wrap
 📅 Tuesday, 15 September 2026 | 🇰🇪 🇺🇬 🇷🇼 🇹🇿
 
-A quiet news day. So here is the thing about Ebola this industry is measuring wrongly.
+Uganda has been Ebola-free for 86 days and is still banned. Here is the thing this industry keeps measuring wrong.
 ━━━━━━━━━
 **1️⃣ 86 DAYS EBOLA-FREE. STILL BANNED. THE RISK IS THE MAP, NOT THE VIRUS.**
 
