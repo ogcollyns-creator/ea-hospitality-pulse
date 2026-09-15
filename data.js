@@ -1,5 +1,14 @@
 window.EDITIONS = [
  {
+  "id": "pulse-2026-09-15-morning",
+  "date": "2026-09-15",
+  "dateDisplay": "Tuesday, 15 September 2026",
+  "edition": "Morning Brief",
+  "editionKey": "morning",
+  "summary": "Yesterday EPRA froze your fuel price. This week the routes it arrives by were cut.",
+  "bodyHtml": "<p><span class=\"meta-line\">🏨 EA HOSPITALITY PULSE — Morning Brief</span><br><span class=\"meta-line\">📅 Tuesday, 15 September 2026 | 🇰🇪 🇹🇿 🇺🇬 🇷🇼</span></p>\n<p>Yesterday EPRA froze your fuel price. This week the routes it arrives by were cut.<br>━━━━━━━━━<br><strong>1️⃣ SAUDI SHUT THE PIPELINE THAT WAS KENYA&#x27;S WAY AROUND HORMUZ</strong></p>\n<p>Saudi Arabia has closed its <strong>1,200km East-West pipeline</strong> after drone strikes near Riyadh and Medina. The line runs crude from Abqaiq to the Red Sea to bypass the Strait of Hormuz — and it is why Aramco displaced the UAE as Kenya&#x27;s largest G-to-G supplier: <strong>KSh 99.78bn</strong> of imports in the quarter to May against the UAE&#x27;s <strong>KSh 42.10bn</strong> <strong>(KNBS, via Business Daily, 14 September 2026)</strong>.</p>\n<p>Hormuz itself runs at roughly <strong>6–9m barrels a day against 20m+ pre-war</strong>. Brent closed Monday at <strong>US$107</strong>. An unnamed oil-industry executive told <strong>Business Daily</strong> nine days of Platts show super up ~<strong>US$87/m³</strong>, diesel <strong>US$57</strong>. Energy CS Opiyo Wandayi: supply is securable, but &quot;what we cannot guarantee is the prices&quot;.</p>\n<p><span class=\"sowhat\">🎯 <strong>So what:</strong> yesterday you had 30 days of known diesel cost. Now 29, against a visibly rising input. Insert the fuel-adjustment clause today, and treat KSh 217.86 as a floor rather than a forecast.</span><br><span class=\"tagline\">🏷 Bush, Beach, City | 🇰🇪 | Confirmed | impact:margin</span></p>\n<p><strong>2️⃣ AND THE THIRD ROUTE WENT THIS WEEK — THE HOUTHIS NOW HOLD BAB AL-MANDEB</strong></p>\n<p>Barely reported here. The Houthis took Mocha on <strong>10 September</strong>, then Yemen&#x27;s remaining Red Sea coast and <strong>Perim Island</strong> mid-strait on 11 September; the <strong>Hanish Islands</strong> followed <strong>(FDD, 14 Sep 2026; NPR, 11–12 Sep 2026)</strong>. Roughly <strong>12% of world goods</strong> move through Bab al-Mandeb <strong>(AP, 14 Sep 2026)</strong>.</p>\n<p><strong>What everyone is missing.</strong> These are filed as three Middle East stories. For an EA property they are one story with one output — the landed cost of everything arriving by sea. Riyadh was leaning on Bab al-Mandeb to escape Hormuz. Kenya&#x27;s fuel and its imported inputs now share one point of failure.</p>\n<p><span class=\"sowhat\">🎯 <strong>So what:</strong> labelled <strong>inference</strong> — no EA freight surcharge has been announced. If you import linen, generators, spirits or spare parts, get a written surcharge position from your forwarder through Q1 this week.</span><br><span class=\"tagline\">🏷 Beach, City, Bush | 🇰🇪 🇹🇿 | Confirmed (events) · Inference (pass-through) | impact:cost</span></p>\n<p><strong>3️⃣ TWO THINGS EXPIRE ON 14 OCTOBER — AND YOUR CONFERENCE SEASON SITS INSIDE THE LAST KNOWN-COST MONTH</strong></p>\n<p>The <strong>8% VAT on petrol, diesel and kerosene</strong>, cut from 16% in April and extended by KRA&#x27;s Order of <strong>14 July 2026</strong>, runs only to <strong>14 October</strong> — the day EPRA&#x27;s frozen cycle also ends. Our arithmetic, illustrative: gross the KSh 217.86 diesel cap from 8% back to 16%, nothing else changing, and you get ~<strong>KSh 234, about KSh 16 a litre</strong> — <strong>before</strong> any pass-through from item 1.</p>\n<p><span class=\"sowhat\">🎯 <strong>So what:</strong> Africa MICE Summit (Mombasa, 1–2 Oct) and Kenya Transport Summit (KICC, 30 Sep–2 Oct) sit inside the last month of fixable transfer pricing. Fix delegate rates now; clause anything beyond 14 October.</span><br><span class=\"tagline\">🏷 City, Beach | 🇰🇪 | Confirmed | impact:margin</span><br>━━━━━━━━━<br>📋 <strong>We got one wrong.</strong> We said MV Dan would still be aground off Nyali on 1 September (P029). It was refloated <strong>15 August</strong>. The window we bet against held.</p>\n<p>📻 <strong>STILL TRUE</strong> — WHO DON617 (10 Sep): DRC Bundibugyo at <strong>6,757 / 3,267 deaths, CFR 48.3%</strong>; WHO still advises <strong>against</strong> travel restrictions. Wilson Airport is still <strong>day-only, 06:30–18:30</strong>, night flights pending KCAA sign-off on runway lighting <strong>(Business Daily, 18 Aug)</strong> — four weeks on, in peak season.</p>\n<p>🔎 <strong>Blind spots:</strong> the Kenya Gazette portal and KCAA eAIP served empty pages; three queries each, recovered via mirrors and cited as such, nothing tourism-relevant in window.</p>\n<p>🔗 This edition on the web: <a href=\"https://eahospitalitypulse.com/editions/pulse-2026-09-15-morning.html\" rel=\"noopener\">eahospitalitypulse.com/editions/pulse-2026-09-15-mornin…</a><br>— EA Hospitality Pulse | Daily intelligence for city, bush &amp; beach properties</p>"
+ },
+ {
   "id": "pulse-2026-09-14-evening",
   "date": "2026-09-14",
   "dateDisplay": "Monday, 14 September 2026",
@@ -910,6 +919,68 @@ window.EDITIONS = [
  }
 ];
 window.INSIGHTS = [
+ {
+  "headline": "SAUDI SHUT THE PIPELINE THAT WAS KENYA'S WAY AROUND HORMUZ",
+  "body": "Saudi Arabia has closed its **1,200km East-West pipeline** after drone strikes near Riyadh and Medina. The line runs crude from Abqaiq to the Red Sea to bypass the Strait of Hormuz — and it is why Aramco displaced the UAE as Kenya's largest G-to-G supplier: **KSh 99.78bn** of imports in the quarter to May against the UAE's **KSh 42.10bn** *(KNBS, via Business Daily, 14 September 2026)*. Hormuz itself runs at roughly **6–9m barrels a day against 20m+ pre-war**. Brent closed Monday at **US$107**. An unnamed oil-industry executive told *Business Daily* nine days of Platts show super up ~**US$87/m³**, diesel **US$57**. Energy CS Opiyo Wandayi: supply is securable, but \"what we cannot guarantee is the prices\".",
+  "sowhat": "🎯 **So what:** yesterday you had 30 days of known diesel cost. Now 29, against a visibly rising input. Insert the fuel-adjustment clause today, and treat KSh 217.86 as a floor rather than a forecast.",
+  "segments": [
+   "city",
+   "bush",
+   "beach"
+  ],
+  "countries": "🇰🇪",
+  "confidence": "Confirmed",
+  "impact": "-margin",
+  "impactClass": "margin",
+  "intensity": 3,
+  "impactSet": "author",
+  "source": "pulse-2026-09-15-morning",
+  "date": "2026-09-15",
+  "dateDisplay": "Tuesday, 15 September 2026",
+  "edition": "Morning Brief",
+  "editionKey": "morning"
+ },
+ {
+  "headline": "AND THE THIRD ROUTE WENT THIS WEEK — THE HOUTHIS NOW HOLD BAB AL-MANDEB",
+  "body": "Barely reported here. The Houthis took Mocha on **10 September**, then Yemen's remaining Red Sea coast and **Perim Island** mid-strait on 11 September; the **Hanish Islands** followed *(FDD, 14 Sep 2026; NPR, 11–12 Sep 2026)*. Roughly **12% of world goods** move through Bab al-Mandeb *(AP, 14 Sep 2026)*. **What everyone is missing.** These are filed as three Middle East stories. For an EA property they are one story with one output — the landed cost of everything arriving by sea. Riyadh was leaning on Bab al-Mandeb to escape Hormuz. Kenya's fuel and its imported inputs now share one point of failure.",
+  "sowhat": "🎯 **So what:** labelled *inference* — no EA freight surcharge has been announced. If you import linen, generators, spirits or spare parts, get a written surcharge position from your forwarder through Q1 this week.",
+  "segments": [
+   "city",
+   "bush",
+   "beach"
+  ],
+  "countries": "🇰🇪 🇹🇿",
+  "confidence": "Confirmed (events)",
+  "impact": "-margin",
+  "impactClass": "margin",
+  "intensity": 3,
+  "impactSet": "author",
+  "source": "pulse-2026-09-15-morning",
+  "date": "2026-09-15",
+  "dateDisplay": "Tuesday, 15 September 2026",
+  "edition": "Morning Brief",
+  "editionKey": "morning"
+ },
+ {
+  "headline": "TWO THINGS EXPIRE ON 14 OCTOBER — AND YOUR CONFERENCE SEASON SITS INSIDE THE LAST KNOWN-COST MONTH",
+  "body": "The **8% VAT on petrol, diesel and kerosene**, cut from 16% in April and extended by KRA's Order of **14 July 2026**, runs only to **14 October** — the day EPRA's frozen cycle also ends. Our arithmetic, illustrative: gross the KSh 217.86 diesel cap from 8% back to 16%, nothing else changing, and you get ~**KSh 234, about KSh 16 a litre** — *before* any pass-through from item 1.",
+  "sowhat": "🎯 **So what:** Africa MICE Summit (Mombasa, 1–2 Oct) and Kenya Transport Summit (KICC, 30 Sep–2 Oct) sit inside the last month of fixable transfer pricing. Fix delegate rates now; clause anything beyond 14 October.",
+  "segments": [
+   "city",
+   "beach"
+  ],
+  "countries": "🇰🇪",
+  "confidence": "Confirmed",
+  "impact": "-margin",
+  "impactClass": "margin",
+  "intensity": 3,
+  "impactSet": "author",
+  "source": "pulse-2026-09-15-morning",
+  "date": "2026-09-15",
+  "dateDisplay": "Tuesday, 15 September 2026",
+  "edition": "Morning Brief",
+  "editionKey": "morning"
+ },
  {
   "headline": "EPRA FROZE THE PUMP. IT DID NOT FREEZE THE COST — AND DIESEL IS THE ONE THAT MOVED",
   "body": "At 16:04 today EPRA retained all three grades for 15 September–14 October: Nairobi super **KSh 214.03**, diesel **KSh 217.86**, kerosene **KSh 191.38**; Mombasa 210.87 / 214.58 / 188.09 *(EPRA via The Kenya Times, 14 September 2026)*. Underneath, nothing was flat. July to August the average landed cost of **diesel rose 11.86%** — US$855.59 to US$957.05 per cubic metre — and kerosene rose 9.71%. Petrol *fell* 7.87% *(EPRA, 14 September 2026)*. Brent settled at **US$101.21** on 9 September, its highest close since May, on Strait of Hormuz disruption *(The Kenya Times, 10 September 2026)*. For scale: the Murban benchmark CBK carried in early July was **US$67.99** *(CBK Weekly Bulletin, 3 July 2026)*. **What everyone is missing — the subsidy ran toward us.** The petrol cut motorists never received is what paid for the diesel rise they never paid. Hotels and camps do not run on petrol. They run on diesel: transfers, generators, boreholes, laundry. Still a borrowed month — Kenya drew KSh 938m from the Petroleum Development Levy Fund last cycle and KSh 945m the one before *(EPRA / People Daily, August 2026)*.",
@@ -4504,4 +4575,4 @@ window.INSIGHTS = [
   "editionKey": "evening"
  }
 ];
-window.BUILT_AT = "2026-09-14 13:59";
+window.BUILT_AT = "2026-09-15 08:26";

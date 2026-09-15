@@ -1,63 +1,15 @@
 window.LEDGER = {
- "updated": "2026-09-14 14:00",
+ "updated": "2026-09-15 08:26",
  "stats": {
-  "total": 182,
-  "open": 133,
-  "resolved": 48,
-  "correct": 38,
+  "total": 185,
+  "open": 134,
+  "resolved": 50,
+  "correct": 39,
   "partial": 1,
-  "incorrect": 9,
-  "accuracy": 80
+  "incorrect": 10,
+  "accuracy": 79
  },
  "open": [
-  {
-   "id": "P029",
-   "made_date": "2026-07-28",
-   "edition": "Morning Brief",
-   "claim": "MV Adan will still be aground off Nyali beach on 1 September 2026 — the mid-August refloating window will slip",
-   "resolution_criteria": "Kenya Maritime Authority statement,Kenyan press or KPA notice confirming MV Adan remains aground on or after 1 Sep 2026",
-   "resolve_by": "2026-09-15",
-   "market": "KE",
-   "segment": "Beach",
-   "confidence": "Early signal",
-   "status": "open",
-   "resolved_date": "",
-   "evidence": "",
-   "source_url": "https://www.standardmedia.co.ke/business/shipping-logistics/article/2001553863/kma-explains-delay-in-salvaging-grounded-ship-off-nyali-beach",
-   "overdue": false
-  },
-  {
-   "id": "P051",
-   "made_date": "2026-08-04",
-   "edition": "Midday Pulse",
-   "claim": "Kenya's dengue upsurge keeps climbing — the next WHO AFRO Emergency Preparedness weekly sit-rep after Week 28 reports national cumulative dengue cases above 1,679",
-   "resolution_criteria": "A WHO AFRO Emergency Preparedness & Response Weekly Situation Report (Week 29 or later in Aug 2026) showing Kenya cumulative dengue cases above 1,679. If the next available sit-rep shows 1,679 or fewer the call is incorrect",
-   "resolve_by": "2026-09-15",
-   "market": "KE",
-   "segment": "Beach",
-   "confidence": "Early signal",
-   "status": "open",
-   "resolved_date": "",
-   "evidence": "",
-   "source_url": "https://www.afro.who.int/sites/default/files/2026-07/Week%2028.pdf",
-   "overdue": false
-  },
-  {
-   "id": "P174",
-   "made_date": "2026-09-12",
-   "edition": "Evening Wrap",
-   "claim": "The Linda Mwananchi rally of Sunday 13 September 2026 will proceed at Jacaranda Grounds and will NOT result in a Nairobi CBD curfew or a formal government-ordered business closure of the CBD on 13 or 14 September 2026 - police have restricted assembly, not movement",
-   "resolution_criteria": "Kenyan national press (Nation, Standard, Star, Citizen Digital) or a National Police Service / Ministry of Interior statement published on or before 15 Sep 2026. A gazetted or announced curfew covering Nairobi CBD, or an order closing CBD businesses, on 13 or 14 Sep makes the call INCORRECT. Rally cancellation by organisers also makes it incorrect",
-   "resolve_by": "2026-09-15",
-   "market": "KE",
-   "segment": "City",
-   "confidence": "Reported",
-   "status": "open",
-   "resolved_date": "",
-   "evidence": "",
-   "source_url": "https://www.standardmedia.co.ke/politics/article/2001557643/police-to-restrict-access-to-cbd-during-linda-mwananchi-nairobi-rally",
-   "overdue": false
-  },
   {
    "id": "P085",
    "made_date": "2026-08-16",
@@ -475,6 +427,22 @@ window.LEDGER = {
    "overdue": false
   },
   {
+   "id": "P051",
+   "made_date": "2026-08-04",
+   "edition": "Midday Pulse",
+   "claim": "Kenya's dengue upsurge keeps climbing — the next WHO AFRO Emergency Preparedness weekly sit-rep after Week 28 reports national cumulative dengue cases above 1,679",
+   "resolution_criteria": "A WHO AFRO Emergency Preparedness & Response Weekly Situation Report (Week 29 or later in Aug 2026) showing Kenya cumulative dengue cases above 1,679. If the next available sit-rep shows 1,679 or fewer the call is incorrect",
+   "resolve_by": "2026-10-31",
+   "market": "KE",
+   "segment": "Beach",
+   "confidence": "Early signal",
+   "status": "open",
+   "resolved_date": "",
+   "evidence": "NOT GRADED ON 15 SEP 2026 RESOLVE_BY - RESOLUTION SOURCE HAS NOT PUBLISHED. The call requires a WHO AFRO Emergency Preparedness & Response Weekly Situation Report for Kenya of Week 29 or later. The most recent such report reachable on the 15 Sep sweep remains WEEK 26 (published early July 2026), which carries cumulative dengue at 1,583 across six sub-counties (Dadaab, Wajir North, Mandera South, Kilifi South, Galole, Kibra) with 5 suspected deaths. No Week 29+ Kenya sit-rep is published or indexed. Grading against Week 26 would be grading against a report that PREDATES the Week 28 baseline in the claim, so the call cannot be settled either way on available evidence. RESOLVE_BY EXTENDED ONCE to 31 Oct 2026, criteria UNCHANGED, and the extension is declared rather than silent. Note for context, not for grading: Kenya MoH reported 1,678 cases and five suspected deaths across Garissa and Wajir as at 26 Aug 2026 (MoH statement, 28 Aug 2026).",
+   "source_url": "https://www.afro.who.int/sites/default/files/2026-07/Week%2028.pdf",
+   "overdue": false
+  },
+  {
    "id": "P079",
    "made_date": "2026-08-15",
    "edition": "pulse-2026-08-15-morning",
@@ -699,6 +667,22 @@ window.LEDGER = {
    "overdue": false
   },
   {
+   "id": "P183",
+   "made_date": "2026-09-15",
+   "edition": "Morning Brief",
+   "claim": "Wilson Airport will still NOT have resumed scheduled night flights on Runway 07 by 31 October 2026 - the runway reopened for 06:30-18:30 daytime operations only on 29 July 2026 and, four weeks after KAA said the Airfield Ground Lighting fault was rectified, KCAA approval had still not been granted",
+   "resolution_criteria": "A KAA or KCAA notice, a KCAA AIC/NOTAM, or Kenyan press (Business Daily, The Star, Citizen Digital, Nation) published on or before 31 Oct 2026 confirming night operations have resumed on Wilson Runway 07 resolves the call INCORRECT. Continued day-only operation on Runway 07 at 31 Oct 2026, or absence of any resumption notice, resolves it CORRECT",
+   "resolve_by": "2026-10-31",
+   "market": "Kenya",
+   "segment": "Bush|City",
+   "confidence": "Medium",
+   "status": "open",
+   "resolved_date": "",
+   "evidence": "",
+   "source_url": "https://www.businessdailyafrica.com/bd/corporate/shipping-logistics/eyes-on-kcaa-as-wilson-airport-awaits-full-operations-on-revamped-main-runway--5561932",
+   "overdue": false
+  },
+  {
    "id": "P128",
    "made_date": "2026-08-26",
    "edition": "pulse-2026-08-26-evening",
@@ -712,6 +696,22 @@ window.LEDGER = {
    "resolved_date": "",
    "evidence": "",
    "source_url": "https://skift.com/2026/08/04/booking-holdings-saw-pressure-from-googles-ai-overviews/",
+   "overdue": false
+  },
+  {
+   "id": "P182",
+   "made_date": "2026-09-15",
+   "edition": "Morning Brief",
+   "claim": "Kenya's reduced 8% VAT rate on petrol, diesel and kerosene will be extended again beyond its 14 October 2026 expiry rather than being allowed to revert to 16% - it has already been rolled over once (15 Apr-14 Jul, then 15 Jul-14 Oct by KRA Order of 14 Jul 2026), and reversion would add roughly KSh 16/litre to the Nairobi diesel cap in the same cycle that two Gulf supply routes were severed",
+   "resolution_criteria": "A KRA Value Added Tax (Amendment of Rate of Tax) Order, Kenya Gazette notice, National Treasury or KRA statement, or Kenyan national press report (Business Daily, The Star, People Daily, Citizen Digital, Kenyans.co.ke) published on or before 15 November 2026 confirming the 8% rate on petrol, diesel and kerosene continues past 14 Oct 2026 resolves the call CORRECT. Confirmation that the rate reverted to 16% on 15 Oct 2026, or that no extension instrument was made and 16% applies, resolves it INCORRECT",
+   "resolve_by": "2026-11-15",
+   "market": "Kenya",
+   "segment": "Bush|Beach|City",
+   "confidence": "Medium",
+   "status": "open",
+   "resolved_date": "",
+   "evidence": "",
+   "source_url": "https://regfollower.com/kenya-kra-extends-8-vat-rate-on-fuel-products-through-14-october-2026/",
    "overdue": false
   },
   {
@@ -760,6 +760,22 @@ window.LEDGER = {
    "resolved_date": "",
    "evidence": "SUPPORTING EVIDENCE (11 Sep 2026), not a resolution. NISR August 2026 (rel. 10 Sep) shows Rwanda urban CPI at 15.7% y/y and core at 11.5%, both accelerating — urban annual change has risen every month since March (9.2 to 15.7). A BNR cut below 8.75% against that path is materially less likely than when the call was written. Resolution still requires the post-August MPC decision.",
    "source_url": "https://www.bnr.rw/",
+   "overdue": false
+  },
+  {
+   "id": "P184",
+   "made_date": "2026-09-15",
+   "edition": "Morning Brief",
+   "claim": "At least one ocean carrier or freight forwarder serving Mombasa or Dar es Salaam will announce a NEW or INCREASED war-risk, Red Sea or emergency bunker surcharge on East Africa trades on or before 30 November 2026, following the Houthi seizure of Yemen's Red Sea coast, Perim Island and the Hanish Islands on 10-14 September 2026 and the closure of Saudi Arabia's East-West pipeline",
+   "resolution_criteria": "A dated carrier or forwarder customer advisory (Maersk, MSC, CMA CGM, Hapag-Lloyd, ONE, PIL, Kuehne+Nagel, DHL, DSV or similar), a Kenya Ships Agents Association / Kenya Ports Authority notice, or reporting in Business Daily, The EastAfrican, The Citizen TZ, Lloyd's List or Journal of Commerce published on or before 30 Nov 2026 announcing a new or increased war-risk, Red Sea, Gulf of Aden or emergency surcharge applying to Mombasa or Dar es Salaam trades resolves the call CORRECT. No such announcement by 30 Nov 2026 resolves it INCORRECT",
+   "resolve_by": "2026-11-30",
+   "market": "KE|TZ",
+   "segment": "Beach|City|Bush",
+   "confidence": "Inference",
+   "status": "open",
+   "resolved_date": "",
+   "evidence": "",
+   "source_url": "https://www.fdd.org/analysis/2026/09/14/houthis-take-yemens-red-sea-coast-and-key-bab-al-mandeb-islands/",
    "overdue": false
   },
   {
@@ -2141,6 +2157,38 @@ window.LEDGER = {
  ],
  "resolved": [
   {
+   "id": "P029",
+   "made_date": "2026-07-28",
+   "edition": "Morning Brief",
+   "claim": "MV Adan will still be aground off Nyali beach on 1 September 2026 — the mid-August refloating window will slip",
+   "resolution_criteria": "Kenya Maritime Authority statement,Kenyan press or KPA notice confirming MV Adan remains aground on or after 1 Sep 2026",
+   "resolve_by": "2026-09-15",
+   "market": "KE",
+   "segment": "Beach",
+   "confidence": "Early signal",
+   "status": "incorrect",
+   "resolved_date": "2026-09-15",
+   "evidence": "RESOLVED INCORRECT. We said the mid-August refloating window would slip and MV Dan would still be aground off Nyali on 1 Sep 2026. It did not slip: the Tanzanian-flagged vessel was successfully refloated on 15 AUGUST 2026 by Yaa Holdings Ltd with Kenyan seafarers, coordinated with KMA, the Kenya Coast Guard Service, Kenya Navy and KPA, hull intact and no pollution recorded, and moved to Mtongwe Anchorage for inspection. Own it: we bet against a stated official timetable and the timetable held.",
+   "source_url": "https://tanzaniatimes.net/tanzanian-ship-which-ran-aground-in-mombasa-finally-pulled-out-of-the-kenya-reefs/",
+   "overdue": false
+  },
+  {
+   "id": "P174",
+   "made_date": "2026-09-12",
+   "edition": "Evening Wrap",
+   "claim": "The Linda Mwananchi rally of Sunday 13 September 2026 will proceed at Jacaranda Grounds and will NOT result in a Nairobi CBD curfew or a formal government-ordered business closure of the CBD on 13 or 14 September 2026 - police have restricted assembly, not movement",
+   "resolution_criteria": "Kenyan national press (Nation, Standard, Star, Citizen Digital) or a National Police Service / Ministry of Interior statement published on or before 15 Sep 2026. A gazetted or announced curfew covering Nairobi CBD, or an order closing CBD businesses, on 13 or 14 Sep makes the call INCORRECT. Rally cancellation by organisers also makes it incorrect",
+   "resolve_by": "2026-09-15",
+   "market": "KE",
+   "segment": "City",
+   "confidence": "Reported",
+   "status": "correct",
+   "resolved_date": "2026-09-15",
+   "evidence": "RESOLVED CORRECT. The Linda Mwananchi rally proceeded at Jacaranda Grounds on Sunday 13 Sep 2026 and was not cancelled by organisers. Nairobi Regional Police Commander Issa Mohamud had barred large political gatherings from the CBD on 12 Sep, but this was a restriction on ASSEMBLY, not movement: the convoy transited the CBD toward Marikiti in defiance of the ban and leaders addressed supporters there. No gazetted or announced curfew covering Nairobi CBD and no government order closing CBD businesses on 13 or 14 Sep 2026 has been reported by Nation, Standard, Star, Citizen Digital, People Daily or NPS/Interior. Exactly the assembly-not-movement distinction the call rested on.",
+   "source_url": "https://citizen.digital/article/linda-mwananchi-group-will-not-be-allowed-to-hold-rally-in-the-cbd-nairobi-police-boss-issa-mohamud-n390076",
+   "overdue": false
+  },
+  {
    "id": "P078",
    "made_date": "2026-08-15",
    "edition": "pulse-2026-08-15-morning",
@@ -2376,7 +2424,7 @@ window.LEDGER = {
    "confidence": "Confirmed",
    "status": "correct",
    "resolved_date": "2026-09-12",
-   "evidence": "RESOLVED CORRECT. WHO DON617 published 7 Sep 2026 - before the 15 Oct 2026 resolve_by - reports 6,757 cumulative confirmed DRC Bundibugyo cases and 3,267 deaths (CFR 48.3%) as at 7 Sep, clearing the stated 6,000 bar. Verified on the 12 Sep evening sweep.",
+   "evidence": "RESOLVED CORRECT. WHO DON617 published 10 Sep 2026 (data as at 7 Sep 2026) - before the 15 Oct 2026 resolve_by - reports 6,757 cumulative confirmed DRC Bundibugyo cases and 3,267 deaths (CFR 48.3%) as at 7 Sep, clearing the stated 6,000 bar. Verified on the 12 Sep evening sweep.",
    "source_url": "https://www.who.int/emergencies/disease-outbreak-news/item/2026-DON617",
    "overdue": false
   },
