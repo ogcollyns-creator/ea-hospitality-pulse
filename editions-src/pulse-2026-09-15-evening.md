@@ -7,7 +7,7 @@
 
 A quiet news day. So here is the thing about Ebola this industry is measuring wrongly.
 ━━━━━━━━━
-**1️⃣ THE NUMBER THAT PRICES YOUR Q4 IS NOT A CASE COUNT. IT IS MAP RESOLUTION.**
+**1️⃣ 86 DAYS EBOLA-FREE. STILL BANNED. THE RISK IS THE MAP, NOT THE VIRUS.**
 
 DRC now stands at **7,200 confirmed cases and 3,475 deaths** on data to 12 September — up **258 cases and 126 deaths in two days** — with **62 of 167 health zones** affected across **seven** provinces *(DRC INSP SitRep N°122/MVEBDB/13/09/2026, via ECDC, page updated 14 September 2026)*. WHO's DON617 of **10 September** had it at 6,757 and 3,267 across **six** provinces on 7 September data. North Kivu, the province that touches Uganda and Rwanda, carries the outbreak's **highest case fatality ratio at 65.4%** and added **453 confirmed cases in 21 days** *(WHO DON617)*.
 
@@ -61,7 +61,7 @@ Usiku mwema.
 
 ## LINKEDIN BIG READ
 
-**Your Ebola risk is not epidemiological. It is cartographic.**
+**86 days Ebola-free. Still banned. The risk is the map, not the virus.**
 
 Uganda has not recorded a confirmed Ebola case since 21 June. WHO declared the outbreak over on 25 August, after the full 42-day countdown, with 20 cases and a 10% case fatality ratio. That is 86 days clean. Uganda is still named on foreign entry restrictions written in May.
 
