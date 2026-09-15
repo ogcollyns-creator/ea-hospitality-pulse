@@ -1,18 +1,18 @@
 {
- "generated": "2026-09-15T17:21:27+03:00",
+ "generated": "2026-09-15T21:02:47+03:00",
  "slot": "evening",
  "window_start": 1789466400,
- "observations_in_window": 229,
+ "observations_in_window": 403,
  "deduped_against": 4,
  "candidates": [
   {
-   "score": 122.2,
+   "score": 118.1,
    "components": {
     "tier": 40,
     "category": 24,
     "lead": 2.4,
     "relevance": 24,
-    "freshness": 19.8,
+    "freshness": 15.7,
     "undated": -6,
     "shock": 18
    },
@@ -45,13 +45,13 @@
    "verdict": "LEAD CANDIDATE \u2014 tier-1 shock language"
   },
   {
-   "score": 122.2,
+   "score": 118.1,
    "components": {
     "tier": 40,
     "category": 24,
     "lead": 2.4,
     "relevance": 24,
-    "freshness": 19.8,
+    "freshness": 15.7,
     "undated": -6,
     "shock": 18
    },
@@ -84,13 +84,46 @@
    "verdict": "LEAD CANDIDATE \u2014 tier-1 shock language"
   },
   {
-   "score": 100.2,
+   "score": 101.4,
    "components": {
     "tier": 40,
     "category": 32,
     "lead": 3.6,
     "relevance": 0,
-    "freshness": 18.6,
+    "freshness": 19.8,
+    "corroborated": 10,
+    "page_change": -4
+   },
+   "keywords": [],
+   "shock_terms": [],
+   "dedupe_match": null,
+   "dedupe_similarity": 0.0,
+   "id": "193c6aa3be45",
+   "title": "[page changed] Federal Register \u2014 public inspection (HHS/CDC), pre-publication",
+   "url": "https://www.federalregister.gov/api/v1/public-inspection-documents/current.json",
+   "summary": "{\"count\":104,\"results\":[{\"agencies\":[{\"raw_name\":\"Defense Department\",\"name\":\"Defense Department\",\"id\":103,\"url\":\"https://www.federalregister.gov/agencies/defense-department\",\"json_url\":\"https://www.federalregister.gov/api/v1/agencies/103\",\"parent_id\":null,\"slug\":\"defense-department\"}],\"agency_letters\":[],\"agency_names\":[\"Defense Department\"],\"docket_numbers\":[],\"document_number\":\"2026-18912\",\"edi",
+   "kind": "page-change",
+   "source": "Federal Register \u2014 public inspection (HHS/CDC), pre-publication",
+   "source_id": "us-fedreg-pubinspect-hhs",
+   "tier": 1,
+   "country": "REG",
+   "category": "advisory",
+   "segments": [
+    "city",
+    "bush"
+   ],
+   "first_seen": "2026-09-15T21:00+03:00",
+   "published": "2026-09-15",
+   "verdict": "OPEN THIS \u2014 tier-1 advisory page moved; content not auto-parsed, read it manually"
+  },
+  {
+   "score": 96.1,
+   "components": {
+    "tier": 40,
+    "category": 32,
+    "lead": 3.6,
+    "relevance": 0,
+    "freshness": 14.5,
     "corroborated": 10,
     "page_change": -4
    },
@@ -117,13 +150,186 @@
    "verdict": "OPEN THIS \u2014 tier-1 advisory page moved; content not auto-parsed, read it manually"
   },
   {
-   "score": 99.6,
+   "score": 98.2,
+   "components": {
+    "tier": 40,
+    "category": 24,
+    "lead": 2.4,
+    "relevance": 12,
+    "freshness": 19.8
+   },
+   "keywords": [
+    "ebola"
+   ],
+   "shock_terms": [],
+   "dedupe_match": null,
+   "dedupe_similarity": 0.0,
+   "id": "7efeef4362a4",
+   "title": "Democratic Republic of the Congo (DRC)",
+   "url": "https://insp.cd/wp-content/uploads/2026/09/SitRep_MVEBDB_122_13_09_2026.pdf",
+   "summary": "1 fr-FR fr-FR fr-FR fr-FRRapport de Situation de la 17\u00e8me \u00c9pid\u00e9mie de la Maladie \u00e0 Virus EBOLA /RDC fr-FR fr-FRSitRep N\u00b0122/MVEBDB/13/09/2026 fr-FR Date de rapportage : 13 septembre 2026 Date de publication : 14 septembre 2026 fr-FR fr-FR fr-FR fr-FR fr-FR fr-FR fr-FR fr-FR fr-FR fr-FR fr-FR fr-FR fr-FR fr-FR fr-FR fr-FR fr-FR fr-FR fr-FR fr-FR fr-FR fr-FR fr-FR fr-FR fr-FR fr-FR fr-FR fr-FR fr-FR",
+   "kind": "doc",
+   "source": "ECDC \u2014 DRC/Uganda Ebola outbreak page",
+   "source_id": "ecdc-ebola",
+   "tier": 1,
+   "country": "GLOBAL",
+   "category": "health",
+   "segments": [
+    "city",
+    "bush"
+   ],
+   "first_seen": "2026-09-15T21:00+03:00",
+   "published": "2026-09-13",
+   "verdict": "STRONG \u2014 tier-1, upstream"
+  },
+  {
+   "score": 96.7,
+   "components": {
+    "tier": 40,
+    "category": 13,
+    "lead": 6.0,
+    "relevance": 8,
+    "freshness": 19.7,
+    "corroborated": 10
+   },
+   "keywords": [
+    "airport"
+   ],
+   "shock_terms": [],
+   "dedupe_match": null,
+   "dedupe_similarity": 0.17,
+   "id": "0350b0e1018a",
+   "title": "Principal Engineer, Aerodrome Planning & Development",
+   "url": "https://caa.go.ug/principal-engineer-aerodrome-planning-development",
+   "summary": "Uganda Civil Aviation Authority (UCAA)- External Advertisement Uganda Civil Aviation Authority (UCAA) is a corporate body responsible for regulation of civil aviation in Uganda. It manages Entebbe International Airport (EIA) and thirteen (13) other upcountry aerodromes. UCAA carries out its work in conformity with International Civil Aviation Organization (ICAO) Standards [\u2026]",
+   "kind": "item",
+   "source": "Uganda Civil Aviation Authority",
+   "source_id": "ug-ucaa",
+   "tier": 1,
+   "country": "UG",
+   "category": "aviation",
+   "segments": [
+    "city",
+    "bush",
+    "beach"
+   ],
+   "first_seen": "2026-09-15T20:59+03:00",
+   "published": "2026-09-15",
+   "verdict": "STRONG \u2014 tier-1, upstream"
+  },
+  {
+   "score": 96.7,
+   "components": {
+    "tier": 40,
+    "category": 13,
+    "lead": 6.0,
+    "relevance": 8,
+    "freshness": 19.7,
+    "corroborated": 10
+   },
+   "keywords": [
+    "airport"
+   ],
+   "shock_terms": [],
+   "dedupe_match": null,
+   "dedupe_similarity": 0.17,
+   "id": "fa9290126a40",
+   "title": "Senior Civil Engineer, Aerodrome Planning & Development",
+   "url": "https://caa.go.ug/senior-civil-engineer-aerodrome-planning-development",
+   "summary": "Uganda Civil Aviation Authority (UCAA)- External Advertisement Uganda Civil Aviation Authority (UCAA) is a corporate body responsible for regulation of civil aviation in Uganda. It manages Entebbe International Airport (EIA) and thirteen (13) other upcountry aerodromes. UCAA carries out its work in conformity with International Civil Aviation Organization (ICAO) Standards [\u2026]",
+   "kind": "item",
+   "source": "Uganda Civil Aviation Authority",
+   "source_id": "ug-ucaa",
+   "tier": 1,
+   "country": "UG",
+   "category": "aviation",
+   "segments": [
+    "city",
+    "bush",
+    "beach"
+   ],
+   "first_seen": "2026-09-15T20:59+03:00",
+   "published": "2026-09-15",
+   "verdict": "STRONG \u2014 tier-1, upstream"
+  },
+  {
+   "score": 96.7,
+   "components": {
+    "tier": 40,
+    "category": 13,
+    "lead": 6.0,
+    "relevance": 8,
+    "freshness": 19.7,
+    "corroborated": 10
+   },
+   "keywords": [
+    "airport"
+   ],
+   "shock_terms": [],
+   "dedupe_match": null,
+   "dedupe_similarity": 0.17,
+   "id": "953457a13704",
+   "title": "Civil Engineer, Aerodrome Planning & Development",
+   "url": "https://caa.go.ug/civil-engineer-aerodrome-planning-development",
+   "summary": "Uganda Civil Aviation Authority (UCAA)- External Advertisement Uganda Civil Aviation Authority (UCAA) is a corporate body responsible for regulation of civil aviation in Uganda. It manages Entebbe International Airport (EIA) and thirteen (13) other upcountry aerodromes. UCAA carries out its work in conformity with International Civil Aviation Organization (ICAO) Standards [\u2026]",
+   "kind": "item",
+   "source": "Uganda Civil Aviation Authority",
+   "source_id": "ug-ucaa",
+   "tier": 1,
+   "country": "UG",
+   "category": "aviation",
+   "segments": [
+    "city",
+    "bush",
+    "beach"
+   ],
+   "first_seen": "2026-09-15T20:59+03:00",
+   "published": "2026-09-15",
+   "verdict": "STRONG \u2014 tier-1, upstream"
+  },
+  {
+   "score": 96.7,
+   "components": {
+    "tier": 40,
+    "category": 13,
+    "lead": 6.0,
+    "relevance": 8,
+    "freshness": 19.7,
+    "corroborated": 10
+   },
+   "keywords": [
+    "airport"
+   ],
+   "shock_terms": [],
+   "dedupe_match": null,
+   "dedupe_similarity": 0.17,
+   "id": "fcfa382d516e",
+   "title": "Manager Marketing And Commercial Services",
+   "url": "https://caa.go.ug/manager-marketing-and-commercial-services",
+   "summary": "Uganda Civil Aviation Authority (UCAA)- External Advertisement Uganda Civil Aviation Authority (UCAA) is a corporate body responsible for regulation of civil aviation in Uganda and management of Entebbe International Airport (EIA) and thirteen (13) other upcountry aerodromes. UCAA carries out its work in conformity with International Civil Aviation Organization (ICAO) [\u2026]",
+   "kind": "item",
+   "source": "Uganda Civil Aviation Authority",
+   "source_id": "ug-ucaa",
+   "tier": 1,
+   "country": "UG",
+   "category": "aviation",
+   "segments": [
+    "city",
+    "bush",
+    "beach"
+   ],
+   "first_seen": "2026-09-15T20:59+03:00",
+   "published": "2026-09-15",
+   "verdict": "STRONG \u2014 tier-1, upstream"
+  },
+  {
+   "score": 95.5,
    "components": {
     "tier": 40,
     "category": 13,
     "lead": 6.0,
     "relevance": 12,
-    "freshness": 18.6,
+    "freshness": 14.5,
     "corroborated": 10
    },
    "keywords": [
@@ -153,13 +359,120 @@
    "verdict": "STRONG \u2014 tier-1, upstream"
   },
   {
-   "score": 95.0,
+   "score": 92.2,
+   "components": {
+    "tier": 20,
+    "category": 14,
+    "lead": 8.4,
+    "relevance": 20,
+    "freshness": 19.8,
+    "corroborated": 10
+   },
+   "keywords": [
+    "cancel",
+    "route"
+   ],
+   "shock_terms": [],
+   "dedupe_match": null,
+   "dedupe_similarity": 0.0,
+   "id": "051f22d22de2",
+   "title": "Qantas Converts Darwin \u2013 Singapore to Seasonal Service in 2026-27",
+   "url": "https://www.aeroroutes.com/eng/260915-qfyr2627sin",
+   "summary": "Published at 1000PDT / 1700GMT 15SEP26 Qantas in recent schedule update filed service changes on Darwin \u2013 Singapore route, as the carrier cancelled service for Northern winter 2026/27 season from 25OCT26. During Northern summer 2027 season, Qantas will serve this route on seasonal basis, from 12JUN27 to 21AUG27, with 737-800. This route is scheduled 3 times weekly. QF047 DRW1740 \u2013 2100SIN 73H 146 ",
+   "kind": "item",
+   "source": "AeroRoutes schedule filings",
+   "source_id": "aeroroutes",
+   "tier": 2,
+   "country": "GLOBAL",
+   "category": "aviation-tracker",
+   "segments": [
+    "city",
+    "bush",
+    "beach"
+   ],
+   "first_seen": "2026-09-15T21:00+03:00",
+   "published": "2026-09-15",
+   "verdict": "CONSIDER"
+  },
+  {
+   "score": 92.2,
+   "components": {
+    "tier": 20,
+    "category": 14,
+    "lead": 8.4,
+    "relevance": 20,
+    "freshness": 19.8,
+    "corroborated": 10
+   },
+   "keywords": [
+    "cancel",
+    "route"
+   ],
+   "shock_terms": [],
+   "dedupe_match": null,
+   "dedupe_similarity": 0.0,
+   "id": "20723d2f14d9",
+   "title": "Jetstar NW26 Trans-Tasman Network Changes",
+   "url": "https://www.aeroroutes.com/eng/260915-jqnw26nz",
+   "summary": "Published at 0700PDT / 1400GMT 15SEP26 Jetstar Airways in recent schedule update filed additional network changes on Trans-Tasman route for Northern winter 2026/27 season, as the carrier cancels 2 routes, and resumes Sydney \u2013 Christchurch after 7-year hiatus. Cairns \u2013 Christchurch 3 weekly cancelled from 25OCT26 Maroochydore (Sunshine Coast) \u2013 Auckland 3 weekly cancelled from 25OCT26 Sydney \u2013 Chri",
+   "kind": "item",
+   "source": "AeroRoutes schedule filings",
+   "source_id": "aeroroutes",
+   "tier": 2,
+   "country": "GLOBAL",
+   "category": "aviation-tracker",
+   "segments": [
+    "city",
+    "bush",
+    "beach"
+   ],
+   "first_seen": "2026-09-15T21:00+03:00",
+   "published": "2026-09-15",
+   "verdict": "CONSIDER"
+  },
+  {
+   "score": 91.5,
+   "components": {
+    "tier": 40,
+    "category": 17,
+    "lead": 16.8,
+    "relevance": 4,
+    "freshness": 19.7,
+    "undated": -6
+   },
+   "keywords": [
+    "guest"
+   ],
+   "shock_terms": [],
+   "dedupe_match": null,
+   "dedupe_similarity": 0.0,
+   "id": "d7c75ea5f14c",
+   "title": "HazCheckIn: turning guest check-in into an automatic compliance step",
+   "url": "https://transition-pathways.europa.eu/tourism/best-practices/hazcheckin-turning-guest-check-automatic-compliance-step",
+   "summary": "",
+   "kind": "item",
+   "source": "EU Tourism Transition Pathway \u2014 legislation & guidance",
+   "source_id": "eu-tourism-pathway",
+   "tier": 1,
+   "country": "REG",
+   "category": "regulator",
+   "segments": [
+    "bush",
+    "beach",
+    "city"
+   ],
+   "first_seen": "2026-09-15T20:59+03:00",
+   "published": null,
+   "verdict": "STRONG \u2014 tier-1, upstream"
+  },
+  {
+   "score": 90.9,
    "components": {
     "tier": 40,
     "category": 24,
     "lead": 2.4,
     "relevance": 0,
-    "freshness": 18.6,
+    "freshness": 14.5,
     "corroborated": 10
    },
    "keywords": [],
@@ -185,13 +498,13 @@
    "verdict": "STRONG \u2014 tier-1, upstream"
   },
   {
-   "score": 92.2,
+   "score": 88.1,
    "components": {
     "tier": 40,
     "category": 24,
     "lead": 2.4,
     "relevance": 12,
-    "freshness": 19.8,
+    "freshness": 15.7,
     "undated": -6
    },
    "keywords": [
@@ -217,16 +530,16 @@
    ],
    "first_seen": "2026-09-15T17:21+03:00",
    "published": null,
-   "verdict": "STRONG \u2014 tier-1, upstream"
+   "verdict": "CONSIDER"
   },
   {
-   "score": 91.0,
+   "score": 86.9,
    "components": {
     "tier": 40,
     "category": 24,
     "lead": 2.4,
     "relevance": 12,
-    "freshness": 18.6,
+    "freshness": 14.5,
     "undated": -6
    },
    "keywords": [
@@ -252,16 +565,16 @@
    ],
    "first_seen": "2026-09-15T16:14+03:00",
    "published": null,
-   "verdict": "STRONG \u2014 tier-1, upstream"
+   "verdict": "CONSIDER"
   },
   {
-   "score": 91.0,
+   "score": 86.9,
    "components": {
     "tier": 40,
     "category": 24,
     "lead": 2.4,
     "relevance": 12,
-    "freshness": 18.6,
+    "freshness": 14.5,
     "undated": -6
    },
    "keywords": [
@@ -287,16 +600,16 @@
    ],
    "first_seen": "2026-09-15T16:14+03:00",
    "published": null,
-   "verdict": "STRONG \u2014 tier-1, upstream"
+   "verdict": "CONSIDER"
   },
   {
-   "score": 91.0,
+   "score": 86.9,
    "components": {
     "tier": 40,
     "category": 24,
     "lead": 2.4,
     "relevance": 12,
-    "freshness": 18.6,
+    "freshness": 14.5,
     "undated": -6
    },
    "keywords": [
@@ -322,16 +635,16 @@
    ],
    "first_seen": "2026-09-15T16:14+03:00",
    "published": null,
-   "verdict": "STRONG \u2014 tier-1, upstream"
+   "verdict": "CONSIDER"
   },
   {
-   "score": 87.0,
+   "score": 82.9,
    "components": {
     "tier": 20,
     "category": 14,
     "lead": 8.4,
     "relevance": 16,
-    "freshness": 18.6,
+    "freshness": 14.5,
     "corroborated": 10
    },
    "keywords": [
@@ -362,13 +675,13 @@
    "verdict": "CONSIDER"
   },
   {
-   "score": 87.0,
+   "score": 82.9,
    "components": {
     "tier": 20,
     "category": 14,
     "lead": 8.4,
     "relevance": 16,
-    "freshness": 18.6,
+    "freshness": 14.5,
     "corroborated": 10
    },
    "keywords": [
@@ -399,13 +712,182 @@
    "verdict": "CONSIDER"
   },
   {
-   "score": 84.2,
+   "score": 81.5,
+   "components": {
+    "tier": 40,
+    "category": 7,
+    "lead": 16.8,
+    "relevance": 4,
+    "freshness": 19.7,
+    "undated": -6
+   },
+   "keywords": [
+    "signing"
+   ],
+   "shock_terms": [],
+   "dedupe_match": null,
+   "dedupe_similarity": 0.0,
+   "id": "ab1b08c62734",
+   "title": "Gardening, Garden designing and landscaping -...",
+   "url": "https://egpuganda.go.ug/index/398117104_egp",
+   "summary": "",
+   "kind": "item",
+   "source": "Uganda EGP portal",
+   "source_id": "ug-tenders",
+   "tier": 1,
+   "country": "UG",
+   "category": "tender",
+   "segments": [
+    "city",
+    "bush",
+    "beach"
+   ],
+   "first_seen": "2026-09-15T20:59+03:00",
+   "published": null,
+   "verdict": "CONSIDER"
+  },
+  {
+   "score": 80.2,
+   "components": {
+    "tier": 20,
+    "category": 14,
+    "lead": 8.4,
+    "relevance": 8,
+    "freshness": 19.8,
+    "corroborated": 10
+   },
+   "keywords": [
+    "route"
+   ],
+   "shock_terms": [],
+   "dedupe_match": null,
+   "dedupe_similarity": 0.0,
+   "id": "f501dd0b01d3",
+   "title": "Batik Air Malaysia Dec 2026 Brisbane A330 Operations",
+   "url": "https://www.aeroroutes.com/eng/260915-oddec26bne",
+   "summary": "Published at 0800PDT / 1500GMT 15SEP26 Batik Air Malaysia in December 2026 schedules short term Airbus A330-300 aircraft service on Kuala Lumpur \u2013 Denpasar \u2013 Brisbane route. From Kuala Lumber, 3 of 7 weekly service to be operated by A330-300, instead of 737 MAX 8, from 15DEC26 to 26DEC26. OD157 KUL1755 \u2013 2105DPS2210 \u2013 0600+1BNE 330 246 OD157 KUL1755 \u2013 2105DPS2210 \u2013 0600+1BNE 7M8 x246 OD158 BNE0715",
+   "kind": "item",
+   "source": "AeroRoutes schedule filings",
+   "source_id": "aeroroutes",
+   "tier": 2,
+   "country": "GLOBAL",
+   "category": "aviation-tracker",
+   "segments": [
+    "city",
+    "bush",
+    "beach"
+   ],
+   "first_seen": "2026-09-15T21:00+03:00",
+   "published": "2026-09-15",
+   "verdict": "CONSIDER"
+  },
+  {
+   "score": 80.1,
+   "components": {
+    "tier": 40,
+    "category": 24,
+    "lead": 2.4,
+    "relevance": 0,
+    "freshness": 19.7,
+    "undated": -6
+   },
+   "keywords": [],
+   "shock_terms": [],
+   "dedupe_match": null,
+   "dedupe_similarity": 0.0,
+   "id": "335763bf1599",
+   "title": "15 September 2026 | Feature Story Portuguese-speaking African countries strengthen emergency medical team readiness",
+   "url": "https://www.afro.who.int/news/portuguese-speaking-african-countries-strengthen-emergency-medical-team-readiness",
+   "summary": "",
+   "kind": "item",
+   "source": "WHO AFRO \u2014 Rwanda country newsroom",
+   "source_id": "who-afro-rwanda",
+   "tier": 1,
+   "country": "RW",
+   "category": "health",
+   "segments": [
+    "bush",
+    "city",
+    "beach"
+   ],
+   "first_seen": "2026-09-15T20:59+03:00",
+   "published": null,
+   "verdict": "CONSIDER"
+  },
+  {
+   "score": 80.1,
+   "components": {
+    "tier": 40,
+    "category": 24,
+    "lead": 2.4,
+    "relevance": 0,
+    "freshness": 19.7,
+    "undated": -6
+   },
+   "keywords": [],
+   "shock_terms": [],
+   "dedupe_match": null,
+   "dedupe_similarity": 0.0,
+   "id": "c2910073269e",
+   "title": "15 September 2026 | Feature Story Portuguese-speaking African countries strengthen emergency medical team readiness",
+   "url": "https://www.afro.who.int/news/portuguese-speaking-african-countries-strengthen-emergency-medical-team-readiness",
+   "summary": "",
+   "kind": "item",
+   "source": "WHO AFRO \u2014 Uganda country newsroom",
+   "source_id": "who-afro-uganda",
+   "tier": 1,
+   "country": "UG",
+   "category": "health",
+   "segments": [
+    "bush",
+    "city",
+    "beach"
+   ],
+   "first_seen": "2026-09-15T20:59+03:00",
+   "published": null,
+   "verdict": "CONSIDER"
+  },
+  {
+   "score": 80.1,
+   "components": {
+    "tier": 40,
+    "category": 24,
+    "lead": 2.4,
+    "relevance": 0,
+    "freshness": 19.7,
+    "undated": -6
+   },
+   "keywords": [],
+   "shock_terms": [],
+   "dedupe_match": null,
+   "dedupe_similarity": 0.0,
+   "id": "f9b4b8c3a62f",
+   "title": "15 September 2026 | Feature Story Portuguese-speaking African countries strengthen emergency medical team readiness",
+   "url": "https://www.afro.who.int/news/portuguese-speaking-african-countries-strengthen-emergency-medical-team-readiness",
+   "summary": "",
+   "kind": "item",
+   "source": "WHO AFRO \u2014 Kenya country newsroom",
+   "source_id": "who-afro-kenya",
+   "tier": 1,
+   "country": "KE",
+   "category": "health",
+   "segments": [
+    "bush",
+    "city",
+    "beach"
+   ],
+   "first_seen": "2026-09-15T20:59+03:00",
+   "published": null,
+   "verdict": "CONSIDER"
+  },
+  {
+   "score": 80.1,
    "components": {
     "tier": 40,
     "category": 24,
     "lead": 2.4,
     "relevance": 4,
-    "freshness": 19.8,
+    "freshness": 15.7,
     "undated": -6
    },
    "keywords": [
@@ -434,13 +916,13 @@
    "verdict": "CONSIDER"
   },
   {
-   "score": 83.8,
+   "score": 79.7,
    "components": {
     "tier": 20,
     "category": 4,
     "lead": 0.0,
     "relevance": 12,
-    "freshness": 19.8,
+    "freshness": 15.7,
     "corroborated": 10,
     "shock": 18
    },
@@ -473,13 +955,13 @@
    "verdict": "CONSIDER"
   },
   {
-   "score": 83.0,
+   "score": 78.9,
    "components": {
     "tier": 20,
     "category": 14,
     "lead": 8.4,
     "relevance": 12,
-    "freshness": 18.6,
+    "freshness": 14.5,
     "corroborated": 10
    },
    "keywords": [
@@ -509,13 +991,13 @@
    "verdict": "CONSIDER"
   },
   {
-   "score": 83.0,
+   "score": 78.9,
    "components": {
     "tier": 20,
     "category": 14,
     "lead": 8.4,
     "relevance": 12,
-    "freshness": 18.6,
+    "freshness": 14.5,
     "corroborated": 10
    },
    "keywords": [
@@ -545,13 +1027,48 @@
    "verdict": "CONSIDER"
   },
   {
-   "score": 82.4,
+   "score": 78.4,
+   "components": {
+    "tier": 20,
+    "category": 9,
+    "lead": 3.6,
+    "relevance": 16,
+    "freshness": 19.8,
+    "corroborated": 10
+   },
+   "keywords": [
+    "vat",
+    "route"
+   ],
+   "shock_terms": [],
+   "dedupe_match": null,
+   "dedupe_similarity": 0.0,
+   "id": "d6db6a93381a",
+   "title": "Saison 2028/29: HX bietet 26 neue Expeditions-Seereisen an",
+   "url": "https://www.fvw.de/touristik/kreuzfahrt/saison-202829-hx-bietet-26-neue-expeditions-seereisen-an-264601",
+   "summary": "HX Expeditions (HX) stellt ihr Programm f\u00fcr die Saison 2028/29 vor. Es umfasst 57 Expeditions-Seereisen zu 14 Destinationen weltweit, darunter 26 neue Routen, zwei f\u00fcr HX neue Destinationen und f\u00fcnf Produktinnovationen.",
+   "kind": "item",
+   "source": "FVW / German travel trade",
+   "source_id": "sm-derreise",
+   "tier": 2,
+   "country": "GLOBAL",
+   "category": "source-market",
+   "segments": [
+    "beach",
+    "bush"
+   ],
+   "first_seen": "2026-09-15T21:00+03:00",
+   "published": "2026-09-15",
+   "verdict": "CONSIDER"
+  },
+  {
+   "score": 78.3,
    "components": {
     "tier": 20,
     "category": 5,
     "lead": 3.6,
     "relevance": 24,
-    "freshness": 19.8,
+    "freshness": 15.7,
     "corroborated": 10
    },
    "keywords": [
@@ -583,13 +1100,114 @@
    "verdict": "CONSIDER"
   },
   {
-   "score": 80.2,
+   "score": 77.5,
+   "components": {
+    "tier": 40,
+    "category": 7,
+    "lead": 16.8,
+    "relevance": 0,
+    "freshness": 19.7,
+    "undated": -6
+   },
+   "keywords": [],
+   "shock_terms": [],
+   "dedupe_match": null,
+   "dedupe_similarity": 0.25,
+   "id": "20cdce61e3dd",
+   "title": "PROCUREMENT OF A PORTABLE CONTINUOUSLY RECORD...",
+   "url": "https://egpuganda.go.ug/index/396364614_egp",
+   "summary": "",
+   "kind": "item",
+   "source": "Uganda EGP portal",
+   "source_id": "ug-tenders",
+   "tier": 1,
+   "country": "UG",
+   "category": "tender",
+   "segments": [
+    "city",
+    "bush",
+    "beach"
+   ],
+   "first_seen": "2026-09-15T20:59+03:00",
+   "published": null,
+   "verdict": "CONSIDER"
+  },
+  {
+   "score": 77.5,
+   "components": {
+    "tier": 40,
+    "category": 7,
+    "lead": 16.8,
+    "relevance": 0,
+    "freshness": 19.7,
+    "undated": -6
+   },
+   "keywords": [],
+   "shock_terms": [],
+   "dedupe_match": null,
+   "dedupe_similarity": 0.0,
+   "id": "0a88eb961ff7",
+   "title": "Procurement of Consultancy Services to develo...",
+   "url": "https://egpuganda.go.ug/index/398315652_egp",
+   "summary": "",
+   "kind": "item",
+   "source": "Uganda EGP portal",
+   "source_id": "ug-tenders",
+   "tier": 1,
+   "country": "UG",
+   "category": "tender",
+   "segments": [
+    "city",
+    "bush",
+    "beach"
+   ],
+   "first_seen": "2026-09-15T20:59+03:00",
+   "published": null,
+   "verdict": "CONSIDER"
+  },
+  {
+   "score": 76.2,
+   "components": {
+    "tier": 20,
+    "category": 14,
+    "lead": 8.4,
+    "relevance": 4,
+    "freshness": 19.8,
+    "corroborated": 10
+   },
+   "keywords": [
+    "airline"
+   ],
+   "shock_terms": [],
+   "dedupe_match": null,
+   "dedupe_similarity": 0.0,
+   "id": "1c6c65cfa2b5",
+   "title": "Philippine Airlines NW26 Cebu \u2013 Guam Holidays Operation",
+   "url": "https://www.aeroroutes.com/eng/260915-prnw26cebgum",
+   "summary": "Published at 0900PDT / 1600GMT 15SEP26 Philippine Airlines during Northern winter 2026/27 season intends to resume Cebu \u2013 Guam service, although this is scheduled for holidays season. Airbus A321 aircraft to operate on following dates from Cebu: 17DEC26, 23DEC26, 24DEC26, 02JAN27, 03JAN27, 06JAN27 (Guam departs the following day). PR120 CEB2140 \u2013 0325+1GUM 321 PR121 GUM0455 \u2013 0630CEB 321",
+   "kind": "item",
+   "source": "AeroRoutes schedule filings",
+   "source_id": "aeroroutes",
+   "tier": 2,
+   "country": "GLOBAL",
+   "category": "aviation-tracker",
+   "segments": [
+    "city",
+    "bush",
+    "beach"
+   ],
+   "first_seen": "2026-09-15T21:00+03:00",
+   "published": "2026-09-15",
+   "verdict": "CONSIDER"
+  },
+  {
+   "score": 76.1,
    "components": {
     "tier": 40,
     "category": 24,
     "lead": 2.4,
     "relevance": 0,
-    "freshness": 19.8,
+    "freshness": 15.7,
     "undated": -6
    },
    "keywords": [],
@@ -616,13 +1234,13 @@
    "verdict": "CONSIDER"
   },
   {
-   "score": 80.2,
+   "score": 76.1,
    "components": {
     "tier": 40,
     "category": 24,
     "lead": 2.4,
     "relevance": 0,
-    "freshness": 19.8,
+    "freshness": 15.7,
     "undated": -6
    },
    "keywords": [],
@@ -649,13 +1267,13 @@
    "verdict": "CONSIDER"
   },
   {
-   "score": 80.2,
+   "score": 76.1,
    "components": {
     "tier": 40,
     "category": 24,
     "lead": 2.4,
     "relevance": 0,
-    "freshness": 19.8,
+    "freshness": 15.7,
     "undated": -6
    },
    "keywords": [],
@@ -682,13 +1300,13 @@
    "verdict": "CONSIDER"
   },
   {
-   "score": 80.2,
+   "score": 76.1,
    "components": {
     "tier": 40,
     "category": 24,
     "lead": 2.4,
     "relevance": 0,
-    "freshness": 19.8,
+    "freshness": 15.7,
     "undated": -6
    },
    "keywords": [],
@@ -715,13 +1333,13 @@
    "verdict": "CONSIDER"
   },
   {
-   "score": 80.2,
+   "score": 76.1,
    "components": {
     "tier": 40,
     "category": 24,
     "lead": 2.4,
     "relevance": 0,
-    "freshness": 19.8,
+    "freshness": 15.7,
     "undated": -6
    },
    "keywords": [],
@@ -748,13 +1366,13 @@
    "verdict": "CONSIDER"
   },
   {
-   "score": 80.2,
+   "score": 76.1,
    "components": {
     "tier": 40,
     "category": 24,
     "lead": 2.4,
     "relevance": 0,
-    "freshness": 19.8,
+    "freshness": 15.7,
     "undated": -6
    },
    "keywords": [],
@@ -779,660 +1397,6 @@
    "first_seen": "2026-09-15T17:21+03:00",
    "published": null,
    "verdict": "CONSIDER"
-  },
-  {
-   "score": 80.2,
-   "components": {
-    "tier": 40,
-    "category": 24,
-    "lead": 2.4,
-    "relevance": 0,
-    "freshness": 19.8,
-    "undated": -6
-   },
-   "keywords": [],
-   "shock_terms": [],
-   "dedupe_match": null,
-   "dedupe_similarity": 0.0,
-   "id": "afe4dafed3c0",
-   "title": "Health Workforce Management System",
-   "url": "https://www.moh.gov.rw/1/health-workforce-management-system",
-   "summary": "",
-   "kind": "item",
-   "source": "Rwanda MoH \u2014 news / EVD updates listing",
-   "source_id": "rw-moh-news",
-   "tier": 1,
-   "country": "RW",
-   "category": "health",
-   "segments": [
-    "city",
-    "bush",
-    "beach"
-   ],
-   "first_seen": "2026-09-15T17:21+03:00",
-   "published": null,
-   "verdict": "CONSIDER"
-  },
-  {
-   "score": 79.8,
-   "components": {
-    "tier": 20,
-    "category": 4,
-    "lead": 0.0,
-    "relevance": 8,
-    "freshness": 19.8,
-    "corroborated": 10,
-    "shock": 18
-   },
-   "keywords": [
-    "cyclone"
-   ],
-   "shock_terms": [
-    "cyclone"
-   ],
-   "dedupe_match": null,
-   "dedupe_similarity": 0.0,
-   "id": "88bfc49dc775",
-   "title": "Blind football: how Jimmy Innocent inspired Mubs to victory",
-   "url": "https://www.monitor.co.ug/uganda/sports/soccer/blind-football-how-jimmy-innocent-inspired-mubs-to-victory-5595672",
-   "summary": "Innocent scored the only goals as Mubs beat the 2023 champions Gulu Cyclones 2-0 in Group A",
-   "kind": "item",
-   "source": "Daily Monitor (Uganda)",
-   "source_id": "np-monitor-ug",
-   "tier": 2,
-   "country": "UG",
-   "category": "press",
-   "segments": [
-    "city",
-    "bush",
-    "beach"
-   ],
-   "first_seen": "2026-09-15T17:20+03:00",
-   "published": "2026-09-15",
-   "verdict": "CONSIDER"
-  },
-  {
-   "score": 79.0,
-   "components": {
-    "tier": 20,
-    "category": 14,
-    "lead": 8.4,
-    "relevance": 8,
-    "freshness": 18.6,
-    "corroborated": 10
-   },
-   "keywords": [
-    "airline",
-    "flight"
-   ],
-   "shock_terms": [],
-   "dedupe_match": null,
-   "dedupe_similarity": 0.0,
-   "id": "a019f1827039",
-   "title": "Air Moana Revises Planned Tikehau Service in NS27",
-   "url": "https://www.aeroroutes.com/eng/260915-nmns27tih",
-   "summary": "Published at 0300PDT / 1000GMT 15SEP26 Air Moana in recent months revised planned operation to Tikehau , a new destination set to join the airline\u2019s network in Northern summer 2027 season. The airline initially filed up to 6 weekly flights, however it has since reduced to 3 weekly. ATR72 aircraft to operate following routing. Papeete (Tahiti) \u2013 Fakarava \u2013 Tikehau \u2013 Papeete (Tahiti) eff 02APR27 1 w",
-   "kind": "item",
-   "source": "AeroRoutes schedule filings",
-   "source_id": "aeroroutes",
-   "tier": 2,
-   "country": "GLOBAL",
-   "category": "aviation-tracker",
-   "segments": [
-    "city",
-    "bush",
-    "beach"
-   ],
-   "first_seen": "2026-09-15T16:14+03:00",
-   "published": "2026-09-15",
-   "verdict": "CONSIDER"
-  },
-  {
-   "score": 75.0,
-   "components": {
-    "tier": 20,
-    "category": 14,
-    "lead": 8.4,
-    "relevance": 4,
-    "freshness": 18.6,
-    "corroborated": 10
-   },
-   "keywords": [
-    "flight"
-   ],
-   "shock_terms": [],
-   "dedupe_match": null,
-   "dedupe_similarity": 0.0,
-   "id": "a319f63e80b9",
-   "title": "Air Tahiti Oct 2026 One-Time Maupiti \u2013 Huahine Flight",
-   "url": "https://www.aeroroutes.com/eng/260915-vtoct26mauhuh",
-   "summary": "Published at 0200PDT / 0900GMT 15SEP26 Air Tahiti in October 2026 schedules one-time one-way service on Maupiti \u2013 Huahine sector, on board ATR42 aircraft. The full routing on 16OCT26 is Raiatea \u2013 Maupiti \u2013 Huahine \u2013 Papeete (Tahiti) . VT739 RFP0955 \u2013 1020MAU1040 \u2013 1110HUH1140 \u2013 1220PPT AT4",
-   "kind": "item",
-   "source": "AeroRoutes schedule filings",
-   "source_id": "aeroroutes",
-   "tier": 2,
-   "country": "GLOBAL",
-   "category": "aviation-tracker",
-   "segments": [
-    "city",
-    "bush",
-    "beach"
-   ],
-   "first_seen": "2026-09-15T16:14+03:00",
-   "published": "2026-09-15",
-   "verdict": "CONSIDER"
-  },
-  {
-   "score": 74.4,
-   "components": {
-    "tier": 20,
-    "category": 5,
-    "lead": 3.6,
-    "relevance": 16,
-    "freshness": 19.8,
-    "corroborated": 10
-   },
-   "keywords": [
-    "hotel",
-    "conference",
-    "guest",
-    "franc"
-   ],
-   "shock_terms": [],
-   "dedupe_match": null,
-   "dedupe_similarity": 0.0,
-   "id": "52da53415214",
-   "title": "Extended Stay America Hosts Annual Franchise Owners Conference",
-   "url": "https://www.hospitalitynet.org/news/4134381/extended-stay-america-hosts-annual-franchise-owners-conference",
-   "summary": "Extended Stay America's annual Dallas conference highlighted franchise growth since 2018, doubling its franchised hotel count, and recognized top-performing owners across operations, guest experience, and development.",
-   "kind": "item",
-   "source": "Hospitality Net \u2014 Africa announcements",
-   "source_id": "dev-hospitalitynet-africa",
-   "tier": 2,
-   "country": "REG",
-   "category": "trade",
-   "segments": [
-    "city",
-    "bush",
-    "beach"
-   ],
-   "first_seen": "2026-09-15T17:20+03:00",
-   "published": "2026-09-15",
-   "verdict": "CONSIDER"
-  },
-  {
-   "score": 74.4,
-   "components": {
-    "tier": 20,
-    "category": 5,
-    "lead": 3.6,
-    "relevance": 16,
-    "freshness": 19.8,
-    "corroborated": 10
-   },
-   "keywords": [
-    "eta",
-    "booking",
-    "guest"
-   ],
-   "shock_terms": [],
-   "dedupe_match": null,
-   "dedupe_similarity": 0.0,
-   "id": "f1343f52881f",
-   "title": "The audience for your guest reviews is no longer a guest",
-   "url": "https://www.hospitalitynet.org/opinion/4134376/the-audience-for-your-guest-reviews-is-no-longer-a-guest",
-   "summary": "AI systems on Booking.com, Google, and Tripadvisor now use guest reviews to answer queries and drive bookings, making specific, detailed reviews more valuable than star ratings.",
-   "kind": "item",
-   "source": "Hospitality Net \u2014 Africa announcements",
-   "source_id": "dev-hospitalitynet-africa",
-   "tier": 2,
-   "country": "REG",
-   "category": "trade",
-   "segments": [
-    "city",
-    "bush",
-    "beach"
-   ],
-   "first_seen": "2026-09-15T17:20+03:00",
-   "published": "2026-09-15",
-   "verdict": "CONSIDER"
-  },
-  {
-   "score": 74.4,
-   "components": {
-    "tier": 20,
-    "category": 5,
-    "lead": 3.6,
-    "relevance": 16,
-    "freshness": 19.8,
-    "corroborated": 10
-   },
-   "keywords": [
-    "adr",
-    "revpar"
-   ],
-   "shock_terms": [],
-   "dedupe_match": null,
-   "dedupe_similarity": 0.0,
-   "id": "0c5004755a3c",
-   "title": "Jan Freitag and Isaac Calazzo of CoStar & STR break down 2026 and 2027",
-   "url": "https://www.hospitalitynet.org/podcast/4134373/jan-freitag-and-isaac-calazzo-of-costar-str-break-down-2026-and-2027",
-   "summary": "CoStar's Jan Freitag and STR's Isaac Collazo break down why the 2026 RevPAR forecast jumped from 0.5% to 4.4%, the World Cup's ADR impact, and how to budget for a tough 2027 comp set.",
-   "kind": "item",
-   "source": "Hospitality Net \u2014 Africa announcements",
-   "source_id": "dev-hospitalitynet-africa",
-   "tier": 2,
-   "country": "REG",
-   "category": "trade",
-   "segments": [
-    "city",
-    "bush",
-    "beach"
-   ],
-   "first_seen": "2026-09-15T17:20+03:00",
-   "published": "2026-09-15",
-   "verdict": "CONSIDER"
-  },
-  {
-   "score": 72.6,
-   "components": {
-    "tier": 20,
-    "category": 4,
-    "lead": 0.0,
-    "relevance": 20,
-    "freshness": 18.6,
-    "corroborated": 10
-   },
-   "keywords": [
-    "cancel",
-    "operator",
-    "passenger"
-   ],
-   "shock_terms": [],
-   "dedupe_match": null,
-   "dedupe_similarity": 0.0,
-   "id": "60ae3c546646",
-   "title": "Suspected sabotage causes major Netherlands rail disruption",
-   "url": "https://dailynews.co.tz/suspected-sabotage-causes-major-netherlands-rail-disruption",
-   "summary": "AMSTERDAM: PARTS of the Netherlands, including Amsterdam, have been hit by major rail disruption after suspected sabotage to the tracks, the country\u2019s railway infrastructure operator has said. ProRail warned that passengers in the country\u2019s centre and north should expect cancellations and delays on Tuesday, while the closure of some level crossings could cause disruption to \u2026 The post Suspected sa",
-   "kind": "item",
-   "source": "Daily News (Tanzania)",
-   "source_id": "np-dailynews-tz",
-   "tier": 2,
-   "country": "TZ",
-   "category": "press",
-   "segments": [
-    "city",
-    "bush",
-    "beach"
-   ],
-   "first_seen": "2026-09-15T16:14+03:00",
-   "published": "2026-09-15",
-   "verdict": "CONSIDER"
-  },
-  {
-   "score": 70.4,
-   "components": {
-    "tier": 20,
-    "category": 5,
-    "lead": 3.6,
-    "relevance": 12,
-    "freshness": 19.8,
-    "corroborated": 10
-   },
-   "keywords": [
-    "vat",
-    "guest"
-   ],
-   "shock_terms": [],
-   "dedupe_match": null,
-   "dedupe_similarity": 0.0,
-   "id": "011f3d2a1d5f",
-   "title": "Not All Innovation Is On The Show Floor: UrVenue Invites Hospitality Leaders to an Open House During One of Las Vegas\u2019 Busiest Gaming Weeks",
-   "url": "https://www.hospitalitynet.org/news/4134357/not-all-innovation-is-on-the-show-floor-urvenue-invites-hospitality-leaders-to-an-open-house-during-one-of-las-vegas-busiest-gaming-weeks",
-   "summary": "UrVenue is hosting an interactive technology showcase at its new Las Vegas Strip HQ on Sept. 30, offering guided sessions on experience inventory, guest journey management, web design, and its OpenTable integration.",
-   "kind": "item",
-   "source": "Hospitality Net \u2014 Africa announcements",
-   "source_id": "dev-hospitalitynet-africa",
-   "tier": 2,
-   "country": "REG",
-   "category": "trade",
-   "segments": [
-    "city",
-    "bush",
-    "beach"
-   ],
-   "first_seen": "2026-09-15T17:20+03:00",
-   "published": "2026-09-15",
-   "verdict": "CONSIDER"
-  },
-  {
-   "score": 70.4,
-   "components": {
-    "tier": 20,
-    "category": 5,
-    "lead": 3.6,
-    "relevance": 12,
-    "freshness": 19.8,
-    "corroborated": 10
-   },
-   "keywords": [
-    "revpar",
-    "hotel"
-   ],
-   "shock_terms": [],
-   "dedupe_match": null,
-   "dedupe_similarity": 0.0,
-   "id": "69d201088188",
-   "title": "Rio de Janeiro hotels posted best August in 10 years",
-   "url": "https://www.hospitalitynet.org/news/4134382/rio-de-janeiro-hotels-posted-best-august-in-10-years",
-   "summary": "Rio de Janeiro hotels hit their highest August RevPAR since the 2016 Olympics, reaching BRL612.29, driven by the Copa Libertadores at Maracan\u00e3 and Festival Medio y Medio.",
-   "kind": "item",
-   "source": "Hospitality Net \u2014 Africa announcements",
-   "source_id": "dev-hospitalitynet-africa",
-   "tier": 2,
-   "country": "REG",
-   "category": "trade",
-   "segments": [
-    "city",
-    "bush",
-    "beach"
-   ],
-   "first_seen": "2026-09-15T17:20+03:00",
-   "published": "2026-09-15",
-   "verdict": "CONSIDER"
-  },
-  {
-   "score": 70.4,
-   "components": {
-    "tier": 20,
-    "category": 5,
-    "lead": 3.6,
-    "relevance": 12,
-    "freshness": 19.8,
-    "corroborated": 10
-   },
-   "keywords": [
-    "hotel",
-    "opening",
-    "rooms"
-   ],
-   "shock_terms": [],
-   "dedupe_match": null,
-   "dedupe_similarity": 0.0,
-   "id": "70dd0f58d741",
-   "title": "Hilton Signs 10 Spark by Hilton Hotels as UK Growth Gathers Pace",
-   "url": "https://www.hospitalitynet.org/news/4134379/hilton-signs-10-spark-by-hilton-hotels-as-uk-growth-gathers-pace",
-   "summary": "Hilton signs 10 Spark by Hilton hotels across England and Wales via a strategic deal with AG Hotels Group, adding 672 rooms in cities including Cardiff, Coventry and Derby, with openings expected from late 2026.",
-   "kind": "item",
-   "source": "Hospitality Net \u2014 Africa announcements",
-   "source_id": "dev-hospitalitynet-africa",
-   "tier": 2,
-   "country": "REG",
-   "category": "trade",
-   "segments": [
-    "city",
-    "bush",
-    "beach"
-   ],
-   "first_seen": "2026-09-15T17:20+03:00",
-   "published": "2026-09-15",
-   "verdict": "CONSIDER"
-  },
-  {
-   "score": 70.4,
-   "components": {
-    "tier": 20,
-    "category": 5,
-    "lead": 3.6,
-    "relevance": 12,
-    "freshness": 19.8,
-    "corroborated": 10
-   },
-   "keywords": [
-    "capacity",
-    "hotel"
-   ],
-   "shock_terms": [],
-   "dedupe_match": null,
-   "dedupe_similarity": 0.0,
-   "id": "8a72d46a000a",
-   "title": "Can Your Hotel Repeat Its Best Month",
-   "url": "https://www.hospitalitynet.org/opinion/4134377/can-your-hotel-repeat-its-best-month",
-   "summary": "This opinion piece argues that a strong financial period only proves past delivery, and sustainable performance requires alignment between revenue strategy, demand profile, cost structure, and operational capacity.",
-   "kind": "item",
-   "source": "Hospitality Net \u2014 Africa announcements",
-   "source_id": "dev-hospitalitynet-africa",
-   "tier": 2,
-   "country": "REG",
-   "category": "trade",
-   "segments": [
-    "city",
-    "bush",
-    "beach"
-   ],
-   "first_seen": "2026-09-15T17:20+03:00",
-   "published": "2026-09-15",
-   "verdict": "CONSIDER"
-  },
-  {
-   "score": 66.8,
-   "components": {
-    "tier": 20,
-    "category": 5,
-    "lead": 1.2,
-    "relevance": 12,
-    "freshness": 18.6,
-    "corroborated": 10
-   },
-   "keywords": [
-    "hotel",
-    "lodge",
-    "opening"
-   ],
-   "shock_terms": [],
-   "dedupe_match": null,
-   "dedupe_similarity": 0.0,
-   "id": "942b9a082d81",
-   "title": "Barry Sternlicht\u2019s Field & Stream Lodge Adds Two Hotels. Building the Brand Will Take Time.",
-   "url": "https://skift.com/2026/09/15/barry-sternlichts-field-stream-lodge-adds-two-hotels-building-the-brand-will-take-time",
-   "summary": "Field & Stream Lodge launched in 2023. Deals two and three are conversions in Bend and Big Bear, opening in 2028. Starwood Capital and AJ Capital say high capital costs are setting the pace for brand-building.",
-   "kind": "item",
-   "source": "Skift",
-   "source_id": "tp-skift",
-   "tier": 2,
-   "country": "GLOBAL",
-   "category": "trade",
-   "segments": [
-    "city",
-    "bush",
-    "beach"
-   ],
-   "first_seen": "2026-09-15T16:14+03:00",
-   "published": "2026-09-15",
-   "verdict": "weak"
-  },
-  {
-   "score": 66.6,
-   "components": {
-    "tier": 20,
-    "category": 4,
-    "lead": 0.0,
-    "relevance": 12,
-    "freshness": 18.6,
-    "undated": -6,
-    "shock": 18
-   },
-   "keywords": [
-    "outbreak"
-   ],
-   "shock_terms": [
-    "outbreak"
-   ],
-   "dedupe_match": null,
-   "dedupe_similarity": 0.0,
-   "id": "f209b8a93cc6",
-   "title": "Agric. & Environment Sheema lifts two-month livestock lockdown after anthrax outbreak",
-   "url": "https://www.newvision.co.ug/category/agriculture/sheema-lifts-two-month-livestock-lockdown-aft-NV_240642_092026",
-   "summary": "",
-   "kind": "item",
-   "source": "New Vision (Uganda)",
-   "source_id": "np-newvision-ug",
-   "tier": 2,
-   "country": "UG",
-   "category": "press",
-   "segments": [
-    "city",
-    "bush",
-    "beach"
-   ],
-   "first_seen": "2026-09-15T16:14+03:00",
-   "published": null,
-   "verdict": "weak"
-  },
-  {
-   "score": 66.4,
-   "components": {
-    "tier": 20,
-    "category": 5,
-    "lead": 3.6,
-    "relevance": 8,
-    "freshness": 19.8,
-    "corroborated": 10
-   },
-   "keywords": [
-    "hotel",
-    "guest"
-   ],
-   "shock_terms": [],
-   "dedupe_match": null,
-   "dedupe_similarity": 0.0,
-   "id": "5fff1222fbc5",
-   "title": "Six Warning Signs Your Independent Caribbean Hotel Has Outgrown Its PMS",
-   "url": "https://www.hospitalitynet.org/opinion/4134358/six-warning-signs-your-independent-caribbean-hotel-has-outgrown-its-pms",
-   "summary": "Six operational red flags, including front desk bottlenecks, manual workarounds, and reactive guest service, that signal an independent Caribbean hotel's PMS can no longer support its operation.",
-   "kind": "item",
-   "source": "Hospitality Net \u2014 Africa announcements",
-   "source_id": "dev-hospitalitynet-africa",
-   "tier": 2,
-   "country": "REG",
-   "category": "trade",
-   "segments": [
-    "city",
-    "bush",
-    "beach"
-   ],
-   "first_seen": "2026-09-15T17:20+03:00",
-   "published": "2026-09-15",
-   "verdict": "weak"
-  },
-  {
-   "score": 66.4,
-   "components": {
-    "tier": 20,
-    "category": 5,
-    "lead": 3.6,
-    "relevance": 8,
-    "freshness": 19.8,
-    "corroborated": 10
-   },
-   "keywords": [
-    "hotel",
-    "guest"
-   ],
-   "shock_terms": [],
-   "dedupe_match": null,
-   "dedupe_similarity": 0.0,
-   "id": "15844433ef91",
-   "title": "Agilysys to Spotlight the Power of a Connected Guest Ecosystem in the Age of AI at NoVacancy 2026",
-   "url": "https://www.hospitalitynet.org/news/4134359/agilysys-to-spotlight-the-power-of-a-connected-guest-ecosystem-in-the-age-of-ai-at-novacancy-2026",
-   "summary": "Agilysys SVP Frank Pitsikalis will lead a keynote and two panels at NoVacancy 2026 in Sydney, covering AI in hotel ops, evolving guest expectations, and ancillary revenue strategies.",
-   "kind": "item",
-   "source": "Hospitality Net \u2014 Africa announcements",
-   "source_id": "dev-hospitalitynet-africa",
-   "tier": 2,
-   "country": "REG",
-   "category": "trade",
-   "segments": [
-    "city",
-    "bush",
-    "beach"
-   ],
-   "first_seen": "2026-09-15T17:20+03:00",
-   "published": "2026-09-15",
-   "verdict": "weak"
-  },
-  {
-   "score": 66.4,
-   "components": {
-    "tier": 20,
-    "category": 5,
-    "lead": 3.6,
-    "relevance": 8,
-    "freshness": 19.8,
-    "corroborated": 10
-   },
-   "keywords": [
-    "hotel",
-    "conference"
-   ],
-   "shock_terms": [],
-   "dedupe_match": null,
-   "dedupe_similarity": 0.0,
-   "id": "125941f18fe3",
-   "title": "International Luxury Hotel Association Adds Culture, Wellness and AI Sessions to INSPIRE 2026 Agenda",
-   "url": "https://www.hospitalitynet.org/news/4134378/international-luxury-hotel-association-adds-culture-wellness-and-ai-sessions-to-inspire-2026-agenda",
-   "summary": "ILHA's INSPIRE 2026 conference, set for December 15-17 at JW Marriott Bonnet Creek in Orlando, adds sessions on AI ROI, wellness science, and human connection in luxury hospitality.",
-   "kind": "item",
-   "source": "Hospitality Net \u2014 Africa announcements",
-   "source_id": "dev-hospitalitynet-africa",
-   "tier": 2,
-   "country": "REG",
-   "category": "trade",
-   "segments": [
-    "city",
-    "bush",
-    "beach"
-   ],
-   "first_seen": "2026-09-15T17:20+03:00",
-   "published": "2026-09-15",
-   "verdict": "weak"
-  },
-  {
-   "score": 66.4,
-   "components": {
-    "tier": 20,
-    "category": 5,
-    "lead": 3.6,
-    "relevance": 8,
-    "freshness": 19.8,
-    "corroborated": 10
-   },
-   "keywords": [
-    "hotel",
-    "investment"
-   ],
-   "shock_terms": [],
-   "dedupe_match": null,
-   "dedupe_similarity": 0.0,
-   "id": "8a6f47fd8d1e",
-   "title": "New Study: APAC Hotel Investment Demands Active Management",
-   "url": "https://www.hospitalitynet.org/news/4134369/new-study-apac-hotel-investment-demands-active-management",
-   "summary": "APAC hotel transactions hit USD 17.0 billion in 2025, up 51.9%, as high construction and financing costs pushed investors toward acquiring and repositioning existing assets over new development.",
-   "kind": "item",
-   "source": "Hospitality Net \u2014 Africa announcements",
-   "source_id": "dev-hospitalitynet-africa",
-   "tier": 2,
-   "country": "REG",
-   "category": "trade",
-   "segments": [
-    "city",
-    "bush",
-    "beach"
-   ],
-   "first_seen": "2026-09-15T17:20+03:00",
-   "published": "2026-09-15",
-   "verdict": "weak"
   }
  ]
 }
