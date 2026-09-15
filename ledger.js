@@ -1,8 +1,8 @@
 window.LEDGER = {
- "updated": "2026-09-15 05:27",
+ "updated": "2026-09-15 16:19",
  "stats": {
-  "total": 185,
-  "open": 134,
+  "total": 187,
+  "open": 136,
   "resolved": 50,
   "correct": 39,
   "partial": 1,
@@ -683,6 +683,22 @@ window.LEDGER = {
    "overdue": false
   },
   {
+   "id": "P185",
+   "made_date": "2026-09-15",
+   "edition": "Evening Wrap",
+   "claim": "WHO's next Bundibugyo Disease Outbreak News for the DRC will report the affected-province count at SEVEN or more, confirming the seven-province figure ECDC carried on 14 September 2026 against WHO's own six-province count in DON617 of 10 September 2026",
+   "resolution_criteria": "The next Disease Outbreak News in the 2026 Bundibugyo series published by WHO at who.int/emergencies/disease-outbreak-news on or before 31 October 2026 stating that confirmed cases have been reported from SEVEN or more DRC provinces resolves the call CORRECT. A DON stating six or fewer provinces resolves it INCORRECT. No DON published in the series by 31 Oct 2026 leaves it unresolved and it rolls",
+   "resolve_by": "2026-10-31",
+   "market": "Regional",
+   "segment": "Bush|City",
+   "confidence": "Medium",
+   "status": "open",
+   "resolved_date": "",
+   "evidence": "",
+   "source_url": "https://www.ecdc.europa.eu/en/ebola-outbreak-democratic-republic-congo-and-uganda",
+   "overdue": false
+  },
+  {
    "id": "P128",
    "made_date": "2026-08-26",
    "edition": "pulse-2026-08-26-evening",
@@ -1224,6 +1240,22 @@ window.LEDGER = {
    "resolved_date": "",
    "evidence": "",
    "source_url": "https://www.afro.who.int/countries/kenya/news/kenya-strengthens-ebola-readiness-its-busiest-land-border",
+   "overdue": false
+  },
+  {
+   "id": "P186",
+   "made_date": "2026-09-15",
+   "edition": "Evening Wrap",
+   "claim": "Rwanda's Ministry of Health will NOT publicly revise, narrow to province-level geography, or lift its 22 May 2026 notice denying entry to foreign nationals who travelled to or transited the DRC within the previous 30 days, before 31 December 2026 - the notice has stood unamended through a fifteen-fold growth in DRC cases and through Uganda being declared outbreak-free",
+   "resolution_criteria": "A dated notice, press release or EVD update published by the Rwanda Ministry of Health (moh.gov.rw) or Rwanda Biomedical Centre on or before 31 December 2026 that lifts the 30-day DRC entry denial, replaces the country-level DRC reference with named provinces, or otherwise materially narrows the measure resolves the call INCORRECT. The measure standing in its 22 May 2026 country-level form at 31 December 2026 resolves it CORRECT",
+   "resolve_by": "2026-12-31",
+   "market": "Rwanda",
+   "segment": "City|Bush",
+   "confidence": "Medium",
+   "status": "open",
+   "resolved_date": "",
+   "evidence": "",
+   "source_url": "https://www.moh.gov.rw/news-detail/notice-on-enhanced-ebola-prevention-measures",
    "overdue": false
   },
   {

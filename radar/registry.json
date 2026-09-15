@@ -1,7 +1,7 @@
 {
  "version": 1,
- "updated": "2026-09-08",
- "note": "Upstream-weighted source registry for the EA Hospitality Pulse radar. tier 1 = primary/official, 2 = reputable secondary, 3 = weak (lead only, never publishable alone). lead_days = typical head start over mainstream coverage. Sources that fail repeatedly are surfaced by monitor.py rather than silently dropped. | 2026-08-20: added Ethiopia (ET) upstream sources as comparator — gazette, ECAA, NBE, ESS, Ethiopia Convention Bureau; Ethiopian Airlines already tracked (air-et). Enables promotion to a full sixth market once the radar records healthy observations. | 2026-09-08: added rw-bnr-mpc (BNR monetary policy statements) — the 26-27 Aug MPC decision taking Rwanda's policy rate to 8.75% did not surface on the radar because rw-bnr points at the BNR homepage and BNR is HTTP-blocked; the MPC page is a distinct, higher-signal observation.",
+ "updated": "2026-09-15",
+ "note": "Upstream-weighted source registry for the EA Hospitality Pulse radar. tier 1 = primary/official, 2 = reputable secondary, 3 = weak (lead only, never publishable alone). lead_days = typical head start over mainstream coverage. Sources that fail repeatedly are surfaced by monitor.py rather than silently dropped. | 2026-08-20: added Ethiopia (ET) upstream sources as comparator — gazette, ECAA, NBE, ESS, Ethiopia Convention Bureau; Ethiopian Airlines already tracked (air-et). Enables promotion to a full sixth market once the radar records healthy observations. | 2026-09-08: added rw-bnr-mpc (BNR monetary policy statements) — the 26-27 Aug MPC decision taking Rwanda's policy rate to 8.75% did not surface on the radar because rw-bnr points at the BNR homepage and BNR is HTTP-blocked; the MPC page is a distinct, higher-signal observation. | 2026-09-15 (evening): added rw-moh-news (Rwanda MoH news/EVD listing) as a distinct change-detection target — Rwanda's 22 May 2026 30-day DRC-transit entry denial is the region's most booking-relevant entry rule and needs a dated listing to watch, not a root page. Corrected the rw-moh transport note: the block is on the root/listing, not on article pages, which fetched cleanly today.",
  "sources": [
   {
    "id": "ke-gazette",
@@ -1378,7 +1378,7 @@
    "why": "Entry screening and DRC-border health measures — Rwanda moves first and hardest.",
    "frag": "",
    "transport": "agent-search",
-   "transport_note": "Blocked at the HTTP layer (403/Incapsula) since 28 Jul 2026. Worked via sweep/sweep_due.py on the agent search path. Do NOT re-point the URL on the strength of a crawler 403 — the URL is fine, the transport is not."
+   "transport_note": "Root page blocked at the HTTP layer (403/Incapsula) since 28 Jul 2026 and worked via sweep/sweep_due.py on the agent search path. CORRECTION 15 Sep 2026 (evening): the ARTICLE layer is NOT blocked - https://www.moh.gov.rw/news-detail/notice-on-enhanced-ebola-prevention-measures fetched cleanly. The block is on the root/listing, not on detail pages. Do NOT re-point the URL on the strength of a crawler 403."
   },
   {
    "id": "rw-rra",
@@ -4069,6 +4069,31 @@
    ],
    "why": "RURA sets Rwanda's controlled pump prices and distributor margins - the third of the region's three fuel mechanisms alongside EPRA (Kenya) and EWURA (Tanzania), and the only one we were not watching. Rwanda printed the region's highest transport inflation in August 2026 (+24.2% y/y, NISR) with no EA Pulse source able to explain the pass-through. Gap found on the 14 Sep 2026 fuel-divergence run.",
    "frag": ""
+  },
+  {
+   "id": "rw-moh-news",
+   "name": "Rwanda MoH — news / EVD updates listing",
+   "url": "https://www.moh.gov.rw/news",
+   "tier": 1,
+   "country": "RW",
+   "category": "health",
+   "method": "html",
+   "cadence_min": 120,
+   "lead_days": 2,
+   "segments": [
+    "city",
+    "bush",
+    "beach"
+   ],
+   "slots": [
+    "morning",
+    "midday",
+    "evening"
+   ],
+   "why": "The listing that dates Rwanda's EVD notices. Rwanda's 30-day DRC-transit entry denial (22 May 2026) is the single most booking-relevant entry rule in the region and the most recent EVD update on this list is 16 June 2026 — any new entry is the first real move on that measure. Added 15 Sep 2026 (evening) after the root source proved unusable for dating notices.",
+   "frag": "",
+   "transport": "agent-search",
+   "transport_note": "Detail pages fetch cleanly; the listing may 403 at the crawler. Recover via agent search on 'Rwanda Ministry of Health EVD update'."
   }
  ]
 }
