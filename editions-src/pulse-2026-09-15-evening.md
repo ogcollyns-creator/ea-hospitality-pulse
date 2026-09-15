@@ -9,7 +9,7 @@ A quiet news day. So here is the thing about Ebola this industry is measuring wr
 ━━━━━━━━━
 **1️⃣ THE NUMBER THAT PRICES YOUR Q4 IS NOT A CASE COUNT. IT IS MAP RESOLUTION.**
 
-DRC now stands at **7,200 confirmed cases and 3,475 deaths** on data to 12 September — up **258 cases and 126 deaths in two days** — with **62 of 167 health zones** affected across **seven** provinces *(ECDC, page updated 14 September 2026, 13:30)*. WHO's DON617 of **10 September** had it at 6,757 and 3,267 across **six** provinces on 7 September data. North Kivu, the province that touches Uganda and Rwanda, carries the outbreak's **highest case fatality ratio at 65.4%** and added **453 confirmed cases in 21 days** *(WHO DON617)*.
+DRC now stands at **7,200 confirmed cases and 3,475 deaths** on data to 12 September — up **258 cases and 126 deaths in two days** — with **62 of 167 health zones** affected across **seven** provinces *(DRC INSP SitRep N°122/MVEBDB/13/09/2026, via ECDC, page updated 14 September 2026)*. WHO's DON617 of **10 September** had it at 6,757 and 3,267 across **six** provinces on 7 September data. North Kivu, the province that touches Uganda and Rwanda, carries the outbreak's **highest case fatality ratio at 65.4%** and added **453 confirmed cases in 21 days** *(WHO DON617)*.
 
 Now the part operators miss. You are tracking your own country's case count. What prices your rooms is the granularity of somebody else's map.
 
@@ -42,7 +42,7 @@ Uganda has had no confirmed case since **21 June** and was declared outbreak-fre
 _Evening Wrap · Tue 15 Sep_
 
 📌 *YOU ARE WATCHING THE WRONG EBOLA NUMBER*
-DRC hit 7,200 cases and 3,475 deaths on 12 Sept data, now across seven provinces (ECDC, 14 Sept). But what moves your bookings is that every foreign restriction is written at *country* level, not province.
+DRC hit 7,200 cases and 3,475 deaths on 12 Sept data, now across seven provinces (DRC INSP SitRep 122, 13 Sept). But what moves your bookings is that every foreign restriction is written at *country* level, not province.
 
 → *Do this:* Ask your DMC one question — has any ministry moved to province-level language? That is the recovery signal, not the case count.
 
@@ -65,7 +65,7 @@ Usiku mwema.
 
 Uganda has not recorded a confirmed Ebola case since 21 June. WHO declared the outbreak over on 25 August, after the full 42-day countdown, with 20 cases and a 10% case fatality ratio. That is 86 days clean. Uganda is still named on foreign entry restrictions written in May.
 
-Meanwhile the epidemic that actually sets those restrictions is next door and getting worse. On data to 12 September, DRC stood at 7,200 confirmed cases and 3,475 deaths, with 923 patients hospitalised in isolation — an increase of 258 cases and 126 deaths in the two days since the previous report (ECDC, page updated 14 September 2026). Sixty-two of 167 health zones are affected, across seven provinces. WHO's Disease Outbreak News of 10 September, working from 7 September data, had 61 health zones across six.
+Meanwhile the epidemic that actually sets those restrictions is next door and getting worse. On data to 12 September, DRC stood at 7,200 confirmed cases and 3,475 deaths, with 923 patients hospitalised in isolation — an increase of 258 cases and 126 deaths in the two days since the previous report (DRC Institut National de Santé Publique, SitRep N°122/MVEBDB/13/09/2026, carried by ECDC, page updated 14 September 2026). Sixty-two of 167 health zones are affected, across seven provinces. WHO's Disease Outbreak News of 10 September, working from 7 September data, had 61 health zones across six.
 
 **THE SITUATION**
 
