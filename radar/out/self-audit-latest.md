@@ -1,18 +1,18 @@
-# EA Pulse self-audit — 2026-09-14T11:07+03:00 EAT
+# EA Pulse self-audit — 2026-09-15T11:02+03:00 EAT
 **Health 57% · grade D** — 3 FAIL, 3 WARN, 4 PASS
 
 | | Check | Status | Detail |
 |-|-|-|-|
-| 🔴 | source coverage | FAIL | 141 tier-1 sources: 102 HEALTHY, 21 MUTE, 18 SILENT. Blind examples: ke-tenders, ug-bou, tz-mnrt, tz-tanapa, tz-immigration, tz-tenders |
-| 🔴 | source staleness | FAIL | 50 tier-1 HEALTHY sources quiet >14d: ke-gazettes-africa, ke-tri, ke-tourism-ministry, ke-ktb-news, ke-tra, ke-tourism-fund, ke-kaa, ke-eta |
-| 🟢 | radar feed freshness | PASS | 152 in-window obs; newest observation 4.3h old (2026-09-14T06:52:00+03:00). |
-| 🔴 | edition cadence | FAIL | Missing slots (last 2 full days): 2026-09-13 morning, 2026-09-13 midday, 2026-09-12 morning, 2026-09-12 midday |
+| 🔴 | source coverage | FAIL | 142 tier-1 sources: 103 HEALTHY, 21 MUTE, 18 SILENT. Blind examples: ke-tenders, ug-bou, tz-mnrt, tz-tanapa, tz-immigration, tz-tenders |
+| 🔴 | source staleness | FAIL | 52 tier-1 HEALTHY sources quiet >14d: ke-gazettes-africa, ke-tri, ke-tourism-ministry, ke-ktb-news, ke-tra, ke-tourism-fund, ke-kaa, ke-eta |
+| 🟢 | radar feed freshness | PASS | 123 in-window obs; newest observation 0.7h old (2026-09-15T10:21:00+03:00). |
+| 🔴 | edition cadence | FAIL | Missing slots (last 2 full days): 2026-09-14 morning, 2026-09-14 midday, 2026-09-13 morning, 2026-09-13 midday |
 | 🟡 | signal quality | WARN | Only 0 tier-tagged editions in 7d — too few to judge. |
-| 🟢 | ledger hygiene | PASS | 179 calls: 132 open, 46 resolved. Overdue-open: 0. Missing source_url: 37. |
-| 🟡 | data freshness | WARN | Stale/again-verify: calendar.js 47d>21, pipeline.js 25d>21 |
-| 🟡 | rate-index integrity | WARN | n values seen: [0, 1, 2, 3, 4, 5]; confident true=92 false=16. |
-| 🟢 | forecast throughput | PASS | 19 new falsifiable calls logged in last 7d. |
-| 🟢 | published content | PASS | 3 recent editions; no advisory claim contradicts the board. |
+| 🟢 | ledger hygiene | PASS | 185 calls: 134 open, 50 resolved. Overdue-open: 0. Missing source_url: 37. |
+| 🟡 | data freshness | WARN | Stale/again-verify: calendar.js 48d>21, pipeline.js 26d>21 |
+| 🟡 | rate-index integrity | WARN | n values seen: [0, 1, 2, 3, 4, 5]; confident true=99 false=20. |
+| 🟢 | forecast throughput | PASS | 25 new falsifiable calls logged in last 7d. |
+| 🟢 | published content | PASS | 4 recent editions; no advisory claim contradicts the board. |
 
 ## Actions
 - **source coverage** (FAIL): Give each blind tier-1 source an RSS/feed URL or frag selector; validate on the runner.
