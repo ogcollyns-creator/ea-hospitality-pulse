@@ -28,7 +28,7 @@ Uganda has had no confirmed case since **21 June** and was declared outbreak-fre
 
 🎪 **MICE WATCH** — nothing newly confirmed today. Africa MICE Summit, Mombasa, **1–2 October**, still sits inside the fixable-fuel window.
 
-🔎 **Blind spots:** KCAA's eAIP and the Kenya Gazette portal again refused our crawler. Both recovered via mirrors on two queries each; nothing tourism-relevant in window.
+🔎 **Blind spots and provenance:** KCAA's eAIP and the Kenya Gazette portal again refused our crawler. Both recovered via mirrors on two queries each; nothing tourism-relevant in window. Africa CDC has published no September Epidemic Intelligence Weekly Report — the August edition is still the latest, so our continental read tonight rests on WHO and ECDC alone. For the record, our radar first observed DRC SitRep N°122 at 16:14 EAT today, three days after its 13 September date.
 
 💬 Has an agent asked you about Ebola this month — and did they name a country or a province?
 
