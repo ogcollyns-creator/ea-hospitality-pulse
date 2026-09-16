@@ -1,18 +1,18 @@
 {
- "generated": "2026-09-16T17:13:05+03:00",
+ "generated": "2026-09-16T21:03:57+03:00",
  "slot": "evening",
  "window_start": 1789552800,
- "observations_in_window": 161,
+ "observations_in_window": 311,
  "deduped_against": 4,
  "candidates": [
   {
-   "score": 109.1,
+   "score": 104.9,
    "components": {
     "tier": 40,
     "category": 24,
     "lead": 2.4,
     "relevance": 12,
-    "freshness": 18.7,
+    "freshness": 14.5,
     "undated": -6,
     "shock": 18
    },
@@ -43,13 +43,46 @@
    "verdict": "LEAD CANDIDATE \u2014 tier-1 shock language"
   },
   {
-   "score": 100.3,
+   "score": 101.3,
    "components": {
     "tier": 40,
     "category": 32,
     "lead": 3.6,
     "relevance": 0,
-    "freshness": 18.7,
+    "freshness": 19.7,
+    "corroborated": 10,
+    "page_change": -4
+   },
+   "keywords": [],
+   "shock_terms": [],
+   "dedupe_match": null,
+   "dedupe_similarity": 0.0,
+   "id": "562a9b51e8a7",
+   "title": "[page changed] Federal Register \u2014 public inspection (HHS/CDC), pre-publication",
+   "url": "https://www.federalregister.gov/api/v1/public-inspection-documents/current.json",
+   "summary": "{\"count\":73,\"results\":[{\"agencies\":[{\"raw_name\":\"FEDERAL DEPOSIT INSURANCE CORPORATION\",\"name\":\"Federal Deposit Insurance Corporation\",\"id\":164,\"url\":\"https://www.federalregister.gov/agencies/federal-deposit-insurance-corporation\",\"json_url\":\"https://www.federalregister.gov/api/v1/agencies/164\",\"parent_id\":null,\"slug\":\"federal-deposit-insurance-corporation\"}],\"agency_letters\":[],\"agency_names\":[\"F",
+   "kind": "page-change",
+   "source": "Federal Register \u2014 public inspection (HHS/CDC), pre-publication",
+   "source_id": "us-fedreg-pubinspect-hhs",
+   "tier": 1,
+   "country": "REG",
+   "category": "advisory",
+   "segments": [
+    "city",
+    "bush"
+   ],
+   "first_seen": "2026-09-16T21:00+03:00",
+   "published": "2026-09-15",
+   "verdict": "OPEN THIS \u2014 tier-1 advisory page moved; content not auto-parsed, read it manually"
+  },
+  {
+   "score": 96.1,
+   "components": {
+    "tier": 40,
+    "category": 32,
+    "lead": 3.6,
+    "relevance": 0,
+    "freshness": 14.5,
     "corroborated": 10,
     "page_change": -4
    },
@@ -76,13 +109,13 @@
    "verdict": "OPEN THIS \u2014 tier-1 advisory page moved; content not auto-parsed, read it manually"
   },
   {
-   "score": 64.3,
+   "score": 60.1,
    "components": {
     "tier": 40,
     "category": 12,
     "lead": 3.6,
     "relevance": 0,
-    "freshness": 18.7,
+    "freshness": 14.5,
     "undated": -6,
     "page_change": -4
    },
@@ -110,13 +143,13 @@
    "verdict": "OPEN THIS \u2014 tier-1 airline page moved; content not auto-parsed, read it manually"
   },
   {
-   "score": 103.1,
+   "score": 98.9,
    "components": {
     "tier": 40,
     "category": 18,
     "lead": 8.4,
     "relevance": 8,
-    "freshness": 18.7,
+    "freshness": 14.5,
     "corroborated": 10
    },
    "keywords": [
@@ -143,13 +176,48 @@
    "verdict": "STRONG \u2014 tier-1, upstream"
   },
   {
-   "score": 100.7,
+   "score": 97.3,
+   "components": {
+    "tier": 40,
+    "category": 32,
+    "lead": 3.6,
+    "relevance": 8,
+    "freshness": 19.7,
+    "undated": -6
+   },
+   "keywords": [
+    "election"
+   ],
+   "shock_terms": [],
+   "dedupe_match": null,
+   "dedupe_similarity": 0.0,
+   "id": "afb797b7e5b0",
+   "title": "Voting in U.S. Elections from Overseas",
+   "url": "https://ke.usembassy.gov/voting-in-u-s-elections-from-overseas-2",
+   "summary": "",
+   "kind": "item",
+   "source": "US Embassy Nairobi \u2014 travel advisory & alerts",
+   "source_id": "adv-us-embassy-kenya",
+   "tier": 1,
+   "country": "KE",
+   "category": "advisory",
+   "segments": [
+    "city",
+    "bush",
+    "beach"
+   ],
+   "first_seen": "2026-09-16T21:00+03:00",
+   "published": null,
+   "verdict": "STRONG \u2014 tier-1, upstream"
+  },
+  {
+   "score": 96.5,
    "components": {
     "tier": 40,
     "category": 20,
     "lead": 12.0,
     "relevance": 0,
-    "freshness": 18.7,
+    "freshness": 14.5,
     "corroborated": 10
    },
    "keywords": [],
@@ -176,13 +244,227 @@
    "verdict": "STRONG \u2014 tier-1, upstream"
   },
   {
-   "score": 95.1,
+   "score": 92.2,
+   "components": {
+    "tier": 40,
+    "category": 24,
+    "lead": 2.4,
+    "relevance": 12,
+    "freshness": 19.8,
+    "undated": -6
+   },
+   "keywords": [
+    "ebola"
+   ],
+   "shock_terms": [],
+   "dedupe_match": null,
+   "dedupe_similarity": 0.0,
+   "id": "bb7641c4f0e6",
+   "title": "Ebola Bundibugyo Virus Disease in the Democratic Republic of the Congo",
+   "url": "https://wwwnc.cdc.gov/travel/notices/level2/ebola-drc-uganda",
+   "summary": "",
+   "kind": "item",
+   "source": "US CDC travel health notices",
+   "source_id": "cdc-travel-notices",
+   "tier": 1,
+   "country": "GLOBAL",
+   "category": "health",
+   "segments": [
+    "city",
+    "bush",
+    "beach"
+   ],
+   "first_seen": "2026-09-16T21:01+03:00",
+   "published": null,
+   "verdict": "STRONG \u2014 tier-1, upstream"
+  },
+  {
+   "score": 91.5,
+   "components": {
+    "tier": 40,
+    "category": 17,
+    "lead": 16.8,
+    "relevance": 4,
+    "freshness": 19.7,
+    "undated": -6
+   },
+   "keywords": [
+    "tourism"
+   ],
+   "shock_terms": [],
+   "dedupe_match": null,
+   "dedupe_similarity": 0.0,
+   "id": "3ddc399e9ddc",
+   "title": "How can tourism SMEs respond to overtourism? Join the RESTORE Open Day",
+   "url": "https://transition-pathways.europa.eu/tourism/news/how-can-tourism-smes-respond-overtourism-join-restore-open-day",
+   "summary": "",
+   "kind": "item",
+   "source": "EU Tourism Transition Pathway \u2014 legislation & guidance",
+   "source_id": "eu-tourism-pathway",
+   "tier": 1,
+   "country": "REG",
+   "category": "regulator",
+   "segments": [
+    "bush",
+    "beach",
+    "city"
+   ],
+   "first_seen": "2026-09-16T21:00+03:00",
+   "published": null,
+   "verdict": "STRONG \u2014 tier-1, upstream"
+  },
+  {
+   "score": 91.5,
+   "components": {
+    "tier": 40,
+    "category": 17,
+    "lead": 16.8,
+    "relevance": 4,
+    "freshness": 19.7,
+    "undated": -6
+   },
+   "keywords": [
+    "tourism"
+   ],
+   "shock_terms": [],
+   "dedupe_match": null,
+   "dedupe_similarity": 0.0,
+   "id": "e5ff4da1bd90",
+   "title": "RESTORE Open Day: Training to help tackle overtourism",
+   "url": "https://transition-pathways.europa.eu/tourism/events/restore-open-day-training-help-tackle-overtourism",
+   "summary": "",
+   "kind": "item",
+   "source": "EU Tourism Transition Pathway \u2014 legislation & guidance",
+   "source_id": "eu-tourism-pathway",
+   "tier": 1,
+   "country": "REG",
+   "category": "regulator",
+   "segments": [
+    "bush",
+    "beach",
+    "city"
+   ],
+   "first_seen": "2026-09-16T21:00+03:00",
+   "published": null,
+   "verdict": "STRONG \u2014 tier-1, upstream"
+  },
+  {
+   "score": 91.5,
+   "components": {
+    "tier": 40,
+    "category": 9,
+    "lead": 16.8,
+    "relevance": 12,
+    "freshness": 19.7,
+    "undated": -6
+   },
+   "keywords": [
+    "hotel",
+    "resort",
+    "signing"
+   ],
+   "shock_terms": [],
+   "dedupe_match": null,
+   "dedupe_similarity": 0.0,
+   "id": "035800b4e479",
+   "title": "Minor Hotels Strengthens Southern India Presence with Anantara Jadcherla Hyderabad Resort Signing",
+   "url": "https://media.minorhotels.com/en-GLO/270862-minor-hotels-strengthens-southern-india-presence-with-anantara-jadcherla-hyderabad-resort-signing",
+   "summary": "",
+   "kind": "item",
+   "source": "Minor Hotels newsroom",
+   "source_id": "dev-minor",
+   "tier": 1,
+   "country": "GLOBAL",
+   "category": "hotel-group",
+   "segments": [
+    "beach"
+   ],
+   "first_seen": "2026-09-16T21:00+03:00",
+   "published": null,
+   "verdict": "STRONG \u2014 tier-1, upstream"
+  },
+  {
+   "score": 91.5,
+   "components": {
+    "tier": 40,
+    "category": 9,
+    "lead": 16.8,
+    "relevance": 12,
+    "freshness": 19.7,
+    "undated": -6
+   },
+   "keywords": [
+    "hotel",
+    "resort",
+    "signing"
+   ],
+   "shock_terms": [],
+   "dedupe_match": null,
+   "dedupe_similarity": 0.0,
+   "id": "996886f5636f",
+   "title": "Regent Hotels & Resorts to debut in French Polynesia with signing of Regent Bora Bora",
+   "url": "https://www.ihgplc.com/en/news-and-media/news-releases/2026/regent-hotels-and-resorts-to-debut-in-french-polynesia-with-signing-of-regent-bora-bora",
+   "summary": "",
+   "kind": "item",
+   "source": "IHG news",
+   "source_id": "dev-ihg",
+   "tier": 1,
+   "country": "GLOBAL",
+   "category": "hotel-group",
+   "segments": [
+    "city",
+    "bush",
+    "beach"
+   ],
+   "first_seen": "2026-09-16T21:00+03:00",
+   "published": null,
+   "verdict": "STRONG \u2014 tier-1, upstream"
+  },
+  {
+   "score": 91.5,
+   "components": {
+    "tier": 40,
+    "category": 9,
+    "lead": 16.8,
+    "relevance": 12,
+    "freshness": 19.7,
+    "undated": -6
+   },
+   "keywords": [
+    "hotel",
+    "resort",
+    "signing"
+   ],
+   "shock_terms": [],
+   "dedupe_match": null,
+   "dedupe_similarity": 0.17,
+   "id": "3c44e2af050c",
+   "title": "IHG Hotels & Resorts expands partnership with Urban Property Group through two landmark NSW signings",
+   "url": "https://www.ihgplc.com/en/news-and-media/news-releases/2026/ihg-hotels-and-resorts-expands-partnership-with-urban-property-group-through-two-landmark-nsw-signings",
+   "summary": "",
+   "kind": "item",
+   "source": "IHG news",
+   "source_id": "dev-ihg",
+   "tier": 1,
+   "country": "GLOBAL",
+   "category": "hotel-group",
+   "segments": [
+    "city",
+    "bush",
+    "beach"
+   ],
+   "first_seen": "2026-09-16T21:00+03:00",
+   "published": null,
+   "verdict": "STRONG \u2014 tier-1, upstream"
+  },
+  {
+   "score": 90.9,
    "components": {
     "tier": 40,
     "category": 32,
     "lead": 2.4,
     "relevance": 8,
-    "freshness": 18.7,
+    "freshness": 14.5,
     "undated": -6
    },
    "keywords": [
@@ -211,13 +493,13 @@
    "verdict": "STRONG \u2014 tier-1, upstream"
   },
   {
-   "score": 92.5,
+   "score": 88.3,
    "components": {
     "tier": 40,
     "category": 15,
     "lead": 16.8,
     "relevance": 8,
-    "freshness": 18.7,
+    "freshness": 14.5,
     "undated": -6
    },
    "keywords": [
@@ -243,16 +525,16 @@
    ],
    "first_seen": "2026-09-16T16:13+03:00",
    "published": null,
-   "verdict": "STRONG \u2014 tier-1, upstream"
+   "verdict": "CONSIDER"
   },
   {
-   "score": 92.4,
+   "score": 88.2,
    "components": {
     "tier": 20,
     "category": 5,
     "lead": 3.6,
     "relevance": 16,
-    "freshness": 19.8,
+    "freshness": 15.6,
     "corroborated": 10,
     "shock": 18
    },
@@ -285,13 +567,82 @@
    "verdict": "CONSIDER"
   },
   {
-   "score": 84.5,
+   "score": 87.5,
+   "components": {
+    "tier": 40,
+    "category": 9,
+    "lead": 16.8,
+    "relevance": 8,
+    "freshness": 19.7,
+    "undated": -6
+   },
+   "keywords": [
+    "hotel",
+    "resort"
+   ],
+   "shock_terms": [],
+   "dedupe_match": null,
+   "dedupe_similarity": 0.0,
+   "id": "d4daf1c9707c",
+   "title": "nhow Hotels & Resorts Unveils \u2018GAME:NXT by nhow\u2019 Across Europe",
+   "url": "https://media.minorhotels.com/en-GLO/270990-nhow-hotels-resorts-unveils-game-nxt-by-nhow-across-europe",
+   "summary": "",
+   "kind": "item",
+   "source": "Minor Hotels newsroom",
+   "source_id": "dev-minor",
+   "tier": 1,
+   "country": "GLOBAL",
+   "category": "hotel-group",
+   "segments": [
+    "beach"
+   ],
+   "first_seen": "2026-09-16T21:00+03:00",
+   "published": null,
+   "verdict": "CONSIDER"
+  },
+  {
+   "score": 81.5,
+   "components": {
+    "tier": 40,
+    "category": 7,
+    "lead": 16.8,
+    "relevance": 4,
+    "freshness": 19.7,
+    "undated": -6
+   },
+   "keywords": [
+    "hotel"
+   ],
+   "shock_terms": [],
+   "dedupe_match": null,
+   "dedupe_similarity": 0.0,
+   "id": "0e337c7a29d7",
+   "title": "Framework Agreement for Provision of Hotel Se...",
+   "url": "https://egpuganda.go.ug/index/398402770_egp",
+   "summary": "",
+   "kind": "item",
+   "source": "Uganda EGP portal",
+   "source_id": "ug-tenders",
+   "tier": 1,
+   "country": "UG",
+   "category": "tender",
+   "segments": [
+    "city",
+    "bush",
+    "beach"
+   ],
+   "first_seen": "2026-09-16T21:00+03:00",
+   "published": null,
+   "verdict": "CONSIDER"
+  },
+  {
+   "score": 80.3,
    "components": {
     "tier": 40,
     "category": 15,
     "lead": 16.8,
     "relevance": 0,
-    "freshness": 18.7,
+    "freshness": 14.5,
     "undated": -6
    },
    "keywords": [],
@@ -318,13 +669,13 @@
    "verdict": "CONSIDER"
   },
   {
-   "score": 82.8,
+   "score": 78.6,
    "components": {
     "tier": 40,
     "category": 7,
     "lead": 6.0,
     "relevance": 0,
-    "freshness": 19.8,
+    "freshness": 15.6,
     "corroborated": 10
    },
    "keywords": [],
@@ -349,13 +700,13 @@
    "verdict": "CONSIDER"
   },
   {
-   "score": 82.8,
+   "score": 78.6,
    "components": {
     "tier": 40,
     "category": 7,
     "lead": 6.0,
     "relevance": 0,
-    "freshness": 19.8,
+    "freshness": 15.6,
     "corroborated": 10
    },
    "keywords": [],
@@ -380,13 +731,13 @@
    "verdict": "CONSIDER"
   },
   {
-   "score": 82.8,
+   "score": 78.6,
    "components": {
     "tier": 40,
     "category": 7,
     "lead": 6.0,
     "relevance": 0,
-    "freshness": 19.8,
+    "freshness": 15.6,
     "corroborated": 10
    },
    "keywords": [],
@@ -411,13 +762,112 @@
    "verdict": "CONSIDER"
   },
   {
-   "score": 79.5,
+   "score": 77.5,
+   "components": {
+    "tier": 40,
+    "category": 7,
+    "lead": 16.8,
+    "relevance": 0,
+    "freshness": 19.7,
+    "undated": -6
+   },
+   "keywords": [],
+   "shock_terms": [],
+   "dedupe_match": null,
+   "dedupe_similarity": 0.0,
+   "id": "92677550d50a",
+   "title": "Framework Agreement for maintenance and servi...",
+   "url": "https://egpuganda.go.ug/index/399004492_egp",
+   "summary": "",
+   "kind": "item",
+   "source": "Uganda EGP portal",
+   "source_id": "ug-tenders",
+   "tier": 1,
+   "country": "UG",
+   "category": "tender",
+   "segments": [
+    "city",
+    "bush",
+    "beach"
+   ],
+   "first_seen": "2026-09-16T21:00+03:00",
+   "published": null,
+   "verdict": "CONSIDER"
+  },
+  {
+   "score": 77.5,
+   "components": {
+    "tier": 40,
+    "category": 7,
+    "lead": 16.8,
+    "relevance": 0,
+    "freshness": 19.7,
+    "undated": -6
+   },
+   "keywords": [],
+   "shock_terms": [],
+   "dedupe_match": null,
+   "dedupe_similarity": 0.0,
+   "id": "50b9c6bb9ec5",
+   "title": "Supply of assorted Office Furniture under 4 L...",
+   "url": "https://egpuganda.go.ug/index/397391796_egp",
+   "summary": "",
+   "kind": "item",
+   "source": "Uganda EGP portal",
+   "source_id": "ug-tenders",
+   "tier": 1,
+   "country": "UG",
+   "category": "tender",
+   "segments": [
+    "city",
+    "bush",
+    "beach"
+   ],
+   "first_seen": "2026-09-16T21:00+03:00",
+   "published": null,
+   "verdict": "CONSIDER"
+  },
+  {
+   "score": 77.5,
+   "components": {
+    "tier": 40,
+    "category": 7,
+    "lead": 16.8,
+    "relevance": 0,
+    "freshness": 19.7,
+    "undated": -6
+   },
+   "keywords": [],
+   "shock_terms": [],
+   "dedupe_match": null,
+   "dedupe_similarity": 0.0,
+   "id": "02c2fdf8e105",
+   "title": "Provision of web advertising services under f...",
+   "url": "https://egpuganda.go.ug/index/398834308_egp",
+   "summary": "",
+   "kind": "item",
+   "source": "Uganda EGP portal",
+   "source_id": "ug-tenders",
+   "tier": 1,
+   "country": "UG",
+   "category": "tender",
+   "segments": [
+    "city",
+    "bush",
+    "beach"
+   ],
+   "first_seen": "2026-09-16T21:00+03:00",
+   "published": null,
+   "verdict": "CONSIDER"
+  },
+  {
+   "score": 75.3,
    "components": {
     "tier": 40,
     "category": 10,
     "lead": 16.8,
     "relevance": 0,
-    "freshness": 18.7,
+    "freshness": 14.5,
     "undated": -6
    },
    "keywords": [],
@@ -444,13 +894,13 @@
    "verdict": "CONSIDER"
   },
   {
-   "score": 79.5,
+   "score": 75.3,
    "components": {
     "tier": 40,
     "category": 10,
     "lead": 16.8,
     "relevance": 0,
-    "freshness": 18.7,
+    "freshness": 14.5,
     "undated": -6
    },
    "keywords": [],
@@ -477,13 +927,13 @@
    "verdict": "CONSIDER"
   },
   {
-   "score": 79.5,
+   "score": 75.3,
    "components": {
     "tier": 40,
     "category": 10,
     "lead": 16.8,
     "relevance": 0,
-    "freshness": 18.7,
+    "freshness": 14.5,
     "undated": -6
    },
    "keywords": [],
@@ -510,13 +960,13 @@
    "verdict": "CONSIDER"
   },
   {
-   "score": 79.1,
+   "score": 74.9,
    "components": {
     "tier": 40,
     "category": 24,
     "lead": 2.4,
     "relevance": 0,
-    "freshness": 18.7,
+    "freshness": 14.5,
     "undated": -6
    },
    "keywords": [],
@@ -543,13 +993,13 @@
    "verdict": "CONSIDER"
   },
   {
-   "score": 79.1,
+   "score": 74.9,
    "components": {
     "tier": 40,
     "category": 24,
     "lead": 2.4,
     "relevance": 0,
-    "freshness": 18.7,
+    "freshness": 14.5,
     "undated": -6
    },
    "keywords": [],
@@ -576,13 +1026,13 @@
    "verdict": "CONSIDER"
   },
   {
-   "score": 79.1,
+   "score": 74.9,
    "components": {
     "tier": 40,
     "category": 24,
     "lead": 2.4,
     "relevance": 0,
-    "freshness": 18.7,
+    "freshness": 14.5,
     "undated": -6
    },
    "keywords": [],
@@ -609,13 +1059,13 @@
    "verdict": "CONSIDER"
   },
   {
-   "score": 78.9,
+   "score": 74.7,
    "components": {
     "tier": 20,
     "category": 5,
     "lead": 1.2,
     "relevance": 24,
-    "freshness": 18.7,
+    "freshness": 14.5,
     "corroborated": 10
    },
    "keywords": [
@@ -647,13 +1097,91 @@
    "verdict": "CONSIDER"
   },
   {
-   "score": 77.4,
+   "score": 74.0,
+   "components": {
+    "tier": 20,
+    "category": 5,
+    "lead": 1.2,
+    "relevance": 16,
+    "freshness": 19.8,
+    "undated": -6,
+    "shock": 18
+   },
+   "keywords": [
+    "flood",
+    "cyclone"
+   ],
+   "shock_terms": [
+    "cyclone"
+   ],
+   "dedupe_match": null,
+   "dedupe_similarity": 0.0,
+   "id": "21b50202f2af",
+   "title": "Mozambique Rebounds: Where the Country Stands for the Trade After 2026 Floods and Cyclones",
+   "url": "https://travelnews.africa/news-single.html?id=18403&title=Mozambique+Rebounds%3A+Where+the+Country+Stands+for+the+Trade+After+2026+Floods+and+Cyclones",
+   "summary": "",
+   "kind": "item",
+   "source": "travelnews.africa",
+   "source_id": "tp-travelnews-africa",
+   "tier": 2,
+   "country": "REG",
+   "category": "trade",
+   "segments": [
+    "city",
+    "bush",
+    "beach"
+   ],
+   "first_seen": "2026-09-16T21:01+03:00",
+   "published": null,
+   "verdict": "CONSIDER"
+  },
+  {
+   "score": 74.0,
+   "components": {
+    "tier": 20,
+    "category": 5,
+    "lead": 1.2,
+    "relevance": 16,
+    "freshness": 19.8,
+    "undated": -6,
+    "shock": 18
+   },
+   "keywords": [
+    "flood",
+    "cyclone"
+   ],
+   "shock_terms": [
+    "cyclone"
+   ],
+   "dedupe_match": null,
+   "dedupe_similarity": 0.0,
+   "id": "d0813e000910",
+   "title": "Mozambique Rebounds: Where the Country Stands for the Trade After 2026 Floods and Cyclones",
+   "url": "https://travelnews.africa/news-single.html?id=18403",
+   "summary": "",
+   "kind": "item",
+   "source": "travelnews.africa",
+   "source_id": "tp-travelnews-africa",
+   "tier": 2,
+   "country": "REG",
+   "category": "trade",
+   "segments": [
+    "city",
+    "bush",
+    "beach"
+   ],
+   "first_seen": "2026-09-16T21:01+03:00",
+   "published": null,
+   "verdict": "CONSIDER"
+  },
+  {
+   "score": 73.2,
    "components": {
     "tier": 40,
     "category": 12,
     "lead": 3.6,
     "relevance": 8,
-    "freshness": 19.8,
+    "freshness": 15.6,
     "undated": -6
    },
    "keywords": [
@@ -682,13 +1210,13 @@
    "verdict": "CONSIDER"
   },
   {
-   "score": 75.1,
+   "score": 70.9,
    "components": {
     "tier": 40,
     "category": 8,
     "lead": 2.4,
     "relevance": 12,
-    "freshness": 18.7,
+    "freshness": 14.5,
     "undated": -6
    },
    "keywords": [
@@ -718,13 +1246,13 @@
    "verdict": "CONSIDER"
   },
   {
-   "score": 74.4,
+   "score": 70.2,
    "components": {
     "tier": 20,
     "category": 5,
     "lead": 3.6,
     "relevance": 16,
-    "freshness": 19.8,
+    "freshness": 15.6,
     "corroborated": 10
    },
    "keywords": [
@@ -755,13 +1283,13 @@
    "verdict": "CONSIDER"
   },
   {
-   "score": 74.4,
+   "score": 70.2,
    "components": {
     "tier": 20,
     "category": 5,
     "lead": 3.6,
     "relevance": 16,
-    "freshness": 19.8,
+    "freshness": 15.6,
     "corroborated": 10
    },
    "keywords": [
@@ -792,13 +1320,13 @@
    "verdict": "CONSIDER"
   },
   {
-   "score": 72.7,
+   "score": 68.5,
    "components": {
     "tier": 20,
     "category": 4,
     "lead": 0.0,
     "relevance": 20,
-    "freshness": 18.7,
+    "freshness": 14.5,
     "corroborated": 10
    },
    "keywords": [
@@ -827,16 +1355,16 @@
    ],
    "first_seen": "2026-09-16T16:13+03:00",
    "published": "2026-09-16",
-   "verdict": "CONSIDER"
+   "verdict": "weak"
   },
   {
-   "score": 70.9,
+   "score": 66.7,
    "components": {
     "tier": 20,
     "category": 5,
     "lead": 1.2,
     "relevance": 16,
-    "freshness": 18.7,
+    "freshness": 14.5,
     "corroborated": 10
    },
    "keywords": [
@@ -863,543 +1391,6 @@
     "beach"
    ],
    "first_seen": "2026-09-16T16:13+03:00",
-   "published": "2026-09-16",
-   "verdict": "CONSIDER"
-  },
-  {
-   "score": 70.4,
-   "components": {
-    "tier": 20,
-    "category": 5,
-    "lead": 3.6,
-    "relevance": 12,
-    "freshness": 19.8,
-    "corroborated": 10
-   },
-   "keywords": [
-    "vat",
-    "hotel"
-   ],
-   "shock_terms": [],
-   "dedupe_match": null,
-   "dedupe_similarity": 0.0,
-   "id": "ac0308c0b0df",
-   "title": "Hapi and Upgrade Partner to Help Hotels Deploy Modern Payment Options at Scale with Flex Pay",
-   "url": "https://www.hospitalitynet.org/news/4134406/hapi-and-upgrade-partner-to-help-hotels-deploy-modern-payment-options-at-scale-with-flex-pay",
-   "summary": "Hapi and Upgrade's Flex Pay integration automates BNPL payment processing across reservation systems and PMS platforms, already live across thousands of hotels and billed as the first above-property payment automation in a global hotel chain.",
-   "kind": "item",
-   "source": "Hospitality Net \u2014 Africa announcements",
-   "source_id": "dev-hospitalitynet-africa",
-   "tier": 2,
-   "country": "REG",
-   "category": "trade",
-   "segments": [
-    "city",
-    "bush",
-    "beach"
-   ],
-   "first_seen": "2026-09-16T17:13+03:00",
-   "published": "2026-09-16",
-   "verdict": "CONSIDER"
-  },
-  {
-   "score": 66.4,
-   "components": {
-    "tier": 20,
-    "category": 5,
-    "lead": 3.6,
-    "relevance": 8,
-    "freshness": 19.8,
-    "corroborated": 10
-   },
-   "keywords": [
-    "hotel",
-    "operator"
-   ],
-   "shock_terms": [],
-   "dedupe_match": null,
-   "dedupe_similarity": 0.0,
-   "id": "09cb53bbf96d",
-   "title": "Hotel Sale and Leaseback: Is It Worth the Trade-Off?",
-   "url": "https://www.hospitalitynet.org/opinion/4134414/hotel-sale-and-leaseback-is-it-worth-the-trade-off",
-   "summary": "An analysis of the hotel sale leaseback model examining structural trade-offs, governance requirements, legal risks, and return structures for developers, operators, and unit owners.",
-   "kind": "item",
-   "source": "Hospitality Net \u2014 Africa announcements",
-   "source_id": "dev-hospitalitynet-africa",
-   "tier": 2,
-   "country": "REG",
-   "category": "trade",
-   "segments": [
-    "city",
-    "bush",
-    "beach"
-   ],
-   "first_seen": "2026-09-16T17:13+03:00",
-   "published": "2026-09-16",
-   "verdict": "weak"
-  },
-  {
-   "score": 66.4,
-   "components": {
-    "tier": 20,
-    "category": 5,
-    "lead": 3.6,
-    "relevance": 8,
-    "freshness": 19.8,
-    "corroborated": 10
-   },
-   "keywords": [
-    "hotel",
-    "rooms"
-   ],
-   "shock_terms": [],
-   "dedupe_match": null,
-   "dedupe_similarity": 0.0,
-   "id": "c6f96f5ce9ba",
-   "title": "Leonardo Hotels takes over four hotels in one go",
-   "url": "https://www.hospitalitynet.org/news/4134403/leonardo-hotels-takes-over-four-hotels-in-one-go",
-   "summary": "Leonardo Hotels Central Europe simultaneously acquires four former Revo Hotels across Berlin, D\u00fcsseldorf, and Dortmund, adding 1,328 rooms spanning its Leonardo Smart and Leonardo Royal brand concepts.",
-   "kind": "item",
-   "source": "Hospitality Net \u2014 Africa announcements",
-   "source_id": "dev-hospitalitynet-africa",
-   "tier": 2,
-   "country": "REG",
-   "category": "trade",
-   "segments": [
-    "city",
-    "bush",
-    "beach"
-   ],
-   "first_seen": "2026-09-16T17:13+03:00",
-   "published": "2026-09-16",
-   "verdict": "weak"
-  },
-  {
-   "score": 66.4,
-   "components": {
-    "tier": 20,
-    "category": 5,
-    "lead": 3.6,
-    "relevance": 8,
-    "freshness": 19.8,
-    "corroborated": 10
-   },
-   "keywords": [
-    "hotel",
-    "guest"
-   ],
-   "shock_terms": [],
-   "dedupe_match": null,
-   "dedupe_similarity": 0.0,
-   "id": "db175e029b25",
-   "title": "When Hotel AI Can Understand Both the Stay and the Spend",
-   "url": "https://www.hospitalitynet.org/news/4134402/when-hotel-ai-can-understand-both-the-stay-and-the-spend",
-   "summary": "The article examines how integrating PMS and POS data gives AI systems the combined context of guest stay and spend behavior to support real-time, event-driven operational decisions in hotels.",
-   "kind": "item",
-   "source": "Hospitality Net \u2014 Africa announcements",
-   "source_id": "dev-hospitalitynet-africa",
-   "tier": 2,
-   "country": "REG",
-   "category": "trade",
-   "segments": [
-    "city",
-    "bush",
-    "beach"
-   ],
-   "first_seen": "2026-09-16T17:13+03:00",
-   "published": "2026-09-16",
-   "verdict": "weak"
-  },
-  {
-   "score": 66.4,
-   "components": {
-    "tier": 20,
-    "category": 5,
-    "lead": 3.6,
-    "relevance": 8,
-    "freshness": 19.8,
-    "corroborated": 10
-   },
-   "keywords": [
-    "hotel",
-    "conference"
-   ],
-   "shock_terms": [],
-   "dedupe_match": null,
-   "dedupe_similarity": 0.0,
-   "id": "78aa4a8e28be",
-   "title": "HOSPA expands events portfolio with acquisition of leading industry conference",
-   "url": "https://www.hospitalitynet.org/news/4134400/hospa-expands-events-portfolio-with-acquisition-of-leading-industry-conference",
-   "summary": "HOSPA acquires the 20-year-old National Hotel Marketing Conference from Martin Evans, with the next edition scheduled for 27 May 2027 at Hilton at St George's Park.",
-   "kind": "item",
-   "source": "Hospitality Net \u2014 Africa announcements",
-   "source_id": "dev-hospitalitynet-africa",
-   "tier": 2,
-   "country": "REG",
-   "category": "trade",
-   "segments": [
-    "city",
-    "bush",
-    "beach"
-   ],
-   "first_seen": "2026-09-16T17:13+03:00",
-   "published": "2026-09-16",
-   "verdict": "weak"
-  },
-  {
-   "score": 64.7,
-   "components": {
-    "tier": 20,
-    "category": 4,
-    "lead": 0.0,
-    "relevance": 12,
-    "freshness": 18.7,
-    "corroborated": 10
-   },
-   "keywords": [
-    "advisory"
-   ],
-   "shock_terms": [],
-   "dedupe_match": null,
-   "dedupe_similarity": 0.0,
-   "id": "27bcdd85eabd",
-   "title": "Mchengerwa appoints Dr Rashid to chair TMDA\u2019s advisory board",
-   "url": "https://dailynews.co.tz/mchengerwa-appoints-dr-rashid-to-chair-tmdas-advisory-board",
-   "summary": "DODOMA: THE Minister for Health Mohamed Mchengerwa has appointed Dr Seif S. Rashid as Chairperson of the Tanzania Medicines and Medical Devices Authority (TMDA) Advisory Board. According to a statement issued by the Head of Government Communication Unit in Dodoma the minister\u2019s appointments were made under the powers vested in the minister by Section 6(4) \u2026 The post Mchengerwa appoints Dr Rashid t",
-   "kind": "item",
-   "source": "Daily News (Tanzania)",
-   "source_id": "np-dailynews-tz",
-   "tier": 2,
-   "country": "TZ",
-   "category": "press",
-   "segments": [
-    "city",
-    "bush",
-    "beach"
-   ],
-   "first_seen": "2026-09-16T16:13+03:00",
-   "published": "2026-09-16",
-   "verdict": "weak"
-  },
-  {
-   "score": 64.7,
-   "components": {
-    "tier": 20,
-    "category": 4,
-    "lead": 0.0,
-    "relevance": 12,
-    "freshness": 18.7,
-    "corroborated": 10
-   },
-   "keywords": [
-    "eta",
-    "investment"
-   ],
-   "shock_terms": [],
-   "dedupe_match": null,
-   "dedupe_similarity": 0.0,
-   "id": "0c727fe30b9d",
-   "title": "Tanzania banks on e-Delivery digital system to monitor projects, improve coordination and financing",
-   "url": "https://dailynews.co.tz/tanzania-banks-on-e-delivery-digital-system-to-monitor-projects-improve-coordination-and-financing",
-   "summary": "DAR ES SALAAM: THE Tanzanian government is strengthening the use of the e-Delivery digital system to monitor the implementation of development projects as part of efforts to improve coordination between planning, financing, implementation and project outcomes. Secretary-General in the President\u2019s Office for Planning and Investment, Dr Tausi Kida, said the system will capture project information \u2026 ",
-   "kind": "item",
-   "source": "Daily News (Tanzania)",
-   "source_id": "np-dailynews-tz",
-   "tier": 2,
-   "country": "TZ",
-   "category": "press",
-   "segments": [
-    "city",
-    "bush",
-    "beach"
-   ],
-   "first_seen": "2026-09-16T16:13+03:00",
-   "published": "2026-09-16",
-   "verdict": "weak"
-  },
-  {
-   "score": 64.7,
-   "components": {
-    "tier": 20,
-    "category": 4,
-    "lead": 0.0,
-    "relevance": 12,
-    "freshness": 18.7,
-    "corroborated": 10
-   },
-   "keywords": [
-    "tourism",
-    "exhibition",
-    "franc"
-   ],
-   "shock_terms": [],
-   "dedupe_match": null,
-   "dedupe_similarity": 0.17,
-   "id": "8b7f9bafcb84",
-   "title": "Tanzania uses IFTM Top Resa platform to promote its rich natural attractions, business opportunities",
-   "url": "https://dailynews.co.tz/tanzania-uses-iftm-top-resa-platform-to-promote-its-rich-natural-attractions-business-opportunities",
-   "summary": "DAR ES SALAAM: TANZANIA has stepped up efforts to promote its tourism attractions and expand business opportunities in the international market through its participation in the IFTM Top Resa 2026 tourism exhibition in Paris, France. According to information from the Ministry for Foreign Affairs and East African Cooperations, the exhibition, taking place from September 15 \u2026 The post Tanzania uses I",
-   "kind": "item",
-   "source": "Daily News (Tanzania)",
-   "source_id": "np-dailynews-tz",
-   "tier": 2,
-   "country": "TZ",
-   "category": "press",
-   "segments": [
-    "city",
-    "bush",
-    "beach"
-   ],
-   "first_seen": "2026-09-16T16:13+03:00",
-   "published": "2026-09-16",
-   "verdict": "weak"
-  },
-  {
-   "score": 64.7,
-   "components": {
-    "tier": 20,
-    "category": 4,
-    "lead": 0.0,
-    "relevance": 12,
-    "freshness": 18.7,
-    "corroborated": 10
-   },
-   "keywords": [
-    "electricity",
-    "investment"
-   ],
-   "shock_terms": [],
-   "dedupe_match": null,
-   "dedupe_similarity": 0.0,
-   "id": "fc95ae7b9dd3",
-   "title": "Adjumani West: Museveni boasts of key developments",
-   "url": "https://www.monitor.co.ug/uganda/news/national/adjumani-west-museveni-boasts-of-key-developments-5596718",
-   "summary": "Mr Museveni highlighted investment in roads, schools, health facilities and electricity.",
-   "kind": "item",
-   "source": "Daily Monitor (Uganda)",
-   "source_id": "np-monitor-ug",
-   "tier": 2,
-   "country": "UG",
-   "category": "press",
-   "segments": [
-    "city",
-    "bush",
-    "beach"
-   ],
-   "first_seen": "2026-09-16T16:13+03:00",
-   "published": "2026-09-16",
-   "verdict": "weak"
-  },
-  {
-   "score": 63.8,
-   "components": {
-    "tier": 5,
-    "category": 5,
-    "lead": 0.0,
-    "relevance": 24,
-    "freshness": 19.8,
-    "corroborated": 10
-   },
-   "keywords": [
-    "cancel",
-    "tourism",
-    "airline",
-    "flight"
-   ],
-   "shock_terms": [],
-   "dedupe_match": null,
-   "dedupe_similarity": 0.0,
-   "id": "ab1570a1d20f",
-   "title": "Africa: At 22nd Akwaaba, FTAN BoT Chair Agoha Advocates Airline Clearing House To End Flight Delays, Cancellations in Nigeria\u2019s Aviation Sector",
-   "url": "https://atqnews.com/africa-at-22nd-akwaaba-ftan-bot-chair-agoha-advocates-airline-clearing-house-to-end-flight-delays-cancellations-in-nigerias-aviation-sector",
-   "summary": "Chairman, Board of Trustees of the Federation of Tourism Associations of Nigeria, FTAN, Alhaji Aminu Agoha has called for the establishment of\u2026 The post Africa: At 22nd Akwaaba, FTAN BoT Chair Agoha Advocates Airline Clearing House To End Flight Delays, Cancellations in Nigeria\u2019s Aviation Sector appeared first on ATQ News .",
-   "kind": "item",
-   "source": "ATQ News",
-   "source_id": "tp-atqnews",
-   "tier": 3,
-   "country": "REG",
-   "category": "trade",
-   "segments": [
-    "city",
-    "bush",
-    "beach"
-   ],
-   "first_seen": "2026-09-16T17:13+03:00",
-   "published": "2026-09-16",
-   "verdict": "weak"
-  },
-  {
-   "score": 62.4,
-   "components": {
-    "tier": 20,
-    "category": 5,
-    "lead": 3.6,
-    "relevance": 4,
-    "freshness": 19.8,
-    "corroborated": 10
-   },
-   "keywords": [
-    "hotel"
-   ],
-   "shock_terms": [],
-   "dedupe_match": null,
-   "dedupe_similarity": 0.0,
-   "id": "4530ffd5d4a0",
-   "title": "How Hotels Source Linens and Amenities in Bulk: A Practical Guide for Operations and Procurement Managers",
-   "url": "https://www.hospitalitynet.org/opinion/4134416/how-hotels-source-linens-and-amenities-in-bulk-a-practical-guide-for-operations-and-procurement-managers",
-   "summary": "A practical guide for procurement and operations managers covering linen thread count specs by property tier, amenity kit decisions, par stock formulas, and supplier evaluation criteria for US hotels.",
-   "kind": "item",
-   "source": "Hospitality Net \u2014 Africa announcements",
-   "source_id": "dev-hospitalitynet-africa",
-   "tier": 2,
-   "country": "REG",
-   "category": "trade",
-   "segments": [
-    "city",
-    "bush",
-    "beach"
-   ],
-   "first_seen": "2026-09-16T17:13+03:00",
-   "published": "2026-09-16",
-   "verdict": "weak"
-  },
-  {
-   "score": 62.4,
-   "components": {
-    "tier": 20,
-    "category": 5,
-    "lead": 3.6,
-    "relevance": 4,
-    "freshness": 19.8,
-    "corroborated": 10
-   },
-   "keywords": [
-    "booking"
-   ],
-   "shock_terms": [],
-   "dedupe_match": null,
-   "dedupe_similarity": 0.0,
-   "id": "12564c84d56d",
-   "title": "Major US summer sporting events projected to drive more than $537M in visitor spending, Expedia Group and PredictHQ research finds",
-   "url": "https://www.hospitalitynet.org/news/4134412/major-us-summer-sporting-events-projected-to-drive-more-than-537m-in-visitor-spending-expedia-group-and-predicthq-research-finds",
-   "summary": "Expedia Group and PredictHQ research finds 18 major US summer sports events projected to draw 4M+ attendees, with $259M in accommodation spend and bookings averaging 62 days in advance.",
-   "kind": "item",
-   "source": "Hospitality Net \u2014 Africa announcements",
-   "source_id": "dev-hospitalitynet-africa",
-   "tier": 2,
-   "country": "REG",
-   "category": "trade",
-   "segments": [
-    "city",
-    "bush",
-    "beach"
-   ],
-   "first_seen": "2026-09-16T17:13+03:00",
-   "published": "2026-09-16",
-   "verdict": "weak"
-  },
-  {
-   "score": 62.4,
-   "components": {
-    "tier": 20,
-    "category": 5,
-    "lead": 3.6,
-    "relevance": 4,
-    "freshness": 19.8,
-    "corroborated": 10
-   },
-   "keywords": [
-    "hotel"
-   ],
-   "shock_terms": [],
-   "dedupe_match": null,
-   "dedupe_similarity": 0.0,
-   "id": "5885f088bfac",
-   "title": "IDS Next Celebrates Over 25 Years of Partnership with ITC Hotels",
-   "url": "https://www.hospitalitynet.org/news/4134409/ids-next-celebrates-over-25-years-of-partnership-with-itc-hotels",
-   "summary": "IDS Next marks 25+ years powering ITC Hotels' operations with its cloud-native, AI-enabled ERP platform covering front and back-end, wellness, and sales and catering functions.",
-   "kind": "item",
-   "source": "Hospitality Net \u2014 Africa announcements",
-   "source_id": "dev-hospitalitynet-africa",
-   "tier": 2,
-   "country": "REG",
-   "category": "trade",
-   "segments": [
-    "city",
-    "bush",
-    "beach"
-   ],
-   "first_seen": "2026-09-16T17:13+03:00",
-   "published": "2026-09-16",
-   "verdict": "weak"
-  },
-  {
-   "score": 62.4,
-   "components": {
-    "tier": 20,
-    "category": 5,
-    "lead": 3.6,
-    "relevance": 4,
-    "freshness": 19.8,
-    "corroborated": 10
-   },
-   "keywords": [
-    "hotel"
-   ],
-   "shock_terms": [],
-   "dedupe_match": null,
-   "dedupe_similarity": 0.0,
-   "id": "032d6f168d2a",
-   "title": "Radisson Hotel Group and GDS-Movement launch roadmap to help close the sustainability action gap",
-   "url": "https://www.hospitalitynet.org/news/4134408/radisson-hotel-group-and-gds-movement-launch-roadmap-to-help-close-the-sustainability-action-gap",
-   "summary": "Radisson Hotel Group and GDS-Movement have launched a practical guide for Associations and PCOs, addressing the gap where 66% see sustainability as a priority but fewer than 34% have embedded it into operations.",
-   "kind": "item",
-   "source": "Hospitality Net \u2014 Africa announcements",
-   "source_id": "dev-hospitalitynet-africa",
-   "tier": 2,
-   "country": "REG",
-   "category": "trade",
-   "segments": [
-    "city",
-    "bush",
-    "beach"
-   ],
-   "first_seen": "2026-09-16T17:13+03:00",
-   "published": "2026-09-16",
-   "verdict": "weak"
-  },
-  {
-   "score": 62.4,
-   "components": {
-    "tier": 20,
-    "category": 5,
-    "lead": 3.6,
-    "relevance": 4,
-    "freshness": 19.8,
-    "corroborated": 10
-   },
-   "keywords": [
-    "hotel"
-   ],
-   "shock_terms": [],
-   "dedupe_match": null,
-   "dedupe_similarity": 0.0,
-   "id": "0c3be6343c4a",
-   "title": "Is Old-Fashioned Human Customer Service Becoming a Competitive Advantage?",
-   "url": "https://www.hospitalitynet.org/opinion/4134405/is-old-fashioned-human-customer-service-becoming-a-competitive-advantage",
-   "summary": "Research shows 84% of U.S. customers say AI service should always include easy human access, suggesting hotels and businesses can differentiate by making human support a feature, not a fallback.",
-   "kind": "item",
-   "source": "Hospitality Net \u2014 Africa announcements",
-   "source_id": "dev-hospitalitynet-africa",
-   "tier": 2,
-   "country": "REG",
-   "category": "trade",
-   "segments": [
-    "city",
-    "bush",
-    "beach"
-   ],
-   "first_seen": "2026-09-16T17:13+03:00",
    "published": "2026-09-16",
    "verdict": "weak"
   }
