@@ -1,214 +1,324 @@
-# Radar candidates — morning slot
-_Window opens Tue 15 Sep 18:00 EAT · 387 observations in window · 4 headlines deduped against_
+# Radar candidates — midday slot
+_Window opens Wed 16 Sep 07:00 EAT · 158 observations in window · 4 headlines deduped against_
 
 Ranked by first-seen recency, source tier and hospitality relevance. `first seen` is when the radar observed the item, which is the date the recency gate runs on. `published` is what the source claims — where the two disagree, the disagreement is the story.
+
+### 🚨 [117.8] [page changed] Federal Register — CDC notices
+- **Verdict:** OPEN THIS — tier-1 advisory page moved; content not auto-parsed, read it manually
+- **Source:** Federal Register — CDC notices · tier 1 · REG · advisory
+- **First seen:** 2026-09-16T10:22+03:00 EAT · **Source date:** 2026-10-11
+- **URL:** https://www.federalregister.gov/api/v1/documents.rss?conditions%5Bagencies%5D%5B%5D=centers-for-disease-control-and-prevention&order=newest
+- **Extract:** Federal Register Documents published on or after 08/17/2026 and from Centers for Disease Control and Prevention https://www.federalregister.gov/api/v1/documents.rss?conditions%5Bagencies%5D%5B%5D=centers-for-disease-control-and-prevention&order=newest Wed, 16 
+- **Score parts:** tier +40, category +32, lead +12, relevance +8, freshness +19.8, corroborated +10, page_change -4
 
 ### 🚨 [101.4] [page changed] Federal Register — public inspection (HHS/CDC), pre-publication
 - **Verdict:** OPEN THIS — tier-1 advisory page moved; content not auto-parsed, read it manually
 - **Source:** Federal Register — public inspection (HHS/CDC), pre-publication · tier 1 · REG · advisory
-- **First seen:** 2026-09-16T03:01+03:00 EAT · **Source date:** 2026-09-15
+- **First seen:** 2026-09-16T10:22+03:00 EAT · **Source date:** 2026-09-15
 - **URL:** https://www.federalregister.gov/api/v1/public-inspection-documents/current.json
 - **Extract:** {"count":105,"results":[{"agencies":[{"raw_name":"Defense Department","name":"Defense Department","id":103,"url":"https://www.federalregister.gov/agencies/defense-department","json_url":"https://www.federalregister.gov/api/v1/agencies/103","parent_id":null,"sl
 - **Score parts:** tier +40, category +32, lead +3.6, relevance +0, freshness +19.8, corroborated +10, page_change -4
 
-### 🚨 [98.3] [page changed] Federal Register — public inspection (HHS/CDC), pre-publication
-- **Verdict:** OPEN THIS — tier-1 advisory page moved; content not auto-parsed, read it manually
-- **Source:** Federal Register — public inspection (HHS/CDC), pre-publication · tier 1 · REG · advisory
-- **First seen:** 2026-09-16T00:14+03:00 EAT · **Source date:** 2026-09-15
-- **URL:** https://www.federalregister.gov/api/v1/public-inspection-documents/current.json
-- **Extract:** {"count":105,"results":[{"agencies":[{"raw_name":"Defense Department","name":"Defense Department","id":103,"url":"https://www.federalregister.gov/agencies/defense-department","json_url":"https://www.federalregister.gov/api/v1/agencies/103","parent_id":null,"sl
-- **Score parts:** tier +40, category +32, lead +3.6, relevance +0, freshness +16.7, corroborated +10, page_change -4
-
-### 🚨 [94.7] [page changed] Federal Register — public inspection (HHS/CDC), pre-publication
-- **Verdict:** OPEN THIS — tier-1 advisory page moved; content not auto-parsed, read it manually
-- **Source:** Federal Register — public inspection (HHS/CDC), pre-publication · tier 1 · REG · advisory
-- **First seen:** 2026-09-15T21:00+03:00 EAT · **Source date:** 2026-09-15
-- **URL:** https://www.federalregister.gov/api/v1/public-inspection-documents/current.json
-- **Extract:** {"count":104,"results":[{"agencies":[{"raw_name":"Defense Department","name":"Defense Department","id":103,"url":"https://www.federalregister.gov/agencies/defense-department","json_url":"https://www.federalregister.gov/api/v1/agencies/103","parent_id":null,"sl
-- **Score parts:** tier +40, category +32, lead +3.6, relevance +0, freshness +13.1, corroborated +10, page_change -4
-
-### 🚨 [62.3] [page changed] Airlink news
-- **Verdict:** OPEN THIS — tier-1 airline page moved; content not auto-parsed, read it manually
-- **Source:** Airlink news · tier 1 · REG · airline
-- **First seen:** 2026-09-16T00:13+03:00 EAT · **Source date:** — none stated
-- **URL:** https://www.flyairlink.com/
-- **Extract:** Request unsuccessful. Incapsula incident ID: 605000351363203895-407481758072506600
-- **Score parts:** tier +40, category +12, lead +3.6, relevance +0, freshness +16.7, undated -6, page_change -4
-
-### 🟠 [90.1] Principal Engineer, Aerodrome Planning & Development
+### 🟠 [101.8] Business Premises Rent Tribunal – Daily Cause List – 15 September 2026
 - **Verdict:** STRONG — tier-1, upstream
-- **Source:** Uganda Civil Aviation Authority · tier 1 · UG · aviation
-- **First seen:** 2026-09-15T20:59+03:00 EAT · **Source date:** 2026-09-15
-- **URL:** https://caa.go.ug/principal-engineer-aerodrome-planning-development
-- **Extract:** Uganda Civil Aviation Authority (UCAA)- External Advertisement Uganda Civil Aviation Authority (UCAA) is a corporate body responsible for regulation of civil aviation in Uganda. It manages Entebbe International Airport (EIA) and thirteen (13) other upcountry a
-- **Score parts:** tier +40, category +13, lead +6, relevance +8, freshness +13.1, corroborated +10
+- **Source:** Kenya Gazette (Kenya Law) · tier 1 · KE · gazette
+- **First seen:** 2026-09-16T10:22+03:00 EAT · **Source date:** 2026-09-15
+- **URL:** https://new.kenyalaw.org/akn/ke/doc/cause-list-daily/kebprt/2026-09-15/1/eng@2026-09-15
+- **Extract:** Business Premises Rent Tribunal – Daily Cause List – 15 September 2026
+- **Score parts:** tier +40, category +20, lead +12, relevance +0, freshness +19.8, corroborated +10
 
-### 🟠 [90.1] Senior Civil Engineer, Aerodrome Planning & Development
+### 🟠 [101.8] Githunguri Law Courts – Daily Cause List – 15 September 2026
 - **Verdict:** STRONG — tier-1, upstream
-- **Source:** Uganda Civil Aviation Authority · tier 1 · UG · aviation
-- **First seen:** 2026-09-15T20:59+03:00 EAT · **Source date:** 2026-09-15
-- **URL:** https://caa.go.ug/senior-civil-engineer-aerodrome-planning-development
-- **Extract:** Uganda Civil Aviation Authority (UCAA)- External Advertisement Uganda Civil Aviation Authority (UCAA) is a corporate body responsible for regulation of civil aviation in Uganda. It manages Entebbe International Airport (EIA) and thirteen (13) other upcountry a
-- **Score parts:** tier +40, category +13, lead +6, relevance +8, freshness +13.1, corroborated +10
+- **Source:** Kenya Gazette (Kenya Law) · tier 1 · KE · gazette
+- **First seen:** 2026-09-16T10:22+03:00 EAT · **Source date:** 2026-09-15
+- **URL:** https://new.kenyalaw.org/akn/ke/doc/cause-list-daily/kemc/2026-09-15/1/eng@2026-09-15
+- **Extract:** Githunguri Law Courts – Daily Cause List – 15 September 2026
+- **Score parts:** tier +40, category +20, lead +12, relevance +0, freshness +19.8, corroborated +10
 
-### 🟠 [90.1] Civil Engineer, Aerodrome Planning & Development
+### 🟠 [101.8] Kibera Law Courts – Daily Cause List – 15 September 2026
 - **Verdict:** STRONG — tier-1, upstream
-- **Source:** Uganda Civil Aviation Authority · tier 1 · UG · aviation
-- **First seen:** 2026-09-15T20:59+03:00 EAT · **Source date:** 2026-09-15
-- **URL:** https://caa.go.ug/civil-engineer-aerodrome-planning-development
-- **Extract:** Uganda Civil Aviation Authority (UCAA)- External Advertisement Uganda Civil Aviation Authority (UCAA) is a corporate body responsible for regulation of civil aviation in Uganda. It manages Entebbe International Airport (EIA) and thirteen (13) other upcountry a
-- **Score parts:** tier +40, category +13, lead +6, relevance +8, freshness +13.1, corroborated +10
+- **Source:** Kenya Gazette (Kenya Law) · tier 1 · KE · gazette
+- **First seen:** 2026-09-16T10:22+03:00 EAT · **Source date:** 2026-09-15
+- **URL:** https://new.kenyalaw.org/akn/ke/doc/cause-list-daily/kemc/2026-09-15/2/eng@2026-09-15
+- **Extract:** Kibera Law Courts – Daily Cause List – 15 September 2026
+- **Score parts:** tier +40, category +20, lead +12, relevance +0, freshness +19.8, corroborated +10
 
-### 🟠 [90.1] Manager Marketing And Commercial Services
+### 🟠 [101.8] Employment and Labour Relations Court at Nairobi – Judicial Review and Labour Rights Division – Weekly Cause List – 16 S
 - **Verdict:** STRONG — tier-1, upstream
-- **Source:** Uganda Civil Aviation Authority · tier 1 · UG · aviation
-- **First seen:** 2026-09-15T20:59+03:00 EAT · **Source date:** 2026-09-15
-- **URL:** https://caa.go.ug/manager-marketing-and-commercial-services
-- **Extract:** Uganda Civil Aviation Authority (UCAA)- External Advertisement Uganda Civil Aviation Authority (UCAA) is a corporate body responsible for regulation of civil aviation in Uganda and management of Entebbe International Airport (EIA) and thirteen (13) other upcou
-- **Score parts:** tier +40, category +13, lead +6, relevance +8, freshness +13.1, corroborated +10
+- **Source:** Kenya Gazette (Kenya Law) · tier 1 · KE · gazette
+- **First seen:** 2026-09-16T10:22+03:00 EAT · **Source date:** 2026-09-16
+- **URL:** https://new.kenyalaw.org/akn/ke/doc/cause-list-weekly/keelrc/2026-09-16/1/eng@2026-09-16
+- **Extract:** Employment and Labour Relations Court at Nairobi – Judicial Review and Labour Rights Division – Weekly Cause List – 16 September 2026 to 17 September 2026
+- **Score parts:** tier +40, category +20, lead +12, relevance +0, freshness +19.8, corroborated +10
 
-### 🟡 [85.6] Qantas Converts Darwin – Singapore to Seasonal Service in 2026-27
-- **Verdict:** CONSIDER
-- **Source:** AeroRoutes schedule filings · tier 2 · GLOBAL · aviation-tracker
-- **First seen:** 2026-09-15T21:00+03:00 EAT · **Source date:** 2026-09-15
-- **URL:** https://www.aeroroutes.com/eng/260915-qfyr2627sin
-- **Extract:** Published at 1000PDT / 1700GMT 15SEP26 Qantas in recent schedule update filed service changes on Darwin – Singapore route, as the carrier cancelled service for Northern winter 2026/27 season from 25OCT26. During Northern summer 2027 season, Qantas will serve t
-- **Score parts:** tier +20, category +14, lead +8.4, relevance +20, freshness +13.2, corroborated +10
+### 🟠 [101.8] Employment and Labour Relations Court at Nairobi – Appeals Division – Daily Cause List – 16 September 2026 to 17 Septemb
+- **Verdict:** STRONG — tier-1, upstream
+- **Source:** Kenya Gazette (Kenya Law) · tier 1 · KE · gazette
+- **First seen:** 2026-09-16T10:22+03:00 EAT · **Source date:** 2026-09-16
+- **URL:** https://new.kenyalaw.org/akn/ke/doc/cause-list-daily/keelrc/2026-09-16/1/eng@2026-09-16
+- **Extract:** Employment and Labour Relations Court at Nairobi – Appeals Division – Daily Cause List – 16 September 2026 to 17 September 2026
+- **Score parts:** tier +40, category +20, lead +12, relevance +0, freshness +19.8, corroborated +10
 
-### 🟡 [85.6] Jetstar NW26 Trans-Tasman Network Changes
-- **Verdict:** CONSIDER
-- **Source:** AeroRoutes schedule filings · tier 2 · GLOBAL · aviation-tracker
-- **First seen:** 2026-09-15T21:00+03:00 EAT · **Source date:** 2026-09-15
-- **URL:** https://www.aeroroutes.com/eng/260915-jqnw26nz
-- **Extract:** Published at 0700PDT / 1400GMT 15SEP26 Jetstar Airways in recent schedule update filed additional network changes on Trans-Tasman route for Northern winter 2026/27 season, as the carrier cancels 2 routes, and resumes Sydney – Christchurch after 7-year hiatus. 
-- **Score parts:** tier +20, category +14, lead +8.4, relevance +20, freshness +13.2, corroborated +10
+### 🟠 [101.8] Githunguri Law Courts – Daily Cause List – 16 September 2026
+- **Verdict:** STRONG — tier-1, upstream
+- **Source:** Kenya Gazette (Kenya Law) · tier 1 · KE · gazette
+- **First seen:** 2026-09-16T10:22+03:00 EAT · **Source date:** 2026-09-16
+- **URL:** https://new.kenyalaw.org/akn/ke/doc/cause-list-daily/kemc/2026-09-16/1/eng@2026-09-16
+- **Extract:** Githunguri Law Courts – Daily Cause List – 16 September 2026
+- **Score parts:** tier +40, category +20, lead +12, relevance +0, freshness +19.8, corroborated +10
 
-### 🟡 [85.1] VietJet Air NW26 Melbourne Service Changes
-- **Verdict:** CONSIDER
-- **Source:** AeroRoutes schedule filings · tier 2 · GLOBAL · aviation-tracker
-- **First seen:** 2026-09-16T00:14+03:00 EAT · **Source date:** 2026-09-15
-- **URL:** https://www.aeroroutes.com/eng/260915-vjnw26mel
-- **Extract:** Published at 1100PDT / 1800GMT 15SEP26 VietJet Air in recent weeks filed service reductions on Ho Chi Minh City – Melbourne route during Northern winter 2026/27 season. From 25OCT26 to 27MAR27, the airline will maintain 5 weekly flights, instead of initially f
-- **Score parts:** tier +20, category +14, lead +8.4, relevance +16, freshness +16.7, corroborated +10
+### 🟠 [101.8] Kimilili Law Courts – Weekly Cause List – 21 September 2026 to 25 September 2026
+- **Verdict:** STRONG — tier-1, upstream
+- **Source:** Kenya Gazette (Kenya Law) · tier 1 · KE · gazette
+- **First seen:** 2026-09-16T10:22+03:00 EAT · **Source date:** 2026-09-21
+- **URL:** https://new.kenyalaw.org/akn/ke/doc/cause-list-weekly/kemc/2026-09-21/1/eng@2026-09-21
+- **Extract:** Kimilili Law Courts – Weekly Cause List – 21 September 2026 to 25 September 2026
+- **Score parts:** tier +40, category +20, lead +12, relevance +0, freshness +19.8, corroborated +10
 
-### 🟡 [84.9] HazCheckIn: turning guest check-in into an automatic compliance step
-- **Verdict:** CONSIDER
-- **Source:** EU Tourism Transition Pathway — legislation & guidance · tier 1 · REG · regulator
-- **First seen:** 2026-09-15T20:59+03:00 EAT · **Source date:** — none stated
-- **URL:** https://transition-pathways.europa.eu/tourism/best-practices/hazcheckin-turning-guest-check-automatic-compliance-step
-- **Score parts:** tier +40, category +17, lead +16.8, relevance +4, freshness +13.1, undated -6
+### 🟠 [101.8] High Court at Kibera – Daily Cause List – 16 September 2026
+- **Verdict:** STRONG — tier-1, upstream
+- **Source:** Kenya Gazette (Kenya Law) · tier 1 · KE · gazette
+- **First seen:** 2026-09-16T10:22+03:00 EAT · **Source date:** 2026-09-16
+- **URL:** https://new.kenyalaw.org/akn/ke/doc/cause-list-daily/kehc/2026-09-16/2/eng@2026-09-16
+- **Extract:** High Court at Kibera – Daily Cause List – 16 September 2026
+- **Score parts:** tier +40, category +20, lead +12, relevance +0, freshness +19.8, corroborated +10
 
-### 🟡 [84.5] Circular Economy Action Plan's
-- **Verdict:** CONSIDER
-- **Source:** European Commission — green claims / EmpCo · tier 1 · REG · regulator
-- **First seen:** 2026-09-16T00:13+03:00 EAT · **Source date:** — none stated
-- **URL:** https://environment.ec.europa.eu/strategy/circular-economy-action-plan_en
-- **Score parts:** tier +40, category +17, lead +16.8, relevance +0, freshness +16.7, undated -6
+### 🟠 [101.8] Environment and Land Court at Kericho – Weekly Cause List – 21 September 2026 to 24 September 2026
+- **Verdict:** STRONG — tier-1, upstream
+- **Source:** Kenya Gazette (Kenya Law) · tier 1 · KE · gazette
+- **First seen:** 2026-09-16T10:22+03:00 EAT · **Source date:** 2026-09-21
+- **URL:** https://new.kenyalaw.org/akn/ke/doc/cause-list-weekly/keelc/2026-09-21/1/eng@2026-09-21
+- **Extract:** Environment and Land Court at Kericho – Weekly Cause List – 21 September 2026 to 24 September 2026
+- **Score parts:** tier +40, category +20, lead +12, relevance +0, freshness +19.8, corroborated +10
 
-### 🟡 [84.5] Proposal on substantiation and communication of explicit environmental claims (Green Claims Directive)
-- **Verdict:** CONSIDER
-- **Source:** European Commission — green claims / EmpCo · tier 1 · REG · regulator
-- **First seen:** 2026-09-16T00:13+03:00 EAT · **Source date:** — none stated
-- **URL:** https://environment.ec.europa.eu/publications/proposal-directive-green-claims_en
-- **Score parts:** tier +40, category +17, lead +16.8, relevance +0, freshness +16.7, undated -6
+### 🟠 [101.8] Environment and Land Court at Kericho – Weekly Cause List – 28 September 2026 to 02 October 2026
+- **Verdict:** STRONG — tier-1, upstream
+- **Source:** Kenya Gazette (Kenya Law) · tier 1 · KE · gazette
+- **First seen:** 2026-09-16T10:22+03:00 EAT · **Source date:** 2026-09-28
+- **URL:** https://new.kenyalaw.org/akn/ke/doc/cause-list-weekly/keelc/2026-09-28/1/eng@2026-09-28
+- **Extract:** Environment and Land Court at Kericho – Weekly Cause List – 28 September 2026 to 02 October 2026
+- **Score parts:** tier +40, category +20, lead +12, relevance +0, freshness +19.8, corroborated +10
 
-### 🟡 [81.5] Democratic Republic of the Congo (DRC)
+### 🟠 [101.8] Merti Law Courts – Weekly Cause List – 21 September 2026 to 25 September 2026
+- **Verdict:** STRONG — tier-1, upstream
+- **Source:** Kenya Gazette (Kenya Law) · tier 1 · KE · gazette
+- **First seen:** 2026-09-16T10:22+03:00 EAT · **Source date:** 2026-09-21
+- **URL:** https://new.kenyalaw.org/akn/ke/doc/cause-list-weekly/kemc/2026-09-21/2/eng@2026-09-21
+- **Extract:** Merti Law Courts – Weekly Cause List – 21 September 2026 to 25 September 2026
+- **Score parts:** tier +40, category +20, lead +12, relevance +0, freshness +19.8, corroborated +10
+
+### 🟠 [101.8] Sereolipi Mobile Courts – Weekly Cause List – 23 September 2026 to 25 September 2026
+- **Verdict:** STRONG — tier-1, upstream
+- **Source:** Kenya Gazette (Kenya Law) · tier 1 · KE · gazette
+- **First seen:** 2026-09-16T10:22+03:00 EAT · **Source date:** 2026-09-23
+- **URL:** https://new.kenyalaw.org/akn/ke/doc/cause-list-weekly/kemc/2026-09-23/1/eng@2026-09-23
+- **Extract:** Sereolipi Mobile Courts – Weekly Cause List – 23 September 2026 to 25 September 2026
+- **Score parts:** tier +40, category +20, lead +12, relevance +0, freshness +19.8, corroborated +10
+
+### 🟠 [99.8] Kenya Gazette Vol. CXXVIII-No. 164
+- **Verdict:** STRONG — tier-1, upstream
+- **Source:** Kenya Gazette (Kenya Law) · tier 1 · KE · gazette
+- **First seen:** 2026-09-16T10:22+03:00 EAT · **Source date:** 2026-09-14
+- **URL:** https://new.kenyalaw.org/akn/ke/officialGazette/2026-09-14/164/eng@2026-09-14
+- **Extract:** Kenya Gazette Vol. CXXVIII-No. 164
+- **Score parts:** tier +40, category +20, lead +12, relevance +8, freshness +19.8
+
+### 🟡 [97.8] Doshi Enterprises Ltd v Commissioner of Investigation and Enforcement (Tax Appeal E775 of 2025) [2026] KETAT 350 (KLR) (
 - **Verdict:** CHECK — source date older than the window
-- **Source:** ECDC — DRC/Uganda Ebola outbreak page · tier 1 · GLOBAL · health
-- **First seen:** 2026-09-15T21:00+03:00 EAT · **Source date:** 2026-09-13
-- **URL:** https://insp.cd/wp-content/uploads/2026/09/SitRep_MVEBDB_122_13_09_2026.pdf
-- **Extract:** 1 fr-FR fr-FR fr-FR fr-FRRapport de Situation de la 17ème Épidémie de la Maladie à Virus EBOLA /RDC fr-FR fr-FRSitRep N°122/MVEBDB/13/09/2026 fr-FR Date de rapportage : 13 septembre 2026 Date de publication : 14 septembre 2026 fr-FR fr-FR fr-FR fr-FR fr-FR fr-
-- **Score parts:** tier +40, category +24, lead +2.4, relevance +12, freshness +13.1, stale_trap -10
+- **Source:** Kenya Gazette (Kenya Law) · tier 1 · KE · gazette
+- **First seen:** 2026-09-16T10:22+03:00 EAT · **Source date:** 2026-09-11
+- **URL:** https://new.kenyalaw.org/akn/ke/judgment/ketat/2026/350/eng@2026-09-11
+- **Extract:** Doshi Enterprises Ltd v Commissioner of Investigation and Enforcement (Tax Appeal E775 of 2025) [2026] KETAT 350 (KLR) (11 September 2026) (Judgment)
+- **Score parts:** tier +40, category +20, lead +12, relevance +16, freshness +19.8, stale_trap -10
 
-### 🟡 [77.5] 𝐒𝐞𝐧𝐚𝐭𝐨𝐫𝐬 𝐇𝐚𝐥𝐭 𝐇𝐞𝐚𝐫𝐢𝐧𝐠 𝐨𝐧 𝐊𝐞𝐧𝐲𝐚𝐧𝐬 𝐑𝐞𝐜𝐫𝐮𝐢𝐭𝐞𝐝 𝐢𝐧𝐭𝐨 𝐅𝐨𝐫𝐞𝐢𝐠𝐧 𝐌𝐢𝐥𝐢𝐭𝐚𝐫𝐲 𝐒𝐞𝐫𝐯𝐢𝐜𝐞, 𝐃𝐞𝐦𝐚𝐧𝐝 𝐂𝐒𝐬’ 𝐀𝐩𝐩𝐞𝐚𝐫𝐚𝐧𝐜𝐞
-- **Verdict:** CONSIDER
-- **Source:** Parliament of Kenya — bills & papers · tier 1 · KE · legislature
-- **First seen:** 2026-09-16T00:13+03:00 EAT · **Source date:** — none stated
-- **URL:** https://www.parliament.go.ke/node/26397
-- **Score parts:** tier +40, category +10, lead +16.8, relevance +0, freshness +16.7, undated -6
+### 🟡 [97.8] CMEC Africa Development Ltd v Commissioner of Domestic Taxes (Tax Appeal E378 of 2026) [2026] KETAT 348 (KLR) (11 Septem
+- **Verdict:** CHECK — source date older than the window
+- **Source:** Kenya Gazette (Kenya Law) · tier 1 · KE · gazette
+- **First seen:** 2026-09-16T10:22+03:00 EAT · **Source date:** 2026-09-11
+- **URL:** https://new.kenyalaw.org/akn/ke/judgment/ketat/2026/348/eng@2026-09-11
+- **Extract:** CMEC Africa Development Ltd v Commissioner of Domestic Taxes (Tax Appeal E378 of 2026) [2026] KETAT 348 (KLR) (11 September 2026) (Judgment)
+- **Score parts:** tier +40, category +20, lead +12, relevance +16, freshness +19.8, stale_trap -10
 
-### 🟡 [77.5] Gulu Hospital manual payroll dampens MPs' spirits Tuesday, 15 September 2026
-- **Verdict:** CONSIDER
-- **Source:** Parliament of Uganda · tier 1 · UG · legislature
-- **First seen:** 2026-09-16T00:13+03:00 EAT · **Source date:** — none stated
-- **URL:** https://www.parliament.go.ug/news/4619/gulu-hospital-manual-payroll-dampens-mps-spirits
-- **Score parts:** tier +40, category +10, lead +16.8, relevance +0, freshness +16.7, undated -6
+### 🟡 [97.8] Coca-Cola Beverages Ltd v Commissioner of Domestic Taxes (Tax Appeal E146 of 2026) [2026] KETAT 346 (KLR) (11 September 
+- **Verdict:** CHECK — source date older than the window
+- **Source:** Kenya Gazette (Kenya Law) · tier 1 · KE · gazette
+- **First seen:** 2026-09-16T10:22+03:00 EAT · **Source date:** 2026-09-11
+- **URL:** https://new.kenyalaw.org/akn/ke/judgment/ketat/2026/346/eng@2026-09-11
+- **Extract:** Coca-Cola Beverages Ltd v Commissioner of Domestic Taxes (Tax Appeal E146 of 2026) [2026] KETAT 346 (KLR) (11 September 2026) (Judgment)
+- **Score parts:** tier +40, category +20, lead +12, relevance +16, freshness +19.8, stale_trap -10
 
-### 🟡 [77.5] Govt to roll out $328m DRDIP II in October Tuesday, 15 September 2026
-- **Verdict:** CONSIDER
-- **Source:** Parliament of Uganda · tier 1 · UG · legislature
-- **First seen:** 2026-09-16T00:13+03:00 EAT · **Source date:** — none stated
-- **URL:** https://www.parliament.go.ug/news/4618/govt-roll-out-328m-drdip-ii-october
-- **Score parts:** tier +40, category +10, lead +16.8, relevance +0, freshness +16.7, undated -6
+### 🟡 [97.8] Habanera Ventures Ltd v Commissioner of Customs & Boarder Control (Tax Appeal E1242 of 2025) [2026] KETAT 345 (KLR) (11 
+- **Verdict:** CHECK — source date older than the window
+- **Source:** Kenya Gazette (Kenya Law) · tier 1 · KE · gazette
+- **First seen:** 2026-09-16T10:22+03:00 EAT · **Source date:** 2026-09-11
+- **URL:** https://new.kenyalaw.org/akn/ke/judgment/ketat/2026/345/eng@2026-09-11
+- **Extract:** Habanera Ventures Ltd v Commissioner of Customs & Boarder Control (Tax Appeal E1242 of 2025) [2026] KETAT 345 (KLR) (11 September 2026) (Judgment)
+- **Score parts:** tier +40, category +20, lead +12, relevance +16, freshness +19.8, stale_trap -10
 
-### 🟡 [77.5] Resources hinder OAG in audit of 11,000 entities Tuesday, 15 September 2026
-- **Verdict:** CONSIDER
-- **Source:** Parliament of Uganda · tier 1 · UG · legislature
-- **First seen:** 2026-09-16T00:13+03:00 EAT · **Source date:** — none stated
-- **URL:** https://www.parliament.go.ug/news/4617/resources-hinder-oag-audit-11000-entities
-- **Score parts:** tier +40, category +10, lead +16.8, relevance +0, freshness +16.7, undated -6
+### 🟡 [97.8] Horizons Group Ltd v Commissioner of Legal Services & Board Coordination (Tax Appeal E939 of 2026) [2026] KETAT 344 (KLR
+- **Verdict:** CHECK — source date older than the window
+- **Source:** Kenya Gazette (Kenya Law) · tier 1 · KE · gazette
+- **First seen:** 2026-09-16T10:22+03:00 EAT · **Source date:** 2026-09-11
+- **URL:** https://new.kenyalaw.org/akn/ke/judgment/ketat/2026/344/eng@2026-09-11
+- **Extract:** Horizons Group Ltd v Commissioner of Legal Services & Board Coordination (Tax Appeal E939 of 2026) [2026] KETAT 344 (KLR) (11 September 2026) (Ruling)
+- **Score parts:** tier +40, category +20, lead +12, relevance +16, freshness +19.8, stale_trap -10
 
-### 🟡 [77.5] Speaker Oboth pledges to deepen Parliamentary Relations with Pakistan Tuesday, 15 September 2026
-- **Verdict:** CONSIDER
-- **Source:** Parliament of Uganda · tier 1 · UG · legislature
-- **First seen:** 2026-09-16T00:13+03:00 EAT · **Source date:** — none stated
-- **URL:** https://www.parliament.go.ug/news/4616/speaker-oboth-pledges-deepen-parliamentary-relations-pakistan
-- **Score parts:** tier +40, category +10, lead +16.8, relevance +0, freshness +16.7, undated -6
+### 🟡 [97.8] Melly and Lelly General Contractors v Commissioner for Domestic Taxes (Tax Appeal E1419 of 2025) [2026] KETAT 343 (KLR) 
+- **Verdict:** CHECK — source date older than the window
+- **Source:** Kenya Gazette (Kenya Law) · tier 1 · KE · gazette
+- **First seen:** 2026-09-16T10:22+03:00 EAT · **Source date:** 2026-09-11
+- **URL:** https://new.kenyalaw.org/akn/ke/judgment/ketat/2026/343/eng@2026-09-11
+- **Extract:** Melly and Lelly General Contractors v Commissioner for Domestic Taxes (Tax Appeal E1419 of 2025) [2026] KETAT 343 (KLR) (11 September 2026) (Judgment)
+- **Score parts:** tier +40, category +20, lead +12, relevance +16, freshness +19.8, stale_trap -10
 
-### 🟡 [74.9] Gardening, Garden designing and landscaping -...
-- **Verdict:** CONSIDER
-- **Source:** Uganda EGP portal · tier 1 · UG · tender
-- **First seen:** 2026-09-15T20:59+03:00 EAT · **Source date:** — none stated
-- **URL:** https://egpuganda.go.ug/index/398117104_egp
-- **Score parts:** tier +40, category +7, lead +16.8, relevance +4, freshness +13.1, undated -6
+### 🟠 [95.0] MINISTRY OF HEALTH CALLS FOR STRONGER PATIENT SAFETY MEASURES AS NON-COMMUNICABLE BURDEN RISES.
+- **Verdict:** STRONG — tier-1, upstream
+- **Source:** Uganda Ministry of Health — news · tier 1 · UG · health
+- **First seen:** 2026-09-16T10:22+03:00 EAT · **Source date:** 2026-09-15
+- **URL:** https://health.go.ug/ministry-of-health-calls-for-stronger-patient-safety-measures-as-non-communicable-burden-rises
+- **Extract:** 15th September 2026, Kampala — The Ministry of Health has called for stronger patient safety measures across Uganda’s health system, with particular emphasis on the prevention, early detection, and effective management of Non-Communicable Diseases (NCDs). The 
+- **Score parts:** tier +40, category +24, lead +1.2, relevance +0, freshness +19.8, corroborated +10
 
-### 🟡 [73.6] Batik Air Malaysia Dec 2026 Brisbane A330 Operations
-- **Verdict:** CONSIDER
-- **Source:** AeroRoutes schedule filings · tier 2 · GLOBAL · aviation-tracker
-- **First seen:** 2026-09-15T21:00+03:00 EAT · **Source date:** 2026-09-15
-- **URL:** https://www.aeroroutes.com/eng/260915-oddec26bne
-- **Extract:** Published at 0800PDT / 1500GMT 15SEP26 Batik Air Malaysia in December 2026 schedules short term Airbus A330-300 aircraft service on Kuala Lumpur – Denpasar – Brisbane route. From Kuala Lumber, 3 of 7 weekly service to be operated by A330-300, instead of 737 MA
-- **Score parts:** tier +20, category +14, lead +8.4, relevance +8, freshness +13.2, corroborated +10
+### 🟠 [95.0] MOH Strengthens Community Health Services with 134 & 190 CHEWs Pass-outs and Facility Visit in Buikwe and Mukono Distric
+- **Verdict:** STRONG — tier-1, upstream
+- **Source:** Uganda Ministry of Health — news · tier 1 · UG · health
+- **First seen:** 2026-09-16T10:22+03:00 EAT · **Source date:** 2026-09-14
+- **URL:** https://health.go.ug/moh-strengthens-community-health-services-with-134-190-chews-pass-outs-and-facility-visit-in-buikwe-and-mukono-districts
+- **Extract:** 14th September 2026, Buikwe – The Ministry of Health has strengthened community-level health service delivery in Buikwe and Mukono Districts following the passing out of 324 Community Health Extension Workers (CHEWs) and a technical visit to Ngogwe Health Cent
+- **Score parts:** tier +40, category +24, lead +1.2, relevance +0, freshness +19.8, corroborated +10
 
-### 🟡 [73.5] 15 September 2026 | Feature Story Portuguese-speaking African countries strengthen emergency medical team readiness
-- **Verdict:** CONSIDER
-- **Source:** WHO AFRO — Rwanda country newsroom · tier 1 · RW · health
-- **First seen:** 2026-09-15T20:59+03:00 EAT · **Source date:** — none stated
-- **URL:** https://www.afro.who.int/news/portuguese-speaking-african-countries-strengthen-emergency-medical-team-readiness
-- **Score parts:** tier +40, category +24, lead +2.4, relevance +0, freshness +13.1, undated -6
+### 🟠 [95.0] MINISTRY OF HEALTH CALLS FOR STRONGER PATIENT SAFETY MEASURES AS NON-COMMUNICABLE BURDEN RISES.
+- **Verdict:** STRONG — tier-1, upstream
+- **Source:** Uganda Ministry of Health · tier 1 · UG · health
+- **First seen:** 2026-09-16T10:22+03:00 EAT · **Source date:** 2026-09-15
+- **URL:** https://health.go.ug/ministry-of-health-calls-for-stronger-patient-safety-measures-as-non-communicable-burden-rises
+- **Extract:** 15th September 2026, Kampala — The Ministry of Health has called for stronger patient safety measures across Uganda’s health system, with particular emphasis on the prevention, early detection, and effective management of Non-Communicable Diseases (NCDs). The 
+- **Score parts:** tier +40, category +24, lead +1.2, relevance +0, freshness +19.8, corroborated +10
 
-### 🟡 [73.5] 15 September 2026 | Feature Story Portuguese-speaking African countries strengthen emergency medical team readiness
-- **Verdict:** CONSIDER
-- **Source:** WHO AFRO — Uganda country newsroom · tier 1 · UG · health
-- **First seen:** 2026-09-15T20:59+03:00 EAT · **Source date:** — none stated
-- **URL:** https://www.afro.who.int/news/portuguese-speaking-african-countries-strengthen-emergency-medical-team-readiness
-- **Score parts:** tier +40, category +24, lead +2.4, relevance +0, freshness +13.1, undated -6
+### 🟠 [95.0] MOH Strengthens Community Health Services with 134 & 190 CHEWs Pass-outs and Facility Visit in Buikwe and Mukono Distric
+- **Verdict:** STRONG — tier-1, upstream
+- **Source:** Uganda Ministry of Health · tier 1 · UG · health
+- **First seen:** 2026-09-16T10:22+03:00 EAT · **Source date:** 2026-09-14
+- **URL:** https://health.go.ug/moh-strengthens-community-health-services-with-134-190-chews-pass-outs-and-facility-visit-in-buikwe-and-mukono-districts
+- **Extract:** 14th September 2026, Buikwe – The Ministry of Health has strengthened community-level health service delivery in Buikwe and Mukono Districts following the passing out of 324 Community Health Extension Workers (CHEWs) and a technical visit to Ngogwe Health Cent
+- **Score parts:** tier +40, category +24, lead +1.2, relevance +0, freshness +19.8, corroborated +10
 
-### 🟡 [73.5] 15 September 2026 | Feature Story Portuguese-speaking African countries strengthen emergency medical team readiness
-- **Verdict:** CONSIDER
-- **Source:** WHO AFRO — Kenya country newsroom · tier 1 · KE · health
-- **First seen:** 2026-09-15T20:59+03:00 EAT · **Source date:** — none stated
-- **URL:** https://www.afro.who.int/news/portuguese-speaking-african-countries-strengthen-emergency-medical-team-readiness
-- **Score parts:** tier +40, category +24, lead +2.4, relevance +0, freshness +13.1, undated -6
+### 🟠 [91.8] Naivasha Law Courts – General Notice – 14 September 2026 to 15 September 2026
+- **Verdict:** STRONG — tier-1, upstream
+- **Source:** Kenya Gazette (Kenya Law) · tier 1 · KE · gazette
+- **First seen:** 2026-09-16T10:22+03:00 EAT · **Source date:** 2026-09-14
+- **URL:** https://new.kenyalaw.org/akn/ke/doc/general_notice/kemc/2026-09-14/1/eng@2026-09-14
+- **Extract:** Naivasha Law Courts – General Notice – 14 September 2026 to 15 September 2026
+- **Score parts:** tier +40, category +20, lead +12, relevance +0, freshness +19.8
 
-### 🟡 [71.8] Saison 2028/29: HX bietet 26 neue Expeditions-Seereisen an
-- **Verdict:** CONSIDER
-- **Source:** FVW / German travel trade · tier 2 · GLOBAL · source-market
-- **First seen:** 2026-09-15T21:00+03:00 EAT · **Source date:** 2026-09-15
-- **URL:** https://www.fvw.de/touristik/kreuzfahrt/saison-202829-hx-bietet-26-neue-expeditions-seereisen-an-264601
-- **Extract:** HX Expeditions (HX) stellt ihr Programm für die Saison 2028/29 vor. Es umfasst 57 Expeditions-Seereisen zu 14 Destinationen weltweit, darunter 26 neue Routen, zwei für HX neue Destinationen und fünf Produktinnovationen.
-- **Score parts:** tier +20, category +9, lead +3.6, relevance +16, freshness +13.2, corroborated +10
+### 🟠 [91.8] Employment and Labour Relations Court at Nairobi – Claims and Labour Relations Division – Weekly Cause List – 14 Septemb
+- **Verdict:** STRONG — tier-1, upstream
+- **Source:** Kenya Gazette (Kenya Law) · tier 1 · KE · gazette
+- **First seen:** 2026-09-16T10:22+03:00 EAT · **Source date:** 2026-09-14
+- **URL:** https://new.kenyalaw.org/akn/ke/doc/cause-list-weekly/keelrc/2026-09-14/1/eng@2026-09-14
+- **Extract:** Employment and Labour Relations Court at Nairobi – Claims and Labour Relations Division – Weekly Cause List – 14 September 2026 to 18 September 2026
+- **Score parts:** tier +40, category +20, lead +12, relevance +0, freshness +19.8
 
-### 🟡 [70.9] PROCUREMENT OF A PORTABLE CONTINUOUSLY RECORD...
-- **Verdict:** CONSIDER
-- **Source:** Uganda EGP portal · tier 1 · UG · tender
-- **First seen:** 2026-09-15T20:59+03:00 EAT · **Source date:** — none stated
-- **URL:** https://egpuganda.go.ug/index/396364614_egp
-- **Score parts:** tier +40, category +7, lead +16.8, relevance +0, freshness +13.1, undated -6
+### 🟠 [91.8] Mola v Republic (Criminal Appeal E064 of 2024) [2026] KEHC 13463 (KLR) (14 September 2026) (Judgment)
+- **Verdict:** STRONG — tier-1, upstream
+- **Source:** Kenya Gazette (Kenya Law) · tier 1 · KE · gazette
+- **First seen:** 2026-09-16T10:22+03:00 EAT · **Source date:** 2026-09-14
+- **URL:** https://new.kenyalaw.org/akn/ke/judgment/kehc/2026/13463/eng@2026-09-14
+- **Extract:** Mola v Republic (Criminal Appeal E064 of 2024) [2026] KEHC 13463 (KLR) (14 September 2026) (Judgment)
+- **Score parts:** tier +40, category +20, lead +12, relevance +0, freshness +19.8
 
-### 🟡 [70.9] Procurement of Consultancy Services to develo...
-- **Verdict:** CONSIDER
-- **Source:** Uganda EGP portal · tier 1 · UG · tender
-- **First seen:** 2026-09-15T20:59+03:00 EAT · **Source date:** — none stated
-- **URL:** https://egpuganda.go.ug/index/398315652_egp
-- **Score parts:** tier +40, category +7, lead +16.8, relevance +0, freshness +13.1, undated -6
+### 🟠 [91.8] Kahindi v Republic (Criminal Appeal E101 of 2025) [2026] KEHC 13468 (KLR) (14 September 2026) (Judgment)
+- **Verdict:** STRONG — tier-1, upstream
+- **Source:** Kenya Gazette (Kenya Law) · tier 1 · KE · gazette
+- **First seen:** 2026-09-16T10:22+03:00 EAT · **Source date:** 2026-09-14
+- **URL:** https://new.kenyalaw.org/akn/ke/judgment/kehc/2026/13468/eng@2026-09-14
+- **Extract:** Kahindi v Republic (Criminal Appeal E101 of 2025) [2026] KEHC 13468 (KLR) (14 September 2026) (Judgment)
+- **Score parts:** tier +40, category +20, lead +12, relevance +0, freshness +19.8
+
+### 🟠 [91.8] Republic v Kitsao (Criminal Case E008 of 2026) [2026] KEHC 13467 (KLR) (14 September 2026) (Ruling)
+- **Verdict:** STRONG — tier-1, upstream
+- **Source:** Kenya Gazette (Kenya Law) · tier 1 · KE · gazette
+- **First seen:** 2026-09-16T10:22+03:00 EAT · **Source date:** 2026-09-14
+- **URL:** https://new.kenyalaw.org/akn/ke/judgment/kehc/2026/13467/eng@2026-09-14
+- **Extract:** Republic v Kitsao (Criminal Case E008 of 2026) [2026] KEHC 13467 (KLR) (14 September 2026) (Ruling)
+- **Score parts:** tier +40, category +20, lead +12, relevance +0, freshness +19.8
+
+### 🟠 [91.8] Wafula v Gachunga t/a Jowanga Enterprises (Civil Appeal E253 of 2024) [2026] KEHC 13464 (KLR) (14 September 2026) (Judgm
+- **Verdict:** STRONG — tier-1, upstream
+- **Source:** Kenya Gazette (Kenya Law) · tier 1 · KE · gazette
+- **First seen:** 2026-09-16T10:22+03:00 EAT · **Source date:** 2026-09-14
+- **URL:** https://new.kenyalaw.org/akn/ke/judgment/kehc/2026/13464/eng@2026-09-14
+- **Extract:** Wafula v Gachunga t/a Jowanga Enterprises (Civil Appeal E253 of 2024) [2026] KEHC 13464 (KLR) (14 September 2026) (Judgment)
+- **Score parts:** tier +40, category +20, lead +12, relevance +0, freshness +19.8
+
+### 🟠 [91.8] Mukaria t/a Modern Bar & Restaurant v County Government of Marsabit & 2 others (Constitutional Petition E002 of 2024) [2
+- **Verdict:** STRONG — tier-1, upstream
+- **Source:** Kenya Gazette (Kenya Law) · tier 1 · KE · gazette
+- **First seen:** 2026-09-16T10:22+03:00 EAT · **Source date:** 2026-09-14
+- **URL:** https://new.kenyalaw.org/akn/ke/judgment/kehc/2026/13462/eng@2026-09-14
+- **Extract:** Mukaria t/a Modern Bar & Restaurant v County Government of Marsabit & 2 others (Constitutional Petition E002 of 2024) [2026] KEHC 13462 (KLR) (14 September 2026) (Judgment)
+- **Score parts:** tier +40, category +20, lead +12, relevance +0, freshness +19.8
+
+### 🟠 [91.8] Magare-Gikenyi B & 3 others v Presidential Taskforce on Technical Working Group on Gender-Based Violence (GBV) including
+- **Verdict:** STRONG — tier-1, upstream
+- **Source:** Kenya Gazette (Kenya Law) · tier 1 · KE · gazette
+- **First seen:** 2026-09-16T10:22+03:00 EAT · **Source date:** 2026-09-14
+- **URL:** https://new.kenyalaw.org/akn/ke/judgment/kehc/2026/13446/eng@2026-09-14
+- **Extract:** Magare-Gikenyi B & 3 others v Presidential Taskforce on Technical Working Group on Gender-Based Violence (GBV) including Femicide & 55 others (Constitutional Petition E027 of 2025) [2026] KEHC 13446 (KLR) (14 September 2026) (Judgment)
+- **Score parts:** tier +40, category +20, lead +12, relevance +0, freshness +19.8
+
+### 🟠 [91.8] Oduor & another v Republic (Criminal Appeal E069 of 2024) [2026] KEHC-DR 19 (KLR) (14 September 2026) (Judgment)
+- **Verdict:** STRONG — tier-1, upstream
+- **Source:** Kenya Gazette (Kenya Law) · tier 1 · KE · gazette
+- **First seen:** 2026-09-16T10:22+03:00 EAT · **Source date:** 2026-09-14
+- **URL:** https://new.kenyalaw.org/akn/ke/judgment/kehc-dr/2026/19/eng@2026-09-14
+- **Extract:** Oduor & another v Republic (Criminal Appeal E069 of 2024) [2026] KEHC-DR 19 (KLR) (14 September 2026) (Judgment)
+- **Score parts:** tier +40, category +20, lead +12, relevance +0, freshness +19.8
+
+### 🟠 [91.8] Nderitu v Republic (Criminal Appeal E004 of 2022) [2026] KEHC 13455 (KLR) (14 September 2026) (Judgment)
+- **Verdict:** STRONG — tier-1, upstream
+- **Source:** Kenya Gazette (Kenya Law) · tier 1 · KE · gazette
+- **First seen:** 2026-09-16T10:22+03:00 EAT · **Source date:** 2026-09-14
+- **URL:** https://new.kenyalaw.org/akn/ke/judgment/kehc/2026/13455/eng@2026-09-14
+- **Extract:** Nderitu v Republic (Criminal Appeal E004 of 2022) [2026] KEHC 13455 (KLR) (14 September 2026) (Judgment)
+- **Score parts:** tier +40, category +20, lead +12, relevance +0, freshness +19.8
+
+### 🟠 [91.8] Omar v Republic (Criminal Appeal E109 of 2025) [2026] KEHC 13452 (KLR) (14 September 2026) (Judgment)
+- **Verdict:** STRONG — tier-1, upstream
+- **Source:** Kenya Gazette (Kenya Law) · tier 1 · KE · gazette
+- **First seen:** 2026-09-16T10:22+03:00 EAT · **Source date:** 2026-09-14
+- **URL:** https://new.kenyalaw.org/akn/ke/judgment/kehc/2026/13452/eng@2026-09-14
+- **Extract:** Omar v Republic (Criminal Appeal E109 of 2025) [2026] KEHC 13452 (KLR) (14 September 2026) (Judgment)
+- **Score parts:** tier +40, category +20, lead +12, relevance +0, freshness +19.8
+
+### 🟠 [91.8] Ndoro v Republic (Criminal Appeal E016 of 2026) [2026] KEHC 13451 (KLR) (14 September 2026) (Judgment)
+- **Verdict:** STRONG — tier-1, upstream
+- **Source:** Kenya Gazette (Kenya Law) · tier 1 · KE · gazette
+- **First seen:** 2026-09-16T10:22+03:00 EAT · **Source date:** 2026-09-14
+- **URL:** https://new.kenyalaw.org/akn/ke/judgment/kehc/2026/13451/eng@2026-09-14
+- **Extract:** Ndoro v Republic (Criminal Appeal E016 of 2026) [2026] KEHC 13451 (KLR) (14 September 2026) (Judgment)
+- **Score parts:** tier +40, category +20, lead +12, relevance +0, freshness +19.8
+
+### 🟠 [91.8] Matano v Republic (Criminal Appeal E102 of 2025) [2026] KEHC 13449 (KLR) (14 September 2026) (Judgment)
+- **Verdict:** STRONG — tier-1, upstream
+- **Source:** Kenya Gazette (Kenya Law) · tier 1 · KE · gazette
+- **First seen:** 2026-09-16T10:22+03:00 EAT · **Source date:** 2026-09-14
+- **URL:** https://new.kenyalaw.org/akn/ke/judgment/kehc/2026/13449/eng@2026-09-14
+- **Extract:** Matano v Republic (Criminal Appeal E102 of 2025) [2026] KEHC 13449 (KLR) (14 September 2026) (Judgment)
+- **Score parts:** tier +40, category +20, lead +12, relevance +0, freshness +19.8
+
+### 🟠 [91.8] Chai v Republic (Criminal Appeal E105 of 2025) [2026] KEHC 13448 (KLR) (14 September 2026) (Judgment)
+- **Verdict:** STRONG — tier-1, upstream
+- **Source:** Kenya Gazette (Kenya Law) · tier 1 · KE · gazette
+- **First seen:** 2026-09-16T10:22+03:00 EAT · **Source date:** 2026-09-14
+- **URL:** https://new.kenyalaw.org/akn/ke/judgment/kehc/2026/13448/eng@2026-09-14
+- **Extract:** Chai v Republic (Criminal Appeal E105 of 2025) [2026] KEHC 13448 (KLR) (14 September 2026) (Judgment)
+- **Score parts:** tier +40, category +20, lead +12, relevance +0, freshness +19.8
+
+### 🟡 [82.8] KRM Commodities Ltd v Commissioner of Legal and Board Service Department (Tax Appeal E1389 of 2025) [2026] KETAT 352 (KL
+- **Verdict:** CHECK — source date older than the window
+- **Source:** Kenya Gazette (Kenya Law) · tier 1 · KE · gazette
+- **First seen:** 2026-09-16T10:22+03:00 EAT · **Source date:** 2026-09-04
+- **URL:** https://new.kenyalaw.org/akn/ke/judgment/ketat/2026/352/eng@2026-09-04
+- **Extract:** KRM Commodities Ltd v Commissioner of Legal and Board Service Department (Tax Appeal E1389 of 2025) [2026] KETAT 352 (KLR) (4 September 2026) (Judgment)
+- **Score parts:** tier +40, category +20, lead +12, relevance +16, freshness +19.8, stale_trap -25
