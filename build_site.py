@@ -1586,10 +1586,12 @@ def build_signals_page(insights):
             body_html = f"<p>{md_inline(html.escape(trimmed))}</p>"
         sw = it.get("sowhat")
         sw_html = f'<div class="isw">{md_inline(html.escape(sw))}</div>' if sw else ""
-        # The edition label ("Morning Brief") sat directly under the absolutely
-        # positioned impact chip and overlapped it on typical card widths. The
-        # date is already shown, so drop the edition from the visible line —
-        # it stays searchable via data-q below.
+        # The edition label ("Morning Brief") sat directly under the impact chip
+        # and overlapped it on typical card widths. The date is already shown,
+        # so drop the edition from the visible line — it stays searchable via
+        # data-q below. The chip itself was absolutely positioned top-right and
+        # still overlapped the meta line on some widths, so it now sits inline
+        # in the meta line, beside confidence, instead of floating over the card.
         meta = [f'<span>{html.escape(it["dateDisplay"])}</span>']
         if seg_label:
             meta.append(f'<span>· {html.escape(seg_label)}</span>')
@@ -1597,13 +1599,16 @@ def build_signals_page(insights):
             meta.append(f'<span>· {html.escape(it["countries"])}</span>')
         if it.get("confidence"):
             meta.append(f'<span class="conf">· {html.escape(it["confidence"])}</span>')
+        imp = imp_chip(it)
+        if imp:
+            meta.append(f'<span>· {imp}</span>')
         search_blob = html.escape(" ".join([
             it["headline"], body, sw or "", it.get("countries") or "",
             it.get("edition") or "", seg_label, it.get("confidence") or ""
         ]).lower())
         return (f'<a class="insight {html.escape(seg_class)}" data-seg="{html.escape(seg_class)}" '
                 f'data-q="{search_blob}" href="editions/{it["source"]}.html">'
-                f'{imp_chip(it)}<div class="imeta">{"".join(meta)}</div>'
+                f'<div class="imeta">{"".join(meta)}</div>'
                 f'<h3>{headline}</h3>{body_html}{sw_html}'
                 f'<span class="open">Open full edition →</span></a>')
 
@@ -1674,12 +1679,11 @@ def build_signals_page(insights):
   .insight p{font-family:var(--sans);font-size:14px;color:var(--muted);margin:0 0 6px}
   .insight .isw{font-family:var(--sans);font-size:14px;background:var(--sand-2);padding:8px 12px;border-radius:6px;margin:8px 0 4px}
   .insight .open{font-family:var(--sans);font-size:13px;font-weight:600;color:var(--teal);margin-top:10px;display:inline-block}
-  .imp{position:absolute;top:16px;right:18px;display:inline-flex;align-items:center;gap:7px;font-family:var(--mono);font-size:11px;font-weight:800;letter-spacing:.3px}
+  .imp{display:inline-flex;align-items:center;gap:5px;font-family:var(--mono);font-size:11px;font-weight:800;letter-spacing:.3px;vertical-align:middle}
   .imp-demand{color:var(--sage)} .imp-margin{color:var(--coral)} .imp-risk{color:#ff5b5b} .imp-watch{color:var(--amber)}
   .imp .dots{display:inline-flex;gap:3px}
   .imp .dots i{width:5px;height:5px;border-radius:50%;background:currentColor;opacity:.25}
   .imp .dots i.on{opacity:1}
-  @media(max-width:520px){.imp{position:static;display:inline-flex;margin:0 0 9px}}
   .empty{color:var(--muted);font-style:italic;padding:20px 0;display:none;font-family:var(--sans)}
   .loadmore-row{display:flex;flex-direction:column;align-items:center;gap:8px;margin:26px 0 6px}
   .count-note{font-family:var(--sans);font-size:13px;color:var(--muted)}
