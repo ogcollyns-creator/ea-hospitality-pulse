@@ -1586,8 +1586,11 @@ def build_signals_page(insights):
             body_html = f"<p>{md_inline(html.escape(trimmed))}</p>"
         sw = it.get("sowhat")
         sw_html = f'<div class="isw">{md_inline(html.escape(sw))}</div>' if sw else ""
-        meta = [f'<span>{html.escape(it["dateDisplay"])}</span>',
-                f'<span>· {html.escape(it["edition"])}</span>']
+        # The edition label ("Morning Brief") sat directly under the absolutely
+        # positioned impact chip and overlapped it on typical card widths. The
+        # date is already shown, so drop the edition from the visible line —
+        # it stays searchable via data-q below.
+        meta = [f'<span>{html.escape(it["dateDisplay"])}</span>']
         if seg_label:
             meta.append(f'<span>· {html.escape(seg_label)}</span>')
         if it.get("countries"):
