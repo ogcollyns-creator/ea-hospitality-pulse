@@ -1,10 +1,14 @@
 ---
-title: What OTA commission actually costs an East African hotel
+title: OTA commission rates explained — what a hotel really pays
 slug: ota-commission-what-it-actually-costs
-description: The headline commission rate is the smallest part of the bill. Here is the full arithmetic, including the costs that never appear on the invoice.
+description: OTA commission is the percentage an online travel agency charges per booking. The headline rate is the smallest part of the bill — here is the full arithmetic.
 category: Distribution
 updated: 2026-08-01
 ---
+
+**OTA commission is the percentage an online travel agency — Booking.com, Expedia, Airbnb and the rest — charges a property for each reservation it delivers.** It is calculated on the value of the booking and deducted before the property is paid. It is also only the visible part of what the channel costs: payment processing, currency spread, settlement delay, cancellation behaviour and rate-parity obligations all sit underneath it, and none of them appear on the commission invoice.
+
+Commission is negotiated and tiered, so there is no single published rate that is *your* rate. The number that matters is the one in your own contract, plus whatever accelerator or visibility programme you have opted into on top of it.
 
 Ask most operators in the region what an online travel agency costs them and you will get the headline commission rate. That number is real, but it is the beginning of the calculation rather than the end of it — and the gap between the two is where a great deal of margin quietly goes.
 
@@ -76,6 +80,23 @@ The strategic question is not "how do we eliminate this" but "what is the right 
 If a single distribution partner represents a large share of your forward book, that is a strategic exposure regardless of what it costs — because the commercial terms can change, and your negotiating position at renewal is a function of how easily you could walk away.
 
 Concentration risk and commission cost are separate problems. Solve them separately.
+
+## FAQ
+
+### What is OTA commission?
+OTA commission is the percentage an online travel agency charges a property for each booking it produces. It is calculated on the booking value and deducted before the property is paid. Rates are negotiated rather than fixed, and vary by market, property type and by which visibility or preferred-partner programmes the property has joined.
+
+### What are OTA fees, and are they the same as commission?
+No. Commission is the headline percentage. OTA fees is the broader set of costs attached to a booking made through the channel: merchant or virtual-card payment processing, currency conversion and settlement spread, the financing cost of delayed settlement, a higher cancellation rate on free-cancellation inventory, and the revenue suppressed on your direct channel by rate-parity obligations. Only the first of these appears on an invoice.
+
+### How do I find my actual OTA commission rate?
+Pull it from your extranet rather than from a published or widely-cited figure. Take your signed base rate and add any accelerator, visibility or preferred-partner programme you have opted into, each of which raises the effective rate above the base. That combined number is what every other calculation should be applied to.
+
+### What does an OTA booking really cost compared with a direct booking?
+The honest comparison is cost per realised, retained room-night by channel — not commission against zero. A direct booking is not free: it carries acquisition and paid-search cost, booking-engine fees, your own payment processing, reservations staff time and website maintenance. Build the comparison across one full quarter with your own figures, netting cancellations out of both sides.
+
+### Is OTA commission negotiable?
+Rates are contracted and tiered, so the terms available to a property depend on its market, its inventory and its programme participation. Where rate parity constrains what you can offer directly, inclusions, room type, flexibility, upgrades and length-of-stay bundles usually sit outside parity scope — check your own contract wording before assuming either way.
 
 ---
 

@@ -133,7 +133,35 @@ def parse_guide(path):
         "authorRole": meta.get("author_role", ""),
         "readMins": max(3, round(len(body.split()) / 220)),
         "bodyHtml": render_md(body),
+        "faq": parse_faq(body),
     }
+
+
+# ---- question blocks --------------------------------------------------------
+# Search Console, 1 Aug - 13 Sep 2026: fifteen of the twenty-five queries the
+# site was shown for were definitional OTA questions -- "what is ota commission",
+# "ota fees meaning", "what are ota fees", "ota rates meaning". 232 impressions,
+# zero clicks, average position 85. The guide answered all of it in prose, which
+# a retrieval engine has to infer its way into. A "## FAQ" section with "### "
+# question headings is lifted verbatim into FAQPage schema so the answer is
+# machine-readable and quotable.
+#
+# Note: Google restricted FAQ *rich results* to government and health sites in
+# 2023, so this is not a rich-snippet play. It is a citation play -- ChatGPT,
+# Perplexity and AI Overviews all read FAQPage, and a definitional query is
+# exactly the kind an answer engine handles instead of sending a click.
+def parse_faq(body):
+    """Extract (question, answer) pairs from a '## FAQ' section of the source."""
+    m = re.search(r"^##\s+FAQ\s*$(.*?)(?=^##\s+|\Z)", body, re.S | re.M)
+    if not m:
+        return []
+    out = []
+    for q, a in re.findall(r"^###\s+(.+?)\s*$\n(.*?)(?=^###\s+|\Z)",
+                           m.group(1), re.S | re.M):
+        text = re.sub(r"\s+", " ", re.sub(r"[*_`]", "", a)).strip()
+        if q.strip() and len(text) > 20:
+            out.append({"q": q.strip(), "a": text[:600]})
+    return out
 
 
 # ---------------------------------------------------------------- page
@@ -295,6 +323,15 @@ def guide_page(g):
         "about": ABOUT_ENTITIES,
         "spatialCoverage": [a for a in ABOUT_ENTITIES if a["@type"] == "Place"],
     }
+    faq_ld = ""
+    if g.get("faq"):
+        _f = {"@context": "https://schema.org", "@type": "FAQPage",
+              "@id": url + "#faq", "isPartOf": {"@id": SITE_ID},
+              "mainEntity": [{"@type": "Question", "name": q["q"],
+                              "acceptedAnswer": {"@type": "Answer", "text": q["a"]}}
+                             for q in g["faq"]]}
+        faq_ld = ('<script type="application/ld+json">'
+                  + json.dumps(_f) + "</script>\n")
     crumbs = {
         "@context": "https://schema.org", "@type": "BreadcrumbList",
         "itemListElement": [
@@ -315,7 +352,7 @@ def guide_page(g):
     return f"""<!DOCTYPE html>
 <html lang="en"><head>
 <meta charset="UTF-8"><meta name="viewport" content="width=device-width,initial-scale=1">
-<title>{html.escape(g['title'])} | EA Hospitality Pulse</title>
+<title>{html.escape(g['title'])} | EA Pulse</title>
 <meta name="description" content="{html.escape(g['description'])}">
 <link rel="canonical" href="{url}">
 <meta name="robots" content="index,follow,max-image-preview:large,max-snippet:-1,max-video-preview:-1">
@@ -344,6 +381,7 @@ def guide_page(g):
 <link rel="icon" href="../favicon.png"><link rel="apple-touch-icon" href="../apple-touch-icon.png">
 <script type="application/ld+json">{json.dumps(ld)}</script>
 <script type="application/ld+json">{json.dumps(crumbs)}</script>
+{faq_ld}
 <style>{GUIDE_CSS}</style></head>
 <body>
 <header class="s"><div class="wrap"><div class="logo">🏨</div><a href="../index.html"><b>EA Hospitality Pulse</b></a></div></header>

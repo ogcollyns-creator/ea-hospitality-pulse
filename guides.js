@@ -17,11 +17,11 @@ window.GUIDES = [
  },
  {
   "slug": "ota-commission-what-it-actually-costs",
-  "title": "What OTA commission actually costs an East African hotel",
-  "description": "The headline commission rate is the smallest part of the bill. Here is the full arithmetic, including the costs that never appear on the invoice.",
+  "title": "OTA commission rates explained — what a hotel really pays",
+  "description": "OTA commission is the percentage an online travel agency charges per booking. The headline rate is the smallest part of the bill — here is the full arithmetic.",
   "category": "Distribution",
   "updated": "2026-08-01",
-  "readMins": 4
+  "readMins": 6
  },
  {
   "slug": "park-permit-fees-east-africa",

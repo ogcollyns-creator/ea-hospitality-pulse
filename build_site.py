@@ -357,6 +357,7 @@ _PROCESS_TALK = re.compile(
     re.I)
 _PROCESS_HINT = re.compile(
     r"recency gate|standing brief|cleared the wire|clears the bar|cleared the gate|"
+    r"no fresh wire|quiet news slot|one expert read|"
     r"no fresh story|nothing new clear|no new (?:story|development)|"
     r"quiet (?:news )?(?:slot|day|session)|slow news (?:slot|day)|"
     r"one expert brief|then the board", re.I)
@@ -377,7 +378,8 @@ _SLOT_FRAMING = re.compile(
     r"(?:quiet|slow|thin|light)\s+(?:news\s+)?"
     r"(?:slot|day|session|wire|morning|midday|afternoon|evening)\b"
     r"|^\W*(?:\*|_)*\s*no\s+(?:hard\s+)?news\b"
-    r"|^\W*(?:\*|_)*\s*one\s+expert\s+brief\b", re.I)
+    r"|^\W*(?:\*|_)*\s*one\s+expert\s+brief\b"
+    r"|^\W*(?:\*|_)*\s*no\s+(?:fresh|new)\s+(?:wire|news|stor(?:y|ies))\b", re.I)
 
 # A correction notice is editorially essential but it is not the lead. It stays
 # in the body; it must not become the title, standfirst or social card.
@@ -769,13 +771,94 @@ def lead_furniture(body_html):
     sf = f'<p class="standfirst">{standfirst}</p>' if standfirst else ""
     return sf, body
 
+# ---- snippet construction ---------------------------------------------------
+# Search Console, 1 Aug - 13 Sep 2026: 1,693 impressions, 5 clicks. Several
+# edition pages sat at average position 3.6-5.7 and took ZERO clicks. That is
+# not a ranking problem, it is a snippet problem, and the export showed exactly
+# why: the <title> and the meta description were the same sentence. Google
+# rendered the headline, then rendered the headline again underneath it, so the
+# result carried no information the searcher did not already have from the link.
+#
+# A title also has ~60 characters of visible width. Ours ran to 120, spending
+# the back half on "| Morning Brief, 25 August 2026 - EA Hospitality Pulse",
+# which no searcher ever saw and which made every result on the site look
+# identical to every other one.
+_LEAD_LABEL = re.compile(
+    r"^\s*(?:special|exclusive|analysis|briefing|deep\s*dive|part\s+\d+(?:\s+of\s+\d+)?)"
+    r"\s*[:\u2014\u2013-]\s*", re.I)
+
+def _trim(text, limit):
+    """Truncate on a word boundary, never mid-word."""
+    text = (text or "").strip()
+    if len(text) <= limit:
+        return text
+    cut = text[:limit].rsplit(" ", 1)[0].rstrip(" .,;:\u2014\u2013-")
+    return (cut or text[:limit]) + "\u2026"
+
+def serp_title(lead):
+    """Headline first, inside the window Google actually renders."""
+    t = _LEAD_LABEL.sub("", lead or "").strip() or (lead or "")
+    t = t.rstrip(" .")
+    return _trim(t, 52) + " | EA Pulse"
+
+_SOWHAT_RE = re.compile(r'<span class="sowhat">(.*?)</span>', re.S)
+
+def serp_description(standfirst_html, body_html, lead):
+    """The description must ADD to the title, never repeat it.
+
+    Preference order: the editor's standfirst (a written one-line summary), then
+    the first 'so what' line (the operator action, which is the most quotable
+    thing in the brief and the reason someone clicks), then the first body
+    sentence that is not the headline. Falls back to the headline only when the
+    edition genuinely carries nothing else."""
+    def _clean(x):
+        x = re.sub(r"<[^>]+>", " ", x or "")
+        x = html.unescape(x)
+        x = re.sub(r"^[^0-9A-Za-z\u201c\u2018\"']+", "", x)   # drop leading emoji/flags
+        # The 'so what' line opens with our own internal label. In a SERP that
+        # spends nine characters of a 155-character window telling the searcher
+        # nothing, so lead on the substance instead.
+        x = re.sub(r"^so[\s\u2014-]*what\s*[:\u2014,-]\s*", "", x, flags=re.I)
+        return re.sub(r"\s+", " ", x).strip()
+
+    lead_key = re.sub(r"[^a-z0-9]", "", (lead or "").lower())[:45]
+    def _usable(cand):
+        if not cand or len(cand) < 45:
+            return False
+        # A description is the one line of ours a searcher reads before deciding.
+        # It must not be a sentence about how the brief was made, and it must not
+        # open mid-clause because a <br> happened to fall there.
+        if _PROCESS_HINT.search(cand) or _SLOT_FRAMING.match(cand):
+            return False
+        if not cand[:1].isupper() and not cand[:1].isdigit():
+            return False
+        key = re.sub(r"[^a-z0-9]", "", cand.lower())[:45]
+        return key != lead_key                       # never echo the title
+
+    cands = []
+    sf = _clean(standfirst_html)
+    if sf:
+        cands.append(sf)
+    for m in _SOWHAT_RE.finditer(body_html or ""):
+        cands.append(_clean(m.group(1)))
+    for m in re.finditer(r"<p>(.*?)</p>", body_html or "", re.S):
+        for seg in re.split(r"<br\s*/?>", m.group(1)):
+            cands.append(_clean(seg))
+
+    for c in cands:
+        if _usable(c):
+            return _trim(c, 155)
+    return _trim(lead or "", 155)
+
+
 def edition_page(e, siblings=None, prev=None, nxt=None, hero=None, credit=None):
     # One clean headline drives <title>, description, OG/Twitter, JSON-LD and H1.
     lead = clean_headline(e["summary"]) or e["edition"]
     short_date = e["dateDisplay"].split(", ", 1)[-1] if ", " in e["dateDisplay"] else e["dateDisplay"]
     _t = lead if len(lead) <= 62 else lead[:62].rsplit(" ", 1)[0] + "…"
-    title = f"{_t} | {e['edition']}, {short_date} — EA Hospitality Pulse"
-    desc = lead[:157] + ("…" if len(lead) > 157 else "")
+    title = serp_title(lead)
+    # A social card has far more room than a SERP line, and the edition + date
+    # is genuinely useful context when a brief is shared into a WhatsApp group.
     social_title = f"{_t} — {e['edition']}, {short_date}"
     url = f"{BASE}/editions/{e['id']}.html"
     img = f"{BASE}/og/{e['id']}.png"          # share card (OG/Twitter meta)
@@ -789,6 +872,7 @@ def edition_page(e, siblings=None, prev=None, nxt=None, hero=None, credit=None):
         headline = headline[:110].rsplit(" ", 1)[0] + "…"
     h1text = headline if headline.endswith(("…", ".", "?", "!")) else headline + "."
     standfirst, body_html = lead_furniture(e["bodyHtml"])
+    desc = serp_description(standfirst, body_html, lead)
     _plain = re.sub(r"<[^>]+>", " ", body_html)
     wordcount = len(_plain.split())
     news_kw = html.escape("East Africa hospitality, " + e["edition"] + ", Kenya, Uganda, Tanzania, Zanzibar, Rwanda, travel advisories, hotel demand, tourism")
@@ -1254,6 +1338,21 @@ def main():
         # keep the head's absolute URLs in sync with site_config.json "base"
         def _sub(pattern, value, text):
             return re.sub(pattern, lambda m: m.group(1) + value + m.group(2), text)
+        # ---- homepage snippet ------------------------------------------
+        # 1,156 of 1,693 impressions in the 1 Aug - 13 Sep window landed on this
+        # page, at average position 7.15, and returned ONE click (0.09% CTR).
+        # Position 7 with a working snippet returns 3-4%. The cause was visible
+        # in the markup: a 94-character title that opened on the brand name, so
+        # the ~60 characters Google actually renders read "EA Hospitality Pulse
+        # - Daily intelligence for city, bush & b..." - which matches no query
+        # anyone types. The homepage ranks for long-tail fee, rate and advisory
+        # questions because the trackers live in its anchor sections, so the
+        # title now names those things and keeps the brand short at the end.
+        _home_title = "East Africa hotel rates, park fees &amp; advisories | EA Pulse"
+        _home_desc = "Free daily data for hotels, lodges and camps across Kenya, Uganda, Tanzania, Zanzibar and Rwanda: live rate index, park fees, levies and US/UK advisory levels."
+        idx = re.sub(r"<title>.*?</title>", "<title>" + _home_title + "</title>",
+                     idx, count=1, flags=re.S)
+        idx = _sub(r'(<meta name="description" content=")[^"]*(")', _home_desc, idx)
         idx = _sub(r'(<link rel="canonical" href=")[^"]*(")', BASE + "/", idx)
         idx = _sub(r'(<meta property="og:url" content=")[^"]*(")', BASE + "/", idx)
         idx = _sub(r'(<meta property="og:image" content=")[^"]*(")', BASE + "/og/default.png", idx)
