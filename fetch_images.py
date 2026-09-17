@@ -19,7 +19,7 @@ import os, io, json, time, urllib.parse, urllib.request
 HERE = os.path.dirname(os.path.abspath(__file__))
 IMG = os.path.join(HERE, "img")
 API = "https://commons.wikimedia.org/w/api.php"
-UA = "EAHospitalityPulse-image-fetch/1.0 (https://eahospitalitypulse.com; ceo@eahospitalitypulse.com)"
+UA = "EAHospitalityPulse-image-fetch/1.0 (https://eahospitalitypulse.com; eahospitalitypulse@gmail.com)"
 WIDTH = 1600
 
 # slug (local filename stem)  ->  exact Wikimedia Commons File title

@@ -57,7 +57,7 @@ Standalone smoke test:
 import os, json, re, sys, time, urllib.parse, urllib.request
 
 UA = ("EAHospitalityPulse-image-fetch/2.0 "
-      "(https://eahospitalitypulse.com; ceo@eahospitalitypulse.com)")
+      "(https://eahospitalitypulse.com; eahospitalitypulse@gmail.com)")
 
 # ---------------------------------------------------------------- licences
 # Commercial-safe only. The Pulse is a commercial product and we crop/overlay

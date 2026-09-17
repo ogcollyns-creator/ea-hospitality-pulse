@@ -254,7 +254,7 @@ def page_shell(t, body, ld_blocks):
 <title>{esc(t['title'])}</title>
 <meta name="description" content="{esc(t['desc'])}">
 <meta name="robots" content="index,follow,max-image-preview:large,max-snippet:-1,max-video-preview:-1">
-<meta name="author" content="EA Hospitality Pulse">
+<meta name="author" content="{BS.AUTHOR_BYLINE}">
 <link rel="canonical" href="{BASE}/trackers/{t['slug']}.html">
 <meta name="theme-color" content="#0a4f48" media="(prefers-color-scheme: light)">
 <meta name="theme-color" content="#0d1512" media="(prefers-color-scheme: dark)">
@@ -319,6 +319,7 @@ def dataset_ld(t, updated_iso, n_items, variables):
         "name": t["dataset_name"], "description": t["dataset_desc"],
         "url": f"{BASE}/trackers/{t['slug']}.html",
         "creator": {"@id": ORG_ID}, "publisher": {"@id": ORG_ID},
+        "maintainer": BS.author_node(),
         "isPartOf": {"@id": SITE_ID},
         "license": f"{BASE}/republish.html",
         "isAccessibleForFree": True, "inLanguage": "en",

@@ -173,7 +173,7 @@ idx = {
         "generated": NOW,
         "docs": f"{BASE}/api.html",
         "licence": LICENCE,
-        "contact": "ceo@eahospitalitypulse.com",
+        "contact": "eahospitalitypulse@gmail.com",
     },
     "endpoints": [
         {"name": n, "url": f"{BASE}/api/v1/{n}.json", "bytes": b} for n, b in built

@@ -4,7 +4,7 @@
 <title>Live East Africa hospitality data trackers | EA Pulse</title>
 <meta name="description" content="Seven live datasets for East African hospitality: park and permit fees, travel advisories, hotel rates, costs, air traffic, pipeline and MICE.">
 <meta name="robots" content="index,follow,max-image-preview:large,max-snippet:-1,max-video-preview:-1">
-<meta name="author" content="EA Hospitality Pulse">
+<meta name="author" content="Onyango George (OG)">
 <link rel="canonical" href="https://eahospitalitypulse.com/trackers/index.html">
 <meta name="theme-color" content="#0a4f48" media="(prefers-color-scheme: light)">
 <meta name="theme-color" content="#0d1512" media="(prefers-color-scheme: dark)">
@@ -101,6 +101,12 @@ footer.s{text-align:center;color:var(--muted);font-family:var(--sans);font-size:
 .badge{font-family:var(--mono);letter-spacing:.08em;font-size:10.5px;border-radius:var(--r-xs);
   background:transparent;border:1px solid var(--gold);color:var(--gold-d);padding:4px 8px}
 .art time{font-family:var(--mono);font-size:11.5px;letter-spacing:.04em}
+/* Byline sits in the instrument-panel row with the edition and the date:
+   same mono register, quieter than the badge, and a real rel="author" link. */
+.kicker .byline{font:600 11.5px/1.6 var(--mono);letter-spacing:.04em;color:var(--muted)}
+.kicker .byline a{color:var(--muted);border-bottom:1px solid transparent;
+  transition:color .18s ease,border-color .18s ease}
+.kicker .byline a:hover{color:var(--teal-d);border-bottom-color:var(--gold)}
 /* Reference rail — the internal link graph, given a shape of its own. */
 .refs{margin:26px 0 0;padding:18px 22px;background:var(--sand-2);
   border-left:3px solid var(--teal-d);border-radius:0 var(--r-sm) var(--r-sm) 0}

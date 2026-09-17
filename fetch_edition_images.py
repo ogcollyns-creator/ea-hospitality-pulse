@@ -23,7 +23,7 @@ HERE = os.path.dirname(os.path.abspath(__file__))
 IMG  = os.path.join(HERE, "img")
 EDIMG = os.path.join(IMG, "editions")
 API  = "https://commons.wikimedia.org/w/api.php"
-UA   = "EAHospitalityPulse-image-fetch/1.0 (https://eahospitalitypulse.com; ceo@eahospitalitypulse.com)"
+UA   = "EAHospitalityPulse-image-fetch/1.0 (https://eahospitalitypulse.com; eahospitalitypulse@gmail.com)"
 WIDTH = 1600
 
 # theme -> (keywords to detect it in the edition text, Commons search query).

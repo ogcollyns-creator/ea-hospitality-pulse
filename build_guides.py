@@ -10,6 +10,7 @@ Guides are deliberately NOT editions:
 Called by build_site.py. Safe to run standalone for testing.
 """
 import os, re, json, html, datetime
+from build_site import author_node as BS_AUTHOR, AUTHOR_BYLINE as BS_BYLINE
 
 HERE = os.path.dirname(os.path.abspath(__file__))
 SRC = os.path.join(HERE, "guides-src")
@@ -300,8 +301,11 @@ footer.s a:hover{color:var(--teal-d);border-bottom-color:var(--gold)}
 
 def guide_page(g):
     url = f"{BASE}/guides/{g['slug']}.html"
-    author_obj = ({"@type": "Person", "name": g["author"]} if g.get("author")
-                  else {"@type": "Organization", "name": "EA Hospitality Pulse", "url": BASE + "/"})
+    # A guest contributor is credited by name; everything else is the editor's
+    # own work and now says so, instead of hiding behind the masthead.
+    author_obj = ({"@type": "Person", "name": g["author"],
+                   "worksFor": {"@id": ORG_ID}} if g.get("author")
+                  else BS_AUTHOR())
     ld = {
         "@context": "https://schema.org", "@type": "Article",
         "headline": g["title"][:110], "description": g["description"],
@@ -344,11 +348,13 @@ def guide_page(g):
         upd = datetime.date.fromisoformat(g["updated"]).strftime("%-d %B %Y")
     except Exception:
         pass
-    byline_html = ""
+    byline_name = g["author"] if g.get("author") else BS_BYLINE
     if g.get("author"):
         role = (", " + html.escape(g["authorRole"])) if g.get("authorRole") else ""
         byline_html = ('\n    <p class="byline">By <b>' + html.escape(g["author"]) + '</b>'
                        + role + ' — guest contributor</p>')
+    else:
+        byline_html = ('\n    <p class="byline">By <b>' + html.escape(BS_BYLINE) + '</b></p>')
     return f"""<!DOCTYPE html>
 <html lang="en"><head>
 <meta charset="UTF-8"><meta name="viewport" content="width=device-width,initial-scale=1">
@@ -356,7 +362,7 @@ def guide_page(g):
 <meta name="description" content="{html.escape(g['description'])}">
 <link rel="canonical" href="{url}">
 <meta name="robots" content="index,follow,max-image-preview:large,max-snippet:-1,max-video-preview:-1">
-<meta name="author" content="EA Hospitality Pulse">
+<meta name="author" content="{byline_name}">
 <link rel="alternate" type="application/rss+xml" title="EA Hospitality Pulse" href="../feed.xml">
 <meta property="og:type" content="article"><meta property="og:site_name" content="EA Hospitality Pulse">
 <meta property="og:title" content="{html.escape(g['title'])}">

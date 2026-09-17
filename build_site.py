@@ -574,6 +574,12 @@ footer.s{text-align:center;color:var(--muted);font-family:var(--sans);font-size:
 .badge{font-family:var(--mono);letter-spacing:.08em;font-size:10.5px;border-radius:var(--r-xs);
   background:transparent;border:1px solid var(--gold);color:var(--gold-d);padding:4px 8px}
 .art time{font-family:var(--mono);font-size:11.5px;letter-spacing:.04em}
+/* Byline sits in the instrument-panel row with the edition and the date:
+   same mono register, quieter than the badge, and a real rel="author" link. */
+.kicker .byline{font:600 11.5px/1.6 var(--mono);letter-spacing:.04em;color:var(--muted)}
+.kicker .byline a{color:var(--muted);border-bottom:1px solid transparent;
+  transition:color .18s ease,border-color .18s ease}
+.kicker .byline a:hover{color:var(--teal-d);border-bottom-color:var(--gold)}
 /* Reference rail — the internal link graph, given a shape of its own. */
 .refs{margin:26px 0 0;padding:18px 22px;background:var(--sand-2);
   border-left:3px solid var(--teal-d);border-radius:0 var(--r-sm) var(--r-sm) 0}
@@ -704,11 +710,35 @@ _SELF_DOMAINS = ("linkedin.com", "t.me", "telegram.me", "whatsapp.com", "x.com",
                  "eahospitalitypulse.com", "github.io")
 ORG_ID = BASE + "/#org"
 SITE_ID = BASE + "/#website"
+# A masthead is not an author. Every edition was attributed to the organisation,
+# which tells a reader and an answer engine nothing about who did the work or why
+# they would know -- and named, resolvable authorship is one of the few E-E-A-T
+# signals a small publication can actually control. One Person node, one @id,
+# referenced from every article and linked both ways to the organisation.
+PERSON_ID = BASE + "/#author"
+AUTHOR_NAME = "Onyango George"
+AUTHOR_SHORT = "OG"
+AUTHOR_BYLINE = f"{AUTHOR_NAME} ({AUTHOR_SHORT})"
+CONTACT_EMAIL = "eahospitalitypulse@gmail.com"
+
+def author_node():
+    return {"@type": "Person", "@id": PERSON_ID, "name": AUTHOR_NAME,
+            "alternateName": AUTHOR_SHORT,
+            "email": "mailto:" + CONTACT_EMAIL,
+            "url": BASE + "/methodology.html",
+            "jobTitle": "Editor",
+            "knowsAbout": ["East African hospitality", "hotel market analysis",
+                           "travel advisories", "tourism demand", "hotel distribution"],
+            "worksFor": {"@id": ORG_ID},
+            "publishingPrinciples": BASE + "/methodology.html"}
 
 def org_node():
     return {"@type": "Organization", "@id": ORG_ID, "name": "EA Hospitality Pulse",
             "url": BASE + "/",
+            "email": CONTACT_EMAIL,
             "logo": {"@type": "ImageObject", "url": BASE + "/apple-touch-icon.png"},
+            "founder": {"@id": PERSON_ID},
+            "publishingPrinciples": BASE + "/methodology.html",
             "sameAs": [CHANNELS[k] for k in ("telegram", "linkedin", "whatsapp")
                        if CHANNELS.get(k)]}
 
@@ -917,7 +947,7 @@ def edition_page(e, siblings=None, prev=None, nxt=None, hero=None, credit=None):
         "description": desc, "url": url, "mainEntityOfPage": url,
         "image": [img], "inLanguage": "en", "isAccessibleForFree": True,
         "articleSection": e["edition"],
-        "author":{"@id":ORG_ID},
+        "author":author_node(),
         "publisher":org_node(),
         "isPartOf":{"@type":"WebSite","@id":SITE_ID,"name":"EA Hospitality Pulse","url":BASE+"/",
                     "publisher":{"@id":ORG_ID}},
@@ -983,7 +1013,7 @@ def edition_page(e, siblings=None, prev=None, nxt=None, hero=None, credit=None):
 <title>{html.escape(title)}</title>
 <meta name="description" content="{html.escape(desc)}">
 <meta name="robots" content="index,follow,max-image-preview:large,max-snippet:-1">
-<meta name="author" content="EA Hospitality Pulse">
+<meta name="author" content="{AUTHOR_BYLINE}">
 <meta name="news_keywords" content="{news_kw}">
 <link rel="canonical" href="{url}">
 {head_rel}<meta name="theme-color" content="#0a4f48" media="(prefers-color-scheme: light)">
@@ -1020,7 +1050,7 @@ def edition_page(e, siblings=None, prev=None, nxt=None, hero=None, credit=None):
     <img class="hero{hero_cls}" src="{hero_src}" width="1200" height="630" alt="{html.escape(e['edition']+' — '+e['dateDisplay'])}" loading="eager" fetchpriority="high" decoding="async">
     {credit_html}
     {crumb_html}
-    <div class="kicker"><span class="badge">{html.escape(e['edition'])}</span><time datetime="{e['date']}">{html.escape(e['dateDisplay'])}</time></div>
+    <div class="kicker"><span class="badge">{html.escape(e['edition'])}</span><time datetime="{e['date']}">{html.escape(e['dateDisplay'])}</time><span class="byline">By <a href="../methodology.html" rel="author">{AUTHOR_BYLINE}</a></span></div>
     <h1>{html.escape(h1text)}</h1>
     {standfirst}
     {body_html}
@@ -1144,7 +1174,7 @@ def build_credits_page():
 <tbody>
 {body}
 </tbody></table></div>
-<p class="meta-line">Base illustrations (savannah, Nairobi skyline, Zanzibar beach) are licensed stock held in the repository. Questions about attribution: ceo@eahospitalitypulse.com.</p>
+<p class="meta-line">Base illustrations (savannah, Nairobi skyline, Zanzibar beach) are licensed stock held in the repository. Questions about attribution: eahospitalitypulse@gmail.com.</p>
 </article></div>
 <footer class="s"><div class="wrap">
 <p class="f-line">EA Hospitality Pulse — daily intelligence for city, bush and beach properties across East Africa.</p>

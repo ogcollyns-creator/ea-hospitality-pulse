@@ -28,4 +28,4 @@ The daily edition has its own strict internal format (it posts automatically to 
 
 ## Questions
 
-Open an issue, or email [ceo@eahospitalitypulse.com](mailto:ceo@eahospitalitypulse.com).
+Open an issue, or email [eahospitalitypulse@gmail.com](mailto:eahospitalitypulse@gmail.com).
