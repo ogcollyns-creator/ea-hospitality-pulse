@@ -716,6 +716,7 @@ SITE_ID = BASE + "/#website"
 # signals a small publication can actually control. One Person node, one @id,
 # referenced from every article and linked both ways to the organisation.
 PERSON_ID = BASE + "/#author"
+AUTHOR_SLUG = "about/onyango-george"
 AUTHOR_NAME = "Onyango George"
 AUTHOR_SHORT = "OG"
 AUTHOR_BYLINE = f"{AUTHOR_NAME} ({AUTHOR_SHORT})"
@@ -725,7 +726,7 @@ def author_node():
     return {"@type": "Person", "@id": PERSON_ID, "name": AUTHOR_NAME,
             "alternateName": AUTHOR_SHORT,
             "email": "mailto:" + CONTACT_EMAIL,
-            "url": BASE + "/methodology.html",
+            "url": BASE + "/" + AUTHOR_SLUG + ".html",
             "jobTitle": "Editor",
             "knowsAbout": ["East African hospitality", "hotel market analysis",
                            "travel advisories", "tourism demand", "hotel distribution"],
@@ -1050,7 +1051,7 @@ def edition_page(e, siblings=None, prev=None, nxt=None, hero=None, credit=None):
     <img class="hero{hero_cls}" src="{hero_src}" width="1200" height="630" alt="{html.escape(e['edition']+' — '+e['dateDisplay'])}" loading="eager" fetchpriority="high" decoding="async">
     {credit_html}
     {crumb_html}
-    <div class="kicker"><span class="badge">{html.escape(e['edition'])}</span><time datetime="{e['date']}">{html.escape(e['dateDisplay'])}</time><span class="byline">By <a href="../methodology.html" rel="author">{AUTHOR_BYLINE}</a></span></div>
+    <div class="kicker"><span class="badge">{html.escape(e['edition'])}</span><time datetime="{e['date']}">{html.escape(e['dateDisplay'])}</time><span class="byline">By <a href="../{AUTHOR_SLUG}.html" rel="author">{AUTHOR_BYLINE}</a></span></div>
     <h1>{html.escape(h1text)}</h1>
     {standfirst}
     {body_html}
@@ -1071,7 +1072,7 @@ def edition_page(e, siblings=None, prev=None, nxt=None, hero=None, credit=None):
 </main>
 <footer class="s"><div class="wrap">
 <p class="f-line">EA Hospitality Pulse — daily intelligence for city, bush and beach properties across East Africa. Free to read, free to republish with attribution.</p>
-<p class="f-nav"><a href="../index.html">Home</a><a href="../trackers/index.html">Trackers</a><a href="../archive.html">Archive</a><a href="../methodology.html">Methodology</a><a href="../faq.html">FAQ</a><a href="../republish.html">Republish</a><a href="../credits.html">Image credits</a></p>
+<p class="f-nav"><a href="../index.html">Home</a><a href="../trackers/index.html">Trackers</a><a href="../archive.html">Archive</a><a href="../methodology.html">Methodology</a><a href="../{AUTHOR_SLUG}.html">Editor</a><a href="../faq.html">FAQ</a><a href="../republish.html">Republish</a><a href="../credits.html">Image credits</a></p>
 <p class="f-geo">Kenya &middot; Uganda &middot; Tanzania &middot; Zanzibar &middot; Rwanda</p>
 </div></footer>
 </body></html>"""
@@ -1325,6 +1326,227 @@ def polish_static_heads():
     return touched
 
 
+# ---- author page ------------------------------------------------------------
+# The Person node had an @id but no home of its own, so it pointed at the
+# methodology page -- a page about the process, not the person. An author entity
+# with nowhere to resolve to is the weakest version of the signal.
+#
+# What makes this page carry weight is not a biography. It is the published
+# record, and the record is generated here rather than typed, so it cannot drift
+# out of date between edits: edition count and run length from editions-src, the
+# forecast record straight from ledger/predictions.csv including the calls that
+# were wrong, dataset and guide counts from the builds that just ran. A claim a
+# reader can check beats a credential a reader has to take on trust.
+AUTHOR_SLUG = "about/onyango-george"
+
+def ledger_record():
+    """Public forecast record, read from the ledger source rather than restated."""
+    import csv
+    try:
+        rows = list(csv.DictReader(open(os.path.join(HERE, "ledger", "predictions.csv"),
+                                        encoding="utf-8")))
+    except Exception:
+        return None
+    st = {}
+    for r in rows:
+        st[r.get("status", "?")] = st.get(r.get("status", "?"), 0) + 1
+    resolved = st.get("correct", 0) + st.get("incorrect", 0) + st.get("partial", 0)
+    if not resolved:
+        return None
+    score = st.get("correct", 0) + 0.5 * st.get("partial", 0)
+    return {"total": len(rows), "open": st.get("open", 0), "resolved": resolved,
+            "correct": st.get("correct", 0), "partial": st.get("partial", 0),
+            "incorrect": st.get("incorrect", 0),
+            "accuracy": round(100 * score / resolved)}
+
+
+def build_author_page(editions, guides, trackers):
+    dates = sorted(e["date"] for e in editions if e.get("date"))
+    if not dates:
+        return None
+    try:
+        first = datetime.date.fromisoformat(dates[0]).strftime("%-d %B %Y")
+    except Exception:
+        first = dates[0]
+    n_ed, n_guides = len(editions), len(guides or [])
+    n_trk = len(trackers or [])
+    n_rec = sum(t.get("records", 0) for t in (trackers or []))
+    lr = ledger_record()
+    url = f"{BASE}/{AUTHOR_SLUG}.html"
+
+    same_as = [CHANNELS[k] for k in ("linkedin", "telegram", "whatsapp") if CHANNELS.get(k)]
+    person = author_node()
+    person["url"] = url
+    person["mainEntityOfPage"] = url
+    person["sameAs"] = same_as
+    person["description"] = (
+        "Consultant and analyst covering hospitality across Kenya, Uganda, Tanzania, "
+        "Zanzibar and Rwanda, and editor of the EA Hospitality Pulse daily brief.")
+
+    ld = [{"@context": "https://schema.org", "@type": "ProfilePage",
+           "@id": url + "#profile", "url": url,
+           "name": f"{AUTHOR_BYLINE} \u2014 editor, EA Hospitality Pulse",
+           "dateCreated": dates[0], "dateModified": datetime.date.today().isoformat(),
+           "inLanguage": "en", "isPartOf": {"@id": SITE_ID},
+           "mainEntity": person},
+          {"@context": "https://schema.org", "@type": "BreadcrumbList",
+           "itemListElement": [
+               {"@type": "ListItem", "position": 1, "name": "Home", "item": BASE + "/"},
+               {"@type": "ListItem", "position": 2, "name": AUTHOR_BYLINE, "item": url}]}]
+
+    # The forecast record is the strongest thing on this page precisely because
+    # it includes the misses. Stating them plainly is the whole argument.
+    if lr:
+        record = f"""<h2>The record</h2>
+    <p>Anyone can sound confident about a market. The only part of that which can
+    be checked is a forecast logged before the outcome is known, with a falsifiable
+    test and a resolve-by date attached, then scored in public when the evidence
+    lands.</p>
+    <div class="tk-wrap"><table class="tk"><tbody>
+      <tr><td class="k">Forecasts logged</td><td class="num">{lr['total']}</td>
+          <td>Every forward-looking call made in the brief since {first}</td></tr>
+      <tr><td class="k">Resolved and scored</td><td class="num">{lr['resolved']}</td>
+          <td>{lr['correct']} correct, {lr['partial']} partial, {lr['incorrect']} wrong</td></tr>
+      <tr><td class="k">Accuracy on resolved calls</td><td class="num">{lr['accuracy']}%</td>
+          <td>Partial credit counted as a half</td></tr>
+      <tr><td class="k">Still open</td><td class="num">{lr['open']}</td>
+          <td>Logged with a resolve-by date, not yet due</td></tr>
+    </tbody></table></div>
+    <p>The {lr['incorrect']} calls that were wrong stay published with the ones that
+    were right. That is the point of the ledger: a record you can only trust if it
+    shows the misses. <a href="../index.html#ledger">See the full track record</a>.</p>"""
+    else:
+        record = ""
+
+    body = f"""<h2>What I do</h2>
+    <p>I advise hospitality businesses in East Africa on market, pricing and
+    distribution questions, and I publish what I learn doing it. <b>EA Hospitality
+    Pulse</b> is the public half of that work: a brief for the people who actually
+    carry the decision &mdash; owners and general managers of hotels, lodges, camps
+    and beach resorts in Kenya, Uganda, Tanzania, Zanzibar and Rwanda.</p>
+    <p>It runs three times a day, it is free, there is no paywall and no signup
+    wall, and every item closes with something to do rather than something to know.
+    Since {first} that has come to <b>{n_ed} editions</b>, {n_guides} reference
+    guides and {n_trk} live datasets carrying {n_rec} sourced records.</p>
+
+    {record}
+
+    <h2>What I cover</h2>
+    <p>Five markets &mdash; Kenya, Uganda, Tanzania, Zanzibar and Rwanda &mdash;
+    across the three segments that behave differently enough to need separate
+    reading: city and MICE, bush and safari, beach and coast. Ethiopia is tracked
+    as a comparator and transmission market rather than a home one.</p>
+    <p>The recurring subjects are the ones that move a booking or a margin: travel
+    advisory levels and what they actually do to demand, park and permit pricing,
+    air connectivity and route decisions, distribution economics, the cost side,
+    new supply, and the conference calendar that compresses a city&rsquo;s room stock
+    for a week at a time. Those live as
+    <a href="../trackers/index.html">continuously maintained trackers</a>, not as
+    one-off articles.</p>
+
+    <h2>How I work</h2>
+    <p>Claims are graded, not asserted. <b>Confirmed</b> means read directly from a
+    primary or official source. <b>Reported</b> means credible press carried it and
+    I have not independently confirmed it. <b>Early signal</b> means an upstream
+    indicator suggests something is coming and is labelled as inference until it
+    resolves. Figures carry the source they came from and the period they cover,
+    and anything outside its re-confirmation window is flagged rather than left
+    looking current.</p>
+    <p>Corrections are published in the next edition rather than quietly edited in.
+    The <a href="../methodology.html">methodology page</a> sets out the sourcing
+    standard, the verification bar and the correction protocol in full.</p>
+
+    <h2>Get in touch</h2>
+    <p>Questions, corrections, data, or a market I should be watching and
+    am not: <a href="mailto:{CONTACT_EMAIL}">{CONTACT_EMAIL}</a>. Corrections get
+    priority over everything else in the inbox.</p>"""
+
+    sibs = "".join(
+        f'<li><a href="../{u}"><span class="chan-n">{n}</span>'
+        f'<span class="chan-d">{d}</span></a></li>'
+        for n, d, u in [
+            ("Methodology", "Sourcing, grading and corrections", "methodology.html"),
+            ("Track record", "Every forecast, scored in public", "index.html#ledger"),
+            ("Trackers", "Seven live datasets, maintained daily", "trackers/index.html"),
+            ("Archive", "Every edition, searchable", "archive.html")])
+
+    ld_html = "\n".join(f'<script type="application/ld+json">{json.dumps(b)}</script>'
+                        for b in ld)
+    desc = ("Consultant and analyst covering hospitality in Kenya, Uganda, Tanzania, "
+            "Zanzibar and Rwanda. Editor of the EA Hospitality Pulse daily brief.")
+    page = f"""<!DOCTYPE html>
+<html lang="en"><head>
+<meta charset="UTF-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Onyango George (OG) \u2014 editor, EA Hospitality Pulse</title>
+<meta name="description" content="{html.escape(desc)}">
+<meta name="robots" content="index,follow,max-image-preview:large,max-snippet:-1,max-video-preview:-1">
+<meta name="author" content="{AUTHOR_BYLINE}">
+<link rel="canonical" href="{url}">
+<meta name="theme-color" content="#0a4f48" media="(prefers-color-scheme: light)">
+<meta name="theme-color" content="#0d1512" media="(prefers-color-scheme: dark)">
+<meta name="color-scheme" content="light dark">
+<link rel="alternate" type="application/rss+xml" title="EA Hospitality Pulse" href="../feed.xml">
+<meta property="og:type" content="profile">
+<meta property="og:site_name" content="EA Hospitality Pulse">
+<meta property="og:title" content="Onyango George (OG) \u2014 editor, EA Hospitality Pulse">
+<meta property="og:description" content="{html.escape(desc)}">
+<meta property="og:url" content="{url}">
+<meta property="og:image" content="{BASE}/og/default.png">
+<meta property="og:image:width" content="1200"><meta property="og:image:height" content="630">
+<meta property="og:image:alt" content="Onyango George (OG), editor of EA Hospitality Pulse">
+<meta property="og:locale" content="en_GB">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="Onyango George (OG) \u2014 editor, EA Hospitality Pulse">
+<meta name="twitter:description" content="{html.escape(desc)}">
+<meta name="twitter:image" content="{BASE}/og/default.png">
+<meta name="twitter:image:alt" content="Onyango George (OG), editor of EA Hospitality Pulse">
+<link rel="icon" href="../favicon.png"><link rel="apple-touch-icon" href="../apple-touch-icon.png">
+{ld_html}
+<style>{ARTICLE_CSS}
+.tk-wrap{{overflow-x:auto;-webkit-overflow-scrolling:touch;margin:0 0 16px}}
+table.tk{{width:100%;border-collapse:collapse;font-family:var(--sans);font-size:14px}}
+table.tk td{{padding:10px 12px;border-bottom:1px solid var(--line);vertical-align:top;line-height:1.5}}
+table.tk td.k{{font-weight:600;min-width:180px}}
+table.tk td.num{{font-family:var(--mono);font-size:15px;white-space:nowrap;color:var(--teal-d);font-weight:700}}
+table.tk tbody tr:last-child td{{border-bottom:none}}
+.art h2{{font-size:19px;margin:30px 0 10px;letter-spacing:-.01em}}
+.who{{font:600 11px/1.6 var(--mono);letter-spacing:.09em;text-transform:uppercase;
+  color:var(--muted);margin:0 0 14px}}
+@media (prefers-color-scheme: dark){{table.tk td.num{{color:var(--gold-d)}}}}
+</style></head>
+<body>
+<a class="skip" href="#content">Skip to the profile</a>
+<header class="s"><div class="wrap"><a href="/"><span class="logo" aria-hidden="true">EA</span><b>EA Hospitality Pulse</b></a></div></header>
+<main class="wrap" id="content">
+  <article class="art">
+    <nav class="crumbs" aria-label="Breadcrumb"><a href="../index.html">Home</a>
+      <span aria-hidden="true">/</span><span aria-current="page">{AUTHOR_BYLINE}</span></nav>
+    <h1>{AUTHOR_BYLINE}</h1>
+    <p class="who">Editor, EA Hospitality Pulse &middot; Consultant &amp; analyst, East African hospitality</p>
+    <p class="standfirst">I advise hospitality businesses in Kenya, Uganda, Tanzania,
+    Zanzibar and Rwanda, and publish a daily market brief for the owners and
+    managers who have to act on the same information.</p>
+    {body}
+    <div class="sub">
+      <h2 class="sub-h">Elsewhere</h2>
+      <p class="sub-note">The brief publishes three times a day across all three channels.</p>
+      <ul class="chan">{sibs}</ul>
+    </div>
+  </article>
+</main>
+<footer class="s"><div class="wrap">
+<p class="f-line">EA Hospitality Pulse &mdash; daily intelligence for city, bush and beach properties across East Africa. Free to read, free to republish with attribution.</p>
+<p class="f-nav"><a href="../index.html">Home</a><a href="../trackers/index.html">Trackers</a><a href="../archive.html">Archive</a><a href="../methodology.html">Methodology</a><a href="../{AUTHOR_SLUG}.html">Editor</a><a href="../faq.html">FAQ</a><a href="../republish.html">Republish</a></p>
+<p class="f-geo">Kenya &middot; Uganda &middot; Tanzania &middot; Zanzibar &middot; Rwanda</p>
+</div></footer>
+</body></html>"""
+    os.makedirs(os.path.join(HERE, "about"), exist_ok=True)
+    open(os.path.join(HERE, AUTHOR_SLUG + ".html"), "w", encoding="utf-8").write(page)
+    print(f"Author page built: {AUTHOR_SLUG}.html "
+          f"({n_ed} editions, {lr['resolved'] if lr else 0} scored forecasts)")
+    return {"slug": AUTHOR_SLUG, "url": url}
+
+
 def main():
     # Static tracker pages. Every dataset on the site was an anchor section of
     # index.html rendered from JavaScript, so a searcher asking "Uganda gorilla
@@ -1428,6 +1650,10 @@ def main():
         # The homepage holds 68% of the site's impressions, so it is the best
         # internal link source the trackers can have. One nav entry, injected
         # idempotently rather than hand-edited into the markup.
+        if 'href="about/onyango-george.html"' not in idx:
+            idx = idx.replace('<a href="start-here.html">New Here? Start Here</a>',
+                              '<a href="start-here.html">New Here? Start Here</a>\n'
+                              '      <a href="about/onyango-george.html">Editor</a>', 1)
         if trackers and 'href="trackers/index.html"' not in idx:
             idx = idx.replace('<a href="start-here.html">New Here? Start Here</a>',
                               '<a href="start-here.html">New Here? Start Here</a>\n'
@@ -1579,6 +1805,7 @@ def main():
     except Exception as ex:
         print("guides skipped:", ex)
         guides = []
+    author_page = build_author_page(editions, guides, trackers)
     build_credits_page()
     polish_static_heads()
 
@@ -1633,6 +1860,8 @@ def main():
         urls.append((_loc, _lm, _cf))
     for g in guides:
         urls.append((f"{BASE}/guides/{g['slug']}.html", g["updated"], "monthly"))
+    if author_page:
+        urls.append((f"{BASE}/{AUTHOR_SLUG}.html", today, "monthly"))
     if trackers:
         # A tracker changes when its data changes, which is what lastmod is for.
         urls.append((f"{BASE}/trackers/index.html", today, "daily"))
@@ -1677,10 +1906,14 @@ def main():
             f"- [{tr['nav']}]({BASE}/trackers/{tr['slug']}.html): {tr['records']} records, "
             f"last updated {tr['updated']}"
             for tr in (trackers or []))
+        _auth = (f"\n\n## Author\n- [{AUTHOR_BYLINE}]({BASE}/{AUTHOR_SLUG}.html): "
+                 f"editor and author of every edition; consultant and analyst covering "
+                 f"hospitality in Kenya, Uganda, Tanzania, Zanzibar and Rwanda. "
+                 f"Contact {CONTACT_EMAIL}.")
         _block = ("<!--AUTO:RECENT-->\n## Ten most recent editions (auto-updated "
                   + today + ")\n" + _recent
                   + (("\n\n## Dataset freshness (auto-updated " + today + ")\n" + _tr) if _tr else "")
-                  + "\n<!--/AUTO:RECENT-->")
+                  + _auth + "\n<!--/AUTO:RECENT-->")
         if "<!--AUTO:RECENT-->" in _llms:
             _llms = re.sub(r"<!--AUTO:RECENT-->.*?<!--/AUTO:RECENT-->", lambda m: _block,
                            _llms, flags=re.S)
