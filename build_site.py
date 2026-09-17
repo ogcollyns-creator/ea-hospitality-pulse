@@ -172,7 +172,11 @@ def parse_items(tele):
         tagstr = it["tags"]
         # drop the optional 'impact:<token>' field before reading segment/country/confidence
         clean = re.sub(r"[·|]?\s*impact:\s*[+\-]?[a-zA-Z]+", "", tagstr, flags=re.I).strip(" ·|")
-        f=[x.strip() for x in re.split(r"[|·]", clean)]  # tags may use | or ·
+        # "·" joins multiple segments *within* the first field (e.g.
+        # "City·Bush·Beach"); "|" is the only field separator. Splitting on
+        # both broke multi-segment tags apart, shifting country into segments
+        # and confidence into country for every "A·B·C | ..." tag.
+        f=[x.strip() for x in re.split(r"\|", clean)]  # only | separates fields
         segs=segments_from_tag(f[0] if f else "")
         if not segs: continue
         conf = f[2] if len(f)>2 else ""
@@ -1231,7 +1235,7 @@ INDEXABLE_ROBOTS = ('<meta name="robots" content="index,follow,'
 
 # Pages the build already owns (index/archive) or that must never be indexed
 # (radar is an internal ops board) are handled elsewhere or left alone.
-_SEO_SKIP = {"index.html", "archive.html", "radar.html", "404.html"}
+_SEO_SKIP = {"index.html", "archive.html", "radar.html", "404.html", "signals.html"}
 
 def _head_has(head, needle):
     return needle in head
@@ -1547,6 +1551,262 @@ table.tk tbody tr:last-child td{{border-bottom:none}}
     return {"slug": AUTHOR_SLUG, "url": url}
 
 
+def build_signals_page(insights):
+    """Standalone, server-rendered "All signals" page.
+
+    The homepage's #signals section renders every insight from window.INSIGHTS
+    in client-side JS, so a crawler that doesn't run JS -- or a search landing
+    on "Zanzibar park fee levy" -- sees a masthead, not an answer. Same
+    diagnosis as build_trackers.py, same fix: a real URL with the whole feed
+    already present in the HTML source, filterable client-side on top of that.
+    """
+    SEGSHORT = {"city": "City", "bush": "Bush", "beach": "Beach"}
+
+    def imp_chip(it):
+        imp = it.get("impact")
+        if not imp:
+            return ""
+        n = it.get("intensity") or 2
+        cls = it.get("impactClass") or "watch"
+        dots = "".join(f'<i class="{"on" if k < n else ""}"></i>' for k in range(3))
+        src = "editor-set" if it.get("impactSet") == "author" else "auto-derived"
+        title = f"Impact ({src}): {imp} · intensity {n}/3"
+        return (f'<span class="imp imp-{html.escape(cls)}" title="{html.escape(title)}">'
+                f'{html.escape(imp)}<span class="dots">{dots}</span></span>')
+
+    def card(it):
+        segs = it.get("segments") or []
+        seg_class = " ".join(segs)
+        seg_label = "/".join(SEGSHORT.get(s, s) for s in segs)
+        headline = md_inline(html.escape(it["headline"]))
+        body = it.get("body", "")
+        body_html = ""
+        if body:
+            trimmed = body[:220] + ("…" if len(body) > 220 else "")
+            body_html = f"<p>{md_inline(html.escape(trimmed))}</p>"
+        sw = it.get("sowhat")
+        sw_html = f'<div class="isw">{md_inline(html.escape(sw))}</div>' if sw else ""
+        meta = [f'<span>{html.escape(it["dateDisplay"])}</span>',
+                f'<span>· {html.escape(it["edition"])}</span>']
+        if seg_label:
+            meta.append(f'<span>· {html.escape(seg_label)}</span>')
+        if it.get("countries"):
+            meta.append(f'<span>· {html.escape(it["countries"])}</span>')
+        if it.get("confidence"):
+            meta.append(f'<span class="conf">· {html.escape(it["confidence"])}</span>')
+        search_blob = html.escape(" ".join([
+            it["headline"], body, sw or "", it.get("countries") or "",
+            it.get("edition") or "", seg_label, it.get("confidence") or ""
+        ]).lower())
+        return (f'<a class="insight {html.escape(seg_class)}" data-seg="{html.escape(seg_class)}" '
+                f'data-q="{search_blob}" href="editions/{it["source"]}.html">'
+                f'{imp_chip(it)}<div class="imeta">{"".join(meta)}</div>'
+                f'<h3>{headline}</h3>{body_html}{sw_html}'
+                f'<span class="open">Open full edition →</span></a>')
+
+    cards_html = "\n".join(card(it) for it in insights)
+    n = len(insights)
+    updated = datetime.date.today().isoformat()
+
+    title = "All signals — every dated hospitality signal | EA Hospitality Pulse"
+    desc = (f"Every dated, sourced signal from EA Hospitality Pulse editions — {n} and counting — "
+            "searchable and filterable by city, bush or beach segment, with impact and confidence "
+            "on every line.")
+    url = BASE + "/signals.html"
+
+    ld_collection = {
+        "@context": "https://schema.org", "@type": "CollectionPage",
+        "@id": url + "#page", "url": url, "name": "All signals",
+        "description": desc, "isPartOf": {"@id": SITE_ID},
+        "about": {"@id": ORG_ID}, "inLanguage": "en",
+        "dateModified": updated,
+        "mainEntity": {"@type": "ItemList", "name": "EA Hospitality Pulse signals",
+                        "numberOfItems": n},
+    }
+    ld = f'<script type="application/ld+json">{json.dumps(ld_collection)}</script>'
+
+    style = """
+  :root{
+    --sand:#0a0f1a; --sand-2:#141f33; --ink:#e8edf5; --muted:#93a0b6;
+    --gold:#e2a93d; --gold-d:#caa14a; --teal:#17a495; --teal-d:#0f6d63;
+    --city:#5b8fd6; --bush:#a8c258; --beach:#33c2d4; --line:#233047;
+    --card:#0f1826; --coral:#ff6b4a; --sage:#57c08a; --amber:#e6b800;
+    --sans:'Helvetica Neue',Arial,sans-serif;
+    --mono:ui-monospace,'SF Mono','Roboto Mono',Menlo,Consolas,monospace;
+  }
+  *{box-sizing:border-box}
+  body{margin:0;font-family:Georgia,Cambria,serif;color:var(--ink);background:var(--sand);line-height:1.6}
+  a{color:#43bcae}
+  .wrap{max-width:1060px;margin:0 auto;padding:0 22px}
+  header.site{background:linear-gradient(135deg,#0b1526,#101f37);border-bottom:1px solid var(--line);padding:8px 0}
+  .topbar{display:flex;align-items:center;justify-content:space-between;gap:14px;flex-wrap:wrap}
+  .brand{display:flex;align-items:center;gap:12px;text-decoration:none;color:inherit}
+  .logo{width:42px;height:42px;border-radius:9px;background:var(--gold);display:grid;place-items:center;font-size:22px;color:#1a1206;font-weight:800;box-shadow:0 2px 8px rgba(0,0,0,.25)}
+  .brand h1{font-size:20px;margin:0;letter-spacing:.2px;color:#fff}
+  .brand p{margin:0;font-family:var(--sans);font-size:12.5px;color:#c7d0e0}
+  nav.top a{color:#fff;font-family:var(--sans);font-size:14px;margin-left:18px;opacity:.9;text-decoration:none}
+  nav.top a:hover{opacity:1;border-bottom:2px solid var(--gold)}
+  main.wrap{padding:28px 22px 40px}
+  .crumbs{font-family:var(--sans);font-size:13px;color:var(--muted);margin:0 0 14px}
+  .crumbs a{color:var(--muted)}
+  .section-head{display:flex;align-items:baseline;justify-content:space-between;gap:12px;flex-wrap:wrap;margin-bottom:6px}
+  .kicker{font-family:var(--sans);text-transform:uppercase;letter-spacing:2px;font-size:12px;color:var(--gold-d);font-weight:700}
+  h1.pg{font-size:clamp(26px,4vw,40px);margin:6px 0 10px;line-height:1.15}
+  .lede{color:var(--muted);font-family:var(--sans);font-size:14.5px;margin:0 0 16px;max-width:64ch}
+  .sigtabs{display:flex;gap:8px;flex-wrap:wrap;margin:0 0 16px}
+  .sigtab{font-family:var(--sans);font-size:13.5px;font-weight:700;padding:9px 16px;border-radius:22px;border:1px solid var(--line);background:var(--card);color:var(--muted);cursor:pointer;text-decoration:none;transition:all .12s}
+  .sigtab.active{background:var(--gold);color:#1a1206;border-color:var(--gold)}
+  .controls{display:flex;gap:10px;flex-wrap:wrap;margin-bottom:18px}
+  .controls input{flex:1;min-width:200px;font-family:var(--sans);font-size:14px;padding:11px 14px;border:1px solid var(--line);border-radius:8px;background:var(--card);color:var(--ink)}
+  .controls input::placeholder{color:var(--muted)}
+  .cards{display:grid;grid-template-columns:repeat(auto-fill,minmax(300px,1fr));gap:18px}
+  .insight{position:relative;display:block;background:var(--card);border:1px solid var(--line);border-left:4px solid var(--gold);border-radius:10px;padding:18px 20px;text-decoration:none;color:inherit;transition:transform .12s,box-shadow .12s}
+  .insight:hover{transform:translateY(-2px);box-shadow:0 8px 22px rgba(0,0,0,.35)}
+  .insight.city{border-left-color:var(--city)}
+  .insight.bush{border-left-color:var(--bush)}
+  .insight.beach{border-left-color:var(--beach)}
+  .insight .imeta{font-family:var(--sans);font-size:12px;color:var(--muted);display:flex;gap:8px;flex-wrap:wrap;align-items:center;margin-bottom:6px}
+  .insight .imeta .conf{font-weight:700;color:var(--gold-d)}
+  .insight h3{margin:2px 0 8px;font-size:17px;line-height:1.3;color:var(--ink)}
+  .insight p{font-family:var(--sans);font-size:14px;color:var(--muted);margin:0 0 6px}
+  .insight .isw{font-family:var(--sans);font-size:14px;background:var(--sand-2);padding:8px 12px;border-radius:6px;margin:8px 0 4px}
+  .insight .open{font-family:var(--sans);font-size:13px;font-weight:600;color:var(--teal);margin-top:10px;display:inline-block}
+  .imp{position:absolute;top:16px;right:18px;display:inline-flex;align-items:center;gap:7px;font-family:var(--mono);font-size:11px;font-weight:800;letter-spacing:.3px}
+  .imp-demand{color:var(--sage)} .imp-margin{color:var(--coral)} .imp-risk{color:#ff5b5b} .imp-watch{color:var(--amber)}
+  .imp .dots{display:inline-flex;gap:3px}
+  .imp .dots i{width:5px;height:5px;border-radius:50%;background:currentColor;opacity:.25}
+  .imp .dots i.on{opacity:1}
+  @media(max-width:520px){.imp{position:static;display:inline-flex;margin:0 0 9px}}
+  .empty{color:var(--muted);font-style:italic;padding:20px 0;display:none;font-family:var(--sans)}
+  .loadmore-row{display:flex;flex-direction:column;align-items:center;gap:8px;margin:26px 0 6px}
+  .count-note{font-family:var(--sans);font-size:13px;color:var(--muted)}
+  .btn-load{font-family:var(--sans);font-weight:600;font-size:15px;padding:12px 20px;border-radius:8px;border:none;background:var(--teal-d);color:#fff;cursor:pointer}
+  footer.site{padding:28px 0;text-align:center;color:var(--muted);font-family:var(--sans);font-size:13px}
+  .foot-links{margin-top:10px;font-size:12.5px}
+  .foot-links a{margin:0 2px;color:var(--muted)}
+"""
+
+    js = """
+(function(){
+  var all = Array.prototype.slice.call(document.querySelectorAll('.insight'));
+  var PAGE = 30, shown = PAGE;
+  var seg = 'all', q = '';
+  var params = new URLSearchParams(location.search);
+  if (params.get('seg')) seg = params.get('seg');
+  var tabs = document.querySelectorAll('.sigtab');
+  tabs.forEach(function(t){
+    if (t.dataset.seg === seg) t.classList.add('active'); else t.classList.remove('active');
+  });
+  var search = document.getElementById('search');
+  var empty = document.getElementById('empty');
+  var loadmore = document.getElementById('loadmore');
+  var count = document.getElementById('count');
+  function matches(el){
+    if (seg !== 'all' && el.dataset.seg.indexOf(seg) === -1) return false;
+    if (q && el.dataset.q.indexOf(q) === -1) return false;
+    return true;
+  }
+  function render(){
+    var vis = all.filter(matches);
+    all.forEach(function(el){ el.style.display = 'none'; });
+    vis.forEach(function(el, i){ if (i < shown) el.style.display = ''; });
+    empty.style.display = vis.length ? 'none' : 'block';
+    loadmore.style.display = vis.length > shown ? '' : 'none';
+    count.textContent = vis.length ? ('Showing ' + Math.min(shown, vis.length) + ' of ' + vis.length) : '';
+  }
+  tabs.forEach(function(t){
+    t.addEventListener('click', function(ev){
+      ev.preventDefault();
+      seg = t.dataset.seg; shown = PAGE;
+      tabs.forEach(function(x){ x.classList.toggle('active', x === t); });
+      var u = new URL(location.href);
+      if (seg === 'all') u.searchParams.delete('seg'); else u.searchParams.set('seg', seg);
+      history.replaceState(null, '', u);
+      render();
+    });
+  });
+  if (search) search.addEventListener('input', function(){
+    q = search.value.trim().toLowerCase(); shown = PAGE; render();
+  });
+  if (loadmore) loadmore.addEventListener('click', function(){ shown += PAGE; render(); });
+  render();
+})();
+"""
+
+    html_doc = f"""<!DOCTYPE html>
+<html lang="en"><head>
+<meta charset="UTF-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>{html.escape(title)}</title>
+<meta name="description" content="{html.escape(desc)}">
+<meta name="robots" content="index,follow,max-image-preview:large,max-snippet:-1,max-video-preview:-1">
+<meta name="author" content="{AUTHOR_BYLINE}">
+<link rel="canonical" href="{url}">
+<meta name="theme-color" content="#0a0f1a">
+<meta name="color-scheme" content="dark">
+<link rel="alternate" type="application/rss+xml" title="EA Hospitality Pulse" href="feed.xml">
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="EA Hospitality Pulse">
+<meta property="og:title" content="All signals — EA Hospitality Pulse">
+<meta property="og:description" content="{html.escape(desc)}">
+<meta property="og:url" content="{url}">
+<meta property="og:image" content="{BASE}/og/default.png">
+<meta property="og:image:width" content="1200"><meta property="og:image:height" content="630">
+<meta property="og:image:alt" content="EA Hospitality Pulse — all signals">
+<meta property="og:locale" content="en_GB">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="All signals — EA Hospitality Pulse">
+<meta name="twitter:description" content="{html.escape(desc)}">
+<meta name="twitter:image" content="{BASE}/og/default.png">
+<link rel="icon" href="favicon.png"><link rel="apple-touch-icon" href="apple-touch-icon.png">
+{ld}
+<style>{style}</style></head>
+<body>
+<header class="site"><div class="wrap topbar">
+  <a class="brand" href="index.html"><div class="logo" aria-hidden="true">EA</div>
+    <div><h1>EA Hospitality Pulse</h1><p>Daily intelligence for city, bush &amp; beach properties</p></div></a>
+  <nav class="top">
+    <a href="index.html">Home</a>
+    <a href="start-here.html">New Here? Start Here</a>
+    <a href="about/onyango-george.html">Editor</a>
+    <a href="trackers/index.html">Trackers</a>
+    <a href="signals.html">Signals</a>
+    <a href="archive.html">Archive</a>
+  </nav>
+</div></header>
+<main class="wrap">
+  <nav class="crumbs" aria-label="Breadcrumb"><a href="index.html">Home</a> <span aria-hidden="true">/</span> <span aria-current="page">All signals</span></nav>
+  <div class="section-head"><div><div class="kicker">Live signal feed</div><h1 class="pg">All signals</h1></div></div>
+  <p class="lede">Every dated, sourced signal from every EA Hospitality Pulse edition — {n} so far — filterable by segment, with a clear "so what" for pricing and inventory on every line.</p>
+  <div class="sigtabs" id="sigtabs">
+    <a class="sigtab" data-seg="all" href="signals.html">All signals</a>
+    <a class="sigtab" data-seg="city" href="signals.html?seg=city">\U0001F3D9 City</a>
+    <a class="sigtab" data-seg="bush" href="signals.html?seg=bush">\U0001F33F Bush</a>
+    <a class="sigtab" data-seg="beach" href="signals.html?seg=beach">\U0001F3D6 Beach</a>
+  </div>
+  <div class="controls"><input id="search" type="text" placeholder="Search all signals..."></div>
+  <div class="cards" id="cards">
+{cards_html}
+  </div>
+  <div class="empty" id="empty">No signals match your search yet.</div>
+  <div class="loadmore-row">
+    <span id="count" class="count-note"></span>
+    <button id="loadmore" class="btn-load" style="display:none">Load older ↓</button>
+  </div>
+</main>
+<footer class="site"><div class="wrap">
+  <p>EA Hospitality Pulse — Daily intelligence for city, bush &amp; beach properties across East Africa.<br>
+  {updated} · Kenya · Uganda · Tanzania · Zanzibar · Rwanda</p>
+  <p class="foot-links"><a href="archive.html">Archive</a> · <a href="trackers/index.html">Trackers</a> · <a href="methodology.html">Methodology</a> · <a href="republish.html">Republish</a> · <a href="privacy.html">Privacy</a> · <a href="terms.html">Terms</a> · <a href="mailto:{CONTACT_EMAIL}">Contact</a></p>
+</div></footer>
+<script>{js}</script>
+</body></html>"""
+
+    with open(os.path.join(HERE, "signals.html"), "w", encoding="utf-8") as f:
+        f.write(html_doc)
+    return n
+
+
+
 def main():
     # Static tracker pages. Every dataset on the site was an anchor section of
     # index.html rendered from JavaScript, so a searcher asking "Uganda gorilla
@@ -1587,6 +1847,14 @@ def main():
     for e in editions:
         e.pop("_key", None)
     insights.sort(key=lambda i:(i["date"],i["source"]), reverse=True)
+
+    # Static "All signals" page. Same rationale as the trackers: every
+    # insight lived only in window.INSIGHTS, rendered client-side on the
+    # homepage, invisible to a crawler that does not run JS.
+    try:
+        n_sig = build_signals_page(insights)
+    except Exception as ex:
+        print("signals page skipped:", ex)
 
     # data.js
     with open(os.path.join(HERE,"data.js"),"w",encoding="utf-8") as f:
@@ -1658,6 +1926,10 @@ def main():
             idx = idx.replace('<a href="start-here.html">New Here? Start Here</a>',
                               '<a href="start-here.html">New Here? Start Here</a>\n'
                               '      <a href="trackers/index.html">Trackers</a>', 1)
+        if '<a href="signals.html">Signals</a>' not in idx:
+            idx = idx.replace('<a href="trackers/index.html">Trackers</a>',
+                              '<a href="trackers/index.html">Trackers</a>\n'
+                              '      <a href="signals.html">Signals</a>', 1)
 
         # Dataset consolidation. Each homepage Dataset node addressed itself to
         # an index.html anchor; the tracker pages now hold the same datasets at
@@ -1847,6 +2119,7 @@ def main():
     # The home page and the archive genuinely change every build (a new edition
     # lands in both); everything else states the date it actually last changed.
     _STATIC = [("index.html", "daily"), ("archive.html", "daily"),
+               ("signals.html", "daily"),
                ("republish.html", "monthly"), ("methodology.html", "monthly"),
                ("faq.html", "monthly"), ("start-here.html", "monthly"),
                ("survey.html", "monthly"), ("survey-pay.html", "monthly"),
