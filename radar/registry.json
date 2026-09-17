@@ -4094,6 +4094,50 @@
    "frag": "",
    "transport": "agent-search",
    "transport_note": "Detail pages fetch cleanly; the listing may 403 at the crawler. Recover via agent search on 'Rwanda Ministry of Health EVD update'."
+  },
+  {
+   "id": "afraa-capacity",
+   "name": "AFRAA — monthly African air transport / capacity brief",
+   "url": "https://afraa.org/news/",
+   "tier": 1,
+   "country": "REG",
+   "category": "aviation",
+   "method": "html",
+   "cadence_min": 720,
+   "lead_days": 5,
+   "segments": [
+    "city",
+    "bush",
+    "beach"
+   ],
+   "slots": [
+    "midday"
+   ],
+   "why": "Monthly continental seat-capacity tables rank JKIA, Bole, JNIA and Entebbe against each other - the cleanest public read on where East African air access is actually going.",
+   "frag": ""
+  },
+  {
+   "id": "ke-capitalfm-business",
+   "name": "Capital FM Kenya — business desk",
+   "url": "https://capitalfm.africa/business/",
+   "tier": 2,
+   "country": "KE",
+   "category": "press",
+   "method": "html",
+   "cadence_min": 180,
+   "lead_days": 2,
+   "segments": [
+    "city",
+    "bush",
+    "beach"
+   ],
+   "slots": [
+    "morning",
+    "midday",
+    "evening"
+   ],
+   "why": "Carries KTB, KAA and AFRAA releases early with precise timestamps, and syndicates BBC macro copy overnight - where global rate decisions reach the EA feed first.",
+   "frag": ""
   }
  ]
 }

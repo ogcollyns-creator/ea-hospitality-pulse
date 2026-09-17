@@ -1,8 +1,8 @@
 window.LEDGER = {
- "updated": "2026-09-15 14:10",
+ "updated": "2026-09-17 08:58",
  "stats": {
-  "total": 187,
-  "open": 136,
+  "total": 190,
+  "open": 139,
   "resolved": 50,
   "correct": 39,
   "partial": 1,
@@ -40,6 +40,22 @@ window.LEDGER = {
    "resolved_date": "",
    "evidence": "",
    "source_url": "https://travel.state.gov/content/travel/en/traveladvisories/traveladvisories/kenya-travel-advisory.html",
+   "overdue": false
+  },
+  {
+   "id": "P187",
+   "made_date": "2026-09-17",
+   "edition": "Morning Brief",
+   "claim": "The Bank of England will RAISE Bank Rate at its decision on 17 September 2026 - the Federal Reserve raised on 16 September and the ECB raised the week before, and all three are responding to the same fuel-led inflation impulse from the US-Israel war with Iran",
+   "resolution_criteria": "Read the Bank of England Monetary Policy Summary published at bankofengland.co.uk on 17 September 2026 (or its reporting in the BBC, Reuters, Financial Times or Capital FM). Any increase in Bank Rate resolves the call CORRECT. A hold or a cut resolves it INCORRECT",
+   "resolve_by": "2026-09-19",
+   "market": "Regional",
+   "segment": "City|Bush|Beach",
+   "confidence": "Medium",
+   "status": "open",
+   "resolved_date": "",
+   "evidence": "",
+   "source_url": "https://capitalfm.africa/us-interest-rates-raised-for-first-time-in-three-years/",
    "overdue": false
   },
   {
@@ -843,6 +859,22 @@ window.LEDGER = {
    "overdue": false
   },
   {
+   "id": "P188",
+   "made_date": "2026-09-17",
+   "edition": "Morning Brief",
+   "claim": "AFRAA's next published monthly seat-capacity table will again place Addis Ababa Bole above Nairobi JKIA by more than 500,000 seats - Bole carried 1.25m against JKIA's 567,644 in August 2026, a gap of roughly 682,000 that no announced Kenyan capacity addition closes inside a quarter",
+   "resolution_criteria": "The AFRAA monthly air transport brief covering September or October 2026 (afraa.org, or its reporting in Capital FM, Business Daily, The EastAfrican or ch-aviation) published on or before 15 December 2026 showing Addis Ababa Bole total seat capacity exceeding Nairobi JKIA by more than 500,000 seats resolves the call CORRECT. A gap of 500,000 seats or less resolves it INCORRECT",
+   "resolve_by": "2026-12-15",
+   "market": "KE",
+   "segment": "City",
+   "confidence": "Confirmed",
+   "status": "open",
+   "resolved_date": "",
+   "evidence": "",
+   "source_url": "https://capitalfm.africa/jkia-ranks-sixth-in-africa-by-seat-capacity/",
+   "overdue": false
+  },
+  {
    "id": "P150",
    "made_date": "2026-09-05",
    "edition": "pulse-2026-09-05-morning",
@@ -1256,6 +1288,22 @@ window.LEDGER = {
    "resolved_date": "",
    "evidence": "",
    "source_url": "https://www.moh.gov.rw/news-detail/notice-on-enhanced-ebola-prevention-measures",
+   "overdue": false
+  },
+  {
+   "id": "P189",
+   "made_date": "2026-09-17",
+   "edition": "Morning Brief",
+   "claim": "Kenya Tourism Board will NOT publish a country-level breakdown of its 50,000 Middle East arrivals target on or before 31 December 2026 - the 20,480 baseline it disclosed is 48% Israel, Yemen and Iran, and a published split would require the board to forecast arrivals from three markets at war",
+   "resolution_criteria": "Search ktb.go.ke, tourism.go.ke, tri.go.ke and Kenyan national press to 31 December 2026. Any KTB document, press release or briefing that assigns the 50,000 target to named source countries or states a Gulf-versus-rest split resolves the call INCORRECT. Absence of any such breakdown resolves it CORRECT",
+   "resolve_by": "2026-12-31",
+   "market": "KE",
+   "segment": "City|Beach",
+   "confidence": "Inference",
+   "status": "open",
+   "resolved_date": "",
+   "evidence": "",
+   "source_url": "https://capitalfm.africa/kenya-seeks-to-more-than-double-tourist-numbers-from-middle-east/",
    "overdue": false
   },
   {

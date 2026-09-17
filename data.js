@@ -1,5 +1,14 @@
 window.EDITIONS = [
  {
+  "id": "pulse-2026-09-17-morning",
+  "date": "2026-09-17",
+  "dateDisplay": "Thursday, 17 September 2026",
+  "edition": "Morning Brief",
+  "editionKey": "morning",
+  "summary": "Three inputs into your 2027 P&L moved overnight. None of them moved in East Africa.",
+  "bodyHtml": "<p><span class=\"meta-line\">🏨 EA HOSPITALITY PULSE — Morning Brief</span><br><span class=\"meta-line\">📅 Thursday, 17 September 2026 | 🇰🇪 🇺🇬 🇹🇿 🇷🇼</span></p>\n<p>Three inputs into your 2027 P&amp;L moved overnight. None of them moved in East Africa.<br>━━━━━━━━━<br><strong>1️⃣ THE FED RAISED. YOUR DOLLAR DEBT JUST REPRICED.</strong><br>The US Federal Reserve raised rates to 3.75–4.00% from 3.50–3.75% in a unanimous vote, its first increase since July 2023 <strong>(BBC, 17 September 2026)</strong>. Chair Kevin Warsh said inflation is &quot;too high and has been for too long&quot; — fuel-led, since the US–Israel war with Iran. Most policymakers expect a further rise to 4.00–4.25% before year-end. JP Morgan, KeyCorp and BNY lifted prime to 7% the same day. The ECB raised last week; the Bank of England decides today.<br><span class=\"sowhat\">🎯 <strong>So what:</strong> Reprice any USD-denominated or floating refurbishment facility this week, not at drawdown — and delete &quot;weakening dollar&quot; from your 2027 rate-card assumptions. A higher US floor pulls at KES, UGX, TZS and RWF in the same month Kenya&#x27;s 8% fuel VAT expires on 14 October.</span><br><span class=\"tagline\">🏷 City·Bush·Beach | Regional | Confirmed | impact:margin</span></p>\n<p><strong>2️⃣ HALF OF KENYA&#x27;S &quot;MIDDLE EAST&quot; MARKET IS AT WAR</strong><br>Kenya Tourism Board will target 50,000 Middle East arrivals, against 20,480 in FY2025/26, CEO June Chepkemei said at Arabian Travel Market <strong>(Capital FM, 16 September 2026)</strong>. The line nobody quoted: Israel, Yemen and Iran supplied <strong>48%</strong> of those arrivals. The UAE gave 10%, Saudi Arabia 7%.<br><span class=\"sowhat\">🎯 <strong>So what:</strong> The connectivity case — Emirates three daily into Nairobi, flydubai four weekly — points at the 17% that is Gulf. Build your Middle East plan on GCC leisure, wellness and family, and treat the Israel/Iran/Yemen half as revenue you cannot forecast. Diaspora Open Day is 10 October.</span><br><span class=\"tagline\">🏷 City·Beach | 🇰🇪 | Confirmed | impact:watch</span></p>\n<p><strong>3️⃣ ADDIS FLIES 2.2 SEATS FOR EVERY ONE JKIA FLIES</strong><br>JKIA ranked sixth in Africa on August seat capacity at 567,644 seats, against Addis Ababa Bole&#x27;s 1.25m and Cairo&#x27;s 1.85m <strong>(AFRAA, via Capital FM, 16 September 2026)</strong>. Continental capacity rose 8.8% year on year; intra-African seats rose 10.5%.<br><span class=\"sowhat\">🎯 <strong>So what:</strong> Intra-African is growing faster than the continent. Put a regional corporate and MICE rate in market now — the incremental seat into Nairobi is increasingly African, not European.</span><br><span class=\"tagline\">🏷 City | 🇰🇪 | Confirmed | impact:watch</span></p>\n<p><strong>4️⃣ THE SEVENTH PROVINCE HAS A NAME: SUD-UBANGI</strong><br>ECDC&#x27;s DRC outbreak page now lists Sud-Ubangi among affected provinces — one case, one death, one of 16 health zones — alongside 7,258 confirmed cases and 3,510 deaths on data to 13 September <strong>(ECDC, updated 15 September 2026)</strong>. Sud-Ubangi sits over 1,000km north-west of Ituri, nowhere near an East African border.<br><span class=\"sowhat\">🎯 <strong>So what:</strong> Nothing changes at your gate. But the CDC&#x27;s Title 42 order covering Uganda falls due for renewal around 11 October, and its release condition is DRC-side. A national-scale outbreak makes that order easier to renew, not harder. Keep selling &quot;outbreak over&quot; for Uganda, not &quot;restrictions lifted&quot;.</span><br><span class=\"tagline\">🏷 Bush·City | 🇺🇬🇷🇼 | Confirmed | impact:risk</span><br>━━━━━━━━━<br><span class=\"meta-line\">📡 <strong>RADAR</strong></span><br>• Bank of England rate decision — today, 17 September<br>• KRA&#x27;s reduced 8% VAT on petrol, diesel and kerosene expires 14 October; EPRA&#x27;s frozen pump cycle ends the same day<br>• CDC Title 42 Ebola entry order next decision point ~11 October<br>• KTB Diaspora Open Day, UAE — 10 October</p>\n<p>🔎 Blind spot declared: africacdc.org&#x27;s download portal stayed dark to us this morning; the equivalent line-level data was recovered via ECDC. Kenya&#x27;s gazette portal was again unreachable and produced no substitute notice.</p>\n<p><span class=\"meta-line\">💬 Is your 2027 debt priced off a dollar you assumed would fall?</span></p>\n<p>🔗 This edition on the web: <a href=\"https://eahospitalitypulse.com/editions/pulse-2026-09-17-morning.html\" rel=\"noopener\">eahospitalitypulse.com/editions/pulse-2026-09-17-mornin…</a><br>— EA Hospitality Pulse | Daily intelligence for city, bush &amp; beach properties</p>"
+ },
+ {
   "id": "pulse-2026-09-15-evening",
   "date": "2026-09-15",
   "dateDisplay": "Tuesday, 15 September 2026",
@@ -928,6 +937,82 @@ window.EDITIONS = [
  }
 ];
 window.INSIGHTS = [
+ {
+  "headline": "THE FED RAISED. YOUR DOLLAR DEBT JUST REPRICED.",
+  "body": "The US Federal Reserve raised rates to 3.75–4.00% from 3.50–3.75% in a unanimous vote, its first increase since July 2023 *(BBC, 17 September 2026)*. Chair Kevin Warsh said inflation is \"too high and has been for too long\" — fuel-led, since the US–Israel war with Iran. Most policymakers expect a further rise to 4.00–4.25% before year-end. JP Morgan, KeyCorp and BNY lifted prime to 7% the same day. The ECB raised last week; the Bank of England decides today.",
+  "sowhat": "🎯 **So what:** Reprice any USD-denominated or floating refurbishment facility this week, not at drawdown — and delete \"weakening dollar\" from your 2027 rate-card assumptions. A higher US floor pulls at KES, UGX, TZS and RWF in the same month Kenya's 8% fuel VAT expires on 14 October.",
+  "segments": [
+   "city"
+  ],
+  "countries": "Bush",
+  "confidence": "Beach",
+  "impact": "-margin",
+  "impactClass": "margin",
+  "intensity": 2,
+  "impactSet": "author",
+  "source": "pulse-2026-09-17-morning",
+  "date": "2026-09-17",
+  "dateDisplay": "Thursday, 17 September 2026",
+  "edition": "Morning Brief",
+  "editionKey": "morning"
+ },
+ {
+  "headline": "HALF OF KENYA'S \"MIDDLE EAST\" MARKET IS AT WAR",
+  "body": "Kenya Tourism Board will target 50,000 Middle East arrivals, against 20,480 in FY2025/26, CEO June Chepkemei said at Arabian Travel Market *(Capital FM, 16 September 2026)*. The line nobody quoted: Israel, Yemen and Iran supplied **48%** of those arrivals. The UAE gave 10%, Saudi Arabia 7%.",
+  "sowhat": "🎯 **So what:** The connectivity case — Emirates three daily into Nairobi, flydubai four weekly — points at the 17% that is Gulf. Build your Middle East plan on GCC leisure, wellness and family, and treat the Israel/Iran/Yemen half as revenue you cannot forecast. Diaspora Open Day is 10 October.",
+  "segments": [
+   "city"
+  ],
+  "countries": "Beach",
+  "confidence": "🇰🇪",
+  "impact": "watch",
+  "impactClass": "watch",
+  "intensity": 2,
+  "impactSet": "author",
+  "source": "pulse-2026-09-17-morning",
+  "date": "2026-09-17",
+  "dateDisplay": "Thursday, 17 September 2026",
+  "edition": "Morning Brief",
+  "editionKey": "morning"
+ },
+ {
+  "headline": "ADDIS FLIES 2.2 SEATS FOR EVERY ONE JKIA FLIES",
+  "body": "JKIA ranked sixth in Africa on August seat capacity at 567,644 seats, against Addis Ababa Bole's 1.25m and Cairo's 1.85m *(AFRAA, via Capital FM, 16 September 2026)*. Continental capacity rose 8.8% year on year; intra-African seats rose 10.5%.",
+  "sowhat": "🎯 **So what:** Intra-African is growing faster than the continent. Put a regional corporate and MICE rate in market now — the incremental seat into Nairobi is increasingly African, not European.",
+  "segments": [
+   "city"
+  ],
+  "countries": "🇰🇪",
+  "confidence": "Confirmed",
+  "impact": "watch",
+  "impactClass": "watch",
+  "intensity": 3,
+  "impactSet": "author",
+  "source": "pulse-2026-09-17-morning",
+  "date": "2026-09-17",
+  "dateDisplay": "Thursday, 17 September 2026",
+  "edition": "Morning Brief",
+  "editionKey": "morning"
+ },
+ {
+  "headline": "THE SEVENTH PROVINCE HAS A NAME: SUD-UBANGI",
+  "body": "ECDC's DRC outbreak page now lists Sud-Ubangi among affected provinces — one case, one death, one of 16 health zones — alongside 7,258 confirmed cases and 3,510 deaths on data to 13 September *(ECDC, updated 15 September 2026)*. Sud-Ubangi sits over 1,000km north-west of Ituri, nowhere near an East African border.",
+  "sowhat": "🎯 **So what:** Nothing changes at your gate. But the CDC's Title 42 order covering Uganda falls due for renewal around 11 October, and its release condition is DRC-side. A national-scale outbreak makes that order easier to renew, not harder. Keep selling \"outbreak over\" for Uganda, not \"restrictions lifted\".",
+  "segments": [
+   "bush"
+  ],
+  "countries": "City",
+  "confidence": "🇺🇬🇷🇼",
+  "impact": "risk",
+  "impactClass": "risk",
+  "intensity": 2,
+  "impactSet": "author",
+  "source": "pulse-2026-09-17-morning",
+  "date": "2026-09-17",
+  "dateDisplay": "Thursday, 17 September 2026",
+  "edition": "Morning Brief",
+  "editionKey": "morning"
+ },
  {
   "headline": "SAUDI SHUT THE PIPELINE THAT WAS KENYA'S WAY AROUND HORMUZ",
   "body": "Saudi Arabia has closed its **1,200km East-West pipeline** after drone strikes near Riyadh and Medina. The line runs crude from Abqaiq to the Red Sea to bypass the Strait of Hormuz — and it is why Aramco displaced the UAE as Kenya's largest G-to-G supplier: **KSh 99.78bn** of imports in the quarter to May against the UAE's **KSh 42.10bn** *(KNBS, via Business Daily, 14 September 2026)*. Hormuz itself runs at roughly **6–9m barrels a day against 20m+ pre-war**. Brent closed Monday at **US$107**. An unnamed oil-industry executive told *Business Daily* nine days of Platts show super up ~**US$87/m³**, diesel **US$57**. Energy CS Opiyo Wandayi: supply is securable, but \"what we cannot guarantee is the prices\".",
@@ -4604,4 +4689,4 @@ window.INSIGHTS = [
   "editionKey": "evening"
  }
 ];
-window.BUILT_AT = "2026-09-15 14:10";
+window.BUILT_AT = "2026-09-17 08:58";
