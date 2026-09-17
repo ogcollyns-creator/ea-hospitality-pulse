@@ -1,18 +1,179 @@
 {
- "generated": "2026-09-17T17:20:05+03:00",
+ "generated": "2026-09-17T21:02:06+03:00",
  "slot": "evening",
  "window_start": 1789639200,
- "observations_in_window": 226,
+ "observations_in_window": 385,
  "deduped_against": 4,
  "candidates": [
   {
-   "score": 123.4,
+   "score": 165.0,
+   "components": {
+    "tier": 40,
+    "category": 32,
+    "lead": 1.2,
+    "relevance": 60,
+    "freshness": 19.8,
+    "undated": -6,
+    "shock": 18
+   },
+   "keywords": [
+    "outbreak",
+    "ebola",
+    "terror",
+    "kidnap",
+    "level 4",
+    "flight"
+   ],
+   "shock_terms": [
+    "level 4",
+    "do not travel",
+    "outbreak"
+   ],
+   "dedupe_match": null,
+   "dedupe_similarity": 0.0,
+   "id": "0906ff4b4e50",
+   "title": "Democratic Republic of the Congo - Level 4: Do Not Travel",
+   "url": "https://travel.state.gov/content/tsg_aem/us/en/home/international-travel/travel-advisories/destination.cod.html",
+   "summary": "Do not travel to the Democratic Republic of the Congo (DRC) due to health , crime , unrest , terrorism , and kidnapping Due to the Ebola outbreak in the DRC, the Department of Homeland Security has implemented new restrictions under Title 49 of the U.S. Code which prevent U.S. citizens and nationals who have been in the DRC within a 21-day period from boarding commercial flights into the United St",
+   "kind": "item",
+   "source": "US State Dept travel advisories (EA feed)",
+   "source_id": "adv-us-ea",
+   "tier": 1,
+   "country": "REG",
+   "category": "advisory",
+   "segments": [
+    "city",
+    "bush",
+    "beach"
+   ],
+   "first_seen": "2026-09-17T20:59+03:00",
+   "published": null,
+   "verdict": "LEAD CANDIDATE \u2014 tier-1 shock language"
+  },
+  {
+   "score": 153.0,
+   "components": {
+    "tier": 40,
+    "category": 32,
+    "lead": 1.2,
+    "relevance": 48,
+    "freshness": 19.8,
+    "undated": -6,
+    "shock": 18
+   },
+   "keywords": [
+    "advisory",
+    "terror",
+    "kidnap",
+    "level 3"
+   ],
+   "shock_terms": [
+    "level 3",
+    "reconsider travel"
+   ],
+   "dedupe_match": null,
+   "dedupe_similarity": 0.0,
+   "id": "5bc6fb9bf442",
+   "title": "Ethiopia - Level 3: Reconsider Travel",
+   "url": "https://travel.state.gov/content/tsg_aem/us/en/home/international-travel/travel-advisories/destination.eth.html",
+   "summary": "Reconsider travel to Ethiopia due to unrest, crime, kidnapping, terrorism, landmines, communications disruptions, and exit bans. Some areas have increased risk. Read the entire Travel Advisory. Unrest The security situation in Addis Ababa is stable. However, there is sporadic violent, armed conflict, and civil unrest outside of Addis Ababa. The security situation may worsen suddenly without warnin",
+   "kind": "item",
+   "source": "US State Dept travel advisories (EA feed)",
+   "source_id": "adv-us-ea",
+   "tier": 1,
+   "country": "REG",
+   "category": "advisory",
+   "segments": [
+    "city",
+    "bush",
+    "beach"
+   ],
+   "first_seen": "2026-09-17T20:59+03:00",
+   "published": null,
+   "verdict": "LEAD CANDIDATE \u2014 tier-1 shock language"
+  },
+  {
+   "score": 122.1,
+   "components": {
+    "tier": 40,
+    "category": 24,
+    "lead": 2.4,
+    "relevance": 24,
+    "freshness": 19.7,
+    "undated": -6,
+    "shock": 18
+   },
+   "keywords": [
+    "outbreak",
+    "ebola"
+   ],
+   "shock_terms": [
+    "outbreak"
+   ],
+   "dedupe_match": null,
+   "dedupe_similarity": 0.0,
+   "id": "1f8afe3142fa",
+   "title": "Questions and answers about the current outbreak of Ebola disease",
+   "url": "https://www.ecdc.europa.eu/en/topics-z/ebola-disease/surveillance-and-updates/ebola-outbreak-democratic-republic-congo",
+   "summary": "",
+   "kind": "item",
+   "source": "ECDC \u2014 DRC/Uganda Ebola outbreak page",
+   "source_id": "ecdc-ebola",
+   "tier": 1,
+   "country": "GLOBAL",
+   "category": "health",
+   "segments": [
+    "city",
+    "bush"
+   ],
+   "first_seen": "2026-09-17T20:59+03:00",
+   "published": null,
+   "verdict": "LEAD CANDIDATE \u2014 tier-1 shock language"
+  },
+  {
+   "score": 121.3,
+   "components": {
+    "tier": 40,
+    "category": 32,
+    "lead": 3.6,
+    "relevance": 20,
+    "freshness": 19.7,
+    "corroborated": 10,
+    "page_change": -4
+   },
+   "keywords": [
+    "advisory",
+    "vat"
+   ],
+   "shock_terms": [],
+   "dedupe_match": null,
+   "dedupe_similarity": 0.0,
+   "id": "ce00d210bb77",
+   "title": "[page changed] Federal Register \u2014 public inspection (HHS/CDC), pre-publication",
+   "url": "https://www.federalregister.gov/api/v1/public-inspection-documents/current.json",
+   "summary": "{\"count\":117,\"results\":[{\"agencies\":[{\"raw_name\":\"HISTORIC PRESERVATION, ADVISORY COUNCIL\",\"name\":\"Advisory Council on Historic Preservation\",\"id\":225,\"url\":\"https://www.federalregister.gov/agencies/advisory-council-on-historic-preservation\",\"json_url\":\"https://www.federalregister.gov/api/v1/agencies/225\",\"parent_id\":null,\"slug\":\"advisory-council-on-historic-preservation\"}],\"agency_letters\":[],\"ag",
+   "kind": "page-change",
+   "source": "Federal Register \u2014 public inspection (HHS/CDC), pre-publication",
+   "source_id": "us-fedreg-pubinspect-hhs",
+   "tier": 1,
+   "country": "REG",
+   "category": "advisory",
+   "segments": [
+    "city",
+    "bush"
+   ],
+   "first_seen": "2026-09-17T20:59+03:00",
+   "published": "2026-09-17",
+   "verdict": "OPEN THIS \u2014 tier-1 advisory page moved; content not auto-parsed, read it manually"
+  },
+  {
+   "score": 119.3,
    "components": {
     "tier": 40,
     "category": 24,
     "lead": 3.6,
     "relevance": 24,
-    "freshness": 19.8,
+    "freshness": 15.7,
     "undated": -6,
     "shock": 18
    },
@@ -45,13 +206,13 @@
    "verdict": "LEAD CANDIDATE \u2014 tier-1 shock language"
   },
   {
-   "score": 120.1,
+   "score": 116.0,
    "components": {
     "tier": 40,
     "category": 32,
     "lead": 3.6,
     "relevance": 20,
-    "freshness": 18.5,
+    "freshness": 14.4,
     "corroborated": 10,
     "page_change": -4
    },
@@ -81,13 +242,13 @@
    "verdict": "OPEN THIS \u2014 tier-1 advisory page moved; content not auto-parsed, read it manually"
   },
   {
-   "score": 106.9,
+   "score": 102.8,
    "components": {
     "tier": 20,
     "category": 14,
     "lead": 8.4,
     "relevance": 36,
-    "freshness": 18.5,
+    "freshness": 14.4,
     "corroborated": 10
    },
    "keywords": [
@@ -119,13 +280,232 @@
    "verdict": "CONSIDER"
   },
   {
-   "score": 94.9,
+   "score": 98.1,
+   "components": {
+    "tier": 40,
+    "category": 24,
+    "lead": 2.4,
+    "relevance": 12,
+    "freshness": 19.7
+   },
+   "keywords": [
+    "ebola"
+   ],
+   "shock_terms": [],
+   "dedupe_match": null,
+   "dedupe_similarity": 0.0,
+   "id": "49f0febd8918",
+   "title": "Democratic Republic of the Congo (DRC)",
+   "url": "https://insp.cd/wp-content/uploads/2026/09/SitRep_MVEBDB_124_15_09_2026.pdf",
+   "summary": "1 fr-FR fr-FR fr-FR fr-FRRapport de Situation de la 17\u00e8me \u00c9pid\u00e9mie de la Maladie \u00e0 Virus EBOLA /RDC fr-FR fr-FRSitRep N\u00b0124/MVEBDB/15/09/2026 fr-FR Date de rapportage : 15 septembre 2026 Date de publication : 16 septembre 2026 fr-FR fr-FR fr-FR fr-FR fr-FR fr-FR fr-FR fr-FR fr-FR fr-FR fr-FR fr-FR fr-FR fr-FR fr-FR fr-FR fr-FR fr-FR fr-FR fr-FR fr-FR fr-FR fr-FR fr-FR fr-FR fr-FR fr-FR fr-FR fr-FR",
+   "kind": "doc",
+   "source": "ECDC \u2014 DRC/Uganda Ebola outbreak page",
+   "source_id": "ecdc-ebola",
+   "tier": 1,
+   "country": "GLOBAL",
+   "category": "health",
+   "segments": [
+    "city",
+    "bush"
+   ],
+   "first_seen": "2026-09-17T20:59+03:00",
+   "published": "2026-09-15",
+   "verdict": "STRONG \u2014 tier-1, upstream"
+  },
+  {
+   "score": 96.2,
    "components": {
     "tier": 20,
     "category": 14,
     "lead": 8.4,
     "relevance": 24,
-    "freshness": 18.5,
+    "freshness": 19.8,
+    "corroborated": 10
+   },
+   "keywords": [
+    "suspend",
+    "route",
+    "airline"
+   ],
+   "shock_terms": [],
+   "dedupe_match": null,
+   "dedupe_similarity": 0.0,
+   "id": "9d4fba9f6ae4",
+   "title": "Avelo Airlines Fall/Winter 2026 Atlanta \u2013 Lakeland Service Suspensions",
+   "url": "https://www.aeroroutes.com/eng/260917-xpnw26atllal",
+   "summary": "Published at 0700PDT / 1400GMT 17SEP26 Avelo Airlines in recent weeks gradually filed service changes on Atlanta \u2013 Lakeland route, where the airline suspends this route during following periods: 05OCT26 \u2013 18NOV26, eff 07JAN27. The airline operates this route 2-3 weekly with 737-800. Schedule below focuses on the period of 27DEC26 \u2013 03JAN27. XP250 ATL1438 \u2013 1615LAL 73H 27 XP251 LAL1220 \u2013 1353ATL 73",
+   "kind": "item",
+   "source": "AeroRoutes schedule filings",
+   "source_id": "aeroroutes",
+   "tier": 2,
+   "country": "GLOBAL",
+   "category": "aviation-tracker",
+   "segments": [
+    "city",
+    "bush",
+    "beach"
+   ],
+   "first_seen": "2026-09-17T20:59+03:00",
+   "published": "2026-09-17",
+   "verdict": "CONSIDER"
+  },
+  {
+   "score": 95.8,
+   "components": {
+    "tier": 20,
+    "category": 4,
+    "lead": 0.0,
+    "relevance": 40,
+    "freshness": 19.8,
+    "undated": -6,
+    "shock": 18
+   },
+   "keywords": [
+    "outbreak",
+    "ebola",
+    "suspend",
+    "flight"
+   ],
+   "shock_terms": [
+    "outbreak"
+   ],
+   "dedupe_match": null,
+   "dedupe_similarity": 0.17,
+   "id": "e5d82546f28f",
+   "title": "Uganda Suspends Flights and Border Markets Over DRC Ebola Outbreak",
+   "url": "https://www.ugstandard.com/uganda-suspends-flights-and-border-markets-over-drc-ebola-outbreak",
+   "summary": "",
+   "kind": "item",
+   "source": "UG Standard \u2014 Tours & Travel",
+   "source_id": "ug-ugstandard-tours",
+   "tier": 2,
+   "country": "UG",
+   "category": "press",
+   "segments": [
+    "bush",
+    "city"
+   ],
+   "first_seen": "2026-09-17T21:00+03:00",
+   "published": null,
+   "verdict": "CONSIDER"
+  },
+  {
+   "score": 95.8,
+   "components": {
+    "tier": 20,
+    "category": 4,
+    "lead": 0.0,
+    "relevance": 24,
+    "freshness": 19.8,
+    "corroborated": 10,
+    "shock": 18
+   },
+   "keywords": [
+    "outbreak",
+    "ebola"
+   ],
+   "shock_terms": [
+    "outbreak"
+   ],
+   "dedupe_match": null,
+   "dedupe_similarity": 0.0,
+   "id": "9636eb6fdf96",
+   "title": "Experts hail EAC\u2019s one- stop- border approach as coordinated efforts against Ebola outbreak",
+   "url": "https://dailynews.co.tz/experts-hail-eacs-one-stop-border-approach-as-coordinated-efforts-against-ebola-outbreak",
+   "summary": "NAMANGA: THE East Africa one- stop- border approach has been earmarked as one of the coordinated moves towards combating and spread of the 17th Ebola outbreak that started in 15 May 2026 following a case study by VillageReach According to Dr Ahmed Ogwell Ouma, who is the President and CEO of VillageReach, a partner in \u2026 The post Experts hail EAC\u2019s one- stop- border approach as coordinated efforts ",
+   "kind": "item",
+   "source": "Daily News (Tanzania)",
+   "source_id": "np-dailynews-tz",
+   "tier": 2,
+   "country": "TZ",
+   "category": "press",
+   "segments": [
+    "city",
+    "bush",
+    "beach"
+   ],
+   "first_seen": "2026-09-17T21:00+03:00",
+   "published": "2026-09-17",
+   "verdict": "CONSIDER"
+  },
+  {
+   "score": 95.0,
+   "components": {
+    "tier": 40,
+    "category": 32,
+    "lead": 1.2,
+    "relevance": 8,
+    "freshness": 19.8,
+    "undated": -6
+   },
+   "keywords": [
+    "vat"
+   ],
+   "shock_terms": [],
+   "dedupe_match": null,
+   "dedupe_similarity": 0.0,
+   "id": "3373aed51148",
+   "title": "The Bahamas - Level 2: Exercise Increased Caution",
+   "url": "https://travel.state.gov/content/tsg_aem/us/en/home/international-travel/travel-advisories/destination.bhs.html",
+   "summary": "Exercise increased caution in The Bahamas due to crime . Crime Violent crime, including armed robberies, burglaries, and sexual assaults, can occur anywhere in The Bahamas. Most crime occurs in Nassau and Freeport on New Providence and Grand Bahama islands. Stay alert in the \u201cOver the Hill\u201d area in Nassau, south of Shirley Street, where gangs have killed residents. Stay alert in vacation rental pr",
+   "kind": "item",
+   "source": "US State Dept travel advisories (EA feed)",
+   "source_id": "adv-us-ea",
+   "tier": 1,
+   "country": "REG",
+   "category": "advisory",
+   "segments": [
+    "city",
+    "bush",
+    "beach"
+   ],
+   "first_seen": "2026-09-17T20:59+03:00",
+   "published": null,
+   "verdict": "STRONG \u2014 tier-1, upstream"
+  },
+  {
+   "score": 91.0,
+   "components": {
+    "tier": 40,
+    "category": 32,
+    "lead": 1.2,
+    "relevance": 4,
+    "freshness": 19.8,
+    "undated": -6
+   },
+   "keywords": [
+    "tourist"
+   ],
+   "shock_terms": [],
+   "dedupe_match": null,
+   "dedupe_similarity": 0.0,
+   "id": "8c30b07dfa25",
+   "title": "Turks and Caicos Islands - Level 2: Exercise Increased Caution",
+   "url": "https://travel.state.gov/content/tsg_aem/us/en/home/international-travel/travel-advisories/destination.tca.html",
+   "summary": "Exercise increased caution in the Turks and Caicos Islands due to crime . Crime Most crime occurs in Providenciales. Police may have limited resources to investigate crimes. There have been reports of sexual assaults in the Turks and Caicos Islands. Petty crime is common, especially in popular tourist locations. Stay aware of your surroundings. Most crimes against foreigners are crimes of opportun",
+   "kind": "item",
+   "source": "US State Dept travel advisories (EA feed)",
+   "source_id": "adv-us-ea",
+   "tier": 1,
+   "country": "REG",
+   "category": "advisory",
+   "segments": [
+    "city",
+    "bush",
+    "beach"
+   ],
+   "first_seen": "2026-09-17T20:59+03:00",
+   "published": null,
+   "verdict": "STRONG \u2014 tier-1, upstream"
+  },
+  {
+   "score": 90.8,
+   "components": {
+    "tier": 20,
+    "category": 14,
+    "lead": 8.4,
+    "relevance": 24,
+    "freshness": 14.4,
     "corroborated": 10
    },
    "keywords": [
@@ -156,13 +536,13 @@
    "verdict": "CONSIDER"
   },
   {
-   "score": 94.9,
+   "score": 90.8,
    "components": {
     "tier": 40,
     "category": 18,
     "lead": 8.4,
     "relevance": 0,
-    "freshness": 18.5,
+    "freshness": 14.4,
     "corroborated": 10
    },
    "keywords": [],
@@ -187,13 +567,151 @@
    "verdict": "STRONG \u2014 tier-1, upstream"
   },
   {
-   "score": 86.9,
+   "score": 88.2,
    "components": {
     "tier": 20,
     "category": 14,
     "lead": 8.4,
     "relevance": 16,
-    "freshness": 18.5,
+    "freshness": 19.8,
+    "corroborated": 10
+   },
+   "keywords": [
+    "route",
+    "charter"
+   ],
+   "shock_terms": [],
+   "dedupe_match": null,
+   "dedupe_similarity": 0.0,
+   "id": "b8edec923a87",
+   "title": "Condor early-Jan 2027 Chile Charter",
+   "url": "https://www.aeroroutes.com/eng/260917-dejan27scl",
+   "summary": "Published at 1000PDT / 1700GMT 17SEP26 Condor in early-January 2027 once again schedules one-time charter service to Chile, with A330-900neo operating Frankfurt \u2013 Rio de Janeiro Galeao \u2013 Santiago de Chile route. Planned schedule as follows. DE9416 FRA2030 \u2013 0500+1GIG0700+1 \u2013 1135+1SCL 339 03JAN27 DE9417 SCL1320 \u2013 1720GIG1920 \u2013 1120+1FRA 339 04JAN27",
+   "kind": "item",
+   "source": "AeroRoutes schedule filings",
+   "source_id": "aeroroutes",
+   "tier": 2,
+   "country": "GLOBAL",
+   "category": "aviation-tracker",
+   "segments": [
+    "city",
+    "bush",
+    "beach"
+   ],
+   "first_seen": "2026-09-17T20:59+03:00",
+   "published": "2026-09-17",
+   "verdict": "CONSIDER"
+  },
+  {
+   "score": 87.0,
+   "components": {
+    "tier": 40,
+    "category": 32,
+    "lead": 1.2,
+    "relevance": 0,
+    "freshness": 19.8,
+    "undated": -6
+   },
+   "keywords": [],
+   "shock_terms": [],
+   "dedupe_match": null,
+   "dedupe_similarity": 0.0,
+   "id": "25b810e031a1",
+   "title": "Hong Kong - Level 2: Exercise Increased Caution",
+   "url": "https://travel.state.gov/content/tsg_aem/us/en/home/international-travel/travel-advisories/destination.hkg.html",
+   "summary": "Exercise increased caution when traveling to the Hong Kong Special Administrative Region (SAR) due to the a rbitrary enforcement of local laws. Exercise increased caution due to the arbitrary enforcement of local laws . Hong Kong SAR authorities have passed laws that limit people\u2019s civil liberties. The laws apply to anyone in Hong Kong, including foreigners. Authorities have also issued arrest war",
+   "kind": "item",
+   "source": "US State Dept travel advisories (EA feed)",
+   "source_id": "adv-us-ea",
+   "tier": 1,
+   "country": "REG",
+   "category": "advisory",
+   "segments": [
+    "city",
+    "bush",
+    "beach"
+   ],
+   "first_seen": "2026-09-17T20:59+03:00",
+   "published": null,
+   "verdict": "CONSIDER"
+  },
+  {
+   "score": 87.0,
+   "components": {
+    "tier": 40,
+    "category": 32,
+    "lead": 1.2,
+    "relevance": 0,
+    "freshness": 19.8,
+    "undated": -6
+   },
+   "keywords": [],
+   "shock_terms": [],
+   "dedupe_match": null,
+   "dedupe_similarity": 0.0,
+   "id": "6d71a28340b8",
+   "title": "Paraguay - Level 1: Exercise Normal Precautions",
+   "url": "https://travel.state.gov/content/tsg_aem/us/en/home/international-travel/travel-advisories/destination.pry.html",
+   "summary": "Exercise normal precaution in Paraguay due to crime. Paraguay is generally a safe destination for travelers. Some areas have increased crime risk. U.S. government employees working in Paraguay need special authorization to travel to some areas. U.S. government employees are prohibited from using municipal buses in Paraguay because of risk of robbery and assault. Review the Travel Guidances for Par",
+   "kind": "item",
+   "source": "US State Dept travel advisories (EA feed)",
+   "source_id": "adv-us-ea",
+   "tier": 1,
+   "country": "REG",
+   "category": "advisory",
+   "segments": [
+    "city",
+    "bush",
+    "beach"
+   ],
+   "first_seen": "2026-09-17T20:59+03:00",
+   "published": null,
+   "verdict": "CONSIDER"
+  },
+  {
+   "score": 84.2,
+   "components": {
+    "tier": 20,
+    "category": 14,
+    "lead": 8.4,
+    "relevance": 12,
+    "freshness": 19.8,
+    "corroborated": 10
+   },
+   "keywords": [
+    "route",
+    "flight"
+   ],
+   "shock_terms": [],
+   "dedupe_match": null,
+   "dedupe_similarity": 0.0,
+   "id": "744bbd59c435",
+   "title": "Volaris Adds Cancun \u2013 Los Cabos From Dec 2026",
+   "url": "https://www.aeroroutes.com/eng/260917-y4dec26cunsjd",
+   "summary": "Published at 0900PDT / 1600GMT 17SEP26 Volaris in December 2026 plans to add new domestic route, as the carrier schedules Cancun \u2013 Los Cabos/Cabo San Lucas nonstop flight. From 01DEC26, Airbus A320ceo to serve this route 3 times weekly. Y4662 CUN1030 \u2013 1216SJD 320 247 Y4663 SJD1247 \u2013 1800CUN 320 247",
+   "kind": "item",
+   "source": "AeroRoutes schedule filings",
+   "source_id": "aeroroutes",
+   "tier": 2,
+   "country": "GLOBAL",
+   "category": "aviation-tracker",
+   "segments": [
+    "city",
+    "bush",
+    "beach"
+   ],
+   "first_seen": "2026-09-17T20:59+03:00",
+   "published": "2026-09-17",
+   "verdict": "CONSIDER"
+  },
+  {
+   "score": 82.8,
+   "components": {
+    "tier": 20,
+    "category": 14,
+    "lead": 8.4,
+    "relevance": 16,
+    "freshness": 14.4,
     "corroborated": 10
    },
    "keywords": [
@@ -224,13 +742,186 @@
    "verdict": "CONSIDER"
   },
   {
-   "score": 82.9,
+   "score": 80.2,
+   "components": {
+    "tier": 20,
+    "category": 14,
+    "lead": 8.4,
+    "relevance": 8,
+    "freshness": 19.8,
+    "corroborated": 10
+   },
+   "keywords": [
+    "route"
+   ],
+   "shock_terms": [],
+   "dedupe_match": null,
+   "dedupe_similarity": 0.0,
+   "id": "431acdc99793",
+   "title": "Volaris Moves Forward US Network Additions to Oct 2026",
+   "url": "https://www.aeroroutes.com/eng/260917-y4oct26us",
+   "summary": "Published at 0800PDT / 1500GMT 17SEP26 Mexican low-cost carrier Volaris during the month of October 2026 schedules 3 routes addition to the US, from Guadalajara. General network addition overview as follows. Guadalajara \u2013 Boston eff 16OCT26 4 weekly A321neo Guadalajara \u2013 Nashville eff 15OCT26 3 weekly A321neo Guadalajara \u2013 Raleigh/Durham eff 16OCT26 3 weekly A321neo Previously reported new routes ",
+   "kind": "item",
+   "source": "AeroRoutes schedule filings",
+   "source_id": "aeroroutes",
+   "tier": 2,
+   "country": "GLOBAL",
+   "category": "aviation-tracker",
+   "segments": [
+    "city",
+    "bush",
+    "beach"
+   ],
+   "first_seen": "2026-09-17T20:59+03:00",
+   "published": "2026-09-17",
+   "verdict": "CONSIDER"
+  },
+  {
+   "score": 80.2,
+   "components": {
+    "tier": 40,
+    "category": 24,
+    "lead": 2.4,
+    "relevance": 0,
+    "freshness": 19.8,
+    "undated": -6
+   },
+   "keywords": [],
+   "shock_terms": [],
+   "dedupe_match": null,
+   "dedupe_similarity": 0.17,
+   "id": "297cf4158fca",
+   "title": "17 September 2026 | News Release WHO regional survey finds uneven progress on patient safety as Africa\u2019s NCD",
+   "url": "https://www.afro.who.int/news/who-regional-survey-finds-uneven-progress-patient-safety-africas-ncd",
+   "summary": "",
+   "kind": "item",
+   "source": "WHO AFRO \u2014 Rwanda country newsroom",
+   "source_id": "who-afro-rwanda",
+   "tier": 1,
+   "country": "RW",
+   "category": "health",
+   "segments": [
+    "bush",
+    "city",
+    "beach"
+   ],
+   "first_seen": "2026-09-17T20:59+03:00",
+   "published": null,
+   "verdict": "CONSIDER"
+  },
+  {
+   "score": 80.1,
+   "components": {
+    "tier": 40,
+    "category": 24,
+    "lead": 2.4,
+    "relevance": 0,
+    "freshness": 19.7,
+    "undated": -6
+   },
+   "keywords": [],
+   "shock_terms": [],
+   "dedupe_match": null,
+   "dedupe_similarity": 0.17,
+   "id": "e78615d601d7",
+   "title": "17 September 2026 | News Release WHO regional survey finds uneven progress on patient safety as Africa\u2019s NCD",
+   "url": "https://www.afro.who.int/news/who-regional-survey-finds-uneven-progress-patient-safety-africas-ncd",
+   "summary": "",
+   "kind": "item",
+   "source": "WHO AFRO \u2014 Uganda country newsroom",
+   "source_id": "who-afro-uganda",
+   "tier": 1,
+   "country": "UG",
+   "category": "health",
+   "segments": [
+    "bush",
+    "city",
+    "beach"
+   ],
+   "first_seen": "2026-09-17T20:59+03:00",
+   "published": null,
+   "verdict": "CONSIDER"
+  },
+  {
+   "score": 80.1,
+   "components": {
+    "tier": 40,
+    "category": 24,
+    "lead": 2.4,
+    "relevance": 0,
+    "freshness": 19.7,
+    "undated": -6
+   },
+   "keywords": [],
+   "shock_terms": [],
+   "dedupe_match": null,
+   "dedupe_similarity": 0.17,
+   "id": "fb7f39cb7850",
+   "title": "17 September 2026 | News Release WHO regional survey finds uneven progress on patient safety as Africa\u2019s NCD",
+   "url": "https://www.afro.who.int/news/who-regional-survey-finds-uneven-progress-patient-safety-africas-ncd",
+   "summary": "",
+   "kind": "item",
+   "source": "WHO AFRO \u2014 Kenya country newsroom",
+   "source_id": "who-afro-kenya",
+   "tier": 1,
+   "country": "KE",
+   "category": "health",
+   "segments": [
+    "bush",
+    "city",
+    "beach"
+   ],
+   "first_seen": "2026-09-17T20:59+03:00",
+   "published": null,
+   "verdict": "CONSIDER"
+  },
+  {
+   "score": 80.0,
+   "components": {
+    "tier": 20,
+    "category": 5,
+    "lead": 1.2,
+    "relevance": 24,
+    "freshness": 19.8,
+    "corroborated": 10
+   },
+   "keywords": [
+    "fee",
+    "hotel",
+    "lodge",
+    "safari",
+    "operator"
+   ],
+   "shock_terms": [],
+   "dedupe_match": null,
+   "dedupe_similarity": 0.0,
+   "id": "df80a5fbb6ec",
+   "title": "Singapore\u2019s Banyan Group Buys Newmark to Add 26 Hotels in Africa",
+   "url": "https://skift.com/2026/09/17/singapores-banyan-group-buys-newmark-to-add-26-hotels-in-africa",
+   "summary": "The owner of the Banyan Tree brand has taken a majority stake in a Cape Town safari and lodge operator. The deal is asset-light, adding fee income instead of bricks, and gives Banyan a foothold in safari and nature hospitality.",
+   "kind": "item",
+   "source": "Skift",
+   "source_id": "tp-skift",
+   "tier": 2,
+   "country": "GLOBAL",
+   "category": "trade",
+   "segments": [
+    "city",
+    "bush",
+    "beach"
+   ],
+   "first_seen": "2026-09-17T20:59+03:00",
+   "published": "2026-09-17",
+   "verdict": "CONSIDER"
+  },
+  {
+   "score": 78.8,
    "components": {
     "tier": 20,
     "category": 14,
     "lead": 8.4,
     "relevance": 12,
-    "freshness": 18.5,
+    "freshness": 14.4,
     "corroborated": 10
    },
    "keywords": [
@@ -260,13 +951,13 @@
    "verdict": "CONSIDER"
   },
   {
-   "score": 82.5,
+   "score": 78.4,
    "components": {
     "tier": 20,
     "category": 4,
     "lead": 0.0,
     "relevance": 12,
-    "freshness": 18.5,
+    "freshness": 14.4,
     "corroborated": 10,
     "shock": 18
    },
@@ -298,13 +989,13 @@
    "verdict": "CONSIDER"
   },
   {
-   "score": 81.3,
+   "score": 77.2,
    "components": {
     "tier": 40,
     "category": 24,
     "lead": 4.8,
     "relevance": 0,
-    "freshness": 18.5,
+    "freshness": 14.4,
     "undated": -6
    },
    "keywords": [],
@@ -331,13 +1022,13 @@
    "verdict": "CONSIDER"
   },
   {
-   "score": 78.9,
+   "score": 74.8,
    "components": {
     "tier": 20,
     "category": 14,
     "lead": 8.4,
     "relevance": 8,
-    "freshness": 18.5,
+    "freshness": 14.4,
     "corroborated": 10
    },
    "keywords": [
@@ -367,13 +1058,13 @@
    "verdict": "CONSIDER"
   },
   {
-   "score": 78.9,
+   "score": 74.8,
    "components": {
     "tier": 40,
     "category": 24,
     "lead": 2.4,
     "relevance": 0,
-    "freshness": 18.5,
+    "freshness": 14.4,
     "undated": -6
    },
    "keywords": [],
@@ -400,13 +1091,13 @@
    "verdict": "CONSIDER"
   },
   {
-   "score": 78.9,
+   "score": 74.8,
    "components": {
     "tier": 40,
     "category": 24,
     "lead": 2.4,
     "relevance": 0,
-    "freshness": 18.5,
+    "freshness": 14.4,
     "undated": -6
    },
    "keywords": [],
@@ -433,13 +1124,13 @@
    "verdict": "CONSIDER"
   },
   {
-   "score": 77.8,
+   "score": 73.7,
    "components": {
     "tier": 20,
     "category": 4,
     "lead": 0.0,
     "relevance": 24,
-    "freshness": 19.8,
+    "freshness": 15.7,
     "corroborated": 10
    },
    "keywords": [
@@ -471,13 +1162,13 @@
    "verdict": "CONSIDER"
   },
   {
-   "score": 74.4,
+   "score": 70.3,
    "components": {
     "tier": 20,
     "category": 5,
     "lead": 3.6,
     "relevance": 16,
-    "freshness": 19.8,
+    "freshness": 15.7,
     "corroborated": 10
    },
    "keywords": [
@@ -508,13 +1199,13 @@
    "verdict": "CONSIDER"
   },
   {
-   "score": 74.4,
+   "score": 70.3,
    "components": {
     "tier": 20,
     "category": 5,
     "lead": 3.6,
     "relevance": 16,
-    "freshness": 19.8,
+    "freshness": 15.7,
     "corroborated": 10
    },
    "keywords": [
@@ -546,13 +1237,13 @@
    "verdict": "CONSIDER"
   },
   {
-   "score": 73.8,
+   "score": 69.7,
    "components": {
     "tier": 20,
     "category": 4,
     "lead": 0.0,
     "relevance": 20,
-    "freshness": 19.8,
+    "freshness": 15.7,
     "corroborated": 10
    },
    "keywords": [
@@ -579,16 +1270,16 @@
    ],
    "first_seen": "2026-09-17T17:20+03:00",
    "published": "2026-09-16",
-   "verdict": "CONSIDER"
+   "verdict": "weak"
   },
   {
-   "score": 72.5,
+   "score": 68.4,
    "components": {
     "tier": 20,
     "category": 4,
     "lead": 0.0,
     "relevance": 20,
-    "freshness": 18.5,
+    "freshness": 14.4,
     "corroborated": 10
    },
    "keywords": [
@@ -617,376 +1308,65 @@
    ],
    "first_seen": "2026-09-17T16:08+03:00",
    "published": "2026-09-17",
-   "verdict": "CONSIDER"
+   "verdict": "weak"
   },
   {
-   "score": 71.6,
+   "score": 68.2,
    "components": {
-    "tier": 40,
-    "category": 5,
-    "lead": 16.8,
-    "relevance": 0,
+    "tier": 20,
+    "category": 24,
+    "lead": 2.4,
+    "relevance": 12,
     "freshness": 19.8,
     "undated": -6,
     "page_change": -4
    },
-   "keywords": [],
+   "keywords": [
+    "ebola"
+   ],
    "shock_terms": [],
    "dedupe_match": null,
    "dedupe_similarity": 0.0,
-   "id": "528113955af5",
-   "title": "[page changed] World Athletics \u2014 press releases",
-   "url": "https://worldathletics.org/news/press-releases",
-   "summary": "News | World Athletics",
+   "id": "0f70d00077f4",
+   "title": "[page changed] ProMED-mail",
+   "url": "https://promedmail.org/",
+   "summary": "Protecting Global Health, One Alert at a Time | ProMED Previous slide Next slide Protecting Global Health, One Alert at a Time ProMED: Your 24/7 early warning system for emerging infectious diseases worldwide. Subscribe ProMED's Weekly Pulse A snapshot of global health events from the past 7 days Latest Posts on ProMED All Date Title Thu Sep 17 2026 EBOLA DISEASE - DEMOCRATIC REPUBLIC OF CONGO (61",
    "kind": "page-change",
-   "source": "World Athletics \u2014 press releases",
-   "source_id": "global-worldathletics-news",
-   "tier": 1,
-   "country": "GLOBAL",
-   "category": "mice",
-   "segments": [
-    "city"
-   ],
-   "first_seen": "2026-09-17T17:18+03:00",
-   "published": null,
-   "verdict": "CONSIDER"
-  },
-  {
-   "score": 71.6,
-   "components": {
-    "tier": 40,
-    "category": 5,
-    "lead": 16.8,
-    "relevance": 0,
-    "freshness": 19.8,
-    "undated": -6,
-    "page_change": -4
-   },
-   "keywords": [],
-   "shock_terms": [],
-   "dedupe_match": null,
-   "dedupe_similarity": 0.0,
-   "id": "a981e9efdfc4",
-   "title": "[page changed] CAF \u2014 Confederation of African Football, media releases",
-   "url": "https://www.cafonline.com/news/",
-   "summary": "News News Show more",
-   "kind": "page-change",
-   "source": "CAF \u2014 Confederation of African Football, media releases",
-   "source_id": "global-caf-media",
-   "tier": 1,
-   "country": "GLOBAL",
-   "category": "mice",
-   "segments": [
-    "city"
-   ],
-   "first_seen": "2026-09-17T17:18+03:00",
-   "published": null,
-   "verdict": "CONSIDER"
-  },
-  {
-   "score": 71.5,
-   "components": {
-    "tier": 40,
-    "category": 13,
-    "lead": 6.0,
-    "relevance": 0,
-    "freshness": 18.5,
-    "undated": -6
-   },
-   "keywords": [],
-   "shock_terms": [],
-   "dedupe_match": null,
-   "dedupe_similarity": 0.0,
-   "id": "98415e6e8d09",
-   "title": "THE 2026 REVISED EDITION OF THE CIVIL AVIATION REGULATIONS - 17 September, 2026",
-   "url": "https://www.tcaa.go.tz/news/the-2026-revised-edition-of-the-civil-aviation-regulations",
-   "summary": "",
-   "kind": "item",
-   "source": "Tanzania Civil Aviation Authority",
-   "source_id": "tz-tcaa",
-   "tier": 1,
-   "country": "TZ",
-   "category": "aviation",
-   "segments": [
-    "city",
-    "bush",
-    "beach"
-   ],
-   "first_seen": "2026-09-17T16:08+03:00",
-   "published": null,
-   "verdict": "CONSIDER"
-  },
-  {
-   "score": 70.9,
-   "components": {
-    "tier": 20,
-    "category": 14,
-    "lead": 8.4,
-    "relevance": 0,
-    "freshness": 18.5,
-    "corroborated": 10
-   },
-   "keywords": [],
-   "shock_terms": [],
-   "dedupe_match": null,
-   "dedupe_similarity": 0.0,
-   "id": "7fbf1f682b44",
-   "title": "Delta Resumes Monterey Service From Dec 2026",
-   "url": "https://www.aeroroutes.com/eng/260917-dldec26mry",
-   "summary": "Published at 0300PDT / 1000GMT 17SEP26 Delta in recent schedule update filed service to Monterey , a destination it previously served until 2008. The Skyteam member will operate service from Los Angeles and Salt Lake City, with Skywest Embraer E175 aircraft. Los Angeles \u2013 Monterey eff 19DEC26 2 daily Embraer E175 (Skywest; Last served until April 1999) DL3508 LAX0945 \u2013 1110MRY E7W D DL3988 LAX1859",
-   "kind": "item",
-   "source": "AeroRoutes schedule filings",
-   "source_id": "aeroroutes",
+   "source": "ProMED-mail",
+   "source_id": "promed",
    "tier": 2,
    "country": "GLOBAL",
-   "category": "aviation-tracker",
+   "category": "health",
    "segments": [
     "city",
     "bush",
     "beach"
    ],
-   "first_seen": "2026-09-17T16:08+03:00",
-   "published": "2026-09-17",
-   "verdict": "CONSIDER"
-  },
-  {
-   "score": 70.4,
-   "components": {
-    "tier": 20,
-    "category": 5,
-    "lead": 3.6,
-    "relevance": 12,
-    "freshness": 19.8,
-    "corroborated": 10
-   },
-   "keywords": [
-    "eta",
-    "hotel"
-   ],
-   "shock_terms": [],
-   "dedupe_match": null,
-   "dedupe_similarity": 0.0,
-   "id": "4c1413bb4e2b",
-   "title": "Fat Badger Group returns to BWH Hotels GB with seven Yorkshire properties",
-   "url": "https://www.hospitalitynet.org/news/4134429/fat-badger-group-returns-to-bwh-hotels-gb-with-seven-yorkshire-properties",
-   "summary": "Seven Fat Badger Group hotels in Yorkshire rejoin BWH Hotels GB under the BW Premier Collection brand, gaining global distribution, loyalty access, and revenue support while retaining their individual identities.",
-   "kind": "item",
-   "source": "Hospitality Net \u2014 Africa announcements",
-   "source_id": "dev-hospitalitynet-africa",
-   "tier": 2,
-   "country": "REG",
-   "category": "trade",
-   "segments": [
-    "city",
-    "bush",
-    "beach"
-   ],
-   "first_seen": "2026-09-17T17:18+03:00",
-   "published": "2026-09-17",
-   "verdict": "CONSIDER"
-  },
-  {
-   "score": 70.4,
-   "components": {
-    "tier": 20,
-    "category": 5,
-    "lead": 3.6,
-    "relevance": 12,
-    "freshness": 19.8,
-    "corroborated": 10
-   },
-   "keywords": [
-    "vat",
-    "guest"
-   ],
-   "shock_terms": [],
-   "dedupe_match": null,
-   "dedupe_similarity": 0.17,
-   "id": "88a62741273c",
-   "title": "Recast: Building relationships through reservations: Insights from The Broadmoor",
-   "url": "https://www.hospitalitynet.org/podcast/4134428/recast-building-relationships-through-reservations-insights-from-the-broadmoor",
-   "summary": "The Broadmoor's reservations manager explains how proactive follow-up calls to guests who didn't book generated nearly $1M in direct revenue over three months.",
-   "kind": "item",
-   "source": "Hospitality Net \u2014 Africa announcements",
-   "source_id": "dev-hospitalitynet-africa",
-   "tier": 2,
-   "country": "REG",
-   "category": "trade",
-   "segments": [
-    "city",
-    "bush",
-    "beach"
-   ],
-   "first_seen": "2026-09-17T17:18+03:00",
-   "published": "2026-09-17",
-   "verdict": "CONSIDER"
-  },
-  {
-   "score": 70.4,
-   "components": {
-    "tier": 20,
-    "category": 5,
-    "lead": 3.6,
-    "relevance": 12,
-    "freshness": 19.8,
-    "corroborated": 10
-   },
-   "keywords": [
-    "hotel",
-    "booking",
-    "guest"
-   ],
-   "shock_terms": [],
-   "dedupe_match": null,
-   "dedupe_similarity": 0.0,
-   "id": "3ec080410eee",
-   "title": "Google\u2019s Latest Search Changes Could Reshape the Direct Booking Battle",
-   "url": "https://www.hospitalitynet.org/opinion/4134426/googles-latest-search-changes-could-reshape-the-direct-booking-battle",
-   "summary": "Google's DMA-driven search changes have already cut free direct booking clicks by up to 30% for some European hotels, prompting a broader rethink of channel mix, acquisition costs, and guest data strategy.",
-   "kind": "item",
-   "source": "Hospitality Net \u2014 Africa announcements",
-   "source_id": "dev-hospitalitynet-africa",
-   "tier": 2,
-   "country": "REG",
-   "category": "trade",
-   "segments": [
-    "city",
-    "bush",
-    "beach"
-   ],
-   "first_seen": "2026-09-17T17:18+03:00",
-   "published": "2026-09-17",
-   "verdict": "CONSIDER"
-  },
-  {
-   "score": 68.5,
-   "components": {
-    "tier": 20,
-    "category": 4,
-    "lead": 0.0,
-    "relevance": 16,
-    "freshness": 18.5,
-    "corroborated": 10
-   },
-   "keywords": [
-    "visa",
-    "eta"
-   ],
-   "shock_terms": [],
-   "dedupe_match": null,
-   "dedupe_similarity": 0.0,
-   "id": "0063528e68a2",
-   "title": "South Africa pushes back against new US visa curbs",
-   "url": "https://www.theeastafrican.co.ke/tea/news/southern-africa/south-africa-pushes-back-against-new-us-visa-curbs-5598208",
-   "summary": "The restrictions, announced by US Secretary of State Marco Rubio on Tuesday, renewed tensions...",
-   "kind": "item",
-   "source": "The EastAfrican",
-   "source_id": "np-eastafrican",
-   "tier": 2,
-   "country": "REG",
-   "category": "press",
-   "segments": [
-    "city",
-    "bush",
-    "beach"
-   ],
-   "first_seen": "2026-09-17T16:08+03:00",
-   "published": "2026-09-17",
+   "first_seen": "2026-09-17T21:00+03:00",
+   "published": null,
    "verdict": "weak"
   },
   {
-   "score": 66.7,
+   "score": 68.0,
    "components": {
     "tier": 20,
     "category": 5,
     "lead": 1.2,
     "relevance": 12,
-    "freshness": 18.5,
+    "freshness": 19.8,
     "corroborated": 10
    },
    "keywords": [
-    "vat",
-    "investment"
-   ],
-   "shock_terms": [],
-   "dedupe_match": null,
-   "dedupe_similarity": 0.0,
-   "id": "458855a1c44b",
-   "title": "IFC Appoints Mary-Jean Moyo Division Director for Tanzania",
-   "url": "https://www.tanzaniainvest.com/finance/ifc-division-director-appointment-mary-jean-moyo",
-   "summary": "The World Bank Group has appointed Mary-Jean Moyo as International Finance Corporation (IFC) Division Director for Tanzania, Burundi, the Democratic Republic of Congo, Malawi, Zambia, and Zimbabwe, effective September 1, 2026, with Moyo based in Dar es Salaam to oversee IFC's engagement across the six-country cluster. In her new role, she will help mobilize private sector investment and support bu",
-   "kind": "item",
-   "source": "TanzaniaInvest \u2014 tourism",
-   "source_id": "tp-tanzaniainvest",
-   "tier": 2,
-   "country": "TZ",
-   "category": "trade",
-   "segments": [
-    "city",
-    "bush",
-    "beach"
-   ],
-   "first_seen": "2026-09-17T16:08+03:00",
-   "published": "2026-09-17",
-   "verdict": "weak"
-  },
-  {
-   "score": 66.7,
-   "components": {
-    "tier": 20,
-    "category": 5,
-    "lead": 1.2,
-    "relevance": 12,
-    "freshness": 18.5,
-    "corroborated": 10
-   },
-   "keywords": [
-    "fee",
-    "hotel"
-   ],
-   "shock_terms": [],
-   "dedupe_match": null,
-   "dedupe_similarity": 0.17,
-   "id": "1f53f04b826a",
-   "title": "Skift Global Forum Preview: Wyndham CEO on Placing Its Own Agents Inside the AI Models",
-   "url": "https://skift.com/2026/09/17/skift-global-forum-preview-wyndham-ai-search-strategy",
-   "summary": "Wyndham isn't waiting to see whether AI recommends its hotels. It feeds live data straight into ChatGPT, Claude, and Gemini, then uses AI to watch AI and refine what it supplies. Geoff Ballotti runs every such call through one test: does it pay off for owners? We'll get into it at Skift Global Forum.",
-   "kind": "item",
-   "source": "Skift",
-   "source_id": "tp-skift",
-   "tier": 2,
-   "country": "GLOBAL",
-   "category": "trade",
-   "segments": [
-    "city",
-    "bush",
-    "beach"
-   ],
-   "first_seen": "2026-09-17T16:08+03:00",
-   "published": "2026-09-17",
-   "verdict": "weak"
-  },
-  {
-   "score": 66.7,
-   "components": {
-    "tier": 20,
-    "category": 5,
-    "lead": 1.2,
-    "relevance": 12,
-    "freshness": 18.5,
-    "corroborated": 10
-   },
-   "keywords": [
-    "capacity",
+    "permit",
     "airline"
    ],
    "shock_terms": [],
    "dedupe_match": null,
-   "dedupe_similarity": 0.0,
-   "id": "402faddae3ef",
-   "title": "Flydubai CEO Expects Pre-War Capacity by Year-End After Steep Decline",
-   "url": "https://skift.com/2026/09/17/flydubai-ceo-expects-pre-war-capacity-by-year-end-after-steep-decline",
-   "summary": "The airline is investing in premium retrofits to boost revenue now, even as Boeing delays push its widebody plans to 2028.",
+   "dedupe_similarity": 0.17,
+   "id": "b89d3ab01d66",
+   "title": "Europe Handed Out \u20ac430 Million in SAF Permits Last Year \u2014 See Which Airlines Got the Most",
+   "url": "https://skift.com/2026/09/17/europe-handed-out-e430-million-in-saf-permits-last-year-see-which-airlines-got-the-most",
+   "summary": "Europe\u2019s support to the industry through its Emissions Trading Scheme swelled to four times 2024\u2019s figure as the race to meet mandated blending targets gets underway.",
    "kind": "item",
    "source": "Skift",
    "source_id": "tp-skift",
@@ -998,391 +1378,32 @@
     "bush",
     "beach"
    ],
-   "first_seen": "2026-09-17T16:08+03:00",
+   "first_seen": "2026-09-17T20:59+03:00",
    "published": "2026-09-17",
    "verdict": "weak"
   },
   {
-   "score": 66.5,
-   "components": {
-    "tier": 20,
-    "category": 4,
-    "lead": 0.0,
-    "relevance": 12,
-    "freshness": 18.5,
-    "undated": -6,
-    "shock": 18
-   },
-   "keywords": [
-    "outbreak"
-   ],
-   "shock_terms": [
-    "outbreak"
-   ],
-   "dedupe_match": null,
-   "dedupe_similarity": 0.0,
-   "id": "07c3902d3082",
-   "title": "Sheema Sheema lifts two-month livestock lockdown after anthrax outbreak",
-   "url": "https://www.newvision.co.ug/category/agriculture/sheema-lifts-two-month-livestock-lockdown-aft-NV_240642_092026",
-   "summary": "",
-   "kind": "item",
-   "source": "New Vision (Uganda)",
-   "source_id": "np-newvision-ug",
-   "tier": 2,
-   "country": "UG",
-   "category": "press",
-   "segments": [
-    "city",
-    "bush",
-    "beach"
-   ],
-   "first_seen": "2026-09-17T16:08+03:00",
-   "published": null,
-   "verdict": "weak"
-  },
-  {
-   "score": 66.4,
-   "components": {
-    "tier": 20,
-    "category": 5,
-    "lead": 3.6,
-    "relevance": 8,
-    "freshness": 19.8,
-    "corroborated": 10
-   },
-   "keywords": [
-    "resort",
-    "investment"
-   ],
-   "shock_terms": [],
-   "dedupe_match": null,
-   "dedupe_similarity": 0.2,
-   "id": "69fcce58e523",
-   "title": "The surf park resort surge: Market momentum, development trends and attendance growth",
-   "url": "https://www.hospitalitynet.org/opinion/4134436/the-surf-park-resort-surge-market-momentum-development-trends-and-attendance-growth",
-   "summary": "HLA analysis finds North America now leads global surf park development, with most projects anchoring mixed-use resorts, but warns that capital intensity, seasonality, and market specificity separate viable investments from enthusiasm.",
-   "kind": "item",
-   "source": "Hospitality Net \u2014 Africa announcements",
-   "source_id": "dev-hospitalitynet-africa",
-   "tier": 2,
-   "country": "REG",
-   "category": "trade",
-   "segments": [
-    "city",
-    "bush",
-    "beach"
-   ],
-   "first_seen": "2026-09-17T17:18+03:00",
-   "published": "2026-09-17",
-   "verdict": "weak"
-  },
-  {
-   "score": 66.4,
-   "components": {
-    "tier": 20,
-    "category": 5,
-    "lead": 3.6,
-    "relevance": 8,
-    "freshness": 19.8,
-    "corroborated": 10
-   },
-   "keywords": [
-    "hotel",
-    "rooms"
-   ],
-   "shock_terms": [],
-   "dedupe_match": null,
-   "dedupe_similarity": 0.0,
-   "id": "64617ba91907",
-   "title": "What is Ontology for Hotel AI?",
-   "url": "https://www.hospitalitynet.org/opinion/4134435/what-is-ontology-for-hotel-ai",
-   "summary": "A practical explainer on ontology as an AI concept for hotels: structuring rooms, staff, tasks, and SOPs into a connected data layer that enables meaningful operational optimization.",
-   "kind": "item",
-   "source": "Hospitality Net \u2014 Africa announcements",
-   "source_id": "dev-hospitalitynet-africa",
-   "tier": 2,
-   "country": "REG",
-   "category": "trade",
-   "segments": [
-    "city",
-    "bush",
-    "beach"
-   ],
-   "first_seen": "2026-09-17T17:18+03:00",
-   "published": "2026-09-17",
-   "verdict": "weak"
-  },
-  {
-   "score": 66.4,
-   "components": {
-    "tier": 20,
-    "category": 5,
-    "lead": 3.6,
-    "relevance": 8,
-    "freshness": 19.8,
-    "corroborated": 10
-   },
-   "keywords": [
-    "hotel",
-    "guest"
-   ],
-   "shock_terms": [],
-   "dedupe_match": null,
-   "dedupe_similarity": 0.17,
-   "id": "65751874cdbb",
-   "title": "Hotel budgets are changing. Here\u2019s what you can\u2019t ignore",
-   "url": "https://www.hospitalitynet.org/whitepaper/4134430/hotel-budgets-are-changing-heres-what-you-cant-ignore",
-   "summary": "As AI, rising OTA costs, and data quality pressures reshape hotel marketing, hoteliers are urged to build flexible budgets that prioritize direct revenue, clean guest data, and connected digital experiences.",
-   "kind": "item",
-   "source": "Hospitality Net \u2014 Africa announcements",
-   "source_id": "dev-hospitalitynet-africa",
-   "tier": 2,
-   "country": "REG",
-   "category": "trade",
-   "segments": [
-    "city",
-    "bush",
-    "beach"
-   ],
-   "first_seen": "2026-09-17T17:18+03:00",
-   "published": "2026-09-17",
-   "verdict": "weak"
-  },
-  {
-   "score": 66.4,
-   "components": {
-    "tier": 20,
-    "category": 5,
-    "lead": 3.6,
-    "relevance": 8,
-    "freshness": 19.8,
-    "corroborated": 10
-   },
-   "keywords": [
-    "hotel",
-    "lodge"
-   ],
-   "shock_terms": [],
-   "dedupe_match": null,
-   "dedupe_similarity": 0.0,
-   "id": "aa3f835a2c5d",
-   "title": "Banyan Group Announces Acquisition of Newmark Hotels & Reserves, Adding 26 Hotels, Lodges, and Reserves Across Seven African Countries",
-   "url": "https://www.hospitalitynet.org/news/4134431/banyan-group-announces-acquisition-of-newmark-hotels-reserves-adding-26-hotels-lodges-and-reserves-across-seven-african-countries",
-   "summary": "Banyan Group acquires a majority stake in Africa-focused Newmark Hotels & Reserves, adding 26 properties across 7 countries and expanding its global portfolio to nearly 130 hotels.",
-   "kind": "item",
-   "source": "Hospitality Net \u2014 Africa announcements",
-   "source_id": "dev-hospitalitynet-africa",
-   "tier": 2,
-   "country": "REG",
-   "category": "trade",
-   "segments": [
-    "city",
-    "bush",
-    "beach"
-   ],
-   "first_seen": "2026-09-17T17:18+03:00",
-   "published": "2026-09-17",
-   "verdict": "weak"
-  },
-  {
-   "score": 66.4,
-   "components": {
-    "tier": 20,
-    "category": 5,
-    "lead": 3.6,
-    "relevance": 8,
-    "freshness": 19.8,
-    "corroborated": 10
-   },
-   "keywords": [
-    "revpar"
-   ],
-   "shock_terms": [],
-   "dedupe_match": null,
-   "dedupe_similarity": 0.0,
-   "id": "e2f1c536deae",
-   "title": "Colliers U.S. Hospitality Brand Performance Comparison Report - H1 2026",
-   "url": "https://www.hospitalitynet.org/news/4134423/colliers-us-hospitality-brand-performance-comparison-report-h1-2026",
-   "summary": "Colliers' H1 2026 U.S. report shows luxury and upper-upscale brands posting 4\u20138% RevPAR gains while midscale and economy segments remain under pressure from budget travelers and excess supply.",
-   "kind": "item",
-   "source": "Hospitality Net \u2014 Africa announcements",
-   "source_id": "dev-hospitalitynet-africa",
-   "tier": 2,
-   "country": "REG",
-   "category": "trade",
-   "segments": [
-    "city",
-    "bush",
-    "beach"
-   ],
-   "first_seen": "2026-09-17T17:18+03:00",
-   "published": "2026-09-17",
-   "verdict": "weak"
-  },
-  {
-   "score": 66.4,
-   "components": {
-    "tier": 20,
-    "category": 5,
-    "lead": 3.6,
-    "relevance": 8,
-    "freshness": 19.8,
-    "corroborated": 10
-   },
-   "keywords": [
-    "hotel",
-    "guest"
-   ],
-   "shock_terms": [],
-   "dedupe_match": null,
-   "dedupe_similarity": 0.17,
-   "id": "2d05eb9c5fac",
-   "title": "When Hotels Become Storytellers: Two Journeys Through the Legacies of South India",
-   "url": "https://www.hospitalitynet.org/opinion/4134354/when-hotels-become-storytellers-two-journeys-through-the-legacies-of-south-india",
-   "summary": "Two South Indian hotels, the Royal Orchid Metropole in Mysore and Hoysala Village in Hassan, illustrate how embedding living local ritual and dynastic history into the guest experience creates meaning that outlasts any amenity.",
-   "kind": "item",
-   "source": "Hospitality Net \u2014 Africa announcements",
-   "source_id": "dev-hospitalitynet-africa",
-   "tier": 2,
-   "country": "REG",
-   "category": "trade",
-   "segments": [
-    "city",
-    "bush",
-    "beach"
-   ],
-   "first_seen": "2026-09-17T17:18+03:00",
-   "published": "2026-09-17",
-   "verdict": "weak"
-  },
-  {
-   "score": 65.8,
-   "components": {
-    "tier": 20,
-    "category": 4,
-    "lead": 0.0,
-    "relevance": 12,
-    "freshness": 19.8,
-    "corroborated": 10
-   },
-   "keywords": [
-    "fee",
-    "hotel"
-   ],
-   "shock_terms": [],
-   "dedupe_match": null,
-   "dedupe_similarity": 0.0,
-   "id": "38b5477f8c31",
-   "title": "\u2018FLOWERS Project\u2019 to Turn Food Waste into Animal Feed and Fertiliser",
-   "url": "https://softpower.ug/flowers-project-to-turn-food-waste-into-animal-feed-and-fertiliser",
-   "summary": "Makerere University researchers and international partners have launched a two-year research project aimed at turning restaurant food waste in Kampala into animal feed and organic fertiliser. The FLOWERS Project, short for Facilitating Local Organic Waste Exchange for Regenerative Systems, was launched on September 10, 2026, at the Kampala Fairway Hotel. The project, running from 2026 [\u2026] The post",
-   "kind": "item",
-   "source": "SoftPower News \u2014 Tourism & Travel (Uganda)",
-   "source_id": "ug-softpower-tourism",
-   "tier": 2,
-   "country": "UG",
-   "category": "press",
-   "segments": [
-    "bush",
-    "city"
-   ],
-   "first_seen": "2026-09-17T17:20+03:00",
-   "published": "2026-09-16",
-   "verdict": "weak"
-  },
-  {
-   "score": 64.5,
-   "components": {
-    "tier": 20,
-    "category": 4,
-    "lead": 0.0,
-    "relevance": 12,
-    "freshness": 18.5,
-    "corroborated": 10
-   },
-   "keywords": [
-    "tax",
-    "investment"
-   ],
-   "shock_terms": [],
-   "dedupe_match": null,
-   "dedupe_similarity": 0.0,
-   "id": "57cd69b29bfe",
-   "title": "Tanzania, Germany move to address business barriers to unlock new investment areas across EAC bloc",
-   "url": "https://dailynews.co.tz/tanzania-germany-move-to-address-business-barriers-to-unlock-new-investment-areas-across-eac-bloc",
-   "summary": "DAR ES SALAAM: TANZANIA and Germany are seeking to unlock new investment opportunities in Tanzania and the wider East African region, with both sides highlighting the need to address tax, policy, infrastructure and other business barriers. This was reached in talks between the Deputy Minister for Foreign Affairs and East African Cooperation James Millya with \u2026 The post Tanzania, Germany move to ad",
-   "kind": "item",
-   "source": "Daily News (Tanzania)",
-   "source_id": "np-dailynews-tz",
-   "tier": 2,
-   "country": "TZ",
-   "category": "press",
-   "segments": [
-    "city",
-    "bush",
-    "beach"
-   ],
-   "first_seen": "2026-09-17T16:08+03:00",
-   "published": "2026-09-17",
-   "verdict": "weak"
-  },
-  {
-   "score": 64.5,
-   "components": {
-    "tier": 20,
-    "category": 4,
-    "lead": 0.0,
-    "relevance": 12,
-    "freshness": 18.5,
-    "corroborated": 10
-   },
-   "keywords": [
-    "vat",
-    "signing"
-   ],
-   "shock_terms": [],
-   "dedupe_match": null,
-   "dedupe_similarity": 0.17,
-   "id": "f91f30de67da",
-   "title": "Mwanza RC calls NGOs to be innovative in designing projects",
-   "url": "https://dailynews.co.tz/mwanza-rc-calls-ngos-to-be-innovative-in-designing-projects",
-   "summary": "MWANZA: MWANZA Regional Commissioner CP Salum Hamduni has called on non-governmental organizations (NGOs) operating in the region to adopt innovative approaches in designing and implementing projects, diversify their sources of revenue, and ensure that all their activities comply with the country\u2019s laws, regulations, and established procedures. CP Hamduni made the remarks today, September 17, 2026",
-   "kind": "item",
-   "source": "Daily News (Tanzania)",
-   "source_id": "np-dailynews-tz",
-   "tier": 2,
-   "country": "TZ",
-   "category": "press",
-   "segments": [
-    "city",
-    "bush",
-    "beach"
-   ],
-   "first_seen": "2026-09-17T16:08+03:00",
-   "published": "2026-09-17",
-   "verdict": "weak"
-  },
-  {
-   "score": 62.7,
+   "score": 68.0,
    "components": {
     "tier": 20,
     "category": 5,
     "lead": 1.2,
-    "relevance": 8,
-    "freshness": 18.5,
+    "relevance": 12,
+    "freshness": 19.8,
     "corroborated": 10
    },
    "keywords": [
     "hotel",
-    "booking"
+    "flight",
+    "operator"
    ],
    "shock_terms": [],
    "dedupe_match": null,
-   "dedupe_similarity": 0.0,
-   "id": "242474456b18",
-   "title": "Turo Wants to Bring Rental Cars Into the Hotel Booking Flow",
-   "url": "https://skift.com/2026/09/17/turo-wants-to-bring-rental-cars-into-the-hotel-booking-flow",
-   "summary": "Turo already delivers cars to travelers. Now it wants hotels, vacation rentals, and travel platforms to help sell them.",
+   "dedupe_similarity": 0.17,
+   "id": "6e63e331f85f",
+   "title": "Thai Airways Expands Flight Network Across Europe and Asia",
+   "url": "https://skift.com/2026/09/17/thai-airways-expands-flight-network-across-europe-and-asia",
+   "summary": "Thai Airways\u2019 expansion across Europe and Asia could strengthen Bangkok\u2019s role as a regional hub, giving hotels and tour operators more opportunities to attract travelers combining Thailand with neighboring destinations.",
    "kind": "item",
    "source": "Skift",
    "source_id": "tp-skift",
@@ -1394,42 +1415,44 @@
     "bush",
     "beach"
    ],
-   "first_seen": "2026-09-17T16:08+03:00",
+   "first_seen": "2026-09-17T20:59+03:00",
    "published": "2026-09-17",
    "verdict": "weak"
   },
   {
-   "score": 62.4,
+   "score": 68.0,
    "components": {
     "tier": 20,
     "category": 5,
-    "lead": 3.6,
-    "relevance": 4,
+    "lead": 1.2,
+    "relevance": 12,
     "freshness": 19.8,
     "corroborated": 10
    },
    "keywords": [
-    "hotel"
+    "hotel",
+    "resort",
+    "opening"
    ],
    "shock_terms": [],
    "dedupe_match": null,
    "dedupe_similarity": 0.0,
-   "id": "82cc50d19cd6",
-   "title": "How Supercity Aparthotels chose the PMS",
-   "url": "https://www.hospitalitynet.org/podcast/4134243/how-supercity-aparthotels-chose-the-pms",
-   "summary": "SuperCity Aparthotels MD Philip Houghton discusses the brand's move to Oracle Opera Cloud PMS to support UK expansion, alongside Oracle's David Hayward on digital transformation for independent hotels.",
+   "id": "eb8eebd18ac6",
+   "title": "Minor Hotels Signs First Hanoi Property, Targets 2028 Opening",
+   "url": "https://skift.com/2026/09/17/minor-hotels-signs-first-hanoi-property-targets-2028-opening",
+   "summary": "Minor Hotels is expanding into Vietnam's capital with a 310-room Avani+ property \u2014 its first move beyond a portfolio so far concentrated in the country's resort destinations, and a signal of where its next phase of Vietnam growth may be headed.",
    "kind": "item",
-   "source": "Hospitality Net \u2014 Africa announcements",
-   "source_id": "dev-hospitalitynet-africa",
+   "source": "Skift",
+   "source_id": "tp-skift",
    "tier": 2,
-   "country": "REG",
+   "country": "GLOBAL",
    "category": "trade",
    "segments": [
     "city",
     "bush",
     "beach"
    ],
-   "first_seen": "2026-09-17T17:18+03:00",
+   "first_seen": "2026-09-17T20:59+03:00",
    "published": "2026-09-17",
    "verdict": "weak"
   }
