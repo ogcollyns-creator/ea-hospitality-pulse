@@ -1,18 +1,18 @@
 {
- "generated": "2026-09-17T22:06:55+03:00",
- "slot": "evening",
- "window_start": 1789639200,
- "observations_in_window": 467,
+ "generated": "2026-09-18T00:23:19+03:00",
+ "slot": "morning",
+ "window_start": 1789657200,
+ "observations_in_window": 378,
  "deduped_against": 4,
  "candidates": [
   {
-   "score": 163.8,
+   "score": 161.3,
    "components": {
     "tier": 40,
     "category": 32,
     "lead": 1.2,
     "relevance": 60,
-    "freshness": 18.6,
+    "freshness": 16.1,
     "undated": -6,
     "shock": 18
    },
@@ -51,13 +51,13 @@
    "verdict": "LEAD CANDIDATE \u2014 tier-1 shock language"
   },
   {
-   "score": 151.8,
+   "score": 149.3,
    "components": {
     "tier": 40,
     "category": 32,
     "lead": 1.2,
     "relevance": 48,
-    "freshness": 18.6,
+    "freshness": 16.1,
     "undated": -6,
     "shock": 18
    },
@@ -93,13 +93,49 @@
    "verdict": "LEAD CANDIDATE \u2014 tier-1 shock language"
   },
   {
-   "score": 121.0,
+   "score": 121.3,
+   "components": {
+    "tier": 40,
+    "category": 32,
+    "lead": 3.6,
+    "relevance": 20,
+    "freshness": 19.7,
+    "corroborated": 10,
+    "page_change": -4
+   },
+   "keywords": [
+    "advisory",
+    "vat"
+   ],
+   "shock_terms": [],
+   "dedupe_match": null,
+   "dedupe_similarity": 0.0,
+   "id": "59fde6465053",
+   "title": "[page changed] Federal Register \u2014 public inspection (HHS/CDC), pre-publication",
+   "url": "https://www.federalregister.gov/api/v1/public-inspection-documents/current.json",
+   "summary": "{\"count\":117,\"results\":[{\"agencies\":[{\"raw_name\":\"HISTORIC PRESERVATION, ADVISORY COUNCIL\",\"name\":\"Advisory Council on Historic Preservation\",\"id\":225,\"url\":\"https://www.federalregister.gov/agencies/advisory-council-on-historic-preservation\",\"json_url\":\"https://www.federalregister.gov/api/v1/agencies/225\",\"parent_id\":null,\"slug\":\"advisory-council-on-historic-preservation\"}],\"agency_letters\":[],\"ag",
+   "kind": "page-change",
+   "source": "Federal Register \u2014 public inspection (HHS/CDC), pre-publication",
+   "source_id": "us-fedreg-pubinspect-hhs",
+   "tier": 1,
+   "country": "REG",
+   "category": "advisory",
+   "segments": [
+    "city",
+    "bush"
+   ],
+   "first_seen": "2026-09-18T00:16+03:00",
+   "published": "2026-09-17",
+   "verdict": "OPEN THIS \u2014 tier-1 advisory page moved; content not auto-parsed, read it manually"
+  },
+  {
+   "score": 118.5,
    "components": {
     "tier": 40,
     "category": 24,
     "lead": 2.4,
     "relevance": 24,
-    "freshness": 18.6,
+    "freshness": 16.1,
     "undated": -6,
     "shock": 18
    },
@@ -131,13 +167,13 @@
    "verdict": "LEAD CANDIDATE \u2014 tier-1 shock language"
   },
   {
-   "score": 120.2,
+   "score": 117.7,
    "components": {
     "tier": 40,
     "category": 32,
     "lead": 3.6,
     "relevance": 20,
-    "freshness": 18.6,
+    "freshness": 16.1,
     "corroborated": 10,
     "page_change": -4
    },
@@ -167,126 +203,910 @@
    "verdict": "OPEN THIS \u2014 tier-1 advisory page moved; content not auto-parsed, read it manually"
   },
   {
-   "score": 118.1,
+   "score": 65.3,
    "components": {
     "tier": 40,
-    "category": 24,
+    "category": 12,
     "lead": 3.6,
-    "relevance": 24,
-    "freshness": 14.5,
+    "relevance": 0,
+    "freshness": 19.7,
     "undated": -6,
-    "shock": 18
+    "page_change": -4
    },
-   "keywords": [
-    "outbreak",
-    "ebola"
-   ],
-   "shock_terms": [
-    "outbreak"
-   ],
+   "keywords": [],
+   "shock_terms": [],
    "dedupe_match": null,
    "dedupe_similarity": 0.0,
-   "id": "4e0f6288255c",
-   "title": "Questions and answers about the current outbreak of Ebola disease",
-   "url": "https://www.ecdc.europa.eu/en/topics-z/ebola-disease/surveillance-and-updates/ebola-outbreak-democratic-republic-congo",
-   "summary": "",
-   "kind": "item",
-   "source": "ECDC weekly communicable disease threats report",
-   "source_id": "ecdc-cdtr",
+   "id": "268ba1071399",
+   "title": "[page changed] Airlink news",
+   "url": "https://www.flyairlink.com/",
+   "summary": "Request unsuccessful. Incapsula incident ID: 102000320940637595-341727737178097701",
+   "kind": "page-change",
+   "source": "Airlink news",
+   "source_id": "air-airlink",
    "tier": 1,
-   "country": "GLOBAL",
-   "category": "health",
+   "country": "REG",
+   "category": "airline",
    "segments": [
     "city",
     "bush",
     "beach"
    ],
-   "first_seen": "2026-09-17T17:18+03:00",
+   "first_seen": "2026-09-18T00:15+03:00",
    "published": null,
-   "verdict": "LEAD CANDIDATE \u2014 tier-1 shock language"
+   "verdict": "OPEN THIS \u2014 tier-1 airline page moved; content not auto-parsed, read it manually"
   },
   {
-   "score": 114.8,
+   "score": 103.5,
    "components": {
     "tier": 40,
-    "category": 32,
-    "lead": 3.6,
-    "relevance": 20,
-    "freshness": 13.2,
-    "corroborated": 10,
-    "page_change": -4
+    "category": 15,
+    "lead": 16.8,
+    "relevance": 12,
+    "freshness": 19.7
    },
    "keywords": [
-    "advisory",
-    "vat"
+    "tax",
+    "opening"
    ],
    "shock_terms": [],
    "dedupe_match": null,
    "dedupe_similarity": 0.0,
-   "id": "7b7ac5a4b1be",
-   "title": "[page changed] Federal Register \u2014 public inspection (HHS/CDC), pre-publication",
-   "url": "https://www.federalregister.gov/api/v1/public-inspection-documents/current.json",
-   "summary": "{\"count\":114,\"results\":[{\"agencies\":[{\"raw_name\":\"HISTORIC PRESERVATION, ADVISORY COUNCIL\",\"name\":\"Advisory Council on Historic Preservation\",\"id\":225,\"url\":\"https://www.federalregister.gov/agencies/advisory-council-on-historic-preservation\",\"json_url\":\"https://www.federalregister.gov/api/v1/agencies/225\",\"parent_id\":null,\"slug\":\"advisory-council-on-historic-preservation\"}],\"agency_letters\":[],\"ag",
-   "kind": "page-change",
-   "source": "Federal Register \u2014 public inspection (HHS/CDC), pre-publication",
-   "source_id": "us-fedreg-pubinspect-hhs",
+   "id": "2d85c1c43ddc",
+   "title": "PRE-QUALIFICATION TENDER FOR SUPPLY, INSTALLATION, CONFIGURATION AND OPERATION OF SYSTEM FOR ELECTRONIC TAX STAMPS (ETS)",
+   "url": "https://www.tra.go.tz/images/uploads/public_notice/english/ADVERT_ETS.pdf",
+   "summary": "Dar es Salaam, 17 September, 2026:PUBLIC NOTICEPRE-QUALIFICATION TENDER FOR SUPPLY, INSTALLATION, CONFIGURATION AND OPERATION OF SYSTEM FOR ELECTRONIC TAX STAMPS (ETS) On 18th August, 2026 the Tanzania Revenue Authority (TRA) advertised Tender No. TR134/2026/2027/G/67 for the Supply, Installation, Configuration and Operation of System for Electronic Tax Stamps (ETS) through the National Electronic",
+   "kind": "doc",
+   "source": "Tanzania Revenue Authority",
+   "source_id": "tz-tra",
    "tier": 1,
-   "country": "REG",
-   "category": "advisory",
+   "country": "TZ",
+   "category": "fiscal",
    "segments": [
     "city",
-    "bush"
+    "bush",
+    "beach"
    ],
-   "first_seen": "2026-09-17T16:07+03:00",
-   "published": "2026-09-17",
-   "verdict": "OPEN THIS \u2014 tier-1 advisory page moved; content not auto-parsed, read it manually"
+   "first_seen": "2026-09-18T00:15+03:00",
+   "published": "2026-09-15",
+   "verdict": "STRONG \u2014 tier-1, upstream"
   },
   {
-   "score": 101.6,
+   "score": 101.7,
    "components": {
-    "tier": 20,
-    "category": 14,
-    "lead": 8.4,
-    "relevance": 36,
-    "freshness": 13.2,
+    "tier": 40,
+    "category": 20,
+    "lead": 12.0,
+    "relevance": 0,
+    "freshness": 19.7,
+    "corroborated": 10
+   },
+   "keywords": [],
+   "shock_terms": [],
+   "dedupe_match": null,
+   "dedupe_similarity": 0.0,
+   "id": "d9d114f85ea2",
+   "title": "Githunguri Law Courts \u2013 Civil Division \u2013 Daily Cause List \u2013 17 September 2026",
+   "url": "https://new.kenyalaw.org/akn/ke/doc/cause-list-daily/kemc/2026-09-17/3/eng@2026-09-17",
+   "summary": "Githunguri Law Courts \u2013 Civil Division \u2013 Daily Cause List \u2013 17 September 2026",
+   "kind": "item",
+   "source": "Kenya Gazette (Kenya Law)",
+   "source_id": "ke-gazette",
+   "tier": 1,
+   "country": "KE",
+   "category": "gazette",
+   "segments": [
+    "city",
+    "bush",
+    "beach"
+   ],
+   "first_seen": "2026-09-18T00:16+03:00",
+   "published": "2026-09-17",
+   "verdict": "STRONG \u2014 tier-1, upstream"
+  },
+  {
+   "score": 101.7,
+   "components": {
+    "tier": 40,
+    "category": 20,
+    "lead": 12.0,
+    "relevance": 0,
+    "freshness": 19.7,
+    "corroborated": 10
+   },
+   "keywords": [],
+   "shock_terms": [],
+   "dedupe_match": null,
+   "dedupe_similarity": 0.0,
+   "id": "8b621a221038",
+   "title": "Transport Licensing Appeals Board Tribunal \u2013 Weekly Cause List \u2013 21 September 2026 to 25 September 2026",
+   "url": "https://new.kenyalaw.org/akn/ke/doc/cause-list-weekly/ketlabt/2026-09-21/1/eng@2026-09-21",
+   "summary": "Transport Licensing Appeals Board Tribunal \u2013 Weekly Cause List \u2013 21 September 2026 to 25 September 2026",
+   "kind": "item",
+   "source": "Kenya Gazette (Kenya Law)",
+   "source_id": "ke-gazette",
+   "tier": 1,
+   "country": "KE",
+   "category": "gazette",
+   "segments": [
+    "city",
+    "bush",
+    "beach"
+   ],
+   "first_seen": "2026-09-18T00:16+03:00",
+   "published": "2026-09-21",
+   "verdict": "STRONG \u2014 tier-1, upstream"
+  },
+  {
+   "score": 101.7,
+   "components": {
+    "tier": 40,
+    "category": 20,
+    "lead": 12.0,
+    "relevance": 0,
+    "freshness": 19.7,
+    "corroborated": 10
+   },
+   "keywords": [],
+   "shock_terms": [],
+   "dedupe_match": null,
+   "dedupe_similarity": 0.0,
+   "id": "5180ee5e477b",
+   "title": "Kiambere Mobile Court \u2013 Monthly Cause List \u2013 01 October 2026 to 22 October 2026",
+   "url": "https://new.kenyalaw.org/akn/ke/doc/cause-list-monthly/kemc/2026-10-01/1/eng@2026-10-01",
+   "summary": "Kiambere Mobile Court \u2013 Monthly Cause List \u2013 01 October 2026 to 22 October 2026",
+   "kind": "item",
+   "source": "Kenya Gazette (Kenya Law)",
+   "source_id": "ke-gazette",
+   "tier": 1,
+   "country": "KE",
+   "category": "gazette",
+   "segments": [
+    "city",
+    "bush",
+    "beach"
+   ],
+   "first_seen": "2026-09-18T00:16+03:00",
+   "published": "2026-10-01",
+   "verdict": "STRONG \u2014 tier-1, upstream"
+  },
+  {
+   "score": 101.7,
+   "components": {
+    "tier": 40,
+    "category": 20,
+    "lead": 12.0,
+    "relevance": 0,
+    "freshness": 19.7,
+    "corroborated": 10
+   },
+   "keywords": [],
+   "shock_terms": [],
+   "dedupe_match": null,
+   "dedupe_similarity": 0.0,
+   "id": "afb905c7eacc",
+   "title": "Katiba Institute v National Assembly & 9 others (Petition E626 of 2024) [2026] KEHC 13501 (KLR) (Constitutional and Human Rights) (17 September 2026) (Judgment)",
+   "url": "https://new.kenyalaw.org/akn/ke/judgment/kehc/2026/13501/eng@2026-09-17",
+   "summary": "Katiba Institute v National Assembly & 9 others (Petition E626 of 2024) [2026] KEHC 13501 (KLR) (Constitutional and Human Rights) (17 September 2026) (Judgment)",
+   "kind": "item",
+   "source": "Kenya Gazette (Kenya Law)",
+   "source_id": "ke-gazette",
+   "tier": 1,
+   "country": "KE",
+   "category": "gazette",
+   "segments": [
+    "city",
+    "bush",
+    "beach"
+   ],
+   "first_seen": "2026-09-18T00:16+03:00",
+   "published": "2026-09-17",
+   "verdict": "STRONG \u2014 tier-1, upstream"
+  },
+  {
+   "score": 101.7,
+   "components": {
+    "tier": 40,
+    "category": 20,
+    "lead": 12.0,
+    "relevance": 0,
+    "freshness": 19.7,
+    "corroborated": 10
+   },
+   "keywords": [],
+   "shock_terms": [],
+   "dedupe_match": null,
+   "dedupe_similarity": 0.0,
+   "id": "c804369dcf66",
+   "title": "Kamunya v Kinyuru (Civil Appeal (Application) E096 of 2026) [2026] KECA 1679 (KLR) (16 September 2026) (Ruling)",
+   "url": "https://new.kenyalaw.org/akn/ke/judgment/keca/2026/1679/eng@2026-09-16",
+   "summary": "Kamunya v Kinyuru (Civil Appeal (Application) E096 of 2026) [2026] KECA 1679 (KLR) (16 September 2026) (Ruling)",
+   "kind": "item",
+   "source": "Kenya Gazette (Kenya Law)",
+   "source_id": "ke-gazette",
+   "tier": 1,
+   "country": "KE",
+   "category": "gazette",
+   "segments": [
+    "city",
+    "bush",
+    "beach"
+   ],
+   "first_seen": "2026-09-18T00:16+03:00",
+   "published": "2026-09-16",
+   "verdict": "STRONG \u2014 tier-1, upstream"
+  },
+  {
+   "score": 101.7,
+   "components": {
+    "tier": 40,
+    "category": 20,
+    "lead": 12.0,
+    "relevance": 0,
+    "freshness": 19.7,
+    "corroborated": 10
+   },
+   "keywords": [],
+   "shock_terms": [],
+   "dedupe_match": null,
+   "dedupe_similarity": 0.0,
+   "id": "260ac525cdac",
+   "title": "In re Estate of Ong\u2019ang\u2019o (Deceased) (Succession Cause E172 of 2014) [2026] KEHC 13500 (KLR) (16 September 2026) (Ruling)",
+   "url": "https://new.kenyalaw.org/akn/ke/judgment/kehc/2026/13500/eng@2026-09-16",
+   "summary": "In re Estate of Ong\u2019ang\u2019o (Deceased) (Succession Cause E172 of 2014) [2026] KEHC 13500 (KLR) (16 September 2026) (Ruling)",
+   "kind": "item",
+   "source": "Kenya Gazette (Kenya Law)",
+   "source_id": "ke-gazette",
+   "tier": 1,
+   "country": "KE",
+   "category": "gazette",
+   "segments": [
+    "city",
+    "bush",
+    "beach"
+   ],
+   "first_seen": "2026-09-18T00:16+03:00",
+   "published": "2026-09-16",
+   "verdict": "STRONG \u2014 tier-1, upstream"
+  },
+  {
+   "score": 101.7,
+   "components": {
+    "tier": 40,
+    "category": 20,
+    "lead": 12.0,
+    "relevance": 0,
+    "freshness": 19.7,
+    "corroborated": 10
+   },
+   "keywords": [],
+   "shock_terms": [],
+   "dedupe_match": null,
+   "dedupe_similarity": 0.0,
+   "id": "cccad5b3354e",
+   "title": "Londo v Ibrahim (Civil Suit E3389 of 2022) [2026] KEMC 882 (KLR) (16 September 2026) (Ruling)",
+   "url": "https://new.kenyalaw.org/akn/ke/judgment/kemc/2026/882/eng@2026-09-16",
+   "summary": "Londo v Ibrahim (Civil Suit E3389 of 2022) [2026] KEMC 882 (KLR) (16 September 2026) (Ruling)",
+   "kind": "item",
+   "source": "Kenya Gazette (Kenya Law)",
+   "source_id": "ke-gazette",
+   "tier": 1,
+   "country": "KE",
+   "category": "gazette",
+   "segments": [
+    "city",
+    "bush",
+    "beach"
+   ],
+   "first_seen": "2026-09-18T00:16+03:00",
+   "published": "2026-09-16",
+   "verdict": "STRONG \u2014 tier-1, upstream"
+  },
+  {
+   "score": 101.7,
+   "components": {
+    "tier": 40,
+    "category": 20,
+    "lead": 12.0,
+    "relevance": 0,
+    "freshness": 19.7,
+    "corroborated": 10
+   },
+   "keywords": [],
+   "shock_terms": [],
+   "dedupe_match": null,
+   "dedupe_similarity": 0.0,
+   "id": "eb446a3be2b4",
+   "title": "Njiri v Waithera (Civil Suit E2292 of 2025) [2026] KEMC 881 (KLR) (16 September 2026) (Judgment)",
+   "url": "https://new.kenyalaw.org/akn/ke/judgment/kemc/2026/881/eng@2026-09-16",
+   "summary": "Njiri v Waithera (Civil Suit E2292 of 2025) [2026] KEMC 881 (KLR) (16 September 2026) (Judgment)",
+   "kind": "item",
+   "source": "Kenya Gazette (Kenya Law)",
+   "source_id": "ke-gazette",
+   "tier": 1,
+   "country": "KE",
+   "category": "gazette",
+   "segments": [
+    "city",
+    "bush",
+    "beach"
+   ],
+   "first_seen": "2026-09-18T00:16+03:00",
+   "published": "2026-09-16",
+   "verdict": "STRONG \u2014 tier-1, upstream"
+  },
+  {
+   "score": 101.7,
+   "components": {
+    "tier": 40,
+    "category": 20,
+    "lead": 12.0,
+    "relevance": 0,
+    "freshness": 19.7,
+    "corroborated": 10
+   },
+   "keywords": [],
+   "shock_terms": [],
+   "dedupe_match": null,
+   "dedupe_similarity": 0.0,
+   "id": "dff1b7b33d59",
+   "title": "Lingai v Teachers Service Commission (Employment and Labour Relations Cause E840 of 2025) [2026] KEELRC 2453 (KLR) (16 September 2026) (Ruling)",
+   "url": "https://new.kenyalaw.org/akn/ke/judgment/keelrc/2026/2453/eng@2026-09-16",
+   "summary": "Lingai v Teachers Service Commission (Employment and Labour Relations Cause E840 of 2025) [2026] KEELRC 2453 (KLR) (16 September 2026) (Ruling)",
+   "kind": "item",
+   "source": "Kenya Gazette (Kenya Law)",
+   "source_id": "ke-gazette",
+   "tier": 1,
+   "country": "KE",
+   "category": "gazette",
+   "segments": [
+    "city",
+    "bush",
+    "beach"
+   ],
+   "first_seen": "2026-09-18T00:16+03:00",
+   "published": "2026-09-16",
+   "verdict": "STRONG \u2014 tier-1, upstream"
+  },
+  {
+   "score": 101.7,
+   "components": {
+    "tier": 40,
+    "category": 20,
+    "lead": 12.0,
+    "relevance": 0,
+    "freshness": 19.7,
+    "corroborated": 10
+   },
+   "keywords": [],
+   "shock_terms": [],
+   "dedupe_match": null,
+   "dedupe_similarity": 0.0,
+   "id": "2feb4a28224f",
+   "title": "Muhongo v Republic (DPP) (Criminal Revision E289 of 2024) [2026] KEHC 13499 (KLR) (16 September 2026) (Ruling)",
+   "url": "https://new.kenyalaw.org/akn/ke/judgment/kehc/2026/13499/eng@2026-09-16",
+   "summary": "Muhongo v Republic (DPP) (Criminal Revision E289 of 2024) [2026] KEHC 13499 (KLR) (16 September 2026) (Ruling)",
+   "kind": "item",
+   "source": "Kenya Gazette (Kenya Law)",
+   "source_id": "ke-gazette",
+   "tier": 1,
+   "country": "KE",
+   "category": "gazette",
+   "segments": [
+    "city",
+    "bush",
+    "beach"
+   ],
+   "first_seen": "2026-09-18T00:16+03:00",
+   "published": "2026-09-16",
+   "verdict": "STRONG \u2014 tier-1, upstream"
+  },
+  {
+   "score": 101.7,
+   "components": {
+    "tier": 40,
+    "category": 20,
+    "lead": 12.0,
+    "relevance": 0,
+    "freshness": 19.7,
+    "corroborated": 10
+   },
+   "keywords": [],
+   "shock_terms": [],
+   "dedupe_match": null,
+   "dedupe_similarity": 0.0,
+   "id": "1dba3a344c7e",
+   "title": "Olalui Group Ranch v Konchella & 11 others (Civil Application E113 of 2026) [2026] KECA 1682 (KLR) (16 September 2026) (Ruling)",
+   "url": "https://new.kenyalaw.org/akn/ke/judgment/keca/2026/1682/eng@2026-09-16",
+   "summary": "Olalui Group Ranch v Konchella & 11 others (Civil Application E113 of 2026) [2026] KECA 1682 (KLR) (16 September 2026) (Ruling)",
+   "kind": "item",
+   "source": "Kenya Gazette (Kenya Law)",
+   "source_id": "ke-gazette",
+   "tier": 1,
+   "country": "KE",
+   "category": "gazette",
+   "segments": [
+    "city",
+    "bush",
+    "beach"
+   ],
+   "first_seen": "2026-09-18T00:16+03:00",
+   "published": "2026-09-16",
+   "verdict": "STRONG \u2014 tier-1, upstream"
+  },
+  {
+   "score": 101.7,
+   "components": {
+    "tier": 40,
+    "category": 20,
+    "lead": 12.0,
+    "relevance": 0,
+    "freshness": 19.7,
+    "corroborated": 10
+   },
+   "keywords": [],
+   "shock_terms": [],
+   "dedupe_match": null,
+   "dedupe_similarity": 0.0,
+   "id": "81a57f848526",
+   "title": "Itegi v Kabuchu (Civil Application E091 of 2026) [2026] KECA 1681 (KLR) (16 September 2026) (Ruling)",
+   "url": "https://new.kenyalaw.org/akn/ke/judgment/keca/2026/1681/eng@2026-09-16",
+   "summary": "Itegi v Kabuchu (Civil Application E091 of 2026) [2026] KECA 1681 (KLR) (16 September 2026) (Ruling)",
+   "kind": "item",
+   "source": "Kenya Gazette (Kenya Law)",
+   "source_id": "ke-gazette",
+   "tier": 1,
+   "country": "KE",
+   "category": "gazette",
+   "segments": [
+    "city",
+    "bush",
+    "beach"
+   ],
+   "first_seen": "2026-09-18T00:16+03:00",
+   "published": "2026-09-16",
+   "verdict": "STRONG \u2014 tier-1, upstream"
+  },
+  {
+   "score": 101.7,
+   "components": {
+    "tier": 40,
+    "category": 20,
+    "lead": 12.0,
+    "relevance": 0,
+    "freshness": 19.7,
+    "corroborated": 10
+   },
+   "keywords": [],
+   "shock_terms": [],
+   "dedupe_match": null,
+   "dedupe_similarity": 0.0,
+   "id": "c0b7c39adcee",
+   "title": "Kiarie v Karai Farmers\u2019 Cooperative Society Ltd & another (Civil Appeal (Application) E006 of 2025) [2026] KECA 1680 (KLR) (16 September 2026) (Ruling)",
+   "url": "https://new.kenyalaw.org/akn/ke/judgment/keca/2026/1680/eng@2026-09-16",
+   "summary": "Kiarie v Karai Farmers\u2019 Cooperative Society Ltd & another (Civil Appeal (Application) E006 of 2025) [2026] KECA 1680 (KLR) (16 September 2026) (Ruling)",
+   "kind": "item",
+   "source": "Kenya Gazette (Kenya Law)",
+   "source_id": "ke-gazette",
+   "tier": 1,
+   "country": "KE",
+   "category": "gazette",
+   "segments": [
+    "city",
+    "bush",
+    "beach"
+   ],
+   "first_seen": "2026-09-18T00:16+03:00",
+   "published": "2026-09-16",
+   "verdict": "STRONG \u2014 tier-1, upstream"
+  },
+  {
+   "score": 101.7,
+   "components": {
+    "tier": 40,
+    "category": 20,
+    "lead": 12.0,
+    "relevance": 0,
+    "freshness": 19.7,
+    "corroborated": 10
+   },
+   "keywords": [],
+   "shock_terms": [],
+   "dedupe_match": null,
+   "dedupe_similarity": 0.0,
+   "id": "caee7039ae14",
+   "title": "Shah & another v Murithi t/a Squad Three Services & 6 others; Ndaba & another (Interested Parties) (Environment and Land Case E258 of 2025) [2026] KEELC 5424 (KLR) (16 September 2026) (Ruling)",
+   "url": "https://new.kenyalaw.org/akn/ke/judgment/keelc/2026/5424/eng@2026-09-16",
+   "summary": "Shah & another v Murithi t/a Squad Three Services & 6 others; Ndaba & another (Interested Parties) (Environment and Land Case E258 of 2025) [2026] KEELC 5424 (KLR) (16 September 2026) (Ruling)",
+   "kind": "item",
+   "source": "Kenya Gazette (Kenya Law)",
+   "source_id": "ke-gazette",
+   "tier": 1,
+   "country": "KE",
+   "category": "gazette",
+   "segments": [
+    "city",
+    "bush",
+    "beach"
+   ],
+   "first_seen": "2026-09-18T00:16+03:00",
+   "published": "2026-09-16",
+   "verdict": "STRONG \u2014 tier-1, upstream"
+  },
+  {
+   "score": 101.7,
+   "components": {
+    "tier": 40,
+    "category": 20,
+    "lead": 12.0,
+    "relevance": 0,
+    "freshness": 19.7,
+    "corroborated": 10
+   },
+   "keywords": [],
+   "shock_terms": [],
+   "dedupe_match": null,
+   "dedupe_similarity": 0.0,
+   "id": "c488cae95a0f",
+   "title": "Shah v Medivet Products Ltd & 2 others (Commercial Civil Suit E727 of 2022) [2026] KEMC 880 (KLR) (16 September 2026) (Ruling)",
+   "url": "https://new.kenyalaw.org/akn/ke/judgment/kemc/2026/880/eng@2026-09-16",
+   "summary": "Shah v Medivet Products Ltd & 2 others (Commercial Civil Suit E727 of 2022) [2026] KEMC 880 (KLR) (16 September 2026) (Ruling)",
+   "kind": "item",
+   "source": "Kenya Gazette (Kenya Law)",
+   "source_id": "ke-gazette",
+   "tier": 1,
+   "country": "KE",
+   "category": "gazette",
+   "segments": [
+    "city",
+    "bush",
+    "beach"
+   ],
+   "first_seen": "2026-09-18T00:16+03:00",
+   "published": "2026-09-16",
+   "verdict": "STRONG \u2014 tier-1, upstream"
+  },
+  {
+   "score": 101.7,
+   "components": {
+    "tier": 40,
+    "category": 20,
+    "lead": 12.0,
+    "relevance": 0,
+    "freshness": 19.7,
+    "corroborated": 10
+   },
+   "keywords": [],
+   "shock_terms": [],
+   "dedupe_match": null,
+   "dedupe_similarity": 0.0,
+   "id": "b3351cee4dfd",
+   "title": "Kariuki v Board of Management, Gichuru High School (Cause E970 of 2024) [2026] KEELRC 2452 (KLR) (16 September 2026) (Judgment)",
+   "url": "https://new.kenyalaw.org/akn/ke/judgment/keelrc/2026/2452/eng@2026-09-16",
+   "summary": "Kariuki v Board of Management, Gichuru High School (Cause E970 of 2024) [2026] KEELRC 2452 (KLR) (16 September 2026) (Judgment)",
+   "kind": "item",
+   "source": "Kenya Gazette (Kenya Law)",
+   "source_id": "ke-gazette",
+   "tier": 1,
+   "country": "KE",
+   "category": "gazette",
+   "segments": [
+    "city",
+    "bush",
+    "beach"
+   ],
+   "first_seen": "2026-09-18T00:16+03:00",
+   "published": "2026-09-16",
+   "verdict": "STRONG \u2014 tier-1, upstream"
+  },
+  {
+   "score": 101.7,
+   "components": {
+    "tier": 40,
+    "category": 20,
+    "lead": 12.0,
+    "relevance": 0,
+    "freshness": 19.7,
+    "corroborated": 10
+   },
+   "keywords": [],
+   "shock_terms": [],
+   "dedupe_match": null,
+   "dedupe_similarity": 0.0,
+   "id": "65644c9eddcc",
+   "title": "Lidigu alias Chale v Republic (Criminal Appeal E033 of 2025) [2026] KEHC 13497 (KLR) (16 September 2026) (Judgment)",
+   "url": "https://new.kenyalaw.org/akn/ke/judgment/kehc/2026/13497/eng@2026-09-16",
+   "summary": "Lidigu alias Chale v Republic (Criminal Appeal E033 of 2025) [2026] KEHC 13497 (KLR) (16 September 2026) (Judgment)",
+   "kind": "item",
+   "source": "Kenya Gazette (Kenya Law)",
+   "source_id": "ke-gazette",
+   "tier": 1,
+   "country": "KE",
+   "category": "gazette",
+   "segments": [
+    "city",
+    "bush",
+    "beach"
+   ],
+   "first_seen": "2026-09-18T00:16+03:00",
+   "published": "2026-09-16",
+   "verdict": "STRONG \u2014 tier-1, upstream"
+  },
+  {
+   "score": 101.7,
+   "components": {
+    "tier": 40,
+    "category": 20,
+    "lead": 12.0,
+    "relevance": 0,
+    "freshness": 19.7,
+    "corroborated": 10
+   },
+   "keywords": [],
+   "shock_terms": [],
+   "dedupe_match": null,
+   "dedupe_similarity": 0.0,
+   "id": "faa65518be41",
+   "title": "Okello & 6 others v Letting alias Kokwa & another (Environment and Land Case 136 of 2015) [2026] KEELC 5423 (KLR) (16 September 2026) (Ruling)",
+   "url": "https://new.kenyalaw.org/akn/ke/judgment/keelc/2026/5423/eng@2026-09-16",
+   "summary": "Okello & 6 others v Letting alias Kokwa & another (Environment and Land Case 136 of 2015) [2026] KEELC 5423 (KLR) (16 September 2026) (Ruling)",
+   "kind": "item",
+   "source": "Kenya Gazette (Kenya Law)",
+   "source_id": "ke-gazette",
+   "tier": 1,
+   "country": "KE",
+   "category": "gazette",
+   "segments": [
+    "city",
+    "bush",
+    "beach"
+   ],
+   "first_seen": "2026-09-18T00:16+03:00",
+   "published": "2026-09-16",
+   "verdict": "STRONG \u2014 tier-1, upstream"
+  },
+  {
+   "score": 101.7,
+   "components": {
+    "tier": 40,
+    "category": 20,
+    "lead": 12.0,
+    "relevance": 0,
+    "freshness": 19.7,
+    "corroborated": 10
+   },
+   "keywords": [],
+   "shock_terms": [],
+   "dedupe_match": null,
+   "dedupe_similarity": 0.0,
+   "id": "cccec4c85be7",
+   "title": "Co-operative Bank of Kenya Ltd v Cherono & another (Environment and Land Appeal E040 of 2025) [2026] KEELC 5422 (KLR) (16 September 2026) (Judgment)",
+   "url": "https://new.kenyalaw.org/akn/ke/judgment/keelc/2026/5422/eng@2026-09-16",
+   "summary": "Co-operative Bank of Kenya Ltd v Cherono & another (Environment and Land Appeal E040 of 2025) [2026] KEELC 5422 (KLR) (16 September 2026) (Judgment)",
+   "kind": "item",
+   "source": "Kenya Gazette (Kenya Law)",
+   "source_id": "ke-gazette",
+   "tier": 1,
+   "country": "KE",
+   "category": "gazette",
+   "segments": [
+    "city",
+    "bush",
+    "beach"
+   ],
+   "first_seen": "2026-09-18T00:16+03:00",
+   "published": "2026-09-16",
+   "verdict": "STRONG \u2014 tier-1, upstream"
+  },
+  {
+   "score": 101.7,
+   "components": {
+    "tier": 40,
+    "category": 20,
+    "lead": 12.0,
+    "relevance": 0,
+    "freshness": 19.7,
+    "corroborated": 10
+   },
+   "keywords": [],
+   "shock_terms": [],
+   "dedupe_match": null,
+   "dedupe_similarity": 0.0,
+   "id": "1cd4d53eb97f",
+   "title": "Board of Trustees, Kenya Broadcasting Corporation (KBC) Staff Retirement Benefits Scheme (Suing on behalf of the Scheme) v Omoke t/a Morara Omoke Advocates & 3 others (Cause E1352 of 2018) [2026] KEELRC 2451 (KLR) (16 September 2026) (Ruling)",
+   "url": "https://new.kenyalaw.org/akn/ke/judgment/keelrc/2026/2451/eng@2026-09-16",
+   "summary": "Board of Trustees, Kenya Broadcasting Corporation (KBC) Staff Retirement Benefits Scheme (Suing on behalf of the Scheme) v Omoke t/a Morara Omoke Advocates & 3 others (Cause E1352 of 2018) [2026] KEELRC 2451 (KLR) (16 September 2026) (Ruling)",
+   "kind": "item",
+   "source": "Kenya Gazette (Kenya Law)",
+   "source_id": "ke-gazette",
+   "tier": 1,
+   "country": "KE",
+   "category": "gazette",
+   "segments": [
+    "city",
+    "bush",
+    "beach"
+   ],
+   "first_seen": "2026-09-18T00:16+03:00",
+   "published": "2026-09-16",
+   "verdict": "STRONG \u2014 tier-1, upstream"
+  },
+  {
+   "score": 101.7,
+   "components": {
+    "tier": 40,
+    "category": 20,
+    "lead": 12.0,
+    "relevance": 0,
+    "freshness": 19.7,
+    "corroborated": 10
+   },
+   "keywords": [],
+   "shock_terms": [],
+   "dedupe_match": null,
+   "dedupe_similarity": 0.0,
+   "id": "f7c7d1963123",
+   "title": "Mutua v Lomas & Lomas Ltd (Cause E1275 of 2025) [2026] KEELRC 2450 (KLR) (16 September 2026) (Ruling)",
+   "url": "https://new.kenyalaw.org/akn/ke/judgment/keelrc/2026/2450/eng@2026-09-16",
+   "summary": "Mutua v Lomas & Lomas Ltd (Cause E1275 of 2025) [2026] KEELRC 2450 (KLR) (16 September 2026) (Ruling)",
+   "kind": "item",
+   "source": "Kenya Gazette (Kenya Law)",
+   "source_id": "ke-gazette",
+   "tier": 1,
+   "country": "KE",
+   "category": "gazette",
+   "segments": [
+    "city",
+    "bush",
+    "beach"
+   ],
+   "first_seen": "2026-09-18T00:16+03:00",
+   "published": "2026-09-16",
+   "verdict": "STRONG \u2014 tier-1, upstream"
+  },
+  {
+   "score": 101.7,
+   "components": {
+    "tier": 40,
+    "category": 20,
+    "lead": 12.0,
+    "relevance": 0,
+    "freshness": 19.7,
+    "corroborated": 10
+   },
+   "keywords": [],
+   "shock_terms": [],
+   "dedupe_match": null,
+   "dedupe_similarity": 0.0,
+   "id": "9df385ba2811",
+   "title": "In re Estate of Omwakwe (Deceased) (Succession Cause 569 of 2014) [2026] KEHC 13496 (KLR) (16 September 2026) (Ruling)",
+   "url": "https://new.kenyalaw.org/akn/ke/judgment/kehc/2026/13496/eng@2026-09-16",
+   "summary": "In re Estate of Omwakwe (Deceased) (Succession Cause 569 of 2014) [2026] KEHC 13496 (KLR) (16 September 2026) (Ruling)",
+   "kind": "item",
+   "source": "Kenya Gazette (Kenya Law)",
+   "source_id": "ke-gazette",
+   "tier": 1,
+   "country": "KE",
+   "category": "gazette",
+   "segments": [
+    "city",
+    "bush",
+    "beach"
+   ],
+   "first_seen": "2026-09-18T00:16+03:00",
+   "published": "2026-09-16",
+   "verdict": "STRONG \u2014 tier-1, upstream"
+  },
+  {
+   "score": 101.7,
+   "components": {
+    "tier": 40,
+    "category": 20,
+    "lead": 12.0,
+    "relevance": 0,
+    "freshness": 19.7,
+    "corroborated": 10
+   },
+   "keywords": [],
+   "shock_terms": [],
+   "dedupe_match": null,
+   "dedupe_similarity": 0.0,
+   "id": "6f735d2cd98c",
+   "title": "Githinji & another v Wairimu & 5 others (Land Case E179 of 2025) [2026] KEELC 5419 (KLR) (16 September 2026) (Ruling)",
+   "url": "https://new.kenyalaw.org/akn/ke/judgment/keelc/2026/5419/eng@2026-09-16",
+   "summary": "Githinji & another v Wairimu & 5 others (Land Case E179 of 2025) [2026] KEELC 5419 (KLR) (16 September 2026) (Ruling)",
+   "kind": "item",
+   "source": "Kenya Gazette (Kenya Law)",
+   "source_id": "ke-gazette",
+   "tier": 1,
+   "country": "KE",
+   "category": "gazette",
+   "segments": [
+    "city",
+    "bush",
+    "beach"
+   ],
+   "first_seen": "2026-09-18T00:16+03:00",
+   "published": "2026-09-16",
+   "verdict": "STRONG \u2014 tier-1, upstream"
+  },
+  {
+   "score": 101.7,
+   "components": {
+    "tier": 40,
+    "category": 20,
+    "lead": 12.0,
+    "relevance": 0,
+    "freshness": 19.7,
+    "corroborated": 10
+   },
+   "keywords": [],
+   "shock_terms": [],
+   "dedupe_match": null,
+   "dedupe_similarity": 0.0,
+   "id": "bd2cea503f1b",
+   "title": "In re Estate of Ayub (Deceased) (Succession Cause 737 of 2015) [2026] KEHC 13494 (KLR) (16 September 2026) (Ruling)",
+   "url": "https://new.kenyalaw.org/akn/ke/judgment/kehc/2026/13494/eng@2026-09-16",
+   "summary": "In re Estate of Ayub (Deceased) (Succession Cause 737 of 2015) [2026] KEHC 13494 (KLR) (16 September 2026) (Ruling)",
+   "kind": "item",
+   "source": "Kenya Gazette (Kenya Law)",
+   "source_id": "ke-gazette",
+   "tier": 1,
+   "country": "KE",
+   "category": "gazette",
+   "segments": [
+    "city",
+    "bush",
+    "beach"
+   ],
+   "first_seen": "2026-09-18T00:16+03:00",
+   "published": "2026-09-16",
+   "verdict": "STRONG \u2014 tier-1, upstream"
+  },
+  {
+   "score": 100.7,
+   "components": {
+    "tier": 40,
+    "category": 13,
+    "lead": 6.0,
+    "relevance": 12,
+    "freshness": 19.7,
     "corroborated": 10
    },
    "keywords": [
-    "suspend",
-    "cancel",
-    "route",
-    "flight"
+    "fuel",
+    "airline"
    ],
    "shock_terms": [],
    "dedupe_match": null,
-   "dedupe_similarity": 0.0,
-   "id": "2ef8261fc0d4",
-   "title": "Delta NW26 Additional Domestic Service Suspensions",
-   "url": "https://www.aeroroutes.com/eng/260917-dlnw26us",
-   "summary": "Published at 0400PDT / 1100GMT 17SEP26 Delta during Northern winter 2026/27 season scheduled additional service suspensions on domestic routes, reflected in recent schedule update. Following suspended routes have been filed but not covered by AeroRoutes . Atlanta \u2013 Anchorage 23JAN27 \u2013 06MAR27 1 weekly service suspended Las Vegas \u2013 Orange County Last flight 10JAN27 Las Vegas \u2013 San Diego Last flight",
+   "dedupe_similarity": 0.17,
+   "id": "6034525510ff",
+   "title": "2.1 Billion Litres of Leverage: Inside AFRAA\u2019s Fuel Project to Bring Down African Airline Fuel Costs.",
+   "url": "https://www.afraa.org/2-1-billion-litres-of-leverage-inside-afraas-fuel-project-to-bring-down-african-airline-fuel-costs",
+   "summary": "Fifteen African airlines are now combining approximately 2.1 billion litres of annual fuel demand across around 190 locations through the African Airlines Association (AFRAA) Fuel Project, using collective purchasing power [\u2026]",
    "kind": "item",
-   "source": "AeroRoutes schedule filings",
-   "source_id": "aeroroutes",
-   "tier": 2,
-   "country": "GLOBAL",
-   "category": "aviation-tracker",
+   "source": "AFRAA \u2014 monthly African air transport / capacity brief",
+   "source_id": "afraa-capacity",
+   "tier": 1,
+   "country": "REG",
+   "category": "aviation",
    "segments": [
     "city",
     "bush",
     "beach"
    ],
-   "first_seen": "2026-09-17T16:08+03:00",
+   "first_seen": "2026-09-18T00:15+03:00",
    "published": "2026-09-17",
-   "verdict": "CONSIDER"
+   "verdict": "STRONG \u2014 tier-1, upstream"
   },
   {
-   "score": 99.6,
+   "score": 97.1,
    "components": {
     "tier": 40,
     "category": 17,
     "lead": 16.8,
     "relevance": 12,
-    "freshness": 19.8,
+    "freshness": 17.3,
     "undated": -6
    },
    "keywords": [
@@ -316,13 +1136,51 @@
    "verdict": "STRONG \u2014 tier-1, upstream"
   },
   {
-   "score": 97.0,
+   "score": 96.1,
+   "components": {
+    "tier": 20,
+    "category": 14,
+    "lead": 8.4,
+    "relevance": 24,
+    "freshness": 19.7,
+    "corroborated": 10
+   },
+   "keywords": [
+    "route",
+    "seat",
+    "airline",
+    "flight"
+   ],
+   "shock_terms": [],
+   "dedupe_match": null,
+   "dedupe_similarity": 0.0,
+   "id": "f43960b930ea",
+   "title": "Korean Air \u2013 Asiana Airlines Seattle Service Changes From Oct 2026",
+   "url": "https://www.aeroroutes.com/eng/260917-keoznw26sea",
+   "summary": "Published at 1300PDT / 2000GMT 17SEP26 Korean Air in the last few days filed additional service changes on Seoul Incheon \u2013 Seattle route, which now becomes the second route to the US to be operated by the carrier\u2019s KE-coded only, ahead of planned integration with Asiana Airlines on 17DEC26. Previously reported on AeroRoutes , Asiana Airlines\u2019 OZ272/271 service will become Korean Air KE047/048 serv",
+   "kind": "item",
+   "source": "AeroRoutes schedule filings",
+   "source_id": "aeroroutes",
+   "tier": 2,
+   "country": "GLOBAL",
+   "category": "aviation-tracker",
+   "segments": [
+    "city",
+    "bush",
+    "beach"
+   ],
+   "first_seen": "2026-09-18T00:16+03:00",
+   "published": "2026-09-17",
+   "verdict": "CONSIDER"
+  },
+  {
+   "score": 94.5,
    "components": {
     "tier": 40,
     "category": 24,
     "lead": 2.4,
     "relevance": 12,
-    "freshness": 18.6
+    "freshness": 16.1
    },
    "keywords": [
     "ebola"
@@ -349,13 +1207,46 @@
    "verdict": "STRONG \u2014 tier-1, upstream"
   },
   {
-   "score": 95.0,
+   "score": 93.3,
+   "components": {
+    "tier": 40,
+    "category": 12,
+    "lead": 3.6,
+    "relevance": 8,
+    "freshness": 19.7,
+    "corroborated": 10
+   },
+   "keywords": [
+    "vat"
+   ],
+   "shock_terms": [],
+   "dedupe_match": null,
+   "dedupe_similarity": 0.0,
+   "id": "c69bc4d3e650",
+   "title": "Aufsichtsrat verl\u00e4ngert Vorstandsvertr\u00e4ge",
+   "url": "https://newsroom.lufthansagroup.com/aufsichtsrat-verlaengert-vorstandsvertraege",
+   "summary": "Der Aufsichtsrat der Deutschen Lufthansa AG hat bei seiner heutigen Sitzung Grazia Vittadini, Dr. Till Streichert und Dieter Vranckx wiederbestellt. Grazia Vittadini , Chief Technology Officer (CTO), wird f\u00fcr weitere drei Jahre bis zum 30. Juni 2030 bestellt. Sie ist seit 2024 Mitglied des Vorstands und verantwortet die Bereiche Technik, IT und Innovation. Grazia Vittadini erreicht 2030 die im Luf",
+   "kind": "item",
+   "source": "Lufthansa Group newsroom",
+   "source_id": "air-lh",
+   "tier": 1,
+   "country": "GLOBAL",
+   "category": "airline",
+   "segments": [
+    "beach"
+   ],
+   "first_seen": "2026-09-18T00:15+03:00",
+   "published": "2026-09-17",
+   "verdict": "STRONG \u2014 tier-1, upstream"
+  },
+  {
+   "score": 92.5,
    "components": {
     "tier": 20,
     "category": 14,
     "lead": 8.4,
     "relevance": 24,
-    "freshness": 18.6,
+    "freshness": 16.1,
     "corroborated": 10
    },
    "keywords": [
@@ -386,13 +1277,13 @@
    "verdict": "CONSIDER"
   },
   {
-   "score": 94.6,
+   "score": 92.1,
    "components": {
     "tier": 20,
     "category": 4,
     "lead": 0.0,
     "relevance": 40,
-    "freshness": 18.6,
+    "freshness": 16.1,
     "undated": -6,
     "shock": 18
    },
@@ -426,13 +1317,13 @@
    "verdict": "CONSIDER"
   },
   {
-   "score": 94.6,
+   "score": 92.1,
    "components": {
     "tier": 20,
     "category": 4,
     "lead": 0.0,
     "relevance": 24,
-    "freshness": 18.6,
+    "freshness": 16.1,
     "corroborated": 10,
     "shock": 18
    },
@@ -465,973 +1356,36 @@
    "verdict": "CONSIDER"
   },
   {
-   "score": 93.8,
+   "score": 91.7,
    "components": {
     "tier": 40,
-    "category": 32,
-    "lead": 1.2,
-    "relevance": 8,
-    "freshness": 18.6,
-    "undated": -6
-   },
-   "keywords": [
-    "vat"
-   ],
-   "shock_terms": [],
-   "dedupe_match": null,
-   "dedupe_similarity": 0.0,
-   "id": "3373aed51148",
-   "title": "The Bahamas - Level 2: Exercise Increased Caution",
-   "url": "https://travel.state.gov/content/tsg_aem/us/en/home/international-travel/travel-advisories/destination.bhs.html",
-   "summary": "Exercise increased caution in The Bahamas due to crime . Crime Violent crime, including armed robberies, burglaries, and sexual assaults, can occur anywhere in The Bahamas. Most crime occurs in Nassau and Freeport on New Providence and Grand Bahama islands. Stay alert in the \u201cOver the Hill\u201d area in Nassau, south of Shirley Street, where gangs have killed residents. Stay alert in vacation rental pr",
-   "kind": "item",
-   "source": "US State Dept travel advisories (EA feed)",
-   "source_id": "adv-us-ea",
-   "tier": 1,
-   "country": "REG",
-   "category": "advisory",
-   "segments": [
-    "city",
-    "bush",
-    "beach"
-   ],
-   "first_seen": "2026-09-17T20:59+03:00",
-   "published": null,
-   "verdict": "STRONG \u2014 tier-1, upstream"
-  },
-  {
-   "score": 91.6,
-   "components": {
-    "tier": 40,
-    "category": 17,
-    "lead": 16.8,
-    "relevance": 4,
-    "freshness": 19.8,
-    "undated": -6
-   },
-   "keywords": [
-    "tourist"
-   ],
-   "shock_terms": [],
-   "dedupe_match": null,
-   "dedupe_similarity": 0.0,
-   "id": "b95327629aa5",
-   "title": "Poland's summer tourist numbers rise as overnight stays outpace visitor growth",
-   "url": "https://transition-pathways.europa.eu/tourism/data/polands-summer-tourist-numbers-rise-overnight-stays-outpace-visitor-growth",
-   "summary": "",
-   "kind": "item",
-   "source": "EU Tourism Transition Pathway \u2014 legislation & guidance",
-   "source_id": "eu-tourism-pathway",
-   "tier": 1,
-   "country": "REG",
-   "category": "regulator",
-   "segments": [
-    "bush",
-    "beach",
-    "city"
-   ],
-   "first_seen": "2026-09-17T22:06+03:00",
-   "published": null,
-   "verdict": "STRONG \u2014 tier-1, upstream"
-  },
-  {
-   "score": 91.6,
-   "components": {
-    "tier": 40,
-    "category": 17,
-    "lead": 16.8,
-    "relevance": 4,
-    "freshness": 19.8,
-    "undated": -6
-   },
-   "keywords": [
-    "tourism"
-   ],
-   "shock_terms": [],
-   "dedupe_match": null,
-   "dedupe_similarity": 0.0,
-   "id": "c5d36448d4b4",
-   "title": "Bulgaria's tourism revenue rises 11% in July even as visitor numbers fall",
-   "url": "https://transition-pathways.europa.eu/tourism/data/bulgarias-tourism-revenue-rises-11-july-even-visitor-numbers-fall",
-   "summary": "",
-   "kind": "item",
-   "source": "EU Tourism Transition Pathway \u2014 legislation & guidance",
-   "source_id": "eu-tourism-pathway",
-   "tier": 1,
-   "country": "REG",
-   "category": "regulator",
-   "segments": [
-    "bush",
-    "beach",
-    "city"
-   ],
-   "first_seen": "2026-09-17T22:06+03:00",
-   "published": null,
-   "verdict": "STRONG \u2014 tier-1, upstream"
-  },
-  {
-   "score": 89.8,
-   "components": {
-    "tier": 40,
-    "category": 32,
-    "lead": 1.2,
-    "relevance": 4,
-    "freshness": 18.6,
-    "undated": -6
-   },
-   "keywords": [
-    "tourist"
-   ],
-   "shock_terms": [],
-   "dedupe_match": null,
-   "dedupe_similarity": 0.0,
-   "id": "8c30b07dfa25",
-   "title": "Turks and Caicos Islands - Level 2: Exercise Increased Caution",
-   "url": "https://travel.state.gov/content/tsg_aem/us/en/home/international-travel/travel-advisories/destination.tca.html",
-   "summary": "Exercise increased caution in the Turks and Caicos Islands due to crime . Crime Most crime occurs in Providenciales. Police may have limited resources to investigate crimes. There have been reports of sexual assaults in the Turks and Caicos Islands. Petty crime is common, especially in popular tourist locations. Stay aware of your surroundings. Most crimes against foreigners are crimes of opportun",
-   "kind": "item",
-   "source": "US State Dept travel advisories (EA feed)",
-   "source_id": "adv-us-ea",
-   "tier": 1,
-   "country": "REG",
-   "category": "advisory",
-   "segments": [
-    "city",
-    "bush",
-    "beach"
-   ],
-   "first_seen": "2026-09-17T20:59+03:00",
-   "published": null,
-   "verdict": "CONSIDER"
-  },
-  {
-   "score": 89.6,
-   "components": {
-    "tier": 20,
-    "category": 14,
-    "lead": 8.4,
-    "relevance": 24,
-    "freshness": 13.2,
-    "corroborated": 10
-   },
-   "keywords": [
-    "suspend",
-    "route",
-    "flight"
-   ],
-   "shock_terms": [],
-   "dedupe_match": null,
-   "dedupe_similarity": 0.0,
-   "id": "2a9d3ad99927",
-   "title": "Air Transat Suspends Manchester in 1Q27",
-   "url": "https://www.aeroroutes.com/eng/260917-ts1q27man",
-   "summary": "Published at 0200PDT / 0900GMT 17SEP26 Air Transat in the first quarter of 2027 schedules service suspension on Toronto Pearson \u2013 Manchester route. The carrier will now suspend this route from 04JAN27 to 27MAR27, previously scheduled 1 weekly flight with A321LR. TS206 YYZ1925 \u2013 0720+1MAN 32Q 6 TS207 MAN0850 \u2013 1150YYZ 32Q 7",
-   "kind": "item",
-   "source": "AeroRoutes schedule filings",
-   "source_id": "aeroroutes",
-   "tier": 2,
-   "country": "GLOBAL",
-   "category": "aviation-tracker",
-   "segments": [
-    "city",
-    "bush",
-    "beach"
-   ],
-   "first_seen": "2026-09-17T16:08+03:00",
-   "published": "2026-09-17",
-   "verdict": "CONSIDER"
-  },
-  {
-   "score": 89.6,
-   "components": {
-    "tier": 40,
-    "category": 18,
-    "lead": 8.4,
+    "category": 20,
+    "lead": 12.0,
     "relevance": 0,
-    "freshness": 13.2,
-    "corroborated": 10
+    "freshness": 19.7
    },
    "keywords": [],
    "shock_terms": [],
    "dedupe_match": null,
    "dedupe_similarity": 0.0,
-   "id": "1bcd9cf6fa13",
-   "title": "Fences, Farms and A Determined Bull: The Case for Translocation",
-   "url": "https://kws.go.ke/fences-farms-and-a-determined-bull-the-case-for-translocation",
-   "summary": "They say variety is the spice of life. In high school, there is always that colourful character who finds himself on the wrong side of the law. Monday, he faces detention for oversleeping. Tuesday's transgression is not being in full school uniform. Wednesday, the cheeky student played truant by escaping through the window. By Friday, [...]",
+   "id": "64fdeb753c98",
+   "title": "Cheres & 4 others v Rodol Homes Ltd & another (Environment and Land Case E256 of 2026) [2026] KEELC 5421 (KLR) (15 September 2026) (Ruling)",
+   "url": "https://new.kenyalaw.org/akn/ke/judgment/keelc/2026/5421/eng@2026-09-15",
+   "summary": "Cheres & 4 others v Rodol Homes Ltd & another (Environment and Land Case E256 of 2026) [2026] KEELC 5421 (KLR) (15 September 2026) (Ruling)",
    "kind": "item",
-   "source": "Kenya Wildlife Service",
-   "source_id": "ke-kws",
+   "source": "Kenya Gazette (Kenya Law)",
+   "source_id": "ke-gazette",
    "tier": 1,
    "country": "KE",
-   "category": "parks",
-   "segments": [
-    "bush"
-   ],
-   "first_seen": "2026-09-17T16:07+03:00",
-   "published": "2026-09-16",
-   "verdict": "CONSIDER"
-  },
-  {
-   "score": 87.0,
-   "components": {
-    "tier": 20,
-    "category": 14,
-    "lead": 8.4,
-    "relevance": 16,
-    "freshness": 18.6,
-    "corroborated": 10
-   },
-   "keywords": [
-    "route",
-    "charter"
-   ],
-   "shock_terms": [],
-   "dedupe_match": null,
-   "dedupe_similarity": 0.0,
-   "id": "b8edec923a87",
-   "title": "Condor early-Jan 2027 Chile Charter",
-   "url": "https://www.aeroroutes.com/eng/260917-dejan27scl",
-   "summary": "Published at 1000PDT / 1700GMT 17SEP26 Condor in early-January 2027 once again schedules one-time charter service to Chile, with A330-900neo operating Frankfurt \u2013 Rio de Janeiro Galeao \u2013 Santiago de Chile route. Planned schedule as follows. DE9416 FRA2030 \u2013 0500+1GIG0700+1 \u2013 1135+1SCL 339 03JAN27 DE9417 SCL1320 \u2013 1720GIG1920 \u2013 1120+1FRA 339 04JAN27",
-   "kind": "item",
-   "source": "AeroRoutes schedule filings",
-   "source_id": "aeroroutes",
-   "tier": 2,
-   "country": "GLOBAL",
-   "category": "aviation-tracker",
+   "category": "gazette",
    "segments": [
     "city",
     "bush",
     "beach"
    ],
-   "first_seen": "2026-09-17T20:59+03:00",
-   "published": "2026-09-17",
-   "verdict": "CONSIDER"
-  },
-  {
-   "score": 85.8,
-   "components": {
-    "tier": 40,
-    "category": 32,
-    "lead": 1.2,
-    "relevance": 0,
-    "freshness": 18.6,
-    "undated": -6
-   },
-   "keywords": [],
-   "shock_terms": [],
-   "dedupe_match": null,
-   "dedupe_similarity": 0.0,
-   "id": "25b810e031a1",
-   "title": "Hong Kong - Level 2: Exercise Increased Caution",
-   "url": "https://travel.state.gov/content/tsg_aem/us/en/home/international-travel/travel-advisories/destination.hkg.html",
-   "summary": "Exercise increased caution when traveling to the Hong Kong Special Administrative Region (SAR) due to the a rbitrary enforcement of local laws. Exercise increased caution due to the arbitrary enforcement of local laws . Hong Kong SAR authorities have passed laws that limit people\u2019s civil liberties. The laws apply to anyone in Hong Kong, including foreigners. Authorities have also issued arrest war",
-   "kind": "item",
-   "source": "US State Dept travel advisories (EA feed)",
-   "source_id": "adv-us-ea",
-   "tier": 1,
-   "country": "REG",
-   "category": "advisory",
-   "segments": [
-    "city",
-    "bush",
-    "beach"
-   ],
-   "first_seen": "2026-09-17T20:59+03:00",
-   "published": null,
-   "verdict": "CONSIDER"
-  },
-  {
-   "score": 85.8,
-   "components": {
-    "tier": 40,
-    "category": 32,
-    "lead": 1.2,
-    "relevance": 0,
-    "freshness": 18.6,
-    "undated": -6
-   },
-   "keywords": [],
-   "shock_terms": [],
-   "dedupe_match": null,
-   "dedupe_similarity": 0.0,
-   "id": "6d71a28340b8",
-   "title": "Paraguay - Level 1: Exercise Normal Precautions",
-   "url": "https://travel.state.gov/content/tsg_aem/us/en/home/international-travel/travel-advisories/destination.pry.html",
-   "summary": "Exercise normal precaution in Paraguay due to crime. Paraguay is generally a safe destination for travelers. Some areas have increased crime risk. U.S. government employees working in Paraguay need special authorization to travel to some areas. U.S. government employees are prohibited from using municipal buses in Paraguay because of risk of robbery and assault. Review the Travel Guidances for Par",
-   "kind": "item",
-   "source": "US State Dept travel advisories (EA feed)",
-   "source_id": "adv-us-ea",
-   "tier": 1,
-   "country": "REG",
-   "category": "advisory",
-   "segments": [
-    "city",
-    "bush",
-    "beach"
-   ],
-   "first_seen": "2026-09-17T20:59+03:00",
-   "published": null,
-   "verdict": "CONSIDER"
-  },
-  {
-   "score": 83.6,
-   "components": {
-    "tier": 40,
-    "category": 9,
-    "lead": 16.8,
-    "relevance": 4,
-    "freshness": 19.8,
-    "undated": -6
-   },
-   "keywords": [
-    "hotel"
-   ],
-   "shock_terms": [],
-   "dedupe_match": null,
-   "dedupe_similarity": 0.0,
-   "id": "edde1684e1be",
-   "title": "Minor Hotels Signs Avani+ Hanoi in the Vietnamese Capital",
-   "url": "https://media.minorhotels.com/en-GLO/271028-minor-hotels-signs-avani-hanoi-in-the-vietnamese-capital",
-   "summary": "",
-   "kind": "item",
-   "source": "Minor Hotels newsroom",
-   "source_id": "dev-minor",
-   "tier": 1,
-   "country": "GLOBAL",
-   "category": "hotel-group",
-   "segments": [
-    "beach"
-   ],
-   "first_seen": "2026-09-17T22:06+03:00",
-   "published": null,
-   "verdict": "CONSIDER"
-  },
-  {
-   "score": 83.0,
-   "components": {
-    "tier": 20,
-    "category": 14,
-    "lead": 8.4,
-    "relevance": 12,
-    "freshness": 18.6,
-    "corroborated": 10
-   },
-   "keywords": [
-    "route",
-    "flight"
-   ],
-   "shock_terms": [],
-   "dedupe_match": null,
-   "dedupe_similarity": 0.0,
-   "id": "744bbd59c435",
-   "title": "Volaris Adds Cancun \u2013 Los Cabos From Dec 2026",
-   "url": "https://www.aeroroutes.com/eng/260917-y4dec26cunsjd",
-   "summary": "Published at 0900PDT / 1600GMT 17SEP26 Volaris in December 2026 plans to add new domestic route, as the carrier schedules Cancun \u2013 Los Cabos/Cabo San Lucas nonstop flight. From 01DEC26, Airbus A320ceo to serve this route 3 times weekly. Y4662 CUN1030 \u2013 1216SJD 320 247 Y4663 SJD1247 \u2013 1800CUN 320 247",
-   "kind": "item",
-   "source": "AeroRoutes schedule filings",
-   "source_id": "aeroroutes",
-   "tier": 2,
-   "country": "GLOBAL",
-   "category": "aviation-tracker",
-   "segments": [
-    "city",
-    "bush",
-    "beach"
-   ],
-   "first_seen": "2026-09-17T20:59+03:00",
-   "published": "2026-09-17",
-   "verdict": "CONSIDER"
-  },
-  {
-   "score": 81.6,
-   "components": {
-    "tier": 20,
-    "category": 14,
-    "lead": 8.4,
-    "relevance": 16,
-    "freshness": 13.2,
-    "corroborated": 10
-   },
-   "keywords": [
-    "route",
-    "airline",
-    "flight"
-   ],
-   "shock_terms": [],
-   "dedupe_match": null,
-   "dedupe_similarity": 0.0,
-   "id": "6d9847aaaf40",
-   "title": "Breeze Airways Removes Washington Dulles \u2013 Tri-City From Dec 2026",
-   "url": "https://www.aeroroutes.com/eng/260917-mxnw26iadtri",
-   "summary": "Published at 0500PDT / 1200GMT 17SEP26 Breeze Airways in recent schedule update filed service changes on Washington Dulles \u2013 Tri-City route, as the carrier schedules last flight on 30NOV26. The airline currently serves this route twice weekly with Airbus A220-300 aircraft. MX711 IAD1836 \u2013 2001TRI 223 15 MX914 TRI1636 \u2013 1756IAD 223 15",
-   "kind": "item",
-   "source": "AeroRoutes schedule filings",
-   "source_id": "aeroroutes",
-   "tier": 2,
-   "country": "GLOBAL",
-   "category": "aviation-tracker",
-   "segments": [
-    "city",
-    "bush",
-    "beach"
-   ],
-   "first_seen": "2026-09-17T16:08+03:00",
-   "published": "2026-09-17",
-   "verdict": "CONSIDER"
-  },
-  {
-   "score": 79.6,
-   "components": {
-    "tier": 40,
-    "category": 9,
-    "lead": 16.8,
-    "relevance": 0,
-    "freshness": 19.8,
-    "undated": -6
-   },
-   "keywords": [],
-   "shock_terms": [],
-   "dedupe_match": null,
-   "dedupe_similarity": 0.0,
-   "id": "173685468c68",
-   "title": "Discover Laos from the New Avani+ Lanexang Vientiane with The Boh\u00e8me Journey",
-   "url": "https://media.minorhotels.com/en-GLO/270924-discover-laos-from-the-new-avani-lanexang-vientiane-with-the-boheme-journey",
-   "summary": "",
-   "kind": "item",
-   "source": "Minor Hotels newsroom",
-   "source_id": "dev-minor",
-   "tier": 1,
-   "country": "GLOBAL",
-   "category": "hotel-group",
-   "segments": [
-    "beach"
-   ],
-   "first_seen": "2026-09-17T22:06+03:00",
-   "published": null,
-   "verdict": "CONSIDER"
-  },
-  {
-   "score": 79.6,
-   "components": {
-    "tier": 20,
-    "category": 9,
-    "lead": 16.8,
-    "relevance": 4,
-    "freshness": 19.8,
-    "corroborated": 10
-   },
-   "keywords": [
-    "hotel"
-   ],
-   "shock_terms": [],
-   "dedupe_match": null,
-   "dedupe_similarity": 0.0,
-   "id": "612fbd398b7f",
-   "title": "Choice Hotels International Announces Quarterly Cash Dividend",
-   "url": "https://media.choicehotels.com/2026-09-17-Choice-Hotels-International-Announces-Quarterly-Cash-Dividend",
-   "summary": "",
-   "kind": "item",
-   "source": "Choice Hotels newsroom",
-   "source_id": "dev-choice",
-   "tier": 2,
-   "country": "GLOBAL",
-   "category": "hotel-group",
-   "segments": [
-    "city",
-    "bush",
-    "beach"
-   ],
-   "first_seen": "2026-09-17T22:06+03:00",
-   "published": "2026-09-17",
-   "verdict": "CONSIDER"
-  },
-  {
-   "score": 79.6,
-   "components": {
-    "tier": 40,
-    "category": 9,
-    "lead": 16.8,
-    "relevance": 0,
-    "freshness": 19.8,
-    "undated": -6
-   },
-   "keywords": [],
-   "shock_terms": [],
-   "dedupe_match": null,
-   "dedupe_similarity": 0.0,
-   "id": "221ac7531fd6",
-   "title": "IHG Launches Early Bird Offer for Holiday Travel Across Greater China",
-   "url": "https://www.ihgplc.com/en/news-and-media/news-releases/2026/ihg-launches-early-bird-offer-for-holiday-travel-across-greater-china",
-   "summary": "",
-   "kind": "item",
-   "source": "IHG news",
-   "source_id": "dev-ihg",
-   "tier": 1,
-   "country": "GLOBAL",
-   "category": "hotel-group",
-   "segments": [
-    "city",
-    "bush",
-    "beach"
-   ],
-   "first_seen": "2026-09-17T22:06+03:00",
-   "published": null,
-   "verdict": "CONSIDER"
-  },
-  {
-   "score": 79.0,
-   "components": {
-    "tier": 20,
-    "category": 14,
-    "lead": 8.4,
-    "relevance": 8,
-    "freshness": 18.6,
-    "corroborated": 10
-   },
-   "keywords": [
-    "route"
-   ],
-   "shock_terms": [],
-   "dedupe_match": null,
-   "dedupe_similarity": 0.0,
-   "id": "431acdc99793",
-   "title": "Volaris Moves Forward US Network Additions to Oct 2026",
-   "url": "https://www.aeroroutes.com/eng/260917-y4oct26us",
-   "summary": "Published at 0800PDT / 1500GMT 17SEP26 Mexican low-cost carrier Volaris during the month of October 2026 schedules 3 routes addition to the US, from Guadalajara. General network addition overview as follows. Guadalajara \u2013 Boston eff 16OCT26 4 weekly A321neo Guadalajara \u2013 Nashville eff 15OCT26 3 weekly A321neo Guadalajara \u2013 Raleigh/Durham eff 16OCT26 3 weekly A321neo Previously reported new routes ",
-   "kind": "item",
-   "source": "AeroRoutes schedule filings",
-   "source_id": "aeroroutes",
-   "tier": 2,
-   "country": "GLOBAL",
-   "category": "aviation-tracker",
-   "segments": [
-    "city",
-    "bush",
-    "beach"
-   ],
-   "first_seen": "2026-09-17T20:59+03:00",
-   "published": "2026-09-17",
-   "verdict": "CONSIDER"
-  },
-  {
-   "score": 79.0,
-   "components": {
-    "tier": 40,
-    "category": 24,
-    "lead": 2.4,
-    "relevance": 0,
-    "freshness": 18.6,
-    "undated": -6
-   },
-   "keywords": [],
-   "shock_terms": [],
-   "dedupe_match": null,
-   "dedupe_similarity": 0.17,
-   "id": "297cf4158fca",
-   "title": "17 September 2026 | News Release WHO regional survey finds uneven progress on patient safety as Africa\u2019s NCD",
-   "url": "https://www.afro.who.int/news/who-regional-survey-finds-uneven-progress-patient-safety-africas-ncd",
-   "summary": "",
-   "kind": "item",
-   "source": "WHO AFRO \u2014 Rwanda country newsroom",
-   "source_id": "who-afro-rwanda",
-   "tier": 1,
-   "country": "RW",
-   "category": "health",
-   "segments": [
-    "bush",
-    "city",
-    "beach"
-   ],
-   "first_seen": "2026-09-17T20:59+03:00",
-   "published": null,
-   "verdict": "CONSIDER"
-  },
-  {
-   "score": 79.0,
-   "components": {
-    "tier": 40,
-    "category": 24,
-    "lead": 2.4,
-    "relevance": 0,
-    "freshness": 18.6,
-    "undated": -6
-   },
-   "keywords": [],
-   "shock_terms": [],
-   "dedupe_match": null,
-   "dedupe_similarity": 0.17,
-   "id": "e78615d601d7",
-   "title": "17 September 2026 | News Release WHO regional survey finds uneven progress on patient safety as Africa\u2019s NCD",
-   "url": "https://www.afro.who.int/news/who-regional-survey-finds-uneven-progress-patient-safety-africas-ncd",
-   "summary": "",
-   "kind": "item",
-   "source": "WHO AFRO \u2014 Uganda country newsroom",
-   "source_id": "who-afro-uganda",
-   "tier": 1,
-   "country": "UG",
-   "category": "health",
-   "segments": [
-    "bush",
-    "city",
-    "beach"
-   ],
-   "first_seen": "2026-09-17T20:59+03:00",
-   "published": null,
-   "verdict": "CONSIDER"
-  },
-  {
-   "score": 79.0,
-   "components": {
-    "tier": 40,
-    "category": 24,
-    "lead": 2.4,
-    "relevance": 0,
-    "freshness": 18.6,
-    "undated": -6
-   },
-   "keywords": [],
-   "shock_terms": [],
-   "dedupe_match": null,
-   "dedupe_similarity": 0.17,
-   "id": "fb7f39cb7850",
-   "title": "17 September 2026 | News Release WHO regional survey finds uneven progress on patient safety as Africa\u2019s NCD",
-   "url": "https://www.afro.who.int/news/who-regional-survey-finds-uneven-progress-patient-safety-africas-ncd",
-   "summary": "",
-   "kind": "item",
-   "source": "WHO AFRO \u2014 Kenya country newsroom",
-   "source_id": "who-afro-kenya",
-   "tier": 1,
-   "country": "KE",
-   "category": "health",
-   "segments": [
-    "bush",
-    "city",
-    "beach"
-   ],
-   "first_seen": "2026-09-17T20:59+03:00",
-   "published": null,
-   "verdict": "CONSIDER"
-  },
-  {
-   "score": 78.8,
-   "components": {
-    "tier": 20,
-    "category": 5,
-    "lead": 1.2,
-    "relevance": 24,
-    "freshness": 18.6,
-    "corroborated": 10
-   },
-   "keywords": [
-    "fee",
-    "hotel",
-    "lodge",
-    "safari",
-    "operator"
-   ],
-   "shock_terms": [],
-   "dedupe_match": null,
-   "dedupe_similarity": 0.0,
-   "id": "df80a5fbb6ec",
-   "title": "Singapore\u2019s Banyan Group Buys Newmark to Add 26 Hotels in Africa",
-   "url": "https://skift.com/2026/09/17/singapores-banyan-group-buys-newmark-to-add-26-hotels-in-africa",
-   "summary": "The owner of the Banyan Tree brand has taken a majority stake in a Cape Town safari and lodge operator. The deal is asset-light, adding fee income instead of bricks, and gives Banyan a foothold in safari and nature hospitality.",
-   "kind": "item",
-   "source": "Skift",
-   "source_id": "tp-skift",
-   "tier": 2,
-   "country": "GLOBAL",
-   "category": "trade",
-   "segments": [
-    "city",
-    "bush",
-    "beach"
-   ],
-   "first_seen": "2026-09-17T20:59+03:00",
-   "published": "2026-09-17",
-   "verdict": "CONSIDER"
-  },
-  {
-   "score": 78.4,
-   "components": {
-    "tier": 20,
-    "category": 9,
-    "lead": 3.6,
-    "relevance": 16,
-    "freshness": 19.8,
-    "corroborated": 10
-   },
-   "keywords": [
-    "tax",
-    "tourism",
-    "operator"
-   ],
-   "shock_terms": [],
-   "dedupe_match": null,
-   "dedupe_similarity": 0.0,
-   "id": "8735e197f08b",
-   "title": "New Maldives tax rules to affect UK travel businesses",
-   "url": "https://www.abta.com/news/new-maldives-tax-rules-affect-uk-travel-businesses",
-   "summary": "New Maldives tax rules to affect UK travel businesses Full Page image dhewitt@abta.co.uk Thu, 09/17/2026 - 15:11 The Maldives Government has announced that, from 1 October 2026, they will extend the Tourism Goods and Services Tax (GST) regime to overseas businesses selling or facilitating Maldives holidays, including UK tour operators, travel agents and online platforms. Members may need to regist",
-   "kind": "item",
-   "source": "ABTA (UK) news",
-   "source_id": "sm-abta",
-   "tier": 2,
-   "country": "GLOBAL",
-   "category": "source-market",
-   "segments": [
-    "city",
-    "bush",
-    "beach"
-   ],
-   "first_seen": "2026-09-17T22:06+03:00",
-   "published": "2026-09-17",
-   "verdict": "CONSIDER"
-  },
-  {
-   "score": 77.6,
-   "components": {
-    "tier": 40,
-    "category": 7,
-    "lead": 16.8,
-    "relevance": 0,
-    "freshness": 19.8,
-    "undated": -6
-   },
-   "keywords": [],
-   "shock_terms": [],
-   "dedupe_match": null,
-   "dedupe_similarity": 0.0,
-   "id": "73ad472600db",
-   "title": "Other - Professional Services - Interactive S...",
-   "url": "https://egpuganda.go.ug/index/397871958_egp",
-   "summary": "",
-   "kind": "item",
-   "source": "Uganda EGP portal",
-   "source_id": "ug-tenders",
-   "tier": 1,
-   "country": "UG",
-   "category": "tender",
-   "segments": [
-    "city",
-    "bush",
-    "beach"
-   ],
-   "first_seen": "2026-09-17T22:06+03:00",
-   "published": null,
-   "verdict": "CONSIDER"
-  },
-  {
-   "score": 77.6,
-   "components": {
-    "tier": 40,
-    "category": 7,
-    "lead": 16.8,
-    "relevance": 0,
-    "freshness": 19.8,
-    "undated": -6
-   },
-   "keywords": [],
-   "shock_terms": [],
-   "dedupe_match": null,
-   "dedupe_similarity": 0.0,
-   "id": "ab1b22c6fcdd",
-   "title": "COMPUTERS - Procurement of Laptops on A frame...",
-   "url": "https://egpuganda.go.ug/index/399196962_egp",
-   "summary": "",
-   "kind": "item",
-   "source": "Uganda EGP portal",
-   "source_id": "ug-tenders",
-   "tier": 1,
-   "country": "UG",
-   "category": "tender",
-   "segments": [
-    "city",
-    "bush",
-    "beach"
-   ],
-   "first_seen": "2026-09-17T22:06+03:00",
-   "published": null,
-   "verdict": "CONSIDER"
-  },
-  {
-   "score": 77.6,
-   "components": {
-    "tier": 20,
-    "category": 14,
-    "lead": 8.4,
-    "relevance": 12,
-    "freshness": 13.2,
-    "corroborated": 10
-   },
-   "keywords": [
-    "route",
-    "flight"
-   ],
-   "shock_terms": [],
-   "dedupe_match": null,
-   "dedupe_similarity": 0.0,
-   "id": "25124dbabdc2",
-   "title": "Air Canada Mar/Apr 2027 Vancouver \u2013 Los Angeles Aircraft Changes",
-   "url": "https://www.aeroroutes.com/eng/260917-acmar27yvrlax",
-   "summary": "Published at 0100PDT / 0800GMT 17SEP26 Air Canada during Spring 2027 tentatively schedules aircraft changes on Vancouver \u2013 Los Angeles route, as the 4 daily flights to be served by A220-300 only, from 01MAR27 to 30APR27. Following schedule focuses on the month of April 2027. AC550 YVR0835 \u2013 1134LAX 223 D AC552 YVR1120 \u2013 1419LAX 223 D AC554 YVR1340 \u2013 1639LAX 223 D AC558 YVR1930 \u2013 2229LAX 223 D AC55",
-   "kind": "item",
-   "source": "AeroRoutes schedule filings",
-   "source_id": "aeroroutes",
-   "tier": 2,
-   "country": "GLOBAL",
-   "category": "aviation-tracker",
-   "segments": [
-    "city",
-    "bush",
-    "beach"
-   ],
-   "first_seen": "2026-09-17T16:08+03:00",
-   "published": "2026-09-17",
-   "verdict": "CONSIDER"
-  },
-  {
-   "score": 77.2,
-   "components": {
-    "tier": 20,
-    "category": 4,
-    "lead": 0.0,
-    "relevance": 12,
-    "freshness": 13.2,
-    "corroborated": 10,
-    "shock": 18
-   },
-   "keywords": [
-    "outbreak"
-   ],
-   "shock_terms": [
-    "outbreak"
-   ],
-   "dedupe_match": null,
-   "dedupe_similarity": 0.0,
-   "id": "6d3b63c217a0",
-   "title": "Kilimanjaro fire, now contained, destroys 1,800 hectares",
-   "url": "https://www.theeastafrican.co.ke/tea/sustainability/kilimanjaro-fire-destroys-1-800-hectares-5598240",
-   "summary": "The latest outbreak adds to a series of recurring fires on Mt Kilimanjaro, particularly during...",
-   "kind": "item",
-   "source": "The EastAfrican",
-   "source_id": "np-eastafrican",
-   "tier": 2,
-   "country": "REG",
-   "category": "press",
-   "segments": [
-    "city",
-    "bush",
-    "beach"
-   ],
-   "first_seen": "2026-09-17T16:08+03:00",
-   "published": "2026-09-17",
-   "verdict": "CONSIDER"
-  },
-  {
-   "score": 76.0,
-   "components": {
-    "tier": 40,
-    "category": 24,
-    "lead": 4.8,
-    "relevance": 0,
-    "freshness": 13.2,
-    "undated": -6
-   },
-   "keywords": [],
-   "shock_terms": [],
-   "dedupe_match": null,
-   "dedupe_similarity": 0.0,
-   "id": "32c6207af06c",
-   "title": "Africa Health ExCon 2026 Report Report",
-   "url": "https://africacdc.org/download/africa-health-excon-2026-report",
-   "summary": "",
-   "kind": "item",
-   "source": "Africa CDC downloads (sit reps & EIW)",
-   "source_id": "africacdc-downloads",
-   "tier": 1,
-   "country": "REG",
-   "category": "health",
-   "segments": [
-    "city",
-    "bush",
-    "beach"
-   ],
-   "first_seen": "2026-09-17T16:08+03:00",
-   "published": null,
-   "verdict": "CONSIDER"
-  },
-  {
-   "score": 74.4,
-   "components": {
-    "tier": 20,
-    "category": 9,
-    "lead": 3.6,
-    "relevance": 12,
-    "freshness": 19.8,
-    "corroborated": 10
-   },
-   "keywords": [
-    "eta",
-    "tourism"
-   ],
-   "shock_terms": [],
-   "dedupe_match": null,
-   "dedupe_similarity": 0.0,
-   "id": "7bdcd4e252e8",
-   "title": "Romeo Draghiccio auch vor Ort: Novasol l\u00e4dt zum Kroatien-Abend nach Bad Oeynhausen",
-   "url": "https://www.fvw.de/counter/expi-welt/romeo-draghiccio-auch-vor-ort-novasol-laedt-zum-kroatien-abend-nach-bad-oeynhausen-264692",
-   "summary": "Der d\u00e4nische Ferienhaus-Anbieter Novasol l\u00e4dt am 2. Dezember 2026 in Kooperation mit der Kroatischen Zentrale f\u00fcr Tourismus zu einem Kroatien-Abend ein. Die Details.",
-   "kind": "item",
-   "source": "FVW / German travel trade",
-   "source_id": "sm-derreise",
-   "tier": 2,
-   "country": "GLOBAL",
-   "category": "source-market",
-   "segments": [
-    "beach",
-    "bush"
-   ],
-   "first_seen": "2026-09-17T22:06+03:00",
-   "published": "2026-09-17",
-   "verdict": "CONSIDER"
-  },
-  {
-   "score": 73.6,
-   "components": {
-    "tier": 20,
-    "category": 14,
-    "lead": 8.4,
-    "relevance": 8,
-    "freshness": 13.2,
-    "corroborated": 10
-   },
-   "keywords": [
-    "airline",
-    "flight"
-   ],
-   "shock_terms": [],
-   "dedupe_match": null,
-   "dedupe_similarity": 0.0,
-   "id": "a26f3474eba7",
-   "title": "Sun Country Oct 2026 Minneapolis Service Reductions",
-   "url": "https://www.aeroroutes.com/eng/260917-syoct26msp",
-   "summary": "Published at 0600PDT / 1300GMT 17SEP26 Sun Country in recent weeks filed service changes for the month of October 2026, as the carrier reduces 19% flights at Minneapolis/St. Paul , for the period of 01OCT26 \u2013 24OCT26, based on schedule filing 26JUL26 vs 13SEP26 on one-way basis. The airline currently schedules 617 one-way departures from Minneapolis/St. Paul, instead of 762 flights. Minneapolis/St",
-   "kind": "item",
-   "source": "AeroRoutes schedule filings",
-   "source_id": "aeroroutes",
-   "tier": 2,
-   "country": "GLOBAL",
-   "category": "aviation-tracker",
-   "segments": [
-    "city",
-    "bush",
-    "beach"
-   ],
-   "first_seen": "2026-09-17T16:08+03:00",
-   "published": "2026-09-17",
-   "verdict": "CONSIDER"
+   "first_seen": "2026-09-18T00:16+03:00",
+   "published": "2026-09-15",
+   "verdict": "STRONG \u2014 tier-1, upstream"
   }
  ]
 }
