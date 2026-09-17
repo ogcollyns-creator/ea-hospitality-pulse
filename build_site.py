@@ -970,7 +970,9 @@ def edition_page(e, siblings=None, prev=None, nxt=None, hero=None, credit=None):
             f'<li><a href="../guides/{g["slug"]}.html">{html.escape(g["title"])}</a></li>'
             for g in _guides)
         guides_html = (f'<aside class="refs" aria-label="Reference guides">'
-                       f'<h2>Reference</h2><ul>{_gl}</ul></aside>')
+                       f'<h2>Reference</h2><ul>'
+                       f'<li><a href="../trackers/index.html"><b>Live trackers</b> \u2014 park fees, '
+                       f'advisories, rates, costs, pipeline and MICE</a></li>{_gl}</ul></aside>')
     crumb_html = (f'<nav class="crumbs" aria-label="Breadcrumb"><a href="../index.html">Home</a>'
                   f'<span aria-hidden="true">/</span><a href="../index.html#archive">Editions</a>'
                   f'<span aria-hidden="true">/</span>'
@@ -1039,7 +1041,7 @@ def edition_page(e, siblings=None, prev=None, nxt=None, hero=None, credit=None):
 </main>
 <footer class="s"><div class="wrap">
 <p class="f-line">EA Hospitality Pulse — daily intelligence for city, bush and beach properties across East Africa. Free to read, free to republish with attribution.</p>
-<p class="f-nav"><a href="../index.html">Home</a><a href="../archive.html">Archive</a><a href="../methodology.html">Methodology</a><a href="../faq.html">FAQ</a><a href="../republish.html">Republish</a><a href="../credits.html">Image credits</a></p>
+<p class="f-nav"><a href="../index.html">Home</a><a href="../trackers/index.html">Trackers</a><a href="../archive.html">Archive</a><a href="../methodology.html">Methodology</a><a href="../faq.html">FAQ</a><a href="../republish.html">Republish</a><a href="../credits.html">Image credits</a></p>
 <p class="f-geo">Kenya &middot; Uganda &middot; Tanzania &middot; Zanzibar &middot; Rwanda</p>
 </div></footer>
 </body></html>"""
@@ -1294,6 +1296,18 @@ def polish_static_heads():
 
 
 def main():
+    # Static tracker pages. Every dataset on the site was an anchor section of
+    # index.html rendered from JavaScript, so a searcher asking "Uganda gorilla
+    # permit price" landed on a masthead and an answer engine that does not run
+    # JS saw nothing at all. These give each dataset a real URL with the content
+    # in the HTML source.
+    try:
+        import build_trackers
+        trackers = build_trackers.build()
+    except Exception as ex:
+        print("trackers skipped:", ex)
+        trackers = []
+
     existing = load_existing()
     pubtimes = git_add_times()
     editions, insights = [], []
@@ -1381,6 +1395,40 @@ def main():
                     "query-input": "required name=search_term_string"}})[1:-1]
             idx = re.sub(r'(\{"@context":"https://schema\.org","@type":"WebSite")',
                          lambda m: m.group(1) + "," + _search, idx, count=1)
+        # The homepage holds 68% of the site's impressions, so it is the best
+        # internal link source the trackers can have. One nav entry, injected
+        # idempotently rather than hand-edited into the markup.
+        if trackers and 'href="trackers/index.html"' not in idx:
+            idx = idx.replace('<a href="start-here.html">New Here? Start Here</a>',
+                              '<a href="start-here.html">New Here? Start Here</a>\n'
+                              '      <a href="trackers/index.html">Trackers</a>', 1)
+
+        # Dataset consolidation. Each homepage Dataset node addressed itself to
+        # an index.html anchor; the tracker pages now hold the same datasets at
+        # a real URL. Point the homepage nodes at the canonical page and share
+        # its @id so an engine resolves one dataset, not two near-duplicates.
+        _DS_MAP = {
+            "EA Pulse Rate Index": "hotel-rate-index",
+            "EA Pulse Cost-Side Index": "cost-index",
+            "EA Pulse Rules, Fees & Levies Tracker": "park-fees-and-levies",
+            "EA Pulse Connectivity Tracker": "airport-traffic-and-routes",
+            "EA Pulse Development Pipeline Tracker": "hotel-development-pipeline",
+            "EA Pulse MICE Events Tracker": "mice-calendar",
+        }
+        _slugs = {t["slug"] for t in (trackers or [])}
+        for _name, _slug in _DS_MAP.items():
+            if _slug not in _slugs:
+                continue
+            _canon = f"{BASE}/trackers/{_slug}.html"
+            _pat = r'(\{"@context": "https://schema\.org", "@type": "Dataset", "name": "'\
+                   + re.escape(_name) + r'".*?"url": ")[^"]*(")'
+            idx = re.sub(_pat, lambda m: m.group(1) + _canon + m.group(2), idx,
+                         count=1, flags=re.S)
+            idx = idx.replace(
+                '{"@context": "https://schema.org", "@type": "Dataset", "name": "' + _name + '"',
+                '{"@context": "https://schema.org", "@type": "Dataset", "@id": "'
+                + _canon + '#dataset", "name": "' + _name + '"', 1)
+
         # Social/answer-engine parity with the edition pages: an image with no alt
         # is an image an engine cannot describe, and no locale is a locale it guesses.
         if '<meta property="og:image:alt"' not in idx:
@@ -1555,6 +1603,11 @@ def main():
         urls.append((_loc, _lm, _cf))
     for g in guides:
         urls.append((f"{BASE}/guides/{g['slug']}.html", g["updated"], "monthly"))
+    if trackers:
+        # A tracker changes when its data changes, which is what lastmod is for.
+        urls.append((f"{BASE}/trackers/index.html", today, "daily"))
+        for tr in trackers:
+            urls.append((f"{BASE}/trackers/{tr['slug']}.html", tr["updated"], "weekly"))
     tools_dir = os.path.join(HERE, "tools")
     if os.path.isdir(tools_dir):
         for t in sorted(os.listdir(tools_dir)):
@@ -1590,8 +1643,14 @@ def main():
             f"- [{e['edition']} — {e['dateDisplay']}]({BASE}/editions/{e['id']}.html): "
             f"{md_strip(clean_headline(e['summary']) or e['edition'])[:150]}"
             for e in editions[:10])
+        _tr = "\n".join(
+            f"- [{tr['nav']}]({BASE}/trackers/{tr['slug']}.html): {tr['records']} records, "
+            f"last updated {tr['updated']}"
+            for tr in (trackers or []))
         _block = ("<!--AUTO:RECENT-->\n## Ten most recent editions (auto-updated "
-                  + today + ")\n" + _recent + "\n<!--/AUTO:RECENT-->")
+                  + today + ")\n" + _recent
+                  + (("\n\n## Dataset freshness (auto-updated " + today + ")\n" + _tr) if _tr else "")
+                  + "\n<!--/AUTO:RECENT-->")
         if "<!--AUTO:RECENT-->" in _llms:
             _llms = re.sub(r"<!--AUTO:RECENT-->.*?<!--/AUTO:RECENT-->", lambda m: _block,
                            _llms, flags=re.S)
