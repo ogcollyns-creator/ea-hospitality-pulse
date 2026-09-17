@@ -1072,7 +1072,7 @@ def edition_page(e, siblings=None, prev=None, nxt=None, hero=None, credit=None):
 </main>
 <footer class="s"><div class="wrap">
 <p class="f-line">EA Hospitality Pulse — daily intelligence for city, bush and beach properties across East Africa. Free to read, free to republish with attribution.</p>
-<p class="f-nav"><a href="../index.html">Home</a><a href="../trackers/index.html">Trackers</a><a href="../archive.html">Archive</a><a href="../methodology.html">Methodology</a><a href="../{AUTHOR_SLUG}.html">Editor</a><a href="../faq.html">FAQ</a><a href="../republish.html">Republish</a><a href="../credits.html">Image credits</a></p>
+<p class="f-nav"><a href="../index.html">Home</a><a href="../trackers/index.html">Trackers</a><a href="../radar.html">Source Radar</a><a href="../archive.html">Archive</a><a href="../methodology.html">Methodology</a><a href="../{AUTHOR_SLUG}.html">Editor</a><a href="../faq.html">FAQ</a><a href="../republish.html">Republish</a><a href="../credits.html">Image credits</a></p>
 <p class="f-geo">Kenya &middot; Uganda &middot; Tanzania &middot; Zanzibar &middot; Rwanda</p>
 </div></footer>
 </body></html>"""
@@ -1229,9 +1229,11 @@ SEO_MARK_CLOSE = "<!--/SEO_HEAD-->"
 INDEXABLE_ROBOTS = ('<meta name="robots" content="index,follow,'
                     'max-image-preview:large,max-snippet:-1,max-video-preview:-1">')
 
-# Pages the build already owns (index/archive) or that must never be indexed
-# (radar is an internal ops board) are handled elsewhere or left alone.
-_SEO_SKIP = {"index.html", "archive.html", "radar.html", "404.html"}
+# Pages the build already owns (index/archive) are handled elsewhere; 404
+# must never be indexed. radar.html WAS excluded as an internal-only ops
+# board (noindex) — it is now published (17 Sep 2026) as the public,
+# clearly-labelled-unverified scanner feed, so it takes the standard pass.
+_SEO_SKIP = {"index.html", "archive.html", "404.html"}
 
 def _head_has(head, needle):
     return needle in head
@@ -1536,7 +1538,7 @@ table.tk tbody tr:last-child td{{border-bottom:none}}
 </main>
 <footer class="s"><div class="wrap">
 <p class="f-line">EA Hospitality Pulse &mdash; daily intelligence for city, bush and beach properties across East Africa. Free to read, free to republish with attribution.</p>
-<p class="f-nav"><a href="../index.html">Home</a><a href="../trackers/index.html">Trackers</a><a href="../archive.html">Archive</a><a href="../methodology.html">Methodology</a><a href="../{AUTHOR_SLUG}.html">Editor</a><a href="../faq.html">FAQ</a><a href="../republish.html">Republish</a></p>
+<p class="f-nav"><a href="../index.html">Home</a><a href="../trackers/index.html">Trackers</a><a href="../radar.html">Source Radar</a><a href="../archive.html">Archive</a><a href="../methodology.html">Methodology</a><a href="../{AUTHOR_SLUG}.html">Editor</a><a href="../faq.html">FAQ</a><a href="../republish.html">Republish</a></p>
 <p class="f-geo">Kenya &middot; Uganda &middot; Tanzania &middot; Zanzibar &middot; Rwanda</p>
 </div></footer>
 </body></html>"""
@@ -1658,6 +1660,10 @@ def main():
             idx = idx.replace('<a href="start-here.html">New Here? Start Here</a>',
                               '<a href="start-here.html">New Here? Start Here</a>\n'
                               '      <a href="trackers/index.html">Trackers</a>', 1)
+        if 'href="radar.html"' not in idx:
+            idx = idx.replace('<a href="trackers/index.html">Trackers</a>',
+                              '<a href="trackers/index.html">Trackers</a>\n'
+                              '      <a href="radar.html">Source Radar</a>', 1)
 
         # Dataset consolidation. Each homepage Dataset node addressed itself to
         # an index.html anchor; the tracker pages now hold the same datasets at
@@ -1847,6 +1853,7 @@ def main():
     # The home page and the archive genuinely change every build (a new edition
     # lands in both); everything else states the date it actually last changed.
     _STATIC = [("index.html", "daily"), ("archive.html", "daily"),
+               ("radar.html", "hourly"),
                ("republish.html", "monthly"), ("methodology.html", "monthly"),
                ("faq.html", "monthly"), ("start-here.html", "monthly"),
                ("survey.html", "monthly"), ("survey-pay.html", "monthly"),

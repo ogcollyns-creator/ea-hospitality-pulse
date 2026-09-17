@@ -306,7 +306,7 @@ def page_shell(t, body, ld_blocks):
 </main>
 <footer class="s"><div class="wrap">
 <p class="f-line">EA Hospitality Pulse — daily intelligence for city, bush and beach properties across East Africa. Free to read, free to republish with attribution.</p>
-<p class="f-nav"><a href="../index.html">Home</a><a href="./index.html">Trackers</a><a href="../archive.html">Archive</a><a href="../methodology.html">Methodology</a><a href="../faq.html">FAQ</a><a href="../republish.html">Republish</a></p>
+<p class="f-nav"><a href="../index.html">Home</a><a href="./index.html">Trackers</a><a href="../radar.html">Source Radar</a><a href="../archive.html">Archive</a><a href="../methodology.html">Methodology</a><a href="../faq.html">FAQ</a><a href="../republish.html">Republish</a></p>
 <p class="f-geo">Kenya &middot; Uganda &middot; Tanzania &middot; Zanzibar &middot; Rwanda</p>
 </div></footer>
 </body></html>"""
@@ -777,6 +777,10 @@ def hub_page(built):
                  "date it was confirmed.",
          "api": None}
     body = f'<section class="tk-sibs" style="border-top:none;padding-top:0"><ul>{rows}</ul></section>'
+    body += ('<p class="tk-lede" style="margin-top:18px">Curious how a story gets here before it clears '
+             'verification? The <a href="../radar.html">Source Radar</a> is the raw, unverified scanner '
+             'feed the team works from — every source polled, every candidate scored — before anything '
+             'is confirmed and published in an edition.</p>')
     page = page_shell(t, body, ld)
     # the hub lists every tracker, so drop the redundant sibling rail
     page = re.sub(r'<section class="tk-sibs" aria-label="Other trackers">.*?</section>',
