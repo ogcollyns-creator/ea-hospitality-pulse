@@ -61,8 +61,15 @@
   nav.top a:hover{opacity:1;text-decoration:none;border-bottom:2px solid var(--gold)}
 
   /* Hero */
-  .hero{position:relative;color:#fff;padding:54px 0 46px;border-bottom:5px solid var(--gold);background-color:var(--teal-d);background-image:linear-gradient(135deg,rgba(10,54,49,.88),rgba(15,80,73,.80)),url('img/hero-serengeti.jpg');background-size:cover;background-position:center 38%;background-repeat:no-repeat}
-  .hero-credit{position:absolute;right:16px;bottom:10px;font-family:'Helvetica Neue',Arial,sans-serif;font-size:10.5px;color:rgba(255,255,255,.55);text-decoration:none}
+  .hero{position:relative;color:#fff;padding:54px 0 46px;border-bottom:5px solid var(--gold);background-color:var(--teal-d);background-image:linear-gradient(135deg,rgba(10,54,49,.88),rgba(15,80,73,.80)),url('img/hero-serengeti.jpg');background-size:cover;background-position:center 38%;background-repeat:no-repeat;overflow:hidden}
+  /* Background carousel: stacked layers crossfade over the static image above,
+     which stays as the no-JS/first-paint fallback. */
+  .hero-bg{position:absolute;inset:0;z-index:0}
+  .hero-bg-layer{position:absolute;inset:0;background-size:cover;background-position:center 38%;background-repeat:no-repeat;opacity:0;transition:opacity 1.8s ease}
+  .hero-bg-layer.active{opacity:1}
+  @media(prefers-reduced-motion:reduce){.hero-bg-layer{transition:none}}
+  .hero>.wrap{position:relative;z-index:1}
+  .hero-credit{position:absolute;right:16px;bottom:10px;z-index:1;font-family:'Helvetica Neue',Arial,sans-serif;font-size:10.5px;color:rgba(255,255,255,.55);text-decoration:none}
   .hero-credit:hover{color:rgba(255,255,255,.85);text-decoration:underline}
   .hero h2{font-size:clamp(26px,4vw,40px);margin:0 0 14px;line-height:1.15;max-width:16ch}
   .hero p.lead{font-size:18px;max-width:60ch;opacity:.95}
@@ -470,7 +477,7 @@
   .imp-demand{color:var(--sage)} .imp-margin{color:var(--coral)} .imp-risk{color:#ff5b5b} .imp-watch{color:var(--amber)}
   @media(max-width:520px){.imp{position:static;display:inline-flex;margin:0 0 9px}.insight h3,.insight .imeta{padding-right:0}}
 </style>
-<!--BUILD_STAMP:20260917-1211--></head>
+<!--BUILD_STAMP:20260917-1532--></head>
 <body>
 <header class="site">
   <div class="wrap topbar">
@@ -501,6 +508,18 @@
 </div>
 
 <div class="hero">
+  <div class="hero-bg" aria-hidden="true">
+    <div class="hero-bg-layer active" style="background-image:linear-gradient(135deg,rgba(8,13,24,.90),rgba(11,20,36,.82)),url('img/hero/crater-lake.jpg')" data-caption="Crater lake, East Africa"></div>
+    <div class="hero-bg-layer" style="background-image:linear-gradient(135deg,rgba(8,13,24,.90),rgba(11,20,36,.82)),url('img/hero/lake-bunyonyi.jpg')" data-caption="Lake Bunyonyi, Uganda"></div>
+    <div class="hero-bg-layer" style="background-image:linear-gradient(135deg,rgba(8,13,24,.90),rgba(11,20,36,.82)),url('img/hero/dar-skyline.jpg')" data-caption="Dar es Salaam skyline"></div>
+    <div class="hero-bg-layer" style="background-image:linear-gradient(135deg,rgba(8,13,24,.90),rgba(11,20,36,.82)),url('img/hero/rwanda-terraces.jpg')" data-caption="Terraced hills, Rwanda"></div>
+    <div class="hero-bg-layer" style="background-image:linear-gradient(135deg,rgba(8,13,24,.90),rgba(11,20,36,.82)),url('img/hero/stone-town.jpg')" data-caption="Stone Town, Zanzibar"></div>
+    <div class="hero-bg-layer" style="background-image:linear-gradient(135deg,rgba(8,13,24,.90),rgba(11,20,36,.82)),url('img/hero/zanzibar-beach.jpg')" data-caption="Zanzibar coastline"></div>
+    <div class="hero-bg-layer" style="background-image:linear-gradient(135deg,rgba(8,13,24,.90),rgba(11,20,36,.82)),url('img/hero/serengeti-wildlife.jpg')" data-caption="Serengeti wildlife"></div>
+    <div class="hero-bg-layer" style="background-image:linear-gradient(135deg,rgba(8,13,24,.90),rgba(11,20,36,.82)),url('img/hero/safari-vehicle-zebras.jpg')" data-caption="Game drive, Tanzania"></div>
+    <div class="hero-bg-layer" style="background-image:linear-gradient(135deg,rgba(8,13,24,.90),rgba(11,20,36,.82)),url('img/hero/amboseli-kilimanjaro.jpg')" data-caption="Amboseli, Kenya"></div>
+    <div class="hero-bg-layer" style="background-image:linear-gradient(135deg,rgba(8,13,24,.90),rgba(11,20,36,.82)),url('img/hero/mara-migration.jpg')" data-caption="Maasai Mara migration"></div>
+  </div>
   <div class="wrap">
     <h2>Daily market intelligence for East Africa&rsquo;s hospitality and travel trade.</h2>
     <p class="hero-sub">For operators, tour operators and DMCs &mdash; what today&rsquo;s developments mean for your pricing, your bookings and your next decision across Kenya, Uganda, Tanzania, Zanzibar and Rwanda.</p>
@@ -523,7 +542,7 @@
       <a class="btn btn-ghost" href="start-here.html">New here? Start here →</a>
     </div>
   </div>
-  <a class="hero-credit" href="https://unsplash.com/photos/0LwfbRtQ-ac" target="_blank" rel="noopener">Photo: Hu Chen / Unsplash</a>
+  <span class="hero-credit" id="hero-credit">Crater lake, East Africa</span>
 </div>
 
 <div class="wrap">
@@ -1361,6 +1380,25 @@
   renderAdvMini();
   if(applyDeepLink()){ render(); setTimeout(()=>document.getElementById('archive').scrollIntoView({behavior:'smooth'}),300); }
   else { render(); }
+</script>
+<script>
+  // Hero background carousel: crossfade through the layers already in the
+  // DOM (each pre-set with its own image + gradient). Static hero image in
+  // .hero's own CSS stays as the no-JS fallback underneath.
+  (function(){
+    var layers = Array.prototype.slice.call(document.querySelectorAll('.hero-bg-layer'));
+    var credit = document.getElementById('hero-credit');
+    if (layers.length < 2) return;
+    var reduceMotion = window.matchMedia && window.matchMedia('(prefers-reduced-motion: reduce)').matches;
+    if (reduceMotion) return;
+    var i = 0;
+    setInterval(function(){
+      layers[i].classList.remove('active');
+      i = (i + 1) % layers.length;
+      layers[i].classList.add('active');
+      if (credit) credit.textContent = layers[i].dataset.caption || '';
+    }, 6000);
+  })();
 </script>
 <!-- ============================ ANALYTICS ============================
      Privacy-first analytics. No cookies, no personal data, no consent banner
