@@ -1,7 +1,7 @@
 {
  "version": 1,
- "updated": "2026-09-15",
- "note": "Upstream-weighted source registry for the EA Hospitality Pulse radar. tier 1 = primary/official, 2 = reputable secondary, 3 = weak (lead only, never publishable alone). lead_days = typical head start over mainstream coverage. Sources that fail repeatedly are surfaced by monitor.py rather than silently dropped. | 2026-08-20: added Ethiopia (ET) upstream sources as comparator — gazette, ECAA, NBE, ESS, Ethiopia Convention Bureau; Ethiopian Airlines already tracked (air-et). Enables promotion to a full sixth market once the radar records healthy observations. | 2026-09-08: added rw-bnr-mpc (BNR monetary policy statements) — the 26-27 Aug MPC decision taking Rwanda's policy rate to 8.75% did not surface on the radar because rw-bnr points at the BNR homepage and BNR is HTTP-blocked; the MPC page is a distinct, higher-signal observation. | 2026-09-15 (evening): added rw-moh-news (Rwanda MoH news/EVD listing) as a distinct change-detection target — Rwanda's 22 May 2026 30-day DRC-transit entry denial is the region's most booking-relevant entry rule and needs a dated listing to watch, not a root page. Corrected the rw-moh transport note: the block is on the root/listing, not on article pages, which fetched cleanly today.",
+ "updated": "2026-09-17",
+ "note": "Upstream-weighted source registry for the EA Hospitality Pulse radar. tier 1 = primary/official, 2 = reputable secondary, 3 = weak (lead only, never publishable alone). lead_days = typical head start over mainstream coverage. Sources that fail repeatedly are surfaced by monitor.py rather than silently dropped. | 2026-08-20: added Ethiopia (ET) upstream sources as comparator \u2014 gazette, ECAA, NBE, ESS, Ethiopia Convention Bureau; Ethiopian Airlines already tracked (air-et). Enables promotion to a full sixth market once the radar records healthy observations. | 2026-09-08: added rw-bnr-mpc (BNR monetary policy statements) \u2014 the 26-27 Aug MPC decision taking Rwanda's policy rate to 8.75% did not surface on the radar because rw-bnr points at the BNR homepage and BNR is HTTP-blocked; the MPC page is a distinct, higher-signal observation. | 2026-09-15 (evening): added rw-moh-news (Rwanda MoH news/EVD listing) as a distinct change-detection target \u2014 Rwanda's 22 May 2026 30-day DRC-transit entry denial is the region's most booking-relevant entry rule and needs a dated listing to watch, not a root page. Corrected the rw-moh transport note: the block is on the root/listing, not on article pages, which fetched cleanly today.",
  "sources": [
   {
    "id": "ke-gazette",
@@ -46,7 +46,7 @@
    "frag": "",
    "min_len": 10,
    "transport": "agent-search",
-   "transport_note": "Blocked at the HTTP layer (403/Incapsula) since 28 Jul 2026. Worked via sweep/sweep_due.py on the agent search path. Do NOT re-point the URL on the strength of a crawler 403 — the URL is fine, the transport is not."
+   "transport_note": "Blocked at the HTTP layer (403/Incapsula) since 28 Jul 2026. Worked via sweep/sweep_due.py on the agent search path. Do NOT re-point the URL on the strength of a crawler 403 \u2014 the URL is fine, the transport is not."
   },
   {
    "id": "ke-epra-press",
@@ -69,7 +69,7 @@
    "why": "Monthly fuel price review lands here ~14th, effective 15th. Moves transfer, generator and laundry costs.",
    "frag": "",
    "transport": "agent-search",
-   "transport_note": "Blocked at the HTTP layer (403/Incapsula) since 28 Jul 2026. Worked via sweep/sweep_due.py on the agent search path. Do NOT re-point the URL on the strength of a crawler 403 — the URL is fine, the transport is not."
+   "transport_note": "Blocked at the HTTP layer (403/Incapsula) since 28 Jul 2026. Worked via sweep/sweep_due.py on the agent search path. Do NOT re-point the URL on the strength of a crawler 403 \u2014 the URL is fine, the transport is not."
   },
   {
    "id": "ke-epra-fuel",
@@ -89,10 +89,10 @@
    "slots": [
     "morning"
    ],
-   "why": "The actual price table. Diarised, knowable date — be first to price the impact.",
+   "why": "The actual price table. Diarised, knowable date \u2014 be first to price the impact.",
    "frag": "",
    "transport": "agent-search",
-   "transport_note": "Blocked at the HTTP layer (403/Incapsula) since 28 Jul 2026. Worked via sweep/sweep_due.py on the agent search path. Do NOT re-point the URL on the strength of a crawler 403 — the URL is fine, the transport is not."
+   "transport_note": "Blocked at the HTTP layer (403/Incapsula) since 28 Jul 2026. Worked via sweep/sweep_due.py on the agent search path. Do NOT re-point the URL on the strength of a crawler 403 \u2014 the URL is fine, the transport is not."
   },
   {
    "id": "ke-knbs-releases",
@@ -115,7 +115,7 @@
    "why": "CPI, Leading Economic Indicators incl. arrivals and hotel bed-nights.",
    "frag": "",
    "transport": "agent-search",
-   "transport_note": "Blocked at the HTTP layer (403/Incapsula) since 28 Jul 2026. Worked via sweep/sweep_due.py on the agent search path. Do NOT re-point the URL on the strength of a crawler 403 — the URL is fine, the transport is not."
+   "transport_note": "Blocked at the HTTP layer (403/Incapsula) since 28 Jul 2026. Worked via sweep/sweep_due.py on the agent search path. Do NOT re-point the URL on the strength of a crawler 403 \u2014 the URL is fine, the transport is not."
   },
   {
    "id": "ke-knbs-calendar",
@@ -138,7 +138,7 @@
    "why": "Tells you what lands when. Feed for calendar.js.",
    "frag": "",
    "transport": "agent-search",
-   "transport_note": "Blocked at the HTTP layer (403/Incapsula) since 28 Jul 2026. Worked via sweep/sweep_due.py on the agent search path. Do NOT re-point the URL on the strength of a crawler 403 — the URL is fine, the transport is not."
+   "transport_note": "Blocked at the HTTP layer (403/Incapsula) since 28 Jul 2026. Worked via sweep/sweep_due.py on the agent search path. Do NOT re-point the URL on the strength of a crawler 403 \u2014 the URL is fine, the transport is not."
   },
   {
    "id": "ke-cbk-press",
@@ -182,7 +182,7 @@
    "why": "Fridays. FX cross-rates and reserves.",
    "frag": "",
    "transport": "agent-search",
-   "transport_note": "Blocked at the HTTP layer (403/Incapsula) since 28 Jul 2026. Worked via sweep/sweep_due.py on the agent search path. Do NOT re-point the URL on the strength of a crawler 403 — the URL is fine, the transport is not."
+   "transport_note": "Blocked at the HTTP layer (403/Incapsula) since 28 Jul 2026. Worked via sweep/sweep_due.py on the agent search path. Do NOT re-point the URL on the strength of a crawler 403 \u2014 the URL is fine, the transport is not."
   },
   {
    "id": "ke-tri",
@@ -202,10 +202,10 @@
    "slots": [
     "morning"
    ],
-   "why": "Authoritative Kenyan arrivals by source market — the number to quote.",
+   "why": "Authoritative Kenyan arrivals by source market \u2014 the number to quote.",
    "frag": "",
    "transport": "agent-search",
-   "transport_note": "Blocked at the HTTP layer (403/Incapsula) since 28 Jul 2026. Worked via sweep/sweep_due.py on the agent search path. Do NOT re-point the URL on the strength of a crawler 403 — the URL is fine, the transport is not."
+   "transport_note": "Blocked at the HTTP layer (403/Incapsula) since 28 Jul 2026. Worked via sweep/sweep_due.py on the agent search path. Do NOT re-point the URL on the strength of a crawler 403 \u2014 the URL is fine, the transport is not."
   },
   {
    "id": "ke-tourism-ministry",
@@ -253,7 +253,7 @@
    "why": "Destination marketing pushes and source-market campaigns.",
    "frag": "",
    "transport": "agent-search",
-   "transport_note": "Blocked at the HTTP layer (403/Incapsula) since 28 Jul 2026. Worked via sweep/sweep_due.py on the agent search path. Do NOT re-point the URL on the strength of a crawler 403 — the URL is fine, the transport is not."
+   "transport_note": "Blocked at the HTTP layer (403/Incapsula) since 28 Jul 2026. Worked via sweep/sweep_due.py on the agent search path. Do NOT re-point the URL on the strength of a crawler 403 \u2014 the URL is fine, the transport is not."
   },
   {
    "id": "ke-kws",
@@ -271,7 +271,7 @@
    "slots": [
     "evening"
    ],
-   "why": "Park fees, closures and conservancy rules — direct lodge cost and access impact.",
+   "why": "Park fees, closures and conservancy rules \u2014 direct lodge cost and access impact.",
    "frag": ""
   },
   {
@@ -295,7 +295,7 @@
    "why": "Licensing and classification of accommodation.",
    "frag": "",
    "transport": "agent-search",
-   "transport_note": "Blocked at the HTTP layer (403/Incapsula) since 28 Jul 2026. Worked via sweep/sweep_due.py on the agent search path. Do NOT re-point the URL on the strength of a crawler 403 — the URL is fine, the transport is not."
+   "transport_note": "Blocked at the HTTP layer (403/Incapsula) since 28 Jul 2026. Worked via sweep/sweep_due.py on the agent search path. Do NOT re-point the URL on the strength of a crawler 403 \u2014 the URL is fine, the transport is not."
   },
   {
    "id": "ke-tourism-fund",
@@ -315,14 +315,14 @@
    "slots": [
     "evening"
    ],
-   "why": "Tourism levy administration — a direct line item on every guest bill.",
+   "why": "Tourism levy administration \u2014 a direct line item on every guest bill.",
    "frag": "",
    "transport": "agent-search",
-   "transport_note": "Blocked at the HTTP layer (403/Incapsula) since 28 Jul 2026. Worked via sweep/sweep_due.py on the agent search path. Do NOT re-point the URL on the strength of a crawler 403 — the URL is fine, the transport is not."
+   "transport_note": "Blocked at the HTTP layer (403/Incapsula) since 28 Jul 2026. Worked via sweep/sweep_due.py on the agent search path. Do NOT re-point the URL on the strength of a crawler 403 \u2014 the URL is fine, the transport is not."
   },
   {
    "id": "ke-kcaa",
-   "name": "KCAA — aeronautical information & circulars",
+   "name": "KCAA \u2014 aeronautical information & circulars",
    "url": "https://kcaa.or.ke/",
    "tier": 1,
    "country": "KE",
@@ -341,7 +341,7 @@
    "why": "AICs create passenger document requirements before any airline tells an agent.",
    "frag": "",
    "transport": "agent-search",
-   "transport_note": "Blocked at the HTTP layer (403/Incapsula) since 28 Jul 2026. Worked via sweep/sweep_due.py on the agent search path. Do NOT re-point the URL on the strength of a crawler 403 — the URL is fine, the transport is not."
+   "transport_note": "Blocked at the HTTP layer (403/Incapsula) since 28 Jul 2026. Worked via sweep/sweep_due.py on the agent search path. Do NOT re-point the URL on the strength of a crawler 403 \u2014 the URL is fine, the transport is not."
   },
   {
    "id": "ke-kaa",
@@ -364,7 +364,7 @@
    "why": "Terminal capacity, disruption notices and traffic statistics.",
    "frag": "",
    "transport": "agent-search",
-   "transport_note": "Blocked at the HTTP layer (403/Incapsula) since 28 Jul 2026. Worked via sweep/sweep_due.py on the agent search path. Do NOT re-point the URL on the strength of a crawler 403 — the URL is fine, the transport is not."
+   "transport_note": "Blocked at the HTTP layer (403/Incapsula) since 28 Jul 2026. Worked via sweep/sweep_due.py on the agent search path. Do NOT re-point the URL on the strength of a crawler 403 \u2014 the URL is fine, the transport is not."
   },
   {
    "id": "ke-kaa-tenders",
@@ -387,7 +387,7 @@
    "why": "Airport works signal capacity and disruption years ahead.",
    "frag": "",
    "transport": "agent-search",
-   "transport_note": "Blocked at the HTTP layer (403/Incapsula) since 28 Jul 2026. Worked via sweep/sweep_due.py on the agent search path. Do NOT re-point the URL on the strength of a crawler 403 — the URL is fine, the transport is not."
+   "transport_note": "Blocked at the HTTP layer (403/Incapsula) since 28 Jul 2026. Worked via sweep/sweep_due.py on the agent search path. Do NOT re-point the URL on the strength of a crawler 403 \u2014 the URL is fine, the transport is not."
   },
   {
    "id": "ke-moh",
@@ -433,7 +433,7 @@
    "why": "Entry requirement and fee changes appear on the portal before they are reported.",
    "frag": "",
    "transport": "agent-search",
-   "transport_note": "Blocked at the HTTP layer (403/Incapsula) since 28 Jul 2026. Worked via sweep/sweep_due.py on the agent search path. Do NOT re-point the URL on the strength of a crawler 403 — the URL is fine, the transport is not."
+   "transport_note": "Blocked at the HTTP layer (403/Incapsula) since 28 Jul 2026. Worked via sweep/sweep_due.py on the agent search path. Do NOT re-point the URL on the strength of a crawler 403 \u2014 the URL is fine, the transport is not."
   },
   {
    "id": "ke-treasury",
@@ -458,7 +458,7 @@
   },
   {
    "id": "ke-parliament",
-   "name": "Parliament of Kenya — bills & papers",
+   "name": "Parliament of Kenya \u2014 bills & papers",
    "url": "https://www.parliament.go.ke/",
    "tier": 1,
    "country": "KE",
@@ -474,7 +474,7 @@
    "slots": [
     "evening"
    ],
-   "why": "Finance Bills and committee reports — the earliest sight of a tax change.",
+   "why": "Finance Bills and committee reports \u2014 the earliest sight of a tax change.",
    "frag": ""
   },
   {
@@ -500,7 +500,7 @@
    "min_len": 12,
    "enabled": true,
    "transport": "agent-search",
-   "transport_note": "Blocked at the HTTP layer (403/Incapsula) since 28 Jul 2026. Worked via sweep/sweep_due.py on the agent search path. Do NOT re-point the URL on the strength of a crawler 403 — the URL is fine, the transport is not."
+   "transport_note": "Blocked at the HTTP layer (403/Incapsula) since 28 Jul 2026. Worked via sweep/sweep_due.py on the agent search path. Do NOT re-point the URL on the strength of a crawler 403 \u2014 the URL is fine, the transport is not."
   },
   {
    "id": "ke-nse",
@@ -525,7 +525,7 @@
    "why": "Results and disclosures from listed hospitality and aviation names.",
    "frag": "",
    "transport": "agent-search",
-   "transport_note": "Blocked at the HTTP layer (403/Incapsula) since 28 Jul 2026. Worked via sweep/sweep_due.py on the agent search path. Do NOT re-point the URL on the strength of a crawler 403 — the URL is fine, the transport is not."
+   "transport_note": "Blocked at the HTTP layer (403/Incapsula) since 28 Jul 2026. Worked via sweep/sweep_due.py on the agent search path. Do NOT re-point the URL on the strength of a crawler 403 \u2014 the URL is fine, the transport is not."
   },
   {
    "id": "ke-met",
@@ -550,7 +550,7 @@
    "why": "Flood and severe-weather warnings that close roads and airstrips.",
    "frag": "",
    "transport": "agent-search",
-   "transport_note": "Blocked at the HTTP layer (403/Incapsula) since 28 Jul 2026. Worked via sweep/sweep_due.py on the agent search path. Do NOT re-point the URL on the strength of a crawler 403 — the URL is fine, the transport is not."
+   "transport_note": "Blocked at the HTTP layer (403/Incapsula) since 28 Jul 2026. Worked via sweep/sweep_due.py on the agent search path. Do NOT re-point the URL on the strength of a crawler 403 \u2014 the URL is fine, the transport is not."
   },
   {
    "id": "ug-gazette",
@@ -574,7 +574,7 @@
    "frag": "",
    "min_len": 10,
    "transport": "agent-search",
-   "transport_note": "Blocked at the HTTP layer (403/Incapsula) since 28 Jul 2026. Worked via sweep/sweep_due.py on the agent search path. Do NOT re-point the URL on the strength of a crawler 403 — the URL is fine, the transport is not."
+   "transport_note": "Blocked at the HTTP layer (403/Incapsula) since 28 Jul 2026. Worked via sweep/sweep_due.py on the agent search path. Do NOT re-point the URL on the strength of a crawler 403 \u2014 the URL is fine, the transport is not."
   },
   {
    "id": "ug-ubos",
@@ -597,7 +597,7 @@
    "why": "CPI and the shilling-strength story that squeezes USD-earning operators.",
    "frag": "",
    "transport": "agent-search",
-   "transport_note": "Blocked at the HTTP layer (403/Incapsula) since 28 Jul 2026. Worked via sweep/sweep_due.py on the agent search path. Do NOT re-point the URL on the strength of a crawler 403 — the URL is fine, the transport is not."
+   "transport_note": "Blocked at the HTTP layer (403/Incapsula) since 28 Jul 2026. Worked via sweep/sweep_due.py on the agent search path. Do NOT re-point the URL on the strength of a crawler 403 \u2014 the URL is fine, the transport is not."
   },
   {
    "id": "ug-bou",
@@ -622,7 +622,7 @@
    "min_len": 12,
    "enabled": true,
    "transport": "agent-search",
-   "transport_note": "Blocked at the HTTP layer (403/Incapsula) since 28 Jul 2026. Worked via sweep/sweep_due.py on the agent search path. Do NOT re-point the URL on the strength of a crawler 403 — the URL is fine, the transport is not."
+   "transport_note": "Blocked at the HTTP layer (403/Incapsula) since 28 Jul 2026. Worked via sweep/sweep_due.py on the agent search path. Do NOT re-point the URL on the strength of a crawler 403 \u2014 the URL is fine, the transport is not."
   },
   {
    "id": "ug-utb",
@@ -647,7 +647,7 @@
    "why": "POATE, campaigns and destination policy.",
    "frag": "",
    "transport": "agent-search",
-   "transport_note": "Blocked at the HTTP layer (403/Incapsula) since 28 Jul 2026. Worked via sweep/sweep_due.py on the agent search path. Do NOT re-point the URL on the strength of a crawler 403 — the URL is fine, the transport is not."
+   "transport_note": "Blocked at the HTTP layer (403/Incapsula) since 28 Jul 2026. Worked via sweep/sweep_due.py on the agent search path. Do NOT re-point the URL on the strength of a crawler 403 \u2014 the URL is fine, the transport is not."
   },
   {
    "id": "ug-uwa",
@@ -668,7 +668,7 @@
    "why": "Gorilla permit pricing, allocation rules and park entry waivers.",
    "frag": "",
    "transport": "agent-search",
-   "transport_note": "Blocked at the HTTP layer (403/Incapsula) since 28 Jul 2026. Worked via sweep/sweep_due.py on the agent search path. Do NOT re-point the URL on the strength of a crawler 403 — the URL is fine, the transport is not."
+   "transport_note": "Blocked at the HTTP layer (403/Incapsula) since 28 Jul 2026. Worked via sweep/sweep_due.py on the agent search path. Do NOT re-point the URL on the strength of a crawler 403 \u2014 the URL is fine, the transport is not."
   },
   {
    "id": "ug-ucaa",
@@ -692,7 +692,7 @@
    "frag": "",
    "min_len": 12,
    "transport": "agent-search",
-   "transport_note": "Blocked at the HTTP layer (403/Incapsula) since 28 Jul 2026. Worked via sweep/sweep_due.py on the agent search path. Do NOT re-point the URL on the strength of a crawler 403 — the URL is fine, the transport is not."
+   "transport_note": "Blocked at the HTTP layer (403/Incapsula) since 28 Jul 2026. Worked via sweep/sweep_due.py on the agent search path. Do NOT re-point the URL on the strength of a crawler 403 \u2014 the URL is fine, the transport is not."
   },
   {
    "id": "ug-moh",
@@ -761,7 +761,7 @@
    "why": "VAT and tourism tax changes.",
    "frag": "",
    "transport": "agent-search",
-   "transport_note": "Blocked at the HTTP layer (403/Incapsula) since 28 Jul 2026. Worked via sweep/sweep_due.py on the agent search path. Do NOT re-point the URL on the strength of a crawler 403 — the URL is fine, the transport is not."
+   "transport_note": "Blocked at the HTTP layer (403/Incapsula) since 28 Jul 2026. Worked via sweep/sweep_due.py on the agent search path. Do NOT re-point the URL on the strength of a crawler 403 \u2014 the URL is fine, the transport is not."
   },
   {
    "id": "ug-parliament",
@@ -827,7 +827,7 @@
    "frag": "",
    "min_len": 10,
    "transport": "agent-search",
-   "transport_note": "Blocked at the HTTP layer (403/Incapsula) since 28 Jul 2026. Worked via sweep/sweep_due.py on the agent search path. Do NOT re-point the URL on the strength of a crawler 403 — the URL is fine, the transport is not."
+   "transport_note": "Blocked at the HTTP layer (403/Incapsula) since 28 Jul 2026. Worked via sweep/sweep_due.py on the agent search path. Do NOT re-point the URL on the strength of a crawler 403 \u2014 the URL is fine, the transport is not."
   },
   {
    "id": "tz-nbs",
@@ -850,7 +850,7 @@
    "why": "CPI plus arrivals and tourism earnings. Tanzania's benign cost base is a competitive asset.",
    "frag": "",
    "transport": "agent-search",
-   "transport_note": "Blocked at the HTTP layer (403/Incapsula) since 28 Jul 2026. Worked via sweep/sweep_due.py on the agent search path. Do NOT re-point the URL on the strength of a crawler 403 — the URL is fine, the transport is not."
+   "transport_note": "Blocked at the HTTP layer (403/Incapsula) since 28 Jul 2026. Worked via sweep/sweep_due.py on the agent search path. Do NOT re-point the URL on the strength of a crawler 403 \u2014 the URL is fine, the transport is not."
   },
   {
    "id": "tz-bot",
@@ -873,7 +873,7 @@
    "why": "Monthly economic review carries travel receipts.",
    "frag": "",
    "transport": "agent-search",
-   "transport_note": "Blocked at the HTTP layer (403/Incapsula) since 28 Jul 2026. Worked via sweep/sweep_due.py on the agent search path. Do NOT re-point the URL on the strength of a crawler 403 — the URL is fine, the transport is not."
+   "transport_note": "Blocked at the HTTP layer (403/Incapsula) since 28 Jul 2026. Worked via sweep/sweep_due.py on the agent search path. Do NOT re-point the URL on the strength of a crawler 403 \u2014 the URL is fine, the transport is not."
   },
   {
    "id": "tz-mnrt",
@@ -898,7 +898,7 @@
    "min_len": 12,
    "enabled": true,
    "transport": "agent-search",
-   "transport_note": "Blocked at the HTTP layer (403/Incapsula) since 28 Jul 2026. Worked via sweep/sweep_due.py on the agent search path. Do NOT re-point the URL on the strength of a crawler 403 — the URL is fine, the transport is not."
+   "transport_note": "Blocked at the HTTP layer (403/Incapsula) since 28 Jul 2026. Worked via sweep/sweep_due.py on the agent search path. Do NOT re-point the URL on the strength of a crawler 403 \u2014 the URL is fine, the transport is not."
   },
   {
    "id": "tz-tanapa",
@@ -916,11 +916,11 @@
    "slots": [
     "evening"
    ],
-   "why": "Park entry fees and access rules — the biggest single line in a northern-circuit quote.",
+   "why": "Park entry fees and access rules \u2014 the biggest single line in a northern-circuit quote.",
    "frag": "",
    "min_len": 12,
    "transport": "agent-search",
-   "transport_note": "Blocked at the HTTP layer (403/Incapsula) since 28 Jul 2026. Worked via sweep/sweep_due.py on the agent search path. Do NOT re-point the URL on the strength of a crawler 403 — the URL is fine, the transport is not."
+   "transport_note": "Blocked at the HTTP layer (403/Incapsula) since 28 Jul 2026. Worked via sweep/sweep_due.py on the agent search path. Do NOT re-point the URL on the strength of a crawler 403 \u2014 the URL is fine, the transport is not."
   },
   {
    "id": "tz-ncaa",
@@ -941,7 +941,7 @@
    "why": "Crater fees and vehicle rules.",
    "frag": "",
    "transport": "agent-search",
-   "transport_note": "Blocked at the HTTP layer (403/Incapsula) since 28 Jul 2026. Worked via sweep/sweep_due.py on the agent search path. Do NOT re-point the URL on the strength of a crawler 403 — the URL is fine, the transport is not."
+   "transport_note": "Blocked at the HTTP layer (403/Incapsula) since 28 Jul 2026. Worked via sweep/sweep_due.py on the agent search path. Do NOT re-point the URL on the strength of a crawler 403 \u2014 the URL is fine, the transport is not."
   },
   {
    "id": "tz-ttb",
@@ -966,7 +966,7 @@
    "why": "Campaigns and arrivals commentary.",
    "frag": "",
    "transport": "agent-search",
-   "transport_note": "Blocked at the HTTP layer (403/Incapsula) since 28 Jul 2026. Worked via sweep/sweep_due.py on the agent search path. Do NOT re-point the URL on the strength of a crawler 403 — the URL is fine, the transport is not."
+   "transport_note": "Blocked at the HTTP layer (403/Incapsula) since 28 Jul 2026. Worked via sweep/sweep_due.py on the agent search path. Do NOT re-point the URL on the strength of a crawler 403 \u2014 the URL is fine, the transport is not."
   },
   {
    "id": "tz-tcaa",
@@ -1010,7 +1010,7 @@
    "why": "Kilimanjaro and Dar terminal capacity, traffic data.",
    "frag": "",
    "transport": "agent-search",
-   "transport_note": "Blocked at the HTTP layer (403/Incapsula) since 28 Jul 2026. Worked via sweep/sweep_due.py on the agent search path. Do NOT re-point the URL on the strength of a crawler 403 — the URL is fine, the transport is not."
+   "transport_note": "Blocked at the HTTP layer (403/Incapsula) since 28 Jul 2026. Worked via sweep/sweep_due.py on the agent search path. Do NOT re-point the URL on the strength of a crawler 403 \u2014 the URL is fine, the transport is not."
   },
   {
    "id": "tz-moh",
@@ -1032,7 +1032,7 @@
     "midday",
     "evening"
    ],
-   "why": "Publishes numbered travel advisories as PDFs — pure upstream, rarely reported.",
+   "why": "Publishes numbered travel advisories as PDFs \u2014 pure upstream, rarely reported.",
    "frag": ""
   },
   {
@@ -1056,7 +1056,7 @@
    "why": "Visa and entry rule changes.",
    "frag": "",
    "transport": "agent-search",
-   "transport_note": "Blocked at the HTTP layer (403/Incapsula) since 28 Jul 2026. Worked via sweep/sweep_due.py on the agent search path. Do NOT re-point the URL on the strength of a crawler 403 — the URL is fine, the transport is not."
+   "transport_note": "Blocked at the HTTP layer (403/Incapsula) since 28 Jul 2026. Worked via sweep/sweep_due.py on the agent search path. Do NOT re-point the URL on the strength of a crawler 403 \u2014 the URL is fine, the transport is not."
   },
   {
    "id": "tz-tra",
@@ -1102,7 +1102,7 @@
    "min_len": 12,
    "enabled": true,
    "transport": "agent-search",
-   "transport_note": "Blocked at the HTTP layer (403/Incapsula) since 28 Jul 2026. Worked via sweep/sweep_due.py on the agent search path. Do NOT re-point the URL on the strength of a crawler 403 — the URL is fine, the transport is not."
+   "transport_note": "Blocked at the HTTP layer (403/Incapsula) since 28 Jul 2026. Worked via sweep/sweep_due.py on the agent search path. Do NOT re-point the URL on the strength of a crawler 403 \u2014 the URL is fine, the transport is not."
   },
   {
    "id": "zn-ocgs",
@@ -1120,10 +1120,10 @@
    "slots": [
     "morning"
    ],
-   "why": "Monthly arrivals with source-market split — the granular number nobody else quotes on time.",
+   "why": "Monthly arrivals with source-market split \u2014 the granular number nobody else quotes on time.",
    "frag": "",
    "transport": "agent-search",
-   "transport_note": "Blocked at the HTTP layer (403/Incapsula) since 28 Jul 2026. Worked via sweep/sweep_due.py on the agent search path. Do NOT re-point the URL on the strength of a crawler 403 — the URL is fine, the transport is not."
+   "transport_note": "Blocked at the HTTP layer (403/Incapsula) since 28 Jul 2026. Worked via sweep/sweep_due.py on the agent search path. Do NOT re-point the URL on the strength of a crawler 403 \u2014 the URL is fine, the transport is not."
   },
   {
    "id": "zn-tourism",
@@ -1146,7 +1146,7 @@
    "why": "Arrivals releases, licensing and levy notices.",
    "frag": "",
    "transport": "agent-search",
-   "transport_note": "Blocked at the HTTP layer (403/Incapsula) since 28 Jul 2026. Worked via sweep/sweep_due.py on the agent search path. Do NOT re-point the URL on the strength of a crawler 403 — the URL is fine, the transport is not."
+   "transport_note": "Blocked at the HTTP layer (403/Incapsula) since 28 Jul 2026. Worked via sweep/sweep_due.py on the agent search path. Do NOT re-point the URL on the strength of a crawler 403 \u2014 the URL is fine, the transport is not."
   },
   {
    "id": "zn-zrb",
@@ -1164,11 +1164,11 @@
    "slots": [
     "evening"
    ],
-   "why": "Infrastructure levy and hotel tax changes — a direct per-guest cost.",
+   "why": "Infrastructure levy and hotel tax changes \u2014 a direct per-guest cost.",
    "frag": "",
    "min_len": 12,
    "transport": "agent-search",
-   "transport_note": "Blocked at the HTTP layer (403/Incapsula) since 28 Jul 2026. Worked via sweep/sweep_due.py on the agent search path. Do NOT re-point the URL on the strength of a crawler 403 — the URL is fine, the transport is not."
+   "transport_note": "Blocked at the HTTP layer (403/Incapsula) since 28 Jul 2026. Worked via sweep/sweep_due.py on the agent search path. Do NOT re-point the URL on the strength of a crawler 403 \u2014 the URL is fine, the transport is not."
   },
   {
    "id": "zn-zaa",
@@ -1210,7 +1210,7 @@
    "why": "Island health notices; cholera and outbreak statements move European charters.",
    "frag": "",
    "transport": "agent-search",
-   "transport_note": "Blocked at the HTTP layer (403/Incapsula) since 28 Jul 2026. Worked via sweep/sweep_due.py on the agent search path. Do NOT re-point the URL on the strength of a crawler 403 — the URL is fine, the transport is not."
+   "transport_note": "Blocked at the HTTP layer (403/Incapsula) since 28 Jul 2026. Worked via sweep/sweep_due.py on the agent search path. Do NOT re-point the URL on the strength of a crawler 403 \u2014 the URL is fine, the transport is not."
   },
   {
    "id": "rw-gazette",
@@ -1234,7 +1234,7 @@
    "frag": "",
    "min_len": 10,
    "transport": "agent-search",
-   "transport_note": "Blocked at the HTTP layer (403/Incapsula) since 28 Jul 2026. Worked via sweep/sweep_due.py on the agent search path. Do NOT re-point the URL on the strength of a crawler 403 — the URL is fine, the transport is not."
+   "transport_note": "Blocked at the HTTP layer (403/Incapsula) since 28 Jul 2026. Worked via sweep/sweep_due.py on the agent search path. Do NOT re-point the URL on the strength of a crawler 403 \u2014 the URL is fine, the transport is not."
   },
   {
    "id": "rw-nisr",
@@ -1257,7 +1257,7 @@
    "why": "CPI and tourism statistics; Rwanda's source-market mix is shifting fast.",
    "frag": "",
    "transport": "agent-search",
-   "transport_note": "Blocked at the HTTP layer (403/Incapsula) since 28 Jul 2026. Worked via sweep/sweep_due.py on the agent search path. Do NOT re-point the URL on the strength of a crawler 403 — the URL is fine, the transport is not."
+   "transport_note": "Blocked at the HTTP layer (403/Incapsula) since 28 Jul 2026. Worked via sweep/sweep_due.py on the agent search path. Do NOT re-point the URL on the strength of a crawler 403 \u2014 the URL is fine, the transport is not."
   },
   {
    "id": "rw-bnr",
@@ -1280,7 +1280,7 @@
    "why": "FX and rate decisions.",
    "frag": "",
    "transport": "agent-search",
-   "transport_note": "Blocked at the HTTP layer (403/Incapsula) since 28 Jul 2026. Worked via sweep/sweep_due.py on the agent search path. Do NOT re-point the URL on the strength of a crawler 403 — the URL is fine, the transport is not."
+   "transport_note": "Blocked at the HTTP layer (403/Incapsula) since 28 Jul 2026. Worked via sweep/sweep_due.py on the agent search path. Do NOT re-point the URL on the strength of a crawler 403 \u2014 the URL is fine, the transport is not."
   },
   {
    "id": "rw-rdb",
@@ -1330,7 +1330,7 @@
    "min_len": 18,
    "enabled": true,
    "transport": "agent-search",
-   "transport_note": "Blocked at the HTTP layer (403/Incapsula) since 28 Jul 2026. Worked via sweep/sweep_due.py on the agent search path. Do NOT re-point the URL on the strength of a crawler 403 — the URL is fine, the transport is not."
+   "transport_note": "Blocked at the HTTP layer (403/Incapsula) since 28 Jul 2026. Worked via sweep/sweep_due.py on the agent search path. Do NOT re-point the URL on the strength of a crawler 403 \u2014 the URL is fine, the transport is not."
   },
   {
    "id": "rw-rca",
@@ -1353,7 +1353,7 @@
    "why": "Route approvals and aeronautical notices.",
    "frag": "",
    "transport": "agent-search",
-   "transport_note": "Blocked at the HTTP layer (403/Incapsula) since 28 Jul 2026. Worked via sweep/sweep_due.py on the agent search path. Do NOT re-point the URL on the strength of a crawler 403 — the URL is fine, the transport is not."
+   "transport_note": "Blocked at the HTTP layer (403/Incapsula) since 28 Jul 2026. Worked via sweep/sweep_due.py on the agent search path. Do NOT re-point the URL on the strength of a crawler 403 \u2014 the URL is fine, the transport is not."
   },
   {
    "id": "rw-moh",
@@ -1375,7 +1375,7 @@
     "midday",
     "evening"
    ],
-   "why": "Entry screening and DRC-border health measures — Rwanda moves first and hardest.",
+   "why": "Entry screening and DRC-border health measures \u2014 Rwanda moves first and hardest.",
    "frag": "",
    "transport": "agent-search",
    "transport_note": "Root page blocked at the HTTP layer (403/Incapsula) since 28 Jul 2026 and worked via sweep/sweep_due.py on the agent search path. CORRECTION 15 Sep 2026 (evening): the ARTICLE layer is NOT blocked - https://www.moh.gov.rw/news-detail/notice-on-enhanced-ebola-prevention-measures fetched cleanly. The block is on the root/listing, not on detail pages. Do NOT re-point the URL on the strength of a crawler 403."
@@ -1401,7 +1401,7 @@
    "why": "Tourism VAT and levy changes.",
    "frag": "",
    "transport": "agent-search",
-   "transport_note": "Blocked at the HTTP layer (403/Incapsula) since 28 Jul 2026. Worked via sweep/sweep_due.py on the agent search path. Do NOT re-point the URL on the strength of a crawler 403 — the URL is fine, the transport is not."
+   "transport_note": "Blocked at the HTTP layer (403/Incapsula) since 28 Jul 2026. Worked via sweep/sweep_due.py on the agent search path. Do NOT re-point the URL on the strength of a crawler 403 \u2014 the URL is fine, the transport is not."
   },
   {
    "id": "rw-rppa",
@@ -1424,7 +1424,7 @@
    "why": "Conference, airport and park infrastructure awards.",
    "frag": "",
    "transport": "agent-search",
-   "transport_note": "Blocked at the HTTP layer (403/Incapsula) since 28 Jul 2026. Worked via sweep/sweep_due.py on the agent search path. Do NOT re-point the URL on the strength of a crawler 403 — the URL is fine, the transport is not."
+   "transport_note": "Blocked at the HTTP layer (403/Incapsula) since 28 Jul 2026. Worked via sweep/sweep_due.py on the agent search path. Do NOT re-point the URL on the strength of a crawler 403 \u2014 the URL is fine, the transport is not."
   },
   {
    "id": "who-afro-outbreaks",
@@ -1469,10 +1469,10 @@
     "midday",
     "evening"
    ],
-   "why": "Formal event notifications — the trigger for advisory changes.",
+   "why": "Formal event notifications \u2014 the trigger for advisory changes.",
    "frag": "",
    "transport": "agent-search",
-   "transport_note": "Blocked at the HTTP layer (403/Incapsula) since 28 Jul 2026. Worked via sweep/sweep_due.py on the agent search path. Do NOT re-point the URL on the strength of a crawler 403 — the URL is fine, the transport is not."
+   "transport_note": "Blocked at the HTTP layer (403/Incapsula) since 28 Jul 2026. Worked via sweep/sweep_due.py on the agent search path. Do NOT re-point the URL on the strength of a crawler 403 \u2014 the URL is fine, the transport is not."
   },
   {
    "id": "africacdc-outbreaks",
@@ -1497,7 +1497,7 @@
    "why": "Situation reports numbered by issue; continental view catches spillover early.",
    "frag": "",
    "transport": "agent-search",
-   "transport_note": "Blocked at the HTTP layer (403/Incapsula) since 28 Jul 2026. Worked via sweep/sweep_due.py on the agent search path. Do NOT re-point the URL on the strength of a crawler 403 — the URL is fine, the transport is not."
+   "transport_note": "Blocked at the HTTP layer (403/Incapsula) since 28 Jul 2026. Worked via sweep/sweep_due.py on the agent search path. Do NOT re-point the URL on the strength of a crawler 403 \u2014 the URL is fine, the transport is not."
   },
   {
    "id": "africacdc-downloads",
@@ -1522,11 +1522,11 @@
    "why": "Where the numbered Bundibugyo situation reports actually land as PDFs.",
    "frag": "",
    "transport": "agent-search",
-   "transport_note": "Blocked at the HTTP layer (403/Incapsula) since 28 Jul 2026. Worked via sweep/sweep_due.py on the agent search path. Do NOT re-point the URL on the strength of a crawler 403 — the URL is fine, the transport is not."
+   "transport_note": "Blocked at the HTTP layer (403/Incapsula) since 28 Jul 2026. Worked via sweep/sweep_due.py on the agent search path. Do NOT re-point the URL on the strength of a crawler 403 \u2014 the URL is fine, the transport is not."
   },
   {
    "id": "reliefweb-ea",
-   "name": "ReliefWeb — East Africa updates",
+   "name": "ReliefWeb \u2014 East Africa updates",
    "url": "https://reliefweb.int/updates/rss.xml?view=headlines",
    "tier": 2,
    "country": "REG",
@@ -1547,7 +1547,7 @@
    "why": "Aggregates ministry and WHO reporting, often hours ahead of anyone else.",
    "frag": "",
    "transport": "agent-search",
-   "transport_note": "Blocked at the HTTP layer (403/Incapsula) since 28 Jul 2026. Worked via sweep/sweep_due.py on the agent search path. Do NOT re-point the URL on the strength of a crawler 403 — the URL is fine, the transport is not."
+   "transport_note": "Blocked at the HTTP layer (403/Incapsula) since 28 Jul 2026. Worked via sweep/sweep_due.py on the agent search path. Do NOT re-point the URL on the strength of a crawler 403 \u2014 the URL is fine, the transport is not."
   },
   {
    "id": "cdc-travel-notices",
@@ -1594,7 +1594,7 @@
     "midday",
     "evening"
    ],
-   "why": "European view — drives German, Italian and Polish charter sentiment to Zanzibar.",
+   "why": "European view \u2014 drives German, Italian and Polish charter sentiment to Zanzibar.",
    "frag": ""
   },
   {
@@ -1622,7 +1622,7 @@
   },
   {
    "id": "adv-us-kenya",
-   "name": "US State Dept advisory — Kenya",
+   "name": "US State Dept advisory \u2014 Kenya",
    "url": "https://travel.state.gov/content/travel/en/traveladvisories/traveladvisories/kenya-travel-advisory.html",
    "tier": 1,
    "country": "KE",
@@ -1646,7 +1646,7 @@
   },
   {
    "id": "adv-uk-kenya",
-   "name": "UK FCDO advice — Kenya",
+   "name": "UK FCDO advice \u2014 Kenya",
    "url": "https://www.gov.uk/foreign-travel-advice/kenya",
    "tier": 1,
    "country": "KE",
@@ -1667,11 +1667,11 @@
    "why": "FCDO wording drives UK operator insurance and tour-operator policy.",
    "frag": "",
    "transport": "agent-search",
-   "transport_note": "Blocked at the HTTP layer (403/Incapsula) since 28 Jul 2026. Worked via sweep/sweep_due.py on the agent search path. Do NOT re-point the URL on the strength of a crawler 403 — the URL is fine, the transport is not."
+   "transport_note": "Blocked at the HTTP layer (403/Incapsula) since 28 Jul 2026. Worked via sweep/sweep_due.py on the agent search path. Do NOT re-point the URL on the strength of a crawler 403 \u2014 the URL is fine, the transport is not."
   },
   {
    "id": "adv-us-uganda",
-   "name": "US State Dept advisory — Uganda",
+   "name": "US State Dept advisory \u2014 Uganda",
    "url": "https://travel.state.gov/content/travel/en/traveladvisories/traveladvisories/uganda-travel-advisory.html",
    "tier": 1,
    "country": "UG",
@@ -1695,7 +1695,7 @@
   },
   {
    "id": "adv-uk-uganda",
-   "name": "UK FCDO advice — Uganda",
+   "name": "UK FCDO advice \u2014 Uganda",
    "url": "https://www.gov.uk/foreign-travel-advice/uganda",
    "tier": 1,
    "country": "UG",
@@ -1716,11 +1716,11 @@
    "why": "FCDO wording drives UK operator insurance and tour-operator policy.",
    "frag": "",
    "transport": "agent-search",
-   "transport_note": "Blocked at the HTTP layer (403/Incapsula) since 28 Jul 2026. Worked via sweep/sweep_due.py on the agent search path. Do NOT re-point the URL on the strength of a crawler 403 — the URL is fine, the transport is not."
+   "transport_note": "Blocked at the HTTP layer (403/Incapsula) since 28 Jul 2026. Worked via sweep/sweep_due.py on the agent search path. Do NOT re-point the URL on the strength of a crawler 403 \u2014 the URL is fine, the transport is not."
   },
   {
    "id": "adv-us-tanzania",
-   "name": "US State Dept advisory — Tanzania",
+   "name": "US State Dept advisory \u2014 Tanzania",
    "url": "https://travel.state.gov/content/travel/en/traveladvisories/traveladvisories/tanzania-travel-advisory.html",
    "tier": 1,
    "country": "TZ",
@@ -1744,7 +1744,7 @@
   },
   {
    "id": "adv-uk-tanzania",
-   "name": "UK FCDO advice — Tanzania",
+   "name": "UK FCDO advice \u2014 Tanzania",
    "url": "https://www.gov.uk/foreign-travel-advice/tanzania",
    "tier": 1,
    "country": "TZ",
@@ -1765,11 +1765,11 @@
    "why": "FCDO wording drives UK operator insurance and tour-operator policy.",
    "frag": "",
    "transport": "agent-search",
-   "transport_note": "Blocked at the HTTP layer (403/Incapsula) since 28 Jul 2026. Worked via sweep/sweep_due.py on the agent search path. Do NOT re-point the URL on the strength of a crawler 403 — the URL is fine, the transport is not."
+   "transport_note": "Blocked at the HTTP layer (403/Incapsula) since 28 Jul 2026. Worked via sweep/sweep_due.py on the agent search path. Do NOT re-point the URL on the strength of a crawler 403 \u2014 the URL is fine, the transport is not."
   },
   {
    "id": "adv-us-rwanda",
-   "name": "US State Dept advisory — Rwanda",
+   "name": "US State Dept advisory \u2014 Rwanda",
    "url": "https://travel.state.gov/content/travel/en/traveladvisories/traveladvisories/rwanda-travel-advisory.html",
    "tier": 1,
    "country": "RW",
@@ -1793,7 +1793,7 @@
   },
   {
    "id": "adv-uk-rwanda",
-   "name": "UK FCDO advice — Rwanda",
+   "name": "UK FCDO advice \u2014 Rwanda",
    "url": "https://www.gov.uk/foreign-travel-advice/rwanda",
    "tier": 1,
    "country": "RW",
@@ -1814,11 +1814,11 @@
    "why": "FCDO wording drives UK operator insurance and tour-operator policy.",
    "frag": "",
    "transport": "agent-search",
-   "transport_note": "Blocked at the HTTP layer (403/Incapsula) since 28 Jul 2026. Worked via sweep/sweep_due.py on the agent search path. Do NOT re-point the URL on the strength of a crawler 403 — the URL is fine, the transport is not."
+   "transport_note": "Blocked at the HTTP layer (403/Incapsula) since 28 Jul 2026. Worked via sweep/sweep_due.py on the agent search path. Do NOT re-point the URL on the strength of a crawler 403 \u2014 the URL is fine, the transport is not."
   },
   {
    "id": "adv-ca-kenya",
-   "name": "Canada travel advice — Kenya",
+   "name": "Canada travel advice \u2014 Kenya",
    "url": "https://travel.gc.ca/destinations/kenya",
    "tier": 1,
    "country": "KE",
@@ -1839,11 +1839,11 @@
    "why": "Divergence between governments is a commercial asset, not an inconsistency.",
    "frag": "",
    "transport": "agent-search",
-   "transport_note": "Blocked at the HTTP layer (403/Incapsula) since 28 Jul 2026. Worked via sweep/sweep_due.py on the agent search path. Do NOT re-point the URL on the strength of a crawler 403 — the URL is fine, the transport is not."
+   "transport_note": "Blocked at the HTTP layer (403/Incapsula) since 28 Jul 2026. Worked via sweep/sweep_due.py on the agent search path. Do NOT re-point the URL on the strength of a crawler 403 \u2014 the URL is fine, the transport is not."
   },
   {
    "id": "adv-au-kenya",
-   "name": "Smartraveller — Kenya",
+   "name": "Smartraveller \u2014 Kenya",
    "url": "https://www.smartraveller.gov.au/destinations/africa/kenya",
    "tier": 1,
    "country": "KE",
@@ -1864,11 +1864,11 @@
    "why": "Australian long-haul safari demand tracks this closely.",
    "frag": "",
    "transport": "agent-search",
-   "transport_note": "Blocked at the HTTP layer (403/Incapsula) since 28 Jul 2026. Worked via sweep/sweep_due.py on the agent search path. Do NOT re-point the URL on the strength of a crawler 403 — the URL is fine, the transport is not."
+   "transport_note": "Blocked at the HTTP layer (403/Incapsula) since 28 Jul 2026. Worked via sweep/sweep_due.py on the agent search path. Do NOT re-point the URL on the strength of a crawler 403 \u2014 the URL is fine, the transport is not."
   },
   {
    "id": "adv-de-kenya",
-   "name": "Auswärtiges Amt — Kenya",
+   "name": "Ausw\u00e4rtiges Amt \u2014 Kenya",
    "url": "https://www.auswaertiges-amt.de/de/service/laender/kenya-node/kenyasicherheit",
    "tier": 1,
    "country": "KE",
@@ -1889,11 +1889,11 @@
    "why": "Germany is a top-three source market for Zanzibar and the northern circuit.",
    "frag": "",
    "transport": "agent-search",
-   "transport_note": "Blocked at the HTTP layer (403/Incapsula) since 28 Jul 2026. Worked via sweep/sweep_due.py on the agent search path. Do NOT re-point the URL on the strength of a crawler 403 — the URL is fine, the transport is not."
+   "transport_note": "Blocked at the HTTP layer (403/Incapsula) since 28 Jul 2026. Worked via sweep/sweep_due.py on the agent search path. Do NOT re-point the URL on the strength of a crawler 403 \u2014 the URL is fine, the transport is not."
   },
   {
    "id": "adv-fr-kenya",
-   "name": "France Conseils aux voyageurs — Kenya",
+   "name": "France Conseils aux voyageurs \u2014 Kenya",
    "url": "https://www.diplomatie.gouv.fr/fr/conseils-aux-voyageurs/conseils-par-pays-destination/kenya/",
    "tier": 1,
    "country": "KE",
@@ -1914,11 +1914,11 @@
    "why": "French advisories move Indian Ocean beach demand.",
    "frag": "",
    "transport": "agent-search",
-   "transport_note": "Blocked at the HTTP layer (403/Incapsula) since 28 Jul 2026. Worked via sweep/sweep_due.py on the agent search path. Do NOT re-point the URL on the strength of a crawler 403 — the URL is fine, the transport is not."
+   "transport_note": "Blocked at the HTTP layer (403/Incapsula) since 28 Jul 2026. Worked via sweep/sweep_due.py on the agent search path. Do NOT re-point the URL on the strength of a crawler 403 \u2014 the URL is fine, the transport is not."
   },
   {
    "id": "adv-ca-tanzania",
-   "name": "Canada travel advice — Tanzania",
+   "name": "Canada travel advice \u2014 Tanzania",
    "url": "https://travel.gc.ca/destinations/tanzania",
    "tier": 1,
    "country": "TZ",
@@ -1939,11 +1939,11 @@
    "why": "Divergence between governments is a commercial asset, not an inconsistency.",
    "frag": "",
    "transport": "agent-search",
-   "transport_note": "Blocked at the HTTP layer (403/Incapsula) since 28 Jul 2026. Worked via sweep/sweep_due.py on the agent search path. Do NOT re-point the URL on the strength of a crawler 403 — the URL is fine, the transport is not."
+   "transport_note": "Blocked at the HTTP layer (403/Incapsula) since 28 Jul 2026. Worked via sweep/sweep_due.py on the agent search path. Do NOT re-point the URL on the strength of a crawler 403 \u2014 the URL is fine, the transport is not."
   },
   {
    "id": "adv-au-tanzania",
-   "name": "Smartraveller — Tanzania",
+   "name": "Smartraveller \u2014 Tanzania",
    "url": "https://www.smartraveller.gov.au/destinations/africa/tanzania",
    "tier": 1,
    "country": "TZ",
@@ -1964,11 +1964,11 @@
    "why": "Australian long-haul safari demand tracks this closely.",
    "frag": "",
    "transport": "agent-search",
-   "transport_note": "Blocked at the HTTP layer (403/Incapsula) since 28 Jul 2026. Worked via sweep/sweep_due.py on the agent search path. Do NOT re-point the URL on the strength of a crawler 403 — the URL is fine, the transport is not."
+   "transport_note": "Blocked at the HTTP layer (403/Incapsula) since 28 Jul 2026. Worked via sweep/sweep_due.py on the agent search path. Do NOT re-point the URL on the strength of a crawler 403 \u2014 the URL is fine, the transport is not."
   },
   {
    "id": "adv-de-tanzania",
-   "name": "Auswärtiges Amt — Tanzania",
+   "name": "Ausw\u00e4rtiges Amt \u2014 Tanzania",
    "url": "https://www.auswaertiges-amt.de/de/service/laender/tanzania-node/tanzaniasicherheit",
    "tier": 1,
    "country": "TZ",
@@ -1989,11 +1989,11 @@
    "why": "Germany is a top-three source market for Zanzibar and the northern circuit.",
    "frag": "",
    "transport": "agent-search",
-   "transport_note": "Blocked at the HTTP layer (403/Incapsula) since 28 Jul 2026. Worked via sweep/sweep_due.py on the agent search path. Do NOT re-point the URL on the strength of a crawler 403 — the URL is fine, the transport is not."
+   "transport_note": "Blocked at the HTTP layer (403/Incapsula) since 28 Jul 2026. Worked via sweep/sweep_due.py on the agent search path. Do NOT re-point the URL on the strength of a crawler 403 \u2014 the URL is fine, the transport is not."
   },
   {
    "id": "adv-fr-tanzania",
-   "name": "France Conseils aux voyageurs — Tanzania",
+   "name": "France Conseils aux voyageurs \u2014 Tanzania",
    "url": "https://www.diplomatie.gouv.fr/fr/conseils-aux-voyageurs/conseils-par-pays-destination/tanzania/",
    "tier": 1,
    "country": "TZ",
@@ -2014,7 +2014,7 @@
    "why": "French advisories move Indian Ocean beach demand.",
    "frag": "",
    "transport": "agent-search",
-   "transport_note": "Blocked at the HTTP layer (403/Incapsula) since 28 Jul 2026. Worked via sweep/sweep_due.py on the agent search path. Do NOT re-point the URL on the strength of a crawler 403 — the URL is fine, the transport is not."
+   "transport_note": "Blocked at the HTTP layer (403/Incapsula) since 28 Jul 2026. Worked via sweep/sweep_due.py on the agent search path. Do NOT re-point the URL on the strength of a crawler 403 \u2014 the URL is fine, the transport is not."
   },
   {
    "id": "air-kq",
@@ -2037,7 +2037,7 @@
    "why": "Route, fleet and capacity announcements from the regional hub carrier.",
    "frag": "",
    "transport": "agent-search",
-   "transport_note": "Blocked at the HTTP layer (403/Incapsula) since 28 Jul 2026. Worked via sweep/sweep_due.py on the agent search path. Do NOT re-point the URL on the strength of a crawler 403 — the URL is fine, the transport is not."
+   "transport_note": "Blocked at the HTTP layer (403/Incapsula) since 28 Jul 2026. Worked via sweep/sweep_due.py on the agent search path. Do NOT re-point the URL on the strength of a crawler 403 \u2014 the URL is fine, the transport is not."
   },
   {
    "id": "air-ug",
@@ -2061,7 +2061,7 @@
    "frag": "",
    "min_len": 16,
    "transport": "agent-search",
-   "transport_note": "Blocked at the HTTP layer (403/Incapsula) since 28 Jul 2026. Worked via sweep/sweep_due.py on the agent search path. Do NOT re-point the URL on the strength of a crawler 403 — the URL is fine, the transport is not."
+   "transport_note": "Blocked at the HTTP layer (403/Incapsula) since 28 Jul 2026. Worked via sweep/sweep_due.py on the agent search path. Do NOT re-point the URL on the strength of a crawler 403 \u2014 the URL is fine, the transport is not."
   },
   {
    "id": "air-wb",
@@ -2084,7 +2084,7 @@
    "why": "Kigali hub strategy and schedule shifts.",
    "frag": "",
    "transport": "agent-search",
-   "transport_note": "Blocked at the HTTP layer (403/Incapsula) since 28 Jul 2026. Worked via sweep/sweep_due.py on the agent search path. Do NOT re-point the URL on the strength of a crawler 403 — the URL is fine, the transport is not."
+   "transport_note": "Blocked at the HTTP layer (403/Incapsula) since 28 Jul 2026. Worked via sweep/sweep_due.py on the agent search path. Do NOT re-point the URL on the strength of a crawler 403 \u2014 the URL is fine, the transport is not."
   },
   {
    "id": "air-tc",
@@ -2107,7 +2107,7 @@
    "why": "Long-haul experiments and domestic capacity to the northern circuit.",
    "frag": "",
    "transport": "agent-search",
-   "transport_note": "Blocked at the HTTP layer (403/Incapsula) since 28 Jul 2026. Worked via sweep/sweep_due.py on the agent search path. Do NOT re-point the URL on the strength of a crawler 403 — the URL is fine, the transport is not."
+   "transport_note": "Blocked at the HTTP layer (403/Incapsula) since 28 Jul 2026. Worked via sweep/sweep_due.py on the agent search path. Do NOT re-point the URL on the strength of a crawler 403 \u2014 the URL is fine, the transport is not."
   },
   {
    "id": "air-jambojet",
@@ -2153,7 +2153,7 @@
    "why": "Northern circuit and Zanzibar feeder capacity.",
    "frag": "",
    "transport": "agent-search",
-   "transport_note": "Blocked at the HTTP layer (403/Incapsula) since 28 Jul 2026. Worked via sweep/sweep_due.py on the agent search path. Do NOT re-point the URL on the strength of a crawler 403 — the URL is fine, the transport is not."
+   "transport_note": "Blocked at the HTTP layer (403/Incapsula) since 28 Jul 2026. Worked via sweep/sweep_due.py on the agent search path. Do NOT re-point the URL on the strength of a crawler 403 \u2014 the URL is fine, the transport is not."
   },
   {
    "id": "air-et",
@@ -2176,7 +2176,7 @@
    "why": "The dominant African feeder; its schedule sets regional connectivity.",
    "frag": "",
    "transport": "agent-search",
-   "transport_note": "Blocked at the HTTP layer (403/Incapsula) since 28 Jul 2026. Worked via sweep/sweep_due.py on the agent search path. Do NOT re-point the URL on the strength of a crawler 403 — the URL is fine, the transport is not."
+   "transport_note": "Blocked at the HTTP layer (403/Incapsula) since 28 Jul 2026. Worked via sweep/sweep_due.py on the agent search path. Do NOT re-point the URL on the strength of a crawler 403 \u2014 the URL is fine, the transport is not."
   },
   {
    "id": "air-ek",
@@ -2199,7 +2199,7 @@
    "why": "Gulf capacity into Nairobi and Zanzibar drives long-haul leisure volume.",
    "frag": "",
    "transport": "agent-search",
-   "transport_note": "Blocked at the HTTP layer (403/Incapsula) since 28 Jul 2026. Worked via sweep/sweep_due.py on the agent search path. Do NOT re-point the URL on the strength of a crawler 403 — the URL is fine, the transport is not."
+   "transport_note": "Blocked at the HTTP layer (403/Incapsula) since 28 Jul 2026. Worked via sweep/sweep_due.py on the agent search path. Do NOT re-point the URL on the strength of a crawler 403 \u2014 the URL is fine, the transport is not."
   },
   {
    "id": "air-qr",
@@ -2243,7 +2243,7 @@
    "why": "Istanbul feeds European and Asian secondary markets into EA.",
    "frag": "",
    "transport": "agent-search",
-   "transport_note": "Blocked at the HTTP layer (403/Incapsula) since 28 Jul 2026. Worked via sweep/sweep_due.py on the agent search path. Do NOT re-point the URL on the strength of a crawler 403 — the URL is fine, the transport is not."
+   "transport_note": "Blocked at the HTTP layer (403/Incapsula) since 28 Jul 2026. Worked via sweep/sweep_due.py on the agent search path. Do NOT re-point the URL on the strength of a crawler 403 \u2014 the URL is fine, the transport is not."
   },
   {
    "id": "air-klm",
@@ -2263,10 +2263,10 @@
    "slots": [
     "midday"
    ],
-   "why": "Amsterdam and Paris capacity — core to Dutch, French and Scandinavian safari demand.",
+   "why": "Amsterdam and Paris capacity \u2014 core to Dutch, French and Scandinavian safari demand.",
    "frag": "",
    "transport": "agent-search",
-   "transport_note": "Blocked at the HTTP layer (403/Incapsula) since 28 Jul 2026. Worked via sweep/sweep_due.py on the agent search path. Do NOT re-point the URL on the strength of a crawler 403 — the URL is fine, the transport is not."
+   "transport_note": "Blocked at the HTTP layer (403/Incapsula) since 28 Jul 2026. Worked via sweep/sweep_due.py on the agent search path. Do NOT re-point the URL on the strength of a crawler 403 \u2014 the URL is fine, the transport is not."
   },
   {
    "id": "air-lh",
@@ -2287,7 +2287,7 @@
    "why": "Discover Airlines charter-style capacity into Zanzibar and Mombasa.",
    "frag": "",
    "transport": "agent-search",
-   "transport_note": "Blocked at the HTTP layer (403/Incapsula) since 28 Jul 2026. Worked via sweep/sweep_due.py on the agent search path. Do NOT re-point the URL on the strength of a crawler 403 — the URL is fine, the transport is not."
+   "transport_note": "Blocked at the HTTP layer (403/Incapsula) since 28 Jul 2026. Worked via sweep/sweep_due.py on the agent search path. Do NOT re-point the URL on the strength of a crawler 403 \u2014 the URL is fine, the transport is not."
   },
   {
    "id": "air-airlink",
@@ -2349,10 +2349,10 @@
    "slots": [
     "midday"
    ],
-   "why": "Fleet, AOC and route filings — the earliest sight of a new entrant or a collapse.",
+   "why": "Fleet, AOC and route filings \u2014 the earliest sight of a new entrant or a collapse.",
    "frag": "",
    "transport": "agent-search",
-   "transport_note": "Blocked at the HTTP layer (403/Incapsula) since 28 Jul 2026. Worked via sweep/sweep_due.py on the agent search path. Do NOT re-point the URL on the strength of a crawler 403 — the URL is fine, the transport is not."
+   "transport_note": "Blocked at the HTTP layer (403/Incapsula) since 28 Jul 2026. Worked via sweep/sweep_due.py on the agent search path. Do NOT re-point the URL on the strength of a crawler 403 \u2014 the URL is fine, the transport is not."
   },
   {
    "id": "iata-pressroom",
@@ -2372,7 +2372,7 @@
    "slots": [
     "midday"
    ],
-   "why": "Monthly air passenger analysis incl. Africa — leading indicator for arrivals.",
+   "why": "Monthly air passenger analysis incl. Africa \u2014 leading indicator for arrivals.",
    "frag": ""
   },
   {
@@ -2398,7 +2398,7 @@
    "min_len": 18,
    "enabled": true,
    "transport": "agent-search",
-   "transport_note": "Blocked at the HTTP layer (403/Incapsula) since 28 Jul 2026. Worked via sweep/sweep_due.py on the agent search path. Do NOT re-point the URL on the strength of a crawler 403 — the URL is fine, the transport is not."
+   "transport_note": "Blocked at the HTTP layer (403/Incapsula) since 28 Jul 2026. Worked via sweep/sweep_due.py on the agent search path. Do NOT re-point the URL on the strength of a crawler 403 \u2014 the URL is fine, the transport is not."
   },
   {
    "id": "dev-accor",
@@ -2463,7 +2463,7 @@
    "why": "The most aggressive African signer of recent years.",
    "frag": "",
    "transport": "agent-search",
-   "transport_note": "Blocked at the HTTP layer (403/Incapsula) since 28 Jul 2026. Worked via sweep/sweep_due.py on the agent search path. Do NOT re-point the URL on the strength of a crawler 403 — the URL is fine, the transport is not."
+   "transport_note": "Blocked at the HTTP layer (403/Incapsula) since 28 Jul 2026. Worked via sweep/sweep_due.py on the agent search path. Do NOT re-point the URL on the strength of a crawler 403 \u2014 the URL is fine, the transport is not."
   },
   {
    "id": "dev-ihg",
@@ -2528,7 +2528,7 @@
    "min_len": 18,
    "enabled": true,
    "transport": "agent-search",
-   "transport_note": "Blocked at the HTTP layer (403/Incapsula) since 28 Jul 2026. Worked via sweep/sweep_due.py on the agent search path. Do NOT re-point the URL on the strength of a crawler 403 — the URL is fine, the transport is not."
+   "transport_note": "Blocked at the HTTP layer (403/Incapsula) since 28 Jul 2026. Worked via sweep/sweep_due.py on the agent search path. Do NOT re-point the URL on the strength of a crawler 403 \u2014 the URL is fine, the transport is not."
   },
   {
    "id": "dev-whospitality",
@@ -2551,11 +2551,11 @@
    "why": "The annual Africa pipeline report is the supply-side reference everyone quotes.",
    "frag": "",
    "transport": "agent-search",
-   "transport_note": "Blocked at the HTTP layer (403/Incapsula) since 28 Jul 2026. Worked via sweep/sweep_due.py on the agent search path. Do NOT re-point the URL on the strength of a crawler 403 — the URL is fine, the transport is not."
+   "transport_note": "Blocked at the HTTP layer (403/Incapsula) since 28 Jul 2026. Worked via sweep/sweep_due.py on the agent search path. Do NOT re-point the URL on the strength of a crawler 403 \u2014 the URL is fine, the transport is not."
   },
   {
    "id": "dev-hospitalitynet-africa",
-   "name": "Hospitality Net — Africa announcements",
+   "name": "Hospitality Net \u2014 Africa announcements",
    "url": "https://www.hospitalitynet.org/africa/announcements",
    "tier": 2,
    "country": "REG",
@@ -2595,7 +2595,7 @@
    "why": "Occupancy and ADR benchmarking commentary for African markets.",
    "frag": "",
    "transport": "agent-search",
-   "transport_note": "Blocked at the HTTP layer (403/Incapsula) since 28 Jul 2026. Worked via sweep/sweep_due.py on the agent search path. Do NOT re-point the URL on the strength of a crawler 403 — the URL is fine, the transport is not."
+   "transport_note": "Blocked at the HTTP layer (403/Incapsula) since 28 Jul 2026. Worked via sweep/sweep_due.py on the agent search path. Do NOT re-point the URL on the strength of a crawler 403 \u2014 the URL is fine, the transport is not."
   },
   {
    "id": "dev-jll-hotels",
@@ -2618,7 +2618,7 @@
    "why": "Transaction and investment flow into African hospitality.",
    "frag": "",
    "transport": "agent-search",
-   "transport_note": "Blocked at the HTTP layer (403/Incapsula) since 28 Jul 2026. Worked via sweep/sweep_due.py on the agent search path. Do NOT re-point the URL on the strength of a crawler 403 — the URL is fine, the transport is not."
+   "transport_note": "Blocked at the HTTP layer (403/Incapsula) since 28 Jul 2026. Worked via sweep/sweep_due.py on the agent search path. Do NOT re-point the URL on the strength of a crawler 403 \u2014 the URL is fine, the transport is not."
   },
   {
    "id": "dev-aleph",
@@ -2662,7 +2662,7 @@
    "why": "Development-desk trade press; often carries a signing before the operator's own newsroom does.",
    "frag": "",
    "transport": "agent-search",
-   "transport_note": "Blocked at the HTTP layer (403/Incapsula) since 28 Jul 2026. Worked via sweep/sweep_due.py on the agent search path. Do NOT re-point the URL on the strength of a crawler 403 — the URL is fine, the transport is not."
+   "transport_note": "Blocked at the HTTP layer (403/Incapsula) since 28 Jul 2026. Worked via sweep/sweep_due.py on the agent search path. Do NOT re-point the URL on the strength of a crawler 403 \u2014 the URL is fine, the transport is not."
   },
   {
    "id": "dev-choice",
@@ -2706,7 +2706,7 @@
    "why": "Running Rwanda's five-property ultra-luxury circuit; a bellwether for premium bush supply.",
    "frag": "",
    "transport": "agent-search",
-   "transport_note": "Blocked at the HTTP layer (403/Incapsula) since 28 Jul 2026. Worked via sweep/sweep_due.py on the agent search path. Do NOT re-point the URL on the strength of a crawler 403 — the URL is fine, the transport is not."
+   "transport_note": "Blocked at the HTTP layer (403/Incapsula) since 28 Jul 2026. Worked via sweep/sweep_due.py on the agent search path. Do NOT re-point the URL on the strength of a crawler 403 \u2014 the URL is fine, the transport is not."
   },
   {
    "id": "np-businessdaily",
@@ -2894,7 +2894,7 @@
   },
   {
    "id": "np-theexchange",
-   "name": "The Exchange Africa — hospitality",
+   "name": "The Exchange Africa \u2014 hospitality",
    "url": "https://theexchange.africa/hospitality/",
    "tier": 2,
    "country": "REG",
@@ -2984,7 +2984,7 @@
    "why": "African hotel distribution and technology economics.",
    "frag": "",
    "transport": "agent-search",
-   "transport_note": "Blocked at the HTTP layer (403/Incapsula) since 28 Jul 2026. Worked via sweep/sweep_due.py on the agent search path. Do NOT re-point the URL on the strength of a crawler 403 — the URL is fine, the transport is not."
+   "transport_note": "Blocked at the HTTP layer (403/Incapsula) since 28 Jul 2026. Worked via sweep/sweep_due.py on the agent search path. Do NOT re-point the URL on the strength of a crawler 403 \u2014 the URL is fine, the transport is not."
   },
   {
    "id": "tp-skift",
@@ -3050,12 +3050,12 @@
     "midday",
     "evening"
    ],
-   "why": "Aggregator — use only as a lead to chase to a primary source.",
+   "why": "Aggregator \u2014 use only as a lead to chase to a primary source.",
    "frag": ""
   },
   {
    "id": "tp-tanzaniainvest",
-   "name": "TanzaniaInvest — tourism",
+   "name": "TanzaniaInvest \u2014 tourism",
    "url": "https://www.tanzaniainvest.com/tourism",
    "tier": 2,
    "country": "TZ",
@@ -3119,7 +3119,7 @@
     "midday",
     "evening"
    ],
-   "why": "Republisher — chase to primary before use.",
+   "why": "Republisher \u2014 chase to primary before use.",
    "frag": ""
   },
   {
@@ -3143,7 +3143,7 @@
    "why": "Global context and long-haul source-market outlook.",
    "frag": "",
    "transport": "agent-search",
-   "transport_note": "Blocked at the HTTP layer (403/Incapsula) since 28 Jul 2026. Worked via sweep/sweep_due.py on the agent search path. Do NOT re-point the URL on the strength of a crawler 403 — the URL is fine, the transport is not."
+   "transport_note": "Blocked at the HTTP layer (403/Incapsula) since 28 Jul 2026. Worked via sweep/sweep_due.py on the agent search path. Do NOT re-point the URL on the strength of a crawler 403 \u2014 the URL is fine, the transport is not."
   },
   {
    "id": "sm-wttc",
@@ -3163,7 +3163,7 @@
    "slots": [
     "evening"
    ],
-   "why": "Economic Impact Research releases — verify the page date, aggregators misreport it.",
+   "why": "Economic Impact Research releases \u2014 verify the page date, aggregators misreport it.",
    "frag": ""
   },
   {
@@ -3206,7 +3206,7 @@
    "why": "Charter programme decisions move Zanzibar and Mombasa beach volume wholesale.",
    "frag": "",
    "transport": "agent-search",
-   "transport_note": "Blocked at the HTTP layer (403/Incapsula) since 28 Jul 2026. Worked via sweep/sweep_due.py on the agent search path. Do NOT re-point the URL on the strength of a crawler 403 — the URL is fine, the transport is not."
+   "transport_note": "Blocked at the HTTP layer (403/Incapsula) since 28 Jul 2026. Worked via sweep/sweep_due.py on the agent search path. Do NOT re-point the URL on the strength of a crawler 403 \u2014 the URL is fine, the transport is not."
   },
   {
    "id": "sm-derreise",
@@ -3225,7 +3225,7 @@
    "slots": [
     "evening"
    ],
-   "why": "German market — top-three for Zanzibar and the northern circuit.",
+   "why": "German market \u2014 top-three for Zanzibar and the northern circuit.",
    "frag": ""
   },
   {
@@ -3246,10 +3246,10 @@
    "slots": [
     "evening"
    ],
-   "why": "Forward booking data — the closest public proxy for pace.",
+   "why": "Forward booking data \u2014 the closest public proxy for pace.",
    "frag": "",
    "transport": "agent-search",
-   "transport_note": "Blocked at the HTTP layer (403/Incapsula) since 28 Jul 2026. Worked via sweep/sweep_due.py on the agent search path. Do NOT re-point the URL on the strength of a crawler 403 — the URL is fine, the transport is not."
+   "transport_note": "Blocked at the HTTP layer (403/Incapsula) since 28 Jul 2026. Worked via sweep/sweep_due.py on the agent search path. Do NOT re-point the URL on the strength of a crawler 403 \u2014 the URL is fine, the transport is not."
   },
   {
    "id": "adv-us-ea",
@@ -3271,12 +3271,12 @@
     "midday",
     "evening"
    ],
-   "why": "Official RSS of all US advisories — read Kenya/Uganda/Tanzania/Rwanda levels and divergence straight from the feed.",
+   "why": "Official RSS of all US advisories \u2014 read Kenya/Uganda/Tanzania/Rwanda levels and divergence straight from the feed.",
    "frag": ""
   },
   {
    "id": "us-cdc-evdorder",
-   "name": "CDC port health — s.362 Ebola entry orders",
+   "name": "CDC port health \u2014 s.362 Ebola entry orders",
    "url": "https://www.cdc.gov/port-health/legal-authorities/evdorder.html",
    "tier": 1,
    "country": "REG",
@@ -3294,11 +3294,11 @@
    "why": "The signed 30-day entry-suspension orders land here before trade press notices. Each carries a hard expiry date and a comment deadline.",
    "frag": "",
    "transport": "agent-search",
-   "transport_note": "Blocked at the HTTP layer (403/Incapsula) since 28 Jul 2026. Worked via sweep/sweep_due.py on the agent search path. Do NOT re-point the URL on the strength of a crawler 403 — the URL is fine, the transport is not."
+   "transport_note": "Blocked at the HTTP layer (403/Incapsula) since 28 Jul 2026. Worked via sweep/sweep_due.py on the agent search path. Do NOT re-point the URL on the strength of a crawler 403 \u2014 the URL is fine, the transport is not."
   },
   {
    "id": "us-fedreg-cdc",
-   "name": "Federal Register — CDC notices",
+   "name": "Federal Register \u2014 CDC notices",
    "url": "https://www.federalregister.gov/api/v1/documents.rss?conditions%5Bagencies%5D%5B%5D=centers-for-disease-control-and-prevention&order=newest",
    "tier": 1,
    "country": "REG",
@@ -3335,14 +3335,14 @@
     "midday",
     "evening"
    ],
-   "why": "Official daily case, admission, contact-tracing and point-of-entry screening counts — updated before WHO and press.",
+   "why": "Official daily case, admission, contact-tracing and point-of-entry screening counts \u2014 updated before WHO and press.",
    "frag": "",
    "transport": "agent-search",
-   "transport_note": "Blocked at the HTTP layer (403/Incapsula) since 28 Jul 2026. Worked via sweep/sweep_due.py on the agent search path. Do NOT re-point the URL on the strength of a crawler 403 — the URL is fine, the transport is not."
+   "transport_note": "Blocked at the HTTP layer (403/Incapsula) since 28 Jul 2026. Worked via sweep/sweep_due.py on the agent search path. Do NOT re-point the URL on the strength of a crawler 403 \u2014 the URL is fine, the transport is not."
   },
   {
    "id": "ug-mediacentre",
-   "name": "Uganda Media Centre — press room",
+   "name": "Uganda Media Centre \u2014 press room",
    "url": "https://mediacentre.go.ug/press-room/",
    "tier": 1,
    "country": "UG",
@@ -3359,16 +3359,16 @@
     "midday",
     "evening"
    ],
-   "why": "Where Uganda government declarations land first — the 28 Jul 2026 Ebola end-of-outbreak declaration was published here before wire pickup. Note: page is client-rendered, so treat as page-change granularity.",
+   "why": "Where Uganda government declarations land first \u2014 the 28 Jul 2026 Ebola end-of-outbreak declaration was published here before wire pickup. Note: page is client-rendered, so treat as page-change granularity.",
    "frag": "",
    "min_len": 16,
    "enabled": true,
    "transport": "agent-search",
-   "transport_note": "Blocked at the HTTP layer (403/Incapsula) since 28 Jul 2026. Worked via sweep/sweep_due.py on the agent search path. Do NOT re-point the URL on the strength of a crawler 403 — the URL is fine, the transport is not."
+   "transport_note": "Blocked at the HTTP layer (403/Incapsula) since 28 Jul 2026. Worked via sweep/sweep_due.py on the agent search path. Do NOT re-point the URL on the strength of a crawler 403 \u2014 the URL is fine, the transport is not."
   },
   {
    "id": "ug-moh-news",
-   "name": "Uganda Ministry of Health — news",
+   "name": "Uganda Ministry of Health \u2014 news",
    "url": "https://health.go.ug/",
    "tier": 1,
    "country": "UG",
@@ -3390,7 +3390,7 @@
   },
   {
    "id": "ecdc-ebola",
-   "name": "ECDC — DRC/Uganda Ebola outbreak page",
+   "name": "ECDC \u2014 DRC/Uganda Ebola outbreak page",
    "url": "https://www.ecdc.europa.eu/en/ebola-outbreak-democratic-republic-congo-and-uganda",
    "tier": 1,
    "country": "GLOBAL",
@@ -3406,12 +3406,12 @@
     "morning",
     "evening"
    ],
-   "why": "Keeps a running confirmed-case and death count for the DRC/Uganda outbreak — the number European source markets and insurers cite.",
+   "why": "Keeps a running confirmed-case and death count for the DRC/Uganda outbreak \u2014 the number European source markets and insurers cite.",
    "frag": ""
   },
   {
    "id": "ke-usembassy-alerts",
-   "name": "US Embassy Nairobi — alerts & messages",
+   "name": "US Embassy Nairobi \u2014 alerts & messages",
    "url": "https://ke.usembassy.gov/category/alert/",
    "tier": 1,
    "country": "KE",
@@ -3429,16 +3429,16 @@
     "midday",
     "evening"
    ],
-   "why": "Demonstration and security alerts for US citizens post here first — ahead of any revision to the rendered travel.state.gov page, as the 29 Jul 2026 Kenya advisory re-issue showed.",
+   "why": "Demonstration and security alerts for US citizens post here first \u2014 ahead of any revision to the rendered travel.state.gov page, as the 29 Jul 2026 Kenya advisory re-issue showed.",
    "frag": "",
    "min_len": 16,
    "enabled": true,
    "transport": "agent-search",
-   "transport_note": "Blocked at the HTTP layer (403/Incapsula) since 28 Jul 2026. Worked via sweep/sweep_due.py on the agent search path. Do NOT re-point the URL on the strength of a crawler 403 — the URL is fine, the transport is not."
+   "transport_note": "Blocked at the HTTP layer (403/Incapsula) since 28 Jul 2026. Worked via sweep/sweep_due.py on the agent search path. Do NOT re-point the URL on the strength of a crawler 403 \u2014 the URL is fine, the transport is not."
   },
   {
    "id": "osac-kenya",
-   "name": "OSAC — Kenya reports & advisory notices",
+   "name": "OSAC \u2014 Kenya reports & advisory notices",
    "url": "https://www.osac.gov/Country/Kenya/Content",
    "tier": 1,
    "country": "KE",
@@ -3457,11 +3457,11 @@
    "why": "OSAC republishes State advisory changes with the operative wording| useful for confirming exactly what moved when travel.state.gov lags its own feed.",
    "frag": "",
    "transport": "agent-search",
-   "transport_note": "Blocked at the HTTP layer (403/Incapsula) since 28 Jul 2026. Worked via sweep/sweep_due.py on the agent search path. Do NOT re-point the URL on the strength of a crawler 403 — the URL is fine, the transport is not."
+   "transport_note": "Blocked at the HTTP layer (403/Incapsula) since 28 Jul 2026. Worked via sweep/sweep_due.py on the agent search path. Do NOT re-point the URL on the strength of a crawler 403 \u2014 the URL is fine, the transport is not."
   },
   {
    "id": "eac-secretariat",
-   "name": "East African Community — Secretariat news",
+   "name": "East African Community \u2014 Secretariat news",
    "url": "https://www.eac.int/press-releases?format=feed&type=rss",
    "tier": 1,
    "country": "Regional",
@@ -3476,13 +3476,13 @@
     "morning",
     "evening"
    ],
-   "why": "Summits, heads-of-state meetings and regional policy — forward MICE demand signals (a summit host city compresses room stock).",
+   "why": "Summits, heads-of-state meetings and regional policy \u2014 forward MICE demand signals (a summit host city compresses room stock).",
    "frag": "",
    "enabled": true
   },
   {
    "id": "adv-us-embassy-kenya",
-   "name": "US Embassy Nairobi — travel advisory & alerts",
+   "name": "US Embassy Nairobi \u2014 travel advisory & alerts",
    "url": "https://ke.usembassy.gov/category/alert/",
    "tier": 1,
    "country": "KE",
@@ -3503,11 +3503,11 @@
    "why": "The embassy posts the FULL advisory text on re-issue, often days before the rendered travel.state.gov page catches up. On 12 Aug 2026 this source carried the 28 July Eastleigh/Kibera Level 4 change that the rendered page had not shown when checked on 2 Aug.",
    "frag": "",
    "transport": "agent-search",
-   "transport_note": "Blocked at the HTTP layer (403/Incapsula) since 28 Jul 2026. Worked via sweep/sweep_due.py on the agent search path. Do NOT re-point the URL on the strength of a crawler 403 — the URL is fine, the transport is not."
+   "transport_note": "Blocked at the HTTP layer (403/Incapsula) since 28 Jul 2026. Worked via sweep/sweep_due.py on the agent search path. Do NOT re-point the URL on the strength of a crawler 403 \u2014 the URL is fine, the transport is not."
   },
   {
    "id": "adv-us-embassy-uganda",
-   "name": "US Embassy Kampala — travel advisory & alerts",
+   "name": "US Embassy Kampala \u2014 travel advisory & alerts",
    "url": "https://ug.usembassy.gov/category/alert/",
    "tier": 1,
    "country": "UG",
@@ -3526,11 +3526,11 @@
    "why": "Same lead-time advantage as Nairobi: full advisory text and Ebola-related entry notices post here first.",
    "frag": "",
    "transport": "agent-search",
-   "transport_note": "Blocked at the HTTP layer (403/Incapsula) since 28 Jul 2026. Worked via sweep/sweep_due.py on the agent search path. Do NOT re-point the URL on the strength of a crawler 403 — the URL is fine, the transport is not."
+   "transport_note": "Blocked at the HTTP layer (403/Incapsula) since 28 Jul 2026. Worked via sweep/sweep_due.py on the agent search path. Do NOT re-point the URL on the strength of a crawler 403 \u2014 the URL is fine, the transport is not."
   },
   {
    "id": "us-fedreg-pubinspect-hhs",
-   "name": "Federal Register — public inspection (HHS/CDC), pre-publication",
+   "name": "Federal Register \u2014 public inspection (HHS/CDC), pre-publication",
    "url": "https://www.federalregister.gov/api/v1/public-inspection-documents/current.json",
    "tier": 1,
    "country": "REG",
@@ -3552,7 +3552,7 @@
   },
   {
    "id": "us-regulations-cdc-docket",
-   "name": "regulations.gov — docket CDC-2026-0892 (Ebola entry order)",
+   "name": "regulations.gov \u2014 docket CDC-2026-0892 (Ebola entry order)",
    "url": "https://www.regulations.gov/docket/CDC-2026-0892",
    "tier": 1,
    "country": "REG",
@@ -3570,7 +3570,7 @@
    "why": "The comment docket that feeds each 30-day renewal decision. Comment counts and content are the only public signal of who is lobbying on the Uganda/DRC entry restrictions - the July 2026 renewal drew zero comments.",
    "frag": "",
    "transport": "agent-search",
-   "transport_note": "Blocked at the HTTP layer (403/Incapsula) since 28 Jul 2026. Worked via sweep/sweep_due.py on the agent search path. Do NOT re-point the URL on the strength of a crawler 403 — the URL is fine, the transport is not."
+   "transport_note": "Blocked at the HTTP layer (403/Incapsula) since 28 Jul 2026. Worked via sweep/sweep_due.py on the agent search path. Do NOT re-point the URL on the strength of a crawler 403 \u2014 the URL is fine, the transport is not."
   },
   {
    "id": "cdc-ebola-situation-summary",
@@ -3595,7 +3595,7 @@
    "why": "CDC's narrative travel advice frequently diverges from the machine-readable travel-notices index; the disagreement between the two surfaces is itself an operator story.",
    "frag": "",
    "transport": "agent-search",
-   "transport_note": "Blocked at the HTTP layer (403/Incapsula) since 28 Jul 2026. Worked via sweep/sweep_due.py on the agent search path. Do NOT re-point the URL on the strength of a crawler 403 — the URL is fine, the transport is not."
+   "transport_note": "Blocked at the HTTP layer (403/Incapsula) since 28 Jul 2026. Worked via sweep/sweep_due.py on the agent search path. Do NOT re-point the URL on the strength of a crawler 403 \u2014 the URL is fine, the transport is not."
   },
   {
    "id": "tz-zpc",
@@ -3618,11 +3618,11 @@
    "frag": "",
    "min_len": 10,
    "transport": "agent-search",
-   "transport_note": "Blocked at the HTTP layer (403/Incapsula) since 28 Jul 2026. Worked via sweep/sweep_due.py on the agent search path. Do NOT re-point the URL on the strength of a crawler 403 — the URL is fine, the transport is not."
+   "transport_note": "Blocked at the HTTP layer (403/Incapsula) since 28 Jul 2026. Worked via sweep/sweep_due.py on the agent search path. Do NOT re-point the URL on the strength of a crawler 403 \u2014 the URL is fine, the transport is not."
   },
   {
    "id": "tz-tanesco",
-   "name": "TANESCO — notices and press",
+   "name": "TANESCO \u2014 notices and press",
    "url": "https://www.tanesco.co.tz/",
    "tier": 1,
    "country": "TZ",
@@ -3638,15 +3638,15 @@
    "slots": [
     "midday"
    ],
-   "why": "Load-shedding notices and tariff moves set generator run-hours and diesel spend. JNHPP (2,115 MW) commissioned Aug 2026 — the rationing era's end is a live cost variable.",
+   "why": "Load-shedding notices and tariff moves set generator run-hours and diesel spend. JNHPP (2,115 MW) commissioned Aug 2026 \u2014 the rationing era's end is a live cost variable.",
    "frag": "",
    "min_len": 10,
    "transport": "agent-search",
-   "transport_note": "Blocked at the HTTP layer (403/Incapsula) since 28 Jul 2026. Worked via sweep/sweep_due.py on the agent search path. Do NOT re-point the URL on the strength of a crawler 403 — the URL is fine, the transport is not."
+   "transport_note": "Blocked at the HTTP layer (403/Incapsula) since 28 Jul 2026. Worked via sweep/sweep_due.py on the agent search path. Do NOT re-point the URL on the strength of a crawler 403 \u2014 the URL is fine, the transport is not."
   },
   {
    "id": "tz-ewura",
-   "name": "EWURA — Tanzania energy & water regulator",
+   "name": "EWURA \u2014 Tanzania energy & water regulator",
    "url": "https://www.ewura.go.tz/",
    "tier": 1,
    "country": "TZ",
@@ -3662,11 +3662,11 @@
    "slots": [
     "morning"
    ],
-   "why": "Tanzania's electricity and petroleum tariff decisions — the Tanzanian analogue of EPRA, which we already track for Kenya.",
+   "why": "Tanzania's electricity and petroleum tariff decisions \u2014 the Tanzanian analogue of EPRA, which we already track for Kenya.",
    "frag": "",
    "min_len": 10,
    "transport": "agent-search",
-   "transport_note": "Blocked at the HTTP layer (403/Incapsula) since 28 Jul 2026. Worked via sweep/sweep_due.py on the agent search path. Do NOT re-point the URL on the strength of a crawler 403 — the URL is fine, the transport is not."
+   "transport_note": "Blocked at the HTTP layer (403/Incapsula) since 28 Jul 2026. Worked via sweep/sweep_due.py on the agent search path. Do NOT re-point the URL on the strength of a crawler 403 \u2014 the URL is fine, the transport is not."
   },
   {
    "id": "et-gazette",
@@ -3689,7 +3689,7 @@
    "why": "Ethiopia comparator: fee, levy, visa and licensing changes originate here with effective dates the press omits. Enabling source for promoting Ethiopia to a full sixth market.",
    "frag": "",
    "transport": "agent-search",
-   "transport_note": "Blocked at the HTTP layer (403/Incapsula) since 28 Jul 2026. Worked via sweep/sweep_due.py on the agent search path. Do NOT re-point the URL on the strength of a crawler 403 — the URL is fine, the transport is not."
+   "transport_note": "Blocked at the HTTP layer (403/Incapsula) since 28 Jul 2026. Worked via sweep/sweep_due.py on the agent search path. Do NOT re-point the URL on the strength of a crawler 403 \u2014 the URL is fine, the transport is not."
   },
   {
    "id": "et-ecaa",
@@ -3712,7 +3712,7 @@
    "why": "Addis is Ethiopian Airlines' hub and the connecting gateway for much EA long-haul lift; ECAA notices and AICs are an upstream feeder-capacity signal for Nairobi, Kigali, Entebbe, Kilimanjaro and Zanzibar.",
    "frag": "",
    "transport": "agent-search",
-   "transport_note": "Blocked at the HTTP layer (403/Incapsula) since 28 Jul 2026. Worked via sweep/sweep_due.py on the agent search path. Do NOT re-point the URL on the strength of a crawler 403 — the URL is fine, the transport is not."
+   "transport_note": "Blocked at the HTTP layer (403/Incapsula) since 28 Jul 2026. Worked via sweep/sweep_due.py on the agent search path. Do NOT re-point the URL on the strength of a crawler 403 \u2014 the URL is fine, the transport is not."
   },
   {
    "id": "et-nbe",
@@ -3735,7 +3735,7 @@
    "why": "FX, reserves and monetary policy for the region's largest comparator economy; birr moves and forex rules affect Ethiopian Airlines pricing and Addis MICE cost base.",
    "frag": "",
    "transport": "agent-search",
-   "transport_note": "Blocked at the HTTP layer (403/Incapsula) since 28 Jul 2026. Worked via sweep/sweep_due.py on the agent search path. Do NOT re-point the URL on the strength of a crawler 403 — the URL is fine, the transport is not."
+   "transport_note": "Blocked at the HTTP layer (403/Incapsula) since 28 Jul 2026. Worked via sweep/sweep_due.py on the agent search path. Do NOT re-point the URL on the strength of a crawler 403 \u2014 the URL is fine, the transport is not."
   },
   {
    "id": "et-ess",
@@ -3755,10 +3755,10 @@
    "slots": [
     "morning"
    ],
-   "why": "CPI and, where published, arrivals data for Ethiopia — the comparator's demand and cost trajectory. Required for a full-market promotion.",
+   "why": "CPI and, where published, arrivals data for Ethiopia \u2014 the comparator's demand and cost trajectory. Required for a full-market promotion.",
    "frag": "",
    "transport": "agent-search",
-   "transport_note": "Blocked at the HTTP layer (403/Incapsula) since 28 Jul 2026. Worked via sweep/sweep_due.py on the agent search path. Do NOT re-point the URL on the strength of a crawler 403 — the URL is fine, the transport is not."
+   "transport_note": "Blocked at the HTTP layer (403/Incapsula) since 28 Jul 2026. Worked via sweep/sweep_due.py on the agent search path. Do NOT re-point the URL on the strength of a crawler 403 \u2014 the URL is fine, the transport is not."
   },
   {
    "id": "et-ecb",
@@ -3779,7 +3779,7 @@
    "why": "Addis MICE pipeline and bids (AU/UNECA rotation, COP32 2027, 80,000+ delegates). A won Addis congress is a continental demand and rival-city signal for Nairobi and Kigali.",
    "frag": "",
    "transport": "agent-search",
-   "transport_note": "Blocked at the HTTP layer (403/Incapsula) since 28 Jul 2026. Worked via sweep/sweep_due.py on the agent search path. Do NOT re-point the URL on the strength of a crawler 403 — the URL is fine, the transport is not."
+   "transport_note": "Blocked at the HTTP layer (403/Incapsula) since 28 Jul 2026. Worked via sweep/sweep_due.py on the agent search path. Do NOT re-point the URL on the strength of a crawler 403 \u2014 the URL is fine, the transport is not."
   },
   {
    "id": "ke-cbk-market-perception-surveys",
@@ -3804,7 +3804,7 @@
   },
   {
    "id": "eu-green-claims",
-   "name": "European Commission — green claims / EmpCo",
+   "name": "European Commission \u2014 green claims / EmpCo",
    "url": "https://environment.ec.europa.eu/topics/circular-economy-topics/green-claims_en",
    "tier": 1,
    "country": "REG",
@@ -3825,7 +3825,7 @@
   },
   {
    "id": "eu-tourism-pathway",
-   "name": "EU Tourism Transition Pathway — legislation & guidance",
+   "name": "EU Tourism Transition Pathway \u2014 legislation & guidance",
    "url": "https://transition-pathways.europa.eu/tourism",
    "tier": 1,
    "country": "REG",
@@ -3841,12 +3841,12 @@
    "slots": [
     "evening"
    ],
-   "why": "Where EU tourism-specific compliance guidance lands first — the language that later appears in European operator supplier contracts.",
+   "why": "Where EU tourism-specific compliance guidance lands first \u2014 the language that later appears in European operator supplier contracts.",
    "frag": ""
   },
   {
    "id": "eu-air-safety-list",
-   "name": "European Commission — EU Air Safety List",
+   "name": "European Commission \u2014 EU Air Safety List",
    "url": "https://transport.ec.europa.eu/transport-themes/eu-air-safety-list_en",
    "tier": 1,
    "country": "REG",
@@ -3867,7 +3867,7 @@
   },
   {
    "id": "trade-atta-news",
-   "name": "ATTA — African Travel & Tourism Association news",
+   "name": "ATTA \u2014 African Travel & Tourism Association news",
    "url": "https://atta.travel/news.html",
    "tier": 2,
    "country": "REG",
@@ -3906,7 +3906,7 @@
    "slots": [
     "morning"
    ],
-   "why": "MPC rate decisions and the quarterly inflation/FX outlook. Rwanda's cost base is now the region's outlier — the MPC statement carries the core/energy inflation split and the franc depreciation figure that the headline CPI release does not.",
+   "why": "MPC rate decisions and the quarterly inflation/FX outlook. Rwanda's cost base is now the region's outlier \u2014 the MPC statement carries the core/energy inflation split and the franc depreciation figure that the headline CPI release does not.",
    "frag": "",
    "transport": "agent-search",
    "transport_note": "BNR is blocked at the HTTP layer (403/Incapsula) since 28 Jul 2026; use the agent-search path. Added 8 Sep 2026 after the 26-27 Aug MPC (rate to 8.75%, energy inflation 45.7%) was missed by the radar and found by hand."
@@ -3938,7 +3938,7 @@
   },
   {
    "id": "cd-insp-sitrep",
-   "name": "INSP RDC — Ebola daily situation reports (SitRep)",
+   "name": "INSP RDC \u2014 Ebola daily situation reports (SitRep)",
    "url": "https://insp.cd/category/sitrep/",
    "tier": 1,
    "country": "GLOBAL",
@@ -3955,12 +3955,12 @@
     "midday",
     "evening"
    ],
-   "why": "The DRC national public health institute publishes the Bundibugyo outbreak SitRep DAILY in French, while WHO's Disease Outbreak News runs biweekly and lags badly — on 10 Sep 2026 the last DON (614, 1 Aug) carried 3,605 confirmed DRC cases against the SitRep's 6,686. This is the fastest authoritative count and the leading indicator for Uganda/Rwanda border measures and the US Uganda Level 4 advisory.",
+   "why": "The DRC national public health institute publishes the Bundibugyo outbreak SitRep DAILY in French, while WHO's Disease Outbreak News runs biweekly and lags badly \u2014 on 10 Sep 2026 the last DON (614, 1 Aug) carried 3,605 confirmed DRC cases against the SitRep's 6,686. This is the fastest authoritative count and the leading indicator for Uganda/Rwanda border measures and the US Uganda Level 4 advisory.",
    "frag": ""
   },
   {
    "id": "who-afro-kenya",
-   "name": "WHO AFRO — Kenya country newsroom",
+   "name": "WHO AFRO \u2014 Kenya country newsroom",
    "url": "https://www.afro.who.int/countries/kenya/news",
    "tier": 1,
    "country": "KE",
@@ -3983,7 +3983,7 @@
   },
   {
    "id": "who-afro-uganda",
-   "name": "WHO AFRO — Uganda country newsroom",
+   "name": "WHO AFRO \u2014 Uganda country newsroom",
    "url": "https://www.afro.who.int/countries/uganda/news",
    "tier": 1,
    "country": "UG",
@@ -4006,7 +4006,7 @@
   },
   {
    "id": "who-afro-tanzania",
-   "name": "WHO AFRO — Tanzania country newsroom",
+   "name": "WHO AFRO \u2014 Tanzania country newsroom",
    "url": "https://www.afro.who.int/countries/tanzania/news",
    "tier": 1,
    "country": "TZ",
@@ -4029,7 +4029,7 @@
   },
   {
    "id": "who-afro-rwanda",
-   "name": "WHO AFRO — Rwanda country newsroom",
+   "name": "WHO AFRO \u2014 Rwanda country newsroom",
    "url": "https://www.afro.who.int/countries/rwanda/news",
    "tier": 1,
    "country": "RW",
@@ -4052,7 +4052,7 @@
   },
   {
    "id": "rw-rura",
-   "name": "RURA — Rwanda Utilities Regulatory Authority (fuel & transport tariffs)",
+   "name": "RURA \u2014 Rwanda Utilities Regulatory Authority (fuel & transport tariffs)",
    "url": "https://rura.rw/index.php?id=71",
    "tier": 1,
    "country": "RW",
@@ -4072,7 +4072,7 @@
   },
   {
    "id": "rw-moh-news",
-   "name": "Rwanda MoH — news / EVD updates listing",
+   "name": "Rwanda MoH \u2014 news / EVD updates listing",
    "url": "https://www.moh.gov.rw/news",
    "tier": 1,
    "country": "RW",
@@ -4090,14 +4090,14 @@
     "midday",
     "evening"
    ],
-   "why": "The listing that dates Rwanda's EVD notices. Rwanda's 30-day DRC-transit entry denial (22 May 2026) is the single most booking-relevant entry rule in the region and the most recent EVD update on this list is 16 June 2026 — any new entry is the first real move on that measure. Added 15 Sep 2026 (evening) after the root source proved unusable for dating notices.",
+   "why": "The listing that dates Rwanda's EVD notices. Rwanda's 30-day DRC-transit entry denial (22 May 2026) is the single most booking-relevant entry rule in the region and the most recent EVD update on this list is 16 June 2026 \u2014 any new entry is the first real move on that measure. Added 15 Sep 2026 (evening) after the root source proved unusable for dating notices.",
    "frag": "",
    "transport": "agent-search",
    "transport_note": "Detail pages fetch cleanly; the listing may 403 at the crawler. Recover via agent search on 'Rwanda Ministry of Health EVD update'."
   },
   {
    "id": "afraa-capacity",
-   "name": "AFRAA — monthly African air transport / capacity brief",
+   "name": "AFRAA \u2014 monthly African air transport / capacity brief",
    "url": "https://afraa.org/news/",
    "tier": 1,
    "country": "REG",
@@ -4118,7 +4118,7 @@
   },
   {
    "id": "ke-capitalfm-business",
-   "name": "Capital FM Kenya — business desk",
+   "name": "Capital FM Kenya \u2014 business desk",
    "url": "https://capitalfm.africa/business/",
    "tier": 2,
    "country": "KE",
@@ -4137,6 +4137,86 @@
     "evening"
    ],
    "why": "Carries KTB, KAA and AFRAA releases early with precise timestamps, and syndicates BBC macro copy overnight - where global rate decisions reach the EA feed first.",
+   "frag": ""
+  },
+  {
+   "id": "ug-softpower-tourism",
+   "name": "SoftPower News \u2014 Tourism & Travel (Uganda)",
+   "url": "https://softpower.ug/category/tourism-travel/",
+   "tier": 2,
+   "country": "UG",
+   "category": "press",
+   "method": "html",
+   "cadence_min": 180,
+   "lead_days": 0,
+   "segments": [
+    "bush",
+    "city"
+   ],
+   "slots": [
+    "midday",
+    "evening"
+   ],
+   "why": "Carried the IFTM Top Resa 2027-28 contracting detail on 16 Sep 2026 ahead of the regional trade press; consistently first on Ugandan tourism-diplomacy, UWA and UTB announcements.",
+   "frag": ""
+  },
+  {
+   "id": "ug-ugstandard-tours",
+   "name": "UG Standard \u2014 Tours & Travel",
+   "url": "https://www.ugstandard.com/category/tours-travel/",
+   "tier": 2,
+   "country": "UG",
+   "category": "press",
+   "method": "html",
+   "cadence_min": 180,
+   "lead_days": 0,
+   "segments": [
+    "bush",
+    "city"
+   ],
+   "slots": [
+    "morning",
+    "evening"
+   ],
+   "why": "Publishes Embassy of Uganda trade-fair and commercial-diplomacy readouts in full, including named operator lists and source-market spend figures.",
+   "frag": ""
+  },
+  {
+   "id": "global-worldathletics-news",
+   "name": "World Athletics \u2014 press releases",
+   "url": "https://worldathletics.org/news/press-releases",
+   "tier": 1,
+   "country": "GLOBAL",
+   "category": "mice",
+   "method": "html",
+   "cadence_min": 720,
+   "lead_days": 365,
+   "segments": [
+    "city"
+   ],
+   "slots": [
+    "evening"
+   ],
+   "why": "Host-city awards are multi-year city-wide compression events. Nairobi was awarded the 2029 World Athletics Championships here on 15 Sep 2026.",
+   "frag": ""
+  },
+  {
+   "id": "global-caf-media",
+   "name": "CAF \u2014 Confederation of African Football, media releases",
+   "url": "https://www.cafonline.com/news/",
+   "tier": 1,
+   "country": "GLOBAL",
+   "category": "mice",
+   "method": "html",
+   "cadence_min": 360,
+   "lead_days": 180,
+   "segments": [
+    "city"
+   ],
+   "slots": [
+    "evening"
+   ],
+   "why": "AFCON 2027 is co-hosted by Kenya, Uganda and Tanzania in June-July 2027; venue, schedule and accommodation directives originate here.",
    "frag": ""
   }
  ]

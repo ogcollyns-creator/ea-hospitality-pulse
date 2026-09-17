@@ -1,8 +1,8 @@
 window.LEDGER = {
- "updated": "2026-09-17 12:12",
+ "updated": "2026-09-17 16:25",
  "stats": {
-  "total": 190,
-  "open": 139,
+  "total": 193,
+  "open": 141,
   "resolved": 50,
   "correct": 39,
   "partial": 1,
@@ -40,22 +40,6 @@ window.LEDGER = {
    "resolved_date": "",
    "evidence": "",
    "source_url": "https://travel.state.gov/content/travel/en/traveladvisories/traveladvisories/kenya-travel-advisory.html",
-   "overdue": false
-  },
-  {
-   "id": "P187",
-   "made_date": "2026-09-17",
-   "edition": "Morning Brief",
-   "claim": "The Bank of England will RAISE Bank Rate at its decision on 17 September 2026 - the Federal Reserve raised on 16 September and the ECB raised the week before, and all three are responding to the same fuel-led inflation impulse from the US-Israel war with Iran",
-   "resolution_criteria": "Read the Bank of England Monetary Policy Summary published at bankofengland.co.uk on 17 September 2026 (or its reporting in the BBC, Reuters, Financial Times or Capital FM). Any increase in Bank Rate resolves the call CORRECT. A hold or a cut resolves it INCORRECT",
-   "resolve_by": "2026-09-19",
-   "market": "Regional",
-   "segment": "City|Bush|Beach",
-   "confidence": "Medium",
-   "status": "open",
-   "resolved_date": "",
-   "evidence": "",
-   "source_url": "https://capitalfm.africa/us-interest-rates-raised-for-first-time-in-three-years/",
    "overdue": false
   },
   {
@@ -264,6 +248,22 @@ window.LEDGER = {
    "resolved_date": "",
    "evidence": "",
    "source_url": "https://www.the-star.co.ke/news/2026-09-12-police-bar-large-political-rallies-from-nairobi-cbd",
+   "overdue": false
+  },
+  {
+   "id": "P191",
+   "made_date": "2026-09-17",
+   "edition": "Evening Wrap",
+   "claim": "The CDC Title 42 order of 11 September 2026 suspending introduction of covered aliens from DRC, Uganda and South Sudan WILL be published in the Federal Register on or before 30 September 2026 - as at 17 September the CDC port-health page still read 'This Order will be published in the Federal Register', six days after signature, against a three-to-seven-day publication interval on all five preceding orders in the chain",
+   "resolution_criteria": "Search federalregister.gov for a document by the Centers for Disease Control and Prevention under sections 362 and 365 of the Public Health Service Act continuing the suspension of the right to introduce certain persons, bearing a publication date on or before 30 September 2026, or a CDC port-health page (cdc.gov/port-health/legal-authorities/evdorder.html) linking the 11 September order to a Federal Register publication. Either resolves the call CORRECT. No Federal Register publication of the 11 September order by 30 September 2026 resolves it INCORRECT",
+   "resolve_by": "2026-09-30",
+   "market": "Uganda",
+   "segment": "Bush|City",
+   "confidence": "Medium",
+   "status": "open",
+   "resolved_date": "",
+   "evidence": "",
+   "source_url": "https://www.cdc.gov/port-health/legal-authorities/evdorder.html",
    "overdue": false
   },
   {
@@ -811,6 +811,22 @@ window.LEDGER = {
    "overdue": false
   },
   {
+   "id": "P190",
+   "made_date": "2026-09-17",
+   "edition": "Evening Wrap",
+   "claim": "Uganda Wildlife Authority will NOT publish a tariff schedule on ugandawildlife.org confirming the US$1,800 gorilla habituation permit before 1 December 2026 - the US$1,500 to US$1,800 increase reported from a 26 February 2026 UWA announcement, stated to take effect 1 January 2027, has still not been matched to any primary UWA document, while eleven Ugandan operators contracted 2027 and 2028 business in Paris this week",
+   "resolution_criteria": "Search ugandawildlife.org (including its conservation tariff PDFs), the Uganda Tourism Board and the Ministry of Tourism, Wildlife and Antiquities to 1 December 2026. Any UWA-published tariff schedule, gazette notice or official press release stating a gorilla habituation permit price of US$1,800 for foreign non-residents resolves the call INCORRECT. Absence of any such primary UWA document at 1 December 2026 resolves it CORRECT",
+   "resolve_by": "2026-12-01",
+   "market": "Uganda",
+   "segment": "Bush",
+   "confidence": "Medium",
+   "status": "open",
+   "resolved_date": "",
+   "evidence": "",
+   "source_url": "https://softpower.ug/french-buyers-eye-gorilla-permits-and-afcon-itineraries-in-uganda-tourism-push/",
+   "overdue": false
+  },
+  {
    "id": "P026",
    "made_date": "2026-07-27",
    "edition": "Midday Pulse",
@@ -1336,6 +1352,22 @@ window.LEDGER = {
    "resolved_date": "",
    "evidence": "",
    "source_url": "https://sustainabletravel.org/eu-green-claims-empowering-consumers-directive/",
+   "overdue": false
+  },
+  {
+   "id": "P192",
+   "made_date": "2026-09-17",
+   "edition": "Evening Wrap",
+   "claim": "No published room-block or accommodation-allocation framework for AFCON 2027 covering Uganda, Kenya and Tanzania will be issued by CAF or any of the three host tourism boards on or before 31 January 2027 - French and European buyers were already discussing AFCON multi-country itineraries at IFTM Top Resa on 16 September 2026, eight months before a June-July 2027 tournament",
+   "resolution_criteria": "Search cafonline.com, ktb.go.ke, utb.go.ug, tourism.go.ke, and the Tanzania Tourist Board to 31 January 2027. Any published accommodation framework, official room-block scheme, rate-cap directive or hotel-allocation guidance naming AFCON 2027 and covering host-city accommodation in any of the three countries resolves the call INCORRECT. Absence of any such published framework at 31 January 2027 resolves it CORRECT",
+   "resolve_by": "2027-01-31",
+   "market": "KE|UG|TZ",
+   "segment": "City",
+   "confidence": "Inference",
+   "status": "open",
+   "resolved_date": "",
+   "evidence": "",
+   "source_url": "https://www.ugstandard.com/ugandan-tour-operators-move-to-2027-contract-talks-on-second-day-of-paris-travel-fair/",
    "overdue": false
   },
   {

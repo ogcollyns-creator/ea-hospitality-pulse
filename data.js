@@ -1,5 +1,14 @@
 window.EDITIONS = [
  {
+  "id": "pulse-2026-09-17-evening",
+  "date": "2026-09-17",
+  "dateDisplay": "Thursday, 17 September 2026",
+  "edition": "Evening Wrap",
+  "editionKey": "evening",
+  "summary": "Paris closed tonight. East Africa leaves holding 2027 and 2028 prices, fixed against a cost base that moved twice this week.",
+  "bodyHtml": "<p><span class=\"meta-line\">🏨 EA HOSPITALITY PULSE — Evening Wrap</span><br><span class=\"meta-line\">📅 Thursday, 17 September 2026 | 🇺🇬 🇹🇿 🇰🇪 🇷🇼</span></p>\n<p>Paris closed tonight. East Africa leaves holding 2027 and 2028 prices, fixed against a cost base that moved twice this week.<br>━━━━━━━━━<br><strong>1️⃣ EAST AFRICA SIGNED 2027 IN PARIS THIS WEEK</strong><br>IFTM Top Resa 2026 closed today after three days at Paris Expo Porte de Versailles — 32,000 tourism professionals, 1,650 companies, 177 destinations <strong>(Tanzania Ministry of Foreign Affairs &amp; EAC, via Daily News TZ, 16 September 2026)</strong>. Uganda took eleven destination marketing companies to Stand T072, up from five in 2025. By day two the Embassy of Uganda in Paris reported fully booked schedules and buyers moving from enquiries to <strong>2027 and 2028 contracts</strong>, gorilla permit allocations for Bwindi and Mgahinga, and AFCON 2027 itineraries <strong>(UG Standard and SoftPower News, 16 September 2026)</strong>. France is now a top-ten source market for Uganda: 7,439 French visitors in 2025, more than double 2024, spending over US$2,025 each across eight to fifteen nights. Tanzania sent fifteen companies under the Zanzibar Commission for Tourism <strong>(Daily News TZ, 17 September 2026)</strong>.<br><span class=\"sowhat\">🎯 <strong>So what:</strong> A trade fair is a pricing event, not a marketing one. Anything quoted in Paris for 2027 was quoted against a cost base with three dated changes already in the diary — Kenya&#x27;s 8% fuel VAT expiry and EPRA&#x27;s freeze ending together on 14 October, and UWA&#x27;s habituation permit reported to move from US$1,500 to US$1,800 on 1 January 2027. Put a tariff-variation clause in every 2027–28 contract before you counter-sign.</span><br><span class=\"tagline\">🏷 Bush·City | 🇺🇬🇹🇿 | Confirmed | impact:demand</span></p>\n<p><strong>2️⃣ KILIMANJARO&#x27;S FIRE IS OUT. THE NUMBER IS 1,800 HECTARES</strong><br>The fire that burned on Mt Kilimanjaro for nearly two weeks has been contained, after consuming more than 18 square kilometres — 1,800 hectares — of vegetation <strong>(The EastAfrican, 17 September 2026)</strong>. It began on 3 September at Kikerelwa, near the Kenyan border. TANAPA kept designated climbing routes open throughout.<br><span class=\"sowhat\">🎯 <strong>So what:</strong> That is about 2.4% of a 75,575-hectare park, and no route closed. Correct the client who has read a headline, with the figure rather than reassurance — Moshi and Arusha properties should add a one-line factual note to pre-arrival emails for October–December departures before an agent asks.</span><br><span class=\"tagline\">🏷 Bush | 🇹🇿 | Confirmed | impact:watch</span></p>\n<p><strong>3️⃣ WASHINGTON&#x27;S UGANDA ORDER IS SIX DAYS OLD AND STILL UNPUBLISHED</strong><br>Read directly on CDC&#x27;s port-health page this afternoon: the Title 42 order of 11 September, signed by Assistant Secretary for Health Adm. Brian Christine, still carries the line &quot;This Order <strong>will</strong> be published in the Federal Register.&quot; Every earlier order in the chain — 18 May, 22 May, 21 June, 13 July, 12 August — links to its publication within three to seven days. This one has not appeared in six. The order runs to about 11 October and carries a <strong>15-day comment period</strong> closing around 26 September.<br><span class=\"sowhat\">🎯 <strong>So what:</strong> Nine days remain on a comment window attached to a document the public record does not yet carry. If you sell Uganda to American clients, that window is the formal channel for putting the 27 August all-clear on the US federal record before the renewal decision. Do not wait for the notice to appear.</span><br><span class=\"tagline\">🏷 Bush·City | 🇺🇬 | Confirmed | impact:risk</span><br>━━━━━━━━━<br>🔎 Blind spot: Zanzibar&#x27;s Ministry of Health (mohz.go.tz) stayed dark and a three-query scan found no dated September notice. No independent Zanzibar health read tonight.</p>\n<p><span class=\"meta-line\">💬 Did anything you quoted in Paris carry a tariff-variation clause?</span></p>\n<p>🔗 This edition on the web: <a href=\"https://eahospitalitypulse.com/editions/pulse-2026-09-17-evening.html\" rel=\"noopener\">eahospitalitypulse.com/editions/pulse-2026-09-17-evenin…</a><br>💼 Today&#x27;s Big Read on LinkedIn: <a href=\"https://www.linkedin.com/company/ea-hospitality-pulse/\" rel=\"noopener\">linkedin.com/company/ea-hospitality-pulse/</a><br>— EA Hospitality Pulse | Daily intelligence for city, bush &amp; beach properties</p>"
+ },
+ {
   "id": "pulse-2026-09-17-morning",
   "date": "2026-09-17",
   "dateDisplay": "Thursday, 17 September 2026",
@@ -1016,6 +1025,65 @@ window.INSIGHTS = [
   "dateDisplay": "Thursday, 17 September 2026",
   "edition": "Morning Brief",
   "editionKey": "morning"
+ },
+ {
+  "headline": "EAST AFRICA SIGNED 2027 IN PARIS THIS WEEK",
+  "body": "IFTM Top Resa 2026 closed today after three days at Paris Expo Porte de Versailles — 32,000 tourism professionals, 1,650 companies, 177 destinations *(Tanzania Ministry of Foreign Affairs & EAC, via Daily News TZ, 16 September 2026)*. Uganda took eleven destination marketing companies to Stand T072, up from five in 2025. By day two the Embassy of Uganda in Paris reported fully booked schedules and buyers moving from enquiries to **2027 and 2028 contracts**, gorilla permit allocations for Bwindi and Mgahinga, and AFCON 2027 itineraries *(UG Standard and SoftPower News, 16 September 2026)*. France is now a top-ten source market for Uganda: 7,439 French visitors in 2025, more than double 2024, spending over US$2,025 each across eight to fifteen nights. Tanzania sent fifteen companies under the Zanzibar Commission for Tourism *(Daily News TZ, 17 September 2026)*.",
+  "sowhat": "🎯 **So what:** A trade fair is a pricing event, not a marketing one. Anything quoted in Paris for 2027 was quoted against a cost base with three dated changes already in the diary — Kenya's 8% fuel VAT expiry and EPRA's freeze ending together on 14 October, and UWA's habituation permit reported to move from US$1,500 to US$1,800 on 1 January 2027. Put a tariff-variation clause in every 2027–28 contract before you counter-sign.",
+  "segments": [
+   "city",
+   "bush"
+  ],
+  "countries": "🇺🇬🇹🇿",
+  "confidence": "Confirmed",
+  "impact": "+demand",
+  "impactClass": "demand",
+  "intensity": 3,
+  "impactSet": "author",
+  "source": "pulse-2026-09-17-evening",
+  "date": "2026-09-17",
+  "dateDisplay": "Thursday, 17 September 2026",
+  "edition": "Evening Wrap",
+  "editionKey": "evening"
+ },
+ {
+  "headline": "KILIMANJARO'S FIRE IS OUT. THE NUMBER IS 1,800 HECTARES",
+  "body": "The fire that burned on Mt Kilimanjaro for nearly two weeks has been contained, after consuming more than 18 square kilometres — 1,800 hectares — of vegetation *(The EastAfrican, 17 September 2026)*. It began on 3 September at Kikerelwa, near the Kenyan border. TANAPA kept designated climbing routes open throughout.",
+  "sowhat": "🎯 **So what:** That is about 2.4% of a 75,575-hectare park, and no route closed. Correct the client who has read a headline, with the figure rather than reassurance — Moshi and Arusha properties should add a one-line factual note to pre-arrival emails for October–December departures before an agent asks.",
+  "segments": [
+   "bush"
+  ],
+  "countries": "🇹🇿",
+  "confidence": "Confirmed",
+  "impact": "watch",
+  "impactClass": "watch",
+  "intensity": 3,
+  "impactSet": "author",
+  "source": "pulse-2026-09-17-evening",
+  "date": "2026-09-17",
+  "dateDisplay": "Thursday, 17 September 2026",
+  "edition": "Evening Wrap",
+  "editionKey": "evening"
+ },
+ {
+  "headline": "WASHINGTON'S UGANDA ORDER IS SIX DAYS OLD AND STILL UNPUBLISHED",
+  "body": "Read directly on CDC's port-health page this afternoon: the Title 42 order of 11 September, signed by Assistant Secretary for Health Adm. Brian Christine, still carries the line \"This Order **will** be published in the Federal Register.\" Every earlier order in the chain — 18 May, 22 May, 21 June, 13 July, 12 August — links to its publication within three to seven days. This one has not appeared in six. The order runs to about 11 October and carries a **15-day comment period** closing around 26 September.",
+  "sowhat": "🎯 **So what:** Nine days remain on a comment window attached to a document the public record does not yet carry. If you sell Uganda to American clients, that window is the formal channel for putting the 27 August all-clear on the US federal record before the renewal decision. Do not wait for the notice to appear.",
+  "segments": [
+   "city",
+   "bush"
+  ],
+  "countries": "🇺🇬",
+  "confidence": "Confirmed",
+  "impact": "risk",
+  "impactClass": "risk",
+  "intensity": 3,
+  "impactSet": "author",
+  "source": "pulse-2026-09-17-evening",
+  "date": "2026-09-17",
+  "dateDisplay": "Thursday, 17 September 2026",
+  "edition": "Evening Wrap",
+  "editionKey": "evening"
  },
  {
   "headline": "SAUDI SHUT THE PIPELINE THAT WAS KENYA'S WAY AROUND HORMUZ",
@@ -5074,4 +5142,4 @@ window.INSIGHTS = [
   "editionKey": "evening"
  }
 ];
-window.BUILT_AT = "2026-09-17 12:11";
+window.BUILT_AT = "2026-09-17 16:25";
