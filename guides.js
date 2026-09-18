@@ -5,7 +5,8 @@ window.GUIDES = [
   "description": "Hotel chains across Kenya, Rwanda and Tanzania have integrated artificial intelligence faster than any region on earth. The industry's own data suggests that was the easy part.",
   "category": "Big Read",
   "updated": "2026-09-18",
-  "readMins": 8
+  "readMins": 8,
+  "image": "img/editions/pulse-2026-09-18-morning.jpg"
  },
  {
   "slug": "defining-your-comp-set-east-africa",
@@ -13,7 +14,8 @@ window.GUIDES = [
   "description": "Most properties define their competitive set by who is nearby and similar. Buyers define it by what they substitute you against. With four in five of Kenya's pipeline rooms already under construction, the gap between those two definitions is now a datable, forecastable risk.",
   "category": "City",
   "updated": "2026-09-07",
-  "readMins": 5
+  "readMins": 5,
+  "image": ""
  },
  {
   "slug": "three-calendars-east-africa-rate-year",
@@ -21,7 +23,8 @@ window.GUIDES = [
   "description": "Wildlife seasonality, the fee and cost cycle, and the buyer's contracting year each move on their own schedule. Rate cards built on the first alone leave money on the table twice a year. A working method for aligning all three.",
   "category": "Operations",
   "updated": "2026-09-07",
-  "readMins": 5
+  "readMins": 5,
+  "image": ""
  },
  {
   "slug": "ota-commission-what-it-actually-costs",
@@ -29,7 +32,8 @@ window.GUIDES = [
   "description": "OTA commission is the percentage an online travel agency charges per booking. The headline rate is the smallest part of the bill — here is the full arithmetic.",
   "category": "Distribution",
   "updated": "2026-08-01",
-  "readMins": 6
+  "readMins": 6,
+  "image": ""
  },
  {
   "slug": "park-permit-fees-east-africa",
@@ -37,7 +41,8 @@ window.GUIDES = [
   "description": "Fee changes rarely arrive with notice, and the effective date decides whether you absorb the cost or reprice. A working method for staying ahead of them.",
   "category": "Regulatory",
   "updated": "2026-08-01",
-  "readMins": 4
+  "readMins": 4,
+  "image": ""
  },
  {
   "slug": "sustainability-compliance-east-africa",
@@ -45,7 +50,8 @@ window.GUIDES = [
   "description": "Which single-use plastic bans are actually enforced, what carbon pricing genuinely reaches an East Africa booking today, and what the main eco-certifications actually require. The regulatory picture, not the marketing one.",
   "category": "Sustainability",
   "updated": "2026-08-01",
-  "readMins": 7
+  "readMins": 7,
+  "image": ""
  },
  {
   "slug": "tech-stack-east-africa",
@@ -53,7 +59,8 @@ window.GUIDES = [
   "description": "What payment gateways actually cost by provider, which property management systems publish genuine offline capability, and the data volume AI pricing tools need before they're worth paying for — set against the real scale of most East African bush and beach properties.",
   "category": "Technology",
   "updated": "2026-08-01",
-  "readMins": 6
+  "readMins": 6,
+  "image": ""
  },
  {
   "slug": "travel-advisories-what-actually-moves-bookings",
@@ -61,6 +68,7 @@ window.GUIDES = [
   "description": "An advisory downgrade does three separate things to your book, and only one of them is about sentiment. Understanding the order tells you what to fix first.",
   "category": "Risk",
   "updated": "2026-08-01",
-  "readMins": 5
+  "readMins": 5,
+  "image": ""
  }
 ];

@@ -494,6 +494,7 @@
       <a href="#latest">Latest</a>
       <a href="#archive">Editions</a>
       <a href="#guides">Guides</a>
+      <a href="big-reads.html">Big Reads</a>
       <a href="archive.html">Archive</a>
       <a href="#tools">Tools</a>
       <a href="#track">Track record</a>
@@ -613,6 +614,18 @@
     <span id="count" class="count-note"></span>
     <button id="loadmore" class="btn btn-load" style="display:none">Load older editions ↓</button>
   </div>
+</section>
+
+<section id="bigreads" class="wrap">
+  <div class="section-head">
+    <div>
+      <span class="kicker">Long-form</span>
+      <h2>Big Reads</h2>
+    </div>
+    <span class="count-note"><a href="big-reads.html">See all Big Reads →</a></span>
+  </div>
+  <p style="margin:0 0 18px;color:var(--muted);max-width:70ch">Sourced, on-the-record, long-form analysis &mdash; continuous narrative, named sources, no vendor hype. Reviewed before it runs.</p>
+  <div class="gcards" id="bigread-cards"></div>
 </section>
 
 <section id="guides" class="wrap">
@@ -1352,7 +1365,8 @@
   // ---- Guides ----
   function renderGuides(){
     const box=document.getElementById('guide-cards'); if(!box) return;
-    const G=window.GUIDES||[];
+    const ALL=window.GUIDES||[];
+    const G=ALL.filter(g=>(g.category||'').trim().toLowerCase()!=='big read');
     const sec=document.getElementById('guides');
     if(!G.length){ if(sec) sec.style.display='none'; return; }
     const fmt=d=>{ try{ return new Date(d+'T00:00:00').toLocaleDateString('en-GB',{day:'numeric',month:'short',year:'numeric'}); }catch(e){ return d; } };
@@ -1364,7 +1378,24 @@
       '<div class="gmeta">Updated '+fmt(g.updated)+' · '+g.readMins+' min read</div>'+
       '<div class="gread">Read the guide →</div></a>').join('');
   }
+  function renderBigReads(){
+    const box=document.getElementById('bigread-cards'); if(!box) return;
+    const ALL=window.GUIDES||[];
+    const B=ALL.filter(g=>(g.category||'').trim().toLowerCase()==='big read')
+               .sort((a,b)=>(b.updated||'').localeCompare(a.updated||'')).slice(0,3);
+    const sec=document.getElementById('bigreads');
+    if(!B.length){ if(sec) sec.style.display='none'; return; }
+    const fmt=d=>{ try{ return new Date(d+'T00:00:00').toLocaleDateString('en-GB',{day:'numeric',month:'short',year:'numeric'}); }catch(e){ return d; } };
+    box.innerHTML=B.map(g=>
+      '<a class="gcard" href="guides/'+g.slug+'.html">'+
+      '<span class="gcat" style="background:var(--gold);color:#231a06">Big Read</span>'+
+      '<h3>'+g.title+'</h3>'+
+      '<p>'+g.description+'</p>'+
+      '<div class="gmeta">'+fmt(g.updated)+' · '+g.readMins+' min read</div>'+
+      '<div class="gread">Read the Big Read →</div></a>').join('');
+  }
   renderGuides();
+  renderBigReads();
   renderLatest();
   initTabs();
   renderConnect();

@@ -440,7 +440,7 @@ def build():
         open(os.path.join(OUT, g["slug"] + ".html"), "w", encoding="utf-8").write(guide_page(g))
         guides.append(g)
     guides.sort(key=lambda x: x["updated"], reverse=True)
-    index = [{k: g[k] for k in ("slug", "title", "description", "category", "updated", "readMins")}
+    index = [{k: g[k] for k in ("slug", "title", "description", "category", "updated", "readMins", "image")}
              for g in guides]
     with open(os.path.join(HERE, "guides.js"), "w", encoding="utf-8") as f:
         f.write("window.GUIDES = " + json.dumps(index, ensure_ascii=False, indent=1) + ";\n")
