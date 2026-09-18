@@ -1,105 +1,54 @@
 {
- "generated": "2026-09-18T07:23:30+03:00",
- "slot": "morning",
- "window_start": 1789657200,
- "observations_in_window": 498,
+ "generated": "2026-09-18T11:19:28+03:00",
+ "slot": "midday",
+ "window_start": 1789704000,
+ "observations_in_window": 163,
  "deduped_against": 4,
  "candidates": [
   {
-   "score": 153.6,
-   "components": {
-    "tier": 40,
-    "category": 32,
-    "lead": 1.2,
-    "relevance": 60,
-    "freshness": 8.4,
-    "undated": -6,
-    "shock": 18
-   },
-   "keywords": [
-    "outbreak",
-    "ebola",
-    "terror",
-    "kidnap",
-    "level 4",
-    "flight"
-   ],
-   "shock_terms": [
-    "level 4",
-    "do not travel",
-    "outbreak"
-   ],
-   "dedupe_match": null,
-   "dedupe_similarity": 0.0,
-   "id": "0906ff4b4e50",
-   "title": "Democratic Republic of the Congo - Level 4: Do Not Travel",
-   "url": "https://travel.state.gov/content/tsg_aem/us/en/home/international-travel/travel-advisories/destination.cod.html",
-   "summary": "Do not travel to the Democratic Republic of the Congo (DRC) due to health , crime , unrest , terrorism , and kidnapping Due to the Ebola outbreak in the DRC, the Department of Homeland Security has implemented new restrictions under Title 49 of the U.S. Code which prevent U.S. citizens and nationals who have been in the DRC within a 21-day period from boarding commercial flights into the United St",
-   "kind": "item",
-   "source": "US State Dept travel advisories (EA feed)",
-   "source_id": "adv-us-ea",
-   "tier": 1,
-   "country": "REG",
-   "category": "advisory",
-   "segments": [
-    "city",
-    "bush",
-    "beach"
-   ],
-   "first_seen": "2026-09-17T20:59+03:00",
-   "published": null,
-   "verdict": "LEAD CANDIDATE \u2014 tier-1 shock language"
-  },
-  {
-   "score": 141.6,
-   "components": {
-    "tier": 40,
-    "category": 32,
-    "lead": 1.2,
-    "relevance": 48,
-    "freshness": 8.4,
-    "undated": -6,
-    "shock": 18
-   },
-   "keywords": [
-    "advisory",
-    "terror",
-    "kidnap",
-    "level 3"
-   ],
-   "shock_terms": [
-    "level 3",
-    "reconsider travel"
-   ],
-   "dedupe_match": null,
-   "dedupe_similarity": 0.0,
-   "id": "5bc6fb9bf442",
-   "title": "Ethiopia - Level 3: Reconsider Travel",
-   "url": "https://travel.state.gov/content/tsg_aem/us/en/home/international-travel/travel-advisories/destination.eth.html",
-   "summary": "Reconsider travel to Ethiopia due to unrest, crime, kidnapping, terrorism, landmines, communications disruptions, and exit bans. Some areas have increased risk. Read the entire Travel Advisory. Unrest The security situation in Addis Ababa is stable. However, there is sporadic violent, armed conflict, and civil unrest outside of Addis Ababa. The security situation may worsen suddenly without warnin",
-   "kind": "item",
-   "source": "US State Dept travel advisories (EA feed)",
-   "source_id": "adv-us-ea",
-   "tier": 1,
-   "country": "REG",
-   "category": "advisory",
-   "segments": [
-    "city",
-    "bush",
-    "beach"
-   ],
-   "first_seen": "2026-09-17T20:59+03:00",
-   "published": null,
-   "verdict": "LEAD CANDIDATE \u2014 tier-1 shock language"
-  },
-  {
-   "score": 121.3,
+   "score": 121.4,
    "components": {
     "tier": 40,
     "category": 32,
     "lead": 3.6,
     "relevance": 20,
-    "freshness": 19.7,
+    "freshness": 19.8,
+    "corroborated": 10,
+    "page_change": -4
+   },
+   "keywords": [
+    "advisory",
+    "vat"
+   ],
+   "shock_terms": [],
+   "dedupe_match": null,
+   "dedupe_similarity": 0.0,
+   "id": "526ae402969f",
+   "title": "[page changed] Federal Register \u2014 public inspection (HHS/CDC), pre-publication",
+   "url": "https://www.federalregister.gov/api/v1/public-inspection-documents/current.json",
+   "summary": "{\"count\":117,\"results\":[{\"agencies\":[{\"raw_name\":\"HISTORIC PRESERVATION, ADVISORY COUNCIL\",\"name\":\"Advisory Council on Historic Preservation\",\"id\":225,\"url\":\"https://www.federalregister.gov/agencies/advisory-council-on-historic-preservation\",\"json_url\":\"https://www.federalregister.gov/api/v1/agencies/225\",\"parent_id\":null,\"slug\":\"advisory-council-on-historic-preservation\"}],\"agency_letters\":[],\"ag",
+   "kind": "page-change",
+   "source": "Federal Register \u2014 public inspection (HHS/CDC), pre-publication",
+   "source_id": "us-fedreg-pubinspect-hhs",
+   "tier": 1,
+   "country": "REG",
+   "category": "advisory",
+   "segments": [
+    "city",
+    "bush"
+   ],
+   "first_seen": "2026-09-18T11:18+03:00",
+   "published": "2026-09-17",
+   "verdict": "OPEN THIS \u2014 tier-1 advisory page moved; content not auto-parsed, read it manually"
+  },
+  {
+   "score": 117.0,
+   "components": {
+    "tier": 40,
+    "category": 32,
+    "lead": 3.6,
+    "relevance": 20,
+    "freshness": 15.4,
     "corroborated": 10,
     "page_change": -4
    },
@@ -129,13 +78,13 @@
    "verdict": "OPEN THIS \u2014 tier-1 advisory page moved; content not auto-parsed, read it manually"
   },
   {
-   "score": 117.7,
+   "score": 113.4,
    "components": {
     "tier": 40,
     "category": 32,
     "lead": 12.0,
     "relevance": 8,
-    "freshness": 19.7,
+    "freshness": 15.4,
     "corroborated": 10,
     "page_change": -4
    },
@@ -164,361 +113,88 @@
    "verdict": "OPEN THIS \u2014 tier-1 advisory page moved; content not auto-parsed, read it manually"
   },
   {
-   "score": 116.5,
+   "score": 96.2,
    "components": {
-    "tier": 40,
-    "category": 32,
-    "lead": 3.6,
-    "relevance": 20,
-    "freshness": 14.9,
-    "corroborated": 10,
-    "page_change": -4
-   },
-   "keywords": [
-    "advisory",
-    "vat"
-   ],
-   "shock_terms": [],
-   "dedupe_match": null,
-   "dedupe_similarity": 0.0,
-   "id": "8e8b094ed8c2",
-   "title": "[page changed] Federal Register \u2014 public inspection (HHS/CDC), pre-publication",
-   "url": "https://www.federalregister.gov/api/v1/public-inspection-documents/current.json",
-   "summary": "{\"count\":117,\"results\":[{\"agencies\":[{\"raw_name\":\"HISTORIC PRESERVATION, ADVISORY COUNCIL\",\"name\":\"Advisory Council on Historic Preservation\",\"id\":225,\"url\":\"https://www.federalregister.gov/agencies/advisory-council-on-historic-preservation\",\"json_url\":\"https://www.federalregister.gov/api/v1/agencies/225\",\"parent_id\":null,\"slug\":\"advisory-council-on-historic-preservation\"}],\"agency_letters\":[],\"ag",
-   "kind": "page-change",
-   "source": "Federal Register \u2014 public inspection (HHS/CDC), pre-publication",
-   "source_id": "us-fedreg-pubinspect-hhs",
-   "tier": 1,
-   "country": "REG",
-   "category": "advisory",
-   "segments": [
-    "city",
-    "bush"
-   ],
-   "first_seen": "2026-09-18T02:57+03:00",
-   "published": "2026-09-17",
-   "verdict": "OPEN THIS \u2014 tier-1 advisory page moved; content not auto-parsed, read it manually"
-  },
-  {
-   "score": 113.6,
-   "components": {
-    "tier": 40,
-    "category": 32,
-    "lead": 3.6,
-    "relevance": 20,
-    "freshness": 12.0,
-    "corroborated": 10,
-    "page_change": -4
-   },
-   "keywords": [
-    "advisory",
-    "vat"
-   ],
-   "shock_terms": [],
-   "dedupe_match": null,
-   "dedupe_similarity": 0.0,
-   "id": "59fde6465053",
-   "title": "[page changed] Federal Register \u2014 public inspection (HHS/CDC), pre-publication",
-   "url": "https://www.federalregister.gov/api/v1/public-inspection-documents/current.json",
-   "summary": "{\"count\":117,\"results\":[{\"agencies\":[{\"raw_name\":\"HISTORIC PRESERVATION, ADVISORY COUNCIL\",\"name\":\"Advisory Council on Historic Preservation\",\"id\":225,\"url\":\"https://www.federalregister.gov/agencies/advisory-council-on-historic-preservation\",\"json_url\":\"https://www.federalregister.gov/api/v1/agencies/225\",\"parent_id\":null,\"slug\":\"advisory-council-on-historic-preservation\"}],\"agency_letters\":[],\"ag",
-   "kind": "page-change",
-   "source": "Federal Register \u2014 public inspection (HHS/CDC), pre-publication",
-   "source_id": "us-fedreg-pubinspect-hhs",
-   "tier": 1,
-   "country": "REG",
-   "category": "advisory",
-   "segments": [
-    "city",
-    "bush"
-   ],
-   "first_seen": "2026-09-18T00:16+03:00",
-   "published": "2026-09-17",
-   "verdict": "OPEN THIS \u2014 tier-1 advisory page moved; content not auto-parsed, read it manually"
-  },
-  {
-   "score": 110.8,
-   "components": {
-    "tier": 40,
-    "category": 24,
-    "lead": 2.4,
+    "tier": 20,
+    "category": 14,
+    "lead": 8.4,
     "relevance": 24,
-    "freshness": 8.4,
-    "undated": -6,
-    "shock": 18
+    "freshness": 19.8,
+    "corroborated": 10
    },
    "keywords": [
-    "outbreak",
-    "ebola"
+    "eta",
+    "charter",
+    "airline",
+    "flight"
    ],
-   "shock_terms": [
-    "outbreak"
-   ],
+   "shock_terms": [],
    "dedupe_match": null,
    "dedupe_similarity": 0.0,
-   "id": "1f8afe3142fa",
-   "title": "Questions and answers about the current outbreak of Ebola disease",
-   "url": "https://www.ecdc.europa.eu/en/topics-z/ebola-disease/surveillance-and-updates/ebola-outbreak-democratic-republic-congo",
-   "summary": "",
+   "id": "b8935b9a5ca8",
+   "title": "Qantas Freight Sep/Oct 2026 Singapore Seletar Charter Schedule",
+   "url": "https://www.aeroroutes.com/eng/260917-qfcsep26xsp",
+   "summary": "Published at 2200PDT 17SEP26 / 0500GMT 18SEP26 Qantas Freight in the schedule filing as filed additional flight from Singapore Seletar , with Airbus A321 Freighter. On 26SEP26 and 10OCT26, the airline\u2019s routing is Singapore Seletar \u2013 Darwin \u2013 Melbourne . QF7529 XSP0800 \u2013 1415DRW1515 \u2013 1955MEL 32X 26SEP26 QF7529 XSP1200 \u2013 1745DRW1845 \u2013 0015+1MEL 32X 10OCT26",
    "kind": "item",
-   "source": "ECDC \u2014 DRC/Uganda Ebola outbreak page",
-   "source_id": "ecdc-ebola",
-   "tier": 1,
+   "source": "AeroRoutes schedule filings",
+   "source_id": "aeroroutes",
+   "tier": 2,
    "country": "GLOBAL",
-   "category": "health",
-   "segments": [
-    "city",
-    "bush"
-   ],
-   "first_seen": "2026-09-17T20:59+03:00",
-   "published": null,
-   "verdict": "LEAD CANDIDATE \u2014 tier-1 shock language"
-  },
-  {
-   "score": 110.0,
-   "components": {
-    "tier": 40,
-    "category": 32,
-    "lead": 3.6,
-    "relevance": 20,
-    "freshness": 8.4,
-    "corroborated": 10,
-    "page_change": -4
-   },
-   "keywords": [
-    "advisory",
-    "vat"
-   ],
-   "shock_terms": [],
-   "dedupe_match": null,
-   "dedupe_similarity": 0.0,
-   "id": "ce00d210bb77",
-   "title": "[page changed] Federal Register \u2014 public inspection (HHS/CDC), pre-publication",
-   "url": "https://www.federalregister.gov/api/v1/public-inspection-documents/current.json",
-   "summary": "{\"count\":117,\"results\":[{\"agencies\":[{\"raw_name\":\"HISTORIC PRESERVATION, ADVISORY COUNCIL\",\"name\":\"Advisory Council on Historic Preservation\",\"id\":225,\"url\":\"https://www.federalregister.gov/agencies/advisory-council-on-historic-preservation\",\"json_url\":\"https://www.federalregister.gov/api/v1/agencies/225\",\"parent_id\":null,\"slug\":\"advisory-council-on-historic-preservation\"}],\"agency_letters\":[],\"ag",
-   "kind": "page-change",
-   "source": "Federal Register \u2014 public inspection (HHS/CDC), pre-publication",
-   "source_id": "us-fedreg-pubinspect-hhs",
-   "tier": 1,
-   "country": "REG",
-   "category": "advisory",
-   "segments": [
-    "city",
-    "bush"
-   ],
-   "first_seen": "2026-09-17T20:59+03:00",
-   "published": "2026-09-17",
-   "verdict": "OPEN THIS \u2014 tier-1 advisory page moved; content not auto-parsed, read it manually"
-  },
-  {
-   "score": 57.6,
-   "components": {
-    "tier": 40,
-    "category": 12,
-    "lead": 3.6,
-    "relevance": 0,
-    "freshness": 12.0,
-    "undated": -6,
-    "page_change": -4
-   },
-   "keywords": [],
-   "shock_terms": [],
-   "dedupe_match": null,
-   "dedupe_similarity": 0.0,
-   "id": "268ba1071399",
-   "title": "[page changed] Airlink news",
-   "url": "https://www.flyairlink.com/",
-   "summary": "Request unsuccessful. Incapsula incident ID: 102000320940637595-341727737178097701",
-   "kind": "page-change",
-   "source": "Airlink news",
-   "source_id": "air-airlink",
-   "tier": 1,
-   "country": "REG",
-   "category": "airline",
+   "category": "aviation-tracker",
    "segments": [
     "city",
     "bush",
     "beach"
    ],
-   "first_seen": "2026-09-18T00:15+03:00",
-   "published": null,
-   "verdict": "OPEN THIS \u2014 tier-1 airline page moved; content not auto-parsed, read it manually"
+   "first_seen": "2026-09-18T11:19+03:00",
+   "published": "2026-09-18",
+   "verdict": "CONSIDER"
   },
   {
-   "score": 94.0,
+   "score": 88.2,
    "components": {
-    "tier": 40,
-    "category": 20,
-    "lead": 12.0,
-    "relevance": 0,
-    "freshness": 12.0,
-    "corroborated": 10
-   },
-   "keywords": [],
-   "shock_terms": [],
-   "dedupe_match": null,
-   "dedupe_similarity": 0.0,
-   "id": "d9d114f85ea2",
-   "title": "Githunguri Law Courts \u2013 Civil Division \u2013 Daily Cause List \u2013 17 September 2026",
-   "url": "https://new.kenyalaw.org/akn/ke/doc/cause-list-daily/kemc/2026-09-17/3/eng@2026-09-17",
-   "summary": "Githunguri Law Courts \u2013 Civil Division \u2013 Daily Cause List \u2013 17 September 2026",
-   "kind": "item",
-   "source": "Kenya Gazette (Kenya Law)",
-   "source_id": "ke-gazette",
-   "tier": 1,
-   "country": "KE",
-   "category": "gazette",
-   "segments": [
-    "city",
-    "bush",
-    "beach"
-   ],
-   "first_seen": "2026-09-18T00:16+03:00",
-   "published": "2026-09-17",
-   "verdict": "STRONG \u2014 tier-1, upstream"
-  },
-  {
-   "score": 94.0,
-   "components": {
-    "tier": 40,
-    "category": 20,
-    "lead": 12.0,
-    "relevance": 0,
-    "freshness": 12.0,
-    "corroborated": 10
-   },
-   "keywords": [],
-   "shock_terms": [],
-   "dedupe_match": null,
-   "dedupe_similarity": 0.0,
-   "id": "8b621a221038",
-   "title": "Transport Licensing Appeals Board Tribunal \u2013 Weekly Cause List \u2013 21 September 2026 to 25 September 2026",
-   "url": "https://new.kenyalaw.org/akn/ke/doc/cause-list-weekly/ketlabt/2026-09-21/1/eng@2026-09-21",
-   "summary": "Transport Licensing Appeals Board Tribunal \u2013 Weekly Cause List \u2013 21 September 2026 to 25 September 2026",
-   "kind": "item",
-   "source": "Kenya Gazette (Kenya Law)",
-   "source_id": "ke-gazette",
-   "tier": 1,
-   "country": "KE",
-   "category": "gazette",
-   "segments": [
-    "city",
-    "bush",
-    "beach"
-   ],
-   "first_seen": "2026-09-18T00:16+03:00",
-   "published": "2026-09-21",
-   "verdict": "STRONG \u2014 tier-1, upstream"
-  },
-  {
-   "score": 94.0,
-   "components": {
-    "tier": 40,
-    "category": 20,
-    "lead": 12.0,
-    "relevance": 0,
-    "freshness": 12.0,
-    "corroborated": 10
-   },
-   "keywords": [],
-   "shock_terms": [],
-   "dedupe_match": null,
-   "dedupe_similarity": 0.0,
-   "id": "5180ee5e477b",
-   "title": "Kiambere Mobile Court \u2013 Monthly Cause List \u2013 01 October 2026 to 22 October 2026",
-   "url": "https://new.kenyalaw.org/akn/ke/doc/cause-list-monthly/kemc/2026-10-01/1/eng@2026-10-01",
-   "summary": "Kiambere Mobile Court \u2013 Monthly Cause List \u2013 01 October 2026 to 22 October 2026",
-   "kind": "item",
-   "source": "Kenya Gazette (Kenya Law)",
-   "source_id": "ke-gazette",
-   "tier": 1,
-   "country": "KE",
-   "category": "gazette",
-   "segments": [
-    "city",
-    "bush",
-    "beach"
-   ],
-   "first_seen": "2026-09-18T00:16+03:00",
-   "published": "2026-10-01",
-   "verdict": "STRONG \u2014 tier-1, upstream"
-  },
-  {
-   "score": 94.0,
-   "components": {
-    "tier": 40,
-    "category": 20,
-    "lead": 12.0,
-    "relevance": 0,
-    "freshness": 12.0,
-    "corroborated": 10
-   },
-   "keywords": [],
-   "shock_terms": [],
-   "dedupe_match": null,
-   "dedupe_similarity": 0.0,
-   "id": "afb905c7eacc",
-   "title": "Katiba Institute v National Assembly & 9 others (Petition E626 of 2024) [2026] KEHC 13501 (KLR) (Constitutional and Human Rights) (17 September 2026) (Judgment)",
-   "url": "https://new.kenyalaw.org/akn/ke/judgment/kehc/2026/13501/eng@2026-09-17",
-   "summary": "Katiba Institute v National Assembly & 9 others (Petition E626 of 2024) [2026] KEHC 13501 (KLR) (Constitutional and Human Rights) (17 September 2026) (Judgment)",
-   "kind": "item",
-   "source": "Kenya Gazette (Kenya Law)",
-   "source_id": "ke-gazette",
-   "tier": 1,
-   "country": "KE",
-   "category": "gazette",
-   "segments": [
-    "city",
-    "bush",
-    "beach"
-   ],
-   "first_seen": "2026-09-18T00:16+03:00",
-   "published": "2026-09-17",
-   "verdict": "STRONG \u2014 tier-1, upstream"
-  },
-  {
-   "score": 93.0,
-   "components": {
-    "tier": 40,
-    "category": 13,
-    "lead": 6.0,
-    "relevance": 12,
-    "freshness": 12.0,
+    "tier": 20,
+    "category": 14,
+    "lead": 8.4,
+    "relevance": 16,
+    "freshness": 19.8,
     "corroborated": 10
    },
    "keywords": [
-    "fuel",
-    "airline"
+    "route",
+    "airline",
+    "flight"
    ],
    "shock_terms": [],
    "dedupe_match": null,
-   "dedupe_similarity": 0.17,
-   "id": "6034525510ff",
-   "title": "2.1 Billion Litres of Leverage: Inside AFRAA\u2019s Fuel Project to Bring Down African Airline Fuel Costs.",
-   "url": "https://www.afraa.org/2-1-billion-litres-of-leverage-inside-afraas-fuel-project-to-bring-down-african-airline-fuel-costs",
-   "summary": "Fifteen African airlines are now combining approximately 2.1 billion litres of annual fuel demand across around 190 locations through the African Airlines Association (AFRAA) Fuel Project, using collective purchasing power [\u2026]",
+   "dedupe_similarity": 0.0,
+   "id": "58256c0a1346",
+   "title": "Air Canada Shortens Vancouver \u2013 Osaka NW26 Seasonal Suspension",
+   "url": "https://www.aeroroutes.com/eng/260918-acnw26kix",
+   "summary": "Published at 0000PDT / 0700GMT 18SEP26 Air Canada in recent schedule update filed additional changes to planned Vancouver \u2013 Osaka Kansai service during 2027. Initially scheduled to resume on 02MAR27 after 3-month seasonal suspension, the airline will now operate this route from 02FEB27. Boeing 787-9 operates 4 weekly flights. AC023 YVR1445 \u2013 1740+1KIX 789 x146 AC024 KIX1925 \u2013 1230YVR 789 x257",
    "kind": "item",
-   "source": "AFRAA \u2014 monthly African air transport / capacity brief",
-   "source_id": "afraa-capacity",
-   "tier": 1,
-   "country": "REG",
-   "category": "aviation",
+   "source": "AeroRoutes schedule filings",
+   "source_id": "aeroroutes",
+   "tier": 2,
+   "country": "GLOBAL",
+   "category": "aviation-tracker",
    "segments": [
     "city",
     "bush",
     "beach"
    ],
-   "first_seen": "2026-09-18T00:15+03:00",
-   "published": "2026-09-17",
-   "verdict": "STRONG \u2014 tier-1, upstream"
+   "first_seen": "2026-09-18T11:19+03:00",
+   "published": "2026-09-18",
+   "verdict": "CONSIDER"
   },
   {
-   "score": 92.2,
+   "score": 87.8,
    "components": {
     "tier": 20,
     "category": 14,
     "lead": 8.4,
     "relevance": 20,
-    "freshness": 19.8,
+    "freshness": 15.4,
     "corroborated": 10
    },
    "keywords": [
@@ -549,119 +225,13 @@
    "verdict": "CONSIDER"
   },
   {
-   "score": 91.3,
-   "components": {
-    "tier": 40,
-    "category": 24,
-    "lead": 2.4,
-    "relevance": 0,
-    "freshness": 14.9,
-    "corroborated": 10
-   },
-   "keywords": [],
-   "shock_terms": [],
-   "dedupe_match": null,
-   "dedupe_similarity": 0.0,
-   "id": "24ad66dd9b2a",
-   "title": "SitRep N\u00b0125/MVEBDB/16/09/2026",
-   "url": "https://insp.cd/sitrep-n125-mvebdb-16-09-2026",
-   "summary": "",
-   "kind": "item",
-   "source": "INSP RDC \u2014 Ebola daily situation reports (SitRep)",
-   "source_id": "cd-insp-sitrep",
-   "tier": 1,
-   "country": "GLOBAL",
-   "category": "health",
-   "segments": [
-    "City",
-    "Bush"
-   ],
-   "first_seen": "2026-09-18T02:57+03:00",
-   "published": "2026-09-18",
-   "verdict": "STRONG \u2014 tier-1, upstream"
-  },
-  {
-   "score": 89.4,
-   "components": {
-    "tier": 40,
-    "category": 17,
-    "lead": 16.8,
-    "relevance": 12,
-    "freshness": 9.6,
-    "undated": -6
-   },
-   "keywords": [
-    "arrivals",
-    "tourist"
-   ],
-   "shock_terms": [],
-   "dedupe_match": null,
-   "dedupe_similarity": 0.0,
-   "id": "6eefa14485f8",
-   "title": "Slovenia's tourist arrivals jump 10.6% in July, led by Central European visitors",
-   "url": "https://transition-pathways.europa.eu/tourism/data/slovenias-tourist-arrivals-jump-106-july-led-central-european-visitors",
-   "summary": "",
-   "kind": "item",
-   "source": "EU Tourism Transition Pathway \u2014 legislation & guidance",
-   "source_id": "eu-tourism-pathway",
-   "tier": 1,
-   "country": "REG",
-   "category": "regulator",
-   "segments": [
-    "bush",
-    "beach",
-    "city"
-   ],
-   "first_seen": "2026-09-17T22:06+03:00",
-   "published": null,
-   "verdict": "CONSIDER"
-  },
-  {
-   "score": 88.4,
-   "components": {
-    "tier": 20,
-    "category": 14,
-    "lead": 8.4,
-    "relevance": 24,
-    "freshness": 12.0,
-    "corroborated": 10
-   },
-   "keywords": [
-    "route",
-    "seat",
-    "airline",
-    "flight"
-   ],
-   "shock_terms": [],
-   "dedupe_match": null,
-   "dedupe_similarity": 0.0,
-   "id": "f43960b930ea",
-   "title": "Korean Air \u2013 Asiana Airlines Seattle Service Changes From Oct 2026",
-   "url": "https://www.aeroroutes.com/eng/260917-keoznw26sea",
-   "summary": "Published at 1300PDT / 2000GMT 17SEP26 Korean Air in the last few days filed additional service changes on Seoul Incheon \u2013 Seattle route, which now becomes the second route to the US to be operated by the carrier\u2019s KE-coded only, ahead of planned integration with Asiana Airlines on 17DEC26. Previously reported on AeroRoutes , Asiana Airlines\u2019 OZ272/271 service will become Korean Air KE047/048 serv",
-   "kind": "item",
-   "source": "AeroRoutes schedule filings",
-   "source_id": "aeroroutes",
-   "tier": 2,
-   "country": "GLOBAL",
-   "category": "aviation-tracker",
-   "segments": [
-    "city",
-    "bush",
-    "beach"
-   ],
-   "first_seen": "2026-09-18T00:16+03:00",
-   "published": "2026-09-17",
-   "verdict": "CONSIDER"
-  },
-  {
-   "score": 88.2,
+   "score": 83.8,
    "components": {
     "tier": 20,
     "category": 14,
     "lead": 8.4,
     "relevance": 16,
-    "freshness": 19.8,
+    "freshness": 15.4,
     "corroborated": 10
    },
    "keywords": [
@@ -692,96 +262,25 @@
    "verdict": "CONSIDER"
   },
   {
-   "score": 85.8,
-   "components": {
-    "tier": 40,
-    "category": 15,
-    "lead": 16.8,
-    "relevance": 12,
-    "freshness": 12.0,
-    "stale_trap": -10
-   },
-   "keywords": [
-    "tax",
-    "opening"
-   ],
-   "shock_terms": [],
-   "dedupe_match": null,
-   "dedupe_similarity": 0.0,
-   "id": "2d85c1c43ddc",
-   "title": "PRE-QUALIFICATION TENDER FOR SUPPLY, INSTALLATION, CONFIGURATION AND OPERATION OF SYSTEM FOR ELECTRONIC TAX STAMPS (ETS)",
-   "url": "https://www.tra.go.tz/images/uploads/public_notice/english/ADVERT_ETS.pdf",
-   "summary": "Dar es Salaam, 17 September, 2026:PUBLIC NOTICEPRE-QUALIFICATION TENDER FOR SUPPLY, INSTALLATION, CONFIGURATION AND OPERATION OF SYSTEM FOR ELECTRONIC TAX STAMPS (ETS) On 18th August, 2026 the Tanzania Revenue Authority (TRA) advertised Tender No. TR134/2026/2027/G/67 for the Supply, Installation, Configuration and Operation of System for Electronic Tax Stamps (ETS) through the National Electronic",
-   "kind": "doc",
-   "source": "Tanzania Revenue Authority",
-   "source_id": "tz-tra",
-   "tier": 1,
-   "country": "TZ",
-   "category": "fiscal",
-   "segments": [
-    "city",
-    "bush",
-    "beach"
-   ],
-   "first_seen": "2026-09-18T00:15+03:00",
-   "published": "2026-09-15",
-   "verdict": "CHECK \u2014 source date older than the window"
-  },
-  {
-   "score": 85.6,
-   "components": {
-    "tier": 40,
-    "category": 12,
-    "lead": 3.6,
-    "relevance": 8,
-    "freshness": 12.0,
-    "corroborated": 10
-   },
-   "keywords": [
-    "vat"
-   ],
-   "shock_terms": [],
-   "dedupe_match": null,
-   "dedupe_similarity": 0.0,
-   "id": "c69bc4d3e650",
-   "title": "Aufsichtsrat verl\u00e4ngert Vorstandsvertr\u00e4ge",
-   "url": "https://newsroom.lufthansagroup.com/aufsichtsrat-verlaengert-vorstandsvertraege",
-   "summary": "Der Aufsichtsrat der Deutschen Lufthansa AG hat bei seiner heutigen Sitzung Grazia Vittadini, Dr. Till Streichert und Dieter Vranckx wiederbestellt. Grazia Vittadini , Chief Technology Officer (CTO), wird f\u00fcr weitere drei Jahre bis zum 30. Juni 2030 bestellt. Sie ist seit 2024 Mitglied des Vorstands und verantwortet die Bereiche Technik, IT und Innovation. Grazia Vittadini erreicht 2030 die im Luf",
-   "kind": "item",
-   "source": "Lufthansa Group newsroom",
-   "source_id": "air-lh",
-   "tier": 1,
-   "country": "GLOBAL",
-   "category": "airline",
-   "segments": [
-    "beach"
-   ],
-   "first_seen": "2026-09-18T00:15+03:00",
-   "published": "2026-09-17",
-   "verdict": "CONSIDER"
-  },
-  {
-   "score": 84.8,
+   "score": 80.2,
    "components": {
     "tier": 20,
     "category": 14,
     "lead": 8.4,
-    "relevance": 24,
-    "freshness": 8.4,
+    "relevance": 8,
+    "freshness": 19.8,
     "corroborated": 10
    },
    "keywords": [
-    "suspend",
-    "route",
-    "airline"
+    "route"
    ],
    "shock_terms": [],
    "dedupe_match": null,
-   "dedupe_similarity": 0.0,
-   "id": "9d4fba9f6ae4",
-   "title": "Avelo Airlines Fall/Winter 2026 Atlanta \u2013 Lakeland Service Suspensions",
-   "url": "https://www.aeroroutes.com/eng/260917-xpnw26atllal",
-   "summary": "Published at 0700PDT / 1400GMT 17SEP26 Avelo Airlines in recent weeks gradually filed service changes on Atlanta \u2013 Lakeland route, where the airline suspends this route during following periods: 05OCT26 \u2013 18NOV26, eff 07JAN27. The airline operates this route 2-3 weekly with 737-800. Schedule below focuses on the period of 27DEC26 \u2013 03JAN27. XP250 ATL1438 \u2013 1615LAL 73H 27 XP251 LAL1220 \u2013 1353ATL 73",
+   "dedupe_similarity": 0.17,
+   "id": "7f82317c062b",
+   "title": "British Airways NS27 Intercontinental Network Changes \u2013 17SEP26",
+   "url": "https://www.aeroroutes.com/eng/260918-bans27inc",
+   "summary": "Published at 0100PDT / 0800GMT 18SEP26 British Airways yesterday (17SEP26) announced planned intercontinental network adjustment for Northern summer 2027 season. Planned operation changes include the following. London Gatwick \u2013 Kilimanjaro \u2013 Zanzibar eff 29MAY27 3 weekly 777-200ER, new route BA2163 LGW0905 \u2013 2020JRO2120 \u2013 2225ZNZ0025+1 \u2013 0755+1LGW 777 257 London Heathrow \u2013 Buenos Aires Ezeiza \u2013 Sa",
    "kind": "item",
    "source": "AeroRoutes schedule filings",
    "source_id": "aeroroutes",
@@ -793,59 +292,55 @@
     "bush",
     "beach"
    ],
-   "first_seen": "2026-09-17T20:59+03:00",
-   "published": "2026-09-17",
+   "first_seen": "2026-09-18T11:19+03:00",
+   "published": "2026-09-18",
    "verdict": "CONSIDER"
   },
   {
-   "score": 84.4,
+   "score": 80.2,
    "components": {
     "tier": 20,
-    "category": 4,
-    "lead": 0.0,
-    "relevance": 40,
-    "freshness": 8.4,
-    "undated": -6,
-    "shock": 18
+    "category": 14,
+    "lead": 8.4,
+    "relevance": 8,
+    "freshness": 19.8,
+    "corroborated": 10
    },
    "keywords": [
-    "outbreak",
-    "ebola",
-    "suspend",
+    "airline",
     "flight"
    ],
-   "shock_terms": [
-    "outbreak"
-   ],
+   "shock_terms": [],
    "dedupe_match": null,
-   "dedupe_similarity": 0.17,
-   "id": "e5d82546f28f",
-   "title": "Uganda Suspends Flights and Border Markets Over DRC Ebola Outbreak",
-   "url": "https://www.ugstandard.com/uganda-suspends-flights-and-border-markets-over-drc-ebola-outbreak",
-   "summary": "",
+   "dedupe_similarity": 0.0,
+   "id": "de55c8e4c189",
+   "title": "Azerbaijan Resumes Baku \u2013 Astrakhan From late-Sep 2026",
+   "url": "https://www.aeroroutes.com/eng/260917-j2sep26asf",
+   "summary": "Published at 2300PDT 17SEP26 / 0600GMT 18SEP26 Azerbaijan Airlines from late-September 2026 plans to resume Baku \u2013 Astrakhan service, on board Embraer E190 aircraft. Last served until February 2025, the airline will operate 3 weekly flights from 30SEP26. J28235 GYD0735 \u2013 0900ASF E90 357 J28236 ASF1000 \u2013 1125GYD E90 357",
    "kind": "item",
-   "source": "UG Standard \u2014 Tours & Travel",
-   "source_id": "ug-ugstandard-tours",
+   "source": "AeroRoutes schedule filings",
+   "source_id": "aeroroutes",
    "tier": 2,
-   "country": "UG",
-   "category": "press",
+   "country": "GLOBAL",
+   "category": "aviation-tracker",
    "segments": [
+    "city",
     "bush",
-    "city"
+    "beach"
    ],
-   "first_seen": "2026-09-17T21:00+03:00",
-   "published": null,
+   "first_seen": "2026-09-18T11:19+03:00",
+   "published": "2026-09-18",
    "verdict": "CONSIDER"
   },
   {
-   "score": 84.4,
+   "score": 79.8,
    "components": {
     "tier": 20,
     "category": 4,
     "lead": 0.0,
     "relevance": 24,
-    "freshness": 8.4,
-    "corroborated": 10,
+    "freshness": 19.8,
+    "undated": -6,
     "shock": 18
    },
    "keywords": [
@@ -857,33 +352,33 @@
    ],
    "dedupe_match": null,
    "dedupe_similarity": 0.0,
-   "id": "9636eb6fdf96",
-   "title": "Experts hail EAC\u2019s one- stop- border approach as coordinated efforts against Ebola outbreak",
-   "url": "https://dailynews.co.tz/experts-hail-eacs-one-stop-border-approach-as-coordinated-efforts-against-ebola-outbreak",
-   "summary": "NAMANGA: THE East Africa one- stop- border approach has been earmarked as one of the coordinated moves towards combating and spread of the 17th Ebola outbreak that started in 15 May 2026 following a case study by VillageReach According to Dr Ahmed Ogwell Ouma, who is the President and CEO of VillageReach, a partner in \u2026 The post Experts hail EAC\u2019s one- stop- border approach as coordinated efforts ",
+   "id": "d60673279c46",
+   "title": "Ebola Ebola outbreak not yet under control, CDC warns",
+   "url": "https://www.newvision.co.ug/category/health/ebola-outbreak-not-yet-under-control-cdc-warn",
+   "summary": "",
    "kind": "item",
-   "source": "Daily News (Tanzania)",
-   "source_id": "np-dailynews-tz",
+   "source": "New Vision (Uganda)",
+   "source_id": "np-newvision-ug",
    "tier": 2,
-   "country": "TZ",
+   "country": "UG",
    "category": "press",
    "segments": [
     "city",
     "bush",
     "beach"
    ],
-   "first_seen": "2026-09-17T21:00+03:00",
-   "published": "2026-09-17",
+   "first_seen": "2026-09-18T11:19+03:00",
+   "published": null,
    "verdict": "CONSIDER"
   },
   {
-   "score": 84.2,
+   "score": 79.8,
    "components": {
     "tier": 20,
     "category": 14,
     "lead": 8.4,
     "relevance": 12,
-    "freshness": 19.8,
+    "freshness": 15.4,
     "corroborated": 10
    },
    "keywords": [
@@ -913,13 +408,13 @@
    "verdict": "CONSIDER"
   },
   {
-   "score": 84.2,
+   "score": 79.8,
    "components": {
     "tier": 20,
     "category": 14,
     "lead": 8.4,
     "relevance": 12,
-    "freshness": 19.8,
+    "freshness": 15.4,
     "corroborated": 10
    },
    "keywords": [
@@ -949,452 +444,968 @@
    "verdict": "CONSIDER"
   },
   {
-   "score": 84.0,
+   "score": 75.8,
    "components": {
-    "tier": 40,
-    "category": 20,
-    "lead": 12.0,
-    "relevance": 0,
-    "freshness": 12.0
+    "tier": 20,
+    "category": 14,
+    "lead": 8.4,
+    "relevance": 8,
+    "freshness": 15.4,
+    "corroborated": 10
    },
-   "keywords": [],
+   "keywords": [
+    "route"
+   ],
    "shock_terms": [],
    "dedupe_match": null,
    "dedupe_similarity": 0.0,
-   "id": "c804369dcf66",
-   "title": "Kamunya v Kinyuru (Civil Appeal (Application) E096 of 2026) [2026] KECA 1679 (KLR) (16 September 2026) (Ruling)",
-   "url": "https://new.kenyalaw.org/akn/ke/judgment/keca/2026/1679/eng@2026-09-16",
-   "summary": "Kamunya v Kinyuru (Civil Appeal (Application) E096 of 2026) [2026] KECA 1679 (KLR) (16 September 2026) (Ruling)",
+   "id": "580b6c88a92f",
+   "title": "Trinity Airways Adds Seoul \u2013 Kobe From Dec 2026",
+   "url": "https://www.aeroroutes.com/eng/260917-twdec26ukb",
+   "summary": "Published at 1900PDT 17SEP26 / 0200GMT 18SEP26 Trinity Airways (formerly known as T'way Air) during Northern winter 2026/27 season plans to launch Seoul Incheon \u2013 Kobe route, on board Boeing 737-800 aircraft. The carrier will serve this route on daily basis, effective 18DEC26. TW335 ICN1410 \u2013 1555UKB 738 D TW336 UKB1655 \u2013 1855ICN 738 D",
    "kind": "item",
-   "source": "Kenya Gazette (Kenya Law)",
-   "source_id": "ke-gazette",
-   "tier": 1,
-   "country": "KE",
-   "category": "gazette",
+   "source": "AeroRoutes schedule filings",
+   "source_id": "aeroroutes",
+   "tier": 2,
+   "country": "GLOBAL",
+   "category": "aviation-tracker",
    "segments": [
     "city",
     "bush",
     "beach"
    ],
-   "first_seen": "2026-09-18T00:16+03:00",
-   "published": "2026-09-16",
+   "first_seen": "2026-09-18T07:21+03:00",
+   "published": "2026-09-18",
    "verdict": "CONSIDER"
   },
   {
-   "score": 84.0,
+   "score": 75.8,
    "components": {
-    "tier": 40,
-    "category": 20,
-    "lead": 12.0,
-    "relevance": 0,
-    "freshness": 12.0
+    "tier": 20,
+    "category": 14,
+    "lead": 8.4,
+    "relevance": 8,
+    "freshness": 15.4,
+    "corroborated": 10
    },
-   "keywords": [],
+   "keywords": [
+    "route"
+   ],
    "shock_terms": [],
    "dedupe_match": null,
    "dedupe_similarity": 0.0,
-   "id": "260ac525cdac",
-   "title": "In re Estate of Ong\u2019ang\u2019o (Deceased) (Succession Cause E172 of 2014) [2026] KEHC 13500 (KLR) (16 September 2026) (Ruling)",
-   "url": "https://new.kenyalaw.org/akn/ke/judgment/kehc/2026/13500/eng@2026-09-16",
-   "summary": "In re Estate of Ong\u2019ang\u2019o (Deceased) (Succession Cause E172 of 2014) [2026] KEHC 13500 (KLR) (16 September 2026) (Ruling)",
+   "id": "b98d5317974a",
+   "title": "AeroLogic/Lufthansa Cargo NW26 Taipei Routing Adjustments",
+   "url": "https://www.aeroroutes.com/eng/260917-lhcnw26tpe",
+   "summary": "Published at 1500PDT / 2200GMT 17SEP26 Lufthansa Cargo and AeroLogic during Northern winter 2026/27 season plans to maintain Frankfurt \u2013 Taipei Taoyuan \u2013 Dubai al Maktoum \u2013 Frankfurt routing, as the carrier previously planned to switch Middle East stop to Muscat. Previous planning to switch to Muscat was not highlighted on AeroRoutes . From 25OCT26, AeroLogic continues to serve this route 3 times ",
    "kind": "item",
-   "source": "Kenya Gazette (Kenya Law)",
-   "source_id": "ke-gazette",
-   "tier": 1,
-   "country": "KE",
-   "category": "gazette",
+   "source": "AeroRoutes schedule filings",
+   "source_id": "aeroroutes",
+   "tier": 2,
+   "country": "GLOBAL",
+   "category": "aviation-tracker",
    "segments": [
     "city",
     "bush",
     "beach"
    ],
-   "first_seen": "2026-09-18T00:16+03:00",
-   "published": "2026-09-16",
+   "first_seen": "2026-09-18T07:21+03:00",
+   "published": "2026-09-18",
    "verdict": "CONSIDER"
   },
   {
-   "score": 84.0,
+   "score": 71.6,
    "components": {
-    "tier": 40,
-    "category": 20,
-    "lead": 12.0,
-    "relevance": 0,
-    "freshness": 12.0
+    "tier": 20,
+    "category": 5,
+    "lead": 1.2,
+    "relevance": 20,
+    "freshness": 15.4,
+    "corroborated": 10
    },
-   "keywords": [],
+   "keywords": [
+    "fuel",
+    "capacity",
+    "airline"
+   ],
    "shock_terms": [],
    "dedupe_match": null,
    "dedupe_similarity": 0.0,
-   "id": "cccad5b3354e",
-   "title": "Londo v Ibrahim (Civil Suit E3389 of 2022) [2026] KEMC 882 (KLR) (16 September 2026) (Ruling)",
-   "url": "https://new.kenyalaw.org/akn/ke/judgment/kemc/2026/882/eng@2026-09-16",
-   "summary": "Londo v Ibrahim (Civil Suit E3389 of 2022) [2026] KEMC 882 (KLR) (16 September 2026) (Ruling)",
+   "id": "8337db2cdee8",
+   "title": "Ultra-Low-Cost Carriers Face Soaring Jet Fuel Costs With No Relief and Little Room to Raise Fares",
+   "url": "https://skift.com/2026/09/17/ultra-low-cost-airlines-renew-push-for-tax-break-to-offset-soaring-jet-fuel-costs",
+   "summary": "Rising fuel prices are once again becoming a concern for the airline industry. Some airline executives have said to expect more capacity cuts and higher airfares.",
    "kind": "item",
-   "source": "Kenya Gazette (Kenya Law)",
-   "source_id": "ke-gazette",
-   "tier": 1,
-   "country": "KE",
-   "category": "gazette",
+   "source": "Skift",
+   "source_id": "tp-skift",
+   "tier": 2,
+   "country": "GLOBAL",
+   "category": "trade",
    "segments": [
     "city",
     "bush",
     "beach"
    ],
-   "first_seen": "2026-09-18T00:16+03:00",
-   "published": "2026-09-16",
+   "first_seen": "2026-09-18T07:21+03:00",
+   "published": "2026-09-17",
    "verdict": "CONSIDER"
   },
   {
-   "score": 84.0,
+   "score": 67.8,
    "components": {
-    "tier": 40,
-    "category": 20,
-    "lead": 12.0,
+    "tier": 20,
+    "category": 14,
+    "lead": 8.4,
     "relevance": 0,
-    "freshness": 12.0
+    "freshness": 15.4,
+    "corroborated": 10
    },
    "keywords": [],
    "shock_terms": [],
    "dedupe_match": null,
    "dedupe_similarity": 0.0,
-   "id": "eb446a3be2b4",
-   "title": "Njiri v Waithera (Civil Suit E2292 of 2025) [2026] KEMC 881 (KLR) (16 September 2026) (Judgment)",
-   "url": "https://new.kenyalaw.org/akn/ke/judgment/kemc/2026/881/eng@2026-09-16",
-   "summary": "Njiri v Waithera (Civil Suit E2292 of 2025) [2026] KEMC 881 (KLR) (16 September 2026) (Judgment)",
+   "id": "ae8cbb3dfd11",
+   "title": "EGYPTAIR Cargo NW26 Network Additions",
+   "url": "https://www.aeroroutes.com/eng/260917-mscnw26",
+   "summary": "Published at 1600PDT / 2300GMT 17SEP26 EGYPTAIR Cargo during Northern winter 2026/27 season plans to add 2 destinations on board Airbus A330 Freighter, including service to Cardiff and Hanoi. Following schedules have been filed in the OAG since late-August 2026. Schedules below focuses on the month of December 2026. Cairo \u2013 Cardiff eff 30OCT26 1 daily A330 Freighter MS5530 CAI0730 \u2013 1050CWL 33X D ",
    "kind": "item",
-   "source": "Kenya Gazette (Kenya Law)",
-   "source_id": "ke-gazette",
-   "tier": 1,
-   "country": "KE",
-   "category": "gazette",
+   "source": "AeroRoutes schedule filings",
+   "source_id": "aeroroutes",
+   "tier": 2,
+   "country": "GLOBAL",
+   "category": "aviation-tracker",
    "segments": [
     "city",
     "bush",
     "beach"
    ],
-   "first_seen": "2026-09-18T00:16+03:00",
-   "published": "2026-09-16",
-   "verdict": "CONSIDER"
+   "first_seen": "2026-09-18T07:21+03:00",
+   "published": "2026-09-18",
+   "verdict": "weak"
   },
   {
-   "score": 84.0,
+   "score": 65.8,
    "components": {
-    "tier": 40,
-    "category": 20,
-    "lead": 12.0,
-    "relevance": 0,
-    "freshness": 12.0
+    "tier": 20,
+    "category": 4,
+    "lead": 0.0,
+    "relevance": 12,
+    "freshness": 19.8,
+    "corroborated": 10
    },
-   "keywords": [],
+   "keywords": [
+    "collapse"
+   ],
    "shock_terms": [],
    "dedupe_match": null,
    "dedupe_similarity": 0.0,
-   "id": "dff1b7b33d59",
-   "title": "Lingai v Teachers Service Commission (Employment and Labour Relations Cause E840 of 2025) [2026] KEELRC 2453 (KLR) (16 September 2026) (Ruling)",
-   "url": "https://new.kenyalaw.org/akn/ke/judgment/keelrc/2026/2453/eng@2026-09-16",
-   "summary": "Lingai v Teachers Service Commission (Employment and Labour Relations Cause E840 of 2025) [2026] KEELRC 2453 (KLR) (16 September 2026) (Ruling)",
+   "id": "794bf66f9f73",
+   "title": "Banks growth could be eroded as CBK imposes new licensing plan",
+   "url": "https://www.theeastafrican.co.ke/tea/business-tech/banks-growth-could-be-eroded-as-cbk-imposes-new-licensing-plan-5599054",
+   "summary": "CBK is putting more scrutiny on big lenders, given the disruption their collapse or distress...",
    "kind": "item",
-   "source": "Kenya Gazette (Kenya Law)",
-   "source_id": "ke-gazette",
-   "tier": 1,
-   "country": "KE",
-   "category": "gazette",
+   "source": "The EastAfrican",
+   "source_id": "np-eastafrican",
+   "tier": 2,
+   "country": "REG",
+   "category": "press",
    "segments": [
     "city",
     "bush",
     "beach"
    ],
-   "first_seen": "2026-09-18T00:16+03:00",
-   "published": "2026-09-16",
-   "verdict": "CONSIDER"
+   "first_seen": "2026-09-18T11:19+03:00",
+   "published": "2026-09-18",
+   "verdict": "weak"
   },
   {
-   "score": 84.0,
+   "score": 65.8,
    "components": {
-    "tier": 40,
-    "category": 20,
-    "lead": 12.0,
-    "relevance": 0,
-    "freshness": 12.0
+    "tier": 20,
+    "category": 4,
+    "lead": 0.0,
+    "relevance": 12,
+    "freshness": 19.8,
+    "corroborated": 10
    },
-   "keywords": [],
+   "keywords": [
+    "kidnap"
+   ],
    "shock_terms": [],
    "dedupe_match": null,
    "dedupe_similarity": 0.0,
-   "id": "2feb4a28224f",
-   "title": "Muhongo v Republic (DPP) (Criminal Revision E289 of 2024) [2026] KEHC 13499 (KLR) (16 September 2026) (Ruling)",
-   "url": "https://new.kenyalaw.org/akn/ke/judgment/kehc/2026/13499/eng@2026-09-16",
-   "summary": "Muhongo v Republic (DPP) (Criminal Revision E289 of 2024) [2026] KEHC 13499 (KLR) (16 September 2026) (Ruling)",
+   "id": "9f479efcf6e5",
+   "title": "Suspects in Buikwe kidnapping arrested, gun recovered",
+   "url": "https://www.monitor.co.ug/uganda/news/national/suspects-in-buikwe-kidnapping-arrested-gun-recovered-5599290",
+   "summary": "Their arrest also led to the recovery of a firearm believed to have been used in criminal...",
    "kind": "item",
-   "source": "Kenya Gazette (Kenya Law)",
-   "source_id": "ke-gazette",
-   "tier": 1,
-   "country": "KE",
-   "category": "gazette",
+   "source": "Daily Monitor (Uganda)",
+   "source_id": "np-monitor-ug",
+   "tier": 2,
+   "country": "UG",
+   "category": "press",
    "segments": [
     "city",
     "bush",
     "beach"
    ],
-   "first_seen": "2026-09-18T00:16+03:00",
-   "published": "2026-09-16",
-   "verdict": "CONSIDER"
+   "first_seen": "2026-09-18T11:19+03:00",
+   "published": "2026-09-18",
+   "verdict": "weak"
   },
   {
-   "score": 84.0,
+   "score": 64.0,
    "components": {
-    "tier": 40,
-    "category": 20,
-    "lead": 12.0,
-    "relevance": 0,
-    "freshness": 12.0
+    "tier": 20,
+    "category": 5,
+    "lead": 1.2,
+    "relevance": 8,
+    "freshness": 19.8,
+    "corroborated": 10
    },
-   "keywords": [],
+   "keywords": [
+    "route"
+   ],
    "shock_terms": [],
    "dedupe_match": null,
-   "dedupe_similarity": 0.0,
-   "id": "1dba3a344c7e",
-   "title": "Olalui Group Ranch v Konchella & 11 others (Civil Application E113 of 2026) [2026] KECA 1682 (KLR) (16 September 2026) (Ruling)",
-   "url": "https://new.kenyalaw.org/akn/ke/judgment/keca/2026/1682/eng@2026-09-16",
-   "summary": "Olalui Group Ranch v Konchella & 11 others (Civil Application E113 of 2026) [2026] KECA 1682 (KLR) (16 September 2026) (Ruling)",
+   "dedupe_similarity": 0.17,
+   "id": "9645b7e8000f",
+   "title": "British Airways announces new Tanzania routes and network update for summer 2027",
+   "url": "https://voyagesafriq.com/2026/09/18/british-airways-announces-new-tanzania-routes-and-network-update-for-summer-2027",
+   "summary": "British Airways is expanding its network with the addition of two new destinations in Tanzania \u2013 Kilimanjaro and Zanzibar. Launching in May 2027, these two new routes will offer customers [\u2026] The post British Airways announces new Tanzania routes and network update for summer 2027 appeared first on Voyages Afriq .",
    "kind": "item",
-   "source": "Kenya Gazette (Kenya Law)",
-   "source_id": "ke-gazette",
-   "tier": 1,
-   "country": "KE",
-   "category": "gazette",
+   "source": "VoyagesAfriq",
+   "source_id": "tp-voyagesafriq",
+   "tier": 2,
+   "country": "REG",
+   "category": "trade",
    "segments": [
     "city",
     "bush",
     "beach"
    ],
-   "first_seen": "2026-09-18T00:16+03:00",
-   "published": "2026-09-16",
-   "verdict": "CONSIDER"
+   "first_seen": "2026-09-18T11:19+03:00",
+   "published": "2026-09-18",
+   "verdict": "weak"
   },
   {
-   "score": 84.0,
+   "score": 61.8,
    "components": {
-    "tier": 40,
-    "category": 20,
-    "lead": 12.0,
-    "relevance": 0,
-    "freshness": 12.0
+    "tier": 20,
+    "category": 4,
+    "lead": 0.0,
+    "relevance": 8,
+    "freshness": 19.8,
+    "corroborated": 10
    },
-   "keywords": [],
+   "keywords": [
+    "election"
+   ],
    "shock_terms": [],
    "dedupe_match": null,
    "dedupe_similarity": 0.0,
-   "id": "81a57f848526",
-   "title": "Itegi v Kabuchu (Civil Application E091 of 2026) [2026] KECA 1681 (KLR) (16 September 2026) (Ruling)",
-   "url": "https://new.kenyalaw.org/akn/ke/judgment/keca/2026/1681/eng@2026-09-16",
-   "summary": "Itegi v Kabuchu (Civil Application E091 of 2026) [2026] KECA 1681 (KLR) (16 September 2026) (Ruling)",
+   "id": "1e11251436a9",
+   "title": "TKSA launches search for commonwealth Kabaddi players",
+   "url": "https://dailynews.co.tz/tksa-launches-search-for-commonwealth-kabaddi-players",
+   "summary": "DAR ES SALAAM: THE Tanzania National Kabaddi team has initiated a search for players for the 2026 Commonwealth Kabaddi Championship in India, with players from across the country invited to an initial meeting ahead of the selection process. The Tanzania Kabaddi Sports Association (TKSA) has scheduled the meeting for September 19 at Mwembeyanga Grounds in \u2026 The post TKSA launches search for commonw",
    "kind": "item",
-   "source": "Kenya Gazette (Kenya Law)",
-   "source_id": "ke-gazette",
-   "tier": 1,
-   "country": "KE",
-   "category": "gazette",
+   "source": "Daily News (Tanzania)",
+   "source_id": "np-dailynews-tz",
+   "tier": 2,
+   "country": "TZ",
+   "category": "press",
    "segments": [
     "city",
     "bush",
     "beach"
    ],
-   "first_seen": "2026-09-18T00:16+03:00",
-   "published": "2026-09-16",
-   "verdict": "CONSIDER"
+   "first_seen": "2026-09-18T11:19+03:00",
+   "published": "2026-09-18",
+   "verdict": "weak"
   },
   {
-   "score": 84.0,
+   "score": 61.8,
    "components": {
-    "tier": 40,
-    "category": 20,
-    "lead": 12.0,
-    "relevance": 0,
-    "freshness": 12.0
+    "tier": 20,
+    "category": 4,
+    "lead": 0.0,
+    "relevance": 8,
+    "freshness": 19.8,
+    "corroborated": 10
    },
-   "keywords": [],
+   "keywords": [
+    "vat"
+   ],
    "shock_terms": [],
    "dedupe_match": null,
    "dedupe_similarity": 0.0,
-   "id": "c0b7c39adcee",
-   "title": "Kiarie v Karai Farmers\u2019 Cooperative Society Ltd & another (Civil Appeal (Application) E006 of 2025) [2026] KECA 1680 (KLR) (16 September 2026) (Ruling)",
-   "url": "https://new.kenyalaw.org/akn/ke/judgment/keca/2026/1680/eng@2026-09-16",
-   "summary": "Kiarie v Karai Farmers\u2019 Cooperative Society Ltd & another (Civil Appeal (Application) E006 of 2025) [2026] KECA 1680 (KLR) (16 September 2026) (Ruling)",
+   "id": "3978ea641020",
+   "title": "AFCON 2027 PREPS: Motsepe says no plan B for host",
+   "url": "https://dailynews.co.tz/afcon-2027-preps-motsepe-says-no-plan-b-for-host",
+   "summary": "DAR ES SALAAM: CONF\u00c9D\u00c9RATION Africaine de Football (CAF) President Patrice Motsepe has issued a resounding vote of confidence in East Africa\u2019s readiness for the 2027 Africa Cup of Nations, firmly shutting down reports that the continental governing body is considering alternative hosts. Speaking after inspecting the ongoing renovations at the Benjamin Mkapa Stadium in Dar \u2026 The post AFCON 2027 PRE",
    "kind": "item",
-   "source": "Kenya Gazette (Kenya Law)",
-   "source_id": "ke-gazette",
-   "tier": 1,
-   "country": "KE",
-   "category": "gazette",
+   "source": "Daily News (Tanzania)",
+   "source_id": "np-dailynews-tz",
+   "tier": 2,
+   "country": "TZ",
+   "category": "press",
    "segments": [
     "city",
     "bush",
     "beach"
    ],
-   "first_seen": "2026-09-18T00:16+03:00",
-   "published": "2026-09-16",
-   "verdict": "CONSIDER"
+   "first_seen": "2026-09-18T11:19+03:00",
+   "published": "2026-09-18",
+   "verdict": "weak"
   },
   {
-   "score": 84.0,
+   "score": 61.8,
    "components": {
-    "tier": 40,
-    "category": 20,
-    "lead": 12.0,
-    "relevance": 0,
-    "freshness": 12.0
+    "tier": 20,
+    "category": 4,
+    "lead": 0.0,
+    "relevance": 8,
+    "freshness": 19.8,
+    "corroborated": 10
    },
-   "keywords": [],
+   "keywords": [
+    "vat"
+   ],
    "shock_terms": [],
    "dedupe_match": null,
    "dedupe_similarity": 0.0,
-   "id": "caee7039ae14",
-   "title": "Shah & another v Murithi t/a Squad Three Services & 6 others; Ndaba & another (Interested Parties) (Environment and Land Case E258 of 2025) [2026] KEELC 5424 (KLR) (16 September 2026) (Ruling)",
-   "url": "https://new.kenyalaw.org/akn/ke/judgment/keelc/2026/5424/eng@2026-09-16",
-   "summary": "Shah & another v Murithi t/a Squad Three Services & 6 others; Ndaba & another (Interested Parties) (Environment and Land Case E258 of 2025) [2026] KEELC 5424 (KLR) (16 September 2026) (Ruling)",
+   "id": "60ff5f8a4943",
+   "title": "The Crown, the grief and Baby King",
+   "url": "https://www.monitor.co.ug/uganda/lifestyle/reviews-profiles/the-crown-the-grief-and-baby-king-5597852",
+   "summary": "Nothing travels faster than a PDF marked private and confidential. Within hours there were...",
    "kind": "item",
-   "source": "Kenya Gazette (Kenya Law)",
-   "source_id": "ke-gazette",
-   "tier": 1,
-   "country": "KE",
-   "category": "gazette",
+   "source": "Daily Monitor (Uganda)",
+   "source_id": "np-monitor-ug",
+   "tier": 2,
+   "country": "UG",
+   "category": "press",
    "segments": [
     "city",
     "bush",
     "beach"
    ],
-   "first_seen": "2026-09-18T00:16+03:00",
-   "published": "2026-09-16",
-   "verdict": "CONSIDER"
+   "first_seen": "2026-09-18T11:19+03:00",
+   "published": "2026-09-18",
+   "verdict": "weak"
   },
   {
-   "score": 84.0,
+   "score": 61.8,
    "components": {
-    "tier": 40,
-    "category": 20,
-    "lead": 12.0,
-    "relevance": 0,
-    "freshness": 12.0
+    "tier": 20,
+    "category": 4,
+    "lead": 0.0,
+    "relevance": 8,
+    "freshness": 19.8,
+    "corroborated": 10
    },
-   "keywords": [],
+   "keywords": [
+    "inflation",
+    "shilling"
+   ],
    "shock_terms": [],
    "dedupe_match": null,
-   "dedupe_similarity": 0.0,
-   "id": "c488cae95a0f",
-   "title": "Shah v Medivet Products Ltd & 2 others (Commercial Civil Suit E727 of 2022) [2026] KEMC 880 (KLR) (16 September 2026) (Ruling)",
-   "url": "https://new.kenyalaw.org/akn/ke/judgment/kemc/2026/880/eng@2026-09-16",
-   "summary": "Shah v Medivet Products Ltd & 2 others (Commercial Civil Suit E727 of 2022) [2026] KEMC 880 (KLR) (16 September 2026) (Ruling)",
+   "dedupe_similarity": 0.2,
+   "id": "992e53f76a7a",
+   "title": "Rising prices, weak shilling push BoU to tighten money supply",
+   "url": "https://www.monitor.co.ug/uganda/business/markets/rising-prices-weak-shilling-push-bou-to-tighten-money-supply-5599088",
+   "summary": "Bank of Uganda is tightening money supply as a weakening shilling and rising inflation create...",
    "kind": "item",
-   "source": "Kenya Gazette (Kenya Law)",
-   "source_id": "ke-gazette",
-   "tier": 1,
-   "country": "KE",
-   "category": "gazette",
+   "source": "Daily Monitor (Uganda)",
+   "source_id": "np-monitor-ug",
+   "tier": 2,
+   "country": "UG",
+   "category": "press",
    "segments": [
     "city",
     "bush",
     "beach"
    ],
-   "first_seen": "2026-09-18T00:16+03:00",
-   "published": "2026-09-16",
-   "verdict": "CONSIDER"
+   "first_seen": "2026-09-18T11:19+03:00",
+   "published": "2026-09-18",
+   "verdict": "weak"
   },
   {
-   "score": 84.0,
+   "score": 61.8,
    "components": {
-    "tier": 40,
-    "category": 20,
-    "lead": 12.0,
-    "relevance": 0,
-    "freshness": 12.0
+    "tier": 20,
+    "category": 4,
+    "lead": 0.0,
+    "relevance": 8,
+    "freshness": 19.8,
+    "corroborated": 10
    },
-   "keywords": [],
+   "keywords": [
+    "election"
+   ],
    "shock_terms": [],
    "dedupe_match": null,
    "dedupe_similarity": 0.0,
-   "id": "b3351cee4dfd",
-   "title": "Kariuki v Board of Management, Gichuru High School (Cause E970 of 2024) [2026] KEELRC 2452 (KLR) (16 September 2026) (Judgment)",
-   "url": "https://new.kenyalaw.org/akn/ke/judgment/keelrc/2026/2452/eng@2026-09-16",
-   "summary": "Kariuki v Board of Management, Gichuru High School (Cause E970 of 2024) [2026] KEELRC 2452 (KLR) (16 September 2026) (Judgment)",
+   "id": "1e1ff4fd6df9",
+   "title": "NRM\u2019s Leku wins Adjumani West by-election",
+   "url": "https://www.monitor.co.ug/uganda/news/national/-nrm-s-leku-wins-adjumani-west-by-election-5599276",
+   "summary": "There was low voter turnout",
    "kind": "item",
-   "source": "Kenya Gazette (Kenya Law)",
-   "source_id": "ke-gazette",
-   "tier": 1,
-   "country": "KE",
-   "category": "gazette",
+   "source": "Daily Monitor (Uganda)",
+   "source_id": "np-monitor-ug",
+   "tier": 2,
+   "country": "UG",
+   "category": "press",
    "segments": [
     "city",
     "bush",
     "beach"
    ],
-   "first_seen": "2026-09-18T00:16+03:00",
-   "published": "2026-09-16",
-   "verdict": "CONSIDER"
+   "first_seen": "2026-09-18T11:19+03:00",
+   "published": "2026-09-18",
+   "verdict": "weak"
   },
   {
-   "score": 84.0,
+   "score": 58.0,
    "components": {
-    "tier": 40,
-    "category": 20,
-    "lead": 12.0,
-    "relevance": 0,
-    "freshness": 12.0
+    "tier": 20,
+    "category": 5,
+    "lead": 3.6,
+    "relevance": 4,
+    "freshness": 15.4,
+    "corroborated": 10
    },
-   "keywords": [],
+   "keywords": [
+    "hotel"
+   ],
    "shock_terms": [],
    "dedupe_match": null,
-   "dedupe_similarity": 0.0,
-   "id": "65644c9eddcc",
-   "title": "Lidigu alias Chale v Republic (Criminal Appeal E033 of 2025) [2026] KEHC 13497 (KLR) (16 September 2026) (Judgment)",
-   "url": "https://new.kenyalaw.org/akn/ke/judgment/kehc/2026/13497/eng@2026-09-16",
-   "summary": "Lidigu alias Chale v Republic (Criminal Appeal E033 of 2025) [2026] KEHC 13497 (KLR) (16 September 2026) (Judgment)",
+   "dedupe_similarity": 0.17,
+   "id": "637fb3a84741",
+   "title": "Unlocking Longevity: When the Key Card is an Invitation to Move",
+   "url": "https://www.hospitalitynet.org/news/4134444/unlocking-longevity-when-the-key-card-is-an-invitation-to-move",
+   "summary": "The piece argues hotels can foster longevity through self-initiated movement by repurposing the key card as a symbolic invitation to explore destinations on foot, by bike, or on the slopes.",
    "kind": "item",
-   "source": "Kenya Gazette (Kenya Law)",
-   "source_id": "ke-gazette",
-   "tier": 1,
-   "country": "KE",
-   "category": "gazette",
+   "source": "Hospitality Net \u2014 Africa announcements",
+   "source_id": "dev-hospitalitynet-africa",
+   "tier": 2,
+   "country": "REG",
+   "category": "trade",
    "segments": [
     "city",
     "bush",
     "beach"
    ],
-   "first_seen": "2026-09-18T00:16+03:00",
-   "published": "2026-09-16",
-   "verdict": "CONSIDER"
+   "first_seen": "2026-09-18T07:21+03:00",
+   "published": "2026-09-18",
+   "verdict": "weak"
   },
   {
-   "score": 84.0,
+   "score": 57.8,
    "components": {
-    "tier": 40,
-    "category": 20,
-    "lead": 12.0,
-    "relevance": 0,
-    "freshness": 12.0
+    "tier": 20,
+    "category": 4,
+    "lead": 0.0,
+    "relevance": 4,
+    "freshness": 19.8,
+    "corroborated": 10
    },
-   "keywords": [],
+   "keywords": [
+    "investment"
+   ],
    "shock_terms": [],
    "dedupe_match": null,
    "dedupe_similarity": 0.0,
-   "id": "faa65518be41",
-   "title": "Okello & 6 others v Letting alias Kokwa & another (Environment and Land Case 136 of 2015) [2026] KEELC 5423 (KLR) (16 September 2026) (Ruling)",
-   "url": "https://new.kenyalaw.org/akn/ke/judgment/keelc/2026/5423/eng@2026-09-16",
-   "summary": "Okello & 6 others v Letting alias Kokwa & another (Environment and Land Case 136 of 2015) [2026] KEELC 5423 (KLR) (16 September 2026) (Ruling)",
+   "id": "1cb19de90fd8",
+   "title": "Tanzania\u2019s critical minerals future depends on balancing investment, industrial growth, community rights",
+   "url": "https://dailynews.co.tz/tanzanias-critical-minerals-future-depends-on-balancing-investment-industrial-growth-community-rights",
+   "summary": "TANZANIA: TANZANIA\u2019S push to develop its critical-minerals sector could mark a significant new chapter in the country\u2019s industrial development. But as graphite and other strategic minerals attract growing attention from investors and global markets, another question is becoming increasingly important: How much of that opportunity will be felt by the communities where mining projects are \u2026 The post",
    "kind": "item",
-   "source": "Kenya Gazette (Kenya Law)",
-   "source_id": "ke-gazette",
-   "tier": 1,
-   "country": "KE",
-   "category": "gazette",
+   "source": "Daily News (Tanzania)",
+   "source_id": "np-dailynews-tz",
+   "tier": 2,
+   "country": "TZ",
+   "category": "press",
    "segments": [
     "city",
     "bush",
     "beach"
    ],
-   "first_seen": "2026-09-18T00:16+03:00",
-   "published": "2026-09-16",
-   "verdict": "CONSIDER"
+   "first_seen": "2026-09-18T11:19+03:00",
+   "published": "2026-09-18",
+   "verdict": "weak"
+  },
+  {
+   "score": 57.8,
+   "components": {
+    "tier": 20,
+    "category": 4,
+    "lead": 0.0,
+    "relevance": 4,
+    "freshness": 19.8,
+    "corroborated": 10
+   },
+   "keywords": [
+    "investment"
+   ],
+   "shock_terms": [],
+   "dedupe_match": null,
+   "dedupe_similarity": 0.0,
+   "id": "da4184ecab4c",
+   "title": "LRCT reviews laws for Vision 2050",
+   "url": "https://dailynews.co.tz/lrct-reviews-laws-for-vision-2050",
+   "summary": "DAR ES SALAAM: TANZANIA has begun reviewing laws governing land, investment, energy and e-commerce as part of efforts to align the country\u2019s legal framework with the National Development Vision 2050 and create a more predictable environment for businesses and investors. The Law Reform Commission of Tanzania (LRCT) said the reforms aim to modernise the country\u2019s \u2026 The post LRCT reviews laws for Vis",
+   "kind": "item",
+   "source": "Daily News (Tanzania)",
+   "source_id": "np-dailynews-tz",
+   "tier": 2,
+   "country": "TZ",
+   "category": "press",
+   "segments": [
+    "city",
+    "bush",
+    "beach"
+   ],
+   "first_seen": "2026-09-18T11:19+03:00",
+   "published": "2026-09-18",
+   "verdict": "weak"
+  },
+  {
+   "score": 57.8,
+   "components": {
+    "tier": 20,
+    "category": 4,
+    "lead": 0.0,
+    "relevance": 4,
+    "freshness": 19.8,
+    "corroborated": 10
+   },
+   "keywords": [
+    "camp"
+   ],
+   "shock_terms": [],
+   "dedupe_match": null,
+   "dedupe_similarity": 0.17,
+   "id": "588d7837041d",
+   "title": "Free reconstructive surgery camp set for Bukoba",
+   "url": "https://dailynews.co.tz/free-reconstructive-surgery-camp-set-for-bukoba",
+   "summary": "KAGERA: RESIDENTS living with birth defects, burn injuries and other deformities will receive free specialised treatment during a five-day plastic and reconstructive surgery camp scheduled for December 7-11 at Bukoba Regional Referral Hospital (BRRH). The outreach programme will be conducted jointly by specialists from BRRH and Jirani Plastic Foundation, bringing advanced surgical services closer ",
+   "kind": "item",
+   "source": "Daily News (Tanzania)",
+   "source_id": "np-dailynews-tz",
+   "tier": 2,
+   "country": "TZ",
+   "category": "press",
+   "segments": [
+    "city",
+    "bush",
+    "beach"
+   ],
+   "first_seen": "2026-09-18T11:19+03:00",
+   "published": "2026-09-18",
+   "verdict": "weak"
+  },
+  {
+   "score": 57.8,
+   "components": {
+    "tier": 20,
+    "category": 4,
+    "lead": 0.0,
+    "relevance": 4,
+    "freshness": 19.8,
+    "corroborated": 10
+   },
+   "keywords": [
+    "conference"
+   ],
+   "shock_terms": [],
+   "dedupe_match": null,
+   "dedupe_similarity": 0.17,
+   "id": "679b57eec83e",
+   "title": "Uganda Urged to Strengthen Digital Trust as Cyber Threats Grow",
+   "url": "https://softpower.ug/uganda-urged-to-strengthen-digital-trust-as-cyber-threats-grow",
+   "summary": "Uganda\u2019s rapid transition to a digital economy has increased the need for stronger cybersecurity, digital infrastructure, skills and public awareness, experts have said. The call was made during the 15th Annual East Africa Information Security Conference, held under the theme \u201cSecuring the Future Through Digital Trust.\u201d The three-day conference brings together cybersecurity professionals, regulato",
+   "kind": "item",
+   "source": "SoftPower News \u2014 Tourism & Travel (Uganda)",
+   "source_id": "ug-softpower-tourism",
+   "tier": 2,
+   "country": "UG",
+   "category": "press",
+   "segments": [
+    "bush",
+    "city"
+   ],
+   "first_seen": "2026-09-18T11:19+03:00",
+   "published": "2026-09-17",
+   "verdict": "weak"
+  },
+  {
+   "score": 57.8,
+   "components": {
+    "tier": 20,
+    "category": 4,
+    "lead": 0.0,
+    "relevance": 4,
+    "freshness": 19.8,
+    "corroborated": 10
+   },
+   "keywords": [
+    "shilling"
+   ],
+   "shock_terms": [],
+   "dedupe_match": null,
+   "dedupe_similarity": 0.0,
+   "id": "91600c4526dc",
+   "title": "Why the shilling is sliding: What BoU is doing about it",
+   "url": "https://www.monitor.co.ug/uganda/business/markets/why-the-shilling-is-sliding-what-bou-is-doing-about-it-5599050",
+   "summary": "In August, the shilling traded at a median of Shs3,740, but has since depreciated to Shs3,920...",
+   "kind": "item",
+   "source": "Daily Monitor (Uganda)",
+   "source_id": "np-monitor-ug",
+   "tier": 2,
+   "country": "UG",
+   "category": "press",
+   "segments": [
+    "city",
+    "bush",
+    "beach"
+   ],
+   "first_seen": "2026-09-18T11:19+03:00",
+   "published": "2026-09-18",
+   "verdict": "weak"
+  },
+  {
+   "score": 57.8,
+   "components": {
+    "tier": 20,
+    "category": 4,
+    "lead": 0.0,
+    "relevance": 20,
+    "freshness": 19.8,
+    "undated": -6
+   },
+   "keywords": [
+    "levy",
+    "tax",
+    "tourism"
+   ],
+   "shock_terms": [],
+   "dedupe_match": null,
+   "dedupe_similarity": 0.0,
+   "id": "dec285c18124",
+   "title": "Economy Sh1bn tourism levy collection shortfall on delayed Airbnb tax 19 hours ago - 4 min read",
+   "url": "https://www.businessdailyafrica.com/bd/economy/sh1bn-tourism-levy-collection-shortfall-on-delayed-airbnb-tax-5598718",
+   "summary": "",
+   "kind": "item",
+   "source": "Business Daily Africa",
+   "source_id": "np-businessdaily",
+   "tier": 2,
+   "country": "KE",
+   "category": "press",
+   "segments": [
+    "city",
+    "bush",
+    "beach"
+   ],
+   "first_seen": "2026-09-18T11:19+03:00",
+   "published": null,
+   "verdict": "weak"
+  },
+  {
+   "score": 53.8,
+   "components": {
+    "tier": 20,
+    "category": 4,
+    "lead": 0.0,
+    "relevance": 0,
+    "freshness": 19.8,
+    "corroborated": 10
+   },
+   "keywords": [],
+   "shock_terms": [],
+   "dedupe_match": null,
+   "dedupe_similarity": 0.2,
+   "id": "cf199e764102",
+   "title": "Barker: It was not easy against Azam",
+   "url": "https://dailynews.co.tz/barker-it-was-not-easy-against-azam",
+   "summary": "DAR ES SALAAM: SIMBA SC coach Steve Barker hailed his players after their 2-0 victory over Azam FC on Wednesday, saying the result was a significant step in their push for the Premier League title. Simba secured the three points at the Azam Complex Stadium while keeping a clean sheet, extending their strong start to \u2026 The post Barker: It was not easy against Azam appeared first on Daily News .",
+   "kind": "item",
+   "source": "Daily News (Tanzania)",
+   "source_id": "np-dailynews-tz",
+   "tier": 2,
+   "country": "TZ",
+   "category": "press",
+   "segments": [
+    "city",
+    "bush",
+    "beach"
+   ],
+   "first_seen": "2026-09-18T11:19+03:00",
+   "published": "2026-09-18",
+   "verdict": "weak"
+  },
+  {
+   "score": 53.8,
+   "components": {
+    "tier": 20,
+    "category": 4,
+    "lead": 0.0,
+    "relevance": 0,
+    "freshness": 19.8,
+    "corroborated": 10
+   },
+   "keywords": [],
+   "shock_terms": [],
+   "dedupe_match": null,
+   "dedupe_similarity": 0.0,
+   "id": "6d64d4cbf8f6",
+   "title": "Why TZ cannot afford to lose its cotton future",
+   "url": "https://dailynews.co.tz/why-tz-cannot-afford-to-lose-its-cotton-future",
+   "summary": "COTTON has historically contributed to Tanzania\u2019s industrial growth by supporting countless farmers, supplying the textile sector, and generating essential export revenue. Today, that foundation is eroding. In Tanzania, the cotton season typically begins with planting between November and January, while harvesting takes place from June to September. The Lake Zone remains the country\u2019s primary cott",
+   "kind": "item",
+   "source": "Daily News (Tanzania)",
+   "source_id": "np-dailynews-tz",
+   "tier": 2,
+   "country": "TZ",
+   "category": "press",
+   "segments": [
+    "city",
+    "bush",
+    "beach"
+   ],
+   "first_seen": "2026-09-18T11:19+03:00",
+   "published": "2026-09-18",
+   "verdict": "weak"
+  },
+  {
+   "score": 53.8,
+   "components": {
+    "tier": 20,
+    "category": 4,
+    "lead": 0.0,
+    "relevance": 0,
+    "freshness": 19.8,
+    "corroborated": 10
+   },
+   "keywords": [],
+   "shock_terms": [],
+   "dedupe_match": null,
+   "dedupe_similarity": 0.0,
+   "id": "c26fb77e1de0",
+   "title": "With the transfer window closed, how come these guys haven\u2019t moved at all?",
+   "url": "https://dailynews.co.tz/with-the-transfer-window-closed-how-come-these-guys-havent-moved-at-all",
+   "summary": "THE summer transfer window has been closed for a while now and while everyone talks about new additions like Enzo Fernandez to Manchester City on deadline day, or Youri Tielemans to Man United, or Rodri to Barcelona, it\u2019s also surprising that some names haven\u2019t been sung by Fabrizio across all that time despite their situations \u2026 The post With the transfer window closed, how come these guys haven\u2019",
+   "kind": "item",
+   "source": "Daily News (Tanzania)",
+   "source_id": "np-dailynews-tz",
+   "tier": 2,
+   "country": "TZ",
+   "category": "press",
+   "segments": [
+    "city",
+    "bush",
+    "beach"
+   ],
+   "first_seen": "2026-09-18T11:19+03:00",
+   "published": "2026-09-18",
+   "verdict": "weak"
+  },
+  {
+   "score": 53.8,
+   "components": {
+    "tier": 20,
+    "category": 4,
+    "lead": 0.0,
+    "relevance": 0,
+    "freshness": 19.8,
+    "corroborated": 10
+   },
+   "keywords": [],
+   "shock_terms": [],
+   "dedupe_match": null,
+   "dedupe_similarity": 0.17,
+   "id": "fa67043497c7",
+   "title": "Roadside traders told to move into new areas",
+   "url": "https://dailynews.co.tz/roadside-traders-told-to-move-into-new-areas",
+   "summary": "MWANZA: MWANZA Regional Commissioner, CP Salum Hamduni has directed roadside traders to relocate to officially designated markets, saying the move will improve public safety, reduce congestion and create a more organised trading environment. The directive follows concerns over the growing number of vendors operating along roads despite the availability of space in established markets across \u2026 The ",
+   "kind": "item",
+   "source": "Daily News (Tanzania)",
+   "source_id": "np-dailynews-tz",
+   "tier": 2,
+   "country": "TZ",
+   "category": "press",
+   "segments": [
+    "city",
+    "bush",
+    "beach"
+   ],
+   "first_seen": "2026-09-18T11:19+03:00",
+   "published": "2026-09-18",
+   "verdict": "weak"
+  },
+  {
+   "score": 53.8,
+   "components": {
+    "tier": 20,
+    "category": 4,
+    "lead": 0.0,
+    "relevance": 0,
+    "freshness": 19.8,
+    "corroborated": 10
+   },
+   "keywords": [],
+   "shock_terms": [],
+   "dedupe_match": null,
+   "dedupe_similarity": 0.17,
+   "id": "35742d30c7c2",
+   "title": "Tanzania\u2019s visionary partnership with Barcelona guarantees more than AFCON 2027 glory",
+   "url": "https://dailynews.co.tz/tanzanias-visionary-partnership-with-barcelona-guarantees-more-than-afcon-2027-glory",
+   "summary": "TANZANIA: IN a moment that will be remembered as a turning point for Tanzanian football, our nation has once again demonstrated visionary leadership on the world stage. As Tanzania, together with our East African brothers, Kenya and Uganda, prepares to host the most prestigious football tournament in Africa, the AFCON finals, the Ministry of Sports, \u2026 The post Tanzania\u2019s visionary partnership with",
+   "kind": "item",
+   "source": "Daily News (Tanzania)",
+   "source_id": "np-dailynews-tz",
+   "tier": 2,
+   "country": "TZ",
+   "category": "press",
+   "segments": [
+    "city",
+    "bush",
+    "beach"
+   ],
+   "first_seen": "2026-09-18T11:19+03:00",
+   "published": "2026-09-18",
+   "verdict": "weak"
+  },
+  {
+   "score": 53.8,
+   "components": {
+    "tier": 20,
+    "category": 4,
+    "lead": 0.0,
+    "relevance": 0,
+    "freshness": 19.8,
+    "corroborated": 10
+   },
+   "keywords": [],
+   "shock_terms": [],
+   "dedupe_match": null,
+   "dedupe_similarity": 0.0,
+   "id": "8b0cd7ab61b7",
+   "title": "12 arrested after viral video shows teenager being assaulted in Kampala",
+   "url": "https://www.monitor.co.ug/uganda/news/national/12-arrested-after-viral-video-shows-teenager-being-assaulted-in-kampala-5599336",
+   "summary": "The dozen were seen in the video, which made the rounds on social media, punching the teenager,...",
+   "kind": "item",
+   "source": "Daily Monitor (Uganda)",
+   "source_id": "np-monitor-ug",
+   "tier": 2,
+   "country": "UG",
+   "category": "press",
+   "segments": [
+    "city",
+    "bush",
+    "beach"
+   ],
+   "first_seen": "2026-09-18T11:19+03:00",
+   "published": "2026-09-18",
+   "verdict": "weak"
+  },
+  {
+   "score": 53.8,
+   "components": {
+    "tier": 20,
+    "category": 4,
+    "lead": 0.0,
+    "relevance": 0,
+    "freshness": 19.8,
+    "corroborated": 10
+   },
+   "keywords": [],
+   "shock_terms": [],
+   "dedupe_match": null,
+   "dedupe_similarity": 0.17,
+   "id": "5639949371ff",
+   "title": "The silent battles Nyabongo I will face as new Tooro king",
+   "url": "https://www.monitor.co.ug/uganda/news/national/the-silent-battles-nyabongo-i-will-face-as-new-tooro-king-5599308",
+   "summary": "Nyabongo I will inherit more than the crown of one of Uganda's oldest traditional institutions.",
+   "kind": "item",
+   "source": "Daily Monitor (Uganda)",
+   "source_id": "np-monitor-ug",
+   "tier": 2,
+   "country": "UG",
+   "category": "press",
+   "segments": [
+    "city",
+    "bush",
+    "beach"
+   ],
+   "first_seen": "2026-09-18T11:19+03:00",
+   "published": "2026-09-18",
+   "verdict": "weak"
+  },
+  {
+   "score": 53.8,
+   "components": {
+    "tier": 20,
+    "category": 4,
+    "lead": 0.0,
+    "relevance": 0,
+    "freshness": 19.8,
+    "corroborated": 10
+   },
+   "keywords": [],
+   "shock_terms": [],
+   "dedupe_match": null,
+   "dedupe_similarity": 0.0,
+   "id": "9633b8b3226e",
+   "title": "Shs394b cassava plant stuck due to energy crisis",
+   "url": "https://www.monitor.co.ug/uganda/news/national/shs394b-cassava-plant-stuck-due-to-energy-crisis-5599300",
+   "summary": "The plant, which sits on about 700 acres, is designed to process up to 500 tonnes of cassava a...",
+   "kind": "item",
+   "source": "Daily Monitor (Uganda)",
+   "source_id": "np-monitor-ug",
+   "tier": 2,
+   "country": "UG",
+   "category": "press",
+   "segments": [
+    "city",
+    "bush",
+    "beach"
+   ],
+   "first_seen": "2026-09-18T11:19+03:00",
+   "published": "2026-09-18",
+   "verdict": "weak"
+  },
+  {
+   "score": 53.8,
+   "components": {
+    "tier": 20,
+    "category": 4,
+    "lead": 0.0,
+    "relevance": 0,
+    "freshness": 19.8,
+    "corroborated": 10
+   },
+   "keywords": [],
+   "shock_terms": [],
+   "dedupe_match": null,
+   "dedupe_similarity": 0.0,
+   "id": "1fa3f335077b",
+   "title": "Poll petitions: Tension as rivals bring evidence",
+   "url": "https://www.monitor.co.ug/uganda/news/national/poll-petitions-tension-as-rivals-bring-evidence-5599288",
+   "summary": "Since pre-trial scheduling sessions started on Monday, some embattled legislators have not...",
+   "kind": "item",
+   "source": "Daily Monitor (Uganda)",
+   "source_id": "np-monitor-ug",
+   "tier": 2,
+   "country": "UG",
+   "category": "press",
+   "segments": [
+    "city",
+    "bush",
+    "beach"
+   ],
+   "first_seen": "2026-09-18T11:19+03:00",
+   "published": "2026-09-18",
+   "verdict": "weak"
   }
  ]
 }
