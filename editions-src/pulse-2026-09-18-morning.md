@@ -18,8 +18,8 @@ CityBlue Hotels — Nairobi, Mombasa, Kigali, Dar es Salaam, Accra — announced
 ━━━━━━━━━
 💬 Full Big Read, in full: the sourcing, the sweet-spot finding, and what East Africa is getting right that bigger chains are still missing.
 
-📖 Read the full Big Read: https://eahospitalitypulse.com/guides/africa-hotels-ai-adoption-proof-problem.html
-🔗 This edition on the web: https://eahospitalitypulse.com/editions/pulse-2026-09-18-morning.html
+📖 Read the full Big Read: https://eahospitalitypulse.com/guides/africa-hotels-ai-adoption-proof-problem
+🔗 This edition on the web: https://eahospitalitypulse.com/editions/pulse-2026-09-18-morning
 💼 Also on LinkedIn: https://www.linkedin.com/company/ea-hospitality-pulse/
 — EA Hospitality Pulse | Daily intelligence for city, bush & beach properties
 
@@ -35,7 +35,7 @@ _Big Read Special · Fri 18 Sep_
 📊 *NUMBER OF THE DAY*
 *8%* — share of hotel chains worldwide with a company-wide AI strategy at all (RateGain/NYU/HEDNA "State of Distribution 2026", Sep 2026)
 
-📖 Read the full Big Read → https://eahospitalitypulse.com/guides/africa-hotels-ai-adoption-proof-problem.html
+📖 Read the full Big Read → https://eahospitalitypulse.com/guides/africa-hotels-ai-adoption-proof-problem
 🔗 Full analysis → https://t.me/eahospitalitypulse
 
 Karibu siku njema.
@@ -86,7 +86,7 @@ We track this daily at EA Hospitality Pulse.
 
 ### FIRST COMMENT
 
-📖 This edition in full: https://eahospitalitypulse.com/editions/pulse-2026-09-18-morning.html
+📖 This edition in full: https://eahospitalitypulse.com/editions/pulse-2026-09-18-morning
 📣 Daily briefs on Telegram: https://t.me/eahospitalitypulse
 💬 The 15-second version on WhatsApp: https://whatsapp.com/channel/0029VbCjul2KmCPTv8Qrh73b
 🗂 Archive, live travel advisory board and rate index: https://eahospitalitypulse.com

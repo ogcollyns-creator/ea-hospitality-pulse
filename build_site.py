@@ -1350,7 +1350,8 @@ def polish_static_heads():
         page_title = html.unescape(_t.group(1).strip()) if _t else "EA Hospitality Pulse"
         page_desc = html.unescape(_d.group(1).strip()) if _d else ""
         _c = re.search(r'<link rel="canonical" href="([^"]*)"', head)
-        page_url = _c.group(1) if _c else f"{BASE}/{rel}"
+        _clean_rel = rel[:-5] if rel.endswith(".html") else rel
+        page_url = _c.group(1) if _c else f"{BASE}/{_clean_rel}"
 
         if '<meta property="og:' not in head:
             add.append('<meta property="og:type" content="website">')
@@ -1377,7 +1378,7 @@ def polish_static_heads():
         if '<meta property="og:locale"' not in head:
             add.append('<meta property="og:locale" content="en_GB">')
         if '<link rel="canonical"' not in head:
-            add.append(f'<link rel="canonical" href="{BASE}/{rel}">')
+            add.append(f'<link rel="canonical" href="{BASE}/{_clean_rel}">')
 
         if add:
             doc = doc.replace("</head>",
