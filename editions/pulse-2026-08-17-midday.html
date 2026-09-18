@@ -59,6 +59,14 @@ header.s b{font-size:16px}
 .art .hero{display:block;width:calc(100% + 60px);height:auto;margin:-26px -30px 20px -30px;aspect-ratio:1200/630;object-fit:cover;background:var(--teal-d)}
 /* Cards and generated graphics are composed to the frame: show them whole. */
 .art .hero.graphic{object-fit:contain}
+.share-wrap{position:relative;display:inline-flex;align-items:center;margin:2px 0 18px}
+.share-btn{display:inline-flex;align-items:center;gap:7px;font-family:var(--sans);font-size:13px;font-weight:700;color:var(--teal-d);background:var(--sand-2);border:1px solid var(--line);border-radius:20px;padding:7px 14px;cursor:pointer}
+.share-btn:hover{border-color:var(--gold);color:var(--gold-d)}
+.share-btn svg{width:14px;height:14px;fill:currentColor}
+.share-menu{position:absolute;top:calc(100% + 6px);left:0;z-index:30;background:var(--card);border:1px solid var(--line);border-radius:var(--r-sm);box-shadow:0 10px 26px rgba(0,0,0,.18);padding:6px;min-width:190px}
+.share-menu a,.share-menu button{display:flex;align-items:center;gap:9px;width:100%;text-align:left;font-family:var(--sans);font-size:13.5px;font-weight:600;color:var(--ink);background:none;border:none;padding:8px 10px;border-radius:var(--r-xs);cursor:pointer;text-decoration:none;box-sizing:border-box}
+.share-menu a:hover,.share-menu button:hover{background:var(--sand-2)}
+.share-toast{margin-left:10px;font-family:var(--sans);font-size:12.5px;color:var(--teal-d);font-weight:600}
 .badge{font-family:var(--sans);font-size:11px;font-weight:700;text-transform:uppercase;letter-spacing:1px;padding:4px 9px;border-radius:var(--r-xs);background:var(--sand-2);color:var(--gold-d)}
 .art time{font-family:var(--sans);font-size:13px;color:var(--muted);margin-left:8px}
 .art h1{font-size:clamp(28px,4.2vw,38px);line-height:1.14;margin:14px 0 20px;border-bottom:2px solid var(--gold);padding-bottom:16px;font-weight:700}
@@ -242,6 +250,44 @@ footer.s .f-geo{margin:0;font:600 10.5px/1.6 var(--mono);letter-spacing:.12em;
     <div class="kicker"><span class="badge">Midday Pulse</span><time datetime="2026-08-17">Monday, 17 August 2026</time><span class="byline">By <a href="../about/onyango-george.html" rel="author">Onyango George (OG)</a></span></div>
     <h1>Zanzibar was promised a port today.</h1>
     
+    <div class="share-wrap">
+  <button type="button" class="share-btn" id="shareBtn" aria-haspopup="true" aria-expanded="false">
+    <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M18 16.08c-.76 0-1.44.3-1.96.77L8.91 12.7a3.02 3.02 0 0 0 0-1.4l7.05-4.11a2.99 2.99 0 1 0-.99-2.19c0 .24.03.47.09.7L8 9.81a3 3 0 1 0 0 4.38l7.12 4.15c-.06.23-.09.46-.09.7a3 3 0 1 0 3-3.96z"/></svg>
+    Share
+  </button>
+  <span class="share-toast" id="shareToast" hidden>Link copied</span>
+  <div class="share-menu" id="shareMenu" hidden>
+    <button type="button" id="shareCopy">🔗 Copy link</button>
+    <a href="https://wa.me/?text=Zanzibar%20was%20promised%20a%20port%20today.%20Check%20the%20arithmetic%E2%80%A6%20%E2%80%94%20Midday%20Pulse%2C%2017%20August%202026%20https%3A%2F%2Feahospitalitypulse.com%2Feditions%2Fpulse-2026-08-17-midday.html" target="_blank" rel="noopener">💬 WhatsApp</a>
+    <a href="https://t.me/share/url?url=https%3A%2F%2Feahospitalitypulse.com%2Feditions%2Fpulse-2026-08-17-midday.html&text=Zanzibar%20was%20promised%20a%20port%20today.%20Check%20the%20arithmetic%E2%80%A6%20%E2%80%94%20Midday%20Pulse%2C%2017%20August%202026" target="_blank" rel="noopener">📣 Telegram</a>
+    <a href="https://twitter.com/intent/tweet?url=https%3A%2F%2Feahospitalitypulse.com%2Feditions%2Fpulse-2026-08-17-midday.html&text=Zanzibar%20was%20promised%20a%20port%20today.%20Check%20the%20arithmetic%E2%80%A6%20%E2%80%94%20Midday%20Pulse%2C%2017%20August%202026" target="_blank" rel="noopener">𝕏 X (Twitter)</a>
+    <a href="https://www.linkedin.com/sharing/share-offsite/?url=https%3A%2F%2Feahospitalitypulse.com%2Feditions%2Fpulse-2026-08-17-midday.html" target="_blank" rel="noopener">💼 LinkedIn</a>
+  </div>
+</div>
+<script>
+(function(){
+  var url="https://eahospitalitypulse.com/editions/pulse-2026-08-17-midday.html", title="Zanzibar was promised a port today. Check the arithmetic\u2026 \u2014 Midday Pulse, 17 August 2026";
+  var btn=document.getElementById('shareBtn'), menu=document.getElementById('shareMenu'),
+      toast=document.getElementById('shareToast'), copyBtn=document.getElementById('shareCopy');
+  function closeMenu(){ menu.hidden=true; btn.setAttribute('aria-expanded','false'); }
+  btn.addEventListener('click', function(e){
+    e.stopPropagation();
+    if(navigator.share){ navigator.share({title:title,url:url}).catch(function(){}); return; }
+    var open=menu.hidden;
+    closeMenu();
+    if(open){ menu.hidden=false; btn.setAttribute('aria-expanded','true'); }
+  });
+  copyBtn.addEventListener('click', function(){
+    var done=function(){ toast.hidden=false; setTimeout(function(){toast.hidden=true;},1800); closeMenu(); };
+    if(navigator.clipboard && navigator.clipboard.writeText){ navigator.clipboard.writeText(url).then(done, done); }
+    else { var ta=document.createElement('textarea'); ta.value=url; ta.style.position='fixed'; ta.style.opacity='0';
+      document.body.appendChild(ta); ta.focus(); ta.select();
+      try{document.execCommand('copy');}catch(e){} document.body.removeChild(ta); done(); }
+  });
+  document.addEventListener('click', function(e){ if(!menu.hidden && !menu.contains(e.target) && e.target!==btn) closeMenu(); });
+  document.addEventListener('keydown', function(e){ if(e.key==='Escape') closeMenu(); });
+})();
+</script>
     <p>Zanzibar was promised a port today. Check the arithmetic before you budget on it.<br>━━━━━━━━━<br><span class="item-head">1️⃣ ZANZIBAR PORT PLEDGE ARRIVES WITHOUT A DATE</span><br>TRA Commissioner General Yusuph Mwenda toured Fumba Port in Unguja on Saturday 15 August and pledged a modern cargo scanner to speed clearance (The Citizen, 17 August). In the same report, Zanzibar Ports Corporation director general Akif Ali Khamis said the completed port would handle &quot;approximately 40 containers per hour, equivalent to between 250,000 and 400,000 containers per month&quot;, with 350-metre quays on each side by February 2027.</p>
 <p>Those two figures do not reconcile. Forty an hour run continuously is about 28,800 a month. The monthly claim implies roughly 350 an hour — eight to fourteen times the stated rate.<br><span class="sowhat">🎯 So what: The operator gain is real and separate from the throughput claim. Khamis says Zanzibar cargo has been routed through neighbouring ports first; removing that leg is the saving worth pricing. Do not model 2027 landed costs on either container figure until TRA publishes a contract award and ZPC restates throughput.</span><br><span class="tagline">🏷 Beach | Zanzibar | Reported</span></p>
 <p><span class="item-head">2️⃣ TANZANIA SWITCHES ON ITS BIGGEST POWER ASSET</span><br>President Samia Suluhu Hassan inaugurates the 2,115 MW Julius Nyerere Hydropower Project at Rufiji on 22 August (The Citizen, 16 August). JNHPP cost TSh 7.45 trillion, was funded domestically, and supplied 44.9% of all electricity fed to the national grid in the year to 31 May 2026. National installed capacity now stands at about 4,646 MW; The Citizen reports a 2,636 MW surplus.<br><span class="sowhat">🎯 So what: Mainland lodges and Dar city hotels should revisit generator run-hour assumptions and any diesel contract priced off the rationing era. Zanzibar operators should not assume the same relief — the island&#x27;s binding constraint is interconnector capacity, not mainland generation. Ask your supplier which one actually binds you before you cut the genset line.</span><br><span class="tagline">🏷 City/Bush/Beach | Tanzania | Confirmed</span></p>

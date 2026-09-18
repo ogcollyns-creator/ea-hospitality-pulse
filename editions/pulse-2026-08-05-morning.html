@@ -59,6 +59,14 @@ header.s b{font-size:16px}
 .art .hero{display:block;width:calc(100% + 60px);height:auto;margin:-26px -30px 20px -30px;aspect-ratio:1200/630;object-fit:cover;background:var(--teal-d)}
 /* Cards and generated graphics are composed to the frame: show them whole. */
 .art .hero.graphic{object-fit:contain}
+.share-wrap{position:relative;display:inline-flex;align-items:center;margin:2px 0 18px}
+.share-btn{display:inline-flex;align-items:center;gap:7px;font-family:var(--sans);font-size:13px;font-weight:700;color:var(--teal-d);background:var(--sand-2);border:1px solid var(--line);border-radius:20px;padding:7px 14px;cursor:pointer}
+.share-btn:hover{border-color:var(--gold);color:var(--gold-d)}
+.share-btn svg{width:14px;height:14px;fill:currentColor}
+.share-menu{position:absolute;top:calc(100% + 6px);left:0;z-index:30;background:var(--card);border:1px solid var(--line);border-radius:var(--r-sm);box-shadow:0 10px 26px rgba(0,0,0,.18);padding:6px;min-width:190px}
+.share-menu a,.share-menu button{display:flex;align-items:center;gap:9px;width:100%;text-align:left;font-family:var(--sans);font-size:13.5px;font-weight:600;color:var(--ink);background:none;border:none;padding:8px 10px;border-radius:var(--r-xs);cursor:pointer;text-decoration:none;box-sizing:border-box}
+.share-menu a:hover,.share-menu button:hover{background:var(--sand-2)}
+.share-toast{margin-left:10px;font-family:var(--sans);font-size:12.5px;color:var(--teal-d);font-weight:600}
 .badge{font-family:var(--sans);font-size:11px;font-weight:700;text-transform:uppercase;letter-spacing:1px;padding:4px 9px;border-radius:var(--r-xs);background:var(--sand-2);color:var(--gold-d)}
 .art time{font-family:var(--sans);font-size:13px;color:var(--muted);margin-left:8px}
 .art h1{font-size:clamp(28px,4.2vw,38px);line-height:1.14;margin:14px 0 20px;border-bottom:2px solid var(--gold);padding-bottom:16px;font-weight:700}
@@ -242,6 +250,44 @@ footer.s .f-geo{margin:0;font:600 10.5px/1.6 var(--mono);letter-spacing:.12em;
     <div class="kicker"><span class="badge">Morning Brief</span><time datetime="2026-08-05">Wednesday, 5 August 2026</time><span class="byline">By <a href="../about/onyango-george.html" rel="author">Onyango George (OG)</a></span></div>
     <h1>The Ebola number that changed overnight — and why there are now two dates to watch, not one.</h1>
     
+    <div class="share-wrap">
+  <button type="button" class="share-btn" id="shareBtn" aria-haspopup="true" aria-expanded="false">
+    <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M18 16.08c-.76 0-1.44.3-1.96.77L8.91 12.7a3.02 3.02 0 0 0 0-1.4l7.05-4.11a2.99 2.99 0 1 0-.99-2.19c0 .24.03.47.09.7L8 9.81a3 3 0 1 0 0 4.38l7.12 4.15c-.06.23-.09.46-.09.7a3 3 0 1 0 3-3.96z"/></svg>
+    Share
+  </button>
+  <span class="share-toast" id="shareToast" hidden>Link copied</span>
+  <div class="share-menu" id="shareMenu" hidden>
+    <button type="button" id="shareCopy">🔗 Copy link</button>
+    <a href="https://wa.me/?text=The%20Ebola%20number%20that%20changed%20overnight%20%E2%80%94%20and%20why%20there%20are%E2%80%A6%20%E2%80%94%20Morning%20Brief%2C%205%20August%202026%20https%3A%2F%2Feahospitalitypulse.com%2Feditions%2Fpulse-2026-08-05-morning.html" target="_blank" rel="noopener">💬 WhatsApp</a>
+    <a href="https://t.me/share/url?url=https%3A%2F%2Feahospitalitypulse.com%2Feditions%2Fpulse-2026-08-05-morning.html&text=The%20Ebola%20number%20that%20changed%20overnight%20%E2%80%94%20and%20why%20there%20are%E2%80%A6%20%E2%80%94%20Morning%20Brief%2C%205%20August%202026" target="_blank" rel="noopener">📣 Telegram</a>
+    <a href="https://twitter.com/intent/tweet?url=https%3A%2F%2Feahospitalitypulse.com%2Feditions%2Fpulse-2026-08-05-morning.html&text=The%20Ebola%20number%20that%20changed%20overnight%20%E2%80%94%20and%20why%20there%20are%E2%80%A6%20%E2%80%94%20Morning%20Brief%2C%205%20August%202026" target="_blank" rel="noopener">𝕏 X (Twitter)</a>
+    <a href="https://www.linkedin.com/sharing/share-offsite/?url=https%3A%2F%2Feahospitalitypulse.com%2Feditions%2Fpulse-2026-08-05-morning.html" target="_blank" rel="noopener">💼 LinkedIn</a>
+  </div>
+</div>
+<script>
+(function(){
+  var url="https://eahospitalitypulse.com/editions/pulse-2026-08-05-morning.html", title="The Ebola number that changed overnight \u2014 and why there are\u2026 \u2014 Morning Brief, 5 August 2026";
+  var btn=document.getElementById('shareBtn'), menu=document.getElementById('shareMenu'),
+      toast=document.getElementById('shareToast'), copyBtn=document.getElementById('shareCopy');
+  function closeMenu(){ menu.hidden=true; btn.setAttribute('aria-expanded','false'); }
+  btn.addEventListener('click', function(e){
+    e.stopPropagation();
+    if(navigator.share){ navigator.share({title:title,url:url}).catch(function(){}); return; }
+    var open=menu.hidden;
+    closeMenu();
+    if(open){ menu.hidden=false; btn.setAttribute('aria-expanded','true'); }
+  });
+  copyBtn.addEventListener('click', function(){
+    var done=function(){ toast.hidden=false; setTimeout(function(){toast.hidden=true;},1800); closeMenu(); };
+    if(navigator.clipboard && navigator.clipboard.writeText){ navigator.clipboard.writeText(url).then(done, done); }
+    else { var ta=document.createElement('textarea'); ta.value=url; ta.style.position='fixed'; ta.style.opacity='0';
+      document.body.appendChild(ta); ta.focus(); ta.select();
+      try{document.execCommand('copy');}catch(e){} document.body.removeChild(ta); done(); }
+  });
+  document.addEventListener('click', function(e){ if(!menu.hidden && !menu.contains(e.target) && e.target!==btn) closeMenu(); });
+  document.addEventListener('keydown', function(e){ if(e.key==='Escape') closeMenu(); });
+})();
+</script>
     <p>The Ebola number that changed overnight — and why there are now two dates to watch, not one.<br>━━━━━━━━━<br><span class="item-head">1️⃣ EBOLA&#x27;S WORST WEEK YET — AND A SECOND DECISION DATE</span><br>The DRC Bundibugyo outbreak is accelerating, not plateauing. In epidemiological week 30 it logged 567 cases and 296 deaths — the highest weekly totals since transmission began, per WHO DON614 (published 1 Aug, revised 3 Aug). Since the 17 July update, +1,481 cases and +759 deaths. Cumulative: 3,605 confirmed, 1,587 deaths, 44% CFR — now the largest Ebola outbreak ever recorded in DRC, past the 2018–20 total of 3,317. New on the calendar: the WHO IHR Emergency Committee meets 18 August, six days after the US CDC §362 entry order expires (4:59pm EDT, 12 Aug, per 91 FR 43636).<br><span class="sowhat">🎯 So what: the acceleration removes any epidemiological basis for the US to ease the 12 Aug order — plan for renewal with DRC listed and Uganda held at Level 4. But tell agents the honest split: Uganda&#x27;s own outbreak is OVER (28 Jul) and the WHO explicitly advises AGAINST travel restrictions. The friction is US policy on the US source market, not risk on the ground in Kampala, Nairobi, Kigali, Dar or Zanzibar. Don&#x27;t model US entry relief into the Sept–Oct peak.</span><br><span class="tagline">🏷 All | Regional | Confirmed</span></p>
 <p><span class="item-head">2️⃣ STILL TRUE: THE ADVISORY BOARD IS UNCHANGED</span><br>US: Kenya L2, Tanzania L3, Zanzibar L3, Uganda L4, Rwanda L3. UK: Kenya L2, Tanzania/Zanzibar L1, Uganda L3, Rwanda L2. Kenya&#x27;s Eastleigh &amp; Kibera stay Reconsider Travel (L3), NOT Do Not Travel — the primary page still dates 17 March 2025. No government moved a level overnight.<br><span class="sowhat">🎯 So what: no basis to change rate or security messaging anywhere in the region this week. A confirmed &quot;no change&quot; tells you not to discount.</span><br><span class="tagline">🏷 All | Regional | Confirmed</span></p>
 <p><span class="item-head">3️⃣ COST PULSE: THE PLANNING WINDOW IS STILL OPEN</span><br>EPRA holds Nairobi super at KSh 214.03/L and diesel at KSh 222.86/L to 14 Aug. Murban crude, the leading indicator for the next review, sits at USD 67.99/bbl — the 15 Aug cycle is more likely to hold or fall than rise. KES steady at 129.30/USD; reserves at 6.0 months&#x27; cover. The quiet killer: Kenya electricity pass-through charges now top KSh 5/kWh and rose again in July.<br><span class="sowhat">🎯 So what: lock safari-transfer and generator-fuel contracts before the 15 Aug review. Read the pass-through line on the power bill, not the tariff band.</span><br><span class="tagline">🏷 Bush | Kenya | Confirmed</span><br>━━━━━━━━━<br><span class="meta-line">📡 WEEK AHEAD</span><br>• Fri 8 Aug — CBK weekly bulletin (FX, reserves)<br>• Tue 12 Aug — US CDC §362 entry order expires; watch renewal + Uganda listing (P044/P047 resolve)<br>• Fri 15 Aug — EPRA fuel review<br>• Mon 18 Aug — WHO IHR Emergency Committee on Bundibugyo — could adjust the PHEIC / temporary recommendations<br>• 19–21 Aug — Hotel Expo Kenya, KICC Nairobi — a city-hotel midweek compression window<br>• 28 Aug — World Travel Awards Africa Gala, Zanzibar</p>

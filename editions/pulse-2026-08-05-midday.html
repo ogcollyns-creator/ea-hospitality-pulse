@@ -59,6 +59,14 @@ header.s b{font-size:16px}
 .art .hero{display:block;width:calc(100% + 60px);height:auto;margin:-26px -30px 20px -30px;aspect-ratio:1200/630;object-fit:cover;background:var(--teal-d)}
 /* Cards and generated graphics are composed to the frame: show them whole. */
 .art .hero.graphic{object-fit:contain}
+.share-wrap{position:relative;display:inline-flex;align-items:center;margin:2px 0 18px}
+.share-btn{display:inline-flex;align-items:center;gap:7px;font-family:var(--sans);font-size:13px;font-weight:700;color:var(--teal-d);background:var(--sand-2);border:1px solid var(--line);border-radius:20px;padding:7px 14px;cursor:pointer}
+.share-btn:hover{border-color:var(--gold);color:var(--gold-d)}
+.share-btn svg{width:14px;height:14px;fill:currentColor}
+.share-menu{position:absolute;top:calc(100% + 6px);left:0;z-index:30;background:var(--card);border:1px solid var(--line);border-radius:var(--r-sm);box-shadow:0 10px 26px rgba(0,0,0,.18);padding:6px;min-width:190px}
+.share-menu a,.share-menu button{display:flex;align-items:center;gap:9px;width:100%;text-align:left;font-family:var(--sans);font-size:13.5px;font-weight:600;color:var(--ink);background:none;border:none;padding:8px 10px;border-radius:var(--r-xs);cursor:pointer;text-decoration:none;box-sizing:border-box}
+.share-menu a:hover,.share-menu button:hover{background:var(--sand-2)}
+.share-toast{margin-left:10px;font-family:var(--sans);font-size:12.5px;color:var(--teal-d);font-weight:600}
 .badge{font-family:var(--sans);font-size:11px;font-weight:700;text-transform:uppercase;letter-spacing:1px;padding:4px 9px;border-radius:var(--r-xs);background:var(--sand-2);color:var(--gold-d)}
 .art time{font-family:var(--sans);font-size:13px;color:var(--muted);margin-left:8px}
 .art h1{font-size:clamp(28px,4.2vw,38px);line-height:1.14;margin:14px 0 20px;border-bottom:2px solid var(--gold);padding-bottom:16px;font-weight:700}
@@ -242,6 +250,44 @@ footer.s .f-geo{margin:0;font:600 10.5px/1.6 var(--mono);letter-spacing:.12em;
     <div class="kicker"><span class="badge">Midday Pulse</span><time datetime="2026-08-05">Wednesday, 5 August 2026</time><span class="byline">By <a href="../about/onyango-george.html" rel="author">Onyango George (OG)</a></span></div>
     <h1>Since this morning&#x27;s Ebola brief — so here&#x27;s what we re-checked at midday, and what&#x27;s moving underneath.</h1>
     
+    <div class="share-wrap">
+  <button type="button" class="share-btn" id="shareBtn" aria-haspopup="true" aria-expanded="false">
+    <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M18 16.08c-.76 0-1.44.3-1.96.77L8.91 12.7a3.02 3.02 0 0 0 0-1.4l7.05-4.11a2.99 2.99 0 1 0-.99-2.19c0 .24.03.47.09.7L8 9.81a3 3 0 1 0 0 4.38l7.12 4.15c-.06.23-.09.46-.09.7a3 3 0 1 0 3-3.96z"/></svg>
+    Share
+  </button>
+  <span class="share-toast" id="shareToast" hidden>Link copied</span>
+  <div class="share-menu" id="shareMenu" hidden>
+    <button type="button" id="shareCopy">🔗 Copy link</button>
+    <a href="https://wa.me/?text=Since%20this%20morning%27s%20Ebola%20brief%20%E2%80%94%20so%20here%27s%20what%20we%E2%80%A6%20%E2%80%94%20Midday%20Pulse%2C%205%20August%202026%20https%3A%2F%2Feahospitalitypulse.com%2Feditions%2Fpulse-2026-08-05-midday.html" target="_blank" rel="noopener">💬 WhatsApp</a>
+    <a href="https://t.me/share/url?url=https%3A%2F%2Feahospitalitypulse.com%2Feditions%2Fpulse-2026-08-05-midday.html&text=Since%20this%20morning%27s%20Ebola%20brief%20%E2%80%94%20so%20here%27s%20what%20we%E2%80%A6%20%E2%80%94%20Midday%20Pulse%2C%205%20August%202026" target="_blank" rel="noopener">📣 Telegram</a>
+    <a href="https://twitter.com/intent/tweet?url=https%3A%2F%2Feahospitalitypulse.com%2Feditions%2Fpulse-2026-08-05-midday.html&text=Since%20this%20morning%27s%20Ebola%20brief%20%E2%80%94%20so%20here%27s%20what%20we%E2%80%A6%20%E2%80%94%20Midday%20Pulse%2C%205%20August%202026" target="_blank" rel="noopener">𝕏 X (Twitter)</a>
+    <a href="https://www.linkedin.com/sharing/share-offsite/?url=https%3A%2F%2Feahospitalitypulse.com%2Feditions%2Fpulse-2026-08-05-midday.html" target="_blank" rel="noopener">💼 LinkedIn</a>
+  </div>
+</div>
+<script>
+(function(){
+  var url="https://eahospitalitypulse.com/editions/pulse-2026-08-05-midday.html", title="Since this morning's Ebola brief \u2014 so here's what we\u2026 \u2014 Midday Pulse, 5 August 2026";
+  var btn=document.getElementById('shareBtn'), menu=document.getElementById('shareMenu'),
+      toast=document.getElementById('shareToast'), copyBtn=document.getElementById('shareCopy');
+  function closeMenu(){ menu.hidden=true; btn.setAttribute('aria-expanded','false'); }
+  btn.addEventListener('click', function(e){
+    e.stopPropagation();
+    if(navigator.share){ navigator.share({title:title,url:url}).catch(function(){}); return; }
+    var open=menu.hidden;
+    closeMenu();
+    if(open){ menu.hidden=false; btn.setAttribute('aria-expanded','true'); }
+  });
+  copyBtn.addEventListener('click', function(){
+    var done=function(){ toast.hidden=false; setTimeout(function(){toast.hidden=true;},1800); closeMenu(); };
+    if(navigator.clipboard && navigator.clipboard.writeText){ navigator.clipboard.writeText(url).then(done, done); }
+    else { var ta=document.createElement('textarea'); ta.value=url; ta.style.position='fixed'; ta.style.opacity='0';
+      document.body.appendChild(ta); ta.focus(); ta.select();
+      try{document.execCommand('copy');}catch(e){} document.body.removeChild(ta); done(); }
+  });
+  document.addEventListener('click', function(e){ if(!menu.hidden && !menu.contains(e.target) && e.target!==btn) closeMenu(); });
+  document.addEventListener('keydown', function(e){ if(e.key==='Escape') closeMenu(); });
+})();
+</script>
     <p>Since this morning&#x27;s Ebola brief — so here&#x27;s what we re-checked at midday, and what&#x27;s moving underneath.<br>━━━━━━━━━<br><span class="item-head">1️⃣ FORECAST CHECK-IN: KENYA&#x27;S AIR-TRAVEL TAXES POINT UP, NOT DOWN</span><br>Our standing call P016 — Kenya will not cut the air passenger service levy before end-2027 — isn&#x27;t just holding, the direction is the opposite. Kenya has spent the past year RAISING, not trimming, the cost of flying in: the Air Passenger Service Charge (Amendment) Act, signed 15 Oct 2025, handed the Transport CS standing power to vary the charge and put the international levy on a path toward US$50 and domestic to KSh600 (per ATTA / Kenyan Wall Street). The 2026 fiscal debate over removing VAT relief on aircraft parts pushes landed and fare costs the same way. This is structure, not breaking news — but it&#x27;s the structure your guests&#x27; airfares sit on.<br><span class="sowhat">🎯 So what: for city and safari properties whose guests fly in, budget airlift-linked costs — fares, transfers, connecting-flight fees — as flat-to-rising into the Sept–Oct peak. Don&#x27;t model a cheaper-ticket tailwind into demand; if anything, the tax base is working against lead-in fares. Call stays open, thesis strengthening.</span><br><span class="tagline">🏷 City/Bush | Kenya | Reported</span></p>
 <p><span class="item-head">2️⃣ STILL TRUE AT MIDDAY: THE ADVISORY BOARD HASN&#x27;T MOVED</span><br>Overnight the US State Department re-issued its entire advisory feed at once (04 Aug 23:54 EAT) — but re-issue is not re-rating. The Rwanda notice records it plainly: &quot;no change to the advisory level,&quot; the three risk areas merely consolidated into one. US board stands: Kenya L2, Tanzania L3, Zanzibar L3, Uganda L4, Rwanda L3. UK unchanged: Kenya L2, Tanzania/Zanzibar L1, Uganda L3, Rwanda L2.<br><span class="sowhat">🎯 So what: a bulk re-stamp that reads as &quot;breaking&quot; in a search feed is exactly the trap that moves nobody&#x27;s booking. No basis to change security messaging or discount on advisory grounds today.</span><br><span class="tagline">🏷 All | Regional | Confirmed</span></p>
 <p><span class="item-head">3️⃣ MICE WATCH: THE NEXT CITY COMPRESSION IS TWO WEEKS OUT</span><br>Hotel Expo Kenya lands 19–21 Aug at KICC Nairobi — a three-day city-centre trade event (100+ exhibitors in 2025, organiser figure) sitting just ahead of the Sept–Oct peak. It&#x27;s a midweek exhibitor-and-buyer window, not a citywide sell-out, but it&#x27;s real demand into the CBD and Upper Hill.<br><span class="sowhat">🎯 So what: Nairobi city hotels near KICC should hold corporate rate through 19–21 Aug rather than discounting into the shoulder. The bigger compression — MKTE, 10,000+ delegates, 6–8 Oct — is the one to be closing out standard rate against now.</span><br><span class="tagline">🏷 City | Kenya | Confirmed</span><br>━━━━━━━━━<br><span class="meta-line">📡 WEEK AHEAD</span><br>• Fri 8 Aug — CBK weekly bulletin (FX, reserves)<br>• Tue 12 Aug — US CDC §362 entry order expires; watch renewal + Uganda listing (P044/P023/P031/P032 resolve)<br>• Fri 15 Aug — EPRA fuel review (P025/P028 resolve)<br>• Mon 18 Aug — WHO IHR Emergency Committee on Bundibugyo<br>• 19–21 Aug — Hotel Expo Kenya, KICC Nairobi</p>

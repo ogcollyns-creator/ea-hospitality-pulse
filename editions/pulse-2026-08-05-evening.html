@@ -59,6 +59,14 @@ header.s b{font-size:16px}
 .art .hero{display:block;width:calc(100% + 60px);height:auto;margin:-26px -30px 20px -30px;aspect-ratio:1200/630;object-fit:cover;background:var(--teal-d)}
 /* Cards and generated graphics are composed to the frame: show them whole. */
 .art .hero.graphic{object-fit:contain}
+.share-wrap{position:relative;display:inline-flex;align-items:center;margin:2px 0 18px}
+.share-btn{display:inline-flex;align-items:center;gap:7px;font-family:var(--sans);font-size:13px;font-weight:700;color:var(--teal-d);background:var(--sand-2);border:1px solid var(--line);border-radius:20px;padding:7px 14px;cursor:pointer}
+.share-btn:hover{border-color:var(--gold);color:var(--gold-d)}
+.share-btn svg{width:14px;height:14px;fill:currentColor}
+.share-menu{position:absolute;top:calc(100% + 6px);left:0;z-index:30;background:var(--card);border:1px solid var(--line);border-radius:var(--r-sm);box-shadow:0 10px 26px rgba(0,0,0,.18);padding:6px;min-width:190px}
+.share-menu a,.share-menu button{display:flex;align-items:center;gap:9px;width:100%;text-align:left;font-family:var(--sans);font-size:13.5px;font-weight:600;color:var(--ink);background:none;border:none;padding:8px 10px;border-radius:var(--r-xs);cursor:pointer;text-decoration:none;box-sizing:border-box}
+.share-menu a:hover,.share-menu button:hover{background:var(--sand-2)}
+.share-toast{margin-left:10px;font-family:var(--sans);font-size:12.5px;color:var(--teal-d);font-weight:600}
 .badge{font-family:var(--sans);font-size:11px;font-weight:700;text-transform:uppercase;letter-spacing:1px;padding:4px 9px;border-radius:var(--r-xs);background:var(--sand-2);color:var(--gold-d)}
 .art time{font-family:var(--sans);font-size:13px;color:var(--muted);margin-left:8px}
 .art h1{font-size:clamp(28px,4.2vw,38px);line-height:1.14;margin:14px 0 20px;border-bottom:2px solid var(--gold);padding-bottom:16px;font-weight:700}
@@ -242,6 +250,44 @@ footer.s .f-geo{margin:0;font:600 10.5px/1.6 var(--mono);letter-spacing:.12em;
     <div class="kicker"><span class="badge">Evening Wrap</span><time datetime="2026-08-05">Wednesday, 5 August 2026</time><span class="byline">By <a href="../about/onyango-george.html" rel="author">Onyango George (OG)</a></span></div>
     <h1>One story tonight worth planning against — plus two dates on next week&#x27;s clock.</h1>
     
+    <div class="share-wrap">
+  <button type="button" class="share-btn" id="shareBtn" aria-haspopup="true" aria-expanded="false">
+    <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M18 16.08c-.76 0-1.44.3-1.96.77L8.91 12.7a3.02 3.02 0 0 0 0-1.4l7.05-4.11a2.99 2.99 0 1 0-.99-2.19c0 .24.03.47.09.7L8 9.81a3 3 0 1 0 0 4.38l7.12 4.15c-.06.23-.09.46-.09.7a3 3 0 1 0 3-3.96z"/></svg>
+    Share
+  </button>
+  <span class="share-toast" id="shareToast" hidden>Link copied</span>
+  <div class="share-menu" id="shareMenu" hidden>
+    <button type="button" id="shareCopy">🔗 Copy link</button>
+    <a href="https://wa.me/?text=One%20story%20tonight%20worth%20planning%20against%20%E2%80%94%20plus%20two%20dates%20on%E2%80%A6%20%E2%80%94%20Evening%20Wrap%2C%205%20August%202026%20https%3A%2F%2Feahospitalitypulse.com%2Feditions%2Fpulse-2026-08-05-evening.html" target="_blank" rel="noopener">💬 WhatsApp</a>
+    <a href="https://t.me/share/url?url=https%3A%2F%2Feahospitalitypulse.com%2Feditions%2Fpulse-2026-08-05-evening.html&text=One%20story%20tonight%20worth%20planning%20against%20%E2%80%94%20plus%20two%20dates%20on%E2%80%A6%20%E2%80%94%20Evening%20Wrap%2C%205%20August%202026" target="_blank" rel="noopener">📣 Telegram</a>
+    <a href="https://twitter.com/intent/tweet?url=https%3A%2F%2Feahospitalitypulse.com%2Feditions%2Fpulse-2026-08-05-evening.html&text=One%20story%20tonight%20worth%20planning%20against%20%E2%80%94%20plus%20two%20dates%20on%E2%80%A6%20%E2%80%94%20Evening%20Wrap%2C%205%20August%202026" target="_blank" rel="noopener">𝕏 X (Twitter)</a>
+    <a href="https://www.linkedin.com/sharing/share-offsite/?url=https%3A%2F%2Feahospitalitypulse.com%2Feditions%2Fpulse-2026-08-05-evening.html" target="_blank" rel="noopener">💼 LinkedIn</a>
+  </div>
+</div>
+<script>
+(function(){
+  var url="https://eahospitalitypulse.com/editions/pulse-2026-08-05-evening.html", title="One story tonight worth planning against \u2014 plus two dates on\u2026 \u2014 Evening Wrap, 5 August 2026";
+  var btn=document.getElementById('shareBtn'), menu=document.getElementById('shareMenu'),
+      toast=document.getElementById('shareToast'), copyBtn=document.getElementById('shareCopy');
+  function closeMenu(){ menu.hidden=true; btn.setAttribute('aria-expanded','false'); }
+  btn.addEventListener('click', function(e){
+    e.stopPropagation();
+    if(navigator.share){ navigator.share({title:title,url:url}).catch(function(){}); return; }
+    var open=menu.hidden;
+    closeMenu();
+    if(open){ menu.hidden=false; btn.setAttribute('aria-expanded','true'); }
+  });
+  copyBtn.addEventListener('click', function(){
+    var done=function(){ toast.hidden=false; setTimeout(function(){toast.hidden=true;},1800); closeMenu(); };
+    if(navigator.clipboard && navigator.clipboard.writeText){ navigator.clipboard.writeText(url).then(done, done); }
+    else { var ta=document.createElement('textarea'); ta.value=url; ta.style.position='fixed'; ta.style.opacity='0';
+      document.body.appendChild(ta); ta.focus(); ta.select();
+      try{document.execCommand('copy');}catch(e){} document.body.removeChild(ta); done(); }
+  });
+  document.addEventListener('click', function(e){ if(!menu.hidden && !menu.contains(e.target) && e.target!==btn) closeMenu(); });
+  document.addEventListener('keydown', function(e){ if(e.key==='Escape') closeMenu(); });
+})();
+</script>
     <p>One story tonight worth planning against — plus two dates on next week&#x27;s clock.</p>
 <p>━━━━━━━━━<br>✈️ UGANDA AIRLINES TAKES ON RWANDAIR — DAILY KIGALI, AND A WEST AFRICA GATEWAY<br>Announced this afternoon (5 Aug, Sheraton Kampala) by acting CEO Girma Wake: Uganda Airlines will fly <strong>Entebbe–Kigali daily from 18 November</strong> on the CRJ-900, and <strong>Entebbe–Accra 4x weekly from 27 October</strong> on a 737-800 wet-leased from Ethiopian (per New Vision &amp; Nile Post, 5 Aug). The Kigali service ends years of RwandAir holding a near-monopoly on non-stop Entebbe–Kigali.<br><span class="sowhat">🎯 So what: two things move here. First, the <strong>Kampala–Kigali corporate corridor</strong> gets a second daily carrier — more seats, real fare competition, same-day return options on one of the EAC&#x27;s busiest business routes. City hotels in both capitals should read this as cheaper, more frequent regional connectivity feeding corporate and MICE demand, not a threat. Second, <strong>Accra opens a West African feed</strong> into Entebbe — trade, cargo and business travel from a region East Africa is barely connected to. That positions Kampala as a genuine transit-and-meeting point between West and East Africa: a forward demand signal worth building corporate rate around, especially into FHS Africa Kampala next February.</span><br><span class="tagline">🏷 City | Uganda/Rwanda | Confirmed (routes) + Inferred (demand)</span><br>👉 Revenue note: don&#x27;t assume today&#x27;s Entebbe–Kigali fares hold into Q4 — watch RwandAir&#x27;s schedule-and-price defence once a second daily carrier lands.</p>
 <p><span class="meta-line">📅 NEXT WEEK&#x27;S CLOCK — TWO DIARISED DATES</span><br>• <strong>12 Aug</strong> — the US CDC&#x27;s Ebola entry suspension (DRC/Uganda/South Sudan) reaches its renewal point. Our standing call: renewed with DRC still listed; whether Uganda is decoupled is the open question for Ugandan inbound.<br>• <strong>15 Aug</strong> — EPRA&#x27;s monthly fuel review. Diesel (KSh 222.86/L, held flat only by state support, per EPRA July review) is the safari cost driver. Lock transfer contracts now rather than after the October VAT decision.<br><span class="tagline">🏷 All | Regional | Watch</span><br>━━━━━━━━━<br>🔗 This edition on the web: <a href="https://eahospitalitypulse.com/editions/pulse-2026-08-05-evening.html" rel="noopener">eahospitalitypulse.com/editions/pulse-2026-08-05-evenin…</a><br>💼 Today&#x27;s Big Read on LinkedIn: <a href="https://www.linkedin.com/company/ea-hospitality-pulse/" rel="noopener">linkedin.com/company/ea-hospitality-pulse/</a><br>— EA Hospitality Pulse | Daily intelligence for city, bush &amp; beach properties</p>

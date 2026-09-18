@@ -59,6 +59,14 @@ header.s b{font-size:16px}
 .art .hero{display:block;width:calc(100% + 60px);height:auto;margin:-26px -30px 20px -30px;aspect-ratio:1200/630;object-fit:cover;background:var(--teal-d)}
 /* Cards and generated graphics are composed to the frame: show them whole. */
 .art .hero.graphic{object-fit:contain}
+.share-wrap{position:relative;display:inline-flex;align-items:center;margin:2px 0 18px}
+.share-btn{display:inline-flex;align-items:center;gap:7px;font-family:var(--sans);font-size:13px;font-weight:700;color:var(--teal-d);background:var(--sand-2);border:1px solid var(--line);border-radius:20px;padding:7px 14px;cursor:pointer}
+.share-btn:hover{border-color:var(--gold);color:var(--gold-d)}
+.share-btn svg{width:14px;height:14px;fill:currentColor}
+.share-menu{position:absolute;top:calc(100% + 6px);left:0;z-index:30;background:var(--card);border:1px solid var(--line);border-radius:var(--r-sm);box-shadow:0 10px 26px rgba(0,0,0,.18);padding:6px;min-width:190px}
+.share-menu a,.share-menu button{display:flex;align-items:center;gap:9px;width:100%;text-align:left;font-family:var(--sans);font-size:13.5px;font-weight:600;color:var(--ink);background:none;border:none;padding:8px 10px;border-radius:var(--r-xs);cursor:pointer;text-decoration:none;box-sizing:border-box}
+.share-menu a:hover,.share-menu button:hover{background:var(--sand-2)}
+.share-toast{margin-left:10px;font-family:var(--sans);font-size:12.5px;color:var(--teal-d);font-weight:600}
 .badge{font-family:var(--sans);font-size:11px;font-weight:700;text-transform:uppercase;letter-spacing:1px;padding:4px 9px;border-radius:var(--r-xs);background:var(--sand-2);color:var(--gold-d)}
 .art time{font-family:var(--sans);font-size:13px;color:var(--muted);margin-left:8px}
 .art h1{font-size:clamp(28px,4.2vw,38px);line-height:1.14;margin:14px 0 20px;border-bottom:2px solid var(--gold);padding-bottom:16px;font-weight:700}
@@ -242,6 +250,44 @@ footer.s .f-geo{margin:0;font:600 10.5px/1.6 var(--mono);letter-spacing:.12em;
     <div class="kicker"><span class="badge">Morning Brief</span><time datetime="2026-09-05">Saturday, 5 September 2026</time><span class="byline">By <a href="../about/onyango-george.html" rel="author">Onyango George (OG)</a></span></div>
     <h1>Ethiopian Airlines has filed to more than double its Addis–Kilimanjaro–Zanzibar service from 30 November.</h1>
     
+    <div class="share-wrap">
+  <button type="button" class="share-btn" id="shareBtn" aria-haspopup="true" aria-expanded="false">
+    <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M18 16.08c-.76 0-1.44.3-1.96.77L8.91 12.7a3.02 3.02 0 0 0 0-1.4l7.05-4.11a2.99 2.99 0 1 0-.99-2.19c0 .24.03.47.09.7L8 9.81a3 3 0 1 0 0 4.38l7.12 4.15c-.06.23-.09.46-.09.7a3 3 0 1 0 3-3.96z"/></svg>
+    Share
+  </button>
+  <span class="share-toast" id="shareToast" hidden>Link copied</span>
+  <div class="share-menu" id="shareMenu" hidden>
+    <button type="button" id="shareCopy">🔗 Copy link</button>
+    <a href="https://wa.me/?text=Ethiopian%20Airlines%20has%20filed%20to%20more%20than%20double%20its%E2%80%A6%20%E2%80%94%20Morning%20Brief%2C%205%20September%202026%20https%3A%2F%2Feahospitalitypulse.com%2Feditions%2Fpulse-2026-09-05-morning.html" target="_blank" rel="noopener">💬 WhatsApp</a>
+    <a href="https://t.me/share/url?url=https%3A%2F%2Feahospitalitypulse.com%2Feditions%2Fpulse-2026-09-05-morning.html&text=Ethiopian%20Airlines%20has%20filed%20to%20more%20than%20double%20its%E2%80%A6%20%E2%80%94%20Morning%20Brief%2C%205%20September%202026" target="_blank" rel="noopener">📣 Telegram</a>
+    <a href="https://twitter.com/intent/tweet?url=https%3A%2F%2Feahospitalitypulse.com%2Feditions%2Fpulse-2026-09-05-morning.html&text=Ethiopian%20Airlines%20has%20filed%20to%20more%20than%20double%20its%E2%80%A6%20%E2%80%94%20Morning%20Brief%2C%205%20September%202026" target="_blank" rel="noopener">𝕏 X (Twitter)</a>
+    <a href="https://www.linkedin.com/sharing/share-offsite/?url=https%3A%2F%2Feahospitalitypulse.com%2Feditions%2Fpulse-2026-09-05-morning.html" target="_blank" rel="noopener">💼 LinkedIn</a>
+  </div>
+</div>
+<script>
+(function(){
+  var url="https://eahospitalitypulse.com/editions/pulse-2026-09-05-morning.html", title="Ethiopian Airlines has filed to more than double its\u2026 \u2014 Morning Brief, 5 September 2026";
+  var btn=document.getElementById('shareBtn'), menu=document.getElementById('shareMenu'),
+      toast=document.getElementById('shareToast'), copyBtn=document.getElementById('shareCopy');
+  function closeMenu(){ menu.hidden=true; btn.setAttribute('aria-expanded','false'); }
+  btn.addEventListener('click', function(e){
+    e.stopPropagation();
+    if(navigator.share){ navigator.share({title:title,url:url}).catch(function(){}); return; }
+    var open=menu.hidden;
+    closeMenu();
+    if(open){ menu.hidden=false; btn.setAttribute('aria-expanded','true'); }
+  });
+  copyBtn.addEventListener('click', function(){
+    var done=function(){ toast.hidden=false; setTimeout(function(){toast.hidden=true;},1800); closeMenu(); };
+    if(navigator.clipboard && navigator.clipboard.writeText){ navigator.clipboard.writeText(url).then(done, done); }
+    else { var ta=document.createElement('textarea'); ta.value=url; ta.style.position='fixed'; ta.style.opacity='0';
+      document.body.appendChild(ta); ta.focus(); ta.select();
+      try{document.execCommand('copy');}catch(e){} document.body.removeChild(ta); done(); }
+  });
+  document.addEventListener('click', function(e){ if(!menu.hidden && !menu.contains(e.target) && e.target!==btn) closeMenu(); });
+  document.addEventListener('keydown', function(e){ if(e.key==='Escape') closeMenu(); });
+})();
+</script>
     <p>Ethiopian Airlines has filed to more than double its Addis–Kilimanjaro–Zanzibar service from 30 November. We have not seen this reported anywhere in the East African trade press yet.<br>━━━━━━━━━<br><span class="item-head">1️⃣ ETHIOPIAN GOES DAILY INTO KILIMANJARO AND ZANZIBAR — FROM 30 NOVEMBER</span><br>Ethiopian has filed a schedule increase on the Addis Ababa – Kilimanjaro – Zanzibar – Addis triangle: from the 3 weekly originally filed to 7 weekly, effective 30 November 2026 (AeroRoutes, published 04 September 2026). Overall Ethiopian service into those two airports rises from 17–18 weekly to 21. The rotation is ET855, a 737-800: ADD 23:00 → JRO 01:20 → ZNZ 03:30, back into ADD 07:00.<br>Read the clock before you read the capacity. Kilimanjaro receives at 01:20 and dispatches at 02:10; Zanzibar receives at 03:30 and dispatches at 04:20. That is a connecting bank feeding the Addis wave from Europe, Asia and the Gulf — not leisure timing. What arrives with it is night transfers and 06:00 arrivals at your gate, from guests on a through-fare who will not pay a supplement for an early room.<br>The demand side is where the caution sits. Zanzibar&#x27;s arrivals growth has cooled: +19.2% year-on-year in January 2026, +4.9% in February, +3.1% in June, +9.6% in July (Office of the Chief Government Statistician, monthly releases). Seats are landing into the December–March peak faster than arrivals are currently growing.<br><span class="sowhat">🎯 So what: publish a priced 06:00 early-check-in policy before 30 November — you will be asked. And stress-test your peak rate strategy against arrivals growth of three per cent, not nineteen. New lift is not new demand.</span><br><span class="tagline">🏷 Beach, Bush | 🇹🇿 | Confirmed (filing) / Inference (rate effect, ours) | impact:demand</span></p>
 <p><span class="item-head">2️⃣ 92% OF LUXURY HOTEL PHONE CALLS CAPTURE NOTHING</span><br>A Revinate mystery-shopper study of 308 calls to 135 luxury and upscale properties found 92.2% captured no guest contact detail, and staff asked zero discovery questions on more than half the calls (via Hospitality Net, 4 September 2026). The sample is North American. The failure is not.<br>Our transmission is direct. EA lodges and camps run far more enquiry by phone and WhatsApp than a European city hotel, and far more confirmed business through agents. The direct enquiry is the one channel where you own the guest record outright. Losing the name and email on nine calls in ten means paying commission twice — to whoever converts the guest this year, and again next year because you cannot reach them.<br><span class="sowhat">🎯 So what: mystery-shop your own reservations line this week. One call, at 19:00. If your team quotes a rate before asking for a name and an email, that is a free fix worth more than any channel-mix project you have.</span><br><span class="tagline">🏷 City, Bush, Beach | 🌍→EA | Confirmed (study) / Inference (EA read, ours) | impact:cost</span><br>━━━━━━━━━<br><span class="meta-line">📡 RADAR</span><br>• 4 Sep, held — 21st Kwita Izina at Kinigi; 22 gorillas named (RDB, 4 Sep). Exhibition runs to 8 Sep: three nights of Musanze demand still open.<br>• 5–12 Sep, running — Miss Tourism East Africa finals, Kampala. ~24 contestants: one property&#x27;s group booking. Do not lift Kampala BAR on it.<br>• 11 Sep, 16:59 EDT — the CDC order rerouting Uganda- and South Sudan-origin arrivals expires. Watch for renewal or lapse.<br>• ~14 Sep — EPRA fuel review; the current Kenya cycle ends 14 Sep.<br>• 30 Nov — Ethiopian&#x27;s daily JRO/ZNZ rotation begins, on today&#x27;s filing.</p>
 <p><span class="meta-line">💬 Beach operators: what does a 03:30 arrival actually cost you in transfers and early check-ins?</span></p>

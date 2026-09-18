@@ -59,6 +59,14 @@ header.s b{font-size:16px}
 .art .hero{display:block;width:calc(100% + 60px);height:auto;margin:-26px -30px 20px -30px;aspect-ratio:1200/630;object-fit:cover;background:var(--teal-d)}
 /* Cards and generated graphics are composed to the frame: show them whole. */
 .art .hero.graphic{object-fit:contain}
+.share-wrap{position:relative;display:inline-flex;align-items:center;margin:2px 0 18px}
+.share-btn{display:inline-flex;align-items:center;gap:7px;font-family:var(--sans);font-size:13px;font-weight:700;color:var(--teal-d);background:var(--sand-2);border:1px solid var(--line);border-radius:20px;padding:7px 14px;cursor:pointer}
+.share-btn:hover{border-color:var(--gold);color:var(--gold-d)}
+.share-btn svg{width:14px;height:14px;fill:currentColor}
+.share-menu{position:absolute;top:calc(100% + 6px);left:0;z-index:30;background:var(--card);border:1px solid var(--line);border-radius:var(--r-sm);box-shadow:0 10px 26px rgba(0,0,0,.18);padding:6px;min-width:190px}
+.share-menu a,.share-menu button{display:flex;align-items:center;gap:9px;width:100%;text-align:left;font-family:var(--sans);font-size:13.5px;font-weight:600;color:var(--ink);background:none;border:none;padding:8px 10px;border-radius:var(--r-xs);cursor:pointer;text-decoration:none;box-sizing:border-box}
+.share-menu a:hover,.share-menu button:hover{background:var(--sand-2)}
+.share-toast{margin-left:10px;font-family:var(--sans);font-size:12.5px;color:var(--teal-d);font-weight:600}
 .badge{font-family:var(--sans);font-size:11px;font-weight:700;text-transform:uppercase;letter-spacing:1px;padding:4px 9px;border-radius:var(--r-xs);background:var(--sand-2);color:var(--gold-d)}
 .art time{font-family:var(--sans);font-size:13px;color:var(--muted);margin-left:8px}
 .art h1{font-size:clamp(28px,4.2vw,38px);line-height:1.14;margin:14px 0 20px;border-bottom:2px solid var(--gold);padding-bottom:16px;font-weight:700}
@@ -242,6 +250,44 @@ footer.s .f-geo{margin:0;font:600 10.5px/1.6 var(--mono);letter-spacing:.12em;
     <div class="kicker"><span class="badge">Morning Brief</span><time datetime="2026-08-09">Sunday, 9 August 2026</time><span class="byline">By <a href="../about/onyango-george.html" rel="author">Onyango George (OG)</a></span></div>
     <h1>The Guests Are Already Across the Border.</h1>
     
+    <div class="share-wrap">
+  <button type="button" class="share-btn" id="shareBtn" aria-haspopup="true" aria-expanded="false">
+    <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M18 16.08c-.76 0-1.44.3-1.96.77L8.91 12.7a3.02 3.02 0 0 0 0-1.4l7.05-4.11a2.99 2.99 0 1 0-.99-2.19c0 .24.03.47.09.7L8 9.81a3 3 0 1 0 0 4.38l7.12 4.15c-.06.23-.09.46-.09.7a3 3 0 1 0 3-3.96z"/></svg>
+    Share
+  </button>
+  <span class="share-toast" id="shareToast" hidden>Link copied</span>
+  <div class="share-menu" id="shareMenu" hidden>
+    <button type="button" id="shareCopy">🔗 Copy link</button>
+    <a href="https://wa.me/?text=The%20Guests%20Are%20Already%20Across%20the%20Border%20%E2%80%94%20Morning%20Brief%2C%209%20August%202026%20https%3A%2F%2Feahospitalitypulse.com%2Feditions%2Fpulse-2026-08-09-morning.html" target="_blank" rel="noopener">💬 WhatsApp</a>
+    <a href="https://t.me/share/url?url=https%3A%2F%2Feahospitalitypulse.com%2Feditions%2Fpulse-2026-08-09-morning.html&text=The%20Guests%20Are%20Already%20Across%20the%20Border%20%E2%80%94%20Morning%20Brief%2C%209%20August%202026" target="_blank" rel="noopener">📣 Telegram</a>
+    <a href="https://twitter.com/intent/tweet?url=https%3A%2F%2Feahospitalitypulse.com%2Feditions%2Fpulse-2026-08-09-morning.html&text=The%20Guests%20Are%20Already%20Across%20the%20Border%20%E2%80%94%20Morning%20Brief%2C%209%20August%202026" target="_blank" rel="noopener">𝕏 X (Twitter)</a>
+    <a href="https://www.linkedin.com/sharing/share-offsite/?url=https%3A%2F%2Feahospitalitypulse.com%2Feditions%2Fpulse-2026-08-09-morning.html" target="_blank" rel="noopener">💼 LinkedIn</a>
+  </div>
+</div>
+<script>
+(function(){
+  var url="https://eahospitalitypulse.com/editions/pulse-2026-08-09-morning.html", title="The Guests Are Already Across the Border \u2014 Morning Brief, 9 August 2026";
+  var btn=document.getElementById('shareBtn'), menu=document.getElementById('shareMenu'),
+      toast=document.getElementById('shareToast'), copyBtn=document.getElementById('shareCopy');
+  function closeMenu(){ menu.hidden=true; btn.setAttribute('aria-expanded','false'); }
+  btn.addEventListener('click', function(e){
+    e.stopPropagation();
+    if(navigator.share){ navigator.share({title:title,url:url}).catch(function(){}); return; }
+    var open=menu.hidden;
+    closeMenu();
+    if(open){ menu.hidden=false; btn.setAttribute('aria-expanded','true'); }
+  });
+  copyBtn.addEventListener('click', function(){
+    var done=function(){ toast.hidden=false; setTimeout(function(){toast.hidden=true;},1800); closeMenu(); };
+    if(navigator.clipboard && navigator.clipboard.writeText){ navigator.clipboard.writeText(url).then(done, done); }
+    else { var ta=document.createElement('textarea'); ta.value=url; ta.style.position='fixed'; ta.style.opacity='0';
+      document.body.appendChild(ta); ta.focus(); ta.select();
+      try{document.execCommand('copy');}catch(e){} document.body.removeChild(ta); done(); }
+  });
+  document.addEventListener('click', function(e){ if(!menu.hidden && !menu.contains(e.target) && e.target!==btn) closeMenu(); });
+  document.addEventListener('keydown', function(e){ if(e.key==='Escape') closeMenu(); });
+})();
+</script>
     <p>No fresh wire this morning — so here is the thing the H1 numbers are telling every operator, and most are still not pricing for.<br>━━━━━━━━━<br><span class="item-head">1️⃣ THE GUESTS ARE ALREADY ACROSS THE BORDER</span><br>The half-year data is in, and it points one way. South Africa took 5.58m international arrivals in H1 2026, up 12.3% — but the split matters more than the headline: arrivals from the rest of Africa rose 14.3%, while overseas arrivals grew just 5.6% (Statistics South Africa, released 30 July). More than 70% of monthly arrivals came from the SADC region. The same pattern shows in our own backyard: Rwanda&#x27;s single largest source market in H1 was not Europe or America but the DRC — 185,420 visitors, 12.5% of arrivals — with Kenya (10%) and Tanzania (9%) next (Rwanda Development Board, H1 2026).<br>Regional demand is growing two to three times faster than long-haul, and it is the base that holds when a Western advisory lands or the dollar turns. Yet it is still treated as walk-in: undifferentiated rate, no product, no campaign.<br><span class="sowhat">🎯 So what: build a deliberate regional book, don&#x27;t wait for it. City hotels — price a weekday cross-border corporate and long-stay rate for the trade, health and education travel that already fills midweek. Bush — sell the shoulder season on the African-resident and EAC tariff you already have (Uganda gorilla permits run US$500 for Africans and UGX 300,000 for EAC citizens vs US$800 foreign; low-season US$600). Beach — court the Gulf and India charter demand that fills the European off-months.</span><br><span class="tagline">🏷 All | Regional/Rwanda/EA | Reported</span><br>━━━━━━━━━<br>📌 STILL TRUE (context, unchanged)<br>• Advisory board: US — Kenya L2, Uganda L4, Tanzania/Zanzibar L3, Rwanda L3. No weekend move.<br>• Cost: Kenya diesel KSh 222.86/L, super KSh 214.03/L held only through 14 Aug (EPRA July review). Lock transfer/generator contracts this week.</p>
 <p><span class="meta-line">📡 THE WATCH</span><br>• Tue 12 Aug — US CDC §362 Ebola entry order expires; watch renewal + whether Uganda is decoupled<br>• Thu–Fri 14–15 Aug — EPRA fuel review reprices the cycle<br>• 19–21 Aug — Hotel Expo Kenya, KICC Nairobi — city-hotel midweek compression</p>
 <p><span class="meta-line">💬 Are you quoting a distinct regional rate, or letting the border trade walk in at rack?</span></p>

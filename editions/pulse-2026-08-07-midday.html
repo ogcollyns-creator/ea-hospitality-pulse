@@ -59,6 +59,14 @@ header.s b{font-size:16px}
 .art .hero{display:block;width:calc(100% + 60px);height:auto;margin:-26px -30px 20px -30px;aspect-ratio:1200/630;object-fit:cover;background:var(--teal-d)}
 /* Cards and generated graphics are composed to the frame: show them whole. */
 .art .hero.graphic{object-fit:contain}
+.share-wrap{position:relative;display:inline-flex;align-items:center;margin:2px 0 18px}
+.share-btn{display:inline-flex;align-items:center;gap:7px;font-family:var(--sans);font-size:13px;font-weight:700;color:var(--teal-d);background:var(--sand-2);border:1px solid var(--line);border-radius:20px;padding:7px 14px;cursor:pointer}
+.share-btn:hover{border-color:var(--gold);color:var(--gold-d)}
+.share-btn svg{width:14px;height:14px;fill:currentColor}
+.share-menu{position:absolute;top:calc(100% + 6px);left:0;z-index:30;background:var(--card);border:1px solid var(--line);border-radius:var(--r-sm);box-shadow:0 10px 26px rgba(0,0,0,.18);padding:6px;min-width:190px}
+.share-menu a,.share-menu button{display:flex;align-items:center;gap:9px;width:100%;text-align:left;font-family:var(--sans);font-size:13.5px;font-weight:600;color:var(--ink);background:none;border:none;padding:8px 10px;border-radius:var(--r-xs);cursor:pointer;text-decoration:none;box-sizing:border-box}
+.share-menu a:hover,.share-menu button:hover{background:var(--sand-2)}
+.share-toast{margin-left:10px;font-family:var(--sans);font-size:12.5px;color:var(--teal-d);font-weight:600}
 .badge{font-family:var(--sans);font-size:11px;font-weight:700;text-transform:uppercase;letter-spacing:1px;padding:4px 9px;border-radius:var(--r-xs);background:var(--sand-2);color:var(--gold-d)}
 .art time{font-family:var(--sans);font-size:13px;color:var(--muted);margin-left:8px}
 .art h1{font-size:clamp(28px,4.2vw,38px);line-height:1.14;margin:14px 0 20px;border-bottom:2px solid var(--gold);padding-bottom:16px;font-weight:700}
@@ -242,6 +250,44 @@ footer.s .f-geo{margin:0;font:600 10.5px/1.6 var(--mono);letter-spacing:.12em;
     <div class="kicker"><span class="badge">Midday Pulse</span><time datetime="2026-08-07">Friday, 7 August 2026</time><span class="byline">By <a href="../about/onyango-george.html" rel="author">Onyango George (OG)</a></span></div>
     <h1>US: Kenya L2, Tanzania L3, Zanzibar L3, Uganda L4, Rwanda L3.</h1>
     <p class="standfirst">Automated cloud brief — repo-backed, verified data only. A fuller edited edition may follow.</p>
+    <div class="share-wrap">
+  <button type="button" class="share-btn" id="shareBtn" aria-haspopup="true" aria-expanded="false">
+    <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M18 16.08c-.76 0-1.44.3-1.96.77L8.91 12.7a3.02 3.02 0 0 0 0-1.4l7.05-4.11a2.99 2.99 0 1 0-.99-2.19c0 .24.03.47.09.7L8 9.81a3 3 0 1 0 0 4.38l7.12 4.15c-.06.23-.09.46-.09.7a3 3 0 1 0 3-3.96z"/></svg>
+    Share
+  </button>
+  <span class="share-toast" id="shareToast" hidden>Link copied</span>
+  <div class="share-menu" id="shareMenu" hidden>
+    <button type="button" id="shareCopy">🔗 Copy link</button>
+    <a href="https://wa.me/?text=US%3A%20Kenya%20L2%2C%20Tanzania%20L3%2C%20Zanzibar%20L3%2C%20Uganda%20L4%2C%20Rwanda%20L3.%20%E2%80%94%20Midday%20Pulse%2C%207%20August%202026%20https%3A%2F%2Feahospitalitypulse.com%2Feditions%2Fpulse-2026-08-07-midday.html" target="_blank" rel="noopener">💬 WhatsApp</a>
+    <a href="https://t.me/share/url?url=https%3A%2F%2Feahospitalitypulse.com%2Feditions%2Fpulse-2026-08-07-midday.html&text=US%3A%20Kenya%20L2%2C%20Tanzania%20L3%2C%20Zanzibar%20L3%2C%20Uganda%20L4%2C%20Rwanda%20L3.%20%E2%80%94%20Midday%20Pulse%2C%207%20August%202026" target="_blank" rel="noopener">📣 Telegram</a>
+    <a href="https://twitter.com/intent/tweet?url=https%3A%2F%2Feahospitalitypulse.com%2Feditions%2Fpulse-2026-08-07-midday.html&text=US%3A%20Kenya%20L2%2C%20Tanzania%20L3%2C%20Zanzibar%20L3%2C%20Uganda%20L4%2C%20Rwanda%20L3.%20%E2%80%94%20Midday%20Pulse%2C%207%20August%202026" target="_blank" rel="noopener">𝕏 X (Twitter)</a>
+    <a href="https://www.linkedin.com/sharing/share-offsite/?url=https%3A%2F%2Feahospitalitypulse.com%2Feditions%2Fpulse-2026-08-07-midday.html" target="_blank" rel="noopener">💼 LinkedIn</a>
+  </div>
+</div>
+<script>
+(function(){
+  var url="https://eahospitalitypulse.com/editions/pulse-2026-08-07-midday.html", title="US: Kenya L2, Tanzania L3, Zanzibar L3, Uganda L4, Rwanda L3. \u2014 Midday Pulse, 7 August 2026";
+  var btn=document.getElementById('shareBtn'), menu=document.getElementById('shareMenu'),
+      toast=document.getElementById('shareToast'), copyBtn=document.getElementById('shareCopy');
+  function closeMenu(){ menu.hidden=true; btn.setAttribute('aria-expanded','false'); }
+  btn.addEventListener('click', function(e){
+    e.stopPropagation();
+    if(navigator.share){ navigator.share({title:title,url:url}).catch(function(){}); return; }
+    var open=menu.hidden;
+    closeMenu();
+    if(open){ menu.hidden=false; btn.setAttribute('aria-expanded','true'); }
+  });
+  copyBtn.addEventListener('click', function(){
+    var done=function(){ toast.hidden=false; setTimeout(function(){toast.hidden=true;},1800); closeMenu(); };
+    if(navigator.clipboard && navigator.clipboard.writeText){ navigator.clipboard.writeText(url).then(done, done); }
+    else { var ta=document.createElement('textarea'); ta.value=url; ta.style.position='fixed'; ta.style.opacity='0';
+      document.body.appendChild(ta); ta.focus(); ta.select();
+      try{document.execCommand('copy');}catch(e){} document.body.removeChild(ta); done(); }
+  });
+  document.addEventListener('click', function(e){ if(!menu.hidden && !menu.contains(e.target) && e.target!==btn) closeMenu(); });
+  document.addEventListener('keydown', function(e){ if(e.key==='Escape') closeMenu(); });
+})();
+</script>
     <p><span class="item-head">1️⃣ ADVISORY BOARD — STILL TRUE</span><br>US: Kenya L2, Tanzania L3, Zanzibar L3, Uganda L4, Rwanda L3.<br>UK: Kenya L2, Tanzania L1, Zanzibar L1, Uganda L3, Rwanda L2.<br><span class="sowhat">🎯 So what: no verified change to act on right now; a confirmed &#x27;no change&#x27; tells you not to discount on advisory grounds. (Board verified against travel.state.gov / gov.uk.)</span><br><span class="tagline">🏷 All | Regional | Confirmed</span></p>
 <p><span class="item-head">2️⃣ FORECAST CHECK-IN — CALLS RESOLVING SOON</span><br>• 10 Aug — P030: No East African tourism body|airline|hotel group or national tourism authority from Kenya|<br>• 11 Aug — P057: The US CDC will not post a new or renewed Section 362 Ebola entry order on its port-health<br>• 12 Aug — P034: Neither the US State Department nor the UK FCDO will lower its Uganda travel advisory leve<br><span class="sowhat">🎯 So what: these are our falsifiable calls coming due — we grade ourselves in public.</span><br><span class="tagline">🏷 All | Regional | Reported</span></p>
 <p><span class="meta-line">📡 RADAR FLAGGED (unread upstream — open before relying)</span><br>• [page changed] Federal Register — CDC notices — Federal Register — CDC notices, first seen 2026-08-07 [OPEN THIS]<br><a href="https://www.federalregister.gov/api/v1/documents.rss?conditions%5Bagencies%5D%5B%5D=centers-for-disease-control-and-prevention&amp;order=newest" rel="noopener">federalregister.gov/api/v1/documents.rss?conditions%5Ba…</a><br>• [page changed] Federal Register — CDC notices — Federal Register — CDC notices, first seen 2026-08-07 [OPEN THIS]<br><a href="https://www.federalregister.gov/api/v1/documents.rss?conditions%5Bagencies%5D%5B%5D=centers-for-disease-control-and-prevention&amp;order=newest" rel="noopener">federalregister.gov/api/v1/documents.rss?conditions%5Ba…</a><br>• [page changed] Airlink news — Airlink news, first seen 2026-08-07 [OPEN THIS]<br><a href="https://www.flyairlink.com/" rel="noopener">flyairlink.com/</a><br>━━━━━━━━━<br>🔗 This edition on the web: <a href="https://eahospitalitypulse.com/editions/pulse-2026-08-07-midday.html" rel="noopener">eahospitalitypulse.com/editions/pulse-2026-08-07-midday…</a><br>— EA Hospitality Pulse | Automated cloud brief</p>

@@ -59,6 +59,14 @@ header.s b{font-size:16px}
 .art .hero{display:block;width:calc(100% + 60px);height:auto;margin:-26px -30px 20px -30px;aspect-ratio:1200/630;object-fit:cover;background:var(--teal-d)}
 /* Cards and generated graphics are composed to the frame: show them whole. */
 .art .hero.graphic{object-fit:contain}
+.share-wrap{position:relative;display:inline-flex;align-items:center;margin:2px 0 18px}
+.share-btn{display:inline-flex;align-items:center;gap:7px;font-family:var(--sans);font-size:13px;font-weight:700;color:var(--teal-d);background:var(--sand-2);border:1px solid var(--line);border-radius:20px;padding:7px 14px;cursor:pointer}
+.share-btn:hover{border-color:var(--gold);color:var(--gold-d)}
+.share-btn svg{width:14px;height:14px;fill:currentColor}
+.share-menu{position:absolute;top:calc(100% + 6px);left:0;z-index:30;background:var(--card);border:1px solid var(--line);border-radius:var(--r-sm);box-shadow:0 10px 26px rgba(0,0,0,.18);padding:6px;min-width:190px}
+.share-menu a,.share-menu button{display:flex;align-items:center;gap:9px;width:100%;text-align:left;font-family:var(--sans);font-size:13.5px;font-weight:600;color:var(--ink);background:none;border:none;padding:8px 10px;border-radius:var(--r-xs);cursor:pointer;text-decoration:none;box-sizing:border-box}
+.share-menu a:hover,.share-menu button:hover{background:var(--sand-2)}
+.share-toast{margin-left:10px;font-family:var(--sans);font-size:12.5px;color:var(--teal-d);font-weight:600}
 .badge{font-family:var(--sans);font-size:11px;font-weight:700;text-transform:uppercase;letter-spacing:1px;padding:4px 9px;border-radius:var(--r-xs);background:var(--sand-2);color:var(--gold-d)}
 .art time{font-family:var(--sans);font-size:13px;color:var(--muted);margin-left:8px}
 .art h1{font-size:clamp(28px,4.2vw,38px);line-height:1.14;margin:14px 0 20px;border-bottom:2px solid var(--gold);padding-bottom:16px;font-weight:700}
@@ -242,6 +250,44 @@ footer.s .f-geo{margin:0;font:600 10.5px/1.6 var(--mono);letter-spacing:.12em;
     <div class="kicker"><span class="badge">Evening Wrap</span><time datetime="2026-07-30">Thursday, 30 July 2026</time><span class="byline">By <a href="../about/onyango-george.html" rel="author">Onyango George (OG)</a></span></div>
     <h1>Uganda is clean.</h1>
     
+    <div class="share-wrap">
+  <button type="button" class="share-btn" id="shareBtn" aria-haspopup="true" aria-expanded="false">
+    <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M18 16.08c-.76 0-1.44.3-1.96.77L8.91 12.7a3.02 3.02 0 0 0 0-1.4l7.05-4.11a2.99 2.99 0 1 0-.99-2.19c0 .24.03.47.09.7L8 9.81a3 3 0 1 0 0 4.38l7.12 4.15c-.06.23-.09.46-.09.7a3 3 0 1 0 3-3.96z"/></svg>
+    Share
+  </button>
+  <span class="share-toast" id="shareToast" hidden>Link copied</span>
+  <div class="share-menu" id="shareMenu" hidden>
+    <button type="button" id="shareCopy">🔗 Copy link</button>
+    <a href="https://wa.me/?text=Uganda%20is%20clean.%20The%20number%20that%20governs%20the%20American%20ban%20is%E2%80%A6%20%E2%80%94%20Evening%20Wrap%2C%2030%20July%202026%20https%3A%2F%2Feahospitalitypulse.com%2Feditions%2Fpulse-2026-07-30-evening.html" target="_blank" rel="noopener">💬 WhatsApp</a>
+    <a href="https://t.me/share/url?url=https%3A%2F%2Feahospitalitypulse.com%2Feditions%2Fpulse-2026-07-30-evening.html&text=Uganda%20is%20clean.%20The%20number%20that%20governs%20the%20American%20ban%20is%E2%80%A6%20%E2%80%94%20Evening%20Wrap%2C%2030%20July%202026" target="_blank" rel="noopener">📣 Telegram</a>
+    <a href="https://twitter.com/intent/tweet?url=https%3A%2F%2Feahospitalitypulse.com%2Feditions%2Fpulse-2026-07-30-evening.html&text=Uganda%20is%20clean.%20The%20number%20that%20governs%20the%20American%20ban%20is%E2%80%A6%20%E2%80%94%20Evening%20Wrap%2C%2030%20July%202026" target="_blank" rel="noopener">𝕏 X (Twitter)</a>
+    <a href="https://www.linkedin.com/sharing/share-offsite/?url=https%3A%2F%2Feahospitalitypulse.com%2Feditions%2Fpulse-2026-07-30-evening.html" target="_blank" rel="noopener">💼 LinkedIn</a>
+  </div>
+</div>
+<script>
+(function(){
+  var url="https://eahospitalitypulse.com/editions/pulse-2026-07-30-evening.html", title="Uganda is clean. The number that governs the American ban is\u2026 \u2014 Evening Wrap, 30 July 2026";
+  var btn=document.getElementById('shareBtn'), menu=document.getElementById('shareMenu'),
+      toast=document.getElementById('shareToast'), copyBtn=document.getElementById('shareCopy');
+  function closeMenu(){ menu.hidden=true; btn.setAttribute('aria-expanded','false'); }
+  btn.addEventListener('click', function(e){
+    e.stopPropagation();
+    if(navigator.share){ navigator.share({title:title,url:url}).catch(function(){}); return; }
+    var open=menu.hidden;
+    closeMenu();
+    if(open){ menu.hidden=false; btn.setAttribute('aria-expanded','true'); }
+  });
+  copyBtn.addEventListener('click', function(){
+    var done=function(){ toast.hidden=false; setTimeout(function(){toast.hidden=true;},1800); closeMenu(); };
+    if(navigator.clipboard && navigator.clipboard.writeText){ navigator.clipboard.writeText(url).then(done, done); }
+    else { var ta=document.createElement('textarea'); ta.value=url; ta.style.position='fixed'; ta.style.opacity='0';
+      document.body.appendChild(ta); ta.focus(); ta.select();
+      try{document.execCommand('copy');}catch(e){} document.body.removeChild(ta); done(); }
+  });
+  document.addEventListener('click', function(e){ if(!menu.hidden && !menu.contains(e.target) && e.target!==btn) closeMenu(); });
+  document.addEventListener('keydown', function(e){ if(e.key==='Escape') closeMenu(); });
+})();
+</script>
     <p>Uganda is clean. The number that governs the American ban is not — and it just moved the wrong way.<br>━━━━━━━━━<br><span class="item-head">1️⃣ Uganda&#x27;s Ebola-free — but the ban tracks Congo, not Kampala</span><br>Uganda declared its Bundibugyo outbreak over on 28 July (Ministry of Health): 20 confirmed cases, two deaths, every transmission chain closed. Next door, WHO&#x27;s Weekly External Situation Report 11 (data to 26 July) puts DR Congo at 3,262 confirmed cases and 1,437 deaths — Ituri alone spread across 28 of 36 health zones, with under 80% of identified contacts traced. The US CDC entry suspension, renewed 13 July and running to roughly 12 August, names Uganda alongside DRC and South Sudan. It keys off the regional caseload — and that caseload is still climbing.<br><span class="sowhat">🎯 So what: Do not sell &quot;Ebola-free Uganda&quot; as reopened access to US-origin guests. The declaration is a reassurance asset, not a border change — hold any &quot;restrictions lifted&quot; line in pre-arrival comms until CDC republishes.</span><br><span class="tagline">🏷 Bush/City | Uganda/DRC/Regional | Confirmed (declaration &amp; data); inference on ban timing</span><br>━━━━━━━━━<br><span class="item-head">2️⃣ Airlines fight border-data charges — at your guests&#x27; expense</span><br>IATA, AFRAA and AASA jointly urged African governments (30 July) to align Advance Passenger Information and PNR systems with ICAO standards, and opposed states charging airlines for border-security data. Fragmented, fee-loaded schemes raise the cost and friction of the long-haul seats East African resorts depend on.<br><span class="sowhat">🎯 So what: A watch item, not an action. Uncoordinated API/PNR = pricier tickets and slower immigration lines — track it before it reaches your ADR.</span><br><span class="tagline">🏷 City/Beach | Regional | Confirmed</span><br>━━━━━━━━━<br><span class="meta-line">💬 Would you quote &quot;Ebola-free&quot; to a US client this week, or wait for CDC?</span></p>
 <p>🔗 This edition on the web: <a href="https://eahospitalitypulse.com/editions/pulse-2026-07-30-evening.html" rel="noopener">eahospitalitypulse.com/editions/pulse-2026-07-30-evenin…</a><br>💼 Today&#x27;s Big Read on LinkedIn: <a href="https://www.linkedin.com/company/ea-hospitality-pulse/" rel="noopener">linkedin.com/company/ea-hospitality-pulse/</a><br>— EA Hospitality Pulse | Daily intelligence for city, bush &amp; beach properties</p>
     

@@ -59,6 +59,14 @@ header.s b{font-size:16px}
 .art .hero{display:block;width:calc(100% + 60px);height:auto;margin:-26px -30px 20px -30px;aspect-ratio:1200/630;object-fit:cover;background:var(--teal-d)}
 /* Cards and generated graphics are composed to the frame: show them whole. */
 .art .hero.graphic{object-fit:contain}
+.share-wrap{position:relative;display:inline-flex;align-items:center;margin:2px 0 18px}
+.share-btn{display:inline-flex;align-items:center;gap:7px;font-family:var(--sans);font-size:13px;font-weight:700;color:var(--teal-d);background:var(--sand-2);border:1px solid var(--line);border-radius:20px;padding:7px 14px;cursor:pointer}
+.share-btn:hover{border-color:var(--gold);color:var(--gold-d)}
+.share-btn svg{width:14px;height:14px;fill:currentColor}
+.share-menu{position:absolute;top:calc(100% + 6px);left:0;z-index:30;background:var(--card);border:1px solid var(--line);border-radius:var(--r-sm);box-shadow:0 10px 26px rgba(0,0,0,.18);padding:6px;min-width:190px}
+.share-menu a,.share-menu button{display:flex;align-items:center;gap:9px;width:100%;text-align:left;font-family:var(--sans);font-size:13.5px;font-weight:600;color:var(--ink);background:none;border:none;padding:8px 10px;border-radius:var(--r-xs);cursor:pointer;text-decoration:none;box-sizing:border-box}
+.share-menu a:hover,.share-menu button:hover{background:var(--sand-2)}
+.share-toast{margin-left:10px;font-family:var(--sans);font-size:12.5px;color:var(--teal-d);font-weight:600}
 .badge{font-family:var(--sans);font-size:11px;font-weight:700;text-transform:uppercase;letter-spacing:1px;padding:4px 9px;border-radius:var(--r-xs);background:var(--sand-2);color:var(--gold-d)}
 .art time{font-family:var(--sans);font-size:13px;color:var(--muted);margin-left:8px}
 .art h1{font-size:clamp(28px,4.2vw,38px);line-height:1.14;margin:14px 0 20px;border-bottom:2px solid var(--gold);padding-bottom:16px;font-weight:700}
@@ -242,6 +250,44 @@ footer.s .f-geo{margin:0;font:600 10.5px/1.6 var(--mono);letter-spacing:.12em;
     <div class="kicker"><span class="badge">Morning Brief</span><time datetime="2026-07-31">Friday, 31 July 2026</time><span class="byline">By <a href="../about/onyango-george.html" rel="author">Onyango George (OG)</a></span></div>
     <h1>Two upstream signals overnight, both about where East Africa&#x27;s next room-nights come from: Rwanda quietly put…</h1>
     
+    <div class="share-wrap">
+  <button type="button" class="share-btn" id="shareBtn" aria-haspopup="true" aria-expanded="false">
+    <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M18 16.08c-.76 0-1.44.3-1.96.77L8.91 12.7a3.02 3.02 0 0 0 0-1.4l7.05-4.11a2.99 2.99 0 1 0-.99-2.19c0 .24.03.47.09.7L8 9.81a3 3 0 1 0 0 4.38l7.12 4.15c-.06.23-.09.46-.09.7a3 3 0 1 0 3-3.96z"/></svg>
+    Share
+  </button>
+  <span class="share-toast" id="shareToast" hidden>Link copied</span>
+  <div class="share-menu" id="shareMenu" hidden>
+    <button type="button" id="shareCopy">🔗 Copy link</button>
+    <a href="https://wa.me/?text=Two%20upstream%20signals%20overnight%2C%20both%20about%20where%20East%E2%80%A6%20%E2%80%94%20Morning%20Brief%2C%2031%20July%202026%20https%3A%2F%2Feahospitalitypulse.com%2Feditions%2Fpulse-2026-07-31-morning.html" target="_blank" rel="noopener">💬 WhatsApp</a>
+    <a href="https://t.me/share/url?url=https%3A%2F%2Feahospitalitypulse.com%2Feditions%2Fpulse-2026-07-31-morning.html&text=Two%20upstream%20signals%20overnight%2C%20both%20about%20where%20East%E2%80%A6%20%E2%80%94%20Morning%20Brief%2C%2031%20July%202026" target="_blank" rel="noopener">📣 Telegram</a>
+    <a href="https://twitter.com/intent/tweet?url=https%3A%2F%2Feahospitalitypulse.com%2Feditions%2Fpulse-2026-07-31-morning.html&text=Two%20upstream%20signals%20overnight%2C%20both%20about%20where%20East%E2%80%A6%20%E2%80%94%20Morning%20Brief%2C%2031%20July%202026" target="_blank" rel="noopener">𝕏 X (Twitter)</a>
+    <a href="https://www.linkedin.com/sharing/share-offsite/?url=https%3A%2F%2Feahospitalitypulse.com%2Feditions%2Fpulse-2026-07-31-morning.html" target="_blank" rel="noopener">💼 LinkedIn</a>
+  </div>
+</div>
+<script>
+(function(){
+  var url="https://eahospitalitypulse.com/editions/pulse-2026-07-31-morning.html", title="Two upstream signals overnight, both about where East\u2026 \u2014 Morning Brief, 31 July 2026";
+  var btn=document.getElementById('shareBtn'), menu=document.getElementById('shareMenu'),
+      toast=document.getElementById('shareToast'), copyBtn=document.getElementById('shareCopy');
+  function closeMenu(){ menu.hidden=true; btn.setAttribute('aria-expanded','false'); }
+  btn.addEventListener('click', function(e){
+    e.stopPropagation();
+    if(navigator.share){ navigator.share({title:title,url:url}).catch(function(){}); return; }
+    var open=menu.hidden;
+    closeMenu();
+    if(open){ menu.hidden=false; btn.setAttribute('aria-expanded','true'); }
+  });
+  copyBtn.addEventListener('click', function(){
+    var done=function(){ toast.hidden=false; setTimeout(function(){toast.hidden=true;},1800); closeMenu(); };
+    if(navigator.clipboard && navigator.clipboard.writeText){ navigator.clipboard.writeText(url).then(done, done); }
+    else { var ta=document.createElement('textarea'); ta.value=url; ta.style.position='fixed'; ta.style.opacity='0';
+      document.body.appendChild(ta); ta.focus(); ta.select();
+      try{document.execCommand('copy');}catch(e){} document.body.removeChild(ta); done(); }
+  });
+  document.addEventListener('click', function(e){ if(!menu.hidden && !menu.contains(e.target) && e.target!==btn) closeMenu(); });
+  document.addEventListener('keydown', function(e){ if(e.key==='Escape') closeMenu(); });
+})();
+</script>
     <p>Two upstream signals overnight, both about where East Africa&#x27;s next room-nights come from: Rwanda quietly put a named boss over the city it&#x27;s building around its new airport, and Zanzibar has fixed the date on its biggest sports-tourism weekend of the year.<br>━━━━━━━━━<br><span class="item-head">1️⃣ RWANDA NAMES A DEDICATED CEO FOR BUGESERA&#x27;S &quot;AIRPORT CITY&quot;</span><br>The Office of the Prime Minister&#x27;s communiqué of 30 July 2026 appointed Jules Muheto Ndenga as CEO of Airport City — the planned hotel, logistics and commercial district around the new Kigali (Bugesera) International Airport — and moved Brig Gen Munyengango to lead Aviation Travel and Logistics Holding, the state aviation parent (Office of the Prime Minister communiqué, 30 July; en.webrwanda.com, 30 July). Airport construction is running at an estimated 25–30%, with phase one still targeted for 2027. We haven&#x27;t seen this carried by the regional trade press yet.<br><span class="sowhat">🎯 So what: Confirmed fact — Airport City now has its own chief executive, separate from the airport build. Our inference, labelled as such: giving the commercial district a dedicated CEO before the runway is finished is how a government signals the hotel and mixed-use component is moving from masterplan to procurement. If you are a Kigali operator or an investor eyeing Bugesera, you now have a named counterparty to track and a governance milestone to date your own timeline against. Watch the next 90 days for a hotel or commercial tender under his office.</span><br><span class="tagline">🏷 City/Bush | 🇷🇼 | Confirmed (appointment) / inference flagged</span></p>
 <p><span class="item-head">2️⃣ ZANZIBAR MARATHON FIXES 25 OCTOBER — A 10,000-RUNNER DEMAND DATE</span><br>Yas has launched the 2026 Zanzibar International Marathon, its sixth edition, targeting more than 10,000 local and international runners, with a fully digital registration and payment system via the Mixx by Yas platform (The Citizen, 30 July). The most recent Citizen reporting sets the race for 25 October; one earlier source cited 20 September, so confirm the date before you load it into a rate calendar.<br><span class="sowhat">🎯 So what: This is a diarised, bookable demand pulse landing inside Zanzibar&#x27;s Q4 shoulder, not the December peak. A 10,000-runner field pulls a two-to-three-night stay across Stone Town and the beach strip. Set a marathon-weekend rate and a minimum-stay now, before the international entries convert to bookings, and brief your reservations team to hold inventory around 24–26 October pending the final date.</span><br><span class="tagline">🏷 Beach/City | 🇹🇿 (Zanzibar) | Reported</span><br>━━━━━━━━━<br><span class="meta-line">📡 RADAR</span><br>• Watching — Rwanda Airport City: first hotel/commercial tender or investor under the new CEO&#x27;s office. Nothing published yet.<br>• 30 Jul — New Vision (UG) special report alleges medicinal plants are being smuggled out of Uganda&#x27;s game parks to Europe. A conservation-integrity story worth watching for a UWA response; unverified as to scale.<br>• ~2 Aug — WHO AFRO External Situation Report 12 on the DRC Bundibugyo outbreak. Last count (SitRep 11, data to 26 July): 3,200 confirmed, 1,405 deaths.<br>• 12 Aug — US CDC decision point on renewing the Ebola-related entry suspension covering DRC, Uganda and South Sudan. Uganda declared its own outbreak over on 28 July; the US ban still runs to this date.<br>• 14–15 Aug — EPRA monthly fuel review; MV Adan refloating window off Nyali.</p>
 <p><span class="meta-line">💬 Building around Bugesera, or watching it? Reply — we&#x27;re mapping who&#x27;s committing capital to Airport City.</span></p>

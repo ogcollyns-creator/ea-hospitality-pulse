@@ -59,6 +59,14 @@ header.s b{font-size:16px}
 .art .hero{display:block;width:calc(100% + 60px);height:auto;margin:-26px -30px 20px -30px;aspect-ratio:1200/630;object-fit:cover;background:var(--teal-d)}
 /* Cards and generated graphics are composed to the frame: show them whole. */
 .art .hero.graphic{object-fit:contain}
+.share-wrap{position:relative;display:inline-flex;align-items:center;margin:2px 0 18px}
+.share-btn{display:inline-flex;align-items:center;gap:7px;font-family:var(--sans);font-size:13px;font-weight:700;color:var(--teal-d);background:var(--sand-2);border:1px solid var(--line);border-radius:20px;padding:7px 14px;cursor:pointer}
+.share-btn:hover{border-color:var(--gold);color:var(--gold-d)}
+.share-btn svg{width:14px;height:14px;fill:currentColor}
+.share-menu{position:absolute;top:calc(100% + 6px);left:0;z-index:30;background:var(--card);border:1px solid var(--line);border-radius:var(--r-sm);box-shadow:0 10px 26px rgba(0,0,0,.18);padding:6px;min-width:190px}
+.share-menu a,.share-menu button{display:flex;align-items:center;gap:9px;width:100%;text-align:left;font-family:var(--sans);font-size:13.5px;font-weight:600;color:var(--ink);background:none;border:none;padding:8px 10px;border-radius:var(--r-xs);cursor:pointer;text-decoration:none;box-sizing:border-box}
+.share-menu a:hover,.share-menu button:hover{background:var(--sand-2)}
+.share-toast{margin-left:10px;font-family:var(--sans);font-size:12.5px;color:var(--teal-d);font-weight:600}
 .badge{font-family:var(--sans);font-size:11px;font-weight:700;text-transform:uppercase;letter-spacing:1px;padding:4px 9px;border-radius:var(--r-xs);background:var(--sand-2);color:var(--gold-d)}
 .art time{font-family:var(--sans);font-size:13px;color:var(--muted);margin-left:8px}
 .art h1{font-size:clamp(28px,4.2vw,38px);line-height:1.14;margin:14px 0 20px;border-bottom:2px solid var(--gold);padding-bottom:16px;font-weight:700}
@@ -242,6 +250,44 @@ footer.s .f-geo{margin:0;font:600 10.5px/1.6 var(--mono);letter-spacing:.12em;
     <div class="kicker"><span class="badge">Morning Brief</span><time datetime="2026-07-28">Tuesday, 28 July 2026</time><span class="byline">By <a href="../about/onyango-george.html" rel="author">Onyango George (OG)</a></span></div>
     <h1>The strike that was due to hit JKIA this morning isn&#x27;t happening.</h1>
     
+    <div class="share-wrap">
+  <button type="button" class="share-btn" id="shareBtn" aria-haspopup="true" aria-expanded="false">
+    <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M18 16.08c-.76 0-1.44.3-1.96.77L8.91 12.7a3.02 3.02 0 0 0 0-1.4l7.05-4.11a2.99 2.99 0 1 0-.99-2.19c0 .24.03.47.09.7L8 9.81a3 3 0 1 0 0 4.38l7.12 4.15c-.06.23-.09.46-.09.7a3 3 0 1 0 3-3.96z"/></svg>
+    Share
+  </button>
+  <span class="share-toast" id="shareToast" hidden>Link copied</span>
+  <div class="share-menu" id="shareMenu" hidden>
+    <button type="button" id="shareCopy">🔗 Copy link</button>
+    <a href="https://wa.me/?text=The%20strike%20that%20was%20due%20to%20hit%20JKIA%20this%20morning%20isn%27t%E2%80%A6%20%E2%80%94%20Morning%20Brief%2C%2028%20July%202026%20https%3A%2F%2Feahospitalitypulse.com%2Feditions%2Fpulse-2026-07-28-morning.html" target="_blank" rel="noopener">💬 WhatsApp</a>
+    <a href="https://t.me/share/url?url=https%3A%2F%2Feahospitalitypulse.com%2Feditions%2Fpulse-2026-07-28-morning.html&text=The%20strike%20that%20was%20due%20to%20hit%20JKIA%20this%20morning%20isn%27t%E2%80%A6%20%E2%80%94%20Morning%20Brief%2C%2028%20July%202026" target="_blank" rel="noopener">📣 Telegram</a>
+    <a href="https://twitter.com/intent/tweet?url=https%3A%2F%2Feahospitalitypulse.com%2Feditions%2Fpulse-2026-07-28-morning.html&text=The%20strike%20that%20was%20due%20to%20hit%20JKIA%20this%20morning%20isn%27t%E2%80%A6%20%E2%80%94%20Morning%20Brief%2C%2028%20July%202026" target="_blank" rel="noopener">𝕏 X (Twitter)</a>
+    <a href="https://www.linkedin.com/sharing/share-offsite/?url=https%3A%2F%2Feahospitalitypulse.com%2Feditions%2Fpulse-2026-07-28-morning.html" target="_blank" rel="noopener">💼 LinkedIn</a>
+  </div>
+</div>
+<script>
+(function(){
+  var url="https://eahospitalitypulse.com/editions/pulse-2026-07-28-morning.html", title="The strike that was due to hit JKIA this morning isn't\u2026 \u2014 Morning Brief, 28 July 2026";
+  var btn=document.getElementById('shareBtn'), menu=document.getElementById('shareMenu'),
+      toast=document.getElementById('shareToast'), copyBtn=document.getElementById('shareCopy');
+  function closeMenu(){ menu.hidden=true; btn.setAttribute('aria-expanded','false'); }
+  btn.addEventListener('click', function(e){
+    e.stopPropagation();
+    if(navigator.share){ navigator.share({title:title,url:url}).catch(function(){}); return; }
+    var open=menu.hidden;
+    closeMenu();
+    if(open){ menu.hidden=false; btn.setAttribute('aria-expanded','true'); }
+  });
+  copyBtn.addEventListener('click', function(){
+    var done=function(){ toast.hidden=false; setTimeout(function(){toast.hidden=true;},1800); closeMenu(); };
+    if(navigator.clipboard && navigator.clipboard.writeText){ navigator.clipboard.writeText(url).then(done, done); }
+    else { var ta=document.createElement('textarea'); ta.value=url; ta.style.position='fixed'; ta.style.opacity='0';
+      document.body.appendChild(ta); ta.focus(); ta.select();
+      try{document.execCommand('copy');}catch(e){} document.body.removeChild(ta); done(); }
+  });
+  document.addEventListener('click', function(e){ if(!menu.hidden && !menu.contains(e.target) && e.target!==btn) closeMenu(); });
+  document.addEventListener('keydown', function(e){ if(e.key==='Escape') closeMenu(); });
+})();
+</script>
     <p>The strike that was due to hit JKIA this morning isn&#x27;t happening. That&#x27;s a reprieve, not a settlement.<br>━━━━━━━━━<br><span class="item-head">1️⃣ JKIA STRIKE CALLED OFF — 24 HOURS BEFORE IT STARTED</span><br>The Kenya Aviation Workers Union withdrew the nationwide strike it had scheduled to begin today, after signing a framework agreement on Monday 27 July with the Ministry of Roads and Transport, Kenya Airways, KAA, KCAA and Jambojet (The Star and Capital FM, 27 July). The 20 July strike notice is withdrawn; KAWU–airline talks open today, and the harder round — KAWU with KAA — begins tomorrow, 29 July. Core demands are unresolved: withdrawal of NYS and KDF personnel from the JKIA fire station, and reinstatement of four dismissed employees.<br><span class="sowhat">🎯 So what: Don&#x27;t stand down your contingency. Keep the airport-transfer buffer and the flexible-rebooking wording live through 29 July, and only tell agents &quot;resolved&quot; when a CBA is signed, not when a strike is suspended.</span><br><span class="tagline">🏷 City/Bush/Beach | 🇰🇪 | Confirmed</span></p>
 <p><span class="item-head">2️⃣ OIL ROUND-TRIPPED — AND THE AUGUST FUEL NUMBER SURVIVED IT</span><br>Brent went above US$100 on 23 July after Houthi attacks on two Saudi tankers in the Red Sea, then fell to US$90.28 on Monday 27 July — down 8.2% in a session — as the US and Iran paused strikes (Bloomberg and Trading Economics, 23–27 July). The Standard put the intraday peak higher, above US$112, before easing to US$88 (Financial Standard, 28 July). Context on the cost side: CBK&#x27;s weekly bulletin for the week to 23 July showed reserves at US$13.854bn, 5.9 months of import cover, down from 6.0, with the shilling at 129.53 from 129.34.<br><span class="sowhat">🎯 So what: EPRA prices off the previous month&#x27;s landed cargo costs, so the spike lands in your September pump price, not the 15 August one — our inference, not EPRA&#x27;s word. Fix diesel and LPG supply contracts this week while the market is calm, and don&#x27;t rebase transfer surcharges off a four-day panic.</span><br><span class="tagline">🏷 All segments | 🇰🇪 (regional read-across) | Confirmed / inference flagged</span></p>
 <p><span class="item-head">3️⃣ THE WRECK OFF NYALI STAYS PUT UNTIL MID-AUGUST</span><br>KMA Director General Omae Nyarandi confirmed the refloating of MV Adan — aground off Nyali since 18 May while sailing Dar es Salaam to Mombasa — will only begin in mid-August 2026, timed to favourable weather and tides (The Standard, 27 July). Yaa Holdings Limited is the appointed salvage contractor; the plan is still in regulatory review. The Coast Guard is running round-the-clock security against vandalism, and maritime sources warn of fuel discharge risk.<br><span class="sowhat">🎯 So what: North-coast resorts get a wreck on the horizon through the whole August peak. Brief front desk today with one honest line, put it in pre-arrival comms before a guest photographs it, and confirm your pollution-event cover with your insurer this week.</span><br><span class="tagline">🏷 Beach | 🇰🇪 | Confirmed</span><br>━━━━━━━━━<br><span class="meta-line">📡 RADAR</span><br>• 29 Jul — KAWU–KAA negotiations open. This is the table that decides whether the strike returns.<br>• 30–31 Jul — KNBS July CPI. June ran at 6.4%.<br>• 12 Aug — US CDC decision point on renewing Ebola-related entry restrictions for DRC, Uganda and South Sudan.<br>• 14–15 Aug — EPRA monthly fuel review. Also the MV Adan refloating window.<br>• 27 Aug — Uganda&#x27;s 42-day Ebola countdown ends.</p>
