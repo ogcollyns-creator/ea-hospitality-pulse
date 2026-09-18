@@ -1,5 +1,13 @@
 window.GUIDES = [
  {
+  "slug": "africa-hotels-ai-adoption-proof-problem",
+  "title": "Africa's hotels adopted AI first. Now comes the hard part.",
+  "description": "Hotel chains across Kenya, Rwanda and Tanzania have integrated artificial intelligence faster than any region on earth. The industry's own data suggests that was the easy part.",
+  "category": "Big Read",
+  "updated": "2026-09-18",
+  "readMins": 8
+ },
+ {
   "slug": "defining-your-comp-set-east-africa",
   "title": "Your comp set is probably wrong — and East Africa's construction pipeline is about to prove it",
   "description": "Most properties define their competitive set by who is nearby and similar. Buyers define it by what they substitute you against. With four in five of Kenya's pipeline rooms already under construction, the gap between those two definitions is now a datable, forecastable risk.",

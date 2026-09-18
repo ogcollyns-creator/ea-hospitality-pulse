@@ -45,6 +45,9 @@ header.s a{color:#fff;text-decoration:none}
 .nav{font-family:var(--sans);font-size:14px;font-weight:600;margin:0 0 10px;display:inline-block}
 .cat{font-family:var(--sans);font-size:11px;font-weight:700;text-transform:uppercase;letter-spacing:1px;padding:4px 9px;border-radius:20px;background:var(--sand-2);color:var(--gold-d)}
 .upd{font-family:var(--sans);font-size:13px;color:var(--muted);margin-left:8px}
+.art .hero{display:block;width:calc(100% + 68px);height:auto;margin:-30px -34px 20px -34px;aspect-ratio:1200/630;object-fit:cover;background:var(--teal-d)}
+.art .hero.graphic{object-fit:contain}
+.hcredit{margin:-8px 0 18px;font:12px/1.5 var(--sans);color:var(--muted)}
 .art h1{font-size:29px;line-height:1.22;margin:16px 0 14px;border-bottom:2px solid var(--gold);padding-bottom:14px}
 .lede{font-size:18px;color:#3a423c;margin:0 0 20px}
 .byline{font-family:var(--sans);font-size:13.5px;color:var(--muted);margin:8px 0 0}
@@ -67,6 +70,7 @@ footer.s{text-align:center;color:var(--muted);font-family:var(--sans);font-size:
 @media(max-width:640px){
   .wrap{padding:0 16px}
   .art{padding:22px 18px 28px;margin:16px auto;border-radius:12px}
+  .art .hero{width:calc(100% + 36px);margin:-22px -18px 18px -18px}
   .art h1{font-size:24px}
   .lede{font-size:16.5px}
   .art h2{font-size:20px}
