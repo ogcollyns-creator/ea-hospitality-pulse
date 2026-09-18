@@ -1,8 +1,8 @@
 window.LEDGER = {
- "updated": "2026-09-18 12:52",
+ "updated": "2026-09-18 16:18",
  "stats": {
-  "total": 193,
-  "open": 141,
+  "total": 194,
+  "open": 142,
   "resolved": 50,
   "correct": 39,
   "partial": 1,
@@ -1320,6 +1320,22 @@ window.LEDGER = {
    "resolved_date": "",
    "evidence": "",
    "source_url": "https://capitalfm.africa/kenya-seeks-to-more-than-double-tourist-numbers-from-middle-east/",
+   "overdue": false
+  },
+  {
+   "id": "P193",
+   "made_date": "2026-09-18",
+   "edition": "Evening Wrap",
+   "claim": "The Senate Committee on Delegated Legislation will report on the Tourism (Tourism Enterprises) Regulations 2026 (Legal Notice No. 127 of 2026) recommending ANNULMENT or AMENDMENT rather than unqualified accession, on or before 31 December 2026 - nine industry associations told the committee on 17 September that they were not consulted before drafting, raising the constitutional public-participation requirement, and chair Sen. Mwenda Gataya said the committee would decide 'whether to annul or accede'",
+   "resolution_criteria": "Search parliament.go.ke Senate Hansard and the Committee on Delegated Legislation report pages, plus Kenyan national press, to 31 December 2026. Any tabled committee report recommending annulment of Legal Notice No. 127 of 2026, or recommending amendment/revision of its fee schedule or licensing provisions before accession, resolves the call CORRECT. A report recommending unqualified accession, or no report tabled by 31 December 2026, resolves it INCORRECT",
+   "resolve_by": "2026-12-31",
+   "market": "KE",
+   "segment": "City|Bush|Beach",
+   "confidence": "Inference",
+   "status": "open",
+   "resolved_date": "",
+   "evidence": "",
+   "source_url": "https://peopledaily.digital/news/new-tourism-fees-spark-uproar-as-operators-warn-kenya-could-lose-tourists-to-rival-destinations",
    "overdue": false
   },
   {
