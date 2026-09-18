@@ -1,18 +1,86 @@
 {
- "generated": "2026-09-18T16:10:06+03:00",
+ "generated": "2026-09-18T16:40:22+03:00",
  "slot": "evening",
  "window_start": 1789725600,
- "observations_in_window": 105,
+ "observations_in_window": 259,
  "deduped_against": 4,
  "candidates": [
   {
-   "score": 62.7,
+   "score": 117.7,
+   "components": {
+    "tier": 40,
+    "category": 32,
+    "lead": 12.0,
+    "relevance": 8,
+    "freshness": 19.7,
+    "corroborated": 10,
+    "page_change": -4
+   },
+   "keywords": [
+    "fee"
+   ],
+   "shock_terms": [],
+   "dedupe_match": null,
+   "dedupe_similarity": 0.0,
+   "id": "6a65f749bde1",
+   "title": "[page changed] Federal Register \u2014 CDC notices",
+   "url": "https://www.federalregister.gov/api/v1/documents.rss?conditions%5Bagencies%5D%5B%5D=centers-for-disease-control-and-prevention&order=newest",
+   "summary": "Federal Register Documents published on or after 08/19/2026 and from Centers for Disease Control and Prevention https://www.federalregister.gov/api/v1/documents.rss?conditions%5Bagencies%5D%5B%5D=centers-for-disease-control-and-prevention&order=newest Fri, 18 Sep 2026 04:00:00 GMT The documents in this feed originate from FederalRegister.gov which displays an unofficial web version of the daily Fe",
+   "kind": "page-change",
+   "source": "Federal Register \u2014 CDC notices",
+   "source_id": "us-fedreg-cdc",
+   "tier": 1,
+   "country": "REG",
+   "category": "advisory",
+   "segments": [
+    "city",
+    "bush"
+   ],
+   "first_seen": "2026-09-18T16:37+03:00",
+   "published": "2026-10-11",
+   "verdict": "OPEN THIS \u2014 tier-1 advisory page moved; content not auto-parsed, read it manually"
+  },
+  {
+   "score": 101.4,
+   "components": {
+    "tier": 40,
+    "category": 32,
+    "lead": 3.6,
+    "relevance": 0,
+    "freshness": 19.8,
+    "corroborated": 10,
+    "page_change": -4
+   },
+   "keywords": [],
+   "shock_terms": [],
+   "dedupe_match": null,
+   "dedupe_similarity": 0.0,
+   "id": "0c0fa5c234ce",
+   "title": "[page changed] Federal Register \u2014 public inspection (HHS/CDC), pre-publication",
+   "url": "https://www.federalregister.gov/api/v1/public-inspection-documents/current.json",
+   "summary": "{\"count\":72,\"results\":[{\"agencies\":[{\"raw_name\":\"SECURITIES AND EXCHANGE COMMISSION\",\"name\":\"Securities and Exchange Commission\",\"id\":466,\"url\":\"https://www.federalregister.gov/agencies/securities-and-exchange-commission\",\"json_url\":\"https://www.federalregister.gov/api/v1/agencies/466\",\"parent_id\":null,\"slug\":\"securities-and-exchange-commission\"}],\"agency_letters\":[],\"agency_names\":[\"Securities an",
+   "kind": "page-change",
+   "source": "Federal Register \u2014 public inspection (HHS/CDC), pre-publication",
+   "source_id": "us-fedreg-pubinspect-hhs",
+   "tier": 1,
+   "country": "REG",
+   "category": "advisory",
+   "segments": [
+    "city",
+    "bush"
+   ],
+   "first_seen": "2026-09-18T16:37+03:00",
+   "published": "2026-09-17",
+   "verdict": "OPEN THIS \u2014 tier-1 advisory page moved; content not auto-parsed, read it manually"
+  },
+  {
+   "score": 62.2,
    "components": {
     "tier": 40,
     "category": 12,
     "lead": 3.6,
     "relevance": 0,
-    "freshness": 17.1,
+    "freshness": 16.6,
     "undated": -6,
     "page_change": -4
    },
@@ -23,7 +91,7 @@
    "id": "46be46806028",
    "title": "[page changed] Airlink news",
    "url": "https://www.flyairlink.com/",
-   "summary": "",
+   "summary": "Request unsuccessful. Incapsula incident ID: 79000350008643197-25969717328939252",
    "kind": "page-change",
    "source": "Airlink news",
    "source_id": "air-airlink",
@@ -40,13 +108,79 @@
    "verdict": "OPEN THIS \u2014 tier-1 airline page moved; content not auto-parsed, read it manually"
   },
   {
-   "score": 93.5,
+   "score": 101.8,
+   "components": {
+    "tier": 40,
+    "category": 20,
+    "lead": 12.0,
+    "relevance": 0,
+    "freshness": 19.8,
+    "corroborated": 10
+   },
+   "keywords": [],
+   "shock_terms": [],
+   "dedupe_match": null,
+   "dedupe_similarity": 0.0,
+   "id": "ea452ed0bacb",
+   "title": "Public Finance Management Act",
+   "url": "https://new.kenyalaw.org/akn/ke/act/2012/18/eng@2026-09-25",
+   "summary": "Public Finance Management Act",
+   "kind": "item",
+   "source": "Kenya Gazette (Kenya Law)",
+   "source_id": "ke-gazette",
+   "tier": 1,
+   "country": "KE",
+   "category": "gazette",
+   "segments": [
+    "city",
+    "bush",
+    "beach"
+   ],
+   "first_seen": "2026-09-18T16:37+03:00",
+   "published": "2026-09-25",
+   "verdict": "STRONG \u2014 tier-1, upstream"
+  },
+  {
+   "score": 98.2,
+   "components": {
+    "tier": 40,
+    "category": 24,
+    "lead": 2.4,
+    "relevance": 12,
+    "freshness": 19.8
+   },
+   "keywords": [
+    "ebola"
+   ],
+   "shock_terms": [],
+   "dedupe_match": null,
+   "dedupe_similarity": 0.0,
+   "id": "0a4211c05f43",
+   "title": "Democratic Republic of the Congo (DRC)",
+   "url": "https://insp.cd/wp-content/uploads/2026/09/SitRep_MVEBDB_125_16_09_2026.pdf",
+   "summary": "1 fr-FR fr-FR fr-FR fr-FRRapport de Situation de la 17\u00e8me \u00c9pid\u00e9mie de la Maladie \u00e0 Virus EBOLA /RDC fr-FR fr-FRSitRep N\u00b0125/MVEBDB/16/09/2026 fr-FR Date de rapportage : 16 septembre 2026 Date de publication : 17 septembre 2026 fr-FR fr-FR fr-FR fr-FR fr-FR fr-FR fr-FR fr-FR fr-FR fr-FR fr-FR fr-FR fr-FR fr-FR fr-FR fr-FR fr-FR fr-FR fr-FR fr-FR fr-FR fr-FR fr-FR fr-FR fr-FR fr-FR fr-FR fr-FR fr-FR",
+   "kind": "doc",
+   "source": "ECDC \u2014 DRC/Uganda Ebola outbreak page",
+   "source_id": "ecdc-ebola",
+   "tier": 1,
+   "country": "GLOBAL",
+   "category": "health",
+   "segments": [
+    "city",
+    "bush"
+   ],
+   "first_seen": "2026-09-18T16:37+03:00",
+   "published": "2026-09-16",
+   "verdict": "STRONG \u2014 tier-1, upstream"
+  },
+  {
+   "score": 93.0,
    "components": {
     "tier": 40,
     "category": 18,
     "lead": 8.4,
     "relevance": 0,
-    "freshness": 17.1,
+    "freshness": 16.6,
     "corroborated": 10
    },
    "keywords": [],
@@ -56,7 +190,7 @@
    "id": "bb8e46017a3e",
    "title": "A Mud Spa Gone Wrong: Elephant Cow Rescued at Mt. Kenya",
    "url": "https://kws.go.ke/a-mud-spa-gone-wrong-elephant-cow-rescued-at-mt-kenya",
-   "summary": "",
+   "summary": "https://x.com/KWSKenya/status/2100864397686059151/video/1 Elephants love a good mud bath. It is their version of skincare, cooling them down and protecting their delicate hides from the sun and biting bugs. A proper wallow is a spa day, social occasion and beauty treatment, all rolled into one. Alas, this elephant cow took it a step too far and got [...]",
    "kind": "item",
    "source": "Kenya Wildlife Service",
    "source_id": "ke-kws",
@@ -71,46 +205,268 @@
    "verdict": "STRONG \u2014 tier-1, upstream"
   },
   {
-   "score": 84.9,
+   "score": 92.2,
    "components": {
-    "tier": 40,
-    "category": 17,
-    "lead": 16.8,
-    "relevance": 0,
-    "freshness": 17.1,
-    "undated": -6
+    "tier": 20,
+    "category": 14,
+    "lead": 8.4,
+    "relevance": 20,
+    "freshness": 19.8,
+    "corroborated": 10
    },
-   "keywords": [],
+   "keywords": [
+    "vat",
+    "route",
+    "flight"
+   ],
    "shock_terms": [],
    "dedupe_match": null,
    "dedupe_similarity": 0.0,
-   "id": "709a2d3c17b8",
-   "title": "Assessment of the sustainability of plastic waste exports to OECD countries",
-   "url": "https://environment.ec.europa.eu/publications/assessment-sustainability-plastic-waste-exports-oecd-countries_en",
-   "summary": "",
+   "id": "a78aba260fd7",
+   "title": "Air China Expands Beijing \u2013 Phuket Flights in NW26",
+   "url": "https://www.aeroroutes.com/eng/260918-canw26hkt",
+   "summary": "Published at 0600PDT / 1300GMT 18SEP26 Star Alliance member Air China during Northern winter 2026/27 season further expands service on Beijing Capital \u2013 Phuket route, as the carrier opened reservations for 3rd daily flight (except Sundays), from 16NOV26 to 20FEB27. Additional flight to be operated by 737 MAX 8. CA691 PEK0840 \u2013 1400HKT 7M8 24 CA691 PEK0915 \u2013 1435HKT 7M8 x247 CA821 PEK1110 \u2013 1630HKT",
    "kind": "item",
-   "source": "European Commission \u2014 green claims / EmpCo",
-   "source_id": "eu-green-claims",
-   "tier": 1,
-   "country": "REG",
-   "category": "regulator",
+   "source": "AeroRoutes schedule filings",
+   "source_id": "aeroroutes",
+   "tier": 2,
+   "country": "GLOBAL",
+   "category": "aviation-tracker",
    "segments": [
+    "city",
     "bush",
-    "beach",
-    "city"
+    "beach"
    ],
-   "first_seen": "2026-09-18T13:44+03:00",
-   "published": null,
+   "first_seen": "2026-09-18T16:38+03:00",
+   "published": "2026-09-18",
    "verdict": "CONSIDER"
   },
   {
-   "score": 84.9,
+   "score": 92.2,
+   "components": {
+    "tier": 20,
+    "category": 14,
+    "lead": 8.4,
+    "relevance": 20,
+    "freshness": 19.8,
+    "corroborated": 10
+   },
+   "keywords": [
+    "vat",
+    "route",
+    "flight"
+   ],
+   "shock_terms": [],
+   "dedupe_match": null,
+   "dedupe_similarity": 0.0,
+   "id": "c06643555958",
+   "title": "Air Arabia KSA Launches Operation in late-Sep 2026",
+   "url": "https://www.aeroroutes.com/eng/260918-4psep26",
+   "summary": "Published at 0300PDT / 1000GMT 18SEP26 Air Arabia KSA in late-September 2026 plans to launch scheduled service from Dammam , initially on 3 domestic routes. Planned operation overview as follows, based on available flights for reservations. Dammam \u2013 Jeddah eff 21SEP26 2 daily A320 Dammam \u2013 Madinah eff 21SEP26 1 daily A320 Dammam \u2013 Riyadh eff 21SEP26 2 daily A320",
+   "kind": "item",
+   "source": "AeroRoutes schedule filings",
+   "source_id": "aeroroutes",
+   "tier": 2,
+   "country": "GLOBAL",
+   "category": "aviation-tracker",
+   "segments": [
+    "city",
+    "bush",
+    "beach"
+   ],
+   "first_seen": "2026-09-18T16:38+03:00",
+   "published": "2026-09-18",
+   "verdict": "CONSIDER"
+  },
+  {
+   "score": 89.8,
+   "components": {
+    "tier": 40,
+    "category": 20,
+    "lead": 12.0,
+    "relevance": 8,
+    "freshness": 19.8,
+    "stale_trap": -10
+   },
+   "keywords": [
+    "gazette"
+   ],
+   "shock_terms": [],
+   "dedupe_match": null,
+   "dedupe_similarity": 0.0,
+   "id": "94ac0ad10842",
+   "title": "Kenya Gazette Vol. CXXVIII-No. 165",
+   "url": "https://new.kenyalaw.org/akn/ke/officialGazette/2026-09-14/165/eng@2026-09-14",
+   "summary": "Kenya Gazette Vol. CXXVIII-No. 165",
+   "kind": "item",
+   "source": "Kenya Gazette (Kenya Law)",
+   "source_id": "ke-gazette",
+   "tier": 1,
+   "country": "KE",
+   "category": "gazette",
+   "segments": [
+    "city",
+    "bush",
+    "beach"
+   ],
+   "first_seen": "2026-09-18T16:37+03:00",
+   "published": "2026-09-14",
+   "verdict": "CHECK \u2014 source date older than the window"
+  },
+  {
+   "score": 88.2,
+   "components": {
+    "tier": 20,
+    "category": 14,
+    "lead": 8.4,
+    "relevance": 16,
+    "freshness": 19.8,
+    "corroborated": 10
+   },
+   "keywords": [
+    "route",
+    "airline",
+    "flight"
+   ],
+   "shock_terms": [],
+   "dedupe_match": null,
+   "dedupe_similarity": 0.0,
+   "id": "7067338ac485",
+   "title": "Shenzhen Airlines Maintains A350 London Service in NW26",
+   "url": "https://www.aeroroutes.com/eng/260918-zhnw26lhr",
+   "summary": "Published at 0500PDT / 1200GMT 18SEP26 Shenzhen Airlines during Northern winter 2026/27 season plans to maintain Airbus A350-900 operation on Shenzhen \u2013 London Heathrow route. From 25OCT26, 4 of 7 weekly flights to be operated by Airbus A350-900 aircraft. ZH887 SZX1340 \u2013 1910LHR 330 135 ZH887 SZX1400 \u2013 1910LHR 350 67 ZH887 SZX1520 \u2013 2030LHR 350 24 ZH888 LHR2110 \u2013 1720+1SZX 330 135 ZH888 LHR2110 \u2013 ",
+   "kind": "item",
+   "source": "AeroRoutes schedule filings",
+   "source_id": "aeroroutes",
+   "tier": 2,
+   "country": "GLOBAL",
+   "category": "aviation-tracker",
+   "segments": [
+    "city",
+    "bush",
+    "beach"
+   ],
+   "first_seen": "2026-09-18T16:38+03:00",
+   "published": "2026-09-18",
+   "verdict": "CONSIDER"
+  },
+  {
+   "score": 88.2,
+   "components": {
+    "tier": 20,
+    "category": 14,
+    "lead": 8.4,
+    "relevance": 16,
+    "freshness": 19.8,
+    "corroborated": 10
+   },
+   "keywords": [
+    "route",
+    "airline",
+    "flight"
+   ],
+   "shock_terms": [],
+   "dedupe_match": null,
+   "dedupe_similarity": 0.17,
+   "id": "f920fe5b52cb",
+   "title": "Etihad NS27 Zanzibar Service Increases",
+   "url": "https://www.aeroroutes.com/eng/260918-eyns27znz",
+   "summary": "Published at 0200PDT / 0900GMT 18SEP26 Etihad Airways in Northern summer 2027 season once again schedules service increase on Abu Dhabi \u2013 Zanzibar route. From 01JUN27, the airline will operate this route twice daily, instead of 4 weekly. Previously reported, the airline during Northern winter 2026/27 season will operate 2 daily flights from 01DEC26 to 27MAR27. EY791 AUH0850 \u2013 1330ZNZ 32N D EY793 A",
+   "kind": "item",
+   "source": "AeroRoutes schedule filings",
+   "source_id": "aeroroutes",
+   "tier": 2,
+   "country": "GLOBAL",
+   "category": "aviation-tracker",
+   "segments": [
+    "city",
+    "bush",
+    "beach"
+   ],
+   "first_seen": "2026-09-18T16:38+03:00",
+   "published": "2026-09-18",
+   "verdict": "CONSIDER"
+  },
+  {
+   "score": 88.2,
+   "components": {
+    "tier": 40,
+    "category": 24,
+    "lead": 2.4,
+    "relevance": 12,
+    "freshness": 19.8,
+    "stale_trap": -10
+   },
+   "keywords": [
+    "ebola"
+   ],
+   "shock_terms": [],
+   "dedupe_match": null,
+   "dedupe_similarity": 0.0,
+   "id": "8e03bad1e4b8",
+   "title": "",
+   "url": "https://insp.cd/wp-content/uploads/2026/09/SitRep_MVEBDB_124_15_09_2026.pdf",
+   "summary": "1 fr-FR fr-FR fr-FR fr-FRRapport de Situation de la 17\u00e8me \u00c9pid\u00e9mie de la Maladie \u00e0 Virus EBOLA /RDC fr-FR fr-FRSitRep N\u00b0124/MVEBDB/15/09/2026 fr-FR Date de rapportage : 15 septembre 2026 Date de publication : 16 septembre 2026 fr-FR fr-FR fr-FR fr-FR fr-FR fr-FR fr-FR fr-FR fr-FR fr-FR fr-FR fr-FR fr-FR fr-FR fr-FR fr-FR fr-FR fr-FR fr-FR fr-FR fr-FR fr-FR fr-FR fr-FR fr-FR fr-FR fr-FR fr-FR fr-FR",
+   "kind": "doc",
+   "source": "ECDC \u2014 DRC/Uganda Ebola outbreak page",
+   "source_id": "ecdc-ebola",
+   "tier": 1,
+   "country": "GLOBAL",
+   "category": "health",
+   "segments": [
+    "city",
+    "bush"
+   ],
+   "first_seen": "2026-09-18T16:37+03:00",
+   "published": "2026-09-15",
+   "verdict": "CHECK \u2014 source date older than the window"
+  },
+  {
+   "score": 85.8,
+   "components": {
+    "tier": 20,
+    "category": 4,
+    "lead": 0.0,
+    "relevance": 32,
+    "freshness": 19.8,
+    "corroborated": 10
+   },
+   "keywords": [
+    "vat",
+    "gorilla",
+    "wildlife",
+    "tourism",
+    "shilling"
+   ],
+   "shock_terms": [],
+   "dedupe_match": null,
+   "dedupe_similarity": 0.17,
+   "id": "7ef5171c5ad6",
+   "title": "How Uganda is Turning Gorilla Conservation into a Community Dividend",
+   "url": "https://softpower.ug/how-uganda-is-turning-gorilla-conservation-into-a-community-dividend",
+   "summary": "Mountain gorillas are not only among the country\u2019s most treasured wildlife. They have also become a powerful pillar of the tourism economy, generating billions of shillings while supporting livelihoods and helping transform communities neighbouring their forest habitats. As the world prepares to mark World Gorilla Day on September 24, Uganda is turning the spotlight on [\u2026] The post How Uganda is T",
+   "kind": "item",
+   "source": "SoftPower News \u2014 Tourism & Travel (Uganda)",
+   "source_id": "ug-softpower-tourism",
+   "tier": 2,
+   "country": "UG",
+   "category": "press",
+   "segments": [
+    "bush",
+    "city"
+   ],
+   "first_seen": "2026-09-18T16:38+03:00",
+   "published": "2026-09-17",
+   "verdict": "CONSIDER"
+  },
+  {
+   "score": 84.4,
    "components": {
     "tier": 40,
     "category": 17,
     "lead": 16.8,
     "relevance": 0,
-    "freshness": 17.1,
+    "freshness": 16.6,
     "undated": -6
    },
    "keywords": [],
@@ -137,13 +493,82 @@
    "verdict": "CONSIDER"
   },
   {
-   "score": 82.7,
+   "score": 84.4,
+   "components": {
+    "tier": 40,
+    "category": 17,
+    "lead": 16.8,
+    "relevance": 0,
+    "freshness": 16.6,
+    "undated": -6
+   },
+   "keywords": [],
+   "shock_terms": [],
+   "dedupe_match": null,
+   "dedupe_similarity": 0.0,
+   "id": "709a2d3c17b8",
+   "title": "Assessment of the sustainability of plastic waste exports to OECD countries",
+   "url": "https://environment.ec.europa.eu/publications/assessment-sustainability-plastic-waste-exports-oecd-countries_en",
+   "summary": "",
+   "kind": "item",
+   "source": "European Commission \u2014 green claims / EmpCo",
+   "source_id": "eu-green-claims",
+   "tier": 1,
+   "country": "REG",
+   "category": "regulator",
+   "segments": [
+    "bush",
+    "beach",
+    "city"
+   ],
+   "first_seen": "2026-09-18T13:44+03:00",
+   "published": null,
+   "verdict": "CONSIDER"
+  },
+  {
+   "score": 84.2,
+   "components": {
+    "tier": 20,
+    "category": 14,
+    "lead": 8.4,
+    "relevance": 12,
+    "freshness": 19.8,
+    "corroborated": 10
+   },
+   "keywords": [
+    "route",
+    "flight"
+   ],
+   "shock_terms": [],
+   "dedupe_match": null,
+   "dedupe_similarity": 0.0,
+   "id": "010784013ada",
+   "title": "TAP Air Portugal Expands Porto \u2013 Rio de Janeiro Service From late-Oct 2026",
+   "url": "https://www.aeroroutes.com/eng/260918-tpnw26opogig",
+   "summary": "Published at 0400PDT / 1100GMT 18SEP26 TAP Air Portugal at the launch of Northern winter 2026/27 season plans service increase on Porto \u2013 Rio de Janeiro Galeao route, on board Airbus A330-900neo aircraft. The 3rd weekly flight will commence on 28OCT26. TP077 OPO1415 \u2013 2145GIG 339 1 TP077 OPO1430 \u2013 2155GIG 339 5 TP077 OPO1445 \u2013 2220GIG 339 3 TP078 GIG2315 \u2013 1210+1OPO 339 1 TP078 GIG2325 \u2013 1220+1OPO",
+   "kind": "item",
+   "source": "AeroRoutes schedule filings",
+   "source_id": "aeroroutes",
+   "tier": 2,
+   "country": "GLOBAL",
+   "category": "aviation-tracker",
+   "segments": [
+    "city",
+    "bush",
+    "beach"
+   ],
+   "first_seen": "2026-09-18T16:38+03:00",
+   "published": "2026-09-18",
+   "verdict": "CONSIDER"
+  },
+  {
+   "score": 82.2,
    "components": {
     "tier": 40,
     "category": 12,
     "lead": 3.6,
     "relevance": 0,
-    "freshness": 17.1,
+    "freshness": 16.6,
     "corroborated": 10
    },
    "keywords": [],
@@ -153,7 +578,7 @@
    "id": "781044b1a2c4",
    "title": "Lufthansa hebt zum Oktoberfest 2026 in neuer Tracht ab",
    "url": "https://newsroom.lufthansagroup.com/lufthansa-hebt-zum-oktoberfest-2026-in-ganz-neuer-tracht-ab",
-   "summary": "",
+   "summary": "Zum Oktoberfest 2026 gibt es f\u00fcr die Crews der traditionellen Trachtenfl\u00fcge ein neues Gewand. Die Kollektion wurde vom Niederbayerischen Trachtenmodehersteller Spieth & Wensky entworfen und verbindet bayerische Tradition erstmalig mit Elementen aus dem Lufthansa Design: Der aus dem Markenlogo bekannte Kranich schm\u00fcckt unter anderem die Kn\u00f6pfe der Damen- und Herrenstrickjacken. F\u00fcr Rock und Weste w",
    "kind": "item",
    "source": "Lufthansa Group newsroom",
    "source_id": "air-lh",
@@ -168,13 +593,13 @@
    "verdict": "CONSIDER"
   },
   {
-   "score": 77.5,
+   "score": 77.0,
    "components": {
     "tier": 40,
     "category": 24,
     "lead": 2.4,
     "relevance": 0,
-    "freshness": 17.1,
+    "freshness": 16.6,
     "undated": -6
    },
    "keywords": [],
@@ -201,64 +626,207 @@
    "verdict": "CONSIDER"
   },
   {
-   "score": 63.7,
+   "score": 74.8,
    "components": {
-    "tier": 20,
+    "tier": 40,
     "category": 5,
-    "lead": 3.6,
-    "relevance": 8,
-    "freshness": 17.1,
-    "corroborated": 10
+    "lead": 12.0,
+    "relevance": 4,
+    "freshness": 19.8,
+    "undated": -6
    },
    "keywords": [
-    "tourism",
+    "traffic"
+   ],
+   "shock_terms": [],
+   "dedupe_match": null,
+   "dedupe_similarity": 0.0,
+   "id": "4b4ef9af0697",
+   "title": "Report on the consideration of the Traffic (Schools Transport) Rules, 2026 (Legal Notice N. 11 of 2026)",
+   "url": "https://www.parliament.go.ke/sites/default/files/2026-07/Report%20on%20the%20consideration%20of%20the%20Traffic%20%28Schools%20Transport%29%20Rules%2C%202026%20%28Legal%20Notice%20N.%2011%20of%202026%29%20_0.pdf",
+   "summary": "",
+   "kind": "doc",
+   "source": "Senate Committee on Delegated Legislation (Kenya) \u2014 the committee that annuls or accedes to statutory instruments",
+   "source_id": "ke-senate-delegated-legislation",
+   "tier": 1,
+   "country": "KE",
+   "category": "REG",
+   "segments": [
+    "city",
+    "bush",
+    "beach"
+   ],
+   "first_seen": "2026-09-18T16:37+03:00",
+   "published": null,
+   "verdict": "CONSIDER"
+  },
+  {
+   "score": 74.8,
+   "components": {
+    "tier": 40,
+    "category": 5,
+    "lead": 12.0,
+    "relevance": 4,
+    "freshness": 19.8,
+    "undated": -6
+   },
+   "keywords": [
+    "traffic"
+   ],
+   "shock_terms": [],
+   "dedupe_match": null,
+   "dedupe_similarity": 0.0,
+   "id": "e3ab5dffce6f",
+   "title": "Report on the consideration of theTraffic (Motor Vehicle Inspection) Rules 2026 ( Legal Notice No. 13 of 2026)",
+   "url": "https://www.parliament.go.ke/sites/default/files/2026-07/Report%20on%20the%20consideration%20of%20theTraffic%20%28Motor%20Vehicle%20Inspection%29%20Rules%202026%20%28%20Legal%20Notice%20No.%2013%20of%202026%29%20%282%29%20%281%29_0.pdf",
+   "summary": "",
+   "kind": "doc",
+   "source": "Senate Committee on Delegated Legislation (Kenya) \u2014 the committee that annuls or accedes to statutory instruments",
+   "source_id": "ke-senate-delegated-legislation",
+   "tier": 1,
+   "country": "KE",
+   "category": "REG",
+   "segments": [
+    "city",
+    "bush",
+    "beach"
+   ],
+   "first_seen": "2026-09-18T16:37+03:00",
+   "published": null,
+   "verdict": "CONSIDER"
+  },
+  {
+   "score": 74.8,
+   "components": {
+    "tier": 40,
+    "category": 5,
+    "lead": 12.0,
+    "relevance": 4,
+    "freshness": 19.8,
+    "undated": -6
+   },
+   "keywords": [
+    "tourism"
+   ],
+   "shock_terms": [],
+   "dedupe_match": null,
+   "dedupe_similarity": 0.0,
+   "id": "c90cdcbfc9aa",
+   "title": "Tourism, Trade and Industrialization",
+   "url": "https://www.parliament.go.ke/the-senate/committees/standing-committees/12/committee-on-tourism-trade-and-industrialization",
+   "summary": "",
+   "kind": "item",
+   "source": "Senate Committee on Delegated Legislation (Kenya) \u2014 the committee that annuls or accedes to statutory instruments",
+   "source_id": "ke-senate-delegated-legislation",
+   "tier": 1,
+   "country": "KE",
+   "category": "REG",
+   "segments": [
+    "city",
+    "bush",
+    "beach"
+   ],
+   "first_seen": "2026-09-18T16:37+03:00",
+   "published": null,
+   "verdict": "CONSIDER"
+  },
+  {
+   "score": 74.8,
+   "components": {
+    "tier": 40,
+    "category": 5,
+    "lead": 12.0,
+    "relevance": 4,
+    "freshness": 19.8,
+    "undated": -6
+   },
+   "keywords": [
     "investment"
    ],
    "shock_terms": [],
    "dedupe_match": null,
    "dedupe_similarity": 0.0,
-   "id": "5fa6c726e7bd",
-   "title": "Bahrain to host the International Tourism Investment Forum 2027 with UN Tourism, under the patronage of HRH the Crown Prince and Prime Minister",
-   "url": "https://www.hospitalitynet.org/news/4134449/bahrain-to-host-the-international-tourism-investment-forum-2027-with-un-tourism-under-the-patronage-of-hrh-the-crown-prince-and-prime-minister",
+   "id": "06ff077dcb4c",
+   "title": "County Public Investment & Special Funds",
+   "url": "https://www.parliament.go.ke/node/18021",
    "summary": "",
    "kind": "item",
-   "source": "Hospitality Net \u2014 Africa announcements",
-   "source_id": "dev-hospitalitynet-africa",
-   "tier": 2,
-   "country": "REG",
-   "category": "trade",
+   "source": "Senate Committee on Delegated Legislation (Kenya) \u2014 the committee that annuls or accedes to statutory instruments",
+   "source_id": "ke-senate-delegated-legislation",
+   "tier": 1,
+   "country": "KE",
+   "category": "REG",
    "segments": [
     "city",
     "bush",
     "beach"
    ],
-   "first_seen": "2026-09-18T13:44+03:00",
-   "published": "2026-09-18",
-   "verdict": "weak"
+   "first_seen": "2026-09-18T16:37+03:00",
+   "published": null,
+   "verdict": "CONSIDER"
   },
   {
-   "score": 59.7,
+   "score": 73.8,
    "components": {
     "tier": 20,
-    "category": 5,
-    "lead": 3.6,
-    "relevance": 4,
-    "freshness": 17.1,
+    "category": 4,
+    "lead": 0.0,
+    "relevance": 20,
+    "freshness": 19.8,
     "corroborated": 10
    },
    "keywords": [
-    "hotel"
+    "eta",
+    "wildlife",
+    "tourism"
+   ],
+   "shock_terms": [],
+   "dedupe_match": null,
+   "dedupe_similarity": 0.17,
+   "id": "c549deb75da4",
+   "title": "Tourism Ministry Supports Teresa Babies Home Ahead of World Tourism Day",
+   "url": "https://softpower.ug/tourism-ministry-supports-teresa-babies-home-ahead-of-world-tourism-day",
+   "summary": "The Ministry of Tourism, Wildlife and Antiquities has extended support to Teresa Children\u2019s Home in Nyanama as part of activities leading to Uganda\u2019s World Tourism Day celebrations. The ministry team, led by Permanent Secretary Doreen Katusiime, donated rice, milk, tissue and other household items to the home, which cares for more than 20 children. The visit [\u2026] The post Tourism Ministry Supports ",
+   "kind": "item",
+   "source": "SoftPower News \u2014 Tourism & Travel (Uganda)",
+   "source_id": "ug-softpower-tourism",
+   "tier": 2,
+   "country": "UG",
+   "category": "press",
+   "segments": [
+    "bush",
+    "city"
+   ],
+   "first_seen": "2026-09-18T16:38+03:00",
+   "published": "2026-09-17",
+   "verdict": "CONSIDER"
+  },
+  {
+   "score": 72.0,
+   "components": {
+    "tier": 20,
+    "category": 5,
+    "lead": 1.2,
+    "relevance": 16,
+    "freshness": 19.8,
+    "corroborated": 10
+   },
+   "keywords": [
+    "resort",
+    "tourism",
+    "investment",
+    "opening"
    ],
    "shock_terms": [],
    "dedupe_match": null,
    "dedupe_similarity": 0.0,
-   "id": "73586795c308",
-   "title": "Hotel Gyms or Wellness Hubs? Reframing Fitness as a Hospitality Asset",
-   "url": "https://www.hospitalitynet.org/opinion/4134241/hotel-gyms-or-wellness-hubs-reframing-fitness-as-a-hospitality-asset",
-   "summary": "",
+   "id": "bab3418f257c",
+   "title": "SA Gov\u2019t welcomes R2bn Club Med investment",
+   "url": "https://voyagesafriq.com/2026/09/18/sa-govt-welcomes-r2bn-club-med-investment",
+   "summary": "President Cyril Ramaphosa has welcomed the opening of South Africa\u2019s first Club Med resort, describing the more than R2 billion development as a vote of confidence in the country\u2019s tourism [\u2026] The post SA Gov\u2019t welcomes R2bn Club Med investment appeared first on Voyages Afriq .",
    "kind": "item",
-   "source": "Hospitality Net \u2014 Africa announcements",
-   "source_id": "dev-hospitalitynet-africa",
+   "source": "VoyagesAfriq",
+   "source_id": "tp-voyagesafriq",
    "tier": 2,
    "country": "REG",
    "category": "trade",
@@ -267,22 +835,24 @@
     "bush",
     "beach"
    ],
-   "first_seen": "2026-09-18T13:44+03:00",
+   "first_seen": "2026-09-18T16:38+03:00",
    "published": "2026-09-18",
-   "verdict": "weak"
+   "verdict": "CONSIDER"
   },
   {
-   "score": 59.7,
+   "score": 71.2,
    "components": {
     "tier": 20,
     "category": 5,
     "lead": 3.6,
-    "relevance": 4,
-    "freshness": 17.1,
+    "relevance": 16,
+    "freshness": 16.6,
     "corroborated": 10
    },
    "keywords": [
-    "hotel"
+    "fee",
+    "hotel",
+    "guest"
    ],
    "shock_terms": [],
    "dedupe_match": null,
@@ -290,7 +860,7 @@
    "id": "53dd4eb8af5e",
    "title": "The Growing Cost of Technology Friction in Hotel Operation",
    "url": "https://www.hospitalitynet.org/opinion/4134450/the-growing-cost-of-technology-friction-in-hotel-operation",
-   "summary": "",
+   "summary": "The article argues that the true cost of hotel technology lies not in licensing fees but in fragmented workflows, manual processes, and disconnected data that drain staff time and limit guest service quality.",
    "kind": "item",
    "source": "Hospitality Net \u2014 Africa announcements",
    "source_id": "dev-hospitalitynet-africa",
@@ -304,340 +874,34 @@
    ],
    "first_seen": "2026-09-18T13:44+03:00",
    "published": "2026-09-18",
-   "verdict": "weak"
+   "verdict": "CONSIDER"
   },
   {
-   "score": 59.7,
+   "score": 71.2,
    "components": {
     "tier": 20,
     "category": 5,
     "lead": 3.6,
-    "relevance": 4,
-    "freshness": 17.1,
-    "corroborated": 10
-   },
-   "keywords": [
-    "hotel"
-   ],
-   "shock_terms": [],
-   "dedupe_match": null,
-   "dedupe_similarity": 0.0,
-   "id": "8354136de492",
-   "title": "U.S. hotel results for week ending 12 September",
-   "url": "https://www.hospitalitynet.org/news/4134451/us-hotel-results-for-week-ending-12-september",
-   "summary": "",
-   "kind": "item",
-   "source": "Hospitality Net \u2014 Africa announcements",
-   "source_id": "dev-hospitalitynet-africa",
-   "tier": 2,
-   "country": "REG",
-   "category": "trade",
-   "segments": [
-    "city",
-    "bush",
-    "beach"
-   ],
-   "first_seen": "2026-09-18T13:44+03:00",
-   "published": "2026-09-18",
-   "verdict": "weak"
-  },
-  {
-   "score": 59.1,
-   "components": {
-    "tier": 20,
-    "category": 4,
-    "lead": 0.0,
-    "relevance": 8,
-    "freshness": 17.1,
-    "corroborated": 10
-   },
-   "keywords": [
-    "fuel"
-   ],
-   "shock_terms": [],
-   "dedupe_match": null,
-   "dedupe_similarity": 0.33,
-   "id": "ffb7ea7f93c3",
-   "title": "Fuel hub to bridge Uganda to first oil",
-   "url": "https://www.monitor.co.ug/uganda/news/national/fuel-hub-to-bridge-uganda-to-first-oil-5599408",
-   "summary": "",
-   "kind": "item",
-   "source": "Daily Monitor (Uganda)",
-   "source_id": "np-monitor-ug",
-   "tier": 2,
-   "country": "UG",
-   "category": "press",
-   "segments": [
-    "city",
-    "bush",
-    "beach"
-   ],
-   "first_seen": "2026-09-18T13:44+03:00",
-   "published": "2026-09-18",
-   "verdict": "weak"
-  },
-  {
-   "score": 55.7,
-   "components": {
-    "tier": 20,
-    "category": 5,
-    "lead": 3.6,
-    "relevance": 0,
-    "freshness": 17.1,
-    "corroborated": 10
-   },
-   "keywords": [],
-   "shock_terms": [],
-   "dedupe_match": null,
-   "dedupe_similarity": 0.0,
-   "id": "1e6c067daa6c",
-   "title": "Calistoga Spa Hot Springs switches to Mews after 20\u2013years on the same system",
-   "url": "https://www.hospitalitynet.org/news/4134446/calistoga-spa-hot-springs-switches-to-mews-after-20years-on-the-same-system",
-   "summary": "",
-   "kind": "item",
-   "source": "Hospitality Net \u2014 Africa announcements",
-   "source_id": "dev-hospitalitynet-africa",
-   "tier": 2,
-   "country": "REG",
-   "category": "trade",
-   "segments": [
-    "city",
-    "bush",
-    "beach"
-   ],
-   "first_seen": "2026-09-18T13:44+03:00",
-   "published": "2026-09-18",
-   "verdict": "weak"
-  },
-  {
-   "score": 55.7,
-   "components": {
-    "tier": 20,
-    "category": 5,
-    "lead": 3.6,
-    "relevance": 0,
-    "freshness": 17.1,
-    "corroborated": 10
-   },
-   "keywords": [],
-   "shock_terms": [],
-   "dedupe_match": null,
-   "dedupe_similarity": 0.0,
-   "id": "e8246a4ab7aa",
-   "title": "Order Me a Room",
-   "url": "https://www.hospitalitynet.org/opinion/4134447/order-me-a-room",
-   "summary": "",
-   "kind": "item",
-   "source": "Hospitality Net \u2014 Africa announcements",
-   "source_id": "dev-hospitalitynet-africa",
-   "tier": 2,
-   "country": "REG",
-   "category": "trade",
-   "segments": [
-    "city",
-    "bush",
-    "beach"
-   ],
-   "first_seen": "2026-09-18T13:44+03:00",
-   "published": "2026-09-18",
-   "verdict": "weak"
-  },
-  {
-   "score": 55.7,
-   "components": {
-    "tier": 20,
-    "category": 5,
-    "lead": 3.6,
-    "relevance": 0,
-    "freshness": 17.1,
-    "corroborated": 10
-   },
-   "keywords": [],
-   "shock_terms": [],
-   "dedupe_match": null,
-   "dedupe_similarity": 0.0,
-   "id": "0074c3af37fb",
-   "title": "Employee Use of Design Thinking to Address Customer Complaints",
-   "url": "https://www.hospitalitynet.org/opinion/4134448/employee-use-of-design-thinking-to-address-customer-complaints",
-   "summary": "",
-   "kind": "item",
-   "source": "Hospitality Net \u2014 Africa announcements",
-   "source_id": "dev-hospitalitynet-africa",
-   "tier": 2,
-   "country": "REG",
-   "category": "trade",
-   "segments": [
-    "city",
-    "bush",
-    "beach"
-   ],
-   "first_seen": "2026-09-18T13:44+03:00",
-   "published": "2026-09-18",
-   "verdict": "weak"
-  },
-  {
-   "score": 55.1,
-   "components": {
-    "tier": 20,
-    "category": 4,
-    "lead": 0.0,
-    "relevance": 4,
-    "freshness": 17.1,
-    "corroborated": 10
-   },
-   "keywords": [
-    "tourism"
-   ],
-   "shock_terms": [],
-   "dedupe_match": null,
-   "dedupe_similarity": 0.0,
-   "id": "facd5ebf5d96",
-   "title": "Beyond beauty, Lake Nyasa could become Ruvuma\u2019s next major engine of domestic tourism growth",
-   "url": "https://dailynews.co.tz/beyond-beauty-lake-nyasa-could-become-ruvumas-next-major-engine-of-domestic-tourism-growth",
-   "summary": "",
-   "kind": "item",
-   "source": "Daily News (Tanzania)",
-   "source_id": "np-dailynews-tz",
-   "tier": 2,
-   "country": "TZ",
-   "category": "press",
-   "segments": [
-    "city",
-    "bush",
-    "beach"
-   ],
-   "first_seen": "2026-09-18T13:44+03:00",
-   "published": "2026-09-18",
-   "verdict": "weak"
-  },
-  {
-   "score": 55.1,
-   "components": {
-    "tier": 20,
-    "category": 4,
-    "lead": 0.0,
-    "relevance": 20,
-    "freshness": 17.1,
-    "undated": -6
-   },
-   "keywords": [
-    "levy",
-    "tax",
-    "tourism"
-   ],
-   "shock_terms": [],
-   "dedupe_match": null,
-   "dedupe_similarity": 0.0,
-   "id": "9949cf199cd6",
-   "title": "Economy Sh1bn tourism levy collection shortfall on delayed Airbnb tax 21 hours ago - 4 min read",
-   "url": "https://www.businessdailyafrica.com/bd/economy/sh1bn-tourism-levy-collection-shortfall-on-delayed-airbnb-tax-5598718",
-   "summary": "",
-   "kind": "item",
-   "source": "Business Daily Africa",
-   "source_id": "np-businessdaily",
-   "tier": 2,
-   "country": "KE",
-   "category": "press",
-   "segments": [
-    "city",
-    "bush",
-    "beach"
-   ],
-   "first_seen": "2026-09-18T13:44+03:00",
-   "published": null,
-   "verdict": "weak"
-  },
-  {
-   "score": 53.3,
-   "components": {
-    "tier": 20,
-    "category": 5,
-    "lead": 1.2,
-    "relevance": 0,
-    "freshness": 17.1,
-    "corroborated": 10
-   },
-   "keywords": [],
-   "shock_terms": [],
-   "dedupe_match": null,
-   "dedupe_similarity": 0.0,
-   "id": "357c37b29eff",
-   "title": "AirAsia Pushes Back on Rivals Taking Its Place in Malaysia",
-   "url": "https://skift.com/2026/09/18/airasia-pushes-back-on-rivals-taking-its-place-in-malaysia",
-   "summary": "",
-   "kind": "item",
-   "source": "Skift",
-   "source_id": "tp-skift",
-   "tier": 2,
-   "country": "GLOBAL",
-   "category": "trade",
-   "segments": [
-    "city",
-    "bush",
-    "beach"
-   ],
-   "first_seen": "2026-09-18T13:44+03:00",
-   "published": "2026-09-18",
-   "verdict": "weak"
-  },
-  {
-   "score": 53.3,
-   "components": {
-    "tier": 20,
-    "category": 5,
-    "lead": 1.2,
-    "relevance": 0,
-    "freshness": 17.1,
-    "corroborated": 10
-   },
-   "keywords": [],
-   "shock_terms": [],
-   "dedupe_match": null,
-   "dedupe_similarity": 0.0,
-   "id": "fc4533b81625",
-   "title": "IndiGo\u2019s Low Fares Remain. The Extras Are Getting Pricier",
-   "url": "https://skift.com/2026/09/18/indigos-low-fares-remain-the-extras-are-getting-pricier",
-   "summary": "",
-   "kind": "item",
-   "source": "Skift",
-   "source_id": "tp-skift",
-   "tier": 2,
-   "country": "GLOBAL",
-   "category": "trade",
-   "segments": [
-    "city",
-    "bush",
-    "beach"
-   ],
-   "first_seen": "2026-09-18T13:44+03:00",
-   "published": "2026-09-18",
-   "verdict": "weak"
-  },
-  {
-   "score": 53.1,
-   "components": {
-    "tier": 5,
-    "category": 5,
-    "lead": 0.0,
     "relevance": 16,
-    "freshness": 17.1,
+    "freshness": 16.6,
     "corroborated": 10
    },
    "keywords": [
-    "cancel",
-    "flight"
+    "eta",
+    "hotel",
+    "guest"
    ],
    "shock_terms": [],
    "dedupe_match": null,
    "dedupe_similarity": 0.0,
-   "id": "b6bae2c081ff",
-   "title": "Africa: Air Peace Records Highest Number of Delayed Flights In Nigeria\u2019s Aviation Sector with 1,330, 7 Cancellations From 1864 flights in August \u2014 NCAA Data",
-   "url": "https://atqnews.com/africa-air-peace-records-highest-number-of-delayed-flights-in-nigerias-aviation-sector-with-1330-7-cancellations-from-1864-flights-in-august-ncaa-data",
-   "summary": "",
+   "id": "73586795c308",
+   "title": "Hotel Gyms or Wellness Hubs? Reframing Fitness as a Hospitality Asset",
+   "url": "https://www.hospitalitynet.org/opinion/4134241/hotel-gyms-or-wellness-hubs-reframing-fitness-as-a-hospitality-asset",
+   "summary": "The article outlines why traditional hotel gyms fall short for today's health-conscious guests and details how wellness hubs, with multi-zone design and diversified revenue models, can unlock higher ancillary income and brand value.",
    "kind": "item",
-   "source": "ATQ News",
-   "source_id": "tp-atqnews",
-   "tier": 3,
+   "source": "Hospitality Net \u2014 Africa announcements",
+   "source_id": "dev-hospitalitynet-africa",
+   "tier": 2,
    "country": "REG",
    "category": "trade",
    "segments": [
@@ -647,723 +911,469 @@
    ],
    "first_seen": "2026-09-18T13:44+03:00",
    "published": "2026-09-18",
-   "verdict": "weak"
+   "verdict": "CONSIDER"
   },
   {
-   "score": 51.1,
+   "score": 70.8,
    "components": {
-    "tier": 20,
-    "category": 4,
-    "lead": 0.0,
-    "relevance": 0,
-    "freshness": 17.1,
-    "corroborated": 10
-   },
-   "keywords": [],
-   "shock_terms": [],
-   "dedupe_match": null,
-   "dedupe_similarity": 0.0,
-   "id": "94ef79c6aa15",
-   "title": "TAHA, Kenya\u2019s NaNA, Gambian agency explore areas for joint implementation of nutrition programmes",
-   "url": "https://dailynews.co.tz/taha-kenyas-nana-gambian-agency-explore-areas-for-joint-implementation-of-nutrition-programmes",
-   "summary": "",
-   "kind": "item",
-   "source": "Daily News (Tanzania)",
-   "source_id": "np-dailynews-tz",
-   "tier": 2,
-   "country": "TZ",
-   "category": "press",
-   "segments": [
-    "city",
-    "bush",
-    "beach"
-   ],
-   "first_seen": "2026-09-18T13:44+03:00",
-   "published": "2026-09-18",
-   "verdict": "weak"
-  },
-  {
-   "score": 51.1,
-   "components": {
-    "tier": 20,
-    "category": 4,
-    "lead": 0.0,
-    "relevance": 0,
-    "freshness": 17.1,
-    "corroborated": 10
-   },
-   "keywords": [],
-   "shock_terms": [],
-   "dedupe_match": null,
-   "dedupe_similarity": 0.0,
-   "id": "13c1b7010c35",
-   "title": "Tanzania calls for deeper ties with the OPEC Fund to advance its energy, health, education and agriculture sectors",
-   "url": "https://dailynews.co.tz/tanzania-calls-for-deeper-ties-with-the-opec-fund-to-advance-its-energy-health-education-and-agriculture-sectors",
-   "summary": "",
-   "kind": "item",
-   "source": "Daily News (Tanzania)",
-   "source_id": "np-dailynews-tz",
-   "tier": 2,
-   "country": "TZ",
-   "category": "press",
-   "segments": [
-    "city",
-    "bush",
-    "beach"
-   ],
-   "first_seen": "2026-09-18T13:44+03:00",
-   "published": "2026-09-18",
-   "verdict": "weak"
-  },
-  {
-   "score": 51.1,
-   "components": {
-    "tier": 20,
-    "category": 4,
-    "lead": 0.0,
-    "relevance": 0,
-    "freshness": 17.1,
-    "corroborated": 10
-   },
-   "keywords": [],
-   "shock_terms": [],
-   "dedupe_match": null,
-   "dedupe_similarity": 0.0,
-   "id": "577b7220050a",
-   "title": "DSE turnover surges on strong bond trading",
-   "url": "https://dailynews.co.tz/dse-turnover-surges-on-strong-bond-trading",
-   "summary": "",
-   "kind": "item",
-   "source": "Daily News (Tanzania)",
-   "source_id": "np-dailynews-tz",
-   "tier": 2,
-   "country": "TZ",
-   "category": "press",
-   "segments": [
-    "city",
-    "bush",
-    "beach"
-   ],
-   "first_seen": "2026-09-18T13:44+03:00",
-   "published": "2026-09-18",
-   "verdict": "weak"
-  },
-  {
-   "score": 51.1,
-   "components": {
-    "tier": 20,
-    "category": 4,
-    "lead": 0.0,
-    "relevance": 0,
-    "freshness": 17.1,
-    "corroborated": 10
-   },
-   "keywords": [],
-   "shock_terms": [],
-   "dedupe_match": null,
-   "dedupe_similarity": 0.0,
-   "id": "2c648de2c41e",
-   "title": "BoT raises awareness on proper handling of banknotes",
-   "url": "https://dailynews.co.tz/bot-raises-awareness-on-proper-handling-of-banknotes",
-   "summary": "",
-   "kind": "item",
-   "source": "Daily News (Tanzania)",
-   "source_id": "np-dailynews-tz",
-   "tier": 2,
-   "country": "TZ",
-   "category": "press",
-   "segments": [
-    "city",
-    "bush",
-    "beach"
-   ],
-   "first_seen": "2026-09-18T13:44+03:00",
-   "published": "2026-09-18",
-   "verdict": "weak"
-  },
-  {
-   "score": 51.1,
-   "components": {
-    "tier": 20,
-    "category": 4,
-    "lead": 0.0,
-    "relevance": 0,
-    "freshness": 17.1,
-    "corroborated": 10
-   },
-   "keywords": [],
-   "shock_terms": [],
-   "dedupe_match": null,
-   "dedupe_similarity": 0.0,
-   "id": "b7e07cbba9e4",
-   "title": "https://dse.co.tz/",
-   "url": "https://dailynews.co.tz/https-dse-co-tz",
-   "summary": "",
-   "kind": "item",
-   "source": "Daily News (Tanzania)",
-   "source_id": "np-dailynews-tz",
-   "tier": 2,
-   "country": "TZ",
-   "category": "press",
-   "segments": [
-    "city",
-    "bush",
-    "beach"
-   ],
-   "first_seen": "2026-09-18T13:44+03:00",
-   "published": "2026-09-18",
-   "verdict": "weak"
-  },
-  {
-   "score": 51.1,
-   "components": {
-    "tier": 20,
-    "category": 4,
-    "lead": 0.0,
-    "relevance": 0,
-    "freshness": 17.1,
-    "corroborated": 10
-   },
-   "keywords": [],
-   "shock_terms": [],
-   "dedupe_match": null,
-   "dedupe_similarity": 0.0,
-   "id": "4e12991d791d",
-   "title": "Farmer-market links key to farm growth",
-   "url": "https://dailynews.co.tz/farmer-market-links-key-to-farm-growth",
-   "summary": "",
-   "kind": "item",
-   "source": "Daily News (Tanzania)",
-   "source_id": "np-dailynews-tz",
-   "tier": 2,
-   "country": "TZ",
-   "category": "press",
-   "segments": [
-    "city",
-    "bush",
-    "beach"
-   ],
-   "first_seen": "2026-09-18T13:44+03:00",
-   "published": "2026-09-18",
-   "verdict": "weak"
-  },
-  {
-   "score": 51.1,
-   "components": {
-    "tier": 20,
-    "category": 4,
-    "lead": 0.0,
-    "relevance": 0,
-    "freshness": 17.1,
-    "corroborated": 10
-   },
-   "keywords": [],
-   "shock_terms": [],
-   "dedupe_match": null,
-   "dedupe_similarity": 0.0,
-   "id": "b947b7df2250",
-   "title": "RC calls for orderly commercial trading spaces",
-   "url": "https://dailynews.co.tz/rc-calls-for-orderly-commercial-trading-spaces",
-   "summary": "",
-   "kind": "item",
-   "source": "Daily News (Tanzania)",
-   "source_id": "np-dailynews-tz",
-   "tier": 2,
-   "country": "TZ",
-   "category": "press",
-   "segments": [
-    "city",
-    "bush",
-    "beach"
-   ],
-   "first_seen": "2026-09-18T13:44+03:00",
-   "published": "2026-09-18",
-   "verdict": "weak"
-  },
-  {
-   "score": 51.1,
-   "components": {
-    "tier": 20,
-    "category": 4,
-    "lead": 0.0,
-    "relevance": 0,
-    "freshness": 17.1,
-    "corroborated": 10
-   },
-   "keywords": [],
-   "shock_terms": [],
-   "dedupe_match": null,
-   "dedupe_similarity": 0.0,
-   "id": "fa8d7fa65356",
-   "title": "Afreximbank extends 10m US dollars financing to enable Azania Bank finance Tanzanian SMEs",
-   "url": "https://dailynews.co.tz/afreximbank-extends-10m-us-dollars-financing-to-enable-azania-bank-finance-tanzanian-smes",
-   "summary": "",
-   "kind": "item",
-   "source": "Daily News (Tanzania)",
-   "source_id": "np-dailynews-tz",
-   "tier": 2,
-   "country": "TZ",
-   "category": "press",
-   "segments": [
-    "city",
-    "bush",
-    "beach"
-   ],
-   "first_seen": "2026-09-18T13:44+03:00",
-   "published": "2026-09-18",
-   "verdict": "weak"
-  },
-  {
-   "score": 51.1,
-   "components": {
-    "tier": 20,
-    "category": 4,
-    "lead": 0.0,
-    "relevance": 0,
-    "freshness": 17.1,
-    "corroborated": 10
-   },
-   "keywords": [],
-   "shock_terms": [],
-   "dedupe_match": null,
-   "dedupe_similarity": 0.0,
-   "id": "e2b4101953e6",
-   "title": "Rwanda\u2019s RURA visits TCRA to learn how it regulates and manages the communications sector",
-   "url": "https://dailynews.co.tz/rwandas-rura-visits-tcra-to-learn-how-it-regulates-and-manages-the-communications-sector",
-   "summary": "",
-   "kind": "item",
-   "source": "Daily News (Tanzania)",
-   "source_id": "np-dailynews-tz",
-   "tier": 2,
-   "country": "TZ",
-   "category": "press",
-   "segments": [
-    "city",
-    "bush",
-    "beach"
-   ],
-   "first_seen": "2026-09-18T13:44+03:00",
-   "published": "2026-09-18",
-   "verdict": "weak"
-  },
-  {
-   "score": 51.1,
-   "components": {
-    "tier": 20,
-    "category": 4,
-    "lead": 0.0,
-    "relevance": 0,
-    "freshness": 17.1,
-    "corroborated": 10
-   },
-   "keywords": [],
-   "shock_terms": [],
-   "dedupe_match": null,
-   "dedupe_similarity": 0.0,
-   "id": "5356d07cbfa4",
-   "title": "One killed, another injured as residents resist arrest over disputed Wakiso land",
-   "url": "https://www.monitor.co.ug/uganda/news/national/one-killed-another-injured-as-residents-resist-arrest-over-disputed-wakiso-land-5599370",
-   "summary": "",
-   "kind": "item",
-   "source": "Daily Monitor (Uganda)",
-   "source_id": "np-monitor-ug",
-   "tier": 2,
-   "country": "UG",
-   "category": "press",
-   "segments": [
-    "city",
-    "bush",
-    "beach"
-   ],
-   "first_seen": "2026-09-18T13:44+03:00",
-   "published": "2026-09-18",
-   "verdict": "weak"
-  },
-  {
-   "score": 51.1,
-   "components": {
-    "tier": 20,
-    "category": 4,
-    "lead": 0.0,
-    "relevance": 0,
-    "freshness": 17.1,
-    "corroborated": 10
-   },
-   "keywords": [],
-   "shock_terms": [],
-   "dedupe_match": null,
-   "dedupe_similarity": 0.17,
-   "id": "cea944849e45",
-   "title": "Obuya milestone seals Uganda final berth",
-   "url": "https://www.monitor.co.ug/uganda/sports/cricket/obuya-milestone-seals-uganda-final-berth-5599378",
-   "summary": "",
-   "kind": "item",
-   "source": "Daily Monitor (Uganda)",
-   "source_id": "np-monitor-ug",
-   "tier": 2,
-   "country": "UG",
-   "category": "press",
-   "segments": [
-    "city",
-    "bush",
-    "beach"
-   ],
-   "first_seen": "2026-09-18T13:44+03:00",
-   "published": "2026-09-18",
-   "verdict": "weak"
-  },
-  {
-   "score": 49.1,
-   "components": {
-    "tier": 5,
+    "tier": 40,
     "category": 5,
-    "lead": 0.0,
-    "relevance": 12,
-    "freshness": 17.1,
-    "corroborated": 10
-   },
-   "keywords": [
-    "conservanc",
-    "tourism"
-   ],
-   "shock_terms": [],
-   "dedupe_match": null,
-   "dedupe_similarity": 0.0,
-   "id": "3f25439f9bd6",
-   "title": "Tourism: Rewilding Africa CIC Pushes Pan-African Drive for Community-Led National Park Conservancies",
-   "url": "https://atqnews.com/tourism-rewilding-africa-cic-pushes-pan-african-drive-for-community-led-national-park-conservancies",
-   "summary": "",
-   "kind": "item",
-   "source": "ATQ News",
-   "source_id": "tp-atqnews",
-   "tier": 3,
-   "country": "REG",
-   "category": "trade",
-   "segments": [
-    "city",
-    "bush",
-    "beach"
-   ],
-   "first_seen": "2026-09-18T13:44+03:00",
-   "published": "2026-09-18",
-   "verdict": "weak"
-  },
-  {
-   "score": 49.1,
-   "components": {
-    "tier": 5,
-    "category": 5,
-    "lead": 0.0,
-    "relevance": 12,
-    "freshness": 17.1,
-    "corroborated": 10
-   },
-   "keywords": [
-    "airport",
-    "passenger"
-   ],
-   "shock_terms": [],
-   "dedupe_match": null,
-   "dedupe_similarity": 0.0,
-   "id": "e1c82dc84903",
-   "title": "Airport Construction Boom Pays Off as Passenger Satisfaction Rises in 2026",
-   "url": "https://eturbonews.com/2026-airport-satisfaction-rankings",
-   "summary": "",
-   "kind": "item",
-   "source": "eTurboNews Africa",
-   "source_id": "tp-eturbonews",
-   "tier": 3,
-   "country": "GLOBAL",
-   "category": "trade",
-   "segments": [
-    "city",
-    "bush",
-    "beach"
-   ],
-   "first_seen": "2026-09-18T13:44+03:00",
-   "published": "2026-09-18",
-   "verdict": "weak"
-  },
-  {
-   "score": 47.1,
-   "components": {
-    "tier": 20,
-    "category": 4,
-    "lead": 0.0,
-    "relevance": 12,
-    "freshness": 17.1,
+    "lead": 12.0,
+    "relevance": 0,
+    "freshness": 19.8,
     "undated": -6
    },
-   "keywords": [
-    "kidnap"
-   ],
+   "keywords": [],
    "shock_terms": [],
    "dedupe_match": null,
    "dedupe_similarity": 0.0,
-   "id": "d423029d5335",
-   "title": "News Three arrested as police recover two children kidnapped from Njeru",
-   "url": "https://www.newvision.co.ug/category/news/three-arrested-as-police-recover-two-children-NV_240826_092026",
+   "id": "0de849b944c3",
+   "title": "The Hansard - Wednesday, 26 August 2026 - Morning Sitting",
+   "url": "https://www.parliament.go.ke/sites/default/files/2026-08/The%20Hansard%20-%20Wednesday%2C%2026%20August%202026%20%28A%29.pdf",
    "summary": "",
-   "kind": "item",
-   "source": "New Vision (Uganda)",
-   "source_id": "np-newvision-ug",
-   "tier": 2,
-   "country": "UG",
-   "category": "press",
-   "segments": [
-    "city",
-    "bush",
-    "beach"
-   ],
-   "first_seen": "2026-09-18T13:44+03:00",
-   "published": null,
-   "verdict": "weak"
-  },
-  {
-   "score": 47.1,
-   "components": {
-    "tier": 20,
-    "category": 4,
-    "lead": 0.0,
-    "relevance": 12,
-    "freshness": 17.1,
-    "undated": -6
-   },
-   "keywords": [
-    "vat",
-    "investment"
-   ],
-   "shock_terms": [],
-   "dedupe_match": null,
-   "dedupe_similarity": 0.17,
-   "id": "abe4fda09ce1",
-   "title": "How private sector investment in Zanzibar hospitals is cutting medical costs, curbing referrals Sep 16 - 2 min read",
-   "url": "https://www.thecitizen.co.tz/tanzania/zanzibar/how-private-sector-investment-in-zanzibar-hospitals-is-cutting-medical-costs-curbing-referrals-5597018",
-   "summary": "",
-   "kind": "item",
-   "source": "The Citizen (Tanzania)",
-   "source_id": "np-citizen-tz",
-   "tier": 2,
-   "country": "TZ",
-   "category": "press",
-   "segments": [
-    "city",
-    "bush",
-    "beach"
-   ],
-   "first_seen": "2026-09-18T13:44+03:00",
-   "published": null,
-   "verdict": "weak"
-  },
-  {
-   "score": 45.3,
-   "components": {
-    "tier": 20,
-    "category": 5,
-    "lead": 1.2,
-    "relevance": 8,
-    "freshness": 17.1,
-    "undated": -6
-   },
-   "keywords": [
-    "fuel"
-   ],
-   "shock_terms": [],
-   "dedupe_match": null,
-   "dedupe_similarity": 0.0,
-   "id": "d4583b5c41ea",
-   "title": "Fuel Alert at Sendelingsdrift: What Self-Drive Visitors to |Ai-|Ais/Richtersveld Need to Know",
-   "url": "https://travelnews.africa/news-single.html?id=18424&title=Fuel+Alert+at+Sendelingsdrift%3A+What+Self-Drive+Visitors+to+%7CAi-%7CAis%2FRichtersveld+Need+to+Know",
-   "summary": "",
-   "kind": "item",
-   "source": "travelnews.africa",
-   "source_id": "tp-travelnews-africa",
-   "tier": 2,
-   "country": "REG",
-   "category": "trade",
-   "segments": [
-    "city",
-    "bush",
-    "beach"
-   ],
-   "first_seen": "2026-09-18T13:44+03:00",
-   "published": null,
-   "verdict": "weak"
-  },
-  {
-   "score": 43.1,
-   "components": {
-    "tier": 20,
-    "category": 4,
-    "lead": 0.0,
-    "relevance": 8,
-    "freshness": 17.1,
-    "undated": -6
-   },
-   "keywords": [
-    "flood"
-   ],
-   "shock_terms": [],
-   "dedupe_match": null,
-   "dedupe_similarity": 0.0,
-   "id": "ed14ba483431",
-   "title": "World Thousands of children require mental health support after Nepal floods, UNICEF reports Many children affected by the floods witnessed the loss of loved ones and the destruction of their schools while some remain displaced from their communities.",
-   "url": "https://www.newvision.co.ug/category/world/thousands-of-children-require-mental-health-s-NV_240834_092026",
-   "summary": "",
-   "kind": "item",
-   "source": "New Vision (Uganda)",
-   "source_id": "np-newvision-ug",
-   "tier": 2,
-   "country": "UG",
-   "category": "press",
-   "segments": [
-    "city",
-    "bush",
-    "beach"
-   ],
-   "first_seen": "2026-09-18T13:44+03:00",
-   "published": null,
-   "verdict": "weak"
-  },
-  {
-   "score": 43.1,
-   "components": {
-    "tier": 20,
-    "category": 4,
-    "lead": 0.0,
-    "relevance": 8,
-    "freshness": 17.1,
-    "undated": -6
-   },
-   "keywords": [
-    "fuel"
-   ],
-   "shock_terms": [],
-   "dedupe_match": null,
-   "dedupe_similarity": 0.0,
-   "id": "0f893409454a",
-   "title": "Business Museveni breaks ground for 320m-litre Kampala fuel storage terminal",
-   "url": "https://www.newvision.co.ug/category/business/museveni-breaks-ground-for-320m-litre-kampala-NV_240802_092026",
-   "summary": "",
-   "kind": "item",
-   "source": "New Vision (Uganda)",
-   "source_id": "np-newvision-ug",
-   "tier": 2,
-   "country": "UG",
-   "category": "press",
-   "segments": [
-    "city",
-    "bush",
-    "beach"
-   ],
-   "first_seen": "2026-09-18T13:44+03:00",
-   "published": null,
-   "verdict": "weak"
-  },
-  {
-   "score": 43.1,
-   "components": {
-    "tier": 20,
-    "category": 4,
-    "lead": 0.0,
-    "relevance": 8,
-    "freshness": 17.1,
-    "undated": -6
-   },
-   "keywords": [
-    "fuel"
-   ],
-   "shock_terms": [],
-   "dedupe_match": null,
-   "dedupe_similarity": 0.0,
-   "id": "a0c3782bfe9e",
-   "title": "ATC students develop fuel theft detection tech 3 hours ago - 2 min read",
-   "url": "https://www.thecitizen.co.tz/tanzania/news/national/atc-students-develop-fuel-theft-detection-tech-5599354",
-   "summary": "",
-   "kind": "item",
-   "source": "The Citizen (Tanzania)",
-   "source_id": "np-citizen-tz",
-   "tier": 2,
-   "country": "TZ",
-   "category": "press",
-   "segments": [
-    "city",
-    "bush",
-    "beach"
-   ],
-   "first_seen": "2026-09-18T13:44+03:00",
-   "published": null,
-   "verdict": "weak"
-  },
-  {
-   "score": 43.1,
-   "components": {
-    "tier": 20,
-    "category": 4,
-    "lead": 0.0,
-    "relevance": 8,
-    "freshness": 17.1,
-    "undated": -6
-   },
-   "keywords": [
-    "fee"
-   ],
-   "shock_terms": [],
-   "dedupe_match": null,
-   "dedupe_similarity": 0.0,
-   "id": "17749637c23c",
-   "title": "KCB rolls out digital school-fees platform nationwide 2 hours ago - 3 min read",
-   "url": "https://www.thecitizen.co.tz/tanzania/news/national/kcb-rolls-out-digital-school-fees-platform-nationwide-5599424",
-   "summary": "",
-   "kind": "item",
-   "source": "The Citizen (Tanzania)",
-   "source_id": "np-citizen-tz",
-   "tier": 2,
-   "country": "TZ",
-   "category": "press",
-   "segments": [
-    "city",
-    "bush",
-    "beach"
-   ],
-   "first_seen": "2026-09-18T13:44+03:00",
-   "published": null,
-   "verdict": "weak"
-  },
-  {
-   "score": 43.1,
-   "components": {
-    "tier": 20,
-    "category": 4,
-    "lead": 0.0,
-    "relevance": 8,
-    "freshness": 17.1,
-    "undated": -6
-   },
-   "keywords": [
-    "eta"
-   ],
-   "shock_terms": [],
-   "dedupe_match": null,
-   "dedupe_similarity": 0.0,
-   "id": "55dbcf6c1022",
-   "title": "Companies Savannah Cement Sh4.5bn bank loan row escalates after Ndeta trial halt Yesterday - 4 min read",
-   "url": "https://www.businessdailyafrica.com/bd/corporate/companies/savannah-cement-sh4-5bn-bank-loan-row-escalates-5598284",
-   "summary": "",
-   "kind": "item",
-   "source": "Business Daily Africa",
-   "source_id": "np-businessdaily",
-   "tier": 2,
+   "kind": "doc",
+   "source": "Senate Committee on Delegated Legislation (Kenya) \u2014 the committee that annuls or accedes to statutory instruments",
+   "source_id": "ke-senate-delegated-legislation",
+   "tier": 1,
    "country": "KE",
-   "category": "press",
+   "category": "REG",
    "segments": [
     "city",
     "bush",
     "beach"
    ],
-   "first_seen": "2026-09-18T13:44+03:00",
+   "first_seen": "2026-09-18T16:37+03:00",
    "published": null,
-   "verdict": "weak"
+   "verdict": "CONSIDER"
+  },
+  {
+   "score": 70.8,
+   "components": {
+    "tier": 40,
+    "category": 5,
+    "lead": 12.0,
+    "relevance": 0,
+    "freshness": 19.8,
+    "undated": -6
+   },
+   "keywords": [],
+   "shock_terms": [],
+   "dedupe_match": null,
+   "dedupe_similarity": 0.0,
+   "id": "3bb828c625ec",
+   "title": "Sen. Faki Mohamed Mwinyihaji",
+   "url": "https://www.parliament.go.ke/the-senate/sen-faki-mohamed-mwinyihaji",
+   "summary": "",
+   "kind": "item",
+   "source": "Senate Committee on Delegated Legislation (Kenya) \u2014 the committee that annuls or accedes to statutory instruments",
+   "source_id": "ke-senate-delegated-legislation",
+   "tier": 1,
+   "country": "KE",
+   "category": "REG",
+   "segments": [
+    "city",
+    "bush",
+    "beach"
+   ],
+   "first_seen": "2026-09-18T16:37+03:00",
+   "published": null,
+   "verdict": "CONSIDER"
+  },
+  {
+   "score": 70.8,
+   "components": {
+    "tier": 40,
+    "category": 5,
+    "lead": 12.0,
+    "relevance": 0,
+    "freshness": 19.8,
+    "undated": -6
+   },
+   "keywords": [],
+   "shock_terms": [],
+   "dedupe_match": null,
+   "dedupe_similarity": 0.0,
+   "id": "f2fa98d97162",
+   "title": "Sen. Consolata Nabwire Wakwabubi",
+   "url": "https://www.parliament.go.ke/the-senate/sen-consolata-nabwire-wakwabubi",
+   "summary": "",
+   "kind": "item",
+   "source": "Senate Committee on Delegated Legislation (Kenya) \u2014 the committee that annuls or accedes to statutory instruments",
+   "source_id": "ke-senate-delegated-legislation",
+   "tier": 1,
+   "country": "KE",
+   "category": "REG",
+   "segments": [
+    "city",
+    "bush",
+    "beach"
+   ],
+   "first_seen": "2026-09-18T16:37+03:00",
+   "published": null,
+   "verdict": "CONSIDER"
+  },
+  {
+   "score": 70.8,
+   "components": {
+    "tier": 40,
+    "category": 5,
+    "lead": 12.0,
+    "relevance": 0,
+    "freshness": 19.8,
+    "undated": -6
+   },
+   "keywords": [],
+   "shock_terms": [],
+   "dedupe_match": null,
+   "dedupe_similarity": 0.0,
+   "id": "c99df1a5c14c",
+   "title": "The Refugees ( General) Regulations, 2024.",
+   "url": "https://www.parliament.go.ke/sites/default/files/2024-02/The%20refugees%28General%29%20regulations%2C%202024_1.pdf",
+   "summary": "",
+   "kind": "doc",
+   "source": "Senate Committee on Delegated Legislation (Kenya) \u2014 the committee that annuls or accedes to statutory instruments",
+   "source_id": "ke-senate-delegated-legislation",
+   "tier": 1,
+   "country": "KE",
+   "category": "REG",
+   "segments": [
+    "city",
+    "bush",
+    "beach"
+   ],
+   "first_seen": "2026-09-18T16:37+03:00",
+   "published": null,
+   "verdict": "CONSIDER"
+  },
+  {
+   "score": 70.8,
+   "components": {
+    "tier": 40,
+    "category": 5,
+    "lead": 12.0,
+    "relevance": 0,
+    "freshness": 19.8,
+    "undated": -6
+   },
+   "keywords": [],
+   "shock_terms": [],
+   "dedupe_match": null,
+   "dedupe_similarity": 0.0,
+   "id": "f33269daa5ee",
+   "title": "The Climate Change (Non Market Approaches) Regulations, 2026",
+   "url": "https://www.parliament.go.ke/sites/default/files/2026-02/The%20Climate%20Change%20%28Non%20Market%20Approaches%29%20%20Regulations%2C%202026.pdf",
+   "summary": "",
+   "kind": "doc",
+   "source": "Senate Committee on Delegated Legislation (Kenya) \u2014 the committee that annuls or accedes to statutory instruments",
+   "source_id": "ke-senate-delegated-legislation",
+   "tier": 1,
+   "country": "KE",
+   "category": "REG",
+   "segments": [
+    "city",
+    "bush",
+    "beach"
+   ],
+   "first_seen": "2026-09-18T16:37+03:00",
+   "published": null,
+   "verdict": "CONSIDER"
+  },
+  {
+   "score": 70.8,
+   "components": {
+    "tier": 40,
+    "category": 5,
+    "lead": 12.0,
+    "relevance": 0,
+    "freshness": 19.8,
+    "undated": -6
+   },
+   "keywords": [],
+   "shock_terms": [],
+   "dedupe_match": null,
+   "dedupe_similarity": 0.0,
+   "id": "a78d4f1cbeeb",
+   "title": "Report on the consideration of the National Transport and Safety Authority (Operation of Commercial Vehicles)Regulations, 2026(L",
+   "url": "https://www.parliament.go.ke/sites/default/files/2026-07/Report%20on%20the%20consideration%20of%20the%20National%20Transport%20and%20Safety%20Authority%20%28Operation%20of%20Commercial%20Vehicles%29Regulations%2C%202026%28Legal%20Noptice%20No.%2014%20of%202026%281%29_0.pdf",
+   "summary": "",
+   "kind": "doc",
+   "source": "Senate Committee on Delegated Legislation (Kenya) \u2014 the committee that annuls or accedes to statutory instruments",
+   "source_id": "ke-senate-delegated-legislation",
+   "tier": 1,
+   "country": "KE",
+   "category": "REG",
+   "segments": [
+    "city",
+    "bush",
+    "beach"
+   ],
+   "first_seen": "2026-09-18T16:37+03:00",
+   "published": null,
+   "verdict": "CONSIDER"
+  },
+  {
+   "score": 70.8,
+   "components": {
+    "tier": 40,
+    "category": 5,
+    "lead": 12.0,
+    "relevance": 0,
+    "freshness": 19.8,
+    "undated": -6
+   },
+   "keywords": [],
+   "shock_terms": [],
+   "dedupe_match": null,
+   "dedupe_similarity": 0.0,
+   "id": "373b8548cf25",
+   "title": "NOTIFICATION OF PUBLIC HEARINGS AND INVITATION TO SUBMIT VIEWS",
+   "url": "https://www.parliament.go.ke/notification-public-hearings-and-invitation-submit-views",
+   "summary": "",
+   "kind": "item",
+   "source": "Senate Committee on Delegated Legislation (Kenya) \u2014 the committee that annuls or accedes to statutory instruments",
+   "source_id": "ke-senate-delegated-legislation",
+   "tier": 1,
+   "country": "KE",
+   "category": "REG",
+   "segments": [
+    "city",
+    "bush",
+    "beach"
+   ],
+   "first_seen": "2026-09-18T16:37+03:00",
+   "published": null,
+   "verdict": "CONSIDER"
+  },
+  {
+   "score": 70.8,
+   "components": {
+    "tier": 40,
+    "category": 5,
+    "lead": 12.0,
+    "relevance": 0,
+    "freshness": 19.8,
+    "undated": -6
+   },
+   "keywords": [],
+   "shock_terms": [],
+   "dedupe_match": null,
+   "dedupe_similarity": 0.0,
+   "id": "bf116e74b8b4",
+   "title": "\ud835\udc12\ud835\udc1e\ud835\udc27\ud835\udc1a\ud835\udc2d\ud835\udc28\ud835\udc2b\ud835\udc2c \ud835\udc07\ud835\udc1a\ud835\udc25\ud835\udc2d \ud835\udc07\ud835\udc1e\ud835\udc1a\ud835\udc2b\ud835\udc22\ud835\udc27\ud835\udc20 \ud835\udc28\ud835\udc27 \ud835\udc0a\ud835\udc1e\ud835\udc27\ud835\udc32\ud835\udc1a\ud835\udc27\ud835\udc2c \ud835\udc11\ud835\udc1e\ud835\udc1c\ud835\udc2b\ud835\udc2e\ud835\udc22\ud835\udc2d\ud835\udc1e\ud835\udc1d \ud835\udc22\ud835\udc27\ud835\udc2d\ud835\udc28 \ud835\udc05\ud835\udc28\ud835\udc2b\ud835\udc1e\ud835\udc22\ud835\udc20\ud835\udc27 \ud835\udc0c\ud835\udc22\ud835\udc25\ud835\udc22\ud835\udc2d\ud835\udc1a\ud835\udc2b\ud835\udc32 \ud835\udc12\ud835\udc1e\ud835\udc2b\ud835\udc2f\ud835\udc22\ud835\udc1c\ud835\udc1e, \ud835\udc03\ud835\udc1e\ud835\udc26\ud835\udc1a\ud835\udc27\ud835\udc1d \ud835\udc02\ud835\udc12\ud835\udc2c\u2019 \ud835\udc00\ud835\udc29\ud835\udc29\ud835\udc1e\ud835\udc1a\ud835\udc2b\ud835\udc1a\ud835\udc27\ud835\udc1c\ud835\udc1e",
+   "url": "https://www.parliament.go.ke/node/26397",
+   "summary": "",
+   "kind": "item",
+   "source": "Senate Committee on Delegated Legislation (Kenya) \u2014 the committee that annuls or accedes to statutory instruments",
+   "source_id": "ke-senate-delegated-legislation",
+   "tier": 1,
+   "country": "KE",
+   "category": "REG",
+   "segments": [
+    "city",
+    "bush",
+    "beach"
+   ],
+   "first_seen": "2026-09-18T16:37+03:00",
+   "published": null,
+   "verdict": "CONSIDER"
+  },
+  {
+   "score": 70.8,
+   "components": {
+    "tier": 40,
+    "category": 5,
+    "lead": 12.0,
+    "relevance": 0,
+    "freshness": 19.8,
+    "undated": -6
+   },
+   "keywords": [],
+   "shock_terms": [],
+   "dedupe_match": null,
+   "dedupe_similarity": 0.0,
+   "id": "bc1cede0a304",
+   "title": "\ud835\udc0f\ud835\udc12\ud835\udc02 \ud835\udc02\ud835\udc0e\ud835\udc0c\ud835\udc0c\ud835\udc08\ud835\udc12\ud835\udc12\ud835\udc08\ud835\udc0e\ud835\udc0d\ud835\udc04\ud835\udc11\ud835\udc12 \ud835\udc11\ud835\udc04\ud835\udc08\ud835\udc13\ud835\udc04\ud835\udc11\ud835\udc00\ud835\udc13\ud835\udc04 \ud835\udc0f\ud835\udc00\ud835\udc11\ud835\udc0b\ud835\udc08\ud835\udc00\ud835\udc0c\ud835\udc04\ud835\udc0d\ud835\udc13\u2019\ud835\udc12 \ud835\udc02\ud835\udc0e\ud835\udc0c\ud835\udc0c\ud835\udc08\ud835\udc13\ud835\udc0c\ud835\udc04\ud835\udc0d\ud835\udc13 \ud835\udc13\ud835\udc0e \ud835\udc02\ud835\udc0b\ud835\udc08\ud835\udc0c\ud835\udc00\ud835\udc13\ud835\udc04 \ud835\udc12\ud835\udc0c\ud835\udc00\ud835\udc11\ud835\udc13 \ud835\udc00\ud835\udc06\ud835\udc11\ud835\udc08\ud835\udc02\ud835\udc14\ud835\udc0b\ud835\udc13\ud835\udc14\ud835\udc11\ud835\udc04 \ud835\udc00\ud835\udc0d\ud835\udc03 \ud835\udc08\ud835\udc0d\ud835\udc15\ud835\udc04\ud835\udc12\ud835\udc13\ud835\udc0c\ud835\udc04\ud835\udc0d\ud835\udc13\ud835\udc12 \ud835\udc02\ud835\udc04\ud835\udc0d\ud835\udc13\ud835\udc11\ud835\udc04\ud835\udc03 \ud835\udc0e\ud835\udc0d \ud835\udc12\ud835\udc14\ud835\udc12\ud835\udc13\ud835\udc00\ud835\udc08\ud835\udc0d\ud835\udc00\ud835\udc01\ud835\udc0b\ud835\udc04 \ud835\udc04\ud835\udc02\ud835\udc0e\ud835\udc0d\ud835\udc0e\ud835\udc0c\ud835\udc08\ud835\udc02 \ud835\udc06\ud835\udc11\ud835\udc0e\ud835\udc16\ud835\udc13\ud835\udc07",
+   "url": "https://www.parliament.go.ke/node/26387",
+   "summary": "",
+   "kind": "item",
+   "source": "Senate Committee on Delegated Legislation (Kenya) \u2014 the committee that annuls or accedes to statutory instruments",
+   "source_id": "ke-senate-delegated-legislation",
+   "tier": 1,
+   "country": "KE",
+   "category": "REG",
+   "segments": [
+    "city",
+    "bush",
+    "beach"
+   ],
+   "first_seen": "2026-09-18T16:37+03:00",
+   "published": null,
+   "verdict": "CONSIDER"
+  },
+  {
+   "score": 70.8,
+   "components": {
+    "tier": 40,
+    "category": 5,
+    "lead": 12.0,
+    "relevance": 0,
+    "freshness": 19.8,
+    "undated": -6
+   },
+   "keywords": [],
+   "shock_terms": [],
+   "dedupe_match": null,
+   "dedupe_similarity": 0.0,
+   "id": "ab429cd8f7c6",
+   "title": "\ud835\udc04\ud835\udc02\ud835\udc03\ud835\udc04 \ud835\udc0e\ud835\udc05\ud835\udc05\ud835\udc08\ud835\udc02\ud835\udc04\ud835\udc11\ud835\udc12 \ud835\udc02\ud835\udc00\ud835\udc14\ud835\udc06\ud835\udc07\ud835\udc13 \ud835\udc08\ud835\udc0d \ud835\udc13\ud835\udc07\ud835\udc04 \ud835\udc02\ud835\udc11\ud835\udc00\ud835\udc02\ud835\udc0a\ud835\udc12 \ud835\udc0e\ud835\udc05 \ud835\udc0a\ud835\udc04\ud835\udc0d\ud835\udc18\ud835\udc00\u2019\ud835\udc12 \ud835\udc03\ud835\udc04\ud835\udc15\ud835\udc0e\ud835\udc0b\ud835\udc14\ud835\udc13\ud835\udc08\ud835\udc0e\ud835\udc0d \ud835\udc13\ud835\udc11\ud835\udc00\ud835\udc0d\ud835\udc12\ud835\udc08\ud835\udc13\ud835\udc08\ud835\udc0e\ud835\udc0d",
+   "url": "https://www.parliament.go.ke/node/26383",
+   "summary": "",
+   "kind": "item",
+   "source": "Senate Committee on Delegated Legislation (Kenya) \u2014 the committee that annuls or accedes to statutory instruments",
+   "source_id": "ke-senate-delegated-legislation",
+   "tier": 1,
+   "country": "KE",
+   "category": "REG",
+   "segments": [
+    "city",
+    "bush",
+    "beach"
+   ],
+   "first_seen": "2026-09-18T16:37+03:00",
+   "published": null,
+   "verdict": "CONSIDER"
+  },
+  {
+   "score": 70.8,
+   "components": {
+    "tier": 40,
+    "category": 5,
+    "lead": 12.0,
+    "relevance": 0,
+    "freshness": 19.8,
+    "undated": -6
+   },
+   "keywords": [],
+   "shock_terms": [],
+   "dedupe_match": null,
+   "dedupe_similarity": 0.0,
+   "id": "559966572b14",
+   "title": "\ud835\udc0f\ud835\udc12\ud835\udc02 \ud835\udc02\ud835\udc0e\ud835\udc0c\ud835\udc0c\ud835\udc08\ud835\udc12\ud835\udc12\ud835\udc08\ud835\udc0e\ud835\udc0d\ud835\udc04\ud835\udc11\ud835\udc12 \ud835\udc11\ud835\udc00\ud835\udc0b\ud835\udc0b\ud835\udc18 \ud835\udc0a\ud835\udc04\ud835\udc0d\ud835\udc18\ud835\udc00\ud835\udc0d\ud835\udc12 \ud835\udc13\ud835\udc0e \ud835\udc00\ud835\udc13\ud835\udc13\ud835\udc04\ud835\udc0d\ud835\udc03 \ud835\udc0e\ud835\udc0d\ud835\udc06\ud835\udc0e\ud835\udc08\ud835\udc0d\ud835\udc06 \ud835\udc00\ud835\udc12\ud835\udc0a \ud835\udc12\ud835\udc07\ud835\udc0e\ud835\udc16 \ud835\udc08\ud835\udc0d \ud835\udc0d\ud835\udc18\ud835\udc04\ud835\udc11\ud835\udc08",
+   "url": "https://www.parliament.go.ke/node/26376",
+   "summary": "",
+   "kind": "item",
+   "source": "Senate Committee on Delegated Legislation (Kenya) \u2014 the committee that annuls or accedes to statutory instruments",
+   "source_id": "ke-senate-delegated-legislation",
+   "tier": 1,
+   "country": "KE",
+   "category": "REG",
+   "segments": [
+    "city",
+    "bush",
+    "beach"
+   ],
+   "first_seen": "2026-09-18T16:37+03:00",
+   "published": null,
+   "verdict": "CONSIDER"
+  },
+  {
+   "score": 70.8,
+   "components": {
+    "tier": 40,
+    "category": 5,
+    "lead": 12.0,
+    "relevance": 0,
+    "freshness": 19.8,
+    "undated": -6
+   },
+   "keywords": [],
+   "shock_terms": [],
+   "dedupe_match": null,
+   "dedupe_similarity": 0.0,
+   "id": "c782de0fba64",
+   "title": ">The Senate Business Committee",
+   "url": "https://www.parliament.go.ke/the-senate/committees/house-keeping-committee/12/the-senate-business-committee",
+   "summary": "",
+   "kind": "item",
+   "source": "Senate Committee on Delegated Legislation (Kenya) \u2014 the committee that annuls or accedes to statutory instruments",
+   "source_id": "ke-senate-delegated-legislation",
+   "tier": 1,
+   "country": "KE",
+   "category": "REG",
+   "segments": [
+    "city",
+    "bush",
+    "beach"
+   ],
+   "first_seen": "2026-09-18T16:37+03:00",
+   "published": null,
+   "verdict": "CONSIDER"
+  },
+  {
+   "score": 70.8,
+   "components": {
+    "tier": 40,
+    "category": 5,
+    "lead": 12.0,
+    "relevance": 0,
+    "freshness": 19.8,
+    "undated": -6
+   },
+   "keywords": [],
+   "shock_terms": [],
+   "dedupe_match": null,
+   "dedupe_similarity": 0.0,
+   "id": "df93d4454162",
+   "title": "The Procedures and Rules Committee",
+   "url": "https://www.parliament.go.ke/the-senate/committees/house-keeping-committee/12/the-rules-and-procedure-committee",
+   "summary": "",
+   "kind": "item",
+   "source": "Senate Committee on Delegated Legislation (Kenya) \u2014 the committee that annuls or accedes to statutory instruments",
+   "source_id": "ke-senate-delegated-legislation",
+   "tier": 1,
+   "country": "KE",
+   "category": "REG",
+   "segments": [
+    "city",
+    "bush",
+    "beach"
+   ],
+   "first_seen": "2026-09-18T16:37+03:00",
+   "published": null,
+   "verdict": "CONSIDER"
+  },
+  {
+   "score": 70.8,
+   "components": {
+    "tier": 40,
+    "category": 5,
+    "lead": 12.0,
+    "relevance": 0,
+    "freshness": 19.8,
+    "undated": -6
+   },
+   "keywords": [],
+   "shock_terms": [],
+   "dedupe_match": null,
+   "dedupe_similarity": 0.0,
+   "id": "844b408b4540",
+   "title": "The Powers and Privileges Committee",
+   "url": "https://www.parliament.go.ke/the-senate/committees/house-keeping-committee/12/the-powers-and-privileges-committee",
+   "summary": "",
+   "kind": "item",
+   "source": "Senate Committee on Delegated Legislation (Kenya) \u2014 the committee that annuls or accedes to statutory instruments",
+   "source_id": "ke-senate-delegated-legislation",
+   "tier": 1,
+   "country": "KE",
+   "category": "REG",
+   "segments": [
+    "city",
+    "bush",
+    "beach"
+   ],
+   "first_seen": "2026-09-18T16:37+03:00",
+   "published": null,
+   "verdict": "CONSIDER"
   }
  ]
 }
