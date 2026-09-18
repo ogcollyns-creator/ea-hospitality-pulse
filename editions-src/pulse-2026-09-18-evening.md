@@ -21,8 +21,6 @@ Kenya already charges 2% of gross sales on accommodation, food and drink as the 
 🇺🇬 **Open Park Days 25–27 September** — free entry, parks *and* reserves incl. Ajai, Katonga, Toro-Semuliki, Pian Upe; World Tourism Day nationals at Mbale on the 27th *(Daily Monitor, 5 September 2026)*.
 🇷🇼 Rwanda's **30-day DRC-transit entry denial** re-verified tonight, unrevised *(Rwanda MoH, 22 May 2026)*.
 
-🔍 **BLIND SPOT** — all 17 tier-A sources checked, none written off. But Zanzibar's health read tonight is secondary: we did not reach mohz.go.tz directly and carry the national 18 May posture instead.
-
 💬 Has anyone actually seen the fee schedule in the notice itself — or are we all working off the reporting?
 
 🔗 This edition on the web: https://eahospitalitypulse.com/editions/pulse-2026-09-18-evening.html
