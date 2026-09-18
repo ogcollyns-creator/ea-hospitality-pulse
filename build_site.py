@@ -9,6 +9,7 @@ Scans editions-src/*.md. Run: python build_site.py
 """
 import os, re, json, html, datetime, subprocess
 import sys, subprocess
+from urllib.parse import quote
 
 HERE = os.path.dirname(os.path.abspath(__file__))
 SRC = os.path.join(HERE, "editions-src")
@@ -71,6 +72,66 @@ def linkify(escaped):
             label = label[:55] + "\u2026"
         return f'<a href="{url}" rel="noopener">{label}</a>{tail}'
     return _URL_RE.sub(_a, escaped)
+
+
+_SHARE_TEMPLATE = """<div class="share-wrap">
+  <button type="button" class="share-btn" id="shareBtn" aria-haspopup="true" aria-expanded="false">
+    <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M18 16.08c-.76 0-1.44.3-1.96.77L8.91 12.7a3.02 3.02 0 0 0 0-1.4l7.05-4.11a2.99 2.99 0 1 0-.99-2.19c0 .24.03.47.09.7L8 9.81a3 3 0 1 0 0 4.38l7.12 4.15c-.06.23-.09.46-.09.7a3 3 0 1 0 3-3.96z"/></svg>
+    Share
+  </button>
+  <span class="share-toast" id="shareToast" hidden>Link copied</span>
+  <div class="share-menu" id="shareMenu" hidden>
+    <button type="button" id="shareCopy">🔗 Copy link</button>
+    <a href="__WA__" target="_blank" rel="noopener">💬 WhatsApp</a>
+    <a href="__TG__" target="_blank" rel="noopener">📣 Telegram</a>
+    <a href="__TW__" target="_blank" rel="noopener">𝕏 X (Twitter)</a>
+    <a href="__LI__" target="_blank" rel="noopener">💼 LinkedIn</a>
+  </div>
+</div>
+<script>
+(function(){
+  var url="__URL__", title="__TITLE__";
+  var btn=document.getElementById('shareBtn'), menu=document.getElementById('shareMenu'),
+      toast=document.getElementById('shareToast'), copyBtn=document.getElementById('shareCopy');
+  function closeMenu(){ menu.hidden=true; btn.setAttribute('aria-expanded','false'); }
+  btn.addEventListener('click', function(e){
+    e.stopPropagation();
+    if(navigator.share){ navigator.share({title:title,url:url}).catch(function(){}); return; }
+    var open=menu.hidden;
+    closeMenu();
+    if(open){ menu.hidden=false; btn.setAttribute('aria-expanded','true'); }
+  });
+  copyBtn.addEventListener('click', function(){
+    var done=function(){ toast.hidden=false; setTimeout(function(){toast.hidden=true;},1800); closeMenu(); };
+    if(navigator.clipboard && navigator.clipboard.writeText){ navigator.clipboard.writeText(url).then(done, done); }
+    else { var ta=document.createElement('textarea'); ta.value=url; ta.style.position='fixed'; ta.style.opacity='0';
+      document.body.appendChild(ta); ta.focus(); ta.select();
+      try{document.execCommand('copy');}catch(e){} document.body.removeChild(ta); done(); }
+  });
+  document.addEventListener('click', function(e){ if(!menu.hidden && !menu.contains(e.target) && e.target!==btn) closeMenu(); });
+  document.addEventListener('keydown', function(e){ if(e.key==='Escape') closeMenu(); });
+})();
+</script>"""
+
+def share_widget_html(url, title):
+    """Dependency-free share control: native Web Share API on mobile/supported
+    browsers, a small menu of direct network links (WhatsApp/Telegram/X/
+    LinkedIn) plus copy-link everywhere else. Shared by edition and guide
+    pages so every article and daily brief carries the same control."""
+    enc_url = quote(url, safe="")
+    enc_title = quote(title, safe="")
+    wa = f"https://wa.me/?text={enc_title}%20{enc_url}"
+    tg = f"https://t.me/share/url?url={enc_url}&text={enc_title}"
+    tw = f"https://twitter.com/intent/tweet?url={enc_url}&text={enc_title}"
+    li = f"https://www.linkedin.com/sharing/share-offsite/?url={enc_url}"
+    # json.dumps, not html.escape: this text lands inside an inline <script>,
+    # where HTML entities are never decoded by the JS parser (raw-text element).
+    js_url = json.dumps(url).replace("</", "<\/")
+    js_title = json.dumps(title).replace("</", "<\/")
+    out = _SHARE_TEMPLATE
+    out = out.replace("__WA__", wa).replace("__TG__", tg).replace("__TW__", tw).replace("__LI__", li)
+    out = out.replace('"__URL__"', js_url).replace('"__TITLE__"', js_title)
+    return out
 
 
 def parse_filename(fn):
@@ -531,6 +592,14 @@ header.s b{font-size:16px}
 .art .hero{display:block;width:calc(100% + 60px);height:auto;margin:-26px -30px 20px -30px;aspect-ratio:1200/630;object-fit:cover;background:var(--teal-d)}
 /* Cards and generated graphics are composed to the frame: show them whole. */
 .art .hero.graphic{object-fit:contain}
+.share-wrap{position:relative;display:inline-flex;align-items:center;margin:2px 0 18px}
+.share-btn{display:inline-flex;align-items:center;gap:7px;font-family:var(--sans);font-size:13px;font-weight:700;color:var(--teal-d);background:var(--sand-2);border:1px solid var(--line);border-radius:20px;padding:7px 14px;cursor:pointer}
+.share-btn:hover{border-color:var(--gold);color:var(--gold-d)}
+.share-btn svg{width:14px;height:14px;fill:currentColor}
+.share-menu{position:absolute;top:calc(100% + 6px);left:0;z-index:30;background:var(--card);border:1px solid var(--line);border-radius:var(--r-sm);box-shadow:0 10px 26px rgba(0,0,0,.18);padding:6px;min-width:190px}
+.share-menu a,.share-menu button{display:flex;align-items:center;gap:9px;width:100%;text-align:left;font-family:var(--sans);font-size:13.5px;font-weight:600;color:var(--ink);background:none;border:none;padding:8px 10px;border-radius:var(--r-xs);cursor:pointer;text-decoration:none;box-sizing:border-box}
+.share-menu a:hover,.share-menu button:hover{background:var(--sand-2)}
+.share-toast{margin-left:10px;font-family:var(--sans);font-size:12.5px;color:var(--teal-d);font-weight:600}
 .badge{font-family:var(--sans);font-size:11px;font-weight:700;text-transform:uppercase;letter-spacing:1px;padding:4px 9px;border-radius:var(--r-xs);background:var(--sand-2);color:var(--gold-d)}
 .art time{font-family:var(--sans);font-size:13px;color:var(--muted);margin-left:8px}
 .art h1{font-size:clamp(28px,4.2vw,38px);line-height:1.14;margin:14px 0 20px;border-bottom:2px solid var(--gold);padding-bottom:16px;font-weight:700}
@@ -1058,6 +1127,7 @@ def edition_page(e, siblings=None, prev=None, nxt=None, hero=None, credit=None):
     <div class="kicker"><span class="badge">{html.escape(e['edition'])}</span><time datetime="{e['date']}">{html.escape(e['dateDisplay'])}</time><span class="byline">By <a href="../{AUTHOR_SLUG}.html" rel="author">{AUTHOR_BYLINE}</a></span></div>
     <h1>{html.escape(h1text)}</h1>
     {standfirst}
+    {share_widget_html(url, social_title)}
     {body_html}
     {sib_html}
     {guides_html}

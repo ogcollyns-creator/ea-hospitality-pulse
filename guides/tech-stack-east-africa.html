@@ -47,6 +47,14 @@ header.s a{color:#fff;text-decoration:none}
 .upd{font-family:var(--sans);font-size:13px;color:var(--muted);margin-left:8px}
 .art .hero{display:block;width:calc(100% + 68px);height:auto;margin:-30px -34px 20px -34px;aspect-ratio:1200/630;object-fit:cover;background:var(--teal-d)}
 .art .hero.graphic{object-fit:contain}
+.share-wrap{position:relative;display:inline-flex;align-items:center;margin:4px 0 18px}
+.share-btn{display:inline-flex;align-items:center;gap:7px;font-family:var(--sans);font-size:13px;font-weight:700;color:var(--teal-d);background:var(--sand-2);border:1px solid var(--line);border-radius:20px;padding:7px 14px;cursor:pointer}
+.share-btn:hover{border-color:var(--gold);color:var(--gold-d)}
+.share-btn svg{width:14px;height:14px;fill:currentColor}
+.share-menu{position:absolute;top:calc(100% + 6px);left:0;z-index:30;background:var(--card);border:1px solid var(--line);border-radius:8px;box-shadow:0 10px 26px rgba(0,0,0,.18);padding:6px;min-width:190px}
+.share-menu a,.share-menu button{display:flex;align-items:center;gap:9px;width:100%;text-align:left;font-family:var(--sans);font-size:13.5px;font-weight:600;color:var(--ink);background:none;border:none;padding:8px 10px;border-radius:6px;cursor:pointer;text-decoration:none;box-sizing:border-box}
+.share-menu a:hover,.share-menu button:hover{background:var(--sand-2)}
+.share-toast{margin-left:10px;font-family:var(--sans);font-size:12.5px;color:var(--teal-d);font-weight:600}
 .hcredit{margin:-8px 0 18px;font:12px/1.5 var(--sans);color:var(--muted)}
 .art h1{font-size:29px;line-height:1.22;margin:16px 0 14px;border-bottom:2px solid var(--gold);padding-bottom:14px}
 .lede{font-size:18px;color:#3a423c;margin:0 0 20px}
@@ -149,6 +157,44 @@ footer.s a:hover{color:var(--teal-d);border-bottom-color:var(--gold)}
     <h1>The East African hotel tech stack — payment costs, PMS fit and where AI pricing actually works</h1>
     <p class="byline">By <b>Onyango George (OG)</b></p>
     <p class="lede">What payment gateways actually cost by provider, which property management systems publish genuine offline capability, and the data volume AI pricing tools need before they&#x27;re worth paying for — set against the real scale of most East African bush and beach properties.</p>
+    <div class="share-wrap">
+  <button type="button" class="share-btn" id="shareBtn" aria-haspopup="true" aria-expanded="false">
+    <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M18 16.08c-.76 0-1.44.3-1.96.77L8.91 12.7a3.02 3.02 0 0 0 0-1.4l7.05-4.11a2.99 2.99 0 1 0-.99-2.19c0 .24.03.47.09.7L8 9.81a3 3 0 1 0 0 4.38l7.12 4.15c-.06.23-.09.46-.09.7a3 3 0 1 0 3-3.96z"/></svg>
+    Share
+  </button>
+  <span class="share-toast" id="shareToast" hidden>Link copied</span>
+  <div class="share-menu" id="shareMenu" hidden>
+    <button type="button" id="shareCopy">🔗 Copy link</button>
+    <a href="https://wa.me/?text=The%20East%20African%20hotel%20tech%20stack%20%E2%80%94%20payment%20costs%2C%20PMS%20fit%20and%20where%20AI%20pricing%20actually%20works%20https%3A%2F%2Feahospitalitypulse.com%2Fguides%2Ftech-stack-east-africa.html" target="_blank" rel="noopener">💬 WhatsApp</a>
+    <a href="https://t.me/share/url?url=https%3A%2F%2Feahospitalitypulse.com%2Fguides%2Ftech-stack-east-africa.html&text=The%20East%20African%20hotel%20tech%20stack%20%E2%80%94%20payment%20costs%2C%20PMS%20fit%20and%20where%20AI%20pricing%20actually%20works" target="_blank" rel="noopener">📣 Telegram</a>
+    <a href="https://twitter.com/intent/tweet?url=https%3A%2F%2Feahospitalitypulse.com%2Fguides%2Ftech-stack-east-africa.html&text=The%20East%20African%20hotel%20tech%20stack%20%E2%80%94%20payment%20costs%2C%20PMS%20fit%20and%20where%20AI%20pricing%20actually%20works" target="_blank" rel="noopener">𝕏 X (Twitter)</a>
+    <a href="https://www.linkedin.com/sharing/share-offsite/?url=https%3A%2F%2Feahospitalitypulse.com%2Fguides%2Ftech-stack-east-africa.html" target="_blank" rel="noopener">💼 LinkedIn</a>
+  </div>
+</div>
+<script>
+(function(){
+  var url="https://eahospitalitypulse.com/guides/tech-stack-east-africa.html", title="The East African hotel tech stack \u2014 payment costs, PMS fit and where AI pricing actually works";
+  var btn=document.getElementById('shareBtn'), menu=document.getElementById('shareMenu'),
+      toast=document.getElementById('shareToast'), copyBtn=document.getElementById('shareCopy');
+  function closeMenu(){ menu.hidden=true; btn.setAttribute('aria-expanded','false'); }
+  btn.addEventListener('click', function(e){
+    e.stopPropagation();
+    if(navigator.share){ navigator.share({title:title,url:url}).catch(function(){}); return; }
+    var open=menu.hidden;
+    closeMenu();
+    if(open){ menu.hidden=false; btn.setAttribute('aria-expanded','true'); }
+  });
+  copyBtn.addEventListener('click', function(){
+    var done=function(){ toast.hidden=false; setTimeout(function(){toast.hidden=true;},1800); closeMenu(); };
+    if(navigator.clipboard && navigator.clipboard.writeText){ navigator.clipboard.writeText(url).then(done, done); }
+    else { var ta=document.createElement('textarea'); ta.value=url; ta.style.position='fixed'; ta.style.opacity='0';
+      document.body.appendChild(ta); ta.focus(); ta.select();
+      try{document.execCommand('copy');}catch(e){} document.body.removeChild(ta); done(); }
+  });
+  document.addEventListener('click', function(e){ if(!menu.hidden && !menu.contains(e.target) && e.target!==btn) closeMenu(); });
+  document.addEventListener('keydown', function(e){ if(e.key==='Escape') closeMenu(); });
+})();
+</script>
     <p>Three technology decisions recur across almost every conversation with an East African operator: which payment provider actually keeps the most of a booking&#x27;s value, whether a given PMS survives a camp&#x27;s connectivity reality rather than just claiming to, and whether an AI pricing tool is built for a property this size at all. This page carries the published, checkable facts behind each — not vendor marketing translated into a recommendation.</p>
 <h2 id="what-a-payment-actually-costs-you-by-provider">What a payment actually costs you, by provider</h2>
 <p>The headline percentage a provider advertises is rarely the number that lands on your settlement statement. Compare the mechanism, not just the rate.</p>

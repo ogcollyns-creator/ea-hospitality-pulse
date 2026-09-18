@@ -11,6 +11,7 @@ Called by build_site.py. Safe to run standalone for testing.
 """
 import os, re, json, html, datetime
 from build_site import author_node as BS_AUTHOR, AUTHOR_BYLINE as BS_BYLINE
+from build_site import share_widget_html
 
 HERE = os.path.dirname(os.path.abspath(__file__))
 SRC = os.path.join(HERE, "guides-src")
@@ -210,6 +211,14 @@ header.s a{color:#fff;text-decoration:none}
 .upd{font-family:var(--sans);font-size:13px;color:var(--muted);margin-left:8px}
 .art .hero{display:block;width:calc(100% + 68px);height:auto;margin:-30px -34px 20px -34px;aspect-ratio:1200/630;object-fit:cover;background:var(--teal-d)}
 .art .hero.graphic{object-fit:contain}
+.share-wrap{position:relative;display:inline-flex;align-items:center;margin:4px 0 18px}
+.share-btn{display:inline-flex;align-items:center;gap:7px;font-family:var(--sans);font-size:13px;font-weight:700;color:var(--teal-d);background:var(--sand-2);border:1px solid var(--line);border-radius:20px;padding:7px 14px;cursor:pointer}
+.share-btn:hover{border-color:var(--gold);color:var(--gold-d)}
+.share-btn svg{width:14px;height:14px;fill:currentColor}
+.share-menu{position:absolute;top:calc(100% + 6px);left:0;z-index:30;background:var(--card);border:1px solid var(--line);border-radius:8px;box-shadow:0 10px 26px rgba(0,0,0,.18);padding:6px;min-width:190px}
+.share-menu a,.share-menu button{display:flex;align-items:center;gap:9px;width:100%;text-align:left;font-family:var(--sans);font-size:13.5px;font-weight:600;color:var(--ink);background:none;border:none;padding:8px 10px;border-radius:6px;cursor:pointer;text-decoration:none;box-sizing:border-box}
+.share-menu a:hover,.share-menu button:hover{background:var(--sand-2)}
+.share-toast{margin-left:10px;font-family:var(--sans);font-size:12.5px;color:var(--teal-d);font-weight:600}
 .hcredit{margin:-8px 0 18px;font:12px/1.5 var(--sans);color:var(--muted)}
 .art h1{font-size:29px;line-height:1.22;margin:16px 0 14px;border-bottom:2px solid var(--gold);padding-bottom:14px}
 .lede{font-size:18px;color:#3a423c;margin:0 0 20px}
@@ -412,6 +421,7 @@ def guide_page(g):
     <div><span class="cat">{html.escape(g['category'])}</span><span class="upd">Updated {upd} · {g['readMins']} min read</span></div>
     <h1>{html.escape(g['title'])}</h1>{byline_html}
     <p class="lede">{html.escape(g['description'])}</p>
+    {share_widget_html(url, g['title'])}
     {g['bodyHtml']}
     <div class="sub">
       <b>Get the Daily Briefs</b> — across Kenya, Uganda, Tanzania, Zanzibar &amp; Rwanda.<br>
