@@ -132,6 +132,8 @@ def parse_guide(path):
         "updated": meta.get("updated", datetime.date.today().isoformat()),
         "author": meta.get("author", ""),          # blank = published under the masthead
         "authorRole": meta.get("author_role", ""),
+        "image": meta.get("image", ""),              # optional hero, relative to site root
+        "imageCredit": meta.get("image_credit", ""),
         "readMins": max(3, round(len(body.split()) / 220)),
         "bodyHtml": render_md(body),
         "faq": parse_faq(body),
@@ -206,6 +208,9 @@ header.s a{color:#fff;text-decoration:none}
 .nav{font-family:var(--sans);font-size:14px;font-weight:600;margin:0 0 10px;display:inline-block}
 .cat{font-family:var(--sans);font-size:11px;font-weight:700;text-transform:uppercase;letter-spacing:1px;padding:4px 9px;border-radius:20px;background:var(--sand-2);color:var(--gold-d)}
 .upd{font-family:var(--sans);font-size:13px;color:var(--muted);margin-left:8px}
+.art .hero{display:block;width:calc(100% + 68px);height:auto;margin:-30px -34px 20px -34px;aspect-ratio:1200/630;object-fit:cover;background:var(--teal-d)}
+.art .hero.graphic{object-fit:contain}
+.hcredit{margin:-8px 0 18px;font:12px/1.5 var(--sans);color:var(--muted)}
 .art h1{font-size:29px;line-height:1.22;margin:16px 0 14px;border-bottom:2px solid var(--gold);padding-bottom:14px}
 .lede{font-size:18px;color:#3a423c;margin:0 0 20px}
 .byline{font-family:var(--sans);font-size:13.5px;color:var(--muted);margin:8px 0 0}
@@ -228,6 +233,7 @@ footer.s{text-align:center;color:var(--muted);font-family:var(--sans);font-size:
 @media(max-width:640px){
   .wrap{padding:0 16px}
   .art{padding:22px 18px 28px;margin:16px auto;border-radius:12px}
+  .art .hero{width:calc(100% + 36px);margin:-22px -18px 18px -18px}
   .art h1{font-size:24px}
   .lede{font-size:16.5px}
   .art h2{font-size:20px}
@@ -301,6 +307,15 @@ footer.s a:hover{color:var(--teal-d);border-bottom-color:var(--gold)}
 
 def guide_page(g):
     url = f"{BASE}/guides/{g['slug']}.html"
+    og_image = f"{BASE}/og/default.png"
+    hero_html = ""
+    if g.get("image"):
+        og_image = f"{BASE}/{g['image'].lstrip('/')}"
+        _cred = html.escape(g.get("imageCredit") or "")
+        _cred_html = f'<p class="hcredit">{_cred}</p>' if _cred else ""
+        hero_html = (f'\n    <img class="hero" src="../{g["image"].lstrip("/")}" '
+                      f'width="1200" height="630" alt="{html.escape(g["title"])}" '
+                      f'loading="eager" fetchpriority="high" decoding="async">\n    {_cred_html}')
     # A guest contributor is credited by name; everything else is the editor's
     # own work and now says so, instead of hiding behind the masthead.
     author_obj = ({"@type": "Person", "name": g["author"],
@@ -311,7 +326,7 @@ def guide_page(g):
         "headline": g["title"][:110], "description": g["description"],
         "datePublished": g["updated"], "dateModified": g["updated"],
         "url": url, "mainEntityOfPage": url,
-        "image": [f"{BASE}/og/default.png"], "inLanguage": "en", "isAccessibleForFree": True,
+        "image": [og_image], "inLanguage": "en", "isAccessibleForFree": True,
         "author": author_obj,
         "publisher": org_node(),
         "isPartOf": {"@type": "WebSite", "@id": SITE_ID, "name": "EA Hospitality Pulse",
@@ -368,11 +383,11 @@ def guide_page(g):
 <meta property="og:title" content="{html.escape(g['title'])}">
 <meta property="og:description" content="{html.escape(g['description'])}">
 <meta property="og:url" content="{url}">
-<meta property="og:image" content="{BASE}/og/default.png">
+<meta property="og:image" content="{og_image}">
 <meta name="twitter:card" content="summary_large_image">
 <meta name="twitter:title" content="{html.escape(g['title'])}">
 <meta name="twitter:description" content="{html.escape(g['description'])}">
-<meta name="twitter:image" content="{BASE}/og/default.png">
+<meta name="twitter:image" content="{og_image}">
 <meta property="og:image:width" content="1200"><meta property="og:image:height" content="630">
 <meta property="og:image:alt" content="{html.escape(g['title'])}">
 <meta name="twitter:image:alt" content="{html.escape(g['title'])}">
@@ -393,7 +408,7 @@ def guide_page(g):
 <header class="s"><div class="wrap"><div class="logo">🏨</div><a href="../index.html"><b>EA Hospitality Pulse</b></a></div></header>
 <div class="wrap">
   <article class="art">
-    <a class="nav" href="../index.html#guides">← All guides</a>
+    <a class="nav" href="../index.html#guides">← All guides</a>{hero_html}
     <div><span class="cat">{html.escape(g['category'])}</span><span class="upd">Updated {upd} · {g['readMins']} min read</span></div>
     <h1>{html.escape(g['title'])}</h1>{byline_html}
     <p class="lede">{html.escape(g['description'])}</p>
