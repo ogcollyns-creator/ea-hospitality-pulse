@@ -23,7 +23,7 @@ NOW = datetime.datetime.utcnow().strftime("%Y-%m-%dT%H:%M:%SZ")
 
 LICENCE = ("Free for reasonable use with attribution to EA Hospitality Pulse and a link to "
            + BASE + ". Do not resell or repackage as a competing data product. "
-           "See " + BASE + "/terms.html")
+           "See " + BASE + "/terms")
 
 def jsvar(path, var):
     """Evaluate a window.<VAR> data file in Node and return it as Python data.
@@ -50,8 +50,8 @@ def emit(name, data, description, source):
             "source": source,
             "generated": NOW,
             "publisher": "EA Hospitality Pulse",
-            "docs": f"{BASE}/api.html",
-            "methodology": f"{BASE}/methodology.html",
+            "docs": f"{BASE}/api",
+            "methodology": f"{BASE}/methodology",
             "licence": LICENCE,
             "version": "v1",
         },
@@ -171,7 +171,7 @@ idx = {
         "name": "EA Hospitality Pulse public API",
         "version": "v1",
         "generated": NOW,
-        "docs": f"{BASE}/api.html",
+        "docs": f"{BASE}/api",
         "licence": LICENCE,
         "contact": "eahospitalitypulse@gmail.com",
     },

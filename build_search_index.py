@@ -156,7 +156,7 @@ for path in sorted(glob.glob(os.path.join(HERE, "editions-src", "*.md"))):
     body = clean(raw)
     records.append({
         "slug": slug,
-        "url": f"editions/{slug}.html",
+        "url": f"editions/{slug}",
         "date": date,
         "kind": kind,
         "slot": slot,
@@ -180,7 +180,7 @@ for path in sorted(glob.glob(os.path.join(HERE, "guides-src", "*.md"))):
     m = re.search(r"^#\s+(.+)$", raw, re.M)
     records.append({
         "slug": slug,
-        "url": f"guides/{slug}.html",
+        "url": f"guides/{slug}",
         "date": "",
         "kind": "Guide",
         "slot": "",

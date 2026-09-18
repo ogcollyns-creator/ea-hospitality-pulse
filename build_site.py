@@ -799,12 +799,12 @@ def author_node():
     return {"@type": "Person", "@id": PERSON_ID, "name": AUTHOR_NAME,
             "alternateName": AUTHOR_SHORT,
             "email": "mailto:" + CONTACT_EMAIL,
-            "url": BASE + "/" + AUTHOR_SLUG + ".html",
+            "url": BASE + "/" + AUTHOR_SLUG,
             "jobTitle": "Editor",
             "knowsAbout": ["East African hospitality", "hotel market analysis",
                            "travel advisories", "tourism demand", "hotel distribution"],
             "worksFor": {"@id": ORG_ID},
-            "publishingPrinciples": BASE + "/methodology.html"}
+            "publishingPrinciples": BASE + "/methodology"}
 
 def org_node():
     return {"@type": "Organization", "@id": ORG_ID, "name": "EA Hospitality Pulse",
@@ -812,7 +812,7 @@ def org_node():
             "email": CONTACT_EMAIL,
             "logo": {"@type": "ImageObject", "url": BASE + "/apple-touch-icon.png"},
             "founder": {"@id": PERSON_ID},
-            "publishingPrinciples": BASE + "/methodology.html",
+            "publishingPrinciples": BASE + "/methodology",
             "sameAs": [CHANNELS[k] for k in ("telegram", "linkedin", "whatsapp")
                        if CHANNELS.get(k)]}
 
@@ -964,7 +964,7 @@ def edition_page(e, siblings=None, prev=None, nxt=None, hero=None, credit=None):
     # A social card has far more room than a SERP line, and the edition + date
     # is genuinely useful context when a brief is shared into a WhatsApp group.
     social_title = f"{_t} — {e['edition']}, {short_date}"
-    url = f"{BASE}/editions/{e['id']}.html"
+    url = f"{BASE}/editions/{e['id']}"
     img = f"{BASE}/og/{e['id']}.png"          # share card (OG/Twitter meta)
     hero_src = f"../og/{hero}" if hero else f"../og/{e['id']}.png"   # clean in-page photo
     # Non-photographic heroes are composed to the frame and must not be cropped.
@@ -983,12 +983,12 @@ def edition_page(e, siblings=None, prev=None, nxt=None, hero=None, credit=None):
     sib_html = ""
     if siblings:
         links = " · ".join(
-            f'<a href="{s2["id"]}.html">{html.escape(s2["edition"])}</a>' for s2 in siblings)
+            f'<a href="{s2["id"]}">{html.escape(s2["edition"])}</a>' for s2 in siblings)
         sib_html = f'<div class="more"><b>More from {html.escape(e["dateDisplay"])}:</b> {links}</div>'
     # Chronological prev/next — a real internal link graph for crawlers and readers.
     pn = []
-    if prev: pn.append(f'<a class="pn prev" href="{prev["id"]}.html" rel="prev">← {html.escape(prev["edition"])} · {html.escape(prev["dateDisplay"])}</a>')
-    if nxt: pn.append(f'<a class="pn next" href="{nxt["id"]}.html" rel="next">{html.escape(nxt["edition"])} · {html.escape(nxt["dateDisplay"])} →</a>')
+    if prev: pn.append(f'<a class="pn prev" href="{prev["id"]}" rel="prev">← {html.escape(prev["edition"])} · {html.escape(prev["dateDisplay"])}</a>')
+    if nxt: pn.append(f'<a class="pn next" href="{nxt["id"]}" rel="next">{html.escape(nxt["edition"])} · {html.escape(nxt["dateDisplay"])} →</a>')
     pn_html = f'<nav class="pnrow">{"".join(pn)}</nav>' if pn else ""
     # Answer engines weight sourced content. Every edition already links its
     # primary sources inline; surfacing them as schema.org `citation` tells a
@@ -1012,8 +1012,8 @@ def edition_page(e, siblings=None, prev=None, nxt=None, hero=None, credit=None):
     # Head-level prev/next: the crawl hint <a rel> cannot give, so an engine can
     # walk the archive in order without re-parsing every page body.
     head_rel = ""
-    if prev: head_rel += f'<link rel="prev" href="{BASE}/editions/{prev["id"]}.html">\n'
-    if nxt:  head_rel += f'<link rel="next" href="{BASE}/editions/{nxt["id"]}.html">\n'
+    if prev: head_rel += f'<link rel="prev" href="{BASE}/editions/{prev["id"]}">\n'
+    if nxt:  head_rel += f'<link rel="next" href="{BASE}/editions/{nxt["id"]}">\n'
     ld = {
         "@context":"https://schema.org","@type":"NewsArticle",
         "headline": headline,
@@ -1071,14 +1071,14 @@ def edition_page(e, siblings=None, prev=None, nxt=None, hero=None, credit=None):
     guides_html = ""
     if _guides:
         _gl = "".join(
-            f'<li><a href="../guides/{g["slug"]}.html">{html.escape(g["title"])}</a></li>'
+            f'<li><a href="../guides/{g["slug"]}">{html.escape(g["title"])}</a></li>'
             for g in _guides)
         guides_html = (f'<aside class="refs" aria-label="Reference guides">'
                        f'<h2>Reference</h2><ul>'
-                       f'<li><a href="../trackers/index.html"><b>Live trackers</b> \u2014 park fees, '
+                       f'<li><a href="../trackers/"><b>Live trackers</b> \u2014 park fees, '
                        f'advisories, rates, costs, pipeline and MICE</a></li>{_gl}</ul></aside>')
-    crumb_html = (f'<nav class="crumbs" aria-label="Breadcrumb"><a href="../index.html">Home</a>'
-                  f'<span aria-hidden="true">/</span><a href="../index.html#archive">Editions</a>'
+    crumb_html = (f'<nav class="crumbs" aria-label="Breadcrumb"><a href="../">Home</a>'
+                  f'<span aria-hidden="true">/</span><a href="../#archive">Editions</a>'
                   f'<span aria-hidden="true">/</span>'
                   f'<span aria-current="page">{html.escape(e["edition"])}, {html.escape(e["dateDisplay"])}</span></nav>')
     return f"""<!DOCTYPE html>
@@ -1124,7 +1124,7 @@ def edition_page(e, siblings=None, prev=None, nxt=None, hero=None, credit=None):
     <img class="hero{hero_cls}" src="{hero_src}" width="1200" height="630" alt="{html.escape(e['edition']+' — '+e['dateDisplay'])}" loading="eager" fetchpriority="high" decoding="async">
     {credit_html}
     {crumb_html}
-    <div class="kicker"><span class="badge">{html.escape(e['edition'])}</span><time datetime="{e['date']}">{html.escape(e['dateDisplay'])}</time><span class="byline">By <a href="../{AUTHOR_SLUG}.html" rel="author">{AUTHOR_BYLINE}</a></span></div>
+    <div class="kicker"><span class="badge">{html.escape(e['edition'])}</span><time datetime="{e['date']}">{html.escape(e['dateDisplay'])}</time><span class="byline">By <a href="../{AUTHOR_SLUG}" rel="author">{AUTHOR_BYLINE}</a></span></div>
     <h1>{html.escape(h1text)}</h1>
     {standfirst}
     {share_widget_html(url, social_title)}
@@ -1139,14 +1139,14 @@ def edition_page(e, siblings=None, prev=None, nxt=None, hero=None, credit=None):
         <li><a href="{CHANNELS['telegram']}" target="_blank" rel="noopener"><span class="chan-n">Telegram</span><span class="chan-d">The full edition, three times a day</span></a></li>
         <li><a href="{CHANNELS['whatsapp']}" target="_blank" rel="noopener"><span class="chan-n">WhatsApp</span><span class="chan-d">The daily skim</span></a></li>
         <li><a href="{CHANNELS['linkedin']}" target="_blank" rel="noopener"><span class="chan-n">LinkedIn</span><span class="chan-d">The Big Read, most evenings</span></a></li>
-        <li><a href="../archive.html"><span class="chan-n">Archive</span><span class="chan-d">Every edition, searchable</span></a></li>
+        <li><a href="../archive"><span class="chan-n">Archive</span><span class="chan-d">Every edition, searchable</span></a></li>
       </ul>
     </div>
   </article>
 </main>
 <footer class="s"><div class="wrap">
 <p class="f-line">EA Hospitality Pulse — daily intelligence for city, bush and beach properties across East Africa. Free to read, free to republish with attribution.</p>
-<p class="f-nav"><a href="../index.html">Home</a><a href="../trackers/index.html">Trackers</a><a href="../archive.html">Archive</a><a href="../methodology.html">Methodology</a><a href="../{AUTHOR_SLUG}.html">Editor</a><a href="../faq.html">FAQ</a><a href="../republish.html">Republish</a><a href="../credits.html">Image credits</a></p>
+<p class="f-nav"><a href="../">Home</a><a href="../trackers/">Trackers</a><a href="../archive">Archive</a><a href="../methodology">Methodology</a><a href="../{AUTHOR_SLUG}">Editor</a><a href="../faq">FAQ</a><a href="../republish">Republish</a><a href="../credits">Image credits</a></p>
 <p class="f-geo">Kenya &middot; Uganda &middot; Tanzania &middot; Zanzibar &middot; Rwanda</p>
 </div></footer>
 </body></html>"""
@@ -1230,7 +1230,7 @@ def build_credits_page():
 <meta charset="UTF-8"><meta name="viewport" content="width=device-width,initial-scale=1">
 <title>Image credits | EA Hospitality Pulse</title>
 <meta name="description" content="Attribution for imagery used across EA Hospitality Pulse — data cards (own work), official press and media libraries, and legacy Creative Commons photography.">
-<link rel="canonical" href="{BASE}/credits.html">
+<link rel="canonical" href="{BASE}/credits">
 <meta name="robots" content="index,follow,max-image-preview:large,max-snippet:-1,max-video-preview:-1">
 <style>{ARTICLE_CSS}
 .art table{{width:100%;border-collapse:collapse;font-family:Helvetica Neue,Arial,sans-serif;font-size:14px}}
@@ -1241,7 +1241,7 @@ def build_credits_page():
 <body>
 <header class="s"><div class="wrap"><a href="/"><span class="logo" aria-hidden="true">EA</span><b>EA Hospitality Pulse</b></a></div></header>
 <div class="wrap"><article class="art">
-<a class="nav" href="./index.html">← Home</a>
+<a class="nav" href="./">← Home</a>
 <h1>Image credits</h1>
 <p>Most editions lead with a <strong>data card</strong> — a typographic hero carrying the edition's own headline figure. For a market-intelligence brief that is content rather than decoration, and it cannot be off-topic. Those cards are our own work.</p>
 <p>Where a photograph is genuinely the right image, we use <strong>official press and media libraries</strong> — national tourism boards, park authorities, hotel groups and airlines — which publish images for editorial reuse, plus public-health imagery from WHO and Africa CDC. We do not use press-agency or news-outlet photographs, and we do not hot-link images from other publishers’ servers. Historic editions may still carry Creative Commons photography from Wikimedia Commons under its original licence; that source was retired on 28 August 2026 because it supplied regional scenery unrelated to the story. Source and licence for every image are listed below.</p>
@@ -1253,7 +1253,7 @@ def build_credits_page():
 </article></div>
 <footer class="s"><div class="wrap">
 <p class="f-line">EA Hospitality Pulse — daily intelligence for city, bush and beach properties across East Africa.</p>
-<p class="f-nav"><a href="./index.html">Home</a><a href="./archive.html">Archive</a><a href="./methodology.html">Methodology</a><a href="./faq.html">FAQ</a></p>
+<p class="f-nav"><a href="./">Home</a><a href="./archive">Archive</a><a href="./methodology">Methodology</a><a href="./faq">FAQ</a></p>
 <p class="f-geo">Kenya &middot; Uganda &middot; Tanzania &middot; Zanzibar &middot; Rwanda</p>
 </div></footer>
 </body></html>"""
@@ -1446,7 +1446,7 @@ def build_author_page(editions, guides, trackers):
     n_trk = len(trackers or [])
     n_rec = sum(t.get("records", 0) for t in (trackers or []))
     lr = ledger_record()
-    url = f"{BASE}/{AUTHOR_SLUG}.html"
+    url = f"{BASE}/{AUTHOR_SLUG}"
 
     same_as = [CHANNELS[k] for k in ("linkedin", "telegram", "whatsapp") if CHANNELS.get(k)]
     person = author_node()
@@ -1488,7 +1488,7 @@ def build_author_page(editions, guides, trackers):
     </tbody></table></div>
     <p>The {lr['incorrect']} calls that were wrong stay published with the ones that
     were right. That is the point of the ledger: a record you can only trust if it
-    shows the misses. <a href="../index.html#ledger">See the full track record</a>.</p>"""
+    shows the misses. <a href="../#ledger">See the full track record</a>.</p>"""
     else:
         record = ""
 
@@ -1515,7 +1515,7 @@ def build_author_page(editions, guides, trackers):
     air connectivity and route decisions, distribution economics, the cost side,
     new supply, and the conference calendar that compresses a city&rsquo;s room stock
     for a week at a time. Those live as
-    <a href="../trackers/index.html">continuously maintained trackers</a>, not as
+    <a href="../trackers/">continuously maintained trackers</a>, not as
     one-off articles.</p>
 
     <h2>How I work</h2>
@@ -1527,7 +1527,7 @@ def build_author_page(editions, guides, trackers):
     and anything outside its re-confirmation window is flagged rather than left
     looking current.</p>
     <p>Corrections are published in the next edition rather than quietly edited in.
-    The <a href="../methodology.html">methodology page</a> sets out the sourcing
+    The <a href="../methodology">methodology page</a> sets out the sourcing
     standard, the verification bar and the correction protocol in full.</p>
 
     <h2>Get in touch</h2>
@@ -1539,10 +1539,10 @@ def build_author_page(editions, guides, trackers):
         f'<li><a href="../{u}"><span class="chan-n">{n}</span>'
         f'<span class="chan-d">{d}</span></a></li>'
         for n, d, u in [
-            ("Methodology", "Sourcing, grading and corrections", "methodology.html"),
-            ("Track record", "Every forecast, scored in public", "index.html#ledger"),
-            ("Trackers", "Seven live datasets, maintained daily", "trackers/index.html"),
-            ("Archive", "Every edition, searchable", "archive.html")])
+            ("Methodology", "Sourcing, grading and corrections", "methodology"),
+            ("Track record", "Every forecast, scored in public", "#ledger"),
+            ("Trackers", "Seven live datasets, maintained daily", "trackers/"),
+            ("Archive", "Every edition, searchable", "archive")])
 
     ld_html = "\n".join(f'<script type="application/ld+json">{json.dumps(b)}</script>'
                         for b in ld)
@@ -1593,7 +1593,7 @@ table.tk tbody tr:last-child td{{border-bottom:none}}
 <header class="s"><div class="wrap"><a href="/"><span class="logo" aria-hidden="true">EA</span><b>EA Hospitality Pulse</b></a></div></header>
 <main class="wrap" id="content">
   <article class="art">
-    <nav class="crumbs" aria-label="Breadcrumb"><a href="../index.html">Home</a>
+    <nav class="crumbs" aria-label="Breadcrumb"><a href="../">Home</a>
       <span aria-hidden="true">/</span><span aria-current="page">{AUTHOR_BYLINE}</span></nav>
     <h1>{AUTHOR_BYLINE}</h1>
     <p class="who">Editor, EA Hospitality Pulse &middot; Consultant &amp; analyst, East African hospitality</p>
@@ -1610,7 +1610,7 @@ table.tk tbody tr:last-child td{{border-bottom:none}}
 </main>
 <footer class="s"><div class="wrap">
 <p class="f-line">EA Hospitality Pulse &mdash; daily intelligence for city, bush and beach properties across East Africa. Free to read, free to republish with attribution.</p>
-<p class="f-nav"><a href="../index.html">Home</a><a href="../trackers/index.html">Trackers</a><a href="../archive.html">Archive</a><a href="../methodology.html">Methodology</a><a href="../{AUTHOR_SLUG}.html">Editor</a><a href="../faq.html">FAQ</a><a href="../republish.html">Republish</a></p>
+<p class="f-nav"><a href="../">Home</a><a href="../trackers/">Trackers</a><a href="../archive">Archive</a><a href="../methodology">Methodology</a><a href="../{AUTHOR_SLUG}">Editor</a><a href="../faq">FAQ</a><a href="../republish">Republish</a></p>
 <p class="f-geo">Kenya &middot; Uganda &middot; Tanzania &middot; Zanzibar &middot; Rwanda</p>
 </div></footer>
 </body></html>"""
@@ -1677,7 +1677,7 @@ def build_signals_page(insights):
             it.get("edition") or "", seg_label, it.get("confidence") or ""
         ]).lower())
         return (f'<a class="insight {html.escape(seg_class)}" data-seg="{html.escape(seg_class)}" '
-                f'data-q="{search_blob}" href="editions/{it["source"]}.html">'
+                f'data-q="{search_blob}" href="editions/{it["source"]}">'
                 f'<div class="imeta">{"".join(meta)}</div>'
                 f'<h3>{headline}</h3>{body_html}{sw_html}'
                 f'<span class="open">Open full edition →</span></a>')
@@ -1690,7 +1690,7 @@ def build_signals_page(insights):
     desc = (f"Every dated, sourced signal from EA Hospitality Pulse editions — {n} and counting — "
             "searchable and filterable by city, bush or beach segment, with impact and confidence "
             "on every line.")
-    url = BASE + "/signals.html"
+    url = BASE + "/signals"
 
     ld_collection = {
         "@context": "https://schema.org", "@type": "CollectionPage",
@@ -1839,26 +1839,26 @@ def build_signals_page(insights):
 <style>{style}</style></head>
 <body>
 <header class="site"><div class="wrap topbar">
-  <a class="brand" href="index.html"><div class="logo" aria-hidden="true">EA</div>
+  <a class="brand" href="/"><div class="logo" aria-hidden="true">EA</div>
     <div><h1>EA Hospitality Pulse</h1><p>Daily intelligence for city, bush &amp; beach properties</p></div></a>
   <nav class="top">
-    <a href="index.html">Home</a>
-    <a href="start-here.html">New Here? Start Here</a>
-    <a href="about/onyango-george.html">Editor</a>
-    <a href="trackers/index.html">Trackers</a>
-    <a href="signals.html">Signals</a>
-    <a href="archive.html">Archive</a>
+    <a href="/">Home</a>
+    <a href="start-here">New Here? Start Here</a>
+    <a href="about/onyango-george">Editor</a>
+    <a href="trackers/">Trackers</a>
+    <a href="signals">Signals</a>
+    <a href="archive">Archive</a>
   </nav>
 </div></header>
 <main class="wrap">
-  <nav class="crumbs" aria-label="Breadcrumb"><a href="index.html">Home</a> <span aria-hidden="true">/</span> <span aria-current="page">All signals</span></nav>
+  <nav class="crumbs" aria-label="Breadcrumb"><a href="/">Home</a> <span aria-hidden="true">/</span> <span aria-current="page">All signals</span></nav>
   <div class="section-head"><div><div class="kicker">Live signal feed</div><h1 class="pg">All signals</h1></div></div>
   <p class="lede">Every dated, sourced signal from every EA Hospitality Pulse edition — {n} so far — filterable by segment, with a clear "so what" for pricing and inventory on every line.</p>
   <div class="sigtabs" id="sigtabs">
-    <a class="sigtab" data-seg="all" href="signals.html">All signals</a>
-    <a class="sigtab" data-seg="city" href="signals.html?seg=city">\U0001F3D9 City</a>
-    <a class="sigtab" data-seg="bush" href="signals.html?seg=bush">\U0001F33F Bush</a>
-    <a class="sigtab" data-seg="beach" href="signals.html?seg=beach">\U0001F3D6 Beach</a>
+    <a class="sigtab" data-seg="all" href="signals">All signals</a>
+    <a class="sigtab" data-seg="city" href="signals?seg=city">\U0001F3D9 City</a>
+    <a class="sigtab" data-seg="bush" href="signals?seg=bush">\U0001F33F Bush</a>
+    <a class="sigtab" data-seg="beach" href="signals?seg=beach">\U0001F3D6 Beach</a>
   </div>
   <div class="controls"><input id="search" type="text" placeholder="Search all signals..."></div>
   <div class="cards" id="cards">
@@ -1873,7 +1873,7 @@ def build_signals_page(insights):
 <footer class="site"><div class="wrap">
   <p>EA Hospitality Pulse — Daily intelligence for city, bush &amp; beach properties across East Africa.<br>
   {updated} · Kenya · Uganda · Tanzania · Zanzibar · Rwanda</p>
-  <p class="foot-links"><a href="archive.html">Archive</a> · <a href="trackers/index.html">Trackers</a> · <a href="methodology.html">Methodology</a> · <a href="republish.html">Republish</a> · <a href="privacy.html">Privacy</a> · <a href="terms.html">Terms</a> · <a href="mailto:{CONTACT_EMAIL}">Contact</a></p>
+  <p class="foot-links"><a href="archive">Archive</a> · <a href="trackers/">Trackers</a> · <a href="methodology">Methodology</a> · <a href="republish">Republish</a> · <a href="privacy">Privacy</a> · <a href="terms">Terms</a> · <a href="mailto:{CONTACT_EMAIL}">Contact</a></p>
 </div></footer>
 <script>{js}</script>
 </body></html>"""
@@ -1988,25 +1988,25 @@ def main():
                 "potentialAction": {
                     "@type": "SearchAction",
                     "target": {"@type": "EntryPoint",
-                               "urlTemplate": BASE + "/archive.html?q={search_term_string}"},
+                               "urlTemplate": BASE + "/archive?q={search_term_string}"},
                     "query-input": "required name=search_term_string"}})[1:-1]
             idx = re.sub(r'(\{"@context":"https://schema\.org","@type":"WebSite")',
                          lambda m: m.group(1) + "," + _search, idx, count=1)
         # The homepage holds 68% of the site's impressions, so it is the best
         # internal link source the trackers can have. One nav entry, injected
         # idempotently rather than hand-edited into the markup.
-        if 'href="about/onyango-george.html"' not in idx:
-            idx = idx.replace('<a href="start-here.html">New Here? Start Here</a>',
-                              '<a href="start-here.html">New Here? Start Here</a>\n'
-                              '      <a href="about/onyango-george.html">Editor</a>', 1)
-        if trackers and 'href="trackers/index.html"' not in idx:
-            idx = idx.replace('<a href="start-here.html">New Here? Start Here</a>',
-                              '<a href="start-here.html">New Here? Start Here</a>\n'
-                              '      <a href="trackers/index.html">Trackers</a>', 1)
-        if '<a href="signals.html">Signals</a>' not in idx:
-            idx = idx.replace('<a href="trackers/index.html">Trackers</a>',
-                              '<a href="trackers/index.html">Trackers</a>\n'
-                              '      <a href="signals.html">Signals</a>', 1)
+        if 'href="about/onyango-george"' not in idx:
+            idx = idx.replace('<a href="start-here">New Here? Start Here</a>',
+                              '<a href="start-here">New Here? Start Here</a>\n'
+                              '      <a href="about/onyango-george">Editor</a>', 1)
+        if trackers and 'href="trackers/"' not in idx:
+            idx = idx.replace('<a href="start-here">New Here? Start Here</a>',
+                              '<a href="start-here">New Here? Start Here</a>\n'
+                              '      <a href="trackers/">Trackers</a>', 1)
+        if '<a href="signals">Signals</a>' not in idx:
+            idx = idx.replace('<a href="trackers/">Trackers</a>',
+                              '<a href="trackers/">Trackers</a>\n'
+                              '      <a href="signals">Signals</a>', 1)
 
         # Dataset consolidation. Each homepage Dataset node addressed itself to
         # an index.html anchor; the tracker pages now hold the same datasets at
@@ -2024,7 +2024,7 @@ def main():
         for _name, _slug in _DS_MAP.items():
             if _slug not in _slugs:
                 continue
-            _canon = f"{BASE}/trackers/{_slug}.html"
+            _canon = f"{BASE}/trackers/{_slug}"
             _pat = r'(\{"@context": "https://schema\.org", "@type": "Dataset", "name": "'\
                    + re.escape(_name) + r'".*?"url": ")[^"]*(")'
             idx = re.sub(_pat, lambda m: m.group(1) + _canon + m.group(2), idx,
@@ -2065,7 +2065,7 @@ def main():
         _recent = editions[:60]
         arc_ld = {
             "@context": "https://schema.org", "@type": "CollectionPage",
-            "@id": BASE + "/archive.html", "url": BASE + "/archive.html",
+            "@id": BASE + "/archive", "url": BASE + "/archive",
             "name": "EA Hospitality Pulse archive",
             "description": ("Every EA Hospitality Pulse edition — daily briefs, Sunday "
                             "Foresight essays and shock playbooks for hotels, lodges, camps "
@@ -2080,7 +2080,7 @@ def main():
                 "itemListOrder": "https://schema.org/ItemListOrderDescending",
                 "itemListElement": [
                     {"@type": "ListItem", "position": i + 1,
-                     "url": f"{BASE}/editions/{e2['id']}.html",
+                     "url": f"{BASE}/editions/{e2['id']}",
                      "name": f"{e2['edition']} — {e2['dateDisplay']}"}
                     for i, e2 in enumerate(_recent)],
             },
@@ -2090,7 +2090,7 @@ def main():
             "itemListElement": [
                 {"@type": "ListItem", "position": 1, "name": "Home", "item": BASE + "/"},
                 {"@type": "ListItem", "position": 2, "name": "Archive",
-                 "item": BASE + "/archive.html"},
+                 "item": BASE + "/archive"},
             ]}
         _inject = ("<!--ARCHIVE_LD-->\n"
                    '<meta name="robots" content="index,follow,max-image-preview:large,max-snippet:-1,max-video-preview:-1">\n'
@@ -2175,11 +2175,11 @@ def main():
            f'<title>EA Hospitality Pulse</title>',
            f'<link>{BASE}/</link>',
            f'<atom:link href="{BASE}/feed.xml" rel="self" type="application/rss+xml"/>',
-           '<description>Daily market intelligence for East Africa\'s hospitality and travel trade — Kenya, Uganda, Tanzania, Zanzibar, Rwanda. Free to republish with attribution; see /republish.html.</description>',
+           '<description>Daily market intelligence for East Africa\'s hospitality and travel trade — Kenya, Uganda, Tanzania, Zanzibar, Rwanda. Free to republish with attribution; see /republish.</description>',
            '<language>en-us</language>',
            f'<lastBuildDate>{rfc822(today)}</lastBuildDate>']
     for e in feed_items:
-        url = f"{BASE}/editions/{e['id']}.html"
+        url = f"{BASE}/editions/{e['id']}"
         title = sx.escape(f"{e['edition']} — {e['dateDisplay']}")
         desc = sx.escape(e['summary'][:400])
         rss.append('<item>')
@@ -2195,36 +2195,36 @@ def main():
     # sitemap.xml
     # The home page and the archive genuinely change every build (a new edition
     # lands in both); everything else states the date it actually last changed.
-    _STATIC = [("index.html", "daily"), ("archive.html", "daily"),
-               ("signals.html", "daily"),
-               ("republish.html", "monthly"), ("methodology.html", "monthly"),
-               ("faq.html", "monthly"), ("start-here.html", "monthly"),
-               ("survey.html", "monthly"), ("survey-pay.html", "monthly"),
-               ("survey-agents.html", "monthly"), ("credits.html", "monthly"),
-               ("api.html", "monthly"), ("privacy.html", "yearly"),
-               ("terms.html", "yearly")]
+    _STATIC = [("index.html", "daily"), ("archive", "daily"),
+               ("signals", "daily"),
+               ("republish", "monthly"), ("methodology", "monthly"),
+               ("faq", "monthly"), ("start-here", "monthly"),
+               ("survey", "monthly"), ("survey-pay", "monthly"),
+               ("survey-agents", "monthly"), ("credits", "monthly"),
+               ("api", "monthly"), ("privacy", "yearly"),
+               ("terms", "yearly")]
     urls = []
     for _rel, _cf in _STATIC:
         _loc = BASE + "/" if _rel == "index.html" else f"{BASE}/{_rel}"
         _lm = today if _cf == "daily" else file_lastmod(_rel, today)
         urls.append((_loc, _lm, _cf))
     for g in guides:
-        urls.append((f"{BASE}/guides/{g['slug']}.html", g["updated"], "monthly"))
+        urls.append((f"{BASE}/guides/{g['slug']}", g["updated"], "monthly"))
     if author_page:
-        urls.append((f"{BASE}/{AUTHOR_SLUG}.html", today, "monthly"))
+        urls.append((f"{BASE}/{AUTHOR_SLUG}", today, "monthly"))
     if trackers:
         # A tracker changes when its data changes, which is what lastmod is for.
-        urls.append((f"{BASE}/trackers/index.html", today, "daily"))
+        urls.append((f"{BASE}/trackers/", today, "daily"))
         for tr in trackers:
-            urls.append((f"{BASE}/trackers/{tr['slug']}.html", tr["updated"], "weekly"))
+            urls.append((f"{BASE}/trackers/{tr['slug']}", tr["updated"], "weekly"))
     tools_dir = os.path.join(HERE, "tools")
     if os.path.isdir(tools_dir):
         for t in sorted(os.listdir(tools_dir)):
             if t.endswith(".html"):
-                urls.append((f"{BASE}/tools/{t}",
+                urls.append((f"{BASE}/tools/{t[:-5]}",
                              file_lastmod(os.path.join("tools", t), today), "monthly"))
     for e in editions:
-        urls.append((f"{BASE}/editions/{e['id']}.html", e["date"], "monthly"))
+        urls.append((f"{BASE}/editions/{e['id']}", e["date"], "monthly"))
     sm = ['<?xml version="1.0" encoding="UTF-8"?>',
           '<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">']
     for loc,lm,cf in urls:
@@ -2249,14 +2249,14 @@ def main():
     try:
         _llms = open(_llms_path, encoding="utf-8").read()
         _recent = "\n".join(
-            f"- [{e['edition']} — {e['dateDisplay']}]({BASE}/editions/{e['id']}.html): "
+            f"- [{e['edition']} — {e['dateDisplay']}]({BASE}/editions/{e['id']}): "
             f"{md_strip(clean_headline(e['summary']) or e['edition'])[:150]}"
             for e in editions[:10])
         _tr = "\n".join(
-            f"- [{tr['nav']}]({BASE}/trackers/{tr['slug']}.html): {tr['records']} records, "
+            f"- [{tr['nav']}]({BASE}/trackers/{tr['slug']}): {tr['records']} records, "
             f"last updated {tr['updated']}"
             for tr in (trackers or []))
-        _auth = (f"\n\n## Author\n- [{AUTHOR_BYLINE}]({BASE}/{AUTHOR_SLUG}.html): "
+        _auth = (f"\n\n## Author\n- [{AUTHOR_BYLINE}]({BASE}/{AUTHOR_SLUG}): "
                  f"editor and author of every edition; consultant and analyst covering "
                  f"hospitality in Kenya, Uganda, Tanzania, Zanzibar and Rwanda. "
                  f"Contact {CONTACT_EMAIL}.")

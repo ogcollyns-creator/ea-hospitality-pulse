@@ -315,7 +315,7 @@ footer.s a:hover{color:var(--teal-d);border-bottom-color:var(--gold)}
 
 
 def guide_page(g):
-    url = f"{BASE}/guides/{g['slug']}.html"
+    url = f"{BASE}/guides/{g['slug']}"
     og_image = f"{BASE}/og/default.png"
     hero_html = ""
     if g.get("image"):
@@ -414,10 +414,10 @@ def guide_page(g):
 {faq_ld}
 <style>{GUIDE_CSS}</style></head>
 <body>
-<header class="s"><div class="wrap"><div class="logo">🏨</div><a href="../index.html"><b>EA Hospitality Pulse</b></a></div></header>
+<header class="s"><div class="wrap"><div class="logo">🏨</div><a href="../"><b>EA Hospitality Pulse</b></a></div></header>
 <div class="wrap">
   <article class="art">
-    <a class="nav" href="../index.html#guides">← All guides</a>{hero_html}
+    <a class="nav" href="../#guides">← All guides</a>{hero_html}
     <div><span class="cat">{html.escape(g['category'])}</span><span class="upd">Updated {upd} · {g['readMins']} min read</span></div>
     <h1>{html.escape(g['title'])}</h1>{byline_html}
     <p class="lede">{html.escape(g['description'])}</p>
@@ -428,12 +428,12 @@ def guide_page(g):
       <a href="{CHANNELS.get('telegram','#')}" target="_blank" rel="noopener">📣 Telegram</a>
       <a href="{CHANNELS.get('whatsapp','#')}" target="_blank" rel="noopener">💬 WhatsApp</a>
       <a href="{CHANNELS.get('linkedin','#')}" target="_blank" rel="noopener">💼 LinkedIn</a>
-      <a href="../index.html#guides">📚 All guides</a>
+      <a href="../#guides">📚 All guides</a>
     </div>
   </article>
 </div>
 <footer class="s">EA Hospitality Pulse — Daily market intelligence for East Africa's hospitality and travel trade.<br>
-<a href="../index.html">Home</a> · <a href="../credits.html">Image credits</a> · Kenya · Uganda · Tanzania · Zanzibar · Rwanda</footer>
+<a href="../">Home</a> · <a href="../credits">Image credits</a> · Kenya · Uganda · Tanzania · Zanzibar · Rwanda</footer>
 </body></html>"""
 
 

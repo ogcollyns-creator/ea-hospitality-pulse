@@ -46,7 +46,7 @@ def feed(fname, title, desc, records):
         '<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">\n'
         "<channel>\n"
         f"  <title>{html.escape(title)}</title>\n"
-        f"  <link>{BASE}/archive.html</link>\n"
+        f"  <link>{BASE}/archive</link>\n"
         f"  <description>{html.escape(desc)}</description>\n"
         "  <language>en</language>\n"
         f"  <lastBuildDate>{now}</lastBuildDate>\n"

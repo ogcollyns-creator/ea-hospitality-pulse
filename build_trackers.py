@@ -240,14 +240,14 @@ def page_shell(t, body, ld_blocks):
     ld = "\n".join(f'<script type="application/ld+json">{json.dumps(b)}</script>'
                    for b in ld_blocks)
     sibs = "".join(
-        f'<li><a href="{s["slug"]}.html"><span class="n">{esc(s["nav"])}</span>'
+        f'<li><a href="{s["slug"]}"><span class="n">{esc(s["nav"])}</span>'
         f'<span class="d">{esc(s["blurb"])}</span></a></li>'
         for s in TRACKERS if s["slug"] != t["slug"])
     api_html = ""
     if t.get("api"):
         api_html = (f'<p class="tk-api">Machine-readable: '
                     f'<code><a href="../api/v1/{t["api"]}">/api/v1/{t["api"]}</a></code> · '
-                    f'free to reuse with attribution, see <a href="../republish.html">syndication</a>.</p>')
+                    f'free to reuse with attribution, see <a href="../republish">syndication</a>.</p>')
     return f"""<!DOCTYPE html>
 <html lang="en"><head>
 <meta charset="UTF-8"><meta name="viewport" content="width=device-width,initial-scale=1">
@@ -255,7 +255,7 @@ def page_shell(t, body, ld_blocks):
 <meta name="description" content="{esc(t['desc'])}">
 <meta name="robots" content="index,follow,max-image-preview:large,max-snippet:-1,max-video-preview:-1">
 <meta name="author" content="{BS.AUTHOR_BYLINE}">
-<link rel="canonical" href="{BASE}/trackers/{t['slug']}.html">
+<link rel="canonical" href="{BASE}/trackers/{t['slug']}">
 <meta name="theme-color" content="#0a4f48" media="(prefers-color-scheme: light)">
 <meta name="theme-color" content="#0d1512" media="(prefers-color-scheme: dark)">
 <meta name="color-scheme" content="light dark">
@@ -264,7 +264,7 @@ def page_shell(t, body, ld_blocks):
 <meta property="og:site_name" content="EA Hospitality Pulse">
 <meta property="og:title" content="{esc(t['social'])}">
 <meta property="og:description" content="{esc(t['desc'])}">
-<meta property="og:url" content="{BASE}/trackers/{t['slug']}.html">
+<meta property="og:url" content="{BASE}/trackers/{t['slug']}">
 <meta property="og:image" content="{BASE}/og/default.png">
 <meta property="og:image:width" content="1200"><meta property="og:image:height" content="630">
 <meta property="og:image:alt" content="{esc(t['social'])}">
@@ -282,8 +282,8 @@ def page_shell(t, body, ld_blocks):
 <header class="s"><div class="wrap"><a href="/"><span class="logo" aria-hidden="true">EA</span><b>EA Hospitality Pulse</b></a></div></header>
 <main class="wrap" id="content">
   <article class="art">
-    <nav class="crumbs" aria-label="Breadcrumb"><a href="../index.html">Home</a>
-      <span aria-hidden="true">/</span><a href="./index.html">Trackers</a>
+    <nav class="crumbs" aria-label="Breadcrumb"><a href="../">Home</a>
+      <span aria-hidden="true">/</span><a href="./">Trackers</a>
       <span aria-hidden="true">/</span><span aria-current="page">{esc(t['nav'])}</span></nav>
     <h1>{esc(t['h1'])}</h1>
     <p class="tk-lede">{t['lede']}</p>
@@ -299,14 +299,14 @@ def page_shell(t, body, ld_blocks):
       <ul class="chan">
         <li><a href="{BS.CHANNELS['telegram']}" target="_blank" rel="noopener"><span class="chan-n">Telegram</span><span class="chan-d">The full edition, three times a day</span></a></li>
         <li><a href="{BS.CHANNELS['whatsapp']}" target="_blank" rel="noopener"><span class="chan-n">WhatsApp</span><span class="chan-d">The daily skim</span></a></li>
-        <li><a href="../archive.html"><span class="chan-n">Archive</span><span class="chan-d">Every edition, searchable</span></a></li>
+        <li><a href="../archive"><span class="chan-n">Archive</span><span class="chan-d">Every edition, searchable</span></a></li>
       </ul>
     </div>
   </article>
 </main>
 <footer class="s"><div class="wrap">
 <p class="f-line">EA Hospitality Pulse — daily intelligence for city, bush and beach properties across East Africa. Free to read, free to republish with attribution.</p>
-<p class="f-nav"><a href="../index.html">Home</a><a href="./index.html">Trackers</a><a href="../archive.html">Archive</a><a href="../methodology.html">Methodology</a><a href="../faq.html">FAQ</a><a href="../republish.html">Republish</a></p>
+<p class="f-nav"><a href="../">Home</a><a href="./">Trackers</a><a href="../archive">Archive</a><a href="../methodology">Methodology</a><a href="../faq">FAQ</a><a href="../republish">Republish</a></p>
 <p class="f-geo">Kenya &middot; Uganda &middot; Tanzania &middot; Zanzibar &middot; Rwanda</p>
 </div></footer>
 </body></html>"""
@@ -315,13 +315,13 @@ def page_shell(t, body, ld_blocks):
 def dataset_ld(t, updated_iso, n_items, variables):
     node = {
         "@context": "https://schema.org", "@type": "Dataset",
-        "@id": f"{BASE}/trackers/{t['slug']}.html#dataset",
+        "@id": f"{BASE}/trackers/{t['slug']}#dataset",
         "name": t["dataset_name"], "description": t["dataset_desc"],
-        "url": f"{BASE}/trackers/{t['slug']}.html",
+        "url": f"{BASE}/trackers/{t['slug']}",
         "creator": {"@id": ORG_ID}, "publisher": {"@id": ORG_ID},
         "maintainer": BS.author_node(),
         "isPartOf": {"@id": SITE_ID},
-        "license": f"{BASE}/republish.html",
+        "license": f"{BASE}/republish",
         "isAccessibleForFree": True, "inLanguage": "en",
         "dateModified": updated_iso,
         "spatialCoverage": [a for a in BS.ABOUT_ENTITIES if a["@type"] == "Place"],
@@ -342,9 +342,9 @@ def crumbs_ld(t):
             "itemListElement": [
                 {"@type": "ListItem", "position": 1, "name": "Home", "item": BASE + "/"},
                 {"@type": "ListItem", "position": 2, "name": "Trackers",
-                 "item": f"{BASE}/trackers/index.html"},
+                 "item": f"{BASE}/trackers/"},
                 {"@type": "ListItem", "position": 3, "name": t["nav"],
-                 "item": f"{BASE}/trackers/{t['slug']}.html"}]}
+                 "item": f"{BASE}/trackers/{t['slug']}"}]}
 
 
 def meta_line(shown, extra=None):
@@ -746,10 +746,10 @@ TRACKERS = [
 
 def hub_page(built):
     rows = "".join(
-        f'<li><a href="{b["slug"]}.html"><span class="n">{esc(b["nav"])}</span>'
+        f'<li><a href="{b["slug"]}"><span class="n">{esc(b["nav"])}</span>'
         f'<span class="d">{esc(b["desc"])}</span></a></li>' for b in built)
     ld = [{"@context": "https://schema.org", "@type": "CollectionPage",
-           "@id": f"{BASE}/trackers/index.html", "url": f"{BASE}/trackers/index.html",
+           "@id": f"{BASE}/trackers/", "url": f"{BASE}/trackers/",
            "name": "EA Hospitality Pulse live trackers",
            "description": "Live datasets for East African hospitality: park and permit fees, "
                           "travel advisory levels, hotel rate index, cost-side index, airport "
@@ -759,13 +759,13 @@ def hub_page(built):
            "mainEntity": {"@type": "ItemList", "numberOfItems": len(built),
                           "itemListElement": [
                               {"@type": "ListItem", "position": i + 1, "name": b["nav"],
-                               "url": f"{BASE}/trackers/{b['slug']}.html"}
+                               "url": f"{BASE}/trackers/{b['slug']}"}
                               for i, b in enumerate(built)]}},
           {"@context": "https://schema.org", "@type": "BreadcrumbList",
            "itemListElement": [
                {"@type": "ListItem", "position": 1, "name": "Home", "item": BASE + "/"},
                {"@type": "ListItem", "position": 2, "name": "Trackers",
-                "item": f"{BASE}/trackers/index.html"}]}]
+                "item": f"{BASE}/trackers/"}]}]
     t = {"slug": "index", "nav": "Trackers",
          "title": "Live East Africa hospitality data trackers | EA Pulse",
          "social": "EA Hospitality Pulse — live data trackers",
