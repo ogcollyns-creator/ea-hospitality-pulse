@@ -1,5 +1,14 @@
 window.GUIDES = [
  {
+  "slug": "east-africa-route-map-fares",
+  "title": "East Africa's route map is being rebuilt. The fares are set somewhere else.",
+  "description": "Four new services in eleven weeks will stitch the region together more tightly than a decade of open-skies communiqués managed. Buyers are signing 2027 rates against flights that have not yet flown a single season.",
+  "category": "Big Read",
+  "updated": "2026-09-19",
+  "readMins": 8,
+  "image": "img/editions/east-africa-route-map-fares.jpg"
+ },
+ {
   "slug": "africa-hotels-ai-adoption-proof-problem",
   "title": "Africa's hotels adopted AI first. Now comes the hard part.",
   "description": "Hotel chains across Kenya, Rwanda and Tanzania have integrated artificial intelligence faster than any region on earth. The industry's own data suggests that was the easy part.",
