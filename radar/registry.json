@@ -4260,6 +4260,51 @@
    ],
    "why": "Fee changes, licensing and policy legally originate here, with effective dates the press omits.",
    "frag": ""
+  },
+  {
+   "id": "fr-cdc-agency-feed",
+   "name": "Federal Register — CDC documents (newest first)",
+   "url": "https://www.federalregister.gov/api/v1/documents.rss?conditions%5Bagencies%5D%5B%5D=centers-for-disease-control-and-prevention&order=newest",
+   "tier": 1,
+   "country": "GLOBAL",
+   "category": "advisory",
+   "method": "rss",
+   "cadence_min": 180,
+   "lead_days": 0,
+   "segments": [
+    "Bush",
+    "City",
+    "Beach"
+   ],
+   "slots": [
+    "morning",
+    "midday",
+    "evening"
+   ],
+   "why": "Catches each Title 42 entry order at publication rather than via CDC's own port-health page, which on 19 Sep 2026 still read 'will be published' three days after 91 FR 58673 appeared. Publication is what opens the comment window.",
+   "frag": ""
+  },
+  {
+   "id": "atta-east-africa-feed",
+   "name": "ATTA — East Africa content library",
+   "url": "https://atta.travel/crm-member-homepage/content-library-search.html?topics=east-africa",
+   "tier": 2,
+   "country": "EA",
+   "category": "trade",
+   "method": "page",
+   "cadence_min": 240,
+   "lead_days": 0,
+   "segments": [
+    "Bush",
+    "Beach",
+    "City"
+   ],
+   "slots": [
+    "midday",
+    "evening"
+   ],
+   "why": "Dated member-news feed that carried the Hemingways Kigali refurb deferral, Bush and Beyond upgrades and the KTB Gulf target on 18 Sep 2026 before the regional press. Every item is date-stamped, which the recency gate needs.",
+   "frag": ""
   }
  ]
 }

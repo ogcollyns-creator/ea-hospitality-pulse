@@ -1,5 +1,14 @@
 window.EDITIONS = [
  {
+  "id": "pulse-2026-09-19-evening",
+  "date": "2026-09-19",
+  "dateDisplay": "Saturday, 19 September 2026",
+  "edition": "Evening Wrap",
+  "editionKey": "evening",
+  "summary": "The US entry ban on Uganda is now printed law with a comment box attached. It closes 1 October.",
+  "bodyHtml": "<p><span class=\"meta-line\">🏨 EA HOSPITALITY PULSE — Evening Wrap</span><br><span class=\"meta-line\">📅 Saturday, 19 September 2026 | 🇰🇪 🇷🇼 🇹🇿 🇺🇬</span></p>\n<p>The US entry ban on Uganda is now printed law with a comment box attached. It closes 1 October.<br>━━━━━━━━━<br><strong>1️⃣ THE UGANDA ENTRY BAN FINALLY PUBLISHED — WITH A DEADLINE NOBODY HERE IS WATCHING</strong></p>\n<p>The CDC&#x27;s 11 September Title 42 order was published on Wednesday as <strong>91 FR 58673–58679, Docket No. CDC-2026-0892</strong> <strong>(Federal Register, 16 September 2026)</strong>. On Tuesday we said it was six days old and unpublished. It suspends entry of covered aliens present in <strong>DRC, Uganda or South Sudan in the previous 21 days</strong> — and states: <strong>&quot;Written comments must be received on or before October 1, 2026.&quot;</strong></p>\n<p><strong>WHAT EVERYONE IS MISSING</strong><br>The argument East Africa keeps making has already lost. The order&#x27;s own <strong>footnote 8</strong> cites WHO&#x27;s page announcing Uganda ended its outbreak after the 42-day countdown, accessed 10 September. CDC read it and kept Uganda in the operative clause anyway. &quot;Uganda is clean&quot; is not new to this agency. It is footnoted.</p>\n<p>The argument that nearly landed is the one nobody here is making. A commenter said counting <strong>airside transit</strong> as &quot;presence&quot; is indefensible — a passenger who never clears immigration, in a disease not transmissible before symptoms. CDC <strong>agreed on the science</strong> and refused anyway, on operational grounds. A feasibility refusal is the kind that moves when someone shows the alternative is workable. And it bites hardest here: ninety minutes connecting through Entebbe becomes a 21-day US-entry disqualifier.</p>\n<p>CDC received <strong>three comments</strong> on the August order. Three, worldwide.</p>\n<p><span class=\"sowhat\">🎯 <strong>So what:</strong> Screen your own people — any non-US-passport colleague or owner routing through EBB, Juba or Kinshasa inside 21 days of a US trip is inadmissible, airside included. Then file at regulations.gov, docket CDC-2026-0892, before 1 October. Argue transit, not Uganda-is-clean.</span><br><span class=\"tagline\">🏷 Bush·City | 🇺🇬 🇷🇼 🇰🇪 | Confirmed (document) · Inference (transit effect) | impact:demand</span></p>\n<p>━━━━━━━━━<br><strong>2️⃣ BA IS BACK IN TANZANIA — BUT READ THE TIMETABLE, NOT THE PRESS RELEASE</strong></p>\n<p>BA2163, London <strong>Gatwick</strong>–Kilimanjaro–Zanzibar, three weekly Mon/Thu/Sat, <strong>29 May to 31 October 2027</strong> <strong>(British Airways via Head for Points, 17 September 2026)</strong>. JRO arrival 20:20, ZNZ arrival 22:25, Zanzibar departs <strong>00:25</strong>.</p>\n<p>Gatwick, not Heathrow, means no connecting bank: a UK point-to-point leisure pipe sold through tour operators, not a US or European feeder. And it runs the northern summer — <strong>closing 31 October, before Zanzibar&#x27;s December–February peak.</strong></p>\n<p><span class=\"sowhat\">🎯 <strong>So what:</strong> JRO lands after dark, so every safari on this flight needs a Moshi or Arusha overnight before day one — package it. Zanzibar&#x27;s 00:25 departure is a late-checkout and day-room line; price it now. Beach: shoulder volume, not peak. Do not reprice December against it.</span><br><span class=\"tagline\">🏷 Bush·Beach | 🇹🇿 | Confirmed | impact:demand</span></p>\n<p>━━━━━━━━━<br><strong>ALSO TONIGHT</strong><br>🇷🇼 <strong>Kigali Heights Development Company Ltd is in insolvency liquidation</strong>, having sold the Kimihurura complex — its only property — to Yyussa Company <strong>(The New Times, 19 September 2026)</strong>. The building is not distressed; the shell that held it is. Lease or event contract there? Confirm your counterparty.<br>🇨🇩 WHO&#x27;s DRC count: <strong>7,404 cases, 3,577 deaths to 15 Sep 2026</strong> — what the order is actually anchored to.</p>\n<p>🔍 <strong>Blind spots:</strong> 17/17 tier-A sources cleared, none written off. Africa CDC&#x27;s latest posted Epidemic Intelligence Weekly is still <strong>August</strong>; our Zanzibar health read is secondary.</p>\n<p>🔗 This edition on the web: <a href=\"https://eahospitalitypulse.com/editions/pulse-2026-09-19-evening.html\" rel=\"noopener\">eahospitalitypulse.com/editions/pulse-2026-09-19-evenin…</a><br>💼 Today&#x27;s Big Read on LinkedIn: <a href=\"https://www.linkedin.com/company/ea-hospitality-pulse/\" rel=\"noopener\">linkedin.com/company/ea-hospitality-pulse/</a><br>— EA Hospitality Pulse | Daily intelligence for city, bush &amp; beach properties</p>"
+ },
+ {
   "id": "pulse-2026-09-18-evening",
   "date": "2026-09-18",
   "dateDisplay": "Friday, 18 September 2026",
@@ -964,6 +973,46 @@ window.EDITIONS = [
  }
 ];
 window.INSIGHTS = [
+ {
+  "headline": "THE UGANDA ENTRY BAN FINALLY PUBLISHED — WITH A DEADLINE NOBODY HERE IS WATCHING",
+  "body": "The CDC's 11 September Title 42 order was published on Wednesday as **91 FR 58673–58679, Docket No. CDC-2026-0892** *(Federal Register, 16 September 2026)*. On Tuesday we said it was six days old and unpublished. It suspends entry of covered aliens present in **DRC, Uganda or South Sudan in the previous 21 days** — and states: **\"Written comments must be received on or before October 1, 2026.\"** **WHAT EVERYONE IS MISSING** The argument East Africa keeps making has already lost. The order's own **footnote 8** cites WHO's page announcing Uganda ended its outbreak after the 42-day countdown, accessed 10 September. CDC read it and kept Uganda in the operative clause anyway. \"Uganda is clean\" is not new to this agency. It is footnoted. The argument that nearly landed is the one nobody here is making. A commenter said counting **airside transit** as \"presence\" is indefensible — a passenger who never clears immigration, in a disease not transmissible before symptoms. CDC **agreed on the science** and refused anyway, on operational grounds. A feasibility refusal is the kind that moves when someone shows the alternative is workable. And it bites hardest here: ninety minutes connecting through Entebbe becomes a 21-day US-entry disqualifier. CDC received **three comments** on the August order. Three, worldwide.",
+  "sowhat": "🎯 **So what:** Screen your own people — any non-US-passport colleague or owner routing through EBB, Juba or Kinshasa inside 21 days of a US trip is inadmissible, airside included. Then file at regulations.gov, docket CDC-2026-0892, before 1 October. Argue transit, not Uganda-is-clean.",
+  "segments": [
+   "city",
+   "bush"
+  ],
+  "countries": "🇺🇬 🇷🇼 🇰🇪",
+  "confidence": "Confirmed (document) · Inference (transit effect)",
+  "impact": "+demand",
+  "impactClass": "demand",
+  "intensity": 3,
+  "impactSet": "author",
+  "source": "pulse-2026-09-19-evening",
+  "date": "2026-09-19",
+  "dateDisplay": "Saturday, 19 September 2026",
+  "edition": "Evening Wrap",
+  "editionKey": "evening"
+ },
+ {
+  "headline": "BA IS BACK IN TANZANIA — BUT READ THE TIMETABLE, NOT THE PRESS RELEASE",
+  "body": "BA2163, London **Gatwick**–Kilimanjaro–Zanzibar, three weekly Mon/Thu/Sat, **29 May to 31 October 2027** *(British Airways via Head for Points, 17 September 2026)*. JRO arrival 20:20, ZNZ arrival 22:25, Zanzibar departs **00:25**. Gatwick, not Heathrow, means no connecting bank: a UK point-to-point leisure pipe sold through tour operators, not a US or European feeder. And it runs the northern summer — **closing 31 October, before Zanzibar's December–February peak.**",
+  "sowhat": "🎯 **So what:** JRO lands after dark, so every safari on this flight needs a Moshi or Arusha overnight before day one — package it. Zanzibar's 00:25 departure is a late-checkout and day-room line; price it now. Beach: shoulder volume, not peak. Do not reprice December against it.",
+  "segments": [
+   "bush",
+   "beach"
+  ],
+  "countries": "🇹🇿",
+  "confidence": "Confirmed",
+  "impact": "+demand",
+  "impactClass": "demand",
+  "intensity": 3,
+  "impactSet": "author",
+  "source": "pulse-2026-09-19-evening",
+  "date": "2026-09-19",
+  "dateDisplay": "Saturday, 19 September 2026",
+  "edition": "Evening Wrap",
+  "editionKey": "evening"
+ },
  {
   "headline": "KENYA IS ABOUT TO PRICE A LICENCE OFF YOUR TURNOVER",
   "body": "The Senate Committee on Delegated Legislation took evidence on Thursday 17 September from nine industry bodies on the Tourism (Tourism Enterprises) Regulations 2026 — **Legal Notice No. 127 of 2026**, published 10 July and tabled in the Senate on 17 July *(People Daily, 18 September 2026)*. The regime licences, classifies and grades hotels, restaurants, tour operators, travel agents, tourist transport, air charter and nature-based enterprises under the Tourism Regulatory Authority. Licence fees are banded on **annual gross revenue** — reported from KSh 16,000 for a new or sub-KSh 2m restaurant up to **KSh 250,000** *(The Kenya Times, 18 September 2026)*. Specified offences carry up to KSh 1m, six months, or both. **WHAT EVERYONE IS MISSING** Kenya already charges 2% of gross sales on accommodation, food and drink as the Tourism Levy *(Tourism Fund)*. Band a licence on gross revenue too and you have a second turnover charge wearing a licence's clothes. But the fee is not the winnable argument. The associations also told the committee they were **not consulted before the regulations were drafted** — a public-participation defect. That is the ground on which Kenyan instruments actually get annulled, and it is on a clock: under the **Statutory Instruments Act No. 23 of 2013, s.15**, the committee must report within 28 sitting days of referral. Chair Sen. Mwenda Gataya (Tharaka Nithi) put it plainly: the committee will decide \"whether to annul or accede to the Regulations.\"",
@@ -5181,4 +5230,4 @@ window.INSIGHTS = [
   "editionKey": "evening"
  }
 ];
-window.BUILT_AT = "2026-09-19 06:43";
+window.BUILT_AT = "2026-09-19 18:42";

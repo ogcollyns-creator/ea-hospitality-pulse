@@ -1,8 +1,8 @@
 window.LEDGER = {
- "updated": "2026-09-19 06:44",
+ "updated": "2026-09-19 18:42",
  "stats": {
-  "total": 194,
-  "open": 142,
+  "total": 197,
+  "open": 144,
   "resolved": 50,
   "correct": 39,
   "partial": 1,
@@ -248,22 +248,6 @@ window.LEDGER = {
    "resolved_date": "",
    "evidence": "",
    "source_url": "https://www.the-star.co.ke/news/2026-09-12-police-bar-large-political-rallies-from-nairobi-cbd",
-   "overdue": false
-  },
-  {
-   "id": "P191",
-   "made_date": "2026-09-17",
-   "edition": "Evening Wrap",
-   "claim": "The CDC Title 42 order of 11 September 2026 suspending introduction of covered aliens from DRC, Uganda and South Sudan WILL be published in the Federal Register on or before 30 September 2026 - as at 17 September the CDC port-health page still read 'This Order will be published in the Federal Register', six days after signature, against a three-to-seven-day publication interval on all five preceding orders in the chain",
-   "resolution_criteria": "Search federalregister.gov for a document by the Centers for Disease Control and Prevention under sections 362 and 365 of the Public Health Service Act continuing the suspension of the right to introduce certain persons, bearing a publication date on or before 30 September 2026, or a CDC port-health page (cdc.gov/port-health/legal-authorities/evdorder.html) linking the 11 September order to a Federal Register publication. Either resolves the call CORRECT. No Federal Register publication of the 11 September order by 30 September 2026 resolves it INCORRECT",
-   "resolve_by": "2026-09-30",
-   "market": "Uganda",
-   "segment": "Bush|City",
-   "confidence": "Medium",
-   "status": "open",
-   "resolved_date": "",
-   "evidence": "",
-   "source_url": "https://www.cdc.gov/port-health/legal-authorities/evdorder.html",
    "overdue": false
   },
   {
@@ -747,6 +731,22 @@ window.LEDGER = {
    "overdue": false
   },
   {
+   "id": "P195",
+   "made_date": "2026-09-19",
+   "edition": "Evening Wrap",
+   "claim": "Fewer than ten public comments will be filed on docket CDC-2026-0892 by the 1 October 2026 close, and none will be filed by an East African government, national tourism board, airline or industry association - CDC received just three comments on the preceding August 2026 order",
+   "resolution_criteria": "Check regulations.gov docket CDC-2026-0892 after 1 October 2026 and on or before 15 November 2026 for the posted comment count and commenter identities. Ten or more posted comments resolves the count limb INCORRECT, and any posted comment attributable to a government, tourism board, airline or trade association of Kenya, Uganda, Tanzania or Rwanda resolves the East African limb INCORRECT. Both limbs holding resolves the call CORRECT",
+   "resolve_by": "2026-11-15",
+   "market": "UG|KE|TZ|RW",
+   "segment": "Bush|City|Beach",
+   "confidence": "Inference",
+   "status": "open",
+   "resolved_date": "",
+   "evidence": "",
+   "source_url": "https://www.regulations.gov/docket/CDC-2026-0892",
+   "overdue": false
+  },
+  {
    "id": "P064",
    "made_date": "2026-08-10",
    "edition": "Evening Wrap",
@@ -808,6 +808,22 @@ window.LEDGER = {
    "resolved_date": "",
    "evidence": "",
    "source_url": "https://www.fdd.org/analysis/2026/09/14/houthis-take-yemens-red-sea-coast-and-key-bab-al-mandeb-islands/",
+   "overdue": false
+  },
+  {
+   "id": "P194",
+   "made_date": "2026-09-19",
+   "edition": "Evening Wrap",
+   "claim": "The CDC order that replaces 91 FR 58673 on or about 11 October 2026 will NOT carve out airside international transit from the definition of presence in DRC, Uganda or South Sudan - CDC conceded in the 16 September order that Ebola is not transmitted through ordinary airborne exposure and that infected persons generally do not transmit before symptoms, then declined the carve-out purely on operational feasibility",
+   "resolution_criteria": "Search federalregister.gov for the successor CDC order under sections 362 and 365 of the Public Health Service Act published after 11 October 2026 and on or before 30 November 2026. Any successor order or amended order whose text excepts persons whose presence consisted solely of airside airport transit resolves the call INCORRECT. A successor order that retains presence-based coverage without an airside-transit exception, or no successor order published by 30 November 2026, resolves it CORRECT",
+   "resolve_by": "2026-11-30",
+   "market": "UG|RW|KE",
+   "segment": "Bush|City",
+   "confidence": "Medium",
+   "status": "open",
+   "resolved_date": "",
+   "evidence": "",
+   "source_url": "https://www.federalregister.gov/public-inspection/2026-18948/order-under-sections-362-and-365-of-the-public-health-service-act-continuing-the-suspension-of-the",
    "overdue": false
   },
   {
@@ -1672,6 +1688,22 @@ window.LEDGER = {
    "resolved_date": "",
    "evidence": "",
    "source_url": "",
+   "overdue": false
+  },
+  {
+   "id": "P196",
+   "made_date": "2026-09-19",
+   "edition": "Evening Wrap",
+   "claim": "British Airways will NOT extend its Gatwick-Kilimanjaro-Zanzibar service into the Zanzibar December-February high season for the 2027/28 northern winter - the announced schedule runs 29 May to 31 October 2027 only, a Gatwick point-to-point leisure route with no Heathrow connecting bank",
+   "resolution_criteria": "Search britishairways.com, BA's media centre, ch-aviation and AeroRoutes to 31 March 2027 for any filed or announced BA schedule operating London-Kilimanjaro or London-Zanzibar on any date between 1 November 2027 and 29 February 2028. Any such filing or announcement resolves the call INCORRECT. Absence of one at 31 March 2027 resolves it CORRECT",
+   "resolve_by": "2027-03-31",
+   "market": "TZ",
+   "segment": "Beach|Bush",
+   "confidence": "Medium",
+   "status": "open",
+   "resolved_date": "",
+   "evidence": "",
+   "source_url": "https://www.headforpoints.com/2026/09/17/book-now-british-airways-announces-flights-to-kilimanjaro-and-zanzibar-with-avios-seats-bookable/",
    "overdue": false
   },
   {
