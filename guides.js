@@ -1,5 +1,14 @@
 window.GUIDES = [
  {
+  "slug": "kenya-tourism-licensing-quality-mark-price",
+  "title": "Kenya built its quality marks by going door to door. The new rules put a price on them.",
+  "description": "Legal Notice 127 gives hotels a nine-rung licence ladder, then charges every enterprise the same KSh 250,000 for classification and KSh 100,000 for accreditation. Half the establishments already holding a quality mark have fewer than 36 rooms.",
+  "category": "Big Read",
+  "updated": "2026-09-20",
+  "readMins": 9,
+  "image": "img/editions/kenya-tourism-licensing-quality-mark-price.jpg"
+ },
+ {
   "slug": "east-africa-route-map-fares",
   "title": "East Africa's route map is being rebuilt. The fares are set somewhere else.",
   "description": "Four new services in eleven weeks will stitch the region together more tightly than a decade of open-skies communiqués managed. Buyers are signing 2027 rates against flights that have not yet flown a single season.",
