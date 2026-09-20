@@ -1,34 +1,32 @@
 {
- "generated": "2026-09-20T13:50:44+03:00",
- "slot": "midday",
- "window_start": 1789876800,
- "observations_in_window": 151,
+ "generated": "2026-09-20T16:38:58+03:00",
+ "slot": "evening",
+ "window_start": 1789898400,
+ "observations_in_window": 125,
  "deduped_against": 4,
  "candidates": [
   {
-   "score": 110.6,
+   "score": 81.3,
    "components": {
     "tier": 40,
     "category": 32,
-    "lead": 12.0,
-    "relevance": 8,
-    "freshness": 12.6,
-    "corroborated": 10,
+    "lead": 3.6,
+    "relevance": 0,
+    "freshness": 19.7,
+    "stale_trap": -10,
     "page_change": -4
    },
-   "keywords": [
-    "fee"
-   ],
+   "keywords": [],
    "shock_terms": [],
    "dedupe_match": null,
    "dedupe_similarity": 0.0,
-   "id": "764ee4f207b6",
-   "title": "[page changed] Federal Register \u2014 CDC notices",
-   "url": "https://www.federalregister.gov/api/v1/documents.rss?conditions%5Bagencies%5D%5B%5D=centers-for-disease-control-and-prevention&order=newest",
-   "summary": "Federal Register Documents published on or after 08/21/2026 and from Centers for Disease Control and Prevention https://www.federalregister.gov/api/v1/documents.rss?conditions%5Bagencies%5D%5B%5D=centers-for-disease-control-and-prevention&order=newest Fri, 18 Sep 2026 04:00:00 GMT The documents in this feed originate from FederalRegister.gov which displays an unofficial web version of the daily Fe",
+   "id": "c869d3acff9f",
+   "title": "[page changed] Federal Register \u2014 public inspection (HHS/CDC), pre-publication",
+   "url": "https://www.federalregister.gov/api/v1/public-inspection-documents/current.json",
+   "summary": "{\"count\":79,\"results\":[{\"agencies\":[{\"raw_name\":\"SECURITIES AND EXCHANGE COMMISSION\",\"name\":\"Securities and Exchange Commission\",\"id\":466,\"url\":\"https://www.federalregister.gov/agencies/securities-and-exchange-commission\",\"json_url\":\"https://www.federalregister.gov/api/v1/agencies/466\",\"parent_id\":null,\"slug\":\"securities-and-exchange-commission\"}],\"agency_letters\":[],\"agency_names\":[\"Securities an",
    "kind": "page-change",
-   "source": "Federal Register \u2014 CDC notices",
-   "source_id": "us-fedreg-cdc",
+   "source": "Federal Register \u2014 public inspection (HHS/CDC), pre-publication",
+   "source_id": "us-fedreg-pubinspect-hhs",
    "tier": 1,
    "country": "REG",
    "category": "advisory",
@@ -36,85 +34,56 @@
     "city",
     "bush"
    ],
-   "first_seen": "2026-09-20T07:18+03:00",
-   "published": "2026-10-11",
-   "verdict": "OPEN THIS \u2014 tier-1 advisory page moved; content not auto-parsed, read it manually"
+   "first_seen": "2026-09-20T16:36+03:00",
+   "published": "2026-09-17",
+   "verdict": "CHECK \u2014 source date older than the window"
   },
   {
-   "score": 63.0,
+   "score": 81.2,
    "components": {
-    "tier": 40,
-    "category": 12,
-    "lead": 3.6,
-    "relevance": 0,
-    "freshness": 17.4,
-    "undated": -6,
-    "page_change": -4
+    "tier": 20,
+    "category": 5,
+    "lead": 2.4,
+    "relevance": 24,
+    "freshness": 19.8,
+    "corroborated": 10
    },
-   "keywords": [],
-   "shock_terms": [],
-   "dedupe_match": null,
-   "dedupe_similarity": 0.0,
-   "id": "f1a0b6dfcf3d",
-   "title": "[page changed] Airlink news",
-   "url": "https://www.flyairlink.com/",
-   "summary": "Request unsuccessful. Incapsula incident ID: 100000320003185327-6898902894905395",
-   "kind": "page-change",
-   "source": "Airlink news",
-   "source_id": "air-airlink",
-   "tier": 1,
-   "country": "REG",
-   "category": "airline",
-   "segments": [
-    "city",
-    "bush",
-    "beach"
+   "keywords": [
+    "permit",
+    "route",
+    "safari",
+    "booking"
    ],
-   "first_seen": "2026-09-20T11:39+03:00",
-   "published": null,
-   "verdict": "OPEN THIS \u2014 tier-1 airline page moved; content not auto-parsed, read it manually"
-  },
-  {
-   "score": 84.6,
-   "components": {
-    "tier": 40,
-    "category": 32,
-    "lead": 1.2,
-    "relevance": 0,
-    "freshness": 17.4,
-    "undated": -6
-   },
-   "keywords": [],
    "shock_terms": [],
    "dedupe_match": null,
-   "dedupe_similarity": 0.0,
-   "id": "b8cf8412549d",
-   "title": "Panama - Level 1: Exercise Normal Precautions",
-   "url": "https://travel.state.gov/content/tsg_aem/us/en/home/international-travel/travel-advisories/destination.pan.html",
-   "summary": "Exercise normal precautionSummary not available",
+   "dedupe_similarity": 0.33,
+   "id": "1660b4aa6112",
+   "title": "Safarilink offers 10% off on selected East African routes",
+   "url": "https://katakenya.org/safarilink-offers-10-off-on-selected-east-african-routes",
+   "summary": "Safarilink is offering travel agents 10% off selected fares on routes linking key safari and regional gateways in Kenya, Uganda and Tanzania, through its distribution partnership with Hahnair. The promotion is available for bookings made in September 2026, with travel permitted until December 2026. The promotional terms impose no restrictions. The offer covers routes from [\u2026]",
    "kind": "item",
-   "source": "US State Dept travel advisories (EA feed)",
-   "source_id": "adv-us-ea",
-   "tier": 1,
-   "country": "REG",
-   "category": "advisory",
+   "source": "Kenya Association of Travel Agents news",
+   "source_id": "tp-kata",
+   "tier": 2,
+   "country": "KE",
+   "category": "trade",
    "segments": [
     "city",
     "bush",
     "beach"
    ],
-   "first_seen": "2026-09-20T11:39+03:00",
-   "published": null,
+   "first_seen": "2026-09-20T16:36+03:00",
+   "published": "2026-09-20",
    "verdict": "CONSIDER"
   },
   {
-   "score": 83.8,
+   "score": 80.7,
    "components": {
     "tier": 20,
     "category": 4,
     "lead": 0.0,
     "relevance": 12,
-    "freshness": 19.8,
+    "freshness": 16.7,
     "corroborated": 10,
     "shock": 18
    },
@@ -146,29 +115,27 @@
    "verdict": "CONSIDER"
   },
   {
-   "score": 82.8,
+   "score": 73.2,
    "components": {
     "tier": 20,
     "category": 5,
     "lead": 2.4,
-    "relevance": 28,
-    "freshness": 17.4,
+    "relevance": 16,
+    "freshness": 19.8,
     "corroborated": 10
    },
    "keywords": [
-    "visa",
-    "airport",
-    "airline",
-    "flight",
-    "passenger"
+    "arrivals",
+    "tourism",
+    "tourist"
    ],
    "shock_terms": [],
    "dedupe_match": null,
    "dedupe_similarity": 0.0,
-   "id": "84cd3ecef65f",
-   "title": "IATA calls for standardised eVisa verification",
-   "url": "https://katakenya.org/iata-calls-for-standardised-evisa-verification",
-   "summary": "Your Visa Is Digital. But Can the Airline Check It? A passenger arrives at the airport with a valid passport, a confirmed ticket and an eVisa. But how does the airline know that the eVisa is authentic? It\u2019s an important question because before a passenger can board an international flight, the airline must confirm they [\u2026]",
+   "id": "77222b2b502e",
+   "title": "Kenya Targets 50,000 Middle East Visitors as Tourism Board Ramps Up Gulf Strategy",
+   "url": "https://katakenya.org/kenya-targets-50000-middle-east-visitors-as-tourism-board-ramps-up-gulf-strategy",
+   "summary": "Kenya is aiming to more than double tourist arrivals from the Middle East, setting a target of 50,000 visitors against the 20,480 recorded in the 2025/26 financial year. Kenya Tourism Board (KTB) CEO June Chepkemei, speaking on the sidelines of Arabian Travel Market 2026 in Dubai, outlined a strategy built around air connectivity, targeted marketing [\u2026]",
    "kind": "item",
    "source": "Kenya Association of Travel Agents news",
    "source_id": "tp-kata",
@@ -180,379 +147,196 @@
     "bush",
     "beach"
    ],
-   "first_seen": "2026-09-20T11:39+03:00",
+   "first_seen": "2026-09-20T16:36+03:00",
    "published": "2026-09-20",
    "verdict": "CONSIDER"
   },
   {
-   "score": 79.0,
-   "components": {
-    "tier": 40,
-    "category": 32,
-    "lead": 3.6,
-    "relevance": 0,
-    "freshness": 17.4,
-    "stale_trap": -10,
-    "page_change": -4
-   },
-   "keywords": [],
-   "shock_terms": [],
-   "dedupe_match": null,
-   "dedupe_similarity": 0.0,
-   "id": "1b953372bea9",
-   "title": "[page changed] Federal Register \u2014 public inspection (HHS/CDC), pre-publication",
-   "url": "https://www.federalregister.gov/api/v1/public-inspection-documents/current.json",
-   "summary": "{\"count\":79,\"results\":[{\"agencies\":[{\"raw_name\":\"SECURITIES AND EXCHANGE COMMISSION\",\"name\":\"Securities and Exchange Commission\",\"id\":466,\"url\":\"https://www.federalregister.gov/agencies/securities-and-exchange-commission\",\"json_url\":\"https://www.federalregister.gov/api/v1/agencies/466\",\"parent_id\":null,\"slug\":\"securities-and-exchange-commission\"}],\"agency_letters\":[],\"agency_names\":[\"Securities an",
-   "kind": "page-change",
-   "source": "Federal Register \u2014 public inspection (HHS/CDC), pre-publication",
-   "source_id": "us-fedreg-pubinspect-hhs",
-   "tier": 1,
-   "country": "REG",
-   "category": "advisory",
-   "segments": [
-    "city",
-    "bush"
-   ],
-   "first_seen": "2026-09-20T11:39+03:00",
-   "published": "2026-09-17",
-   "verdict": "CHECK \u2014 source date older than the window"
-  },
-  {
-   "score": 77.0,
-   "components": {
-    "tier": 20,
-    "category": 14,
-    "lead": 8.4,
-    "relevance": 12,
-    "freshness": 12.6,
-    "corroborated": 10
-   },
-   "keywords": [
-    "route",
-    "airline"
-   ],
-   "shock_terms": [],
-   "dedupe_match": null,
-   "dedupe_similarity": 0.0,
-   "id": "664333eee254",
-   "title": "LOT Adds Boeing 787 Bucharest Service in NW26",
-   "url": "https://www.aeroroutes.com/eng/260919-lonw26otp",
-   "summary": "Published at 2100PDT 19SEP26 / 0400GMT 20SEP26 LOT Polish Airlines during Northern winter 2026/27 season plans to operate Boeing 787-8 aircraft on Warsaw \u2013 Bucharest route, primarily operating once weekly from 03DEC26 to 25FEB27. Following Boeing 787 schedule mainly focuses on the month of December 2026, as schedule varies in January and February 2027. LO1643 WAW0755 \u2013 1055OTP 788 4 LO1646 OTP1725",
-   "kind": "item",
-   "source": "AeroRoutes schedule filings",
-   "source_id": "aeroroutes",
-   "tier": 2,
-   "country": "GLOBAL",
-   "category": "aviation-tracker",
-   "segments": [
-    "city",
-    "bush",
-    "beach"
-   ],
-   "first_seen": "2026-09-20T07:18+03:00",
-   "published": "2026-09-20",
-   "verdict": "CONSIDER"
-  },
-  {
-   "score": 77.0,
-   "components": {
-    "tier": 20,
-    "category": 14,
-    "lead": 8.4,
-    "relevance": 12,
-    "freshness": 12.6,
-    "corroborated": 10
-   },
-   "keywords": [
-    "route",
-    "airline"
-   ],
-   "shock_terms": [],
-   "dedupe_match": null,
-   "dedupe_similarity": 0.0,
-   "id": "5a16a2e3ecfa",
-   "title": "Sunclass Oct 2026 Helsinki \u2013 Europe A330neo Operations",
-   "url": "https://www.aeroroutes.com/eng/260919-dkoct26hel",
-   "summary": "Published at 2000PDT 19SEP26 / 0300GMT 20SEP26 Sunclass Airlines in October 2026 schedules Airbus A330-900neo aircraft on selected European routes to/from Helsinki on one-time basis. Planned operation as follows. Helsinki \u2013 Palma de Mallorca DK1362 HEL2005 \u2013 2310PMI 339 09OCT26 DK1363 PMI2150 \u2013 0250+1HEL 339 16OCT26 Helsinki \u2013 Tenerife South DK1372 HEL0730 \u2013 1200TFS 339 11OCT26 DK1373 TFS1330 \u2013 21",
-   "kind": "item",
-   "source": "AeroRoutes schedule filings",
-   "source_id": "aeroroutes",
-   "tier": 2,
-   "country": "GLOBAL",
-   "category": "aviation-tracker",
-   "segments": [
-    "city",
-    "bush",
-    "beach"
-   ],
-   "first_seen": "2026-09-20T07:18+03:00",
-   "published": "2026-09-20",
-   "verdict": "CONSIDER"
-  },
-  {
-   "score": 77.0,
-   "components": {
-    "tier": 20,
-    "category": 14,
-    "lead": 8.4,
-    "relevance": 12,
-    "freshness": 12.6,
-    "corroborated": 10
-   },
-   "keywords": [
-    "vat",
-    "airline"
-   ],
-   "shock_terms": [],
-   "dedupe_match": null,
-   "dedupe_similarity": 0.0,
-   "id": "4e683c9a65bc",
-   "title": "Alaska Debuts 737-800 Inter-Hawaiian Island Service in 4Q26",
-   "url": "https://www.aeroroutes.com/eng/260919-as4q26hi",
-   "summary": "Published at 1900PDT 19SEP26 / 0200GMT 20SEP26 Alaska Airlines this past summer filed Boeing 737-800 operation on inter-Hawaiian Islands service. Available for reservations since the week of 20JUL26, the Oneworld member initially plans to operate Honolulu \u2013 Kahului service with 3 daily round-trip starting 03OCT26. Operational schedule below focuses on the week of 03OCT26. AS1416 HNL0820 \u2013 0909OGG ",
-   "kind": "item",
-   "source": "AeroRoutes schedule filings",
-   "source_id": "aeroroutes",
-   "tier": 2,
-   "country": "GLOBAL",
-   "category": "aviation-tracker",
-   "segments": [
-    "city",
-    "bush",
-    "beach"
-   ],
-   "first_seen": "2026-09-20T07:18+03:00",
-   "published": "2026-09-20",
-   "verdict": "CONSIDER"
-  },
-  {
-   "score": 77.0,
-   "components": {
-    "tier": 20,
-    "category": 14,
-    "lead": 8.4,
-    "relevance": 12,
-    "freshness": 12.6,
-    "corroborated": 10
-   },
-   "keywords": [
-    "route",
-    "airline"
-   ],
-   "shock_terms": [],
-   "dedupe_match": null,
-   "dedupe_similarity": 0.0,
-   "id": "8ff28fff9ef9",
-   "title": "Sun d\u2019Or Resumes Marrakech Service in NW26",
-   "url": "https://www.aeroroutes.com/eng/260919-lynw26rak",
-   "summary": "Published at 1800PDT 19SEP26 / 0100GMT 20SEP26 Sun d\u2019Or during Northern winter 2026/27 season plans to resume Tel Aviv \u2013 Marrakech route, last served until October 2023. The airline will operate this route twice weekly when it resumes service on 16NOV26, on board Boeing 737-800. LY5453 TLV0600 \u2013 1025RAK 737 13 LY5454 RAK1145 \u2013 1920TLV 737 13",
-   "kind": "item",
-   "source": "AeroRoutes schedule filings",
-   "source_id": "aeroroutes",
-   "tier": 2,
-   "country": "GLOBAL",
-   "category": "aviation-tracker",
-   "segments": [
-    "city",
-    "bush",
-    "beach"
-   ],
-   "first_seen": "2026-09-20T07:18+03:00",
-   "published": "2026-09-20",
-   "verdict": "CONSIDER"
-  },
-  {
-   "score": 74.2,
-   "components": {
-    "tier": 40,
-    "category": 32,
-    "lead": 3.6,
-    "relevance": 0,
-    "freshness": 12.6,
-    "stale_trap": -10,
-    "page_change": -4
-   },
-   "keywords": [],
-   "shock_terms": [],
-   "dedupe_match": null,
-   "dedupe_similarity": 0.0,
-   "id": "b7a413c01ee4",
-   "title": "[page changed] Federal Register \u2014 public inspection (HHS/CDC), pre-publication",
-   "url": "https://www.federalregister.gov/api/v1/public-inspection-documents/current.json",
-   "summary": "{\"count\":79,\"results\":[{\"agencies\":[{\"raw_name\":\"SECURITIES AND EXCHANGE COMMISSION\",\"name\":\"Securities and Exchange Commission\",\"id\":466,\"url\":\"https://www.federalregister.gov/agencies/securities-and-exchange-commission\",\"json_url\":\"https://www.federalregister.gov/api/v1/agencies/466\",\"parent_id\":null,\"slug\":\"securities-and-exchange-commission\"}],\"agency_letters\":[],\"agency_names\":[\"Securities an",
-   "kind": "page-change",
-   "source": "Federal Register \u2014 public inspection (HHS/CDC), pre-publication",
-   "source_id": "us-fedreg-pubinspect-hhs",
-   "tier": 1,
-   "country": "REG",
-   "category": "advisory",
-   "segments": [
-    "city",
-    "bush"
-   ],
-   "first_seen": "2026-09-20T07:18+03:00",
-   "published": "2026-09-17",
-   "verdict": "CHECK \u2014 source date older than the window"
-  },
-  {
-   "score": 73.0,
-   "components": {
-    "tier": 20,
-    "category": 14,
-    "lead": 8.4,
-    "relevance": 8,
-    "freshness": 12.6,
-    "corroborated": 10
-   },
-   "keywords": [
-    "route"
-   ],
-   "shock_terms": [],
-   "dedupe_match": null,
-   "dedupe_similarity": 0.0,
-   "id": "2c2c18ff54c8",
-   "title": "ANA Tentatively Expands Lufthansa Europe Codeshare in NS27",
-   "url": "https://www.aeroroutes.com/eng/260919-nhlhcodeshare",
-   "summary": "Published at 1701PDT 19SEP26 / 0001GMT 20SEP26 Star Alliance member ANA in recent schedule updated filed additional codeshare routes operated by Lufthansa, that would commence on 28MAR27 at the earliest. Preliminary codeshare network expansion as follows. ANA operated by Lufthansa Frankfurt \u2013 Belgrade Frankfurt \u2013 Faro Frankfurt \u2013 Troms\u00f8 Frankfurt \u2013 Vilnius",
-   "kind": "item",
-   "source": "AeroRoutes schedule filings",
-   "source_id": "aeroroutes",
-   "tier": 2,
-   "country": "GLOBAL",
-   "category": "aviation-tracker",
-   "segments": [
-    "city",
-    "bush",
-    "beach"
-   ],
-   "first_seen": "2026-09-20T07:18+03:00",
-   "published": "2026-09-20",
-   "verdict": "CONSIDER"
-  },
-  {
-   "score": 69.8,
-   "components": {
-    "tier": 20,
-    "category": 14,
-    "lead": 8.4,
-    "relevance": 0,
-    "freshness": 17.4,
-    "corroborated": 10
-   },
-   "keywords": [],
-   "shock_terms": [],
-   "dedupe_match": null,
-   "dedupe_similarity": 0.0,
-   "id": "1dacf68d7b4c",
-   "title": "Cayman Airways 2026-27 Holidays Montego Bay Operations",
-   "url": "https://www.aeroroutes.com/eng/260919-kxnw26mbj",
-   "summary": "Published at 2200PDT 19SEP26 / 0500GMT 20SEP26 Cayman Airways during 2026-27 Holidays season once again offers limited Grand Cayman \u2013 Montego Bay service, on board Boeing 737 MAX 8. Service will be offered on Friday 18DEC26, followed by once weekly on Tuesdays from 22DEC26 to 05JAN27. KX2620 GCM0730 \u2013 0825MBJ 7M8 2 KX2621 MBJ0925 \u2013 1020GCM 7M8 2",
-   "kind": "item",
-   "source": "AeroRoutes schedule filings",
-   "source_id": "aeroroutes",
-   "tier": 2,
-   "country": "GLOBAL",
-   "category": "aviation-tracker",
-   "segments": [
-    "city",
-    "bush",
-    "beach"
-   ],
-   "first_seen": "2026-09-20T11:39+03:00",
-   "published": "2026-09-20",
-   "verdict": "weak"
-  },
-  {
-   "score": 67.6,
+   "score": 70.7,
    "components": {
     "tier": 40,
     "category": 5,
     "lead": 12.0,
-    "relevance": 4,
-    "freshness": 12.6,
+    "relevance": 0,
+    "freshness": 19.7,
     "undated": -6
    },
+   "keywords": [],
+   "shock_terms": [],
+   "dedupe_match": null,
+   "dedupe_similarity": 0.0,
+   "id": "796e5db6b597",
+   "title": "\ud835\udc12\ud835\udc04\ud835\udc0d\ud835\udc00\ud835\udc13\ud835\udc04 \ud835\udc04\ud835\udc03\ud835\udc14\ud835\udc02\ud835\udc00\ud835\udc13\ud835\udc08\ud835\udc0e\ud835\udc0d \ud835\udc02\ud835\udc0e\ud835\udc0c\ud835\udc0c\ud835\udc08\ud835\udc13\ud835\udc13\ud835\udc04\ud835\udc04 \ud835\udc0f\ud835\udc14\ud835\udc13\ud835\udc12 \ud835\udc0a\ud835\udc00\ud835\udc09\ud835\udc08\ud835\udc00\ud835\udc03\ud835\udc0e \ud835\udc04\ud835\udc02\ud835\udc03\ud835\udc04 \ud835\udc12\ud835\udc14\ud835\udc0f\ud835\udc0f\ud835\udc0e\ud835\udc11\ud835\udc13, \ud835\udc12\ud835\udc13\ud835\udc00\ud835\udc05\ud835\udc05\ud835\udc08\ud835\udc0d\ud835\udc06 \ud835\udc00\ud835\udc0d\ud835\udc03 \ud835\udc01\ud835\udc14\ud835\udc03\ud835\udc06\ud835\udc04\ud835\udc13\ud835\udc12 \ud835\udc14\ud835\udc0d\ud835\udc03\ud835\udc04\ud835\udc11 \ud835\udc12\ud835\udc02\ud835\udc11\ud835\udc14\ud835\udc13\ud835\udc08\ud835\udc0d\ud835\udc18",
+   "url": "https://www.parliament.go.ke/index.php/node/26405",
+   "summary": "",
+   "kind": "item",
+   "source": "Senate Committee on Delegated Legislation (Kenya) \u2014 the committee that annuls or accedes to statutory instruments",
+   "source_id": "ke-senate-delegated-legislation",
+   "tier": 1,
+   "country": "KE",
+   "category": "REG",
+   "segments": [
+    "city",
+    "bush",
+    "beach"
+   ],
+   "first_seen": "2026-09-20T16:35+03:00",
+   "published": null,
+   "verdict": "CONSIDER"
+  },
+  {
+   "score": 70.7,
+   "components": {
+    "tier": 40,
+    "category": 5,
+    "lead": 12.0,
+    "relevance": 0,
+    "freshness": 19.7,
+    "undated": -6
+   },
+   "keywords": [],
+   "shock_terms": [],
+   "dedupe_match": null,
+   "dedupe_similarity": 0.0,
+   "id": "c39a6bdd1064",
+   "title": "NOTIFICATION OF PUBLIC HEARINGS AND INVITATION TO SUBMIT VIEWS",
+   "url": "https://www.parliament.go.ke/index.php/notification-public-hearings-and-invitation-submit-views",
+   "summary": "",
+   "kind": "item",
+   "source": "Senate Committee on Delegated Legislation (Kenya) \u2014 the committee that annuls or accedes to statutory instruments",
+   "source_id": "ke-senate-delegated-legislation",
+   "tier": 1,
+   "country": "KE",
+   "category": "REG",
+   "segments": [
+    "city",
+    "bush",
+    "beach"
+   ],
+   "first_seen": "2026-09-20T16:35+03:00",
+   "published": null,
+   "verdict": "CONSIDER"
+  },
+  {
+   "score": 70.7,
+   "components": {
+    "tier": 40,
+    "category": 5,
+    "lead": 12.0,
+    "relevance": 0,
+    "freshness": 19.7,
+    "undated": -6
+   },
+   "keywords": [],
+   "shock_terms": [],
+   "dedupe_match": null,
+   "dedupe_similarity": 0.0,
+   "id": "9c8f90daf9c8",
+   "title": "\ud835\udc12\ud835\udc1e\ud835\udc27\ud835\udc1a\ud835\udc2d\ud835\udc28\ud835\udc2b\ud835\udc2c \ud835\udc07\ud835\udc1a\ud835\udc25\ud835\udc2d \ud835\udc07\ud835\udc1e\ud835\udc1a\ud835\udc2b\ud835\udc22\ud835\udc27\ud835\udc20 \ud835\udc28\ud835\udc27 \ud835\udc0a\ud835\udc1e\ud835\udc27\ud835\udc32\ud835\udc1a\ud835\udc27\ud835\udc2c \ud835\udc11\ud835\udc1e\ud835\udc1c\ud835\udc2b\ud835\udc2e\ud835\udc22\ud835\udc2d\ud835\udc1e\ud835\udc1d \ud835\udc22\ud835\udc27\ud835\udc2d\ud835\udc28 \ud835\udc05\ud835\udc28\ud835\udc2b\ud835\udc1e\ud835\udc22\ud835\udc20\ud835\udc27 \ud835\udc0c\ud835\udc22\ud835\udc25\ud835\udc22\ud835\udc2d\ud835\udc1a\ud835\udc2b\ud835\udc32 \ud835\udc12\ud835\udc1e\ud835\udc2b\ud835\udc2f\ud835\udc22\ud835\udc1c\ud835\udc1e, \ud835\udc03\ud835\udc1e\ud835\udc26\ud835\udc1a\ud835\udc27\ud835\udc1d \ud835\udc02\ud835\udc12\ud835\udc2c\u2019 \ud835\udc00\ud835\udc29\ud835\udc29\ud835\udc1e\ud835\udc1a\ud835\udc2b\ud835\udc1a\ud835\udc27\ud835\udc1c\ud835\udc1e",
+   "url": "https://www.parliament.go.ke/index.php/node/26397",
+   "summary": "",
+   "kind": "item",
+   "source": "Senate Committee on Delegated Legislation (Kenya) \u2014 the committee that annuls or accedes to statutory instruments",
+   "source_id": "ke-senate-delegated-legislation",
+   "tier": 1,
+   "country": "KE",
+   "category": "REG",
+   "segments": [
+    "city",
+    "bush",
+    "beach"
+   ],
+   "first_seen": "2026-09-20T16:35+03:00",
+   "published": null,
+   "verdict": "CONSIDER"
+  },
+  {
+   "score": 70.7,
+   "components": {
+    "tier": 40,
+    "category": 5,
+    "lead": 12.0,
+    "relevance": 0,
+    "freshness": 19.7,
+    "undated": -6
+   },
+   "keywords": [],
+   "shock_terms": [],
+   "dedupe_match": null,
+   "dedupe_similarity": 0.0,
+   "id": "680b0d233a3f",
+   "title": "\ud835\udc0f\ud835\udc12\ud835\udc02 \ud835\udc02\ud835\udc0e\ud835\udc0c\ud835\udc0c\ud835\udc08\ud835\udc12\ud835\udc12\ud835\udc08\ud835\udc0e\ud835\udc0d\ud835\udc04\ud835\udc11\ud835\udc12 \ud835\udc11\ud835\udc04\ud835\udc08\ud835\udc13\ud835\udc04\ud835\udc11\ud835\udc00\ud835\udc13\ud835\udc04 \ud835\udc0f\ud835\udc00\ud835\udc11\ud835\udc0b\ud835\udc08\ud835\udc00\ud835\udc0c\ud835\udc04\ud835\udc0d\ud835\udc13\u2019\ud835\udc12 \ud835\udc02\ud835\udc0e\ud835\udc0c\ud835\udc0c\ud835\udc08\ud835\udc13\ud835\udc0c\ud835\udc04\ud835\udc0d\ud835\udc13 \ud835\udc13\ud835\udc0e \ud835\udc02\ud835\udc0b\ud835\udc08\ud835\udc0c\ud835\udc00\ud835\udc13\ud835\udc04 \ud835\udc12\ud835\udc0c\ud835\udc00\ud835\udc11\ud835\udc13 \ud835\udc00\ud835\udc06\ud835\udc11\ud835\udc08\ud835\udc02\ud835\udc14\ud835\udc0b\ud835\udc13\ud835\udc14\ud835\udc11\ud835\udc04 \ud835\udc00\ud835\udc0d\ud835\udc03 \ud835\udc08\ud835\udc0d\ud835\udc15\ud835\udc04\ud835\udc12\ud835\udc13\ud835\udc0c\ud835\udc04\ud835\udc0d\ud835\udc13\ud835\udc12 \ud835\udc02\ud835\udc04\ud835\udc0d\ud835\udc13\ud835\udc11\ud835\udc04\ud835\udc03 \ud835\udc0e\ud835\udc0d \ud835\udc12\ud835\udc14\ud835\udc12\ud835\udc13\ud835\udc00\ud835\udc08\ud835\udc0d\ud835\udc00\ud835\udc01\ud835\udc0b\ud835\udc04 \ud835\udc04\ud835\udc02\ud835\udc0e\ud835\udc0d\ud835\udc0e\ud835\udc0c\ud835\udc08\ud835\udc02 \ud835\udc06\ud835\udc11\ud835\udc0e\ud835\udc16\ud835\udc13\ud835\udc07",
+   "url": "https://www.parliament.go.ke/index.php/node/26387",
+   "summary": "",
+   "kind": "item",
+   "source": "Senate Committee on Delegated Legislation (Kenya) \u2014 the committee that annuls or accedes to statutory instruments",
+   "source_id": "ke-senate-delegated-legislation",
+   "tier": 1,
+   "country": "KE",
+   "category": "REG",
+   "segments": [
+    "city",
+    "bush",
+    "beach"
+   ],
+   "first_seen": "2026-09-20T16:35+03:00",
+   "published": null,
+   "verdict": "CONSIDER"
+  },
+  {
+   "score": 70.7,
+   "components": {
+    "tier": 40,
+    "category": 5,
+    "lead": 12.0,
+    "relevance": 0,
+    "freshness": 19.7,
+    "undated": -6
+   },
+   "keywords": [],
+   "shock_terms": [],
+   "dedupe_match": null,
+   "dedupe_similarity": 0.0,
+   "id": "aaa4b18f11e0",
+   "title": "\ud835\udc04\ud835\udc02\ud835\udc03\ud835\udc04 \ud835\udc0e\ud835\udc05\ud835\udc05\ud835\udc08\ud835\udc02\ud835\udc04\ud835\udc11\ud835\udc12 \ud835\udc02\ud835\udc00\ud835\udc14\ud835\udc06\ud835\udc07\ud835\udc13 \ud835\udc08\ud835\udc0d \ud835\udc13\ud835\udc07\ud835\udc04 \ud835\udc02\ud835\udc11\ud835\udc00\ud835\udc02\ud835\udc0a\ud835\udc12 \ud835\udc0e\ud835\udc05 \ud835\udc0a\ud835\udc04\ud835\udc0d\ud835\udc18\ud835\udc00\u2019\ud835\udc12 \ud835\udc03\ud835\udc04\ud835\udc15\ud835\udc0e\ud835\udc0b\ud835\udc14\ud835\udc13\ud835\udc08\ud835\udc0e\ud835\udc0d \ud835\udc13\ud835\udc11\ud835\udc00\ud835\udc0d\ud835\udc12\ud835\udc08\ud835\udc13\ud835\udc08\ud835\udc0e\ud835\udc0d",
+   "url": "https://www.parliament.go.ke/index.php/node/26383",
+   "summary": "",
+   "kind": "item",
+   "source": "Senate Committee on Delegated Legislation (Kenya) \u2014 the committee that annuls or accedes to statutory instruments",
+   "source_id": "ke-senate-delegated-legislation",
+   "tier": 1,
+   "country": "KE",
+   "category": "REG",
+   "segments": [
+    "city",
+    "bush",
+    "beach"
+   ],
+   "first_seen": "2026-09-20T16:35+03:00",
+   "published": null,
+   "verdict": "CONSIDER"
+  },
+  {
+   "score": 69.2,
+   "components": {
+    "tier": 20,
+    "category": 5,
+    "lead": 2.4,
+    "relevance": 12,
+    "freshness": 19.8,
+    "corroborated": 10
+   },
    "keywords": [
+    "arrivals",
     "tourism"
    ],
    "shock_terms": [],
    "dedupe_match": null,
    "dedupe_similarity": 0.0,
-   "id": "e12386a18f10",
-   "title": "Tourism, Trade and Industrialization",
-   "url": "https://www.parliament.go.ke/index.php/the-senate/committees/standing-committees/12/committee-on-tourism-trade-and-industrialization",
-   "summary": "",
-   "kind": "item",
-   "source": "Senate Committee on Delegated Legislation (Kenya) \u2014 the committee that annuls or accedes to statutory instruments",
-   "source_id": "ke-senate-delegated-legislation",
-   "tier": 1,
-   "country": "KE",
-   "category": "REG",
-   "segments": [
-    "city",
-    "bush",
-    "beach"
-   ],
-   "first_seen": "2026-09-20T07:18+03:00",
-   "published": null,
-   "verdict": "weak"
-  },
-  {
-   "score": 67.6,
-   "components": {
-    "tier": 40,
-    "category": 5,
-    "lead": 12.0,
-    "relevance": 4,
-    "freshness": 12.6,
-    "undated": -6
-   },
-   "keywords": [
-    "investment"
-   ],
-   "shock_terms": [],
-   "dedupe_match": null,
-   "dedupe_similarity": 0.0,
-   "id": "96f9abd98451",
-   "title": "County Public Investment & Special Funds",
-   "url": "https://www.parliament.go.ke/index.php/node/18021",
-   "summary": "",
-   "kind": "item",
-   "source": "Senate Committee on Delegated Legislation (Kenya) \u2014 the committee that annuls or accedes to statutory instruments",
-   "source_id": "ke-senate-delegated-legislation",
-   "tier": 1,
-   "country": "KE",
-   "category": "REG",
-   "segments": [
-    "city",
-    "bush",
-    "beach"
-   ],
-   "first_seen": "2026-09-20T07:18+03:00",
-   "published": null,
-   "verdict": "weak"
-  },
-  {
-   "score": 66.8,
-   "components": {
-    "tier": 20,
-    "category": 5,
-    "lead": 2.4,
-    "relevance": 12,
-    "freshness": 17.4,
-    "corroborated": 10
-   },
-   "keywords": [
-    "route",
-    "airline"
-   ],
-   "shock_terms": [],
-   "dedupe_match": null,
-   "dedupe_similarity": 0.0,
-   "id": "fc0be6051935",
-   "title": "Asky Eyes 30-Aircraft Fleet, European Routes In Five-Year Growth Plan",
-   "url": "https://katakenya.org/asky-eyes-30-aircraft-fleet-european-routes-in-five-year-growth-plan",
-   "summary": "Togo\u2019s Asky Airlines is targeting a fleet of around 30 aircraft and operating to 40 destinations within five years as the West African carrier prepares for its first intercontinental services and plans a $100 million maintenance facility in the capital city Lome. The airline took delivery of its 17th aircraft, a Boeing 737 MAX, in [\u2026]",
+   "id": "508db2e9d378",
+   "title": "Dubai tourism rebounds as international arrivals reach 6.97 million",
+   "url": "https://katakenya.org/dubai-tourism-rebounds-as-international-arrivals-reach-6-97-million",
+   "summary": "Dubai welcomed 6.97 million international overnight visitors between January and August 2026, with August recording about 869,000 arrivals, according to the Dubai Department of Economy and Tourism. August was the emirate\u2019s strongest month for international visitor numbers since February, with arrivals recording double-digit month-on-month growth since March The recovery has also been reflected in ",
    "kind": "item",
    "source": "Kenya Association of Travel Agents news",
    "source_id": "tp-kata",
@@ -564,32 +348,140 @@
     "bush",
     "beach"
    ],
-   "first_seen": "2026-09-20T11:39+03:00",
+   "first_seen": "2026-09-20T16:36+03:00",
    "published": "2026-09-20",
    "verdict": "weak"
   },
   {
-   "score": 65.4,
+   "score": 69.2,
+   "components": {
+    "tier": 20,
+    "category": 5,
+    "lead": 2.4,
+    "relevance": 12,
+    "freshness": 19.8,
+    "corroborated": 10
+   },
+   "keywords": [
+    "route",
+    "flight"
+   ],
+   "shock_terms": [],
+   "dedupe_match": null,
+   "dedupe_similarity": 0.33,
+   "id": "ec113a146586",
+   "title": "Hahnair expands corporate flight distribution through partnership with LYGG",
+   "url": "https://katakenya.org/hahnair-expands-corporate-flight-distribution-through-partnership-with-lygg",
+   "summary": "Hahnair, a corporate member of the Kenya Association of Travel Agents (KATA), has partnered with Finnish regional air mobility platform LYGG to distribute and ticket its corporate shuttle flights through the global distribution system (GDS). The partnership will initially support LYGG\u2019s new corporate shuttle service between Esbjerg, Denmark, and Groningen, Netherlands, with additional routes expec",
+   "kind": "item",
+   "source": "Kenya Association of Travel Agents news",
+   "source_id": "tp-kata",
+   "tier": 2,
+   "country": "KE",
+   "category": "trade",
+   "segments": [
+    "city",
+    "bush",
+    "beach"
+   ],
+   "first_seen": "2026-09-20T16:36+03:00",
+   "published": "2026-09-20",
+   "verdict": "weak"
+  },
+  {
+   "score": 68.2,
+   "components": {
+    "tier": 20,
+    "category": 24,
+    "lead": 2.4,
+    "relevance": 12,
+    "freshness": 19.8,
+    "undated": -6,
+    "page_change": -4
+   },
+   "keywords": [
+    "quarantine"
+   ],
+   "shock_terms": [],
+   "dedupe_match": null,
+   "dedupe_similarity": 0.0,
+   "id": "b85955cedde6",
+   "title": "[page changed] ProMED-mail",
+   "url": "https://promedmail.org/",
+   "summary": "Protecting Global Health, One Alert at a Time | ProMED Previous slide Next slide Protecting Global Health, One Alert at a Time ProMED: Your 24/7 early warning system for emerging infectious diseases worldwide. Subscribe ProMED's Weekly Pulse A snapshot of global health events from the past 7 days Latest Posts on ProMED All Date Title Sun Sep 20 2026 AFRICAN SWINE FEVER - VIET NAM (34): (CA MAU) DO",
+   "kind": "page-change",
+   "source": "ProMED-mail",
+   "source_id": "promed",
+   "tier": 2,
+   "country": "GLOBAL",
+   "category": "health",
+   "segments": [
+    "city",
+    "bush",
+    "beach"
+   ],
+   "first_seen": "2026-09-20T16:36+03:00",
+   "published": null,
+   "verdict": "weak"
+  },
+  {
+   "score": 64.0,
+   "components": {
+    "tier": 20,
+    "category": 5,
+    "lead": 1.2,
+    "relevance": 8,
+    "freshness": 19.8,
+    "corroborated": 10
+   },
+   "keywords": [
+    "airline",
+    "flight"
+   ],
+   "shock_terms": [],
+   "dedupe_match": null,
+   "dedupe_similarity": 0.0,
+   "id": "032149b3e8b0",
+   "title": "Condor confirms year-round Frankfurt\u2013Seychelles service",
+   "url": "https://voyagesafriq.com/2026/09/20/condor-confirms-year-round-frankfurt-seychelles-service",
+   "summary": "German airline Condor has confirmed that its weekly non-stop service between Frankfurt and Seychelles will operate year-round, with the first resumed flight arriving on 19 September 2026. The move expands [\u2026] The post Condor confirms year-round Frankfurt\u2013Seychelles service<gwmw style=\"display:none;\"></gwmw> appeared first on Voyages Afriq .",
+   "kind": "item",
+   "source": "VoyagesAfriq",
+   "source_id": "tp-voyagesafriq",
+   "tier": 2,
+   "country": "REG",
+   "category": "trade",
+   "segments": [
+    "city",
+    "bush",
+    "beach"
+   ],
+   "first_seen": "2026-09-20T16:36+03:00",
+   "published": "2026-09-20",
+   "verdict": "weak"
+  },
+  {
+   "score": 63.8,
    "components": {
     "tier": 20,
     "category": 4,
     "lead": 0.0,
-    "relevance": 12,
-    "freshness": 17.4,
+    "relevance": 8,
+    "freshness": 19.8,
     "undated": -6,
     "shock": 18
    },
    "keywords": [
-    "suspend"
+    "strike"
    ],
    "shock_terms": [
-    "suspends all"
+    "strike"
    ],
    "dedupe_match": null,
-   "dedupe_similarity": 0.0,
-   "id": "8b10d1271cd1",
-   "title": "UPDF suspends all military cooperation with Turkey The measure will remain in force \"until outstanding issues of mutual defence and military cooperation between the two countries are resolved\", says Col Chris Magezi. News",
-   "url": "https://www.newvision.co.ug/category/news/updf-suspends-all-military-cooperation-with-t-NV_240900_092026",
+   "dedupe_similarity": 0.17,
+   "id": "edea2421e7fb",
+   "title": "Uganda Hippos AFCON qualifiers: Munogera strike sends dominant Hippos into semi-finals",
+   "url": "https://www.newvision.co.ug/category/health/afcon-qualifiers-munogera-strike-sends-domina",
    "summary": "",
    "kind": "item",
    "source": "New Vision (Uganda)",
@@ -602,348 +494,123 @@
     "bush",
     "beach"
    ],
-   "first_seen": "2026-09-20T11:39+03:00",
+   "first_seen": "2026-09-20T16:37+03:00",
    "published": null,
    "verdict": "weak"
   },
   {
-   "score": 63.6,
+   "score": 61.8,
    "components": {
-    "tier": 40,
-    "category": 5,
-    "lead": 12.0,
-    "relevance": 0,
-    "freshness": 12.6,
-    "undated": -6
+    "tier": 20,
+    "category": 4,
+    "lead": 0.0,
+    "relevance": 8,
+    "freshness": 19.8,
+    "corroborated": 10
    },
-   "keywords": [],
+   "keywords": [
+    "fee"
+   ],
    "shock_terms": [],
    "dedupe_match": null,
    "dedupe_similarity": 0.0,
-   "id": "c4e8f883ce52",
-   "title": ">The Senate Business Committee",
-   "url": "https://www.parliament.go.ke/index.php/the-senate/committees/house-keeping-committee/12/the-senate-business-committee",
-   "summary": "",
+   "id": "3918b97890a4",
+   "title": "Falling coffee, cocoa prices driven by global supply, drought- govt",
+   "url": "https://www.monitor.co.ug/uganda/news/national/falling-coffee-cocoa-prices-driven-by-global-supply-drought-govt-5601770",
+   "summary": "The minister urged farmers not to panic or compromise quality by harvesting green cherries...",
    "kind": "item",
-   "source": "Senate Committee on Delegated Legislation (Kenya) \u2014 the committee that annuls or accedes to statutory instruments",
-   "source_id": "ke-senate-delegated-legislation",
-   "tier": 1,
-   "country": "KE",
-   "category": "REG",
+   "source": "Daily Monitor (Uganda)",
+   "source_id": "np-monitor-ug",
+   "tier": 2,
+   "country": "UG",
+   "category": "press",
    "segments": [
     "city",
     "bush",
     "beach"
    ],
-   "first_seen": "2026-09-20T07:18+03:00",
-   "published": null,
+   "first_seen": "2026-09-20T16:36+03:00",
+   "published": "2026-09-20",
    "verdict": "weak"
   },
   {
-   "score": 63.6,
+   "score": 60.0,
    "components": {
-    "tier": 40,
+    "tier": 20,
     "category": 5,
-    "lead": 12.0,
-    "relevance": 0,
-    "freshness": 12.6,
-    "undated": -6
+    "lead": 1.2,
+    "relevance": 4,
+    "freshness": 19.8,
+    "corroborated": 10
    },
-   "keywords": [],
+   "keywords": [
+    "tourism"
+   ],
    "shock_terms": [],
    "dedupe_match": null,
    "dedupe_similarity": 0.0,
-   "id": "9e47b9a7e625",
-   "title": "The Procedures and Rules Committee",
-   "url": "https://www.parliament.go.ke/index.php/the-senate/committees/house-keeping-committee/12/the-rules-and-procedure-committee",
-   "summary": "",
+   "id": "488235d0b0cf",
+   "title": "Africa Showcase CEE opens in Bucharest as interest in Africa grows",
+   "url": "https://voyagesafriq.com/2026/09/20/africa-showcase-cee-opens-in-bucharest-as-interest-in-africa-grows",
+   "summary": "The 2026 edition of Africa Showcase Central Eastern Europe (CEE) gets underway in Bucharest, Romania, tomorrow, as African tourism suppliers look to build on growing demand for long-haul travel across [\u2026] The post Africa Showcase CEE opens in Bucharest as interest in Africa grows appeared first on Voyages Afriq .",
    "kind": "item",
-   "source": "Senate Committee on Delegated Legislation (Kenya) \u2014 the committee that annuls or accedes to statutory instruments",
-   "source_id": "ke-senate-delegated-legislation",
-   "tier": 1,
-   "country": "KE",
-   "category": "REG",
+   "source": "VoyagesAfriq",
+   "source_id": "tp-voyagesafriq",
+   "tier": 2,
+   "country": "REG",
+   "category": "trade",
    "segments": [
     "city",
     "bush",
     "beach"
    ],
-   "first_seen": "2026-09-20T07:18+03:00",
-   "published": null,
+   "first_seen": "2026-09-20T16:36+03:00",
+   "published": "2026-09-20",
    "verdict": "weak"
   },
   {
-   "score": 63.6,
+   "score": 60.0,
    "components": {
-    "tier": 40,
+    "tier": 20,
     "category": 5,
-    "lead": 12.0,
-    "relevance": 0,
-    "freshness": 12.6,
-    "undated": -6
+    "lead": 1.2,
+    "relevance": 4,
+    "freshness": 19.8,
+    "corroborated": 10
    },
-   "keywords": [],
-   "shock_terms": [],
-   "dedupe_match": null,
-   "dedupe_similarity": 0.0,
-   "id": "afcd1c2b91d2",
-   "title": "The Powers and Privileges Committee",
-   "url": "https://www.parliament.go.ke/index.php/the-senate/committees/house-keeping-committee/12/the-powers-and-privileges-committee",
-   "summary": "",
-   "kind": "item",
-   "source": "Senate Committee on Delegated Legislation (Kenya) \u2014 the committee that annuls or accedes to statutory instruments",
-   "source_id": "ke-senate-delegated-legislation",
-   "tier": 1,
-   "country": "KE",
-   "category": "REG",
-   "segments": [
-    "city",
-    "bush",
-    "beach"
+   "keywords": [
+    "tourism"
    ],
-   "first_seen": "2026-09-20T07:18+03:00",
-   "published": null,
-   "verdict": "weak"
-  },
-  {
-   "score": 63.6,
-   "components": {
-    "tier": 40,
-    "category": 5,
-    "lead": 12.0,
-    "relevance": 0,
-    "freshness": 12.6,
-    "undated": -6
-   },
-   "keywords": [],
-   "shock_terms": [],
-   "dedupe_match": null,
-   "dedupe_similarity": 0.0,
-   "id": "0c3188e55941",
-   "title": "Agriculture, Livestock and Fisheries",
-   "url": "https://www.parliament.go.ke/index.php/the-senate/committees/standing-committees/12/committee-on-agriculture-livestock-and-fisheries",
-   "summary": "",
-   "kind": "item",
-   "source": "Senate Committee on Delegated Legislation (Kenya) \u2014 the committee that annuls or accedes to statutory instruments",
-   "source_id": "ke-senate-delegated-legislation",
-   "tier": 1,
-   "country": "KE",
-   "category": "REG",
-   "segments": [
-    "city",
-    "bush",
-    "beach"
-   ],
-   "first_seen": "2026-09-20T07:18+03:00",
-   "published": null,
-   "verdict": "weak"
-  },
-  {
-   "score": 63.6,
-   "components": {
-    "tier": 40,
-    "category": 5,
-    "lead": 12.0,
-    "relevance": 0,
-    "freshness": 12.6,
-    "undated": -6
-   },
-   "keywords": [],
-   "shock_terms": [],
-   "dedupe_match": null,
-   "dedupe_similarity": 0.0,
-   "id": "6c0379f5197e",
-   "title": "Information Communication and Technology",
-   "url": "https://www.parliament.go.ke/index.php/the-senate/committees/standing-committees/12/information-communication-and-technology",
-   "summary": "",
-   "kind": "item",
-   "source": "Senate Committee on Delegated Legislation (Kenya) \u2014 the committee that annuls or accedes to statutory instruments",
-   "source_id": "ke-senate-delegated-legislation",
-   "tier": 1,
-   "country": "KE",
-   "category": "REG",
-   "segments": [
-    "city",
-    "bush",
-    "beach"
-   ],
-   "first_seen": "2026-09-20T07:18+03:00",
-   "published": null,
-   "verdict": "weak"
-  },
-  {
-   "score": 63.6,
-   "components": {
-    "tier": 40,
-    "category": 5,
-    "lead": 12.0,
-    "relevance": 0,
-    "freshness": 12.6,
-    "undated": -6
-   },
-   "keywords": [],
-   "shock_terms": [],
-   "dedupe_match": null,
-   "dedupe_similarity": 0.0,
-   "id": "0da71da86f1b",
-   "title": "Justice, Legal Affairs and Human Rights",
-   "url": "https://www.parliament.go.ke/index.php/the-senate/committees/standing-committees/12/committee-on-justice-legal-affairs-and-human-rights",
-   "summary": "",
-   "kind": "item",
-   "source": "Senate Committee on Delegated Legislation (Kenya) \u2014 the committee that annuls or accedes to statutory instruments",
-   "source_id": "ke-senate-delegated-legislation",
-   "tier": 1,
-   "country": "KE",
-   "category": "REG",
-   "segments": [
-    "city",
-    "bush",
-    "beach"
-   ],
-   "first_seen": "2026-09-20T07:18+03:00",
-   "published": null,
-   "verdict": "weak"
-  },
-  {
-   "score": 63.6,
-   "components": {
-    "tier": 40,
-    "category": 5,
-    "lead": 12.0,
-    "relevance": 0,
-    "freshness": 12.6,
-    "undated": -6
-   },
-   "keywords": [],
-   "shock_terms": [],
-   "dedupe_match": null,
-   "dedupe_similarity": 0.0,
-   "id": "9ae9cbb66a4c",
-   "title": "Devolution and Intergovernmental Relations",
-   "url": "https://www.parliament.go.ke/index.php/the-senate/committees/standing-committee/12/committee-on-devolution-intergovernmental-relations",
-   "summary": "",
-   "kind": "item",
-   "source": "Senate Committee on Delegated Legislation (Kenya) \u2014 the committee that annuls or accedes to statutory instruments",
-   "source_id": "ke-senate-delegated-legislation",
-   "tier": 1,
-   "country": "KE",
-   "category": "REG",
-   "segments": [
-    "city",
-    "bush",
-    "beach"
-   ],
-   "first_seen": "2026-09-20T07:18+03:00",
-   "published": null,
-   "verdict": "weak"
-  },
-  {
-   "score": 63.6,
-   "components": {
-    "tier": 40,
-    "category": 5,
-    "lead": 12.0,
-    "relevance": 0,
-    "freshness": 12.6,
-    "undated": -6
-   },
-   "keywords": [],
-   "shock_terms": [],
-   "dedupe_match": null,
-   "dedupe_similarity": 0.0,
-   "id": "efc043789625",
-   "title": "Lands, Environment and Natural Resources",
-   "url": "https://www.parliament.go.ke/index.php/the-senate/committees/standing-committees/12/committee-on-and-and-natural-resources",
-   "summary": "",
-   "kind": "item",
-   "source": "Senate Committee on Delegated Legislation (Kenya) \u2014 the committee that annuls or accedes to statutory instruments",
-   "source_id": "ke-senate-delegated-legislation",
-   "tier": 1,
-   "country": "KE",
-   "category": "REG",
-   "segments": [
-    "city",
-    "bush",
-    "beach"
-   ],
-   "first_seen": "2026-09-20T07:18+03:00",
-   "published": null,
-   "verdict": "weak"
-  },
-  {
-   "score": 63.6,
-   "components": {
-    "tier": 40,
-    "category": 5,
-    "lead": 12.0,
-    "relevance": 0,
-    "freshness": 12.6,
-    "undated": -6
-   },
-   "keywords": [],
    "shock_terms": [],
    "dedupe_match": null,
    "dedupe_similarity": 0.17,
-   "id": "91d2fc7ee11d",
-   "title": "National Cohesion, Equal Opportunity and Regional Integration",
-   "url": "https://www.parliament.go.ke/index.php/the-senate/committees/standing-committees/12/committee-on-national-cohesion-equal-opportunity-and-regional-integration",
-   "summary": "",
+   "id": "5c9c836b528e",
+   "title": "Mohammed Hersi: Zanzibar Has Time to Get Tourism Growth Right",
+   "url": "https://voyagesafriq.com/2026/09/20/mohammed-hersi-zanzibar-has-time-to-get-tourism-growth-right",
+   "summary": "Zanzibar is closing in on a tourism milestone. The island welcomed 917,167 international visitors in 2025, up 24.5% on the previous year. Often sold in the trade as \u201cwhat Bali [\u2026] The post Mohammed Hersi: Zanzibar Has Time to Get Tourism Growth Right<gwmw style=\"display:none;\"></gwmw> appeared first on Voyages Afriq .",
    "kind": "item",
-   "source": "Senate Committee on Delegated Legislation (Kenya) \u2014 the committee that annuls or accedes to statutory instruments",
-   "source_id": "ke-senate-delegated-legislation",
-   "tier": 1,
-   "country": "KE",
-   "category": "REG",
+   "source": "VoyagesAfriq",
+   "source_id": "tp-voyagesafriq",
+   "tier": 2,
+   "country": "REG",
+   "category": "trade",
    "segments": [
     "city",
     "bush",
     "beach"
    ],
-   "first_seen": "2026-09-20T07:18+03:00",
-   "published": null,
+   "first_seen": "2026-09-20T16:36+03:00",
+   "published": "2026-09-20",
    "verdict": "weak"
   },
   {
-   "score": 63.6,
-   "components": {
-    "tier": 40,
-    "category": 5,
-    "lead": 12.0,
-    "relevance": 0,
-    "freshness": 12.6,
-    "undated": -6
-   },
-   "keywords": [],
-   "shock_terms": [],
-   "dedupe_match": null,
-   "dedupe_similarity": 0.0,
-   "id": "edc3c52c223b",
-   "title": "National Security and Foreign Relations",
-   "url": "https://www.parliament.go.ke/index.php/the-senate/committees/standing-committees/12/committee-on-national-security-and-foreign-relations",
-   "summary": "",
-   "kind": "item",
-   "source": "Senate Committee on Delegated Legislation (Kenya) \u2014 the committee that annuls or accedes to statutory instruments",
-   "source_id": "ke-senate-delegated-legislation",
-   "tier": 1,
-   "country": "KE",
-   "category": "REG",
-   "segments": [
-    "city",
-    "bush",
-    "beach"
-   ],
-   "first_seen": "2026-09-20T07:18+03:00",
-   "published": null,
-   "verdict": "weak"
-  },
-  {
-   "score": 62.4,
+   "score": 59.3,
    "components": {
     "tier": 20,
     "category": 5,
     "lead": 3.6,
     "relevance": 4,
-    "freshness": 19.8,
+    "freshness": 16.7,
     "corroborated": 10
    },
    "keywords": [
@@ -972,13 +639,13 @@
    "verdict": "weak"
   },
   {
-   "score": 61.8,
+   "score": 58.7,
    "components": {
     "tier": 20,
     "category": 4,
     "lead": 0.0,
     "relevance": 8,
-    "freshness": 19.8,
+    "freshness": 16.7,
     "corroborated": 10
    },
    "keywords": [
@@ -1007,132 +674,25 @@
    "verdict": "weak"
   },
   {
-   "score": 61.8,
-   "components": {
-    "tier": 20,
-    "category": 24,
-    "lead": 2.4,
-    "relevance": 8,
-    "freshness": 17.4,
-    "undated": -6,
-    "page_change": -4
-   },
-   "keywords": [
-    "vat"
-   ],
-   "shock_terms": [],
-   "dedupe_match": null,
-   "dedupe_similarity": 0.0,
-   "id": "cf52f859b5f9",
-   "title": "[page changed] ProMED-mail",
-   "url": "https://promedmail.org/",
-   "summary": "Protecting Global Health, One Alert at a Time | ProMED Previous slide Next slide Protecting Global Health, One Alert at a Time ProMED: Your 24/7 early warning system for emerging infectious diseases worldwide. Subscribe ProMED's Weekly Pulse A snapshot of global health events from the past 7 days Latest Posts on ProMED All Date Title Sun Sep 20 2026 SURVEILLANCE (331): USA, METHICILLIN-RESISTANT S",
-   "kind": "page-change",
-   "source": "ProMED-mail",
-   "source_id": "promed",
-   "tier": 2,
-   "country": "GLOBAL",
-   "category": "health",
-   "segments": [
-    "city",
-    "bush",
-    "beach"
-   ],
-   "first_seen": "2026-09-20T11:39+03:00",
-   "published": null,
-   "verdict": "weak"
-  },
-  {
-   "score": 61.0,
-   "components": {
-    "tier": 20,
-    "category": 24,
-    "lead": 2.4,
-    "relevance": 12,
-    "freshness": 12.6,
-    "undated": -6,
-    "page_change": -4
-   },
-   "keywords": [
-    "cholera"
-   ],
-   "shock_terms": [],
-   "dedupe_match": null,
-   "dedupe_similarity": 0.0,
-   "id": "f6c957d64ab2",
-   "title": "[page changed] ProMED-mail",
-   "url": "https://promedmail.org/",
-   "summary": "Protecting Global Health, One Alert at a Time | ProMED Previous slide Next slide Protecting Global Health, One Alert at a Time ProMED: Your 24/7 early warning system for emerging infectious diseases worldwide. Subscribe ProMED's Weekly Pulse A snapshot of global health events from the past 7 days Latest Posts on ProMED All Date Title Sun Sep 20 2026 VIBRIO VULNIFICUS - USA (05): (FLORIDA) MORE CAS",
-   "kind": "page-change",
-   "source": "ProMED-mail",
-   "source_id": "promed",
-   "tier": 2,
-   "country": "GLOBAL",
-   "category": "health",
-   "segments": [
-    "city",
-    "bush",
-    "beach"
-   ],
-   "first_seen": "2026-09-20T07:18+03:00",
-   "published": null,
-   "verdict": "weak"
-  },
-  {
-   "score": 59.4,
+   "score": 57.8,
    "components": {
     "tier": 20,
     "category": 4,
     "lead": 0.0,
-    "relevance": 8,
-    "freshness": 17.4,
+    "relevance": 4,
+    "freshness": 19.8,
     "corroborated": 10
    },
    "keywords": [
-    "tax"
-   ],
-   "shock_terms": [],
-   "dedupe_match": null,
-   "dedupe_similarity": 0.17,
-   "id": "fecbd052a816",
-   "title": "Kariakoo reorganisation plan wins support",
-   "url": "https://dailynews.co.tz/kariakoo-reorganisation-plan-wins-support",
-   "summary": "DAR ES SALAAM: STAKEHOLDERS have welcomed plans by the Dar es Salaam Regional Government to reclassify all businesses operating in Kariakoo, saying the move could improve access to formal shops, increase tax compliance and boost revenue collection. The initiative follows a recent statement by Dar es Salaam Regional Commissioner Albert Chalamila that the region plans \u2026 The post Kariakoo reorganisat",
-   "kind": "item",
-   "source": "Daily News (Tanzania)",
-   "source_id": "np-dailynews-tz",
-   "tier": 2,
-   "country": "TZ",
-   "category": "press",
-   "segments": [
-    "city",
-    "bush",
-    "beach"
-   ],
-   "first_seen": "2026-09-20T11:39+03:00",
-   "published": "2026-09-20",
-   "verdict": "weak"
-  },
-  {
-   "score": 59.4,
-   "components": {
-    "tier": 20,
-    "category": 4,
-    "lead": 0.0,
-    "relevance": 8,
-    "freshness": 17.4,
-    "corroborated": 10
-   },
-   "keywords": [
-    "eta"
+    "guest"
    ],
    "shock_terms": [],
    "dedupe_match": null,
    "dedupe_similarity": 0.0,
-   "id": "9ad0ada4637a",
-   "title": "Creamy cauliflower curry for a flavour-packed vegetarian feast",
-   "url": "https://www.monitor.co.ug/uganda/lifestyle/dining-recipes/creamy-cauliflower-curry-for-a-flavour-packed-vegetarian-feast-5601566",
-   "summary": "Spiced with cumin, mustard seeds, garam masala and ginger-garlic, this creamy cauliflower curry...",
+   "id": "abb55bb3c7e1",
+   "title": "Tooro seeks nearly Shs1b for enthronement of Kijanangoma as new king",
+   "url": "https://www.monitor.co.ug/uganda/news/national/tooro-seeks-nearly-shs1b-for-enthronement-of-kijanangoma-as-new-king-5601816",
+   "summary": "President Museveni is expected to be the chief guest, according to the organising committee",
    "kind": "item",
    "source": "Daily Monitor (Uganda)",
    "source_id": "np-monitor-ug",
@@ -1144,18 +704,120 @@
     "bush",
     "beach"
    ],
-   "first_seen": "2026-09-20T11:39+03:00",
+   "first_seen": "2026-09-20T16:36+03:00",
    "published": "2026-09-20",
    "verdict": "weak"
   },
   {
-   "score": 57.8,
+   "score": 57.2,
+   "components": {
+    "tier": 20,
+    "category": 5,
+    "lead": 2.4,
+    "relevance": 0,
+    "freshness": 19.8,
+    "corroborated": 10
+   },
+   "keywords": [],
+   "shock_terms": [],
+   "dedupe_match": null,
+   "dedupe_similarity": 0.25,
+   "id": "3dfebc8facdc",
+   "title": "Nairobi to host 2029 World Athletics Championships",
+   "url": "https://katakenya.org/nairobi-to-host-2029-world-athletics-championships",
+   "summary": "Nairobi will become the first African city to host the World Athletics Championships after being awarded the 2029 edition of the global competition. The championships will take place in September 2029, with Kasarani Stadium serving as the principal venue. World Athletics\u2019 announcement on 15 September puts Kenya at the center of one of the sport\u2019s [\u2026]",
+   "kind": "item",
+   "source": "Kenya Association of Travel Agents news",
+   "source_id": "tp-kata",
+   "tier": 2,
+   "country": "KE",
+   "category": "trade",
+   "segments": [
+    "city",
+    "bush",
+    "beach"
+   ],
+   "first_seen": "2026-09-20T16:36+03:00",
+   "published": "2026-09-20",
+   "verdict": "weak"
+  },
+  {
+   "score": 56.0,
+   "components": {
+    "tier": 20,
+    "category": 5,
+    "lead": 1.2,
+    "relevance": 0,
+    "freshness": 19.8,
+    "corroborated": 10
+   },
+   "keywords": [],
+   "shock_terms": [],
+   "dedupe_match": null,
+   "dedupe_similarity": 0.0,
+   "id": "cce3582eae31",
+   "title": "Brand USA\u2019s Covid-Era Funding Windfall Is Running Thin",
+   "url": "https://skift.com/2026/09/20/brand-usa-budget-fiscal-2027",
+   "summary": "A one-time $250 million boost from Congress let Brand USA operate with a nearly fully funded budget after a dramatic cut to federal funding \u2014 but that extra funding is about to run dry.",
+   "kind": "item",
+   "source": "Skift",
+   "source_id": "tp-skift",
+   "tier": 2,
+   "country": "GLOBAL",
+   "category": "trade",
+   "segments": [
+    "city",
+    "bush",
+    "beach"
+   ],
+   "first_seen": "2026-09-20T16:36+03:00",
+   "published": "2026-09-20",
+   "verdict": "weak"
+  },
+  {
+   "score": 55.8,
+   "components": {
+    "tier": 20,
+    "category": 4,
+    "lead": 0.0,
+    "relevance": 0,
+    "freshness": 19.8,
+    "undated": -6,
+    "shock": 18
+   },
+   "keywords": [],
+   "shock_terms": [
+    "attack"
+   ],
+   "dedupe_match": null,
+   "dedupe_similarity": 0.0,
+   "id": "19ff57c54f79",
+   "title": "World US fears rapid escalation in Mideast after Houthis attack Riyadh",
+   "url": "https://www.newvision.co.ug/category/world/us-fears-rapid-escalation-in-mideast-after-ho-NV_240953_092026",
+   "summary": "",
+   "kind": "item",
+   "source": "New Vision (Uganda)",
+   "source_id": "np-newvision-ug",
+   "tier": 2,
+   "country": "UG",
+   "category": "press",
+   "segments": [
+    "city",
+    "bush",
+    "beach"
+   ],
+   "first_seen": "2026-09-20T16:37+03:00",
+   "published": null,
+   "verdict": "weak"
+  },
+  {
+   "score": 54.7,
    "components": {
     "tier": 20,
     "category": 4,
     "lead": 0.0,
     "relevance": 4,
-    "freshness": 19.8,
+    "freshness": 16.7,
     "corroborated": 10
    },
    "keywords": [
@@ -1184,70 +846,35 @@
    "verdict": "weak"
   },
   {
-   "score": 54.8,
+   "score": 53.8,
    "components": {
     "tier": 20,
-    "category": 5,
-    "lead": 2.4,
+    "category": 4,
+    "lead": 0.0,
     "relevance": 0,
-    "freshness": 17.4,
+    "freshness": 19.8,
     "corroborated": 10
    },
    "keywords": [],
    "shock_terms": [],
    "dedupe_match": null,
-   "dedupe_similarity": 0.17,
-   "id": "dd22802ca20f",
-   "title": "Kenya\u2019s Coast Travel Agents Chart Growth Ahead of 2027, in Partnership with Kenya Airways",
-   "url": "https://katakenya.org/kenyas-coast-travel-agents-chart-growth-ahead-of-2027-in-partnership-with-kenya-airways",
-   "summary": "Members of the Kenya Association of Travel Agents (KATA) based on the Coast gathered last week for a breakfast meeting in partnership with Kenya Airways, as the association urged its regional chapter to turn Kenya\u2019s strong travel industry figures into tangible business gains ahead of 2027. Kenya\u2019s BSP gross sales for the period January to [\u2026]",
-   "kind": "item",
-   "source": "Kenya Association of Travel Agents news",
-   "source_id": "tp-kata",
-   "tier": 2,
-   "country": "KE",
-   "category": "trade",
-   "segments": [
-    "city",
-    "bush",
-    "beach"
-   ],
-   "first_seen": "2026-09-20T11:39+03:00",
-   "published": "2026-09-20",
-   "verdict": "weak"
-  },
-  {
-   "score": 54.6,
-   "components": {
-    "tier": 20,
-    "category": 4,
-    "lead": 0.0,
-    "relevance": 8,
-    "freshness": 12.6,
-    "corroborated": 10
-   },
-   "keywords": [
-    "tax"
-   ],
-   "shock_terms": [],
-   "dedupe_match": null,
    "dedupe_similarity": 0.0,
-   "id": "5de3d59c2ac3",
-   "title": "We are ready for EFRIS, but need more time to comply, say Kampala landlords",
-   "url": "https://www.monitor.co.ug/uganda/news/national/we-are-ready-for-efris-but-need-more-time-to-comply-say-kampala-landlords-5599990",
-   "summary": "Mr Rujoki said the decline was worrying because other major tax heads grew by an average of 14...",
+   "id": "2cf5f6eb8692",
+   "title": "Kenya loses 300 dollar millionaires in tough macroeconomic conditions",
+   "url": "https://www.theeastafrican.co.ke/tea/business-tech/kenya-loses-300-dollar-millionaires-5600638",
+   "summary": "Report shows country\u2019s population holding over $1 million in assets fell 4.41pc.",
    "kind": "item",
-   "source": "Daily Monitor (Uganda)",
-   "source_id": "np-monitor-ug",
+   "source": "The EastAfrican",
+   "source_id": "np-eastafrican",
    "tier": 2,
-   "country": "UG",
+   "country": "REG",
    "category": "press",
    "segments": [
     "city",
     "bush",
     "beach"
    ],
-   "first_seen": "2026-09-20T07:18+03:00",
+   "first_seen": "2026-09-20T16:36+03:00",
    "published": "2026-09-20",
    "verdict": "weak"
   },
@@ -1259,6 +886,171 @@
     "lead": 0.0,
     "relevance": 0,
     "freshness": 19.8,
+    "corroborated": 10
+   },
+   "keywords": [],
+   "shock_terms": [],
+   "dedupe_match": null,
+   "dedupe_similarity": 0.0,
+   "id": "4193466665ae",
+   "title": "URSB trademark ruling raises questions for foreign investors\u2019 trademark protection",
+   "url": "https://www.monitor.co.ug/uganda/news/national/ursb-trademark-ruling-raises-questions-for-foreign-investors-trademark-protection-5601782",
+   "summary": "US firm\u2019s trademark challenge dismissed over power of attorney",
+   "kind": "item",
+   "source": "Daily Monitor (Uganda)",
+   "source_id": "np-monitor-ug",
+   "tier": 2,
+   "country": "UG",
+   "category": "press",
+   "segments": [
+    "city",
+    "bush",
+    "beach"
+   ],
+   "first_seen": "2026-09-20T16:36+03:00",
+   "published": "2026-09-20",
+   "verdict": "weak"
+  },
+  {
+   "score": 53.8,
+   "components": {
+    "tier": 20,
+    "category": 4,
+    "lead": 0.0,
+    "relevance": 0,
+    "freshness": 19.8,
+    "corroborated": 10
+   },
+   "keywords": [],
+   "shock_terms": [],
+   "dedupe_match": null,
+   "dedupe_similarity": 0.0,
+   "id": "719a42b6568c",
+   "title": "Madhvani land dispute dismissed by High Court",
+   "url": "https://www.monitor.co.ug/uganda/news/national/madhvani-land-dispute-dismissed-by-high-court-5601788",
+   "summary": "Madhvani land dispute dismissed by High Court",
+   "kind": "item",
+   "source": "Daily Monitor (Uganda)",
+   "source_id": "np-monitor-ug",
+   "tier": 2,
+   "country": "UG",
+   "category": "press",
+   "segments": [
+    "city",
+    "bush",
+    "beach"
+   ],
+   "first_seen": "2026-09-20T16:36+03:00",
+   "published": "2026-09-20",
+   "verdict": "weak"
+  },
+  {
+   "score": 53.8,
+   "components": {
+    "tier": 20,
+    "category": 4,
+    "lead": 0.0,
+    "relevance": 0,
+    "freshness": 19.8,
+    "corroborated": 10
+   },
+   "keywords": [],
+   "shock_terms": [],
+   "dedupe_match": null,
+   "dedupe_similarity": 0.0,
+   "id": "9d6de4768150",
+   "title": "45-year-old Rwandan national dies by suicide in Kisoro",
+   "url": "https://www.monitor.co.ug/uganda/news/national/45-year-old-rwandan-national-dies-by-suicide-in-kisoro-5601768",
+   "summary": "Kigezi police warn over rising suicide cases",
+   "kind": "item",
+   "source": "Daily Monitor (Uganda)",
+   "source_id": "np-monitor-ug",
+   "tier": 2,
+   "country": "UG",
+   "category": "press",
+   "segments": [
+    "city",
+    "bush",
+    "beach"
+   ],
+   "first_seen": "2026-09-20T16:36+03:00",
+   "published": "2026-09-20",
+   "verdict": "weak"
+  },
+  {
+   "score": 53.8,
+   "components": {
+    "tier": 20,
+    "category": 4,
+    "lead": 0.0,
+    "relevance": 0,
+    "freshness": 19.8,
+    "corroborated": 10
+   },
+   "keywords": [],
+   "shock_terms": [],
+   "dedupe_match": null,
+   "dedupe_similarity": 0.2,
+   "id": "fe2808405f30",
+   "title": "Go face corruption trial, Appeal Court tells former minister Kitutu",
+   "url": "https://www.monitor.co.ug/uganda/news/national/go-face-corruption-trial-appeal-court-tells-former-minister-kitutu-5601772",
+   "summary": "Kitutu to face separate trials after Court of Appeal ruling",
+   "kind": "item",
+   "source": "Daily Monitor (Uganda)",
+   "source_id": "np-monitor-ug",
+   "tier": 2,
+   "country": "UG",
+   "category": "press",
+   "segments": [
+    "city",
+    "bush",
+    "beach"
+   ],
+   "first_seen": "2026-09-20T16:36+03:00",
+   "published": "2026-09-20",
+   "verdict": "weak"
+  },
+  {
+   "score": 53.8,
+   "components": {
+    "tier": 20,
+    "category": 4,
+    "lead": 0.0,
+    "relevance": 0,
+    "freshness": 19.8,
+    "corroborated": 10
+   },
+   "keywords": [],
+   "shock_terms": [],
+   "dedupe_match": null,
+   "dedupe_similarity": 0.17,
+   "id": "440883a675de",
+   "title": "Chinese asked to invest in Ugandan",
+   "url": "https://www.monitor.co.ug/uganda/news/national/chinese-asked-to-invest-in-ugandan-5601808",
+   "summary": "Chinese investors support health, education and water projects in Uganda",
+   "kind": "item",
+   "source": "Daily Monitor (Uganda)",
+   "source_id": "np-monitor-ug",
+   "tier": 2,
+   "country": "UG",
+   "category": "press",
+   "segments": [
+    "city",
+    "bush",
+    "beach"
+   ],
+   "first_seen": "2026-09-20T16:36+03:00",
+   "published": "2026-09-20",
+   "verdict": "weak"
+  },
+  {
+   "score": 50.7,
+   "components": {
+    "tier": 20,
+    "category": 4,
+    "lead": 0.0,
+    "relevance": 0,
+    "freshness": 16.7,
     "corroborated": 10
    },
    "keywords": [],
@@ -1285,13 +1077,13 @@
    "verdict": "weak"
   },
   {
-   "score": 53.8,
+   "score": 50.7,
    "components": {
     "tier": 20,
     "category": 4,
     "lead": 0.0,
     "relevance": 0,
-    "freshness": 19.8,
+    "freshness": 16.7,
     "corroborated": 10
    },
    "keywords": [],
@@ -1318,13 +1110,13 @@
    "verdict": "weak"
   },
   {
-   "score": 53.8,
+   "score": 50.7,
    "components": {
     "tier": 20,
     "category": 4,
     "lead": 0.0,
     "relevance": 0,
-    "freshness": 19.8,
+    "freshness": 16.7,
     "corroborated": 10
    },
    "keywords": [],
@@ -1351,13 +1143,13 @@
    "verdict": "weak"
   },
   {
-   "score": 53.8,
+   "score": 50.7,
    "components": {
     "tier": 20,
     "category": 4,
     "lead": 0.0,
     "relevance": 0,
-    "freshness": 19.8,
+    "freshness": 16.7,
     "corroborated": 10
    },
    "keywords": [],
@@ -1368,6 +1160,204 @@
    "title": "A mystery prince and a disputed throne: Can Tooro fall in love again?",
    "url": "https://www.monitor.co.ug/uganda/oped/commentary/a-mystery-prince-and-a-disputed-throne-can-tooro-fall-in-love-again--5601532",
    "summary": "Kings are born, not made. It is a DNA issue. And it flows naturally when DNA is allowed to prevail",
+   "kind": "item",
+   "source": "Daily Monitor (Uganda)",
+   "source_id": "np-monitor-ug",
+   "tier": 2,
+   "country": "UG",
+   "category": "press",
+   "segments": [
+    "city",
+    "bush",
+    "beach"
+   ],
+   "first_seen": "2026-09-20T13:50+03:00",
+   "published": "2026-09-20",
+   "verdict": "weak"
+  },
+  {
+   "score": 50.7,
+   "components": {
+    "tier": 20,
+    "category": 4,
+    "lead": 0.0,
+    "relevance": 0,
+    "freshness": 16.7,
+    "corroborated": 10
+   },
+   "keywords": [],
+   "shock_terms": [],
+   "dedupe_match": null,
+   "dedupe_similarity": 0.0,
+   "id": "d4756cc3223f",
+   "title": "Choose: beer or fornication?",
+   "url": "https://www.monitor.co.ug/uganda/oped/columnists/allan-tacca/choose-beer-or-fornication--5601556",
+   "summary": "Would you rather have beer adverts or more juicy sexist stuff at breakfast time?",
+   "kind": "item",
+   "source": "Daily Monitor (Uganda)",
+   "source_id": "np-monitor-ug",
+   "tier": 2,
+   "country": "UG",
+   "category": "press",
+   "segments": [
+    "city",
+    "bush",
+    "beach"
+   ],
+   "first_seen": "2026-09-20T13:50+03:00",
+   "published": "2026-09-20",
+   "verdict": "weak"
+  },
+  {
+   "score": 50.7,
+   "components": {
+    "tier": 20,
+    "category": 4,
+    "lead": 0.0,
+    "relevance": 0,
+    "freshness": 16.7,
+    "corroborated": 10
+   },
+   "keywords": [],
+   "shock_terms": [],
+   "dedupe_match": null,
+   "dedupe_similarity": 0.17,
+   "id": "e88f41975f78",
+   "title": "Becoming the change we want",
+   "url": "https://www.monitor.co.ug/uganda/oped/commentary/becoming-the-change-we-want-5601574",
+   "summary": "Instead of merely criticising what has gone wrong in Uganda, we chose to represent what is...",
+   "kind": "item",
+   "source": "Daily Monitor (Uganda)",
+   "source_id": "np-monitor-ug",
+   "tier": 2,
+   "country": "UG",
+   "category": "press",
+   "segments": [
+    "city",
+    "bush",
+    "beach"
+   ],
+   "first_seen": "2026-09-20T13:50+03:00",
+   "published": "2026-09-20",
+   "verdict": "weak"
+  },
+  {
+   "score": 50.7,
+   "components": {
+    "tier": 20,
+    "category": 4,
+    "lead": 0.0,
+    "relevance": 0,
+    "freshness": 16.7,
+    "corroborated": 10
+   },
+   "keywords": [],
+   "shock_terms": [],
+   "dedupe_match": null,
+   "dedupe_similarity": 0.0,
+   "id": "6a9675a50de4",
+   "title": "Is heaven better when a bishop wants Shs5b house?",
+   "url": "https://www.monitor.co.ug/uganda/oped/commentary/is-heaven-better-when-a-bishop-wants-shs5b-house--5601558",
+   "summary": "This is a stupendous sum and can educate hundreds of school children",
+   "kind": "item",
+   "source": "Daily Monitor (Uganda)",
+   "source_id": "np-monitor-ug",
+   "tier": 2,
+   "country": "UG",
+   "category": "press",
+   "segments": [
+    "city",
+    "bush",
+    "beach"
+   ],
+   "first_seen": "2026-09-20T13:50+03:00",
+   "published": "2026-09-20",
+   "verdict": "weak"
+  },
+  {
+   "score": 50.7,
+   "components": {
+    "tier": 20,
+    "category": 4,
+    "lead": 0.0,
+    "relevance": 0,
+    "freshness": 16.7,
+    "corroborated": 10
+   },
+   "keywords": [],
+   "shock_terms": [],
+   "dedupe_match": null,
+   "dedupe_similarity": 0.0,
+   "id": "d0f58e6a3efc",
+   "title": "World leaders return to UN amid wars in Middle East and Ukraine",
+   "url": "https://www.monitor.co.ug/uganda/news/world/world-leaders-return-to-un-amid-wars-in-middle-east-and-ukraine-5601690",
+   "summary": "Trump, Xi and global conflicts set stage for UN General Assembly",
+   "kind": "item",
+   "source": "Daily Monitor (Uganda)",
+   "source_id": "np-monitor-ug",
+   "tier": 2,
+   "country": "UG",
+   "category": "press",
+   "segments": [
+    "city",
+    "bush",
+    "beach"
+   ],
+   "first_seen": "2026-09-20T13:50+03:00",
+   "published": "2026-09-20",
+   "verdict": "weak"
+  },
+  {
+   "score": 50.7,
+   "components": {
+    "tier": 20,
+    "category": 4,
+    "lead": 0.0,
+    "relevance": 0,
+    "freshness": 16.7,
+    "corroborated": 10
+   },
+   "keywords": [],
+   "shock_terms": [],
+   "dedupe_match": null,
+   "dedupe_similarity": 0.0,
+   "id": "9e2bb39ba0a5",
+   "title": "Govt hands over 150 power tillers to farmer groups",
+   "url": "https://www.monitor.co.ug/uganda/news/national/govt-hands-over-150-power-tillers-to-farmer-groups-5601704",
+   "summary": "MAAIF has rolled out power tillers to ease reliance on the hoe",
+   "kind": "item",
+   "source": "Daily Monitor (Uganda)",
+   "source_id": "np-monitor-ug",
+   "tier": 2,
+   "country": "UG",
+   "category": "press",
+   "segments": [
+    "city",
+    "bush",
+    "beach"
+   ],
+   "first_seen": "2026-09-20T13:50+03:00",
+   "published": "2026-09-20",
+   "verdict": "weak"
+  },
+  {
+   "score": 50.7,
+   "components": {
+    "tier": 20,
+    "category": 4,
+    "lead": 0.0,
+    "relevance": 0,
+    "freshness": 16.7,
+    "corroborated": 10
+   },
+   "keywords": [],
+   "shock_terms": [],
+   "dedupe_match": null,
+   "dedupe_similarity": 0.17,
+   "id": "c3eb3e4e25ea",
+   "title": "Museveni: Do not take Uganda\u2019s stability for granted",
+   "url": "https://www.monitor.co.ug/uganda/news/national/museveni-do-not-take-uganda-s-stability-for-granted-5601698",
+   "summary": "President recalls sacrifices behind Uganda\u2019s liberation struggle",
    "kind": "item",
    "source": "Daily Monitor (Uganda)",
    "source_id": "np-monitor-ug",
