@@ -1,6 +1,6 @@
 {
  "version": 1,
- "updated": "2026-09-17",
+ "updated": "2026-09-20",
  "note": "Upstream-weighted source registry for the EA Hospitality Pulse radar. tier 1 = primary/official, 2 = reputable secondary, 3 = weak (lead only, never publishable alone). lead_days = typical head start over mainstream coverage. Sources that fail repeatedly are surfaced by monitor.py rather than silently dropped. | 2026-08-20: added Ethiopia (ET) upstream sources as comparator — gazette, ECAA, NBE, ESS, Ethiopia Convention Bureau; Ethiopian Airlines already tracked (air-et). Enables promotion to a full sixth market once the radar records healthy observations. | 2026-09-08: added rw-bnr-mpc (BNR monetary policy statements) — the 26-27 Aug MPC decision taking Rwanda's policy rate to 8.75% did not surface on the radar because rw-bnr points at the BNR homepage and BNR is HTTP-blocked; the MPC page is a distinct, higher-signal observation. | 2026-09-15 (evening): added rw-moh-news (Rwanda MoH news/EVD listing) as a distinct change-detection target — Rwanda's 22 May 2026 30-day DRC-transit entry denial is the region's most booking-relevant entry rule and needs a dated listing to watch, not a root page. Corrected the rw-moh transport note: the block is on the root/listing, not on article pages, which fetched cleanly today.",
  "sources": [
   {
@@ -4304,6 +4304,107 @@
     "evening"
    ],
    "why": "Dated member-news feed that carried the Hemingways Kigali refurb deferral, Bush and Beyond upgrades and the KTB Gulf target on 18 Sep 2026 before the regional press. Every item is date-stamped, which the recency gate needs.",
+   "frag": ""
+  },
+  {
+   "id": "ca-ebola-border-measures",
+   "name": "Canada — Ebola border measures for travellers entering Canada (PHAC)",
+   "url": "https://www.canada.ca/en/public-health/services/diseases/ebola/border-measures.html",
+   "tier": 1,
+   "country": "Regional",
+   "category": "advisory",
+   "method": "html",
+   "cadence_min": 360,
+   "lead_days": 14,
+   "segments": [
+    "city",
+    "bush"
+   ],
+   "slots": [
+    "evening"
+   ],
+   "why": "Carries the operative expiry date of Canada's Quarantine Act measures on DRC, Uganda and South Sudan arrivals — a 21-day quarantine on Ugandan travellers that has already been rolled over once and expires 28 September 2026. The press does not track the rollover dates.",
+   "frag": ""
+  },
+  {
+   "id": "ca-thn-549",
+   "name": "Canada Travel Health Notice 549 — Ebola, DRC",
+   "url": "https://travel.gc.ca/travelling/health-safety/travel-health-notices/549",
+   "tier": 1,
+   "country": "Regional",
+   "category": "advisory",
+   "method": "html",
+   "cadence_min": 360,
+   "lead_days": 10,
+   "segments": [
+    "city",
+    "bush"
+   ],
+   "slots": [
+    "evening"
+   ],
+   "why": "Canada's Level 3 Ebola notice and the page that states the border-measure expiry. Also a staleness canary — as at 20 Sep 2026 it still named four DRC provinces and reported cases in Uganda a month after WHO certified Uganda clear.",
+   "frag": ""
+  },
+  {
+   "id": "tz-tira",
+   "name": "Tanzania Insurance Regulatory Authority (TIRA)",
+   "url": "https://www.tira.go.tz/",
+   "tier": 1,
+   "country": "TZ",
+   "category": "regulator",
+   "method": "html",
+   "cadence_min": 720,
+   "lead_days": 21,
+   "segments": [
+    "beach",
+    "bush",
+    "city"
+   ],
+   "slots": [
+    "evening"
+   ],
+   "why": "Administers the Insurance (Inbound Travel Insurance) Regulations 2026 — the US$44 mainland entry cover whose enforcement start date has not yet been announced.",
+   "frag": ""
+  },
+  {
+   "id": "zn-zra",
+   "name": "Zanzibar Revenue Authority (ZRA, formerly ZRB)",
+   "url": "https://www.zanrevenue.org/tax/types",
+   "tier": 1,
+   "country": "ZNZ",
+   "category": "regulator",
+   "method": "html",
+   "cadence_min": 720,
+   "lead_days": 14,
+   "segments": [
+    "beach"
+   ],
+   "slots": [
+    "evening"
+   ],
+   "why": "Hotel levy, restaurant levy and the US$1-5 per-person-per-night infrastructure tax, plus the digital-PMS synchronisation obligation. The board was renamed an Authority; the old ZRB URL should not be relied on alone.",
+   "frag": ""
+  },
+  {
+   "id": "ke-epra-gazette",
+   "name": "EPRA — monthly electricity pass-through gazette notices",
+   "url": "https://www.epra.go.ke/press-releases",
+   "tier": 1,
+   "country": "KE",
+   "category": "regulator",
+   "method": "html",
+   "cadence_min": 720,
+   "lead_days": 7,
+   "segments": [
+    "city",
+    "bush",
+    "beach"
+   ],
+   "slots": [
+    "evening"
+   ],
+   "why": "Fuel Energy Cost Charge, forex fluctuation adjustment and WRMA levy are gazetted monthly and change the largest controllable non-payroll line in a hotel. September 2026 fell to KSh 4.16/kWh from KSh 4.7027 in August.",
    "frag": ""
   }
  ]

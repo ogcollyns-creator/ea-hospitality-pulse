@@ -1,5 +1,14 @@
 window.EDITIONS = [
  {
+  "id": "pulse-2026-09-20-evening",
+  "date": "2026-09-20",
+  "dateDisplay": "Sunday, 20 September 2026",
+  "edition": "Evening Wrap",
+  "editionKey": "evening",
+  "summary": "1️⃣ YOUR POWER BILL FELL THIS MONTH. THE SAME GAZETTE ROUND CLOSED THE WAY OUT OF IT.",
+  "bodyHtml": "<p><strong>🌆 EVENING WRAP · Sun 20 Sep 2026</strong></p>\n<p><strong>1️⃣ YOUR POWER BILL FELL THIS MONTH. THE SAME GAZETTE ROUND CLOSED THE WAY OUT OF IT.</strong></p>\n<p>EPRA&#x27;s September pass-through is <strong>KSh 4.16/kWh</strong> — fuel charge KSh 3.00, forex ~KSh 1.14 against KSh 1.32bn of exchange costs, WRMA levy 1.48 cents — on every meter reading taken in September <strong>(Gazette Notice, 18 Sep 2026)</strong>. August was <strong>KSh 4.7027</strong> <strong>(Gazette Notices 13172/13173/13174, 14 Aug 2026)</strong>. Down <strong>54 cents, 11.5%</strong>.</p>\n<p><strong>What everyone is missing:</strong> the cheap line is the reversible one. Thermal dispatch swings monthly; forex barely moved, and in August IPPs alone carried KSh 1.039bn of KSh 1.353bn. Meanwhile a <strong>separate notice the same week</strong> amended the Schedule of Tariffs 2023: net-metering customers are credited for <strong>half</strong> what they export, and feeding KPLC <strong>without approval is now &quot;dumping&quot;</strong>, billed back at base tariff.</p>\n<p>The grid got cheaper for one month. Leaving the grid got permanently narrower.<br><span class=\"tagline\">🏷 City, Bush, Beach | Kenya | Confirmed | impact:margin</span><br><span class=\"sowhat\">🎯 Reprice energy off September, not August. Then confirm in writing whether your inverter exports and whether your net-metering agreement is approved — that clause now has a bill attached.</span></p>\n<p><strong>2️⃣ CANADA&#x27;S EBOLA BAR ON UGANDA EXPIRES IN EIGHT DAYS</strong></p>\n<p>Canada&#x27;s Quarantine Act measures were extended 30 days and run to <strong>28 September, 23:59 EDT</strong> <strong>(Travel.gc.ca THN 549, modified 28 Aug 2026, read tonight)</strong>. Foreign nationals in DRC within 21 days cannot enter Canada or board a flight to it; Uganda and South Sudan arrivals travel but <strong>quarantine 21 days</strong>.</p>\n<p>Canada&#x27;s notice still names <strong>four</strong> DRC provinces — WHO counts six, Sud-Ubangi made seven — and still says cases are reported in Uganda. WHO certified Uganda outbreak-free on <strong>26 August</strong>, two days before that page was last touched.<br><span class=\"tagline\">🏷 Bush, City | Uganda, Rwanda | Confirmed | impact:risk</span><br><span class=\"sowhat\">🎯 Two Western regimes on Uganda expire eighteen days apart — Canada 28 Sep, the US order 11 Oct. Diarise both; tell no Canadian guest it has lapsed until a successor notice exists.</span></p>\n<p><strong>3️⃣ TANZANIA GAZETTED A $44 ENTRY INSURANCE. ZANZIBAR ALREADY CHARGES $44.</strong></p>\n<p>The <strong>Insurance (Inbound Travel Insurance) Regulations 2026</strong> (Government Notice, 4 Sep 2026) require foreigners entering <strong>mainland</strong> Tanzania by land, sea or air to hold <strong>US$44</strong> cover — 92 days, multiple entry, via NIC or partners. No cover, possible refusal of entry. EAC and SADC exempt. <strong>No enforcement date announced</strong> <strong>(Kenyans.co.ke, 18 Sep 2026)</strong>.</p>\n<p>Zanzibar has charged its own since <strong>October 2024</strong>: US$44 adult, US$22 child 3–17. On the published texts the schemes are separate, so a Serengeti-then-Nungwi trip reads as <strong>US$88 a head</strong> <strong>(inference, labelled)</strong>. Kenya&#x27;s version stays <strong>suspended</strong> by court <strong>(Gazette Notice 11492; heard 16 Sep)</strong>.<br><span class=\"tagline\">🏷 Beach, Bush | Tanzania, Zanzibar, Kenya | Confirmed | impact:margin</span><br><span class=\"sowhat\">🎯 Cost-variation clause into every 2027 Tanzania contract this week, and ask your Dar handler in writing whether a Zanzibar policy discharges the mainland rule.</span></p>\n<p><strong>📻 ALSO TONIGHT</strong><br>🇰🇪 <strong>Naivasha–Narok blocked at the Mai Mahiu escarpment</strong> from ~09:00 today. Mara transfers: Ngong–Kibiko–Suswa <strong>(20 Sep, 14:04 EAT)</strong>.<br>🇨🇩 WHO carries DRC at <strong>7,475 cases, 3,605 deaths to 16 Sep</strong>. Africa CDC on <strong>17 Sep</strong>: still serious, gaps in infection prevention and control.</p>\n<p><strong>🔍 BLIND SPOTS.</strong> Kenya Gazette mirrors returned empty bodies; recovered via Kenya Law direct-source URLs and press — no new tourism or levy notice found, but the index itself was not read. Africa CDC&#x27;s posted weekly is still August&#x27;s. Zanzibar&#x27;s health ministry again not read directly.</p>\n<p>🔗 This edition on the web: <a href=\"https://eahospitalitypulse.com/editions/pulse-2026-09-20-evening.html\" rel=\"noopener\">eahospitalitypulse.com/editions/pulse-2026-09-20-evenin…</a><br>💼 Today&#x27;s Big Read on LinkedIn: <a href=\"https://www.linkedin.com/company/ea-hospitality-pulse/\" rel=\"noopener\">linkedin.com/company/ea-hospitality-pulse/</a></p>"
+ },
+ {
   "id": "pulse-2026-09-19-evening",
   "date": "2026-09-19",
   "dateDisplay": "Saturday, 19 September 2026",
@@ -973,6 +982,67 @@ window.EDITIONS = [
  }
 ];
 window.INSIGHTS = [
+ {
+  "headline": "YOUR POWER BILL FELL THIS MONTH. THE SAME GAZETTE ROUND CLOSED THE WAY OUT OF IT.",
+  "body": "EPRA's September pass-through is **KSh 4.16/kWh** — fuel charge KSh 3.00, forex ~KSh 1.14 against KSh 1.32bn of exchange costs, WRMA levy 1.48 cents — on every meter reading taken in September *(Gazette Notice, 18 Sep 2026)*. August was **KSh 4.7027** *(Gazette Notices 13172/13173/13174, 14 Aug 2026)*. Down **54 cents, 11.5%**. **What everyone is missing:** the cheap line is the reversible one. Thermal dispatch swings monthly; forex barely moved, and in August IPPs alone carried KSh 1.039bn of KSh 1.353bn. Meanwhile a **separate notice the same week** amended the Schedule of Tariffs 2023: net-metering customers are credited for **half** what they export, and feeding KPLC **without approval is now \"dumping\"**, billed back at base tariff. The grid got cheaper for one month. Leaving the grid got permanently narrower.",
+  "sowhat": "",
+  "segments": [
+   "city",
+   "bush",
+   "beach"
+  ],
+  "countries": "Kenya",
+  "confidence": "Confirmed",
+  "impact": "-margin",
+  "impactClass": "margin",
+  "intensity": 3,
+  "impactSet": "author",
+  "source": "pulse-2026-09-20-evening",
+  "date": "2026-09-20",
+  "dateDisplay": "Sunday, 20 September 2026",
+  "edition": "Evening Wrap",
+  "editionKey": "evening"
+ },
+ {
+  "headline": "CANADA'S EBOLA BAR ON UGANDA EXPIRES IN EIGHT DAYS",
+  "body": "Canada's Quarantine Act measures were extended 30 days and run to **28 September, 23:59 EDT** *(Travel.gc.ca THN 549, modified 28 Aug 2026, read tonight)*. Foreign nationals in DRC within 21 days cannot enter Canada or board a flight to it; Uganda and South Sudan arrivals travel but **quarantine 21 days**. Canada's notice still names **four** DRC provinces — WHO counts six, Sud-Ubangi made seven — and still says cases are reported in Uganda. WHO certified Uganda outbreak-free on **26 August**, two days before that page was last touched.",
+  "sowhat": "",
+  "segments": [
+   "city",
+   "bush"
+  ],
+  "countries": "Uganda, Rwanda",
+  "confidence": "Confirmed",
+  "impact": "risk",
+  "impactClass": "risk",
+  "intensity": 3,
+  "impactSet": "author",
+  "source": "pulse-2026-09-20-evening",
+  "date": "2026-09-20",
+  "dateDisplay": "Sunday, 20 September 2026",
+  "edition": "Evening Wrap",
+  "editionKey": "evening"
+ },
+ {
+  "headline": "TANZANIA GAZETTED A $44 ENTRY INSURANCE. ZANZIBAR ALREADY CHARGES $44.",
+  "body": "The **Insurance (Inbound Travel Insurance) Regulations 2026** (Government Notice, 4 Sep 2026) require foreigners entering **mainland** Tanzania by land, sea or air to hold **US$44** cover — 92 days, multiple entry, via NIC or partners. No cover, possible refusal of entry. EAC and SADC exempt. **No enforcement date announced** *(Kenyans.co.ke, 18 Sep 2026)*. Zanzibar has charged its own since **October 2024**: US$44 adult, US$22 child 3–17. On the published texts the schemes are separate, so a Serengeti-then-Nungwi trip reads as **US$88 a head** *(inference, labelled)*. Kenya's version stays **suspended** by court *(Gazette Notice 11492; heard 16 Sep)*.",
+  "sowhat": "",
+  "segments": [
+   "bush",
+   "beach"
+  ],
+  "countries": "Tanzania, Zanzibar, Kenya",
+  "confidence": "Confirmed",
+  "impact": "-margin",
+  "impactClass": "margin",
+  "intensity": 3,
+  "impactSet": "author",
+  "source": "pulse-2026-09-20-evening",
+  "date": "2026-09-20",
+  "dateDisplay": "Sunday, 20 September 2026",
+  "edition": "Evening Wrap",
+  "editionKey": "evening"
+ },
  {
   "headline": "THE UGANDA ENTRY BAN FINALLY PUBLISHED — WITH A DEADLINE NOBODY HERE IS WATCHING",
   "body": "The CDC's 11 September Title 42 order was published on Wednesday as **91 FR 58673–58679, Docket No. CDC-2026-0892** *(Federal Register, 16 September 2026)*. On Tuesday we said it was six days old and unpublished. It suspends entry of covered aliens present in **DRC, Uganda or South Sudan in the previous 21 days** — and states: **\"Written comments must be received on or before October 1, 2026.\"** **WHAT EVERYONE IS MISSING** The argument East Africa keeps making has already lost. The order's own **footnote 8** cites WHO's page announcing Uganda ended its outbreak after the 42-day countdown, accessed 10 September. CDC read it and kept Uganda in the operative clause anyway. \"Uganda is clean\" is not new to this agency. It is footnoted. The argument that nearly landed is the one nobody here is making. A commenter said counting **airside transit** as \"presence\" is indefensible — a passenger who never clears immigration, in a disease not transmissible before symptoms. CDC **agreed on the science** and refused anyway, on operational grounds. A feasibility refusal is the kind that moves when someone shows the alternative is workable. And it bites hardest here: ninety minutes connecting through Entebbe becomes a 21-day US-entry disqualifier. CDC received **three comments** on the August order. Three, worldwide.",
@@ -5230,4 +5300,4 @@ window.INSIGHTS = [
   "editionKey": "evening"
  }
 ];
-window.BUILT_AT = "2026-09-20 06:13";
+window.BUILT_AT = "2026-09-20 18:26";

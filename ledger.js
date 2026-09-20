@@ -1,8 +1,8 @@
 window.LEDGER = {
- "updated": "2026-09-20 06:14",
+ "updated": "2026-09-20 18:26",
  "stats": {
-  "total": 197,
-  "open": 144,
+  "total": 200,
+  "open": 145,
   "resolved": 50,
   "correct": 39,
   "partial": 1,
@@ -10,38 +10,6 @@ window.LEDGER = {
   "accuracy": 79
  },
  "open": [
-  {
-   "id": "P085",
-   "made_date": "2026-08-16",
-   "edition": "pulse-2026-08-16-midday",
-   "claim": "Docket CDC-2026-0892 will close its 15-day comment window (opening on Federal Register publication 17 Aug 2026, closing on or about 1 Sep 2026) having received fewer than ten public comments — the East African hospitality trade will again not file",
-   "resolution_criteria": "regulations.gov docket CDC-2026-0892 comment count for the August 2026 order, checked after the window closes, is fewer than 10. If ten or more comments are received, incorrect",
-   "resolve_by": "2026-09-19",
-   "market": "Regional",
-   "segment": "Bush/City",
-   "confidence": "Medium",
-   "status": "open",
-   "resolved_date": "",
-   "evidence": "Checked 5 Sep 2026: no post-close comment count for the August window (FR Doc 2026-16706, docket CDC-2026-0892) could be retrieved. CDC's own record of prior windows — 3 comments on the May original/amended order, 5 on the 21 June continuation, 0 on the 13 July continuation — points the same way, but the specific count is the resolution criterion and it is not yet published. Resolve_by extended to 19 Sep rather than resolved on inference.",
-   "source_url": "https://www.regulations.gov/docket/CDC-2026-0892",
-   "overdue": true
-  },
-  {
-   "id": "P106",
-   "made_date": "2026-08-20",
-   "edition": "pulse-2026-08-20-morning",
-   "claim": "The 19 Aug Samburu helicopter crash (Lady Lori EC130, &Beyond charter, Loisaba–Ewaso Nyiro) will NOT trigger a change in the US or UK travel-advisory LEVEL for Kenya within 30 days — it is an aviation-safety accident under KCAA investigation, not a systemic security or health downgrade",
-   "resolution_criteria": "travel.state.gov Kenya advisory and gov.uk/foreign-travel-advice/kenya checked 19 Sep 2026 show the country advisory level unchanged (US Level 2 / UK as at 20 Aug). A level change citing the crash resolves incorrect",
-   "resolve_by": "2026-09-19",
-   "market": "Kenya",
-   "segment": "Bush",
-   "confidence": "High",
-   "status": "open",
-   "resolved_date": "",
-   "evidence": "",
-   "source_url": "https://travel.state.gov/content/travel/en/traveladvisories/traveladvisories/kenya-travel-advisory.html",
-   "overdue": true
-  },
   {
    "id": "P017",
    "made_date": "2026-07-26",
@@ -699,6 +667,22 @@ window.LEDGER = {
    "overdue": false
   },
   {
+   "id": "P198",
+   "made_date": "2026-09-20",
+   "edition": "Evening Wrap",
+   "claim": "Canada will EXTEND or REPLACE its temporary Ebola border measures rather than let them lapse at 28 September 2026 23:59 EDT - the measures have already been rolled over once for a further 30 days, and Canada's own travel health notice still describes a four-province DRC outbreak and 'related cases' in Uganda a month after WHO certified Uganda outbreak-free",
+   "resolution_criteria": "Check canada.ca/en/public-health/services/diseases/ebola/border-measures.html and travel.gc.ca Travel Health Notice 549 between 29 September 2026 and 31 October 2026. Any notice extending, replacing or reissuing the temporary border measures beyond 28 September 2026 resolves the call CORRECT. A notice stating the measures have expired or been lifted without replacement, or the removal of the border-measures section without a successor, resolves it INCORRECT",
+   "resolve_by": "2026-10-31",
+   "market": "UG|RW|KE",
+   "segment": "Bush|City",
+   "confidence": "Medium",
+   "status": "open",
+   "resolved_date": "",
+   "evidence": "",
+   "source_url": "https://travel.gc.ca/travelling/health-safety/travel-health-notices/549",
+   "overdue": false
+  },
+  {
    "id": "P128",
    "made_date": "2026-08-26",
    "edition": "pulse-2026-08-26-evening",
@@ -824,6 +808,22 @@ window.LEDGER = {
    "resolved_date": "",
    "evidence": "",
    "source_url": "https://www.federalregister.gov/public-inspection/2026-18948/order-under-sections-362-and-365-of-the-public-health-service-act-continuing-the-suspension-of-the",
+   "overdue": false
+  },
+  {
+   "id": "P197",
+   "made_date": "2026-09-20",
+   "edition": "Evening Wrap",
+   "claim": "EPRA's October 2026 electricity pass-through will be HIGHER than September's KSh 4.16/kWh - the 54-cent September fall came almost entirely out of the Fuel Energy Cost Charge, which tracks monthly thermal dispatch, while the structurally sticky forex line moved only about four cents, and Kenya's reduced 8% fuel VAT expires 14 October",
+   "resolution_criteria": "Read EPRA's October 2026 Gazette Notices for the Fuel Energy Cost Charge, Foreign Exchange Fluctuation Adjustment and WRMA levy (epra.go.ke, Kenya Gazette, or reporting in People Daily, Kenyans.co.ke, Business Daily) published on or before 30 November 2026. A combined figure ABOVE KSh 4.16 per kWh for October meter readings resolves the call CORRECT. A combined figure at or below KSh 4.16 resolves it INCORRECT. No October notice traceable by 30 Nov 2026 leaves it unresolved and it rolls",
+   "resolve_by": "2026-11-30",
+   "market": "Kenya",
+   "segment": "City|Bush|Beach",
+   "confidence": "Medium",
+   "status": "open",
+   "resolved_date": "",
+   "evidence": "",
+   "source_url": "https://www.kenyans.co.ke/news/127216-epra-adjusts-electricity-charges-ksh416-kwh-pass-through-costs-apply",
    "overdue": false
   },
   {
@@ -1352,6 +1352,22 @@ window.LEDGER = {
    "resolved_date": "",
    "evidence": "",
    "source_url": "https://peopledaily.digital/news/new-tourism-fees-spark-uproar-as-operators-warn-kenya-could-lose-tourists-to-rival-destinations",
+   "overdue": false
+  },
+  {
+   "id": "P199",
+   "made_date": "2026-09-20",
+   "edition": "Evening Wrap",
+   "claim": "Neither the Tanzanian government nor the Zanzibar authorities will publish, on or before 31 December 2026, a notice stating whether a Zanzibar inbound travel insurance policy discharges the mainland requirement under the Insurance (Inbound Travel Insurance) Regulations 2026 - leaving a combined mainland-plus-Zanzibar itinerary facing two separate US$44 charges with no official ruling",
+   "resolution_criteria": "Search the Tanzania Insurance Regulatory Authority, the Ministry of Finance, the National Insurance Corporation, the Zanzibar Insurance Corporation and Zanzibar government portals, plus Tanzanian press (The Citizen, Daily News, Mwananchi) and ATTA/KATA trade notices, to 31 December 2026. Any official notice, FAQ, circular or ministerial statement expressly addressing whether a Zanzibar policy satisfies the mainland requirement (either way) resolves the call INCORRECT. Absence of any such official clarification at 31 December 2026 resolves it CORRECT",
+   "resolve_by": "2026-12-31",
+   "market": "TZ",
+   "segment": "Beach|Bush",
+   "confidence": "Inference",
+   "status": "open",
+   "resolved_date": "",
+   "evidence": "",
+   "source_url": "https://www.kenyans.co.ke/news/127162-tanzania-introduces-mandatory-travel-insurance-foreign-visitors",
    "overdue": false
   },
   {
