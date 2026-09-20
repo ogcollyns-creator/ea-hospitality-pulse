@@ -1,5 +1,5 @@
 window.LEDGER = {
- "updated": "2026-09-19 15:44",
+ "updated": "2026-09-20 05:48",
  "stats": {
   "total": 197,
   "open": 144,
@@ -24,7 +24,7 @@ window.LEDGER = {
    "resolved_date": "",
    "evidence": "Checked 5 Sep 2026: no post-close comment count for the August window (FR Doc 2026-16706, docket CDC-2026-0892) could be retrieved. CDC's own record of prior windows — 3 comments on the May original/amended order, 5 on the 21 June continuation, 0 on the 13 July continuation — points the same way, but the specific count is the resolution criterion and it is not yet published. Resolve_by extended to 19 Sep rather than resolved on inference.",
    "source_url": "https://www.regulations.gov/docket/CDC-2026-0892",
-   "overdue": false
+   "overdue": true
   },
   {
    "id": "P106",
@@ -40,7 +40,7 @@ window.LEDGER = {
    "resolved_date": "",
    "evidence": "",
    "source_url": "https://travel.state.gov/content/travel/en/traveladvisories/traveladvisories/kenya-travel-advisory.html",
-   "overdue": false
+   "overdue": true
   },
   {
    "id": "P017",
