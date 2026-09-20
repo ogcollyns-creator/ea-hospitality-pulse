@@ -74,6 +74,13 @@ def _has_hero(eid, credits, replace_cards=False):
     """
     if not (os.path.exists(os.path.join(EDIMG, eid + ".jpg")) and eid in credits):
         return False
+    # A hand-pinned hero outranks every automatic pass, including the
+    # replace_cards override. The flag was being written into
+    # img/edition-credits.json by the editorial pin and then honoured by
+    # nothing, so a manual dispatch of the Telegram workflow could silently
+    # overwrite a hero the publisher had chosen by hand.
+    if (credits.get(eid) or {}).get("pinned"):
+        return True
     if replace_cards:
         kind = (credits.get(eid) or {}).get("source_kind") or ""
         if kind in _PLACEHOLDER_KINDS:
