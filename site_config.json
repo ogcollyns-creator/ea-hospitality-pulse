@@ -8,5 +8,10 @@
     "telegram": "https://t.me/eahospitalitypulse",
     "linkedin": "https://www.linkedin.com/company/ea-hospitality-pulse/",
     "whatsapp": "https://whatsapp.com/channel/0029VbCjul2KmCPTv8Qrh73b"
+  },
+  "newsletter": {
+    "provider": "buttondown",
+    "username": "eahospitalitypulse",
+    "_comment": "Buttondown account name. The signup form posts to https://buttondown.com/api/emails/embed-subscribe/<username>. Change 'username' if the account is renamed; build_site.py and the weekly workflow both read it from here."
   }
 }

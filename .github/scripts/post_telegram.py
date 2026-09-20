@@ -12,7 +12,7 @@ import os, re, sys, subprocess, json, time
 import urllib.request, urllib.parse, urllib.error
 
 TOKEN = os.environ.get("TG_TOKEN", "").strip()
-CHAT = os.environ.get("TG_CHAT", "@africabusinessriskreview").strip()
+CHAT = os.environ.get("TG_CHAT", "@eahospitalitypulse").strip()
 MAX = 3800  # safety margin under Telegram's 4096 limit
 DRY = os.environ.get("TG_DRY_RUN", "").strip() not in ("", "0", "false", "False")
 

@@ -210,6 +210,33 @@ footer.s a:hover{color:var(--teal-d);border-bottom-color:var(--gold)}
 .chan-n{font:700 11px/1.6 var(--mono);letter-spacing:.09em;text-transform:uppercase;
   color:var(--teal-d);min-width:96px;flex:0 0 auto}
 .chan-d{font-size:14px;color:var(--muted);line-height:1.5}
+
+/* --- weekly-edition signup -------------------------------------------------
+   One field and one button, on the same baseline as the channel rows above it,
+   so the block reads as a fifth channel rather than a marketing interruption.
+   No modal, no delay, no cookie: the form posts straight to Buttondown, which
+   double-opt-ins and handles unsubscribes. */
+.vh{position:absolute;width:1px;height:1px;padding:0;margin:-1px;overflow:hidden;
+  clip:rect(0 0 0 0);white-space:nowrap;border:0}
+.nl{border-top:1px solid var(--line);margin-top:26px;padding-top:18px}
+.nl-h{margin:0 0 2px;font:700 11px/1 var(--mono);letter-spacing:.1em;
+  text-transform:uppercase;color:var(--gold-d)}
+.nl-note{margin:0 0 12px;font-family:var(--sans);font-size:13.5px;
+  line-height:1.5;color:var(--muted)}
+.nl-form{display:flex;flex-wrap:wrap;gap:8px;align-items:stretch}
+.nl-form input[type=email]{flex:1 1 230px;min-width:0;padding:11px 12px;
+  font-family:var(--sans);font-size:15px;color:var(--ink);
+  background:#fff;border:1px solid var(--line);border-radius:0}
+.nl-form input[type=email]:focus{outline:none;border-color:var(--gold);
+  box-shadow:0 0 0 2px rgba(168,111,31,.16)}
+.nl-form button{flex:0 0 auto;padding:11px 20px;cursor:pointer;
+  font:700 11px/1.6 var(--mono);letter-spacing:.09em;text-transform:uppercase;
+  color:#fff;background:var(--teal-d);border:1px solid var(--teal-d);
+  transition:background-color .18s ease,border-color .18s ease}
+.nl-form button:hover{background:var(--gold-d);border-color:var(--gold-d)}
+.nl-fine{margin:10px 0 0;font-family:var(--sans);font-size:12.5px;
+  line-height:1.5;color:var(--muted)}
+@media(max-width:420px){.nl-form button{flex:1 1 100%}}
 footer.s{border-top:1px solid var(--line);margin-top:34px;padding:22px 0 30px;text-align:left}
 footer.s .f-line{margin:0 0 12px;font-family:var(--sans);font-size:13px;
   color:var(--muted);max-width:62ch}
@@ -244,8 +271,8 @@ footer.s .f-geo{margin:0;font:600 10.5px/1.6 var(--mono);letter-spacing:.12em;
 <header class="s"><div class="wrap"><a href="/"><span class="logo" aria-hidden="true">EA</span><b>EA Hospitality Pulse</b></a></div></header>
 <main class="wrap" id="content">
   <article class="art">
-    <img class="hero" src="../og/pulse-2026-08-31-morning-clean.png" width="1200" height="630" alt="Morning Brief — Monday, 31 August 2026" loading="eager" fetchpriority="high" decoding="async">
-    <p class="hcredit">Photo: Vyneomondi · <a href="https://commons.wikimedia.org/w/index.php?curid=87197047" target="_blank" rel="noopener nofollow">Openverse · wikimedia</a> · <a href="https://creativecommons.org/licenses/by-sa/4.0/" target="_blank" rel="noopener nofollow">CC BY-SA 4.0</a></p>
+    <img class="hero" src="../og/pulse-2026-08-31-morning.png" width="1200" height="630" alt="Morning Brief — Monday, 31 August 2026" loading="eager" fetchpriority="high" decoding="async">
+    
     <nav class="crumbs" aria-label="Breadcrumb"><a href="../">Home</a><span aria-hidden="true">/</span><a href="../#archive">Editions</a><span aria-hidden="true">/</span><span aria-current="page">Morning Brief, Monday, 31 August 2026</span></nav>
     <div class="kicker"><span class="badge">Morning Brief</span><time datetime="2026-08-31">Monday, 31 August 2026</time><span class="byline">By <a href="../about/onyango-george" rel="author">Onyango George (OG)</a></span></div>
     <h1>JKIA is delayed, not closed — and that distinction is worth money to you today.</h1>
@@ -309,9 +336,24 @@ footer.s .f-geo{margin:0;font:600 10.5px/1.6 var(--mono);letter-spacing:.12em;
         <li><a href="https://t.me/eahospitalitypulse" target="_blank" rel="noopener"><span class="chan-n">Telegram</span><span class="chan-d">The full edition, three times a day</span></a></li>
         <li><a href="https://whatsapp.com/channel/0029VbCjul2KmCPTv8Qrh73b" target="_blank" rel="noopener"><span class="chan-n">WhatsApp</span><span class="chan-d">The daily skim</span></a></li>
         <li><a href="https://www.linkedin.com/company/ea-hospitality-pulse/" target="_blank" rel="noopener"><span class="chan-n">LinkedIn</span><span class="chan-d">The Big Read, most evenings</span></a></li>
+        <li><a href="../pdf/latest-weekly.pdf"><span class="chan-n">Weekly PDF</span><span class="chan-d">The Foresight and the week&rsquo;s Big Reads, designed</span></a></li>
         <li><a href="../archive"><span class="chan-n">Archive</span><span class="chan-d">Every edition, searchable</span></a></li>
       </ul>
     </div>
+    <div class="nl">
+      <h2 class="nl-h">The Weekly Edition</h2>
+      <p class="nl-note">Every Sunday: the Foresight and the week&rsquo;s Big Reads as one designed PDF, in your inbox. No daily mail &mdash; one issue a week.</p>
+      <form class="nl-form" method="post" target="_blank"
+            action="https://buttondown.com/api/emails/embed-subscribe/eahospitalitypulse">
+        <label class="vh" for="bd-email-a">Email address</label>
+        <input type="email" name="email" id="bd-email-a"
+               placeholder="you@property.com" required autocomplete="email">
+        <input type="hidden" name="tag" value="weekly">
+        <button type="submit">Get the weekly edition</button>
+      </form>
+      <p class="nl-fine">Free. One email a week. Unsubscribe in one click, and we never share or sell the list. <a href="../privacy">Privacy</a>.</p>
+    </div>
+
   </article>
 </main>
 <footer class="s"><div class="wrap">

@@ -140,7 +140,7 @@ document.getElementById('f').addEventListener('submit', function(e){
     fetch(ENDPOINT,{method:'POST',headers:{'Content-Type':'application/json','Accept':'application/json'},body:JSON.stringify(out)})
       .then(function(r){
         msg.innerHTML = r.ok
-          ? '<b>Thank you — received anonymously.</b> We publish the aggregate results free to everyone who takes part once we have enough responses to report safely. Join the <a href="https://t.me/africabusinessriskreview" target="_blank" rel="noopener">Telegram channel</a> to be first to see them.'
+          ? '<b>Thank you — received anonymously.</b> We publish the aggregate results free to everyone who takes part once we have enough responses to report safely. Join the <a href="https://t.me/eahospitalitypulse" target="_blank" rel="noopener">Telegram channel</a> to be first to see them.'
           : '<b>That did not send.</b> Please copy the text below and email it to <a href="mailto:'+FALLBACK_EMAIL+'">'+FALLBACK_EMAIL+'</a>.';
         if(!r.ok) showDump(out);
         msg.className='show';

@@ -1,0 +1,156 @@
+name: Weekly newsletter
+
+# Fires when a Sunday Foresight lands in editions-src/, builds the designed
+# weekly PDF plus the LinkedIn and email issues, commits them, then delivers.
+#
+# It runs as a SEPARATE workflow from post-to-telegram.yml on purpose. That
+# workflow's job is to get the text edition into the channel within seconds,
+# and nothing slower should ever be allowed to hold it up. This one does the
+# slow work — rendering 13 pages, uploading a PDF, calling an email API — and
+# if it fails, the edition has already reached the channel and the website.
+#
+# Delivery is best-effort by design: a failed send is reported in the run log
+# and in the job summary, never by failing the build after the artefacts have
+# already been committed.
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - 'editions-src/foresight-*.md'
+  workflow_dispatch:
+    inputs:
+      date:
+        description: 'Edition date, YYYY-MM-DD. Blank = the most recent Foresight.'
+        required: false
+        default: ''
+      deliver:
+        description: 'Deliver to Telegram and Buttondown? "false" builds only.'
+        required: false
+        default: 'true'
+
+concurrency:
+  group: weekly-newsletter
+  cancel-in-progress: false
+
+permissions:
+  contents: write
+
+jobs:
+  build-and-deliver:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 2
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+
+      - name: Install dependencies
+        run: pip install --quiet fpdf2
+
+      - name: Resolve the edition date
+        id: which
+        run: |
+          set -euo pipefail
+          IN="${{ github.event.inputs.date }}"
+          if [ -n "$IN" ]; then
+            DATE="$IN"
+          else
+            # the Foresight added in this push, else the newest one on disk
+            ADDED=$(git diff --name-only --diff-filter=A HEAD~1 HEAD -- \
+                    'editions-src/foresight-*.md' || true)
+            if [ -n "$ADDED" ]; then
+              DATE=$(basename "$ADDED" | grep -oE '[0-9]{4}-[0-9]{2}-[0-9]{2}' | head -1)
+            else
+              DATE=$(ls -1 editions-src/foresight-*.md | sort | tail -1 \
+                     | grep -oE '[0-9]{4}-[0-9]{2}-[0-9]{2}')
+            fi
+          fi
+          if [ -z "$DATE" ]; then
+            echo "::notice::no Foresight in this push — nothing to build."
+            echo "skip=true" >> "$GITHUB_OUTPUT"; exit 0
+          fi
+          echo "Building the weekly edition for $DATE"
+          echo "date=$DATE" >> "$GITHUB_OUTPUT"
+          echo "skip=false" >> "$GITHUB_OUTPUT"
+
+      - name: Build the weekly PDF
+        if: steps.which.outputs.skip == 'false'
+        run: |
+          mkdir -p pdf
+          python3 make_weekly_newsletter.py \
+            "editions-src/foresight-${{ steps.which.outputs.date }}.md" \
+            "pdf/weekly-${{ steps.which.outputs.date }}.pdf"
+          cp "pdf/weekly-${{ steps.which.outputs.date }}.pdf" pdf/latest-weekly.pdf
+          # point the homepage download slot at the weekly issue, which
+          # supersedes the Foresight-only PDF it used to offer
+          HUMAN=$(python3 -c "import datetime;print(datetime.date.fromisoformat('${{ steps.which.outputs.date }}').strftime('%-d %B %Y'))")
+          printf "window.LATEST_PDF = {file:'pdf/latest-weekly.pdf', date:'%s'};\n" "$HUMAN" > pdf.js
+
+      - name: Build the LinkedIn and email issues
+        if: steps.which.outputs.skip == 'false'
+        run: |
+          python3 make_newsletter_outputs.py \
+            "editions-src/foresight-${{ steps.which.outputs.date }}.md"
+
+      - name: Commit the artefacts
+        if: steps.which.outputs.skip == 'false'
+        run: |
+          set -euo pipefail
+          git config user.email 'ogcollyns@gmail.com'
+          git config user.name  'EA Hospitality Pulse'
+          git add pdf newsletter pdf.js
+          if git diff --cached --quiet; then
+            echo "nothing new to commit"
+          else
+            git commit -m "Weekly edition artefacts (${{ steps.which.outputs.date }})"
+            # the site build pushes to main too; rebase rather than fight it
+            for i in 1 2 3; do
+              git pull --rebase --autostash origin main && git push origin main && break
+              echo "push attempt $i failed, retrying"; sleep $((5 * i))
+            done
+          fi
+
+      - name: Deliver to Telegram and Buttondown
+        if: steps.which.outputs.skip == 'false' && github.event.inputs.deliver != 'false'
+        continue-on-error: true
+        env:
+          NEWSLETTER_DATE: ${{ steps.which.outputs.date }}
+          TG_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
+          TG_CHAT: '@eahospitalitypulse'
+          BUTTONDOWN_API_KEY: ${{ secrets.BUTTONDOWN_API_KEY }}
+          # Change to 'about_to_send' once you have seen an issue land correctly.
+          # 'draft' means Buttondown holds it for you to press send.
+          BUTTONDOWN_STATUS: 'draft'
+        run: python3 .github/scripts/send_newsletter.py
+
+      - name: Job summary
+        if: steps.which.outputs.skip == 'false'
+        run: |
+          D="${{ steps.which.outputs.date }}"
+          {
+            echo "## Weekly edition — $D"
+            echo ""
+            echo "| Artefact | Path |"
+            echo "|---|---|"
+            echo "| PDF | \`pdf/weekly-$D.pdf\` |"
+            echo "| LinkedIn issue | \`newsletter/weekly-$D.linkedin.md\` |"
+            echo "| Email body | \`newsletter/weekly-$D.email.html\` |"
+            echo ""
+            echo "**LinkedIn is the one manual step.** LinkedIn has no API for"
+            echo "publishing newsletter issues, so open the \`.linkedin.md\` file,"
+            echo "paste it into a new issue of the LinkedIn newsletter, and publish."
+          } >> "$GITHUB_STEP_SUMMARY"
+
+      - name: Upload artefacts
+        if: steps.which.outputs.skip == 'false'
+        uses: actions/upload-artifact@v4
+        with:
+          name: weekly-${{ steps.which.outputs.date }}
+          path: |
+            pdf/weekly-${{ steps.which.outputs.date }}.pdf
+            newsletter/weekly-${{ steps.which.outputs.date }}.*
+          retention-days: 90

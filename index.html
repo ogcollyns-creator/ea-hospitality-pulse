@@ -477,7 +477,7 @@
   .imp-demand{color:var(--sage)} .imp-margin{color:var(--coral)} .imp-risk{color:#ff5b5b} .imp-watch{color:var(--amber)}
   @media(max-width:520px){.imp{position:static;display:inline-flex;margin:0 0 9px}.insight h3,.insight .imeta{padding-right:0}}
 </style>
-<!--BUILD_STAMP:20260920-1913--></head>
+<!--BUILD_STAMP:20260920-1915--></head>
 <body>
 <header class="site">
   <div class="wrap topbar">
@@ -532,9 +532,10 @@
       <span class="flag lg rw" role="button" tabindex="0" title="Rwanda insights" onclick="showCountry('RW')"></span>
       <span class="flaghint">← tap a flag for country insights</span>
     </div>
-    <form id="mc-form-hero" class="mc-form" action="https://gmail.us1.list-manage.com/subscribe/post?u=19ff0019ddd33b1533f381dba&amp;id=cce993cca2&amp;f_id=004614e5f0" method="post" target="_blank" novalidate>
-      <input type="email" name="EMAIL" placeholder="you@email.com" aria-label="Email address" required>
-      <div style="position:absolute;left:-5000px" aria-hidden="true"><input type="text" name="b_19ff0019ddd33b1533f381dba_cce993cca2" tabindex="-1" value=""></div>
+    <form id="mc-form-hero" class="mc-form" method="post" target="_blank"
+          action="https://buttondown.com/api/emails/embed-subscribe/eahospitalitypulse" novalidate>
+      <input type="email" name="email" placeholder="you@property.com" aria-label="Email address" required autocomplete="email">
+      <input type="hidden" name="tag" value="weekly">
       <button type="submit" name="subscribe" class="btn btn-gold" style="border:none">Get the daily brief →</button>
     </form>
     <div id="mc-msg-hero" class="mc-msg"></div>
@@ -766,7 +767,7 @@
         <p>We publish three times a day, plus a Sunday Foresight edition that turns the week's signals into a 30/90-day plan. When our foresight is later confirmed by the data, we say so — because credibility is the product.</p>
         <p style="font-size:14.5px;color:var(--muted);border-left:3px solid var(--gold);padding-left:14px;margin-top:18px">
         <b>How we work.</b> Every claim is attributed to a named source and graded by confidence. Every forecast is logged in our public <a href="#track">track record</a> with a falsifiable test — including the calls we get wrong. Corrections are published, not quietly edited.<br>
-        Editorially independent. Free to read. Reach us via <a href="https://t.me/africabusinessriskreview" target="_blank" rel="noopener">Telegram</a> or <a href="https://www.linkedin.com/company/ea-hospitality-pulse/" target="_blank" rel="noopener">LinkedIn</a>. Associations, trade press and newsletters are welcome to republish free — see our <a href="republish">syndication terms</a> or subscribe to the <a href="feed.xml">RSS feed</a>. Curious how our data and forecasts are built and verified? See our <a href="methodology">methodology</a> or the <a href="faq">FAQ</a>.</p>
+        Editorially independent. Free to read. Reach us via <a href="https://t.me/eahospitalitypulse" target="_blank" rel="noopener">Telegram</a> or <a href="https://www.linkedin.com/company/ea-hospitality-pulse/" target="_blank" rel="noopener">LinkedIn</a>. Associations, trade press and newsletters are welcome to republish free — see our <a href="republish">syndication terms</a> or subscribe to the <a href="feed.xml">RSS feed</a>. Curious how our data and forecasts are built and verified? See our <a href="methodology">methodology</a> or the <a href="faq">FAQ</a>.</p>
         <div class="editor-bio">
           <div class="editor-avatar">OG</div>
           <div>
@@ -777,16 +778,17 @@
       </div>
       <div id="subscribe" class="sub-box">
         <h3>Get every brief</h3>
-        <p>Free. Three times daily on Telegram, with highlights on LinkedIn and WhatsApp — plus the weekly Foresight to your inbox.</p>
-        <form id="mc-form" class="mc-form" action="https://gmail.us1.list-manage.com/subscribe/post?u=19ff0019ddd33b1533f381dba&amp;id=cce993cca2&amp;f_id=004614e5f0" method="post" target="_blank" novalidate>
-          <input type="email" name="EMAIL" placeholder="you@email.com" aria-label="Email address" required>
-          <div style="position:absolute;left:-5000px" aria-hidden="true"><input type="text" name="b_19ff0019ddd33b1533f381dba_cce993cca2" tabindex="-1" value=""></div>
-          <button type="submit" name="subscribe">Get the brief</button>
+        <p>Free. The Weekly Edition every Sunday — the Foresight and the week’s Big Reads as one designed PDF, in your inbox. Three briefs a day run on Telegram, with highlights on LinkedIn and WhatsApp.</p>
+        <form id="mc-form" class="mc-form" method="post" target="_blank"
+              action="https://buttondown.com/api/emails/embed-subscribe/eahospitalitypulse" novalidate>
+          <input type="email" name="email" placeholder="you@property.com" aria-label="Email address" required autocomplete="email">
+          <input type="hidden" name="tag" value="weekly">
+          <button type="submit" name="subscribe">Get the weekly edition</button>
         </form>
         <div id="mc-msg" class="mc-msg"></div>
         <div id="pdf-slot" class="pdf-slot"></div>
         <div class="chan">
-          <a href="https://t.me/africabusinessriskreview" target="_blank" rel="noopener">Telegram channel <span>→</span></a>
+          <a href="https://t.me/eahospitalitypulse" target="_blank" rel="noopener">Telegram channel <span>→</span></a>
           <a href="https://www.linkedin.com/company/ea-hospitality-pulse/" data-channel="linkedin" target="_blank" rel="noopener">LinkedIn <span>→</span></a>
           <a href="https://whatsapp.com/channel/0029VbCjul2KmCPTv8Qrh73b" data-channel="whatsapp" target="_blank" rel="noopener">WhatsApp Channel <span>→</span></a>
           <a href="survey" style="background:rgba(200,137,47,.35)">Operator Sentiment Survey <span>→</span></a>
@@ -1037,18 +1039,19 @@
       }
     });
   });
-  const PDF_MC_ACTION='https://gmail.us1.list-manage.com/subscribe/post?u=19ff0019ddd33b1533f381dba&id=cce993cca2&f_id=004614e5f0';
+  const PDF_MC_ACTION="https://buttondown.com/api/emails/embed-subscribe/eahospitalitypulse";
   function pdfGateSubmit(e, file){
     e.preventDefault();
-    const form=e.target, email=(form.EMAIL&&form.EMAIL.value||'').trim();
+    const form=e.target, input=form.querySelector('input[type=email]');
+    const email=(input && input.value || '').trim();
     if(!email) return false;
     const fd=new FormData();
-    fd.append('EMAIL', email);
-    fd.append('b_19ff0019ddd33b1533f381dba_cce993cca2', '');
+    fd.append('email', email);
+    fd.append('tag', 'weekly');
     fetch(PDF_MC_ACTION, {method:'POST', mode:'no-cors', body:fd}).catch(()=>{});
     window.open(file, '_blank', 'noopener');
     const msg=form.parentElement.querySelector('.pdf-gate-msg');
-    if(msg) msg.textContent="Thanks — you're on the list, and the PDF just opened in a new tab. If it didn't, ";
+    if(msg) msg.textContent="Thanks \u2014 check your inbox to confirm, and the PDF just opened in a new tab. If it didn't, ";
     if(msg){ const a=document.createElement('a'); a.href=file; a.target='_blank'; a.rel='noopener'; a.textContent='open it here.'; msg.appendChild(a); }
     form.style.display='none';
     return false;
@@ -1057,9 +1060,9 @@
     if(box && P && P.file){
       box.innerHTML=
         '<div class="pdf-gate">'+
-          '<div class="pdf-gate-label">⬇ This week\'s Sunday Foresight (PDF)'+(P.date?(' — '+P.date):'')+'</div>'+
+          '<div class="pdf-gate-label">⬇ This week\'s Weekly Edition (PDF)'+(P.date?(' — '+P.date):'')+'</div>'+
           '<form class="mc-form" onsubmit="return pdfGateSubmit(event,\''+P.file+'\')" novalidate>'+
-            '<input type="email" name="EMAIL" placeholder="Email for the PDF" aria-label="Email address" required>'+
+            '<input type="email" name="email" placeholder="Email for the weekly edition" aria-label="Email address" required autocomplete="email">'+
             '<button type="submit">Get the PDF</button>'+
           '</form>'+
           '<div class="pdf-gate-msg"></div>'+

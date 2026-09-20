@@ -22,8 +22,10 @@ except Exception:
     _CFG = {}
 BASE = (_CFG.get("base") or "https://ogcollyns-creator.github.io/ea-hospitality-pulse").rstrip("/")
 CNAME = (_CFG.get("cname") or "").strip()
+NEWSLETTER = _CFG.get("newsletter") or {"provider": "buttondown",
+                                        "username": "eahospitalitypulse"}
 CHANNELS = _CFG.get("channels") or {
-    "telegram": "https://t.me/africabusinessriskreview",
+    "telegram": "https://t.me/eahospitalitypulse",
     "linkedin": "https://www.linkedin.com/company/ea-hospitality-pulse/",
     "whatsapp": "https://whatsapp.com/channel/0029VbCjul2KmCPTv8Qrh73b",
 }
@@ -743,6 +745,33 @@ footer.s a:hover{color:var(--teal-d);border-bottom-color:var(--gold)}
 .chan-n{font:700 11px/1.6 var(--mono);letter-spacing:.09em;text-transform:uppercase;
   color:var(--teal-d);min-width:96px;flex:0 0 auto}
 .chan-d{font-size:14px;color:var(--muted);line-height:1.5}
+
+/* --- weekly-edition signup -------------------------------------------------
+   One field and one button, on the same baseline as the channel rows above it,
+   so the block reads as a fifth channel rather than a marketing interruption.
+   No modal, no delay, no cookie: the form posts straight to Buttondown, which
+   double-opt-ins and handles unsubscribes. */
+.vh{position:absolute;width:1px;height:1px;padding:0;margin:-1px;overflow:hidden;
+  clip:rect(0 0 0 0);white-space:nowrap;border:0}
+.nl{border-top:1px solid var(--line);margin-top:26px;padding-top:18px}
+.nl-h{margin:0 0 2px;font:700 11px/1 var(--mono);letter-spacing:.1em;
+  text-transform:uppercase;color:var(--gold-d)}
+.nl-note{margin:0 0 12px;font-family:var(--sans);font-size:13.5px;
+  line-height:1.5;color:var(--muted)}
+.nl-form{display:flex;flex-wrap:wrap;gap:8px;align-items:stretch}
+.nl-form input[type=email]{flex:1 1 230px;min-width:0;padding:11px 12px;
+  font-family:var(--sans);font-size:15px;color:var(--ink);
+  background:#fff;border:1px solid var(--line);border-radius:0}
+.nl-form input[type=email]:focus{outline:none;border-color:var(--gold);
+  box-shadow:0 0 0 2px rgba(168,111,31,.16)}
+.nl-form button{flex:0 0 auto;padding:11px 20px;cursor:pointer;
+  font:700 11px/1.6 var(--mono);letter-spacing:.09em;text-transform:uppercase;
+  color:#fff;background:var(--teal-d);border:1px solid var(--teal-d);
+  transition:background-color .18s ease,border-color .18s ease}
+.nl-form button:hover{background:var(--gold-d);border-color:var(--gold-d)}
+.nl-fine{margin:10px 0 0;font-family:var(--sans);font-size:12.5px;
+  line-height:1.5;color:var(--muted)}
+@media(max-width:420px){.nl-form button{flex:1 1 100%}}
 footer.s{border-top:1px solid var(--line);margin-top:34px;padding:22px 0 30px;text-align:left}
 footer.s .f-line{margin:0 0 12px;font-family:var(--sans);font-size:13px;
   color:var(--muted);max-width:62ch}
@@ -1139,9 +1168,11 @@ def edition_page(e, siblings=None, prev=None, nxt=None, hero=None, credit=None):
         <li><a href="{CHANNELS['telegram']}" target="_blank" rel="noopener"><span class="chan-n">Telegram</span><span class="chan-d">The full edition, three times a day</span></a></li>
         <li><a href="{CHANNELS['whatsapp']}" target="_blank" rel="noopener"><span class="chan-n">WhatsApp</span><span class="chan-d">The daily skim</span></a></li>
         <li><a href="{CHANNELS['linkedin']}" target="_blank" rel="noopener"><span class="chan-n">LinkedIn</span><span class="chan-d">The Big Read, most evenings</span></a></li>
+        <li><a href="../pdf/latest-weekly.pdf"><span class="chan-n">Weekly PDF</span><span class="chan-d">The Foresight and the week&rsquo;s Big Reads, designed</span></a></li>
         <li><a href="../archive"><span class="chan-n">Archive</span><span class="chan-d">Every edition, searchable</span></a></li>
       </ul>
     </div>
+{signup_form_html('../')}
   </article>
 </main>
 <footer class="s"><div class="wrap">
@@ -1150,6 +1181,40 @@ def edition_page(e, siblings=None, prev=None, nxt=None, hero=None, credit=None):
 <p class="f-geo">Kenya &middot; Uganda &middot; Tanzania &middot; Zanzibar &middot; Rwanda</p>
 </div></footer>
 </body></html>"""
+
+
+
+# ---- weekly-edition signup ---------------------------------------------------
+# Posts directly to Buttondown rather than through a script tag. No third-party
+# JavaScript means no consent banner, nothing extra to load, and the form still
+# works with JS disabled - the POST navigates to Buttondown's own confirmation
+# page, which is a perfectly good outcome.
+def signup_form_html(rel=""):
+    """Markup for the weekly-edition signup. `rel` is the relative prefix to the
+    site root ('' on the homepage, '../' on an edition page). The id is salted
+    with `rel` so two forms on one page cannot collide."""
+    user = NEWSLETTER.get("username", "eahospitalitypulse")
+    fid = "bd-email" + ("-a" if rel else "")
+    return (
+        '    <div class="nl">\n'
+        '      <h2 class="nl-h">The Weekly Edition</h2>\n'
+        '      <p class="nl-note">Every Sunday: the Foresight and the week&rsquo;s '
+        'Big Reads as one designed PDF, in your inbox. No daily mail &mdash; one '
+        'issue a week.</p>\n'
+        '      <form class="nl-form" method="post" target="_blank"\n'
+        '            action="https://buttondown.com/api/emails/embed-subscribe/'
+        + user + '">\n'
+        '        <label class="vh" for="' + fid + '">Email address</label>\n'
+        '        <input type="email" name="email" id="' + fid + '"\n'
+        '               placeholder="you@property.com" required autocomplete="email">\n'
+        '        <input type="hidden" name="tag" value="weekly">\n'
+        '        <button type="submit">Get the weekly edition</button>\n'
+        '      </form>\n'
+        '      <p class="nl-fine">Free. One email a week. Unsubscribe in one click, '
+        'and we never share or sell the list. <a href="' + rel + 'privacy">Privacy</a>.'
+        '</p>\n'
+        '    </div>\n'
+    )
 
 
 # ---- image credits (attribution page for CC-BY / CC-BY-SA photography) -------
