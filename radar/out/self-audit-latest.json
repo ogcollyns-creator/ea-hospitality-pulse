@@ -1,13 +1,14 @@
 {
- "generated": "2026-09-19T10:33+03:00",
- "health": 0.617,
- "grade": "C",
+ "generated": "2026-09-20T10:56+03:00",
+ "health": 0.467,
+ "grade": "D",
  "fails": [
   "source coverage",
-  "source staleness"
+  "source staleness",
+  "edition cadence",
+  "ledger hygiene"
  ],
  "warns": [
-  "edition cadence",
   "signal quality",
   "data freshness",
   "rate-index integrity"
@@ -16,7 +17,7 @@
   {
    "name": "source coverage",
    "status": "FAIL",
-   "detail": "147 tier-1 sources: 106 HEALTHY, 23 MUTE, 18 SILENT. Blind examples: ke-tenders, ug-bou, tz-mnrt, tz-tanapa, tz-immigration, tz-tenders",
+   "detail": "148 tier-1 sources: 107 HEALTHY, 23 MUTE, 18 SILENT. Blind examples: ke-tenders, ug-bou, tz-mnrt, tz-tanapa, tz-immigration, tz-tenders",
    "fix": "Give each blind tier-1 source an RSS/feed URL or frag selector; validate on the runner.",
    "score": 0.0
   },
@@ -30,16 +31,16 @@
   {
    "name": "radar feed freshness",
    "status": "PASS",
-   "detail": "381 in-window obs; newest observation 3.9h old (2026-09-19T06:38:00+03:00).",
+   "detail": "246 in-window obs; newest observation 3.6h old (2026-09-20T07:18:00+03:00).",
    "fix": "",
    "score": 1.0
   },
   {
    "name": "edition cadence",
-   "status": "WARN",
-   "detail": "Missing slots (last 2 full days): 2026-09-18 midday, 2026-09-17 midday",
+   "status": "FAIL",
+   "detail": "Missing slots (last 2 full days): 2026-09-19 morning, 2026-09-19 midday, 2026-09-18 midday",
    "fix": "Confirm the scheduled Pulse task fired for each slot.",
-   "score": 0.5
+   "score": 0.0
   },
   {
    "name": "signal quality",
@@ -50,15 +51,15 @@
   },
   {
    "name": "ledger hygiene",
-   "status": "PASS",
-   "detail": "194 calls: 142 open, 50 resolved. Overdue-open: 0. Missing source_url: 37.",
-   "fix": "",
-   "score": 1.0
+   "status": "FAIL",
+   "detail": "197 calls: 144 open, 50 resolved. Overdue-open: 2. Missing source_url: 37.",
+   "fix": "Resolve overdue calls now: P085, P106. ",
+   "score": 0.0
   },
   {
    "name": "data freshness",
    "status": "WARN",
-   "detail": "Stale/again-verify: calendar.js 52d>21, pipeline.js 30d>21",
+   "detail": "Stale/again-verify: calendar.js 53d>21, pipeline.js 31d>21",
    "fix": "Re-verify each dataset's values and bump its 'updated:' field, or note it in-edition.",
    "score": 0.5
   },
@@ -79,7 +80,7 @@
   {
    "name": "published content",
    "status": "PASS",
-   "detail": "4 recent editions; no advisory claim contradicts the board.",
+   "detail": "5 recent editions; no advisory claim contradicts the board.",
    "fix": "",
    "score": 1.0
   }
