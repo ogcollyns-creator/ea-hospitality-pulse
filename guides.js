@@ -1,5 +1,14 @@
 window.GUIDES = [
  {
+  "slug": "kenya-grid-cheaper-exit-narrower",
+  "title": "Kenya's grid got cheaper. Leaving it got harder. Both happened in the same week.",
+  "description": "The regulator cut September's electricity pass-through by 54 cents a unit and, in a separate notice days later, halved the credit for power that hotels and lodges push back into the grid. Read together, they are not two notices. They are one policy.",
+  "category": "Big Read",
+  "updated": "2026-09-20",
+  "readMins": 7,
+  "image": "img/editions/pulse-2026-09-20-evening.jpg"
+ },
+ {
   "slug": "kenya-tourism-licensing-quality-mark-price",
   "title": "Kenya built its quality marks by going door to door. The new rules put a price on them.",
   "description": "Legal Notice 127 gives hotels a nine-rung licence ladder, then charges every enterprise the same KSh 250,000 for classification and KSh 100,000 for accreditation. Half the establishments already holding a quality mark have fewer than 36 rooms.",
