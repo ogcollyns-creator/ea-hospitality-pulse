@@ -1,18 +1,18 @@
 {
- "generated": "2026-09-20T21:32:18+03:00",
- "slot": "evening",
- "window_start": 1789898400,
- "observations_in_window": 269,
+ "generated": "2026-09-21T01:20:55+03:00",
+ "slot": "morning",
+ "window_start": 1789916400,
+ "observations_in_window": 226,
  "deduped_against": 8,
  "candidates": [
   {
-   "score": 141.4,
+   "score": 137.2,
    "components": {
     "tier": 40,
     "category": 32,
     "lead": 16.8,
     "relevance": 24,
-    "freshness": 16.6,
+    "freshness": 12.4,
     "undated": -6,
     "shock": 18
    },
@@ -44,13 +44,82 @@
    "verdict": "LEAD CANDIDATE \u2014 tier-1 shock language"
   },
   {
-   "score": 111.4,
+   "score": 117.7,
+   "components": {
+    "tier": 40,
+    "category": 32,
+    "lead": 12.0,
+    "relevance": 8,
+    "freshness": 19.7,
+    "corroborated": 10,
+    "page_change": -4
+   },
+   "keywords": [
+    "fee"
+   ],
+   "shock_terms": [],
+   "dedupe_match": null,
+   "dedupe_similarity": 0.17,
+   "id": "f9be522edd42",
+   "title": "[page changed] Federal Register \u2014 CDC notices",
+   "url": "https://www.federalregister.gov/api/v1/documents.rss?conditions%5Bagencies%5D%5B%5D=centers-for-disease-control-and-prevention&order=newest",
+   "summary": "Federal Register Documents published on or after 08/21/2026 and from Centers for Disease Control and Prevention https://www.federalregister.gov/api/v1/documents.rss?conditions%5Bagencies%5D%5B%5D=centers-for-disease-control-and-prevention&order=newest Mon, 21 Sep 2026 04:00:00 GMT The documents in this feed originate from FederalRegister.gov which displays an unofficial web version of the daily Fe",
+   "kind": "page-change",
+   "source": "Federal Register \u2014 CDC notices",
+   "source_id": "us-fedreg-cdc",
+   "tier": 1,
+   "country": "REG",
+   "category": "advisory",
+   "segments": [
+    "city",
+    "bush"
+   ],
+   "first_seen": "2026-09-21T01:15+03:00",
+   "published": "2026-10-11",
+   "verdict": "OPEN THIS \u2014 tier-1 advisory page moved; content not auto-parsed, read it manually"
+  },
+  {
+   "score": 65.3,
+   "components": {
+    "tier": 40,
+    "category": 12,
+    "lead": 3.6,
+    "relevance": 0,
+    "freshness": 19.7,
+    "undated": -6,
+    "page_change": -4
+   },
+   "keywords": [],
+   "shock_terms": [],
+   "dedupe_match": null,
+   "dedupe_similarity": 0.0,
+   "id": "fd41002d11f5",
+   "title": "[page changed] Airlink news",
+   "url": "https://www.flyairlink.com/",
+   "summary": "Request unsuccessful. Incapsula incident ID: 1011000062284083243-1425993579732599214",
+   "kind": "page-change",
+   "source": "Airlink news",
+   "source_id": "air-airlink",
+   "tier": 1,
+   "country": "REG",
+   "category": "airline",
+   "segments": [
+    "city",
+    "bush",
+    "beach"
+   ],
+   "first_seen": "2026-09-21T01:14+03:00",
+   "published": null,
+   "verdict": "OPEN THIS \u2014 tier-1 airline page moved; content not auto-parsed, read it manually"
+  },
+  {
+   "score": 107.2,
    "components": {
     "tier": 40,
     "category": 32,
     "lead": 16.8,
     "relevance": 12,
-    "freshness": 16.6,
+    "freshness": 12.4,
     "undated": -6
    },
    "keywords": [
@@ -78,13 +147,46 @@
    "verdict": "STRONG \u2014 tier-1, upstream"
   },
   {
-   "score": 104.4,
+   "score": 101.7,
+   "components": {
+    "tier": 40,
+    "category": 32,
+    "lead": 0.0,
+    "relevance": 0,
+    "freshness": 19.7,
+    "corroborated": 10
+   },
+   "keywords": [],
+   "shock_terms": [],
+   "dedupe_match": null,
+   "dedupe_similarity": 0.0,
+   "id": "eff15737be00",
+   "title": "Data Intermediaries and Approaches To Strengthen Public Health Data Exchange",
+   "url": "https://www.federalregister.gov/documents/2026/09/21/2026-19271/data-intermediaries-and-approaches-to-strengthen-public-health-data-exchange",
+   "summary": "The Centers for Disease Control and Prevention (CDC) seeks broad public input on how data intermediaries can be used to support secure, scalable, standards-based public health data exchange. CDC invites public comment to inform the evaluation and to explore how data intermediaries can advance broader goals to prevent disease, detect emerging threats, drive state-of-the-art solutions that empower c",
+   "kind": "item",
+   "source": "Federal Register \u2014 CDC documents (newest first)",
+   "source_id": "fr-cdc-agency-feed",
+   "tier": 1,
+   "country": "GLOBAL",
+   "category": "advisory",
+   "segments": [
+    "Bush",
+    "City",
+    "Beach"
+   ],
+   "first_seen": "2026-09-21T01:15+03:00",
+   "published": "2026-09-21",
+   "verdict": "STRONG \u2014 tier-1, upstream"
+  },
+  {
+   "score": 100.2,
    "components": {
     "tier": 40,
     "category": 17,
     "lead": 16.8,
     "relevance": 20,
-    "freshness": 16.6,
+    "freshness": 12.4,
     "undated": -6
    },
    "keywords": [
@@ -113,13 +215,13 @@
    "verdict": "STRONG \u2014 tier-1, upstream"
   },
   {
-   "score": 101.5,
+   "score": 97.3,
    "components": {
     "tier": 40,
     "category": 20,
     "lead": 12.0,
     "relevance": 0,
-    "freshness": 19.5,
+    "freshness": 15.3,
     "corroborated": 10
    },
    "keywords": [],
@@ -146,13 +248,13 @@
    "verdict": "STRONG \u2014 tier-1, upstream"
   },
   {
-   "score": 101.5,
+   "score": 97.3,
    "components": {
     "tier": 40,
     "category": 20,
     "lead": 12.0,
     "relevance": 0,
-    "freshness": 19.5,
+    "freshness": 15.3,
     "corroborated": 10
    },
    "keywords": [],
@@ -179,13 +281,13 @@
    "verdict": "STRONG \u2014 tier-1, upstream"
   },
   {
-   "score": 101.5,
+   "score": 97.3,
    "components": {
     "tier": 40,
     "category": 20,
     "lead": 12.0,
     "relevance": 0,
-    "freshness": 19.5,
+    "freshness": 15.3,
     "corroborated": 10
    },
    "keywords": [],
@@ -212,13 +314,13 @@
    "verdict": "STRONG \u2014 tier-1, upstream"
   },
   {
-   "score": 101.5,
+   "score": 97.3,
    "components": {
     "tier": 40,
     "category": 20,
     "lead": 12.0,
     "relevance": 0,
-    "freshness": 19.5,
+    "freshness": 15.3,
     "corroborated": 10
    },
    "keywords": [],
@@ -245,13 +347,13 @@
    "verdict": "STRONG \u2014 tier-1, upstream"
   },
   {
-   "score": 101.5,
+   "score": 97.3,
    "components": {
     "tier": 40,
     "category": 20,
     "lead": 12.0,
     "relevance": 0,
-    "freshness": 19.5,
+    "freshness": 15.3,
     "corroborated": 10
    },
    "keywords": [],
@@ -278,13 +380,13 @@
    "verdict": "STRONG \u2014 tier-1, upstream"
   },
   {
-   "score": 101.5,
+   "score": 97.3,
    "components": {
     "tier": 40,
     "category": 20,
     "lead": 12.0,
     "relevance": 0,
-    "freshness": 19.5,
+    "freshness": 15.3,
     "corroborated": 10
    },
    "keywords": [],
@@ -311,13 +413,13 @@
    "verdict": "STRONG \u2014 tier-1, upstream"
   },
   {
-   "score": 101.5,
+   "score": 97.3,
    "components": {
     "tier": 40,
     "category": 20,
     "lead": 12.0,
     "relevance": 0,
-    "freshness": 19.5,
+    "freshness": 15.3,
     "corroborated": 10
    },
    "keywords": [],
@@ -344,13 +446,13 @@
    "verdict": "STRONG \u2014 tier-1, upstream"
   },
   {
-   "score": 101.5,
+   "score": 97.3,
    "components": {
     "tier": 40,
     "category": 20,
     "lead": 12.0,
     "relevance": 0,
-    "freshness": 19.5,
+    "freshness": 15.3,
     "corroborated": 10
    },
    "keywords": [],
@@ -377,13 +479,13 @@
    "verdict": "STRONG \u2014 tier-1, upstream"
   },
   {
-   "score": 101.5,
+   "score": 97.3,
    "components": {
     "tier": 40,
     "category": 20,
     "lead": 12.0,
     "relevance": 0,
-    "freshness": 19.5,
+    "freshness": 15.3,
     "corroborated": 10
    },
    "keywords": [],
@@ -410,13 +512,13 @@
    "verdict": "STRONG \u2014 tier-1, upstream"
   },
   {
-   "score": 100.4,
+   "score": 96.2,
    "components": {
     "tier": 40,
     "category": 17,
     "lead": 16.8,
     "relevance": 16,
-    "freshness": 16.6,
+    "freshness": 12.4,
     "undated": -6
    },
    "keywords": [
@@ -444,13 +546,13 @@
    "verdict": "STRONG \u2014 tier-1, upstream"
   },
   {
-   "score": 100.4,
+   "score": 96.2,
    "components": {
     "tier": 40,
     "category": 17,
     "lead": 16.8,
     "relevance": 16,
-    "freshness": 16.6,
+    "freshness": 12.4,
     "undated": -6
    },
    "keywords": [
@@ -479,13 +581,13 @@
    "verdict": "STRONG \u2014 tier-1, upstream"
   },
   {
-   "score": 100.4,
+   "score": 96.2,
    "components": {
     "tier": 40,
     "category": 17,
     "lead": 16.8,
     "relevance": 16,
-    "freshness": 16.6,
+    "freshness": 12.4,
     "undated": -6
    },
    "keywords": [
@@ -513,13 +615,51 @@
    "verdict": "STRONG \u2014 tier-1, upstream"
   },
   {
-   "score": 99.5,
+   "score": 96.1,
+   "components": {
+    "tier": 20,
+    "category": 14,
+    "lead": 8.4,
+    "relevance": 24,
+    "freshness": 19.7,
+    "corroborated": 10
+   },
+   "keywords": [
+    "route",
+    "seat",
+    "airline",
+    "franc"
+   ],
+   "shock_terms": [],
+   "dedupe_match": null,
+   "dedupe_similarity": 0.33,
+   "id": "c8cda0fe1877",
+   "title": "American / Starlux Plans Codeshare Service From late-Sep 2026",
+   "url": "https://www.aeroroutes.com/eng/260920-aajxcodeshare",
+   "summary": "Published at 1500PDT / 2200GMT 20SEP26 American Airlines and Starlux Airlines from late-September 2026 plans to launch reciprocal codeshare partnership, based on American Airlines\u2019 schedule update filed during the weekend of 19SEP26. The pair plans to launch codeshare service on 30SEP26 at the earliest, initially covering following routes. American Airlines operated by Starlux Airlines Taipei Taoy",
+   "kind": "item",
+   "source": "AeroRoutes schedule filings",
+   "source_id": "aeroroutes",
+   "tier": 2,
+   "country": "GLOBAL",
+   "category": "aviation-tracker",
+   "segments": [
+    "city",
+    "bush",
+    "beach"
+   ],
+   "first_seen": "2026-09-21T01:15+03:00",
+   "published": "2026-09-21",
+   "verdict": "CONSIDER"
+  },
+  {
+   "score": 95.3,
    "components": {
     "tier": 40,
     "category": 20,
     "lead": 12.0,
     "relevance": 8,
-    "freshness": 19.5
+    "freshness": 15.3
    },
    "keywords": [
     "gazette"
@@ -547,13 +687,13 @@
    "verdict": "STRONG \u2014 tier-1, upstream"
   },
   {
-   "score": 99.4,
+   "score": 95.2,
    "components": {
     "tier": 40,
     "category": 32,
     "lead": 16.8,
     "relevance": 0,
-    "freshness": 16.6,
+    "freshness": 12.4,
     "undated": -6
    },
    "keywords": [],
@@ -579,13 +719,13 @@
    "verdict": "STRONG \u2014 tier-1, upstream"
   },
   {
-   "score": 99.4,
+   "score": 95.2,
    "components": {
     "tier": 40,
     "category": 32,
     "lead": 16.8,
     "relevance": 0,
-    "freshness": 16.6,
+    "freshness": 12.4,
     "undated": -6
    },
    "keywords": [],
@@ -611,13 +751,13 @@
    "verdict": "STRONG \u2014 tier-1, upstream"
   },
   {
-   "score": 99.4,
+   "score": 95.2,
    "components": {
     "tier": 40,
     "category": 32,
     "lead": 16.8,
     "relevance": 0,
-    "freshness": 16.6,
+    "freshness": 12.4,
     "undated": -6
    },
    "keywords": [],
@@ -643,13 +783,13 @@
    "verdict": "STRONG \u2014 tier-1, upstream"
   },
   {
-   "score": 99.4,
+   "score": 95.2,
    "components": {
     "tier": 40,
     "category": 32,
     "lead": 16.8,
     "relevance": 0,
-    "freshness": 16.6,
+    "freshness": 12.4,
     "undated": -6
    },
    "keywords": [],
@@ -675,13 +815,13 @@
    "verdict": "STRONG \u2014 tier-1, upstream"
   },
   {
-   "score": 99.4,
+   "score": 95.2,
    "components": {
     "tier": 40,
     "category": 32,
     "lead": 16.8,
     "relevance": 0,
-    "freshness": 16.6,
+    "freshness": 12.4,
     "undated": -6
    },
    "keywords": [],
@@ -707,13 +847,13 @@
    "verdict": "STRONG \u2014 tier-1, upstream"
   },
   {
-   "score": 96.4,
+   "score": 92.2,
    "components": {
     "tier": 40,
     "category": 17,
     "lead": 16.8,
     "relevance": 12,
-    "freshness": 16.6,
+    "freshness": 12.4,
     "undated": -6
    },
    "keywords": [
@@ -741,13 +881,13 @@
    "verdict": "STRONG \u2014 tier-1, upstream"
   },
   {
-   "score": 96.4,
+   "score": 92.2,
    "components": {
     "tier": 40,
     "category": 17,
     "lead": 16.8,
     "relevance": 12,
-    "freshness": 16.6,
+    "freshness": 12.4,
     "undated": -6
    },
    "keywords": [
@@ -775,13 +915,13 @@
    "verdict": "STRONG \u2014 tier-1, upstream"
   },
   {
-   "score": 94.6,
+   "score": 90.4,
    "components": {
     "tier": 40,
     "category": 32,
     "lead": 12.0,
     "relevance": 0,
-    "freshness": 16.6,
+    "freshness": 12.4,
     "undated": -6
    },
    "keywords": [],
@@ -807,13 +947,13 @@
    "verdict": "STRONG \u2014 tier-1, upstream"
   },
   {
-   "score": 94.6,
+   "score": 90.4,
    "components": {
     "tier": 40,
     "category": 32,
     "lead": 12.0,
     "relevance": 0,
-    "freshness": 16.6,
+    "freshness": 12.4,
     "undated": -6
    },
    "keywords": [],
@@ -839,13 +979,13 @@
    "verdict": "STRONG \u2014 tier-1, upstream"
   },
   {
-   "score": 94.6,
+   "score": 90.4,
    "components": {
     "tier": 40,
     "category": 32,
     "lead": 12.0,
     "relevance": 0,
-    "freshness": 16.6,
+    "freshness": 12.4,
     "undated": -6
    },
    "keywords": [],
@@ -871,13 +1011,13 @@
    "verdict": "STRONG \u2014 tier-1, upstream"
   },
   {
-   "score": 94.6,
+   "score": 90.4,
    "components": {
     "tier": 40,
     "category": 32,
     "lead": 12.0,
     "relevance": 0,
-    "freshness": 16.6,
+    "freshness": 12.4,
     "undated": -6
    },
    "keywords": [],
@@ -903,13 +1043,13 @@
    "verdict": "STRONG \u2014 tier-1, upstream"
   },
   {
-   "score": 92.4,
+   "score": 88.2,
    "components": {
     "tier": 40,
     "category": 17,
     "lead": 16.8,
     "relevance": 8,
-    "freshness": 16.6,
+    "freshness": 12.4,
     "undated": -6
    },
    "keywords": [
@@ -933,16 +1073,16 @@
    ],
    "first_seen": "2026-09-20T18:38+03:00",
    "published": null,
-   "verdict": "STRONG \u2014 tier-1, upstream"
+   "verdict": "CONSIDER"
   },
   {
-   "score": 92.4,
+   "score": 88.2,
    "components": {
     "tier": 40,
     "category": 17,
     "lead": 16.8,
     "relevance": 8,
-    "freshness": 16.6,
+    "freshness": 12.4,
     "undated": -6
    },
    "keywords": [
@@ -966,16 +1106,16 @@
    ],
    "first_seen": "2026-09-20T18:38+03:00",
    "published": null,
-   "verdict": "STRONG \u2014 tier-1, upstream"
+   "verdict": "CONSIDER"
   },
   {
-   "score": 92.4,
+   "score": 88.2,
    "components": {
     "tier": 40,
     "category": 17,
     "lead": 16.8,
     "relevance": 8,
-    "freshness": 16.6,
+    "freshness": 12.4,
     "undated": -6
    },
    "keywords": [
@@ -999,16 +1139,16 @@
    ],
    "first_seen": "2026-09-20T18:38+03:00",
    "published": null,
-   "verdict": "STRONG \u2014 tier-1, upstream"
+   "verdict": "CONSIDER"
   },
   {
-   "score": 92.4,
+   "score": 88.2,
    "components": {
     "tier": 40,
     "category": 17,
     "lead": 16.8,
     "relevance": 8,
-    "freshness": 16.6,
+    "freshness": 12.4,
     "undated": -6
    },
    "keywords": [
@@ -1032,16 +1172,16 @@
    ],
    "first_seen": "2026-09-20T18:38+03:00",
    "published": null,
-   "verdict": "STRONG \u2014 tier-1, upstream"
+   "verdict": "CONSIDER"
   },
   {
-   "score": 92.4,
+   "score": 88.2,
    "components": {
     "tier": 40,
     "category": 17,
     "lead": 16.8,
     "relevance": 8,
-    "freshness": 16.6,
+    "freshness": 12.4,
     "undated": -6
    },
    "keywords": [
@@ -1065,16 +1205,16 @@
    ],
    "first_seen": "2026-09-20T18:38+03:00",
    "published": null,
-   "verdict": "STRONG \u2014 tier-1, upstream"
+   "verdict": "CONSIDER"
   },
   {
-   "score": 88.4,
+   "score": 84.2,
    "components": {
     "tier": 40,
     "category": 17,
     "lead": 16.8,
     "relevance": 4,
-    "freshness": 16.6,
+    "freshness": 12.4,
     "undated": -6
    },
    "keywords": [
@@ -1101,13 +1241,46 @@
    "verdict": "CONSIDER"
   },
   {
-   "score": 84.4,
+   "score": 81.3,
+   "components": {
+    "tier": 40,
+    "category": 32,
+    "lead": 3.6,
+    "relevance": 0,
+    "freshness": 19.7,
+    "stale_trap": -10,
+    "page_change": -4
+   },
+   "keywords": [],
+   "shock_terms": [],
+   "dedupe_match": null,
+   "dedupe_similarity": 0.0,
+   "id": "819f0900f6bf",
+   "title": "[page changed] Federal Register \u2014 public inspection (HHS/CDC), pre-publication",
+   "url": "https://www.federalregister.gov/api/v1/public-inspection-documents/current.json",
+   "summary": "{\"count\":79,\"results\":[{\"agencies\":[{\"raw_name\":\"SECURITIES AND EXCHANGE COMMISSION\",\"name\":\"Securities and Exchange Commission\",\"id\":466,\"url\":\"https://www.federalregister.gov/agencies/securities-and-exchange-commission\",\"json_url\":\"https://www.federalregister.gov/api/v1/agencies/466\",\"parent_id\":null,\"slug\":\"securities-and-exchange-commission\"}],\"agency_letters\":[],\"agency_names\":[\"Securities an",
+   "kind": "page-change",
+   "source": "Federal Register \u2014 public inspection (HHS/CDC), pre-publication",
+   "source_id": "us-fedreg-pubinspect-hhs",
+   "tier": 1,
+   "country": "REG",
+   "category": "advisory",
+   "segments": [
+    "city",
+    "bush"
+   ],
+   "first_seen": "2026-09-21T01:15+03:00",
+   "published": "2026-09-17",
+   "verdict": "CHECK \u2014 source date older than the window"
+  },
+  {
+   "score": 80.2,
    "components": {
     "tier": 40,
     "category": 17,
     "lead": 16.8,
     "relevance": 0,
-    "freshness": 16.6,
+    "freshness": 12.4,
     "undated": -6
    },
    "keywords": [],
@@ -1132,13 +1305,13 @@
    "verdict": "CONSIDER"
   },
   {
-   "score": 84.4,
+   "score": 80.2,
    "components": {
     "tier": 40,
     "category": 17,
     "lead": 16.8,
     "relevance": 0,
-    "freshness": 16.6,
+    "freshness": 12.4,
     "undated": -6
    },
    "keywords": [],
@@ -1157,169 +1330,6 @@
    "category": "regulator",
    "segments": [
     "beach"
-   ],
-   "first_seen": "2026-09-20T18:38+03:00",
-   "published": null,
-   "verdict": "CONSIDER"
-  },
-  {
-   "score": 84.4,
-   "components": {
-    "tier": 40,
-    "category": 17,
-    "lead": 16.8,
-    "relevance": 0,
-    "freshness": 16.6,
-    "undated": -6
-   },
-   "keywords": [],
-   "shock_terms": [],
-   "dedupe_match": null,
-   "dedupe_similarity": 0.0,
-   "id": "3601cfb7aeab",
-   "title": "Motor Vehicle Registration Motor Vehicle Registration shall be payable to the licensing\u2026",
-   "url": "https://www.zanrevenue.org/tax/motor-vehicle-registration",
-   "summary": "",
-   "kind": "item",
-   "source": "Zanzibar Revenue Authority (ZRA, formerly ZRB)",
-   "source_id": "zn-zra",
-   "tier": 1,
-   "country": "ZNZ",
-   "category": "regulator",
-   "segments": [
-    "beach"
-   ],
-   "first_seen": "2026-09-20T18:38+03:00",
-   "published": null,
-   "verdict": "CONSIDER"
-  },
-  {
-   "score": 84.4,
-   "components": {
-    "tier": 40,
-    "category": 17,
-    "lead": 16.8,
-    "relevance": 0,
-    "freshness": 16.6,
-    "undated": -6
-   },
-   "keywords": [],
-   "shock_terms": [],
-   "dedupe_match": null,
-   "dedupe_similarity": 0.0,
-   "id": "0d91241d9a44",
-   "title": "Dr. Baghayo Abdallah Saqware Commissioner of Insurance",
-   "url": "https://www.tira.go.tz/administration/profile/dr-baghayo-a-saqware",
-   "summary": "",
-   "kind": "item",
-   "source": "Tanzania Insurance Regulatory Authority (TIRA)",
-   "source_id": "tz-tira",
-   "tier": 1,
-   "country": "TZ",
-   "category": "regulator",
-   "segments": [
-    "beach",
-    "bush",
-    "city"
-   ],
-   "first_seen": "2026-09-20T18:38+03:00",
-   "published": null,
-   "verdict": "CONSIDER"
-  },
-  {
-   "score": 84.4,
-   "components": {
-    "tier": 40,
-    "category": 17,
-    "lead": 16.8,
-    "relevance": 0,
-    "freshness": 16.6,
-    "undated": -6
-   },
-   "keywords": [],
-   "shock_terms": [],
-   "dedupe_match": null,
-   "dedupe_similarity": 0.0,
-   "id": "084402fcf78a",
-   "title": "Ms. Khadija Issa Said Deputy Commissioner of Insurance",
-   "url": "https://www.tira.go.tz/administration/profile/khadija-said",
-   "summary": "",
-   "kind": "item",
-   "source": "Tanzania Insurance Regulatory Authority (TIRA)",
-   "source_id": "tz-tira",
-   "tier": 1,
-   "country": "TZ",
-   "category": "regulator",
-   "segments": [
-    "beach",
-    "bush",
-    "city"
-   ],
-   "first_seen": "2026-09-20T18:38+03:00",
-   "published": null,
-   "verdict": "CONSIDER"
-  },
-  {
-   "score": 84.4,
-   "components": {
-    "tier": 40,
-    "category": 17,
-    "lead": 16.8,
-    "relevance": 0,
-    "freshness": 16.6,
-    "undated": -6
-   },
-   "keywords": [],
-   "shock_terms": [],
-   "dedupe_match": null,
-   "dedupe_similarity": 0.0,
-   "id": "15cf8b4e6cb5",
-   "title": "20 Sep 26 Kigoma: TIRA Yaweka Mkazo kwenye Elimu ya Bima katika Lake T... Mamlaka ya Usimamizi wa Bima Tanzania (TIRA) inaendelea kushiriki katika Maonesho ya Biashara na Uwe... Read More",
-   "url": "https://www.tira.go.tz/news/kigoma-tira-yaweka-mkazo-kwenye-elimu-ya-bima-katika-lake-tanganyika-international-expo",
-   "summary": "",
-   "kind": "item",
-   "source": "Tanzania Insurance Regulatory Authority (TIRA)",
-   "source_id": "tz-tira",
-   "tier": 1,
-   "country": "TZ",
-   "category": "regulator",
-   "segments": [
-    "beach",
-    "bush",
-    "city"
-   ],
-   "first_seen": "2026-09-20T18:38+03:00",
-   "published": null,
-   "verdict": "CONSIDER"
-  },
-  {
-   "score": 84.4,
-   "components": {
-    "tier": 40,
-    "category": 17,
-    "lead": 16.8,
-    "relevance": 0,
-    "freshness": 16.6,
-    "undated": -6
-   },
-   "keywords": [],
-   "shock_terms": [],
-   "dedupe_match": null,
-   "dedupe_similarity": 0.0,
-   "id": "455e1664b614",
-   "title": "20 Sep 26 TIRA Kanda ya Kaskazini yajadili fursa za ukuaji wa Soko la... Ofisi ya Kanda ya Kaskazini ya Mamlaka ya Usimamizi wa Bima Tanzania (TIRA), tarehe 18 Septemba 2026... Read More",
-   "url": "https://www.tira.go.tz/news/tira-kanda-ya-kaskazini-yajadili-fursa-za-ukuaji-wa-soko-la-bima",
-   "summary": "",
-   "kind": "item",
-   "source": "Tanzania Insurance Regulatory Authority (TIRA)",
-   "source_id": "tz-tira",
-   "tier": 1,
-   "country": "TZ",
-   "category": "regulator",
-   "segments": [
-    "beach",
-    "bush",
-    "city"
    ],
    "first_seen": "2026-09-20T18:38+03:00",
    "published": null,
