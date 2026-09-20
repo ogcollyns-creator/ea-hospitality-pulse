@@ -1,8 +1,8 @@
 window.LEDGER = {
- "updated": "2026-09-20 15:28",
+ "updated": "2026-09-20 18:29",
  "stats": {
-  "total": 200,
-  "open": 145,
+  "total": 202,
+  "open": 147,
   "resolved": 50,
   "correct": 39,
   "partial": 1,
@@ -827,6 +827,22 @@ window.LEDGER = {
    "overdue": false
   },
   {
+   "id": "P200",
+   "made_date": "2026-09-20",
+   "edition": "Sunday Foresight",
+   "claim": "Entebbe International Airport's SEPTEMBER 2026 international passenger traffic will still be more than 15% below September 2025 when UCAA figures are reported - every named cause of the August 29.1% deficit (KLM not resumed, Uganda Airlines Kinshasa suspended, Dubai restricting Uganda-originating passengers, the US entry order renewed on 16 September) was still in force throughout September",
+   "resolution_criteria": "A UCAA monthly traffic figure for September 2026 reported by UCAA, Nilepost, 256 Business News, Daily Monitor, New Vision, Business Focus or Aviation Week on or before 30 November 2026 showing international passenger traffic more than 15% below the September 2025 comparable resolves the call CORRECT. A figure 15% or less below September 2025, or above it, resolves it INCORRECT",
+   "resolve_by": "2026-11-30",
+   "market": "Uganda",
+   "segment": "City|Bush",
+   "confidence": "Medium",
+   "status": "open",
+   "resolved_date": "",
+   "evidence": "",
+   "source_url": "https://www.256businessnews.com/entebbe-airport-passenger-traffic-recovers-in-august-but-remains-below-2025-levels/",
+   "overdue": false
+  },
+  {
    "id": "P190",
    "made_date": "2026-09-17",
    "edition": "Evening Wrap",
@@ -1368,6 +1384,22 @@ window.LEDGER = {
    "resolved_date": "",
    "evidence": "",
    "source_url": "https://www.kenyans.co.ke/news/127162-tanzania-introduces-mandatory-travel-insurance-foreign-visitors",
+   "overdue": false
+  },
+  {
+   "id": "P201",
+   "made_date": "2026-09-20",
+   "edition": "Sunday Foresight",
+   "claim": "France Diplomatie will NOT remove the active pre-electoral framing from its Kenya security page before 31 December 2026 - the 15 September 2026 update ties the risk to the 10 August 2027 general election, eleven months beyond that date",
+   "resolution_criteria": "Read diplomatie.gouv.fr/fr/information-par-pays/kenya/conseils-aux-voyageurs-securite on 31 December 2026. Continued presence of language describing Kenya as being in a pre-electoral situation or period, or warning of election-linked mobilisation, blockages or violence, resolves the call CORRECT. Removal of all such language resolves it INCORRECT",
+   "resolve_by": "2026-12-31",
+   "market": "KE",
+   "segment": "City|Beach|Bush",
+   "confidence": "Medium",
+   "status": "open",
+   "resolved_date": "",
+   "evidence": "",
+   "source_url": "https://www.diplomatie.gouv.fr/fr/information-par-pays/kenya/conseils-aux-voyageurs-securite",
    "overdue": false
   },
   {

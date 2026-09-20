@@ -9,6 +9,15 @@ window.EDITIONS = [
   "bodyHtml": "<p><strong>🌆 EVENING WRAP · Sun 20 Sep 2026</strong></p>\n<p><strong>1️⃣ YOUR POWER BILL FELL THIS MONTH. THE SAME GAZETTE ROUND CLOSED THE WAY OUT OF IT.</strong></p>\n<p>EPRA&#x27;s September pass-through is <strong>KSh 4.16/kWh</strong> — fuel charge KSh 3.00, forex ~KSh 1.14 against KSh 1.32bn of exchange costs, WRMA levy 1.48 cents — on every meter reading taken in September <strong>(Gazette Notice, 18 Sep 2026)</strong>. August was <strong>KSh 4.7027</strong> <strong>(Gazette Notices 13172/13173/13174, 14 Aug 2026)</strong>. Down <strong>54 cents, 11.5%</strong>.</p>\n<p><strong>What everyone is missing:</strong> the cheap line is the reversible one. Thermal dispatch swings monthly; forex barely moved, and in August IPPs alone carried KSh 1.039bn of KSh 1.353bn. Meanwhile a <strong>separate notice the same week</strong> amended the Schedule of Tariffs 2023: net-metering customers are credited for <strong>half</strong> what they export, and feeding KPLC <strong>without approval is now &quot;dumping&quot;</strong>, billed back at base tariff.</p>\n<p>The grid got cheaper for one month. Leaving the grid got permanently narrower.<br><span class=\"tagline\">🏷 City, Bush, Beach | Kenya | Confirmed | impact:margin</span><br><span class=\"sowhat\">🎯 Reprice energy off September, not August. Then confirm in writing whether your inverter exports and whether your net-metering agreement is approved — that clause now has a bill attached.</span></p>\n<p><strong>2️⃣ CANADA&#x27;S EBOLA BAR ON UGANDA EXPIRES IN EIGHT DAYS</strong></p>\n<p>Canada&#x27;s Quarantine Act measures were extended 30 days and run to <strong>28 September, 23:59 EDT</strong> <strong>(Travel.gc.ca THN 549, modified 28 Aug 2026, read tonight)</strong>. Foreign nationals in DRC within 21 days cannot enter Canada or board a flight to it; Uganda and South Sudan arrivals travel but <strong>quarantine 21 days</strong>.</p>\n<p>Canada&#x27;s notice still names <strong>four</strong> DRC provinces — WHO counts six, Sud-Ubangi made seven — and still says cases are reported in Uganda. WHO certified Uganda outbreak-free on <strong>26 August</strong>, two days before that page was last touched.<br><span class=\"tagline\">🏷 Bush, City | Uganda, Rwanda | Confirmed | impact:risk</span><br><span class=\"sowhat\">🎯 Two Western regimes on Uganda expire eighteen days apart — Canada 28 Sep, the US order 11 Oct. Diarise both; tell no Canadian guest it has lapsed until a successor notice exists.</span></p>\n<p><strong>3️⃣ TANZANIA GAZETTED A $44 ENTRY INSURANCE. ZANZIBAR ALREADY CHARGES $44.</strong></p>\n<p>The <strong>Insurance (Inbound Travel Insurance) Regulations 2026</strong> (Government Notice, 4 Sep 2026) require foreigners entering <strong>mainland</strong> Tanzania by land, sea or air to hold <strong>US$44</strong> cover — 92 days, multiple entry, via NIC or partners. No cover, possible refusal of entry. EAC and SADC exempt. <strong>No enforcement date announced</strong> <strong>(Kenyans.co.ke, 18 Sep 2026)</strong>.</p>\n<p>Zanzibar has charged its own since <strong>October 2024</strong>: US$44 adult, US$22 child 3–17. On the published texts the schemes are separate, so a Serengeti-then-Nungwi trip reads as <strong>US$88 a head</strong> <strong>(inference, labelled)</strong>. Kenya&#x27;s version stays <strong>suspended</strong> by court <strong>(Gazette Notice 11492; heard 16 Sep)</strong>.<br><span class=\"tagline\">🏷 Beach, Bush | Tanzania, Zanzibar, Kenya | Confirmed | impact:margin</span><br><span class=\"sowhat\">🎯 Cost-variation clause into every 2027 Tanzania contract this week, and ask your Dar handler in writing whether a Zanzibar policy discharges the mainland rule.</span></p>\n<p><strong>📻 ALSO TONIGHT</strong><br>🇰🇪 <strong>Naivasha–Narok blocked at the Mai Mahiu escarpment</strong> from ~09:00 today. Mara transfers: Ngong–Kibiko–Suswa <strong>(20 Sep, 14:04 EAT)</strong>.<br>🇨🇩 WHO carries DRC at <strong>7,475 cases, 3,605 deaths to 16 Sep</strong>. Africa CDC on <strong>17 Sep</strong>: still serious, gaps in infection prevention and control.</p>\n<p><strong>🔍 BLIND SPOTS.</strong> Kenya Gazette mirrors returned empty bodies; recovered via Kenya Law direct-source URLs and press — no new tourism or levy notice found, but the index itself was not read. Africa CDC&#x27;s posted weekly is still August&#x27;s. Zanzibar&#x27;s health ministry again not read directly.</p>\n<p>🔗 This edition on the web: <a href=\"https://eahospitalitypulse.com/editions/pulse-2026-09-20-evening.html\" rel=\"noopener\">eahospitalitypulse.com/editions/pulse-2026-09-20-evenin…</a><br>💼 Today&#x27;s Big Read on LinkedIn: <a href=\"https://www.linkedin.com/company/ea-hospitality-pulse/\" rel=\"noopener\">linkedin.com/company/ea-hospitality-pulse/</a></p>"
  },
  {
+  "id": "foresight-2026-09-20",
+  "date": "2026-09-20",
+  "dateDisplay": "Sunday, 20 September 2026",
+  "edition": "Sunday Foresight",
+  "editionKey": "foresight",
+  "summary": "Uganda was declared Ebola-free on 25 August. Entebbe's August traffic still fell 29.1%. That is what a risk label costs — invoiced this week at 69,623 passengers.",
+  "bodyHtml": "<p><span class=\"meta-line\">🏨 EA HOSPITALITY PULSE — Sunday Foresight</span><br><span class=\"meta-line\">📅 Sunday, 20 September 2026 | 🇰🇪 🇺🇬 🇹🇿 🇷🇼</span></p>\n<p><strong>Uganda was declared Ebola-free on 25 August. Entebbe&#x27;s August traffic still fell 29.1%. That is what a risk label costs — invoiced this week at 69,623 passengers.</strong></p>\n<p>The region read Uganda&#x27;s restrictions as a policy story. On Friday UCAA turned it into an accounting entry: 169,706 international passengers in August, 29.1% below August 2025 — a peak month, no case, a WHO all-clear on the record. Zanzibar, same month, same outbreak next door, set an all-time record: 124,481 arrivals, +18%, 92.9% occupancy. One was named in other people&#x27;s documents. The other was not.</p>\n<p><strong>What everyone is missing.</strong> Arrivals were 88,270 against 81,436 departures — a 6,834 gap UCAA attributes to restrictions on Ugandans travelling out. The label is also keeping Uganda&#x27;s outbound market at home: zero-cost demand, unsold. And France reframed Kenya on 15 September as pre-electoral. Entebbe&#x27;s number is Kenya&#x27;s price list.<br>━━━━━━━━━<br><strong>THE WEEK&#x27;S SIGNALS</strong></p>\n<p><span class=\"item-head\">1️⃣ THE LABEL NOW HAS A PRICE: 69,623 PASSENGERS</span><br>UCAA August, reported 18 Sep: 169,706 int&#x27;l pax, −29.1% on August 2025&#x27;s 239,329; H1 already −10.8%. KLM still absent post-all-clear, Uganda Airlines&#x27; Kinshasa route suspended, Dubai still restricting Uganda-origin traffic.<br><span class=\"sowhat\">🎯 So what: at +8.5%/month from a 29% hole, August 2025 is four clean months away. Budget FY2027 off that curve, not the all-clear.</span><br><span class=\"tagline\">🏷 City, Bush | 🇺🇬 | Confirmed (figures) | impact:demand</span></p>\n<p><span class=\"item-head\">2️⃣ THE UNNAMED MARKET TOOK THE RECORD</span><br>OCGS August: 949,056 of Zanzibar&#x27;s 1,021,853 bed spaces sold; Europe 58.1%, Italy top at 17,608.<br><span class=\"sowhat\">🎯 So what: naming sorted these two markets, not epidemiology. List every source market reaching you via a government that names your country. That is your risk register.</span><br><span class=\"tagline\">🏷 Beach, City, Bush | 🇹🇿 🇺🇬 | Confirmed (figures) / Inference (read) | impact:demand</span></p>\n<p><span class=\"item-head\">3️⃣ THE 16 SEPTEMBER ORDER NOW REACHES YOUR AMERICAN GUEST</span><br>Extended to 11 Oct and, for the first time, binding certain US citizens: 21 days outside the US after DRC, and Uganda or South Sudan arrivals routed via four designated airports. DRC: 7,475 cases, 3,605 deaths at 16 Sep (WHO, 17 Sep).<br><span class=\"sowhat\">🎯 So what: name the four-airport routing in every US pre-departure pack touching Uganda, transit included. A surprise at ticketing is a cancellation.</span><br><span class=\"tagline\">🏷 Bush, City | 🇺🇬 🇰🇪 🇷🇼 | Confirmed (primary) | impact:risk</span></p>\n<p><span class=\"item-head\">4️⃣ AND KENYA ACQUIRED A LABEL ON 15 SEPTEMBER</span><br>France Diplomatie&#x27;s Kenya security page, updated 15 Sep 2026, describes an active pre-electoral situation a year out from the 10 Aug 2027 vote, warning of blockages, disruption and sometimes deadly violence. No incident moved a curve; a sentence moved.<br><span class=\"sowhat\">🎯 So what: eleven months is enough to make this a contract term, not a crisis. Election-period rebooking clause into every 2027 contract, beside the statutory-cost clause.</span><br><span class=\"tagline\">🏷 City, Beach, Bush | 🇰🇪 | Confirmed (primary) / Inference (read) | impact:risk</span><br>━━━━━━━━━<br><span class=\"meta-line\">📡 30/90-DAY DEMAND CALENDAR</span></p>\n<p>🇺🇬 25–27 Sep — UWA Open Park Days; foreign-visitor eligibility unsettled, confirm before quoting. 27 Sep: World Tourism Day, Mbale — compression, no branded stock. Hold rate.<br>🇰🇪 1–2 Oct — Africa MICE Summit, <strong>Mombasa</strong>, not Nairobi. Coast: hold 30 Sep–2 Oct.<br>🌍 ~11 Oct — the CDC order lapses or renews. The one date that moves Entebbe&#x27;s curve.<br>🇰🇪 14 Oct — fuel VAT and the EPRA cycle expire; 25 Oct, KQ halves Nairobi–Dubai to 7 weekly.</p>\n<p>If a foreign ministry can move 29% of your peak month without naming one case, whose document are you trading under?</p>\n<p>🔗 This edition on the web: <a href=\"https://eahospitalitypulse.com/editions/foresight-2026-09-20.html\" rel=\"noopener\">eahospitalitypulse.com/editions/foresight-2026-09-20.html</a><br>💼 This week&#x27;s Big Read on LinkedIn: <a href=\"https://www.linkedin.com/company/ea-hospitality-pulse/\" rel=\"noopener\">linkedin.com/company/ea-hospitality-pulse/</a><br>— EA Hospitality Pulse | Daily intelligence for city, bush &amp; beach properties</p>"
+ },
+ {
   "id": "pulse-2026-09-19-evening",
   "date": "2026-09-19",
   "dateDisplay": "Saturday, 19 September 2026",
@@ -1042,6 +1051,88 @@ window.INSIGHTS = [
   "dateDisplay": "Sunday, 20 September 2026",
   "edition": "Evening Wrap",
   "editionKey": "evening"
+ },
+ {
+  "headline": "THE LABEL NOW HAS A PRICE: 69,623 PASSENGERS",
+  "body": "UCAA August, reported 18 Sep: 169,706 int'l pax, −29.1% on August 2025's 239,329; H1 already −10.8%. KLM still absent post-all-clear, Uganda Airlines' Kinshasa route suspended, Dubai still restricting Uganda-origin traffic.",
+  "sowhat": "🎯 So what: at +8.5%/month from a 29% hole, August 2025 is four clean months away. Budget FY2027 off that curve, not the all-clear.",
+  "segments": [
+   "city",
+   "bush"
+  ],
+  "countries": "🇺🇬",
+  "confidence": "Confirmed (figures)",
+  "impact": "+demand",
+  "impactClass": "demand",
+  "intensity": 3,
+  "impactSet": "author",
+  "source": "foresight-2026-09-20",
+  "date": "2026-09-20",
+  "dateDisplay": "Sunday, 20 September 2026",
+  "edition": "Sunday Foresight",
+  "editionKey": "foresight"
+ },
+ {
+  "headline": "THE UNNAMED MARKET TOOK THE RECORD",
+  "body": "OCGS August: 949,056 of Zanzibar's 1,021,853 bed spaces sold; Europe 58.1%, Italy top at 17,608.",
+  "sowhat": "🎯 So what: naming sorted these two markets, not epidemiology. List every source market reaching you via a government that names your country. That is your risk register.",
+  "segments": [
+   "city",
+   "bush",
+   "beach"
+  ],
+  "countries": "🇹🇿 🇺🇬",
+  "confidence": "Confirmed (figures) / Inference (read)",
+  "impact": "+demand",
+  "impactClass": "demand",
+  "intensity": 3,
+  "impactSet": "author",
+  "source": "foresight-2026-09-20",
+  "date": "2026-09-20",
+  "dateDisplay": "Sunday, 20 September 2026",
+  "edition": "Sunday Foresight",
+  "editionKey": "foresight"
+ },
+ {
+  "headline": "THE 16 SEPTEMBER ORDER NOW REACHES YOUR AMERICAN GUEST",
+  "body": "Extended to 11 Oct and, for the first time, binding certain US citizens: 21 days outside the US after DRC, and Uganda or South Sudan arrivals routed via four designated airports. DRC: 7,475 cases, 3,605 deaths at 16 Sep (WHO, 17 Sep).",
+  "sowhat": "🎯 So what: name the four-airport routing in every US pre-departure pack touching Uganda, transit included. A surprise at ticketing is a cancellation.",
+  "segments": [
+   "city",
+   "bush"
+  ],
+  "countries": "🇺🇬 🇰🇪 🇷🇼",
+  "confidence": "Confirmed (primary)",
+  "impact": "risk",
+  "impactClass": "risk",
+  "intensity": 3,
+  "impactSet": "author",
+  "source": "foresight-2026-09-20",
+  "date": "2026-09-20",
+  "dateDisplay": "Sunday, 20 September 2026",
+  "edition": "Sunday Foresight",
+  "editionKey": "foresight"
+ },
+ {
+  "headline": "AND KENYA ACQUIRED A LABEL ON 15 SEPTEMBER",
+  "body": "France Diplomatie's Kenya security page, updated 15 Sep 2026, describes an active pre-electoral situation a year out from the 10 Aug 2027 vote, warning of blockages, disruption and sometimes deadly violence. No incident moved a curve; a sentence moved.",
+  "sowhat": "🎯 So what: eleven months is enough to make this a contract term, not a crisis. Election-period rebooking clause into every 2027 contract, beside the statutory-cost clause.",
+  "segments": [
+   "city",
+   "bush",
+   "beach"
+  ],
+  "countries": "🇰🇪",
+  "confidence": "Confirmed (primary) / Inference (read)",
+  "impact": "risk",
+  "impactClass": "risk",
+  "intensity": 3,
+  "impactSet": "author",
+  "source": "foresight-2026-09-20",
+  "date": "2026-09-20",
+  "dateDisplay": "Sunday, 20 September 2026",
+  "edition": "Sunday Foresight",
+  "editionKey": "foresight"
  },
  {
   "headline": "THE UGANDA ENTRY BAN FINALLY PUBLISHED — WITH A DEADLINE NOBODY HERE IS WATCHING",
@@ -5300,4 +5391,4 @@ window.INSIGHTS = [
   "editionKey": "evening"
  }
 ];
-window.BUILT_AT = "2026-09-20 15:27";
+window.BUILT_AT = "2026-09-20 18:29";
