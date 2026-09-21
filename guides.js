@@ -1,5 +1,14 @@
 window.GUIDES = [
  {
+  "slug": "kenya-tourism-two-speed-domestic-squeeze",
+  "title": "Kenya's tourism sector just broke a revenue record. Its own tourists couldn't afford to be part of it.",
+  "description": "Kenya's tourism earnings hit a record Sh564 billion this year while domestic bed-nights missed target by 600,000, and Rwanda is reporting the same split. For East African operators, the strategy that grows the top line is not the base that fills the shoulder season.",
+  "category": "Big Read",
+  "updated": "2026-09-21",
+  "readMins": 8,
+  "image": "img/editions/kenya-tourism-two-speed-domestic-squeeze.jpg"
+ },
+ {
   "slug": "kenya-grid-cheaper-exit-narrower",
   "title": "Kenya's grid got cheaper. Leaving it got harder. Both happened in the same week.",
   "description": "The regulator cut September's electricity pass-through by 54 cents a unit and, in a separate notice days later, halved the credit for power that hotels and lodges push back into the grid. Read together, they are not two notices. They are one policy.",
