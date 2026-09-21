@@ -1,8 +1,8 @@
 window.LEDGER = {
- "updated": "2026-09-21 08:41",
+ "updated": "2026-09-21 16:43",
  "stats": {
-  "total": 202,
-  "open": 147,
+  "total": 205,
+  "open": 150,
   "resolved": 50,
   "correct": 39,
   "partial": 1,
@@ -328,6 +328,22 @@ window.LEDGER = {
    "resolved_date": "",
    "evidence": "",
    "source_url": "https://www.thecitizen.co.tz/tanzania/sports/zanzibar-marathon-targets-sports-tourism-set-for-october-25-5539466",
+   "overdue": false
+  },
+  {
+   "id": "P204",
+   "made_date": "2026-09-21",
+   "edition": "Evening Wrap",
+   "claim": "Kenya's Ministry of Tourism and Wildlife will NOT publish a delegate figure, attendance count or formal programme for UN Tourism Week 2026 (21-27 September) either during the week or within 30 days of its close - it was announced on Facebook two days before it began with no venue, programme or numbers attached",
+   "resolution_criteria": "Check tourism.go.ke, the Ministry Facebook page and KTB channels. Resolves TRUE if no attendance figure or formal programme document is published by 27 October 2026.",
+   "resolve_by": "2026-10-27",
+   "market": "Kenya",
+   "segment": "City",
+   "confidence": "High",
+   "status": "open",
+   "resolved_date": "",
+   "evidence": "",
+   "source_url": "https://peopledaily.digital/news/kenya-to-host-un-tourism-week-2026-from-september-21-to-27",
    "overdue": false
   },
   {
@@ -1755,6 +1771,22 @@ window.LEDGER = {
    "overdue": false
   },
   {
+   "id": "P202",
+   "made_date": "2026-09-21",
+   "edition": "Evening Wrap",
+   "claim": "At least one major French tour operator will publish a 2027 long-haul winter programme that carries Seychelles but NOT Zanzibar - the IFTM Top Resa readout of 21 September 2026 described French partners diversifying their long-haul island offering, and a reallocation of that kind shows up first as a missing destination in a brochure rather than as an arrivals decline",
+   "resolution_criteria": "Check the published 2027 winter long-haul brochures/websites of the largest French tour operators selling Indian Ocean product. Resolves TRUE if at least one carries Seychelles and omits Zanzibar. Resolves FALSE if every such operator carrying Seychelles also carries Zanzibar.",
+   "resolve_by": "2027-03-31",
+   "market": "Zanzibar",
+   "segment": "Beach",
+   "confidence": "Medium",
+   "status": "open",
+   "resolved_date": "",
+   "evidence": "",
+   "source_url": "https://voyagesafriq.com/2026/09/21/french-trade-partners-position-seychelles-for-2027-as-iftm-top-resa-concludes/",
+   "overdue": false
+  },
+  {
    "id": "P019",
    "made_date": "2026-07-26",
    "edition": "Sunday Foresight",
@@ -2360,6 +2392,22 @@ window.LEDGER = {
    "resolved_date": "",
    "evidence": "",
    "source_url": "https://kws.go.ke/wp-content/uploads/2026/08/KWS-Archipelagus-Press-Release-August-2026.pdf",
+   "overdue": false
+  },
+  {
+   "id": "P203",
+   "made_date": "2026-09-21",
+   "edition": "Evening Wrap",
+   "claim": "Kenya will NOT actualise the full 4,922 rooms W Hospitality Group recorded as under construction in its March 2026 report by the end of 2027 - the report itself notes that historical actualisation rates suggest delivery falls short of projection, and our call is that the shortfall in Kenya specifically will exceed 15% of the under-construction count",
+   "resolution_criteria": "Compare the 2028 edition of the W Hospitality Group Hotel Chain Development Pipelines in Africa report against the 2026 edition. Resolves TRUE if fewer than 4,184 of the 4,922 rooms have opened by 31 December 2027.",
+   "resolve_by": "2028-06-30",
+   "market": "Kenya",
+   "segment": "City",
+   "confidence": "Medium",
+   "status": "open",
+   "resolved_date": "",
+   "evidence": "",
+   "source_url": "https://www.hospitalitynet.org/news/4131326/africas-hotel-development-pipeline-hits-record-high-as-east-africa-leads-in-construction-momentum",
    "overdue": false
   }
  ],
