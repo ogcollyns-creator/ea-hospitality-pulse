@@ -1,5 +1,14 @@
 window.GUIDES = [
  {
+  "slug": "east-africa-building-faster-than-selling-2027",
+  "title": "East Africa is building rooms faster than it is selling 2027",
+  "description": "Nearly 80% of Kenya's hotel pipeline is already concrete, which means it opens whether or not the demand arrives. Last week the 2027 European contracting season opened in Paris, and the Indian Ocean island that turned up was not ours.",
+  "category": "Big Read",
+  "updated": "2026-09-21",
+  "readMins": 8,
+  "image": "img/editions/pulse-2026-09-21-evening.jpg"
+ },
+ {
   "slug": "kenya-tourism-two-speed-domestic-squeeze",
   "title": "Kenya's tourism sector just broke a revenue record. Its own tourists couldn't afford to be part of it.",
   "description": "Kenya's tourism earnings hit a record Sh564 billion this year while domestic bed-nights missed target by 600,000, and Rwanda is reporting the same split. For East African operators, the strategy that grows the top line is not the base that fills the shoulder season.",

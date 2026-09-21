@@ -29,24 +29,25 @@ And the exposure isn't priced in beach terms. **Mohammed Hersi** (Pollmans), 20 
 **🔍 BLIND SPOTS.** Africa CDC's posted Epidemic Intelligence Weekly is **still August's**. Zanzibar's health ministry again not read directly. The radar's evening window returned **0 observations** — that's this sandbox's proxy, not a dead pipeline, so tonight leaned on the 12:02 EAT midday feed (125 observations) plus manual scanning.
 
 🔗 This edition on the web: https://eahospitalitypulse.com/editions/pulse-2026-09-21-evening.html
-💼 Tonight's Big Read: https://www.linkedin.com/company/ea-hospitality-pulse/
+💼 Tonight's Big Read: https://eahospitalitypulse.com/guides/east-africa-building-faster-than-selling-2027.html
 
 ## WHATSAPP
 
 📌 *Seychelles sold 2027 in Paris last week. We were not in the room.*
 
-Nine Seychelles partners, incl. its national airline, worked French operators at IFTM Top Resa 15–17 Sep. Condor's Frankfurt route went year-round 19 Sep. Meanwhile *79.5%* of Kenya's hotel pipeline is already under construction — those rooms open whether or not the trade sells them.
+Nine Seychelles partners, incl. its national airline, worked French operators at IFTM Top Resa 15–17 Sep. Condor's Frankfurt route went year-round 19 Sep. Meanwhile *79.5%* of Kenya's pipeline is already under construction — those rooms open whether or not the trade sells them.
 
 → *Do this:* Ask your inbound agents what share of 2027 European safari bookings still carries a Zanzibar or Diani extension.
 
 📌 *ALSO TODAY*
-🇰🇪 UN Tourism Week 21–27 Sep began today, announced only 19 Sep, no programme.
+🇰🇪 UN Tourism Week 21–27 Sep began today, announced only 19 Sep.
 🌍 WTM Africa 2027 buyer applications opened (Cape Town, Apr 2027).
 🇰🇪 Gazette index read: no new tourism or levy notice.
 
 📊 *NUMBER OF THE DAY:* *79.5%* — Kenya's 6,190 pipeline rooms already under construction *(W Hospitality Group, 10 Mar 2026)*.
 
-📖 Read on the web → https://eahospitalitypulse.com/editions/pulse-2026-09-21-evening.html
+📖 Edition → https://eahospitalitypulse.com/editions/pulse-2026-09-21-evening.html
+💼 Big Read → https://eahospitalitypulse.com/guides/east-africa-building-faster-than-selling-2027.html
 📣 Telegram → https://t.me/eahospitalitypulse
 
 _Tuko pamoja._
@@ -99,7 +100,7 @@ Tonight's edition, with the sourcing behind every figure:
 https://eahospitalitypulse.com/editions/pulse-2026-09-21-evening.html
 
 The full Big Read:
-https://www.linkedin.com/company/ea-hospitality-pulse/
+https://eahospitalitypulse.com/guides/east-africa-building-faster-than-selling-2027.html
 
 Daily on Telegram: https://t.me/eahospitalitypulse
 WhatsApp Channel: https://whatsapp.com/channel/0029VbCjul2KmCPTv8Qrh73b
