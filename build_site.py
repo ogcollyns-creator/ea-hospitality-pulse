@@ -1372,6 +1372,39 @@ INDEXABLE_ROBOTS = ('<meta name="robots" content="index,follow,'
 # (radar is an internal ops board) are handled elsewhere or left alone.
 _SEO_SKIP = {"index.html", "archive.html", "radar.html", "404.html", "signals.html"}
 
+# Pages whose real schema.org type is not a plain WebPage.
+_SEO_PAGE_TYPE = {"big-reads.html": "CollectionPage",
+                  "archive.html": "CollectionPage",
+                  "faq.html": "FAQPage"}
+
+# ---- house polish ----------------------------------------------------------
+# The generated pages (editions, guides, trackers, homepage) long ago moved to a
+# flat teal masthead and a tokenised type scale. The hand-written pages never
+# did: they still carried a 135deg teal gradient -- the one piece of default
+# template styling left on the site -- plus a hardcoded Georgia/Helvetica pair,
+# no visible focus ring, and tables that run off the side of a phone. This block
+# is appended last in <head>, so it wins on source order without touching a line
+# of the hand-written markup, and it lives inside the same marked region as the
+# meta above, so a rebuild replaces it and a revert removes it cleanly.
+HOUSE_CSS = """<style>/* house polish -- matches the edition/guide/tracker templates */
+:root{--serif:Georgia,"Iowan Old Style","Times New Roman",serif;--sans:-apple-system,BlinkMacSystemFont,"Segoe UI Variable Text","Segoe UI",Inter,Roboto,"Helvetica Neue",Arial,sans-serif}
+body{font-family:var(--serif);-webkit-font-smoothing:antialiased;text-rendering:optimizeLegibility}
+header{background:var(--teal-d,#0a4f48);border-bottom:3px solid var(--gold,#c8892f)}
+header p,header .nav,.nav,nav,table,button,input,select,textarea,label,small,.meta,.kicker{font-family:var(--sans)}
+h1,h2,h3{letter-spacing:-.011em}
+p,li{max-width:74ch}
+a:focus-visible,button:focus-visible,input:focus-visible,select:focus-visible,textarea:focus-visible,summary:focus-visible,[tabindex]:focus-visible{outline:2px solid var(--gold,#c8892f);outline-offset:2px;border-radius:3px}
+::selection{background:var(--gold,#c8892f);color:#231a06}
+@media(max-width:640px){table{display:block;width:100%;overflow-x:auto;-webkit-overflow-scrolling:touch}header h1{font-size:23px}}
+@media(prefers-reduced-motion:reduce){*,*::before,*::after{animation-duration:.01ms!important;animation-iteration-count:1!important;transition-duration:.01ms!important;scroll-behavior:auto!important}}
+</style>"""
+
+_TITLE_SUFFIX = re.compile(r"\s*[|\u2014-]\s*EA\s+(?:Hospitality\s+)?Pulse\s*$", re.I)
+
+def _crumb_name(title):
+    """The page's own name, without the sitewide title suffix."""
+    return _TITLE_SUFFIX.sub("", title).strip() or title
+
 def _head_has(head, needle):
     return needle in head
 
@@ -1444,6 +1477,49 @@ def polish_static_heads():
             add.append('<meta property="og:locale" content="en_GB">')
         if '<link rel="canonical"' not in head:
             add.append(f'<link rel="canonical" href="{BASE}/{_clean_rel}">')
+
+        # A hand-written page with no structured data is an orphan in the entity
+        # graph: an answer engine can read it but cannot tell that it belongs to
+        # the same publisher it already trusts for the editions. A WebPage node
+        # wired to the existing #website/#org @ids fixes that, and a
+        # BreadcrumbList gives the engine the hierarchy it otherwise has to
+        # guess. Pages that already ship their own schema are left alone.
+        if 'application/ld+json' not in head:
+            _mod = file_lastmod(rel, datetime.date.today().isoformat())
+            _crumb = _crumb_name(page_title)
+            _page = {
+                "@context": "https://schema.org",
+                "@type": _SEO_PAGE_TYPE.get(rel, "WebPage"),
+                "@id": page_url + "#webpage",
+                "url": page_url,
+                "name": page_title,
+                "dateModified": _mod,
+                "inLanguage": "en-GB",
+                "isPartOf": {"@type": "WebSite", "@id": f"{BASE}/#website",
+                             "name": "EA Hospitality Pulse", "url": f"{BASE}/"},
+                "publisher": {"@id": f"{BASE}/#org"},
+                "breadcrumb": {"@id": page_url + "#breadcrumb"},
+            }
+            if page_desc:
+                _page["description"] = page_desc
+            _crumbs = {
+                "@context": "https://schema.org",
+                "@type": "BreadcrumbList",
+                "@id": page_url + "#breadcrumb",
+                "itemListElement": [
+                    {"@type": "ListItem", "position": 1, "name": "Home",
+                     "item": f"{BASE}/"},
+                    {"@type": "ListItem", "position": 2, "name": _crumb,
+                     "item": page_url},
+                ],
+            }
+            for _node in (_page, _crumbs):
+                add.append('<script type="application/ld+json">'
+                           + json.dumps(_node, ensure_ascii=False)
+                           + '</script>')
+
+        # Styles go last so they win on source order over the page's own <style>.
+        add.append(HOUSE_CSS)
 
         if add:
             doc = doc.replace("</head>",
