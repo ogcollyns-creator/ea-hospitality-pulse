@@ -1,5 +1,14 @@
 window.GUIDES = [
  {
+  "slug": "eu-green-claims-east-africa-lodges",
+  "title": "From Sunday, Europe stops taking East Africa's lodges at their word",
+  "description": "On 27 September an EU consumer law makes \"eco\", \"green\" and offset-based \"carbon neutral\" unusable without proof. No East African lodge is under EU jurisdiction. Those that sell through European tour operators are about to discover that they do not need to be.",
+  "category": "Big Read",
+  "updated": "2026-09-22",
+  "readMins": 9,
+  "image": "img/kyobe-nile-lodge.jpg"
+ },
+ {
   "slug": "east-africa-building-faster-than-selling-2027",
   "title": "East Africa is building rooms faster than it is selling 2027",
   "description": "Nearly 80% of Kenya's hotel pipeline is already concrete, which means it opens whether or not the demand arrives. Last week the 2027 European contracting season opened in Paris, and the Indian Ocean island that turned up was not ours.",
