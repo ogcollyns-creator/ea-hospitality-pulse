@@ -1,241 +1,323 @@
-# Radar candidates — evening slot
-_Window opens Tue 22 Sep 13:00 EAT · 374 observations in window · 4 headlines deduped against_
+# Radar candidates — morning slot
+_Window opens Tue 22 Sep 18:00 EAT · 307 observations in window · 4 headlines deduped against_
 
 Ranked by first-seen recency, source tier and hospitality relevance. `first seen` is when the radar observed the item, which is the date the recency gate runs on. `published` is what the source claims — where the two disagree, the disagreement is the story.
 
-### 🚨 [100.3] [page changed] Federal Register — public inspection (HHS/CDC), pre-publication
+### 🚨 [101.3] [page changed] Federal Register — public inspection (HHS/CDC), pre-publication
+- **Verdict:** OPEN THIS — tier-1 advisory page moved; content not auto-parsed, read it manually
+- **Source:** Federal Register — public inspection (HHS/CDC), pre-publication · tier 1 · REG · advisory
+- **First seen:** 2026-09-23T00:12+03:00 EAT · **Source date:** 2026-09-21
+- **URL:** https://www.federalregister.gov/api/v1/public-inspection-documents/current.json
+- **Extract:** {"count":100,"results":[{"agencies":[{"raw_name":"National Oceanic and Atmospheric Administration","name":"National Oceanic and Atmospheric Administration","id":361,"url":"https://www.federalregister.gov/agencies/national-oceanic-and-atmospheric-administration
+- **Score parts:** tier +40, category +32, lead +3.6, relevance +0, freshness +19.7, corroborated +10, page_change -4
+
+### 🚨 [97.8] [page changed] Federal Register — public inspection (HHS/CDC), pre-publication
 - **Verdict:** OPEN THIS — tier-1 advisory page moved; content not auto-parsed, read it manually
 - **Source:** Federal Register — public inspection (HHS/CDC), pre-publication · tier 1 · REG · advisory
 - **First seen:** 2026-09-22T20:59+03:00 EAT · **Source date:** 2026-09-21
 - **URL:** https://www.federalregister.gov/api/v1/public-inspection-documents/current.json
 - **Extract:** {"count":100,"results":[{"agencies":[{"raw_name":"National Oceanic and Atmospheric Administration","name":"National Oceanic and Atmospheric Administration","id":361,"url":"https://www.federalregister.gov/agencies/national-oceanic-and-atmospheric-administration
-- **Score parts:** tier +40, category +32, lead +3.6, relevance +0, freshness +18.7, corroborated +10, page_change -4
+- **Score parts:** tier +40, category +32, lead +3.6, relevance +0, freshness +16.2, corroborated +10, page_change -4
 
-### 🚨 [96.0] [page changed] Federal Register — public inspection (HHS/CDC), pre-publication
-- **Verdict:** OPEN THIS — tier-1 advisory page moved; content not auto-parsed, read it manually
-- **Source:** Federal Register — public inspection (HHS/CDC), pre-publication · tier 1 · REG · advisory
-- **First seen:** 2026-09-22T17:03+03:00 EAT · **Source date:** 2026-09-21
-- **URL:** https://www.federalregister.gov/api/v1/public-inspection-documents/current.json
-- **Extract:** {"count":98,"results":[{"agencies":[{"raw_name":"National Oceanic and Atmospheric Administration","name":"National Oceanic and Atmospheric Administration","id":361,"url":"https://www.federalregister.gov/agencies/national-oceanic-and-atmospheric-administration"
-- **Score parts:** tier +40, category +32, lead +3.6, relevance +0, freshness +14.4, corroborated +10, page_change -4
+### 🚨 [65.3] [page changed] Airlink news
+- **Verdict:** OPEN THIS — tier-1 airline page moved; content not auto-parsed, read it manually
+- **Source:** Airlink news · tier 1 · REG · airline
+- **First seen:** 2026-09-23T00:12+03:00 EAT · **Source date:** — none stated
+- **URL:** https://www.flyairlink.com/
+- **Extract:** Request unsuccessful. Incapsula incident ID: 175000330207849030-256119890693261424
+- **Score parts:** tier +40, category +12, lead +3.6, relevance +0, freshness +19.7, undated -6, page_change -4
 
-### 🟠 [106.8] World Rhino Day: Kenya Launches the World’s Largest Rhino Sanctuary
+### 🟠 [109.7] Republic v Parliametary Service Commission; Kimosop (Ex parte Applicant) (Employment and Labour Relations Judicial Revie
 - **Verdict:** STRONG — tier-1, upstream
-- **Source:** Kenya Wildlife Service · tier 1 · KE · parks
-- **First seen:** 2026-09-22T17:03+03:00 EAT · **Source date:** 2026-09-22
-- **URL:** https://kws.go.ke/world-rhino-day-kenya-launches-the-worlds-largest-rhino-sanctuary
-- **Extract:** Today is World Rhino Day, and there is no better way to celebrate than by honouring a truly historic milestone for wildlife conservation. Kenya has officially launched the expanded Tsavo West Rhino Sanctuary, making it the largest rhino sanctuary in the world.
-- **Score parts:** tier +40, category +18, lead +8.4, relevance +16, freshness +14.4, corroborated +10
+- **Source:** Kenya Gazette (Kenya Law) · tier 1 · KE · gazette
+- **First seen:** 2026-09-23T00:12+03:00 EAT · **Source date:** 2026-09-21
+- **URL:** https://new.kenyalaw.org/akn/ke/judgment/keelrc/2026/2465/eng@2026-09-21
+- **Extract:** Republic v Parliametary Service Commission; Kimosop (Ex parte Applicant) (Employment and Labour Relations Judicial Review E008 of 2026) [2026] KEELRC 2465 (KLR) (21 September 2026) (Judgment)
+- **Score parts:** tier +40, category +20, lead +12, relevance +8, freshness +19.7, corroborated +10
 
-### 🟡 [87.1] Air France NS27 Philippines Preliminary Schedule
+### 🟠 [107.5] Conrad Hotels & Resorts Expands its 1/3/5 Program to Help Guests Maximize Their Time and Experience Local Cultures
+- **Verdict:** STRONG — tier-1, upstream
+- **Source:** Hilton stories/newsroom · tier 1 · GLOBAL · hotel-group
+- **First seen:** 2026-09-23T00:12+03:00 EAT · **Source date:** 2026-09-22
+- **URL:** https://stories.hilton.com/releases/conrad-hotels-resorts-expands-its-1-3-5-program
+- **Extract:** MCLEAN, Va. — Luxury travelers today aren’t necessarily looking for more time—they’re looking to make the time they have more meaningful. Conrad Hotels & Resorts has answered that shift with Conrad 1/3/5, a signature global brand program that turns one hour, t
+- **Score parts:** tier +40, category +9, lead +16.8, relevance +12, freshness +19.7, corroborated +10
+
+### 🟠 [103.5] Hilton Offers New Home2 Suites by Hilton Clean Energy Prototype Designed to Provide Higher Energy Efficiency, Lower Util
+- **Verdict:** STRONG — tier-1, upstream
+- **Source:** Hilton stories/newsroom · tier 1 · GLOBAL · hotel-group
+- **First seen:** 2026-09-23T00:12+03:00 EAT · **Source date:** 2026-09-22
+- **URL:** https://stories.hilton.com/releases/hilton-offers-new-home2-suites-by-hilton-clean-energy-prototype
+- **Extract:** NEW YORK – Hilton (NYSE: HLT) today announced the availability of the new Home2 Suites by Hilton Clean Energy Prototype, an optional, turnkey offering for U.S. hotel owners and developers designed to lower operational energy costs and reduce carbon emissions w
+- **Score parts:** tier +40, category +9, lead +16.8, relevance +8, freshness +19.7, corroborated +10
+
+### 🟠 [101.7] Walubengo v Republic (Criminal Appeal E003 of 2025) [2026] KEHC 13764 (KLR) (21 September 2026) (Judgment)
+- **Verdict:** STRONG — tier-1, upstream
+- **Source:** Kenya Gazette (Kenya Law) · tier 1 · KE · gazette
+- **First seen:** 2026-09-23T00:12+03:00 EAT · **Source date:** 2026-09-21
+- **URL:** https://new.kenyalaw.org/akn/ke/judgment/kehc/2026/13764/eng@2026-09-21
+- **Extract:** Walubengo v Republic (Criminal Appeal E003 of 2025) [2026] KEHC 13764 (KLR) (21 September 2026) (Judgment)
+- **Score parts:** tier +40, category +20, lead +12, relevance +0, freshness +19.7, corroborated +10
+
+### 🟠 [101.7] Odhiambo v Wafula & 2 others (Civil Appeal E038, E039, E040 & E041 of 2025 (Consolidated)) [2026] KEHC 13763 (KLR) (21 S
+- **Verdict:** STRONG — tier-1, upstream
+- **Source:** Kenya Gazette (Kenya Law) · tier 1 · KE · gazette
+- **First seen:** 2026-09-23T00:12+03:00 EAT · **Source date:** 2026-09-21
+- **URL:** https://new.kenyalaw.org/akn/ke/judgment/kehc/2026/13763/eng@2026-09-21
+- **Extract:** Odhiambo v Wafula & 2 others (Civil Appeal E038, E039, E040 & E041 of 2025 (Consolidated)) [2026] KEHC 13763 (KLR) (21 September 2026) (Judgment)
+- **Score parts:** tier +40, category +20, lead +12, relevance +0, freshness +19.7, corroborated +10
+
+### 🟠 [101.7] In re Estate of the Late Mwangi (Deceased) (Miscellaneous Succession Cause E248 of 2021) [2026] KEHC 13759 (KLR) (21 Sep
+- **Verdict:** STRONG — tier-1, upstream
+- **Source:** Kenya Gazette (Kenya Law) · tier 1 · KE · gazette
+- **First seen:** 2026-09-23T00:12+03:00 EAT · **Source date:** 2026-09-21
+- **URL:** https://new.kenyalaw.org/akn/ke/judgment/kehc/2026/13759/eng@2026-09-21
+- **Extract:** In re Estate of the Late Mwangi (Deceased) (Miscellaneous Succession Cause E248 of 2021) [2026] KEHC 13759 (KLR) (21 September 2026) (Ruling)
+- **Score parts:** tier +40, category +20, lead +12, relevance +0, freshness +19.7, corroborated +10
+
+### 🟠 [101.7] Gachara v Kenyatta University (Constitutional Petition E264 of 2025) [2026] KEELRC 2466 (KLR) (21 September 2026) (Judgm
+- **Verdict:** STRONG — tier-1, upstream
+- **Source:** Kenya Gazette (Kenya Law) · tier 1 · KE · gazette
+- **First seen:** 2026-09-23T00:12+03:00 EAT · **Source date:** 2026-09-21
+- **URL:** https://new.kenyalaw.org/akn/ke/judgment/keelrc/2026/2466/eng@2026-09-21
+- **Extract:** Gachara v Kenyatta University (Constitutional Petition E264 of 2025) [2026] KEELRC 2466 (KLR) (21 September 2026) (Judgment)
+- **Score parts:** tier +40, category +20, lead +12, relevance +0, freshness +19.7, corroborated +10
+
+### 🟠 [101.7] Hassan v Republic (Anti Corruption and Economics Crime Miscellaneous Application E037 of 2026) [2026] KEHC 13755 (KLR) (
+- **Verdict:** STRONG — tier-1, upstream
+- **Source:** Kenya Gazette (Kenya Law) · tier 1 · KE · gazette
+- **First seen:** 2026-09-23T00:12+03:00 EAT · **Source date:** 2026-09-21
+- **URL:** https://new.kenyalaw.org/akn/ke/judgment/kehc/2026/13755/eng@2026-09-21
+- **Extract:** Hassan v Republic (Anti Corruption and Economics Crime Miscellaneous Application E037 of 2026) [2026] KEHC 13755 (KLR) (Anti-Corruption and Economic Crimes) (21 September 2026) (Ruling)
+- **Score parts:** tier +40, category +20, lead +12, relevance +0, freshness +19.7, corroborated +10
+
+### 🟠 [101.7] SOO v Republic (Criminal Revision E093 of 2024) [2026] KEHC 13749 (KLR) (21 September 2026) (Ruling)
+- **Verdict:** STRONG — tier-1, upstream
+- **Source:** Kenya Gazette (Kenya Law) · tier 1 · KE · gazette
+- **First seen:** 2026-09-23T00:12+03:00 EAT · **Source date:** 2026-09-21
+- **URL:** https://new.kenyalaw.org/akn/ke/judgment/kehc/2026/13749/eng@2026-09-21
+- **Extract:** SOO v Republic (Criminal Revision E093 of 2024) [2026] KEHC 13749 (KLR) (21 September 2026) (Ruling)
+- **Score parts:** tier +40, category +20, lead +12, relevance +0, freshness +19.7, corroborated +10
+
+### 🟠 [101.7] Kivyatu & 2 others v Ethics & Anti Corruption Commission (Miscellaneous Application E020 of 2026) [2026] KEHC 13747 (KLR
+- **Verdict:** STRONG — tier-1, upstream
+- **Source:** Kenya Gazette (Kenya Law) · tier 1 · KE · gazette
+- **First seen:** 2026-09-23T00:12+03:00 EAT · **Source date:** 2026-09-21
+- **URL:** https://new.kenyalaw.org/akn/ke/judgment/kehc/2026/13747/eng@2026-09-21
+- **Extract:** Kivyatu & 2 others v Ethics & Anti Corruption Commission (Miscellaneous Application E020 of 2026) [2026] KEHC 13747 (KLR) (Anti-Corruption and Economic Crimes) (21 September 2026) (Ruling)
+- **Score parts:** tier +40, category +20, lead +12, relevance +0, freshness +19.7, corroborated +10
+
+### 🟠 [101.7] Makokha v Office of the Director of Public Prosecutions (ODPP) (Criminal Revision E009 of 2025) [2026] KEHC 13746 (KLR) 
+- **Verdict:** STRONG — tier-1, upstream
+- **Source:** Kenya Gazette (Kenya Law) · tier 1 · KE · gazette
+- **First seen:** 2026-09-23T00:12+03:00 EAT · **Source date:** 2026-09-21
+- **URL:** https://new.kenyalaw.org/akn/ke/judgment/kehc/2026/13746/eng@2026-09-21
+- **Extract:** Makokha v Office of the Director of Public Prosecutions (ODPP) (Criminal Revision E009 of 2025) [2026] KEHC 13746 (KLR) (21 September 2026) (Ruling)
+- **Score parts:** tier +40, category +20, lead +12, relevance +0, freshness +19.7, corroborated +10
+
+### 🟠 [101.7] Ochieng & another v Board of Management Ngere Kagoro Secondary School & 4 others (Judicial Review E002 of 2026) [2026] K
+- **Verdict:** STRONG — tier-1, upstream
+- **Source:** Kenya Gazette (Kenya Law) · tier 1 · KE · gazette
+- **First seen:** 2026-09-23T00:12+03:00 EAT · **Source date:** 2026-09-21
+- **URL:** https://new.kenyalaw.org/akn/ke/judgment/keelrc/2026/2464/eng@2026-09-21
+- **Extract:** Ochieng & another v Board of Management Ngere Kagoro Secondary School & 4 others (Judicial Review E002 of 2026) [2026] KEELRC 2464 (KLR) (21 September 2026) (Ruling)
+- **Score parts:** tier +40, category +20, lead +12, relevance +0, freshness +19.7, corroborated +10
+
+### 🟠 [101.7] Obiero t/a C Obiero & Associate Advocates v Migori County Assembly Service Board & another (Miscellaneous Application E0
+- **Verdict:** STRONG — tier-1, upstream
+- **Source:** Kenya Gazette (Kenya Law) · tier 1 · KE · gazette
+- **First seen:** 2026-09-23T00:12+03:00 EAT · **Source date:** 2026-09-21
+- **URL:** https://new.kenyalaw.org/akn/ke/judgment/keelrc/2026/2462/eng@2026-09-21
+- **Extract:** Obiero t/a C Obiero & Associate Advocates v Migori County Assembly Service Board & another (Miscellaneous Application E006 of 2026) [2026] KEELRC 2462 (KLR) (21 September 2026) (Ruling)
+- **Score parts:** tier +40, category +20, lead +12, relevance +0, freshness +19.7, corroborated +10
+
+### 🟠 [101.7] Ndeti v Kaguchwa (Civil Case E075 of 2026) [2026] SCC 241 (KLR) (21 September 2026) (Ruling)
+- **Verdict:** STRONG — tier-1, upstream
+- **Source:** Kenya Gazette (Kenya Law) · tier 1 · KE · gazette
+- **First seen:** 2026-09-23T00:12+03:00 EAT · **Source date:** 2026-09-21
+- **URL:** https://new.kenyalaw.org/akn/ke/judgment/scc/2026/241/eng@2026-09-21
+- **Extract:** Ndeti v Kaguchwa (Civil Case E075 of 2026) [2026] SCC 241 (KLR) (21 September 2026) (Ruling)
+- **Score parts:** tier +40, category +20, lead +12, relevance +0, freshness +19.7, corroborated +10
+
+### 🟠 [101.7] Pride Kings Services Ltd v Agutu (Appeal E102 of 2025) [2026] KEELRC 2461 (KLR) (21 September 2026) (Judgment)
+- **Verdict:** STRONG — tier-1, upstream
+- **Source:** Kenya Gazette (Kenya Law) · tier 1 · KE · gazette
+- **First seen:** 2026-09-23T00:12+03:00 EAT · **Source date:** 2026-09-21
+- **URL:** https://new.kenyalaw.org/akn/ke/judgment/keelrc/2026/2461/eng@2026-09-21
+- **Extract:** Pride Kings Services Ltd v Agutu (Appeal E102 of 2025) [2026] KEELRC 2461 (KLR) (21 September 2026) (Judgment)
+- **Score parts:** tier +40, category +20, lead +12, relevance +0, freshness +19.7, corroborated +10
+
+### 🟠 [101.7] Agimba v Victory Farms Limited (Cause E029 of 2025) [2026] KEELRC 2460 (KLR) (21 September 2026) (Judgment)
+- **Verdict:** STRONG — tier-1, upstream
+- **Source:** Kenya Gazette (Kenya Law) · tier 1 · KE · gazette
+- **First seen:** 2026-09-23T00:12+03:00 EAT · **Source date:** 2026-09-21
+- **URL:** https://new.kenyalaw.org/akn/ke/judgment/keelrc/2026/2460/eng@2026-09-21
+- **Extract:** Agimba v Victory Farms Limited (Cause E029 of 2025) [2026] KEELRC 2460 (KLR) (21 September 2026) (Judgment)
+- **Score parts:** tier +40, category +20, lead +12, relevance +0, freshness +19.7, corroborated +10
+
+### 🟠 [101.7] Bright v Tractebel Engineering GmbH, formerly Lahmeyer International Gmbh (Employment and Labour Relations Cause E823 of
+- **Verdict:** STRONG — tier-1, upstream
+- **Source:** Kenya Gazette (Kenya Law) · tier 1 · KE · gazette
+- **First seen:** 2026-09-23T00:12+03:00 EAT · **Source date:** 2026-09-21
+- **URL:** https://new.kenyalaw.org/akn/ke/judgment/keelrc/2026/2459/eng@2026-09-21
+- **Extract:** Bright v Tractebel Engineering GmbH, formerly Lahmeyer International Gmbh (Employment and Labour Relations Cause E823 of 2024) [2026] KEELRC 2459 (KLR) (21 September 2026) (Ruling)
+- **Score parts:** tier +40, category +20, lead +12, relevance +0, freshness +19.7, corroborated +10
+
+### 🟠 [101.7] Republic v AA1 & 7 others (Criminal Case E006 of 2026) [2026] KEHC 13736 (KLR) (21 September 2026) (Ruling)
+- **Verdict:** STRONG — tier-1, upstream
+- **Source:** Kenya Gazette (Kenya Law) · tier 1 · KE · gazette
+- **First seen:** 2026-09-23T00:12+03:00 EAT · **Source date:** 2026-09-21
+- **URL:** https://new.kenyalaw.org/akn/ke/judgment/kehc/2026/13736/eng@2026-09-21
+- **Extract:** Republic v AA1 & 7 others (Criminal Case E006 of 2026) [2026] KEHC 13736 (KLR) (21 September 2026) (Ruling)
+- **Score parts:** tier +40, category +20, lead +12, relevance +0, freshness +19.7, corroborated +10
+
+### 🟠 [101.7] Republic v Aluoch & 2 others (Criminal Case E001 of 2025) [2026] KEHC 13735 (KLR) (21 September 2026) (Judgment)
+- **Verdict:** STRONG — tier-1, upstream
+- **Source:** Kenya Gazette (Kenya Law) · tier 1 · KE · gazette
+- **First seen:** 2026-09-23T00:12+03:00 EAT · **Source date:** 2026-09-21
+- **URL:** https://new.kenyalaw.org/akn/ke/judgment/kehc/2026/13735/eng@2026-09-21
+- **Extract:** Republic v Aluoch & 2 others (Criminal Case E001 of 2025) [2026] KEHC 13735 (KLR) (21 September 2026) (Judgment)
+- **Score parts:** tier +40, category +20, lead +12, relevance +0, freshness +19.7, corroborated +10
+
+### 🟠 [101.7] Kithinji v Jamii Co-operative Savings and Credit Society Ltd (Cause 707 of 2017) [2026] KEELRC 2458 (KLR) (21 September 
+- **Verdict:** STRONG — tier-1, upstream
+- **Source:** Kenya Gazette (Kenya Law) · tier 1 · KE · gazette
+- **First seen:** 2026-09-23T00:12+03:00 EAT · **Source date:** 2026-09-21
+- **URL:** https://new.kenyalaw.org/akn/ke/judgment/keelrc/2026/2458/eng@2026-09-21
+- **Extract:** Kithinji v Jamii Co-operative Savings and Credit Society Ltd (Cause 707 of 2017) [2026] KEELRC 2458 (KLR) (21 September 2026) (Ruling)
+- **Score parts:** tier +40, category +20, lead +12, relevance +0, freshness +19.7, corroborated +10
+
+### 🟠 [101.7] Republic v Ogoma (Criminal Case E040 of 2024) [2026] KEHC 13726 (KLR) (21 September 2026) (Judgment)
+- **Verdict:** STRONG — tier-1, upstream
+- **Source:** Kenya Gazette (Kenya Law) · tier 1 · KE · gazette
+- **First seen:** 2026-09-23T00:12+03:00 EAT · **Source date:** 2026-09-21
+- **URL:** https://new.kenyalaw.org/akn/ke/judgment/kehc/2026/13726/eng@2026-09-21
+- **Extract:** Republic v Ogoma (Criminal Case E040 of 2024) [2026] KEHC 13726 (KLR) (21 September 2026) (Judgment)
+- **Score parts:** tier +40, category +20, lead +12, relevance +0, freshness +19.7, corroborated +10
+
+### 🟡 [92.1] Delta Discontinues Seattle – Philadelphia in late-Nov 2026
 - **Verdict:** CONSIDER
 - **Source:** AeroRoutes schedule filings · tier 2 · GLOBAL · aviation-tracker
-- **First seen:** 2026-09-22T20:59+03:00 EAT · **Source date:** 2026-09-22
-- **URL:** https://www.aeroroutes.com/eng/260922-afns27mnl
-- **Extract:** Published at 0800PDT / 1500GMT 22SEP26 Air France in its preliminary schedule filing for Northern summer 2027 season once again lists service to The Philippines as seasonal route, as the 3 weekly Paris Charles de Gaulle – Manila flights will only operate from 
-- **Score parts:** tier +20, category +14, lead +8.4, relevance +16, freshness +18.7, corroborated +10
+- **First seen:** 2026-09-23T00:12+03:00 EAT · **Source date:** 2026-09-22
+- **URL:** https://www.aeroroutes.com/eng/260922-dlnw26seaphl
+- **Extract:** Published at 1200PDT / 1900GMT 22SEP26 Delta during last weekend’s schedule update filed service changes on Seattle – Philadelphia route, as the carrier schedules last flight on 29NOV26 (Seattle departure). The Skyteam member serves this route on daily basis w
+- **Score parts:** tier +20, category +14, lead +8.4, relevance +20, freshness +19.7, corroborated +10
 
-### 🟡 [86.8] Aerolineas Argentinas Expands China Eastern Codeshare From Sep 2026
+### 🟡 [89.7] Mohamud & another v Hassan (Miscellaneous Civil Application E723 of 2026) [2026] KEHC 13762 (KLR) (Commercial and Tax) (
+- **Verdict:** CHECK — source date older than the window
+- **Source:** Kenya Gazette (Kenya Law) · tier 1 · KE · gazette
+- **First seen:** 2026-09-23T00:12+03:00 EAT · **Source date:** 2026-09-17
+- **URL:** https://new.kenyalaw.org/akn/ke/judgment/kehc/2026/13762/eng@2026-09-17
+- **Extract:** Mohamud & another v Hassan (Miscellaneous Civil Application E723 of 2026) [2026] KEHC 13762 (KLR) (Commercial and Tax) (17 September 2026) (Ruling)
+- **Score parts:** tier +40, category +20, lead +12, relevance +8, freshness +19.7, stale_trap -10
+
+### 🟡 [89.7] Topline Logistics Ltd v Muhammed & 2 others (Sued as officials of Football Kenya Federation) (Miscellaneous Application 
+- **Verdict:** CHECK — source date older than the window
+- **Source:** Kenya Gazette (Kenya Law) · tier 1 · KE · gazette
+- **First seen:** 2026-09-23T00:12+03:00 EAT · **Source date:** 2026-09-17
+- **URL:** https://new.kenyalaw.org/akn/ke/judgment/kehc/2026/13761/eng@2026-09-17
+- **Extract:** Topline Logistics Ltd v Muhammed & 2 others (Sued as officials of Football Kenya Federation) (Miscellaneous Application E109 of 2026) [2026] KEHC 13761 (KLR) (Commercial and Tax) (17 September 2026) (Ruling)
+- **Score parts:** tier +40, category +20, lead +12, relevance +8, freshness +19.7, stale_trap -10
+
+### 🟡 [89.7] Gachomba & Company Properties Ltd v Commissioner of Investigations & Enforcement (Miscellaneous Application E544 of 2026
+- **Verdict:** CHECK — source date older than the window
+- **Source:** Kenya Gazette (Kenya Law) · tier 1 · KE · gazette
+- **First seen:** 2026-09-23T00:12+03:00 EAT · **Source date:** 2026-09-17
+- **URL:** https://new.kenyalaw.org/akn/ke/judgment/kehc/2026/13760/eng@2026-09-17
+- **Extract:** Gachomba & Company Properties Ltd v Commissioner of Investigations & Enforcement (Miscellaneous Application E544 of 2026) [2026] KEHC 13760 (KLR) (Commercial and Tax) (17 September 2026) (Ruling)
+- **Score parts:** tier +40, category +20, lead +12, relevance +8, freshness +19.7, stale_trap -10
+
+### 🟡 [89.7] Republic v Ministry of Transport, Infrastructure, Housing, Urban development & Public works (Formerly Works, Transport &
+- **Verdict:** CHECK — source date older than the window
+- **Source:** Kenya Gazette (Kenya Law) · tier 1 · KE · gazette
+- **First seen:** 2026-09-23T00:12+03:00 EAT · **Source date:** 2026-09-17
+- **URL:** https://new.kenyalaw.org/akn/ke/judgment/kehc/2026/13748/eng@2026-09-17
+- **Extract:** Republic v Ministry of Transport, Infrastructure, Housing, Urban development & Public works (Formerly Works, Transport & Infrastructure, and Further Formerly, Ministry of Roads) & another; Mbugua (Officials of Airportview Neighbours Group) & 2 others (Ex parte
+- **Score parts:** tier +40, category +20, lead +12, relevance +8, freshness +19.7, stale_trap -10
+
+### 🟡 [89.7] Stanmore Holdings Limited & another v Lugalia & 3 others (Miscellaneous Civil Application E420 of 2026) [2026] KEHC 1375
+- **Verdict:** CHECK — source date older than the window
+- **Source:** Kenya Gazette (Kenya Law) · tier 1 · KE · gazette
+- **First seen:** 2026-09-23T00:12+03:00 EAT · **Source date:** 2026-09-17
+- **URL:** https://new.kenyalaw.org/akn/ke/judgment/kehc/2026/13751/eng@2026-09-17
+- **Extract:** Stanmore Holdings Limited & another v Lugalia & 3 others (Miscellaneous Civil Application E420 of 2026) [2026] KEHC 13751 (KLR) (Commercial and Tax) (17 September 2026) (Ruling)
+- **Score parts:** tier +40, category +20, lead +12, relevance +8, freshness +19.7, stale_trap -10
+
+### 🟡 [89.7] Commissioner of Domestic Taxes v Konchor Kids Limited (Tax Appeal E054 of 2026) [2026] KEHC 13745 (KLR) (Commercial and 
+- **Verdict:** CHECK — source date older than the window
+- **Source:** Kenya Gazette (Kenya Law) · tier 1 · KE · gazette
+- **First seen:** 2026-09-23T00:12+03:00 EAT · **Source date:** 2026-09-17
+- **URL:** https://new.kenyalaw.org/akn/ke/judgment/kehc/2026/13745/eng@2026-09-17
+- **Extract:** Commissioner of Domestic Taxes v Konchor Kids Limited (Tax Appeal E054 of 2026) [2026] KEHC 13745 (KLR) (Commercial and Tax) (17 September 2026) (Ruling)
+- **Score parts:** tier +40, category +20, lead +12, relevance +8, freshness +19.7, stale_trap -10
+
+### 🟡 [89.7] Mutungi (Suing as Administratrix of the Estate of the Late Mutungi Maliti) & another v ABSA Bank Kenya Limited & 3 other
+- **Verdict:** CHECK — source date older than the window
+- **Source:** Kenya Gazette (Kenya Law) · tier 1 · KE · gazette
+- **First seen:** 2026-09-23T00:12+03:00 EAT · **Source date:** 2026-09-17
+- **URL:** https://new.kenyalaw.org/akn/ke/judgment/kehc/2026/13744/eng@2026-09-17
+- **Extract:** Mutungi (Suing as Administratrix of the Estate of the Late Mutungi Maliti) & another v ABSA Bank Kenya Limited & 3 others (Civil Suit E623 of 2025) [2026] KEHC 13744 (KLR) (Commercial and Tax) (17 September 2026) (Ruling)
+- **Score parts:** tier +40, category +20, lead +12, relevance +8, freshness +19.7, stale_trap -10
+
+### 🟡 [89.7] Milestones Games Limited v Ciscos Kenya Limited & 3 others (Civil Suit E191 of 2026) [2026] KEHC 13743 (KLR) (Commercial
+- **Verdict:** CHECK — source date older than the window
+- **Source:** Kenya Gazette (Kenya Law) · tier 1 · KE · gazette
+- **First seen:** 2026-09-23T00:12+03:00 EAT · **Source date:** 2026-09-17
+- **URL:** https://new.kenyalaw.org/akn/ke/judgment/kehc/2026/13743/eng@2026-09-17
+- **Extract:** Milestones Games Limited v Ciscos Kenya Limited & 3 others (Civil Suit E191 of 2026) [2026] KEHC 13743 (KLR) (Commercial and Tax) (17 September 2026) (Ruling)
+- **Score parts:** tier +40, category +20, lead +12, relevance +8, freshness +19.7, stale_trap -10
+
+### 🟡 [89.7] Longonot Place Ltd v Spire Bank Ltd & another (Civil Suit E214 of 2022) [2026] KEHC 13742 (KLR) (Commercial and Tax) (17
+- **Verdict:** CHECK — source date older than the window
+- **Source:** Kenya Gazette (Kenya Law) · tier 1 · KE · gazette
+- **First seen:** 2026-09-23T00:12+03:00 EAT · **Source date:** 2026-09-17
+- **URL:** https://new.kenyalaw.org/akn/ke/judgment/kehc/2026/13742/eng@2026-09-17
+- **Extract:** Longonot Place Ltd v Spire Bank Ltd & another (Civil Suit E214 of 2022) [2026] KEHC 13742 (KLR) (Commercial and Tax) (17 September 2026) (Ruling)
+- **Score parts:** tier +40, category +20, lead +12, relevance +8, freshness +19.7, stale_trap -10
+
+### 🟡 [89.7] Saroya v Amin & 3 others (Commercial Case E671 of 2025) [2026] KEHC 13738 (KLR) (Commercial and Tax) (17 September 2026)
+- **Verdict:** CHECK — source date older than the window
+- **Source:** Kenya Gazette (Kenya Law) · tier 1 · KE · gazette
+- **First seen:** 2026-09-23T00:12+03:00 EAT · **Source date:** 2026-09-17
+- **URL:** https://new.kenyalaw.org/akn/ke/judgment/kehc/2026/13738/eng@2026-09-17
+- **Extract:** Saroya v Amin & 3 others (Commercial Case E671 of 2025) [2026] KEHC 13738 (KLR) (Commercial and Tax) (17 September 2026) (Ruling)
+- **Score parts:** tier +40, category +20, lead +12, relevance +8, freshness +19.7, stale_trap -10
+
+### 🟡 [89.7] Nduwayezu v Le-Alvin Enterprises Ltd & 2 others (Commercial Case E196 of 2022) [2026] KEHC 13730 (KLR) (Commercial and T
+- **Verdict:** CHECK — source date older than the window
+- **Source:** Kenya Gazette (Kenya Law) · tier 1 · KE · gazette
+- **First seen:** 2026-09-23T00:12+03:00 EAT · **Source date:** 2026-09-17
+- **URL:** https://new.kenyalaw.org/akn/ke/judgment/kehc/2026/13730/eng@2026-09-17
+- **Extract:** Nduwayezu v Le-Alvin Enterprises Ltd & 2 others (Commercial Case E196 of 2022) [2026] KEHC 13730 (KLR) (Commercial and Tax) (17 September 2026) (Ruling)
+- **Score parts:** tier +40, category +20, lead +12, relevance +8, freshness +19.7, stale_trap -10
+
+### 🟡 [89.7] York House Properties Ltd & 2 others v Mohamedali & another (Commercial Case 333 of 2005) [2026] KEHC 13728 (KLR) (Comme
+- **Verdict:** CHECK — source date older than the window
+- **Source:** Kenya Gazette (Kenya Law) · tier 1 · KE · gazette
+- **First seen:** 2026-09-23T00:12+03:00 EAT · **Source date:** 2026-09-17
+- **URL:** https://new.kenyalaw.org/akn/ke/judgment/kehc/2026/13728/eng@2026-09-17
+- **Extract:** York House Properties Ltd & 2 others v Mohamedali & another (Commercial Case 333 of 2005) [2026] KEHC 13728 (KLR) (Commercial and Tax) (17 September 2026) (Ruling)
+- **Score parts:** tier +40, category +20, lead +12, relevance +8, freshness +19.7, stale_trap -10
+
+### 🟡 [88.5] Parliament Demands Details on New Kitgum Refugee Settlement Tuesday, 22 September 2026
+- **Verdict:** CONSIDER
+- **Source:** Parliament of Uganda · tier 1 · UG · legislature
+- **First seen:** 2026-09-23T00:12+03:00 EAT · **Source date:** — none stated
+- **URL:** https://www.parliament.go.ug/news/4626/parliament-demands-details-new-kitgum-refugee-settlement
+- **Score parts:** tier +40, category +10, lead +16.8, relevance +8, freshness +19.7, undated -6
+
+### 🟡 [88.1] American Adds Mainline Chicago – Madison Service in 1Q27
 - **Verdict:** CONSIDER
 - **Source:** AeroRoutes schedule filings · tier 2 · GLOBAL · aviation-tracker
-- **First seen:** 2026-09-22T17:04+03:00 EAT · **Source date:** 2026-09-22
-- **URL:** https://www.aeroroutes.com/eng/aerolineas-argentinas-expands-china-eastern-codeshare-from-sep-2026
-- **Extract:** Published at 0600PDT / 1300GMT 22SEP26 Aerolineas Argentinas this month gradually to expand codeshare partnership with China Eastern, covering the latter’s additional routes. Aerolineas Argentinas operated by China Eastern Shanghai Pu Dong – Auckland – Buenos 
-- **Score parts:** tier +20, category +14, lead +8.4, relevance +20, freshness +14.4, corroborated +10
+- **First seen:** 2026-09-23T00:12+03:00 EAT · **Source date:** 2026-09-23
+- **URL:** https://www.aeroroutes.com/eng/260922-aa1q27ordmsn
+- **Extract:** Published at 1400PDT / 2100GMT 22SEP26 American Airlines in the first quarter of 2027 plans to add mainline service on Chicago O'Hare – Madison route, reflected in recent schedule update. From 06JAN27 to 10FEB27 (Chicago departure), 1 of 7 daily flight to be o
+- **Score parts:** tier +20, category +14, lead +8.4, relevance +16, freshness +19.7, corroborated +10
 
-### 🟡 [86.8] Air Tahiti Tentatively Moves Forward 26-seater ATR72 Debut to Nov 2026
+### 🟡 [88.1] Frontier Adds New York LaGuardia – Detroit From Nov 2026
 - **Verdict:** CONSIDER
 - **Source:** AeroRoutes schedule filings · tier 2 · GLOBAL · aviation-tracker
-- **First seen:** 2026-09-22T17:04+03:00 EAT · **Source date:** 2026-09-22
-- **URL:** https://www.aeroroutes.com/eng/260922-vtnw26at7
-- **Extract:** Published at 0400PDT / 1100GMT 22SEP26 Air Tahiti in recent schedule update intends to move forward the launch of 26-seater ATR72 aircraft service. Although reservations show first flight scheduled on 08DEC26, the “Air Tahiti Signature” service may move forwar
-- **Score parts:** tier +20, category +14, lead +8.4, relevance +20, freshness +14.4, corroborated +10
-
-### 🟡 [86.8] Batik Air Malaysia 2026-27 Year-End Johor Bahru – Taitung Charter
-- **Verdict:** CONSIDER
-- **Source:** AeroRoutes schedule filings · tier 2 · GLOBAL · aviation-tracker
-- **First seen:** 2026-09-22T17:04+03:00 EAT · **Source date:** 2026-09-22
-- **URL:** https://www.aeroroutes.com/eng/260922-odnw26jhbttt
-- **Extract:** Published at 0200PDT / 0900GMT 22SEP26 Batik Air Malaysia during 2026/27 New Year period schedules Johor Bahru – Taitung charter, on board Boeing 737-800. The airline plans to operate this route on 30DEC26 and 03JAN27. OD8866 JHB0920 – 1340TTT 738 30DEC26 OD88
-- **Score parts:** tier +20, category +14, lead +8.4, relevance +20, freshness +14.4, corroborated +10
-
-### 🟡 [86.8] Emergency 22 September 2026 | Cluster/Departmental news KSrelief and WHO Sign US$ 5.3 million agreement to combat choler
-- **Verdict:** CONSIDER
-- **Source:** WHO AFRO — Rwanda country newsroom · tier 1 · RW · health
-- **First seen:** 2026-09-22T17:03+03:00 EAT · **Source date:** — none stated
-- **URL:** https://www.afro.who.int/news/ksrelief-and-who-sign-us-53-million-agreement-combat-cholera-lake-chad-basin
-- **Score parts:** tier +40, category +24, lead +2.4, relevance +12, freshness +14.4, undated -6
-
-### 🟡 [86.8] Emergency 21 September 2026 | Feature Story Caring for children with Ebola in the Democratic Republic of the Congo
-- **Verdict:** CONSIDER
-- **Source:** WHO AFRO — Rwanda country newsroom · tier 1 · RW · health
-- **First seen:** 2026-09-22T17:03+03:00 EAT · **Source date:** — none stated
-- **URL:** https://www.afro.who.int/countries/democratic-republic-of-congo/news/caring-children-ebola-democratic-republic-congo
-- **Score parts:** tier +40, category +24, lead +2.4, relevance +12, freshness +14.4, undated -6
-
-### 🟡 [86.8] Emergency 22 September 2026 | Cluster/Departmental news KSrelief and WHO Sign US$ 5.3 million agreement to combat choler
-- **Verdict:** CONSIDER
-- **Source:** WHO AFRO — Uganda country newsroom · tier 1 · UG · health
-- **First seen:** 2026-09-22T17:03+03:00 EAT · **Source date:** — none stated
-- **URL:** https://www.afro.who.int/news/ksrelief-and-who-sign-us-53-million-agreement-combat-cholera-lake-chad-basin
-- **Score parts:** tier +40, category +24, lead +2.4, relevance +12, freshness +14.4, undated -6
-
-### 🟡 [86.8] Emergency 21 September 2026 | Feature Story Caring for children with Ebola in the Democratic Republic of the Congo
-- **Verdict:** CONSIDER
-- **Source:** WHO AFRO — Uganda country newsroom · tier 1 · UG · health
-- **First seen:** 2026-09-22T17:03+03:00 EAT · **Source date:** — none stated
-- **URL:** https://www.afro.who.int/countries/democratic-republic-of-congo/news/caring-children-ebola-democratic-republic-congo
-- **Score parts:** tier +40, category +24, lead +2.4, relevance +12, freshness +14.4, undated -6
-
-### 🟡 [86.8] Emergency 22 September 2026 | Cluster/Departmental news KSrelief and WHO Sign US$ 5.3 million agreement to combat choler
-- **Verdict:** CONSIDER
-- **Source:** WHO AFRO — Kenya country newsroom · tier 1 · KE · health
-- **First seen:** 2026-09-22T17:03+03:00 EAT · **Source date:** — none stated
-- **URL:** https://www.afro.who.int/news/ksrelief-and-who-sign-us-53-million-agreement-combat-cholera-lake-chad-basin
-- **Score parts:** tier +40, category +24, lead +2.4, relevance +12, freshness +14.4, undated -6
-
-### 🟡 [86.8] Emergency 21 September 2026 | Feature Story Caring for children with Ebola in the Democratic Republic of the Congo
-- **Verdict:** CONSIDER
-- **Source:** WHO AFRO — Kenya country newsroom · tier 1 · KE · health
-- **First seen:** 2026-09-22T17:03+03:00 EAT · **Source date:** — none stated
-- **URL:** https://www.afro.who.int/countries/democratic-republic-of-congo/news/caring-children-ebola-democratic-republic-congo
-- **Score parts:** tier +40, category +24, lead +2.4, relevance +12, freshness +14.4, undated -6
-
-### 🟡 [85.9] Ethiopia - Level 1: Exercise Normal Precautions
-- **Verdict:** CONSIDER
-- **Source:** US State Dept travel advisories (EA feed) · tier 1 · REG · advisory
-- **First seen:** 2026-09-22T20:59+03:00 EAT · **Source date:** — none stated
-- **URL:** https://travel.state.gov/content/tsg_aem/us/en/home/international-travel/travel-advisories/destination.eth.html
-- **Extract:** Exercise normal precautionSummary not available
-- **Score parts:** tier +40, category +32, lead +1.2, relevance +0, freshness +18.7, undated -6
-
-### 🟡 [83.1] 2025 Bank Supervision Annual Report
-- **Verdict:** CONSIDER
-- **Source:** CBK Market Perception Surveys (96-hotel panel: forward bookings, occupancy, conferencing) · tier 1 · KE · central-bank
-- **First seen:** 2026-09-22T20:59+03:00 EAT · **Source date:** 2026-09-22
-- **URL:** https://www.centralbank.go.ke/2026/09/22/2025-bank-supervision-annual-report
-- **Score parts:** tier +40, category +12, lead +2.4, relevance +0, freshness +18.7, corroborated +10
-
-### 🟡 [82.8] Index of Industrial Production – Q4 FY 2025/26 Press Release
-- **Verdict:** CONSIDER
-- **Source:** UBOS statistical releases · tier 1 · UG · statistics
-- **First seen:** 2026-09-22T17:03+03:00 EAT · **Source date:** 2026-09-22
-- **URL:** https://www.ubos.org/2026/09/22/index-of-industrial-production-q4-fy-2025-26-press-release
-- **Extract:** The overall production level in the Industrial sector increased from 166.0 in Q3 2025/26 to 167.5 in […] The post Index of Industrial Production – Q4 FY 2025/26 Press Release appeared first on Uganda Bureau of Statistics .
-- **Score parts:** tier +40, category +16, lead +2.4, relevance +0, freshness +14.4, corroborated +10
-
-### 🟡 [79.1] British Airways Expands Finnair Codeshare From mid-Sep 2026
-- **Verdict:** CONSIDER
-- **Source:** AeroRoutes schedule filings · tier 2 · GLOBAL · aviation-tracker
-- **First seen:** 2026-09-22T20:59+03:00 EAT · **Source date:** 2026-09-22
-- **URL:** https://www.aeroroutes.com/eng/260922-baaycodeshare
-- **Extract:** Published at 1000PDT / 1700GMT 22SEP26 British Airways earlier this month expanded codeshare partnership with Finnair, covering the latter’s additional European routes. Following codeshare routes went into effect since mid-September 2026. British Airways opera
-- **Score parts:** tier +20, category +14, lead +8.4, relevance +8, freshness +18.7, corroborated +10
-
-### 🟡 [79.1] ANA Expands ITA Airways Codeshare in NW26
-- **Verdict:** CONSIDER
-- **Source:** AeroRoutes schedule filings · tier 2 · GLOBAL · aviation-tracker
-- **First seen:** 2026-09-22T20:59+03:00 EAT · **Source date:** 2026-09-22
-- **URL:** https://www.aeroroutes.com/eng/260922-nhazcodeshare
-- **Extract:** Published at 0900PDT / 1600GMT 22SEP26 Star Alliance member ANA at the launch of Northern winter 2026/27 season plans to expand codeshare partnership with ITA Airways, covering the latter’s additional service in Europe. Following codeshare routes gradually com
-- **Score parts:** tier +20, category +14, lead +8.4, relevance +8, freshness +18.7, corroborated +10
-
-### 🟡 [78.8] Fiji Airways early-Oct 2026 Extra Tuvalu Charters
-- **Verdict:** CONSIDER
-- **Source:** AeroRoutes schedule filings · tier 2 · GLOBAL · aviation-tracker
-- **First seen:** 2026-09-22T17:04+03:00 EAT · **Source date:** 2026-09-22
-- **URL:** https://www.aeroroutes.com/eng/260922-fjoct26tv
-- **Extract:** Published at 0500PDT / 1200GMT 22SEP26 Fiji Airways in early-October 2026 lists extra service to Tuvalu, as the carrier plans to operate 3 round-trip Nadi – Funafuti flights on charter basis on 06OCT26, with ATR72. FJ2289 NAN0645 – 0920FUN AT7 FJ2287 NAN0745 –
-- **Score parts:** tier +20, category +14, lead +8.4, relevance +12, freshness +14.4, corroborated +10
-
-### 🟡 [78.8] 2025 Bank Supervision Annual Report
-- **Verdict:** CONSIDER
-- **Source:** Central Bank of Kenya press releases · tier 1 · KE · central-bank
-- **First seen:** 2026-09-22T17:03+03:00 EAT · **Source date:** 2026-09-22
-- **URL:** https://www.centralbank.go.ke/2026/09/22/2025-bank-supervision-annual-report
-- **Score parts:** tier +40, category +12, lead +2.4, relevance +0, freshness +14.4, corroborated +10
-
-### 🟡 [77.0] When the Host Needs Hosting: Amelia Dimoldenberg Takes the Guest Seat with IHG Hotels & Resorts
-- **Verdict:** CONSIDER
-- **Source:** Hospitality Net — Africa announcements · tier 2 · REG · trade
-- **First seen:** 2026-09-22T17:04+03:00 EAT · **Source date:** 2026-09-22
-- **URL:** https://www.hospitalitynet.org/news/4134482/when-the-host-needs-hosting-amelia-dimoldenberg-takes-the-guest-seat-with-ihg-hotels-resorts
-- **Extract:** IHG Hotels & Resorts partners with Chicken Shop Date creator Amelia Dimoldenberg for a global social campaign, featuring a loyalty-exclusive hotel package available at three U.S. properties.
-- **Score parts:** tier +20, category +5, lead +3.6, relevance +24, freshness +14.4, corroborated +10
-
-### 🟡 [74.8] Thai VietJet Air NW26 Mumbai Service Changes
-- **Verdict:** CONSIDER
-- **Source:** AeroRoutes schedule filings · tier 2 · GLOBAL · aviation-tracker
-- **First seen:** 2026-09-22T17:04+03:00 EAT · **Source date:** 2026-09-22
-- **URL:** https://www.aeroroutes.com/eng/260922-vznw26bom
-- **Extract:** Published at 0100PDT / 0800GMT 22SEP26 Thai VietJet Air during Northern winter 2026/27 season is adjusting service to Mumbai, as the carrier plans to introduce Boeing 737 MAX aircraft from Bangkok from 01OCT26. The airline also plans to resume flights from Phu
-- **Score parts:** tier +20, category +14, lead +8.4, relevance +8, freshness +14.4, corroborated +10
-
-### 🟡 [74.8] 17 September 2026 | News Release WHO regional survey finds uneven progress on patient safety
-- **Verdict:** CONSIDER
-- **Source:** WHO AFRO — Rwanda country newsroom · tier 1 · RW · health
-- **First seen:** 2026-09-22T17:03+03:00 EAT · **Source date:** — none stated
-- **URL:** https://www.afro.who.int/news/who-regional-survey-finds-uneven-progress-patient-safety
-- **Score parts:** tier +40, category +24, lead +2.4, relevance +0, freshness +14.4, undated -6
-
-### 🟡 [74.8] 17 September 2026 | News Release WHO regional survey finds uneven progress on patient safety
-- **Verdict:** CONSIDER
-- **Source:** WHO AFRO — Uganda country newsroom · tier 1 · UG · health
-- **First seen:** 2026-09-22T17:03+03:00 EAT · **Source date:** — none stated
-- **URL:** https://www.afro.who.int/news/who-regional-survey-finds-uneven-progress-patient-safety
-- **Score parts:** tier +40, category +24, lead +2.4, relevance +0, freshness +14.4, undated -6
-
-### 🟡 [74.8] 17 September 2026 | News Release WHO regional survey finds uneven progress on patient safety
-- **Verdict:** CONSIDER
-- **Source:** WHO AFRO — Kenya country newsroom · tier 1 · KE · health
-- **First seen:** 2026-09-22T17:03+03:00 EAT · **Source date:** — none stated
-- **URL:** https://www.afro.who.int/news/who-regional-survey-finds-uneven-progress-patient-safety
-- **Score parts:** tier +40, category +24, lead +2.4, relevance +0, freshness +14.4, undated -6
-
-### 🟡 [73.0] Stop Managing Labor by Headcount: Why HPOR Should Lead the Conversation
-- **Verdict:** CONSIDER
-- **Source:** Hospitality Net — Africa announcements · tier 2 · REG · trade
-- **First seen:** 2026-09-22T17:04+03:00 EAT · **Source date:** 2026-09-22
-- **URL:** https://www.hospitalitynet.org/opinion/4134432/stop-managing-labor-by-headcount-why-hpor-should-lead-the-conversation
-- **Extract:** H1 2026 data shows Full Service hotels cut HPOR by 3.1% and Select Service by 3.5%, even as occupancy rose to 67.9% and RevPAR grew 8.9%, making HPOR a sharper labor efficiency tool than headcount.
-- **Score parts:** tier +20, category +5, lead +3.6, relevance +20, freshness +14.4, corroborated +10
-
-### 🟡 [72.7] Police holds 34 people suspected involved in killing six workers of Ipole Wildlife Conservation
-- **Verdict:** CONSIDER
-- **Source:** Daily News (Tanzania) · tier 2 · TZ · press
-- **First seen:** 2026-09-22T20:59+03:00 EAT · **Source date:** 2026-09-22
-- **URL:** https://dailynews.co.tz/police-holds-34-people-suspected-involved-in-killing-six-workers-of-ipole-wildlife-conservation
-- **Extract:** DAR ES SALAAM: THE Minister for Natural Resources and Tourism Dr Ashatu Kijaji says 34 people are being held to assist with investigations into an incident that resulted in the deaths of six conservation workers in the Ipole Wildlife Management Area in Sikonge
-- **Score parts:** tier +20, category +4, lead +0, relevance +20, freshness +18.7, corroborated +10
-
-### 🟡 [70.8] Condor Discontinues Sanya Service in late-Oct 2026
-- **Verdict:** CONSIDER
-- **Source:** AeroRoutes schedule filings · tier 2 · GLOBAL · aviation-tracker
-- **First seen:** 2026-09-22T17:04+03:00 EAT · **Source date:** 2026-09-22
-- **URL:** https://www.aeroroutes.com/eng/260922-deoct26cn
-- **Extract:** Published at 0700PDT / 1400GMT 22SEP26 German carrier Condor at the end of October 2026 plans to discontinue service to Sanya in China, where it currently operates 3 weekly Frankfurt – Bangkok Suvarnabhumi – Sanya flights. Last flight is currently scheduled on
-- **Score parts:** tier +20, category +14, lead +8.4, relevance +4, freshness +14.4, corroborated +10
-
-### 🟡 [70.8] China Southern NW26 Guangzhou – Bangkok Operations
-- **Verdict:** CONSIDER
-- **Source:** AeroRoutes schedule filings · tier 2 · GLOBAL · aviation-tracker
-- **First seen:** 2026-09-22T17:04+03:00 EAT · **Source date:** 2026-09-22
-- **URL:** https://www.aeroroutes.com/eng/260922-cznw26canbkk
-- **Extract:** Published at 0300PDT / 1000GMT 22SEP26 China Southern during Northern winter 2026/27 season once again schedules 10 daily Guangzhou – Bangkok Suvarnabhumi service, for travel between 25OCT26 and 27MAR27. The carrier previously during summer 2026 season also sc
-- **Score parts:** tier +20, category +14, lead +8.4, relevance +4, freshness +14.4, corroborated +10
-
-### 🟡 [70.7] Tanzania detains 34 after deadly attack on conservation officers in Tabora 5 hours ago - 2 min read
-- **Verdict:** CONSIDER
-- **Source:** The Citizen (Tanzania) · tier 2 · TZ · press
-- **First seen:** 2026-09-22T20:59+03:00 EAT · **Source date:** — none stated
-- **URL:** https://www.thecitizen.co.tz/tanzania/news/national/tanzania-detains-34-after-deadly-attack-on-conservation-officers-in-tabora-5604730
-- **Shock language:** attack
-- **Score parts:** tier +20, category +4, lead +0, relevance +16, freshness +18.7, undated -6, shock +18
-
-### 🟡 [70.6] The Next Dollar
-- **Verdict:** CONSIDER
-- **Source:** Skift · tier 2 · GLOBAL · trade
-- **First seen:** 2026-09-22T17:04+03:00 EAT · **Source date:** 2026-09-22
-- **URL:** https://skift.com/2026/09/22/the-next-dollar-who-moves-travels-money
-- **Extract:** Travel measures success by what happens after money gets allocated: arrivals, bookings, room nights, load factors, traveler spending. We’ve built a framework around every decision that leads to those outcomes, counting the roughly 5,000 people with authority o
-- **Score parts:** tier +20, category +5, lead +1.2, relevance +20, freshness +14.4, corroborated +10
+- **First seen:** 2026-09-23T00:12+03:00 EAT · **Source date:** 2026-09-22
+- **URL:** https://www.aeroroutes.com/eng/260922-f9nw26lgadtw
+- **Extract:** Published at 1300PDT / 2000GMT 22SEP26 Frontier Airlines from November 2026 plans to add New York LaGuardia – Detroit route, initially with 1 daily flight scheduled from 20NOV26 with Airbus A320neo and A321neo. From 01DEC26, service will become 3 weekly with A
+- **Score parts:** tier +20, category +14, lead +8.4, relevance +16, freshness +19.7, corroborated +10
