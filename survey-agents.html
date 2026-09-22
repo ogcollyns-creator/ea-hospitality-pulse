@@ -67,7 +67,8 @@ a:focus-visible,button:focus-visible,input:focus-visible,select:focus-visible,te
 <p>What agents are actually telling clients about East Africa · Q3 2026 round</p></div></header>
 <div class="wrap"><div class="card">
 <h2>Ten questions. Three minutes. Confidential.</h2>
-<p style="color:var(--muted);font-size:15px">You sell this region for a living. Nobody publishes what agents are actually seeing — booking windows, client objections, how East Africa is faring against Southern Africa this season. We aggregate and publish it free to every participant.</p>
+<p style="font-size:14px;margin:-4px 0 10px"><b>Selling from inside East Africa?</b> DMCs and ground handlers get three extra questions after question 2, written for your side of the trade.</p>
+<p style="color:var(--muted);font-size:15px">You sell this region for a living. Nobody publishes what agents and ground operators are actually seeing — booking windows, client objections, how East Africa is faring against Southern Africa this season. We aggregate and publish it free to every participant.</p>
 <div class="note"><b>What we do with it:</b> results are reported in aggregate only. Your name, agency and individual answers are never published, quoted or shared with any property, tourism board or third party. If fewer than eight agents answer a given question, we do not report that question at all — small samples are how anonymity leaks.</div>
 
 <form id="f">
@@ -87,6 +88,42 @@ a:focus-visible,button:focus-visible,input:focus-visible,select:focus-visible,te
       <label class="opt"><input type="radio" name="biz" value="dmc">DMC / ground handler</label>
       <label class="opt"><input type="radio" name="biz" value="specialist">Safari specialist</label>
       <label class="opt"><input type="radio" name="biz" value="ota">OTA / online</label>
+    </div>
+  </div>
+
+
+  <div class="q dmc-only" hidden><label class="qt">2a. For DMCs and ground handlers: which source markets grew most in your 2027 enquiries?</label>
+    <div class="hint">Tick up to three.</div>
+    <div class="opts">
+      <label class="opt"><input type="checkbox" name="dmc_growth" value="US">United States</label>
+      <label class="opt"><input type="checkbox" name="dmc_growth" value="UK">United Kingdom</label>
+      <label class="opt"><input type="checkbox" name="dmc_growth" value="DE">Germany</label>
+      <label class="opt"><input type="checkbox" name="dmc_growth" value="EU-other">Rest of Europe</label>
+      <label class="opt"><input type="checkbox" name="dmc_growth" value="IN">India</label>
+      <label class="opt"><input type="checkbox" name="dmc_growth" value="Asia">China / rest of Asia</label>
+      <label class="opt"><input type="checkbox" name="dmc_growth" value="Gulf">Gulf / Middle East</label>
+      <label class="opt"><input type="checkbox" name="dmc_growth" value="Africa">Africa (regional / domestic)</label>
+    </div>
+  </div>
+
+  <div class="q dmc-only" hidden><label class="qt">2b. Of your 2027 European safari bookings, is the share carrying a Zanzibar or Diani beach extension higher or lower than for 2026?</label>
+    <div class="hint">The earliest warning of beach demand moving to other Indian Ocean islands shows up here, months before arrivals data.</div>
+    <div class="opts">
+      <label class="opt"><input type="radio" name="dmc_beach" value="higher">Higher</label>
+      <label class="opt"><input type="radio" name="dmc_beach" value="same">About the same</label>
+      <label class="opt"><input type="radio" name="dmc_beach" value="lower">Lower</label>
+      <label class="opt"><input type="radio" name="dmc_beach" value="na">We don't sell to Europe</label>
+    </div>
+  </div>
+
+  <div class="q dmc-only" hidden><label class="qt">2c. Which 2027 cost change is hardest to pass on to your overseas partners?</label>
+    <div class="opts">
+      <label class="opt"><input type="radio" name="dmc_cost" value="fuel">Fuel and transport</label>
+      <label class="opt"><input type="radio" name="dmc_cost" value="parkfees">Park, conservancy and permit fees</label>
+      <label class="opt"><input type="radio" name="dmc_cost" value="entry">Entry costs (visas, mandatory insurance)</label>
+      <label class="opt"><input type="radio" name="dmc_cost" value="licence">Licence and accreditation fees</label>
+      <label class="opt"><input type="radio" name="dmc_cost" value="fx">Currency movements</label>
+      <label class="opt"><input type="radio" name="dmc_cost" value="other">Something else</label>
     </div>
   </div>
 
@@ -117,6 +154,7 @@ a:focus-visible,button:focus-visible,input:focus-visible,select:focus-visible,te
   </div>
 
   <div class="q"><label class="qt">5. This season, are you steering clients toward East Africa or Southern Africa?</label>
+    <div class="hint dmc-only" hidden>DMCs: answer for what your overseas partners are asking for.</div>
     <div class="opts">
       <label class="opt"><input type="radio" name="vs_south" value="ea-strong">Strongly East Africa</label>
       <label class="opt"><input type="radio" name="vs_south" value="ea">Leaning East Africa</label>
@@ -228,6 +266,18 @@ document.getElementById('f').addEventListener('submit', function(e){
   }
   msg.scrollIntoView({behavior:'smooth'});
 });
+(function(){
+  function sync(){
+    var sel=document.querySelector('input[name="biz"]:checked');
+    var on=!!sel && sel.value==='dmc';
+    document.querySelectorAll('.dmc-only').forEach(function(el){
+      el.hidden=!on;
+      if(!on) el.querySelectorAll('input').forEach(function(i){ i.checked=false; });
+    });
+  }
+  document.querySelectorAll('input[name="biz"]').forEach(function(r){ r.addEventListener('change',sync); });
+  sync();
+})();
 function showDump(o){
   var t=document.getElementById('dump');
   var lines=['EA PULSE AGENT SURVEY — Q3 2026',''];
