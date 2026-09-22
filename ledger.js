@@ -1,8 +1,8 @@
 window.LEDGER = {
- "updated": "2026-09-22 13:27",
+ "updated": "2026-09-22 16:31",
  "stats": {
-  "total": 205,
-  "open": 150,
+  "total": 207,
+  "open": 152,
   "resolved": 50,
   "correct": 39,
   "partial": 1,
@@ -696,6 +696,22 @@ window.LEDGER = {
    "resolved_date": "",
    "evidence": "",
    "source_url": "https://travel.gc.ca/travelling/health-safety/travel-health-notices/549",
+   "overdue": false
+  },
+  {
+   "id": "P205",
+   "made_date": "2026-09-22",
+   "edition": "Evening Wrap",
+   "claim": "No Kenyan tourism trade association, tourism trade outlet or mainstream Kenyan business title will publicly report the 18 September 2026 reconstitution of the Tourism Fund Board of Trustees (Patrick Ngere re-appointed, Nicholas Kimeli and Dr Yvonne Tharao appointed) on or before 31 October 2026 - the notice was gazetted in the week ended 18 September and we could find no trade coverage of it as at 22 September, four days later, while the same sector was actively lobbying the Senate over Legal Notice No. 127",
+   "resolution_criteria": "Search Business Daily, The EastAfrican, The Standard, Capital FM, People Daily, The Kenya Times, Kenyans.co.ke, Eastleigh Voice, VoyagesAfriq, HotelOnline and Tourism Update, plus KAHC, KATO, KATA and Kenya Coast Tourism Association communications, to 31 October 2026. Any published article, statement or newsletter item naming the Tourism Fund Board reconstitution or any of the three named trustees in connection with the 18 September appointment resolves the call INCORRECT. Absence of any such coverage at 31 October 2026 resolves it CORRECT",
+   "resolve_by": "2026-10-31",
+   "market": "Kenya",
+   "segment": "City|Bush|Beach",
+   "confidence": "Medium",
+   "status": "open",
+   "resolved_date": "",
+   "evidence": "",
+   "source_url": "https://vellum.co.ke/kenya-gazette-week-ended-18th-september-2026/",
    "overdue": false
   },
   {
@@ -1416,6 +1432,22 @@ window.LEDGER = {
    "resolved_date": "",
    "evidence": "",
    "source_url": "https://www.diplomatie.gouv.fr/fr/information-par-pays/kenya/conseils-aux-voyageurs-securite",
+   "overdue": false
+  },
+  {
+   "id": "P206",
+   "made_date": "2026-09-22",
+   "edition": "Evening Wrap",
+   "claim": "Uganda Wildlife Authority will NOT replace the EXPIRED July 2024-June 2026 conservation tariff PDF as the primary 'UWA RATES' download on ugandawildlife.org/uwa-rates on or before 31 December 2026 - as at 22 September 2026 the page simultaneously publishes a 'Tariff changes 2026-2027' document AND links the lapsed 2024-2026 tariff as its main rates download, with the tariff card pointing at the older 2022-2024 PDF, an internal inconsistency that has persisted since the page was last modified on 3 March 2026",
+   "resolution_criteria": "Read ugandawildlife.org/uwa-rates on or before 31 December 2026. If the primary 'UWA RATES' download link resolves to a tariff document whose stated validity period begins on or after 1 July 2026, the call resolves INCORRECT. If it still resolves to the July 2024-June 2026 tariff, or to the 2022-2024 tariff, the call resolves CORRECT. If the page is removed or restructured such that no primary rates download exists, the call is unresolved and rolls",
+   "resolve_by": "2026-12-31",
+   "market": "Uganda",
+   "segment": "Bush",
+   "confidence": "Medium",
+   "status": "open",
+   "resolved_date": "",
+   "evidence": "",
+   "source_url": "https://ugandawildlife.org/uwa-rates/",
    "overdue": false
   },
   {
