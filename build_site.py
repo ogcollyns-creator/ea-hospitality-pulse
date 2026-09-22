@@ -2299,6 +2299,14 @@ def main():
     author_page = build_author_page(editions, guides, trackers)
     build_credits_page()
     polish_static_heads()
+    # Big Reads index: write the cards into the static HTML so crawlers,
+    # link-preview bots and AI answer engines see them (see prerender_big_reads.py)
+    big_reads = []
+    try:
+        import prerender_big_reads
+        big_reads = prerender_big_reads.render()
+    except Exception as ex:
+        print("big-reads prerender skipped:", ex)
 
     # feed.xml — RSS 2.0, so associations / aggregators / newsletter tools can
     # auto-pull editions instead of needing a manual republish each time.
@@ -2330,6 +2338,18 @@ def main():
         rss.append(f'<guid isPermaLink="true">{url}</guid>')
         rss.append(f'<pubDate>{rfc822(e["date"])}</pubDate>')
         rss.append(f'<description>{desc}</description>')
+        rss.append('</item>')
+    # Big Reads were missing from the feed, so RSS readers and syndication
+    # partners never saw the long-form pieces. Include the latest ten.
+    for g in big_reads[:10]:
+        url = f"{BASE}/guides/{g['slug']}"
+        rss.append('<item>')
+        rss.append(f'<title>{sx.escape("Big Read: " + g["title"])}</title>')
+        rss.append(f'<link>{url}</link>')
+        rss.append(f'<guid isPermaLink="true">{url}</guid>')
+        rss.append(f'<pubDate>{rfc822(g.get("updated", today))}</pubDate>')
+        rss.append('<category>Big Read</category>')
+        rss.append(f'<description>{sx.escape((g.get("description") or "")[:400])}</description>')
         rss.append('</item>')
     rss.append('</channel></rss>')
     open(os.path.join(HERE, "feed.xml"), "w", encoding="utf-8").write("\n".join(rss))
