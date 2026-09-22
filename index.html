@@ -260,6 +260,8 @@
 
   /* Latest edition card */
   .latest{background:linear-gradient(135deg,var(--teal-d),var(--teal));color:#fff;border-radius:14px;padding:22px;cursor:pointer;transition:transform .12s,box-shadow .12s;border-left:6px solid var(--gold);display:flex;gap:22px;align-items:stretch}
+  a.latest{text-decoration:none}
+  .latest.br{background:linear-gradient(135deg,#1c2433,#2b3548)}
   .latest:hover{transform:translateY(-3px);box-shadow:0 12px 30px rgba(10,79,72,.25)}
   .latest .hero{flex:none;width:240px;border-radius:10px;object-fit:cover;aspect-ratio:1200/630;background:rgba(255,255,255,.1)}
   .latest .lbody{flex:1;min-width:0}
@@ -547,6 +549,22 @@
   <span class="hero-credit" id="hero-credit">Crater lake, East Africa</span>
 </div>
 
+<section id="latest-bigread" class="wrap" style="padding:34px 0 0">
+  <div class="section-head">
+    <div><div class="kicker">Long-form, sourced, reviewed</div><h2>Latest Big Read</h2></div>
+    <a class="backlink" style="display:inline" href="big-reads">See all Big Reads →</a>
+  </div>
+  <div id="latest-bigread-card"></div>
+</section>
+
+<section id="latest" class="wrap" style="padding:34px 0 0">
+  <div class="section-head">
+    <div><div class="kicker">Hot off the press</div><h2>Latest edition</h2></div>
+    <a class="backlink" style="display:inline" href="#archive">Browse every edition →</a>
+  </div>
+  <div id="latest-card"></div>
+</section>
+
 <div class="wrap">
   <div class="topstrip">
     <div class="editor-mini">
@@ -586,13 +604,6 @@
   </div>
 </section>
 
-<section id="latest" class="wrap" style="padding:34px 0 0">
-  <div class="section-head">
-    <div><div class="kicker">Hot off the press</div><h2>Latest edition</h2></div>
-    <a class="backlink" style="display:inline" href="#archive">Browse every edition →</a>
-  </div>
-  <div id="latest-card"></div>
-</section>
 
 <section id="archive" class="wrap">
   <div class="section-head">
@@ -621,7 +632,7 @@
   <div class="section-head">
     <div>
       <span class="kicker">Long-form</span>
-      <h2>Big Reads</h2>
+      <h2>More Big Reads</h2>
     </div>
     <span class="count-note"><a href="big-reads">See all Big Reads →</a></span>
   </div>
@@ -1319,6 +1330,22 @@
         '<div class="wt">Watch: '+v.watch+'</div><div class="wy">'+v.why+'</div>'+
         '<div class="sg">Signal: '+v.signal+'</div></div>').join('')+'</div>').join('');
   }
+  // ---- Latest Big Read (leads the page, above the latest edition) ----
+  function renderLatestBigRead(){
+    const box=document.getElementById('latest-bigread-card'); if(!box) return;
+    const B=(window.GUIDES||[]).filter(g=>(g.category||'').trim().toLowerCase()==='big read')
+               .sort((a,b)=>(b.updated||'').localeCompare(a.updated||''));
+    const sec=document.getElementById('latest-bigread');
+    if(!B.length){ if(sec) sec.style.display='none'; return; }
+    const g=B[0];
+    const fmt=d=>{ try{ return new Date(d+'T00:00:00').toLocaleDateString('en-GB',{day:'numeric',month:'short',year:'numeric'}); }catch(e){ return d; } };
+    box.innerHTML='<a class="latest br" href="guides/'+g.slug+'">'+
+      (g.image?'<img class="hero" src="'+g.image+'" alt="" loading="eager" onerror="this.remove()">':'')+
+      '<div class="lbody"><span class="lbadge">Big Read</span><time>'+fmt(g.updated)+' · '+g.readMins+' min read</time>'+
+      '<h3>'+g.title+'</h3>'+
+      '<p>'+g.description+'</p>'+
+      '<span class="go">Read the Big Read →</span></div></a>';
+  }
   // ---- Latest edition (the product, front and centre) ----
   function renderLatest(){
     const box=document.getElementById('latest-card');
@@ -1385,7 +1412,7 @@
     const box=document.getElementById('bigread-cards'); if(!box) return;
     const ALL=window.GUIDES||[];
     const B=ALL.filter(g=>(g.category||'').trim().toLowerCase()==='big read')
-               .sort((a,b)=>(b.updated||'').localeCompare(a.updated||'')).slice(0,3);
+               .sort((a,b)=>(b.updated||'').localeCompare(a.updated||'')).slice(1,4);
     const sec=document.getElementById('bigreads');
     if(!B.length){ if(sec) sec.style.display='none'; return; }
     const fmt=d=>{ try{ return new Date(d+'T00:00:00').toLocaleDateString('en-GB',{day:'numeric',month:'short',year:'numeric'}); }catch(e){ return d; } };
@@ -1399,6 +1426,7 @@
   }
   renderGuides();
   renderBigReads();
+  renderLatestBigRead();
   renderLatest();
   initTabs();
   renderConnect();
