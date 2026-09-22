@@ -96,5 +96,57 @@ def render(index=None):
     return brs
 
 
+# ---------------------------------------------------------------------------
+# Homepage: the "Latest Big Read", "More Big Reads" and "Guides & playbooks"
+# blocks on index.html were also filled only by JavaScript from guides.js, so
+# the most-visited page on the site showed no long-form content to link-preview
+# bots and AI crawlers. Same fix: write the cards into the static HTML. The
+# homepage script still re-renders them from guides.js (same markup), and
+# index.html is already committed by the build Action, so this stays current.
+HOME = os.path.join(HERE, "index.html")
+
+
+def _fill(s, box_id, inner):
+    tag = f"SSR:{box_id}"
+    pat = re.compile(r'(<div[^>]*\bid="' + re.escape(box_id) + r'"[^>]*>)(?:<!--' + tag + r'-->.*?<!--/' + tag + r'-->)?(</div>)', re.S)
+    return pat.subn(lambda m: m.group(1) + f"<!--{tag}-->" + inner + f"<!--/{tag}-->" + m.group(2), s, count=1)
+
+
+def render_home(index=None):
+    idx = index if index is not None else load_index()
+    e = html.escape
+    brs = big_reads(idx)
+    guides = [g for g in idx if (g.get("category") or "").strip().lower() != "big read"]
+    s = open(HOME, encoding="utf-8").read()
+    done = []
+    if brs:
+        g = brs[0]
+        hero = (f'<img class="hero" src="{e(g["image"])}" alt="" loading="eager">' if g.get("image") else "")
+        latest = (f'<a class="latest br" href="guides/{e(g["slug"])}">{hero}'
+                  f'<div class="lbody"><span class="lbadge">Big Read</span>'
+                  f'<time>{_date(g.get("updated"))} · {g.get("readMins", "")} min read</time>'
+                  f'<h3>{e(g["title"])}</h3><p>{e(g.get("description", ""))}</p>'
+                  f'<span class="go">Read the Big Read →</span></div></a>')
+        s, n = _fill(s, "latest-bigread-card", latest); done.append(("latest", n))
+        more = "".join(
+            f'<a class="gcard" href="guides/{e(x["slug"])}">'
+            f'<span class="gcat" style="background:var(--gold);color:#231a06">Big Read</span>'
+            f'<h3>{e(x["title"])}</h3><p>{e(x.get("description", ""))}</p>'
+            f'<div class="gmeta">{_date(x.get("updated"))} · {x.get("readMins", "")} min read</div>'
+            f'<div class="gread">Read the Big Read →</div></a>' for x in brs[1:4])
+        s, n = _fill(s, "bigread-cards", more); done.append(("more", n))
+    if guides:
+        gc = "".join(
+            f'<a class="gcard" href="guides/{e(x["slug"])}">'
+            f'<span class="gcat">{e(x.get("category", ""))}</span>'
+            f'<h3>{e(x["title"])}</h3><p>{e(x.get("description", ""))}</p>'
+            f'<div class="gmeta">Updated {_date(x.get("updated"))} · {x.get("readMins", "")} min read</div>'
+            f'<div class="gread">Read the guide →</div></a>' for x in guides)
+        s, n = _fill(s, "guide-cards", gc); done.append(("guides", n))
+    open(HOME, "w", encoding="utf-8").write(s)
+    print("Homepage long-form pre-rendered:", ", ".join(f"{k}={'ok' if n else 'container missing'}" for k, n in done))
+
+
 if __name__ == "__main__":
     render()
+    render_home()

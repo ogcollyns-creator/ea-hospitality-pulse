@@ -2305,6 +2305,7 @@ def main():
     try:
         import prerender_big_reads
         big_reads = prerender_big_reads.render()
+        prerender_big_reads.render_home()
     except Exception as ex:
         print("big-reads prerender skipped:", ex)
 
