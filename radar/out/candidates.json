@@ -1,8 +1,8 @@
 {
- "generated": "2026-09-22T17:05:46+03:00",
+ "generated": "2026-09-22T21:02:03+03:00",
  "slot": "evening",
  "window_start": 1790071200,
- "observations_in_window": 227,
+ "observations_in_window": 374,
  "deduped_against": 4,
  "candidates": [
   {
@@ -13,6 +13,39 @@
     "lead": 3.6,
     "relevance": 0,
     "freshness": 19.8,
+    "corroborated": 10,
+    "page_change": -4
+   },
+   "keywords": [],
+   "shock_terms": [],
+   "dedupe_match": null,
+   "dedupe_similarity": 0.0,
+   "id": "4e09c9334ef8",
+   "title": "[page changed] Federal Register \u2014 public inspection (HHS/CDC), pre-publication",
+   "url": "https://www.federalregister.gov/api/v1/public-inspection-documents/current.json",
+   "summary": "{\"count\":100,\"results\":[{\"agencies\":[{\"raw_name\":\"National Oceanic and Atmospheric Administration\",\"name\":\"National Oceanic and Atmospheric Administration\",\"id\":361,\"url\":\"https://www.federalregister.gov/agencies/national-oceanic-and-atmospheric-administration\",\"json_url\":\"https://www.federalregister.gov/api/v1/agencies/361\",\"parent_id\":54,\"slug\":\"national-oceanic-and-atmospheric-administration\"}]",
+   "kind": "page-change",
+   "source": "Federal Register \u2014 public inspection (HHS/CDC), pre-publication",
+   "source_id": "us-fedreg-pubinspect-hhs",
+   "tier": 1,
+   "country": "REG",
+   "category": "advisory",
+   "segments": [
+    "city",
+    "bush"
+   ],
+   "first_seen": "2026-09-22T20:59+03:00",
+   "published": "2026-09-21",
+   "verdict": "OPEN THIS \u2014 tier-1 advisory page moved; content not auto-parsed, read it manually"
+  },
+  {
+   "score": 97.0,
+   "components": {
+    "tier": 40,
+    "category": 32,
+    "lead": 3.6,
+    "relevance": 0,
+    "freshness": 15.4,
     "corroborated": 10,
     "page_change": -4
    },
@@ -39,13 +72,13 @@
    "verdict": "OPEN THIS \u2014 tier-1 advisory page moved; content not auto-parsed, read it manually"
   },
   {
-   "score": 112.2,
+   "score": 107.8,
    "components": {
     "tier": 40,
     "category": 18,
     "lead": 8.4,
     "relevance": 16,
-    "freshness": 19.8,
+    "freshness": 15.4,
     "corroborated": 10
    },
    "keywords": [
@@ -73,13 +106,50 @@
    "verdict": "STRONG \u2014 tier-1, upstream"
   },
   {
-   "score": 92.2,
+   "score": 88.2,
+   "components": {
+    "tier": 20,
+    "category": 14,
+    "lead": 8.4,
+    "relevance": 16,
+    "freshness": 19.8,
+    "corroborated": 10
+   },
+   "keywords": [
+    "route",
+    "flight",
+    "franc"
+   ],
+   "shock_terms": [],
+   "dedupe_match": null,
+   "dedupe_similarity": 0.0,
+   "id": "ec8158a2a71f",
+   "title": "Air France NS27 Philippines Preliminary Schedule",
+   "url": "https://www.aeroroutes.com/eng/260922-afns27mnl",
+   "summary": "Published at 0800PDT / 1500GMT 22SEP26 Air France in its preliminary schedule filing for Northern summer 2027 season once again lists service to The Philippines as seasonal route, as the 3 weekly Paris Charles de Gaulle \u2013 Manila flights will only operate from 28MAR27 to 02MAY27 (Paris departure). This route is operated by Airbus A350-900 aircraft. Note further changes to this preliminary filing re",
+   "kind": "item",
+   "source": "AeroRoutes schedule filings",
+   "source_id": "aeroroutes",
+   "tier": 2,
+   "country": "GLOBAL",
+   "category": "aviation-tracker",
+   "segments": [
+    "city",
+    "bush",
+    "beach"
+   ],
+   "first_seen": "2026-09-22T20:59+03:00",
+   "published": "2026-09-22",
+   "verdict": "CONSIDER"
+  },
+  {
+   "score": 87.8,
    "components": {
     "tier": 20,
     "category": 14,
     "lead": 8.4,
     "relevance": 20,
-    "freshness": 19.8,
+    "freshness": 15.4,
     "corroborated": 10
    },
    "keywords": [
@@ -110,13 +180,13 @@
    "verdict": "CONSIDER"
   },
   {
-   "score": 92.2,
+   "score": 87.8,
    "components": {
     "tier": 20,
     "category": 14,
     "lead": 8.4,
     "relevance": 20,
-    "freshness": 19.8,
+    "freshness": 15.4,
     "corroborated": 10
    },
    "keywords": [
@@ -147,13 +217,13 @@
    "verdict": "CONSIDER"
   },
   {
-   "score": 92.2,
+   "score": 87.8,
    "components": {
     "tier": 20,
     "category": 14,
     "lead": 8.4,
     "relevance": 20,
-    "freshness": 19.8,
+    "freshness": 15.4,
     "corroborated": 10
    },
    "keywords": [
@@ -184,13 +254,13 @@
    "verdict": "CONSIDER"
   },
   {
-   "score": 92.2,
+   "score": 87.8,
    "components": {
     "tier": 40,
     "category": 24,
     "lead": 2.4,
     "relevance": 12,
-    "freshness": 19.8,
+    "freshness": 15.4,
     "undated": -6
    },
    "keywords": [
@@ -216,16 +286,16 @@
    ],
    "first_seen": "2026-09-22T17:03+03:00",
    "published": null,
-   "verdict": "STRONG \u2014 tier-1, upstream"
+   "verdict": "CONSIDER"
   },
   {
-   "score": 92.2,
+   "score": 87.8,
    "components": {
     "tier": 40,
     "category": 24,
     "lead": 2.4,
     "relevance": 12,
-    "freshness": 19.8,
+    "freshness": 15.4,
     "undated": -6
    },
    "keywords": [
@@ -251,16 +321,16 @@
    ],
    "first_seen": "2026-09-22T17:03+03:00",
    "published": null,
-   "verdict": "STRONG \u2014 tier-1, upstream"
+   "verdict": "CONSIDER"
   },
   {
-   "score": 92.2,
+   "score": 87.8,
    "components": {
     "tier": 40,
     "category": 24,
     "lead": 2.4,
     "relevance": 12,
-    "freshness": 19.8,
+    "freshness": 15.4,
     "undated": -6
    },
    "keywords": [
@@ -286,16 +356,16 @@
    ],
    "first_seen": "2026-09-22T17:03+03:00",
    "published": null,
-   "verdict": "STRONG \u2014 tier-1, upstream"
+   "verdict": "CONSIDER"
   },
   {
-   "score": 92.2,
+   "score": 87.8,
    "components": {
     "tier": 40,
     "category": 24,
     "lead": 2.4,
     "relevance": 12,
-    "freshness": 19.8,
+    "freshness": 15.4,
     "undated": -6
    },
    "keywords": [
@@ -321,16 +391,16 @@
    ],
    "first_seen": "2026-09-22T17:03+03:00",
    "published": null,
-   "verdict": "STRONG \u2014 tier-1, upstream"
+   "verdict": "CONSIDER"
   },
   {
-   "score": 92.2,
+   "score": 87.8,
    "components": {
     "tier": 40,
     "category": 24,
     "lead": 2.4,
     "relevance": 12,
-    "freshness": 19.8,
+    "freshness": 15.4,
     "undated": -6
    },
    "keywords": [
@@ -356,16 +426,16 @@
    ],
    "first_seen": "2026-09-22T17:03+03:00",
    "published": null,
-   "verdict": "STRONG \u2014 tier-1, upstream"
+   "verdict": "CONSIDER"
   },
   {
-   "score": 92.2,
+   "score": 87.8,
    "components": {
     "tier": 40,
     "category": 24,
     "lead": 2.4,
     "relevance": 12,
-    "freshness": 19.8,
+    "freshness": 15.4,
     "undated": -6
    },
    "keywords": [
@@ -391,16 +461,82 @@
    ],
    "first_seen": "2026-09-22T17:03+03:00",
    "published": null,
-   "verdict": "STRONG \u2014 tier-1, upstream"
+   "verdict": "CONSIDER"
   },
   {
-   "score": 88.2,
+   "score": 87.0,
+   "components": {
+    "tier": 40,
+    "category": 32,
+    "lead": 1.2,
+    "relevance": 0,
+    "freshness": 19.8,
+    "undated": -6
+   },
+   "keywords": [],
+   "shock_terms": [],
+   "dedupe_match": null,
+   "dedupe_similarity": 0.0,
+   "id": "9926a20b5cbe",
+   "title": "Ethiopia - Level 1: Exercise Normal Precautions",
+   "url": "https://travel.state.gov/content/tsg_aem/us/en/home/international-travel/travel-advisories/destination.eth.html",
+   "summary": "Exercise normal precautionSummary not available",
+   "kind": "item",
+   "source": "US State Dept travel advisories (EA feed)",
+   "source_id": "adv-us-ea",
+   "tier": 1,
+   "country": "REG",
+   "category": "advisory",
+   "segments": [
+    "city",
+    "bush",
+    "beach"
+   ],
+   "first_seen": "2026-09-22T20:59+03:00",
+   "published": null,
+   "verdict": "CONSIDER"
+  },
+  {
+   "score": 84.1,
+   "components": {
+    "tier": 40,
+    "category": 12,
+    "lead": 2.4,
+    "relevance": 0,
+    "freshness": 19.7,
+    "corroborated": 10
+   },
+   "keywords": [],
+   "shock_terms": [],
+   "dedupe_match": null,
+   "dedupe_similarity": 0.0,
+   "id": "2f68f1f6aa4b",
+   "title": "2025 Bank Supervision Annual Report",
+   "url": "https://www.centralbank.go.ke/2026/09/22/2025-bank-supervision-annual-report",
+   "summary": "",
+   "kind": "item",
+   "source": "CBK Market Perception Surveys (96-hotel panel: forward bookings, occupancy, conferencing)",
+   "source_id": "ke-cbk-market-perception-surveys",
+   "tier": 1,
+   "country": "KE",
+   "category": "central-bank",
+   "segments": [
+    "city",
+    "bush",
+    "beach"
+   ],
+   "first_seen": "2026-09-22T20:59+03:00",
+   "published": "2026-09-22",
+   "verdict": "CONSIDER"
+  },
+  {
+   "score": 83.8,
    "components": {
     "tier": 40,
     "category": 16,
     "lead": 2.4,
     "relevance": 0,
-    "freshness": 19.8,
+    "freshness": 15.4,
     "corroborated": 10
    },
    "keywords": [],
@@ -427,13 +563,83 @@
    "verdict": "CONSIDER"
   },
   {
-   "score": 84.2,
+   "score": 80.2,
+   "components": {
+    "tier": 20,
+    "category": 14,
+    "lead": 8.4,
+    "relevance": 8,
+    "freshness": 19.8,
+    "corroborated": 10
+   },
+   "keywords": [
+    "route"
+   ],
+   "shock_terms": [],
+   "dedupe_match": null,
+   "dedupe_similarity": 0.2,
+   "id": "3c7b0a8b53c1",
+   "title": "British Airways Expands Finnair Codeshare From mid-Sep 2026",
+   "url": "https://www.aeroroutes.com/eng/260922-baaycodeshare",
+   "summary": "Published at 1000PDT / 1700GMT 22SEP26 British Airways earlier this month expanded codeshare partnership with Finnair, covering the latter\u2019s additional European routes. Following codeshare routes went into effect since mid-September 2026. British Airways operated by Finnair Helsinki \u2013 Bergen Helsinki \u2013 Rovaniemi \u2013 Troms\u00f8 Helsinki \u2013 Stavanger Helsinki \u2013 Troms\u00f8 Helsinki \u2013 Turku",
+   "kind": "item",
+   "source": "AeroRoutes schedule filings",
+   "source_id": "aeroroutes",
+   "tier": 2,
+   "country": "GLOBAL",
+   "category": "aviation-tracker",
+   "segments": [
+    "city",
+    "bush",
+    "beach"
+   ],
+   "first_seen": "2026-09-22T20:59+03:00",
+   "published": "2026-09-22",
+   "verdict": "CONSIDER"
+  },
+  {
+   "score": 80.2,
+   "components": {
+    "tier": 20,
+    "category": 14,
+    "lead": 8.4,
+    "relevance": 8,
+    "freshness": 19.8,
+    "corroborated": 10
+   },
+   "keywords": [
+    "route"
+   ],
+   "shock_terms": [],
+   "dedupe_match": null,
+   "dedupe_similarity": 0.0,
+   "id": "ecd2e35534eb",
+   "title": "ANA Expands ITA Airways Codeshare in NW26",
+   "url": "https://www.aeroroutes.com/eng/260922-nhazcodeshare",
+   "summary": "Published at 0900PDT / 1600GMT 22SEP26 Star Alliance member ANA at the launch of Northern winter 2026/27 season plans to expand codeshare partnership with ITA Airways, covering the latter\u2019s additional service in Europe. Following codeshare routes gradually commences from 25OCT26. ANA operated by ITA Airways Rome Fiumicino \u2013 Frankfurt Rome Fiumicino \u2013 London Heathrow Rome Fiumicino \u2013 Munich Rome Fi",
+   "kind": "item",
+   "source": "AeroRoutes schedule filings",
+   "source_id": "aeroroutes",
+   "tier": 2,
+   "country": "GLOBAL",
+   "category": "aviation-tracker",
+   "segments": [
+    "city",
+    "bush",
+    "beach"
+   ],
+   "first_seen": "2026-09-22T20:59+03:00",
+   "published": "2026-09-22",
+   "verdict": "CONSIDER"
+  },
+  {
+   "score": 79.8,
    "components": {
     "tier": 20,
     "category": 14,
     "lead": 8.4,
     "relevance": 12,
-    "freshness": 19.8,
+    "freshness": 15.4,
     "corroborated": 10
    },
    "keywords": [
@@ -463,13 +669,13 @@
    "verdict": "CONSIDER"
   },
   {
-   "score": 84.2,
+   "score": 79.8,
    "components": {
     "tier": 40,
     "category": 12,
     "lead": 2.4,
     "relevance": 0,
-    "freshness": 19.8,
+    "freshness": 15.4,
     "corroborated": 10
    },
    "keywords": [],
@@ -496,13 +702,13 @@
    "verdict": "CONSIDER"
   },
   {
-   "score": 82.4,
+   "score": 78.0,
    "components": {
     "tier": 20,
     "category": 5,
     "lead": 3.6,
     "relevance": 24,
-    "freshness": 19.8,
+    "freshness": 15.4,
     "corroborated": 10
    },
    "keywords": [
@@ -535,13 +741,13 @@
    "verdict": "CONSIDER"
   },
   {
-   "score": 80.2,
+   "score": 75.8,
    "components": {
     "tier": 20,
     "category": 14,
     "lead": 8.4,
     "relevance": 8,
-    "freshness": 19.8,
+    "freshness": 15.4,
     "corroborated": 10
    },
    "keywords": [
@@ -571,13 +777,13 @@
    "verdict": "CONSIDER"
   },
   {
-   "score": 80.2,
+   "score": 75.8,
    "components": {
     "tier": 40,
     "category": 24,
     "lead": 2.4,
     "relevance": 0,
-    "freshness": 19.8,
+    "freshness": 15.4,
     "undated": -6
    },
    "keywords": [],
@@ -604,13 +810,13 @@
    "verdict": "CONSIDER"
   },
   {
-   "score": 80.2,
+   "score": 75.8,
    "components": {
     "tier": 40,
     "category": 24,
     "lead": 2.4,
     "relevance": 0,
-    "freshness": 19.8,
+    "freshness": 15.4,
     "undated": -6
    },
    "keywords": [],
@@ -637,13 +843,13 @@
    "verdict": "CONSIDER"
   },
   {
-   "score": 80.2,
+   "score": 75.8,
    "components": {
     "tier": 40,
     "category": 24,
     "lead": 2.4,
     "relevance": 0,
-    "freshness": 19.8,
+    "freshness": 15.4,
     "undated": -6
    },
    "keywords": [],
@@ -670,13 +876,13 @@
    "verdict": "CONSIDER"
   },
   {
-   "score": 78.4,
+   "score": 74.0,
    "components": {
     "tier": 20,
     "category": 5,
     "lead": 3.6,
     "relevance": 20,
-    "freshness": 19.8,
+    "freshness": 15.4,
     "corroborated": 10
    },
    "keywords": [
@@ -707,13 +913,89 @@
    "verdict": "CONSIDER"
   },
   {
-   "score": 76.2,
+   "score": 73.8,
+   "components": {
+    "tier": 20,
+    "category": 4,
+    "lead": 0.0,
+    "relevance": 20,
+    "freshness": 19.8,
+    "corroborated": 10
+   },
+   "keywords": [
+    "vat",
+    "wildlife",
+    "tourism"
+   ],
+   "shock_terms": [],
+   "dedupe_match": null,
+   "dedupe_similarity": 0.0,
+   "id": "b709d0b15f58",
+   "title": "Police holds 34 people suspected involved in killing six workers of Ipole Wildlife Conservation",
+   "url": "https://dailynews.co.tz/police-holds-34-people-suspected-involved-in-killing-six-workers-of-ipole-wildlife-conservation",
+   "summary": "DAR ES SALAAM: THE Minister for Natural Resources and Tourism Dr Ashatu Kijaji says 34 people are being held to assist with investigations into an incident that resulted in the deaths of six conservation workers in the Ipole Wildlife Management Area in Sikonge District, Tabora Region. The workers were killed on September 18, 2026, in \u2026 The post Police holds 34 people suspected involved in killing ",
+   "kind": "item",
+   "source": "Daily News (Tanzania)",
+   "source_id": "np-dailynews-tz",
+   "tier": 2,
+   "country": "TZ",
+   "category": "press",
+   "segments": [
+    "city",
+    "bush",
+    "beach"
+   ],
+   "first_seen": "2026-09-22T20:59+03:00",
+   "published": "2026-09-22",
+   "verdict": "CONSIDER"
+  },
+  {
+   "score": 71.8,
+   "components": {
+    "tier": 20,
+    "category": 4,
+    "lead": 0.0,
+    "relevance": 16,
+    "freshness": 19.8,
+    "undated": -6,
+    "shock": 18
+   },
+   "keywords": [
+    "vat",
+    "eta"
+   ],
+   "shock_terms": [
+    "attack"
+   ],
+   "dedupe_match": null,
+   "dedupe_similarity": 0.0,
+   "id": "2823843179a3",
+   "title": "Tanzania detains 34 after deadly attack on conservation officers in Tabora 5 hours ago - 2 min read",
+   "url": "https://www.thecitizen.co.tz/tanzania/news/national/tanzania-detains-34-after-deadly-attack-on-conservation-officers-in-tabora-5604730",
+   "summary": "",
+   "kind": "item",
+   "source": "The Citizen (Tanzania)",
+   "source_id": "np-citizen-tz",
+   "tier": 2,
+   "country": "TZ",
+   "category": "press",
+   "segments": [
+    "city",
+    "bush",
+    "beach"
+   ],
+   "first_seen": "2026-09-22T20:59+03:00",
+   "published": null,
+   "verdict": "CONSIDER"
+  },
+  {
+   "score": 71.8,
    "components": {
     "tier": 20,
     "category": 14,
     "lead": 8.4,
     "relevance": 4,
-    "freshness": 19.8,
+    "freshness": 15.4,
     "corroborated": 10
    },
    "keywords": [
@@ -742,13 +1024,13 @@
    "verdict": "CONSIDER"
   },
   {
-   "score": 76.2,
+   "score": 71.8,
    "components": {
     "tier": 20,
     "category": 14,
     "lead": 8.4,
     "relevance": 4,
-    "freshness": 19.8,
+    "freshness": 15.4,
     "corroborated": 10
    },
    "keywords": [
@@ -777,13 +1059,13 @@
    "verdict": "CONSIDER"
   },
   {
-   "score": 76.0,
+   "score": 71.6,
    "components": {
     "tier": 20,
     "category": 5,
     "lead": 1.2,
     "relevance": 20,
-    "freshness": 19.8,
+    "freshness": 15.4,
     "corroborated": 10
    },
    "keywords": [
@@ -814,13 +1096,178 @@
    "verdict": "CONSIDER"
   },
   {
-   "score": 74.4,
+   "score": 70.7,
+   "components": {
+    "tier": 40,
+    "category": 5,
+    "lead": 12.0,
+    "relevance": 0,
+    "freshness": 19.7,
+    "undated": -6
+   },
+   "keywords": [],
+   "shock_terms": [],
+   "dedupe_match": null,
+   "dedupe_similarity": 0.0,
+   "id": "508518fce95d",
+   "title": "SUBMISSION OF MEMORANDA :THE FISHERIES MANAGEMENT AND DEVELOPMENT BILL, 2023 (NATIONAL ASSEMBLY BILLS NO. 29 OF 2023)",
+   "url": "https://www.parliament.go.ke/index.php/submission-memoranda-fisheries-management-and-development-bill-2023-national-assembly-bills-no-29",
+   "summary": "",
+   "kind": "item",
+   "source": "Senate Committee on Delegated Legislation (Kenya) \u2014 the committee that annuls or accedes to statutory instruments",
+   "source_id": "ke-senate-delegated-legislation",
+   "tier": 1,
+   "country": "KE",
+   "category": "REG",
+   "segments": [
+    "city",
+    "bush",
+    "beach"
+   ],
+   "first_seen": "2026-09-22T20:59+03:00",
+   "published": null,
+   "verdict": "CONSIDER"
+  },
+  {
+   "score": 70.7,
+   "components": {
+    "tier": 40,
+    "category": 5,
+    "lead": 12.0,
+    "relevance": 0,
+    "freshness": 19.7,
+    "undated": -6
+   },
+   "keywords": [],
+   "shock_terms": [],
+   "dedupe_match": null,
+   "dedupe_similarity": 0.0,
+   "id": "076d60d865ee",
+   "title": "SUBMISSION OF MEMORANDA : THE PLANT PROTECTION BILL, 2025 (NATIONAL ASSEMBLY BILLS NO. 28 OF 2025)",
+   "url": "https://www.parliament.go.ke/index.php/submission-memoranda-plant-protection-bill-2025-national-assembly-bills-no-28-2025",
+   "summary": "",
+   "kind": "item",
+   "source": "Senate Committee on Delegated Legislation (Kenya) \u2014 the committee that annuls or accedes to statutory instruments",
+   "source_id": "ke-senate-delegated-legislation",
+   "tier": 1,
+   "country": "KE",
+   "category": "REG",
+   "segments": [
+    "city",
+    "bush",
+    "beach"
+   ],
+   "first_seen": "2026-09-22T20:59+03:00",
+   "published": null,
+   "verdict": "CONSIDER"
+  },
+  {
+   "score": 70.7,
+   "components": {
+    "tier": 40,
+    "category": 5,
+    "lead": 12.0,
+    "relevance": 0,
+    "freshness": 19.7,
+    "undated": -6
+   },
+   "keywords": [],
+   "shock_terms": [],
+   "dedupe_match": null,
+   "dedupe_similarity": 0.0,
+   "id": "6e266d068f91",
+   "title": "\ud835\udc0a\ud835\udc08\ud835\udc0b\ud835\udc08\ud835\udc05\ud835\udc08 \ud835\udc02\ud835\udc0e\ud835\udc14\ud835\udc0d\ud835\udc13\ud835\udc18 \ud835\udc04\ud835\udc17\ud835\udc04\ud835\udc02\ud835\udc14\ud835\udc13\ud835\udc08\ud835\udc15\ud835\udc04 \ud835\udc0f\ud835\udc14\ud835\udc13 \ud835\udc0e\ud835\udc0d \ud835\udc13\ud835\udc07\ud835\udc04 \ud835\udc12\ud835\udc0f\ud835\udc0e\ud835\udc13 \ud835\udc00\ud835\udc12 \ud835\udc12\ud835\udc04\ud835\udc0d\ud835\udc00\ud835\udc13\ud835\udc04 \ud835\udc04\ud835\udc17\ud835\udc0f\ud835\udc0e\ud835\udc12\ud835\udc04\ud835\udc12 \ud835\udfd1\ud835\udfd4 \ud835\udc0b\ud835\udc00\ud835\udc16\ud835\udc12 \ud835\udc16\ud835\udc08\ud835\udc13\ud835\udc07\ud835\udc0e\ud835\udc14\ud835\udc13 \ud835\udc11\ud835\udc04\ud835\udc06\ud835\udc14\ud835\udc0b\ud835\udc00\ud835\udc13\ud835\udc08\ud835\udc0e\ud835\udc0d\ud835\udc12",
+   "url": "https://www.parliament.go.ke/index.php/node/26416",
+   "summary": "",
+   "kind": "item",
+   "source": "Senate Committee on Delegated Legislation (Kenya) \u2014 the committee that annuls or accedes to statutory instruments",
+   "source_id": "ke-senate-delegated-legislation",
+   "tier": 1,
+   "country": "KE",
+   "category": "REG",
+   "segments": [
+    "city",
+    "bush",
+    "beach"
+   ],
+   "first_seen": "2026-09-22T20:59+03:00",
+   "published": null,
+   "verdict": "CONSIDER"
+  },
+  {
+   "score": 70.7,
+   "components": {
+    "tier": 40,
+    "category": 5,
+    "lead": 12.0,
+    "relevance": 0,
+    "freshness": 19.7,
+    "undated": -6
+   },
+   "keywords": [],
+   "shock_terms": [],
+   "dedupe_match": null,
+   "dedupe_similarity": 0.0,
+   "id": "e42fe525a75c",
+   "title": "\ud835\udc12\ud835\udc04\ud835\udc0d\ud835\udc00\ud835\udc13\ud835\udc04 \ud835\udc0c\ud835\udc00\ud835\udc12\ud835\udc07\ud835\udc08\ud835\udc0d\ud835\udc00\ud835\udc0d\ud835\udc08: \ud835\udc04\ud835\udc03\ud835\udc14\ud835\udc02\ud835\udc00\ud835\udc13\ud835\udc08\ud835\udc0e\ud835\udc0d \ud835\udc02\ud835\udc0e\ud835\udc0c\ud835\udc0c\ud835\udc08\ud835\udc13\ud835\udc13\ud835\udc04\ud835\udc04 \ud835\udc12\ud835\udc02\ud835\udc11\ud835\udc14\ud835\udc13\ud835\udc08\ud835\udc0d\ud835\udc08\ud835\udc12\ud835\udc04\ud835\udc12 \ud835\udc04\ud835\udc02\ud835\udc03\ud835\udc04 \ud835\udc08\ud835\udc0c\ud835\udc0f\ud835\udc0b\ud835\udc04\ud835\udc0c\ud835\udc04\ud835\udc0d\ud835\udc13\ud835\udc00\ud835\udc13\ud835\udc08\ud835\udc0e\ud835\udc0d \ud835\udc08\ud835\udc0d \ud835\udc0a\ud835\udc08\ud835\udc0b\ud835\udc08\ud835\udc05\ud835\udc08",
+   "url": "https://www.parliament.go.ke/index.php/node/26415",
+   "summary": "",
+   "kind": "item",
+   "source": "Senate Committee on Delegated Legislation (Kenya) \u2014 the committee that annuls or accedes to statutory instruments",
+   "source_id": "ke-senate-delegated-legislation",
+   "tier": 1,
+   "country": "KE",
+   "category": "REG",
+   "segments": [
+    "city",
+    "bush",
+    "beach"
+   ],
+   "first_seen": "2026-09-22T20:59+03:00",
+   "published": null,
+   "verdict": "CONSIDER"
+  },
+  {
+   "score": 70.7,
+   "components": {
+    "tier": 40,
+    "category": 5,
+    "lead": 12.0,
+    "relevance": 0,
+    "freshness": 19.7,
+    "undated": -6
+   },
+   "keywords": [],
+   "shock_terms": [],
+   "dedupe_match": null,
+   "dedupe_similarity": 0.0,
+   "id": "2a8e989319f9",
+   "title": "NOTIFICATION OF PUBLIC HEARINGS AND INVITATION TO SUBMIT VIEWS",
+   "url": "https://www.parliament.go.ke/index.php/notification-public-hearings-and-invitation-submit-views-0",
+   "summary": "",
+   "kind": "item",
+   "source": "Senate Committee on Delegated Legislation (Kenya) \u2014 the committee that annuls or accedes to statutory instruments",
+   "source_id": "ke-senate-delegated-legislation",
+   "tier": 1,
+   "country": "KE",
+   "category": "REG",
+   "segments": [
+    "city",
+    "bush",
+    "beach"
+   ],
+   "first_seen": "2026-09-22T20:59+03:00",
+   "published": null,
+   "verdict": "CONSIDER"
+  },
+  {
+   "score": 70.0,
    "components": {
     "tier": 20,
     "category": 5,
     "lead": 3.6,
     "relevance": 16,
-    "freshness": 19.8,
+    "freshness": 15.4,
     "corroborated": 10
    },
    "keywords": [
@@ -851,13 +1298,13 @@
    "verdict": "CONSIDER"
   },
   {
-   "score": 74.4,
+   "score": 70.0,
    "components": {
     "tier": 20,
     "category": 5,
     "lead": 3.6,
     "relevance": 16,
-    "freshness": 19.8,
+    "freshness": 15.4,
     "corroborated": 10
    },
    "keywords": [
@@ -888,13 +1335,49 @@
    "verdict": "CONSIDER"
   },
   {
-   "score": 71.8,
+   "score": 69.8,
    "components": {
     "tier": 20,
     "category": 4,
     "lead": 0.0,
     "relevance": 16,
     "freshness": 19.8,
+    "corroborated": 10
+   },
+   "keywords": [
+    "capacity",
+    "wildlife"
+   ],
+   "shock_terms": [],
+   "dedupe_match": null,
+   "dedupe_similarity": 0.0,
+   "id": "6e1f913264eb",
+   "title": "Lushoto\u2019s IJA and Italy\u2019s Sant\u2019Anna train magistrates, prosecutors how to effectively handle wildlife cases",
+   "url": "https://dailynews.co.tz/lushotos-ija-and-italys-santanna-train-magistrates-prosecutors-how-to-effectively-handle-wildlife-cases",
+   "summary": "DAR ES SALAAM: THE Institute of Judicial Administration Lushoto (IJA), in collaboration with Italy\u2019s Sant\u2019Anna School of Advanced Studies (Scuola Superiore Sant\u2019Anna), is conducting specialised training for resident magistrates and prosecutors aimed at strengthening their capacity to effectively handle cases involving wildlife and natural resource crimes. The three-day training was officially open",
+   "kind": "item",
+   "source": "Daily News (Tanzania)",
+   "source_id": "np-dailynews-tz",
+   "tier": 2,
+   "country": "TZ",
+   "category": "press",
+   "segments": [
+    "city",
+    "bush",
+    "beach"
+   ],
+   "first_seen": "2026-09-22T20:59+03:00",
+   "published": "2026-09-22",
+   "verdict": "weak"
+  },
+  {
+   "score": 67.4,
+   "components": {
+    "tier": 20,
+    "category": 4,
+    "lead": 0.0,
+    "relevance": 16,
+    "freshness": 15.4,
     "undated": -6,
     "shock": 18
    },
@@ -917,509 +1400,6 @@
    "tier": 2,
    "country": "TZ",
    "category": "press",
-   "segments": [
-    "city",
-    "bush",
-    "beach"
-   ],
-   "first_seen": "2026-09-22T17:04+03:00",
-   "published": null,
-   "verdict": "CONSIDER"
-  },
-  {
-   "score": 70.8,
-   "components": {
-    "tier": 40,
-    "category": 5,
-    "lead": 12.0,
-    "relevance": 0,
-    "freshness": 19.8,
-    "undated": -6
-   },
-   "keywords": [],
-   "shock_terms": [],
-   "dedupe_match": null,
-   "dedupe_similarity": 0.0,
-   "id": "75a7145fd464",
-   "title": "NOTIFICATION OF PUBLIC HEARINGS AND INVITATION TO SUBMIT VIEWS",
-   "url": "https://www.parliament.go.ke/notification-public-hearings-and-invitation-submit-views-0",
-   "summary": "",
-   "kind": "item",
-   "source": "Senate Committee on Delegated Legislation (Kenya) \u2014 the committee that annuls or accedes to statutory instruments",
-   "source_id": "ke-senate-delegated-legislation",
-   "tier": 1,
-   "country": "KE",
-   "category": "REG",
-   "segments": [
-    "city",
-    "bush",
-    "beach"
-   ],
-   "first_seen": "2026-09-22T17:03+03:00",
-   "published": null,
-   "verdict": "CONSIDER"
-  },
-  {
-   "score": 70.4,
-   "components": {
-    "tier": 20,
-    "category": 5,
-    "lead": 3.6,
-    "relevance": 12,
-    "freshness": 19.8,
-    "corroborated": 10
-   },
-   "keywords": [
-    "capacity",
-    "hotel"
-   ],
-   "shock_terms": [],
-   "dedupe_match": null,
-   "dedupe_similarity": 0.0,
-   "id": "36dd65f53d1c",
-   "title": "Why Year-End Reconciliation Starts in October: A Procurement Framework for Q4 Capital Projects",
-   "url": "https://www.hospitalitynet.org/opinion/4134483/why-year-end-reconciliation-starts-in-october-a-procurement-framework-for-q4-capital-projects",
-   "summary": "Hotels that begin procurement reconciliation in October gain negotiating leverage, line-item cost visibility, and more time for competitive bidding before Q4 vendor capacity tightens.",
-   "kind": "item",
-   "source": "Hospitality Net \u2014 Africa announcements",
-   "source_id": "dev-hospitalitynet-africa",
-   "tier": 2,
-   "country": "REG",
-   "category": "trade",
-   "segments": [
-    "city",
-    "bush",
-    "beach"
-   ],
-   "first_seen": "2026-09-22T17:04+03:00",
-   "published": "2026-09-22",
-   "verdict": "CONSIDER"
-  },
-  {
-   "score": 70.4,
-   "components": {
-    "tier": 20,
-    "category": 5,
-    "lead": 3.6,
-    "relevance": 12,
-    "freshness": 19.8,
-    "corroborated": 10
-   },
-   "keywords": [
-    "fee",
-    "hotel"
-   ],
-   "shock_terms": [],
-   "dedupe_match": null,
-   "dedupe_similarity": 0.0,
-   "id": "c580c012b8d2",
-   "title": "HotelMinder Launches the Tech Index, Shifting from Popularity-Based, Hotelier Tech Ratings to an Expert-Led Evaluation Model",
-   "url": "https://www.hospitalitynet.org/news/4134472/hotelminder-launches-the-tech-index-shifting-from-popularity-based-hotelier-tech-ratings-to-an-expert-led-evaluation-model",
-   "summary": "HotelMinder replaces popularity-based hotel tech ratings with an expert-led model combining consultant reviews, hotelier feedback, and AI signals, plus segment-specific awards for 2027.",
-   "kind": "item",
-   "source": "Hospitality Net \u2014 Africa announcements",
-   "source_id": "dev-hospitalitynet-africa",
-   "tier": 2,
-   "country": "REG",
-   "category": "trade",
-   "segments": [
-    "city",
-    "bush",
-    "beach"
-   ],
-   "first_seen": "2026-09-22T17:04+03:00",
-   "published": "2026-09-22",
-   "verdict": "CONSIDER"
-  },
-  {
-   "score": 69.4,
-   "components": {
-    "tier": 40,
-    "category": 12,
-    "lead": 3.6,
-    "relevance": 0,
-    "freshness": 19.8,
-    "undated": -6
-   },
-   "keywords": [],
-   "shock_terms": [],
-   "dedupe_match": null,
-   "dedupe_similarity": 0.2,
-   "id": "77e90b5a23fc",
-   "title": "Kenya Airways, Sabre and Branchspace Collaborate to Offer a Smarter and More Personal Travel Experience",
-   "url": "https://corporate.kenya-airways.com/en/news-press-release/2026/september/kenya-airways-partners-with-sabre-to-enhance-customer-communication",
-   "summary": "",
-   "kind": "item",
-   "source": "Kenya Airways newsroom",
-   "source_id": "air-kq",
-   "tier": 1,
-   "country": "KE",
-   "category": "airline",
-   "segments": [
-    "city",
-    "bush",
-    "beach"
-   ],
-   "first_seen": "2026-09-22T17:03+03:00",
-   "published": null,
-   "verdict": "weak"
-  },
-  {
-   "score": 67.0,
-   "components": {
-    "tier": 40,
-    "category": 24,
-    "lead": 1.2,
-    "relevance": 24,
-    "freshness": 19.8,
-    "stale_trap": -60,
-    "shock": 18
-   },
-   "keywords": [
-    "outbreak",
-    "ebola"
-   ],
-   "shock_terms": [
-    "outbreak"
-   ],
-   "dedupe_match": null,
-   "dedupe_similarity": 0.0,
-   "id": "da3655be53fe",
-   "title": "UGANDA DISCHARGES LAST EBOLA PATIENT, BEGINS 42-DAY COUNTDOWN TOWARDS DECLARING THE OUTBREAK OVER",
-   "url": "http://localhost:8080/uganda-discharges-last-ebola-patient-begins-42-day-countdown-towards-declaring-the-outbreak-over",
-   "summary": "",
-   "kind": "item",
-   "source": "Uganda Ministry of Health \u2014 news",
-   "source_id": "ug-moh-news",
-   "tier": 1,
-   "country": "UG",
-   "category": "health",
-   "segments": [
-    "city",
-    "bush"
-   ],
-   "first_seen": "2026-09-22T17:03+03:00",
-   "published": "2026-07-16",
-   "verdict": "DROP \u2014 stale trap: source date far outside window"
-  },
-  {
-   "score": 67.0,
-   "components": {
-    "tier": 40,
-    "category": 24,
-    "lead": 1.2,
-    "relevance": 24,
-    "freshness": 19.8,
-    "stale_trap": -60,
-    "shock": 18
-   },
-   "keywords": [
-    "outbreak",
-    "ebola"
-   ],
-   "shock_terms": [
-    "outbreak"
-   ],
-   "dedupe_match": null,
-   "dedupe_similarity": 0.0,
-   "id": "cfff080213e1",
-   "title": "UGANDA DISCHARGES LAST EBOLA PATIENT, BEGINS 42-DAY COUNTDOWN TOWARDS DECLARING THE OUTBREAK OVER",
-   "url": "http://localhost:8080/uganda-discharges-last-ebola-patient-begins-42-day-countdown-towards-declaring-the-outbreak-over",
-   "summary": "",
-   "kind": "item",
-   "source": "Uganda Ministry of Health",
-   "source_id": "ug-moh",
-   "tier": 1,
-   "country": "UG",
-   "category": "health",
-   "segments": [
-    "city",
-    "bush",
-    "beach"
-   ],
-   "first_seen": "2026-09-22T17:03+03:00",
-   "published": "2026-07-16",
-   "verdict": "DROP \u2014 stale trap: source date far outside window"
-  },
-  {
-   "score": 66.4,
-   "components": {
-    "tier": 20,
-    "category": 5,
-    "lead": 3.6,
-    "relevance": 8,
-    "freshness": 19.8,
-    "corroborated": 10
-   },
-   "keywords": [
-    "hotel",
-    "guest"
-   ],
-   "shock_terms": [],
-   "dedupe_match": null,
-   "dedupe_similarity": 0.17,
-   "id": "ed3060e63d91",
-   "title": "Strengthening the Guest Experience: How Bespoke Hotels is Using Canary Across its UK Portfolio",
-   "url": "https://www.hospitalitynet.org/casestudy/4134491/strengthening-the-guest-experience-how-bespoke-hotels-is-using-canary-across-its-uk-portfolio",
-   "summary": "Bespoke Hotels deployed Canary across its 57-property UK portfolio to unify reporting, capture OTA guest data, automate messaging, and drive upsell revenue, recovering costs within weeks at each property.",
-   "kind": "item",
-   "source": "Hospitality Net \u2014 Africa announcements",
-   "source_id": "dev-hospitalitynet-africa",
-   "tier": 2,
-   "country": "REG",
-   "category": "trade",
-   "segments": [
-    "city",
-    "bush",
-    "beach"
-   ],
-   "first_seen": "2026-09-22T17:04+03:00",
-   "published": "2026-09-22",
-   "verdict": "weak"
-  },
-  {
-   "score": 66.4,
-   "components": {
-    "tier": 20,
-    "category": 5,
-    "lead": 3.6,
-    "relevance": 8,
-    "freshness": 19.8,
-    "corroborated": 10
-   },
-   "keywords": [
-    "hotel",
-    "resort"
-   ],
-   "shock_terms": [],
-   "dedupe_match": null,
-   "dedupe_similarity": 0.0,
-   "id": "50ff85bffb56",
-   "title": "IHG Hotels & Resorts named Official Hotel Partner of Men\u2019s Rugby World Cup 2027",
-   "url": "https://www.hospitalitynet.org/news/4134487/ihg-hotels-resorts-named-official-hotel-partner-of-mens-rugby-world-cup-2027",
-   "summary": "IHG becomes Official Hotel Partner of Rugby World Cup 2027 in Australia, leveraging its 160M+ member loyalty program and existing rugby relationships to drive accommodation demand and brand awareness.",
-   "kind": "item",
-   "source": "Hospitality Net \u2014 Africa announcements",
-   "source_id": "dev-hospitalitynet-africa",
-   "tier": 2,
-   "country": "REG",
-   "category": "trade",
-   "segments": [
-    "city",
-    "bush",
-    "beach"
-   ],
-   "first_seen": "2026-09-22T17:04+03:00",
-   "published": "2026-09-22",
-   "verdict": "weak"
-  },
-  {
-   "score": 66.4,
-   "components": {
-    "tier": 20,
-    "category": 5,
-    "lead": 3.6,
-    "relevance": 8,
-    "freshness": 19.8,
-    "corroborated": 10
-   },
-   "keywords": [
-    "hotel",
-    "rooms"
-   ],
-   "shock_terms": [],
-   "dedupe_match": null,
-   "dedupe_similarity": 0.2,
-   "id": "988d979b0c9c",
-   "title": "HVS Europe Hotel Transactions Bulletin - Week Ending 18 September 2026",
-   "url": "https://www.hospitalitynet.org/news/4134480/hvs-europe-hotel-transactions-bulletin-week-ending-18-september-2026",
-   "summary": "HVS Europe's weekly bulletin covers three hotel portfolio acquisitions across Germany, England, and Greece, totalling over 1,350 rooms changing hands.",
-   "kind": "item",
-   "source": "Hospitality Net \u2014 Africa announcements",
-   "source_id": "dev-hospitalitynet-africa",
-   "tier": 2,
-   "country": "REG",
-   "category": "trade",
-   "segments": [
-    "city",
-    "bush",
-    "beach"
-   ],
-   "first_seen": "2026-09-22T17:04+03:00",
-   "published": "2026-09-22",
-   "verdict": "weak"
-  },
-  {
-   "score": 66.4,
-   "components": {
-    "tier": 20,
-    "category": 5,
-    "lead": 3.6,
-    "relevance": 8,
-    "freshness": 19.8,
-    "corroborated": 10
-   },
-   "keywords": [
-    "hotel",
-    "booking"
-   ],
-   "shock_terms": [],
-   "dedupe_match": null,
-   "dedupe_similarity": 0.0,
-   "id": "2db6e12faf3a",
-   "title": "LHS Leading Hospitality Solutions Acquires Majority Stake in Viato and Strengthens Brandnamic Unlimited\u2019s Marketing-Tech Division",
-   "url": "https://www.hospitalitynet.org/news/4134476/lhs-leading-hospitality-solutions-acquires-majority-stake-in-viato-and-strengthens-brandnamic-unlimiteds-marketing-tech-division",
-   "summary": "LHS acquires a majority stake in Freiburg-based Viato, a channel manager and booking engine provider serving ~2,000 hotels in Germany, Austria, and Switzerland, to strengthen Brandnamic Unlimited's Marketing-Tech portfolio.",
-   "kind": "item",
-   "source": "Hospitality Net \u2014 Africa announcements",
-   "source_id": "dev-hospitalitynet-africa",
-   "tier": 2,
-   "country": "REG",
-   "category": "trade",
-   "segments": [
-    "city",
-    "bush",
-    "beach"
-   ],
-   "first_seen": "2026-09-22T17:04+03:00",
-   "published": "2026-09-22",
-   "verdict": "weak"
-  },
-  {
-   "score": 65.8,
-   "components": {
-    "tier": 20,
-    "category": 4,
-    "lead": 0.0,
-    "relevance": 12,
-    "freshness": 19.8,
-    "corroborated": 10
-   },
-   "keywords": [
-    "vat",
-    "investment"
-   ],
-   "shock_terms": [],
-   "dedupe_match": null,
-   "dedupe_similarity": 0.0,
-   "id": "87158a587054",
-   "title": "Tanzania insists on empowering women farmers for their key role in food production, environmental conservation",
-   "url": "https://dailynews.co.tz/tanzania-insists-on-empowering-women-farmers-for-their-key-role-in-food-production-environmental-conservation",
-   "summary": "ROME: PRIME Minister Mwigulu Nchemba has said empowering women farmers is a critical investment in advancing the One Health approach, given their central role in food production, livestock keeping, nutrition, animal health, food security and environmental conservation. Dr Mwigulu made the remarks while addressing a high-level session on the International Year of the Woman Farmer \u2026 The post Tanzani",
-   "kind": "item",
-   "source": "Daily News (Tanzania)",
-   "source_id": "np-dailynews-tz",
-   "tier": 2,
-   "country": "TZ",
-   "category": "press",
-   "segments": [
-    "city",
-    "bush",
-    "beach"
-   ],
-   "first_seen": "2026-09-22T17:04+03:00",
-   "published": "2026-09-22",
-   "verdict": "weak"
-  },
-  {
-   "score": 65.8,
-   "components": {
-    "tier": 20,
-    "category": 4,
-    "lead": 0.0,
-    "relevance": 12,
-    "freshness": 19.8,
-    "corroborated": 10
-   },
-   "keywords": [
-    "tourism",
-    "safari",
-    "operator"
-   ],
-   "shock_terms": [],
-   "dedupe_match": null,
-   "dedupe_similarity": 0.0,
-   "id": "cac087be5136",
-   "title": "Serengeti Balloon Safaris becomes World\u2019s first B corp-certified balloon company",
-   "url": "https://dailynews.co.tz/serengeti-balloon-safaris-becomes-worlds-first-b-corp-certified-balloon-company",
-   "summary": "SERENGETI: SERENGETI Balloon Safaris has become the world\u2019s first hot-air balloon company to achieve Certified B Corporation status, giving the Tanzanian tourism operator an internationally recognised benchmark for its environmental, social and governance practices. The certification, awarded in August 2026, follows an assessment by B Lab of the company\u2019s governance, treatment of workers, communit",
-   "kind": "item",
-   "source": "Daily News (Tanzania)",
-   "source_id": "np-dailynews-tz",
-   "tier": 2,
-   "country": "TZ",
-   "category": "press",
-   "segments": [
-    "city",
-    "bush",
-    "beach"
-   ],
-   "first_seen": "2026-09-22T17:04+03:00",
-   "published": "2026-09-22",
-   "verdict": "weak"
-  },
-  {
-   "score": 65.8,
-   "components": {
-    "tier": 20,
-    "category": 4,
-    "lead": 0.0,
-    "relevance": 12,
-    "freshness": 19.8,
-    "corroborated": 10
-   },
-   "keywords": [
-    "suspend"
-   ],
-   "shock_terms": [],
-   "dedupe_match": null,
-   "dedupe_similarity": 0.0,
-   "id": "31a22f897b67",
-   "title": "Tanzanian government moves to restore MV Butiama services in Ukerewe Island",
-   "url": "https://dailynews.co.tz/tanzanian-government-moves-to-restore-mv-butiama-services-in-ukerewe-island",
-   "summary": "NANSIO: MWANZA Regional Commissioner CP Salum Hamduni has assured residents of Ukerewe District that the government is taking steps to improve transport and water transportation services, including restoring the MV Butiama ship, which was temporarily suspended following damage. Hamduni made the commitment today in Ukerewe District while addressing government staff, local leaders and residents duri",
-   "kind": "item",
-   "source": "Daily News (Tanzania)",
-   "source_id": "np-dailynews-tz",
-   "tier": 2,
-   "country": "TZ",
-   "category": "press",
-   "segments": [
-    "city",
-    "bush",
-    "beach"
-   ],
-   "first_seen": "2026-09-22T17:04+03:00",
-   "published": "2026-09-22",
-   "verdict": "weak"
-  },
-  {
-   "score": 64.2,
-   "components": {
-    "tier": 20,
-    "category": 24,
-    "lead": 2.4,
-    "relevance": 8,
-    "freshness": 19.8,
-    "undated": -6,
-    "page_change": -4
-   },
-   "keywords": [
-    "eta"
-   ],
-   "shock_terms": [],
-   "dedupe_match": null,
-   "dedupe_similarity": 0.0,
-   "id": "ce13310e5e42",
-   "title": "[page changed] ProMED-mail",
-   "url": "https://promedmail.org/",
-   "summary": "Protecting Global Health, One Alert at a Time | ProMED Previous slide Next slide Protecting Global Health, One Alert at a Time ProMED: Your 24/7 early warning system for emerging infectious diseases worldwide. Subscribe ProMED's Weekly Pulse A snapshot of global health events from the past 7 days Latest Posts on ProMED All Date Title Tue Sep 22 2026 ANTIMICROBIAL STEWARDSHIP (324): EXTENDED-SPECTR",
-   "kind": "page-change",
-   "source": "ProMED-mail",
-   "source_id": "promed",
-   "tier": 2,
-   "country": "GLOBAL",
-   "category": "health",
    "segments": [
     "city",
     "bush",
