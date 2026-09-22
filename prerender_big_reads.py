@@ -77,8 +77,13 @@ def render(index=None):
     n = len(brs)
     count = f"{n} Big Read" + ("" if n == 1 else "s") if n else ""
     s = re.sub(r'(<span class="count-note" id="count">)[^<]*(</span>)', lambda m: m.group(1) + count + m.group(2), s, count=1)
-    s = re.sub(r'<div class="empty" id="empty" style="display:[a-z]+">',
-               f'<div class="empty" id="empty" style="display:{"none" if n else "block"}">', s, count=1)
+    # When Big Reads exist, ship the empty-state box with NO text: text-only
+    # readers (link previews, AI crawlers, markdown converters) ignore
+    # display:none and were reporting "No Big Reads published yet".
+    empty_txt = "" if n else "No Big Reads published yet \u2014 check back soon."
+    s = re.sub(r'<div class="empty" id="empty" style="display:[a-z]+">[^<]*</div>',
+               lambda m: f'<div class="empty" id="empty" style="display:{"none" if n else "block"}">{empty_txt}</div>',
+               s, count=1)
     ld = '<script type="application/ld+json" id="br-itemlist">' + json.dumps(item_list(brs), ensure_ascii=False) + '</script>'
     if 'id="br-itemlist"' in s:
         s = re.sub(r'<script type="application/ld\+json" id="br-itemlist">.*?</script>', lambda m: ld, s, count=1, flags=re.S)
