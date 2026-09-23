@@ -1,5 +1,14 @@
 window.GUIDES = [
  {
+  "slug": "afcon-2027-priced-not-filled",
+  "title": "AFCON 2027 will be priced, not filled",
+  "description": "CAF told Uganda this week that its rooms problem lies upcountry. America's World Cup, whose hotel results landed the same day, suggests the bigger risk for Nairobi, Kampala and Dar es Salaam is the opposite one: hotels that price out the guests they already have.",
+  "category": "Big Read",
+  "updated": "2026-09-23",
+  "readMins": 9,
+  "image": "img/editions/pulse-2026-09-23-evening.jpg"
+ },
+ {
   "slug": "east-africa-hospitality-labour-price-set-elsewhere",
   "title": "East Africa's hotels no longer set the price of their own staff",
   "description": "A parliamentary committee in Mombasa spent this year clearing paperwork so more Kenyan hospitality workers can join cruise ships. A tourism week in Eldoret is training the ones who stay. The wage that decides which of those two things happens is being set somewhere else entirely.",

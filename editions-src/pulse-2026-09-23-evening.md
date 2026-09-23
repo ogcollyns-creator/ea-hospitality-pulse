@@ -29,7 +29,7 @@ The EAC says ~**US$45m** is needed for regional Ebola and haemorrhagic-fever res
 **🔍 BLIND SPOTS.** Zanzibar MoH pages blank (recovered via press). Kenya Gazette index unreadable; latest digest w/e 18 Sep. UWA's 2026–27 tariff PDF image-only, unparsed. Africa CDC weekly still August's. Radar evening window 0 obs (sandbox proxy).
 
 🔗 This edition on the web: https://eahospitalitypulse.com/editions/pulse-2026-09-23-evening.html
-💼 Tonight's Big Read: https://www.linkedin.com/company/ea-hospitality-pulse/
+💼 Tonight's Big Read: https://eahospitalitypulse.com/guides/afcon-2027-priced-not-filled.html
 
 ## WHATSAPP
 
@@ -47,6 +47,7 @@ CAF told Museveni on 22 Sep that Uganda's stadiums impress but accommodation out
 📊 *NUMBER OF THE DAY:* *7 of 11* — US World Cup host cities where occupancy fell below baseline (HVS).
 
 📖 Read on the web → https://eahospitalitypulse.com/editions/pulse-2026-09-23-evening.html
+💼 Big Read → https://eahospitalitypulse.com/guides/afcon-2027-priced-not-filled.html
 📣 Telegram → https://t.me/eahospitalitypulse
 
 _Usiku mwema._
@@ -90,7 +91,7 @@ We track this daily at EA Hospitality Pulse.
 ### FIRST COMMENT
 
 📖 This edition in full: https://eahospitalitypulse.com/editions/pulse-2026-09-23-evening.html
-💼 The full Big Read: https://www.linkedin.com/company/ea-hospitality-pulse/
+💼 The full Big Read: https://eahospitalitypulse.com/guides/afcon-2027-priced-not-filled.html
 📣 Daily briefs on Telegram: https://t.me/eahospitalitypulse
 💬 The 15-second version on WhatsApp: https://whatsapp.com/channel/0029VbCjul2KmCPTv8Qrh73b
 🗂 Archive, live travel advisory board and rate index: https://eahospitalitypulse.com/
