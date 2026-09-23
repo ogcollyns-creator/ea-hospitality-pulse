@@ -395,7 +395,8 @@ def intro_headline(md):
             probe = re.sub(r"^[^0-9A-Za-z]+", "", cand)
             if _DATELINE.match(probe) or _DATELINE2.match(probe):
                 continue  # a bold date line is masthead furniture, not the headline
-            if _SLOT_FRAMING.match(cand) or _CORRECTION_LINE.match(cand):
+            if (_SLOT_FRAMING.match(cand) or _CORRECTION_LINE.match(cand)
+                    or _BRIEF_FRAMING.match(cand) or _BRIEF_FRAMING.match(l)):
                 continue  # framing / correction furniture, not the headline
             return strip_edition_label(strip_process_talk(cand))[:220]
     return None
@@ -447,6 +448,17 @@ _SLOT_FRAMING = re.compile(
     r"|^\W*(?:\*|_)*\s*no\s+(?:hard\s+)?news\b"
     r"|^\W*(?:\*|_)*\s*one\s+expert\s+brief\b"
     r"|^\W*(?:\*|_)*\s*no\s+(?:fresh|new)\s+(?:wire|news|stor(?:y|ies))\b", re.I)
+
+# An "EXPERT BRIEF — nothing cleared the gate, so we lead with analysis" opener is
+# framing furniture. The process-talk stripper eats the middle of it and hands back
+# a residue ("We lead with analysis and say so") that reads like a headline but is
+# not one: it shipped as the <title> of both the 21 and 22 Sep 2026 evening wraps.
+# Match only the framing form - an Expert Brief label followed by process talk - so
+# a genuine headline written as "Expert Brief: Kenya seated its boards" still wins.
+_BRIEF_FRAMING = re.compile(
+    r"^\W*(?:\*|_)*\s*(?:the\s+)?expert\s+brief\b\s*[:\u2014-]"
+    r"(?=.*(?:recency\s+gate|clear(?:ed|s)?\s+(?:tonight|the|this)|"
+    r"lead\s+with\s+analysis|say\s+so|no\s+second\s+hard\s+story))", re.I)
 
 # A correction notice is editorially essential but it is not the lead. It stays
 # in the body; it must not become the title, standfirst or social card.
@@ -524,6 +536,10 @@ def summarise(text):
         # framing and corrections are never the headline -- keep looking
         if _SLOT_FRAMING.match(l) or _SLOT_FRAMING.match(probe): continue
         if _CORRECTION_LINE.match(l) or _CORRECTION_LINE.match(probe): continue
+        # "EXPERT BRIEF - nothing cleared the gate, so we lead with analysis" is
+        # framing. Its stripped residue clears the >40 char guard below and shipped
+        # as the title of the 21 and 22 Sep 2026 evening wraps. Skip it outright.
+        if _BRIEF_FRAMING.match(l) or _BRIEF_FRAMING.match(probe): continue
         if len(l) > 40:
             cand = strip_process_talk(md_strip(re.sub(r"\s+"," ",l)))
             # a line that was nothing but process talk is not a summary -- keep looking

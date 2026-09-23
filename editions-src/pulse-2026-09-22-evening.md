@@ -6,7 +6,7 @@
 
 **📌 EXPERT BRIEF — nothing cleared tonight's recency gate, so we lead with analysis and say so.**
 
-**KENYA ARGUED ABOUT THE PRICE ON THURSDAY. ON FRIDAY IT APPOINTED THE PEOPLE WHO SPEND THE MONEY.**
+**KENYA GAVE ITS TOURISM LEVY TRUSTEES THREE-YEAR TERMS ON 18 SEPTEMBER, A DAY AFTER OPERATORS FOUGHT THE FEE SCHEDULE**
 
 On **17 Sep** nine trade associations told the Senate's Delegated Legislation Committee that Legal Notice 127's fee schedule was drafted without them. Chair **Sen. Mwenda Gataya**: the committee would decide *"whether to annul or accede"* *(The Kenya Times, 18 Sep 2026)*.
 

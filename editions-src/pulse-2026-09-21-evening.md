@@ -6,7 +6,7 @@
 
 **📌 EXPERT BRIEF — no second hard story cleared tonight's recency gate, so we lead with analysis and say so.**
 
-**EAST AFRICA IS BUILDING ROOMS FASTER THAN IT IS SELLING 2027**
+**79.5% OF KENYA'S 6,190 PIPELINE ROOMS ARE ALREADY UNDER CONSTRUCTION, AND THE 2027 TRADE IS BEING SOLD IN PARIS NOW**
 
 Seychelles spent 15–17 Sep at IFTM Top Resa in Paris with **nine partners** behind its tourism board: four hotel groups, three DMCs, a specialist operator and the national airline. Special Advisor **Bernadette Willemin**: *"The 2027 planning cycle is being decided now, and for this market it is decided with the French trade."* Creole Travel Services CEO **Guillaume Albert** said major French partners are positioning Seychelles for 2027 as they *"diversify their long-haul island offering"* *(VoyagesAfriq, 21 Sep 2026)*.
 
