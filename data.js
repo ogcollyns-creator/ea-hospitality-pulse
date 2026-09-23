@@ -1,5 +1,14 @@
 window.EDITIONS = [
  {
+  "id": "pulse-2026-09-23-evening",
+  "date": "2026-09-23",
+  "dateDisplay": "Wednesday, 23 September 2026",
+  "edition": "Evening Wrap",
+  "editionKey": "evening",
+  "summary": "1️⃣ CAF FOUND AFCON'S ROOM PROBLEM UPCOUNTRY. AMERICA'S WORLD CUP SAYS THE CITY RISK IS PRICE, NOT BEDS",
+  "bodyHtml": "<p><strong>🌆 EVENING WRAP · Wed 23 Sep 2026</strong></p>\n<p><strong>1️⃣ CAF FOUND AFCON&#x27;S ROOM PROBLEM UPCOUNTRY. AMERICA&#x27;S WORLD CUP SAYS THE CITY RISK IS PRICE, NOT BEDS</strong></p>\n<p>On <strong>22 Sep</strong> CAF&#x27;s Samson Adamu briefed Museveni after inspecting Uganda&#x27;s venues. Stadiums drew praise; accommodation outside Kampala and the missing single visa did not <strong>(Daily Monitor, 22 Sep; The EastAfrican, 23 Sep)</strong>. Museveni: <strong>&quot;The Kampala area has the facilities, but now the challenge is upcountry.&quot;</strong> Kick-off is <strong>19 Jun 2027</strong> <strong>(Nile Post, 22 Sep)</strong>.</p>\n<p>The same day HVS published Houston&#x27;s World Cup result: ~500,000 visitors, occupancy <strong>flat at 61.6%</strong>, ADR <strong>+5.8%</strong>, match-eve spikes of <strong>~52–53%</strong> <strong>(HVS/CoStar, 22 Sep)</strong>. Across all 11 US host cities, occupancy <strong>fell</strong> below baseline in <strong>seven</strong>, rate rose in all, and group business moved elsewhere <strong>(HVS, 7 Aug)</strong>.</p>\n<p><strong>What everyone is missing.</strong> AFCON is two tournaments. Kampala, Nairobi and Dar will be <strong>priced</strong>, not filled, in the weeks safari and conference guests already sleep there. Hoima is the reverse: permanent rooms for a four-week event.<br><span class=\"tagline\">🏷 City, Bush | Uganda, Kenya, Tanzania | Confirmed (facts) · Inference (the read) | impact:watch</span><br><span class=\"sowhat\">🎯 Pull your last two June–July occupancy figures first: HVS saw the biggest rate gains where normal occupancy ran near 89%, the smallest near 61%. Protect contracted safari and group nights, price match eves, not the month.</span></p>\n<p><strong>2️⃣ EAC PUTS A PRICE ON ITS EBOLA DEFENCES: US$45M</strong></p>\n<p>The EAC says ~<strong>US$45m</strong> is needed for regional Ebola and haemorrhagic-fever response, and is asking partners for it. Its mobile lab network, including posts at Busia and Bwera, stands at <strong>10 labs in seven states</strong>, target <strong>34 by end-2027</strong>. Germany added <strong>€4.8m</strong>; 120 frontline clinicians are training in Nairobi this week <strong>(EAC via APO, Arusha, 23 Sep)</strong>.<br><span class=\"tagline\">🏷 City, Bush, Beach | Kenya, Uganda, Tanzania, Rwanda | Confirmed | impact:risk</span><br><span class=\"sowhat\">🎯 When a 2027 buyer asks about outbreak risk, name the border labs, and say the network is only part-funded.</span></p>\n<p><strong>📻 ALSO TONIGHT</strong><br>✈️ <strong>Ethiopian trims Addis–Chicago</strong> (via Rome) to 6 weekly from <strong>28 Dec</strong>, 5 weekly from <strong>18 Jan 2027</strong> <strong>(AeroRoutes, 23 Sep)</strong>. One fewer US door into EA&#x27;s peak.<br>🇹🇿 <strong>Tabora:</strong> 34 held after six conservation workers were killed at a patrol camp in Sikonge on <strong>18 Sep</strong> <strong>(Daily News TZ; The Citizen, 22 Sep; Reported)</strong>. Far from the northern circuit.<br>🇺🇸 US Uganda entry order: nothing new since <strong>16 Sep</strong> publication. Comments close <strong>1 Oct</strong>; order lapses <strong>11 Oct</strong>.<br>🛡 Sweep <strong>17/17</strong> tier-A: no advisory level changed.</p>\n<p><strong>🔍 BLIND SPOTS.</strong> Zanzibar MoH pages blank (recovered via press). Kenya Gazette index unreadable; latest digest w/e 18 Sep. UWA&#x27;s 2026–27 tariff PDF image-only, unparsed. Africa CDC weekly still August&#x27;s. Radar evening window 0 obs (sandbox proxy).</p>\n<p>🔗 This edition on the web: <a href=\"https://eahospitalitypulse.com/editions/pulse-2026-09-23-evening.html\" rel=\"noopener\">eahospitalitypulse.com/editions/pulse-2026-09-23-evenin…</a><br>💼 Tonight&#x27;s Big Read: <a href=\"https://www.linkedin.com/company/ea-hospitality-pulse/\" rel=\"noopener\">linkedin.com/company/ea-hospitality-pulse/</a></p>"
+ },
+ {
   "id": "pulse-2026-09-22-evening",
   "date": "2026-09-22",
   "dateDisplay": "Tuesday, 22 September 2026",
@@ -1009,6 +1018,47 @@ window.EDITIONS = [
  }
 ];
 window.INSIGHTS = [
+ {
+  "headline": "CAF FOUND AFCON'S ROOM PROBLEM UPCOUNTRY. AMERICA'S WORLD CUP SAYS THE CITY RISK IS PRICE, NOT BEDS",
+  "body": "On **22 Sep** CAF's Samson Adamu briefed Museveni after inspecting Uganda's venues. Stadiums drew praise; accommodation outside Kampala and the missing single visa did not *(Daily Monitor, 22 Sep; The EastAfrican, 23 Sep)*. Museveni: *\"The Kampala area has the facilities, but now the challenge is upcountry.\"* Kick-off is **19 Jun 2027** *(Nile Post, 22 Sep)*. The same day HVS published Houston's World Cup result: ~500,000 visitors, occupancy **flat at 61.6%**, ADR **+5.8%**, match-eve spikes of **~52–53%** *(HVS/CoStar, 22 Sep)*. Across all 11 US host cities, occupancy **fell** below baseline in **seven**, rate rose in all, and group business moved elsewhere *(HVS, 7 Aug)*. **What everyone is missing.** AFCON is two tournaments. Kampala, Nairobi and Dar will be *priced*, not filled, in the weeks safari and conference guests already sleep there. Hoima is the reverse: permanent rooms for a four-week event.",
+  "sowhat": "",
+  "segments": [
+   "city",
+   "bush"
+  ],
+  "countries": "Uganda, Kenya, Tanzania",
+  "confidence": "Confirmed (facts) · Inference (the read)",
+  "impact": "watch",
+  "impactClass": "watch",
+  "intensity": 3,
+  "impactSet": "author",
+  "source": "pulse-2026-09-23-evening",
+  "date": "2026-09-23",
+  "dateDisplay": "Wednesday, 23 September 2026",
+  "edition": "Evening Wrap",
+  "editionKey": "evening"
+ },
+ {
+  "headline": "EAC PUTS A PRICE ON ITS EBOLA DEFENCES: US$45M",
+  "body": "The EAC says ~**US$45m** is needed for regional Ebola and haemorrhagic-fever response, and is asking partners for it. Its mobile lab network, including posts at Busia and Bwera, stands at **10 labs in seven states**, target **34 by end-2027**. Germany added **€4.8m**; 120 frontline clinicians are training in Nairobi this week *(EAC via APO, Arusha, 23 Sep)*.",
+  "sowhat": "",
+  "segments": [
+   "city",
+   "bush",
+   "beach"
+  ],
+  "countries": "Kenya, Uganda, Tanzania, Rwanda",
+  "confidence": "Confirmed",
+  "impact": "risk",
+  "impactClass": "risk",
+  "intensity": 3,
+  "impactSet": "author",
+  "source": "pulse-2026-09-23-evening",
+  "date": "2026-09-23",
+  "dateDisplay": "Wednesday, 23 September 2026",
+  "edition": "Evening Wrap",
+  "editionKey": "evening"
+ },
  {
   "headline": "YOUR POWER BILL FELL THIS MONTH. THE SAME GAZETTE ROUND CLOSED THE WAY OUT OF IT.",
   "body": "EPRA's September pass-through is **KSh 4.16/kWh** — fuel charge KSh 3.00, forex ~KSh 1.14 against KSh 1.32bn of exchange costs, WRMA levy 1.48 cents — on every meter reading taken in September *(Gazette Notice, 18 Sep 2026)*. August was **KSh 4.7027** *(Gazette Notices 13172/13173/13174, 14 Aug 2026)*. Down **54 cents, 11.5%**. **What everyone is missing:** the cheap line is the reversible one. Thermal dispatch swings monthly; forex barely moved, and in August IPPs alone carried KSh 1.039bn of KSh 1.353bn. Meanwhile a **separate notice the same week** amended the Schedule of Tariffs 2023: net-metering customers are credited for **half** what they export, and feeding KPLC **without approval is now \"dumping\"**, billed back at base tariff. The grid got cheaper for one month. Leaving the grid got permanently narrower.",
@@ -5409,4 +5459,4 @@ window.INSIGHTS = [
   "editionKey": "evening"
  }
 ];
-window.BUILT_AT = "2026-09-23 06:54";
+window.BUILT_AT = "2026-09-23 16:23";

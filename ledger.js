@@ -1,8 +1,8 @@
 window.LEDGER = {
- "updated": "2026-09-23 06:55",
+ "updated": "2026-09-23 16:23",
  "stats": {
-  "total": 207,
-  "open": 152,
+  "total": 209,
+  "open": 154,
   "resolved": 50,
   "correct": 39,
   "partial": 1,
@@ -1451,6 +1451,22 @@ window.LEDGER = {
    "overdue": false
   },
   {
+   "id": "P208",
+   "made_date": "2026-09-23",
+   "edition": "Evening Wrap",
+   "claim": "The EAC will NOT announce that its roughly US$45 million regional Ebola and viral haemorrhagic fever response requirement is fully funded on or before 31 December 2026 - the 23 September 2026 release named only an additional EUR 4.8 million from Germany against the US$45 million need",
+   "resolution_criteria": "Search eac.int press releases and APO Group Africa Newsroom (East African Community source page) to 31 December 2026. An EAC statement that the US$45 million requirement (or its successor figure) is fully funded or fully pledged resolves INCORRECT. Absence of such a statement resolves CORRECT",
+   "resolve_by": "2026-12-31",
+   "market": "KE|UG|TZ|RW",
+   "segment": "City|Bush|Beach",
+   "confidence": "Inference",
+   "status": "open",
+   "resolved_date": "",
+   "evidence": "",
+   "source_url": "https://www.africa-newsroom.com/press/east-african-community-eac-steps-up-regional-infectious-disease-outbreak-preparedness-calls-for-more-support?lang=en",
+   "overdue": false
+  },
+  {
    "id": "P006",
    "made_date": "2026-07-25",
    "edition": "Morning Brief",
@@ -1816,6 +1832,22 @@ window.LEDGER = {
    "resolved_date": "",
    "evidence": "",
    "source_url": "https://voyagesafriq.com/2026/09/21/french-trade-partners-position-seychelles-for-2027-as-iftm-top-resa-concludes/",
+   "overdue": false
+  },
+  {
+   "id": "P207",
+   "made_date": "2026-09-23",
+   "edition": "Evening Wrap",
+   "claim": "Kenya, Uganda and Tanzania will NOT have a single joint AFCON 2027 tournament visa (a Pamoja visa or equivalent) open for applications by 31 March 2027 - CAF Secretary General Samson Adamu pressed Museveni to fast-track it on 22 September 2026 and Museveni said only that talks with Ruto and Samia were underway",
+   "resolution_criteria": "Search immigration.go.ke, visas.immigration.go.ug, immigration.go.tz, eac.int and pamojaafcon.com plus the Daily Monitor, The EastAfrican and The Citizen to 31 March 2027. An official announcement that a single visa or joint tournament visa valid for all three host countries is OPEN FOR APPLICATIONS (not merely agreed or announced) on or before 31 March 2027 resolves INCORRECT. Otherwise CORRECT",
+   "resolve_by": "2027-03-31",
+   "market": "KE|UG|TZ",
+   "segment": "City",
+   "confidence": "Inference",
+   "status": "open",
+   "resolved_date": "",
+   "evidence": "",
+   "source_url": "https://www.monitor.co.ug/uganda/sports/soccer/afcon-2027-museveni-assures-caf-of-uganda-s-readiness-vows-to-unlock-regional-single-visa-5605392",
    "overdue": false
   },
   {
