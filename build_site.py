@@ -279,6 +279,10 @@ _FLAGS      = re.compile(r"[\U0001F1E6-\U0001F1FF]{1,2}")
 _PICTO      = re.compile(
     r"[\U0001F300-\U0001FAFF\u2190-\u21FF\u2300-\u23FF\u25A0-\u27BF"
     r"\u2B00-\u2BFF\uFE0F\u200D]")
+# A period inside a number ("79.5%") or hard against one ("2.5m") is not a sentence
+# boundary. GEO-style numeric-led headlines are a deliberate house style choice, so
+# the H1/headline split must not truncate "79.5% of Kenya's pipeline..." to "79.".
+_SENT_SPLIT = re.compile(r"(?<!\d)\.(?!\d)")
 _LOWER_WORDS = {"a","an","the","and","but","or","nor","for","so","yet","at","by",
                 "in","of","on","to","up","as","via","from","into","over","with",
                 "after","before","than","that","per","vs"}
@@ -349,11 +353,18 @@ def clean_headline(text):
             for w in t.split(" "):
                 d = _detitle(w)
                 bare = d.lower().strip(".,;:!?'\u2019\u201c\u201d")
-                if not start and d != w and bare in _LOWER_WORDS:
+                if not start and bare in _LOWER_WORDS:
                     d = d.lower()
                 if start and d[:1].isalpha():
                     d = d[:1].upper() + d[1:]
-                    start = False
+                # A headline can open on a non-letter token ("79.5%", "$4bn").
+                # "start" means "are we still waiting for the sentence-initial
+                # word", so it must be consumed by the FIRST token regardless of
+                # whether that token itself is alphabetic -- otherwise the next
+                # word (often a minor word: "of", "in") wrongly inherits
+                # sentence-start treatment and stays capitalised, e.g.
+                # "79.5% Of Kenya's..." instead of "79.5% of Kenya's...".
+                start = False
                 # a new sentence (or a colon/dash break) re-capitalises
                 if d.endswith((".", "!", "?", ":")):
                     start = True
@@ -459,6 +470,32 @@ _BRIEF_FRAMING = re.compile(
     r"^\W*(?:\*|_)*\s*(?:the\s+)?expert\s+brief\b\s*[:\u2014-]"
     r"(?=.*(?:recency\s+gate|clear(?:ed|s)?\s+(?:tonight|the|this)|"
     r"lead\s+with\s+analysis|say\s+so|no\s+second\s+hard\s+story))", re.I)
+
+# PERMANENT GUARDRAIL (house rule, 23 Sep 2026): "EXPERT BRIEF -- nothing cleared
+# tonight's recency gate, so we lead with analysis and say so" and lines like it
+# are drafting-process notes -- they tell the editor why a slot leads with analysis
+# rather than a second hard story. They are notes to the editor, not copy for
+# readers, and must NEVER appear in a published page, Telegram post or WhatsApp
+# post. summarise()/intro_headline() already skip such lines when picking a TITLE
+# (see above), but that alone does not stop the line from being POSTED -- it still
+# rendered verbatim in the page body and in the raw Telegram/WhatsApp text, which
+# is exactly what shipped on both the 21 and 22 Sep 2026 evening wraps. Fix this
+# once, at the source, so it holds for every edition from now on regardless of
+# what any future run of this skill drafts: strip any matching line out of the
+# Telegram block itself, before that text is used for EITHER the title candidate
+# or the rendered body. See main()'s ingestion loop, where this is applied to
+# `tele` immediately after extract_telegram().
+def strip_internal_framing(text):
+    """Remove editor-only process-talk lines (Expert Brief framing and the like)
+    from the Telegram block before it is used for title selection or body
+    rendering. A matching line is dropped in its entirety; its own blank-line
+    paragraph collapses away naturally in render_body()'s block split."""
+    kept = []
+    for l in text.split("\n"):
+        if _BRIEF_FRAMING.match(l.strip()):
+            continue
+        kept.append(l)
+    return "\n".join(kept)
 
 # A correction notice is editorially essential but it is not the lead. It stays
 # in the body; it must not become the title, standfirst or social card.
@@ -1016,7 +1053,7 @@ def edition_page(e, siblings=None, prev=None, nxt=None, hero=None, credit=None):
     _hk = (credit or {}).get("source_kind") or ""
     hero_cls = " graphic" if _hk in ("data-card", "illustration") else ""
     # Clean, word-boundary headline (<=110 chars — Google's NewsArticle limit).
-    headline = lead.split(".")[0].strip() or lead
+    headline = _SENT_SPLIT.split(lead, 1)[0].strip() or lead
     if len(headline) > 110:
         headline = headline[:110].rsplit(" ", 1)[0] + "…"
     h1text = headline if headline.endswith(("…", ".", "?", "!")) else headline + "."
@@ -2064,6 +2101,7 @@ def main():
         if not date_iso: continue
         md = open(os.path.join(SRC, fn), encoding="utf-8").read()
         tele = extract_telegram(md)
+        tele = strip_internal_framing(tele)
         try: dd = datetime.date.fromisoformat(date_iso).strftime("%A, %-d %B %Y")
         except Exception: dd = date_iso
         eid = fn.rsplit(".",1)[0]
