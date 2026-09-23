@@ -1,17 +1,17 @@
-# EA Pulse self-audit — 2026-09-22T10:57+03:00 EAT
+# EA Pulse self-audit — 2026-09-23T10:58+03:00 EAT
 **Health 57% · grade D** — 3 FAIL, 3 WARN, 4 PASS
 
 | | Check | Status | Detail |
 |-|-|-|-|
 | 🔴 | source coverage | FAIL | 153 tier-1 sources: 112 HEALTHY, 23 MUTE, 18 SILENT. Blind examples: ke-tenders, ug-bou, tz-mnrt, tz-tanapa, tz-immigration, tz-tenders |
-| 🔴 | source staleness | FAIL | 52 tier-1 HEALTHY sources quiet >14d: ke-gazettes-africa, ke-tri, ke-ktb-news, ke-tra, ke-tourism-fund, ke-kaa, ke-eta, ke-treasury |
-| 🟢 | radar feed freshness | PASS | 180 in-window obs; newest observation 0.5h old (2026-09-22T10:28:00+03:00). |
-| 🔴 | edition cadence | FAIL | Missing slots (last 2 full days): 2026-09-21 morning, 2026-09-21 midday, 2026-09-20 morning, 2026-09-20 midday |
+| 🔴 | source staleness | FAIL | 54 tier-1 HEALTHY sources quiet >14d: ke-gazettes-africa, ke-knbs-releases, ke-knbs-calendar, ke-tri, ke-ktb-news, ke-tra, ke-tourism-fund, ke-kaa |
+| 🟢 | radar feed freshness | PASS | 164 in-window obs; newest observation 0.5h old (2026-09-23T10:30:00+03:00). |
+| 🔴 | edition cadence | FAIL | Missing slots (last 2 full days): 2026-09-22 morning, 2026-09-22 midday, 2026-09-21 morning, 2026-09-21 midday |
 | 🟡 | signal quality | WARN | Only 0 tier-tagged editions in 7d — too few to judge. |
-| 🟢 | ledger hygiene | PASS | 205 calls: 150 open, 50 resolved. Overdue-open: 0. Missing source_url: 37. |
-| 🟡 | data freshness | WARN | Stale/again-verify: calendar.js 55d>21, pipeline.js 33d>21 |
-| 🟡 | rate-index integrity | WARN | n values seen: [0, 1, 2, 3, 4, 5]; confident true=98 false=23. |
-| 🟢 | forecast throughput | PASS | 23 new falsifiable calls logged in last 7d. |
+| 🟢 | ledger hygiene | PASS | 207 calls: 152 open, 50 resolved. Overdue-open: 0. Missing source_url: 37. |
+| 🟡 | data freshness | WARN | Stale/again-verify: calendar.js 56d>21, pipeline.js 34d>21 |
+| 🟡 | rate-index integrity | WARN | n values seen: [0, 1, 2, 3, 4, 5]; confident true=100 false=21. |
+| 🟢 | forecast throughput | PASS | 20 new falsifiable calls logged in last 7d. |
 | 🟢 | published content | PASS | 3 recent editions; no advisory claim contradicts the board. |
 
 ## Actions
