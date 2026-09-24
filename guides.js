@@ -1,5 +1,14 @@
 window.GUIDES = [
  {
+  "slug": "brand-margin-promise-east-africa-franchise",
+  "title": "Hilton promised owners their margin back. In East Africa, the state decides whether it arrives.",
+  "description": "On Wednesday in New York, Hilton's chief executive put a number on what the brands now owe their owners: 75 to 100 basis points, taken out of labour, energy and insurance. Across Africa more owners than ever are signing franchise deals that leave those three lines on their own profit and loss account, and in East Africa two of them move by gazette notice.",
+  "category": "Big Read",
+  "updated": "2026-09-24",
+  "readMins": 8,
+  "image": "img/kigali-night.jpg"
+ },
+ {
   "slug": "afcon-2027-priced-not-filled",
   "title": "AFCON 2027 will be priced, not filled",
   "description": "CAF told Uganda this week that its rooms problem lies upcountry. America's World Cup, whose hotel results landed the same day, suggests the bigger risk for Nairobi, Kampala and Dar es Salaam is the opposite one: hotels that price out the guests they already have.",
