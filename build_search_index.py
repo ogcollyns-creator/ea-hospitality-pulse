@@ -82,6 +82,24 @@ def topics_for(text):
     t = text.lower()
     return sorted([name for name, pat in TOPICS.items() if re.search(pat, t)])
 
+# The Telegram masthead ("EVENING WRAP · Wed 23 Sep 2026", "MORNING BRIEF ·
+# Sun 20 Sep 2026", ...) became a single, fully-bold, mixed-case line in the
+# 20 Sep house-style refresh. Mixed case means it slips past the old
+# ALL-CAPS-only guard below, so it started winning the "first bold line"
+# scan before the loop ever reached the real headline -- every edition since
+# showed its generic masthead, shouting in caps, as the archive title.
+_MASTHEAD_LABEL = re.compile(
+    r"\b(evening wrap|morning brief|midday pulse|sunday foresight|expert brief|"
+    r"ea hospitality pulse)\b", re.I)
+_MASTHEAD_YEAR = re.compile(r"\b(19|20)\d{2}\b")
+
+def _is_masthead(candidate):
+    """A masthead/date line, not a headline -- short, names the slot, and
+    carries a year (the edition date), with nothing else to it."""
+    return bool(len(candidate) < 60
+                and _MASTHEAD_LABEL.search(candidate)
+                and _MASTHEAD_YEAR.search(candidate))
+
 def title_of(text, fallback):
     """Pull a human headline out of an edition.
 
@@ -96,7 +114,7 @@ def title_of(text, fallback):
     m = re.search(r"^\s*\*(?!\*)(.+?)\*\s*$", text, re.M)
     if m:
         c = tidy(m.group(1))
-        if 20 < len(c) < 200:
+        if 20 < len(c) < 200 and not _is_masthead(c):
             return c
     m = re.search(r"\*\*THE THEME:?(.*?)\*\*", text, re.S)
     if m:
@@ -107,13 +125,13 @@ def title_of(text, fallback):
         line = line.strip()
         if line.startswith("**") and line.endswith("**"):
             c = tidy(line)
-            if 20 < len(c) < 200 and not c.isupper():
+            if 20 < len(c) < 200 and not c.isupper() and not _is_masthead(c):
                 return c
     for line in text.splitlines():
         line = line.strip()
         if line.startswith("**") and line.endswith("**"):
             c = tidy(line)
-            if 20 < len(c) < 200:
+            if 20 < len(c) < 200 and not _is_masthead(c):
                 return c.capitalize()
     return fallback
 
