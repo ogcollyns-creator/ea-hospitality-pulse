@@ -310,6 +310,9 @@ def make_favicon():
         i.save(os.path.join(HERE, "apple-touch-icon.png" if sz==180 else "favicon.png"))
     Image.open(os.path.join(HERE,"favicon.png")).save(os.path.join(HERE,"favicon.ico"),sizes=[(32,32)])
 
+import build_site as _bs
+
+
 def main(editions=None):
     os.makedirs(OG,exist_ok=True)
     base_card("Daily intelligence",
@@ -327,7 +330,12 @@ def main(editions=None):
     hero_map = {}
     if editions:
         for e in editions:
-            head=_strip_emoji(e["summary"].split(".")[0])[:150]
+            # De-shout ALL-CAPS headlines (same rule as the edition page's
+            # own H1) and split on a real sentence boundary rather than the
+            # first literal "." -- naive splitting truncated "79.5% of
+            # Kenya's..." down to just "79" on the card.
+            _clean_lead = _bs.clean_headline(e["summary"]) or e["summary"]
+            head=_strip_emoji(_bs._SENT_SPLIT.split(_clean_lead, 1)[0].strip())[:150]
             plain = re.sub(r"<[^>]+>", " ", e.get("bodyHtml",""))
             match_text = e["summary"] + " " + plain
             # LEAD = headline + first story. Anything after it (Week Ahead,
