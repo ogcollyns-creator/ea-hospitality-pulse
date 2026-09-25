@@ -1,66 +1,60 @@
 {
- "generated": "2026-09-25T06:56:33+03:00",
- "slot": "morning",
- "window_start": 1790262000,
- "observations_in_window": 305,
+ "generated": "2026-09-25T11:57:41+03:00",
+ "slot": "midday",
+ "window_start": 1790308800,
+ "observations_in_window": 168,
  "deduped_against": 4,
  "candidates": [
   {
-   "score": 129.0,
+   "score": 117.7,
    "components": {
     "tier": 40,
     "category": 32,
-    "lead": 1.2,
-    "relevance": 24,
-    "freshness": 19.8,
-    "undated": -6,
-    "shock": 18
+    "lead": 12.0,
+    "relevance": 8,
+    "freshness": 19.7,
+    "corroborated": 10,
+    "page_change": -4
    },
    "keywords": [
-    "terror",
-    "level 3"
+    "fee"
    ],
-   "shock_terms": [
-    "level 3",
-    "reconsider travel",
-    "attack"
-   ],
+   "shock_terms": [],
    "dedupe_match": null,
-   "dedupe_similarity": 0.0,
-   "id": "fe8f5a149330",
-   "title": "United Arab Emirates - Level 3: Reconsider Travel",
-   "url": "https://travel.state.gov/content/tsg_aem/us/en/home/international-travel/travel-advisories/destination.are.html",
-   "summary": "Reconsider travel to the United Arab Emirates due to terrorism and armed conflict . U.S. government employees working in the UAE need special authorization to travel to military bases and critical energy infrastructure sites due to UAE government restrictions and potential security risks. As of August 29, 2026, family members may join U.S. government employees who work in UAE. Armed Conflict Follo",
-   "kind": "item",
-   "source": "US State Dept travel advisories (EA feed)",
-   "source_id": "adv-us-ea",
+   "dedupe_similarity": 0.17,
+   "id": "5e3fa0b3b395",
+   "title": "[page changed] Federal Register \u2014 CDC notices",
+   "url": "https://www.federalregister.gov/api/v1/documents.rss?conditions%5Bagencies%5D%5B%5D=centers-for-disease-control-and-prevention&order=newest",
+   "summary": "Federal Register Documents published on or after 08/26/2026 and from Centers for Disease Control and Prevention https://www.federalregister.gov/api/v1/documents.rss?conditions%5Bagencies%5D%5B%5D=centers-for-disease-control-and-prevention&order=newest Mon, 21 Sep 2026 04:00:00 GMT The documents in this feed originate from FederalRegister.gov which displays an unofficial web version of the daily Fe",
+   "kind": "page-change",
+   "source": "Federal Register \u2014 CDC notices",
+   "source_id": "us-fedreg-cdc",
    "tier": 1,
    "country": "REG",
    "category": "advisory",
    "segments": [
     "city",
-    "bush",
-    "beach"
+    "bush"
    ],
-   "first_seen": "2026-09-25T06:55+03:00",
-   "published": null,
-   "verdict": "LEAD CANDIDATE \u2014 tier-1 shock language"
+   "first_seen": "2026-09-25T11:54+03:00",
+   "published": "2026-10-11",
+   "verdict": "OPEN THIS \u2014 tier-1 advisory page moved; content not auto-parsed, read it manually"
   },
   {
-   "score": 91.4,
+   "score": 91.3,
    "components": {
     "tier": 40,
     "category": 32,
     "lead": 3.6,
     "relevance": 0,
-    "freshness": 19.8,
+    "freshness": 19.7,
     "page_change": -4
    },
    "keywords": [],
    "shock_terms": [],
    "dedupe_match": null,
    "dedupe_similarity": 0.0,
-   "id": "08c0c7f1be7a",
+   "id": "51c112845a86",
    "title": "[page changed] Federal Register \u2014 public inspection (HHS/CDC), pre-publication",
    "url": "https://www.federalregister.gov/api/v1/public-inspection-documents/current.json",
    "summary": "{\"count\":105,\"results\":[{\"agencies\":[{\"raw_name\":\"National Oceanic and Atmospheric Administration\",\"name\":\"National Oceanic and Atmospheric Administration\",\"id\":361,\"url\":\"https://www.federalregister.gov/agencies/national-oceanic-and-atmospheric-administration\",\"json_url\":\"https://www.federalregister.gov/api/v1/agencies/361\",\"parent_id\":54,\"slug\":\"national-oceanic-and-atmospheric-administration\"}]",
@@ -74,82 +68,18 @@
     "city",
     "bush"
    ],
-   "first_seen": "2026-09-25T06:55+03:00",
+   "first_seen": "2026-09-25T11:54+03:00",
    "published": "2026-09-23",
    "verdict": "OPEN THIS \u2014 tier-1 advisory page moved; content not auto-parsed, read it manually"
   },
   {
-   "score": 86.1,
-   "components": {
-    "tier": 40,
-    "category": 32,
-    "lead": 3.6,
-    "relevance": 0,
-    "freshness": 14.5,
-    "page_change": -4
-   },
-   "keywords": [],
-   "shock_terms": [],
-   "dedupe_match": null,
-   "dedupe_similarity": 0.0,
-   "id": "6fd255d23eb4",
-   "title": "[page changed] Federal Register \u2014 public inspection (HHS/CDC), pre-publication",
-   "url": "https://www.federalregister.gov/api/v1/public-inspection-documents/current.json",
-   "summary": "{\"count\":105,\"results\":[{\"agencies\":[{\"raw_name\":\"National Oceanic and Atmospheric Administration\",\"name\":\"National Oceanic and Atmospheric Administration\",\"id\":361,\"url\":\"https://www.federalregister.gov/agencies/national-oceanic-and-atmospheric-administration\",\"json_url\":\"https://www.federalregister.gov/api/v1/agencies/361\",\"parent_id\":54,\"slug\":\"national-oceanic-and-atmospheric-administration\"}]",
-   "kind": "page-change",
-   "source": "Federal Register \u2014 public inspection (HHS/CDC), pre-publication",
-   "source_id": "us-fedreg-pubinspect-hhs",
-   "tier": 1,
-   "country": "REG",
-   "category": "advisory",
-   "segments": [
-    "city",
-    "bush"
-   ],
-   "first_seen": "2026-09-25T02:05+03:00",
-   "published": "2026-09-23",
-   "verdict": "OPEN THIS \u2014 tier-1 advisory page moved; content not auto-parsed, read it manually"
-  },
-  {
-   "score": 81.9,
-   "components": {
-    "tier": 40,
-    "category": 32,
-    "lead": 3.6,
-    "relevance": 0,
-    "freshness": 10.3,
-    "page_change": -4
-   },
-   "keywords": [],
-   "shock_terms": [],
-   "dedupe_match": null,
-   "dedupe_similarity": 0.0,
-   "id": "8b0aced02515",
-   "title": "[page changed] Federal Register \u2014 public inspection (HHS/CDC), pre-publication",
-   "url": "https://www.federalregister.gov/api/v1/public-inspection-documents/current.json",
-   "summary": "{\"count\":105,\"results\":[{\"agencies\":[{\"raw_name\":\"National Oceanic and Atmospheric Administration\",\"name\":\"National Oceanic and Atmospheric Administration\",\"id\":361,\"url\":\"https://www.federalregister.gov/agencies/national-oceanic-and-atmospheric-administration\",\"json_url\":\"https://www.federalregister.gov/api/v1/agencies/361\",\"parent_id\":54,\"slug\":\"national-oceanic-and-atmospheric-administration\"}]",
-   "kind": "page-change",
-   "source": "Federal Register \u2014 public inspection (HHS/CDC), pre-publication",
-   "source_id": "us-fedreg-pubinspect-hhs",
-   "tier": 1,
-   "country": "REG",
-   "category": "advisory",
-   "segments": [
-    "city",
-    "bush"
-   ],
-   "first_seen": "2026-09-24T22:18+03:00",
-   "published": "2026-09-23",
-   "verdict": "OPEN THIS \u2014 tier-1 advisory page moved; content not auto-parsed, read it manually"
-  },
-  {
-   "score": 55.9,
+   "score": 65.3,
    "components": {
     "tier": 40,
     "category": 12,
     "lead": 3.6,
     "relevance": 0,
-    "freshness": 10.3,
+    "freshness": 19.7,
     "undated": -6,
     "page_change": -4
    },
@@ -157,10 +87,10 @@
    "shock_terms": [],
    "dedupe_match": null,
    "dedupe_similarity": 0.0,
-   "id": "d42305c1d4b2",
+   "id": "f69dc067e7fd",
    "title": "[page changed] Airlink news",
    "url": "https://www.flyairlink.com/",
-   "summary": "Request unsuccessful. Incapsula incident ID: 1018000081636755097-842673111822893621",
+   "summary": "Request unsuccessful. Incapsula incident ID: 1016000070697010438-299069039722365419",
    "kind": "page-change",
    "source": "Airlink news",
    "source_id": "air-airlink",
@@ -172,35 +102,239 @@
     "bush",
     "beach"
    ],
-   "first_seen": "2026-09-24T22:17+03:00",
+   "first_seen": "2026-09-25T11:53+03:00",
    "published": null,
    "verdict": "OPEN THIS \u2014 tier-1 airline page moved; content not auto-parsed, read it manually"
   },
   {
-   "score": 108.2,
+   "score": 120.1,
    "components": {
-    "tier": 20,
-    "category": 14,
+    "tier": 40,
+    "category": 18,
     "lead": 8.4,
-    "relevance": 36,
-    "freshness": 19.8,
+    "relevance": 24,
+    "freshness": 19.7,
     "corroborated": 10
    },
    "keywords": [
-    "vat",
-    "route",
-    "frequency",
-    "airline",
-    "flight",
-    "booking"
+    "eta",
+    "wildlife",
+    "tourism",
+    "beach"
    ],
    "shock_terms": [],
    "dedupe_match": null,
    "dedupe_similarity": 0.0,
-   "id": "0f4a4baea4c7",
-   "title": "Air Zimbabwe 2Q27 London Frequency Variations \u2013 24SEP26",
-   "url": "https://www.aeroroutes.com/eng/260924-um2q27lgw",
-   "summary": "Published at 2000PDT 24SEP26 / 0300GMT 25SEP26 Air Zimbabwe in the second quarter of 2027 lists frequency changes on Harare \u2013 London Gatwick route. Based on available flights for reservations on its website, the airline tentatively accepts booking for 2 weekly flights from Harare, 3 from London Gatwick. This discrepancy is expected to be corrected in the next few weeks. UM724 HRE2200 \u2013 0630+1LGW 3",
+   "id": "c8cd2358e350",
+   "title": "Unlocking the Coast\u2019s Full Potential: Beyond the Beach",
+   "url": "https://kws.go.ke/unlocking-the-coasts-full-potential-beyond-the-beach",
+   "summary": "The Coast is so much more than a beach destination. It is a world of experiences, all waiting to be explored. Yesterday in Kilifi County, Cabinet Secretary for Tourism and Wildlife, Hon. Rebecca Miano, EGH, met members of the Senate Standing Committee on Trade, Industrialisation and Tourism, led by Chairperson Sen. Boy Isa Juma, on [...]",
+   "kind": "item",
+   "source": "Kenya Wildlife Service",
+   "source_id": "ke-kws",
+   "tier": 1,
+   "country": "KE",
+   "category": "parks",
+   "segments": [
+    "bush"
+   ],
+   "first_seen": "2026-09-25T11:54+03:00",
+   "published": "2026-09-25",
+   "verdict": "STRONG \u2014 tier-1, upstream"
+  },
+  {
+   "score": 100.1,
+   "components": {
+    "tier": 40,
+    "category": 18,
+    "lead": 8.4,
+    "relevance": 4,
+    "freshness": 19.7,
+    "corroborated": 10
+   },
+   "keywords": [
+    "shilling"
+   ],
+   "shock_terms": [],
+   "dedupe_match": null,
+   "dedupe_similarity": 0.2,
+   "id": "3f1ef7c04790",
+   "title": "You set a snare, it traps a lion\u2026 and then?",
+   "url": "https://kws.go.ke/now-you-set-a-snare-it-traps-a-lion-and-then",
+   "summary": "Poacher's Diary Entry, Date: 24th September 2026. \"Recently, my gang and I set some snares inside Meru National Park. We are guaranteed to capture enough ungulates to make a tidy profit selling to our butcher outlets. Another day, another shilling.\" Except, that is not what happened. Not even close. What happened is this. In Meru National [...]",
+   "kind": "item",
+   "source": "Kenya Wildlife Service",
+   "source_id": "ke-kws",
+   "tier": 1,
+   "country": "KE",
+   "category": "parks",
+   "segments": [
+    "bush"
+   ],
+   "first_seen": "2026-09-25T11:54+03:00",
+   "published": "2026-09-25",
+   "verdict": "STRONG \u2014 tier-1, upstream"
+  },
+  {
+   "score": 96.3,
+   "components": {
+    "tier": 20,
+    "category": 9,
+    "lead": 3.6,
+    "relevance": 16,
+    "freshness": 19.7,
+    "corroborated": 10,
+    "shock": 18
+   },
+   "keywords": [
+    "insolven",
+    "tourist"
+   ],
+   "shock_terms": [
+    "insolven"
+   ],
+   "dedupe_match": null,
+   "dedupe_similarity": 0.0,
+   "id": "fedf93df7f69",
+   "title": "Marketing-Logo, Insolvenzschutz-Emblem, G\u00fctezeichen: Die Pauschalreise sucht ihr Siegel",
+   "url": "https://www.fvw.de/touristik/vertrieb/marketing-logo-insolvenzschutz-emblem-guetezeichen-die-pauschalreise-sucht-ihr-siegel-264861",
+   "summary": "Die Pauschalreise bietet Reisenden weitreichenden gesetzlichen Schutz \u2013 doch viele Kunden wissen wenig davon. Ausgerechnet in einem Jahr voller geopolitischer Krisen ringt die Touristik um einen einheitlichen Weg, diesen Vorteil sichtbar zu machen. Kurz vor dem DRV-Hauptstadtkongress kommt Bewegung in die Sache.",
+   "kind": "item",
+   "source": "FVW / German travel trade",
+   "source_id": "sm-derreise",
+   "tier": 2,
+   "country": "GLOBAL",
+   "category": "source-market",
+   "segments": [
+    "beach",
+    "bush"
+   ],
+   "first_seen": "2026-09-25T11:54+03:00",
+   "published": "2026-09-25",
+   "verdict": "CONSIDER"
+  },
+  {
+   "score": 96.1,
+   "components": {
+    "tier": 40,
+    "category": 24,
+    "lead": 2.4,
+    "relevance": 0,
+    "freshness": 19.7,
+    "corroborated": 10
+   },
+   "keywords": [],
+   "shock_terms": [],
+   "dedupe_match": null,
+   "dedupe_similarity": 0.0,
+   "id": "9f3e03485b6c",
+   "title": "SitRep N\u00b0132/MVE-BDBV/23/09/2026",
+   "url": "https://insp.cd/sitrep-n132-mve-bdbv-23-09-2026",
+   "summary": "",
+   "kind": "item",
+   "source": "INSP RDC \u2014 Ebola daily situation reports (SitRep)",
+   "source_id": "cd-insp-sitrep",
+   "tier": 1,
+   "country": "GLOBAL",
+   "category": "health",
+   "segments": [
+    "City",
+    "Bush"
+   ],
+   "first_seen": "2026-09-25T11:54+03:00",
+   "published": "2026-09-25",
+   "verdict": "STRONG \u2014 tier-1, upstream"
+  },
+  {
+   "score": 96.1,
+   "components": {
+    "tier": 40,
+    "category": 24,
+    "lead": 2.4,
+    "relevance": 0,
+    "freshness": 19.7,
+    "corroborated": 10
+   },
+   "keywords": [],
+   "shock_terms": [],
+   "dedupe_match": null,
+   "dedupe_similarity": 0.0,
+   "id": "c6c6758f2dc6",
+   "title": "SitRep N\u00b0131/MVE-BDBV/22/09/2026",
+   "url": "https://insp.cd/sitrep-n131-mve-bdbv-22-09-2026-2",
+   "summary": "",
+   "kind": "item",
+   "source": "INSP RDC \u2014 Ebola daily situation reports (SitRep)",
+   "source_id": "cd-insp-sitrep",
+   "tier": 1,
+   "country": "GLOBAL",
+   "category": "health",
+   "segments": [
+    "City",
+    "Bush"
+   ],
+   "first_seen": "2026-09-25T11:54+03:00",
+   "published": "2026-09-25",
+   "verdict": "STRONG \u2014 tier-1, upstream"
+  },
+  {
+   "score": 91.5,
+   "components": {
+    "tier": 40,
+    "category": 9,
+    "lead": 16.8,
+    "relevance": 12,
+    "freshness": 19.7,
+    "undated": -6
+   },
+   "keywords": [
+    "hotel",
+    "resort",
+    "opening"
+   ],
+   "shock_terms": [],
+   "dedupe_match": null,
+   "dedupe_similarity": 0.0,
+   "id": "545369b5a6a6",
+   "title": "Crowne Plaza by IHG Hotels & Resorts expands its Paris presence with the opening of Crowne Plaza Paris Marne-la-Vall\u00e9e",
+   "url": "https://www.ihgplc.com/en/news-and-media/news-releases/2026/crowne-plaza-by-ihg-expands-its-paris-presence-with-the-opening-of-crowne-plaza-paris-marne-la-vallee",
+   "summary": "",
+   "kind": "item",
+   "source": "IHG news",
+   "source_id": "dev-ihg",
+   "tier": 1,
+   "country": "GLOBAL",
+   "category": "hotel-group",
+   "segments": [
+    "city",
+    "bush",
+    "beach"
+   ],
+   "first_seen": "2026-09-25T11:53+03:00",
+   "published": null,
+   "verdict": "STRONG \u2014 tier-1, upstream"
+  },
+  {
+   "score": 88.1,
+   "components": {
+    "tier": 20,
+    "category": 14,
+    "lead": 8.4,
+    "relevance": 16,
+    "freshness": 19.7,
+    "corroborated": 10
+   },
+   "keywords": [
+    "cancel",
+    "airline"
+   ],
+   "shock_terms": [],
+   "dedupe_match": null,
+   "dedupe_similarity": 0.0,
+   "id": "3191c2837238",
+   "title": "Asky Airlines Oct 2026 Service Changes",
+   "url": "https://www.aeroroutes.com/eng/260925-kpoct26",
+   "summary": "Published at 0000PDT / 0700GMT 25SEP26 Asky Airlines in October 2026 schedules selected service changes, reflected in recent schedule update. Lome \u2013 Douala \u2013 Bangui eff 01OCT26 Increase from 4 to 7 weekly, 737-800 (Douala overall service increases from 7 to 10 weekly) Lome \u2013 Malabo \u2013 Yaound\u00e9 eff 01OCT26 3rd weekly service resumes after 2.5-month reduction (Yaound\u00e9 overall increases from 6 to 7 wee",
    "kind": "item",
    "source": "AeroRoutes schedule filings",
    "source_id": "aeroroutes",
@@ -212,18 +346,88 @@
     "bush",
     "beach"
    ],
-   "first_seen": "2026-09-25T06:55+03:00",
+   "first_seen": "2026-09-25T11:54+03:00",
    "published": "2026-09-25",
    "verdict": "CONSIDER"
   },
   {
-   "score": 86.2,
+   "score": 88.1,
+   "components": {
+    "tier": 20,
+    "category": 14,
+    "lead": 8.4,
+    "relevance": 16,
+    "freshness": 19.7,
+    "corroborated": 10
+   },
+   "keywords": [
+    "route",
+    "airline",
+    "flight"
+   ],
+   "shock_terms": [],
+   "dedupe_match": null,
+   "dedupe_similarity": 0.0,
+   "id": "ab39b1c2e456",
+   "title": "Etihad NW26 Casablanca Aircraft Changes",
+   "url": "https://www.aeroroutes.com/eng/260924-eynw26cmn",
+   "summary": "Published at 2100PDT 24SEP26 / 0400GMT 25SEP26 Etihad in the first half of Northern winter 2026/27 season plans aircraft changes on Abu Dhabi \u2013 Casablanca route. From 25OCT26 to 31JAN27, service to be operated by 777-300ER, instead of initially filed A350-1000. The airline currently lists 1 daily flight from 25OCT26. EY757 AUH0205 \u2013 0620CMN 77W D EY758 CMN0835 \u2013 1940AUH 77W D",
+   "kind": "item",
+   "source": "AeroRoutes schedule filings",
+   "source_id": "aeroroutes",
+   "tier": 2,
+   "country": "GLOBAL",
+   "category": "aviation-tracker",
+   "segments": [
+    "city",
+    "bush",
+    "beach"
+   ],
+   "first_seen": "2026-09-25T11:54+03:00",
+   "published": "2026-09-25",
+   "verdict": "CONSIDER"
+  },
+  {
+   "score": 87.5,
+   "components": {
+    "tier": 40,
+    "category": 17,
+    "lead": 16.8,
+    "relevance": 0,
+    "freshness": 19.7,
+    "undated": -6
+   },
+   "keywords": [],
+   "shock_terms": [],
+   "dedupe_match": null,
+   "dedupe_similarity": 0.0,
+   "id": "4ffa27b47f79",
+   "title": "25 Sep 26 Mkutano wa Washauri wa Bima: Kamishna asisitiza sekta kuakis... Kamishna wa Bima, Dkt. Baghayo Saqware, ametoa msisitizo huo kwa sekta ya bima nchini; kuoanisha shu... Read More",
+   "url": "https://www.tira.go.tz/news/mkutano-wa-washauri-wa-bima-kamishna-asisitiza-sekta-kuakisi-dira-ya-taifa-2050",
+   "summary": "",
+   "kind": "item",
+   "source": "Tanzania Insurance Regulatory Authority (TIRA)",
+   "source_id": "tz-tira",
+   "tier": 1,
+   "country": "TZ",
+   "category": "regulator",
+   "segments": [
+    "beach",
+    "bush",
+    "city"
+   ],
+   "first_seen": "2026-09-25T11:53+03:00",
+   "published": null,
+   "verdict": "CONSIDER"
+  },
+  {
+   "score": 86.1,
    "components": {
     "tier": 20,
     "category": 24,
     "lead": 2.4,
     "relevance": 12,
-    "freshness": 19.8,
+    "freshness": 19.7,
     "undated": -6,
     "shock": 18,
     "page_change": -4
@@ -236,7 +440,7 @@
    ],
    "dedupe_match": null,
    "dedupe_similarity": 0.0,
-   "id": "2fa8f4a28df8",
+   "id": "1abc925fb7f8",
    "title": "[page changed] ProMED-mail",
    "url": "https://promedmail.org/",
    "summary": "Protecting Global Health, One Alert at a Time | ProMED Previous slide Next slide Protecting Global Health, One Alert at a Time ProMED: Your 24/7 early warning system for emerging infectious diseases worldwide. Subscribe ProMED's Weekly Pulse A snapshot of global health events from the past 7 days Latest Posts on ProMED All Date Title Fri Sep 25 2026 RABIES - VIET NAM (51): FATALITIES Fri Sep 25 20",
@@ -251,264 +455,60 @@
     "bush",
     "beach"
    ],
-   "first_seen": "2026-09-25T06:55+03:00",
+   "first_seen": "2026-09-25T11:54+03:00",
    "published": null,
    "verdict": "CONSIDER"
   },
   {
-   "score": 84.1,
+   "score": 82.5,
    "components": {
     "tier": 40,
-    "category": 15,
-    "lead": 16.8,
-    "relevance": 8,
-    "freshness": 10.3,
+    "category": 24,
+    "lead": 4.8,
+    "relevance": 0,
+    "freshness": 19.7,
     "undated": -6
    },
-   "keywords": [
-    "conference",
-    "guest"
-   ],
+   "keywords": [],
    "shock_terms": [],
    "dedupe_match": null,
-   "dedupe_similarity": 0.17,
-   "id": "5f284ea9bf21",
-   "title": "VICE PRESIDENT TO GRACE 46TH CATA ANNUAL CONFERENCE AS GUEST OF HONOUR \u2013 DCG",
-   "url": "https://www.tra.go.tz/news/vice-president-to-grace-46th-cata-annual-conference-as-guest-of-honour-dcg",
+   "dedupe_similarity": 0.2,
+   "id": "7fa8755b7fb4",
+   "title": "Africa CDC Epidemic Intelligence Weekly Report, September 2026 EBS Weekly Reports",
+   "url": "https://africacdc.org/download/africa-cdc-epidemic-intelligence-weekly-report-september-2026",
    "summary": "",
    "kind": "item",
-   "source": "Tanzania Revenue Authority",
-   "source_id": "tz-tra",
-   "tier": 1,
-   "country": "TZ",
-   "category": "fiscal",
-   "segments": [
-    "city",
-    "bush",
-    "beach"
-   ],
-   "first_seen": "2026-09-24T22:17+03:00",
-   "published": null,
-   "verdict": "CONSIDER"
-  },
-  {
-   "score": 78.7,
-   "components": {
-    "tier": 40,
-    "category": 16,
-    "lead": 2.4,
-    "relevance": 0,
-    "freshness": 10.3,
-    "corroborated": 10
-   },
-   "keywords": [],
-   "shock_terms": [],
-   "dedupe_match": null,
-   "dedupe_similarity": 0.0,
-   "id": "222b47df3509",
-   "title": "External Trade Statistics, July 2026",
-   "url": "https://www.ubos.org/2026/09/24/external-trade-statistics-july-2026",
-   "summary": "External Trade Statistics for July 2026. Composition of Exports from 1996 to July 2026 | Composition of [\u2026] The post External Trade Statistics, July 2026 appeared first on Uganda Bureau of Statistics .",
-   "kind": "item",
-   "source": "UBOS statistical releases",
-   "source_id": "ug-ubos",
-   "tier": 1,
-   "country": "UG",
-   "category": "statistics",
-   "segments": [
-    "city",
-    "bush",
-    "beach"
-   ],
-   "first_seen": "2026-09-24T22:18+03:00",
-   "published": "2026-09-24",
-   "verdict": "CONSIDER"
-  },
-  {
-   "score": 77.5,
-   "components": {
-    "tier": 40,
-    "category": 32,
-    "lead": 1.2,
-    "relevance": 0,
-    "freshness": 10.3,
-    "undated": -6
-   },
-   "keywords": [],
-   "shock_terms": [],
-   "dedupe_match": null,
-   "dedupe_similarity": 0.0,
-   "id": "338353a1efa1",
-   "title": "Barbados - Level 1: Exercise Normal Precautions",
-   "url": "https://travel.state.gov/content/tsg_aem/us/en/home/international-travel/travel-advisories/destination.brb.html",
-   "summary": "Exercise normal precautionSummary not available",
-   "kind": "item",
-   "source": "US State Dept travel advisories (EA feed)",
-   "source_id": "adv-us-ea",
+   "source": "Africa CDC downloads (sit reps & EIW)",
+   "source_id": "africacdc-downloads",
    "tier": 1,
    "country": "REG",
-   "category": "advisory",
+   "category": "health",
    "segments": [
     "city",
     "bush",
     "beach"
    ],
-   "first_seen": "2026-09-24T22:17+03:00",
+   "first_seen": "2026-09-25T11:54+03:00",
    "published": null,
    "verdict": "CONSIDER"
   },
   {
-   "score": 76.1,
-   "components": {
-    "tier": 40,
-    "category": 15,
-    "lead": 16.8,
-    "relevance": 0,
-    "freshness": 10.3,
-    "undated": -6
-   },
-   "keywords": [],
-   "shock_terms": [],
-   "dedupe_match": null,
-   "dedupe_similarity": 0.2,
-   "id": "5c70be349c7c",
-   "title": "CG MWENDA CALLS FOR STRONGER REGIONAL COOPERATION IN REVENUE ADMINISTRATION AT EARACGS 24 September, 2026 The Commissioner General of the Tanzania Revenue Authority (TRA), Mr. Yusuph Juma Mwenda, has called for strengthened\u2026 -->",
-   "url": "https://www.tra.go.tz/news/cg-mwenda-calls-for-stronger-regional-cooperation-in-revenue-administration-at-earacgs",
-   "summary": "",
-   "kind": "item",
-   "source": "Tanzania Revenue Authority",
-   "source_id": "tz-tra",
-   "tier": 1,
-   "country": "TZ",
-   "category": "fiscal",
-   "segments": [
-    "city",
-    "bush",
-    "beach"
-   ],
-   "first_seen": "2026-09-24T22:17+03:00",
-   "published": null,
-   "verdict": "CONSIDER"
-  },
-  {
-   "score": 76.1,
-   "components": {
-    "tier": 40,
-    "category": 15,
-    "lead": 16.8,
-    "relevance": 0,
-    "freshness": 10.3,
-    "undated": -6
-   },
-   "keywords": [],
-   "shock_terms": [],
-   "dedupe_match": null,
-   "dedupe_similarity": 0.2,
-   "id": "8209757248c7",
-   "title": "CG MWENDA MEETS TWIGA CEMENT MANAGEMENT TO ADDRESS CEMENT PRICE CONCERNS",
-   "url": "https://www.tra.go.tz/news/cg-mwenda-meets-twiga-cement-management-to-address-cement-price-concerns",
-   "summary": "",
-   "kind": "item",
-   "source": "Tanzania Revenue Authority",
-   "source_id": "tz-tra",
-   "tier": 1,
-   "country": "TZ",
-   "category": "fiscal",
-   "segments": [
-    "city",
-    "bush",
-    "beach"
-   ],
-   "first_seen": "2026-09-24T22:17+03:00",
-   "published": null,
-   "verdict": "CONSIDER"
-  },
-  {
-   "score": 74.7,
-   "components": {
-    "tier": 20,
-    "category": 14,
-    "lead": 8.4,
-    "relevance": 12,
-    "freshness": 10.3,
-    "corroborated": 10
-   },
-   "keywords": [
-    "route",
-    "airline"
-   ],
-   "shock_terms": [],
-   "dedupe_match": null,
-   "dedupe_similarity": 0.0,
-   "id": "b9fea4346085",
-   "title": "Cabo Verde Airlines Resumes Ilha do Sal \u2013 Recife in NW26",
-   "url": "https://www.aeroroutes.com/eng/260924-vrnw26rec",
-   "summary": "Published at 0800PDT / 1500GMT 24SEP26 Cabo Verde Airlines at the end of 2026 plans to resume Ilha do Sal \u2013 Recife route, last served regularly until 2020. Initially scheduled to resume on 31OCT26, the airline plans to serve this route once a week with Boeing 737, effective 12DEC26. VR667 SID1900 \u2013 2110REC 737 6 VR668 REC0005 \u2013 0605SID 737 7",
-   "kind": "item",
-   "source": "AeroRoutes schedule filings",
-   "source_id": "aeroroutes",
-   "tier": 2,
-   "country": "GLOBAL",
-   "category": "aviation-tracker",
-   "segments": [
-    "city",
-    "bush",
-    "beach"
-   ],
-   "first_seen": "2026-09-24T22:18+03:00",
-   "published": "2026-09-24",
-   "verdict": "CONSIDER"
-  },
-  {
-   "score": 72.8,
-   "components": {
-    "tier": 40,
-    "category": 13,
-    "lead": 6.0,
-    "relevance": 0,
-    "freshness": 19.8,
-    "undated": -6
-   },
-   "keywords": [],
-   "shock_terms": [],
-   "dedupe_match": null,
-   "dedupe_similarity": 0.2,
-   "id": "d3da02df5a7c",
-   "title": "NCASC CONDUCTS INSPECTION VISIT AT MIKUMI, KOGATENDE AND SERONERA AIRSTRIPS - 24 September, 2026",
-   "url": "https://www.tcaa.go.tz/news/ncasc-conducts-inspection-visit-at-mikumi-kogatende-and-seronera-airstrips",
-   "summary": "",
-   "kind": "item",
-   "source": "Tanzania Civil Aviation Authority",
-   "source_id": "tz-tcaa",
-   "tier": 1,
-   "country": "TZ",
-   "category": "aviation",
-   "segments": [
-    "city",
-    "bush",
-    "beach"
-   ],
-   "first_seen": "2026-09-25T06:55+03:00",
-   "published": null,
-   "verdict": "CONSIDER"
-  },
-  {
-   "score": 71.1,
+   "score": 80.5,
    "components": {
     "tier": 40,
     "category": 10,
     "lead": 16.8,
     "relevance": 0,
-    "freshness": 10.3,
+    "freshness": 19.7,
     "undated": -6
    },
    "keywords": [],
    "shock_terms": [],
    "dedupe_match": null,
    "dedupe_similarity": 0.0,
-   "id": "c007fd3b44fa",
-   "title": "\ud835\udc12\ud835\udc04\ud835\udc0d\ud835\udc00\ud835\udc13\ud835\udc04 \ud835\udc03\ud835\udc04\ud835\udc15\ud835\udc0e\ud835\udc0b\ud835\udc14\ud835\udc13\ud835\udc08\ud835\udc0e\ud835\udc0d \ud835\udc02\ud835\udc0e\ud835\udc0c\ud835\udc0c\ud835\udc08\ud835\udc13\ud835\udc13\ud835\udc04\ud835\udc04 \ud835\udc04\ud835\udc17\ud835\udc0f\ud835\udc0e\ud835\udc12\ud835\udc04\ud835\udc12 \ud835\udc12\ud835\udc04\ud835\udc16\ud835\udc04\ud835\udc11\ud835\udc00\ud835\udc06\ud835\udc04 \ud835\udc00\ud835\udc0d\ud835\udc03 \ud835\udc12\ud835\udc00\ud835\udc0d\ud835\udc08\ud835\udc13\ud835\udc00\ud835\udc13\ud835\udc08\ud835\udc0e\ud835\udc0d \ud835\udc02\ud835\udc11\ud835\udc08\ud835\udc12\ud835\udc08\ud835\udc12 \ud835\udc08\ud835\udc0d \ud835\udc0a\ud835\udc08\ud835\udc0b\ud835\udc08\ud835\udc05\ud835\udc08 \ud835\udc02\ud835\udc0e\ud835\udc14\ud835\udc0d\ud835\udc13\ud835\udc18 \u200b",
-   "url": "https://www.parliament.go.ke/index.php/node/26438",
+   "id": "4fab0fa769fd",
+   "title": "\ud835\udc12\ud835\udc04\ud835\udc0d\ud835\udc00\ud835\udc13\ud835\udc04 \ud835\udc16\ud835\udc11\ud835\udc00\ud835\udc0f\ud835\udc12 \ud835\udc14\ud835\udc0f \ud835\udc0a\ud835\udc08\ud835\udc0b\ud835\udc08\ud835\udc05\ud835\udc08 \ud835\udc12\ud835\udc08\ud835\udc13\ud835\udc13\ud835\udc08\ud835\udc0d\ud835\udc06 \ud835\udc00\ud835\udc05\ud835\udc13\ud835\udc04\ud835\udc11 \ud835\udc16\ud835\udc04\ud835\udc04\ud835\udc0a \ud835\udc0e\ud835\udc05 \ud835\udc12\ud835\udc02\ud835\udc11\ud835\udc14\ud835\udc13\ud835\udc08\ud835\udc0d\ud835\udc18 \ud835\udc00\ud835\udc0d\ud835\udc03 \ud835\udc0f\ud835\udc14\ud835\udc01\ud835\udc0b\ud835\udc08\ud835\udc02 \ud835\udc04\ud835\udc0d\ud835\udc06\ud835\udc00\ud835\udc06\ud835\udc04\ud835\udc0c\ud835\udc04\ud835\udc0d\ud835\udc13",
+   "url": "https://www.parliament.go.ke/node/26439",
    "summary": "",
    "kind": "item",
    "source": "Parliament of Kenya \u2014 bills & papers",
@@ -521,348 +521,18 @@
     "bush",
     "beach"
    ],
-   "first_seen": "2026-09-24T22:17+03:00",
+   "first_seen": "2026-09-25T11:53+03:00",
    "published": null,
    "verdict": "CONSIDER"
   },
   {
-   "score": 71.1,
-   "components": {
-    "tier": 40,
-    "category": 10,
-    "lead": 16.8,
-    "relevance": 0,
-    "freshness": 10.3,
-    "undated": -6
-   },
-   "keywords": [],
-   "shock_terms": [],
-   "dedupe_match": null,
-   "dedupe_similarity": 0.0,
-   "id": "8b654ad14e0c",
-   "title": "\ud835\udc03\ud835\udc04\ud835\udc0f\ud835\udc14\ud835\udc13\ud835\udc18 \ud835\udc12\ud835\udc0f\ud835\udc04\ud835\udc00\ud835\udc0a\ud835\udc04\ud835\udc11 \ud835\udc0b\ud835\udc04\ud835\udc00\ud835\udc03\ud835\udc12 \ud835\udc0c\ud835\udc0f\ud835\udc2c \ud835\udc08\ud835\udc0d \ud835\udc02\ud835\udc07\ud835\udc00\ud835\udc0c\ud835\udc0f\ud835\udc08\ud835\udc0e\ud835\udc0d\ud835\udc08\ud835\udc0d\ud835\udc06 \ud835\udc05\ud835\udc0e\ud835\udc11 \ud835\udc06\ud835\udc04\ud835\udc0d\ud835\udc03\ud835\udc04\ud835\udc11-\ud835\udc11\ud835\udc04\ud835\udc12\ud835\udc0f\ud835\udc0e\ud835\udc0d\ud835\udc12\ud835\udc08\ud835\udc15\ud835\udc04 \ud835\udc0b\ud835\udc00\ud835\udc16\ud835\udc0c\ud835\udc00\ud835\udc0a\ud835\udc08\ud835\udc0d\ud835\udc06, \ud835\udc08\ud835\udc0d\ud835\udc02\ud835\udc0b\ud835\udc14\ud835\udc12\ud835\udc08\ud835\udc15\ud835\udc04 \ud835\udc0f\ud835\udc14\ud835\udc01\ud835\udc0b\ud835\udc08\ud835\udc02 \ud835\udc0f\ud835\udc00\ud835\udc11\ud835\udc13\ud835\udc08\ud835\udc02\ud835\udc08\ud835\udc0f\ud835\udc00\ud835\udc13\ud835\udc08\ud835\udc0e\ud835\udc0d",
-   "url": "https://www.parliament.go.ke/index.php/node/26437",
-   "summary": "",
-   "kind": "item",
-   "source": "Parliament of Kenya \u2014 bills & papers",
-   "source_id": "ke-parliament",
-   "tier": 1,
-   "country": "KE",
-   "category": "legislature",
-   "segments": [
-    "city",
-    "bush",
-    "beach"
-   ],
-   "first_seen": "2026-09-24T22:17+03:00",
-   "published": null,
-   "verdict": "CONSIDER"
-  },
-  {
-   "score": 71.1,
-   "components": {
-    "tier": 40,
-    "category": 10,
-    "lead": 16.8,
-    "relevance": 0,
-    "freshness": 10.3,
-    "undated": -6
-   },
-   "keywords": [],
-   "shock_terms": [],
-   "dedupe_match": null,
-   "dedupe_similarity": 0.0,
-   "id": "8631588a6bbb",
-   "title": "\ud835\udc0c\ud835\udc0f\ud835\udc12 \ud835\udc02\ud835\udc00\ud835\udc0b\ud835\udc0b \ud835\udc05\ud835\udc0e\ud835\udc11 \ud835\udc00\ud835\udc03\ud835\udc04\ud835\udc10\ud835\udc14\ud835\udc00\ud835\udc13\ud835\udc04 \ud835\udc05\ud835\udc14\ud835\udc0d\ud835\udc03\ud835\udc08\ud835\udc0d\ud835\udc06 \ud835\udc13\ud835\udc0e \ud835\udc08\ud835\udc0c\ud835\udc0f\ud835\udc0b\ud835\udc04\ud835\udc0c\ud835\udc04\ud835\udc0d\ud835\udc13 \ud835\udc16\ud835\udc0e\ud835\udc0c\ud835\udc04\ud835\udc0d\u2019\ud835\udc12 \ud835\udc04\ud835\udc02\ud835\udc0e\ud835\udc0d\ud835\udc0e\ud835\udc0c\ud835\udc08\ud835\udc02 \ud835\udc04\ud835\udc0c\ud835\udc0f\ud835\udc0e\ud835\udc16\ud835\udc04\ud835\udc11\ud835\udc0c\ud835\udc04\ud835\udc0d\ud835\udc13 \ud835\udc0f\ud835\udc0e\ud835\udc0b\ud835\udc08\ud835\udc02\ud835\udc18",
-   "url": "https://www.parliament.go.ke/index.php/node/26433",
-   "summary": "",
-   "kind": "item",
-   "source": "Parliament of Kenya \u2014 bills & papers",
-   "source_id": "ke-parliament",
-   "tier": 1,
-   "country": "KE",
-   "category": "legislature",
-   "segments": [
-    "city",
-    "bush",
-    "beach"
-   ],
-   "first_seen": "2026-09-24T22:17+03:00",
-   "published": null,
-   "verdict": "CONSIDER"
-  },
-  {
-   "score": 71.1,
-   "components": {
-    "tier": 40,
-    "category": 10,
-    "lead": 16.8,
-    "relevance": 0,
-    "freshness": 10.3,
-    "undated": -6
-   },
-   "keywords": [],
-   "shock_terms": [],
-   "dedupe_match": null,
-   "dedupe_similarity": 0.0,
-   "id": "4fb795ec62a5",
-   "title": "\ud835\udc12\ud835\udc04\ud835\udc0d\ud835\udc00\ud835\udc13\ud835\udc04 \ud835\udc08\ud835\udc0d\ud835\udc15\ud835\udc08\ud835\udc13\ud835\udc04\ud835\udc12 \ud835\udc0f\ud835\udc14\ud835\udc01\ud835\udc0b\ud835\udc08\ud835\udc02 \ud835\udc15\ud835\udc08\ud835\udc04\ud835\udc16\ud835\udc12 \ud835\udc0e\ud835\udc0d \ud835\udc13\ud835\udc07\ud835\udc04 \ud835\udc0f\ud835\udc14\ud835\udc01\ud835\udc0b\ud835\udc08\ud835\udc02 \ud835\udc0f\ud835\udc00\ud835\udc11\ud835\udc13\ud835\udc08\ud835\udc02\ud835\udc08\ud835\udc0f\ud835\udc00\ud835\udc13\ud835\udc08\ud835\udc0e\ud835\udc0d \ud835\udc01\ud835\udc08\ud835\udc0b\ud835\udc0b, \ud835\udfd0\ud835\udfce\ud835\udfd0\ud835\udfd3",
-   "url": "https://www.parliament.go.ke/index.php/node/26432",
-   "summary": "",
-   "kind": "item",
-   "source": "Parliament of Kenya \u2014 bills & papers",
-   "source_id": "ke-parliament",
-   "tier": 1,
-   "country": "KE",
-   "category": "legislature",
-   "segments": [
-    "city",
-    "bush",
-    "beach"
-   ],
-   "first_seen": "2026-09-24T22:17+03:00",
-   "published": null,
-   "verdict": "CONSIDER"
-  },
-  {
-   "score": 71.1,
-   "components": {
-    "tier": 40,
-    "category": 10,
-    "lead": 16.8,
-    "relevance": 0,
-    "freshness": 10.3,
-    "undated": -6
-   },
-   "keywords": [],
-   "shock_terms": [],
-   "dedupe_match": null,
-   "dedupe_similarity": 0.0,
-   "id": "83bc048cc658",
-   "title": "\ud835\udc12\ud835\udc04\ud835\udc0d\ud835\udc00\ud835\udc13\ud835\udc04 \ud835\udc08\ud835\udc0d\ud835\udc15\ud835\udc08\ud835\udc13\ud835\udc04\ud835\udc12 \ud835\udc0f\ud835\udc14\ud835\udc01\ud835\udc0b\ud835\udc08\ud835\udc02 \ud835\udc15\ud835\udc08\ud835\udc04\ud835\udc16\ud835\udc12 \ud835\udc0e\ud835\udc0d \ud835\udc12\ud835\udc13\ud835\udc00\ud835\udc13\ud835\udc14\ud835\udc13\ud835\udc0e\ud835\udc11\ud835\udc18 \ud835\udc08\ud835\udc0d\ud835\udc12\ud835\udc13\ud835\udc11\ud835\udc14\ud835\udc0c\ud835\udc04\ud835\udc0d\ud835\udc13\ud835\udc12 (\ud835\udc00\ud835\udc0c\ud835\udc04\ud835\udc0d\ud835\udc03\ud835\udc0c\ud835\udc04\ud835\udc0d\ud835\udc13) \ud835\udc01\ud835\udc08\ud835\udc0b\ud835\udc0b, \ud835\udfd0\ud835\udfce\ud835\udfd0\ud835\udfd4",
-   "url": "https://www.parliament.go.ke/index.php/node/26431",
-   "summary": "",
-   "kind": "item",
-   "source": "Parliament of Kenya \u2014 bills & papers",
-   "source_id": "ke-parliament",
-   "tier": 1,
-   "country": "KE",
-   "category": "legislature",
-   "segments": [
-    "city",
-    "bush",
-    "beach"
-   ],
-   "first_seen": "2026-09-24T22:17+03:00",
-   "published": null,
-   "verdict": "CONSIDER"
-  },
-  {
-   "score": 71.1,
-   "components": {
-    "tier": 40,
-    "category": 10,
-    "lead": 16.8,
-    "relevance": 0,
-    "freshness": 10.3,
-    "undated": -6
-   },
-   "keywords": [],
-   "shock_terms": [],
-   "dedupe_match": null,
-   "dedupe_similarity": 0.0,
-   "id": "375ba1731076",
-   "title": "\ud835\udc12\ud835\udc04\ud835\udc0d\ud835\udc00\ud835\udc13\ud835\udc04 \ud835\udc08\ud835\udc0d\ud835\udc15\ud835\udc08\ud835\udc13\ud835\udc04\ud835\udc12 \ud835\udc0f\ud835\udc14\ud835\udc01\ud835\udc0b\ud835\udc08\ud835\udc02 \ud835\udc15\ud835\udc08\ud835\udc04\ud835\udc16\ud835\udc12 \ud835\udc0e\ud835\udc0d \ud835\udc0f\ud835\udc12\ud835\udc02 \ud835\udc0d\ud835\udc0e\ud835\udc0c\ud835\udc08\ud835\udc0d\ud835\udc04\ud835\udc04",
-   "url": "https://www.parliament.go.ke/index.php/node/26430",
-   "summary": "",
-   "kind": "item",
-   "source": "Parliament of Kenya \u2014 bills & papers",
-   "source_id": "ke-parliament",
-   "tier": 1,
-   "country": "KE",
-   "category": "legislature",
-   "segments": [
-    "city",
-    "bush",
-    "beach"
-   ],
-   "first_seen": "2026-09-24T22:17+03:00",
-   "published": null,
-   "verdict": "CONSIDER"
-  },
-  {
-   "score": 71.1,
-   "components": {
-    "tier": 40,
-    "category": 10,
-    "lead": 16.8,
-    "relevance": 0,
-    "freshness": 10.3,
-    "undated": -6
-   },
-   "keywords": [],
-   "shock_terms": [],
-   "dedupe_match": null,
-   "dedupe_similarity": 0.0,
-   "id": "ecec53a48ebf",
-   "title": "\ud835\udc12\ud835\udc04\ud835\udc0d\ud835\udc00\ud835\udc13\ud835\udc04 \ud835\udc03\ud835\udc04\ud835\udc15\ud835\udc0e\ud835\udc0b\ud835\udc14\ud835\udc13\ud835\udc08\ud835\udc0e\ud835\udc0d \ud835\udc02\ud835\udc0e\ud835\udc0c\ud835\udc0c\ud835\udc08\ud835\udc13\ud835\udc13\ud835\udc04\ud835\udc04 \ud835\udc04\ud835\udc17\ud835\udc0f\ud835\udc0e\ud835\udc12\ud835\udc04\ud835\udc12 \ud835\udc12\ud835\udc04\ud835\udc16\ud835\udc04\ud835\udc11\ud835\udc00\ud835\udc06\ud835\udc04 \ud835\udc00\ud835\udc0d\ud835\udc03 \ud835\udc12\ud835\udc00\ud835\udc0d\ud835\udc08\ud835\udc13\ud835\udc00\ud835\udc13\ud835\udc08\ud835\udc0e\ud835\udc0d \ud835\udc02\ud835\udc11\ud835\udc08\ud835\udc12\ud835\udc08\ud835\udc12 \ud835\udc08\ud835\udc0d \ud835\udc0a\ud835\udc08\ud835\udc0b\ud835\udc08\ud835\udc05\ud835\udc08 \ud835\udc02\ud835\udc0e\ud835\udc14\ud835\udc0d\ud835\udc13\ud835\udc18 \u200b",
-   "url": "https://www.parliament.go.ke/node/26438",
-   "summary": "",
-   "kind": "item",
-   "source": "Parliament of Kenya \u2014 bills & papers",
-   "source_id": "ke-parliament",
-   "tier": 1,
-   "country": "KE",
-   "category": "legislature",
-   "segments": [
-    "city",
-    "bush",
-    "beach"
-   ],
-   "first_seen": "2026-09-24T22:17+03:00",
-   "published": null,
-   "verdict": "CONSIDER"
-  },
-  {
-   "score": 71.1,
-   "components": {
-    "tier": 40,
-    "category": 10,
-    "lead": 16.8,
-    "relevance": 0,
-    "freshness": 10.3,
-    "undated": -6
-   },
-   "keywords": [],
-   "shock_terms": [],
-   "dedupe_match": null,
-   "dedupe_similarity": 0.0,
-   "id": "9d9322925ade",
-   "title": "\ud835\udc03\ud835\udc04\ud835\udc0f\ud835\udc14\ud835\udc13\ud835\udc18 \ud835\udc12\ud835\udc0f\ud835\udc04\ud835\udc00\ud835\udc0a\ud835\udc04\ud835\udc11 \ud835\udc0b\ud835\udc04\ud835\udc00\ud835\udc03\ud835\udc12 \ud835\udc0c\ud835\udc0f\ud835\udc2c \ud835\udc08\ud835\udc0d \ud835\udc02\ud835\udc07\ud835\udc00\ud835\udc0c\ud835\udc0f\ud835\udc08\ud835\udc0e\ud835\udc0d\ud835\udc08\ud835\udc0d\ud835\udc06 \ud835\udc05\ud835\udc0e\ud835\udc11 \ud835\udc06\ud835\udc04\ud835\udc0d\ud835\udc03\ud835\udc04\ud835\udc11-\ud835\udc11\ud835\udc04\ud835\udc12\ud835\udc0f\ud835\udc0e\ud835\udc0d\ud835\udc12\ud835\udc08\ud835\udc15\ud835\udc04 \ud835\udc0b\ud835\udc00\ud835\udc16\ud835\udc0c\ud835\udc00\ud835\udc0a\ud835\udc08\ud835\udc0d\ud835\udc06, \ud835\udc08\ud835\udc0d\ud835\udc02\ud835\udc0b\ud835\udc14\ud835\udc12\ud835\udc08\ud835\udc15\ud835\udc04 \ud835\udc0f\ud835\udc14\ud835\udc01\ud835\udc0b\ud835\udc08\ud835\udc02 \ud835\udc0f\ud835\udc00\ud835\udc11\ud835\udc13\ud835\udc08\ud835\udc02\ud835\udc08\ud835\udc0f\ud835\udc00\ud835\udc13\ud835\udc08\ud835\udc0e\ud835\udc0d",
-   "url": "https://www.parliament.go.ke/node/26437",
-   "summary": "",
-   "kind": "item",
-   "source": "Parliament of Kenya \u2014 bills & papers",
-   "source_id": "ke-parliament",
-   "tier": 1,
-   "country": "KE",
-   "category": "legislature",
-   "segments": [
-    "city",
-    "bush",
-    "beach"
-   ],
-   "first_seen": "2026-09-24T22:17+03:00",
-   "published": null,
-   "verdict": "CONSIDER"
-  },
-  {
-   "score": 71.1,
-   "components": {
-    "tier": 40,
-    "category": 10,
-    "lead": 16.8,
-    "relevance": 0,
-    "freshness": 10.3,
-    "undated": -6
-   },
-   "keywords": [],
-   "shock_terms": [],
-   "dedupe_match": null,
-   "dedupe_similarity": 0.2,
-   "id": "63e819b7fe5c",
-   "title": "MPs Seek Impact Assessment of Karamoja Interventions Thursday, 24 September 2026",
-   "url": "https://www.parliament.go.ug/news/4632/mps-seek-impact-assessment-karamoja-interventions",
-   "summary": "",
-   "kind": "item",
-   "source": "Parliament of Uganda",
-   "source_id": "ug-parliament",
-   "tier": 1,
-   "country": "UG",
-   "category": "legislature",
-   "segments": [
-    "city",
-    "bush",
-    "beach"
-   ],
-   "first_seen": "2026-09-24T22:17+03:00",
-   "published": null,
-   "verdict": "CONSIDER"
-  },
-  {
-   "score": 71.1,
-   "components": {
-    "tier": 40,
-    "category": 10,
-    "lead": 16.8,
-    "relevance": 0,
-    "freshness": 10.3,
-    "undated": -6
-   },
-   "keywords": [],
-   "shock_terms": [],
-   "dedupe_match": null,
-   "dedupe_similarity": 0.2,
-   "id": "ad33f595fa2f",
-   "title": "Speaker Oboth Brokers BOU-SACCO Licensing Stand-Off Thursday, 24 September 2026",
-   "url": "https://www.parliament.go.ug/news/4631/speaker-oboth-brokers-bou-sacco-licensing-stand",
-   "summary": "",
-   "kind": "item",
-   "source": "Parliament of Uganda",
-   "source_id": "ug-parliament",
-   "tier": 1,
-   "country": "UG",
-   "category": "legislature",
-   "segments": [
-    "city",
-    "bush",
-    "beach"
-   ],
-   "first_seen": "2026-09-24T22:17+03:00",
-   "published": null,
-   "verdict": "CONSIDER"
-  },
-  {
-   "score": 71.1,
-   "components": {
-    "tier": 40,
-    "category": 10,
-    "lead": 16.8,
-    "relevance": 0,
-    "freshness": 10.3,
-    "undated": -6
-   },
-   "keywords": [],
-   "shock_terms": [],
-   "dedupe_match": null,
-   "dedupe_similarity": 0.2,
-   "id": "fa64719a9296",
-   "title": "Speaker Oboth Commends China's Contribution to Uganda's Development Thursday, 24 September 2026",
-   "url": "https://www.parliament.go.ug/news/4630/speaker-oboth-commends-chinas-contribution-ugandas-development",
-   "summary": "",
-   "kind": "item",
-   "source": "Parliament of Uganda",
-   "source_id": "ug-parliament",
-   "tier": 1,
-   "country": "UG",
-   "category": "legislature",
-   "segments": [
-    "city",
-    "bush",
-    "beach"
-   ],
-   "first_seen": "2026-09-24T22:17+03:00",
-   "published": null,
-   "verdict": "CONSIDER"
-  },
-  {
-   "score": 70.7,
+   "score": 80.1,
    "components": {
     "tier": 20,
     "category": 14,
     "lead": 8.4,
     "relevance": 8,
-    "freshness": 10.3,
+    "freshness": 19.7,
     "corroborated": 10
    },
    "keywords": [
@@ -871,10 +541,10 @@
    "shock_terms": [],
    "dedupe_match": null,
    "dedupe_similarity": 0.0,
-   "id": "7b84517800c9",
-   "title": "Aeromexico NS27 Americas Network Addition",
-   "url": "https://www.aeroroutes.com/eng/260924-amns27am",
-   "summary": "Published at 0900PDT / 1600GMT 24SEP26 Aeromexico during Northern summer 2027 season plans to add 2 new international routes in the Americas, on board Boeing 737 MAX 8. Mexico City \u2013 Montego Bay eff 18MAR27 3 weekly 737 MAX 8 AM758 MEX0920 \u2013 1400MBJ 7M8 47 AM758 MEX1020 \u2013 1500MBJ 7M8 6 AM759 MBJ1515 \u2013 1820MEX 7M8 47 AM759 MBJ1615 \u2013 1920MEX 7M8 6 Mexico City \u2013 Nassau eff 19MAR27 3 weekly 737 MAX 8 ",
+   "id": "aea77f9dfcf2",
+   "title": "Air Congo Adds Beni \u2013 Isiro Sector From Sep 2026",
+   "url": "https://www.aeroroutes.com/eng/260925-8zsep26bncirp",
+   "summary": "Published at 0100PDT / 0800GMT 25SEP26 Air Congo this week launched Beni \u2013 Isiro sector, on board ATR72 aircraft. This route is scheduled once weekly from 21SEP26, full routing is Kinshasa \u2013 Beni \u2013 Isiro . ET074 FIH0830 \u2013 1340BNC1410 \u2013 1555IRP AT7 1 ET075 IRP1630 \u2013 1815BNC1845 \u2013 2155FIH AT7 1",
    "kind": "item",
    "source": "AeroRoutes schedule filings",
    "source_id": "aeroroutes",
@@ -886,502 +556,839 @@
     "bush",
     "beach"
    ],
-   "first_seen": "2026-09-24T22:18+03:00",
+   "first_seen": "2026-09-25T11:54+03:00",
+   "published": "2026-09-25",
+   "verdict": "CONSIDER"
+  },
+  {
+   "score": 80.1,
+   "components": {
+    "tier": 20,
+    "category": 14,
+    "lead": 8.4,
+    "relevance": 8,
+    "freshness": 19.7,
+    "corroborated": 10
+   },
+   "keywords": [
+    "airline",
+    "flight"
+   ],
+   "shock_terms": [],
+   "dedupe_match": null,
+   "dedupe_similarity": 0.0,
+   "id": "bce5df1018dd",
+   "title": "Air India Discontinues Copenhagen Service in late-Oct 2026",
+   "url": "https://www.aeroroutes.com/eng/260924-ainw26cph",
+   "summary": "Published at 2300PDT 24SEP26 / 0600GMT 25SEP26 Air India in this week\u2019s schedule update removed Delhi \u2013 Copenhagen service, with last flight scheduled on 23OCT26. The airline previously planned 4 weekly flights during Northern winter 2026/27 season, reducing to 3 weekly for the month of March 2027. Previously planned schedule for winter season as follows. AI157 DEL1310 \u2013 1855CPH 788 x246 AI158 CPH",
+   "kind": "item",
+   "source": "AeroRoutes schedule filings",
+   "source_id": "aeroroutes",
+   "tier": 2,
+   "country": "GLOBAL",
+   "category": "aviation-tracker",
+   "segments": [
+    "city",
+    "bush",
+    "beach"
+   ],
+   "first_seen": "2026-09-25T11:54+03:00",
+   "published": "2026-09-25",
+   "verdict": "CONSIDER"
+  },
+  {
+   "score": 80.1,
+   "components": {
+    "tier": 20,
+    "category": 14,
+    "lead": 8.4,
+    "relevance": 8,
+    "freshness": 19.7,
+    "corroborated": 10
+   },
+   "keywords": [
+    "route"
+   ],
+   "shock_terms": [],
+   "dedupe_match": null,
+   "dedupe_similarity": 0.0,
+   "id": "2499562d3fc9",
+   "title": "AirAsia Increases Taipei \u2013 Osaka Service in NW26",
+   "url": "https://www.aeroroutes.com/eng/260924-aknw26tpekix",
+   "summary": "Published at 2200PDT 24SEP26 / 0500GMT 25SEP26 AirAsia during Northern winter 2026/27 season plans to increase service on Kuala Lumpur \u2013 Taipei Taoyuan \u2013 Osaka Kansai route, as the carrier (AK) assumes service currently operated by AirAsia X (D7). Previously reported, AirAsia A321neo will begin serving this route from 25OCT27. Overall service will be increased from 7 to 9 weekly for the period of ",
+   "kind": "item",
+   "source": "AeroRoutes schedule filings",
+   "source_id": "aeroroutes",
+   "tier": 2,
+   "country": "GLOBAL",
+   "category": "aviation-tracker",
+   "segments": [
+    "city",
+    "bush",
+    "beach"
+   ],
+   "first_seen": "2026-09-25T11:54+03:00",
+   "published": "2026-09-25",
+   "verdict": "CONSIDER"
+  },
+  {
+   "score": 79.8,
+   "components": {
+    "tier": 20,
+    "category": 4,
+    "lead": 0.0,
+    "relevance": 8,
+    "freshness": 19.8,
+    "corroborated": 10,
+    "shock": 18
+   },
+   "keywords": [
+    "strike"
+   ],
+   "shock_terms": [
+    "strike"
+   ],
+   "dedupe_match": null,
+   "dedupe_similarity": 0.2,
+   "id": "5ab157821c0c",
+   "title": "Tegis targets CAF Confederation Cup golden boot",
+   "url": "https://dailynews.co.tz/tegis-targets-caf-confederation-cup-golden-boot",
+   "summary": "SINGIDA: SINGIDA Black Stars prolific striker Mathew Tegis has set his sights on winning the CAF Confederation Cup Golden Boot after helping the Tanzanian side progress beyond the preliminary round of the competition. Singida Black Stars will face Kenya\u2019s Tusker FC in the next round of the CAF Confederation Cup after the Kenyan side eliminated \u2026 The post Tegis targets CAF Confederation Cup golden ",
+   "kind": "item",
+   "source": "Daily News (Tanzania)",
+   "source_id": "np-dailynews-tz",
+   "tier": 2,
+   "country": "TZ",
+   "category": "press",
+   "segments": [
+    "city",
+    "bush",
+    "beach"
+   ],
+   "first_seen": "2026-09-25T11:55+03:00",
+   "published": "2026-09-25",
+   "verdict": "CONSIDER"
+  },
+  {
+   "score": 79.5,
+   "components": {
+    "tier": 40,
+    "category": 9,
+    "lead": 16.8,
+    "relevance": 0,
+    "freshness": 19.7,
+    "undated": -6
+   },
+   "keywords": [],
+   "shock_terms": [],
+   "dedupe_match": null,
+   "dedupe_similarity": 0.0,
+   "id": "7ffd69d78a71",
+   "title": "People Who Inspire: The Human Heart of Hospitality",
+   "url": "https://media.minorhotels.com/en-GLO/271818-people-who-inspire-the-human-heart-of-hospitality",
+   "summary": "",
+   "kind": "item",
+   "source": "Minor Hotels newsroom",
+   "source_id": "dev-minor",
+   "tier": 1,
+   "country": "GLOBAL",
+   "category": "hotel-group",
+   "segments": [
+    "beach"
+   ],
+   "first_seen": "2026-09-25T11:53+03:00",
+   "published": null,
+   "verdict": "CONSIDER"
+  },
+  {
+   "score": 78.3,
+   "components": {
+    "tier": 20,
+    "category": 5,
+    "lead": 3.6,
+    "relevance": 20,
+    "freshness": 19.7,
+    "corroborated": 10
+   },
+   "keywords": [
+    "eta",
+    "hotel",
+    "booking",
+    "guest"
+   ],
+   "shock_terms": [],
+   "dedupe_match": null,
+   "dedupe_similarity": 0.17,
+   "id": "a71d2cc56b1b",
+   "title": "The agent remembers what she liked. Not where she stayed.",
+   "url": "https://www.hospitalitynet.org/opinion/4134566/the-agent-remembers-what-she-liked-not-where-she-stayed",
+   "summary": "AI assistants like ChatGPT now retain guest preferences across trips, reducing hotels to a set of conditions rather than named properties, reshaping how future bookings are influenced.",
+   "kind": "item",
+   "source": "Hospitality Net \u2014 Africa announcements",
+   "source_id": "dev-hospitalitynet-africa",
+   "tier": 2,
+   "country": "REG",
+   "category": "trade",
+   "segments": [
+    "city",
+    "bush",
+    "beach"
+   ],
+   "first_seen": "2026-09-25T11:54+03:00",
+   "published": "2026-09-25",
+   "verdict": "CONSIDER"
+  },
+  {
+   "score": 78.3,
+   "components": {
+    "tier": 20,
+    "category": 9,
+    "lead": 3.6,
+    "relevance": 16,
+    "freshness": 19.7,
+    "corroborated": 10
+   },
+   "keywords": [
+    "tax",
+    "tourism",
+    "operator"
+   ],
+   "shock_terms": [],
+   "dedupe_match": null,
+   "dedupe_similarity": 0.2,
+   "id": "859bfaa0dd95",
+   "title": "ABTA writes to Maldives President expressing serious concerns over proposed tourism tax",
+   "url": "https://www.abta.com/news/abta-writes-maldives-president-expressing-serious-concerns-over-proposed-tourism-tax",
+   "summary": "ABTA writes to Maldives President expressing serious concerns over proposed tourism tax Full Page image dhewitt@abta.co.uk Thu, 09/24/2026 - 15:32 ABTA has written to the Maldives President asking for official confirmation that any enforcement of an amendment to the Goods and Services tax will be postponed for at least six months, to allow for a full consultation with the international travel indu",
+   "kind": "item",
+   "source": "ABTA (UK) news",
+   "source_id": "sm-abta",
+   "tier": 2,
+   "country": "GLOBAL",
+   "category": "source-market",
+   "segments": [
+    "city",
+    "bush",
+    "beach"
+   ],
+   "first_seen": "2026-09-25T11:54+03:00",
+   "published": "2026-09-24",
+   "verdict": "CONSIDER"
+  },
+  {
+   "score": 77.5,
+   "components": {
+    "tier": 40,
+    "category": 7,
+    "lead": 16.8,
+    "relevance": 0,
+    "freshness": 19.7,
+    "undated": -6
+   },
+   "keywords": [],
+   "shock_terms": [],
+   "dedupe_match": null,
+   "dedupe_similarity": 0.0,
+   "id": "dcf98263e692",
+   "title": "Request for the procurement of New Vans to su...",
+   "url": "https://egpuganda.go.ug/index/401873308_egp",
+   "summary": "",
+   "kind": "item",
+   "source": "Uganda EGP portal",
+   "source_id": "ug-tenders",
+   "tier": 1,
+   "country": "UG",
+   "category": "tender",
+   "segments": [
+    "city",
+    "bush",
+    "beach"
+   ],
+   "first_seen": "2026-09-25T11:53+03:00",
+   "published": null,
+   "verdict": "CONSIDER"
+  },
+  {
+   "score": 77.5,
+   "components": {
+    "tier": 40,
+    "category": 7,
+    "lead": 16.8,
+    "relevance": 0,
+    "freshness": 19.7,
+    "undated": -6
+   },
+   "keywords": [],
+   "shock_terms": [],
+   "dedupe_match": null,
+   "dedupe_similarity": 0.0,
+   "id": "8503c1d828fa",
+   "title": "Procurement of Customized vehicles for Animal...",
+   "url": "https://egpuganda.go.ug/index/402685734_egp",
+   "summary": "",
+   "kind": "item",
+   "source": "Uganda EGP portal",
+   "source_id": "ug-tenders",
+   "tier": 1,
+   "country": "UG",
+   "category": "tender",
+   "segments": [
+    "city",
+    "bush",
+    "beach"
+   ],
+   "first_seen": "2026-09-25T11:53+03:00",
+   "published": null,
+   "verdict": "CONSIDER"
+  },
+  {
+   "score": 77.5,
+   "components": {
+    "tier": 40,
+    "category": 7,
+    "lead": 16.8,
+    "relevance": 0,
+    "freshness": 19.7,
+    "undated": -6
+   },
+   "keywords": [],
+   "shock_terms": [],
+   "dedupe_match": null,
+   "dedupe_similarity": 0.0,
+   "id": "18bbc8bc62c5",
+   "title": "Request for procurement of Double cabin picku...",
+   "url": "https://egpuganda.go.ug/index/402203546_egp",
+   "summary": "",
+   "kind": "item",
+   "source": "Uganda EGP portal",
+   "source_id": "ug-tenders",
+   "tier": 1,
+   "country": "UG",
+   "category": "tender",
+   "segments": [
+    "city",
+    "bush",
+    "beach"
+   ],
+   "first_seen": "2026-09-25T11:53+03:00",
+   "published": null,
+   "verdict": "CONSIDER"
+  },
+  {
+   "score": 77.5,
+   "components": {
+    "tier": 40,
+    "category": 7,
+    "lead": 16.8,
+    "relevance": 0,
+    "freshness": 19.7,
+    "undated": -6
+   },
+   "keywords": [],
+   "shock_terms": [],
+   "dedupe_match": null,
+   "dedupe_similarity": 0.0,
+   "id": "55affa2224a9",
+   "title": "Request for Procurement of New Single Cabin P...",
+   "url": "https://egpuganda.go.ug/index/402205572_egp",
+   "summary": "",
+   "kind": "item",
+   "source": "Uganda EGP portal",
+   "source_id": "ug-tenders",
+   "tier": 1,
+   "country": "UG",
+   "category": "tender",
+   "segments": [
+    "city",
+    "bush",
+    "beach"
+   ],
+   "first_seen": "2026-09-25T11:53+03:00",
+   "published": null,
+   "verdict": "CONSIDER"
+  },
+  {
+   "score": 71.9,
+   "components": {
+    "tier": 20,
+    "category": 5,
+    "lead": 1.2,
+    "relevance": 16,
+    "freshness": 19.7,
+    "corroborated": 10
+   },
+   "keywords": [
+    "tax",
+    "visa"
+   ],
+   "shock_terms": [],
+   "dedupe_match": null,
+   "dedupe_similarity": 0.0,
+   "id": "2fa25453df78",
+   "title": "Tanzania Treasury Registrar Targets TZS 2 Trillion in Non-Tax Revenue for 2026/27, Outlines IPOs Plan",
+   "url": "https://www.tanzaniainvest.com/economy/non-tax-revenue-target-2026-27-ipo-plan",
+   "summary": "Tanzania\u2019s Office of the Treasury Registrar has set an internal TZS 2 trillion non-tax revenue target for 2026/27, above the TZS 1.79 trillion assigned by the government. Its reform plan also envisages equity funding for qualifying public institutions and potential Initial Public Offerings (IPOs) in the longer term.",
+   "kind": "item",
+   "source": "TanzaniaInvest \u2014 tourism",
+   "source_id": "tp-tanzaniainvest",
+   "tier": 2,
+   "country": "TZ",
+   "category": "trade",
+   "segments": [
+    "city",
+    "bush",
+    "beach"
+   ],
+   "first_seen": "2026-09-25T11:54+03:00",
+   "published": "2026-09-24",
+   "verdict": "CONSIDER"
+  },
+  {
+   "score": 70.7,
+   "components": {
+    "tier": 40,
+    "category": 5,
+    "lead": 12.0,
+    "relevance": 0,
+    "freshness": 19.7,
+    "undated": -6
+   },
+   "keywords": [],
+   "shock_terms": [],
+   "dedupe_match": null,
+   "dedupe_similarity": 0.0,
+   "id": "db3cabd123b3",
+   "title": "\ud835\udc12\ud835\udc04\ud835\udc0d\ud835\udc00\ud835\udc13\ud835\udc04 \ud835\udc16\ud835\udc11\ud835\udc00\ud835\udc0f\ud835\udc12 \ud835\udc14\ud835\udc0f \ud835\udc0a\ud835\udc08\ud835\udc0b\ud835\udc08\ud835\udc05\ud835\udc08 \ud835\udc12\ud835\udc08\ud835\udc13\ud835\udc13\ud835\udc08\ud835\udc0d\ud835\udc06 \ud835\udc00\ud835\udc05\ud835\udc13\ud835\udc04\ud835\udc11 \ud835\udc16\ud835\udc04\ud835\udc04\ud835\udc0a \ud835\udc0e\ud835\udc05 \ud835\udc12\ud835\udc02\ud835\udc11\ud835\udc14\ud835\udc13\ud835\udc08\ud835\udc0d\ud835\udc18 \ud835\udc00\ud835\udc0d\ud835\udc03 \ud835\udc0f\ud835\udc14\ud835\udc01\ud835\udc0b\ud835\udc08\ud835\udc02 \ud835\udc04\ud835\udc0d\ud835\udc06\ud835\udc00\ud835\udc06\ud835\udc04\ud835\udc0c\ud835\udc04\ud835\udc0d\ud835\udc13",
+   "url": "https://www.parliament.go.ke/index.php/node/26439",
+   "summary": "",
+   "kind": "item",
+   "source": "Senate Committee on Delegated Legislation (Kenya) \u2014 the committee that annuls or accedes to statutory instruments",
+   "source_id": "ke-senate-delegated-legislation",
+   "tier": 1,
+   "country": "KE",
+   "category": "REG",
+   "segments": [
+    "city",
+    "bush",
+    "beach"
+   ],
+   "first_seen": "2026-09-25T11:53+03:00",
+   "published": null,
+   "verdict": "CONSIDER"
+  },
+  {
+   "score": 70.7,
+   "components": {
+    "tier": 40,
+    "category": 5,
+    "lead": 12.0,
+    "relevance": 0,
+    "freshness": 19.7,
+    "undated": -6
+   },
+   "keywords": [],
+   "shock_terms": [],
+   "dedupe_match": null,
+   "dedupe_similarity": 0.0,
+   "id": "b0d2ad88d744",
+   "title": "\ud835\udc12\ud835\udc04\ud835\udc0d\ud835\udc00\ud835\udc13\ud835\udc04 \ud835\udc03\ud835\udc04\ud835\udc15\ud835\udc0e\ud835\udc0b\ud835\udc14\ud835\udc13\ud835\udc08\ud835\udc0e\ud835\udc0d \ud835\udc02\ud835\udc0e\ud835\udc0c\ud835\udc0c\ud835\udc08\ud835\udc13\ud835\udc13\ud835\udc04\ud835\udc04 \ud835\udc04\ud835\udc17\ud835\udc0f\ud835\udc0e\ud835\udc12\ud835\udc04\ud835\udc12 \ud835\udc12\ud835\udc04\ud835\udc16\ud835\udc04\ud835\udc11\ud835\udc00\ud835\udc06\ud835\udc04 \ud835\udc00\ud835\udc0d\ud835\udc03 \ud835\udc12\ud835\udc00\ud835\udc0d\ud835\udc08\ud835\udc13\ud835\udc00\ud835\udc13\ud835\udc08\ud835\udc0e\ud835\udc0d \ud835\udc02\ud835\udc11\ud835\udc08\ud835\udc12\ud835\udc08\ud835\udc12 \ud835\udc08\ud835\udc0d \ud835\udc0a\ud835\udc08\ud835\udc0b\ud835\udc08\ud835\udc05\ud835\udc08 \ud835\udc02\ud835\udc0e\ud835\udc14\ud835\udc0d\ud835\udc13\ud835\udc18 \u200b",
+   "url": "https://www.parliament.go.ke/index.php/node/26438",
+   "summary": "",
+   "kind": "item",
+   "source": "Senate Committee on Delegated Legislation (Kenya) \u2014 the committee that annuls or accedes to statutory instruments",
+   "source_id": "ke-senate-delegated-legislation",
+   "tier": 1,
+   "country": "KE",
+   "category": "REG",
+   "segments": [
+    "city",
+    "bush",
+    "beach"
+   ],
+   "first_seen": "2026-09-25T11:53+03:00",
+   "published": null,
+   "verdict": "CONSIDER"
+  },
+  {
+   "score": 70.7,
+   "components": {
+    "tier": 40,
+    "category": 5,
+    "lead": 12.0,
+    "relevance": 0,
+    "freshness": 19.7,
+    "undated": -6
+   },
+   "keywords": [],
+   "shock_terms": [],
+   "dedupe_match": null,
+   "dedupe_similarity": 0.0,
+   "id": "485ac8f5ac64",
+   "title": "\ud835\udc03\ud835\udc04\ud835\udc0f\ud835\udc14\ud835\udc13\ud835\udc18 \ud835\udc12\ud835\udc0f\ud835\udc04\ud835\udc00\ud835\udc0a\ud835\udc04\ud835\udc11 \ud835\udc0b\ud835\udc04\ud835\udc00\ud835\udc03\ud835\udc12 \ud835\udc0c\ud835\udc0f\ud835\udc2c \ud835\udc08\ud835\udc0d \ud835\udc02\ud835\udc07\ud835\udc00\ud835\udc0c\ud835\udc0f\ud835\udc08\ud835\udc0e\ud835\udc0d\ud835\udc08\ud835\udc0d\ud835\udc06 \ud835\udc05\ud835\udc0e\ud835\udc11 \ud835\udc06\ud835\udc04\ud835\udc0d\ud835\udc03\ud835\udc04\ud835\udc11-\ud835\udc11\ud835\udc04\ud835\udc12\ud835\udc0f\ud835\udc0e\ud835\udc0d\ud835\udc12\ud835\udc08\ud835\udc15\ud835\udc04 \ud835\udc0b\ud835\udc00\ud835\udc16\ud835\udc0c\ud835\udc00\ud835\udc0a\ud835\udc08\ud835\udc0d\ud835\udc06, \ud835\udc08\ud835\udc0d\ud835\udc02\ud835\udc0b\ud835\udc14\ud835\udc12\ud835\udc08\ud835\udc15\ud835\udc04 \ud835\udc0f\ud835\udc14\ud835\udc01\ud835\udc0b\ud835\udc08\ud835\udc02 \ud835\udc0f\ud835\udc00\ud835\udc11\ud835\udc13\ud835\udc08\ud835\udc02\ud835\udc08\ud835\udc0f\ud835\udc00\ud835\udc13\ud835\udc08\ud835\udc0e\ud835\udc0d",
+   "url": "https://www.parliament.go.ke/index.php/node/26437",
+   "summary": "",
+   "kind": "item",
+   "source": "Senate Committee on Delegated Legislation (Kenya) \u2014 the committee that annuls or accedes to statutory instruments",
+   "source_id": "ke-senate-delegated-legislation",
+   "tier": 1,
+   "country": "KE",
+   "category": "REG",
+   "segments": [
+    "city",
+    "bush",
+    "beach"
+   ],
+   "first_seen": "2026-09-25T11:53+03:00",
+   "published": null,
+   "verdict": "CONSIDER"
+  },
+  {
+   "score": 70.7,
+   "components": {
+    "tier": 40,
+    "category": 5,
+    "lead": 12.0,
+    "relevance": 0,
+    "freshness": 19.7,
+    "undated": -6
+   },
+   "keywords": [],
+   "shock_terms": [],
+   "dedupe_match": null,
+   "dedupe_similarity": 0.0,
+   "id": "a86c6d619811",
+   "title": "\ud835\udc0c\ud835\udc0f\ud835\udc12 \ud835\udc02\ud835\udc00\ud835\udc0b\ud835\udc0b \ud835\udc05\ud835\udc0e\ud835\udc11 \ud835\udc00\ud835\udc03\ud835\udc04\ud835\udc10\ud835\udc14\ud835\udc00\ud835\udc13\ud835\udc04 \ud835\udc05\ud835\udc14\ud835\udc0d\ud835\udc03\ud835\udc08\ud835\udc0d\ud835\udc06 \ud835\udc13\ud835\udc0e \ud835\udc08\ud835\udc0c\ud835\udc0f\ud835\udc0b\ud835\udc04\ud835\udc0c\ud835\udc04\ud835\udc0d\ud835\udc13 \ud835\udc16\ud835\udc0e\ud835\udc0c\ud835\udc04\ud835\udc0d\u2019\ud835\udc12 \ud835\udc04\ud835\udc02\ud835\udc0e\ud835\udc0d\ud835\udc0e\ud835\udc0c\ud835\udc08\ud835\udc02 \ud835\udc04\ud835\udc0c\ud835\udc0f\ud835\udc0e\ud835\udc16\ud835\udc04\ud835\udc11\ud835\udc0c\ud835\udc04\ud835\udc0d\ud835\udc13 \ud835\udc0f\ud835\udc0e\ud835\udc0b\ud835\udc08\ud835\udc02\ud835\udc18",
+   "url": "https://www.parliament.go.ke/index.php/node/26433",
+   "summary": "",
+   "kind": "item",
+   "source": "Senate Committee on Delegated Legislation (Kenya) \u2014 the committee that annuls or accedes to statutory instruments",
+   "source_id": "ke-senate-delegated-legislation",
+   "tier": 1,
+   "country": "KE",
+   "category": "REG",
+   "segments": [
+    "city",
+    "bush",
+    "beach"
+   ],
+   "first_seen": "2026-09-25T11:53+03:00",
+   "published": null,
+   "verdict": "CONSIDER"
+  },
+  {
+   "score": 70.7,
+   "components": {
+    "tier": 40,
+    "category": 5,
+    "lead": 12.0,
+    "relevance": 0,
+    "freshness": 19.7,
+    "undated": -6
+   },
+   "keywords": [],
+   "shock_terms": [],
+   "dedupe_match": null,
+   "dedupe_similarity": 0.0,
+   "id": "b48782bae62b",
+   "title": "\ud835\udc12\ud835\udc04\ud835\udc0d\ud835\udc00\ud835\udc13\ud835\udc04 \ud835\udc08\ud835\udc0d\ud835\udc15\ud835\udc08\ud835\udc13\ud835\udc04\ud835\udc12 \ud835\udc0f\ud835\udc14\ud835\udc01\ud835\udc0b\ud835\udc08\ud835\udc02 \ud835\udc15\ud835\udc08\ud835\udc04\ud835\udc16\ud835\udc12 \ud835\udc0e\ud835\udc0d \ud835\udc13\ud835\udc07\ud835\udc04 \ud835\udc0f\ud835\udc14\ud835\udc01\ud835\udc0b\ud835\udc08\ud835\udc02 \ud835\udc0f\ud835\udc00\ud835\udc11\ud835\udc13\ud835\udc08\ud835\udc02\ud835\udc08\ud835\udc0f\ud835\udc00\ud835\udc13\ud835\udc08\ud835\udc0e\ud835\udc0d \ud835\udc01\ud835\udc08\ud835\udc0b\ud835\udc0b, \ud835\udfd0\ud835\udfce\ud835\udfd0\ud835\udfd3",
+   "url": "https://www.parliament.go.ke/index.php/node/26432",
+   "summary": "",
+   "kind": "item",
+   "source": "Senate Committee on Delegated Legislation (Kenya) \u2014 the committee that annuls or accedes to statutory instruments",
+   "source_id": "ke-senate-delegated-legislation",
+   "tier": 1,
+   "country": "KE",
+   "category": "REG",
+   "segments": [
+    "city",
+    "bush",
+    "beach"
+   ],
+   "first_seen": "2026-09-25T11:53+03:00",
+   "published": null,
+   "verdict": "CONSIDER"
+  },
+  {
+   "score": 70.3,
+   "components": {
+    "tier": 20,
+    "category": 5,
+    "lead": 3.6,
+    "relevance": 12,
+    "freshness": 19.7,
+    "corroborated": 10
+   },
+   "keywords": [
+    "lodge",
+    "resort",
+    "opening"
+   ],
+   "shock_terms": [],
+   "dedupe_match": null,
+   "dedupe_similarity": 0.0,
+   "id": "a755b30ce540",
+   "title": "Field & Stream Lodge Co. Announces Expansion to Bend, Oregon and Big Bear, California",
+   "url": "https://www.hospitalitynet.org/news/4134570/field-stream-lodge-co-announces-expansion-to-bend-oregon-and-big-bear-california",
+   "summary": "Field & Stream Lodge Co., backed by Starwood Capital Group and AJ Capital Partners, will convert former Shilo Inn and Holiday Inn Resort properties in Bend and Big Bear into adventure-focused lodges opening in 2028.",
+   "kind": "item",
+   "source": "Hospitality Net \u2014 Africa announcements",
+   "source_id": "dev-hospitalitynet-africa",
+   "tier": 2,
+   "country": "REG",
+   "category": "trade",
+   "segments": [
+    "city",
+    "bush",
+    "beach"
+   ],
+   "first_seen": "2026-09-25T11:54+03:00",
+   "published": "2026-09-25",
+   "verdict": "CONSIDER"
+  },
+  {
+   "score": 70.3,
+   "components": {
+    "tier": 20,
+    "category": 5,
+    "lead": 3.6,
+    "relevance": 12,
+    "freshness": 19.7,
+    "corroborated": 10
+   },
+   "keywords": [
+    "hotel",
+    "beach",
+    "signing"
+   ],
+   "shock_terms": [],
+   "dedupe_match": null,
+   "dedupe_similarity": 0.0,
+   "id": "975c5d338162",
+   "title": "Landingplace Hotels Launches Borderless Hotel Alliance, Signs First Hotel",
+   "url": "https://www.hospitalitynet.org/news/4134569/landingplace-hotels-launches-borderless-hotel-alliance-signs-first-hotel",
+   "summary": "Landingplace Hotels launched Borderless Hotel Alliance, a platform giving independent hotels access to tech, distribution, and loyalty resources without requiring a brand change, signing a Virginia Beach property as its first member.",
+   "kind": "item",
+   "source": "Hospitality Net \u2014 Africa announcements",
+   "source_id": "dev-hospitalitynet-africa",
+   "tier": 2,
+   "country": "REG",
+   "category": "trade",
+   "segments": [
+    "city",
+    "bush",
+    "beach"
+   ],
+   "first_seen": "2026-09-25T11:54+03:00",
+   "published": "2026-09-25",
+   "verdict": "CONSIDER"
+  },
+  {
+   "score": 70.3,
+   "components": {
+    "tier": 20,
+    "category": 5,
+    "lead": 3.6,
+    "relevance": 12,
+    "freshness": 19.7,
+    "corroborated": 10
+   },
+   "keywords": [
+    "vat",
+    "hotel"
+   ],
+   "shock_terms": [],
+   "dedupe_match": null,
+   "dedupe_similarity": 0.25,
+   "id": "c77ffc844a5d",
+   "title": "KKR Sells Four Points Flex by Sheraton Portfolio in Japan",
+   "url": "https://www.hospitalitynet.org/news/4134565/kkr-sells-four-points-flex-by-sheraton-portfolio-in-japan",
+   "summary": "KKR has sold 16 Four Points Flex by Sheraton hotels across 11 Japanese cities to an unnamed global institutional investor, following a renovation and repositioning program launched after its 2024 acquisition from Unizo Holdings.",
+   "kind": "item",
+   "source": "Hospitality Net \u2014 Africa announcements",
+   "source_id": "dev-hospitalitynet-africa",
+   "tier": 2,
+   "country": "REG",
+   "category": "trade",
+   "segments": [
+    "city",
+    "bush",
+    "beach"
+   ],
+   "first_seen": "2026-09-25T11:54+03:00",
+   "published": "2026-09-25",
+   "verdict": "CONSIDER"
+  },
+  {
+   "score": 70.3,
+   "components": {
+    "tier": 20,
+    "category": 9,
+    "lead": 3.6,
+    "relevance": 8,
+    "freshness": 19.7,
+    "corroborated": 10
+   },
+   "keywords": [
+    "vat"
+   ],
+   "shock_terms": [],
+   "dedupe_match": null,
+   "dedupe_similarity": 0.0,
+   "id": "438d261f046d",
+   "title": "Exklusive F\u00fchrungen, Events, Retreats: Das erwartet luxusaffine Kunden in den USA",
+   "url": "https://www.fvw.de/touristik/destination/usa-luxus-264867",
+   "summary": "Privater Zugang zu Attraktionen, Food- und Sport-Events, individuelle F\u00fchrungen abseits der Massen, au\u00dfergew\u00f6hnliche Bahnreisen, besondere Wellness-Retreats: Was Luxusreisen in den USA ausmacht, hat Brand USA zusammengestellt. F\u00fcr luxusaffine Kunden \u2013 und deren Reiseberater \u2013 gibt es dabei einige \u00dcberraschungen und Neuigkeiten.",
+   "kind": "item",
+   "source": "FVW / German travel trade",
+   "source_id": "sm-derreise",
+   "tier": 2,
+   "country": "GLOBAL",
+   "category": "source-market",
+   "segments": [
+    "beach",
+    "bush"
+   ],
+   "first_seen": "2026-09-25T11:54+03:00",
+   "published": "2026-09-25",
+   "verdict": "CONSIDER"
+  },
+  {
+   "score": 70.3,
+   "components": {
+    "tier": 20,
+    "category": 9,
+    "lead": 3.6,
+    "relevance": 8,
+    "freshness": 19.7,
+    "corroborated": 10
+   },
+   "keywords": [
+    "tourist",
+    "beach"
+   ],
+   "shock_terms": [],
+   "dedupe_match": null,
+   "dedupe_similarity": 0.0,
+   "id": "5164564f14c4",
+   "title": "Neue Pauschalreise-Richtlinie: So vermeidet man Fallstricke und teure Bu\u00dfgelder",
+   "url": "https://www.fvw.de/touristik/veranstalter/neue-pauschalreise-richtlinie-so-vermeidet-man-fallstricke-und-teure-bussgelder-264851",
+   "summary": "Die n\u00e4chste General\u00fcberholung des Pauschalreiserechts ist beschlossene Sache \u2013 und bringt \u00c4nderungen mit, die man beachten sollte: Sonst drohen Sanktionen, die richtig teuer werden k\u00f6nnen. Reiserecht-Anwalt Florian Dukic gibt einen \u00dcberblick, was es zu beachten gilt \u2013 und wann man als Touristiker aktiv werden muss.",
+   "kind": "item",
+   "source": "FVW / German travel trade",
+   "source_id": "sm-derreise",
+   "tier": 2,
+   "country": "GLOBAL",
+   "category": "source-market",
+   "segments": [
+    "beach",
+    "bush"
+   ],
+   "first_seen": "2026-09-25T11:54+03:00",
+   "published": "2026-09-25",
+   "verdict": "CONSIDER"
+  },
+  {
+   "score": 70.3,
+   "components": {
+    "tier": 20,
+    "category": 9,
+    "lead": 3.6,
+    "relevance": 8,
+    "freshness": 19.7,
+    "corroborated": 10
+   },
+   "keywords": [
+    "eta"
+   ],
+   "shock_terms": [],
+   "dedupe_match": null,
+   "dedupe_similarity": 0.0,
+   "id": "899159e651f3",
+   "title": "Regionen statt L\u00e4nder: SKR erweitert sein Europa-Portfolio f\u00fcr 2027",
+   "url": "https://www.fvw.de/touristik/veranstalter/regionen-statt-laender-skr-erweitert-sein-europa-portfolio-fuer-2027-264852",
+   "summary": "SKR Reisen, der Spezialist f\u00fcr Reisen in kleinen Gruppen, erweitert sein Europa-Portfolio im neuen Katalog 2027 um mehrere neue Regionen innerhalb etablierter Reisel\u00e4nder. Statt neuer L\u00e4nder r\u00fccken dabei eigenst\u00e4ndige Kultur- und Landschaftsr\u00e4ume in den Mittelpunkt.",
+   "kind": "item",
+   "source": "FVW / German travel trade",
+   "source_id": "sm-derreise",
+   "tier": 2,
+   "country": "GLOBAL",
+   "category": "source-market",
+   "segments": [
+    "beach",
+    "bush"
+   ],
+   "first_seen": "2026-09-25T11:54+03:00",
    "published": "2026-09-24",
    "verdict": "CONSIDER"
   },
   {
    "score": 70.3,
    "components": {
-    "tier": 5,
-    "category": 5,
-    "lead": 0.0,
-    "relevance": 40,
-    "freshness": 10.3,
+    "tier": 20,
+    "category": 9,
+    "lead": 3.6,
+    "relevance": 8,
+    "freshness": 19.7,
     "corroborated": 10
    },
    "keywords": [
-    "suspend",
-    "airport",
-    "resort",
     "tourism",
-    "airline",
-    "flight",
-    "passenger"
-   ],
-   "shock_terms": [],
-   "dedupe_match": null,
-   "dedupe_similarity": 0.0,
-   "id": "2483df4b4546",
-   "title": "UAE Suspends Iranian Flights as Tehran Warning Raises Risks for Middle East Aviation and Tourism",
-   "url": "https://eturbonews.com/uae-iran-flights-middle-east-aviation-tourism",
-   "summary": "The UAE's suspension of Iranian airline flights and Tehran\u2019s warning to neighboring airports could have consequences far beyond Iran. From Dubai and Jeddah to Mecca and Saudi Arabia\u2019s Red Sea resorts, escalating regional tensions could disrupt airline networks, passenger confidence, and tourism across one of the world\u2019s most important travel corridors, including the Indian Ocean region. SOURCE: UA",
-   "kind": "item",
-   "source": "eTurboNews Africa",
-   "source_id": "tp-eturbonews",
-   "tier": 3,
-   "country": "GLOBAL",
-   "category": "trade",
-   "segments": [
-    "city",
-    "bush",
-    "beach"
-   ],
-   "first_seen": "2026-09-24T22:18+03:00",
-   "published": "2026-09-24",
-   "verdict": "CONSIDER"
-  },
-  {
-   "score": 67.7,
-   "components": {
-    "tier": 20,
-    "category": 5,
-    "lead": 2.4,
-    "relevance": 20,
-    "freshness": 10.3,
-    "corroborated": 10
-   },
-   "keywords": [
-    "tax",
-    "hotel",
-    "resort",
-    "tourism"
-   ],
-   "shock_terms": [],
-   "dedupe_match": null,
-   "dedupe_similarity": 0.25,
-   "id": "63f46f13fce9",
-   "title": "ABTA Writes to Maldives President Expressing Serious Concerns over Proposed Tourism Tax",
-   "url": "https://www.hotelnewsresource.com/article143043.html",
-   "summary": "ABTA has formally expressed serious concerns to the President of the Maldives regarding proposed increases to tourism taxes, warning that such measures could negatively affect visitor demand and the competitiveness of Maldivian hotels and resorts in the global travel market.",
-   "kind": "item",
-   "source": "HVS \u2014 market reports and event-impact studies (via Hotel News Resource)",
-   "source_id": "gl-hvs-market-reports",
-   "tier": 2,
-   "country": "GLOBAL",
-   "category": "trade",
-   "segments": [
-    "city"
-   ],
-   "first_seen": "2026-09-24T22:18+03:00",
-   "published": "2026-09-24",
-   "verdict": "weak"
-  },
-  {
-   "score": 67.7,
-   "components": {
-    "tier": 20,
-    "category": 5,
-    "lead": 2.4,
-    "relevance": 20,
-    "freshness": 10.3,
-    "corroborated": 10
-   },
-   "keywords": [
-    "adr",
-    "revpar",
-    "hotel"
-   ],
-   "shock_terms": [],
-   "dedupe_match": null,
-   "dedupe_similarity": 0.0,
-   "id": "c41855a51d7c",
-   "title": "Canada Hotels Extend Rate-Led Growth Streak as Events Boost Toronto and Montreal",
-   "url": "https://www.hotelnewsresource.com/article143035.html",
-   "summary": "Canada\u2019s hotel sector recorded its eighth consecutive month of year-over-year gains in ADR and RevPAR in August, with room rates driving most of the growth.",
-   "kind": "item",
-   "source": "HVS \u2014 market reports and event-impact studies (via Hotel News Resource)",
-   "source_id": "gl-hvs-market-reports",
-   "tier": 2,
-   "country": "GLOBAL",
-   "category": "trade",
-   "segments": [
-    "city"
-   ],
-   "first_seen": "2026-09-24T22:18+03:00",
-   "published": "2026-09-24",
-   "verdict": "weak"
-  },
-  {
-   "score": 66.7,
-   "components": {
-    "tier": 20,
-    "category": 14,
-    "lead": 8.4,
-    "relevance": 4,
-    "freshness": 10.3,
-    "corroborated": 10
-   },
-   "keywords": [
     "airline"
    ],
    "shock_terms": [],
    "dedupe_match": null,
    "dedupe_similarity": 0.0,
-   "id": "0c5ec35b5c3b",
-   "title": "Flair Plans Puerto Plata Dec 2026 Launch",
-   "url": "https://www.aeroroutes.com/eng/260924-f8dec26pop",
-   "summary": "Published at 1000PDT / 1700GMT 24SEP26 Canadian carrier Flair Airlines during Northern winter 2026/27 season plans to launch service to Puerto Plata in The Dominican Republic, with service from Montreal and Toronto. Montreal \u2013 Puerto Plata eff 18DEC26 2 weekly 737 MAX 8 F82152 YUL1125 \u2013 1650POP 7M8 15 F82153 POP1750 \u2013 2120YUL 7M8 15 Toronto Pearson \u2013 Puerto Plata eff 19DEC26 2 weekly 737 MAX 8 (1 ",
+   "id": "cd421917620a",
+   "title": "Zur St\u00e4rkung des Standorts: Ryanair ist neues Mitglied im BTW",
+   "url": "https://www.fvw.de/touristik/verkehr/zur-staerkung-des-standorts-ryanair-ist-neues-mitglied-im-btw-264847",
+   "summary": "Ryanair ist dem Bundesverband der Deutschen Tourismuswirtschaft (BTW) beigetreten. Damit verst\u00e4rkt die Airline ihre Bem\u00fchungen in der Tourismuswirtschaft, um die Wettbewerbsf\u00e4higkeit Deutschlands zu verbessern.",
    "kind": "item",
-   "source": "AeroRoutes schedule filings",
-   "source_id": "aeroroutes",
+   "source": "FVW / German travel trade",
+   "source_id": "sm-derreise",
    "tier": 2,
    "country": "GLOBAL",
-   "category": "aviation-tracker",
+   "category": "source-market",
    "segments": [
-    "city",
-    "bush",
-    "beach"
+    "beach",
+    "bush"
    ],
-   "first_seen": "2026-09-24T22:18+03:00",
+   "first_seen": "2026-09-25T11:54+03:00",
    "published": "2026-09-24",
-   "verdict": "weak"
+   "verdict": "CONSIDER"
   },
   {
-   "score": 65.5,
-   "components": {
-    "tier": 40,
-    "category": 5,
-    "lead": 12.0,
-    "relevance": 0,
-    "freshness": 14.5,
-    "undated": -6
-   },
-   "keywords": [],
-   "shock_terms": [],
-   "dedupe_match": null,
-   "dedupe_similarity": 0.0,
-   "id": "5e1a86387f35",
-   "title": "\ud835\udc12\ud835\udc04\ud835\udc0d\ud835\udc00\ud835\udc13\ud835\udc04 \ud835\udc16\ud835\udc11\ud835\udc00\ud835\udc0f\ud835\udc12 \ud835\udc14\ud835\udc0f \ud835\udc0a\ud835\udc08\ud835\udc0b\ud835\udc08\ud835\udc05\ud835\udc08 \ud835\udc12\ud835\udc08\ud835\udc13\ud835\udc13\ud835\udc08\ud835\udc0d\ud835\udc06 \ud835\udc00\ud835\udc05\ud835\udc13\ud835\udc04\ud835\udc11 \ud835\udc16\ud835\udc04\ud835\udc04\ud835\udc0a \ud835\udc0e\ud835\udc05 \ud835\udc12\ud835\udc02\ud835\udc11\ud835\udc14\ud835\udc13\ud835\udc08\ud835\udc0d\ud835\udc18 \ud835\udc00\ud835\udc0d\ud835\udc03 \ud835\udc0f\ud835\udc14\ud835\udc01\ud835\udc0b\ud835\udc08\ud835\udc02 \ud835\udc04\ud835\udc0d\ud835\udc06\ud835\udc00\ud835\udc06\ud835\udc04\ud835\udc0c\ud835\udc04\ud835\udc0d\ud835\udc13",
-   "url": "https://www.parliament.go.ke/node/26439",
-   "summary": "",
-   "kind": "item",
-   "source": "Senate Committee on Delegated Legislation (Kenya) \u2014 the committee that annuls or accedes to statutory instruments",
-   "source_id": "ke-senate-delegated-legislation",
-   "tier": 1,
-   "country": "KE",
-   "category": "REG",
-   "segments": [
-    "city",
-    "bush",
-    "beach"
-   ],
-   "first_seen": "2026-09-25T02:04+03:00",
-   "published": null,
-   "verdict": "weak"
-  },
-  {
-   "score": 65.3,
-   "components": {
-    "tier": 40,
-    "category": 20,
-    "lead": 12.0,
-    "relevance": 8,
-    "freshness": 10.3,
-    "stale_trap": -25
-   },
-   "keywords": [
-    "tax"
-   ],
-   "shock_terms": [],
-   "dedupe_match": null,
-   "dedupe_similarity": 0.0,
-   "id": "80d1c1a751b6",
-   "title": "The Income Tax (Minimum Top Up Tax) Regulations, 2026",
-   "url": "https://new.kenyalaw.org/akn/ke/act/ln/2026/189/eng@2026-09-18",
-   "summary": "The Income Tax (Minimum Top Up Tax) Regulations, 2026",
-   "kind": "item",
-   "source": "Kenya Gazette (Kenya Law)",
-   "source_id": "ke-gazette",
-   "tier": 1,
-   "country": "KE",
-   "category": "gazette",
-   "segments": [
-    "city",
-    "bush",
-    "beach"
-   ],
-   "first_seen": "2026-09-24T22:17+03:00",
-   "published": "2026-09-18",
-   "verdict": "CHECK \u2014 source date older than the window"
-  },
-  {
-   "score": 65.3,
-   "components": {
-    "tier": 40,
-    "category": 20,
-    "lead": 12.0,
-    "relevance": 8,
-    "freshness": 10.3,
-    "stale_trap": -25
-   },
-   "keywords": [
-    "tax"
-   ],
-   "shock_terms": [],
-   "dedupe_match": null,
-   "dedupe_similarity": 0.0,
-   "id": "b12afab8e070",
-   "title": "The Income Tax (Significant Economic Presence Tax) Regulations, 2026",
-   "url": "https://new.kenyalaw.org/akn/ke/act/ln/2026/188/eng@2026-09-18",
-   "summary": "The Income Tax (Significant Economic Presence Tax) Regulations, 2026",
-   "kind": "item",
-   "source": "Kenya Gazette (Kenya Law)",
-   "source_id": "ke-gazette",
-   "tier": 1,
-   "country": "KE",
-   "category": "gazette",
-   "segments": [
-    "city",
-    "bush",
-    "beach"
-   ],
-   "first_seen": "2026-09-24T22:17+03:00",
-   "published": "2026-09-18",
-   "verdict": "CHECK \u2014 source date older than the window"
-  },
-  {
-   "score": 65.3,
-   "components": {
-    "tier": 40,
-    "category": 20,
-    "lead": 12.0,
-    "relevance": 8,
-    "freshness": 10.3,
-    "stale_trap": -25
-   },
-   "keywords": [
-    "tax"
-   ],
-   "shock_terms": [],
-   "dedupe_match": null,
-   "dedupe_similarity": 0.0,
-   "id": "a1dc7852fcfe",
-   "title": "The Income Tax (Leasing) Rules, 2026",
-   "url": "https://new.kenyalaw.org/akn/ke/act/ln/2026/187/eng@2026-09-18",
-   "summary": "The Income Tax (Leasing) Rules, 2026",
-   "kind": "item",
-   "source": "Kenya Gazette (Kenya Law)",
-   "source_id": "ke-gazette",
-   "tier": 1,
-   "country": "KE",
-   "category": "gazette",
-   "segments": [
-    "city",
-    "bush",
-    "beach"
-   ],
-   "first_seen": "2026-09-24T22:17+03:00",
-   "published": "2026-09-18",
-   "verdict": "CHECK \u2014 source date older than the window"
-  },
-  {
-   "score": 65.3,
-   "components": {
-    "tier": 40,
-    "category": 20,
-    "lead": 12.0,
-    "relevance": 8,
-    "freshness": 10.3,
-    "stale_trap": -25
-   },
-   "keywords": [
-    "tax"
-   ],
-   "shock_terms": [],
-   "dedupe_match": null,
-   "dedupe_similarity": 0.0,
-   "id": "2ad719a04f18",
-   "title": "The Income Tax (Transfer Pricing) Rules, 2026",
-   "url": "https://new.kenyalaw.org/akn/ke/act/ln/2026/186/eng@2026-09-18",
-   "summary": "The Income Tax (Transfer Pricing) Rules, 2026",
-   "kind": "item",
-   "source": "Kenya Gazette (Kenya Law)",
-   "source_id": "ke-gazette",
-   "tier": 1,
-   "country": "KE",
-   "category": "gazette",
-   "segments": [
-    "city",
-    "bush",
-    "beach"
-   ],
-   "first_seen": "2026-09-24T22:17+03:00",
-   "published": "2026-09-18",
-   "verdict": "CHECK \u2014 source date older than the window"
-  },
-  {
-   "score": 65.3,
-   "components": {
-    "tier": 40,
-    "category": 20,
-    "lead": 12.0,
-    "relevance": 8,
-    "freshness": 10.3,
-    "stale_trap": -25
-   },
-   "keywords": [
-    "tax"
-   ],
-   "shock_terms": [],
-   "dedupe_match": null,
-   "dedupe_similarity": 0.0,
-   "id": "c4b67f60f3f6",
-   "title": "The Income Tax (Pay As You Earn) Rules, 2026",
-   "url": "https://new.kenyalaw.org/akn/ke/act/ln/2026/185/eng@2026-09-18",
-   "summary": "The Income Tax (Pay As You Earn) Rules, 2026",
-   "kind": "item",
-   "source": "Kenya Gazette (Kenya Law)",
-   "source_id": "ke-gazette",
-   "tier": 1,
-   "country": "KE",
-   "category": "gazette",
-   "segments": [
-    "city",
-    "bush",
-    "beach"
-   ],
-   "first_seen": "2026-09-24T22:17+03:00",
-   "published": "2026-09-18",
-   "verdict": "CHECK \u2014 source date older than the window"
-  },
-  {
-   "score": 63.7,
+   "score": 70.3,
    "components": {
     "tier": 20,
-    "category": 5,
-    "lead": 2.4,
-    "relevance": 16,
-    "freshness": 10.3,
+    "category": 9,
+    "lead": 3.6,
+    "relevance": 8,
+    "freshness": 19.7,
     "corroborated": 10
    },
    "keywords": [
-    "tax",
-    "hotel",
-    "tourism"
+    "route"
    ],
    "shock_terms": [],
    "dedupe_match": null,
    "dedupe_similarity": 0.0,
-   "id": "441a3b0b81cd",
-   "title": "Barcelona Moves Toward Higher Tourism Taxes As Hotel Property Tax Faces Resistance",
-   "url": "https://www.hotelnewsresource.com/article143046.html",
-   "summary": "Barcelona city officials are advancing proposals to increase tourism taxes while encountering opposition to a separate hotel property tax, signaling potential cost increases for hotels operating in the city.",
+   "id": "e04bb88f4c3a",
+   "title": "Sommerflugplan 2027: Easyjet \u2013 neue Routen ab Hamburg und Berlin",
+   "url": "https://www.fvw.de/touristik/verkehr/sommerflugplan-2027-easyjet--neue-routen-ab-hamburg-und-berlin-264844",
+   "summary": "Easyjet hat seinen Sommerflugplan 2027 vorgestellt und darin einige neue Strecken ab Hamburg und Berlin mit im Programm. Dabei bedient der britische Billigflieger vom BER unter anderem exklusiv Rimini.",
    "kind": "item",
-   "source": "HVS \u2014 market reports and event-impact studies (via Hotel News Resource)",
-   "source_id": "gl-hvs-market-reports",
+   "source": "FVW / German travel trade",
+   "source_id": "sm-derreise",
    "tier": 2,
    "country": "GLOBAL",
-   "category": "trade",
+   "category": "source-market",
    "segments": [
-    "city"
+    "beach",
+    "bush"
    ],
-   "first_seen": "2026-09-24T22:18+03:00",
+   "first_seen": "2026-09-25T11:54+03:00",
    "published": "2026-09-24",
-   "verdict": "weak"
-  },
-  {
-   "score": 61.3,
-   "components": {
-    "tier": 40,
-    "category": 5,
-    "lead": 12.0,
-    "relevance": 0,
-    "freshness": 10.3,
-    "undated": -6
-   },
-   "keywords": [],
-   "shock_terms": [],
-   "dedupe_match": null,
-   "dedupe_similarity": 0.0,
-   "id": "e8efb563d474",
-   "title": "\ud835\udc12\ud835\udc04\ud835\udc0d\ud835\udc00\ud835\udc13\ud835\udc04 \ud835\udc03\ud835\udc04\ud835\udc15\ud835\udc0e\ud835\udc0b\ud835\udc14\ud835\udc13\ud835\udc08\ud835\udc0e\ud835\udc0d \ud835\udc02\ud835\udc0e\ud835\udc0c\ud835\udc0c\ud835\udc08\ud835\udc13\ud835\udc13\ud835\udc04\ud835\udc04 \ud835\udc04\ud835\udc17\ud835\udc0f\ud835\udc0e\ud835\udc12\ud835\udc04\ud835\udc12 \ud835\udc12\ud835\udc04\ud835\udc16\ud835\udc04\ud835\udc11\ud835\udc00\ud835\udc06\ud835\udc04 \ud835\udc00\ud835\udc0d\ud835\udc03 \ud835\udc12\ud835\udc00\ud835\udc0d\ud835\udc08\ud835\udc13\ud835\udc00\ud835\udc13\ud835\udc08\ud835\udc0e\ud835\udc0d \ud835\udc02\ud835\udc11\ud835\udc08\ud835\udc12\ud835\udc08\ud835\udc12 \ud835\udc08\ud835\udc0d \ud835\udc0a\ud835\udc08\ud835\udc0b\ud835\udc08\ud835\udc05\ud835\udc08 \ud835\udc02\ud835\udc0e\ud835\udc14\ud835\udc0d\ud835\udc13\ud835\udc18 \u200b",
-   "url": "https://www.parliament.go.ke/node/26438",
-   "summary": "",
-   "kind": "item",
-   "source": "Senate Committee on Delegated Legislation (Kenya) \u2014 the committee that annuls or accedes to statutory instruments",
-   "source_id": "ke-senate-delegated-legislation",
-   "tier": 1,
-   "country": "KE",
-   "category": "REG",
-   "segments": [
-    "city",
-    "bush",
-    "beach"
-   ],
-   "first_seen": "2026-09-24T22:17+03:00",
-   "published": null,
-   "verdict": "weak"
-  },
-  {
-   "score": 59.7,
-   "components": {
-    "tier": 20,
-    "category": 5,
-    "lead": 2.4,
-    "relevance": 12,
-    "freshness": 10.3,
-    "corroborated": 10
-   },
-   "keywords": [
-    "hotel",
-    "tourism",
-    "investment"
-   ],
-   "shock_terms": [],
-   "dedupe_match": null,
-   "dedupe_similarity": 0.0,
-   "id": "5cc04cfe491c",
-   "title": "CBRE: Asia Pacific Hotel Investment Rises 21% as Supply Growth Remains Limited",
-   "url": "https://www.hotelnewsresource.com/article143056.html",
-   "summary": "Hotel investment in Asia Pacific rose to US$8 billion in the first half of 2026, as stronger room rates, recovering tourism and limited new supply supported investor interest, particularly in Japan, Mainland China and Korea.",
-   "kind": "item",
-   "source": "HVS \u2014 market reports and event-impact studies (via Hotel News Resource)",
-   "source_id": "gl-hvs-market-reports",
-   "tier": 2,
-   "country": "GLOBAL",
-   "category": "trade",
-   "segments": [
-    "city"
-   ],
-   "first_seen": "2026-09-24T22:18+03:00",
-   "published": "2026-09-24",
-   "verdict": "weak"
-  },
-  {
-   "score": 59.7,
-   "components": {
-    "tier": 20,
-    "category": 5,
-    "lead": 2.4,
-    "relevance": 12,
-    "freshness": 10.3,
-    "corroborated": 10
-   },
-   "keywords": [
-    "hotel",
-    "resort",
-    "franc"
-   ],
-   "shock_terms": [],
-   "dedupe_match": null,
-   "dedupe_similarity": 0.0,
-   "id": "82d5ed3cd633",
-   "title": "Crowne Plaza Paris Marne-la-Vall\u00e9e Opens",
-   "url": "https://www.hotelnewsresource.com/article143045.html",
-   "summary": "Crowne Plaza by IHG Hotels & Resorts has opened the 250-room Crowne Plaza Paris Marne-la-Vall\u00e9e in Magny-le-Hongre, France.",
-   "kind": "item",
-   "source": "HVS \u2014 market reports and event-impact studies (via Hotel News Resource)",
-   "source_id": "gl-hvs-market-reports",
-   "tier": 2,
-   "country": "GLOBAL",
-   "category": "trade",
-   "segments": [
-    "city"
-   ],
-   "first_seen": "2026-09-24T22:18+03:00",
-   "published": "2026-09-24",
-   "verdict": "weak"
+   "verdict": "CONSIDER"
   }
  ]
 }
