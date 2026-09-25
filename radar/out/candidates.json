@@ -1,18 +1,51 @@
 {
- "generated": "2026-09-25T22:53:45+03:00",
- "slot": "evening",
- "window_start": 1790330400,
- "observations_in_window": 324,
+ "generated": "2026-09-26T02:14:01+03:00",
+ "slot": "morning",
+ "window_start": 1790348400,
+ "observations_in_window": 272,
  "deduped_against": 4,
  "candidates": [
   {
-   "score": 100.8,
+   "score": 101.3,
    "components": {
     "tier": 40,
     "category": 32,
     "lead": 3.6,
     "relevance": 0,
-    "freshness": 19.2,
+    "freshness": 19.7,
+    "corroborated": 10,
+    "page_change": -4
+   },
+   "keywords": [],
+   "shock_terms": [],
+   "dedupe_match": null,
+   "dedupe_similarity": 0.0,
+   "id": "bd95982d2992",
+   "title": "[page changed] Federal Register \u2014 public inspection (HHS/CDC), pre-publication",
+   "url": "https://www.federalregister.gov/api/v1/public-inspection-documents/current.json",
+   "summary": "{\"count\":106,\"results\":[{\"agencies\":[{\"raw_name\":\"SECURITIES AND EXCHANGE COMMISSION\",\"name\":\"Securities and Exchange Commission\",\"id\":466,\"url\":\"https://www.federalregister.gov/agencies/securities-and-exchange-commission\",\"json_url\":\"https://www.federalregister.gov/api/v1/agencies/466\",\"parent_id\":null,\"slug\":\"securities-and-exchange-commission\"}],\"agency_letters\":[],\"agency_names\":[\"Securities a",
+   "kind": "page-change",
+   "source": "Federal Register \u2014 public inspection (HHS/CDC), pre-publication",
+   "source_id": "us-fedreg-pubinspect-hhs",
+   "tier": 1,
+   "country": "REG",
+   "category": "advisory",
+   "segments": [
+    "city",
+    "bush"
+   ],
+   "first_seen": "2026-09-26T02:09+03:00",
+   "published": "2026-09-24",
+   "verdict": "OPEN THIS \u2014 tier-1 advisory page moved; content not auto-parsed, read it manually"
+  },
+  {
+   "score": 97.1,
+   "components": {
+    "tier": 40,
+    "category": 32,
+    "lead": 3.6,
+    "relevance": 0,
+    "freshness": 15.5,
     "corroborated": 10,
     "page_change": -4
    },
@@ -39,56 +72,63 @@
    "verdict": "OPEN THIS \u2014 tier-1 advisory page moved; content not auto-parsed, read it manually"
   },
   {
-   "score": 95.6,
+   "score": 65.3,
    "components": {
     "tier": 40,
-    "category": 32,
+    "category": 12,
     "lead": 3.6,
     "relevance": 0,
-    "freshness": 14.0,
-    "corroborated": 10,
+    "freshness": 19.7,
+    "undated": -6,
     "page_change": -4
    },
    "keywords": [],
    "shock_terms": [],
    "dedupe_match": null,
    "dedupe_similarity": 0.0,
-   "id": "ba6beaf4cb68",
-   "title": "[page changed] Federal Register \u2014 public inspection (HHS/CDC), pre-publication",
-   "url": "https://www.federalregister.gov/api/v1/public-inspection-documents/current.json",
-   "summary": "{\"count\":101,\"results\":[{\"agencies\":[{\"raw_name\":\"SECURITIES AND EXCHANGE COMMISSION\",\"name\":\"Securities and Exchange Commission\",\"id\":466,\"url\":\"https://www.federalregister.gov/agencies/securities-and-exchange-commission\",\"json_url\":\"https://www.federalregister.gov/api/v1/agencies/466\",\"parent_id\":null,\"slug\":\"securities-and-exchange-commission\"}],\"agency_letters\":[],\"agency_names\":[\"Securities a",
+   "id": "cd8264ff45e4",
+   "title": "[page changed] Airlink news",
+   "url": "https://www.flyairlink.com/",
+   "summary": "Request unsuccessful. Incapsula incident ID: 395000360534600419-264699354169411882",
    "kind": "page-change",
-   "source": "Federal Register \u2014 public inspection (HHS/CDC), pre-publication",
-   "source_id": "us-fedreg-pubinspect-hhs",
+   "source": "Airlink news",
+   "source_id": "air-airlink",
    "tier": 1,
    "country": "REG",
-   "category": "advisory",
+   "category": "airline",
    "segments": [
     "city",
-    "bush"
+    "bush",
+    "beach"
    ],
-   "first_seen": "2026-09-25T17:37+03:00",
-   "published": "2026-09-24",
-   "verdict": "OPEN THIS \u2014 tier-1 advisory page moved; content not auto-parsed, read it manually"
+   "first_seen": "2026-09-26T02:09+03:00",
+   "published": null,
+   "verdict": "OPEN THIS \u2014 tier-1 airline page moved; content not auto-parsed, read it manually"
   },
   {
-   "score": 96.0,
+   "score": 104.7,
    "components": {
     "tier": 40,
     "category": 20,
     "lead": 12.0,
-    "relevance": 0,
-    "freshness": 14.0,
-    "corroborated": 10
+    "relevance": 20,
+    "freshness": 19.7,
+    "stale_trap": -25,
+    "shock": 18
    },
-   "keywords": [],
-   "shock_terms": [],
+   "keywords": [
+    "insolven",
+    "tax"
+   ],
+   "shock_terms": [
+    "insolven"
+   ],
    "dedupe_match": null,
-   "dedupe_similarity": 0.0,
-   "id": "756231005599",
-   "title": "Registration of Documents Act",
-   "url": "https://new.kenyalaw.org/akn/ke/act/1902/26/eng@2026-09-25",
-   "summary": "Registration of Documents Act",
+   "dedupe_similarity": 0.4,
+   "id": "0b50b0ddee0c",
+   "title": "Trimurti Healthcare Ltd v Mediheal Group Ltd & another (Insolvency Cause E547 of 2024) [2026] KEHC 13865 (KLR) (Commercial and Tax) (15 September 2026) (Ruling)",
+   "url": "https://new.kenyalaw.org/akn/ke/judgment/kehc/2026/13865/eng@2026-09-15",
+   "summary": "Trimurti Healthcare Ltd v Mediheal Group Ltd & another (Insolvency Cause E547 of 2024) [2026] KEHC 13865 (KLR) (Commercial and Tax) (15 September 2026) (Ruling)",
    "kind": "item",
    "source": "Kenya Gazette (Kenya Law)",
    "source_id": "ke-gazette",
@@ -100,18 +140,182 @@
     "bush",
     "beach"
    ],
-   "first_seen": "2026-09-25T17:37+03:00",
-   "published": "2026-09-25",
+   "first_seen": "2026-09-26T02:09+03:00",
+   "published": "2026-09-15",
+   "verdict": "CHECK \u2014 source date older than the window"
+  },
+  {
+   "score": 103.5,
+   "components": {
+    "tier": 40,
+    "category": 9,
+    "lead": 16.8,
+    "relevance": 8,
+    "freshness": 19.7,
+    "corroborated": 10
+   },
+   "keywords": [
+    "hotel",
+    "opening"
+   ],
+   "shock_terms": [],
+   "dedupe_match": null,
+   "dedupe_similarity": 0.0,
+   "id": "73156bbc26cd",
+   "title": "Montara Hotel Opens As the First Tapestry Collection by Hilton in Central America",
+   "url": "https://stories.hilton.com/releases/montara-hotel-opens-first-tapestry-collection-by-hilton-in-central-america",
+   "summary": "HEREDIA, Costa Rica \u2013Today Hilton (NYSE: HLT) announced the opening of Montara Hotel, Tapestry Collection by Hilton, marking the lifestyle brand\u2019s debut in Costa Rica and Central America. The 97-room hotel reflects a broader evolution in the way people are choosing to travel: seeking meaningful connections with nature and local culture, prioritizing wellness and wellbeing, [\u2026] The post Montara Hot",
+   "kind": "item",
+   "source": "Hilton stories/newsroom",
+   "source_id": "dev-hilton",
+   "tier": 1,
+   "country": "GLOBAL",
+   "category": "hotel-group",
+   "segments": [
+    "city",
+    "bush",
+    "beach"
+   ],
+   "first_seen": "2026-09-26T02:09+03:00",
+   "published": "2026-09-24",
    "verdict": "STRONG \u2014 tier-1, upstream"
   },
   {
-   "score": 93.5,
+   "score": 91.7,
+   "components": {
+    "tier": 40,
+    "category": 20,
+    "lead": 12.0,
+    "relevance": 0,
+    "freshness": 19.7
+   },
+   "keywords": [],
+   "shock_terms": [],
+   "dedupe_match": null,
+   "dedupe_similarity": 0.2,
+   "id": "56dcc17b30a3",
+   "title": "Ndungu & 3 others v Mutegi & another (Environment and Land Miscellaneous Case E008 of 2025) [2026] KEELC 5550 (KLR) (23 September 2026) (Ruling)",
+   "url": "https://new.kenyalaw.org/akn/ke/judgment/keelc/2026/5550/eng@2026-09-23",
+   "summary": "Ndungu & 3 others v Mutegi & another (Environment and Land Miscellaneous Case E008 of 2025) [2026] KEELC 5550 (KLR) (23 September 2026) (Ruling)",
+   "kind": "item",
+   "source": "Kenya Gazette (Kenya Law)",
+   "source_id": "ke-gazette",
+   "tier": 1,
+   "country": "KE",
+   "category": "gazette",
+   "segments": [
+    "city",
+    "bush",
+    "beach"
+   ],
+   "first_seen": "2026-09-26T02:09+03:00",
+   "published": "2026-09-23",
+   "verdict": "STRONG \u2014 tier-1, upstream"
+  },
+  {
+   "score": 91.7,
+   "components": {
+    "tier": 40,
+    "category": 20,
+    "lead": 12.0,
+    "relevance": 0,
+    "freshness": 19.7
+   },
+   "keywords": [],
+   "shock_terms": [],
+   "dedupe_match": null,
+   "dedupe_similarity": 0.2,
+   "id": "89bcae29d36d",
+   "title": "Chakra Company Ltd v Musalia (Appeal E031 of 2026) [2026] KEELRC 2482 (KLR) (23 September 2026) (Judgment)",
+   "url": "https://new.kenyalaw.org/akn/ke/judgment/keelrc/2026/2482/eng@2026-09-23",
+   "summary": "Chakra Company Ltd v Musalia (Appeal E031 of 2026) [2026] KEELRC 2482 (KLR) (23 September 2026) (Judgment)",
+   "kind": "item",
+   "source": "Kenya Gazette (Kenya Law)",
+   "source_id": "ke-gazette",
+   "tier": 1,
+   "country": "KE",
+   "category": "gazette",
+   "segments": [
+    "city",
+    "bush",
+    "beach"
+   ],
+   "first_seen": "2026-09-26T02:09+03:00",
+   "published": "2026-09-23",
+   "verdict": "STRONG \u2014 tier-1, upstream"
+  },
+  {
+   "score": 91.7,
+   "components": {
+    "tier": 40,
+    "category": 20,
+    "lead": 12.0,
+    "relevance": 0,
+    "freshness": 19.7
+   },
+   "keywords": [],
+   "shock_terms": [],
+   "dedupe_match": null,
+   "dedupe_similarity": 0.2,
+   "id": "6ff3640e3caa",
+   "title": "Mirza v Kaibunga & others (Land Case E009 of 2026) [2026] KEELC 5539 (KLR) (23 September 2026) (Ruling)",
+   "url": "https://new.kenyalaw.org/akn/ke/judgment/keelc/2026/5539/eng@2026-09-23",
+   "summary": "Mirza v Kaibunga & others (Land Case E009 of 2026) [2026] KEELC 5539 (KLR) (23 September 2026) (Ruling)",
+   "kind": "item",
+   "source": "Kenya Gazette (Kenya Law)",
+   "source_id": "ke-gazette",
+   "tier": 1,
+   "country": "KE",
+   "category": "gazette",
+   "segments": [
+    "city",
+    "bush",
+    "beach"
+   ],
+   "first_seen": "2026-09-26T02:09+03:00",
+   "published": "2026-09-23",
+   "verdict": "STRONG \u2014 tier-1, upstream"
+  },
+  {
+   "score": 91.7,
+   "components": {
+    "tier": 40,
+    "category": 20,
+    "lead": 12.0,
+    "relevance": 0,
+    "freshness": 19.7
+   },
+   "keywords": [],
+   "shock_terms": [],
+   "dedupe_match": null,
+   "dedupe_similarity": 0.2,
+   "id": "08102f5cf185",
+   "title": "Moraa & 4 others v County Government of Nyamira (Environment and Land Case 76 of 2021) [2026] KEELC 5533 (KLR) (23 September 2026) (Ruling)",
+   "url": "https://new.kenyalaw.org/akn/ke/judgment/keelc/2026/5533/eng@2026-09-23",
+   "summary": "Moraa & 4 others v County Government of Nyamira (Environment and Land Case 76 of 2021) [2026] KEELC 5533 (KLR) (23 September 2026) (Ruling)",
+   "kind": "item",
+   "source": "Kenya Gazette (Kenya Law)",
+   "source_id": "ke-gazette",
+   "tier": 1,
+   "country": "KE",
+   "category": "gazette",
+   "segments": [
+    "city",
+    "bush",
+    "beach"
+   ],
+   "first_seen": "2026-09-26T02:09+03:00",
+   "published": "2026-09-23",
+   "verdict": "STRONG \u2014 tier-1, upstream"
+  },
+  {
+   "score": 89.8,
    "components": {
     "tier": 40,
     "category": 7,
     "lead": 6.0,
     "relevance": 16,
-    "freshness": 14.5,
+    "freshness": 10.8,
     "corroborated": 10
    },
    "keywords": [
@@ -136,49 +340,84 @@
    ],
    "first_seen": "2026-09-25T18:02+03:00",
    "published": "2026-09-25",
-   "verdict": "STRONG \u2014 tier-1, upstream"
+   "verdict": "CONSIDER"
   },
   {
-   "score": 92.4,
+   "score": 89.7,
    "components": {
     "tier": 40,
-    "category": 24,
-    "lead": 2.4,
-    "relevance": 12,
-    "freshness": 14.0
+    "category": 20,
+    "lead": 12.0,
+    "relevance": 8,
+    "freshness": 19.7,
+    "stale_trap": -10
    },
    "keywords": [
-    "ebola"
+    "tax"
    ],
    "shock_terms": [],
    "dedupe_match": null,
-   "dedupe_similarity": 0.0,
-   "id": "acd77436825c",
-   "title": "Democratic Republic of the Congo (DRC)",
-   "url": "https://insp.cd/wp-content/uploads/2026/09/SitRep_MVEBDB_132_23_09_2026.pdf",
-   "summary": "1 fr-FR fr-FR fr-FR fr-FRRapport de Situation de la 17e \u00c9pid\u00e9mie de la maladie \u00e0 Virus EBOLA /RDC fr-FR fr-FRSitRep N\u00b0132/MVE-BDBV/23/09/2026 fr-FR Date de rapportage : 23 septembre 2026 Date de publication : 24 septembre 2026 fr-FR fr-FR fr-FR fr-FR fr-FR fr-FR fr-FR fr-FR fr-FR fr-FR fr-FR fr-FR fr-FR fr-FR fr-FR fr-FR fr-FR fr-FR fr-FR fr-FR fr-FR fr-FR fr-FR fr-FR fr-FR fr-FR fr-FR fr-FR fr-FR",
-   "kind": "doc",
-   "source": "ECDC \u2014 DRC/Uganda Ebola outbreak page",
-   "source_id": "ecdc-ebola",
+   "dedupe_similarity": 0.4,
+   "id": "5af9b0530519",
+   "title": "Nyaga v Consolidated Bank of Kenya Ltd (Commercial Civil Suit E779 of 2025) [2026] KEHC 13849 (KLR) (Commercial and Tax) (21 September 2026) (Ruling)",
+   "url": "https://new.kenyalaw.org/akn/ke/judgment/kehc/2026/13849/eng@2026-09-21",
+   "summary": "Nyaga v Consolidated Bank of Kenya Ltd (Commercial Civil Suit E779 of 2025) [2026] KEHC 13849 (KLR) (Commercial and Tax) (21 September 2026) (Ruling)",
+   "kind": "item",
+   "source": "Kenya Gazette (Kenya Law)",
+   "source_id": "ke-gazette",
    "tier": 1,
-   "country": "GLOBAL",
-   "category": "health",
+   "country": "KE",
+   "category": "gazette",
    "segments": [
     "city",
-    "bush"
+    "bush",
+    "beach"
    ],
-   "first_seen": "2026-09-25T17:37+03:00",
-   "published": "2026-09-23",
-   "verdict": "STRONG \u2014 tier-1, upstream"
+   "first_seen": "2026-09-26T02:09+03:00",
+   "published": "2026-09-21",
+   "verdict": "CHECK \u2014 source date older than the window"
   },
   {
-   "score": 91.6,
+   "score": 88.7,
+   "components": {
+    "tier": 40,
+    "category": 13,
+    "lead": 6.0,
+    "relevance": 0,
+    "freshness": 19.7,
+    "corroborated": 10
+   },
+   "keywords": [],
+   "shock_terms": [],
+   "dedupe_match": null,
+   "dedupe_similarity": 0.25,
+   "id": "117756c4046a",
+   "title": "\u201cBeyond Fleet Growth: Unlocking the Connectivity Africa\u2019s Aviation Market Needs\u201d",
+   "url": "https://www.afraa.org/beyond-fleet-growth-unlocking-the-connectivity-africas-aviation-market-needs",
+   "summary": "Interview questions by Table.Media GmbH, Registergericht: Amtsgericht Berlin-Charlottenburg HRB 212399B Q1. Boeing projects a doubling of the African commercial fleet by 2045, with single-aisle regional aircraft dominating the [\u2026]",
+   "kind": "item",
+   "source": "AFRAA \u2014 monthly African air transport / capacity brief",
+   "source_id": "afraa-capacity",
+   "tier": 1,
+   "country": "REG",
+   "category": "aviation",
+   "segments": [
+    "city",
+    "bush",
+    "beach"
+   ],
+   "first_seen": "2026-09-26T02:09+03:00",
+   "published": "2026-09-25",
+   "verdict": "CONSIDER"
+  },
+  {
+   "score": 87.9,
    "components": {
     "tier": 20,
     "category": 14,
     "lead": 8.4,
     "relevance": 20,
-    "freshness": 19.2,
+    "freshness": 15.5,
     "corroborated": 10
    },
    "keywords": [
@@ -208,121 +447,13 @@
    "verdict": "CONSIDER"
   },
   {
-   "score": 90.4,
-   "components": {
-    "tier": 40,
-    "category": 24,
-    "lead": 2.4,
-    "relevance": 16,
-    "freshness": 14.0,
-    "undated": -6
-   },
-   "keywords": [
-    "tax",
-    "capacity"
-   ],
-   "shock_terms": [],
-   "dedupe_match": null,
-   "dedupe_similarity": 0.2,
-   "id": "3fdc87b08494",
-   "title": "25 September 2026 | Cluster/Departmental news Cameroon Strengthens Capacity for Tobacco Tax Reform to Protect Health and Mobilize Domestic Resources with the support of WHO AFRO",
-   "url": "https://www.afro.who.int/countries/cameroon/news/cameroon-strengthens-capacity-tobacco-tax-reform-protect-health-and-mobilize-domestic-resources",
-   "summary": "",
-   "kind": "item",
-   "source": "WHO AFRO \u2014 Rwanda country newsroom",
-   "source_id": "who-afro-rwanda",
-   "tier": 1,
-   "country": "RW",
-   "category": "health",
-   "segments": [
-    "bush",
-    "city",
-    "beach"
-   ],
-   "first_seen": "2026-09-25T17:37+03:00",
-   "published": null,
-   "verdict": "STRONG \u2014 tier-1, upstream"
-  },
-  {
-   "score": 90.4,
-   "components": {
-    "tier": 40,
-    "category": 24,
-    "lead": 2.4,
-    "relevance": 16,
-    "freshness": 14.0,
-    "undated": -6
-   },
-   "keywords": [
-    "tax",
-    "capacity"
-   ],
-   "shock_terms": [],
-   "dedupe_match": null,
-   "dedupe_similarity": 0.2,
-   "id": "b238421d69a0",
-   "title": "25 September 2026 | Cluster/Departmental news Cameroon Strengthens Capacity for Tobacco Tax Reform to Protect Health and Mobilize Domestic Resources with the support of WHO AFRO",
-   "url": "https://www.afro.who.int/countries/cameroon/news/cameroon-strengthens-capacity-tobacco-tax-reform-protect-health-and-mobilize-domestic-resources",
-   "summary": "",
-   "kind": "item",
-   "source": "WHO AFRO \u2014 Uganda country newsroom",
-   "source_id": "who-afro-uganda",
-   "tier": 1,
-   "country": "UG",
-   "category": "health",
-   "segments": [
-    "bush",
-    "city",
-    "beach"
-   ],
-   "first_seen": "2026-09-25T17:37+03:00",
-   "published": null,
-   "verdict": "STRONG \u2014 tier-1, upstream"
-  },
-  {
-   "score": 90.4,
-   "components": {
-    "tier": 40,
-    "category": 24,
-    "lead": 2.4,
-    "relevance": 16,
-    "freshness": 14.0,
-    "undated": -6
-   },
-   "keywords": [
-    "tax",
-    "capacity"
-   ],
-   "shock_terms": [],
-   "dedupe_match": null,
-   "dedupe_similarity": 0.2,
-   "id": "4b0797929629",
-   "title": "25 September 2026 | Cluster/Departmental news Cameroon Strengthens Capacity for Tobacco Tax Reform to Protect Health and Mobilize Domestic Resources with the support of WHO AFRO",
-   "url": "https://www.afro.who.int/countries/cameroon/news/cameroon-strengthens-capacity-tobacco-tax-reform-protect-health-and-mobilize-domestic-resources",
-   "summary": "",
-   "kind": "item",
-   "source": "WHO AFRO \u2014 Kenya country newsroom",
-   "source_id": "who-afro-kenya",
-   "tier": 1,
-   "country": "KE",
-   "category": "health",
-   "segments": [
-    "bush",
-    "city",
-    "beach"
-   ],
-   "first_seen": "2026-09-25T17:37+03:00",
-   "published": null,
-   "verdict": "STRONG \u2014 tier-1, upstream"
-  },
-  {
-   "score": 87.6,
+   "score": 83.9,
    "components": {
     "tier": 20,
     "category": 14,
     "lead": 8.4,
     "relevance": 16,
-    "freshness": 19.2,
+    "freshness": 15.5,
     "corroborated": 10
    },
    "keywords": [
@@ -353,13 +484,13 @@
    "verdict": "CONSIDER"
   },
   {
-   "score": 87.6,
+   "score": 83.9,
    "components": {
     "tier": 40,
     "category": 16,
     "lead": 2.4,
     "relevance": 0,
-    "freshness": 19.2,
+    "freshness": 15.5,
     "corroborated": 10
    },
    "keywords": [],
@@ -386,13 +517,13 @@
    "verdict": "CONSIDER"
   },
   {
-   "score": 85.6,
+   "score": 81.9,
    "components": {
     "tier": 20,
     "category": 24,
     "lead": 2.4,
     "relevance": 12,
-    "freshness": 19.2,
+    "freshness": 15.5,
     "undated": -6,
     "shock": 18,
     "page_change": -4
@@ -425,993 +556,811 @@
    "verdict": "CONSIDER"
   },
   {
-   "score": 82.4,
-   "components": {
-    "tier": 20,
-    "category": 14,
-    "lead": 8.4,
-    "relevance": 16,
-    "freshness": 14.0,
-    "corroborated": 10
-   },
-   "keywords": [
-    "route",
-    "airline",
-    "flight"
-   ],
-   "shock_terms": [],
-   "dedupe_match": null,
-   "dedupe_similarity": 0.0,
-   "id": "80fb429ed7b7",
-   "title": "Centrum Air Extends Tashkent \u2013 Hyderabad into NW26",
-   "url": "https://www.aeroroutes.com/eng/260925-c6nw26hyd",
-   "summary": "Published at 0200PDT / 0900GMT 25SEP26 Uzbekistan\u2019s Centrum Air this week extended schedule filing for Tashkent \u2013 Hyderabad route, scheduled to commence on 28SEP26. The airline will maintain 2 weekly flights on/after 25OCT26, with a mix of A320neo/321neo aircraft. C6551 TAS2200 \u2013 0300+1HYD 32N 5 C6551 TAS2200 \u2013 0300+1HYD 32Q 2 C6552 HYD0430 \u2013 0850TAS 32N 6 C6552 HYD0430 \u2013 0850TAS 32Q 3",
-   "kind": "item",
-   "source": "AeroRoutes schedule filings",
-   "source_id": "aeroroutes",
-   "tier": 2,
-   "country": "GLOBAL",
-   "category": "aviation-tracker",
-   "segments": [
-    "city",
-    "bush",
-    "beach"
-   ],
-   "first_seen": "2026-09-25T17:37+03:00",
-   "published": "2026-09-25",
-   "verdict": "CONSIDER"
-  },
-  {
-   "score": 82.4,
+   "score": 81.7,
    "components": {
     "tier": 40,
-    "category": 32,
-    "lead": 2.4,
+    "category": 20,
+    "lead": 12.0,
     "relevance": 0,
-    "freshness": 14.0,
-    "undated": -6
+    "freshness": 19.7,
+    "stale_trap": -10
    },
    "keywords": [],
    "shock_terms": [],
    "dedupe_match": null,
-   "dedupe_similarity": 0.4,
-   "id": "685dac40ab0a",
-   "title": "Security Alert: U.S. Embassy Nairobi, Kenya (September 25, 2026)",
-   "url": "https://ke.usembassy.gov/security-alert-u-s-embassy-nairobi-kenya-september-25-2026",
-   "summary": "",
+   "dedupe_similarity": 0.2,
+   "id": "4a875dfb9e40",
+   "title": "Mugo v Wells Fargo Ltd (Appeal E254 of 2025) [2026] KEELRC 2486 (KLR) (22 September 2026) (Judgment)",
+   "url": "https://new.kenyalaw.org/akn/ke/judgment/keelrc/2026/2486/eng@2026-09-22",
+   "summary": "Mugo v Wells Fargo Ltd (Appeal E254 of 2025) [2026] KEELRC 2486 (KLR) (22 September 2026) (Judgment)",
    "kind": "item",
-   "source": "US Embassy Nairobi \u2014 alerts & messages",
-   "source_id": "ke-usembassy-alerts",
+   "source": "Kenya Gazette (Kenya Law)",
+   "source_id": "ke-gazette",
    "tier": 1,
    "country": "KE",
-   "category": "advisory",
+   "category": "gazette",
    "segments": [
     "city",
     "bush",
     "beach"
    ],
-   "first_seen": "2026-09-25T17:37+03:00",
-   "published": null,
-   "verdict": "CONSIDER"
+   "first_seen": "2026-09-26T02:09+03:00",
+   "published": "2026-09-22",
+   "verdict": "CHECK \u2014 source date older than the window"
   },
   {
-   "score": 78.4,
-   "components": {
-    "tier": 20,
-    "category": 14,
-    "lead": 8.4,
-    "relevance": 12,
-    "freshness": 14.0,
-    "corroborated": 10
-   },
-   "keywords": [
-    "route",
-    "airline"
-   ],
-   "shock_terms": [],
-   "dedupe_match": null,
-   "dedupe_similarity": 0.0,
-   "id": "e71a4f73faf3",
-   "title": "Air Tanzania 2H26 Moscow Service Changes",
-   "url": "https://www.aeroroutes.com/eng/260925-tc2h26vko",
-   "summary": "Published at 0700PDT / 1400GMT 25SEP26 Air Tanzania since late-July 2026 adjusted its operations to Moscow, as the airline operates Dar es Salaam \u2013 Zanzibar \u2013 Moscow Vnukovo routing, instead of Dar es Salaam \u2013 Moscow Vnukovo \u2013 Zanzibar \u2013 Dar es Salaam. The adjustment went into effect since 24JUL26, which will be maintained in Northern winter 2026/27 season, on/after 25OCT26. TC422 DAR2050 \u2013 2120ZN",
-   "kind": "item",
-   "source": "AeroRoutes schedule filings",
-   "source_id": "aeroroutes",
-   "tier": 2,
-   "country": "GLOBAL",
-   "category": "aviation-tracker",
-   "segments": [
-    "city",
-    "bush",
-    "beach"
-   ],
-   "first_seen": "2026-09-25T17:37+03:00",
-   "published": "2026-09-25",
-   "verdict": "CONSIDER"
-  },
-  {
-   "score": 78.4,
-   "components": {
-    "tier": 20,
-    "category": 14,
-    "lead": 8.4,
-    "relevance": 12,
-    "freshness": 14.0,
-    "corroborated": 10
-   },
-   "keywords": [
-    "route",
-    "flight"
-   ],
-   "shock_terms": [],
-   "dedupe_match": null,
-   "dedupe_similarity": 0.0,
-   "id": "6a111d01ce09",
-   "title": "China Southern Increases Harbin \u2013 Vladivostok Flights in NW26",
-   "url": "https://www.aeroroutes.com/eng/260925-cznw26hrbvvo",
-   "summary": "Published at 0500PDT / 1200GMT 25SEP26 China Southern during Northern winter 2026/27 season plans to expand Harbin \u2013 Vladivostok route, as overall service to increase from 3 to 7 weekly, effective 07DEC26. Airbus A320neo operates this route. CZ8325 HRB0140 \u2013 0505VVO 32N x357 CZ8325 HRB0140 \u2013 0510VVO 32N 357 CZ8326 VVO0615 \u2013 0600HRB 32N D",
-   "kind": "item",
-   "source": "AeroRoutes schedule filings",
-   "source_id": "aeroroutes",
-   "tier": 2,
-   "country": "GLOBAL",
-   "category": "aviation-tracker",
-   "segments": [
-    "city",
-    "bush",
-    "beach"
-   ],
-   "first_seen": "2026-09-25T17:37+03:00",
-   "published": "2026-09-25",
-   "verdict": "CONSIDER"
-  },
-  {
-   "score": 78.4,
+   "score": 81.7,
    "components": {
     "tier": 40,
-    "category": 24,
-    "lead": 2.4,
-    "relevance": 4,
-    "freshness": 14.0,
-    "undated": -6
+    "category": 20,
+    "lead": 12.0,
+    "relevance": 0,
+    "freshness": 19.7,
+    "stale_trap": -10
    },
-   "keywords": [
-    "camp"
-   ],
+   "keywords": [],
    "shock_terms": [],
    "dedupe_match": null,
    "dedupe_similarity": 0.2,
-   "id": "a77b47e7ce30",
-   "title": "25 September 2026 | News Release WHO Africa launches the Health Campaign Digitization initiative (DIGIT-HCM) to transform health campaign planning and delivery across the Region",
-   "url": "https://www.afro.who.int/news/who-africa-launches-health-campaign-digitization-initiative-digit-hcm-transform-health",
-   "summary": "",
+   "id": "24775a52a1d2",
+   "title": "Muchendu t/a Icon Auctioneers v Fourth Generation Capital Limited & another (Employment and Labour Relations Cause E272 of 2023) [2026] KEELRC 2485 (KLR) (22 September 2026) (Ruling)",
+   "url": "https://new.kenyalaw.org/akn/ke/judgment/keelrc/2026/2485/eng@2026-09-22",
+   "summary": "Muchendu t/a Icon Auctioneers v Fourth Generation Capital Limited & another (Employment and Labour Relations Cause E272 of 2023) [2026] KEELRC 2485 (KLR) (22 September 2026) (Ruling)",
    "kind": "item",
-   "source": "WHO AFRO \u2014 Rwanda country newsroom",
-   "source_id": "who-afro-rwanda",
-   "tier": 1,
-   "country": "RW",
-   "category": "health",
-   "segments": [
-    "bush",
-    "city",
-    "beach"
-   ],
-   "first_seen": "2026-09-25T17:37+03:00",
-   "published": null,
-   "verdict": "CONSIDER"
-  },
-  {
-   "score": 78.4,
-   "components": {
-    "tier": 40,
-    "category": 24,
-    "lead": 2.4,
-    "relevance": 4,
-    "freshness": 14.0,
-    "undated": -6
-   },
-   "keywords": [
-    "camp"
-   ],
-   "shock_terms": [],
-   "dedupe_match": null,
-   "dedupe_similarity": 0.2,
-   "id": "e7e056b11337",
-   "title": "25 September 2026 | News Release WHO Africa launches the Health Campaign Digitization initiative (DIGIT-HCM) to transform health campaign planning and delivery across the Region",
-   "url": "https://www.afro.who.int/news/who-africa-launches-health-campaign-digitization-initiative-digit-hcm-transform-health",
-   "summary": "",
-   "kind": "item",
-   "source": "WHO AFRO \u2014 Uganda country newsroom",
-   "source_id": "who-afro-uganda",
-   "tier": 1,
-   "country": "UG",
-   "category": "health",
-   "segments": [
-    "bush",
-    "city",
-    "beach"
-   ],
-   "first_seen": "2026-09-25T17:37+03:00",
-   "published": null,
-   "verdict": "CONSIDER"
-  },
-  {
-   "score": 78.4,
-   "components": {
-    "tier": 40,
-    "category": 24,
-    "lead": 2.4,
-    "relevance": 4,
-    "freshness": 14.0,
-    "undated": -6
-   },
-   "keywords": [
-    "camp"
-   ],
-   "shock_terms": [],
-   "dedupe_match": null,
-   "dedupe_similarity": 0.2,
-   "id": "a0b2c9a4c21c",
-   "title": "25 September 2026 | News Release WHO Africa launches the Health Campaign Digitization initiative (DIGIT-HCM) to transform health campaign planning and delivery across the Region",
-   "url": "https://www.afro.who.int/news/who-africa-launches-health-campaign-digitization-initiative-digit-hcm-transform-health",
-   "summary": "",
-   "kind": "item",
-   "source": "WHO AFRO \u2014 Kenya country newsroom",
-   "source_id": "who-afro-kenya",
+   "source": "Kenya Gazette (Kenya Law)",
+   "source_id": "ke-gazette",
    "tier": 1,
    "country": "KE",
-   "category": "health",
+   "category": "gazette",
    "segments": [
-    "bush",
     "city",
+    "bush",
     "beach"
    ],
-   "first_seen": "2026-09-25T17:37+03:00",
-   "published": null,
-   "verdict": "CONSIDER"
+   "first_seen": "2026-09-26T02:09+03:00",
+   "published": "2026-09-22",
+   "verdict": "CHECK \u2014 source date older than the window"
   },
   {
-   "score": 77.5,
+   "score": 81.7,
    "components": {
     "tier": 40,
-    "category": 7,
-    "lead": 6.0,
+    "category": 20,
+    "lead": 12.0,
     "relevance": 0,
-    "freshness": 14.5,
-    "corroborated": 10
+    "freshness": 19.7,
+    "stale_trap": -10
    },
    "keywords": [],
    "shock_terms": [],
    "dedupe_match": null,
    "dedupe_similarity": 0.2,
-   "id": "875fed5e38f7",
-   "title": "South Sudan Advances Regional Political Confederation Agenda as EAC Constitution-Drafting Consultations Kick Off",
-   "url": "https://www.eac.int/press-releases/3598-south-sudan-advances-regional-political-confederation-agenda-as-eac-constitution-drafting-consultations-kick-off",
-   "summary": "East African Community Headquarters, Arusha, Tanzania, 25th September, 2026: The East African Community\u2019s political integration agenda has taken another step forward as the Republic of South Sudan begins national consultations on the drafting of the Constitution for the EAC Political Confederation. The consultations, launched in Juba, South Sudan, on 24 September 2026, will run until 7 October 202",
+   "id": "982ed19cdea2",
+   "title": "Onyando & another v Nyangena (Environment and Land Appeal E013 of 2025) [2026] KEELC 5553 (KLR) (22 September 2026) (Judgment)",
+   "url": "https://new.kenyalaw.org/akn/ke/judgment/keelc/2026/5553/eng@2026-09-22",
+   "summary": "Onyando & another v Nyangena (Environment and Land Appeal E013 of 2025) [2026] KEELC 5553 (KLR) (22 September 2026) (Judgment)",
    "kind": "item",
-   "source": "East African Community \u2014 Secretariat news",
-   "source_id": "eac-secretariat",
+   "source": "Kenya Gazette (Kenya Law)",
+   "source_id": "ke-gazette",
    "tier": 1,
-   "country": "Regional",
-   "category": "body",
-   "segments": [
-    "city"
-   ],
-   "first_seen": "2026-09-25T18:02+03:00",
-   "published": "2026-09-25",
-   "verdict": "CONSIDER"
-  },
-  {
-   "score": 77.1,
-   "components": {
-    "tier": 20,
-    "category": 5,
-    "lead": 3.6,
-    "relevance": 24,
-    "freshness": 14.5,
-    "corroborated": 10
-   },
-   "keywords": [
-    "adr",
-    "revpar",
-    "hotel",
-    "guest"
-   ],
-   "shock_terms": [],
-   "dedupe_match": null,
-   "dedupe_similarity": 0.25,
-   "id": "70a57d1d2832",
-   "title": "AI Remembers What She Liked, Not Where She Stayed, U.S. ADR Hits an All-Time Record at $179, Hotel Restaurants Have a Structure Problem Not a Menu Problem",
-   "url": "https://www.hospitalitynet.org/editorial/4134582/ai-remembers-what-she-liked-not-where-she-stayed-us-adr-hits-an-all-time-record-at-179-hotel-restaurants-have-a-structure-problem-not-a-menu-problem",
-   "summary": "Friday brought hospitality.today's argument that AI assistants are reducing hotels to a set of conditions rather than named properties as guest preferences persist across trips, CoStar data showing U.S. ADR hitting an all-time record high of $179.30 with RevPAR up 10.4% for the week, and a vetera...",
-   "kind": "item",
-   "source": "Hospitality Net \u2014 Africa announcements",
-   "source_id": "dev-hospitalitynet-africa",
-   "tier": 2,
-   "country": "REG",
-   "category": "trade",
+   "country": "KE",
+   "category": "gazette",
    "segments": [
     "city",
     "bush",
     "beach"
    ],
-   "first_seen": "2026-09-25T18:02+03:00",
-   "published": "2026-09-25",
-   "verdict": "CONSIDER"
+   "first_seen": "2026-09-26T02:09+03:00",
+   "published": "2026-09-22",
+   "verdict": "CHECK \u2014 source date older than the window"
   },
   {
-   "score": 76.1,
+   "score": 81.7,
    "components": {
     "tier": 40,
-    "category": 24,
-    "lead": 3.6,
+    "category": 20,
+    "lead": 12.0,
     "relevance": 0,
-    "freshness": 14.5,
+    "freshness": 19.7,
+    "stale_trap": -10
+   },
+   "keywords": [],
+   "shock_terms": [],
+   "dedupe_match": null,
+   "dedupe_similarity": 0.2,
+   "id": "4ba9c8d83814",
+   "title": "Mokaya & another v Omwenga & 2 others (Environment and Land Case E008 of 2022) [2026] KEELC 5552 (KLR) (22 September 2026) (Ruling)",
+   "url": "https://new.kenyalaw.org/akn/ke/judgment/keelc/2026/5552/eng@2026-09-22",
+   "summary": "Mokaya & another v Omwenga & 2 others (Environment and Land Case E008 of 2022) [2026] KEELC 5552 (KLR) (22 September 2026) (Ruling)",
+   "kind": "item",
+   "source": "Kenya Gazette (Kenya Law)",
+   "source_id": "ke-gazette",
+   "tier": 1,
+   "country": "KE",
+   "category": "gazette",
+   "segments": [
+    "city",
+    "bush",
+    "beach"
+   ],
+   "first_seen": "2026-09-26T02:09+03:00",
+   "published": "2026-09-22",
+   "verdict": "CHECK \u2014 source date older than the window"
+  },
+  {
+   "score": 81.7,
+   "components": {
+    "tier": 40,
+    "category": 20,
+    "lead": 12.0,
+    "relevance": 0,
+    "freshness": 19.7,
+    "stale_trap": -10
+   },
+   "keywords": [],
+   "shock_terms": [],
+   "dedupe_match": null,
+   "dedupe_similarity": 0.2,
+   "id": "ce370e4fb923",
+   "title": "In re Estate of Wamukoya (Deceased) (Succession Cause 547 of 2010) [2026] KEHC 13863 (KLR) (21 September 2026) (Interim Judgment)",
+   "url": "https://new.kenyalaw.org/akn/ke/judgment/kehc/2026/13863/eng@2026-09-21",
+   "summary": "In re Estate of Wamukoya (Deceased) (Succession Cause 547 of 2010) [2026] KEHC 13863 (KLR) (21 September 2026) (Interim Judgment)",
+   "kind": "item",
+   "source": "Kenya Gazette (Kenya Law)",
+   "source_id": "ke-gazette",
+   "tier": 1,
+   "country": "KE",
+   "category": "gazette",
+   "segments": [
+    "city",
+    "bush",
+    "beach"
+   ],
+   "first_seen": "2026-09-26T02:09+03:00",
+   "published": "2026-09-21",
+   "verdict": "CHECK \u2014 source date older than the window"
+  },
+  {
+   "score": 81.7,
+   "components": {
+    "tier": 40,
+    "category": 20,
+    "lead": 12.0,
+    "relevance": 0,
+    "freshness": 19.7,
+    "stale_trap": -10
+   },
+   "keywords": [],
+   "shock_terms": [],
+   "dedupe_match": null,
+   "dedupe_similarity": 0.2,
+   "id": "e2194a600e2b",
+   "title": "In re Estate of Osuka (Deceased) (Succession Cause 252 of 1994) [2026] KEHC 13861 (KLR) (22 September 2026) (Ruling)",
+   "url": "https://new.kenyalaw.org/akn/ke/judgment/kehc/2026/13861/eng@2026-09-22",
+   "summary": "In re Estate of Osuka (Deceased) (Succession Cause 252 of 1994) [2026] KEHC 13861 (KLR) (22 September 2026) (Ruling)",
+   "kind": "item",
+   "source": "Kenya Gazette (Kenya Law)",
+   "source_id": "ke-gazette",
+   "tier": 1,
+   "country": "KE",
+   "category": "gazette",
+   "segments": [
+    "city",
+    "bush",
+    "beach"
+   ],
+   "first_seen": "2026-09-26T02:09+03:00",
+   "published": "2026-09-22",
+   "verdict": "CHECK \u2014 source date older than the window"
+  },
+  {
+   "score": 81.7,
+   "components": {
+    "tier": 40,
+    "category": 20,
+    "lead": 12.0,
+    "relevance": 0,
+    "freshness": 19.7,
+    "stale_trap": -10
+   },
+   "keywords": [],
+   "shock_terms": [],
+   "dedupe_match": null,
+   "dedupe_similarity": 0.2,
+   "id": "7a0041a48da1",
+   "title": "Kinyua v Waithiru (Enviromental and Land Originating Summons E003 of 2024) [2026] KEELC 5551 (KLR) (21 September 2026) (Judgment)",
+   "url": "https://new.kenyalaw.org/akn/ke/judgment/keelc/2026/5551/eng@2026-09-21",
+   "summary": "Kinyua v Waithiru (Enviromental and Land Originating Summons E003 of 2024) [2026] KEELC 5551 (KLR) (21 September 2026) (Judgment)",
+   "kind": "item",
+   "source": "Kenya Gazette (Kenya Law)",
+   "source_id": "ke-gazette",
+   "tier": 1,
+   "country": "KE",
+   "category": "gazette",
+   "segments": [
+    "city",
+    "bush",
+    "beach"
+   ],
+   "first_seen": "2026-09-26T02:09+03:00",
+   "published": "2026-09-21",
+   "verdict": "CHECK \u2014 source date older than the window"
+  },
+  {
+   "score": 81.7,
+   "components": {
+    "tier": 40,
+    "category": 20,
+    "lead": 12.0,
+    "relevance": 0,
+    "freshness": 19.7,
+    "stale_trap": -10
+   },
+   "keywords": [],
+   "shock_terms": [],
+   "dedupe_match": null,
+   "dedupe_similarity": 0.2,
+   "id": "bd4aa5e07631",
+   "title": "Kinyagia v The Director of Criminal Investigations (DCI) & 3 others (Petition E600 of 2025) [2026] KEHC 13860 (KLR) (22 September 2026) (Judgment)",
+   "url": "https://new.kenyalaw.org/akn/ke/judgment/kehc/2026/13860/eng@2026-09-22",
+   "summary": "Kinyagia v The Director of Criminal Investigations (DCI) & 3 others (Petition E600 of 2025) [2026] KEHC 13860 (KLR) (22 September 2026) (Judgment)",
+   "kind": "item",
+   "source": "Kenya Gazette (Kenya Law)",
+   "source_id": "ke-gazette",
+   "tier": 1,
+   "country": "KE",
+   "category": "gazette",
+   "segments": [
+    "city",
+    "bush",
+    "beach"
+   ],
+   "first_seen": "2026-09-26T02:09+03:00",
+   "published": "2026-09-22",
+   "verdict": "CHECK \u2014 source date older than the window"
+  },
+  {
+   "score": 81.7,
+   "components": {
+    "tier": 40,
+    "category": 20,
+    "lead": 12.0,
+    "relevance": 0,
+    "freshness": 19.7,
+    "stale_trap": -10
+   },
+   "keywords": [],
+   "shock_terms": [],
+   "dedupe_match": null,
+   "dedupe_similarity": 0.2,
+   "id": "5ae733d790e3",
+   "title": "Krystalline Salt Ltd (Gongoni) v Nyakioga (Employment and Labour Relations Appeal E023 of 2024) [2026] KEELRC 2483 (KLR) (21 September 2026) (Judgment)",
+   "url": "https://new.kenyalaw.org/akn/ke/judgment/keelrc/2026/2483/eng@2026-09-21",
+   "summary": "Krystalline Salt Ltd (Gongoni) v Nyakioga (Employment and Labour Relations Appeal E023 of 2024) [2026] KEELRC 2483 (KLR) (21 September 2026) (Judgment)",
+   "kind": "item",
+   "source": "Kenya Gazette (Kenya Law)",
+   "source_id": "ke-gazette",
+   "tier": 1,
+   "country": "KE",
+   "category": "gazette",
+   "segments": [
+    "city",
+    "bush",
+    "beach"
+   ],
+   "first_seen": "2026-09-26T02:09+03:00",
+   "published": "2026-09-21",
+   "verdict": "CHECK \u2014 source date older than the window"
+  },
+  {
+   "score": 81.7,
+   "components": {
+    "tier": 40,
+    "category": 20,
+    "lead": 12.0,
+    "relevance": 0,
+    "freshness": 19.7,
+    "stale_trap": -10
+   },
+   "keywords": [],
+   "shock_terms": [],
+   "dedupe_match": null,
+   "dedupe_similarity": 0.2,
+   "id": "b581100d50a3",
+   "title": "Muthembwa v Kamau (Sued as the Administrator of the Estate of Charles Kamau Kanyaru t/a Igma General Land Consultants) (Environment and Land Appeal E046 of 2024) [2026] KEELC 5547 (KLR) (22 September 2026) (Judgment)",
+   "url": "https://new.kenyalaw.org/akn/ke/judgment/keelc/2026/5547/eng@2026-09-22",
+   "summary": "Muthembwa v Kamau (Sued as the Administrator of the Estate of Charles Kamau Kanyaru t/a Igma General Land Consultants) (Environment and Land Appeal E046 of 2024) [2026] KEELC 5547 (KLR) (22 September 2026) (Judgment)",
+   "kind": "item",
+   "source": "Kenya Gazette (Kenya Law)",
+   "source_id": "ke-gazette",
+   "tier": 1,
+   "country": "KE",
+   "category": "gazette",
+   "segments": [
+    "city",
+    "bush",
+    "beach"
+   ],
+   "first_seen": "2026-09-26T02:09+03:00",
+   "published": "2026-09-22",
+   "verdict": "CHECK \u2014 source date older than the window"
+  },
+  {
+   "score": 81.7,
+   "components": {
+    "tier": 40,
+    "category": 20,
+    "lead": 12.0,
+    "relevance": 0,
+    "freshness": 19.7,
+    "stale_trap": -10
+   },
+   "keywords": [],
+   "shock_terms": [],
+   "dedupe_match": null,
+   "dedupe_similarity": 0.2,
+   "id": "f14c1279dc8d",
+   "title": "Thairu v Karuru (Environment and Land Case E066 of 2023) [2026] KEELC 5546 (KLR) (22 September 2026) (Ruling)",
+   "url": "https://new.kenyalaw.org/akn/ke/judgment/keelc/2026/5546/eng@2026-09-22",
+   "summary": "Thairu v Karuru (Environment and Land Case E066 of 2023) [2026] KEELC 5546 (KLR) (22 September 2026) (Ruling)",
+   "kind": "item",
+   "source": "Kenya Gazette (Kenya Law)",
+   "source_id": "ke-gazette",
+   "tier": 1,
+   "country": "KE",
+   "category": "gazette",
+   "segments": [
+    "city",
+    "bush",
+    "beach"
+   ],
+   "first_seen": "2026-09-26T02:09+03:00",
+   "published": "2026-09-22",
+   "verdict": "CHECK \u2014 source date older than the window"
+  },
+  {
+   "score": 81.7,
+   "components": {
+    "tier": 40,
+    "category": 20,
+    "lead": 12.0,
+    "relevance": 0,
+    "freshness": 19.7,
+    "stale_trap": -10
+   },
+   "keywords": [],
+   "shock_terms": [],
+   "dedupe_match": null,
+   "dedupe_similarity": 0.2,
+   "id": "ad608a2e08e9",
+   "title": "Kipkirui (Suing Aa an Administrator of the Estate of the Late Kipkeori Muyila-Deceased) v Abdi & 2 others (Environment and Land Appeal E062 of 2024) [2026] KEELC 5545 (KLR) (22 September 2026) (Judgment)",
+   "url": "https://new.kenyalaw.org/akn/ke/judgment/keelc/2026/5545/eng@2026-09-22",
+   "summary": "Kipkirui (Suing Aa an Administrator of the Estate of the Late Kipkeori Muyila-Deceased) v Abdi & 2 others (Environment and Land Appeal E062 of 2024) [2026] KEELC 5545 (KLR) (22 September 2026) (Judgment)",
+   "kind": "item",
+   "source": "Kenya Gazette (Kenya Law)",
+   "source_id": "ke-gazette",
+   "tier": 1,
+   "country": "KE",
+   "category": "gazette",
+   "segments": [
+    "city",
+    "bush",
+    "beach"
+   ],
+   "first_seen": "2026-09-26T02:09+03:00",
+   "published": "2026-09-22",
+   "verdict": "CHECK \u2014 source date older than the window"
+  },
+  {
+   "score": 81.7,
+   "components": {
+    "tier": 40,
+    "category": 20,
+    "lead": 12.0,
+    "relevance": 0,
+    "freshness": 19.7,
+    "stale_trap": -10
+   },
+   "keywords": [],
+   "shock_terms": [],
+   "dedupe_match": null,
+   "dedupe_similarity": 0.2,
+   "id": "7708428212ac",
+   "title": "Republic v Omusilwa (Criminal Case E050 of 2022) [2026] KEHC 13852 (KLR) (Crim) (22 September 2026) (Judgment)",
+   "url": "https://new.kenyalaw.org/akn/ke/judgment/kehc/2026/13852/eng@2026-09-22",
+   "summary": "Republic v Omusilwa (Criminal Case E050 of 2022) [2026] KEHC 13852 (KLR) (Crim) (22 September 2026) (Judgment)",
+   "kind": "item",
+   "source": "Kenya Gazette (Kenya Law)",
+   "source_id": "ke-gazette",
+   "tier": 1,
+   "country": "KE",
+   "category": "gazette",
+   "segments": [
+    "city",
+    "bush",
+    "beach"
+   ],
+   "first_seen": "2026-09-26T02:09+03:00",
+   "published": "2026-09-22",
+   "verdict": "CHECK \u2014 source date older than the window"
+  },
+  {
+   "score": 81.7,
+   "components": {
+    "tier": 40,
+    "category": 20,
+    "lead": 12.0,
+    "relevance": 0,
+    "freshness": 19.7,
+    "stale_trap": -10
+   },
+   "keywords": [],
+   "shock_terms": [],
+   "dedupe_match": null,
+   "dedupe_similarity": 0.2,
+   "id": "20682a900617",
+   "title": "FBS v Republic (Criminal Appeal E017 of 2025) [2026] KEHC 13850 (KLR) (21 September 2026) (Judgment)",
+   "url": "https://new.kenyalaw.org/akn/ke/judgment/kehc/2026/13850/eng@2026-09-21",
+   "summary": "FBS v Republic (Criminal Appeal E017 of 2025) [2026] KEHC 13850 (KLR) (21 September 2026) (Judgment)",
+   "kind": "item",
+   "source": "Kenya Gazette (Kenya Law)",
+   "source_id": "ke-gazette",
+   "tier": 1,
+   "country": "KE",
+   "category": "gazette",
+   "segments": [
+    "city",
+    "bush",
+    "beach"
+   ],
+   "first_seen": "2026-09-26T02:09+03:00",
+   "published": "2026-09-21",
+   "verdict": "CHECK \u2014 source date older than the window"
+  },
+  {
+   "score": 81.7,
+   "components": {
+    "tier": 40,
+    "category": 20,
+    "lead": 12.0,
+    "relevance": 0,
+    "freshness": 19.7,
+    "stale_trap": -10
+   },
+   "keywords": [],
+   "shock_terms": [],
+   "dedupe_match": null,
+   "dedupe_similarity": 0.2,
+   "id": "db80ab2db707",
+   "title": "Kamau v Kamau (Civil Appeal E417 of 2023) [2026] KEHC 13844 (KLR) (22 September 2026) (Ruling)",
+   "url": "https://new.kenyalaw.org/akn/ke/judgment/kehc/2026/13844/eng@2026-09-22",
+   "summary": "Kamau v Kamau (Civil Appeal E417 of 2023) [2026] KEHC 13844 (KLR) (22 September 2026) (Ruling)",
+   "kind": "item",
+   "source": "Kenya Gazette (Kenya Law)",
+   "source_id": "ke-gazette",
+   "tier": 1,
+   "country": "KE",
+   "category": "gazette",
+   "segments": [
+    "city",
+    "bush",
+    "beach"
+   ],
+   "first_seen": "2026-09-26T02:09+03:00",
+   "published": "2026-09-22",
+   "verdict": "CHECK \u2014 source date older than the window"
+  },
+  {
+   "score": 81.7,
+   "components": {
+    "tier": 40,
+    "category": 20,
+    "lead": 12.0,
+    "relevance": 0,
+    "freshness": 19.7,
+    "stale_trap": -10
+   },
+   "keywords": [],
+   "shock_terms": [],
+   "dedupe_match": null,
+   "dedupe_similarity": 0.2,
+   "id": "f05519932dac",
+   "title": "Mukopi & 9 others v Nairobi County Government & 2 others (Cause E1045 of 2023) [2026] KEELRC 2481 (KLR) (22 September 2026) (Judgment)",
+   "url": "https://new.kenyalaw.org/akn/ke/judgment/keelrc/2026/2481/eng@2026-09-22",
+   "summary": "Mukopi & 9 others v Nairobi County Government & 2 others (Cause E1045 of 2023) [2026] KEELRC 2481 (KLR) (22 September 2026) (Judgment)",
+   "kind": "item",
+   "source": "Kenya Gazette (Kenya Law)",
+   "source_id": "ke-gazette",
+   "tier": 1,
+   "country": "KE",
+   "category": "gazette",
+   "segments": [
+    "city",
+    "bush",
+    "beach"
+   ],
+   "first_seen": "2026-09-26T02:09+03:00",
+   "published": "2026-09-22",
+   "verdict": "CHECK \u2014 source date older than the window"
+  },
+  {
+   "score": 80.5,
+   "components": {
+    "tier": 40,
+    "category": 10,
+    "lead": 16.8,
+    "relevance": 0,
+    "freshness": 19.7,
     "undated": -6
    },
    "keywords": [],
    "shock_terms": [],
    "dedupe_match": null,
-   "dedupe_similarity": 0.2,
-   "id": "d34f7d6b86c8",
-   "title": "Communicable disease threats report, 19-25 September, week 39",
-   "url": "https://www.ecdc.europa.eu/en/publications-data/communicable-disease-threats-report-19-25-september-week-39",
+   "dedupe_similarity": 0.0,
+   "id": "29a66da8ce40",
+   "title": "\ud835\udc12\ud835\udc04\ud835\udc0d\ud835\udc00\ud835\udc13\ud835\udc04 \ud835\udc16\ud835\udc11\ud835\udc00\ud835\udc0f\ud835\udc12 \ud835\udc14\ud835\udc0f \ud835\udc0a\ud835\udc08\ud835\udc0b\ud835\udc08\ud835\udc05\ud835\udc08 \ud835\udc12\ud835\udc08\ud835\udc13\ud835\udc13\ud835\udc08\ud835\udc0d\ud835\udc06 \ud835\udc00\ud835\udc05\ud835\udc13\ud835\udc04\ud835\udc11 \ud835\udc16\ud835\udc04\ud835\udc04\ud835\udc0a \ud835\udc0e\ud835\udc05 \ud835\udc12\ud835\udc02\ud835\udc11\ud835\udc14\ud835\udc13\ud835\udc08\ud835\udc0d\ud835\udc18 \ud835\udc00\ud835\udc0d\ud835\udc03 \ud835\udc0f\ud835\udc14\ud835\udc01\ud835\udc0b\ud835\udc08\ud835\udc02 \ud835\udc04\ud835\udc0d\ud835\udc06\ud835\udc00\ud835\udc06\ud835\udc04\ud835\udc0c\ud835\udc04\ud835\udc0d\ud835\udc13",
+   "url": "https://www.parliament.go.ke/index.php/node/26439",
    "summary": "",
    "kind": "item",
-   "source": "ECDC weekly communicable disease threats report",
-   "source_id": "ecdc-cdtr",
+   "source": "Parliament of Kenya \u2014 bills & papers",
+   "source_id": "ke-parliament",
    "tier": 1,
-   "country": "GLOBAL",
-   "category": "health",
+   "country": "KE",
+   "category": "legislature",
    "segments": [
     "city",
     "bush",
     "beach"
    ],
-   "first_seen": "2026-09-25T18:02+03:00",
+   "first_seen": "2026-09-26T02:09+03:00",
    "published": null,
    "verdict": "CONSIDER"
   },
   {
-   "score": 75.6,
-   "components": {
-    "tier": 20,
-    "category": 14,
-    "lead": 8.4,
-    "relevance": 4,
-    "freshness": 19.2,
-    "corroborated": 10
-   },
-   "keywords": [
-    "airline"
-   ],
-   "shock_terms": [],
-   "dedupe_match": null,
-   "dedupe_similarity": 0.0,
-   "id": "f588d2281b5b",
-   "title": "Philippine Airlines Resumes India Service From Dec 2026",
-   "url": "https://www.aeroroutes.com/eng/60925-prnw26in",
-   "summary": "Published at 0800PDT / 1500GMT 25SEP26 Philippine Airlines (PAL) today (25SEP26) announced service launch to India, as the airline launches service to Mumbai while resume Delhi. Delhi was last served via Bangkok between 2011 and 2013. Manila \u2013 Delhi eff 14DEC26 3 weekly A321neo (Last served until June 2013 via Bangkok) PR642 MNL2240 \u2013 0300+1DEL 321 135 PR643 DEL0815 \u2013 1700MNL 321 246 Manila \u2013 Mumb",
-   "kind": "item",
-   "source": "AeroRoutes schedule filings",
-   "source_id": "aeroroutes",
-   "tier": 2,
-   "country": "GLOBAL",
-   "category": "aviation-tracker",
-   "segments": [
-    "city",
-    "bush",
-    "beach"
-   ],
-   "first_seen": "2026-09-25T22:21+03:00",
-   "published": "2026-09-25",
-   "verdict": "CONSIDER"
-  },
-  {
-   "score": 74.4,
+   "score": 78.7,
    "components": {
     "tier": 40,
-    "category": 24,
-    "lead": 2.4,
-    "relevance": 0,
-    "freshness": 14.0,
-    "undated": -6
-   },
-   "keywords": [],
-   "shock_terms": [],
-   "dedupe_match": null,
-   "dedupe_similarity": 0.2,
-   "id": "0f3236c11c1d",
-   "title": "Communicable disease threats report, 19-25 September, week 39",
-   "url": "https://www.ecdc.europa.eu/en/publications-data/communicable-disease-threats-report-19-25-september-week-39",
-   "summary": "",
-   "kind": "item",
-   "source": "ECDC \u2014 DRC/Uganda Ebola outbreak page",
-   "source_id": "ecdc-ebola",
-   "tier": 1,
-   "country": "GLOBAL",
-   "category": "health",
-   "segments": [
-    "city",
-    "bush"
-   ],
-   "first_seen": "2026-09-25T17:37+03:00",
-   "published": null,
-   "verdict": "CONSIDER"
-  },
-  {
-   "score": 73.1,
-   "components": {
-    "tier": 20,
-    "category": 5,
-    "lead": 3.6,
-    "relevance": 20,
-    "freshness": 14.5,
-    "corroborated": 10
-   },
-   "keywords": [
-    "adr",
-    "revpar",
-    "hotel"
-   ],
-   "shock_terms": [],
-   "dedupe_match": null,
-   "dedupe_similarity": 0.25,
-   "id": "903e3d30fb55",
-   "title": "U.S. hotel results for week ending 19 September",
-   "url": "https://www.hospitalitynet.org/news/4134577/us-hotel-results-for-week-ending-19-september",
-   "summary": "U.S. hotels posted a 10.4% RevPAR gain for the week of 13-19 September 2026, with ADR hitting an all-time record high of $179.30, driven by strong performances in Chicago and Washington, D.C.",
-   "kind": "item",
-   "source": "Hospitality Net \u2014 Africa announcements",
-   "source_id": "dev-hospitalitynet-africa",
-   "tier": 2,
-   "country": "REG",
-   "category": "trade",
-   "segments": [
-    "city",
-    "bush",
-    "beach"
-   ],
-   "first_seen": "2026-09-25T18:02+03:00",
-   "published": "2026-09-25",
-   "verdict": "CONSIDER"
-  },
-  {
-   "score": 70.4,
-   "components": {
-    "tier": 20,
-    "category": 14,
-    "lead": 8.4,
-    "relevance": 4,
-    "freshness": 14.0,
-    "corroborated": 10
-   },
-   "keywords": [
-    "flight"
-   ],
-   "shock_terms": [],
-   "dedupe_match": null,
-   "dedupe_similarity": 0.0,
-   "id": "bca3e5e74623",
-   "title": "Fiji Airways Removes Planned Noumea Flight Increases in NW26",
-   "url": "https://www.aeroroutes.com/eng/260925-fjnw26nou",
-   "summary": "Published at 0600PDT / 1300GMT 25SEP26 Fiji Airways in recent schedule update filed additional changes to Nadi \u2013 Noumea service. The Oneworld member previously planned to add 3rd weekly flight from 13DEC26, however this is no longer in effect. Planned 2 weekly schedule with ATR72 as follows. FJ291 NAN0800 \u2013 1000NOU AT7 25 FJ290 NOU1100 \u2013 1500NAN AT7 25",
-   "kind": "item",
-   "source": "AeroRoutes schedule filings",
-   "source_id": "aeroroutes",
-   "tier": 2,
-   "country": "GLOBAL",
-   "category": "aviation-tracker",
-   "segments": [
-    "city",
-    "bush",
-    "beach"
-   ],
-   "first_seen": "2026-09-25T17:37+03:00",
-   "published": "2026-09-25",
-   "verdict": "CONSIDER"
-  },
-  {
-   "score": 70.4,
-   "components": {
-    "tier": 20,
-    "category": 14,
-    "lead": 8.4,
-    "relevance": 4,
-    "freshness": 14.0,
-    "corroborated": 10
-   },
-   "keywords": [
-    "flight"
-   ],
-   "shock_terms": [],
-   "dedupe_match": null,
-   "dedupe_similarity": 0.0,
-   "id": "4b9d8273f427",
-   "title": "Air China NW26 Beijing Daxing \u2013 Hong Kong / Seoul Schedule Changes",
-   "url": "https://www.aeroroutes.com/eng/260925-canw26pkx",
-   "summary": "Published at 0400PDT / 1100GMT 25SEP26 Air China in the last few weeks filed schedule changes for flights from Beijing Daxing to Hong Kong and Seoul Incheon, scheduled from 25OCT26. Beijing Daxing \u2013 Hong Kong eff 25OCT26 Beijing departure moves to late-afternoon instead of early-afternoon, Hong Kong departure moves from afternoon to morning hours. 1 daily 737-800 CA763 PKX1615 \u2013 2000HKG 738 D CA76",
-   "kind": "item",
-   "source": "AeroRoutes schedule filings",
-   "source_id": "aeroroutes",
-   "tier": 2,
-   "country": "GLOBAL",
-   "category": "aviation-tracker",
-   "segments": [
-    "city",
-    "bush",
-    "beach"
-   ],
-   "first_seen": "2026-09-25T17:37+03:00",
-   "published": "2026-09-25",
-   "verdict": "CONSIDER"
-  },
-  {
-   "score": 70.4,
-   "components": {
-    "tier": 20,
-    "category": 14,
-    "lead": 8.4,
-    "relevance": 4,
-    "freshness": 14.0,
-    "corroborated": 10
-   },
-   "keywords": [
-    "flight"
-   ],
-   "shock_terms": [],
-   "dedupe_match": null,
-   "dedupe_similarity": 0.0,
-   "id": "fb1dc3078da1",
-   "title": "Air China Increases Hangzhou \u2013 Hong Kong Flights in NW26",
-   "url": "https://www.aeroroutes.com/eng/260925-canw26hghhkg",
-   "summary": "Published at 0300PDT / 1000GMT 25SEP26 Star Alliance member Air China during Northern winter 2026/27 season increases Hangzhou \u2013 Hong Kong flights, as the carrier adds 2nd daily flight from 25OCT26, with Airbus A320 aircraft. CA793 HGH0845 \u2013 1135HKG 320 D CA727 HGH1535 \u2013 1820HKG 321 D CA794 HKG1235 \u2013 1455HGH 320 D CA728 HKG1935 \u2013 2155HGH 321 D",
-   "kind": "item",
-   "source": "AeroRoutes schedule filings",
-   "source_id": "aeroroutes",
-   "tier": 2,
-   "country": "GLOBAL",
-   "category": "aviation-tracker",
-   "segments": [
-    "city",
-    "bush",
-    "beach"
-   ],
-   "first_seen": "2026-09-25T17:37+03:00",
-   "published": "2026-09-25",
-   "verdict": "CONSIDER"
-  },
-  {
-   "score": 67.0,
-   "components": {
-    "tier": 40,
-    "category": 13,
-    "lead": 6.0,
-    "relevance": 0,
-    "freshness": 14.0,
-    "undated": -6
-   },
-   "keywords": [],
-   "shock_terms": [],
-   "dedupe_match": null,
-   "dedupe_similarity": 0.2,
-   "id": "c72009750669",
-   "title": "GOVERNMENT CONTINUES TO STRENGTHEN AIR NAVIGATION SERVICES TO ENHANCE SAFETY - 25 September, 2026",
-   "url": "https://www.tcaa.go.tz/news/government-continues-to-strengthen-air-navigation-services-to-enhance-safety",
-   "summary": "",
-   "kind": "item",
-   "source": "Tanzania Civil Aviation Authority",
-   "source_id": "tz-tcaa",
-   "tier": 1,
-   "country": "TZ",
-   "category": "aviation",
-   "segments": [
-    "city",
-    "bush",
-    "beach"
-   ],
-   "first_seen": "2026-09-25T17:37+03:00",
-   "published": null,
-   "verdict": "weak"
-  },
-  {
-   "score": 65.1,
-   "components": {
-    "tier": 20,
-    "category": 5,
-    "lead": 3.6,
+    "category": 20,
+    "lead": 12.0,
     "relevance": 12,
-    "freshness": 14.5,
-    "corroborated": 10
+    "freshness": 19.7,
+    "stale_trap": -25
    },
    "keywords": [
-    "vat",
-    "hotel"
-   ],
-   "shock_terms": [],
-   "dedupe_match": null,
-   "dedupe_similarity": 0.0,
-   "id": "c5ad738c7845",
-   "title": "The hidden revenue opportunity in your hotel budget",
-   "url": "https://www.hospitalitynet.org/podcast/4134580/the-hidden-revenue-opportunity-in-your-hotel-budget",
-   "summary": "Revinate's 2026 Secret Shopped Call Report, based on 308 mystery calls to luxury and upscale properties, reveals where AI can handle routine queries and where human agents remain critical for high-value reservations.",
-   "kind": "item",
-   "source": "Hospitality Net \u2014 Africa announcements",
-   "source_id": "dev-hospitalitynet-africa",
-   "tier": 2,
-   "country": "REG",
-   "category": "trade",
-   "segments": [
-    "city",
-    "bush",
-    "beach"
-   ],
-   "first_seen": "2026-09-25T18:02+03:00",
-   "published": "2026-09-25",
-   "verdict": "weak"
-  },
-  {
-   "score": 64.0,
-   "components": {
-    "tier": 20,
-    "category": 4,
-    "lead": 0.0,
-    "relevance": 16,
-    "freshness": 14.0,
-    "corroborated": 10
-   },
-   "keywords": [
-    "marburg",
+    "tax",
     "investment"
    ],
    "shock_terms": [],
    "dedupe_match": null,
-   "dedupe_similarity": 0.0,
-   "id": "27ef126dff22",
-   "title": "Rwanda Uses Marburg Experience to Make Case for Pandemic Preparedness",
-   "url": "https://www.ktpress.rw/2026/09/rwanda-uses-marburg-experience-to-make-case-for-pandemic-preparedness",
-   "summary": "NEW YORK \u2013 The Pandemic Fund warns that pandemic preparedness should be treated as a continuous investment rather than an emergency expense by building strong systems needed to confront pandemics\u2026 The post Rwanda Uses Marburg Experience to Make Case for Pandemic Preparedness appeared first on KT PRESS .",
+   "dedupe_similarity": 0.2,
+   "id": "746889ccb325",
+   "title": "SMIC Investments Ltd v Anand & 2 others (Miscellaneous Civil Suit E926 of 2024) [2026] KEHC 13847 (KLR) (Commercial and Tax) (14 September 2026) (Ruling)",
+   "url": "https://new.kenyalaw.org/akn/ke/judgment/kehc/2026/13847/eng@2026-09-14",
+   "summary": "SMIC Investments Ltd v Anand & 2 others (Miscellaneous Civil Suit E926 of 2024) [2026] KEHC 13847 (KLR) (Commercial and Tax) (14 September 2026) (Ruling)",
    "kind": "item",
-   "source": "KT Press (Rwanda)",
-   "source_id": "np-ktpress-rw",
-   "tier": 2,
-   "country": "RW",
-   "category": "press",
+   "source": "Kenya Gazette (Kenya Law)",
+   "source_id": "ke-gazette",
+   "tier": 1,
+   "country": "KE",
+   "category": "gazette",
    "segments": [
     "city",
     "bush",
     "beach"
    ],
-   "first_seen": "2026-09-25T17:37+03:00",
-   "published": "2026-09-25",
-   "verdict": "weak"
+   "first_seen": "2026-09-26T02:09+03:00",
+   "published": "2026-09-14",
+   "verdict": "CHECK \u2014 source date older than the window"
   },
   {
-   "score": 63.2,
+   "score": 74.7,
    "components": {
-    "tier": 20,
-    "category": 4,
-    "lead": 0.0,
+    "tier": 40,
+    "category": 20,
+    "lead": 12.0,
     "relevance": 8,
-    "freshness": 19.2,
-    "undated": -6,
-    "shock": 18
-   },
-   "keywords": [
-    "strike"
-   ],
-   "shock_terms": [
-    "strike"
-   ],
-   "dedupe_match": null,
-   "dedupe_similarity": 0.0,
-   "id": "2471f157082f",
-   "title": "National What to do and what not to do when El Ni\u00f1o strikes 6 hours ago - 2 min read",
-   "url": "https://www.thecitizen.co.tz/tanzania/news/national/what-to-do-and-what-not-to-do-when-el-ni%C3%B1o-strikes-5609032",
-   "summary": "",
-   "kind": "item",
-   "source": "The Citizen (Tanzania)",
-   "source_id": "np-citizen-tz",
-   "tier": 2,
-   "country": "TZ",
-   "category": "press",
-   "segments": [
-    "city",
-    "bush",
-    "beach"
-   ],
-   "first_seen": "2026-09-25T22:21+03:00",
-   "published": null,
-   "verdict": "weak"
-  },
-  {
-   "score": 61.2,
-   "components": {
-    "tier": 20,
-    "category": 4,
-    "lead": 0.0,
-    "relevance": 8,
-    "freshness": 19.2,
-    "corroborated": 10
+    "freshness": 19.7,
+    "stale_trap": -25
    },
    "keywords": [
     "tax"
    ],
    "shock_terms": [],
    "dedupe_match": null,
-   "dedupe_similarity": 0.0,
-   "id": "85bf736fd462",
-   "title": "Why EAC single-currency plan hinges on how states tax, spend and borrow",
-   "url": "https://www.monitor.co.ug/uganda/news/national/why-eac-single-currency-plan-hinges-on-how-states-tax-spend-and-borrow-5609044",
-   "summary": "The EAC is reviewing measures to strengthen public financial management and coordination of...",
+   "dedupe_similarity": 0.2,
+   "id": "91b444478797",
+   "title": "Aston Design and Build Ltd v Gatete (Also Known as Miriam Njeri Koechler) (Miscellaneous Application E006 of 2025) [2026] KEHC 13859 (KLR) (Commercial and Tax) (17 September 2026) (Ruling)",
+   "url": "https://new.kenyalaw.org/akn/ke/judgment/kehc/2026/13859/eng@2026-09-17",
+   "summary": "Aston Design and Build Ltd v Gatete (Also Known as Miriam Njeri Koechler) (Miscellaneous Application E006 of 2025) [2026] KEHC 13859 (KLR) (Commercial and Tax) (17 September 2026) (Ruling)",
    "kind": "item",
-   "source": "Daily Monitor (Uganda)",
-   "source_id": "np-monitor-ug",
-   "tier": 2,
-   "country": "UG",
-   "category": "press",
+   "source": "Kenya Gazette (Kenya Law)",
+   "source_id": "ke-gazette",
+   "tier": 1,
+   "country": "KE",
+   "category": "gazette",
    "segments": [
     "city",
     "bush",
     "beach"
    ],
-   "first_seen": "2026-09-25T22:21+03:00",
-   "published": "2026-09-25",
-   "verdict": "weak"
+   "first_seen": "2026-09-26T02:09+03:00",
+   "published": "2026-09-17",
+   "verdict": "CHECK \u2014 source date older than the window"
   },
   {
-   "score": 61.2,
+   "score": 74.7,
    "components": {
-    "tier": 20,
-    "category": 4,
-    "lead": 0.0,
+    "tier": 40,
+    "category": 20,
+    "lead": 12.0,
     "relevance": 8,
-    "freshness": 19.2,
-    "corroborated": 10
+    "freshness": 19.7,
+    "stale_trap": -25
    },
    "keywords": [
-    "election"
+    "tax"
    ],
    "shock_terms": [],
    "dedupe_match": null,
-   "dedupe_similarity": 0.0,
-   "id": "5e9a354d5edd",
-   "title": "Judge closes hearing of petition challenging minister Ssekindi's Kalungu victory",
-   "url": "https://www.monitor.co.ug/uganda/news/national/judge-closes-hearing-of-petition-challenging-minister-ssekindi-s-kalungu-victory-5608650",
-   "summary": "Minister Ssekindi denies irregularities as Kalungu election petition closes",
+   "dedupe_similarity": 0.2,
+   "id": "94dadefd227f",
+   "title": "Dhariwal & another v I & M Bank Ltd & another (Commercial Case 148 of 2019) [2026] KEHC 13858 (KLR) (Commercial and Tax) (18 September 2026) (Judgment)",
+   "url": "https://new.kenyalaw.org/akn/ke/judgment/kehc/2026/13858/eng@2026-09-18",
+   "summary": "Dhariwal & another v I & M Bank Ltd & another (Commercial Case 148 of 2019) [2026] KEHC 13858 (KLR) (Commercial and Tax) (18 September 2026) (Judgment)",
    "kind": "item",
-   "source": "Daily Monitor (Uganda)",
-   "source_id": "np-monitor-ug",
-   "tier": 2,
-   "country": "UG",
-   "category": "press",
+   "source": "Kenya Gazette (Kenya Law)",
+   "source_id": "ke-gazette",
+   "tier": 1,
+   "country": "KE",
+   "category": "gazette",
    "segments": [
     "city",
     "bush",
     "beach"
    ],
-   "first_seen": "2026-09-25T22:21+03:00",
-   "published": "2026-09-25",
-   "verdict": "weak"
+   "first_seen": "2026-09-26T02:09+03:00",
+   "published": "2026-09-18",
+   "verdict": "CHECK \u2014 source date older than the window"
   },
   {
-   "score": 61.1,
+   "score": 74.7,
    "components": {
-    "tier": 20,
-    "category": 5,
-    "lead": 3.6,
+    "tier": 40,
+    "category": 20,
+    "lead": 12.0,
     "relevance": 8,
-    "freshness": 14.5,
-    "corroborated": 10
+    "freshness": 19.7,
+    "stale_trap": -25
    },
    "keywords": [
-    "lodge",
-    "camp"
+    "tax"
    ],
    "shock_terms": [],
    "dedupe_match": null,
-   "dedupe_similarity": 0.0,
-   "id": "1d959536313a",
-   "title": "From Care to Career: Travelodge Expands Employability Programme to Manchester",
-   "url": "https://www.hospitalitynet.org/news/4134579/from-care-to-career-travelodge-expands-employability-programme-to-manchester",
-   "summary": "Travelodge expanded its 'Care to Career' programme to Manchester, offering care leavers aged 18-30 a four-day employability bootcamp with guaranteed interviews, following a successful 2024 Liverpool pilot.",
+   "dedupe_similarity": 0.2,
+   "id": "29b467cd25b1",
+   "title": "Yamin Construction Co Ltd v Arthi Highway Developers Ltd & another (Civil Case 22 of 2016) [2026] KEHC 13857 (KLR) (Commercial and Tax) (18 September 2026) (Judgment)",
+   "url": "https://new.kenyalaw.org/akn/ke/judgment/kehc/2026/13857/eng@2026-09-18",
+   "summary": "Yamin Construction Co Ltd v Arthi Highway Developers Ltd & another (Civil Case 22 of 2016) [2026] KEHC 13857 (KLR) (Commercial and Tax) (18 September 2026) (Judgment)",
    "kind": "item",
-   "source": "Hospitality Net \u2014 Africa announcements",
-   "source_id": "dev-hospitalitynet-africa",
-   "tier": 2,
-   "country": "REG",
-   "category": "trade",
+   "source": "Kenya Gazette (Kenya Law)",
+   "source_id": "ke-gazette",
+   "tier": 1,
+   "country": "KE",
+   "category": "gazette",
    "segments": [
     "city",
     "bush",
     "beach"
    ],
-   "first_seen": "2026-09-25T18:02+03:00",
-   "published": "2026-09-25",
-   "verdict": "weak"
+   "first_seen": "2026-09-26T02:09+03:00",
+   "published": "2026-09-18",
+   "verdict": "CHECK \u2014 source date older than the window"
   },
   {
-   "score": 60.0,
+   "score": 74.7,
    "components": {
-    "tier": 20,
-    "category": 4,
-    "lead": 0.0,
-    "relevance": 12,
-    "freshness": 14.0,
-    "corroborated": 10
+    "tier": 40,
+    "category": 20,
+    "lead": 12.0,
+    "relevance": 8,
+    "freshness": 19.7,
+    "stale_trap": -25
    },
    "keywords": [
-    "capacity",
-    "investment"
+    "tax"
    ],
    "shock_terms": [],
    "dedupe_match": null,
-   "dedupe_similarity": 0.0,
-   "id": "3e7db1ec1ff7",
-   "title": "TAEC invests 3bn/- for laboratory equipment",
-   "url": "https://dailynews.co.tz/taec-invests-3bn-for-laboratory-equipment",
-   "summary": "MWANZA: TANZANIA Atomic Energy Commission (TAEC) has invested approximately 3bn/- in the procurement of various laboratory equipment, a move aimed at enhancing its capacity to conduct tests, inspections, and research related to the safe use of nuclear technology in the country. TAEC\u2019s Director of Technology and Technical Services, Dr. Remigius Kawala, said that this investment \u2026 The post TAEC inve",
+   "dedupe_similarity": 0.4,
+   "id": "8bc1890dceeb",
+   "title": "Mathayo v Guaranty Trust Bank (Kenya) Ltd (Commercial Case E027 of 2025) [2026] KEHC 13856 (KLR) (Commercial and Tax) (18 September 2026) (Ruling)",
+   "url": "https://new.kenyalaw.org/akn/ke/judgment/kehc/2026/13856/eng@2026-09-18",
+   "summary": "Mathayo v Guaranty Trust Bank (Kenya) Ltd (Commercial Case E027 of 2025) [2026] KEHC 13856 (KLR) (Commercial and Tax) (18 September 2026) (Ruling)",
    "kind": "item",
-   "source": "Daily News (Tanzania)",
-   "source_id": "np-dailynews-tz",
-   "tier": 2,
-   "country": "TZ",
-   "category": "press",
+   "source": "Kenya Gazette (Kenya Law)",
+   "source_id": "ke-gazette",
+   "tier": 1,
+   "country": "KE",
+   "category": "gazette",
    "segments": [
     "city",
     "bush",
     "beach"
    ],
-   "first_seen": "2026-09-25T17:37+03:00",
-   "published": "2026-09-25",
-   "verdict": "weak"
+   "first_seen": "2026-09-26T02:09+03:00",
+   "published": "2026-09-18",
+   "verdict": "CHECK \u2014 source date older than the window"
   },
   {
-   "score": 60.0,
+   "score": 74.7,
    "components": {
-    "tier": 20,
-    "category": 4,
-    "lead": 0.0,
-    "relevance": 12,
-    "freshness": 14.0,
-    "corroborated": 10
+    "tier": 40,
+    "category": 20,
+    "lead": 12.0,
+    "relevance": 8,
+    "freshness": 19.7,
+    "stale_trap": -25
    },
    "keywords": [
-    "tourism",
-    "tourist",
-    "investment"
+    "tax"
    ],
    "shock_terms": [],
    "dedupe_match": null,
-   "dedupe_similarity": 0.0,
-   "id": "c52b0760b8fe",
-   "title": "Mafia Island lures tourism investments as it marks the Pearl Jubilee of its Marine Park",
-   "url": "https://dailynews.co.tz/mafia-island-lures-tourism-investments-as-it-marks-the-pearl-jubilee-of-its-marine-park",
-   "summary": "MAFIA: DOMESTIC and international investors have been urged to take advantage of investment opportunities available on Mafia Island by developing various projects aimed at attracting more tourists to the island. Speaking in Mafia District, Pwani Region, during the launch of the Mafia Island Festival and celebrations marking the 30th anniversary of the Mafia Island Marine \u2026 The post Mafia Island lu",
+   "dedupe_similarity": 0.2,
+   "id": "57a7ea5c70b1",
+   "title": "Sea Breezes Tours & Travel v Bett & another (Miscellaneous Application E1077 of 2025) [2026] KEHC 13851 (KLR) (Commercial and Tax) (18 September 2026) (Ruling)",
+   "url": "https://new.kenyalaw.org/akn/ke/judgment/kehc/2026/13851/eng@2026-09-18",
+   "summary": "Sea Breezes Tours & Travel v Bett & another (Miscellaneous Application E1077 of 2025) [2026] KEHC 13851 (KLR) (Commercial and Tax) (18 September 2026) (Ruling)",
    "kind": "item",
-   "source": "Daily News (Tanzania)",
-   "source_id": "np-dailynews-tz",
-   "tier": 2,
-   "country": "TZ",
-   "category": "press",
+   "source": "Kenya Gazette (Kenya Law)",
+   "source_id": "ke-gazette",
+   "tier": 1,
+   "country": "KE",
+   "category": "gazette",
    "segments": [
     "city",
     "bush",
     "beach"
    ],
-   "first_seen": "2026-09-25T17:37+03:00",
-   "published": "2026-09-25",
-   "verdict": "weak"
+   "first_seen": "2026-09-26T02:09+03:00",
+   "published": "2026-09-18",
+   "verdict": "CHECK \u2014 source date older than the window"
   },
   {
-   "score": 60.0,
+   "score": 74.7,
    "components": {
-    "tier": 20,
-    "category": 4,
-    "lead": 0.0,
-    "relevance": 12,
-    "freshness": 14.0,
-    "corroborated": 10
+    "tier": 40,
+    "category": 20,
+    "lead": 12.0,
+    "relevance": 8,
+    "freshness": 19.7,
+    "stale_trap": -25
    },
    "keywords": [
-    "vat",
-    "camp"
+    "vat"
    ],
    "shock_terms": [],
    "dedupe_match": null,
-   "dedupe_similarity": 0.0,
-   "id": "98fc6494e6fe",
-   "title": "Tanzania calls on African nations, health stakeholders to bolster anti-malaria campaign",
-   "url": "https://dailynews.co.tz/tanzania-calls-on-african-nations-health-stakeholders-to-bolster-anti-malaria-campaign",
-   "summary": "NEW YORK: TANZANIA has called on African countries and stakeholders in the health sector to develop sustainable strategies to accelerate efforts to combat malaria. Speaking at a high-level meeting in New York on strengthening local innovation and accelerating the adoption of new tools to fight malaria, Tanzania\u2019s Minister for Health, Mohamed Mchengerwa, said African countries \u2026 The post Tanzania c",
+   "dedupe_similarity": 0.2,
+   "id": "f8be413f6d23",
+   "title": "Njoroge & 10 others v General of the Salvation Army Registered Trustees & 2 others (Land Case Appeal E203 of 2025) [2026] KEELC 5532 (KLR) (18 September 2026) (Judgment)",
+   "url": "https://new.kenyalaw.org/akn/ke/judgment/keelc/2026/5532/eng@2026-09-18",
+   "summary": "Njoroge & 10 others v General of the Salvation Army Registered Trustees & 2 others (Land Case Appeal E203 of 2025) [2026] KEELC 5532 (KLR) (18 September 2026) (Judgment)",
    "kind": "item",
-   "source": "Daily News (Tanzania)",
-   "source_id": "np-dailynews-tz",
-   "tier": 2,
-   "country": "TZ",
-   "category": "press",
+   "source": "Kenya Gazette (Kenya Law)",
+   "source_id": "ke-gazette",
+   "tier": 1,
+   "country": "KE",
+   "category": "gazette",
    "segments": [
     "city",
     "bush",
     "beach"
    ],
-   "first_seen": "2026-09-25T17:37+03:00",
-   "published": "2026-09-25",
-   "verdict": "weak"
-  },
-  {
-   "score": 60.0,
-   "components": {
-    "tier": 20,
-    "category": 4,
-    "lead": 0.0,
-    "relevance": 28,
-    "freshness": 14.0,
-    "undated": -6
-   },
-   "keywords": [
-    "suspend",
-    "airport",
-    "airline",
-    "flight"
-   ],
-   "shock_terms": [],
-   "dedupe_match": null,
-   "dedupe_similarity": 0.0,
-   "id": "644fafeadc04",
-   "title": "Tigrayan forces seize airport, Ethiopian Airlines suspends flights Sep 23 - 3 min read",
-   "url": "https://www.thecitizen.co.tz/tanzania/news/africa/tigrayan-forces-seize-airport-ethiopian-airlines-suspends-flights-5605926",
-   "summary": "",
-   "kind": "item",
-   "source": "The Citizen (Tanzania)",
-   "source_id": "np-citizen-tz",
-   "tier": 2,
-   "country": "TZ",
-   "category": "press",
-   "segments": [
-    "city",
-    "bush",
-    "beach"
-   ],
-   "first_seen": "2026-09-25T17:37+03:00",
-   "published": null,
-   "verdict": "weak"
-  },
-  {
-   "score": 60.0,
-   "components": {
-    "tier": 20,
-    "category": 4,
-    "lead": 0.0,
-    "relevance": 12,
-    "freshness": 14.0,
-    "corroborated": 10
-   },
-   "keywords": [
-    "ebola"
-   ],
-   "shock_terms": [],
-   "dedupe_match": null,
-   "dedupe_similarity": 0.0,
-   "id": "1cfd426addbb",
-   "title": "EAC seeks $45m to strengthen Ebola response",
-   "url": "https://www.theeastafrican.co.ke/tea/sustainability/health/eac-seeks-45m-to-strengthen-ebola-response-5609082",
-   "summary": "It will strengthen the region's preparedness for and response to Ebola and other...",
-   "kind": "item",
-   "source": "The EastAfrican",
-   "source_id": "np-eastafrican",
-   "tier": 2,
-   "country": "REG",
-   "category": "press",
-   "segments": [
-    "city",
-    "bush",
-    "beach"
-   ],
-   "first_seen": "2026-09-25T17:37+03:00",
-   "published": "2026-09-25",
-   "verdict": "weak"
+   "first_seen": "2026-09-26T02:09+03:00",
+   "published": "2026-09-18",
+   "verdict": "CHECK \u2014 source date older than the window"
   }
  ]
 }
