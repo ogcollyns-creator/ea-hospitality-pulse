@@ -1,18 +1,51 @@
 {
- "generated": "2026-09-25T18:03:12+03:00",
+ "generated": "2026-09-25T22:23:26+03:00",
  "slot": "evening",
  "window_start": 1790330400,
- "observations_in_window": 201,
+ "observations_in_window": 324,
  "deduped_against": 4,
  "candidates": [
   {
-   "score": 100.9,
+   "score": 101.4,
    "components": {
     "tier": 40,
     "category": 32,
     "lead": 3.6,
     "relevance": 0,
-    "freshness": 19.3,
+    "freshness": 19.8,
+    "corroborated": 10,
+    "page_change": -4
+   },
+   "keywords": [],
+   "shock_terms": [],
+   "dedupe_match": null,
+   "dedupe_similarity": 0.0,
+   "id": "0ed78595df76",
+   "title": "[page changed] Federal Register \u2014 public inspection (HHS/CDC), pre-publication",
+   "url": "https://www.federalregister.gov/api/v1/public-inspection-documents/current.json",
+   "summary": "{\"count\":103,\"results\":[{\"agencies\":[{\"raw_name\":\"SECURITIES AND EXCHANGE COMMISSION\",\"name\":\"Securities and Exchange Commission\",\"id\":466,\"url\":\"https://www.federalregister.gov/agencies/securities-and-exchange-commission\",\"json_url\":\"https://www.federalregister.gov/api/v1/agencies/466\",\"parent_id\":null,\"slug\":\"securities-and-exchange-commission\"}],\"agency_letters\":[],\"agency_names\":[\"Securities a",
+   "kind": "page-change",
+   "source": "Federal Register \u2014 public inspection (HHS/CDC), pre-publication",
+   "source_id": "us-fedreg-pubinspect-hhs",
+   "tier": 1,
+   "country": "REG",
+   "category": "advisory",
+   "segments": [
+    "city",
+    "bush"
+   ],
+   "first_seen": "2026-09-25T22:20+03:00",
+   "published": "2026-09-24",
+   "verdict": "OPEN THIS \u2014 tier-1 advisory page moved; content not auto-parsed, read it manually"
+  },
+  {
+   "score": 96.2,
+   "components": {
+    "tier": 40,
+    "category": 32,
+    "lead": 3.6,
+    "relevance": 0,
+    "freshness": 14.6,
     "corroborated": 10,
     "page_change": -4
    },
@@ -39,13 +72,13 @@
    "verdict": "OPEN THIS \u2014 tier-1 advisory page moved; content not auto-parsed, read it manually"
   },
   {
-   "score": 101.3,
+   "score": 96.6,
    "components": {
     "tier": 40,
     "category": 20,
     "lead": 12.0,
     "relevance": 0,
-    "freshness": 19.3,
+    "freshness": 14.6,
     "corroborated": 10
    },
    "keywords": [],
@@ -72,13 +105,13 @@
    "verdict": "STRONG \u2014 tier-1, upstream"
   },
   {
-   "score": 98.8,
+   "score": 94.0,
    "components": {
     "tier": 40,
     "category": 7,
     "lead": 6.0,
     "relevance": 16,
-    "freshness": 19.8,
+    "freshness": 15.0,
     "corroborated": 10
    },
    "keywords": [
@@ -106,13 +139,13 @@
    "verdict": "STRONG \u2014 tier-1, upstream"
   },
   {
-   "score": 97.7,
+   "score": 93.0,
    "components": {
     "tier": 40,
     "category": 24,
     "lead": 2.4,
     "relevance": 12,
-    "freshness": 19.3
+    "freshness": 14.6
    },
    "keywords": [
     "ebola"
@@ -139,13 +172,49 @@
    "verdict": "STRONG \u2014 tier-1, upstream"
   },
   {
-   "score": 95.7,
+   "score": 92.2,
+   "components": {
+    "tier": 20,
+    "category": 14,
+    "lead": 8.4,
+    "relevance": 20,
+    "freshness": 19.8,
+    "corroborated": 10
+   },
+   "keywords": [
+    "cancel",
+    "route"
+   ],
+   "shock_terms": [],
+   "dedupe_match": null,
+   "dedupe_similarity": 0.0,
+   "id": "b26a0d069611",
+   "title": "Etihad NW26 Moscow Service Changes",
+   "url": "https://www.aeroroutes.com/eng/260925-eynw26svo",
+   "summary": "Published at 0900PDT / 1600GMT 25SEP26 Etihad in the first half of Northern winter 2026/27 season plans aircraft changes on Abu Dhabi \u2013 Moscow Sheremetyevo route, as the carrier schedules aircraft changes. * EY841/842 eff 25OCT26 777-300ER service maintained, instead of initially filed 787-10 * EY843/844 eff 25OCT26 A350-1000 replaces initially filed 787-10 * EY845/846 25OCT26 \u2013 31JAN27 787-9/-10 ",
+   "kind": "item",
+   "source": "AeroRoutes schedule filings",
+   "source_id": "aeroroutes",
+   "tier": 2,
+   "country": "GLOBAL",
+   "category": "aviation-tracker",
+   "segments": [
+    "city",
+    "bush",
+    "beach"
+   ],
+   "first_seen": "2026-09-25T22:21+03:00",
+   "published": "2026-09-25",
+   "verdict": "CONSIDER"
+  },
+  {
+   "score": 91.0,
    "components": {
     "tier": 40,
     "category": 24,
     "lead": 2.4,
     "relevance": 16,
-    "freshness": 19.3,
+    "freshness": 14.6,
     "undated": -6
    },
    "keywords": [
@@ -175,13 +244,13 @@
    "verdict": "STRONG \u2014 tier-1, upstream"
   },
   {
-   "score": 95.7,
+   "score": 91.0,
    "components": {
     "tier": 40,
     "category": 24,
     "lead": 2.4,
     "relevance": 16,
-    "freshness": 19.3,
+    "freshness": 14.6,
     "undated": -6
    },
    "keywords": [
@@ -211,13 +280,13 @@
    "verdict": "STRONG \u2014 tier-1, upstream"
   },
   {
-   "score": 95.7,
+   "score": 91.0,
    "components": {
     "tier": 40,
     "category": 24,
     "lead": 2.4,
     "relevance": 16,
-    "freshness": 19.3,
+    "freshness": 14.6,
     "undated": -6
    },
    "keywords": [
@@ -247,13 +316,122 @@
    "verdict": "STRONG \u2014 tier-1, upstream"
   },
   {
-   "score": 87.7,
+   "score": 88.2,
    "components": {
     "tier": 20,
     "category": 14,
     "lead": 8.4,
     "relevance": 16,
-    "freshness": 19.3,
+    "freshness": 19.8,
+    "corroborated": 10
+   },
+   "keywords": [
+    "route",
+    "airline",
+    "flight"
+   ],
+   "shock_terms": [],
+   "dedupe_match": null,
+   "dedupe_similarity": 0.0,
+   "id": "044f9e756ebe",
+   "title": "Atlantic Airways Expands Faroe Islands \u2013 London Service in NS27",
+   "url": "https://www.aeroroutes.com/eng/260925-rcns27lgw",
+   "summary": "Published at 1000PDT / 1700GMT 25SEP26 Atlantic Airways Faroe Islands during Northern summer 2027 season plans to expand seasonal service on V\u00e1gar/Faroe Islands \u2013 London Gatwick route, as the airline schedules 2 weekly flights from 01MAY27 to 28AUG27. RC416 FAE0740 \u2013 0955LGW 320 2 RC416 FAE0910 \u2013 1125LGW 320 6 RC417 LGW1055 \u2013 1310FAE 320 2 RC417 LGW1220 \u2013 1435FAE 320 6 This route was scheduled fro",
+   "kind": "item",
+   "source": "AeroRoutes schedule filings",
+   "source_id": "aeroroutes",
+   "tier": 2,
+   "country": "GLOBAL",
+   "category": "aviation-tracker",
+   "segments": [
+    "city",
+    "bush",
+    "beach"
+   ],
+   "first_seen": "2026-09-25T22:21+03:00",
+   "published": "2026-09-25",
+   "verdict": "CONSIDER"
+  },
+  {
+   "score": 88.2,
+   "components": {
+    "tier": 40,
+    "category": 16,
+    "lead": 2.4,
+    "relevance": 0,
+    "freshness": 19.8,
+    "corroborated": 10
+   },
+   "keywords": [],
+   "shock_terms": [],
+   "dedupe_match": null,
+   "dedupe_similarity": 0.0,
+   "id": "9f610b51054f",
+   "title": "Fourth Plan for National Statistical Development \u2013 (FY2025/26 \u2013 FY2029/2030)",
+   "url": "https://www.ubos.org/2026/09/25/fourth-plan-for-national-statistical-development-fy2025-26-fy2029-2030",
+   "summary": "Over the years, Uganda has registered significant progress in strengthening the National Statistical System (NSS) through the [\u2026] The post Fourth Plan for National Statistical Development \u2013 (FY2025/26 \u2013 FY2029/2030) appeared first on Uganda Bureau of Statistics .",
+   "kind": "item",
+   "source": "UBOS statistical releases",
+   "source_id": "ug-ubos",
+   "tier": 1,
+   "country": "UG",
+   "category": "statistics",
+   "segments": [
+    "city",
+    "bush",
+    "beach"
+   ],
+   "first_seen": "2026-09-25T22:21+03:00",
+   "published": "2026-09-25",
+   "verdict": "CONSIDER"
+  },
+  {
+   "score": 86.2,
+   "components": {
+    "tier": 20,
+    "category": 24,
+    "lead": 2.4,
+    "relevance": 12,
+    "freshness": 19.8,
+    "undated": -6,
+    "shock": 18,
+    "page_change": -4
+   },
+   "keywords": [
+    "outbreak"
+   ],
+   "shock_terms": [
+    "outbreak"
+   ],
+   "dedupe_match": null,
+   "dedupe_similarity": 0.0,
+   "id": "9e62015ad61b",
+   "title": "[page changed] ProMED-mail",
+   "url": "https://promedmail.org/",
+   "summary": "Protecting Global Health, One Alert at a Time | ProMED Previous slide Next slide Protecting Global Health, One Alert at a Time ProMED: Your 24/7 early warning system for emerging infectious diseases worldwide. Subscribe ProMED's Weekly Pulse A snapshot of global health events from the past 7 days Latest Posts on ProMED All Date Title Fri Sep 25 2026 KLEBSIELLA PNEUMONIAE \u2013 M\u00c9XICO: (DURANGO) BROTE,",
+   "kind": "page-change",
+   "source": "ProMED-mail",
+   "source_id": "promed",
+   "tier": 2,
+   "country": "GLOBAL",
+   "category": "health",
+   "segments": [
+    "city",
+    "bush",
+    "beach"
+   ],
+   "first_seen": "2026-09-25T22:21+03:00",
+   "published": null,
+   "verdict": "CONSIDER"
+  },
+  {
+   "score": 83.0,
+   "components": {
+    "tier": 20,
+    "category": 14,
+    "lead": 8.4,
+    "relevance": 16,
+    "freshness": 14.6,
     "corroborated": 10
    },
    "keywords": [
@@ -284,13 +462,13 @@
    "verdict": "CONSIDER"
   },
   {
-   "score": 87.7,
+   "score": 83.0,
    "components": {
     "tier": 40,
     "category": 32,
     "lead": 2.4,
     "relevance": 0,
-    "freshness": 19.3,
+    "freshness": 14.6,
     "undated": -6
    },
    "keywords": [],
@@ -317,13 +495,13 @@
    "verdict": "CONSIDER"
   },
   {
-   "score": 83.7,
+   "score": 79.0,
    "components": {
     "tier": 20,
     "category": 14,
     "lead": 8.4,
     "relevance": 12,
-    "freshness": 19.3,
+    "freshness": 14.6,
     "corroborated": 10
    },
    "keywords": [
@@ -353,13 +531,13 @@
    "verdict": "CONSIDER"
   },
   {
-   "score": 83.7,
+   "score": 79.0,
    "components": {
     "tier": 20,
     "category": 14,
     "lead": 8.4,
     "relevance": 12,
-    "freshness": 19.3,
+    "freshness": 14.6,
     "corroborated": 10
    },
    "keywords": [
@@ -389,13 +567,13 @@
    "verdict": "CONSIDER"
   },
   {
-   "score": 83.7,
+   "score": 79.0,
    "components": {
     "tier": 40,
     "category": 24,
     "lead": 2.4,
     "relevance": 4,
-    "freshness": 19.3,
+    "freshness": 14.6,
     "undated": -6
    },
    "keywords": [
@@ -424,13 +602,13 @@
    "verdict": "CONSIDER"
   },
   {
-   "score": 83.7,
+   "score": 79.0,
    "components": {
     "tier": 40,
     "category": 24,
     "lead": 2.4,
     "relevance": 4,
-    "freshness": 19.3,
+    "freshness": 14.6,
     "undated": -6
    },
    "keywords": [
@@ -459,13 +637,13 @@
    "verdict": "CONSIDER"
   },
   {
-   "score": 83.7,
+   "score": 79.0,
    "components": {
     "tier": 40,
     "category": 24,
     "lead": 2.4,
     "relevance": 4,
-    "freshness": 19.3,
+    "freshness": 14.6,
     "undated": -6
    },
    "keywords": [
@@ -494,13 +672,13 @@
    "verdict": "CONSIDER"
   },
   {
-   "score": 82.8,
+   "score": 78.0,
    "components": {
     "tier": 40,
     "category": 7,
     "lead": 6.0,
     "relevance": 0,
-    "freshness": 19.8,
+    "freshness": 15.0,
     "corroborated": 10
    },
    "keywords": [],
@@ -525,13 +703,13 @@
    "verdict": "CONSIDER"
   },
   {
-   "score": 82.4,
+   "score": 77.6,
    "components": {
     "tier": 20,
     "category": 5,
     "lead": 3.6,
     "relevance": 24,
-    "freshness": 19.8,
+    "freshness": 15.0,
     "corroborated": 10
    },
    "keywords": [
@@ -563,13 +741,13 @@
    "verdict": "CONSIDER"
   },
   {
-   "score": 81.4,
+   "score": 76.6,
    "components": {
     "tier": 40,
     "category": 24,
     "lead": 3.6,
     "relevance": 0,
-    "freshness": 19.8,
+    "freshness": 15.0,
     "undated": -6
    },
    "keywords": [],
@@ -596,13 +774,48 @@
    "verdict": "CONSIDER"
   },
   {
-   "score": 79.7,
+   "score": 76.2,
+   "components": {
+    "tier": 20,
+    "category": 14,
+    "lead": 8.4,
+    "relevance": 4,
+    "freshness": 19.8,
+    "corroborated": 10
+   },
+   "keywords": [
+    "airline"
+   ],
+   "shock_terms": [],
+   "dedupe_match": null,
+   "dedupe_similarity": 0.0,
+   "id": "f588d2281b5b",
+   "title": "Philippine Airlines Resumes India Service From Dec 2026",
+   "url": "https://www.aeroroutes.com/eng/60925-prnw26in",
+   "summary": "Published at 0800PDT / 1500GMT 25SEP26 Philippine Airlines (PAL) today (25SEP26) announced service launch to India, as the airline launches service to Mumbai while resume Delhi. Delhi was last served via Bangkok between 2011 and 2013. Manila \u2013 Delhi eff 14DEC26 3 weekly A321neo (Last served until June 2013 via Bangkok) PR642 MNL2240 \u2013 0300+1DEL 321 135 PR643 DEL0815 \u2013 1700MNL 321 246 Manila \u2013 Mumb",
+   "kind": "item",
+   "source": "AeroRoutes schedule filings",
+   "source_id": "aeroroutes",
+   "tier": 2,
+   "country": "GLOBAL",
+   "category": "aviation-tracker",
+   "segments": [
+    "city",
+    "bush",
+    "beach"
+   ],
+   "first_seen": "2026-09-25T22:21+03:00",
+   "published": "2026-09-25",
+   "verdict": "CONSIDER"
+  },
+  {
+   "score": 75.0,
    "components": {
     "tier": 40,
     "category": 24,
     "lead": 2.4,
     "relevance": 0,
-    "freshness": 19.3,
+    "freshness": 14.6,
     "undated": -6
    },
    "keywords": [],
@@ -628,13 +841,13 @@
    "verdict": "CONSIDER"
   },
   {
-   "score": 78.4,
+   "score": 73.6,
    "components": {
     "tier": 20,
     "category": 5,
     "lead": 3.6,
     "relevance": 20,
-    "freshness": 19.8,
+    "freshness": 15.0,
     "corroborated": 10
    },
    "keywords": [
@@ -665,13 +878,13 @@
    "verdict": "CONSIDER"
   },
   {
-   "score": 75.7,
+   "score": 71.0,
    "components": {
     "tier": 20,
     "category": 14,
     "lead": 8.4,
     "relevance": 4,
-    "freshness": 19.3,
+    "freshness": 14.6,
     "corroborated": 10
    },
    "keywords": [
@@ -700,13 +913,13 @@
    "verdict": "CONSIDER"
   },
   {
-   "score": 75.7,
+   "score": 71.0,
    "components": {
     "tier": 20,
     "category": 14,
     "lead": 8.4,
     "relevance": 4,
-    "freshness": 19.3,
+    "freshness": 14.6,
     "corroborated": 10
    },
    "keywords": [
@@ -735,13 +948,13 @@
    "verdict": "CONSIDER"
   },
   {
-   "score": 75.7,
+   "score": 71.0,
    "components": {
     "tier": 20,
     "category": 14,
     "lead": 8.4,
     "relevance": 4,
-    "freshness": 19.3,
+    "freshness": 14.6,
     "corroborated": 10
    },
    "keywords": [
@@ -770,13 +983,13 @@
    "verdict": "CONSIDER"
   },
   {
-   "score": 72.3,
+   "score": 67.6,
    "components": {
     "tier": 40,
     "category": 13,
     "lead": 6.0,
     "relevance": 0,
-    "freshness": 19.3,
+    "freshness": 14.6,
     "undated": -6
    },
    "keywords": [],
@@ -800,16 +1013,16 @@
    ],
    "first_seen": "2026-09-25T17:37+03:00",
    "published": null,
-   "verdict": "CONSIDER"
+   "verdict": "weak"
   },
   {
-   "score": 70.4,
+   "score": 65.6,
    "components": {
     "tier": 20,
     "category": 5,
     "lead": 3.6,
     "relevance": 12,
-    "freshness": 19.8,
+    "freshness": 15.0,
     "corroborated": 10
    },
    "keywords": [
@@ -836,16 +1049,16 @@
    ],
    "first_seen": "2026-09-25T18:02+03:00",
    "published": "2026-09-25",
-   "verdict": "CONSIDER"
+   "verdict": "weak"
   },
   {
-   "score": 69.3,
+   "score": 64.6,
    "components": {
     "tier": 20,
     "category": 4,
     "lead": 0.0,
     "relevance": 16,
-    "freshness": 19.3,
+    "freshness": 14.6,
     "corroborated": 10
    },
    "keywords": [
@@ -875,13 +1088,121 @@
    "verdict": "weak"
   },
   {
-   "score": 66.4,
+   "score": 63.8,
+   "components": {
+    "tier": 20,
+    "category": 4,
+    "lead": 0.0,
+    "relevance": 8,
+    "freshness": 19.8,
+    "undated": -6,
+    "shock": 18
+   },
+   "keywords": [
+    "strike"
+   ],
+   "shock_terms": [
+    "strike"
+   ],
+   "dedupe_match": null,
+   "dedupe_similarity": 0.0,
+   "id": "2471f157082f",
+   "title": "National What to do and what not to do when El Ni\u00f1o strikes 6 hours ago - 2 min read",
+   "url": "https://www.thecitizen.co.tz/tanzania/news/national/what-to-do-and-what-not-to-do-when-el-ni%C3%B1o-strikes-5609032",
+   "summary": "",
+   "kind": "item",
+   "source": "The Citizen (Tanzania)",
+   "source_id": "np-citizen-tz",
+   "tier": 2,
+   "country": "TZ",
+   "category": "press",
+   "segments": [
+    "city",
+    "bush",
+    "beach"
+   ],
+   "first_seen": "2026-09-25T22:21+03:00",
+   "published": null,
+   "verdict": "weak"
+  },
+  {
+   "score": 61.8,
+   "components": {
+    "tier": 20,
+    "category": 4,
+    "lead": 0.0,
+    "relevance": 8,
+    "freshness": 19.8,
+    "corroborated": 10
+   },
+   "keywords": [
+    "tax"
+   ],
+   "shock_terms": [],
+   "dedupe_match": null,
+   "dedupe_similarity": 0.0,
+   "id": "85bf736fd462",
+   "title": "Why EAC single-currency plan hinges on how states tax, spend and borrow",
+   "url": "https://www.monitor.co.ug/uganda/news/national/why-eac-single-currency-plan-hinges-on-how-states-tax-spend-and-borrow-5609044",
+   "summary": "The EAC is reviewing measures to strengthen public financial management and coordination of...",
+   "kind": "item",
+   "source": "Daily Monitor (Uganda)",
+   "source_id": "np-monitor-ug",
+   "tier": 2,
+   "country": "UG",
+   "category": "press",
+   "segments": [
+    "city",
+    "bush",
+    "beach"
+   ],
+   "first_seen": "2026-09-25T22:21+03:00",
+   "published": "2026-09-25",
+   "verdict": "weak"
+  },
+  {
+   "score": 61.8,
+   "components": {
+    "tier": 20,
+    "category": 4,
+    "lead": 0.0,
+    "relevance": 8,
+    "freshness": 19.8,
+    "corroborated": 10
+   },
+   "keywords": [
+    "election"
+   ],
+   "shock_terms": [],
+   "dedupe_match": null,
+   "dedupe_similarity": 0.0,
+   "id": "5e9a354d5edd",
+   "title": "Judge closes hearing of petition challenging minister Ssekindi's Kalungu victory",
+   "url": "https://www.monitor.co.ug/uganda/news/national/judge-closes-hearing-of-petition-challenging-minister-ssekindi-s-kalungu-victory-5608650",
+   "summary": "Minister Ssekindi denies irregularities as Kalungu election petition closes",
+   "kind": "item",
+   "source": "Daily Monitor (Uganda)",
+   "source_id": "np-monitor-ug",
+   "tier": 2,
+   "country": "UG",
+   "category": "press",
+   "segments": [
+    "city",
+    "bush",
+    "beach"
+   ],
+   "first_seen": "2026-09-25T22:21+03:00",
+   "published": "2026-09-25",
+   "verdict": "weak"
+  },
+  {
+   "score": 61.6,
    "components": {
     "tier": 20,
     "category": 5,
     "lead": 3.6,
     "relevance": 8,
-    "freshness": 19.8,
+    "freshness": 15.0,
     "corroborated": 10
    },
    "keywords": [
@@ -911,13 +1232,13 @@
    "verdict": "weak"
   },
   {
-   "score": 65.3,
+   "score": 60.6,
    "components": {
     "tier": 20,
     "category": 4,
     "lead": 0.0,
     "relevance": 12,
-    "freshness": 19.3,
+    "freshness": 14.6,
     "corroborated": 10
    },
    "keywords": [
@@ -947,13 +1268,13 @@
    "verdict": "weak"
   },
   {
-   "score": 65.3,
+   "score": 60.6,
    "components": {
     "tier": 20,
     "category": 4,
     "lead": 0.0,
     "relevance": 12,
-    "freshness": 19.3,
+    "freshness": 14.6,
     "corroborated": 10
    },
    "keywords": [
@@ -984,13 +1305,13 @@
    "verdict": "weak"
   },
   {
-   "score": 65.3,
+   "score": 60.6,
    "components": {
     "tier": 20,
     "category": 4,
     "lead": 0.0,
     "relevance": 12,
-    "freshness": 19.3,
+    "freshness": 14.6,
     "corroborated": 10
    },
    "keywords": [
@@ -1020,13 +1341,13 @@
    "verdict": "weak"
   },
   {
-   "score": 65.3,
+   "score": 60.6,
    "components": {
     "tier": 20,
     "category": 4,
     "lead": 0.0,
     "relevance": 28,
-    "freshness": 19.3,
+    "freshness": 14.6,
     "undated": -6
    },
    "keywords": [
@@ -1058,13 +1379,13 @@
    "verdict": "weak"
   },
   {
-   "score": 65.3,
+   "score": 60.6,
    "components": {
     "tier": 20,
     "category": 4,
     "lead": 0.0,
     "relevance": 12,
-    "freshness": 19.3,
+    "freshness": 14.6,
     "corroborated": 10
    },
    "keywords": [
@@ -1082,327 +1403,6 @@
    "source_id": "np-eastafrican",
    "tier": 2,
    "country": "REG",
-   "category": "press",
-   "segments": [
-    "city",
-    "bush",
-    "beach"
-   ],
-   "first_seen": "2026-09-25T17:37+03:00",
-   "published": "2026-09-25",
-   "verdict": "weak"
-  },
-  {
-   "score": 63.5,
-   "components": {
-    "tier": 20,
-    "category": 5,
-    "lead": 1.2,
-    "relevance": 8,
-    "freshness": 19.3,
-    "corroborated": 10
-   },
-   "keywords": [
-    "hotel",
-    "airline"
-   ],
-   "shock_terms": [],
-   "dedupe_match": null,
-   "dedupe_similarity": 0.0,
-   "id": "9b9ae69887bd",
-   "title": "The Travel Card\u2019s Next Act: Erasing Friction",
-   "url": "https://skift.com/2026/09/25/the-travel-cards-next-act-erasing-friction",
-   "summary": "For OTAs, hotels, and airlines, the question is what happens when a financial partner with that data, that trust, and a new technology stack starts competing for the same relationship.",
-   "kind": "item",
-   "source": "Skift",
-   "source_id": "tp-skift",
-   "tier": 2,
-   "country": "GLOBAL",
-   "category": "trade",
-   "segments": [
-    "city",
-    "bush",
-    "beach"
-   ],
-   "first_seen": "2026-09-25T17:37+03:00",
-   "published": "2026-09-25",
-   "verdict": "weak"
-  },
-  {
-   "score": 63.5,
-   "components": {
-    "tier": 20,
-    "category": 5,
-    "lead": 1.2,
-    "relevance": 8,
-    "freshness": 19.3,
-    "corroborated": 10
-   },
-   "keywords": [
-    "hotel",
-    "franc"
-   ],
-   "shock_terms": [],
-   "dedupe_match": null,
-   "dedupe_similarity": 0.0,
-   "id": "053934840f46",
-   "title": "Hotels, AI, and Building for Long-Term Economic Value",
-   "url": "https://skift.com/2026/09/25/hotels-ai-and-building-for-long-term-economic-value",
-   "summary": "Every hotel company is telling owners and franchisees that AI will improve their business. Ballotti is showing them the numbers.",
-   "kind": "item",
-   "source": "Skift",
-   "source_id": "tp-skift",
-   "tier": 2,
-   "country": "GLOBAL",
-   "category": "trade",
-   "segments": [
-    "city",
-    "bush",
-    "beach"
-   ],
-   "first_seen": "2026-09-25T17:37+03:00",
-   "published": "2026-09-25",
-   "verdict": "weak"
-  },
-  {
-   "score": 63.3,
-   "components": {
-    "tier": 20,
-    "category": 4,
-    "lead": 0.0,
-    "relevance": 8,
-    "freshness": 19.3,
-    "undated": -6,
-    "shock": 18
-   },
-   "keywords": [
-    "strike"
-   ],
-   "shock_terms": [
-    "strike"
-   ],
-   "dedupe_match": null,
-   "dedupe_similarity": 0.0,
-   "id": "2d9bea58df33",
-   "title": "National What to do and what not to do when El Ni\u00f1o strikes 2 hours ago - 2 min read",
-   "url": "https://www.thecitizen.co.tz/tanzania/news/national/what-to-do-and-what-not-to-do-when-el-ni%C3%B1o-strikes-5609032",
-   "summary": "",
-   "kind": "item",
-   "source": "The Citizen (Tanzania)",
-   "source_id": "np-citizen-tz",
-   "tier": 2,
-   "country": "TZ",
-   "category": "press",
-   "segments": [
-    "city",
-    "bush",
-    "beach"
-   ],
-   "first_seen": "2026-09-25T17:37+03:00",
-   "published": null,
-   "verdict": "weak"
-  },
-  {
-   "score": 62.4,
-   "components": {
-    "tier": 20,
-    "category": 5,
-    "lead": 3.6,
-    "relevance": 4,
-    "freshness": 19.8,
-    "corroborated": 10
-   },
-   "keywords": [
-    "tourism"
-   ],
-   "shock_terms": [],
-   "dedupe_match": null,
-   "dedupe_similarity": 0.0,
-   "id": "dc9839345bb2",
-   "title": "WTTC, JATA and Tourism Expo Japan Join Forces to Drive Japan's Global Tourism Growth",
-   "url": "https://www.hospitalitynet.org/news/4134578/wttc-jata-and-tourism-expo-japan-join-forces-to-drive-japans-global-tourism-growth",
-   "summary": "WTTC, JATA and Tourism EXPO Japan signed an MOU to boost collaboration, as Japan's travel sector hit $343.1B in GDP contribution and ranked 7th globally for international visitor spending.",
-   "kind": "item",
-   "source": "Hospitality Net \u2014 Africa announcements",
-   "source_id": "dev-hospitalitynet-africa",
-   "tier": 2,
-   "country": "REG",
-   "category": "trade",
-   "segments": [
-    "city",
-    "bush",
-    "beach"
-   ],
-   "first_seen": "2026-09-25T18:02+03:00",
-   "published": "2026-09-25",
-   "verdict": "weak"
-  },
-  {
-   "score": 61.3,
-   "components": {
-    "tier": 20,
-    "category": 4,
-    "lead": 0.0,
-    "relevance": 8,
-    "freshness": 19.3,
-    "corroborated": 10
-   },
-   "keywords": [
-    "tourism",
-    "tourist"
-   ],
-   "shock_terms": [],
-   "dedupe_match": null,
-   "dedupe_similarity": 0.2,
-   "id": "9d41de536fef",
-   "title": "Tanzania, Japan agree to cement their strategic cooperation in promoting and marketing their tourist attractions",
-   "url": "https://dailynews.co.tz/tanzania-japan-agree-to-cement-their-strategic-cooperation-in-promoting-and-marketing-their-tourist-attractions",
-   "summary": "TOKYO: TANZANIA and Japan have agreed to strengthen strategic cooperation in promoting and marketing tourism between the two countries, including efforts to increase the number of tourists travelling between Tanzania and Japan. The agreement was reached today, September 25, 2026, when Tanzania\u2019s Minister for Natural Resources and Tourism, Dr Ashatu Kijaji, held talks with Japan \u2026 The post Tanzania",
-   "kind": "item",
-   "source": "Daily News (Tanzania)",
-   "source_id": "np-dailynews-tz",
-   "tier": 2,
-   "country": "TZ",
-   "category": "press",
-   "segments": [
-    "city",
-    "bush",
-    "beach"
-   ],
-   "first_seen": "2026-09-25T17:37+03:00",
-   "published": "2026-09-25",
-   "verdict": "weak"
-  },
-  {
-   "score": 61.3,
-   "components": {
-    "tier": 20,
-    "category": 4,
-    "lead": 0.0,
-    "relevance": 8,
-    "freshness": 19.3,
-    "corroborated": 10
-   },
-   "keywords": [
-    "eta"
-   ],
-   "shock_terms": [],
-   "dedupe_match": null,
-   "dedupe_similarity": 0.0,
-   "id": "50e081af9587",
-   "title": "Tanzania begins the Pamoja Project with construction of 80 childcare centres out of targeted 184 centres",
-   "url": "https://dailynews.co.tz/tanzania-begins-the-pamoja-project-with-construction-of-80-childcare-centres-out-of-targeted-184-centres",
-   "summary": "MWANZA: THE Tanzanian government has begun to implement the Pamoja Project, an initiative aimed to broaden economic opportunities for women while preventing and eliminating violence against women and children in communities. Speaking about the project today during a working session for Regional Administrative Secretaries and Directors of Councils implementing the Pamoja Project in Mwanza, the proj",
-   "kind": "item",
-   "source": "Daily News (Tanzania)",
-   "source_id": "np-dailynews-tz",
-   "tier": 2,
-   "country": "TZ",
-   "category": "press",
-   "segments": [
-    "city",
-    "bush",
-    "beach"
-   ],
-   "first_seen": "2026-09-25T17:37+03:00",
-   "published": "2026-09-25",
-   "verdict": "weak"
-  },
-  {
-   "score": 61.3,
-   "components": {
-    "tier": 20,
-    "category": 4,
-    "lead": 0.0,
-    "relevance": 8,
-    "freshness": 19.3,
-    "corroborated": 10
-   },
-   "keywords": [
-    "vat"
-   ],
-   "shock_terms": [],
-   "dedupe_match": null,
-   "dedupe_similarity": 0.0,
-   "id": "9b7964c56887",
-   "title": "TFS forests attract Asian, European carbon investors",
-   "url": "https://dailynews.co.tz/tfs-forests-attract-asian-european-carbon-investors",
-   "summary": "DODOMA: A total of 46 investors from different parts of the world have shown interest in collaborating with Tanzania Forest Services (TFS) to establish carbon credit projects in forests and water sources managed by the agency. TFS senior assistant conservation commissioner and section manager for seed biology, Mr Hansen Mashimba, disclosed the figure to the Daily \u2026 The post TFS forests attract Asi",
-   "kind": "item",
-   "source": "Daily News (Tanzania)",
-   "source_id": "np-dailynews-tz",
-   "tier": 2,
-   "country": "TZ",
-   "category": "press",
-   "segments": [
-    "city",
-    "bush",
-    "beach"
-   ],
-   "first_seen": "2026-09-25T17:37+03:00",
-   "published": "2026-09-25",
-   "verdict": "weak"
-  },
-  {
-   "score": 61.3,
-   "components": {
-    "tier": 20,
-    "category": 4,
-    "lead": 0.0,
-    "relevance": 8,
-    "freshness": 19.3,
-    "corroborated": 10
-   },
-   "keywords": [
-    "fee"
-   ],
-   "shock_terms": [],
-   "dedupe_match": null,
-   "dedupe_similarity": 0.0,
-   "id": "f238271bfd69",
-   "title": "Uganda Launches Mobile Money Toll Payments on Kampala-Entebbe Expressway",
-   "url": "https://softpower.ug/uganda-launches-mobile-money-toll-payments-on-kampala-entebbe-expressway",
-   "summary": "Motorists using the Kampala-Entebbe Expressway can now pay toll fees through mobile money, following the launch of a cashless payment option at designated toll lanes. The service was launched on Friday through a partnership involving the Ministry of Works and Transport, Kampala-Entebbe Expressway management and MTN Mobile Money. It is currently available at Lane 4 [\u2026] The post Uganda Launches Mobi",
-   "kind": "item",
-   "source": "SoftPower News \u2014 Tourism & Travel (Uganda)",
-   "source_id": "ug-softpower-tourism",
-   "tier": 2,
-   "country": "UG",
-   "category": "press",
-   "segments": [
-    "bush",
-    "city"
-   ],
-   "first_seen": "2026-09-25T17:37+03:00",
-   "published": "2026-09-25",
-   "verdict": "weak"
-  },
-  {
-   "score": 61.3,
-   "components": {
-    "tier": 20,
-    "category": 4,
-    "lead": 0.0,
-    "relevance": 8,
-    "freshness": 19.3,
-    "corroborated": 10
-   },
-   "keywords": [
-    "hotel",
-    "traffic"
-   ],
-   "shock_terms": [],
-   "dedupe_match": null,
-   "dedupe_similarity": 0.0,
-   "id": "e7bf95c2d22d",
-   "title": "Open letter to President Museveni on City Square",
-   "url": "https://www.monitor.co.ug/uganda/oped/commentary/open-letter-to-president-museveni-on-city-square-5608330",
-   "summary": "Visitors should experience Kampala beyond traffic, shopping arcades, hotels, and office blocks.",
-   "kind": "item",
-   "source": "Daily Monitor (Uganda)",
-   "source_id": "np-monitor-ug",
-   "tier": 2,
-   "country": "UG",
    "category": "press",
    "segments": [
     "city",
