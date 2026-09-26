@@ -1,5 +1,14 @@
 window.GUIDES = [
  {
+  "slug": "agentic-booking-east-africa-lodges",
+  "title": "The AI agent will book your room. It will still buy it from an OTA.",
+  "description": "Expedia announced this week that it was joining Meta's new travel agent. Its shares closed down almost 8 per cent the next day, and Booking, Airbnb and TripAdvisor fell with it. The market understood something East African operators should: in the agent era the commission does not disappear, only the shopfront does.",
+  "category": "Big Read",
+  "updated": "2026-09-26",
+  "readMins": 8,
+  "image": "img/editions/pulse-2026-09-12-evening.jpg"
+ },
+ {
   "slug": "brand-margin-promise-east-africa-franchise",
   "title": "Hilton promised owners their margin back. In East Africa, the state decides whether it arrives.",
   "description": "On Wednesday in New York, Hilton's chief executive put a number on what the brands now owe their owners: 75 to 100 basis points, taken out of labour, energy and insurance. Across Africa more owners than ever are signing franchise deals that leave those three lines on their own profit and loss account, and in East Africa two of them move by gazette notice.",

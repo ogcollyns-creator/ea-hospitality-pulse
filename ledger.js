@@ -1,5 +1,5 @@
 window.LEDGER = {
- "updated": "2026-09-24 07:29",
+ "updated": "2026-09-26 06:05",
  "stats": {
   "total": 209,
   "open": 154,
@@ -24,7 +24,7 @@ window.LEDGER = {
    "resolved_date": "",
    "evidence": "",
    "source_url": "",
-   "overdue": false
+   "overdue": true
   },
   {
    "id": "P002",
