@@ -1,34 +1,31 @@
 {
- "generated": "2026-09-26T12:18:08+03:00",
- "slot": "midday",
- "window_start": 1790395200,
- "observations_in_window": 211,
+ "generated": "2026-09-26T16:51:37+03:00",
+ "slot": "evening",
+ "window_start": 1790416800,
+ "observations_in_window": 119,
  "deduped_against": 4,
  "candidates": [
   {
-   "score": 112.0,
+   "score": 91.3,
    "components": {
     "tier": 40,
     "category": 32,
-    "lead": 12.0,
-    "relevance": 8,
-    "freshness": 14.0,
-    "corroborated": 10,
+    "lead": 3.6,
+    "relevance": 0,
+    "freshness": 19.7,
     "page_change": -4
    },
-   "keywords": [
-    "fee"
-   ],
+   "keywords": [],
    "shock_terms": [],
    "dedupe_match": null,
-   "dedupe_similarity": 0.17,
-   "id": "4c202bfb5902",
-   "title": "[page changed] Federal Register \u2014 CDC notices",
-   "url": "https://www.federalregister.gov/api/v1/documents.rss?conditions%5Bagencies%5D%5B%5D=centers-for-disease-control-and-prevention&order=newest",
-   "summary": "Federal Register Documents published on or after 08/27/2026 and from Centers for Disease Control and Prevention https://www.federalregister.gov/api/v1/documents.rss?conditions%5Bagencies%5D%5B%5D=centers-for-disease-control-and-prevention&order=newest Mon, 21 Sep 2026 04:00:00 GMT The documents in this feed originate from FederalRegister.gov which displays an unofficial web version of the daily Fe",
+   "dedupe_similarity": 0.0,
+   "id": "f51134ce38e4",
+   "title": "[page changed] Federal Register \u2014 public inspection (HHS/CDC), pre-publication",
+   "url": "https://www.federalregister.gov/api/v1/public-inspection-documents/current.json",
+   "summary": "{\"count\":106,\"results\":[{\"agencies\":[{\"raw_name\":\"SECURITIES AND EXCHANGE COMMISSION\",\"name\":\"Securities and Exchange Commission\",\"id\":466,\"url\":\"https://www.federalregister.gov/agencies/securities-and-exchange-commission\",\"json_url\":\"https://www.federalregister.gov/api/v1/agencies/466\",\"parent_id\":null,\"slug\":\"securities-and-exchange-commission\"}],\"agency_letters\":[],\"agency_names\":[\"Securities a",
    "kind": "page-change",
-   "source": "Federal Register \u2014 CDC notices",
-   "source_id": "us-fedreg-cdc",
+   "source": "Federal Register \u2014 public inspection (HHS/CDC), pre-publication",
+   "source_id": "us-fedreg-pubinspect-hhs",
    "tier": 1,
    "country": "REG",
    "category": "advisory",
@@ -36,129 +33,101 @@
     "city",
     "bush"
    ],
-   "first_seen": "2026-09-26T07:00+03:00",
-   "published": "2026-10-11",
+   "first_seen": "2026-09-26T16:46+03:00",
+   "published": "2026-09-24",
    "verdict": "OPEN THIS \u2014 tier-1 advisory page moved; content not auto-parsed, read it manually"
   },
   {
-   "score": 101.1,
+   "score": 65.3,
    "components": {
     "tier": 40,
-    "category": 32,
-    "lead": 12.0,
-    "relevance": 8,
-    "freshness": 19.1,
+    "category": 12,
+    "lead": 3.6,
+    "relevance": 0,
+    "freshness": 19.7,
     "undated": -6,
     "page_change": -4
    },
-   "keywords": [
-    "fee"
-   ],
+   "keywords": [],
    "shock_terms": [],
    "dedupe_match": null,
-   "dedupe_similarity": 0.17,
-   "id": "99df81ec61fb",
-   "title": "[page changed] Federal Register \u2014 CDC notices",
-   "url": "https://www.federalregister.gov/api/v1/documents.rss?conditions%5Bagencies%5D%5B%5D=centers-for-disease-control-and-prevention&order=newest",
-   "summary": "Federal Register Documents published on or after 08/27/2026 and from Centers for Disease Control and Prevention https://www.federalregister.gov/api/v1/documents.rss?conditions%5Bagencies%5D%5B%5D=centers-for-disease-control-and-prevention&order=newest Mon, 28 Sep 2026 04:00:00 GMT The documents in this feed originate from FederalRegister.gov which displays an unofficial web version of the daily Fe",
+   "dedupe_similarity": 0.0,
+   "id": "8dc479a2ce25",
+   "title": "[page changed] Airlink news",
+   "url": "https://www.flyairlink.com/",
+   "summary": "Request unsuccessful. Incapsula incident ID: 1093000061280557905-569773767468057008",
    "kind": "page-change",
-   "source": "Federal Register \u2014 CDC notices",
-   "source_id": "us-fedreg-cdc",
+   "source": "Airlink news",
+   "source_id": "air-airlink",
    "tier": 1,
    "country": "REG",
-   "category": "advisory",
+   "category": "airline",
    "segments": [
     "city",
-    "bush"
+    "bush",
+    "beach"
    ],
-   "first_seen": "2026-09-26T11:40+03:00",
+   "first_seen": "2026-09-26T16:45+03:00",
    "published": null,
-   "verdict": "OPEN THIS \u2014 tier-1 advisory page moved; content not auto-parsed, read it manually"
+   "verdict": "OPEN THIS \u2014 tier-1 airline page moved; content not auto-parsed, read it manually"
   },
   {
-   "score": 90.7,
+   "score": 111.5,
    "components": {
     "tier": 40,
-    "category": 32,
-    "lead": 3.6,
-    "relevance": 0,
-    "freshness": 19.1,
-    "page_change": -4
+    "category": 9,
+    "lead": 16.8,
+    "relevance": 16,
+    "freshness": 19.7,
+    "corroborated": 10
    },
-   "keywords": [],
+   "keywords": [
+    "vat",
+    "hotel",
+    "opening"
+   ],
    "shock_terms": [],
    "dedupe_match": null,
    "dedupe_similarity": 0.0,
-   "id": "fefe1c750310",
-   "title": "[page changed] Federal Register \u2014 public inspection (HHS/CDC), pre-publication",
-   "url": "https://www.federalregister.gov/api/v1/public-inspection-documents/current.json",
-   "summary": "{\"count\":106,\"results\":[{\"agencies\":[{\"raw_name\":\"SECURITIES AND EXCHANGE COMMISSION\",\"name\":\"Securities and Exchange Commission\",\"id\":466,\"url\":\"https://www.federalregister.gov/agencies/securities-and-exchange-commission\",\"json_url\":\"https://www.federalregister.gov/api/v1/agencies/466\",\"parent_id\":null,\"slug\":\"securities-and-exchange-commission\"}],\"agency_letters\":[],\"agency_names\":[\"Securities a",
-   "kind": "page-change",
-   "source": "Federal Register \u2014 public inspection (HHS/CDC), pre-publication",
-   "source_id": "us-fedreg-pubinspect-hhs",
+   "id": "4f4ba149575d",
+   "title": "From Kaua\u2019i to Kuala Lumpur, Here\u2019s Where Hilton is Opening and Renovating this Season",
+   "url": "https://stories.hilton.com/releases/where-hilton-is-opening-and-renovating-this-season-2026-q4",
+   "summary": "From new luxury destinations to landmark brand debuts, Hilton is continuing strong momentum across its portfolio this season. NoMad will debut in Singapore, while Waldorf Astoria and Conrad will bring Hilton\u2019s luxury brands to Kuala Lumpur. In the U.S., Signia Hilton will continue to expand with new hotels in Naples, Florida, and Indianapolis, while Apartment [\u2026] The post From Kaua\u2019i to Kuala Lump",
+   "kind": "item",
+   "source": "Hilton stories/newsroom",
+   "source_id": "dev-hilton",
    "tier": 1,
-   "country": "REG",
-   "category": "advisory",
+   "country": "GLOBAL",
+   "category": "hotel-group",
    "segments": [
     "city",
-    "bush"
+    "bush",
+    "beach"
    ],
-   "first_seen": "2026-09-26T11:40+03:00",
-   "published": "2026-09-24",
-   "verdict": "OPEN THIS \u2014 tier-1 advisory page moved; content not auto-parsed, read it manually"
+   "first_seen": "2026-09-26T16:45+03:00",
+   "published": "2026-09-25",
+   "verdict": "STRONG \u2014 tier-1, upstream"
   },
   {
-   "score": 85.6,
-   "components": {
-    "tier": 40,
-    "category": 32,
-    "lead": 3.6,
-    "relevance": 0,
-    "freshness": 14.0,
-    "page_change": -4
-   },
-   "keywords": [],
-   "shock_terms": [],
-   "dedupe_match": null,
-   "dedupe_similarity": 0.0,
-   "id": "ad5d7f22301a",
-   "title": "[page changed] Federal Register \u2014 public inspection (HHS/CDC), pre-publication",
-   "url": "https://www.federalregister.gov/api/v1/public-inspection-documents/current.json",
-   "summary": "{\"count\":106,\"results\":[{\"agencies\":[{\"raw_name\":\"SECURITIES AND EXCHANGE COMMISSION\",\"name\":\"Securities and Exchange Commission\",\"id\":466,\"url\":\"https://www.federalregister.gov/agencies/securities-and-exchange-commission\",\"json_url\":\"https://www.federalregister.gov/api/v1/agencies/466\",\"parent_id\":null,\"slug\":\"securities-and-exchange-commission\"}],\"agency_letters\":[],\"agency_names\":[\"Securities a",
-   "kind": "page-change",
-   "source": "Federal Register \u2014 public inspection (HHS/CDC), pre-publication",
-   "source_id": "us-fedreg-pubinspect-hhs",
-   "tier": 1,
-   "country": "REG",
-   "category": "advisory",
-   "segments": [
-    "city",
-    "bush"
-   ],
-   "first_seen": "2026-09-26T07:00+03:00",
-   "published": "2026-09-24",
-   "verdict": "OPEN THIS \u2014 tier-1 advisory page moved; content not auto-parsed, read it manually"
-  },
-  {
-   "score": 102.0,
+   "score": 109.7,
    "components": {
     "tier": 40,
     "category": 20,
     "lead": 12.0,
-    "relevance": 16,
-    "freshness": 14.0
+    "relevance": 8,
+    "freshness": 19.7,
+    "corroborated": 10
    },
    "keywords": [
-    "tax",
-    "eta"
+    "gazette"
    ],
    "shock_terms": [],
    "dedupe_match": null,
-   "dedupe_similarity": 0.2,
-   "id": "bf40bcef5994",
-   "title": "Porlanmaz Makine San TIC AS (Formerly Porlanmaz Makine Metal Ltd) v Muchwe & 3 others (Civil Case E831 of 2025) [2026] KEHC 13975 (KLR) (Commercial and Tax) (24 September 2026) (Ruling)",
-   "url": "https://new.kenyalaw.org/akn/ke/judgment/kehc/2026/13975/eng@2026-09-24",
-   "summary": "Porlanmaz Makine San TIC AS (Formerly Porlanmaz Makine Metal Ltd) v Muchwe & 3 others (Civil Case E831 of 2025) [2026] KEHC 13975 (KLR) (Commercial and Tax) (24 September 2026) (Ruling)",
+   "dedupe_similarity": 0.25,
+   "id": "001484e8d60c",
+   "title": "Kenya Gazette Vol. CXXVIII-No. 171",
+   "url": "https://new.kenyalaw.org/akn/ke/officialGazette/2026-09-25/171/eng@2026-09-25",
+   "summary": "Kenya Gazette Vol. CXXVIII-No. 171",
    "kind": "item",
    "source": "Kenya Gazette (Kenya Law)",
    "source_id": "ke-gazette",
@@ -170,118 +139,1193 @@
     "bush",
     "beach"
    ],
-   "first_seen": "2026-09-26T07:00+03:00",
-   "published": "2026-09-24",
+   "first_seen": "2026-09-26T16:46+03:00",
+   "published": "2026-09-25",
    "verdict": "STRONG \u2014 tier-1, upstream"
   },
   {
-   "score": 101.1,
+   "score": 101.7,
    "components": {
     "tier": 40,
-    "category": 32,
-    "lead": 0.0,
+    "category": 20,
+    "lead": 12.0,
     "relevance": 0,
-    "freshness": 19.1,
+    "freshness": 19.7,
     "corroborated": 10
    },
    "keywords": [],
    "shock_terms": [],
    "dedupe_match": null,
    "dedupe_similarity": 0.0,
-   "id": "d9abd30aa223",
-   "title": "Proposed Data Collection Submitted for Public Comment and Recommendations",
-   "url": "https://www.federalregister.gov/documents/2026/09/28/2026-19766/proposed-data-collection-submitted-for-public-comment-and-recommendations",
-   "summary": "The Centers for Disease Control and Prevention (CDC), as part of its continuing effort to reduce public burden and maximize the utility of government information, invites the general public and other federal agencies the opportunity to comment on a continuing information collection, as required by the Paperwork Reduction Act of 1995. This notice invites comment on a proposed information collection",
+   "id": "8f4c1cdffa2e",
+   "title": "Weekly Issue 004/26-27",
+   "url": "https://new.kenyalaw.org/akn/ke/doc/newsletter/2026-09-25/weekly-issue-00426-27/eng@2026-09-25",
+   "summary": "Weekly Issue 004/26-27",
    "kind": "item",
-   "source": "Federal Register \u2014 CDC documents (newest first)",
-   "source_id": "fr-cdc-agency-feed",
+   "source": "Kenya Gazette (Kenya Law)",
+   "source_id": "ke-gazette",
    "tier": 1,
-   "country": "GLOBAL",
-   "category": "advisory",
+   "country": "KE",
+   "category": "gazette",
    "segments": [
-    "Bush",
-    "City",
-    "Beach"
+    "city",
+    "bush",
+    "beach"
    ],
-   "first_seen": "2026-09-26T11:40+03:00",
-   "published": "2026-09-28",
+   "first_seen": "2026-09-26T16:46+03:00",
+   "published": "2026-09-25",
    "verdict": "STRONG \u2014 tier-1, upstream"
   },
   {
-   "score": 101.1,
+   "score": 96.1,
    "components": {
     "tier": 40,
-    "category": 32,
-    "lead": 0.0,
+    "category": 24,
+    "lead": 2.4,
     "relevance": 0,
-    "freshness": 19.1,
+    "freshness": 19.7,
     "corroborated": 10
    },
    "keywords": [],
    "shock_terms": [],
    "dedupe_match": null,
    "dedupe_similarity": 0.0,
-   "id": "566a65a36c4d",
-   "title": "Proposed Data Collection Submitted for Public Comment and Recommendations",
-   "url": "https://www.federalregister.gov/documents/2026/09/28/2026-19765/proposed-data-collection-submitted-for-public-comment-and-recommendations",
-   "summary": "The Centers for Disease Control and Prevention (CDC), as part of its continuing effort to reduce public burden and maximize the utility of government information, invites the general public and other federal agencies the opportunity to comment on a proposed information collection, as required by the Paperwork Reduction Act of 1995. This notice invites comment on a proposed information collection p",
-   "kind": "item",
-   "source": "Federal Register \u2014 CDC documents (newest first)",
-   "source_id": "fr-cdc-agency-feed",
-   "tier": 1,
-   "country": "GLOBAL",
-   "category": "advisory",
-   "segments": [
-    "Bush",
-    "City",
-    "Beach"
-   ],
-   "first_seen": "2026-09-26T11:40+03:00",
-   "published": "2026-09-28",
-   "verdict": "STRONG \u2014 tier-1, upstream"
-  },
-  {
-   "score": 101.1,
-   "components": {
-    "tier": 40,
-    "category": 32,
-    "lead": 0.0,
-    "relevance": 0,
-    "freshness": 19.1,
-    "corroborated": 10
-   },
-   "keywords": [],
-   "shock_terms": [],
-   "dedupe_match": null,
-   "dedupe_similarity": 0.0,
-   "id": "10e31451eedd",
-   "title": "Agency Forms Undergoing Paperwork Reduction Act Review",
-   "url": "https://www.federalregister.gov/documents/2026/09/28/2026-19764/agency-forms-undergoing-paperwork-reduction-act-review",
+   "id": "da954d8d8e2a",
+   "title": "SitRep N\u00b0133/MVE-BDBV/24/09/2026",
+   "url": "https://insp.cd/sitrep-n133-mve-bdbv-24-09-2026",
    "summary": "",
    "kind": "item",
-   "source": "Federal Register \u2014 CDC documents (newest first)",
-   "source_id": "fr-cdc-agency-feed",
+   "source": "INSP RDC \u2014 Ebola daily situation reports (SitRep)",
+   "source_id": "cd-insp-sitrep",
    "tier": 1,
    "country": "GLOBAL",
-   "category": "advisory",
+   "category": "health",
    "segments": [
-    "Bush",
     "City",
-    "Beach"
+    "Bush"
    ],
-   "first_seen": "2026-09-26T11:40+03:00",
-   "published": "2026-09-28",
+   "first_seen": "2026-09-26T16:46+03:00",
+   "published": "2026-09-26",
    "verdict": "STRONG \u2014 tier-1, upstream"
   },
   {
-   "score": 99.6,
+   "score": 89.3,
    "components": {
     "tier": 40,
-    "category": 17,
-    "lead": 16.8,
+    "category": 12,
+    "lead": 3.6,
+    "relevance": 4,
+    "freshness": 19.7,
+    "corroborated": 10
+   },
+   "keywords": [
+    "tourism"
+   ],
+   "shock_terms": [],
+   "dedupe_match": null,
+   "dedupe_similarity": 0.0,
+   "id": "8c00ff5298c4",
+   "title": "Events at the 2026 UN World Tourism Week in Eldoret Uasin Gishu county",
+   "url": "https://www.tourism.go.ke/events-at-the-2026-un-world-tourism-week-in-eldoret-uasin-gishu-county",
+   "summary": "",
+   "kind": "item",
+   "source": "Ministry of Tourism & Wildlife",
+   "source_id": "ke-tourism-ministry",
+   "tier": 1,
+   "country": "KE",
+   "category": "ministry",
+   "segments": [
+    "city",
+    "bush",
+    "beach"
+   ],
+   "first_seen": "2026-09-26T16:46+03:00",
+   "published": "2026-09-26",
+   "verdict": "CONSIDER"
+  },
+  {
+   "score": 83.7,
+   "components": {
+    "tier": 20,
+    "category": 4,
+    "lead": 0.0,
     "relevance": 12,
-    "freshness": 19.8,
+    "freshness": 19.7,
+    "corroborated": 10,
+    "shock": 18
+   },
+   "keywords": [
+    "outbreak"
+   ],
+   "shock_terms": [
+    "outbreak"
+   ],
+   "dedupe_match": null,
+   "dedupe_similarity": 0.0,
+   "id": "ca83130f932f",
+   "title": "Kigezi College is stirring again",
+   "url": "https://www.monitor.co.ug/uganda/oped/commentary/kigezi-college-is-stirring-again-5609842",
+   "summary": "The demise of Kigezi College began in the early 2000s. It is said the outbreak of the Covid-19...",
+   "kind": "item",
+   "source": "Daily Monitor (Uganda)",
+   "source_id": "np-monitor-ug",
+   "tier": 2,
+   "country": "UG",
+   "category": "press",
+   "segments": [
+    "city",
+    "bush",
+    "beach"
+   ],
+   "first_seen": "2026-09-26T16:47+03:00",
+   "published": "2026-09-26",
+   "verdict": "CONSIDER"
+  },
+  {
+   "score": 71.7,
+   "components": {
+    "tier": 20,
+    "category": 4,
+    "lead": 0.0,
+    "relevance": 0,
+    "freshness": 19.7,
+    "corroborated": 10,
+    "shock": 18
+   },
+   "keywords": [],
+   "shock_terms": [
+    "attack"
+   ],
+   "dedupe_match": null,
+   "dedupe_similarity": 0.0,
+   "id": "afde0d9424f8",
+   "title": "Three family members killed in Kazo robbery attack",
+   "url": "https://www.monitor.co.ug/uganda/news/national/three-family-members-killed-in-kazo-robbery-attack-5609846",
+   "summary": "Police say the attackers were acting on reports that the head of the household had received...",
+   "kind": "item",
+   "source": "Daily Monitor (Uganda)",
+   "source_id": "np-monitor-ug",
+   "tier": 2,
+   "country": "UG",
+   "category": "press",
+   "segments": [
+    "city",
+    "bush",
+    "beach"
+   ],
+   "first_seen": "2026-09-26T16:47+03:00",
+   "published": "2026-09-26",
+   "verdict": "CONSIDER"
+  },
+  {
+   "score": 63.7,
+   "components": {
+    "tier": 20,
+    "category": 4,
+    "lead": 0.0,
+    "relevance": 8,
+    "freshness": 19.7,
+    "undated": -6,
+    "shock": 18
+   },
+   "keywords": [
+    "strike"
+   ],
+   "shock_terms": [
+    "strike"
+   ],
+   "dedupe_match": null,
+   "dedupe_similarity": 0.0,
+   "id": "ba7266b54250",
+   "title": "National What to do and what not to do when El Ni\u00f1o strikes 5 hours ago - 2 min read",
+   "url": "https://www.thecitizen.co.tz/tanzania/news/national/what-to-do-and-what-not-to-do-when-el-ni%C3%B1o-strikes-5609032",
+   "summary": "",
+   "kind": "item",
+   "source": "The Citizen (Tanzania)",
+   "source_id": "np-citizen-tz",
+   "tier": 2,
+   "country": "TZ",
+   "category": "press",
+   "segments": [
+    "city",
+    "bush",
+    "beach"
+   ],
+   "first_seen": "2026-09-26T16:47+03:00",
+   "published": null,
+   "verdict": "weak"
+  },
+  {
+   "score": 61.7,
+   "components": {
+    "tier": 20,
+    "category": 4,
+    "lead": 0.0,
+    "relevance": 8,
+    "freshness": 19.7,
+    "corroborated": 10
+   },
+   "keywords": [
+    "investment",
+    "opening"
+   ],
+   "shock_terms": [],
+   "dedupe_match": null,
+   "dedupe_similarity": 0.0,
+   "id": "ce9fc0187a1d",
+   "title": "Tanzania, Japan deepen investment, industrial cooperation",
+   "url": "https://dailynews.co.tz/tanzania-japan-deepen-investment-industrial-cooperation",
+   "summary": "BAGAMOYO: TANZANIA and Japan are seeking to deepen a long-standing bilateral relationship by expanding trade, investment and industrial cooperation, with increased engagement between businesses from the two countries opening opportunities for technology transfer, industrial growth and employment creation. The renewed focus on investment comes as Tanzania seeks to attract more foreign capital and s",
+   "kind": "item",
+   "source": "Daily News (Tanzania)",
+   "source_id": "np-dailynews-tz",
+   "tier": 2,
+   "country": "TZ",
+   "category": "press",
+   "segments": [
+    "city",
+    "bush",
+    "beach"
+   ],
+   "first_seen": "2026-09-26T16:47+03:00",
+   "published": "2026-09-26",
+   "verdict": "weak"
+  },
+  {
+   "score": 61.7,
+   "components": {
+    "tier": 20,
+    "category": 4,
+    "lead": 0.0,
+    "relevance": 8,
+    "freshness": 19.7,
+    "corroborated": 10
+   },
+   "keywords": [
+    "hotel",
+    "tourism"
+   ],
+   "shock_terms": [],
+   "dedupe_match": null,
+   "dedupe_similarity": 0.2,
+   "id": "1323316a8bea",
+   "title": "Tanzanian female tourism trailblazer named among Africa\u2019s 100 most influential persons",
+   "url": "https://dailynews.co.tz/tanzanian-female-tourism-trailblazer-named-among-africas-100-most-influential-persons",
+   "summary": "RWANDA: TANZANIAN female tourism trailblazer, Zainab Ansell has been named among Africa\u2019s 100 Most Influential Persons. Ansell, founder and chief executive of Zara Tanzania Adventures, received a Certificate of Honour at the third edition of the awards in Kigali on 25 September 2026. The ceremony was held at the M Hotel and organised by The \u2026 The post Tanzanian female tourism trailblazer named amo",
+   "kind": "item",
+   "source": "Daily News (Tanzania)",
+   "source_id": "np-dailynews-tz",
+   "tier": 2,
+   "country": "TZ",
+   "category": "press",
+   "segments": [
+    "city",
+    "bush",
+    "beach"
+   ],
+   "first_seen": "2026-09-26T16:47+03:00",
+   "published": "2026-09-26",
+   "verdict": "weak"
+  },
+  {
+   "score": 61.7,
+   "components": {
+    "tier": 5,
+    "category": 5,
+    "lead": 0.0,
+    "relevance": 4,
+    "freshness": 19.7,
+    "corroborated": 10,
+    "shock": 18
+   },
+   "keywords": [
+    "tourist"
+   ],
+   "shock_terms": [
+    "explosion"
+   ],
+   "dedupe_match": null,
+   "dedupe_similarity": 0.0,
+   "id": "3bcd0198e938",
+   "title": "Athens Explosion Kills 6 in Plaka Tourist District Near Acropolis",
+   "url": "https://eturbonews.com/athens-explosion-plaka-tourists-acropolis",
+   "summary": "A deadly explosion has devastated Athens\u2019 historic Plaka tourist district near the Acropolis, killing six people, including foreign visitors. As rescuers search the wreckage, investigators are examining a suspected gas leak. Here is what travelers need to know about the blast, its victims and the investigation. SOURCE: Athens Explosion Kills 6 in Plaka Tourist District Near Acropolis BY: eTurboNew",
+   "kind": "item",
+   "source": "eTurboNews Africa",
+   "source_id": "tp-eturbonews",
+   "tier": 3,
+   "country": "GLOBAL",
+   "category": "trade",
+   "segments": [
+    "city",
+    "bush",
+    "beach"
+   ],
+   "first_seen": "2026-09-26T16:47+03:00",
+   "published": "2026-09-26",
+   "verdict": "weak"
+  },
+  {
+   "score": 61.7,
+   "components": {
+    "tier": 20,
+    "category": 4,
+    "lead": 0.0,
+    "relevance": 8,
+    "freshness": 19.7,
+    "corroborated": 10
+   },
+   "keywords": [
+    "election"
+   ],
+   "shock_terms": [],
+   "dedupe_match": null,
+   "dedupe_similarity": 0.0,
+   "id": "55933162a403",
+   "title": "Why South Sudan opposition and rights groups doubt Dec polls will be free, fair",
+   "url": "https://www.theeastafrican.co.ke/tea/news/east-africa/south-sudan-opposition-and-rights-groups-dec-polls-5609668",
+   "summary": "The elections have previously been postponed twice, while key provisions of the 2018 peace...",
+   "kind": "item",
+   "source": "The EastAfrican",
+   "source_id": "np-eastafrican",
+   "tier": 2,
+   "country": "REG",
+   "category": "press",
+   "segments": [
+    "city",
+    "bush",
+    "beach"
+   ],
+   "first_seen": "2026-09-26T16:47+03:00",
+   "published": "2026-09-26",
+   "verdict": "weak"
+  },
+  {
+   "score": 61.7,
+   "components": {
+    "tier": 20,
+    "category": 4,
+    "lead": 0.0,
+    "relevance": 8,
+    "freshness": 19.7,
+    "corroborated": 10
+   },
+   "keywords": [
+    "hotel",
+    "tourism"
+   ],
+   "shock_terms": [],
+   "dedupe_match": null,
+   "dedupe_similarity": 0.0,
+   "id": "e2f61c435f1b",
+   "title": "World Tourism Day puts Mbale\u2019s visitor economy in the spotlight",
+   "url": "https://www.monitor.co.ug/uganda/news/national/world-tourism-day-puts-mbale-s-visitor-economy-in-the-spotlight-5609818",
+   "summary": "Mbale\u2019s established hotels have their antennas up.",
+   "kind": "item",
+   "source": "Daily Monitor (Uganda)",
+   "source_id": "np-monitor-ug",
+   "tier": 2,
+   "country": "UG",
+   "category": "press",
+   "segments": [
+    "city",
+    "bush",
+    "beach"
+   ],
+   "first_seen": "2026-09-26T16:47+03:00",
+   "published": "2026-09-26",
+   "verdict": "weak"
+  },
+  {
+   "score": 61.7,
+   "components": {
+    "tier": 20,
+    "category": 4,
+    "lead": 0.0,
+    "relevance": 8,
+    "freshness": 19.7,
+    "corroborated": 10
+   },
+   "keywords": [
+    "fuel"
+   ],
+   "shock_terms": [],
+   "dedupe_match": null,
+   "dedupe_similarity": 0.0,
+   "id": "032ff850796b",
+   "title": "How alternative channels fuelled insurance growth",
+   "url": "https://www.monitor.co.ug/uganda/business/insurance/how-alternative-channels-fuelled-insurance-growth-5609810",
+   "summary": "Beyond mergers, bancassurance recorded particularly strong growth during the first half (H1) of...",
+   "kind": "item",
+   "source": "Daily Monitor (Uganda)",
+   "source_id": "np-monitor-ug",
+   "tier": 2,
+   "country": "UG",
+   "category": "press",
+   "segments": [
+    "city",
+    "bush",
+    "beach"
+   ],
+   "first_seen": "2026-09-26T16:47+03:00",
+   "published": "2026-09-26",
+   "verdict": "weak"
+  },
+  {
+   "score": 60.1,
+   "components": {
+    "tier": 20,
+    "category": 24,
+    "lead": 2.4,
+    "relevance": 4,
+    "freshness": 19.7,
+    "undated": -6,
+    "page_change": -4
+   },
+   "keywords": [
+    "tourist"
+   ],
+   "shock_terms": [],
+   "dedupe_match": null,
+   "dedupe_similarity": 0.0,
+   "id": "9eb7ff5f696f",
+   "title": "[page changed] ProMED-mail",
+   "url": "https://promedmail.org/",
+   "summary": "Protecting Global Health, One Alert at a Time | ProMED Previous slide Next slide Protecting Global Health, One Alert at a Time ProMED: Your 24/7 early warning system for emerging infectious diseases worldwide. Subscribe ProMED's Weekly Pulse A snapshot of global health events from the past 7 days Latest Posts on ProMED All Date Title Sat Sep 26 2026 RABIES - INDIA (29): (KERALA) DOG BITE CASES, DE",
+   "kind": "page-change",
+   "source": "ProMED-mail",
+   "source_id": "promed",
+   "tier": 2,
+   "country": "GLOBAL",
+   "category": "health",
+   "segments": [
+    "city",
+    "bush",
+    "beach"
+   ],
+   "first_seen": "2026-09-26T16:47+03:00",
+   "published": null,
+   "verdict": "weak"
+  },
+  {
+   "score": 59.7,
+   "components": {
+    "tier": 20,
+    "category": 4,
+    "lead": 0.0,
+    "relevance": 4,
+    "freshness": 19.7,
+    "undated": -6,
+    "shock": 18
+   },
+   "keywords": [
+    "traffic"
+   ],
+   "shock_terms": [
+    "attack"
+   ],
+   "dedupe_match": null,
+   "dedupe_similarity": 0.0,
+   "id": "c5bfb687b47b",
+   "title": "Technology Digital traffic attacks on Kenyan websites surge 114pc in a year 5 hours ago - 3 min read",
+   "url": "https://www.businessdailyafrica.com/bd/corporate/technology/digital-traffic-attacks-on-kenyan-websites-surge-114pc-5609420",
+   "summary": "",
+   "kind": "item",
+   "source": "Business Daily Africa",
+   "source_id": "np-businessdaily",
+   "tier": 2,
+   "country": "KE",
+   "category": "press",
+   "segments": [
+    "city",
+    "bush",
+    "beach"
+   ],
+   "first_seen": "2026-09-26T16:47+03:00",
+   "published": null,
+   "verdict": "weak"
+  },
+  {
+   "score": 57.7,
+   "components": {
+    "tier": 20,
+    "category": 4,
+    "lead": 0.0,
+    "relevance": 4,
+    "freshness": 19.7,
+    "corroborated": 10
+   },
+   "keywords": [
+    "investment"
+   ],
+   "shock_terms": [],
+   "dedupe_match": null,
+   "dedupe_similarity": 0.0,
+   "id": "dbc1f1a55c7a",
+   "title": "Tiseza wins a global investment award for third straight year",
+   "url": "https://dailynews.co.tz/tiseza-wins-a-global-investment-award-for-third-straight-year",
+   "summary": "DAR ES SALAAM: The Tanzania Investment and Special Economic Zones Authority (Tiseza) has been named Africa\u2019s Best Investment Promotion Agency for 2026, marking the third consecutive year the authority has received international recognition at the Annual Investment Meeting (AIM) Global Foundation Awards. The award was presented at the AIM Global Foundation Awards in Dubai this \u2026 The post Tiseza win",
+   "kind": "item",
+   "source": "Daily News (Tanzania)",
+   "source_id": "np-dailynews-tz",
+   "tier": 2,
+   "country": "TZ",
+   "category": "press",
+   "segments": [
+    "city",
+    "bush",
+    "beach"
+   ],
+   "first_seen": "2026-09-26T16:47+03:00",
+   "published": "2026-09-26",
+   "verdict": "weak"
+  },
+  {
+   "score": 57.7,
+   "components": {
+    "tier": 20,
+    "category": 4,
+    "lead": 0.0,
+    "relevance": 4,
+    "freshness": 19.7,
+    "corroborated": 10
+   },
+   "keywords": [
+    "conference"
+   ],
+   "shock_terms": [],
+   "dedupe_match": null,
+   "dedupe_similarity": 0.0,
+   "id": "3bc04934c17e",
+   "title": "Beyond the academic shelf: Why African universities need partnerships",
+   "url": "https://dailynews.co.tz/beyond-the-academic-shelf-why-african-universities-need-partnerships",
+   "summary": "DAR ES SALAAM: FOR decades, African universities have played a central role in producing knowledge, training professionals and conducting research on the continent\u2019s most pressing challenges. But a more difficult question is increasingly confronting higher education institutions; What happens to that knowledge after it is produced? Does research remain in academic journals and conference proceedin",
+   "kind": "item",
+   "source": "Daily News (Tanzania)",
+   "source_id": "np-dailynews-tz",
+   "tier": 2,
+   "country": "TZ",
+   "category": "press",
+   "segments": [
+    "city",
+    "bush",
+    "beach"
+   ],
+   "first_seen": "2026-09-26T16:47+03:00",
+   "published": "2026-09-26",
+   "verdict": "weak"
+  },
+  {
+   "score": 57.7,
+   "components": {
+    "tier": 20,
+    "category": 4,
+    "lead": 0.0,
+    "relevance": 4,
+    "freshness": 19.7,
+    "corroborated": 10
+   },
+   "keywords": [
+    "franc"
+   ],
+   "shock_terms": [],
+   "dedupe_match": null,
+   "dedupe_similarity": 0.0,
+   "id": "c0f5cbb017ae",
+   "title": "Cyclist Nantume promises Uganda medal in Nairobi",
+   "url": "https://www.monitor.co.ug/uganda/sports/other-sport/cyclist-nantume-promises-uganda-medal-in-nairobi-5609858",
+   "summary": "Nantume won a couple of races in France and hopes to replicate that form in Nairobi",
+   "kind": "item",
+   "source": "Daily Monitor (Uganda)",
+   "source_id": "np-monitor-ug",
+   "tier": 2,
+   "country": "UG",
+   "category": "press",
+   "segments": [
+    "city",
+    "bush",
+    "beach"
+   ],
+   "first_seen": "2026-09-26T16:47+03:00",
+   "published": "2026-09-26",
+   "verdict": "weak"
+  },
+  {
+   "score": 55.9,
+   "components": {
+    "tier": 20,
+    "category": 5,
+    "lead": 1.2,
+    "relevance": 0,
+    "freshness": 19.7,
+    "corroborated": 10
+   },
+   "keywords": [],
+   "shock_terms": [],
+   "dedupe_match": null,
+   "dedupe_similarity": 0.2,
+   "id": "d0b7a12fdd31",
+   "title": "Dar es Salaam Stock Exchange Week 39 of 2026: Equity Turnover Plunges -48.22% to TZS 27.47 Billion as MUCOBA (+11.11%) Leads as Best Stock Performer",
+   "url": "https://www.tanzaniainvest.com/finance/capitalmarkets/dse-exchange-report-week-39-2026",
+   "summary": "Dar es Salaam Stock Exchange equity turnover fell -48.22% week-on-week to TZS 27.47 billion across 12,778,561 shares and 17,855 deals during the five trading sessions of September 21st to September 25th. MUCOBA (+11.11%), AFRIPRISE (+5.41%), and VODA (+4.92%) led the gainers, while DCB (-5.62%), MCB (-3.85%), and NMG (-3.33%) were the week's top decliners. Total market capitalisation closed Friday",
+   "kind": "item",
+   "source": "TanzaniaInvest \u2014 tourism",
+   "source_id": "tp-tanzaniainvest",
+   "tier": 2,
+   "country": "TZ",
+   "category": "trade",
+   "segments": [
+    "city",
+    "bush",
+    "beach"
+   ],
+   "first_seen": "2026-09-26T16:47+03:00",
+   "published": "2026-09-26",
+   "verdict": "weak"
+  },
+  {
+   "score": 53.7,
+   "components": {
+    "tier": 20,
+    "category": 4,
+    "lead": 0.0,
+    "relevance": 0,
+    "freshness": 19.7,
+    "corroborated": 10
+   },
+   "keywords": [],
+   "shock_terms": [],
+   "dedupe_match": null,
+   "dedupe_similarity": 0.0,
+   "id": "2e35311f340a",
+   "title": "NHIF signs agreement with Aga Khan Hospital to provide cancer treatment s to its members",
+   "url": "https://dailynews.co.tz/nhif-signs-agreement-with-aga-khan-hospital-to-provide-cancer-treatment-s-to-its-members",
+   "summary": "DAR ES SALAAM: THE National Health Insurance Fund (NHIF) and Aga Khan Hospital Dar es Salaam have signed an agreement to provide cancer treatment services to NHIF members, in a move aimed at expanding access to specialised cancer care in Tanzania. The agreement was signed at a ceremony held at Aga Khan Hospital in Dar \u2026 The post NHIF signs agreement with Aga Khan Hospital to provide cancer treatme",
+   "kind": "item",
+   "source": "Daily News (Tanzania)",
+   "source_id": "np-dailynews-tz",
+   "tier": 2,
+   "country": "TZ",
+   "category": "press",
+   "segments": [
+    "city",
+    "bush",
+    "beach"
+   ],
+   "first_seen": "2026-09-26T16:47+03:00",
+   "published": "2026-09-26",
+   "verdict": "weak"
+  },
+  {
+   "score": 53.7,
+   "components": {
+    "tier": 20,
+    "category": 4,
+    "lead": 0.0,
+    "relevance": 0,
+    "freshness": 19.7,
+    "corroborated": 10
+   },
+   "keywords": [],
+   "shock_terms": [],
+   "dedupe_match": null,
+   "dedupe_similarity": 0.0,
+   "id": "bf4df9eac45d",
+   "title": "Valuation exercise advances as North Mara prepares for new tailings storage facility",
+   "url": "https://dailynews.co.tz/valuation-exercise-advances-as-north-mara-prepares-for-new-tailings-storage-facility",
+   "summary": "MARA: THE valuation of properties belonging to residents affected by the planned construction of a new Tailings Storage Facility (TSF) at the North Mara Gold Mine is progressing, with government authorities saying they are committed to ensuring that the process is transparent, participatory and fair. The exercise, which is taking place in Matongo and Nyangoto \u2026 The post Valuation exercise advances",
+   "kind": "item",
+   "source": "Daily News (Tanzania)",
+   "source_id": "np-dailynews-tz",
+   "tier": 2,
+   "country": "TZ",
+   "category": "press",
+   "segments": [
+    "city",
+    "bush",
+    "beach"
+   ],
+   "first_seen": "2026-09-26T16:47+03:00",
+   "published": "2026-09-26",
+   "verdict": "weak"
+  },
+  {
+   "score": 53.7,
+   "components": {
+    "tier": 20,
+    "category": 4,
+    "lead": 0.0,
+    "relevance": 0,
+    "freshness": 19.7,
+    "corroborated": 10
+   },
+   "keywords": [],
+   "shock_terms": [],
+   "dedupe_match": null,
+   "dedupe_similarity": 0.0,
+   "id": "30cf617c1a92",
+   "title": "Tanga opens new doors for out-of-school youth as skills programme fights poverty, exclusion",
+   "url": "https://dailynews.co.tz/tanga-opens-new-doors-for-out-of-school-youth-as-skills-programme-fights-poverty-exclusion",
+   "summary": "TANGA: LEAVING school prematurely does not necessarily mean abandoning a young person\u2019s dreams. But without another pathway to education, skills and economic opportunity, an interrupted education can quickly become a lifetime struggle. For many adolescents, circumstances beyond their control can force them out of the formal education system. Teenage pregnancy, poverty, family responsibilities, dis",
+   "kind": "item",
+   "source": "Daily News (Tanzania)",
+   "source_id": "np-dailynews-tz",
+   "tier": 2,
+   "country": "TZ",
+   "category": "press",
+   "segments": [
+    "city",
+    "bush",
+    "beach"
+   ],
+   "first_seen": "2026-09-26T16:47+03:00",
+   "published": "2026-09-26",
+   "verdict": "weak"
+  },
+  {
+   "score": 53.7,
+   "components": {
+    "tier": 20,
+    "category": 4,
+    "lead": 0.0,
+    "relevance": 0,
+    "freshness": 19.7,
+    "corroborated": 10
+   },
+   "keywords": [],
+   "shock_terms": [],
+   "dedupe_match": null,
+   "dedupe_similarity": 0.0,
+   "id": "8921af176e95",
+   "title": "Assets evaluation experts asked to prioritise safety",
+   "url": "https://dailynews.co.tz/assets-evaluation-experts-asked-to-prioritise-safety",
+   "summary": "MARA: EXPERTS conducting the valuation of assets belonging to residents earmarked for relocation to pave the way for construction of a new Tailings Storage Facility (TSF) at the North Mara Gold Mine have been urged to strictly observe safety protocols throughout the exercise. Barrick North Mara senior officer in charge of safety and health, Mr \u2026 The post Assets evaluation experts asked to prioriti",
+   "kind": "item",
+   "source": "Daily News (Tanzania)",
+   "source_id": "np-dailynews-tz",
+   "tier": 2,
+   "country": "TZ",
+   "category": "press",
+   "segments": [
+    "city",
+    "bush",
+    "beach"
+   ],
+   "first_seen": "2026-09-26T16:47+03:00",
+   "published": "2026-09-26",
+   "verdict": "weak"
+  },
+  {
+   "score": 53.7,
+   "components": {
+    "tier": 20,
+    "category": 4,
+    "lead": 0.0,
+    "relevance": 0,
+    "freshness": 19.7,
+    "corroborated": 10
+   },
+   "keywords": [],
+   "shock_terms": [],
+   "dedupe_match": null,
+   "dedupe_similarity": 0.0,
+   "id": "65009ef26599",
+   "title": "Mwakinyo: I never loved boxing, but it saved my family",
+   "url": "https://www.theeastafrican.co.ke/tea/magazine/mwakinyo-i-never-loved-boxing-but-it-saved-my-family-5609664",
+   "summary": "\u2018Boxing isn't something I would encourage anyone to get into, no matter how lucrative it is or...",
+   "kind": "item",
+   "source": "The EastAfrican",
+   "source_id": "np-eastafrican",
+   "tier": 2,
+   "country": "REG",
+   "category": "press",
+   "segments": [
+    "city",
+    "bush",
+    "beach"
+   ],
+   "first_seen": "2026-09-26T16:47+03:00",
+   "published": "2026-09-26",
+   "verdict": "weak"
+  },
+  {
+   "score": 53.7,
+   "components": {
+    "tier": 20,
+    "category": 4,
+    "lead": 0.0,
+    "relevance": 0,
+    "freshness": 19.7,
+    "corroborated": 10
+   },
+   "keywords": [],
+   "shock_terms": [],
+   "dedupe_match": null,
+   "dedupe_similarity": 0.0,
+   "id": "330b806ddc1c",
+   "title": "Somalia, Somaliland leaders seek US attention at UN meet",
+   "url": "https://www.theeastafrican.co.ke/tea/news/east-africa/somalia-somaliland-leaders-seek-us-attention-at-un-meet-5609730",
+   "summary": "They redrew attention to the debate on Somaliland\u2019s independence since the controversial...",
+   "kind": "item",
+   "source": "The EastAfrican",
+   "source_id": "np-eastafrican",
+   "tier": 2,
+   "country": "REG",
+   "category": "press",
+   "segments": [
+    "city",
+    "bush",
+    "beach"
+   ],
+   "first_seen": "2026-09-26T16:47+03:00",
+   "published": "2026-09-26",
+   "verdict": "weak"
+  },
+  {
+   "score": 53.7,
+   "components": {
+    "tier": 20,
+    "category": 4,
+    "lead": 0.0,
+    "relevance": 16,
+    "freshness": 19.7,
     "undated": -6
+   },
+   "keywords": [
+    "seat",
+    "election"
+   ],
+   "shock_terms": [],
+   "dedupe_match": null,
+   "dedupe_similarity": 0.0,
+   "id": "4ddb66c1eded",
+   "title": "Africa PAM party wins most seats in Morocco's parliamentary election Sep 24 - 3 min read",
+   "url": "https://www.thecitizen.co.tz/tanzania/news/africa/pam-party-wins-most-seats-in-morocco-s-parliamentary-election-5607136",
+   "summary": "",
+   "kind": "item",
+   "source": "The Citizen (Tanzania)",
+   "source_id": "np-citizen-tz",
+   "tier": 2,
+   "country": "TZ",
+   "category": "press",
+   "segments": [
+    "city",
+    "bush",
+    "beach"
+   ],
+   "first_seen": "2026-09-26T16:47+03:00",
+   "published": null,
+   "verdict": "weak"
+  },
+  {
+   "score": 53.7,
+   "components": {
+    "tier": 20,
+    "category": 4,
+    "lead": 0.0,
+    "relevance": 16,
+    "freshness": 19.7,
+    "undated": -6
+   },
+   "keywords": [
+    "fuel",
+    "wildlife"
+   ],
+   "shock_terms": [],
+   "dedupe_match": null,
+   "dedupe_similarity": 0.0,
+   "id": "c218ce667d7a",
+   "title": "Sound Living The overlooked factors fuelling human-wildlife conflict BY Anganile Mwakyanjala Yesterday - 6 min read",
+   "url": "https://www.thecitizen.co.tz/tanzania/magazines/sound-living/the-overlooked-factors-fuelling-human-wildlife-conflict-5608630",
+   "summary": "",
+   "kind": "item",
+   "source": "The Citizen (Tanzania)",
+   "source_id": "np-citizen-tz",
+   "tier": 2,
+   "country": "TZ",
+   "category": "press",
+   "segments": [
+    "city",
+    "bush",
+    "beach"
+   ],
+   "first_seen": "2026-09-26T16:47+03:00",
+   "published": null,
+   "verdict": "weak"
+  },
+  {
+   "score": 53.7,
+   "components": {
+    "tier": 20,
+    "category": 4,
+    "lead": 0.0,
+    "relevance": 0,
+    "freshness": 19.7,
+    "corroborated": 10
+   },
+   "keywords": [],
+   "shock_terms": [],
+   "dedupe_match": null,
+   "dedupe_similarity": 0.0,
+   "id": "4da11d7645c1",
+   "title": "\u2018Leading is not always about being in charge\u2019",
+   "url": "https://www.monitor.co.ug/uganda/lifestyle/reviews-profiles/-leading-is-not-always-about-being-in-charge--5609924",
+   "summary": "Nsasiirwe is the lead at SEMA Uganda.",
+   "kind": "item",
+   "source": "Daily Monitor (Uganda)",
+   "source_id": "np-monitor-ug",
+   "tier": 2,
+   "country": "UG",
+   "category": "press",
+   "segments": [
+    "city",
+    "bush",
+    "beach"
+   ],
+   "first_seen": "2026-09-26T16:47+03:00",
+   "published": "2026-09-26",
+   "verdict": "weak"
+  },
+  {
+   "score": 53.7,
+   "components": {
+    "tier": 20,
+    "category": 4,
+    "lead": 0.0,
+    "relevance": 0,
+    "freshness": 19.7,
+    "corroborated": 10
+   },
+   "keywords": [],
+   "shock_terms": [],
+   "dedupe_match": null,
+   "dedupe_similarity": 0.0,
+   "id": "1126e5261e99",
+   "title": "TIMELINE-Soccer-Man City's road from Premier League financial charges to reported verdict",
+   "url": "https://www.monitor.co.ug/uganda/sports/soccer/timeline-soccer-man-city-s-road-from-premier-league-financial-charges-to-reported-verdict-5609896",
+   "summary": "City were found guilty of all but one of the 115 alleged breaches of the Premier League's...",
+   "kind": "item",
+   "source": "Daily Monitor (Uganda)",
+   "source_id": "np-monitor-ug",
+   "tier": 2,
+   "country": "UG",
+   "category": "press",
+   "segments": [
+    "city",
+    "bush",
+    "beach"
+   ],
+   "first_seen": "2026-09-26T16:47+03:00",
+   "published": "2026-09-26",
+   "verdict": "weak"
+  },
+  {
+   "score": 53.7,
+   "components": {
+    "tier": 20,
+    "category": 4,
+    "lead": 0.0,
+    "relevance": 0,
+    "freshness": 19.7,
+    "corroborated": 10
+   },
+   "keywords": [],
+   "shock_terms": [],
+   "dedupe_match": null,
+   "dedupe_similarity": 0.0,
+   "id": "aae32ee19539",
+   "title": "Court dismisses voter\u2019s petition against Wakiso LC5, but legal battle continues",
+   "url": "https://www.monitor.co.ug/uganda/news/national/court-dismisses-voter-s-petition-against-wakiso-lc5-but-legal-battle-continues-5609860",
+   "summary": "Mr Lule said he was dissatisfied with the ruling and intended to appeal.",
+   "kind": "item",
+   "source": "Daily Monitor (Uganda)",
+   "source_id": "np-monitor-ug",
+   "tier": 2,
+   "country": "UG",
+   "category": "press",
+   "segments": [
+    "city",
+    "bush",
+    "beach"
+   ],
+   "first_seen": "2026-09-26T16:47+03:00",
+   "published": "2026-09-26",
+   "verdict": "weak"
+  },
+  {
+   "score": 53.7,
+   "components": {
+    "tier": 20,
+    "category": 4,
+    "lead": 0.0,
+    "relevance": 0,
+    "freshness": 19.7,
+    "corroborated": 10
+   },
+   "keywords": [],
+   "shock_terms": [],
+   "dedupe_match": null,
+   "dedupe_similarity": 0.0,
+   "id": "900f1e53765c",
+   "title": "Team Wakiso threatens fire in Jinja",
+   "url": "https://www.monitor.co.ug/uganda/sports/boxing/team-wakiso-threatens-fire-in-jinja--5609850",
+   "summary": "The female ring warriors are equally in combat mood",
+   "kind": "item",
+   "source": "Daily Monitor (Uganda)",
+   "source_id": "np-monitor-ug",
+   "tier": 2,
+   "country": "UG",
+   "category": "press",
+   "segments": [
+    "city",
+    "bush",
+    "beach"
+   ],
+   "first_seen": "2026-09-26T16:47+03:00",
+   "published": "2026-09-26",
+   "verdict": "weak"
+  },
+  {
+   "score": 53.7,
+   "components": {
+    "tier": 20,
+    "category": 4,
+    "lead": 0.0,
+    "relevance": 0,
+    "freshness": 19.7,
+    "corroborated": 10
+   },
+   "keywords": [],
+   "shock_terms": [],
+   "dedupe_match": null,
+   "dedupe_similarity": 0.0,
+   "id": "b65d57faa4be",
+   "title": "So, what is Mr Museveni\u2019s legacy?",
+   "url": "https://www.monitor.co.ug/uganda/oped/commentary/so-what-is-mr-museveni-s-legacy--5609844",
+   "summary": "Uganda remains one of Africa\u2019s largest hosts of refugees, offering asylum and integration...",
+   "kind": "item",
+   "source": "Daily Monitor (Uganda)",
+   "source_id": "np-monitor-ug",
+   "tier": 2,
+   "country": "UG",
+   "category": "press",
+   "segments": [
+    "city",
+    "bush",
+    "beach"
+   ],
+   "first_seen": "2026-09-26T16:47+03:00",
+   "published": "2026-09-26",
+   "verdict": "weak"
+  },
+  {
+   "score": 53.7,
+   "components": {
+    "tier": 20,
+    "category": 4,
+    "lead": 0.0,
+    "relevance": 0,
+    "freshness": 19.7,
+    "corroborated": 10
+   },
+   "keywords": [],
+   "shock_terms": [],
+   "dedupe_match": null,
+   "dedupe_similarity": 0.0,
+   "id": "01111f6f9811",
+   "title": "Moses Matovu\u2019s death and a poisoned angel",
+   "url": "https://www.monitor.co.ug/uganda/oped/commentary/moses-matovu-s-death-and-a-poisoned-angel-5609836",
+   "summary": "The death of Mose Matovu, the founder of Afrigo Band, hit me like a thunderbolt. Matovu was a...",
+   "kind": "item",
+   "source": "Daily Monitor (Uganda)",
+   "source_id": "np-monitor-ug",
+   "tier": 2,
+   "country": "UG",
+   "category": "press",
+   "segments": [
+    "city",
+    "bush",
+    "beach"
+   ],
+   "first_seen": "2026-09-26T16:47+03:00",
+   "published": "2026-09-26",
+   "verdict": "weak"
+  },
+  {
+   "score": 53.7,
+   "components": {
+    "tier": 20,
+    "category": 4,
+    "lead": 0.0,
+    "relevance": 0,
+    "freshness": 19.7,
+    "corroborated": 10
+   },
+   "keywords": [],
+   "shock_terms": [],
+   "dedupe_match": null,
+   "dedupe_similarity": 0.0,
+   "id": "f076c018fbfa",
+   "title": "African dignity rests on economic freedom",
+   "url": "https://www.monitor.co.ug/uganda/oped/commentary/african-dignity-rests-on-economic-freedom-5609828",
+   "summary": "It is remarkable that what Mr Museveni lays down today are precisely the very issues that...",
+   "kind": "item",
+   "source": "Daily Monitor (Uganda)",
+   "source_id": "np-monitor-ug",
+   "tier": 2,
+   "country": "UG",
+   "category": "press",
+   "segments": [
+    "city",
+    "bush",
+    "beach"
+   ],
+   "first_seen": "2026-09-26T16:47+03:00",
+   "published": "2026-09-26",
+   "verdict": "weak"
+  },
+  {
+   "score": 53.7,
+   "components": {
+    "tier": 20,
+    "category": 4,
+    "lead": 0.0,
+    "relevance": 0,
+    "freshness": 19.7,
+    "corroborated": 10
+   },
+   "keywords": [],
+   "shock_terms": [],
+   "dedupe_match": null,
+   "dedupe_similarity": 0.0,
+   "id": "b71d7ae75901",
+   "title": "Behind the Crown: Raising a son, king",
+   "url": "https://www.monitor.co.ug/uganda/lifestyle/reviews-profiles/behind-the-crown-raising-a-son-king-5609802",
+   "summary": "Behind the child on the throne was a widowed mother helping her son grow up while a kingdom...",
+   "kind": "item",
+   "source": "Daily Monitor (Uganda)",
+   "source_id": "np-monitor-ug",
+   "tier": 2,
+   "country": "UG",
+   "category": "press",
+   "segments": [
+    "city",
+    "bush",
+    "beach"
+   ],
+   "first_seen": "2026-09-26T16:47+03:00",
+   "published": "2026-09-26",
+   "verdict": "weak"
+  },
+  {
+   "score": 51.7,
+   "components": {
+    "tier": 5,
+    "category": 5,
+    "lead": 0.0,
+    "relevance": 12,
+    "freshness": 19.7,
+    "corroborated": 10
    },
    "keywords": [
     "vat",
@@ -289,1050 +1333,61 @@
    ],
    "shock_terms": [],
    "dedupe_match": null,
-   "dedupe_similarity": 0.0,
-   "id": "9e16f1b77c11",
-   "title": "Rome workshop on sustainable tourism observatories and youth input",
-   "url": "https://transition-pathways.europa.eu/tourism/events/rome-workshop-sustainable-tourism-observatories-and-youth-input",
-   "summary": "",
-   "kind": "item",
-   "source": "EU Tourism Transition Pathway \u2014 legislation & guidance",
-   "source_id": "eu-tourism-pathway",
-   "tier": 1,
-   "country": "REG",
-   "category": "regulator",
-   "segments": [
-    "bush",
-    "beach",
-    "city"
-   ],
-   "first_seen": "2026-09-26T12:18+03:00",
-   "published": null,
-   "verdict": "STRONG \u2014 tier-1, upstream"
-  },
-  {
-   "score": 96.0,
-   "components": {
-    "tier": 40,
-    "category": 20,
-    "lead": 12.0,
-    "relevance": 0,
-    "freshness": 14.0,
-    "corroborated": 10
-   },
-   "keywords": [],
-   "shock_terms": [],
-   "dedupe_match": null,
    "dedupe_similarity": 0.2,
-   "id": "45c6afb80ff7",
-   "title": "Environment and Land Court at Machakos \u2013 Weekly Cause List \u2013 28 September 2026 to 01 October 2026",
-   "url": "https://new.kenyalaw.org/akn/ke/doc/cause-list-weekly/keelc/2026-09-28/2/eng@2026-09-28",
-   "summary": "Environment and Land Court at Machakos \u2013 Weekly Cause List \u2013 28 September 2026 to 01 October 2026",
+   "id": "888be23acdf5",
+   "title": "No Dollar Sign Attached: SK\u00c5LITE International Awards Take a Different Path on Quality in Tourism",
+   "url": "https://eturbonews.com/skalite-international-awards-2026-tourism-quality",
+   "summary": "As tourism awards increasingly become a business, SK\u00c5LITE is taking another path. Born in Istanbul under H\u00fclya Aslanta\u015f and now going international, the Sk\u00e5l initiative puts quality, innovation and industry recognition ahead of the dollar sign. With nominations closing on September 28, could this become a new global tourism benchmark? SOURCE: No Dollar Sign Attached: SK\u00c5LITE International Awards T",
    "kind": "item",
-   "source": "Kenya Gazette (Kenya Law)",
-   "source_id": "ke-gazette",
-   "tier": 1,
-   "country": "KE",
-   "category": "gazette",
-   "segments": [
-    "city",
-    "bush",
-    "beach"
-   ],
-   "first_seen": "2026-09-26T07:00+03:00",
-   "published": "2026-09-28",
-   "verdict": "STRONG \u2014 tier-1, upstream"
-  },
-  {
-   "score": 96.0,
-   "components": {
-    "tier": 40,
-    "category": 20,
-    "lead": 12.0,
-    "relevance": 0,
-    "freshness": 14.0,
-    "corroborated": 10
-   },
-   "keywords": [],
-   "shock_terms": [],
-   "dedupe_match": null,
-   "dedupe_similarity": 0.2,
-   "id": "12de3c185eff",
-   "title": "Kombewa Law Court \u2013 Weekly Cause List \u2013 28 September 2026 to 08 October 2026",
-   "url": "https://new.kenyalaw.org/akn/ke/doc/cause-list-weekly/kemc/2026-09-28/5/eng@2026-09-28",
-   "summary": "Kombewa Law Court \u2013 Weekly Cause List \u2013 28 September 2026 to 08 October 2026",
-   "kind": "item",
-   "source": "Kenya Gazette (Kenya Law)",
-   "source_id": "ke-gazette",
-   "tier": 1,
-   "country": "KE",
-   "category": "gazette",
-   "segments": [
-    "city",
-    "bush",
-    "beach"
-   ],
-   "first_seen": "2026-09-26T07:00+03:00",
-   "published": "2026-09-28",
-   "verdict": "STRONG \u2014 tier-1, upstream"
-  },
-  {
-   "score": 96.0,
-   "components": {
-    "tier": 40,
-    "category": 20,
-    "lead": 12.0,
-    "relevance": 0,
-    "freshness": 14.0,
-    "corroborated": 10
-   },
-   "keywords": [],
-   "shock_terms": [],
-   "dedupe_match": null,
-   "dedupe_similarity": 0.2,
-   "id": "070b4aa6f462",
-   "title": "Marsabit Law Courts \u2013 Weekly Cause List \u2013 28 September 2026 to 01 October 2026",
-   "url": "https://new.kenyalaw.org/akn/ke/doc/cause-list-weekly/kemc/2026-09-28/6/eng@2026-09-28",
-   "summary": "Marsabit Law Courts \u2013 Weekly Cause List \u2013 28 September 2026 to 01 October 2026",
-   "kind": "item",
-   "source": "Kenya Gazette (Kenya Law)",
-   "source_id": "ke-gazette",
-   "tier": 1,
-   "country": "KE",
-   "category": "gazette",
-   "segments": [
-    "city",
-    "bush",
-    "beach"
-   ],
-   "first_seen": "2026-09-26T07:00+03:00",
-   "published": "2026-09-28",
-   "verdict": "STRONG \u2014 tier-1, upstream"
-  },
-  {
-   "score": 96.0,
-   "components": {
-    "tier": 40,
-    "category": 20,
-    "lead": 12.0,
-    "relevance": 0,
-    "freshness": 14.0,
-    "corroborated": 10
-   },
-   "keywords": [],
-   "shock_terms": [],
-   "dedupe_match": null,
-   "dedupe_similarity": 0.2,
-   "id": "5be8e87edd87",
-   "title": "Karaba Law Courts \u2013 Weekly Cause List \u2013 28 September 2026 to 02 October 2026",
-   "url": "https://new.kenyalaw.org/akn/ke/doc/cause-list-weekly/kemc/2026-09-28/7/eng@2026-09-28",
-   "summary": "Karaba Law Courts \u2013 Weekly Cause List \u2013 28 September 2026 to 02 October 2026",
-   "kind": "item",
-   "source": "Kenya Gazette (Kenya Law)",
-   "source_id": "ke-gazette",
-   "tier": 1,
-   "country": "KE",
-   "category": "gazette",
-   "segments": [
-    "city",
-    "bush",
-    "beach"
-   ],
-   "first_seen": "2026-09-26T07:00+03:00",
-   "published": "2026-09-28",
-   "verdict": "STRONG \u2014 tier-1, upstream"
-  },
-  {
-   "score": 96.0,
-   "components": {
-    "tier": 40,
-    "category": 20,
-    "lead": 12.0,
-    "relevance": 0,
-    "freshness": 14.0,
-    "corroborated": 10
-   },
-   "keywords": [],
-   "shock_terms": [],
-   "dedupe_match": null,
-   "dedupe_similarity": 0.2,
-   "id": "e70e7648ebf4",
-   "title": "Laisamis Law Courts \u2013 Criminal Division \u2013 Weekly Cause List \u2013 28 September 2026 to 01 October 2026",
-   "url": "https://new.kenyalaw.org/akn/ke/doc/cause-list-weekly/kemc/2026-09-28/8/eng@2026-09-28",
-   "summary": "Laisamis Law Courts \u2013 Criminal Division \u2013 Weekly Cause List \u2013 28 September 2026 to 01 October 2026",
-   "kind": "item",
-   "source": "Kenya Gazette (Kenya Law)",
-   "source_id": "ke-gazette",
-   "tier": 1,
-   "country": "KE",
-   "category": "gazette",
-   "segments": [
-    "city",
-    "bush",
-    "beach"
-   ],
-   "first_seen": "2026-09-26T07:00+03:00",
-   "published": "2026-09-28",
-   "verdict": "STRONG \u2014 tier-1, upstream"
-  },
-  {
-   "score": 96.0,
-   "components": {
-    "tier": 40,
-    "category": 20,
-    "lead": 12.0,
-    "relevance": 0,
-    "freshness": 14.0,
-    "corroborated": 10
-   },
-   "keywords": [],
-   "shock_terms": [],
-   "dedupe_match": null,
-   "dedupe_similarity": 0.2,
-   "id": "f89793dbb71a",
-   "title": "Wang'uru Law Courts \u2013 Criminal Division \u2013 Weekly Cause List \u2013 28 September 2026 to 02 October 2026",
-   "url": "https://new.kenyalaw.org/akn/ke/doc/cause-list-weekly/kemc/2026-09-28/9/eng@2026-09-28",
-   "summary": "Wang'uru Law Courts \u2013 Criminal Division \u2013 Weekly Cause List \u2013 28 September 2026 to 02 October 2026",
-   "kind": "item",
-   "source": "Kenya Gazette (Kenya Law)",
-   "source_id": "ke-gazette",
-   "tier": 1,
-   "country": "KE",
-   "category": "gazette",
-   "segments": [
-    "city",
-    "bush",
-    "beach"
-   ],
-   "first_seen": "2026-09-26T07:00+03:00",
-   "published": "2026-09-28",
-   "verdict": "STRONG \u2014 tier-1, upstream"
-  },
-  {
-   "score": 95.6,
-   "components": {
-    "tier": 40,
-    "category": 9,
-    "lead": 16.8,
-    "relevance": 16,
-    "freshness": 19.8,
-    "undated": -6
-   },
-   "keywords": [
-    "airport",
-    "hotel",
-    "opening"
-   ],
-   "shock_terms": [],
-   "dedupe_match": null,
-   "dedupe_similarity": 0.0,
-   "id": "f048b29eb50b",
-   "title": "voco hotels says \u201ccome on in\u201d to East Africa with the opening of voco Nairobi Airport Suites",
-   "url": "https://www.ihgplc.com/en/news-and-media/news-releases/2026/voco-hotels-says-come-on-in-to-east-africa-with-the-opening-of-voco-nairobi-airport-suites",
-   "summary": "",
-   "kind": "item",
-   "source": "IHG news",
-   "source_id": "dev-ihg",
-   "tier": 1,
+   "source": "eTurboNews Africa",
+   "source_id": "tp-eturbonews",
+   "tier": 3,
    "country": "GLOBAL",
-   "category": "hotel-group",
+   "category": "trade",
    "segments": [
     "city",
     "bush",
     "beach"
    ],
-   "first_seen": "2026-09-26T12:18+03:00",
-   "published": null,
-   "verdict": "STRONG \u2014 tier-1, upstream"
+   "first_seen": "2026-09-26T16:47+03:00",
+   "published": "2026-09-26",
+   "verdict": "weak"
   },
   {
-   "score": 94.0,
+   "score": 49.7,
    "components": {
-    "tier": 40,
-    "category": 20,
-    "lead": 12.0,
-    "relevance": 8,
-    "freshness": 14.0
-   },
-   "keywords": [
-    "tax"
-   ],
-   "shock_terms": [],
-   "dedupe_match": null,
-   "dedupe_similarity": 0.2,
-   "id": "9dd1f25f25a2",
-   "title": "Roopha & 3 others (t/a Motorways Construction) v Shengli Engineering & Construction (Group) Company Ltd & another (Commercial Case E017 of 2023) [2026] KEHC 13981 (KLR) (Commercial and Tax) (24 September 2026) (Ruling)",
-   "url": "https://new.kenyalaw.org/akn/ke/judgment/kehc/2026/13981/eng@2026-09-24",
-   "summary": "Roopha & 3 others (t/a Motorways Construction) v Shengli Engineering & Construction (Group) Company Ltd & another (Commercial Case E017 of 2023) [2026] KEHC 13981 (KLR) (Commercial and Tax) (24 September 2026) (Ruling)",
-   "kind": "item",
-   "source": "Kenya Gazette (Kenya Law)",
-   "source_id": "ke-gazette",
-   "tier": 1,
-   "country": "KE",
-   "category": "gazette",
-   "segments": [
-    "city",
-    "bush",
-    "beach"
-   ],
-   "first_seen": "2026-09-26T07:00+03:00",
-   "published": "2026-09-24",
-   "verdict": "STRONG \u2014 tier-1, upstream"
-  },
-  {
-   "score": 94.0,
-   "components": {
-    "tier": 40,
-    "category": 20,
-    "lead": 12.0,
-    "relevance": 8,
-    "freshness": 14.0
-   },
-   "keywords": [
-    "tax"
-   ],
-   "shock_terms": [],
-   "dedupe_match": null,
-   "dedupe_similarity": 0.2,
-   "id": "ea62c26c52a3",
-   "title": "Three N International Ltd v Family Bank Ltd (Commercial Case E032 of 2023) [2026] KEHC 13978 (KLR) (Commercial and Tax) (24 September 2026) (Ruling)",
-   "url": "https://new.kenyalaw.org/akn/ke/judgment/kehc/2026/13978/eng@2026-09-24",
-   "summary": "Three N International Ltd v Family Bank Ltd (Commercial Case E032 of 2023) [2026] KEHC 13978 (KLR) (Commercial and Tax) (24 September 2026) (Ruling)",
-   "kind": "item",
-   "source": "Kenya Gazette (Kenya Law)",
-   "source_id": "ke-gazette",
-   "tier": 1,
-   "country": "KE",
-   "category": "gazette",
-   "segments": [
-    "city",
-    "bush",
-    "beach"
-   ],
-   "first_seen": "2026-09-26T07:00+03:00",
-   "published": "2026-09-24",
-   "verdict": "STRONG \u2014 tier-1, upstream"
-  },
-  {
-   "score": 94.0,
-   "components": {
-    "tier": 40,
-    "category": 20,
-    "lead": 12.0,
-    "relevance": 8,
-    "freshness": 14.0
-   },
-   "keywords": [
-    "tax"
-   ],
-   "shock_terms": [],
-   "dedupe_match": null,
-   "dedupe_similarity": 0.2,
-   "id": "4bb35eb30bbf",
-   "title": "Tombe Tea Factory Ltd v Millimo Muthomi & Co Advocates (Miscellaneous Application E531 of 2023) [2026] KEHC 13976 (KLR) (Commercial and Tax) (24 September 2026) (Ruling)",
-   "url": "https://new.kenyalaw.org/akn/ke/judgment/kehc/2026/13976/eng@2026-09-24",
-   "summary": "Tombe Tea Factory Ltd v Millimo Muthomi & Co Advocates (Miscellaneous Application E531 of 2023) [2026] KEHC 13976 (KLR) (Commercial and Tax) (24 September 2026) (Ruling)",
-   "kind": "item",
-   "source": "Kenya Gazette (Kenya Law)",
-   "source_id": "ke-gazette",
-   "tier": 1,
-   "country": "KE",
-   "category": "gazette",
-   "segments": [
-    "city",
-    "bush",
-    "beach"
-   ],
-   "first_seen": "2026-09-26T07:00+03:00",
-   "published": "2026-09-24",
-   "verdict": "STRONG \u2014 tier-1, upstream"
-  },
-  {
-   "score": 94.0,
-   "components": {
-    "tier": 40,
-    "category": 20,
-    "lead": 12.0,
-    "relevance": 8,
-    "freshness": 14.0
-   },
-   "keywords": [
-    "tax"
-   ],
-   "shock_terms": [],
-   "dedupe_match": null,
-   "dedupe_similarity": 0.4,
-   "id": "2ad31b4d42c7",
-   "title": "Mahadev Suppliers Ltd & another v Kenya Commercial Bank Ltd (Commercial Case E241 of 2024) [2026] KEHC 13970 (KLR) (Commercial and Tax) (24 September 2026) (Ruling)",
-   "url": "https://new.kenyalaw.org/akn/ke/judgment/kehc/2026/13970/eng@2026-09-24",
-   "summary": "Mahadev Suppliers Ltd & another v Kenya Commercial Bank Ltd (Commercial Case E241 of 2024) [2026] KEHC 13970 (KLR) (Commercial and Tax) (24 September 2026) (Ruling)",
-   "kind": "item",
-   "source": "Kenya Gazette (Kenya Law)",
-   "source_id": "ke-gazette",
-   "tier": 1,
-   "country": "KE",
-   "category": "gazette",
-   "segments": [
-    "city",
-    "bush",
-    "beach"
-   ],
-   "first_seen": "2026-09-26T07:00+03:00",
-   "published": "2026-09-24",
-   "verdict": "STRONG \u2014 tier-1, upstream"
-  },
-  {
-   "score": 91.6,
-   "components": {
-    "tier": 40,
-    "category": 17,
-    "lead": 16.8,
-    "relevance": 4,
-    "freshness": 19.8,
+    "tier": 20,
+    "category": 4,
+    "lead": 0.0,
+    "relevance": 12,
+    "freshness": 19.7,
     "undated": -6
    },
    "keywords": [
+    "wildlife",
     "tourism"
    ],
    "shock_terms": [],
    "dedupe_match": null,
    "dedupe_similarity": 0.0,
-   "id": "ee4ef122b56d",
-   "title": "A shared vocabulary for regenerative tourism in the Mediterranean",
-   "url": "https://transition-pathways.europa.eu/tourism/knowledge-documents/shared-vocabulary-regenerative-tourism-mediterranean",
+   "id": "817d8fa30b2a",
+   "title": "Tourism Open Park Days rekindle love for wildlife",
+   "url": "https://www.newvision.co.ug/category/travel/open-park-days-rekindle-love-for-wildlife-NV_241313_092026",
    "summary": "",
    "kind": "item",
-   "source": "EU Tourism Transition Pathway \u2014 legislation & guidance",
-   "source_id": "eu-tourism-pathway",
-   "tier": 1,
-   "country": "REG",
-   "category": "regulator",
+   "source": "New Vision (Uganda)",
+   "source_id": "np-newvision-ug",
+   "tier": 2,
+   "country": "UG",
+   "category": "press",
    "segments": [
+    "city",
     "bush",
-    "beach",
-    "city"
+    "beach"
    ],
-   "first_seen": "2026-09-26T12:18+03:00",
+   "first_seen": "2026-09-26T16:47+03:00",
    "published": null,
-   "verdict": "STRONG \u2014 tier-1, upstream"
-  },
-  {
-   "score": 90.0,
-   "components": {
-    "tier": 40,
-    "category": 20,
-    "lead": 12.0,
-    "relevance": 4,
-    "freshness": 14.0
-   },
-   "keywords": [
-    "franc"
-   ],
-   "shock_terms": [],
-   "dedupe_match": null,
-   "dedupe_similarity": 0.2,
-   "id": "60e8e32d6f68",
-   "title": "Njoroge (Suing as the legal Representative of the Estate of Daniel Njoroege Kibugi - Deceased) v Karimi (Legal representative of Francis Murage - Deceased) (Environment and Land Case Civil Suit 127 of 2016) [2026] KEELC 5630 (KLR) (24 September 2026) (Ruling)",
-   "url": "https://new.kenyalaw.org/akn/ke/judgment/keelc/2026/5630/eng@2026-09-24",
-   "summary": "Njoroge (Suing as the legal Representative of the Estate of Daniel Njoroege Kibugi - Deceased) v Karimi (Legal representative of Francis Murage - Deceased) (Environment and Land Case Civil Suit 127 of 2016) [2026] KEELC 5630 (KLR) (24 September 2026) (Ruling)",
-   "kind": "item",
-   "source": "Kenya Gazette (Kenya Law)",
-   "source_id": "ke-gazette",
-   "tier": 1,
-   "country": "KE",
-   "category": "gazette",
-   "segments": [
-    "city",
-    "bush",
-    "beach"
-   ],
-   "first_seen": "2026-09-26T07:00+03:00",
-   "published": "2026-09-24",
-   "verdict": "STRONG \u2014 tier-1, upstream"
-  },
-  {
-   "score": 90.0,
-   "components": {
-    "tier": 40,
-    "category": 20,
-    "lead": 12.0,
-    "relevance": 4,
-    "freshness": 14.0
-   },
-   "keywords": [
-    "investment"
-   ],
-   "shock_terms": [],
-   "dedupe_match": null,
-   "dedupe_similarity": 0.2,
-   "id": "740acea3cd49",
-   "title": "Singh v Kingorani Investment Ltd (Environment and Land Case E015 of 2025) [2026] KEELC 5629 (KLR) (24 September 2026) (Ruling)",
-   "url": "https://new.kenyalaw.org/akn/ke/judgment/keelc/2026/5629/eng@2026-09-24",
-   "summary": "Singh v Kingorani Investment Ltd (Environment and Land Case E015 of 2025) [2026] KEELC 5629 (KLR) (24 September 2026) (Ruling)",
-   "kind": "item",
-   "source": "Kenya Gazette (Kenya Law)",
-   "source_id": "ke-gazette",
-   "tier": 1,
-   "country": "KE",
-   "category": "gazette",
-   "segments": [
-    "city",
-    "bush",
-    "beach"
-   ],
-   "first_seen": "2026-09-26T07:00+03:00",
-   "published": "2026-09-24",
-   "verdict": "STRONG \u2014 tier-1, upstream"
-  },
-  {
-   "score": 87.6,
-   "components": {
-    "tier": 40,
-    "category": 17,
-    "lead": 16.8,
-    "relevance": 0,
-    "freshness": 19.8,
-    "undated": -6
-   },
-   "keywords": [],
-   "shock_terms": [],
-   "dedupe_match": null,
-   "dedupe_similarity": 0.0,
-   "id": "a097e99121c8",
-   "title": "Gda\u0144sk wins international award for accessibility project co-designed with disabled residents",
-   "url": "https://transition-pathways.europa.eu/tourism/best-practices/gdansk-wins-international-award-accessibility-project-co-designed-disabled",
-   "summary": "",
-   "kind": "item",
-   "source": "EU Tourism Transition Pathway \u2014 legislation & guidance",
-   "source_id": "eu-tourism-pathway",
-   "tier": 1,
-   "country": "REG",
-   "category": "regulator",
-   "segments": [
-    "bush",
-    "beach",
-    "city"
-   ],
-   "first_seen": "2026-09-26T12:18+03:00",
-   "published": null,
-   "verdict": "CONSIDER"
-  },
-  {
-   "score": 87.6,
-   "components": {
-    "tier": 40,
-    "category": 17,
-    "lead": 16.8,
-    "relevance": 0,
-    "freshness": 19.8,
-    "undated": -6
-   },
-   "keywords": [],
-   "shock_terms": [],
-   "dedupe_match": null,
-   "dedupe_similarity": 0.0,
-   "id": "097aee2a5466",
-   "title": "HERIT ADAPT expands to six new Mediterranean countries",
-   "url": "https://transition-pathways.europa.eu/tourism/projects/herit-adapt-expands-six-new-mediterranean-countries",
-   "summary": "",
-   "kind": "item",
-   "source": "EU Tourism Transition Pathway \u2014 legislation & guidance",
-   "source_id": "eu-tourism-pathway",
-   "tier": 1,
-   "country": "REG",
-   "category": "regulator",
-   "segments": [
-    "bush",
-    "beach",
-    "city"
-   ],
-   "first_seen": "2026-09-26T12:18+03:00",
-   "published": null,
-   "verdict": "CONSIDER"
-  },
-  {
-   "score": 87.6,
-   "components": {
-    "tier": 40,
-    "category": 17,
-    "lead": 16.8,
-    "relevance": 0,
-    "freshness": 19.8,
-    "undated": -6
-   },
-   "keywords": [],
-   "shock_terms": [],
-   "dedupe_match": null,
-   "dedupe_similarity": 0.0,
-   "id": "878aba68913c",
-   "title": "CRAFT-TOUR opens \u20ac5,000 grant call for craftspeople",
-   "url": "https://transition-pathways.europa.eu/tourism/funding-calls/craft-tour-opens-eu5000-grant-call-craftspeople",
-   "summary": "",
-   "kind": "item",
-   "source": "EU Tourism Transition Pathway \u2014 legislation & guidance",
-   "source_id": "eu-tourism-pathway",
-   "tier": 1,
-   "country": "REG",
-   "category": "regulator",
-   "segments": [
-    "bush",
-    "beach",
-    "city"
-   ],
-   "first_seen": "2026-09-26T12:18+03:00",
-   "published": null,
-   "verdict": "CONSIDER"
-  },
-  {
-   "score": 87.6,
-   "components": {
-    "tier": 40,
-    "category": 9,
-    "lead": 16.8,
-    "relevance": 8,
-    "freshness": 19.8,
-    "undated": -6
-   },
-   "keywords": [
-    "hotel",
-    "resort"
-   ],
-   "shock_terms": [],
-   "dedupe_match": null,
-   "dedupe_similarity": 0.0,
-   "id": "aedd6aac39d7",
-   "title": "IHG Hotels & Resorts and United Hospitality Management Signs Garner Hotel Jim Corbett, Strengthening IHG\u2019s Growing Presence in India",
-   "url": "https://www.ihgplc.com/en/news-and-media/news-releases/2026/ihg-and-united-hospitality-management-signs-garner-hotel-jim-corbett-strengthening-ihgs-growing-presence-in-india",
-   "summary": "",
-   "kind": "item",
-   "source": "IHG news",
-   "source_id": "dev-ihg",
-   "tier": 1,
-   "country": "GLOBAL",
-   "category": "hotel-group",
-   "segments": [
-    "city",
-    "bush",
-    "beach"
-   ],
-   "first_seen": "2026-09-26T12:18+03:00",
-   "published": null,
-   "verdict": "CONSIDER"
-  },
-  {
-   "score": 86.0,
-   "components": {
-    "tier": 40,
-    "category": 20,
-    "lead": 12.0,
-    "relevance": 0,
-    "freshness": 14.0
-   },
-   "keywords": [],
-   "shock_terms": [],
-   "dedupe_match": null,
-   "dedupe_similarity": 0.2,
-   "id": "c3532f15f5d3",
-   "title": "Sangare v International Planned Parenthood Federation & another (Cause E621 of 2023) [2026] KEELRC 2520 (KLR) (24 September 2026) (Judgment)",
-   "url": "https://new.kenyalaw.org/akn/ke/judgment/keelrc/2026/2520/eng@2026-09-24",
-   "summary": "Sangare v International Planned Parenthood Federation & another (Cause E621 of 2023) [2026] KEELRC 2520 (KLR) (24 September 2026) (Judgment)",
-   "kind": "item",
-   "source": "Kenya Gazette (Kenya Law)",
-   "source_id": "ke-gazette",
-   "tier": 1,
-   "country": "KE",
-   "category": "gazette",
-   "segments": [
-    "city",
-    "bush",
-    "beach"
-   ],
-   "first_seen": "2026-09-26T07:00+03:00",
-   "published": "2026-09-24",
-   "verdict": "CONSIDER"
-  },
-  {
-   "score": 86.0,
-   "components": {
-    "tier": 40,
-    "category": 20,
-    "lead": 12.0,
-    "relevance": 0,
-    "freshness": 14.0
-   },
-   "keywords": [],
-   "shock_terms": [],
-   "dedupe_match": null,
-   "dedupe_similarity": 0.4,
-   "id": "9865a19e3b23",
-   "title": "Others & 174 others v Kenya Railways Corporation & another (Cause 1789 of 2015) [2026] KEELRC 2518 (KLR) (24 September 2026) (Ruling)",
-   "url": "https://new.kenyalaw.org/akn/ke/judgment/keelrc/2026/2518/eng@2026-09-24",
-   "summary": "Others & 174 others v Kenya Railways Corporation & another (Cause 1789 of 2015) [2026] KEELRC 2518 (KLR) (24 September 2026) (Ruling)",
-   "kind": "item",
-   "source": "Kenya Gazette (Kenya Law)",
-   "source_id": "ke-gazette",
-   "tier": 1,
-   "country": "KE",
-   "category": "gazette",
-   "segments": [
-    "city",
-    "bush",
-    "beach"
-   ],
-   "first_seen": "2026-09-26T07:00+03:00",
-   "published": "2026-09-24",
-   "verdict": "CONSIDER"
-  },
-  {
-   "score": 86.0,
-   "components": {
-    "tier": 40,
-    "category": 20,
-    "lead": 12.0,
-    "relevance": 0,
-    "freshness": 14.0
-   },
-   "keywords": [],
-   "shock_terms": [],
-   "dedupe_match": null,
-   "dedupe_similarity": 0.2,
-   "id": "0db42418ad45",
-   "title": "Korir aka Peter Korir & another v Chelangat (Suing as the administrator of the Estate of Clinton Kiprono - Deceased) (Civil Appeal E010 of 2023) [2026] KEHC 13917 (KLR) (24 September 2026) (Judgment)",
-   "url": "https://new.kenyalaw.org/akn/ke/judgment/kehc/2026/13917/eng@2026-09-24",
-   "summary": "Korir aka Peter Korir & another v Chelangat (Suing as the administrator of the Estate of Clinton Kiprono - Deceased) (Civil Appeal E010 of 2023) [2026] KEHC 13917 (KLR) (24 September 2026) (Judgment)",
-   "kind": "item",
-   "source": "Kenya Gazette (Kenya Law)",
-   "source_id": "ke-gazette",
-   "tier": 1,
-   "country": "KE",
-   "category": "gazette",
-   "segments": [
-    "city",
-    "bush",
-    "beach"
-   ],
-   "first_seen": "2026-09-26T07:00+03:00",
-   "published": "2026-09-24",
-   "verdict": "CONSIDER"
-  },
-  {
-   "score": 86.0,
-   "components": {
-    "tier": 40,
-    "category": 20,
-    "lead": 12.0,
-    "relevance": 0,
-    "freshness": 14.0
-   },
-   "keywords": [],
-   "shock_terms": [],
-   "dedupe_match": null,
-   "dedupe_similarity": 0.2,
-   "id": "1c09a2ab9316",
-   "title": "Kesogon Traders Association & 2 others v County Government of Trans-Nzoia & 2 others (Petition E002 of 2026) [2026] KEHC 13909 (KLR) (24 September 2026) (Ruling)",
-   "url": "https://new.kenyalaw.org/akn/ke/judgment/kehc/2026/13909/eng@2026-09-24",
-   "summary": "Kesogon Traders Association & 2 others v County Government of Trans-Nzoia & 2 others (Petition E002 of 2026) [2026] KEHC 13909 (KLR) (24 September 2026) (Ruling)",
-   "kind": "item",
-   "source": "Kenya Gazette (Kenya Law)",
-   "source_id": "ke-gazette",
-   "tier": 1,
-   "country": "KE",
-   "category": "gazette",
-   "segments": [
-    "city",
-    "bush",
-    "beach"
-   ],
-   "first_seen": "2026-09-26T07:00+03:00",
-   "published": "2026-09-24",
-   "verdict": "CONSIDER"
-  },
-  {
-   "score": 86.0,
-   "components": {
-    "tier": 40,
-    "category": 20,
-    "lead": 12.0,
-    "relevance": 0,
-    "freshness": 14.0
-   },
-   "keywords": [],
-   "shock_terms": [],
-   "dedupe_match": null,
-   "dedupe_similarity": 0.2,
-   "id": "5a983c15713f",
-   "title": "Mwehuri v Mwandonga & another (Environment and Land Case E067 of 2026) [2026] KEELC 5632 (KLR) (24 September 2026) (Ruling)",
-   "url": "https://new.kenyalaw.org/akn/ke/judgment/keelc/2026/5632/eng@2026-09-24",
-   "summary": "Mwehuri v Mwandonga & another (Environment and Land Case E067 of 2026) [2026] KEELC 5632 (KLR) (24 September 2026) (Ruling)",
-   "kind": "item",
-   "source": "Kenya Gazette (Kenya Law)",
-   "source_id": "ke-gazette",
-   "tier": 1,
-   "country": "KE",
-   "category": "gazette",
-   "segments": [
-    "city",
-    "bush",
-    "beach"
-   ],
-   "first_seen": "2026-09-26T07:00+03:00",
-   "published": "2026-09-24",
-   "verdict": "CONSIDER"
-  },
-  {
-   "score": 86.0,
-   "components": {
-    "tier": 40,
-    "category": 20,
-    "lead": 12.0,
-    "relevance": 0,
-    "freshness": 14.0
-   },
-   "keywords": [],
-   "shock_terms": [],
-   "dedupe_match": null,
-   "dedupe_similarity": 0.2,
-   "id": "1122dbcdf19b",
-   "title": "Kimundi v Matheka (Environment and Land Appeal E011 of 2021) [2026] KEELC 5631 (KLR) (24 September 2026) (Judgment)",
-   "url": "https://new.kenyalaw.org/akn/ke/judgment/keelc/2026/5631/eng@2026-09-24",
-   "summary": "Kimundi v Matheka (Environment and Land Appeal E011 of 2021) [2026] KEELC 5631 (KLR) (24 September 2026) (Judgment)",
-   "kind": "item",
-   "source": "Kenya Gazette (Kenya Law)",
-   "source_id": "ke-gazette",
-   "tier": 1,
-   "country": "KE",
-   "category": "gazette",
-   "segments": [
-    "city",
-    "bush",
-    "beach"
-   ],
-   "first_seen": "2026-09-26T07:00+03:00",
-   "published": "2026-09-24",
-   "verdict": "CONSIDER"
-  },
-  {
-   "score": 86.0,
-   "components": {
-    "tier": 40,
-    "category": 20,
-    "lead": 12.0,
-    "relevance": 0,
-    "freshness": 14.0
-   },
-   "keywords": [],
-   "shock_terms": [],
-   "dedupe_match": null,
-   "dedupe_similarity": 0.2,
-   "id": "f7ade10d30f6",
-   "title": "DPP v Muyeye (Criminal Revision E019 of 2026) [2026] KEHC 13980 (KLR) (24 September 2026) (Ruling)",
-   "url": "https://new.kenyalaw.org/akn/ke/judgment/kehc/2026/13980/eng@2026-09-24",
-   "summary": "DPP v Muyeye (Criminal Revision E019 of 2026) [2026] KEHC 13980 (KLR) (24 September 2026) (Ruling)",
-   "kind": "item",
-   "source": "Kenya Gazette (Kenya Law)",
-   "source_id": "ke-gazette",
-   "tier": 1,
-   "country": "KE",
-   "category": "gazette",
-   "segments": [
-    "city",
-    "bush",
-    "beach"
-   ],
-   "first_seen": "2026-09-26T07:00+03:00",
-   "published": "2026-09-24",
-   "verdict": "CONSIDER"
-  },
-  {
-   "score": 86.0,
-   "components": {
-    "tier": 40,
-    "category": 20,
-    "lead": 12.0,
-    "relevance": 0,
-    "freshness": 14.0
-   },
-   "keywords": [],
-   "shock_terms": [],
-   "dedupe_match": null,
-   "dedupe_similarity": 0.2,
-   "id": "007b96198aa4",
-   "title": "JKN v Republic (Criminal Revision E1533 of 2024) [2026] KEHC 13979 (KLR) (Crim) (24 September 2026) (Ruling)",
-   "url": "https://new.kenyalaw.org/akn/ke/judgment/kehc/2026/13979/eng@2026-09-24",
-   "summary": "JKN v Republic (Criminal Revision E1533 of 2024) [2026] KEHC 13979 (KLR) (Crim) (24 September 2026) (Ruling)",
-   "kind": "item",
-   "source": "Kenya Gazette (Kenya Law)",
-   "source_id": "ke-gazette",
-   "tier": 1,
-   "country": "KE",
-   "category": "gazette",
-   "segments": [
-    "city",
-    "bush",
-    "beach"
-   ],
-   "first_seen": "2026-09-26T07:00+03:00",
-   "published": "2026-09-24",
-   "verdict": "CONSIDER"
-  },
-  {
-   "score": 86.0,
-   "components": {
-    "tier": 40,
-    "category": 20,
-    "lead": 12.0,
-    "relevance": 0,
-    "freshness": 14.0
-   },
-   "keywords": [],
-   "shock_terms": [],
-   "dedupe_match": null,
-   "dedupe_similarity": 0.2,
-   "id": "7fabd9e349ad",
-   "title": "Aluodo v Cisco Systems Management B.V. (Employment and Labour Relations Cause E1382 of 2018) [2026] KEELRC 2526 (KLR) (24 September 2026) (Judgment)",
-   "url": "https://new.kenyalaw.org/akn/ke/judgment/keelrc/2026/2526/eng@2026-09-24",
-   "summary": "Aluodo v Cisco Systems Management B.V. (Employment and Labour Relations Cause E1382 of 2018) [2026] KEELRC 2526 (KLR) (24 September 2026) (Judgment)",
-   "kind": "item",
-   "source": "Kenya Gazette (Kenya Law)",
-   "source_id": "ke-gazette",
-   "tier": 1,
-   "country": "KE",
-   "category": "gazette",
-   "segments": [
-    "city",
-    "bush",
-    "beach"
-   ],
-   "first_seen": "2026-09-26T07:00+03:00",
-   "published": "2026-09-24",
-   "verdict": "CONSIDER"
-  },
-  {
-   "score": 86.0,
-   "components": {
-    "tier": 40,
-    "category": 20,
-    "lead": 12.0,
-    "relevance": 0,
-    "freshness": 14.0
-   },
-   "keywords": [],
-   "shock_terms": [],
-   "dedupe_match": null,
-   "dedupe_similarity": 0.4,
-   "id": "27d6db2f5707",
-   "title": "Kenya Legal Trust Fund v Ethics and Anti-Corruption Commission & 4 others (Anti-Corruption and Economic Crime Petition E029 of 2026) [2026] KEHC 13977 (KLR) (Anti-Corruption and Economic Crimes) (24 September 2026) (Ruling)",
-   "url": "https://new.kenyalaw.org/akn/ke/judgment/kehc/2026/13977/eng@2026-09-24",
-   "summary": "Kenya Legal Trust Fund v Ethics and Anti-Corruption Commission & 4 others (Anti-Corruption and Economic Crime Petition E029 of 2026) [2026] KEHC 13977 (KLR) (Anti-Corruption and Economic Crimes) (24 September 2026) (Ruling)",
-   "kind": "item",
-   "source": "Kenya Gazette (Kenya Law)",
-   "source_id": "ke-gazette",
-   "tier": 1,
-   "country": "KE",
-   "category": "gazette",
-   "segments": [
-    "city",
-    "bush",
-    "beach"
-   ],
-   "first_seen": "2026-09-26T07:00+03:00",
-   "published": "2026-09-24",
-   "verdict": "CONSIDER"
-  },
-  {
-   "score": 86.0,
-   "components": {
-    "tier": 40,
-    "category": 20,
-    "lead": 12.0,
-    "relevance": 0,
-    "freshness": 14.0
-   },
-   "keywords": [],
-   "shock_terms": [],
-   "dedupe_match": null,
-   "dedupe_similarity": 0.2,
-   "id": "d812f20c714b",
-   "title": "Kinyua v Mwangi & 2 others (Environment and Land Case E118 of 2023) [2026] KEELC 5628 (KLR) (24 September 2026) (Ruling)",
-   "url": "https://new.kenyalaw.org/akn/ke/judgment/keelc/2026/5628/eng@2026-09-24",
-   "summary": "Kinyua v Mwangi & 2 others (Environment and Land Case E118 of 2023) [2026] KEELC 5628 (KLR) (24 September 2026) (Ruling)",
-   "kind": "item",
-   "source": "Kenya Gazette (Kenya Law)",
-   "source_id": "ke-gazette",
-   "tier": 1,
-   "country": "KE",
-   "category": "gazette",
-   "segments": [
-    "city",
-    "bush",
-    "beach"
-   ],
-   "first_seen": "2026-09-26T07:00+03:00",
-   "published": "2026-09-24",
-   "verdict": "CONSIDER"
-  },
-  {
-   "score": 86.0,
-   "components": {
-    "tier": 40,
-    "category": 20,
-    "lead": 12.0,
-    "relevance": 0,
-    "freshness": 14.0
-   },
-   "keywords": [],
-   "shock_terms": [],
-   "dedupe_match": null,
-   "dedupe_similarity": 0.2,
-   "id": "d2529d4db3d4",
-   "title": "Assets Recovery Agency v Odero & 3 others (Civil Suit E040 of 2025) [2026] KEHC 13974 (KLR) (Anti-Corruption and Economic Crimes) (24 September 2026) (Judgment)",
-   "url": "https://new.kenyalaw.org/akn/ke/judgment/kehc/2026/13974/eng@2026-09-24",
-   "summary": "Assets Recovery Agency v Odero & 3 others (Civil Suit E040 of 2025) [2026] KEHC 13974 (KLR) (Anti-Corruption and Economic Crimes) (24 September 2026) (Judgment)",
-   "kind": "item",
-   "source": "Kenya Gazette (Kenya Law)",
-   "source_id": "ke-gazette",
-   "tier": 1,
-   "country": "KE",
-   "category": "gazette",
-   "segments": [
-    "city",
-    "bush",
-    "beach"
-   ],
-   "first_seen": "2026-09-26T07:00+03:00",
-   "published": "2026-09-24",
-   "verdict": "CONSIDER"
-  },
-  {
-   "score": 86.0,
-   "components": {
-    "tier": 40,
-    "category": 20,
-    "lead": 12.0,
-    "relevance": 0,
-    "freshness": 14.0
-   },
-   "keywords": [],
-   "shock_terms": [],
-   "dedupe_match": null,
-   "dedupe_similarity": 0.2,
-   "id": "56a20bf7b018",
-   "title": "Kimuyu v Republic (Criminal Appeal E075 of 2025) [2026] KEHC 13969 (KLR) (24 September 2026) (Judgment)",
-   "url": "https://new.kenyalaw.org/akn/ke/judgment/kehc/2026/13969/eng@2026-09-24",
-   "summary": "Kimuyu v Republic (Criminal Appeal E075 of 2025) [2026] KEHC 13969 (KLR) (24 September 2026) (Judgment)",
-   "kind": "item",
-   "source": "Kenya Gazette (Kenya Law)",
-   "source_id": "ke-gazette",
-   "tier": 1,
-   "country": "KE",
-   "category": "gazette",
-   "segments": [
-    "city",
-    "bush",
-    "beach"
-   ],
-   "first_seen": "2026-09-26T07:00+03:00",
-   "published": "2026-09-24",
-   "verdict": "CONSIDER"
+   "verdict": "weak"
   }
  ]
 }
