@@ -1,5 +1,14 @@
 window.EDITIONS = [
  {
+  "id": "pulse-2026-09-26-evening",
+  "date": "2026-09-26",
+  "dateDisplay": "Saturday, 26 September 2026",
+  "edition": "Evening Wrap",
+  "editionKey": "evening",
+  "summary": "1️⃣ ETHIOPIA'S HERITAGE NORTH IS NOW OFF-LIMITS. ADDIS AND BOLE ARE NOT",
+  "bodyHtml": "<p><strong>🌆 EVENING WRAP · Sat 26 Sep 2026</strong></p>\n<p><strong>1️⃣ ETHIOPIA&#x27;S HERITAGE NORTH IS NOW OFF-LIMITS. ADDIS AND BOLE ARE NOT</strong></p>\n<p>Tigrayan forces took Mekelle, Axum and Shire airports on <strong>23 Sep</strong>; Ethiopian suspended all three <strong>(The Reporter, 23 Sep)</strong> and reportedly Lalibela on <strong>24 Sep</strong>. On <strong>25 Sep</strong> the US Embassy told citizens not to travel to Amhara (incl. Lalibela), Tigray or Afar <strong>&quot;for any reason&quot;</strong> <strong>(via Kenyans.co.ke, 26 Sep)</strong>. The FCDO widened its Afar no-go zone on <strong>24 Sep</strong>; Tigray and Amhara were already all-travel <strong>(gov.uk, read 26 Sep)</strong>.</p>\n<p><strong>What everyone is missing.</strong> No notice touches Addis or Bole; FCDO carves out the capital&#x27;s corridors. The exposure is the itinerary: any Lalibela or Axum leg paired with a safari is unsellable, and its nights need a home.<br><span class=\"tagline\">🏷 City, Bush, Beach | Ethiopia, Kenya, Tanzania, Zanzibar | Confirmed (facts) · Inference (the read) | impact:risk</span><br><span class=\"sowhat\">🎯 Brief reservations tonight with one dated line: Addis and Bole outside every warning; Kenya&#x27;s UK, US, Canadian and German advice unchanged (read 26 Sep).</span></p>\n<p><strong>2️⃣ US EMBASSY: KENYA&#x27;S EBOLA SCREENING DATA MAY HAVE LEAKED</strong></p>\n<p>A <strong>25 Sep</strong> US security alert warns of a possible breach of names, passport numbers and health answers taken at Kenyan ports of entry since late May, from arrivals out of ten countries incl. <strong>Tanzania, Uganda, Rwanda, Ethiopia</strong>. <strong>&quot;The U.S. Embassy is unable to confirm if an individual&#x27;s data is part of the breach&quot;</strong> <strong>(via Kenyans.co.ke, 26 Sep; embassy page unreadable)</strong>. Scale, timing and nature: not stated.<br><span class=\"tagline\">🏷 City, Bush, Beach | Kenya, Tanzania, Uganda, Rwanda | Reported | impact:risk</span><br><span class=\"sowhat\">🎯 Expect circuit guests to ask. Give facts, point to official updates, don&#x27;t speculate on exposure.</span></p>\n<p><strong>3️⃣ PARIS MOVES LAMU AND MANDA ISLANDS TO YELLOW</strong></p>\n<p>France&#x27;s Kenya security page, updated <strong>25 Sep</strong>, re-dated its zone map and now puts Lamu and Manda islands in <strong>vigilance renforcée</strong>, air access only. The March map had the archipelago orange <strong>(diplomatie.gouv.fr, read 26 Sep)</strong>. Mainland Lamu stays red.<br><span class=\"tagline\">🏷 Beach | Kenya | Confirmed | impact:demand</span><br><span class=\"sowhat\">🎯 Lamu properties: put the new map in front of French agents and DMCs this week.</span></p>\n<p><strong>📻 ALSO TONIGHT</strong><br>🦠 <strong>WHO DON618 (25 Sep):</strong> DRC <strong>7,890</strong> cases, <strong>3,799</strong> deaths to 23 Sep; North Kivu <strong>567</strong> cases in 21 days, CFR <strong>59.7%</strong>. Border-country risk still &quot;high&quot;.<br>🇰🇪 <strong>Court of Appeal upheld the 1.5% Housing Levy (25 Sep)</strong> <strong>(Kenyans.co.ke)</strong>. Payroll cost stands.<br>🛡 Sweep <strong>18/18</strong>: no US/UK level change on our five markets.</p>\n<p><strong>🔍 BLIND SPOTS.</strong> Kenya Gazette No. 171 (25 Sep) unread; CBK 25 Sep bulletin not found; nothing new from Zanzibar MoH.</p>\n<p>🔗 This edition on the web: <a href=\"https://eahospitalitypulse.com/editions/pulse-2026-09-26-evening.html\" rel=\"noopener\">eahospitalitypulse.com/editions/pulse-2026-09-26-evenin…</a><br>💼 Tonight&#x27;s Big Read: <a href=\"https://www.linkedin.com/company/ea-hospitality-pulse/\" rel=\"noopener\">linkedin.com/company/ea-hospitality-pulse/</a></p>"
+ },
+ {
   "id": "pulse-2026-09-23-evening",
   "date": "2026-09-23",
   "dateDisplay": "Wednesday, 23 September 2026",
@@ -1018,6 +1027,67 @@ window.EDITIONS = [
  }
 ];
 window.INSIGHTS = [
+ {
+  "headline": "ETHIOPIA'S HERITAGE NORTH IS NOW OFF-LIMITS. ADDIS AND BOLE ARE NOT",
+  "body": "Tigrayan forces took Mekelle, Axum and Shire airports on **23 Sep**; Ethiopian suspended all three *(The Reporter, 23 Sep)* and reportedly Lalibela on **24 Sep**. On **25 Sep** the US Embassy told citizens not to travel to Amhara (incl. Lalibela), Tigray or Afar *\"for any reason\"* *(via Kenyans.co.ke, 26 Sep)*. The FCDO widened its Afar no-go zone on **24 Sep**; Tigray and Amhara were already all-travel *(gov.uk, read 26 Sep)*. **What everyone is missing.** No notice touches Addis or Bole; FCDO carves out the capital's corridors. The exposure is the itinerary: any Lalibela or Axum leg paired with a safari is unsellable, and its nights need a home.",
+  "sowhat": "",
+  "segments": [
+   "city",
+   "bush",
+   "beach"
+  ],
+  "countries": "Ethiopia, Kenya, Tanzania, Zanzibar",
+  "confidence": "Confirmed (facts) · Inference (the read)",
+  "impact": "risk",
+  "impactClass": "risk",
+  "intensity": 3,
+  "impactSet": "author",
+  "source": "pulse-2026-09-26-evening",
+  "date": "2026-09-26",
+  "dateDisplay": "Saturday, 26 September 2026",
+  "edition": "Evening Wrap",
+  "editionKey": "evening"
+ },
+ {
+  "headline": "US EMBASSY: KENYA'S EBOLA SCREENING DATA MAY HAVE LEAKED",
+  "body": "A **25 Sep** US security alert warns of a possible breach of names, passport numbers and health answers taken at Kenyan ports of entry since late May, from arrivals out of ten countries incl. **Tanzania, Uganda, Rwanda, Ethiopia**. *\"The U.S. Embassy is unable to confirm if an individual's data is part of the breach\"* *(via Kenyans.co.ke, 26 Sep; embassy page unreadable)*. Scale, timing and nature: not stated.",
+  "sowhat": "",
+  "segments": [
+   "city",
+   "bush",
+   "beach"
+  ],
+  "countries": "Kenya, Tanzania, Uganda, Rwanda",
+  "confidence": "Reported",
+  "impact": "risk",
+  "impactClass": "risk",
+  "intensity": 2,
+  "impactSet": "author",
+  "source": "pulse-2026-09-26-evening",
+  "date": "2026-09-26",
+  "dateDisplay": "Saturday, 26 September 2026",
+  "edition": "Evening Wrap",
+  "editionKey": "evening"
+ },
+ {
+  "headline": "PARIS MOVES LAMU AND MANDA ISLANDS TO YELLOW",
+  "body": "France's Kenya security page, updated **25 Sep**, re-dated its zone map and now puts Lamu and Manda islands in *vigilance renforcée*, air access only. The March map had the archipelago orange *(diplomatie.gouv.fr, read 26 Sep)*. Mainland Lamu stays red.",
+  "sowhat": "",
+  "segments": [
+   "beach"
+  ],
+  "countries": "Kenya",
+  "confidence": "Confirmed",
+  "impact": "+demand",
+  "impactClass": "demand",
+  "intensity": 3,
+  "impactSet": "author",
+  "source": "pulse-2026-09-26-evening",
+  "date": "2026-09-26",
+  "dateDisplay": "Saturday, 26 September 2026",
+  "edition": "Evening Wrap",
+  "editionKey": "evening"
+ },
  {
   "headline": "CAF FOUND AFCON'S ROOM PROBLEM UPCOUNTRY. AMERICA'S WORLD CUP SAYS THE CITY RISK IS PRICE, NOT BEDS",
   "body": "On **22 Sep** CAF's Samson Adamu briefed Museveni after inspecting Uganda's venues. Stadiums drew praise; accommodation outside Kampala and the missing single visa did not *(Daily Monitor, 22 Sep; The EastAfrican, 23 Sep)*. Museveni: *\"The Kampala area has the facilities, but now the challenge is upcountry.\"* Kick-off is **19 Jun 2027** *(Nile Post, 22 Sep)*. The same day HVS published Houston's World Cup result: ~500,000 visitors, occupancy **flat at 61.6%**, ADR **+5.8%**, match-eve spikes of **~52–53%** *(HVS/CoStar, 22 Sep)*. Across all 11 US host cities, occupancy **fell** below baseline in **seven**, rate rose in all, and group business moved elsewhere *(HVS, 7 Aug)*. **What everyone is missing.** AFCON is two tournaments. Kampala, Nairobi and Dar will be *priced*, not filled, in the weeks safari and conference guests already sleep there. Hoima is the reverse: permanent rooms for a four-week event.",
@@ -5459,4 +5529,4 @@ window.INSIGHTS = [
   "editionKey": "evening"
  }
 ];
-window.BUILT_AT = "2026-09-26 06:33";
+window.BUILT_AT = "2026-09-26 17:20";
