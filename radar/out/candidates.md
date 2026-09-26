@@ -1,325 +1,325 @@
 # Radar candidates — morning slot
-_Window opens Fri 25 Sep 18:00 EAT · 272 observations in window · 4 headlines deduped against_
+_Window opens Fri 25 Sep 18:00 EAT · 377 observations in window · 4 headlines deduped against_
 
 Ranked by first-seen recency, source tier and hospitality relevance. `first seen` is when the radar observed the item, which is the date the recency gate runs on. `published` is what the source claims — where the two disagree, the disagreement is the story.
 
-### 🚨 [101.3] [page changed] Federal Register — public inspection (HHS/CDC), pre-publication
+### 🚨 [117.8] [page changed] Federal Register — CDC notices
+- **Verdict:** OPEN THIS — tier-1 advisory page moved; content not auto-parsed, read it manually
+- **Source:** Federal Register — CDC notices · tier 1 · REG · advisory
+- **First seen:** 2026-09-26T07:00+03:00 EAT · **Source date:** 2026-10-11
+- **URL:** https://www.federalregister.gov/api/v1/documents.rss?conditions%5Bagencies%5D%5B%5D=centers-for-disease-control-and-prevention&order=newest
+- **Extract:** Federal Register Documents published on or after 08/27/2026 and from Centers for Disease Control and Prevention https://www.federalregister.gov/api/v1/documents.rss?conditions%5Bagencies%5D%5B%5D=centers-for-disease-control-and-prevention&order=newest Mon, 21 
+- **Score parts:** tier +40, category +32, lead +12, relevance +8, freshness +19.8, corroborated +10, page_change -4
+
+### 🚨 [91.4] [page changed] Federal Register — public inspection (HHS/CDC), pre-publication
+- **Verdict:** OPEN THIS — tier-1 advisory page moved; content not auto-parsed, read it manually
+- **Source:** Federal Register — public inspection (HHS/CDC), pre-publication · tier 1 · REG · advisory
+- **First seen:** 2026-09-26T07:00+03:00 EAT · **Source date:** 2026-09-24
+- **URL:** https://www.federalregister.gov/api/v1/public-inspection-documents/current.json
+- **Extract:** {"count":106,"results":[{"agencies":[{"raw_name":"SECURITIES AND EXCHANGE COMMISSION","name":"Securities and Exchange Commission","id":466,"url":"https://www.federalregister.gov/agencies/securities-and-exchange-commission","json_url":"https://www.federalregist
+- **Score parts:** tier +40, category +32, lead +3.6, relevance +0, freshness +19.8, page_change -4
+
+### 🚨 [86.0] [page changed] Federal Register — public inspection (HHS/CDC), pre-publication
 - **Verdict:** OPEN THIS — tier-1 advisory page moved; content not auto-parsed, read it manually
 - **Source:** Federal Register — public inspection (HHS/CDC), pre-publication · tier 1 · REG · advisory
 - **First seen:** 2026-09-26T02:09+03:00 EAT · **Source date:** 2026-09-24
 - **URL:** https://www.federalregister.gov/api/v1/public-inspection-documents/current.json
 - **Extract:** {"count":106,"results":[{"agencies":[{"raw_name":"SECURITIES AND EXCHANGE COMMISSION","name":"Securities and Exchange Commission","id":466,"url":"https://www.federalregister.gov/agencies/securities-and-exchange-commission","json_url":"https://www.federalregist
-- **Score parts:** tier +40, category +32, lead +3.6, relevance +0, freshness +19.7, corroborated +10, page_change -4
+- **Score parts:** tier +40, category +32, lead +3.6, relevance +0, freshness +14.4, page_change -4
 
-### 🚨 [97.1] [page changed] Federal Register — public inspection (HHS/CDC), pre-publication
+### 🚨 [81.8] [page changed] Federal Register — public inspection (HHS/CDC), pre-publication
 - **Verdict:** OPEN THIS — tier-1 advisory page moved; content not auto-parsed, read it manually
 - **Source:** Federal Register — public inspection (HHS/CDC), pre-publication · tier 1 · REG · advisory
 - **First seen:** 2026-09-25T22:20+03:00 EAT · **Source date:** 2026-09-24
 - **URL:** https://www.federalregister.gov/api/v1/public-inspection-documents/current.json
 - **Extract:** {"count":103,"results":[{"agencies":[{"raw_name":"SECURITIES AND EXCHANGE COMMISSION","name":"Securities and Exchange Commission","id":466,"url":"https://www.federalregister.gov/agencies/securities-and-exchange-commission","json_url":"https://www.federalregist
-- **Score parts:** tier +40, category +32, lead +3.6, relevance +0, freshness +15.5, corroborated +10, page_change -4
+- **Score parts:** tier +40, category +32, lead +3.6, relevance +0, freshness +10.2, page_change -4
 
-### 🚨 [65.3] [page changed] Airlink news
+### 🚨 [60.0] [page changed] Airlink news
 - **Verdict:** OPEN THIS — tier-1 airline page moved; content not auto-parsed, read it manually
 - **Source:** Airlink news · tier 1 · REG · airline
 - **First seen:** 2026-09-26T02:09+03:00 EAT · **Source date:** — none stated
 - **URL:** https://www.flyairlink.com/
 - **Extract:** Request unsuccessful. Incapsula incident ID: 395000360534600419-264699354169411882
-- **Score parts:** tier +40, category +12, lead +3.6, relevance +0, freshness +19.7, undated -6, page_change -4
+- **Score parts:** tier +40, category +12, lead +3.6, relevance +0, freshness +14.4, undated -6, page_change -4
 
-### 🟡 [104.7] Trimurti Healthcare Ltd v Mediheal Group Ltd & another (Insolvency Cause E547 of 2024) [2026] KEHC 13865 (KLR) (Commerci
+### 🟠 [107.8] Porlanmaz Makine San TIC AS (Formerly Porlanmaz Makine Metal Ltd) v Muchwe & 3 others (Civil Case E831 of 2025) [2026] K
+- **Verdict:** STRONG — tier-1, upstream
+- **Source:** Kenya Gazette (Kenya Law) · tier 1 · KE · gazette
+- **First seen:** 2026-09-26T07:00+03:00 EAT · **Source date:** 2026-09-24
+- **URL:** https://new.kenyalaw.org/akn/ke/judgment/kehc/2026/13975/eng@2026-09-24
+- **Extract:** Porlanmaz Makine San TIC AS (Formerly Porlanmaz Makine Metal Ltd) v Muchwe & 3 others (Civil Case E831 of 2025) [2026] KEHC 13975 (KLR) (Commercial and Tax) (24 September 2026) (Ruling)
+- **Score parts:** tier +40, category +20, lead +12, relevance +16, freshness +19.8
+
+### 🟠 [101.8] Environment and Land Court at Machakos – Weekly Cause List – 28 September 2026 to 01 October 2026
+- **Verdict:** STRONG — tier-1, upstream
+- **Source:** Kenya Gazette (Kenya Law) · tier 1 · KE · gazette
+- **First seen:** 2026-09-26T07:00+03:00 EAT · **Source date:** 2026-09-28
+- **URL:** https://new.kenyalaw.org/akn/ke/doc/cause-list-weekly/keelc/2026-09-28/2/eng@2026-09-28
+- **Extract:** Environment and Land Court at Machakos – Weekly Cause List – 28 September 2026 to 01 October 2026
+- **Score parts:** tier +40, category +20, lead +12, relevance +0, freshness +19.8, corroborated +10
+
+### 🟠 [101.8] Kombewa Law Court – Weekly Cause List – 28 September 2026 to 08 October 2026
+- **Verdict:** STRONG — tier-1, upstream
+- **Source:** Kenya Gazette (Kenya Law) · tier 1 · KE · gazette
+- **First seen:** 2026-09-26T07:00+03:00 EAT · **Source date:** 2026-09-28
+- **URL:** https://new.kenyalaw.org/akn/ke/doc/cause-list-weekly/kemc/2026-09-28/5/eng@2026-09-28
+- **Extract:** Kombewa Law Court – Weekly Cause List – 28 September 2026 to 08 October 2026
+- **Score parts:** tier +40, category +20, lead +12, relevance +0, freshness +19.8, corroborated +10
+
+### 🟠 [101.8] Marsabit Law Courts – Weekly Cause List – 28 September 2026 to 01 October 2026
+- **Verdict:** STRONG — tier-1, upstream
+- **Source:** Kenya Gazette (Kenya Law) · tier 1 · KE · gazette
+- **First seen:** 2026-09-26T07:00+03:00 EAT · **Source date:** 2026-09-28
+- **URL:** https://new.kenyalaw.org/akn/ke/doc/cause-list-weekly/kemc/2026-09-28/6/eng@2026-09-28
+- **Extract:** Marsabit Law Courts – Weekly Cause List – 28 September 2026 to 01 October 2026
+- **Score parts:** tier +40, category +20, lead +12, relevance +0, freshness +19.8, corroborated +10
+
+### 🟠 [101.8] Karaba Law Courts – Weekly Cause List – 28 September 2026 to 02 October 2026
+- **Verdict:** STRONG — tier-1, upstream
+- **Source:** Kenya Gazette (Kenya Law) · tier 1 · KE · gazette
+- **First seen:** 2026-09-26T07:00+03:00 EAT · **Source date:** 2026-09-28
+- **URL:** https://new.kenyalaw.org/akn/ke/doc/cause-list-weekly/kemc/2026-09-28/7/eng@2026-09-28
+- **Extract:** Karaba Law Courts – Weekly Cause List – 28 September 2026 to 02 October 2026
+- **Score parts:** tier +40, category +20, lead +12, relevance +0, freshness +19.8, corroborated +10
+
+### 🟠 [101.8] Laisamis Law Courts – Criminal Division – Weekly Cause List – 28 September 2026 to 01 October 2026
+- **Verdict:** STRONG — tier-1, upstream
+- **Source:** Kenya Gazette (Kenya Law) · tier 1 · KE · gazette
+- **First seen:** 2026-09-26T07:00+03:00 EAT · **Source date:** 2026-09-28
+- **URL:** https://new.kenyalaw.org/akn/ke/doc/cause-list-weekly/kemc/2026-09-28/8/eng@2026-09-28
+- **Extract:** Laisamis Law Courts – Criminal Division – Weekly Cause List – 28 September 2026 to 01 October 2026
+- **Score parts:** tier +40, category +20, lead +12, relevance +0, freshness +19.8, corroborated +10
+
+### 🟠 [101.8] Wang'uru Law Courts – Criminal Division – Weekly Cause List – 28 September 2026 to 02 October 2026
+- **Verdict:** STRONG — tier-1, upstream
+- **Source:** Kenya Gazette (Kenya Law) · tier 1 · KE · gazette
+- **First seen:** 2026-09-26T07:00+03:00 EAT · **Source date:** 2026-09-28
+- **URL:** https://new.kenyalaw.org/akn/ke/doc/cause-list-weekly/kemc/2026-09-28/9/eng@2026-09-28
+- **Extract:** Wang'uru Law Courts – Criminal Division – Weekly Cause List – 28 September 2026 to 02 October 2026
+- **Score parts:** tier +40, category +20, lead +12, relevance +0, freshness +19.8, corroborated +10
+
+### 🟠 [99.8] Roopha & 3 others (t/a Motorways Construction) v Shengli Engineering & Construction (Group) Company Ltd & another (Comme
+- **Verdict:** STRONG — tier-1, upstream
+- **Source:** Kenya Gazette (Kenya Law) · tier 1 · KE · gazette
+- **First seen:** 2026-09-26T07:00+03:00 EAT · **Source date:** 2026-09-24
+- **URL:** https://new.kenyalaw.org/akn/ke/judgment/kehc/2026/13981/eng@2026-09-24
+- **Extract:** Roopha & 3 others (t/a Motorways Construction) v Shengli Engineering & Construction (Group) Company Ltd & another (Commercial Case E017 of 2023) [2026] KEHC 13981 (KLR) (Commercial and Tax) (24 September 2026) (Ruling)
+- **Score parts:** tier +40, category +20, lead +12, relevance +8, freshness +19.8
+
+### 🟠 [99.8] Three N International Ltd v Family Bank Ltd (Commercial Case E032 of 2023) [2026] KEHC 13978 (KLR) (Commercial and Tax) 
+- **Verdict:** STRONG — tier-1, upstream
+- **Source:** Kenya Gazette (Kenya Law) · tier 1 · KE · gazette
+- **First seen:** 2026-09-26T07:00+03:00 EAT · **Source date:** 2026-09-24
+- **URL:** https://new.kenyalaw.org/akn/ke/judgment/kehc/2026/13978/eng@2026-09-24
+- **Extract:** Three N International Ltd v Family Bank Ltd (Commercial Case E032 of 2023) [2026] KEHC 13978 (KLR) (Commercial and Tax) (24 September 2026) (Ruling)
+- **Score parts:** tier +40, category +20, lead +12, relevance +8, freshness +19.8
+
+### 🟠 [99.8] Tombe Tea Factory Ltd v Millimo Muthomi & Co Advocates (Miscellaneous Application E531 of 2023) [2026] KEHC 13976 (KLR) 
+- **Verdict:** STRONG — tier-1, upstream
+- **Source:** Kenya Gazette (Kenya Law) · tier 1 · KE · gazette
+- **First seen:** 2026-09-26T07:00+03:00 EAT · **Source date:** 2026-09-24
+- **URL:** https://new.kenyalaw.org/akn/ke/judgment/kehc/2026/13976/eng@2026-09-24
+- **Extract:** Tombe Tea Factory Ltd v Millimo Muthomi & Co Advocates (Miscellaneous Application E531 of 2023) [2026] KEHC 13976 (KLR) (Commercial and Tax) (24 September 2026) (Ruling)
+- **Score parts:** tier +40, category +20, lead +12, relevance +8, freshness +19.8
+
+### 🟠 [99.8] Mahadev Suppliers Ltd & another v Kenya Commercial Bank Ltd (Commercial Case E241 of 2024) [2026] KEHC 13970 (KLR) (Comm
+- **Verdict:** STRONG — tier-1, upstream
+- **Source:** Kenya Gazette (Kenya Law) · tier 1 · KE · gazette
+- **First seen:** 2026-09-26T07:00+03:00 EAT · **Source date:** 2026-09-24
+- **URL:** https://new.kenyalaw.org/akn/ke/judgment/kehc/2026/13970/eng@2026-09-24
+- **Extract:** Mahadev Suppliers Ltd & another v Kenya Commercial Bank Ltd (Commercial Case E241 of 2024) [2026] KEHC 13970 (KLR) (Commercial and Tax) (24 September 2026) (Ruling)
+- **Score parts:** tier +40, category +20, lead +12, relevance +8, freshness +19.8
+
+### 🟡 [99.4] Trimurti Healthcare Ltd v Mediheal Group Ltd & another (Insolvency Cause E547 of 2024) [2026] KEHC 13865 (KLR) (Commerci
 - **Verdict:** CHECK — source date older than the window
 - **Source:** Kenya Gazette (Kenya Law) · tier 1 · KE · gazette
 - **First seen:** 2026-09-26T02:09+03:00 EAT · **Source date:** 2026-09-15
 - **URL:** https://new.kenyalaw.org/akn/ke/judgment/kehc/2026/13865/eng@2026-09-15
 - **Shock language:** insolven
 - **Extract:** Trimurti Healthcare Ltd v Mediheal Group Ltd & another (Insolvency Cause E547 of 2024) [2026] KEHC 13865 (KLR) (Commercial and Tax) (15 September 2026) (Ruling)
-- **Score parts:** tier +40, category +20, lead +12, relevance +20, freshness +19.7, stale_trap -25, shock +18
+- **Score parts:** tier +40, category +20, lead +12, relevance +20, freshness +14.4, stale_trap -25, shock +18
 
-### 🟠 [103.5] Montara Hotel Opens As the First Tapestry Collection by Hilton in Central America
+### 🟠 [98.2] Montara Hotel Opens As the First Tapestry Collection by Hilton in Central America
 - **Verdict:** STRONG — tier-1, upstream
 - **Source:** Hilton stories/newsroom · tier 1 · GLOBAL · hotel-group
 - **First seen:** 2026-09-26T02:09+03:00 EAT · **Source date:** 2026-09-24
 - **URL:** https://stories.hilton.com/releases/montara-hotel-opens-first-tapestry-collection-by-hilton-in-central-america
 - **Extract:** HEREDIA, Costa Rica –Today Hilton (NYSE: HLT) announced the opening of Montara Hotel, Tapestry Collection by Hilton, marking the lifestyle brand’s debut in Costa Rica and Central America. The 97-room hotel reflects a broader evolution in the way people are cho
-- **Score parts:** tier +40, category +9, lead +16.8, relevance +8, freshness +19.7, corroborated +10
+- **Score parts:** tier +40, category +9, lead +16.8, relevance +8, freshness +14.4, corroborated +10
 
-### 🟠 [91.7] Ndungu & 3 others v Mutegi & another (Environment and Land Miscellaneous Case E008 of 2025) [2026] KEELC 5550 (KLR) (23 
+### 🟠 [95.8] Njoroge (Suing as the legal Representative of the Estate of Daniel Njoroege Kibugi - Deceased) v Karimi (Legal represent
 - **Verdict:** STRONG — tier-1, upstream
 - **Source:** Kenya Gazette (Kenya Law) · tier 1 · KE · gazette
-- **First seen:** 2026-09-26T02:09+03:00 EAT · **Source date:** 2026-09-23
-- **URL:** https://new.kenyalaw.org/akn/ke/judgment/keelc/2026/5550/eng@2026-09-23
-- **Extract:** Ndungu & 3 others v Mutegi & another (Environment and Land Miscellaneous Case E008 of 2025) [2026] KEELC 5550 (KLR) (23 September 2026) (Ruling)
-- **Score parts:** tier +40, category +20, lead +12, relevance +0, freshness +19.7
+- **First seen:** 2026-09-26T07:00+03:00 EAT · **Source date:** 2026-09-24
+- **URL:** https://new.kenyalaw.org/akn/ke/judgment/keelc/2026/5630/eng@2026-09-24
+- **Extract:** Njoroge (Suing as the legal Representative of the Estate of Daniel Njoroege Kibugi - Deceased) v Karimi (Legal representative of Francis Murage - Deceased) (Environment and Land Case Civil Suit 127 of 2016) [2026] KEELC 5630 (KLR) (24 September 2026) (Ruling)
+- **Score parts:** tier +40, category +20, lead +12, relevance +4, freshness +19.8
 
-### 🟠 [91.7] Chakra Company Ltd v Musalia (Appeal E031 of 2026) [2026] KEELRC 2482 (KLR) (23 September 2026) (Judgment)
+### 🟠 [95.8] Singh v Kingorani Investment Ltd (Environment and Land Case E015 of 2025) [2026] KEELC 5629 (KLR) (24 September 2026) (R
 - **Verdict:** STRONG — tier-1, upstream
 - **Source:** Kenya Gazette (Kenya Law) · tier 1 · KE · gazette
-- **First seen:** 2026-09-26T02:09+03:00 EAT · **Source date:** 2026-09-23
-- **URL:** https://new.kenyalaw.org/akn/ke/judgment/keelrc/2026/2482/eng@2026-09-23
-- **Extract:** Chakra Company Ltd v Musalia (Appeal E031 of 2026) [2026] KEELRC 2482 (KLR) (23 September 2026) (Judgment)
-- **Score parts:** tier +40, category +20, lead +12, relevance +0, freshness +19.7
+- **First seen:** 2026-09-26T07:00+03:00 EAT · **Source date:** 2026-09-24
+- **URL:** https://new.kenyalaw.org/akn/ke/judgment/keelc/2026/5629/eng@2026-09-24
+- **Extract:** Singh v Kingorani Investment Ltd (Environment and Land Case E015 of 2025) [2026] KEELC 5629 (KLR) (24 September 2026) (Ruling)
+- **Score parts:** tier +40, category +20, lead +12, relevance +4, freshness +19.8
 
-### 🟠 [91.7] Mirza v Kaibunga & others (Land Case E009 of 2026) [2026] KEELC 5539 (KLR) (23 September 2026) (Ruling)
+### 🟠 [91.8] Sangare v International Planned Parenthood Federation & another (Cause E621 of 2023) [2026] KEELRC 2520 (KLR) (24 Septem
 - **Verdict:** STRONG — tier-1, upstream
 - **Source:** Kenya Gazette (Kenya Law) · tier 1 · KE · gazette
-- **First seen:** 2026-09-26T02:09+03:00 EAT · **Source date:** 2026-09-23
-- **URL:** https://new.kenyalaw.org/akn/ke/judgment/keelc/2026/5539/eng@2026-09-23
-- **Extract:** Mirza v Kaibunga & others (Land Case E009 of 2026) [2026] KEELC 5539 (KLR) (23 September 2026) (Ruling)
-- **Score parts:** tier +40, category +20, lead +12, relevance +0, freshness +19.7
+- **First seen:** 2026-09-26T07:00+03:00 EAT · **Source date:** 2026-09-24
+- **URL:** https://new.kenyalaw.org/akn/ke/judgment/keelrc/2026/2520/eng@2026-09-24
+- **Extract:** Sangare v International Planned Parenthood Federation & another (Cause E621 of 2023) [2026] KEELRC 2520 (KLR) (24 September 2026) (Judgment)
+- **Score parts:** tier +40, category +20, lead +12, relevance +0, freshness +19.8
 
-### 🟠 [91.7] Moraa & 4 others v County Government of Nyamira (Environment and Land Case 76 of 2021) [2026] KEELC 5533 (KLR) (23 Septe
+### 🟠 [91.8] Others & 174 others v Kenya Railways Corporation & another (Cause 1789 of 2015) [2026] KEELRC 2518 (KLR) (24 September 2
 - **Verdict:** STRONG — tier-1, upstream
 - **Source:** Kenya Gazette (Kenya Law) · tier 1 · KE · gazette
-- **First seen:** 2026-09-26T02:09+03:00 EAT · **Source date:** 2026-09-23
-- **URL:** https://new.kenyalaw.org/akn/ke/judgment/keelc/2026/5533/eng@2026-09-23
-- **Extract:** Moraa & 4 others v County Government of Nyamira (Environment and Land Case 76 of 2021) [2026] KEELC 5533 (KLR) (23 September 2026) (Ruling)
-- **Score parts:** tier +40, category +20, lead +12, relevance +0, freshness +19.7
+- **First seen:** 2026-09-26T07:00+03:00 EAT · **Source date:** 2026-09-24
+- **URL:** https://new.kenyalaw.org/akn/ke/judgment/keelrc/2026/2518/eng@2026-09-24
+- **Extract:** Others & 174 others v Kenya Railways Corporation & another (Cause 1789 of 2015) [2026] KEELRC 2518 (KLR) (24 September 2026) (Ruling)
+- **Score parts:** tier +40, category +20, lead +12, relevance +0, freshness +19.8
 
-### 🟡 [89.8] EAC Strengthens Fiscal and Monetary Policy Coordination Towards the Monetary Union
+### 🟠 [91.8] Korir aka Peter Korir & another v Chelangat (Suing as the administrator of the Estate of Clinton Kiprono - Deceased) (Ci
+- **Verdict:** STRONG — tier-1, upstream
+- **Source:** Kenya Gazette (Kenya Law) · tier 1 · KE · gazette
+- **First seen:** 2026-09-26T07:00+03:00 EAT · **Source date:** 2026-09-24
+- **URL:** https://new.kenyalaw.org/akn/ke/judgment/kehc/2026/13917/eng@2026-09-24
+- **Extract:** Korir aka Peter Korir & another v Chelangat (Suing as the administrator of the Estate of Clinton Kiprono - Deceased) (Civil Appeal E010 of 2023) [2026] KEHC 13917 (KLR) (24 September 2026) (Judgment)
+- **Score parts:** tier +40, category +20, lead +12, relevance +0, freshness +19.8
+
+### 🟠 [91.8] Kesogon Traders Association & 2 others v County Government of Trans-Nzoia & 2 others (Petition E002 of 2026) [2026] KEHC
+- **Verdict:** STRONG — tier-1, upstream
+- **Source:** Kenya Gazette (Kenya Law) · tier 1 · KE · gazette
+- **First seen:** 2026-09-26T07:00+03:00 EAT · **Source date:** 2026-09-24
+- **URL:** https://new.kenyalaw.org/akn/ke/judgment/kehc/2026/13909/eng@2026-09-24
+- **Extract:** Kesogon Traders Association & 2 others v County Government of Trans-Nzoia & 2 others (Petition E002 of 2026) [2026] KEHC 13909 (KLR) (24 September 2026) (Ruling)
+- **Score parts:** tier +40, category +20, lead +12, relevance +0, freshness +19.8
+
+### 🟠 [91.8] Mwehuri v Mwandonga & another (Environment and Land Case E067 of 2026) [2026] KEELC 5632 (KLR) (24 September 2026) (Ruli
+- **Verdict:** STRONG — tier-1, upstream
+- **Source:** Kenya Gazette (Kenya Law) · tier 1 · KE · gazette
+- **First seen:** 2026-09-26T07:00+03:00 EAT · **Source date:** 2026-09-24
+- **URL:** https://new.kenyalaw.org/akn/ke/judgment/keelc/2026/5632/eng@2026-09-24
+- **Extract:** Mwehuri v Mwandonga & another (Environment and Land Case E067 of 2026) [2026] KEELC 5632 (KLR) (24 September 2026) (Ruling)
+- **Score parts:** tier +40, category +20, lead +12, relevance +0, freshness +19.8
+
+### 🟠 [91.8] Kimundi v Matheka (Environment and Land Appeal E011 of 2021) [2026] KEELC 5631 (KLR) (24 September 2026) (Judgment)
+- **Verdict:** STRONG — tier-1, upstream
+- **Source:** Kenya Gazette (Kenya Law) · tier 1 · KE · gazette
+- **First seen:** 2026-09-26T07:00+03:00 EAT · **Source date:** 2026-09-24
+- **URL:** https://new.kenyalaw.org/akn/ke/judgment/keelc/2026/5631/eng@2026-09-24
+- **Extract:** Kimundi v Matheka (Environment and Land Appeal E011 of 2021) [2026] KEELC 5631 (KLR) (24 September 2026) (Judgment)
+- **Score parts:** tier +40, category +20, lead +12, relevance +0, freshness +19.8
+
+### 🟠 [91.8] DPP v Muyeye (Criminal Revision E019 of 2026) [2026] KEHC 13980 (KLR) (24 September 2026) (Ruling)
+- **Verdict:** STRONG — tier-1, upstream
+- **Source:** Kenya Gazette (Kenya Law) · tier 1 · KE · gazette
+- **First seen:** 2026-09-26T07:00+03:00 EAT · **Source date:** 2026-09-24
+- **URL:** https://new.kenyalaw.org/akn/ke/judgment/kehc/2026/13980/eng@2026-09-24
+- **Extract:** DPP v Muyeye (Criminal Revision E019 of 2026) [2026] KEHC 13980 (KLR) (24 September 2026) (Ruling)
+- **Score parts:** tier +40, category +20, lead +12, relevance +0, freshness +19.8
+
+### 🟠 [91.8] JKN v Republic (Criminal Revision E1533 of 2024) [2026] KEHC 13979 (KLR) (Crim) (24 September 2026) (Ruling)
+- **Verdict:** STRONG — tier-1, upstream
+- **Source:** Kenya Gazette (Kenya Law) · tier 1 · KE · gazette
+- **First seen:** 2026-09-26T07:00+03:00 EAT · **Source date:** 2026-09-24
+- **URL:** https://new.kenyalaw.org/akn/ke/judgment/kehc/2026/13979/eng@2026-09-24
+- **Extract:** JKN v Republic (Criminal Revision E1533 of 2024) [2026] KEHC 13979 (KLR) (Crim) (24 September 2026) (Ruling)
+- **Score parts:** tier +40, category +20, lead +12, relevance +0, freshness +19.8
+
+### 🟠 [91.8] Aluodo v Cisco Systems Management B.V. (Employment and Labour Relations Cause E1382 of 2018) [2026] KEELRC 2526 (KLR) (2
+- **Verdict:** STRONG — tier-1, upstream
+- **Source:** Kenya Gazette (Kenya Law) · tier 1 · KE · gazette
+- **First seen:** 2026-09-26T07:00+03:00 EAT · **Source date:** 2026-09-24
+- **URL:** https://new.kenyalaw.org/akn/ke/judgment/keelrc/2026/2526/eng@2026-09-24
+- **Extract:** Aluodo v Cisco Systems Management B.V. (Employment and Labour Relations Cause E1382 of 2018) [2026] KEELRC 2526 (KLR) (24 September 2026) (Judgment)
+- **Score parts:** tier +40, category +20, lead +12, relevance +0, freshness +19.8
+
+### 🟠 [91.8] Kenya Legal Trust Fund v Ethics and Anti-Corruption Commission & 4 others (Anti-Corruption and Economic Crime Petition E
+- **Verdict:** STRONG — tier-1, upstream
+- **Source:** Kenya Gazette (Kenya Law) · tier 1 · KE · gazette
+- **First seen:** 2026-09-26T07:00+03:00 EAT · **Source date:** 2026-09-24
+- **URL:** https://new.kenyalaw.org/akn/ke/judgment/kehc/2026/13977/eng@2026-09-24
+- **Extract:** Kenya Legal Trust Fund v Ethics and Anti-Corruption Commission & 4 others (Anti-Corruption and Economic Crime Petition E029 of 2026) [2026] KEHC 13977 (KLR) (Anti-Corruption and Economic Crimes) (24 September 2026) (Ruling)
+- **Score parts:** tier +40, category +20, lead +12, relevance +0, freshness +19.8
+
+### 🟠 [91.8] Kinyua v Mwangi & 2 others (Environment and Land Case E118 of 2023) [2026] KEELC 5628 (KLR) (24 September 2026) (Ruling)
+- **Verdict:** STRONG — tier-1, upstream
+- **Source:** Kenya Gazette (Kenya Law) · tier 1 · KE · gazette
+- **First seen:** 2026-09-26T07:00+03:00 EAT · **Source date:** 2026-09-24
+- **URL:** https://new.kenyalaw.org/akn/ke/judgment/keelc/2026/5628/eng@2026-09-24
+- **Extract:** Kinyua v Mwangi & 2 others (Environment and Land Case E118 of 2023) [2026] KEELC 5628 (KLR) (24 September 2026) (Ruling)
+- **Score parts:** tier +40, category +20, lead +12, relevance +0, freshness +19.8
+
+### 🟠 [91.8] Assets Recovery Agency v Odero & 3 others (Civil Suit E040 of 2025) [2026] KEHC 13974 (KLR) (Anti-Corruption and Economi
+- **Verdict:** STRONG — tier-1, upstream
+- **Source:** Kenya Gazette (Kenya Law) · tier 1 · KE · gazette
+- **First seen:** 2026-09-26T07:00+03:00 EAT · **Source date:** 2026-09-24
+- **URL:** https://new.kenyalaw.org/akn/ke/judgment/kehc/2026/13974/eng@2026-09-24
+- **Extract:** Assets Recovery Agency v Odero & 3 others (Civil Suit E040 of 2025) [2026] KEHC 13974 (KLR) (Anti-Corruption and Economic Crimes) (24 September 2026) (Judgment)
+- **Score parts:** tier +40, category +20, lead +12, relevance +0, freshness +19.8
+
+### 🟠 [91.8] Kimuyu v Republic (Criminal Appeal E075 of 2025) [2026] KEHC 13969 (KLR) (24 September 2026) (Judgment)
+- **Verdict:** STRONG — tier-1, upstream
+- **Source:** Kenya Gazette (Kenya Law) · tier 1 · KE · gazette
+- **First seen:** 2026-09-26T07:00+03:00 EAT · **Source date:** 2026-09-24
+- **URL:** https://new.kenyalaw.org/akn/ke/judgment/kehc/2026/13969/eng@2026-09-24
+- **Extract:** Kimuyu v Republic (Criminal Appeal E075 of 2025) [2026] KEHC 13969 (KLR) (24 September 2026) (Judgment)
+- **Score parts:** tier +40, category +20, lead +12, relevance +0, freshness +19.8
+
+### 🟠 [91.8] In re JWN (Child) (Adoption Cause E306 of 2025) [2026] KEHC 13967 (KLR) (Family) (24 September 2026) (Judgment)
+- **Verdict:** STRONG — tier-1, upstream
+- **Source:** Kenya Gazette (Kenya Law) · tier 1 · KE · gazette
+- **First seen:** 2026-09-26T07:00+03:00 EAT · **Source date:** 2026-09-24
+- **URL:** https://new.kenyalaw.org/akn/ke/judgment/kehc/2026/13967/eng@2026-09-24
+- **Extract:** In re JWN (Child) (Adoption Cause E306 of 2025) [2026] KEHC 13967 (KLR) (Family) (24 September 2026) (Judgment)
+- **Score parts:** tier +40, category +20, lead +12, relevance +0, freshness +19.8
+
+### 🟠 [91.8] Muguongo v Mutuma & 4 others (Family Appeal E008 of 2023) [2026] KEHC 13958 (KLR) (24 September 2026) (Ruling)
+- **Verdict:** STRONG — tier-1, upstream
+- **Source:** Kenya Gazette (Kenya Law) · tier 1 · KE · gazette
+- **First seen:** 2026-09-26T07:00+03:00 EAT · **Source date:** 2026-09-24
+- **URL:** https://new.kenyalaw.org/akn/ke/judgment/kehc/2026/13958/eng@2026-09-24
+- **Extract:** Muguongo v Mutuma & 4 others (Family Appeal E008 of 2023) [2026] KEHC 13958 (KLR) (24 September 2026) (Ruling)
+- **Score parts:** tier +40, category +20, lead +12, relevance +0, freshness +19.8
+
+### 🟠 [91.8] Cheptoo v Korir (Environment and Land Case E040 of 2024) [2026] KEELC 5625 (KLR) (24 September 2026) (Ruling)
+- **Verdict:** STRONG — tier-1, upstream
+- **Source:** Kenya Gazette (Kenya Law) · tier 1 · KE · gazette
+- **First seen:** 2026-09-26T07:00+03:00 EAT · **Source date:** 2026-09-24
+- **URL:** https://new.kenyalaw.org/akn/ke/judgment/keelc/2026/5625/eng@2026-09-24
+- **Extract:** Cheptoo v Korir (Environment and Land Case E040 of 2024) [2026] KEELC 5625 (KLR) (24 September 2026) (Ruling)
+- **Score parts:** tier +40, category +20, lead +12, relevance +0, freshness +19.8
+
+### 🟡 [90.2] [page changed] ProMED-mail
+- **Verdict:** CONSIDER
+- **Source:** ProMED-mail · tier 2 · GLOBAL · health
+- **First seen:** 2026-09-26T07:00+03:00 EAT · **Source date:** — none stated
+- **URL:** https://promedmail.org/
+- **Shock language:** outbreak
+- **Extract:** Protecting Global Health, One Alert at a Time | ProMED Previous slide Next slide Protecting Global Health, One Alert at a Time ProMED: Your 24/7 early warning system for emerging infectious diseases worldwide. Subscribe ProMED's Weekly Pulse A snapshot of glob
+- **Score parts:** tier +20, category +24, lead +2.4, relevance +16, freshness +19.8, undated -6, shock +18, page_change -4
+
+### 🟡 [89.8] Sase Kitchens Ltd v Riara Group of Schools (Commercial Case E606 of 2026) [2026] KEHC 13962 (KLR) (Commercial and Tax) (
+- **Verdict:** CHECK — source date older than the window
+- **Source:** Kenya Gazette (Kenya Law) · tier 1 · KE · gazette
+- **First seen:** 2026-09-26T07:00+03:00 EAT · **Source date:** 2026-09-23
+- **URL:** https://new.kenyalaw.org/akn/ke/judgment/kehc/2026/13962/eng@2026-09-23
+- **Extract:** Sase Kitchens Ltd v Riara Group of Schools (Commercial Case E606 of 2026) [2026] KEHC 13962 (KLR) (Commercial and Tax) (23 September 2026) (Ruling)
+- **Score parts:** tier +40, category +20, lead +12, relevance +8, freshness +19.8, stale_trap -10
+
+### 🟡 [89.4] Security Alert: U.S. Embassy Nairobi, Kenya (September 25, 2026)
+- **Verdict:** CONSIDER
+- **Source:** US Embassy Nairobi — travel advisory & alerts · tier 1 · KE · advisory
+- **First seen:** 2026-09-26T07:00+03:00 EAT · **Source date:** — none stated
+- **URL:** https://ke.usembassy.gov/security-alert-u-s-embassy-nairobi-kenya-september-25-2026
+- **Score parts:** tier +40, category +32, lead +3.6, relevance +0, freshness +19.8, undated -6
+
+### 🟡 [84.5] EAC Strengthens Fiscal and Monetary Policy Coordination Towards the Monetary Union
 - **Verdict:** CONSIDER
 - **Source:** East African Community — Secretariat news · tier 1 · Regional · body
 - **First seen:** 2026-09-25T18:02+03:00 EAT · **Source date:** 2026-09-25
 - **URL:** https://www.eac.int/press-releases/145-financial-sector/3597-eac-strengthens-fiscal-and-monetary-policy-coordination-towards-the-monetary-union
 - **Extract:** East African Community Headquarters, Arusha, Tanzania, 25th September, 2026: The East African Community (EAC) is reviewing measures to strengthen the management of public finances and coordination of monetary policy as Partner States prepare for the East Afric
-- **Score parts:** tier +40, category +7, lead +6, relevance +16, freshness +10.8, corroborated +10
-
-### 🟡 [89.7] Nyaga v Consolidated Bank of Kenya Ltd (Commercial Civil Suit E779 of 2025) [2026] KEHC 13849 (KLR) (Commercial and Tax)
-- **Verdict:** CHECK — source date older than the window
-- **Source:** Kenya Gazette (Kenya Law) · tier 1 · KE · gazette
-- **First seen:** 2026-09-26T02:09+03:00 EAT · **Source date:** 2026-09-21
-- **URL:** https://new.kenyalaw.org/akn/ke/judgment/kehc/2026/13849/eng@2026-09-21
-- **Extract:** Nyaga v Consolidated Bank of Kenya Ltd (Commercial Civil Suit E779 of 2025) [2026] KEHC 13849 (KLR) (Commercial and Tax) (21 September 2026) (Ruling)
-- **Score parts:** tier +40, category +20, lead +12, relevance +8, freshness +19.7, stale_trap -10
-
-### 🟡 [88.7] “Beyond Fleet Growth: Unlocking the Connectivity Africa’s Aviation Market Needs”
-- **Verdict:** CONSIDER
-- **Source:** AFRAA — monthly African air transport / capacity brief · tier 1 · REG · aviation
-- **First seen:** 2026-09-26T02:09+03:00 EAT · **Source date:** 2026-09-25
-- **URL:** https://www.afraa.org/beyond-fleet-growth-unlocking-the-connectivity-africas-aviation-market-needs
-- **Extract:** Interview questions by Table.Media GmbH, Registergericht: Amtsgericht Berlin-Charlottenburg HRB 212399B Q1. Boeing projects a doubling of the African commercial fleet by 2045, with single-aisle regional aircraft dominating the […]
-- **Score parts:** tier +40, category +13, lead +6, relevance +0, freshness +19.7, corroborated +10
-
-### 🟡 [87.9] Etihad NW26 Moscow Service Changes
-- **Verdict:** CONSIDER
-- **Source:** AeroRoutes schedule filings · tier 2 · GLOBAL · aviation-tracker
-- **First seen:** 2026-09-25T22:21+03:00 EAT · **Source date:** 2026-09-25
-- **URL:** https://www.aeroroutes.com/eng/260925-eynw26svo
-- **Extract:** Published at 0900PDT / 1600GMT 25SEP26 Etihad in the first half of Northern winter 2026/27 season plans aircraft changes on Abu Dhabi – Moscow Sheremetyevo route, as the carrier schedules aircraft changes. * EY841/842 eff 25OCT26 777-300ER service maintained, 
-- **Score parts:** tier +20, category +14, lead +8.4, relevance +20, freshness +15.5, corroborated +10
-
-### 🟡 [83.9] Atlantic Airways Expands Faroe Islands – London Service in NS27
-- **Verdict:** CONSIDER
-- **Source:** AeroRoutes schedule filings · tier 2 · GLOBAL · aviation-tracker
-- **First seen:** 2026-09-25T22:21+03:00 EAT · **Source date:** 2026-09-25
-- **URL:** https://www.aeroroutes.com/eng/260925-rcns27lgw
-- **Extract:** Published at 1000PDT / 1700GMT 25SEP26 Atlantic Airways Faroe Islands during Northern summer 2027 season plans to expand seasonal service on Vágar/Faroe Islands – London Gatwick route, as the airline schedules 2 weekly flights from 01MAY27 to 28AUG27. RC416 FA
-- **Score parts:** tier +20, category +14, lead +8.4, relevance +16, freshness +15.5, corroborated +10
-
-### 🟡 [83.9] Fourth Plan for National Statistical Development – (FY2025/26 – FY2029/2030)
-- **Verdict:** CONSIDER
-- **Source:** UBOS statistical releases · tier 1 · UG · statistics
-- **First seen:** 2026-09-25T22:21+03:00 EAT · **Source date:** 2026-09-25
-- **URL:** https://www.ubos.org/2026/09/25/fourth-plan-for-national-statistical-development-fy2025-26-fy2029-2030
-- **Extract:** Over the years, Uganda has registered significant progress in strengthening the National Statistical System (NSS) through the […] The post Fourth Plan for National Statistical Development – (FY2025/26 – FY2029/2030) appeared first on Uganda Bureau of Statistic
-- **Score parts:** tier +40, category +16, lead +2.4, relevance +0, freshness +15.5, corroborated +10
-
-### 🟡 [81.9] [page changed] ProMED-mail
-- **Verdict:** CONSIDER
-- **Source:** ProMED-mail · tier 2 · GLOBAL · health
-- **First seen:** 2026-09-25T22:21+03:00 EAT · **Source date:** — none stated
-- **URL:** https://promedmail.org/
-- **Shock language:** outbreak
-- **Extract:** Protecting Global Health, One Alert at a Time | ProMED Previous slide Next slide Protecting Global Health, One Alert at a Time ProMED: Your 24/7 early warning system for emerging infectious diseases worldwide. Subscribe ProMED's Weekly Pulse A snapshot of glob
-- **Score parts:** tier +20, category +24, lead +2.4, relevance +12, freshness +15.5, undated -6, shock +18, page_change -4
-
-### 🟡 [81.7] Mugo v Wells Fargo Ltd (Appeal E254 of 2025) [2026] KEELRC 2486 (KLR) (22 September 2026) (Judgment)
-- **Verdict:** CHECK — source date older than the window
-- **Source:** Kenya Gazette (Kenya Law) · tier 1 · KE · gazette
-- **First seen:** 2026-09-26T02:09+03:00 EAT · **Source date:** 2026-09-22
-- **URL:** https://new.kenyalaw.org/akn/ke/judgment/keelrc/2026/2486/eng@2026-09-22
-- **Extract:** Mugo v Wells Fargo Ltd (Appeal E254 of 2025) [2026] KEELRC 2486 (KLR) (22 September 2026) (Judgment)
-- **Score parts:** tier +40, category +20, lead +12, relevance +0, freshness +19.7, stale_trap -10
-
-### 🟡 [81.7] Muchendu t/a Icon Auctioneers v Fourth Generation Capital Limited & another (Employment and Labour Relations Cause E272 
-- **Verdict:** CHECK — source date older than the window
-- **Source:** Kenya Gazette (Kenya Law) · tier 1 · KE · gazette
-- **First seen:** 2026-09-26T02:09+03:00 EAT · **Source date:** 2026-09-22
-- **URL:** https://new.kenyalaw.org/akn/ke/judgment/keelrc/2026/2485/eng@2026-09-22
-- **Extract:** Muchendu t/a Icon Auctioneers v Fourth Generation Capital Limited & another (Employment and Labour Relations Cause E272 of 2023) [2026] KEELRC 2485 (KLR) (22 September 2026) (Ruling)
-- **Score parts:** tier +40, category +20, lead +12, relevance +0, freshness +19.7, stale_trap -10
-
-### 🟡 [81.7] Onyando & another v Nyangena (Environment and Land Appeal E013 of 2025) [2026] KEELC 5553 (KLR) (22 September 2026) (Jud
-- **Verdict:** CHECK — source date older than the window
-- **Source:** Kenya Gazette (Kenya Law) · tier 1 · KE · gazette
-- **First seen:** 2026-09-26T02:09+03:00 EAT · **Source date:** 2026-09-22
-- **URL:** https://new.kenyalaw.org/akn/ke/judgment/keelc/2026/5553/eng@2026-09-22
-- **Extract:** Onyando & another v Nyangena (Environment and Land Appeal E013 of 2025) [2026] KEELC 5553 (KLR) (22 September 2026) (Judgment)
-- **Score parts:** tier +40, category +20, lead +12, relevance +0, freshness +19.7, stale_trap -10
-
-### 🟡 [81.7] Mokaya & another v Omwenga & 2 others (Environment and Land Case E008 of 2022) [2026] KEELC 5552 (KLR) (22 September 202
-- **Verdict:** CHECK — source date older than the window
-- **Source:** Kenya Gazette (Kenya Law) · tier 1 · KE · gazette
-- **First seen:** 2026-09-26T02:09+03:00 EAT · **Source date:** 2026-09-22
-- **URL:** https://new.kenyalaw.org/akn/ke/judgment/keelc/2026/5552/eng@2026-09-22
-- **Extract:** Mokaya & another v Omwenga & 2 others (Environment and Land Case E008 of 2022) [2026] KEELC 5552 (KLR) (22 September 2026) (Ruling)
-- **Score parts:** tier +40, category +20, lead +12, relevance +0, freshness +19.7, stale_trap -10
-
-### 🟡 [81.7] In re Estate of Wamukoya (Deceased) (Succession Cause 547 of 2010) [2026] KEHC 13863 (KLR) (21 September 2026) (Interim 
-- **Verdict:** CHECK — source date older than the window
-- **Source:** Kenya Gazette (Kenya Law) · tier 1 · KE · gazette
-- **First seen:** 2026-09-26T02:09+03:00 EAT · **Source date:** 2026-09-21
-- **URL:** https://new.kenyalaw.org/akn/ke/judgment/kehc/2026/13863/eng@2026-09-21
-- **Extract:** In re Estate of Wamukoya (Deceased) (Succession Cause 547 of 2010) [2026] KEHC 13863 (KLR) (21 September 2026) (Interim Judgment)
-- **Score parts:** tier +40, category +20, lead +12, relevance +0, freshness +19.7, stale_trap -10
-
-### 🟡 [81.7] In re Estate of Osuka (Deceased) (Succession Cause 252 of 1994) [2026] KEHC 13861 (KLR) (22 September 2026) (Ruling)
-- **Verdict:** CHECK — source date older than the window
-- **Source:** Kenya Gazette (Kenya Law) · tier 1 · KE · gazette
-- **First seen:** 2026-09-26T02:09+03:00 EAT · **Source date:** 2026-09-22
-- **URL:** https://new.kenyalaw.org/akn/ke/judgment/kehc/2026/13861/eng@2026-09-22
-- **Extract:** In re Estate of Osuka (Deceased) (Succession Cause 252 of 1994) [2026] KEHC 13861 (KLR) (22 September 2026) (Ruling)
-- **Score parts:** tier +40, category +20, lead +12, relevance +0, freshness +19.7, stale_trap -10
-
-### 🟡 [81.7] Kinyua v Waithiru (Enviromental and Land Originating Summons E003 of 2024) [2026] KEELC 5551 (KLR) (21 September 2026) (
-- **Verdict:** CHECK — source date older than the window
-- **Source:** Kenya Gazette (Kenya Law) · tier 1 · KE · gazette
-- **First seen:** 2026-09-26T02:09+03:00 EAT · **Source date:** 2026-09-21
-- **URL:** https://new.kenyalaw.org/akn/ke/judgment/keelc/2026/5551/eng@2026-09-21
-- **Extract:** Kinyua v Waithiru (Enviromental and Land Originating Summons E003 of 2024) [2026] KEELC 5551 (KLR) (21 September 2026) (Judgment)
-- **Score parts:** tier +40, category +20, lead +12, relevance +0, freshness +19.7, stale_trap -10
-
-### 🟡 [81.7] Kinyagia v The Director of Criminal Investigations (DCI) & 3 others (Petition E600 of 2025) [2026] KEHC 13860 (KLR) (22 
-- **Verdict:** CHECK — source date older than the window
-- **Source:** Kenya Gazette (Kenya Law) · tier 1 · KE · gazette
-- **First seen:** 2026-09-26T02:09+03:00 EAT · **Source date:** 2026-09-22
-- **URL:** https://new.kenyalaw.org/akn/ke/judgment/kehc/2026/13860/eng@2026-09-22
-- **Extract:** Kinyagia v The Director of Criminal Investigations (DCI) & 3 others (Petition E600 of 2025) [2026] KEHC 13860 (KLR) (22 September 2026) (Judgment)
-- **Score parts:** tier +40, category +20, lead +12, relevance +0, freshness +19.7, stale_trap -10
-
-### 🟡 [81.7] Krystalline Salt Ltd (Gongoni) v Nyakioga (Employment and Labour Relations Appeal E023 of 2024) [2026] KEELRC 2483 (KLR)
-- **Verdict:** CHECK — source date older than the window
-- **Source:** Kenya Gazette (Kenya Law) · tier 1 · KE · gazette
-- **First seen:** 2026-09-26T02:09+03:00 EAT · **Source date:** 2026-09-21
-- **URL:** https://new.kenyalaw.org/akn/ke/judgment/keelrc/2026/2483/eng@2026-09-21
-- **Extract:** Krystalline Salt Ltd (Gongoni) v Nyakioga (Employment and Labour Relations Appeal E023 of 2024) [2026] KEELRC 2483 (KLR) (21 September 2026) (Judgment)
-- **Score parts:** tier +40, category +20, lead +12, relevance +0, freshness +19.7, stale_trap -10
-
-### 🟡 [81.7] Muthembwa v Kamau (Sued as the Administrator of the Estate of Charles Kamau Kanyaru t/a Igma General Land Consultants) (
-- **Verdict:** CHECK — source date older than the window
-- **Source:** Kenya Gazette (Kenya Law) · tier 1 · KE · gazette
-- **First seen:** 2026-09-26T02:09+03:00 EAT · **Source date:** 2026-09-22
-- **URL:** https://new.kenyalaw.org/akn/ke/judgment/keelc/2026/5547/eng@2026-09-22
-- **Extract:** Muthembwa v Kamau (Sued as the Administrator of the Estate of Charles Kamau Kanyaru t/a Igma General Land Consultants) (Environment and Land Appeal E046 of 2024) [2026] KEELC 5547 (KLR) (22 September 2026) (Judgment)
-- **Score parts:** tier +40, category +20, lead +12, relevance +0, freshness +19.7, stale_trap -10
-
-### 🟡 [81.7] Thairu v Karuru (Environment and Land Case E066 of 2023) [2026] KEELC 5546 (KLR) (22 September 2026) (Ruling)
-- **Verdict:** CHECK — source date older than the window
-- **Source:** Kenya Gazette (Kenya Law) · tier 1 · KE · gazette
-- **First seen:** 2026-09-26T02:09+03:00 EAT · **Source date:** 2026-09-22
-- **URL:** https://new.kenyalaw.org/akn/ke/judgment/keelc/2026/5546/eng@2026-09-22
-- **Extract:** Thairu v Karuru (Environment and Land Case E066 of 2023) [2026] KEELC 5546 (KLR) (22 September 2026) (Ruling)
-- **Score parts:** tier +40, category +20, lead +12, relevance +0, freshness +19.7, stale_trap -10
-
-### 🟡 [81.7] Kipkirui (Suing Aa an Administrator of the Estate of the Late Kipkeori Muyila-Deceased) v Abdi & 2 others (Environment a
-- **Verdict:** CHECK — source date older than the window
-- **Source:** Kenya Gazette (Kenya Law) · tier 1 · KE · gazette
-- **First seen:** 2026-09-26T02:09+03:00 EAT · **Source date:** 2026-09-22
-- **URL:** https://new.kenyalaw.org/akn/ke/judgment/keelc/2026/5545/eng@2026-09-22
-- **Extract:** Kipkirui (Suing Aa an Administrator of the Estate of the Late Kipkeori Muyila-Deceased) v Abdi & 2 others (Environment and Land Appeal E062 of 2024) [2026] KEELC 5545 (KLR) (22 September 2026) (Judgment)
-- **Score parts:** tier +40, category +20, lead +12, relevance +0, freshness +19.7, stale_trap -10
-
-### 🟡 [81.7] Republic v Omusilwa (Criminal Case E050 of 2022) [2026] KEHC 13852 (KLR) (Crim) (22 September 2026) (Judgment)
-- **Verdict:** CHECK — source date older than the window
-- **Source:** Kenya Gazette (Kenya Law) · tier 1 · KE · gazette
-- **First seen:** 2026-09-26T02:09+03:00 EAT · **Source date:** 2026-09-22
-- **URL:** https://new.kenyalaw.org/akn/ke/judgment/kehc/2026/13852/eng@2026-09-22
-- **Extract:** Republic v Omusilwa (Criminal Case E050 of 2022) [2026] KEHC 13852 (KLR) (Crim) (22 September 2026) (Judgment)
-- **Score parts:** tier +40, category +20, lead +12, relevance +0, freshness +19.7, stale_trap -10
-
-### 🟡 [81.7] FBS v Republic (Criminal Appeal E017 of 2025) [2026] KEHC 13850 (KLR) (21 September 2026) (Judgment)
-- **Verdict:** CHECK — source date older than the window
-- **Source:** Kenya Gazette (Kenya Law) · tier 1 · KE · gazette
-- **First seen:** 2026-09-26T02:09+03:00 EAT · **Source date:** 2026-09-21
-- **URL:** https://new.kenyalaw.org/akn/ke/judgment/kehc/2026/13850/eng@2026-09-21
-- **Extract:** FBS v Republic (Criminal Appeal E017 of 2025) [2026] KEHC 13850 (KLR) (21 September 2026) (Judgment)
-- **Score parts:** tier +40, category +20, lead +12, relevance +0, freshness +19.7, stale_trap -10
-
-### 🟡 [81.7] Kamau v Kamau (Civil Appeal E417 of 2023) [2026] KEHC 13844 (KLR) (22 September 2026) (Ruling)
-- **Verdict:** CHECK — source date older than the window
-- **Source:** Kenya Gazette (Kenya Law) · tier 1 · KE · gazette
-- **First seen:** 2026-09-26T02:09+03:00 EAT · **Source date:** 2026-09-22
-- **URL:** https://new.kenyalaw.org/akn/ke/judgment/kehc/2026/13844/eng@2026-09-22
-- **Extract:** Kamau v Kamau (Civil Appeal E417 of 2023) [2026] KEHC 13844 (KLR) (22 September 2026) (Ruling)
-- **Score parts:** tier +40, category +20, lead +12, relevance +0, freshness +19.7, stale_trap -10
-
-### 🟡 [81.7] Mukopi & 9 others v Nairobi County Government & 2 others (Cause E1045 of 2023) [2026] KEELRC 2481 (KLR) (22 September 20
-- **Verdict:** CHECK — source date older than the window
-- **Source:** Kenya Gazette (Kenya Law) · tier 1 · KE · gazette
-- **First seen:** 2026-09-26T02:09+03:00 EAT · **Source date:** 2026-09-22
-- **URL:** https://new.kenyalaw.org/akn/ke/judgment/keelrc/2026/2481/eng@2026-09-22
-- **Extract:** Mukopi & 9 others v Nairobi County Government & 2 others (Cause E1045 of 2023) [2026] KEELRC 2481 (KLR) (22 September 2026) (Judgment)
-- **Score parts:** tier +40, category +20, lead +12, relevance +0, freshness +19.7, stale_trap -10
-
-### 🟡 [80.5] 𝐒𝐄𝐍𝐀𝐓𝐄 𝐖𝐑𝐀𝐏𝐒 𝐔𝐏 𝐊𝐈𝐋𝐈𝐅𝐈 𝐒𝐈𝐓𝐓𝐈𝐍𝐆 𝐀𝐅𝐓𝐄𝐑 𝐖𝐄𝐄𝐊 𝐎𝐅 𝐒𝐂𝐑𝐔𝐓𝐈𝐍𝐘 𝐀𝐍𝐃 𝐏𝐔𝐁𝐋𝐈𝐂 𝐄𝐍𝐆𝐀𝐆𝐄𝐌𝐄𝐍𝐓
-- **Verdict:** CONSIDER
-- **Source:** Parliament of Kenya — bills & papers · tier 1 · KE · legislature
-- **First seen:** 2026-09-26T02:09+03:00 EAT · **Source date:** — none stated
-- **URL:** https://www.parliament.go.ke/index.php/node/26439
-- **Score parts:** tier +40, category +10, lead +16.8, relevance +0, freshness +19.7, undated -6
-
-### 🟡 [78.7] SMIC Investments Ltd v Anand & 2 others (Miscellaneous Civil Suit E926 of 2024) [2026] KEHC 13847 (KLR) (Commercial and 
-- **Verdict:** CHECK — source date older than the window
-- **Source:** Kenya Gazette (Kenya Law) · tier 1 · KE · gazette
-- **First seen:** 2026-09-26T02:09+03:00 EAT · **Source date:** 2026-09-14
-- **URL:** https://new.kenyalaw.org/akn/ke/judgment/kehc/2026/13847/eng@2026-09-14
-- **Extract:** SMIC Investments Ltd v Anand & 2 others (Miscellaneous Civil Suit E926 of 2024) [2026] KEHC 13847 (KLR) (Commercial and Tax) (14 September 2026) (Ruling)
-- **Score parts:** tier +40, category +20, lead +12, relevance +12, freshness +19.7, stale_trap -25
-
-### 🟡 [74.7] Aston Design and Build Ltd v Gatete (Also Known as Miriam Njeri Koechler) (Miscellaneous Application E006 of 2025) [2026
-- **Verdict:** CHECK — source date older than the window
-- **Source:** Kenya Gazette (Kenya Law) · tier 1 · KE · gazette
-- **First seen:** 2026-09-26T02:09+03:00 EAT · **Source date:** 2026-09-17
-- **URL:** https://new.kenyalaw.org/akn/ke/judgment/kehc/2026/13859/eng@2026-09-17
-- **Extract:** Aston Design and Build Ltd v Gatete (Also Known as Miriam Njeri Koechler) (Miscellaneous Application E006 of 2025) [2026] KEHC 13859 (KLR) (Commercial and Tax) (17 September 2026) (Ruling)
-- **Score parts:** tier +40, category +20, lead +12, relevance +8, freshness +19.7, stale_trap -25
-
-### 🟡 [74.7] Dhariwal & another v I & M Bank Ltd & another (Commercial Case 148 of 2019) [2026] KEHC 13858 (KLR) (Commercial and Tax)
-- **Verdict:** CHECK — source date older than the window
-- **Source:** Kenya Gazette (Kenya Law) · tier 1 · KE · gazette
-- **First seen:** 2026-09-26T02:09+03:00 EAT · **Source date:** 2026-09-18
-- **URL:** https://new.kenyalaw.org/akn/ke/judgment/kehc/2026/13858/eng@2026-09-18
-- **Extract:** Dhariwal & another v I & M Bank Ltd & another (Commercial Case 148 of 2019) [2026] KEHC 13858 (KLR) (Commercial and Tax) (18 September 2026) (Judgment)
-- **Score parts:** tier +40, category +20, lead +12, relevance +8, freshness +19.7, stale_trap -25
-
-### 🟡 [74.7] Yamin Construction Co Ltd v Arthi Highway Developers Ltd & another (Civil Case 22 of 2016) [2026] KEHC 13857 (KLR) (Comm
-- **Verdict:** CHECK — source date older than the window
-- **Source:** Kenya Gazette (Kenya Law) · tier 1 · KE · gazette
-- **First seen:** 2026-09-26T02:09+03:00 EAT · **Source date:** 2026-09-18
-- **URL:** https://new.kenyalaw.org/akn/ke/judgment/kehc/2026/13857/eng@2026-09-18
-- **Extract:** Yamin Construction Co Ltd v Arthi Highway Developers Ltd & another (Civil Case 22 of 2016) [2026] KEHC 13857 (KLR) (Commercial and Tax) (18 September 2026) (Judgment)
-- **Score parts:** tier +40, category +20, lead +12, relevance +8, freshness +19.7, stale_trap -25
-
-### 🟡 [74.7] Mathayo v Guaranty Trust Bank (Kenya) Ltd (Commercial Case E027 of 2025) [2026] KEHC 13856 (KLR) (Commercial and Tax) (1
-- **Verdict:** CHECK — source date older than the window
-- **Source:** Kenya Gazette (Kenya Law) · tier 1 · KE · gazette
-- **First seen:** 2026-09-26T02:09+03:00 EAT · **Source date:** 2026-09-18
-- **URL:** https://new.kenyalaw.org/akn/ke/judgment/kehc/2026/13856/eng@2026-09-18
-- **Extract:** Mathayo v Guaranty Trust Bank (Kenya) Ltd (Commercial Case E027 of 2025) [2026] KEHC 13856 (KLR) (Commercial and Tax) (18 September 2026) (Ruling)
-- **Score parts:** tier +40, category +20, lead +12, relevance +8, freshness +19.7, stale_trap -25
-
-### 🟡 [74.7] Sea Breezes Tours & Travel v Bett & another (Miscellaneous Application E1077 of 2025) [2026] KEHC 13851 (KLR) (Commercia
-- **Verdict:** CHECK — source date older than the window
-- **Source:** Kenya Gazette (Kenya Law) · tier 1 · KE · gazette
-- **First seen:** 2026-09-26T02:09+03:00 EAT · **Source date:** 2026-09-18
-- **URL:** https://new.kenyalaw.org/akn/ke/judgment/kehc/2026/13851/eng@2026-09-18
-- **Extract:** Sea Breezes Tours & Travel v Bett & another (Miscellaneous Application E1077 of 2025) [2026] KEHC 13851 (KLR) (Commercial and Tax) (18 September 2026) (Ruling)
-- **Score parts:** tier +40, category +20, lead +12, relevance +8, freshness +19.7, stale_trap -25
-
-### 🟡 [74.7] Njoroge & 10 others v General of the Salvation Army Registered Trustees & 2 others (Land Case Appeal E203 of 2025) [2026
-- **Verdict:** CHECK — source date older than the window
-- **Source:** Kenya Gazette (Kenya Law) · tier 1 · KE · gazette
-- **First seen:** 2026-09-26T02:09+03:00 EAT · **Source date:** 2026-09-18
-- **URL:** https://new.kenyalaw.org/akn/ke/judgment/keelc/2026/5532/eng@2026-09-18
-- **Extract:** Njoroge & 10 others v General of the Salvation Army Registered Trustees & 2 others (Land Case Appeal E203 of 2025) [2026] KEELC 5532 (KLR) (18 September 2026) (Judgment)
-- **Score parts:** tier +40, category +20, lead +12, relevance +8, freshness +19.7, stale_trap -25
+- **Score parts:** tier +40, category +7, lead +6, relevance +16, freshness +5.5, corroborated +10
