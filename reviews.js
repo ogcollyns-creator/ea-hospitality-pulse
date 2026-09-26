@@ -1,5 +1,5 @@
 window.REVIEWS = {
- "updated": "2026-09-25 09:58 UTC",
+ "updated": "2026-09-26 09:40 UTC",
  "source": "Google Places API (New) — official licensed API",
  "note": "Public star ratings and review counts for the fixed rate basket. Ratings are lifetime averages and move slowly; the useful signal is review VELOCITY (new reviews per week) and divergence between neighbours.",
  "markets": {
