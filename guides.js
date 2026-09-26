@@ -9,6 +9,15 @@ window.GUIDES = [
   "image": "img/editions/pulse-2026-09-12-evening.jpg"
  },
  {
+  "slug": "east-africa-flood-cover-short-rains-2026",
+  "title": "East Africa knows how wet this season will be. It does not know what its cover is worth.",
+  "description": "Kenya's state reinsurer went shopping for a catastrophe model last Thursday, days before the start of a short rains season that forecasters have already compared to 1997 and 2023. For lodges and coastal hotels, the exposure that matters this quarter is not the water. It is the wording.",
+  "category": "Big Read",
+  "updated": "2026-09-25",
+  "readMins": 8,
+  "image": "img/editions/pulse-2026-08-15-morning.jpg"
+ },
+ {
   "slug": "brand-margin-promise-east-africa-franchise",
   "title": "Hilton promised owners their margin back. In East Africa, the state decides whether it arrives.",
   "description": "On Wednesday in New York, Hilton's chief executive put a number on what the brands now owe their owners: 75 to 100 basis points, taken out of labour, energy and insurance. Across Africa more owners than ever are signing franchise deals that leave those three lines on their own profit and loss account, and in East Africa two of them move by gazette notice.",
