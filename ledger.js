@@ -1,31 +1,15 @@
 window.LEDGER = {
- "updated": "2026-09-27 14:54",
+ "updated": "2026-09-27 15:50",
  "stats": {
   "total": 215,
-  "open": 153,
-  "resolved": 56,
+  "open": 152,
+  "resolved": 57,
   "correct": 44,
   "partial": 1,
-  "incorrect": 11,
-  "accuracy": 79
+  "incorrect": 12,
+  "accuracy": 78
  },
  "open": [
-  {
-   "id": "P027",
-   "made_date": "2026-07-28",
-   "edition": "Morning Brief",
-   "claim": "The KAWU aviation strike suspension will hold — no nationwide Kenyan aviation strike or JKIA industrial action will actually commence before 30 September 2026",
-   "resolution_criteria": "No reported commencement of a KAWU nationwide strike or JKIA work stoppage in Kenyan press,KAA or KCAA notices between 28 Jul and 30 Sep 2026",
-   "resolve_by": "2026-09-30",
-   "market": "KE",
-   "segment": "All",
-   "confidence": "Reported",
-   "status": "open",
-   "resolved_date": "",
-   "evidence": "",
-   "source_url": "https://www.the-star.co.ke/news/2026-07-27-aviation-workers-suspend-strike-pave-way-for-talks",
-   "overdue": false
-  },
   {
    "id": "P050",
    "made_date": "2026-08-04",
@@ -2986,6 +2970,22 @@ window.LEDGER = {
    "resolved_date": "2026-08-31",
    "evidence": "travel.state.gov Kenya advisory fetched and read directly on 31 Aug 2026: 'Level 2 - Exercise increased caution', Date issued: July 28, 2026. Country level unchanged through the resolution date, including through the 30-31 Aug JKIA labour disruption.",
    "source_url": "https://travel.state.gov/content/travel/en/traveladvisories/traveladvisories/kenya-travel-advisory.html",
+   "overdue": false
+  },
+  {
+   "id": "P027",
+   "made_date": "2026-07-28",
+   "edition": "Morning Brief",
+   "claim": "The KAWU aviation strike suspension will hold — no nationwide Kenyan aviation strike or JKIA industrial action will actually commence before 30 September 2026",
+   "resolution_criteria": "No reported commencement of a KAWU nationwide strike or JKIA work stoppage in Kenyan press,KAA or KCAA notices between 28 Jul and 30 Sep 2026",
+   "resolve_by": "2026-09-30",
+   "market": "KE",
+   "segment": "All",
+   "confidence": "Reported",
+   "status": "incorrect",
+   "resolved_date": "2026-08-30",
+   "evidence": "RESOLVED INCORRECT. KAWU DID strike -- a two-day industrial action running 30 Aug-1 Sep 2026 that disrupted flights at JKIA (delays, cancellations, stranded passengers) before the Transport and Labour Cabinet Secretaries brokered a same-day settlement on 1 Sep 2026 (KAA to release KAWU agency fees, immediate KAWU-KCAA CBA talks, SRC to withdraw prior guidance, KAWU/Jambojet recognition dispute to await court ruling, grievances to arbitration within three weeks). The three-week arbitration deadline passed around 22 Sep 2026 with no resolution found. The 'suspension will hold' call failed within a month of being made.",
+   "source_url": "https://www.the-star.co.ke/news/2026-09-01-aviation-workers-call-off-strike-as-state-inks-deal",
    "overdue": false
   },
   {

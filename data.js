@@ -9,6 +9,15 @@ window.EDITIONS = [
   "bodyHtml": "<p><strong>🌆 EVENING WRAP · Sun 27 Sep 2026</strong></p>\n<p><strong>1️⃣ TANZANIA&#x27;S US$44 VISITOR INSURANCE STARTS THURSDAY 1 OCTOBER, AND THE ARRIVAL AIRPORT DECIDES WHO SELLS IT</strong></p>\n<p>A Finance Ministry notice, published by TATO on <strong>26 Sep</strong>, starts GN No. 256 on <strong>1 Oct</strong>. Mainland arrivals buy from <strong>NIC</strong>, Zanzibar arrivals from <strong>ZIC</strong>: <strong>US$44</strong> (~TZS 116,000), <strong>92 days</strong>, multiple entry. No cover, no entry <strong>(Clyde &amp; Co, 16 Sep)</strong>. The selling insurer handles any claim.</p>\n<p><strong>What everyone is missing.</strong> It routes by entry point, not itinerary. It doesn&#x27;t say whether a Kilimanjaro arrival heading on to Zanzibar also owes Zanzibar&#x27;s own US$44. Clyde &amp; Co read the exemption as EAC/SADC <strong>residents</strong>; press say <strong>citizens</strong>. That decides what Nairobi expats pay for a Serengeti weekend.<br><span class=\"tagline\">🏷 Bush, Beach, City | Tanzania, Zanzibar, Kenya | Confirmed (facts) · Inference (the read) | impact:margin</span><br><span class=\"sowhat\">🎯 Before Thursday, tell every 1 Oct+ arrival which insurer applies at their airport. Get the combined-itinerary answer from your ground handler in writing.</span></p>\n<p><strong>2️⃣ UAE LIFTS EBOLA ENTRY CURBS ON UGANDANS; CANADA&#x27;S EXPIRE AT 23:59 EDT MONDAY UNLESS RENEWED</strong></p>\n<p>On <strong>26 Sep</strong> the UAE&#x27;s NCEMA eased its June measures on Ugandans; DRC and South Sudan stay restricted <strong>(New Vision; The National, 26 Sep)</strong>. Canada&#x27;s 21-day quarantine for anyone recently in Uganda runs to <strong>28 Sep 23:59 EDT</strong>, with no renewal posted when read today <strong>(canada.ca)</strong>. The US order runs to <strong>11 Oct</strong>.<br><span class=\"tagline\">🏷 City, Bush | Uganda | Confirmed | impact:demand</span><br><span class=\"sowhat\">🎯 Kampala hotels: re-pitch Gulf-routed corporate business now. Promise Canadian guests nothing until Ottawa publishes.</span></p>\n<p><strong>3️⃣ ACCOR PITCHES NAIROBI&#x27;S MEETINGS TRADE A DAY AFTER IHG OPENS 112 AIRPORT SUITES</strong></p>\n<p>Accor Kenya&#x27;s Simon Hudson says its <strong>nine</strong> hotels (<strong>1,400+ rooms</strong>) are chasing MICE <strong>(Capital FM, 26 Sep)</strong>. IHG&#x27;s <strong>voco Nairobi Airport Suites</strong> opened with <strong>112 suites</strong>, kitchenettes and <strong>623 m²</strong> of meeting space <strong>(IHG, 25 Sep)</strong>.<br><strong>The read.</strong> All-suite supply targets the corridor&#x27;s transit, crew and project nights, the independents&#x27; core.<br><span class=\"tagline\">🏷 City | Kenya | Confirmed (facts) · Inference (the read) | impact:watch</span><br><span class=\"sowhat\">🎯 Corridor hotels: renew Q4 crew and corporate contracts before voco&#x27;s opening rates reach RFPs.</span></p>\n<p><strong>🏗 DEAL FLOW</strong><br>🇰🇪 <strong>voco Nairobi Airport Suites</strong> opens, IHG&#x27;s first voco in East Africa <strong>(IHG, 25 Sep)</strong>.<br>🇹🇿 <strong>Elewana Ngorongoro Explorer</strong>: 84 rooms, crater rim, June 2027, on an existing lodge site <strong>(via Sleeper, 8 Sep)</strong>.<br>🇰🇪 <strong>Hemingways</strong> completes River Camp Mara refresh, 8 tents, Mara North <strong>(9 Sep)</strong>.</p>\n<p><strong>⏳ CATCHING UP</strong><br>🇺🇬 <strong>Kampala Marriott</strong> opened <strong>27 Aug</strong>: 181 rooms plus 96 apartments <strong>(Marriott)</strong>.<br>🇰🇪 <strong>Aleph</strong> names <strong>Rob Kucera</strong> RVP East &amp; South Africa, Nairobi-based <strong>(Aleph, 17 Aug)</strong>.<br>✈️ <strong>Kenya Airways</strong> moves reservations, ticketing and check-in to <strong>Sabre</strong> <strong>(Sabre, 22 Sep)</strong>.</p>\n<p><strong>📻 ALSO TONIGHT</strong><br>🇰🇪 KTB&#x27;s northern push targets <strong>7.6m</strong> domestic tourists by FY2027-28, from 5.1m <strong>(KATA, 27 Sep)</strong>.<br>🇰🇪 IRA: local reinsurance first, Kenya Re cession <strong>25%</strong> <strong>(Business Daily, 27 Sep)</strong>. Property renewals may tighten.<br>💱 August vs US$: KES <strong>−0.1%</strong>, TZS <strong>−0.3%</strong>, UGX <strong>−0.7%</strong> <strong>(Uganda MoF via New Vision, 26 Sep)</strong>.<br>🛡 Sweep <strong>46/46</strong>: no advisory level change on our five markets.</p>\n<p><strong>🔍 BLIND SPOTS.</strong> Kenya Gazette No. 171 (25 Sep) unread (empty page); Zanzibar MoH not read directly; MoF notice read via TATO&#x27;s text, not the scan.</p>\n<p>🔗 This edition on the web: <a href=\"https://eahospitalitypulse.com/editions/pulse-2026-09-27-evening.html\" rel=\"noopener\">eahospitalitypulse.com/editions/pulse-2026-09-27-evenin…</a></p>"
  },
  {
+  "id": "foresight-2026-09-27",
+  "date": "2026-09-27",
+  "dateDisplay": "Sunday, 27 September 2026",
+  "edition": "Sunday Foresight",
+  "editionKey": "foresight",
+  "summary": "In four days, Tanzania puts a $44 insurance policy behind every foreign visitor who lands. Kenya tried to put a $50,000 one behind every visitor five weeks ago and still can't get it past a judge.",
+  "bodyHtml": "<p><span class=\"meta-line\">🏨 EA HOSPITALITY PULSE — Sunday Foresight</span><br><span class=\"meta-line\">📅 Sunday, 27 September 2026 | 🇰🇪 🇺🇬 🇹🇿 🇷🇼</span></p>\n<p><strong>In four days, Tanzania puts a $44 insurance policy behind every foreign visitor who lands. Kenya tried to put a $50,000 one behind every visitor five weeks ago and still can&#x27;t get it past a judge.</strong></p>\n<p>Both governments reached for the same tool this year. Tanzania&#x27;s GN 256/2026, gazetted 4 Sep, goes live 1 Oct — $44 via existing state insurers (NIC mainland, ZIC Zanzibar), 92 days&#x27; cover. Kenya&#x27;s Sh6.4m (~$50,000) mandate has been frozen by the High Court since 24 Aug; the 16 Sep hearing produced no ruling we can find. <strong>Nobody has linked these as one story.</strong> Same idea, tested twice in five weeks, opposite results: Tanzania used its insurance regulator and a payable underwriter; Kenya used a single Health Gazette Notice that bypassed the Immigration Act actually governing entry.</p>\n<p><strong>What everyone is missing:</strong> the friction lands unevenly across one itinerary. A guest on the standard Kenya-into-Zanzibar run clears Nairobi and the Mara with no insurance gate, then hits a hard $44 purchase requirement crossing into Tanzania. Uganda and Rwanda, bound to Kenya inside the East Africa Tourist Visa, have no equivalent. Tanzania sits outside that visa union and moved alone. Not East Africa adopting a norm — the bloc fragmenting on a shared idea, right where itineraries stitch two markets together.<br>━━━━━━━━━<br>THE WEEK&#x27;S SIGNALS</p>\n<p><span class=\"item-head\">1️⃣ TANZANIA SHIPS THE MANDATE KENYA COULDN&#x27;T</span><br>GN 256/2026 (4 Sep): $44 NIC/ZIC insurance mandatory from 1 Oct, entry refusable without it. Kenya&#x27;s $50k version stays frozen — no ruling since the 16 Sep hearing (TATO, 26 Sep; Clyde &amp; Co, 16 Sep).<br><span class=\"sowhat\">🎯 So what: add the $44 step to pre-arrival emails for Tanzania/Zanzibar guests now.</span><br><span class=\"tagline\">🏷 Beach, City, Bush | 🇹🇿 🇰🇪 | Confirmed / Inference | impact:margin</span></p>\n<p><span class=\"item-head\">2️⃣ THE STRIKE WE SAID WOULDN&#x27;T HAPPEN, HAPPENED</span><br>KAWU struck JKIA two days (30 Aug–1 Sep), voiding our 28 Jul call. The three-week arbitration deadline passed ~22 Sep unresolved (The Star, 1 Sep).<br><span class=\"sowhat\">🎯 So what: keep a JKIA-disruption clause in October contracts — the truce is provisional.</span><br><span class=\"tagline\">🏷 City | 🇰🇪 | Confirmed / Reported | impact:risk</span></p>\n<p><span class=\"item-head\">3️⃣ THE EU&#x27;S GREENWASHING LAW APPLIED TODAY. NO EA BODY SAID A WORD</span><br>Directive (EU) 2024/825, barring unverified &quot;eco-friendly&quot; claims, became enforceable EU-wide 27 Sep. No guidance found from KTB, TTB, UTB, RDB, ZCT or the trade bodies (KATO/TATO/AUTO/ZATI/RTTA).<br><span class=\"sowhat\">🎯 So what: audit your own EU-facing listing copy — zero local trade-body cover exists.</span><br><span class=\"tagline\">🏷 Beach, Bush, City | 🇰🇪 🇺🇬 🇹🇿 🇷🇼 | Reported | impact:watch</span></p>\n<p><span class=\"item-head\">4️⃣ MOMBASA, NOT NAIROBI, TAKES OCTOBER&#x27;S COMPRESSION</span><br>Africa MICE Summit moved to 1–2 Oct in Mombasa; Kenya Transport Summit runs 30 Sep–2 Oct at KICC alongside it (africamicesummit.org).<br><span class=\"sowhat\">🎯 So what: hold coast rate 30 Sep–2 Oct; keep the dengue/mpox protocol visible.</span><br><span class=\"tagline\">🏷 City, Beach | 🇰🇪 | Confirmed | impact:demand</span><br>━━━━━━━━━<br>🔎 Blind spot: gov.uk KE/UG/RW pages unfetchable (sandbox gate). Scans found no dated Sep change.</p>\n<p><span class=\"meta-line\">📡 30/90-DAY DEMAND CALENDAR</span><br>🇹🇿 1 Oct — Tanzania insurance mandate live (GN 256/2026). Brief transiting guests now.<br>🇰🇪 30 Sep–2 Oct — Transport Summit + MICE Summit (Mombasa). Hold CBD/coast rate.<br>🇰🇪 ~15 Oct — EPRA review; fuel-VAT concession lapses 14 Oct — first real pump-price test since June.<br>🇺🇬 18 Nov — Uganda Airlines&#x27; daily Entebbe–Kigali launch; watch RwandAir&#x27;s response.</p>\n<p>Tanzania shipped a $44 policy in four weeks. Kenya&#x27;s still can&#x27;t clear a courtroom after five — what does that say about the next entry rule either writes?</p>\n<p>🔗 This edition on the web: <a href=\"https://eahospitalitypulse.com/editions/foresight-2026-09-27.html\" rel=\"noopener\">eahospitalitypulse.com/editions/foresight-2026-09-27.html</a><br>💼 This week&#x27;s Big Read on LinkedIn: <a href=\"https://www.linkedin.com/company/ea-hospitality-pulse/\" rel=\"noopener\">linkedin.com/company/ea-hospitality-pulse/</a><br>— EA Hospitality Pulse | Daily intelligence for city, bush &amp; beach properties</p>"
+ },
+ {
   "id": "pulse-2026-09-26-evening",
   "date": "2026-09-26",
   "dateDisplay": "Saturday, 26 September 2026",
@@ -1095,6 +1104,87 @@ window.INSIGHTS = [
   "dateDisplay": "Sunday, 27 September 2026",
   "edition": "Evening Wrap",
   "editionKey": "evening"
+ },
+ {
+  "headline": "TANZANIA SHIPS THE MANDATE KENYA COULDN'T",
+  "body": "GN 256/2026 (4 Sep): $44 NIC/ZIC insurance mandatory from 1 Oct, entry refusable without it. Kenya's $50k version stays frozen — no ruling since the 16 Sep hearing (TATO, 26 Sep; Clyde & Co, 16 Sep).",
+  "sowhat": "🎯 So what: add the $44 step to pre-arrival emails for Tanzania/Zanzibar guests now.",
+  "segments": [
+   "city",
+   "bush",
+   "beach"
+  ],
+  "countries": "🇹🇿 🇰🇪",
+  "confidence": "Confirmed / Inference",
+  "impact": "-margin",
+  "impactClass": "margin",
+  "intensity": 3,
+  "impactSet": "author",
+  "source": "foresight-2026-09-27",
+  "date": "2026-09-27",
+  "dateDisplay": "Sunday, 27 September 2026",
+  "edition": "Sunday Foresight",
+  "editionKey": "foresight"
+ },
+ {
+  "headline": "THE STRIKE WE SAID WOULDN'T HAPPEN, HAPPENED",
+  "body": "KAWU struck JKIA two days (30 Aug–1 Sep), voiding our 28 Jul call. The three-week arbitration deadline passed ~22 Sep unresolved (The Star, 1 Sep).",
+  "sowhat": "🎯 So what: keep a JKIA-disruption clause in October contracts — the truce is provisional.",
+  "segments": [
+   "city"
+  ],
+  "countries": "🇰🇪",
+  "confidence": "Confirmed / Reported",
+  "impact": "risk",
+  "impactClass": "risk",
+  "intensity": 3,
+  "impactSet": "author",
+  "source": "foresight-2026-09-27",
+  "date": "2026-09-27",
+  "dateDisplay": "Sunday, 27 September 2026",
+  "edition": "Sunday Foresight",
+  "editionKey": "foresight"
+ },
+ {
+  "headline": "THE EU'S GREENWASHING LAW APPLIED TODAY. NO EA BODY SAID A WORD",
+  "body": "Directive (EU) 2024/825, barring unverified \"eco-friendly\" claims, became enforceable EU-wide 27 Sep. No guidance found from KTB, TTB, UTB, RDB, ZCT or the trade bodies (KATO/TATO/AUTO/ZATI/RTTA).",
+  "sowhat": "🎯 So what: audit your own EU-facing listing copy — zero local trade-body cover exists.",
+  "segments": [
+   "city",
+   "bush",
+   "beach"
+  ],
+  "countries": "🇰🇪 🇺🇬 🇹🇿 🇷🇼",
+  "confidence": "Reported",
+  "impact": "watch",
+  "impactClass": "watch",
+  "intensity": 2,
+  "impactSet": "author",
+  "source": "foresight-2026-09-27",
+  "date": "2026-09-27",
+  "dateDisplay": "Sunday, 27 September 2026",
+  "edition": "Sunday Foresight",
+  "editionKey": "foresight"
+ },
+ {
+  "headline": "MOMBASA, NOT NAIROBI, TAKES OCTOBER'S COMPRESSION",
+  "body": "Africa MICE Summit moved to 1–2 Oct in Mombasa; Kenya Transport Summit runs 30 Sep–2 Oct at KICC alongside it (africamicesummit.org).",
+  "sowhat": "🎯 So what: hold coast rate 30 Sep–2 Oct; keep the dengue/mpox protocol visible.",
+  "segments": [
+   "city",
+   "beach"
+  ],
+  "countries": "🇰🇪",
+  "confidence": "Confirmed",
+  "impact": "+demand",
+  "impactClass": "demand",
+  "intensity": 3,
+  "impactSet": "author",
+  "source": "foresight-2026-09-27",
+  "date": "2026-09-27",
+  "dateDisplay": "Sunday, 27 September 2026",
+  "edition": "Sunday Foresight",
+  "editionKey": "foresight"
  },
  {
   "headline": "ETHIOPIA'S HERITAGE NORTH IS NOW OFF-LIMITS. ADDIS AND BOLE ARE NOT",
@@ -5598,4 +5688,4 @@ window.INSIGHTS = [
   "editionKey": "evening"
  }
 ];
-window.BUILT_AT = "2026-09-27 14:53";
+window.BUILT_AT = "2026-09-27 15:48";
