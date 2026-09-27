@@ -25,7 +25,7 @@ Google's AI answer for "East Africa hospitality news" rejected the site as
 Run after build_site.py (it reads editions/*.html, guides/*.html, search-index.json).
 Idempotent: every injection sits between markers and is replaced on each run.
 """
-import os, re, json, html, glob, datetime
+import os, re, sys, json, html, glob, datetime
 
 HERE = os.path.dirname(os.path.abspath(__file__))
 CFG = json.load(open(os.path.join(HERE, "site_config.json"), encoding="utf-8"))
@@ -410,6 +410,16 @@ def main():
         open(os.path.join(HERE, key + ".txt"), "w").write(key)
 
     print(f"directory: {len(docs)} docs indexed, {len(hubs)} hubs, {len(news)} in news sitemap")
+
+    # The build workflow commits an explicit file list that predates these outputs
+    # and omits archive.html, big-reads.html, feeds/, llms.txt, robots.txt,
+    # search-index.json, api/ and trackers/, so those went stale between manual
+    # pushes. Stage everything the build produced; the workflow's
+    # `git diff --staged` then commits it. (__pycache__ is gitignored.)
+    if os.environ.get("GITHUB_ACTIONS") == "true":
+        import subprocess
+        subprocess.run(["git", "add", "-A"], cwd=HERE, check=False)
+        subprocess.run([sys.executable, os.path.join(HERE, "ping_indexnow.py")], check=False)
 
 
 if __name__ == "__main__":
