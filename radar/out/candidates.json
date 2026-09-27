@@ -1,18 +1,18 @@
 {
- "generated": "2026-09-27T17:45:47+03:00",
+ "generated": "2026-09-27T19:43:18+03:00",
  "slot": "evening",
  "window_start": 1790424000,
- "observations_in_window": 953,
- "deduped_against": 4,
+ "observations_in_window": 979,
+ "deduped_against": 8,
  "candidates": [
   {
-   "score": 90.2,
+   "score": 88.0,
    "components": {
     "tier": 40,
     "category": 32,
     "lead": 12.0,
     "relevance": 8,
-    "freshness": 8.2,
+    "freshness": 6.0,
     "undated": -6,
     "page_change": -4
    },
@@ -41,13 +41,47 @@
    "verdict": "OPEN THIS \u2014 tier-1 advisory page moved; content not auto-parsed, read it manually"
   },
   {
-   "score": 53.8,
+   "score": 65.2,
    "components": {
     "tier": 40,
     "category": 12,
     "lead": 3.6,
     "relevance": 0,
-    "freshness": 8.2,
+    "freshness": 19.6,
+    "undated": -6,
+    "page_change": -4
+   },
+   "keywords": [],
+   "shock_terms": [],
+   "dedupe_match": null,
+   "dedupe_similarity": 0.0,
+   "id": "c118ee355090",
+   "title": "[page changed] Airlink news",
+   "url": "https://www.flyairlink.com/",
+   "summary": "Request unsuccessful. Incapsula incident ID: 259000070598335194-1094356889648693749",
+   "kind": "page-change",
+   "source": "Airlink news",
+   "source_id": "air-airlink",
+   "tier": 1,
+   "country": "REG",
+   "category": "airline",
+   "segments": [
+    "city",
+    "bush",
+    "beach"
+   ],
+   "first_seen": "2026-09-27T19:34+03:00",
+   "published": null,
+   "verdict": "OPEN THIS \u2014 tier-1 airline page moved; content not auto-parsed, read it manually"
+  },
+  {
+   "score": 51.6,
+   "components": {
+    "tier": 40,
+    "category": 12,
+    "lead": 3.6,
+    "relevance": 0,
+    "freshness": 6.0,
     "undated": -6,
     "page_change": -4
    },
@@ -109,13 +143,54 @@
    "verdict": "OPEN THIS \u2014 tier-1 airline page moved; content not auto-parsed, read it manually"
   },
   {
-   "score": 98.1,
+   "score": 115.6,
+   "components": {
+    "tier": 20,
+    "category": 4,
+    "lead": 0.0,
+    "relevance": 44,
+    "freshness": 19.6,
+    "corroborated": 10,
+    "shock": 18
+   },
+   "keywords": [
+    "outbreak",
+    "ebola",
+    "travel ban",
+    "visa"
+   ],
+   "shock_terms": [
+    "outbreak"
+   ],
+   "dedupe_match": null,
+   "dedupe_similarity": 0.0,
+   "id": "ef2652462d8c",
+   "title": "Relief as UAE eases Visa, travel ban following end of Uganda\u2019s Ebola outbreak",
+   "url": "https://www.monitor.co.ug/uganda/news/national/relief-as-uae-eases-visa-travel-ban-following-end-of-uganda-s-ebola-outbreak-5610648",
+   "summary": "The UAE introduced the restrictions on June 6 to prevent importation of Ebola from Uganda, DRC...",
+   "kind": "item",
+   "source": "Daily Monitor (Uganda)",
+   "source_id": "np-monitor-ug",
+   "tier": 2,
+   "country": "UG",
+   "category": "press",
+   "segments": [
+    "city",
+    "bush",
+    "beach"
+   ],
+   "first_seen": "2026-09-27T19:34+03:00",
+   "published": "2026-09-27",
+   "verdict": "CONSIDER"
+  },
+  {
+   "score": 96.0,
    "components": {
     "tier": 20,
     "category": 4,
     "lead": 2.4,
     "relevance": 24,
-    "freshness": 19.7,
+    "freshness": 17.6,
     "corroborated": 10,
     "shock": 18
    },
@@ -148,19 +223,19 @@
    "verdict": "CONSIDER"
   },
   {
-   "score": 95.8,
+   "score": 93.7,
    "components": {
     "tier": 40,
     "category": 20,
     "lead": 12.0,
     "relevance": 0,
-    "freshness": 13.8,
+    "freshness": 11.7,
     "corroborated": 10
    },
    "keywords": [],
    "shock_terms": [],
    "dedupe_match": null,
-   "dedupe_similarity": 0.0,
+   "dedupe_similarity": 0.2,
    "id": "6b2f04c3a561",
    "title": "HIV and AIDS Tribunal \u2013 Daily Cause List \u2013 02 October 2026",
    "url": "https://new.kenyalaw.org/akn/ke/doc/cause-list-daily/kehat/2026-10-02/1/eng@2026-10-02",
@@ -181,13 +256,13 @@
    "verdict": "STRONG \u2014 tier-1, upstream"
   },
   {
-   "score": 95.8,
+   "score": 93.7,
    "components": {
     "tier": 40,
     "category": 20,
     "lead": 12.0,
     "relevance": 0,
-    "freshness": 13.8,
+    "freshness": 11.7,
     "corroborated": 10
    },
    "keywords": [],
@@ -214,13 +289,13 @@
    "verdict": "STRONG \u2014 tier-1, upstream"
   },
   {
-   "score": 95.8,
+   "score": 93.7,
    "components": {
     "tier": 40,
     "category": 20,
     "lead": 12.0,
     "relevance": 0,
-    "freshness": 13.8,
+    "freshness": 11.7,
     "corroborated": 10
    },
    "keywords": [],
@@ -245,45 +320,6 @@
    "first_seen": "2026-09-27T12:20+03:00",
    "published": "2026-09-28",
    "verdict": "STRONG \u2014 tier-1, upstream"
-  },
-  {
-   "score": 92.3,
-   "components": {
-    "tier": 20,
-    "category": 4,
-    "lead": 2.4,
-    "relevance": 24,
-    "freshness": 13.9,
-    "corroborated": 10,
-    "shock": 18
-   },
-   "keywords": [
-    "outbreak",
-    "ebola"
-   ],
-   "shock_terms": [
-    "outbreak"
-   ],
-   "dedupe_match": null,
-   "dedupe_similarity": 0.0,
-   "id": "8a0953d19a95",
-   "title": "UAE lifts Ebola-related entry restrictions on Ugandans",
-   "url": "https://www.independent.co.ug/uae-lifts-ebola-related-entry-restrictions-on-ugandans",
-   "summary": "Kampala, Uganda | URN | The United Arab Emirates has eased precautionary entry measures imposed on Ugandan nationals during the Ebola outbreak, paving the way for the restoration of normal travel and labour links between the two countries. The decision was announced by the UAE\u2019s National Emergency Crisis and Disaster Management Authority (NCEMA), in coordination \u2026 The post UAE lifts Ebola-related ",
-   "kind": "item",
-   "source": "The Independent (Uganda)",
-   "source_id": "ug-independent",
-   "tier": 2,
-   "country": "UG",
-   "category": "press",
-   "segments": [
-    "city",
-    "bush",
-    "beach"
-   ],
-   "first_seen": "2026-09-27T12:21+03:00",
-   "published": "2026-09-27",
-   "verdict": "CONSIDER"
   },
   {
    "score": 91.8,
@@ -323,13 +359,52 @@
    "verdict": "STRONG \u2014 tier-1, upstream"
   },
   {
-   "score": 89.3,
+   "score": 90.1,
+   "components": {
+    "tier": 20,
+    "category": 4,
+    "lead": 2.4,
+    "relevance": 24,
+    "freshness": 11.7,
+    "corroborated": 10,
+    "shock": 18
+   },
+   "keywords": [
+    "outbreak",
+    "ebola"
+   ],
+   "shock_terms": [
+    "outbreak"
+   ],
+   "dedupe_match": null,
+   "dedupe_similarity": 0.0,
+   "id": "8a0953d19a95",
+   "title": "UAE lifts Ebola-related entry restrictions on Ugandans",
+   "url": "https://www.independent.co.ug/uae-lifts-ebola-related-entry-restrictions-on-ugandans",
+   "summary": "Kampala, Uganda | URN | The United Arab Emirates has eased precautionary entry measures imposed on Ugandan nationals during the Ebola outbreak, paving the way for the restoration of normal travel and labour links between the two countries. The decision was announced by the UAE\u2019s National Emergency Crisis and Disaster Management Authority (NCEMA), in coordination \u2026 The post UAE lifts Ebola-related ",
+   "kind": "item",
+   "source": "The Independent (Uganda)",
+   "source_id": "ug-independent",
+   "tier": 2,
+   "country": "UG",
+   "category": "press",
+   "segments": [
+    "city",
+    "bush",
+    "beach"
+   ],
+   "first_seen": "2026-09-27T12:21+03:00",
+   "published": "2026-09-27",
+   "verdict": "CONSIDER"
+  },
+  {
+   "score": 87.2,
    "components": {
     "tier": 40,
     "category": 12,
     "lead": 3.6,
     "relevance": 4,
-    "freshness": 19.7,
+    "freshness": 17.6,
     "corroborated": 10
    },
    "keywords": [
@@ -358,13 +433,13 @@
    "verdict": "CONSIDER"
   },
   {
-   "score": 89.3,
+   "score": 87.2,
    "components": {
     "tier": 40,
     "category": 12,
     "lead": 3.6,
     "relevance": 4,
-    "freshness": 19.7,
+    "freshness": 17.6,
     "corroborated": 10
    },
    "keywords": [
@@ -393,13 +468,13 @@
    "verdict": "CONSIDER"
   },
   {
-   "score": 89.3,
+   "score": 87.2,
    "components": {
     "tier": 40,
     "category": 12,
     "lead": 3.6,
     "relevance": 4,
-    "freshness": 19.7,
+    "freshness": 17.6,
     "corroborated": 10
    },
    "keywords": [
@@ -428,13 +503,13 @@
    "verdict": "CONSIDER"
   },
   {
-   "score": 85.8,
+   "score": 83.7,
    "components": {
     "tier": 40,
     "category": 20,
     "lead": 12.0,
     "relevance": 0,
-    "freshness": 13.8
+    "freshness": 11.7
    },
    "keywords": [],
    "shock_terms": [],
@@ -460,13 +535,13 @@
    "verdict": "CONSIDER"
   },
   {
-   "score": 85.8,
+   "score": 83.7,
    "components": {
     "tier": 40,
     "category": 20,
     "lead": 12.0,
     "relevance": 0,
-    "freshness": 13.8
+    "freshness": 11.7
    },
    "keywords": [],
    "shock_terms": [],
@@ -492,13 +567,13 @@
    "verdict": "CONSIDER"
   },
   {
-   "score": 85.8,
+   "score": 83.7,
    "components": {
     "tier": 40,
     "category": 20,
     "lead": 12.0,
     "relevance": 0,
-    "freshness": 13.8
+    "freshness": 11.7
    },
    "keywords": [],
    "shock_terms": [],
@@ -524,13 +599,13 @@
    "verdict": "CONSIDER"
   },
   {
-   "score": 85.3,
+   "score": 83.2,
    "components": {
     "tier": 40,
     "category": 12,
     "lead": 3.6,
     "relevance": 0,
-    "freshness": 19.7,
+    "freshness": 17.6,
     "corroborated": 10
    },
    "keywords": [],
@@ -557,13 +632,13 @@
    "verdict": "CONSIDER"
   },
   {
-   "score": 83.8,
+   "score": 81.7,
    "components": {
     "tier": 40,
     "category": 20,
     "lead": 12.0,
     "relevance": 8,
-    "freshness": 13.8,
+    "freshness": 11.7,
     "stale_trap": -10
    },
    "keywords": [
@@ -592,13 +667,13 @@
    "verdict": "CHECK \u2014 source date older than the window"
   },
   {
-   "score": 82.5,
+   "score": 80.4,
    "components": {
     "tier": 40,
     "category": 24,
     "lead": 4.8,
     "relevance": 0,
-    "freshness": 19.7,
+    "freshness": 17.6,
     "undated": -6
    },
    "keywords": [],
@@ -623,39 +698,6 @@
    "first_seen": "2026-09-27T17:42+03:00",
    "published": null,
    "verdict": "CONSIDER"
-  },
-  {
-   "score": 81.3,
-   "components": {
-    "tier": 40,
-    "category": 32,
-    "lead": 3.6,
-    "relevance": 0,
-    "freshness": 19.7,
-    "stale_trap": -10,
-    "page_change": -4
-   },
-   "keywords": [],
-   "shock_terms": [],
-   "dedupe_match": null,
-   "dedupe_similarity": 0.0,
-   "id": "c03d80e83398",
-   "title": "[page changed] Federal Register \u2014 public inspection (HHS/CDC), pre-publication",
-   "url": "https://www.federalregister.gov/api/v1/public-inspection-documents/current.json",
-   "summary": "{\"count\":106,\"results\":[{\"agencies\":[{\"raw_name\":\"SECURITIES AND EXCHANGE COMMISSION\",\"name\":\"Securities and Exchange Commission\",\"id\":466,\"url\":\"https://www.federalregister.gov/agencies/securities-and-exchange-commission\",\"json_url\":\"https://www.federalregister.gov/api/v1/agencies/466\",\"parent_id\":null,\"slug\":\"securities-and-exchange-commission\"}],\"agency_letters\":[],\"agency_names\":[\"Securities a",
-   "kind": "page-change",
-   "source": "Federal Register \u2014 public inspection (HHS/CDC), pre-publication",
-   "source_id": "us-fedreg-pubinspect-hhs",
-   "tier": 1,
-   "country": "REG",
-   "category": "advisory",
-   "segments": [
-    "city",
-    "bush"
-   ],
-   "first_seen": "2026-09-27T17:42+03:00",
-   "published": "2026-09-24",
-   "verdict": "CHECK \u2014 source date older than the window"
   },
   {
    "score": 80.0,
@@ -692,13 +734,46 @@
    "verdict": "CONSIDER"
   },
   {
-   "score": 79.8,
+   "score": 79.2,
+   "components": {
+    "tier": 40,
+    "category": 32,
+    "lead": 3.6,
+    "relevance": 0,
+    "freshness": 17.6,
+    "stale_trap": -10,
+    "page_change": -4
+   },
+   "keywords": [],
+   "shock_terms": [],
+   "dedupe_match": null,
+   "dedupe_similarity": 0.0,
+   "id": "c03d80e83398",
+   "title": "[page changed] Federal Register \u2014 public inspection (HHS/CDC), pre-publication",
+   "url": "https://www.federalregister.gov/api/v1/public-inspection-documents/current.json",
+   "summary": "{\"count\":106,\"results\":[{\"agencies\":[{\"raw_name\":\"SECURITIES AND EXCHANGE COMMISSION\",\"name\":\"Securities and Exchange Commission\",\"id\":466,\"url\":\"https://www.federalregister.gov/agencies/securities-and-exchange-commission\",\"json_url\":\"https://www.federalregister.gov/api/v1/agencies/466\",\"parent_id\":null,\"slug\":\"securities-and-exchange-commission\"}],\"agency_letters\":[],\"agency_names\":[\"Securities a",
+   "kind": "page-change",
+   "source": "Federal Register \u2014 public inspection (HHS/CDC), pre-publication",
+   "source_id": "us-fedreg-pubinspect-hhs",
+   "tier": 1,
+   "country": "REG",
+   "category": "advisory",
+   "segments": [
+    "city",
+    "bush"
+   ],
+   "first_seen": "2026-09-27T17:42+03:00",
+   "published": "2026-09-24",
+   "verdict": "CHECK \u2014 source date older than the window"
+  },
+  {
+   "score": 77.7,
    "components": {
     "tier": 40,
     "category": 20,
     "lead": 12.0,
     "relevance": 4,
-    "freshness": 13.8,
+    "freshness": 11.7,
     "stale_trap": -10
    },
    "keywords": [
@@ -759,13 +834,13 @@
    "verdict": "CONSIDER"
   },
   {
-   "score": 75.8,
+   "score": 73.7,
    "components": {
     "tier": 40,
     "category": 20,
     "lead": 12.0,
     "relevance": 0,
-    "freshness": 13.8,
+    "freshness": 11.7,
     "stale_trap": -10
    },
    "keywords": [],
@@ -792,13 +867,13 @@
    "verdict": "CHECK \u2014 source date older than the window"
   },
   {
-   "score": 75.8,
+   "score": 73.7,
    "components": {
     "tier": 40,
     "category": 20,
     "lead": 12.0,
     "relevance": 0,
-    "freshness": 13.8,
+    "freshness": 11.7,
     "stale_trap": -10
    },
    "keywords": [],
@@ -825,13 +900,13 @@
    "verdict": "CHECK \u2014 source date older than the window"
   },
   {
-   "score": 75.8,
+   "score": 73.7,
    "components": {
     "tier": 40,
     "category": 20,
     "lead": 12.0,
     "relevance": 0,
-    "freshness": 13.8,
+    "freshness": 11.7,
     "stale_trap": -10
    },
    "keywords": [],
@@ -858,13 +933,13 @@
    "verdict": "CHECK \u2014 source date older than the window"
   },
   {
-   "score": 75.8,
+   "score": 73.7,
    "components": {
     "tier": 40,
     "category": 20,
     "lead": 12.0,
     "relevance": 0,
-    "freshness": 13.8,
+    "freshness": 11.7,
     "stale_trap": -10
    },
    "keywords": [],
@@ -891,13 +966,13 @@
    "verdict": "CHECK \u2014 source date older than the window"
   },
   {
-   "score": 75.8,
+   "score": 73.7,
    "components": {
     "tier": 40,
     "category": 20,
     "lead": 12.0,
     "relevance": 0,
-    "freshness": 13.8,
+    "freshness": 11.7,
     "stale_trap": -10
    },
    "keywords": [],
@@ -924,13 +999,13 @@
    "verdict": "CHECK \u2014 source date older than the window"
   },
   {
-   "score": 75.8,
+   "score": 73.7,
    "components": {
     "tier": 40,
     "category": 20,
     "lead": 12.0,
     "relevance": 0,
-    "freshness": 13.8,
+    "freshness": 11.7,
     "stale_trap": -10
    },
    "keywords": [],
@@ -957,13 +1032,13 @@
    "verdict": "CHECK \u2014 source date older than the window"
   },
   {
-   "score": 75.8,
+   "score": 73.7,
    "components": {
     "tier": 40,
     "category": 20,
     "lead": 12.0,
     "relevance": 0,
-    "freshness": 13.8,
+    "freshness": 11.7,
     "stale_trap": -10
    },
    "keywords": [],
@@ -990,13 +1065,13 @@
    "verdict": "CHECK \u2014 source date older than the window"
   },
   {
-   "score": 75.8,
+   "score": 73.7,
    "components": {
     "tier": 40,
     "category": 20,
     "lead": 12.0,
     "relevance": 0,
-    "freshness": 13.8,
+    "freshness": 11.7,
     "stale_trap": -10
    },
    "keywords": [],
@@ -1023,13 +1098,13 @@
    "verdict": "CHECK \u2014 source date older than the window"
   },
   {
-   "score": 75.8,
+   "score": 73.7,
    "components": {
     "tier": 40,
     "category": 20,
     "lead": 12.0,
     "relevance": 0,
-    "freshness": 13.8,
+    "freshness": 11.7,
     "stale_trap": -10
    },
    "keywords": [],
@@ -1056,13 +1131,13 @@
    "verdict": "CHECK \u2014 source date older than the window"
   },
   {
-   "score": 75.8,
+   "score": 73.7,
    "components": {
     "tier": 40,
     "category": 20,
     "lead": 12.0,
     "relevance": 0,
-    "freshness": 13.8,
+    "freshness": 11.7,
     "stale_trap": -10
    },
    "keywords": [],
@@ -1089,13 +1164,13 @@
    "verdict": "CHECK \u2014 source date older than the window"
   },
   {
-   "score": 75.8,
+   "score": 73.7,
    "components": {
     "tier": 40,
     "category": 20,
     "lead": 12.0,
     "relevance": 0,
-    "freshness": 13.8,
+    "freshness": 11.7,
     "stale_trap": -10
    },
    "keywords": [],
@@ -1122,13 +1197,13 @@
    "verdict": "CHECK \u2014 source date older than the window"
   },
   {
-   "score": 75.8,
+   "score": 73.7,
    "components": {
     "tier": 40,
     "category": 20,
     "lead": 12.0,
     "relevance": 0,
-    "freshness": 13.8,
+    "freshness": 11.7,
     "stale_trap": -10
    },
    "keywords": [],
@@ -1155,13 +1230,13 @@
    "verdict": "CHECK \u2014 source date older than the window"
   },
   {
-   "score": 75.8,
+   "score": 73.7,
    "components": {
     "tier": 40,
     "category": 20,
     "lead": 12.0,
     "relevance": 0,
-    "freshness": 13.8,
+    "freshness": 11.7,
     "stale_trap": -10
    },
    "keywords": [],
@@ -1188,13 +1263,13 @@
    "verdict": "CHECK \u2014 source date older than the window"
   },
   {
-   "score": 75.8,
+   "score": 73.7,
    "components": {
     "tier": 40,
     "category": 20,
     "lead": 12.0,
     "relevance": 0,
-    "freshness": 13.8,
+    "freshness": 11.7,
     "stale_trap": -10
    },
    "keywords": [],
@@ -1221,13 +1296,13 @@
    "verdict": "CHECK \u2014 source date older than the window"
   },
   {
-   "score": 75.8,
+   "score": 73.7,
    "components": {
     "tier": 40,
     "category": 20,
     "lead": 12.0,
     "relevance": 0,
-    "freshness": 13.8,
+    "freshness": 11.7,
     "stale_trap": -10
    },
    "keywords": [],
@@ -1254,13 +1329,13 @@
    "verdict": "CHECK \u2014 source date older than the window"
   },
   {
-   "score": 75.8,
+   "score": 73.7,
    "components": {
     "tier": 40,
     "category": 20,
     "lead": 12.0,
     "relevance": 0,
-    "freshness": 13.8,
+    "freshness": 11.7,
     "stale_trap": -10
    },
    "keywords": [],
@@ -1284,72 +1359,6 @@
    ],
    "first_seen": "2026-09-27T12:20+03:00",
    "published": "2026-09-23",
-   "verdict": "CHECK \u2014 source date older than the window"
-  },
-  {
-   "score": 75.8,
-   "components": {
-    "tier": 40,
-    "category": 20,
-    "lead": 12.0,
-    "relevance": 0,
-    "freshness": 13.8,
-    "stale_trap": -10
-   },
-   "keywords": [],
-   "shock_terms": [],
-   "dedupe_match": null,
-   "dedupe_similarity": 0.2,
-   "id": "6c4786a9f57a",
-   "title": "Shah v Shah t/a Amratlal Hardware Stores (Employment and Labour Relations Cause E237 of 2026) [2026] KEELRC 2546 (KLR) (24 September 2026) (Ruling)",
-   "url": "https://new.kenyalaw.org/akn/ke/judgment/keelrc/2026/2546/eng@2026-09-24",
-   "summary": "Shah v Shah t/a Amratlal Hardware Stores (Employment and Labour Relations Cause E237 of 2026) [2026] KEELRC 2546 (KLR) (24 September 2026) (Ruling)",
-   "kind": "item",
-   "source": "Kenya Gazette (Kenya Law)",
-   "source_id": "ke-gazette",
-   "tier": 1,
-   "country": "KE",
-   "category": "gazette",
-   "segments": [
-    "city",
-    "bush",
-    "beach"
-   ],
-   "first_seen": "2026-09-27T12:20+03:00",
-   "published": "2026-09-24",
-   "verdict": "CHECK \u2014 source date older than the window"
-  },
-  {
-   "score": 75.8,
-   "components": {
-    "tier": 40,
-    "category": 20,
-    "lead": 12.0,
-    "relevance": 0,
-    "freshness": 13.8,
-    "stale_trap": -10
-   },
-   "keywords": [],
-   "shock_terms": [],
-   "dedupe_match": null,
-   "dedupe_similarity": 0.2,
-   "id": "941570d91756",
-   "title": "Musimba v Wambugu (Miscellaneous Application E074 of 2020) [2026] KEHC 14026 (KLR) (Judicial Review) (24 September 2026) (Ruling)",
-   "url": "https://new.kenyalaw.org/akn/ke/judgment/kehc/2026/14026/eng@2026-09-24",
-   "summary": "Musimba v Wambugu (Miscellaneous Application E074 of 2020) [2026] KEHC 14026 (KLR) (Judicial Review) (24 September 2026) (Ruling)",
-   "kind": "item",
-   "source": "Kenya Gazette (Kenya Law)",
-   "source_id": "ke-gazette",
-   "tier": 1,
-   "country": "KE",
-   "category": "gazette",
-   "segments": [
-    "city",
-    "bush",
-    "beach"
-   ],
-   "first_seen": "2026-09-27T12:20+03:00",
-   "published": "2026-09-24",
    "verdict": "CHECK \u2014 source date older than the window"
   }
  ]
