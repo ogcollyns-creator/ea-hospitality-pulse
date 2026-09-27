@@ -18,6 +18,15 @@ window.GUIDES = [
   "image": "img/editions/pulse-2026-09-12-evening.jpg"
  },
  {
+  "slug": "ethiopia-north-dark-east-africa-exposure",
+  "title": "Ethiopia's north went dark in a night. East Africa's exposure is the map, not the airport.",
+  "description": "Tigrayan forces took three airports on 23 September and Washington now tells Americans to leave Amhara, Tigray and Afar; for East Africa's hotels the risk is not Addis Ababa's hub but the itinerary, the buyer's map and a neighbourhood that is getting louder.",
+  "category": "Big Read",
+  "updated": "2026-09-26",
+  "readMins": 8,
+  "image": ""
+ },
+ {
   "slug": "east-africa-flood-cover-short-rains-2026",
   "title": "East Africa knows how wet this season will be. It does not know what its cover is worth.",
   "description": "Kenya's state reinsurer went shopping for a catastrophe model last Thursday, days before the start of a short rains season that forecasters have already compared to 1997 and 2023. For lodges and coastal hotels, the exposure that matters this quarter is not the water. It is the wording.",
