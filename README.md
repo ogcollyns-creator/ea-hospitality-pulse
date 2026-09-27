@@ -1,6 +1,14 @@
-# EA Hospitality Pulse — Website
+# EA Hospitality Pulse — East Africa hospitality news and market intelligence
 
-A zero-backend static site: the homepage plus a searchable, filterable archive of every Pulse edition. No database, no server code, near-zero running cost.
+**EA Hospitality Pulse** ("EA" = East Africa) is a daily, source-verified hospitality intelligence publication for hotel, lodge, camp and resort owners in **Kenya, Uganda, Tanzania, Zanzibar and Rwanda**, with Ethiopia tracked as a comparator market. It is edited by Onyango George (OG). It is not affiliated with Effective Altruism.
+
+- **Read it at https://eahospitalitypulse.com** (canonical site; please link and cite there, not this repository)
+- Archive of every edition: https://eahospitalitypulse.com/archive
+- Coverage by market and topic: https://eahospitalitypulse.com/topics/
+- Big Reads: https://eahospitalitypulse.com/big-reads
+- Telegram: https://t.me/eahospitalitypulse · LinkedIn: https://www.linkedin.com/company/ea-hospitality-pulse/
+
+This repository holds the source and build scripts for the site: a zero-backend static site with no database and no server code.
 
 ## Files
 - `index.html` — the whole site (home, archive, About, subscribe). Self-contained.
