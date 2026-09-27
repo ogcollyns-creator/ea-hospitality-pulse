@@ -154,7 +154,10 @@ def window_for(slot, now=None):
     elif slot == "midday":
         start = now.replace(hour=7, minute=0, second=0, microsecond=0)
     elif slot == "evening":
-        start = now.replace(hour=13, minute=0, second=0, microsecond=0)
+        # The Evening Wrap is the only daily news edition since 27 Sep 2026, so
+        # its window is the full day since yesterday's Wrap (not since midday):
+        # 15:00 EAT yesterday gives an hour's overlap; dedupe handles repeats.
+        start = (now - datetime.timedelta(days=1)).replace(hour=15, minute=0, second=0, microsecond=0)
     else:
         start = now - datetime.timedelta(hours=18)
     if start > now:
