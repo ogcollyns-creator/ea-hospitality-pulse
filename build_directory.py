@@ -336,6 +336,19 @@ def optimize_pages():
                 if "window.__ensureBodies(()=>{ if(search.value)" not in t else t
             t = t.replace('<img class="hero" src="img/editions/', '<img class="hero" fetchpriority="high" decoding="async" src="img/editions/', 1) \
                 if 'fetchpriority="high" decoding="async" src="img/editions/' not in t else t
+            # Hero carousel: 10 background photos (~1.1 MB) were all inline
+            # styles, so every one downloaded on first paint. Keep only the
+            # visible layer; the carousel attaches each next image one step ahead.
+            t = re.sub(r'<div class="hero-bg-layer" style="([^"]*)"',
+                       lambda m: '<div class="hero-bg-layer" data-bg="' + m.group(1) + '"', t)
+            _nx = ("layers[i].classList.add('active');"
+                   " var nx=layers[(i+1)%layers.length]; if(nx.dataset.bg){nx.setAttribute('style',nx.dataset.bg);nx.removeAttribute('data-bg');}")
+            if "var nx=layers[(i+1)%layers.length]" not in t:
+                t = t.replace("      layers[i].classList.add('active');\n", "      " + _nx + "\n", 1)
+                t = t.replace("    var i = 0;\n    setInterval(",
+                              "    var i = 0;\n    window.addEventListener('load',function(){var n1=layers[1];"
+                              "if(n1&&n1.dataset.bg){n1.setAttribute('style',n1.dataset.bg);n1.removeAttribute('data-bg');}});\n"
+                              "    setInterval(", 1)
         open(p, "w", encoding="utf-8").write(t)
     kb = lambda f: round(os.path.getsize(os.path.join(HERE, f)) / 1024)
     print(f"page speed: data.js {kb('data.js')} KB -> data-lite.js {kb('data-lite.js')} KB on first load "
