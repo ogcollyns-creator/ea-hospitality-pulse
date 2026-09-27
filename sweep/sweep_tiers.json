@@ -337,10 +337,10 @@
   },
   {
    "id": "ug-gazette",
-   "tier": "C",
+   "tier": "A",
    "name": "Uganda Gazette (gazettes.africa)",
    "country": "UG",
-   "query": "Uganda Gazette (gazettes.africa) {MON} {YYYY}"
+   "query": "Uganda Gazette statutory instrument {MON} {YYYY} tourism levy fee"
   },
   {
    "id": "ug-utb",
@@ -365,10 +365,10 @@
   },
   {
    "id": "tz-gazette",
-   "tier": "C",
+   "tier": "A",
    "name": "Tanzania Government Gazette (gazettes.africa)",
    "country": "TZ",
-   "query": "Tanzania Government Gazette (gazettes.africa) {MON} {YYYY}"
+   "query": "Tanzania Government Notice GN {MON} {YYYY} regulations tourism levy insurance fee"
   },
   {
    "id": "tz-mnrt",
@@ -414,10 +414,10 @@
   },
   {
    "id": "rw-gazette",
-   "tier": "C",
+   "tier": "A",
    "name": "Rwanda Official Gazette (gazettes.africa)",
    "country": "RW",
-   "query": "Rwanda Official Gazette (gazettes.africa) {MON} {YYYY}"
+   "query": "Rwanda Official Gazette {MON} {YYYY} tourism regulation fee"
   },
   {
    "id": "rw-visitrwanda",
@@ -768,6 +768,27 @@
    "name": "Ethiopia Convention Bureau (Tourism Ethiopia)",
    "country": "ET",
    "query": "Ethiopia Convention Bureau (Tourism Ethiopia) {MON} {YYYY}"
+  },
+  {
+   "id": "tz-tira",
+   "tier": "A",
+   "name": "Tanzania Insurance Regulatory Authority (inbound travel insurance)",
+   "country": "TZ",
+   "query": "Tanzania inbound travel insurance TIRA NIC visitors {MON} {YYYY}"
+  },
+  {
+   "id": "ea-dealflow",
+   "tier": "A",
+   "name": "Hotel deal flow: openings, signings, acquisitions, appointments (EA)",
+   "country": "EA",
+   "query": "hotel opening OR signing OR acquires OR appoints Kenya Uganda Tanzania Zanzibar Rwanda {MON} {YYYY}"
+  },
+  {
+   "id": "ea-competitor-diff",
+   "tier": "A",
+   "name": "Competitor coverage diff: hotelsafrica.org, travelnewseastafrica.com, travelnews.africa, tourismupdate",
+   "country": "EA",
+   "query": "site:hotelsafrica.org OR site:travelnewseastafrica.com OR site:travelnews.africa East Africa {MON} {YYYY}"
   }
  ]
 }
