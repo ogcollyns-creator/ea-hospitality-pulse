@@ -1,7 +1,7 @@
 {
  "version": 1,
- "updated": "2026-09-20",
- "note": "Upstream-weighted source registry for the EA Hospitality Pulse radar. tier 1 = primary/official, 2 = reputable secondary, 3 = weak (lead only, never publishable alone). lead_days = typical head start over mainstream coverage. Sources that fail repeatedly are surfaced by monitor.py rather than silently dropped. | 2026-08-20: added Ethiopia (ET) upstream sources as comparator — gazette, ECAA, NBE, ESS, Ethiopia Convention Bureau; Ethiopian Airlines already tracked (air-et). Enables promotion to a full sixth market once the radar records healthy observations. | 2026-09-08: added rw-bnr-mpc (BNR monetary policy statements) — the 26-27 Aug MPC decision taking Rwanda's policy rate to 8.75% did not surface on the radar because rw-bnr points at the BNR homepage and BNR is HTTP-blocked; the MPC page is a distinct, higher-signal observation. | 2026-09-15 (evening): added rw-moh-news (Rwanda MoH news/EVD listing) as a distinct change-detection target — Rwanda's 22 May 2026 30-day DRC-transit entry denial is the region's most booking-relevant entry rule and needs a dated listing to watch, not a root page. Corrected the rw-moh transport note: the block is on the root/listing, not on article pages, which fetched cleanly today.",
+ "updated": "2026-09-27",
+ "note": "Upstream-weighted source registry for the EA Hospitality Pulse radar. tier 1 = primary/official, 2 = reputable secondary, 3 = weak (lead only, never publishable alone). lead_days = typical head start over mainstream coverage. Sources that fail repeatedly are surfaced by monitor.py rather than silently dropped. | 2026-08-20: added Ethiopia (ET) upstream sources as comparator — gazette, ECAA, NBE, ESS, Ethiopia Convention Bureau; Ethiopian Airlines already tracked (air-et). Enables promotion to a full sixth market once the radar records healthy observations. | 2026-09-08: added rw-bnr-mpc (BNR monetary policy statements) — the 26-27 Aug MPC decision taking Rwanda's policy rate to 8.75% did not surface on the radar because rw-bnr points at the BNR homepage and BNR is HTTP-blocked; the MPC page is a distinct, higher-signal observation. | 2026-09-15 (evening): added rw-moh-news (Rwanda MoH news/EVD listing) as a distinct change-detection target — Rwanda's 22 May 2026 30-day DRC-transit entry denial is the region's most booking-relevant entry rule and needs a dated listing to watch, not a root page. Corrected the rw-moh transport note: the block is on the root/listing, not on article pages, which fetched cleanly today. | 2026-09-27: hotel-group and deal-flow sources were scheduled in the midday slot only, and no midday edition has run since 28 Aug, so the openings/appointments beat went dark for a month (missed: IHG voco Nairobi, Elewana Ngorongoro Explorer, Aleph East Africa appointment). Moved to all slots. Added competitor trade titles hotelsafrica.org and travelnewseastafrica.com (lead only, confirm at primary) and TravelDailyNews hotels. tz-tira was already tracked but GN 256 of 4 Sep 2026 (USD 44 mandatory inbound insurance from 1 Oct) was missed: check TIRA and the Tanzania gazette every slot.",
  "sources": [
   {
    "id": "ke-gazette",
@@ -2391,7 +2391,9 @@
     "beach"
    ],
    "slots": [
-    "midday"
+    "morning",
+    "midday",
+    "evening"
    ],
    "why": "Signings and openings reshape competitive supply years ahead.",
    "frag": "",
@@ -2416,7 +2418,9 @@
     "beach"
    ],
    "slots": [
-    "midday"
+    "morning",
+    "midday",
+    "evening"
    ],
    "why": "Strong African pipeline; watch conversions and soft brands.",
    "frag": ""
@@ -2437,7 +2441,9 @@
     "beach"
    ],
    "slots": [
-    "midday"
+    "morning",
+    "midday",
+    "evening"
    ],
    "why": "Nairobi, Kampala and Kigali pipeline activity.",
    "frag": ""
@@ -2458,7 +2464,9 @@
     "beach"
    ],
    "slots": [
-    "midday"
+    "morning",
+    "midday",
+    "evening"
    ],
    "why": "The most aggressive African signer of recent years.",
    "frag": "",
@@ -2481,7 +2489,9 @@
     "beach"
    ],
    "slots": [
-    "midday"
+    "morning",
+    "midday",
+    "evening"
    ],
    "why": "Pipeline and brand entries into EA cities.",
    "frag": ""
@@ -2500,7 +2510,9 @@
     "beach"
    ],
    "slots": [
-    "midday"
+    "morning",
+    "midday",
+    "evening"
    ],
    "why": "Anantara and NH expansion into Indian Ocean beach markets.",
    "frag": ""
@@ -2521,7 +2533,9 @@
     "beach"
    ],
    "slots": [
-    "midday"
+    "morning",
+    "midday",
+    "evening"
    ],
    "why": "Luxury city and resort positioning in Nairobi and Zanzibar.",
    "frag": "",
@@ -2569,7 +2583,9 @@
     "beach"
    ],
    "slots": [
-    "midday"
+    "morning",
+    "midday",
+    "evening"
    ],
    "why": "Openings and appointments across the continent.",
    "frag": ""
@@ -2636,7 +2652,9 @@
     "beach"
    ],
    "slots": [
-    "midday"
+    "morning",
+    "midday",
+    "evening"
    ],
    "why": "Africa-focused third-party operator; signs the mid-market and Kigali/Nairobi deals the global chains skip.",
    "frag": ""
@@ -2657,7 +2675,9 @@
     "beach"
    ],
    "slots": [
-    "midday"
+    "morning",
+    "midday",
+    "evening"
    ],
    "why": "Development-desk trade press; often carries a signing before the operator's own newsroom does.",
    "frag": "",
@@ -2680,7 +2700,9 @@
     "beach"
    ],
    "slots": [
-    "midday"
+    "morning",
+    "midday",
+    "evening"
    ],
    "why": "Entered Africa in 2026 with three Kenyan franchises including a soft-brand inside the Mara.",
    "frag": ""
@@ -2701,6 +2723,8 @@
     "beach"
    ],
    "slots": [
+    "morning",
+    "midday",
     "evening"
    ],
    "why": "Running Rwanda's five-property ultra-luxury circuit; a bellwether for premium bush supply.",
@@ -3025,7 +3049,9 @@
     "beach"
    ],
    "slots": [
-    "midday"
+    "morning",
+    "midday",
+    "evening"
    ],
    "why": "Route and trade news across African aviation.",
    "frag": ""
@@ -4492,6 +4518,75 @@
     "evening"
    ],
    "why": "Carries France's El Nino (18 Sep) and pre-electoral (11/14 Sep) alerts separately from the zone map on the Securite page.",
+   "frag": ""
+  },
+  {
+   "id": "trade-hotelsafrica",
+   "name": "Hotels Africa (hotelsafrica.org)",
+   "url": "https://hotelsafrica.org/",
+   "tier": 2,
+   "country": "AFRICA",
+   "category": "trade",
+   "method": "html",
+   "cadence_min": 360,
+   "lead_days": 3,
+   "segments": [
+    "city",
+    "bush",
+    "beach"
+   ],
+   "slots": [
+    "morning",
+    "midday",
+    "evening"
+   ],
+   "why": "Competitor trade title that wins the hotel deal-flow beat: openings, brand entries, appointments, acquisitions (e.g. IHG voco Nairobi, Elewana Ngorongoro Explorer, Aleph East Africa VP). Lead only: confirm at the brand or developer before publishing.",
+   "frag": ""
+  },
+  {
+   "id": "trade-tnea",
+   "name": "Travel News East Africa",
+   "url": "https://travelnewseastafrica.com/",
+   "tier": 2,
+   "country": "EA",
+   "category": "trade",
+   "method": "html",
+   "cadence_min": 360,
+   "lead_days": 3,
+   "segments": [
+    "city",
+    "bush",
+    "beach"
+   ],
+   "slots": [
+    "morning",
+    "midday",
+    "evening"
+   ],
+   "why": "Competitor regional title strong on Uganda/Rwanda regulator and aviation items (bus directives, KAA alerts, Tanzania insurance rule). Lead only: trace to the gazette or regulator.",
+   "frag": ""
+  },
+  {
+   "id": "tp-traveldailynews-hotels",
+   "name": "TravelDailyNews: hotels & lodging",
+   "url": "https://www.traveldailynews.com/hotels-lodging/",
+   "tier": 2,
+   "country": "GLOBAL",
+   "category": "trade",
+   "method": "html",
+   "cadence_min": 360,
+   "lead_days": 3,
+   "segments": [
+    "city",
+    "bush",
+    "beach"
+   ],
+   "slots": [
+    "morning",
+    "midday",
+    "evening"
+   ],
+   "why": "Syndicates brand press releases on African lodge and hotel openings within a day of issue.",
    "frag": ""
   }
  ]
