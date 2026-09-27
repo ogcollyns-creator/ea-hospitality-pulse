@@ -1,25 +1,95 @@
 {
- "generated": "2026-09-27T01:30:54+03:00",
+ "generated": "2026-09-27T07:16:49+03:00",
  "slot": "morning",
  "window_start": 1790434800,
- "observations_in_window": 121,
+ "observations_in_window": 171,
  "deduped_against": 4,
  "candidates": [
   {
-   "score": 91.3,
+   "score": 101.7,
+   "components": {
+    "tier": 40,
+    "category": 32,
+    "lead": 12.0,
+    "relevance": 8,
+    "freshness": 19.7,
+    "undated": -6,
+    "page_change": -4
+   },
+   "keywords": [
+    "fee"
+   ],
+   "shock_terms": [],
+   "dedupe_match": null,
+   "dedupe_similarity": 0.17,
+   "id": "b1f2a1925dfc",
+   "title": "[page changed] Federal Register \u2014 CDC notices",
+   "url": "https://www.federalregister.gov/api/v1/documents.rss?conditions%5Bagencies%5D%5B%5D=centers-for-disease-control-and-prevention&order=newest",
+   "summary": "Federal Register Documents published on or after 08/28/2026 and from Centers for Disease Control and Prevention https://www.federalregister.gov/api/v1/documents.rss?conditions%5Bagencies%5D%5B%5D=centers-for-disease-control-and-prevention&order=newest Mon, 28 Sep 2026 04:00:00 GMT The documents in this feed originate from FederalRegister.gov which displays an unofficial web version of the daily Fe",
+   "kind": "page-change",
+   "source": "Federal Register \u2014 CDC notices",
+   "source_id": "us-fedreg-cdc",
+   "tier": 1,
+   "country": "REG",
+   "category": "advisory",
+   "segments": [
+    "city",
+    "bush"
+   ],
+   "first_seen": "2026-09-27T07:12+03:00",
+   "published": null,
+   "verdict": "OPEN THIS \u2014 tier-1 advisory page moved; content not auto-parsed, read it manually"
+  },
+  {
+   "score": 65.3,
+   "components": {
+    "tier": 40,
+    "category": 12,
+    "lead": 3.6,
+    "relevance": 0,
+    "freshness": 19.7,
+    "undated": -6,
+    "page_change": -4
+   },
+   "keywords": [],
+   "shock_terms": [],
+   "dedupe_match": null,
+   "dedupe_similarity": 0.0,
+   "id": "9e24afae1a75",
+   "title": "[page changed] Airlink news",
+   "url": "https://www.flyairlink.com/",
+   "summary": "Request unsuccessful. Incapsula incident ID: 1016000071056924543-583477062484361714",
+   "kind": "page-change",
+   "source": "Airlink news",
+   "source_id": "air-airlink",
+   "tier": 1,
+   "country": "REG",
+   "category": "airline",
+   "segments": [
+    "city",
+    "bush",
+    "beach"
+   ],
+   "first_seen": "2026-09-27T07:11+03:00",
+   "published": null,
+   "verdict": "OPEN THIS \u2014 tier-1 airline page moved; content not auto-parsed, read it manually"
+  },
+  {
+   "score": 81.3,
    "components": {
     "tier": 40,
     "category": 32,
     "lead": 3.6,
     "relevance": 0,
     "freshness": 19.7,
+    "stale_trap": -10,
     "page_change": -4
    },
    "keywords": [],
    "shock_terms": [],
    "dedupe_match": null,
    "dedupe_similarity": 0.0,
-   "id": "6d886d5e3639",
+   "id": "c8289e00fbd5",
    "title": "[page changed] Federal Register \u2014 public inspection (HHS/CDC), pre-publication",
    "url": "https://www.federalregister.gov/api/v1/public-inspection-documents/current.json",
    "summary": "{\"count\":106,\"results\":[{\"agencies\":[{\"raw_name\":\"SECURITIES AND EXCHANGE COMMISSION\",\"name\":\"Securities and Exchange Commission\",\"id\":466,\"url\":\"https://www.federalregister.gov/agencies/securities-and-exchange-commission\",\"json_url\":\"https://www.federalregister.gov/api/v1/agencies/466\",\"parent_id\":null,\"slug\":\"securities-and-exchange-commission\"}],\"agency_letters\":[],\"agency_names\":[\"Securities a",
@@ -33,50 +103,55 @@
     "city",
     "bush"
    ],
-   "first_seen": "2026-09-27T01:28+03:00",
+   "first_seen": "2026-09-27T07:12+03:00",
    "published": "2026-09-24",
-   "verdict": "OPEN THIS \u2014 tier-1 advisory page moved; content not auto-parsed, read it manually"
+   "verdict": "CHECK \u2014 source date older than the window"
   },
   {
-   "score": 87.2,
+   "score": 77.1,
    "components": {
-    "tier": 40,
-    "category": 32,
-    "lead": 3.6,
-    "relevance": 0,
-    "freshness": 15.6,
-    "page_change": -4
+    "tier": 20,
+    "category": 5,
+    "lead": 2.4,
+    "relevance": 20,
+    "freshness": 19.7,
+    "corroborated": 10
    },
-   "keywords": [],
+   "keywords": [
+    "vat",
+    "eta",
+    "airline"
+   ],
    "shock_terms": [],
    "dedupe_match": null,
-   "dedupe_similarity": 0.0,
-   "id": "d9ab12bff5e2",
-   "title": "[page changed] Federal Register \u2014 public inspection (HHS/CDC), pre-publication",
-   "url": "https://www.federalregister.gov/api/v1/public-inspection-documents/current.json",
-   "summary": "{\"count\":106,\"results\":[{\"agencies\":[{\"raw_name\":\"SECURITIES AND EXCHANGE COMMISSION\",\"name\":\"Securities and Exchange Commission\",\"id\":466,\"url\":\"https://www.federalregister.gov/agencies/securities-and-exchange-commission\",\"json_url\":\"https://www.federalregister.gov/api/v1/agencies/466\",\"parent_id\":null,\"slug\":\"securities-and-exchange-commission\"}],\"agency_letters\":[],\"agency_names\":[\"Securities a",
-   "kind": "page-change",
-   "source": "Federal Register \u2014 public inspection (HHS/CDC), pre-publication",
-   "source_id": "us-fedreg-pubinspect-hhs",
-   "tier": 1,
-   "country": "REG",
-   "category": "advisory",
+   "dedupe_similarity": 0.4,
+   "id": "a823420d3019",
+   "title": "Kenya Airways Moves to Sabre in Major Reservations and Retailing Shift",
+   "url": "https://katakenya.org/kenya-airways-moves-to-sabre-in-major-reservations-and-retailing-shift",
+   "summary": "Kenya Airways is embarking on one of its most significant technology transformations in more than two decades, selecting Sabre and Branchspace to overhaul the systems that underpin how the airline sells, books and manages travel. Announced on 22 September, the partnership will see Sabre replace Kenya Airways\u2019 existing reservations and ticketing platform, which has supported [\u2026]",
+   "kind": "item",
+   "source": "Kenya Association of Travel Agents news",
+   "source_id": "tp-kata",
+   "tier": 2,
+   "country": "KE",
+   "category": "trade",
    "segments": [
     "city",
-    "bush"
+    "bush",
+    "beach"
    ],
-   "first_seen": "2026-09-26T21:39+03:00",
-   "published": "2026-09-24",
-   "verdict": "OPEN THIS \u2014 tier-1 advisory page moved; content not auto-parsed, read it manually"
+   "first_seen": "2026-09-27T07:12+03:00",
+   "published": "2026-09-27",
+   "verdict": "CONSIDER"
   },
   {
-   "score": 81.6,
+   "score": 75.2,
    "components": {
     "tier": 40,
     "category": 32,
     "lead": 0.0,
     "relevance": 0,
-    "freshness": 15.6,
+    "freshness": 9.2,
     "undated": -6
    },
    "keywords": [],
@@ -103,13 +178,13 @@
    "verdict": "CONSIDER"
   },
   {
-   "score": 81.6,
+   "score": 75.2,
    "components": {
     "tier": 40,
     "category": 32,
     "lead": 0.0,
     "relevance": 0,
-    "freshness": 15.6,
+    "freshness": 9.2,
     "undated": -6
    },
    "keywords": [],
@@ -136,13 +211,13 @@
    "verdict": "CONSIDER"
   },
   {
-   "score": 81.6,
+   "score": 75.2,
    "components": {
     "tier": 40,
     "category": 32,
     "lead": 0.0,
     "relevance": 0,
-    "freshness": 15.6,
+    "freshness": 9.2,
     "undated": -6
    },
    "keywords": [],
@@ -169,13 +244,13 @@
    "verdict": "CONSIDER"
   },
   {
-   "score": 81.6,
+   "score": 75.2,
    "components": {
     "tier": 40,
     "category": 32,
     "lead": 0.0,
     "relevance": 0,
-    "freshness": 15.6,
+    "freshness": 9.2,
     "undated": -6
    },
    "keywords": [],
@@ -202,13 +277,13 @@
    "verdict": "CONSIDER"
   },
   {
-   "score": 81.6,
+   "score": 75.2,
    "components": {
     "tier": 40,
     "category": 32,
     "lead": 0.0,
     "relevance": 0,
-    "freshness": 15.6,
+    "freshness": 9.2,
     "undated": -6
    },
    "keywords": [],
@@ -235,13 +310,13 @@
    "verdict": "CONSIDER"
   },
   {
-   "score": 81.6,
+   "score": 75.2,
    "components": {
     "tier": 40,
     "category": 32,
     "lead": 0.0,
     "relevance": 0,
-    "freshness": 15.6,
+    "freshness": 9.2,
     "undated": -6
    },
    "keywords": [],
@@ -268,13 +343,13 @@
    "verdict": "CONSIDER"
   },
   {
-   "score": 81.6,
+   "score": 75.2,
    "components": {
     "tier": 40,
     "category": 32,
     "lead": 0.0,
     "relevance": 0,
-    "freshness": 15.6,
+    "freshness": 9.2,
     "undated": -6
    },
    "keywords": [],
@@ -301,13 +376,13 @@
    "verdict": "CONSIDER"
   },
   {
-   "score": 81.6,
+   "score": 75.2,
    "components": {
     "tier": 40,
     "category": 32,
     "lead": 0.0,
     "relevance": 0,
-    "freshness": 15.6,
+    "freshness": 9.2,
     "undated": -6
    },
    "keywords": [],
@@ -334,13 +409,13 @@
    "verdict": "CONSIDER"
   },
   {
-   "score": 81.6,
+   "score": 75.2,
    "components": {
     "tier": 40,
     "category": 32,
     "lead": 0.0,
     "relevance": 0,
-    "freshness": 15.6,
+    "freshness": 9.2,
     "undated": -6
    },
    "keywords": [],
@@ -367,13 +442,13 @@
    "verdict": "CONSIDER"
   },
   {
-   "score": 81.6,
+   "score": 75.2,
    "components": {
     "tier": 40,
     "category": 32,
     "lead": 0.0,
     "relevance": 0,
-    "freshness": 15.6,
+    "freshness": 9.2,
     "undated": -6
    },
    "keywords": [],
@@ -400,13 +475,13 @@
    "verdict": "CONSIDER"
   },
   {
-   "score": 81.6,
+   "score": 75.2,
    "components": {
     "tier": 40,
     "category": 32,
     "lead": 0.0,
     "relevance": 0,
-    "freshness": 15.6,
+    "freshness": 9.2,
     "undated": -6
    },
    "keywords": [],
@@ -433,13 +508,13 @@
    "verdict": "CONSIDER"
   },
   {
-   "score": 81.5,
+   "score": 75.2,
    "components": {
     "tier": 40,
     "category": 32,
     "lead": 0.0,
     "relevance": 0,
-    "freshness": 15.5,
+    "freshness": 9.2,
     "undated": -6
    },
    "keywords": [],
@@ -466,13 +541,153 @@
    "verdict": "CONSIDER"
   },
   {
-   "score": 75.6,
+   "score": 75.0,
+   "components": {
+    "tier": 40,
+    "category": 32,
+    "lead": 3.6,
+    "relevance": 0,
+    "freshness": 13.4,
+    "stale_trap": -10,
+    "page_change": -4
+   },
+   "keywords": [],
+   "shock_terms": [],
+   "dedupe_match": null,
+   "dedupe_similarity": 0.0,
+   "id": "6d886d5e3639",
+   "title": "[page changed] Federal Register \u2014 public inspection (HHS/CDC), pre-publication",
+   "url": "https://www.federalregister.gov/api/v1/public-inspection-documents/current.json",
+   "summary": "{\"count\":106,\"results\":[{\"agencies\":[{\"raw_name\":\"SECURITIES AND EXCHANGE COMMISSION\",\"name\":\"Securities and Exchange Commission\",\"id\":466,\"url\":\"https://www.federalregister.gov/agencies/securities-and-exchange-commission\",\"json_url\":\"https://www.federalregister.gov/api/v1/agencies/466\",\"parent_id\":null,\"slug\":\"securities-and-exchange-commission\"}],\"agency_letters\":[],\"agency_names\":[\"Securities a",
+   "kind": "page-change",
+   "source": "Federal Register \u2014 public inspection (HHS/CDC), pre-publication",
+   "source_id": "us-fedreg-pubinspect-hhs",
+   "tier": 1,
+   "country": "REG",
+   "category": "advisory",
+   "segments": [
+    "city",
+    "bush"
+   ],
+   "first_seen": "2026-09-27T01:28+03:00",
+   "published": "2026-09-24",
+   "verdict": "CHECK \u2014 source date older than the window"
+  },
+  {
+   "score": 73.1,
+   "components": {
+    "tier": 20,
+    "category": 5,
+    "lead": 2.4,
+    "relevance": 16,
+    "freshness": 19.7,
+    "corroborated": 10
+   },
+   "keywords": [
+    "airport",
+    "conference",
+    "passenger"
+   ],
+   "shock_terms": [],
+   "dedupe_match": null,
+   "dedupe_similarity": 0.0,
+   "id": "6b938127491f",
+   "title": "Moi International Airport earns three continental honours at ACI Africa Awards",
+   "url": "https://katakenya.org/moi-international-airport-earns-three-continental-honours-at-aci-africa-awards",
+   "summary": "Moi International Airport has earned three runner-up honours at the 2026 Airports Council International Africa Passenger Facilitation and Readiness Excellence Awards, recognising the airport\u2019s performance in governance, stakeholder integration and operational processes. The awards were presented during the ACI Africa Conference Gala Dinner in Abuja, Nigeria, placing Mombasa\u2019s main international ga",
+   "kind": "item",
+   "source": "Kenya Association of Travel Agents news",
+   "source_id": "tp-kata",
+   "tier": 2,
+   "country": "KE",
+   "category": "trade",
+   "segments": [
+    "city",
+    "bush",
+    "beach"
+   ],
+   "first_seen": "2026-09-27T07:12+03:00",
+   "published": "2026-09-27",
+   "verdict": "CONSIDER"
+  },
+  {
+   "score": 73.1,
+   "components": {
+    "tier": 20,
+    "category": 5,
+    "lead": 2.4,
+    "relevance": 16,
+    "freshness": 19.7,
+    "corroborated": 10
+   },
+   "keywords": [
+    "vat",
+    "tourism",
+    "airline"
+   ],
+   "shock_terms": [],
+   "dedupe_match": null,
+   "dedupe_similarity": 0.0,
+   "id": "2402efa462c1",
+   "title": "KATA Coast Takes an Active Role in Mombasa\u2019s UN World Tourism Week Celebrations",
+   "url": "https://katakenya.org/kata-coast-takes-an-active-role-in-mombasas-un-world-tourism-week-celebrations",
+   "summary": "KATA Coast members have taken an active role in the 2026 UN World Tourism Week celebrations in Mombasa, participating in a series of engagements focused on destination promotion, conservation, industry networking and welcoming visitors to the Coast. The week has brought together tourism associations, government, hospitality businesses, airlines, cultural organisations, and other industry stakehold",
+   "kind": "item",
+   "source": "Kenya Association of Travel Agents news",
+   "source_id": "tp-kata",
+   "tier": 2,
+   "country": "KE",
+   "category": "trade",
+   "segments": [
+    "city",
+    "bush",
+    "beach"
+   ],
+   "first_seen": "2026-09-27T07:12+03:00",
+   "published": "2026-09-27",
+   "verdict": "CONSIDER"
+  },
+  {
+   "score": 70.8,
+   "components": {
+    "tier": 40,
+    "category": 32,
+    "lead": 3.6,
+    "relevance": 0,
+    "freshness": 9.2,
+    "stale_trap": -10,
+    "page_change": -4
+   },
+   "keywords": [],
+   "shock_terms": [],
+   "dedupe_match": null,
+   "dedupe_similarity": 0.0,
+   "id": "d9ab12bff5e2",
+   "title": "[page changed] Federal Register \u2014 public inspection (HHS/CDC), pre-publication",
+   "url": "https://www.federalregister.gov/api/v1/public-inspection-documents/current.json",
+   "summary": "{\"count\":106,\"results\":[{\"agencies\":[{\"raw_name\":\"SECURITIES AND EXCHANGE COMMISSION\",\"name\":\"Securities and Exchange Commission\",\"id\":466,\"url\":\"https://www.federalregister.gov/agencies/securities-and-exchange-commission\",\"json_url\":\"https://www.federalregister.gov/api/v1/agencies/466\",\"parent_id\":null,\"slug\":\"securities-and-exchange-commission\"}],\"agency_letters\":[],\"agency_names\":[\"Securities a",
+   "kind": "page-change",
+   "source": "Federal Register \u2014 public inspection (HHS/CDC), pre-publication",
+   "source_id": "us-fedreg-pubinspect-hhs",
+   "tier": 1,
+   "country": "REG",
+   "category": "advisory",
+   "segments": [
+    "city",
+    "bush"
+   ],
+   "first_seen": "2026-09-26T21:39+03:00",
+   "published": "2026-09-24",
+   "verdict": "CHECK \u2014 source date older than the window"
+  },
+  {
+   "score": 69.2,
    "components": {
     "tier": 20,
     "category": 4,
     "lead": 0.0,
     "relevance": 8,
-    "freshness": 15.6,
+    "freshness": 9.2,
     "corroborated": 10,
     "shock": 18
    },
@@ -501,16 +716,232 @@
    ],
    "first_seen": "2026-09-26T21:39+03:00",
    "published": "2026-09-26",
-   "verdict": "CONSIDER"
+   "verdict": "weak"
   },
   {
-   "score": 63.8,
+   "score": 65.1,
+   "components": {
+    "tier": 20,
+    "category": 5,
+    "lead": 2.4,
+    "relevance": 8,
+    "freshness": 19.7,
+    "corroborated": 10
+   },
+   "keywords": [
+    "route"
+   ],
+   "shock_terms": [],
+   "dedupe_match": null,
+   "dedupe_similarity": 0.2,
+   "id": "31817aab40e9",
+   "title": "Emirates to Deploy A350 on Nairobi Route, Bringing Premium Economy to Kenya",
+   "url": "https://katakenya.org/emirates-to-deploy-a350-on-nairobi-route-bringing-premium-economy-to-kenya",
+   "summary": "Emirates is set to introduce its Airbus A350 on the Dubai\u2013Nairobi route from 25 October 2026, bringing its latest-generation aircraft and Premium Economy cabin to Kenya for the first time. The A350 will operate EK717 and EK718, making Nairobi the 32nd destination in the Emirates network to receive the aircraft. The deployment will introduce a [\u2026]",
+   "kind": "item",
+   "source": "Kenya Association of Travel Agents news",
+   "source_id": "tp-kata",
+   "tier": 2,
+   "country": "KE",
+   "category": "trade",
+   "segments": [
+    "city",
+    "bush",
+    "beach"
+   ],
+   "first_seen": "2026-09-27T07:12+03:00",
+   "published": "2026-09-27",
+   "verdict": "weak"
+  },
+  {
+   "score": 63.7,
    "components": {
     "tier": 20,
     "category": 4,
     "lead": 0.0,
     "relevance": 8,
-    "freshness": 19.8,
+    "freshness": 19.7,
+    "undated": -6,
+    "shock": 18
+   },
+   "keywords": [
+    "strike"
+   ],
+   "shock_terms": [
+    "strike"
+   ],
+   "dedupe_match": null,
+   "dedupe_similarity": 0.0,
+   "id": "e225f2eaf793",
+   "title": "National What to do and what not to do when El Ni\u00f1o strikes 20 hours ago - 2 min read",
+   "url": "https://www.thecitizen.co.tz/tanzania/news/national/what-to-do-and-what-not-to-do-when-el-ni%C3%B1o-strikes-5609032",
+   "summary": "",
+   "kind": "item",
+   "source": "The Citizen (Tanzania)",
+   "source_id": "np-citizen-tz",
+   "tier": 2,
+   "country": "TZ",
+   "category": "press",
+   "segments": [
+    "city",
+    "bush",
+    "beach"
+   ],
+   "first_seen": "2026-09-27T07:12+03:00",
+   "published": null,
+   "verdict": "weak"
+  },
+  {
+   "score": 61.1,
+   "components": {
+    "tier": 20,
+    "category": 5,
+    "lead": 2.4,
+    "relevance": 4,
+    "freshness": 19.7,
+    "corroborated": 10
+   },
+   "keywords": [
+    "hotel"
+   ],
+   "shock_terms": [],
+   "dedupe_match": null,
+   "dedupe_similarity": 0.2,
+   "id": "5f63913c77dd",
+   "title": "KATA and Travelport Engage Eastleigh Travel Agents on Compliance, Representation and Technology",
+   "url": "https://katakenya.org/kata-and-travelport-engage-eastleigh-travel-agents-on-compliance-representation-and-technology",
+   "summary": "The Kenya Association of Travel Agents (KATA), in partnership with Travelport, brought together Eastleigh-based travel agents for a breakfast engagement at PrideInn Azure Hotel, Westlands, Nairobi, providing a platform for agents to discuss the realities of running a travel business, the value of industry representation and the need to keep pace with a rapidly changing [\u2026]",
+   "kind": "item",
+   "source": "Kenya Association of Travel Agents news",
+   "source_id": "tp-kata",
+   "tier": 2,
+   "country": "KE",
+   "category": "trade",
+   "segments": [
+    "city",
+    "bush",
+    "beach"
+   ],
+   "first_seen": "2026-09-27T07:12+03:00",
+   "published": "2026-09-27",
+   "verdict": "weak"
+  },
+  {
+   "score": 61.1,
+   "components": {
+    "tier": 20,
+    "category": 5,
+    "lead": 2.4,
+    "relevance": 4,
+    "freshness": 19.7,
+    "corroborated": 10
+   },
+   "keywords": [
+    "hotel"
+   ],
+   "shock_terms": [],
+   "dedupe_match": null,
+   "dedupe_similarity": 0.25,
+   "id": "aba619a811cf",
+   "title": "KKR Completes Sale of Four Points Flex By Sheraton Portfolio In Japan",
+   "url": "https://www.hotelnewsresource.com/article143058.html",
+   "summary": "KKR has completed the sale of its Four Points Flex by Sheraton hotel portfolio in Japan, signaling continued transactional activity involving branded select-service assets and reflecting investor appetite for internationally branded properties in the Japanese market.",
+   "kind": "item",
+   "source": "HVS \u2014 market reports and event-impact studies (via Hotel News Resource)",
+   "source_id": "gl-hvs-market-reports",
+   "tier": 2,
+   "country": "GLOBAL",
+   "category": "trade",
+   "segments": [
+    "city"
+   ],
+   "first_seen": "2026-09-27T07:12+03:00",
+   "published": "2026-09-25",
+   "verdict": "weak"
+  },
+  {
+   "score": 59.7,
+   "components": {
+    "tier": 5,
+    "category": 5,
+    "lead": 0.0,
+    "relevance": 20,
+    "freshness": 19.7,
+    "corroborated": 10
+   },
+   "keywords": [
+    "capacity",
+    "seat",
+    "airline"
+   ],
+   "shock_terms": [],
+   "dedupe_match": null,
+   "dedupe_similarity": 0.25,
+   "id": "4035b6bd0d6a",
+   "title": "Aviation: Africa\u2019s Airline Seat Capacity Rises 8.8% as Intra-African Connectivity Expands",
+   "url": "https://atqnews.com/aviation-africas-airline-seat-capacity-rises-8-8-as-intra-african-connectivity-expands",
+   "summary": "Africa\u2019s aviation market recorded strong capacity growth in August 2026, with airline seat capacity across the continent rising 8.8% year-on-year, according to\u2026 The post Aviation: Africa\u2019s Airline Seat Capacity Rises 8.8% as Intra-African Connectivity Expands appeared first on ATQ News .",
+   "kind": "item",
+   "source": "ATQ News",
+   "source_id": "tp-atqnews",
+   "tier": 3,
+   "country": "REG",
+   "category": "trade",
+   "segments": [
+    "city",
+    "bush",
+    "beach"
+   ],
+   "first_seen": "2026-09-27T07:12+03:00",
+   "published": "2026-09-26",
+   "verdict": "weak"
+  },
+  {
+   "score": 59.7,
+   "components": {
+    "tier": 20,
+    "category": 4,
+    "lead": 0.0,
+    "relevance": 4,
+    "freshness": 19.7,
+    "undated": -6,
+    "shock": 18
+   },
+   "keywords": [
+    "traffic"
+   ],
+   "shock_terms": [
+    "attack"
+   ],
+   "dedupe_match": null,
+   "dedupe_similarity": 0.0,
+   "id": "b1dcf4d84c78",
+   "title": "Technology Digital traffic attacks on Kenyan websites surge 114pc in a year 20 hours ago - 3 min read",
+   "url": "https://www.businessdailyafrica.com/bd/corporate/technology/digital-traffic-attacks-on-kenyan-websites-surge-114pc-5609420",
+   "summary": "",
+   "kind": "item",
+   "source": "Business Daily Africa",
+   "source_id": "np-businessdaily",
+   "tier": 2,
+   "country": "KE",
+   "category": "press",
+   "segments": [
+    "city",
+    "bush",
+    "beach"
+   ],
+   "first_seen": "2026-09-27T07:12+03:00",
+   "published": null,
+   "verdict": "weak"
+  },
+  {
+   "score": 57.4,
+   "components": {
+    "tier": 20,
+    "category": 4,
+    "lead": 0.0,
+    "relevance": 8,
+    "freshness": 13.4,
     "undated": -6,
     "shock": 18
    },
@@ -542,13 +973,84 @@
    "verdict": "weak"
   },
   {
-   "score": 61.8,
+   "score": 56.1,
+   "components": {
+    "tier": 20,
+    "category": 24,
+    "lead": 2.4,
+    "relevance": 0,
+    "freshness": 19.7,
+    "undated": -6,
+    "page_change": -4
+   },
+   "keywords": [],
+   "shock_terms": [],
+   "dedupe_match": null,
+   "dedupe_similarity": 0.0,
+   "id": "5958851f7812",
+   "title": "[page changed] ProMED-mail",
+   "url": "https://promedmail.org/",
+   "summary": "Protecting Global Health, One Alert at a Time | ProMED Previous slide Next slide Protecting Global Health, One Alert at a Time ProMED: Your 24/7 early warning system for emerging infectious diseases worldwide. Subscribe ProMED's Weekly Pulse A snapshot of global health events from the past 7 days Latest Posts on ProMED All Date Title Sun Sep 27 2026 JAPANESE ENCEPHALITIS - NEPAL (11): (SUDURPASHCH",
+   "kind": "page-change",
+   "source": "ProMED-mail",
+   "source_id": "promed",
+   "tier": 2,
+   "country": "GLOBAL",
+   "category": "health",
+   "segments": [
+    "city",
+    "bush",
+    "beach"
+   ],
+   "first_seen": "2026-09-27T07:12+03:00",
+   "published": null,
+   "verdict": "weak"
+  },
+  {
+   "score": 55.7,
+   "components": {
+    "tier": 5,
+    "category": 5,
+    "lead": 0.0,
+    "relevance": 16,
+    "freshness": 19.7,
+    "corroborated": 10
+   },
+   "keywords": [
+    "fuel",
+    "airline",
+    "traffic"
+   ],
+   "shock_terms": [],
+   "dedupe_match": null,
+   "dedupe_similarity": 0.0,
+   "id": "1486896d39bb",
+   "title": "Aviation: Africa\u2019s Air Cargo Traffic Grows 2.8% as Jet Fuel Hits $169.01 Per Barrel",
+   "url": "https://atqnews.com/aviation-africas-air-cargo-traffic-grows-2-8-as-jet-fuel-hits-169-01-per-barrel",
+   "summary": "Africa\u2019s air cargo traffic increased by 2.8% in July 2026 compared with the same period a year earlier, even as airlines continued\u2026 The post Aviation: Africa\u2019s Air Cargo Traffic Grows 2.8% as Jet Fuel Hits $169.01 Per Barrel appeared first on ATQ News .",
+   "kind": "item",
+   "source": "ATQ News",
+   "source_id": "tp-atqnews",
+   "tier": 3,
+   "country": "REG",
+   "category": "trade",
+   "segments": [
+    "city",
+    "bush",
+    "beach"
+   ],
+   "first_seen": "2026-09-27T07:12+03:00",
+   "published": "2026-09-26",
+   "verdict": "weak"
+  },
+  {
+   "score": 55.4,
    "components": {
     "tier": 20,
     "category": 4,
     "lead": 0.0,
     "relevance": 8,
-    "freshness": 19.8,
+    "freshness": 13.4,
     "corroborated": 10
    },
    "keywords": [
@@ -577,13 +1079,13 @@
    "verdict": "weak"
   },
   {
-   "score": 61.6,
+   "score": 55.2,
    "components": {
     "tier": 20,
     "category": 4,
     "lead": 0.0,
     "relevance": 12,
-    "freshness": 15.6,
+    "freshness": 9.2,
     "corroborated": 10
    },
    "keywords": [
@@ -612,639 +1114,221 @@
    "verdict": "weak"
   },
   {
-   "score": 59.8,
-   "components": {
-    "tier": 20,
-    "category": 4,
-    "lead": 0.0,
-    "relevance": 4,
-    "freshness": 19.8,
-    "undated": -6,
-    "shock": 18
-   },
-   "keywords": [
-    "traffic"
-   ],
-   "shock_terms": [
-    "attack"
-   ],
-   "dedupe_match": null,
-   "dedupe_similarity": 0.0,
-   "id": "f4c6e57dc7b9",
-   "title": "Technology Digital traffic attacks on Kenyan websites surge 114pc in a year 14 hours ago - 3 min read",
-   "url": "https://www.businessdailyafrica.com/bd/corporate/technology/digital-traffic-attacks-on-kenyan-websites-surge-114pc-5609420",
-   "summary": "",
-   "kind": "item",
-   "source": "Business Daily Africa",
-   "source_id": "np-businessdaily",
-   "tier": 2,
-   "country": "KE",
-   "category": "press",
-   "segments": [
-    "city",
-    "bush",
-    "beach"
-   ],
-   "first_seen": "2026-09-27T01:28+03:00",
-   "published": null,
-   "verdict": "weak"
-  },
-  {
-   "score": 57.8,
-   "components": {
-    "tier": 20,
-    "category": 4,
-    "lead": 0.0,
-    "relevance": 4,
-    "freshness": 19.8,
-    "corroborated": 10
-   },
-   "keywords": [
-    "investment"
-   ],
-   "shock_terms": [],
-   "dedupe_match": null,
-   "dedupe_similarity": 0.0,
-   "id": "5574a8393d2e",
-   "title": "Africa turns PPR commitment into investment push in Rome",
-   "url": "https://dailynews.co.tz/africa-turns-ppr-commitment-into-investment-push-in-rome",
-   "summary": "DAR ES SALAAM: FOR millions of African families, a sheep or goat is more than livestock. It can be food on the table, income for school expenses, a source of medical care, savings for difficult times and an asset that helps a household withstand economic shocks. That lifeline is now at the centre of a \u2026 The post Africa turns PPR commitment into investment push in Rome appeared first on Daily News ",
-   "kind": "item",
-   "source": "Daily News (Tanzania)",
-   "source_id": "np-dailynews-tz",
-   "tier": 2,
-   "country": "TZ",
-   "category": "press",
-   "segments": [
-    "city",
-    "bush",
-    "beach"
-   ],
-   "first_seen": "2026-09-27T01:28+03:00",
-   "published": "2026-09-26",
-   "verdict": "weak"
-  },
-  {
-   "score": 57.8,
-   "components": {
-    "tier": 20,
-    "category": 4,
-    "lead": 0.0,
-    "relevance": 4,
-    "freshness": 19.8,
-    "corroborated": 10
-   },
-   "keywords": [
-    "tourism"
-   ],
-   "shock_terms": [],
-   "dedupe_match": null,
-   "dedupe_similarity": 0.0,
-   "id": "a79059589cb1",
-   "title": "Sleeping beauty of Bukedi: Why Uganda is squandering Tororo Rock\u2019s tourism millions",
-   "url": "https://www.monitor.co.ug/uganda/lifestyle/travel/sleeping-beauty-of-bukedi-why-uganda-is-squandering-tororo-rock-s-tourism-millions-5610460",
-   "summary": "Visitors attempting the steep ascent via the rock's 400-plus aging concrete steps find no...",
-   "kind": "item",
-   "source": "Daily Monitor (Uganda)",
-   "source_id": "np-monitor-ug",
-   "tier": 2,
-   "country": "UG",
-   "category": "press",
-   "segments": [
-    "city",
-    "bush",
-    "beach"
-   ],
-   "first_seen": "2026-09-27T01:28+03:00",
-   "published": "2026-09-26",
-   "verdict": "weak"
-  },
-  {
-   "score": 57.6,
-   "components": {
-    "tier": 20,
-    "category": 4,
-    "lead": 0.0,
-    "relevance": 8,
-    "freshness": 15.6,
-    "corroborated": 10
-   },
-   "keywords": [
-    "investment",
-    "pipeline"
-   ],
-   "shock_terms": [],
-   "dedupe_match": null,
-   "dedupe_similarity": 0.33,
-   "id": "c748a5bec7fa",
-   "title": "U.S. Unveils Uganda\u2019s Roosevelt Africa Trail as First Trade Over Aid Deal",
-   "url": "https://softpower.ug/u-s-unveils-ugandas-roosevelt-africa-trail-as-first-trade-over-aid-deal",
-   "summary": "The United States has unveiled Uganda\u2019s Roosevelt Africa Trail as the first deal under its new Trade Over Aid framework, placing an indicative $1.2 billion investment pipeline for Uganda before American investors, companies and financing institutions. The announcement was made on September 25 during the Trade Over Aid Deals Showcase at the Lotte New [\u2026] The post U.S. Unveils Uganda\u2019s Roosevelt Afr",
-   "kind": "item",
-   "source": "SoftPower News \u2014 Tourism & Travel (Uganda)",
-   "source_id": "ug-softpower-tourism",
-   "tier": 2,
-   "country": "UG",
-   "category": "press",
-   "segments": [
-    "bush",
-    "city"
-   ],
-   "first_seen": "2026-09-26T21:39+03:00",
-   "published": "2026-09-26",
-   "verdict": "weak"
-  },
-  {
-   "score": 57.6,
-   "components": {
-    "tier": 20,
-    "category": 4,
-    "lead": 0.0,
-    "relevance": 8,
-    "freshness": 15.6,
-    "corroborated": 10
-   },
-   "keywords": [
-    "election"
-   ],
-   "shock_terms": [],
-   "dedupe_match": null,
-   "dedupe_similarity": 0.0,
-   "id": "30868dc0e969",
-   "title": "NUP candidate\u2019s witness claims agent signatures were forged in Bukomansimbi Woman MP election petition",
-   "url": "https://www.monitor.co.ug/uganda/news/national/nup-candidate-s-witness-claims-agent-signatures-were-forged-in-bukomansimbi-woman-mp-election-petition-5610238",
-   "summary": "High Court adjourns Bukomansimbi parliamentary petition to November for final ruling",
-   "kind": "item",
-   "source": "Daily Monitor (Uganda)",
-   "source_id": "np-monitor-ug",
-   "tier": 2,
-   "country": "UG",
-   "category": "press",
-   "segments": [
-    "city",
-    "bush",
-    "beach"
-   ],
-   "first_seen": "2026-09-26T21:39+03:00",
-   "published": "2026-09-26",
-   "verdict": "weak"
-  },
-  {
-   "score": 56.2,
-   "components": {
-    "tier": 20,
-    "category": 24,
-    "lead": 2.4,
-    "relevance": 0,
-    "freshness": 19.8,
-    "undated": -6,
-    "page_change": -4
-   },
-   "keywords": [],
-   "shock_terms": [],
-   "dedupe_match": null,
-   "dedupe_similarity": 0.0,
-   "id": "48e06410a966",
-   "title": "[page changed] ProMED-mail",
-   "url": "https://promedmail.org/",
-   "summary": "Protecting Global Health, One Alert at a Time | ProMED Previous slide Next slide Protecting Global Health, One Alert at a Time ProMED: Your 24/7 early warning system for emerging infectious diseases worldwide. Subscribe ProMED's Weekly Pulse A snapshot of global health events from the past 7 days Latest Posts on ProMED All Date Title Sat Sep 26 2026 VIRUS OYA \u2013 CHINA: (GUANDONG) PRIMERA DOCUMENTAC",
-   "kind": "page-change",
-   "source": "ProMED-mail",
-   "source_id": "promed",
-   "tier": 2,
-   "country": "GLOBAL",
-   "category": "health",
-   "segments": [
-    "city",
-    "bush",
-    "beach"
-   ],
-   "first_seen": "2026-09-27T01:28+03:00",
-   "published": null,
-   "verdict": "weak"
-  },
-  {
-   "score": 55.6,
-   "components": {
-    "tier": 20,
-    "category": 4,
-    "lead": 0.0,
-    "relevance": 4,
-    "freshness": 15.6,
-    "undated": -6,
-    "shock": 18
-   },
-   "keywords": [
-    "traffic"
-   ],
-   "shock_terms": [
-    "attack"
-   ],
-   "dedupe_match": null,
-   "dedupe_similarity": 0.0,
-   "id": "89172a16d8b7",
-   "title": "Technology Digital traffic attacks on Kenyan websites surge 114pc in a year 10 hours ago - 3 min read",
-   "url": "https://www.businessdailyafrica.com/bd/corporate/technology/digital-traffic-attacks-on-kenyan-websites-surge-114pc-5609420",
-   "summary": "",
-   "kind": "item",
-   "source": "Business Daily Africa",
-   "source_id": "np-businessdaily",
-   "tier": 2,
-   "country": "KE",
-   "category": "press",
-   "segments": [
-    "city",
-    "bush",
-    "beach"
-   ],
-   "first_seen": "2026-09-26T21:39+03:00",
-   "published": null,
-   "verdict": "weak"
-  },
-  {
-   "score": 53.8,
+   "score": 53.7,
    "components": {
     "tier": 20,
     "category": 4,
     "lead": 0.0,
     "relevance": 0,
-    "freshness": 19.8,
+    "freshness": 19.7,
     "corroborated": 10
    },
    "keywords": [],
    "shock_terms": [],
    "dedupe_match": null,
    "dedupe_similarity": 0.0,
-   "id": "c26678016fc1",
-   "title": "AFCON 2027 prep: Prime Minister Nabbanja orders waste sorting to end Hoima sanitation crisis",
-   "url": "https://www.monitor.co.ug/uganda/sports/soccer/afcon-2027-prep-prime-minister-nabbanja-orders-waste-sorting-to-end-hoima-sanitation-crisis-5610564",
-   "summary": "Under the proposed regulatory framework, households, commercial entities, and institutions will...",
+   "id": "13e93d52f261",
+   "title": "Why Kenyan farmers are steadily trading wheat for barley",
+   "url": "https://www.theeastafrican.co.ke/tea/business-tech/why-kenyan-farmers-are-steadily-trading-wheat-for-barley-5609786",
+   "summary": "The transition is seamless because both crops (wheat and barley) share identical soil and...",
    "kind": "item",
-   "source": "Daily Monitor (Uganda)",
-   "source_id": "np-monitor-ug",
+   "source": "The EastAfrican",
+   "source_id": "np-eastafrican",
    "tier": 2,
-   "country": "UG",
+   "country": "REG",
    "category": "press",
    "segments": [
     "city",
     "bush",
     "beach"
    ],
-   "first_seen": "2026-09-27T01:28+03:00",
-   "published": "2026-09-26",
+   "first_seen": "2026-09-27T07:12+03:00",
+   "published": "2026-09-27",
    "verdict": "weak"
   },
   {
-   "score": 53.8,
+   "score": 53.7,
    "components": {
     "tier": 20,
     "category": 4,
     "lead": 0.0,
     "relevance": 0,
-    "freshness": 19.8,
-    "corroborated": 10
-   },
-   "keywords": [],
-   "shock_terms": [],
-   "dedupe_match": null,
-   "dedupe_similarity": 0.0,
-   "id": "5f9c7da80995",
-   "title": "Disaster management: Uganda facing Shs90b deficit as shift to early warning gains traction",
-   "url": "https://www.monitor.co.ug/uganda/news/national/disaster-management-uganda-facing-shs90b-deficit-as-shift-to-early-warning-gains-traction-5610490",
-   "summary": "Breakdowns presented by the OPM highlight significant deficits across key operational sectors",
-   "kind": "item",
-   "source": "Daily Monitor (Uganda)",
-   "source_id": "np-monitor-ug",
-   "tier": 2,
-   "country": "UG",
-   "category": "press",
-   "segments": [
-    "city",
-    "bush",
-    "beach"
-   ],
-   "first_seen": "2026-09-27T01:28+03:00",
-   "published": "2026-09-26",
-   "verdict": "weak"
-  },
-  {
-   "score": 52.0,
-   "components": {
-    "tier": 20,
-    "category": 24,
-    "lead": 2.4,
-    "relevance": 0,
-    "freshness": 15.6,
-    "undated": -6,
-    "page_change": -4
-   },
-   "keywords": [],
-   "shock_terms": [],
-   "dedupe_match": null,
-   "dedupe_similarity": 0.0,
-   "id": "7d5b9cdd65c5",
-   "title": "[page changed] ProMED-mail",
-   "url": "https://promedmail.org/",
-   "summary": "Protecting Global Health, One Alert at a Time | ProMED Previous slide Next slide Protecting Global Health, One Alert at a Time ProMED: Your 24/7 early warning system for emerging infectious diseases worldwide. Subscribe ProMED's Weekly Pulse A snapshot of global health events from the past 7 days Latest Posts on ProMED All Date Title Sat Sep 26 2026 ALCOHOL POISONING - INDIA (05): (NAGALAND) FATAL",
-   "kind": "page-change",
-   "source": "ProMED-mail",
-   "source_id": "promed",
-   "tier": 2,
-   "country": "GLOBAL",
-   "category": "health",
-   "segments": [
-    "city",
-    "bush",
-    "beach"
-   ],
-   "first_seen": "2026-09-26T21:39+03:00",
-   "published": null,
-   "verdict": "weak"
-  },
-  {
-   "score": 51.6,
-   "components": {
-    "tier": 20,
-    "category": 4,
-    "lead": 0.0,
-    "relevance": 0,
-    "freshness": 15.6,
-    "undated": -6,
-    "shock": 18
-   },
-   "keywords": [],
-   "shock_terms": [
-    "attack"
-   ],
-   "dedupe_match": null,
-   "dedupe_similarity": 0.0,
-   "id": "641d9cdf4f7a",
-   "title": "News Tooro unveils coronation programme, mock palace attack planned",
-   "url": "https://www.newvision.co.ug/category/news/tooro-unveils-coronation-programme-mock-palac-NV_241347_092026",
-   "summary": "",
-   "kind": "item",
-   "source": "New Vision (Uganda)",
-   "source_id": "np-newvision-ug",
-   "tier": 2,
-   "country": "UG",
-   "category": "press",
-   "segments": [
-    "city",
-    "bush",
-    "beach"
-   ],
-   "first_seen": "2026-09-26T21:39+03:00",
-   "published": null,
-   "verdict": "weak"
-  },
-  {
-   "score": 49.6,
-   "components": {
-    "tier": 20,
-    "category": 4,
-    "lead": 0.0,
-    "relevance": 0,
-    "freshness": 15.6,
+    "freshness": 19.7,
     "corroborated": 10
    },
    "keywords": [],
    "shock_terms": [],
    "dedupe_match": null,
    "dedupe_similarity": 0.2,
-   "id": "4b66c2db6654",
-   "title": "She Cranes Crowned Africa Netball Champions After Beating South Africa",
-   "url": "https://softpower.ug/she-cranes-crowned-africa-netball-champions-after-beating-south-africa",
-   "summary": "Uganda\u2019s She Cranes have won the 2026 Africa Netball Cup after defeating defending champions South Africa 56-53 in the final in Nairobi, Kenya. The victory at the Moi International Sports Centre, Kasarani, on Saturday saw Uganda reclaim the continental title after South Africa had beaten them in the 2025 final in Lilongwe, Malawi. The She [\u2026] The post She Cranes Crowned Africa Netball Champions Af",
+   "id": "f0d83666ceee",
+   "title": "Resolution of Iran tea export impasse rests with Kenya - Iran ambassador",
+   "url": "https://www.theeastafrican.co.ke/tea/business-tech/resolution-of-iran-tea-export-impasse-rests-with-kenya-5609760",
+   "summary": "'Kenya is Iran\u2019s gateway to East Africa, while Iran can be Kenya\u2019s gateway to Central Asia.",
    "kind": "item",
-   "source": "SoftPower News \u2014 Tourism & Travel (Uganda)",
-   "source_id": "ug-softpower-tourism",
+   "source": "The EastAfrican",
+   "source_id": "np-eastafrican",
+   "tier": 2,
+   "country": "REG",
+   "category": "press",
+   "segments": [
+    "city",
+    "bush",
+    "beach"
+   ],
+   "first_seen": "2026-09-27T07:12+03:00",
+   "published": "2026-09-27",
+   "verdict": "weak"
+  },
+  {
+   "score": 53.7,
+   "components": {
+    "tier": 20,
+    "category": 4,
+    "lead": 0.0,
+    "relevance": 0,
+    "freshness": 19.7,
+    "corroborated": 10
+   },
+   "keywords": [],
+   "shock_terms": [],
+   "dedupe_match": null,
+   "dedupe_similarity": 0.0,
+   "id": "13bf8e72d7f3",
+   "title": "Rickman: From football dreams to music, boxing and back again",
+   "url": "https://www.monitor.co.ug/uganda/magazines/life/rickman-from-football-dreams-to-music-boxing-and-back-again-5610566",
+   "summary": "Derrick Ddungu, known as Rickman, has journeyed from football in Sweden to music, boxing and...",
+   "kind": "item",
+   "source": "Daily Monitor (Uganda)",
+   "source_id": "np-monitor-ug",
    "tier": 2,
    "country": "UG",
    "category": "press",
    "segments": [
+    "city",
     "bush",
-    "city"
+    "beach"
    ],
-   "first_seen": "2026-09-26T21:39+03:00",
-   "published": "2026-09-26",
+   "first_seen": "2026-09-27T07:12+03:00",
+   "published": "2026-09-27",
    "verdict": "weak"
   },
   {
-   "score": 49.6,
+   "score": 53.7,
    "components": {
     "tier": 20,
     "category": 4,
     "lead": 0.0,
     "relevance": 0,
-    "freshness": 15.6,
+    "freshness": 19.7,
     "corroborated": 10
    },
    "keywords": [],
    "shock_terms": [],
    "dedupe_match": null,
    "dedupe_similarity": 0.0,
-   "id": "46c726a235cc",
-   "title": "In Rwanda, Umuganda Turns into a National Push for a Sober Generation",
-   "url": "https://www.ktpress.rw/2026/09/in-rwanda-umuganda-turns-into-a-national-push-for-a-sober-generation",
-   "summary": "KIGALI \u2013 As residents of Rusororo sector in Gasabo district spread laterite, opened drainage channels and cleared bushes from a wetland during Saturday\u2019s Umuganda, Kigali City officials used the gathering\u2026 The post In Rwanda, Umuganda Turns into a National Push for a Sober Generation appeared first on KT PRESS .",
+   "id": "488ff6a2d5f3",
+   "title": "Col Sezi Mugasi recounts Uganda\u2019s turbulent military history in new memoir",
+   "url": "https://www.monitor.co.ug/uganda/lifestyle/reviews-profiles/col-sezi-mugasi-recounts-uganda-s-turbulent-military-history-in-new-memoir-5610532",
+   "summary": "Retired Col Sezi Mugasi has documented nearly five decades of service in Uganda\u2019s military in a...",
    "kind": "item",
-   "source": "KT Press (Rwanda)",
-   "source_id": "np-ktpress-rw",
+   "source": "Daily Monitor (Uganda)",
+   "source_id": "np-monitor-ug",
    "tier": 2,
-   "country": "RW",
+   "country": "UG",
    "category": "press",
    "segments": [
     "city",
     "bush",
     "beach"
    ],
-   "first_seen": "2026-09-26T21:39+03:00",
-   "published": "2026-09-26",
+   "first_seen": "2026-09-27T07:12+03:00",
+   "published": "2026-09-27",
    "verdict": "weak"
   },
   {
-   "score": 49.6,
+   "score": 53.7,
    "components": {
     "tier": 20,
     "category": 4,
     "lead": 0.0,
     "relevance": 0,
-    "freshness": 15.6,
+    "freshness": 19.7,
     "corroborated": 10
    },
    "keywords": [],
    "shock_terms": [],
    "dedupe_match": null,
    "dedupe_similarity": 0.0,
-   "id": "2ad2f0950df6",
-   "title": "Shut the door on tainted leaders, make UNGA more meaningful",
-   "url": "https://www.theeastafrican.co.ke/tea/opinion/columnists/shut-the-door-on-tainted-leaders-unga-5609750",
-   "summary": "The UNGA is in danger of becoming a stage for tainted leaders to launder themselves to the...",
+   "id": "cbfac4ac51ad",
+   "title": "Obedience to God brings true freedom",
+   "url": "https://www.monitor.co.ug/uganda/lifestyle/religion/obedience-to-god-brings-true-freedom-5610400",
+   "summary": "In the Gospel of Matthew 21:28-32, Jesus poses a question to the Jewish religious leaders on...",
    "kind": "item",
-   "source": "The EastAfrican",
-   "source_id": "np-eastafrican",
+   "source": "Daily Monitor (Uganda)",
+   "source_id": "np-monitor-ug",
    "tier": 2,
-   "country": "REG",
+   "country": "UG",
    "category": "press",
    "segments": [
     "city",
     "bush",
     "beach"
    ],
-   "first_seen": "2026-09-26T21:39+03:00",
-   "published": "2026-09-26",
+   "first_seen": "2026-09-27T07:12+03:00",
+   "published": "2026-09-27",
    "verdict": "weak"
   },
   {
-   "score": 49.6,
+   "score": 53.7,
    "components": {
     "tier": 20,
     "category": 4,
     "lead": 0.0,
     "relevance": 0,
-    "freshness": 15.6,
+    "freshness": 19.7,
     "corroborated": 10
    },
    "keywords": [],
    "shock_terms": [],
    "dedupe_match": null,
    "dedupe_similarity": 0.0,
-   "id": "9ebeea4b4092",
-   "title": "The emperor\u2019s changing money system shaping us",
-   "url": "https://www.theeastafrican.co.ke/tea/opinion/guest-blogs/the-emperor-s-changing-money-system-shaping-us-5607684",
-   "summary": "Shift from currencies to digital forms is reshaping how value moves, challenging central banks...",
+   "id": "44918e87602c",
+   "title": "Top secret to tender beef stir fry",
+   "url": "https://www.monitor.co.ug/uganda/lifestyle/dining-recipes/top-secret-to-tender-beef-stir-fry-5609548",
+   "summary": "The secret to achieving tender beef in this recipe is a method known as velveting. This...",
    "kind": "item",
-   "source": "The EastAfrican",
-   "source_id": "np-eastafrican",
+   "source": "Daily Monitor (Uganda)",
+   "source_id": "np-monitor-ug",
    "tier": 2,
-   "country": "REG",
+   "country": "UG",
    "category": "press",
    "segments": [
     "city",
     "bush",
     "beach"
    ],
-   "first_seen": "2026-09-26T21:39+03:00",
-   "published": "2026-09-26",
+   "first_seen": "2026-09-27T07:12+03:00",
+   "published": "2026-09-27",
    "verdict": "weak"
   },
   {
-   "score": 49.6,
+   "score": 53.7,
    "components": {
     "tier": 20,
     "category": 4,
     "lead": 0.0,
     "relevance": 0,
-    "freshness": 15.6,
-    "corroborated": 10
-   },
-   "keywords": [],
-   "shock_terms": [],
-   "dedupe_match": null,
-   "dedupe_similarity": 0.25,
-   "id": "890900319596",
-   "title": "\u2018Opportunity for Africa to shape own business, destiny\u2019",
-   "url": "https://www.theeastafrican.co.ke/tea/business-tech/opportunity-for-africa-to-shape-own-business-destiny-5609776",
-   "summary": "Africa is poised to be the most important driver of global business with a $3 trillion market...",
-   "kind": "item",
-   "source": "The EastAfrican",
-   "source_id": "np-eastafrican",
-   "tier": 2,
-   "country": "REG",
-   "category": "press",
-   "segments": [
-    "city",
-    "bush",
-    "beach"
-   ],
-   "first_seen": "2026-09-26T21:39+03:00",
-   "published": "2026-09-26",
-   "verdict": "weak"
-  },
-  {
-   "score": 49.6,
-   "components": {
-    "tier": 20,
-    "category": 4,
-    "lead": 0.0,
-    "relevance": 0,
-    "freshness": 15.6,
-    "corroborated": 10
-   },
-   "keywords": [],
-   "shock_terms": [],
-   "dedupe_match": null,
-   "dedupe_similarity": 0.25,
-   "id": "4d140a6b9ba1",
-   "title": "Uganda\u2019s NSSF declares record 22pc interest",
-   "url": "https://www.theeastafrican.co.ke/tea/business-tech/uganda-s-nssf-declares-record-22pc-interest-5609784",
-   "summary": "This is the highest rate in the fund\u2019s four-decade history.",
-   "kind": "item",
-   "source": "The EastAfrican",
-   "source_id": "np-eastafrican",
-   "tier": 2,
-   "country": "REG",
-   "category": "press",
-   "segments": [
-    "city",
-    "bush",
-    "beach"
-   ],
-   "first_seen": "2026-09-26T21:39+03:00",
-   "published": "2026-09-26",
-   "verdict": "weak"
-  },
-  {
-   "score": 49.6,
-   "components": {
-    "tier": 20,
-    "category": 4,
-    "lead": 0.0,
-    "relevance": 0,
-    "freshness": 15.6,
+    "freshness": 19.7,
     "corroborated": 10
    },
    "keywords": [],
    "shock_terms": [],
    "dedupe_match": null,
    "dedupe_similarity": 0.2,
-   "id": "32aa2e01f99d",
-   "title": "Kenya tops Africa in Russia military recruitment, new report reveals",
-   "url": "https://www.theeastafrican.co.ke/tea/news/east-africa/kenya-tops-africa-in-russia-military-recruitment-5609660",
-   "summary": "Recruiters changed their methods as governments and authorities in several African countries...",
-   "kind": "item",
-   "source": "The EastAfrican",
-   "source_id": "np-eastafrican",
-   "tier": 2,
-   "country": "REG",
-   "category": "press",
-   "segments": [
-    "city",
-    "bush",
-    "beach"
-   ],
-   "first_seen": "2026-09-26T21:39+03:00",
-   "published": "2026-09-26",
-   "verdict": "weak"
-  },
-  {
-   "score": 49.6,
-   "components": {
-    "tier": 20,
-    "category": 4,
-    "lead": 0.0,
-    "relevance": 0,
-    "freshness": 15.6,
-    "corroborated": 10
-   },
-   "keywords": [],
-   "shock_terms": [],
-   "dedupe_match": null,
-   "dedupe_similarity": 0.0,
-   "id": "54c2f1948512",
-   "title": "Tooro succession: Batooro gift Musuuga Shs180m land cruiser for 'standing firm'",
-   "url": "https://www.monitor.co.ug/uganda/news/national/tooro-succession-batooro-gift-musuuga-shs180m-land-cruiser-for-standing-firm--5610366",
-   "summary": "Mr. Kamurasi revealed that King Kaboyo had instructed him to safeguard the \u201creserve glory\u201d of...",
+   "id": "0aaba3e2d904",
+   "title": "Bin Laden\u2019s links to Uganda revealed",
+   "url": "https://www.monitor.co.ug/uganda/magazines/people-power/bin-laden-s-links-to-uganda-revealed-5610606",
+   "summary": "According to Daily Monitor of September 22, 2001, a US Congressional Research Service revealed...",
    "kind": "item",
    "source": "Daily Monitor (Uganda)",
    "source_id": "np-monitor-ug",
@@ -1256,28 +1340,28 @@
     "bush",
     "beach"
    ],
-   "first_seen": "2026-09-26T21:39+03:00",
-   "published": "2026-09-26",
+   "first_seen": "2026-09-27T07:12+03:00",
+   "published": "2026-09-27",
    "verdict": "weak"
   },
   {
-   "score": 49.6,
+   "score": 53.7,
    "components": {
     "tier": 20,
     "category": 4,
     "lead": 0.0,
     "relevance": 0,
-    "freshness": 15.6,
+    "freshness": 19.7,
     "corroborated": 10
    },
    "keywords": [],
    "shock_terms": [],
    "dedupe_match": null,
    "dedupe_similarity": 0.0,
-   "id": "7042b4ea91cd",
-   "title": "Silent killer: Why recurring headaches could be a sign of high blood pressure",
-   "url": "https://www.monitor.co.ug/uganda/news/national/silent-killer-why-recurring-headaches-could-be-a-sign-of-high-blood-pressure-5610286",
-   "summary": "Health experts warn against self-medication as undiagnosed hypertension rises",
+   "id": "5b1c06b98f8a",
+   "title": "Tooro Kingdom after Oyo reign",
+   "url": "https://www.monitor.co.ug/uganda/magazines/people-power/tooro-kingdom-after-oyo-reign-5610602",
+   "summary": "As we say a final farewell to the 31-year reign of King Oyo, his legacy must be maintained and...",
    "kind": "item",
    "source": "Daily Monitor (Uganda)",
    "source_id": "np-monitor-ug",
@@ -1289,78 +1373,8 @@
     "bush",
     "beach"
    ],
-   "first_seen": "2026-09-26T21:39+03:00",
-   "published": "2026-09-26",
-   "verdict": "weak"
-  },
-  {
-   "score": 45.8,
-   "components": {
-    "tier": 20,
-    "category": 4,
-    "lead": 0.0,
-    "relevance": 8,
-    "freshness": 19.8,
-    "undated": -6
-   },
-   "keywords": [
-    "visa"
-   ],
-   "shock_terms": [],
-   "dedupe_match": null,
-   "dedupe_similarity": 0.0,
-   "id": "4b8d0c904f07",
-   "title": "Africa South Africa open to more talks with US after visa dispute 14 hours ago - 2 min read",
-   "url": "https://www.thecitizen.co.tz/tanzania/news/africa/south-africa-open-to-more-talks-with-us-after-visa-dispute-5609882",
-   "summary": "",
-   "kind": "item",
-   "source": "The Citizen (Tanzania)",
-   "source_id": "np-citizen-tz",
-   "tier": 2,
-   "country": "TZ",
-   "category": "press",
-   "segments": [
-    "city",
-    "bush",
-    "beach"
-   ],
-   "first_seen": "2026-09-27T01:28+03:00",
-   "published": null,
-   "verdict": "weak"
-  },
-  {
-   "score": 44.2,
-   "components": {
-    "tier": 20,
-    "category": 4,
-    "lead": 2.4,
-    "relevance": 4,
-    "freshness": 19.8,
-    "undated": -6
-   },
-   "keywords": [
-    "mice"
-   ],
-   "shock_terms": [],
-   "dedupe_match": null,
-   "dedupe_similarity": 0.25,
-   "id": "e7300efb5fb8",
-   "title": "Accor eyes Kenya MICE market to grow hospitality business",
-   "url": "https://capitalfm.africa/accor-eyes-kenya-mice-market-to-grow-hospitality-business",
-   "summary": "",
-   "kind": "item",
-   "source": "Capital FM Kenya \u2014 business desk",
-   "source_id": "ke-capitalfm-business",
-   "tier": 2,
-   "country": "KE",
-   "category": "press",
-   "segments": [
-    "city",
-    "bush",
-    "beach"
-   ],
-   "first_seen": "2026-09-27T01:28+03:00",
-   "published": null,
+   "first_seen": "2026-09-27T07:12+03:00",
+   "published": "2026-09-27",
    "verdict": "weak"
   }
  ]
