@@ -1,31 +1,15 @@
 window.LEDGER = {
- "updated": "2026-09-27 09:55",
+ "updated": "2026-09-27 17:05",
  "stats": {
-  "total": 213,
-  "open": 152,
-  "resolved": 55,
-  "correct": 43,
+  "total": 215,
+  "open": 153,
+  "resolved": 56,
+  "correct": 44,
   "partial": 1,
   "incorrect": 11,
   "accuracy": 79
  },
  "open": [
-  {
-   "id": "P156",
-   "made_date": "2026-09-06",
-   "edition": "Sunday Foresight",
-   "claim": "No East African national tourism board or trade body (KTB, Tanzania Tourist Board, Uganda Tourism Board, RDB, Zanzibar Commission for Tourism, KATO, TATO, AUTO, ZATI, RTTA, East African Tourism Platform) will publish EmpCo-specific member guidance BEFORE the directive's application date of 27 September 2026 — the tighter test on P144's 31 January 2027 window",
-   "resolution_criteria": "Published advisory, circular, webinar notice or guidance document referencing Directive (EU) 2024/825, EmpCo or the EU green-claims rules, issued by any of the named bodies and dated on or before 26 September 2026. Any such publication resolves incorrect",
-   "resolve_by": "2026-09-27",
-   "market": "KE|UG|TZ|RW|ZNZ",
-   "segment": "Bush|Beach|City",
-   "confidence": "Medium",
-   "status": "open",
-   "resolved_date": "",
-   "evidence": "",
-   "source_url": "https://sustainabletravel.org/eu-green-claims-empowering-consumers-directive/",
-   "overdue": false
-  },
   {
    "id": "P027",
    "made_date": "2026-07-28",
@@ -184,6 +168,22 @@ window.LEDGER = {
    "resolved_date": "",
    "evidence": "",
    "source_url": "https://www.afro.who.int/countries/democratic-republic-of-congo",
+   "overdue": false
+  },
+  {
+   "id": "P213",
+   "made_date": "2026-09-27",
+   "edition": "pulse-2026-09-27-evening",
+   "claim": "Tanzania's mandatory inbound travel insurance for foreigners entering Mainland Tanzania WILL take effect on 1 October 2026 as the Ministry of Finance notice states - no postponement or grace period will be announced by the Ministry of Finance, NIC or Immigration before 7 October 2026",
+   "resolution_criteria": "Search MoF, NIC, TIRA, Immigration and Tanzanian press (The Citizen, Daily News) to 7 Oct 2026. Any official postponement, suspension or enforcement grace period announced resolves INCORRECT; reports of enforcement at KIA/JNIA from 1 Oct resolve CORRECT",
+   "resolve_by": "2026-10-07",
+   "market": "TZ",
+   "segment": "Bush|Beach|City",
+   "confidence": "Medium",
+   "status": "open",
+   "resolved_date": "",
+   "evidence": "",
+   "source_url": "https://tatotz.org/tanzania-implement-mandatory-inbound-travel-insurance/",
    "overdue": false
   },
   {
@@ -1435,6 +1435,22 @@ window.LEDGER = {
    "overdue": false
   },
   {
+   "id": "P214",
+   "made_date": "2026-09-27",
+   "edition": "pulse-2026-09-27-evening",
+   "claim": "No official Tanzanian source (MoF, NIC, TIRA, ZIC or Immigration) will clarify before 31 December 2026 whether the GN 256 exemption covers EAC/SADC RESIDENTS or only CITIZENS - Clyde & Co read the definition as residents, press reports say citizens",
+   "resolution_criteria": "Search MoF, NIC, TIRA, ZIC and Immigration notices and FAQs to 31 Dec 2026. Any official text explicitly stating whether expatriate residents of EAC/SADC states are exempt resolves INCORRECT",
+   "resolve_by": "2026-12-31",
+   "market": "TZ|KE",
+   "segment": "Bush|Beach",
+   "confidence": "Medium",
+   "status": "open",
+   "resolved_date": "",
+   "evidence": "",
+   "source_url": "https://www.clydeco.com/en/insights/2026/09/introduction-of-inbound-travel-insurance",
+   "overdue": false
+  },
+  {
    "id": "P006",
    "made_date": "2026-07-25",
    "edition": "Morning Brief",
@@ -2444,6 +2460,22 @@ window.LEDGER = {
   }
  ],
  "resolved": [
+  {
+   "id": "P156",
+   "made_date": "2026-09-06",
+   "edition": "Sunday Foresight",
+   "claim": "No East African national tourism board or trade body (KTB, Tanzania Tourist Board, Uganda Tourism Board, RDB, Zanzibar Commission for Tourism, KATO, TATO, AUTO, ZATI, RTTA, East African Tourism Platform) will publish EmpCo-specific member guidance BEFORE the directive's application date of 27 September 2026 — the tighter test on P144's 31 January 2027 window",
+   "resolution_criteria": "Published advisory, circular, webinar notice or guidance document referencing Directive (EU) 2024/825, EmpCo or the EU green-claims rules, issued by any of the named bodies and dated on or before 26 September 2026. Any such publication resolves incorrect",
+   "resolve_by": "2026-09-27",
+   "market": "KE|UG|TZ|RW|ZNZ",
+   "segment": "Bush|Beach|City",
+   "confidence": "Medium",
+   "status": "correct",
+   "resolved_date": "2026-09-27",
+   "evidence": "Sweep 27 Sep 2026: no EmpCo-specific guidance found from KTB, TTB, UTB, RDB, ZCT, KATO, TATO, AUTO, ZATI, RTTA or EATP dated on or before 26 Sep; guidance that exists came from ATTA (UK-based) and ETC/NECSTouR/GDS-Movement - not named bodies",
+   "source_url": "https://sustainabletravel.org/eu-green-claims-empowering-consumers-directive/",
+   "overdue": false
+  },
   {
    "id": "P002",
    "made_date": "2026-07-25",

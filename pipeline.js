@@ -8,7 +8,7 @@
 // of real bush and beach supply — do not appear in chain pipeline data at all, so treat
 // the country totals as a floor for branded supply, not a count of everything being built.
 window.PIPELINE = {
- updated: "20 August 2026",
+ updated: "27 September 2026",
  benchmarkNote: "W Hospitality Group, Hotel Chain Development Pipelines in Africa 2026 (published 10 March 2026). Africa-wide the pipeline reached a record 123,846 rooms across 675 properties, up 18.6% year on year. Branded chain projects only.",
  markets: [
   { country:"Kenya", flag:"🇰🇪", hotels:35, rooms:6190, avgSize:177, underConstruction:4922, ucPct:79.5,
@@ -33,6 +33,20 @@ window.PIPELINE = {
     source:"W Hospitality Group, Hotel Chain Development Pipelines in Africa 2026 (10 Mar 2026), via ENA / Capital Ethiopia / ATTA", verified:true }
  ],
  projects: [
+  { property:"voco Nairobi Airport Suites", brand:"IHG / voco",
+    country:"Kenya", flag:"🇰🇪", rooms:112, status:"Opened", opening:"September 2026",
+    signed:null,
+    detail:"All-suite hotel off Mombasa Road, 8km from JKIA and walking distance of the Nairobi SGR terminus: 112 one-bedroom, two-bedroom and presidential suites with kitchenettes and in-suite laundry; four meeting spaces totalling 623 m2 (largest 160-180 guests); rooftop pool and dining; complimentary 24-hour airport shuttle. The first voco in Kenya and East Africa.",
+    impact:"Branded all-suite supply aimed squarely at the airport corridor's transit, crew and long-stay project nights. Independent airport-corridor hotels should expect voco's opening rates in Q4 corporate RFPs.",
+    segment:"City", source:"IHG news release, 25 Sep 2026", verified:true, flagged:"watch" },
+
+  { property:"Ngorongoro Explorer Lodge", brand:"Elewana Collection / Explorer",
+    country:"Tanzania", flag:"🇹🇿", rooms:84, status:"Under development", opening:"June 2027",
+    signed:"Announced 4 September 2026",
+    detail:"84 rooms (45 doubles, 29 twins, six family, four accessible) at the highest point of the Ngorongoro Crater's eastern rim, 15 minutes from the crater gate; multimedia room for up to 40. Second property under Elewana's Explorer brand after Serengeti Explorer. Built on the site of a pre-existing property, so the operator says it adds no bed nights to the area.",
+    impact:"A replacement, not an addition, on the rim \u2014 but it lands in the same 2027 season as the andBeyond Crater Lodge rebuild. Rim inventory is being repriced upward in 2027.",
+    segment:"Bush", source:"Elewana announcement via Sleeper, 8 Sep 2026; Travel Daily News, Sep 2026", verified:true },
+
   { property:"andBeyond Ngorongoro Crater Lodge (rebuild)", brand:"andBeyond",
     country:"Tanzania", flag:"🇹🇿", rooms:null, status:"Under construction", opening:"January 2027 (target)",
     signed:"Announced March 2024",
@@ -68,12 +82,12 @@ window.PIPELINE = {
     impact:"First Hilton flag in Uganda. For Kampala city hotels the competitive question is corporate rate integrity — an international flag with a global corporate sales engine changes who wins the multinational and NGO account, more than it changes leisure demand.",
     segment:"City", source:"The Independent (UG)", verified:true },
 
-  { property:"Kampala Marriott Hotel", brand:"Marriott",
-    country:"Uganda", flag:"🇺🇬", rooms:null, status:"Nearing completion", opening:"Expected — date not confirmed",
+  { property:"Kampala Marriott Hotel & Marriott Executive Apartments", brand:"Marriott",
+    country:"Uganda", flag:"🇺🇬", rooms:181, status:"Opened", opening:"27 August 2026",
     signed:null,
-    detail:"Property in Nsambya on Ggaba Road, reported as nearing completion. Described in Ugandan press as government-supported.",
-    impact:"Watch the opening date rather than the announcement. A second international flag arriving in Kampala in the same window as Hilton would concentrate a lot of new branded city supply into a market whose arrivals were down 7.9% year-on-year in Q1 2026.",
-    segment:"City", source:"Pulse Uganda", verified:false },
+    detail:"181 rooms and suites plus 96 serviced apartments on Nsambya Hill, Ggaba Road, Kampala; six restaurants, heated pool, spa. Opened by President Museveni on 27 Aug 2026. Owned by Capital Shoppers founders Ponsiano Ngabirano and family. Debuts both the Marriott Hotels and Marriott Executive Apartments brands in Uganda; Marriott now counts seven Ugandan properties across five brands.",
+    impact:"Now open, alongside the Hilton Kampala project. 96 long-stay apartments compete directly for NGO, oil-and-gas and project-crew stays that Kampala serviced apartments and mid-scale hotels live on.",
+    segment:"City", source:"Marriott International press release, 27 Aug 2026; Pulse Uganda, 27 Aug 2026", verified:true },
 
   { property:"Best Western Premier – Royal Golf View", brand:"Aleph Hospitality / Best Western",
     country:"Rwanda", flag:"🇷🇼", rooms:60, status:"Signed", opening:"July 2027",

@@ -1,5 +1,14 @@
 window.EDITIONS = [
  {
+  "id": "pulse-2026-09-27-evening",
+  "date": "2026-09-27",
+  "dateDisplay": "Sunday, 27 September 2026",
+  "edition": "Evening Wrap",
+  "editionKey": "evening",
+  "summary": "1️⃣ TANZANIA'S US$44 VISITOR INSURANCE STARTS THURSDAY 1 OCTOBER, AND THE ARRIVAL AIRPORT DECIDES WHO SELLS IT",
+  "bodyHtml": "<p><strong>🌆 EVENING WRAP · Sun 27 Sep 2026</strong></p>\n<p><strong>1️⃣ TANZANIA&#x27;S US$44 VISITOR INSURANCE STARTS THURSDAY 1 OCTOBER, AND THE ARRIVAL AIRPORT DECIDES WHO SELLS IT</strong></p>\n<p>A Finance Ministry notice, published by TATO on <strong>26 Sep</strong>, starts GN No. 256 on <strong>1 Oct</strong>. Mainland arrivals buy from <strong>NIC</strong>, Zanzibar arrivals from <strong>ZIC</strong>: <strong>US$44</strong> (~TZS 116,000), <strong>92 days</strong>, multiple entry. No cover, no entry <strong>(Clyde &amp; Co, 16 Sep)</strong>. The selling insurer handles any claim.</p>\n<p><strong>What everyone is missing.</strong> It routes by entry point, not itinerary. It doesn&#x27;t say whether a Kilimanjaro arrival heading on to Zanzibar also owes Zanzibar&#x27;s own US$44. Clyde &amp; Co read the exemption as EAC/SADC <strong>residents</strong>; press say <strong>citizens</strong>. That decides what Nairobi expats pay for a Serengeti weekend.<br><span class=\"tagline\">🏷 Bush, Beach, City | Tanzania, Zanzibar, Kenya | Confirmed (facts) · Inference (the read) | impact:margin</span><br><span class=\"sowhat\">🎯 Before Thursday, tell every 1 Oct+ arrival which insurer applies at their airport. Get the combined-itinerary answer from your ground handler in writing.</span></p>\n<p><strong>2️⃣ UAE LIFTS EBOLA ENTRY CURBS ON UGANDANS; CANADA&#x27;S EXPIRE AT 23:59 EDT MONDAY UNLESS RENEWED</strong></p>\n<p>On <strong>26 Sep</strong> the UAE&#x27;s NCEMA eased its June measures on Ugandans; DRC and South Sudan stay restricted <strong>(New Vision; The National, 26 Sep)</strong>. Canada&#x27;s 21-day quarantine for anyone recently in Uganda runs to <strong>28 Sep 23:59 EDT</strong>, with no renewal posted when read today <strong>(canada.ca)</strong>. The US order runs to <strong>11 Oct</strong>.<br><span class=\"tagline\">🏷 City, Bush | Uganda | Confirmed | impact:demand</span><br><span class=\"sowhat\">🎯 Kampala hotels: re-pitch Gulf-routed corporate business now. Promise Canadian guests nothing until Ottawa publishes.</span></p>\n<p><strong>3️⃣ ACCOR PITCHES NAIROBI&#x27;S MEETINGS TRADE A DAY AFTER IHG OPENS 112 AIRPORT SUITES</strong></p>\n<p>Accor Kenya&#x27;s Simon Hudson says its <strong>nine</strong> hotels (<strong>1,400+ rooms</strong>) are chasing MICE <strong>(Capital FM, 26 Sep)</strong>. IHG&#x27;s <strong>voco Nairobi Airport Suites</strong> opened with <strong>112 suites</strong>, kitchenettes and <strong>623 m²</strong> of meeting space <strong>(IHG, 25 Sep)</strong>.<br><strong>The read.</strong> All-suite supply targets the corridor&#x27;s transit, crew and project nights, the independents&#x27; core.<br><span class=\"tagline\">🏷 City | Kenya | Confirmed (facts) · Inference (the read) | impact:watch</span><br><span class=\"sowhat\">🎯 Corridor hotels: renew Q4 crew and corporate contracts before voco&#x27;s opening rates reach RFPs.</span></p>\n<p><strong>🏗 DEAL FLOW</strong><br>🇰🇪 <strong>voco Nairobi Airport Suites</strong> opens, IHG&#x27;s first voco in East Africa <strong>(IHG, 25 Sep)</strong>.<br>🇹🇿 <strong>Elewana Ngorongoro Explorer</strong>: 84 rooms, crater rim, June 2027, on an existing lodge site <strong>(via Sleeper, 8 Sep)</strong>.<br>🇰🇪 <strong>Hemingways</strong> completes River Camp Mara refresh, 8 tents, Mara North <strong>(9 Sep)</strong>.</p>\n<p><strong>⏳ CATCHING UP</strong><br>🇺🇬 <strong>Kampala Marriott</strong> opened <strong>27 Aug</strong>: 181 rooms plus 96 apartments <strong>(Marriott)</strong>.<br>🇰🇪 <strong>Aleph</strong> names <strong>Rob Kucera</strong> RVP East &amp; South Africa, Nairobi-based <strong>(Aleph, 17 Aug)</strong>.<br>✈️ <strong>Kenya Airways</strong> moves reservations, ticketing and check-in to <strong>Sabre</strong> <strong>(Sabre, 22 Sep)</strong>.</p>\n<p><strong>📻 ALSO TONIGHT</strong><br>🇰🇪 KTB&#x27;s northern push targets <strong>7.6m</strong> domestic tourists by FY2027-28, from 5.1m <strong>(KATA, 27 Sep)</strong>.<br>🇰🇪 IRA: local reinsurance first, Kenya Re cession <strong>25%</strong> <strong>(Business Daily, 27 Sep)</strong>. Property renewals may tighten.<br>💱 August vs US$: KES <strong>−0.1%</strong>, TZS <strong>−0.3%</strong>, UGX <strong>−0.7%</strong> <strong>(Uganda MoF via New Vision, 26 Sep)</strong>.<br>🛡 Sweep <strong>46/46</strong>: no advisory level change on our five markets.</p>\n<p><strong>🔍 BLIND SPOTS.</strong> Kenya Gazette No. 171 (25 Sep) unread (empty page); Zanzibar MoH not read directly; MoF notice read via TATO&#x27;s text, not the scan.</p>\n<p>🔗 This edition on the web: <a href=\"https://eahospitalitypulse.com/editions/pulse-2026-09-27-evening.html\" rel=\"noopener\">eahospitalitypulse.com/editions/pulse-2026-09-27-evenin…</a></p>"
+ },
+ {
   "id": "pulse-2026-09-26-evening",
   "date": "2026-09-26",
   "dateDisplay": "Saturday, 26 September 2026",
@@ -1027,6 +1036,66 @@ window.EDITIONS = [
  }
 ];
 window.INSIGHTS = [
+ {
+  "headline": "TANZANIA'S US$44 VISITOR INSURANCE STARTS THURSDAY 1 OCTOBER, AND THE ARRIVAL AIRPORT DECIDES WHO SELLS IT",
+  "body": "A Finance Ministry notice, published by TATO on **26 Sep**, starts GN No. 256 on **1 Oct**. Mainland arrivals buy from **NIC**, Zanzibar arrivals from **ZIC**: **US$44** (~TZS 116,000), **92 days**, multiple entry. No cover, no entry *(Clyde & Co, 16 Sep)*. The selling insurer handles any claim. **What everyone is missing.** It routes by entry point, not itinerary. It doesn't say whether a Kilimanjaro arrival heading on to Zanzibar also owes Zanzibar's own US$44. Clyde & Co read the exemption as EAC/SADC *residents*; press say *citizens*. That decides what Nairobi expats pay for a Serengeti weekend.",
+  "sowhat": "",
+  "segments": [
+   "city",
+   "bush",
+   "beach"
+  ],
+  "countries": "Tanzania, Zanzibar, Kenya",
+  "confidence": "Confirmed (facts) · Inference (the read)",
+  "impact": "-margin",
+  "impactClass": "margin",
+  "intensity": 3,
+  "impactSet": "author",
+  "source": "pulse-2026-09-27-evening",
+  "date": "2026-09-27",
+  "dateDisplay": "Sunday, 27 September 2026",
+  "edition": "Evening Wrap",
+  "editionKey": "evening"
+ },
+ {
+  "headline": "UAE LIFTS EBOLA ENTRY CURBS ON UGANDANS; CANADA'S EXPIRE AT 23:59 EDT MONDAY UNLESS RENEWED",
+  "body": "On **26 Sep** the UAE's NCEMA eased its June measures on Ugandans; DRC and South Sudan stay restricted *(New Vision; The National, 26 Sep)*. Canada's 21-day quarantine for anyone recently in Uganda runs to **28 Sep 23:59 EDT**, with no renewal posted when read today *(canada.ca)*. The US order runs to **11 Oct**.",
+  "sowhat": "",
+  "segments": [
+   "city",
+   "bush"
+  ],
+  "countries": "Uganda",
+  "confidence": "Confirmed",
+  "impact": "+demand",
+  "impactClass": "demand",
+  "intensity": 3,
+  "impactSet": "author",
+  "source": "pulse-2026-09-27-evening",
+  "date": "2026-09-27",
+  "dateDisplay": "Sunday, 27 September 2026",
+  "edition": "Evening Wrap",
+  "editionKey": "evening"
+ },
+ {
+  "headline": "ACCOR PITCHES NAIROBI'S MEETINGS TRADE A DAY AFTER IHG OPENS 112 AIRPORT SUITES",
+  "body": "Accor Kenya's Simon Hudson says its **nine** hotels (**1,400+ rooms**) are chasing MICE *(Capital FM, 26 Sep)*. IHG's **voco Nairobi Airport Suites** opened with **112 suites**, kitchenettes and **623 m²** of meeting space *(IHG, 25 Sep)*. **The read.** All-suite supply targets the corridor's transit, crew and project nights, the independents' core.",
+  "sowhat": "",
+  "segments": [
+   "city"
+  ],
+  "countries": "Kenya",
+  "confidence": "Confirmed (facts) · Inference (the read)",
+  "impact": "watch",
+  "impactClass": "watch",
+  "intensity": 3,
+  "impactSet": "author",
+  "source": "pulse-2026-09-27-evening",
+  "date": "2026-09-27",
+  "dateDisplay": "Sunday, 27 September 2026",
+  "edition": "Evening Wrap",
+  "editionKey": "evening"
+ },
  {
   "headline": "ETHIOPIA'S HERITAGE NORTH IS NOW OFF-LIMITS. ADDIS AND BOLE ARE NOT",
   "body": "Tigrayan forces took Mekelle, Axum and Shire airports on **23 Sep**; Ethiopian suspended all three *(The Reporter, 23 Sep)* and reportedly Lalibela on **24 Sep**. On **25 Sep** the US Embassy told citizens not to travel to Amhara (incl. Lalibela), Tigray or Afar *\"for any reason\"* *(via Kenyans.co.ke, 26 Sep)*. The FCDO widened its Afar no-go zone on **24 Sep**; Tigray and Amhara were already all-travel *(gov.uk, read 26 Sep)*. **What everyone is missing.** No notice touches Addis or Bole; FCDO carves out the capital's corridors. The exposure is the itinerary: any Lalibela or Axum leg paired with a safari is unsellable, and its nights need a home.",
@@ -5529,4 +5598,4 @@ window.INSIGHTS = [
   "editionKey": "evening"
  }
 ];
-window.BUILT_AT = "2026-09-27 09:54";
+window.BUILT_AT = "2026-09-27 17:05";
