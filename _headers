@@ -1,6 +1,24 @@
+# Honoured by Cloudflare Pages (GitHub Pages ignores this file).
+# HTML revalidates on every visit so a new edition shows at once; the edge
+# still serves it from the nearest East African POP.
+/*
+  X-Content-Type-Options: nosniff
 /
-  Cache-Control: no-cache
+  Cache-Control: public, max-age=0, must-revalidate
 /index.html
-  Cache-Control: no-cache
+  Cache-Control: public, max-age=0, must-revalidate
 /editions/*
-  Cache-Control: no-cache
+  Cache-Control: public, max-age=0, must-revalidate
+# Data scripts: the homepage requests them with ?v=<build>, so a short
+# browser cache plus stale-while-revalidate is safe everywhere.
+/*.js
+  Cache-Control: public, max-age=300, stale-while-revalidate=86400
+# Photographs and share cards change filename when they change.
+/img/*
+  Cache-Control: public, max-age=2592000, stale-while-revalidate=604800
+/og/*
+  Cache-Control: public, max-age=86400, stale-while-revalidate=604800
+/favicon.png
+  Cache-Control: public, max-age=2592000
+/apple-touch-icon.png
+  Cache-Control: public, max-age=2592000
