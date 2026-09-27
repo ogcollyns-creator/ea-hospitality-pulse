@@ -1,5 +1,14 @@
 window.GUIDES = [
  {
+  "slug": "uganda-ebola-allclear-restriction-queue",
+  "title": "Uganda's Ebola all-clear was not an event. It was a queue, and Friday was the first name off it.",
+  "description": "The World Health Organization closed Uganda's outbreak on 26 August. The United Arab Emirates lifted its entry curbs on 26 September. Washington's suspension order was renewed on 11 September and still lists a country with no cases. For East African operators the lesson is that clearance is not declared, it is negotiated, one government at a time.",
+  "category": "Big Read",
+  "updated": "2026-09-27",
+  "readMins": 8,
+  "image": "img/editions/pulse-2026-08-26-evening.jpg"
+ },
+ {
   "slug": "agentic-booking-east-africa-lodges",
   "title": "The AI agent will book your room. It will still buy it from an OTA.",
   "description": "Expedia announced this week that it was joining Meta's new travel agent. Its shares closed down almost 8 per cent the next day, and Booking, Airbnb and TripAdvisor fell with it. The market understood something East African operators should: in the agent era the commission does not disappear, only the shopfront does.",
