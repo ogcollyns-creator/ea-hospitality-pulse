@@ -1054,9 +1054,13 @@ def edition_page(e, siblings=None, prev=None, nxt=None, hero=None, credit=None):
     hero_cls = " graphic" if _hk in ("data-card", "illustration") else ""
     # Clean, word-boundary headline (<=110 chars — Google's NewsArticle limit).
     headline = _SENT_SPLIT.split(lead, 1)[0].strip() or lead
+    # The visible H1 carries the whole sentence: a clipped "...in…" headline is
+    # the one thing an answer engine cannot quote. Only the JSON-LD field keeps
+    # the 110-character cap.
+    h1full = headline
     if len(headline) > 110:
         headline = headline[:110].rsplit(" ", 1)[0] + "…"
-    h1text = headline if headline.endswith(("…", ".", "?", "!")) else headline + "."
+    h1text = h1full if h1full.endswith(("…", ".", "?", "!")) else h1full + "."
     standfirst, body_html = lead_furniture(e["bodyHtml"])
     desc = serp_description(standfirst, body_html, lead)
     _plain = re.sub(r"<[^>]+>", " ", body_html)
@@ -2258,7 +2262,7 @@ def main():
     try:
         arc = open(arc_path, encoding="utf-8").read()
         arc = re.sub(r"<!--ARCHIVE_LD-->.*?<!--/ARCHIVE_LD-->\n?", "", arc, flags=re.S)
-        _recent = editions[:60]
+        _recent = editions  # all of them: a truncated ItemList read as a partial archive
         arc_ld = {
             "@context": "https://schema.org", "@type": "CollectionPage",
             "@id": BASE + "/archive", "url": BASE + "/archive",
@@ -2497,7 +2501,8 @@ def main():
         print("ledger build skipped:", e)
 
     # Keep derived artefacts in step with the site build.
-    for _step in ("build_search_index.py", "build_feeds.py", "build_costs_history.py", "build_api.py"):
+    for _step in ("build_search_index.py", "build_feeds.py", "build_costs_history.py", "build_api.py",
+                  "build_directory.py"):
         _p = os.path.join(HERE, _step)
         if os.path.exists(_p):
             _r = subprocess.run([sys.executable, _p], capture_output=True, text=True)
