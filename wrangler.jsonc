@@ -1,0 +1,13 @@
+// Cloudflare Workers Builds runs `npx wrangler deploy` on every push to main.
+// There is no server code: the Worker serves the already-built site in the repo
+// root as static assets (the GitHub Action still builds every edition).
+// _headers sets caching; .assetsignore keeps scripts and sources off the web.
+{
+  "name": "ea-hospitality-pulse",
+  "compatibility_date": "2025-09-01",
+  "assets": {
+    "directory": "./",
+    "html_handling": "auto-trailing-slash",
+    "not_found_handling": "404-page"
+  }
+}
