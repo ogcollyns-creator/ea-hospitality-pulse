@@ -161,8 +161,10 @@ def build(slot, today):
         else:
             out["C"].append((e, st.get("last_swept_date") or "never"))
 
-    # Tier C rotates on a 3-day cycle; the morning run carries it.
-    if slot == "morning":
+    # Tier C rotates on a 3-day cycle. The Evening Wrap carries it since the
+    # morning and midday news runs were retired on 27 Sep 2026; with the old
+    # morning-only rule, Tier C was never swept at all.
+    if slot in ("morning", "evening"):
         out["C"].sort(key=lambda x: (x[1] == "never" and "0" or x[1]))
         idx = today.toordinal() % 3
         out["C"] = [c for i, c in enumerate(out["C"]) if i % 3 == idx]
