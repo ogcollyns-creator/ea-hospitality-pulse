@@ -32,7 +32,7 @@ France's Kenya security page, updated **25 Sep**, re-dated its zone map and now 
 **🔍 BLIND SPOTS.** Kenya Gazette No. 171 (25 Sep) unread; CBK 25 Sep bulletin not found; nothing new from Zanzibar MoH.
 
 🔗 This edition on the web: https://eahospitalitypulse.com/editions/pulse-2026-09-26-evening.html
-💼 Tonight's Big Read: https://www.linkedin.com/company/ea-hospitality-pulse/
+💼 Tonight's Big Read: https://eahospitalitypulse.com/guides/ethiopia-north-dark-east-africa-exposure
 
 ## WHATSAPP
 
@@ -89,7 +89,7 @@ We track this daily at EA Hospitality Pulse.
 ### FIRST COMMENT
 
 📖 This edition in full: https://eahospitalitypulse.com/editions/pulse-2026-09-26-evening.html
-💼 The full Big Read: https://www.linkedin.com/company/ea-hospitality-pulse/ (web version pending editor review)
+💼 The full Big Read: https://eahospitalitypulse.com/guides/ethiopia-north-dark-east-africa-exposure
 📣 Daily briefs on Telegram: https://t.me/eahospitalitypulse
 💬 The 15-second version on WhatsApp: https://whatsapp.com/channel/0029VbCjul2KmCPTv8Qrh73b
 🗂 Archive, live travel advisory board and rate index: https://eahospitalitypulse.com/
