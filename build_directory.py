@@ -272,6 +272,76 @@ def replace_block(text, tag, block, anchor=None, before=True):
     return text
 
 
+# ------------------------------------------------------------------ page speed
+# 27 Sep 2026: the homepage pulled 14 data scripts through document.write with a
+# ?t=Date.now() cache-buster. That made every visit re-download ~1.4 MB (data.js
+# alone was 770 KB because it carries the full text of every edition), hid the
+# scripts from the browser's preload scanner so they downloaded one after another,
+# and blocked rendering on phones on East African mobile networks. This step:
+#   - replaces the loaders with plain <script src="x.js?v=BUILD"> tags (parallel,
+#     cacheable until the next build);
+#   - serves the homepage a slim data-lite.js (no edition bodies, compact JSON)
+#     and lazy-loads data-bodies.js only when a reader opens or searches an
+#     edition (or when the browser is idle). data.js stays complete for the
+#     Python tools that read it.
+LOADER_RE = re.compile(r"<script>document\.write\('<scr'\+'ipt src=\"([\w.-]+\.js)\?t='\+Date\.now\(\)\+'\"></scr'\+'ipt>'\);</script>")
+VERSIONED_RE = re.compile(r'<script src="([\w.-]+\.js)\?v=\d+"></script>')
+
+
+def optimize_pages():
+    stamp = datetime.datetime.utcnow().strftime("%Y%m%d%H%M")
+    dpath = os.path.join(HERE, "data.js")
+    try:
+        d = open(dpath, encoding="utf-8").read()
+        eds = json.loads(re.search(r"window\.EDITIONS = (\[.*?\n\]);\n", d, re.S).group(1))
+        m = re.search(r"window\.INSIGHTS = (\[.*?\n\]);\n", d, re.S)
+        ins = json.loads(m.group(1)) if m else []
+        b = re.search(r"window\.BUILT_AT = (\"[^\"]*\");", d)
+        built = b.group(1) if b else '""'
+    except Exception as ex:
+        print("page speed: data.js unreadable, skipped:", ex)
+        return
+    lite = [{k: v for k, v in e.items() if k != "bodyHtml"} for e in eds]
+    sep = (",", ":")
+    open(os.path.join(HERE, "data-lite.js"), "w", encoding="utf-8").write(
+        "window.EDITIONS=" + json.dumps(lite, ensure_ascii=False, separators=sep) + ";\n"
+        "window.INSIGHTS=" + json.dumps(ins, ensure_ascii=False, separators=sep) + ";\n"
+        "window.BUILT_AT=" + built + ";\n")
+    open(os.path.join(HERE, "data-bodies.js"), "w", encoding="utf-8").write(
+        "window.EDITION_BODIES=" + json.dumps({e["id"]: e.get("bodyHtml", "") for e in eds},
+                                              ensure_ascii=False, separators=sep) + ";\n")
+    lazy = ("<script>window.__ensureBodies=(function(){var st=0,q=[];return function(cb){"
+            "if(st===2){if(cb)cb();return}if(cb)q.push(cb);if(st)return;st=1;"
+            "var s=document.createElement('script');s.src='data-bodies.js?v=" + stamp + "';"
+            "s.onload=function(){var B=window.EDITION_BODIES||{};(window.EDITIONS||[]).forEach(function(e){if(B[e.id])e.bodyHtml=B[e.id]});"
+            "st=2;q.splice(0).forEach(function(f){try{f()}catch(x){}})};s.onerror=function(){st=0};document.head.appendChild(s)}})();"
+            "window.addEventListener('load',function(){setTimeout(function(){window.__ensureBodies()},4000)});</script>")
+    for name in ("index.html", "big-reads.html"):
+        p = os.path.join(HERE, name)
+        if not os.path.exists(p):
+            continue
+        t = open(p, encoding="utf-8").read()
+        t = LOADER_RE.sub(lambda m: f'<script src="{m.group(1)}?v={stamp}"></script>', t)
+        t = VERSIONED_RE.sub(lambda m: f'<script src="{m.group(1)}?v={stamp}"></script>', t)
+        if name == "index.html":
+            t = t.replace('<script src="data.js?v=' + stamp + '"></script>',
+                          '<script src="data-lite.js?v=' + stamp + '"></script>')
+            t = replace_block(t, "LAZY", lazy, anchor='<script src="data-lite.js?v=' + stamp + '"></script>', before=False)
+            t = t.replace("matchQ(e.summary+' '+e.bodyHtml+' '+", "matchQ(e.summary+' '+(e.bodyHtml||'')+' '+")
+            t = t.replace("document.getElementById('r-body').innerHTML=e.bodyHtml;",
+                          "document.getElementById('r-body').innerHTML=e.bodyHtml||'<p>Loading…</p>';"
+                          "if(!e.bodyHtml&&window.__ensureBodies)window.__ensureBodies(function(){document.getElementById('r-body').innerHTML=e.bodyHtml||'';});")
+            t = t.replace("  search.oninput=()=>{ shown=PAGE; render(); };\n",
+                          "  search.oninput=()=>{ shown=PAGE; render(); if(window.__ensureBodies)window.__ensureBodies(()=>{ if(search.value) render(); }); };\n", 1) \
+                if "window.__ensureBodies(()=>{ if(search.value)" not in t else t
+            t = t.replace('<img class="hero" src="img/editions/', '<img class="hero" fetchpriority="high" decoding="async" src="img/editions/', 1) \
+                if 'fetchpriority="high" decoding="async" src="img/editions/' not in t else t
+        open(p, "w", encoding="utf-8").write(t)
+    kb = lambda f: round(os.path.getsize(os.path.join(HERE, f)) / 1024)
+    print(f"page speed: data.js {kb('data.js')} KB -> data-lite.js {kb('data-lite.js')} KB on first load "
+          f"(bodies {kb('data-bodies.js')} KB lazy); loaders versioned v={stamp}")
+
+
 def main():
     docs = load_docs()
     os.makedirs(os.path.join(HERE, "topics"), exist_ok=True)
@@ -410,6 +480,8 @@ def main():
         open(os.path.join(HERE, key + ".txt"), "w").write(key)
 
     print(f"directory: {len(docs)} docs indexed, {len(hubs)} hubs, {len(news)} in news sitemap")
+
+    optimize_pages()
 
     # The build workflow commits an explicit file list that predates these outputs
     # and omits archive.html, big-reads.html, feeds/, llms.txt, robots.txt,
