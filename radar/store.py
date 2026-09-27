@@ -143,7 +143,11 @@ def due_sources(db, now=None, force=False, only=None, slot=None):
     if only:
         q += " AND id IN (%s)" % ",".join("?" * len(only))
         args += list(only)
-    if slot:
+    # Since 27 Sep 2026 the Evening Wrap is the only daily news edition (the
+    # morning run is the Big Read, midday was retired). A source tagged only
+    # "morning" or "midday" would never be scanned before it, which is how the
+    # gazettes, central banks, CAAs and every airline went dark. Evening = all.
+    if slot and slot != "evening":
         q += " AND slots LIKE ?"
         args.append("%%\"%s\"%%" % slot)
     # Tier 1 first, then whatever has waited longest.
