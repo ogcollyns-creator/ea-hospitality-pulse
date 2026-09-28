@@ -1,77 +1,3446 @@
-observed_date	market	property	rate_usd	stay_date	los	source	note	basis	rate_type	channel
-2026-09-28	dar_arusha	Blackwood Boutique Hotel	110.5	2026-10-28	2	https://www.booking.com/searchresults.en-gb.html?ss=Dar+es+Salaam&ssne=Dar+es+Salaam&ssne_untouched=Dar+es+Salaam&highlighted_hotels=6723090&efdco=1&label=blackwood-boutique-and-apartments-vmvVmtl2d6MYqjNzHPpfeQS590022184769%3Apl%3Ata%3Ap1%3Ap2%3Aac%3Aap%3Aneg%3Afi%3Atikwd-1655146872215%3Alp9076846%3Ali%3Adec%3Adm%3Appccp%3DUmFuZG9tSVYkc2RlIyh9YTQUGSsRwx9_3qo3uPTHyoo&sid=c050741c3db477bac190250402b40975&aid=311984&lang=en-gb&sb=1&src_elem=sb&src=searchresults&dest_id=-2562166&dest_type=city&checkin=2026-10-28&checkout=2026-10-30&group_adults=2&no_rooms=1&group_children=0	[rate halved — engine showed 2-night total]	BB	promotional	direct
-2026-09-28	dar_arusha	Dar es Salaam Serena Hotel	194	2026-10-28	2		[rate halved — engine showed 2-night total]	BB	promotional	direct
-2026-09-28	dar_arusha	Gran Melia Arusha	375	2026-10-28	2		[rate halved — engine showed 2-night total]	BB	international	direct
-2026-09-28	dar_arusha	Hyatt Regency Dar es Salaam	428.85	2026-10-28	2			BB	international	direct
-2026-09-28	dar_arusha	Johari Rotana	254.52	2026-10-28	2		[rate halved — engine showed 2-night total]	BB	international	direct
-2026-09-28	dar_arusha	Protea Hotel Dar es Salaam Courtyard	289.68	2026-10-28	2			BB	promotional	direct
-2026-09-28	dar_arusha	Sea Cliff Hotel	227	2026-10-28	2		[rate halved — engine showed 2-night total]	BB	international	direct
-2026-09-28	kampala	Four Points by Sheraton Kampala	235.94	2026-10-28	2		[rate halved — engine showed 2-night total]	BB	international	direct
-2026-09-28	kampala	Hilton Garden Inn Kampala	179.65	2026-10-28	2		[rate halved — engine showed 2-night total]	BB	international	direct
-2026-09-28	kampala	Hotel Africana	120	2026-10-28	2		[rate halved — engine showed 2-night total]	BB	international	direct
-2026-09-28	kampala	Kabira Country Club	140	2026-10-28	2		[rate halved — engine showed 2-night total]	BB	international	direct
-2026-09-28	kampala	Kampala Serena	256.5	2026-10-28	2		[rate halved — engine showed 2-night total]	BB	international	direct
-2026-09-28	kampala	Latitude 0 Degrees	176	2026-10-28	2		[rate halved — engine showed 2-night total]	BB	international	direct
-2026-09-28	kampala	Mestil Hotel & Residences	182	2026-10-28	2		[rate halved — engine showed 2-night total]	BB	international	direct
-2026-09-28	kampala	Pearl of Africa Hotel	250	2026-10-28	2		[rate halved — engine showed 2-night total]	BB	international	direct
-2026-09-28	kampala	Sheraton Kampala	250.98	2026-10-28	2		[rate halved — engine showed 2-night total]	BB	international	direct
-2026-09-28	kampala	Speke Resort Munyonyo	182	2026-10-28	2		[rate halved — engine showed 2-night total]	BB	international	direct
-2026-09-28	kigali	2000 Hotel Downtown Kigali	110	2026-10-28	2		[rate halved — engine showed 2-night total]	BB	international	direct
-2026-09-28	kigali	Heaven Boutique Hotel	104.5	2026-10-28	2		[rate halved — engine showed 2-night total]	BB	international	direct
-2026-09-28	kigali	Hotel Des Mille Collines	174.5	2026-10-28	2		[rate halved — engine showed 2-night total]	BB	international	direct
-2026-09-28	kigali	Kigali Marriott	313.81	2026-10-28	2		[rate halved — engine showed 2-night total]	BB	international	direct
-2026-09-28	kigali	Kigali Serena	200	2026-10-28	2		[rate halved — engine showed 2-night total]	BB	international	direct
-2026-09-28	kigali	Onomo Hotel Kigali	198.14	2026-10-28	2			BB	international	direct
-2026-09-28	kigali	Park Inn by Radisson Kigali	148.74	2026-10-28	2		[rate halved — engine showed 2-night total]	BB	international	direct
-2026-09-28	kigali	The Retreat by Heaven	1800	2026-10-28	2		[rate halved — engine showed 2-night total]	BB	international	direct
-2026-09-28	kigali	Ubumwe Grande	240	2026-10-28	2		[rate halved — engine showed 2-night total]	BB	international	direct
-2026-09-28	nairobi	Best Western Plus Westlands	118	2026-10-28	2		[rate halved — engine showed 2-night total]	BB	international	direct
-2026-09-28	nairobi	Crowne Plaza Nairobi Airport	242.3	2026-10-28	2		[rate halved — engine showed 2-night total]	BB	international	direct
-2026-09-28	nairobi	Fairview Hotel Nairobi	219.72	2026-10-28	2		[rate halved — engine showed 2-night total]	BB	international	direct
-2026-09-28	nairobi	Four Points by Sheraton Nairobi	285	2026-10-28	2		[rate halved — engine showed 2-night total]	BB	international	direct
-2026-09-28	nairobi	Hemingways Nairobi	1250	2026-10-28	2		[rate halved — engine showed 2-night total]	BB	international	direct
-2026-09-28	nairobi	JW Marriott Nairobi	381	2026-10-28	2		[rate halved — engine showed 2-night total]	BB	international	direct
-2026-09-28	nairobi	Nairobi Serena Hotel	268	2026-10-28	2		[rate halved — engine showed 2-night total]	BB	international	direct
-2026-09-28	nairobi	Ole Sereni	199	2026-10-28	2		[rate halved — engine showed 2-night total]	BB	international	direct
-2026-09-28	nairobi	Radisson Blu Upper Hill	221	2026-10-28	2		[rate halved — engine showed 2-night total]	BB	international	direct
-2026-09-28	nairobi	Sankara Westlands	298.5	2026-10-28	2		[rate halved — engine showed 2-night total]	BB	international	direct
-2026-09-28	nairobi	Sarova Stanley	235.8	2026-10-28	2		[rate halved — engine showed 2-night total]	BB	international	direct
-2026-09-28	nairobi	The Boma Hotel	116.5	2026-10-28	2		[rate halved — engine showed 2-night total]	BB	international	direct
-2026-09-28	nairobi	Trademark Hotel Gigiri	266	2026-10-28	2		[rate halved — engine showed 2-night total]	BB	international	direct
-2026-09-28	nairobi	Tribe Hotel	341.5	2026-10-28	2		[rate halved — engine showed 2-night total]	BB	international	direct
-2026-09-28	lakekivu	Gorillas Lake Kivu Hotel	122.5	2026-10-28	2		[rate halved — engine showed 2-night total]	BB	international	direct
-2026-09-28	lakekivu	Home Saint Jean	70	2026-10-28	2		[rate halved — engine showed 2-night total]	BB	international	direct
-2026-09-28	lakekivu	Kivu Marina Bay Hotel	175.23	2026-10-28	2		[rate halved — engine showed 2-night total]	BB	international	direct
-2026-09-28	lakekivu	Lake Kivu Serena Hotel	310	2026-10-28	2		[rate halved — engine showed 2-night total]	BB	international	direct
-2026-09-28	lakekivu	Moriah Hill Resort	93.5	2026-10-28	2		[rate quartered — engine showed 2-night total, 2 adults pp]	BB	international	direct
-2026-09-28	lakevictoria	Brovad Sands Lodge	135	2026-10-28	2		[rate halved — engine showed 2-night total]	BB	international	direct
-2026-09-28	lakevictoria	Lake Victoria Serena Golf Resort	396	2026-10-28	2			BB	international	direct
-2026-09-28	lakevictoria	Munyonyo Commonwealth Resort	217	2026-10-28	2		[rate halved — engine showed 2-night total]	BB	international	direct
-2026-09-28	lakevictoria	Wildwaters Lodge	749	2026-10-28	2		[rate halved — engine showed 2-night total]	BB	international	direct
-2026-09-28	coast	Almanara Diani	980	2026-10-28	2		[rate halved — engine showed 2-night total]	BB	international	direct
-2026-09-28	coast	Diamonds Leisure Beach & Golf Resort	302.98	2026-10-28	2		[rate halved — engine showed 2-night total]	BB	international	direct
-2026-09-28	coast	Leopard Beach Resort	256	2026-10-28	2		[rate halved — engine showed 2-night total]	RO	international	direct
-2026-09-28	coast	Serena Beach Resort & Spa	600	2026-10-28	2			BB	international	direct
-2026-09-28	coast	Swahili Beach	446	2026-10-28	2		[rate halved — engine showed 2-night total]	BB	international	direct
-2026-09-28	zanzibar	Baraza Resort & Spa	1394.38	2026-10-28	2		[rate halved — engine showed 2-night total]	AI	international	direct
-2026-09-28	zanzibar	Breezes Beach Club & Spa	584.6	2026-10-28	2		[rate halved — engine showed 2-night total]	HB	international	direct
-2026-09-28	zanzibar	Essque Zalu Zanzibar	296	2026-10-28	2		[rate halved — engine showed 2-night total]	HB	international	direct
-2026-09-28	zanzibar	Kilindi Zanzibar	1648	2026-10-28	2		[rate halved — engine showed 2-night total]	BB	international	direct
-2026-09-28	zanzibar	Park Hyatt Zanzibar	350	2026-10-28	2		[rate halved — engine showed 2-night total]	BB	international	direct
-2026-09-28	zanzibar	Zuri Zanzibar	995	2026-10-28	2		[rate quartered — engine showed 2-night total, 2 adults pp]	HB	international	direct
-2026-09-28	bwindi	Clouds Mountain Gorilla Lodge	3520	2026-10-28	2			FB	international	direct
-2026-09-28	bwindi	Engagi Lodge	513	2026-10-28	2	https://monkey.travel/en/usd/accommodation/engagi-lodge/?adults=2&nights=2&checkin=2026-10-28&locations=Bwindi+(Buhoma)		FB		direct
-2026-09-28	bwindi	Kyambura Gorge Lodge	3800	2026-10-28	2			FB		direct
-2026-09-28	bwindi	Mahogany Springs Lodge	840	2026-10-28	2		[rate halved — engine showed 2-night total]	FB		direct
-2026-09-28	safari	Chem Chem Safari Lodge	3480	2026-10-28	2		PRIORITY: prior basis was UNK — rate unusable by the index until basis is captured. Record NEW BASIS this week. [rate halved — engine showed 2-night total]	AI		direct
-2026-09-28	safari	Governors' Camp	3992	2026-10-28	2		PRIORITY: prior basis was UNK — rate unusable by the index until basis is captured. Record NEW BASIS this week.	AI		direct
-2026-09-28	safari	Kichwa Tembo	2960	2026-10-28	2		[rate halved — engine showed 2-night total]	AI		direct
-2026-09-28	safari	Mahali Mzuri	6640	2026-10-28	2		PRIORITY: prior basis was UNK — rate unusable by the index until basis is captured. Record NEW BASIS this week.	AI		direct
-2026-09-28	safari	Mara Intrepids	2089.45	2026-10-28	2			FB		direct
-2026-09-28	safari	Mwiba Lodge	5240	2026-10-28	2		PRIORITY: prior basis was UNK — rate unusable by the index until basis is captured. Record NEW BASIS this week. [rate halved — engine showed 2-night total]	AI		direct
-2026-09-28	safari	Olare Mara Kempinski	1354	2026-10-28	2		PRIORITY: prior basis was UNK — rate unusable by the index until basis is captured. Record NEW BASIS this week. [rate halved — engine showed 2-night total]	AI		direct
-2026-09-28	safari	Singita Faru Faru Lodge	5590	2026-10-28	2		PRIORITY: prior basis was UNK — rate unusable by the index until basis is captured. Record NEW BASIS this week. [rate halved — engine showed 2-night total]	AI		direct
-2026-09-28	volcanoes	Bisate Lodge	7590	2026-10-28	2		[rate halved — engine showed 2-night total]	AI	international	direct
-2026-09-28	volcanoes	Magashi Camp (Akagera)	2794	2026-10-28	2		[rate halved — engine showed 2-night total]	AI	international	direct
-2026-09-28	volcanoes	Nyungwe House	3770	2026-10-28	2		[rate halved — engine showed 2-night total]	AI	international	direct
-2026-09-28	volcanoes	Sabyinyo Silverback Lodge	4470	2026-10-28	2		[rate halved — engine showed 2-night total]	AI	international	direct
+window.RATE_INDEX = {
+ "updated": "2026-09-28 15:19",
+ "convention": {
+  "los": 2,
+  "lead_days": 30,
+  "occupancy": "2 adults",
+  "currency": "USD"
+ },
+ "minN": 3,
+ "lookbackWeeks": 6,
+ "method": "chain-linked matched-sample",
+ "methodNote": "Each property is compared only with itself, so the index measures rate MOVEMENT validly even though the basket mixes meal bases and rate types. Raw medians are context only and are not comparable across markets — check levelComparable before quoting a level.",
+ "wowNote": "wow is the matched-sample link for the latest week. wowClean is the same link computed only on pairs whose meal basis was KNOWN and UNCHANGED between the two weeks; basisChangedPairs counts the pairs excluded from it. Where basisChangedPairs is large relative to matched, the headline wow is partly a re-basing artefact — quote wowClean, or quote no move at all.",
+ "spreadNote": "Commission-leakage spread = median of (OTA rate / direct rate - 1) for the same property in the same week. Computed only where the direct rate is room-only or B&B, since an OTA lowest rate is not comparable with a fully-inclusive safari rate. Markets where no property qualifies report null.",
+ "totalObservations": 806,
+ "distinctProperties": 128,
+ "basketSize": 134,
+ "markets": {
+  "nairobi": {
+   "label": "Nairobi",
+   "segment": "city",
+   "country": "KE",
+   "basketSize": 16,
+   "series": [
+    {
+     "week": "2026-W31",
+     "weekStart": "2026-07-27",
+     "median": 206.0,
+     "n": 1,
+     "observations": 1,
+     "coverage": 6,
+     "confident": false,
+     "basisMix": {
+      "BB": 1
+     },
+     "rateTypeMix": {
+      "international": 1
+     },
+     "levelComparable": true,
+     "matched": 0,
+     "link": null,
+     "index": null
+    },
+    {
+     "week": "2026-W32",
+     "weekStart": "2026-08-03",
+     "median": 190.88,
+     "n": 10,
+     "observations": 10,
+     "coverage": 62,
+     "confident": true,
+     "basisMix": {
+      "BB": 10
+     },
+     "rateTypeMix": {
+      "international": 10
+     },
+     "levelComparable": true,
+     "matched": 0,
+     "link": null,
+     "index": 100.0
+    },
+    {
+     "week": "2026-W33",
+     "weekStart": "2026-08-10",
+     "median": 187.43,
+     "n": 9,
+     "observations": 9,
+     "coverage": 56,
+     "confident": true,
+     "basisMix": {
+      "BB": 9
+     },
+     "rateTypeMix": {
+      "international": 9
+     },
+     "levelComparable": true,
+     "matched": 9,
+     "link": 0.99385,
+     "index": 99.4,
+     "basisChangedPairs": 0,
+     "cleanMatched": 9,
+     "linkClean": 0.99385
+    },
+    {
+     "week": "2026-W34",
+     "weekStart": "2026-08-17",
+     "median": 212.72,
+     "n": 8,
+     "observations": 8,
+     "coverage": 50,
+     "confident": true,
+     "basisMix": {
+      "BB": 8
+     },
+     "rateTypeMix": {
+      "international": 8
+     },
+     "levelComparable": true,
+     "matched": 8,
+     "link": 1.07215,
+     "index": 106.6,
+     "basisChangedPairs": 0,
+     "cleanMatched": 8,
+     "linkClean": 1.07215
+    },
+    {
+     "week": "2026-W35",
+     "weekStart": "2026-08-24",
+     "median": 221.5,
+     "n": 9,
+     "observations": 9,
+     "coverage": 56,
+     "confident": true,
+     "basisMix": {
+      "BB": 9
+     },
+     "rateTypeMix": {
+      "international": 9
+     },
+     "levelComparable": true,
+     "matched": 9,
+     "link": 1.0,
+     "index": 106.6,
+     "basisChangedPairs": 0,
+     "cleanMatched": 9,
+     "linkClean": 1.0
+    },
+    {
+     "week": "2026-W36",
+     "weekStart": "2026-08-31",
+     "median": 235.8,
+     "n": 9,
+     "observations": 9,
+     "coverage": 56,
+     "confident": true,
+     "basisMix": {
+      "BB": 9
+     },
+     "rateTypeMix": {
+      "international": 9
+     },
+     "levelComparable": true,
+     "matched": 9,
+     "link": 1.03521,
+     "index": 110.3,
+     "basisChangedPairs": 0,
+     "cleanMatched": 9,
+     "linkClean": 1.03521
+    },
+    {
+     "week": "2026-W38",
+     "weekStart": "2026-09-14",
+     "median": 265.25,
+     "n": 15,
+     "observations": 15,
+     "coverage": 94,
+     "confident": true,
+     "basisMix": {
+      "BB": 15
+     },
+     "rateTypeMix": {
+      "international": 14,
+      "promotional": 1
+     },
+     "levelComparable": false,
+     "matched": 9,
+     "link": 0.97518,
+     "index": 107.6,
+     "basisChangedPairs": 0,
+     "cleanMatched": 9,
+     "linkClean": 0.97518
+    },
+    {
+     "week": "2026-W40",
+     "weekStart": "2026-09-28",
+     "median": 254.15,
+     "n": 14,
+     "observations": 14,
+     "coverage": 88,
+     "confident": true,
+     "basisMix": {
+      "BB": 14
+     },
+     "rateTypeMix": {
+      "international": 14
+     },
+     "levelComparable": true,
+     "matched": 14,
+     "link": 1.00665,
+     "index": 108.3,
+     "basisChangedPairs": 0,
+     "cleanMatched": 14,
+     "linkClean": 1.00665
+    }
+   ],
+   "baseline": 190.88,
+   "latest": {
+    "week": "2026-W40",
+    "weekStart": "2026-09-28",
+    "median": 254.15,
+    "n": 14,
+    "observations": 14,
+    "coverage": 88,
+    "confident": true,
+    "basisMix": {
+     "BB": 14
+    },
+    "rateTypeMix": {
+     "international": 14
+    },
+    "levelComparable": true,
+    "matched": 14,
+    "link": 1.00665,
+    "index": 108.3,
+    "basisChangedPairs": 0,
+    "cleanMatched": 14,
+    "linkClean": 1.00665
+   },
+   "wow": 0.7,
+   "wowClean": 0.7,
+   "basisChangedPairs": 0,
+   "basisMix": {
+    "BB": 75
+   },
+   "rateTypeMix": {
+    "international": 74,
+    "promotional": 1
+   },
+   "levelComparable": false,
+   "residentOnly": false,
+   "ota": {
+    "series": [
+     {
+      "week": "2026-W31",
+      "weekStart": "2026-07-27",
+      "median": 1054.0,
+      "n": 1,
+      "observations": 1,
+      "coverage": 6,
+      "confident": false,
+      "basisMix": {
+       "UNK": 1
+      },
+      "rateTypeMix": {
+       "international": 1
+      },
+      "levelComparable": true,
+      "matched": 0,
+      "link": null,
+      "index": null
+     },
+     {
+      "week": "2026-W32",
+      "weekStart": "2026-08-03",
+      "median": 221.0,
+      "n": 8,
+      "observations": 8,
+      "coverage": 50,
+      "confident": true,
+      "basisMix": {
+       "UNK": 8
+      },
+      "rateTypeMix": {
+       "international": 8
+      },
+      "levelComparable": true,
+      "matched": 0,
+      "link": null,
+      "index": 100.0
+     },
+     {
+      "week": "2026-W33",
+      "weekStart": "2026-08-10",
+      "median": 239.75,
+      "n": 10,
+      "observations": 10,
+      "coverage": 62,
+      "confident": true,
+      "basisMix": {
+       "UNK": 10
+      },
+      "rateTypeMix": {
+       "international": 10
+      },
+      "levelComparable": true,
+      "matched": 7,
+      "link": 1.11298,
+      "index": 111.3,
+      "basisChangedPairs": 7,
+      "cleanMatched": 0,
+      "linkClean": null
+     },
+     {
+      "week": "2026-W34",
+      "weekStart": "2026-08-17",
+      "median": 213.0,
+      "n": 7,
+      "observations": 7,
+      "coverage": 44,
+      "confident": true,
+      "basisMix": {
+       "UNK": 7
+      },
+      "rateTypeMix": {
+       "international": 7
+      },
+      "levelComparable": true,
+      "matched": 7,
+      "link": 0.74298,
+      "index": 82.7,
+      "basisChangedPairs": 7,
+      "cleanMatched": 0,
+      "linkClean": null
+     },
+     {
+      "week": "2026-W35",
+      "weekStart": "2026-08-24",
+      "median": 195.5,
+      "n": 6,
+      "observations": 6,
+      "coverage": 38,
+      "confident": true,
+      "basisMix": {
+       "UNK": 6
+      },
+      "rateTypeMix": {
+       "international": 6
+      },
+      "levelComparable": true,
+      "matched": 6,
+      "link": 0.96825,
+      "index": 80.1,
+      "basisChangedPairs": 6,
+      "cleanMatched": 0,
+      "linkClean": null
+     },
+     {
+      "week": "2026-W36",
+      "weekStart": "2026-08-31",
+      "median": 253.0,
+      "n": 4,
+      "observations": 4,
+      "coverage": 25,
+      "confident": true,
+      "basisMix": {
+       "UNK": 4
+      },
+      "rateTypeMix": {
+       "international": 4
+      },
+      "levelComparable": true,
+      "matched": 4,
+      "link": 0.95552,
+      "index": 76.5,
+      "basisChangedPairs": 4,
+      "cleanMatched": 0,
+      "linkClean": null
+     },
+     {
+      "week": "2026-W37",
+      "weekStart": "2026-09-07",
+      "median": 210.5,
+      "n": 8,
+      "observations": 8,
+      "coverage": 50,
+      "confident": true,
+      "basisMix": {
+       "UNK": 8
+      },
+      "rateTypeMix": {
+       "international": 8
+      },
+      "levelComparable": true,
+      "matched": 8,
+      "link": 1.00049,
+      "index": 76.5,
+      "basisChangedPairs": 8,
+      "cleanMatched": 0,
+      "linkClean": null
+     },
+     {
+      "week": "2026-W38",
+      "weekStart": "2026-09-14",
+      "median": 202.5,
+      "n": 8,
+      "observations": 8,
+      "coverage": 50,
+      "confident": true,
+      "basisMix": {
+       "UNK": 8
+      },
+      "rateTypeMix": {
+       "international": 8
+      },
+      "levelComparable": true,
+      "matched": 8,
+      "link": 0.99987,
+      "index": 76.5,
+      "basisChangedPairs": 8,
+      "cleanMatched": 0,
+      "linkClean": null
+     },
+     {
+      "week": "2026-W39",
+      "weekStart": "2026-09-21",
+      "median": 197.0,
+      "n": 8,
+      "observations": 8,
+      "coverage": 50,
+      "confident": true,
+      "basisMix": {
+       "UNK": 8
+      },
+      "rateTypeMix": {
+       "international": 8
+      },
+      "levelComparable": true,
+      "matched": 8,
+      "link": 0.99505,
+      "index": 76.2,
+      "basisChangedPairs": 8,
+      "cleanMatched": 0,
+      "linkClean": null
+     }
+    ],
+    "latest": {
+     "week": "2026-W39",
+     "weekStart": "2026-09-21",
+     "median": 197.0,
+     "n": 8,
+     "observations": 8,
+     "coverage": 50,
+     "confident": true,
+     "basisMix": {
+      "UNK": 8
+     },
+     "rateTypeMix": {
+      "international": 8
+     },
+     "levelComparable": true,
+     "matched": 8,
+     "link": 0.99505,
+     "index": 76.2,
+     "basisChangedPairs": 8,
+     "cleanMatched": 0,
+     "linkClean": null
+    },
+    "wow": -0.5
+   },
+   "spread": [
+    {
+     "week": "2026-W32",
+     "weekStart": "2026-08-03",
+     "spreadPct": -7.1,
+     "n": 6,
+     "skippedNonComparableBasis": 0
+    },
+    {
+     "week": "2026-W33",
+     "weekStart": "2026-08-10",
+     "spreadPct": 3.3,
+     "n": 8,
+     "skippedNonComparableBasis": 0
+    },
+    {
+     "week": "2026-W34",
+     "weekStart": "2026-08-17",
+     "spreadPct": -9.1,
+     "n": 5,
+     "skippedNonComparableBasis": 0
+    },
+    {
+     "week": "2026-W35",
+     "weekStart": "2026-08-24",
+     "spreadPct": -13.4,
+     "n": 5,
+     "skippedNonComparableBasis": 0
+    },
+    {
+     "week": "2026-W36",
+     "weekStart": "2026-08-31",
+     "spreadPct": -10.8,
+     "n": 3,
+     "skippedNonComparableBasis": 0
+    },
+    {
+     "week": "2026-W38",
+     "weekStart": "2026-09-14",
+     "spreadPct": -22.2,
+     "n": 7,
+     "skippedNonComparableBasis": 0
+    }
+   ],
+   "spreadLatest": {
+    "week": "2026-W38",
+    "weekStart": "2026-09-14",
+    "spreadPct": -22.2,
+    "n": 7,
+    "skippedNonComparableBasis": 0
+   }
+  },
+  "coast": {
+   "label": "Mombasa & Diani",
+   "segment": "beach",
+   "country": "KE",
+   "basketSize": 13,
+   "series": [
+    {
+     "week": "2026-W31",
+     "weekStart": "2026-07-27",
+     "median": 278.0,
+     "n": 5,
+     "observations": 5,
+     "coverage": 38,
+     "confident": true,
+     "basisMix": {
+      "HB": 3,
+      "AI": 2
+     },
+     "rateTypeMix": {
+      "resident": 5
+     },
+     "levelComparable": false,
+     "matched": 0,
+     "link": null,
+     "index": 100.0
+    },
+    {
+     "week": "2026-W32",
+     "weekStart": "2026-08-03",
+     "median": 304.33,
+     "n": 10,
+     "observations": 10,
+     "coverage": 77,
+     "confident": true,
+     "basisMix": {
+      "BB": 9,
+      "UNK": 1
+     },
+     "rateTypeMix": {
+      "international": 10
+     },
+     "levelComparable": false,
+     "matched": 4,
+     "link": 1.10506,
+     "index": 110.5,
+     "basisChangedPairs": 4,
+     "cleanMatched": 0,
+     "linkClean": null
+    },
+    {
+     "week": "2026-W33",
+     "weekStart": "2026-08-10",
+     "median": 265.92,
+     "n": 10,
+     "observations": 10,
+     "coverage": 77,
+     "confident": true,
+     "basisMix": {
+      "FB": 1,
+      "BB": 9
+     },
+     "rateTypeMix": {
+      "international": 10
+     },
+     "levelComparable": false,
+     "matched": 9,
+     "link": 1.0,
+     "index": 110.5,
+     "basisChangedPairs": 1,
+     "cleanMatched": 8,
+     "linkClean": 0.99844
+    },
+    {
+     "week": "2026-W34",
+     "weekStart": "2026-08-17",
+     "median": 315.0,
+     "n": 7,
+     "observations": 7,
+     "coverage": 54,
+     "confident": true,
+     "basisMix": {
+      "BB": 7
+     },
+     "rateTypeMix": {
+      "international": 7
+     },
+     "levelComparable": true,
+     "matched": 7,
+     "link": 1.0,
+     "index": 110.5,
+     "basisChangedPairs": 0,
+     "cleanMatched": 7,
+     "linkClean": 1.0
+    },
+    {
+     "week": "2026-W35",
+     "weekStart": "2026-08-24",
+     "median": 290.6,
+     "n": 8,
+     "observations": 8,
+     "coverage": 62,
+     "confident": true,
+     "basisMix": {
+      "BB": 8
+     },
+     "rateTypeMix": {
+      "international": 8
+     },
+     "levelComparable": true,
+     "matched": 8,
+     "link": 1.0,
+     "index": 110.5,
+     "basisChangedPairs": 0,
+     "cleanMatched": 8,
+     "linkClean": 1.0
+    },
+    {
+     "week": "2026-W36",
+     "weekStart": "2026-08-31",
+     "median": 296.0,
+     "n": 7,
+     "observations": 7,
+     "coverage": 54,
+     "confident": true,
+     "basisMix": {
+      "BB": 6,
+      "AI": 1
+     },
+     "rateTypeMix": {
+      "international": 7
+     },
+     "levelComparable": false,
+     "matched": 7,
+     "link": 1.0,
+     "index": 110.5,
+     "basisChangedPairs": 1,
+     "cleanMatched": 6,
+     "linkClean": 1.0
+    },
+    {
+     "week": "2026-W38",
+     "weekStart": "2026-09-14",
+     "median": 710.8,
+     "n": 2,
+     "observations": 2,
+     "coverage": 15,
+     "confident": false,
+     "basisMix": {
+      "BB": 2
+     },
+     "rateTypeMix": {
+      "international": 2
+     },
+     "levelComparable": true,
+     "matched": 2,
+     "link": 1.23758,
+     "index": 136.8,
+     "basisChangedPairs": 1,
+     "cleanMatched": 1,
+     "linkClean": 1.08903
+    },
+    {
+     "week": "2026-W40",
+     "weekStart": "2026-09-28",
+     "median": 446.0,
+     "n": 5,
+     "observations": 5,
+     "coverage": 38,
+     "confident": true,
+     "basisMix": {
+      "BB": 4,
+      "RO": 1
+     },
+     "rateTypeMix": {
+      "international": 5
+     },
+     "levelComparable": false,
+     "matched": 4,
+     "link": 1.01677,
+     "index": 139.1,
+     "basisChangedPairs": 1,
+     "cleanMatched": 3,
+     "linkClean": 1.00996
+    }
+   ],
+   "baseline": 278.0,
+   "latest": {
+    "week": "2026-W40",
+    "weekStart": "2026-09-28",
+    "median": 446.0,
+    "n": 5,
+    "observations": 5,
+    "coverage": 38,
+    "confident": true,
+    "basisMix": {
+     "BB": 4,
+     "RO": 1
+    },
+    "rateTypeMix": {
+     "international": 5
+    },
+    "levelComparable": false,
+    "matched": 4,
+    "link": 1.01677,
+    "index": 139.1,
+    "basisChangedPairs": 1,
+    "cleanMatched": 3,
+    "linkClean": 1.00996
+   },
+   "wow": 1.7,
+   "wowClean": 1.0,
+   "basisChangedPairs": 1,
+   "basisMix": {
+    "HB": 3,
+    "AI": 3,
+    "BB": 45,
+    "UNK": 1,
+    "FB": 1,
+    "RO": 1
+   },
+   "rateTypeMix": {
+    "resident": 5,
+    "international": 49
+   },
+   "levelComparable": false,
+   "residentOnly": false,
+   "ota": {
+    "series": [
+     {
+      "week": "2026-W31",
+      "weekStart": "2026-07-27",
+      "median": 209.0,
+      "n": 1,
+      "observations": 1,
+      "coverage": 8,
+      "confident": false,
+      "basisMix": {
+       "UNK": 1
+      },
+      "rateTypeMix": {
+       "international": 1
+      },
+      "levelComparable": true,
+      "matched": 0,
+      "link": null,
+      "index": null
+     },
+     {
+      "week": "2026-W32",
+      "weekStart": "2026-08-03",
+      "median": 216.5,
+      "n": 6,
+      "observations": 6,
+      "coverage": 46,
+      "confident": true,
+      "basisMix": {
+       "BB": 5,
+       "UNK": 1
+      },
+      "rateTypeMix": {
+       "international": 6
+      },
+      "levelComparable": false,
+      "matched": 0,
+      "link": null,
+      "index": 100.0
+     },
+     {
+      "week": "2026-W33",
+      "weekStart": "2026-08-10",
+      "median": 209.0,
+      "n": 9,
+      "observations": 9,
+      "coverage": 69,
+      "confident": true,
+      "basisMix": {
+       "UNK": 9
+      },
+      "rateTypeMix": {
+       "international": 9
+      },
+      "levelComparable": true,
+      "matched": 6,
+      "link": 0.93686,
+      "index": 93.7,
+      "basisChangedPairs": 6,
+      "cleanMatched": 0,
+      "linkClean": null
+     },
+     {
+      "week": "2026-W34",
+      "weekStart": "2026-08-17",
+      "median": 209.0,
+      "n": 1,
+      "observations": 1,
+      "coverage": 8,
+      "confident": false,
+      "basisMix": {
+       "UNK": 1
+      },
+      "rateTypeMix": {
+       "international": 1
+      },
+      "levelComparable": true,
+      "matched": 1,
+      "link": 1.0,
+      "index": 93.7,
+      "basisChangedPairs": 1,
+      "cleanMatched": 0,
+      "linkClean": null
+     },
+     {
+      "week": "2026-W35",
+      "weekStart": "2026-08-24",
+      "median": 360.0,
+      "n": 1,
+      "observations": 1,
+      "coverage": 8,
+      "confident": false,
+      "basisMix": {
+       "BB": 1
+      },
+      "rateTypeMix": {
+       "international": 1
+      },
+      "levelComparable": true,
+      "matched": 0,
+      "link": null,
+      "index": 93.7,
+      "basisChangedPairs": 0,
+      "cleanMatched": 0,
+      "linkClean": null
+     },
+     {
+      "week": "2026-W38",
+      "weekStart": "2026-09-14",
+      "median": 356.0,
+      "n": 1,
+      "observations": 1,
+      "coverage": 8,
+      "confident": false,
+      "basisMix": {
+       "UNK": 1
+      },
+      "rateTypeMix": {
+       "international": 1
+      },
+      "levelComparable": true,
+      "matched": 1,
+      "link": 1.70335,
+      "index": 159.6,
+      "basisChangedPairs": 1,
+      "cleanMatched": 0,
+      "linkClean": null
+     },
+     {
+      "week": "2026-W39",
+      "weekStart": "2026-09-21",
+      "median": 296.0,
+      "n": 1,
+      "observations": 1,
+      "coverage": 8,
+      "confident": false,
+      "basisMix": {
+       "UNK": 1
+      },
+      "rateTypeMix": {
+       "international": 1
+      },
+      "levelComparable": true,
+      "matched": 1,
+      "link": 0.83146,
+      "index": 132.7,
+      "basisChangedPairs": 1,
+      "cleanMatched": 0,
+      "linkClean": null
+     }
+    ],
+    "latest": {
+     "week": "2026-W39",
+     "weekStart": "2026-09-21",
+     "median": 296.0,
+     "n": 1,
+     "observations": 1,
+     "coverage": 8,
+     "confident": false,
+     "basisMix": {
+      "UNK": 1
+     },
+     "rateTypeMix": {
+      "international": 1
+     },
+     "levelComparable": true,
+     "matched": 1,
+     "link": 0.83146,
+     "index": 132.7,
+     "basisChangedPairs": 1,
+     "cleanMatched": 0,
+     "linkClean": null
+    },
+    "wow": -16.9
+   },
+   "spread": [
+    {
+     "week": "2026-W32",
+     "weekStart": "2026-08-03",
+     "spreadPct": 22.0,
+     "n": 5,
+     "skippedNonComparableBasis": 0
+    },
+    {
+     "week": "2026-W33",
+     "weekStart": "2026-08-10",
+     "spreadPct": 1.4,
+     "n": 7,
+     "skippedNonComparableBasis": 0
+    }
+   ],
+   "spreadLatest": {
+    "week": "2026-W33",
+    "weekStart": "2026-08-10",
+    "spreadPct": 1.4,
+    "n": 7,
+    "skippedNonComparableBasis": 0
+   }
+  },
+  "zanzibar": {
+   "label": "Zanzibar",
+   "segment": "beach",
+   "country": "ZNZ",
+   "basketSize": 12,
+   "series": [
+    {
+     "week": "2026-W31",
+     "weekStart": "2026-07-27",
+     "median": 1160.0,
+     "n": 1,
+     "observations": 1,
+     "coverage": 8,
+     "confident": false,
+     "basisMix": {
+      "HB": 1
+     },
+     "rateTypeMix": {
+      "international": 1
+     },
+     "levelComparable": true,
+     "matched": 0,
+     "link": null,
+     "index": null
+    },
+    {
+     "week": "2026-W32",
+     "weekStart": "2026-08-03",
+     "median": 818.5,
+     "n": 9,
+     "observations": 10,
+     "coverage": 75,
+     "confident": true,
+     "basisMix": {
+      "HB": 4,
+      "AI": 4,
+      "UNK": 2
+     },
+     "rateTypeMix": {
+      "international": 10
+     },
+     "levelComparable": false,
+     "matched": 0,
+     "link": null,
+     "index": 100.0
+    },
+    {
+     "week": "2026-W33",
+     "weekStart": "2026-08-10",
+     "median": 1160.0,
+     "n": 9,
+     "observations": 9,
+     "coverage": 75,
+     "confident": true,
+     "basisMix": {
+      "AI": 4,
+      "HB": 4,
+      "BB": 1
+     },
+     "rateTypeMix": {
+      "international": 9
+     },
+     "levelComparable": false,
+     "matched": 9,
+     "link": 1.0,
+     "index": 100.0,
+     "basisChangedPairs": 2,
+     "cleanMatched": 7,
+     "linkClean": 1.0
+    },
+    {
+     "week": "2026-W34",
+     "weekStart": "2026-08-17",
+     "median": 917.5,
+     "n": 8,
+     "observations": 8,
+     "coverage": 67,
+     "confident": true,
+     "basisMix": {
+      "AI": 3,
+      "HB": 4,
+      "BB": 1
+     },
+     "rateTypeMix": {
+      "international": 8
+     },
+     "levelComparable": false,
+     "matched": 8,
+     "link": 1.01759,
+     "index": 101.8,
+     "basisChangedPairs": 0,
+     "cleanMatched": 8,
+     "linkClean": 1.01759
+    },
+    {
+     "week": "2026-W35",
+     "weekStart": "2026-08-24",
+     "median": 1160.0,
+     "n": 9,
+     "observations": 9,
+     "coverage": 75,
+     "confident": true,
+     "basisMix": {
+      "AI": 5,
+      "HB": 3,
+      "BB": 1
+     },
+     "rateTypeMix": {
+      "international": 9
+     },
+     "levelComparable": false,
+     "matched": 9,
+     "link": 1.00695,
+     "index": 102.5,
+     "basisChangedPairs": 1,
+     "cleanMatched": 8,
+     "linkClean": 1.0066
+    },
+    {
+     "week": "2026-W36",
+     "weekStart": "2026-08-31",
+     "median": 1160.0,
+     "n": 9,
+     "observations": 9,
+     "coverage": 75,
+     "confident": true,
+     "basisMix": {
+      "AI": 5,
+      "HB": 3,
+      "BB": 1
+     },
+     "rateTypeMix": {
+      "international": 9
+     },
+     "levelComparable": false,
+     "matched": 9,
+     "link": 1.0,
+     "index": 102.5,
+     "basisChangedPairs": 0,
+     "cleanMatched": 9,
+     "linkClean": 1.0
+    },
+    {
+     "week": "2026-W38",
+     "weekStart": "2026-09-14",
+     "median": 495.88,
+     "n": 5,
+     "observations": 5,
+     "coverage": 42,
+     "confident": true,
+     "basisMix": {
+      "AI": 2,
+      "HB": 2,
+      "BB": 1
+     },
+     "rateTypeMix": {
+      "international": 5
+     },
+     "levelComparable": false,
+     "matched": 4,
+     "link": 0.93014,
+     "index": 95.3,
+     "basisChangedPairs": 1,
+     "cleanMatched": 3,
+     "linkClean": 0.99424
+    },
+    {
+     "week": "2026-W40",
+     "weekStart": "2026-09-28",
+     "median": 789.8,
+     "n": 6,
+     "observations": 6,
+     "coverage": 50,
+     "confident": true,
+     "basisMix": {
+      "AI": 1,
+      "HB": 3,
+      "BB": 2
+     },
+     "rateTypeMix": {
+      "international": 6
+     },
+     "levelComparable": false,
+     "matched": 6,
+     "link": 0.99289,
+     "index": 94.6,
+     "basisChangedPairs": 1,
+     "cleanMatched": 5,
+     "linkClean": 0.98578
+    }
+   ],
+   "baseline": 818.5,
+   "latest": {
+    "week": "2026-W40",
+    "weekStart": "2026-09-28",
+    "median": 789.8,
+    "n": 6,
+    "observations": 6,
+    "coverage": 50,
+    "confident": true,
+    "basisMix": {
+     "AI": 1,
+     "HB": 3,
+     "BB": 2
+    },
+    "rateTypeMix": {
+     "international": 6
+    },
+    "levelComparable": false,
+    "matched": 6,
+    "link": 0.99289,
+    "index": 94.6,
+    "basisChangedPairs": 1,
+    "cleanMatched": 5,
+    "linkClean": 0.98578
+   },
+   "wow": -0.7,
+   "wowClean": -1.4,
+   "basisChangedPairs": 1,
+   "basisMix": {
+    "HB": 24,
+    "AI": 24,
+    "UNK": 2,
+    "BB": 7
+   },
+   "rateTypeMix": {
+    "international": 57
+   },
+   "levelComparable": false,
+   "residentOnly": false,
+   "ota": {
+    "series": [
+     {
+      "week": "2026-W33",
+      "weekStart": "2026-08-10",
+      "median": 867.0,
+      "n": 8,
+      "observations": 8,
+      "coverage": 67,
+      "confident": true,
+      "basisMix": {
+       "UNK": 8
+      },
+      "rateTypeMix": {
+       "international": 8
+      },
+      "levelComparable": true,
+      "matched": 0,
+      "link": null,
+      "index": 100.0
+     }
+    ],
+    "latest": {
+     "week": "2026-W33",
+     "weekStart": "2026-08-10",
+     "median": 867.0,
+     "n": 8,
+     "observations": 8,
+     "coverage": 67,
+     "confident": true,
+     "basisMix": {
+      "UNK": 8
+     },
+     "rateTypeMix": {
+      "international": 8
+     },
+     "levelComparable": true,
+     "matched": 0,
+     "link": null,
+     "index": 100.0
+    },
+    "wow": null
+   },
+   "spread": [
+    {
+     "week": "2026-W33",
+     "weekStart": "2026-08-10",
+     "spreadPct": -33.0,
+     "n": 1,
+     "skippedNonComparableBasis": 7
+    }
+   ],
+   "spreadLatest": {
+    "week": "2026-W33",
+    "weekStart": "2026-08-10",
+    "spreadPct": -33.0,
+    "n": 1,
+    "skippedNonComparableBasis": 7
+   }
+  },
+  "kigali": {
+   "label": "Kigali",
+   "segment": "city",
+   "country": "RW",
+   "basketSize": 11,
+   "series": [
+    {
+     "week": "2026-W32",
+     "weekStart": "2026-08-03",
+     "median": 200.69,
+     "n": 8,
+     "observations": 8,
+     "coverage": 73,
+     "confident": true,
+     "basisMix": {
+      "UNK": 6,
+      "BB": 2
+     },
+     "rateTypeMix": {
+      "international": 8
+     },
+     "levelComparable": false,
+     "matched": 0,
+     "link": null,
+     "index": 100.0
+    },
+    {
+     "week": "2026-W33",
+     "weekStart": "2026-08-10",
+     "median": 193.5,
+     "n": 6,
+     "observations": 6,
+     "coverage": 55,
+     "confident": true,
+     "basisMix": {
+      "BB": 6
+     },
+     "rateTypeMix": {
+      "international": 6
+     },
+     "levelComparable": true,
+     "matched": 6,
+     "link": 0.92374,
+     "index": 92.4,
+     "basisChangedPairs": 5,
+     "cleanMatched": 1,
+     "linkClean": 1.00252
+    },
+    {
+     "week": "2026-W34",
+     "weekStart": "2026-08-17",
+     "median": 188.75,
+     "n": 10,
+     "observations": 10,
+     "coverage": 91,
+     "confident": true,
+     "basisMix": {
+      "BB": 10
+     },
+     "rateTypeMix": {
+      "international": 10
+     },
+     "levelComparable": true,
+     "matched": 8,
+     "link": 1.01026,
+     "index": 93.3,
+     "basisChangedPairs": 1,
+     "cleanMatched": 7,
+     "linkClean": 1.0
+    },
+    {
+     "week": "2026-W35",
+     "weekStart": "2026-08-24",
+     "median": 225.85,
+     "n": 7,
+     "observations": 7,
+     "coverage": 64,
+     "confident": true,
+     "basisMix": {
+      "BB": 7
+     },
+     "rateTypeMix": {
+      "international": 7
+     },
+     "levelComparable": true,
+     "matched": 7,
+     "link": 1.0,
+     "index": 93.3,
+     "basisChangedPairs": 0,
+     "cleanMatched": 7,
+     "linkClean": 1.0
+    },
+    {
+     "week": "2026-W36",
+     "weekStart": "2026-08-31",
+     "median": 255.0,
+     "n": 7,
+     "observations": 7,
+     "coverage": 64,
+     "confident": true,
+     "basisMix": {
+      "BB": 7
+     },
+     "rateTypeMix": {
+      "international": 7
+     },
+     "levelComparable": true,
+     "matched": 7,
+     "link": 1.14062,
+     "index": 106.4,
+     "basisChangedPairs": 0,
+     "cleanMatched": 7,
+     "linkClean": 1.14062
+    },
+    {
+     "week": "2026-W38",
+     "weekStart": "2026-09-14",
+     "median": 188.88,
+     "n": 8,
+     "observations": 8,
+     "coverage": 73,
+     "confident": true,
+     "basisMix": {
+      "BB": 7,
+      "RO": 1
+     },
+     "rateTypeMix": {
+      "promotional": 3,
+      "international": 5
+     },
+     "levelComparable": false,
+     "matched": 8,
+     "link": 1.0,
+     "index": 106.4,
+     "basisChangedPairs": 1,
+     "cleanMatched": 7,
+     "linkClean": 1.0
+    },
+    {
+     "week": "2026-W40",
+     "weekStart": "2026-09-28",
+     "median": 198.14,
+     "n": 9,
+     "observations": 9,
+     "coverage": 82,
+     "confident": true,
+     "basisMix": {
+      "BB": 9
+     },
+     "rateTypeMix": {
+      "international": 9
+     },
+     "levelComparable": true,
+     "matched": 9,
+     "link": 1.0,
+     "index": 106.4,
+     "basisChangedPairs": 1,
+     "cleanMatched": 8,
+     "linkClean": 0.99959
+    }
+   ],
+   "baseline": 200.69,
+   "latest": {
+    "week": "2026-W40",
+    "weekStart": "2026-09-28",
+    "median": 198.14,
+    "n": 9,
+    "observations": 9,
+    "coverage": 82,
+    "confident": true,
+    "basisMix": {
+     "BB": 9
+    },
+    "rateTypeMix": {
+     "international": 9
+    },
+    "levelComparable": true,
+    "matched": 9,
+    "link": 1.0,
+    "index": 106.4,
+    "basisChangedPairs": 1,
+    "cleanMatched": 8,
+    "linkClean": 0.99959
+   },
+   "wow": 0.0,
+   "wowClean": -0.0,
+   "basisChangedPairs": 1,
+   "basisMix": {
+    "UNK": 6,
+    "BB": 48,
+    "RO": 1
+   },
+   "rateTypeMix": {
+    "international": 52,
+    "promotional": 3
+   },
+   "levelComparable": false,
+   "residentOnly": false,
+   "ota": {
+    "series": [
+     {
+      "week": "2026-W33",
+      "weekStart": "2026-08-10",
+      "median": 163.5,
+      "n": 10,
+      "observations": 10,
+      "coverage": 91,
+      "confident": true,
+      "basisMix": {
+       "UNK": 10
+      },
+      "rateTypeMix": {
+       "international": 10
+      },
+      "levelComparable": true,
+      "matched": 0,
+      "link": null,
+      "index": 100.0
+     },
+     {
+      "week": "2026-W35",
+      "weekStart": "2026-08-24",
+      "median": 104.0,
+      "n": 3,
+      "observations": 3,
+      "coverage": 27,
+      "confident": true,
+      "basisMix": {
+       "BB": 3
+      },
+      "rateTypeMix": {
+       "international": 3
+      },
+      "levelComparable": true,
+      "matched": 3,
+      "link": 0.87029,
+      "index": 87.0,
+      "basisChangedPairs": 3,
+      "cleanMatched": 0,
+      "linkClean": null
+     },
+     {
+      "week": "2026-W36",
+      "weekStart": "2026-08-31",
+      "median": 105.0,
+      "n": 2,
+      "observations": 2,
+      "coverage": 18,
+      "confident": false,
+      "basisMix": {
+       "BB": 2
+      },
+      "rateTypeMix": {
+       "international": 2
+      },
+      "levelComparable": true,
+      "matched": 2,
+      "link": 1.14054,
+      "index": 99.3,
+      "basisChangedPairs": 0,
+      "cleanMatched": 2,
+      "linkClean": 1.14054
+     }
+    ],
+    "latest": {
+     "week": "2026-W36",
+     "weekStart": "2026-08-31",
+     "median": 105.0,
+     "n": 2,
+     "observations": 2,
+     "coverage": 18,
+     "confident": false,
+     "basisMix": {
+      "BB": 2
+     },
+     "rateTypeMix": {
+      "international": 2
+     },
+     "levelComparable": true,
+     "matched": 2,
+     "link": 1.14054,
+     "index": 99.3,
+     "basisChangedPairs": 0,
+     "cleanMatched": 2,
+     "linkClean": 1.14054
+    },
+    "wow": 14.1
+   },
+   "spread": [
+    {
+     "week": "2026-W33",
+     "weekStart": "2026-08-10",
+     "spreadPct": 27.6,
+     "n": 6,
+     "skippedNonComparableBasis": 0
+    }
+   ],
+   "spreadLatest": {
+    "week": "2026-W33",
+    "weekStart": "2026-08-10",
+    "spreadPct": 27.6,
+    "n": 6,
+    "skippedNonComparableBasis": 0
+   }
+  },
+  "kampala": {
+   "label": "Kampala & Entebbe",
+   "segment": "city",
+   "country": "UG",
+   "basketSize": 12,
+   "series": [
+    {
+     "week": "2026-W32",
+     "weekStart": "2026-08-03",
+     "median": 176.0,
+     "n": 9,
+     "observations": 9,
+     "coverage": 75,
+     "confident": true,
+     "basisMix": {
+      "UNK": 1,
+      "BB": 8
+     },
+     "rateTypeMix": {
+      "international": 9
+     },
+     "levelComparable": false,
+     "matched": 0,
+     "link": null,
+     "index": 100.0
+    },
+    {
+     "week": "2026-W33",
+     "weekStart": "2026-08-10",
+     "median": 158.51,
+     "n": 10,
+     "observations": 10,
+     "coverage": 83,
+     "confident": true,
+     "basisMix": {
+      "BB": 10
+     },
+     "rateTypeMix": {
+      "international": 10
+     },
+     "levelComparable": true,
+     "matched": 8,
+     "link": 1.0082,
+     "index": 100.8,
+     "basisChangedPairs": 0,
+     "cleanMatched": 8,
+     "linkClean": 1.0082
+    },
+    {
+     "week": "2026-W34",
+     "weekStart": "2026-08-17",
+     "median": 182.0,
+     "n": 11,
+     "observations": 11,
+     "coverage": 92,
+     "confident": true,
+     "basisMix": {
+      "BB": 11
+     },
+     "rateTypeMix": {
+      "international": 11
+     },
+     "levelComparable": true,
+     "matched": 11,
+     "link": 1.0,
+     "index": 100.8,
+     "basisChangedPairs": 1,
+     "cleanMatched": 10,
+     "linkClean": 1.057
+    },
+    {
+     "week": "2026-W35",
+     "weekStart": "2026-08-24",
+     "median": 182.0,
+     "n": 11,
+     "observations": 11,
+     "coverage": 92,
+     "confident": true,
+     "basisMix": {
+      "BB": 11
+     },
+     "rateTypeMix": {
+      "international": 11
+     },
+     "levelComparable": true,
+     "matched": 11,
+     "link": 1.0,
+     "index": 100.8,
+     "basisChangedPairs": 0,
+     "cleanMatched": 11,
+     "linkClean": 1.0
+    },
+    {
+     "week": "2026-W36",
+     "weekStart": "2026-08-31",
+     "median": 182.0,
+     "n": 11,
+     "observations": 11,
+     "coverage": 92,
+     "confident": true,
+     "basisMix": {
+      "BB": 11
+     },
+     "rateTypeMix": {
+      "international": 11
+     },
+     "levelComparable": true,
+     "matched": 11,
+     "link": 1.0,
+     "index": 100.8,
+     "basisChangedPairs": 0,
+     "cleanMatched": 11,
+     "linkClean": 1.0
+    },
+    {
+     "week": "2026-W38",
+     "weekStart": "2026-09-14",
+     "median": 183.0,
+     "n": 10,
+     "observations": 10,
+     "coverage": 83,
+     "confident": true,
+     "basisMix": {
+      "BB": 10
+     },
+     "rateTypeMix": {
+      "international": 10
+     },
+     "levelComparable": true,
+     "matched": 10,
+     "link": 1.0,
+     "index": 100.8,
+     "basisChangedPairs": 0,
+     "cleanMatched": 10,
+     "linkClean": 1.0
+    },
+    {
+     "week": "2026-W40",
+     "weekStart": "2026-09-28",
+     "median": 182.0,
+     "n": 10,
+     "observations": 10,
+     "coverage": 83,
+     "confident": true,
+     "basisMix": {
+      "BB": 10
+     },
+     "rateTypeMix": {
+      "international": 10
+     },
+     "levelComparable": true,
+     "matched": 10,
+     "link": 1.0,
+     "index": 100.8,
+     "basisChangedPairs": 0,
+     "cleanMatched": 10,
+     "linkClean": 1.0
+    }
+   ],
+   "baseline": 176.0,
+   "latest": {
+    "week": "2026-W40",
+    "weekStart": "2026-09-28",
+    "median": 182.0,
+    "n": 10,
+    "observations": 10,
+    "coverage": 83,
+    "confident": true,
+    "basisMix": {
+     "BB": 10
+    },
+    "rateTypeMix": {
+     "international": 10
+    },
+    "levelComparable": true,
+    "matched": 10,
+    "link": 1.0,
+    "index": 100.8,
+    "basisChangedPairs": 0,
+    "cleanMatched": 10,
+    "linkClean": 1.0
+   },
+   "wow": 0.0,
+   "wowClean": 0.0,
+   "basisChangedPairs": 0,
+   "basisMix": {
+    "UNK": 1,
+    "BB": 71
+   },
+   "rateTypeMix": {
+    "international": 72
+   },
+   "levelComparable": false,
+   "residentOnly": false,
+   "ota": {
+    "series": [
+     {
+      "week": "2026-W33",
+      "weekStart": "2026-08-10",
+      "median": 187.0,
+      "n": 10,
+      "observations": 10,
+      "coverage": 83,
+      "confident": true,
+      "basisMix": {
+       "UNK": 10
+      },
+      "rateTypeMix": {
+       "international": 10
+      },
+      "levelComparable": true,
+      "matched": 0,
+      "link": null,
+      "index": 100.0
+     }
+    ],
+    "latest": {
+     "week": "2026-W33",
+     "weekStart": "2026-08-10",
+     "median": 187.0,
+     "n": 10,
+     "observations": 10,
+     "coverage": 83,
+     "confident": true,
+     "basisMix": {
+      "UNK": 10
+     },
+     "rateTypeMix": {
+      "international": 10
+     },
+     "levelComparable": true,
+     "matched": 0,
+     "link": null,
+     "index": 100.0
+    },
+    "wow": null
+   },
+   "spread": [
+    {
+     "week": "2026-W33",
+     "weekStart": "2026-08-10",
+     "spreadPct": 6.5,
+     "n": 9,
+     "skippedNonComparableBasis": 0
+    }
+   ],
+   "spreadLatest": {
+    "week": "2026-W33",
+    "weekStart": "2026-08-10",
+    "spreadPct": 6.5,
+    "n": 9,
+    "skippedNonComparableBasis": 0
+   }
+  },
+  "safari": {
+   "label": "Mara & Serengeti",
+   "segment": "bush",
+   "country": "KE/TZ",
+   "basketSize": 22,
+   "series": [
+    {
+     "week": "2026-W31",
+     "weekStart": "2026-07-27",
+     "median": 1996.0,
+     "n": 5,
+     "observations": 5,
+     "coverage": 23,
+     "confident": true,
+     "basisMix": {
+      "FB+": 1,
+      "FI": 2,
+      "FB": 2
+     },
+     "rateTypeMix": {
+      "international": 5
+     },
+     "levelComparable": false,
+     "matched": 0,
+     "link": null,
+     "index": 100.0
+    },
+    {
+     "week": "2026-W32",
+     "weekStart": "2026-08-03",
+     "median": 4293.0,
+     "n": 18,
+     "observations": 18,
+     "coverage": 82,
+     "confident": true,
+     "basisMix": {
+      "FB": 4,
+      "AI": 6,
+      "UNK": 8
+     },
+     "rateTypeMix": {
+      "international": 18
+     },
+     "levelComparable": false,
+     "matched": 3,
+     "link": 1.0,
+     "index": 100.0,
+     "basisChangedPairs": 2,
+     "cleanMatched": 1,
+     "linkClean": 0.8999
+    },
+    {
+     "week": "2026-W33",
+     "weekStart": "2026-08-10",
+     "median": 4299.5,
+     "n": 22,
+     "observations": 22,
+     "coverage": 100,
+     "confident": true,
+     "basisMix": {
+      "FB": 5,
+      "AI": 6,
+      "FI": 10,
+      "FB+": 1
+     },
+     "rateTypeMix": {
+      "international": 22
+     },
+     "levelComparable": false,
+     "matched": 20,
+     "link": 1.0,
+     "index": 100.0,
+     "basisChangedPairs": 8,
+     "cleanMatched": 12,
+     "linkClean": 1.0
+    },
+    {
+     "week": "2026-W34",
+     "weekStart": "2026-08-17",
+     "median": 4900.0,
+     "n": 19,
+     "observations": 19,
+     "coverage": 86,
+     "confident": true,
+     "basisMix": {
+      "FB": 4,
+      "AI": 6,
+      "FI": 9
+     },
+     "rateTypeMix": {
+      "international": 19
+     },
+     "levelComparable": false,
+     "matched": 19,
+     "link": 1.0,
+     "index": 100.0,
+     "basisChangedPairs": 0,
+     "cleanMatched": 19,
+     "linkClean": 1.0
+    },
+    {
+     "week": "2026-W35",
+     "weekStart": "2026-08-24",
+     "median": 4900.0,
+     "n": 19,
+     "observations": 19,
+     "coverage": 86,
+     "confident": true,
+     "basisMix": {
+      "UNK": 19
+     },
+     "rateTypeMix": {
+      "international": 19
+     },
+     "levelComparable": true,
+     "matched": 19,
+     "link": 1.0,
+     "index": 100.0,
+     "basisChangedPairs": 19,
+     "cleanMatched": 0,
+     "linkClean": null
+    },
+    {
+     "week": "2026-W36",
+     "weekStart": "2026-08-31",
+     "median": 4900.0,
+     "n": 19,
+     "observations": 19,
+     "coverage": 86,
+     "confident": true,
+     "basisMix": {
+      "UNK": 19
+     },
+     "rateTypeMix": {
+      "international": 19
+     },
+     "levelComparable": true,
+     "matched": 19,
+     "link": 1.0,
+     "index": 100.0,
+     "basisChangedPairs": 19,
+     "cleanMatched": 0,
+     "linkClean": null
+    },
+    {
+     "week": "2026-W38",
+     "weekStart": "2026-09-14",
+     "median": 4950.0,
+     "n": 5,
+     "observations": 5,
+     "coverage": 23,
+     "confident": true,
+     "basisMix": {
+      "AI": 4,
+      "FB": 1
+     },
+     "rateTypeMix": {
+      "international": 4,
+      "promotional": 1
+     },
+     "levelComparable": false,
+     "matched": 5,
+     "link": 1.0,
+     "index": 100.0,
+     "basisChangedPairs": 5,
+     "cleanMatched": 0,
+     "linkClean": null
+    },
+    {
+     "week": "2026-W40",
+     "weekStart": "2026-09-28",
+     "median": 3736.0,
+     "n": 8,
+     "observations": 8,
+     "coverage": 36,
+     "confident": true,
+     "basisMix": {
+      "AI": 7,
+      "FB": 1
+     },
+     "rateTypeMix": {
+      "?": 8
+     },
+     "levelComparable": false,
+     "matched": 6,
+     "link": 1.0,
+     "index": 100.0,
+     "basisChangedPairs": 6,
+     "cleanMatched": 0,
+     "linkClean": null
+    }
+   ],
+   "baseline": 1996.0,
+   "latest": {
+    "week": "2026-W40",
+    "weekStart": "2026-09-28",
+    "median": 3736.0,
+    "n": 8,
+    "observations": 8,
+    "coverage": 36,
+    "confident": true,
+    "basisMix": {
+     "AI": 7,
+     "FB": 1
+    },
+    "rateTypeMix": {
+     "?": 8
+    },
+    "levelComparable": false,
+    "matched": 6,
+    "link": 1.0,
+    "index": 100.0,
+    "basisChangedPairs": 6,
+    "cleanMatched": 0,
+    "linkClean": null
+   },
+   "wow": 0.0,
+   "wowClean": null,
+   "basisChangedPairs": 6,
+   "basisMix": {
+    "FB+": 2,
+    "FI": 21,
+    "FB": 17,
+    "AI": 29,
+    "UNK": 46
+   },
+   "rateTypeMix": {
+    "international": 106,
+    "promotional": 1,
+    "?": 8
+   },
+   "levelComparable": false,
+   "residentOnly": false,
+   "ota": null,
+   "spread": null,
+   "spreadLatest": null
+  },
+  "dar_arusha": {
+   "label": "Dar es Salaam & Arusha",
+   "segment": "city",
+   "country": "TZ",
+   "basketSize": 9,
+   "series": [
+    {
+     "week": "2026-W32",
+     "weekStart": "2026-08-03",
+     "median": 214.15,
+     "n": 6,
+     "observations": 6,
+     "coverage": 67,
+     "confident": true,
+     "basisMix": {
+      "UNK": 6
+     },
+     "rateTypeMix": {
+      "international": 6
+     },
+     "levelComparable": true,
+     "matched": 0,
+     "link": null,
+     "index": 100.0
+    },
+    {
+     "week": "2026-W33",
+     "weekStart": "2026-08-10",
+     "median": 193.93,
+     "n": 4,
+     "observations": 4,
+     "coverage": 44,
+     "confident": true,
+     "basisMix": {
+      "BB": 4
+     },
+     "rateTypeMix": {
+      "international": 4
+     },
+     "levelComparable": true,
+     "matched": 3,
+     "link": 0.80125,
+     "index": 80.1,
+     "basisChangedPairs": 3,
+     "cleanMatched": 0,
+     "linkClean": null
+    },
+    {
+     "week": "2026-W34",
+     "weekStart": "2026-08-17",
+     "median": 213.0,
+     "n": 6,
+     "observations": 6,
+     "coverage": 67,
+     "confident": true,
+     "basisMix": {
+      "BB": 6
+     },
+     "rateTypeMix": {
+      "international": 6
+     },
+     "levelComparable": true,
+     "matched": 5,
+     "link": 1.04373,
+     "index": 83.6,
+     "basisChangedPairs": 2,
+     "cleanMatched": 3,
+     "linkClean": 1.23995
+    },
+    {
+     "week": "2026-W35",
+     "weekStart": "2026-08-24",
+     "median": 199.72,
+     "n": 6,
+     "observations": 6,
+     "coverage": 67,
+     "confident": true,
+     "basisMix": {
+      "BB": 6
+     },
+     "rateTypeMix": {
+      "international": 6
+     },
+     "levelComparable": true,
+     "matched": 6,
+     "link": 1.0,
+     "index": 83.6,
+     "basisChangedPairs": 1,
+     "cleanMatched": 5,
+     "linkClean": 1.0
+    },
+    {
+     "week": "2026-W36",
+     "weekStart": "2026-08-31",
+     "median": 226.79,
+     "n": 7,
+     "observations": 7,
+     "coverage": 78,
+     "confident": true,
+     "basisMix": {
+      "BB": 7
+     },
+     "rateTypeMix": {
+      "international": 7
+     },
+     "levelComparable": true,
+     "matched": 7,
+     "link": 1.03769,
+     "index": 86.8,
+     "basisChangedPairs": 0,
+     "cleanMatched": 7,
+     "linkClean": 1.03769
+    },
+    {
+     "week": "2026-W38",
+     "weekStart": "2026-09-14",
+     "median": 232.47,
+     "n": 6,
+     "observations": 6,
+     "coverage": 67,
+     "confident": true,
+     "basisMix": {
+      "BB": 6
+     },
+     "rateTypeMix": {
+      "international": 4,
+      "promotional": 2
+     },
+     "levelComparable": false,
+     "matched": 6,
+     "link": 1.07082,
+     "index": 92.9,
+     "basisChangedPairs": 0,
+     "cleanMatched": 6,
+     "linkClean": 1.07082
+    },
+    {
+     "week": "2026-W40",
+     "weekStart": "2026-09-28",
+     "median": 254.52,
+     "n": 7,
+     "observations": 7,
+     "coverage": 78,
+     "confident": true,
+     "basisMix": {
+      "BB": 7
+     },
+     "rateTypeMix": {
+      "promotional": 3,
+      "international": 4
+     },
+     "levelComparable": false,
+     "matched": 7,
+     "link": 0.93249,
+     "index": 86.7,
+     "basisChangedPairs": 0,
+     "cleanMatched": 7,
+     "linkClean": 0.93249
+    }
+   ],
+   "baseline": 214.15,
+   "latest": {
+    "week": "2026-W40",
+    "weekStart": "2026-09-28",
+    "median": 254.52,
+    "n": 7,
+    "observations": 7,
+    "coverage": 78,
+    "confident": true,
+    "basisMix": {
+     "BB": 7
+    },
+    "rateTypeMix": {
+     "promotional": 3,
+     "international": 4
+    },
+    "levelComparable": false,
+    "matched": 7,
+    "link": 0.93249,
+    "index": 86.7,
+    "basisChangedPairs": 0,
+    "cleanMatched": 7,
+    "linkClean": 0.93249
+   },
+   "wow": -6.8,
+   "wowClean": -6.8,
+   "basisChangedPairs": 0,
+   "basisMix": {
+    "UNK": 6,
+    "BB": 36
+   },
+   "rateTypeMix": {
+    "international": 37,
+    "promotional": 5
+   },
+   "levelComparable": false,
+   "residentOnly": false,
+   "ota": {
+    "series": [
+     {
+      "week": "2026-W33",
+      "weekStart": "2026-08-10",
+      "median": 201.75,
+      "n": 6,
+      "observations": 6,
+      "coverage": 67,
+      "confident": true,
+      "basisMix": {
+       "UNK": 6
+      },
+      "rateTypeMix": {
+       "international": 6
+      },
+      "levelComparable": true,
+      "matched": 0,
+      "link": null,
+      "index": 100.0
+     },
+     {
+      "week": "2026-W35",
+      "weekStart": "2026-08-24",
+      "median": 170.5,
+      "n": 2,
+      "observations": 2,
+      "coverage": 22,
+      "confident": false,
+      "basisMix": {
+       "BB": 2
+      },
+      "rateTypeMix": {
+       "international": 2
+      },
+      "levelComparable": true,
+      "matched": 2,
+      "link": 0.9196,
+      "index": 92.0,
+      "basisChangedPairs": 2,
+      "cleanMatched": 0,
+      "linkClean": null
+     },
+     {
+      "week": "2026-W36",
+      "weekStart": "2026-08-31",
+      "median": 88.5,
+      "n": 1,
+      "observations": 1,
+      "coverage": 11,
+      "confident": false,
+      "basisMix": {
+       "BB": 1
+      },
+      "rateTypeMix": {
+       "international": 1
+      },
+      "levelComparable": true,
+      "matched": 1,
+      "link": 0.98883,
+      "index": 90.9,
+      "basisChangedPairs": 0,
+      "cleanMatched": 1,
+      "linkClean": 0.98883
+     }
+    ],
+    "latest": {
+     "week": "2026-W36",
+     "weekStart": "2026-08-31",
+     "median": 88.5,
+     "n": 1,
+     "observations": 1,
+     "coverage": 11,
+     "confident": false,
+     "basisMix": {
+      "BB": 1
+     },
+     "rateTypeMix": {
+      "international": 1
+     },
+     "levelComparable": true,
+     "matched": 1,
+     "link": 0.98883,
+     "index": 90.9,
+     "basisChangedPairs": 0,
+     "cleanMatched": 1,
+     "linkClean": 0.98883
+    },
+    "wow": -1.1
+   },
+   "spread": [
+    {
+     "week": "2026-W33",
+     "weekStart": "2026-08-10",
+     "spreadPct": 7.8,
+     "n": 3,
+     "skippedNonComparableBasis": 0
+    }
+   ],
+   "spreadLatest": {
+    "week": "2026-W33",
+    "weekStart": "2026-08-10",
+    "spreadPct": 7.8,
+    "n": 3,
+    "skippedNonComparableBasis": 0
+   }
+  },
+  "lakevictoria": {
+   "label": "Lake Victoria & Entebbe",
+   "segment": "beach",
+   "country": "UG",
+   "basketSize": 9,
+   "series": [
+    {
+     "week": "2026-W32",
+     "weekStart": "2026-08-03",
+     "median": 300.4,
+     "n": 6,
+     "observations": 6,
+     "coverage": 67,
+     "confident": true,
+     "basisMix": {
+      "UNK": 6
+     },
+     "rateTypeMix": {
+      "international": 6
+     },
+     "levelComparable": true,
+     "matched": 0,
+     "link": null,
+     "index": 100.0
+    },
+    {
+     "week": "2026-W33",
+     "weekStart": "2026-08-10",
+     "median": 300.5,
+     "n": 4,
+     "observations": 4,
+     "coverage": 44,
+     "confident": true,
+     "basisMix": {
+      "BB": 4
+     },
+     "rateTypeMix": {
+      "international": 4
+     },
+     "levelComparable": true,
+     "matched": 3,
+     "link": 0.99901,
+     "index": 99.9,
+     "basisChangedPairs": 3,
+     "cleanMatched": 0,
+     "linkClean": null
+    },
+    {
+     "week": "2026-W34",
+     "weekStart": "2026-08-17",
+     "median": 300.0,
+     "n": 7,
+     "observations": 7,
+     "coverage": 78,
+     "confident": true,
+     "basisMix": {
+      "BB": 6,
+      "FB": 1
+     },
+     "rateTypeMix": {
+      "international": 7
+     },
+     "levelComparable": false,
+     "matched": 6,
+     "link": 1.0,
+     "index": 99.9,
+     "basisChangedPairs": 2,
+     "cleanMatched": 4,
+     "linkClean": 1.0
+    },
+    {
+     "week": "2026-W35",
+     "weekStart": "2026-08-24",
+     "median": 300.0,
+     "n": 3,
+     "observations": 3,
+     "coverage": 33,
+     "confident": true,
+     "basisMix": {
+      "BB": 3
+     },
+     "rateTypeMix": {
+      "international": 3
+     },
+     "levelComparable": true,
+     "matched": 3,
+     "link": 1.0,
+     "index": 99.9,
+     "basisChangedPairs": 0,
+     "cleanMatched": 3,
+     "linkClean": 1.0
+    },
+    {
+     "week": "2026-W36",
+     "weekStart": "2026-08-31",
+     "median": 302.65,
+     "n": 4,
+     "observations": 4,
+     "coverage": 44,
+     "confident": true,
+     "basisMix": {
+      "UNK": 1,
+      "BB": 3
+     },
+     "rateTypeMix": {
+      "international": 4
+     },
+     "levelComparable": false,
+     "matched": 4,
+     "link": 1.0,
+     "index": 99.9,
+     "basisChangedPairs": 1,
+     "cleanMatched": 3,
+     "linkClean": 1.0
+    },
+    {
+     "week": "2026-W38",
+     "weekStart": "2026-09-14",
+     "median": 216.9,
+     "n": 3,
+     "observations": 3,
+     "coverage": 33,
+     "confident": true,
+     "basisMix": {
+      "BB": 2,
+      "FB": 1
+     },
+     "rateTypeMix": {
+      "international": 3
+     },
+     "levelComparable": false,
+     "matched": 3,
+     "link": 1.02537,
+     "index": 102.4,
+     "basisChangedPairs": 0,
+     "cleanMatched": 3,
+     "linkClean": 1.02537
+    },
+    {
+     "week": "2026-W40",
+     "weekStart": "2026-09-28",
+     "median": 306.5,
+     "n": 4,
+     "observations": 4,
+     "coverage": 44,
+     "confident": true,
+     "basisMix": {
+      "BB": 4
+     },
+     "rateTypeMix": {
+      "international": 4
+     },
+     "levelComparable": true,
+     "matched": 4,
+     "link": 1.03383,
+     "index": 105.9,
+     "basisChangedPairs": 2,
+     "cleanMatched": 2,
+     "linkClean": 1.03383
+    }
+   ],
+   "baseline": 300.4,
+   "latest": {
+    "week": "2026-W40",
+    "weekStart": "2026-09-28",
+    "median": 306.5,
+    "n": 4,
+    "observations": 4,
+    "coverage": 44,
+    "confident": true,
+    "basisMix": {
+     "BB": 4
+    },
+    "rateTypeMix": {
+     "international": 4
+    },
+    "levelComparable": true,
+    "matched": 4,
+    "link": 1.03383,
+    "index": 105.9,
+    "basisChangedPairs": 2,
+    "cleanMatched": 2,
+    "linkClean": 1.03383
+   },
+   "wow": 3.4,
+   "wowClean": 3.4,
+   "basisChangedPairs": 2,
+   "basisMix": {
+    "UNK": 7,
+    "BB": 22,
+    "FB": 2
+   },
+   "rateTypeMix": {
+    "international": 31
+   },
+   "levelComparable": false,
+   "residentOnly": false,
+   "ota": {
+    "series": [
+     {
+      "week": "2026-W33",
+      "weekStart": "2026-08-10",
+      "median": 217.0,
+      "n": 7,
+      "observations": 7,
+      "coverage": 78,
+      "confident": true,
+      "basisMix": {
+       "UNK": 7
+      },
+      "rateTypeMix": {
+       "international": 7
+      },
+      "levelComparable": true,
+      "matched": 0,
+      "link": null,
+      "index": 100.0
+     },
+     {
+      "week": "2026-W35",
+      "weekStart": "2026-08-24",
+      "median": 115.87,
+      "n": 3,
+      "observations": 3,
+      "coverage": 33,
+      "confident": true,
+      "basisMix": {
+       "BB": 2,
+       "FB": 1
+      },
+      "rateTypeMix": {
+       "international": 3
+      },
+      "levelComparable": false,
+      "matched": 3,
+      "link": 0.8583,
+      "index": 85.8,
+      "basisChangedPairs": 3,
+      "cleanMatched": 0,
+      "linkClean": null
+     },
+     {
+      "week": "2026-W36",
+      "weekStart": "2026-08-31",
+      "median": 116.41,
+      "n": 3,
+      "observations": 3,
+      "coverage": 33,
+      "confident": true,
+      "basisMix": {
+       "BB": 2,
+       "FB": 1
+      },
+      "rateTypeMix": {
+       "international": 3
+      },
+      "levelComparable": false,
+      "matched": 3,
+      "link": 1.0,
+      "index": 85.8,
+      "basisChangedPairs": 0,
+      "cleanMatched": 3,
+      "linkClean": 1.0
+     }
+    ],
+    "latest": {
+     "week": "2026-W36",
+     "weekStart": "2026-08-31",
+     "median": 116.41,
+     "n": 3,
+     "observations": 3,
+     "coverage": 33,
+     "confident": true,
+     "basisMix": {
+      "BB": 2,
+      "FB": 1
+     },
+     "rateTypeMix": {
+      "international": 3
+     },
+     "levelComparable": false,
+     "matched": 3,
+     "link": 1.0,
+     "index": 85.8,
+     "basisChangedPairs": 0,
+     "cleanMatched": 3,
+     "linkClean": 1.0
+    },
+    "wow": 0.0
+   },
+   "spread": [
+    {
+     "week": "2026-W33",
+     "weekStart": "2026-08-10",
+     "spreadPct": 2.0,
+     "n": 3,
+     "skippedNonComparableBasis": 0
+    }
+   ],
+   "spreadLatest": {
+    "week": "2026-W33",
+    "weekStart": "2026-08-10",
+    "spreadPct": 2.0,
+    "n": 3,
+    "skippedNonComparableBasis": 0
+   }
+  },
+  "bwindi": {
+   "label": "Bwindi, Kibale & QENP",
+   "segment": "bush",
+   "country": "UG",
+   "basketSize": 10,
+   "series": [
+    {
+     "week": "2026-W32",
+     "weekStart": "2026-08-03",
+     "median": 1770.0,
+     "n": 10,
+     "observations": 10,
+     "coverage": 100,
+     "confident": true,
+     "basisMix": {
+      "UNK": 10
+     },
+     "rateTypeMix": {
+      "international": 10
+     },
+     "levelComparable": true,
+     "matched": 0,
+     "link": null,
+     "index": 100.0
+    },
+    {
+     "week": "2026-W33",
+     "weekStart": "2026-08-10",
+     "median": 3010.0,
+     "n": 9,
+     "observations": 9,
+     "coverage": 90,
+     "confident": true,
+     "basisMix": {
+      "FI": 9
+     },
+     "rateTypeMix": {
+      "international": 9
+     },
+     "levelComparable": true,
+     "matched": 9,
+     "link": 1.11724,
+     "index": 111.7,
+     "basisChangedPairs": 9,
+     "cleanMatched": 0,
+     "linkClean": null
+    },
+    {
+     "week": "2026-W34",
+     "weekStart": "2026-08-17",
+     "median": 2137.0,
+     "n": 10,
+     "observations": 10,
+     "coverage": 100,
+     "confident": true,
+     "basisMix": {
+      "FI": 10
+     },
+     "rateTypeMix": {
+      "international": 10
+     },
+     "levelComparable": true,
+     "matched": 10,
+     "link": 1.0,
+     "index": 111.7,
+     "basisChangedPairs": 1,
+     "cleanMatched": 9,
+     "linkClean": 1.0
+    },
+    {
+     "week": "2026-W35",
+     "weekStart": "2026-08-24",
+     "median": 3010.0,
+     "n": 9,
+     "observations": 9,
+     "coverage": 90,
+     "confident": true,
+     "basisMix": {
+      "FB": 9
+     },
+     "rateTypeMix": {
+      "international": 9
+     },
+     "levelComparable": true,
+     "matched": 9,
+     "link": 1.0,
+     "index": 111.7,
+     "basisChangedPairs": 9,
+     "cleanMatched": 0,
+     "linkClean": null
+    },
+    {
+     "week": "2026-W36",
+     "weekStart": "2026-08-31",
+     "median": 3010.0,
+     "n": 9,
+     "observations": 9,
+     "coverage": 90,
+     "confident": true,
+     "basisMix": {
+      "FB": 9
+     },
+     "rateTypeMix": {
+      "international": 9
+     },
+     "levelComparable": true,
+     "matched": 9,
+     "link": 1.0,
+     "index": 111.7,
+     "basisChangedPairs": 0,
+     "cleanMatched": 9,
+     "linkClean": 1.0
+    },
+    {
+     "week": "2026-W40",
+     "weekStart": "2026-09-28",
+     "median": 2180.0,
+     "n": 4,
+     "observations": 4,
+     "coverage": 40,
+     "confident": true,
+     "basisMix": {
+      "FB": 4
+     },
+     "rateTypeMix": {
+      "international": 1,
+      "?": 3
+     },
+     "levelComparable": false,
+     "matched": 4,
+     "link": 1.04321,
+     "index": 116.6,
+     "basisChangedPairs": 0,
+     "cleanMatched": 4,
+     "linkClean": 1.04321
+    }
+   ],
+   "baseline": 1770.0,
+   "latest": {
+    "week": "2026-W40",
+    "weekStart": "2026-09-28",
+    "median": 2180.0,
+    "n": 4,
+    "observations": 4,
+    "coverage": 40,
+    "confident": true,
+    "basisMix": {
+     "FB": 4
+    },
+    "rateTypeMix": {
+     "international": 1,
+     "?": 3
+    },
+    "levelComparable": false,
+    "matched": 4,
+    "link": 1.04321,
+    "index": 116.6,
+    "basisChangedPairs": 0,
+    "cleanMatched": 4,
+    "linkClean": 1.04321
+   },
+   "wow": 4.3,
+   "wowClean": 4.3,
+   "basisChangedPairs": 0,
+   "basisMix": {
+    "UNK": 10,
+    "FI": 19,
+    "FB": 22
+   },
+   "rateTypeMix": {
+    "international": 48,
+    "?": 3
+   },
+   "levelComparable": false,
+   "residentOnly": false,
+   "ota": {
+    "series": [
+     {
+      "week": "2026-W33",
+      "weekStart": "2026-08-10",
+      "median": 1070.0,
+      "n": 1,
+      "observations": 1,
+      "coverage": 10,
+      "confident": false,
+      "basisMix": {
+       "UNK": 1
+      },
+      "rateTypeMix": {
+       "international": 1
+      },
+      "levelComparable": true,
+      "matched": 0,
+      "link": null,
+      "index": null
+     },
+     {
+      "week": "2026-W35",
+      "weekStart": "2026-08-24",
+      "median": 1070.0,
+      "n": 1,
+      "observations": 1,
+      "coverage": 10,
+      "confident": false,
+      "basisMix": {
+       "FB": 1
+      },
+      "rateTypeMix": {
+       "international": 1
+      },
+      "levelComparable": true,
+      "matched": 0,
+      "link": null,
+      "index": null
+     },
+     {
+      "week": "2026-W36",
+      "weekStart": "2026-08-31",
+      "median": 1070.0,
+      "n": 1,
+      "observations": 1,
+      "coverage": 10,
+      "confident": false,
+      "basisMix": {
+       "FB": 1
+      },
+      "rateTypeMix": {
+       "international": 1
+      },
+      "levelComparable": true,
+      "matched": 0,
+      "link": null,
+      "index": null
+     }
+    ],
+    "latest": {
+     "week": "2026-W36",
+     "weekStart": "2026-08-31",
+     "median": 1070.0,
+     "n": 1,
+     "observations": 1,
+     "coverage": 10,
+     "confident": false,
+     "basisMix": {
+      "FB": 1
+     },
+     "rateTypeMix": {
+      "international": 1
+     },
+     "levelComparable": true,
+     "matched": 0,
+     "link": null,
+     "index": null
+    },
+    "wow": null
+   },
+   "spread": null,
+   "spreadLatest": null
+  },
+  "lakekivu": {
+   "label": "Lake Kivu",
+   "segment": "beach",
+   "country": "RW",
+   "basketSize": 10,
+   "series": [
+    {
+     "week": "2026-W32",
+     "weekStart": "2026-08-03",
+     "median": 151.25,
+     "n": 6,
+     "observations": 6,
+     "coverage": 60,
+     "confident": true,
+     "basisMix": {
+      "BB": 2,
+      "UNK": 4
+     },
+     "rateTypeMix": {
+      "international": 6
+     },
+     "levelComparable": false,
+     "matched": 0,
+     "link": null,
+     "index": 100.0
+    },
+    {
+     "week": "2026-W33",
+     "weekStart": "2026-08-10",
+     "median": 142.5,
+     "n": 6,
+     "observations": 6,
+     "coverage": 60,
+     "confident": true,
+     "basisMix": {
+      "BB": 6
+     },
+     "rateTypeMix": {
+      "international": 6
+     },
+     "levelComparable": true,
+     "matched": 6,
+     "link": 1.0,
+     "index": 100.0,
+     "basisChangedPairs": 4,
+     "cleanMatched": 2,
+     "linkClean": 0.9227
+    },
+    {
+     "week": "2026-W34",
+     "weekStart": "2026-08-17",
+     "median": 113.75,
+     "n": 10,
+     "observations": 10,
+     "coverage": 100,
+     "confident": true,
+     "basisMix": {
+      "BB": 10
+     },
+     "rateTypeMix": {
+      "international": 10
+     },
+     "levelComparable": true,
+     "matched": 6,
+     "link": 1.0,
+     "index": 100.0,
+     "basisChangedPairs": 0,
+     "cleanMatched": 6,
+     "linkClean": 1.0
+    },
+    {
+     "week": "2026-W35",
+     "weekStart": "2026-08-24",
+     "median": 135.0,
+     "n": 6,
+     "observations": 6,
+     "coverage": 60,
+     "confident": true,
+     "basisMix": {
+      "BB": 6
+     },
+     "rateTypeMix": {
+      "international": 6
+     },
+     "levelComparable": true,
+     "matched": 6,
+     "link": 1.0,
+     "index": 100.0,
+     "basisChangedPairs": 0,
+     "cleanMatched": 6,
+     "linkClean": 1.0
+    },
+    {
+     "week": "2026-W36",
+     "weekStart": "2026-08-31",
+     "median": 137.67,
+     "n": 6,
+     "observations": 6,
+     "coverage": 60,
+     "confident": true,
+     "basisMix": {
+      "BB": 6
+     },
+     "rateTypeMix": {
+      "international": 6
+     },
+     "levelComparable": true,
+     "matched": 6,
+     "link": 1.0,
+     "index": 100.0,
+     "basisChangedPairs": 0,
+     "cleanMatched": 6,
+     "linkClean": 1.0
+    },
+    {
+     "week": "2026-W38",
+     "weekStart": "2026-09-14",
+     "median": 150.57,
+     "n": 5,
+     "observations": 5,
+     "coverage": 50,
+     "confident": true,
+     "basisMix": {
+      "BB": 5
+     },
+     "rateTypeMix": {
+      "international": 5
+     },
+     "levelComparable": true,
+     "matched": 5,
+     "link": 1.11111,
+     "index": 111.1,
+     "basisChangedPairs": 0,
+     "cleanMatched": 5,
+     "linkClean": 1.11111
+    },
+    {
+     "week": "2026-W40",
+     "weekStart": "2026-09-28",
+     "median": 122.5,
+     "n": 5,
+     "observations": 5,
+     "coverage": 50,
+     "confident": true,
+     "basisMix": {
+      "BB": 5
+     },
+     "rateTypeMix": {
+      "international": 5
+     },
+     "levelComparable": true,
+     "matched": 5,
+     "link": 1.0,
+     "index": 111.1,
+     "basisChangedPairs": 0,
+     "cleanMatched": 5,
+     "linkClean": 1.0
+    }
+   ],
+   "baseline": 151.25,
+   "latest": {
+    "week": "2026-W40",
+    "weekStart": "2026-09-28",
+    "median": 122.5,
+    "n": 5,
+    "observations": 5,
+    "coverage": 50,
+    "confident": true,
+    "basisMix": {
+     "BB": 5
+    },
+    "rateTypeMix": {
+     "international": 5
+    },
+    "levelComparable": true,
+    "matched": 5,
+    "link": 1.0,
+    "index": 111.1,
+    "basisChangedPairs": 0,
+    "cleanMatched": 5,
+    "linkClean": 1.0
+   },
+   "wow": 0.0,
+   "wowClean": 0.0,
+   "basisChangedPairs": 0,
+   "basisMix": {
+    "BB": 40,
+    "UNK": 4
+   },
+   "rateTypeMix": {
+    "international": 44
+   },
+   "levelComparable": false,
+   "residentOnly": false,
+   "ota": {
+    "series": [
+     {
+      "week": "2026-W33",
+      "weekStart": "2026-08-10",
+      "median": 100.5,
+      "n": 8,
+      "observations": 8,
+      "coverage": 80,
+      "confident": true,
+      "basisMix": {
+       "UNK": 8
+      },
+      "rateTypeMix": {
+       "international": 8
+      },
+      "levelComparable": true,
+      "matched": 0,
+      "link": null,
+      "index": 100.0
+     },
+     {
+      "week": "2026-W35",
+      "weekStart": "2026-08-24",
+      "median": 96.25,
+      "n": 4,
+      "observations": 4,
+      "coverage": 40,
+      "confident": true,
+      "basisMix": {
+       "BB": 4
+      },
+      "rateTypeMix": {
+       "international": 4
+      },
+      "levelComparable": true,
+      "matched": 4,
+      "link": 0.9685,
+      "index": 96.9,
+      "basisChangedPairs": 4,
+      "cleanMatched": 0,
+      "linkClean": null
+     },
+     {
+      "week": "2026-W36",
+      "weekStart": "2026-08-31",
+      "median": 96.25,
+      "n": 4,
+      "observations": 4,
+      "coverage": 40,
+      "confident": true,
+      "basisMix": {
+       "BB": 4
+      },
+      "rateTypeMix": {
+       "international": 4
+      },
+      "levelComparable": true,
+      "matched": 4,
+      "link": 1.0023,
+      "index": 97.1,
+      "basisChangedPairs": 0,
+      "cleanMatched": 4,
+      "linkClean": 1.0023
+     }
+    ],
+    "latest": {
+     "week": "2026-W36",
+     "weekStart": "2026-08-31",
+     "median": 96.25,
+     "n": 4,
+     "observations": 4,
+     "coverage": 40,
+     "confident": true,
+     "basisMix": {
+      "BB": 4
+     },
+     "rateTypeMix": {
+      "international": 4
+     },
+     "levelComparable": true,
+     "matched": 4,
+     "link": 1.0023,
+     "index": 97.1,
+     "basisChangedPairs": 0,
+     "cleanMatched": 4,
+     "linkClean": 1.0023
+    },
+    "wow": 0.2
+   },
+   "spread": [
+    {
+     "week": "2026-W33",
+     "weekStart": "2026-08-10",
+     "spreadPct": -7.5,
+     "n": 4,
+     "skippedNonComparableBasis": 0
+    }
+   ],
+   "spreadLatest": {
+    "week": "2026-W33",
+    "weekStart": "2026-08-10",
+    "spreadPct": -7.5,
+    "n": 4,
+    "skippedNonComparableBasis": 0
+   }
+  },
+  "volcanoes": {
+   "label": "Volcanoes & Akagera",
+   "segment": "bush",
+   "country": "RW",
+   "basketSize": 10,
+   "series": [
+    {
+     "week": "2026-W32",
+     "weekStart": "2026-08-03",
+     "median": 4095.0,
+     "n": 10,
+     "observations": 10,
+     "coverage": 100,
+     "confident": true,
+     "basisMix": {
+      "UNK": 10
+     },
+     "rateTypeMix": {
+      "international": 10
+     },
+     "levelComparable": true,
+     "matched": 0,
+     "link": null,
+     "index": 100.0
+    },
+    {
+     "week": "2026-W33",
+     "weekStart": "2026-08-10",
+     "median": 4090.0,
+     "n": 10,
+     "observations": 10,
+     "coverage": 100,
+     "confident": true,
+     "basisMix": {
+      "FI": 10
+     },
+     "rateTypeMix": {
+      "international": 10
+     },
+     "levelComparable": true,
+     "matched": 10,
+     "link": 1.0,
+     "index": 100.0,
+     "basisChangedPairs": 10,
+     "cleanMatched": 0,
+     "linkClean": null
+    },
+    {
+     "week": "2026-W34",
+     "weekStart": "2026-08-17",
+     "median": 4090.0,
+     "n": 10,
+     "observations": 10,
+     "coverage": 100,
+     "confident": true,
+     "basisMix": {
+      "FI": 10
+     },
+     "rateTypeMix": {
+      "international": 10
+     },
+     "levelComparable": true,
+     "matched": 10,
+     "link": 1.0,
+     "index": 100.0,
+     "basisChangedPairs": 0,
+     "cleanMatched": 10,
+     "linkClean": 1.0
+    },
+    {
+     "week": "2026-W35",
+     "weekStart": "2026-08-24",
+     "median": 4090.0,
+     "n": 10,
+     "observations": 10,
+     "coverage": 100,
+     "confident": true,
+     "basisMix": {
+      "FB": 10
+     },
+     "rateTypeMix": {
+      "international": 10
+     },
+     "levelComparable": true,
+     "matched": 10,
+     "link": 1.0,
+     "index": 100.0,
+     "basisChangedPairs": 10,
+     "cleanMatched": 0,
+     "linkClean": null
+    },
+    {
+     "week": "2026-W36",
+     "weekStart": "2026-08-31",
+     "median": 4090.0,
+     "n": 10,
+     "observations": 10,
+     "coverage": 100,
+     "confident": true,
+     "basisMix": {
+      "FB": 10
+     },
+     "rateTypeMix": {
+      "international": 10
+     },
+     "levelComparable": true,
+     "matched": 10,
+     "link": 1.0,
+     "index": 100.0,
+     "basisChangedPairs": 0,
+     "cleanMatched": 10,
+     "linkClean": 1.0
+    },
+    {
+     "week": "2026-W38",
+     "weekStart": "2026-09-14",
+     "median": 3888.0,
+     "n": 2,
+     "observations": 2,
+     "coverage": 20,
+     "confident": false,
+     "basisMix": {
+      "FB": 1,
+      "AI": 1
+     },
+     "rateTypeMix": {
+      "international": 2
+     },
+     "levelComparable": false,
+     "matched": 2,
+     "link": 1.0,
+     "index": 100.0,
+     "basisChangedPairs": 1,
+     "cleanMatched": 1,
+     "linkClean": 1.0
+    },
+    {
+     "week": "2026-W40",
+     "weekStart": "2026-09-28",
+     "median": 4120.0,
+     "n": 4,
+     "observations": 4,
+     "coverage": 40,
+     "confident": true,
+     "basisMix": {
+      "AI": 4
+     },
+     "rateTypeMix": {
+      "international": 4
+     },
+     "levelComparable": true,
+     "matched": 4,
+     "link": 1.0,
+     "index": 100.0,
+     "basisChangedPairs": 4,
+     "cleanMatched": 0,
+     "linkClean": null
+    }
+   ],
+   "baseline": 4095.0,
+   "latest": {
+    "week": "2026-W40",
+    "weekStart": "2026-09-28",
+    "median": 4120.0,
+    "n": 4,
+    "observations": 4,
+    "coverage": 40,
+    "confident": true,
+    "basisMix": {
+     "AI": 4
+    },
+    "rateTypeMix": {
+     "international": 4
+    },
+    "levelComparable": true,
+    "matched": 4,
+    "link": 1.0,
+    "index": 100.0,
+    "basisChangedPairs": 4,
+    "cleanMatched": 0,
+    "linkClean": null
+   },
+   "wow": 0.0,
+   "wowClean": null,
+   "basisChangedPairs": 4,
+   "basisMix": {
+    "UNK": 10,
+    "FI": 20,
+    "FB": 21,
+    "AI": 5
+   },
+   "rateTypeMix": {
+    "international": 56
+   },
+   "levelComparable": false,
+   "residentOnly": false,
+   "ota": null,
+   "spread": null,
+   "spreadLatest": null
+  }
+ },
+ "benchmarks": {
+  "updated": "2026-07-24",
+  "items": [
+   {
+    "market": "Nairobi",
+    "metric": "Short-let ADR",
+    "value": "US$47",
+    "period": "2026",
+    "source": "AirDNA",
+    "url": "https://www.airdna.co/vacation-rental-data/app/ke/default/nairobi/overview",
+    "note": "Short-term rental market, not branded hotels — a demand-side proxy."
+   },
+   {
+    "market": "Nairobi",
+    "metric": "Short-let occupancy",
+    "value": "41%",
+    "period": "2026",
+    "source": "AirDNA",
+    "url": "https://www.airdna.co/vacation-rental-data/app/ke/default/nairobi/overview",
+    "note": "Across ~13,110 active listings."
+   },
+   {
+    "market": "Nairobi",
+    "metric": "Short-let RevPAR",
+    "value": "US$19",
+    "period": "2026",
+    "source": "AirDNA",
+    "url": "https://www.airdna.co/vacation-rental-data/app/ke/default/nairobi/overview",
+    "note": "Rate weighted by occupancy."
+   },
+   {
+    "market": "Nairobi",
+    "metric": "Branded room pipeline",
+    "value": "~3,650 rooms",
+    "period": "Q1 2026",
+    "source": "W Hospitality Group via Tourism Update",
+    "url": "https://www.tourismupdate.com/article/is-nairobi-building-too-many-hotels",
+    "note": "~1,500 rooms opening in 2026; occupancy already off ~10pts since 2023."
+   },
+   {
+    "market": "Zanzibar",
+    "metric": "Annual arrivals",
+    "value": "917,167",
+    "period": "2025",
+    "source": "Zanzibar tourism data via Travel And Tour World",
+    "url": "https://www.travelandtourworld.com/",
+    "note": "Up roughly 24% on 2024."
+   },
+   {
+    "market": "Tanzania",
+    "metric": "Tourism earnings",
+    "value": "US$4.41bn",
+    "period": "2025",
+    "source": "Tanzania national statistics",
+    "url": "https://www.tanzaniatourism.go.tz/",
+    "note": "Record high; 2,294,495 international arrivals."
+   }
+  ]
+ }
+};
