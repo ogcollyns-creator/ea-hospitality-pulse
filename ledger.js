@@ -1,8 +1,8 @@
 window.LEDGER = {
- "updated": "2026-09-28 08:23",
+ "updated": "2026-09-28 13:26",
  "stats": {
-  "total": 215,
-  "open": 152,
+  "total": 216,
+  "open": 153,
   "resolved": 57,
   "correct": 44,
   "partial": 1,
@@ -1432,6 +1432,22 @@ window.LEDGER = {
    "resolved_date": "",
    "evidence": "",
    "source_url": "https://www.clydeco.com/en/insights/2026/09/introduction-of-inbound-travel-insurance",
+   "overdue": false
+  },
+  {
+   "id": "P215",
+   "made_date": "2026-09-28",
+   "edition": "pulse-2026-09-28-evening",
+   "claim": "The UAE will NOT extend its 26 September Ebola entry easing to the Democratic Republic of Congo or South Sudan before WHO reports the DRC outbreak declining for at least four consecutive Disease Outbreak News updates - NCEMA tied Uganda's easing specifically to Uganda completing its own monitoring period, not to any DRC-wide improvement, and DRC's confirmed case count (7,890 as of 23 Sep) is still rising",
+   "resolution_criteria": "Check NCEMA/UAE government announcements and Khaleej Times/Gulf News coverage, plus WHO Disease Outbreak News updates on the DRC Bundibugyo outbreak, through 31 December 2026. Any UAE announcement easing entry or visa measures on DRC or South Sudan nationals before four consecutive WHO DONs show a declining confirmed-case count resolves the call INCORRECT. No such UAE easing by 31 December 2026, or an easing that only follows sustained decline, resolves it CORRECT",
+   "resolve_by": "2026-12-31",
+   "market": "Regional",
+   "segment": "City|Bush|Beach",
+   "confidence": "Inference",
+   "status": "open",
+   "resolved_date": "",
+   "evidence": "",
+   "source_url": "https://www.who.int/emergencies/disease-outbreak-news/item/2026-DON618",
    "overdue": false
   },
   {

@@ -1,5 +1,14 @@
 window.EDITIONS = [
  {
+  "id": "pulse-2026-09-28-evening",
+  "date": "2026-09-28",
+  "dateDisplay": "Monday, 28 September 2026",
+  "edition": "Evening Wrap",
+  "editionKey": "evening",
+  "summary": "Uganda's relief is real. The outbreak behind it isn't slowing.",
+  "bodyHtml": "<p><strong>🌆 EVENING WRAP · Mon 28 Sep 2026</strong></p>\n<p>Uganda&#x27;s relief is real. The outbreak behind it isn&#x27;t slowing.<br>━━━━━━━━━<br><span class=\"item-head\">1️⃣ UGANDA&#x27;S EBOLA RELIEF IS REAL. DRC&#x27;S OUTBREAK JUST BECAME ITS WORST EVER</span></p>\n<p>The UAE eased its Ebola-related visa and entry curbs on Ugandans on <strong>26 Sep</strong>, citing Uganda&#x27;s completed monitoring period; DRC and South Sudan stay restricted <strong>(NCEMA/MoHAP/ICP via Khaleej Times, 26 Sep)</strong>. Good news — but the outbreak behind every restriction is DRC&#x27;s, not Uganda&#x27;s, and WHO&#x27;s <strong>25 Sep</strong> Disease Outbreak News shows it worsening: <strong>7,890</strong> confirmed cases, <strong>3,799</strong> deaths (48.1% CFR) as of 23 Sep, now the <strong>largest Ebola outbreak DRC has ever recorded</strong>, spreading into two more health zones, one bordering South Sudan <strong>(WHO DON618)</strong>. WHO&#x27;s own advice: no travel or trade restriction is warranted. Canada, the US and UAE aren&#x27;t following it — and Canada&#x27;s own border-measures page, unchanged since 9 Sep, still shows a hard <strong>28 Sep, 23:59 EDT</strong> expiry with no successor posted when we checked this afternoon <strong>(canada.ca)</strong>.</p>\n<p><strong>What everyone is missing.</strong> Every restriction that reaches your guests — Canada&#x27;s 21-day quarantine, the US Title 42 order to 11 Oct — is keyed to DRC&#x27;s outbreak status, not Uganda&#x27;s. Uganda easing is not the start of a regional wind-down; DRC&#x27;s numbers just got worse.<br><span class=\"tagline\">🏷 City, Bush | Regional, Uganda, DRC-adjacent | Confirmed | impact:risk</span><br><span class=\"sowhat\">🎯 Hold advice to any Canada-routed guests until Ottawa actually posts tonight&#x27;s decision. A deadline passing is not the same as a lapse — don&#x27;t assume one from the other.</span></p>\n<p><strong>📌 ALSO TONIGHT</strong><br>🇰🇪 Kenya Gazette No. 170 (24 Sep) still unreadable at source; recovered via Vellum&#x27;s weekly digest — a tribunal appointment and a CBK-approved bank transfer, nothing tourism-related.<br>🇺🇬 World Tourism Day: Uganda marked it in Mbale under &quot;Digital Agenda and AI to Redesign Tourism&quot;; Museveni urged wider uptake of tourism income <strong>(UBC, 28 Sep)</strong>.</p>\n<p><strong>🔍 BLIND SPOTS.</strong> Kenya Gazette No. 170 stays unread at source — recovered via Vellum&#x27;s digest, nothing missed. Canada&#x27;s actual 28 Sep decision lands after this edition goes out — watch tomorrow morning. Sweep 23/23 tier-A sources today.</p>\n<p>🔗 This edition on the web: <a href=\"https://eahospitalitypulse.com/editions/pulse-2026-09-28-evening.html\" rel=\"noopener\">eahospitalitypulse.com/editions/pulse-2026-09-28-evenin…</a><br>— EA Hospitality Pulse | Daily intelligence for city, bush &amp; beach properties</p>"
+ },
+ {
   "id": "pulse-2026-09-27-evening",
   "date": "2026-09-27",
   "dateDisplay": "Sunday, 27 September 2026",
@@ -1045,6 +1054,26 @@ window.EDITIONS = [
  }
 ];
 window.INSIGHTS = [
+ {
+  "headline": "UGANDA'S EBOLA RELIEF IS REAL. DRC'S OUTBREAK JUST BECAME ITS WORST EVER",
+  "body": "The UAE eased its Ebola-related visa and entry curbs on Ugandans on **26 Sep**, citing Uganda's completed monitoring period; DRC and South Sudan stay restricted *(NCEMA/MoHAP/ICP via Khaleej Times, 26 Sep)*. Good news — but the outbreak behind every restriction is DRC's, not Uganda's, and WHO's **25 Sep** Disease Outbreak News shows it worsening: **7,890** confirmed cases, **3,799** deaths (48.1% CFR) as of 23 Sep, now the **largest Ebola outbreak DRC has ever recorded**, spreading into two more health zones, one bordering South Sudan *(WHO DON618)*. WHO's own advice: no travel or trade restriction is warranted. Canada, the US and UAE aren't following it — and Canada's own border-measures page, unchanged since 9 Sep, still shows a hard **28 Sep, 23:59 EDT** expiry with no successor posted when we checked this afternoon *(canada.ca)*. **What everyone is missing.** Every restriction that reaches your guests — Canada's 21-day quarantine, the US Title 42 order to 11 Oct — is keyed to DRC's outbreak status, not Uganda's. Uganda easing is not the start of a regional wind-down; DRC's numbers just got worse.",
+  "sowhat": "",
+  "segments": [
+   "city",
+   "bush"
+  ],
+  "countries": "Regional, Uganda, DRC-adjacent",
+  "confidence": "Confirmed",
+  "impact": "risk",
+  "impactClass": "risk",
+  "intensity": 3,
+  "impactSet": "author",
+  "source": "pulse-2026-09-28-evening",
+  "date": "2026-09-28",
+  "dateDisplay": "Monday, 28 September 2026",
+  "edition": "Evening Wrap",
+  "editionKey": "evening"
+ },
  {
   "headline": "TANZANIA'S US$44 VISITOR INSURANCE STARTS THURSDAY 1 OCTOBER, AND THE ARRIVAL AIRPORT DECIDES WHO SELLS IT",
   "body": "A Finance Ministry notice, published by TATO on **26 Sep**, starts GN No. 256 on **1 Oct**. Mainland arrivals buy from **NIC**, Zanzibar arrivals from **ZIC**: **US$44** (~TZS 116,000), **92 days**, multiple entry. No cover, no entry *(Clyde & Co, 16 Sep)*. The selling insurer handles any claim. **What everyone is missing.** It routes by entry point, not itinerary. It doesn't say whether a Kilimanjaro arrival heading on to Zanzibar also owes Zanzibar's own US$44. Clyde & Co read the exemption as EAC/SADC *residents*; press say *citizens*. That decides what Nairobi expats pay for a Serengeti weekend.",
@@ -5688,4 +5717,4 @@ window.INSIGHTS = [
   "editionKey": "evening"
  }
 ];
-window.BUILT_AT = "2026-09-28 08:22";
+window.BUILT_AT = "2026-09-28 13:25";
