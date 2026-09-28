@@ -9,6 +9,15 @@ window.GUIDES = [
   "image": "img/editions/pulse-2026-08-20-morning.jpg"
  },
  {
+  "slug": "tanzania-visitor-insurance-44-dollar-gate",
+  "title": "Tanzania's US$44 gate opens on Thursday. The cost is not the premium, it is the questions nobody has answered.",
+  "description": "From 1 October every foreign visitor entering mainland Tanzania must hold a state-issued travel policy or be refused entry. The premium is small. What will cost East African operators money is the ambiguity around combined itineraries, the exemption and verification at the border, and the three days they have left to fix it.",
+  "category": "Big Read",
+  "updated": "2026-09-28",
+  "readMins": 9,
+  "image": "img/editions/pulse-2026-09-27-evening.jpg"
+ },
+ {
   "slug": "uganda-ebola-allclear-restriction-queue",
   "title": "Uganda's Ebola all-clear was not an event. It was a queue, and Friday was the first name off it.",
   "description": "The World Health Organization closed Uganda's outbreak on 26 August. The United Arab Emirates lifted its entry curbs on 26 September. Washington's suspension order was renewed on 11 September and still lists a country with no cases. For East African operators the lesson is that clearance is not declared, it is negotiated, one government at a time.",
