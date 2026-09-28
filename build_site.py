@@ -441,6 +441,14 @@ _PROCESS_HINT = re.compile(
     r"quiet (?:news )?(?:slot|day|session)|slow news (?:slot|day)|"
     r"one expert brief|then the board", re.I)
 
+# The Aug 2026 cloud-run editions opened with an italic production note
+# ("Automated cloud brief -- repo-backed, verified data only...") that became
+# both the visible standfirst and the meta description on two editions. It is a
+# note about how the brief was made, not what it says: drop it from the
+# furniture. The sign-off line in the body still discloses the automation.
+_AUTOMATED_NOTE = re.compile(
+    r"automated (?:cloud )?brief|verified data only|fuller edited edition", re.I)
+
 # ---------------------------------------------------------------- slot framing
 # "Quiet news slot. So here is a number in the Bank of Tanzania's survey that
 # nobody has read properly." -- that was the HEADLINE on the 28 Aug midday brief,
@@ -943,6 +951,8 @@ def lead_furniture(body_html):
                 _em = re.match(r"^\s*<em>(.*?)</em>\s*$", seg.strip(), re.S)
                 if _em and not standfirst:
                     _raw = _em.group(1).strip()
+                    if _AUTOMATED_NOTE.search(_raw):
+                        continue
                     _sf = strip_process_talk(_raw)
                     # an italic intro that was purely process talk is dropped, not shown
                     if _PROCESS_HINT.search(_raw) and len(_sf) < 25:
@@ -1014,7 +1024,8 @@ def serp_description(standfirst_html, body_html, lead):
         # A description is the one line of ours a searcher reads before deciding.
         # It must not be a sentence about how the brief was made, and it must not
         # open mid-clause because a <br> happened to fall there.
-        if _PROCESS_HINT.search(cand) or _SLOT_FRAMING.match(cand):
+        if (_PROCESS_HINT.search(cand) or _SLOT_FRAMING.match(cand)
+                or _AUTOMATED_NOTE.search(cand)):
             return False
         if not cand[:1].isupper() and not cand[:1].isdigit():
             return False
@@ -1063,6 +1074,15 @@ def edition_page(e, siblings=None, prev=None, nxt=None, hero=None, credit=None):
     h1text = h1full if h1full.endswith(("…", ".", "?", "!")) else h1full + "."
     standfirst, body_html = lead_furniture(e["bodyHtml"])
     desc = serp_description(standfirst, body_html, lead)
+    # A 50-character description wastes two-thirds of the snippet and gives an
+    # answer engine nothing to attribute. Pad thin ones with who/where/when.
+    if len(desc) < 100:
+        _ctx = (f"{e['edition']}, {short_date}: what it means for hotels, lodges "
+                f"and resorts across East Africa.")
+        # drop "1\ufe0f\u20e3"-style keycaps first, then any leading emoji
+        _d = re.sub(r"^\s*\d\uFE0F?\u20E3\s*", "", desc)
+        _d = re.sub(r"^[^0-9A-Za-z\u201c\"']+", "", _d).rstrip(" .\u2026")
+        desc = _trim((_d + ". " if _d else "") + _ctx, 160)
     _plain = re.sub(r"<[^>]+>", " ", body_html)
     wordcount = len(_plain.split())
     news_kw = html.escape("East Africa hospitality, " + e["edition"] + ", Kenya, Uganda, Tanzania, Zanzibar, Rwanda, travel advisories, hotel demand, tourism")
@@ -1200,8 +1220,9 @@ def edition_page(e, siblings=None, prev=None, nxt=None, hero=None, credit=None):
 <script type="application/ld+json">{json.dumps(ld)}</script>
 <script type="application/ld+json">{json.dumps(crumbs)}</script>
 <style>{ARTICLE_CSS}
-.hcredit{{margin:-8px 0 18px;font:12px/1.5 var(--sans);color:#7c8a86}}
-.hcredit a{{color:#5566a3;text-decoration:none}}</style></head>
+.hcredit{{margin:-8px 0 18px;font:12px/1.5 var(--sans);color:#5c6864}}
+.hcredit a{{color:#5566a3;text-decoration:none}}
+@media(prefers-color-scheme:dark){{.hcredit{{color:#909c97}}.hcredit a{{color:#8fa0d8}}}}</style></head>
 <body>
 <a class="skip" href="#content">Skip to the brief</a>
 <header class="s"><div class="wrap"><a href="/"><span class="logo" aria-hidden="true">EA</span><b>EA Hospitality Pulse</b></a></div></header>
@@ -1919,7 +1940,7 @@ def build_signals_page(insights):
   .topbar{display:flex;align-items:center;justify-content:space-between;gap:14px;flex-wrap:wrap}
   .brand{display:flex;align-items:center;gap:12px;text-decoration:none;color:inherit}
   .logo{width:42px;height:42px;border-radius:9px;background:var(--gold);display:grid;place-items:center;font-size:22px;color:#1a1206;font-weight:800;box-shadow:0 2px 8px rgba(0,0,0,.25)}
-  .brand h1{font-size:20px;margin:0;letter-spacing:.2px;color:#fff}
+  .brand .bt{font-size:20px;font-weight:700;margin:0;letter-spacing:.2px;color:#fff;font-family:inherit}
   .brand p{margin:0;font-family:var(--sans);font-size:12.5px;color:#c7d0e0}
   nav.top a{color:#fff;font-family:var(--sans);font-size:14px;margin-left:18px;opacity:.9;text-decoration:none}
   nav.top a:hover{opacity:1;border-bottom:2px solid var(--gold)}
@@ -2039,7 +2060,7 @@ def build_signals_page(insights):
 <body>
 <header class="site"><div class="wrap topbar">
   <a class="brand" href="/"><div class="logo" aria-hidden="true">EA</div>
-    <div><h1>EA Hospitality Pulse</h1><p>Daily intelligence for city, bush &amp; beach properties</p></div></a>
+    <div><p class="bt">EA Hospitality Pulse</p><p>Daily intelligence for city, bush &amp; beach properties</p></div></a>
   <nav class="top">
     <a href="/">Home</a>
     <a href="start-here">New Here? Start Here</a>
