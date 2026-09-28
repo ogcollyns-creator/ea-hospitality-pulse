@@ -1,5 +1,14 @@
 window.GUIDES = [
  {
+  "slug": "corsia-2027-east-africa-carbon-conservancies",
+  "title": "Aviation is about to become carbon's biggest buyer. Kenya's rangelands are not on the list.",
+  "description": "From 1 January every international airline starts buying carbon credits, and East Africa has spent the year selling them. Uganda authorised ten million tonnes, Rwanda 1.77 million, Tanzania signed again last Monday. Kenya, whose conservancies carry the region's safari industry, capped itself at 1.67 million a year and left land use out entirely.",
+  "category": "Big Read",
+  "updated": "2026-09-28",
+  "readMins": 9,
+  "image": "img/editions/pulse-2026-08-20-morning.jpg"
+ },
+ {
   "slug": "uganda-ebola-allclear-restriction-queue",
   "title": "Uganda's Ebola all-clear was not an event. It was a queue, and Friday was the first name off it.",
   "description": "The World Health Organization closed Uganda's outbreak on 26 August. The United Arab Emirates lifted its entry curbs on 26 September. Washington's suspension order was renewed on 11 September and still lists a country with no cases. For East African operators the lesson is that clearance is not declared, it is negotiated, one government at a time.",
