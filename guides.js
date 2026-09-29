@@ -15,7 +15,7 @@ window.GUIDES = [
   "category": "Big Read",
   "updated": "2026-09-29",
   "readMins": 8,
-  "image": "img/editions/pulse-2026-08-19-morning.jpg"
+  "image": "img/editions/kilimanjaro-fire-season-west-closed.jpg"
  },
  {
   "slug": "corsia-2027-east-africa-carbon-conservancies",

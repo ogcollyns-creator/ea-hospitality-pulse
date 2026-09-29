@@ -4,8 +4,8 @@ slug: kilimanjaro-fire-season-west-closed
 description: For the second time in 25 days, fire has forced Tanzania's park authority onto the defensive on Africa's highest mountain, and this time it closed the western approach that carries some of the mountain's longest climbs. The blazes are not bad luck. They arrive at the dry end of the climbing year with a regularity that the hotels, lodges and operators around the mountain have yet to write into their contracts.
 category: Big Read
 updated: 2026-09-29
-image: img/editions/pulse-2026-08-19-morning.jpg
-image_credit: "Photograph: Mount Kilimanjaro surrounded by clouds (ISS071-E-378517) by NASA Johnson Space Center, via Wikimedia Commons, public domain"
+image: img/editions/kilimanjaro-fire-season-west-closed.jpg
+image_credit: "Photograph: Onyango George / EA Hospitality Pulse"
 ---
 
 Early on Monday morning, fire was detected in the Sangarini area of Kamwanga, inside Kilimanjaro National Park on the mountain's western flank, moving towards the Shira Plateau. By the afternoon Tanzania National Parks had done something the September fire earlier this month had not required: it shut two climbing routes. Lemosho and Londorosi, the western approaches, were suspended until further notice.
