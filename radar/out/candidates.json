@@ -1,18 +1,18 @@
 {
- "generated": "2026-09-29T15:25:24+03:00",
- "slot": "midday",
- "window_start": 1790654400,
- "observations_in_window": 571,
+ "generated": "2026-09-29T18:57:07+03:00",
+ "slot": "evening",
+ "window_start": 1790596800,
+ "observations_in_window": 1293,
  "deduped_against": 5,
  "candidates": [
   {
-   "score": 119.4,
+   "score": 115.6,
    "components": {
     "tier": 40,
     "category": 24,
     "lead": 2.4,
     "relevance": 24,
-    "freshness": 17.0,
+    "freshness": 13.2,
     "undated": -6,
     "shock": 18
    },
@@ -45,13 +45,13 @@
    "verdict": "LEAD CANDIDATE \u2014 tier-1 shock language"
   },
   {
-   "score": 119.4,
+   "score": 115.6,
    "components": {
     "tier": 40,
     "category": 24,
     "lead": 2.4,
     "relevance": 24,
-    "freshness": 17.0,
+    "freshness": 13.2,
     "undated": -6,
     "shock": 18
    },
@@ -84,13 +84,13 @@
    "verdict": "LEAD CANDIDATE \u2014 tier-1 shock language"
   },
   {
-   "score": 119.4,
+   "score": 115.6,
    "components": {
     "tier": 40,
     "category": 24,
     "lead": 2.4,
     "relevance": 24,
-    "freshness": 17.0,
+    "freshness": 13.2,
     "undated": -6,
     "shock": 18
    },
@@ -123,13 +123,46 @@
    "verdict": "LEAD CANDIDATE \u2014 tier-1 shock language"
   },
   {
-   "score": 93.4,
+   "score": 101.3,
+   "components": {
+    "tier": 40,
+    "category": 32,
+    "lead": 3.6,
+    "relevance": 0,
+    "freshness": 19.7,
+    "corroborated": 10,
+    "page_change": -4
+   },
+   "keywords": [],
+   "shock_terms": [],
+   "dedupe_match": null,
+   "dedupe_similarity": 0.0,
+   "id": "1479c92cf6ad",
+   "title": "[page changed] Federal Register \u2014 public inspection (HHS/CDC), pre-publication",
+   "url": "https://www.federalregister.gov/api/v1/public-inspection-documents/current.json",
+   "summary": "{\"count\":128,\"results\":[{\"agencies\":[{\"raw_name\":\"RAILROAD RETIREMENT BOARD\",\"name\":\"Railroad Retirement Board\",\"id\":444,\"url\":\"https://www.federalregister.gov/agencies/railroad-retirement-board\",\"json_url\":\"https://www.federalregister.gov/api/v1/agencies/444\",\"parent_id\":null,\"slug\":\"railroad-retirement-board\"}],\"agency_letters\":[],\"agency_names\":[\"Railroad Retirement Board\"],\"docket_numbers\":[],",
+   "kind": "page-change",
+   "source": "Federal Register \u2014 public inspection (HHS/CDC), pre-publication",
+   "source_id": "us-fedreg-pubinspect-hhs",
+   "tier": 1,
+   "country": "REG",
+   "category": "advisory",
+   "segments": [
+    "city",
+    "bush"
+   ],
+   "first_seen": "2026-09-29T18:54+03:00",
+   "published": "2026-09-28",
+   "verdict": "OPEN THIS \u2014 tier-1 advisory page moved; content not auto-parsed, read it manually"
+  },
+  {
+   "score": 89.5,
    "components": {
     "tier": 40,
     "category": 32,
     "lead": 12.0,
     "relevance": 8,
-    "freshness": 11.4,
+    "freshness": 7.5,
     "undated": -6,
     "page_change": -4
    },
@@ -158,13 +191,13 @@
    "verdict": "OPEN THIS \u2014 tier-1 advisory page moved; content not auto-parsed, read it manually"
   },
   {
-   "score": 65.3,
+   "score": 61.4,
    "components": {
     "tier": 40,
     "category": 12,
     "lead": 3.6,
     "relevance": 0,
-    "freshness": 19.7,
+    "freshness": 15.8,
     "undated": -6,
     "page_change": -4
    },
@@ -192,13 +225,86 @@
    "verdict": "OPEN THIS \u2014 tier-1 airline page moved; content not auto-parsed, read it manually"
   },
   {
-   "score": 107.5,
+   "score": 47.0,
+   "components": {
+    "tier": 40,
+    "category": 12,
+    "lead": 3.6,
+    "relevance": 0,
+    "freshness": 1.4,
+    "undated": -6,
+    "page_change": -4
+   },
+   "keywords": [],
+   "shock_terms": [],
+   "dedupe_match": null,
+   "dedupe_similarity": 0.0,
+   "id": "f8fe3815364d",
+   "title": "[page changed] Airlink news",
+   "url": "https://www.flyairlink.com/",
+   "summary": "Request unsuccessful. Incapsula incident ID: 79000390814403104-1012531985917086192",
+   "kind": "page-change",
+   "source": "Airlink news",
+   "source_id": "air-airlink",
+   "tier": 1,
+   "country": "REG",
+   "category": "airline",
+   "segments": [
+    "city",
+    "bush",
+    "beach"
+   ],
+   "first_seen": "2026-09-29T02:11+03:00",
+   "published": null,
+   "verdict": "OPEN THIS \u2014 tier-1 airline page moved; content not auto-parsed, read it manually"
+  },
+  {
+   "score": 108.2,
+   "components": {
+    "tier": 20,
+    "category": 14,
+    "lead": 8.4,
+    "relevance": 36,
+    "freshness": 19.8,
+    "corroborated": 10
+   },
+   "keywords": [
+    "cancel",
+    "vat",
+    "route",
+    "flight",
+    "franc"
+   ],
+   "shock_terms": [],
+   "dedupe_match": null,
+   "dedupe_similarity": 0.0,
+   "id": "13747e7dff62",
+   "title": "Air France Cancels Paris \u2013 Denver in NS27",
+   "url": "https://www.aeroroutes.com/eng/260929-afns27den",
+   "summary": "Published at 0300PDT / 1000GMT 29SEP26 Air France in the last few days filed service changes to Paris Charles de Gaulle \u2013 Denver route, as the carrier closed reservations for summer 2027 season. The Skyteam member previously scheduled 3 weekly flights with 777-200ER from 26APR27. AF058 CDG1325 \u2013 1540DEN 772 136 AF059 DEN1740 \u2013 1110+1CDG 772 136",
+   "kind": "item",
+   "source": "AeroRoutes schedule filings",
+   "source_id": "aeroroutes",
+   "tier": 2,
+   "country": "GLOBAL",
+   "category": "aviation-tracker",
+   "segments": [
+    "city",
+    "bush",
+    "beach"
+   ],
+   "first_seen": "2026-09-29T18:55+03:00",
+   "published": "2026-09-29",
+   "verdict": "CONSIDER"
+  },
+  {
+   "score": 103.6,
    "components": {
     "tier": 40,
     "category": 9,
     "lead": 16.8,
     "relevance": 12,
-    "freshness": 19.7,
+    "freshness": 15.8,
     "corroborated": 10
    },
    "keywords": [
@@ -229,13 +335,81 @@
    "verdict": "STRONG \u2014 tier-1, upstream"
   },
   {
-   "score": 96.8,
+   "score": 101.7,
+   "components": {
+    "tier": 40,
+    "category": 20,
+    "lead": 12.0,
+    "relevance": 0,
+    "freshness": 19.7,
+    "corroborated": 10
+   },
+   "keywords": [],
+   "shock_terms": [],
+   "dedupe_match": null,
+   "dedupe_similarity": 0.0,
+   "id": "aa4594c40f9f",
+   "title": "Weekly Issue 006/26-27",
+   "url": "https://new.kenyalaw.org/akn/ke/doc/newsletter/2026-09-30/weekly-issue-00626-27/eng@2026-09-30",
+   "summary": "Weekly Issue 006/26-27",
+   "kind": "item",
+   "source": "Kenya Gazette (Kenya Law)",
+   "source_id": "ke-gazette",
+   "tier": 1,
+   "country": "KE",
+   "category": "gazette",
+   "segments": [
+    "city",
+    "bush",
+    "beach"
+   ],
+   "first_seen": "2026-09-29T18:54+03:00",
+   "published": "2026-09-30",
+   "verdict": "STRONG \u2014 tier-1, upstream"
+  },
+  {
+   "score": 96.4,
+   "components": {
+    "tier": 40,
+    "category": 18,
+    "lead": 8.4,
+    "relevance": 20,
+    "freshness": 0.0,
+    "corroborated": 10
+   },
+   "keywords": [
+    "eta",
+    "wildlife",
+    "tourism"
+   ],
+   "shock_terms": [],
+   "dedupe_match": null,
+   "dedupe_similarity": 0.2,
+   "id": "2946e966e6b6",
+   "title": "World Tourism Day 2026: Kenya Embraces the Digital Future of Travel",
+   "url": "https://kws.go.ke/world-tourism-day-2026-kenya-embraces-the-digital-future-of-travel",
+   "summary": "Tourism is changing, and so is the way we experience Kenya. Cabinet Secretary for Tourism and Wildlife, Hon. Rebecca Miano, recently led Kenya's World Tourism Day 2026 celebrations in Eldoret, under the theme \"Digital Agenda and Artificial Intelligence to Redesign Tourism.\" The event brought together tourism stakeholders, government leaders, digital creators and industry players to [...]",
+   "kind": "item",
+   "source": "Kenya Wildlife Service",
+   "source_id": "ke-kws",
+   "tier": 1,
+   "country": "KE",
+   "category": "parks",
+   "segments": [
+    "bush"
+   ],
+   "first_seen": "2026-09-28T20:40+03:00",
+   "published": "2026-09-28",
+   "verdict": "STRONG \u2014 tier-1, upstream"
+  },
+  {
+   "score": 93.0,
    "components": {
     "tier": 40,
     "category": 9,
     "lead": 16.8,
     "relevance": 20,
-    "freshness": 17.0,
+    "freshness": 13.2,
     "undated": -6
    },
    "keywords": [
@@ -267,13 +441,87 @@
    "verdict": "STRONG \u2014 tier-1, upstream"
   },
   {
-   "score": 96.1,
+   "score": 92.2,
+   "components": {
+    "tier": 20,
+    "category": 14,
+    "lead": 8.4,
+    "relevance": 20,
+    "freshness": 19.8,
+    "corroborated": 10
+   },
+   "keywords": [
+    "route",
+    "seat",
+    "franc"
+   ],
+   "shock_terms": [],
+   "dedupe_match": null,
+   "dedupe_similarity": 0.0,
+   "id": "3e1ff3280659",
+   "title": "United Further Expands 222-seater 787-9 Network in NW26",
+   "url": "https://www.aeroroutes.com/eng/260929-uanw26789",
+   "summary": "Published at 0600PDT / 1300GMT 29SEP26 United during the weekend of 24SEP26\u2019s schedule update filed additional routes to be operated by the new 222-seater 787-9 aircraft. San Francisco \u2013 Houston 25OCT26 \u2013 15DEC26 1 daily San Francisco \u2013 Sydney eff 02DEC26 UA829/830 3 weekly (Day 357 from SFO, Day 257 from SYD), 1 daily 17DEC26 \u2013 10FEB27",
+   "kind": "item",
+   "source": "AeroRoutes schedule filings",
+   "source_id": "aeroroutes",
+   "tier": 2,
+   "country": "GLOBAL",
+   "category": "aviation-tracker",
+   "segments": [
+    "city",
+    "bush",
+    "beach"
+   ],
+   "first_seen": "2026-09-29T18:55+03:00",
+   "published": "2026-09-29",
+   "verdict": "CONSIDER"
+  },
+  {
+   "score": 92.2,
+   "components": {
+    "tier": 20,
+    "category": 14,
+    "lead": 8.4,
+    "relevance": 20,
+    "freshness": 19.8,
+    "corroborated": 10
+   },
+   "keywords": [
+    "vat",
+    "route",
+    "airline"
+   ],
+   "shock_terms": [],
+   "dedupe_match": null,
+   "dedupe_similarity": 0.0,
+   "id": "ab366eed45c2",
+   "title": "Delta Further Expands NS27 Europe Network",
+   "url": "https://www.aeroroutes.com/eng/260929-dlns27eu",
+   "summary": "Published at 0400PDT / 1100GMT 29SEP26 Delta during the weekend of 26SEP26\u2019s schedule update opened reservations for two additional European routes, reflecting the airline\u2019s announcement last week. Boston \u2013 Venice Marco Polo eff 07MAY27 4 weekly A330-300 DL344 BOS1940 \u2013 0930+1VCE 333 x246 DL345 VCE1140 \u2013 1440BOS 333 x357 Detroit \u2013 Athens eff 08JUN27 3 weekly A330-200 DL308 DTW1800 \u2013 1100+1ATH 332 ",
+   "kind": "item",
+   "source": "AeroRoutes schedule filings",
+   "source_id": "aeroroutes",
+   "tier": 2,
+   "country": "GLOBAL",
+   "category": "aviation-tracker",
+   "segments": [
+    "city",
+    "bush",
+    "beach"
+   ],
+   "first_seen": "2026-09-29T18:55+03:00",
+   "published": "2026-09-29",
+   "verdict": "CONSIDER"
+  },
+  {
+   "score": 92.2,
    "components": {
     "tier": 40,
     "category": 24,
     "lead": 2.4,
     "relevance": 0,
-    "freshness": 19.7,
+    "freshness": 15.8,
     "corroborated": 10
    },
    "keywords": [],
@@ -299,13 +547,13 @@
    "verdict": "STRONG \u2014 tier-1, upstream"
   },
   {
-   "score": 95.5,
+   "score": 91.6,
    "components": {
     "tier": 40,
     "category": 9,
     "lead": 16.8,
     "relevance": 0,
-    "freshness": 19.7,
+    "freshness": 15.8,
     "corroborated": 10
    },
    "keywords": [],
@@ -332,13 +580,13 @@
    "verdict": "STRONG \u2014 tier-1, upstream"
   },
   {
-   "score": 95.5,
+   "score": 91.6,
    "components": {
     "tier": 40,
     "category": 9,
     "lead": 16.8,
     "relevance": 0,
-    "freshness": 19.7,
+    "freshness": 15.8,
     "corroborated": 10
    },
    "keywords": [],
@@ -365,13 +613,13 @@
    "verdict": "STRONG \u2014 tier-1, upstream"
   },
   {
-   "score": 95.5,
+   "score": 91.6,
    "components": {
     "tier": 40,
     "category": 9,
     "lead": 16.8,
     "relevance": 0,
-    "freshness": 19.7,
+    "freshness": 15.8,
     "corroborated": 10
    },
    "keywords": [],
@@ -398,13 +646,13 @@
    "verdict": "STRONG \u2014 tier-1, upstream"
   },
   {
-   "score": 95.5,
+   "score": 91.6,
    "components": {
     "tier": 40,
     "category": 9,
     "lead": 16.8,
     "relevance": 0,
-    "freshness": 19.7,
+    "freshness": 15.8,
     "corroborated": 10
    },
    "keywords": [],
@@ -431,13 +679,13 @@
    "verdict": "STRONG \u2014 tier-1, upstream"
   },
   {
-   "score": 93.4,
+   "score": 89.6,
    "components": {
     "tier": 20,
     "category": 14,
     "lead": 8.4,
     "relevance": 24,
-    "freshness": 17.0,
+    "freshness": 13.2,
     "corroborated": 10
    },
    "keywords": [
@@ -469,13 +717,13 @@
    "verdict": "CONSIDER"
   },
   {
-   "score": 93.4,
+   "score": 89.5,
    "components": {
     "tier": 40,
     "category": 20,
     "lead": 12.0,
     "relevance": 0,
-    "freshness": 11.4,
+    "freshness": 7.5,
     "corroborated": 10
    },
    "keywords": [],
@@ -499,16 +747,16 @@
    ],
    "first_seen": "2026-09-29T07:45+03:00",
    "published": "2026-09-28",
-   "verdict": "STRONG \u2014 tier-1, upstream"
+   "verdict": "CONSIDER"
   },
   {
-   "score": 93.4,
+   "score": 89.5,
    "components": {
     "tier": 40,
     "category": 20,
     "lead": 12.0,
     "relevance": 0,
-    "freshness": 11.4,
+    "freshness": 7.5,
     "corroborated": 10
    },
    "keywords": [],
@@ -532,16 +780,16 @@
    ],
    "first_seen": "2026-09-29T07:45+03:00",
    "published": "2026-09-28",
-   "verdict": "STRONG \u2014 tier-1, upstream"
+   "verdict": "CONSIDER"
   },
   {
-   "score": 93.4,
+   "score": 89.5,
    "components": {
     "tier": 40,
     "category": 20,
     "lead": 12.0,
     "relevance": 0,
-    "freshness": 11.4,
+    "freshness": 7.5,
     "corroborated": 10
    },
    "keywords": [],
@@ -565,16 +813,16 @@
    ],
    "first_seen": "2026-09-29T07:45+03:00",
    "published": "2026-09-28",
-   "verdict": "STRONG \u2014 tier-1, upstream"
+   "verdict": "CONSIDER"
   },
   {
-   "score": 93.4,
+   "score": 89.5,
    "components": {
     "tier": 40,
     "category": 20,
     "lead": 12.0,
     "relevance": 0,
-    "freshness": 11.4,
+    "freshness": 7.5,
     "corroborated": 10
    },
    "keywords": [],
@@ -598,16 +846,16 @@
    ],
    "first_seen": "2026-09-29T07:45+03:00",
    "published": "2026-09-28",
-   "verdict": "STRONG \u2014 tier-1, upstream"
+   "verdict": "CONSIDER"
   },
   {
-   "score": 93.4,
+   "score": 89.5,
    "components": {
     "tier": 40,
     "category": 20,
     "lead": 12.0,
     "relevance": 0,
-    "freshness": 11.4,
+    "freshness": 7.5,
     "corroborated": 10
    },
    "keywords": [],
@@ -631,16 +879,88 @@
    ],
    "first_seen": "2026-09-29T07:45+03:00",
    "published": "2026-09-28",
-   "verdict": "STRONG \u2014 tier-1, upstream"
+   "verdict": "CONSIDER"
   },
   {
-   "score": 89.4,
+   "score": 88.2,
+   "components": {
+    "tier": 20,
+    "category": 14,
+    "lead": 8.4,
+    "relevance": 16,
+    "freshness": 19.8,
+    "corroborated": 10
+   },
+   "keywords": [
+    "vat",
+    "route"
+   ],
+   "shock_terms": [],
+   "dedupe_match": null,
+   "dedupe_similarity": 0.0,
+   "id": "b591a47a809d",
+   "title": "Saudia Tentatively Plans Manchester Increase in 4Q26",
+   "url": "https://www.aeroroutes.com/eng/260929-sv4q26man",
+   "summary": "Published at 0800PDT / 1500GMT 29SEP26 Saudia in recent schedule update intends to move forward planned service increase on Jeddah \u2013 Manchester route. Based on schedule filing, the Skyteam member would increase service from 7 to 10 weekly from 01NOV26, instead of 02JAN27. Reservations for the 3 weekly SV129/128 A321XLR service for November and December 2026 are not available at time this post goes",
+   "kind": "item",
+   "source": "AeroRoutes schedule filings",
+   "source_id": "aeroroutes",
+   "tier": 2,
+   "country": "GLOBAL",
+   "category": "aviation-tracker",
+   "segments": [
+    "city",
+    "bush",
+    "beach"
+   ],
+   "first_seen": "2026-09-29T18:55+03:00",
+   "published": "2026-09-29",
+   "verdict": "CONSIDER"
+  },
+  {
+   "score": 88.2,
+   "components": {
+    "tier": 20,
+    "category": 14,
+    "lead": 8.4,
+    "relevance": 16,
+    "freshness": 19.8,
+    "corroborated": 10
+   },
+   "keywords": [
+    "adr",
+    "route"
+   ],
+   "shock_terms": [],
+   "dedupe_match": null,
+   "dedupe_similarity": 0.0,
+   "id": "d3917b914f75",
+   "title": "Aerolineas Argentinas / SAS Begins Codeshare From Oct 2026",
+   "url": "https://www.aeroroutes.com/eng/260929-arskcodeshare",
+   "summary": "Published at 0700PDT / 1400GMT 29SEP26 Skyteam members SAS and Aerolineas Argentinas this week begins reciprocal codeshare partnership, which will be in effect from 01OCT26. Planned codeshare route includes the following. Aerolineas Argentinas operated by SAS Copenhagen \u2013 Madrid Copenhagen \u2013 Rome Fiumicino Oslo \u2013 Rome Fiumicino Stockholm Arlanda \u2013 Madrid Stockholm Arlanda \u2013 Rome Fiumicino SAS oper",
+   "kind": "item",
+   "source": "AeroRoutes schedule filings",
+   "source_id": "aeroroutes",
+   "tier": 2,
+   "country": "GLOBAL",
+   "category": "aviation-tracker",
+   "segments": [
+    "city",
+    "bush",
+    "beach"
+   ],
+   "first_seen": "2026-09-29T18:55+03:00",
+   "published": "2026-09-29",
+   "verdict": "CONSIDER"
+  },
+  {
+   "score": 85.6,
    "components": {
     "tier": 20,
     "category": 14,
     "lead": 8.4,
     "relevance": 20,
-    "freshness": 17.0,
+    "freshness": 13.2,
     "corroborated": 10
    },
    "keywords": [
@@ -670,13 +990,13 @@
    "verdict": "CONSIDER"
   },
   {
-   "score": 88.8,
+   "score": 85.0,
    "components": {
     "tier": 40,
     "category": 17,
     "lead": 16.8,
     "relevance": 4,
-    "freshness": 17.0,
+    "freshness": 13.2,
     "undated": -6
    },
    "keywords": [
@@ -705,13 +1025,13 @@
    "verdict": "CONSIDER"
   },
   {
-   "score": 88.8,
+   "score": 85.0,
    "components": {
     "tier": 40,
     "category": 17,
     "lead": 16.8,
     "relevance": 4,
-    "freshness": 17.0,
+    "freshness": 13.2,
     "undated": -6
    },
    "keywords": [
@@ -740,13 +1060,13 @@
    "verdict": "CONSIDER"
   },
   {
-   "score": 88.8,
+   "score": 85.0,
    "components": {
     "tier": 40,
     "category": 9,
     "lead": 16.8,
     "relevance": 12,
-    "freshness": 17.0,
+    "freshness": 13.2,
     "undated": -6
    },
    "keywords": [
@@ -777,13 +1097,49 @@
    "verdict": "CONSIDER"
   },
   {
-   "score": 87.5,
+   "score": 84.2,
+   "components": {
+    "tier": 20,
+    "category": 14,
+    "lead": 8.4,
+    "relevance": 12,
+    "freshness": 19.8,
+    "corroborated": 10
+   },
+   "keywords": [
+    "route",
+    "flight"
+   ],
+   "shock_terms": [],
+   "dedupe_match": null,
+   "dedupe_similarity": 0.0,
+   "id": "d9a0765a3d95",
+   "title": "British Airways Expands St. Louis Flights in NS27",
+   "url": "https://www.aeroroutes.com/eng/260929-bans27stl",
+   "summary": "Published at 0500PDT / 1200GMT 29SEP26 British Airways during Northern summer 2027 season plans to increase London Heathrow \u2013 St. Louis service on gradual basis. From 01APR27, BA will launch 5th weekly flight, operating on Thursdays, followed by Mondays and Saturdays service from 19APR27, thus raising overall service to 1 daily. Boeing 787-8 operates this route. BA221 LHR1400 \u2013 1700STL 788 16 BA22",
+   "kind": "item",
+   "source": "AeroRoutes schedule filings",
+   "source_id": "aeroroutes",
+   "tier": 2,
+   "country": "GLOBAL",
+   "category": "aviation-tracker",
+   "segments": [
+    "city",
+    "bush",
+    "beach"
+   ],
+   "first_seen": "2026-09-29T18:55+03:00",
+   "published": "2026-09-29",
+   "verdict": "CONSIDER"
+  },
+  {
+   "score": 83.6,
    "components": {
     "tier": 40,
     "category": 17,
     "lead": 16.8,
     "relevance": 0,
-    "freshness": 19.7,
+    "freshness": 15.8,
     "undated": -6
    },
    "keywords": [],
@@ -810,13 +1166,13 @@
    "verdict": "CONSIDER"
   },
   {
-   "score": 85.7,
+   "score": 81.8,
    "components": {
     "tier": 20,
     "category": 4,
     "lead": 0.0,
     "relevance": 32,
-    "freshness": 19.7,
+    "freshness": 15.8,
     "corroborated": 10
    },
    "keywords": [
@@ -848,13 +1204,89 @@
    "verdict": "CONSIDER"
   },
   {
-   "score": 83.7,
+   "score": 80.2,
+   "components": {
+    "tier": 20,
+    "category": 4,
+    "lead": 2.4,
+    "relevance": 24,
+    "freshness": 19.8,
+    "corroborated": 10
+   },
+   "keywords": [
+    "tariff",
+    "eta",
+    "electricity"
+   ],
+   "shock_terms": [],
+   "dedupe_match": null,
+   "dedupe_similarity": 0.2,
+   "id": "0669d0b94f51",
+   "title": "EPRA, Kenya Power Under Fire Over New Electricity Tariff Categories",
+   "url": "https://www.kenyans.co.ke/news/127436-engineer-sue-epra-kenya-power-over-new-electricity-tariff-categories",
+   "summary": "The dispute comes months after the government announced that Kenya Power had withdrawn its application for a review of retail electricity tariffs for the 2026/27 to 2028/29 tariff control period.",
+   "kind": "item",
+   "source": "Kenyans.co.ke news",
+   "source_id": "ke-kenyans",
+   "tier": 2,
+   "country": "KE",
+   "category": "press",
+   "segments": [
+    "city",
+    "bush",
+    "beach"
+   ],
+   "first_seen": "2026-09-29T18:55+03:00",
+   "published": "2026-09-29",
+   "verdict": "CONSIDER"
+  },
+  {
+   "score": 79.8,
+   "components": {
+    "tier": 20,
+    "category": 4,
+    "lead": 0.0,
+    "relevance": 24,
+    "freshness": 19.8,
+    "undated": -6,
+    "shock": 18
+   },
+   "keywords": [
+    "outbreak",
+    "ebola"
+   ],
+   "shock_terms": [
+    "outbreak"
+   ],
+   "dedupe_match": null,
+   "dedupe_similarity": 0.33,
+   "id": "c997c2622bd3",
+   "title": "DR Congo DR Congo Ebola outbreak exceeds 8,000 cases",
+   "url": "https://www.newvision.co.ug/category/health/dr-congo-ebola-outbreak-exceeds-8000-cases",
+   "summary": "",
+   "kind": "item",
+   "source": "New Vision (Uganda)",
+   "source_id": "np-newvision-ug",
+   "tier": 2,
+   "country": "UG",
+   "category": "press",
+   "segments": [
+    "city",
+    "bush",
+    "beach"
+   ],
+   "first_seen": "2026-09-29T18:55+03:00",
+   "published": null,
+   "verdict": "CONSIDER"
+  },
+  {
+   "score": 79.8,
    "components": {
     "tier": 20,
     "category": 4,
     "lead": 0.0,
     "relevance": 12,
-    "freshness": 19.7,
+    "freshness": 15.8,
     "corroborated": 10,
     "shock": 18
    },
@@ -886,13 +1318,13 @@
    "verdict": "CONSIDER"
   },
   {
-   "score": 81.4,
+   "score": 77.5,
    "components": {
     "tier": 40,
     "category": 20,
     "lead": 12.0,
     "relevance": 8,
-    "freshness": 11.4,
+    "freshness": 7.5,
     "stale_trap": -10
    },
    "keywords": [
@@ -921,13 +1353,13 @@
    "verdict": "CHECK \u2014 source date older than the window"
   },
   {
-   "score": 81.3,
+   "score": 77.4,
    "components": {
     "tier": 40,
     "category": 32,
     "lead": 3.6,
     "relevance": 0,
-    "freshness": 19.7,
+    "freshness": 15.8,
     "stale_trap": -10,
     "page_change": -4
    },
@@ -954,465 +1386,41 @@
    "verdict": "CHECK \u2014 source date older than the window"
   },
   {
-   "score": 81.0,
+   "score": 77.2,
    "components": {
     "tier": 20,
-    "category": 4,
-    "lead": 0.0,
-    "relevance": 12,
-    "freshness": 17.0,
-    "corroborated": 10,
-    "shock": 18
-   },
-   "keywords": [
-    "ebola"
-   ],
-   "shock_terms": [
-    "attack"
-   ],
-   "dedupe_match": null,
-   "dedupe_similarity": 0.11,
-   "id": "4ae1a4501b2a",
-   "title": "Congo politician beaten to death after urging Ebola prevention on radio, party says",
-   "url": "https://www.theeastafrican.co.ke/tea/news/east-africa/congo-politician-beaten-to-death-after-urging-ebola-prevention-5612944",
-   "summary": "The incident is the latest in a series of attacks on Ebola response teams, underscoring...",
-   "kind": "item",
-   "source": "The EastAfrican",
-   "source_id": "np-eastafrican",
-   "tier": 2,
-   "country": "REG",
-   "category": "press",
-   "segments": [
-    "city",
-    "bush",
-    "beach"
-   ],
-   "first_seen": "2026-09-29T12:55+03:00",
-   "published": "2026-09-29",
-   "verdict": "CONSIDER"
-  },
-  {
-   "score": 81.0,
-   "components": {
-    "tier": 40,
-    "category": 32,
-    "lead": 3.6,
-    "relevance": 0,
-    "freshness": 11.4,
-    "undated": -6
-   },
-   "keywords": [],
-   "shock_terms": [],
-   "dedupe_match": null,
-   "dedupe_similarity": 0.12,
-   "id": "7bd3d73dd782",
-   "title": "Security Alert: U.S. Embassy Kampala, Uganda (September 28, 2026)",
-   "url": "https://ug.usembassy.gov/security-alert-u-s-embassy-kampala-uganda-september-28-2026",
-   "summary": "",
-   "kind": "item",
-   "source": "US Embassy Kampala \u2014 travel advisory & alerts",
-   "source_id": "adv-us-embassy-uganda",
-   "tier": 1,
-   "country": "UG",
-   "category": "advisory",
-   "segments": [
-    "city",
-    "bush"
-   ],
-   "first_seen": "2026-09-29T07:45+03:00",
-   "published": null,
-   "verdict": "CONSIDER"
-  },
-  {
-   "score": 80.5,
-   "components": {
-    "tier": 40,
-    "category": 10,
-    "lead": 16.8,
-    "relevance": 0,
-    "freshness": 19.7,
-    "undated": -6
-   },
-   "keywords": [],
-   "shock_terms": [],
-   "dedupe_match": null,
-   "dedupe_similarity": 0.0,
-   "id": "062bbf27e9fe",
-   "title": "Manufacturers cry foul over digital number plate monopoly Tuesday, 29 September 2026",
-   "url": "https://www.parliament.go.ug/news/4635/manufacturers-cry-foul-over-digital-number-plate-monopoly",
-   "summary": "",
-   "kind": "item",
-   "source": "Parliament of Uganda",
-   "source_id": "ug-parliament",
-   "tier": 1,
-   "country": "UG",
-   "category": "legislature",
-   "segments": [
-    "city",
-    "bush",
-    "beach"
-   ],
-   "first_seen": "2026-09-29T15:20+03:00",
-   "published": null,
-   "verdict": "CONSIDER"
-  },
-  {
-   "score": 80.5,
-   "components": {
-    "tier": 40,
-    "category": 10,
-    "lead": 16.8,
-    "relevance": 0,
-    "freshness": 19.7,
-    "undated": -6
-   },
-   "keywords": [],
-   "shock_terms": [],
-   "dedupe_match": null,
-   "dedupe_similarity": 0.0,
-   "id": "48402959ec5f",
-   "title": "Minister hails Speaker on steering 12th Parliament Monday, 28 September 2026",
-   "url": "https://www.parliament.go.ug/news/4634/minister-hails-speaker-steering-12th-parliament",
-   "summary": "",
-   "kind": "item",
-   "source": "Parliament of Uganda",
-   "source_id": "ug-parliament",
-   "tier": 1,
-   "country": "UG",
-   "category": "legislature",
-   "segments": [
-    "city",
-    "bush",
-    "beach"
-   ],
-   "first_seen": "2026-09-29T15:20+03:00",
-   "published": null,
-   "verdict": "CONSIDER"
-  },
-  {
-   "score": 80.5,
-   "components": {
-    "tier": 40,
-    "category": 10,
-    "lead": 16.8,
-    "relevance": 0,
-    "freshness": 19.7,
-    "undated": -6
-   },
-   "keywords": [],
-   "shock_terms": [],
-   "dedupe_match": null,
-   "dedupe_similarity": 0.0,
-   "id": "a4401be78236",
-   "title": "Order Paper For Tuesday, 29th September 2026",
-   "url": "https://www.parliament.go.ke/sites/default/files/2026-09/ORDER%20PAPER%20FOR%20TUESDAY%2C%2029TH%20SEPTEMBER%202026_0.pdf",
-   "summary": "",
-   "kind": "doc",
-   "source": "Parliament of Kenya \u2014 bills & papers",
-   "source_id": "ke-parliament",
-   "tier": 1,
-   "country": "KE",
-   "category": "legislature",
-   "segments": [
-    "city",
-    "bush",
-    "beach"
-   ],
-   "first_seen": "2026-09-29T15:19+03:00",
-   "published": null,
-   "verdict": "CONSIDER"
-  },
-  {
-   "score": 79.8,
-   "components": {
-    "tier": 20,
-    "category": 14,
-    "lead": 8.4,
-    "relevance": 16,
-    "freshness": 11.4,
-    "corroborated": 10
-   },
-   "keywords": [
-    "route",
-    "airline",
-    "flight"
-   ],
-   "shock_terms": [],
-   "dedupe_match": null,
-   "dedupe_similarity": 0.0,
-   "id": "4d98fa6d8d95",
-   "title": "EastarJet Revises NW26 Busan \u2013 Xiamen Service Launch",
-   "url": "https://www.aeroroutes.com/eng/260928-zenw26pusxmn",
-   "summary": "Published at 1800PDT 28SEP26 / 0100GMT 29SEP26 Korean carrier EastarJet in recent schedule update once again filed Busan \u2013 Xiamen schedule, after the airline briefly removed this route. The revision now sees 2 weekly flights scheduled from 29OCT26, increasing to 3 weekly from 01DEC26. ZE975 PUS1100 \u2013 1250XMN 738 247 ZE976 XMN1350 \u2013 1720PUS 738 247",
-   "kind": "item",
-   "source": "AeroRoutes schedule filings",
-   "source_id": "aeroroutes",
-   "tier": 2,
-   "country": "GLOBAL",
-   "category": "aviation-tracker",
-   "segments": [
-    "city",
-    "bush",
-    "beach"
-   ],
-   "first_seen": "2026-09-29T07:46+03:00",
-   "published": "2026-09-29",
-   "verdict": "CONSIDER"
-  },
-  {
-   "score": 79.8,
-   "components": {
-    "tier": 20,
-    "category": 14,
-    "lead": 8.4,
-    "relevance": 16,
-    "freshness": 11.4,
-    "corroborated": 10
-   },
-   "keywords": [
-    "route",
-    "airline",
-    "flight"
-   ],
-   "shock_terms": [],
-   "dedupe_match": null,
-   "dedupe_similarity": 0.2,
-   "id": "7c09cbc8cddc",
-   "title": "Juneyao Resumes Shanghai \u2013 Chiang Mai in 4Q26",
-   "url": "https://www.aeroroutes.com/eng/260928-honw26cnx",
-   "summary": "Published at 1701PDT 28SEP26 / 0001GMT 29SEP26 Juneyao Airlines from mid-October 2026 plans to resume Shanghai Pu Dong \u2013 Chiang Mai route, last served until March 2025. The carrier initially schedules 4 weekly flights from 17OCT26, switching to 3 weekly from 05NOV26. Airbus A320 aircraft operates this route. HO1363 PVG2015 \u2013 0030+1CNX 320 246 HO1364 CNX0130 \u2013 0620PVG 320 357",
-   "kind": "item",
-   "source": "AeroRoutes schedule filings",
-   "source_id": "aeroroutes",
-   "tier": 2,
-   "country": "GLOBAL",
-   "category": "aviation-tracker",
-   "segments": [
-    "city",
-    "bush",
-    "beach"
-   ],
-   "first_seen": "2026-09-29T07:46+03:00",
-   "published": "2026-09-29",
-   "verdict": "CONSIDER"
-  },
-  {
-   "score": 79.7,
-   "components": {
-    "tier": 20,
-    "category": 4,
-    "lead": 0.0,
-    "relevance": 8,
-    "freshness": 19.7,
-    "corroborated": 10,
-    "shock": 18
-   },
-   "keywords": [
-    "strike"
-   ],
-   "shock_terms": [
-    "strike"
-   ],
-   "dedupe_match": null,
-   "dedupe_similarity": 0.0,
-   "id": "6f480ed27352",
-   "title": "As the rains return, beware of lightning",
-   "url": "https://www.monitor.co.ug/uganda/oped/editorial/as-the-rains-return-beware-of-lightning-5612894",
-   "summary": "To prevent lightning strikes, the authorities must educate people using all communication...",
-   "kind": "item",
-   "source": "Daily Monitor (Uganda)",
-   "source_id": "np-monitor-ug",
-   "tier": 2,
-   "country": "UG",
-   "category": "press",
-   "segments": [
-    "city",
-    "bush",
-    "beach"
-   ],
-   "first_seen": "2026-09-29T15:20+03:00",
-   "published": "2026-09-29",
-   "verdict": "CONSIDER"
-  },
-  {
-   "score": 79.4,
-   "components": {
-    "tier": 20,
-    "category": 4,
+    "category": 5,
     "lead": 2.4,
-    "relevance": 8,
-    "freshness": 17.0,
-    "corroborated": 10,
-    "shock": 18
-   },
-   "keywords": [
-    "strike"
-   ],
-   "shock_terms": [
-    "strike"
-   ],
-   "dedupe_match": null,
-   "dedupe_similarity": 0.25,
-   "id": "faf014cccab6",
-   "title": "University Clarifies Shutdown Over Looming Lecturers Strike",
-   "url": "https://www.kenyans.co.ke/news/127426-masinde-muliro-university-refutes-claims-shutdown-over-lecturers-strike",
-   "summary": "Looming lecturers strike has sparked fears of disruptions to teaching and learning in public universities if no agreement is reached before Friday.",
-   "kind": "item",
-   "source": "Kenyans.co.ke news",
-   "source_id": "ke-kenyans",
-   "tier": 2,
-   "country": "KE",
-   "category": "press",
-   "segments": [
-    "city",
-    "bush",
-    "beach"
-   ],
-   "first_seen": "2026-09-29T12:55+03:00",
-   "published": "2026-09-29",
-   "verdict": "CONSIDER"
-  },
-  {
-   "score": 78.6,
-   "components": {
-    "tier": 40,
-    "category": 32,
-    "lead": 3.6,
-    "relevance": 0,
-    "freshness": 17.0,
-    "stale_trap": -10,
-    "page_change": -4
-   },
-   "keywords": [],
-   "shock_terms": [],
-   "dedupe_match": null,
-   "dedupe_similarity": 0.0,
-   "id": "fbe71b172247",
-   "title": "[page changed] Federal Register \u2014 public inspection (HHS/CDC), pre-publication",
-   "url": "https://www.federalregister.gov/api/v1/public-inspection-documents/current.json",
-   "summary": "{\"count\":117,\"results\":[{\"agencies\":[{\"raw_name\":\"SECURITIES AND EXCHANGE COMMISSION\",\"name\":\"Securities and Exchange Commission\",\"id\":466,\"url\":\"https://www.federalregister.gov/agencies/securities-and-exchange-commission\",\"json_url\":\"https://www.federalregister.gov/api/v1/agencies/466\",\"parent_id\":null,\"slug\":\"securities-and-exchange-commission\"}],\"agency_letters\":[],\"agency_names\":[\"Securities a",
-   "kind": "page-change",
-   "source": "Federal Register \u2014 public inspection (HHS/CDC), pre-publication",
-   "source_id": "us-fedreg-pubinspect-hhs",
-   "tier": 1,
-   "country": "REG",
-   "category": "advisory",
-   "segments": [
-    "city",
-    "bush"
-   ],
-   "first_seen": "2026-09-29T12:54+03:00",
-   "published": "2026-09-25",
-   "verdict": "CHECK \u2014 source date older than the window"
-  },
-  {
-   "score": 78.3,
-   "components": {
-    "tier": 20,
-    "category": 5,
-    "lead": 3.6,
     "relevance": 20,
-    "freshness": 19.7,
+    "freshness": 19.8,
     "corroborated": 10
    },
    "keywords": [
-    "vat",
-    "booking",
-    "guest",
-    "operator"
-   ],
-   "shock_terms": [],
-   "dedupe_match": null,
-   "dedupe_similarity": 0.0,
-   "id": "b79fb7d12d5b",
-   "title": "The Hidden Link Between Guest Data, POS Intelligence, and Restaurant Profitability",
-   "url": "https://www.hospitalitynet.org/opinion/4134620/the-hidden-link-between-guest-data-pos-intelligence-and-restaurant-profitability",
-   "summary": "Insights from a Shiji webinar explore how linking reservation and POS data helps restaurant operators move beyond booking volume to understand guest value, channel profitability, and sustainable margins.",
-   "kind": "item",
-   "source": "Hospitality Net \u2014 Africa announcements",
-   "source_id": "dev-hospitalitynet-africa",
-   "tier": 2,
-   "country": "REG",
-   "category": "trade",
-   "segments": [
-    "city",
-    "bush",
-    "beach"
-   ],
-   "first_seen": "2026-09-29T15:20+03:00",
-   "published": "2026-09-29",
-   "verdict": "CONSIDER"
-  },
-  {
-   "score": 78.3,
-   "components": {
-    "tier": 20,
-    "category": 5,
-    "lead": 3.6,
-    "relevance": 20,
-    "freshness": 19.7,
-    "corroborated": 10
-   },
-   "keywords": [
-    "vat",
     "hotel",
-    "booking",
-    "guest"
+    "resort",
+    "opening",
+    "signing",
+    "pipeline"
    ],
    "shock_terms": [],
    "dedupe_match": null,
    "dedupe_similarity": 0.0,
-   "id": "9fc3216433e2",
-   "title": "New hotel reservation analysis raise questions about guest experience and lost revenue opportunities",
-   "url": "https://www.hospitalitynet.org/news/4134608/new-hotel-reservation-analysis-raise-questions-about-guest-experience-and-lost-revenue-opportunities",
-   "summary": "Lobby's analysis of hotel reservation workflows finds only 44% of multi-question guest enquiries are fully answered, and 42% of refused requests end without an alternative booking proposal.",
+   "id": "4ace07dd3f7f",
+   "title": "Radisson Hotel Group strengthens Middle East and Northeast Africa growth with landmark signings, openings, and branded residences",
+   "url": "https://www.hospitalitynet.org/news/4134638/radisson-hotel-group-strengthens-middle-east-and-northeast-africa-growth-with-landmark-signings-openings-and-branded-residences",
+   "summary": "Radisson Hotel Group reports 12 months of regional growth including 1,500+ new keys signed in Saudi Arabia, UAE resort and branded residence projects, and Egypt pipeline targeting 30 hotels by 2030.",
    "kind": "item",
-   "source": "Hospitality Net \u2014 Africa announcements",
-   "source_id": "dev-hospitalitynet-africa",
+   "source": "Hospitality Net: Africa openings",
+   "source_id": "dev-hospitalitynet-openings",
    "tier": 2,
-   "country": "REG",
+   "country": "AFRICA",
    "category": "trade",
    "segments": [
     "city",
     "bush",
     "beach"
    ],
-   "first_seen": "2026-09-29T15:20+03:00",
-   "published": "2026-09-29",
-   "verdict": "CONSIDER"
-  },
-  {
-   "score": 77.4,
-   "components": {
-    "tier": 20,
-    "category": 14,
-    "lead": 8.4,
-    "relevance": 8,
-    "freshness": 17.0,
-    "corroborated": 10
-   },
-   "keywords": [
-    "route"
-   ],
-   "shock_terms": [],
-   "dedupe_match": null,
-   "dedupe_similarity": 0.2,
-   "id": "f405b3a7fd17",
-   "title": "Air China Oct 2026 C919 International Operations",
-   "url": "https://www.aeroroutes.com/eng/260929-caoct26ubn",
-   "summary": "Published at 0200PDT / 0900GMT 29SEP26 Air China during the month of October 2026 continues to operate COMAC C919 aircraft on Beijing Capital \u2013 Ulaanbaatar route. From 30SEP26 to 24OCT26, COMAC C919 to operate this route 4 weekly round-trip. CA901 PEK0840 \u2013 1050UBN 919 15 CA901 PEK0845 \u2013 1050UBN 919 37 CA901 PEK0845 \u2013 1050UBN 7M8 246 CA955 PEK1255 \u2013 1505UBN 7M8 1 CA955 PEK1300 \u2013 1505UBN 7M8 357 CA",
-   "kind": "item",
-   "source": "AeroRoutes schedule filings",
-   "source_id": "aeroroutes",
-   "tier": 2,
-   "country": "GLOBAL",
-   "category": "aviation-tracker",
-   "segments": [
-    "city",
-    "bush",
-    "beach"
-   ],
-   "first_seen": "2026-09-29T12:54+03:00",
+   "first_seen": "2026-09-29T18:55+03:00",
    "published": "2026-09-29",
    "verdict": "CONSIDER"
   }
