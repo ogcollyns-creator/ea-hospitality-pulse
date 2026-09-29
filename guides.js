@@ -1,5 +1,14 @@
 window.GUIDES = [
  {
+  "slug": "corporate-travel-rebound-east-africa-rate-squeeze",
+  "title": "Corporate travel's money is coming back. East Africa is the market buyers have been told to squeeze.",
+  "description": "Global business travel spend is forecast to rise 7.2% this year on trip volumes up just 1.3%, while Africa's average room rate fell 19.8% and Kenya's fell 22.2%. The rebound reaches East Africa as a rate negotiation, not a volume windfall.",
+  "category": "Big Read",
+  "updated": "2026-09-29",
+  "readMins": 8,
+  "image": "img/kigali-convention.jpg"
+ },
+ {
   "slug": "corsia-2027-east-africa-carbon-conservancies",
   "title": "Aviation is about to become carbon's biggest buyer. Kenya's rangelands are not on the list.",
   "description": "From 1 January every international airline starts buying carbon credits, and East Africa has spent the year selling them. Uganda authorised ten million tonnes, Rwanda 1.77 million, Tanzania signed again last Monday. Kenya, whose conservancies carry the region's safari industry, capped itself at 1.67 million a year and left land use out entirely.",
