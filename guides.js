@@ -9,6 +9,15 @@ window.GUIDES = [
   "image": "img/kigali-convention.jpg"
  },
  {
+  "slug": "kilimanjaro-fire-season-west-closed",
+  "title": "Kilimanjaro has a fire season. The business around it still sells September as if it does not.",
+  "description": "For the second time in 25 days, fire has forced Tanzania's park authority onto the defensive on Africa's highest mountain, and this time it closed the western approach that carries some of the mountain's longest climbs. The blazes are not bad luck. They arrive at the dry end of the climbing year with a regularity that the hotels, lodges and operators around the mountain have yet to write into their contracts.",
+  "category": "Big Read",
+  "updated": "2026-09-29",
+  "readMins": 8,
+  "image": "img/editions/pulse-2026-08-19-morning.jpg"
+ },
+ {
   "slug": "corsia-2027-east-africa-carbon-conservancies",
   "title": "Aviation is about to become carbon's biggest buyer. Kenya's rangelands are not on the list.",
   "description": "From 1 January every international airline starts buying carbon credits, and East Africa has spent the year selling them. Uganda authorised ten million tonnes, Rwanda 1.77 million, Tanzania signed again last Monday. Kenya, whose conservancies carry the region's safari industry, capped itself at 1.67 million a year and left land use out entirely.",
