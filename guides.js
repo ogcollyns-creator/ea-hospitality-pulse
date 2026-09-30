@@ -1,5 +1,14 @@
 window.GUIDES = [
  {
+  "slug": "arrivals-downgrade-east-africa-seat-not-rate",
+  "title": "East Africa outgrew the world this year. The bill is arriving at the airport.",
+  "description": "UN Tourism has halved its 2026 growth forecast, and Africa is the fastest-growing region in a world that has almost stopped growing. The figure East African operators will quote in their 2027 rate letters is real. The constraint it hides has moved from the room rate to the cost of the seat.",
+  "category": "Big Read",
+  "updated": "2026-09-30",
+  "readMins": 8,
+  "image": "img/editions/east-africa-route-map-fares.jpg"
+ },
+ {
   "slug": "corporate-travel-rebound-east-africa-rate-squeeze",
   "title": "Corporate travel's money is coming back. East Africa is the market buyers have been told to squeeze.",
   "description": "Global business travel spend is forecast to rise 7.2% this year on trip volumes up just 1.3%, while Africa's average room rate fell 19.8% and Kenya's fell 22.2%. The rebound reaches East Africa as a rate negotiation, not a volume windfall.",
