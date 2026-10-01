@@ -1,11 +1,12 @@
 {
- "generated": "2026-09-30T12:02+03:00",
- "health": 0.6,
- "grade": "C",
+ "generated": "2026-10-01T12:26+03:00",
+ "health": 0.5,
+ "grade": "D",
  "fails": [
   "source coverage",
   "source staleness",
-  "edition cadence"
+  "edition cadence",
+  "ledger hygiene"
  ],
  "warns": [
   "signal quality",
@@ -29,14 +30,14 @@
   {
    "name": "radar feed freshness",
    "status": "PASS",
-   "detail": "650 in-window obs; newest observation 4.5h old (2026-09-30T07:32:00+03:00).",
+   "detail": "873 in-window obs; newest observation 4.7h old (2026-10-01T07:42:00+03:00).",
    "fix": "",
    "score": 1.0
   },
   {
    "name": "edition cadence",
    "status": "FAIL",
-   "detail": "Missing slots (last 2 full days): 2026-09-29 morning, 2026-09-29 midday, 2026-09-29 evening, 2026-09-28 morning, 2026-09-28 midday",
+   "detail": "Missing slots (last 2 full days): 2026-09-30 morning, 2026-09-30 midday, 2026-09-29 morning, 2026-09-29 midday, 2026-09-29 evening",
    "fix": "Confirm the scheduled Pulse task fired for each slot.",
    "score": 0.0
   },
@@ -49,15 +50,15 @@
   },
   {
    "name": "ledger hygiene",
-   "status": "PASS",
-   "detail": "216 calls: 153 open, 57 resolved. Overdue-open: 0. Missing source_url: 40.",
-   "fix": "",
-   "score": 1.0
+   "status": "FAIL",
+   "detail": "216 calls: 153 open, 57 resolved. Overdue-open: 8. Missing source_url: 40.",
+   "fix": "Resolve overdue calls now: P050, P059, P060, P071, P112, P138, P140, P176. ",
+   "score": 0.0
   },
   {
    "name": "data freshness",
    "status": "WARN",
-   "detail": "Stale/again-verify: costs.js 16d>10, calendar.js 63d>21",
+   "detail": "Stale/again-verify: advisories.js 5d>4, costs.js 17d>10, calendar.js 64d>21",
    "fix": "Re-verify each dataset's values and bump its 'updated:' field, or note it in-edition.",
    "score": 0.5
   },
@@ -71,7 +72,7 @@
   {
    "name": "forecast throughput",
    "status": "PASS",
-   "detail": "9 new falsifiable calls logged in last 7d.",
+   "detail": "7 new falsifiable calls logged in last 7d.",
    "fix": "",
    "score": 1.0
   },
