@@ -4,7 +4,7 @@
 
 **🌆 EVENING WRAP · Wed 30 Sep 2026**
 
-Two-day window (no 29 Sep Wrap). Canada keeps Uganda on its Ebola list, Tanzania's insurance starts tomorrow, Kenya's costs tick up.
+Canada keeps Uganda on its Ebola list, Tanzania's insurance starts tomorrow, Kenya's costs tick up.
 ━━━━━━━━━
 1️⃣ CANADA EXTENDED ITS EBOLA BORDER MEASURES TO 27 NOVEMBER, UGANDA STILL LISTED
 
