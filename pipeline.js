@@ -33,6 +33,12 @@ window.PIPELINE = {
     source:"W Hospitality Group, Hotel Chain Development Pipelines in Africa 2026 (10 Mar 2026), via ENA / Capital Ethiopia / ATTA", verified:true }
  ],
  projects: [
+    { property:"Ubuyu, a Banyan Tree Escape", brand:"Banyan Group / Banyan Tree Escape",
+    country:"Tanzania", flag:"🇹🇿", rooms:6, status:"Opened", opening:"September 2026",
+    signed:null,
+    detail:"Six private riverside villas with plunge pools on the Great Ruaha River in Ruaha National Park (Iringa region); access by Msembe airstrip then a 45-60 minute drive; solar-powered. Banyan Group's first safari property and the second Banyan Tree Escape worldwide.",
+    impact:"Ultra-premium branded supply in southern Tanzania's Ruaha circuit, a market of independent camps; expect rate-ceiling pressure on top-tier Ruaha camps.",
+    segment:"Bush", source:"Banyan Group via Hospitality Net, 17 Sep 2026", verified:true, flagged:"watch" },
   { property:"voco Nairobi Airport Suites", brand:"IHG / voco",
     country:"Kenya", flag:"🇰🇪", rooms:112, status:"Opened", opening:"September 2026",
     signed:null,
