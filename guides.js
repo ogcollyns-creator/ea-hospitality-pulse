@@ -1,5 +1,14 @@
 window.GUIDES = [
  {
+  "slug": "parity-comesa-east-africa-unused-law",
+  "title": "Europe's hotels spent twenty years getting to court. East Africa was handed the law in December.",
+  "description": "Some 18,000 European hotels will be claiming damages from Booking.com this autumn over price parity clauses. A regional regulation in force across Kenya, Uganda and Rwanda since December already prohibits those clauses by name. Nobody in East African hospitality has opened the file.",
+  "category": "Big Read",
+  "updated": "2026-10-01",
+  "readMins": 9,
+  "image": "img/editions/parity-comesa-east-africa-unused-law.jpg"
+ },
+ {
   "slug": "arrivals-downgrade-east-africa-seat-not-rate",
   "title": "East Africa outgrew the world this year. The bill is arriving at the airport.",
   "description": "UN Tourism has halved its 2026 growth forecast, and Africa is the fastest-growing region in a world that has almost stopped growing. The figure East African operators will quote in their 2027 rate letters is real. The constraint it hides has moved from the room rate to the cost of the seat.",

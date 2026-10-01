@@ -1,5 +1,5 @@
 window.LEDGER = {
- "updated": "2026-09-30 05:50",
+ "updated": "2026-10-01 06:11",
  "stats": {
   "total": 216,
   "open": 153,
@@ -24,7 +24,7 @@ window.LEDGER = {
    "resolved_date": "",
    "evidence": "",
    "source_url": "https://ke.usembassy.gov/health-alert-dengue-fever-on-kenyan-coast-and-in-wajir-and-garissa-counties/",
-   "overdue": false
+   "overdue": true
   },
   {
    "id": "P059",
@@ -40,7 +40,7 @@ window.LEDGER = {
    "resolved_date": "",
    "evidence": "",
    "source_url": "https://travel.state.gov/content/travel/en/traveladvisories/traveladvisories/uganda-travel-advisory.html",
-   "overdue": false
+   "overdue": true
   },
   {
    "id": "P060",
@@ -56,7 +56,7 @@ window.LEDGER = {
    "resolved_date": "",
    "evidence": "",
    "source_url": "https://www.gov.uk/foreign-travel-advice/uganda",
-   "overdue": false
+   "overdue": true
   },
   {
    "id": "P071",
@@ -72,7 +72,7 @@ window.LEDGER = {
    "resolved_date": "",
    "evidence": "",
    "source_url": "",
-   "overdue": false
+   "overdue": true
   },
   {
    "id": "P112",
@@ -88,7 +88,7 @@ window.LEDGER = {
    "resolved_date": "",
    "evidence": "",
    "source_url": "",
-   "overdue": false
+   "overdue": true
   },
   {
    "id": "P138",
@@ -104,7 +104,7 @@ window.LEDGER = {
    "resolved_date": "",
    "evidence": "",
    "source_url": "https://travel.state.gov/content/travel/en/traveladvisories/traveladvisories/kenya-travel-advisory.html",
-   "overdue": false
+   "overdue": true
   },
   {
    "id": "P140",
@@ -120,7 +120,7 @@ window.LEDGER = {
    "resolved_date": "",
    "evidence": "",
    "source_url": "https://www.kbc.co.ke/flight-disruptions-persist-at-jkia-as-kawu-calls-off-strike/",
-   "overdue": false
+   "overdue": true
   },
   {
    "id": "P176",
@@ -136,7 +136,7 @@ window.LEDGER = {
    "resolved_date": "",
    "evidence": "",
    "source_url": "https://www.the-star.co.ke/news/2026-09-12-police-bar-large-political-rallies-from-nairobi-cbd",
-   "overdue": false
+   "overdue": true
   },
   {
    "id": "P110",
