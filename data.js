@@ -1,15 +1,15 @@
 window.EDITIONS = [
  {
-  "id": "pulse-2026-09-30-evening (2)",
+  "id": "pulse-2026-09-30-evening",
   "date": "2026-09-30",
   "dateDisplay": "Wednesday, 30 September 2026",
   "edition": "Evening Wrap",
   "editionKey": "evening",
-  "summary": "Two-day window (no 29 Sep Wrap). Canada keeps Uganda on its Ebola list, Tanzania's insurance starts tomorrow, Kenya's costs tick up.",
-  "bodyHtml": "<p><strong>🌆 EVENING WRAP · Wed 30 Sep 2026</strong></p>\n<p>Two-day window (no 29 Sep Wrap). Canada keeps Uganda on its Ebola list, Tanzania&#x27;s insurance starts tomorrow, Kenya&#x27;s costs tick up.<br>━━━━━━━━━<br><span class=\"item-head\">1️⃣ CANADA EXTENDED ITS EBOLA BORDER MEASURES TO 27 NOVEMBER, UGANDA STILL LISTED</span></p>\n<p>Canada&#x27;s 28 Sep notice extends by 60 days the suspension of immigration documents for people whose last country of residence is the DRC, Uganda or South Sudan, to <strong>27 Nov</strong>; applications are accepted but not finalised <strong>(IRCC, 28 Sep)</strong>. CP24 reports Uganda&#x27;s own outbreak was declared over in late August <strong>(CP24, 28 Sep)</strong>, and the UAE eased on Ugandans on 26 Sep. <strong>Our inference:</strong> source-market rules on Uganda are diverging, and a country&#x27;s own all-clear no longer ends anyone else&#x27;s measure.<br><span class=\"tagline\">🏷 City, Bush | Uganda, Regional | Confirmed | impact:risk</span><br><span class=\"sowhat\">🎯 So what: Uganda-resident staff, partners or delegates bound for Canada are blocked to 27 Nov. We have not read PHAC&#x27;s order on returning travellers, so confirm its conditions before advising Canada-source guests.</span></p>\n<p><span class=\"item-head\">2️⃣ TANZANIA&#x27;S US$44 INBOUND INSURANCE STARTS TOMORROW, 1 OCTOBER</span></p>\n<p>NIC&#x27;s FAQ (read 30 Sep): US$44 per person, bought at inbound.nicinsurance.co.tz or on arrival; cover &quot;excludes all foreigners who are residents of&quot; EAC or SADC states, so the test is residence, not passport; a certificate &quot;may be required&quot; at entry. The FAQ is silent on whether a Zanzibar policy counts on the mainland, so the possible US$88 double charge stays unanswered <strong>(NIC, 30 Sep; GN 256, 4 Sep)</strong>.<br><span class=\"tagline\">🏷 Bush, City | Tanzania, Zanzibar | Confirmed | impact:margin</span><br><span class=\"sowhat\">🎯 So what: put the NIC link in every pre-arrival pack today and quote the charge as a per-person government cost outside the net rate.</span></p>\n<p><span class=\"item-head\">3️⃣ KENYA&#x27;S INFLATION ROSE TO 6.8% IN SEPTEMBER, WITH TRANSPORT UP 15.6%</span></p>\n<p>KNBS put annual inflation at <strong>6.8%</strong> against 6.6% in August; food is +9.5%, transport +15.6%, housing and utilities +3.2% <strong>(KNBS via Capital FM, 30 Sep)</strong>. Food and transport are your F&amp;B and supplier-delivery lines.<br><span class=\"tagline\">🏷 City, Bush, Beach | Kenya | Confirmed | impact:margin</span><br><span class=\"sowhat\">🎯 So what: add a cost-variation clause to 2027 Kenya contracts now, before the 14 Oct fuel-VAT and pump-price decisions.</span></p>\n<p><strong>📻 ALSO TONIGHT</strong><br>🇪🇹 Ethiopian confirmed a 5th daily Addis–Entebbe flight from <strong>2 Dec</strong> <strong>(AeroRoutes, 30 Sep)</strong>.<br>🇺🇬 Kabalega Airport, Hoima took its first passenger flights on 27 Sep; handover to UCAA is expected by end-October <strong>(Independent, 28 Sep)</strong>.<br>🇺🇬 Uganda&#x27;s September CPI (UBOS, 30 Sep): monthly inflation 0.9% against 0.3% in August, annual 4.6% against 4.1%; food crops 7.0% from 1.2%, diesel 42.5% year on year <strong>(UBOS release via Red Pepper, 30 Sep)</strong>. Rwanda&#x27;s latest print is August&#x27;s 15.7%, with restaurants and hotels at 15.6% <strong>(NISR via Pure Africa News, 10 Sep)</strong>.<br>🌍 WHO AFRO&#x27;s 30 Sep update on DRC&#x27;s Ebola response: 1,510 beds, US$1.3bn 180-day plan; no spread to Uganda, Rwanda or Kenya mentioned.</p>\n<p><strong>🏗 DEAL FLOW:</strong> No verified EA deal flow in the window.</p>\n<p><strong>⏳ CATCHING UP:</strong> Emirates puts an A350 on Nairobi from <strong>25 Oct</strong> (EK717/718, 298 seats, Kenya&#x27;s first Premium Economy), announced <strong>24 Sep</strong> <strong>(Emirates, 24 Sep)</strong>.</p>\n<p><strong>🔍 BLIND SPOTS:</strong> hotelsafrica.org blocked to our fetcher (searched instead); Tanzania and Rwanda September CPI not yet published (their August prints are the latest); Zanzibar&#x27;s health ministry shows only routine September items, none in the window. Sweep 50/50 logged.</p>\n<p>🔗 This edition on the web: <a href=\"https://eahospitalitypulse.com/editions/pulse-2026-09-30-evening.html\" rel=\"noopener\">eahospitalitypulse.com/editions/pulse-2026-09-30-evenin…</a><br>— EA Hospitality Pulse | Daily intelligence for city, bush &amp; beach properties</p>"
+  "summary": "Canada keeps Uganda on its Ebola list, Tanzania's insurance starts tomorrow, Kenya's costs tick up.",
+  "bodyHtml": "<p><strong>🌆 EVENING WRAP · Wed 30 Sep 2026</strong></p>\n<p>Canada keeps Uganda on its Ebola list, Tanzania&#x27;s insurance starts tomorrow, Kenya&#x27;s costs tick up.<br>━━━━━━━━━<br><span class=\"item-head\">1️⃣ CANADA EXTENDED ITS EBOLA BORDER MEASURES TO 27 NOVEMBER, UGANDA STILL LISTED</span></p>\n<p>Canada&#x27;s 28 Sep notice extends by 60 days the suspension of immigration documents for people whose last country of residence is the DRC, Uganda or South Sudan, to <strong>27 Nov</strong>; applications are accepted but not finalised <strong>(IRCC, 28 Sep)</strong>. CP24 reports Uganda&#x27;s own outbreak was declared over in late August <strong>(CP24, 28 Sep)</strong>, and the UAE eased on Ugandans on 26 Sep. <strong>Our inference:</strong> source-market rules on Uganda are diverging, and a country&#x27;s own all-clear no longer ends anyone else&#x27;s measure.<br><span class=\"tagline\">🏷 City, Bush | Uganda, Regional | Confirmed | impact:risk</span><br><span class=\"sowhat\">🎯 So what: Uganda-resident staff, partners or delegates bound for Canada are blocked to 27 Nov. We have not read PHAC&#x27;s order on returning travellers, so confirm its conditions before advising Canada-source guests.</span></p>\n<p><span class=\"item-head\">2️⃣ TANZANIA&#x27;S US$44 INBOUND INSURANCE STARTS TOMORROW, 1 OCTOBER</span></p>\n<p>NIC&#x27;s FAQ (read 30 Sep): US$44 per person, bought at inbound.nicinsurance.co.tz or on arrival; cover &quot;excludes all foreigners who are residents of&quot; EAC or SADC states, so the test is residence, not passport; a certificate &quot;may be required&quot; at entry. The FAQ is silent on whether a Zanzibar policy counts on the mainland, so the possible US$88 double charge stays unanswered <strong>(NIC, 30 Sep; GN 256, 4 Sep)</strong>.<br><span class=\"tagline\">🏷 Bush, City | Tanzania, Zanzibar | Confirmed | impact:margin</span><br><span class=\"sowhat\">🎯 So what: put the NIC link in every pre-arrival pack today and quote the charge as a per-person government cost outside the net rate.</span></p>\n<p><span class=\"item-head\">3️⃣ KENYA&#x27;S INFLATION ROSE TO 6.8% IN SEPTEMBER, WITH TRANSPORT UP 15.6%</span></p>\n<p>KNBS put annual inflation at <strong>6.8%</strong> against 6.6% in August; food is +9.5%, transport +15.6%, housing and utilities +3.2% <strong>(KNBS via Capital FM, 30 Sep)</strong>. Food and transport are your F&amp;B and supplier-delivery lines.<br><span class=\"tagline\">🏷 City, Bush, Beach | Kenya | Confirmed | impact:margin</span><br><span class=\"sowhat\">🎯 So what: add a cost-variation clause to 2027 Kenya contracts now, before the 14 Oct fuel-VAT and pump-price decisions.</span></p>\n<p><strong>📻 ALSO TONIGHT</strong><br>🇪🇹 Ethiopian confirmed a 5th daily Addis–Entebbe flight from <strong>2 Dec</strong> <strong>(AeroRoutes, 30 Sep)</strong>.<br>🇺🇬 Kabalega Airport, Hoima took its first passenger flights on 27 Sep; handover to UCAA is expected by end-October <strong>(Independent, 28 Sep)</strong>.<br>🇺🇬 Uganda&#x27;s September CPI (UBOS, 30 Sep): monthly inflation 0.9% against 0.3% in August, annual 4.6% against 4.1%; food crops 7.0% from 1.2%, diesel 42.5% year on year <strong>(UBOS release via Red Pepper, 30 Sep)</strong>. Rwanda&#x27;s latest print is August&#x27;s 15.7%, with restaurants and hotels at 15.6% <strong>(NISR via Pure Africa News, 10 Sep)</strong>.<br>🌍 WHO AFRO&#x27;s 30 Sep update on DRC&#x27;s Ebola response: 1,510 beds, US$1.3bn 180-day plan; no spread to Uganda, Rwanda or Kenya mentioned.</p>\n<p><strong>🏗 DEAL FLOW:</strong> No verified EA deal flow in the window.</p>\n<p><strong>⏳ CATCHING UP:</strong> Emirates puts an A350 on Nairobi from <strong>25 Oct</strong> (EK717/718, 298 seats, Kenya&#x27;s first Premium Economy), announced <strong>24 Sep</strong> <strong>(Emirates, 24 Sep)</strong>.</p>\n<p><strong>🔍 BLIND SPOTS:</strong> hotelsafrica.org blocked to our fetcher (searched instead); Tanzania and Rwanda September CPI not yet published (their August prints are the latest); Zanzibar&#x27;s health ministry shows only routine September items, none in the window. Sweep 50/50 logged.</p>\n<p>🔗 This edition on the web: <a href=\"https://eahospitalitypulse.com/editions/pulse-2026-09-30-evening.html\" rel=\"noopener\">eahospitalitypulse.com/editions/pulse-2026-09-30-evenin…</a><br>— EA Hospitality Pulse | Daily intelligence for city, bush &amp; beach properties</p>"
  },
  {
-  "id": "pulse-2026-09-30-evening",
+  "id": "pulse-2026-09-30-evening (2)",
   "date": "2026-09-30",
   "dateDisplay": "Wednesday, 30 September 2026",
   "edition": "Evening Wrap",
@@ -1072,67 +1072,6 @@ window.EDITIONS = [
  }
 ];
 window.INSIGHTS = [
- {
-  "headline": "CANADA EXTENDED ITS EBOLA BORDER MEASURES TO 27 NOVEMBER, UGANDA STILL LISTED",
-  "body": "Canada's 28 Sep notice extends by 60 days the suspension of immigration documents for people whose last country of residence is the DRC, Uganda or South Sudan, to **27 Nov**; applications are accepted but not finalised *(IRCC, 28 Sep)*. CP24 reports Uganda's own outbreak was declared over in late August *(CP24, 28 Sep)*, and the UAE eased on Ugandans on 26 Sep. *Our inference:* source-market rules on Uganda are diverging, and a country's own all-clear no longer ends anyone else's measure.",
-  "sowhat": "",
-  "segments": [
-   "city",
-   "bush"
-  ],
-  "countries": "Uganda, Regional",
-  "confidence": "Confirmed",
-  "impact": "risk",
-  "impactClass": "risk",
-  "intensity": 3,
-  "impactSet": "author",
-  "source": "pulse-2026-09-30-evening (2)",
-  "date": "2026-09-30",
-  "dateDisplay": "Wednesday, 30 September 2026",
-  "edition": "Evening Wrap",
-  "editionKey": "evening"
- },
- {
-  "headline": "TANZANIA'S US$44 INBOUND INSURANCE STARTS TOMORROW, 1 OCTOBER",
-  "body": "NIC's FAQ (read 30 Sep): US$44 per person, bought at inbound.nicinsurance.co.tz or on arrival; cover \"excludes all foreigners who are residents of\" EAC or SADC states, so the test is residence, not passport; a certificate \"may be required\" at entry. The FAQ is silent on whether a Zanzibar policy counts on the mainland, so the possible US$88 double charge stays unanswered *(NIC, 30 Sep; GN 256, 4 Sep)*.",
-  "sowhat": "",
-  "segments": [
-   "city",
-   "bush"
-  ],
-  "countries": "Tanzania, Zanzibar",
-  "confidence": "Confirmed",
-  "impact": "-margin",
-  "impactClass": "margin",
-  "intensity": 3,
-  "impactSet": "author",
-  "source": "pulse-2026-09-30-evening (2)",
-  "date": "2026-09-30",
-  "dateDisplay": "Wednesday, 30 September 2026",
-  "edition": "Evening Wrap",
-  "editionKey": "evening"
- },
- {
-  "headline": "KENYA'S INFLATION ROSE TO 6.8% IN SEPTEMBER, WITH TRANSPORT UP 15.6%",
-  "body": "KNBS put annual inflation at **6.8%** against 6.6% in August; food is +9.5%, transport +15.6%, housing and utilities +3.2% *(KNBS via Capital FM, 30 Sep)*. Food and transport are your F&B and supplier-delivery lines.",
-  "sowhat": "",
-  "segments": [
-   "city",
-   "bush",
-   "beach"
-  ],
-  "countries": "Kenya",
-  "confidence": "Confirmed",
-  "impact": "-margin",
-  "impactClass": "margin",
-  "intensity": 3,
-  "impactSet": "author",
-  "source": "pulse-2026-09-30-evening (2)",
-  "date": "2026-09-30",
-  "dateDisplay": "Wednesday, 30 September 2026",
-  "edition": "Evening Wrap",
-  "editionKey": "evening"
- },
  {
   "headline": "CANADA EXTENDED ITS EBOLA BORDER MEASURES TO 27 NOVEMBER, UGANDA STILL LISTED",
   "body": "Canada's 28 Sep notice extends by 60 days the suspension of immigration documents for people whose last country of residence is the DRC, Uganda or South Sudan, to **27 Nov**; applications are accepted but not finalised *(IRCC, 28 Sep)*. CP24 reports Uganda's own outbreak was declared over in late August *(CP24, 28 Sep)*, and the UAE eased on Ugandans on 26 Sep. *Our inference:* source-market rules on Uganda are diverging, and a country's own all-clear no longer ends anyone else's measure.",
@@ -5857,4 +5796,4 @@ window.INSIGHTS = [
   "editionKey": "evening"
  }
 ];
-window.BUILT_AT = "2026-10-01 06:10";
+window.BUILT_AT = "2026-10-01 07:38";
