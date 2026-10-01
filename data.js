@@ -1,5 +1,14 @@
 window.EDITIONS = [
  {
+  "id": "pulse-2026-10-01-evening",
+  "date": "2026-10-01",
+  "dateDisplay": "Thursday, 1 October 2026",
+  "edition": "Evening Wrap",
+  "editionKey": "evening",
+  "summary": "Kenya breaks ground on a US$16bn refinery in Lamu, Tanzania's insurance is in force, and a US entry ban on Uganda travellers nears its 11 October expiry.",
+  "bodyHtml": "<p><strong>🌆 EVENING WRAP · Thu 1 Oct 2026</strong></p>\n<p>Kenya breaks ground on a US$16bn refinery in Lamu, Tanzania&#x27;s insurance is in force, and a US entry ban on Uganda travellers nears its 11 October expiry.<br>━━━━━━━━━<br><span class=\"item-head\">1️⃣ KENYA BROKE GROUND ON A US$16BN, 700,000-BARREL REFINERY IN LAMU ON 30 SEPTEMBER</span></p>\n<p>President Ruto and Aliko Dangote launched the East Africa refinery on LAPSSET land beside Lamu Port: KSh2.2tn (US$16bn), 700,000 barrels a day, about three years of construction and a 2030 operating target. Backers claim 60,000 direct jobs. A suit by 133 Chandavai residents is pending; the High Court declined to halt the work <strong>(The Star, 30 Sep; KWS, 30 Sep)</strong>. <strong>Our inference:</strong> Lamu gets a construction-crew market and a heavy-industry neighbour in the same decade, and the two segments rarely share a property. We have not read an environmental licence.<br><span class=\"tagline\">🏷 Beach | Kenya | Reported | impact:watch</span><br><span class=\"sowhat\">🎯 So what: Lamu and Manda owners should decide this quarter whether they sell to contractors or to heritage guests, and ask NEMA for the licence status before pricing 2028 stock.</span></p>\n<p><span class=\"item-head\">2️⃣ TANZANIA&#x27;S US$44 INBOUND INSURANCE IS IN FORCE FROM TODAY, 1 OCTOBER</span></p>\n<p>Travel Trade Journal (29 Sep) reports the Ministry of Finance notice splits the purchase: Mainland entry through NIC, Zanzibar through ZIC, US$44 for up to 92 days under GN 256 of 2026. We have read NIC&#x27;s FAQ (30 Sep), not the ministry notice itself. No postponement is announced; we have found no report yet of how it is checked at JNIA or KIA.<br><span class=\"tagline\">🏷 Bush, City, Beach | Tanzania, Zanzibar | Reported | impact:margin</span><br><span class=\"sowhat\">🎯 So what: ask every guest who lands from today how it was checked and send it to your DMC; quote the charge as a government cost outside the net rate.</span></p>\n<p><span class=\"item-head\">3️⃣ THE US ENTRY BAN ON NON-CITIZENS RECENTLY IN UGANDA EXPIRES 11 OCTOBER UNLESS CDC RENEWS IT</span></p>\n<p>CDC&#x27;s order bars non-US nationals who were in the DRC, Uganda or South Sudan within 21 days; the current 30-day term runs to <strong>11 Oct</strong> <strong>(Erickson Immigration, 14 Sep)</strong>. CDC&#x27;s page, updated 23 Sep, still lists Uganda, with enhanced airport screening for US citizens <strong>(CDC, 23 Sep)</strong>. Uganda&#x27;s own health dashboard shows zero admissions. <strong>Our inference:</strong> a renewal is the likelier outcome while DRC cases keep rising, but nothing is published yet.<br><span class=\"tagline\">🏷 Bush, City | Uganda, Regional | Reported | impact:risk</span><br><span class=\"sowhat\">🎯 So what: for non-US-citizen guests combining Uganda with a US trip within 21 days, hold flexible terms until CDC publishes its decision, due by 11 Oct.</span></p>\n<p><strong>📻 ALSO TONIGHT</strong><br>🇺🇬 Uganda&#x27;s tourism review (Nile Post, 1 Oct): H1 2026 had 793,815 visitors and US$631m receipts; 2025&#x27;s 1.64m arrivals (first reported 30 Apr) were 69.1% EAC, with business travel 17.3% against leisure 16.2%. The demand is regional and business-led. No H1 2025 comparator verified.<br>🇰🇪 EPRA&#x27;s flat pump prices run to <strong>14 Oct</strong>, when the next review lands <strong>(Kenyans.co.ke, 14 Sep)</strong>.</p>\n<p><strong>🏗 DEAL FLOW:</strong> No new verified EA deal flow in the window.</p>\n<p><strong>⏳ CATCHING UP:</strong> Banyan Group&#x27;s Ubuyu, a Banyan Tree Escape, is open on the Great Ruaha River in Ruaha National Park: six private villas, its first safari property, announced <strong>17 Sep</strong> <strong>(Hospitality Net, 17 Sep)</strong>.</p>\n<p>🔗 This edition on the web: <a href=\"https://eahospitalitypulse.com/editions/pulse-2026-10-01-evening.html\" rel=\"noopener\">eahospitalitypulse.com/editions/pulse-2026-10-01-evenin…</a><br>— EA Hospitality Pulse | Daily intelligence for city, bush &amp; beach properties</p>"
+ },
+ {
   "id": "pulse-2026-09-30-evening",
   "date": "2026-09-30",
   "dateDisplay": "Wednesday, 30 September 2026",
@@ -1072,6 +1081,66 @@ window.EDITIONS = [
  }
 ];
 window.INSIGHTS = [
+ {
+  "headline": "KENYA BROKE GROUND ON A US$16BN, 700,000-BARREL REFINERY IN LAMU ON 30 SEPTEMBER",
+  "body": "President Ruto and Aliko Dangote launched the East Africa refinery on LAPSSET land beside Lamu Port: KSh2.2tn (US$16bn), 700,000 barrels a day, about three years of construction and a 2030 operating target. Backers claim 60,000 direct jobs. A suit by 133 Chandavai residents is pending; the High Court declined to halt the work *(The Star, 30 Sep; KWS, 30 Sep)*. *Our inference:* Lamu gets a construction-crew market and a heavy-industry neighbour in the same decade, and the two segments rarely share a property. We have not read an environmental licence.",
+  "sowhat": "",
+  "segments": [
+   "beach"
+  ],
+  "countries": "Kenya",
+  "confidence": "Reported",
+  "impact": "watch",
+  "impactClass": "watch",
+  "intensity": 2,
+  "impactSet": "author",
+  "source": "pulse-2026-10-01-evening",
+  "date": "2026-10-01",
+  "dateDisplay": "Thursday, 1 October 2026",
+  "edition": "Evening Wrap",
+  "editionKey": "evening"
+ },
+ {
+  "headline": "TANZANIA'S US$44 INBOUND INSURANCE IS IN FORCE FROM TODAY, 1 OCTOBER",
+  "body": "Travel Trade Journal (29 Sep) reports the Ministry of Finance notice splits the purchase: Mainland entry through NIC, Zanzibar through ZIC, US$44 for up to 92 days under GN 256 of 2026. We have read NIC's FAQ (30 Sep), not the ministry notice itself. No postponement is announced; we have found no report yet of how it is checked at JNIA or KIA.",
+  "sowhat": "",
+  "segments": [
+   "city",
+   "bush",
+   "beach"
+  ],
+  "countries": "Tanzania, Zanzibar",
+  "confidence": "Reported",
+  "impact": "-margin",
+  "impactClass": "margin",
+  "intensity": 2,
+  "impactSet": "author",
+  "source": "pulse-2026-10-01-evening",
+  "date": "2026-10-01",
+  "dateDisplay": "Thursday, 1 October 2026",
+  "edition": "Evening Wrap",
+  "editionKey": "evening"
+ },
+ {
+  "headline": "THE US ENTRY BAN ON NON-CITIZENS RECENTLY IN UGANDA EXPIRES 11 OCTOBER UNLESS CDC RENEWS IT",
+  "body": "CDC's order bars non-US nationals who were in the DRC, Uganda or South Sudan within 21 days; the current 30-day term runs to **11 Oct** *(Erickson Immigration, 14 Sep)*. CDC's page, updated 23 Sep, still lists Uganda, with enhanced airport screening for US citizens *(CDC, 23 Sep)*. Uganda's own health dashboard shows zero admissions. *Our inference:* a renewal is the likelier outcome while DRC cases keep rising, but nothing is published yet.",
+  "sowhat": "",
+  "segments": [
+   "city",
+   "bush"
+  ],
+  "countries": "Uganda, Regional",
+  "confidence": "Reported",
+  "impact": "risk",
+  "impactClass": "risk",
+  "intensity": 2,
+  "impactSet": "author",
+  "source": "pulse-2026-10-01-evening",
+  "date": "2026-10-01",
+  "dateDisplay": "Thursday, 1 October 2026",
+  "edition": "Evening Wrap",
+  "editionKey": "evening"
+ },
  {
   "headline": "CANADA EXTENDED ITS EBOLA BORDER MEASURES TO 27 NOVEMBER, UGANDA STILL LISTED",
   "body": "Canada's 28 Sep notice extends by 60 days the suspension of immigration documents for people whose last country of residence is the DRC, Uganda or South Sudan, to **27 Nov**; applications are accepted but not finalised *(IRCC, 28 Sep)*. CP24 reports Uganda's own outbreak was declared over in late August *(CP24, 28 Sep)*, and the UAE eased on Ugandans on 26 Sep. *Our inference:* source-market rules on Uganda are diverging, and a country's own all-clear no longer ends anyone else's measure.",
@@ -5796,4 +5865,4 @@ window.INSIGHTS = [
   "editionKey": "evening"
  }
 ];
-window.BUILT_AT = "2026-10-01 07:46";
+window.BUILT_AT = "2026-10-01 13:34";
