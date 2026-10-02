@@ -1,10 +1,51 @@
 {
- "generated": "2026-10-02T07:36:18+03:00",
- "slot": "morning",
- "window_start": 1790866800,
- "observations_in_window": 685,
+ "generated": "2026-10-02T12:52:58+03:00",
+ "slot": "midday",
+ "window_start": 1790913600,
+ "observations_in_window": 320,
  "deduped_against": 11,
  "candidates": [
+  {
+   "score": 121.0,
+   "components": {
+    "tier": 40,
+    "category": 32,
+    "lead": 1.2,
+    "relevance": 16,
+    "freshness": 19.8,
+    "undated": -6,
+    "shock": 18
+   },
+   "keywords": [
+    "level 3",
+    "flight"
+   ],
+   "shock_terms": [
+    "level 3",
+    "reconsider travel",
+    "attack"
+   ],
+   "dedupe_match": null,
+   "dedupe_similarity": 0.0,
+   "id": "271afc18b58a",
+   "title": "Qatar - Level 3: Reconsider Travel",
+   "url": "https://travel.state.gov/content/tsg_aem/us/en/home/international-travel/travel-advisories/destination.qat.html",
+   "summary": "Reconsider travel to Qatar due to risk of armed conflict . U.S. government employee travel restrictions As of August 28, 2026, family members may join U.S. government employees who work in Qatar. Armed Conflict Following the onset of hostilities between the United States and Iran on February 28, 2026, there has been an ongoing threat of drone and missile attacks from Iran and significant disruptio",
+   "kind": "item",
+   "source": "US State Dept travel advisories (EA feed)",
+   "source_id": "adv-us-ea",
+   "tier": 1,
+   "country": "REG",
+   "category": "advisory",
+   "segments": [
+    "city",
+    "bush",
+    "beach"
+   ],
+   "first_seen": "2026-10-02T12:51+03:00",
+   "published": null,
+   "verdict": "LEAD CANDIDATE \u2014 tier-1 shock language"
+  },
   {
    "score": 91.4,
    "components": {
@@ -13,6 +54,38 @@
     "lead": 3.6,
     "relevance": 0,
     "freshness": 19.8,
+    "page_change": -4
+   },
+   "keywords": [],
+   "shock_terms": [],
+   "dedupe_match": null,
+   "dedupe_similarity": 0.0,
+   "id": "afd2a78cd875",
+   "title": "[page changed] Federal Register \u2014 public inspection (HHS/CDC), pre-publication",
+   "url": "https://www.federalregister.gov/api/v1/public-inspection-documents/current.json",
+   "summary": "{\"count\":99,\"results\":[{\"agencies\":[{\"raw_name\":\"NUCLEAR REGULATORY COMMISSION\",\"name\":\"Nuclear Regulatory Commission\",\"id\":383,\"url\":\"https://www.federalregister.gov/agencies/nuclear-regulatory-commission\",\"json_url\":\"https://www.federalregister.gov/api/v1/agencies/383\",\"parent_id\":null,\"slug\":\"nuclear-regulatory-commission\"}],\"agency_letters\":[],\"agency_names\":[\"Nuclear Regulatory Commission\"],\"",
+   "kind": "page-change",
+   "source": "Federal Register \u2014 public inspection (HHS/CDC), pre-publication",
+   "source_id": "us-fedreg-pubinspect-hhs",
+   "tier": 1,
+   "country": "REG",
+   "category": "advisory",
+   "segments": [
+    "city",
+    "bush"
+   ],
+   "first_seen": "2026-10-02T12:51+03:00",
+   "published": "2026-09-30",
+   "verdict": "OPEN THIS \u2014 tier-1 advisory page moved; content not auto-parsed, read it manually"
+  },
+  {
+   "score": 85.5,
+   "components": {
+    "tier": 40,
+    "category": 32,
+    "lead": 3.6,
+    "relevance": 0,
+    "freshness": 13.9,
     "page_change": -4
    },
    "keywords": [],
@@ -38,180 +111,48 @@
    "verdict": "OPEN THIS \u2014 tier-1 advisory page moved; content not auto-parsed, read it manually"
   },
   {
-   "score": 86.1,
+   "score": 112.2,
    "components": {
     "tier": 40,
-    "category": 32,
-    "lead": 3.6,
-    "relevance": 0,
-    "freshness": 14.5,
-    "page_change": -4
-   },
-   "keywords": [],
-   "shock_terms": [],
-   "dedupe_match": null,
-   "dedupe_similarity": 0.0,
-   "id": "71c8aab16b18",
-   "title": "[page changed] Federal Register \u2014 public inspection (HHS/CDC), pre-publication",
-   "url": "https://www.federalregister.gov/api/v1/public-inspection-documents/current.json",
-   "summary": "{\"count\":99,\"results\":[{\"agencies\":[{\"raw_name\":\"NUCLEAR REGULATORY COMMISSION\",\"name\":\"Nuclear Regulatory Commission\",\"id\":383,\"url\":\"https://www.federalregister.gov/agencies/nuclear-regulatory-commission\",\"json_url\":\"https://www.federalregister.gov/api/v1/agencies/383\",\"parent_id\":null,\"slug\":\"nuclear-regulatory-commission\"}],\"agency_letters\":[],\"agency_names\":[\"Nuclear Regulatory Commission\"],\"",
-   "kind": "page-change",
-   "source": "Federal Register \u2014 public inspection (HHS/CDC), pre-publication",
-   "source_id": "us-fedreg-pubinspect-hhs",
-   "tier": 1,
-   "country": "REG",
-   "category": "advisory",
-   "segments": [
-    "city",
-    "bush"
-   ],
-   "first_seen": "2026-10-02T02:44+03:00",
-   "published": "2026-09-30",
-   "verdict": "OPEN THIS \u2014 tier-1 advisory page moved; content not auto-parsed, read it manually"
-  },
-  {
-   "score": 81.2,
-   "components": {
-    "tier": 40,
-    "category": 32,
-    "lead": 3.6,
-    "relevance": 0,
-    "freshness": 9.6,
-    "page_change": -4
-   },
-   "keywords": [],
-   "shock_terms": [],
-   "dedupe_match": null,
-   "dedupe_similarity": 0.0,
-   "id": "af80aa404398",
-   "title": "[page changed] Federal Register \u2014 public inspection (HHS/CDC), pre-publication",
-   "url": "https://www.federalregister.gov/api/v1/public-inspection-documents/current.json",
-   "summary": "{\"count\":96,\"results\":[{\"agencies\":[{\"raw_name\":\"NUCLEAR REGULATORY COMMISSION\",\"name\":\"Nuclear Regulatory Commission\",\"id\":383,\"url\":\"https://www.federalregister.gov/agencies/nuclear-regulatory-commission\",\"json_url\":\"https://www.federalregister.gov/api/v1/agencies/383\",\"parent_id\":null,\"slug\":\"nuclear-regulatory-commission\"}],\"agency_letters\":[],\"agency_names\":[\"Nuclear Regulatory Commission\"],\"",
-   "kind": "page-change",
-   "source": "Federal Register \u2014 public inspection (HHS/CDC), pre-publication",
-   "source_id": "us-fedreg-pubinspect-hhs",
-   "tier": 1,
-   "country": "REG",
-   "category": "advisory",
-   "segments": [
-    "city",
-    "bush"
-   ],
-   "first_seen": "2026-10-01T22:20+03:00",
-   "published": "2026-09-30",
-   "verdict": "OPEN THIS \u2014 tier-1 advisory page moved; content not auto-parsed, read it manually"
-  },
-  {
-   "score": 78.1,
-   "components": {
-    "tier": 40,
-    "category": 32,
-    "lead": 3.6,
-    "relevance": 0,
-    "freshness": 6.5,
-    "page_change": -4
-   },
-   "keywords": [],
-   "shock_terms": [],
-   "dedupe_match": null,
-   "dedupe_similarity": 0.0,
-   "id": "31df04adb471",
-   "title": "[page changed] Federal Register \u2014 public inspection (HHS/CDC), pre-publication",
-   "url": "https://www.federalregister.gov/api/v1/public-inspection-documents/current.json",
-   "summary": "{\"count\":95,\"results\":[{\"agencies\":[{\"raw_name\":\"NUCLEAR REGULATORY COMMISSION\",\"name\":\"Nuclear Regulatory Commission\",\"id\":383,\"url\":\"https://www.federalregister.gov/agencies/nuclear-regulatory-commission\",\"json_url\":\"https://www.federalregister.gov/api/v1/agencies/383\",\"parent_id\":null,\"slug\":\"nuclear-regulatory-commission\"}],\"agency_letters\":[],\"agency_names\":[\"Nuclear Regulatory Commission\"],\"",
-   "kind": "page-change",
-   "source": "Federal Register \u2014 public inspection (HHS/CDC), pre-publication",
-   "source_id": "us-fedreg-pubinspect-hhs",
-   "tier": 1,
-   "country": "REG",
-   "category": "advisory",
-   "segments": [
-    "city",
-    "bush"
-   ],
-   "first_seen": "2026-10-01T19:30+03:00",
-   "published": "2026-09-30",
-   "verdict": "OPEN THIS \u2014 tier-1 advisory page moved; content not auto-parsed, read it manually"
-  },
-  {
-   "score": 60.0,
-   "components": {
-    "tier": 40,
-    "category": 12,
-    "lead": 3.6,
-    "relevance": 0,
-    "freshness": 14.4,
-    "undated": -6,
-    "page_change": -4
-   },
-   "keywords": [],
-   "shock_terms": [],
-   "dedupe_match": null,
-   "dedupe_similarity": 0.0,
-   "id": "77731548bfc3",
-   "title": "[page changed] Airlink news",
-   "url": "https://www.flyairlink.com/",
-   "summary": "Request unsuccessful. Incapsula incident ID: 260000060814742046-732748560612983215",
-   "kind": "page-change",
-   "source": "Airlink news",
-   "source_id": "air-airlink",
-   "tier": 1,
-   "country": "REG",
-   "category": "airline",
-   "segments": [
-    "city",
-    "bush",
-    "beach"
-   ],
-   "first_seen": "2026-10-02T02:44+03:00",
-   "published": null,
-   "verdict": "OPEN THIS \u2014 tier-1 airline page moved; content not auto-parsed, read it manually"
-  },
-  {
-   "score": 106.2,
-   "components": {
-    "tier": 40,
-    "category": 9,
-    "lead": 16.8,
+    "category": 18,
+    "lead": 8.4,
     "relevance": 16,
-    "freshness": 14.4,
+    "freshness": 19.8,
     "corroborated": 10
    },
    "keywords": [
-    "vat",
-    "resort",
-    "guest"
+    "wildlife",
+    "safari",
+    "operator"
    ],
    "shock_terms": [],
    "dedupe_match": null,
-   "dedupe_similarity": 0.0,
-   "id": "058cb0c7f926",
-   "title": "Conrad Koh Samui Unveils \u2018The Pearl\u2019: An Elevated Sanctuary for Wellness, Privacy and Personalized Luxury",
-   "url": "https://stories.hilton.com/releases/conrad-koh-samui-unveils-the-pearl-an-elevated-sanctuary",
-   "summary": "KOH SAMUI, Thailand \u2013 Conrad Koh Samui today unveiled The Pearl, the resort\u2019s most exclusive accommodation: a 766-square-metre, two-level Presidential Villa designed for guests seeking privacy, wellbeing and deeply personalized service. Set at the resort\u2019s highest point, The Pearl brings together expansive indoor and outdoor living, dedicated wellness facilities and bespoke dining experiences, all",
+   "dedupe_similarity": 0.2,
+   "id": "9e241863a3e2",
+   "title": "KWS Hosts Travel Trade Partnership Breakfast",
+   "url": "https://kws.go.ke/kws-hosts-travel-trade-partnership-breakfast",
+   "summary": "This morning, the Kenya Wildlife Service brought the people behind Kenya's iconic safaris together. At a Travel Trade Partnership breakfast meeting at the Impala Picnic Site in Nairobi National Park, KWS created a space for tour operators, travel agents and industry partners to connect, share ideas and strengthen the relationships that help visitors discover Kenya's [...]",
    "kind": "item",
-   "source": "Hilton stories/newsroom",
-   "source_id": "dev-hilton",
+   "source": "Kenya Wildlife Service",
+   "source_id": "ke-kws",
    "tier": 1,
-   "country": "GLOBAL",
-   "category": "hotel-group",
+   "country": "KE",
+   "category": "parks",
    "segments": [
-    "city",
-    "bush",
-    "beach"
+    "bush"
    ],
-   "first_seen": "2026-10-02T02:44+03:00",
-   "published": "2026-10-01",
+   "first_seen": "2026-10-02T12:51+03:00",
+   "published": "2026-10-02",
    "verdict": "STRONG \u2014 tier-1, upstream"
   },
   {
-   "score": 104.2,
+   "score": 98.4,
    "components": {
     "tier": 20,
     "category": 14,
     "lead": 8.4,
     "relevance": 32,
-    "freshness": 19.8,
+    "freshness": 14.0,
     "corroborated": 10
    },
    "keywords": [
@@ -243,43 +184,6 @@
    "verdict": "CONSIDER"
   },
   {
-   "score": 102.2,
-   "components": {
-    "tier": 40,
-    "category": 9,
-    "lead": 16.8,
-    "relevance": 12,
-    "freshness": 14.4,
-    "corroborated": 10
-   },
-   "keywords": [
-    "hotel",
-    "resort",
-    "opening"
-   ],
-   "shock_terms": [],
-   "dedupe_match": null,
-   "dedupe_similarity": 0.0,
-   "id": "02132b6d4b7c",
-   "title": "Hale H\u014dk\u016bala Kaua\u02bbi Debuts as Curio Collection by Hilton\u2019s First Hawai\u02bbi Resort",
-   "url": "https://stories.hilton.com/releases/hale-hokuala-kauai-debuts-as-curio-collection-by-hiltons-first-hawaii-resort",
-   "summary": "MCLEAN, Va. and KAUA\u02bbI, Hawai\u02bbi \u2013 Today, Hilton (NYSE: HLT) announced the opening of Hale H\u014dk\u016bala Kaua\u02bbi, Curio Collection by Hilton, a 210-room lifestyle resort. Marking Curio Collection by Hilton\u2019s debut in Hawai\u02bbi, the property brings the brand\u2019s focus on individually remarkable hotels and memorable stays to one of the world\u2019s most sought-after island destinations. [\u2026] The post Hale H\u014dk\u016bala Kau",
-   "kind": "item",
-   "source": "Hilton stories/newsroom",
-   "source_id": "dev-hilton",
-   "tier": 1,
-   "country": "GLOBAL",
-   "category": "hotel-group",
-   "segments": [
-    "city",
-    "bush",
-    "beach"
-   ],
-   "first_seen": "2026-10-02T02:44+03:00",
-   "published": "2026-10-01",
-   "verdict": "STRONG \u2014 tier-1, upstream"
-  },
-  {
    "score": 96.2,
    "components": {
     "tier": 20,
@@ -287,6 +191,44 @@
     "lead": 8.4,
     "relevance": 24,
     "freshness": 19.8,
+    "corroborated": 10
+   },
+   "keywords": [
+    "route",
+    "charter",
+    "airline",
+    "flight"
+   ],
+   "shock_terms": [],
+   "dedupe_match": null,
+   "dedupe_similarity": 0.0,
+   "id": "e9b5548a2f51",
+   "title": "Starlux Airlines Feb 2027 Taipei \u2013 Guam Charters",
+   "url": "https://www.aeroroutes.com/eng/261002-jxfeb27gum",
+   "summary": "Published at 0000PDT / 0700GMT 02OCT26 Starlux Airlines in February 2027 once again operates scheduled charter flight on Taipei Taoyuan \u2013 Guam route, on board Airbus A321neo aircraft. The A321neo is scheduled to operate following schedules on 04FEB27, 08FEB27, 12FEB27.P JX8072 TPE1245 \u2013 1840GUM 32Q JX8071 GUM2020 \u2013 2245TPE 32Q",
+   "kind": "item",
+   "source": "AeroRoutes schedule filings",
+   "source_id": "aeroroutes",
+   "tier": 2,
+   "country": "GLOBAL",
+   "category": "aviation-tracker",
+   "segments": [
+    "city",
+    "bush",
+    "beach"
+   ],
+   "first_seen": "2026-10-02T12:51+03:00",
+   "published": "2026-10-02",
+   "verdict": "CONSIDER"
+  },
+  {
+   "score": 90.4,
+   "components": {
+    "tier": 20,
+    "category": 14,
+    "lead": 8.4,
+    "relevance": 24,
+    "freshness": 14.0,
     "corroborated": 10
    },
    "keywords": [
@@ -318,711 +260,13 @@
    "verdict": "CONSIDER"
   },
   {
-   "score": 94.9,
-   "components": {
-    "tier": 40,
-    "category": 18,
-    "lead": 8.4,
-    "relevance": 12,
-    "freshness": 6.5,
-    "corroborated": 10
-   },
-   "keywords": [
-    "wildlife",
-    "camp"
-   ],
-   "shock_terms": [],
-   "dedupe_match": null,
-   "dedupe_similarity": 0.09,
-   "id": "5bd810522207",
-   "title": "A Vulture in Need: KWS Team Responds in Kimana Sanctuary",
-   "url": "https://kws.go.ke/a-vulture-in-need-kws-team-responds-in-kimana-sanctuary",
-   "summary": "Some wildlife patients arrive sporting harrowing injuries. Others arrive quietly, with nothing more than a change in behaviour; a droopy wing, that someone close to the ground noticed in time. That is how the Amboseli Mobile Veterinary Unit came to attend to a juvenile African white-backed vulture in Kimana Sanctuary, at Big Life Camp. The [...]",
-   "kind": "item",
-   "source": "Kenya Wildlife Service",
-   "source_id": "ke-kws",
-   "tier": 1,
-   "country": "KE",
-   "category": "parks",
-   "segments": [
-    "bush"
-   ],
-   "first_seen": "2026-10-01T19:29+03:00",
-   "published": "2026-10-01",
-   "verdict": "STRONG \u2014 tier-1, upstream"
-  },
-  {
-   "score": 94.2,
-   "components": {
-    "tier": 40,
-    "category": 9,
-    "lead": 16.8,
-    "relevance": 4,
-    "freshness": 14.4,
-    "corroborated": 10
-   },
-   "keywords": [
-    "resort"
-   ],
-   "shock_terms": [],
-   "dedupe_match": null,
-   "dedupe_similarity": 0.0,
-   "id": "4814b9d74e72",
-   "title": "Hilton anuncia Waldorf Astoria Riviera Maya y Conrad Tulum Riviera Maya como resorts Todo Incluido independientes",
-   "url": "https://stories.hilton.com/releases/hilton-anuncia-waldorf-astoria-riviera-maya-y-conrad-tulum-riviera-maya-como-resorts-todo-incluido-independientes",
-   "summary": "RIVIERA MAYA, M\u00e9xico Y MIAMI, Fla. \u2013 Hilton anunci\u00f3 hoy la transici\u00f3n de Waldorf Astoria Riviera Maya y Conrad Tulum Riviera Maya a experiencias Todo Incluido, fortaleciendo la presencia de la compa\u00f1\u00eda en esta categor\u00eda y ampliando la oferta que ya existe en ambas propiedades. Ubicados en la costa del Caribe mexicano, los resorts ofrecer\u00e1n [\u2026] The post Hilton anuncia Waldorf Astoria Riviera Maya y",
-   "kind": "item",
-   "source": "Hilton stories/newsroom",
-   "source_id": "dev-hilton",
-   "tier": 1,
-   "country": "GLOBAL",
-   "category": "hotel-group",
-   "segments": [
-    "city",
-    "bush",
-    "beach"
-   ],
-   "first_seen": "2026-10-02T02:44+03:00",
-   "published": "2026-10-01",
-   "verdict": "STRONG \u2014 tier-1, upstream"
-  },
-  {
-   "score": 94.2,
-   "components": {
-    "tier": 40,
-    "category": 9,
-    "lead": 16.8,
-    "relevance": 4,
-    "freshness": 14.4,
-    "corroborated": 10
-   },
-   "keywords": [
-    "resort"
-   ],
-   "shock_terms": [],
-   "dedupe_match": null,
-   "dedupe_similarity": 0.0,
-   "id": "192c0890791d",
-   "title": "Hilton Announces Waldorf Astoria Riviera Maya and Conrad Tulum Riviera Maya as Distinct All-Inclusive Resorts",
-   "url": "https://stories.hilton.com/releases/hilton-announces-waldorf-astoria-riviera-maya-and-conrad-tulum-riviera-maya-as-distinct-all-inclusive-resorts",
-   "summary": "RIVIERA MAYA, Mexico and MIAMI, Fla. \u2013 Hilton today announced the transition of Waldorf Astoria Riviera Maya and Conrad Tulum Riviera Maya to All-Inclusive resort experiences, further strengthening the company\u2019s All-Inclusive portfolio and building on the offerings already available at both properties. Located on Mexico\u2019s Caribbean coast, the resorts will offer distinct stays shaped by [\u2026] The pos",
-   "kind": "item",
-   "source": "Hilton stories/newsroom",
-   "source_id": "dev-hilton",
-   "tier": 1,
-   "country": "GLOBAL",
-   "category": "hotel-group",
-   "segments": [
-    "city",
-    "bush",
-    "beach"
-   ],
-   "first_seen": "2026-10-02T02:44+03:00",
-   "published": "2026-10-01",
-   "verdict": "STRONG \u2014 tier-1, upstream"
-  },
-  {
-   "score": 92.8,
-   "components": {
-    "tier": 40,
-    "category": 20,
-    "lead": 12.0,
-    "relevance": 0,
-    "freshness": 10.8,
-    "corroborated": 10
-   },
-   "keywords": [],
-   "shock_terms": [],
-   "dedupe_match": null,
-   "dedupe_similarity": 0.2,
-   "id": "8741154915fb",
-   "title": "Sugar Arbitration Tribunal \u2013 Daily Cause List \u2013 08 October 2026 to 08 October 2026",
-   "url": "https://new.kenyalaw.org/akn/ke/doc/cause-list-daily/tribunal/2026-10-08/1/eng@2026-10-08",
-   "summary": "Sugar Arbitration Tribunal \u2013 Daily Cause List \u2013 08 October 2026 to 08 October 2026",
-   "kind": "item",
-   "source": "Kenya Gazette (Kenya Law)",
-   "source_id": "ke-gazette",
-   "tier": 1,
-   "country": "KE",
-   "category": "gazette",
-   "segments": [
-    "city",
-    "bush",
-    "beach"
-   ],
-   "first_seen": "2026-10-01T23:23+03:00",
-   "published": "2026-10-08",
-   "verdict": "STRONG \u2014 tier-1, upstream"
-  },
-  {
-   "score": 92.8,
-   "components": {
-    "tier": 40,
-    "category": 20,
-    "lead": 12.0,
-    "relevance": 0,
-    "freshness": 10.8,
-    "corroborated": 10
-   },
-   "keywords": [],
-   "shock_terms": [],
-   "dedupe_match": null,
-   "dedupe_similarity": 0.2,
-   "id": "db9ef0821a8f",
-   "title": "Sports Disputes Tribunal \u2013 Weekly Cause List \u2013 05 October 2026 to 09 October 2026",
-   "url": "https://new.kenyalaw.org/akn/ke/doc/cause-list-weekly/kesdt/2026-10-05/1/eng@2026-10-05",
-   "summary": "Sports Disputes Tribunal \u2013 Weekly Cause List \u2013 05 October 2026 to 09 October 2026",
-   "kind": "item",
-   "source": "Kenya Gazette (Kenya Law)",
-   "source_id": "ke-gazette",
-   "tier": 1,
-   "country": "KE",
-   "category": "gazette",
-   "segments": [
-    "city",
-    "bush",
-    "beach"
-   ],
-   "first_seen": "2026-10-01T23:23+03:00",
-   "published": "2026-10-05",
-   "verdict": "STRONG \u2014 tier-1, upstream"
-  },
-  {
-   "score": 92.8,
-   "components": {
-    "tier": 40,
-    "category": 20,
-    "lead": 12.0,
-    "relevance": 0,
-    "freshness": 10.8,
-    "corroborated": 10
-   },
-   "keywords": [],
-   "shock_terms": [],
-   "dedupe_match": null,
-   "dedupe_similarity": 0.2,
-   "id": "5eb4e9f4235d",
-   "title": "Sugar Arbitration Tribunal \u2013 Daily Cause List \u2013 07 October 2026",
-   "url": "https://new.kenyalaw.org/akn/ke/doc/cause-list-daily/tribunal/2026-10-07/1/eng@2026-10-07",
-   "summary": "Sugar Arbitration Tribunal \u2013 Daily Cause List \u2013 07 October 2026",
-   "kind": "item",
-   "source": "Kenya Gazette (Kenya Law)",
-   "source_id": "ke-gazette",
-   "tier": 1,
-   "country": "KE",
-   "category": "gazette",
-   "segments": [
-    "city",
-    "bush",
-    "beach"
-   ],
-   "first_seen": "2026-10-01T23:23+03:00",
-   "published": "2026-10-07",
-   "verdict": "STRONG \u2014 tier-1, upstream"
-  },
-  {
-   "score": 92.8,
-   "components": {
-    "tier": 40,
-    "category": 20,
-    "lead": 12.0,
-    "relevance": 0,
-    "freshness": 10.8,
-    "corroborated": 10
-   },
-   "keywords": [],
-   "shock_terms": [],
-   "dedupe_match": null,
-   "dedupe_similarity": 0.4,
-   "id": "015a4c0e4236",
-   "title": "Employment and Labour Relations Court at Nairobi \u2013 Weekly Cause List \u2013 05 October 2026 to 09 October 2026",
-   "url": "https://new.kenyalaw.org/akn/ke/doc/cause-list-weekly/keelrc/2026-10-05/1/eng@2026-10-05",
-   "summary": "Employment and Labour Relations Court at Nairobi \u2013 Weekly Cause List \u2013 05 October 2026 to 09 October 2026",
-   "kind": "item",
-   "source": "Kenya Gazette (Kenya Law)",
-   "source_id": "ke-gazette",
-   "tier": 1,
-   "country": "KE",
-   "category": "gazette",
-   "segments": [
-    "city",
-    "bush",
-    "beach"
-   ],
-   "first_seen": "2026-10-01T23:23+03:00",
-   "published": "2026-10-05",
-   "verdict": "STRONG \u2014 tier-1, upstream"
-  },
-  {
-   "score": 92.8,
-   "components": {
-    "tier": 40,
-    "category": 20,
-    "lead": 12.0,
-    "relevance": 0,
-    "freshness": 10.8,
-    "corroborated": 10
-   },
-   "keywords": [],
-   "shock_terms": [],
-   "dedupe_match": null,
-   "dedupe_similarity": 0.2,
-   "id": "69b69f286bfc",
-   "title": "Court of Appeal at Nakuru \u2013 Monthly Cause List \u2013 05 October 2026 to 28 October 2026",
-   "url": "https://new.kenyalaw.org/akn/ke/doc/cause-list-monthly/keca/2026-10-05/7/eng@2026-10-05",
-   "summary": "Court of Appeal at Nakuru \u2013 Monthly Cause List \u2013 05 October 2026 to 28 October 2026",
-   "kind": "item",
-   "source": "Kenya Gazette (Kenya Law)",
-   "source_id": "ke-gazette",
-   "tier": 1,
-   "country": "KE",
-   "category": "gazette",
-   "segments": [
-    "city",
-    "bush",
-    "beach"
-   ],
-   "first_seen": "2026-10-01T23:23+03:00",
-   "published": "2026-10-05",
-   "verdict": "STRONG \u2014 tier-1, upstream"
-  },
-  {
-   "score": 92.8,
-   "components": {
-    "tier": 40,
-    "category": 20,
-    "lead": 12.0,
-    "relevance": 0,
-    "freshness": 10.8,
-    "corroborated": 10
-   },
-   "keywords": [],
-   "shock_terms": [],
-   "dedupe_match": null,
-   "dedupe_similarity": 0.2,
-   "id": "19c10d763eb0",
-   "title": "Sugar Arbitration Tribunal \u2013 Daily Cause List \u2013 05 October 2026",
-   "url": "https://new.kenyalaw.org/akn/ke/doc/cause-list-daily/tribunal/2026-10-05/1/eng@2026-10-05",
-   "summary": "Sugar Arbitration Tribunal \u2013 Daily Cause List \u2013 05 October 2026",
-   "kind": "item",
-   "source": "Kenya Gazette (Kenya Law)",
-   "source_id": "ke-gazette",
-   "tier": 1,
-   "country": "KE",
-   "category": "gazette",
-   "segments": [
-    "city",
-    "bush",
-    "beach"
-   ],
-   "first_seen": "2026-10-01T23:23+03:00",
-   "published": "2026-10-05",
-   "verdict": "STRONG \u2014 tier-1, upstream"
-  },
-  {
-   "score": 92.8,
-   "components": {
-    "tier": 40,
-    "category": 20,
-    "lead": 12.0,
-    "relevance": 0,
-    "freshness": 10.8,
-    "corroborated": 10
-   },
-   "keywords": [],
-   "shock_terms": [],
-   "dedupe_match": null,
-   "dedupe_similarity": 0.2,
-   "id": "6462378d882f",
-   "title": "Butere Law Courts \u2013 Weekly Cause List \u2013 05 October 2026 to 09 October 2026",
-   "url": "https://new.kenyalaw.org/akn/ke/doc/cause-list-weekly/kemc/2026-10-05/5/eng@2026-10-05",
-   "summary": "Butere Law Courts \u2013 Weekly Cause List \u2013 05 October 2026 to 09 October 2026",
-   "kind": "item",
-   "source": "Kenya Gazette (Kenya Law)",
-   "source_id": "ke-gazette",
-   "tier": 1,
-   "country": "KE",
-   "category": "gazette",
-   "segments": [
-    "city",
-    "bush",
-    "beach"
-   ],
-   "first_seen": "2026-10-01T23:23+03:00",
-   "published": "2026-10-05",
-   "verdict": "STRONG \u2014 tier-1, upstream"
-  },
-  {
-   "score": 92.8,
-   "components": {
-    "tier": 40,
-    "category": 20,
-    "lead": 12.0,
-    "relevance": 0,
-    "freshness": 10.8,
-    "corroborated": 10
-   },
-   "keywords": [],
-   "shock_terms": [],
-   "dedupe_match": null,
-   "dedupe_similarity": 0.2,
-   "id": "2540ee70c8fa",
-   "title": "Githunguri Law Courts \u2013 Daily Cause List \u2013 01 October 2026",
-   "url": "https://new.kenyalaw.org/akn/ke/doc/cause-list-daily/kemc/2026-10-01/1/eng@2026-10-01",
-   "summary": "Githunguri Law Courts \u2013 Daily Cause List \u2013 01 October 2026",
-   "kind": "item",
-   "source": "Kenya Gazette (Kenya Law)",
-   "source_id": "ke-gazette",
-   "tier": 1,
-   "country": "KE",
-   "category": "gazette",
-   "segments": [
-    "city",
-    "bush",
-    "beach"
-   ],
-   "first_seen": "2026-10-01T23:23+03:00",
-   "published": "2026-10-01",
-   "verdict": "STRONG \u2014 tier-1, upstream"
-  },
-  {
-   "score": 92.8,
-   "components": {
-    "tier": 40,
-    "category": 20,
-    "lead": 12.0,
-    "relevance": 0,
-    "freshness": 10.8,
-    "corroborated": 10
-   },
-   "keywords": [],
-   "shock_terms": [],
-   "dedupe_match": null,
-   "dedupe_similarity": 0.4,
-   "id": "38f42b7a4df4",
-   "title": "Employment and Labour Relations Court at Nairobi \u2013 Employment and Labour Division \u2013 Weekly Cause List \u2013 05 October 2026 to 09 October 2026",
-   "url": "https://new.kenyalaw.org/akn/ke/doc/cause-list-weekly/keelrc/2026-10-05/2/eng@2026-10-05",
-   "summary": "Employment and Labour Relations Court at Nairobi \u2013 Employment and Labour Division \u2013 Weekly Cause List \u2013 05 October 2026 to 09 October 2026",
-   "kind": "item",
-   "source": "Kenya Gazette (Kenya Law)",
-   "source_id": "ke-gazette",
-   "tier": 1,
-   "country": "KE",
-   "category": "gazette",
-   "segments": [
-    "city",
-    "bush",
-    "beach"
-   ],
-   "first_seen": "2026-10-01T23:23+03:00",
-   "published": "2026-10-05",
-   "verdict": "STRONG \u2014 tier-1, upstream"
-  },
-  {
-   "score": 92.8,
-   "components": {
-    "tier": 40,
-    "category": 20,
-    "lead": 12.0,
-    "relevance": 0,
-    "freshness": 10.8,
-    "corroborated": 10
-   },
-   "keywords": [],
-   "shock_terms": [],
-   "dedupe_match": null,
-   "dedupe_similarity": 0.2,
-   "id": "c1d58fccb879",
-   "title": "High Court at Kibera \u2013 Criminal Division \u2013 Daily Cause List \u2013 01 October 2026",
-   "url": "https://new.kenyalaw.org/akn/ke/doc/cause-list-daily/kehc/2026-10-01/1/eng@2026-10-01",
-   "summary": "High Court at Kibera \u2013 Criminal Division \u2013 Daily Cause List \u2013 01 October 2026",
-   "kind": "item",
-   "source": "Kenya Gazette (Kenya Law)",
-   "source_id": "ke-gazette",
-   "tier": 1,
-   "country": "KE",
-   "category": "gazette",
-   "segments": [
-    "city",
-    "bush",
-    "beach"
-   ],
-   "first_seen": "2026-10-01T23:23+03:00",
-   "published": "2026-10-01",
-   "verdict": "STRONG \u2014 tier-1, upstream"
-  },
-  {
-   "score": 92.8,
-   "components": {
-    "tier": 40,
-    "category": 20,
-    "lead": 12.0,
-    "relevance": 0,
-    "freshness": 10.8,
-    "corroborated": 10
-   },
-   "keywords": [],
-   "shock_terms": [],
-   "dedupe_match": null,
-   "dedupe_similarity": 0.2,
-   "id": "91b9a159b464",
-   "title": "Court of Appeal at Eldoret \u2013 Monthly Cause List \u2013 05 October 2026 to 28 October 2026",
-   "url": "https://new.kenyalaw.org/akn/ke/doc/cause-list-monthly/keca/2026-10-05/5/eng@2026-10-05",
-   "summary": "Court of Appeal at Eldoret \u2013 Monthly Cause List \u2013 05 October 2026 to 28 October 2026",
-   "kind": "item",
-   "source": "Kenya Gazette (Kenya Law)",
-   "source_id": "ke-gazette",
-   "tier": 1,
-   "country": "KE",
-   "category": "gazette",
-   "segments": [
-    "city",
-    "bush",
-    "beach"
-   ],
-   "first_seen": "2026-10-01T23:23+03:00",
-   "published": "2026-10-05",
-   "verdict": "STRONG \u2014 tier-1, upstream"
-  },
-  {
-   "score": 92.8,
-   "components": {
-    "tier": 40,
-    "category": 20,
-    "lead": 12.0,
-    "relevance": 0,
-    "freshness": 10.8,
-    "corroborated": 10
-   },
-   "keywords": [],
-   "shock_terms": [],
-   "dedupe_match": null,
-   "dedupe_similarity": 0.2,
-   "id": "966b5294d58a",
-   "title": "Sugar Arbitration Tribunal \u2013 Daily Cause List \u2013 09 October 2026",
-   "url": "https://new.kenyalaw.org/akn/ke/doc/cause-list-daily/tribunal/2026-10-09/1/eng@2026-10-09",
-   "summary": "Sugar Arbitration Tribunal \u2013 Daily Cause List \u2013 09 October 2026",
-   "kind": "item",
-   "source": "Kenya Gazette (Kenya Law)",
-   "source_id": "ke-gazette",
-   "tier": 1,
-   "country": "KE",
-   "category": "gazette",
-   "segments": [
-    "city",
-    "bush",
-    "beach"
-   ],
-   "first_seen": "2026-10-01T23:23+03:00",
-   "published": "2026-10-09",
-   "verdict": "STRONG \u2014 tier-1, upstream"
-  },
-  {
-   "score": 92.8,
-   "components": {
-    "tier": 40,
-    "category": 20,
-    "lead": 12.0,
-    "relevance": 0,
-    "freshness": 10.8,
-    "corroborated": 10
-   },
-   "keywords": [],
-   "shock_terms": [],
-   "dedupe_match": null,
-   "dedupe_similarity": 0.2,
-   "id": "fc5917bee458",
-   "title": "Court of Appeal at Kisumu \u2013 Monthly Cause List \u2013 05 October 2026 to 21 October 2026",
-   "url": "https://new.kenyalaw.org/akn/ke/doc/cause-list-monthly/keca/2026-10-05/6/eng@2026-10-05",
-   "summary": "Court of Appeal at Kisumu \u2013 Monthly Cause List \u2013 05 October 2026 to 21 October 2026",
-   "kind": "item",
-   "source": "Kenya Gazette (Kenya Law)",
-   "source_id": "ke-gazette",
-   "tier": 1,
-   "country": "KE",
-   "category": "gazette",
-   "segments": [
-    "city",
-    "bush",
-    "beach"
-   ],
-   "first_seen": "2026-10-01T23:23+03:00",
-   "published": "2026-10-05",
-   "verdict": "STRONG \u2014 tier-1, upstream"
-  },
-  {
-   "score": 92.8,
-   "components": {
-    "tier": 40,
-    "category": 20,
-    "lead": 12.0,
-    "relevance": 0,
-    "freshness": 10.8,
-    "corroborated": 10
-   },
-   "keywords": [],
-   "shock_terms": [],
-   "dedupe_match": null,
-   "dedupe_similarity": 0.2,
-   "id": "4c6c9932bba7",
-   "title": "Merti Law Courts \u2013 Daily Cause List \u2013 05 October 2026",
-   "url": "https://new.kenyalaw.org/akn/ke/doc/cause-list-daily/kemc/2026-10-05/1/eng@2026-10-05",
-   "summary": "Merti Law Courts \u2013 Daily Cause List \u2013 05 October 2026",
-   "kind": "item",
-   "source": "Kenya Gazette (Kenya Law)",
-   "source_id": "ke-gazette",
-   "tier": 1,
-   "country": "KE",
-   "category": "gazette",
-   "segments": [
-    "city",
-    "bush",
-    "beach"
-   ],
-   "first_seen": "2026-10-01T23:23+03:00",
-   "published": "2026-10-05",
-   "verdict": "STRONG \u2014 tier-1, upstream"
-  },
-  {
-   "score": 92.8,
-   "components": {
-    "tier": 40,
-    "category": 20,
-    "lead": 12.0,
-    "relevance": 0,
-    "freshness": 10.8,
-    "corroborated": 10
-   },
-   "keywords": [],
-   "shock_terms": [],
-   "dedupe_match": null,
-   "dedupe_similarity": 0.2,
-   "id": "de34e36ed59a",
-   "title": "Sugar Arbitration Tribunal \u2013 General Notice \u2013 05 October 2026 to 09 October 2026",
-   "url": "https://new.kenyalaw.org/akn/ke/doc/general_notice/tribunal/2026-10-05/1/eng@2026-10-05",
-   "summary": "Sugar Arbitration Tribunal \u2013 General Notice \u2013 05 October 2026 to 09 October 2026",
-   "kind": "item",
-   "source": "Kenya Gazette (Kenya Law)",
-   "source_id": "ke-gazette",
-   "tier": 1,
-   "country": "KE",
-   "category": "gazette",
-   "segments": [
-    "city",
-    "bush",
-    "beach"
-   ],
-   "first_seen": "2026-10-01T23:23+03:00",
-   "published": "2026-10-05",
-   "verdict": "STRONG \u2014 tier-1, upstream"
-  },
-  {
-   "score": 92.8,
-   "components": {
-    "tier": 40,
-    "category": 20,
-    "lead": 12.0,
-    "relevance": 0,
-    "freshness": 10.8,
-    "corroborated": 10
-   },
-   "keywords": [],
-   "shock_terms": [],
-   "dedupe_match": null,
-   "dedupe_similarity": 0.2,
-   "id": "d390d2cfb818",
-   "title": "Court of Appeal at Nyeri \u2013 Monthly Cause List \u2013 12 October 2026 to 28 October 2026",
-   "url": "https://new.kenyalaw.org/akn/ke/doc/cause-list-monthly/keca/2026-10-12/1/eng@2026-10-12",
-   "summary": "Court of Appeal at Nyeri \u2013 Monthly Cause List \u2013 12 October 2026 to 28 October 2026",
-   "kind": "item",
-   "source": "Kenya Gazette (Kenya Law)",
-   "source_id": "ke-gazette",
-   "tier": 1,
-   "country": "KE",
-   "category": "gazette",
-   "segments": [
-    "city",
-    "bush",
-    "beach"
-   ],
-   "first_seen": "2026-10-01T23:23+03:00",
-   "published": "2026-10-12",
-   "verdict": "STRONG \u2014 tier-1, upstream"
-  },
-  {
-   "score": 92.8,
-   "components": {
-    "tier": 40,
-    "category": 20,
-    "lead": 12.0,
-    "relevance": 0,
-    "freshness": 10.8,
-    "corroborated": 10
-   },
-   "keywords": [],
-   "shock_terms": [],
-   "dedupe_match": null,
-   "dedupe_similarity": 0.2,
-   "id": "b7a3e47ce791",
-   "title": "Kimilili Law Courts \u2013 Weekly Cause List \u2013 05 October 2026 to 09 October 2026",
-   "url": "https://new.kenyalaw.org/akn/ke/doc/cause-list-weekly/kemc/2026-10-05/3/eng@2026-10-05",
-   "summary": "Kimilili Law Courts \u2013 Weekly Cause List \u2013 05 October 2026 to 09 October 2026",
-   "kind": "item",
-   "source": "Kenya Gazette (Kenya Law)",
-   "source_id": "ke-gazette",
-   "tier": 1,
-   "country": "KE",
-   "category": "gazette",
-   "segments": [
-    "city",
-    "bush",
-    "beach"
-   ],
-   "first_seen": "2026-10-01T23:23+03:00",
-   "published": "2026-10-05",
-   "verdict": "STRONG \u2014 tier-1, upstream"
-  },
-  {
-   "score": 92.8,
-   "components": {
-    "tier": 40,
-    "category": 20,
-    "lead": 12.0,
-    "relevance": 0,
-    "freshness": 10.8,
-    "corroborated": 10
-   },
-   "keywords": [],
-   "shock_terms": [],
-   "dedupe_match": null,
-   "dedupe_similarity": 0.2,
-   "id": "b07776d6662e",
-   "title": "Tongaren Mobile Court \u2013 Weekly Cause List \u2013 05 October 2026 to 09 October 2026",
-   "url": "https://new.kenyalaw.org/akn/ke/doc/cause-list-weekly/kemc/2026-10-05/4/eng@2026-10-05",
-   "summary": "Tongaren Mobile Court \u2013 Weekly Cause List \u2013 05 October 2026 to 09 October 2026",
-   "kind": "item",
-   "source": "Kenya Gazette (Kenya Law)",
-   "source_id": "ke-gazette",
-   "tier": 1,
-   "country": "KE",
-   "category": "gazette",
-   "segments": [
-    "city",
-    "bush",
-    "beach"
-   ],
-   "first_seen": "2026-10-01T23:23+03:00",
-   "published": "2026-10-05",
-   "verdict": "STRONG \u2014 tier-1, upstream"
-  },
-  {
-   "score": 92.2,
+   "score": 86.4,
    "components": {
     "tier": 20,
     "category": 14,
     "lead": 8.4,
     "relevance": 20,
-    "freshness": 19.8,
+    "freshness": 14.0,
     "corroborated": 10
    },
    "keywords": [
@@ -1053,50 +297,13 @@
    "verdict": "CONSIDER"
   },
   {
-   "score": 90.9,
-   "components": {
-    "tier": 20,
-    "category": 14,
-    "lead": 8.4,
-    "relevance": 24,
-    "freshness": 14.5,
-    "corroborated": 10
-   },
-   "keywords": [
-    "vat",
-    "adr",
-    "route"
-   ],
-   "shock_terms": [],
-   "dedupe_match": null,
-   "dedupe_similarity": 0.0,
-   "id": "e59e9ff92ef8",
-   "title": "WestJet Removes 3 European Routes in NS27",
-   "url": "https://www.aeroroutes.com/eng/261001-wsns27eu",
-   "summary": "Published at 1600PDT / 2300GMT 01OCT26 WestJet in last week\u2019s schedule update filed initial changes to its European operation for Northern summer 2027 season, featuring 3 routes being removed. Following routes are no longer available for reservations since 21SEP26. Halifax \u2013 Copenhagen Halifax \u2013 Madrid Toronto Pearson \u2013 Glasgow",
-   "kind": "item",
-   "source": "AeroRoutes schedule filings",
-   "source_id": "aeroroutes",
-   "tier": 2,
-   "country": "GLOBAL",
-   "category": "aviation-tracker",
-   "segments": [
-    "city",
-    "bush",
-    "beach"
-   ],
-   "first_seen": "2026-10-02T02:44+03:00",
-   "published": "2026-10-02",
-   "verdict": "CONSIDER"
-  },
-  {
-   "score": 88.2,
+   "score": 82.4,
    "components": {
     "tier": 20,
     "category": 14,
     "lead": 8.4,
     "relevance": 16,
-    "freshness": 19.8,
+    "freshness": 14.0,
     "corroborated": 10
    },
    "keywords": [
@@ -1127,49 +334,51 @@
    "verdict": "CONSIDER"
   },
   {
-   "score": 87.5,
+   "score": 82.2,
    "components": {
-    "tier": 40,
-    "category": 13,
-    "lead": 6.0,
-    "relevance": 12,
-    "freshness": 6.5,
-    "corroborated": 10
+    "tier": 20,
+    "category": 4,
+    "lead": 2.4,
+    "relevance": 8,
+    "freshness": 19.8,
+    "corroborated": 10,
+    "shock": 18
    },
    "keywords": [
-    "airport",
-    "flight"
+    "strike"
    ],
-   "shock_terms": [],
+   "shock_terms": [
+    "strike"
+   ],
    "dedupe_match": null,
-   "dedupe_similarity": 0.4,
-   "id": "fa17cc45801e",
-   "title": "Jambojet Returns to Uganda: Strengthening Regional Connectivity",
-   "url": "https://caa.go.ug/jambojet-returns-to-uganda-strengthening-regional-connectivity",
-   "summary": "Uganda CAA congratulates JamboJet on the relaunch of its daily direct Nairobi\u2013Entebbe flight. The Minister of Works and Transport, Hon. Fred Byamukama received the flight which was welcomed with a water gun salute at Entebbe International Airport on October 1, 2026. The flight touched down at 1115 hours. Hon. Byamukama underscored the wider [\u2026]",
+   "dedupe_similarity": 0.25,
+   "id": "cd831d33b645",
+   "title": "UoN Explains Closure Notice as Lecturers Down Tools Nationwide",
+   "url": "https://www.kenyans.co.ke/news/127532-uon-dismisses-closure-notice-lecturers-begin-nationwide-strike",
+   "summary": "The clarification comes as university lecturers nationwide begin a strike, with unions pushing for action on long-standing employment and funding concerns.",
    "kind": "item",
-   "source": "Uganda Civil Aviation Authority",
-   "source_id": "ug-ucaa",
-   "tier": 1,
-   "country": "UG",
-   "category": "aviation",
+   "source": "Kenyans.co.ke news",
+   "source_id": "ke-kenyans",
+   "tier": 2,
+   "country": "KE",
+   "category": "press",
    "segments": [
     "city",
     "bush",
     "beach"
    ],
-   "first_seen": "2026-10-01T19:29+03:00",
-   "published": "2026-10-01",
+   "first_seen": "2026-10-02T12:51+03:00",
+   "published": "2026-10-02",
    "verdict": "CONSIDER"
   },
   {
-   "score": 86.2,
+   "score": 80.4,
    "components": {
     "tier": 20,
     "category": 24,
     "lead": 2.4,
     "relevance": 12,
-    "freshness": 19.8,
+    "freshness": 14.0,
     "undated": -6,
     "shock": 18,
     "page_change": -4
@@ -1202,13 +411,116 @@
    "verdict": "CONSIDER"
   },
   {
-   "score": 84.2,
+   "score": 80.2,
+   "components": {
+    "tier": 20,
+    "category": 14,
+    "lead": 8.4,
+    "relevance": 8,
+    "freshness": 19.8,
+    "corroborated": 10
+   },
+   "keywords": [
+    "route"
+   ],
+   "shock_terms": [],
+   "dedupe_match": null,
+   "dedupe_similarity": 0.0,
+   "id": "db941291f9e7",
+   "title": "VietJet Air Nov/Dec 2026 Regional Service Reductions",
+   "url": "https://www.aeroroutes.com/eng/261002-vjnov26int",
+   "summary": "Published at 0100PDT / 0800GMT 02OCT26 VietJet Air in the last few days filed service reductions on various regional routes for the period of 25OCT26 \u2013 09DEC26. Planned service reductions include the following. Note: Did you know that an account called \u201cPlane Spotting and news updates\u201d on threads, instagram and tiktok has been using AeroRoutes contents via screenshot to promote its own brand? Plea",
+   "kind": "item",
+   "source": "AeroRoutes schedule filings",
+   "source_id": "aeroroutes",
+   "tier": 2,
+   "country": "GLOBAL",
+   "category": "aviation-tracker",
+   "segments": [
+    "city",
+    "bush",
+    "beach"
+   ],
+   "first_seen": "2026-10-02T12:51+03:00",
+   "published": "2026-10-02",
+   "verdict": "CONSIDER"
+  },
+  {
+   "score": 80.2,
+   "components": {
+    "tier": 20,
+    "category": 14,
+    "lead": 8.4,
+    "relevance": 8,
+    "freshness": 19.8,
+    "corroborated": 10
+   },
+   "keywords": [
+    "frequency"
+   ],
+   "shock_terms": [],
+   "dedupe_match": null,
+   "dedupe_similarity": 0.17,
+   "id": "b1e56df1ac16",
+   "title": "Icelandair NS27 Network Changes \u2013 01OCT26",
+   "url": "https://www.aeroroutes.com/eng/261001-fins27",
+   "summary": "Published at 2200PDT 01OCT26 / 0500GMT 02OCT26 Icelandair this week filed additional service changes to its Northern summer 2027 season operation. The following frequency variation is based on peak season operation between mid-June and early-September, comparing to same period in 2026, as of 01OCT26. Reykjav\u00edk Keflav\u00edk \u2013 Alicante Increase from 4 to 5 weekly Reykjav\u00edk Keflav\u00edk \u2013 Barcelona Increase ",
+   "kind": "item",
+   "source": "AeroRoutes schedule filings",
+   "source_id": "aeroroutes",
+   "tier": 2,
+   "country": "GLOBAL",
+   "category": "aviation-tracker",
+   "segments": [
+    "city",
+    "bush",
+    "beach"
+   ],
+   "first_seen": "2026-10-02T12:51+03:00",
+   "published": "2026-10-02",
+   "verdict": "CONSIDER"
+  },
+  {
+   "score": 80.2,
+   "components": {
+    "tier": 40,
+    "category": 24,
+    "lead": 2.4,
+    "relevance": 0,
+    "freshness": 19.8,
+    "undated": -6
+   },
+   "keywords": [],
+   "shock_terms": [],
+   "dedupe_match": null,
+   "dedupe_similarity": 0.11,
+   "id": "f3160618b6a7",
+   "title": "Reaching every child: Uganda's nationwide push against measles and rubella",
+   "url": "https://www.afro.who.int/countries/uganda/news/reaching-every-child-ugandas-nationwide-push-against-measles-and-rubella",
+   "summary": "",
+   "kind": "item",
+   "source": "WHO AFRO \u2014 Uganda country newsroom",
+   "source_id": "who-afro-uganda",
+   "tier": 1,
+   "country": "UG",
+   "category": "health",
+   "segments": [
+    "bush",
+    "city",
+    "beach"
+   ],
+   "first_seen": "2026-10-02T12:51+03:00",
+   "published": null,
+   "verdict": "CONSIDER"
+  },
+  {
+   "score": 78.4,
    "components": {
     "tier": 20,
     "category": 14,
     "lead": 8.4,
     "relevance": 12,
-    "freshness": 19.8,
+    "freshness": 14.0,
     "corroborated": 10
    },
    "keywords": [
@@ -1238,143 +550,908 @@
    "verdict": "CONSIDER"
   },
   {
-   "score": 83.2,
+   "score": 76.2,
    "components": {
     "tier": 20,
-    "category": 14,
-    "lead": 8.4,
+    "category": 4,
+    "lead": 2.4,
     "relevance": 20,
-    "freshness": 10.8,
+    "freshness": 19.8,
     "corroborated": 10
    },
    "keywords": [
-    "cancel",
-    "route"
+    "gazette",
+    "election",
+    "camp"
    ],
    "shock_terms": [],
    "dedupe_match": null,
-   "dedupe_similarity": 0.11,
-   "id": "ad8c7616f595",
-   "title": "Cebu Pacific Revises Planned NW26 International Network Expansion",
-   "url": "https://www.aeroroutes.com/eng/261001-5jnw26int",
-   "summary": "Published at 1200PDT / 1900GMT 01OCT26 Cebu Pacific recently filed additional changes to its planned international routes addition, including service resumptions. Some of these changes were filed this week. Cebu \u2013 Nagoya eff 01DEC26 4 weekly A320neo, new route (Previous: eff 19NOV26) Cebu \u2013 Shanghai Pu Dong eff 01DEC26 3 weekly A320neo, new route (Previous: eff 17NOV26) Davao \u2013 Bangkok Don Mueang ",
+   "dedupe_similarity": 0.2,
+   "id": "f1899bf00f26",
+   "title": "Explainer: How Kenya\u2019s campaign financing works",
+   "url": "https://nation.africa/kenya/news/politics/explainer-how-kenya-campaign-financing-works-5616620",
+   "summary": "On August 7, 2026, IEBC gazetted new financing regulations ahead of the 2027 General Election.",
    "kind": "item",
-   "source": "AeroRoutes schedule filings",
-   "source_id": "aeroroutes",
+   "source": "Nation Africa: Kenya business",
+   "source_id": "ke-nation-business",
    "tier": 2,
-   "country": "GLOBAL",
-   "category": "aviation-tracker",
+   "country": "KE",
+   "category": "press",
    "segments": [
     "city",
     "bush",
     "beach"
    ],
-   "first_seen": "2026-10-01T23:23+03:00",
-   "published": "2026-10-01",
+   "first_seen": "2026-10-02T12:51+03:00",
+   "published": "2026-10-02",
    "verdict": "CONSIDER"
   },
   {
-   "score": 82.9,
+   "score": 75.8,
    "components": {
     "tier": 20,
-    "category": 14,
-    "lead": 8.4,
-    "relevance": 24,
-    "freshness": 6.5,
-    "corroborated": 10
+    "category": 4,
+    "lead": 0.0,
+    "relevance": 20,
+    "freshness": 19.8,
+    "undated": -6,
+    "shock": 18
    },
    "keywords": [
-    "vat",
-    "seat",
-    "airline",
-    "flight"
+    "terror",
+    "eta"
    ],
-   "shock_terms": [],
+   "shock_terms": [
+    "attack"
+   ],
    "dedupe_match": null,
-   "dedupe_similarity": 0.11,
-   "id": "f48940590b75",
-   "title": "Air Tahiti Confirms 26-seater ATR72 Service Launch in Nov 2026",
-   "url": "https://www.aeroroutes.com/eng/261001-vtnov26at7",
-   "summary": "Published at 0800PDT / 1500GMT 01OCT26 Air Tahiti this week opened reservations for flights operated by 26-seater All-Business Class ATR72 service for the month of November 2026, as the airline confirms the acceleration of service entry by one month. Reservations between 11NOV26 and 07DEC26 are now available for the \u201cAir Tahiti Signature\u201d service. Papeete (Tahiti) \u2013 Bora Bora \u2013 Raiatea \u2013 Papeete (",
+   "dedupe_similarity": 0.0,
+   "id": "9403b9c4d4c4",
+   "title": "World Trump vows to hit Iran 'very hard' if linked to flydubai attack Trump's warning came as the United Arab Emirates opened an investigation into whether the incident was linked to terrorism and Israeli Prime Minister Benjamin Netanyahu said the suspect had undergone \"Islamist radical indoctrination\".",
+   "url": "https://www.newvision.co.ug/category/world/trump-vows-to-hit-iran-very-hard-if-linked-to-NV_241691_102026",
+   "summary": "",
    "kind": "item",
-   "source": "AeroRoutes schedule filings",
-   "source_id": "aeroroutes",
+   "source": "New Vision (Uganda)",
+   "source_id": "np-newvision-ug",
    "tier": 2,
-   "country": "GLOBAL",
-   "category": "aviation-tracker",
+   "country": "UG",
+   "category": "press",
    "segments": [
     "city",
     "bush",
     "beach"
    ],
-   "first_seen": "2026-10-01T19:30+03:00",
-   "published": "2026-10-01",
+   "first_seen": "2026-10-02T12:51+03:00",
+   "published": null,
    "verdict": "CONSIDER"
   },
   {
-   "score": 82.8,
+   "score": 73.2,
+   "components": {
+    "tier": 20,
+    "category": 5,
+    "lead": 2.4,
+    "relevance": 16,
+    "freshness": 19.8,
+    "corroborated": 10
+   },
+   "keywords": [
+    "visa",
+    "gazette"
+   ],
+   "shock_terms": [],
+   "dedupe_match": null,
+   "dedupe_similarity": 0.2,
+   "id": "8ce3898b3bf7",
+   "title": "Tanzania Removes Nigerian Nationals from Referred Visa Category, Easing Travel Procedures",
+   "url": "https://katakenya.org/tanzania-removes-nigerian-nationals-from-referred-visa-category-easing-travel-procedures",
+   "summary": "Tanzania has removed Nigerian nationals from its Referred Visa Category, ending the additional immigration clearance previously required before their visa applications could be processed. The change, confirmed by Tanzania\u2019s Immigration Services Department on September 25, follows amendments published in Government Gazette No. 246 of 2026. Nigerian passport holders will now follow Tanzania\u2019s standa",
+   "kind": "item",
+   "source": "Kenya Association of Travel Agents news",
+   "source_id": "tp-kata",
+   "tier": 2,
+   "country": "KE",
+   "category": "trade",
+   "segments": [
+    "city",
+    "bush",
+    "beach"
+   ],
+   "first_seen": "2026-10-02T12:51+03:00",
+   "published": "2026-10-02",
+   "verdict": "CONSIDER"
+  },
+  {
+   "score": 72.4,
+   "components": {
+    "tier": 5,
+    "category": 5,
+    "lead": 2.4,
+    "relevance": 36,
+    "freshness": 14.0,
+    "corroborated": 10
+   },
+   "keywords": [
+    "eta",
+    "airport",
+    "hotel",
+    "camp",
+    "safari",
+    "flight",
+    "booking"
+   ],
+   "shock_terms": [],
+   "dedupe_match": null,
+   "dedupe_similarity": 0.2,
+   "id": "58efa72c1c63",
+   "title": "Kenya Safari Travel Reveals How Nairobi Flight Timing Can Add a Hotel Night Before the First Game Drive",
+   "url": "https://www.travelandtourworld.com/news/article/q71xme5z2ihv",
+   "summary": "Kenya Safari Travel Reveals How Nairobi Flight Timing Can Add a Hotel Night Before the First Game Drive Landing in Nairobi does not always mean reaching your safari camp that day. International arrival times, the transfer to Wilson Airport and onward check-in deadlines can add a hotel night before the first game drive. Learn which booking details to check before committing to flights and safari ac",
+   "kind": "item",
+   "source": "Travel And Tour World",
+   "source_id": "gl-travelandtourworld",
+   "tier": 3,
+   "country": "GLOBAL",
+   "category": "trade",
+   "segments": [
+    "city",
+    "bush",
+    "beach"
+   ],
+   "first_seen": "2026-10-02T07:34+03:00",
+   "published": "2026-10-02",
+   "verdict": "CONSIDER"
+  },
+  {
+   "score": 68.2,
+   "components": {
+    "tier": 20,
+    "category": 4,
+    "lead": 2.4,
+    "relevance": 12,
+    "freshness": 19.8,
+    "corroborated": 10
+   },
+   "keywords": [
+    "route",
+    "traffic"
+   ],
+   "shock_terms": [],
+   "dedupe_match": null,
+   "dedupe_similarity": 0.2,
+   "id": "36caa3db019c",
+   "title": "Tracing the hidden routes used by Kenya\u2019s child-trafficking networks",
+   "url": "https://nation.africa/kenya/counties/tracing-hidden-routes-kenya-child-trafficking-networks-5615994",
+   "summary": "Recruiters exploit poverty and pressure to move children into exploitation.",
+   "kind": "item",
+   "source": "Nation Africa: Kenya business",
+   "source_id": "ke-nation-business",
+   "tier": 2,
+   "country": "KE",
+   "category": "press",
+   "segments": [
+    "city",
+    "bush",
+    "beach"
+   ],
+   "first_seen": "2026-10-02T12:51+03:00",
+   "published": "2026-10-02",
+   "verdict": "weak"
+  },
+  {
+   "score": 68.0,
+   "components": {
+    "tier": 20,
+    "category": 5,
+    "lead": 1.2,
+    "relevance": 12,
+    "freshness": 19.8,
+    "corroborated": 10
+   },
+   "keywords": [
+    "fee",
+    "investment"
+   ],
+   "shock_terms": [],
+   "dedupe_match": null,
+   "dedupe_similarity": 0.2,
+   "id": "37967c041587",
+   "title": "EU\u2013Tanzania Roadshow Continues in Italy With Rice, Cashew, Coffee and Renewable Energy Investment Pitches in Cesena",
+   "url": "https://www.tanzaniainvest.com/agriculture/eu-roadshow-2026-italy-cesena-day-one",
+   "summary": "At the Cesena stop of the EU\u2013Tanzania roadshow, Tanzanian agencies presented investment opportunities in rice, cashew and coffee processing, renewable energy, power transmission and digital infrastructure. Italy\u2019s Ministry of Foreign Affairs cited USD 8.6 billion in foreign investment registered in Tanzania in the last year, up 56%, while EU and Italian institutions outlined grants, guarantees, ex",
+   "kind": "item",
+   "source": "TanzaniaInvest \u2014 tourism",
+   "source_id": "tp-tanzaniainvest",
+   "tier": 2,
+   "country": "TZ",
+   "category": "trade",
+   "segments": [
+    "city",
+    "bush",
+    "beach"
+   ],
+   "first_seen": "2026-10-02T12:51+03:00",
+   "published": "2026-10-02",
+   "verdict": "weak"
+  },
+  {
+   "score": 66.2,
+   "components": {
+    "tier": 5,
+    "category": 5,
+    "lead": 2.4,
+    "relevance": 24,
+    "freshness": 19.8,
+    "corroborated": 10
+   },
+   "keywords": [
+    "arrivals",
+    "capacity",
+    "tourism",
+    "booking"
+   ],
+   "shock_terms": [],
+   "dedupe_match": null,
+   "dedupe_similarity": 0.0,
+   "id": "e3bc3da47fe9",
+   "title": "Indonesia Along Other Asian Countries Set to Overtake Thailand Tourism Dominance as Travel Rivals Gain Momentum in 2026",
+   "url": "https://www.travelandtourworld.com/news/article/5onv26d4y29b",
+   "summary": "Indonesia Along Other Asian Countries Set to Overtake Thailand Tourism Dominance as Travel Rivals Gain Momentum in 2026 Indonesia, Malaysia and Vietnam challenge Thailand\u2019s tourism lead in 2026 as bookings, arrivals and air capacity rise. The post Indonesia Along Other Asian Countries Set to Overtake Thailand Tourism Dominance as Travel Rivals Gain Momentum in 2026 appeared first on Travel And Tou",
+   "kind": "item",
+   "source": "Travel And Tour World",
+   "source_id": "gl-travelandtourworld",
+   "tier": 3,
+   "country": "GLOBAL",
+   "category": "trade",
+   "segments": [
+    "city",
+    "bush",
+    "beach"
+   ],
+   "first_seen": "2026-10-02T12:51+03:00",
+   "published": "2026-10-02",
+   "verdict": "weak"
+  },
+  {
+   "score": 65.8,
+   "components": {
+    "tier": 20,
+    "category": 4,
+    "lead": 0.0,
+    "relevance": 12,
+    "freshness": 19.8,
+    "corroborated": 10
+   },
+   "keywords": [
+    "concession",
+    "investment"
+   ],
+   "shock_terms": [],
+   "dedupe_match": null,
+   "dedupe_similarity": 0.17,
+   "id": "8b90a643d084",
+   "title": "Dar es Salaam transit cargo rises 17% as corridor competition shifts",
+   "url": "https://dailynews.co.tz/dar-es-salaam-transit-cargo-rises-17-as-corridor-competition-shifts",
+   "summary": "DAR ES SALAAM: Transit cargo through Dar es Salaam Port rose 17 percent to 14.61 million tonnes in the 2025/26 financial year, driven largely by stronger flows to the Democratic Republic of Congo, Zambia and Rwanda. The increase comes as investment at the port by concessionaire DP World, alongside government investment in Tanzania\u2019s rail and \u2026 The post Dar es Salaam transit cargo rises 17% as corr",
+   "kind": "item",
+   "source": "Daily News (Tanzania)",
+   "source_id": "np-dailynews-tz",
+   "tier": 2,
+   "country": "TZ",
+   "category": "press",
+   "segments": [
+    "city",
+    "bush",
+    "beach"
+   ],
+   "first_seen": "2026-10-02T12:51+03:00",
+   "published": "2026-10-02",
+   "verdict": "weak"
+  },
+  {
+   "score": 65.2,
+   "components": {
+    "tier": 20,
+    "category": 5,
+    "lead": 2.4,
+    "relevance": 8,
+    "freshness": 19.8,
+    "corroborated": 10
+   },
+   "keywords": [
+    "hotel",
+    "guest"
+   ],
+   "shock_terms": [],
+   "dedupe_match": null,
+   "dedupe_similarity": 0.0,
+   "id": "dca6c6ba15f8",
+   "title": "Forget Me Not",
+   "url": "https://www.hospitalitynet.org/opinion/4134698/forget-me-not",
+   "summary": "Twilio's 2026 APAC research finds 70% of consumers have abandoned AI interactions due to lost context, exposing hotels' fragmented guest data infrastructure as the root cause and proposing a governed Guest Memory Layer as the fix.",
+   "kind": "item",
+   "source": "Hospitality Net: Africa openings",
+   "source_id": "dev-hospitalitynet-openings",
+   "tier": 2,
+   "country": "AFRICA",
+   "category": "trade",
+   "segments": [
+    "city",
+    "bush",
+    "beach"
+   ],
+   "first_seen": "2026-10-02T12:51+03:00",
+   "published": "2026-10-02",
+   "verdict": "weak"
+  },
+  {
+   "score": 65.2,
+   "components": {
+    "tier": 20,
+    "category": 5,
+    "lead": 2.4,
+    "relevance": 8,
+    "freshness": 19.8,
+    "corroborated": 10
+   },
+   "keywords": [
+    "hotel",
+    "booking"
+   ],
+   "shock_terms": [],
+   "dedupe_match": null,
+   "dedupe_similarity": 0.0,
+   "id": "c92781e49bd9",
+   "title": "High Season Hotel Strategy: How to Protect Profitability as Demand Peaks",
+   "url": "https://www.hospitalitynet.org/opinion/4134688/high-season-hotel-strategy-how-to-protect-profitability-as-demand-peaks",
+   "summary": "Exely outlines pre-peak revenue checks covering channel strategy, price parity, direct booking conversion, upselling, and loyalty to protect hotel margins during high-demand periods.",
+   "kind": "item",
+   "source": "Hospitality Net: Africa openings",
+   "source_id": "dev-hospitalitynet-openings",
+   "tier": 2,
+   "country": "AFRICA",
+   "category": "trade",
+   "segments": [
+    "city",
+    "bush",
+    "beach"
+   ],
+   "first_seen": "2026-10-02T12:51+03:00",
+   "published": "2026-10-02",
+   "verdict": "weak"
+  },
+  {
+   "score": 64.9,
    "components": {
     "tier": 40,
-    "category": 20,
+    "category": 5,
     "lead": 12.0,
     "relevance": 0,
-    "freshness": 10.8
-   },
-   "keywords": [],
-   "shock_terms": [],
-   "dedupe_match": null,
-   "dedupe_similarity": 0.25,
-   "id": "4aee1d358a01",
-   "title": "Githunguri Law Courts \u2013 Daily Cause List \u2013 30 September 2026",
-   "url": "https://new.kenyalaw.org/akn/ke/doc/cause-list-daily/kemc/2026-09-30/1/eng@2026-09-30",
-   "summary": "Githunguri Law Courts \u2013 Daily Cause List \u2013 30 September 2026",
-   "kind": "item",
-   "source": "Kenya Gazette (Kenya Law)",
-   "source_id": "ke-gazette",
-   "tier": 1,
-   "country": "KE",
-   "category": "gazette",
-   "segments": [
-    "city",
-    "bush",
-    "beach"
-   ],
-   "first_seen": "2026-10-01T23:23+03:00",
-   "published": "2026-09-30",
-   "verdict": "CONSIDER"
-  },
-  {
-   "score": 82.2,
-   "components": {
-    "tier": 40,
-    "category": 17,
-    "lead": 16.8,
-    "relevance": 0,
-    "freshness": 14.4,
+    "freshness": 13.9,
     "undated": -6
    },
    "keywords": [],
    "shock_terms": [],
    "dedupe_match": null,
-   "dedupe_similarity": 0.2,
-   "id": "9d199286d6d4",
-   "title": "1 Oct 26 TIRA yaelimisha viongozi wa vijiji kuhusu Bima za Kilimo na... Mamlaka ya Usimamizi wa Bima Tanzania (TIRA) kupitia Kanda ya Magharibi; imetoa elimu ya bima kwa wa... Read More",
-   "url": "https://www.tira.go.tz/news/tira-yaelimisha-viongozi-wa-vijiji-kuhusu-bima-za-kilimo-na-bima-ya-afya-kwa-wote",
+   "dedupe_similarity": 0.0,
+   "id": "53a44147b4e9",
+   "title": "\ud835\udc12\ud835\udc04\ud835\udc0d\ud835\udc00\ud835\udc13\ud835\udc04 \ud835\udc0b\ud835\udc00\ud835\udc01\ud835\udc0e\ud835\udc14\ud835\udc11 \ud835\udc02\ud835\udc0e\ud835\udc0c\ud835\udc0c\ud835\udc08\ud835\udc13\ud835\udc13\ud835\udc04\ud835\udc04 \ud835\udc00\ud835\udc12\ud835\udc12\ud835\udc04\ud835\udc12\ud835\udc12\ud835\udc04\ud835\udc12 \ud835\udc13\ud835\udc00\ud835\udc0b\ud835\udc00\ud835\udc0d\ud835\udc13\ud835\udc00 \ud835\udc12\ud835\udc13\ud835\udc00\ud835\udc03\ud835\udc08\ud835\udc14\ud835\udc0c \ud835\udc00\ud835\udc12 \ud835\udc03\ud835\udc04\ud835\udc02\ud835\udc04\ud835\udc0c\ud835\udc01\ud835\udc04\ud835\udc11 \ud835\udc00\ud835\udc05\ud835\udc02\ud835\udc0e\ud835\udc0d \ud835\udc03\ud835\udc04\ud835\udc00\ud835\udc03\ud835\udc0b\ud835\udc08\ud835\udc0d\ud835\udc04 \ud835\udc0d\ud835\udc04\ud835\udc00\ud835\udc11\ud835\udc12",
+   "url": "https://www.parliament.go.ke/node/26468",
    "summary": "",
    "kind": "item",
-   "source": "Tanzania Insurance Regulatory Authority (TIRA)",
-   "source_id": "tz-tira",
+   "source": "Senate Committee on Delegated Legislation (Kenya) \u2014 the committee that annuls or accedes to statutory instruments",
+   "source_id": "ke-senate-delegated-legislation",
    "tier": 1,
-   "country": "TZ",
-   "category": "regulator",
+   "country": "KE",
+   "category": "REG",
    "segments": [
-    "beach",
+    "city",
     "bush",
-    "city"
+    "beach"
    ],
-   "first_seen": "2026-10-02T02:44+03:00",
+   "first_seen": "2026-10-02T07:33+03:00",
    "published": null,
-   "verdict": "CONSIDER"
+   "verdict": "weak"
+  },
+  {
+   "score": 64.4,
+   "components": {
+    "tier": 5,
+    "category": 5,
+    "lead": 2.4,
+    "relevance": 28,
+    "freshness": 14.0,
+    "corroborated": 10
+   },
+   "keywords": [
+    "vat",
+    "eta",
+    "tourism",
+    "booking",
+    "guest"
+   ],
+   "shock_terms": [],
+   "dedupe_match": null,
+   "dedupe_similarity": 0.0,
+   "id": "87ebea670e97",
+   "title": "Indonesia Padel Tourism Pairs Six Hours on Court With Yoga and Recovery at TUI Blue Berawa in Bali",
+   "url": "https://www.travelandtourworld.com/news/article/47o9tozm40b6",
+   "summary": "Indonesia Padel Tourism Pairs Six Hours on Court With Yoga and Recovery at TUI Blue Berawa in Bali Six hours on court give this Bali break a clear sporting focus. TUI Blue Berawa advertises a two-night package for four guests with private yoga, sauna and ice-bath access, and one dinner. Discover the published inclusions and the booking details travellers should confirm before committing. The post ",
+   "kind": "item",
+   "source": "Travel And Tour World",
+   "source_id": "gl-travelandtourworld",
+   "tier": 3,
+   "country": "GLOBAL",
+   "category": "trade",
+   "segments": [
+    "city",
+    "bush",
+    "beach"
+   ],
+   "first_seen": "2026-10-02T07:34+03:00",
+   "published": "2026-10-02",
+   "verdict": "weak"
+  },
+  {
+   "score": 64.2,
+   "components": {
+    "tier": 20,
+    "category": 24,
+    "lead": 2.4,
+    "relevance": 8,
+    "freshness": 19.8,
+    "undated": -6,
+    "page_change": -4
+   },
+   "keywords": [
+    "eta"
+   ],
+   "shock_terms": [],
+   "dedupe_match": null,
+   "dedupe_similarity": 0.0,
+   "id": "fb58c233fd91",
+   "title": "[page changed] ProMED-mail",
+   "url": "https://promedmail.org/",
+   "summary": "Protecting Global Health, One Alert at a Time | ProMED Previous slide Next slide Protecting Global Health, One Alert at a Time ProMED: Your 24/7 early warning system for emerging infectious diseases worldwide. Subscribe ProMED's Weekly Pulse A snapshot of global health events from the past 7 days Latest Posts on ProMED All Date Title Fri Oct 02 2026 SURVEILLANCE (344): CHINA, POLYMYXIN B, ACUTE KI",
+   "kind": "page-change",
+   "source": "ProMED-mail",
+   "source_id": "promed",
+   "tier": 2,
+   "country": "GLOBAL",
+   "category": "health",
+   "segments": [
+    "city",
+    "bush",
+    "beach"
+   ],
+   "first_seen": "2026-10-02T12:51+03:00",
+   "published": null,
+   "verdict": "weak"
+  },
+  {
+   "score": 64.2,
+   "components": {
+    "tier": 20,
+    "category": 4,
+    "lead": 2.4,
+    "relevance": 8,
+    "freshness": 19.8,
+    "corroborated": 10
+   },
+   "keywords": [
+    "protest"
+   ],
+   "shock_terms": [],
+   "dedupe_match": null,
+   "dedupe_similarity": 0.0,
+   "id": "f40110d4329e",
+   "title": "Pro-Government Supporters Storm Standard Group Headquarters, Stage Protest",
+   "url": "https://www.kenyans.co.ke/news/127536-counter-protests-erupt-after-pro-government-supporters-demonstrate-standard-group-hq",
+   "summary": "The demonstration was met by human rights activists who confronted the protesters outside the Standard Group offices, further escalating the tensions.",
+   "kind": "item",
+   "source": "Kenyans.co.ke news",
+   "source_id": "ke-kenyans",
+   "tier": 2,
+   "country": "KE",
+   "category": "press",
+   "segments": [
+    "city",
+    "bush",
+    "beach"
+   ],
+   "first_seen": "2026-10-02T12:51+03:00",
+   "published": "2026-10-02",
+   "verdict": "weak"
+  },
+  {
+   "score": 64.2,
+   "components": {
+    "tier": 20,
+    "category": 4,
+    "lead": 2.4,
+    "relevance": 8,
+    "freshness": 19.8,
+    "corroborated": 10
+   },
+   "keywords": [
+    "investment",
+    "shilling"
+   ],
+   "shock_terms": [],
+   "dedupe_match": null,
+   "dedupe_similarity": 0.09,
+   "id": "4d6cd0ef2a13",
+   "title": "Case Filed Over Govt\u2019s Ksh65 Billion Investment in Dangote Refinery",
+   "url": "https://www.kenyans.co.ke/news/127534-cofek-seeks-details-kenyas-ksh65b-stake-dangote-refinery",
+   "summary": "This comes even as Dangote industries has already embarked on the construction of the multibillion-shilling plant, which is set to be completed with 40 months.",
+   "kind": "item",
+   "source": "Kenyans.co.ke news",
+   "source_id": "ke-kenyans",
+   "tier": 2,
+   "country": "KE",
+   "category": "press",
+   "segments": [
+    "city",
+    "bush",
+    "beach"
+   ],
+   "first_seen": "2026-10-02T12:51+03:00",
+   "published": "2026-10-02",
+   "verdict": "weak"
+  },
+  {
+   "score": 64.2,
+   "components": {
+    "tier": 20,
+    "category": 4,
+    "lead": 2.4,
+    "relevance": 8,
+    "freshness": 19.8,
+    "corroborated": 10
+   },
+   "keywords": [
+    "eta"
+   ],
+   "shock_terms": [],
+   "dedupe_match": null,
+   "dedupe_similarity": 0.1,
+   "id": "b553cac54d5c",
+   "title": "President William Ruto hands over more than 31,000 title deeds in Taita-Taveta",
+   "url": "https://nation.africa/kenya/videos/president-william-ruto-hands-over-more-than-31-000-title-deeds-in-taita-taveta-5616652",
+   "summary": "",
+   "kind": "item",
+   "source": "Nation Africa: Kenya business",
+   "source_id": "ke-nation-business",
+   "tier": 2,
+   "country": "KE",
+   "category": "press",
+   "segments": [
+    "city",
+    "bush",
+    "beach"
+   ],
+   "first_seen": "2026-10-02T12:51+03:00",
+   "published": "2026-10-02",
+   "verdict": "weak"
+  },
+  {
+   "score": 64.0,
+   "components": {
+    "tier": 20,
+    "category": 5,
+    "lead": 1.2,
+    "relevance": 8,
+    "freshness": 19.8,
+    "corroborated": 10
+   },
+   "keywords": [
+    "airline",
+    "flight"
+   ],
+   "shock_terms": [],
+   "dedupe_match": null,
+   "dedupe_similarity": 0.0,
+   "id": "96294725a49e",
+   "title": "Airlink NDC content now live on Aeronology",
+   "url": "https://voyagesafriq.com/2026/10/02/airlink-ndc-content-now-live-on-aeronology",
+   "summary": "Airlink\u2019s New Distribution Capability (NDC) content is now live on Aeronology, the single-screen travel platform that lets advisors search, book and service flights from multiple airlines without switching portals. Branded [\u2026] The post Airlink NDC content now live on Aeronology<gwmw style=\"display:none;\"></gwmw> appeared first on Voyages Afriq .",
+   "kind": "item",
+   "source": "VoyagesAfriq",
+   "source_id": "tp-voyagesafriq",
+   "tier": 2,
+   "country": "REG",
+   "category": "trade",
+   "segments": [
+    "city",
+    "bush",
+    "beach"
+   ],
+   "first_seen": "2026-10-02T12:51+03:00",
+   "published": "2026-10-02",
+   "verdict": "weak"
+  },
+  {
+   "score": 64.0,
+   "components": {
+    "tier": 20,
+    "category": 4,
+    "lead": 0.0,
+    "relevance": 16,
+    "freshness": 14.0,
+    "corroborated": 10
+   },
+   "keywords": [
+    "fuel",
+    "inflation",
+    "shilling"
+   ],
+   "shock_terms": [],
+   "dedupe_match": null,
+   "dedupe_similarity": 0.17,
+   "id": "b3d5ec0fb081",
+   "title": "Inflation remains below BoU\u2019s 5% target: But what is happening underneath?",
+   "url": "https://www.monitor.co.ug/uganda/business/markets/inflation-remains-below-bou-s-5-target-but-what-is-happening-underneath--5616406",
+   "summary": "Headline inflation remains below 5 percent, but rising food and fuel prices, a weaker shilling,...",
+   "kind": "item",
+   "source": "Daily Monitor (Uganda)",
+   "source_id": "np-monitor-ug",
+   "tier": 2,
+   "country": "UG",
+   "category": "press",
+   "segments": [
+    "city",
+    "bush",
+    "beach"
+   ],
+   "first_seen": "2026-10-02T07:34+03:00",
+   "published": "2026-10-02",
+   "verdict": "weak"
+  },
+  {
+   "score": 62.4,
+   "components": {
+    "tier": 20,
+    "category": 4,
+    "lead": 2.4,
+    "relevance": 12,
+    "freshness": 14.0,
+    "corroborated": 10
+   },
+   "keywords": [
+    "vat",
+    "tourism"
+   ],
+   "shock_terms": [],
+   "dedupe_match": null,
+   "dedupe_similarity": 0.11,
+   "id": "e8d2f34c595a",
+   "title": "Uganda turns to digital innovation, AI to drive tourism growth",
+   "url": "https://www.independent.co.ug/uganda-turns-to-digital-innovation-ai-to-drive-tourism-growth",
+   "summary": "KAMPALA, UGANDA | Xinhua | Uganda is positioning digital innovation and artificial intelligence (AI) as drivers of tourism growth, President Yoweri Museveni said Sunday as the country marked World Tourism Day. Museveni made the remarks while presiding over a national World Tourism Day commemoration held in the eastern district of Mbale. He said the competitiveness \u2026 The post Uganda turns to digita",
+   "kind": "item",
+   "source": "The Independent (Uganda)",
+   "source_id": "ug-independent",
+   "tier": 2,
+   "country": "UG",
+   "category": "press",
+   "segments": [
+    "city",
+    "bush",
+    "beach"
+   ],
+   "first_seen": "2026-10-02T07:34+03:00",
+   "published": "2026-10-02",
+   "verdict": "weak"
+  },
+  {
+   "score": 61.8,
+   "components": {
+    "tier": 20,
+    "category": 4,
+    "lead": 0.0,
+    "relevance": 8,
+    "freshness": 19.8,
+    "corroborated": 10
+   },
+   "keywords": [
+    "adr"
+   ],
+   "shock_terms": [],
+   "dedupe_match": null,
+   "dedupe_similarity": 0.2,
+   "id": "13b0a63ff98e",
+   "title": "Tanzania moves to build public, business confidence through ADR mechanisms for commercial disputes",
+   "url": "https://dailynews.co.tz/tanzania-moves-to-build-public-business-confidence-through-adr-mechanisms-for-commercial-disputes",
+   "summary": "DAR ES SALAAM: THE Tanzanian government has stressed the importance of building public and business confidence in alternative dispute resolution (ADR) mechanisms for commercial disputes, saying the services should not be accessible only to large corporations but should also benefit small and medium-sized enterprises (SMEs). The government said ADR services should be simple, speedy and \u2026 The post T",
+   "kind": "item",
+   "source": "Daily News (Tanzania)",
+   "source_id": "np-dailynews-tz",
+   "tier": 2,
+   "country": "TZ",
+   "category": "press",
+   "segments": [
+    "city",
+    "bush",
+    "beach"
+   ],
+   "first_seen": "2026-10-02T12:51+03:00",
+   "published": "2026-10-02",
+   "verdict": "weak"
+  },
+  {
+   "score": 61.8,
+   "components": {
+    "tier": 20,
+    "category": 4,
+    "lead": 0.0,
+    "relevance": 8,
+    "freshness": 19.8,
+    "corroborated": 10
+   },
+   "keywords": [
+    "capacity"
+   ],
+   "shock_terms": [],
+   "dedupe_match": null,
+   "dedupe_similarity": 0.36,
+   "id": "9ed7213c5863",
+   "title": "Afreximbank hails Kenya\u2019s 16bn US dollar Dangote oil refinery for bolstering EAC energy security",
+   "url": "https://dailynews.co.tz/afreximbank-hails-kenyas-16bn-us-dollar-dangote-oil-refinery-for-bolstering-eac-energy-security",
+   "summary": "CAIRO: THE African Export-Import Bank (Afreximbank) has congratulated the Government and people of Kenya on the groundbreaking of the Dangote oil refinery in Lamu, saying the 16bn US dollars project could significantly expand Africa\u2019s refining capacity and strengthen regional energy security. The bank said the refinery, which is planned to process up to 700,000 barrels \u2026 The post Afreximbank hails",
+   "kind": "item",
+   "source": "Daily News (Tanzania)",
+   "source_id": "np-dailynews-tz",
+   "tier": 2,
+   "country": "TZ",
+   "category": "press",
+   "segments": [
+    "city",
+    "bush",
+    "beach"
+   ],
+   "first_seen": "2026-10-02T12:51+03:00",
+   "published": "2026-10-02",
+   "verdict": "weak"
+  },
+  {
+   "score": 61.8,
+   "components": {
+    "tier": 20,
+    "category": 4,
+    "lead": 0.0,
+    "relevance": 8,
+    "freshness": 19.8,
+    "corroborated": 10
+   },
+   "keywords": [
+    "eta"
+   ],
+   "shock_terms": [],
+   "dedupe_match": null,
+   "dedupe_similarity": 0.0,
+   "id": "d1c6afcde23e",
+   "title": "VETA, Buckreef partner to equip students with mining technology skills",
+   "url": "https://dailynews.co.tz/veta-buckreef-partner-to-equip-students-with-mining-technology-skills",
+   "summary": "GEITA:THE Vocational Education and Training Authority (VETA) has partnered with Buckreef Gold Company Limited to equip VETA students specialising in mining-related technology fields with practical skills and workplace training opportunities to improve their prospects in the labour market. The initiative follows a visit by VETA Northern Zone officials to Buckreef Gold Mine in Geita Region, \u2026 The po",
+   "kind": "item",
+   "source": "Daily News (Tanzania)",
+   "source_id": "np-dailynews-tz",
+   "tier": 2,
+   "country": "TZ",
+   "category": "press",
+   "segments": [
+    "city",
+    "bush",
+    "beach"
+   ],
+   "first_seen": "2026-10-02T12:51+03:00",
+   "published": "2026-10-02",
+   "verdict": "weak"
+  },
+  {
+   "score": 61.2,
+   "components": {
+    "tier": 20,
+    "category": 5,
+    "lead": 2.4,
+    "relevance": 4,
+    "freshness": 19.8,
+    "corroborated": 10
+   },
+   "keywords": [
+    "airline"
+   ],
+   "shock_terms": [],
+   "dedupe_match": null,
+   "dedupe_similarity": 0.2,
+   "id": "4cace0d37ccf",
+   "title": "Jambojet Reconnects Nairobi and Entebbe as East African Travel Corridor Reopens",
+   "url": "https://katakenya.org/jambojet-reconnects-nairobi-and-entebbe-as-east-african-travel-corridor-reopens",
+   "summary": "After a six-year absence, Jambojet has restored a direct air link between Nairobi and Entebbe, putting one of East Africa\u2019s busiest regional connections back on the network and giving travellers, businesses and the travel trade another option for moving between Kenya and Uganda. The airline resumed daily services on October 1, returning to a market [\u2026]",
+   "kind": "item",
+   "source": "Kenya Association of Travel Agents news",
+   "source_id": "tp-kata",
+   "tier": 2,
+   "country": "KE",
+   "category": "trade",
+   "segments": [
+    "city",
+    "bush",
+    "beach"
+   ],
+   "first_seen": "2026-10-02T12:51+03:00",
+   "published": "2026-10-02",
+   "verdict": "weak"
+  },
+  {
+   "score": 60.2,
+   "components": {
+    "tier": 20,
+    "category": 4,
+    "lead": 2.4,
+    "relevance": 4,
+    "freshness": 19.8,
+    "corroborated": 10
+   },
+   "keywords": [
+    "traffic"
+   ],
+   "shock_terms": [],
+   "dedupe_match": null,
+   "dedupe_similarity": 0.4,
+   "id": "db6891b6f8ed",
+   "title": "Motorists Spend Night Stuck in 10-Hour Traffic Jam Along Nairobi-Mombasa Highway",
+   "url": "https://www.kenyans.co.ke/news/127529-motorists-spend-night-stuck-10-hour-traffic-jam-along-nairobi-mombasa-highway",
+   "summary": "A late-night trailer collision reportedly left both lanes blocked, disrupting movement along a busy section of the highway.",
+   "kind": "item",
+   "source": "Kenyans.co.ke news",
+   "source_id": "ke-kenyans",
+   "tier": 2,
+   "country": "KE",
+   "category": "press",
+   "segments": [
+    "city",
+    "bush",
+    "beach"
+   ],
+   "first_seen": "2026-10-02T12:51+03:00",
+   "published": "2026-10-02",
+   "verdict": "weak"
+  },
+  {
+   "score": 60.2,
+   "components": {
+    "tier": 20,
+    "category": 4,
+    "lead": 2.4,
+    "relevance": 4,
+    "freshness": 19.8,
+    "corroborated": 10
+   },
+   "keywords": [
+    "camp"
+   ],
+   "shock_terms": [],
+   "dedupe_match": null,
+   "dedupe_similarity": 0.2,
+   "id": "fdbc834b021f",
+   "title": "The women who get politicians elected but never run",
+   "url": "https://nation.africa/kenya/news/gender/the-women-who-get-politicians-elected-but-never-run-5613472",
+   "summary": "Across Kenya, women campaigners are navigating money, intimidation, party politics and...",
+   "kind": "item",
+   "source": "Nation Africa: Kenya business",
+   "source_id": "ke-nation-business",
+   "tier": 2,
+   "country": "KE",
+   "category": "press",
+   "segments": [
+    "city",
+    "bush",
+    "beach"
+   ],
+   "first_seen": "2026-10-02T12:51+03:00",
+   "published": "2026-10-02",
+   "verdict": "weak"
   }
  ]
 }
