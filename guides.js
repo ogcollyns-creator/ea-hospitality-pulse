@@ -1,5 +1,14 @@
 window.GUIDES = [
  {
+  "slug": "east-africa-transport-accommodation-inflation-gap",
+  "title": "Reaching a lodge is getting dearer five times faster than the lodge. Nairobi and Kampala published it on the same day.",
+  "description": "Every East African price release prints the cost of moving a guest and the price of housing one in adjacent rows. In Kenya's and Uganda's September returns the first is running at four to six times the second, and that gap is the region's margin.",
+  "category": "Big Read",
+  "updated": "2026-10-02",
+  "readMins": 9,
+  "image": "img/editions/east-africa-transport-accommodation-inflation-gap.jpg"
+ },
+ {
   "slug": "parity-comesa-east-africa-unused-law",
   "title": "Europe's hotels spent twenty years getting to court. East Africa was handed the law in December.",
   "description": "Some 18,000 European hotels will be claiming damages from Booking.com this autumn over price parity clauses. A regional regulation in force across Kenya, Uganda and Rwanda since December already prohibits those clauses by name. Nobody in East African hospitality has opened the file.",
