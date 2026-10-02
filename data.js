@@ -1,5 +1,14 @@
 window.EDITIONS = [
  {
+  "id": "pulse-2026-10-02-evening",
+  "date": "2026-10-02",
+  "dateDisplay": "Friday, 2 October 2026",
+  "edition": "Evening Wrap",
+  "editionKey": "evening",
+  "summary": "DRC Ebola passes 8,300 cases, Ethiopian flies into Lamu's Manda airport, and a flydubai cockpit attack revives Gulf hub risk.",
+  "bodyHtml": "<p><strong>🌆 EVENING WRAP · Fri 2 Oct 2026</strong></p>\n<p>DRC Ebola passes 8,300 cases, Ethiopian flies into Lamu&#x27;s Manda airport, and a flydubai cockpit attack revives Gulf hub risk.<br>━━━━━━━━━<br><span class=\"item-head\">1️⃣ DRC EBOLA PASSES 8,300 CASES AS EUROPE LOGS ITS FOURTH IMPORTED CASE, WITH UGANDA STILL CLEAR</span></p>\n<p>ECDC reports a healthcare worker based in the DRC tested positive on 29 Sep and was evacuated to the Netherlands, the fourth import into Europe; all four were medical or humanitarian workers, and ECDC calls the risk to Europe&#x27;s public &quot;very low&quot; <strong>(ECDC, 1 Oct)</strong>. DRC&#x27;s Health Ministry counts 8,300 cases and 4,018 deaths; weekly cases averaged about 490 in September against about 850 in mid-July <strong>(STAT, 2 Oct)</strong>. Uganda&#x27;s outbreak was declared over on 27 Aug <strong>(UK FCDO, 2 Sep)</strong>. <strong>Our inference:</strong> the curve is easing, but the headlines reach your source markets first.<br><span class=\"tagline\">🏷 City, Bush | Uganda, Rwanda, Kenya | Confirmed | impact:risk</span><br><span class=\"sowhat\">🎯 So what: tell arriving guests there is no East African case and that Kenya screens at Nairobi and Mombasa <strong>(Auswärtiges Amt, 2 Oct)</strong>. The US entry order runs to 11 Oct.</span></p>\n<p><span class=\"item-head\">2️⃣ ETHIOPIAN AIRLINES HAS FLOWN THE FIRST INTERNATIONAL SERVICE INTO LAMU&#x27;S MANDA AIRPORT</span></p>\n<p>Travel News Africa (2 Oct) reports a Boeing 737-800 made Manda&#x27;s first international movements this week, timed with the 30 Sep refinery launch, after runway and terminal upgrades. Manda had been domestic turboprops only. We have seen no KAA or KCAA notice, schedule or frequency. <strong>Our inference:</strong> an event flight is not a route.<br><span class=\"tagline\">🏷 Beach | Kenya | Reported | impact:watch</span><br><span class=\"sowhat\">🎯 So what: Lamu owners should ask KAA whether scheduled service follows before pricing 2027 on it.</span></p>\n<p><span class=\"item-head\">3️⃣ A FLYDUBAI COCKPIT ATTACK AND A US MILITARY BUILD-UP PUT GULF HUB ROUTINGS BACK ON THE RISK LIST</span></p>\n<p>A co-pilot allegedly stabbed the captain of a Dubai–Tel Aviv flight on 30 Sep and tried to bring it down; it landed in Saudi Arabia. The UAE opened a terrorism inquiry, flydubai suspended Israel flights, and the US is adding forces <strong>(Euronews, 2 Oct)</strong>. The US Qatar Level 3 (28 Aug) cites &quot;significant disruptions to commercial flights&quot;. We found no Emirates, flydubai or Qatar change to East African schedules.<br><span class=\"tagline\">🏷 City, Bush, Beach | Kenya, Tanzania, Zanzibar, Uganda, Rwanda | Reported | impact:risk</span><br><span class=\"sowhat\">🎯 So what: for groups routed via Gulf hubs, confirm an alternative routing and the refund terms this week.</span></p>\n<p><strong>🏗 DEAL FLOW:</strong> No new verified EA deal flow in the window. Elewana&#x27;s Ngorongoro lodge was re-run 2 Oct but announced 4 Sep, so it is not new.</p>\n<p><strong>📻 ALSO TONIGHT</strong><br>🇹🇿 UK FCDO updated Tanzania advice on 1 Oct to add the mandatory inbound insurance rule; levels unchanged <strong>(FCDO, 1 Oct)</strong>.<br>🇰🇪 KWS hosted tour operators and agents at a Travel Trade Partnership breakfast, Nairobi National Park, 2 Oct <strong>(KWS, 2 Oct)</strong>; we have not seen its programme. KenyaLIVE (launched 22 Sep) streams nine parks; KWS claims 500,000+ daily viewers <strong>(Tourism Update, 2 Oct)</strong>.<br>🇷🇼 Rwanda&#x27;s revenue sharing has funded about 1,300 community projects, Rwf23bn (US$15.6m), since 2005 <strong>(Tourism Update, 2 Oct)</strong>.</p>\n<p><strong>⏳ CATCHING UP:</strong> 🇺🇬 Uganda&#x27;s September inflation was 4.6% year on year, 0.9% on the month, with fuel above UGX6,600 a litre in places <strong>(UBOS via Nile Post, 30 Sep)</strong>.</p>\n<p><strong>🔍 BLIND SPOTS:</strong> CBK weekly bulletin, NISR Rwanda and NBS Tanzania September CPI: not retrievable tonight.</p>\n<p>🔗 This edition on the web: <a href=\"https://eahospitalitypulse.com/editions/pulse-2026-10-02-evening.html\" rel=\"noopener\">eahospitalitypulse.com/editions/pulse-2026-10-02-evenin…</a><br>— EA Hospitality Pulse | Daily intelligence for city, bush &amp; beach properties</p>"
+ },
+ {
   "id": "pulse-2026-10-01-evening",
   "date": "2026-10-01",
   "dateDisplay": "Thursday, 1 October 2026",
@@ -1081,6 +1090,66 @@ window.EDITIONS = [
  }
 ];
 window.INSIGHTS = [
+ {
+  "headline": "DRC EBOLA PASSES 8,300 CASES AS EUROPE LOGS ITS FOURTH IMPORTED CASE, WITH UGANDA STILL CLEAR",
+  "body": "ECDC reports a healthcare worker based in the DRC tested positive on 29 Sep and was evacuated to the Netherlands, the fourth import into Europe; all four were medical or humanitarian workers, and ECDC calls the risk to Europe's public \"very low\" *(ECDC, 1 Oct)*. DRC's Health Ministry counts 8,300 cases and 4,018 deaths; weekly cases averaged about 490 in September against about 850 in mid-July *(STAT, 2 Oct)*. Uganda's outbreak was declared over on 27 Aug *(UK FCDO, 2 Sep)*. *Our inference:* the curve is easing, but the headlines reach your source markets first.",
+  "sowhat": "",
+  "segments": [
+   "city",
+   "bush"
+  ],
+  "countries": "Uganda, Rwanda, Kenya",
+  "confidence": "Confirmed",
+  "impact": "risk",
+  "impactClass": "risk",
+  "intensity": 3,
+  "impactSet": "author",
+  "source": "pulse-2026-10-02-evening",
+  "date": "2026-10-02",
+  "dateDisplay": "Friday, 2 October 2026",
+  "edition": "Evening Wrap",
+  "editionKey": "evening"
+ },
+ {
+  "headline": "ETHIOPIAN AIRLINES HAS FLOWN THE FIRST INTERNATIONAL SERVICE INTO LAMU'S MANDA AIRPORT",
+  "body": "Travel News Africa (2 Oct) reports a Boeing 737-800 made Manda's first international movements this week, timed with the 30 Sep refinery launch, after runway and terminal upgrades. Manda had been domestic turboprops only. We have seen no KAA or KCAA notice, schedule or frequency. *Our inference:* an event flight is not a route.",
+  "sowhat": "",
+  "segments": [
+   "beach"
+  ],
+  "countries": "Kenya",
+  "confidence": "Reported",
+  "impact": "watch",
+  "impactClass": "watch",
+  "intensity": 2,
+  "impactSet": "author",
+  "source": "pulse-2026-10-02-evening",
+  "date": "2026-10-02",
+  "dateDisplay": "Friday, 2 October 2026",
+  "edition": "Evening Wrap",
+  "editionKey": "evening"
+ },
+ {
+  "headline": "A FLYDUBAI COCKPIT ATTACK AND A US MILITARY BUILD-UP PUT GULF HUB ROUTINGS BACK ON THE RISK LIST",
+  "body": "A co-pilot allegedly stabbed the captain of a Dubai–Tel Aviv flight on 30 Sep and tried to bring it down; it landed in Saudi Arabia. The UAE opened a terrorism inquiry, flydubai suspended Israel flights, and the US is adding forces *(Euronews, 2 Oct)*. The US Qatar Level 3 (28 Aug) cites \"significant disruptions to commercial flights\". We found no Emirates, flydubai or Qatar change to East African schedules.",
+  "sowhat": "",
+  "segments": [
+   "city",
+   "bush",
+   "beach"
+  ],
+  "countries": "Kenya, Tanzania, Zanzibar, Uganda, Rwanda",
+  "confidence": "Reported",
+  "impact": "risk",
+  "impactClass": "risk",
+  "intensity": 2,
+  "impactSet": "author",
+  "source": "pulse-2026-10-02-evening",
+  "date": "2026-10-02",
+  "dateDisplay": "Friday, 2 October 2026",
+  "edition": "Evening Wrap",
+  "editionKey": "evening"
+ },
  {
   "headline": "KENYA BROKE GROUND ON A US$16BN, 700,000-BARREL REFINERY IN LAMU ON 30 SEPTEMBER",
   "body": "President Ruto and Aliko Dangote launched the East Africa refinery on LAPSSET land beside Lamu Port: KSh2.2tn (US$16bn), 700,000 barrels a day, about three years of construction and a 2030 operating target. Backers claim 60,000 direct jobs. A suit by 133 Chandavai residents is pending; the High Court declined to halt the work *(The Star, 30 Sep; KWS, 30 Sep)*. *Our inference:* Lamu gets a construction-crew market and a heavy-industry neighbour in the same decade, and the two segments rarely share a property. We have not read an environmental licence.",
@@ -5865,4 +5934,4 @@ window.INSIGHTS = [
   "editionKey": "evening"
  }
 ];
-window.BUILT_AT = "2026-10-02 10:10";
+window.BUILT_AT = "2026-10-02 17:04";
