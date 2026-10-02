@@ -143,6 +143,37 @@ def _prepare(src, dest, dry):
     return note
 
 
+def _credit_fields(stem, credit):
+    r"""Split one credit line into the fields build_site.py actually renders.
+
+    edition_page() prints "{label}: {artist} \u00b7 {source} \u00b7 {licence}". Putting the
+    whole credit line into both artist and licence rendered it three times over:
+    "Photo: Dangote Group - editorial use \u00b7 Editor-supplied \u00b7 Handout: Dangote
+    Group - editorial use". So split it the way it is written:
+
+        "Handout: Dangote Group / Government of Kenya - editorial use"
+         \_____/  \_________________________________/   \___________/
+          prefix              artist                       licence
+    """
+    body = credit.split(":", 1)[-1].strip() if ":" in credit else credit.strip()
+    artist, lic = body, "Supplied by the publisher"
+    for sep in (" \u2014 ", " - ", " \u2013 "):
+        if sep in body:
+            artist, lic = body.split(sep, 1)
+            artist, lic = artist.strip(), lic.strip()
+            break
+    return {
+        "id": stem,
+        "title": credit,
+        "artist": artist or "Publisher-supplied",
+        "source": "Editor-supplied",
+        "source_kind": "editor-supplied",
+        "license": lic,
+        "licenseurl": "",
+        "descurl": "",
+    }
+
+
 def intake(dry):
     if not os.path.isdir(INCOMING):
         print(f"no {INCOMING} — nothing to take in")
@@ -179,17 +210,17 @@ def intake(dry):
         if stem in editions:
             dest = os.path.join(OG, stem + "-hero.jpg")
             note = _prepare(src, dest, dry)
+            # Also file it as the edition's source photo. make_og_images.py reads
+            # img/editions/<id>.jpg to regenerate BOTH the social card and
+            # og/<id>-clean.png, and index.html's archive thumbnails are hardcoded
+            # to og/<id>-clean.png rather than reading hero_map. Without this the
+            # article hero showed the supplied photograph while the archive card
+            # beside it still showed the old generated data card.
+            if not dry:
+                os.makedirs(EDIMG, exist_ok=True)
+                _prepare(src, os.path.join(EDIMG, stem + ".jpg"), dry)
             hero_map[stem] = stem + "-hero.jpg"
-            credits[stem] = {
-                "id": stem,
-                "title": credit,
-                "artist": credit.split(":", 1)[-1].strip() or "Publisher-supplied",
-                "source": "Editor-supplied",
-                "source_kind": "editor-supplied",
-                "license": credit,
-                "licenseurl": "",
-                "descurl": "",
-            }
+            credits[stem] = _credit_fields(stem, credit)
             print(f"  ✅ edition {stem}  og/{stem}-hero.jpg  [{note}]")
         else:
             dest = os.path.join(EDIMG, stem + ".jpg")
