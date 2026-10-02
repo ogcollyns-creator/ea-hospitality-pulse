@@ -1,18 +1,50 @@
 {
- "generated": "2026-10-02T03:02:27+03:00",
+ "generated": "2026-10-02T07:36:18+03:00",
  "slot": "morning",
  "window_start": 1790866800,
- "observations_in_window": 584,
+ "observations_in_window": 685,
  "deduped_against": 11,
  "candidates": [
   {
-   "score": 91.1,
+   "score": 91.4,
    "components": {
     "tier": 40,
     "category": 32,
     "lead": 3.6,
     "relevance": 0,
-    "freshness": 19.5,
+    "freshness": 19.8,
+    "page_change": -4
+   },
+   "keywords": [],
+   "shock_terms": [],
+   "dedupe_match": null,
+   "dedupe_similarity": 0.0,
+   "id": "c5ea5f1ad4d0",
+   "title": "[page changed] Federal Register \u2014 public inspection (HHS/CDC), pre-publication",
+   "url": "https://www.federalregister.gov/api/v1/public-inspection-documents/current.json",
+   "summary": "{\"count\":99,\"results\":[{\"agencies\":[{\"raw_name\":\"NUCLEAR REGULATORY COMMISSION\",\"name\":\"Nuclear Regulatory Commission\",\"id\":383,\"url\":\"https://www.federalregister.gov/agencies/nuclear-regulatory-commission\",\"json_url\":\"https://www.federalregister.gov/api/v1/agencies/383\",\"parent_id\":null,\"slug\":\"nuclear-regulatory-commission\"}],\"agency_letters\":[],\"agency_names\":[\"Nuclear Regulatory Commission\"],\"",
+   "kind": "page-change",
+   "source": "Federal Register \u2014 public inspection (HHS/CDC), pre-publication",
+   "source_id": "us-fedreg-pubinspect-hhs",
+   "tier": 1,
+   "country": "REG",
+   "category": "advisory",
+   "segments": [
+    "city",
+    "bush"
+   ],
+   "first_seen": "2026-10-02T07:33+03:00",
+   "published": "2026-09-30",
+   "verdict": "OPEN THIS \u2014 tier-1 advisory page moved; content not auto-parsed, read it manually"
+  },
+  {
+   "score": 86.1,
+   "components": {
+    "tier": 40,
+    "category": 32,
+    "lead": 3.6,
+    "relevance": 0,
+    "freshness": 14.5,
     "page_change": -4
    },
    "keywords": [],
@@ -38,13 +70,13 @@
    "verdict": "OPEN THIS \u2014 tier-1 advisory page moved; content not auto-parsed, read it manually"
   },
   {
-   "score": 86.2,
+   "score": 81.2,
    "components": {
     "tier": 40,
     "category": 32,
     "lead": 3.6,
     "relevance": 0,
-    "freshness": 14.6,
+    "freshness": 9.6,
     "page_change": -4
    },
    "keywords": [],
@@ -70,13 +102,13 @@
    "verdict": "OPEN THIS \u2014 tier-1 advisory page moved; content not auto-parsed, read it manually"
   },
   {
-   "score": 83.1,
+   "score": 78.1,
    "components": {
     "tier": 40,
     "category": 32,
     "lead": 3.6,
     "relevance": 0,
-    "freshness": 11.5,
+    "freshness": 6.5,
     "page_change": -4
    },
    "keywords": [],
@@ -102,13 +134,13 @@
    "verdict": "OPEN THIS \u2014 tier-1 advisory page moved; content not auto-parsed, read it manually"
   },
   {
-   "score": 65.1,
+   "score": 60.0,
    "components": {
     "tier": 40,
     "category": 12,
     "lead": 3.6,
     "relevance": 0,
-    "freshness": 19.5,
+    "freshness": 14.4,
     "undated": -6,
     "page_change": -4
    },
@@ -136,13 +168,13 @@
    "verdict": "OPEN THIS \u2014 tier-1 airline page moved; content not auto-parsed, read it manually"
   },
   {
-   "score": 111.3,
+   "score": 106.2,
    "components": {
     "tier": 40,
     "category": 9,
     "lead": 16.8,
     "relevance": 16,
-    "freshness": 19.5,
+    "freshness": 14.4,
     "corroborated": 10
    },
    "keywords": [
@@ -173,13 +205,51 @@
    "verdict": "STRONG \u2014 tier-1, upstream"
   },
   {
-   "score": 107.3,
+   "score": 104.2,
+   "components": {
+    "tier": 20,
+    "category": 14,
+    "lead": 8.4,
+    "relevance": 32,
+    "freshness": 19.8,
+    "corroborated": 10
+   },
+   "keywords": [
+    "suspend",
+    "route",
+    "charter",
+    "flight"
+   ],
+   "shock_terms": [],
+   "dedupe_match": null,
+   "dedupe_similarity": 0.0,
+   "id": "c17ecff94327",
+   "title": "Animawings Suspends Operations 02-24OCT26",
+   "url": "https://www.aeroroutes.com/eng/261001-a2oct26",
+   "summary": "Published at 1701PDT 01OCT26 / 0001GMT 02OCT26 Romanian carrier Animawings on Thursday 01OCT26 announced it will suspend operations for the period of 02OCT26 \u2013 24OCT26, while schedules on/after 25OCT26 is being revised. Based on flight schedule data as of 27SEP26, the carrier scheduled following routes for the period of 02OCT26 \u2013 24OCT26, excluding charter flights: Bucharest \u2013 Cluj-Napaca Buchares",
+   "kind": "item",
+   "source": "AeroRoutes schedule filings",
+   "source_id": "aeroroutes",
+   "tier": 2,
+   "country": "GLOBAL",
+   "category": "aviation-tracker",
+   "segments": [
+    "city",
+    "bush",
+    "beach"
+   ],
+   "first_seen": "2026-10-02T07:34+03:00",
+   "published": "2026-10-02",
+   "verdict": "CONSIDER"
+  },
+  {
+   "score": 102.2,
    "components": {
     "tier": 40,
     "category": 9,
     "lead": 16.8,
     "relevance": 12,
-    "freshness": 19.5,
+    "freshness": 14.4,
     "corroborated": 10
    },
    "keywords": [
@@ -210,13 +280,51 @@
    "verdict": "STRONG \u2014 tier-1, upstream"
   },
   {
-   "score": 99.9,
+   "score": 96.2,
+   "components": {
+    "tier": 20,
+    "category": 14,
+    "lead": 8.4,
+    "relevance": 24,
+    "freshness": 19.8,
+    "corroborated": 10
+   },
+   "keywords": [
+    "route",
+    "charter",
+    "airline",
+    "flight"
+   ],
+   "shock_terms": [],
+   "dedupe_match": null,
+   "dedupe_similarity": 0.0,
+   "id": "54711a5118a1",
+   "title": "Malaysia Airlines Dec 2026 Hokkaido Charters",
+   "url": "https://www.aeroroutes.com/eng/261001-mhdec26cts",
+   "summary": "Published at 1900PDT 01OCT26 / 0200GMT 02OCT26 Malaysia Airlines in December 2026 schedules charter service to Hokkaido, with Kuala Lumpur \u2013 Sapporo New Chitose nonstop flight scheduled every 5 days from 05DEC26 to 30DEC26 (KUL departure). Airbus A330-300 aircraft operates this route. MH8538 KUL2255 \u2013 0740+1CTS 333 MH8539 CTS1030 \u2013 1725KUL 333",
+   "kind": "item",
+   "source": "AeroRoutes schedule filings",
+   "source_id": "aeroroutes",
+   "tier": 2,
+   "country": "GLOBAL",
+   "category": "aviation-tracker",
+   "segments": [
+    "city",
+    "bush",
+    "beach"
+   ],
+   "first_seen": "2026-10-02T07:34+03:00",
+   "published": "2026-10-02",
+   "verdict": "CONSIDER"
+  },
+  {
+   "score": 94.9,
    "components": {
     "tier": 40,
     "category": 18,
     "lead": 8.4,
     "relevance": 12,
-    "freshness": 11.5,
+    "freshness": 6.5,
     "corroborated": 10
    },
    "keywords": [
@@ -244,13 +352,13 @@
    "verdict": "STRONG \u2014 tier-1, upstream"
   },
   {
-   "score": 99.3,
+   "score": 94.2,
    "components": {
     "tier": 40,
     "category": 9,
     "lead": 16.8,
     "relevance": 4,
-    "freshness": 19.5,
+    "freshness": 14.4,
     "corroborated": 10
    },
    "keywords": [
@@ -279,13 +387,13 @@
    "verdict": "STRONG \u2014 tier-1, upstream"
   },
   {
-   "score": 99.3,
+   "score": 94.2,
    "components": {
     "tier": 40,
     "category": 9,
     "lead": 16.8,
     "relevance": 4,
-    "freshness": 19.5,
+    "freshness": 14.4,
     "corroborated": 10
    },
    "keywords": [
@@ -314,13 +422,13 @@
    "verdict": "STRONG \u2014 tier-1, upstream"
   },
   {
-   "score": 97.8,
+   "score": 92.8,
    "components": {
     "tier": 40,
     "category": 20,
     "lead": 12.0,
     "relevance": 0,
-    "freshness": 15.8,
+    "freshness": 10.8,
     "corroborated": 10
    },
    "keywords": [],
@@ -347,13 +455,13 @@
    "verdict": "STRONG \u2014 tier-1, upstream"
   },
   {
-   "score": 97.8,
+   "score": 92.8,
    "components": {
     "tier": 40,
     "category": 20,
     "lead": 12.0,
     "relevance": 0,
-    "freshness": 15.8,
+    "freshness": 10.8,
     "corroborated": 10
    },
    "keywords": [],
@@ -380,13 +488,13 @@
    "verdict": "STRONG \u2014 tier-1, upstream"
   },
   {
-   "score": 97.8,
+   "score": 92.8,
    "components": {
     "tier": 40,
     "category": 20,
     "lead": 12.0,
     "relevance": 0,
-    "freshness": 15.8,
+    "freshness": 10.8,
     "corroborated": 10
    },
    "keywords": [],
@@ -413,13 +521,13 @@
    "verdict": "STRONG \u2014 tier-1, upstream"
   },
   {
-   "score": 97.8,
+   "score": 92.8,
    "components": {
     "tier": 40,
     "category": 20,
     "lead": 12.0,
     "relevance": 0,
-    "freshness": 15.8,
+    "freshness": 10.8,
     "corroborated": 10
    },
    "keywords": [],
@@ -446,13 +554,13 @@
    "verdict": "STRONG \u2014 tier-1, upstream"
   },
   {
-   "score": 97.8,
+   "score": 92.8,
    "components": {
     "tier": 40,
     "category": 20,
     "lead": 12.0,
     "relevance": 0,
-    "freshness": 15.8,
+    "freshness": 10.8,
     "corroborated": 10
    },
    "keywords": [],
@@ -479,13 +587,13 @@
    "verdict": "STRONG \u2014 tier-1, upstream"
   },
   {
-   "score": 97.8,
+   "score": 92.8,
    "components": {
     "tier": 40,
     "category": 20,
     "lead": 12.0,
     "relevance": 0,
-    "freshness": 15.8,
+    "freshness": 10.8,
     "corroborated": 10
    },
    "keywords": [],
@@ -512,13 +620,13 @@
    "verdict": "STRONG \u2014 tier-1, upstream"
   },
   {
-   "score": 97.8,
+   "score": 92.8,
    "components": {
     "tier": 40,
     "category": 20,
     "lead": 12.0,
     "relevance": 0,
-    "freshness": 15.8,
+    "freshness": 10.8,
     "corroborated": 10
    },
    "keywords": [],
@@ -545,13 +653,13 @@
    "verdict": "STRONG \u2014 tier-1, upstream"
   },
   {
-   "score": 97.8,
+   "score": 92.8,
    "components": {
     "tier": 40,
     "category": 20,
     "lead": 12.0,
     "relevance": 0,
-    "freshness": 15.8,
+    "freshness": 10.8,
     "corroborated": 10
    },
    "keywords": [],
@@ -578,13 +686,13 @@
    "verdict": "STRONG \u2014 tier-1, upstream"
   },
   {
-   "score": 97.8,
+   "score": 92.8,
    "components": {
     "tier": 40,
     "category": 20,
     "lead": 12.0,
     "relevance": 0,
-    "freshness": 15.8,
+    "freshness": 10.8,
     "corroborated": 10
    },
    "keywords": [],
@@ -611,13 +719,13 @@
    "verdict": "STRONG \u2014 tier-1, upstream"
   },
   {
-   "score": 97.8,
+   "score": 92.8,
    "components": {
     "tier": 40,
     "category": 20,
     "lead": 12.0,
     "relevance": 0,
-    "freshness": 15.8,
+    "freshness": 10.8,
     "corroborated": 10
    },
    "keywords": [],
@@ -644,13 +752,13 @@
    "verdict": "STRONG \u2014 tier-1, upstream"
   },
   {
-   "score": 97.8,
+   "score": 92.8,
    "components": {
     "tier": 40,
     "category": 20,
     "lead": 12.0,
     "relevance": 0,
-    "freshness": 15.8,
+    "freshness": 10.8,
     "corroborated": 10
    },
    "keywords": [],
@@ -677,13 +785,13 @@
    "verdict": "STRONG \u2014 tier-1, upstream"
   },
   {
-   "score": 97.8,
+   "score": 92.8,
    "components": {
     "tier": 40,
     "category": 20,
     "lead": 12.0,
     "relevance": 0,
-    "freshness": 15.8,
+    "freshness": 10.8,
     "corroborated": 10
    },
    "keywords": [],
@@ -710,13 +818,13 @@
    "verdict": "STRONG \u2014 tier-1, upstream"
   },
   {
-   "score": 97.8,
+   "score": 92.8,
    "components": {
     "tier": 40,
     "category": 20,
     "lead": 12.0,
     "relevance": 0,
-    "freshness": 15.8,
+    "freshness": 10.8,
     "corroborated": 10
    },
    "keywords": [],
@@ -743,13 +851,13 @@
    "verdict": "STRONG \u2014 tier-1, upstream"
   },
   {
-   "score": 97.8,
+   "score": 92.8,
    "components": {
     "tier": 40,
     "category": 20,
     "lead": 12.0,
     "relevance": 0,
-    "freshness": 15.8,
+    "freshness": 10.8,
     "corroborated": 10
    },
    "keywords": [],
@@ -776,13 +884,13 @@
    "verdict": "STRONG \u2014 tier-1, upstream"
   },
   {
-   "score": 97.8,
+   "score": 92.8,
    "components": {
     "tier": 40,
     "category": 20,
     "lead": 12.0,
     "relevance": 0,
-    "freshness": 15.8,
+    "freshness": 10.8,
     "corroborated": 10
    },
    "keywords": [],
@@ -809,13 +917,13 @@
    "verdict": "STRONG \u2014 tier-1, upstream"
   },
   {
-   "score": 97.8,
+   "score": 92.8,
    "components": {
     "tier": 40,
     "category": 20,
     "lead": 12.0,
     "relevance": 0,
-    "freshness": 15.8,
+    "freshness": 10.8,
     "corroborated": 10
    },
    "keywords": [],
@@ -842,13 +950,13 @@
    "verdict": "STRONG \u2014 tier-1, upstream"
   },
   {
-   "score": 97.8,
+   "score": 92.8,
    "components": {
     "tier": 40,
     "category": 20,
     "lead": 12.0,
     "relevance": 0,
-    "freshness": 15.8,
+    "freshness": 10.8,
     "corroborated": 10
    },
    "keywords": [],
@@ -875,13 +983,13 @@
    "verdict": "STRONG \u2014 tier-1, upstream"
   },
   {
-   "score": 97.8,
+   "score": 92.8,
    "components": {
     "tier": 40,
     "category": 20,
     "lead": 12.0,
     "relevance": 0,
-    "freshness": 15.8,
+    "freshness": 10.8,
     "corroborated": 10
    },
    "keywords": [],
@@ -908,13 +1016,50 @@
    "verdict": "STRONG \u2014 tier-1, upstream"
   },
   {
-   "score": 95.9,
+   "score": 92.2,
+   "components": {
+    "tier": 20,
+    "category": 14,
+    "lead": 8.4,
+    "relevance": 20,
+    "freshness": 19.8,
+    "corroborated": 10
+   },
+   "keywords": [
+    "route",
+    "seat",
+    "flight"
+   ],
+   "shock_terms": [],
+   "dedupe_match": null,
+   "dedupe_similarity": 0.1,
+   "id": "131571b376f3",
+   "title": "Emirates Adds A350 Mauritius Service in NW26",
+   "url": "https://www.aeroroutes.com/eng/261001-eknw26mru",
+   "summary": "Published at 2100PDT 01OCT26 / 0400GMT 02OCT26 Emirates during Northern winter 2026/27 season plans to launch Airbus A350-900 operation on Dubai \u2013 Mauritius route, scheduled on 1 of 3 daily flights. The 298-seater A350 will operate EK709/710 service, replacing 777-200LR. EK701 DXB0225 \u2013 0910MRU 388 D EK709 DXB0755 \u2013 1440MRU 359 D EK703 DXB1030 \u2013 1710MRU 388 D EK702 MRU1625 \u2013 2300DXB 388 D EK710 MR",
+   "kind": "item",
+   "source": "AeroRoutes schedule filings",
+   "source_id": "aeroroutes",
+   "tier": 2,
+   "country": "GLOBAL",
+   "category": "aviation-tracker",
+   "segments": [
+    "city",
+    "bush",
+    "beach"
+   ],
+   "first_seen": "2026-10-02T07:34+03:00",
+   "published": "2026-10-02",
+   "verdict": "CONSIDER"
+  },
+  {
+   "score": 90.9,
    "components": {
     "tier": 20,
     "category": 14,
     "lead": 8.4,
     "relevance": 24,
-    "freshness": 19.5,
+    "freshness": 14.5,
     "corroborated": 10
    },
    "keywords": [
@@ -945,13 +1090,50 @@
    "verdict": "CONSIDER"
   },
   {
-   "score": 92.5,
+   "score": 88.2,
+   "components": {
+    "tier": 20,
+    "category": 14,
+    "lead": 8.4,
+    "relevance": 16,
+    "freshness": 19.8,
+    "corroborated": 10
+   },
+   "keywords": [
+    "route",
+    "airline",
+    "flight"
+   ],
+   "shock_terms": [],
+   "dedupe_match": null,
+   "dedupe_similarity": 0.1,
+   "id": "fe51ac5351e7",
+   "title": "Hainan Airlines 2026-27 Prague Holidays Service Increase",
+   "url": "https://www.aeroroutes.com/eng/261001-hunw26prg",
+   "summary": "Published at 1800PDT 01OCT26 / 0100GMT 02OCT26 Hainan Airlines during 2026-27 Holidays season schedules additional service on Beijing Capital \u2013 Prague route. From 16DEC26 to 11JAN27, the airline operates 3 weekly flights with Airbus A330-300, instead of 2 weekly. HU7937 PEK0230 \u2013 0550PRG 333 135 HU7938 PRG1300 \u2013 0515+1PEK 333 135",
+   "kind": "item",
+   "source": "AeroRoutes schedule filings",
+   "source_id": "aeroroutes",
+   "tier": 2,
+   "country": "GLOBAL",
+   "category": "aviation-tracker",
+   "segments": [
+    "city",
+    "bush",
+    "beach"
+   ],
+   "first_seen": "2026-10-02T07:34+03:00",
+   "published": "2026-10-02",
+   "verdict": "CONSIDER"
+  },
+  {
+   "score": 87.5,
    "components": {
     "tier": 40,
     "category": 13,
     "lead": 6.0,
     "relevance": 12,
-    "freshness": 11.5,
+    "freshness": 6.5,
     "corroborated": 10
    },
    "keywords": [
@@ -978,16 +1160,91 @@
    ],
    "first_seen": "2026-10-01T19:29+03:00",
    "published": "2026-10-01",
-   "verdict": "STRONG \u2014 tier-1, upstream"
+   "verdict": "CONSIDER"
   },
   {
-   "score": 88.2,
+   "score": 86.2,
+   "components": {
+    "tier": 20,
+    "category": 24,
+    "lead": 2.4,
+    "relevance": 12,
+    "freshness": 19.8,
+    "undated": -6,
+    "shock": 18,
+    "page_change": -4
+   },
+   "keywords": [
+    "outbreak"
+   ],
+   "shock_terms": [
+    "outbreak"
+   ],
+   "dedupe_match": null,
+   "dedupe_similarity": 0.0,
+   "id": "dfa9f42514ac",
+   "title": "[page changed] ProMED-mail",
+   "url": "https://promedmail.org/",
+   "summary": "Protecting Global Health, One Alert at a Time | ProMED Previous slide Next slide Protecting Global Health, One Alert at a Time ProMED: Your 24/7 early warning system for emerging infectious diseases worldwide. Subscribe ProMED's Weekly Pulse A snapshot of global health events from the past 7 days Latest Posts on ProMED All Date Title Fri Oct 02 2026 Q FEVER - SENEGAL: REPORTED INCREASE IN CASES Fr",
+   "kind": "page-change",
+   "source": "ProMED-mail",
+   "source_id": "promed",
+   "tier": 2,
+   "country": "GLOBAL",
+   "category": "health",
+   "segments": [
+    "city",
+    "bush",
+    "beach"
+   ],
+   "first_seen": "2026-10-02T07:34+03:00",
+   "published": null,
+   "verdict": "CONSIDER"
+  },
+  {
+   "score": 84.2,
+   "components": {
+    "tier": 20,
+    "category": 14,
+    "lead": 8.4,
+    "relevance": 12,
+    "freshness": 19.8,
+    "corroborated": 10
+   },
+   "keywords": [
+    "route",
+    "flight"
+   ],
+   "shock_terms": [],
+   "dedupe_match": null,
+   "dedupe_similarity": 0.1,
+   "id": "130f1b86cc89",
+   "title": "AirAsia X Increases Sapporo Flights in NW26",
+   "url": "https://www.aeroroutes.com/eng/261001-d7nw26cts",
+   "summary": "Published at 2000PDT 01OCT26 / 0300GMT 02OCT26 AirAsia X during Northern winter 2026/27 season plans service increase on Kuala Lumpur \u2013 Sapporo New Chitose route. From 14DEC26 to 12FEB27, the carrier will serve this route 10 weekly, instead of 7, with Airbus A330-300 aircraft. D7550 KUL0005 \u2013 0840CTS 333 x246 D79550 KUL0005 \u2013 0840CTS 333 246 D7552 KUL0835 \u2013 1700CTS 333 157 D7551 CTS0955 \u2013 1740KUL ",
+   "kind": "item",
+   "source": "AeroRoutes schedule filings",
+   "source_id": "aeroroutes",
+   "tier": 2,
+   "country": "GLOBAL",
+   "category": "aviation-tracker",
+   "segments": [
+    "city",
+    "bush",
+    "beach"
+   ],
+   "first_seen": "2026-10-02T07:34+03:00",
+   "published": "2026-10-02",
+   "verdict": "CONSIDER"
+  },
+  {
+   "score": 83.2,
    "components": {
     "tier": 20,
     "category": 14,
     "lead": 8.4,
     "relevance": 20,
-    "freshness": 15.8,
+    "freshness": 10.8,
     "corroborated": 10
    },
    "keywords": [
@@ -1017,13 +1274,13 @@
    "verdict": "CONSIDER"
   },
   {
-   "score": 87.9,
+   "score": 82.9,
    "components": {
     "tier": 20,
     "category": 14,
     "lead": 8.4,
     "relevance": 24,
-    "freshness": 11.5,
+    "freshness": 6.5,
     "corroborated": 10
    },
    "keywords": [
@@ -1055,13 +1312,13 @@
    "verdict": "CONSIDER"
   },
   {
-   "score": 87.8,
+   "score": 82.8,
    "components": {
     "tier": 40,
     "category": 20,
     "lead": 12.0,
     "relevance": 0,
-    "freshness": 15.8
+    "freshness": 10.8
    },
    "keywords": [],
    "shock_terms": [],
@@ -1087,13 +1344,13 @@
    "verdict": "CONSIDER"
   },
   {
-   "score": 87.3,
+   "score": 82.2,
    "components": {
     "tier": 40,
     "category": 17,
     "lead": 16.8,
     "relevance": 0,
-    "freshness": 19.5,
+    "freshness": 14.4,
     "undated": -6
    },
    "keywords": [],
@@ -1114,254 +1371,6 @@
     "beach",
     "bush",
     "city"
-   ],
-   "first_seen": "2026-10-02T02:44+03:00",
-   "published": null,
-   "verdict": "CONSIDER"
-  },
-  {
-   "score": 84.2,
-   "components": {
-    "tier": 20,
-    "category": 14,
-    "lead": 8.4,
-    "relevance": 16,
-    "freshness": 15.8,
-    "corroborated": 10
-   },
-   "keywords": [
-    "route",
-    "airline",
-    "flight"
-   ],
-   "shock_terms": [],
-   "dedupe_match": null,
-   "dedupe_similarity": 0.0,
-   "id": "dacb976c4b16",
-   "title": "Maldivian Schedules Melbourne Flight in 1Q27",
-   "url": "https://www.aeroroutes.com/eng/261001-q21q27mel",
-   "summary": "Published at 1300PDT / 2000GMT 01OCT26 Maldivian in the first quarter of 2027 once again schedules service to Australia, as the weekly Male \u2013 Melbourne flight scheduled from 10JAN27 to 22MAR27. Airbus A330-200 aircraft operates this route. Q2956 MLE2040 \u2013 1230+1MEL 332 7 Q2957 MEL2320 \u2013 0555+1MLE 332 1 Based on schedule filing, the airline lists 1 weekly service for entire Northern summer 2027 sea",
-   "kind": "item",
-   "source": "AeroRoutes schedule filings",
-   "source_id": "aeroroutes",
-   "tier": 2,
-   "country": "GLOBAL",
-   "category": "aviation-tracker",
-   "segments": [
-    "city",
-    "bush",
-    "beach"
-   ],
-   "first_seen": "2026-10-01T23:23+03:00",
-   "published": "2026-10-01",
-   "verdict": "CONSIDER"
-  },
-  {
-   "score": 83.9,
-   "components": {
-    "tier": 20,
-    "category": 14,
-    "lead": 8.4,
-    "relevance": 20,
-    "freshness": 11.5,
-    "corroborated": 10
-   },
-   "keywords": [
-    "vat",
-    "route",
-    "flight"
-   ],
-   "shock_terms": [],
-   "dedupe_match": null,
-   "dedupe_similarity": 0.0,
-   "id": "47ac0a6fcd39",
-   "title": "JetBlue Plans Caracas Feb 2027 Launch",
-   "url": "https://www.aeroroutes.com/eng/261001-b6feb27ccs",
-   "summary": "Published at 0730PDT / 1430GMT 01OCT26 JetBlue Airways in the first quarter of 2027 intends to launch service to Venezuela, as the carrier filed operational schedule for Fort Lauderdale/Hollywood \u2013 Caracas route, that would commence on 04FEB27. Reservations for this route are expected to open soon, with A320 aircraft operating 1 daily flight. B61821 FLL1000 \u2013 1424CCS 320 D B61810 CCS1540 \u2013 1822FLL",
-   "kind": "item",
-   "source": "AeroRoutes schedule filings",
-   "source_id": "aeroroutes",
-   "tier": 2,
-   "country": "GLOBAL",
-   "category": "aviation-tracker",
-   "segments": [
-    "city",
-    "bush",
-    "beach"
-   ],
-   "first_seen": "2026-10-01T19:30+03:00",
-   "published": "2026-10-01",
-   "verdict": "CONSIDER"
-  },
-  {
-   "score": 83.9,
-   "components": {
-    "tier": 20,
-    "category": 14,
-    "lead": 8.4,
-    "relevance": 20,
-    "freshness": 11.5,
-    "corroborated": 10
-   },
-   "keywords": [
-    "vat",
-    "route",
-    "flight"
-   ],
-   "shock_terms": [],
-   "dedupe_match": null,
-   "dedupe_similarity": 0.1,
-   "id": "401ced7d3909",
-   "title": "EVA Air Extends Taipei \u2013 Delhi Schedule into NS27",
-   "url": "https://www.aeroroutes.com/eng/261001-brns27del",
-   "summary": "Published at 0500PDT / 1200GMT 01OCT26 Star Alliance member EVA Air as of Thursday (01OCT26) extended schedule listing for Taipei Taoyuan \u2013 Delhi route into Northern summer 2027 season, while flights on/after 28MAR27 are available for reservations. Scheduled to commence on 01DEC26, EVA operates 5 weekly flights with A330-300. Schedule below focuses on the period of 01JUN27 \u2013 25SEP27. BR367 TPE1050",
-   "kind": "item",
-   "source": "AeroRoutes schedule filings",
-   "source_id": "aeroroutes",
-   "tier": 2,
-   "country": "GLOBAL",
-   "category": "aviation-tracker",
-   "segments": [
-    "city",
-    "bush",
-    "beach"
-   ],
-   "first_seen": "2026-10-01T19:30+03:00",
-   "published": "2026-10-01",
-   "verdict": "CONSIDER"
-  },
-  {
-   "score": 83.9,
-   "components": {
-    "tier": 40,
-    "category": 24,
-    "lead": 2.4,
-    "relevance": 12,
-    "freshness": 11.5,
-    "undated": -6
-   },
-   "keywords": [
-    "ebola"
-   ],
-   "shock_terms": [],
-   "dedupe_match": null,
-   "dedupe_similarity": 0.11,
-   "id": "7182c587a18a",
-   "title": "Risk to general population remains very low following fourth imported Ebola case in Europe",
-   "url": "https://www.ecdc.europa.eu/en/news-events/risk-general-population-remains-very-low-following-fourth-imported-ebola-case-europe",
-   "summary": "",
-   "kind": "item",
-   "source": "ECDC \u2014 DRC/Uganda Ebola outbreak page",
-   "source_id": "ecdc-ebola",
-   "tier": 1,
-   "country": "GLOBAL",
-   "category": "health",
-   "segments": [
-    "city",
-    "bush"
-   ],
-   "first_seen": "2026-10-01T19:29+03:00",
-   "published": null,
-   "verdict": "CONSIDER"
-  },
-  {
-   "score": 82.7,
-   "components": {
-    "tier": 40,
-    "category": 24,
-    "lead": 1.2,
-    "relevance": 12,
-    "freshness": 11.5,
-    "undated": -6
-   },
-   "keywords": [
-    "quarantine"
-   ],
-   "shock_terms": [],
-   "dedupe_match": null,
-   "dedupe_similarity": 0.0,
-   "id": "0b31d6583d2a",
-   "title": "COVID-19: Travel, testing, quarantine and borders",
-   "url": "https://travel.gc.ca/travel-voyage/travel-covid/travel-covid.aspx?lang=eng",
-   "summary": "",
-   "kind": "item",
-   "source": "Canada travel health notices index (Global Affairs / PHAC)",
-   "source_id": "health-ca-thn",
-   "tier": 1,
-   "country": "GLOBAL",
-   "category": "health",
-   "segments": [
-    "city",
-    "bush",
-    "beach"
-   ],
-   "first_seen": "2026-10-01T19:29+03:00",
-   "published": null,
-   "verdict": "CONSIDER"
-  },
-  {
-   "score": 81.8,
-   "components": {
-    "tier": 40,
-    "category": 20,
-    "lead": 12.0,
-    "relevance": 4,
-    "freshness": 15.8,
-    "stale_trap": -10
-   },
-   "keywords": [
-    "traffic"
-   ],
-   "shock_terms": [],
-   "dedupe_match": null,
-   "dedupe_similarity": 0.0,
-   "id": "c5ea961ccd71",
-   "title": "The Traffic - Exemption, 2026",
-   "url": "https://new.kenyalaw.org/akn/ke/act/ln/2026/194/eng@2026-09-29",
-   "summary": "The Traffic - Exemption, 2026",
-   "kind": "item",
-   "source": "Kenya Gazette (Kenya Law)",
-   "source_id": "ke-gazette",
-   "tier": 1,
-   "country": "KE",
-   "category": "gazette",
-   "segments": [
-    "city",
-    "bush",
-    "beach"
-   ],
-   "first_seen": "2026-10-01T23:23+03:00",
-   "published": "2026-09-29",
-   "verdict": "CHECK \u2014 source date older than the window"
-  },
-  {
-   "score": 80.3,
-   "components": {
-    "tier": 40,
-    "category": 10,
-    "lead": 16.8,
-    "relevance": 0,
-    "freshness": 19.5,
-    "undated": -6
-   },
-   "keywords": [],
-   "shock_terms": [],
-   "dedupe_match": null,
-   "dedupe_similarity": 0.2,
-   "id": "9c52101b2edb",
-   "title": "Trade ministry to inquire into China Town supermarket expansion Thursday, 1 October 2026",
-   "url": "https://www.parliament.go.ug/news/4647/trade-ministry-inquire-china-town-supermarket-expansion",
-   "summary": "",
-   "kind": "item",
-   "source": "Parliament of Uganda",
-   "source_id": "ug-parliament",
-   "tier": 1,
-   "country": "UG",
-   "category": "legislature",
-   "segments": [
-    "city",
-    "bush",
-    "beach"
    ],
    "first_seen": "2026-10-02T02:44+03:00",
    "published": null,
