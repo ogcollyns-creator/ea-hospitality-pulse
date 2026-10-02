@@ -13,6 +13,9 @@ This script replaces that pipeline with two commands.
   --intake    process img/incoming/ and file each hero where it actually belongs
   --check     fail if any edition or guide lacks a hand-supplied hero
 
+Everything published before 2 October 2026 is grandfathered: see CUTOFF below.
+`--since 0000-00-00` audits the whole archive when you want the backlog.
+
 Why a drop folder
 -----------------
 A mandatory hero is only workable if supplying one is trivial. Before this, an
@@ -61,6 +64,16 @@ CREDITS = os.path.join(HERE, "img", "edition-credits.json")
 MIN_W, MIN_H = 1200, 630
 WIDTH = 1600
 EXTS = (".jpg", ".jpeg", ".png", ".webp")
+
+# Everything published before the policy existed is grandfathered. The archive
+# holds 5 editions on data cards and 8 Big Reads with no hero at all; retro-
+# fitting those is a weekend of work that buys nothing, and a gate that is red
+# from the day it ships gets ignored, which is the only way a gate really fails.
+# So the rule bites from the day it was decided and not before. Override with
+# --since for a one-off audit of the back catalogue.
+CUTOFF = "2026-10-02"
+
+_DATE = re.compile(r"(\d{4}-\d{2}-\d{2})")
 
 _FM = re.compile(r"\A---\s*\n(.*?)\n---\s*\n(.*)\Z", re.S)
 
@@ -212,10 +225,26 @@ def intake(dry):
 
 # ---------------------------------------------------------------------- check
 
-def _edition_missing():
+def _edition_date(eid):
+    """Editions carry their date in the id: pulse-2026-10-01-evening. An id with
+    no date cannot be placed in time, so it is treated as old and left alone."""
+    m = _DATE.search(eid)
+    return m.group(1) if m else "0000-00-00"
+
+
+def _guide_date(fm):
+    """Guides have no date in the slug; `updated:` is the only date they carry.
+    A guide with no `updated:` is treated as old rather than failed, because the
+    gate is about heroes and should not become a frontmatter linter."""
+    return fm_get(fm, "updated") or "0000-00-00"
+
+
+def _edition_missing(since):
     hero_map, credits = _load(HERO_MAP, {}), _load(CREDITS, {})
     out = []
     for eid in sorted(_ids(EDSRC)):
+        if _edition_date(eid) < since:
+            continue
         hero = hero_map.get(eid)
         if not hero:
             out.append((eid, "no hero in og/hero_map.json"))
@@ -230,13 +259,14 @@ def _edition_missing():
     return out
 
 
-def _guide_missing():
+def _guide_missing(since):
     out = []
     for slug in sorted(_ids(GDSRC)):
         raw = open(os.path.join(GDSRC, slug + ".md"), encoding="utf-8").read()
         fm, _ = split_fm(raw)
         if fm is None:
-            out.append((slug, "no frontmatter"))
+            continue
+        if _guide_date(fm) < since:
             continue
         img, cred = fm_get(fm, "image"), fm_get(fm, "image_credit")
         if not img:
@@ -248,16 +278,17 @@ def _guide_missing():
     return out
 
 
-def check(only, strict):
-    rows = [("edition", a, b) for a, b in _edition_missing()] + \
-           [("guide", a, b) for a, b in _guide_missing()]
+def check(only, strict, since):
+    rows = [("edition", a, b) for a, b in _edition_missing(since)] + \
+           [("guide", a, b) for a, b in _guide_missing(since)]
     if only:
         want = {s.strip() for s in only.split(",") if s.strip()}
         rows = [r for r in rows if r[1] in want]
+    scope = "everything" if since == "0000-00-00" else f"items dated {since} or later"
     if not rows:
-        print("\U0001f7e2 every edition and guide has a hand-supplied hero.")
+        print(f"\U0001f7e2 every item in scope has a hand-supplied hero  ({scope}).")
         return 0
-    print(f"\U0001f534 {len(rows)} item(s) without a hand-supplied hero:\n")
+    print(f"\U0001f534 {len(rows)} item(s) without a hand-supplied hero  ({scope}):\n")
     for kind, name, why in rows:
         print(f"   ⛔ {kind:7} {name}")
         print(f"             {why}")
@@ -280,6 +311,9 @@ def main(argv=None):
                     help="with --check, exit 1 when any hero is missing")
     ap.add_argument("--only", default="",
                     help="comma-separated edition ids or guide slugs")
+    ap.add_argument("--since", default=CUTOFF,
+                    help=f"only check items dated on or after this (default {CUTOFF}); "
+                         f"pass --since 0000-00-00 to audit the whole archive")
     ap.add_argument("--dry-run", action="store_true",
                     help="with --intake, report without writing")
     a = ap.parse_args(argv)
@@ -290,7 +324,7 @@ def main(argv=None):
     if a.intake:
         rc |= intake(a.dry_run)
     if a.check:
-        rc |= check(a.only, a.strict)
+        rc |= check(a.only, a.strict, a.since)
     return rc
 
 
