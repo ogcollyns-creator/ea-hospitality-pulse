@@ -1,59 +1,51 @@
 {
- "generated": "2026-10-02T23:00:17+03:00",
- "slot": "evening",
- "window_start": 1790856000,
- "observations_in_window": 1479,
+ "generated": "2026-10-03T02:37:50+03:00",
+ "slot": "morning",
+ "window_start": 1790953200,
+ "observations_in_window": 591,
  "deduped_against": 14,
  "candidates": [
   {
-   "score": 109.8,
-   "components": {
-    "tier": 40,
-    "category": 32,
-    "lead": 1.2,
-    "relevance": 16,
-    "freshness": 8.6,
-    "undated": -6,
-    "shock": 18
-   },
-   "keywords": [
-    "level 3",
-    "flight"
-   ],
-   "shock_terms": [
-    "level 3",
-    "reconsider travel",
-    "attack"
-   ],
-   "dedupe_match": null,
-   "dedupe_similarity": 0.1,
-   "id": "271afc18b58a",
-   "title": "Qatar - Level 3: Reconsider Travel",
-   "url": "https://travel.state.gov/content/tsg_aem/us/en/home/international-travel/travel-advisories/destination.qat.html",
-   "summary": "Reconsider travel to Qatar due to risk of armed conflict . U.S. government employee travel restrictions As of August 28, 2026, family members may join U.S. government employees who work in Qatar. Armed Conflict Following the onset of hostilities between the United States and Iran on February 28, 2026, there has been an ongoing threat of drone and missile attacks from Iran and significant disruptio",
-   "kind": "item",
-   "source": "US State Dept travel advisories (EA feed)",
-   "source_id": "adv-us-ea",
-   "tier": 1,
-   "country": "REG",
-   "category": "advisory",
-   "segments": [
-    "city",
-    "bush",
-    "beach"
-   ],
-   "first_seen": "2026-10-02T12:51+03:00",
-   "published": null,
-   "verdict": "LEAD CANDIDATE \u2014 tier-1 shock language"
-  },
-  {
-   "score": 100.3,
+   "score": 101.4,
    "components": {
     "tier": 40,
     "category": 32,
     "lead": 3.6,
     "relevance": 0,
-    "freshness": 18.7,
+    "freshness": 19.8,
+    "corroborated": 10,
+    "page_change": -4
+   },
+   "keywords": [],
+   "shock_terms": [],
+   "dedupe_match": null,
+   "dedupe_similarity": 0.0,
+   "id": "2d5c18814a62",
+   "title": "[page changed] Federal Register \u2014 public inspection (HHS/CDC), pre-publication",
+   "url": "https://www.federalregister.gov/api/v1/public-inspection-documents/current.json",
+   "summary": "{\"count\":108,\"results\":[{\"agencies\":[{\"raw_name\":\"SECURITIES AND EXCHANGE COMMISSION\",\"name\":\"Securities and Exchange Commission\",\"id\":466,\"url\":\"https://www.federalregister.gov/agencies/securities-and-exchange-commission\",\"json_url\":\"https://www.federalregister.gov/api/v1/agencies/466\",\"parent_id\":null,\"slug\":\"securities-and-exchange-commission\"}],\"agency_letters\":[],\"agency_names\":[\"Securities a",
+   "kind": "page-change",
+   "source": "Federal Register \u2014 public inspection (HHS/CDC), pre-publication",
+   "source_id": "us-fedreg-pubinspect-hhs",
+   "tier": 1,
+   "country": "REG",
+   "category": "advisory",
+   "segments": [
+    "city",
+    "bush"
+   ],
+   "first_seen": "2026-10-03T02:36+03:00",
+   "published": "2026-10-05",
+   "verdict": "OPEN THIS \u2014 tier-1 advisory page moved; content not auto-parsed, read it manually"
+  },
+  {
+   "score": 96.3,
+   "components": {
+    "tier": 40,
+    "category": 32,
+    "lead": 3.6,
+    "relevance": 0,
+    "freshness": 14.7,
     "corroborated": 10,
     "page_change": -4
    },
@@ -80,13 +72,13 @@
    "verdict": "OPEN THIS \u2014 tier-1 advisory page moved; content not auto-parsed, read it manually"
   },
   {
-   "score": 96.8,
+   "score": 92.9,
    "components": {
     "tier": 40,
     "category": 32,
     "lead": 3.6,
     "relevance": 0,
-    "freshness": 15.2,
+    "freshness": 11.3,
     "corroborated": 10,
     "page_change": -4
    },
@@ -113,173 +105,13 @@
    "verdict": "OPEN THIS \u2014 tier-1 advisory page moved; content not auto-parsed, read it manually"
   },
   {
-   "score": 80.2,
-   "components": {
-    "tier": 40,
-    "category": 32,
-    "lead": 3.6,
-    "relevance": 0,
-    "freshness": 8.6,
-    "page_change": -4
-   },
-   "keywords": [],
-   "shock_terms": [],
-   "dedupe_match": null,
-   "dedupe_similarity": 0.0,
-   "id": "afd2a78cd875",
-   "title": "[page changed] Federal Register \u2014 public inspection (HHS/CDC), pre-publication",
-   "url": "https://www.federalregister.gov/api/v1/public-inspection-documents/current.json",
-   "summary": "{\"count\":99,\"results\":[{\"agencies\":[{\"raw_name\":\"NUCLEAR REGULATORY COMMISSION\",\"name\":\"Nuclear Regulatory Commission\",\"id\":383,\"url\":\"https://www.federalregister.gov/agencies/nuclear-regulatory-commission\",\"json_url\":\"https://www.federalregister.gov/api/v1/agencies/383\",\"parent_id\":null,\"slug\":\"nuclear-regulatory-commission\"}],\"agency_letters\":[],\"agency_names\":[\"Nuclear Regulatory Commission\"],\"",
-   "kind": "page-change",
-   "source": "Federal Register \u2014 public inspection (HHS/CDC), pre-publication",
-   "source_id": "us-fedreg-pubinspect-hhs",
-   "tier": 1,
-   "country": "REG",
-   "category": "advisory",
-   "segments": [
-    "city",
-    "bush"
-   ],
-   "first_seen": "2026-10-02T12:51+03:00",
-   "published": "2026-09-30",
-   "verdict": "OPEN THIS \u2014 tier-1 advisory page moved; content not auto-parsed, read it manually"
-  },
-  {
-   "score": 74.4,
-   "components": {
-    "tier": 40,
-    "category": 32,
-    "lead": 3.6,
-    "relevance": 0,
-    "freshness": 2.8,
-    "page_change": -4
-   },
-   "keywords": [],
-   "shock_terms": [],
-   "dedupe_match": null,
-   "dedupe_similarity": 0.0,
-   "id": "c5ea5f1ad4d0",
-   "title": "[page changed] Federal Register \u2014 public inspection (HHS/CDC), pre-publication",
-   "url": "https://www.federalregister.gov/api/v1/public-inspection-documents/current.json",
-   "summary": "{\"count\":99,\"results\":[{\"agencies\":[{\"raw_name\":\"NUCLEAR REGULATORY COMMISSION\",\"name\":\"Nuclear Regulatory Commission\",\"id\":383,\"url\":\"https://www.federalregister.gov/agencies/nuclear-regulatory-commission\",\"json_url\":\"https://www.federalregister.gov/api/v1/agencies/383\",\"parent_id\":null,\"slug\":\"nuclear-regulatory-commission\"}],\"agency_letters\":[],\"agency_names\":[\"Nuclear Regulatory Commission\"],\"",
-   "kind": "page-change",
-   "source": "Federal Register \u2014 public inspection (HHS/CDC), pre-publication",
-   "source_id": "us-fedreg-pubinspect-hhs",
-   "tier": 1,
-   "country": "REG",
-   "category": "advisory",
-   "segments": [
-    "city",
-    "bush"
-   ],
-   "first_seen": "2026-10-02T07:33+03:00",
-   "published": "2026-09-30",
-   "verdict": "OPEN THIS \u2014 tier-1 advisory page moved; content not auto-parsed, read it manually"
-  },
-  {
-   "score": 71.6,
-   "components": {
-    "tier": 40,
-    "category": 32,
-    "lead": 3.6,
-    "relevance": 0,
-    "freshness": 0.0,
-    "page_change": -4
-   },
-   "keywords": [],
-   "shock_terms": [],
-   "dedupe_match": null,
-   "dedupe_similarity": 0.0,
-   "id": "71c8aab16b18",
-   "title": "[page changed] Federal Register \u2014 public inspection (HHS/CDC), pre-publication",
-   "url": "https://www.federalregister.gov/api/v1/public-inspection-documents/current.json",
-   "summary": "{\"count\":99,\"results\":[{\"agencies\":[{\"raw_name\":\"NUCLEAR REGULATORY COMMISSION\",\"name\":\"Nuclear Regulatory Commission\",\"id\":383,\"url\":\"https://www.federalregister.gov/agencies/nuclear-regulatory-commission\",\"json_url\":\"https://www.federalregister.gov/api/v1/agencies/383\",\"parent_id\":null,\"slug\":\"nuclear-regulatory-commission\"}],\"agency_letters\":[],\"agency_names\":[\"Nuclear Regulatory Commission\"],\"",
-   "kind": "page-change",
-   "source": "Federal Register \u2014 public inspection (HHS/CDC), pre-publication",
-   "source_id": "us-fedreg-pubinspect-hhs",
-   "tier": 1,
-   "country": "REG",
-   "category": "advisory",
-   "segments": [
-    "city",
-    "bush"
-   ],
-   "first_seen": "2026-10-02T02:44+03:00",
-   "published": "2026-09-30",
-   "verdict": "OPEN THIS \u2014 tier-1 advisory page moved; content not auto-parsed, read it manually"
-  },
-  {
-   "score": 71.6,
-   "components": {
-    "tier": 40,
-    "category": 32,
-    "lead": 3.6,
-    "relevance": 0,
-    "freshness": 0.0,
-    "page_change": -4
-   },
-   "keywords": [],
-   "shock_terms": [],
-   "dedupe_match": null,
-   "dedupe_similarity": 0.0,
-   "id": "af80aa404398",
-   "title": "[page changed] Federal Register \u2014 public inspection (HHS/CDC), pre-publication",
-   "url": "https://www.federalregister.gov/api/v1/public-inspection-documents/current.json",
-   "summary": "{\"count\":96,\"results\":[{\"agencies\":[{\"raw_name\":\"NUCLEAR REGULATORY COMMISSION\",\"name\":\"Nuclear Regulatory Commission\",\"id\":383,\"url\":\"https://www.federalregister.gov/agencies/nuclear-regulatory-commission\",\"json_url\":\"https://www.federalregister.gov/api/v1/agencies/383\",\"parent_id\":null,\"slug\":\"nuclear-regulatory-commission\"}],\"agency_letters\":[],\"agency_names\":[\"Nuclear Regulatory Commission\"],\"",
-   "kind": "page-change",
-   "source": "Federal Register \u2014 public inspection (HHS/CDC), pre-publication",
-   "source_id": "us-fedreg-pubinspect-hhs",
-   "tier": 1,
-   "country": "REG",
-   "category": "advisory",
-   "segments": [
-    "city",
-    "bush"
-   ],
-   "first_seen": "2026-10-01T22:20+03:00",
-   "published": "2026-09-30",
-   "verdict": "OPEN THIS \u2014 tier-1 advisory page moved; content not auto-parsed, read it manually"
-  },
-  {
-   "score": 71.6,
-   "components": {
-    "tier": 40,
-    "category": 32,
-    "lead": 3.6,
-    "relevance": 0,
-    "freshness": 0.0,
-    "page_change": -4
-   },
-   "keywords": [],
-   "shock_terms": [],
-   "dedupe_match": null,
-   "dedupe_similarity": 0.0,
-   "id": "31df04adb471",
-   "title": "[page changed] Federal Register \u2014 public inspection (HHS/CDC), pre-publication",
-   "url": "https://www.federalregister.gov/api/v1/public-inspection-documents/current.json",
-   "summary": "{\"count\":95,\"results\":[{\"agencies\":[{\"raw_name\":\"NUCLEAR REGULATORY COMMISSION\",\"name\":\"Nuclear Regulatory Commission\",\"id\":383,\"url\":\"https://www.federalregister.gov/agencies/nuclear-regulatory-commission\",\"json_url\":\"https://www.federalregister.gov/api/v1/agencies/383\",\"parent_id\":null,\"slug\":\"nuclear-regulatory-commission\"}],\"agency_letters\":[],\"agency_names\":[\"Nuclear Regulatory Commission\"],\"",
-   "kind": "page-change",
-   "source": "Federal Register \u2014 public inspection (HHS/CDC), pre-publication",
-   "source_id": "us-fedreg-pubinspect-hhs",
-   "tier": 1,
-   "country": "REG",
-   "category": "advisory",
-   "segments": [
-    "city",
-    "bush"
-   ],
-   "first_seen": "2026-10-01T19:30+03:00",
-   "published": "2026-09-30",
-   "verdict": "OPEN THIS \u2014 tier-1 advisory page moved; content not auto-parsed, read it manually"
-  },
-  {
-   "score": 60.8,
+   "score": 56.8,
    "components": {
     "tier": 40,
     "category": 12,
     "lead": 3.6,
     "relevance": 0,
-    "freshness": 15.2,
+    "freshness": 11.2,
     "undated": -6,
     "page_change": -4
    },
@@ -307,82 +139,1027 @@
    "verdict": "OPEN THIS \u2014 tier-1 airline page moved; content not auto-parsed, read it manually"
   },
   {
-   "score": 45.6,
+   "score": 113.8,
    "components": {
     "tier": 40,
-    "category": 12,
-    "lead": 3.6,
-    "relevance": 0,
-    "freshness": 0.0,
-    "undated": -6,
-    "page_change": -4
+    "category": 20,
+    "lead": 12.0,
+    "relevance": 12,
+    "freshness": 19.8,
+    "corroborated": 10
    },
-   "keywords": [],
+   "keywords": [
+    "tax",
+    "safari"
+   ],
    "shock_terms": [],
    "dedupe_match": null,
-   "dedupe_similarity": 0.0,
-   "id": "77731548bfc3",
-   "title": "[page changed] Airlink news",
-   "url": "https://www.flyairlink.com/",
-   "summary": "Request unsuccessful. Incapsula incident ID: 260000060814742046-732748560612983215",
-   "kind": "page-change",
-   "source": "Airlink news",
-   "source_id": "air-airlink",
+   "dedupe_similarity": 0.2,
+   "id": "c70fe5aaa124",
+   "title": "Mkakeni v Safaricom Ltd (Civil Case E246 of 2020) [2026] KEHC 14541 (KLR) (Commercial and Tax) (1 October 2026) (Ruling)",
+   "url": "https://new.kenyalaw.org/akn/ke/judgment/kehc/2026/14541/eng@2026-10-01",
+   "summary": "Mkakeni v Safaricom Ltd (Civil Case E246 of 2020) [2026] KEHC 14541 (KLR) (Commercial and Tax) (1 October 2026) (Ruling)",
+   "kind": "item",
+   "source": "Kenya Gazette (Kenya Law)",
+   "source_id": "ke-gazette",
    "tier": 1,
-   "country": "REG",
-   "category": "airline",
+   "country": "KE",
+   "category": "gazette",
    "segments": [
     "city",
     "bush",
     "beach"
    ],
-   "first_seen": "2026-10-02T02:44+03:00",
-   "published": null,
-   "verdict": "OPEN THIS \u2014 tier-1 airline page moved; content not auto-parsed, read it manually"
+   "first_seen": "2026-10-03T02:36+03:00",
+   "published": "2026-10-01",
+   "verdict": "STRONG \u2014 tier-1, upstream"
   },
   {
-   "score": 101.0,
+   "score": 109.8,
    "components": {
     "tier": 40,
-    "category": 18,
-    "lead": 8.4,
-    "relevance": 16,
-    "freshness": 8.6,
+    "category": 20,
+    "lead": 12.0,
+    "relevance": 8,
+    "freshness": 19.8,
     "corroborated": 10
    },
    "keywords": [
-    "wildlife",
-    "safari",
-    "operator"
+    "eta"
    ],
    "shock_terms": [],
    "dedupe_match": null,
    "dedupe_similarity": 0.2,
-   "id": "9e241863a3e2",
-   "title": "KWS Hosts Travel Trade Partnership Breakfast",
-   "url": "https://kws.go.ke/kws-hosts-travel-trade-partnership-breakfast",
-   "summary": "This morning, the Kenya Wildlife Service brought the people behind Kenya's iconic safaris together. At a Travel Trade Partnership breakfast meeting at the Impala Picnic Site in Nairobi National Park, KWS created a space for tour operators, travel agents and industry partners to connect, share ideas and strengthen the relationships that help visitors discover Kenya's [...]",
+   "id": "9cc30b218e71",
+   "title": "Gordon v Cabinet Secretary, Ministry of Interior and National Coordination & 3 others (Petition E212 of 2025) [2026] KEHC 14556 (KLR) (Constitutional and Human Rights) (1 October 2026) (Judgment)",
+   "url": "https://new.kenyalaw.org/akn/ke/judgment/kehc/2026/14556/eng@2026-10-01",
+   "summary": "Gordon v Cabinet Secretary, Ministry of Interior and National Coordination & 3 others (Petition E212 of 2025) [2026] KEHC 14556 (KLR) (Constitutional and Human Rights) (1 October 2026) (Judgment)",
    "kind": "item",
-   "source": "Kenya Wildlife Service",
-   "source_id": "ke-kws",
+   "source": "Kenya Gazette (Kenya Law)",
+   "source_id": "ke-gazette",
    "tier": 1,
    "country": "KE",
-   "category": "parks",
+   "category": "gazette",
    "segments": [
-    "bush"
+    "city",
+    "bush",
+    "beach"
    ],
-   "first_seen": "2026-10-02T12:51+03:00",
-   "published": "2026-10-02",
+   "first_seen": "2026-10-03T02:36+03:00",
+   "published": "2026-10-01",
    "verdict": "STRONG \u2014 tier-1, upstream"
   },
   {
-   "score": 95.0,
+   "score": 109.8,
+   "components": {
+    "tier": 40,
+    "category": 20,
+    "lead": 12.0,
+    "relevance": 8,
+    "freshness": 19.8,
+    "corroborated": 10
+   },
+   "keywords": [
+    "election"
+   ],
+   "shock_terms": [],
+   "dedupe_match": null,
+   "dedupe_similarity": 0.2,
+   "id": "d473a39678ae",
+   "title": "Mung'ala v Elections Committee for the Grower Representatives Elections to the Kenya Sugar Board & 22 others (Constitutional Petition E012 of 2026) [2026] KEHC 14550 (KLR) (1 October 2026) (Judgment)",
+   "url": "https://new.kenyalaw.org/akn/ke/judgment/kehc/2026/14550/eng@2026-10-01",
+   "summary": "Mung'ala v Elections Committee for the Grower Representatives Elections to the Kenya Sugar Board & 22 others (Constitutional Petition E012 of 2026) [2026] KEHC 14550 (KLR) (1 October 2026) (Judgment)",
+   "kind": "item",
+   "source": "Kenya Gazette (Kenya Law)",
+   "source_id": "ke-gazette",
+   "tier": 1,
+   "country": "KE",
+   "category": "gazette",
+   "segments": [
+    "city",
+    "bush",
+    "beach"
+   ],
+   "first_seen": "2026-10-03T02:36+03:00",
+   "published": "2026-10-01",
+   "verdict": "STRONG \u2014 tier-1, upstream"
+  },
+  {
+   "score": 109.8,
+   "components": {
+    "tier": 40,
+    "category": 20,
+    "lead": 12.0,
+    "relevance": 8,
+    "freshness": 19.8,
+    "corroborated": 10
+   },
+   "keywords": [
+    "tax"
+   ],
+   "shock_terms": [],
+   "dedupe_match": null,
+   "dedupe_similarity": 0.2,
+   "id": "f21eb7128e98",
+   "title": "Mwai v Waumini Savings and Credit Society Ltd (Commercial Case E034 of 2023) [2026] KEHC 14545 (KLR) (Commercial and Tax) (1 October 2026) (Ruling)",
+   "url": "https://new.kenyalaw.org/akn/ke/judgment/kehc/2026/14545/eng@2026-10-01",
+   "summary": "Mwai v Waumini Savings and Credit Society Ltd (Commercial Case E034 of 2023) [2026] KEHC 14545 (KLR) (Commercial and Tax) (1 October 2026) (Ruling)",
+   "kind": "item",
+   "source": "Kenya Gazette (Kenya Law)",
+   "source_id": "ke-gazette",
+   "tier": 1,
+   "country": "KE",
+   "category": "gazette",
+   "segments": [
+    "city",
+    "bush",
+    "beach"
+   ],
+   "first_seen": "2026-10-03T02:36+03:00",
+   "published": "2026-10-01",
+   "verdict": "STRONG \u2014 tier-1, upstream"
+  },
+  {
+   "score": 109.8,
+   "components": {
+    "tier": 40,
+    "category": 20,
+    "lead": 12.0,
+    "relevance": 8,
+    "freshness": 19.8,
+    "corroborated": 10
+   },
+   "keywords": [
+    "tax"
+   ],
+   "shock_terms": [],
+   "dedupe_match": null,
+   "dedupe_similarity": 0.2,
+   "id": "9db660014984",
+   "title": "Gabaza Ltd v Benard Wasonga t/a Wasonga B. O. and Associates Advocates (Miscellaneous Civil Application E574 of 2025) [2026] KEHC 14544 (KLR) (Commercial and Tax) (1 October 2026) (Ruling)",
+   "url": "https://new.kenyalaw.org/akn/ke/judgment/kehc/2026/14544/eng@2026-10-01",
+   "summary": "Gabaza Ltd v Benard Wasonga t/a Wasonga B. O. and Associates Advocates (Miscellaneous Civil Application E574 of 2025) [2026] KEHC 14544 (KLR) (Commercial and Tax) (1 October 2026) (Ruling)",
+   "kind": "item",
+   "source": "Kenya Gazette (Kenya Law)",
+   "source_id": "ke-gazette",
+   "tier": 1,
+   "country": "KE",
+   "category": "gazette",
+   "segments": [
+    "city",
+    "bush",
+    "beach"
+   ],
+   "first_seen": "2026-10-03T02:36+03:00",
+   "published": "2026-10-01",
+   "verdict": "STRONG \u2014 tier-1, upstream"
+  },
+  {
+   "score": 109.8,
+   "components": {
+    "tier": 40,
+    "category": 20,
+    "lead": 12.0,
+    "relevance": 8,
+    "freshness": 19.8,
+    "corroborated": 10
+   },
+   "keywords": [
+    "tax"
+   ],
+   "shock_terms": [],
+   "dedupe_match": null,
+   "dedupe_similarity": 0.2,
+   "id": "51c4723c4821",
+   "title": "Ndutu v Wangata & another (Commercial Appeal E289 of 2023) [2026] KEHC 14543 (KLR) (Commercial and Tax) (1 October 2026) (Judgment)",
+   "url": "https://new.kenyalaw.org/akn/ke/judgment/kehc/2026/14543/eng@2026-10-01",
+   "summary": "Ndutu v Wangata & another (Commercial Appeal E289 of 2023) [2026] KEHC 14543 (KLR) (Commercial and Tax) (1 October 2026) (Judgment)",
+   "kind": "item",
+   "source": "Kenya Gazette (Kenya Law)",
+   "source_id": "ke-gazette",
+   "tier": 1,
+   "country": "KE",
+   "category": "gazette",
+   "segments": [
+    "city",
+    "bush",
+    "beach"
+   ],
+   "first_seen": "2026-10-03T02:36+03:00",
+   "published": "2026-10-01",
+   "verdict": "STRONG \u2014 tier-1, upstream"
+  },
+  {
+   "score": 109.8,
+   "components": {
+    "tier": 40,
+    "category": 20,
+    "lead": 12.0,
+    "relevance": 8,
+    "freshness": 19.8,
+    "corroborated": 10
+   },
+   "keywords": [
+    "tax"
+   ],
+   "shock_terms": [],
+   "dedupe_match": null,
+   "dedupe_similarity": 0.2,
+   "id": "cf94b2040708",
+   "title": "Kawinzi v Murungi & 2 others (Miscellaneous Civil Application E1099 of 2023) [2026] KEHC 14542 (KLR) (Commercial and Tax) (1 October 2026) (Ruling)",
+   "url": "https://new.kenyalaw.org/akn/ke/judgment/kehc/2026/14542/eng@2026-10-01",
+   "summary": "Kawinzi v Murungi & 2 others (Miscellaneous Civil Application E1099 of 2023) [2026] KEHC 14542 (KLR) (Commercial and Tax) (1 October 2026) (Ruling)",
+   "kind": "item",
+   "source": "Kenya Gazette (Kenya Law)",
+   "source_id": "ke-gazette",
+   "tier": 1,
+   "country": "KE",
+   "category": "gazette",
+   "segments": [
+    "city",
+    "bush",
+    "beach"
+   ],
+   "first_seen": "2026-10-03T02:36+03:00",
+   "published": "2026-10-01",
+   "verdict": "STRONG \u2014 tier-1, upstream"
+  },
+  {
+   "score": 109.8,
+   "components": {
+    "tier": 40,
+    "category": 20,
+    "lead": 12.0,
+    "relevance": 8,
+    "freshness": 19.8,
+    "corroborated": 10
+   },
+   "keywords": [
+    "tax"
+   ],
+   "shock_terms": [],
+   "dedupe_match": null,
+   "dedupe_similarity": 0.2,
+   "id": "0e0c9750fac4",
+   "title": "P.M. Gachie t/a Regent Auctioneers v Beakim Ltd (Miscellaneous Application E432 of 2024) [2026] KEHC 14540 (KLR) (Commercial and Tax) (1 October 2026) (Ruling)",
+   "url": "https://new.kenyalaw.org/akn/ke/judgment/kehc/2026/14540/eng@2026-10-01",
+   "summary": "P.M. Gachie t/a Regent Auctioneers v Beakim Ltd (Miscellaneous Application E432 of 2024) [2026] KEHC 14540 (KLR) (Commercial and Tax) (1 October 2026) (Ruling)",
+   "kind": "item",
+   "source": "Kenya Gazette (Kenya Law)",
+   "source_id": "ke-gazette",
+   "tier": 1,
+   "country": "KE",
+   "category": "gazette",
+   "segments": [
+    "city",
+    "bush",
+    "beach"
+   ],
+   "first_seen": "2026-10-03T02:36+03:00",
+   "published": "2026-10-01",
+   "verdict": "STRONG \u2014 tier-1, upstream"
+  },
+  {
+   "score": 109.8,
+   "components": {
+    "tier": 40,
+    "category": 20,
+    "lead": 12.0,
+    "relevance": 8,
+    "freshness": 19.8,
+    "corroborated": 10
+   },
+   "keywords": [
+    "tax"
+   ],
+   "shock_terms": [],
+   "dedupe_match": null,
+   "dedupe_similarity": 0.2,
+   "id": "a62e7c4bdae5",
+   "title": "Githunguri Dairy Farmers Group Society Ltd v Darubini Farm Pride Ltd (Commercial Appeal E150 of 2025) [2026] KEHC 14539 (KLR) (Commercial and Tax) (1 October 2026) (Judgment)",
+   "url": "https://new.kenyalaw.org/akn/ke/judgment/kehc/2026/14539/eng@2026-10-01",
+   "summary": "Githunguri Dairy Farmers Group Society Ltd v Darubini Farm Pride Ltd (Commercial Appeal E150 of 2025) [2026] KEHC 14539 (KLR) (Commercial and Tax) (1 October 2026) (Judgment)",
+   "kind": "item",
+   "source": "Kenya Gazette (Kenya Law)",
+   "source_id": "ke-gazette",
+   "tier": 1,
+   "country": "KE",
+   "category": "gazette",
+   "segments": [
+    "city",
+    "bush",
+    "beach"
+   ],
+   "first_seen": "2026-10-03T02:36+03:00",
+   "published": "2026-10-01",
+   "verdict": "STRONG \u2014 tier-1, upstream"
+  },
+  {
+   "score": 109.8,
+   "components": {
+    "tier": 40,
+    "category": 20,
+    "lead": 12.0,
+    "relevance": 8,
+    "freshness": 19.8,
+    "corroborated": 10
+   },
+   "keywords": [
+    "tax"
+   ],
+   "shock_terms": [],
+   "dedupe_match": null,
+   "dedupe_similarity": 0.2,
+   "id": "2966841ed21c",
+   "title": "Roy Hauliers Ltd v Bamburi Cement Ltd (Miscellaneous Application E606 of 2024) [2026] KEHC 14538 (KLR) (Commercial and Tax) (1 October 2026) (Ruling)",
+   "url": "https://new.kenyalaw.org/akn/ke/judgment/kehc/2026/14538/eng@2026-10-01",
+   "summary": "Roy Hauliers Ltd v Bamburi Cement Ltd (Miscellaneous Application E606 of 2024) [2026] KEHC 14538 (KLR) (Commercial and Tax) (1 October 2026) (Ruling)",
+   "kind": "item",
+   "source": "Kenya Gazette (Kenya Law)",
+   "source_id": "ke-gazette",
+   "tier": 1,
+   "country": "KE",
+   "category": "gazette",
+   "segments": [
+    "city",
+    "bush",
+    "beach"
+   ],
+   "first_seen": "2026-10-03T02:36+03:00",
+   "published": "2026-10-01",
+   "verdict": "STRONG \u2014 tier-1, upstream"
+  },
+  {
+   "score": 109.8,
+   "components": {
+    "tier": 40,
+    "category": 20,
+    "lead": 12.0,
+    "relevance": 8,
+    "freshness": 19.8,
+    "corroborated": 10
+   },
+   "keywords": [
+    "tax"
+   ],
+   "shock_terms": [],
+   "dedupe_match": null,
+   "dedupe_similarity": 0.2,
+   "id": "38aa27ddd64d",
+   "title": "Muruthi & 3 others v Thiongo & 2 others (Commercial Civil Suit E216 of 2023) [2026] KEHC 14537 (KLR) (Commercial and Tax) (1 October 2026) (Ruling)",
+   "url": "https://new.kenyalaw.org/akn/ke/judgment/kehc/2026/14537/eng@2026-10-01",
+   "summary": "Muruthi & 3 others v Thiongo & 2 others (Commercial Civil Suit E216 of 2023) [2026] KEHC 14537 (KLR) (Commercial and Tax) (1 October 2026) (Ruling)",
+   "kind": "item",
+   "source": "Kenya Gazette (Kenya Law)",
+   "source_id": "ke-gazette",
+   "tier": 1,
+   "country": "KE",
+   "category": "gazette",
+   "segments": [
+    "city",
+    "bush",
+    "beach"
+   ],
+   "first_seen": "2026-10-03T02:36+03:00",
+   "published": "2026-10-01",
+   "verdict": "STRONG \u2014 tier-1, upstream"
+  },
+  {
+   "score": 109.8,
+   "components": {
+    "tier": 40,
+    "category": 20,
+    "lead": 12.0,
+    "relevance": 8,
+    "freshness": 19.8,
+    "corroborated": 10
+   },
+   "keywords": [
+    "tax"
+   ],
+   "shock_terms": [],
+   "dedupe_match": null,
+   "dedupe_similarity": 0.2,
+   "id": "aa1673c460eb",
+   "title": "Omanga & 2 others v Waiyaki (Commercial Case E632 of 2024) [2026] KEHC 14536 (KLR) (Commercial and Tax) (1 October 2026) (Ruling)",
+   "url": "https://new.kenyalaw.org/akn/ke/judgment/kehc/2026/14536/eng@2026-10-01",
+   "summary": "Omanga & 2 others v Waiyaki (Commercial Case E632 of 2024) [2026] KEHC 14536 (KLR) (Commercial and Tax) (1 October 2026) (Ruling)",
+   "kind": "item",
+   "source": "Kenya Gazette (Kenya Law)",
+   "source_id": "ke-gazette",
+   "tier": 1,
+   "country": "KE",
+   "category": "gazette",
+   "segments": [
+    "city",
+    "bush",
+    "beach"
+   ],
+   "first_seen": "2026-10-03T02:36+03:00",
+   "published": "2026-10-01",
+   "verdict": "STRONG \u2014 tier-1, upstream"
+  },
+  {
+   "score": 109.8,
+   "components": {
+    "tier": 40,
+    "category": 20,
+    "lead": 12.0,
+    "relevance": 8,
+    "freshness": 19.8,
+    "corroborated": 10
+   },
+   "keywords": [
+    "tax"
+   ],
+   "shock_terms": [],
+   "dedupe_match": null,
+   "dedupe_similarity": 0.2,
+   "id": "56dbf8a57e4f",
+   "title": "Wambugu v Ngumi & another (Petition E003 of 2019) [2026] KEHC 14532 (KLR) (Commercial and Tax) (1 October 2026) (Ruling)",
+   "url": "https://new.kenyalaw.org/akn/ke/judgment/kehc/2026/14532/eng@2026-10-01",
+   "summary": "Wambugu v Ngumi & another (Petition E003 of 2019) [2026] KEHC 14532 (KLR) (Commercial and Tax) (1 October 2026) (Ruling)",
+   "kind": "item",
+   "source": "Kenya Gazette (Kenya Law)",
+   "source_id": "ke-gazette",
+   "tier": 1,
+   "country": "KE",
+   "category": "gazette",
+   "segments": [
+    "city",
+    "bush",
+    "beach"
+   ],
+   "first_seen": "2026-10-03T02:36+03:00",
+   "published": "2026-10-01",
+   "verdict": "STRONG \u2014 tier-1, upstream"
+  },
+  {
+   "score": 105.8,
+   "components": {
+    "tier": 40,
+    "category": 20,
+    "lead": 12.0,
+    "relevance": 4,
+    "freshness": 19.8,
+    "corroborated": 10
+   },
+   "keywords": [
+    "investment"
+   ],
+   "shock_terms": [],
+   "dedupe_match": null,
+   "dedupe_similarity": 0.2,
+   "id": "5c4754b62ca9",
+   "title": "Twin Properties Investment Ltd v Kasarani Settlement Ltd & 2 others (Environment and Land Case Civil Suit 532 of 2010) [2026] KEELC 5996 (KLR) (1 October 2026) (Ruling)",
+   "url": "https://new.kenyalaw.org/akn/ke/judgment/keelc/2026/5996/eng@2026-10-01",
+   "summary": "Twin Properties Investment Ltd v Kasarani Settlement Ltd & 2 others (Environment and Land Case Civil Suit 532 of 2010) [2026] KEELC 5996 (KLR) (1 October 2026) (Ruling)",
+   "kind": "item",
+   "source": "Kenya Gazette (Kenya Law)",
+   "source_id": "ke-gazette",
+   "tier": 1,
+   "country": "KE",
+   "category": "gazette",
+   "segments": [
+    "city",
+    "bush",
+    "beach"
+   ],
+   "first_seen": "2026-10-03T02:36+03:00",
+   "published": "2026-10-01",
+   "verdict": "STRONG \u2014 tier-1, upstream"
+  },
+  {
+   "score": 103.8,
+   "components": {
+    "tier": 40,
+    "category": 20,
+    "lead": 12.0,
+    "relevance": 12,
+    "freshness": 19.8
+   },
+   "keywords": [
+    "eta",
+    "investment"
+   ],
+   "shock_terms": [],
+   "dedupe_match": null,
+   "dedupe_similarity": 0.18,
+   "id": "ebb6159b1b3c",
+   "title": "Blair & another v Cabinet Secretary, Ministry of Investments Trade and Industry & 3 others (Petition E135 of 2026) [2026] KEELRC 2670 (KLR) (30 September 2026) (Ruling)",
+   "url": "https://new.kenyalaw.org/akn/ke/judgment/keelrc/2026/2670/eng@2026-09-30",
+   "summary": "Blair & another v Cabinet Secretary, Ministry of Investments Trade and Industry & 3 others (Petition E135 of 2026) [2026] KEELRC 2670 (KLR) (30 September 2026) (Ruling)",
+   "kind": "item",
+   "source": "Kenya Gazette (Kenya Law)",
+   "source_id": "ke-gazette",
+   "tier": 1,
+   "country": "KE",
+   "category": "gazette",
+   "segments": [
+    "city",
+    "bush",
+    "beach"
+   ],
+   "first_seen": "2026-10-03T02:36+03:00",
+   "published": "2026-09-30",
+   "verdict": "STRONG \u2014 tier-1, upstream"
+  },
+  {
+   "score": 101.8,
+   "components": {
+    "tier": 40,
+    "category": 20,
+    "lead": 12.0,
+    "relevance": 0,
+    "freshness": 19.8,
+    "corroborated": 10
+   },
+   "keywords": [],
+   "shock_terms": [],
+   "dedupe_match": null,
+   "dedupe_similarity": 0.2,
+   "id": "74527ffe0b33",
+   "title": "Republic v Anyango (Criminal Case 48 of 2017) [2026] KEHC 14558 (KLR) (1 October 2026) (Ruling)",
+   "url": "https://new.kenyalaw.org/akn/ke/judgment/kehc/2026/14558/eng@2026-10-01",
+   "summary": "Republic v Anyango (Criminal Case 48 of 2017) [2026] KEHC 14558 (KLR) (1 October 2026) (Ruling)",
+   "kind": "item",
+   "source": "Kenya Gazette (Kenya Law)",
+   "source_id": "ke-gazette",
+   "tier": 1,
+   "country": "KE",
+   "category": "gazette",
+   "segments": [
+    "city",
+    "bush",
+    "beach"
+   ],
+   "first_seen": "2026-10-03T02:36+03:00",
+   "published": "2026-10-01",
+   "verdict": "STRONG \u2014 tier-1, upstream"
+  },
+  {
+   "score": 101.8,
+   "components": {
+    "tier": 40,
+    "category": 20,
+    "lead": 12.0,
+    "relevance": 0,
+    "freshness": 19.8,
+    "corroborated": 10
+   },
+   "keywords": [],
+   "shock_terms": [],
+   "dedupe_match": null,
+   "dedupe_similarity": 0.2,
+   "id": "c3de9c2986cb",
+   "title": "Mutisya v AIC Mwatate Secondary School (Appeal E020 of 2026) [2026] KEELRC 2707 (KLR) (1 October 2026) (Judgment)",
+   "url": "https://new.kenyalaw.org/akn/ke/judgment/keelrc/2026/2707/eng@2026-10-01",
+   "summary": "Mutisya v AIC Mwatate Secondary School (Appeal E020 of 2026) [2026] KEELRC 2707 (KLR) (1 October 2026) (Judgment)",
+   "kind": "item",
+   "source": "Kenya Gazette (Kenya Law)",
+   "source_id": "ke-gazette",
+   "tier": 1,
+   "country": "KE",
+   "category": "gazette",
+   "segments": [
+    "city",
+    "bush",
+    "beach"
+   ],
+   "first_seen": "2026-10-03T02:36+03:00",
+   "published": "2026-10-01",
+   "verdict": "STRONG \u2014 tier-1, upstream"
+  },
+  {
+   "score": 101.8,
+   "components": {
+    "tier": 40,
+    "category": 20,
+    "lead": 12.0,
+    "relevance": 0,
+    "freshness": 19.8,
+    "corroborated": 10
+   },
+   "keywords": [],
+   "shock_terms": [],
+   "dedupe_match": null,
+   "dedupe_similarity": 0.2,
+   "id": "c61b5bc514d5",
+   "title": "Wachira v Bank of Africa Ltd (Cause 1435 of 2018) [2026] KEELRC 2706 (KLR) (1 October 2026) (Judgment)",
+   "url": "https://new.kenyalaw.org/akn/ke/judgment/keelrc/2026/2706/eng@2026-10-01",
+   "summary": "Wachira v Bank of Africa Ltd (Cause 1435 of 2018) [2026] KEELRC 2706 (KLR) (1 October 2026) (Judgment)",
+   "kind": "item",
+   "source": "Kenya Gazette (Kenya Law)",
+   "source_id": "ke-gazette",
+   "tier": 1,
+   "country": "KE",
+   "category": "gazette",
+   "segments": [
+    "city",
+    "bush",
+    "beach"
+   ],
+   "first_seen": "2026-10-03T02:36+03:00",
+   "published": "2026-10-01",
+   "verdict": "STRONG \u2014 tier-1, upstream"
+  },
+  {
+   "score": 101.8,
+   "components": {
+    "tier": 40,
+    "category": 20,
+    "lead": 12.0,
+    "relevance": 0,
+    "freshness": 19.8,
+    "corroborated": 10
+   },
+   "keywords": [],
+   "shock_terms": [],
+   "dedupe_match": null,
+   "dedupe_similarity": 0.2,
+   "id": "fcdcb5090031",
+   "title": "Nduati v Chebukati & 3 others (Constitutional Petition E071 of 2025) [2026] KEHC 14557 (KLR) (Constitutional and Human Rights) (1 October 2026) (Ruling)",
+   "url": "https://new.kenyalaw.org/akn/ke/judgment/kehc/2026/14557/eng@2026-10-01",
+   "summary": "Nduati v Chebukati & 3 others (Constitutional Petition E071 of 2025) [2026] KEHC 14557 (KLR) (Constitutional and Human Rights) (1 October 2026) (Ruling)",
+   "kind": "item",
+   "source": "Kenya Gazette (Kenya Law)",
+   "source_id": "ke-gazette",
+   "tier": 1,
+   "country": "KE",
+   "category": "gazette",
+   "segments": [
+    "city",
+    "bush",
+    "beach"
+   ],
+   "first_seen": "2026-10-03T02:36+03:00",
+   "published": "2026-10-01",
+   "verdict": "STRONG \u2014 tier-1, upstream"
+  },
+  {
+   "score": 101.8,
+   "components": {
+    "tier": 40,
+    "category": 20,
+    "lead": 12.0,
+    "relevance": 0,
+    "freshness": 19.8,
+    "corroborated": 10
+   },
+   "keywords": [],
+   "shock_terms": [],
+   "dedupe_match": null,
+   "dedupe_similarity": 0.2,
+   "id": "40df1a11ddda",
+   "title": "Gadani & 2 others v Kenya Reinsurance Corporation Limited & 12 others (Petition E435 of 2026) [2026] KEHC 14531 (KLR) (Constitutional and Human Rights) (1 October 2026) (Ruling)",
+   "url": "https://new.kenyalaw.org/akn/ke/judgment/kehc/2026/14531/eng@2026-10-01",
+   "summary": "Gadani & 2 others v Kenya Reinsurance Corporation Limited & 12 others (Petition E435 of 2026) [2026] KEHC 14531 (KLR) (Constitutional and Human Rights) (1 October 2026) (Ruling)",
+   "kind": "item",
+   "source": "Kenya Gazette (Kenya Law)",
+   "source_id": "ke-gazette",
+   "tier": 1,
+   "country": "KE",
+   "category": "gazette",
+   "segments": [
+    "city",
+    "bush",
+    "beach"
+   ],
+   "first_seen": "2026-10-03T02:36+03:00",
+   "published": "2026-10-01",
+   "verdict": "STRONG \u2014 tier-1, upstream"
+  },
+  {
+   "score": 101.8,
+   "components": {
+    "tier": 40,
+    "category": 20,
+    "lead": 12.0,
+    "relevance": 0,
+    "freshness": 19.8,
+    "corroborated": 10
+   },
+   "keywords": [],
+   "shock_terms": [],
+   "dedupe_match": null,
+   "dedupe_similarity": 0.2,
+   "id": "833e2b8df78c",
+   "title": "AAM & 3 others v Standard Group PLC & another (Petition E468 of 2022) [2026] KEHC 14530 (KLR) (Constitutional and Human Rights) (1 October 2026) (Judgment)",
+   "url": "https://new.kenyalaw.org/akn/ke/judgment/kehc/2026/14530/eng@2026-10-01",
+   "summary": "AAM & 3 others v Standard Group PLC & another (Petition E468 of 2022) [2026] KEHC 14530 (KLR) (Constitutional and Human Rights) (1 October 2026) (Judgment)",
+   "kind": "item",
+   "source": "Kenya Gazette (Kenya Law)",
+   "source_id": "ke-gazette",
+   "tier": 1,
+   "country": "KE",
+   "category": "gazette",
+   "segments": [
+    "city",
+    "bush",
+    "beach"
+   ],
+   "first_seen": "2026-10-03T02:36+03:00",
+   "published": "2026-10-01",
+   "verdict": "STRONG \u2014 tier-1, upstream"
+  },
+  {
+   "score": 101.8,
+   "components": {
+    "tier": 40,
+    "category": 20,
+    "lead": 12.0,
+    "relevance": 0,
+    "freshness": 19.8,
+    "corroborated": 10
+   },
+   "keywords": [],
+   "shock_terms": [],
+   "dedupe_match": null,
+   "dedupe_similarity": 0.2,
+   "id": "b3bfe1ca7b88",
+   "title": "Mangla & another v Attorney General & 14 others (Petition E365 of 2026) [2026] KEHC 14529 (KLR) (Constitutional and Human Rights) (1 October 2026) (Ruling)",
+   "url": "https://new.kenyalaw.org/akn/ke/judgment/kehc/2026/14529/eng@2026-10-01",
+   "summary": "Mangla & another v Attorney General & 14 others (Petition E365 of 2026) [2026] KEHC 14529 (KLR) (Constitutional and Human Rights) (1 October 2026) (Ruling)",
+   "kind": "item",
+   "source": "Kenya Gazette (Kenya Law)",
+   "source_id": "ke-gazette",
+   "tier": 1,
+   "country": "KE",
+   "category": "gazette",
+   "segments": [
+    "city",
+    "bush",
+    "beach"
+   ],
+   "first_seen": "2026-10-03T02:36+03:00",
+   "published": "2026-10-01",
+   "verdict": "STRONG \u2014 tier-1, upstream"
+  },
+  {
+   "score": 101.8,
+   "components": {
+    "tier": 40,
+    "category": 20,
+    "lead": 12.0,
+    "relevance": 0,
+    "freshness": 19.8,
+    "corroborated": 10
+   },
+   "keywords": [],
+   "shock_terms": [],
+   "dedupe_match": null,
+   "dedupe_similarity": 0.2,
+   "id": "5ab76e491b7d",
+   "title": "Omondi v Kenya Power & Lighting Company Ltd & 6 others (Petition E324 of 2024) [2026] KEHC 14528 (KLR) (Constitutional and Human Rights) (1 October 2026) (Judgment)",
+   "url": "https://new.kenyalaw.org/akn/ke/judgment/kehc/2026/14528/eng@2026-10-01",
+   "summary": "Omondi v Kenya Power & Lighting Company Ltd & 6 others (Petition E324 of 2024) [2026] KEHC 14528 (KLR) (Constitutional and Human Rights) (1 October 2026) (Judgment)",
+   "kind": "item",
+   "source": "Kenya Gazette (Kenya Law)",
+   "source_id": "ke-gazette",
+   "tier": 1,
+   "country": "KE",
+   "category": "gazette",
+   "segments": [
+    "city",
+    "bush",
+    "beach"
+   ],
+   "first_seen": "2026-10-03T02:36+03:00",
+   "published": "2026-10-01",
+   "verdict": "STRONG \u2014 tier-1, upstream"
+  },
+  {
+   "score": 96.2,
+   "components": {
+    "tier": 40,
+    "category": 24,
+    "lead": 2.4,
+    "relevance": 0,
+    "freshness": 19.8,
+    "corroborated": 10
+   },
+   "keywords": [],
+   "shock_terms": [],
+   "dedupe_match": null,
+   "dedupe_similarity": 0.0,
+   "id": "35b957561bf5",
+   "title": "SitRep N\u00b0140/MVE-BDBV/01/10/2026",
+   "url": "https://insp.cd/sitrep-n140-mve-bdbv-01-10-2026",
+   "summary": "",
+   "kind": "item",
+   "source": "INSP RDC \u2014 Ebola daily situation reports (SitRep)",
+   "source_id": "cd-insp-sitrep",
+   "tier": 1,
+   "country": "GLOBAL",
+   "category": "health",
+   "segments": [
+    "City",
+    "Bush"
+   ],
+   "first_seen": "2026-10-03T02:36+03:00",
+   "published": "2026-10-03",
+   "verdict": "STRONG \u2014 tier-1, upstream"
+  },
+  {
+   "score": 96.2,
+   "components": {
+    "tier": 40,
+    "category": 24,
+    "lead": 2.4,
+    "relevance": 0,
+    "freshness": 19.8,
+    "corroborated": 10
+   },
+   "keywords": [],
+   "shock_terms": [],
+   "dedupe_match": null,
+   "dedupe_similarity": 0.17,
+   "id": "f89a9ff6803d",
+   "title": "SitRep N\u00b0139/MVE-BDBV/30/09/2026",
+   "url": "https://insp.cd/sitrep-n139-mve-bdbv-30-09-2026",
+   "summary": "",
+   "kind": "item",
+   "source": "INSP RDC \u2014 Ebola daily situation reports (SitRep)",
+   "source_id": "cd-insp-sitrep",
+   "tier": 1,
+   "country": "GLOBAL",
+   "category": "health",
+   "segments": [
+    "City",
+    "Bush"
+   ],
+   "first_seen": "2026-10-03T02:36+03:00",
+   "published": "2026-10-03",
+   "verdict": "STRONG \u2014 tier-1, upstream"
+  },
+  {
+   "score": 91.8,
+   "components": {
+    "tier": 40,
+    "category": 20,
+    "lead": 12.0,
+    "relevance": 0,
+    "freshness": 19.8
+   },
+   "keywords": [],
+   "shock_terms": [],
+   "dedupe_match": null,
+   "dedupe_similarity": 0.18,
+   "id": "27cd8558e0ec",
+   "title": "Njonjo & Okello t/a Njonjo Okello & Associates v Thande & 2 others (Miscellaneous Civil Suit E275 of 2025) [2026] KEELC 5997 (KLR) (30 September 2026) (Judgment)",
+   "url": "https://new.kenyalaw.org/akn/ke/judgment/keelc/2026/5997/eng@2026-09-30",
+   "summary": "Njonjo & Okello t/a Njonjo Okello & Associates v Thande & 2 others (Miscellaneous Civil Suit E275 of 2025) [2026] KEELC 5997 (KLR) (30 September 2026) (Judgment)",
+   "kind": "item",
+   "source": "Kenya Gazette (Kenya Law)",
+   "source_id": "ke-gazette",
+   "tier": 1,
+   "country": "KE",
+   "category": "gazette",
+   "segments": [
+    "city",
+    "bush",
+    "beach"
+   ],
+   "first_seen": "2026-10-03T02:36+03:00",
+   "published": "2026-09-30",
+   "verdict": "STRONG \u2014 tier-1, upstream"
+  },
+  {
+   "score": 91.8,
+   "components": {
+    "tier": 40,
+    "category": 20,
+    "lead": 12.0,
+    "relevance": 0,
+    "freshness": 19.8
+   },
+   "keywords": [],
+   "shock_terms": [],
+   "dedupe_match": null,
+   "dedupe_similarity": 0.18,
+   "id": "75e295439674",
+   "title": "Mutungi v Mutungi & 5 others (Civil Application E130 of 2026) [2026] KECA 2004 (KLR) (30 September 2026) (Ruling)",
+   "url": "https://new.kenyalaw.org/akn/ke/judgment/keca/2026/2004/eng@2026-09-30",
+   "summary": "Mutungi v Mutungi & 5 others (Civil Application E130 of 2026) [2026] KECA 2004 (KLR) (30 September 2026) (Ruling)",
+   "kind": "item",
+   "source": "Kenya Gazette (Kenya Law)",
+   "source_id": "ke-gazette",
+   "tier": 1,
+   "country": "KE",
+   "category": "gazette",
+   "segments": [
+    "city",
+    "bush",
+    "beach"
+   ],
+   "first_seen": "2026-10-03T02:36+03:00",
+   "published": "2026-09-30",
+   "verdict": "STRONG \u2014 tier-1, upstream"
+  },
+  {
+   "score": 91.8,
+   "components": {
+    "tier": 40,
+    "category": 20,
+    "lead": 12.0,
+    "relevance": 0,
+    "freshness": 19.8
+   },
+   "keywords": [],
+   "shock_terms": [],
+   "dedupe_match": null,
+   "dedupe_similarity": 0.18,
+   "id": "e559aef8c838",
+   "title": "Langat v Rotich & 4 others (Civil Application E134 of 2026) [2026] KECA 1992 (KLR) (30 September 2026) (Ruling)",
+   "url": "https://new.kenyalaw.org/akn/ke/judgment/keca/2026/1992/eng@2026-09-30",
+   "summary": "Langat v Rotich & 4 others (Civil Application E134 of 2026) [2026] KECA 1992 (KLR) (30 September 2026) (Ruling)",
+   "kind": "item",
+   "source": "Kenya Gazette (Kenya Law)",
+   "source_id": "ke-gazette",
+   "tier": 1,
+   "country": "KE",
+   "category": "gazette",
+   "segments": [
+    "city",
+    "bush",
+    "beach"
+   ],
+   "first_seen": "2026-10-03T02:36+03:00",
+   "published": "2026-09-30",
+   "verdict": "STRONG \u2014 tier-1, upstream"
+  },
+  {
+   "score": 91.8,
+   "components": {
+    "tier": 40,
+    "category": 20,
+    "lead": 12.0,
+    "relevance": 0,
+    "freshness": 19.8
+   },
+   "keywords": [],
+   "shock_terms": [],
+   "dedupe_match": null,
+   "dedupe_similarity": 0.18,
+   "id": "1e1c1dbcbae1",
+   "title": "Nalianya v Republic (Criminal Application E050 of 2026) [2026] KECA 1989 (KLR) (30 September 2026) (Ruling)",
+   "url": "https://new.kenyalaw.org/akn/ke/judgment/keca/2026/1989/eng@2026-09-30",
+   "summary": "Nalianya v Republic (Criminal Application E050 of 2026) [2026] KECA 1989 (KLR) (30 September 2026) (Ruling)",
+   "kind": "item",
+   "source": "Kenya Gazette (Kenya Law)",
+   "source_id": "ke-gazette",
+   "tier": 1,
+   "country": "KE",
+   "category": "gazette",
+   "segments": [
+    "city",
+    "bush",
+    "beach"
+   ],
+   "first_seen": "2026-10-03T02:36+03:00",
+   "published": "2026-09-30",
+   "verdict": "STRONG \u2014 tier-1, upstream"
+  },
+  {
+   "score": 91.8,
+   "components": {
+    "tier": 40,
+    "category": 20,
+    "lead": 12.0,
+    "relevance": 0,
+    "freshness": 19.8
+   },
+   "keywords": [],
+   "shock_terms": [],
+   "dedupe_match": null,
+   "dedupe_similarity": 0.18,
+   "id": "19bce9752b27",
+   "title": "Republic v Machakos County Assembly Service Board & 2 others; Mutisya & 16 others (Ex parte Applicants) (Judicial Review Application E003 of 2026) [2026] KEELRC 2668 (KLR) (30 September 2026) (Ruling)",
+   "url": "https://new.kenyalaw.org/akn/ke/judgment/keelrc/2026/2668/eng@2026-09-30",
+   "summary": "Republic v Machakos County Assembly Service Board & 2 others; Mutisya & 16 others (Ex parte Applicants) (Judicial Review Application E003 of 2026) [2026] KEELRC 2668 (KLR) (30 September 2026) (Ruling)",
+   "kind": "item",
+   "source": "Kenya Gazette (Kenya Law)",
+   "source_id": "ke-gazette",
+   "tier": 1,
+   "country": "KE",
+   "category": "gazette",
+   "segments": [
+    "city",
+    "bush",
+    "beach"
+   ],
+   "first_seen": "2026-10-03T02:36+03:00",
+   "published": "2026-09-30",
+   "verdict": "STRONG \u2014 tier-1, upstream"
+  },
+  {
+   "score": 91.0,
    "components": {
     "tier": 40,
     "category": 9,
     "lead": 16.8,
     "relevance": 4,
-    "freshness": 15.2,
+    "freshness": 11.2,
     "corroborated": 10
    },
    "keywords": [
@@ -411,50 +1188,86 @@
    "verdict": "STRONG \u2014 tier-1, upstream"
   },
   {
-   "score": 91.8,
+   "score": 88.2,
    "components": {
-    "tier": 40,
-    "category": 9,
-    "lead": 16.8,
+    "tier": 20,
+    "category": 14,
+    "lead": 8.4,
     "relevance": 16,
-    "freshness": 0.0,
+    "freshness": 19.8,
     "corroborated": 10
    },
    "keywords": [
-    "vat",
-    "resort",
-    "guest"
+    "route",
+    "airline",
+    "flight"
    ],
    "shock_terms": [],
    "dedupe_match": null,
-   "dedupe_similarity": 0.12,
-   "id": "058cb0c7f926",
-   "title": "Conrad Koh Samui Unveils \u2018The Pearl\u2019: An Elevated Sanctuary for Wellness, Privacy and Personalized Luxury",
-   "url": "https://stories.hilton.com/releases/conrad-koh-samui-unveils-the-pearl-an-elevated-sanctuary",
-   "summary": "KOH SAMUI, Thailand \u2013 Conrad Koh Samui today unveiled The Pearl, the resort\u2019s most exclusive accommodation: a 766-square-metre, two-level Presidential Villa designed for guests seeking privacy, wellbeing and deeply personalized service. Set at the resort\u2019s highest point, The Pearl brings together expansive indoor and outdoor living, dedicated wellness facilities and bespoke dining experiences, all",
+   "dedupe_similarity": 0.25,
+   "id": "7e410c19cf42",
+   "title": "Turkish Airlines NS27 Taipei / Tokyo Narita Service Changes",
+   "url": "https://www.aeroroutes.com/eng/261002-tkns27tpenrt",
+   "summary": "Published at 1530PDT / 2230GMT 02OCT26 Turkish Airlines this week filed service changes on Istanbul \u2013 Taipei Taoyuan route for Northern summer 2027 season. From 28MAR27, the Star Alliance member will operate 10 weekly flights, instead of 11 weekly. TK024 IST0130 \u2013 1755TPE 789 135 TK024 IST0130 \u2013 1755TPE 77W x135 TK124 IST1550 \u2013 0755+1TPE 789 236 TK125 TPE0925 \u2013 1655IST 789 347 TK025 TPE2115 \u2013 0435",
    "kind": "item",
-   "source": "Hilton stories/newsroom",
-   "source_id": "dev-hilton",
-   "tier": 1,
+   "source": "AeroRoutes schedule filings",
+   "source_id": "aeroroutes",
+   "tier": 2,
    "country": "GLOBAL",
-   "category": "hotel-group",
+   "category": "aviation-tracker",
    "segments": [
     "city",
     "bush",
     "beach"
    ],
-   "first_seen": "2026-10-02T02:44+03:00",
-   "published": "2026-10-01",
-   "verdict": "STRONG \u2014 tier-1, upstream"
+   "first_seen": "2026-10-03T02:36+03:00",
+   "published": "2026-10-03",
+   "verdict": "CONSIDER"
   },
   {
-   "score": 91.3,
+   "score": 88.2,
+   "components": {
+    "tier": 20,
+    "category": 14,
+    "lead": 8.4,
+    "relevance": 16,
+    "freshness": 19.8,
+    "corroborated": 10
+   },
+   "keywords": [
+    "vat",
+    "route"
+   ],
+   "shock_terms": [],
+   "dedupe_match": null,
+   "dedupe_similarity": 0.12,
+   "id": "1ae19107ee14",
+   "title": "Air Astana Plans Tokyo Launch in NW26",
+   "url": "https://www.aeroroutes.com/eng/261002-kcnw26nrt",
+   "summary": "Published at 1430PDT / 2130GMT 02OCT26 Air Astana during Northern winter 2026/27 season plans to launch service to Japan, as the carrier this week opened reservations for Almaty \u2013 Tokyo Narita route. From 30NOV26, A321LR to serve this route twice weekly. KC171 ALA2155 \u2013 0925+1NRT 32Q 14 KC172 NRT1055 \u2013 1620ALA 32Q 25",
+   "kind": "item",
+   "source": "AeroRoutes schedule filings",
+   "source_id": "aeroroutes",
+   "tier": 2,
+   "country": "GLOBAL",
+   "category": "aviation-tracker",
+   "segments": [
+    "city",
+    "bush",
+    "beach"
+   ],
+   "first_seen": "2026-10-03T02:36+03:00",
+   "published": "2026-10-03",
+   "verdict": "CONSIDER"
+  },
+  {
+   "score": 87.4,
    "components": {
     "tier": 20,
     "category": 9,
     "lead": 3.6,
     "relevance": 12,
-    "freshness": 18.7,
+    "freshness": 14.8,
     "corroborated": 10,
     "shock": 18
    },
@@ -485,13 +1298,48 @@
    "verdict": "CONSIDER"
   },
   {
-   "score": 88.8,
+   "score": 85.8,
+   "components": {
+    "tier": 40,
+    "category": 20,
+    "lead": 12.0,
+    "relevance": 4,
+    "freshness": 19.8,
+    "stale_trap": -10
+   },
+   "keywords": [
+    "investment"
+   ],
+   "shock_terms": [],
+   "dedupe_match": null,
+   "dedupe_similarity": 0.17,
+   "id": "3db82e17539c",
+   "title": "Macharia v CIM Investment Ltd & another (Civil Appeal 222 of 2020) [2026] KEHC 14535 (KLR) (29 September 2026) (Judgment)",
+   "url": "https://new.kenyalaw.org/akn/ke/judgment/kehc/2026/14535/eng@2026-09-29",
+   "summary": "Macharia v CIM Investment Ltd & another (Civil Appeal 222 of 2020) [2026] KEHC 14535 (KLR) (29 September 2026) (Judgment)",
+   "kind": "item",
+   "source": "Kenya Gazette (Kenya Law)",
+   "source_id": "ke-gazette",
+   "tier": 1,
+   "country": "KE",
+   "category": "gazette",
+   "segments": [
+    "city",
+    "bush",
+    "beach"
+   ],
+   "first_seen": "2026-10-03T02:36+03:00",
+   "published": "2026-09-29",
+   "verdict": "CHECK \u2014 source date older than the window"
+  },
+  {
+   "score": 84.8,
    "components": {
     "tier": 40,
     "category": 12,
     "lead": 3.6,
     "relevance": 8,
-    "freshness": 15.2,
+    "freshness": 11.2,
     "corroborated": 10
    },
    "keywords": [
@@ -517,851 +1365,6 @@
    ],
    "first_seen": "2026-10-02T18:51+03:00",
    "published": "2026-10-02",
-   "verdict": "CONSIDER"
-  },
-  {
-   "score": 88.4,
-   "components": {
-    "tier": 40,
-    "category": 18,
-    "lead": 8.4,
-    "relevance": 12,
-    "freshness": 0.0,
-    "corroborated": 10
-   },
-   "keywords": [
-    "wildlife",
-    "camp"
-   ],
-   "shock_terms": [],
-   "dedupe_match": null,
-   "dedupe_similarity": 0.09,
-   "id": "5bd810522207",
-   "title": "A Vulture in Need: KWS Team Responds in Kimana Sanctuary",
-   "url": "https://kws.go.ke/a-vulture-in-need-kws-team-responds-in-kimana-sanctuary",
-   "summary": "Some wildlife patients arrive sporting harrowing injuries. Others arrive quietly, with nothing more than a change in behaviour; a droopy wing, that someone close to the ground noticed in time. That is how the Amboseli Mobile Veterinary Unit came to attend to a juvenile African white-backed vulture in Kimana Sanctuary, at Big Life Camp. The [...]",
-   "kind": "item",
-   "source": "Kenya Wildlife Service",
-   "source_id": "ke-kws",
-   "tier": 1,
-   "country": "KE",
-   "category": "parks",
-   "segments": [
-    "bush"
-   ],
-   "first_seen": "2026-10-01T19:29+03:00",
-   "published": "2026-10-01",
-   "verdict": "CONSIDER"
-  },
-  {
-   "score": 87.8,
-   "components": {
-    "tier": 40,
-    "category": 9,
-    "lead": 16.8,
-    "relevance": 12,
-    "freshness": 0.0,
-    "corroborated": 10
-   },
-   "keywords": [
-    "hotel",
-    "resort",
-    "opening"
-   ],
-   "shock_terms": [],
-   "dedupe_match": null,
-   "dedupe_similarity": 0.0,
-   "id": "02132b6d4b7c",
-   "title": "Hale H\u014dk\u016bala Kaua\u02bbi Debuts as Curio Collection by Hilton\u2019s First Hawai\u02bbi Resort",
-   "url": "https://stories.hilton.com/releases/hale-hokuala-kauai-debuts-as-curio-collection-by-hiltons-first-hawaii-resort",
-   "summary": "MCLEAN, Va. and KAUA\u02bbI, Hawai\u02bbi \u2013 Today, Hilton (NYSE: HLT) announced the opening of Hale H\u014dk\u016bala Kaua\u02bbi, Curio Collection by Hilton, a 210-room lifestyle resort. Marking Curio Collection by Hilton\u2019s debut in Hawai\u02bbi, the property brings the brand\u2019s focus on individually remarkable hotels and memorable stays to one of the world\u2019s most sought-after island destinations. [\u2026] The post Hale H\u014dk\u016bala Kau",
-   "kind": "item",
-   "source": "Hilton stories/newsroom",
-   "source_id": "dev-hilton",
-   "tier": 1,
-   "country": "GLOBAL",
-   "category": "hotel-group",
-   "segments": [
-    "city",
-    "bush",
-    "beach"
-   ],
-   "first_seen": "2026-10-02T02:44+03:00",
-   "published": "2026-10-01",
-   "verdict": "CONSIDER"
-  },
-  {
-   "score": 87.2,
-   "components": {
-    "tier": 20,
-    "category": 14,
-    "lead": 8.4,
-    "relevance": 32,
-    "freshness": 2.8,
-    "corroborated": 10
-   },
-   "keywords": [
-    "suspend",
-    "route",
-    "charter",
-    "flight"
-   ],
-   "shock_terms": [],
-   "dedupe_match": null,
-   "dedupe_similarity": 0.0,
-   "id": "c17ecff94327",
-   "title": "Animawings Suspends Operations 02-24OCT26",
-   "url": "https://www.aeroroutes.com/eng/261001-a2oct26",
-   "summary": "Published at 1701PDT 01OCT26 / 0001GMT 02OCT26 Romanian carrier Animawings on Thursday 01OCT26 announced it will suspend operations for the period of 02OCT26 \u2013 24OCT26, while schedules on/after 25OCT26 is being revised. Based on flight schedule data as of 27SEP26, the carrier scheduled following routes for the period of 02OCT26 \u2013 24OCT26, excluding charter flights: Bucharest \u2013 Cluj-Napaca Buchares",
-   "kind": "item",
-   "source": "AeroRoutes schedule filings",
-   "source_id": "aeroroutes",
-   "tier": 2,
-   "country": "GLOBAL",
-   "category": "aviation-tracker",
-   "segments": [
-    "city",
-    "bush",
-    "beach"
-   ],
-   "first_seen": "2026-10-02T07:34+03:00",
-   "published": "2026-10-02",
-   "verdict": "CONSIDER"
-  },
-  {
-   "score": 85.0,
-   "components": {
-    "tier": 20,
-    "category": 14,
-    "lead": 8.4,
-    "relevance": 24,
-    "freshness": 8.6,
-    "corroborated": 10
-   },
-   "keywords": [
-    "route",
-    "charter",
-    "airline",
-    "flight"
-   ],
-   "shock_terms": [],
-   "dedupe_match": null,
-   "dedupe_similarity": 0.12,
-   "id": "e9b5548a2f51",
-   "title": "Starlux Airlines Feb 2027 Taipei \u2013 Guam Charters",
-   "url": "https://www.aeroroutes.com/eng/261002-jxfeb27gum",
-   "summary": "Published at 0000PDT / 0700GMT 02OCT26 Starlux Airlines in February 2027 once again operates scheduled charter flight on Taipei Taoyuan \u2013 Guam route, on board Airbus A321neo aircraft. The A321neo is scheduled to operate following schedules on 04FEB27, 08FEB27, 12FEB27.P JX8072 TPE1245 \u2013 1840GUM 32Q JX8071 GUM2020 \u2013 2245TPE 32Q",
-   "kind": "item",
-   "source": "AeroRoutes schedule filings",
-   "source_id": "aeroroutes",
-   "tier": 2,
-   "country": "GLOBAL",
-   "category": "aviation-tracker",
-   "segments": [
-    "city",
-    "bush",
-    "beach"
-   ],
-   "first_seen": "2026-10-02T12:51+03:00",
-   "published": "2026-10-02",
-   "verdict": "CONSIDER"
-  },
-  {
-   "score": 83.0,
-   "components": {
-    "tier": 40,
-    "category": 17,
-    "lead": 16.8,
-    "relevance": 0,
-    "freshness": 15.2,
-    "undated": -6
-   },
-   "keywords": [],
-   "shock_terms": [],
-   "dedupe_match": null,
-   "dedupe_similarity": 0.33,
-   "id": "777a4e0b8c10",
-   "title": "2 Oct 26 TIRA Cares: CSR Initiative Supports Girls Through Insurance... Tanzania Insurance Regulatory Authority (TIRA), in collaboration with insurance sector stakeholders,... Read More",
-   "url": "https://www.tira.go.tz/news/tira-cares-csr-initiative-supports-girls-through-insurance-education-and-menstrual-health",
-   "summary": "",
-   "kind": "item",
-   "source": "Tanzania Insurance Regulatory Authority (TIRA)",
-   "source_id": "tz-tira",
-   "tier": 1,
-   "country": "TZ",
-   "category": "regulator",
-   "segments": [
-    "beach",
-    "bush",
-    "city"
-   ],
-   "first_seen": "2026-10-02T18:50+03:00",
-   "published": null,
-   "verdict": "CONSIDER"
-  },
-  {
-   "score": 82.0,
-   "components": {
-    "tier": 40,
-    "category": 20,
-    "lead": 12.0,
-    "relevance": 0,
-    "freshness": 0.0,
-    "corroborated": 10
-   },
-   "keywords": [],
-   "shock_terms": [],
-   "dedupe_match": null,
-   "dedupe_similarity": 0.2,
-   "id": "8741154915fb",
-   "title": "Sugar Arbitration Tribunal \u2013 Daily Cause List \u2013 08 October 2026 to 08 October 2026",
-   "url": "https://new.kenyalaw.org/akn/ke/doc/cause-list-daily/tribunal/2026-10-08/1/eng@2026-10-08",
-   "summary": "Sugar Arbitration Tribunal \u2013 Daily Cause List \u2013 08 October 2026 to 08 October 2026",
-   "kind": "item",
-   "source": "Kenya Gazette (Kenya Law)",
-   "source_id": "ke-gazette",
-   "tier": 1,
-   "country": "KE",
-   "category": "gazette",
-   "segments": [
-    "city",
-    "bush",
-    "beach"
-   ],
-   "first_seen": "2026-10-01T23:23+03:00",
-   "published": "2026-10-08",
-   "verdict": "CONSIDER"
-  },
-  {
-   "score": 82.0,
-   "components": {
-    "tier": 40,
-    "category": 20,
-    "lead": 12.0,
-    "relevance": 0,
-    "freshness": 0.0,
-    "corroborated": 10
-   },
-   "keywords": [],
-   "shock_terms": [],
-   "dedupe_match": null,
-   "dedupe_similarity": 0.2,
-   "id": "db9ef0821a8f",
-   "title": "Sports Disputes Tribunal \u2013 Weekly Cause List \u2013 05 October 2026 to 09 October 2026",
-   "url": "https://new.kenyalaw.org/akn/ke/doc/cause-list-weekly/kesdt/2026-10-05/1/eng@2026-10-05",
-   "summary": "Sports Disputes Tribunal \u2013 Weekly Cause List \u2013 05 October 2026 to 09 October 2026",
-   "kind": "item",
-   "source": "Kenya Gazette (Kenya Law)",
-   "source_id": "ke-gazette",
-   "tier": 1,
-   "country": "KE",
-   "category": "gazette",
-   "segments": [
-    "city",
-    "bush",
-    "beach"
-   ],
-   "first_seen": "2026-10-01T23:23+03:00",
-   "published": "2026-10-05",
-   "verdict": "CONSIDER"
-  },
-  {
-   "score": 82.0,
-   "components": {
-    "tier": 40,
-    "category": 20,
-    "lead": 12.0,
-    "relevance": 0,
-    "freshness": 0.0,
-    "corroborated": 10
-   },
-   "keywords": [],
-   "shock_terms": [],
-   "dedupe_match": null,
-   "dedupe_similarity": 0.2,
-   "id": "5eb4e9f4235d",
-   "title": "Sugar Arbitration Tribunal \u2013 Daily Cause List \u2013 07 October 2026",
-   "url": "https://new.kenyalaw.org/akn/ke/doc/cause-list-daily/tribunal/2026-10-07/1/eng@2026-10-07",
-   "summary": "Sugar Arbitration Tribunal \u2013 Daily Cause List \u2013 07 October 2026",
-   "kind": "item",
-   "source": "Kenya Gazette (Kenya Law)",
-   "source_id": "ke-gazette",
-   "tier": 1,
-   "country": "KE",
-   "category": "gazette",
-   "segments": [
-    "city",
-    "bush",
-    "beach"
-   ],
-   "first_seen": "2026-10-01T23:23+03:00",
-   "published": "2026-10-07",
-   "verdict": "CONSIDER"
-  },
-  {
-   "score": 82.0,
-   "components": {
-    "tier": 40,
-    "category": 20,
-    "lead": 12.0,
-    "relevance": 0,
-    "freshness": 0.0,
-    "corroborated": 10
-   },
-   "keywords": [],
-   "shock_terms": [],
-   "dedupe_match": null,
-   "dedupe_similarity": 0.4,
-   "id": "015a4c0e4236",
-   "title": "Employment and Labour Relations Court at Nairobi \u2013 Weekly Cause List \u2013 05 October 2026 to 09 October 2026",
-   "url": "https://new.kenyalaw.org/akn/ke/doc/cause-list-weekly/keelrc/2026-10-05/1/eng@2026-10-05",
-   "summary": "Employment and Labour Relations Court at Nairobi \u2013 Weekly Cause List \u2013 05 October 2026 to 09 October 2026",
-   "kind": "item",
-   "source": "Kenya Gazette (Kenya Law)",
-   "source_id": "ke-gazette",
-   "tier": 1,
-   "country": "KE",
-   "category": "gazette",
-   "segments": [
-    "city",
-    "bush",
-    "beach"
-   ],
-   "first_seen": "2026-10-01T23:23+03:00",
-   "published": "2026-10-05",
-   "verdict": "CONSIDER"
-  },
-  {
-   "score": 82.0,
-   "components": {
-    "tier": 40,
-    "category": 20,
-    "lead": 12.0,
-    "relevance": 0,
-    "freshness": 0.0,
-    "corroborated": 10
-   },
-   "keywords": [],
-   "shock_terms": [],
-   "dedupe_match": null,
-   "dedupe_similarity": 0.2,
-   "id": "69b69f286bfc",
-   "title": "Court of Appeal at Nakuru \u2013 Monthly Cause List \u2013 05 October 2026 to 28 October 2026",
-   "url": "https://new.kenyalaw.org/akn/ke/doc/cause-list-monthly/keca/2026-10-05/7/eng@2026-10-05",
-   "summary": "Court of Appeal at Nakuru \u2013 Monthly Cause List \u2013 05 October 2026 to 28 October 2026",
-   "kind": "item",
-   "source": "Kenya Gazette (Kenya Law)",
-   "source_id": "ke-gazette",
-   "tier": 1,
-   "country": "KE",
-   "category": "gazette",
-   "segments": [
-    "city",
-    "bush",
-    "beach"
-   ],
-   "first_seen": "2026-10-01T23:23+03:00",
-   "published": "2026-10-05",
-   "verdict": "CONSIDER"
-  },
-  {
-   "score": 82.0,
-   "components": {
-    "tier": 40,
-    "category": 20,
-    "lead": 12.0,
-    "relevance": 0,
-    "freshness": 0.0,
-    "corroborated": 10
-   },
-   "keywords": [],
-   "shock_terms": [],
-   "dedupe_match": null,
-   "dedupe_similarity": 0.2,
-   "id": "19c10d763eb0",
-   "title": "Sugar Arbitration Tribunal \u2013 Daily Cause List \u2013 05 October 2026",
-   "url": "https://new.kenyalaw.org/akn/ke/doc/cause-list-daily/tribunal/2026-10-05/1/eng@2026-10-05",
-   "summary": "Sugar Arbitration Tribunal \u2013 Daily Cause List \u2013 05 October 2026",
-   "kind": "item",
-   "source": "Kenya Gazette (Kenya Law)",
-   "source_id": "ke-gazette",
-   "tier": 1,
-   "country": "KE",
-   "category": "gazette",
-   "segments": [
-    "city",
-    "bush",
-    "beach"
-   ],
-   "first_seen": "2026-10-01T23:23+03:00",
-   "published": "2026-10-05",
-   "verdict": "CONSIDER"
-  },
-  {
-   "score": 82.0,
-   "components": {
-    "tier": 40,
-    "category": 20,
-    "lead": 12.0,
-    "relevance": 0,
-    "freshness": 0.0,
-    "corroborated": 10
-   },
-   "keywords": [],
-   "shock_terms": [],
-   "dedupe_match": null,
-   "dedupe_similarity": 0.2,
-   "id": "6462378d882f",
-   "title": "Butere Law Courts \u2013 Weekly Cause List \u2013 05 October 2026 to 09 October 2026",
-   "url": "https://new.kenyalaw.org/akn/ke/doc/cause-list-weekly/kemc/2026-10-05/5/eng@2026-10-05",
-   "summary": "Butere Law Courts \u2013 Weekly Cause List \u2013 05 October 2026 to 09 October 2026",
-   "kind": "item",
-   "source": "Kenya Gazette (Kenya Law)",
-   "source_id": "ke-gazette",
-   "tier": 1,
-   "country": "KE",
-   "category": "gazette",
-   "segments": [
-    "city",
-    "bush",
-    "beach"
-   ],
-   "first_seen": "2026-10-01T23:23+03:00",
-   "published": "2026-10-05",
-   "verdict": "CONSIDER"
-  },
-  {
-   "score": 82.0,
-   "components": {
-    "tier": 40,
-    "category": 20,
-    "lead": 12.0,
-    "relevance": 0,
-    "freshness": 0.0,
-    "corroborated": 10
-   },
-   "keywords": [],
-   "shock_terms": [],
-   "dedupe_match": null,
-   "dedupe_similarity": 0.2,
-   "id": "2540ee70c8fa",
-   "title": "Githunguri Law Courts \u2013 Daily Cause List \u2013 01 October 2026",
-   "url": "https://new.kenyalaw.org/akn/ke/doc/cause-list-daily/kemc/2026-10-01/1/eng@2026-10-01",
-   "summary": "Githunguri Law Courts \u2013 Daily Cause List \u2013 01 October 2026",
-   "kind": "item",
-   "source": "Kenya Gazette (Kenya Law)",
-   "source_id": "ke-gazette",
-   "tier": 1,
-   "country": "KE",
-   "category": "gazette",
-   "segments": [
-    "city",
-    "bush",
-    "beach"
-   ],
-   "first_seen": "2026-10-01T23:23+03:00",
-   "published": "2026-10-01",
-   "verdict": "CONSIDER"
-  },
-  {
-   "score": 82.0,
-   "components": {
-    "tier": 40,
-    "category": 20,
-    "lead": 12.0,
-    "relevance": 0,
-    "freshness": 0.0,
-    "corroborated": 10
-   },
-   "keywords": [],
-   "shock_terms": [],
-   "dedupe_match": null,
-   "dedupe_similarity": 0.4,
-   "id": "38f42b7a4df4",
-   "title": "Employment and Labour Relations Court at Nairobi \u2013 Employment and Labour Division \u2013 Weekly Cause List \u2013 05 October 2026 to 09 October 2026",
-   "url": "https://new.kenyalaw.org/akn/ke/doc/cause-list-weekly/keelrc/2026-10-05/2/eng@2026-10-05",
-   "summary": "Employment and Labour Relations Court at Nairobi \u2013 Employment and Labour Division \u2013 Weekly Cause List \u2013 05 October 2026 to 09 October 2026",
-   "kind": "item",
-   "source": "Kenya Gazette (Kenya Law)",
-   "source_id": "ke-gazette",
-   "tier": 1,
-   "country": "KE",
-   "category": "gazette",
-   "segments": [
-    "city",
-    "bush",
-    "beach"
-   ],
-   "first_seen": "2026-10-01T23:23+03:00",
-   "published": "2026-10-05",
-   "verdict": "CONSIDER"
-  },
-  {
-   "score": 82.0,
-   "components": {
-    "tier": 40,
-    "category": 20,
-    "lead": 12.0,
-    "relevance": 0,
-    "freshness": 0.0,
-    "corroborated": 10
-   },
-   "keywords": [],
-   "shock_terms": [],
-   "dedupe_match": null,
-   "dedupe_similarity": 0.2,
-   "id": "c1d58fccb879",
-   "title": "High Court at Kibera \u2013 Criminal Division \u2013 Daily Cause List \u2013 01 October 2026",
-   "url": "https://new.kenyalaw.org/akn/ke/doc/cause-list-daily/kehc/2026-10-01/1/eng@2026-10-01",
-   "summary": "High Court at Kibera \u2013 Criminal Division \u2013 Daily Cause List \u2013 01 October 2026",
-   "kind": "item",
-   "source": "Kenya Gazette (Kenya Law)",
-   "source_id": "ke-gazette",
-   "tier": 1,
-   "country": "KE",
-   "category": "gazette",
-   "segments": [
-    "city",
-    "bush",
-    "beach"
-   ],
-   "first_seen": "2026-10-01T23:23+03:00",
-   "published": "2026-10-01",
-   "verdict": "CONSIDER"
-  },
-  {
-   "score": 82.0,
-   "components": {
-    "tier": 40,
-    "category": 20,
-    "lead": 12.0,
-    "relevance": 0,
-    "freshness": 0.0,
-    "corroborated": 10
-   },
-   "keywords": [],
-   "shock_terms": [],
-   "dedupe_match": null,
-   "dedupe_similarity": 0.2,
-   "id": "91b9a159b464",
-   "title": "Court of Appeal at Eldoret \u2013 Monthly Cause List \u2013 05 October 2026 to 28 October 2026",
-   "url": "https://new.kenyalaw.org/akn/ke/doc/cause-list-monthly/keca/2026-10-05/5/eng@2026-10-05",
-   "summary": "Court of Appeal at Eldoret \u2013 Monthly Cause List \u2013 05 October 2026 to 28 October 2026",
-   "kind": "item",
-   "source": "Kenya Gazette (Kenya Law)",
-   "source_id": "ke-gazette",
-   "tier": 1,
-   "country": "KE",
-   "category": "gazette",
-   "segments": [
-    "city",
-    "bush",
-    "beach"
-   ],
-   "first_seen": "2026-10-01T23:23+03:00",
-   "published": "2026-10-05",
-   "verdict": "CONSIDER"
-  },
-  {
-   "score": 82.0,
-   "components": {
-    "tier": 40,
-    "category": 20,
-    "lead": 12.0,
-    "relevance": 0,
-    "freshness": 0.0,
-    "corroborated": 10
-   },
-   "keywords": [],
-   "shock_terms": [],
-   "dedupe_match": null,
-   "dedupe_similarity": 0.2,
-   "id": "966b5294d58a",
-   "title": "Sugar Arbitration Tribunal \u2013 Daily Cause List \u2013 09 October 2026",
-   "url": "https://new.kenyalaw.org/akn/ke/doc/cause-list-daily/tribunal/2026-10-09/1/eng@2026-10-09",
-   "summary": "Sugar Arbitration Tribunal \u2013 Daily Cause List \u2013 09 October 2026",
-   "kind": "item",
-   "source": "Kenya Gazette (Kenya Law)",
-   "source_id": "ke-gazette",
-   "tier": 1,
-   "country": "KE",
-   "category": "gazette",
-   "segments": [
-    "city",
-    "bush",
-    "beach"
-   ],
-   "first_seen": "2026-10-01T23:23+03:00",
-   "published": "2026-10-09",
-   "verdict": "CONSIDER"
-  },
-  {
-   "score": 82.0,
-   "components": {
-    "tier": 40,
-    "category": 20,
-    "lead": 12.0,
-    "relevance": 0,
-    "freshness": 0.0,
-    "corroborated": 10
-   },
-   "keywords": [],
-   "shock_terms": [],
-   "dedupe_match": null,
-   "dedupe_similarity": 0.2,
-   "id": "fc5917bee458",
-   "title": "Court of Appeal at Kisumu \u2013 Monthly Cause List \u2013 05 October 2026 to 21 October 2026",
-   "url": "https://new.kenyalaw.org/akn/ke/doc/cause-list-monthly/keca/2026-10-05/6/eng@2026-10-05",
-   "summary": "Court of Appeal at Kisumu \u2013 Monthly Cause List \u2013 05 October 2026 to 21 October 2026",
-   "kind": "item",
-   "source": "Kenya Gazette (Kenya Law)",
-   "source_id": "ke-gazette",
-   "tier": 1,
-   "country": "KE",
-   "category": "gazette",
-   "segments": [
-    "city",
-    "bush",
-    "beach"
-   ],
-   "first_seen": "2026-10-01T23:23+03:00",
-   "published": "2026-10-05",
-   "verdict": "CONSIDER"
-  },
-  {
-   "score": 82.0,
-   "components": {
-    "tier": 40,
-    "category": 20,
-    "lead": 12.0,
-    "relevance": 0,
-    "freshness": 0.0,
-    "corroborated": 10
-   },
-   "keywords": [],
-   "shock_terms": [],
-   "dedupe_match": null,
-   "dedupe_similarity": 0.2,
-   "id": "4c6c9932bba7",
-   "title": "Merti Law Courts \u2013 Daily Cause List \u2013 05 October 2026",
-   "url": "https://new.kenyalaw.org/akn/ke/doc/cause-list-daily/kemc/2026-10-05/1/eng@2026-10-05",
-   "summary": "Merti Law Courts \u2013 Daily Cause List \u2013 05 October 2026",
-   "kind": "item",
-   "source": "Kenya Gazette (Kenya Law)",
-   "source_id": "ke-gazette",
-   "tier": 1,
-   "country": "KE",
-   "category": "gazette",
-   "segments": [
-    "city",
-    "bush",
-    "beach"
-   ],
-   "first_seen": "2026-10-01T23:23+03:00",
-   "published": "2026-10-05",
-   "verdict": "CONSIDER"
-  },
-  {
-   "score": 82.0,
-   "components": {
-    "tier": 40,
-    "category": 20,
-    "lead": 12.0,
-    "relevance": 0,
-    "freshness": 0.0,
-    "corroborated": 10
-   },
-   "keywords": [],
-   "shock_terms": [],
-   "dedupe_match": null,
-   "dedupe_similarity": 0.2,
-   "id": "de34e36ed59a",
-   "title": "Sugar Arbitration Tribunal \u2013 General Notice \u2013 05 October 2026 to 09 October 2026",
-   "url": "https://new.kenyalaw.org/akn/ke/doc/general_notice/tribunal/2026-10-05/1/eng@2026-10-05",
-   "summary": "Sugar Arbitration Tribunal \u2013 General Notice \u2013 05 October 2026 to 09 October 2026",
-   "kind": "item",
-   "source": "Kenya Gazette (Kenya Law)",
-   "source_id": "ke-gazette",
-   "tier": 1,
-   "country": "KE",
-   "category": "gazette",
-   "segments": [
-    "city",
-    "bush",
-    "beach"
-   ],
-   "first_seen": "2026-10-01T23:23+03:00",
-   "published": "2026-10-05",
-   "verdict": "CONSIDER"
-  },
-  {
-   "score": 82.0,
-   "components": {
-    "tier": 40,
-    "category": 20,
-    "lead": 12.0,
-    "relevance": 0,
-    "freshness": 0.0,
-    "corroborated": 10
-   },
-   "keywords": [],
-   "shock_terms": [],
-   "dedupe_match": null,
-   "dedupe_similarity": 0.2,
-   "id": "d390d2cfb818",
-   "title": "Court of Appeal at Nyeri \u2013 Monthly Cause List \u2013 12 October 2026 to 28 October 2026",
-   "url": "https://new.kenyalaw.org/akn/ke/doc/cause-list-monthly/keca/2026-10-12/1/eng@2026-10-12",
-   "summary": "Court of Appeal at Nyeri \u2013 Monthly Cause List \u2013 12 October 2026 to 28 October 2026",
-   "kind": "item",
-   "source": "Kenya Gazette (Kenya Law)",
-   "source_id": "ke-gazette",
-   "tier": 1,
-   "country": "KE",
-   "category": "gazette",
-   "segments": [
-    "city",
-    "bush",
-    "beach"
-   ],
-   "first_seen": "2026-10-01T23:23+03:00",
-   "published": "2026-10-12",
-   "verdict": "CONSIDER"
-  },
-  {
-   "score": 82.0,
-   "components": {
-    "tier": 40,
-    "category": 20,
-    "lead": 12.0,
-    "relevance": 0,
-    "freshness": 0.0,
-    "corroborated": 10
-   },
-   "keywords": [],
-   "shock_terms": [],
-   "dedupe_match": null,
-   "dedupe_similarity": 0.2,
-   "id": "b7a3e47ce791",
-   "title": "Kimilili Law Courts \u2013 Weekly Cause List \u2013 05 October 2026 to 09 October 2026",
-   "url": "https://new.kenyalaw.org/akn/ke/doc/cause-list-weekly/kemc/2026-10-05/3/eng@2026-10-05",
-   "summary": "Kimilili Law Courts \u2013 Weekly Cause List \u2013 05 October 2026 to 09 October 2026",
-   "kind": "item",
-   "source": "Kenya Gazette (Kenya Law)",
-   "source_id": "ke-gazette",
-   "tier": 1,
-   "country": "KE",
-   "category": "gazette",
-   "segments": [
-    "city",
-    "bush",
-    "beach"
-   ],
-   "first_seen": "2026-10-01T23:23+03:00",
-   "published": "2026-10-05",
-   "verdict": "CONSIDER"
-  },
-  {
-   "score": 82.0,
-   "components": {
-    "tier": 40,
-    "category": 20,
-    "lead": 12.0,
-    "relevance": 0,
-    "freshness": 0.0,
-    "corroborated": 10
-   },
-   "keywords": [],
-   "shock_terms": [],
-   "dedupe_match": null,
-   "dedupe_similarity": 0.2,
-   "id": "b07776d6662e",
-   "title": "Tongaren Mobile Court \u2013 Weekly Cause List \u2013 05 October 2026 to 09 October 2026",
-   "url": "https://new.kenyalaw.org/akn/ke/doc/cause-list-weekly/kemc/2026-10-05/4/eng@2026-10-05",
-   "summary": "Tongaren Mobile Court \u2013 Weekly Cause List \u2013 05 October 2026 to 09 October 2026",
-   "kind": "item",
-   "source": "Kenya Gazette (Kenya Law)",
-   "source_id": "ke-gazette",
-   "tier": 1,
-   "country": "KE",
-   "category": "gazette",
-   "segments": [
-    "city",
-    "bush",
-    "beach"
-   ],
-   "first_seen": "2026-10-01T23:23+03:00",
-   "published": "2026-10-05",
-   "verdict": "CONSIDER"
-  },
-  {
-   "score": 81.0,
-   "components": {
-    "tier": 40,
-    "category": 7,
-    "lead": 16.8,
-    "relevance": 8,
-    "freshness": 15.2,
-    "undated": -6
-   },
-   "keywords": [
-    "airport"
-   ],
-   "shock_terms": [],
-   "dedupe_match": null,
-   "dedupe_similarity": 0.25,
-   "id": "7592fa6a0ced",
-   "title": "CONSULTANCY SERVICES FOR AIRPORT LAND USE MAS...",
-   "url": "https://egpuganda.go.ug/index/403615668_egp",
-   "summary": "",
-   "kind": "item",
-   "source": "Uganda EGP portal",
-   "source_id": "ug-tenders",
-   "tier": 1,
-   "country": "UG",
-   "category": "tender",
-   "segments": [
-    "city",
-    "bush",
-    "beach"
-   ],
-   "first_seen": "2026-10-02T18:50+03:00",
-   "published": null,
-   "verdict": "CONSIDER"
-  },
-  {
-   "score": 81.0,
-   "components": {
-    "tier": 40,
-    "category": 13,
-    "lead": 6.0,
-    "relevance": 12,
-    "freshness": 0.0,
-    "corroborated": 10
-   },
-   "keywords": [
-    "airport",
-    "flight"
-   ],
-   "shock_terms": [],
-   "dedupe_match": null,
-   "dedupe_similarity": 0.4,
-   "id": "fa17cc45801e",
-   "title": "Jambojet Returns to Uganda: Strengthening Regional Connectivity",
-   "url": "https://caa.go.ug/jambojet-returns-to-uganda-strengthening-regional-connectivity",
-   "summary": "Uganda CAA congratulates JamboJet on the relaunch of its daily direct Nairobi\u2013Entebbe flight. The Minister of Works and Transport, Hon. Fred Byamukama received the flight which was welcomed with a water gun salute at Entebbe International Airport on October 1, 2026. The flight touched down at 1115 hours. Hon. Byamukama underscored the wider [\u2026]",
-   "kind": "item",
-   "source": "Uganda Civil Aviation Authority",
-   "source_id": "ug-ucaa",
-   "tier": 1,
-   "country": "UG",
-   "category": "aviation",
-   "segments": [
-    "city",
-    "bush",
-    "beach"
-   ],
-   "first_seen": "2026-10-01T19:29+03:00",
-   "published": "2026-10-01",
    "verdict": "CONSIDER"
   }
  ]
