@@ -18,7 +18,7 @@ Single column throughout, because most subscribers open this on a phone.
 Fonts are vendored in fonts/ so the runner and the sandbox render identically.
 Deps: fpdf2  (pip install fpdf2 --break-system-packages)
 """
-import sys, os, re, json, datetime, unicodedata
+import sys, os, re, json, datetime, unicodedata, tempfile
 
 ROOT = os.path.dirname(os.path.abspath(__file__))
 FONT_DIR = os.path.join(ROOT, "fonts")
@@ -106,6 +106,54 @@ def frontmatter(path):
         return {}, s
     fm = dict(re.findall(r"^(\w+):\s*(.*)$", m.group(1), re.M))
     return fm, m.group(2).strip()
+
+
+def _unq(v):
+    """Frontmatter values may be JSON-quoted (hero_gate.py writes them that way)."""
+    v = (v or "").strip()
+    if len(v) >= 2 and v[0] == v[-1] and v[0] in "\"'":
+        v = v[1:-1]
+    return v
+
+
+# The site renders every hero at 1200x630. Cropping to that same ratio here
+# means a data card's own figure and headline are never cut off at the edges,
+# and a photograph is framed exactly as readers already saw it on the web.
+HERO_RATIO = 1200 / 630
+_HERO_TMP = None
+
+
+def big_read_hero(fm):
+    """(local image path, credit) for a Big Read, or (None, "") if it has none."""
+    rel = _unq(fm.get("image", ""))
+    if not rel:
+        return None, ""
+    path = os.path.join(ROOT, rel)
+    if not os.path.exists(path):
+        return None, ""
+    return path, clean(_unq(fm.get("image_credit", "")))
+
+
+def _hero_jpeg(path):
+    """Crop to the site's hero ratio and downsample, so ten heroes add about a
+    megabyte to the issue rather than whatever size the originals happen to be."""
+    global _HERO_TMP
+    from PIL import Image
+    if _HERO_TMP is None:
+        _HERO_TMP = tempfile.mkdtemp(prefix="weekly-heroes-")
+    im = Image.open(path).convert("RGB")
+    w, h = im.size
+    if w / h > HERO_RATIO:                       # too wide: trim the sides
+        nw = round(h * HERO_RATIO)
+        im = im.crop(((w - nw) // 2, 0, (w - nw) // 2 + nw, h))
+    else:                                        # too tall: trim top and bottom
+        nh = round(w / HERO_RATIO)
+        im = im.crop((0, (h - nh) // 2, w, (h - nh) // 2 + nh))
+    if im.width > 1600:
+        im = im.resize((1600, round(1600 / HERO_RATIO)), Image.LANCZOS)
+    out = os.path.join(_HERO_TMP, os.path.splitext(os.path.basename(path))[0] + ".jpg")
+    im.save(out, "JPEG", quality=82, optimize=True, progressive=True)
+    return out
 
 
 def big_reads_for_week(end_iso, days=7):
@@ -526,12 +574,156 @@ def render_markdown_body(pdf, body):
 def render_big_read(pdf, fm, body, d, index, total):
     pdf.running = "Big Read"          # set BEFORE add_page: header() runs on add
     pdf.add_page()
+    hero, credit = big_read_hero(fm)
+    if hero:
+        try:
+            src = _hero_jpeg(hero)
+            w = pdf.eff_w()
+            h = w / HERO_RATIO
+            y = pdf.get_y()
+            pdf.image(src, x=ML, y=y, w=w, h=h)
+            pdf.set_y(y + h + 1.4)
+            if credit:
+                pdf.set_font("Sans", "", 6.4)
+                pdf.set_text_color(*MUTED)
+                pdf.set_x(ML)
+                pdf.multi_cell(w, 3.2, credit, align="L",
+                               new_x=XPos.LMARGIN, new_y=YPos.NEXT)
+            pdf.ln(4.5)
+        except Exception as e:            # a bad image must never sink the issue
+            print(f"::warning::hero skipped for {fm.get('slug', '?')}: {e}")
     pdf.kicker(f"Big Read {index} of {total}  ·  {d.strftime('%-d %B %Y')}", GOLD)
     pdf.headline(clean(fm.get("title", "Untitled")), size=16, lh=7.0, gap=2.2)
     if fm.get("description"):
         pdf.standfirst(clean(fm["description"]))
     pdf.rule(0.5, TEAL, 0.5, 4)
     render_markdown_body(pdf, body)
+
+
+# ----------------------------------------------------------- colour cover ---
+# One bold, flat colour per issue, rotating so consecutive Sundays never look
+# alike. Each entry: background, title ink (the huge type), small-text ink,
+# badge accent, and the lighter ribbon tint. Small-text ink is chosen per
+# background for legibility: dark on the light oranges and golds, cream on the
+# deep colours. Issue 11 (4 October 2026) opens the cycle on orange.
+COVER_PALETTES = [
+    # safari orange
+    ((233, 106, 32), (255, 236, 214), (28, 22, 16), (233, 106, 32), (245, 160, 106)),
+    # pulse teal
+    ((10, 79, 72), (247, 222, 166), (232, 238, 232), (232, 170, 70), (62, 128, 118)),
+    # terracotta
+    ((176, 62, 44), (255, 232, 214), (255, 240, 230), (238, 128, 98), (208, 114, 98)),
+    # indian ocean
+    ((22, 82, 140), (230, 240, 250), (232, 240, 250), (120, 182, 238), (84, 132, 186)),
+    # savanna olive
+    ((92, 108, 44), (248, 242, 214), (248, 242, 214), (196, 210, 116), (140, 154, 94)),
+    # acacia gold
+    ((214, 152, 48), (35, 28, 12), (35, 28, 12), (214, 152, 48), (234, 192, 122)),
+]
+BADGE = (22, 24, 22)
+
+
+def cover_palette(issue_no):
+    return COVER_PALETTES[(issue_no - 11) % len(COVER_PALETTES)]
+
+
+def _first_sentence(text, limit=190):
+    t = (text or "").strip()
+    m = re.match(r"(.+?[.!?])(\s|$)", t)
+    if m and len(m.group(1)) >= 40:
+        t = m.group(1)
+    if len(t) > limit:
+        t = t[:limit].rsplit(" ", 1)[0].rstrip(",;:") + "\u2026"
+    return t
+
+
+def colour_cover(pdf, cfg, issue_no, window_h, thesis, n_reads):
+    bg, title_ink, small_ink, accent, tint = cover_palette(issue_no)
+    pdf.chrome = False
+    pdf.add_page()
+    pdf.set_auto_page_break(False)
+
+    # full-bleed field
+    pdf.set_fill_color(*bg)
+    pdf.rect(0, 0, PAGE_W, PAGE_H, "F")
+
+    # bookmark badge, hanging from the top edge
+    bx, bw, bh = 20, 72, 46
+    pdf.set_fill_color(*tint)
+    pdf.polygon([(bx, bh), (bx + bw, bh), (bx + bw, bh + 17),
+                 (bx + bw / 2, bh + 9), (bx, bh + 17)], style="F")
+    pdf.set_fill_color(*BADGE)
+    pdf.rect(bx, 0, bw, bh, "F")
+    pdf.set_xy(bx + 6, 9)
+    pdf.set_font("Serif", "B", 15)
+    pdf.set_text_color(250, 244, 230)
+    pdf.cell(bw - 12, 7, "EA Hospitality", new_x=XPos.LMARGIN, new_y=YPos.NEXT)
+    pdf.set_xy(bx + 6, 17)
+    pdf.set_font("Serif", "B", 40)
+    pdf.set_text_color(*accent)
+    pdf.cell(bw - 12, 18, "Pulse", new_x=XPos.LMARGIN, new_y=YPos.NEXT)
+
+    # issue line, top right
+    rx, rw = 112, PAGE_W - 112 - 18
+    pdf.set_text_color(*title_ink)
+    pdf.set_font("Sans", "", 15)
+    pdf.set_xy(rx, 14)
+    pdf.cell(rw, 7, tracked("WEEKLY"), new_x=XPos.LMARGIN, new_y=YPos.NEXT)
+    pdf.set_xy(rx, 22)
+    pdf.cell(rw, 7, tracked(f"ISSUE {issue_no}"), new_x=XPos.LMARGIN, new_y=YPos.NEXT)
+    pdf.set_draw_color(*title_ink)
+    pdf.set_line_width(0.45)
+    pdf.line(rx, 40, rx + rw, 40)
+
+    # the title
+    pdf.set_text_color(*title_ink)
+    pdf.set_font("Sans", "B", 80)
+    pdf.set_xy(18, 96)
+    pdf.cell(0, 30, "Sunday", new_x=XPos.LMARGIN, new_y=YPos.NEXT)
+    pdf.set_xy(18, 126)
+    pdf.cell(0, 30, "Foresight", new_x=XPos.LMARGIN, new_y=YPos.NEXT)
+    pdf.set_xy(20, 162)
+    pdf.set_font("Serif", "I", 15)
+    pdf.cell(0, 8, window_h, new_x=XPos.LMARGIN, new_y=YPos.NEXT)
+
+    # this week
+    pdf.set_draw_color(*title_ink)
+    pdf.set_line_width(0.35)
+    pdf.line(20, 214, PAGE_W - 20, 214)
+    pdf.set_xy(20, 220)
+    pdf.set_font("Sans", "B", 8)
+    pdf.set_text_color(*small_ink)
+    pdf.cell(0, 4, tracked("THIS WEEK"), new_x=XPos.LMARGIN, new_y=YPos.NEXT)
+    pdf.set_xy(20, 226)
+    pdf.set_font("Serif", "BI", 13)
+    pdf.multi_cell(PAGE_W - 40, 6.2, _first_sentence(thesis), align="L",
+                   new_x=XPos.LMARGIN, new_y=YPos.NEXT, max_line_height=6.2)
+    pdf.set_x(20)
+    pdf.set_font("Sans", "", 9)
+    plus = (f"Plus {n_reads} Big Read{'s' if n_reads != 1 else ''} "
+            "and the forecast ledger") if n_reads else "Plus the forecast ledger"
+    pdf.ln(1.5)
+    pdf.set_x(20)
+    pdf.cell(0, 5, plus, new_x=XPos.LMARGIN, new_y=YPos.NEXT)
+
+    # foot mark
+    cx, cy, r = 30, 274, 9
+    pdf.set_draw_color(*small_ink)
+    pdf.set_line_width(0.6)
+    pdf.circle(cx, cy, r, style="D")
+    pdf.set_font("Serif", "B", 13)
+    pdf.set_text_color(*small_ink)
+    pdf.set_xy(cx - r, cy - 3.6)
+    pdf.cell(2 * r, 7, "EA", align="C")
+    pdf.set_xy(cx + r + 6, cy - 6)
+    pdf.set_font("Sans", "B", 9.5)
+    pdf.cell(0, 5, cfg["base"].replace("https://", "").replace("http://", ""),
+             new_x=XPos.LMARGIN, new_y=YPos.NEXT)
+    pdf.set_xy(cx + r + 6, cy)
+    pdf.set_font("Sans", "", 7.6)
+    pdf.cell(0, 5, cfg["tagline"], new_x=XPos.LMARGIN, new_y=YPos.NEXT)
+
+    pdf.set_auto_page_break(True, margin=MB)
 
 
 # ------------------------------------------------------------------ cover ---
@@ -796,6 +988,7 @@ def main():
     pdf.set_subject("East African hospitality market intelligence")
     pdf.set_creator("make_weekly_newsletter.py")
 
+    colour_cover(pdf, cfg, issue_no, window_h, thesis, len(reads))
     cover(pdf, cfg, date_h, window_h, issue_no, thesis,
           standfirst_txt if standfirst_txt != thesis else "", contents, number)
 
