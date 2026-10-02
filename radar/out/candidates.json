@@ -1,18 +1,18 @@
 {
- "generated": "2026-10-02T19:11:18+03:00",
+ "generated": "2026-10-02T22:03:03+03:00",
  "slot": "evening",
  "window_start": 1790856000,
- "observations_in_window": 1334,
- "deduped_against": 11,
+ "observations_in_window": 1433,
+ "deduped_against": 14,
  "candidates": [
   {
-   "score": 114.0,
+   "score": 110.9,
    "components": {
     "tier": 40,
     "category": 32,
     "lead": 1.2,
     "relevance": 16,
-    "freshness": 12.8,
+    "freshness": 9.7,
     "undated": -6,
     "shock": 18
    },
@@ -26,7 +26,7 @@
     "attack"
    ],
    "dedupe_match": null,
-   "dedupe_similarity": 0.0,
+   "dedupe_similarity": 0.1,
    "id": "271afc18b58a",
    "title": "Qatar - Level 3: Reconsider Travel",
    "url": "https://travel.state.gov/content/tsg_aem/us/en/home/international-travel/travel-advisories/destination.qat.html",
@@ -47,13 +47,46 @@
    "verdict": "LEAD CANDIDATE \u2014 tier-1 shock language"
   },
   {
-   "score": 101.0,
+   "score": 101.4,
    "components": {
     "tier": 40,
     "category": 32,
     "lead": 3.6,
     "relevance": 0,
-    "freshness": 19.4,
+    "freshness": 19.8,
+    "corroborated": 10,
+    "page_change": -4
+   },
+   "keywords": [],
+   "shock_terms": [],
+   "dedupe_match": null,
+   "dedupe_similarity": 0.0,
+   "id": "9e8aa6dead9a",
+   "title": "[page changed] Federal Register \u2014 public inspection (HHS/CDC), pre-publication",
+   "url": "https://www.federalregister.gov/api/v1/public-inspection-documents/current.json",
+   "summary": "{\"count\":107,\"results\":[{\"agencies\":[{\"raw_name\":\"SECURITIES AND EXCHANGE COMMISSION\",\"name\":\"Securities and Exchange Commission\",\"id\":466,\"url\":\"https://www.federalregister.gov/agencies/securities-and-exchange-commission\",\"json_url\":\"https://www.federalregister.gov/api/v1/agencies/466\",\"parent_id\":null,\"slug\":\"securities-and-exchange-commission\"}],\"agency_letters\":[],\"agency_names\":[\"Securities a",
+   "kind": "page-change",
+   "source": "Federal Register \u2014 public inspection (HHS/CDC), pre-publication",
+   "source_id": "us-fedreg-pubinspect-hhs",
+   "tier": 1,
+   "country": "REG",
+   "category": "advisory",
+   "segments": [
+    "city",
+    "bush"
+   ],
+   "first_seen": "2026-10-02T22:02+03:00",
+   "published": "2026-10-05",
+   "verdict": "OPEN THIS \u2014 tier-1 advisory page moved; content not auto-parsed, read it manually"
+  },
+  {
+   "score": 97.9,
+   "components": {
+    "tier": 40,
+    "category": 32,
+    "lead": 3.6,
+    "relevance": 0,
+    "freshness": 16.3,
     "corroborated": 10,
     "page_change": -4
    },
@@ -80,13 +113,13 @@
    "verdict": "OPEN THIS \u2014 tier-1 advisory page moved; content not auto-parsed, read it manually"
   },
   {
-   "score": 84.4,
+   "score": 81.3,
    "components": {
     "tier": 40,
     "category": 32,
     "lead": 3.6,
     "relevance": 0,
-    "freshness": 12.8,
+    "freshness": 9.7,
     "page_change": -4
    },
    "keywords": [],
@@ -112,13 +145,13 @@
    "verdict": "OPEN THIS \u2014 tier-1 advisory page moved; content not auto-parsed, read it manually"
   },
   {
-   "score": 78.6,
+   "score": 75.5,
    "components": {
     "tier": 40,
     "category": 32,
     "lead": 3.6,
     "relevance": 0,
-    "freshness": 7.0,
+    "freshness": 3.9,
     "page_change": -4
    },
    "keywords": [],
@@ -144,13 +177,13 @@
    "verdict": "OPEN THIS \u2014 tier-1 advisory page moved; content not auto-parsed, read it manually"
   },
   {
-   "score": 73.3,
+   "score": 71.6,
    "components": {
     "tier": 40,
     "category": 32,
     "lead": 3.6,
     "relevance": 0,
-    "freshness": 1.7,
+    "freshness": 0.0,
     "page_change": -4
    },
    "keywords": [],
@@ -240,13 +273,13 @@
    "verdict": "OPEN THIS \u2014 tier-1 advisory page moved; content not auto-parsed, read it manually"
   },
   {
-   "score": 65.0,
+   "score": 61.9,
    "components": {
     "tier": 40,
     "category": 12,
     "lead": 3.6,
     "relevance": 0,
-    "freshness": 19.4,
+    "freshness": 16.3,
     "undated": -6,
     "page_change": -4
    },
@@ -274,13 +307,13 @@
    "verdict": "OPEN THIS \u2014 tier-1 airline page moved; content not auto-parsed, read it manually"
   },
   {
-   "score": 47.3,
+   "score": 45.6,
    "components": {
     "tier": 40,
     "category": 12,
     "lead": 3.6,
     "relevance": 0,
-    "freshness": 1.7,
+    "freshness": 0.0,
     "undated": -6,
     "page_change": -4
    },
@@ -308,13 +341,13 @@
    "verdict": "OPEN THIS \u2014 tier-1 airline page moved; content not auto-parsed, read it manually"
   },
   {
-   "score": 105.2,
+   "score": 102.1,
    "components": {
     "tier": 40,
     "category": 18,
     "lead": 8.4,
     "relevance": 16,
-    "freshness": 12.8,
+    "freshness": 9.7,
     "corroborated": 10
    },
    "keywords": [
@@ -343,13 +376,13 @@
    "verdict": "STRONG \u2014 tier-1, upstream"
   },
   {
-   "score": 99.2,
+   "score": 96.1,
    "components": {
     "tier": 40,
     "category": 9,
     "lead": 16.8,
     "relevance": 4,
-    "freshness": 19.4,
+    "freshness": 16.3,
     "corroborated": 10
    },
    "keywords": [
@@ -378,13 +411,50 @@
    "verdict": "STRONG \u2014 tier-1, upstream"
   },
   {
-   "score": 93.5,
+   "score": 92.4,
+   "components": {
+    "tier": 20,
+    "category": 9,
+    "lead": 3.6,
+    "relevance": 12,
+    "freshness": 19.8,
+    "corroborated": 10,
+    "shock": 18
+   },
+   "keywords": [
+    "insolven"
+   ],
+   "shock_terms": [
+    "insolven"
+   ],
+   "dedupe_match": null,
+   "dedupe_similarity": 0.0,
+   "id": "86e13143e6f7",
+   "title": "Insolvenzabsicherung: DRSF ver\u00f6ffentlicht Warnhinweis zu Pluto Reisen",
+   "url": "https://www.fvw.de/touristik/vertrieb/insolvenz-absicherung-drsf-veroeffentlicht-warnhinweis-fuer-pluto-reisen-265029",
+   "summary": "Der Deutsche Reisesicherungsfonds (DRSF) hat auf seiner Website eine Warnung vor Reiseangeboten im Zusammenhang mit Pluto Reisen ver\u00f6ffentlicht.",
+   "kind": "item",
+   "source": "FVW / German travel trade",
+   "source_id": "sm-derreise",
+   "tier": 2,
+   "country": "GLOBAL",
+   "category": "source-market",
+   "segments": [
+    "beach",
+    "bush"
+   ],
+   "first_seen": "2026-10-02T22:02+03:00",
+   "published": "2026-10-02",
+   "verdict": "CONSIDER"
+  },
+  {
+   "score": 91.8,
    "components": {
     "tier": 40,
     "category": 9,
     "lead": 16.8,
     "relevance": 16,
-    "freshness": 1.7,
+    "freshness": 0.0,
     "corroborated": 10
    },
    "keywords": [
@@ -394,7 +464,7 @@
    ],
    "shock_terms": [],
    "dedupe_match": null,
-   "dedupe_similarity": 0.0,
+   "dedupe_similarity": 0.12,
    "id": "058cb0c7f926",
    "title": "Conrad Koh Samui Unveils \u2018The Pearl\u2019: An Elevated Sanctuary for Wellness, Privacy and Personalized Luxury",
    "url": "https://stories.hilton.com/releases/conrad-koh-samui-unveils-the-pearl-an-elevated-sanctuary",
@@ -415,13 +485,13 @@
    "verdict": "STRONG \u2014 tier-1, upstream"
   },
   {
-   "score": 93.0,
+   "score": 89.9,
    "components": {
     "tier": 40,
     "category": 12,
     "lead": 3.6,
     "relevance": 8,
-    "freshness": 19.4,
+    "freshness": 16.3,
     "corroborated": 10
    },
    "keywords": [
@@ -446,119 +516,6 @@
     "beach"
    ],
    "first_seen": "2026-10-02T18:51+03:00",
-   "published": "2026-10-02",
-   "verdict": "STRONG \u2014 tier-1, upstream"
-  },
-  {
-   "score": 91.4,
-   "components": {
-    "tier": 20,
-    "category": 14,
-    "lead": 8.4,
-    "relevance": 32,
-    "freshness": 7.0,
-    "corroborated": 10
-   },
-   "keywords": [
-    "suspend",
-    "route",
-    "charter",
-    "flight"
-   ],
-   "shock_terms": [],
-   "dedupe_match": null,
-   "dedupe_similarity": 0.0,
-   "id": "c17ecff94327",
-   "title": "Animawings Suspends Operations 02-24OCT26",
-   "url": "https://www.aeroroutes.com/eng/261001-a2oct26",
-   "summary": "Published at 1701PDT 01OCT26 / 0001GMT 02OCT26 Romanian carrier Animawings on Thursday 01OCT26 announced it will suspend operations for the period of 02OCT26 \u2013 24OCT26, while schedules on/after 25OCT26 is being revised. Based on flight schedule data as of 27SEP26, the carrier scheduled following routes for the period of 02OCT26 \u2013 24OCT26, excluding charter flights: Bucharest \u2013 Cluj-Napaca Buchares",
-   "kind": "item",
-   "source": "AeroRoutes schedule filings",
-   "source_id": "aeroroutes",
-   "tier": 2,
-   "country": "GLOBAL",
-   "category": "aviation-tracker",
-   "segments": [
-    "city",
-    "bush",
-    "beach"
-   ],
-   "first_seen": "2026-10-02T07:34+03:00",
-   "published": "2026-10-02",
-   "verdict": "CONSIDER"
-  },
-  {
-   "score": 89.5,
-   "components": {
-    "tier": 40,
-    "category": 9,
-    "lead": 16.8,
-    "relevance": 12,
-    "freshness": 1.7,
-    "corroborated": 10
-   },
-   "keywords": [
-    "hotel",
-    "resort",
-    "opening"
-   ],
-   "shock_terms": [],
-   "dedupe_match": null,
-   "dedupe_similarity": 0.0,
-   "id": "02132b6d4b7c",
-   "title": "Hale H\u014dk\u016bala Kaua\u02bbi Debuts as Curio Collection by Hilton\u2019s First Hawai\u02bbi Resort",
-   "url": "https://stories.hilton.com/releases/hale-hokuala-kauai-debuts-as-curio-collection-by-hiltons-first-hawaii-resort",
-   "summary": "MCLEAN, Va. and KAUA\u02bbI, Hawai\u02bbi \u2013 Today, Hilton (NYSE: HLT) announced the opening of Hale H\u014dk\u016bala Kaua\u02bbi, Curio Collection by Hilton, a 210-room lifestyle resort. Marking Curio Collection by Hilton\u2019s debut in Hawai\u02bbi, the property brings the brand\u2019s focus on individually remarkable hotels and memorable stays to one of the world\u2019s most sought-after island destinations. [\u2026] The post Hale H\u014dk\u016bala Kau",
-   "kind": "item",
-   "source": "Hilton stories/newsroom",
-   "source_id": "dev-hilton",
-   "tier": 1,
-   "country": "GLOBAL",
-   "category": "hotel-group",
-   "segments": [
-    "city",
-    "bush",
-    "beach"
-   ],
-   "first_seen": "2026-10-02T02:44+03:00",
-   "published": "2026-10-01",
-   "verdict": "CONSIDER"
-  },
-  {
-   "score": 89.2,
-   "components": {
-    "tier": 20,
-    "category": 14,
-    "lead": 8.4,
-    "relevance": 24,
-    "freshness": 12.8,
-    "corroborated": 10
-   },
-   "keywords": [
-    "route",
-    "charter",
-    "airline",
-    "flight"
-   ],
-   "shock_terms": [],
-   "dedupe_match": null,
-   "dedupe_similarity": 0.0,
-   "id": "e9b5548a2f51",
-   "title": "Starlux Airlines Feb 2027 Taipei \u2013 Guam Charters",
-   "url": "https://www.aeroroutes.com/eng/261002-jxfeb27gum",
-   "summary": "Published at 0000PDT / 0700GMT 02OCT26 Starlux Airlines in February 2027 once again operates scheduled charter flight on Taipei Taoyuan \u2013 Guam route, on board Airbus A321neo aircraft. The A321neo is scheduled to operate following schedules on 04FEB27, 08FEB27, 12FEB27.P JX8072 TPE1245 \u2013 1840GUM 32Q JX8071 GUM2020 \u2013 2245TPE 32Q",
-   "kind": "item",
-   "source": "AeroRoutes schedule filings",
-   "source_id": "aeroroutes",
-   "tier": 2,
-   "country": "GLOBAL",
-   "category": "aviation-tracker",
-   "segments": [
-    "city",
-    "bush",
-    "beach"
-   ],
-   "first_seen": "2026-10-02T12:51+03:00",
    "published": "2026-10-02",
    "verdict": "CONSIDER"
   },
@@ -597,13 +554,126 @@
    "verdict": "CONSIDER"
   },
   {
-   "score": 87.2,
+   "score": 88.3,
+   "components": {
+    "tier": 20,
+    "category": 14,
+    "lead": 8.4,
+    "relevance": 32,
+    "freshness": 3.9,
+    "corroborated": 10
+   },
+   "keywords": [
+    "suspend",
+    "route",
+    "charter",
+    "flight"
+   ],
+   "shock_terms": [],
+   "dedupe_match": null,
+   "dedupe_similarity": 0.0,
+   "id": "c17ecff94327",
+   "title": "Animawings Suspends Operations 02-24OCT26",
+   "url": "https://www.aeroroutes.com/eng/261001-a2oct26",
+   "summary": "Published at 1701PDT 01OCT26 / 0001GMT 02OCT26 Romanian carrier Animawings on Thursday 01OCT26 announced it will suspend operations for the period of 02OCT26 \u2013 24OCT26, while schedules on/after 25OCT26 is being revised. Based on flight schedule data as of 27SEP26, the carrier scheduled following routes for the period of 02OCT26 \u2013 24OCT26, excluding charter flights: Bucharest \u2013 Cluj-Napaca Buchares",
+   "kind": "item",
+   "source": "AeroRoutes schedule filings",
+   "source_id": "aeroroutes",
+   "tier": 2,
+   "country": "GLOBAL",
+   "category": "aviation-tracker",
+   "segments": [
+    "city",
+    "bush",
+    "beach"
+   ],
+   "first_seen": "2026-10-02T07:34+03:00",
+   "published": "2026-10-02",
+   "verdict": "CONSIDER"
+  },
+  {
+   "score": 87.8,
+   "components": {
+    "tier": 40,
+    "category": 9,
+    "lead": 16.8,
+    "relevance": 12,
+    "freshness": 0.0,
+    "corroborated": 10
+   },
+   "keywords": [
+    "hotel",
+    "resort",
+    "opening"
+   ],
+   "shock_terms": [],
+   "dedupe_match": null,
+   "dedupe_similarity": 0.0,
+   "id": "02132b6d4b7c",
+   "title": "Hale H\u014dk\u016bala Kaua\u02bbi Debuts as Curio Collection by Hilton\u2019s First Hawai\u02bbi Resort",
+   "url": "https://stories.hilton.com/releases/hale-hokuala-kauai-debuts-as-curio-collection-by-hiltons-first-hawaii-resort",
+   "summary": "MCLEAN, Va. and KAUA\u02bbI, Hawai\u02bbi \u2013 Today, Hilton (NYSE: HLT) announced the opening of Hale H\u014dk\u016bala Kaua\u02bbi, Curio Collection by Hilton, a 210-room lifestyle resort. Marking Curio Collection by Hilton\u2019s debut in Hawai\u02bbi, the property brings the brand\u2019s focus on individually remarkable hotels and memorable stays to one of the world\u2019s most sought-after island destinations. [\u2026] The post Hale H\u014dk\u016bala Kau",
+   "kind": "item",
+   "source": "Hilton stories/newsroom",
+   "source_id": "dev-hilton",
+   "tier": 1,
+   "country": "GLOBAL",
+   "category": "hotel-group",
+   "segments": [
+    "city",
+    "bush",
+    "beach"
+   ],
+   "first_seen": "2026-10-02T02:44+03:00",
+   "published": "2026-10-01",
+   "verdict": "CONSIDER"
+  },
+  {
+   "score": 86.1,
+   "components": {
+    "tier": 20,
+    "category": 14,
+    "lead": 8.4,
+    "relevance": 24,
+    "freshness": 9.7,
+    "corroborated": 10
+   },
+   "keywords": [
+    "route",
+    "charter",
+    "airline",
+    "flight"
+   ],
+   "shock_terms": [],
+   "dedupe_match": null,
+   "dedupe_similarity": 0.12,
+   "id": "e9b5548a2f51",
+   "title": "Starlux Airlines Feb 2027 Taipei \u2013 Guam Charters",
+   "url": "https://www.aeroroutes.com/eng/261002-jxfeb27gum",
+   "summary": "Published at 0000PDT / 0700GMT 02OCT26 Starlux Airlines in February 2027 once again operates scheduled charter flight on Taipei Taoyuan \u2013 Guam route, on board Airbus A321neo aircraft. The A321neo is scheduled to operate following schedules on 04FEB27, 08FEB27, 12FEB27.P JX8072 TPE1245 \u2013 1840GUM 32Q JX8071 GUM2020 \u2013 2245TPE 32Q",
+   "kind": "item",
+   "source": "AeroRoutes schedule filings",
+   "source_id": "aeroroutes",
+   "tier": 2,
+   "country": "GLOBAL",
+   "category": "aviation-tracker",
+   "segments": [
+    "city",
+    "bush",
+    "beach"
+   ],
+   "first_seen": "2026-10-02T12:51+03:00",
+   "published": "2026-10-02",
+   "verdict": "CONSIDER"
+  },
+  {
+   "score": 84.1,
    "components": {
     "tier": 40,
     "category": 17,
     "lead": 16.8,
     "relevance": 0,
-    "freshness": 19.4,
+    "freshness": 16.3,
     "undated": -6
    },
    "keywords": [],
@@ -630,13 +700,13 @@
    "verdict": "CONSIDER"
   },
   {
-   "score": 85.2,
+   "score": 82.1,
    "components": {
     "tier": 40,
     "category": 7,
     "lead": 16.8,
     "relevance": 8,
-    "freshness": 19.4,
+    "freshness": 16.3,
     "undated": -6
    },
    "keywords": [
@@ -644,7 +714,7 @@
    ],
    "shock_terms": [],
    "dedupe_match": null,
-   "dedupe_similarity": 0.0,
+   "dedupe_similarity": 0.25,
    "id": "7592fa6a0ced",
    "title": "CONSULTANCY SERVICES FOR AIRPORT LAND USE MAS...",
    "url": "https://egpuganda.go.ug/index/403615668_egp",
@@ -662,122 +732,6 @@
    ],
    "first_seen": "2026-10-02T18:50+03:00",
    "published": null,
-   "verdict": "CONSIDER"
-  },
-  {
-   "score": 84.9,
-   "components": {
-    "tier": 20,
-    "category": 5,
-    "lead": 2.4,
-    "relevance": 28,
-    "freshness": 19.5,
-    "corroborated": 10
-   },
-   "keywords": [
-    "wildlife",
-    "tourism",
-    "beach",
-    "conference",
-    "mice",
-    "exhibition"
-   ],
-   "shock_terms": [],
-   "dedupe_match": null,
-   "dedupe_similarity": 0.2,
-   "id": "5f313ed5ea8a",
-   "title": "MICE Emerges as Kenya\u2019s Next Tourism Growth Frontier",
-   "url": "https://katakenya.org/mice-emerges-as-kenyas-next-tourism-growth-frontier",
-   "summary": "Kenya is looking to meetings, incentives, conferences and exhibitions (MICE) as an increasingly important source of tourism growth as the country seeks to expand beyond its traditional reliance on wildlife and beach holidays and work towards a target of 5.5 million international visitors by 2028. Kenya Tourism Board (KTB) Chief Executive June Chepkemei argues that [\u2026]",
-   "kind": "item",
-   "source": "Kenya Association of Travel Agents news",
-   "source_id": "tp-kata",
-   "tier": 2,
-   "country": "KE",
-   "category": "trade",
-   "segments": [
-    "city",
-    "bush",
-    "beach"
-   ],
-   "first_seen": "2026-10-02T18:53+03:00",
-   "published": "2026-10-02",
-   "verdict": "CONSIDER"
-  },
-  {
-   "score": 83.4,
-   "components": {
-    "tier": 20,
-    "category": 14,
-    "lead": 8.4,
-    "relevance": 24,
-    "freshness": 7.0,
-    "corroborated": 10
-   },
-   "keywords": [
-    "route",
-    "charter",
-    "airline",
-    "flight"
-   ],
-   "shock_terms": [],
-   "dedupe_match": null,
-   "dedupe_similarity": 0.0,
-   "id": "54711a5118a1",
-   "title": "Malaysia Airlines Dec 2026 Hokkaido Charters",
-   "url": "https://www.aeroroutes.com/eng/261001-mhdec26cts",
-   "summary": "Published at 1900PDT 01OCT26 / 0200GMT 02OCT26 Malaysia Airlines in December 2026 schedules charter service to Hokkaido, with Kuala Lumpur \u2013 Sapporo New Chitose nonstop flight scheduled every 5 days from 05DEC26 to 30DEC26 (KUL departure). Airbus A330-300 aircraft operates this route. MH8538 KUL2255 \u2013 0740+1CTS 333 MH8539 CTS1030 \u2013 1725KUL 333",
-   "kind": "item",
-   "source": "AeroRoutes schedule filings",
-   "source_id": "aeroroutes",
-   "tier": 2,
-   "country": "GLOBAL",
-   "category": "aviation-tracker",
-   "segments": [
-    "city",
-    "bush",
-    "beach"
-   ],
-   "first_seen": "2026-10-02T07:34+03:00",
-   "published": "2026-10-02",
-   "verdict": "CONSIDER"
-  },
-  {
-   "score": 82.1,
-   "components": {
-    "tier": 20,
-    "category": 5,
-    "lead": 3.6,
-    "relevance": 24,
-    "freshness": 19.5,
-    "corroborated": 10
-   },
-   "keywords": [
-    "visa",
-    "eta",
-    "hotel",
-    "franc"
-   ],
-   "shock_terms": [],
-   "dedupe_match": null,
-   "dedupe_similarity": 0.0,
-   "id": "c8f0e68fa49d",
-   "title": "AHLA Congratulates Keith Sonderling on Confirmation as Secretary of U.S. Department of Labor",
-   "url": "https://www.hospitalitynet.org/news/4134701/ahla-congratulates-keith-sonderling-on-confirmation-as-secretary-of-us-department-of-labor",
-   "summary": "AHLA welcomes Keith Sonderling as U.S. Secretary of Labor, citing shared priorities including H-2B visa reform and joint-employer standards affecting hotel franchisees and small business owners.",
-   "kind": "item",
-   "source": "Hospitality Net \u2014 Africa announcements",
-   "source_id": "dev-hospitalitynet-africa",
-   "tier": 2,
-   "country": "REG",
-   "category": "trade",
-   "segments": [
-    "city",
-    "bush",
-    "beach"
-   ],
-   "first_seen": "2026-10-02T18:52+03:00",
-   "published": "2026-10-02",
    "verdict": "CONSIDER"
   },
   {
@@ -1372,6 +1326,46 @@
    ],
    "first_seen": "2026-10-01T23:23+03:00",
    "published": "2026-10-05",
+   "verdict": "CONSIDER"
+  },
+  {
+   "score": 81.7,
+   "components": {
+    "tier": 20,
+    "category": 5,
+    "lead": 2.4,
+    "relevance": 28,
+    "freshness": 16.3,
+    "corroborated": 10
+   },
+   "keywords": [
+    "wildlife",
+    "tourism",
+    "beach",
+    "conference",
+    "mice",
+    "exhibition"
+   ],
+   "shock_terms": [],
+   "dedupe_match": null,
+   "dedupe_similarity": 0.2,
+   "id": "5f313ed5ea8a",
+   "title": "MICE Emerges as Kenya\u2019s Next Tourism Growth Frontier",
+   "url": "https://katakenya.org/mice-emerges-as-kenyas-next-tourism-growth-frontier",
+   "summary": "Kenya is looking to meetings, incentives, conferences and exhibitions (MICE) as an increasingly important source of tourism growth as the country seeks to expand beyond its traditional reliance on wildlife and beach holidays and work towards a target of 5.5 million international visitors by 2028. Kenya Tourism Board (KTB) Chief Executive June Chepkemei argues that [\u2026]",
+   "kind": "item",
+   "source": "Kenya Association of Travel Agents news",
+   "source_id": "tp-kata",
+   "tier": 2,
+   "country": "KE",
+   "category": "trade",
+   "segments": [
+    "city",
+    "bush",
+    "beach"
+   ],
+   "first_seen": "2026-10-02T18:53+03:00",
+   "published": "2026-10-02",
    "verdict": "CONSIDER"
   }
  ]
