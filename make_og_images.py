@@ -327,7 +327,15 @@ def main(editions=None):
             light_hero(photo_file).save(os.path.join(OG, out))
         hero_for[photo_file] = out
     light_hero(DEFAULT_PHOTO).save(os.path.join(OG, "clean-default.png"))
-    hero_map = {}
+    # Load the existing map rather than starting empty. Until 2 Oct 2026 this was
+    # `hero_map = {}`, so every build reassigned EVERY edition to its generated
+    # card and silently discarded any hand-supplied hero. The 1 October Wrap was
+    # repointed at a supplied photograph at 06:57 and was back on the card by the
+    # 07:28 build, which is why hand fixes never appeared to stick.
+    try:
+        hero_map = json.load(open(os.path.join(OG, "hero_map.json"), encoding="utf-8"))
+    except Exception:
+        hero_map = {}
     if editions:
         for e in editions:
             # De-shout ALL-CAPS headlines (same rule as the edition page's
@@ -359,7 +367,15 @@ def main(editions=None):
                 shutil.copyfile(os.path.join(OG, clean_name), os.path.join(OG, e["id"]+"-clean.png"))
             # Homepage cards AND the article hero use e.id-clean.png (text-free);
             # the text card e.id.png stays as the social-share og:image only.
-            hero_map[e["id"]] = e["id"] + "-clean.png"
+            #
+            # Claim the slot ONLY if nothing has been supplied for this edition.
+            # Any value that is not the generated card name was put there by
+            # hero_gate.py --intake from an editor-supplied image, and must
+            # survive the rebuild. The generated card is still written to disk
+            # either way, so reverting is just a matter of clearing the entry.
+            _generated = e["id"] + "-clean.png"
+            if hero_map.get(e["id"], _generated) == _generated:
+                hero_map[e["id"]] = _generated
     json.dump(hero_map, open(os.path.join(OG, "hero_map.json"), "w", encoding="utf-8"))
     make_favicon()
     print(f"OG images written: {1+(len(editions) if editions else 0)} cards + {len(hero_for)+1} clean heroes + favicon")
