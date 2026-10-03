@@ -1,5 +1,14 @@
 window.GUIDES = [
  {
+  "slug": "kenya-taxing-the-room-not-the-night",
+  "title": "Kampala taxes the night. Nairobi has started taxing the room.",
+  "description": "One deletion in the Finance Act removed the VAT exemption on services used to build tourism, conference and recreational facilities, effective 1 July, in the same quarter the state expects to open a KSh 30 billion convention complex. Across the region the base of the tax is shifting from the night sold to the room owned, and that is the wrong direction for a market whose problem is empty months.",
+  "category": "Big Read",
+  "updated": "2026-10-03",
+  "readMins": 9,
+  "image": "img/editions/kenya-taxing-the-room-not-the-night.jpg"
+ },
+ {
   "slug": "east-africa-transport-accommodation-inflation-gap",
   "title": "Reaching a lodge is getting dearer five times faster than the lodge. Nairobi and Kampala published it on the same day.",
   "description": "Every East African price release prints the cost of moving a guest and the price of housing one in adjacent rows. In Kenya's and Uganda's September returns the first is running at four to six times the second, and that gap is the region's margin.",
