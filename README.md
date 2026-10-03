@@ -43,3 +43,4 @@ Any of the above lets you point a domain (e.g. `eahospitalitypulse.com`) at the 
 
 ## To make publishing 100% hands-off
 Connect a Git repo (GitHub Pages, or Netlify/Cloudflare "connect to Git"). Then the scheduled task's final step becomes: write edition → `build_site.py` → `git commit` → `git push`, and the site is live within a minute of each Telegram post. Ask and this can be wired up once the repo exists.
+
