@@ -1,5 +1,14 @@
 window.EDITIONS = [
  {
+  "id": "pulse-2026-10-03-evening",
+  "date": "2026-10-03",
+  "dateDisplay": "Saturday, 3 October 2026",
+  "edition": "Evening Wrap",
+  "editionKey": "evening",
+  "summary": "🌆 EVENING WRAP · Sat 3 Oct 2026 · Expert Brief",
+  "bodyHtml": "<p><strong>🌆 EVENING WRAP · Sat 3 Oct 2026 · Expert Brief</strong></p>\n<p>A quiet 24 hours for verified news, so tonight&#x27;s lead is the practical question: how to run Tanzania&#x27;s US$44 insurance rule on its first weekend.<br>━━━━━━━━━<br><span class=\"item-head\">1️⃣ TANZANIA&#x27;S US$44 INSURANCE IS NOW LIVE: ONE POLICY PER TRIP, BOUGHT AT THE FIRST POINT OF ENTRY</span></p>\n<p>The rule comes from Government Notice No. 256 of 4 September 2026: US$44 per visitor, valid up to 92 days with multiple entries <strong>(ATTA, 29 Sep)</strong>. For a combined Mainland and Zanzibar itinerary, one policy is required, based on the first point of entry; Zanzibar entry uses a separate portal <strong>(ATTA, 29 Sep)</strong>. The UK FCDO added the rule to its Tanzania advice on 1 Oct <strong>(FCDO, 1 Oct)</strong>. We found no report of airport queues, portal failures or airline check-in refusals since 1 Oct. That is absence of evidence, not proof of a smooth start. <strong>Our inference:</strong> the risk is a guest who bought the wrong policy, not no policy.<br><span class=\"tagline\">🏷 City, Bush, Beach | Tanzania, Zanzibar | Confirmed | impact:margin</span><br><span class=\"sowhat\">🎯 So what: tell guests to buy for their first entry point, keep the QR or certificate on their phone, and state in writing whether your package price includes the US$44.</span></p>\n<p><span class=\"item-head\">2️⃣ STILL TRUE: DRC EBOLA IS ABOVE 4,000 DEATHS, UGANDA STAYS CLEAR, AND THE US ORDER RUNS TO 11 OCTOBER</span></p>\n<p>DRC reports more than 8,000 infections and over 4,000 deaths <strong>(The Citizen, 2 Oct)</strong>. Uganda&#x27;s outbreak ended on 27 Aug <strong>(UK FCDO, 2 Sep)</strong>. The US entry order covering DRC, Uganda and South Sudan runs to 11 Oct unless modified <strong>(CDC order, effective 11 Sep)</strong>. Germany&#x27;s Kenya advice was edited on 3 Oct with no level change <strong>(Auswärtiges Amt, 3 Oct)</strong>.<br><span class=\"tagline\">🏷 City, Bush | Uganda, Rwanda, Kenya | Confirmed | impact:risk</span><br><span class=\"sowhat\">🎯 So what: keep flexible terms for US-bound guests until the order is renewed or lapses.</span></p>\n<p><strong>🏗 DEAL FLOW:</strong> No verified EA deal flow in the window. voco Nairobi Airport Suites (IHG, 25 Sep) and Elewana&#x27;s Ngorongoro Explorer Lodge (4 Sep) already ran on 27 Sep.</p>\n<p><strong>📻 ALSO TONIGHT</strong><br>🇰🇪 Ronald Ngala Utalii College, Kilifi, unveiled a new kitchen with capacity for 3,000 diners on 2 Oct; the college has 300 of an expected 4,000 students <strong>(Ministry of Tourism, 2 Oct)</strong>.<br>💰 CBK, 25 Sep bulletin: usable reserves US$15,042m (6.1 months of import cover); KES129.48 per US$ on 24 Sep <strong>(CBK, 25 Sep)</strong>.</p>\n<p><strong>📅 WEEK AHEAD</strong> EWURA&#x27;s October fuel caps are normally published about 7 Oct <strong>(our inference; September caps took effect 2 Sep)</strong>. NISR&#x27;s September CPI is due about 10 Oct; August was 15.7% urban <strong>(NISR, 10 Sep)</strong>. US entry order expiry 11 Oct. EPRA&#x27;s next review is about 14 Oct.</p>\n<p><strong>🔍 BLIND SPOTS:</strong> Kenya Gazette No. 175 (2 Oct) unread, as the source returned 403; France&#x27;s Kenya advice and WHO&#x27;s outbreak-news page had no usable date; CBK&#x27;s 2 Oct bulletin was not retrievable.</p>\n<p>🔗 This edition on the web: <a href=\"https://eahospitalitypulse.com/editions/pulse-2026-10-03-evening.html\" rel=\"noopener\">eahospitalitypulse.com/editions/pulse-2026-10-03-evenin…</a><br>— EA Hospitality Pulse | Daily intelligence for city, bush &amp; beach properties</p>"
+ },
+ {
   "id": "pulse-2026-10-02-evening",
   "date": "2026-10-02",
   "dateDisplay": "Friday, 2 October 2026",
@@ -1090,6 +1099,47 @@ window.EDITIONS = [
  }
 ];
 window.INSIGHTS = [
+ {
+  "headline": "TANZANIA'S US$44 INSURANCE IS NOW LIVE: ONE POLICY PER TRIP, BOUGHT AT THE FIRST POINT OF ENTRY",
+  "body": "The rule comes from Government Notice No. 256 of 4 September 2026: US$44 per visitor, valid up to 92 days with multiple entries *(ATTA, 29 Sep)*. For a combined Mainland and Zanzibar itinerary, one policy is required, based on the first point of entry; Zanzibar entry uses a separate portal *(ATTA, 29 Sep)*. The UK FCDO added the rule to its Tanzania advice on 1 Oct *(FCDO, 1 Oct)*. We found no report of airport queues, portal failures or airline check-in refusals since 1 Oct. That is absence of evidence, not proof of a smooth start. *Our inference:* the risk is a guest who bought the wrong policy, not no policy.",
+  "sowhat": "",
+  "segments": [
+   "city",
+   "bush",
+   "beach"
+  ],
+  "countries": "Tanzania, Zanzibar",
+  "confidence": "Confirmed",
+  "impact": "-margin",
+  "impactClass": "margin",
+  "intensity": 3,
+  "impactSet": "author",
+  "source": "pulse-2026-10-03-evening",
+  "date": "2026-10-03",
+  "dateDisplay": "Saturday, 3 October 2026",
+  "edition": "Evening Wrap",
+  "editionKey": "evening"
+ },
+ {
+  "headline": "STILL TRUE: DRC EBOLA IS ABOVE 4,000 DEATHS, UGANDA STAYS CLEAR, AND THE US ORDER RUNS TO 11 OCTOBER",
+  "body": "DRC reports more than 8,000 infections and over 4,000 deaths *(The Citizen, 2 Oct)*. Uganda's outbreak ended on 27 Aug *(UK FCDO, 2 Sep)*. The US entry order covering DRC, Uganda and South Sudan runs to 11 Oct unless modified *(CDC order, effective 11 Sep)*. Germany's Kenya advice was edited on 3 Oct with no level change *(Auswärtiges Amt, 3 Oct)*.",
+  "sowhat": "",
+  "segments": [
+   "city",
+   "bush"
+  ],
+  "countries": "Uganda, Rwanda, Kenya",
+  "confidence": "Confirmed",
+  "impact": "risk",
+  "impactClass": "risk",
+  "intensity": 3,
+  "impactSet": "author",
+  "source": "pulse-2026-10-03-evening",
+  "date": "2026-10-03",
+  "dateDisplay": "Saturday, 3 October 2026",
+  "edition": "Evening Wrap",
+  "editionKey": "evening"
+ },
  {
   "headline": "DRC EBOLA PASSES 8,300 CASES AS EUROPE LOGS ITS FOURTH IMPORTED CASE, WITH UGANDA STILL CLEAR",
   "body": "ECDC reports a healthcare worker based in the DRC tested positive on 29 Sep and was evacuated to the Netherlands, the fourth import into Europe; all four were medical or humanitarian workers, and ECDC calls the risk to Europe's public \"very low\" *(ECDC, 1 Oct)*. DRC's Health Ministry counts 8,300 cases and 4,018 deaths; weekly cases averaged about 490 in September against about 850 in mid-July *(STAT, 2 Oct)*. Uganda's outbreak was declared over on 27 Aug *(UK FCDO, 2 Sep)*. *Our inference:* the curve is easing, but the headlines reach your source markets first.",
@@ -5934,4 +5984,4 @@ window.INSIGHTS = [
   "editionKey": "evening"
  }
 ];
-window.BUILT_AT = "2026-10-03 07:33";
+window.BUILT_AT = "2026-10-04 07:22";

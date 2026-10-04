@@ -1,5 +1,14 @@
 window.GUIDES = [
  {
+  "slug": "booking-not-a-commitment-east-africa-lodges",
+  "title": "The confirmed booking has stopped being a decision. East Africa's lodges still bank it as one.",
+  "description": "New research presented in New York finds that 78 per cent of travellers keep shopping after they book, and half have changed a confirmed accommodation after seeing something better. East African safari bookings are made roughly 186 days out and carry no cancellation charge for the first 126 of them. That gap is where the sector's working capital now sits.",
+  "category": "Big Read",
+  "updated": "2026-10-04",
+  "readMins": 8,
+  "image": "img/editions/booking-not-a-commitment-east-africa-lodges.jpg"
+ },
+ {
   "slug": "kenya-taxing-the-room-not-the-night",
   "title": "Kampala taxes the night. Nairobi has started taxing the room.",
   "description": "One deletion in the Finance Act removed the VAT exemption on services used to build tourism, conference and recreational facilities, effective 1 July, in the same quarter the state expects to open a KSh 30 billion convention complex. Across the region the base of the tax is shifting from the night sold to the room owned, and that is the wrong direction for a market whose problem is empty months.",
