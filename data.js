@@ -1,5 +1,14 @@
 window.EDITIONS = [
  {
+  "id": "foresight-2026-10-04",
+  "date": "2026-10-04",
+  "dateDisplay": "Sunday, 4 October 2026",
+  "edition": "Sunday Foresight",
+  "editionKey": "foresight",
+  "summary": "A 2027 rate letter is an option contract, and East African lodges are writing it for free. September raised the price of that option.",
+  "bodyHtml": "<p><span class=\"meta-line\">🏨 EA HOSPITALITY PULSE — Sunday Foresight</span><br><span class=\"meta-line\">📅 Sunday, 4 October 2026 | 🇰🇪 🇺🇬 🇹🇿 🇷🇼</span></p>\n<p><strong>A 2027 rate letter is an option contract, and East African lodges are writing it for free. September raised the price of that option.</strong></p>\n<p>Read the week as one position. A lodge signs a dollar rate card 12 to 18 months ahead, lets the guest cancel free for most of the booking window, and carries floating costs. Governments add charges that ignore occupancy. On 30 September Uganda reported diesel inflation of 42.5% and Kenya reported transport inflation of 15.6% <strong>(UBOS, KNBS)</strong>. On 22 September Skift and McKinsey found 78% of travellers keep shopping after booking.</p>\n<p><strong>What everyone is missing:</strong> each problem has its own trade-press fix. But an option is worth more when prices swing and the buyer keeps shopping, and both rose together. A flat 5% rate rise does not reprice that. It raises the price of a contract the guest can still leave, while the owner keeps the fixed costs of an empty room. <strong>(Our inference.)</strong><br>━━━━━━━━━<br>THE WEEK&#x27;S SIGNALS</p>\n<p><span class=\"item-head\">1️⃣ THE COST LEG REPRICED: UGANDA DIESEL +42.5%, KENYA TRANSPORT +15.6%</span><br>Uganda&#x27;s diesel inflation was 42.5% in September against headline 4.6% <strong>(UBOS, 30 Sep)</strong>. Kenya&#x27;s headline rose to 6.8%, and core to 4.0% from 3.4% <strong>(KNBS, 30 Sep)</strong>. Tanzania&#x27;s shilling fell 6.7% year on year in August <strong>(Bank of Tanzania, 30 Sep)</strong>.<br><span class=\"sowhat\">🎯 So what: add a fuel or currency review clause to any 2028 rate card.</span><br><span class=\"tagline\">🏷 Bush, City, Beach | 🇺🇬 🇰🇪 🇹🇿 | Confirmed (figures) / Inference (read) | impact:margin</span></p>\n<p><span class=\"item-head\">2️⃣ THE REVENUE LEG DID NOT MOVE: TANZANIA TRAVEL RECEIPTS +1.7%</span><br>Receipts for the year to August were US$4.39bn against US$4.31bn <strong>(Bank of Tanzania, 30 Sep)</strong>. Zanzibar&#x27;s August arrivals were 124,481, up 18% <strong>(Zanzibar statistician, 10 Sep)</strong>. Different places and periods; they do not reconcile.<br><span class=\"sowhat\">🎯 So what: in Zanzibar, charge a premium for flexibility, not discount for fill.</span><br><span class=\"tagline\">🏷 Beach, Bush | 🇹🇿 | Confirmed (BoT) / Reported (arrivals) | impact:margin</span></p>\n<p><span class=\"item-head\">3️⃣ THE EXIT OPTION IS FREE FOR 126 DAYS</span><br>Safari bookings run 186 to 190 days ahead <strong>(Rhino Africa, 31 Aug)</strong>; one Kenyan operator&#x27;s ladder charges nothing beyond 60 days out <strong>(our arithmetic, one operator)</strong>. Half of surveyed US travellers have switched a confirmed stay, a lifetime behaviour not a churn rate <strong>(Skift/McKinsey, 22 Sep)</strong>.<br><span class=\"sowhat\">🎯 So what: offer a firmer rate, and charge more for a flexible one.</span><br><span class=\"tagline\">🏷 City, Bush | 🇰🇪 🇹🇿 | Confirmed (report) / Inference (exposure) | impact:risk</span></p>\n<p><span class=\"item-head\">4️⃣ FIXED CHARGES KEEP ARRIVING</span><br>Kenya deleted the VAT exemption on tourism-building services from 1 July <strong>(Finance Act 2026)</strong>. Nairobi reportedly charges hotels KSh 2,000 per room a year, one outlet only <strong>(Kenyan Wall Street, 25 Aug)</strong>. Tanzania&#x27;s US$44 insurance applies since 1 Oct <strong>(GN 256)</strong>.<br><span class=\"sowhat\">🎯 So what: total every per-room and per-head charge for 2027.</span><br><span class=\"tagline\">🏷 City, Bush, Beach | 🇰🇪 🇹🇿 | Confirmed (Act) / Reported (levy) | impact:margin</span><br>━━━━━━━━━<br>🔎 Blind spots: France&#x27;s Kenya advice, US Embassy Nairobi/Kampala alerts and Africa CDC briefs gave no dated update after scans. Kenya Gazette No. 175 (2 Oct) unread (403).</p>\n<p><span class=\"meta-line\">📡 30/90-DAY DEMAND CALENDAR</span><br>🇰🇪 6–8 Oct — Magical Kenya Travel Expo. Hold suite rates.<br>🇰🇪 7 Oct — CBK rate decision (8.75% since Feb).<br>🇹🇿 8 Oct — Tanzania September CPI.<br>🇺🇸 11 Oct — US entry order on DRC, Uganda, South Sudan lapses unless renewed.<br>🇰🇪 14 Oct — fuel VAT relief expires; EPRA review follows.<br>🇹🇿 30 Nov — Ethiopian Addis–Kilimanjaro–Zanzibar to 7 weekly <strong>(AeroRoutes, 4 Sep)</strong>.</p>\n<p>Which part of your 2027 contract does the guest hold for free?</p>\n<p>🔗 This edition on the web: <a href=\"https://eahospitalitypulse.com/editions/foresight-2026-10-04.html\" rel=\"noopener\">eahospitalitypulse.com/editions/foresight-2026-10-04.html</a><br>💼 This week&#x27;s Big Read on LinkedIn: <a href=\"https://www.linkedin.com/company/ea-hospitality-pulse/\" rel=\"noopener\">linkedin.com/company/ea-hospitality-pulse/</a><br>— EA Hospitality Pulse | Daily intelligence for city, bush &amp; beach properties</p>"
+ },
+ {
   "id": "pulse-2026-10-03-evening",
   "date": "2026-10-03",
   "dateDisplay": "Saturday, 3 October 2026",
@@ -1099,6 +1108,88 @@ window.EDITIONS = [
  }
 ];
 window.INSIGHTS = [
+ {
+  "headline": "THE COST LEG REPRICED: UGANDA DIESEL +42.5%, KENYA TRANSPORT +15.6%",
+  "body": "Uganda's diesel inflation was 42.5% in September against headline 4.6% *(UBOS, 30 Sep)*. Kenya's headline rose to 6.8%, and core to 4.0% from 3.4% *(KNBS, 30 Sep)*. Tanzania's shilling fell 6.7% year on year in August *(Bank of Tanzania, 30 Sep)*.",
+  "sowhat": "🎯 So what: add a fuel or currency review clause to any 2028 rate card.",
+  "segments": [
+   "city",
+   "bush",
+   "beach"
+  ],
+  "countries": "🇺🇬 🇰🇪 🇹🇿",
+  "confidence": "Confirmed (figures) / Inference (read)",
+  "impact": "-margin",
+  "impactClass": "margin",
+  "intensity": 3,
+  "impactSet": "author",
+  "source": "foresight-2026-10-04",
+  "date": "2026-10-04",
+  "dateDisplay": "Sunday, 4 October 2026",
+  "edition": "Sunday Foresight",
+  "editionKey": "foresight"
+ },
+ {
+  "headline": "THE REVENUE LEG DID NOT MOVE: TANZANIA TRAVEL RECEIPTS +1.7%",
+  "body": "Receipts for the year to August were US$4.39bn against US$4.31bn *(Bank of Tanzania, 30 Sep)*. Zanzibar's August arrivals were 124,481, up 18% *(Zanzibar statistician, 10 Sep)*. Different places and periods; they do not reconcile.",
+  "sowhat": "🎯 So what: in Zanzibar, charge a premium for flexibility, not discount for fill.",
+  "segments": [
+   "bush",
+   "beach"
+  ],
+  "countries": "🇹🇿",
+  "confidence": "Confirmed (BoT) / Reported (arrivals)",
+  "impact": "-margin",
+  "impactClass": "margin",
+  "intensity": 3,
+  "impactSet": "author",
+  "source": "foresight-2026-10-04",
+  "date": "2026-10-04",
+  "dateDisplay": "Sunday, 4 October 2026",
+  "edition": "Sunday Foresight",
+  "editionKey": "foresight"
+ },
+ {
+  "headline": "THE EXIT OPTION IS FREE FOR 126 DAYS",
+  "body": "Safari bookings run 186 to 190 days ahead *(Rhino Africa, 31 Aug)*; one Kenyan operator's ladder charges nothing beyond 60 days out *(our arithmetic, one operator)*. Half of surveyed US travellers have switched a confirmed stay, a lifetime behaviour not a churn rate *(Skift/McKinsey, 22 Sep)*.",
+  "sowhat": "🎯 So what: offer a firmer rate, and charge more for a flexible one.",
+  "segments": [
+   "city",
+   "bush"
+  ],
+  "countries": "🇰🇪 🇹🇿",
+  "confidence": "Confirmed (report) / Inference (exposure)",
+  "impact": "risk",
+  "impactClass": "risk",
+  "intensity": 3,
+  "impactSet": "author",
+  "source": "foresight-2026-10-04",
+  "date": "2026-10-04",
+  "dateDisplay": "Sunday, 4 October 2026",
+  "edition": "Sunday Foresight",
+  "editionKey": "foresight"
+ },
+ {
+  "headline": "FIXED CHARGES KEEP ARRIVING",
+  "body": "Kenya deleted the VAT exemption on tourism-building services from 1 July *(Finance Act 2026)*. Nairobi reportedly charges hotels KSh 2,000 per room a year, one outlet only *(Kenyan Wall Street, 25 Aug)*. Tanzania's US$44 insurance applies since 1 Oct *(GN 256)*.",
+  "sowhat": "🎯 So what: total every per-room and per-head charge for 2027.",
+  "segments": [
+   "city",
+   "bush",
+   "beach"
+  ],
+  "countries": "🇰🇪 🇹🇿",
+  "confidence": "Confirmed (Act) / Reported (levy)",
+  "impact": "-margin",
+  "impactClass": "margin",
+  "intensity": 3,
+  "impactSet": "author",
+  "source": "foresight-2026-10-04",
+  "date": "2026-10-04",
+  "dateDisplay": "Sunday, 4 October 2026",
+  "edition": "Sunday Foresight",
+  "editionKey": "foresight"
+ },
  {
   "headline": "TANZANIA'S US$44 INSURANCE IS NOW LIVE: ONE POLICY PER TRIP, BOUGHT AT THE FIRST POINT OF ENTRY",
   "body": "The rule comes from Government Notice No. 256 of 4 September 2026: US$44 per visitor, valid up to 92 days with multiple entries *(ATTA, 29 Sep)*. For a combined Mainland and Zanzibar itinerary, one policy is required, based on the first point of entry; Zanzibar entry uses a separate portal *(ATTA, 29 Sep)*. The UK FCDO added the rule to its Tanzania advice on 1 Oct *(FCDO, 1 Oct)*. We found no report of airport queues, portal failures or airline check-in refusals since 1 Oct. That is absence of evidence, not proof of a smooth start. *Our inference:* the risk is a guest who bought the wrong policy, not no policy.",
@@ -5984,4 +6075,4 @@ window.INSIGHTS = [
   "editionKey": "evening"
  }
 ];
-window.BUILT_AT = "2026-10-04 07:22";
+window.BUILT_AT = "2026-10-04 19:35";
