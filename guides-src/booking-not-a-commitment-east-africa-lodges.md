@@ -4,8 +4,9 @@ slug: booking-not-a-commitment-east-africa-lodges
 description: New research presented in New York finds that 78 per cent of travellers keep shopping after they book, and half have changed a confirmed accommodation after seeing something better. East African safari bookings are made roughly 186 days out and carry no cancellation charge for the first 126 of them. That gap is where the sector's working capital now sits.
 category: Big Read
 updated: 2026-10-04
+image: "img/editions/booking-not-a-commitment-east-africa-lodges.jpg"
+image_credit: "The deck of a safari lodge, the product that is sold six months before anyone stands on it. Photograph: Onyango George / EA Hospitality Pulse"
 ---
-
 On a stage in New York in late September, Margaux Constantin, a partner at McKinsey, described what her team had found when it stopped asking travellers what they had booked and started watching how they behaved. They had expected a funnel: inspiration narrowing to consideration, consideration narrowing to a purchase. What they found instead was a loop that never closed.
 
 "There was no clear moment of intention to buy," she told the Skift Global Forum. "It was actually a constant intention to buy."
