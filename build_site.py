@@ -567,6 +567,27 @@ def strip_process_talk(text):
         _STRIPPED_LOG.append((text[:70], out[:70]))
     return out or text          # never return empty: fall back to the original
 
+# HOUSE RULE (5 Oct 2026, editor): the masthead line ("EVENING WRAP · Mon 5 Oct
+# 2026 · Expert Brief") is not a title. Story one IS the headline -- for the
+# <title>, H1, card, OG image and feeds of every edition, past and future. So the
+# first numbered lead item wins; the older intro/summarise logic is only a
+# fallback for editions with no numbered items.
+_MASTHEAD = re.compile(
+    r"^\W*(?:ea\s+hospitality\s+pulse\b|(?:evening\s+wrap|morning\s+brief|midday\s+pulse|"
+    r"sunday\s+foresight|big\s+read\s+special|special\s+edition)\b\s*(?:[\u00b7|\u2014-]|$))", re.I)
+_LEAD_PREFIX = re.compile(r"^(?:still\s+true|catching\s+up|update)\s*[:\u2014-]\s*", re.I)
+
+def lead_item_headline(tele):
+    """Headline of numbered story 1 in the Telegram block, or None."""
+    for raw in tele.split("\n"):
+        lm = raw.strip().strip("*").strip()
+        m = KEYCAP.match(lm)
+        if m and m.group(1)[0] == "1":
+            h = md_strip(re.sub(r"\s+", " ", KEYCAP.sub("", lm))).strip(" *_")
+            h = _LEAD_PREFIX.sub("", h).strip()
+            return h[:220] if len(h) > 15 else None
+    return None
+
 def summarise(text):
     for l in text.split("\n"):
         l=l.strip()
@@ -576,6 +597,7 @@ def summarise(text):
         if not l: continue
         if l[0] in "🏨📅🗓📆🌅🕛🌆🌇🌄🌙🌃" or l.startswith(("━","#","_")): continue
         if "hospitality pulse" in low: continue
+        if _MASTHEAD.match(md_strip(l)): continue
         probe = re.sub(r"^[^0-9A-Za-z]+", "", md_strip(l))   # drop leading emoji/flags
         if _DATELINE.match(probe) or _DATELINE2.match(probe): continue
         # framing and corrections are never the headline -- keep looking
@@ -2131,7 +2153,7 @@ def main():
         except Exception: dd = date_iso
         eid = fn.rsplit(".",1)[0]
         e = {"id":eid,"date":date_iso,"dateDisplay":dd,"edition":EDITION_LABELS.get(key,"Brief"),
-             "editionKey":key,"summary":(intro_headline(md) or summarise(tele)),"bodyHtml":render_body(tele)}
+             "editionKey":key,"summary":(lead_item_headline(tele) or intro_headline(md) or summarise(tele)),"bodyHtml":render_body(tele)}
         e["_key"] = (date_iso, SLOT_RANK.get(key, 3), pubtimes.get(fn, 0))
         editions.append(e)
         for it in parse_items(tele):
