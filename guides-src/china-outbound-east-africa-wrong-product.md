@@ -4,8 +4,9 @@ slug: china-outbound-east-africa-wrong-product
 description: Chinese travellers booked more than 1.28 million international flights for this Golden Week, trips now run past nine days, and more than half of those travellers will sleep in rooms costing under $149 a night. Kenya says it wants a million of them. In the Mara, since July, the gate alone costs $200 a day.
 category: Big Read
 updated: 2026-10-05
+image: "img/editions/china-outbound-east-africa-wrong-product.jpg"
+image_credit: "Photograph: Onyango George / EA Hospitality Pulse"
 ---
-
 On Monday week, a China Southern Boeing 787-9 is scheduled to push back from Guangzhou Baiyun, call at Changsha, and land at Addis Ababa's Bole airport. It will do so twice a week thereafter. For a carrier that has flown to Africa for years, the 12 October launch is a modest piece of network housekeeping: a second African destination, two frequencies, one aircraft type. For East Africa it is the clearest signal yet of something the region has been waiting on since the borders reopened. The seats from China are arriving.
 
 What they are supposed to carry is the question nobody in the region has answered.
