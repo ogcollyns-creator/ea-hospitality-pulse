@@ -1,5 +1,14 @@
 window.EDITIONS = [
  {
+  "id": "pulse-2026-10-04-evening",
+  "date": "2026-10-04",
+  "dateDisplay": "Sunday, 4 October 2026",
+  "edition": "Evening Wrap",
+  "editionKey": "evening",
+  "summary": "🌆 EVENING WRAP · Sun 4 Oct 2026 · Expert Brief",
+  "bodyHtml": "<p><strong>🌆 EVENING WRAP · Sun 4 Oct 2026 · Expert Brief</strong></p>\n<p>A thin Sunday for new rules and deals, so tonight leads with a missed notice that touches safari fleets, then the Mombasa MICE read-out and the US order clock.<br>━━━━━━━━━<br><span class=\"item-head\">1️⃣ TANZANIA OPENS A CUSTOMS AMNESTY FOR MOTOR VEHICLES FROM 2 OCTOBER TO 31 DECEMBER</span></p>\n<p>The Tanzania Revenue Authority&#x27;s public notice, issued in Dar es Salaam on 2 October, lets owners of vehicles that breached customs rules disclose and regularise them at any TRA office, paying all applicable duties and taxes <strong>(TRA public notice, 2 Oct)</strong>. Covered breaches include misuse of temporary importation, a misstated year or model, altered VIN or chassis numbers, misapplied SADC origin rules, tax-exemption abuse and unauthorised structural alteration. After 31 December, TRA says it will pursue enforcement against non-compliant vehicles <strong>(TRA, 2 Oct)</strong>. The notice does not mention tourism. <strong>Our inference:</strong> lodges, DMCs and transfer operators running imported or modified vehicles in Tanzania should audit their own paperwork before year-end, because the deadline falls in peak season.<br><span class=\"tagline\">🏷 Bush, Beach | Tanzania, Zanzibar | Confirmed | impact:risk</span><br><span class=\"sowhat\">🎯 So what: have your fleet manager check import status, VIN records and any body modifications this month, and take advice before 31 December.</span></p>\n<p><span class=\"item-head\">2️⃣ AFRICA MICE SUMMIT &amp; AWARDS CLOSED IN MOMBASA ON 2 OCTOBER, WITH NO DELEGATE COUNT PUBLISHED</span></p>\n<p>The summit ran 29 September to 2 October at the Tembo International Convention Centre, PrideInn Paradise Beach Resort, Mombasa, with the main conference on 1-2 October under the theme &quot;Building Africa&#x27;s MICE Ecosystem for Trade, Investment &amp; Innovation&quot; <strong>(KATA, 4 Oct)</strong>. KATA&#x27;s CEO Nicanor Sabula took Convening Leader of the Year, and AESATA was named Best MICE Association Congress <strong>(KATA, 4 Oct)</strong>. No attendance figure or confirmed future congress was published. Treat it as a profile win for the coast&#x27;s meetings product, not a booking signal.<br><span class=\"tagline\">🏷 City, Beach | Kenya | Confirmed | impact:watch</span><br><span class=\"sowhat\">🎯 So what: coast venues should chase the delegates directly, and a convention-hotel rate sheet should be ready for any enquiry.</span></p>\n<p><span class=\"item-head\">3️⃣ STILL TRUE: THE US ENTRY ORDER ON DRC, UGANDA AND SOUTH SUDAN LAPSES ON 11 OCTOBER UNLESS CDC RENEWS IT</span></p>\n<p>The order took effect 11 September and bars foreign nationals who were in the three countries in the prior 21 days; US citizens with Uganda travel must use designated airports <strong>(CDC order via Visas Update, 16 Sep)</strong>. Uganda ended its outbreak in July <strong>(allAfrica, 28 Jul)</strong>, while DRC passed 4,000 deaths <strong>(The Citizen, 2 Oct)</strong>. We found no CDC renewal or lapse notice yet.<br><span class=\"tagline\">🏷 Bush | Uganda, Rwanda | Confirmed | impact:risk</span><br><span class=\"sowhat\">🎯 So what: keep flexible terms on US-source Uganda bookings until 11 October passes.</span></p>\n<p><strong>🏗 DEAL FLOW:</strong> No verified EA deal flow in the window. voco Nairobi Airport Suites (IHG, 25 Sep) and Elewana&#x27;s Ngorongoro Explorer Lodge (4 Sep) already ran.</p>\n<p><strong>📻 ALSO TONIGHT</strong><br>🇹🇿 Tanzania inflation was 4.3% in August, with transport 13.8% <strong>(Tanzania Invest, Sep)</strong>; September&#x27;s figure is not yet published.</p>\n<p><strong>📅 WEEK AHEAD</strong> EWURA&#x27;s October fuel caps are normally out about 7 Oct <strong>(our inference)</strong>. NISR&#x27;s September CPI is due about 10 Oct. US order expiry 11 Oct. EPRA&#x27;s next review is about 14 Oct <strong>(our inference)</strong>.</p>\n<p><strong>🔍 BLIND SPOTS:</strong> Primary pages for UK, Canadian, German and French advisories, WHO, Africa CDC, KCAA and all five gazettes were not opened; searches found no in-window changes. The Kenya Gazette No. 175 (2 Oct) text was unreadable. INSP SitRep 141 was not parsed.</p>\n<p>🔗 This edition on the web: <a href=\"https://eahospitalitypulse.com/editions/pulse-2026-10-04-evening.html\" rel=\"noopener\">eahospitalitypulse.com/editions/pulse-2026-10-04-evenin…</a><br>— EA Hospitality Pulse | Daily intelligence for city, bush &amp; beach properties</p>"
+ },
+ {
   "id": "foresight-2026-10-04",
   "date": "2026-10-04",
   "dateDisplay": "Sunday, 4 October 2026",
@@ -1108,6 +1117,65 @@ window.EDITIONS = [
  }
 ];
 window.INSIGHTS = [
+ {
+  "headline": "TANZANIA OPENS A CUSTOMS AMNESTY FOR MOTOR VEHICLES FROM 2 OCTOBER TO 31 DECEMBER",
+  "body": "The Tanzania Revenue Authority's public notice, issued in Dar es Salaam on 2 October, lets owners of vehicles that breached customs rules disclose and regularise them at any TRA office, paying all applicable duties and taxes *(TRA public notice, 2 Oct)*. Covered breaches include misuse of temporary importation, a misstated year or model, altered VIN or chassis numbers, misapplied SADC origin rules, tax-exemption abuse and unauthorised structural alteration. After 31 December, TRA says it will pursue enforcement against non-compliant vehicles *(TRA, 2 Oct)*. The notice does not mention tourism. *Our inference:* lodges, DMCs and transfer operators running imported or modified vehicles in Tanzania should audit their own paperwork before year-end, because the deadline falls in peak season.",
+  "sowhat": "",
+  "segments": [
+   "bush",
+   "beach"
+  ],
+  "countries": "Tanzania, Zanzibar",
+  "confidence": "Confirmed",
+  "impact": "risk",
+  "impactClass": "risk",
+  "intensity": 3,
+  "impactSet": "author",
+  "source": "pulse-2026-10-04-evening",
+  "date": "2026-10-04",
+  "dateDisplay": "Sunday, 4 October 2026",
+  "edition": "Evening Wrap",
+  "editionKey": "evening"
+ },
+ {
+  "headline": "AFRICA MICE SUMMIT & AWARDS CLOSED IN MOMBASA ON 2 OCTOBER, WITH NO DELEGATE COUNT PUBLISHED",
+  "body": "The summit ran 29 September to 2 October at the Tembo International Convention Centre, PrideInn Paradise Beach Resort, Mombasa, with the main conference on 1-2 October under the theme \"Building Africa's MICE Ecosystem for Trade, Investment & Innovation\" *(KATA, 4 Oct)*. KATA's CEO Nicanor Sabula took Convening Leader of the Year, and AESATA was named Best MICE Association Congress *(KATA, 4 Oct)*. No attendance figure or confirmed future congress was published. Treat it as a profile win for the coast's meetings product, not a booking signal.",
+  "sowhat": "",
+  "segments": [
+   "city",
+   "beach"
+  ],
+  "countries": "Kenya",
+  "confidence": "Confirmed",
+  "impact": "watch",
+  "impactClass": "watch",
+  "intensity": 3,
+  "impactSet": "author",
+  "source": "pulse-2026-10-04-evening",
+  "date": "2026-10-04",
+  "dateDisplay": "Sunday, 4 October 2026",
+  "edition": "Evening Wrap",
+  "editionKey": "evening"
+ },
+ {
+  "headline": "STILL TRUE: THE US ENTRY ORDER ON DRC, UGANDA AND SOUTH SUDAN LAPSES ON 11 OCTOBER UNLESS CDC RENEWS IT",
+  "body": "The order took effect 11 September and bars foreign nationals who were in the three countries in the prior 21 days; US citizens with Uganda travel must use designated airports *(CDC order via Visas Update, 16 Sep)*. Uganda ended its outbreak in July *(allAfrica, 28 Jul)*, while DRC passed 4,000 deaths *(The Citizen, 2 Oct)*. We found no CDC renewal or lapse notice yet.",
+  "sowhat": "",
+  "segments": [
+   "bush"
+  ],
+  "countries": "Uganda, Rwanda",
+  "confidence": "Confirmed",
+  "impact": "risk",
+  "impactClass": "risk",
+  "intensity": 3,
+  "impactSet": "author",
+  "source": "pulse-2026-10-04-evening",
+  "date": "2026-10-04",
+  "dateDisplay": "Sunday, 4 October 2026",
+  "edition": "Evening Wrap",
+  "editionKey": "evening"
+ },
  {
   "headline": "THE COST LEG REPRICED: UGANDA DIESEL +42.5%, KENYA TRANSPORT +15.6%",
   "body": "Uganda's diesel inflation was 42.5% in September against headline 4.6% *(UBOS, 30 Sep)*. Kenya's headline rose to 6.8%, and core to 4.0% from 3.4% *(KNBS, 30 Sep)*. Tanzania's shilling fell 6.7% year on year in August *(Bank of Tanzania, 30 Sep)*.",
@@ -6075,4 +6143,4 @@ window.INSIGHTS = [
   "editionKey": "evening"
  }
 ];
-window.BUILT_AT = "2026-10-04 19:35";
+window.BUILT_AT = "2026-10-05 06:40";

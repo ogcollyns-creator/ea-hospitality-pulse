@@ -1,5 +1,14 @@
 window.GUIDES = [
  {
+  "slug": "china-outbound-east-africa-wrong-product",
+  "title": "The world's biggest travel market is going farther and paying less. East Africa built the opposite product.",
+  "description": "Chinese travellers booked more than 1.28 million international flights for this Golden Week, trips now run past nine days, and more than half of those travellers will sleep in rooms costing under $149 a night. Kenya says it wants a million of them. In the Mara, since July, the gate alone costs $200 a day.",
+  "category": "Big Read",
+  "updated": "2026-10-05",
+  "readMins": 8,
+  "image": "img/editions/china-outbound-east-africa-wrong-product.jpg"
+ },
+ {
   "slug": "booking-not-a-commitment-east-africa-lodges",
   "title": "The confirmed booking has stopped being a decision. East Africa's lodges still bank it as one.",
   "description": "New research presented in New York finds that 78 per cent of travellers keep shopping after they book, and half have changed a confirmed accommodation after seeing something better. East African safari bookings are made roughly 186 days out and carry no cancellation charge for the first 126 of them. That gap is where the sector's working capital now sits.",
