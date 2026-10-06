@@ -1,17 +1,17 @@
 {
- "generated": "2026-10-05T12:37+03:00",
- "health": 0.467,
+ "generated": "2026-10-06T12:26+03:00",
+ "health": 0.433,
  "grade": "D",
  "fails": [
   "source coverage",
   "source staleness",
   "edition cadence",
-  "ledger hygiene"
+  "ledger hygiene",
+  "forecast throughput"
  ],
  "warns": [
   "signal quality",
-  "data freshness",
-  "forecast throughput"
+  "data freshness"
  ],
  "checks": [
   {
@@ -31,14 +31,14 @@
   {
    "name": "radar feed freshness",
    "status": "PASS",
-   "detail": "250 in-window obs; newest observation 1.1h old (2026-10-05T11:34:00+03:00).",
+   "detail": "268 in-window obs; newest observation 0.7h old (2026-10-06T11:42:00+03:00).",
    "fix": "",
    "score": 1.0
   },
   {
    "name": "edition cadence",
    "status": "FAIL",
-   "detail": "Missing slots (last 2 full days): 2026-10-04 morning, 2026-10-04 midday, 2026-10-03 morning, 2026-10-03 midday",
+   "detail": "Missing slots (last 2 full days): 2026-10-05 morning, 2026-10-05 midday, 2026-10-04 morning, 2026-10-04 midday",
    "fix": "Confirm the scheduled Pulse task fired for each slot.",
    "score": 0.0
   },
@@ -52,14 +52,14 @@
   {
    "name": "ledger hygiene",
    "status": "FAIL",
-   "detail": "216 calls: 153 open, 57 resolved. Overdue-open: 8. Missing source_url: 40.",
-   "fix": "Resolve overdue calls now: P050, P059, P060, P071, P112, P138, P140, P176. ",
+   "detail": "216 calls: 153 open, 57 resolved. Overdue-open: 9. Missing source_url: 40.",
+   "fix": "Resolve overdue calls now: P050, P059, P060, P071, P110, P112, P138, P140. ",
    "score": 0.0
   },
   {
    "name": "data freshness",
    "status": "WARN",
-   "detail": "Stale/again-verify: costs.js 21d>10, calendar.js 68d>21",
+   "detail": "Stale/again-verify: costs.js 22d>10, calendar.js 69d>21",
    "fix": "Re-verify each dataset's values and bump its 'updated:' field, or note it in-edition.",
    "score": 0.5
   },
@@ -72,10 +72,10 @@
   },
   {
    "name": "forecast throughput",
-   "status": "WARN",
-   "detail": "1 new falsifiable calls logged in last 7d.",
-   "fix": "Log more falsifiable calls \u2014 the ledger is the moat.",
-   "score": 0.5
+   "status": "FAIL",
+   "detail": "0 new falsifiable calls logged in last 7d.",
+   "fix": "No new calls in a week \u2014 the differentiator is going cold.",
+   "score": 0.0
   },
   {
    "name": "published content",
