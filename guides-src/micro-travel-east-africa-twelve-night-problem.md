@@ -4,8 +4,9 @@ slug: micro-travel-east-africa-twelve-night-problem
 description: Hilton's 2027 trends report says travellers now want to pack more into less time. Kenya's own 2024 arrivals numbers say more than half its visitors already do. The product architecture, and the per-day price list behind it, was built for the other 44 per cent.
 category: Big Read
 updated: 2026-10-06
+image: "img/editions/micro-travel-east-africa-twelve-night-problem.jpg"
+image_credit: "Photograph: Onyango George / EA Hospitality Pulse"
 ---
-
 On 29 September, Hilton published its 2027 trends report: a survey of 14,744 people who intend to travel in the next twelve months, fielded by Morning Consult between 18 May and 1 June this year across fourteen countries. Not one of those countries is in Africa. An East African lodge owner could reasonably file the document under other people's problems, and most will.
 
 They should read the fifth trend first. Hilton calls it the micro-travel mindset, and it carries two numbers that describe, with uncomfortable precision, the distance between what East Africa sells and what the people who buy it now say they want. Sixty-seven per cent of respondents said they like planning travel that packs a great deal into a short space of time. Sixty-three per cent said they would rather stay somewhere central, with the activities nearby. In the United States, Kenya's single largest source market, 88 per cent said a short trip is anything under three or four days.
