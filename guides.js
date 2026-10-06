@@ -1,5 +1,14 @@
 window.GUIDES = [
  {
+  "slug": "micro-travel-east-africa-twelve-night-problem",
+  "title": "East Africa sells twelve nights. Its own arrivals data says most visitors want three.",
+  "description": "Hilton's 2027 trends report says travellers now want to pack more into less time. Kenya's own 2024 arrivals numbers say more than half its visitors already do. The product architecture, and the per-day price list behind it, was built for the other 44 per cent.",
+  "category": "Big Read",
+  "updated": "2026-10-06",
+  "readMins": 7,
+  "image": "img/editions/micro-travel-east-africa-twelve-night-problem.jpg"
+ },
+ {
   "slug": "china-outbound-east-africa-wrong-product",
   "title": "The world's biggest travel market is going farther and paying less. East Africa built the opposite product.",
   "description": "Chinese travellers booked more than 1.28 million international flights for this Golden Week, trips now run past nine days, and more than half of those travellers will sleep in rooms costing under $149 a night. Kenya says it wants a million of them. In the Mara, since July, the gate alone costs $200 a day.",

@@ -1,5 +1,5 @@
 window.LEDGER = {
- "updated": "2026-10-05 16:51",
+ "updated": "2026-10-06 06:26",
  "stats": {
   "total": 216,
   "open": 153,
@@ -152,7 +152,7 @@ window.LEDGER = {
    "resolved_date": "",
    "evidence": "",
    "source_url": "https://www.afro.who.int/countries/democratic-republic-of-congo",
-   "overdue": false
+   "overdue": true
   },
   {
    "id": "P213",
