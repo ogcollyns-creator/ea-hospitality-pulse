@@ -1,228 +1,319 @@
-# Radar candidates — midday slot
-_Window opens Tue 06 Oct 07:00 EAT · 343 observations in window · 21 headlines deduped against_
+# Radar candidates — evening slot
+_Window opens Mon 05 Oct 15:00 EAT · 1410 observations in window · 21 headlines deduped against_
 
 Ranked by first-seen recency, source tier and hospitality relevance. `first seen` is when the radar observed the item, which is the date the recency gate runs on. `published` is what the source claims — where the two disagree, the disagreement is the story.
 
-### 🚨 [99.5] [page changed] Federal Register — public inspection (HHS/CDC), pre-publication
+### 🔴 [112.6] Weekly Bulletin on Outbreak and other Emergencies: Week 36: 31 August to 6 September 2026
+- **Verdict:** LEAD CANDIDATE — tier-1 shock language
+- **Source:** WHO AFRO outbreaks & emergencies · tier 1 · REG · health
+- **First seen:** 2026-10-06T18:58+03:00 EAT · **Source date:** — none stated
+- **URL:** https://www.afro.who.int/countries/kenya/publication/weekly-bulletin-outbreak-and-other-emergencies-week-36-31-august-6-september-2026
+- **Shock language:** outbreak
+- **Score parts:** tier +40, category +24, lead +4.8, relevance +12, freshness +19.8, undated -6, shock +18
+
+### 🔴 [112.6] Weekly Bulletin on Outbreak and other Emergencies: Week 38: 14 to 20 September 2026
+- **Verdict:** LEAD CANDIDATE — tier-1 shock language
+- **Source:** WHO AFRO outbreaks & emergencies · tier 1 · REG · health
+- **First seen:** 2026-10-06T18:58+03:00 EAT · **Source date:** — none stated
+- **URL:** https://www.afro.who.int/countries/south-africa/publication/weekly-bulletin-outbreak-and-other-emergencies-week-38-14-20-september-2026
+- **Shock language:** outbreak
+- **Score parts:** tier +40, category +24, lead +4.8, relevance +12, freshness +19.8, undated -6, shock +18
+
+### 🔴 [112.6] Weekly Bulletin on Outbreak and other Emergencies: Week 37: 7 to 13 September 2026
+- **Verdict:** LEAD CANDIDATE — tier-1 shock language
+- **Source:** WHO AFRO outbreaks & emergencies · tier 1 · REG · health
+- **First seen:** 2026-10-06T18:58+03:00 EAT · **Source date:** — none stated
+- **URL:** https://www.afro.who.int/countries/ethiopia/publication/weekly-bulletin-outbreak-and-other-emergencies-week-37-7-13-september-2026
+- **Shock language:** outbreak
+- **Score parts:** tier +40, category +24, lead +4.8, relevance +12, freshness +19.8, undated -6, shock +18
+
+### 🚨 [101.4] [page changed] Federal Register — public inspection (HHS/CDC), pre-publication
+- **Verdict:** OPEN THIS — tier-1 advisory page moved; content not auto-parsed, read it manually
+- **Source:** Federal Register — public inspection (HHS/CDC), pre-publication · tier 1 · REG · advisory
+- **First seen:** 2026-10-06T18:58+03:00 EAT · **Source date:** 2026-10-06
+- **URL:** https://www.federalregister.gov/api/v1/public-inspection-documents/current.json
+- **Extract:** {"count":73,"results":[{"agencies":[{"raw_name":"TREASURY DEPARTMENT","name":"Treasury Department","id":497,"url":"https://www.federalregister.gov/agencies/treasury-department","json_url":"https://www.federalregister.gov/api/v1/agencies/497","parent_id":null,"
+- **Score parts:** tier +40, category +32, lead +3.6, relevance +0, freshness +19.8, corroborated +10, page_change -4
+
+### 🚨 [93.4] [page changed] Federal Register — public inspection (HHS/CDC), pre-publication
 - **Verdict:** OPEN THIS — tier-1 advisory page moved; content not auto-parsed, read it manually
 - **Source:** Federal Register — public inspection (HHS/CDC), pre-publication · tier 1 · REG · advisory
 - **First seen:** 2026-10-06T11:42+03:00 EAT · **Source date:** 2026-10-05
 - **URL:** https://www.federalregister.gov/api/v1/public-inspection-documents/current.json
 - **Extract:** {"count":95,"results":[{"agencies":[{"raw_name":"SECURITIES AND EXCHANGE COMMISSION","name":"Securities and Exchange Commission","id":466,"url":"https://www.federalregister.gov/agencies/securities-and-exchange-commission","json_url":"https://www.federalregiste
-- **Score parts:** tier +40, category +32, lead +3.6, relevance +0, freshness +17.9, corroborated +10, page_change -4
+- **Score parts:** tier +40, category +32, lead +3.6, relevance +0, freshness +11.8, corroborated +10, page_change -4
 
-### 🚨 [63.5] [page changed] Airlink news
+### 🚨 [85.1] [page changed] Federal Register — public inspection (HHS/CDC), pre-publication
+- **Verdict:** OPEN THIS — tier-1 advisory page moved; content not auto-parsed, read it manually
+- **Source:** Federal Register — public inspection (HHS/CDC), pre-publication · tier 1 · REG · advisory
+- **First seen:** 2026-10-06T04:11+03:00 EAT · **Source date:** 2026-10-05
+- **URL:** https://www.federalregister.gov/api/v1/public-inspection-documents/current.json
+- **Extract:** {"count":95,"results":[{"agencies":[{"raw_name":"SECURITIES AND EXCHANGE COMMISSION","name":"Securities and Exchange Commission","id":466,"url":"https://www.federalregister.gov/agencies/securities-and-exchange-commission","json_url":"https://www.federalregiste
+- **Score parts:** tier +40, category +32, lead +3.6, relevance +0, freshness +3.5, corroborated +10, page_change -4
+
+### 🚨 [81.7] [page changed] Federal Register — public inspection (HHS/CDC), pre-publication
+- **Verdict:** OPEN THIS — tier-1 advisory page moved; content not auto-parsed, read it manually
+- **Source:** Federal Register — public inspection (HHS/CDC), pre-publication · tier 1 · REG · advisory
+- **First seen:** 2026-10-06T01:05+03:00 EAT · **Source date:** 2026-10-05
+- **URL:** https://www.federalregister.gov/api/v1/public-inspection-documents/current.json
+- **Extract:** {"count":95,"results":[{"agencies":[{"raw_name":"SECURITIES AND EXCHANGE COMMISSION","name":"Securities and Exchange Commission","id":466,"url":"https://www.federalregister.gov/agencies/securities-and-exchange-commission","json_url":"https://www.federalregiste
+- **Score parts:** tier +40, category +32, lead +3.6, relevance +0, freshness +0.1, corroborated +10, page_change -4
+
+### 🚨 [81.6] [page changed] Federal Register — public inspection (HHS/CDC), pre-publication
+- **Verdict:** OPEN THIS — tier-1 advisory page moved; content not auto-parsed, read it manually
+- **Source:** Federal Register — public inspection (HHS/CDC), pre-publication · tier 1 · REG · advisory
+- **First seen:** 2026-10-05T21:30+03:00 EAT · **Source date:** 2026-10-05
+- **URL:** https://www.federalregister.gov/api/v1/public-inspection-documents/current.json
+- **Extract:** {"count":95,"results":[{"agencies":[{"raw_name":"SECURITIES AND EXCHANGE COMMISSION","name":"Securities and Exchange Commission","id":466,"url":"https://www.federalregister.gov/agencies/securities-and-exchange-commission","json_url":"https://www.federalregiste
+- **Score parts:** tier +40, category +32, lead +3.6, relevance +0, freshness +0, corroborated +10, page_change -4
+
+### 🚨 [57.4] [page changed] Airlink news
 - **Verdict:** OPEN THIS — tier-1 airline page moved; content not auto-parsed, read it manually
 - **Source:** Airlink news · tier 1 · REG · airline
 - **First seen:** 2026-10-06T11:40+03:00 EAT · **Source date:** — none stated
 - **URL:** https://www.flyairlink.com/
 - **Extract:** Request unsuccessful. Incapsula incident ID: 1012000090236204535-3154868293599813
-- **Score parts:** tier +40, category +12, lead +3.6, relevance +0, freshness +17.9, undated -6, page_change -4
+- **Score parts:** tier +40, category +12, lead +3.6, relevance +0, freshness +11.8, undated -6, page_change -4
 
-### 🟠 [91.7] CATA PRESIDENT DR. ABU TARIQ JAMALUDDIN ARRIVES IN ARUSHA 06 October, 2026 The President of the Commonwealth Association
+### 🚨 [45.6] [page changed] Airlink news
+- **Verdict:** OPEN THIS — tier-1 airline page moved; content not auto-parsed, read it manually
+- **Source:** Airlink news · tier 1 · REG · airline
+- **First seen:** 2026-10-05T21:29+03:00 EAT · **Source date:** — none stated
+- **URL:** https://www.flyairlink.com/
+- **Extract:** Request unsuccessful. Incapsula incident ID: 533000080335642082-278308529286480431
+- **Score parts:** tier +40, category +12, lead +3.6, relevance +0, freshness +0, undated -6, page_change -4
+
+### 🟠 [104.2] Hats Off To The Teachers Who Open Doors to the Wild
 - **Verdict:** STRONG — tier-1, upstream
+- **Source:** Kenya Wildlife Service · tier 1 · KE · parks
+- **First seen:** 2026-10-06T18:58+03:00 EAT · **Source date:** 2026-10-05
+- **URL:** https://kws.go.ke/hats-off-to-the-teachers-who-open-doors-to-the-wild
+- **Extract:** School trips are always fun. The break-of-dawn bus ride with its sing-alongs and packed lunches. The scramble for window seats. The moment a child sees their first giraffe and forgets every instruction they were given about keeping their awe-filled voices down
+- **Score parts:** tier +40, category +18, lead +8.4, relevance +8, freshness +19.8, corroborated +10
+
+### 🟠 [104.2] Listening More, Doing Better: KWS Customer Service Week 2026
+- **Verdict:** STRONG — tier-1, upstream
+- **Source:** Kenya Wildlife Service · tier 1 · KE · parks
+- **First seen:** 2026-10-06T18:58+03:00 EAT · **Source date:** 2026-10-05
+- **URL:** https://kws.go.ke/listening-more-doing-better-kws-customer-service-week-2026
+- **Extract:** Customer Service Week 2026 is here, and at Kenya Wildlife Service, we are taking a moment to celebrate something that does not always make headlines: the daily, often invisible work of listening. Every interaction at KWS is a chance to learn. When a visitor wa
+- **Score parts:** tier +40, category +18, lead +8.4, relevance +8, freshness +19.8, corroborated +10
+
+### 🟡 [96.2] American Resumes New York JFK – Seattle Service in 2Q27
+- **Verdict:** CONSIDER
+- **Source:** AeroRoutes schedule filings · tier 2 · GLOBAL · aviation-tracker
+- **First seen:** 2026-10-06T18:58+03:00 EAT · **Source date:** 2026-10-06
+- **URL:** https://www.aeroroutes.com/eng/261006-aaapr27jfksea
+- **Extract:** Published at 0300PDT / 1000GMT 06OCT26 American Airlines in Spring 2027 plans to resume New York JFK – Seattle route, last served until July 2019. The Oneworld member will operate 2 daily flights with Airbus A321neo from 06APR27. AA437 JFK0745 – 1120SEA 32Q D 
+- **Score parts:** tier +20, category +14, lead +8.4, relevance +24, freshness +19.8, corroborated +10
+
+### 🟠 [96.2] SitRep N°143 /MVE-BDBV/04/10/2026
+- **Verdict:** STRONG — tier-1, upstream
+- **Source:** INSP RDC — Ebola daily situation reports (SitRep) · tier 1 · GLOBAL · health
+- **First seen:** 2026-10-06T18:58+03:00 EAT · **Source date:** 2026-10-06
+- **URL:** https://insp.cd/sitrep-n143-mve-bdbv-04-10-2026
+- **Score parts:** tier +40, category +24, lead +2.4, relevance +0, freshness +19.8, corroborated +10
+
+### 🟡 [92.2] Southwest Airlines June 2027 Network Additions
+- **Verdict:** CONSIDER
+- **Source:** AeroRoutes schedule filings · tier 2 · GLOBAL · aviation-tracker
+- **First seen:** 2026-10-06T18:58+03:00 EAT · **Source date:** 2026-10-06
+- **URL:** https://www.aeroroutes.com/eng/261006-wnjun27
+- **Extract:** Published at 0700PDT / 1400GMT 06OCT26 Southwest Airlines last week opened reservations for various new routes scheduled from June 2027. Planned network additions include the following. Austin – Bozeman eff 05JUN27 1 weekly 737 MAX 8 Austin – Liberia eff 05JUN
+- **Score parts:** tier +20, category +14, lead +8.4, relevance +20, freshness +19.8, corroborated +10
+
+### 🟡 [92.2] Alaska Expands Everett / Paine Field Service in 1H27
+- **Verdict:** CONSIDER
+- **Source:** AeroRoutes schedule filings · tier 2 · GLOBAL · aviation-tracker
+- **First seen:** 2026-10-06T18:58+03:00 EAT · **Source date:** 2026-10-06
+- **URL:** https://www.aeroroutes.com/eng/261006-as1h27pae
+- **Extract:** Published at 0400PDT / 1100GMT 06OCT26 Alaska Airlines last month announced service expansion at Everett (Paine Field) , where the airline plans additional services and capacity starting the first half of 2027. Everett – San Jose CA eff 14APR27 2 daily Embraer
+- **Score parts:** tier +20, category +14, lead +8.4, relevance +20, freshness +19.8, corroborated +10
+
+### 🟡 [92.2] Allegiant Air Outlines Allegiant First Network From March 2027
+- **Verdict:** CONSIDER
+- **Source:** AeroRoutes schedule filings · tier 2 · GLOBAL · aviation-tracker
+- **First seen:** 2026-10-06T18:58+03:00 EAT · **Source date:** 2026-10-06
+- **URL:** https://www.aeroroutes.com/eng/261006-g41h277m8
+- **Extract:** Published at 0200PDT / 0900GMT 06OCT26 Allegiant Air since August 2026 opened reservations for “Allegiant First”, which sees the airline launches 2-class cabin on board Boeing 737 MAX 8-200 aircraft, which the 188-seater will feature 8 Allegiant First Seats (t
+- **Score parts:** tier +20, category +14, lead +8.4, relevance +20, freshness +19.8, corroborated +10
+
+### 🟡 [89.8] Kenya Gazette Vol. CXXVIII-No. 174
+- **Verdict:** CHECK — source date older than the window
+- **Source:** Kenya Gazette (Kenya Law) · tier 1 · KE · gazette
+- **First seen:** 2026-10-06T18:58+03:00 EAT · **Source date:** 2026-09-30
+- **URL:** https://new.kenyalaw.org/akn/ke/officialGazette/2026-09-30/174/eng@2026-09-30
+- **Extract:** Kenya Gazette Vol. CXXVIII-No. 174
+- **Score parts:** tier +40, category +20, lead +12, relevance +8, freshness +19.8, stale_trap -10
+
+### 🟡 [88.2] Sunrise Airways 4Q26 New York Service Changes
+- **Verdict:** CONSIDER
+- **Source:** AeroRoutes schedule filings · tier 2 · GLOBAL · aviation-tracker
+- **First seen:** 2026-10-06T18:58+03:00 EAT · **Source date:** 2026-10-06
+- **URL:** https://www.aeroroutes.com/eng/261006-s64q26nyc
+- **Extract:** Published at 0800PDT / 1500GMT 06OCT26 Sunrise Airways in the fourth quarter of 2026 plans service changes to New York. Existing 1 weekly Newark – Cap-Haitien route is now scheduled until 20OCT26. The airline during Northern winter 2026/27 season will operate 
+- **Score parts:** tier +20, category +14, lead +8.4, relevance +16, freshness +19.8, corroborated +10
+
+### 🟡 [85.6] CATA PRESIDENT DR. ABU TARIQ JAMALUDDIN ARRIVES IN ARUSHA 06 October, 2026 The President of the Commonwealth Association
+- **Verdict:** CONSIDER
 - **Source:** Tanzania Revenue Authority · tier 1 · TZ · fiscal
 - **First seen:** 2026-10-06T11:41+03:00 EAT · **Source date:** — none stated
 - **URL:** https://www.tra.go.tz/news/cata-president-dr-abu-tariq-jamaluddin-arrives-in-arusha
-- **Score parts:** tier +40, category +15, lead +16.8, relevance +8, freshness +17.9, undated -6
+- **Score parts:** tier +40, category +15, lead +16.8, relevance +8, freshness +11.8, undated -6
 
-### 🟠 [91.7] TRA LAUNCHES CUSTOMER SERVICE WEEK, REAFFIRMS COMMITMENT TO QUALITY TAXPAYER SERVICES
-- **Verdict:** STRONG — tier-1, upstream
+### 🟡 [85.6] TRA LAUNCHES CUSTOMER SERVICE WEEK, REAFFIRMS COMMITMENT TO QUALITY TAXPAYER SERVICES
+- **Verdict:** CONSIDER
 - **Source:** Tanzania Revenue Authority · tier 1 · TZ · fiscal
 - **First seen:** 2026-10-06T11:41+03:00 EAT · **Source date:** — none stated
 - **URL:** https://www.tra.go.tz/news/tra-launches-customer-service-week-reaffirms-commitment-to-quality-taxpayer-services
-- **Score parts:** tier +40, category +15, lead +16.8, relevance +8, freshness +17.9, undated -6
+- **Score parts:** tier +40, category +15, lead +16.8, relevance +8, freshness +11.8, undated -6
 
-### 🟡 [87.5] Japan im Fokus: Lufthansa Group erweitert Angebot und bietet im Sommer 2027 bis zu 50 Flüge pro Woche
+### 🟡 [85.5] Transport Licensing Appeals Board Tribunal – Weekly Cause List – 05 October 2026 to 09 October 2026
+- **Verdict:** CONSIDER
+- **Source:** Kenya Gazette (Kenya Law) · tier 1 · KE · gazette
+- **First seen:** 2026-10-06T04:11+03:00 EAT · **Source date:** 2026-10-05
+- **URL:** https://new.kenyalaw.org/akn/ke/doc/cause-list-weekly/ketlabt/2026-10-05/1/eng@2026-10-05
+- **Extract:** Transport Licensing Appeals Board Tribunal – Weekly Cause List – 05 October 2026 to 09 October 2026
+- **Score parts:** tier +40, category +20, lead +12, relevance +0, freshness +3.5, corroborated +10
+
+### 🟡 [85.5] Environment and Land Court at Machakos – Weekly Cause List – 05 October 2026 to 08 October 2026
+- **Verdict:** CONSIDER
+- **Source:** Kenya Gazette (Kenya Law) · tier 1 · KE · gazette
+- **First seen:** 2026-10-06T04:11+03:00 EAT · **Source date:** 2026-10-05
+- **URL:** https://new.kenyalaw.org/akn/ke/doc/cause-list-weekly/keelc/2026-10-05/3/eng@2026-10-05
+- **Extract:** Environment and Land Court at Machakos – Weekly Cause List – 05 October 2026 to 08 October 2026
+- **Score parts:** tier +40, category +20, lead +12, relevance +0, freshness +3.5, corroborated +10
+
+### 🟡 [85.5] Kombewa Law Court – Weekly Cause List – 05 October 2026 to 08 October 2026
+- **Verdict:** CONSIDER
+- **Source:** Kenya Gazette (Kenya Law) · tier 1 · KE · gazette
+- **First seen:** 2026-10-06T04:11+03:00 EAT · **Source date:** 2026-10-05
+- **URL:** https://new.kenyalaw.org/akn/ke/doc/cause-list-weekly/kemc/2026-10-05/8/eng@2026-10-05
+- **Extract:** Kombewa Law Court – Weekly Cause List – 05 October 2026 to 08 October 2026
+- **Score parts:** tier +40, category +20, lead +12, relevance +0, freshness +3.5, corroborated +10
+
+### 🟡 [85.5] Mariakani Law Courts – Weekly Cause List – 12 October 2026 to 16 October 2026
+- **Verdict:** CONSIDER
+- **Source:** Kenya Gazette (Kenya Law) · tier 1 · KE · gazette
+- **First seen:** 2026-10-06T04:11+03:00 EAT · **Source date:** 2026-10-12
+- **URL:** https://new.kenyalaw.org/akn/ke/doc/cause-list-weekly/kemc/2026-10-12/1/eng@2026-10-12
+- **Extract:** Mariakani Law Courts – Weekly Cause List – 12 October 2026 to 16 October 2026
+- **Score parts:** tier +40, category +20, lead +12, relevance +0, freshness +3.5, corroborated +10
+
+### 🟡 [85.5] Chief Magistrate's Court (Milimani Law Courts) – Weekly Cause List – 05 October 2026 to 09 October 2026
+- **Verdict:** CONSIDER
+- **Source:** Kenya Gazette (Kenya Law) · tier 1 · KE · gazette
+- **First seen:** 2026-10-06T04:11+03:00 EAT · **Source date:** 2026-10-05
+- **URL:** https://new.kenyalaw.org/akn/ke/doc/cause-list-weekly/kemc/2026-10-05/9/eng@2026-10-05
+- **Extract:** Chief Magistrate's Court (Milimani Law Courts) – Weekly Cause List – 05 October 2026 to 09 October 2026
+- **Score parts:** tier +40, category +20, lead +12, relevance +0, freshness +3.5, corroborated +10
+
+### 🟡 [85.5] Olokurto Law Courts – Weekly Cause List – 05 October 2026 to 09 October 2026
+- **Verdict:** CONSIDER
+- **Source:** Kenya Gazette (Kenya Law) · tier 1 · KE · gazette
+- **First seen:** 2026-10-06T04:11+03:00 EAT · **Source date:** 2026-10-05
+- **URL:** https://new.kenyalaw.org/akn/ke/doc/cause-list-weekly/kemc/2026-10-05/10/eng@2026-10-05
+- **Extract:** Olokurto Law Courts – Weekly Cause List – 05 October 2026 to 09 October 2026
+- **Score parts:** tier +40, category +20, lead +12, relevance +0, freshness +3.5, corroborated +10
+
+### 🟡 [85.5] Narok Law Courts – Weekly Cause List – 05 October 2026 to 09 October 2026
+- **Verdict:** CONSIDER
+- **Source:** Kenya Gazette (Kenya Law) · tier 1 · KE · gazette
+- **First seen:** 2026-10-06T04:11+03:00 EAT · **Source date:** 2026-10-05
+- **URL:** https://new.kenyalaw.org/akn/ke/doc/cause-list-weekly/kemc/2026-10-05/11/eng@2026-10-05
+- **Extract:** Narok Law Courts – Weekly Cause List – 05 October 2026 to 09 October 2026
+- **Score parts:** tier +40, category +20, lead +12, relevance +0, freshness +3.5, corroborated +10
+
+### 🟡 [85.5] Mariakani Law Courts – Weekly Cause List – 05 October 2026 to 09 October 2026
+- **Verdict:** CONSIDER
+- **Source:** Kenya Gazette (Kenya Law) · tier 1 · KE · gazette
+- **First seen:** 2026-10-06T04:11+03:00 EAT · **Source date:** 2026-10-05
+- **URL:** https://new.kenyalaw.org/akn/ke/doc/cause-list-weekly/kemc/2026-10-05/12/eng@2026-10-05
+- **Extract:** Mariakani Law Courts – Weekly Cause List – 05 October 2026 to 09 October 2026
+- **Score parts:** tier +40, category +20, lead +12, relevance +0, freshness +3.5, corroborated +10
+
+### 🟡 [85.5] Kibera Law Courts – Daily Cause List – 05 October 2026 to 05 October 2026
+- **Verdict:** CONSIDER
+- **Source:** Kenya Gazette (Kenya Law) · tier 1 · KE · gazette
+- **First seen:** 2026-10-06T04:11+03:00 EAT · **Source date:** 2026-10-05
+- **URL:** https://new.kenyalaw.org/akn/ke/doc/cause-list-daily/kemc/2026-10-05/3/eng@2026-10-05
+- **Extract:** Kibera Law Courts – Daily Cause List – 05 October 2026 to 05 October 2026
+- **Score parts:** tier +40, category +20, lead +12, relevance +0, freshness +3.5, corroborated +10
+
+### 🟡 [85.5] Kimilili Law Courts – Weekly Cause List – 12 October 2026 to 16 October 2026
+- **Verdict:** CONSIDER
+- **Source:** Kenya Gazette (Kenya Law) · tier 1 · KE · gazette
+- **First seen:** 2026-10-06T04:11+03:00 EAT · **Source date:** 2026-10-12
+- **URL:** https://new.kenyalaw.org/akn/ke/doc/cause-list-weekly/kemc/2026-10-12/2/eng@2026-10-12
+- **Extract:** Kimilili Law Courts – Weekly Cause List – 12 October 2026 to 16 October 2026
+- **Score parts:** tier +40, category +20, lead +12, relevance +0, freshness +3.5, corroborated +10
+
+### 🟡 [85.5] Employment and Labour Relations Court at Nairobi – Claims and Labour Relations Division – Weekly Cause List – 12 October
+- **Verdict:** CONSIDER
+- **Source:** Kenya Gazette (Kenya Law) · tier 1 · KE · gazette
+- **First seen:** 2026-10-06T04:11+03:00 EAT · **Source date:** 2026-10-12
+- **URL:** https://new.kenyalaw.org/akn/ke/doc/cause-list-weekly/keelrc/2026-10-12/2/eng@2026-10-12
+- **Extract:** Employment and Labour Relations Court at Nairobi – Claims and Labour Relations Division – Weekly Cause List – 12 October 2026 to 16 October 2026
+- **Score parts:** tier +40, category +20, lead +12, relevance +0, freshness +3.5, corroborated +10
+
+### 🟡 [82.2] University Shut Down Indefinitely, Students Ordered to Vacate
+- **Verdict:** CONSIDER
+- **Source:** Kenyans.co.ke news · tier 2 · KE · press
+- **First seen:** 2026-10-06T18:58+03:00 EAT · **Source date:** 2026-10-06
+- **URL:** https://www.kenyans.co.ke/news/127640-kibabii-university-closes-after-student-unrest-orders-students-vacate
+- **Shock language:** strike
+- **Extract:** The development comes at a time when learning activities have been disrupted across public universities in the country following the lecturers' strike that began on Friday, October 2.
+- **Score parts:** tier +20, category +4, lead +2.4, relevance +8, freshness +19.8, corroborated +10, shock +18
+
+### 🟡 [81.5] Republic v County Secretary, County Government of Kiambu & 3 others; Legorn Feeds International Limited (Ex parte Applic
+- **Verdict:** CHECK — source date older than the window
+- **Source:** Kenya Gazette (Kenya Law) · tier 1 · KE · gazette
+- **First seen:** 2026-10-06T04:11+03:00 EAT · **Source date:** 2026-09-30
+- **URL:** https://new.kenyalaw.org/akn/ke/judgment/keelc/2026/6134/eng@2026-09-30
+- **Extract:** Republic v County Secretary, County Government of Kiambu & 3 others; Legorn Feeds International Limited (Ex parte Applicant) (Environment and Land Judicial Review Case E007 of 2022) [2026] KEELC 6134 (KLR) (30 September 2026) (Ruling)
+- **Score parts:** tier +40, category +20, lead +12, relevance +16, freshness +3.5, stale_trap -10
+
+### 🟡 [81.4] Japan im Fokus: Lufthansa Group erweitert Angebot und bietet im Sommer 2027 bis zu 50 Flüge pro Woche
 - **Verdict:** CONSIDER
 - **Source:** Lufthansa Group newsroom · tier 1 · GLOBAL · airline
 - **First seen:** 2026-10-06T11:40+03:00 EAT · **Source date:** 2026-10-06
 - **URL:** https://newsroom.lufthansagroup.com/japan-im-fokus-lufthansa-group-erweitert-angebot-und-bietet-im-sommer-2027-bis-zu-50-fluege-pro-woche
 - **Extract:** Ab dem Sommerflugplan 2027 baut die Lufthansa Group ihr Angebot nach Japan aufgrund einer gestiegenen Nachfrage deutlich aus. Lufthansa nimmt die Direktverbindung von Frankfurt nach Nagoya wieder auf und ergänzt das Tokio-Angebot mit einem täglichen Flug nach 
-- **Score parts:** tier +40, category +12, lead +3.6, relevance +4, freshness +17.9, corroborated +10
+- **Score parts:** tier +40, category +12, lead +3.6, relevance +4, freshness +11.8, corroborated +10
 
-### 🟡 [86.3] China Southern Adds Iberia Mexico Codeshare From late-Sep 2026
+### 🟡 [80.2] United Resumes Denver – Flagstaff From Aug 2027
 - **Verdict:** CONSIDER
 - **Source:** AeroRoutes schedule filings · tier 2 · GLOBAL · aviation-tracker
-- **First seen:** 2026-10-06T11:42+03:00 EAT · **Source date:** 2026-10-06
-- **URL:** https://www.aeroroutes.com/eng/261005-czibcodeshare
-- **Extract:** Published at 2300PDT 05OCT26 / 0600GMT 06OCT26 China Southern since late-September 2026 expanded codeshare partnership with Iberia, covering the latter’s selected service on Madrid – Mexico City route. Schedule below focuses on the period of 28SEP26 – 24OCT26.
-- **Score parts:** tier +20, category +14, lead +8.4, relevance +16, freshness +17.9, corroborated +10
+- **First seen:** 2026-10-06T18:58+03:00 EAT · **Source date:** 2026-10-06
+- **URL:** https://www.aeroroutes.com/eng/261006-uaaug27flg
+- **Extract:** Published at 0600PDT / 1300GMT 06OCT26 United in the third quarter of 2027 plans to resume Denver – Flagstaff service, last served until October 2022. The airline will operate 2 daily flights with Skywest CRJ550 aircraft, from 10AUG27. UA5277 DEN1130 – 1230FLG
+- **Score parts:** tier +20, category +14, lead +8.4, relevance +8, freshness +19.8, corroborated +10
 
-### 🟡 [86.3] Neos Adds Dubai al Maktoum Flights in NW26
+### 🟡 [80.2] Delta Resumes Flagstaff Service From June 2027
 - **Verdict:** CONSIDER
 - **Source:** AeroRoutes schedule filings · tier 2 · GLOBAL · aviation-tracker
-- **First seen:** 2026-10-06T11:42+03:00 EAT · **Source date:** 2026-10-06
-- **URL:** https://www.aeroroutes.com/eng/261005-nonw26dwc
-- **Extract:** Published at 2100PDT 05OCT26 / 0400GMT 06OCT26 Italian carrier Neos during Northern winter 2026/27 season schedules nonstop terminator service between Italy and Dubai al Maktoum, based on schedule filing. Milan Malpensa – Dubai al Maktoum 19DEC26 – 13MAR27 1 w
-- **Score parts:** tier +20, category +14, lead +8.4, relevance +16, freshness +17.9, corroborated +10
+- **First seen:** 2026-10-06T18:58+03:00 EAT · **Source date:** 2026-10-06
+- **URL:** https://www.aeroroutes.com/eng/261006-dljun27flg
+- **Extract:** Published at 0500PDT / 1200GMT 06OCT26 Delta from June 2027 plans to launch Salt Lake City – Flagstaff route, on board CRJ550 aircraft by Skywest. The Skyteam member operates this route twice daily from 07JUN27. DL4248 SLC0930 – 1005FLG CR5 D DL4249 SLC2045 – 
+- **Score parts:** tier +20, category +14, lead +8.4, relevance +8, freshness +19.8, corroborated +10
 
-### 🟡 [83.7] TRA MEETS CEMENT MANUFACTURERS, PLEDGE TO BOOST PRODUCTION TO MEET MARKET DEMAND
-- **Verdict:** CONSIDER
-- **Source:** Tanzania Revenue Authority · tier 1 · TZ · fiscal
-- **First seen:** 2026-10-06T11:41+03:00 EAT · **Source date:** — none stated
-- **URL:** https://www.tra.go.tz/news/tra-meets-cement-manufacturers-pledge-to-boost-production-to-meet-market-demand
-- **Score parts:** tier +40, category +15, lead +16.8, relevance +0, freshness +17.9, undated -6
-
-### 🟡 [83.3] Red Roof Inn Corpus Christi South Listed for sale
-- **Verdict:** CONSIDER
-- **Source:** HVS — market reports and event-impact studies (via Hotel News Resource) · tier 2 · GLOBAL · trade
-- **First seen:** 2026-10-06T11:42+03:00 EAT · **Source date:** 2026-10-05
-- **URL:** https://www.hotelnewsresource.com/article143196.html
-- **Extract:** HVS Brokerage & Advisory has listed the 120-room Red Roof Inn Corpus Christi South for sale, presenting an owner-operator investment opportunity centered on rate growth, rising occupancy and demand from nearby medical, education, military and industrial employ
-- **Score parts:** tier +20, category +5, lead +2.4, relevance +28, freshness +17.9, corroborated +10
-
-### 🟡 [82.3] Xiamen Airlines / TAROM Begins Codeshare Service in 4Q26
-- **Verdict:** CONSIDER
-- **Source:** AeroRoutes schedule filings · tier 2 · GLOBAL · aviation-tracker
-- **First seen:** 2026-10-06T11:42+03:00 EAT · **Source date:** 2026-10-06
-- **URL:** https://www.aeroroutes.com/eng/261005-mfrocodeshare
-- **Extract:** Published at 2200PDT 05OCT26 / 0500GMT 06OCT26 Skyteam member Xiamen Airlines has launched codeshare partnership with TAROM, covering selected routes to/from Bucharest. Following codeshare went into effect since 01OCT26 (approximate). Xiamen Airlines operated 
-- **Score parts:** tier +20, category +14, lead +8.4, relevance +12, freshness +17.9, corroborated +10
-
-### 🟡 [82.3] Eurowings Adds Baghdad Service From Dec 2026
-- **Verdict:** CONSIDER
-- **Source:** AeroRoutes schedule filings · tier 2 · GLOBAL · aviation-tracker
-- **First seen:** 2026-10-06T11:42+03:00 EAT · **Source date:** 2026-10-06
-- **URL:** https://www.aeroroutes.com/eng/261005-ewdec26bgw
-- **Extract:** Published at 2000PDT 05OCT26 / 0300GMT 06OCT26 Eurowings in December 2026 plans to launch 2 new routes to Baghdad in Iraq, with nonstop flights scheduled from Berlin and Dusseldorf. Berlin – Baghdad eff 10DEC26 1 weekly A320 (2 weekly 17DEC26 – 07JAN27) EW8976
-- **Score parts:** tier +20, category +14, lead +8.4, relevance +12, freshness +17.9, corroborated +10
-
-### 🟡 [82.3] Turkish Airlines Expands flynas Codeshare in NW26
-- **Verdict:** CONSIDER
-- **Source:** AeroRoutes schedule filings · tier 2 · GLOBAL · aviation-tracker
-- **First seen:** 2026-10-06T11:42+03:00 EAT · **Source date:** 2026-10-06
-- **URL:** https://www.aeroroutes.com/eng/261005-tkxycodeshare
-- **Extract:** Published at 1900PDT 05OCT26 / 0200GMT 06OCT26 Turkish Airlines at the launch of Northern winter 2026/27 season plans to expand codeshare partnership with flynas, covering additional routes via Saudi Arabia. Following codeshare routes to commence on 25OCT26. T
-- **Score parts:** tier +20, category +14, lead +8.4, relevance +12, freshness +17.9, corroborated +10
-
-### 🟡 [82.3] Kenya–Egypt Talks Advance Investment in Nyatike Hospital
+### 🟡 [80.2] Kenya Strengthens Local Pharmaceutical Production for Health Security
 - **Verdict:** CONSIDER
 - **Source:** Kenya Ministry of Health · tier 1 · KE · health
-- **First seen:** 2026-10-06T11:42+03:00 EAT · **Source date:** — none stated
-- **URL:** https://www.health.go.ke/kenya-egypt-talks-advance-investment-nyatike-hospital
-- **Score parts:** tier +40, category +24, lead +2.4, relevance +4, freshness +17.9, undated -6
+- **First seen:** 2026-10-06T18:58+03:00 EAT · **Source date:** — none stated
+- **URL:** https://www.health.go.ke/kenya-strengthens-local-pharmaceutical-production-health-security
+- **Score parts:** tier +40, category +24, lead +2.4, relevance +0, freshness +19.8, undated -6
 
-### 🟡 [80.5] Hilton Strengthens Bengaluru Portfolio with Signing of Conrad Bengaluru Airport and Hilton Bengaluru Airport, Adding 600
-- **Verdict:** CONSIDER
-- **Source:** Hospitality Net — Africa announcements · tier 2 · REG · trade
-- **First seen:** 2026-10-06T11:42+03:00 EAT · **Source date:** 2026-10-06
-- **URL:** https://www.hospitalitynet.org/news/4134748/hilton-strengthens-bengaluru-portfolio-with-signing-of-conrad-bengaluru-airport-and-hilton-bengaluru-airport-adding-600-rooms
-- **Extract:** Hilton and Kalyani Group signed two 300-room hotels near Bengaluru's Kempegowda International Airport, due to open in 2030 with 72,000 sq ft of MICE space.
-- **Score parts:** tier +20, category +5, lead +3.6, relevance +24, freshness +17.9, corroborated +10
-
-### 🟡 [79.8] Airstrikes and artillery hit north Ethiopia as government and rebels clash, sources say
-- **Verdict:** CONSIDER
-- **Source:** The EastAfrican · tier 2 · REG · press
-- **First seen:** 2026-10-06T13:25+03:00 EAT · **Source date:** 2026-10-06
-- **URL:** https://www.theeastafrican.co.ke/tea/news/eastern-africa/airstrikes-and-artillery-hit-north-ethiopia-5621138
-- **Shock language:** strike
-- **Extract:** The fighting threatens to escalate into a wider conflict, with Ethiopia accusing neighbouring...
-- **Score parts:** tier +20, category +4, lead +0, relevance +8, freshness +19.8, corroborated +10, shock +18
-
-### 🟡 [79.3] Hilton Strengthens Bengaluru Portfolio with Signing of Conrad Bengaluru Airport and Hilton Bengaluru Airport, Adding 600
-- **Verdict:** CONSIDER
-- **Source:** Hospitality Net: Africa openings · tier 2 · AFRICA · trade
-- **First seen:** 2026-10-06T11:42+03:00 EAT · **Source date:** 2026-10-06
-- **URL:** https://www.hospitalitynet.org/news/4134748/hilton-strengthens-bengaluru-portfolio-with-signing-of-conrad-bengaluru-airport-and-hilton-bengaluru-airport-adding-600-rooms
-- **Extract:** Hilton and Kalyani Group signed two 300-room hotels near Bengaluru's Kempegowda International Airport, due to open in 2030 with 72,000 sq ft of MICE space.
-- **Score parts:** tier +20, category +5, lead +2.4, relevance +24, freshness +17.9, corroborated +10
-
-### 🟡 [78.3] Sifuna: This is my vision for Kenya
-- **Verdict:** CONSIDER
-- **Source:** Nation Africa: Kenya business · tier 2 · KE · press
-- **First seen:** 2026-10-06T11:42+03:00 EAT · **Source date:** 2026-10-06
-- **URL:** https://nation.africa/kenya/news/politics/sifuna-this-is-my-vision-for-kenya-5620904
-- **Extract:** Nairobi senator says eliminating wastage would allow scrapping of Housing Levy and VAT on fuel.
-- **Score parts:** tier +20, category +4, lead +2.4, relevance +24, freshness +17.9, corroborated +10
-
-### 🟡 [78.3] Kenya Calls for Sustainable Health Financing to Protect Essential Services
+### 🟡 [80.2] Kenya Calls for Stronger Medicine Supply Systems as MEDS Marks 40 Years
 - **Verdict:** CONSIDER
 - **Source:** Kenya Ministry of Health · tier 1 · KE · health
-- **First seen:** 2026-10-06T11:42+03:00 EAT · **Source date:** — none stated
-- **URL:** https://www.health.go.ke/kenya-calls-sustainable-health-financing-protect-essential-services
-- **Score parts:** tier +40, category +24, lead +2.4, relevance +0, freshness +17.9, undated -6
+- **First seen:** 2026-10-06T18:58+03:00 EAT · **Source date:** — none stated
+- **URL:** https://www.health.go.ke/kenya-calls-stronger-medicine-supply-systems-meds-marks-40-years
+- **Score parts:** tier +40, category +24, lead +2.4, relevance +0, freshness +19.8, undated -6
 
-### 🟡 [78.3] CS Duale Calls for Timely Transition to HMIS and SHA Contracting
+### 🟡 [80.2] Kenya confirms first imported Bundibugyo virus disease case; WHO supports control efforts
 - **Verdict:** CONSIDER
-- **Source:** Kenya Ministry of Health · tier 1 · KE · health
-- **First seen:** 2026-10-06T11:42+03:00 EAT · **Source date:** — none stated
-- **URL:** https://www.health.go.ke/cs-duale-calls-timely-transition-hmis-and-sha-contracting
-- **Score parts:** tier +40, category +24, lead +2.4, relevance +0, freshness +17.9, undated -6
-
-### 🟡 [78.3] Kenya and Japan Expand Cooperation to Strengthen Health Systems
-- **Verdict:** CONSIDER
-- **Source:** Kenya Ministry of Health · tier 1 · KE · health
-- **First seen:** 2026-10-06T11:42+03:00 EAT · **Source date:** — none stated
-- **URL:** https://www.health.go.ke/kenya-and-japan-expand-cooperation-strengthen-health-systems
-- **Score parts:** tier +40, category +24, lead +2.4, relevance +0, freshness +17.9, undated -6
-
-### 🟡 [78.3] Duale and Governors Set 14 October Deadline for SHA Facility Contracts
-- **Verdict:** CONSIDER
-- **Source:** Kenya Ministry of Health · tier 1 · KE · health
-- **First seen:** 2026-10-06T11:42+03:00 EAT · **Source date:** — none stated
-- **URL:** https://www.health.go.ke/duale-and-governors-set-14-october-deadline-sha-facility-contracts
-- **Score parts:** tier +40, category +24, lead +2.4, relevance +0, freshness +17.9, undated -6
-
-### 🟡 [74.3] Fiji Airways Extra Nadi – Funafuti Flights in late-Oct 2026
-- **Verdict:** CONSIDER
-- **Source:** AeroRoutes schedule filings · tier 2 · GLOBAL · aviation-tracker
-- **First seen:** 2026-10-06T11:42+03:00 EAT · **Source date:** 2026-10-06
-- **URL:** https://www.aeroroutes.com/eng/261006-fjoct26tv
-- **Extract:** Published at 0000PDT / 0700GMT 06OCT26 Fiji Airways in late-October 2026 schedules extra service to Tuvalu, with additional Nadi – Funafuti flight scheduled on 21OCT26 and 28OCT26 (Wednesday). Planned schedule as follows. FJ287 NAN0750 – 1025FUN AT7 3 FJ289 NA
-- **Score parts:** tier +20, category +14, lead +8.4, relevance +4, freshness +17.9, corroborated +10
-
-### 🟡 [72.5] Market Beat Greater Paris - H1 2026
-- **Verdict:** CONSIDER
-- **Source:** Hospitality Net — Africa announcements · tier 2 · REG · trade
-- **First seen:** 2026-10-06T11:42+03:00 EAT · **Source date:** 2026-10-06
-- **URL:** https://www.hospitalitynet.org/opinion/4134749/market-beat-greater-paris-h1-2026
-- **Extract:** Greater Paris hotels posted RevPAR of €116 (+3.7%) in H1 2026, while investment volume hit €845M across 21 hotels, skewed by the Pullman Tour Eiffel deal.
-- **Score parts:** tier +20, category +5, lead +3.6, relevance +16, freshness +17.9, corroborated +10
-
-### 🟡 [72.5] Market Beat Italy - H1 2026
-- **Verdict:** CONSIDER
-- **Source:** Hospitality Net — Africa announcements · tier 2 · REG · trade
-- **First seen:** 2026-10-06T11:42+03:00 EAT · **Source date:** 2026-10-06
-- **URL:** https://www.hospitalitynet.org/opinion/4134746/market-beat-italy-h1-2026
-- **Extract:** Italian hotel investment hit €1.3bn in H1 2026, 53% above the 10-year average, while RevPAR grew 11.3%, ranking Italy among Europe's top performers, boosted by Milan's Winter Olympics effect.
-- **Score parts:** tier +20, category +5, lead +3.6, relevance +16, freshness +17.9, corroborated +10
-
-### 🟡 [71.3] Market Beat Greater Paris - H1 2026
-- **Verdict:** CONSIDER
-- **Source:** Hospitality Net: Africa openings · tier 2 · AFRICA · trade
-- **First seen:** 2026-10-06T11:42+03:00 EAT · **Source date:** 2026-10-06
-- **URL:** https://www.hospitalitynet.org/opinion/4134749/market-beat-greater-paris-h1-2026
-- **Extract:** Greater Paris hotels posted RevPAR of €116 (+3.7%) in H1 2026, while investment volume hit €845M across 21 hotels, skewed by the Pullman Tour Eiffel deal.
-- **Score parts:** tier +20, category +5, lead +2.4, relevance +16, freshness +17.9, corroborated +10
-
-### 🟡 [71.3] Market Beat Italy - H1 2026
-- **Verdict:** CONSIDER
-- **Source:** Hospitality Net: Africa openings · tier 2 · AFRICA · trade
-- **First seen:** 2026-10-06T11:42+03:00 EAT · **Source date:** 2026-10-06
-- **URL:** https://www.hospitalitynet.org/opinion/4134746/market-beat-italy-h1-2026
-- **Extract:** Italian hotel investment hit €1.3bn in H1 2026, 53% above the 10-year average, while RevPAR grew 11.3%, ranking Italy among Europe's top performers, boosted by Milan's Winter Olympics effect.
-- **Score parts:** tier +20, category +5, lead +2.4, relevance +16, freshness +17.9, corroborated +10
-
-### 🟡 [70.9] News The Tanzania Civil Aviation Authority (TCAA) has begun its Customer Service Week celebrations, running from October
-- **Verdict:** CONSIDER
-- **Source:** Tanzania Civil Aviation Authority · tier 1 · TZ · aviation
-- **First seen:** 2026-10-06T11:41+03:00 EAT · **Source date:** — none stated
-- **URL:** https://www.tcaa.go.tz/news/tcaa-begins-customer-service-week-with-focus-on-listening-and-service-delivery
-- **Score parts:** tier +40, category +13, lead +6, relevance +0, freshness +17.9, undated -6
-
-### 🟡 [70.3] Fiji Airways Tuvalu Service Changes From Dec 2026
-- **Verdict:** CONSIDER
-- **Source:** AeroRoutes schedule filings · tier 2 · GLOBAL · aviation-tracker
-- **First seen:** 2026-10-06T11:42+03:00 EAT · **Source date:** 2026-10-06
-- **URL:** https://www.aeroroutes.com/eng/261006-fjdec26tv
-- **Extract:** Published at 0100PDT / 0800GMT 06OCT26 Fiji Airways from December 2026 is adjusting service to Tuvalu, as the carrier moves Saturday service from Suva to Nadi. Planned changes as follows. Nadi – Funafuti eff 12DEC26 Increase from 2 to 3 weekly, ATR72-600 FJ289
-- **Score parts:** tier +20, category +14, lead +8.4, relevance +0, freshness +17.9, corroborated +10
-
-### 🟡 [70.3] Airline booking glitch leaves 73 chess players stranded
-- **Verdict:** CONSIDER
-- **Source:** Nation Africa: Kenya business · tier 2 · KE · press
-- **First seen:** 2026-10-06T11:42+03:00 EAT · **Source date:** 2026-10-05
-- **URL:** https://nation.africa/kenya/sports/other-sports/airline-booking-glitch-leaves-73-chess-players-stranded--5620916
-- **Extract:** Local travel agency explains how group of travelling students got caught up in chaotic airport...
-- **Score parts:** tier +20, category +4, lead +2.4, relevance +16, freshness +17.9, corroborated +10
+- **Source:** WHO AFRO — Kenya country newsroom · tier 1 · KE · health
+- **First seen:** 2026-10-06T18:58+03:00 EAT · **Source date:** — none stated
+- **URL:** https://www.afro.who.int/countries/kenya/news/kenya-confirms-first-imported-bundibugyo-virus-disease-case-who-supports-control-efforts
+- **Score parts:** tier +40, category +24, lead +2.4, relevance +0, freshness +19.8, undated -6
