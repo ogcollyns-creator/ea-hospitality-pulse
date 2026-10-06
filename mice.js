@@ -97,7 +97,7 @@ window.MICE = {
 
   { event:"Magical Kenya Travel Expo (MKTE) 2026 — 16th edition", city:"Nairobi (Uhuru Gardens)", country:"Kenya", flag:"🇰🇪",
     dates:"6–8 October 2026", status:"Confirmed", delegates:"10,000+ (record edition, per Kenya Tourism Board)",
-    detail:"Three-day trade expo: 400+ exhibitors, 250+ vetted international buyers, delegates from 40 countries. Largest edition since MKTE's inception.",
+    detail:"UPDATE 6 OCTOBER 2026 (opening day): runs 6\u20138 October at Uhuru Gardens; no opening-day attendance figure had been published by the evening wrap, and the 10,000 figure remains an organiser projection (2025 attendance 7,691; ratio of 250+ hosted buyers to 10,000 projected delegates is 2.5%, our arithmetic). Three-day trade expo: 400+ exhibitors, 250+ vetted international buyers, delegates from 40 countries. Largest edition since MKTE's inception.",
     soWhat:"This is the single largest room-night compression event on this tracker. A record 10,000-plus delegate turnout means Nairobi city hotels should be closing out standard rate well ahead of October — and lodges within striking distance of Nairobi should expect a pre/post-expo safari extension bump.",
     segment:"City", source:"The Star / HapaKenya, late July 2026", verified:true, flagged:"action" },
 
