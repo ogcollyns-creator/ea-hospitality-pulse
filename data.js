@@ -1,5 +1,14 @@
 window.EDITIONS = [
  {
+  "id": "pulse-2026-10-06-evening",
+  "date": "2026-10-06",
+  "dateDisplay": "Tuesday, 6 October 2026",
+  "edition": "Evening Wrap",
+  "editionKey": "evening",
+  "summary": "Magical Kenya Travel Expo, 6–8 October, Uhuru Gardens",
+  "bodyHtml": "<p><strong>Kenya&#x27;s Magical Kenya Travel Expo opens in Nairobi today with a projected 10,000 delegates, about 30% more than in 2025</strong><br><em>🌆 Evening Wrap · Tue 6 Oct 2026</em></p>\n<p>A thin day for new rules. Tonight leads with the expo that opens today and an airline withdrawal whose stated reason does not fit its dates.<br>━━━━━━━━━<br><span class=\"item-head\">1️⃣ Magical Kenya Travel Expo, 6–8 October, Uhuru Gardens</span></p>\n<p>The Kenya Tourism Board projects more than 10,000 delegates from 40 countries, against 7,691 in 2025, with 400+ exhibitors and 250+ international buyers <strong>(KTB via HapaKenya, 29 Jul)</strong>. Those are organiser projections; we found no opening-day attendance figure. Our arithmetic: 250 buyers are 2.5% of 10,000. Delegates are not room nights. Most are Kenyan trade and visitors who sleep at home; the buyers decide where overseas clients are sent next season. Separately, a CBK survey put August–November forward bookings at 56.25% against 49.5% a year earlier <strong>(CBK via Business Daily, 25 Aug)</strong>.<br><span class=\"tagline\">🏷 City, Bush, Beach | Kenya | Reported | impact:demand</span><br><span class=\"sowhat\">🎯 So what: do not discount Nairobi rooms into 6–8 Oct on headcount alone. Book your buyer meetings now and follow up within 48 hours, while the contact is fresh.</span></p>\n<p><span class=\"item-head\">2️⃣ Jambojet has stopped Mombasa–Zanzibar flights, blaming fuel and Tanzania&#x27;s US$44 insurance</span></p>\n<p>Business Daily reported on 29 Sep that Jambojet stopped the route, citing &quot;surging fuel costs&quot; and the mandatory inbound insurance, and called it &quot;commercially unviable&quot;; the carrier now flies no international route <strong>(Business Daily, 29 Sep; Tourism Update, 5 Oct)</strong>. The dates disagree: AeroRoutes recorded the last flight on 26 April <strong>(AeroRoutes, 9 Jun)</strong>, and the insurance only took effect on 1 October. Our reading: the insurance is at most a late justification. We have no Jambojet statement.<br><span class=\"tagline\">🏷 Beach, City | Kenya, Zanzibar | Reported | impact:demand</span><br><span class=\"sowhat\">🎯 So what: if you sell Mombasa–Zanzibar twin-centre stays, assume no low-cost direct link and price the connection in.</span></p>\n<p><strong>🏗 DEAL FLOW:</strong> No verified EA deal flow in the window.</p>\n<p><strong>📻 ALSO TONIGHT</strong><br>🇺🇸 The US entry order on DRC, Uganda and South Sudan expires 11 Oct unless CDC renews; we found no renewal notice <strong>(EIG Law, 16 Sep)</strong>.<br>🇬🇧 FCDO&#x27;s Kenya, Uganda and Rwanda pages are unchanged since 2–4 Sep; Tanzania&#x27;s changed 1 Oct <strong>(gov.uk, read 6 Oct)</strong>.</p>\n<p><strong>⏳ CATCHING UP</strong><br>🇹🇿 Upeo Serengeti Lodge, Nyumbu: 8 villas above Kogatende, opening July 2027, 40% off 2027 rates if booked by 30 Apr <strong>(ATTA, 21 Sep)</strong>.<br>🇺🇬 Mount Elgon Hotel &amp; Spa, Mbale, reopened after renovation, unveiled by President Museveni; owner, cost and rooms not disclosed <strong>(allAfrica, 27 Sep)</strong>.</p>\n<p><strong>📅 WEEK AHEAD</strong> EWURA caps about 7 Oct; Tanzania&#x27;s September CPI about 8 Oct (August 4.3%); Tatler Best of Africa 8 Oct, date unconfirmed; NISR CPI about 10 Oct (August 15.7%); US order 11 Oct; EPRA about 14 Oct <strong>(our inference)</strong>.</p>\n<p><strong>🔍 BLIND SPOTS:</strong> Gazettes, KCAA, UWA, TANAPA, NCAA, Canada, German and French advisories, CDC and WHO pages were searched, not opened. Tier C rotation not worked.</p>\n<p>🔗 This edition on the web: <a href=\"https://eahospitalitypulse.com/editions/pulse-2026-10-06-evening.html\" rel=\"noopener\">eahospitalitypulse.com/editions/pulse-2026-10-06-evenin…</a><br>— EA Hospitality Pulse | Daily intelligence for city, bush &amp; beach properties</p>"
+ },
+ {
   "id": "pulse-2026-10-05-evening",
   "date": "2026-10-05",
   "dateDisplay": "Monday, 5 October 2026",
@@ -1126,6 +1135,47 @@ window.EDITIONS = [
  }
 ];
 window.INSIGHTS = [
+ {
+  "headline": "Magical Kenya Travel Expo, 6–8 October, Uhuru Gardens",
+  "body": "The Kenya Tourism Board projects more than 10,000 delegates from 40 countries, against 7,691 in 2025, with 400+ exhibitors and 250+ international buyers *(KTB via HapaKenya, 29 Jul)*. Those are organiser projections; we found no opening-day attendance figure. Our arithmetic: 250 buyers are 2.5% of 10,000. Delegates are not room nights. Most are Kenyan trade and visitors who sleep at home; the buyers decide where overseas clients are sent next season. Separately, a CBK survey put August–November forward bookings at 56.25% against 49.5% a year earlier *(CBK via Business Daily, 25 Aug)*.",
+  "sowhat": "",
+  "segments": [
+   "city",
+   "bush",
+   "beach"
+  ],
+  "countries": "Kenya",
+  "confidence": "Reported",
+  "impact": "+demand",
+  "impactClass": "demand",
+  "intensity": 2,
+  "impactSet": "author",
+  "source": "pulse-2026-10-06-evening",
+  "date": "2026-10-06",
+  "dateDisplay": "Tuesday, 6 October 2026",
+  "edition": "Evening Wrap",
+  "editionKey": "evening"
+ },
+ {
+  "headline": "Jambojet has stopped Mombasa–Zanzibar flights, blaming fuel and Tanzania's US$44 insurance",
+  "body": "Business Daily reported on 29 Sep that Jambojet stopped the route, citing \"surging fuel costs\" and the mandatory inbound insurance, and called it \"commercially unviable\"; the carrier now flies no international route *(Business Daily, 29 Sep; Tourism Update, 5 Oct)*. The dates disagree: AeroRoutes recorded the last flight on 26 April *(AeroRoutes, 9 Jun)*, and the insurance only took effect on 1 October. Our reading: the insurance is at most a late justification. We have no Jambojet statement.",
+  "sowhat": "",
+  "segments": [
+   "city",
+   "beach"
+  ],
+  "countries": "Kenya, Zanzibar",
+  "confidence": "Reported",
+  "impact": "+demand",
+  "impactClass": "demand",
+  "intensity": 2,
+  "impactSet": "author",
+  "source": "pulse-2026-10-06-evening",
+  "date": "2026-10-06",
+  "dateDisplay": "Tuesday, 6 October 2026",
+  "edition": "Evening Wrap",
+  "editionKey": "evening"
+ },
  {
   "headline": "UGANDA'S INFLATION ROSE TO 4.6% IN SEPTEMBER, WELL BELOW KENYA'S 6.8%",
   "body": "UBOS put annual inflation at 4.6%, with prices up 0.9% in the month, led by food after prolonged dry spells; hospitality and transport prices also rose, and fuel stayed above UGX 6,600 a litre in some areas *(UBOS via Nile Post, 30 Sep)*. UBOS's statistician expects pressure to ease from November if rains improve. Kenya's September figure was 6.8% *(KNBS via People Daily, 30 Sep)*. Tanzania was 4.3% in August, with September not yet out *(Bank of Tanzania, Sep review)*. *Our inference:* the three markets are not repricing at the same speed, and Kenyan cost lines are moving fastest.",
@@ -6212,4 +6262,4 @@ window.INSIGHTS = [
   "editionKey": "evening"
  }
 ];
-window.BUILT_AT = "2026-10-06 06:30";
+window.BUILT_AT = "2026-10-06 20:12";
