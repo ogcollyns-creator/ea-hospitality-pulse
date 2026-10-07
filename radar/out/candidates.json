@@ -1,9 +1,9 @@
 {
- "generated": "2026-10-07T19:34:20+03:00",
+ "generated": "2026-10-07T22:48:26+03:00",
  "slot": "evening",
  "window_start": 1791288000,
- "observations_in_window": 1442,
- "deduped_against": 23,
+ "observations_in_window": 1581,
+ "deduped_against": 26,
  "candidates": [
   {
    "score": 101.4,
@@ -13,6 +13,39 @@
     "lead": 3.6,
     "relevance": 0,
     "freshness": 19.8,
+    "corroborated": 10,
+    "page_change": -4
+   },
+   "keywords": [],
+   "shock_terms": [],
+   "dedupe_match": null,
+   "dedupe_similarity": 0.1,
+   "id": "0acabbed2ed6",
+   "title": "[page changed] Federal Register \u2014 public inspection (HHS/CDC), pre-publication",
+   "url": "https://www.federalregister.gov/api/v1/public-inspection-documents/current.json",
+   "summary": "{\"count\":134,\"results\":[{\"agencies\":[{\"raw_name\":\"National Oceanic and Atmospheric Administration\",\"name\":\"National Oceanic and Atmospheric Administration\",\"id\":361,\"url\":\"https://www.federalregister.gov/agencies/national-oceanic-and-atmospheric-administration\",\"json_url\":\"https://www.federalregister.gov/api/v1/agencies/361\",\"parent_id\":54,\"slug\":\"national-oceanic-and-atmospheric-administration\"}]",
+   "kind": "page-change",
+   "source": "Federal Register \u2014 public inspection (HHS/CDC), pre-publication",
+   "source_id": "us-fedreg-pubinspect-hhs",
+   "tier": 1,
+   "country": "REG",
+   "category": "advisory",
+   "segments": [
+    "city",
+    "bush"
+   ],
+   "first_seen": "2026-10-07T22:47+03:00",
+   "published": "2026-10-06",
+   "verdict": "OPEN THIS \u2014 tier-1 advisory page moved; content not auto-parsed, read it manually"
+  },
+  {
+   "score": 97.8,
+   "components": {
+    "tier": 40,
+    "category": 32,
+    "lead": 3.6,
+    "relevance": 0,
+    "freshness": 16.2,
     "corroborated": 10,
     "page_change": -4
    },
@@ -39,13 +72,13 @@
    "verdict": "OPEN THIS \u2014 tier-1 advisory page moved; content not auto-parsed, read it manually"
   },
   {
-   "score": 97.3,
+   "score": 93.7,
    "components": {
     "tier": 40,
     "category": 32,
     "lead": 3.6,
     "relevance": 0,
-    "freshness": 15.7,
+    "freshness": 12.1,
     "corroborated": 10,
     "page_change": -4
    },
@@ -68,39 +101,6 @@
     "bush"
    ],
    "first_seen": "2026-10-07T15:50+03:00",
-   "published": "2026-10-06",
-   "verdict": "OPEN THIS \u2014 tier-1 advisory page moved; content not auto-parsed, read it manually"
-  },
-  {
-   "score": 94.6,
-   "components": {
-    "tier": 40,
-    "category": 32,
-    "lead": 3.6,
-    "relevance": 0,
-    "freshness": 13.0,
-    "corroborated": 10,
-    "page_change": -4
-   },
-   "keywords": [],
-   "shock_terms": [],
-   "dedupe_match": null,
-   "dedupe_similarity": 0.1,
-   "id": "15718ac025a3",
-   "title": "[page changed] Federal Register \u2014 public inspection (HHS/CDC), pre-publication",
-   "url": "https://www.federalregister.gov/api/v1/public-inspection-documents/current.json",
-   "summary": "{\"count\":77,\"results\":[{\"agencies\":[{\"raw_name\":\"TREASURY DEPARTMENT\",\"name\":\"Treasury Department\",\"id\":497,\"url\":\"https://www.federalregister.gov/agencies/treasury-department\",\"json_url\":\"https://www.federalregister.gov/api/v1/agencies/497\",\"parent_id\":null,\"slug\":\"treasury-department\"}],\"agency_letters\":[],\"agency_names\":[\"Treasury Department\"],\"docket_numbers\":[],\"document_number\":\"2026-20494\",",
-   "kind": "page-change",
-   "source": "Federal Register \u2014 public inspection (HHS/CDC), pre-publication",
-   "source_id": "us-fedreg-pubinspect-hhs",
-   "tier": 1,
-   "country": "REG",
-   "category": "advisory",
-   "segments": [
-    "city",
-    "bush"
-   ],
-   "first_seen": "2026-10-07T13:21+03:00",
    "published": "2026-10-06",
    "verdict": "OPEN THIS \u2014 tier-1 advisory page moved; content not auto-parsed, read it manually"
   },
@@ -219,13 +219,46 @@
    "verdict": "LEAD CANDIDATE \u2014 tier-1 shock language"
   },
   {
-   "score": 88.5,
+   "score": 91.0,
    "components": {
     "tier": 40,
     "category": 32,
     "lead": 3.6,
     "relevance": 0,
-    "freshness": 6.9,
+    "freshness": 9.4,
+    "corroborated": 10,
+    "page_change": -4
+   },
+   "keywords": [],
+   "shock_terms": [],
+   "dedupe_match": null,
+   "dedupe_similarity": 0.1,
+   "id": "15718ac025a3",
+   "title": "[page changed] Federal Register \u2014 public inspection (HHS/CDC), pre-publication",
+   "url": "https://www.federalregister.gov/api/v1/public-inspection-documents/current.json",
+   "summary": "{\"count\":77,\"results\":[{\"agencies\":[{\"raw_name\":\"TREASURY DEPARTMENT\",\"name\":\"Treasury Department\",\"id\":497,\"url\":\"https://www.federalregister.gov/agencies/treasury-department\",\"json_url\":\"https://www.federalregister.gov/api/v1/agencies/497\",\"parent_id\":null,\"slug\":\"treasury-department\"}],\"agency_letters\":[],\"agency_names\":[\"Treasury Department\"],\"docket_numbers\":[],\"document_number\":\"2026-20494\",",
+   "kind": "page-change",
+   "source": "Federal Register \u2014 public inspection (HHS/CDC), pre-publication",
+   "source_id": "us-fedreg-pubinspect-hhs",
+   "tier": 1,
+   "country": "REG",
+   "category": "advisory",
+   "segments": [
+    "city",
+    "bush"
+   ],
+   "first_seen": "2026-10-07T13:21+03:00",
+   "published": "2026-10-06",
+   "verdict": "OPEN THIS \u2014 tier-1 advisory page moved; content not auto-parsed, read it manually"
+  },
+  {
+   "score": 84.9,
+   "components": {
+    "tier": 40,
+    "category": 32,
+    "lead": 3.6,
+    "relevance": 0,
+    "freshness": 3.3,
     "corroborated": 10,
     "page_change": -4
    },
@@ -351,13 +384,13 @@
    "verdict": "OPEN THIS \u2014 tier-1 advisory page moved; content not auto-parsed, read it manually"
   },
   {
-   "score": 61.3,
+   "score": 57.7,
    "components": {
     "tier": 40,
     "category": 12,
     "lead": 3.6,
     "relevance": 0,
-    "freshness": 15.7,
+    "freshness": 12.1,
     "undated": -6,
     "page_change": -4
    },
@@ -419,13 +452,13 @@
    "verdict": "OPEN THIS \u2014 tier-1 airline page moved; content not auto-parsed, read it manually"
   },
   {
-   "score": 104.2,
+   "score": 100.6,
    "components": {
     "tier": 40,
     "category": 18,
     "lead": 8.4,
     "relevance": 8,
-    "freshness": 19.8,
+    "freshness": 16.2,
     "corroborated": 10
    },
    "keywords": [
@@ -491,13 +524,50 @@
    "verdict": "STRONG \u2014 tier-1, upstream"
   },
   {
-   "score": 98.9,
+   "score": 96.2,
+   "components": {
+    "tier": 20,
+    "category": 14,
+    "lead": 8.4,
+    "relevance": 24,
+    "freshness": 19.8,
+    "corroborated": 10
+   },
+   "keywords": [
+    "suspend",
+    "route",
+    "airline"
+   ],
+   "shock_terms": [],
+   "dedupe_match": null,
+   "dedupe_similarity": 0.2,
+   "id": "c9520006a84b",
+   "title": "Thai Lion Air Suspends India Service Sep \u2013 Dec 2026",
+   "url": "https://www.aeroroutes.com/eng/261007-sl2h26in",
+   "summary": "Published at 1100PDT / 1800GMT 07OCT26 Thai Lion Air since mid-September 2026 once again suspended all service to India, with 5 routes being suspended after 5-week service resumption. As of 07OCT26, the airline tentatively plans to resume 7 routes to India from mid-December 2026 at the earliest, although further changes remain possible. Bangkok Don Mueang \u2013 Ahmedabad eff 17DEC26 4 weekly 737-800 (",
+   "kind": "item",
+   "source": "AeroRoutes schedule filings",
+   "source_id": "aeroroutes",
+   "tier": 2,
+   "country": "GLOBAL",
+   "category": "aviation-tracker",
+   "segments": [
+    "city",
+    "bush",
+    "beach"
+   ],
+   "first_seen": "2026-10-07T22:48+03:00",
+   "published": "2026-10-07",
+   "verdict": "CONSIDER"
+  },
+  {
+   "score": 95.4,
    "components": {
     "tier": 40,
     "category": 32,
     "lead": 1.2,
     "relevance": 12,
-    "freshness": 19.7,
+    "freshness": 16.2,
     "undated": -6
    },
    "keywords": [
@@ -526,13 +596,13 @@
    "verdict": "STRONG \u2014 tier-1, upstream"
   },
   {
-   "score": 98.2,
+   "score": 94.6,
    "components": {
     "tier": 20,
     "category": 4,
     "lead": 2.4,
     "relevance": 24,
-    "freshness": 19.8,
+    "freshness": 16.2,
     "corroborated": 10,
     "shock": 18
    },
@@ -544,7 +614,7 @@
     "outbreak"
    ],
    "dedupe_match": null,
-   "dedupe_similarity": 0.17,
+   "dedupe_similarity": 0.33,
    "id": "c7e3c9388434",
    "title": "CS Aden Duale: There's no Ebola outbreak in Kenya",
    "url": "https://nation.africa/kenya/videos/cs-aden-duale-there-s-no-ebola-outbreak-in-kenya-5622704",
@@ -565,13 +635,13 @@
    "verdict": "CONSIDER"
   },
   {
-   "score": 96.9,
+   "score": 93.3,
    "components": {
     "tier": 40,
     "category": 20,
     "lead": 12.0,
     "relevance": 8,
-    "freshness": 6.9,
+    "freshness": 3.3,
     "corroborated": 10
    },
    "keywords": [
@@ -600,13 +670,13 @@
    "verdict": "STRONG \u2014 tier-1, upstream"
   },
   {
-   "score": 96.9,
+   "score": 93.3,
    "components": {
     "tier": 40,
     "category": 20,
     "lead": 12.0,
     "relevance": 8,
-    "freshness": 6.9,
+    "freshness": 3.3,
     "corroborated": 10
    },
    "keywords": [
@@ -635,13 +705,13 @@
    "verdict": "STRONG \u2014 tier-1, upstream"
   },
   {
-   "score": 93.4,
+   "score": 89.8,
    "components": {
     "tier": 20,
     "category": 14,
     "lead": 8.4,
     "relevance": 28,
-    "freshness": 13.0,
+    "freshness": 9.4,
     "corroborated": 10
    },
    "keywords": [
@@ -674,13 +744,13 @@
    "verdict": "CONSIDER"
   },
   {
-   "score": 92.2,
+   "score": 88.6,
    "components": {
     "tier": 40,
     "category": 12,
     "lead": 2.4,
     "relevance": 8,
-    "freshness": 19.8,
+    "freshness": 16.2,
     "corroborated": 10
    },
    "keywords": [
@@ -706,16 +776,16 @@
    ],
    "first_seen": "2026-10-07T19:31+03:00",
    "published": "2026-10-07",
-   "verdict": "STRONG \u2014 tier-1, upstream"
+   "verdict": "CONSIDER"
   },
   {
-   "score": 92.1,
+   "score": 88.5,
    "components": {
     "tier": 40,
     "category": 24,
     "lead": 2.4,
     "relevance": 0,
-    "freshness": 15.7,
+    "freshness": 12.1,
     "corroborated": 10
    },
    "keywords": [],
@@ -738,16 +808,53 @@
    ],
    "first_seen": "2026-10-07T15:50+03:00",
    "published": "2026-10-07",
-   "verdict": "STRONG \u2014 tier-1, upstream"
+   "verdict": "CONSIDER"
   },
   {
-   "score": 89.4,
+   "score": 88.2,
+   "components": {
+    "tier": 20,
+    "category": 14,
+    "lead": 8.4,
+    "relevance": 16,
+    "freshness": 19.8,
+    "corroborated": 10
+   },
+   "keywords": [
+    "route",
+    "airline",
+    "flight"
+   ],
+   "shock_terms": [],
+   "dedupe_match": null,
+   "dedupe_similarity": 0.2,
+   "id": "8994e079965e",
+   "title": "Scat Airlines Adds Almaty \u2013 Uralsk in NW26",
+   "url": "https://www.aeroroutes.com/eng/261007-dvnw26ura",
+   "summary": "Published at 1000PDT / 1700GMT 07OCT26 Scat Airlines at the launch of Northern winter 2026/27 season plans to launch Almaty \u2013 Uralsk route, where the carrier plans to operate 1 daily flight. From 25OCT26, Boeing 737-800 aircraft to serve this route on daily basis. DV797 ALA1550 \u2013 1910URA 738 x4 DV797 ALA1620 \u2013 1940URA 738 4 DV798 URA2010 \u2013 2310ALA 738 x4 DV798 URA2040 \u2013 2340ALA 738 4",
+   "kind": "item",
+   "source": "AeroRoutes schedule filings",
+   "source_id": "aeroroutes",
+   "tier": 2,
+   "country": "GLOBAL",
+   "category": "aviation-tracker",
+   "segments": [
+    "city",
+    "bush",
+    "beach"
+   ],
+   "first_seen": "2026-10-07T22:48+03:00",
+   "published": "2026-10-07",
+   "verdict": "CONSIDER"
+  },
+  {
+   "score": 85.8,
    "components": {
     "tier": 20,
     "category": 14,
     "lead": 8.4,
     "relevance": 24,
-    "freshness": 13.0,
+    "freshness": 9.4,
     "corroborated": 10
    },
    "keywords": [
@@ -779,13 +886,46 @@
    "verdict": "CONSIDER"
   },
   {
-   "score": 88.9,
+   "score": 85.4,
+   "components": {
+    "tier": 40,
+    "category": 12,
+    "lead": 3.6,
+    "relevance": 0,
+    "freshness": 19.8,
+    "corroborated": 10
+   },
+   "keywords": [],
+   "shock_terms": [],
+   "dedupe_match": null,
+   "dedupe_similarity": 0.0,
+   "id": "ad385202afd1",
+   "title": "KLM viert Nederlands vakmanschap met huisje 107 in Zeeland",
+   "url": "https://nieuws.klm.com/klm-viert-nederlands-vakmanschap-met-huisje-107-in-zeeland",
+   "summary": "KLM viert vandaag haar 107e verjaardag met de onthulling van een nieuw Delfts blauw huisje: Wijnhoeve De Kleine Schorre in het Zeeuwse Dreischor. Al 107 jaar verbindt KLM Nederland met de wereld en laat internationaal zien waar Nederland voor staat. Met de jaarlijkse huisjestraditie eert KLM bijzondere plaatsen en verhalen die Nederland kenmerken. Dit jaar staat de Zeeuwse wijnhoeve centraal, die ",
+   "kind": "item",
+   "source": "KLM/Air France newsroom",
+   "source_id": "air-klm",
+   "tier": 1,
+   "country": "GLOBAL",
+   "category": "airline",
+   "segments": [
+    "city",
+    "bush",
+    "beach"
+   ],
+   "first_seen": "2026-10-07T22:47+03:00",
+   "published": "2026-10-07",
+   "verdict": "CONSIDER"
+  },
+  {
+   "score": 85.3,
    "components": {
     "tier": 40,
     "category": 20,
     "lead": 12.0,
     "relevance": 0,
-    "freshness": 6.9,
+    "freshness": 3.3,
     "corroborated": 10
    },
    "keywords": [],
@@ -812,13 +952,13 @@
    "verdict": "CONSIDER"
   },
   {
-   "score": 88.9,
+   "score": 85.3,
    "components": {
     "tier": 40,
     "category": 20,
     "lead": 12.0,
     "relevance": 0,
-    "freshness": 6.9,
+    "freshness": 3.3,
     "corroborated": 10
    },
    "keywords": [],
@@ -845,13 +985,13 @@
    "verdict": "CONSIDER"
   },
   {
-   "score": 88.9,
+   "score": 85.3,
    "components": {
     "tier": 40,
     "category": 20,
     "lead": 12.0,
     "relevance": 0,
-    "freshness": 6.9,
+    "freshness": 3.3,
     "corroborated": 10
    },
    "keywords": [],
@@ -878,13 +1018,13 @@
    "verdict": "CONSIDER"
   },
   {
-   "score": 88.9,
+   "score": 85.3,
    "components": {
     "tier": 40,
     "category": 20,
     "lead": 12.0,
     "relevance": 0,
-    "freshness": 6.9,
+    "freshness": 3.3,
     "corroborated": 10
    },
    "keywords": [],
@@ -911,13 +1051,13 @@
    "verdict": "CONSIDER"
   },
   {
-   "score": 88.9,
+   "score": 85.3,
    "components": {
     "tier": 40,
     "category": 20,
     "lead": 12.0,
     "relevance": 0,
-    "freshness": 6.9,
+    "freshness": 3.3,
     "corroborated": 10
    },
    "keywords": [],
@@ -944,13 +1084,13 @@
    "verdict": "CONSIDER"
   },
   {
-   "score": 88.9,
+   "score": 85.3,
    "components": {
     "tier": 40,
     "category": 20,
     "lead": 12.0,
     "relevance": 0,
-    "freshness": 6.9,
+    "freshness": 3.3,
     "corroborated": 10
    },
    "keywords": [],
@@ -977,13 +1117,13 @@
    "verdict": "CONSIDER"
   },
   {
-   "score": 88.9,
+   "score": 85.3,
    "components": {
     "tier": 40,
     "category": 20,
     "lead": 12.0,
     "relevance": 0,
-    "freshness": 6.9,
+    "freshness": 3.3,
     "corroborated": 10
    },
    "keywords": [],
@@ -1010,13 +1150,13 @@
    "verdict": "CONSIDER"
   },
   {
-   "score": 88.1,
+   "score": 84.5,
    "components": {
     "tier": 40,
     "category": 24,
     "lead": 2.4,
     "relevance": 12,
-    "freshness": 15.7,
+    "freshness": 12.1,
     "undated": -6
    },
    "keywords": [
@@ -1024,7 +1164,7 @@
    ],
    "shock_terms": [],
    "dedupe_match": null,
-   "dedupe_similarity": 0.17,
+   "dedupe_similarity": 0.33,
    "id": "67cc44fc694a",
    "title": "Kenya Strengthens Ebola Preparedness and Contact Tracing",
    "url": "https://www.health.go.ke/kenya-strengthens-ebola-preparedness-and-contact-tracing",
@@ -1045,13 +1185,123 @@
    "verdict": "CONSIDER"
   },
   {
-   "score": 86.9,
+   "score": 84.2,
+   "components": {
+    "tier": 20,
+    "category": 14,
+    "lead": 8.4,
+    "relevance": 12,
+    "freshness": 19.8,
+    "corroborated": 10
+   },
+   "keywords": [
+    "route",
+    "airline"
+   ],
+   "shock_terms": [],
+   "dedupe_match": null,
+   "dedupe_similarity": 0.2,
+   "id": "60617e7ab939",
+   "title": "China Eastern Adds Nanjing \u2013 Hanoi From Nov 2026",
+   "url": "https://www.aeroroutes.com/eng/261007-munov26han",
+   "summary": "Published at 1200PDT / 1900GMT 07OCT26 China Eastern during Northern winter 2026/27 season plans to expand service to Vietnam, where the airline plans 1 daily Nanjing \u2013 Hanoi route. Airbus A320 aircraft to serve this route from 20NOV26. MU2677 NKG1320 \u2013 1530HAN 32N D MU2678 HAN1630 \u2013 2030NKG 32N D",
+   "kind": "item",
+   "source": "AeroRoutes schedule filings",
+   "source_id": "aeroroutes",
+   "tier": 2,
+   "country": "GLOBAL",
+   "category": "aviation-tracker",
+   "segments": [
+    "city",
+    "bush",
+    "beach"
+   ],
+   "first_seen": "2026-10-07T22:48+03:00",
+   "published": "2026-10-07",
+   "verdict": "CONSIDER"
+  },
+  {
+   "score": 83.8,
+   "components": {
+    "tier": 20,
+    "category": 4,
+    "lead": 0.0,
+    "relevance": 12,
+    "freshness": 19.8,
+    "corroborated": 10,
+    "shock": 18
+   },
+   "keywords": [
+    "outbreak"
+   ],
+   "shock_terms": [
+    "outbreak"
+   ],
+   "dedupe_match": null,
+   "dedupe_similarity": 0.14,
+   "id": "dc4b85d3f97e",
+   "title": "8.2m children vaccinated as Uganda battles recurring measles outbreaks",
+   "url": "https://www.monitor.co.ug/uganda/news/national/8-2m-children-vaccinated-as-uganda-battles-recurring-measles-outbreaks-5623390",
+   "summary": "Uganda has exceeded its mass vaccination target",
+   "kind": "item",
+   "source": "Daily Monitor (Uganda)",
+   "source_id": "np-monitor-ug",
+   "tier": 2,
+   "country": "UG",
+   "category": "press",
+   "segments": [
+    "city",
+    "bush",
+    "beach"
+   ],
+   "first_seen": "2026-10-07T22:48+03:00",
+   "published": "2026-10-07",
+   "verdict": "CONSIDER"
+  },
+  {
+   "score": 83.8,
+   "components": {
+    "tier": 40,
+    "category": 9,
+    "lead": 16.8,
+    "relevance": 8,
+    "freshness": 0.0,
+    "corroborated": 10
+   },
+   "keywords": [
+    "hotel",
+    "opening"
+   ],
+   "shock_terms": [],
+   "dedupe_match": null,
+   "dedupe_similarity": 0.11,
+   "id": "b57b4483b912",
+   "title": "Signia Hilton Indianapolis Unveils Signature Culinary and Bar Concepts Ahead of Hotel\u2019s December Debut",
+   "url": "https://stories.hilton.com/releases/signia-hilton-indianapolis-unveils-signature-culinary-and-bar-concepts",
+   "summary": "INDIANAPOLIS \u2013 Signia Hilton Indianapolis today unveiled its signature culinary and beverage experiences ahead of the hotel\u2019s highly anticipated opening this December. Designed as dynamic destinations in their own right, the property\u2019s restaurants, bars and gathering spaces will introduce distinctive new venues where travelers and locals can connect with the creativity, culture and energy of [\u2026] T",
+   "kind": "item",
+   "source": "Hilton stories/newsroom",
+   "source_id": "dev-hilton",
+   "tier": 1,
+   "country": "GLOBAL",
+   "category": "hotel-group",
+   "segments": [
+    "city",
+    "bush",
+    "beach"
+   ],
+   "first_seen": "2026-10-07T01:27+03:00",
+   "published": "2026-10-06",
+   "verdict": "CONSIDER"
+  },
+  {
+   "score": 83.3,
    "components": {
     "tier": 40,
     "category": 20,
     "lead": 12.0,
     "relevance": 8,
-    "freshness": 6.9
+    "freshness": 3.3
    },
    "keywords": [
     "eta"
@@ -1079,13 +1329,13 @@
    "verdict": "CONSIDER"
   },
   {
-   "score": 86.9,
+   "score": 83.3,
    "components": {
     "tier": 40,
     "category": 20,
     "lead": 12.0,
     "relevance": 8,
-    "freshness": 6.9
+    "freshness": 3.3
    },
    "keywords": [
     "capacity"
@@ -1113,13 +1363,13 @@
    "verdict": "CONSIDER"
   },
   {
-   "score": 85.4,
+   "score": 81.8,
    "components": {
     "tier": 40,
     "category": 24,
     "lead": 2.4,
     "relevance": 12,
-    "freshness": 13.0,
+    "freshness": 9.4,
     "undated": -6
    },
    "keywords": [
@@ -1127,7 +1377,7 @@
    ],
    "shock_terms": [],
    "dedupe_match": null,
-   "dedupe_similarity": 0.17,
+   "dedupe_similarity": 0.25,
    "id": "3b6e4346cf48",
    "title": "Kenya Strengthens Ebola Preparedness as CS Urges Public to Rely on Official Information",
    "url": "https://www.health.go.ke/kenya-strengthens-ebola-preparedness-cs-urges-public-rely-official-information",
@@ -1145,257 +1395,6 @@
    ],
    "first_seen": "2026-10-07T13:21+03:00",
    "published": null,
-   "verdict": "CONSIDER"
-  },
-  {
-   "score": 85.4,
-   "components": {
-    "tier": 40,
-    "category": 24,
-    "lead": 2.4,
-    "relevance": 12,
-    "freshness": 13.0,
-    "undated": -6
-   },
-   "keywords": [
-    "ebola"
-   ],
-   "shock_terms": [],
-   "dedupe_match": null,
-   "dedupe_similarity": 0.38,
-   "id": "826cfad44bb8",
-   "title": "Kenya Confirms First Imported Case of Bundibugyo Ebola Virus Disease",
-   "url": "https://www.health.go.ke/kenya-confirms-first-imported-case-bundibugyo-ebola-virus-disease",
-   "summary": "",
-   "kind": "item",
-   "source": "Kenya Ministry of Health",
-   "source_id": "ke-moh",
-   "tier": 1,
-   "country": "KE",
-   "category": "health",
-   "segments": [
-    "city",
-    "bush",
-    "beach"
-   ],
-   "first_seen": "2026-10-07T13:21+03:00",
-   "published": null,
-   "verdict": "CONSIDER"
-  },
-  {
-   "score": 85.4,
-   "components": {
-    "tier": 20,
-    "category": 14,
-    "lead": 8.4,
-    "relevance": 20,
-    "freshness": 13.0,
-    "corroborated": 10
-   },
-   "keywords": [
-    "vat",
-    "route",
-    "airline"
-   ],
-   "shock_terms": [],
-   "dedupe_match": null,
-   "dedupe_similarity": 0.12,
-   "id": "7634654183ce",
-   "title": "Lufthansa Resumes Nagoya / Tokyo Narita in NS27",
-   "url": "https://www.aeroroutes.com/eng/261007-lhns27jp",
-   "summary": "Published at 0100PDT / 0800GMT 07OCT26 Lufthansa yesterday (06OCT26) announced and opened reservations for 2 routes to Japan, previously offered by the airline. The Star Alliance member will resume service to Nagoya and Tokyo Narita, with following schedules. Frankfurt \u2013 Nagoya eff 29MAR27 3 weekly 787-9 (Last served until March 2020) LH736 FRA1410 \u2013 0935+1NGO 789 136 LH737 NGO1130 \u2013 1830FRA 789 2",
-   "kind": "item",
-   "source": "AeroRoutes schedule filings",
-   "source_id": "aeroroutes",
-   "tier": 2,
-   "country": "GLOBAL",
-   "category": "aviation-tracker",
-   "segments": [
-    "city",
-    "bush",
-    "beach"
-   ],
-   "first_seen": "2026-10-07T13:21+03:00",
-   "published": "2026-10-07",
-   "verdict": "CONSIDER"
-  },
-  {
-   "score": 84.5,
-   "components": {
-    "tier": 40,
-    "category": 10,
-    "lead": 16.8,
-    "relevance": 8,
-    "freshness": 15.7,
-    "undated": -6
-   },
-   "keywords": [
-    "tax"
-   ],
-   "shock_terms": [],
-   "dedupe_match": null,
-   "dedupe_similarity": 0.17,
-   "id": "95950a286e6d",
-   "title": "Tayebwa preaches tax compliance, integrity in business Wednesday, 7 October 2026",
-   "url": "https://www.parliament.go.ug/news/4654/tayebwa-preaches-tax-compliance-integrity-business",
-   "summary": "",
-   "kind": "item",
-   "source": "Parliament of Uganda",
-   "source_id": "ug-parliament",
-   "tier": 1,
-   "country": "UG",
-   "category": "legislature",
-   "segments": [
-    "city",
-    "bush",
-    "beach"
-   ],
-   "first_seen": "2026-10-07T15:50+03:00",
-   "published": null,
-   "verdict": "CONSIDER"
-  },
-  {
-   "score": 84.2,
-   "components": {
-    "tier": 20,
-    "category": 14,
-    "lead": 8.4,
-    "relevance": 12,
-    "freshness": 19.8,
-    "corroborated": 10
-   },
-   "keywords": [
-    "route",
-    "airline"
-   ],
-   "shock_terms": [],
-   "dedupe_match": null,
-   "dedupe_similarity": 0.2,
-   "id": "8b4998bf4681",
-   "title": "Porter Airlines Expands London ON Domestic Network in NS27",
-   "url": "https://www.aeroroutes.com/eng/261007-pdns27yxu",
-   "summary": "Published at 0900PDT / 1600GMT 07OCT26 Porter Airlines this week announced network expansion at London ON for Northern summer 2027 season, where the carrier launches 5 routes in the second quarter. Schedules below focuses on the period of 01MAY27 \u2013 31AUG27. London ON \u2013 Edmonton eff 06MAY27 1 daily Embraer E195-E2 PD333 YXU1050 \u2013 1300YEG 295 D PD334 YEG1355 \u2013 1937YXU 295 D London ON \u2013 Halifax eff 1",
-   "kind": "item",
-   "source": "AeroRoutes schedule filings",
-   "source_id": "aeroroutes",
-   "tier": 2,
-   "country": "GLOBAL",
-   "category": "aviation-tracker",
-   "segments": [
-    "city",
-    "bush",
-    "beach"
-   ],
-   "first_seen": "2026-10-07T19:32+03:00",
-   "published": "2026-10-07",
-   "verdict": "CONSIDER"
-  },
-  {
-   "score": 84.2,
-   "components": {
-    "tier": 20,
-    "category": 14,
-    "lead": 8.4,
-    "relevance": 12,
-    "freshness": 19.8,
-    "corroborated": 10
-   },
-   "keywords": [
-    "route",
-    "airline"
-   ],
-   "shock_terms": [],
-   "dedupe_match": null,
-   "dedupe_similarity": 0.2,
-   "id": "2eb90514b73d",
-   "title": "United Expands Newark \u2013 Palma de Mallorca Service in NS27",
-   "url": "https://www.aeroroutes.com/eng/261007-uans27pmi",
-   "summary": "Published at 0800PDT / 1500GMT 07OCT26 United in recent schedule update filed service expansion on Newark \u2013 Palma de Mallorca route during Northern summer 2027 season. From 21JUN27, the airline will increase service from 4 weekly to 1 daily. Planned end date for 1 daily operation remains unknown, based on current schedule filing. Boeing 767-400ER operates this route. UA236 EWR1620 \u2013 0615+1PMI 764 ",
-   "kind": "item",
-   "source": "AeroRoutes schedule filings",
-   "source_id": "aeroroutes",
-   "tier": 2,
-   "country": "GLOBAL",
-   "category": "aviation-tracker",
-   "segments": [
-    "city",
-    "bush",
-    "beach"
-   ],
-   "first_seen": "2026-10-07T19:32+03:00",
-   "published": "2026-10-07",
-   "verdict": "CONSIDER"
-  },
-  {
-   "score": 84.2,
-   "components": {
-    "tier": 20,
-    "category": 14,
-    "lead": 8.4,
-    "relevance": 12,
-    "freshness": 19.8,
-    "corroborated": 10
-   },
-   "keywords": [
-    "route",
-    "flight"
-   ],
-   "shock_terms": [],
-   "dedupe_match": null,
-   "dedupe_similarity": 0.12,
-   "id": "b4d376636267",
-   "title": "Saudia Moves Forward Manchester Service Increase in NW26",
-   "url": "https://www.aeroroutes.com/eng/261007-svnw26man",
-   "summary": "Published at 0700PDT / 1400GMT 07OCT26 Saudia in the last few days confirmed planned service increase on Jeddah \u2013 Manchester route, previously reported on AeroRoutes . From 01NOV26, overall service will increase from 7 to 10 weekly, with additional flights operated by A321XLR. The Skyteam member originally planned to increase flights on this route form 02JAN27. Schedule below focuses on the period",
-   "kind": "item",
-   "source": "AeroRoutes schedule filings",
-   "source_id": "aeroroutes",
-   "tier": 2,
-   "country": "GLOBAL",
-   "category": "aviation-tracker",
-   "segments": [
-    "city",
-    "bush",
-    "beach"
-   ],
-   "first_seen": "2026-10-07T19:32+03:00",
-   "published": "2026-10-07",
-   "verdict": "CONSIDER"
-  },
-  {
-   "score": 84.2,
-   "components": {
-    "tier": 20,
-    "category": 14,
-    "lead": 8.4,
-    "relevance": 12,
-    "freshness": 19.8,
-    "corroborated": 10
-   },
-   "keywords": [
-    "route",
-    "airline"
-   ],
-   "shock_terms": [],
-   "dedupe_match": null,
-   "dedupe_similarity": 0.12,
-   "id": "281d4881c055",
-   "title": "China Airlines / Virgin Atlantic Plans 4Q26 Codeshare Partnership",
-   "url": "https://www.aeroroutes.com/eng/261007-civscodeshare",
-   "summary": "Published at 0400PDT / 1100GMT 07OCT26 China Airlines and Virgin Atlantic in the fourth quarter of 2026 launches codeshare partnership, with effective date listed from 07OCT26 at the earliest. At time this post goes to press, initial codeshare partnership covers Virgin Atlantic\u2019s London Heathrow \u2013 Seoul Incheon route. VS208/CI9288 LHR1325 \u2013 1005+1ICN 789 D VS209/CI9289 ICN1225 \u2013 1850LHR 789 D",
-   "kind": "item",
-   "source": "AeroRoutes schedule filings",
-   "source_id": "aeroroutes",
-   "tier": 2,
-   "country": "GLOBAL",
-   "category": "aviation-tracker",
-   "segments": [
-    "city",
-    "bush",
-    "beach"
-   ],
-   "first_seen": "2026-10-07T19:32+03:00",
-   "published": "2026-10-07",
    "verdict": "CONSIDER"
   }
  ]
