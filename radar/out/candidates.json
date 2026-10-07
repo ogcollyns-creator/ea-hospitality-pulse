@@ -1,18 +1,51 @@
 {
- "generated": "2026-10-07T13:22:34+03:00",
- "slot": "midday",
- "window_start": 1791345600,
- "observations_in_window": 469,
+ "generated": "2026-10-07T16:00:54+03:00",
+ "slot": "evening",
+ "window_start": 1791288000,
+ "observations_in_window": 1202,
  "deduped_against": 23,
  "candidates": [
   {
-   "score": 101.4,
+   "score": 101.2,
    "components": {
     "tier": 40,
     "category": 32,
     "lead": 3.6,
     "relevance": 0,
-    "freshness": 19.8,
+    "freshness": 19.6,
+    "corroborated": 10,
+    "page_change": -4
+   },
+   "keywords": [],
+   "shock_terms": [],
+   "dedupe_match": null,
+   "dedupe_similarity": 0.1,
+   "id": "aeccfdaf9d66",
+   "title": "[page changed] Federal Register \u2014 public inspection (HHS/CDC), pre-publication",
+   "url": "https://www.federalregister.gov/api/v1/public-inspection-documents/current.json",
+   "summary": "{\"count\":133,\"results\":[{\"agencies\":[{\"raw_name\":\"National Oceanic and Atmospheric Administration\",\"name\":\"National Oceanic and Atmospheric Administration\",\"id\":361,\"url\":\"https://www.federalregister.gov/agencies/national-oceanic-and-atmospheric-administration\",\"json_url\":\"https://www.federalregister.gov/api/v1/agencies/361\",\"parent_id\":54,\"slug\":\"national-oceanic-and-atmospheric-administration\"}]",
+   "kind": "page-change",
+   "source": "Federal Register \u2014 public inspection (HHS/CDC), pre-publication",
+   "source_id": "us-fedreg-pubinspect-hhs",
+   "tier": 1,
+   "country": "REG",
+   "category": "advisory",
+   "segments": [
+    "city",
+    "bush"
+   ],
+   "first_seen": "2026-10-07T15:50+03:00",
+   "published": "2026-10-06",
+   "verdict": "OPEN THIS \u2014 tier-1 advisory page moved; content not auto-parsed, read it manually"
+  },
+  {
+   "score": 98.5,
+   "components": {
+    "tier": 40,
+    "category": 32,
+    "lead": 3.6,
+    "relevance": 0,
+    "freshness": 16.9,
     "corroborated": 10,
     "page_change": -4
    },
@@ -39,13 +72,127 @@
    "verdict": "OPEN THIS \u2014 tier-1 advisory page moved; content not auto-parsed, read it manually"
   },
   {
-   "score": 95.3,
+   "score": 92.8,
+   "components": {
+    "tier": 40,
+    "category": 24,
+    "lead": 4.8,
+    "relevance": 12,
+    "freshness": 0.0,
+    "undated": -6,
+    "shock": 18
+   },
+   "keywords": [
+    "outbreak"
+   ],
+   "shock_terms": [
+    "outbreak"
+   ],
+   "dedupe_match": null,
+   "dedupe_similarity": 0.17,
+   "id": "3d1940fa9e58",
+   "title": "Weekly Bulletin on Outbreak and other Emergencies: Week 36: 31 August to 6 September 2026",
+   "url": "https://www.afro.who.int/countries/kenya/publication/weekly-bulletin-outbreak-and-other-emergencies-week-36-31-august-6-september-2026",
+   "summary": "",
+   "kind": "item",
+   "source": "WHO AFRO outbreaks & emergencies",
+   "source_id": "who-afro-outbreaks",
+   "tier": 1,
+   "country": "REG",
+   "category": "health",
+   "segments": [
+    "city",
+    "bush",
+    "beach"
+   ],
+   "first_seen": "2026-10-06T18:58+03:00",
+   "published": null,
+   "verdict": "LEAD CANDIDATE \u2014 tier-1 shock language"
+  },
+  {
+   "score": 92.8,
+   "components": {
+    "tier": 40,
+    "category": 24,
+    "lead": 4.8,
+    "relevance": 12,
+    "freshness": 0.0,
+    "undated": -6,
+    "shock": 18
+   },
+   "keywords": [
+    "outbreak"
+   ],
+   "shock_terms": [
+    "outbreak"
+   ],
+   "dedupe_match": null,
+   "dedupe_similarity": 0.17,
+   "id": "b28519ab296b",
+   "title": "Weekly Bulletin on Outbreak and other Emergencies: Week 38: 14 to 20 September 2026",
+   "url": "https://www.afro.who.int/countries/south-africa/publication/weekly-bulletin-outbreak-and-other-emergencies-week-38-14-20-september-2026",
+   "summary": "",
+   "kind": "item",
+   "source": "WHO AFRO outbreaks & emergencies",
+   "source_id": "who-afro-outbreaks",
+   "tier": 1,
+   "country": "REG",
+   "category": "health",
+   "segments": [
+    "city",
+    "bush",
+    "beach"
+   ],
+   "first_seen": "2026-10-06T18:58+03:00",
+   "published": null,
+   "verdict": "LEAD CANDIDATE \u2014 tier-1 shock language"
+  },
+  {
+   "score": 92.8,
+   "components": {
+    "tier": 40,
+    "category": 24,
+    "lead": 4.8,
+    "relevance": 12,
+    "freshness": 0.0,
+    "undated": -6,
+    "shock": 18
+   },
+   "keywords": [
+    "outbreak"
+   ],
+   "shock_terms": [
+    "outbreak"
+   ],
+   "dedupe_match": null,
+   "dedupe_similarity": 0.17,
+   "id": "eb95d5ffa4bd",
+   "title": "Weekly Bulletin on Outbreak and other Emergencies: Week 37: 7 to 13 September 2026",
+   "url": "https://www.afro.who.int/countries/ethiopia/publication/weekly-bulletin-outbreak-and-other-emergencies-week-37-7-13-september-2026",
+   "summary": "",
+   "kind": "item",
+   "source": "WHO AFRO outbreaks & emergencies",
+   "source_id": "who-afro-outbreaks",
+   "tier": 1,
+   "country": "REG",
+   "category": "health",
+   "segments": [
+    "city",
+    "bush",
+    "beach"
+   ],
+   "first_seen": "2026-10-06T18:58+03:00",
+   "published": null,
+   "verdict": "LEAD CANDIDATE \u2014 tier-1 shock language"
+  },
+  {
+   "score": 92.4,
    "components": {
     "tier": 40,
     "category": 32,
     "lead": 3.6,
     "relevance": 0,
-    "freshness": 13.7,
+    "freshness": 10.8,
     "corroborated": 10,
     "page_change": -4
    },
@@ -72,13 +219,219 @@
    "verdict": "OPEN THIS \u2014 tier-1 advisory page moved; content not auto-parsed, read it manually"
   },
   {
-   "score": 103.7,
+   "score": 85.4,
+   "components": {
+    "tier": 40,
+    "category": 32,
+    "lead": 3.6,
+    "relevance": 0,
+    "freshness": 3.8,
+    "corroborated": 10,
+    "page_change": -4
+   },
+   "keywords": [],
+   "shock_terms": [],
+   "dedupe_match": null,
+   "dedupe_similarity": 0.1,
+   "id": "67730afee934",
+   "title": "[page changed] Federal Register \u2014 public inspection (HHS/CDC), pre-publication",
+   "url": "https://www.federalregister.gov/api/v1/public-inspection-documents/current.json",
+   "summary": "{\"count\":77,\"results\":[{\"agencies\":[{\"raw_name\":\"TREASURY DEPARTMENT\",\"name\":\"Treasury Department\",\"id\":497,\"url\":\"https://www.federalregister.gov/agencies/treasury-department\",\"json_url\":\"https://www.federalregister.gov/api/v1/agencies/497\",\"parent_id\":null,\"slug\":\"treasury-department\"}],\"agency_letters\":[],\"agency_names\":[\"Treasury Department\"],\"docket_numbers\":[],\"document_number\":\"2026-20494\",",
+   "kind": "page-change",
+   "source": "Federal Register \u2014 public inspection (HHS/CDC), pre-publication",
+   "source_id": "us-fedreg-pubinspect-hhs",
+   "tier": 1,
+   "country": "REG",
+   "category": "advisory",
+   "segments": [
+    "city",
+    "bush"
+   ],
+   "first_seen": "2026-10-07T01:27+03:00",
+   "published": "2026-10-06",
+   "verdict": "OPEN THIS \u2014 tier-1 advisory page moved; content not auto-parsed, read it manually"
+  },
+  {
+   "score": 83.1,
+   "components": {
+    "tier": 40,
+    "category": 32,
+    "lead": 3.6,
+    "relevance": 0,
+    "freshness": 1.5,
+    "corroborated": 10,
+    "page_change": -4
+   },
+   "keywords": [],
+   "shock_terms": [],
+   "dedupe_match": null,
+   "dedupe_similarity": 0.1,
+   "id": "e39e6be45dbd",
+   "title": "[page changed] Federal Register \u2014 public inspection (HHS/CDC), pre-publication",
+   "url": "https://www.federalregister.gov/api/v1/public-inspection-documents/current.json",
+   "summary": "{\"count\":77,\"results\":[{\"agencies\":[{\"raw_name\":\"TREASURY DEPARTMENT\",\"name\":\"Treasury Department\",\"id\":497,\"url\":\"https://www.federalregister.gov/agencies/treasury-department\",\"json_url\":\"https://www.federalregister.gov/api/v1/agencies/497\",\"parent_id\":null,\"slug\":\"treasury-department\"}],\"agency_letters\":[],\"agency_names\":[\"Treasury Department\"],\"docket_numbers\":[],\"document_number\":\"2026-20494\",",
+   "kind": "page-change",
+   "source": "Federal Register \u2014 public inspection (HHS/CDC), pre-publication",
+   "source_id": "us-fedreg-pubinspect-hhs",
+   "tier": 1,
+   "country": "REG",
+   "category": "advisory",
+   "segments": [
+    "city",
+    "bush"
+   ],
+   "first_seen": "2026-10-06T23:24+03:00",
+   "published": "2026-10-06",
+   "verdict": "OPEN THIS \u2014 tier-1 advisory page moved; content not auto-parsed, read it manually"
+  },
+  {
+   "score": 81.6,
+   "components": {
+    "tier": 40,
+    "category": 32,
+    "lead": 3.6,
+    "relevance": 0,
+    "freshness": 0.0,
+    "corroborated": 10,
+    "page_change": -4
+   },
+   "keywords": [],
+   "shock_terms": [],
+   "dedupe_match": null,
+   "dedupe_similarity": 0.1,
+   "id": "e214dd84b3de",
+   "title": "[page changed] Federal Register \u2014 public inspection (HHS/CDC), pre-publication",
+   "url": "https://www.federalregister.gov/api/v1/public-inspection-documents/current.json",
+   "summary": "{\"count\":73,\"results\":[{\"agencies\":[{\"raw_name\":\"TREASURY DEPARTMENT\",\"name\":\"Treasury Department\",\"id\":497,\"url\":\"https://www.federalregister.gov/agencies/treasury-department\",\"json_url\":\"https://www.federalregister.gov/api/v1/agencies/497\",\"parent_id\":null,\"slug\":\"treasury-department\"}],\"agency_letters\":[],\"agency_names\":[\"Treasury Department\"],\"docket_numbers\":[],\"document_number\":\"2026-20494\",",
+   "kind": "page-change",
+   "source": "Federal Register \u2014 public inspection (HHS/CDC), pre-publication",
+   "source_id": "us-fedreg-pubinspect-hhs",
+   "tier": 1,
+   "country": "REG",
+   "category": "advisory",
+   "segments": [
+    "city",
+    "bush"
+   ],
+   "first_seen": "2026-10-06T18:58+03:00",
+   "published": "2026-10-06",
+   "verdict": "OPEN THIS \u2014 tier-1 advisory page moved; content not auto-parsed, read it manually"
+  },
+  {
+   "score": 65.2,
+   "components": {
+    "tier": 40,
+    "category": 12,
+    "lead": 3.6,
+    "relevance": 0,
+    "freshness": 19.6,
+    "undated": -6,
+    "page_change": -4
+   },
+   "keywords": [],
+   "shock_terms": [],
+   "dedupe_match": null,
+   "dedupe_similarity": 0.0,
+   "id": "f405906cdd68",
+   "title": "[page changed] Airlink news",
+   "url": "https://www.flyairlink.com/",
+   "summary": "Request unsuccessful. Incapsula incident ID: 491000060205830144-172557019887894959",
+   "kind": "page-change",
+   "source": "Airlink news",
+   "source_id": "air-airlink",
+   "tier": 1,
+   "country": "REG",
+   "category": "airline",
+   "segments": [
+    "city",
+    "bush",
+    "beach"
+   ],
+   "first_seen": "2026-10-07T15:50+03:00",
+   "published": null,
+   "verdict": "OPEN THIS \u2014 tier-1 airline page moved; content not auto-parsed, read it manually"
+  },
+  {
+   "score": 49.4,
+   "components": {
+    "tier": 40,
+    "category": 12,
+    "lead": 3.6,
+    "relevance": 0,
+    "freshness": 3.8,
+    "undated": -6,
+    "page_change": -4
+   },
+   "keywords": [],
+   "shock_terms": [],
+   "dedupe_match": null,
+   "dedupe_similarity": 0.0,
+   "id": "670c1fc39ea7",
+   "title": "[page changed] Airlink news",
+   "url": "https://www.flyairlink.com/",
+   "summary": "Request unsuccessful. Incapsula incident ID: 474000060129162828-191754084885856691",
+   "kind": "page-change",
+   "source": "Airlink news",
+   "source_id": "air-airlink",
+   "tier": 1,
+   "country": "REG",
+   "category": "airline",
+   "segments": [
+    "city",
+    "bush",
+    "beach"
+   ],
+   "first_seen": "2026-10-07T01:27+03:00",
+   "published": null,
+   "verdict": "OPEN THIS \u2014 tier-1 airline page moved; content not auto-parsed, read it manually"
+  },
+  {
+   "score": 103.6,
+   "components": {
+    "tier": 40,
+    "category": 9,
+    "lead": 16.8,
+    "relevance": 24,
+    "freshness": 3.8,
+    "corroborated": 10
+   },
+   "keywords": [
+    "airport",
+    "hotel",
+    "resort",
+    "signing",
+    "rooms"
+   ],
+   "shock_terms": [],
+   "dedupe_match": null,
+   "dedupe_similarity": 0.12,
+   "id": "3010dfb99cb5",
+   "title": "Hilton Strengthens Bengaluru Portfolio with Signing of Conrad Bengaluru Airport and Hilton Bengaluru Airport, Adding 600 Rooms",
+   "url": "https://stories.hilton.com/releases/conrad-bengaluru-airport-and-hilton-bengaluru-airport-signing",
+   "summary": "BENGALURU, India \u2013 Hilton (NYSE: HLT) today announced the signing of two hotels under its Conrad Hotels & Resorts and Hilton Hotels & Resorts brands, in partnership with Bengaluru-based Kalyani Group. The cluster development, featuring a combined 600 rooms, further expands Hilton\u2019s presence in its largest market in India by number of hotels and marks [\u2026] The post Hilton Strengthens Bengaluru Portf",
+   "kind": "item",
+   "source": "Hilton stories/newsroom",
+   "source_id": "dev-hilton",
+   "tier": 1,
+   "country": "GLOBAL",
+   "category": "hotel-group",
+   "segments": [
+    "city",
+    "bush",
+    "beach"
+   ],
+   "first_seen": "2026-10-07T01:27+03:00",
+   "published": "2026-10-06",
+   "verdict": "STRONG \u2014 tier-1, upstream"
+  },
+  {
+   "score": 100.8,
    "components": {
     "tier": 40,
     "category": 20,
     "lead": 12.0,
     "relevance": 8,
-    "freshness": 13.7,
+    "freshness": 10.8,
     "corroborated": 10
    },
    "keywords": [
@@ -107,13 +460,13 @@
    "verdict": "STRONG \u2014 tier-1, upstream"
   },
   {
-   "score": 103.7,
+   "score": 100.8,
    "components": {
     "tier": 40,
     "category": 20,
     "lead": 12.0,
     "relevance": 8,
-    "freshness": 13.7,
+    "freshness": 10.8,
     "corroborated": 10
    },
    "keywords": [
@@ -142,13 +495,13 @@
    "verdict": "STRONG \u2014 tier-1, upstream"
   },
   {
-   "score": 100.2,
+   "score": 97.3,
    "components": {
     "tier": 20,
     "category": 14,
     "lead": 8.4,
     "relevance": 28,
-    "freshness": 19.8,
+    "freshness": 16.9,
     "corroborated": 10
    },
    "keywords": [
@@ -181,13 +534,79 @@
    "verdict": "CONSIDER"
   },
   {
-   "score": 96.2,
+   "score": 96.0,
+   "components": {
+    "tier": 40,
+    "category": 24,
+    "lead": 2.4,
+    "relevance": 0,
+    "freshness": 19.6,
+    "corroborated": 10
+   },
+   "keywords": [],
+   "shock_terms": [],
+   "dedupe_match": null,
+   "dedupe_similarity": 0.0,
+   "id": "5d6498f58595",
+   "title": "SitRep N\u00b0144 /MVE-BDBV/05/10/2026",
+   "url": "https://insp.cd/sitrep-n144-mve-bdbv-05-10-2026",
+   "summary": "",
+   "kind": "item",
+   "source": "INSP RDC \u2014 Ebola daily situation reports (SitRep)",
+   "source_id": "cd-insp-sitrep",
+   "tier": 1,
+   "country": "GLOBAL",
+   "category": "health",
+   "segments": [
+    "City",
+    "Bush"
+   ],
+   "first_seen": "2026-10-07T15:50+03:00",
+   "published": "2026-10-07",
+   "verdict": "STRONG \u2014 tier-1, upstream"
+  },
+  {
+   "score": 94.6,
+   "components": {
+    "tier": 40,
+    "category": 7,
+    "lead": 6.0,
+    "relevance": 12,
+    "freshness": 19.6,
+    "corroborated": 10
+   },
+   "keywords": [
+    "eta",
+    "signing"
+   ],
+   "shock_terms": [],
+   "dedupe_match": null,
+   "dedupe_similarity": 0.33,
+   "id": "cc341488bfe8",
+   "title": "EAC and China Reaffirm Longstanding Partnership and Commitment to Regional Integration",
+   "url": "https://www.eac.int/press-releases/3602-eac-and-china-reaffrim-longstanding-partnership-and-commitment-to-regional-integration%20",
+   "summary": "East African Community Headquarters, Arusha, Tanzania, 5th October 2026: The East African Community (EAC) Secretary General, H.E Amb. Stephen Mbundi and Ambassador of the People's Republic of China to Tanzania and the EAC, H.E. Chen Mingjian, today signed a Certificate of Donation at the EAC Headquarters in Arusha, marking China\u2019s continued financial support to the East African Community. Speaking",
+   "kind": "item",
+   "source": "East African Community \u2014 Secretariat news",
+   "source_id": "eac-secretariat",
+   "tier": 1,
+   "country": "Regional",
+   "category": "body",
+   "segments": [
+    "city"
+   ],
+   "first_seen": "2026-10-07T15:50+03:00",
+   "published": "2026-10-05",
+   "verdict": "STRONG \u2014 tier-1, upstream"
+  },
+  {
+   "score": 93.3,
    "components": {
     "tier": 20,
     "category": 14,
     "lead": 8.4,
     "relevance": 24,
-    "freshness": 19.8,
+    "freshness": 16.9,
     "corroborated": 10
    },
    "keywords": [
@@ -219,13 +638,13 @@
    "verdict": "CONSIDER"
   },
   {
-   "score": 95.7,
+   "score": 92.8,
    "components": {
     "tier": 40,
     "category": 20,
     "lead": 12.0,
     "relevance": 0,
-    "freshness": 13.7,
+    "freshness": 10.8,
     "corroborated": 10
    },
    "keywords": [],
@@ -252,13 +671,13 @@
    "verdict": "STRONG \u2014 tier-1, upstream"
   },
   {
-   "score": 95.7,
+   "score": 92.8,
    "components": {
     "tier": 40,
     "category": 20,
     "lead": 12.0,
     "relevance": 0,
-    "freshness": 13.7,
+    "freshness": 10.8,
     "corroborated": 10
    },
    "keywords": [],
@@ -285,13 +704,13 @@
    "verdict": "STRONG \u2014 tier-1, upstream"
   },
   {
-   "score": 95.7,
+   "score": 92.8,
    "components": {
     "tier": 40,
     "category": 20,
     "lead": 12.0,
     "relevance": 0,
-    "freshness": 13.7,
+    "freshness": 10.8,
     "corroborated": 10
    },
    "keywords": [],
@@ -318,13 +737,13 @@
    "verdict": "STRONG \u2014 tier-1, upstream"
   },
   {
-   "score": 95.7,
+   "score": 92.8,
    "components": {
     "tier": 40,
     "category": 20,
     "lead": 12.0,
     "relevance": 0,
-    "freshness": 13.7,
+    "freshness": 10.8,
     "corroborated": 10
    },
    "keywords": [],
@@ -351,13 +770,13 @@
    "verdict": "STRONG \u2014 tier-1, upstream"
   },
   {
-   "score": 95.7,
+   "score": 92.8,
    "components": {
     "tier": 40,
     "category": 20,
     "lead": 12.0,
     "relevance": 0,
-    "freshness": 13.7,
+    "freshness": 10.8,
     "corroborated": 10
    },
    "keywords": [],
@@ -384,13 +803,13 @@
    "verdict": "STRONG \u2014 tier-1, upstream"
   },
   {
-   "score": 95.7,
+   "score": 92.8,
    "components": {
     "tier": 40,
     "category": 20,
     "lead": 12.0,
     "relevance": 0,
-    "freshness": 13.7,
+    "freshness": 10.8,
     "corroborated": 10
    },
    "keywords": [],
@@ -417,13 +836,13 @@
    "verdict": "STRONG \u2014 tier-1, upstream"
   },
   {
-   "score": 95.7,
+   "score": 92.8,
    "components": {
     "tier": 40,
     "category": 20,
     "lead": 12.0,
     "relevance": 0,
-    "freshness": 13.7,
+    "freshness": 10.8,
     "corroborated": 10
    },
    "keywords": [],
@@ -450,13 +869,48 @@
    "verdict": "STRONG \u2014 tier-1, upstream"
   },
   {
-   "score": 93.7,
+   "score": 92.0,
+   "components": {
+    "tier": 40,
+    "category": 24,
+    "lead": 2.4,
+    "relevance": 12,
+    "freshness": 19.6,
+    "undated": -6
+   },
+   "keywords": [
+    "ebola"
+   ],
+   "shock_terms": [],
+   "dedupe_match": null,
+   "dedupe_similarity": 0.17,
+   "id": "67cc44fc694a",
+   "title": "Kenya Strengthens Ebola Preparedness and Contact Tracing",
+   "url": "https://www.health.go.ke/kenya-strengthens-ebola-preparedness-and-contact-tracing",
+   "summary": "",
+   "kind": "item",
+   "source": "Kenya Ministry of Health",
+   "source_id": "ke-moh",
+   "tier": 1,
+   "country": "KE",
+   "category": "health",
+   "segments": [
+    "city",
+    "bush",
+    "beach"
+   ],
+   "first_seen": "2026-10-07T15:50+03:00",
+   "published": null,
+   "verdict": "STRONG \u2014 tier-1, upstream"
+  },
+  {
+   "score": 90.8,
    "components": {
     "tier": 40,
     "category": 20,
     "lead": 12.0,
     "relevance": 8,
-    "freshness": 13.7
+    "freshness": 10.8
    },
    "keywords": [
     "eta"
@@ -484,13 +938,13 @@
    "verdict": "STRONG \u2014 tier-1, upstream"
   },
   {
-   "score": 93.7,
+   "score": 90.8,
    "components": {
     "tier": 40,
     "category": 20,
     "lead": 12.0,
     "relevance": 8,
-    "freshness": 13.7
+    "freshness": 10.8
    },
    "keywords": [
     "capacity"
@@ -518,13 +972,13 @@
    "verdict": "STRONG \u2014 tier-1, upstream"
   },
   {
-   "score": 92.2,
+   "score": 89.3,
    "components": {
     "tier": 40,
     "category": 24,
     "lead": 2.4,
     "relevance": 12,
-    "freshness": 19.8,
+    "freshness": 16.9,
     "undated": -6
    },
    "keywords": [
@@ -550,16 +1004,16 @@
    ],
    "first_seen": "2026-10-07T13:21+03:00",
    "published": null,
-   "verdict": "STRONG \u2014 tier-1, upstream"
+   "verdict": "CONSIDER"
   },
   {
-   "score": 92.2,
+   "score": 89.3,
    "components": {
     "tier": 40,
     "category": 24,
     "lead": 2.4,
     "relevance": 12,
-    "freshness": 19.8,
+    "freshness": 16.9,
     "undated": -6
    },
    "keywords": [
@@ -585,16 +1039,16 @@
    ],
    "first_seen": "2026-10-07T13:21+03:00",
    "published": null,
-   "verdict": "STRONG \u2014 tier-1, upstream"
+   "verdict": "CONSIDER"
   },
   {
-   "score": 92.2,
+   "score": 89.3,
    "components": {
     "tier": 20,
     "category": 14,
     "lead": 8.4,
     "relevance": 20,
-    "freshness": 19.8,
+    "freshness": 16.9,
     "corroborated": 10
    },
    "keywords": [
@@ -625,13 +1079,117 @@
    "verdict": "CONSIDER"
   },
   {
-   "score": 90.2,
+   "score": 88.4,
+   "components": {
+    "tier": 40,
+    "category": 10,
+    "lead": 16.8,
+    "relevance": 8,
+    "freshness": 19.6,
+    "undated": -6
+   },
+   "keywords": [
+    "tax"
+   ],
+   "shock_terms": [],
+   "dedupe_match": null,
+   "dedupe_similarity": 0.17,
+   "id": "95950a286e6d",
+   "title": "Tayebwa preaches tax compliance, integrity in business Wednesday, 7 October 2026",
+   "url": "https://www.parliament.go.ug/news/4654/tayebwa-preaches-tax-compliance-integrity-business",
+   "summary": "",
+   "kind": "item",
+   "source": "Parliament of Uganda",
+   "source_id": "ug-parliament",
+   "tier": 1,
+   "country": "UG",
+   "category": "legislature",
+   "segments": [
+    "city",
+    "bush",
+    "beach"
+   ],
+   "first_seen": "2026-10-07T15:50+03:00",
+   "published": null,
+   "verdict": "CONSIDER"
+  },
+  {
+   "score": 87.6,
+   "components": {
+    "tier": 40,
+    "category": 9,
+    "lead": 16.8,
+    "relevance": 8,
+    "freshness": 3.8,
+    "corroborated": 10
+   },
+   "keywords": [
+    "hotel",
+    "opening"
+   ],
+   "shock_terms": [],
+   "dedupe_match": null,
+   "dedupe_similarity": 0.11,
+   "id": "b57b4483b912",
+   "title": "Signia Hilton Indianapolis Unveils Signature Culinary and Bar Concepts Ahead of Hotel\u2019s December Debut",
+   "url": "https://stories.hilton.com/releases/signia-hilton-indianapolis-unveils-signature-culinary-and-bar-concepts",
+   "summary": "INDIANAPOLIS \u2013 Signia Hilton Indianapolis today unveiled its signature culinary and beverage experiences ahead of the hotel\u2019s highly anticipated opening this December. Designed as dynamic destinations in their own right, the property\u2019s restaurants, bars and gathering spaces will introduce distinctive new venues where travelers and locals can connect with the creativity, culture and energy of [\u2026] T",
+   "kind": "item",
+   "source": "Hilton stories/newsroom",
+   "source_id": "dev-hilton",
+   "tier": 1,
+   "country": "GLOBAL",
+   "category": "hotel-group",
+   "segments": [
+    "city",
+    "bush",
+    "beach"
+   ],
+   "first_seen": "2026-10-07T01:27+03:00",
+   "published": "2026-10-06",
+   "verdict": "CONSIDER"
+  },
+  {
+   "score": 87.4,
+   "components": {
+    "tier": 40,
+    "category": 17,
+    "lead": 16.8,
+    "relevance": 0,
+    "freshness": 19.6,
+    "undated": -6
+   },
+   "keywords": [],
+   "shock_terms": [],
+   "dedupe_match": null,
+   "dedupe_similarity": 0.2,
+   "id": "f3eb933913c8",
+   "title": "7 Oct 26 TIRA na Mufti Bima Fund yaendelea kuimarisha ulinzi wa afya... Mamlaka ya Usimamizi wa Bima Tanzania (TIRA) imeendelea kuimarisha ushirikiano katika kuendeleza mpa... Read More",
+   "url": "https://www.tira.go.tz/news/tira-na-mufti-bima-fund-yaendelea-kuimarisha-ulinzi-wa-afya-kwa-wananchi",
+   "summary": "",
+   "kind": "item",
+   "source": "Tanzania Insurance Regulatory Authority (TIRA)",
+   "source_id": "tz-tira",
+   "tier": 1,
+   "country": "TZ",
+   "category": "regulator",
+   "segments": [
+    "beach",
+    "bush",
+    "city"
+   ],
+   "first_seen": "2026-10-07T15:50+03:00",
+   "published": null,
+   "verdict": "CONSIDER"
+  },
+  {
+   "score": 87.3,
    "components": {
     "tier": 20,
     "category": 4,
     "lead": 2.4,
     "relevance": 16,
-    "freshness": 19.8,
+    "freshness": 16.9,
     "corroborated": 10,
     "shock": 18
    },
@@ -664,13 +1222,46 @@
    "verdict": "CONSIDER"
   },
   {
-   "score": 88.2,
+   "score": 85.4,
+   "components": {
+    "tier": 40,
+    "category": 15,
+    "lead": 16.8,
+    "relevance": 0,
+    "freshness": 19.6,
+    "undated": -6
+   },
+   "keywords": [],
+   "shock_terms": [],
+   "dedupe_match": null,
+   "dedupe_similarity": 0.12,
+   "id": "50b618ca9ef7",
+   "title": "Public Notice - Rescheduling - Public Sector Hearings for the FY 2027_28 and the Medium-Term Budget",
+   "url": "https://www.treasury.go.ke/sites/default/files/Latest%20updates/Public%20Notice%20-%20Public%20Sector%20Hearings%20for%20the%20FY%202027_28%20and%20the%20Medium-Term%20Budget.pdf",
+   "summary": "REPUBLIC OF KENYATHE NATIONAL TREASURY NOTICE TO THE PUBLICPUBLIC SECTOR HEARINGS FOR THE FY 2027/28 AND THE MEDIUM-TERM BUDGETRESCHEDULEDThe National Treasury will conduct Public Sector Hearings on the proposed FY 2027/28 and the Medium-Term Budget at the Kenyatta International Convention Centre (KICC) on 9th, 12th and 13th October 2026. The exercise is undertaken in accordance with Article 201(a",
+   "kind": "doc",
+   "source": "National Treasury Kenya",
+   "source_id": "ke-treasury",
+   "tier": 1,
+   "country": "KE",
+   "category": "fiscal",
+   "segments": [
+    "city",
+    "bush",
+    "beach"
+   ],
+   "first_seen": "2026-10-07T15:50+03:00",
+   "published": null,
+   "verdict": "CONSIDER"
+  },
+  {
+   "score": 85.3,
    "components": {
     "tier": 20,
     "category": 4,
     "lead": 2.4,
     "relevance": 32,
-    "freshness": 19.8,
+    "freshness": 16.9,
     "corroborated": 10
    },
    "keywords": [
@@ -701,13 +1292,48 @@
    "verdict": "CONSIDER"
   },
   {
-   "score": 86.2,
+   "score": 84.4,
+   "components": {
+    "tier": 40,
+    "category": 10,
+    "lead": 16.8,
+    "relevance": 4,
+    "freshness": 19.6,
+    "undated": -6
+   },
+   "keywords": [
+    "investment"
+   ],
+   "shock_terms": [],
+   "dedupe_match": null,
+   "dedupe_similarity": 0.17,
+   "id": "22e9396d19de",
+   "title": "MPs Want Safeguards for Government\u2019s Shs723.4 Billion Investment in Dei BioPharma Tuesday, 6 October 2026",
+   "url": "https://www.parliament.go.ug/news/4652/mps-want-safeguards-governments-shs7234-billion-investment-dei-biopharma",
+   "summary": "",
+   "kind": "item",
+   "source": "Parliament of Uganda",
+   "source_id": "ug-parliament",
+   "tier": 1,
+   "country": "UG",
+   "category": "legislature",
+   "segments": [
+    "city",
+    "bush",
+    "beach"
+   ],
+   "first_seen": "2026-10-07T15:50+03:00",
+   "published": null,
+   "verdict": "CONSIDER"
+  },
+  {
+   "score": 83.3,
    "components": {
     "tier": 20,
     "category": 4,
     "lead": 2.4,
     "relevance": 12,
-    "freshness": 19.8,
+    "freshness": 16.9,
     "corroborated": 10,
     "shock": 18
    },
@@ -739,13 +1365,13 @@
    "verdict": "CONSIDER"
   },
   {
-   "score": 85.7,
+   "score": 82.8,
    "components": {
     "tier": 40,
     "category": 20,
     "lead": 12.0,
     "relevance": 0,
-    "freshness": 13.7
+    "freshness": 10.8
    },
    "keywords": [],
    "shock_terms": [],
@@ -768,626 +1394,6 @@
    ],
    "first_seen": "2026-10-07T07:50+03:00",
    "published": "2026-10-05",
-   "verdict": "CONSIDER"
-  },
-  {
-   "score": 85.7,
-   "components": {
-    "tier": 40,
-    "category": 20,
-    "lead": 12.0,
-    "relevance": 0,
-    "freshness": 13.7
-   },
-   "keywords": [],
-   "shock_terms": [],
-   "dedupe_match": null,
-   "dedupe_similarity": 0.17,
-   "id": "106136278437",
-   "title": "High Court at Thika \u2013 Civil Division \u2013 Weekly Cause List \u2013 05 October 2026 to 09 October 2026",
-   "url": "https://new.kenyalaw.org/akn/ke/doc/cause-list-weekly/kehc/2026-10-05/1/eng@2026-10-05",
-   "summary": "High Court at Thika \u2013 Civil Division \u2013 Weekly Cause List \u2013 05 October 2026 to 09 October 2026",
-   "kind": "item",
-   "source": "Kenya Gazette (Kenya Law)",
-   "source_id": "ke-gazette",
-   "tier": 1,
-   "country": "KE",
-   "category": "gazette",
-   "segments": [
-    "city",
-    "bush",
-    "beach"
-   ],
-   "first_seen": "2026-10-07T07:50+03:00",
-   "published": "2026-10-05",
-   "verdict": "CONSIDER"
-  },
-  {
-   "score": 85.7,
-   "components": {
-    "tier": 40,
-    "category": 20,
-    "lead": 12.0,
-    "relevance": 0,
-    "freshness": 13.7
-   },
-   "keywords": [],
-   "shock_terms": [],
-   "dedupe_match": null,
-   "dedupe_similarity": 0.17,
-   "id": "94dea65e3726",
-   "title": "Marsabit Law Courts \u2013 Criminal Division \u2013 Weekly Cause List \u2013 05 October 2026 to 08 October 2026",
-   "url": "https://new.kenyalaw.org/akn/ke/doc/cause-list-weekly/kemc/2026-10-05/13/eng@2026-10-05",
-   "summary": "Marsabit Law Courts \u2013 Criminal Division \u2013 Weekly Cause List \u2013 05 October 2026 to 08 October 2026",
-   "kind": "item",
-   "source": "Kenya Gazette (Kenya Law)",
-   "source_id": "ke-gazette",
-   "tier": 1,
-   "country": "KE",
-   "category": "gazette",
-   "segments": [
-    "city",
-    "bush",
-    "beach"
-   ],
-   "first_seen": "2026-10-07T07:50+03:00",
-   "published": "2026-10-05",
-   "verdict": "CONSIDER"
-  },
-  {
-   "score": 85.7,
-   "components": {
-    "tier": 40,
-    "category": 20,
-    "lead": 12.0,
-    "relevance": 0,
-    "freshness": 13.7
-   },
-   "keywords": [],
-   "shock_terms": [],
-   "dedupe_match": null,
-   "dedupe_similarity": 0.17,
-   "id": "a3e56843742f",
-   "title": "Kyuso Law Courts \u2013 Criminal Division \u2013 Weekly Cause List \u2013 05 October 2026 to 09 October 2026",
-   "url": "https://new.kenyalaw.org/akn/ke/doc/cause-list-weekly/kemc/2026-10-05/14/eng@2026-10-05",
-   "summary": "Kyuso Law Courts \u2013 Criminal Division \u2013 Weekly Cause List \u2013 05 October 2026 to 09 October 2026",
-   "kind": "item",
-   "source": "Kenya Gazette (Kenya Law)",
-   "source_id": "ke-gazette",
-   "tier": 1,
-   "country": "KE",
-   "category": "gazette",
-   "segments": [
-    "city",
-    "bush",
-    "beach"
-   ],
-   "first_seen": "2026-10-07T07:50+03:00",
-   "published": "2026-10-05",
-   "verdict": "CONSIDER"
-  },
-  {
-   "score": 85.7,
-   "components": {
-    "tier": 40,
-    "category": 20,
-    "lead": 12.0,
-    "relevance": 0,
-    "freshness": 13.7
-   },
-   "keywords": [],
-   "shock_terms": [],
-   "dedupe_match": null,
-   "dedupe_similarity": 0.17,
-   "id": "92bcb327b9fd",
-   "title": "Kadhis Court at Kisumu \u2013 Monthly Cause List \u2013 05 October 2026 to 27 October 2026",
-   "url": "https://new.kenyalaw.org/akn/ke/doc/cause-list-monthly/kekc/2026-10-05/1/eng@2026-10-05",
-   "summary": "Kadhis Court at Kisumu \u2013 Monthly Cause List \u2013 05 October 2026 to 27 October 2026",
-   "kind": "item",
-   "source": "Kenya Gazette (Kenya Law)",
-   "source_id": "ke-gazette",
-   "tier": 1,
-   "country": "KE",
-   "category": "gazette",
-   "segments": [
-    "city",
-    "bush",
-    "beach"
-   ],
-   "first_seen": "2026-10-07T07:50+03:00",
-   "published": "2026-10-05",
-   "verdict": "CONSIDER"
-  },
-  {
-   "score": 85.7,
-   "components": {
-    "tier": 40,
-    "category": 20,
-    "lead": 12.0,
-    "relevance": 0,
-    "freshness": 13.7
-   },
-   "keywords": [],
-   "shock_terms": [],
-   "dedupe_match": null,
-   "dedupe_similarity": 0.17,
-   "id": "c16cf3b08b32",
-   "title": "Tokali & 9 others v Komis & another (Enviromental and Land Originating Summons 293 of 2016) [2026] KEELC 6158 (KLR) (5 October 2026) (Ruling)",
-   "url": "https://new.kenyalaw.org/akn/ke/judgment/keelc/2026/6158/eng@2026-10-05",
-   "summary": "Tokali & 9 others v Komis & another (Enviromental and Land Originating Summons 293 of 2016) [2026] KEELC 6158 (KLR) (5 October 2026) (Ruling)",
-   "kind": "item",
-   "source": "Kenya Gazette (Kenya Law)",
-   "source_id": "ke-gazette",
-   "tier": 1,
-   "country": "KE",
-   "category": "gazette",
-   "segments": [
-    "city",
-    "bush",
-    "beach"
-   ],
-   "first_seen": "2026-10-07T07:50+03:00",
-   "published": "2026-10-05",
-   "verdict": "CONSIDER"
-  },
-  {
-   "score": 85.7,
-   "components": {
-    "tier": 40,
-    "category": 20,
-    "lead": 12.0,
-    "relevance": 0,
-    "freshness": 13.7
-   },
-   "keywords": [],
-   "shock_terms": [],
-   "dedupe_match": null,
-   "dedupe_similarity": 0.17,
-   "id": "c424b3aef359",
-   "title": "Hassan v Muhamed & 3 others (Environment and Land Appeal E005 of 2022) [2026] KEELC 6179 (KLR) (5 October 2026) (Ruling)",
-   "url": "https://new.kenyalaw.org/akn/ke/judgment/keelc/2026/6179/eng@2026-10-05",
-   "summary": "Hassan v Muhamed & 3 others (Environment and Land Appeal E005 of 2022) [2026] KEELC 6179 (KLR) (5 October 2026) (Ruling)",
-   "kind": "item",
-   "source": "Kenya Gazette (Kenya Law)",
-   "source_id": "ke-gazette",
-   "tier": 1,
-   "country": "KE",
-   "category": "gazette",
-   "segments": [
-    "city",
-    "bush",
-    "beach"
-   ],
-   "first_seen": "2026-10-07T07:50+03:00",
-   "published": "2026-10-05",
-   "verdict": "CONSIDER"
-  },
-  {
-   "score": 84.2,
-   "components": {
-    "tier": 5,
-    "category": 5,
-    "lead": 2.4,
-    "relevance": 24,
-    "freshness": 19.8,
-    "corroborated": 10,
-    "shock": 18
-   },
-   "keywords": [
-    "route",
-    "airport",
-    "strike"
-   ],
-   "shock_terms": [
-    "strike"
-   ],
-   "dedupe_match": null,
-   "dedupe_similarity": 0.29,
-   "id": "3788a18b8d96",
-   "title": "Milan Joins Sicily and Other Cities Across Italy as Transport Strikes Threaten Travel Routes",
-   "url": "https://www.travelandtourworld.com/news/article/a94947t5mosw",
-   "summary": "Milan Joins Sicily and Other Cities Across Italy as Transport Strikes Threaten Travel Routes Italy transport strikes hit Milan, Sicily, Romagna and Florence from 8\u201310 October, affecting metro, tram, bus and airport travel for visitors. The post Milan Joins Sicily and Other Cities Across Italy as Transport Strikes Threaten Travel Routes appeared first on Travel And Tour World .",
-   "kind": "item",
-   "source": "Travel And Tour World",
-   "source_id": "gl-travelandtourworld",
-   "tier": 3,
-   "country": "GLOBAL",
-   "category": "trade",
-   "segments": [
-    "city",
-    "bush",
-    "beach"
-   ],
-   "first_seen": "2026-10-07T13:21+03:00",
-   "published": "2026-10-07",
-   "verdict": "CONSIDER"
-  },
-  {
-   "score": 84.2,
-   "components": {
-    "tier": 20,
-    "category": 14,
-    "lead": 8.4,
-    "relevance": 12,
-    "freshness": 19.8,
-    "corroborated": 10
-   },
-   "keywords": [
-    "route",
-    "flight"
-   ],
-   "shock_terms": [],
-   "dedupe_match": null,
-   "dedupe_similarity": 0.12,
-   "id": "f3c1c30e9565",
-   "title": "Air Canada Revises Toronto \u2013 Manchester Flights in NS27",
-   "url": "https://www.aeroroutes.com/eng/261007-acns27man",
-   "summary": "Published at 0300PDT / 1000GMT 07OCT26 Air Canada in recent schedule update adjusted planned operational aircraft on Toronto Pearson \u2013 Manchester route for Northern summer 2027 season. From 01MAY27, service to be operated by 787-9 instead of A321XLR for Northern summer 2027 season. With this adjustment, AC now schedules this route 3 weekly, increasing to 4 weekly from 05JUL27. It previously schedu",
-   "kind": "item",
-   "source": "AeroRoutes schedule filings",
-   "source_id": "aeroroutes",
-   "tier": 2,
-   "country": "GLOBAL",
-   "category": "aviation-tracker",
-   "segments": [
-    "city",
-    "bush",
-    "beach"
-   ],
-   "first_seen": "2026-10-07T13:21+03:00",
-   "published": "2026-10-07",
-   "verdict": "CONSIDER"
-  },
-  {
-   "score": 83.7,
-   "components": {
-    "tier": 40,
-    "category": 20,
-    "lead": 12.0,
-    "relevance": 8,
-    "freshness": 13.7,
-    "stale_trap": -10
-   },
-   "keywords": [
-    "tax"
-   ],
-   "shock_terms": [],
-   "dedupe_match": null,
-   "dedupe_similarity": 0.17,
-   "id": "9182aed961a7",
-   "title": "TRV Developers Ltd v Chavda (Commercial Case E618 of 2023) [2026] KEHC 14811 (KLR) (Commercial and Tax) (1 October 2026) (Ruling)",
-   "url": "https://new.kenyalaw.org/akn/ke/judgment/kehc/2026/14811/eng@2026-10-01",
-   "summary": "TRV Developers Ltd v Chavda (Commercial Case E618 of 2023) [2026] KEHC 14811 (KLR) (Commercial and Tax) (1 October 2026) (Ruling)",
-   "kind": "item",
-   "source": "Kenya Gazette (Kenya Law)",
-   "source_id": "ke-gazette",
-   "tier": 1,
-   "country": "KE",
-   "category": "gazette",
-   "segments": [
-    "city",
-    "bush",
-    "beach"
-   ],
-   "first_seen": "2026-10-07T07:50+03:00",
-   "published": "2026-10-01",
-   "verdict": "CHECK \u2014 source date older than the window"
-  },
-  {
-   "score": 83.7,
-   "components": {
-    "tier": 40,
-    "category": 20,
-    "lead": 12.0,
-    "relevance": 8,
-    "freshness": 13.7,
-    "stale_trap": -10
-   },
-   "keywords": [
-    "eta"
-   ],
-   "shock_terms": [],
-   "dedupe_match": null,
-   "dedupe_similarity": 0.17,
-   "id": "c35bc68e7dd0",
-   "title": "Koimur & 4 others (Suing on Their Own Behalf and on Behalf of the People of Baringo West Sub-County) v Cabinet Secretary Ministry of Interior & Coordination & another (Constitutional Petition E008 of 2025) [2026] KEHC 14854 (KLR) (2 October 2026) (Ruling)",
-   "url": "https://new.kenyalaw.org/akn/ke/judgment/kehc/2026/14854/eng@2026-10-02",
-   "summary": "Koimur & 4 others (Suing on Their Own Behalf and on Behalf of the People of Baringo West Sub-County) v Cabinet Secretary Ministry of Interior & Coordination & another (Constitutional Petition E008 of 2025) [2026] KEHC 14854 (KLR) (2 October 2026) (Ruling)",
-   "kind": "item",
-   "source": "Kenya Gazette (Kenya Law)",
-   "source_id": "ke-gazette",
-   "tier": 1,
-   "country": "KE",
-   "category": "gazette",
-   "segments": [
-    "city",
-    "bush",
-    "beach"
-   ],
-   "first_seen": "2026-10-07T07:50+03:00",
-   "published": "2026-10-02",
-   "verdict": "CHECK \u2014 source date older than the window"
-  },
-  {
-   "score": 83.3,
-   "components": {
-    "tier": 40,
-    "category": 32,
-    "lead": 3.6,
-    "relevance": 0,
-    "freshness": 13.7,
-    "undated": -6
-   },
-   "keywords": [],
-   "shock_terms": [],
-   "dedupe_match": null,
-   "dedupe_similarity": 0.29,
-   "id": "2cab94a77329",
-   "title": "Health Alert \u2013 U.S. Embassy Nairobi, Kenya (October 6, 2026)",
-   "url": "https://ke.usembassy.gov/health-alert-u-s-embassy-nairobi-kenya-october-6-2026",
-   "summary": "",
-   "kind": "item",
-   "source": "US Embassy Nairobi \u2014 travel advisory & alerts",
-   "source_id": "adv-us-embassy-kenya",
-   "tier": 1,
-   "country": "KE",
-   "category": "advisory",
-   "segments": [
-    "city",
-    "bush",
-    "beach"
-   ],
-   "first_seen": "2026-10-07T07:50+03:00",
-   "published": null,
-   "verdict": "CONSIDER"
-  },
-  {
-   "score": 82.6,
-   "components": {
-    "tier": 40,
-    "category": 24,
-    "lead": 4.8,
-    "relevance": 0,
-    "freshness": 19.8,
-    "undated": -6
-   },
-   "keywords": [],
-   "shock_terms": [],
-   "dedupe_match": null,
-   "dedupe_similarity": 0.12,
-   "id": "b862b5682948",
-   "title": "Continental Roadmap on Reproductive, Maternal, Newborn, Child and Adolescent Health (2026-2030) Continental Roadmap, Manuals, Guidelines & Frameworks",
-   "url": "https://africacdc.org/download/continental-roadmap-on-reproductive-maternal-newborn-child-and-adolescent-health-2026-2030",
-   "summary": "",
-   "kind": "item",
-   "source": "Africa CDC downloads (sit reps & EIW)",
-   "source_id": "africacdc-downloads",
-   "tier": 1,
-   "country": "REG",
-   "category": "health",
-   "segments": [
-    "city",
-    "bush",
-    "beach"
-   ],
-   "first_seen": "2026-10-07T13:21+03:00",
-   "published": null,
-   "verdict": "CONSIDER"
-  },
-  {
-   "score": 82.1,
-   "components": {
-    "tier": 40,
-    "category": 32,
-    "lead": 2.4,
-    "relevance": 0,
-    "freshness": 13.7,
-    "undated": -6
-   },
-   "keywords": [],
-   "shock_terms": [],
-   "dedupe_match": null,
-   "dedupe_similarity": 0.29,
-   "id": "c9e9b204d663",
-   "title": "Health Alert \u2013 U.S. Embassy Nairobi, Kenya (October 6, 2026)",
-   "url": "https://ke.usembassy.gov/health-alert-u-s-embassy-nairobi-kenya-october-6-2026",
-   "summary": "",
-   "kind": "item",
-   "source": "US Embassy Nairobi \u2014 alerts & messages",
-   "source_id": "ke-usembassy-alerts",
-   "tier": 1,
-   "country": "KE",
-   "category": "advisory",
-   "segments": [
-    "city",
-    "bush",
-    "beach"
-   ],
-   "first_seen": "2026-10-07T07:50+03:00",
-   "published": null,
-   "verdict": "CONSIDER"
-  },
-  {
-   "score": 81.2,
-   "components": {
-    "tier": 20,
-    "category": 5,
-    "lead": 2.4,
-    "relevance": 24,
-    "freshness": 19.8,
-    "corroborated": 10
-   },
-   "keywords": [
-    "vat",
-    "occupancy",
-    "hotel",
-    "investment"
-   ],
-   "shock_terms": [],
-   "dedupe_match": null,
-   "dedupe_similarity": 0.11,
-   "id": "02eef06fea72",
-   "title": "A Market in Transition: The Future of Downtown Dallas Hotels",
-   "url": "https://www.hospitalitynet.org/report/4134772/a-market-in-transition-the-future-of-downtown-dallas-hotels",
-   "summary": "Downtown Dallas hotels face soft occupancy through 2030 due to convention center renovation, but FIFA 2026, a $3.8B KBHCCD overhaul, and major Uptown corporate and hotel investments point to long-term recovery.",
-   "kind": "item",
-   "source": "Hospitality Net: Africa openings",
-   "source_id": "dev-hospitalitynet-openings",
-   "tier": 2,
-   "country": "AFRICA",
-   "category": "trade",
-   "segments": [
-    "city",
-    "bush",
-    "beach"
-   ],
-   "first_seen": "2026-10-07T13:21+03:00",
-   "published": "2026-10-07",
-   "verdict": "CONSIDER"
-  },
-  {
-   "score": 80.2,
-   "components": {
-    "tier": 20,
-    "category": 4,
-    "lead": 2.4,
-    "relevance": 24,
-    "freshness": 19.8,
-    "corroborated": 10
-   },
-   "keywords": [
-    "advisory",
-    "ebola"
-   ],
-   "shock_terms": [],
-   "dedupe_match": null,
-   "dedupe_similarity": 0.25,
-   "id": "ed6f72db1e7e",
-   "title": "U.S. Issues New Advisory After Kenya\u2019s Ebola Case",
-   "url": "https://www.kenyans.co.ke/news/127656-us-embassy-warns-americans-kenya-after-ebola-case-and-death",
-   "summary": "American citizens with urgent health concerns or who require assistance were urged to contact the U.S. Embassy in Gigiri directly through its toll-free number for guidance.",
-   "kind": "item",
-   "source": "Kenyans.co.ke news",
-   "source_id": "ke-kenyans",
-   "tier": 2,
-   "country": "KE",
-   "category": "press",
-   "segments": [
-    "city",
-    "bush",
-    "beach"
-   ],
-   "first_seen": "2026-10-07T13:21+03:00",
-   "published": "2026-10-07",
-   "verdict": "CONSIDER"
-  },
-  {
-   "score": 80.2,
-   "components": {
-    "tier": 40,
-    "category": 24,
-    "lead": 2.4,
-    "relevance": 0,
-    "freshness": 19.8,
-    "undated": -6
-   },
-   "keywords": [],
-   "shock_terms": [],
-   "dedupe_match": null,
-   "dedupe_similarity": 0.0,
-   "id": "a59274017020",
-   "title": "Ministry, PPB and KPA Agree on Practical Rollout of Good Pharmacy Practice Standards",
-   "url": "https://www.health.go.ke/ministry-ppb-and-kpa-agree-practical-rollout-good-pharmacy-practice-standards",
-   "summary": "",
-   "kind": "item",
-   "source": "Kenya Ministry of Health",
-   "source_id": "ke-moh",
-   "tier": 1,
-   "country": "KE",
-   "category": "health",
-   "segments": [
-    "city",
-    "bush",
-    "beach"
-   ],
-   "first_seen": "2026-10-07T13:21+03:00",
-   "published": null,
-   "verdict": "CONSIDER"
-  },
-  {
-   "score": 77.2,
-   "components": {
-    "tier": 20,
-    "category": 5,
-    "lead": 2.4,
-    "relevance": 20,
-    "freshness": 19.8,
-    "corroborated": 10
-   },
-   "keywords": [
-    "route",
-    "booking",
-    "operator",
-    "traffic"
-   ],
-   "shock_terms": [],
-   "dedupe_match": null,
-   "dedupe_similarity": 0.2,
-   "id": "ed2fe764f2a0",
-   "title": "Travel Operators Can\u2019t Just Watch as AI Reroutes the Customer Journey",
-   "url": "https://www.hospitalitynet.org/opinion/4134777/travel-operators-cant-just-watch-as-ai-reroutes-the-customer-journey",
-   "summary": "Bain analysis warns travel operators that rising AI referral traffic and agentic booking tools threaten direct bookings and margin, urging proactive content, pricing, and personalization strategies.",
-   "kind": "item",
-   "source": "Hospitality Net: Africa openings",
-   "source_id": "dev-hospitalitynet-openings",
-   "tier": 2,
-   "country": "AFRICA",
-   "category": "trade",
-   "segments": [
-    "city",
-    "bush",
-    "beach"
-   ],
-   "first_seen": "2026-10-07T13:21+03:00",
-   "published": "2026-10-07",
-   "verdict": "CONSIDER"
-  },
-  {
-   "score": 77.2,
-   "components": {
-    "tier": 20,
-    "category": 5,
-    "lead": 2.4,
-    "relevance": 20,
-    "freshness": 19.8,
-    "corroborated": 10
-   },
-   "keywords": [
-    "adr",
-    "hotel",
-    "guest",
-    "traffic"
-   ],
-   "shock_terms": [],
-   "dedupe_match": null,
-   "dedupe_similarity": 0.1,
-   "id": "e420061bc43c",
-   "title": "The AI guest is still rare",
-   "url": "https://www.hospitalitynet.org/opinion/4134776/the-ai-guest-is-still-rare",
-   "summary": "AI-referred traffic to hotel sites quadrupled in a year but remains under 1%, yet conversion rates now match Google organic, making it a metric worth tracking, not rebuilding around.",
-   "kind": "item",
-   "source": "Hospitality Net: Africa openings",
-   "source_id": "dev-hospitalitynet-openings",
-   "tier": 2,
-   "country": "AFRICA",
-   "category": "trade",
-   "segments": [
-    "city",
-    "bush",
-    "beach"
-   ],
-   "first_seen": "2026-10-07T13:21+03:00",
-   "published": "2026-10-07",
    "verdict": "CONSIDER"
   }
  ]
