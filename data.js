@@ -1,5 +1,14 @@
 window.EDITIONS = [
  {
+  "id": "pulse-2026-10-07-evening",
+  "date": "2026-10-07",
+  "dateDisplay": "Wednesday, 7 October 2026",
+  "edition": "Evening Wrap",
+  "editionKey": "evening",
+  "summary": "Kenya's first Ebola case came through Uganda, on a scheduled flight, past airport screening",
+  "bodyHtml": "<p><strong>Kenya confirmed its first imported Ebola case on 6 October: a passenger who flew Entebbe–Nairobi on Jambojet on 3 October and died in Nairobi</strong><br><em>🌆 Evening Wrap · Wed 7 Oct 2026</em></p>\n<p>━━━━━━━━━<br><span class=\"item-head\">1️⃣ Kenya&#x27;s first Ebola case came through Uganda, on a scheduled flight, past airport screening</span></p>\n<p>A Kenyan who had lived in the DRC for seven years travelled by road to Kampala, then flew Jambojet JM 8523 Entebbe–Nairobi, landing at JKIA at 13:10 on Sat 3 Oct. He cleared routine Port Health screening, was admitted to Nairobi Hospital&#x27;s isolation wing and died late on 5 Oct <strong>(Health CS Aden Duale, MoH statement via APO Group, 7 Oct; Kenyans.co.ke, 6–7 Oct; some outlets give 6 Oct)</strong>. First count: 28 contacts, plus 23 passengers and 4 crew being traced. By 7 Oct, 57 contacts and 10 in quarantine; surveillance at 15 entry points <strong>(PS Mary Muthoni via Kenyans.co.ke, 7 Oct)</strong>. Her line: &quot;We do not have an outbreak; we have an imported case.&quot; WHO advises against travel or trade restrictions on Kenya, Uganda or DRC <strong>(Tedros, via People Daily, 7 Oct)</strong>. health.go.ke could not be opened; figures are the ministry&#x27;s, as relayed.<br>Our inference: what failed is screening, not borders. DG Patrick Amoth suggested medication may have masked fever; unproven. Uganda was declared Ebola-free on 27 Aug.<br><span class=\"sowhat\">🎯 So what: send agents a one-page fact sheet tonight (one case, no local transmission, your screening steps). Offer free date changes; do not cut rate.</span><br><span class=\"tagline\">🏷 City, Bush, Beach | Kenya, Uganda | Confirmed | impact:risk</span></p>\n<p><span class=\"item-head\">2️⃣ The UK did not raise Kenya&#x27;s level on 7 October, only added Ebola detail</span></p>\n<p>FCDO&#x27;s Kenya page was updated 7 Oct with &quot;new information about the detection of Ebola and measures taken by the Kenyan Government&quot;. The no-go areas are unchanged <strong>(gov.uk, read 7 Oct)</strong>. The Star reports it notes enhanced screening for arrivals from Uganda, Ethiopia and DRC <strong>(The Star, 7 Oct)</strong>. Canada&#x27;s Kenya page has no Kenya-specific Ebola alert <strong>(travel.gc.ca, 7 Oct)</strong>. The US entry order covers DRC, Uganda and South Sudan, not Kenya, and lapses 11 Oct unless renewed; we found no renewal <strong>(CDC, 11 Sep order)</strong>. Germany and France not reached.<br><span class=\"sowhat\">🎯 So what: tell UK agents the level did not move, and quote the line. Check US-market agents separately before 11 Oct.</span><br><span class=\"tagline\">🏷 City, Bush, Beach | Kenya | Confirmed | impact:watch</span></p>\n<p><span class=\"item-head\">3️⃣ Kenya&#x27;s 2.79m arrivals are the base now being tested</span></p>\n<p>Government Delivery Unit figures put arrivals at 2,792,875 and earnings at Sh564bn to June 2026 (period basis not stated); international MICE delegates 38,705 <strong>(The Star, 6 Oct)</strong>. Our reading: a perception problem erodes city MICE and short-lead leisure first.<br><span class=\"sowhat\">🎯 So what: watch new-booking pace, not cancellations.</span><br><span class=\"tagline\">🏷 City, Beach | Kenya | Reported | impact:watch</span></p>\n<p><strong>🏗 DEAL FLOW:</strong> No verified EA deal flow in the window.</p>\n<p><strong>📻 ALSO TONIGHT</strong><br>🇰🇪🇷🇼 Kenya and Rwanda signed 11 agreements on 6 Oct; areas include tourism and conservation; texts not published <strong>(Kenyans.co.ke, 7 Oct)</strong>.</p>\n<p><strong>⏳ CATCHING UP</strong><br>🇺🇬 Shs102bn concessionary loans at 5% via Uganda Development Bank for Hoima hotels ahead of AFCON 2027: Shs52bn for a new 100-bed five-star near Kabalega airport. Bunyoro has 160–200 rooms against about 900 needed <strong>(The Observer, 1 Oct; The Independent, 29 Sep)</strong>.</p>\n<p><strong>📅 WEEK AHEAD</strong> US order lapses 11 Oct; EPRA review 14 Oct, with Nairobi super petrol at Sh214.03 until then <strong>(EPRA via Kenyans.co.ke, 14 Sep)</strong>.</p>\n<p><strong>🔍 BLIND SPOTS:</strong> Gazettes, KCAA, UWA, TANAPA, NCAA, Rwanda/Zanzibar health ministries, German and French advisories, deal-flow primaries: searched, not opened.</p>\n<p>🔗 This edition on the web: <a href=\"https://eahospitalitypulse.com/editions/pulse-2026-10-07-evening.html\" rel=\"noopener\">eahospitalitypulse.com/editions/pulse-2026-10-07-evenin…</a><br>— EA Hospitality Pulse | Daily intelligence for city, bush &amp; beach properties</p>"
+ },
+ {
   "id": "pulse-2026-10-06-evening",
   "date": "2026-10-06",
   "dateDisplay": "Tuesday, 6 October 2026",
@@ -1135,6 +1144,68 @@ window.EDITIONS = [
  }
 ];
 window.INSIGHTS = [
+ {
+  "headline": "Kenya's first Ebola case came through Uganda, on a scheduled flight, past airport screening",
+  "body": "A Kenyan who had lived in the DRC for seven years travelled by road to Kampala, then flew Jambojet JM 8523 Entebbe–Nairobi, landing at JKIA at 13:10 on Sat 3 Oct. He cleared routine Port Health screening, was admitted to Nairobi Hospital's isolation wing and died late on 5 Oct *(Health CS Aden Duale, MoH statement via APO Group, 7 Oct; Kenyans.co.ke, 6–7 Oct; some outlets give 6 Oct)*. First count: 28 contacts, plus 23 passengers and 4 crew being traced. By 7 Oct, 57 contacts and 10 in quarantine; surveillance at 15 entry points *(PS Mary Muthoni via Kenyans.co.ke, 7 Oct)*. Her line: \"We do not have an outbreak; we have an imported case.\" WHO advises against travel or trade restrictions on Kenya, Uganda or DRC *(Tedros, via People Daily, 7 Oct)*. health.go.ke could not be opened; figures are the ministry's, as relayed. Our inference: what failed is screening, not borders. DG Patrick Amoth suggested medication may have masked fever; unproven. Uganda was declared Ebola-free on 27 Aug.",
+  "sowhat": "🎯 So what: send agents a one-page fact sheet tonight (one case, no local transmission, your screening steps). Offer free date changes; do not cut rate.",
+  "segments": [
+   "city",
+   "bush",
+   "beach"
+  ],
+  "countries": "Kenya, Uganda",
+  "confidence": "Confirmed",
+  "impact": "risk",
+  "impactClass": "risk",
+  "intensity": 3,
+  "impactSet": "author",
+  "source": "pulse-2026-10-07-evening",
+  "date": "2026-10-07",
+  "dateDisplay": "Wednesday, 7 October 2026",
+  "edition": "Evening Wrap",
+  "editionKey": "evening"
+ },
+ {
+  "headline": "The UK did not raise Kenya's level on 7 October, only added Ebola detail",
+  "body": "FCDO's Kenya page was updated 7 Oct with \"new information about the detection of Ebola and measures taken by the Kenyan Government\". The no-go areas are unchanged *(gov.uk, read 7 Oct)*. The Star reports it notes enhanced screening for arrivals from Uganda, Ethiopia and DRC *(The Star, 7 Oct)*. Canada's Kenya page has no Kenya-specific Ebola alert *(travel.gc.ca, 7 Oct)*. The US entry order covers DRC, Uganda and South Sudan, not Kenya, and lapses 11 Oct unless renewed; we found no renewal *(CDC, 11 Sep order)*. Germany and France not reached.",
+  "sowhat": "🎯 So what: tell UK agents the level did not move, and quote the line. Check US-market agents separately before 11 Oct.",
+  "segments": [
+   "city",
+   "bush",
+   "beach"
+  ],
+  "countries": "Kenya",
+  "confidence": "Confirmed",
+  "impact": "watch",
+  "impactClass": "watch",
+  "intensity": 3,
+  "impactSet": "author",
+  "source": "pulse-2026-10-07-evening",
+  "date": "2026-10-07",
+  "dateDisplay": "Wednesday, 7 October 2026",
+  "edition": "Evening Wrap",
+  "editionKey": "evening"
+ },
+ {
+  "headline": "Kenya's 2.79m arrivals are the base now being tested",
+  "body": "Government Delivery Unit figures put arrivals at 2,792,875 and earnings at Sh564bn to June 2026 (period basis not stated); international MICE delegates 38,705 *(The Star, 6 Oct)*. Our reading: a perception problem erodes city MICE and short-lead leisure first.",
+  "sowhat": "🎯 So what: watch new-booking pace, not cancellations.",
+  "segments": [
+   "city",
+   "beach"
+  ],
+  "countries": "Kenya",
+  "confidence": "Reported",
+  "impact": "watch",
+  "impactClass": "watch",
+  "intensity": 2,
+  "impactSet": "author",
+  "source": "pulse-2026-10-07-evening",
+  "date": "2026-10-07",
+  "dateDisplay": "Wednesday, 7 October 2026",
+  "edition": "Evening Wrap",
+  "editionKey": "evening"
+ },
  {
   "headline": "Magical Kenya Travel Expo, 6–8 October, Uhuru Gardens",
   "body": "The Kenya Tourism Board projects more than 10,000 delegates from 40 countries, against 7,691 in 2025, with 400+ exhibitors and 250+ international buyers *(KTB via HapaKenya, 29 Jul)*. Those are organiser projections; we found no opening-day attendance figure. Our arithmetic: 250 buyers are 2.5% of 10,000. Delegates are not room nights. Most are Kenyan trade and visitors who sleep at home; the buyers decide where overseas clients are sent next season. Separately, a CBK survey put August–November forward bookings at 56.25% against 49.5% a year earlier *(CBK via Business Daily, 25 Aug)*.",
@@ -6262,4 +6333,4 @@ window.INSIGHTS = [
   "editionKey": "evening"
  }
 ];
-window.BUILT_AT = "2026-10-07 07:07";
+window.BUILT_AT = "2026-10-07 18:45";
