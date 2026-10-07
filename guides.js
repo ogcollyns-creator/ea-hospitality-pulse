@@ -1,5 +1,14 @@
 window.GUIDES = [
  {
+  "slug": "kenya-visa-openness-border-was-never-the-barrier",
+  "title": "Kenya just won Africa's visa argument. Its own arrivals data says the border was never the barrier.",
+  "description": "Kenya climbed from 46th to third on the Africa Visa Openness Index in a single year, the steepest reversal the index has recorded. Nearly a million Africans came anyway during the year it sat near the bottom and charged them $32.50 at the gate. What open borders actually deliver is visible in Rwanda's books, and it is not a lodge rate.",
+  "category": "Big Read",
+  "updated": "2026-10-07",
+  "readMins": 8,
+  "image": "img/editions/kenya-visa-openness-border-was-never-the-barrier.jpg"
+ },
+ {
   "slug": "micro-travel-east-africa-twelve-night-problem",
   "title": "East Africa sells twelve nights. Its own arrivals data says most visitors want three.",
   "description": "Hilton's 2027 trends report says travellers now want to pack more into less time. Kenya's own 2024 arrivals numbers say more than half its visitors already do. The product architecture, and the per-day price list behind it, was built for the other 44 per cent.",
