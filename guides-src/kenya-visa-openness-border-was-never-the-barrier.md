@@ -4,8 +4,9 @@ slug: kenya-visa-openness-border-was-never-the-barrier
 description: Kenya climbed from 46th to third on the Africa Visa Openness Index in a single year, the steepest reversal the index has recorded. Nearly a million Africans came anyway during the year it sat near the bottom and charged them $32.50 at the gate. What open borders actually deliver is visible in Rwanda's books, and it is not a lodge rate.
 category: Big Read
 updated: 2026-10-07
+image: "img/editions/kenya-visa-openness-border-was-never-the-barrier.jpg"
+image_credit: "Photograph: Onyango George / EA Hospitality Pulse"
 ---
-
 At the Pearl of Africa Tourism Expo in Kampala in late May, Kenya came to sell a number. The target was 300,000 Ugandan visitors in 2026, up 27 per cent on the 234,556 who crossed in 2025, and the pitch was built on access. Felix Mwangangi, Kenya Airways' country manager for Uganda, told the hall that "daily flights from Entebbe to Nairobi with onward connections to Mombasa are strengthening access to Kenya's coastal destinations." Frank Gisha, chief executive of the East Africa Tourism Platform, put a figure on the momentum: a 30 per cent increase in cross-border tourism since the pandemic period, driven by demand for weddings, MICE events and beach holidays.
 
 Nine months earlier, the same proposition would have been harder to make. Kenya spent 2024 near the bottom of the continent's own scorecard on human movement, and the reversal since has been the sharpest the measure has ever recorded.
