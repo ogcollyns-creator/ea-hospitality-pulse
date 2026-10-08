@@ -1,288 +1,322 @@
-# Radar candidates — morning slot
-_Window opens Wed 07 Oct 18:00 EAT · 501 observations in window · 23 headlines deduped against_
+# Radar candidates — midday slot
+_Window opens Thu 08 Oct 07:00 EAT · 312 observations in window · 23 headlines deduped against_
 
 Ranked by first-seen recency, source tier and hospitality relevance. `first seen` is when the radar observed the item, which is the date the recency gate runs on. `published` is what the source claims — where the two disagree, the disagreement is the story.
 
 ### 🚨 [91.4] [page changed] Federal Register — public inspection (HHS/CDC), pre-publication
 - **Verdict:** OPEN THIS — tier-1 advisory page moved; content not auto-parsed, read it manually
 - **Source:** Federal Register — public inspection (HHS/CDC), pre-publication · tier 1 · REG · advisory
-- **First seen:** 2026-10-08T03:03+03:00 EAT · **Source date:** 2026-10-06
+- **First seen:** 2026-10-08T11:34+03:00 EAT · **Source date:** 2026-10-06
 - **URL:** https://www.federalregister.gov/api/v1/public-inspection-documents/current.json
 - **Extract:** {"count":140,"results":[{"agencies":[{"raw_name":"National Oceanic and Atmospheric Administration","name":"National Oceanic and Atmospheric Administration","id":361,"url":"https://www.federalregister.gov/agencies/national-oceanic-and-atmospheric-administration
 - **Score parts:** tier +40, category +32, lead +3.6, relevance +0, freshness +19.8, page_change -4
 
-### 🚨 [86.7] [page changed] Federal Register — public inspection (HHS/CDC), pre-publication
-- **Verdict:** OPEN THIS — tier-1 advisory page moved; content not auto-parsed, read it manually
-- **Source:** Federal Register — public inspection (HHS/CDC), pre-publication · tier 1 · REG · advisory
-- **First seen:** 2026-10-07T22:47+03:00 EAT · **Source date:** 2026-10-06
-- **URL:** https://www.federalregister.gov/api/v1/public-inspection-documents/current.json
-- **Extract:** {"count":134,"results":[{"agencies":[{"raw_name":"National Oceanic and Atmospheric Administration","name":"National Oceanic and Atmospheric Administration","id":361,"url":"https://www.federalregister.gov/agencies/national-oceanic-and-atmospheric-administration
-- **Score parts:** tier +40, category +32, lead +3.6, relevance +0, freshness +15.1, page_change -4
+### 🚨 [65.3] [page changed] Airlink news
+- **Verdict:** OPEN THIS — tier-1 airline page moved; content not auto-parsed, read it manually
+- **Source:** Airlink news · tier 1 · REG · airline
+- **First seen:** 2026-10-08T11:32+03:00 EAT · **Source date:** — none stated
+- **URL:** https://www.flyairlink.com/
+- **Extract:** Request unsuccessful. Incapsula incident ID: 79000410664657475-824360011161340530
+- **Score parts:** tier +40, category +12, lead +3.6, relevance +0, freshness +19.7, undated -6, page_change -4
 
-### 🚨 [83.1] [page changed] Federal Register — public inspection (HHS/CDC), pre-publication
-- **Verdict:** OPEN THIS — tier-1 advisory page moved; content not auto-parsed, read it manually
-- **Source:** Federal Register — public inspection (HHS/CDC), pre-publication · tier 1 · REG · advisory
-- **First seen:** 2026-10-07T19:31+03:00 EAT · **Source date:** 2026-10-06
-- **URL:** https://www.federalregister.gov/api/v1/public-inspection-documents/current.json
-- **Extract:** {"count":134,"results":[{"agencies":[{"raw_name":"National Oceanic and Atmospheric Administration","name":"National Oceanic and Atmospheric Administration","id":361,"url":"https://www.federalregister.gov/agencies/national-oceanic-and-atmospheric-administration
-- **Score parts:** tier +40, category +32, lead +3.6, relevance +0, freshness +11.5, page_change -4
-
-### 🟠 [95.9] A Celebration of Partnership: NMG and KWS Mark Customer Service Week
+### 🟠 [113.8] Solicitation of Nominations for Appointment to the Advisory Council for the Elimination of Tuberculosis
 - **Verdict:** STRONG — tier-1, upstream
-- **Source:** Kenya Wildlife Service · tier 1 · KE · parks
-- **First seen:** 2026-10-07T19:31+03:00 EAT · **Source date:** 2026-10-07
-- **URL:** https://kws.go.ke/a-celebration-of-partnership-nmg-and-kws-mark-customer-service-week
-- **Extract:** In honour of Customer Service Week, the NTV Nation Media Group team presented a cake to the Kenya Wildlife Service (KWS) team at the Service headquarters in Nairobi. This gesture carried profound meaning: a celebration of decades of mutually beneficial partner
-- **Score parts:** tier +40, category +18, lead +8.4, relevance +8, freshness +11.5, corroborated +10
+- **Source:** Federal Register — CDC documents (newest first) · tier 1 · GLOBAL · advisory
+- **First seen:** 2026-10-08T11:34+03:00 EAT · **Source date:** 2026-10-08
+- **URL:** https://www.federalregister.gov/documents/2026/10/08/2026-20644/solicitation-of-nominations-for-appointment-to-the-advisory-council-for-the-elimination-of
+- **Extract:** In accordance with the Federal Advisory Committee Act, the Centers for Disease Control and Prevention (CDC), within the Department of Health and Human Services (HHS) is seeking nominations for membership on the Advisory Council for the Elimination of Tuberculo
+- **Score parts:** tier +40, category +32, lead +0, relevance +12, freshness +19.8, corroborated +10
 
-### 🟡 [92.2] Air Cambodia NW26 Fuzhou / Tokyo Service Increase Revision – 07OCT26
+### 🟠 [103.5] Waldorf Astoria London – Admiralty Arch Announces OSKIA as Spa Partner
+- **Verdict:** STRONG — tier-1, upstream
+- **Source:** Hilton stories/newsroom · tier 1 · GLOBAL · hotel-group
+- **First seen:** 2026-10-08T11:32+03:00 EAT · **Source date:** 2026-10-07
+- **URL:** https://stories.hilton.com/releases/waldorf-astoria-london-admiralty-arch-announces-oskia-as-spa-partner
+- **Extract:** LONDON – Waldorf Astoria London – Admiralty Arch announces OSKIA, the award-winning British skincare brand as the hotel and residences’ exclusive spa skincare and treatment partner when it opens later this year. At Waldorf Astoria London – Admiralty Arch, well
+- **Score parts:** tier +40, category +9, lead +16.8, relevance +8, freshness +19.7, corroborated +10
+
+### 🟠 [99.5] Cooking with Chris: Recreating a Culinary Icon from Waldorf Astoria New York
+- **Verdict:** STRONG — tier-1, upstream
+- **Source:** Hilton stories/newsroom · tier 1 · GLOBAL · hotel-group
+- **First seen:** 2026-10-08T11:32+03:00 EAT · **Source date:** 2026-10-07
+- **URL:** https://stories.hilton.com/food-beverage/cooking-with-chris-waldorf-salad
+- **Extract:** For more than a century, the Waldorf Salad has carried the name of one of the world’s most legendary hotels to dining tables around the globe. Crisp apples, celery and a creamy dressing formed the foundation of a surprisingly simple creation that would become 
+- **Score parts:** tier +40, category +9, lead +16.8, relevance +4, freshness +19.7, corroborated +10
+
+### 🟡 [96.2] LOT Adds Katowice – Puerto Vallarta Charter in NW26
 - **Verdict:** CONSIDER
 - **Source:** AeroRoutes schedule filings · tier 2 · GLOBAL · aviation-tracker
-- **First seen:** 2026-10-08T03:03+03:00 EAT · **Source date:** 2026-10-08
-- **URL:** https://www.aeroroutes.com/eng/261007-k6nw26focnrt
-- **Extract:** Published at 1701PDT 07OCT26 / 0001GMT 08OCT26 Air Cambodia in the actual availability filed changes to planned service increase on Phnom Penh Krong Ta Khmau – Fuzhou – Tokyo Narita route for Northern winter 2026/27 season. Despite planned increase from 3 to 5
+- **First seen:** 2026-10-08T11:34+03:00 EAT · **Source date:** 2026-10-08
+- **URL:** https://www.aeroroutes.com/eng/261007-lonw26pvr
+- **Extract:** Published at 2300PDT 07OCT26 / 0600GMT 08OCT26 LOT Polish Airlines during Northern winter 2026/27 season plans to launch Katowice – Puerto Vallarta nonstop charter service, in partnership with local tour operator. From 17DEC26 to 18MAR27, the airline will oper
+- **Score parts:** tier +20, category +14, lead +8.4, relevance +24, freshness +19.8, corroborated +10
+
+### 🟡 [96.2] Air France Plans San Diego Regular Service Launch in May 2027
+- **Verdict:** CONSIDER
+- **Source:** AeroRoutes schedule filings · tier 2 · GLOBAL · aviation-tracker
+- **First seen:** 2026-10-08T11:34+03:00 EAT · **Source date:** 2026-10-08
+- **URL:** https://www.aeroroutes.com/eng/261007-afmay27san
+- **Extract:** Published at 2100PDT 07OCT26 / 0400GMT 08OCT26 Air France in the reservations has filed operational schedule for Paris Charles de Gaulle – San Diego route for Northern summer 2027 season, as the Skyteam member plans to operate regular service starting 17MAY27,
+- **Score parts:** tier +20, category +14, lead +8.4, relevance +24, freshness +19.8, corroborated +10
+
+### 🟡 [96.2] Air France Plans Nashville Launch in May 2027
+- **Verdict:** CONSIDER
+- **Source:** AeroRoutes schedule filings · tier 2 · GLOBAL · aviation-tracker
+- **First seen:** 2026-10-08T11:34+03:00 EAT · **Source date:** 2026-10-08
+- **URL:** https://www.aeroroutes.com/eng/261007-afmay27bna
+- **Extract:** Published at 2030PDT 07OCT26 / 0330GMT 08OCT26 Air France in the reservation system has filed operational schedule for Paris Charles de Gaulle – Nashville route, scheduled to commence on 14MAY27, based on schedule filing in the GDS under FLIFO (Flight Informat
+- **Score parts:** tier +20, category +14, lead +8.4, relevance +24, freshness +19.8, corroborated +10
+
+### 🟡 [96.2] JetBlue Removed Caracas Schedule in 1Q27
+- **Verdict:** CONSIDER
+- **Source:** AeroRoutes schedule filings · tier 2 · GLOBAL · aviation-tracker
+- **First seen:** 2026-10-08T11:34+03:00 EAT · **Source date:** 2026-10-08
+- **URL:** https://www.aeroroutes.com/eng/261007-b61q27ccs
+- **Extract:** Published at 1900PDT 07OCT26 / 0200GMT 08OCT26 JetBlue Airways in the last few days removed schedule filing for Fort Lauderdale/Hollywood – Caracas route. Reported on AeroRoutes on 01OCT26, the airline was listing 1 daily flight from 04FEB27 at the earliest wi
+- **Score parts:** tier +20, category +14, lead +8.4, relevance +24, freshness +19.8, corroborated +10
+
+### 🟠 [96.2] SitRep N°145 /MVE-BDBV/06/10/2026
+- **Verdict:** STRONG — tier-1, upstream
+- **Source:** INSP RDC — Ebola daily situation reports (SitRep) · tier 1 · GLOBAL · health
+- **First seen:** 2026-10-08T11:34+03:00 EAT · **Source date:** 2026-10-08
+- **URL:** https://insp.cd/sitrep-n145-mve-bdbv-06-10-2026
+- **Score parts:** tier +40, category +24, lead +2.4, relevance +0, freshness +19.8, corroborated +10
+
+### 🟠 [94.7] EAC Health Ministers Step Up Regional Action to Strengthen Health Security
+- **Verdict:** STRONG — tier-1, upstream
+- **Source:** East African Community — Secretariat news · tier 1 · Regional · body
+- **First seen:** 2026-10-08T11:32+03:00 EAT · **Source date:** 2026-10-08
+- **URL:** https://www.eac.int/press-releases/147-health/3605-eac-health-ministers-step-up-regional-action-to-strengthen-health-security
+- **Extract:** East African Community Headquarters, Arusha, Tanzania, 8th October, 2026: The East African Community (EAC) is strengthening coordinated regional action to prevent, detect and rapidly respond to public health threats that cross national borders, as Partner Stat
+- **Score parts:** tier +40, category +7, lead +6, relevance +12, freshness +19.7, corroborated +10
+
+### 🟡 [92.2] LOT Polish Airlines NW26 Bucharest Long-Haul Charters
+- **Verdict:** CONSIDER
+- **Source:** AeroRoutes schedule filings · tier 2 · GLOBAL · aviation-tracker
+- **First seen:** 2026-10-08T11:34+03:00 EAT · **Source date:** 2026-10-08
+- **URL:** https://www.aeroroutes.com/eng/261007-lonw26otp
+- **Extract:** Published at 2330PDT 07OCT26 / 0630GMT 08OCT26 LOT Polish Airlines in Northern winter 2026/27 season plans to launch long-haul charter flights at Bucharest , in partnership with local tour operators. Bucharest – Bangkok Suvarnabhumi 01JAN27 – 20MAR27 1 weekly 
 - **Score parts:** tier +20, category +14, lead +8.4, relevance +20, freshness +19.8, corroborated +10
 
-### 🟡 [92.2] Neos early-Oct 2026 Radom – Nosy-Be Charter
+### 🟡 [92.2] Eurowings Oct 2026 Dortmund – Bodø Charter
 - **Verdict:** CONSIDER
 - **Source:** AeroRoutes schedule filings · tier 2 · GLOBAL · aviation-tracker
-- **First seen:** 2026-10-08T03:03+03:00 EAT · **Source date:** 2026-10-08
-- **URL:** https://www.aeroroutes.com/eng/261007-nooct26rdonos
-- **Extract:** Published at 1500PDT / 2200GMT 07OCT26 Italian carrier Neos this week operated one-time charter flight on Radom – Nosy-Be route, on board Boeing 787-9. Service from Nosy-Be operated on 05OCT26, while Radom departure scheduled on 10OCT26. NO761 NOS1100 – 1940RD
+- **First seen:** 2026-10-08T11:34+03:00 EAT · **Source date:** 2026-10-08
+- **URL:** https://www.aeroroutes.com/eng/261007-ewoct26boo
+- **Extract:** Published at 2200PDT 07OCT26 / 0500GMT 08OCT26 Eurowings has scheduled charter flights on Dortmund – Bodø route, on board Airbus A320 aircraft next week. Planned schedule as follows. EW1909 DTM1415 – 1700BOO 32A 13OCT26 EW1909 BOO1300 – 1545DTM 32A 15OCT26
 - **Score parts:** tier +20, category +14, lead +8.4, relevance +20, freshness +19.8, corroborated +10
 
-### 🟡 [91.5] Thai Lion Air Suspends India Service Sep – Dec 2026
-- **Verdict:** CONSIDER
-- **Source:** AeroRoutes schedule filings · tier 2 · GLOBAL · aviation-tracker
-- **First seen:** 2026-10-07T22:48+03:00 EAT · **Source date:** 2026-10-07
-- **URL:** https://www.aeroroutes.com/eng/261007-sl2h26in
-- **Extract:** Published at 1100PDT / 1800GMT 07OCT26 Thai Lion Air since mid-September 2026 once again suspended all service to India, with 5 routes being suspended after 5-week service resumption. As of 07OCT26, the airline tentatively plans to resume 7 routes to India fro
-- **Score parts:** tier +20, category +14, lead +8.4, relevance +24, freshness +15.1, corroborated +10
-
-### 🟠 [90.7] Ebola disease in Democratic Republic of the Congo
-- **Verdict:** STRONG — tier-1, upstream
-- **Source:** Canada travel advice — Kenya · tier 1 · KE · advisory
-- **First seen:** 2026-10-07T19:31+03:00 EAT · **Source date:** — none stated
-- **URL:** https://travel.gc.ca/travelling/health-safety/travel-health-notices/549
-- **Score parts:** tier +40, category +32, lead +1.2, relevance +12, freshness +11.5, undated -6
-
-### 🟡 [89.9] CS Aden Duale: There's no Ebola outbreak in Kenya
-- **Verdict:** CONSIDER
-- **Source:** Nation Africa: Kenya business · tier 2 · KE · press
-- **First seen:** 2026-10-07T19:32+03:00 EAT · **Source date:** 2026-10-07
-- **URL:** https://nation.africa/kenya/videos/cs-aden-duale-there-s-no-ebola-outbreak-in-kenya-5622704
-- **Shock language:** outbreak
-- **Score parts:** tier +20, category +4, lead +2.4, relevance +24, freshness +11.5, corroborated +10, shock +18
-
-### 🟡 [89.7] MPC retains the CBR at 8.75 percent
-- **Verdict:** CONSIDER
-- **Source:** CBK weekly bulletin · tier 1 · KE · central-bank
-- **First seen:** 2026-10-07T23:41+03:00 EAT · **Source date:** 2026-10-07
-- **URL:** https://www.centralbank.go.ke/2026/10/07/mpc-retains-the-cbr-at-8-75-percent-3
-- **Score parts:** tier +40, category +12, lead +3.6, relevance +8, freshness +16.1, corroborated +10
-
-### 🟡 [88.5] MPC retains the CBR at 8.75 percent
-- **Verdict:** CONSIDER
-- **Source:** CBK Market Perception Surveys (96-hotel panel: forward bookings, occupancy, conferencing) · tier 1 · KE · central-bank
-- **First seen:** 2026-10-07T23:41+03:00 EAT · **Source date:** 2026-10-07
-- **URL:** https://www.centralbank.go.ke/2026/10/07/mpc-retains-the-cbr-at-8-75-percent-3
-- **Score parts:** tier +40, category +12, lead +2.4, relevance +8, freshness +16.1, corroborated +10
-
-### 🟡 [88.2] Turkish Airlines 1Q27 Hanoi Network Additions
-- **Verdict:** CONSIDER
-- **Source:** AeroRoutes schedule filings · tier 2 · GLOBAL · aviation-tracker
-- **First seen:** 2026-10-08T03:03+03:00 EAT · **Source date:** 2026-10-08
-- **URL:** https://www.aeroroutes.com/eng/261007-tk1q27han
-- **Extract:** Published at 1600PDT / 2300GMT 07OCT26 Turkish Airlines in the first quarter of 2027 schedules extra flight on Istanbul – Hanoi route, with the addition of 11th weekly flight from 08JAN27 to 27MAR27. Service is operated by Airbus A350-900 aircraft. TK164 IST02
-- **Score parts:** tier +20, category +14, lead +8.4, relevance +16, freshness +19.8, corroborated +10
-
-### 🟡 [88.2] Air Moana Revises Marquesas Islands Operation in NS27 – 07OCT26
-- **Verdict:** CONSIDER
-- **Source:** AeroRoutes schedule filings · tier 2 · GLOBAL · aviation-tracker
-- **First seen:** 2026-10-08T03:03+03:00 EAT · **Source date:** 2026-10-08
-- **URL:** https://www.aeroroutes.com/eng/261007-nmns27auqnhv
-- **Extract:** Published at 1400PDT / 2100GMT 07OCT26 Air Moana in recent weeks further revised planned service to The Marquesas Islands during Northern summer 2027 season. Based on available flights for reservations on the airline’s website, planned overall 3rd weekly fligh
-- **Score parts:** tier +20, category +14, lead +8.4, relevance +16, freshness +19.8, corroborated +10
-
-### 🟡 [84.2] Nouvelair Tunisie Resumes Tunis – Stockholm in NS27
-- **Verdict:** CONSIDER
-- **Source:** AeroRoutes schedule filings · tier 2 · GLOBAL · aviation-tracker
-- **First seen:** 2026-10-08T03:03+03:00 EAT · **Source date:** 2026-10-07
-- **URL:** https://www.aeroroutes.com/eng/261007-bjns27arn
-- **Extract:** Published at 1300PDT / 2000GMT 07OCT26 Nouvelair Tunisie during Northern summer 2027 season plans to launch service to Sweden, as the airline schedules Tunis – Stockholm Arlanda service resumption from 03APR27 to 28AUG27. Airbus A320 aircraft to serve this rou
-- **Score parts:** tier +20, category +14, lead +8.4, relevance +12, freshness +19.8, corroborated +10
-
-### 🟡 [83.9] IHG Hotels & Resorts Signs Hotel Indigo Yogyakarta, Marking IHG Debut in the City
-- **Verdict:** CONSIDER
-- **Source:** IHG news · tier 1 · GLOBAL · hotel-group
-- **First seen:** 2026-10-07T23:40+03:00 EAT · **Source date:** — none stated
-- **URL:** https://www.ihgplc.com/en/news-and-media/news-releases/2026/ihg-hotels-and-resorts-signs-hotel-indigo-yogyakarta-marking-ihg-debut-in-the-city
-- **Score parts:** tier +40, category +9, lead +16.8, relevance +8, freshness +16.1, undated -6
-
-### 🟡 [83.9] MPC retains the CBR at 8.75 percent
-- **Verdict:** CONSIDER
-- **Source:** Central Bank of Kenya press releases · tier 1 · KE · central-bank
-- **First seen:** 2026-10-07T19:31+03:00 EAT · **Source date:** 2026-10-07
-- **URL:** https://www.centralbank.go.ke/2026/10/07/mpc-retains-the-cbr-at-8-75-percent-3
-- **Score parts:** tier +40, category +12, lead +2.4, relevance +8, freshness +11.5, corroborated +10
-
-### 🟡 [83.5] Scat Airlines Adds Almaty – Uralsk in NW26
-- **Verdict:** CONSIDER
-- **Source:** AeroRoutes schedule filings · tier 2 · GLOBAL · aviation-tracker
-- **First seen:** 2026-10-07T22:48+03:00 EAT · **Source date:** 2026-10-07
-- **URL:** https://www.aeroroutes.com/eng/261007-dvnw26ura
-- **Extract:** Published at 1000PDT / 1700GMT 07OCT26 Scat Airlines at the launch of Northern winter 2026/27 season plans to launch Almaty – Uralsk route, where the carrier plans to operate 1 daily flight. From 25OCT26, Boeing 737-800 aircraft to serve this route on daily ba
-- **Score parts:** tier +20, category +14, lead +8.4, relevance +16, freshness +15.1, corroborated +10
-
-### 🟡 [80.7] KLM viert Nederlands vakmanschap met huisje 107 in Zeeland
-- **Verdict:** CONSIDER
-- **Source:** KLM/Air France newsroom · tier 1 · GLOBAL · airline
-- **First seen:** 2026-10-07T22:47+03:00 EAT · **Source date:** 2026-10-07
-- **URL:** https://nieuws.klm.com/klm-viert-nederlands-vakmanschap-met-huisje-107-in-zeeland
-- **Extract:** KLM viert vandaag haar 107e verjaardag met de onthulling van een nieuw Delfts blauw huisje: Wijnhoeve De Kleine Schorre in het Zeeuwse Dreischor. Al 107 jaar verbindt KLM Nederland met de wereld en laat internationaal zien waar Nederland voor staat. Met de jaa
-- **Score parts:** tier +40, category +12, lead +3.6, relevance +0, freshness +15.1, corroborated +10
-
-### 🟡 [79.5] China Eastern Adds Nanjing – Hanoi From Nov 2026
-- **Verdict:** CONSIDER
-- **Source:** AeroRoutes schedule filings · tier 2 · GLOBAL · aviation-tracker
-- **First seen:** 2026-10-07T22:48+03:00 EAT · **Source date:** 2026-10-07
-- **URL:** https://www.aeroroutes.com/eng/261007-munov26han
-- **Extract:** Published at 1200PDT / 1900GMT 07OCT26 China Eastern during Northern winter 2026/27 season plans to expand service to Vietnam, where the airline plans 1 daily Nanjing – Hanoi route. Airbus A320 aircraft to serve this route from 20NOV26. MU2677 NKG1320 – 1530HA
-- **Score parts:** tier +20, category +14, lead +8.4, relevance +12, freshness +15.1, corroborated +10
-
-### 🟡 [79.1] 8.2m children vaccinated as Uganda battles recurring measles outbreaks
-- **Verdict:** CONSIDER
-- **Source:** Daily Monitor (Uganda) · tier 2 · UG · press
-- **First seen:** 2026-10-07T22:48+03:00 EAT · **Source date:** 2026-10-07
-- **URL:** https://www.monitor.co.ug/uganda/news/national/8-2m-children-vaccinated-as-uganda-battles-recurring-measles-outbreaks-5623390
-- **Shock language:** outbreak
-- **Extract:** Uganda has exceeded its mass vaccination target
-- **Score parts:** tier +20, category +4, lead +0, relevance +12, freshness +15.1, corroborated +10, shock +18
-
-### 🟡 [75.9] Porter Airlines Expands London ON Domestic Network in NS27
-- **Verdict:** CONSIDER
-- **Source:** AeroRoutes schedule filings · tier 2 · GLOBAL · aviation-tracker
-- **First seen:** 2026-10-07T19:32+03:00 EAT · **Source date:** 2026-10-07
-- **URL:** https://www.aeroroutes.com/eng/261007-pdns27yxu
-- **Extract:** Published at 0900PDT / 1600GMT 07OCT26 Porter Airlines this week announced network expansion at London ON for Northern summer 2027 season, where the carrier launches 5 routes in the second quarter. Schedules below focuses on the period of 01MAY27 – 31AUG27. Lo
-- **Score parts:** tier +20, category +14, lead +8.4, relevance +12, freshness +11.5, corroborated +10
-
-### 🟡 [75.9] United Expands Newark – Palma de Mallorca Service in NS27
-- **Verdict:** CONSIDER
-- **Source:** AeroRoutes schedule filings · tier 2 · GLOBAL · aviation-tracker
-- **First seen:** 2026-10-07T19:32+03:00 EAT · **Source date:** 2026-10-07
-- **URL:** https://www.aeroroutes.com/eng/261007-uans27pmi
-- **Extract:** Published at 0800PDT / 1500GMT 07OCT26 United in recent schedule update filed service expansion on Newark – Palma de Mallorca route during Northern summer 2027 season. From 21JUN27, the airline will increase service from 4 weekly to 1 daily. Planned end date f
-- **Score parts:** tier +20, category +14, lead +8.4, relevance +12, freshness +11.5, corroborated +10
-
-### 🟡 [75.9] Saudia Moves Forward Manchester Service Increase in NW26
-- **Verdict:** CONSIDER
-- **Source:** AeroRoutes schedule filings · tier 2 · GLOBAL · aviation-tracker
-- **First seen:** 2026-10-07T19:32+03:00 EAT · **Source date:** 2026-10-07
-- **URL:** https://www.aeroroutes.com/eng/261007-svnw26man
-- **Extract:** Published at 0700PDT / 1400GMT 07OCT26 Saudia in the last few days confirmed planned service increase on Jeddah – Manchester route, previously reported on AeroRoutes . From 01NOV26, overall service will increase from 7 to 10 weekly, with additional flights ope
-- **Score parts:** tier +20, category +14, lead +8.4, relevance +12, freshness +11.5, corroborated +10
-
-### 🟡 [75.9] China Airlines / Virgin Atlantic Plans 4Q26 Codeshare Partnership
-- **Verdict:** CONSIDER
-- **Source:** AeroRoutes schedule filings · tier 2 · GLOBAL · aviation-tracker
-- **First seen:** 2026-10-07T19:32+03:00 EAT · **Source date:** 2026-10-07
-- **URL:** https://www.aeroroutes.com/eng/261007-civscodeshare
-- **Extract:** Published at 0400PDT / 1100GMT 07OCT26 China Airlines and Virgin Atlantic in the fourth quarter of 2026 launches codeshare partnership, with effective date listed from 07OCT26 at the earliest. At time this post goes to press, initial codeshare partnership cove
-- **Score parts:** tier +20, category +14, lead +8.4, relevance +12, freshness +11.5, corroborated +10
-
-### 🟡 [75.9] 5th Africa HealthTech Summit explores intelligent health systems for wellness for all
-- **Verdict:** CONSIDER
-- **Source:** Rwanda MoH — news / EVD updates listing · tier 1 · RW · health
-- **First seen:** 2026-10-07T19:32+03:00 EAT · **Source date:** — none stated
-- **URL:** https://www.moh.gov.rw/news-detail/5th-africa-healthtech-summit-explores-intelligent-health-systems-for-wellness-for-all
-- **Score parts:** tier +40, category +24, lead +2.4, relevance +4, freshness +11.5, undated -6
-
-### 🟡 [75.9] 5th Africa HealthTech Summit explores intelligent health systems for wellness for all
-- **Verdict:** CONSIDER
-- **Source:** Rwanda Ministry of Health · tier 1 · RW · health
-- **First seen:** 2026-10-07T19:32+03:00 EAT · **Source date:** — none stated
-- **URL:** https://www.moh.gov.rw/news-detail/5th-africa-healthtech-summit-explores-intelligent-health-systems-for-wellness-for-all
-- **Score parts:** tier +40, category +24, lead +2.4, relevance +4, freshness +11.5, undated -6
-
-### 🟡 [75.5] Minister Nsanzimana visits southern province to inspect primary healthcare service delivery
-- **Verdict:** CONSIDER
-- **Source:** Rwanda MoH — news / EVD updates listing · tier 1 · RW · health
-- **First seen:** 2026-10-07T22:48+03:00 EAT · **Source date:** — none stated
-- **URL:** https://www.moh.gov.rw/news-detail/minister-nsanzimana-visits-southern-province-to-inspect-primary-healthcare-service-delivery
-- **Score parts:** tier +40, category +24, lead +2.4, relevance +0, freshness +15.1, undated -6
-
-### 🟡 [75.5] Minister Nsanzimana visits southern province to inspect primary healthcare service delivery
-- **Verdict:** CONSIDER
-- **Source:** Rwanda Ministry of Health · tier 1 · RW · health
-- **First seen:** 2026-10-07T22:47+03:00 EAT · **Source date:** — none stated
-- **URL:** https://www.moh.gov.rw/news-detail/minister-nsanzimana-visits-southern-province-to-inspect-primary-healthcare-service-delivery
-- **Score parts:** tier +40, category +24, lead +2.4, relevance +0, freshness +15.1, undated -6
-
-### 🟡 [75.3] Alaska Airlines’ Plan to Grow Beyond Its West Coast Roots
-- **Verdict:** CONSIDER
-- **Source:** Skift · tier 2 · GLOBAL · trade
-- **First seen:** 2026-10-07T22:48+03:00 EAT · **Source date:** 2026-10-07
-- **URL:** https://skift.com/2026/10/07/alaska-airlines-plan-to-grow-beyond-its-west-coast-roots
-- **Extract:** Despite constraints at its biggest hub, competition from Delta, and surging fuel prices, Alaska’s chief commercial officer told Skift that he thinks the carrier can dominate the West Coast with its premium investments and push into international routes.
-- **Score parts:** tier +20, category +5, lead +1.2, relevance +24, freshness +15.1, corroborated +10
-
-### 🟡 [75.1] Court strikes out 97 Rubongoya affidavits in Kampala Central petition
-- **Verdict:** CONSIDER
-- **Source:** Daily Monitor (Uganda) · tier 2 · UG · press
-- **First seen:** 2026-10-07T22:48+03:00 EAT · **Source date:** 2026-10-07
-- **URL:** https://www.monitor.co.ug/uganda/news/national/court-strikes-out-97-rubongoya-affidavits-in-kampala-central-petition-5622812
-- **Shock language:** strike
-- **Extract:** Mr Rubongoya originally filed his petition on March 30, seeking to nullify Ms Kabanda’s...
-- **Score parts:** tier +20, category +4, lead +0, relevance +8, freshness +15.1, corroborated +10, shock +18
-
-### 🟡 [73.9] CS Ogamba Reveals Timeline for Recruitment of JSS Teachers on Permanent Terms
+### 🟡 [92.2] WHO Issues Fresh Ebola Travel Advisory for Kenya
 - **Verdict:** CONSIDER
 - **Source:** Kenyans.co.ke news · tier 2 · KE · press
-- **First seen:** 2026-10-07T19:32+03:00 EAT · **Source date:** 2026-10-07
-- **URL:** https://www.kenyans.co.ke/news/127673-20000-intern-teachers-get-permanent-jobs-january-2027-cs-ogamba-says
-- **Shock language:** strike
-- **Extract:** Ogamba’s update comes months after JSS intern teachers staged strikes over pay, working conditions and demands for permanent and pensionable terms.
-- **Score parts:** tier +20, category +4, lead +2.4, relevance +8, freshness +11.5, corroborated +10, shock +18
+- **First seen:** 2026-10-08T11:34+03:00 EAT · **Source date:** 2026-10-08
+- **URL:** https://www.kenyans.co.ke/news/127682-who-advises-kenya-against-closing-borders-after-ebola-case
+- **Extract:** Kenya confirmed its first case of the Bundibugyo Ebola virus on October 6, with 57 people traced for quarantine.
+- **Score parts:** tier +20, category +4, lead +2.4, relevance +36, freshness +19.8, corroborated +10
 
-### 🟡 [73.9] CSs meet to unlock varsity lecturers’ strike
+### 🟡 [89.4] Health Alert: U.S. Embassy Kampala, Uganda (October 7, 2026)
 - **Verdict:** CONSIDER
-- **Source:** Nation Africa: Kenya business · tier 2 · KE · press
-- **First seen:** 2026-10-07T19:32+03:00 EAT · **Source date:** 2026-10-07
-- **URL:** https://nation.africa/kenya/news/education/css-meet-to-unlock-varsity-lecturers-strike--5615520
-- **Shock language:** strike
-- **Extract:** Education CS Ogamba held an emergency meeting with Treasury counterpart John Mbadi and top...
-- **Score parts:** tier +20, category +4, lead +2.4, relevance +8, freshness +11.5, corroborated +10, shock +18
+- **Source:** US Embassy Kampala — travel advisory & alerts · tier 1 · UG · advisory
+- **First seen:** 2026-10-08T11:34+03:00 EAT · **Source date:** — none stated
+- **URL:** https://ug.usembassy.gov/health-alert-u-s-embassy-kampala-uganda-october-7-2026
+- **Score parts:** tier +40, category +32, lead +3.6, relevance +0, freshness +19.8, undated -6
 
-### 🟡 [73.7] Their pricing tool was free to use. The Lauderdale chose Pricepoint anyway.
+### 🟡 [88.7] Royal Air Maroc, première compagnie aérienne africaine à proposer le Wi-Fi Starlink à bord
 - **Verdict:** CONSIDER
-- **Source:** Hospitality Net — Africa announcements · tier 2 · REG · trade
-- **First seen:** 2026-10-07T22:48+03:00 EAT · **Source date:** 2026-10-07
-- **URL:** https://www.hospitalitynet.org/casestudy/4134799/their-pricing-tool-was-free-to-use-the-lauderdale-chose-pricepoint-anyway
-- **Extract:** A 17-room Fort Lauderdale boutique hotel switched from a free pricing tool to Pricepoint, achieving a 12% RevPAR lift while maintaining 80% occupancy.
-- **Score parts:** tier +20, category +5, lead +3.6, relevance +20, freshness +15.1, corroborated +10
+- **Source:** AFRAA — monthly African air transport / capacity brief · tier 1 · REG · aviation
+- **First seen:** 2026-10-08T11:32+03:00 EAT · **Source date:** 2026-10-08
+- **URL:** https://www.afraa.org/royal-air-maroc-premiere-compagnie-aerienne-africaine-a-proposer-le-wi-fi-starlink-a-bord
+- **Extract:** 41 appareils de Royal Air Maroc seront progressivement dotés du Wi-Fi haut débit Starlink, offert gratuitement à tous les membres du programme de fidélité Safar Flyer Les premières installations débuteront […]
+- **Score parts:** tier +40, category +13, lead +6, relevance +0, freshness +19.7, corroborated +10
 
-### 🟡 [73.7] Booking Says No Hotel Depends on It. The Data Disagrees. AI Referral Traffic Quadrupled but Stays Under 1%. Citybox Buil
+### 🟡 [88.5] MPs Demand UNOC Fuel Price Breakdown Amid Rising Pump Prices Thursday, 8 October 2026
 - **Verdict:** CONSIDER
-- **Source:** Hospitality Net — Africa announcements · tier 2 · REG · trade
-- **First seen:** 2026-10-07T22:48+03:00 EAT · **Source date:** 2026-10-07
-- **URL:** https://www.hospitalitynet.org/editorial/4134796/booking-says-no-hotel-depends-on-it-the-data-disagrees-ai-referral-traffic-quadrupled-but-stays-under-1-citybox-built-nordic-budget-around-no-reception
-- **Extract:** Wednesday brought hospitality.today rebutting a Booking.com executive's claim that no hotel depends on a single platform, citing HOTREC data showing Booking Holdings controls ~70% of European OTA bookings, the same authors finding AI-referred hotel traffic qua
-- **Score parts:** tier +20, category +5, lead +3.6, relevance +20, freshness +15.1, corroborated +10
+- **Source:** Parliament of Uganda · tier 1 · UG · legislature
+- **First seen:** 2026-10-08T11:32+03:00 EAT · **Source date:** — none stated
+- **URL:** https://www.parliament.go.ug/news/4655/mps-demand-unoc-fuel-price-breakdown-amid-rising-pump-prices
+- **Score parts:** tier +40, category +10, lead +16.8, relevance +8, freshness +19.7, undated -6
 
-### 🟡 [71.9] Singapore Airlines Moves Riyadh Service Resumption to late-1Q27
+### 🟡 [88.2] China Eastern Moves Shanghai – Riyadh Resumption to Jan 2027
 - **Verdict:** CONSIDER
 - **Source:** AeroRoutes schedule filings · tier 2 · GLOBAL · aviation-tracker
-- **First seen:** 2026-10-07T19:32+03:00 EAT · **Source date:** 2026-10-07
-- **URL:** https://www.aeroroutes.com/eng/261007-sqns27ruh
-- **Extract:** Published at 0600PDT / 1300GMT 07OCT26 Singapore Airlines in this week’s schedule update filed service changes to Saudi Arabia. The airline previously scheduled to operate 3 weekly Singapore – Riyadh flights from 01DEC26, this is now further postponed to 28MAR
-- **Score parts:** tier +20, category +14, lead +8.4, relevance +8, freshness +11.5, corroborated +10
+- **First seen:** 2026-10-08T11:34+03:00 EAT · **Source date:** 2026-10-08
+- **URL:** https://www.aeroroutes.com/eng/261008-mujan27ruh
+- **Extract:** Published at 0000PDT / 0700GMT 08OCT26 China Eastern this week further revised planned service resumption on Shanghai Pu Dong – Riyadh route. The Skyteam member now intends to resume this from 16JAN27 at the earliest, with A330-200 aircraft operating 5 weekly.
+- **Score parts:** tier +20, category +14, lead +8.4, relevance +16, freshness +19.8, corroborated +10
 
-### 🟡 [70.5] Linturi: We will not fight ‘our son’ Kindiki
+### 🟡 [86.2] [page changed] ProMED-mail
+- **Verdict:** CONSIDER
+- **Source:** ProMED-mail · tier 2 · GLOBAL · health
+- **First seen:** 2026-10-08T11:34+03:00 EAT · **Source date:** — none stated
+- **URL:** https://promedmail.org/
+- **Shock language:** outbreak
+- **Extract:** Protecting Global Health, One Alert at a Time | ProMED Previous slide Next slide Protecting Global Health, One Alert at a Time ProMED: Your 24/7 early warning system for emerging infectious diseases worldwide. Subscribe ProMED's Weekly Pulse A snapshot of glob
+- **Score parts:** tier +20, category +24, lead +2.4, relevance +12, freshness +19.8, undated -6, shock +18, page_change -4
+
+### 🟡 [85.3] Gratis snelle Wi-Fi op intercontinentale vluchten KLM
+- **Verdict:** CONSIDER
+- **Source:** KLM/Air France newsroom · tier 1 · GLOBAL · airline
+- **First seen:** 2026-10-08T11:32+03:00 EAT · **Source date:** 2026-10-08
+- **URL:** https://nieuws.klm.com/gratis-snelle-wi-fi-op-intercontinentale-vluchten-klm
+- **Extract:** Na de introductie van gratis snelle Wi-Fi op Europese vluchten breidt KLM deze service uit naar haar intercontinentale netwerk. Passagiers kunnen tijdens hun vlucht straks gebruikmaken van snel en onbeperkt internet om bijvoorbeeld e-mails te versturen, te int
+- **Score parts:** tier +40, category +12, lead +3.6, relevance +0, freshness +19.7, corroborated +10
+
+### 🟡 [84.2] Aegean Airlines Schedules Damascus Dec 2026 Launch
+- **Verdict:** CONSIDER
+- **Source:** AeroRoutes schedule filings · tier 2 · GLOBAL · aviation-tracker
+- **First seen:** 2026-10-08T11:34+03:00 EAT · **Source date:** 2026-10-08
+- **URL:** https://www.aeroroutes.com/eng/261007-a3dec26dam
+- **Extract:** Published at 2230PDT 07OCT26 / 0530GMT 08OCT26 Aegean Airlines this week announced service launch to Syria, with 3 weekly Athens – Damascus service scheduled from 02DEC26. Airbus A320 aircraft to serve this route. A3944 ATH0615 – 0915DAM 320 36 A3944 ATH1430 –
+- **Score parts:** tier +20, category +14, lead +8.4, relevance +12, freshness +19.8, corroborated +10
+
+### 🟡 [82.2] Lecturers in make-or-break talks to unlock strike stalemate
 - **Verdict:** CONSIDER
 - **Source:** Nation Africa: Kenya business · tier 2 · KE · press
-- **First seen:** 2026-10-07T23:40+03:00 EAT · **Source date:** 2026-10-07
-- **URL:** https://nation.africa/kenya/news/politics/linturi-we-will-not-fight-our-son-kindiki-5623056
+- **First seen:** 2026-10-08T11:34+03:00 EAT · **Source date:** 2026-10-08
+- **URL:** https://nation.africa/kenya/news/education/lecturers-in-make-or-break-talks-to-unlock-strike-stalemate-5623490
+- **Shock language:** strike
+- **Extract:** Unions to meet with representatives of an inter-ministerial committee.
+- **Score parts:** tier +20, category +4, lead +2.4, relevance +8, freshness +19.8, corroborated +10, shock +18
+
+### 🟡 [80.5] EXPLAINER ON THE REGIONAL DEVELOPMENT AUTHORITIES LAWS (REPEAL)
+- **Verdict:** CONSIDER
+- **Source:** Parliament of Kenya — bills & papers · tier 1 · KE · legislature
+- **First seen:** 2026-10-08T11:32+03:00 EAT · **Source date:** — none stated
+- **URL:** https://www.parliament.go.ke/explainer-regional-development-authorities-laws-repeal
+- **Score parts:** tier +40, category +10, lead +16.8, relevance +0, freshness +19.7, undated -6
+
+### 🟡 [80.5] Order Paper For Thursday, 8th October 2026
+- **Verdict:** CONSIDER
+- **Source:** Parliament of Kenya — bills & papers · tier 1 · KE · legislature
+- **First seen:** 2026-10-08T11:32+03:00 EAT · **Source date:** — none stated
+- **URL:** https://www.parliament.go.ke/sites/default/files/2026-10/ORDER%20PAPER%20FOR%20THURSDAY%2C%208TH%20OCTOBER%202026.pdf
+- **Extract:** !"#$%&&'%"()*$+#*,&'%!!!!!!!!!!!!!!!!-#.%"(/&00#1'(2314(567(((((((((((((((((((((((((((((((((288597((:;)<=>?@(A-(B;3CD(!!E?:!;;3!E()D:>?DF;3!(G(2-?-!E(/;//?A37(!"#$!%&"'(%&)!&**$+,)-!(A:H;:/(A-(!E;(HDC((!!!E<:/HDCI(A@!A=;:(6JI(868K(D!(84L6()4F4(!(./$.!(0!,1*'%$
+- **Score parts:** tier +40, category +10, lead +16.8, relevance +0, freshness +19.7, undated -6
+
+### 🟡 [80.2] Ethiopian Expands Dubai Flights From late-Oct 2026
+- **Verdict:** CONSIDER
+- **Source:** AeroRoutes schedule filings · tier 2 · GLOBAL · aviation-tracker
+- **First seen:** 2026-10-08T11:34+03:00 EAT · **Source date:** 2026-10-08
+- **URL:** https://www.aeroroutes.com/eng/261008-etnw26dxb
+- **Extract:** Published at 0100PDT / 0800GMT 08OCT26 Ethiopian Airlines during Northern winter 2026/27 season plans to increase Addis Ababa – Dubai service, as the carrier introduces additional 3 weekly flights. Overall service from 25OCT26 will increase from 28 to 31 weekl
+- **Score parts:** tier +20, category +14, lead +8.4, relevance +8, freshness +19.8, corroborated +10
+
+### 🟡 [80.2] China Eastern Nov/Dec 2026 Europe Service Changes – 07OCT26
+- **Verdict:** CONSIDER
+- **Source:** AeroRoutes schedule filings · tier 2 · GLOBAL · aviation-tracker
+- **First seen:** 2026-10-08T11:34+03:00 EAT · **Source date:** 2026-10-08
+- **URL:** https://www.aeroroutes.com/eng/261007-munov26eu
+- **Extract:** Published 2000PDT 07OCT26 / 0300GMT 08OCT26 China Eastern this week filed various European service changes for November and December 2026, including aircraft changes or frequency reductions. Shanghai Pu Dong – Barcelona 15NOV26 – 01JAN27 Reduce from 7 to 4 wee
+- **Score parts:** tier +20, category +14, lead +8.4, relevance +8, freshness +19.8, corroborated +10
+
+### 🟡 [80.2] Icelandair Adds St. Louis Service in NS27
+- **Verdict:** CONSIDER
+- **Source:** AeroRoutes schedule filings · tier 2 · GLOBAL · aviation-tracker
+- **First seen:** 2026-10-08T11:34+03:00 EAT · **Source date:** 2026-10-08
+- **URL:** https://www.aeroroutes.com/eng/261007-fins27stl
+- **Extract:** Published at 1800PDT 07OCT26 / 0100GMT 08OCT26 Icelandair in Northern summer 2027 season plans to launch new service to the US, with the scheduling of Reykjavík Keflavík – St. Louis route. From 14MAY27, Boeing 737 MAX 8 aircraft to serve this route 3 times wee
+- **Score parts:** tier +20, category +14, lead +8.4, relevance +8, freshness +19.8, corroborated +10
+
+### 🟡 [80.2] U.K Issues Travel Advisory for Kenya
+- **Verdict:** CONSIDER
+- **Source:** Kenyans.co.ke news · tier 2 · KE · press
+- **First seen:** 2026-10-08T11:34+03:00 EAT · **Source date:** 2026-10-08
+- **URL:** https://www.kenyans.co.ke/news/127686-uk-issues-travel-advisory-kenya-over-ebola
+- **Extract:** The U.K. advisory adds to a growing number of countries that have issued health alerts to their citizens in Kenya over Ebola, with the U.S. issuing a similar alert just hours earlier.
+- **Score parts:** tier +20, category +4, lead +2.4, relevance +24, freshness +19.8, corroborated +10
+
+### 🟡 [79.6] Choice Hotels International to Report Third Quarter 2026 Earnings on November 2, 2026
+- **Verdict:** CONSIDER
+- **Source:** Choice Hotels newsroom · tier 2 · GLOBAL · hotel-group
+- **First seen:** 2026-10-08T11:34+03:00 EAT · **Source date:** 2026-10-07
+- **URL:** https://media.choicehotels.com/2026-10-07-Choice-Hotels-International-to-Report-Third-Quarter-2026-Earnings-on-November-2,-2026
+- **Score parts:** tier +20, category +9, lead +16.8, relevance +4, freshness +19.8, corroborated +10
+
+### 🟡 [77.8] Fuel prices climb amid Middle East crisis
+- **Verdict:** CONSIDER
+- **Source:** Daily News (Tanzania) · tier 2 · TZ · press
+- **First seen:** 2026-10-08T11:35+03:00 EAT · **Source date:** 2026-10-08
+- **URL:** https://dailynews.co.tz/fuel-prices-climb-amid-middle-east-crisis
+- **Extract:** DAR ES SALAAM: MOTORISTS will pay more for fuel in October after the price of a litre of petrol in Dar es Salaam rose by 261/- to 4,057/-, while diesel increased by 209/- to 4,086/-. The Energy and Water Utilities Regulatory Authority (EWURA) set the maximum r
+- **Score parts:** tier +20, category +4, lead +0, relevance +24, freshness +19.8, corroborated +10
+
+### 🟡 [76.3] [page changed] WTTC news
+- **Verdict:** CONSIDER
+- **Source:** WTTC news · tier 1 · GLOBAL · body
+- **First seen:** 2026-10-08T11:32+03:00 EAT · **Source date:** — none stated
+- **URL:** https://wttc.org/news
+- **Extract:** Travel & Tourism News and Press Releases | WTTC Travel & Tourism News and Press Releases Below you can find all the latest news and press releases from WTTC. News Below you can find all the latest news and press releases from WTTC. Use the filters to narrow do
+- **Score parts:** tier +40, category +7, lead +3.6, relevance +16, freshness +19.7, undated -6, page_change -4
+
+### 🟡 [74.4] In Hamburg: Macherinnen#Touristik laden zu zwei Events ein
+- **Verdict:** CONSIDER
+- **Source:** FVW / German travel trade · tier 2 · GLOBAL · source-market
+- **First seen:** 2026-10-08T11:34+03:00 EAT · **Source date:** 2026-10-08
+- **URL:** https://www.fvw.de/counter/expi-welt/in-hamburg-macherinnentouristik-laden-zu-zwei-events-ein-265130
+- **Extract:** Die nächsten Events des Netzwerks Macherinnen#Touristik finden im Dezember statt. Alle Details.
+- **Score parts:** tier +20, category +9, lead +3.6, relevance +12, freshness +19.8, corroborated +10
+
+### 🟡 [74.2] Kenyan football: An ugly history of attacks on refs
+- **Verdict:** CONSIDER
+- **Source:** Nation Africa: Kenya business · tier 2 · KE · press
+- **First seen:** 2026-10-08T11:34+03:00 EAT · **Source date:** 2026-10-08
+- **URL:** https://nation.africa/kenya/sports/football/kenyan-football-an-ugly-history-of-attacks-on-refs--5623660
 - **Shock language:** attack
-- **Extract:** The ex-CS says Gachagua-led DCP has resolved to shift its attacks to the President.
-- **Score parts:** tier +20, category +4, lead +2.4, relevance +0, freshness +16.1, corroborated +10, shock +18
+- **Extract:** The latest incident happened on Tuesday at the Ulinzi Sports Complex, situated inside a...
+- **Score parts:** tier +20, category +4, lead +2.4, relevance +0, freshness +19.8, corroborated +10, shock +18
+
+### 🟡 [73.2] The New Event Buyer: What Clients Expect From Venues Today
+- **Verdict:** CONSIDER
+- **Source:** HVS — market reports and event-impact studies (via Hotel News Resource) · tier 2 · GLOBAL · trade
+- **First seen:** 2026-10-08T11:34+03:00 EAT · **Source date:** 2026-10-07
+- **URL:** https://www.hotelnewsresource.com/article143238.html
+- **Extract:** Evolving demands from event planners are driving venues to enhance flexibility, technology integration, and personalized services, requiring hotels and conference centers to reassess their event space strategies to attract and retain group business.
+- **Score parts:** tier +20, category +5, lead +2.4, relevance +16, freshness +19.8, corroborated +10
+
+### 🟡 [73.2] Learn How Schema Markup Helps Search Engines Understand Your Hotel
+- **Verdict:** CONSIDER
+- **Source:** HVS — market reports and event-impact studies (via Hotel News Resource) · tier 2 · GLOBAL · trade
+- **First seen:** 2026-10-08T11:34+03:00 EAT · **Source date:** 2026-10-07
+- **URL:** https://www.hotelnewsresource.com/article143236.html
+- **Extract:** Travelboom Hotel Marketing explains how implementing schema markup helps hotels provide search engines with detailed, structured information about their properties, improving search result accuracy and increasing the likelihood of direct bookings.
+- **Score parts:** tier +20, category +5, lead +2.4, relevance +16, freshness +19.8, corroborated +10
+
+### 🟡 [73.2] Guest Profiles: The Foundation of Personalized Experiences - By Lana Cook
+- **Verdict:** CONSIDER
+- **Source:** HVS — market reports and event-impact studies (via Hotel News Resource) · tier 2 · GLOBAL · trade
+- **First seen:** 2026-10-08T11:34+03:00 EAT · **Source date:** 2026-10-07
+- **URL:** https://www.hotelnewsresource.com/article143234.html
+- **Extract:** Lana Cook writes that developing detailed guest profiles is essential for hotels that want to personalize experiences, improve guest satisfaction, and increase repeat business through tailored services and communications.
+- **Score parts:** tier +20, category +5, lead +2.4, relevance +16, freshness +19.8, corroborated +10
+
+### 🟡 [73.2] voco Vrindavan Planned to Open Q1 2031 in India
+- **Verdict:** CONSIDER
+- **Source:** HVS — market reports and event-impact studies (via Hotel News Resource) · tier 2 · GLOBAL · trade
+- **First seen:** 2026-10-08T11:34+03:00 EAT · **Source date:** 2026-10-07
+- **URL:** https://www.hotelnewsresource.com/article143227.html
+- **Extract:** IHG Hotels & Resorts has signed a management agreement with Vrindam Developers Private Limited for a 130-key voco hotel in Vrindavan, scheduled to open in Q1 2031.
+- **Score parts:** tier +20, category +5, lead +2.4, relevance +16, freshness +19.8, corroborated +10
+
+### 🟡 [72.2] Condor NS27 Preliminary E190 Network – 04OCT26
+- **Verdict:** CONSIDER
+- **Source:** AeroRoutes schedule filings · tier 2 · GLOBAL · aviation-tracker
+- **First seen:** 2026-10-08T11:34+03:00 EAT · **Source date:** 2026-10-08
+- **URL:** https://www.aeroroutes.com/eng/261007-dens27e90
+- **Extract:** Published at 2130PDT 07OCT26 / 0430GMT 08OCT26 Condor in Northern summer 2027 preliminary schedule filing continues to list German Airways Embraer E190 operation. As of 04OCT26, planned E190 operation from 28MAR27 includes the following. Frankfurt – Florence e
+- **Score parts:** tier +20, category +14, lead +8.4, relevance +0, freshness +19.8, corroborated +10
+
+### 🟡 [72.2] Tayebwa pushes for ethical business practices
+- **Verdict:** CONSIDER
+- **Source:** The Independent (Uganda) · tier 2 · UG · press
+- **First seen:** 2026-10-08T11:34+03:00 EAT · **Source date:** 2026-10-08
+- **URL:** https://www.independent.co.ug/tayebwa-pushes-for-ethical-business-practices
+- **Extract:** Kampala, Uganda | NEWS CORRESPONDENT | Deputy Speaker of Parliament Thomas Tayebwa has called on the business community to embrace tax compliance, transparency and ethical practices, saying Uganda’s economic transformation depends on a strong and responsible p
+- **Score parts:** tier +20, category +4, lead +2.4, relevance +16, freshness +19.8, corroborated +10
+
+### 🟡 [72.0] Kenya reaffirms destination safety following reported Ebola case
+- **Verdict:** CONSIDER
+- **Source:** VoyagesAfriq · tier 2 · REG · trade
+- **First seen:** 2026-10-08T11:34+03:00 EAT · **Source date:** 2026-10-08
+- **URL:** https://voyagesafriq.com/2026/10/08/kenya-reaffirms-destination-safety-following-reported-ebola-case
+- **Extract:** Kenya has moved to reassure visitors and the international tourism industry following a reported case of Ebola involving a patient who travelled to and arrived in the country. Speaking at […] The post Kenya reaffirms destination safety following reported Ebola
+- **Score parts:** tier +20, category +5, lead +1.2, relevance +16, freshness +19.8, corroborated +10
