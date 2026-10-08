@@ -4,8 +4,9 @@ slug: google-rate-feed-east-africa-quoted-price
 description: Three changes in five weeks moved the decision about what price a traveller is shown away from the hotel and into the retrieval layer. The one country where a guest can now book inside the answer is also Kenya's largest single source market.
 category: Big Read
 updated: 2026-10-08
+image: "img/editions/google-rate-feed-east-africa-quoted-price.jpg"
+image_credit: "Photograph: Levi / The Independent"
 ---
-
 On Tuesday 8 September, Nick Fox, Google's senior vice president for knowledge and information, said something a platform executive almost never says in public about his own product. The company had just rebuilt its European search page to satisfy the Digital Markets Act, splitting travel results into one unit stacked with booking sites and a second, narrower unit for the suppliers themselves. Out of that second unit went the date filters, the descriptive tags and, most importantly, the live prices. "These changes degrade the user experience for Europeans," Fox said.
 
 Three weeks later, with no complaint and no blog post, Google removed something considerably more consequential for a camp in the Mara or a beach hotel in Diani. On Wednesday 30 September, under a help-centre notice of a few hundred words, the third-party rates feature for hotel ads became unavailable. Until that date a property that had never built a rate feed in its life could still appear in Google's hotel surfaces with a price attached, because Google would source one on its behalf. After it, a hotel without its own live feed, delivered through a Hotel Center account or an approved connectivity partner, stops serving. "After this date, affected campaigns will stop serving ads across all Hotel Ads inventory," the notice reads. Campaigns cannot be migrated. A property has to pass a pricing accuracy review and build them again.
