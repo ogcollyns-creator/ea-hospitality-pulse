@@ -1,5 +1,14 @@
 window.EDITIONS = [
  {
+  "id": "pulse-2026-10-08-evening",
+  "date": "2026-10-08",
+  "dateDisplay": "Thursday, 8 October 2026",
+  "edition": "Evening Wrap",
+  "editionKey": "evening",
+  "summary": "Tanzania's fuel caps rose 5–10% for October, with Kyerwa petrol at TSh 4,370",
+  "bodyHtml": "<p><strong>Tanzania raised its October fuel price caps on 7 October: Dar es Salaam petrol is now TSh 4,057 a litre, up 6.9%</strong><br><em>🌆 Evening Wrap · Thu 8 Oct 2026</em></p>\n<p>━━━━━━━━━<br><span class=\"item-head\">1️⃣ Tanzania&#x27;s fuel caps rose 5–10% for October, with Kyerwa petrol at TSh 4,370</span></p>\n<p>EWURA&#x27;s October maximum retail prices took effect 7 Oct. Dar es Salaam: petrol TSh 4,057 (+261 from 3,796), diesel 4,086 (+209 from 3,877), kerosene 4,067 (+354 from 3,713). Tanga petrol is 4,123, Mtwara 4,170, Kyerwa (Kagera) 4,370. EWURA cites renewed Middle East tensions <strong>(Daily News, 8 Oct, reporting EWURA)</strong>. Our arithmetic: petrol +6.9%, diesel +5.4%, kerosene +9.5%.<br>Our inference: the lodge cost is distance from port, not Dar. Fuel to Serengeti, Kagera and Ruaha camps carries a premium on top, and game-drive diesel is the line that moves.<br><span class=\"sowhat\">🎯 So what: re-cost October-December vehicle and generator runs at the October caps before you issue 2027 contract rates.</span><br><span class=\"tagline\">🏷 City, Bush, Beach | Tanzania | Confirmed | impact:margin</span></p>\n<p><span class=\"item-head\">2️⃣ Uganda&#x27;s Parliament pressed the government on 7 October to explain rising pump prices</span></p>\n<p>Minister Musenero attributed the rise to the shilling moving from about Shs3,600 to Shs4,000 per dollar, a Shs200 excise increase in the 2026/27 budget and global supply pressure. MPs asked for UNOC&#x27;s selling-price breakdown, suspension of the excise rise and tax relief. She had not received the breakdown and the debate was adjourned <strong>(Parliament of Uganda, 8 Oct)</strong>. One MP asked for supply-disruption planning tied to instability in Kenya.<br><span class=\"sowhat\">🎯 So what: a weaker shilling hits imported food and beverage costs as well as fuel. Do not lock Uganda dollar-priced rates for 2027 until the statement on the economy lands.</span><br><span class=\"tagline\">🏷 City, Bush | Uganda | Reported | impact:margin</span></p>\n<p><span class=\"item-head\">3️⃣ WHO&#x27;s Tedros advised against closing Kenya&#x27;s borders on 7 October; EAC health ministers record no border measures</span></p>\n<p>Tedros told CS Duale that screening and contact tracing work better than blanket restrictions <strong>(Kenyans.co.ke, 8 Oct)</strong>. Kenya counts 10 people in quarantine and 57 contacts being traced, including passengers and crew. A suspected case in Wajir, reported by The Standard, has no published lab result. The EAC health ministers&#x27; communiqué of 8 Oct records no border measures and no case counts <strong>(eac.int)</strong>.<br><span class=\"sowhat\">🎯 So what: stay with the line &quot;imported case, no local transmission&quot;. Do not repeat the Wajir report to agents until a result is published.</span><br><span class=\"tagline\">🏷 City, Bush, Beach | Kenya | Reported | impact:risk</span></p>\n<p><strong>🏗 DEAL FLOW:</strong> No verified EA deal flow in the window.</p>\n<p><strong>📻 ALSO TONIGHT</strong><br>🇪🇹 Ethiopian adds 3 weekly Dubai flights from 25 Oct, 28 to 31 a week <strong>(AeroRoutes schedule filing, 8 Oct)</strong>.<br>🇺🇸 The US entry order on DRC, Uganda and South Sudan runs to 11 Oct; we found no renewal yet <strong>(latest extension reported 16 Sep)</strong>.</p>\n<p><strong>📅 WEEK AHEAD</strong> Tanzania&#x27;s September CPI (August 4.3%) and NISR about 10 Oct; US order 11 Oct; Kenya&#x27;s 8% fuel VAT ends 14 Oct as EPRA reviews pump prices.</p>\n<p><strong>🔍 BLIND SPOTS:</strong> Gazettes, KCAA, UWA, TANAPA, NCAA, health ministries, German, French and Canadian advisories: searched, not opened.</p>\n<p>🔗 This edition on the web: <a href=\"https://eahospitalitypulse.com/editions/pulse-2026-10-08-evening.html\" rel=\"noopener\">eahospitalitypulse.com/editions/pulse-2026-10-08-evenin…</a></p>"
+ },
+ {
   "id": "pulse-2026-10-07-evening",
   "date": "2026-10-07",
   "dateDisplay": "Wednesday, 7 October 2026",
@@ -1144,6 +1153,68 @@ window.EDITIONS = [
  }
 ];
 window.INSIGHTS = [
+ {
+  "headline": "Tanzania's fuel caps rose 5–10% for October, with Kyerwa petrol at TSh 4,370",
+  "body": "EWURA's October maximum retail prices took effect 7 Oct. Dar es Salaam: petrol TSh 4,057 (+261 from 3,796), diesel 4,086 (+209 from 3,877), kerosene 4,067 (+354 from 3,713). Tanga petrol is 4,123, Mtwara 4,170, Kyerwa (Kagera) 4,370. EWURA cites renewed Middle East tensions *(Daily News, 8 Oct, reporting EWURA)*. Our arithmetic: petrol +6.9%, diesel +5.4%, kerosene +9.5%. Our inference: the lodge cost is distance from port, not Dar. Fuel to Serengeti, Kagera and Ruaha camps carries a premium on top, and game-drive diesel is the line that moves.",
+  "sowhat": "🎯 So what: re-cost October-December vehicle and generator runs at the October caps before you issue 2027 contract rates.",
+  "segments": [
+   "city",
+   "bush",
+   "beach"
+  ],
+  "countries": "Tanzania",
+  "confidence": "Confirmed",
+  "impact": "-margin",
+  "impactClass": "margin",
+  "intensity": 3,
+  "impactSet": "author",
+  "source": "pulse-2026-10-08-evening",
+  "date": "2026-10-08",
+  "dateDisplay": "Thursday, 8 October 2026",
+  "edition": "Evening Wrap",
+  "editionKey": "evening"
+ },
+ {
+  "headline": "Uganda's Parliament pressed the government on 7 October to explain rising pump prices",
+  "body": "Minister Musenero attributed the rise to the shilling moving from about Shs3,600 to Shs4,000 per dollar, a Shs200 excise increase in the 2026/27 budget and global supply pressure. MPs asked for UNOC's selling-price breakdown, suspension of the excise rise and tax relief. She had not received the breakdown and the debate was adjourned *(Parliament of Uganda, 8 Oct)*. One MP asked for supply-disruption planning tied to instability in Kenya.",
+  "sowhat": "🎯 So what: a weaker shilling hits imported food and beverage costs as well as fuel. Do not lock Uganda dollar-priced rates for 2027 until the statement on the economy lands.",
+  "segments": [
+   "city",
+   "bush"
+  ],
+  "countries": "Uganda",
+  "confidence": "Reported",
+  "impact": "-margin",
+  "impactClass": "margin",
+  "intensity": 2,
+  "impactSet": "author",
+  "source": "pulse-2026-10-08-evening",
+  "date": "2026-10-08",
+  "dateDisplay": "Thursday, 8 October 2026",
+  "edition": "Evening Wrap",
+  "editionKey": "evening"
+ },
+ {
+  "headline": "WHO's Tedros advised against closing Kenya's borders on 7 October; EAC health ministers record no border measures",
+  "body": "Tedros told CS Duale that screening and contact tracing work better than blanket restrictions *(Kenyans.co.ke, 8 Oct)*. Kenya counts 10 people in quarantine and 57 contacts being traced, including passengers and crew. A suspected case in Wajir, reported by The Standard, has no published lab result. The EAC health ministers' communiqué of 8 Oct records no border measures and no case counts *(eac.int)*.",
+  "sowhat": "🎯 So what: stay with the line \"imported case, no local transmission\". Do not repeat the Wajir report to agents until a result is published.",
+  "segments": [
+   "city",
+   "bush",
+   "beach"
+  ],
+  "countries": "Kenya",
+  "confidence": "Reported",
+  "impact": "risk",
+  "impactClass": "risk",
+  "intensity": 2,
+  "impactSet": "author",
+  "source": "pulse-2026-10-08-evening",
+  "date": "2026-10-08",
+  "dateDisplay": "Thursday, 8 October 2026",
+  "edition": "Evening Wrap",
+  "editionKey": "evening"
+ },
  {
   "headline": "Kenya's first Ebola case came through Uganda, on a scheduled flight, past airport screening",
   "body": "A Kenyan who had lived in the DRC for seven years travelled by road to Kampala, then flew Jambojet JM 8523 Entebbe–Nairobi, landing at JKIA at 13:10 on Sat 3 Oct. He cleared routine Port Health screening, was admitted to Nairobi Hospital's isolation wing and died late on 5 Oct *(Health CS Aden Duale, MoH statement via APO Group, 7 Oct; Kenyans.co.ke, 6–7 Oct; some outlets give 6 Oct)*. First count: 28 contacts, plus 23 passengers and 4 crew being traced. By 7 Oct, 57 contacts and 10 in quarantine; surveillance at 15 entry points *(PS Mary Muthoni via Kenyans.co.ke, 7 Oct)*. Her line: \"We do not have an outbreak; we have an imported case.\" WHO advises against travel or trade restrictions on Kenya, Uganda or DRC *(Tedros, via People Daily, 7 Oct)*. health.go.ke could not be opened; figures are the ministry's, as relayed. Our inference: what failed is screening, not borders. DG Patrick Amoth suggested medication may have masked fever; unproven. Uganda was declared Ebola-free on 27 Aug.",
@@ -6333,4 +6404,4 @@ window.INSIGHTS = [
   "editionKey": "evening"
  }
 ];
-window.BUILT_AT = "2026-10-08 06:31";
+window.BUILT_AT = "2026-10-08 20:02";
