@@ -1,5 +1,14 @@
 window.GUIDES = [
  {
+  "slug": "google-rate-feed-east-africa-quoted-price",
+  "title": "Google stopped filling in your rate in September. East Africa's number now comes from the OTA.",
+  "description": "Three changes in five weeks moved the decision about what price a traveller is shown away from the hotel and into the retrieval layer. The one country where a guest can now book inside the answer is also Kenya's largest single source market.",
+  "category": "Big Read",
+  "updated": "2026-10-08",
+  "readMins": 7,
+  "image": "img/editions/google-rate-feed-east-africa-quoted-price.jpg"
+ },
+ {
   "slug": "kenya-visa-openness-border-was-never-the-barrier",
   "title": "Kenya just won Africa's visa argument. Its own arrivals data says the border was never the barrier.",
   "description": "Kenya climbed from 46th to third on the Africa Visa Openness Index in a single year, the steepest reversal the index has recorded. Nearly a million Africans came anyway during the year it sat near the bottom and charged them $32.50 at the gate. What open borders actually deliver is visible in Rwanda's books, and it is not a lodge rate.",
