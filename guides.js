@@ -1,5 +1,14 @@
 window.GUIDES = [
  {
+  "slug": "kenya-ebola-one-case-two-contagions",
+  "title": "Kenya has one Ebola case and two contagions. Only one of them is a virus.",
+  "description": "A single imported infection, confirmed on the opening day of Magical Kenya Travel Expo, carries almost no epidemiological risk to visitors and a great deal of commercial risk to the people who host them. The difference is worth understanding before the next one.",
+  "category": "Big Read",
+  "updated": "2026-10-09",
+  "readMins": 8,
+  "image": "img/editions/kenya-ebola-one-case-two-contagions.jpg"
+ },
+ {
   "slug": "google-rate-feed-east-africa-quoted-price",
   "title": "Google stopped filling in your rate in September. East Africa's number now comes from the OTA.",
   "description": "Three changes in five weeks moved the decision about what price a traveller is shown away from the hotel and into the retrieval layer. The one country where a guest can now book inside the answer is also Kenya's largest single source market.",
