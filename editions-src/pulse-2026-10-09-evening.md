@@ -1,4 +1,4 @@
-# EA Hospitality Pulse — Evening Wrap, Friday 9 October 2026
+# EA Hospitality Pulse: Evening Wrap, Friday 9 October 2026
 
 ## TELEGRAM
 
@@ -34,8 +34,6 @@ The last extension runs to 11 Oct *(CDC notice, 91 FR 58673, 16 Sep)*. Today's F
 
 **📅 WEEK AHEAD** US order lapses Sun 11 Oct; bill comments close Tue 13 Oct; EPRA review 14 Oct; Tanzania, Rwanda and Uganda September CPI due.
 
-**🔍 BLIND SPOTS:** gov.uk (Uganda, Tanzania, Rwanda), Canadian, German and French advisories, WHO DON, Africa CDC, four gazettes, KCAA, UWA, TANAPA, NCAA, Rwanda and Zanzibar health ministries and the competitor homepages: searched, primaries not opened.
-
 🔗 This edition on the web: https://eahospitalitypulse.com/editions/pulse-2026-10-09-evening.html
 
 ## WHATSAPP
@@ -54,7 +52,7 @@ Negative for Ebola, positive for malaria; Kenya still has one confirmed case (Ca
 🏗 No verified EA deal flow today.
 
 📊 *NUMBER OF THE DAY*
-*Sh10.21* — diesel cut per litre when VAT fell to 8%.
+*Sh10.21*: diesel cut per litre when VAT fell to 8%.
 
 🔗 Full analysis → https://t.me/eahospitalitypulse
 📖 Read on the web → https://eahospitalitypulse.com/editions/pulse-2026-10-09-evening.html
