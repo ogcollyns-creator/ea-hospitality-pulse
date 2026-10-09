@@ -1,5 +1,14 @@
 window.EDITIONS = [
  {
+  "id": "pulse-2026-10-09-evening",
+  "date": "2026-10-09",
+  "dateDisplay": "Friday, 9 October 2026",
+  "edition": "Evening Wrap",
+  "editionKey": "evening",
+  "summary": "Wajir is cleared, and Kenya's count stays at one",
+  "bodyHtml": "<p><strong>Kenya&#x27;s suspected Ebola case in Wajir tested negative and positive for malaria, leaving one confirmed case in the country</strong><br><em>🌆 Evening Wrap · Fri 9 Oct 2026</em></p>\n<p>━━━━━━━━━<br><span class=\"item-head\">1️⃣ Wajir is cleared, and Kenya&#x27;s count stays at one</span></p>\n<p>Health CS Duale said the Wajir patient tested negative for Ebola and positive for malaria, and was put on antimalarials on Thursday night. Kenya&#x27;s only confirmed case is the Kenyan who lived in the DRC for seven years and died at Nairobi Hospital on 6 Oct. Entry-point screening continues; the hotline is 719 <strong>(Capital FM, 9 Oct)</strong>. The 57 listed contacts and 10 quarantined date from 7 Oct; no newer count is published <strong>(Reuters via Monitor, 7 Oct)</strong>. That report also showed the man passed temperature checks at Entebbe and Nairobi, so the scrutiny now falls on screening, not borders.<br><span class=\"sowhat\">🎯 So what: drop the Wajir caveat from agent and guest messaging. Say &quot;one imported case, no second confirmed case published&quot;.</span><br><span class=\"tagline\">🏷 City, Bush, Beach | Kenya | Confirmed | impact:risk</span></p>\n<p><span class=\"item-head\">2️⃣ Parliament has opened comment on the Tax Laws (Amendment) Bill 2026, which sets VAT on petroleum at 8%</span></p>\n<p>The Clerk&#x27;s notice of 9 Oct proposes cutting VAT on petroleum products from the prescribed 16% to 8%, amending the VAT and Excise Duty Acts. Comments close Tue 13 Oct, 5pm (cna@parliament.go.ke). Kenyans.co.ke says the 8% rate has applied since 16 April and does not say how the bill relates to it <strong>(Kenyans.co.ke, 9 Oct)</strong>. The earlier cut from 13% to 8% took Sh9.37 off a litre of petrol and Sh10.21 off diesel <strong>(EPRA, as cited)</strong>.<br>Our inference: this looks like the statutory route for the 8% rate, which makes our earlier &quot;ends 14 Oct&quot; line uncertain. We found no Order or Gazette notice.<br><span class=\"sowhat\">🎯 So what: keep Kenya vehicle and generator costs at today&#x27;s pump prices until EPRA&#x27;s 14 Oct review, and file comment through the Kenya Tourism Federation by Tuesday if fuel is a top-three cost.</span><br><span class=\"tagline\">🏷 City, Bush, Beach | Kenya | Reported | impact:margin</span></p>\n<p><span class=\"item-head\">3️⃣ The US entry order on DRC, Uganda and South Sudan lapses Sunday 11 Oct, with no renewal visible</span></p>\n<p>The last extension runs to 11 Oct <strong>(CDC notice, 91 FR 58673, 16 Sep)</strong>. Today&#x27;s Federal Register public-inspection list shows no CDC order; its three CDC items are information-collection notices filed 25 Sep <strong>(federalregister.gov, 9 Oct)</strong>. Uganda declared its outbreak over in late July <strong>(Reuters via Monitor, 7 Oct)</strong>. Past renewals landed days after expiry, so expect a gap, not a decision.<br><span class=\"sowhat\">🎯 So what: do not tell US guests that Uganda is open until CDC publishes. Hold Bwindi US-market promotions to flexible-date terms.</span><br><span class=\"tagline\">🏷 Bush | Uganda | Reported | impact:demand</span></p>\n<p><strong>🏗 DEAL FLOW:</strong> No verified EA deal flow in the window.</p>\n<p><strong>📻 ALSO TONIGHT</strong><br>🇪🇹 Emirates confirms a 312-seat A350 on Dubai–Addis Ababa from Nov 2026; frequency not read <strong>(AeroRoutes schedule filing, 9 Oct)</strong>.<br>✈️ Lufthansa Group has suspended Riyadh flights to 16 Oct after Houthi missile claims; Air India and Akasa to 10 Oct. No Gulf hub closure reported <strong>(Reuters via Gulf Business, 8 Oct)</strong>.<br>🎪 Nairobi Convention COP12 runs in Dar es Salaam 6–9 Oct, 500+ delegates expected <strong>(ATTA citing Daily News, 22 Apr)</strong>.</p>\n<p><strong>📅 WEEK AHEAD</strong> US order lapses Sun 11 Oct; bill comments close Tue 13 Oct; EPRA review 14 Oct; Tanzania, Rwanda and Uganda September CPI due.</p>\n<p><strong>🔍 BLIND SPOTS:</strong> gov.uk (Uganda, Tanzania, Rwanda), Canadian, German and French advisories, WHO DON, Africa CDC, four gazettes, KCAA, UWA, TANAPA, NCAA, Rwanda and Zanzibar health ministries and the competitor homepages: searched, primaries not opened.</p>\n<p>🔗 This edition on the web: <a href=\"https://eahospitalitypulse.com/editions/pulse-2026-10-09-evening.html\" rel=\"noopener\">eahospitalitypulse.com/editions/pulse-2026-10-09-evenin…</a></p>"
+ },
+ {
   "id": "pulse-2026-10-08-evening",
   "date": "2026-10-08",
   "dateDisplay": "Thursday, 8 October 2026",
@@ -1153,6 +1162,67 @@ window.EDITIONS = [
  }
 ];
 window.INSIGHTS = [
+ {
+  "headline": "Wajir is cleared, and Kenya's count stays at one",
+  "body": "Health CS Duale said the Wajir patient tested negative for Ebola and positive for malaria, and was put on antimalarials on Thursday night. Kenya's only confirmed case is the Kenyan who lived in the DRC for seven years and died at Nairobi Hospital on 6 Oct. Entry-point screening continues; the hotline is 719 *(Capital FM, 9 Oct)*. The 57 listed contacts and 10 quarantined date from 7 Oct; no newer count is published *(Reuters via Monitor, 7 Oct)*. That report also showed the man passed temperature checks at Entebbe and Nairobi, so the scrutiny now falls on screening, not borders.",
+  "sowhat": "🎯 So what: drop the Wajir caveat from agent and guest messaging. Say \"one imported case, no second confirmed case published\".",
+  "segments": [
+   "city",
+   "bush",
+   "beach"
+  ],
+  "countries": "Kenya",
+  "confidence": "Confirmed",
+  "impact": "risk",
+  "impactClass": "risk",
+  "intensity": 3,
+  "impactSet": "author",
+  "source": "pulse-2026-10-09-evening",
+  "date": "2026-10-09",
+  "dateDisplay": "Friday, 9 October 2026",
+  "edition": "Evening Wrap",
+  "editionKey": "evening"
+ },
+ {
+  "headline": "Parliament has opened comment on the Tax Laws (Amendment) Bill 2026, which sets VAT on petroleum at 8%",
+  "body": "The Clerk's notice of 9 Oct proposes cutting VAT on petroleum products from the prescribed 16% to 8%, amending the VAT and Excise Duty Acts. Comments close Tue 13 Oct, 5pm (cna@parliament.go.ke). Kenyans.co.ke says the 8% rate has applied since 16 April and does not say how the bill relates to it *(Kenyans.co.ke, 9 Oct)*. The earlier cut from 13% to 8% took Sh9.37 off a litre of petrol and Sh10.21 off diesel *(EPRA, as cited)*. Our inference: this looks like the statutory route for the 8% rate, which makes our earlier \"ends 14 Oct\" line uncertain. We found no Order or Gazette notice.",
+  "sowhat": "🎯 So what: keep Kenya vehicle and generator costs at today's pump prices until EPRA's 14 Oct review, and file comment through the Kenya Tourism Federation by Tuesday if fuel is a top-three cost.",
+  "segments": [
+   "city",
+   "bush",
+   "beach"
+  ],
+  "countries": "Kenya",
+  "confidence": "Reported",
+  "impact": "-margin",
+  "impactClass": "margin",
+  "intensity": 2,
+  "impactSet": "author",
+  "source": "pulse-2026-10-09-evening",
+  "date": "2026-10-09",
+  "dateDisplay": "Friday, 9 October 2026",
+  "edition": "Evening Wrap",
+  "editionKey": "evening"
+ },
+ {
+  "headline": "The US entry order on DRC, Uganda and South Sudan lapses Sunday 11 Oct, with no renewal visible",
+  "body": "The last extension runs to 11 Oct *(CDC notice, 91 FR 58673, 16 Sep)*. Today's Federal Register public-inspection list shows no CDC order; its three CDC items are information-collection notices filed 25 Sep *(federalregister.gov, 9 Oct)*. Uganda declared its outbreak over in late July *(Reuters via Monitor, 7 Oct)*. Past renewals landed days after expiry, so expect a gap, not a decision.",
+  "sowhat": "🎯 So what: do not tell US guests that Uganda is open until CDC publishes. Hold Bwindi US-market promotions to flexible-date terms.",
+  "segments": [
+   "bush"
+  ],
+  "countries": "Uganda",
+  "confidence": "Reported",
+  "impact": "+demand",
+  "impactClass": "demand",
+  "intensity": 2,
+  "impactSet": "author",
+  "source": "pulse-2026-10-09-evening",
+  "date": "2026-10-09",
+  "dateDisplay": "Friday, 9 October 2026",
+  "edition": "Evening Wrap",
+  "editionKey": "evening"
+ },
  {
   "headline": "Tanzania's fuel caps rose 5–10% for October, with Kyerwa petrol at TSh 4,370",
   "body": "EWURA's October maximum retail prices took effect 7 Oct. Dar es Salaam: petrol TSh 4,057 (+261 from 3,796), diesel 4,086 (+209 from 3,877), kerosene 4,067 (+354 from 3,713). Tanga petrol is 4,123, Mtwara 4,170, Kyerwa (Kagera) 4,370. EWURA cites renewed Middle East tensions *(Daily News, 8 Oct, reporting EWURA)*. Our arithmetic: petrol +6.9%, diesel +5.4%, kerosene +9.5%. Our inference: the lodge cost is distance from port, not Dar. Fuel to Serengeti, Kagera and Ruaha camps carries a premium on top, and game-drive diesel is the line that moves.",
@@ -6404,4 +6474,4 @@ window.INSIGHTS = [
   "editionKey": "evening"
  }
 ];
-window.BUILT_AT = "2026-10-09 16:27";
+window.BUILT_AT = "2026-10-09 16:33";
