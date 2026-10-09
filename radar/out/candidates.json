@@ -1,18 +1,18 @@
 {
- "generated": "2026-10-09T02:03:14+03:00",
+ "generated": "2026-10-09T08:07:11+03:00",
  "slot": "morning",
  "window_start": 1791471600,
- "observations_in_window": 534,
- "deduped_against": 26,
+ "observations_in_window": 651,
+ "deduped_against": 23,
  "candidates": [
   {
-   "score": 103.1,
+   "score": 96.4,
    "components": {
     "tier": 40,
     "category": 24,
     "lead": 2.4,
     "relevance": 12,
-    "freshness": 12.7,
+    "freshness": 6.0,
     "undated": -6,
     "shock": 18
    },
@@ -44,13 +44,13 @@
    "verdict": "LEAD CANDIDATE \u2014 tier-1 shock language"
   },
   {
-   "score": 103.1,
+   "score": 96.4,
    "components": {
     "tier": 40,
     "category": 24,
     "lead": 2.4,
     "relevance": 12,
-    "freshness": 12.7,
+    "freshness": 6.0,
     "undated": -6,
     "shock": 18
    },
@@ -82,13 +82,13 @@
    "verdict": "LEAD CANDIDATE \u2014 tier-1 shock language"
   },
   {
-   "score": 103.0,
+   "score": 96.4,
    "components": {
     "tier": 40,
     "category": 24,
     "lead": 2.4,
     "relevance": 12,
-    "freshness": 12.6,
+    "freshness": 6.0,
     "undated": -6,
     "shock": 18
    },
@@ -120,14 +120,45 @@
    "verdict": "LEAD CANDIDATE \u2014 tier-1 shock language"
   },
   {
-   "score": 101.4,
+   "score": 91.4,
    "components": {
     "tier": 40,
     "category": 32,
     "lead": 3.6,
     "relevance": 0,
     "freshness": 19.8,
-    "corroborated": 10,
+    "page_change": -4
+   },
+   "keywords": [],
+   "shock_terms": [],
+   "dedupe_match": null,
+   "dedupe_similarity": 0.1,
+   "id": "56e51b539159",
+   "title": "[page changed] Federal Register \u2014 public inspection (HHS/CDC), pre-publication",
+   "url": "https://www.federalregister.gov/api/v1/public-inspection-documents/current.json",
+   "summary": "{\"count\":90,\"results\":[{\"agencies\":[{\"raw_name\":\"Federal Aviation Administration\",\"name\":\"Federal Aviation Administration\",\"id\":159,\"url\":\"https://www.federalregister.gov/agencies/federal-aviation-administration\",\"json_url\":\"https://www.federalregister.gov/api/v1/agencies/159\",\"parent_id\":492,\"slug\":\"federal-aviation-administration\"}],\"agency_letters\":[],\"agency_names\":[\"Federal Aviation Administr",
+   "kind": "page-change",
+   "source": "Federal Register \u2014 public inspection (HHS/CDC), pre-publication",
+   "source_id": "us-fedreg-pubinspect-hhs",
+   "tier": 1,
+   "country": "REG",
+   "category": "advisory",
+   "segments": [
+    "city",
+    "bush"
+   ],
+   "first_seen": "2026-10-09T08:04+03:00",
+   "published": "2026-10-07",
+   "verdict": "OPEN THIS \u2014 tier-1 advisory page moved; content not auto-parsed, read it manually"
+  },
+  {
+   "score": 84.7,
+   "components": {
+    "tier": 40,
+    "category": 32,
+    "lead": 3.6,
+    "relevance": 0,
+    "freshness": 13.1,
     "page_change": -4
    },
    "keywords": [],
@@ -153,14 +184,13 @@
    "verdict": "OPEN THIS \u2014 tier-1 advisory page moved; content not auto-parsed, read it manually"
   },
   {
-   "score": 98.8,
+   "score": 82.2,
    "components": {
     "tier": 40,
     "category": 32,
     "lead": 3.6,
     "relevance": 0,
-    "freshness": 17.2,
-    "corroborated": 10,
+    "freshness": 10.6,
     "page_change": -4
    },
    "keywords": [],
@@ -186,14 +216,13 @@
    "verdict": "OPEN THIS \u2014 tier-1 advisory page moved; content not auto-parsed, read it manually"
   },
   {
-   "score": 94.3,
+   "score": 77.6,
    "components": {
     "tier": 40,
     "category": 32,
     "lead": 3.6,
     "relevance": 0,
-    "freshness": 12.7,
-    "corroborated": 10,
+    "freshness": 6.0,
     "page_change": -4
    },
    "keywords": [],
@@ -219,13 +248,13 @@
    "verdict": "OPEN THIS \u2014 tier-1 advisory page moved; content not auto-parsed, read it manually"
   },
   {
-   "score": 62.8,
+   "score": 56.2,
    "components": {
     "tier": 40,
     "category": 12,
     "lead": 3.6,
     "relevance": 0,
-    "freshness": 17.2,
+    "freshness": 10.6,
     "undated": -6,
     "page_change": -4
    },
@@ -253,13 +282,276 @@
    "verdict": "OPEN THIS \u2014 tier-1 airline page moved; content not auto-parsed, read it manually"
   },
   {
-   "score": 93.1,
+   "score": 96.2,
+   "components": {
+    "tier": 20,
+    "category": 14,
+    "lead": 8.4,
+    "relevance": 24,
+    "freshness": 19.8,
+    "corroborated": 10
+   },
+   "keywords": [
+    "adr",
+    "route",
+    "airline",
+    "flight"
+   ],
+   "shock_terms": [],
+   "dedupe_match": null,
+   "dedupe_similarity": 0.2,
+   "id": "28894070ef9c",
+   "title": "Icelandair Resumes Madrid Service in NS27",
+   "url": "https://www.aeroroutes.com/eng/261008-fins27mad",
+   "summary": "Published at 1645PDT / 2345GMT 08OCT26 Icelandair in Northern summer 2027 season plans to resume Reykjav\u00edk Keflav\u00edk \u2013 Madrid route, last served until October 2024. The airline plans to operate 2 weekly flights from 09APR27, increasing to 3 weekly from 19MAY27, on board Boeing 737 MAX 8 aircraft. FI996 KEF0840 \u2013 1500MAD 7M8 135 FI997 MAD1610 \u2013 1830KEF 7M8 135",
+   "kind": "item",
+   "source": "AeroRoutes schedule filings",
+   "source_id": "aeroroutes",
+   "tier": 2,
+   "country": "GLOBAL",
+   "category": "aviation-tracker",
+   "segments": [
+    "city",
+    "bush",
+    "beach"
+   ],
+   "first_seen": "2026-10-09T08:05+03:00",
+   "published": "2026-10-09",
+   "verdict": "CONSIDER"
+  },
+  {
+   "score": 92.2,
+   "components": {
+    "tier": 20,
+    "category": 14,
+    "lead": 8.4,
+    "relevance": 20,
+    "freshness": 19.8,
+    "corroborated": 10
+   },
+   "keywords": [
+    "route",
+    "seat",
+    "flight"
+   ],
+   "shock_terms": [],
+   "dedupe_match": null,
+   "dedupe_similarity": 0.1,
+   "id": "577cb84ae93c",
+   "title": "Air China Oct/Nov 2026 Beijing \u2013 Minsk Aircraft Changes",
+   "url": "https://www.aeroroutes.com/eng/261008-canw26msq",
+   "summary": "Published at 2000PDT 08OCT26 / 0300GMT 09OCT26 Air China has scheduled short term aircraft changes on the nonstop Beijing Capital \u2013 Minsk route. From 29OCT26 to 09NOV26, the 2 weekly flights will be operated by 311-seater Airbus A330-300, instead of 237-seater -200. CA721 PEK1250 \u2013 1710MSQ 333 14 CA722 MSQ1900 \u2013 0800+1PEK 333 14",
+   "kind": "item",
+   "source": "AeroRoutes schedule filings",
+   "source_id": "aeroroutes",
+   "tier": 2,
+   "country": "GLOBAL",
+   "category": "aviation-tracker",
+   "segments": [
+    "city",
+    "bush",
+    "beach"
+   ],
+   "first_seen": "2026-10-09T08:05+03:00",
+   "published": "2026-10-09",
+   "verdict": "CONSIDER"
+  },
+  {
+   "score": 92.2,
+   "components": {
+    "tier": 20,
+    "category": 14,
+    "lead": 8.4,
+    "relevance": 20,
+    "freshness": 19.8,
+    "corroborated": 10
+   },
+   "keywords": [
+    "vat",
+    "route",
+    "airline"
+   ],
+   "shock_terms": [],
+   "dedupe_match": null,
+   "dedupe_similarity": 0.12,
+   "id": "c51c175ed65b",
+   "title": "Nordwind Adjusts Dec 2026 Moscow \u2013 Pyongyang Operations",
+   "url": "https://www.aeroroutes.com/eng/261008-n4dec26fnj",
+   "summary": "Published at 1430PDT / 2130GMT 08OCT26 Nordwind Airlines in the last few days opened reservations for Moscow Sheremetyevo \u2013 Pyongyang route for December 2026, which also sees the airline shifting operations to Sunday-Tuesday, on board Airbus A330-200 aircraft. Planned operation in December 2026 as follows. N46107 SVO1845 \u2013 0855+1FNJ 332 20DEC26 N46108 FNJ0905 \u2013 1140SVO 332 22DEC26 The airline\u2019s No",
+   "kind": "item",
+   "source": "AeroRoutes schedule filings",
+   "source_id": "aeroroutes",
+   "tier": 2,
+   "country": "GLOBAL",
+   "category": "aviation-tracker",
+   "segments": [
+    "city",
+    "bush",
+    "beach"
+   ],
+   "first_seen": "2026-10-09T08:05+03:00",
+   "published": "2026-10-09",
+   "verdict": "CONSIDER"
+  },
+  {
+   "score": 88.2,
+   "components": {
+    "tier": 5,
+    "category": 5,
+    "lead": 2.4,
+    "relevance": 28,
+    "freshness": 19.8,
+    "corroborated": 10,
+    "shock": 18
+   },
+   "keywords": [
+    "cancel",
+    "airport",
+    "airline",
+    "flight"
+   ],
+   "shock_terms": [
+    "attack"
+   ],
+   "dedupe_match": null,
+   "dedupe_similarity": 0.25,
+   "id": "17691dae314c",
+   "title": "Lufthansa Follows IndiGo and a Line-Up of Carriers as Riyadh Flight Cancellations Rattle Global Aviation",
+   "url": "https://www.travelandtourworld.com/news/article/jvhqjvhqmznj",
+   "summary": "Lufthansa Follows IndiGo and a Line-Up of Carriers as Riyadh Flight Cancellations Rattle Global Aviation Riyadh flight cancellations hit Air India, Lufthansa, IndiGo and other airlines after airport attacks disrupt Saudi travel. The post Lufthansa Follows IndiGo and a Line-Up of Carriers as Riyadh Flight Cancellations Rattle Global Aviation appeared first on Travel And Tour World .",
+   "kind": "item",
+   "source": "Travel And Tour World",
+   "source_id": "gl-travelandtourworld",
+   "tier": 3,
+   "country": "GLOBAL",
+   "category": "trade",
+   "segments": [
+    "city",
+    "bush",
+    "beach"
+   ],
+   "first_seen": "2026-10-09T08:05+03:00",
+   "published": "2026-10-09",
+   "verdict": "CONSIDER"
+  },
+  {
+   "score": 88.2,
+   "components": {
+    "tier": 20,
+    "category": 14,
+    "lead": 8.4,
+    "relevance": 16,
+    "freshness": 19.8,
+    "corroborated": 10
+   },
+   "keywords": [
+    "route",
+    "airline",
+    "flight"
+   ],
+   "shock_terms": [],
+   "dedupe_match": null,
+   "dedupe_similarity": 0.25,
+   "id": "dc9cdb848fe8",
+   "title": "American NS27 New York \u2013 Bozeman Service Changes",
+   "url": "https://www.aeroroutes.com/eng/261008-aans27nycbzn",
+   "summary": "Published at 1815PDT 08OCT26 / 0115GMT 09OCT26 American Airlines during Northern summer 2027 season is adding New York JFK \u2013 Bozeman route, which will replace service previously operated to/from New York LaGuardia. From 18JUN27 to 08SEP27, Boeing 737 MAX 8 to serve this route 4 times weekly. AA2756 JFK0900 \u2013 1224BZN 7M8 x247 AA2756 BZN1315 \u2013 1955JFK 7M8 x247 AA previously operated 1 weekly flight ",
+   "kind": "item",
+   "source": "AeroRoutes schedule filings",
+   "source_id": "aeroroutes",
+   "tier": 2,
+   "country": "GLOBAL",
+   "category": "aviation-tracker",
+   "segments": [
+    "city",
+    "bush",
+    "beach"
+   ],
+   "first_seen": "2026-10-09T08:05+03:00",
+   "published": "2026-10-09",
+   "verdict": "CONSIDER"
+  },
+  {
+   "score": 88.2,
+   "components": {
+    "tier": 20,
+    "category": 14,
+    "lead": 8.4,
+    "relevance": 16,
+    "freshness": 19.8,
+    "corroborated": 10
+   },
+   "keywords": [
+    "route",
+    "airline",
+    "flight"
+   ],
+   "shock_terms": [],
+   "dedupe_match": null,
+   "dedupe_similarity": 0.25,
+   "id": "54dceab6c7bf",
+   "title": "American Extra A321XLR New York JFK \u2013 Boston Flights in Dec 2026",
+   "url": "https://www.aeroroutes.com/eng/261008-aadec26jfkbos",
+   "summary": "Published at 1730PDT 08OCT26 / 0030GMT 09OCT26 American Airlines in December 2026 schedules Airbus A321XLR service on New York JFK \u2013 Boston route, in addition to previously reported 1 round-trip on 20NOV26. The Oneworld member schedules 2 round-trip with A321XLR on 18DEC26 with following schedules. AA2906 JFK0900 \u2013 1025BOS 32Q AA1317 JFK1400 \u2013 1525BOS 32Q AA2906 BOS1111 \u2013 1231JFK 32Q AA1317 BOS163",
+   "kind": "item",
+   "source": "AeroRoutes schedule filings",
+   "source_id": "aeroroutes",
+   "tier": 2,
+   "country": "GLOBAL",
+   "category": "aviation-tracker",
+   "segments": [
+    "city",
+    "bush",
+    "beach"
+   ],
+   "first_seen": "2026-10-09T08:05+03:00",
+   "published": "2026-10-09",
+   "verdict": "CONSIDER"
+  },
+  {
+   "score": 88.2,
+   "components": {
+    "tier": 20,
+    "category": 14,
+    "lead": 8.4,
+    "relevance": 16,
+    "freshness": 19.8,
+    "corroborated": 10
+   },
+   "keywords": [
+    "route",
+    "charter"
+   ],
+   "shock_terms": [],
+   "dedupe_match": null,
+   "dedupe_similarity": 0.1,
+   "id": "1e04506789a5",
+   "title": "Eurowings Adds Friedrichshafen \u2013 Calvi Charters in NS27",
+   "url": "https://www.aeroroutes.com/eng/261008-ewns27fdhcly",
+   "summary": "Published at 1345PDT / 2045GMT 08OCT26 Eurowings in Northern summer 2027 season plans to add Friedrichshafen \u2013 Calvi route, operating as scheduled charter. Airbus A319 aircraft to serve this route on weekly basis from 02MAY27 to 17OCT27. EW5762 FDH1105 \u2013 1215CLY 319 7 EW5763 CLY0910 \u2013 1020FDH 319 7",
+   "kind": "item",
+   "source": "AeroRoutes schedule filings",
+   "source_id": "aeroroutes",
+   "tier": 2,
+   "country": "GLOBAL",
+   "category": "aviation-tracker",
+   "segments": [
+    "city",
+    "bush",
+    "beach"
+   ],
+   "first_seen": "2026-10-09T08:05+03:00",
+   "published": "2026-10-08",
+   "verdict": "CONSIDER"
+  },
+  {
+   "score": 86.4,
    "components": {
     "tier": 20,
     "category": 14,
     "lead": 8.4,
     "relevance": 28,
-    "freshness": 12.7,
+    "freshness": 6.0,
     "corroborated": 10
    },
    "keywords": [
@@ -291,13 +583,13 @@
    "verdict": "CONSIDER"
   },
   {
-   "score": 91.5,
+   "score": 84.8,
    "components": {
     "tier": 20,
     "category": 5,
     "lead": 1.2,
     "relevance": 20,
-    "freshness": 17.3,
+    "freshness": 10.6,
     "corroborated": 10,
     "shock": 18
    },
@@ -331,13 +623,13 @@
    "verdict": "CONSIDER"
   },
   {
-   "score": 91.0,
+   "score": 84.4,
    "components": {
     "tier": 40,
     "category": 15,
     "lead": 16.8,
     "relevance": 8,
-    "freshness": 17.2,
+    "freshness": 10.6,
     "undated": -6
    },
    "keywords": [
@@ -363,16 +655,16 @@
    ],
    "first_seen": "2026-10-08T23:43+03:00",
    "published": null,
-   "verdict": "STRONG \u2014 tier-1, upstream"
+   "verdict": "CONSIDER"
   },
   {
-   "score": 91.0,
+   "score": 84.4,
    "components": {
     "tier": 40,
     "category": 15,
     "lead": 16.8,
     "relevance": 8,
-    "freshness": 17.2,
+    "freshness": 10.6,
     "undated": -6
    },
    "keywords": [
@@ -398,16 +690,160 @@
    ],
    "first_seen": "2026-10-08T23:43+03:00",
    "published": null,
-   "verdict": "STRONG \u2014 tier-1, upstream"
+   "verdict": "CONSIDER"
   },
   {
-   "score": 89.7,
+   "score": 84.2,
+   "components": {
+    "tier": 20,
+    "category": 14,
+    "lead": 8.4,
+    "relevance": 12,
+    "freshness": 19.8,
+    "corroborated": 10
+   },
+   "keywords": [
+    "route",
+    "flight"
+   ],
+   "shock_terms": [],
+   "dedupe_match": null,
+   "dedupe_similarity": 0.2,
+   "id": "61ff0da59d74",
+   "title": "Etihad Increases Damascus Flights From Nov 2026",
+   "url": "https://www.aeroroutes.com/eng/261008-eynw26dam",
+   "summary": "Published at 2100PDT 08OCT26 / 0400GMT 09OCT26 Etihad Airways during Northern winter 2026/27 season plans to increase service to Syria, as Abu Dhabi \u2013 Damascus scheduled to increase from 4 weekly to 1 daily, effective 14NOV26. The carrier will serve this route with a mix of Airbus A320 and A321 aircraft. EY561 AUH1400 \u2013 1630DAM 32S D EY562 DAM1735 \u2013 2130AUH 32S D",
+   "kind": "item",
+   "source": "AeroRoutes schedule filings",
+   "source_id": "aeroroutes",
+   "tier": 2,
+   "country": "GLOBAL",
+   "category": "aviation-tracker",
+   "segments": [
+    "city",
+    "bush",
+    "beach"
+   ],
+   "first_seen": "2026-10-09T08:05+03:00",
+   "published": "2026-10-09",
+   "verdict": "CONSIDER"
+  },
+  {
+   "score": 84.2,
+   "components": {
+    "tier": 20,
+    "category": 14,
+    "lead": 8.4,
+    "relevance": 12,
+    "freshness": 19.8,
+    "corroborated": 10
+   },
+   "keywords": [
+    "route",
+    "airline"
+   ],
+   "shock_terms": [],
+   "dedupe_match": null,
+   "dedupe_similarity": 0.25,
+   "id": "603f11073ce0",
+   "title": "Beijing Capital NW26 Qingdao \u2013 Vancouver Schedule Changes",
+   "url": "https://www.aeroroutes.com/eng/261008-jdnw26yvr",
+   "summary": "Published at 1900PDT 08OCT26 / 0200GMT 09OCT26 Beijing Capital Airlines during Northern winter 2026/27 season is adjusting operational schedule on Hangzhou \u2013 Qingdao \u2013 Vancouver route, which was resumed on 02OCT26. From Hangzhou and Qingdao, service will now depart at Thursday evening, instead of daytime on Friday, effective 29OCT26. Airbus A330-200 aircraft operates this route. JD471 HGH1915 \u2013 20",
+   "kind": "item",
+   "source": "AeroRoutes schedule filings",
+   "source_id": "aeroroutes",
+   "tier": 2,
+   "country": "GLOBAL",
+   "category": "aviation-tracker",
+   "segments": [
+    "city",
+    "bush",
+    "beach"
+   ],
+   "first_seen": "2026-10-09T08:05+03:00",
+   "published": "2026-10-09",
+   "verdict": "CONSIDER"
+  },
+  {
+   "score": 84.2,
+   "components": {
+    "tier": 20,
+    "category": 14,
+    "lead": 8.4,
+    "relevance": 12,
+    "freshness": 19.8,
+    "corroborated": 10
+   },
+   "keywords": [
+    "route",
+    "airline"
+   ],
+   "shock_terms": [],
+   "dedupe_match": null,
+   "dedupe_similarity": 0.12,
+   "id": "77bc8d4e4f2b",
+   "title": "Philippine Airlines April 2027 Australia Aircraft Changes",
+   "url": "https://www.aeroroutes.com/eng/261008-prapr27au",
+   "summary": "Published at 1600PDT / 2300GMT 08OCT26 Philippine Airlines in April 2027 schedules Boeing 777-300ER aircraft on Manila \u2013 Sydney route on selected dates. From Manila, the 777 is scheduled to operate on following dates in April 2027: 08, 10, 22, 25. PR211 MNL2210 \u2013 0945+1SYD EQV D PR212 SYD1135 \u2013 1650MNL EQV D On Manila \u2013 Brisbane route, following dates in April 2027 to be operated by A330-300, inst",
+   "kind": "item",
+   "source": "AeroRoutes schedule filings",
+   "source_id": "aeroroutes",
+   "tier": 2,
+   "country": "GLOBAL",
+   "category": "aviation-tracker",
+   "segments": [
+    "city",
+    "bush",
+    "beach"
+   ],
+   "first_seen": "2026-10-09T08:05+03:00",
+   "published": "2026-10-09",
+   "verdict": "CONSIDER"
+  },
+  {
+   "score": 84.2,
+   "components": {
+    "tier": 20,
+    "category": 14,
+    "lead": 8.4,
+    "relevance": 12,
+    "freshness": 19.8,
+    "corroborated": 10
+   },
+   "keywords": [
+    "route",
+    "airline"
+   ],
+   "shock_terms": [],
+   "dedupe_match": null,
+   "dedupe_similarity": 0.25,
+   "id": "05db4cc76589",
+   "title": "Philippine Airlines Adds Regular A350-1000 Los Angeles Service in NW26",
+   "url": "https://www.aeroroutes.com/eng/261008-prnw26lax",
+   "summary": "Published at 1515PDT / 2215GMT 08OCT26 Philippine Airlines this week filed aircraft changes on Manila \u2013 Los Angeles route, as the carrier gradually expands A350 operations. Since 12SEP26, the airline has been operating A350-900 and -1000 aircraft on this route on various dates, which will continue to 14DEC26. From 15DEC26, PR112/113 service will be permanently operated by A350-1000 on daily basis,",
+   "kind": "item",
+   "source": "AeroRoutes schedule filings",
+   "source_id": "aeroroutes",
+   "tier": 2,
+   "country": "GLOBAL",
+   "category": "aviation-tracker",
+   "segments": [
+    "city",
+    "bush",
+    "beach"
+   ],
+   "first_seen": "2026-10-09T08:05+03:00",
+   "published": "2026-10-09",
+   "verdict": "CONSIDER"
+  },
+  {
+   "score": 83.0,
    "components": {
     "tier": 20,
     "category": 14,
     "lead": 8.4,
     "relevance": 20,
-    "freshness": 17.3,
+    "freshness": 10.6,
     "corroborated": 10
    },
    "keywords": [
@@ -438,13 +874,13 @@
    "verdict": "CONSIDER"
   },
   {
-   "score": 89.1,
+   "score": 82.4,
    "components": {
     "tier": 20,
     "category": 14,
     "lead": 8.4,
     "relevance": 24,
-    "freshness": 12.7,
+    "freshness": 6.0,
     "corroborated": 10
    },
    "keywords": [
@@ -476,13 +912,48 @@
    "verdict": "CONSIDER"
   },
   {
-   "score": 85.0,
+   "score": 80.2,
+   "components": {
+    "tier": 20,
+    "category": 14,
+    "lead": 8.4,
+    "relevance": 8,
+    "freshness": 19.8,
+    "corroborated": 10
+   },
+   "keywords": [
+    "route"
+   ],
+   "shock_terms": [],
+   "dedupe_match": null,
+   "dedupe_similarity": 0.12,
+   "id": "9e237bd558bd",
+   "title": "Jazeera Adds Krakow / Prague Service in NW26",
+   "url": "https://www.aeroroutes.com/eng/261008-j9nw26eu",
+   "summary": "Published at 2200PDT 08OCT26 / 0500GMT 09OCT26 Jazeera Airways during Northern winter 2026/27 season plans to launch winter seasonal routes to Krakow and Prague, on board Airbus A320neo aircraft. Kuwait City \u2013 Krakow 16DEC26 \u2013 06FEB27 2 weekly A320neo J9085 KWI0935 \u2013 1250KRK 32N 36 J9086 KRK1335 \u2013 2025KWI 32N 36 Kuwait City \u2013 Prague 17DEC26 \u2013 07FEB27 2 weekly A320neo J9037 KWI0925 \u2013 1305PRG 32N 47",
+   "kind": "item",
+   "source": "AeroRoutes schedule filings",
+   "source_id": "aeroroutes",
+   "tier": 2,
+   "country": "GLOBAL",
+   "category": "aviation-tracker",
+   "segments": [
+    "city",
+    "bush",
+    "beach"
+   ],
+   "first_seen": "2026-10-09T08:05+03:00",
+   "published": "2026-10-09",
+   "verdict": "CONSIDER"
+  },
+  {
+   "score": 78.4,
    "components": {
     "tier": 40,
     "category": 17,
     "lead": 16.8,
     "relevance": 0,
-    "freshness": 17.2,
+    "freshness": 10.6,
     "undated": -6
    },
    "keywords": [],
@@ -509,13 +980,13 @@
    "verdict": "CONSIDER"
   },
   {
-   "score": 85.0,
+   "score": 78.4,
    "components": {
     "tier": 40,
     "category": 9,
     "lead": 16.8,
     "relevance": 8,
-    "freshness": 17.2,
+    "freshness": 10.6,
     "undated": -6
    },
    "keywords": [
@@ -545,13 +1016,13 @@
    "verdict": "CONSIDER"
   },
   {
-   "score": 83.7,
+   "score": 77.0,
    "components": {
     "tier": 20,
     "category": 24,
     "lead": 2.4,
     "relevance": 12,
-    "freshness": 17.3,
+    "freshness": 10.6,
     "undated": -6,
     "shock": 18,
     "page_change": -4
@@ -584,13 +1055,13 @@
    "verdict": "CONSIDER"
   },
   {
-   "score": 83.6,
+   "score": 77.0,
    "components": {
     "tier": 40,
     "category": 7,
     "lead": 6.0,
     "relevance": 8,
-    "freshness": 12.6,
+    "freshness": 6.0,
     "corroborated": 10
    },
    "keywords": [
@@ -617,13 +1088,13 @@
    "verdict": "CONSIDER"
   },
   {
-   "score": 83.0,
+   "score": 76.4,
    "components": {
     "tier": 40,
     "category": 15,
     "lead": 16.8,
     "relevance": 0,
-    "freshness": 17.2,
+    "freshness": 10.6,
     "undated": -6
    },
    "keywords": [],
@@ -650,13 +1121,13 @@
    "verdict": "CONSIDER"
   },
   {
-   "score": 83.0,
+   "score": 76.4,
    "components": {
     "tier": 40,
     "category": 15,
     "lead": 16.8,
     "relevance": 0,
-    "freshness": 17.2,
+    "freshness": 10.6,
     "undated": -6
    },
    "keywords": [],
@@ -683,13 +1154,13 @@
    "verdict": "CONSIDER"
   },
   {
-   "score": 81.7,
+   "score": 75.0,
    "components": {
     "tier": 20,
     "category": 14,
     "lead": 8.4,
     "relevance": 12,
-    "freshness": 17.3,
+    "freshness": 10.6,
     "corroborated": 10
    },
    "keywords": [
@@ -719,13 +1190,48 @@
    "verdict": "CONSIDER"
   },
   {
-   "score": 81.1,
+   "score": 74.4,
+   "components": {
+    "tier": 40,
+    "category": 9,
+    "lead": 16.8,
+    "relevance": 4,
+    "freshness": 10.6,
+    "undated": -6
+   },
+   "keywords": [
+    "hotel"
+   ],
+   "shock_terms": [],
+   "dedupe_match": null,
+   "dedupe_similarity": 0.1,
+   "id": "c6b4c66f0906",
+   "title": "You Heard It First at Ruby: Dive In With Ruby Turns Urban Hotels into Stages for Europe\u2019s Next Breakthrough Artists",
+   "url": "https://www.ihgplc.com/en/news-and-media/news-releases/2026/you-heard-it-first-at-ruby-dive-in-with-ruby-turns-urban-hotels-into-stages-for-europes-next-breakthrough-artists",
+   "summary": "",
+   "kind": "item",
+   "source": "IHG news",
+   "source_id": "dev-ihg",
+   "tier": 1,
+   "country": "GLOBAL",
+   "category": "hotel-group",
+   "segments": [
+    "city",
+    "bush",
+    "beach"
+   ],
+   "first_seen": "2026-10-08T23:43+03:00",
+   "published": null,
+   "verdict": "CONSIDER"
+  },
+  {
+   "score": 74.4,
    "components": {
     "tier": 20,
     "category": 14,
     "lead": 8.4,
     "relevance": 16,
-    "freshness": 12.7,
+    "freshness": 6.0,
     "corroborated": 10
    },
    "keywords": [
@@ -756,48 +1262,49 @@
    "verdict": "CONSIDER"
   },
   {
-   "score": 81.0,
+   "score": 74.2,
    "components": {
-    "tier": 40,
-    "category": 9,
-    "lead": 16.8,
-    "relevance": 4,
-    "freshness": 17.2,
-    "undated": -6
+    "tier": 20,
+    "category": 4,
+    "lead": 2.4,
+    "relevance": 0,
+    "freshness": 19.8,
+    "corroborated": 10,
+    "shock": 18
    },
-   "keywords": [
-    "hotel"
+   "keywords": [],
+   "shock_terms": [
+    "attack"
    ],
-   "shock_terms": [],
    "dedupe_match": null,
-   "dedupe_similarity": 0.1,
-   "id": "c6b4c66f0906",
-   "title": "You Heard It First at Ruby: Dive In With Ruby Turns Urban Hotels into Stages for Europe\u2019s Next Breakthrough Artists",
-   "url": "https://www.ihgplc.com/en/news-and-media/news-releases/2026/you-heard-it-first-at-ruby-dive-in-with-ruby-turns-urban-hotels-into-stages-for-europes-next-breakthrough-artists",
-   "summary": "",
+   "dedupe_similarity": 0.08,
+   "id": "d8b4b8365faa",
+   "title": "Starlet Wahu attacked me with a knife after I failed to pay her Sh50,000, murder suspect claims",
+   "url": "https://nation.africa/kenya/news/starlet-wahu-attacked-me-knife-i-failed-to-pay-her-sh50-000-5625190",
+   "summary": "Murder suspect John Matara now claims he was brutally attacked by the deceased.",
    "kind": "item",
-   "source": "IHG news",
-   "source_id": "dev-ihg",
-   "tier": 1,
-   "country": "GLOBAL",
-   "category": "hotel-group",
+   "source": "Nation Africa: Kenya business",
+   "source_id": "ke-nation-business",
+   "tier": 2,
+   "country": "KE",
+   "category": "press",
    "segments": [
     "city",
     "bush",
     "beach"
    ],
-   "first_seen": "2026-10-08T23:43+03:00",
-   "published": null,
+   "first_seen": "2026-10-09T08:05+03:00",
+   "published": "2026-10-09",
    "verdict": "CONSIDER"
   },
   {
-   "score": 79.7,
+   "score": 73.0,
    "components": {
     "tier": 20,
     "category": 4,
     "lead": 2.4,
     "relevance": 8,
-    "freshness": 17.3,
+    "freshness": 10.6,
     "corroborated": 10,
     "shock": 18
    },
@@ -829,13 +1336,13 @@
    "verdict": "CONSIDER"
   },
   {
-   "score": 79.1,
+   "score": 72.4,
    "components": {
     "tier": 20,
     "category": 24,
     "lead": 2.4,
     "relevance": 12,
-    "freshness": 12.7,
+    "freshness": 6.0,
     "undated": -6,
     "shock": 18,
     "page_change": -4
@@ -868,13 +1375,53 @@
    "verdict": "CONSIDER"
   },
   {
-   "score": 78.0,
+   "score": 72.2,
+   "components": {
+    "tier": 5,
+    "category": 5,
+    "lead": 2.4,
+    "relevance": 12,
+    "freshness": 19.8,
+    "corroborated": 10,
+    "shock": 18
+   },
+   "keywords": [
+    "strike",
+    "airline"
+   ],
+   "shock_terms": [
+    "attack",
+    "strike"
+   ],
+   "dedupe_match": null,
+   "dedupe_similarity": 0.2,
+   "id": "c75b07d3a2d6",
+   "title": "Canada Follows Egypt and Other Nations in Condemning Houthi Strikes on Saudi Arabia as Regional Tensions Cloud Air Travel",
+   "url": "https://www.travelandtourworld.com/news/article/ho6uelk2gqcn",
+   "summary": "Canada Follows Egypt and Other Nations in Condemning Houthi Strikes on Saudi Arabia as Regional Tensions Cloud Air Travel Canada is among Egypt and others that criticize Houthi attacks, following Saudi Airlines\u2019 uncertainties. The post Canada Follows Egypt and Other Nations in Condemning Houthi Strikes on Saudi Arabia as Regional Tensions Cloud Air Travel appeared first on Travel And Tour World .",
+   "kind": "item",
+   "source": "Travel And Tour World",
+   "source_id": "gl-travelandtourworld",
+   "tier": 3,
+   "country": "GLOBAL",
+   "category": "trade",
+   "segments": [
+    "city",
+    "bush",
+    "beach"
+   ],
+   "first_seen": "2026-10-09T08:05+03:00",
+   "published": "2026-10-09",
+   "verdict": "CONSIDER"
+  },
+  {
+   "score": 71.4,
    "components": {
     "tier": 40,
     "category": 10,
     "lead": 16.8,
     "relevance": 0,
-    "freshness": 17.2,
+    "freshness": 10.6,
     "undated": -6
    },
    "keywords": [],
@@ -898,531 +1445,6 @@
    ],
    "first_seen": "2026-10-08T23:43+03:00",
    "published": null,
-   "verdict": "CONSIDER"
-  },
-  {
-   "score": 78.0,
-   "components": {
-    "tier": 40,
-    "category": 10,
-    "lead": 16.8,
-    "relevance": 0,
-    "freshness": 17.2,
-    "undated": -6
-   },
-   "keywords": [],
-   "shock_terms": [],
-   "dedupe_match": null,
-   "dedupe_similarity": 0.17,
-   "id": "acfe7b2398bb",
-   "title": "MPs push for relief from 'politically exposed persons' tag Thursday, 8 October 2026",
-   "url": "https://www.parliament.go.ug/news/4656/mps-push-relief-politically-exposed-persons-tag",
-   "summary": "",
-   "kind": "item",
-   "source": "Parliament of Uganda",
-   "source_id": "ug-parliament",
-   "tier": 1,
-   "country": "UG",
-   "category": "legislature",
-   "segments": [
-    "city",
-    "bush",
-    "beach"
-   ],
-   "first_seen": "2026-10-08T23:43+03:00",
-   "published": null,
-   "verdict": "CONSIDER"
-  },
-  {
-   "score": 78.0,
-   "components": {
-    "tier": 40,
-    "category": 10,
-    "lead": 16.8,
-    "relevance": 0,
-    "freshness": 17.2,
-    "undated": -6
-   },
-   "keywords": [],
-   "shock_terms": [],
-   "dedupe_match": null,
-   "dedupe_similarity": 0.17,
-   "id": "c80f3a7a2933",
-   "title": "Supplementary Order Paper For Thursday, 8th October 2026",
-   "url": "https://www.parliament.go.ke/sites/default/files/2026-10/SUPPLEMENTARY%20ORDER%20PAPER%20FOR%20THURSDAY%2C%208TH%20OCTOBER%202026.pdf",
-   "summary": "!\"#$%&&'%\"()*$+#*,&'%!!!!!!!!!!!!!!!!-#.%\"(/&00#1'(2314(567(((((((((((((((((((((((((((((((((2896:7((;<)=>?@A(B-(C<3DE(!!F@;!<<3!F()E;?@EG<3!(H(2-@-!F(/<//@B37(!!\"#$%&!'(%&)$&**#+,)-$(B;I<;/(B-(!F<(IED(!SUPPLEMENTARY !!!!F=;/IEDJ(BA!B><;(6KJ(868L(E!(8496()4G4(!(./#.$(0$,1*'%#**$!);ED<;/(!\"#!!\"#$%$&'()'$*%+*,+-)'.+$#!/*##0%$1)'$*%+,(*#+'.2+/.)$(+%#!32&&)42&+&#!52'$'$*%&+'#!5)62(&+(#!7*'$12&+*,+3*'$*",
-   "kind": "doc",
-   "source": "Parliament of Kenya \u2014 bills & papers",
-   "source_id": "ke-parliament",
-   "tier": 1,
-   "country": "KE",
-   "category": "legislature",
-   "segments": [
-    "city",
-    "bush",
-    "beach"
-   ],
-   "first_seen": "2026-10-08T23:43+03:00",
-   "published": null,
-   "verdict": "CONSIDER"
-  },
-  {
-   "score": 77.1,
-   "components": {
-    "tier": 20,
-    "category": 14,
-    "lead": 8.4,
-    "relevance": 12,
-    "freshness": 12.7,
-    "corroborated": 10
-   },
-   "keywords": [
-    "route",
-    "airline"
-   ],
-   "shock_terms": [],
-   "dedupe_match": null,
-   "dedupe_similarity": 0.14,
-   "id": "504b2090ac60",
-   "title": "TAAG Guangzhou Aircraft Changes From late-Sep 2026",
-   "url": "https://www.aeroroutes.com/eng/261008-dtnw26can",
-   "summary": "Published at 0200PDT / 0900GMT 08OCT26 TAAG Angola Airlines since late-September 2026 adjusted operational aircraft on Luanda \u2013 Guangzhou route. Previously operated by the 787-9, the airline has been operating 777-300ER since 29SEP26. This route is scheduled once a week. DT692 NBJ1105 \u2013 0750+1CAN 773 2 DT693 CAN0015 \u2013 0715NBJ 773 5",
-   "kind": "item",
-   "source": "AeroRoutes schedule filings",
-   "source_id": "aeroroutes",
-   "tier": 2,
-   "country": "GLOBAL",
-   "category": "aviation-tracker",
-   "segments": [
-    "city",
-    "bush",
-    "beach"
-   ],
-   "first_seen": "2026-10-08T19:33+03:00",
-   "published": "2026-10-08",
-   "verdict": "CONSIDER"
-  },
-  {
-   "score": 77.0,
-   "components": {
-    "tier": 40,
-    "category": 9,
-    "lead": 16.8,
-    "relevance": 0,
-    "freshness": 17.2,
-    "undated": -6
-   },
-   "keywords": [],
-   "shock_terms": [],
-   "dedupe_match": null,
-   "dedupe_similarity": 0.0,
-   "id": "139adbd39231",
-   "title": "New Holiday Inn by IHG Study Reveals: Children Want Simpler Holidays Than Parents Think",
-   "url": "https://www.ihgplc.com/en/news-and-media/news-releases/2026/new-holiday-inn-by-ihg-study-reveals-children-want-simpler-holidays-than-parents-think",
-   "summary": "",
-   "kind": "item",
-   "source": "IHG news",
-   "source_id": "dev-ihg",
-   "tier": 1,
-   "country": "GLOBAL",
-   "category": "hotel-group",
-   "segments": [
-    "city",
-    "bush",
-    "beach"
-   ],
-   "first_seen": "2026-10-08T23:43+03:00",
-   "published": null,
-   "verdict": "CONSIDER"
-  },
-  {
-   "score": 75.3,
-   "components": {
-    "tier": 5,
-    "category": 5,
-    "lead": 0.0,
-    "relevance": 20,
-    "freshness": 17.3,
-    "corroborated": 10,
-    "shock": 18
-   },
-   "keywords": [
-    "airport",
-    "tourism",
-    "flight",
-    "summit"
-   ],
-   "shock_terms": [
-    "attack"
-   ],
-   "dedupe_match": null,
-   "dedupe_similarity": 0.2,
-   "id": "1e8f962e8f55",
-   "title": "Riyadh Airport Attacks Shake Saudi Tourism as WTTC Global Summit Meets in Malta",
-   "url": "https://eturbonews.com/riyadh-airport-attacks-saudi-tourism",
-   "summary": "Missile attacks on Riyadh Airport have disrupted flights and shaken confidence in Saudi Arabia's tourism ambitions. As global travel leaders gather at the WTTC Summit in Malta, the crisis raises urgent questions about Riyadh Air, aviation safety, travel warnings and whether the conflict could spread across the Gulf and global tourism. SOURCE: Riyadh Airport Attacks Shake Saudi Tourism as WTTC Glob",
-   "kind": "item",
-   "source": "eTurboNews Africa",
-   "source_id": "tp-eturbonews",
-   "tier": 3,
-   "country": "GLOBAL",
-   "category": "trade",
-   "segments": [
-    "city",
-    "bush",
-    "beach"
-   ],
-   "first_seen": "2026-10-08T23:44+03:00",
-   "published": "2026-10-08",
-   "verdict": "CONSIDER"
-  },
-  {
-   "score": 75.0,
-   "components": {
-    "tier": 40,
-    "category": 7,
-    "lead": 16.8,
-    "relevance": 0,
-    "freshness": 17.2,
-    "undated": -6
-   },
-   "keywords": [],
-   "shock_terms": [],
-   "dedupe_match": null,
-   "dedupe_similarity": 0.0,
-   "id": "bd8816ca674d",
-   "title": "VALUE CHAIN ANALYSIS, MARKET DEMAND STUDY AND...",
-   "url": "https://egpuganda.go.ug/index/407454938_egp",
-   "summary": "",
-   "kind": "item",
-   "source": "Uganda EGP portal",
-   "source_id": "ug-tenders",
-   "tier": 1,
-   "country": "UG",
-   "category": "tender",
-   "segments": [
-    "city",
-    "bush",
-    "beach"
-   ],
-   "first_seen": "2026-10-08T23:43+03:00",
-   "published": null,
-   "verdict": "CONSIDER"
-  },
-  {
-   "score": 75.0,
-   "components": {
-    "tier": 40,
-    "category": 7,
-    "lead": 16.8,
-    "relevance": 0,
-    "freshness": 17.2,
-    "undated": -6
-   },
-   "keywords": [],
-   "shock_terms": [],
-   "dedupe_match": null,
-   "dedupe_similarity": 0.0,
-   "id": "222d60c07428",
-   "title": "New framework contract for assorted chromogen...",
-   "url": "https://egpuganda.go.ug/index/406938308_egp",
-   "summary": "",
-   "kind": "item",
-   "source": "Uganda EGP portal",
-   "source_id": "ug-tenders",
-   "tier": 1,
-   "country": "UG",
-   "category": "tender",
-   "segments": [
-    "city",
-    "bush",
-    "beach"
-   ],
-   "first_seen": "2026-10-08T23:43+03:00",
-   "published": null,
-   "verdict": "CONSIDER"
-  },
-  {
-   "score": 75.0,
-   "components": {
-    "tier": 40,
-    "category": 7,
-    "lead": 16.8,
-    "relevance": 0,
-    "freshness": 17.2,
-    "undated": -6
-   },
-   "keywords": [],
-   "shock_terms": [],
-   "dedupe_match": null,
-   "dedupe_similarity": 0.0,
-   "id": "e88cc2c43a1b",
-   "title": "POWER SUPPLY TO NEW FACILITIES UNDER NBI PHAS...",
-   "url": "https://egpuganda.go.ug/index/403844606_egp",
-   "summary": "",
-   "kind": "item",
-   "source": "Uganda EGP portal",
-   "source_id": "ug-tenders",
-   "tier": 1,
-   "country": "UG",
-   "category": "tender",
-   "segments": [
-    "city",
-    "bush",
-    "beach"
-   ],
-   "first_seen": "2026-10-08T23:43+03:00",
-   "published": null,
-   "verdict": "CONSIDER"
-  },
-  {
-   "score": 74.6,
-   "components": {
-    "tier": 20,
-    "category": 5,
-    "lead": 2.4,
-    "relevance": 20,
-    "freshness": 17.2,
-    "corroborated": 10
-   },
-   "keywords": [
-    "occupancy",
-    "revpar",
-    "hotel"
-   ],
-   "shock_terms": [],
-   "dedupe_match": null,
-   "dedupe_similarity": 0.22,
-   "id": "4169f32f4a0b",
-   "title": "U.S. Hotels Post Early October Gains as Calendar Shift Lifts Demand",
-   "url": "https://www.hotelnewsresource.com/article143246.html",
-   "summary": "National hotel occupancy rose 5.5% year over year to 67.2%, while RevPAR climbed 12.9% for the week ending Oct. 3.",
-   "kind": "item",
-   "source": "HVS \u2014 market reports and event-impact studies (via Hotel News Resource)",
-   "source_id": "gl-hvs-market-reports",
-   "tier": 2,
-   "country": "GLOBAL",
-   "category": "trade",
-   "segments": [
-    "city"
-   ],
-   "first_seen": "2026-10-08T23:44+03:00",
-   "published": "2026-10-08",
-   "verdict": "CONSIDER"
-  },
-  {
-   "score": 74.4,
-   "components": {
-    "tier": 20,
-    "category": 5,
-    "lead": 3.6,
-    "relevance": 16,
-    "freshness": 19.8,
-    "corroborated": 10
-   },
-   "keywords": [
-    "eta",
-    "lodge",
-    "guest"
-   ],
-   "shock_terms": [],
-   "dedupe_match": null,
-   "dedupe_similarity": 0.12,
-   "id": "40bd020f8c01",
-   "title": "How Corduroy Inn & Lodge Solved Seasonal Staffing Challenges With Canary\u2019s Self-Service Kiosks",
-   "url": "https://www.hospitalitynet.org/casestudy/4134801/how-corduroy-inn-lodge-solved-seasonal-staffing-challenges-with-canarys-self-service-kiosks",
-   "summary": "Canary's kiosk and mobile check-in tools helped a 42-room West Virginia ski lodge capture OTA guest contact details and card-on-file data without 24/7 front desk coverage.",
-   "kind": "item",
-   "source": "Hospitality Net \u2014 Africa announcements",
-   "source_id": "dev-hospitalitynet-africa",
-   "tier": 2,
-   "country": "REG",
-   "category": "trade",
-   "segments": [
-    "city",
-    "bush",
-    "beach"
-   ],
-   "first_seen": "2026-10-09T02:02+03:00",
-   "published": "2026-10-08",
-   "verdict": "CONSIDER"
-  },
-  {
-   "score": 73.1,
-   "components": {
-    "tier": 20,
-    "category": 14,
-    "lead": 8.4,
-    "relevance": 8,
-    "freshness": 12.7,
-    "corroborated": 10
-   },
-   "keywords": [
-    "route"
-   ],
-   "shock_terms": [],
-   "dedupe_match": null,
-   "dedupe_similarity": 0.2,
-   "id": "127ff8a27a30",
-   "title": "AirAsia NW26 Taipei / Fukuoka Aircraft Changes",
-   "url": "https://www.aeroroutes.com/eng/261008-aknw26tpefuk",
-   "summary": "Published at 0800PDT / 1500GMT 08OCT26 AirAsia during Northern winter 2026/27 season plans aircraft changes on Kota Kinabalu \u2013 Taipei Taoyuan \u2013 Fukuoka route. From 25OCT26, the 1 daily service will be operated by Airbus A321neo, instead of A320neo. AK1510 BKI0735 \u2013 1100TPE1200 \u2013 1520FUK 32Q D AK1511 FUK1620 \u2013 1810TPE1910 \u2013 2245BKI 32Q D",
-   "kind": "item",
-   "source": "AeroRoutes schedule filings",
-   "source_id": "aeroroutes",
-   "tier": 2,
-   "country": "GLOBAL",
-   "category": "aviation-tracker",
-   "segments": [
-    "city",
-    "bush",
-    "beach"
-   ],
-   "first_seen": "2026-10-08T19:33+03:00",
-   "published": "2026-10-08",
-   "verdict": "CONSIDER"
-  },
-  {
-   "score": 73.1,
-   "components": {
-    "tier": 20,
-    "category": 14,
-    "lead": 8.4,
-    "relevance": 8,
-    "freshness": 12.7,
-    "corroborated": 10
-   },
-   "keywords": [
-    "route"
-   ],
-   "shock_terms": [],
-   "dedupe_match": null,
-   "dedupe_similarity": 0.12,
-   "id": "0add836ad618",
-   "title": "Batik Air Malaysia Moves KL Subang \u2013 Denpasar Launch to Dec 2026",
-   "url": "https://www.aeroroutes.com/eng/261008-oddec26dps",
-   "summary": "Published at 0700PDT / 1400GMT 08OCT26 Batik Air Malaysia has revised planned service launch on Kuala Lumpur Subang \u2013 Denpasar route, scheduled 4 times weekly with 737-800. Initially filed to commence on 20OCT26, revised launch date is now scheduled on 02DEC26. OD312 SZB0930 \u2013 1245DPS 738 x246 OD313 DPS1345 \u2013 1700SZB 738 x246",
-   "kind": "item",
-   "source": "AeroRoutes schedule filings",
-   "source_id": "aeroroutes",
-   "tier": 2,
-   "country": "GLOBAL",
-   "category": "aviation-tracker",
-   "segments": [
-    "city",
-    "bush",
-    "beach"
-   ],
-   "first_seen": "2026-10-08T19:33+03:00",
-   "published": "2026-10-08",
-   "verdict": "CONSIDER"
-  },
-  {
-   "score": 73.1,
-   "components": {
-    "tier": 20,
-    "category": 14,
-    "lead": 8.4,
-    "relevance": 8,
-    "freshness": 12.7,
-    "corroborated": 10
-   },
-   "keywords": [
-    "route"
-   ],
-   "shock_terms": [],
-   "dedupe_match": null,
-   "dedupe_similarity": 0.1,
-   "id": "e52ccf42f49f",
-   "title": "TUI Airways Adds New London Gatwick \u2013 Spain Routes in NS27",
-   "url": "https://www.aeroroutes.com/eng/261008-tomns27es",
-   "summary": "Published at 0400PDT / 1100GMT 08OCT26 TUI Airways in Northern summer 2027 season plans to launch a trio of new routes between London Gatwick and Spain. Planned network additions as follows. London Gatwick \u2013 Santiago de Compostela eff 31MAR27 3 weekly 737 MAX 8 TOM5804 LGW0710 \u2013 1010SCQ 7M8 3 TOM5804 LGW0725 \u2013 1025SCQ 7M8 4 TOM5804 LGW0920 \u2013 1220SCQ 7M8 6 TOM5805 SCQ1130 \u2013 1225LGW 7M8 4 TOM5805 SC",
-   "kind": "item",
-   "source": "AeroRoutes schedule filings",
-   "source_id": "aeroroutes",
-   "tier": 2,
-   "country": "GLOBAL",
-   "category": "aviation-tracker",
-   "segments": [
-    "city",
-    "bush",
-    "beach"
-   ],
-   "first_seen": "2026-10-08T19:33+03:00",
-   "published": "2026-10-08",
-   "verdict": "CONSIDER"
-  },
-  {
-   "score": 70.7,
-   "components": {
-    "tier": 20,
-    "category": 5,
-    "lead": 2.4,
-    "relevance": 16,
-    "freshness": 17.3,
-    "corroborated": 10
-   },
-   "keywords": [
-    "eta",
-    "lodge",
-    "guest"
-   ],
-   "shock_terms": [],
-   "dedupe_match": null,
-   "dedupe_similarity": 0.12,
-   "id": "1161f8153a4c",
-   "title": "How Corduroy Inn & Lodge Solved Seasonal Staffing Challenges With Canary\u2019s Self-Service Kiosks",
-   "url": "https://www.hospitalitynet.org/casestudy/4134801/how-corduroy-inn-lodge-solved-seasonal-staffing-challenges-with-canarys-self-service-kiosks",
-   "summary": "Canary's kiosk and mobile check-in tools helped a 42-room West Virginia ski lodge capture OTA guest contact details and card-on-file data without 24/7 front desk coverage.",
-   "kind": "item",
-   "source": "Hospitality Net: Africa openings",
-   "source_id": "dev-hospitalitynet-openings",
-   "tier": 2,
-   "country": "AFRICA",
-   "category": "trade",
-   "segments": [
-    "city",
-    "bush",
-    "beach"
-   ],
-   "first_seen": "2026-10-08T23:44+03:00",
-   "published": "2026-10-08",
-   "verdict": "CONSIDER"
-  },
-  {
-   "score": 70.7,
-   "components": {
-    "tier": 20,
-    "category": 4,
-    "lead": 0.0,
-    "relevance": 24,
-    "freshness": 12.7,
-    "corroborated": 10
-   },
-   "keywords": [
-    "ebola",
-    "cancel"
-   ],
-   "shock_terms": [],
-   "dedupe_match": null,
-   "dedupe_similarity": 0.25,
-   "id": "4736810bfc93",
-   "title": "Koffi Olomide\u2019s concert in Uganda cancelled over Ebola",
-   "url": "https://www.monitor.co.ug/uganda/lifestyle/entertainment/koffi-olomide-s-concert-in-uganda-cancelled-over-ebola-5624174",
-   "summary": "Health Minister Dr Chris Baryomunsi pointed out that the concert will attract persons from the...",
-   "kind": "item",
-   "source": "Daily Monitor (Uganda)",
-   "source_id": "np-monitor-ug",
-   "tier": 2,
-   "country": "UG",
-   "category": "press",
-   "segments": [
-    "city",
-    "bush",
-    "beach"
-   ],
-   "first_seen": "2026-10-08T19:33+03:00",
-   "published": "2026-10-08",
    "verdict": "CONSIDER"
   }
  ]
