@@ -1,18 +1,51 @@
 {
- "generated": "2026-10-09T15:46:05+03:00",
- "slot": "midday",
- "window_start": 1791518400,
- "observations_in_window": 438,
+ "generated": "2026-10-09T19:17:48+03:00",
+ "slot": "evening",
+ "window_start": 1791460800,
+ "observations_in_window": 1195,
  "deduped_against": 23,
  "candidates": [
   {
-   "score": 101.4,
+   "score": 101.3,
    "components": {
     "tier": 40,
     "category": 32,
     "lead": 3.6,
     "relevance": 0,
-    "freshness": 19.8,
+    "freshness": 19.7,
+    "corroborated": 10,
+    "page_change": -4
+   },
+   "keywords": [],
+   "shock_terms": [],
+   "dedupe_match": null,
+   "dedupe_similarity": 0.1,
+   "id": "c12d95f11d5e",
+   "title": "[page changed] Federal Register \u2014 public inspection (HHS/CDC), pre-publication",
+   "url": "https://www.federalregister.gov/api/v1/public-inspection-documents/current.json",
+   "summary": "{\"count\":106,\"results\":[{\"agencies\":[{\"raw_name\":\"Federal Aviation Administration\",\"name\":\"Federal Aviation Administration\",\"id\":159,\"url\":\"https://www.federalregister.gov/agencies/federal-aviation-administration\",\"json_url\":\"https://www.federalregister.gov/api/v1/agencies/159\",\"parent_id\":492,\"slug\":\"federal-aviation-administration\"}],\"agency_letters\":[],\"agency_names\":[\"Federal Aviation Administ",
+   "kind": "page-change",
+   "source": "Federal Register \u2014 public inspection (HHS/CDC), pre-publication",
+   "source_id": "us-fedreg-pubinspect-hhs",
+   "tier": 1,
+   "country": "REG",
+   "category": "advisory",
+   "segments": [
+    "city",
+    "bush"
+   ],
+   "first_seen": "2026-10-09T19:15+03:00",
+   "published": "2026-10-08",
+   "verdict": "OPEN THIS \u2014 tier-1 advisory page moved; content not auto-parsed, read it manually"
+  },
+  {
+   "score": 97.5,
+   "components": {
+    "tier": 40,
+    "category": 32,
+    "lead": 3.6,
+    "relevance": 0,
+    "freshness": 15.9,
     "corroborated": 10,
     "page_change": -4
    },
@@ -39,13 +72,127 @@
    "verdict": "OPEN THIS \u2014 tier-1 advisory page moved; content not auto-parsed, read it manually"
   },
   {
-   "score": 89.1,
+   "score": 90.4,
+   "components": {
+    "tier": 40,
+    "category": 24,
+    "lead": 2.4,
+    "relevance": 12,
+    "freshness": 0.0,
+    "undated": -6,
+    "shock": 18
+   },
+   "keywords": [
+    "outbreak"
+   ],
+   "shock_terms": [
+    "outbreak"
+   ],
+   "dedupe_match": null,
+   "dedupe_similarity": 0.18,
+   "id": "4f5d0321f417",
+   "title": "8 October 2026 | Feature Story Mental health: a critical component of disease outbreak response",
+   "url": "https://www.afro.who.int/countries/uganda/news/mental-health-critical-component-disease-outbreak-response",
+   "summary": "",
+   "kind": "item",
+   "source": "WHO AFRO \u2014 Kenya country newsroom",
+   "source_id": "who-afro-kenya",
+   "tier": 1,
+   "country": "KE",
+   "category": "health",
+   "segments": [
+    "bush",
+    "city",
+    "beach"
+   ],
+   "first_seen": "2026-10-08T19:33+03:00",
+   "published": null,
+   "verdict": "LEAD CANDIDATE \u2014 tier-1 shock language"
+  },
+  {
+   "score": 90.4,
+   "components": {
+    "tier": 40,
+    "category": 24,
+    "lead": 2.4,
+    "relevance": 12,
+    "freshness": 0.0,
+    "undated": -6,
+    "shock": 18
+   },
+   "keywords": [
+    "outbreak"
+   ],
+   "shock_terms": [
+    "outbreak"
+   ],
+   "dedupe_match": null,
+   "dedupe_similarity": 0.18,
+   "id": "935a3590322c",
+   "title": "8 October 2026 | Feature Story Mental health: a critical component of disease outbreak response",
+   "url": "https://www.afro.who.int/countries/uganda/news/mental-health-critical-component-disease-outbreak-response",
+   "summary": "",
+   "kind": "item",
+   "source": "WHO AFRO \u2014 Rwanda country newsroom",
+   "source_id": "who-afro-rwanda",
+   "tier": 1,
+   "country": "RW",
+   "category": "health",
+   "segments": [
+    "bush",
+    "city",
+    "beach"
+   ],
+   "first_seen": "2026-10-08T19:33+03:00",
+   "published": null,
+   "verdict": "LEAD CANDIDATE \u2014 tier-1 shock language"
+  },
+  {
+   "score": 90.4,
+   "components": {
+    "tier": 40,
+    "category": 24,
+    "lead": 2.4,
+    "relevance": 12,
+    "freshness": 0.0,
+    "undated": -6,
+    "shock": 18
+   },
+   "keywords": [
+    "outbreak"
+   ],
+   "shock_terms": [
+    "outbreak"
+   ],
+   "dedupe_match": null,
+   "dedupe_similarity": 0.14,
+   "id": "6a6e04c3d704",
+   "title": "Mental health: a critical component of disease outbreak response",
+   "url": "https://www.afro.who.int/countries/uganda/news/mental-health-critical-component-disease-outbreak-response",
+   "summary": "",
+   "kind": "item",
+   "source": "WHO AFRO \u2014 Uganda country newsroom",
+   "source_id": "who-afro-uganda",
+   "tier": 1,
+   "country": "UG",
+   "category": "health",
+   "segments": [
+    "bush",
+    "city",
+    "beach"
+   ],
+   "first_seen": "2026-10-08T19:33+03:00",
+   "published": null,
+   "verdict": "LEAD CANDIDATE \u2014 tier-1 shock language"
+  },
+  {
+   "score": 85.2,
    "components": {
     "tier": 40,
     "category": 32,
     "lead": 3.6,
     "relevance": 0,
-    "freshness": 17.5,
+    "freshness": 13.6,
     "page_change": -4
    },
    "keywords": [],
@@ -71,13 +218,13 @@
    "verdict": "OPEN THIS \u2014 tier-1 advisory page moved; content not auto-parsed, read it manually"
   },
   {
-   "score": 82.9,
+   "score": 79.1,
    "components": {
     "tier": 40,
     "category": 32,
     "lead": 3.6,
     "relevance": 0,
-    "freshness": 11.3,
+    "freshness": 7.5,
     "page_change": -4
    },
    "keywords": [],
@@ -103,13 +250,109 @@
    "verdict": "OPEN THIS \u2014 tier-1 advisory page moved; content not auto-parsed, read it manually"
   },
   {
-   "score": 63.1,
+   "score": 72.4,
+   "components": {
+    "tier": 40,
+    "category": 32,
+    "lead": 3.6,
+    "relevance": 0,
+    "freshness": 0.8,
+    "page_change": -4
+   },
+   "keywords": [],
+   "shock_terms": [],
+   "dedupe_match": null,
+   "dedupe_similarity": 0.1,
+   "id": "546a1b733e9d",
+   "title": "[page changed] Federal Register \u2014 public inspection (HHS/CDC), pre-publication",
+   "url": "https://www.federalregister.gov/api/v1/public-inspection-documents/current.json",
+   "summary": "{\"count\":90,\"results\":[{\"agencies\":[{\"raw_name\":\"Federal Aviation Administration\",\"name\":\"Federal Aviation Administration\",\"id\":159,\"url\":\"https://www.federalregister.gov/agencies/federal-aviation-administration\",\"json_url\":\"https://www.federalregister.gov/api/v1/agencies/159\",\"parent_id\":492,\"slug\":\"federal-aviation-administration\"}],\"agency_letters\":[],\"agency_names\":[\"Federal Aviation Administr",
+   "kind": "page-change",
+   "source": "Federal Register \u2014 public inspection (HHS/CDC), pre-publication",
+   "source_id": "us-fedreg-pubinspect-hhs",
+   "tier": 1,
+   "country": "REG",
+   "category": "advisory",
+   "segments": [
+    "city",
+    "bush"
+   ],
+   "first_seen": "2026-10-09T02:02+03:00",
+   "published": "2026-10-07",
+   "verdict": "OPEN THIS \u2014 tier-1 advisory page moved; content not auto-parsed, read it manually"
+  },
+  {
+   "score": 71.6,
+   "components": {
+    "tier": 40,
+    "category": 32,
+    "lead": 3.6,
+    "relevance": 0,
+    "freshness": 0.0,
+    "page_change": -4
+   },
+   "keywords": [],
+   "shock_terms": [],
+   "dedupe_match": null,
+   "dedupe_similarity": 0.1,
+   "id": "01c7fdac0f9e",
+   "title": "[page changed] Federal Register \u2014 public inspection (HHS/CDC), pre-publication",
+   "url": "https://www.federalregister.gov/api/v1/public-inspection-documents/current.json",
+   "summary": "{\"count\":90,\"results\":[{\"agencies\":[{\"raw_name\":\"Federal Aviation Administration\",\"name\":\"Federal Aviation Administration\",\"id\":159,\"url\":\"https://www.federalregister.gov/agencies/federal-aviation-administration\",\"json_url\":\"https://www.federalregister.gov/api/v1/agencies/159\",\"parent_id\":492,\"slug\":\"federal-aviation-administration\"}],\"agency_letters\":[],\"agency_names\":[\"Federal Aviation Administr",
+   "kind": "page-change",
+   "source": "Federal Register \u2014 public inspection (HHS/CDC), pre-publication",
+   "source_id": "us-fedreg-pubinspect-hhs",
+   "tier": 1,
+   "country": "REG",
+   "category": "advisory",
+   "segments": [
+    "city",
+    "bush"
+   ],
+   "first_seen": "2026-10-08T23:44+03:00",
+   "published": "2026-10-07",
+   "verdict": "OPEN THIS \u2014 tier-1 advisory page moved; content not auto-parsed, read it manually"
+  },
+  {
+   "score": 71.6,
+   "components": {
+    "tier": 40,
+    "category": 32,
+    "lead": 3.6,
+    "relevance": 0,
+    "freshness": 0.0,
+    "page_change": -4
+   },
+   "keywords": [],
+   "shock_terms": [],
+   "dedupe_match": null,
+   "dedupe_similarity": 0.1,
+   "id": "1d7529fc35f4",
+   "title": "[page changed] Federal Register \u2014 public inspection (HHS/CDC), pre-publication",
+   "url": "https://www.federalregister.gov/api/v1/public-inspection-documents/current.json",
+   "summary": "{\"count\":90,\"results\":[{\"agencies\":[{\"raw_name\":\"Federal Aviation Administration\",\"name\":\"Federal Aviation Administration\",\"id\":159,\"url\":\"https://www.federalregister.gov/agencies/federal-aviation-administration\",\"json_url\":\"https://www.federalregister.gov/api/v1/agencies/159\",\"parent_id\":492,\"slug\":\"federal-aviation-administration\"}],\"agency_letters\":[],\"agency_names\":[\"Federal Aviation Administr",
+   "kind": "page-change",
+   "source": "Federal Register \u2014 public inspection (HHS/CDC), pre-publication",
+   "source_id": "us-fedreg-pubinspect-hhs",
+   "tier": 1,
+   "country": "REG",
+   "category": "advisory",
+   "segments": [
+    "city",
+    "bush"
+   ],
+   "first_seen": "2026-10-08T19:33+03:00",
+   "published": "2026-10-07",
+   "verdict": "OPEN THIS \u2014 tier-1 advisory page moved; content not auto-parsed, read it manually"
+  },
+  {
+   "score": 59.2,
    "components": {
     "tier": 40,
     "category": 12,
     "lead": 3.6,
     "relevance": 0,
-    "freshness": 17.5,
+    "freshness": 13.6,
     "undated": -6,
     "page_change": -4
    },
@@ -137,13 +380,80 @@
    "verdict": "OPEN THIS \u2014 tier-1 airline page moved; content not auto-parsed, read it manually"
   },
   {
-   "score": 105.3,
+   "score": 45.6,
+   "components": {
+    "tier": 40,
+    "category": 12,
+    "lead": 3.6,
+    "relevance": 0,
+    "freshness": 0.0,
+    "undated": -6,
+    "page_change": -4
+   },
+   "keywords": [],
+   "shock_terms": [],
+   "dedupe_match": null,
+   "dedupe_similarity": 0.0,
+   "id": "2d3e507871c1",
+   "title": "[page changed] Airlink news",
+   "url": "https://www.flyairlink.com/",
+   "summary": "Request unsuccessful. Incapsula incident ID: 1024000100696144330-82277176728093330",
+   "kind": "page-change",
+   "source": "Airlink news",
+   "source_id": "air-airlink",
+   "tier": 1,
+   "country": "REG",
+   "category": "airline",
+   "segments": [
+    "city",
+    "bush",
+    "beach"
+   ],
+   "first_seen": "2026-10-08T23:43+03:00",
+   "published": null,
+   "verdict": "OPEN THIS \u2014 tier-1 airline page moved; content not auto-parsed, read it manually"
+  },
+  {
+   "score": 104.1,
+   "components": {
+    "tier": 40,
+    "category": 18,
+    "lead": 8.4,
+    "relevance": 8,
+    "freshness": 19.7,
+    "corroborated": 10
+   },
+   "keywords": [
+    "wildlife"
+   ],
+   "shock_terms": [],
+   "dedupe_match": null,
+   "dedupe_similarity": 0.12,
+   "id": "39bd9e1e72a0",
+   "title": "When Comfort Is the Only Cure: Palliative Care in Wildlife Veterinary Medicine",
+   "url": "https://kws.go.ke/when-comfort-is-the-only-cure-palliative-care-in-wildlife-veterinary-medicine",
+   "summary": "https://x.com/KWSKenya/status/2108483288130113746/video/1?t=11 Wildlife veterinary teams are resilient, and so are the animals they care for. Not every story ends in a dramatic rescue. Some unfold quietly, in the slow, steady work of keeping an animal comfortable when recovery is uncertain. Palliative care is an important part of wildlife veterinary medicine. It focuses on comfort, dignity and [..",
+   "kind": "item",
+   "source": "Kenya Wildlife Service",
+   "source_id": "ke-kws",
+   "tier": 1,
+   "country": "KE",
+   "category": "parks",
+   "segments": [
+    "bush"
+   ],
+   "first_seen": "2026-10-09T19:14+03:00",
+   "published": "2026-10-09",
+   "verdict": "STRONG \u2014 tier-1, upstream"
+  },
+  {
+   "score": 101.4,
    "components": {
     "tier": 40,
     "category": 9,
     "lead": 16.8,
     "relevance": 12,
-    "freshness": 17.5,
+    "freshness": 13.6,
     "corroborated": 10
    },
    "keywords": [
@@ -173,13 +483,50 @@
    "verdict": "STRONG \u2014 tier-1, upstream"
   },
   {
-   "score": 92.4,
+   "score": 92.2,
+   "components": {
+    "tier": 20,
+    "category": 14,
+    "lead": 8.4,
+    "relevance": 20,
+    "freshness": 19.8,
+    "corroborated": 10
+   },
+   "keywords": [
+    "route",
+    "charter",
+    "flight"
+   ],
+   "shock_terms": [],
+   "dedupe_match": null,
+   "dedupe_similarity": 0.18,
+   "id": "a0fe9ea3464c",
+   "title": "EVA Air Fall 2026 Taipei \u2013 Asahikawa Charters",
+   "url": "https://www.aeroroutes.com/eng/261009-brsep26akj",
+   "summary": "Published at 0500PDT / 1200GMT 09OCT26 Star Alliance member EVA Air since late-September 2026 once again operated charter service on Taipei Taoyuan \u2013 Asahikawa route, on board Airbus A321 aircraft. The first flight for the Fall series charter flight was operated on 23SEP26, scheduled every 4 days. BR136 TPE0950 \u2013 1500AKJ 321 BR135 AKJ1640 \u2013 2000TPE 321",
+   "kind": "item",
+   "source": "AeroRoutes schedule filings",
+   "source_id": "aeroroutes",
+   "tier": 2,
+   "country": "GLOBAL",
+   "category": "aviation-tracker",
+   "segments": [
+    "city",
+    "bush",
+    "beach"
+   ],
+   "first_seen": "2026-10-09T19:15+03:00",
+   "published": "2026-10-09",
+   "verdict": "CONSIDER"
+  },
+  {
+   "score": 88.5,
    "components": {
     "tier": 20,
     "category": 5,
     "lead": 3.6,
     "relevance": 16,
-    "freshness": 19.8,
+    "freshness": 15.9,
     "corroborated": 10,
     "shock": 18
    },
@@ -212,13 +559,13 @@
    "verdict": "CONSIDER"
   },
   {
-   "score": 89.9,
+   "score": 86.0,
    "components": {
     "tier": 20,
     "category": 14,
     "lead": 8.4,
     "relevance": 20,
-    "freshness": 17.5,
+    "freshness": 13.6,
     "corroborated": 10
    },
    "keywords": [
@@ -249,13 +596,13 @@
    "verdict": "CONSIDER"
   },
   {
-   "score": 89.9,
+   "score": 86.0,
    "components": {
     "tier": 20,
     "category": 14,
     "lead": 8.4,
     "relevance": 20,
-    "freshness": 17.5,
+    "freshness": 13.6,
     "corroborated": 10
    },
    "keywords": [
@@ -287,13 +634,13 @@
    "verdict": "CONSIDER"
   },
   {
-   "score": 88.9,
+   "score": 85.0,
    "components": {
     "tier": 20,
     "category": 5,
     "lead": 2.4,
     "relevance": 16,
-    "freshness": 17.5,
+    "freshness": 13.6,
     "corroborated": 10,
     "shock": 18
    },
@@ -326,13 +673,49 @@
    "verdict": "CONSIDER"
   },
   {
-   "score": 87.8,
+   "score": 84.2,
+   "components": {
+    "tier": 20,
+    "category": 14,
+    "lead": 8.4,
+    "relevance": 12,
+    "freshness": 19.8,
+    "corroborated": 10
+   },
+   "keywords": [
+    "route",
+    "flight"
+   ],
+   "shock_terms": [],
+   "dedupe_match": null,
+   "dedupe_similarity": 0.11,
+   "id": "9ad78e787a14",
+   "title": "Wizz Air Dec 2026 Yerevan Network Additions",
+   "url": "https://www.aeroroutes.com/eng/261009-w6dec26evn",
+   "summary": "Published at 0800PDT / 1500GMT 09OCT26 Wizz Air in December 2026 plans to add 2 routes at Yerevan , previously not reported on AeroRoutes . Planned network additions include the following. Yerevan \u2013 Mulhouse eff 18DEC26 3 weekly A321neo W65907 EVN0800 \u2013 0940MLH 32Q 135 W65908 MLH1015 \u2013 1740EVN 32Q 135 Yerevan \u2013 Valencia eff 19DEC26 2 weekly A321neo W65973 EVN0800 \u2013 1035VLC 32Q 26 W65974 VLC1115 \u2013 ",
+   "kind": "item",
+   "source": "AeroRoutes schedule filings",
+   "source_id": "aeroroutes",
+   "tier": 2,
+   "country": "GLOBAL",
+   "category": "aviation-tracker",
+   "segments": [
+    "city",
+    "bush",
+    "beach"
+   ],
+   "first_seen": "2026-10-09T19:15+03:00",
+   "published": "2026-10-09",
+   "verdict": "CONSIDER"
+  },
+  {
+   "score": 83.9,
    "components": {
     "tier": 20,
     "category": 14,
     "lead": 8.4,
     "relevance": 24,
-    "freshness": 11.4,
+    "freshness": 7.5,
     "corroborated": 10
    },
    "keywords": [
@@ -364,13 +747,13 @@
    "verdict": "CONSIDER"
   },
   {
-   "score": 85.9,
+   "score": 82.0,
    "components": {
     "tier": 20,
     "category": 14,
     "lead": 8.4,
     "relevance": 16,
-    "freshness": 17.5,
+    "freshness": 13.6,
     "corroborated": 10
    },
    "keywords": [
@@ -401,13 +784,13 @@
    "verdict": "CONSIDER"
   },
   {
-   "score": 85.9,
+   "score": 82.0,
    "components": {
     "tier": 20,
     "category": 14,
     "lead": 8.4,
     "relevance": 16,
-    "freshness": 17.5,
+    "freshness": 13.6,
     "corroborated": 10
    },
    "keywords": [
@@ -437,13 +820,155 @@
    "verdict": "CONSIDER"
   },
   {
-   "score": 83.8,
+   "score": 80.4,
+   "components": {
+    "tier": 20,
+    "category": 14,
+    "lead": 8.4,
+    "relevance": 28,
+    "freshness": 0.0,
+    "corroborated": 10
+   },
+   "keywords": [
+    "cancel",
+    "route",
+    "airline",
+    "flight"
+   ],
+   "shock_terms": [],
+   "dedupe_match": null,
+   "dedupe_similarity": 0.18,
+   "id": "ac79b1ec69da",
+   "title": "Luxair Cancels Abu Dhabi Service in NW26",
+   "url": "https://www.aeroroutes.com/eng/261008-lgdnw26auh",
+   "summary": "Published at 0600PDT / 1300GMT 08OCT26 Luxair in recent weeks removed planned service on Luxembourg \u2013 Abu Dhabi route, originally scheduled from 26OCT26. Prior to recent removal, the airline was scheduling 1 weekly flight with 737 MAX 8 aircraft. Previously filed schedule as follows. LG9015 LUX0700 \u2013 1725AUH 7M8 1 LG9016 AUH0900 \u2013 1400LUX 7M8 2",
+   "kind": "item",
+   "source": "AeroRoutes schedule filings",
+   "source_id": "aeroroutes",
+   "tier": 2,
+   "country": "GLOBAL",
+   "category": "aviation-tracker",
+   "segments": [
+    "city",
+    "bush",
+    "beach"
+   ],
+   "first_seen": "2026-10-08T19:33+03:00",
+   "published": "2026-10-08",
+   "verdict": "CONSIDER"
+  },
+  {
+   "score": 80.2,
+   "components": {
+    "tier": 20,
+    "category": 14,
+    "lead": 8.4,
+    "relevance": 8,
+    "freshness": 19.8,
+    "corroborated": 10
+   },
+   "keywords": [
+    "airline",
+    "flight"
+   ],
+   "shock_terms": [],
+   "dedupe_match": null,
+   "dedupe_similarity": 0.25,
+   "id": "63ec09648ce3",
+   "title": "Biman NW26 London Heathrow Service Changes",
+   "url": "https://www.aeroroutes.com/eng/261009-bgnw26lhr",
+   "summary": "Published at 0700PDT / 1400GMT 09OCT26 Biman Bangladesh Airlines in the first quarter of 2027 once again schedules overall 5th weekly flight for London Heathrow . From 07JAN27, service on Thursdays will be nonstop terminator Dhaka \u2013 London Heathrow routing, on board Boeing 787-8. BG301 DAC1130 \u2013 1700LHR 788 4 BG302 LHR1910 \u2013 1040+1DAC 788 4 BG301/302 is not scheduled 29OCT26 \u2013 06JAN27. The carrier",
+   "kind": "item",
+   "source": "AeroRoutes schedule filings",
+   "source_id": "aeroroutes",
+   "tier": 2,
+   "country": "GLOBAL",
+   "category": "aviation-tracker",
+   "segments": [
+    "city",
+    "bush",
+    "beach"
+   ],
+   "first_seen": "2026-10-09T19:15+03:00",
+   "published": "2026-10-09",
+   "verdict": "CONSIDER"
+  },
+  {
+   "score": 80.2,
+   "components": {
+    "tier": 20,
+    "category": 14,
+    "lead": 8.4,
+    "relevance": 8,
+    "freshness": 19.8,
+    "corroborated": 10
+   },
+   "keywords": [
+    "airline",
+    "flight"
+   ],
+   "shock_terms": [],
+   "dedupe_match": null,
+   "dedupe_similarity": 0.25,
+   "id": "3aab9e91c5c2",
+   "title": "Biman Increases Dhaka \u2013 Tokyo Flights in NW26",
+   "url": "https://www.aeroroutes.com/eng/261009-bgnw26nrt",
+   "summary": "Published at 0600PDT / 1300GMT 09OCT26 Biman Bangladesh Airlines during Northern winter 2026/27 season plans to increase service to Japan, with the addition of 2nd weekly Dhaka \u2013 Tokyo Narita flight, on board Boeing 787-9. The 2nd weekly flight will commence on 29OCT26. Schedule below focuses on the period of 05NOV26 \u2013 25MAR27. BG376 DAC0240 \u2013 1230NRT 789 14 BG377 NRT1400 \u2013 1800DAC 789 14",
+   "kind": "item",
+   "source": "AeroRoutes schedule filings",
+   "source_id": "aeroroutes",
+   "tier": 2,
+   "country": "GLOBAL",
+   "category": "aviation-tracker",
+   "segments": [
+    "city",
+    "bush",
+    "beach"
+   ],
+   "first_seen": "2026-10-09T19:15+03:00",
+   "published": "2026-10-09",
+   "verdict": "CONSIDER"
+  },
+  {
+   "score": 80.1,
+   "components": {
+    "tier": 40,
+    "category": 24,
+    "lead": 2.4,
+    "relevance": 0,
+    "freshness": 19.7,
+    "undated": -6
+   },
+   "keywords": [],
+   "shock_terms": [],
+   "dedupe_match": null,
+   "dedupe_similarity": 0.2,
+   "id": "c7a50637a480",
+   "title": "Communicable disease threats report, 3 - 9 October, week 41",
+   "url": "https://www.ecdc.europa.eu/en/publications-data/communicable-disease-threats-report-3-9-october-week-41",
+   "summary": "",
+   "kind": "item",
+   "source": "ECDC \u2014 DRC/Uganda Ebola outbreak page",
+   "source_id": "ecdc-ebola",
+   "tier": 1,
+   "country": "GLOBAL",
+   "category": "health",
+   "segments": [
+    "city",
+    "bush"
+   ],
+   "first_seen": "2026-10-09T19:14+03:00",
+   "published": null,
+   "verdict": "CONSIDER"
+  },
+  {
+   "score": 79.9,
    "components": {
     "tier": 20,
     "category": 14,
     "lead": 8.4,
     "relevance": 20,
-    "freshness": 11.4,
+    "freshness": 7.5,
     "corroborated": 10
    },
    "keywords": [
@@ -474,13 +999,13 @@
    "verdict": "CONSIDER"
   },
   {
-   "score": 83.8,
+   "score": 79.9,
    "components": {
     "tier": 20,
     "category": 14,
     "lead": 8.4,
     "relevance": 20,
-    "freshness": 11.4,
+    "freshness": 7.5,
     "corroborated": 10
    },
    "keywords": [
@@ -511,13 +1036,231 @@
    "verdict": "CONSIDER"
   },
   {
-   "score": 80.1,
+   "score": 77.8,
+   "components": {
+    "tier": 20,
+    "category": 4,
+    "lead": 0.0,
+    "relevance": 24,
+    "freshness": 19.8,
+    "corroborated": 10
+   },
+   "keywords": [
+    "eta",
+    "seat",
+    "election"
+   ],
+   "shock_terms": [],
+   "dedupe_match": null,
+   "dedupe_similarity": 0.0,
+   "id": "0877af0d2c06",
+   "title": "Labour\u2019s Sagal Abdi-Wali retains former PM's seat in London by-election",
+   "url": "https://www.theeastafrican.co.ke/tea/news/world/labour-sagal-abdi-wali-retains-former-pm-seat-london-by-election-5625514",
+   "summary": "Abdi-Wali defeated Green Party leader Zack Polanski, who secured 8,928 votes.",
+   "kind": "item",
+   "source": "The EastAfrican",
+   "source_id": "np-eastafrican",
+   "tier": 2,
+   "country": "REG",
+   "category": "press",
+   "segments": [
+    "city",
+    "bush",
+    "beach"
+   ],
+   "first_seen": "2026-10-09T19:15+03:00",
+   "published": "2026-10-09",
+   "verdict": "CONSIDER"
+  },
+  {
+   "score": 77.2,
+   "components": {
+    "tier": 20,
+    "category": 5,
+    "lead": 2.4,
+    "relevance": 20,
+    "freshness": 19.8,
+    "corroborated": 10
+   },
+   "keywords": [
+    "adr",
+    "revpar",
+    "hotel"
+   ],
+   "shock_terms": [],
+   "dedupe_match": null,
+   "dedupe_similarity": 0.2,
+   "id": "e8c6b9950001",
+   "title": "Munich Market Spotlight - YE August 2026",
+   "url": "https://www.hospitalitynet.org/opinion/4134838/munich-market-spotlight-ye-august-2026",
+   "summary": "Munich hotels posted 2.1% revenue growth in YE August 2026 but GOP fell 1.1% to \u20ac68.7 PAR as costs rose faster, with RevPAR down 0.4% due to a 1.5% ADR decline.",
+   "kind": "item",
+   "source": "Hospitality Net: Africa openings",
+   "source_id": "dev-hospitalitynet-openings",
+   "tier": 2,
+   "country": "AFRICA",
+   "category": "trade",
+   "segments": [
+    "city",
+    "bush",
+    "beach"
+   ],
+   "first_seen": "2026-10-09T19:15+03:00",
+   "published": "2026-10-09",
+   "verdict": "CONSIDER"
+  },
+  {
+   "score": 76.4,
+   "components": {
+    "tier": 20,
+    "category": 14,
+    "lead": 8.4,
+    "relevance": 24,
+    "freshness": 0.0,
+    "corroborated": 10
+   },
+   "keywords": [
+    "route",
+    "frequency",
+    "airline",
+    "flight"
+   ],
+   "shock_terms": [],
+   "dedupe_match": null,
+   "dedupe_similarity": 0.25,
+   "id": "ad3f0e92fbe2",
+   "title": "Discover Airlines Adds Frankfurt \u2013 Jerez in NS27",
+   "url": "https://www.aeroroutes.com/eng/261008-4yns27xry",
+   "summary": "Published at 0300PDT / 1000GMT 08OCT26 Discover Airlines during Northern summer 2027 season plans to launch Frankfurt \u2013 Jerez de la Frontera route, assuming Lufthansa mainline service that was operated until October 2021. Operational frequency varies throughout the season, with 1 weekly flight from 20MAR27, 3 weekly from 30MAR27, 4 weekly from 11APR27, 3 weekly from 17MAY27, 1 weekly from 09JUN27,",
+   "kind": "item",
+   "source": "AeroRoutes schedule filings",
+   "source_id": "aeroroutes",
+   "tier": 2,
+   "country": "GLOBAL",
+   "category": "aviation-tracker",
+   "segments": [
+    "city",
+    "bush",
+    "beach"
+   ],
+   "first_seen": "2026-10-08T19:33+03:00",
+   "published": "2026-10-08",
+   "verdict": "CONSIDER"
+  },
+  {
+   "score": 76.2,
+   "components": {
+    "tier": 20,
+    "category": 14,
+    "lead": 8.4,
+    "relevance": 4,
+    "freshness": 19.8,
+    "corroborated": 10
+   },
+   "keywords": [
+    "flight"
+   ],
+   "shock_terms": [],
+   "dedupe_match": null,
+   "dedupe_similarity": 0.14,
+   "id": "f2f3ed02dc12",
+   "title": "Air Astana Adds Salalah Service in NW26",
+   "url": "https://www.aeroroutes.com/eng/261009-kcnw26sll",
+   "summary": "Published at 0900PDT / 1600GMT 09OCT26 Air Astana during Northern winter 2026/27 season plans to add service to Oman, with weekly flight to Salalah from both Almaty and Astana. Planned schedule as follows. Almaty \u2013 Salalah eff 23OCT26 1 weekly A320 (schedule below eff 30OCT26) KC8267 ALA0730 \u2013 1240SLL 320 5 KC8268 SLL1350 \u2013 2020ALA 320 5 Astana \u2013 Salalah eff 24OCT26 1 weekly A320 KC8269 NQZ0835 \u2013 ",
+   "kind": "item",
+   "source": "AeroRoutes schedule filings",
+   "source_id": "aeroroutes",
+   "tier": 2,
+   "country": "GLOBAL",
+   "category": "aviation-tracker",
+   "segments": [
+    "city",
+    "bush",
+    "beach"
+   ],
+   "first_seen": "2026-10-09T19:15+03:00",
+   "published": "2026-10-09",
+   "verdict": "CONSIDER"
+  },
+  {
+   "score": 76.2,
+   "components": {
+    "tier": 20,
+    "category": 14,
+    "lead": 8.4,
+    "relevance": 4,
+    "freshness": 19.8,
+    "corroborated": 10
+   },
+   "keywords": [
+    "airline"
+   ],
+   "shock_terms": [],
+   "dedupe_match": null,
+   "dedupe_similarity": 0.12,
+   "id": "668b0ee65ca1",
+   "title": "Jin Air Extends Boeing 777 Service to late-Nov 2026",
+   "url": "https://www.aeroroutes.com/eng/261008-ljnov26777",
+   "summary": "Published at 0400PDT / 1100GMT 09OCT26 Jin Air in the last few days further extended Boeing 777-200ER operations. Previously scheduled until 24NOV26, the airline will continue to operate following service until 30NOV26 inclusive. Seoul Incheon \u2013 Fukuoka LJ461/462 Seoul Incheon \u2013 Taipei Taoyuan LJ171/172",
+   "kind": "item",
+   "source": "AeroRoutes schedule filings",
+   "source_id": "aeroroutes",
+   "tier": 2,
+   "country": "GLOBAL",
+   "category": "aviation-tracker",
+   "segments": [
+    "city",
+    "bush",
+    "beach"
+   ],
+   "first_seen": "2026-10-09T19:15+03:00",
+   "published": "2026-10-09",
+   "verdict": "CONSIDER"
+  },
+  {
+   "score": 76.2,
+   "components": {
+    "tier": 20,
+    "category": 4,
+    "lead": 2.4,
+    "relevance": 20,
+    "freshness": 19.8,
+    "corroborated": 10
+   },
+   "keywords": [
+    "suspend",
+    "election"
+   ],
+   "shock_terms": [],
+   "dedupe_match": null,
+   "dedupe_similarity": 0.0,
+   "id": "35b2ae1c84c5",
+   "title": "Passport or ID? Fresh court fight erupts over diaspora vote before 2027 election",
+   "url": "https://nation.africa/kenya/news/passport-or-id-fresh-court-fight-erupts-over-diaspora-vote-before-2027-election-5625984",
+   "summary": "A Kenyan living in the United Kingdom wants the appellate court to suspend the judgment.",
+   "kind": "item",
+   "source": "Nation Africa: Kenya business",
+   "source_id": "ke-nation-business",
+   "tier": 2,
+   "country": "KE",
+   "category": "press",
+   "segments": [
+    "city",
+    "bush",
+    "beach"
+   ],
+   "first_seen": "2026-10-09T19:15+03:00",
+   "published": "2026-10-09",
+   "verdict": "CONSIDER"
+  },
+  {
+   "score": 76.2,
    "components": {
     "tier": 20,
     "category": 9,
     "lead": 3.6,
     "relevance": 20,
-    "freshness": 17.5,
+    "freshness": 13.6,
     "corroborated": 10
    },
    "keywords": [
@@ -549,13 +1292,13 @@
    "verdict": "CONSIDER"
   },
   {
-   "score": 79.8,
+   "score": 75.9,
    "components": {
     "tier": 5,
     "category": 5,
     "lead": 2.4,
     "relevance": 28,
-    "freshness": 11.4,
+    "freshness": 7.5,
     "corroborated": 10,
     "shock": 18
    },
@@ -590,13 +1333,13 @@
    "verdict": "CONSIDER"
   },
   {
-   "score": 79.8,
+   "score": 75.9,
    "components": {
     "tier": 20,
     "category": 14,
     "lead": 8.4,
     "relevance": 16,
-    "freshness": 11.4,
+    "freshness": 7.5,
     "corroborated": 10
    },
    "keywords": [
@@ -627,13 +1370,13 @@
    "verdict": "CONSIDER"
   },
   {
-   "score": 79.8,
+   "score": 75.9,
    "components": {
     "tier": 20,
     "category": 14,
     "lead": 8.4,
     "relevance": 16,
-    "freshness": 11.4,
+    "freshness": 7.5,
     "corroborated": 10
    },
    "keywords": [
@@ -664,13 +1407,13 @@
    "verdict": "CONSIDER"
   },
   {
-   "score": 79.8,
+   "score": 75.9,
    "components": {
     "tier": 20,
     "category": 14,
     "lead": 8.4,
     "relevance": 16,
-    "freshness": 11.4,
+    "freshness": 7.5,
     "corroborated": 10
    },
    "keywords": [
@@ -698,756 +1441,6 @@
    "first_seen": "2026-10-09T08:05+03:00",
    "published": "2026-10-08",
    "verdict": "CONSIDER"
-  },
-  {
-   "score": 78.3,
-   "components": {
-    "tier": 40,
-    "category": 10,
-    "lead": 16.8,
-    "relevance": 0,
-    "freshness": 17.5,
-    "undated": -6
-   },
-   "keywords": [],
-   "shock_terms": [],
-   "dedupe_match": null,
-   "dedupe_similarity": 0.0,
-   "id": "83ee859db55d",
-   "title": "EXPLAINER ON THE REGIONAL DEVELOPMENT AUTHORITIES LAWS (REPEAL)",
-   "url": "https://www.parliament.go.ke/index.php/explainer-regional-development-authorities-laws-repeal",
-   "summary": "",
-   "kind": "item",
-   "source": "Parliament of Kenya \u2014 bills & papers",
-   "source_id": "ke-parliament",
-   "tier": 1,
-   "country": "KE",
-   "category": "legislature",
-   "segments": [
-    "city",
-    "bush",
-    "beach"
-   ],
-   "first_seen": "2026-10-09T13:39+03:00",
-   "published": null,
-   "verdict": "CONSIDER"
-  },
-  {
-   "score": 78.1,
-   "components": {
-    "tier": 20,
-    "category": 9,
-    "lead": 3.6,
-    "relevance": 0,
-    "freshness": 17.5,
-    "corroborated": 10,
-    "shock": 18
-   },
-   "keywords": [],
-   "shock_terms": [
-    "attack"
-   ],
-   "dedupe_match": null,
-   "dedupe_similarity": 0.0,
-   "id": "82226296d325",
-   "title": "Naher Osten: Lufthansa setzt Riad-Fl\u00fcge vor\u00fcbergehend aus",
-   "url": "https://www.fvw.de/touristik/verkehr/naher-osten-lufthansa-setzt-riad-fluege-voruebergehend-aus-265170",
-   "summary": "Nach Angriffen auf den Flughafen in Riad streicht die Lufthansa alle Verbindungen dorthin. Die Huthi-Miliz droht mit weiteren Attacken auf saudische Ziele.",
-   "kind": "item",
-   "source": "FVW / German travel trade",
-   "source_id": "sm-derreise",
-   "tier": 2,
-   "country": "GLOBAL",
-   "category": "source-market",
-   "segments": [
-    "beach",
-    "bush"
-   ],
-   "first_seen": "2026-10-09T13:40+03:00",
-   "published": "2026-10-09",
-   "verdict": "CONSIDER"
-  },
-  {
-   "score": 77.9,
-   "components": {
-    "tier": 20,
-    "category": 4,
-    "lead": 2.4,
-    "relevance": 24,
-    "freshness": 17.5,
-    "corroborated": 10
-   },
-   "keywords": [
-    "tax",
-    "vat",
-    "fuel"
-   ],
-   "shock_terms": [],
-   "dedupe_match": null,
-   "dedupe_similarity": 0.11,
-   "id": "a5511806bb9c",
-   "title": "Kenyans Given 5-Day Notice Over Proposed Fuel Tax Changes",
-   "url": "https://www.kenyans.co.ke/news/127728-kenyans-given-5-days-submit-views-proposed-8-fuel-vat",
-   "summary": "Despite the push to reduce the VAT on petroleum products, the tax changes are expected to have minimal impact on the monthly fuel prices set by EPRA.",
-   "kind": "item",
-   "source": "Kenyans.co.ke news",
-   "source_id": "ke-kenyans",
-   "tier": 2,
-   "country": "KE",
-   "category": "press",
-   "segments": [
-    "city",
-    "bush",
-    "beach"
-   ],
-   "first_seen": "2026-10-09T13:39+03:00",
-   "published": "2026-10-09",
-   "verdict": "CONSIDER"
-  },
-  {
-   "score": 77.9,
-   "components": {
-    "tier": 20,
-    "category": 14,
-    "lead": 8.4,
-    "relevance": 8,
-    "freshness": 17.5,
-    "corroborated": 10
-   },
-   "keywords": [
-    "route"
-   ],
-   "shock_terms": [],
-   "dedupe_match": null,
-   "dedupe_similarity": 0.12,
-   "id": "f51f7298442e",
-   "title": "Maldivian NW26 Bangkok Operations",
-   "url": "https://www.aeroroutes.com/eng/261009-q2nw26bkk",
-   "summary": "Published at 0200PDT / 0900GMT 09OCT26 Maldivian during Northern winter 2026/27 season once again schedules service to Thailand, with the offering of 1 weekly Male \u2013 Bangkok Suvarnabhumi service, from 08DEC26 to 19JAN27. Airbus A320 aircraft to serve this route. Q22430 MLE0955 \u2013 1635BKK 320 2 Q22431 BKK1815 \u2013 2040MLE 320 2",
-   "kind": "item",
-   "source": "AeroRoutes schedule filings",
-   "source_id": "aeroroutes",
-   "tier": 2,
-   "country": "GLOBAL",
-   "category": "aviation-tracker",
-   "segments": [
-    "city",
-    "bush",
-    "beach"
-   ],
-   "first_seen": "2026-10-09T13:39+03:00",
-   "published": "2026-10-09",
-   "verdict": "CONSIDER"
-  },
-  {
-   "score": 75.8,
-   "components": {
-    "tier": 20,
-    "category": 14,
-    "lead": 8.4,
-    "relevance": 12,
-    "freshness": 11.4,
-    "corroborated": 10
-   },
-   "keywords": [
-    "route",
-    "flight"
-   ],
-   "shock_terms": [],
-   "dedupe_match": null,
-   "dedupe_similarity": 0.2,
-   "id": "61ff0da59d74",
-   "title": "Etihad Increases Damascus Flights From Nov 2026",
-   "url": "https://www.aeroroutes.com/eng/261008-eynw26dam",
-   "summary": "Published at 2100PDT 08OCT26 / 0400GMT 09OCT26 Etihad Airways during Northern winter 2026/27 season plans to increase service to Syria, as Abu Dhabi \u2013 Damascus scheduled to increase from 4 weekly to 1 daily, effective 14NOV26. The carrier will serve this route with a mix of Airbus A320 and A321 aircraft. EY561 AUH1400 \u2013 1630DAM 32S D EY562 DAM1735 \u2013 2130AUH 32S D",
-   "kind": "item",
-   "source": "AeroRoutes schedule filings",
-   "source_id": "aeroroutes",
-   "tier": 2,
-   "country": "GLOBAL",
-   "category": "aviation-tracker",
-   "segments": [
-    "city",
-    "bush",
-    "beach"
-   ],
-   "first_seen": "2026-10-09T08:05+03:00",
-   "published": "2026-10-09",
-   "verdict": "CONSIDER"
-  },
-  {
-   "score": 75.8,
-   "components": {
-    "tier": 20,
-    "category": 14,
-    "lead": 8.4,
-    "relevance": 12,
-    "freshness": 11.4,
-    "corroborated": 10
-   },
-   "keywords": [
-    "route",
-    "airline"
-   ],
-   "shock_terms": [],
-   "dedupe_match": null,
-   "dedupe_similarity": 0.25,
-   "id": "603f11073ce0",
-   "title": "Beijing Capital NW26 Qingdao \u2013 Vancouver Schedule Changes",
-   "url": "https://www.aeroroutes.com/eng/261008-jdnw26yvr",
-   "summary": "Published at 1900PDT 08OCT26 / 0200GMT 09OCT26 Beijing Capital Airlines during Northern winter 2026/27 season is adjusting operational schedule on Hangzhou \u2013 Qingdao \u2013 Vancouver route, which was resumed on 02OCT26. From Hangzhou and Qingdao, service will now depart at Thursday evening, instead of daytime on Friday, effective 29OCT26. Airbus A330-200 aircraft operates this route. JD471 HGH1915 \u2013 20",
-   "kind": "item",
-   "source": "AeroRoutes schedule filings",
-   "source_id": "aeroroutes",
-   "tier": 2,
-   "country": "GLOBAL",
-   "category": "aviation-tracker",
-   "segments": [
-    "city",
-    "bush",
-    "beach"
-   ],
-   "first_seen": "2026-10-09T08:05+03:00",
-   "published": "2026-10-09",
-   "verdict": "CONSIDER"
-  },
-  {
-   "score": 75.8,
-   "components": {
-    "tier": 20,
-    "category": 14,
-    "lead": 8.4,
-    "relevance": 12,
-    "freshness": 11.4,
-    "corroborated": 10
-   },
-   "keywords": [
-    "route",
-    "airline"
-   ],
-   "shock_terms": [],
-   "dedupe_match": null,
-   "dedupe_similarity": 0.12,
-   "id": "77bc8d4e4f2b",
-   "title": "Philippine Airlines April 2027 Australia Aircraft Changes",
-   "url": "https://www.aeroroutes.com/eng/261008-prapr27au",
-   "summary": "Published at 1600PDT / 2300GMT 08OCT26 Philippine Airlines in April 2027 schedules Boeing 777-300ER aircraft on Manila \u2013 Sydney route on selected dates. From Manila, the 777 is scheduled to operate on following dates in April 2027: 08, 10, 22, 25. PR211 MNL2210 \u2013 0945+1SYD EQV D PR212 SYD1135 \u2013 1650MNL EQV D On Manila \u2013 Brisbane route, following dates in April 2027 to be operated by A330-300, inst",
-   "kind": "item",
-   "source": "AeroRoutes schedule filings",
-   "source_id": "aeroroutes",
-   "tier": 2,
-   "country": "GLOBAL",
-   "category": "aviation-tracker",
-   "segments": [
-    "city",
-    "bush",
-    "beach"
-   ],
-   "first_seen": "2026-10-09T08:05+03:00",
-   "published": "2026-10-09",
-   "verdict": "CONSIDER"
-  },
-  {
-   "score": 75.8,
-   "components": {
-    "tier": 20,
-    "category": 14,
-    "lead": 8.4,
-    "relevance": 12,
-    "freshness": 11.4,
-    "corroborated": 10
-   },
-   "keywords": [
-    "route",
-    "airline"
-   ],
-   "shock_terms": [],
-   "dedupe_match": null,
-   "dedupe_similarity": 0.25,
-   "id": "05db4cc76589",
-   "title": "Philippine Airlines Adds Regular A350-1000 Los Angeles Service in NW26",
-   "url": "https://www.aeroroutes.com/eng/261008-prnw26lax",
-   "summary": "Published at 1515PDT / 2215GMT 08OCT26 Philippine Airlines this week filed aircraft changes on Manila \u2013 Los Angeles route, as the carrier gradually expands A350 operations. Since 12SEP26, the airline has been operating A350-900 and -1000 aircraft on this route on various dates, which will continue to 14DEC26. From 15DEC26, PR112/113 service will be permanently operated by A350-1000 on daily basis,",
-   "kind": "item",
-   "source": "AeroRoutes schedule filings",
-   "source_id": "aeroroutes",
-   "tier": 2,
-   "country": "GLOBAL",
-   "category": "aviation-tracker",
-   "segments": [
-    "city",
-    "bush",
-    "beach"
-   ],
-   "first_seen": "2026-10-09T08:05+03:00",
-   "published": "2026-10-09",
-   "verdict": "CONSIDER"
-  },
-  {
-   "score": 74.9,
-   "components": {
-    "tier": 20,
-    "category": 5,
-    "lead": 2.4,
-    "relevance": 20,
-    "freshness": 17.5,
-    "corroborated": 10
-   },
-   "keywords": [
-    "eta",
-    "hotel",
-    "tourist",
-    "operator"
-   ],
-   "shock_terms": [],
-   "dedupe_match": null,
-   "dedupe_similarity": 0.0,
-   "id": "cd75bc709841",
-   "title": "China Hotel Industry Study 2026",
-   "url": "https://www.hotelnewsresource.com/article143262.html",
-   "summary": "The China Hotel Industry Study 2026, by the China Tourist Hotel Association (CTHA) and Horwath HTL, provides updated market analysis, offering hotel owners, operators, and investors detailed insights into future demand, supply, and performance trends across China's hospitality sector.",
-   "kind": "item",
-   "source": "HVS \u2014 market reports and event-impact studies (via Hotel News Resource)",
-   "source_id": "gl-hvs-market-reports",
-   "tier": 2,
-   "country": "GLOBAL",
-   "category": "trade",
-   "segments": [
-    "city"
-   ],
-   "first_seen": "2026-10-09T13:40+03:00",
-   "published": "2026-10-09",
-   "verdict": "CONSIDER"
-  },
-  {
-   "score": 72.1,
-   "components": {
-    "tier": 20,
-    "category": 9,
-    "lead": 3.6,
-    "relevance": 12,
-    "freshness": 17.5,
-    "corroborated": 10
-   },
-   "keywords": [
-    "eta",
-    "airline"
-   ],
-   "shock_terms": [],
-   "dedupe_match": null,
-   "dedupe_similarity": 0.0,
-   "id": "678939e0bfec",
-   "title": "Umsteigen leicht gemacht: Wie Air India zum Australien-Carrier werden will",
-   "url": "https://www.fvw.de/touristik/verkehr/umsteigen-leicht-gemacht-wie-air-india-zum-australien-carrier-werden-will-264739",
-   "summary": "Mit Easy Connect will Air India internationale Umsteigeverbindungen \u00fcber Indien einfacher machen. Dahinter steckt eine gr\u00f6\u00dfere Strategie: Die Airline will Indien als Alternative zu den etablierten Hubs im Nahen Osten positionieren.",
-   "kind": "item",
-   "source": "FVW / German travel trade",
-   "source_id": "sm-derreise",
-   "tier": 2,
-   "country": "GLOBAL",
-   "category": "source-market",
-   "segments": [
-    "beach",
-    "bush"
-   ],
-   "first_seen": "2026-10-09T13:40+03:00",
-   "published": "2026-10-09",
-   "verdict": "CONSIDER"
-  },
-  {
-   "score": 72.1,
-   "components": {
-    "tier": 20,
-    "category": 9,
-    "lead": 3.6,
-    "relevance": 12,
-    "freshness": 17.5,
-    "corroborated": 10
-   },
-   "keywords": [
-    "route",
-    "airline"
-   ],
-   "shock_terms": [],
-   "dedupe_match": null,
-   "dedupe_similarity": 0.0,
-   "id": "43bd11663d90",
-   "title": "20 Jahre Dubai-Hamburg: Die Amuse-Gueules beim Emirates-Dinner",
-   "url": "https://www.fvw.de/touristik/verkehr/20-jahre-dubai-hamburg-die-amuse-gueules-beim-emirates-dinner-265153",
-   "summary": "20 Jahre ist Emirates Airline mittlerweile auf der Route Dubai\u2013Hamburg unterwegs. Erstflug war am 1. M\u00e4rz 2006. Am Mittwoch hat das Emirates-Management das mit Gesch\u00e4ftspartnern in Hamburg gefeiert. Dabei fielen spannende Aussagen zum k\u00fcnftigen Gesch\u00e4ft.",
-   "kind": "item",
-   "source": "FVW / German travel trade",
-   "source_id": "sm-derreise",
-   "tier": 2,
-   "country": "GLOBAL",
-   "category": "source-market",
-   "segments": [
-    "beach",
-    "bush"
-   ],
-   "first_seen": "2026-10-09T13:40+03:00",
-   "published": "2026-10-08",
-   "verdict": "CONSIDER"
-  },
-  {
-   "score": 71.8,
-   "components": {
-    "tier": 20,
-    "category": 4,
-    "lead": 0.0,
-    "relevance": 0,
-    "freshness": 19.8,
-    "corroborated": 10,
-    "shock": 18
-   },
-   "keywords": [],
-   "shock_terms": [
-    "attack"
-   ],
-   "dedupe_match": null,
-   "dedupe_similarity": 0.0,
-   "id": "d303a1126aa4",
-   "title": "Scientists find solution to an invasive weed ravaging farms",
-   "url": "https://www.monitor.co.ug/uganda/news/national/scientists-find-solution-to-an-invasive-weed-ravaging-farms-5625476",
-   "summary": "Locally known as congress weed, the famine weed attacks and competes aggressively with crops...",
-   "kind": "item",
-   "source": "Daily Monitor (Uganda)",
-   "source_id": "np-monitor-ug",
-   "tier": 2,
-   "country": "UG",
-   "category": "press",
-   "segments": [
-    "city",
-    "bush",
-    "beach"
-   ],
-   "first_seen": "2026-10-09T15:45+03:00",
-   "published": "2026-10-09",
-   "verdict": "CONSIDER"
-  },
-  {
-   "score": 71.8,
-   "components": {
-    "tier": 20,
-    "category": 14,
-    "lead": 8.4,
-    "relevance": 8,
-    "freshness": 11.4,
-    "corroborated": 10
-   },
-   "keywords": [
-    "route"
-   ],
-   "shock_terms": [],
-   "dedupe_match": null,
-   "dedupe_similarity": 0.12,
-   "id": "9e237bd558bd",
-   "title": "Jazeera Adds Krakow / Prague Service in NW26",
-   "url": "https://www.aeroroutes.com/eng/261008-j9nw26eu",
-   "summary": "Published at 2200PDT 08OCT26 / 0500GMT 09OCT26 Jazeera Airways during Northern winter 2026/27 season plans to launch winter seasonal routes to Krakow and Prague, on board Airbus A320neo aircraft. Kuwait City \u2013 Krakow 16DEC26 \u2013 06FEB27 2 weekly A320neo J9085 KWI0935 \u2013 1250KRK 32N 36 J9086 KRK1335 \u2013 2025KWI 32N 36 Kuwait City \u2013 Prague 17DEC26 \u2013 07FEB27 2 weekly A320neo J9037 KWI0925 \u2013 1305PRG 32N 47",
-   "kind": "item",
-   "source": "AeroRoutes schedule filings",
-   "source_id": "aeroroutes",
-   "tier": 2,
-   "country": "GLOBAL",
-   "category": "aviation-tracker",
-   "segments": [
-    "city",
-    "bush",
-    "beach"
-   ],
-   "first_seen": "2026-10-09T08:05+03:00",
-   "published": "2026-10-09",
-   "verdict": "CONSIDER"
-  },
-  {
-   "score": 70.9,
-   "components": {
-    "tier": 20,
-    "category": 5,
-    "lead": 2.4,
-    "relevance": 16,
-    "freshness": 17.5,
-    "corroborated": 10
-   },
-   "keywords": [
-    "revpar",
-    "hotel",
-    "operator"
-   ],
-   "shock_terms": [],
-   "dedupe_match": null,
-   "dedupe_similarity": 0.0,
-   "id": "41b7fb25fcfd",
-   "title": "Queenstown, Auckland and Christchurch Drive New Zealand Hotel RevPAR Growth in August",
-   "url": "https://www.hotelnewsresource.com/article143263.html",
-   "summary": "Hotels in Queenstown, Auckland, and Christchurch led New Zealand's RevPAR growth in August, signaling strong demand in these key markets and underscoring the significance of location-specific trends for operators and investors.",
-   "kind": "item",
-   "source": "HVS \u2014 market reports and event-impact studies (via Hotel News Resource)",
-   "source_id": "gl-hvs-market-reports",
-   "tier": 2,
-   "country": "GLOBAL",
-   "category": "trade",
-   "segments": [
-    "city"
-   ],
-   "first_seen": "2026-10-09T13:40+03:00",
-   "published": "2026-10-09",
-   "verdict": "CONSIDER"
-  },
-  {
-   "score": 70.4,
-   "components": {
-    "tier": 20,
-    "category": 5,
-    "lead": 3.6,
-    "relevance": 12,
-    "freshness": 19.8,
-    "corroborated": 10
-   },
-   "keywords": [
-    "hotel",
-    "resort",
-    "guest"
-   ],
-   "shock_terms": [],
-   "dedupe_match": null,
-   "dedupe_similarity": 0.14,
-   "id": "14a453237d6b",
-   "title": "How The Claremont turned haunted lore into hotel demand",
-   "url": "https://www.hospitalitynet.org/podcast/4134833/how-the-claremont-turned-haunted-lore-into-hotel-demand",
-   "summary": "Claremont Resort Club's Director of Marketing explains how ghost tour packages, influencer FAM trips, and clean guest data turned a historic property's haunted lore into sold-out October demand.",
-   "kind": "item",
-   "source": "Hospitality Net \u2014 Africa announcements",
-   "source_id": "dev-hospitalitynet-africa",
-   "tier": 2,
-   "country": "REG",
-   "category": "trade",
-   "segments": [
-    "city",
-    "bush",
-    "beach"
-   ],
-   "first_seen": "2026-10-09T15:45+03:00",
-   "published": "2026-10-09",
-   "verdict": "CONSIDER"
-  },
-  {
-   "score": 70.1,
-   "components": {
-    "tier": 40,
-    "category": 7,
-    "lead": 3.6,
-    "relevance": 12,
-    "freshness": 17.5,
-    "undated": -6,
-    "page_change": -4
-   },
-   "keywords": [
-    "vat",
-    "tourism"
-   ],
-   "shock_terms": [],
-   "dedupe_match": null,
-   "dedupe_similarity": 0.2,
-   "id": "1c7fa385d1f2",
-   "title": "[page changed] WTTC news",
-   "url": "https://wttc.org/news",
-   "summary": "Travel & Tourism News and Press Releases | WTTC Travel & Tourism News and Press Releases Below you can find all the latest news and press releases from WTTC. News Below you can find all the latest news and press releases from WTTC. Use the filters to narrow down by language, region and topics that interest you. Filter by: Language Region Topic Clear Loading... 8 Oct 2026 WTTC Celebrates Minister J",
-   "kind": "page-change",
-   "source": "WTTC news",
-   "source_id": "sm-wttc",
-   "tier": 1,
-   "country": "GLOBAL",
-   "category": "body",
-   "segments": [
-    "city",
-    "bush",
-    "beach"
-   ],
-   "first_seen": "2026-10-09T13:39+03:00",
-   "published": null,
-   "verdict": "CONSIDER"
-  },
-  {
-   "score": 69.8,
-   "components": {
-    "tier": 20,
-    "category": 4,
-    "lead": 0.0,
-    "relevance": 16,
-    "freshness": 19.8,
-    "corroborated": 10
-   },
-   "keywords": [
-    "fuel",
-    "capacity"
-   ],
-   "shock_terms": [],
-   "dedupe_match": null,
-   "dedupe_similarity": 0.11,
-   "id": "00ec4062c4b7",
-   "title": "Misugusugu WMA increases its inspection capacity from 8 to 60 tankers per day",
-   "url": "https://dailynews.co.tz/misugusugu-wma-increases-its-inspection-capacity-from-8-to-60-tankers-per-day",
-   "summary": "KIBAHA: THE Misugusugu Weights and Measures Verification Centre, operated by the Weights and Measures Agency (WMA) in Pwani Region, has increased its capacity to inspect fuel tankers from eight to 60 vehicles per day, making it easier for traders and transporters to access services promptly. The centre\u2019s Manager, Mrisho Mandari, said its primary responsibility is \u2026 The post Misugusugu WMA increase",
-   "kind": "item",
-   "source": "Daily News (Tanzania)",
-   "source_id": "np-dailynews-tz",
-   "tier": 2,
-   "country": "TZ",
-   "category": "press",
-   "segments": [
-    "city",
-    "bush",
-    "beach"
-   ],
-   "first_seen": "2026-10-09T15:45+03:00",
-   "published": "2026-10-09",
-   "verdict": "weak"
-  },
-  {
-   "score": 68.1,
-   "components": {
-    "tier": 20,
-    "category": 9,
-    "lead": 3.6,
-    "relevance": 8,
-    "freshness": 17.5,
-    "corroborated": 10
-   },
-   "keywords": [
-    "tourist",
-    "summit"
-   ],
-   "shock_terms": [],
-   "dedupe_match": null,
-   "dedupe_similarity": 0.1,
-   "id": "4c7bcea42eb6",
-   "title": "Dialogtage (+Galerie): Thomas B\u00f6sl \u00fcber Cashback: Wie Giftdeponie f\u00fcr die Branche",
-   "url": "https://www.fvw.de/touristik/vertrieb/dialogtage-thomas-boesl-ueber-cashback-wie-giftdeponie-fuer-die-branche-265176",
-   "summary": "Deutliche Worte beim RTG Summit: R\u00fcckverg\u00fctungen sind f\u00fcr Thomas B\u00f6sl eines der dr\u00e4ngendsten Probleme im Vertrieb. Beim Summit der Raiffeisen Touristik Group (RTG) fordert er die Branche auf, selbst L\u00f6sungen zu entwickeln.",
-   "kind": "item",
-   "source": "FVW / German travel trade",
-   "source_id": "sm-derreise",
-   "tier": 2,
-   "country": "GLOBAL",
-   "category": "source-market",
-   "segments": [
-    "beach",
-    "bush"
-   ],
-   "first_seen": "2026-10-09T13:40+03:00",
-   "published": "2026-10-09",
-   "verdict": "weak"
-  },
-  {
-   "score": 68.1,
-   "components": {
-    "tier": 20,
-    "category": 9,
-    "lead": 3.6,
-    "relevance": 8,
-    "freshness": 17.5,
-    "corroborated": 10
-   },
-   "keywords": [
-    "tourism",
-    "tourist"
-   ],
-   "shock_terms": [],
-   "dedupe_match": null,
-   "dedupe_similarity": 0.0,
-   "id": "c882e6fd4165",
-   "title": "Acht Partner im Schlepptau: Utah l\u00e4dt ein zur Sales Mission f\u00fcr Touristiker",
-   "url": "https://www.fvw.de/counter/verkauf/acht-partner-im-schlepptau-utah-laedt-ein-zur-sales-mission-fuer-touristiker-265165",
-   "summary": "Eine \"virtuelle Sales Mission\" k\u00fcndigt das Utah Office of Tourism an. Und das hei\u00dft: Das Tourismusb\u00fcro des f\u00fcr seine spektakul\u00e4ren Nationalparks bekannten Bundesstaats im S\u00fcdwesten der USA geht diesmal nicht wirklich auf Roadshow durch Deutschland. Was Reiseprofis Anfang November erwartet.",
-   "kind": "item",
-   "source": "FVW / German travel trade",
-   "source_id": "sm-derreise",
-   "tier": 2,
-   "country": "GLOBAL",
-   "category": "source-market",
-   "segments": [
-    "beach",
-    "bush"
-   ],
-   "first_seen": "2026-10-09T13:40+03:00",
-   "published": "2026-10-08",
-   "verdict": "weak"
-  },
-  {
-   "score": 68.1,
-   "components": {
-    "tier": 20,
-    "category": 9,
-    "lead": 3.6,
-    "relevance": 8,
-    "freshness": 17.5,
-    "corroborated": 10
-   },
-   "keywords": [
-    "hotel",
-    "tourist"
-   ],
-   "shock_terms": [],
-   "dedupe_match": null,
-   "dedupe_similarity": 0.11,
-   "id": "fbe4a99d98af",
-   "title": "Schauinsland-Reisen Partner: 20 Touristiker entdecken Hotels und Kultur Tunesiens",
-   "url": "https://www.fvw.de/counter/expi-welt/schauinsland-reisen-partner-20-touristiker-entdecken-hotels-und-kultur-tunesiens-265143",
-   "summary": "20 Kooperationspartnerinnen und Kooperationspartner von Schauinsland-Reisen Partner entdeckten gemeinsam die Destination Tunesien. Der Fam Trip verband Hotelbesichtigungen und Einblicke in Land und Kultur.",
-   "kind": "item",
-   "source": "FVW / German travel trade",
-   "source_id": "sm-derreise",
-   "tier": 2,
-   "country": "GLOBAL",
-   "category": "source-market",
-   "segments": [
-    "beach",
-    "bush"
-   ],
-   "first_seen": "2026-10-09T13:40+03:00",
-   "published": "2026-10-08",
-   "verdict": "weak"
-  },
-  {
-   "score": 67.9,
-   "components": {
-    "tier": 5,
-    "category": 5,
-    "lead": 2.4,
-    "relevance": 28,
-    "freshness": 17.5,
-    "corroborated": 10
-   },
-   "keywords": [
-    "occupancy",
-    "fuel",
-    "hotel",
-    "tourism",
-    "franc"
-   ],
-   "shock_terms": [],
-   "dedupe_match": null,
-   "dedupe_similarity": 0.22,
-   "id": "3166dbd20515",
-   "title": "Poland Along With Italy and Others Boost Valencia Tourism as October Hotel Occupancy Nears 90%",
-   "url": "https://www.travelandtourworld.com/news/article/ze1vy5o2mxy0",
-   "summary": "Poland Along With Italy and Others Boost Valencia Tourism as October Hotel Occupancy Nears 90% Poland, Italy, France and the UK fuel Valencia tourism growth in 2026 as October hotel occupancy nears 90% in Benidorm and Pe\u00f1\u00edscola, Spain's coastal hotspots. The post Poland Along With Italy and Others Boost Valencia Tourism as October Hotel Occupancy Nears 90% appeared first on Travel And Tour World .",
-   "kind": "item",
-   "source": "Travel And Tour World",
-   "source_id": "gl-travelandtourworld",
-   "tier": 3,
-   "country": "GLOBAL",
-   "category": "trade",
-   "segments": [
-    "city",
-    "bush",
-    "beach"
-   ],
-   "first_seen": "2026-10-09T13:40+03:00",
-   "published": "2026-10-09",
-   "verdict": "weak"
   }
  ]
 }
