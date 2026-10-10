@@ -1,5 +1,14 @@
 window.GUIDES = [
  {
+  "slug": "kenya-who-counts-the-beds",
+  "title": "Europe spent six years learning to count its beds. Kenya is proposing to abolish the office that counts.",
+  "description": "The Tourism (Amendment) Bill, 2026 would fold the Tourism Research Institute into the Kenya Tourism Board, moving statistics into a marketing agency in the same year the tourism levy missed its target by a billion shillings because nobody has counted the short-term rentals it was meant to cover. Kenya's headline arrivals figure this month came from the Government Delivery Unit, not from the institute with the statutory mandate to count.",
+  "category": "Big Read",
+  "updated": "2026-10-10",
+  "readMins": 8,
+  "image": "img/editions/kenya-who-counts-the-beds.jpg"
+ },
+ {
   "slug": "kenya-ebola-one-case-two-contagions",
   "title": "Kenya has one Ebola case and two contagions. Only one of them is a virus.",
   "description": "A single imported infection, confirmed on the opening day of Magical Kenya Travel Expo, carries almost no epidemiological risk to visitors and a great deal of commercial risk to the people who host them. The difference is worth understanding before the next one.",
