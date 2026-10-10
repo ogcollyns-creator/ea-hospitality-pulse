@@ -4,6 +4,8 @@ slug: kenya-who-counts-the-beds
 description: The Tourism (Amendment) Bill, 2026 would fold the Tourism Research Institute into the Kenya Tourism Board, moving statistics into a marketing agency in the same year the tourism levy missed its target by a billion shillings because nobody has counted the short-term rentals it was meant to cover. Kenya's headline arrivals figure this month came from the Government Delivery Unit, not from the institute with the statutory mandate to count.
 category: Big Read
 updated: 2026-10-10
+image: "img/editions/kenya-who-counts-the-beds.jpg"
+image_credit: "Photograph: Onyango George / EA Hospitality Pulse"
 ---
 Eurostat published a number on 2 October that no East African statistics office could currently produce. Guests spent 258.8 million nights in short-term rental accommodation across the European Union between April and June, booked through the largest online platforms. That was 5.3 per cent more than the same quarter of 2025, an increase of 13.1 million nights, and roughly 50 million nights more than the same quarter of 2024, almost a quarter higher in two years. Growth had slowed from the 10 per cent recorded in the first quarter, which is itself a finding only a series can deliver.
 
