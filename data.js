@@ -1,5 +1,14 @@
 window.EDITIONS = [
  {
+  "id": "pulse-2026-10-10-evening",
+  "date": "2026-10-10",
+  "dateDisplay": "Saturday, 10 October 2026",
+  "edition": "Evening Wrap",
+  "editionKey": "evening",
+  "summary": "Kenya's US$44 visitor health insurance is enforceable, and our rules board had it wrong",
+  "bodyHtml": "<p><strong>Kenya&#x27;s US$44 visitor health insurance is now enforceable after the High Court dismissed the challenge on 7 October</strong><br><em>🌆 Evening Wrap · Sat 10 Oct 2026</em></p>\n<p>━━━━━━━━━<br><span class=\"item-head\">1️⃣ Kenya&#x27;s US$44 visitor health insurance is enforceable, and our rules board had it wrong</span></p>\n<p>⏳ Catching up: we missed this on 7–9 Oct and showed the rule as suspended.<br>Justice Olel at the High Court in Marsabit dismissed the petition on 7 Oct, holding Gazette Notice 11492 (30 Jul) valid <strong>(Eastleigh Voice, 7 Oct; Court Helicopter, 9 Oct)</strong>. The UK FCDO now says eTA applicants must buy travel health insurance from 5 Oct <strong>(FCDO Kenya, updated 9 Oct)</strong>. The portal sells a US$44 policy (US$52 at VisasNews&#x27;s test checkout), also bought at insurance.ecitizen.go.ke <strong>(VisasNews, 7 Oct)</strong>. Unresolved: foreign policies, older ETAs, any appeal.<br>Our inference: a Kenya–Tanzania itinerary now carries two US$44 charges, as Tanzania mainland has required one since 1 Oct.<br><span class=\"sowhat\">🎯 So what: stop quoting Kenya packages without it. Add a US$44 per-guest line, tell agents to buy before travel, and price it into 2027 net rates.</span><br><span class=\"tagline\">🏷 City, Bush, Beach | Kenya | Confirmed | impact:demand</span></p>\n<p><span class=\"item-head\">2️⃣ Kenya&#x27;s Public Health PS has suspended all government meetings and seminars in hotels</span></p>\n<p>A memo from PS Mary Muthoni dated 7 Oct suspends them &quot;with immediate effect&quot; and &quot;until further notice&quot;; exceptions need her office&#x27;s approval <strong>(Kenyans.co.ke, 10 Oct)</strong>. No booking count is published. The contact picture moved too: Health CS Duale said 57 contacts were identified and 66 were being quarantined at the National Police Service Hospital, and Jambojet supplied 23 passengers and four crew <strong>(Citizen Digital, 8 Oct)</strong>. That supersedes our &quot;10 quarantined&quot; line. Africa CDC says he crossed into Uganda by road and flew Jambojet on 3 Oct <strong>(Africa CDC via AP, in Kenyans.co.ke, 10 Oct)</strong>.<br>Our inference: the memo covers government events only; private corporate meetings are not mentioned.<br><span class=\"sowhat\">🎯 So what: if a ministry or state agency holds a block with you, get cancel, move or hold in writing and check your force-majeure clause before the next block date.</span><br><span class=\"tagline\">🏷 City | Kenya | Reported | impact:demand</span></p>\n<p><span class=\"item-head\">3️⃣ KPC&#x27;s oil workers have served a seven-day strike notice, and talks began 9 Oct</span></p>\n<p>The Kenya Petroleum Oil Workers Union (George Okoth) cites collective-agreement terms, allowances and restructuring. KPC says talks are under way with the Federation of Kenya Employers <strong>(Kenyans.co.ke, 10 Oct)</strong>. The notice date and expiry are not published. A strike would delay deliveries nationwide. EPRA&#x27;s review is due 14 Oct.<br><span class=\"sowhat\">🎯 So what: lodges on generators and long transfers should hold a 7–10 day diesel buffer before 14 Oct. That is our judgment, not a KPC warning.</span><br><span class=\"tagline\">🏷 City, Bush, Beach | Kenya | Reported | impact:risk</span></p>\n<p><strong>🏗 DEAL FLOW:</strong> No verified EA deal flow in the window.</p>\n<p><strong>📻 ALSO TONIGHT</strong><br>🇺🇸 No CDC extension of the DRC, Uganda and South Sudan entry order appears in the Federal Register&#x27;s latest CDC listing; the order lapses Sun 11 Oct <strong>(federalregister.gov, 10 Oct)</strong>.<br>💉 A Bundibugyo candidate vaccine has entered a new trial phase in Uganda, Africa CDC said on Thu 8 Oct <strong>(Xinhua via The Independent, 10 Oct)</strong>.</p>\n<p><strong>⏳ CATCHING UP</strong> 🇺🇬 Uganda no longer lists a yellow fever certificate among entry requirements on its e-visa portal; effective date not stated <strong>(The EastAfrican, 2 Oct)</strong>.</p>\n<p><strong>📅 WEEK AHEAD</strong> US order lapses Sun 11 Oct; Kenya bill comments close Tue 13 Oct; EPRA review 14 Oct.</p>\n<p>🔗 This edition on the web: <a href=\"https://eahospitalitypulse.com/editions/pulse-2026-10-10-evening.html\" rel=\"noopener\">eahospitalitypulse.com/editions/pulse-2026-10-10-evenin…</a></p>"
+ },
+ {
   "id": "pulse-2026-10-09-evening",
   "date": "2026-10-09",
   "dateDisplay": "Friday, 9 October 2026",
@@ -1162,6 +1171,67 @@ window.EDITIONS = [
  }
 ];
 window.INSIGHTS = [
+ {
+  "headline": "Kenya's US$44 visitor health insurance is enforceable, and our rules board had it wrong",
+  "body": "⏳ Catching up: we missed this on 7–9 Oct and showed the rule as suspended. Justice Olel at the High Court in Marsabit dismissed the petition on 7 Oct, holding Gazette Notice 11492 (30 Jul) valid *(Eastleigh Voice, 7 Oct; Court Helicopter, 9 Oct)*. The UK FCDO now says eTA applicants must buy travel health insurance from 5 Oct *(FCDO Kenya, updated 9 Oct)*. The portal sells a US$44 policy (US$52 at VisasNews's test checkout), also bought at insurance.ecitizen.go.ke *(VisasNews, 7 Oct)*. Unresolved: foreign policies, older ETAs, any appeal. Our inference: a Kenya–Tanzania itinerary now carries two US$44 charges, as Tanzania mainland has required one since 1 Oct.",
+  "sowhat": "🎯 So what: stop quoting Kenya packages without it. Add a US$44 per-guest line, tell agents to buy before travel, and price it into 2027 net rates.",
+  "segments": [
+   "city",
+   "bush",
+   "beach"
+  ],
+  "countries": "Kenya",
+  "confidence": "Confirmed",
+  "impact": "+demand",
+  "impactClass": "demand",
+  "intensity": 3,
+  "impactSet": "author",
+  "source": "pulse-2026-10-10-evening",
+  "date": "2026-10-10",
+  "dateDisplay": "Saturday, 10 October 2026",
+  "edition": "Evening Wrap",
+  "editionKey": "evening"
+ },
+ {
+  "headline": "Kenya's Public Health PS has suspended all government meetings and seminars in hotels",
+  "body": "A memo from PS Mary Muthoni dated 7 Oct suspends them \"with immediate effect\" and \"until further notice\"; exceptions need her office's approval *(Kenyans.co.ke, 10 Oct)*. No booking count is published. The contact picture moved too: Health CS Duale said 57 contacts were identified and 66 were being quarantined at the National Police Service Hospital, and Jambojet supplied 23 passengers and four crew *(Citizen Digital, 8 Oct)*. That supersedes our \"10 quarantined\" line. Africa CDC says he crossed into Uganda by road and flew Jambojet on 3 Oct *(Africa CDC via AP, in Kenyans.co.ke, 10 Oct)*. Our inference: the memo covers government events only; private corporate meetings are not mentioned.",
+  "sowhat": "🎯 So what: if a ministry or state agency holds a block with you, get cancel, move or hold in writing and check your force-majeure clause before the next block date.",
+  "segments": [
+   "city"
+  ],
+  "countries": "Kenya",
+  "confidence": "Reported",
+  "impact": "+demand",
+  "impactClass": "demand",
+  "intensity": 2,
+  "impactSet": "author",
+  "source": "pulse-2026-10-10-evening",
+  "date": "2026-10-10",
+  "dateDisplay": "Saturday, 10 October 2026",
+  "edition": "Evening Wrap",
+  "editionKey": "evening"
+ },
+ {
+  "headline": "KPC's oil workers have served a seven-day strike notice, and talks began 9 Oct",
+  "body": "The Kenya Petroleum Oil Workers Union (George Okoth) cites collective-agreement terms, allowances and restructuring. KPC says talks are under way with the Federation of Kenya Employers *(Kenyans.co.ke, 10 Oct)*. The notice date and expiry are not published. A strike would delay deliveries nationwide. EPRA's review is due 14 Oct.",
+  "sowhat": "🎯 So what: lodges on generators and long transfers should hold a 7–10 day diesel buffer before 14 Oct. That is our judgment, not a KPC warning.",
+  "segments": [
+   "city",
+   "bush",
+   "beach"
+  ],
+  "countries": "Kenya",
+  "confidence": "Reported",
+  "impact": "risk",
+  "impactClass": "risk",
+  "intensity": 2,
+  "impactSet": "author",
+  "source": "pulse-2026-10-10-evening",
+  "date": "2026-10-10",
+  "dateDisplay": "Saturday, 10 October 2026",
+  "edition": "Evening Wrap",
+  "editionKey": "evening"
+ },
  {
   "headline": "Wajir is cleared, and Kenya's count stays at one",
   "body": "Health CS Duale said the Wajir patient tested negative for Ebola and positive for malaria, and was put on antimalarials on Thursday night. Kenya's only confirmed case is the Kenyan who lived in the DRC for seven years and died at Nairobi Hospital on 6 Oct. Entry-point screening continues; the hotline is 719 *(Capital FM, 9 Oct)*. The 57 listed contacts and 10 quarantined date from 7 Oct; no newer count is published *(Reuters via Monitor, 7 Oct)*. That report also showed the man passed temperature checks at Entebbe and Nairobi, so the scrutiny now falls on screening, not borders.",
@@ -6474,4 +6544,4 @@ window.INSIGHTS = [
   "editionKey": "evening"
  }
 ];
-window.BUILT_AT = "2026-10-10 07:03";
+window.BUILT_AT = "2026-10-10 20:50";
