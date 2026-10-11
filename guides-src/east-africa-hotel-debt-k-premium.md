@@ -4,8 +4,9 @@ slug: east-africa-hotel-debt-k-premium
 description: Kenya has cut its policy rate by 425 basis points and the average commercial lending rate has stalled at 14.4 per cent. Since 28 February every variable shilling loan has been priced off a common base rate, which means the whole of the difference between a hotel paying 11 per cent and one paying 18 per cent now sits in a premium each bank sets borrower by borrower. For East African hospitality, the cost of capital has stopped being a monetary story and become a documentation one.
 category: Big Read
 updated: 2026-10-11
+image: "img/editions/east-africa-hotel-debt-k-premium.jpg"
+image_credit: "Photograph: Onyango George / EA Hospitality Pulse"
 ---
-
 The Central Bank of Kenya released its decision on a Wednesday afternoon in the flat institutional prose these documents always use. "The Monetary Policy Committee (MPC) decided to maintain the Central Bank Rate (CBR) at 8.75 percent," it read, and a little further down, reassuringly, "The banking sector remains stable and resilient, supported by adequate capital and liquidity buffers." The date was 7 October. The committee will not meet again until December.
 
 Two days later in Dar es Salaam the Bank of Tanzania did the same thing at a different number. Governor Emmanuel Tutuba told reporters that "the 6.25 per cent Central Bank Rate is appropriate because it is continuing to dampen underlying inflationary pressures." Isabella Maganga, managing director of Equity Bank Tanzania, speaking for the bankers' association, supplied the expected verdict: "This translates to confidence and resilience of our economy." In Kampala the Bank of Uganda has been holding at 9.75 per cent, its governor Michael Atingi-Ego warning in August that "the risk that higher food, fuel, and other input prices will translate into a broad-based increase in inflation persists."
