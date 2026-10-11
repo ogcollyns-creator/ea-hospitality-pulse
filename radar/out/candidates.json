@@ -1,18 +1,61 @@
 {
- "generated": "2026-10-11T15:17:50+03:00",
- "slot": "midday",
- "window_start": 1791691200,
- "observations_in_window": 295,
- "deduped_against": 24,
+ "generated": "2026-10-11T18:45:56+03:00",
+ "slot": "evening",
+ "window_start": 1791633600,
+ "observations_in_window": 789,
+ "deduped_against": 29,
  "candidates": [
   {
-   "score": 109.4,
+   "score": 134.9,
+   "components": {
+    "tier": 40,
+    "category": 32,
+    "lead": 1.2,
+    "relevance": 48,
+    "freshness": 1.7,
+    "undated": -6,
+    "shock": 18
+   },
+   "keywords": [
+    "terror",
+    "kidnap",
+    "suspend",
+    "level 4"
+   ],
+   "shock_terms": [
+    "level 4",
+    "do not travel",
+    "attack"
+   ],
+   "dedupe_match": null,
+   "dedupe_similarity": 0.38,
+   "id": "dd9c92c3d052",
+   "title": "Yemen - Level 4: Do Not Travel",
+   "url": "https://travel.state.gov/content/tsg_aem/us/en/home/international-travel/travel-advisories/destination.yem.html",
+   "summary": "Do not travel in Yemen due to risk of terrorism , unrest , crime , health risks , kidnapping , and landmines . Do not travel to Yemen for any reason, including the island of Socotra. The U.S. Embassy in Sana\u2019a suspended its operations in February 2015. The U.S. government cannot offer emergency services to U.S. citizens in Yemen due to the safety risks. Terrorism The Department of State re-designa",
+   "kind": "item",
+   "source": "US State Dept travel advisories (EA feed)",
+   "source_id": "adv-us-ea",
+   "tier": 1,
+   "country": "REG",
+   "category": "advisory",
+   "segments": [
+    "city",
+    "bush",
+    "beach"
+   ],
+   "first_seen": "2026-10-11T02:19+03:00",
+   "published": null,
+   "verdict": "LEAD CANDIDATE \u2014 tier-1 shock language"
+  },
+  {
+   "score": 105.5,
    "components": {
     "tier": 40,
     "category": 32,
     "lead": 12.0,
     "relevance": 8,
-    "freshness": 11.4,
+    "freshness": 7.5,
     "corroborated": 10,
     "page_change": -4
    },
@@ -41,13 +84,13 @@
    "verdict": "OPEN THIS \u2014 tier-1 advisory page moved; content not auto-parsed, read it manually"
   },
   {
-   "score": 56.9,
+   "score": 53.1,
    "components": {
     "tier": 40,
     "category": 12,
     "lead": 3.6,
     "relevance": 0,
-    "freshness": 11.3,
+    "freshness": 7.5,
     "undated": -6,
     "page_change": -4
    },
@@ -75,13 +118,220 @@
    "verdict": "OPEN THIS \u2014 tier-1 airline page moved; content not auto-parsed, read it manually"
   },
   {
-   "score": 93.8,
+   "score": 45.6,
+   "components": {
+    "tier": 40,
+    "category": 12,
+    "lead": 3.6,
+    "relevance": 0,
+    "freshness": 0.0,
+    "undated": -6,
+    "page_change": -4
+   },
+   "keywords": [],
+   "shock_terms": [],
+   "dedupe_match": null,
+   "dedupe_similarity": 0.0,
+   "id": "89f9d2734d24",
+   "title": "[page changed] Airlink news",
+   "url": "https://www.flyairlink.com/",
+   "summary": "Request unsuccessful. Incapsula incident ID: 471000070127821157-7467986085937631",
+   "kind": "page-change",
+   "source": "Airlink news",
+   "source_id": "air-airlink",
+   "tier": 1,
+   "country": "REG",
+   "category": "airline",
+   "segments": [
+    "city",
+    "bush",
+    "beach"
+   ],
+   "first_seen": "2026-10-10T15:03+03:00",
+   "published": null,
+   "verdict": "OPEN THIS \u2014 tier-1 airline page moved; content not auto-parsed, read it manually"
+  },
+  {
+   "score": 96.2,
+   "components": {
+    "tier": 20,
+    "category": 14,
+    "lead": 8.4,
+    "relevance": 24,
+    "freshness": 19.8,
+    "corroborated": 10
+   },
+   "keywords": [
+    "route",
+    "seat",
+    "airline",
+    "franc"
+   ],
+   "shock_terms": [],
+   "dedupe_match": null,
+   "dedupe_similarity": 0.11,
+   "id": "551fdd6da7b0",
+   "title": "Alaska Adds Cathay Pacific Hong Kong Codeshare From mid-Oct 2026",
+   "url": "https://www.aeroroutes.com/eng/261011-ascxcodeshare",
+   "summary": "Published at 0400PDT / 1100GMT 11OCT26 Alaska Airlines this week plans to expand codeshare partnership with Cathay Pacific, covering the latter\u2019s service between West Coast US and Hong Kong. Following codeshare routes to commence on 15OCT26. Alaska Airlines operated by Cathay Pacific Hong Kong \u2013 Los Angeles Hong Kong \u2013 San Francisco Hong Kong \u2013 Seattle",
+   "kind": "item",
+   "source": "AeroRoutes schedule filings",
+   "source_id": "aeroroutes",
+   "tier": 2,
+   "country": "GLOBAL",
+   "category": "aviation-tracker",
+   "segments": [
+    "city",
+    "bush",
+    "beach"
+   ],
+   "first_seen": "2026-10-11T18:44+03:00",
+   "published": "2026-10-11",
+   "verdict": "CONSIDER"
+  },
+  {
+   "score": 96.2,
+   "components": {
+    "tier": 40,
+    "category": 24,
+    "lead": 2.4,
+    "relevance": 0,
+    "freshness": 19.8,
+    "corroborated": 10
+   },
+   "keywords": [],
+   "shock_terms": [],
+   "dedupe_match": null,
+   "dedupe_similarity": 0.17,
+   "id": "20410e7cb99a",
+   "title": "SitRep N\u00b0148 /MVE-BDBV/09/10/2026",
+   "url": "https://insp.cd/sitrep-n148-mve-bdbv-09-10-2026",
+   "summary": "",
+   "kind": "item",
+   "source": "INSP RDC \u2014 Ebola daily situation reports (SitRep)",
+   "source_id": "cd-insp-sitrep",
+   "tier": 1,
+   "country": "GLOBAL",
+   "category": "health",
+   "segments": [
+    "City",
+    "Bush"
+   ],
+   "first_seen": "2026-10-11T18:43+03:00",
+   "published": "2026-10-11",
+   "verdict": "STRONG \u2014 tier-1, upstream"
+  },
+  {
+   "score": 96.2,
+   "components": {
+    "tier": 40,
+    "category": 24,
+    "lead": 2.4,
+    "relevance": 0,
+    "freshness": 19.8,
+    "corroborated": 10
+   },
+   "keywords": [],
+   "shock_terms": [],
+   "dedupe_match": null,
+   "dedupe_similarity": 0.17,
+   "id": "811884834109",
+   "title": "SitRep N\u00b0147 /MVE-BDBV/08/10/2026",
+   "url": "https://insp.cd/sitrep-n147-mve-bdbv-08-10-2026",
+   "summary": "",
+   "kind": "item",
+   "source": "INSP RDC \u2014 Ebola daily situation reports (SitRep)",
+   "source_id": "cd-insp-sitrep",
+   "tier": 1,
+   "country": "GLOBAL",
+   "category": "health",
+   "segments": [
+    "City",
+    "Bush"
+   ],
+   "first_seen": "2026-10-11T18:43+03:00",
+   "published": "2026-10-11",
+   "verdict": "STRONG \u2014 tier-1, upstream"
+  },
+  {
+   "score": 96.2,
+   "components": {
+    "tier": 40,
+    "category": 24,
+    "lead": 2.4,
+    "relevance": 0,
+    "freshness": 19.8,
+    "corroborated": 10
+   },
+   "keywords": [],
+   "shock_terms": [],
+   "dedupe_match": null,
+   "dedupe_similarity": 0.17,
+   "id": "d0057f0b4f65",
+   "title": "SitRep N\u00b0146 /MVE-BDBV/07/10/2026",
+   "url": "https://insp.cd/sitrep-n146-mve-bdbv-07-10-2026-2",
+   "summary": "",
+   "kind": "item",
+   "source": "INSP RDC \u2014 Ebola daily situation reports (SitRep)",
+   "source_id": "cd-insp-sitrep",
+   "tier": 1,
+   "country": "GLOBAL",
+   "category": "health",
+   "segments": [
+    "City",
+    "Bush"
+   ],
+   "first_seen": "2026-10-11T18:43+03:00",
+   "published": "2026-10-11",
+   "verdict": "STRONG \u2014 tier-1, upstream"
+  },
+  {
+   "score": 90.2,
+   "components": {
+    "tier": 20,
+    "category": 4,
+    "lead": 2.4,
+    "relevance": 16,
+    "freshness": 19.8,
+    "corroborated": 10,
+    "shock": 18
+   },
+   "keywords": [
+    "diesel",
+    "strike"
+   ],
+   "shock_terms": [
+    "strike"
+   ],
+   "dedupe_match": null,
+   "dedupe_similarity": 0.12,
+   "id": "bdf2468a7e67",
+   "title": "Trump calls for replacing Ukraine's Zelenskiy in tussle over diesel deal with Russia",
+   "url": "https://nation.africa/kenya/news/world/trump-calls-for-replacing-ukraine-s-zelenskiy-in-tussle-over-diesel-deal-with-russia-5627848",
+   "summary": "Trump criticised Ukraine\u2019s strikes on Russian refineries after announcing a diesel deal with...",
+   "kind": "item",
+   "source": "Nation Africa: Kenya business",
+   "source_id": "ke-nation-business",
+   "tier": 2,
+   "country": "KE",
+   "category": "press",
+   "segments": [
+    "city",
+    "bush",
+    "beach"
+   ],
+   "first_seen": "2026-10-11T18:44+03:00",
+   "published": "2026-10-11",
+   "verdict": "CONSIDER"
+  },
+  {
+   "score": 90.0,
    "components": {
     "tier": 5,
     "category": 5,
     "lead": 2.4,
     "relevance": 36,
-    "freshness": 17.4,
+    "freshness": 13.6,
     "corroborated": 10,
     "shock": 18
    },
@@ -116,13 +366,52 @@
    "verdict": "CONSIDER"
   },
   {
-   "score": 91.8,
+   "score": 89.2,
+   "components": {
+    "tier": 20,
+    "category": 5,
+    "lead": 2.4,
+    "relevance": 32,
+    "freshness": 19.8,
+    "corroborated": 10
+   },
+   "keywords": [
+    "arrivals",
+    "route",
+    "capacity",
+    "tourism",
+    "franc"
+   ],
+   "shock_terms": [],
+   "dedupe_match": null,
+   "dedupe_similarity": 0.4,
+   "id": "ad9b1e5b8db9",
+   "title": "Air France expands Nairobi capacity as Kenya tourism demand grows",
+   "url": "https://katakenya.org/air-france-expands-nairobi-capacity-as-kenya-tourism-demand-grows",
+   "summary": "Air France has increased Paris-Nairobi capacity by about 12 per cent through larger aircraft as Kenya records higher visitor arrivals. Air France-KLM regional general manager Joris Holtus links the expansion to stronger tourism demand and spending. Air France has increased capacity on its Paris-Nairobi route by about 12 per cent as rising visitor arrivals strengthen [\u2026]",
+   "kind": "item",
+   "source": "Kenya Association of Travel Agents news",
+   "source_id": "tp-kata",
+   "tier": 2,
+   "country": "KE",
+   "category": "trade",
+   "segments": [
+    "city",
+    "bush",
+    "beach"
+   ],
+   "first_seen": "2026-10-11T18:44+03:00",
+   "published": "2026-10-11",
+   "verdict": "CONSIDER"
+  },
+  {
+   "score": 88.0,
    "components": {
     "tier": 20,
     "category": 4,
     "lead": 0.0,
     "relevance": 20,
-    "freshness": 19.8,
+    "freshness": 16.0,
     "corroborated": 10,
     "shock": 18
    },
@@ -155,13 +444,51 @@
    "verdict": "CONSIDER"
   },
   {
-   "score": 89.8,
+   "score": 86.2,
+   "components": {
+    "tier": 20,
+    "category": 4,
+    "lead": 2.4,
+    "relevance": 12,
+    "freshness": 19.8,
+    "corroborated": 10,
+    "shock": 18
+   },
+   "keywords": [
+    "outbreak"
+   ],
+   "shock_terms": [
+    "outbreak"
+   ],
+   "dedupe_match": null,
+   "dedupe_similarity": 0.25,
+   "id": "dbc44730eea0",
+   "title": "Kenya Plans New State Agency to Handle Disease Outbreaks",
+   "url": "https://www.kenyans.co.ke/news/127771-kenya-moves-establish-national-centre-disease-control-and-prevention",
+   "summary": "The centre could likely be similar to the United States' Centres for Disease Control (CDC), which has a global footprint in matters of health and disease outbreaks.",
+   "kind": "item",
+   "source": "Kenyans.co.ke news",
+   "source_id": "ke-kenyans",
+   "tier": 2,
+   "country": "KE",
+   "category": "press",
+   "segments": [
+    "city",
+    "bush",
+    "beach"
+   ],
+   "first_seen": "2026-10-11T18:44+03:00",
+   "published": "2026-10-11",
+   "verdict": "CONSIDER"
+  },
+  {
+   "score": 86.0,
    "components": {
     "tier": 20,
     "category": 14,
     "lead": 8.4,
     "relevance": 20,
-    "freshness": 17.4,
+    "freshness": 13.6,
     "corroborated": 10
    },
    "keywords": [
@@ -192,13 +519,52 @@
    "verdict": "CONSIDER"
   },
   {
-   "score": 87.8,
+   "score": 85.2,
+   "components": {
+    "tier": 20,
+    "category": 5,
+    "lead": 2.4,
+    "relevance": 28,
+    "freshness": 19.8,
+    "corroborated": 10
+   },
+   "keywords": [
+    "fuel",
+    "route",
+    "airline",
+    "flight",
+    "passenger"
+   ],
+   "shock_terms": [],
+   "dedupe_match": null,
+   "dedupe_similarity": 0.18,
+   "id": "96bbcb5c244f",
+   "title": "East African airlines set to cut flight times and fuel costs with direct routes",
+   "url": "https://katakenya.org/east-african-airlines-set-to-cut-flight-times-and-fuel-costs-with-direct-routes",
+   "summary": "Airlines flying across East Africa could soon be able to take more direct routes through the region\u2019s airspace, potentially cutting flight times, fuel consumption and operating costs \u2013 savings that could eventually help ease pressure on passenger fares. Aviation authorities and airlines are working towards wider adoption of Free Route Airspace (FRA) and User Preferred [\u2026]",
+   "kind": "item",
+   "source": "Kenya Association of Travel Agents news",
+   "source_id": "tp-kata",
+   "tier": 2,
+   "country": "KE",
+   "category": "trade",
+   "segments": [
+    "city",
+    "bush",
+    "beach"
+   ],
+   "first_seen": "2026-10-11T18:44+03:00",
+   "published": "2026-10-11",
+   "verdict": "CONSIDER"
+  },
+  {
+   "score": 84.0,
    "components": {
     "tier": 20,
     "category": 4,
     "lead": 2.4,
     "relevance": 16,
-    "freshness": 17.4,
+    "freshness": 13.6,
     "corroborated": 10,
     "shock": 18
    },
@@ -232,13 +598,51 @@
    "verdict": "CONSIDER"
   },
   {
-   "score": 85.8,
+   "score": 82.2,
+   "components": {
+    "tier": 20,
+    "category": 4,
+    "lead": 2.4,
+    "relevance": 8,
+    "freshness": 19.8,
+    "corroborated": 10,
+    "shock": 18
+   },
+   "keywords": [
+    "strike"
+   ],
+   "shock_terms": [
+    "strike"
+   ],
+   "dedupe_match": null,
+   "dedupe_similarity": 0.08,
+   "id": "92da848a0e02",
+   "title": "Court strikes out magistrate\u2019s petition against Chief Justice Koome",
+   "url": "https://nation.africa/kenya/news/court-strikes-out-magistrate-s-petition-against-chief-justice-koome-5627758",
+   "summary": "The magistrate was seeking to halt disciplinary proceedings against her.",
+   "kind": "item",
+   "source": "Nation Africa: Kenya business",
+   "source_id": "ke-nation-business",
+   "tier": 2,
+   "country": "KE",
+   "category": "press",
+   "segments": [
+    "city",
+    "bush",
+    "beach"
+   ],
+   "first_seen": "2026-10-11T18:44+03:00",
+   "published": "2026-10-11",
+   "verdict": "CONSIDER"
+  },
+  {
+   "score": 82.0,
    "components": {
     "tier": 20,
     "category": 14,
     "lead": 8.4,
     "relevance": 16,
-    "freshness": 17.4,
+    "freshness": 13.6,
     "corroborated": 10
    },
    "keywords": [
@@ -282,6 +686,152 @@
    "shock_terms": [],
    "dedupe_match": null,
    "dedupe_similarity": 0.2,
+   "id": "84a8900ab9c7",
+   "title": "[page changed] Federal Register \u2014 public inspection (HHS/CDC), pre-publication",
+   "url": "https://www.federalregister.gov/api/v1/public-inspection-documents/current.json",
+   "summary": "{\"count\":108,\"results\":[{\"agencies\":[{\"raw_name\":\"Federal Aviation Administration\",\"name\":\"Federal Aviation Administration\",\"id\":159,\"url\":\"https://www.federalregister.gov/agencies/federal-aviation-administration\",\"json_url\":\"https://www.federalregister.gov/api/v1/agencies/159\",\"parent_id\":492,\"slug\":\"federal-aviation-administration\"}],\"agency_letters\":[],\"agency_names\":[\"Federal Aviation Administ",
+   "kind": "page-change",
+   "source": "Federal Register \u2014 public inspection (HHS/CDC), pre-publication",
+   "source_id": "us-fedreg-pubinspect-hhs",
+   "tier": 1,
+   "country": "REG",
+   "category": "advisory",
+   "segments": [
+    "city",
+    "bush"
+   ],
+   "first_seen": "2026-10-11T18:43+03:00",
+   "published": "2026-10-08",
+   "verdict": "CHECK \u2014 source date older than the window"
+  },
+  {
+   "score": 80.2,
+   "components": {
+    "tier": 20,
+    "category": 4,
+    "lead": 2.4,
+    "relevance": 24,
+    "freshness": 19.8,
+    "corroborated": 10
+   },
+   "keywords": [
+    "ebola",
+    "quarantine"
+   ],
+   "shock_terms": [],
+   "dedupe_match": null,
+   "dedupe_similarity": 0.38,
+   "id": "ef5ee3f7b18b",
+   "title": "Duale Issues Update on Ebola After Quarantine of Over 100 Kenyans",
+   "url": "https://www.kenyans.co.ke/news/127777-ministry-health-confirms-all-122-ebola-contacts-traced",
+   "summary": "Kenya reported its first case of the imported Ebola virus in October 6, after the individual traveled from DRC via Uganda.",
+   "kind": "item",
+   "source": "Kenyans.co.ke news",
+   "source_id": "ke-kenyans",
+   "tier": 2,
+   "country": "KE",
+   "category": "press",
+   "segments": [
+    "city",
+    "bush",
+    "beach"
+   ],
+   "first_seen": "2026-10-11T18:44+03:00",
+   "published": "2026-10-11",
+   "verdict": "CONSIDER"
+  },
+  {
+   "score": 79.8,
+   "components": {
+    "tier": 20,
+    "category": 4,
+    "lead": 0.0,
+    "relevance": 8,
+    "freshness": 19.8,
+    "corroborated": 10,
+    "shock": 18
+   },
+   "keywords": [
+    "strike"
+   ],
+   "shock_terms": [
+    "strike"
+   ],
+   "dedupe_match": null,
+   "dedupe_similarity": 0.14,
+   "id": "f25c7ecb9f16",
+   "title": "NBC adds spark to Kariakoo Derby as Simba\u2019s Mpanzu claims Player of the Match award",
+   "url": "https://dailynews.co.tz/nbc-adds-spark-to-kariakoo-derby-as-simbas-mpanzu-claims-player-of-the-match-award",
+   "summary": "DAR ES SALAAM: Simba SC claimed a hard-fought 2\u20131 victory over arch-rivals Yanga SC in a pulsating Kariakoo Derby at Uhuru Stadium yesterday, with Simba striker Elie Mpanzu earning the Player of the Match award in a fixture that once again showcased the passion, rivalry and excitement of Tanzanian football. The highly anticipated NBC Premier \u2026 The post NBC adds spark to Kariakoo Derby as Simba\u2019s M",
+   "kind": "item",
+   "source": "Daily News (Tanzania)",
+   "source_id": "np-dailynews-tz",
+   "tier": 2,
+   "country": "TZ",
+   "category": "press",
+   "segments": [
+    "city",
+    "bush",
+    "beach"
+   ],
+   "first_seen": "2026-10-11T18:44+03:00",
+   "published": "2026-10-11",
+   "verdict": "CONSIDER"
+  },
+  {
+   "score": 78.0,
+   "components": {
+    "tier": 20,
+    "category": 4,
+    "lead": 0.0,
+    "relevance": 44,
+    "freshness": 0.0,
+    "corroborated": 10
+   },
+   "keywords": [
+    "advisory",
+    "collapse",
+    "route",
+    "gorilla",
+    "tourism"
+   ],
+   "shock_terms": [],
+   "dedupe_match": null,
+   "dedupe_similarity": 0.2,
+   "id": "2df62e02f4d6",
+   "title": "River Mucha Bridge collapses, disruption hits Kisoro\u2013Bwindi tourism route",
+   "url": "https://www.monitor.co.ug/uganda/news/national/river-mucha-bridge-collapses-disruption-hits-kisoro-bwindi-tourism-route-5626880",
+   "summary": "Ministry issues travel advisory after bridge collapse cuts off Bwindi gorilla sectors",
+   "kind": "item",
+   "source": "Daily Monitor (Uganda)",
+   "source_id": "np-monitor-ug",
+   "tier": 2,
+   "country": "UG",
+   "category": "press",
+   "segments": [
+    "city",
+    "bush",
+    "beach"
+   ],
+   "first_seen": "2026-10-10T18:25+03:00",
+   "published": "2026-10-10",
+   "verdict": "CONSIDER"
+  },
+  {
+   "score": 77.6,
+   "components": {
+    "tier": 40,
+    "category": 32,
+    "lead": 3.6,
+    "relevance": 0,
+    "freshness": 16.0,
+    "stale_trap": -10,
+    "page_change": -4
+   },
+   "keywords": [],
+   "shock_terms": [],
+   "dedupe_match": null,
+   "dedupe_similarity": 0.2,
    "id": "61ebd5fb4cbb",
    "title": "[page changed] Federal Register \u2014 public inspection (HHS/CDC), pre-publication",
    "url": "https://www.federalregister.gov/api/v1/public-inspection-documents/current.json",
@@ -301,13 +851,88 @@
    "verdict": "CHECK \u2014 source date older than the window"
   },
   {
-   "score": 79.0,
+   "score": 77.2,
+   "components": {
+    "tier": 20,
+    "category": 5,
+    "lead": 2.4,
+    "relevance": 20,
+    "freshness": 19.8,
+    "corroborated": 10
+   },
+   "keywords": [
+    "route",
+    "airline",
+    "flight",
+    "investment"
+   ],
+   "shock_terms": [],
+   "dedupe_match": null,
+   "dedupe_similarity": 0.2,
+   "id": "2d012b564af6",
+   "title": "Emirates to deploy A350 on Nairobi\u2013Dubai route from October 25",
+   "url": "https://katakenya.org/emirates-to-deploy-a350-on-nairobi-dubai-route-from-october-25",
+   "summary": "Emirates will deploy its Airbus A350 on the Nairobi-Dubai route from October 25, introducing Premium Economy to the Kenyan market for the first time as the Gulf carrier steps up investment in one of its key African routes. The new-generation aircraft will operate flights EK717 and EK718, one of the airline\u2019s three daily services between [\u2026]",
+   "kind": "item",
+   "source": "Kenya Association of Travel Agents news",
+   "source_id": "tp-kata",
+   "tier": 2,
+   "country": "KE",
+   "category": "trade",
+   "segments": [
+    "city",
+    "bush",
+    "beach"
+   ],
+   "first_seen": "2026-10-11T18:44+03:00",
+   "published": "2026-10-11",
+   "verdict": "CONSIDER"
+  },
+  {
+   "score": 77.2,
+   "components": {
+    "tier": 20,
+    "category": 5,
+    "lead": 2.4,
+    "relevance": 20,
+    "freshness": 19.8,
+    "corroborated": 10
+   },
+   "keywords": [
+    "eta",
+    "protest",
+    "airline"
+   ],
+   "shock_terms": [],
+   "dedupe_match": null,
+   "dedupe_similarity": 0.44,
+   "id": "0fba63edada7",
+   "title": "KATA Protests \u2018Abrupt\u2019 Rollout of Mandatory Visitor Health Insurance",
+   "url": "https://katakenya.org/kata-protests-abrupt-rollout-of-mandatory-visitor-health-insurance",
+   "summary": "The Kenya Association of Travel Agents (KATA) has protested an abrupt rollout of mandatory travel health insurance cover for foreign visitors to the country, citing uncertainty for travellers. The agents also want details of the approved insurers, premiums, coverage and exclusions, saying the abrupt rollout has left travel agents, airlines and travellers seeking guidance. \u201cGiven [\u2026]",
+   "kind": "item",
+   "source": "Kenya Association of Travel Agents news",
+   "source_id": "tp-kata",
+   "tier": 2,
+   "country": "KE",
+   "category": "trade",
+   "segments": [
+    "city",
+    "bush",
+    "beach"
+   ],
+   "first_seen": "2026-10-11T18:44+03:00",
+   "published": "2026-10-11",
+   "verdict": "CONSIDER"
+  },
+  {
+   "score": 75.2,
    "components": {
     "tier": 40,
     "category": 32,
     "lead": 3.6,
     "relevance": 0,
-    "freshness": 17.4,
+    "freshness": 13.6,
     "stale_trap": -10,
     "page_change": -4
    },
@@ -334,13 +959,53 @@
    "verdict": "CHECK \u2014 source date older than the window"
   },
   {
-   "score": 77.4,
+   "score": 74.2,
+   "components": {
+    "tier": 5,
+    "category": 5,
+    "lead": 2.4,
+    "relevance": 32,
+    "freshness": 19.8,
+    "corroborated": 10
+   },
+   "keywords": [
+    "eta",
+    "arrivals",
+    "hotel",
+    "tourism",
+    "beach",
+    "rooms"
+   ],
+   "shock_terms": [],
+   "dedupe_match": null,
+   "dedupe_similarity": 0.2,
+   "id": "2ba33495f85d",
+   "title": "Cuba Tourism Crisis Deepens as Gaviota Reveals Just 3,470 of 30,000 Hotel Rooms Are Operational Amid Mass Closures and Plunging Arrivals",
+   "url": "https://www.travelandtourworld.com/news/article/khm3vrfemb5l",
+   "summary": "Cuba Tourism Crisis Deepens as Gaviota Reveals Just 3,470 of 30,000 Hotel Rooms Are Operational Amid Mass Closures and Plunging Arrivals Cuba retains considerable tourism potential through its cultural heritage, historic cities, beaches and distinctive Caribbean identity The post Cuba Tourism Crisis Deepens as Gaviota Reveals Just 3,470 of 30,000 Hotel Rooms Are Operational Amid Mass Closures and ",
+   "kind": "item",
+   "source": "Travel And Tour World",
+   "source_id": "gl-travelandtourworld",
+   "tier": 3,
+   "country": "GLOBAL",
+   "category": "trade",
+   "segments": [
+    "city",
+    "bush",
+    "beach"
+   ],
+   "first_seen": "2026-10-11T18:44+03:00",
+   "published": "2026-10-11",
+   "verdict": "CONSIDER"
+  },
+  {
+   "score": 73.6,
    "components": {
     "tier": 20,
     "category": 4,
     "lead": 0.0,
     "relevance": 8,
-    "freshness": 17.4,
+    "freshness": 13.6,
     "corroborated": 10,
     "shock": 18
    },
@@ -373,13 +1038,13 @@
    "verdict": "CONSIDER"
   },
   {
-   "score": 77.4,
+   "score": 73.6,
    "components": {
     "tier": 20,
     "category": 4,
     "lead": 0.0,
     "relevance": 8,
-    "freshness": 17.4,
+    "freshness": 13.6,
     "corroborated": 10,
     "shock": 18
    },
@@ -411,13 +1076,13 @@
    "verdict": "CONSIDER"
   },
   {
-   "score": 75.8,
+   "score": 72.0,
    "components": {
     "tier": 5,
     "category": 5,
     "lead": 2.4,
     "relevance": 36,
-    "freshness": 17.4,
+    "freshness": 13.6,
     "corroborated": 10
    },
    "keywords": [
@@ -450,48 +1115,13 @@
    "verdict": "CONSIDER"
   },
   {
-   "score": 74.4,
-   "components": {
-    "tier": 20,
-    "category": 9,
-    "lead": 3.6,
-    "relevance": 12,
-    "freshness": 19.8,
-    "corroborated": 10
-   },
-   "keywords": [
-    "eta",
-    "summit"
-   ],
-   "shock_terms": [],
-   "dedupe_match": null,
-   "dedupe_similarity": 0.1,
-   "id": "68ae4de6eca4",
-   "title": "Panel-Diskussion beim RTG-Summit (+Galerien): Uwe Mohr fordert neue Ma\u00dfst\u00e4be beim Provisionsmodell",
-   "url": "https://www.fvw.de/touristik/vertrieb/panel-diskussion-beim-rtg-summit-uwe-mohr-will-neue-massstaebe-beim-provisionsmodell-setzen-265183",
-   "summary": "Alltours-Vertriebschef Uwe Mohr bringt eine neue Berechnungsgrundlage f\u00fcr Provisionen ins Spiel. Statt allein auf den Umsatz zu schauen, k\u00f6nnten k\u00fcnftig die G\u00e4stezahlen st\u00e4rker z\u00e4hlen. Ein m\u00f6glicher Hebel gegen Cashback? Die Details der Diskussion, an der auch Ilka Lauenroth (TUI), Georg Welbers (Dertour), Koray \u00c7avdir (Coral Travel), Detlef Schroer (Schauinsland) und RTK-Chef Thomas B\u00f6sl teilnahm",
-   "kind": "item",
-   "source": "FVW / German travel trade",
-   "source_id": "sm-derreise",
-   "tier": 2,
-   "country": "GLOBAL",
-   "category": "source-market",
-   "segments": [
-    "beach",
-    "bush"
-   ],
-   "first_seen": "2026-10-11T15:17+03:00",
-   "published": "2026-10-09",
-   "verdict": "CONSIDER"
-  },
-  {
-   "score": 73.8,
+   "score": 70.0,
    "components": {
     "tier": 20,
     "category": 4,
     "lead": 2.4,
     "relevance": 20,
-    "freshness": 17.4,
+    "freshness": 13.6,
     "corroborated": 10
    },
    "keywords": [
@@ -522,13 +1152,13 @@
    "verdict": "CONSIDER"
   },
   {
-   "score": 72.9,
+   "score": 69.1,
    "components": {
     "tier": 40,
     "category": 32,
     "lead": 3.6,
     "relevance": 0,
-    "freshness": 11.3,
+    "freshness": 7.5,
     "stale_trap": -10,
     "page_change": -4
    },
@@ -555,13 +1185,13 @@
    "verdict": "CHECK \u2014 source date older than the window"
   },
   {
-   "score": 71.8,
+   "score": 68.0,
    "components": {
     "tier": 20,
     "category": 4,
     "lead": 0.0,
     "relevance": 16,
-    "freshness": 19.8,
+    "freshness": 16.0,
     "undated": -6,
     "shock": 18
    },
@@ -591,16 +1221,16 @@
    ],
    "first_seen": "2026-10-11T15:17+03:00",
    "published": null,
-   "verdict": "CONSIDER"
+   "verdict": "weak"
   },
   {
-   "score": 70.4,
+   "score": 66.6,
    "components": {
     "tier": 20,
     "category": 9,
     "lead": 3.6,
     "relevance": 8,
-    "freshness": 19.8,
+    "freshness": 16.0,
     "corroborated": 10
    },
    "keywords": [
@@ -626,16 +1256,54 @@
    ],
    "first_seen": "2026-10-11T15:17+03:00",
    "published": "2026-10-10",
-   "verdict": "CONSIDER"
+   "verdict": "weak"
   },
   {
-   "score": 69.8,
+   "score": 66.2,
+   "components": {
+    "tier": 20,
+    "category": 4,
+    "lead": 2.4,
+    "relevance": 8,
+    "freshness": 19.8,
+    "undated": -6,
+    "shock": 18
+   },
+   "keywords": [
+    "strike"
+   ],
+   "shock_terms": [
+    "strike"
+   ],
+   "dedupe_match": null,
+   "dedupe_similarity": 0.14,
+   "id": "79e6260eb2b1",
+   "title": "news Bus Drivers Threaten Monday Strike Over Badge Renewal Costs",
+   "url": "https://nilepost.co.ug/news/377167/bus-drivers-threaten-monday-strike-over-badge-renewal-costs",
+   "summary": "",
+   "kind": "item",
+   "source": "Nile Post (Uganda)",
+   "source_id": "ug-nilepost",
+   "tier": 2,
+   "country": "UG",
+   "category": "press",
+   "segments": [
+    "city",
+    "bush",
+    "beach"
+   ],
+   "first_seen": "2026-10-11T18:44+03:00",
+   "published": null,
+   "verdict": "weak"
+  },
+  {
+   "score": 66.0,
    "components": {
     "tier": 20,
     "category": 4,
     "lead": 0.0,
     "relevance": 16,
-    "freshness": 19.8,
+    "freshness": 16.0,
     "corroborated": 10
    },
    "keywords": [
@@ -665,13 +1333,49 @@
    "verdict": "weak"
   },
   {
-   "score": 69.4,
+   "score": 65.8,
+   "components": {
+    "tier": 20,
+    "category": 4,
+    "lead": 0.0,
+    "relevance": 12,
+    "freshness": 19.8,
+    "corroborated": 10
+   },
+   "keywords": [
+    "fuel",
+    "shilling"
+   ],
+   "shock_terms": [],
+   "dedupe_match": null,
+   "dedupe_similarity": 0.14,
+   "id": "28a84b198c98",
+   "title": "Currency, fuel, incomes test Museveni\u2019s $500b economy ambition",
+   "url": "https://www.theeastafrican.co.ke/tea/business-tech/currency-fuel-incomes-test-museveni-s-500b-economy-ambition--5627350",
+   "summary": "The shilling has recently come under pressure, trading at 4,060 to the dollar, raising the cost...",
+   "kind": "item",
+   "source": "The EastAfrican",
+   "source_id": "np-eastafrican",
+   "tier": 2,
+   "country": "REG",
+   "category": "press",
+   "segments": [
+    "city",
+    "bush",
+    "beach"
+   ],
+   "first_seen": "2026-10-11T18:44+03:00",
+   "published": "2026-10-10",
+   "verdict": "weak"
+  },
+  {
+   "score": 65.6,
    "components": {
     "tier": 20,
     "category": 4,
     "lead": 0.0,
     "relevance": 0,
-    "freshness": 17.4,
+    "freshness": 13.6,
     "corroborated": 10,
     "shock": 18
    },
@@ -701,13 +1405,49 @@
    "verdict": "weak"
   },
   {
-   "score": 68.4,
+   "score": 65.2,
+   "components": {
+    "tier": 20,
+    "category": 5,
+    "lead": 2.4,
+    "relevance": 8,
+    "freshness": 19.8,
+    "corroborated": 10
+   },
+   "keywords": [
+    "tourism",
+    "conference"
+   ],
+   "shock_terms": [],
+   "dedupe_match": null,
+   "dedupe_similarity": 0.2,
+   "id": "864a4f7720e1",
+   "title": "IATA urges Africa to reduce barriers to air travel",
+   "url": "https://katakenya.org/iata-urges-africa-to-reduce-barriers-to-air-travel",
+   "summary": "Can African aviation become a stronger engine for growth, tourism and regional integration? That is the message from the International Air Transport Association (IATA), which has called on African governments to view air transport as strategic economic infrastructure. Currently meeting in Addis Ababa, Ethiopia, for its Focus Africa conference, the organization says a better-coordinated aviation [\u2026",
+   "kind": "item",
+   "source": "Kenya Association of Travel Agents news",
+   "source_id": "tp-kata",
+   "tier": 2,
+   "country": "KE",
+   "category": "trade",
+   "segments": [
+    "city",
+    "bush",
+    "beach"
+   ],
+   "first_seen": "2026-10-11T18:44+03:00",
+   "published": "2026-10-11",
+   "verdict": "weak"
+  },
+  {
+   "score": 64.6,
    "components": {
     "tier": 40,
     "category": 5,
     "lead": 12.0,
     "relevance": 0,
-    "freshness": 17.4,
+    "freshness": 13.6,
     "undated": -6
    },
    "keywords": [],
@@ -731,714 +1471,6 @@
    ],
    "first_seen": "2026-10-11T13:05+03:00",
    "published": null,
-   "verdict": "weak"
-  },
-  {
-   "score": 65.8,
-   "components": {
-    "tier": 20,
-    "category": 4,
-    "lead": 2.4,
-    "relevance": 12,
-    "freshness": 17.4,
-    "corroborated": 10
-   },
-   "keywords": [
-    "ebola"
-   ],
-   "shock_terms": [],
-   "dedupe_match": null,
-   "dedupe_similarity": 0.25,
-   "id": "42de9d029890",
-   "title": "Opposition Asks Trump Govt to Probe Use of Kenya's Ebola Funds",
-   "url": "https://www.kenyans.co.ke/news/127763-kalonzo-turns-us-over-accountability-ebola-funds",
-   "summary": "The United States has given Kenya over Ksh1.9 billion to help prevent and stop the spread of the Ebola virus in the country.",
-   "kind": "item",
-   "source": "Kenyans.co.ke news",
-   "source_id": "ke-kenyans",
-   "tier": 2,
-   "country": "KE",
-   "category": "press",
-   "segments": [
-    "city",
-    "bush",
-    "beach"
-   ],
-   "first_seen": "2026-10-11T13:05+03:00",
-   "published": "2026-10-11",
-   "verdict": "weak"
-  },
-  {
-   "score": 65.8,
-   "components": {
-    "tier": 20,
-    "category": 4,
-    "lead": 2.4,
-    "relevance": 12,
-    "freshness": 17.4,
-    "corroborated": 10
-   },
-   "keywords": [
-    "election",
-    "camp"
-   ],
-   "shock_terms": [],
-   "dedupe_match": null,
-   "dedupe_similarity": 0.0,
-   "id": "52defdfc2fff",
-   "title": "Why fighters, not builders, could win 2027",
-   "url": "https://nation.africa/kenya/blogs-opinion/opinion/why-fighters-not-builders-could-win-2027-5627168",
-   "summary": "State House is campaigning for builders in an election whose mood belongs to fighters.",
-   "kind": "item",
-   "source": "Nation Africa: Kenya business",
-   "source_id": "ke-nation-business",
-   "tier": 2,
-   "country": "KE",
-   "category": "press",
-   "segments": [
-    "city",
-    "bush",
-    "beach"
-   ],
-   "first_seen": "2026-10-11T13:05+03:00",
-   "published": "2026-10-11",
-   "verdict": "weak"
-  },
-  {
-   "score": 64.0,
-   "components": {
-    "tier": 20,
-    "category": 5,
-    "lead": 1.2,
-    "relevance": 8,
-    "freshness": 19.8,
-    "corroborated": 10
-   },
-   "keywords": [
-    "booking",
-    "summit"
-   ],
-   "shock_terms": [],
-   "dedupe_match": null,
-   "dedupe_similarity": 0.2,
-   "id": "de6297862199",
-   "title": "Travel AI\u2019s Prove-It Phase, Visibility, and the Booking Gap",
-   "url": "https://skift.com/2026/10/11/travel-ais-prove-it-phase-visibility-and-the-booking-gap",
-   "summary": "Skift's Data + AI Summit in Europe this week just showed that AI may be changing travel distribution and internal operations, but booking volume is another story.",
-   "kind": "item",
-   "source": "Skift",
-   "source_id": "tp-skift",
-   "tier": 2,
-   "country": "GLOBAL",
-   "category": "trade",
-   "segments": [
-    "city",
-    "bush",
-    "beach"
-   ],
-   "first_seen": "2026-10-11T15:17+03:00",
-   "published": "2026-10-11",
-   "verdict": "weak"
-  },
-  {
-   "score": 63.8,
-   "components": {
-    "tier": 20,
-    "category": 4,
-    "lead": 2.4,
-    "relevance": 8,
-    "freshness": 17.4,
-    "undated": -6,
-    "shock": 18
-   },
-   "keywords": [
-    "wildlife"
-   ],
-   "shock_terms": [
-    "attack"
-   ],
-   "dedupe_match": null,
-   "dedupe_similarity": 0.12,
-   "id": "f942536dcb4d",
-   "title": "News By Agencies | Oct 11, 2026 7. Man dies after tiger attack at wildlife park",
-   "url": "https://nilepost.co.ug/news/377132/man-dies-after-tiger-attack-at-wildlife-park",
-   "summary": "",
-   "kind": "item",
-   "source": "Nile Post (Uganda)",
-   "source_id": "ug-nilepost",
-   "tier": 2,
-   "country": "UG",
-   "category": "press",
-   "segments": [
-    "city",
-    "bush",
-    "beach"
-   ],
-   "first_seen": "2026-10-11T13:05+03:00",
-   "published": null,
-   "verdict": "weak"
-  },
-  {
-   "score": 63.4,
-   "components": {
-    "tier": 20,
-    "category": 4,
-    "lead": 0.0,
-    "relevance": 12,
-    "freshness": 17.4,
-    "corroborated": 10
-   },
-   "keywords": [
-    "vat",
-    "conference"
-   ],
-   "shock_terms": [],
-   "dedupe_match": null,
-   "dedupe_similarity": 0.2,
-   "id": "129ca6ef17d7",
-   "title": "COP12 advances marine conservation agenda",
-   "url": "https://dailynews.co.tz/cop12-advances-marine-conservation-agenda",
-   "summary": "DAR ES SALAAM: THE contracting parties to the Nairobi Convention have adopted a series of regional decisions to strengthen marine and coastal protection, including strategies to address plastic pollution, conserve seagrass and mangroves, and protect critical habitats. The decisions, adopted during the 12th Conference of the Parties (COP12) to the Nairobi Convention in Dar es Salaam, seek to \u2026 The ",
-   "kind": "item",
-   "source": "Daily News (Tanzania)",
-   "source_id": "np-dailynews-tz",
-   "tier": 2,
-   "country": "TZ",
-   "category": "press",
-   "segments": [
-    "city",
-    "bush",
-    "beach"
-   ],
-   "first_seen": "2026-10-11T13:05+03:00",
-   "published": "2026-10-11",
-   "verdict": "weak"
-  },
-  {
-   "score": 63.4,
-   "components": {
-    "tier": 20,
-    "category": 4,
-    "lead": 0.0,
-    "relevance": 12,
-    "freshness": 17.4,
-    "corroborated": 10
-   },
-   "keywords": [
-    "cancel"
-   ],
-   "shock_terms": [],
-   "dedupe_match": null,
-   "dedupe_similarity": 0.17,
-   "id": "13fe34e5e8aa",
-   "title": "Guinness Match-day Watch Parties still on Despite Trophy Tour Cancellation",
-   "url": "https://softpower.ug/guinness-match-day-watch-parties-still-on-despite-trophy-tour-cancellation",
-   "summary": "Guiness Matchday was set for an epic return following two weeks without Premier League action as the Trophy was supposed to be in Uganda this weekend. However, Guinness announced that the much-anticipated tour had been cancelled. \u201cWe worked hard to bring the Trophy Tour to Uganda between the 11th and 13th October 2026. However, despite [\u2026] The post Guinness Match-day Watch Parties still on Despite",
-   "kind": "item",
-   "source": "SoftPower News \u2014 Tourism & Travel (Uganda)",
-   "source_id": "ug-softpower-tourism",
-   "tier": 2,
-   "country": "UG",
-   "category": "press",
-   "segments": [
-    "bush",
-    "city"
-   ],
-   "first_seen": "2026-10-11T13:05+03:00",
-   "published": "2026-10-10",
-   "verdict": "weak"
-  },
-  {
-   "score": 63.4,
-   "components": {
-    "tier": 20,
-    "category": 4,
-    "lead": 0.0,
-    "relevance": 12,
-    "freshness": 17.4,
-    "corroborated": 10
-   },
-   "keywords": [
-    "kidnap"
-   ],
-   "shock_terms": [],
-   "dedupe_match": null,
-   "dedupe_similarity": 0.0,
-   "id": "355fbae24d6e",
-   "title": "Inside child kidnap for ransom rackets",
-   "url": "https://www.monitor.co.ug/uganda/magazines/people-power/inside-child-kidnap-for-ransom-rackets--5627606",
-   "summary": "The country has in recent months seen an increase in reported cases of kidnap-for-ransom.",
-   "kind": "item",
-   "source": "Daily Monitor (Uganda)",
-   "source_id": "np-monitor-ug",
-   "tier": 2,
-   "country": "UG",
-   "category": "press",
-   "segments": [
-    "city",
-    "bush",
-    "beach"
-   ],
-   "first_seen": "2026-10-11T13:05+03:00",
-   "published": "2026-10-11",
-   "verdict": "weak"
-  },
-  {
-   "score": 62.8,
-   "components": {
-    "tier": 20,
-    "category": 5,
-    "lead": 2.4,
-    "relevance": 8,
-    "freshness": 17.4,
-    "corroborated": 10
-   },
-   "keywords": [
-    "tourism",
-    "opening"
-   ],
-   "shock_terms": [],
-   "dedupe_match": null,
-   "dedupe_similarity": 0.29,
-   "id": "0424bcfaacfe",
-   "title": "MKTE 2026: East Africa\u2019s Tourism Future Depends on Selling Beyond Borders",
-   "url": "https://katakenya.org/mkte-2026-east-africas-tourism-future-depends-on-selling-beyond-borders",
-   "summary": "The competition for the modern traveller is no longer confined to destinations. It increasingly centres on how effectively countries use technology, connect experiences and persuade visitors to explore beyond a single market. That was the central message at the opening of the 16th Magical Kenya Travel Expo (MKTE 2026), where digital transformation, artificial intelligence and [\u2026]",
-   "kind": "item",
-   "source": "Kenya Association of Travel Agents news",
-   "source_id": "tp-kata",
-   "tier": 2,
-   "country": "KE",
-   "category": "trade",
-   "segments": [
-    "city",
-    "bush",
-    "beach"
-   ],
-   "first_seen": "2026-10-11T13:05+03:00",
-   "published": "2026-10-11",
-   "verdict": "weak"
-  },
-  {
-   "score": 61.8,
-   "components": {
-    "tier": 20,
-    "category": 4,
-    "lead": 0.0,
-    "relevance": 8,
-    "freshness": 19.8,
-    "corroborated": 10
-   },
-   "keywords": [
-    "capacity"
-   ],
-   "shock_terms": [],
-   "dedupe_match": null,
-   "dedupe_similarity": 0.1,
-   "id": "e8602cef5d39",
-   "title": "1,500-student GEMS International School of Zanzibar project in offing",
-   "url": "https://dailynews.co.tz/1500-student-gems-international-school-of-zanzibar-project-in-offing",
-   "summary": "Zanzibar. Construction of the GEMS International School of Zanzibar at Infinity Hills is expected to begin shortly, marking a significant step towards expanding educational opportunities on the islands through a purpose-planned school designed to accommodate up to 1,500 students. The planned capacity has been increased from the original 1,100 students following an assessment of anticipated \u2026 The p",
-   "kind": "item",
-   "source": "Daily News (Tanzania)",
-   "source_id": "np-dailynews-tz",
-   "tier": 2,
-   "country": "TZ",
-   "category": "press",
-   "segments": [
-    "city",
-    "bush",
-    "beach"
-   ],
-   "first_seen": "2026-10-11T15:17+03:00",
-   "published": "2026-10-11",
-   "verdict": "weak"
-  },
-  {
-   "score": 61.8,
-   "components": {
-    "tier": 20,
-    "category": 4,
-    "lead": 0.0,
-    "relevance": 8,
-    "freshness": 19.8,
-    "corroborated": 10
-   },
-   "keywords": [
-    "eta"
-   ],
-   "shock_terms": [],
-   "dedupe_match": null,
-   "dedupe_similarity": 0.12,
-   "id": "705389633e70",
-   "title": "Reckless drivers must stop turning roads into cemetaries",
-   "url": "https://dailynews.co.tz/165157-2",
-   "summary": "DAR ES SALAAM: EVERY road death is a tragedy, but deaths caused by reckless driving are an outrage that demands immediate government action. Behind every victim is a grieving family, shattered dreams and a future stolen in seconds. How many more innocent lives must be lost before road madness is brought under control? For instance, the Morogoro accident On \u2026 The post Reckless drivers must stop tur",
-   "kind": "item",
-   "source": "Daily News (Tanzania)",
-   "source_id": "np-dailynews-tz",
-   "tier": 2,
-   "country": "TZ",
-   "category": "press",
-   "segments": [
-    "city",
-    "bush",
-    "beach"
-   ],
-   "first_seen": "2026-10-11T15:17+03:00",
-   "published": "2026-10-11",
-   "verdict": "weak"
-  },
-  {
-   "score": 61.8,
-   "components": {
-    "tier": 20,
-    "category": 4,
-    "lead": 0.0,
-    "relevance": 8,
-    "freshness": 19.8,
-    "corroborated": 10
-   },
-   "keywords": [
-    "vat"
-   ],
-   "shock_terms": [],
-   "dedupe_match": null,
-   "dedupe_similarity": 0.0,
-   "id": "95d415176298",
-   "title": "Pope Leo to undergo surgery to remove lung growth",
-   "url": "https://www.monitor.co.ug/uganda/news/world/pope-leo-to-undergo-surgery-to-remove-lung-growth-5627904",
-   "summary": "The Vatican press office said the pope's recovery from surgery was expected to take about a week",
-   "kind": "item",
-   "source": "Daily Monitor (Uganda)",
-   "source_id": "np-monitor-ug",
-   "tier": 2,
-   "country": "UG",
-   "category": "press",
-   "segments": [
-    "city",
-    "bush",
-    "beach"
-   ],
-   "first_seen": "2026-10-11T15:17+03:00",
-   "published": "2026-10-11",
-   "verdict": "weak"
-  },
-  {
-   "score": 61.8,
-   "components": {
-    "tier": 20,
-    "category": 4,
-    "lead": 0.0,
-    "relevance": 8,
-    "freshness": 19.8,
-    "corroborated": 10
-   },
-   "keywords": [
-    "flood"
-   ],
-   "shock_terms": [],
-   "dedupe_match": null,
-   "dedupe_similarity": 0.0,
-   "id": "2cb765b95298",
-   "title": "Heavy rain floods Kampala\u2013Hoima Highway at Lubigi wetland",
-   "url": "https://www.monitor.co.ug/uganda/news/national/heavy-rain-floods-kampala-hoima-highway-at-lubigi-wetland-5627740",
-   "summary": "MP demands drainage master plan after Lubigi flooding",
-   "kind": "item",
-   "source": "Daily Monitor (Uganda)",
-   "source_id": "np-monitor-ug",
-   "tier": 2,
-   "country": "UG",
-   "category": "press",
-   "segments": [
-    "city",
-    "bush",
-    "beach"
-   ],
-   "first_seen": "2026-10-11T15:17+03:00",
-   "published": "2026-10-11",
-   "verdict": "weak"
-  },
-  {
-   "score": 61.8,
-   "components": {
-    "tier": 20,
-    "category": 4,
-    "lead": 2.4,
-    "relevance": 8,
-    "freshness": 17.4,
-    "corroborated": 10
-   },
-   "keywords": [
-    "election"
-   ],
-   "shock_terms": [],
-   "dedupe_match": null,
-   "dedupe_similarity": 0.0,
-   "id": "2aeb89765def",
-   "title": "Amisi, Sonko Parties Announce New Changes Ahead of 2027",
-   "url": "https://www.kenyans.co.ke/news/127765-amisis-pm-sonkos-nedp-and-others-announce-leadership-changes",
-   "summary": "The changes come as political realignments gather pace ahead of the 2027 General Election, with candidates positioning themselves to challenge President Ruto.",
-   "kind": "item",
-   "source": "Kenyans.co.ke news",
-   "source_id": "ke-kenyans",
-   "tier": 2,
-   "country": "KE",
-   "category": "press",
-   "segments": [
-    "city",
-    "bush",
-    "beach"
-   ],
-   "first_seen": "2026-10-11T13:05+03:00",
-   "published": "2026-10-11",
-   "verdict": "weak"
-  },
-  {
-   "score": 61.6,
-   "components": {
-    "tier": 40,
-    "category": 5,
-    "lead": 1.2,
-    "relevance": 4,
-    "freshness": 17.4,
-    "undated": -6
-   },
-   "keywords": [
-    "investment"
-   ],
-   "shock_terms": [],
-   "dedupe_match": null,
-   "dedupe_similarity": 0.14,
-   "id": "556415966bdf",
-   "title": "8 Oct 2026 Communications State House NETHERLANDS REMAINS KEY INVESTOR IN UGANDA AS SHIPU PLEDGES ZERO-DELAY INVESTMENT ENVIRONMENT The Netherlands remains one of Uganda\u2019s largest sources of Foreign Direct Investment (FDI), with more than 200 Dutch-affiliated companies operating in the country, the Head of the State House Investors Protection Unit (SHIPU), Col. Edith Nakalema, has said. Read \u2192",
-   "url": "https://mediacentre.go.ug/release?slug=netherlands-remains-key-investor-in-uganda-as-shipu-pledges-zero-delay-investment-environment",
-   "summary": "",
-   "kind": "item",
-   "source": "Uganda Media Centre \u2014 press room",
-   "source_id": "ug-mediacentre",
-   "tier": 1,
-   "country": "UG",
-   "category": "gov-comms",
-   "segments": [
-    "city",
-    "bush"
-   ],
-   "first_seen": "2026-10-11T13:05+03:00",
-   "published": null,
-   "verdict": "weak"
-  },
-  {
-   "score": 60.8,
-   "components": {
-    "tier": 20,
-    "category": 5,
-    "lead": 2.4,
-    "relevance": 12,
-    "freshness": 11.4,
-    "corroborated": 10
-   },
-   "keywords": [
-    "revpar",
-    "conference"
-   ],
-   "shock_terms": [],
-   "dedupe_match": null,
-   "dedupe_similarity": 0.2,
-   "id": "4eeefcef8028",
-   "title": "Beyond Revenue Growth: HVS Takeaways from The Lodging Conference 2026",
-   "url": "https://www.hotelnewsresource.com/article143268.html",
-   "summary": "The tone of this year\u2019s Lodging Conference was measured optimism, as strong 2026 RevPAR growth and limited new supply support the industry outlook. However, rising operating costs, expensive debt, loan maturities, and geopolitical risks continue to pressure profitability. Owners are increasingly focused on AI adoption, active asset management, brand economics, and converting revenue increases into",
-   "kind": "item",
-   "source": "HVS \u2014 market reports and event-impact studies (via Hotel News Resource)",
-   "source_id": "gl-hvs-market-reports",
-   "tier": 2,
-   "country": "GLOBAL",
-   "category": "trade",
-   "segments": [
-    "city"
-   ],
-   "first_seen": "2026-10-11T07:37+03:00",
-   "published": "2026-10-10",
-   "verdict": "weak"
-  },
-  {
-   "score": 59.8,
-   "components": {
-    "tier": 5,
-    "category": 5,
-    "lead": 2.4,
-    "relevance": 20,
-    "freshness": 17.4,
-    "corroborated": 10
-   },
-   "keywords": [
-    "fuel",
-    "tourism",
-    "airline",
-    "flight"
-   ],
-   "shock_terms": [],
-   "dedupe_match": null,
-   "dedupe_similarity": 0.2,
-   "id": "e249f6f588a5",
-   "title": "easyJet Pairs Up With Ryanair And More Airlines To Fuel Morocco Travel Surge With New Flights To Marrakech, Agadir And Rabat",
-   "url": "https://www.travelandtourworld.com/news/article/ma2m5grjfrs4",
-   "summary": "easyJet Pairs Up With Ryanair And More Airlines To Fuel Morocco Travel Surge With New Flights To Marrakech, Agadir And Rabat The new services offered by easyJet, Ryanair, and other companies will result in the largest tourism boom in 2026 for Morocco. The post easyJet Pairs Up With Ryanair And More Airlines To Fuel Morocco Travel Surge With New Flights To Marrakech, Agadir And Rabat appeared first",
-   "kind": "item",
-   "source": "Travel And Tour World",
-   "source_id": "gl-travelandtourworld",
-   "tier": 3,
-   "country": "GLOBAL",
-   "category": "trade",
-   "segments": [
-    "city",
-    "bush",
-    "beach"
-   ],
-   "first_seen": "2026-10-11T13:05+03:00",
-   "published": "2026-10-11",
-   "verdict": "weak"
-  },
-  {
-   "score": 59.8,
-   "components": {
-    "tier": 20,
-    "category": 4,
-    "lead": 2.4,
-    "relevance": 12,
-    "freshness": 11.4,
-    "corroborated": 10
-   },
-   "keywords": [
-    "ebola"
-   ],
-   "shock_terms": [],
-   "dedupe_match": null,
-   "dedupe_similarity": 0.25,
-   "id": "dae7cf5ac323",
-   "title": "Take urgent measures to stem Ebola, El Ni\u00f1o risks",
-   "url": "https://nation.africa/kenya/blogs-opinion/editorials/-take-urgent-measures-to-stem-ebola-el-ni%C3%B1o-risks-5627456",
-   "summary": "The extreme weather emergencies and Ebola also pose a monumental test for the public health...",
-   "kind": "item",
-   "source": "Nation Africa: Kenya business",
-   "source_id": "ke-nation-business",
-   "tier": 2,
-   "country": "KE",
-   "category": "press",
-   "segments": [
-    "city",
-    "bush",
-    "beach"
-   ],
-   "first_seen": "2026-10-11T07:37+03:00",
-   "published": "2026-10-11",
-   "verdict": "weak"
-  },
-  {
-   "score": 59.4,
-   "components": {
-    "tier": 20,
-    "category": 4,
-    "lead": 0.0,
-    "relevance": 8,
-    "freshness": 17.4,
-    "corroborated": 10
-   },
-   "keywords": [
-    "inflation",
-    "shilling"
-   ],
-   "shock_terms": [],
-   "dedupe_match": null,
-   "dedupe_similarity": 0.0,
-   "id": "5041152823e9",
-   "title": "A depreciated shilling is not bad, says Museveni",
-   "url": "https://www.monitor.co.ug/uganda/magazines/people-power/a-depreciated-shilling-is-not-bad-says-museveni-5627596",
-   "summary": "Statistics that show that the economy is heating up as seen in inflationary pressures headlined...",
-   "kind": "item",
-   "source": "Daily Monitor (Uganda)",
-   "source_id": "np-monitor-ug",
-   "tier": 2,
-   "country": "UG",
-   "category": "press",
-   "segments": [
-    "city",
-    "bush",
-    "beach"
-   ],
-   "first_seen": "2026-10-11T13:05+03:00",
-   "published": "2026-10-11",
-   "verdict": "weak"
-  },
-  {
-   "score": 59.4,
-   "components": {
-    "tier": 20,
-    "category": 4,
-    "lead": 0.0,
-    "relevance": 8,
-    "freshness": 17.4,
-    "corroborated": 10
-   },
-   "keywords": [
-    "diesel"
-   ],
-   "shock_terms": [],
-   "dedupe_match": null,
-   "dedupe_similarity": 0.12,
-   "id": "530d873b05a8",
-   "title": "Trump calls for replacing Ukraine's Zelenskiy in tussle over diesel deal with Russia",
-   "url": "https://www.monitor.co.ug/uganda/news/world/trump-calls-for-replacing-ukraine-s-zelenskiy-in-tussle-over-diesel-deal-with-russia-5627570",
-   "summary": "The ttack follows US President Trump's deal lifting sanctions on Russian diesel",
-   "kind": "item",
-   "source": "Daily Monitor (Uganda)",
-   "source_id": "np-monitor-ug",
-   "tier": 2,
-   "country": "UG",
-   "category": "press",
-   "segments": [
-    "city",
-    "bush",
-    "beach"
-   ],
-   "first_seen": "2026-10-11T13:05+03:00",
-   "published": "2026-10-11",
-   "verdict": "weak"
-  },
-  {
-   "score": 58.8,
-   "components": {
-    "tier": 20,
-    "category": 5,
-    "lead": 2.4,
-    "relevance": 4,
-    "freshness": 17.4,
-    "corroborated": 10
-   },
-   "keywords": [
-    "tourism"
-   ],
-   "shock_terms": [],
-   "dedupe_match": null,
-   "dedupe_similarity": 0.29,
-   "id": "45315832eabb",
-   "title": "KATA Builds Kenya\u2013Uganda Tourism Bridge as Cross-Border Market Expands",
-   "url": "https://katakenya.org/kata-builds-kenya-uganda-tourism-bridge-as-cross-border-market-expands",
-   "summary": "Kenyan visitors to Uganda increased from 466,902 in 2024 to 519,041 in 2025, while visitors from Uganda to Kenya reached 234,556 in 2025. The two-way movement highlights a significant regional tourism market that the countries\u2019 industries are seeking to develop through stronger trade ties, joint destination marketing and more accessible travel. Data from the Uganda [\u2026]",
-   "kind": "item",
-   "source": "Kenya Association of Travel Agents news",
-   "source_id": "tp-kata",
-   "tier": 2,
-   "country": "KE",
-   "category": "trade",
-   "segments": [
-    "city",
-    "bush",
-    "beach"
-   ],
-   "first_seen": "2026-10-11T13:05+03:00",
-   "published": "2026-10-11",
    "verdict": "weak"
   }
  ]
