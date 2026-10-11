@@ -1,18 +1,18 @@
 {
- "generated": "2026-10-11T02:21:04+03:00",
+ "generated": "2026-10-11T07:44:30+03:00",
  "slot": "morning",
  "window_start": 1791644400,
- "observations_in_window": 308,
- "deduped_against": 26,
+ "observations_in_window": 390,
+ "deduped_against": 24,
  "candidates": [
   {
-   "score": 153.0,
+   "score": 147.0,
    "components": {
     "tier": 40,
     "category": 32,
     "lead": 1.2,
     "relevance": 48,
-    "freshness": 19.8,
+    "freshness": 13.8,
     "undated": -6,
     "shock": 18
    },
@@ -49,26 +49,29 @@
    "verdict": "LEAD CANDIDATE \u2014 tier-1 shock language"
   },
   {
-   "score": 91.4,
+   "score": 117.7,
    "components": {
     "tier": 40,
     "category": 32,
-    "lead": 3.6,
-    "relevance": 0,
-    "freshness": 19.8,
+    "lead": 12.0,
+    "relevance": 8,
+    "freshness": 19.7,
+    "corroborated": 10,
     "page_change": -4
    },
-   "keywords": [],
+   "keywords": [
+    "fee"
+   ],
    "shock_terms": [],
    "dedupe_match": null,
    "dedupe_similarity": 0.2,
-   "id": "427d02624731",
-   "title": "[page changed] Federal Register \u2014 public inspection (HHS/CDC), pre-publication",
-   "url": "https://www.federalregister.gov/api/v1/public-inspection-documents/current.json",
-   "summary": "{\"count\":108,\"results\":[{\"agencies\":[{\"raw_name\":\"Federal Aviation Administration\",\"name\":\"Federal Aviation Administration\",\"id\":159,\"url\":\"https://www.federalregister.gov/agencies/federal-aviation-administration\",\"json_url\":\"https://www.federalregister.gov/api/v1/agencies/159\",\"parent_id\":492,\"slug\":\"federal-aviation-administration\"}],\"agency_letters\":[],\"agency_names\":[\"Federal Aviation Administ",
+   "id": "ea7196b51ffa",
+   "title": "[page changed] Federal Register \u2014 CDC notices",
+   "url": "https://www.federalregister.gov/api/v1/documents.rss?conditions%5Bagencies%5D%5B%5D=centers-for-disease-control-and-prevention&order=newest",
+   "summary": "Federal Register Documents published on or after 09/11/2026 and from Centers for Disease Control and Prevention https://www.federalregister.gov/api/v1/documents.rss?conditions%5Bagencies%5D%5B%5D=centers-for-disease-control-and-prevention&order=newest Thu, 08 Oct 2026 04:00:00 GMT The documents in this feed originate from FederalRegister.gov which displays an unofficial web version of the daily Fe",
    "kind": "page-change",
-   "source": "Federal Register \u2014 public inspection (HHS/CDC), pre-publication",
-   "source_id": "us-fedreg-pubinspect-hhs",
+   "source": "Federal Register \u2014 CDC notices",
+   "source_id": "us-fedreg-cdc",
    "tier": 1,
    "country": "REG",
    "category": "advisory",
@@ -76,82 +79,52 @@
     "city",
     "bush"
    ],
-   "first_seen": "2026-10-11T02:19+03:00",
-   "published": "2026-10-08",
+   "first_seen": "2026-10-11T07:36+03:00",
+   "published": "2026-11-09",
    "verdict": "OPEN THIS \u2014 tier-1 advisory page moved; content not auto-parsed, read it manually"
   },
   {
-   "score": 85.8,
+   "score": 65.2,
    "components": {
     "tier": 40,
-    "category": 32,
+    "category": 12,
     "lead": 3.6,
     "relevance": 0,
-    "freshness": 14.2,
+    "freshness": 19.6,
+    "undated": -6,
     "page_change": -4
    },
    "keywords": [],
    "shock_terms": [],
    "dedupe_match": null,
-   "dedupe_similarity": 0.2,
-   "id": "27a039b90f0f",
-   "title": "[page changed] Federal Register \u2014 public inspection (HHS/CDC), pre-publication",
-   "url": "https://www.federalregister.gov/api/v1/public-inspection-documents/current.json",
-   "summary": "{\"count\":108,\"results\":[{\"agencies\":[{\"raw_name\":\"Federal Aviation Administration\",\"name\":\"Federal Aviation Administration\",\"id\":159,\"url\":\"https://www.federalregister.gov/agencies/federal-aviation-administration\",\"json_url\":\"https://www.federalregister.gov/api/v1/agencies/159\",\"parent_id\":492,\"slug\":\"federal-aviation-administration\"}],\"agency_letters\":[],\"agency_names\":[\"Federal Aviation Administ",
+   "dedupe_similarity": 0.0,
+   "id": "89f114d8b309",
+   "title": "[page changed] Airlink news",
+   "url": "https://www.flyairlink.com/",
+   "summary": "Request unsuccessful. Incapsula incident ID: 341000430836725237-855573922225392363",
    "kind": "page-change",
-   "source": "Federal Register \u2014 public inspection (HHS/CDC), pre-publication",
-   "source_id": "us-fedreg-pubinspect-hhs",
+   "source": "Airlink news",
+   "source_id": "air-airlink",
    "tier": 1,
    "country": "REG",
-   "category": "advisory",
+   "category": "airline",
    "segments": [
     "city",
-    "bush"
+    "bush",
+    "beach"
    ],
-   "first_seen": "2026-10-10T21:15+03:00",
-   "published": "2026-10-08",
-   "verdict": "OPEN THIS \u2014 tier-1 advisory page moved; content not auto-parsed, read it manually"
+   "first_seen": "2026-10-11T07:35+03:00",
+   "published": null,
+   "verdict": "OPEN THIS \u2014 tier-1 airline page moved; content not auto-parsed, read it manually"
   },
   {
-   "score": 82.7,
-   "components": {
-    "tier": 40,
-    "category": 32,
-    "lead": 3.6,
-    "relevance": 0,
-    "freshness": 11.1,
-    "page_change": -4
-   },
-   "keywords": [],
-   "shock_terms": [],
-   "dedupe_match": null,
-   "dedupe_similarity": 0.2,
-   "id": "0c61e8b16ae6",
-   "title": "[page changed] Federal Register \u2014 public inspection (HHS/CDC), pre-publication",
-   "url": "https://www.federalregister.gov/api/v1/public-inspection-documents/current.json",
-   "summary": "{\"count\":108,\"results\":[{\"agencies\":[{\"raw_name\":\"Federal Aviation Administration\",\"name\":\"Federal Aviation Administration\",\"id\":159,\"url\":\"https://www.federalregister.gov/agencies/federal-aviation-administration\",\"json_url\":\"https://www.federalregister.gov/api/v1/agencies/159\",\"parent_id\":492,\"slug\":\"federal-aviation-administration\"}],\"agency_letters\":[],\"agency_names\":[\"Federal Aviation Administ",
-   "kind": "page-change",
-   "source": "Federal Register \u2014 public inspection (HHS/CDC), pre-publication",
-   "source_id": "us-fedreg-pubinspect-hhs",
-   "tier": 1,
-   "country": "REG",
-   "category": "advisory",
-   "segments": [
-    "city",
-    "bush"
-   ],
-   "first_seen": "2026-10-10T18:24+03:00",
-   "published": "2026-10-08",
-   "verdict": "OPEN THIS \u2014 tier-1 advisory page moved; content not auto-parsed, read it manually"
-  },
-  {
-   "score": 89.1,
+   "score": 83.2,
    "components": {
     "tier": 20,
     "category": 4,
     "lead": 0.0,
     "relevance": 44,
-    "freshness": 11.1,
+    "freshness": 5.2,
     "corroborated": 10
    },
    "keywords": [
@@ -184,13 +157,46 @@
    "verdict": "CONSIDER"
   },
   {
-   "score": 82.2,
+   "score": 81.3,
+   "components": {
+    "tier": 40,
+    "category": 32,
+    "lead": 3.6,
+    "relevance": 0,
+    "freshness": 19.7,
+    "stale_trap": -10,
+    "page_change": -4
+   },
+   "keywords": [],
+   "shock_terms": [],
+   "dedupe_match": null,
+   "dedupe_similarity": 0.2,
+   "id": "bfaceb5652ce",
+   "title": "[page changed] Federal Register \u2014 public inspection (HHS/CDC), pre-publication",
+   "url": "https://www.federalregister.gov/api/v1/public-inspection-documents/current.json",
+   "summary": "{\"count\":108,\"results\":[{\"agencies\":[{\"raw_name\":\"Federal Aviation Administration\",\"name\":\"Federal Aviation Administration\",\"id\":159,\"url\":\"https://www.federalregister.gov/agencies/federal-aviation-administration\",\"json_url\":\"https://www.federalregister.gov/api/v1/agencies/159\",\"parent_id\":492,\"slug\":\"federal-aviation-administration\"}],\"agency_letters\":[],\"agency_names\":[\"Federal Aviation Administ",
+   "kind": "page-change",
+   "source": "Federal Register \u2014 public inspection (HHS/CDC), pre-publication",
+   "source_id": "us-fedreg-pubinspect-hhs",
+   "tier": 1,
+   "country": "REG",
+   "category": "advisory",
+   "segments": [
+    "city",
+    "bush"
+   ],
+   "first_seen": "2026-10-11T07:36+03:00",
+   "published": "2026-10-08",
+   "verdict": "CHECK \u2014 source date older than the window"
+  },
+  {
+   "score": 76.2,
    "components": {
     "tier": 20,
     "category": 4,
     "lead": 2.4,
     "relevance": 8,
-    "freshness": 19.8,
+    "freshness": 13.8,
     "corroborated": 10,
     "shock": 18
    },
@@ -222,13 +228,46 @@
    "verdict": "CONSIDER"
   },
   {
-   "score": 80.2,
+   "score": 75.4,
+   "components": {
+    "tier": 40,
+    "category": 32,
+    "lead": 3.6,
+    "relevance": 0,
+    "freshness": 13.8,
+    "stale_trap": -10,
+    "page_change": -4
+   },
+   "keywords": [],
+   "shock_terms": [],
+   "dedupe_match": null,
+   "dedupe_similarity": 0.2,
+   "id": "427d02624731",
+   "title": "[page changed] Federal Register \u2014 public inspection (HHS/CDC), pre-publication",
+   "url": "https://www.federalregister.gov/api/v1/public-inspection-documents/current.json",
+   "summary": "{\"count\":108,\"results\":[{\"agencies\":[{\"raw_name\":\"Federal Aviation Administration\",\"name\":\"Federal Aviation Administration\",\"id\":159,\"url\":\"https://www.federalregister.gov/agencies/federal-aviation-administration\",\"json_url\":\"https://www.federalregister.gov/api/v1/agencies/159\",\"parent_id\":492,\"slug\":\"federal-aviation-administration\"}],\"agency_letters\":[],\"agency_names\":[\"Federal Aviation Administ",
+   "kind": "page-change",
+   "source": "Federal Register \u2014 public inspection (HHS/CDC), pre-publication",
+   "source_id": "us-fedreg-pubinspect-hhs",
+   "tier": 1,
+   "country": "REG",
+   "category": "advisory",
+   "segments": [
+    "city",
+    "bush"
+   ],
+   "first_seen": "2026-10-11T02:19+03:00",
+   "published": "2026-10-08",
+   "verdict": "CHECK \u2014 source date older than the window"
+  },
+  {
+   "score": 74.2,
    "components": {
     "tier": 20,
     "category": 4,
     "lead": 2.4,
     "relevance": 24,
-    "freshness": 19.8,
+    "freshness": 13.8,
     "corroborated": 10
    },
    "keywords": [
@@ -259,13 +298,80 @@
    "verdict": "CONSIDER"
   },
   {
-   "score": 74.2,
+   "score": 69.9,
+   "components": {
+    "tier": 40,
+    "category": 32,
+    "lead": 3.6,
+    "relevance": 0,
+    "freshness": 8.3,
+    "stale_trap": -10,
+    "page_change": -4
+   },
+   "keywords": [],
+   "shock_terms": [],
+   "dedupe_match": null,
+   "dedupe_similarity": 0.2,
+   "id": "27a039b90f0f",
+   "title": "[page changed] Federal Register \u2014 public inspection (HHS/CDC), pre-publication",
+   "url": "https://www.federalregister.gov/api/v1/public-inspection-documents/current.json",
+   "summary": "{\"count\":108,\"results\":[{\"agencies\":[{\"raw_name\":\"Federal Aviation Administration\",\"name\":\"Federal Aviation Administration\",\"id\":159,\"url\":\"https://www.federalregister.gov/agencies/federal-aviation-administration\",\"json_url\":\"https://www.federalregister.gov/api/v1/agencies/159\",\"parent_id\":492,\"slug\":\"federal-aviation-administration\"}],\"agency_letters\":[],\"agency_names\":[\"Federal Aviation Administ",
+   "kind": "page-change",
+   "source": "Federal Register \u2014 public inspection (HHS/CDC), pre-publication",
+   "source_id": "us-fedreg-pubinspect-hhs",
+   "tier": 1,
+   "country": "REG",
+   "category": "advisory",
+   "segments": [
+    "city",
+    "bush"
+   ],
+   "first_seen": "2026-10-10T21:15+03:00",
+   "published": "2026-10-08",
+   "verdict": "CHECK \u2014 source date older than the window"
+  },
+  {
+   "score": 69.1,
+   "components": {
+    "tier": 20,
+    "category": 5,
+    "lead": 2.4,
+    "relevance": 12,
+    "freshness": 19.7,
+    "corroborated": 10
+   },
+   "keywords": [
+    "revpar",
+    "conference"
+   ],
+   "shock_terms": [],
+   "dedupe_match": null,
+   "dedupe_similarity": 0.2,
+   "id": "4eeefcef8028",
+   "title": "Beyond Revenue Growth: HVS Takeaways from The Lodging Conference 2026",
+   "url": "https://www.hotelnewsresource.com/article143268.html",
+   "summary": "The tone of this year\u2019s Lodging Conference was measured optimism, as strong 2026 RevPAR growth and limited new supply support the industry outlook. However, rising operating costs, expensive debt, loan maturities, and geopolitical risks continue to pressure profitability. Owners are increasingly focused on AI adoption, active asset management, brand economics, and converting revenue increases into",
+   "kind": "item",
+   "source": "HVS \u2014 market reports and event-impact studies (via Hotel News Resource)",
+   "source_id": "gl-hvs-market-reports",
+   "tier": 2,
+   "country": "GLOBAL",
+   "category": "trade",
+   "segments": [
+    "city"
+   ],
+   "first_seen": "2026-10-11T07:37+03:00",
+   "published": "2026-10-10",
+   "verdict": "weak"
+  },
+  {
+   "score": 68.2,
    "components": {
     "tier": 20,
     "category": 4,
     "lead": 2.4,
     "relevance": 0,
-    "freshness": 19.8,
+    "freshness": 13.8,
     "corroborated": 10,
     "shock": 18
    },
@@ -292,16 +398,154 @@
    ],
    "first_seen": "2026-10-11T02:19+03:00",
    "published": "2026-10-10",
-   "verdict": "CONSIDER"
+   "verdict": "weak"
   },
   {
-   "score": 70.5,
+   "score": 68.1,
+   "components": {
+    "tier": 20,
+    "category": 4,
+    "lead": 2.4,
+    "relevance": 12,
+    "freshness": 19.7,
+    "corroborated": 10
+   },
+   "keywords": [
+    "ebola"
+   ],
+   "shock_terms": [],
+   "dedupe_match": null,
+   "dedupe_similarity": 0.25,
+   "id": "dae7cf5ac323",
+   "title": "Take urgent measures to stem Ebola, El Ni\u00f1o risks",
+   "url": "https://nation.africa/kenya/blogs-opinion/editorials/-take-urgent-measures-to-stem-ebola-el-ni%C3%B1o-risks-5627456",
+   "summary": "The extreme weather emergencies and Ebola also pose a monumental test for the public health...",
+   "kind": "item",
+   "source": "Nation Africa: Kenya business",
+   "source_id": "ke-nation-business",
+   "tier": 2,
+   "country": "KE",
+   "category": "press",
+   "segments": [
+    "city",
+    "bush",
+    "beach"
+   ],
+   "first_seen": "2026-10-11T07:37+03:00",
+   "published": "2026-10-11",
+   "verdict": "weak"
+  },
+  {
+   "score": 66.7,
+   "components": {
+    "tier": 40,
+    "category": 32,
+    "lead": 3.6,
+    "relevance": 0,
+    "freshness": 5.1,
+    "stale_trap": -10,
+    "page_change": -4
+   },
+   "keywords": [],
+   "shock_terms": [],
+   "dedupe_match": null,
+   "dedupe_similarity": 0.2,
+   "id": "0c61e8b16ae6",
+   "title": "[page changed] Federal Register \u2014 public inspection (HHS/CDC), pre-publication",
+   "url": "https://www.federalregister.gov/api/v1/public-inspection-documents/current.json",
+   "summary": "{\"count\":108,\"results\":[{\"agencies\":[{\"raw_name\":\"Federal Aviation Administration\",\"name\":\"Federal Aviation Administration\",\"id\":159,\"url\":\"https://www.federalregister.gov/agencies/federal-aviation-administration\",\"json_url\":\"https://www.federalregister.gov/api/v1/agencies/159\",\"parent_id\":492,\"slug\":\"federal-aviation-administration\"}],\"agency_letters\":[],\"agency_names\":[\"Federal Aviation Administ",
+   "kind": "page-change",
+   "source": "Federal Register \u2014 public inspection (HHS/CDC), pre-publication",
+   "source_id": "us-fedreg-pubinspect-hhs",
+   "tier": 1,
+   "country": "REG",
+   "category": "advisory",
+   "segments": [
+    "city",
+    "bush"
+   ],
+   "first_seen": "2026-10-10T18:24+03:00",
+   "published": "2026-10-08",
+   "verdict": "CHECK \u2014 source date older than the window"
+  },
+  {
+   "score": 65.7,
+   "components": {
+    "tier": 20,
+    "category": 4,
+    "lead": 0.0,
+    "relevance": 12,
+    "freshness": 19.7,
+    "corroborated": 10
+   },
+   "keywords": [
+    "fuel",
+    "investment"
+   ],
+   "shock_terms": [],
+   "dedupe_match": null,
+   "dedupe_similarity": 0.11,
+   "id": "f50c9a1ac8cb",
+   "title": "East Africa\u2019s refinery market is bigger than the map",
+   "url": "https://www.theeastafrican.co.ke/tea/opinion/guest-blogs/east-africa-s-refinery-market-is-bigger-than-the-map-5627218",
+   "summary": "Investment timing, existing fuel corridors, aviation demand, South Africa\u2019s growing imports and...",
+   "kind": "item",
+   "source": "The EastAfrican",
+   "source_id": "np-eastafrican",
+   "tier": 2,
+   "country": "REG",
+   "category": "press",
+   "segments": [
+    "city",
+    "bush",
+    "beach"
+   ],
+   "first_seen": "2026-10-11T07:37+03:00",
+   "published": "2026-10-10",
+   "verdict": "weak"
+  },
+  {
+   "score": 65.1,
+   "components": {
+    "tier": 20,
+    "category": 5,
+    "lead": 2.4,
+    "relevance": 8,
+    "freshness": 19.7,
+    "corroborated": 10
+   },
+   "keywords": [
+    "hotel",
+    "resort"
+   ],
+   "shock_terms": [],
+   "dedupe_match": null,
+   "dedupe_similarity": 0.12,
+   "id": "a32c80047791",
+   "title": "Braemar Hotels & Resorts Announces Portfolio Update and 2027 Financial Outlook",
+   "url": "https://www.hotelnewsresource.com/article143269.html",
+   "summary": "Braemar Hotels & Resorts has released an updated overview of its property portfolio and issued financial guidance through 2027, offering investors and stakeholders greater clarity on projected operational and financial performance.",
+   "kind": "item",
+   "source": "HVS \u2014 market reports and event-impact studies (via Hotel News Resource)",
+   "source_id": "gl-hvs-market-reports",
+   "tier": 2,
+   "country": "GLOBAL",
+   "category": "trade",
+   "segments": [
+    "city"
+   ],
+   "first_seen": "2026-10-11T07:37+03:00",
+   "published": "2026-10-10",
+   "verdict": "weak"
+  },
+  {
+   "score": 64.5,
    "components": {
     "tier": 40,
     "category": 17,
     "lead": 8.4,
     "relevance": 0,
-    "freshness": 11.1,
+    "freshness": 5.1,
     "undated": -6
    },
    "keywords": [],
@@ -325,16 +569,16 @@
    ],
    "first_seen": "2026-10-10T18:24+03:00",
    "published": null,
-   "verdict": "CONSIDER"
+   "verdict": "weak"
   },
   {
-   "score": 70.5,
+   "score": 64.5,
    "components": {
     "tier": 40,
     "category": 17,
     "lead": 8.4,
     "relevance": 0,
-    "freshness": 11.1,
+    "freshness": 5.1,
     "undated": -6
    },
    "keywords": [],
@@ -358,16 +602,16 @@
    ],
    "first_seen": "2026-10-10T18:24+03:00",
    "published": null,
-   "verdict": "CONSIDER"
+   "verdict": "weak"
   },
   {
-   "score": 70.2,
+   "score": 64.2,
    "components": {
     "tier": 5,
     "category": 5,
     "lead": 2.4,
     "relevance": 28,
-    "freshness": 19.8,
+    "freshness": 13.8,
     "corroborated": 10
    },
    "keywords": [
@@ -396,16 +640,16 @@
    ],
    "first_seen": "2026-10-11T02:19+03:00",
    "published": "2026-10-11",
-   "verdict": "CONSIDER"
+   "verdict": "weak"
   },
   {
-   "score": 68.2,
+   "score": 62.2,
    "components": {
     "tier": 20,
     "category": 4,
     "lead": 2.4,
     "relevance": 28,
-    "freshness": 19.8,
+    "freshness": 13.8,
     "undated": -6
    },
    "keywords": [
@@ -436,13 +680,118 @@
    "verdict": "weak"
   },
   {
-   "score": 66.2,
+   "score": 61.7,
+   "components": {
+    "tier": 20,
+    "category": 4,
+    "lead": 0.0,
+    "relevance": 8,
+    "freshness": 19.7,
+    "corroborated": 10
+   },
+   "keywords": [
+    "camp",
+    "opening"
+   ],
+   "shock_terms": [],
+   "dedupe_match": null,
+   "dedupe_similarity": 0.3,
+   "id": "815f910c5a53",
+   "title": "Junior Wasps Sting South Sudan, Uganda Hit Eight in CECAFA U-17 Openers",
+   "url": "https://www.ktpress.rw/2026/10/junior-wasps-sting-south-sudan-uganda-hit-eight-in-cecafa-u-17-openers",
+   "summary": "KIGALI \u2013 Rwanda began their campaign at the CECAFA U-17 Africa Cup of Nations qualifiers with a 1-0 victory over South Sudan, while Uganda delivered the opening day\u2019s biggest result,\u2026 The post Junior Wasps Sting South Sudan, Uganda Hit Eight in CECAFA U-17 Openers appeared first on KT PRESS .",
+   "kind": "item",
+   "source": "KT Press (Rwanda)",
+   "source_id": "np-ktpress-rw",
+   "tier": 2,
+   "country": "RW",
+   "category": "press",
+   "segments": [
+    "city",
+    "bush",
+    "beach"
+   ],
+   "first_seen": "2026-10-11T07:37+03:00",
+   "published": "2026-10-10",
+   "verdict": "weak"
+  },
+  {
+   "score": 61.1,
+   "components": {
+    "tier": 20,
+    "category": 5,
+    "lead": 2.4,
+    "relevance": 4,
+    "freshness": 19.7,
+    "corroborated": 10
+   },
+   "keywords": [
+    "hotel"
+   ],
+   "shock_terms": [],
+   "dedupe_match": null,
+   "dedupe_similarity": 0.11,
+   "id": "2dbe0857b4b7",
+   "title": "Pebblebrook Hotel Trust Completes $10.0 Million Sale of The Hotel Zags",
+   "url": "https://www.hotelnewsresource.com/article143270.html",
+   "summary": "Pebblebrook Hotel Trust has completed the $10 million sale of The Hotel Zags, signaling continued efforts by the REIT to refine its property portfolio and reallocate capital amid changing market dynamics.",
+   "kind": "item",
+   "source": "HVS \u2014 market reports and event-impact studies (via Hotel News Resource)",
+   "source_id": "gl-hvs-market-reports",
+   "tier": 2,
+   "country": "GLOBAL",
+   "category": "trade",
+   "segments": [
+    "city"
+   ],
+   "first_seen": "2026-10-11T07:37+03:00",
+   "published": "2026-10-10",
+   "verdict": "weak"
+  },
+  {
+   "score": 60.3,
+   "components": {
+    "tier": 20,
+    "category": 4,
+    "lead": 0.0,
+    "relevance": 0,
+    "freshness": 8.3,
+    "corroborated": 10,
+    "shock": 18
+   },
+   "keywords": [],
+   "shock_terms": [
+    "attack"
+   ],
+   "dedupe_match": null,
+   "dedupe_similarity": 0.0,
+   "id": "30e8b52e2ac9",
+   "title": "Pregnant woman, husband murdered in Mubende attack",
+   "url": "https://www.monitor.co.ug/uganda/news/national/pregnant-woman-husband-murdered-in-mubende-attack-5627088",
+   "summary": "Wamala Region police spokesperson Lameck Kigozi said bodies were discovered at about 10am on...",
+   "kind": "item",
+   "source": "Daily Monitor (Uganda)",
+   "source_id": "np-monitor-ug",
+   "tier": 2,
+   "country": "UG",
+   "category": "press",
+   "segments": [
+    "city",
+    "bush",
+    "beach"
+   ],
+   "first_seen": "2026-10-10T21:16+03:00",
+   "published": "2026-10-10",
+   "verdict": "weak"
+  },
+  {
+   "score": 60.2,
    "components": {
     "tier": 20,
     "category": 4,
     "lead": 2.4,
     "relevance": 8,
-    "freshness": 19.8,
+    "freshness": 13.8,
     "undated": -6,
     "shock": 18
    },
@@ -475,49 +824,48 @@
    "verdict": "weak"
   },
   {
-   "score": 66.2,
+   "score": 59.9,
    "components": {
     "tier": 20,
-    "category": 4,
-    "lead": 0.0,
-    "relevance": 0,
-    "freshness": 14.2,
-    "corroborated": 10,
-    "shock": 18
+    "category": 5,
+    "lead": 1.2,
+    "relevance": 4,
+    "freshness": 19.7,
+    "corroborated": 10
    },
-   "keywords": [],
-   "shock_terms": [
-    "attack"
+   "keywords": [
+    "tourism"
    ],
+   "shock_terms": [],
    "dedupe_match": null,
-   "dedupe_similarity": 0.0,
-   "id": "30e8b52e2ac9",
-   "title": "Pregnant woman, husband murdered in Mubende attack",
-   "url": "https://www.monitor.co.ug/uganda/news/national/pregnant-woman-husband-murdered-in-mubende-attack-5627088",
-   "summary": "Wamala Region police spokesperson Lameck Kigozi said bodies were discovered at about 10am on...",
+   "dedupe_similarity": 0.12,
+   "id": "597455ecf6ed",
+   "title": "The War Is Changing the Economics of Saudi Tourism",
+   "url": "https://skift.com/2026/10/10/the-war-is-changing-the-economics-of-saudi-tourism",
+   "summary": "The war is raising the cost of attracting the international travelers Saudi Arabia needs to meet its tourism ambitions.",
    "kind": "item",
-   "source": "Daily Monitor (Uganda)",
-   "source_id": "np-monitor-ug",
+   "source": "Skift",
+   "source_id": "tp-skift",
    "tier": 2,
-   "country": "UG",
-   "category": "press",
+   "country": "GLOBAL",
+   "category": "trade",
    "segments": [
     "city",
     "bush",
     "beach"
    ],
-   "first_seen": "2026-10-10T21:16+03:00",
-   "published": "2026-10-10",
+   "first_seen": "2026-10-11T07:37+03:00",
+   "published": "2026-10-11",
    "verdict": "weak"
   },
   {
-   "score": 64.2,
+   "score": 58.2,
    "components": {
     "tier": 20,
     "category": 4,
     "lead": 2.4,
     "relevance": 8,
-    "freshness": 19.8,
+    "freshness": 13.8,
     "corroborated": 10
    },
    "keywords": [
@@ -547,13 +895,13 @@
    "verdict": "weak"
   },
   {
-   "score": 64.2,
+   "score": 58.2,
    "components": {
     "tier": 20,
     "category": 4,
     "lead": 2.4,
     "relevance": 8,
-    "freshness": 19.8,
+    "freshness": 13.8,
     "corroborated": 10
    },
    "keywords": [
@@ -582,13 +930,13 @@
    "verdict": "weak"
   },
   {
-   "score": 64.2,
+   "score": 58.2,
    "components": {
     "tier": 20,
     "category": 4,
     "lead": 2.4,
     "relevance": 8,
-    "freshness": 19.8,
+    "freshness": 13.8,
     "corroborated": 10
    },
    "keywords": [
@@ -617,13 +965,13 @@
    "verdict": "weak"
   },
   {
-   "score": 64.2,
+   "score": 58.2,
    "components": {
     "tier": 20,
     "category": 4,
     "lead": 2.4,
     "relevance": 8,
-    "freshness": 19.8,
+    "freshness": 13.8,
     "corroborated": 10
    },
    "keywords": [
@@ -652,13 +1000,13 @@
    "verdict": "weak"
   },
   {
-   "score": 64.2,
+   "score": 58.2,
    "components": {
     "tier": 20,
     "category": 4,
     "lead": 2.4,
     "relevance": 8,
-    "freshness": 19.8,
+    "freshness": 13.8,
     "corroborated": 10
    },
    "keywords": [
@@ -687,13 +1035,13 @@
    "verdict": "weak"
   },
   {
-   "score": 64.2,
+   "score": 58.2,
    "components": {
     "tier": 20,
     "category": 4,
     "lead": 2.4,
     "relevance": 8,
-    "freshness": 19.8,
+    "freshness": 13.8,
     "corroborated": 10
    },
    "keywords": [
@@ -722,13 +1070,13 @@
    "verdict": "weak"
   },
   {
-   "score": 64.2,
+   "score": 58.2,
    "components": {
     "tier": 20,
     "category": 4,
     "lead": 2.4,
     "relevance": 8,
-    "freshness": 19.8,
+    "freshness": 13.8,
     "corroborated": 10
    },
    "keywords": [
@@ -757,13 +1105,13 @@
    "verdict": "weak"
   },
   {
-   "score": 62.2,
+   "score": 56.2,
    "components": {
     "tier": 5,
     "category": 5,
     "lead": 2.4,
     "relevance": 20,
-    "freshness": 19.8,
+    "freshness": 13.8,
     "corroborated": 10
    },
    "keywords": [
@@ -794,13 +1142,212 @@
    "verdict": "weak"
   },
   {
-   "score": 61.5,
+   "score": 56.1,
+   "components": {
+    "tier": 20,
+    "category": 24,
+    "lead": 2.4,
+    "relevance": 0,
+    "freshness": 19.7,
+    "undated": -6,
+    "page_change": -4
+   },
+   "keywords": [],
+   "shock_terms": [],
+   "dedupe_match": null,
+   "dedupe_similarity": 0.12,
+   "id": "2f45b0aa92a0",
+   "title": "[page changed] ProMED-mail",
+   "url": "https://promedmail.org/",
+   "summary": "Protecting Global Health, One Alert at a Time | ProMED Previous slide Next slide Protecting Global Health, One Alert at a Time ProMED: Your 24/7 early warning system for emerging infectious diseases worldwide. Subscribe ProMED's Weekly Pulse A snapshot of global health events from the past 7 days Latest Posts on ProMED All Date Title Sun Oct 11 2026 TUBERCULOSIS - CROATIA: SUSPENSION OF BCG USE, B",
+   "kind": "page-change",
+   "source": "ProMED-mail",
+   "source_id": "promed",
+   "tier": 2,
+   "country": "GLOBAL",
+   "category": "health",
+   "segments": [
+    "city",
+    "bush",
+    "beach"
+   ],
+   "first_seen": "2026-10-11T07:37+03:00",
+   "published": null,
+   "verdict": "weak"
+  },
+  {
+   "score": 56.1,
+   "components": {
+    "tier": 20,
+    "category": 4,
+    "lead": 2.4,
+    "relevance": 0,
+    "freshness": 19.7,
+    "corroborated": 10
+   },
+   "keywords": [],
+   "shock_terms": [],
+   "dedupe_match": null,
+   "dedupe_similarity": 0.12,
+   "id": "acfd78709b76",
+   "title": "Ministry Takes Action at JOOTRH Over Healthcare Complaints",
+   "url": "https://www.kenyans.co.ke/news/127759-health-ministry-launches-probe-jootrh-over-patient-complaints",
+   "summary": "Members of the public have raised concerns over alleged negligence by staff at the facility, with several complaints surfacing on social media.",
+   "kind": "item",
+   "source": "Kenyans.co.ke news",
+   "source_id": "ke-kenyans",
+   "tier": 2,
+   "country": "KE",
+   "category": "press",
+   "segments": [
+    "city",
+    "bush",
+    "beach"
+   ],
+   "first_seen": "2026-10-11T07:37+03:00",
+   "published": "2026-10-11",
+   "verdict": "weak"
+  },
+  {
+   "score": 56.1,
+   "components": {
+    "tier": 20,
+    "category": 4,
+    "lead": 2.4,
+    "relevance": 0,
+    "freshness": 19.7,
+    "corroborated": 10
+   },
+   "keywords": [],
+   "shock_terms": [],
+   "dedupe_match": null,
+   "dedupe_similarity": 0.0,
+   "id": "749b74605825",
+   "title": "Sermon: Think of the Bible as a long letter from God",
+   "url": "https://nation.africa/kenya/life-and-style/lifestyle/sermon-think-of-the-bible-as-a-long-letter-from-god-5626876",
+   "summary": "Sacred scripture is God\u2019s way of speaking to you.",
+   "kind": "item",
+   "source": "Nation Africa: Kenya business",
+   "source_id": "ke-nation-business",
+   "tier": 2,
+   "country": "KE",
+   "category": "press",
+   "segments": [
+    "city",
+    "bush",
+    "beach"
+   ],
+   "first_seen": "2026-10-11T07:37+03:00",
+   "published": "2026-10-11",
+   "verdict": "weak"
+  },
+  {
+   "score": 56.1,
+   "components": {
+    "tier": 20,
+    "category": 4,
+    "lead": 2.4,
+    "relevance": 0,
+    "freshness": 19.7,
+    "corroborated": 10
+   },
+   "keywords": [],
+   "shock_terms": [],
+   "dedupe_match": null,
+   "dedupe_similarity": 0.12,
+   "id": "63b7ee3ba5fc",
+   "title": "Political control and tribalism hollowing out public varsities",
+   "url": "https://nation.africa/kenya/blogs-opinion/blogs/-political-control-and-tribalism-hollowing-out-public-varsities-5627262",
+   "summary": "True academic freedom and sustainable institutional growth cannot coexist with a feudal...",
+   "kind": "item",
+   "source": "Nation Africa: Kenya business",
+   "source_id": "ke-nation-business",
+   "tier": 2,
+   "country": "KE",
+   "category": "press",
+   "segments": [
+    "city",
+    "bush",
+    "beach"
+   ],
+   "first_seen": "2026-10-11T07:37+03:00",
+   "published": "2026-10-11",
+   "verdict": "weak"
+  },
+  {
+   "score": 56.1,
+   "components": {
+    "tier": 20,
+    "category": 4,
+    "lead": 2.4,
+    "relevance": 0,
+    "freshness": 19.7,
+    "corroborated": 10
+   },
+   "keywords": [],
+   "shock_terms": [],
+   "dedupe_match": null,
+   "dedupe_similarity": 0.1,
+   "id": "064cbc6490e7",
+   "title": "Turn WorldSkills wins into lasting gains for Africa",
+   "url": "https://nation.africa/kenya/blogs-opinion/blogs/turn-worldskills-wins-into-lasting-gains-for-africa-5627228",
+   "summary": "WorldSkills competitions expose gaps in equipment, curricula and trainer competence.",
+   "kind": "item",
+   "source": "Nation Africa: Kenya business",
+   "source_id": "ke-nation-business",
+   "tier": 2,
+   "country": "KE",
+   "category": "press",
+   "segments": [
+    "city",
+    "bush",
+    "beach"
+   ],
+   "first_seen": "2026-10-11T07:37+03:00",
+   "published": "2026-10-11",
+   "verdict": "weak"
+  },
+  {
+   "score": 56.1,
+   "components": {
+    "tier": 20,
+    "category": 4,
+    "lead": 2.4,
+    "relevance": 0,
+    "freshness": 19.7,
+    "corroborated": 10
+   },
+   "keywords": [],
+   "shock_terms": [],
+   "dedupe_match": null,
+   "dedupe_similarity": 0.0,
+   "id": "31db73390075",
+   "title": "School visits ban timely",
+   "url": "https://nation.africa/kenya/blogs-opinion/editorials/school-visits-ban-timely-5627462",
+   "summary": "Children should not be used to promote some people's political ambitions.",
+   "kind": "item",
+   "source": "Nation Africa: Kenya business",
+   "source_id": "ke-nation-business",
+   "tier": 2,
+   "country": "KE",
+   "category": "press",
+   "segments": [
+    "city",
+    "bush",
+    "beach"
+   ],
+   "first_seen": "2026-10-11T07:37+03:00",
+   "published": "2026-10-11",
+   "verdict": "weak"
+  },
+  {
+   "score": 55.6,
    "components": {
     "tier": 5,
     "category": 5,
     "lead": 2.4,
     "relevance": 28,
-    "freshness": 11.1,
+    "freshness": 5.2,
     "corroborated": 10
    },
    "keywords": [
@@ -833,13 +1380,13 @@
    "verdict": "weak"
   },
   {
-   "score": 60.2,
+   "score": 54.2,
    "components": {
     "tier": 20,
     "category": 4,
     "lead": 2.4,
     "relevance": 4,
-    "freshness": 19.8,
+    "freshness": 13.8,
     "corroborated": 10
    },
    "keywords": [
@@ -852,542 +1399,6 @@
    "title": "Opposition cracks emerge as Kalonzo recalls Wiper members campaigning with Sifuna",
    "url": "https://nation.africa/kenya/news/politics/opposition-cracks-emerge-as-kalonzo-recalls-wiper-members-campaigning-with-sifuna-5627086",
    "summary": "The move signals emerging contest within the opposition.",
-   "kind": "item",
-   "source": "Nation Africa: Kenya business",
-   "source_id": "ke-nation-business",
-   "tier": 2,
-   "country": "KE",
-   "category": "press",
-   "segments": [
-    "city",
-    "bush",
-    "beach"
-   ],
-   "first_seen": "2026-10-11T02:19+03:00",
-   "published": "2026-10-10",
-   "verdict": "weak"
-  },
-  {
-   "score": 58.2,
-   "components": {
-    "tier": 20,
-    "category": 4,
-    "lead": 2.4,
-    "relevance": 0,
-    "freshness": 19.8,
-    "undated": -6,
-    "shock": 18
-   },
-   "keywords": [],
-   "shock_terms": [
-    "attack"
-   ],
-   "dedupe_match": null,
-   "dedupe_similarity": 0.0,
-   "id": "862f84dfa076",
-   "title": "Kasese Woman Dies After Mob Attack Over Poisoning of Four-Year-Old Boy",
-   "url": "https://nilepost.co.ug/crime/377041/kasese-woman-dies-after-mob-attack-over-poisoning-of-four-year-old-boy",
-   "summary": "",
-   "kind": "item",
-   "source": "Nile Post (Uganda)",
-   "source_id": "ug-nilepost",
-   "tier": 2,
-   "country": "UG",
-   "category": "press",
-   "segments": [
-    "city",
-    "bush",
-    "beach"
-   ],
-   "first_seen": "2026-10-11T02:19+03:00",
-   "published": null,
-   "verdict": "weak"
-  },
-  {
-   "score": 57.8,
-   "components": {
-    "tier": 20,
-    "category": 4,
-    "lead": 0.0,
-    "relevance": 4,
-    "freshness": 19.8,
-    "corroborated": 10
-   },
-   "keywords": [
-    "camp"
-   ],
-   "shock_terms": [],
-   "dedupe_match": null,
-   "dedupe_similarity": 0.25,
-   "id": "d6c58ab6263e",
-   "title": "Ministers Mao, Ayebare clash over ICC exit threats, Otunnu\u2019s UN bid",
-   "url": "https://www.monitor.co.ug/uganda/news/national/ministers-mao-ayebare-clash-over-icc-exit-threats-otunnu-s-un-bid-5627174",
-   "summary": "\"Now when Olara Otunnu\u2019s campaign dies, your fingerprints will be all over the murder weapon!",
-   "kind": "item",
-   "source": "Daily Monitor (Uganda)",
-   "source_id": "np-monitor-ug",
-   "tier": 2,
-   "country": "UG",
-   "category": "press",
-   "segments": [
-    "city",
-    "bush",
-    "beach"
-   ],
-   "first_seen": "2026-10-11T02:19+03:00",
-   "published": "2026-10-10",
-   "verdict": "weak"
-  },
-  {
-   "score": 57.1,
-   "components": {
-    "tier": 20,
-    "category": 4,
-    "lead": 0.0,
-    "relevance": 12,
-    "freshness": 11.1,
-    "corroborated": 10
-   },
-   "keywords": [
-    "advisory"
-   ],
-   "shock_terms": [],
-   "dedupe_match": null,
-   "dedupe_similarity": 0.2,
-   "id": "17ce891715b9",
-   "title": "Dr Nchemba meets investors, institutions in UK to outline Tanzania\u2019s national priorities",
-   "url": "https://dailynews.co.tz/dr-nchemba-meets-investors-institutions-in-uk-to-outline-tanzanias-national-priorities",
-   "summary": "LONDON: PRIME Minister Mwigulu Nchemba has met investors and representatives of various institutions at Chatham House, a leading international affairs research and analysis institute in London, United Kingdom, where he outlined Tanzania\u2019s current national priorities. Chatham House is a research and strategic advisory institution that brings together experts, academics and researchers to conduct in",
-   "kind": "item",
-   "source": "Daily News (Tanzania)",
-   "source_id": "np-dailynews-tz",
-   "tier": 2,
-   "country": "TZ",
-   "category": "press",
-   "segments": [
-    "city",
-    "bush",
-    "beach"
-   ],
-   "first_seen": "2026-10-10T18:25+03:00",
-   "published": "2026-10-10",
-   "verdict": "weak"
-  },
-  {
-   "score": 56.2,
-   "components": {
-    "tier": 20,
-    "category": 24,
-    "lead": 2.4,
-    "relevance": 0,
-    "freshness": 19.8,
-    "undated": -6,
-    "page_change": -4
-   },
-   "keywords": [],
-   "shock_terms": [],
-   "dedupe_match": null,
-   "dedupe_similarity": 0.12,
-   "id": "74a5d1c6d065",
-   "title": "[page changed] ProMED-mail",
-   "url": "https://promedmail.org/",
-   "summary": "Protecting Global Health, One Alert at a Time | ProMED Previous slide Next slide Protecting Global Health, One Alert at a Time ProMED: Your 24/7 early warning system for emerging infectious diseases worldwide. Subscribe ProMED's Weekly Pulse A snapshot of global health events from the past 7 days Latest Posts on ProMED All Date Title Sat Oct 10 2026 AFRICAN SWINE FEVER - VIET NAM (41): (TUYEN QUAN",
-   "kind": "page-change",
-   "source": "ProMED-mail",
-   "source_id": "promed",
-   "tier": 2,
-   "country": "GLOBAL",
-   "category": "health",
-   "segments": [
-    "city",
-    "bush",
-    "beach"
-   ],
-   "first_seen": "2026-10-11T02:19+03:00",
-   "published": null,
-   "verdict": "weak"
-  },
-  {
-   "score": 56.2,
-   "components": {
-    "tier": 20,
-    "category": 4,
-    "lead": 2.4,
-    "relevance": 0,
-    "freshness": 19.8,
-    "corroborated": 10
-   },
-   "keywords": [],
-   "shock_terms": [],
-   "dedupe_match": null,
-   "dedupe_similarity": 0.2,
-   "id": "5f8ce41280d8",
-   "title": "Kenya Met Unveils List of Counties to Receive Rains This Weekend",
-   "url": "https://www.kenyans.co.ke/news/127758-kenya-met-lists-nairobi-among-counties-receive-rains-weekend",
-   "summary": "Kenya Met also forecast cold nights, particularly in the Mt Kenya region, with Nyandarua expected to record the lowest minimum night temperature of 5\u00b0C.",
-   "kind": "item",
-   "source": "Kenyans.co.ke news",
-   "source_id": "ke-kenyans",
-   "tier": 2,
-   "country": "KE",
-   "category": "press",
-   "segments": [
-    "city",
-    "bush",
-    "beach"
-   ],
-   "first_seen": "2026-10-11T02:19+03:00",
-   "published": "2026-10-10",
-   "verdict": "weak"
-  },
-  {
-   "score": 56.2,
-   "components": {
-    "tier": 20,
-    "category": 4,
-    "lead": 2.4,
-    "relevance": 0,
-    "freshness": 19.8,
-    "corroborated": 10
-   },
-   "keywords": [],
-   "shock_terms": [],
-   "dedupe_match": null,
-   "dedupe_similarity": 0.14,
-   "id": "5cbae12ad3b9",
-   "title": "Steel & Tube wins two awards at Uganda International Trade Fair",
-   "url": "https://www.independent.co.ug/steel-tube-wins-two-awards-at-uganda-international-trade-fair",
-   "summary": "Kampala, Uganda | THE INDEPENDENT | Steel & Tube Industries Ltd has won two awards at the 32nd Uganda International Trade Fair (UGITF) 2026, organised by the Uganda Manufacturers Association (UMA). The company was named Best Sector Exhibitor in Building, Construction and Housing Technology and received an Appreciation Award for its in-kind partnership with the \u2026 The post Steel & Tube wins two awar",
-   "kind": "item",
-   "source": "The Independent (Uganda)",
-   "source_id": "ug-independent",
-   "tier": 2,
-   "country": "UG",
-   "category": "press",
-   "segments": [
-    "city",
-    "bush",
-    "beach"
-   ],
-   "first_seen": "2026-10-11T02:19+03:00",
-   "published": "2026-10-10",
-   "verdict": "weak"
-  },
-  {
-   "score": 56.2,
-   "components": {
-    "tier": 20,
-    "category": 4,
-    "lead": 2.4,
-    "relevance": 0,
-    "freshness": 19.8,
-    "corroborated": 10
-   },
-   "keywords": [],
-   "shock_terms": [],
-   "dedupe_match": null,
-   "dedupe_similarity": 0.0,
-   "id": "624131659e29",
-   "title": "Three years into Gaza conflict: Destruction, deadlock and regional fallout",
-   "url": "https://www.independent.co.ug/three-years-into-gaza-conflict-destruction-deadlock-and-regional-fallout",
-   "summary": "CAIRO, EGYPT | Xinhua | Three years after the Gaza conflict broke out on Oct. 7, 2023, the coastal enclave lies in ruins and tens of thousands have been killed. A ceasefire has been reached, but the fundamental deadlock remains unresolved. Analysts contend that irreconcilable differences between Palestinian and Israeli demands, coupled with the United \u2026 The post Three years into Gaza conflict: Des",
-   "kind": "item",
-   "source": "The Independent (Uganda)",
-   "source_id": "ug-independent",
-   "tier": 2,
-   "country": "UG",
-   "category": "press",
-   "segments": [
-    "city",
-    "bush",
-    "beach"
-   ],
-   "first_seen": "2026-10-11T02:19+03:00",
-   "published": "2026-10-10",
-   "verdict": "weak"
-  },
-  {
-   "score": 56.2,
-   "components": {
-    "tier": 20,
-    "category": 4,
-    "lead": 2.4,
-    "relevance": 0,
-    "freshness": 19.8,
-    "corroborated": 10
-   },
-   "keywords": [],
-   "shock_terms": [],
-   "dedupe_match": null,
-   "dedupe_similarity": 0.1,
-   "id": "233bd8ddaa60",
-   "title": "Mombasa United in seventh heaven after Premier League promotion",
-   "url": "https://nation.africa/kenya/sports/football/mombasa-united-seventh-heaven-premier-league-promotion-5627458",
-   "summary": "Coastal side awarded the promotion play-off match that ended in chaos.",
-   "kind": "item",
-   "source": "Nation Africa: Kenya business",
-   "source_id": "ke-nation-business",
-   "tier": 2,
-   "country": "KE",
-   "category": "press",
-   "segments": [
-    "city",
-    "bush",
-    "beach"
-   ],
-   "first_seen": "2026-10-11T02:19+03:00",
-   "published": "2026-10-10",
-   "verdict": "weak"
-  },
-  {
-   "score": 56.2,
-   "components": {
-    "tier": 20,
-    "category": 4,
-    "lead": 2.4,
-    "relevance": 0,
-    "freshness": 19.8,
-    "corroborated": 10
-   },
-   "keywords": [],
-   "shock_terms": [],
-   "dedupe_match": null,
-   "dedupe_similarity": 0.14,
-   "id": "6e37ac41d04e",
-   "title": "Seven Continents, one message: Kipchoge\u2019s unity and literacy mission lands in Melbourne",
-   "url": "https://nation.africa/kenya/sports/athletics/seven-continents-one-message-kipchoge-s-unity-and-literacy-mission-lands-in-melbourne-5627432",
-   "summary": "At 41, the two-time Olympic champion is no longer chasing records or podium finishes.",
-   "kind": "item",
-   "source": "Nation Africa: Kenya business",
-   "source_id": "ke-nation-business",
-   "tier": 2,
-   "country": "KE",
-   "category": "press",
-   "segments": [
-    "city",
-    "bush",
-    "beach"
-   ],
-   "first_seen": "2026-10-11T02:19+03:00",
-   "published": "2026-10-10",
-   "verdict": "weak"
-  },
-  {
-   "score": 56.2,
-   "components": {
-    "tier": 20,
-    "category": 4,
-    "lead": 2.4,
-    "relevance": 0,
-    "freshness": 19.8,
-    "corroborated": 10
-   },
-   "keywords": [],
-   "shock_terms": [],
-   "dedupe_match": null,
-   "dedupe_similarity": 0.2,
-   "id": "a8849de25640",
-   "title": "Kenya opposes US sanctions on the ICC",
-   "url": "https://nation.africa/kenya/news/kenya-opposes-us-sanctions-on-the-icc-5627416",
-   "summary": "Kenya rallied behind the tribunal amid growing confrontation with the United States.",
-   "kind": "item",
-   "source": "Nation Africa: Kenya business",
-   "source_id": "ke-nation-business",
-   "tier": 2,
-   "country": "KE",
-   "category": "press",
-   "segments": [
-    "city",
-    "bush",
-    "beach"
-   ],
-   "first_seen": "2026-10-11T02:19+03:00",
-   "published": "2026-10-10",
-   "verdict": "weak"
-  },
-  {
-   "score": 56.2,
-   "components": {
-    "tier": 20,
-    "category": 4,
-    "lead": 2.4,
-    "relevance": 0,
-    "freshness": 19.8,
-    "corroborated": 10
-   },
-   "keywords": [],
-   "shock_terms": [],
-   "dedupe_match": null,
-   "dedupe_similarity": 0.0,
-   "id": "6bd6a85484ef",
-   "title": "US imposes sanctions on International Criminal Court, hours after former judge wins Nobel",
-   "url": "https://nation.africa/kenya/news/world/us-imposes-sanctions-on-international-criminal-court-hours-after-former-judge-wins-nobel-5627270",
-   "summary": "The Trump administration has long been hostile to the court.",
-   "kind": "item",
-   "source": "Nation Africa: Kenya business",
-   "source_id": "ke-nation-business",
-   "tier": 2,
-   "country": "KE",
-   "category": "press",
-   "segments": [
-    "city",
-    "bush",
-    "beach"
-   ],
-   "first_seen": "2026-10-11T02:19+03:00",
-   "published": "2026-10-10",
-   "verdict": "weak"
-  },
-  {
-   "score": 56.2,
-   "components": {
-    "tier": 20,
-    "category": 4,
-    "lead": 2.4,
-    "relevance": 0,
-    "freshness": 19.8,
-    "corroborated": 10
-   },
-   "keywords": [],
-   "shock_terms": [],
-   "dedupe_match": null,
-   "dedupe_similarity": 0.2,
-   "id": "dcb8c676cde5",
-   "title": "Kenya\u2019s golden girl Madina Okot writes more history in WNBA",
-   "url": "https://nation.africa/kenya/sports/basketball/kenya-s-golden-girl-madina-okot-writes-more-history-in-wnba-5627216",
-   "summary": "In April she became first Kenyan to be drafted into America's WNBA.",
-   "kind": "item",
-   "source": "Nation Africa: Kenya business",
-   "source_id": "ke-nation-business",
-   "tier": 2,
-   "country": "KE",
-   "category": "press",
-   "segments": [
-    "city",
-    "bush",
-    "beach"
-   ],
-   "first_seen": "2026-10-11T02:19+03:00",
-   "published": "2026-10-10",
-   "verdict": "weak"
-  },
-  {
-   "score": 56.2,
-   "components": {
-    "tier": 20,
-    "category": 4,
-    "lead": 2.4,
-    "relevance": 0,
-    "freshness": 19.8,
-    "corroborated": 10
-   },
-   "keywords": [],
-   "shock_terms": [],
-   "dedupe_match": null,
-   "dedupe_similarity": 0.0,
-   "id": "ab7fb71e652b",
-   "title": "Ruto unveils aerial seeding plan to accelerate 15bn tree target",
-   "url": "https://nation.africa/kenya/counties/nakuru/ruto-unveils-aerial-seeding-plan-to-accelerate-15bn-tree-target-5627194",
-   "summary": "5.3 million trees planted across the country during this year\u2019s Mazingira Day celebrations.",
-   "kind": "item",
-   "source": "Nation Africa: Kenya business",
-   "source_id": "ke-nation-business",
-   "tier": 2,
-   "country": "KE",
-   "category": "press",
-   "segments": [
-    "city",
-    "bush",
-    "beach"
-   ],
-   "first_seen": "2026-10-11T02:19+03:00",
-   "published": "2026-10-10",
-   "verdict": "weak"
-  },
-  {
-   "score": 56.2,
-   "components": {
-    "tier": 20,
-    "category": 4,
-    "lead": 2.4,
-    "relevance": 0,
-    "freshness": 19.8,
-    "corroborated": 10
-   },
-   "keywords": [],
-   "shock_terms": [],
-   "dedupe_match": null,
-   "dedupe_similarity": 0.2,
-   "id": "c998653923fb",
-   "title": "Naivasha Special Economic Zone for EAC countries roars to life",
-   "url": "https://nation.africa/kenya/counties/nakuru/naivasha-special-economic-zone-for-eac-countries-roars-to-life-5627122",
-   "summary": "Kenya allocated each East African nation 10 acres.",
-   "kind": "item",
-   "source": "Nation Africa: Kenya business",
-   "source_id": "ke-nation-business",
-   "tier": 2,
-   "country": "KE",
-   "category": "press",
-   "segments": [
-    "city",
-    "bush",
-    "beach"
-   ],
-   "first_seen": "2026-10-11T02:19+03:00",
-   "published": "2026-10-10",
-   "verdict": "weak"
-  },
-  {
-   "score": 56.2,
-   "components": {
-    "tier": 20,
-    "category": 4,
-    "lead": 2.4,
-    "relevance": 0,
-    "freshness": 19.8,
-    "corroborated": 10
-   },
-   "keywords": [],
-   "shock_terms": [],
-   "dedupe_match": null,
-   "dedupe_similarity": 0.2,
-   "id": "143912465235",
-   "title": "Prof Okoth Raburu, scholar who read Kenya\u2019s waters and raised guardians",
-   "url": "https://nation.africa/kenya/life-and-style/weekend/prof-okoth-raburu-scholar-who-read-kenya-s-waters-and-raised-guardians-5627372",
-   "summary": "For more than three decades he trained many of those who now study, monitor and manage Kenya\u2019s...",
-   "kind": "item",
-   "source": "Nation Africa: Kenya business",
-   "source_id": "ke-nation-business",
-   "tier": 2,
-   "country": "KE",
-   "category": "press",
-   "segments": [
-    "city",
-    "bush",
-    "beach"
-   ],
-   "first_seen": "2026-10-11T02:19+03:00",
-   "published": "2026-10-10",
-   "verdict": "weak"
-  },
-  {
-   "score": 56.2,
-   "components": {
-    "tier": 20,
-    "category": 4,
-    "lead": 2.4,
-    "relevance": 0,
-    "freshness": 19.8,
-    "corroborated": 10
-   },
-   "keywords": [],
-   "shock_terms": [],
-   "dedupe_match": null,
-   "dedupe_similarity": 0.11,
-   "id": "f4fcd02bec2a",
-   "title": "Who will save Lakes Baringo and Bogoria as rising water levels threaten to merge them?",
-   "url": "https://nation.africa/kenya/videos/who-will-save-lakes-baringo-and-bogoria-as-rising-water-levels-threaten-to-merge-them--5626948",
-   "summary": "",
    "kind": "item",
    "source": "Nation Africa: Kenya business",
    "source_id": "ke-nation-business",
