@@ -1,5 +1,14 @@
 window.GUIDES = [
  {
+  "slug": "east-africa-hotel-debt-k-premium",
+  "title": "Three central banks held their rates this week. The number that decides whether your lodge gets built was not one of them.",
+  "description": "Kenya has cut its policy rate by 425 basis points and the average commercial lending rate has stalled at 14.4 per cent. Since 28 February every variable shilling loan has been priced off a common base rate, which means the whole of the difference between a hotel paying 11 per cent and one paying 18 per cent now sits in a premium each bank sets borrower by borrower. For East African hospitality, the cost of capital has stopped being a monetary story and become a documentation one.",
+  "category": "Big Read",
+  "updated": "2026-10-11",
+  "readMins": 9,
+  "image": "img/editions/east-africa-hotel-debt-k-premium.jpg"
+ },
+ {
   "slug": "kenya-who-counts-the-beds",
   "title": "Europe spent six years learning to count its beds. Kenya is proposing to abolish the office that counts.",
   "description": "The Tourism (Amendment) Bill, 2026 would fold the Tourism Research Institute into the Kenya Tourism Board, moving statistics into a marketing agency in the same year the tourism levy missed its target by a billion shillings because nobody has counted the short-term rentals it was meant to cover. Kenya's headline arrivals figure this month came from the Government Delivery Unit, not from the institute with the statutory mandate to count.",
