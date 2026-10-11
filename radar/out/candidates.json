@@ -1,18 +1,18 @@
 {
- "generated": "2026-10-11T13:06:08+03:00",
+ "generated": "2026-10-11T15:17:50+03:00",
  "slot": "midday",
  "window_start": 1791691200,
- "observations_in_window": 241,
+ "observations_in_window": 295,
  "deduped_against": 24,
  "candidates": [
   {
-   "score": 111.8,
+   "score": 109.4,
    "components": {
     "tier": 40,
     "category": 32,
     "lead": 12.0,
     "relevance": 8,
-    "freshness": 13.8,
+    "freshness": 11.4,
     "corroborated": 10,
     "page_change": -4
    },
@@ -41,13 +41,13 @@
    "verdict": "OPEN THIS \u2014 tier-1 advisory page moved; content not auto-parsed, read it manually"
   },
   {
-   "score": 59.3,
+   "score": 56.9,
    "components": {
     "tier": 40,
     "category": 12,
     "lead": 3.6,
     "relevance": 0,
-    "freshness": 13.7,
+    "freshness": 11.3,
     "undated": -6,
     "page_change": -4
    },
@@ -75,13 +75,13 @@
    "verdict": "OPEN THIS \u2014 tier-1 airline page moved; content not auto-parsed, read it manually"
   },
   {
-   "score": 96.2,
+   "score": 93.8,
    "components": {
     "tier": 5,
     "category": 5,
     "lead": 2.4,
     "relevance": 36,
-    "freshness": 19.8,
+    "freshness": 17.4,
     "corroborated": 10,
     "shock": 18
    },
@@ -116,13 +116,52 @@
    "verdict": "CONSIDER"
   },
   {
-   "score": 92.2,
+   "score": 91.8,
+   "components": {
+    "tier": 20,
+    "category": 4,
+    "lead": 0.0,
+    "relevance": 20,
+    "freshness": 19.8,
+    "corroborated": 10,
+    "shock": 18
+   },
+   "keywords": [
+    "suspend",
+    "airport"
+   ],
+   "shock_terms": [
+    "attack"
+   ],
+   "dedupe_match": null,
+   "dedupe_similarity": 0.12,
+   "id": "f6777309cc34",
+   "title": "Yemen's Houthis renew warning over Saudi airports after deadly Riyadh attack",
+   "url": "https://www.monitor.co.ug/uganda/news/world/yemen-s-houthis-renew-warning-over-saudi-airports-after-deadly-riyadh-attack-5627828",
+   "summary": "Saudi Arabia's civil aviation authority said airport operations were temporarily suspended",
+   "kind": "item",
+   "source": "Daily Monitor (Uganda)",
+   "source_id": "np-monitor-ug",
+   "tier": 2,
+   "country": "UG",
+   "category": "press",
+   "segments": [
+    "city",
+    "bush",
+    "beach"
+   ],
+   "first_seen": "2026-10-11T15:17+03:00",
+   "published": "2026-10-11",
+   "verdict": "CONSIDER"
+  },
+  {
+   "score": 89.8,
    "components": {
     "tier": 20,
     "category": 14,
     "lead": 8.4,
     "relevance": 20,
-    "freshness": 19.8,
+    "freshness": 17.4,
     "corroborated": 10
    },
    "keywords": [
@@ -153,13 +192,13 @@
    "verdict": "CONSIDER"
   },
   {
-   "score": 90.2,
+   "score": 87.8,
    "components": {
     "tier": 20,
     "category": 4,
     "lead": 2.4,
     "relevance": 16,
-    "freshness": 19.8,
+    "freshness": 17.4,
     "corroborated": 10,
     "shock": 18
    },
@@ -193,13 +232,13 @@
    "verdict": "CONSIDER"
   },
   {
-   "score": 88.2,
+   "score": 85.8,
    "components": {
     "tier": 20,
     "category": 14,
     "lead": 8.4,
     "relevance": 16,
-    "freshness": 19.8,
+    "freshness": 17.4,
     "corroborated": 10
    },
    "keywords": [
@@ -243,6 +282,39 @@
    "shock_terms": [],
    "dedupe_match": null,
    "dedupe_similarity": 0.2,
+   "id": "61ebd5fb4cbb",
+   "title": "[page changed] Federal Register \u2014 public inspection (HHS/CDC), pre-publication",
+   "url": "https://www.federalregister.gov/api/v1/public-inspection-documents/current.json",
+   "summary": "{\"count\":108,\"results\":[{\"agencies\":[{\"raw_name\":\"Federal Aviation Administration\",\"name\":\"Federal Aviation Administration\",\"id\":159,\"url\":\"https://www.federalregister.gov/agencies/federal-aviation-administration\",\"json_url\":\"https://www.federalregister.gov/api/v1/agencies/159\",\"parent_id\":492,\"slug\":\"federal-aviation-administration\"}],\"agency_letters\":[],\"agency_names\":[\"Federal Aviation Administ",
+   "kind": "page-change",
+   "source": "Federal Register \u2014 public inspection (HHS/CDC), pre-publication",
+   "source_id": "us-fedreg-pubinspect-hhs",
+   "tier": 1,
+   "country": "REG",
+   "category": "advisory",
+   "segments": [
+    "city",
+    "bush"
+   ],
+   "first_seen": "2026-10-11T15:17+03:00",
+   "published": "2026-10-08",
+   "verdict": "CHECK \u2014 source date older than the window"
+  },
+  {
+   "score": 79.0,
+   "components": {
+    "tier": 40,
+    "category": 32,
+    "lead": 3.6,
+    "relevance": 0,
+    "freshness": 17.4,
+    "stale_trap": -10,
+    "page_change": -4
+   },
+   "keywords": [],
+   "shock_terms": [],
+   "dedupe_match": null,
+   "dedupe_similarity": 0.2,
    "id": "f890db75832e",
    "title": "[page changed] Federal Register \u2014 public inspection (HHS/CDC), pre-publication",
    "url": "https://www.federalregister.gov/api/v1/public-inspection-documents/current.json",
@@ -262,13 +334,13 @@
    "verdict": "CHECK \u2014 source date older than the window"
   },
   {
-   "score": 79.8,
+   "score": 77.4,
    "components": {
     "tier": 20,
     "category": 4,
     "lead": 0.0,
     "relevance": 8,
-    "freshness": 19.8,
+    "freshness": 17.4,
     "corroborated": 10,
     "shock": 18
    },
@@ -301,13 +373,13 @@
    "verdict": "CONSIDER"
   },
   {
-   "score": 79.8,
+   "score": 77.4,
    "components": {
     "tier": 20,
     "category": 4,
     "lead": 0.0,
     "relevance": 8,
-    "freshness": 19.8,
+    "freshness": 17.4,
     "corroborated": 10,
     "shock": 18
    },
@@ -339,13 +411,13 @@
    "verdict": "CONSIDER"
   },
   {
-   "score": 78.2,
+   "score": 75.8,
    "components": {
     "tier": 5,
     "category": 5,
     "lead": 2.4,
     "relevance": 36,
-    "freshness": 19.8,
+    "freshness": 17.4,
     "corroborated": 10
    },
    "keywords": [
@@ -378,13 +450,48 @@
    "verdict": "CONSIDER"
   },
   {
-   "score": 76.2,
+   "score": 74.4,
+   "components": {
+    "tier": 20,
+    "category": 9,
+    "lead": 3.6,
+    "relevance": 12,
+    "freshness": 19.8,
+    "corroborated": 10
+   },
+   "keywords": [
+    "eta",
+    "summit"
+   ],
+   "shock_terms": [],
+   "dedupe_match": null,
+   "dedupe_similarity": 0.1,
+   "id": "68ae4de6eca4",
+   "title": "Panel-Diskussion beim RTG-Summit (+Galerien): Uwe Mohr fordert neue Ma\u00dfst\u00e4be beim Provisionsmodell",
+   "url": "https://www.fvw.de/touristik/vertrieb/panel-diskussion-beim-rtg-summit-uwe-mohr-will-neue-massstaebe-beim-provisionsmodell-setzen-265183",
+   "summary": "Alltours-Vertriebschef Uwe Mohr bringt eine neue Berechnungsgrundlage f\u00fcr Provisionen ins Spiel. Statt allein auf den Umsatz zu schauen, k\u00f6nnten k\u00fcnftig die G\u00e4stezahlen st\u00e4rker z\u00e4hlen. Ein m\u00f6glicher Hebel gegen Cashback? Die Details der Diskussion, an der auch Ilka Lauenroth (TUI), Georg Welbers (Dertour), Koray \u00c7avdir (Coral Travel), Detlef Schroer (Schauinsland) und RTK-Chef Thomas B\u00f6sl teilnahm",
+   "kind": "item",
+   "source": "FVW / German travel trade",
+   "source_id": "sm-derreise",
+   "tier": 2,
+   "country": "GLOBAL",
+   "category": "source-market",
+   "segments": [
+    "beach",
+    "bush"
+   ],
+   "first_seen": "2026-10-11T15:17+03:00",
+   "published": "2026-10-09",
+   "verdict": "CONSIDER"
+  },
+  {
+   "score": 73.8,
    "components": {
     "tier": 20,
     "category": 4,
     "lead": 2.4,
     "relevance": 20,
-    "freshness": 19.8,
+    "freshness": 17.4,
     "corroborated": 10
    },
    "keywords": [
@@ -415,13 +522,13 @@
    "verdict": "CONSIDER"
   },
   {
-   "score": 75.4,
+   "score": 72.9,
    "components": {
     "tier": 40,
     "category": 32,
     "lead": 3.6,
     "relevance": 0,
-    "freshness": 13.8,
+    "freshness": 11.3,
     "stale_trap": -10,
     "page_change": -4
    },
@@ -453,8 +560,118 @@
     "tier": 20,
     "category": 4,
     "lead": 0.0,
-    "relevance": 0,
+    "relevance": 16,
     "freshness": 19.8,
+    "undated": -6,
+    "shock": 18
+   },
+   "keywords": [
+    "airport",
+    "strike"
+   ],
+   "shock_terms": [
+    "strike"
+   ],
+   "dedupe_match": null,
+   "dedupe_similarity": 0.14,
+   "id": "20ef61c1dec7",
+   "title": "World Airport strike kills 12, Saudi coalition vows 'decisive' response \"I was on gate 403,\" the witness said. \"I saw 401 hit, I saw injured in front of my eyes. Everyone was running.\"",
+   "url": "https://www.newvision.co.ug/category/world/airport-strike-kills-12-saudi-coalition-vows-NV_242228_102026",
+   "summary": "",
+   "kind": "item",
+   "source": "New Vision (Uganda)",
+   "source_id": "np-newvision-ug",
+   "tier": 2,
+   "country": "UG",
+   "category": "press",
+   "segments": [
+    "city",
+    "bush",
+    "beach"
+   ],
+   "first_seen": "2026-10-11T15:17+03:00",
+   "published": null,
+   "verdict": "CONSIDER"
+  },
+  {
+   "score": 70.4,
+   "components": {
+    "tier": 20,
+    "category": 9,
+    "lead": 3.6,
+    "relevance": 8,
+    "freshness": 19.8,
+    "corroborated": 10
+   },
+   "keywords": [
+    "tourist",
+    "summit"
+   ],
+   "shock_terms": [],
+   "dedupe_match": null,
+   "dedupe_similarity": 0.1,
+   "id": "48e4a5580a03",
+   "title": "Dialogtage (+ zwei Galerien): So r\u00fcstet Dertour das Krisenmanagement mit KI auf",
+   "url": "https://www.fvw.de/touristik/vertrieb/dialogtage--zwei-galerien-so-ruestet-dertour-das-krisenmanagement-mit-ki-auf-265191",
+   "summary": "Dertour setzt in der Krisenbew\u00e4ltigung verst\u00e4rkt auf KI und Pr\u00e4vention. Das skizzierte Melanie Gerhardt (Dertour) beim Summit auf den Dialogtagen der Raiffeisen Touristik Group (RTG). Sie erl\u00e4uterte, warum ein Busfahrermangel die Planung heute ver\u00e4ndern kann und wie die Reiseb\u00fcros zu Krisenmanagern werden sollen.",
+   "kind": "item",
+   "source": "FVW / German travel trade",
+   "source_id": "sm-derreise",
+   "tier": 2,
+   "country": "GLOBAL",
+   "category": "source-market",
+   "segments": [
+    "beach",
+    "bush"
+   ],
+   "first_seen": "2026-10-11T15:17+03:00",
+   "published": "2026-10-10",
+   "verdict": "CONSIDER"
+  },
+  {
+   "score": 69.8,
+   "components": {
+    "tier": 20,
+    "category": 4,
+    "lead": 0.0,
+    "relevance": 16,
+    "freshness": 19.8,
+    "corroborated": 10
+   },
+   "keywords": [
+    "protest",
+    "election"
+   ],
+   "shock_terms": [],
+   "dedupe_match": null,
+   "dedupe_similarity": 0.08,
+   "id": "3b43f6d37b4c",
+   "title": "India protest against election chief continues as 'cockroach' youth leaders released",
+   "url": "https://www.monitor.co.ug/uganda/news/world/india-protest-against-election-chief-continues-as-cockroach-youth-leaders-released-5627908",
+   "summary": "Indian Gen Z movement steps up pressure on election chief over voter lists.",
+   "kind": "item",
+   "source": "Daily Monitor (Uganda)",
+   "source_id": "np-monitor-ug",
+   "tier": 2,
+   "country": "UG",
+   "category": "press",
+   "segments": [
+    "city",
+    "bush",
+    "beach"
+   ],
+   "first_seen": "2026-10-11T15:17+03:00",
+   "published": "2026-10-11",
+   "verdict": "weak"
+  },
+  {
+   "score": 69.4,
+   "components": {
+    "tier": 20,
+    "category": 4,
+    "lead": 0.0,
+    "relevance": 0,
+    "freshness": 17.4,
     "corroborated": 10,
     "shock": 18
    },
@@ -481,16 +698,16 @@
    ],
    "first_seen": "2026-10-11T13:05+03:00",
    "published": "2026-10-11",
-   "verdict": "CONSIDER"
+   "verdict": "weak"
   },
   {
-   "score": 70.8,
+   "score": 68.4,
    "components": {
     "tier": 40,
     "category": 5,
     "lead": 12.0,
     "relevance": 0,
-    "freshness": 19.8,
+    "freshness": 17.4,
     "undated": -6
    },
    "keywords": [],
@@ -514,16 +731,16 @@
    ],
    "first_seen": "2026-10-11T13:05+03:00",
    "published": null,
-   "verdict": "CONSIDER"
+   "verdict": "weak"
   },
   {
-   "score": 68.2,
+   "score": 65.8,
    "components": {
     "tier": 20,
     "category": 4,
     "lead": 2.4,
     "relevance": 12,
-    "freshness": 19.8,
+    "freshness": 17.4,
     "corroborated": 10
    },
    "keywords": [
@@ -552,13 +769,13 @@
    "verdict": "weak"
   },
   {
-   "score": 68.2,
+   "score": 65.8,
    "components": {
     "tier": 20,
     "category": 4,
     "lead": 2.4,
     "relevance": 12,
-    "freshness": 19.8,
+    "freshness": 17.4,
     "corroborated": 10
    },
    "keywords": [
@@ -588,13 +805,49 @@
    "verdict": "weak"
   },
   {
-   "score": 66.2,
+   "score": 64.0,
+   "components": {
+    "tier": 20,
+    "category": 5,
+    "lead": 1.2,
+    "relevance": 8,
+    "freshness": 19.8,
+    "corroborated": 10
+   },
+   "keywords": [
+    "booking",
+    "summit"
+   ],
+   "shock_terms": [],
+   "dedupe_match": null,
+   "dedupe_similarity": 0.2,
+   "id": "de6297862199",
+   "title": "Travel AI\u2019s Prove-It Phase, Visibility, and the Booking Gap",
+   "url": "https://skift.com/2026/10/11/travel-ais-prove-it-phase-visibility-and-the-booking-gap",
+   "summary": "Skift's Data + AI Summit in Europe this week just showed that AI may be changing travel distribution and internal operations, but booking volume is another story.",
+   "kind": "item",
+   "source": "Skift",
+   "source_id": "tp-skift",
+   "tier": 2,
+   "country": "GLOBAL",
+   "category": "trade",
+   "segments": [
+    "city",
+    "bush",
+    "beach"
+   ],
+   "first_seen": "2026-10-11T15:17+03:00",
+   "published": "2026-10-11",
+   "verdict": "weak"
+  },
+  {
+   "score": 63.8,
    "components": {
     "tier": 20,
     "category": 4,
     "lead": 2.4,
     "relevance": 8,
-    "freshness": 19.8,
+    "freshness": 17.4,
     "undated": -6,
     "shock": 18
    },
@@ -626,13 +879,13 @@
    "verdict": "weak"
   },
   {
-   "score": 65.8,
+   "score": 63.4,
    "components": {
     "tier": 20,
     "category": 4,
     "lead": 0.0,
     "relevance": 12,
-    "freshness": 19.8,
+    "freshness": 17.4,
     "corroborated": 10
    },
    "keywords": [
@@ -662,13 +915,13 @@
    "verdict": "weak"
   },
   {
-   "score": 65.8,
+   "score": 63.4,
    "components": {
     "tier": 20,
     "category": 4,
     "lead": 0.0,
     "relevance": 12,
-    "freshness": 19.8,
+    "freshness": 17.4,
     "corroborated": 10
    },
    "keywords": [
@@ -696,13 +949,13 @@
    "verdict": "weak"
   },
   {
-   "score": 65.8,
+   "score": 63.4,
    "components": {
     "tier": 20,
     "category": 4,
     "lead": 0.0,
     "relevance": 12,
-    "freshness": 19.8,
+    "freshness": 17.4,
     "corroborated": 10
    },
    "keywords": [
@@ -731,13 +984,13 @@
    "verdict": "weak"
   },
   {
-   "score": 65.2,
+   "score": 62.8,
    "components": {
     "tier": 20,
     "category": 5,
     "lead": 2.4,
     "relevance": 8,
-    "freshness": 19.8,
+    "freshness": 17.4,
     "corroborated": 10
    },
    "keywords": [
@@ -767,13 +1020,153 @@
    "verdict": "weak"
   },
   {
-   "score": 64.2,
+   "score": 61.8,
+   "components": {
+    "tier": 20,
+    "category": 4,
+    "lead": 0.0,
+    "relevance": 8,
+    "freshness": 19.8,
+    "corroborated": 10
+   },
+   "keywords": [
+    "capacity"
+   ],
+   "shock_terms": [],
+   "dedupe_match": null,
+   "dedupe_similarity": 0.1,
+   "id": "e8602cef5d39",
+   "title": "1,500-student GEMS International School of Zanzibar project in offing",
+   "url": "https://dailynews.co.tz/1500-student-gems-international-school-of-zanzibar-project-in-offing",
+   "summary": "Zanzibar. Construction of the GEMS International School of Zanzibar at Infinity Hills is expected to begin shortly, marking a significant step towards expanding educational opportunities on the islands through a purpose-planned school designed to accommodate up to 1,500 students. The planned capacity has been increased from the original 1,100 students following an assessment of anticipated \u2026 The p",
+   "kind": "item",
+   "source": "Daily News (Tanzania)",
+   "source_id": "np-dailynews-tz",
+   "tier": 2,
+   "country": "TZ",
+   "category": "press",
+   "segments": [
+    "city",
+    "bush",
+    "beach"
+   ],
+   "first_seen": "2026-10-11T15:17+03:00",
+   "published": "2026-10-11",
+   "verdict": "weak"
+  },
+  {
+   "score": 61.8,
+   "components": {
+    "tier": 20,
+    "category": 4,
+    "lead": 0.0,
+    "relevance": 8,
+    "freshness": 19.8,
+    "corroborated": 10
+   },
+   "keywords": [
+    "eta"
+   ],
+   "shock_terms": [],
+   "dedupe_match": null,
+   "dedupe_similarity": 0.12,
+   "id": "705389633e70",
+   "title": "Reckless drivers must stop turning roads into cemetaries",
+   "url": "https://dailynews.co.tz/165157-2",
+   "summary": "DAR ES SALAAM: EVERY road death is a tragedy, but deaths caused by reckless driving are an outrage that demands immediate government action. Behind every victim is a grieving family, shattered dreams and a future stolen in seconds. How many more innocent lives must be lost before road madness is brought under control? For instance, the Morogoro accident On \u2026 The post Reckless drivers must stop tur",
+   "kind": "item",
+   "source": "Daily News (Tanzania)",
+   "source_id": "np-dailynews-tz",
+   "tier": 2,
+   "country": "TZ",
+   "category": "press",
+   "segments": [
+    "city",
+    "bush",
+    "beach"
+   ],
+   "first_seen": "2026-10-11T15:17+03:00",
+   "published": "2026-10-11",
+   "verdict": "weak"
+  },
+  {
+   "score": 61.8,
+   "components": {
+    "tier": 20,
+    "category": 4,
+    "lead": 0.0,
+    "relevance": 8,
+    "freshness": 19.8,
+    "corroborated": 10
+   },
+   "keywords": [
+    "vat"
+   ],
+   "shock_terms": [],
+   "dedupe_match": null,
+   "dedupe_similarity": 0.0,
+   "id": "95d415176298",
+   "title": "Pope Leo to undergo surgery to remove lung growth",
+   "url": "https://www.monitor.co.ug/uganda/news/world/pope-leo-to-undergo-surgery-to-remove-lung-growth-5627904",
+   "summary": "The Vatican press office said the pope's recovery from surgery was expected to take about a week",
+   "kind": "item",
+   "source": "Daily Monitor (Uganda)",
+   "source_id": "np-monitor-ug",
+   "tier": 2,
+   "country": "UG",
+   "category": "press",
+   "segments": [
+    "city",
+    "bush",
+    "beach"
+   ],
+   "first_seen": "2026-10-11T15:17+03:00",
+   "published": "2026-10-11",
+   "verdict": "weak"
+  },
+  {
+   "score": 61.8,
+   "components": {
+    "tier": 20,
+    "category": 4,
+    "lead": 0.0,
+    "relevance": 8,
+    "freshness": 19.8,
+    "corroborated": 10
+   },
+   "keywords": [
+    "flood"
+   ],
+   "shock_terms": [],
+   "dedupe_match": null,
+   "dedupe_similarity": 0.0,
+   "id": "2cb765b95298",
+   "title": "Heavy rain floods Kampala\u2013Hoima Highway at Lubigi wetland",
+   "url": "https://www.monitor.co.ug/uganda/news/national/heavy-rain-floods-kampala-hoima-highway-at-lubigi-wetland-5627740",
+   "summary": "MP demands drainage master plan after Lubigi flooding",
+   "kind": "item",
+   "source": "Daily Monitor (Uganda)",
+   "source_id": "np-monitor-ug",
+   "tier": 2,
+   "country": "UG",
+   "category": "press",
+   "segments": [
+    "city",
+    "bush",
+    "beach"
+   ],
+   "first_seen": "2026-10-11T15:17+03:00",
+   "published": "2026-10-11",
+   "verdict": "weak"
+  },
+  {
+   "score": 61.8,
    "components": {
     "tier": 20,
     "category": 4,
     "lead": 2.4,
     "relevance": 8,
-    "freshness": 19.8,
+    "freshness": 17.4,
     "corroborated": 10
    },
    "keywords": [
@@ -802,13 +1195,13 @@
    "verdict": "weak"
   },
   {
-   "score": 64.0,
+   "score": 61.6,
    "components": {
     "tier": 40,
     "category": 5,
     "lead": 1.2,
     "relevance": 4,
-    "freshness": 19.8,
+    "freshness": 17.4,
     "undated": -6
    },
    "keywords": [
@@ -836,13 +1229,13 @@
    "verdict": "weak"
   },
   {
-   "score": 63.2,
+   "score": 60.8,
    "components": {
     "tier": 20,
     "category": 5,
     "lead": 2.4,
     "relevance": 12,
-    "freshness": 13.8,
+    "freshness": 11.4,
     "corroborated": 10
    },
    "keywords": [
@@ -870,13 +1263,13 @@
    "verdict": "weak"
   },
   {
-   "score": 62.2,
+   "score": 59.8,
    "components": {
     "tier": 5,
     "category": 5,
     "lead": 2.4,
     "relevance": 20,
-    "freshness": 19.8,
+    "freshness": 17.4,
     "corroborated": 10
    },
    "keywords": [
@@ -908,13 +1301,13 @@
    "verdict": "weak"
   },
   {
-   "score": 62.2,
+   "score": 59.8,
    "components": {
     "tier": 20,
     "category": 4,
     "lead": 2.4,
     "relevance": 12,
-    "freshness": 13.8,
+    "freshness": 11.4,
     "corroborated": 10
    },
    "keywords": [
@@ -943,13 +1336,13 @@
    "verdict": "weak"
   },
   {
-   "score": 61.8,
+   "score": 59.4,
    "components": {
     "tier": 20,
     "category": 4,
     "lead": 0.0,
     "relevance": 8,
-    "freshness": 19.8,
+    "freshness": 17.4,
     "corroborated": 10
    },
    "keywords": [
@@ -979,13 +1372,13 @@
    "verdict": "weak"
   },
   {
-   "score": 61.8,
+   "score": 59.4,
    "components": {
     "tier": 20,
     "category": 4,
     "lead": 0.0,
     "relevance": 8,
-    "freshness": 19.8,
+    "freshness": 17.4,
     "corroborated": 10
    },
    "keywords": [
@@ -1014,13 +1407,13 @@
    "verdict": "weak"
   },
   {
-   "score": 61.2,
+   "score": 58.8,
    "components": {
     "tier": 20,
     "category": 5,
     "lead": 2.4,
     "relevance": 4,
-    "freshness": 19.8,
+    "freshness": 17.4,
     "corroborated": 10
    },
    "keywords": [
@@ -1039,373 +1432,6 @@
    "tier": 2,
    "country": "KE",
    "category": "trade",
-   "segments": [
-    "city",
-    "bush",
-    "beach"
-   ],
-   "first_seen": "2026-10-11T13:05+03:00",
-   "published": "2026-10-11",
-   "verdict": "weak"
-  },
-  {
-   "score": 60.2,
-   "components": {
-    "tier": 20,
-    "category": 4,
-    "lead": 2.4,
-    "relevance": 4,
-    "freshness": 19.8,
-    "corroborated": 10
-   },
-   "keywords": [
-    "shilling"
-   ],
-   "shock_terms": [],
-   "dedupe_match": null,
-   "dedupe_similarity": 0.0,
-   "id": "2e61880923cc",
-   "title": "NSSF Lump Sum Pay: When retirement money is spent before it arrives",
-   "url": "https://www.independent.co.ug/nssf-lump-sum-pay-when-retirement-money-is-spent-before-it-arrives",
-   "summary": "NEWS ANALYSIS | URN | For many Ugandans nearing retirement, visions of spending their hard-earned savings begin to bloom long before a single shilling ever touches their palms. At around 55, a saver with NSSF is excited that he/she is about to receive a retirement lump sum. For many, ideas weave through the mind. A \u2026 The post NSSF Lump Sum Pay: When retirement money is spent before it arrives appe",
-   "kind": "item",
-   "source": "The Independent (Uganda)",
-   "source_id": "ug-independent",
-   "tier": 2,
-   "country": "UG",
-   "category": "press",
-   "segments": [
-    "city",
-    "bush",
-    "beach"
-   ],
-   "first_seen": "2026-10-11T13:05+03:00",
-   "published": "2026-10-11",
-   "verdict": "weak"
-  },
-  {
-   "score": 60.2,
-   "components": {
-    "tier": 20,
-    "category": 4,
-    "lead": 2.4,
-    "relevance": 4,
-    "freshness": 19.8,
-    "corroborated": 10
-   },
-   "keywords": [
-    "airline"
-   ],
-   "shock_terms": [],
-   "dedupe_match": null,
-   "dedupe_similarity": 0.14,
-   "id": "3bce427a9af1",
-   "title": "Racism served on airline menus",
-   "url": "https://nation.africa/kenya/blogs-opinion/opinion/racism-served-on-airline-menus-5627120",
-   "summary": "Many, if not most, airlines have cabins classified by status, which is determined by the size...",
-   "kind": "item",
-   "source": "Nation Africa: Kenya business",
-   "source_id": "ke-nation-business",
-   "tier": 2,
-   "country": "KE",
-   "category": "press",
-   "segments": [
-    "city",
-    "bush",
-    "beach"
-   ],
-   "first_seen": "2026-10-11T13:05+03:00",
-   "published": "2026-10-11",
-   "verdict": "weak"
-  },
-  {
-   "score": 60.0,
-   "components": {
-    "tier": 40,
-    "category": 5,
-    "lead": 1.2,
-    "relevance": 0,
-    "freshness": 19.8,
-    "undated": -6
-   },
-   "keywords": [],
-   "shock_terms": [],
-   "dedupe_match": null,
-   "dedupe_similarity": 0.0,
-   "id": "0e26b088f73a",
-   "title": "Communications 71",
-   "url": "https://mediacentre.go.ug/press-room?cat=communications",
-   "summary": "",
-   "kind": "item",
-   "source": "Uganda Media Centre \u2014 press room",
-   "source_id": "ug-mediacentre",
-   "tier": 1,
-   "country": "UG",
-   "category": "gov-comms",
-   "segments": [
-    "city",
-    "bush"
-   ],
-   "first_seen": "2026-10-11T13:05+03:00",
-   "published": null,
-   "verdict": "weak"
-  },
-  {
-   "score": 60.0,
-   "components": {
-    "tier": 40,
-    "category": 5,
-    "lead": 1.2,
-    "relevance": 0,
-    "freshness": 19.8,
-    "undated": -6
-   },
-   "keywords": [],
-   "shock_terms": [],
-   "dedupe_match": null,
-   "dedupe_similarity": 0.22,
-   "id": "7d4adff63899",
-   "title": "11 Oct 2026 Economy State House 64 YEARS OF INDEPENDENCE: PRESIDENT MUSEVENI RECOUNTS UGANDA\u2019S ECONOMIC RECOVERY, SETS SIGHTS ON FURTHER TRANSFORMATION President Yoweri Kaguta Museveni has outlined Uganda\u2019s economic recovery journey since 1986, highlighting the country\u2019s growth from an economy valued at approximately USD 3.9 billion to USD 69.3 billion, while calling for accelerated industrialisat",
-   "url": "https://mediacentre.go.ug/release?slug=64-years-of-independence-president-museveni-recounts-ugandas-economic-recovery-sets-sights-on-further-transformation-1",
-   "summary": "",
-   "kind": "item",
-   "source": "Uganda Media Centre \u2014 press room",
-   "source_id": "ug-mediacentre",
-   "tier": 1,
-   "country": "UG",
-   "category": "gov-comms",
-   "segments": [
-    "city",
-    "bush"
-   ],
-   "first_seen": "2026-10-11T13:05+03:00",
-   "published": null,
-   "verdict": "weak"
-  },
-  {
-   "score": 60.0,
-   "components": {
-    "tier": 40,
-    "category": 5,
-    "lead": 1.2,
-    "relevance": 0,
-    "freshness": 19.8,
-    "undated": -6
-   },
-   "keywords": [],
-   "shock_terms": [],
-   "dedupe_match": null,
-   "dedupe_similarity": 0.14,
-   "id": "9fea5de4b690",
-   "title": "10 Oct 2026 Security State House PRESIDENT MUSEVENI HAILS HISTORIC UGANDA-RUSSIA MILITARY COOPERATION President Yoweri Kaguta Museveni has commended Russia for its continued military support to Uganda, reaffirming the longstanding friendship and defence cooperation between the two countries. Read \u2192",
-   "url": "https://mediacentre.go.ug/release?slug=president-museveni-hails-historic-uganda-russia-military-cooperation",
-   "summary": "",
-   "kind": "item",
-   "source": "Uganda Media Centre \u2014 press room",
-   "source_id": "ug-mediacentre",
-   "tier": 1,
-   "country": "UG",
-   "category": "gov-comms",
-   "segments": [
-    "city",
-    "bush"
-   ],
-   "first_seen": "2026-10-11T13:05+03:00",
-   "published": null,
-   "verdict": "weak"
-  },
-  {
-   "score": 60.0,
-   "components": {
-    "tier": 40,
-    "category": 5,
-    "lead": 1.2,
-    "relevance": 0,
-    "freshness": 19.8,
-    "undated": -6
-   },
-   "keywords": [],
-   "shock_terms": [],
-   "dedupe_match": null,
-   "dedupe_similarity": 0.22,
-   "id": "71d58ff6e3c2",
-   "title": "9 Oct 2026 Communications State House 64 YEARS OF INDEPENDENCE: PRESIDENT MUSEVENI RECOUNTS UGANDA\u2019S ECONOMIC RECOVERY, SETS SIGHTS ON FURTHER TRANSFORMATION President Yoweri Kaguta Museveni has outlined Uganda\u2019s economic recovery journey since 1986, highlighting the country\u2019s growth from an economy valued at approximately USD 3.9 billion to USD 69.3 billion, while calling for accelerated industri",
-   "url": "https://mediacentre.go.ug/release?slug=64-years-of-independence-president-museveni-recounts-ugandas-economic-recovery-sets-sights-on-further-transformation",
-   "summary": "",
-   "kind": "item",
-   "source": "Uganda Media Centre \u2014 press room",
-   "source_id": "ug-mediacentre",
-   "tier": 1,
-   "country": "UG",
-   "category": "gov-comms",
-   "segments": [
-    "city",
-    "bush"
-   ],
-   "first_seen": "2026-10-11T13:05+03:00",
-   "published": null,
-   "verdict": "weak"
-  },
-  {
-   "score": 60.0,
-   "components": {
-    "tier": 40,
-    "category": 5,
-    "lead": 1.2,
-    "relevance": 0,
-    "freshness": 19.8,
-    "undated": -6
-   },
-   "keywords": [],
-   "shock_terms": [],
-   "dedupe_match": null,
-   "dedupe_similarity": 0.11,
-   "id": "b5289a997d74",
-   "title": "9 Oct 2026 Communications State House PRESIDENT MUSEVENI AMONG 20 MEDALISTS TO BE HONOURED ON INDEPENDENCE DAY Read \u2192",
-   "url": "https://mediacentre.go.ug/release?slug=president-museveni-among-20-medalists-to-be-honoured-on-independence-day",
-   "summary": "",
-   "kind": "item",
-   "source": "Uganda Media Centre \u2014 press room",
-   "source_id": "ug-mediacentre",
-   "tier": 1,
-   "country": "UG",
-   "category": "gov-comms",
-   "segments": [
-    "city",
-    "bush"
-   ],
-   "first_seen": "2026-10-11T13:05+03:00",
-   "published": null,
-   "verdict": "weak"
-  },
-  {
-   "score": 60.0,
-   "components": {
-    "tier": 40,
-    "category": 5,
-    "lead": 1.2,
-    "relevance": 0,
-    "freshness": 19.8,
-    "undated": -6
-   },
-   "keywords": [],
-   "shock_terms": [],
-   "dedupe_match": null,
-   "dedupe_similarity": 0.14,
-   "id": "b5e35cfda9c6",
-   "title": "8 Oct 2026 Social State House NATIONAL PRAYER BREAKFAST: MUSEVENI CALLS ON UGANDANS TO MULTIPLY THEIR TALENTS AND BUILD UGANDA President Yoweri Kaguta Museveni has called on Ugandans to work hard, multiply their God-given talents and actively participate in building the country, saying the responsibility to develop Uganda is consistent with Biblical teachings. Read \u2192",
-   "url": "https://mediacentre.go.ug/release?slug=national-prayer-breakfast-museveni-calls-on-ugandans-to-multiply-their-talents-and-build-uganda",
-   "summary": "",
-   "kind": "item",
-   "source": "Uganda Media Centre \u2014 press room",
-   "source_id": "ug-mediacentre",
-   "tier": 1,
-   "country": "UG",
-   "category": "gov-comms",
-   "segments": [
-    "city",
-    "bush"
-   ],
-   "first_seen": "2026-10-11T13:05+03:00",
-   "published": null,
-   "verdict": "weak"
-  },
-  {
-   "score": 59.8,
-   "components": {
-    "tier": 20,
-    "category": 4,
-    "lead": 0.0,
-    "relevance": 12,
-    "freshness": 13.8,
-    "corroborated": 10
-   },
-   "keywords": [
-    "fuel",
-    "investment"
-   ],
-   "shock_terms": [],
-   "dedupe_match": null,
-   "dedupe_similarity": 0.11,
-   "id": "f50c9a1ac8cb",
-   "title": "East Africa\u2019s refinery market is bigger than the map",
-   "url": "https://www.theeastafrican.co.ke/tea/opinion/guest-blogs/east-africa-s-refinery-market-is-bigger-than-the-map-5627218",
-   "summary": "Investment timing, existing fuel corridors, aviation demand, South Africa\u2019s growing imports and...",
-   "kind": "item",
-   "source": "The EastAfrican",
-   "source_id": "np-eastafrican",
-   "tier": 2,
-   "country": "REG",
-   "category": "press",
-   "segments": [
-    "city",
-    "bush",
-    "beach"
-   ],
-   "first_seen": "2026-10-11T07:37+03:00",
-   "published": "2026-10-10",
-   "verdict": "weak"
-  },
-  {
-   "score": 59.2,
-   "components": {
-    "tier": 20,
-    "category": 5,
-    "lead": 2.4,
-    "relevance": 8,
-    "freshness": 13.8,
-    "corroborated": 10
-   },
-   "keywords": [
-    "hotel",
-    "resort"
-   ],
-   "shock_terms": [],
-   "dedupe_match": null,
-   "dedupe_similarity": 0.12,
-   "id": "a32c80047791",
-   "title": "Braemar Hotels & Resorts Announces Portfolio Update and 2027 Financial Outlook",
-   "url": "https://www.hotelnewsresource.com/article143269.html",
-   "summary": "Braemar Hotels & Resorts has released an updated overview of its property portfolio and issued financial guidance through 2027, offering investors and stakeholders greater clarity on projected operational and financial performance.",
-   "kind": "item",
-   "source": "HVS \u2014 market reports and event-impact studies (via Hotel News Resource)",
-   "source_id": "gl-hvs-market-reports",
-   "tier": 2,
-   "country": "GLOBAL",
-   "category": "trade",
-   "segments": [
-    "city"
-   ],
-   "first_seen": "2026-10-11T07:37+03:00",
-   "published": "2026-10-10",
-   "verdict": "weak"
-  },
-  {
-   "score": 57.8,
-   "components": {
-    "tier": 20,
-    "category": 4,
-    "lead": 0.0,
-    "relevance": 4,
-    "freshness": 19.8,
-    "corroborated": 10
-   },
-   "keywords": [
-    "camp"
-   ],
-   "shock_terms": [],
-   "dedupe_match": null,
-   "dedupe_similarity": 0.12,
-   "id": "c2bc014772ed",
-   "title": "OSHA reaches over 500 entrepreneurs through community campaign",
-   "url": "https://dailynews.co.tz/osha-reaches-over-500-entrepreneurs-through-community-campaign",
-   "summary": "KILIMANJARO: THE Occupational Safety and Health Authority (OSHA) has reached out to communities in Kilimanjaro Region through a corporate social responsibility campaign that provided support to schools and hospitals and trained more than 500 small-scale entrepreneurs in occupational safety and health. The campaign targeted beneficiaries in Mwanga District and Moshi Municipality, providing essentia",
-   "kind": "item",
-   "source": "Daily News (Tanzania)",
-   "source_id": "np-dailynews-tz",
-   "tier": 2,
-   "country": "TZ",
-   "category": "press",
    "segments": [
     "city",
     "bush",
