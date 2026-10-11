@@ -1,5 +1,14 @@
 window.EDITIONS = [
  {
+  "id": "foresight-2026-10-11",
+  "date": "2026-10-11",
+  "dateDisplay": "Sunday, 11 October 2026",
+  "edition": "Sunday Foresight",
+  "editionKey": "foresight",
+  "summary": "TWO INSURANCE CHARGES NOW SIT ON ONE ITINERARY",
+  "bodyHtml": "<p><strong>A Kenya–Tanzania safari now carries two US$44 insurance charges, and every government that added a cost this week added it at the border</strong><br><em>🏨 EA Hospitality Pulse · Sunday Foresight · Sun 11 Oct 2026</em></p>\n<p>The seams between destinations changed this week. Kenya&#x27;s High Court upheld its US$44 visitor insurance on 7 October; Tanzania&#x27;s mainland charge has applied since 1 October. A guest flying Nairobi to Kilimanjaro pays twice: US$88 a head <strong>(our arithmetic; some are exempt)</strong>.</p>\n<p><strong>What everyone is missing:</strong> these are filed as separate stories. Together they show governments pricing and policing the crossing, not the destination. A twin-centre trip has the most crossings per sale, and the guest&#x27;s decision to keep it is set by the most awkward border, not by your lodge. Your terms cover one leg; the risk covers all. <strong>(Our inference; we cannot size it.)</strong><br>━━━━━━━━━<br>THE WEEK&#x27;S SIGNALS</p>\n<p><span class=\"item-head\">1️⃣ TWO INSURANCE CHARGES NOW SIT ON ONE ITINERARY</span><br>Justice Olel (High Court, Marsabit) held Gazette Notice 11492 valid on 7 Oct <strong>(Eastleigh Voice, 7 Oct)</strong>; FCDO says eTA applicants must buy cover from 5 Oct. Tanzania mainland has required it since 1 Oct <strong>(GN 256)</strong>.<br><span class=\"sowhat\">🎯 So what: show each border&#x27;s charge as its own quote line and say who buys the policy.</span><br><span class=\"tagline\">🏷 City, Bush, Beach | 🇰🇪 🇹🇿 | Confirmed (rules) / Inference (arithmetic) | impact:margin</span></p>\n<p><span class=\"item-head\">2️⃣ THE LOW-COST LINKS MOVED OPPOSITE WAYS, AND ONE CARRIED THE VIRUS</span><br>Jambojet began daily Nairobi–Entebbe on 1 Oct <strong>(AeroRoutes, 24 Jul)</strong>. The patient flew it on 3 Oct <strong>(Health Ministry, 7 Oct)</strong>. It stopped Mombasa–Zanzibar, citing fuel and the insurance <strong>(Business Daily, 29 Sep; dates conflict with AeroRoutes)</strong>.<br><span class=\"sowhat\">🎯 So what: sell Nairobi–Kampala date-flexible; price Mombasa–Zanzibar with a connection.</span><br><span class=\"tagline\">🏷 City, Bush, Beach | 🇰🇪 🇺🇬 🇹🇿 | Reported | impact:risk</span></p>\n<p><span class=\"item-head\">3️⃣ SCREENING NOW DIFFERS AT THE SEAM</span><br>The patient passed temperature checks at Entebbe and Nairobi; Kenya added a JKIA gate for Congo-linked arrivals <strong>(Reuters, 7 Oct)</strong>. Tanzania lifted extra screening for Uganda arrivals <strong>(ATTA citing FCDO, 1 Oct; page not opened)</strong>. WHO advised against closing borders <strong>(7 Oct)</strong>.<br><span class=\"sowhat\">🎯 So what: give circuit clients each border&#x27;s checks, dated.</span><br><span class=\"tagline\">🏷 Bush, City | 🇰🇪 🇺🇬 🇹🇿 | Confirmed (statements) / Inference (divergence) | impact:risk</span></p>\n<p><span class=\"item-head\">4️⃣ THE OVERLAND LEG IS GETTING DEARER</span><br>Tanzania&#x27;s September inflation was 4.3%, transport 14.0% <strong>(NBS, 8 Oct)</strong>. EWURA raised October caps 5–10% <strong>(Daily News, 8 Oct)</strong>. Kenya&#x27;s oil workers served a strike notice <strong>(Kenyans.co.ke, 10 Oct)</strong>.<br><span class=\"sowhat\">🎯 So what: re-cost road transfers at October caps; hold diesel through 14 Oct.</span><br><span class=\"tagline\">🏷 Bush, City, Beach | 🇹🇿 🇰🇪 | Confirmed (figures) / Reported (strike) | impact:margin</span></p>\n<p><span class=\"item-head\">5️⃣ TWO DEMAND GATES ARE OPEN</span><br>The US entry order on DRC, Uganda and South Sudan lapses today; no renewal in the Federal Register listing <strong>(10 Oct)</strong>. Kenya&#x27;s Public Health PS suspended government meetings in hotels from 7 Oct <strong>(Kenyans.co.ke, 10 Oct)</strong>.<br><span class=\"sowhat\">🎯 So what: keep Bwindi US offers date-flexible; get any government block in writing.</span><br><span class=\"tagline\">🏷 Bush, City | 🇺🇬 🇰🇪 | Reported | impact:demand</span><br>━━━━━━━━━<br>🔎 Blind spots: Germany&#x27;s and France&#x27;s Kenya advice not found after two scans; Canada&#x27;s text unread; FCDO, CDC, WHO read via press.</p>\n<p><span class=\"meta-line\">📡 30/90-DAY DEMAND CALENDAR</span><br>🇺🇸 11 Oct — US order lapses. Keep Uganda rates flexible.<br>🇰🇪 13 Oct — fuel-VAT bill comments close.<br>🇰🇪 14 Oct — EPRA review. Re-cost transfers.<br>🇹🇿 30 Nov — Ethiopian Addis–Kilimanjaro–Zanzibar to 7 weekly <strong>(AeroRoutes)</strong>.</p>\n<p>If a border rule changes tomorrow, which leg of your guest&#x27;s trip pays for it?</p>\n<p>🔗 This edition on the web: <a href=\"https://eahospitalitypulse.com/editions/foresight-2026-10-11.html\" rel=\"noopener\">eahospitalitypulse.com/editions/foresight-2026-10-11.html</a><br>💼 This week&#x27;s Big Read on LinkedIn: <a href=\"https://www.linkedin.com/company/ea-hospitality-pulse/\" rel=\"noopener\">linkedin.com/company/ea-hospitality-pulse/</a><br>— EA Hospitality Pulse | Daily intelligence for city, bush &amp; beach properties</p>"
+ },
+ {
   "id": "pulse-2026-10-10-evening",
   "date": "2026-10-10",
   "dateDisplay": "Saturday, 10 October 2026",
@@ -1171,6 +1180,109 @@ window.EDITIONS = [
  }
 ];
 window.INSIGHTS = [
+ {
+  "headline": "TWO INSURANCE CHARGES NOW SIT ON ONE ITINERARY",
+  "body": "Justice Olel (High Court, Marsabit) held Gazette Notice 11492 valid on 7 Oct *(Eastleigh Voice, 7 Oct)*; FCDO says eTA applicants must buy cover from 5 Oct. Tanzania mainland has required it since 1 Oct *(GN 256)*.",
+  "sowhat": "🎯 So what: show each border's charge as its own quote line and say who buys the policy.",
+  "segments": [
+   "city",
+   "bush",
+   "beach"
+  ],
+  "countries": "🇰🇪 🇹🇿",
+  "confidence": "Confirmed (rules) / Inference (arithmetic)",
+  "impact": "-margin",
+  "impactClass": "margin",
+  "intensity": 3,
+  "impactSet": "author",
+  "source": "foresight-2026-10-11",
+  "date": "2026-10-11",
+  "dateDisplay": "Sunday, 11 October 2026",
+  "edition": "Sunday Foresight",
+  "editionKey": "foresight"
+ },
+ {
+  "headline": "THE LOW-COST LINKS MOVED OPPOSITE WAYS, AND ONE CARRIED THE VIRUS",
+  "body": "Jambojet began daily Nairobi–Entebbe on 1 Oct *(AeroRoutes, 24 Jul)*. The patient flew it on 3 Oct *(Health Ministry, 7 Oct)*. It stopped Mombasa–Zanzibar, citing fuel and the insurance *(Business Daily, 29 Sep; dates conflict with AeroRoutes)*.",
+  "sowhat": "🎯 So what: sell Nairobi–Kampala date-flexible; price Mombasa–Zanzibar with a connection.",
+  "segments": [
+   "city",
+   "bush",
+   "beach"
+  ],
+  "countries": "🇰🇪 🇺🇬 🇹🇿",
+  "confidence": "Reported",
+  "impact": "risk",
+  "impactClass": "risk",
+  "intensity": 2,
+  "impactSet": "author",
+  "source": "foresight-2026-10-11",
+  "date": "2026-10-11",
+  "dateDisplay": "Sunday, 11 October 2026",
+  "edition": "Sunday Foresight",
+  "editionKey": "foresight"
+ },
+ {
+  "headline": "SCREENING NOW DIFFERS AT THE SEAM",
+  "body": "The patient passed temperature checks at Entebbe and Nairobi; Kenya added a JKIA gate for Congo-linked arrivals *(Reuters, 7 Oct)*. Tanzania lifted extra screening for Uganda arrivals *(ATTA citing FCDO, 1 Oct; page not opened)*. WHO advised against closing borders *(7 Oct)*.",
+  "sowhat": "🎯 So what: give circuit clients each border's checks, dated.",
+  "segments": [
+   "city",
+   "bush"
+  ],
+  "countries": "🇰🇪 🇺🇬 🇹🇿",
+  "confidence": "Confirmed (statements) / Inference (divergence)",
+  "impact": "risk",
+  "impactClass": "risk",
+  "intensity": 3,
+  "impactSet": "author",
+  "source": "foresight-2026-10-11",
+  "date": "2026-10-11",
+  "dateDisplay": "Sunday, 11 October 2026",
+  "edition": "Sunday Foresight",
+  "editionKey": "foresight"
+ },
+ {
+  "headline": "THE OVERLAND LEG IS GETTING DEARER",
+  "body": "Tanzania's September inflation was 4.3%, transport 14.0% *(NBS, 8 Oct)*. EWURA raised October caps 5–10% *(Daily News, 8 Oct)*. Kenya's oil workers served a strike notice *(Kenyans.co.ke, 10 Oct)*.",
+  "sowhat": "🎯 So what: re-cost road transfers at October caps; hold diesel through 14 Oct.",
+  "segments": [
+   "city",
+   "bush",
+   "beach"
+  ],
+  "countries": "🇹🇿 🇰🇪",
+  "confidence": "Confirmed (figures) / Reported (strike)",
+  "impact": "-margin",
+  "impactClass": "margin",
+  "intensity": 3,
+  "impactSet": "author",
+  "source": "foresight-2026-10-11",
+  "date": "2026-10-11",
+  "dateDisplay": "Sunday, 11 October 2026",
+  "edition": "Sunday Foresight",
+  "editionKey": "foresight"
+ },
+ {
+  "headline": "TWO DEMAND GATES ARE OPEN",
+  "body": "The US entry order on DRC, Uganda and South Sudan lapses today; no renewal in the Federal Register listing *(10 Oct)*. Kenya's Public Health PS suspended government meetings in hotels from 7 Oct *(Kenyans.co.ke, 10 Oct)*.",
+  "sowhat": "🎯 So what: keep Bwindi US offers date-flexible; get any government block in writing.",
+  "segments": [
+   "city",
+   "bush"
+  ],
+  "countries": "🇺🇬 🇰🇪",
+  "confidence": "Reported",
+  "impact": "+demand",
+  "impactClass": "demand",
+  "intensity": 2,
+  "impactSet": "author",
+  "source": "foresight-2026-10-11",
+  "date": "2026-10-11",
+  "dateDisplay": "Sunday, 11 October 2026",
+  "edition": "Sunday Foresight",
+  "editionKey": "foresight"
+ },
  {
   "headline": "Kenya's US$44 visitor health insurance is enforceable, and our rules board had it wrong",
   "body": "⏳ Catching up: we missed this on 7–9 Oct and showed the rule as suspended. Justice Olel at the High Court in Marsabit dismissed the petition on 7 Oct, holding Gazette Notice 11492 (30 Jul) valid *(Eastleigh Voice, 7 Oct; Court Helicopter, 9 Oct)*. The UK FCDO now says eTA applicants must buy travel health insurance from 5 Oct *(FCDO Kenya, updated 9 Oct)*. The portal sells a US$44 policy (US$52 at VisasNews's test checkout), also bought at insurance.ecitizen.go.ke *(VisasNews, 7 Oct)*. Unresolved: foreign policies, older ETAs, any appeal. Our inference: a Kenya–Tanzania itinerary now carries two US$44 charges, as Tanzania mainland has required one since 1 Oct.",
@@ -6544,4 +6656,4 @@ window.INSIGHTS = [
   "editionKey": "evening"
  }
 ];
-window.BUILT_AT = "2026-10-11 08:35";
+window.BUILT_AT = "2026-10-11 15:28";
