@@ -1,18 +1,18 @@
 {
- "generated": "2026-10-12T14:07:09+03:00",
- "slot": "midday",
- "window_start": 1791777600,
- "observations_in_window": 356,
+ "generated": "2026-10-12T17:44:54+03:00",
+ "slot": "evening",
+ "window_start": 1791720000,
+ "observations_in_window": 823,
  "deduped_against": 25,
  "candidates": [
   {
-   "score": 110.9,
+   "score": 106.9,
    "components": {
     "tier": 40,
     "category": 32,
     "lead": 12.0,
     "relevance": 8,
-    "freshness": 12.9,
+    "freshness": 8.9,
     "corroborated": 10,
     "page_change": -4
    },
@@ -41,13 +41,13 @@
    "verdict": "OPEN THIS \u2014 tier-1 advisory page moved; content not auto-parsed, read it manually"
   },
   {
-   "score": 65.2,
+   "score": 61.2,
    "components": {
     "tier": 40,
     "category": 12,
     "lead": 3.6,
     "relevance": 0,
-    "freshness": 19.6,
+    "freshness": 15.6,
     "undated": -6,
     "page_change": -4
    },
@@ -75,13 +75,88 @@
    "verdict": "OPEN THIS \u2014 tier-1 airline page moved; content not auto-parsed, read it manually"
   },
   {
-   "score": 104.0,
+   "score": 45.6,
+   "components": {
+    "tier": 40,
+    "category": 12,
+    "lead": 3.6,
+    "relevance": 0,
+    "freshness": 0.0,
+    "undated": -6,
+    "page_change": -4
+   },
+   "keywords": [],
+   "shock_terms": [],
+   "dedupe_match": null,
+   "dedupe_similarity": 0.0,
+   "id": "2776642f1362",
+   "title": "[page changed] Airlink news",
+   "url": "https://www.flyairlink.com/",
+   "summary": "Request unsuccessful. Incapsula incident ID: 177000340035995548-20111742720870571",
+   "kind": "page-change",
+   "source": "Airlink news",
+   "source_id": "air-airlink",
+   "tier": 1,
+   "country": "REG",
+   "category": "airline",
+   "segments": [
+    "city",
+    "bush",
+    "beach"
+   ],
+   "first_seen": "2026-10-11T21:40+03:00",
+   "published": null,
+   "verdict": "OPEN THIS \u2014 tier-1 airline page moved; content not auto-parsed, read it manually"
+  },
+  {
+   "score": 102.0,
+   "components": {
+    "tier": 20,
+    "category": 5,
+    "lead": 1.2,
+    "relevance": 28,
+    "freshness": 19.8,
+    "corroborated": 10,
+    "shock": 18
+   },
+   "keywords": [
+    "terror",
+    "airport",
+    "strike"
+   ],
+   "shock_terms": [
+    "attack",
+    "strike"
+   ],
+   "dedupe_match": null,
+   "dedupe_similarity": 0.14,
+   "id": "6c961bf7c42d",
+   "title": "Saudi Arabia\u2019s Aviation Ambitions Meet a Week of Terror",
+   "url": "https://skift.com/2026/10/12/saudi-arabias-aviation-ambitions-meet-a-week-of-terror",
+   "summary": "A single airport incident would have been troubling. A succession of strikes over just one week, including repeated attacks on the capital, presents an extraordinary challenge for the Saudi travel industry.",
+   "kind": "item",
+   "source": "Skift",
+   "source_id": "tp-skift",
+   "tier": 2,
+   "country": "GLOBAL",
+   "category": "trade",
+   "segments": [
+    "city",
+    "bush",
+    "beach"
+   ],
+   "first_seen": "2026-10-12T17:42+03:00",
+   "published": "2026-10-12",
+   "verdict": "CONSIDER"
+  },
+  {
+   "score": 100.0,
    "components": {
     "tier": 40,
     "category": 18,
     "lead": 8.4,
     "relevance": 8,
-    "freshness": 19.6,
+    "freshness": 15.6,
     "corroborated": 10
    },
    "keywords": [
@@ -108,13 +183,119 @@
    "verdict": "STRONG \u2014 tier-1, upstream"
   },
   {
-   "score": 96.0,
+   "score": 98.1,
+   "components": {
+    "tier": 40,
+    "category": 24,
+    "lead": 2.4,
+    "relevance": 12,
+    "freshness": 19.7
+   },
+   "keywords": [
+    "ebola"
+   ],
+   "shock_terms": [],
+   "dedupe_match": null,
+   "dedupe_similarity": 0.14,
+   "id": "29c0f949eb06",
+   "title": "Democratic Republic of the Congo (DRC)",
+   "url": "https://insp.cd/wp-content/uploads/2026/10/SitRep_MVEBDB_149_10_10_2026.pdf",
+   "summary": "1 fr-FR fr-FR fr-FR fr-FRRapport de Situation de la 17e \u00c9pid\u00e9mie de la maladie \u00e0 Virus Ebola / RDC fr-FR fr-FRSitRep N\u00b0149 /MVE-BDBV/10/10/2026 fr-FR Date du rapport : 10 octobre 2026 Date de publication : 11 octobre 2026 fr-FR fr-FR fr-FR fr-FR fr-FR fr-FR . fr-FR fr-FR fr-FR fr-FR fr-FR fr-FR fr-FR fr-FR fr-FR fr-FR fr-FR fr-FR fr-FR fr-FR fr-FR fr-FR fr-FR fr-FR fr-FR fr-FR fr-FR fr-FR fr-FR fr",
+   "kind": "doc",
+   "source": "ECDC \u2014 DRC/Uganda Ebola outbreak page",
+   "source_id": "ecdc-ebola",
+   "tier": 1,
+   "country": "GLOBAL",
+   "category": "health",
+   "segments": [
+    "city",
+    "bush"
+   ],
+   "first_seen": "2026-10-12T17:42+03:00",
+   "published": "2026-10-10",
+   "verdict": "STRONG \u2014 tier-1, upstream"
+  },
+  {
+   "score": 96.4,
+   "components": {
+    "tier": 20,
+    "category": 9,
+    "lead": 3.6,
+    "relevance": 16,
+    "freshness": 19.8,
+    "corroborated": 10,
+    "shock": 18
+   },
+   "keywords": [
+    "insolven",
+    "airline"
+   ],
+   "shock_terms": [
+    "insolven"
+   ],
+   "dedupe_match": null,
+   "dedupe_similarity": 0.0,
+   "id": "51fe9b155b39",
+   "title": "Prologis-Chef J\u00fcrgen Krumt\u00fcnger: \"Situation der Airline-Branche ist ausgesprochen angespannt\"",
+   "url": "https://www.fvw.de/touristik/verkehr/prologis-chef-krumtuenger-im-interview-situation-der-airline-branche-ist-ausgesprochen-angespannt-265132",
+   "summary": "Vor allem stark gestiegene Kerosin-Kosten belasten aktuell die Fluggesellschaften. Air Baltic und Volotea mussten bereits Insolvenz anmelden. Im Interview spricht J\u00fcrgen Krumt\u00fcnger, Gesch\u00e4ftsf\u00fchrer der Aviation-Beratung Prologis, \u00fcber die schwierige Lage der Branche, welche Airlines die Kostensteigerung besonders trifft und welche Hebel es gibt, den Druck zu mildern.",
+   "kind": "item",
+   "source": "FVW / German travel trade",
+   "source_id": "sm-derreise",
+   "tier": 2,
+   "country": "GLOBAL",
+   "category": "source-market",
+   "segments": [
+    "beach",
+    "bush"
+   ],
+   "first_seen": "2026-10-12T17:42+03:00",
+   "published": "2026-10-12",
+   "verdict": "CONSIDER"
+  },
+  {
+   "score": 92.2,
+   "components": {
+    "tier": 40,
+    "category": 24,
+    "lead": 2.4,
+    "relevance": 12,
+    "freshness": 19.8,
+    "undated": -6
+   },
+   "keywords": [
+    "ebola"
+   ],
+   "shock_terms": [],
+   "dedupe_match": null,
+   "dedupe_similarity": 0.29,
+   "id": "9a3a5fbe6e7c",
+   "title": "WHO supports Kenya\u2019s Ebola response with essential medical supplies",
+   "url": "https://www.afro.who.int/countries/kenya/news/who-supports-kenyas-ebola-response-essential-medical-supplies",
+   "summary": "",
+   "kind": "item",
+   "source": "WHO AFRO \u2014 Kenya country newsroom",
+   "source_id": "who-afro-kenya",
+   "tier": 1,
+   "country": "KE",
+   "category": "health",
+   "segments": [
+    "bush",
+    "city",
+    "beach"
+   ],
+   "first_seen": "2026-10-12T17:42+03:00",
+   "published": null,
+   "verdict": "STRONG \u2014 tier-1, upstream"
+  },
+  {
+   "score": 92.0,
    "components": {
     "tier": 20,
     "category": 14,
     "lead": 8.4,
     "relevance": 24,
-    "freshness": 19.6,
+    "freshness": 15.6,
     "corroborated": 10
    },
    "keywords": [
@@ -146,13 +327,13 @@
    "verdict": "CONSIDER"
   },
   {
-   "score": 96.0,
+   "score": 92.0,
    "components": {
     "tier": 40,
     "category": 16,
     "lead": 2.4,
     "relevance": 8,
-    "freshness": 19.6,
+    "freshness": 15.6,
     "corroborated": 10
    },
    "keywords": [
@@ -181,13 +362,13 @@
    "verdict": "STRONG \u2014 tier-1, upstream"
   },
   {
-   "score": 96.0,
+   "score": 92.0,
    "components": {
     "tier": 40,
     "category": 24,
     "lead": 2.4,
     "relevance": 0,
-    "freshness": 19.6,
+    "freshness": 15.6,
     "corroborated": 10
    },
    "keywords": [],
@@ -213,13 +394,13 @@
    "verdict": "STRONG \u2014 tier-1, upstream"
   },
   {
-   "score": 93.6,
+   "score": 89.6,
    "components": {
     "tier": 5,
     "category": 5,
     "lead": 0.0,
     "relevance": 36,
-    "freshness": 19.6,
+    "freshness": 15.6,
     "corroborated": 10,
     "shock": 18
    },
@@ -255,13 +436,13 @@
    "verdict": "CONSIDER"
   },
   {
-   "score": 93.4,
+   "score": 89.4,
    "components": {
     "tier": 40,
     "category": 15,
     "lead": 16.8,
     "relevance": 8,
-    "freshness": 19.6,
+    "freshness": 15.6,
     "undated": -6
    },
    "keywords": [
@@ -287,16 +468,89 @@
    ],
    "first_seen": "2026-10-12T13:57+03:00",
    "published": null,
-   "verdict": "STRONG \u2014 tier-1, upstream"
+   "verdict": "CONSIDER"
   },
   {
-   "score": 92.0,
+   "score": 88.2,
+   "components": {
+    "tier": 20,
+    "category": 14,
+    "lead": 8.4,
+    "relevance": 16,
+    "freshness": 19.8,
+    "corroborated": 10
+   },
+   "keywords": [
+    "route",
+    "airline",
+    "flight"
+   ],
+   "shock_terms": [],
+   "dedupe_match": null,
+   "dedupe_similarity": 0.17,
+   "id": "a04dacbe8f52",
+   "title": "S7 Airlines Adds Uzbekistan Airways Kuala Lumpur Codeshare in NW26",
+   "url": "https://www.aeroroutes.com/eng/261012-s7hycodeshare",
+   "summary": "Published at 0700PDT / 1400GMT 12OCT26 S7 Airlines at the launch of Northern winter 2026/27 season plans to expand codeshare partnership with Uzbekistan Airways, covering the latter\u2019s Tashkent \u2013 Kuala Lumpur route. Uzbekistan Airways\u2019 operating service will carry S7-coded flight numbers from 25OCT26. HY553/S74451 TAS0740 \u2013 1810KUL 32Q 6 HY553/S74451 TAS1750 \u2013 0420+1KUL 788 4 HY553/S74451 TAS2305 \u2013",
+   "kind": "item",
+   "source": "AeroRoutes schedule filings",
+   "source_id": "aeroroutes",
+   "tier": 2,
+   "country": "GLOBAL",
+   "category": "aviation-tracker",
+   "segments": [
+    "city",
+    "bush",
+    "beach"
+   ],
+   "first_seen": "2026-10-12T17:42+03:00",
+   "published": "2026-10-12",
+   "verdict": "CONSIDER"
+  },
+  {
+   "score": 88.2,
+   "components": {
+    "tier": 20,
+    "category": 14,
+    "lead": 8.4,
+    "relevance": 16,
+    "freshness": 19.8,
+    "corroborated": 10
+   },
+   "keywords": [
+    "route",
+    "seat"
+   ],
+   "shock_terms": [],
+   "dedupe_match": null,
+   "dedupe_similarity": 0.11,
+   "id": "e2ab121730cf",
+   "title": "Cathay Pacific NW26 195-seater A321neo Operation Overview \u2013 11OCT26",
+   "url": "https://www.aeroroutes.com/eng/261012-cxnw2632q",
+   "summary": "Published at 0600PDT / 1300GMT 12OCT26 Cathay Pacific in recent schedule update tentatively filed 195-seater Airbus A321neo operation for Northern winter 2026/27 season. As of 11OCT26, the 195-seater is scheduled to serve following routes to Japan. Hong Kong \u2013 Fukuoka * CX528/529 Day 246 * CX512/513 Day x246 (except selected dates) Hong Kong \u2013 Osaka Kansai CX598/569 The 195-seater A321neo aircraft",
+   "kind": "item",
+   "source": "AeroRoutes schedule filings",
+   "source_id": "aeroroutes",
+   "tier": 2,
+   "country": "GLOBAL",
+   "category": "aviation-tracker",
+   "segments": [
+    "city",
+    "bush",
+    "beach"
+   ],
+   "first_seen": "2026-10-12T17:42+03:00",
+   "published": "2026-10-12",
+   "verdict": "CONSIDER"
+  },
+  {
+   "score": 88.0,
    "components": {
     "tier": 20,
     "category": 14,
     "lead": 8.4,
     "relevance": 20,
-    "freshness": 19.6,
+    "freshness": 15.6,
     "corroborated": 10
    },
    "keywords": [
@@ -327,13 +581,48 @@
    "verdict": "CONSIDER"
   },
   {
-   "score": 88.0,
+   "score": 84.2,
+   "components": {
+    "tier": 20,
+    "category": 14,
+    "lead": 8.4,
+    "relevance": 12,
+    "freshness": 19.8,
+    "corroborated": 10
+   },
+   "keywords": [
+    "suspend"
+   ],
+   "shock_terms": [],
+   "dedupe_match": null,
+   "dedupe_similarity": 0.11,
+   "id": "fec86fa0bfac",
+   "title": "Air Cambodia NW26 Service Changes \u2013 11OCT26",
+   "url": "https://www.aeroroutes.com/eng/261012-k6nw26",
+   "summary": "Published at 0500PDT / 1200GMT 12OCT26 Air Cambodia in the last few weeks filed additional service changes to its planned Northern winter 2026/27 season. Planned adjustments as of 11OCT26 include the following. Phnom Penh Krong Ta Khmau \u2013 Cam Ranh/Nha Trang Planned service resumption from 17DEC26 moved to 30MAR27, 2 weekly ATR72 (Previous: Increase to 3 weekly from 17DEC26) Phnom Penh Krong Ta Khm",
+   "kind": "item",
+   "source": "AeroRoutes schedule filings",
+   "source_id": "aeroroutes",
+   "tier": 2,
+   "country": "GLOBAL",
+   "category": "aviation-tracker",
+   "segments": [
+    "city",
+    "bush",
+    "beach"
+   ],
+   "first_seen": "2026-10-12T17:42+03:00",
+   "published": "2026-10-12",
+   "verdict": "CONSIDER"
+  },
+  {
+   "score": 84.0,
    "components": {
     "tier": 40,
     "category": 16,
     "lead": 2.4,
     "relevance": 0,
-    "freshness": 19.6,
+    "freshness": 15.6,
     "corroborated": 10
    },
    "keywords": [],
@@ -360,13 +649,45 @@
    "verdict": "CONSIDER"
   },
   {
-   "score": 85.4,
+   "score": 82.8,
+   "components": {
+    "tier": 40,
+    "category": 32,
+    "lead": 16.8,
+    "relevance": 0,
+    "freshness": 0.0,
+    "undated": -6
+   },
+   "keywords": [],
+   "shock_terms": [],
+   "dedupe_match": null,
+   "dedupe_similarity": 0.25,
+   "id": "477aa7082dbb",
+   "title": "here",
+   "url": "https://www.cdc.gov/port-health/media/pdfs/2026/10/Title-42-Order-October-11.pdf",
+   "summary": "1 U.S. DEPARTMENT OF HEALTH AND HUMAN SERVICES CENTERS FOR DISEASE CONTROL AND PREVENTION (CDC) ORDER UNDER SECTIONS 362 & 365 OF THE PUBLIC HEALTH SERVICE ACT (42 U.S.C. 265, 268) and 42 C.F.R. 71.40 CONTINUING THE SUSPENSION OF THE RIGHT TO INTRODUCE CERTAIN PERSONS FROM COUNTRIES WHERE A QUARANTINABLE COMMUNICABLE DISEASE EXISTS I. Executive Summary The Centers for Disease Control and Preventio",
+   "kind": "doc",
+   "source": "CDC port health \u2014 s.362 Ebola entry orders",
+   "source_id": "us-cdc-evdorder",
+   "tier": 1,
+   "country": "REG",
+   "category": "advisory",
+   "segments": [
+    "city",
+    "bush"
+   ],
+   "first_seen": "2026-10-11T22:36+03:00",
+   "published": null,
+   "verdict": "CONSIDER"
+  },
+  {
+   "score": 81.4,
    "components": {
     "tier": 40,
     "category": 15,
     "lead": 16.8,
     "relevance": 0,
-    "freshness": 19.6,
+    "freshness": 15.6,
     "undated": -6
    },
    "keywords": [],
@@ -393,13 +714,13 @@
    "verdict": "CONSIDER"
   },
   {
-   "score": 85.4,
+   "score": 81.4,
    "components": {
     "tier": 40,
     "category": 15,
     "lead": 16.8,
     "relevance": 0,
-    "freshness": 19.6,
+    "freshness": 15.6,
     "undated": -6
    },
    "keywords": [],
@@ -426,13 +747,116 @@
    "verdict": "CONSIDER"
   },
   {
-   "score": 84.0,
+   "score": 81.3,
+   "components": {
+    "tier": 40,
+    "category": 32,
+    "lead": 3.6,
+    "relevance": 0,
+    "freshness": 19.7,
+    "stale_trap": -10,
+    "page_change": -4
+   },
+   "keywords": [],
+   "shock_terms": [],
+   "dedupe_match": null,
+   "dedupe_similarity": 0.2,
+   "id": "ee95efc11025",
+   "title": "[page changed] Federal Register \u2014 public inspection (HHS/CDC), pre-publication",
+   "url": "https://www.federalregister.gov/api/v1/public-inspection-documents/current.json",
+   "summary": "{\"count\":108,\"results\":[{\"agencies\":[{\"raw_name\":\"Federal Aviation Administration\",\"name\":\"Federal Aviation Administration\",\"id\":159,\"url\":\"https://www.federalregister.gov/agencies/federal-aviation-administration\",\"json_url\":\"https://www.federalregister.gov/api/v1/agencies/159\",\"parent_id\":492,\"slug\":\"federal-aviation-administration\"}],\"agency_letters\":[],\"agency_names\":[\"Federal Aviation Administ",
+   "kind": "page-change",
+   "source": "Federal Register \u2014 public inspection (HHS/CDC), pre-publication",
+   "source_id": "us-fedreg-pubinspect-hhs",
+   "tier": 1,
+   "country": "REG",
+   "category": "advisory",
+   "segments": [
+    "city",
+    "bush"
+   ],
+   "first_seen": "2026-10-12T17:42+03:00",
+   "published": "2026-10-08",
+   "verdict": "CHECK \u2014 source date older than the window"
+  },
+  {
+   "score": 80.4,
+   "components": {
+    "tier": 20,
+    "category": 9,
+    "lead": 3.6,
+    "relevance": 0,
+    "freshness": 19.8,
+    "corroborated": 10,
+    "shock": 18
+   },
+   "keywords": [],
+   "shock_terms": [
+    "attack"
+   ],
+   "dedupe_match": null,
+   "dedupe_similarity": 0.0,
+   "id": "105461f3a4ab",
+   "title": "Arabische Halbinsel: Huthi greifen erneut saudische Flugh\u00e4fen an",
+   "url": "https://www.fvw.de/touristik/verkehr/arabische-halbinsel-huthi-greifen-erneut-saudische-flughaefen-an-265197",
+   "summary": "Nach den t\u00f6dlichen Angriffen auf Riad setzen die Huthi ihre Attacken auf saudische Flugh\u00e4fen fort. Auch Industrieanlagen geraten wohl ins Visier.",
+   "kind": "item",
+   "source": "FVW / German travel trade",
+   "source_id": "sm-derreise",
+   "tier": 2,
+   "country": "GLOBAL",
+   "category": "source-market",
+   "segments": [
+    "beach",
+    "bush"
+   ],
+   "first_seen": "2026-10-12T17:42+03:00",
+   "published": "2026-10-12",
+   "verdict": "CONSIDER"
+  },
+  {
+   "score": 80.2,
+   "components": {
+    "tier": 20,
+    "category": 14,
+    "lead": 8.4,
+    "relevance": 8,
+    "freshness": 19.8,
+    "corroborated": 10
+   },
+   "keywords": [
+    "route"
+   ],
+   "shock_terms": [],
+   "dedupe_match": null,
+   "dedupe_similarity": 0.14,
+   "id": "726975c67312",
+   "title": "FitsAir Plans Colombo \u2013 Chennai Resumption in Nov 2026",
+   "url": "https://www.aeroroutes.com/eng/261012-8dnov26maa",
+   "summary": "Published at 0400PDT / 1100GMT 12OCT26 Sri Lanka\u2019s FitsAir in the GDS and OAG filed operational schedule for Colombo \u2013 Chennai route, as the carrier intends to resume service on 24NOV26 at the earliest. This route was last served until March 2025. 8D941 CMB0755 \u2013 0905MAA 320 246 8D942 MAA1005 \u2013 1120CMB 320 246",
+   "kind": "item",
+   "source": "AeroRoutes schedule filings",
+   "source_id": "aeroroutes",
+   "tier": 2,
+   "country": "GLOBAL",
+   "category": "aviation-tracker",
+   "segments": [
+    "city",
+    "bush",
+    "beach"
+   ],
+   "first_seen": "2026-10-12T17:42+03:00",
+   "published": "2026-10-12",
+   "verdict": "CONSIDER"
+  },
+  {
+   "score": 80.0,
    "components": {
     "tier": 20,
     "category": 14,
     "lead": 8.4,
     "relevance": 12,
-    "freshness": 19.6,
+    "freshness": 15.6,
     "corroborated": 10
    },
    "keywords": [
@@ -462,13 +886,81 @@
    "verdict": "CONSIDER"
   },
   {
-   "score": 81.2,
+   "score": 79.4,
+   "components": {
+    "tier": 40,
+    "category": 24,
+    "lead": 2.4,
+    "relevance": 0,
+    "freshness": 3.0,
+    "corroborated": 10
+   },
+   "keywords": [],
+   "shock_terms": [],
+   "dedupe_match": null,
+   "dedupe_similarity": 0.2,
+   "id": "52cc7d009e0d",
+   "title": "SitRep N\u00b0149 /MVE-BDBV/10/10/2026",
+   "url": "https://insp.cd/sitrep-n149-mve-bdbv-10-10-2026",
+   "summary": "",
+   "kind": "item",
+   "source": "INSP RDC \u2014 Ebola daily situation reports (SitRep)",
+   "source_id": "cd-insp-sitrep",
+   "tier": 1,
+   "country": "GLOBAL",
+   "category": "health",
+   "segments": [
+    "City",
+    "Bush"
+   ],
+   "first_seen": "2026-10-12T02:29+03:00",
+   "published": "2026-10-12",
+   "verdict": "CONSIDER"
+  },
+  {
+   "score": 78.4,
+   "components": {
+    "tier": 20,
+    "category": 9,
+    "lead": 3.6,
+    "relevance": 16,
+    "freshness": 19.8,
+    "corroborated": 10
+   },
+   "keywords": [
+    "eta",
+    "hotel",
+    "resort"
+   ],
+   "shock_terms": [],
+   "dedupe_match": null,
+   "dedupe_similarity": 0.12,
+   "id": "79c57a30c249",
+   "title": "Treueprogramm f\u00fcr Reiseb\u00fcros: Website des Riu Partner Clubs wurde \u00fcberarbeitet",
+   "url": "https://www.fvw.de/counter/verkauf/treueprogramm-fuer-reisebueros-website-des-riu-partner-club-wurde-ueberarbeitet-265204",
+   "summary": "Riu Hotels & Resorts hat den Web-Auftritt des Riu Partner Clubs grundlegend \u00fcberarbeitet. Einige Details.",
+   "kind": "item",
+   "source": "FVW / German travel trade",
+   "source_id": "sm-derreise",
+   "tier": 2,
+   "country": "GLOBAL",
+   "category": "source-market",
+   "segments": [
+    "beach",
+    "bush"
+   ],
+   "first_seen": "2026-10-12T17:42+03:00",
+   "published": "2026-10-12",
+   "verdict": "CONSIDER"
+  },
+  {
+   "score": 77.2,
    "components": {
     "tier": 40,
     "category": 32,
     "lead": 3.6,
     "relevance": 0,
-    "freshness": 19.6,
+    "freshness": 15.6,
     "stale_trap": -10,
     "page_change": -4
    },
@@ -495,13 +987,13 @@
    "verdict": "CHECK \u2014 source date older than the window"
   },
   {
-   "score": 80.9,
+   "score": 76.9,
    "components": {
     "tier": 20,
     "category": 4,
     "lead": 0.0,
     "relevance": 16,
-    "freshness": 12.9,
+    "freshness": 8.9,
     "corroborated": 10,
     "shock": 18
    },
@@ -534,13 +1026,13 @@
    "verdict": "CONSIDER"
   },
   {
-   "score": 80.7,
+   "score": 76.7,
    "components": {
     "tier": 40,
     "category": 9,
     "lead": 16.8,
     "relevance": 8,
-    "freshness": 12.9,
+    "freshness": 8.9,
     "undated": -6
    },
    "keywords": [
@@ -570,13 +1062,13 @@
    "verdict": "CONSIDER"
   },
   {
-   "score": 80.4,
+   "score": 76.4,
    "components": {
     "tier": 40,
     "category": 10,
     "lead": 16.8,
     "relevance": 0,
-    "freshness": 19.6,
+    "freshness": 15.6,
     "undated": -6
    },
    "keywords": [],
@@ -603,13 +1095,13 @@
    "verdict": "CONSIDER"
   },
   {
-   "score": 80.4,
+   "score": 76.4,
    "components": {
     "tier": 40,
     "category": 10,
     "lead": 16.8,
     "relevance": 0,
-    "freshness": 19.6,
+    "freshness": 15.6,
     "undated": -6
    },
    "keywords": [],
@@ -636,13 +1128,13 @@
    "verdict": "CONSIDER"
   },
   {
-   "score": 80.4,
+   "score": 76.4,
    "components": {
     "tier": 40,
     "category": 10,
     "lead": 16.8,
     "relevance": 0,
-    "freshness": 19.6,
+    "freshness": 15.6,
     "undated": -6
    },
    "keywords": [],
@@ -669,13 +1161,147 @@
    "verdict": "CONSIDER"
   },
   {
-   "score": 80.0,
+   "score": 76.4,
+   "components": {
+    "tier": 20,
+    "category": 14,
+    "lead": 8.4,
+    "relevance": 24,
+    "freshness": 0.0,
+    "corroborated": 10
+   },
+   "keywords": [
+    "route",
+    "seat",
+    "airline",
+    "franc"
+   ],
+   "shock_terms": [],
+   "dedupe_match": null,
+   "dedupe_similarity": 0.11,
+   "id": "551fdd6da7b0",
+   "title": "Alaska Adds Cathay Pacific Hong Kong Codeshare From mid-Oct 2026",
+   "url": "https://www.aeroroutes.com/eng/261011-ascxcodeshare",
+   "summary": "Published at 0400PDT / 1100GMT 11OCT26 Alaska Airlines this week plans to expand codeshare partnership with Cathay Pacific, covering the latter\u2019s service between West Coast US and Hong Kong. Following codeshare routes to commence on 15OCT26. Alaska Airlines operated by Cathay Pacific Hong Kong \u2013 Los Angeles Hong Kong \u2013 San Francisco Hong Kong \u2013 Seattle",
+   "kind": "item",
+   "source": "AeroRoutes schedule filings",
+   "source_id": "aeroroutes",
+   "tier": 2,
+   "country": "GLOBAL",
+   "category": "aviation-tracker",
+   "segments": [
+    "city",
+    "bush",
+    "beach"
+   ],
+   "first_seen": "2026-10-11T18:44+03:00",
+   "published": "2026-10-11",
+   "verdict": "CONSIDER"
+  },
+  {
+   "score": 76.4,
+   "components": {
+    "tier": 40,
+    "category": 24,
+    "lead": 2.4,
+    "relevance": 0,
+    "freshness": 0.0,
+    "corroborated": 10
+   },
+   "keywords": [],
+   "shock_terms": [],
+   "dedupe_match": null,
+   "dedupe_similarity": 0.17,
+   "id": "20410e7cb99a",
+   "title": "SitRep N\u00b0148 /MVE-BDBV/09/10/2026",
+   "url": "https://insp.cd/sitrep-n148-mve-bdbv-09-10-2026",
+   "summary": "",
+   "kind": "item",
+   "source": "INSP RDC \u2014 Ebola daily situation reports (SitRep)",
+   "source_id": "cd-insp-sitrep",
+   "tier": 1,
+   "country": "GLOBAL",
+   "category": "health",
+   "segments": [
+    "City",
+    "Bush"
+   ],
+   "first_seen": "2026-10-11T18:43+03:00",
+   "published": "2026-10-11",
+   "verdict": "CONSIDER"
+  },
+  {
+   "score": 76.4,
+   "components": {
+    "tier": 40,
+    "category": 24,
+    "lead": 2.4,
+    "relevance": 0,
+    "freshness": 0.0,
+    "corroborated": 10
+   },
+   "keywords": [],
+   "shock_terms": [],
+   "dedupe_match": null,
+   "dedupe_similarity": 0.17,
+   "id": "811884834109",
+   "title": "SitRep N\u00b0147 /MVE-BDBV/08/10/2026",
+   "url": "https://insp.cd/sitrep-n147-mve-bdbv-08-10-2026",
+   "summary": "",
+   "kind": "item",
+   "source": "INSP RDC \u2014 Ebola daily situation reports (SitRep)",
+   "source_id": "cd-insp-sitrep",
+   "tier": 1,
+   "country": "GLOBAL",
+   "category": "health",
+   "segments": [
+    "City",
+    "Bush"
+   ],
+   "first_seen": "2026-10-11T18:43+03:00",
+   "published": "2026-10-11",
+   "verdict": "CONSIDER"
+  },
+  {
+   "score": 76.4,
+   "components": {
+    "tier": 40,
+    "category": 24,
+    "lead": 2.4,
+    "relevance": 0,
+    "freshness": 0.0,
+    "corroborated": 10
+   },
+   "keywords": [],
+   "shock_terms": [],
+   "dedupe_match": null,
+   "dedupe_similarity": 0.17,
+   "id": "d0057f0b4f65",
+   "title": "SitRep N\u00b0146 /MVE-BDBV/07/10/2026",
+   "url": "https://insp.cd/sitrep-n146-mve-bdbv-07-10-2026-2",
+   "summary": "",
+   "kind": "item",
+   "source": "INSP RDC \u2014 Ebola daily situation reports (SitRep)",
+   "source_id": "cd-insp-sitrep",
+   "tier": 1,
+   "country": "GLOBAL",
+   "category": "health",
+   "segments": [
+    "City",
+    "Bush"
+   ],
+   "first_seen": "2026-10-11T18:43+03:00",
+   "published": "2026-10-11",
+   "verdict": "CONSIDER"
+  },
+  {
+   "score": 76.0,
    "components": {
     "tier": 5,
     "category": 5,
     "lead": 2.4,
     "relevance": 20,
-    "freshness": 19.6,
+    "freshness": 15.6,
     "corroborated": 10,
     "shock": 18
    },
@@ -708,13 +1334,13 @@
    "verdict": "CONSIDER"
   },
   {
-   "score": 80.0,
+   "score": 76.0,
    "components": {
     "tier": 40,
     "category": 24,
     "lead": 2.4,
     "relevance": 0,
-    "freshness": 19.6,
+    "freshness": 15.6,
     "undated": -6
    },
    "keywords": [],
@@ -741,13 +1367,13 @@
    "verdict": "CONSIDER"
   },
   {
-   "score": 80.0,
+   "score": 76.0,
    "components": {
     "tier": 40,
     "category": 24,
     "lead": 2.4,
     "relevance": 0,
-    "freshness": 19.6,
+    "freshness": 15.6,
     "undated": -6
    },
    "keywords": [],
@@ -772,672 +1398,6 @@
    "first_seen": "2026-10-12T13:58+03:00",
    "published": null,
    "verdict": "CONSIDER"
-  },
-  {
-   "score": 79.6,
-   "components": {
-    "tier": 20,
-    "category": 4,
-    "lead": 0.0,
-    "relevance": 8,
-    "freshness": 19.6,
-    "corroborated": 10,
-    "shock": 18
-   },
-   "keywords": [
-    "strike"
-   ],
-   "shock_terms": [
-    "strike"
-   ],
-   "dedupe_match": null,
-   "dedupe_similarity": 0.14,
-   "id": "95d2c14f97fb",
-   "title": "At least 72 Sudanese artisanal miners killed in strike, rights monitor says",
-   "url": "https://www.monitor.co.ug/uganda/news/world/at-least-72-sudanese-artisanal-miners-killed-in-strike-rights-monitor-says-5628530",
-   "summary": "Emergency Lawyers blamed the Egyptian air force for the strike, a claim \u200bReuters could not...",
-   "kind": "item",
-   "source": "Daily Monitor (Uganda)",
-   "source_id": "np-monitor-ug",
-   "tier": 2,
-   "country": "UG",
-   "category": "press",
-   "segments": [
-    "city",
-    "bush",
-    "beach"
-   ],
-   "first_seen": "2026-10-12T13:58+03:00",
-   "published": "2026-10-12",
-   "verdict": "CONSIDER"
-  },
-  {
-   "score": 78.2,
-   "components": {
-    "tier": 20,
-    "category": 5,
-    "lead": 3.6,
-    "relevance": 20,
-    "freshness": 19.6,
-    "corroborated": 10
-   },
-   "keywords": [
-    "visa",
-    "tourism",
-    "summit",
-    "investment"
-   ],
-   "shock_terms": [],
-   "dedupe_match": null,
-   "dedupe_similarity": 0.14,
-   "id": "800fe7e97a8c",
-   "title": "WTTC Sets Out Eight Priorities to Secure Europe's Travel & Tourism Leadership as Governments Across the Region Shape New Tourism Strategies",
-   "url": "https://www.hospitalitynet.org/news/4134851/wttc-sets-out-eight-priorities-to-secure-europes-travel-tourism-leadership-as-governments-across-the-region-shape-new-tourism-strategies",
-   "summary": "WTTC's report, released at its 26th Global Summit in Valletta, outlines eight priorities for Europe including visa reform, AI adoption, and investment, as the sector contributes $3 trillion to European GDP.",
-   "kind": "item",
-   "source": "Hospitality Net \u2014 Africa announcements",
-   "source_id": "dev-hospitalitynet-africa",
-   "tier": 2,
-   "country": "REG",
-   "category": "trade",
-   "segments": [
-    "city",
-    "bush",
-    "beach"
-   ],
-   "first_seen": "2026-10-12T13:58+03:00",
-   "published": "2026-10-12",
-   "verdict": "CONSIDER"
-  },
-  {
-   "score": 78.2,
-   "components": {
-    "tier": 20,
-    "category": 5,
-    "lead": 3.6,
-    "relevance": 20,
-    "freshness": 19.6,
-    "corroborated": 10
-   },
-   "keywords": [
-    "vat",
-    "eta",
-    "hotel"
-   ],
-   "shock_terms": [],
-   "dedupe_match": null,
-   "dedupe_similarity": 0.0,
-   "id": "65f1763a5c43",
-   "title": "Inside New York City's Most Iconic Hotel, The Waldorf Astoria",
-   "url": "https://www.hospitalitynet.org/opinion/4134845/inside-new-york-citys-most-iconic-hotel-the-waldorf-astoria",
-   "summary": "The Waldorf Astoria New York reopens after a full renovation, raising the question of whether the 1931 landmark retains its legendary status.",
-   "kind": "item",
-   "source": "Hospitality Net \u2014 Africa announcements",
-   "source_id": "dev-hospitalitynet-africa",
-   "tier": 2,
-   "country": "REG",
-   "category": "trade",
-   "segments": [
-    "city",
-    "bush",
-    "beach"
-   ],
-   "first_seen": "2026-10-12T13:58+03:00",
-   "published": "2026-10-12",
-   "verdict": "CONSIDER"
-  },
-  {
-   "score": 77.0,
-   "components": {
-    "tier": 20,
-    "category": 5,
-    "lead": 2.4,
-    "relevance": 20,
-    "freshness": 19.6,
-    "corroborated": 10
-   },
-   "keywords": [
-    "visa",
-    "tourism",
-    "summit",
-    "investment"
-   ],
-   "shock_terms": [],
-   "dedupe_match": null,
-   "dedupe_similarity": 0.14,
-   "id": "40eec7be5ac1",
-   "title": "WTTC Sets Out Eight Priorities to Secure Europe's Travel & Tourism Leadership as Governments Across the Region Shape New Tourism Strategies",
-   "url": "https://www.hospitalitynet.org/news/4134851/wttc-sets-out-eight-priorities-to-secure-europes-travel-tourism-leadership-as-governments-across-the-region-shape-new-tourism-strategies",
-   "summary": "WTTC's report, released at its 26th Global Summit in Valletta, outlines eight priorities for Europe including visa reform, AI adoption, and investment, as the sector contributes $3 trillion to European GDP.",
-   "kind": "item",
-   "source": "Hospitality Net: Africa openings",
-   "source_id": "dev-hospitalitynet-openings",
-   "tier": 2,
-   "country": "AFRICA",
-   "category": "trade",
-   "segments": [
-    "city",
-    "bush",
-    "beach"
-   ],
-   "first_seen": "2026-10-12T13:58+03:00",
-   "published": "2026-10-12",
-   "verdict": "CONSIDER"
-  },
-  {
-   "score": 77.0,
-   "components": {
-    "tier": 20,
-    "category": 5,
-    "lead": 2.4,
-    "relevance": 20,
-    "freshness": 19.6,
-    "corroborated": 10
-   },
-   "keywords": [
-    "vat",
-    "eta",
-    "hotel"
-   ],
-   "shock_terms": [],
-   "dedupe_match": null,
-   "dedupe_similarity": 0.0,
-   "id": "ccef456f7bfa",
-   "title": "Inside New York City's Most Iconic Hotel, The Waldorf Astoria",
-   "url": "https://www.hospitalitynet.org/opinion/4134845/inside-new-york-citys-most-iconic-hotel-the-waldorf-astoria",
-   "summary": "The Waldorf Astoria New York reopens after a full renovation, raising the question of whether the 1931 landmark retains its legendary status.",
-   "kind": "item",
-   "source": "Hospitality Net: Africa openings",
-   "source_id": "dev-hospitalitynet-openings",
-   "tier": 2,
-   "country": "AFRICA",
-   "category": "trade",
-   "segments": [
-    "city",
-    "bush",
-    "beach"
-   ],
-   "first_seen": "2026-10-12T13:58+03:00",
-   "published": "2026-10-12",
-   "verdict": "CONSIDER"
-  },
-  {
-   "score": 76.0,
-   "components": {
-    "tier": 20,
-    "category": 14,
-    "lead": 8.4,
-    "relevance": 4,
-    "freshness": 19.6,
-    "corroborated": 10
-   },
-   "keywords": [
-    "flight"
-   ],
-   "shock_terms": [],
-   "dedupe_match": null,
-   "dedupe_similarity": 0.18,
-   "id": "86a3b4d83fc9",
-   "title": "StarFlyer 1Q27 Taipei Service Increases",
-   "url": "https://www.aeroroutes.com/eng/261012-7g1q27tpe",
-   "summary": "Published at 0000PDT / 0700GMT 12OCT26 Japanese carrier StarFlyer in the first quarter of 2027 plans to expand international flight, as the sole Kitakyushu \u2013 Taipei Taoyuan regular scheduled service to increase from 3 to 7 weekly. From Kitakyushu, service increase will be in effect from 21JAN27 to 09FEB27. 7G801 KKJ2350 \u2013 0130+1TPE 320 D 7G800 TPE0300 \u2013 0615KKJ 320 D",
-   "kind": "item",
-   "source": "AeroRoutes schedule filings",
-   "source_id": "aeroroutes",
-   "tier": 2,
-   "country": "GLOBAL",
-   "category": "aviation-tracker",
-   "segments": [
-    "city",
-    "bush",
-    "beach"
-   ],
-   "first_seen": "2026-10-12T13:58+03:00",
-   "published": "2026-10-12",
-   "verdict": "CONSIDER"
-  },
-  {
-   "score": 74.5,
-   "components": {
-    "tier": 40,
-    "category": 32,
-    "lead": 3.6,
-    "relevance": 0,
-    "freshness": 12.9,
-    "stale_trap": -10,
-    "page_change": -4
-   },
-   "keywords": [],
-   "shock_terms": [],
-   "dedupe_match": null,
-   "dedupe_similarity": 0.2,
-   "id": "c166bff44460",
-   "title": "[page changed] Federal Register \u2014 public inspection (HHS/CDC), pre-publication",
-   "url": "https://www.federalregister.gov/api/v1/public-inspection-documents/current.json",
-   "summary": "{\"count\":108,\"results\":[{\"agencies\":[{\"raw_name\":\"Federal Aviation Administration\",\"name\":\"Federal Aviation Administration\",\"id\":159,\"url\":\"https://www.federalregister.gov/agencies/federal-aviation-administration\",\"json_url\":\"https://www.federalregister.gov/api/v1/agencies/159\",\"parent_id\":492,\"slug\":\"federal-aviation-administration\"}],\"agency_letters\":[],\"agency_names\":[\"Federal Aviation Administ",
-   "kind": "page-change",
-   "source": "Federal Register \u2014 public inspection (HHS/CDC), pre-publication",
-   "source_id": "us-fedreg-pubinspect-hhs",
-   "tier": 1,
-   "country": "REG",
-   "category": "advisory",
-   "segments": [
-    "city",
-    "bush"
-   ],
-   "first_seen": "2026-10-12T07:50+03:00",
-   "published": "2026-10-08",
-   "verdict": "CHECK \u2014 source date older than the window"
-  },
-  {
-   "score": 74.2,
-   "components": {
-    "tier": 20,
-    "category": 5,
-    "lead": 3.6,
-    "relevance": 16,
-    "freshness": 19.6,
-    "corroborated": 10
-   },
-   "keywords": [
-    "fee",
-    "hotel",
-    "camp"
-   ],
-   "shock_terms": [],
-   "dedupe_match": null,
-   "dedupe_similarity": 0.14,
-   "id": "2efe6b606243",
-   "title": "Google hotel search advertising is changing. Here\u2019s what hoteliers need to know",
-   "url": "https://www.hospitalitynet.org/explainer/4134852/google-hotel-search-advertising-is-changing-heres-what-hoteliers-need-to-know",
-   "summary": "Google's Search Campaigns for Travel merges Hotel Ads and Search formats into one AI-powered campaign type, requiring hotels to have accurate live feeds and data infrastructure ready ahead of general release.",
-   "kind": "item",
-   "source": "Hospitality Net \u2014 Africa announcements",
-   "source_id": "dev-hospitalitynet-africa",
-   "tier": 2,
-   "country": "REG",
-   "category": "trade",
-   "segments": [
-    "city",
-    "bush",
-    "beach"
-   ],
-   "first_seen": "2026-10-12T13:58+03:00",
-   "published": "2026-10-12",
-   "verdict": "CONSIDER"
-  },
-  {
-   "score": 74.2,
-   "components": {
-    "tier": 20,
-    "category": 5,
-    "lead": 3.6,
-    "relevance": 16,
-    "freshness": 19.6,
-    "corroborated": 10
-   },
-   "keywords": [
-    "revpar",
-    "hotel",
-    "conference"
-   ],
-   "shock_terms": [],
-   "dedupe_match": null,
-   "dedupe_similarity": 0.11,
-   "id": "c568c629a455",
-   "title": "Beyond Revenue Growth: HVS Takeaways from The Lodging Conference",
-   "url": "https://www.hospitalitynet.org/report/4134850/beyond-revenue-growth-hvs-takeaways-from-the-lodging-conference",
-   "summary": "HVS shares takeaways from the 2026 Lodging Conference: 5% RevPAR growth expected by year-end, but rising costs, debt pressures, and loan maturities are eroding hotel profitability.",
-   "kind": "item",
-   "source": "Hospitality Net \u2014 Africa announcements",
-   "source_id": "dev-hospitalitynet-africa",
-   "tier": 2,
-   "country": "REG",
-   "category": "trade",
-   "segments": [
-    "city",
-    "bush",
-    "beach"
-   ],
-   "first_seen": "2026-10-12T13:58+03:00",
-   "published": "2026-10-12",
-   "verdict": "CONSIDER"
-  },
-  {
-   "score": 74.0,
-   "components": {
-    "tier": 20,
-    "category": 4,
-    "lead": 2.4,
-    "relevance": 0,
-    "freshness": 19.6,
-    "corroborated": 10,
-    "shock": 18
-   },
-   "keywords": [],
-   "shock_terms": [
-    "attack"
-   ],
-   "dedupe_match": null,
-   "dedupe_similarity": 0.09,
-   "id": "499fcf99766f",
-   "title": "Report: 42 police guns lost in attacks, 12 still missing",
-   "url": "https://nation.africa/kenya/news/report-42-police-guns-lost-in-attacks-12-still-missing--5628390",
-   "summary": "The guns were lost mainly through attacks on police installations and ambushes on officers.",
-   "kind": "item",
-   "source": "Nation Africa: Kenya business",
-   "source_id": "ke-nation-business",
-   "tier": 2,
-   "country": "KE",
-   "category": "press",
-   "segments": [
-    "city",
-    "bush",
-    "beach"
-   ],
-   "first_seen": "2026-10-12T13:58+03:00",
-   "published": "2026-10-12",
-   "verdict": "CONSIDER"
-  },
-  {
-   "score": 73.0,
-   "components": {
-    "tier": 20,
-    "category": 5,
-    "lead": 2.4,
-    "relevance": 16,
-    "freshness": 19.6,
-    "corroborated": 10
-   },
-   "keywords": [
-    "fee",
-    "hotel",
-    "camp"
-   ],
-   "shock_terms": [],
-   "dedupe_match": null,
-   "dedupe_similarity": 0.14,
-   "id": "6f0506001903",
-   "title": "Google hotel search advertising is changing. Here\u2019s what hoteliers need to know",
-   "url": "https://www.hospitalitynet.org/explainer/4134852/google-hotel-search-advertising-is-changing-heres-what-hoteliers-need-to-know",
-   "summary": "Google's Search Campaigns for Travel merges Hotel Ads and Search formats into one AI-powered campaign type, requiring hotels to have accurate live feeds and data infrastructure ready ahead of general release.",
-   "kind": "item",
-   "source": "Hospitality Net: Africa openings",
-   "source_id": "dev-hospitalitynet-openings",
-   "tier": 2,
-   "country": "AFRICA",
-   "category": "trade",
-   "segments": [
-    "city",
-    "bush",
-    "beach"
-   ],
-   "first_seen": "2026-10-12T13:58+03:00",
-   "published": "2026-10-12",
-   "verdict": "CONSIDER"
-  },
-  {
-   "score": 73.0,
-   "components": {
-    "tier": 20,
-    "category": 5,
-    "lead": 2.4,
-    "relevance": 16,
-    "freshness": 19.6,
-    "corroborated": 10
-   },
-   "keywords": [
-    "revpar",
-    "hotel",
-    "conference"
-   ],
-   "shock_terms": [],
-   "dedupe_match": null,
-   "dedupe_similarity": 0.11,
-   "id": "31728a631975",
-   "title": "Beyond Revenue Growth: HVS Takeaways from The Lodging Conference",
-   "url": "https://www.hospitalitynet.org/report/4134850/beyond-revenue-growth-hvs-takeaways-from-the-lodging-conference",
-   "summary": "HVS shares takeaways from the 2026 Lodging Conference: 5% RevPAR growth expected by year-end, but rising costs, debt pressures, and loan maturities are eroding hotel profitability.",
-   "kind": "item",
-   "source": "Hospitality Net: Africa openings",
-   "source_id": "dev-hospitalitynet-openings",
-   "tier": 2,
-   "country": "AFRICA",
-   "category": "trade",
-   "segments": [
-    "city",
-    "bush",
-    "beach"
-   ],
-   "first_seen": "2026-10-12T13:58+03:00",
-   "published": "2026-10-12",
-   "verdict": "CONSIDER"
-  },
-  {
-   "score": 72.9,
-   "components": {
-    "tier": 20,
-    "category": 4,
-    "lead": 0.0,
-    "relevance": 8,
-    "freshness": 12.9,
-    "corroborated": 10,
-    "shock": 18
-   },
-   "keywords": [
-    "strike"
-   ],
-   "shock_terms": [
-    "strike"
-   ],
-   "dedupe_match": null,
-   "dedupe_similarity": 0.2,
-   "id": "a2fc21b8af9b",
-   "title": "Bus drivers announce nationwide strike over badges",
-   "url": "https://www.monitor.co.ug/uganda/news/national/bus-drivers-announce-nationwide-strike-over-badges-5628038",
-   "summary": "They pointed out increasing financial and administrative pressure being placed on them in...",
-   "kind": "item",
-   "source": "Daily Monitor (Uganda)",
-   "source_id": "np-monitor-ug",
-   "tier": 2,
-   "country": "UG",
-   "category": "press",
-   "segments": [
-    "city",
-    "bush",
-    "beach"
-   ],
-   "first_seen": "2026-10-12T07:52+03:00",
-   "published": "2026-10-11",
-   "verdict": "CONSIDER"
-  },
-  {
-   "score": 72.0,
-   "components": {
-    "tier": 20,
-    "category": 4,
-    "lead": 2.4,
-    "relevance": 16,
-    "freshness": 19.6,
-    "corroborated": 10
-   },
-   "keywords": [
-    "eta",
-    "election"
-   ],
-   "shock_terms": [],
-   "dedupe_match": null,
-   "dedupe_similarity": 0.0,
-   "id": "8c2432c39764",
-   "title": "IEBC to add 9,000 polling stations ahead of 2027 General Election",
-   "url": "https://nation.africa/kenya/news/politics/iebc-to-add-9-000-polling-stations-ahead-of-2027-general-election--5628010",
-   "summary": "The proposed expansion faces legislative hurdles, with MPs pushing to retain the current legal...",
-   "kind": "item",
-   "source": "Nation Africa: Kenya business",
-   "source_id": "ke-nation-business",
-   "tier": 2,
-   "country": "KE",
-   "category": "press",
-   "segments": [
-    "city",
-    "bush",
-    "beach"
-   ],
-   "first_seen": "2026-10-12T13:58+03:00",
-   "published": "2026-10-12",
-   "verdict": "CONSIDER"
-  },
-  {
-   "score": 71.6,
-   "components": {
-    "tier": 20,
-    "category": 4,
-    "lead": 0.0,
-    "relevance": 16,
-    "freshness": 19.6,
-    "undated": -6,
-    "shock": 18
-   },
-   "keywords": [
-    "airport",
-    "strike"
-   ],
-   "shock_terms": [
-    "attack",
-    "strike"
-   ],
-   "dedupe_match": null,
-   "dedupe_similarity": 0.14,
-   "id": "d9208c709801",
-   "title": "World Riyadh airport hit by fresh Houthi strike day after deadly attack",
-   "url": "https://www.newvision.co.ug/category/world/riyadh-airport-hit-by-fresh-houthi-strike-day-NV_242255_102026",
-   "summary": "",
-   "kind": "item",
-   "source": "New Vision (Uganda)",
-   "source_id": "np-newvision-ug",
-   "tier": 2,
-   "country": "UG",
-   "category": "press",
-   "segments": [
-    "city",
-    "bush",
-    "beach"
-   ],
-   "first_seen": "2026-10-12T13:58+03:00",
-   "published": null,
-   "verdict": "CONSIDER"
-  },
-  {
-   "score": 71.6,
-   "components": {
-    "tier": 20,
-    "category": 4,
-    "lead": 0.0,
-    "relevance": 16,
-    "freshness": 19.6,
-    "undated": -6,
-    "shock": 18
-   },
-   "keywords": [
-    "airport",
-    "strike"
-   ],
-   "shock_terms": [
-    "strike"
-   ],
-   "dedupe_match": null,
-   "dedupe_similarity": 0.09,
-   "id": "ecfa79dd6c6f",
-   "title": "international Skies over Saudi capital Riyadh largely empty after deadly Houthi strikes on airport 1 hour ago - 2 min read",
-   "url": "https://www.thecitizen.co.tz/tanzania/news/international/skies-over-saudi-capital-riyadh-largely-empty-after-deadly-houthi-strikes-on-airport-5628674",
-   "summary": "",
-   "kind": "item",
-   "source": "The Citizen (Tanzania)",
-   "source_id": "np-citizen-tz",
-   "tier": 2,
-   "country": "TZ",
-   "category": "press",
-   "segments": [
-    "city",
-    "bush",
-    "beach"
-   ],
-   "first_seen": "2026-10-12T13:58+03:00",
-   "published": null,
-   "verdict": "CONSIDER"
-  },
-  {
-   "score": 70.2,
-   "components": {
-    "tier": 20,
-    "category": 5,
-    "lead": 3.6,
-    "relevance": 12,
-    "freshness": 19.6,
-    "corroborated": 10
-   },
-   "keywords": [
-    "vat",
-    "hotel"
-   ],
-   "shock_terms": [],
-   "dedupe_match": null,
-   "dedupe_similarity": 0.12,
-   "id": "6fcfb2b39870",
-   "title": "Beyond Points: Elevating Hotel Loyalty, Rewards, and Customer Insights",
-   "url": "https://www.hospitalitynet.org/opinion/4134626/beyond-points-elevating-hotel-loyalty-rewards-and-customer-insights",
-   "summary": "Drawing on Deloitte's 2024 consumer loyalty research across 9,800+ respondents, the piece argues hotels must shift from transactional points programs to experiential, AI-powered loyalty built on personalization and data trust.",
-   "kind": "item",
-   "source": "Hospitality Net \u2014 Africa announcements",
-   "source_id": "dev-hospitalitynet-africa",
-   "tier": 2,
-   "country": "REG",
-   "category": "trade",
-   "segments": [
-    "city",
-    "bush",
-    "beach"
-   ],
-   "first_seen": "2026-10-12T13:58+03:00",
-   "published": "2026-10-12",
-   "verdict": "CONSIDER"
-  },
-  {
-   "score": 69.0,
-   "components": {
-    "tier": 20,
-    "category": 5,
-    "lead": 2.4,
-    "relevance": 12,
-    "freshness": 19.6,
-    "corroborated": 10
-   },
-   "keywords": [
-    "hotel",
-    "resort",
-    "opening"
-   ],
-   "shock_terms": [],
-   "dedupe_match": null,
-   "dedupe_similarity": 0.12,
-   "id": "a256507c2b8f",
-   "title": "IHG expands in Greater China with InterContinental Taipei",
-   "url": "https://www.sleepermagazine.com/stories/projects/ihg-expands-in-greater-china-with-intercontinental-taipei",
-   "summary": "IHG Hotels & Resorts has announced the opening of InterContinental Taipei. Developed in partnership with Farglory Group, the hotel represents [\u2026] The post IHG expands in Greater China with InterContinental Taipei appeared first on Sleeper .",
-   "kind": "item",
-   "source": "Sleeper: hotel projects",
-   "source_id": "dev-sleeper",
-   "tier": 2,
-   "country": "GLOBAL",
-   "category": "trade",
-   "segments": [
-    "city",
-    "bush",
-    "beach"
-   ],
-   "first_seen": "2026-10-12T13:58+03:00",
-   "published": "2026-10-12",
-   "verdict": "weak"
   }
  ]
 }
