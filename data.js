@@ -1,5 +1,14 @@
 window.EDITIONS = [
  {
+  "id": "pulse-2026-10-12-evening",
+  "date": "2026-10-12",
+  "dateDisplay": "Monday, 12 October 2026",
+  "edition": "Evening Wrap",
+  "editionKey": "evening",
+  "summary": "The US has renewed its entry ban on travellers from Uganda, DRC and South Sudan for 30 days",
+  "bodyHtml": "<p><strong>The US has renewed its entry ban on travellers from Uganda, DRC and South Sudan for 30 days from 11 October</strong><br><em>🌆 Evening Wrap · Mon 12 Oct 2026</em></p>\n<p>━━━━━━━━━<br><span class=\"item-head\">1️⃣ The US has renewed its entry ban on travellers from Uganda, DRC and South Sudan for 30 days</span></p>\n<p>Yesterday&#x27;s open question is closed. The CDC order was signed 9 Oct and took effect at 5pm EDT on Sun 11 Oct, for 30 days. It bars non-US citizens who were in DRC, Uganda or South Sudan in the last 21 days. Kenya is not listed. Uganda is still covered, although its outbreak was declared over on 27 Aug <strong>(CDC order, 11 Oct; UKHSA, 4 Oct)</strong>. The order does not state an exact end date; we read it as running to about 8–10 Nov.<br>Our inference: a Kenya or Rwanda leg on the same itinerary does not trigger the ban, but a Uganda leg in the prior 21 days does.<br><span class=\"sowhat\">🎯 So what: for non-US guests heading to the US after a Uganda leg, tell them now. Keep flexible terms on Uganda add-ons until early November.</span><br><span class=\"tagline\">🏷 Bush, City | Uganda, Kenya, Rwanda | Confirmed | impact:demand</span></p>\n<p><span class=\"item-head\">2️⃣ WHO&#x27;s 12 Oct count shows 127 Kenyan Ebola contacts, 94 in quarantine</span></p>\n<p>WHO Kenya reports one confirmed imported case, 127 listed contacts, 94 in quarantine, and over 665,000 travellers screened. It delivered about US$70,000 of PPE and test kits <strong>(WHO Kenya, 12 Oct)</strong>. On 11 Oct the CS reported 108 of 122 in quarantine <strong>(Kenyans.co.ke, 11 Oct)</strong>. The sources differ and WHO gives no reason. Busia County also admitted no screening at the Mulwanda water crossing with Uganda <strong>(Citizen Digital, 8 Oct)</strong>.<br>Our inference: the case count has not moved, so the hotel effect stays administrative, such as the meeting suspension of 7 Oct.<br><span class=\"sowhat\">🎯 So what: quote the 12 Oct WHO figures if clients ask, and keep your own screening log.</span><br><span class=\"tagline\">🏷 City, Bush, Beach | Kenya | Confirmed | impact:risk</span></p>\n<p><span class=\"item-head\">3️⃣ DRC&#x27;s Ebola count reached 8,978 confirmed cases and 4,336 deaths by 10 Oct</span></p>\n<p>The 10 Oct report shows 64 new confirmed cases in 24 hours, in Ituri (30), Nord-Kivu (25), Haut-Uélé (7) and Tshopo (2). It also lists 2 cases in Sud-Ubangi province <strong>(INSP RDC SitRep 149, published 11 Oct)</strong>. UKHSA had 8,603 cases at 4 Oct <strong>(UKHSA week 40)</strong>. No cross-border case is mentioned.<br>Our inference, mixing two sources: roughly 62 cases a day since 4 Oct, against about 70 a day in the week before. The source for the earlier week is UKHSA&#x27;s +487.<br><span class=\"sowhat\">🎯 So what: treat DRC as the driver of US and Gulf-carrier rules for the rest of October.</span><br><span class=\"tagline\">🏷 Bush, City | Uganda, Kenya, Rwanda | Reported | impact:watch</span></p>\n<p><strong>🏗 DEAL FLOW:</strong> No verified EA deal flow in the window.</p>\n<p><strong>📻 ALSO TONIGHT</strong><br>🇺🇬 Bus drivers halted the nationwide strike due 12 Oct; owners and officials meet Thu 15 Oct <strong>(Daily Monitor, 12 Oct)</strong>.<br>✈️ Houthi strikes hit six Saudi airports 5–11 Oct; Riyadh&#x27;s King Khalid strike on 10 Oct killed 12. Air France, BA and Lufthansa suspended Riyadh <strong>(Skift, 12 Oct)</strong>. Watch Gulf connections only; no EA schedule change seen.</p>\n<p><strong>⏳ CATCHING UP</strong><br>🇰🇪 IHG&#x27;s voco Nairobi Airport Suites opened: 112 suites off Mombasa Road, 8 km from JKIA <strong>(Hospitality Net, 28 Sep)</strong>.<br>🇹🇿 Elewana will open the 84-room Ngorongoro Explorer Lodge in June 2027 <strong>(Hospitality Net, 24 Sep)</strong>.</p>\n<p><strong>📅 WEEK AHEAD</strong> Tax Laws Bill comments close Tue 13 Oct; EPRA review 14 Oct; Uganda bus talks Thu 15 Oct; KPC strike notice running.</p>\n<p><strong>🔍 BLIND SPOTS</strong> Gazettes, Africa CDC, and German and French advisories were scanned by web search only. hotelsafrica.org blocks our fetch.</p>\n<p>🔗 This edition on the web: <a href=\"https://eahospitalitypulse.com/editions/pulse-2026-10-12-evening.html\" rel=\"noopener\">eahospitalitypulse.com/editions/pulse-2026-10-12-evenin…</a></p>"
+ },
+ {
   "id": "pulse-2026-10-11-evening",
   "date": "2026-10-11",
   "dateDisplay": "Sunday, 11 October 2026",
@@ -1189,6 +1198,67 @@ window.EDITIONS = [
  }
 ];
 window.INSIGHTS = [
+ {
+  "headline": "The US has renewed its entry ban on travellers from Uganda, DRC and South Sudan for 30 days",
+  "body": "Yesterday's open question is closed. The CDC order was signed 9 Oct and took effect at 5pm EDT on Sun 11 Oct, for 30 days. It bars non-US citizens who were in DRC, Uganda or South Sudan in the last 21 days. Kenya is not listed. Uganda is still covered, although its outbreak was declared over on 27 Aug *(CDC order, 11 Oct; UKHSA, 4 Oct)*. The order does not state an exact end date; we read it as running to about 8–10 Nov. Our inference: a Kenya or Rwanda leg on the same itinerary does not trigger the ban, but a Uganda leg in the prior 21 days does.",
+  "sowhat": "🎯 So what: for non-US guests heading to the US after a Uganda leg, tell them now. Keep flexible terms on Uganda add-ons until early November.",
+  "segments": [
+   "city",
+   "bush"
+  ],
+  "countries": "Uganda, Kenya, Rwanda",
+  "confidence": "Confirmed",
+  "impact": "+demand",
+  "impactClass": "demand",
+  "intensity": 3,
+  "impactSet": "author",
+  "source": "pulse-2026-10-12-evening",
+  "date": "2026-10-12",
+  "dateDisplay": "Monday, 12 October 2026",
+  "edition": "Evening Wrap",
+  "editionKey": "evening"
+ },
+ {
+  "headline": "WHO's 12 Oct count shows 127 Kenyan Ebola contacts, 94 in quarantine",
+  "body": "WHO Kenya reports one confirmed imported case, 127 listed contacts, 94 in quarantine, and over 665,000 travellers screened. It delivered about US$70,000 of PPE and test kits *(WHO Kenya, 12 Oct)*. On 11 Oct the CS reported 108 of 122 in quarantine *(Kenyans.co.ke, 11 Oct)*. The sources differ and WHO gives no reason. Busia County also admitted no screening at the Mulwanda water crossing with Uganda *(Citizen Digital, 8 Oct)*. Our inference: the case count has not moved, so the hotel effect stays administrative, such as the meeting suspension of 7 Oct.",
+  "sowhat": "🎯 So what: quote the 12 Oct WHO figures if clients ask, and keep your own screening log.",
+  "segments": [
+   "city",
+   "bush",
+   "beach"
+  ],
+  "countries": "Kenya",
+  "confidence": "Confirmed",
+  "impact": "risk",
+  "impactClass": "risk",
+  "intensity": 3,
+  "impactSet": "author",
+  "source": "pulse-2026-10-12-evening",
+  "date": "2026-10-12",
+  "dateDisplay": "Monday, 12 October 2026",
+  "edition": "Evening Wrap",
+  "editionKey": "evening"
+ },
+ {
+  "headline": "DRC's Ebola count reached 8,978 confirmed cases and 4,336 deaths by 10 Oct",
+  "body": "The 10 Oct report shows 64 new confirmed cases in 24 hours, in Ituri (30), Nord-Kivu (25), Haut-Uélé (7) and Tshopo (2). It also lists 2 cases in Sud-Ubangi province *(INSP RDC SitRep 149, published 11 Oct)*. UKHSA had 8,603 cases at 4 Oct *(UKHSA week 40)*. No cross-border case is mentioned. Our inference, mixing two sources: roughly 62 cases a day since 4 Oct, against about 70 a day in the week before. The source for the earlier week is UKHSA's +487.",
+  "sowhat": "🎯 So what: treat DRC as the driver of US and Gulf-carrier rules for the rest of October.",
+  "segments": [
+   "city",
+   "bush"
+  ],
+  "countries": "Uganda, Kenya, Rwanda",
+  "confidence": "Reported",
+  "impact": "watch",
+  "impactClass": "watch",
+  "intensity": 2,
+  "impactSet": "author",
+  "source": "pulse-2026-10-12-evening",
+  "date": "2026-10-12",
+  "dateDisplay": "Monday, 12 October 2026",
+  "edition": "Evening Wrap",
+  "editionKey": "evening"
+ },
  {
   "headline": "Kenya has 108 of 122 Ebola contacts in quarantine, none symptomatic",
   "body": "Health CS Duale said on Sun 11 Oct that all 122 contacts of the case are listed and verified, 108 (88.5%) are quarantined and monitored daily, and none has developed symptoms. Of 293 samples from 289 alerts, only the confirmed case is positive. 667,675 travellers have been screened at 26 entry points. 241 isolation beds sit across five hospitals in Nairobi, Eldoret and Mombasa *(Kenyans.co.ke, 11 Oct)*. This replaces our \"66 quarantined\" line from 8 Oct. The Public Health PS's suspension of government meetings in hotels (memo of 7 Oct) was still unlifted on 10 Oct *(Kenyans.co.ke, 10 Oct)*. Our inference: the suspension is unlikely to lift before the contact quarantine ends; no end date is published.",
@@ -6727,4 +6797,4 @@ window.INSIGHTS = [
   "editionKey": "evening"
  }
 ];
-window.BUILT_AT = "2026-10-12 06:09";
+window.BUILT_AT = "2026-10-12 17:14";
