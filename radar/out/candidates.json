@@ -1,18 +1,18 @@
 {
- "generated": "2026-10-12T17:44:54+03:00",
+ "generated": "2026-10-12T22:06:09+03:00",
  "slot": "evening",
  "window_start": 1791720000,
- "observations_in_window": 823,
- "deduped_against": 25,
+ "observations_in_window": 1053,
+ "deduped_against": 28,
  "candidates": [
   {
-   "score": 106.9,
+   "score": 102.1,
    "components": {
     "tier": 40,
     "category": 32,
     "lead": 12.0,
     "relevance": 8,
-    "freshness": 8.9,
+    "freshness": 4.1,
     "corroborated": 10,
     "page_change": -4
    },
@@ -41,13 +41,13 @@
    "verdict": "OPEN THIS \u2014 tier-1 advisory page moved; content not auto-parsed, read it manually"
   },
   {
-   "score": 61.2,
+   "score": 56.4,
    "components": {
     "tier": 40,
     "category": 12,
     "lead": 3.6,
     "relevance": 0,
-    "freshness": 15.6,
+    "freshness": 10.8,
     "undated": -6,
     "page_change": -4
    },
@@ -109,13 +109,51 @@
    "verdict": "OPEN THIS \u2014 tier-1 airline page moved; content not auto-parsed, read it manually"
   },
   {
-   "score": 102.0,
+   "score": 100.2,
+   "components": {
+    "tier": 20,
+    "category": 14,
+    "lead": 8.4,
+    "relevance": 28,
+    "freshness": 19.8,
+    "corroborated": 10
+   },
+   "keywords": [
+    "vat",
+    "route",
+    "frequency",
+    "flight"
+   ],
+   "shock_terms": [],
+   "dedupe_match": null,
+   "dedupe_similarity": 0.11,
+   "id": "2b886a8417b9",
+   "title": "Saudia Further Expands Manchester Service in NW26",
+   "url": "https://www.aeroroutes.com/eng/261012-svnw26man",
+   "summary": "Published at 1200PDT / 1900GMT 12OCT26 Saudia in recent schedule update filed additional frequency expansion on Jeddah \u2013 Manchester route, which was not highlighted in previous AeroRoutes \u2019 update. The Skyteam member plans to increase service from 7 to 10 weekly from 01NOV26, and will further expand to 13 weekly from 03DEC26, 14 from 02JAN27. Additional flights are available for reservations. SV12",
+   "kind": "item",
+   "source": "AeroRoutes schedule filings",
+   "source_id": "aeroroutes",
+   "tier": 2,
+   "country": "GLOBAL",
+   "category": "aviation-tracker",
+   "segments": [
+    "city",
+    "bush",
+    "beach"
+   ],
+   "first_seen": "2026-10-12T22:05+03:00",
+   "published": "2026-10-12",
+   "verdict": "CONSIDER"
+  },
+  {
+   "score": 97.2,
    "components": {
     "tier": 20,
     "category": 5,
     "lead": 1.2,
     "relevance": 28,
-    "freshness": 19.8,
+    "freshness": 15.0,
     "corroborated": 10,
     "shock": 18
    },
@@ -150,13 +188,83 @@
    "verdict": "CONSIDER"
   },
   {
-   "score": 100.0,
+   "score": 96.2,
+   "components": {
+    "tier": 40,
+    "category": 18,
+    "lead": 8.4,
+    "relevance": 0,
+    "freshness": 19.8,
+    "corroborated": 10
+   },
+   "keywords": [],
+   "shock_terms": [],
+   "dedupe_match": null,
+   "dedupe_similarity": 0.0,
+   "id": "ebd488411cbf",
+   "title": "Saving A Grievously Injured Serpent",
+   "url": "https://kws.go.ke/saving-a-grievously-injured-serpent",
+   "summary": "Last week, the veterinary team at the Coast received a call about an unusual patient: a common egg-eater snake found with a severe evisceration wound to its abdomen. Its intestines were exposed, a life-threatening injury for any creature, let alone one so often misunderstood. The team acted swiftly, sedating the snake, cleaning the wound and [...]",
+   "kind": "item",
+   "source": "Kenya Wildlife Service",
+   "source_id": "ke-kws",
+   "tier": 1,
+   "country": "KE",
+   "category": "parks",
+   "segments": [
+    "bush"
+   ],
+   "first_seen": "2026-10-12T22:05+03:00",
+   "published": "2026-10-12",
+   "verdict": "STRONG \u2014 tier-1, upstream"
+  },
+  {
+   "score": 95.8,
+   "components": {
+    "tier": 20,
+    "category": 4,
+    "lead": 0.0,
+    "relevance": 24,
+    "freshness": 19.8,
+    "corroborated": 10,
+    "shock": 18
+   },
+   "keywords": [
+    "outbreak",
+    "ebola"
+   ],
+   "shock_terms": [
+    "outbreak"
+   ],
+   "dedupe_match": null,
+   "dedupe_similarity": 0.18,
+   "id": "890f0602fd16",
+   "title": "Ebola: US maintains travel restrictions on Uganda despite WHO, Africa CDC calls",
+   "url": "https://www.monitor.co.ug/uganda/news/national/ebola-us-maintains-travel-restrictions-on-uganda-despite-who-africa-cdc-calls-5629434",
+   "summary": "Uganda officially declared an end to its domestic Ebola outbreak on July 28 following effective...",
+   "kind": "item",
+   "source": "Daily Monitor (Uganda)",
+   "source_id": "np-monitor-ug",
+   "tier": 2,
+   "country": "UG",
+   "category": "press",
+   "segments": [
+    "city",
+    "bush",
+    "beach"
+   ],
+   "first_seen": "2026-10-12T22:05+03:00",
+   "published": "2026-10-12",
+   "verdict": "CONSIDER"
+  },
+  {
+   "score": 95.2,
    "components": {
     "tier": 40,
     "category": 18,
     "lead": 8.4,
     "relevance": 8,
-    "freshness": 15.6,
+    "freshness": 10.8,
     "corroborated": 10
    },
    "keywords": [
@@ -183,20 +291,20 @@
    "verdict": "STRONG \u2014 tier-1, upstream"
   },
   {
-   "score": 98.1,
+   "score": 93.4,
    "components": {
     "tier": 40,
     "category": 24,
     "lead": 2.4,
     "relevance": 12,
-    "freshness": 19.7
+    "freshness": 15.0
    },
    "keywords": [
     "ebola"
    ],
    "shock_terms": [],
    "dedupe_match": null,
-   "dedupe_similarity": 0.14,
+   "dedupe_similarity": 0.22,
    "id": "29c0f949eb06",
    "title": "Democratic Republic of the Congo (DRC)",
    "url": "https://insp.cd/wp-content/uploads/2026/10/SitRep_MVEBDB_149_10_10_2026.pdf",
@@ -216,13 +324,13 @@
    "verdict": "STRONG \u2014 tier-1, upstream"
   },
   {
-   "score": 96.4,
+   "score": 91.6,
    "components": {
     "tier": 20,
     "category": 9,
     "lead": 3.6,
     "relevance": 16,
-    "freshness": 19.8,
+    "freshness": 15.0,
     "corroborated": 10,
     "shock": 18
    },
@@ -254,13 +362,89 @@
    "verdict": "CONSIDER"
   },
   {
-   "score": 92.2,
+   "score": 90.0,
+   "components": {
+    "tier": 20,
+    "category": 5,
+    "lead": 1.2,
+    "relevance": 16,
+    "freshness": 19.8,
+    "corroborated": 10,
+    "shock": 18
+   },
+   "keywords": [
+    "route",
+    "airport"
+   ],
+   "shock_terms": [
+    "attack"
+   ],
+   "dedupe_match": null,
+   "dedupe_similarity": 0.33,
+   "id": "7729571bed8f",
+   "title": "Delta Delays Riyadh Service to March 2027 Following Airport Attacks",
+   "url": "https://skift.com/2026/10/12/delta-air-lines-delays-riyadh-service-to-march-2027",
+   "summary": "Delta\u2019s planned Atlanta-Riyadh service was already facing questions about safety and demand for the route ahead of the original October launch.",
+   "kind": "item",
+   "source": "Skift",
+   "source_id": "tp-skift",
+   "tier": 2,
+   "country": "GLOBAL",
+   "category": "trade",
+   "segments": [
+    "city",
+    "bush",
+    "beach"
+   ],
+   "first_seen": "2026-10-12T22:05+03:00",
+   "published": "2026-10-12",
+   "verdict": "CONSIDER"
+  },
+  {
+   "score": 88.2,
+   "components": {
+    "tier": 20,
+    "category": 14,
+    "lead": 8.4,
+    "relevance": 16,
+    "freshness": 19.8,
+    "corroborated": 10
+   },
+   "keywords": [
+    "route",
+    "airline",
+    "flight"
+   ],
+   "shock_terms": [],
+   "dedupe_match": null,
+   "dedupe_similarity": 0.11,
+   "id": "4df8a48a8f8a",
+   "title": "Air Arabia Adds Sharjah \u2013 Amman City From Nov 2026",
+   "url": "https://www.aeroroutes.com/eng/261012-g9nov26adj",
+   "summary": "Published at 0900PDT / 1600GMT 12OCT26 Air Arabia from mid-November 2026 plans to launch new route to Jordan, where it schedules Sharjah \u2013 Amman City nonstop flight. The airline will serve this route 4 times weekly from 15NOV26, with a mix of Airbus A320/320neo and A321neo. G9169 SHJ0800 \u2013 1030ADJ 32S x246 G9170 ADJ1120 \u2013 1515SHJ 32S x246",
+   "kind": "item",
+   "source": "AeroRoutes schedule filings",
+   "source_id": "aeroroutes",
+   "tier": 2,
+   "country": "GLOBAL",
+   "category": "aviation-tracker",
+   "segments": [
+    "city",
+    "bush",
+    "beach"
+   ],
+   "first_seen": "2026-10-12T22:05+03:00",
+   "published": "2026-10-12",
+   "verdict": "CONSIDER"
+  },
+  {
+   "score": 87.4,
    "components": {
     "tier": 40,
     "category": 24,
     "lead": 2.4,
     "relevance": 12,
-    "freshness": 19.8,
+    "freshness": 15.0,
     "undated": -6
    },
    "keywords": [
@@ -286,16 +470,16 @@
    ],
    "first_seen": "2026-10-12T17:42+03:00",
    "published": null,
-   "verdict": "STRONG \u2014 tier-1, upstream"
+   "verdict": "CONSIDER"
   },
   {
-   "score": 92.0,
+   "score": 87.3,
    "components": {
     "tier": 20,
     "category": 14,
     "lead": 8.4,
     "relevance": 24,
-    "freshness": 15.6,
+    "freshness": 10.9,
     "corroborated": 10
    },
    "keywords": [
@@ -327,13 +511,13 @@
    "verdict": "CONSIDER"
   },
   {
-   "score": 92.0,
+   "score": 87.3,
    "components": {
     "tier": 40,
     "category": 16,
     "lead": 2.4,
     "relevance": 8,
-    "freshness": 15.6,
+    "freshness": 10.9,
     "corroborated": 10
    },
    "keywords": [
@@ -359,16 +543,16 @@
    ],
    "first_seen": "2026-10-12T13:58+03:00",
    "published": "2026-10-12",
-   "verdict": "STRONG \u2014 tier-1, upstream"
+   "verdict": "CONSIDER"
   },
   {
-   "score": 92.0,
+   "score": 87.3,
    "components": {
     "tier": 40,
     "category": 24,
     "lead": 2.4,
     "relevance": 0,
-    "freshness": 15.6,
+    "freshness": 10.9,
     "corroborated": 10
    },
    "keywords": [],
@@ -391,16 +575,16 @@
    ],
    "first_seen": "2026-10-12T13:58+03:00",
    "published": "2026-10-12",
-   "verdict": "STRONG \u2014 tier-1, upstream"
+   "verdict": "CONSIDER"
   },
   {
-   "score": 89.6,
+   "score": 84.9,
    "components": {
     "tier": 5,
     "category": 5,
     "lead": 0.0,
     "relevance": 36,
-    "freshness": 15.6,
+    "freshness": 10.9,
     "corroborated": 10,
     "shock": 18
    },
@@ -436,13 +620,13 @@
    "verdict": "CONSIDER"
   },
   {
-   "score": 89.4,
+   "score": 84.6,
    "components": {
     "tier": 40,
     "category": 15,
     "lead": 16.8,
     "relevance": 8,
-    "freshness": 15.6,
+    "freshness": 10.8,
     "undated": -6
    },
    "keywords": [
@@ -471,13 +655,49 @@
    "verdict": "CONSIDER"
   },
   {
-   "score": 88.2,
+   "score": 84.2,
+   "components": {
+    "tier": 20,
+    "category": 14,
+    "lead": 8.4,
+    "relevance": 12,
+    "freshness": 19.8,
+    "corroborated": 10
+   },
+   "keywords": [
+    "route",
+    "airline"
+   ],
+   "shock_terms": [],
+   "dedupe_match": null,
+   "dedupe_similarity": 0.11,
+   "id": "069eece2885e",
+   "title": "flynas Adds Riyadh \u2013 Red Sea From Nov 2026",
+   "url": "https://www.aeroroutes.com/eng/261012-xynov26rsi",
+   "summary": "Published at 1000PDT / 1700GMT 12OCT26 flynas from November 2026 schedules new domestic route, where the airline schedules Riyadh \u2013 Red Sea route. The airline plans to serve this route 3 times weekly with Airbus A320neo, effective 15NOV26. XY179 RUH0935 \u2013 1145RSI 32N 467 XY180 RSI1225 \u2013 1415RUH 32N 467",
+   "kind": "item",
+   "source": "AeroRoutes schedule filings",
+   "source_id": "aeroroutes",
+   "tier": 2,
+   "country": "GLOBAL",
+   "category": "aviation-tracker",
+   "segments": [
+    "city",
+    "bush",
+    "beach"
+   ],
+   "first_seen": "2026-10-12T22:05+03:00",
+   "published": "2026-10-12",
+   "verdict": "CONSIDER"
+  },
+  {
+   "score": 83.4,
    "components": {
     "tier": 20,
     "category": 14,
     "lead": 8.4,
     "relevance": 16,
-    "freshness": 19.8,
+    "freshness": 15.0,
     "corroborated": 10
    },
    "keywords": [
@@ -508,13 +728,13 @@
    "verdict": "CONSIDER"
   },
   {
-   "score": 88.2,
+   "score": 83.4,
    "components": {
     "tier": 20,
     "category": 14,
     "lead": 8.4,
     "relevance": 16,
-    "freshness": 19.8,
+    "freshness": 15.0,
     "corroborated": 10
    },
    "keywords": [
@@ -544,13 +764,13 @@
    "verdict": "CONSIDER"
   },
   {
-   "score": 88.0,
+   "score": 83.3,
    "components": {
     "tier": 20,
     "category": 14,
     "lead": 8.4,
     "relevance": 20,
-    "freshness": 15.6,
+    "freshness": 10.9,
     "corroborated": 10
    },
    "keywords": [
@@ -571,74 +791,6 @@
    "tier": 2,
    "country": "GLOBAL",
    "category": "aviation-tracker",
-   "segments": [
-    "city",
-    "bush",
-    "beach"
-   ],
-   "first_seen": "2026-10-12T13:58+03:00",
-   "published": "2026-10-12",
-   "verdict": "CONSIDER"
-  },
-  {
-   "score": 84.2,
-   "components": {
-    "tier": 20,
-    "category": 14,
-    "lead": 8.4,
-    "relevance": 12,
-    "freshness": 19.8,
-    "corroborated": 10
-   },
-   "keywords": [
-    "suspend"
-   ],
-   "shock_terms": [],
-   "dedupe_match": null,
-   "dedupe_similarity": 0.11,
-   "id": "fec86fa0bfac",
-   "title": "Air Cambodia NW26 Service Changes \u2013 11OCT26",
-   "url": "https://www.aeroroutes.com/eng/261012-k6nw26",
-   "summary": "Published at 0500PDT / 1200GMT 12OCT26 Air Cambodia in the last few weeks filed additional service changes to its planned Northern winter 2026/27 season. Planned adjustments as of 11OCT26 include the following. Phnom Penh Krong Ta Khmau \u2013 Cam Ranh/Nha Trang Planned service resumption from 17DEC26 moved to 30MAR27, 2 weekly ATR72 (Previous: Increase to 3 weekly from 17DEC26) Phnom Penh Krong Ta Khm",
-   "kind": "item",
-   "source": "AeroRoutes schedule filings",
-   "source_id": "aeroroutes",
-   "tier": 2,
-   "country": "GLOBAL",
-   "category": "aviation-tracker",
-   "segments": [
-    "city",
-    "bush",
-    "beach"
-   ],
-   "first_seen": "2026-10-12T17:42+03:00",
-   "published": "2026-10-12",
-   "verdict": "CONSIDER"
-  },
-  {
-   "score": 84.0,
-   "components": {
-    "tier": 40,
-    "category": 16,
-    "lead": 2.4,
-    "relevance": 0,
-    "freshness": 15.6,
-    "corroborated": 10
-   },
-   "keywords": [],
-   "shock_terms": [],
-   "dedupe_match": null,
-   "dedupe_similarity": 0.14,
-   "id": "f940107c9b40",
-   "title": "Bid Notice \u2013 Provision of Telecommunication Services",
-   "url": "https://www.ubos.org/2026/10/12/bid-notice-provision-of-telecommunication-services",
-   "summary": "The Uganda Bureau of Statistics has allocated funds to be used for Provision of Telecommunication Services Under [\u2026] The post Bid Notice \u2013 Provision of Telecommunication Services appeared first on Uganda Bureau of Statistics .",
-   "kind": "item",
-   "source": "UBOS statistical releases",
-   "source_id": "ug-ubos",
-   "tier": 1,
-   "country": "UG",
-   "category": "statistics",
    "segments": [
     "city",
     "bush",
@@ -684,76 +836,258 @@
    "score": 81.4,
    "components": {
     "tier": 40,
-    "category": 15,
-    "lead": 16.8,
+    "category": 32,
+    "lead": 3.6,
     "relevance": 0,
-    "freshness": 15.6,
-    "undated": -6
+    "freshness": 19.8,
+    "stale_trap": -10,
+    "page_change": -4
    },
    "keywords": [],
    "shock_terms": [],
    "dedupe_match": null,
-   "dedupe_similarity": 0.11,
-   "id": "4094b752eade",
-   "title": "CG MWENDA, RRA DEPUTY COMMISSIONER GENERAL AGREE TO FACILITATE CROSS-BORDER TRADE",
-   "url": "https://www.tra.go.tz/news/cg-mwenda-rra-deputy-commissioner-general-agree-to-facilitate-cross-border-trade",
-   "summary": "",
-   "kind": "item",
-   "source": "Tanzania Revenue Authority",
-   "source_id": "tz-tra",
+   "dedupe_similarity": 0.2,
+   "id": "18356b0a73ac",
+   "title": "[page changed] Federal Register \u2014 public inspection (HHS/CDC), pre-publication",
+   "url": "https://www.federalregister.gov/api/v1/public-inspection-documents/current.json",
+   "summary": "{\"count\":108,\"results\":[{\"agencies\":[{\"raw_name\":\"Federal Aviation Administration\",\"name\":\"Federal Aviation Administration\",\"id\":159,\"url\":\"https://www.federalregister.gov/agencies/federal-aviation-administration\",\"json_url\":\"https://www.federalregister.gov/api/v1/agencies/159\",\"parent_id\":492,\"slug\":\"federal-aviation-administration\"}],\"agency_letters\":[],\"agency_names\":[\"Federal Aviation Administ",
+   "kind": "page-change",
+   "source": "Federal Register \u2014 public inspection (HHS/CDC), pre-publication",
+   "source_id": "us-fedreg-pubinspect-hhs",
    "tier": 1,
-   "country": "TZ",
-   "category": "fiscal",
+   "country": "REG",
+   "category": "advisory",
+   "segments": [
+    "city",
+    "bush"
+   ],
+   "first_seen": "2026-10-12T22:05+03:00",
+   "published": "2026-10-08",
+   "verdict": "CHECK \u2014 source date older than the window"
+  },
+  {
+   "score": 80.2,
+   "components": {
+    "tier": 20,
+    "category": 14,
+    "lead": 8.4,
+    "relevance": 8,
+    "freshness": 19.8,
+    "corroborated": 10
+   },
+   "keywords": [
+    "route"
+   ],
+   "shock_terms": [],
+   "dedupe_match": null,
+   "dedupe_similarity": 0.09,
+   "id": "45138bed9ddc",
+   "title": "Saudia Tentatively Files A321XLR Mauritius Service in 2H27",
+   "url": "https://www.aeroroutes.com/eng/261012-svns27mru",
+   "summary": "Published at 1100PDT / 1800GMT 12OCT26 Saudia in preliminary schedule listing for Northern summer 2027 season lists Airbus A321XLR operation on Jeddah \u2013 Mauritius route. Initially scheduled from 15JUN26, the A321XLR is now scheduled to serve this route from 02JUL27, 3 times weekly. SV481 JED0715 \u2013 1505MRU 321 135 SV482 MRU1705 \u2013 2300JED 321 135 Further changes remain highly possible.",
+   "kind": "item",
+   "source": "AeroRoutes schedule filings",
+   "source_id": "aeroroutes",
+   "tier": 2,
+   "country": "GLOBAL",
+   "category": "aviation-tracker",
    "segments": [
     "city",
     "bush",
     "beach"
    ],
-   "first_seen": "2026-10-12T13:57+03:00",
-   "published": null,
+   "first_seen": "2026-10-12T22:05+03:00",
+   "published": "2026-10-12",
    "verdict": "CONSIDER"
   },
   {
-   "score": 81.4,
+   "score": 80.2,
+   "components": {
+    "tier": 20,
+    "category": 14,
+    "lead": 8.4,
+    "relevance": 8,
+    "freshness": 19.8,
+    "corroborated": 10
+   },
+   "keywords": [
+    "airline",
+    "flight"
+   ],
+   "shock_terms": [],
+   "dedupe_match": null,
+   "dedupe_similarity": 0.11,
+   "id": "fe350d20260d",
+   "title": "Air Astana Adds Sharm el Sheikh Service in NW26",
+   "url": "https://www.aeroroutes.com/eng/261012-kcnw26ssh",
+   "summary": "Published at 0800PDT / 1500GMT 12OCT26 Air Astana at the launch of Northern winter 2026/27 season plans to add Almaty \u2013 Sharm el Sheikh service, on board Airbus A321LR aircraft. The airline initially schedules 1 weekly flight from 26OCT26, increasing to 2 weekly from 03DEC26. KC553 ALA0720 \u2013 1150SSH 321 4 KC553 ALA0730 \u2013 1200SSH 321 1 KC554 SSH1250 \u2013 2210ALA 321 4 KC554 SSH1300 \u2013 2220ALA 321 1",
+   "kind": "item",
+   "source": "AeroRoutes schedule filings",
+   "source_id": "aeroroutes",
+   "tier": 2,
+   "country": "GLOBAL",
+   "category": "aviation-tracker",
+   "segments": [
+    "city",
+    "bush",
+    "beach"
+   ],
+   "first_seen": "2026-10-12T22:05+03:00",
+   "published": "2026-10-12",
+   "verdict": "CONSIDER"
+  },
+  {
+   "score": 79.4,
+   "components": {
+    "tier": 20,
+    "category": 14,
+    "lead": 8.4,
+    "relevance": 12,
+    "freshness": 15.0,
+    "corroborated": 10
+   },
+   "keywords": [
+    "suspend"
+   ],
+   "shock_terms": [],
+   "dedupe_match": null,
+   "dedupe_similarity": 0.11,
+   "id": "fec86fa0bfac",
+   "title": "Air Cambodia NW26 Service Changes \u2013 11OCT26",
+   "url": "https://www.aeroroutes.com/eng/261012-k6nw26",
+   "summary": "Published at 0500PDT / 1200GMT 12OCT26 Air Cambodia in the last few weeks filed additional service changes to its planned Northern winter 2026/27 season. Planned adjustments as of 11OCT26 include the following. Phnom Penh Krong Ta Khmau \u2013 Cam Ranh/Nha Trang Planned service resumption from 17DEC26 moved to 30MAR27, 2 weekly ATR72 (Previous: Increase to 3 weekly from 17DEC26) Phnom Penh Krong Ta Khm",
+   "kind": "item",
+   "source": "AeroRoutes schedule filings",
+   "source_id": "aeroroutes",
+   "tier": 2,
+   "country": "GLOBAL",
+   "category": "aviation-tracker",
+   "segments": [
+    "city",
+    "bush",
+    "beach"
+   ],
+   "first_seen": "2026-10-12T17:42+03:00",
+   "published": "2026-10-12",
+   "verdict": "CONSIDER"
+  },
+  {
+   "score": 79.3,
    "components": {
     "tier": 40,
-    "category": 15,
-    "lead": 16.8,
+    "category": 16,
+    "lead": 2.4,
     "relevance": 0,
-    "freshness": 15.6,
-    "undated": -6
+    "freshness": 10.9,
+    "corroborated": 10
    },
    "keywords": [],
    "shock_terms": [],
    "dedupe_match": null,
    "dedupe_similarity": 0.14,
-   "id": "0635c1411003",
-   "title": "Public Notice - 2027 Medium Term Debt Strategy (MTDS)",
-   "url": "https://www.treasury.go.ke/sites/default/files/Latest%20updates/Public%20Notice%20on%202027%20MTDS.pdf",
-   "summary": "\u00a8<\u00dc\u0091\u00902r1\u00ef\u00e9\u00fb\u00e5me\u00e1\u00db{\u0097\u0096\u00c2\u00d9R\u0018\u00dc\u00f9q bFs\u00c8\u00cf@G8\u0003\u0081\u00c0\u00ad\u0091o\u00a6\u00a4b\u00fe8\u0096 \u0080Wq\u00c7 s\u00c7\\W\u00ab \u00e1<\u00be\u009b\u00ba\u0082\u00b9\u00c3\u0088\u00f1w0\u0095\u00ad'\u00f7\u009f\u0088\u00de \u00f8 \u00f1\u00cfB\u00d4\u00bc\u00ff\u0000\u0017j\u0097b;\u0089F<\u00b3\u00f2;\u0095\u00f9\u00bc\u00c0\u008c\u000e\u00dd\u00c4\u0002z\u008a\u00f5M7\u00f6f\u00f8\u00d1ia=\u0091\u00d6\u00f6\u00db\u00ab:\u00e6\u00ef}\u00c6\u00c8\u00d8\u00e0\u00b0*\u00d8\u00f7T\u00f9\u007f\u001a\u00fdb\u00b4\u001aE\u008c\u00efp-\u00d4\u00b0\u00c0/\u00b8\u00f3k\u00f8\u00a3\u009999\u00c7\u0096\u0011 \u00fd\u00ce\u00b8]\u00c4\u009c \u00bc\u00f3\u00ef\u00f9/\u00edJ\u00fdd\u0013\u00cb\u00e87\u00a4\u0011\u00ddYx\u0097P\u00bbL\u00aa\u00c5\u00bf\u00cc\u00ab\u00fb\u00bc`rr1\u00bbql`\u0002\b\u00c7Z|:\u009d\u00ed\u00cc\u008e\u00d0$f/\u0094\u00a7\u00ccr\u00c8A$\u008c\u000e\u00bd8\u00fd}!\u008eK\u0088v\u00c6K\"\u0005 \u00e4g\u009d\u00cd\u00c0\u0000\u00000\u0000 \u00fdj\u009ed\u0002T\u0010\u00c9\u00d5<\u00e6\u00c2\u00a8\u0019\u00fb\u00b9c\u009e\b'\u00a7=?1\u00bb \u0091v/[jw\u00f7q\u00d1\u00e7k\u009f\u009b-\u009c\u0000\u007f\u00bd\u009cq\u00eaiM\u00c7\u00d9d \u0086\u00c4\u00bb\u00b2I\u0003\u0095\u00fb\u00dc\u00fbu \u008f\u00a56\u00d8\u00d4Q<Z\u00c4\u00b2\u0098\u00d5b;\u009e1\u00fb#\u009aD\u00f3\u0019 \u0096 q\u00e8GN\u0095\u0003HM\u00c2\u00cfu\u00e6.#\u001b\u0093 /' ~>\u00bd\u00aaF\u00d8c\u0095\u00e6\"6V+#\u0093\u00b4`\u0081\u00d0\u009e\u0080\u00f1\u00f8\u00d0\u0099N\b\u0099\u00b5\u0091\u0001\u0011\u00a9",
-   "kind": "doc",
-   "source": "National Treasury Kenya",
-   "source_id": "ke-treasury",
+   "id": "f940107c9b40",
+   "title": "Bid Notice \u2013 Provision of Telecommunication Services",
+   "url": "https://www.ubos.org/2026/10/12/bid-notice-provision-of-telecommunication-services",
+   "summary": "The Uganda Bureau of Statistics has allocated funds to be used for Provision of Telecommunication Services Under [\u2026] The post Bid Notice \u2013 Provision of Telecommunication Services appeared first on Uganda Bureau of Statistics .",
+   "kind": "item",
+   "source": "UBOS statistical releases",
+   "source_id": "ug-ubos",
    "tier": 1,
-   "country": "KE",
-   "category": "fiscal",
+   "country": "UG",
+   "category": "statistics",
    "segments": [
     "city",
     "bush",
     "beach"
    ],
-   "first_seen": "2026-10-12T13:57+03:00",
-   "published": null,
+   "first_seen": "2026-10-12T13:58+03:00",
+   "published": "2026-10-12",
    "verdict": "CONSIDER"
   },
   {
-   "score": 81.3,
+   "score": 78.4,
+   "components": {
+    "tier": 20,
+    "category": 5,
+    "lead": 3.6,
+    "relevance": 20,
+    "freshness": 19.8,
+    "corroborated": 10
+   },
+   "keywords": [
+    "revpar",
+    "hotel",
+    "booking",
+    "operator"
+   ],
+   "shock_terms": [],
+   "dedupe_match": null,
+   "dedupe_similarity": 0.14,
+   "id": "c24d17524d35",
+   "title": "AI Finds Her the Hotel. She Won't Book Through It Yet. Hotels Turned Staff into System Operators. RevPAR Growth Is Hiding a Cost Crisis.",
+   "url": "https://www.hospitalitynet.org/editorial/4134859/ai-finds-her-the-hotel-she-wont-book-through-it-yet-hotels-turned-staff-into-system-operators-revpar-growth-is-hiding-a-cost-crisis",
+   "summary": "Monday opened with Markus Busch on AI driving pre-booking discovery to independent hotels commission-free while websites fail to convert the visit, Martin Soler arguing hotels reduced staff to computer operators and should use AI to restore genuine hospitality, and HVS finding 5% RevPAR growth at...",
+   "kind": "item",
+   "source": "Hospitality Net \u2014 Africa announcements",
+   "source_id": "dev-hospitalitynet-africa",
+   "tier": 2,
+   "country": "REG",
+   "category": "trade",
+   "segments": [
+    "city",
+    "bush",
+    "beach"
+   ],
+   "first_seen": "2026-10-12T22:05+03:00",
+   "published": "2026-10-12",
+   "verdict": "CONSIDER"
+  },
+  {
+   "score": 77.2,
+   "components": {
+    "tier": 20,
+    "category": 5,
+    "lead": 2.4,
+    "relevance": 20,
+    "freshness": 19.8,
+    "corroborated": 10
+   },
+   "keywords": [
+    "revpar",
+    "hotel",
+    "booking",
+    "operator"
+   ],
+   "shock_terms": [],
+   "dedupe_match": null,
+   "dedupe_similarity": 0.14,
+   "id": "66170ec28bcd",
+   "title": "AI Finds Her the Hotel. She Won't Book Through It Yet. Hotels Turned Staff into System Operators. RevPAR Growth Is Hiding a Cost Crisis.",
+   "url": "https://www.hospitalitynet.org/editorial/4134859/ai-finds-her-the-hotel-she-wont-book-through-it-yet-hotels-turned-staff-into-system-operators-revpar-growth-is-hiding-a-cost-crisis",
+   "summary": "Monday opened with Markus Busch on AI driving pre-booking discovery to independent hotels commission-free while websites fail to convert the visit, Martin Soler arguing hotels reduced staff to computer operators and should use AI to restore genuine hospitality, and HVS finding 5% RevPAR growth at...",
+   "kind": "item",
+   "source": "Hospitality Net: Africa openings",
+   "source_id": "dev-hospitalitynet-openings",
+   "tier": 2,
+   "country": "AFRICA",
+   "category": "trade",
+   "segments": [
+    "city",
+    "bush",
+    "beach"
+   ],
+   "first_seen": "2026-10-12T22:05+03:00",
+   "published": "2026-10-12",
+   "verdict": "CONSIDER"
+  },
+  {
+   "score": 76.6,
    "components": {
     "tier": 40,
     "category": 32,
     "lead": 3.6,
     "relevance": 0,
-    "freshness": 19.7,
+    "freshness": 15.0,
     "stale_trap": -10,
     "page_change": -4
    },
@@ -780,119 +1114,79 @@
    "verdict": "CHECK \u2014 source date older than the window"
   },
   {
-   "score": 80.4,
+   "score": 76.6,
    "components": {
-    "tier": 20,
-    "category": 9,
-    "lead": 3.6,
+    "tier": 40,
+    "category": 15,
+    "lead": 16.8,
     "relevance": 0,
-    "freshness": 19.8,
-    "corroborated": 10,
-    "shock": 18
+    "freshness": 10.8,
+    "undated": -6
    },
    "keywords": [],
-   "shock_terms": [
-    "attack"
-   ],
-   "dedupe_match": null,
-   "dedupe_similarity": 0.0,
-   "id": "105461f3a4ab",
-   "title": "Arabische Halbinsel: Huthi greifen erneut saudische Flugh\u00e4fen an",
-   "url": "https://www.fvw.de/touristik/verkehr/arabische-halbinsel-huthi-greifen-erneut-saudische-flughaefen-an-265197",
-   "summary": "Nach den t\u00f6dlichen Angriffen auf Riad setzen die Huthi ihre Attacken auf saudische Flugh\u00e4fen fort. Auch Industrieanlagen geraten wohl ins Visier.",
-   "kind": "item",
-   "source": "FVW / German travel trade",
-   "source_id": "sm-derreise",
-   "tier": 2,
-   "country": "GLOBAL",
-   "category": "source-market",
-   "segments": [
-    "beach",
-    "bush"
-   ],
-   "first_seen": "2026-10-12T17:42+03:00",
-   "published": "2026-10-12",
-   "verdict": "CONSIDER"
-  },
-  {
-   "score": 80.2,
-   "components": {
-    "tier": 20,
-    "category": 14,
-    "lead": 8.4,
-    "relevance": 8,
-    "freshness": 19.8,
-    "corroborated": 10
-   },
-   "keywords": [
-    "route"
-   ],
-   "shock_terms": [],
-   "dedupe_match": null,
-   "dedupe_similarity": 0.14,
-   "id": "726975c67312",
-   "title": "FitsAir Plans Colombo \u2013 Chennai Resumption in Nov 2026",
-   "url": "https://www.aeroroutes.com/eng/261012-8dnov26maa",
-   "summary": "Published at 0400PDT / 1100GMT 12OCT26 Sri Lanka\u2019s FitsAir in the GDS and OAG filed operational schedule for Colombo \u2013 Chennai route, as the carrier intends to resume service on 24NOV26 at the earliest. This route was last served until March 2025. 8D941 CMB0755 \u2013 0905MAA 320 246 8D942 MAA1005 \u2013 1120CMB 320 246",
-   "kind": "item",
-   "source": "AeroRoutes schedule filings",
-   "source_id": "aeroroutes",
-   "tier": 2,
-   "country": "GLOBAL",
-   "category": "aviation-tracker",
-   "segments": [
-    "city",
-    "bush",
-    "beach"
-   ],
-   "first_seen": "2026-10-12T17:42+03:00",
-   "published": "2026-10-12",
-   "verdict": "CONSIDER"
-  },
-  {
-   "score": 80.0,
-   "components": {
-    "tier": 20,
-    "category": 14,
-    "lead": 8.4,
-    "relevance": 12,
-    "freshness": 15.6,
-    "corroborated": 10
-   },
-   "keywords": [
-    "route",
-    "airline"
-   ],
    "shock_terms": [],
    "dedupe_match": null,
    "dedupe_similarity": 0.11,
-   "id": "023ab7176584",
-   "title": "Jeju Air Adds Busan \u2013 Manila From Dec 2026",
-   "url": "https://www.aeroroutes.com/eng/261012-7cdec26pusmnl",
-   "summary": "Published at 0300PDT / 1000GMT 12OCT26 Jeju Air from December 2026 plans to launch new route to The Philippines, as the carrier lists 5 weekly Busan \u2013 Manila route. The airline plans to launch this route on 17DEC26, with 737-800 aircraft. 7C2613 PUS2130 \u2013 0045+1MNL 738 x37 7C2614 MNL0145 \u2013 0720PUS 738 x14",
+   "id": "4094b752eade",
+   "title": "CG MWENDA, RRA DEPUTY COMMISSIONER GENERAL AGREE TO FACILITATE CROSS-BORDER TRADE",
+   "url": "https://www.tra.go.tz/news/cg-mwenda-rra-deputy-commissioner-general-agree-to-facilitate-cross-border-trade",
+   "summary": "",
    "kind": "item",
-   "source": "AeroRoutes schedule filings",
-   "source_id": "aeroroutes",
-   "tier": 2,
-   "country": "GLOBAL",
-   "category": "aviation-tracker",
+   "source": "Tanzania Revenue Authority",
+   "source_id": "tz-tra",
+   "tier": 1,
+   "country": "TZ",
+   "category": "fiscal",
    "segments": [
     "city",
     "bush",
     "beach"
    ],
-   "first_seen": "2026-10-12T13:58+03:00",
-   "published": "2026-10-12",
+   "first_seen": "2026-10-12T13:57+03:00",
+   "published": null,
    "verdict": "CONSIDER"
   },
   {
-   "score": 79.4,
+   "score": 76.6,
+   "components": {
+    "tier": 40,
+    "category": 15,
+    "lead": 16.8,
+    "relevance": 0,
+    "freshness": 10.8,
+    "undated": -6
+   },
+   "keywords": [],
+   "shock_terms": [],
+   "dedupe_match": null,
+   "dedupe_similarity": 0.14,
+   "id": "0635c1411003",
+   "title": "Public Notice - 2027 Medium Term Debt Strategy (MTDS)",
+   "url": "https://www.treasury.go.ke/sites/default/files/Latest%20updates/Public%20Notice%20on%202027%20MTDS.pdf",
+   "summary": "\u00a8<\u00dc\u0091\u00902r1\u00ef\u00e9\u00fb\u00e5me\u00e1\u00db{\u0097\u0096\u00c2\u00d9R\u0018\u00dc\u00f9q bFs\u00c8\u00cf@G8\u0003\u0081\u00c0\u00ad\u0091o\u00a6\u00a4b\u00fe8\u0096 \u0080Wq\u00c7 s\u00c7\\W\u00ab \u00e1<\u00be\u009b\u00ba\u0082\u00b9\u00c3\u0088\u00f1w0\u0095\u00ad'\u00f7\u009f\u0088\u00de \u00f8 \u00f1\u00cfB\u00d4\u00bc\u00ff\u0000\u0017j\u0097b;\u0089F<\u00b3\u00f2;\u0095\u00f9\u00bc\u00c0\u008c\u000e\u00dd\u00c4\u0002z\u008a\u00f5M7\u00f6f\u00f8\u00d1ia=\u0091\u00d6\u00f6\u00db\u00ab:\u00e6\u00ef}\u00c6\u00c8\u00d8\u00e0\u00b0*\u00d8\u00f7T\u00f9\u007f\u001a\u00fdb\u00b4\u001aE\u008c\u00efp-\u00d4\u00b0\u00c0/\u00b8\u00f3k\u00f8\u00a3\u009999\u00c7\u0096\u0011 \u00fd\u00ce\u00b8]\u00c4\u009c \u00bc\u00f3\u00ef\u00f9/\u00edJ\u00fdd\u0013\u00cb\u00e87\u00a4\u0011\u00ddYx\u0097P\u00bbL\u00aa\u00c5\u00bf\u00cc\u00ab\u00fb\u00bc`rr1\u00bbql`\u0002\b\u00c7Z|:\u009d\u00ed\u00cc\u008e\u00d0$f/\u0094\u00a7\u00ccr\u00c8A$\u008c\u000e\u00bd8\u00fd}!\u008eK\u0088v\u00c6K\"\u0005 \u00e4g\u009d\u00cd\u00c0\u0000\u00000\u0000 \u00fdj\u009ed\u0002T\u0010\u00c9\u00d5<\u00e6\u00c2\u00a8\u0019\u00fb\u00b9c\u009e\b'\u00a7=?1\u00bb \u0091v/[jw\u00f7q\u00d1\u00e7k\u009f\u009b-\u009c\u0000\u007f\u00bd\u009cq\u00eaiM\u00c7\u00d9d \u0086\u00c4\u00bb\u00b2I\u0003\u0095\u00fb\u00dc\u00fbu \u008f\u00a56\u00d8\u00d4Q<Z\u00c4\u00b2\u0098\u00d5b;\u009e1\u00fb#\u009aD\u00f3\u0019 \u0096 q\u00e8GN\u0095\u0003HM\u00c2\u00cfu\u00e6.#\u001b\u0093 /' ~>\u00bd\u00aaF\u00d8c\u0095\u00e6\"6V+#\u0093\u00b4`\u0081\u00d0\u009e\u0080\u00f1\u00f8\u00d0\u0099N\b\u0099\u00b5\u0091\u0001\u0011\u00a9",
+   "kind": "doc",
+   "source": "National Treasury Kenya",
+   "source_id": "ke-treasury",
+   "tier": 1,
+   "country": "KE",
+   "category": "fiscal",
+   "segments": [
+    "city",
+    "bush",
+    "beach"
+   ],
+   "first_seen": "2026-10-12T13:57+03:00",
+   "published": null,
+   "verdict": "CONSIDER"
+  },
+  {
+   "score": 76.4,
    "components": {
     "tier": 40,
     "category": 24,
     "lead": 2.4,
     "relevance": 0,
-    "freshness": 3.0,
+    "freshness": 0.0,
     "corroborated": 10
    },
    "keywords": [],
@@ -915,249 +1209,6 @@
    ],
    "first_seen": "2026-10-12T02:29+03:00",
    "published": "2026-10-12",
-   "verdict": "CONSIDER"
-  },
-  {
-   "score": 78.4,
-   "components": {
-    "tier": 20,
-    "category": 9,
-    "lead": 3.6,
-    "relevance": 16,
-    "freshness": 19.8,
-    "corroborated": 10
-   },
-   "keywords": [
-    "eta",
-    "hotel",
-    "resort"
-   ],
-   "shock_terms": [],
-   "dedupe_match": null,
-   "dedupe_similarity": 0.12,
-   "id": "79c57a30c249",
-   "title": "Treueprogramm f\u00fcr Reiseb\u00fcros: Website des Riu Partner Clubs wurde \u00fcberarbeitet",
-   "url": "https://www.fvw.de/counter/verkauf/treueprogramm-fuer-reisebueros-website-des-riu-partner-club-wurde-ueberarbeitet-265204",
-   "summary": "Riu Hotels & Resorts hat den Web-Auftritt des Riu Partner Clubs grundlegend \u00fcberarbeitet. Einige Details.",
-   "kind": "item",
-   "source": "FVW / German travel trade",
-   "source_id": "sm-derreise",
-   "tier": 2,
-   "country": "GLOBAL",
-   "category": "source-market",
-   "segments": [
-    "beach",
-    "bush"
-   ],
-   "first_seen": "2026-10-12T17:42+03:00",
-   "published": "2026-10-12",
-   "verdict": "CONSIDER"
-  },
-  {
-   "score": 77.2,
-   "components": {
-    "tier": 40,
-    "category": 32,
-    "lead": 3.6,
-    "relevance": 0,
-    "freshness": 15.6,
-    "stale_trap": -10,
-    "page_change": -4
-   },
-   "keywords": [],
-   "shock_terms": [],
-   "dedupe_match": null,
-   "dedupe_similarity": 0.2,
-   "id": "e02e074ede42",
-   "title": "[page changed] Federal Register \u2014 public inspection (HHS/CDC), pre-publication",
-   "url": "https://www.federalregister.gov/api/v1/public-inspection-documents/current.json",
-   "summary": "{\"count\":108,\"results\":[{\"agencies\":[{\"raw_name\":\"Federal Aviation Administration\",\"name\":\"Federal Aviation Administration\",\"id\":159,\"url\":\"https://www.federalregister.gov/agencies/federal-aviation-administration\",\"json_url\":\"https://www.federalregister.gov/api/v1/agencies/159\",\"parent_id\":492,\"slug\":\"federal-aviation-administration\"}],\"agency_letters\":[],\"agency_names\":[\"Federal Aviation Administ",
-   "kind": "page-change",
-   "source": "Federal Register \u2014 public inspection (HHS/CDC), pre-publication",
-   "source_id": "us-fedreg-pubinspect-hhs",
-   "tier": 1,
-   "country": "REG",
-   "category": "advisory",
-   "segments": [
-    "city",
-    "bush"
-   ],
-   "first_seen": "2026-10-12T13:57+03:00",
-   "published": "2026-10-08",
-   "verdict": "CHECK \u2014 source date older than the window"
-  },
-  {
-   "score": 76.9,
-   "components": {
-    "tier": 20,
-    "category": 4,
-    "lead": 0.0,
-    "relevance": 16,
-    "freshness": 8.9,
-    "corroborated": 10,
-    "shock": 18
-   },
-   "keywords": [
-    "strike",
-    "protest"
-   ],
-   "shock_terms": [
-    "strike"
-   ],
-   "dedupe_match": null,
-   "dedupe_similarity": 0.29,
-   "id": "3dd028576429",
-   "title": "Bus drivers halt strike to allow talks with gov\u2019t",
-   "url": "https://www.monitor.co.ug/uganda/news/national/bus-drivers-halt-strike-to-allow-talks-with-gov-t-5628106",
-   "summary": "The bus drivers had planned a nationwide sit-down strike starting Monday in protest over the...",
-   "kind": "item",
-   "source": "Daily Monitor (Uganda)",
-   "source_id": "np-monitor-ug",
-   "tier": 2,
-   "country": "UG",
-   "category": "press",
-   "segments": [
-    "city",
-    "bush",
-    "beach"
-   ],
-   "first_seen": "2026-10-12T07:52+03:00",
-   "published": "2026-10-12",
-   "verdict": "CONSIDER"
-  },
-  {
-   "score": 76.7,
-   "components": {
-    "tier": 40,
-    "category": 9,
-    "lead": 16.8,
-    "relevance": 8,
-    "freshness": 8.9,
-    "undated": -6
-   },
-   "keywords": [
-    "hotel",
-    "resort"
-   ],
-   "shock_terms": [],
-   "dedupe_match": null,
-   "dedupe_similarity": 0.12,
-   "id": "790e9c893499",
-   "title": "IHG Hotels & Resorts Opens InterContinental Taipei, Expanding Luxury Portfolio in Greater China",
-   "url": "https://www.ihgplc.com/en/news-and-media/news-releases/2026/ihg-hotels-and-resorts-opens-intercontinental-taipei-expanding-luxury-portfolio-in-greater-china",
-   "summary": "",
-   "kind": "item",
-   "source": "IHG news",
-   "source_id": "dev-ihg",
-   "tier": 1,
-   "country": "GLOBAL",
-   "category": "hotel-group",
-   "segments": [
-    "city",
-    "bush",
-    "beach"
-   ],
-   "first_seen": "2026-10-12T07:50+03:00",
-   "published": null,
-   "verdict": "CONSIDER"
-  },
-  {
-   "score": 76.4,
-   "components": {
-    "tier": 40,
-    "category": 10,
-    "lead": 16.8,
-    "relevance": 0,
-    "freshness": 15.6,
-    "undated": -6
-   },
-   "keywords": [],
-   "shock_terms": [],
-   "dedupe_match": null,
-   "dedupe_similarity": 0.38,
-   "id": "abc3e022fd47",
-   "title": "The Hansard - Wednesday, 7 October 2026 - Morning Sitting",
-   "url": "https://www.parliament.go.ke/sites/default/files/2026-10/The%20Hansard%20-%20Wednesday%2C%207%20October%202026%20%28P%29.pdf",
-   "summary": "REPUBLIC OF KENYA THIRTEENTH PARLIAMENT NATIONAL ASSEMBLY THE HANSARD 7th October 2026 Vol. V No. 89 7th October 2026 National Assembly Debates 1 Disclaimer: The electronic version of the Official Hansard Report is for information purposes only. A certified copy of this Report can be obtained from the Hansard Editor. THE HANSARD Wednesday, 7th October 2026 (The House met at 2.30 p.m.) [The Speaker",
-   "kind": "doc",
-   "source": "Parliament of Kenya \u2014 bills & papers",
-   "source_id": "ke-parliament",
-   "tier": 1,
-   "country": "KE",
-   "category": "legislature",
-   "segments": [
-    "city",
-    "bush",
-    "beach"
-   ],
-   "first_seen": "2026-10-12T13:57+03:00",
-   "published": null,
-   "verdict": "CONSIDER"
-  },
-  {
-   "score": 76.4,
-   "components": {
-    "tier": 40,
-    "category": 10,
-    "lead": 16.8,
-    "relevance": 0,
-    "freshness": 15.6,
-    "undated": -6
-   },
-   "keywords": [],
-   "shock_terms": [],
-   "dedupe_match": null,
-   "dedupe_similarity": 0.38,
-   "id": "a2e33c8a0293",
-   "title": "The Hansard - Wednesday, 7 October 2026 - Afternoon Sitting",
-   "url": "https://www.parliament.go.ke/sites/default/files/2026-10/The%20Hansard%20-%20Wednesday%2C%207%20October%202026%20%28P%29_0.pdf",
-   "summary": "REPUBLIC OF KENYA THIRTEENTH PARLIAMENT NATIONAL ASSEMBLY THE HANSARD 7th October 2026 Vol. V No. 89 7th October 2026 National Assembly Debates 1 Disclaimer: The electronic version of the Official Hansard Report is for information purposes only. A certified copy of this Report can be obtained from the Hansard Editor. THE HANSARD Wednesday, 7th October 2026 (The House met at 2.30 p.m.) [The Speaker",
-   "kind": "doc",
-   "source": "Parliament of Kenya \u2014 bills & papers",
-   "source_id": "ke-parliament",
-   "tier": 1,
-   "country": "KE",
-   "category": "legislature",
-   "segments": [
-    "city",
-    "bush",
-    "beach"
-   ],
-   "first_seen": "2026-10-12T13:57+03:00",
-   "published": null,
-   "verdict": "CONSIDER"
-  },
-  {
-   "score": 76.4,
-   "components": {
-    "tier": 40,
-    "category": 10,
-    "lead": 16.8,
-    "relevance": 0,
-    "freshness": 15.6,
-    "undated": -6
-   },
-   "keywords": [],
-   "shock_terms": [],
-   "dedupe_match": null,
-   "dedupe_similarity": 0.38,
-   "id": "ca95e09f9b9f",
-   "title": "The Hansard - Thursday, 8 October 2026",
-   "url": "https://www.parliament.go.ke/sites/default/files/2026-10/The%20Hansard%20-%20Thursday%2C%208%20October%202026.pdf",
-   "summary": "REPUBLIC OF KENYA THIRTEENTH PARLIAMENT NATIONAL ASSEMBLY THE HANSARD 8th October 2026 Vol. V No. 90 8th October 2026 National Assembly Debates 1 Disclaimer: The electronic version of the Official Hansard Report is for information purposes only. A certified copy of this Report can be obtained from the Hansard Editor. THE HANSARD Thursday, 8th October 2026 (The House met at 2.30 p.m.) [The Speaker ",
-   "kind": "doc",
-   "source": "Parliament of Kenya \u2014 bills & papers",
-   "source_id": "ke-parliament",
-   "tier": 1,
-   "country": "KE",
-   "category": "legislature",
-   "segments": [
-    "city",
-    "bush",
-    "beach"
-   ],
-   "first_seen": "2026-10-12T13:57+03:00",
-   "published": null,
    "verdict": "CONSIDER"
   },
   {
@@ -1295,108 +1346,73 @@
    "verdict": "CONSIDER"
   },
   {
-   "score": 76.0,
+   "score": 75.6,
    "components": {
-    "tier": 5,
-    "category": 5,
-    "lead": 2.4,
-    "relevance": 20,
-    "freshness": 15.6,
+    "tier": 20,
+    "category": 9,
+    "lead": 3.6,
+    "relevance": 0,
+    "freshness": 15.0,
     "corroborated": 10,
     "shock": 18
    },
-   "keywords": [
-    "cancel",
-    "strike"
-   ],
+   "keywords": [],
    "shock_terms": [
-    "strike"
+    "attack"
    ],
    "dedupe_match": null,
-   "dedupe_similarity": 0.14,
-   "id": "778608553aa6",
-   "title": "Belgium Railway Strike Disrupts Netherlands Travel as Eurocity Direct Cancellations Affect International Travellers",
-   "url": "https://www.travelandtourworld.com/news/article/nnrzpsjrzzgt",
-   "summary": "Belgium Railway Strike Disrupts Netherlands Travel as Eurocity Direct Cancellations Affect International Travellers Belgium's rail strike cuts Brussels\u2013Amsterdam Eurocity Direct trains, affecting cross-border travellers. The post Belgium Railway Strike Disrupts Netherlands Travel as Eurocity Direct Cancellations Affect International Travellers appeared first on Travel And Tour World .",
+   "dedupe_similarity": 0.0,
+   "id": "105461f3a4ab",
+   "title": "Arabische Halbinsel: Huthi greifen erneut saudische Flugh\u00e4fen an",
+   "url": "https://www.fvw.de/touristik/verkehr/arabische-halbinsel-huthi-greifen-erneut-saudische-flughaefen-an-265197",
+   "summary": "Nach den t\u00f6dlichen Angriffen auf Riad setzen die Huthi ihre Attacken auf saudische Flugh\u00e4fen fort. Auch Industrieanlagen geraten wohl ins Visier.",
    "kind": "item",
-   "source": "Travel And Tour World",
-   "source_id": "gl-travelandtourworld",
-   "tier": 3,
+   "source": "FVW / German travel trade",
+   "source_id": "sm-derreise",
+   "tier": 2,
    "country": "GLOBAL",
-   "category": "trade",
+   "category": "source-market",
    "segments": [
-    "city",
-    "bush",
-    "beach"
+    "beach",
+    "bush"
    ],
-   "first_seen": "2026-10-12T13:58+03:00",
+   "first_seen": "2026-10-12T17:42+03:00",
    "published": "2026-10-12",
    "verdict": "CONSIDER"
   },
   {
-   "score": 76.0,
+   "score": 75.4,
    "components": {
-    "tier": 40,
-    "category": 24,
-    "lead": 2.4,
-    "relevance": 0,
-    "freshness": 15.6,
-    "undated": -6
+    "tier": 20,
+    "category": 14,
+    "lead": 8.4,
+    "relevance": 8,
+    "freshness": 15.0,
+    "corroborated": 10
    },
-   "keywords": [],
-   "shock_terms": [],
-   "dedupe_match": null,
-   "dedupe_similarity": 0.12,
-   "id": "ee48abd59c84",
-   "title": "Ministry, Nakuru County Mark World Mental Health Day in Gilgil",
-   "url": "https://www.health.go.ke/ministry-nakuru-county-mark-world-mental-health-day-gilgil",
-   "summary": "",
-   "kind": "item",
-   "source": "Kenya Ministry of Health",
-   "source_id": "ke-moh",
-   "tier": 1,
-   "country": "KE",
-   "category": "health",
-   "segments": [
-    "city",
-    "bush",
-    "beach"
+   "keywords": [
+    "route"
    ],
-   "first_seen": "2026-10-12T13:58+03:00",
-   "published": null,
-   "verdict": "CONSIDER"
-  },
-  {
-   "score": 76.0,
-   "components": {
-    "tier": 40,
-    "category": 24,
-    "lead": 2.4,
-    "relevance": 0,
-    "freshness": 15.6,
-    "undated": -6
-   },
-   "keywords": [],
    "shock_terms": [],
    "dedupe_match": null,
    "dedupe_similarity": 0.14,
-   "id": "4baeca62fef7",
-   "title": "Ministry Presents Health Priorities for 2027/28 Budget",
-   "url": "https://www.health.go.ke/ministry-presents-health-priorities-202728-budget",
-   "summary": "",
+   "id": "726975c67312",
+   "title": "FitsAir Plans Colombo \u2013 Chennai Resumption in Nov 2026",
+   "url": "https://www.aeroroutes.com/eng/261012-8dnov26maa",
+   "summary": "Published at 0400PDT / 1100GMT 12OCT26 Sri Lanka\u2019s FitsAir in the GDS and OAG filed operational schedule for Colombo \u2013 Chennai route, as the carrier intends to resume service on 24NOV26 at the earliest. This route was last served until March 2025. 8D941 CMB0755 \u2013 0905MAA 320 246 8D942 MAA1005 \u2013 1120CMB 320 246",
    "kind": "item",
-   "source": "Kenya Ministry of Health",
-   "source_id": "ke-moh",
-   "tier": 1,
-   "country": "KE",
-   "category": "health",
+   "source": "AeroRoutes schedule filings",
+   "source_id": "aeroroutes",
+   "tier": 2,
+   "country": "GLOBAL",
+   "category": "aviation-tracker",
    "segments": [
     "city",
     "bush",
     "beach"
    ],
-   "first_seen": "2026-10-12T13:58+03:00",
-   "published": null,
+   "first_seen": "2026-10-12T17:42+03:00",
+   "published": "2026-10-12",
    "verdict": "CONSIDER"
   }
  ]
