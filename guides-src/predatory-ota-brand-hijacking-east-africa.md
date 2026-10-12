@@ -4,6 +4,8 @@ slug: predatory-ota-brand-hijacking-east-africa
 description: A report published on 9 October put 1.1 million brand-hijacking adverts against 204,000 hotels in 205 countries. East African properties are already on the pages those adverts lead to, and the three remedies working elsewhere are the three that travel worst.
 category: Big Read
 updated: 2026-10-12
+image: "img/editions/predatory-ota-brand-hijacking-east-africa.jpg"
+image_credit: "Photograph: Onyango George / EA Hospitality Pulse"
 ---
 Type the words Nairobi Serena Hotel into a search box and one of the pages you can reach is not the Nairobi Serena Hotel. It carries the hotel's name as its heading, the address on Kenyatta Avenue, fifty photographs of the property, a room list that runs from Deluxe to Presidential Suite, and a telephone number in large type at the top of the screen inviting you to call now. The number, (866) 238-4218, is a United States toll-free line. The page belongs to GuestReservations.com, which describes itself in small print at the foot of the screen as "an independent travel network offering over 100,000 hotels worldwide" and offers, behind a link, a notice headed Hotel Non-Affiliation. Checked on Sunday, the property page quoted no price at all, only a button marked Today's Low Rate. The company's Nairobi index page is less coy. It lists 91 Nairobi hotels, twenty-one of the first twenty-five with a nightly rate attached, from $110 at the Best Western Nairobi Upper Hill to $431 at the Serena.
 
