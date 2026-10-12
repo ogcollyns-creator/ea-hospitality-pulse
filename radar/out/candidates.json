@@ -1,18 +1,53 @@
 {
- "generated": "2026-10-12T02:30:12+03:00",
+ "generated": "2026-10-12T07:53:35+03:00",
  "slot": "morning",
  "window_start": 1791730800,
- "observations_in_window": 261,
- "deduped_against": 29,
+ "observations_in_window": 367,
+ "deduped_against": 22,
  "candidates": [
   {
-   "score": 60.1,
+   "score": 117.8,
+   "components": {
+    "tier": 40,
+    "category": 32,
+    "lead": 12.0,
+    "relevance": 8,
+    "freshness": 19.8,
+    "corroborated": 10,
+    "page_change": -4
+   },
+   "keywords": [
+    "fee"
+   ],
+   "shock_terms": [],
+   "dedupe_match": null,
+   "dedupe_similarity": 0.11,
+   "id": "78da9a20dd94",
+   "title": "[page changed] Federal Register \u2014 CDC notices",
+   "url": "https://www.federalregister.gov/api/v1/documents.rss?conditions%5Bagencies%5D%5B%5D=centers-for-disease-control-and-prevention&order=newest",
+   "summary": "Federal Register Documents published on or after 09/12/2026 and from Centers for Disease Control and Prevention https://www.federalregister.gov/api/v1/documents.rss?conditions%5Bagencies%5D%5B%5D=centers-for-disease-control-and-prevention&order=newest Thu, 08 Oct 2026 04:00:00 GMT The documents in this feed originate from FederalRegister.gov which displays an unofficial web version of the daily Fe",
+   "kind": "page-change",
+   "source": "Federal Register \u2014 CDC notices",
+   "source_id": "us-fedreg-cdc",
+   "tier": 1,
+   "country": "REG",
+   "category": "advisory",
+   "segments": [
+    "city",
+    "bush"
+   ],
+   "first_seen": "2026-10-12T07:51+03:00",
+   "published": "2026-12-09",
+   "verdict": "OPEN THIS \u2014 tier-1 advisory page moved; content not auto-parsed, read it manually"
+  },
+  {
+   "score": 54.2,
    "components": {
     "tier": 40,
     "category": 12,
     "lead": 3.6,
     "relevance": 0,
-    "freshness": 14.5,
+    "freshness": 8.6,
     "undated": -6,
     "page_change": -4
    },
@@ -40,13 +75,13 @@
    "verdict": "OPEN THIS \u2014 tier-1 airline page moved; content not auto-parsed, read it manually"
   },
   {
-   "score": 98.3,
+   "score": 92.4,
    "components": {
     "tier": 40,
     "category": 32,
     "lead": 16.8,
     "relevance": 0,
-    "freshness": 15.5,
+    "freshness": 9.6,
     "undated": -6
    },
    "keywords": [],
@@ -72,13 +107,13 @@
    "verdict": "STRONG \u2014 tier-1, upstream"
   },
   {
-   "score": 96.2,
+   "score": 90.3,
    "components": {
     "tier": 40,
     "category": 24,
     "lead": 2.4,
     "relevance": 0,
-    "freshness": 19.8,
+    "freshness": 13.9,
     "corroborated": 10
    },
    "keywords": [],
@@ -104,13 +139,88 @@
    "verdict": "STRONG \u2014 tier-1, upstream"
   },
   {
-   "score": 87.7,
+   "score": 87.8,
+   "components": {
+    "tier": 20,
+    "category": 4,
+    "lead": 0.0,
+    "relevance": 16,
+    "freshness": 19.8,
+    "corroborated": 10,
+    "shock": 18
+   },
+   "keywords": [
+    "strike",
+    "protest"
+   ],
+   "shock_terms": [
+    "strike"
+   ],
+   "dedupe_match": null,
+   "dedupe_similarity": 0.29,
+   "id": "3dd028576429",
+   "title": "Bus drivers halt strike to allow talks with gov\u2019t",
+   "url": "https://www.monitor.co.ug/uganda/news/national/bus-drivers-halt-strike-to-allow-talks-with-gov-t-5628106",
+   "summary": "The bus drivers had planned a nationwide sit-down strike starting Monday in protest over the...",
+   "kind": "item",
+   "source": "Daily Monitor (Uganda)",
+   "source_id": "np-monitor-ug",
+   "tier": 2,
+   "country": "UG",
+   "category": "press",
+   "segments": [
+    "city",
+    "bush",
+    "beach"
+   ],
+   "first_seen": "2026-10-12T07:52+03:00",
+   "published": "2026-10-12",
+   "verdict": "CONSIDER"
+  },
+  {
+   "score": 87.5,
+   "components": {
+    "tier": 40,
+    "category": 9,
+    "lead": 16.8,
+    "relevance": 8,
+    "freshness": 19.7,
+    "undated": -6
+   },
+   "keywords": [
+    "hotel",
+    "resort"
+   ],
+   "shock_terms": [],
+   "dedupe_match": null,
+   "dedupe_similarity": 0.12,
+   "id": "790e9c893499",
+   "title": "IHG Hotels & Resorts Opens InterContinental Taipei, Expanding Luxury Portfolio in Greater China",
+   "url": "https://www.ihgplc.com/en/news-and-media/news-releases/2026/ihg-hotels-and-resorts-opens-intercontinental-taipei-expanding-luxury-portfolio-in-greater-china",
+   "summary": "",
+   "kind": "item",
+   "source": "IHG news",
+   "source_id": "dev-ihg",
+   "tier": 1,
+   "country": "GLOBAL",
+   "category": "hotel-group",
+   "segments": [
+    "city",
+    "bush",
+    "beach"
+   ],
+   "first_seen": "2026-10-12T07:50+03:00",
+   "published": null,
+   "verdict": "CONSIDER"
+  },
+  {
+   "score": 81.7,
    "components": {
     "tier": 20,
     "category": 14,
     "lead": 8.4,
     "relevance": 24,
-    "freshness": 11.3,
+    "freshness": 5.3,
     "corroborated": 10
    },
    "keywords": [
@@ -142,13 +252,13 @@
    "verdict": "CONSIDER"
   },
   {
-   "score": 87.7,
+   "score": 81.7,
    "components": {
     "tier": 40,
     "category": 24,
     "lead": 2.4,
     "relevance": 0,
-    "freshness": 11.3,
+    "freshness": 5.3,
     "corroborated": 10
    },
    "keywords": [],
@@ -174,13 +284,13 @@
    "verdict": "CONSIDER"
   },
   {
-   "score": 87.7,
+   "score": 81.7,
    "components": {
     "tier": 40,
     "category": 24,
     "lead": 2.4,
     "relevance": 0,
-    "freshness": 11.3,
+    "freshness": 5.3,
     "corroborated": 10
    },
    "keywords": [],
@@ -206,13 +316,13 @@
    "verdict": "CONSIDER"
   },
   {
-   "score": 87.7,
+   "score": 81.7,
    "components": {
     "tier": 40,
     "category": 24,
     "lead": 2.4,
     "relevance": 0,
-    "freshness": 11.3,
+    "freshness": 5.3,
     "corroborated": 10
    },
    "keywords": [],
@@ -238,13 +348,46 @@
    "verdict": "CONSIDER"
   },
   {
-   "score": 86.2,
+   "score": 81.3,
+   "components": {
+    "tier": 40,
+    "category": 32,
+    "lead": 3.6,
+    "relevance": 0,
+    "freshness": 19.7,
+    "stale_trap": -10,
+    "page_change": -4
+   },
+   "keywords": [],
+   "shock_terms": [],
+   "dedupe_match": null,
+   "dedupe_similarity": 0.2,
+   "id": "c166bff44460",
+   "title": "[page changed] Federal Register \u2014 public inspection (HHS/CDC), pre-publication",
+   "url": "https://www.federalregister.gov/api/v1/public-inspection-documents/current.json",
+   "summary": "{\"count\":108,\"results\":[{\"agencies\":[{\"raw_name\":\"Federal Aviation Administration\",\"name\":\"Federal Aviation Administration\",\"id\":159,\"url\":\"https://www.federalregister.gov/agencies/federal-aviation-administration\",\"json_url\":\"https://www.federalregister.gov/api/v1/agencies/159\",\"parent_id\":492,\"slug\":\"federal-aviation-administration\"}],\"agency_letters\":[],\"agency_names\":[\"Federal Aviation Administ",
+   "kind": "page-change",
+   "source": "Federal Register \u2014 public inspection (HHS/CDC), pre-publication",
+   "source_id": "us-fedreg-pubinspect-hhs",
+   "tier": 1,
+   "country": "REG",
+   "category": "advisory",
+   "segments": [
+    "city",
+    "bush"
+   ],
+   "first_seen": "2026-10-12T07:50+03:00",
+   "published": "2026-10-08",
+   "verdict": "CHECK \u2014 source date older than the window"
+  },
+  {
+   "score": 80.3,
    "components": {
     "tier": 20,
     "category": 24,
     "lead": 2.4,
     "relevance": 12,
-    "freshness": 19.8,
+    "freshness": 13.9,
     "undated": -6,
     "shock": 18,
     "page_change": -4
@@ -277,13 +420,51 @@
    "verdict": "CONSIDER"
   },
   {
-   "score": 81.7,
+   "score": 79.8,
+   "components": {
+    "tier": 20,
+    "category": 4,
+    "lead": 0.0,
+    "relevance": 8,
+    "freshness": 19.8,
+    "corroborated": 10,
+    "shock": 18
+   },
+   "keywords": [
+    "strike"
+   ],
+   "shock_terms": [
+    "strike"
+   ],
+   "dedupe_match": null,
+   "dedupe_similarity": 0.2,
+   "id": "a2fc21b8af9b",
+   "title": "Bus drivers announce nationwide strike over badges",
+   "url": "https://www.monitor.co.ug/uganda/news/national/bus-drivers-announce-nationwide-strike-over-badges-5628038",
+   "summary": "They pointed out increasing financial and administrative pressure being placed on them in...",
+   "kind": "item",
+   "source": "Daily Monitor (Uganda)",
+   "source_id": "np-monitor-ug",
+   "tier": 2,
+   "country": "UG",
+   "category": "press",
+   "segments": [
+    "city",
+    "bush",
+    "beach"
+   ],
+   "first_seen": "2026-10-12T07:52+03:00",
+   "published": "2026-10-11",
+   "verdict": "CONSIDER"
+  },
+  {
+   "score": 75.7,
    "components": {
     "tier": 20,
     "category": 4,
     "lead": 2.4,
     "relevance": 16,
-    "freshness": 11.3,
+    "freshness": 5.3,
     "corroborated": 10,
     "shock": 18
    },
@@ -295,7 +476,7 @@
     "strike"
    ],
    "dedupe_match": null,
-   "dedupe_similarity": 0.12,
+   "dedupe_similarity": 0.0,
    "id": "bdf2468a7e67",
    "title": "Trump calls for replacing Ukraine's Zelenskiy in tussle over diesel deal with Russia",
    "url": "https://nation.africa/kenya/news/world/trump-calls-for-replacing-ukraine-s-zelenskiy-in-tussle-over-diesel-deal-with-russia-5627848",
@@ -316,13 +497,13 @@
    "verdict": "CONSIDER"
   },
   {
-   "score": 81.4,
+   "score": 75.5,
    "components": {
     "tier": 40,
     "category": 32,
     "lead": 3.6,
     "relevance": 0,
-    "freshness": 19.8,
+    "freshness": 13.9,
     "stale_trap": -10,
     "page_change": -4
    },
@@ -349,13 +530,13 @@
    "verdict": "CHECK \u2014 source date older than the window"
   },
   {
-   "score": 80.7,
+   "score": 74.7,
    "components": {
     "tier": 20,
     "category": 5,
     "lead": 2.4,
     "relevance": 32,
-    "freshness": 11.3,
+    "freshness": 5.3,
     "corroborated": 10
    },
    "keywords": [
@@ -388,13 +569,86 @@
    "verdict": "CONSIDER"
   },
   {
-   "score": 77.7,
+   "score": 73.8,
+   "components": {
+    "tier": 20,
+    "category": 4,
+    "lead": 0.0,
+    "relevance": 20,
+    "freshness": 19.8,
+    "corroborated": 10
+   },
+   "keywords": [
+    "vat",
+    "eta",
+    "franc"
+   ],
+   "shock_terms": [],
+   "dedupe_match": null,
+   "dedupe_similarity": 0.0,
+   "id": "a24462d7cf67",
+   "title": "St Francis Buddo dominate Private Schools League",
+   "url": "https://www.monitor.co.ug/uganda/sports/soccer/st-francis-buddo-dominate-private-schools-league-5628050",
+   "summary": "Buddo\u2019s Under-12 triumph followed a 5-0 semi-final demolition of hosts Seeta Junior School.",
+   "kind": "item",
+   "source": "Daily Monitor (Uganda)",
+   "source_id": "np-monitor-ug",
+   "tier": 2,
+   "country": "UG",
+   "category": "press",
+   "segments": [
+    "city",
+    "bush",
+    "beach"
+   ],
+   "first_seen": "2026-10-12T07:52+03:00",
+   "published": "2026-10-11",
+   "verdict": "CONSIDER"
+  },
+  {
+   "score": 71.8,
+   "components": {
+    "tier": 20,
+    "category": 4,
+    "lead": 0.0,
+    "relevance": 0,
+    "freshness": 19.8,
+    "corroborated": 10,
+    "shock": 18
+   },
+   "keywords": [],
+   "shock_terms": [
+    "attack"
+   ],
+   "dedupe_match": null,
+   "dedupe_similarity": 0.0,
+   "id": "8751b98fc558",
+   "title": "Security beefed up after Mubende triple murder",
+   "url": "https://www.monitor.co.ug/uganda/news/national/security-beefed-up-after-mubende-triple-murder-5628140",
+   "summary": "Residents say they have been spending sleepless nights following the puzzling attack",
+   "kind": "item",
+   "source": "Daily Monitor (Uganda)",
+   "source_id": "np-monitor-ug",
+   "tier": 2,
+   "country": "UG",
+   "category": "press",
+   "segments": [
+    "city",
+    "bush",
+    "beach"
+   ],
+   "first_seen": "2026-10-12T07:52+03:00",
+   "published": "2026-10-12",
+   "verdict": "CONSIDER"
+  },
+  {
+   "score": 71.7,
    "components": {
     "tier": 20,
     "category": 4,
     "lead": 2.4,
     "relevance": 12,
-    "freshness": 11.3,
+    "freshness": 5.3,
     "corroborated": 10,
     "shock": 18
    },
@@ -426,13 +680,112 @@
    "verdict": "CONSIDER"
   },
   {
-   "score": 76.7,
+   "score": 70.8,
+   "components": {
+    "tier": 40,
+    "category": 5,
+    "lead": 12.0,
+    "relevance": 0,
+    "freshness": 19.8,
+    "undated": -6
+   },
+   "keywords": [],
+   "shock_terms": [],
+   "dedupe_match": null,
+   "dedupe_similarity": 0.38,
+   "id": "26311de1b213",
+   "title": "The Hansard - Wednesday, 7 October 2026 - Morning Sitting",
+   "url": "https://www.parliament.go.ke/sites/default/files/2026-10/The%20Hansard%20-%20Wednesday%2C%207%20October%202026%20%28P%29.pdf",
+   "summary": "REPUBLIC OF KENYA THIRTEENTH PARLIAMENT NATIONAL ASSEMBLY THE HANSARD 7th October 2026 Vol. V No. 89 7th October 2026 National Assembly Debates 1 Disclaimer: The electronic version of the Official Hansard Report is for information purposes only. A certified copy of this Report can be obtained from the Hansard Editor. THE HANSARD Wednesday, 7th October 2026 (The House met at 2.30 p.m.) [The Speaker",
+   "kind": "doc",
+   "source": "Senate Committee on Delegated Legislation (Kenya) \u2014 the committee that annuls or accedes to statutory instruments",
+   "source_id": "ke-senate-delegated-legislation",
+   "tier": 1,
+   "country": "KE",
+   "category": "REG",
+   "segments": [
+    "city",
+    "bush",
+    "beach"
+   ],
+   "first_seen": "2026-10-12T07:51+03:00",
+   "published": null,
+   "verdict": "CONSIDER"
+  },
+  {
+   "score": 70.8,
+   "components": {
+    "tier": 40,
+    "category": 5,
+    "lead": 12.0,
+    "relevance": 0,
+    "freshness": 19.8,
+    "undated": -6
+   },
+   "keywords": [],
+   "shock_terms": [],
+   "dedupe_match": null,
+   "dedupe_similarity": 0.38,
+   "id": "8d255af14f05",
+   "title": "The Hansard - Wednesday, 7 October 2026 - Afternoon Sitting",
+   "url": "https://www.parliament.go.ke/sites/default/files/2026-10/The%20Hansard%20-%20Wednesday%2C%207%20October%202026%20%28P%29_0.pdf",
+   "summary": "REPUBLIC OF KENYA THIRTEENTH PARLIAMENT NATIONAL ASSEMBLY THE HANSARD 7th October 2026 Vol. V No. 89 7th October 2026 National Assembly Debates 1 Disclaimer: The electronic version of the Official Hansard Report is for information purposes only. A certified copy of this Report can be obtained from the Hansard Editor. THE HANSARD Wednesday, 7th October 2026 (The House met at 2.30 p.m.) [The Speaker",
+   "kind": "doc",
+   "source": "Senate Committee on Delegated Legislation (Kenya) \u2014 the committee that annuls or accedes to statutory instruments",
+   "source_id": "ke-senate-delegated-legislation",
+   "tier": 1,
+   "country": "KE",
+   "category": "REG",
+   "segments": [
+    "city",
+    "bush",
+    "beach"
+   ],
+   "first_seen": "2026-10-12T07:51+03:00",
+   "published": null,
+   "verdict": "CONSIDER"
+  },
+  {
+   "score": 70.8,
+   "components": {
+    "tier": 40,
+    "category": 5,
+    "lead": 12.0,
+    "relevance": 0,
+    "freshness": 19.8,
+    "undated": -6
+   },
+   "keywords": [],
+   "shock_terms": [],
+   "dedupe_match": null,
+   "dedupe_similarity": 0.38,
+   "id": "be19a337887d",
+   "title": "The Hansard - Thursday, 8 October 2026",
+   "url": "https://www.parliament.go.ke/sites/default/files/2026-10/The%20Hansard%20-%20Thursday%2C%208%20October%202026.pdf",
+   "summary": "REPUBLIC OF KENYA THIRTEENTH PARLIAMENT NATIONAL ASSEMBLY THE HANSARD 8th October 2026 Vol. V No. 90 8th October 2026 National Assembly Debates 1 Disclaimer: The electronic version of the Official Hansard Report is for information purposes only. A certified copy of this Report can be obtained from the Hansard Editor. THE HANSARD Thursday, 8th October 2026 (The House met at 2.30 p.m.) [The Speaker ",
+   "kind": "doc",
+   "source": "Senate Committee on Delegated Legislation (Kenya) \u2014 the committee that annuls or accedes to statutory instruments",
+   "source_id": "ke-senate-delegated-legislation",
+   "tier": 1,
+   "country": "KE",
+   "category": "REG",
+   "segments": [
+    "city",
+    "bush",
+    "beach"
+   ],
+   "first_seen": "2026-10-12T07:51+03:00",
+   "published": null,
+   "verdict": "CONSIDER"
+  },
+  {
+   "score": 70.7,
    "components": {
     "tier": 20,
     "category": 5,
     "lead": 2.4,
     "relevance": 28,
-    "freshness": 11.3,
+    "freshness": 5.3,
     "corroborated": 10
    },
    "keywords": [
@@ -465,13 +818,13 @@
    "verdict": "CONSIDER"
   },
   {
-   "score": 76.1,
+   "score": 70.2,
    "components": {
     "tier": 40,
     "category": 32,
     "lead": 3.6,
     "relevance": 0,
-    "freshness": 14.5,
+    "freshness": 8.6,
     "stale_trap": -10,
     "page_change": -4
    },
@@ -498,13 +851,13 @@
    "verdict": "CHECK \u2014 source date older than the window"
   },
   {
-   "score": 74.9,
+   "score": 69.0,
    "components": {
     "tier": 40,
     "category": 24,
     "lead": 2.4,
     "relevance": 0,
-    "freshness": 14.5,
+    "freshness": 8.6,
     "undated": -6
    },
    "keywords": [],
@@ -528,16 +881,16 @@
    ],
    "first_seen": "2026-10-11T21:41+03:00",
    "published": null,
-   "verdict": "CONSIDER"
+   "verdict": "weak"
   },
   {
-   "score": 73.7,
+   "score": 67.7,
    "components": {
     "tier": 20,
     "category": 4,
     "lead": 2.4,
     "relevance": 8,
-    "freshness": 11.3,
+    "freshness": 5.3,
     "corroborated": 10,
     "shock": 18
    },
@@ -566,16 +919,16 @@
    ],
    "first_seen": "2026-10-11T18:44+03:00",
    "published": "2026-10-11",
-   "verdict": "CONSIDER"
+   "verdict": "weak"
   },
   {
-   "score": 72.8,
+   "score": 66.9,
    "components": {
     "tier": 40,
     "category": 32,
     "lead": 3.6,
     "relevance": 0,
-    "freshness": 11.2,
+    "freshness": 5.3,
     "stale_trap": -10,
     "page_change": -4
    },
@@ -602,13 +955,13 @@
    "verdict": "CHECK \u2014 source date older than the window"
   },
   {
-   "score": 72.5,
+   "score": 66.6,
    "components": {
     "tier": 5,
     "category": 5,
     "lead": 0.0,
     "relevance": 20,
-    "freshness": 14.5,
+    "freshness": 8.6,
     "corroborated": 10,
     "shock": 18
    },
@@ -622,7 +975,7 @@
     "attack"
    ],
    "dedupe_match": null,
-   "dedupe_similarity": 0.2,
+   "dedupe_similarity": 0.14,
    "id": "1a38c1205087",
    "title": "Saudi Arabia Tourism Under Fire: Riyadh Airport Attacks Threaten Billions in Investments and Riyadh Air\u2019s Future",
    "url": "https://eturbonews.com/saudi-arabia-airport-attacks-tourism-riyadh-air",
@@ -640,16 +993,52 @@
    ],
    "first_seen": "2026-10-11T21:41+03:00",
    "published": "2026-10-11",
-   "verdict": "CONSIDER"
+   "verdict": "weak"
   },
   {
-   "score": 72.2,
+   "score": 66.4,
+   "components": {
+    "tier": 20,
+    "category": 5,
+    "lead": 3.6,
+    "relevance": 8,
+    "freshness": 19.8,
+    "corroborated": 10
+   },
+   "keywords": [
+    "hotel",
+    "guest"
+   ],
+   "shock_terms": [],
+   "dedupe_match": null,
+   "dedupe_similarity": 0.2,
+   "id": "bdfc9e722c74",
+   "title": "Salvaged Stays, Wooden Key Cards, and the Stories We Carry",
+   "url": "https://www.hospitalitynet.org/news/4134843/salvaged-stays-wooden-key-cards-and-the-stories-we-carry",
+   "summary": "GCSTIMES pitches wooden hotel key cards that double as fridge magnets as branded keepsakes for heritage hotels, bridging historic guest experiences with lasting physical mementos.",
+   "kind": "item",
+   "source": "Hospitality Net \u2014 Africa announcements",
+   "source_id": "dev-hospitalitynet-africa",
+   "tier": 2,
+   "country": "REG",
+   "category": "trade",
+   "segments": [
+    "city",
+    "bush",
+    "beach"
+   ],
+   "first_seen": "2026-10-12T07:51+03:00",
+   "published": "2026-10-12",
+   "verdict": "weak"
+  },
+  {
+   "score": 66.3,
    "components": {
     "tier": 20,
     "category": 4,
     "lead": 2.4,
     "relevance": 16,
-    "freshness": 19.8,
+    "freshness": 13.9,
     "corroborated": 10
    },
    "keywords": [
@@ -676,16 +1065,52 @@
    ],
    "first_seen": "2026-10-12T02:29+03:00",
    "published": "2026-10-11",
-   "verdict": "CONSIDER"
+   "verdict": "weak"
   },
   {
-   "score": 71.7,
+   "score": 65.8,
+   "components": {
+    "tier": 20,
+    "category": 4,
+    "lead": 0.0,
+    "relevance": 12,
+    "freshness": 19.8,
+    "corroborated": 10
+   },
+   "keywords": [
+    "fuel",
+    "shilling"
+   ],
+   "shock_terms": [],
+   "dedupe_match": null,
+   "dedupe_similarity": 0.11,
+   "id": "2d2247e43650",
+   "title": "Shilling in free fall, fuel on fire",
+   "url": "https://www.monitor.co.ug/uganda/news/national/shilling-in-free-fall-fuel-on-fire-5628206",
+   "summary": "The currency has lost more than 11 percent since January, its worst run in a decade.",
+   "kind": "item",
+   "source": "Daily Monitor (Uganda)",
+   "source_id": "np-monitor-ug",
+   "tier": 2,
+   "country": "UG",
+   "category": "press",
+   "segments": [
+    "city",
+    "bush",
+    "beach"
+   ],
+   "first_seen": "2026-10-12T07:52+03:00",
+   "published": "2026-10-11",
+   "verdict": "weak"
+  },
+  {
+   "score": 65.7,
    "components": {
     "tier": 20,
     "category": 4,
     "lead": 2.4,
     "relevance": 24,
-    "freshness": 11.3,
+    "freshness": 5.3,
     "corroborated": 10
    },
    "keywords": [
@@ -712,16 +1137,16 @@
    ],
    "first_seen": "2026-10-11T18:44+03:00",
    "published": "2026-10-11",
-   "verdict": "CONSIDER"
+   "verdict": "weak"
   },
   {
-   "score": 71.3,
+   "score": 65.3,
    "components": {
     "tier": 20,
     "category": 4,
     "lead": 0.0,
     "relevance": 8,
-    "freshness": 11.3,
+    "freshness": 5.3,
     "corroborated": 10,
     "shock": 18
    },
@@ -750,16 +1175,52 @@
    ],
    "first_seen": "2026-10-11T18:44+03:00",
    "published": "2026-10-11",
-   "verdict": "CONSIDER"
+   "verdict": "weak"
   },
   {
-   "score": 70.5,
+   "score": 65.2,
+   "components": {
+    "tier": 20,
+    "category": 5,
+    "lead": 2.4,
+    "relevance": 8,
+    "freshness": 19.8,
+    "corroborated": 10
+   },
+   "keywords": [
+    "hotel",
+    "guest"
+   ],
+   "shock_terms": [],
+   "dedupe_match": null,
+   "dedupe_similarity": 0.2,
+   "id": "efbbcd3cdb1a",
+   "title": "Salvaged Stays, Wooden Key Cards, and the Stories We Carry",
+   "url": "https://www.hospitalitynet.org/news/4134843/salvaged-stays-wooden-key-cards-and-the-stories-we-carry",
+   "summary": "GCSTIMES pitches wooden hotel key cards that double as fridge magnets as branded keepsakes for heritage hotels, bridging historic guest experiences with lasting physical mementos.",
+   "kind": "item",
+   "source": "Hospitality Net: Africa openings",
+   "source_id": "dev-hospitalitynet-openings",
+   "tier": 2,
+   "country": "AFRICA",
+   "category": "trade",
+   "segments": [
+    "city",
+    "bush",
+    "beach"
+   ],
+   "first_seen": "2026-10-12T07:52+03:00",
+   "published": "2026-10-12",
+   "verdict": "weak"
+  },
+  {
+   "score": 64.6,
    "components": {
     "tier": 5,
     "category": 5,
     "lead": 0.0,
     "relevance": 36,
-    "freshness": 14.5,
+    "freshness": 8.6,
     "corroborated": 10
    },
    "keywords": [
@@ -773,7 +1234,7 @@
    ],
    "shock_terms": [],
    "dedupe_match": null,
-   "dedupe_similarity": 0.2,
+   "dedupe_similarity": 0.14,
    "id": "a33c6831b81f",
    "title": "Global Aviation News: New Airline Routes, Airport Chaos and Big Changes",
    "url": "https://eturbonews.com/global-aviation-news-airline-routes-airports-october-2026",
@@ -791,16 +1252,16 @@
    ],
    "first_seen": "2026-10-11T21:41+03:00",
    "published": "2026-10-11",
-   "verdict": "CONSIDER"
+   "verdict": "weak"
   },
   {
-   "score": 68.7,
+   "score": 62.7,
    "components": {
     "tier": 20,
     "category": 5,
     "lead": 2.4,
     "relevance": 20,
-    "freshness": 11.3,
+    "freshness": 5.3,
     "corroborated": 10
    },
    "keywords": [
@@ -832,13 +1293,13 @@
    "verdict": "weak"
   },
   {
-   "score": 68.7,
+   "score": 62.7,
    "components": {
     "tier": 20,
     "category": 5,
     "lead": 2.4,
     "relevance": 20,
-    "freshness": 11.3,
+    "freshness": 5.3,
     "corroborated": 10
    },
    "keywords": [
@@ -869,13 +1330,85 @@
    "verdict": "weak"
   },
   {
-   "score": 66.2,
+   "score": 62.2,
+   "components": {
+    "tier": 5,
+    "category": 5,
+    "lead": 2.4,
+    "relevance": 20,
+    "freshness": 19.8,
+    "corroborated": 10
+   },
+   "keywords": [
+    "arrivals",
+    "fuel",
+    "tourism"
+   ],
+   "shock_terms": [],
+   "dedupe_match": null,
+   "dedupe_similarity": 0.2,
+   "id": "f1c77aea6f12",
+   "title": "Belgium Joins UK, Netherlands and Other European Countries in Fueling South Africa Tourism Growth as Visitor Arrivals Surge in 2026",
+   "url": "https://www.travelandtourworld.com/news/article/prvk6e1mz218",
+   "summary": "Belgium Joins UK, Netherlands and Other European Countries in Fueling South Africa Tourism Growth as Visitor Arrivals Surge in 2026 Belgium joins UK and Netherlands in fueling South Africa tourism growth as international arrivals surge past 7.5 million in 2026. The post Belgium Joins UK, Netherlands and Other European Countries in Fueling South Africa Tourism Growth as Visitor Arrivals Surge in 20",
+   "kind": "item",
+   "source": "Travel And Tour World",
+   "source_id": "gl-travelandtourworld",
+   "tier": 3,
+   "country": "GLOBAL",
+   "category": "trade",
+   "segments": [
+    "city",
+    "bush",
+    "beach"
+   ],
+   "first_seen": "2026-10-12T07:52+03:00",
+   "published": "2026-10-12",
+   "verdict": "weak"
+  },
+  {
+   "score": 61.8,
+   "components": {
+    "tier": 20,
+    "category": 4,
+    "lead": 0.0,
+    "relevance": 8,
+    "freshness": 19.8,
+    "corroborated": 10
+   },
+   "keywords": [
+    "fuel"
+   ],
+   "shock_terms": [],
+   "dedupe_match": null,
+   "dedupe_similarity": 0.11,
+   "id": "757f8fd7bfeb",
+   "title": "Nekemiya Memorial Seed School faces transport uncertainty as UCE exams start",
+   "url": "https://www.monitor.co.ug/uganda/news/national/nekemiya-memorial-seed-school-faces-transport-uncertainty-as-uce-exams-start-5628288",
+   "summary": "The school has just 100 litres of fuel, leaving it with a shortfall of 480 litres.",
+   "kind": "item",
+   "source": "Daily Monitor (Uganda)",
+   "source_id": "np-monitor-ug",
+   "tier": 2,
+   "country": "UG",
+   "category": "press",
+   "segments": [
+    "city",
+    "bush",
+    "beach"
+   ],
+   "first_seen": "2026-10-12T07:52+03:00",
+   "published": "2026-10-11",
+   "verdict": "weak"
+  },
+  {
+   "score": 60.3,
    "components": {
     "tier": 5,
     "category": 5,
     "lead": 2.4,
     "relevance": 24,
-    "freshness": 19.8,
+    "freshness": 13.9,
     "corroborated": 10
    },
    "keywords": [
@@ -885,7 +1418,7 @@
    ],
    "shock_terms": [],
    "dedupe_match": null,
-   "dedupe_similarity": 0.2,
+   "dedupe_similarity": 0.14,
    "id": "330a528c8737",
    "title": "Middle East Travel Impacted as Istanbul, Jeddah and More Airports Face 1,041 Cancelled Flights and 1,637 Delays",
    "url": "https://www.travelandtourworld.com/news/article/3st7m69xm7tv",
@@ -903,546 +1436,6 @@
    ],
    "first_seen": "2026-10-12T02:29+03:00",
    "published": "2026-10-12",
-   "verdict": "weak"
-  },
-  {
-   "score": 66.2,
-   "components": {
-    "tier": 20,
-    "category": 4,
-    "lead": 2.4,
-    "relevance": 8,
-    "freshness": 19.8,
-    "undated": -6,
-    "shock": 18
-   },
-   "keywords": [
-    "wildlife"
-   ],
-   "shock_terms": [
-    "attack"
-   ],
-   "dedupe_match": null,
-   "dedupe_similarity": 0.12,
-   "id": "99c0d775661e",
-   "title": "News By Agencies | Oct 11, 2026 8. Man dies after tiger attack at wildlife park",
-   "url": "https://nilepost.co.ug/news/377132/man-dies-after-tiger-attack-at-wildlife-park",
-   "summary": "",
-   "kind": "item",
-   "source": "Nile Post (Uganda)",
-   "source_id": "ug-nilepost",
-   "tier": 2,
-   "country": "UG",
-   "category": "press",
-   "segments": [
-    "city",
-    "bush",
-    "beach"
-   ],
-   "first_seen": "2026-10-12T02:29+03:00",
-   "published": null,
-   "verdict": "weak"
-  },
-  {
-   "score": 65.7,
-   "components": {
-    "tier": 5,
-    "category": 5,
-    "lead": 2.4,
-    "relevance": 32,
-    "freshness": 11.3,
-    "corroborated": 10
-   },
-   "keywords": [
-    "eta",
-    "arrivals",
-    "hotel",
-    "tourism",
-    "beach",
-    "rooms"
-   ],
-   "shock_terms": [],
-   "dedupe_match": null,
-   "dedupe_similarity": 0.2,
-   "id": "2ba33495f85d",
-   "title": "Cuba Tourism Crisis Deepens as Gaviota Reveals Just 3,470 of 30,000 Hotel Rooms Are Operational Amid Mass Closures and Plunging Arrivals",
-   "url": "https://www.travelandtourworld.com/news/article/khm3vrfemb5l",
-   "summary": "Cuba Tourism Crisis Deepens as Gaviota Reveals Just 3,470 of 30,000 Hotel Rooms Are Operational Amid Mass Closures and Plunging Arrivals Cuba retains considerable tourism potential through its cultural heritage, historic cities, beaches and distinctive Caribbean identity The post Cuba Tourism Crisis Deepens as Gaviota Reveals Just 3,470 of 30,000 Hotel Rooms Are Operational Amid Mass Closures and ",
-   "kind": "item",
-   "source": "Travel And Tour World",
-   "source_id": "gl-travelandtourworld",
-   "tier": 3,
-   "country": "GLOBAL",
-   "category": "trade",
-   "segments": [
-    "city",
-    "bush",
-    "beach"
-   ],
-   "first_seen": "2026-10-11T18:44+03:00",
-   "published": "2026-10-11",
-   "verdict": "weak"
-  },
-  {
-   "score": 64.2,
-   "components": {
-    "tier": 20,
-    "category": 4,
-    "lead": 2.4,
-    "relevance": 8,
-    "freshness": 19.8,
-    "corroborated": 10
-   },
-   "keywords": [
-    "eta"
-   ],
-   "shock_terms": [],
-   "dedupe_match": null,
-   "dedupe_similarity": 0.11,
-   "id": "201608fe6d3f",
-   "title": "After a decade, the UN\u2019s Antonio Guterres\u2019 legacy will be mixed, at best",
-   "url": "https://www.independent.co.ug/after-a-decade-the-uns-antonio-guterres-legacy-will-be-mixed-at-best",
-   "summary": "While Guterres is not responsible for the current misery around the world, he has noticeably been low-key compared to some of his predecessors COMMENT | SIMON ADAMS | In his farewell address to the United Nations General Assembly, Ant\u00f3nio Guterres reminisced about his time as secretary general. In his words, it was a decade during \u2026 The post After a decade, the UN\u2019s Antonio Guterres\u2019 legacy will b",
-   "kind": "item",
-   "source": "The Independent (Uganda)",
-   "source_id": "ug-independent",
-   "tier": 2,
-   "country": "UG",
-   "category": "press",
-   "segments": [
-    "city",
-    "bush",
-    "beach"
-   ],
-   "first_seen": "2026-10-12T02:29+03:00",
-   "published": "2026-10-11",
-   "verdict": "weak"
-  },
-  {
-   "score": 64.2,
-   "components": {
-    "tier": 20,
-    "category": 4,
-    "lead": 2.4,
-    "relevance": 8,
-    "freshness": 19.8,
-    "corroborated": 10
-   },
-   "keywords": [
-    "seat"
-   ],
-   "shock_terms": [],
-   "dedupe_match": null,
-   "dedupe_similarity": 0.2,
-   "id": "7c637236aa4e",
-   "title": "Jubilee\u2019s Matiang\u2019i backs bishop Margaret Wanjiru for Nairobi governor",
-   "url": "https://nation.africa/kenya/counties/nairobi/jubilee-s-matiang-i-backs-bishop-margaret-wanjiru-for-nairobi-governor-5628320",
-   "summary": "Bishop Wanjiru is seeking the Nairobi seat on her Kenya Moja Movement Party.",
-   "kind": "item",
-   "source": "Nation Africa: Kenya business",
-   "source_id": "ke-nation-business",
-   "tier": 2,
-   "country": "KE",
-   "category": "press",
-   "segments": [
-    "city",
-    "bush",
-    "beach"
-   ],
-   "first_seen": "2026-10-12T02:29+03:00",
-   "published": "2026-10-11",
-   "verdict": "weak"
-  },
-  {
-   "score": 64.2,
-   "components": {
-    "tier": 20,
-    "category": 4,
-    "lead": 2.4,
-    "relevance": 8,
-    "freshness": 19.8,
-    "corroborated": 10
-   },
-   "keywords": [
-    "flood"
-   ],
-   "shock_terms": [],
-   "dedupe_match": null,
-   "dedupe_similarity": 0.1,
-   "id": "00e9979a0d26",
-   "title": "Mombasa flooding put El Ni\u00f1o preparedness to the test",
-   "url": "https://nation.africa/kenya/counties/mombasa/mombasa-flooding-put-el-ni%C3%B1o-preparedness-to-the-test-5628254",
-   "summary": "Overnight rains left parts of the city heavily flooded on Saturday.",
-   "kind": "item",
-   "source": "Nation Africa: Kenya business",
-   "source_id": "ke-nation-business",
-   "tier": 2,
-   "country": "KE",
-   "category": "press",
-   "segments": [
-    "city",
-    "bush",
-    "beach"
-   ],
-   "first_seen": "2026-10-12T02:29+03:00",
-   "published": "2026-10-11",
-   "verdict": "weak"
-  },
-  {
-   "score": 64.2,
-   "components": {
-    "tier": 20,
-    "category": 4,
-    "lead": 2.4,
-    "relevance": 8,
-    "freshness": 19.8,
-    "corroborated": 10
-   },
-   "keywords": [
-    "levy"
-   ],
-   "shock_terms": [],
-   "dedupe_match": null,
-   "dedupe_similarity": 0.1,
-   "id": "52587981277b",
-   "title": "Why court sank Mombasa county\u2019s Sh190,000 ship waste levy",
-   "url": "https://nation.africa/kenya/counties/mombasa/why-court-sank-mombasa-county-s-sh190-000-ship-waste-levy-5628228",
-   "summary": "The county is seeking to collect up to Sh193,500 from ships docking at the Port of Mombasa.",
-   "kind": "item",
-   "source": "Nation Africa: Kenya business",
-   "source_id": "ke-nation-business",
-   "tier": 2,
-   "country": "KE",
-   "category": "press",
-   "segments": [
-    "city",
-    "bush",
-    "beach"
-   ],
-   "first_seen": "2026-10-12T02:29+03:00",
-   "published": "2026-10-11",
-   "verdict": "weak"
-  },
-  {
-   "score": 64.2,
-   "components": {
-    "tier": 20,
-    "category": 4,
-    "lead": 2.4,
-    "relevance": 8,
-    "freshness": 19.8,
-    "corroborated": 10
-   },
-   "keywords": [
-    "vat"
-   ],
-   "shock_terms": [],
-   "dedupe_match": null,
-   "dedupe_similarity": 0.2,
-   "id": "7105c3fe316b",
-   "title": "Uproar Over Felling of Trees Along State House Road",
-   "url": "https://www.kenyans.co.ke/news/127778-statehouse-road-tree-felling-sparks-outrage-among-nairobi-residents",
-   "summary": "The State House felling comes amid criticism and concern from Kenyans over similar activities being undertaken within conservation corridors.",
-   "kind": "item",
-   "source": "Kenyans.co.ke news",
-   "source_id": "ke-kenyans",
-   "tier": 2,
-   "country": "KE",
-   "category": "press",
-   "segments": [
-    "city",
-    "bush",
-    "beach"
-   ],
-   "first_seen": "2026-10-12T02:29+03:00",
-   "published": "2026-10-11",
-   "verdict": "weak"
-  },
-  {
-   "score": 63.1,
-   "components": {
-    "tier": 40,
-    "category": 7,
-    "lead": 3.6,
-    "relevance": 8,
-    "freshness": 14.5,
-    "undated": -6,
-    "page_change": -4
-   },
-   "keywords": [
-    "tourism",
-    "exhibition"
-   ],
-   "shock_terms": [],
-   "dedupe_match": null,
-   "dedupe_similarity": 0.2,
-   "id": "3d3eaf63e1b9",
-   "title": "[page changed] WTTC news",
-   "url": "https://wttc.org/news",
-   "summary": "Travel & Tourism News and Press Releases | WTTC Travel & Tourism News and Press Releases Below you can find all the latest news and press releases from WTTC. News Below you can find all the latest news and press releases from WTTC. Use the filters to narrow down by language, region and topics that interest you. Filter by: Language Region Topic Clear Loading... 11 Oct 2026 Bahrain Tourism and Exhib",
-   "kind": "page-change",
-   "source": "WTTC news",
-   "source_id": "sm-wttc",
-   "tier": 1,
-   "country": "GLOBAL",
-   "category": "body",
-   "segments": [
-    "city",
-    "bush",
-    "beach"
-   ],
-   "first_seen": "2026-10-11T21:40+03:00",
-   "published": null,
-   "verdict": "weak"
-  },
-  {
-   "score": 62.5,
-   "components": {
-    "tier": 5,
-    "category": 5,
-    "lead": 0.0,
-    "relevance": 28,
-    "freshness": 14.5,
-    "corroborated": 10
-   },
-   "keywords": [
-    "visa",
-    "arrivals",
-    "hotel",
-    "tourism",
-    "summit"
-   ],
-   "shock_terms": [],
-   "dedupe_match": null,
-   "dedupe_similarity": 0.1,
-   "id": "b039574f3deb",
-   "title": "Delhi Wins WTTC Summit 2027: Incredible India Gets Ready for Its Next Global Moment",
-   "url": "https://eturbonews.com/wttc-summit-2027-delhi-india",
-   "summary": "Delhi will host the WTTC Global Summit in 2027, returning the event to India after 22 years. In Malta, India\u2019s tourism minister and industry leaders revealed the ambitions\u2014and practical challenges\u2014behind the win. From visas and hotel expansion to weddings and wellness, can Incredible India turn global interest into arrivals? SOURCE: Delhi Wins WTTC Summit 2027: Incredible India Gets Ready for Its ",
-   "kind": "item",
-   "source": "eTurboNews Africa",
-   "source_id": "tp-eturbonews",
-   "tier": 3,
-   "country": "GLOBAL",
-   "category": "trade",
-   "segments": [
-    "city",
-    "bush",
-    "beach"
-   ],
-   "first_seen": "2026-10-11T21:41+03:00",
-   "published": "2026-10-11",
-   "verdict": "weak"
-  },
-  {
-   "score": 57.7,
-   "components": {
-    "tier": 20,
-    "category": 4,
-    "lead": 2.4,
-    "relevance": 8,
-    "freshness": 11.3,
-    "undated": -6,
-    "shock": 18
-   },
-   "keywords": [
-    "strike"
-   ],
-   "shock_terms": [
-    "strike"
-   ],
-   "dedupe_match": null,
-   "dedupe_similarity": 0.14,
-   "id": "79e6260eb2b1",
-   "title": "news Bus Drivers Threaten Monday Strike Over Badge Renewal Costs",
-   "url": "https://nilepost.co.ug/news/377167/bus-drivers-threaten-monday-strike-over-badge-renewal-costs",
-   "summary": "",
-   "kind": "item",
-   "source": "Nile Post (Uganda)",
-   "source_id": "ug-nilepost",
-   "tier": 2,
-   "country": "UG",
-   "category": "press",
-   "segments": [
-    "city",
-    "bush",
-    "beach"
-   ],
-   "first_seen": "2026-10-11T18:44+03:00",
-   "published": null,
-   "verdict": "weak"
-  },
-  {
-   "score": 57.3,
-   "components": {
-    "tier": 20,
-    "category": 4,
-    "lead": 0.0,
-    "relevance": 12,
-    "freshness": 11.3,
-    "corroborated": 10
-   },
-   "keywords": [
-    "fuel",
-    "shilling"
-   ],
-   "shock_terms": [],
-   "dedupe_match": null,
-   "dedupe_similarity": 0.14,
-   "id": "28a84b198c98",
-   "title": "Currency, fuel, incomes test Museveni\u2019s $500b economy ambition",
-   "url": "https://www.theeastafrican.co.ke/tea/business-tech/currency-fuel-incomes-test-museveni-s-500b-economy-ambition--5627350",
-   "summary": "The shilling has recently come under pressure, trading at 4,060 to the dollar, raising the cost...",
-   "kind": "item",
-   "source": "The EastAfrican",
-   "source_id": "np-eastafrican",
-   "tier": 2,
-   "country": "REG",
-   "category": "press",
-   "segments": [
-    "city",
-    "bush",
-    "beach"
-   ],
-   "first_seen": "2026-10-11T18:44+03:00",
-   "published": "2026-10-10",
-   "verdict": "weak"
-  },
-  {
-   "score": 56.7,
-   "components": {
-    "tier": 20,
-    "category": 5,
-    "lead": 2.4,
-    "relevance": 8,
-    "freshness": 11.3,
-    "corroborated": 10
-   },
-   "keywords": [
-    "tourism",
-    "conference"
-   ],
-   "shock_terms": [],
-   "dedupe_match": null,
-   "dedupe_similarity": 0.2,
-   "id": "864a4f7720e1",
-   "title": "IATA urges Africa to reduce barriers to air travel",
-   "url": "https://katakenya.org/iata-urges-africa-to-reduce-barriers-to-air-travel",
-   "summary": "Can African aviation become a stronger engine for growth, tourism and regional integration? That is the message from the International Air Transport Association (IATA), which has called on African governments to view air transport as strategic economic infrastructure. Currently meeting in Addis Ababa, Ethiopia, for its Focus Africa conference, the organization says a better-coordinated aviation [\u2026",
-   "kind": "item",
-   "source": "Kenya Association of Travel Agents news",
-   "source_id": "tp-kata",
-   "tier": 2,
-   "country": "KE",
-   "category": "trade",
-   "segments": [
-    "city",
-    "bush",
-    "beach"
-   ],
-   "first_seen": "2026-10-11T18:44+03:00",
-   "published": "2026-10-11",
-   "verdict": "weak"
-  },
-  {
-   "score": 56.5,
-   "components": {
-    "tier": 20,
-    "category": 4,
-    "lead": 0.0,
-    "relevance": 8,
-    "freshness": 14.5,
-    "corroborated": 10
-   },
-   "keywords": [
-    "eta"
-   ],
-   "shock_terms": [],
-   "dedupe_match": null,
-   "dedupe_similarity": 0.2,
-   "id": "3b736dba402b",
-   "title": "African Court on human rights celebrates 20 years of its landmark rulings",
-   "url": "https://dailynews.co.tz/african-court-on-human-rights-celebrates-20-years-of-its-landmark-rulings",
-   "summary": "DAR ES SALAAM: THE African Court on Human and Peoples\u2019 Rights, based in Arusha, Tanzania, marks its 20th anniversary. The court\u2019s detailed report of its performance sent to the Daily News, says though it is among international judicial bodies, yet, it remains overshadowed by the International Criminal Court(ICC), despite its groundbreaking rulings and demonstrated willingness \u2026 The post African Co",
-   "kind": "item",
-   "source": "Daily News (Tanzania)",
-   "source_id": "np-dailynews-tz",
-   "tier": 2,
-   "country": "TZ",
-   "category": "press",
-   "segments": [
-    "city",
-    "bush",
-    "beach"
-   ],
-   "first_seen": "2026-10-11T21:41+03:00",
-   "published": "2026-10-11",
-   "verdict": "weak"
-  },
-  {
-   "score": 56.2,
-   "components": {
-    "tier": 20,
-    "category": 4,
-    "lead": 2.4,
-    "relevance": 0,
-    "freshness": 19.8,
-    "corroborated": 10
-   },
-   "keywords": [],
-   "shock_terms": [],
-   "dedupe_match": null,
-   "dedupe_similarity": 0.12,
-   "id": "8d91b4e6b6f0",
-   "title": "US tech leaders are urgently calling for rules on AI \u2013 China already has them",
-   "url": "https://www.independent.co.ug/us-tech-leaders-are-urgently-calling-for-rules-on-ai-china-already-has-them",
-   "summary": "Beijing has already surrounded its AI sector with public obligations, regulatory oversight and an evolving framework of risk assessment COMMENT | MADELINE CARR | Recent warnings from American AI leaders have created the impression that the world is only beginning to confront the dangers of advanced artificial intelligence. Dario Amodei, chief executive of tech company \u2026 The post US tech leaders ar",
-   "kind": "item",
-   "source": "The Independent (Uganda)",
-   "source_id": "ug-independent",
-   "tier": 2,
-   "country": "UG",
-   "category": "press",
-   "segments": [
-    "city",
-    "bush",
-    "beach"
-   ],
-   "first_seen": "2026-10-12T02:29+03:00",
-   "published": "2026-10-11",
-   "verdict": "weak"
-  },
-  {
-   "score": 56.2,
-   "components": {
-    "tier": 20,
-    "category": 4,
-    "lead": 2.4,
-    "relevance": 0,
-    "freshness": 19.8,
-    "corroborated": 10
-   },
-   "keywords": [],
-   "shock_terms": [],
-   "dedupe_match": null,
-   "dedupe_similarity": 0.33,
-   "id": "74f1228f63e5",
-   "title": "Manchester City supporters have been gaslit",
-   "url": "https://www.independent.co.ug/manchester-city-supporters-have-been-gaslit",
-   "summary": "What happens now? COMMENT | JOSH BLAND | The Premier League has published the core findings of the independent commission investigating Manchester City Football Club. It finds the club guilty of all charges relating to serious financial breaches across nine seasons, from 2009-10 to 2017-18. Among its findings were that City used \u201csham\u201d commercial \u2026 The post Manchester City supporters have been gas",
-   "kind": "item",
-   "source": "The Independent (Uganda)",
-   "source_id": "ug-independent",
-   "tier": 2,
-   "country": "UG",
-   "category": "press",
-   "segments": [
-    "city",
-    "bush",
-    "beach"
-   ],
-   "first_seen": "2026-10-12T02:29+03:00",
-   "published": "2026-10-11",
    "verdict": "weak"
   }
  ]
