@@ -1,5 +1,14 @@
 window.GUIDES = [
  {
+  "slug": "predatory-ota-brand-hijacking-east-africa",
+  "title": "Someone else is selling your lodge under your own name. The defences were built for other countries.",
+  "description": "A report published on 9 October put 1.1 million brand-hijacking adverts against 204,000 hotels in 205 countries. East African properties are already on the pages those adverts lead to, and the three remedies working elsewhere are the three that travel worst.",
+  "category": "Big Read",
+  "updated": "2026-10-12",
+  "readMins": 8,
+  "image": "img/editions/predatory-ota-brand-hijacking-east-africa.jpg"
+ },
+ {
   "slug": "east-africa-hotel-debt-k-premium",
   "title": "Three central banks held their rates this week. The number that decides whether your lodge gets built was not one of them.",
   "description": "Kenya has cut its policy rate by 425 basis points and the average commercial lending rate has stalled at 14.4 per cent. Since 28 February every variable shilling loan has been priced off a common base rate, which means the whole of the difference between a hotel paying 11 per cent and one paying 18 per cent now sits in a premium each bank sets borrower by borrower. For East African hospitality, the cost of capital has stopped being a monetary story and become a documentation one.",
