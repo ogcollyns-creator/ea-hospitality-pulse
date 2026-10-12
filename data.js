@@ -1,5 +1,14 @@
 window.EDITIONS = [
  {
+  "id": "pulse-2026-10-11-evening",
+  "date": "2026-10-11",
+  "dateDisplay": "Sunday, 11 October 2026",
+  "edition": "Evening Wrap",
+  "editionKey": "evening",
+  "summary": "Kenya has 108 of 122 Ebola contacts in quarantine, none symptomatic",
+  "bodyHtml": "<p><strong>Kenya has 108 of 122 Ebola contacts in quarantine, none symptomatic, and 667,675 travellers screened</strong><br><em>🌆 Evening Wrap · Sun 11 Oct 2026</em></p>\n<p>━━━━━━━━━<br><span class=\"item-head\">1️⃣ Kenya has 108 of 122 Ebola contacts in quarantine, none symptomatic</span></p>\n<p>Health CS Duale said on Sun 11 Oct that all 122 contacts of the case are listed and verified, 108 (88.5%) are quarantined and monitored daily, and none has developed symptoms. Of 293 samples from 289 alerts, only the confirmed case is positive. 667,675 travellers have been screened at 26 entry points. 241 isolation beds sit across five hospitals in Nairobi, Eldoret and Mombasa <strong>(Kenyans.co.ke, 11 Oct)</strong>. This replaces our &quot;66 quarantined&quot; line from 8 Oct. The Public Health PS&#x27;s suspension of government meetings in hotels (memo of 7 Oct) was still unlifted on 10 Oct <strong>(Kenyans.co.ke, 10 Oct)</strong>.<br>Our inference: the suspension is unlikely to lift before the contact quarantine ends; no end date is published.<br><span class=\"sowhat\">🎯 So what: with any ministry or agency block, get hold, move or cancel terms in writing now and check your force-majeure clause.</span><br><span class=\"tagline\">🏷 City, Bush, Beach | Kenya | Reported | impact:risk</span></p>\n<p><span class=\"item-head\">2️⃣ The US entry order on DRC, Uganda and South Sudan expires tonight, and renewals have come late before</span></p>\n<p>Doc 2026-18948 runs to 4:59pm EDT Sun 11 Oct, which is 23:59 EAT. The latest Federal Register listing shows no successor <strong>(federalregister.gov, checked 11 Oct)</strong>. That proves little: the 11 Sep order was published on 16 Sep, and the 12 Aug order on 17 Aug, each renewing at the expiry date. Kenya is not named.<br>Our inference: assume renewal until cdc.gov says otherwise.<br><span class=\"sowhat\">🎯 So what: for US guests combining Uganda with Kenya or Rwanda, keep flexible cancellation terms through the week.</span><br><span class=\"tagline\">🏷 Bush, City | Uganda, Kenya, Rwanda | Confirmed | impact:watch</span></p>\n<p><span class=\"item-head\">3️⃣ ⏳ Catching up: Cabinet approved KSh45.4bn for Kenya Airways on 9 Oct</span></p>\n<p>Ten-year repayment, disbursed in instalments, convertible to equity. Cabinet also backed turning KSh122bn of state loans into a tradable instrument that can convert to shares. All of it needs corporate, shareholder and regulatory approvals. The money is for maintenance and returning grounded aircraft; three were in major service in September <strong>(Kenyans.co.ke, 9 Oct)</strong>.<br>Our inference: capacity recovery is possible but not yet funded in cash.<br><span class=\"sowhat\">🎯 So what: do not bank on extra KQ seats in your 2027 forecasts until disbursement is confirmed.</span><br><span class=\"tagline\">🏷 City, Bush, Beach | Kenya | Reported | impact:watch</span></p>\n<p><strong>🏗 DEAL FLOW:</strong> No verified EA deal flow in the window.</p>\n<p><strong>📻 ALSO TONIGHT</strong><br>🇺🇬 Bwindi access is cut after the River Mucha bridge collapsed on the Kisoro route; no repair date or detour seen. Call lodges before confirming transfers <strong>(Daily Monitor, 10 Oct, headline only)</strong>.<br>✈️ Emirates puts an A350 (298 seats, with Premium Economy) on Dubai–Nairobi EK717/718 from 25 Oct <strong>(Emirates, 24 Sep)</strong>.</p>\n<p><strong>⏳ CATCHING UP</strong><br>🇰🇪 KATA protested the &quot;abrupt&quot; visitor-insurance rollout and asked for insurers, premiums and exclusions <strong>(Business Daily, 8 Oct)</strong>.<br>🇰🇪 The Mombasa MICE Declaration (8 Oct) names six priorities; ICCA is now Knowledge Partner <strong>(travelnews.africa, 8 Oct)</strong>.</p>\n<p><strong>📅 WEEK AHEAD</strong> Tax Laws Bill comments close Tue 13 Oct; EPRA review 14 Oct; KPC strike notice running.</p>\n<p><strong>🔍 BLIND SPOTS</strong> Gazettes, WHO, Africa CDC and non-UK advisories were not opened individually.</p>\n<p>🔗 This edition on the web: <a href=\"https://eahospitalitypulse.com/editions/pulse-2026-10-11-evening.html\" rel=\"noopener\">eahospitalitypulse.com/editions/pulse-2026-10-11-evenin…</a></p>"
+ },
+ {
   "id": "foresight-2026-10-11",
   "date": "2026-10-11",
   "dateDisplay": "Sunday, 11 October 2026",
@@ -1180,6 +1189,68 @@ window.EDITIONS = [
  }
 ];
 window.INSIGHTS = [
+ {
+  "headline": "Kenya has 108 of 122 Ebola contacts in quarantine, none symptomatic",
+  "body": "Health CS Duale said on Sun 11 Oct that all 122 contacts of the case are listed and verified, 108 (88.5%) are quarantined and monitored daily, and none has developed symptoms. Of 293 samples from 289 alerts, only the confirmed case is positive. 667,675 travellers have been screened at 26 entry points. 241 isolation beds sit across five hospitals in Nairobi, Eldoret and Mombasa *(Kenyans.co.ke, 11 Oct)*. This replaces our \"66 quarantined\" line from 8 Oct. The Public Health PS's suspension of government meetings in hotels (memo of 7 Oct) was still unlifted on 10 Oct *(Kenyans.co.ke, 10 Oct)*. Our inference: the suspension is unlikely to lift before the contact quarantine ends; no end date is published.",
+  "sowhat": "🎯 So what: with any ministry or agency block, get hold, move or cancel terms in writing now and check your force-majeure clause.",
+  "segments": [
+   "city",
+   "bush",
+   "beach"
+  ],
+  "countries": "Kenya",
+  "confidence": "Reported",
+  "impact": "risk",
+  "impactClass": "risk",
+  "intensity": 2,
+  "impactSet": "author",
+  "source": "pulse-2026-10-11-evening",
+  "date": "2026-10-11",
+  "dateDisplay": "Sunday, 11 October 2026",
+  "edition": "Evening Wrap",
+  "editionKey": "evening"
+ },
+ {
+  "headline": "The US entry order on DRC, Uganda and South Sudan expires tonight, and renewals have come late before",
+  "body": "Doc 2026-18948 runs to 4:59pm EDT Sun 11 Oct, which is 23:59 EAT. The latest Federal Register listing shows no successor *(federalregister.gov, checked 11 Oct)*. That proves little: the 11 Sep order was published on 16 Sep, and the 12 Aug order on 17 Aug, each renewing at the expiry date. Kenya is not named. Our inference: assume renewal until cdc.gov says otherwise.",
+  "sowhat": "🎯 So what: for US guests combining Uganda with Kenya or Rwanda, keep flexible cancellation terms through the week.",
+  "segments": [
+   "city",
+   "bush"
+  ],
+  "countries": "Uganda, Kenya, Rwanda",
+  "confidence": "Confirmed",
+  "impact": "watch",
+  "impactClass": "watch",
+  "intensity": 3,
+  "impactSet": "author",
+  "source": "pulse-2026-10-11-evening",
+  "date": "2026-10-11",
+  "dateDisplay": "Sunday, 11 October 2026",
+  "edition": "Evening Wrap",
+  "editionKey": "evening"
+ },
+ {
+  "headline": "⏳ Catching up: Cabinet approved KSh45.4bn for Kenya Airways on 9 Oct",
+  "body": "Ten-year repayment, disbursed in instalments, convertible to equity. Cabinet also backed turning KSh122bn of state loans into a tradable instrument that can convert to shares. All of it needs corporate, shareholder and regulatory approvals. The money is for maintenance and returning grounded aircraft; three were in major service in September *(Kenyans.co.ke, 9 Oct)*. Our inference: capacity recovery is possible but not yet funded in cash.",
+  "sowhat": "🎯 So what: do not bank on extra KQ seats in your 2027 forecasts until disbursement is confirmed.",
+  "segments": [
+   "city",
+   "bush",
+   "beach"
+  ],
+  "countries": "Kenya",
+  "confidence": "Reported",
+  "impact": "watch",
+  "impactClass": "watch",
+  "intensity": 2,
+  "impactSet": "author",
+  "source": "pulse-2026-10-11-evening",
+  "date": "2026-10-11",
+  "dateDisplay": "Sunday, 11 October 2026",
+  "edition": "Evening Wrap",
+  "editionKey": "evening"
+ },
  {
   "headline": "TWO INSURANCE CHARGES NOW SIT ON ONE ITINERARY",
   "body": "Justice Olel (High Court, Marsabit) held Gazette Notice 11492 valid on 7 Oct *(Eastleigh Voice, 7 Oct)*; FCDO says eTA applicants must buy cover from 5 Oct. Tanzania mainland has required it since 1 Oct *(GN 256)*.",
@@ -6656,4 +6727,4 @@ window.INSIGHTS = [
   "editionKey": "evening"
  }
 ];
-window.BUILT_AT = "2026-10-12 05:56";
+window.BUILT_AT = "2026-10-12 06:09";
