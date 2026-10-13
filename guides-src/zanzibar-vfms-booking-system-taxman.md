@@ -4,6 +4,8 @@ slug: zanzibar-vfms-booking-system-taxman
 description: Zanzibar's revenue authority published an amendment to its Virtual Fiscal Management System regulations on 1 September requiring accommodation providers to run an approved property management system wired into the state's platform. Operators are being told the window closes in weeks, by their software vendors rather than by a public notice. The consequence that matters is not the tax rate, it is that occupancy and achieved rate become a government record before they are a management report.
 category: Big Read
 updated: 2026-10-13
+image: "img/editions/zanzibar-vfms-booking-system-taxman.jpg"
+image_credit: "Illustration: AI-generated for EA Hospitality Pulse — synthetic image, not a photograph"
 ---
 On 2 October the Zanzibar Revenue Authority put a document on its website with a title no hotelier reads for pleasure: a revenue collection report for the first quarter of 2026/2027. The headline inside it was comfortable. Collections of TSh353.310 billion against a target of TSh351.106 billion, 100.63 per cent of plan, and 28.81 per cent above the TSh274.291 billion taken in the same quarter of 2025. Makame Khamis Moh'd, the authority's head of information, public relations and customer service, put the performance down to stronger economic activity, trade with the mainland, taxpayer education and the spread of the authority's electronic systems.
 
