@@ -1,5 +1,14 @@
 window.EDITIONS = [
  {
+  "id": "pulse-2026-10-13-evening",
+  "date": "2026-10-13",
+  "dateDisplay": "Tuesday, 13 October 2026",
+  "edition": "Evening Wrap",
+  "editionKey": "evening",
+  "summary": "Formula One has confirmed a 10-year African Grand Prix at Bugesera, 40 km from Kigali",
+  "bodyHtml": "<p><strong>Formula One has confirmed a 10-year African Grand Prix at Bugesera, 40 km from Kigali, with racing from the early 2030s</strong><br><em>🌆 Evening Wrap · Tue 13 Oct 2026</em></p>\n<p>━━━━━━━━━<br><span class=\"item-head\">1️⃣ Formula One has confirmed a 10-year African Grand Prix at Bugesera, 40 km from Kigali</span></p>\n<p>F1 announced the deal on 13 Oct. The race is branded the African Grand Prix presented by Visit Rwanda. A Hermann Tilke circuit will sit beside the new Kigali international airport, to FIA Grade 1 standard. No race date is set; the circuit is expected in the early 2030s <strong>(Formula One announcement, 13 Oct; Nile Post, 13 Oct)</strong>. Neither source gives hotel or visitor numbers.<br>Our inference: this is a 2030s event, not a 2027 one. Its first effect is on investors and brands choosing where to put keys near Bugesera and Kigali.<br><span class=\"sowhat\">🎯 So what: Rwanda owners should not reprice on it. Plan only for pre-race site visits, sponsor travel and franchise interest. Elsewhere, expect &quot;Africa&#x27;s F1&quot; to shape Rwanda&#x27;s pitch to events buyers.</span><br><span class=\"tagline\">🏷 City, Beach | Rwanda | Confirmed | impact:watch</span></p>\n<p><span class=\"item-head\">2️⃣ Marriott&#x27;s Autograph Collection is bringing an 18-suite tented camp to the Serengeti in November</span></p>\n<p>Mereshi Safari Camp Serengeti has 18 elevated suites of 95 sq m on 55 acres, near the Fort Ikoma Gate at Robanda. It is anticipated to open in November 2026 <strong>(Hospitality Net, 12 Oct)</strong>. The release names Delaware Investments but no operator, rates or executives.<br>Our inference: this is a Marriott brand, with Bonvoy distribution, entering the western Serengeti corridor.<br><span class=\"sowhat\">🎯 So what: nearby tented camps should check how Bonvoy rates and points redemptions will sit against their own direct rates for Q1 2027.</span><br><span class=\"tagline\">🏷 Bush | Tanzania | Confirmed | impact:margin</span></p>\n<p><span class=\"item-head\">3️⃣ Kenya&#x27;s EPRA pump-price review is due Wed 14 Oct, with the IMF forecasting lower oil</span></p>\n<p>The IMF projects lower oil prices, linked to easier US limits on Russian oil <strong>(Kenyans.co.ke, 13 Oct)</strong>. The 14 Sep review held prices unchanged to 14 Oct <strong>(Citizen Digital, 14 Sep)</strong>. In Uganda, Capt Mike Mukulu says the dollar has moved from about Shs3,700 to roughly Shs4,100. That is his claim, not a bank figure. Museveni said on 9 Oct the state will not use reserves to prop up the shilling <strong>(Nile Post, 13 Oct)</strong>.<br>Our inference: a cut tomorrow would help transfer and generator costs in Kenya. Uganda&#x27;s pump price is exposed to the shilling, not just oil.<br><span class=\"sowhat\">🎯 So what: price Kenya safari transfers off tomorrow&#x27;s figure, not today&#x27;s. Ugandan lodges with USD rates and shilling fuel bills should keep fuel clauses in 2027 contracts.</span><br><span class=\"tagline\">🏷 City, Bush, Beach | Kenya, Uganda | Reported | impact:margin</span></p>\n<p><strong>🏗 DEAL FLOW:</strong> Mereshi Safari Camp Serengeti, 18 suites, Autograph Collection, November 2026 opening <strong>(Hospitality Net, 12 Oct)</strong>. No other verified EA deal flow in the window.</p>\n<p><strong>📻 ALSO TONIGHT</strong><br>🇰🇪 Ebola: no newer figure than the Health Ministry&#x27;s 11 Oct count of 122 contacts, 108 in quarantine, none symptomatic; 667,675 travellers screened <strong>(Kenyans.co.ke, 11 Oct)</strong>.<br>✈️ Air Tanzania (11 Aug) and Kenya Airways (22 Sep) are both moving core booking systems to Sabre; no go-live dates <strong>(travelnews.africa, 12 Oct)</strong>.</p>\n<p><strong>📅 WEEK AHEAD</strong> EPRA review 14 Oct; Uganda bus talks Thu 15 Oct; KPC strike notice running; US entry order on Uganda, DRC and South Sudan runs to about 8–10 Nov.</p>\n<p><strong>🔍 BLIND SPOTS</strong> WHO&#x27;s outbreak page returned no entries. Gazettes, advisories, Africa CDC and aviation regulators were scanned by web search, not opened directly. hotelsafrica.org shows no dates, so its stories could not be window-checked.</p>\n<p>🔗 This edition on the web: <a href=\"https://eahospitalitypulse.com/editions/pulse-2026-10-13-evening.html\" rel=\"noopener\">eahospitalitypulse.com/editions/pulse-2026-10-13-evenin…</a></p>"
+ },
+ {
   "id": "pulse-2026-10-12-evening",
   "date": "2026-10-12",
   "dateDisplay": "Monday, 12 October 2026",
@@ -1198,6 +1207,66 @@ window.EDITIONS = [
  }
 ];
 window.INSIGHTS = [
+ {
+  "headline": "Formula One has confirmed a 10-year African Grand Prix at Bugesera, 40 km from Kigali",
+  "body": "F1 announced the deal on 13 Oct. The race is branded the African Grand Prix presented by Visit Rwanda. A Hermann Tilke circuit will sit beside the new Kigali international airport, to FIA Grade 1 standard. No race date is set; the circuit is expected in the early 2030s *(Formula One announcement, 13 Oct; Nile Post, 13 Oct)*. Neither source gives hotel or visitor numbers. Our inference: this is a 2030s event, not a 2027 one. Its first effect is on investors and brands choosing where to put keys near Bugesera and Kigali.",
+  "sowhat": "🎯 So what: Rwanda owners should not reprice on it. Plan only for pre-race site visits, sponsor travel and franchise interest. Elsewhere, expect \"Africa's F1\" to shape Rwanda's pitch to events buyers.",
+  "segments": [
+   "city",
+   "beach"
+  ],
+  "countries": "Rwanda",
+  "confidence": "Confirmed",
+  "impact": "watch",
+  "impactClass": "watch",
+  "intensity": 3,
+  "impactSet": "author",
+  "source": "pulse-2026-10-13-evening",
+  "date": "2026-10-13",
+  "dateDisplay": "Tuesday, 13 October 2026",
+  "edition": "Evening Wrap",
+  "editionKey": "evening"
+ },
+ {
+  "headline": "Marriott's Autograph Collection is bringing an 18-suite tented camp to the Serengeti in November",
+  "body": "Mereshi Safari Camp Serengeti has 18 elevated suites of 95 sq m on 55 acres, near the Fort Ikoma Gate at Robanda. It is anticipated to open in November 2026 *(Hospitality Net, 12 Oct)*. The release names Delaware Investments but no operator, rates or executives. Our inference: this is a Marriott brand, with Bonvoy distribution, entering the western Serengeti corridor.",
+  "sowhat": "🎯 So what: nearby tented camps should check how Bonvoy rates and points redemptions will sit against their own direct rates for Q1 2027.",
+  "segments": [
+   "bush"
+  ],
+  "countries": "Tanzania",
+  "confidence": "Confirmed",
+  "impact": "-margin",
+  "impactClass": "margin",
+  "intensity": 3,
+  "impactSet": "author",
+  "source": "pulse-2026-10-13-evening",
+  "date": "2026-10-13",
+  "dateDisplay": "Tuesday, 13 October 2026",
+  "edition": "Evening Wrap",
+  "editionKey": "evening"
+ },
+ {
+  "headline": "Kenya's EPRA pump-price review is due Wed 14 Oct, with the IMF forecasting lower oil",
+  "body": "The IMF projects lower oil prices, linked to easier US limits on Russian oil *(Kenyans.co.ke, 13 Oct)*. The 14 Sep review held prices unchanged to 14 Oct *(Citizen Digital, 14 Sep)*. In Uganda, Capt Mike Mukulu says the dollar has moved from about Shs3,700 to roughly Shs4,100. That is his claim, not a bank figure. Museveni said on 9 Oct the state will not use reserves to prop up the shilling *(Nile Post, 13 Oct)*. Our inference: a cut tomorrow would help transfer and generator costs in Kenya. Uganda's pump price is exposed to the shilling, not just oil.",
+  "sowhat": "🎯 So what: price Kenya safari transfers off tomorrow's figure, not today's. Ugandan lodges with USD rates and shilling fuel bills should keep fuel clauses in 2027 contracts.",
+  "segments": [
+   "city",
+   "bush",
+   "beach"
+  ],
+  "countries": "Kenya, Uganda",
+  "confidence": "Reported",
+  "impact": "-margin",
+  "impactClass": "margin",
+  "intensity": 2,
+  "impactSet": "author",
+  "source": "pulse-2026-10-13-evening",
+  "date": "2026-10-13",
+  "dateDisplay": "Tuesday, 13 October 2026",
+  "edition": "Evening Wrap",
+  "editionKey": "evening"
+ },
  {
   "headline": "The US has renewed its entry ban on travellers from Uganda, DRC and South Sudan for 30 days",
   "body": "Yesterday's open question is closed. The CDC order was signed 9 Oct and took effect at 5pm EDT on Sun 11 Oct, for 30 days. It bars non-US citizens who were in DRC, Uganda or South Sudan in the last 21 days. Kenya is not listed. Uganda is still covered, although its outbreak was declared over on 27 Aug *(CDC order, 11 Oct; UKHSA, 4 Oct)*. The order does not state an exact end date; we read it as running to about 8–10 Nov. Our inference: a Kenya or Rwanda leg on the same itinerary does not trigger the ban, but a Uganda leg in the prior 21 days does.",
@@ -6797,4 +6866,4 @@ window.INSIGHTS = [
   "editionKey": "evening"
  }
 ];
-window.BUILT_AT = "2026-10-13 06:12";
+window.BUILT_AT = "2026-10-13 17:33";
