@@ -1,5 +1,14 @@
 window.GUIDES = [
  {
+  "slug": "zanzibar-vfms-booking-system-taxman",
+  "title": "Zanzibar's taxman is moving into the booking system. The levy is not the expensive part.",
+  "description": "Zanzibar's revenue authority published an amendment to its Virtual Fiscal Management System regulations on 1 September requiring accommodation providers to run an approved property management system wired into the state's platform. Operators are being told the window closes in weeks, by their software vendors rather than by a public notice. The consequence that matters is not the tax rate, it is that occupancy and achieved rate become a government record before they are a management report.",
+  "category": "Big Read",
+  "updated": "2026-10-13",
+  "readMins": 8,
+  "image": "img/editions/zanzibar-vfms-booking-system-taxman.jpg"
+ },
+ {
   "slug": "predatory-ota-brand-hijacking-east-africa",
   "title": "Someone else is selling your lodge under your own name. The defences were built for other countries.",
   "description": "A report published on 9 October put 1.1 million brand-hijacking adverts against 204,000 hotels in 205 countries. East African properties are already on the pages those adverts lead to, and the three remedies working elsewhere are the three that travel worst.",
