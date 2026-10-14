@@ -1,18 +1,51 @@
 {
- "generated": "2026-10-14T11:49:42+03:00",
- "slot": "midday",
- "window_start": 1791950400,
- "observations_in_window": 259,
+ "generated": "2026-10-14T16:25:45+03:00",
+ "slot": "evening",
+ "window_start": 1791892800,
+ "observations_in_window": 1126,
  "deduped_against": 26,
  "candidates": [
   {
-   "score": 100.1,
+   "score": 101.4,
+   "components": {
+    "tier": 40,
+    "category": 32,
+    "lead": 3.6,
+    "relevance": 0,
+    "freshness": 19.8,
+    "corroborated": 10,
+    "page_change": -4
+   },
+   "keywords": [],
+   "shock_terms": [],
+   "dedupe_match": null,
+   "dedupe_similarity": 0.2,
+   "id": "6fb4ef8025f5",
+   "title": "[page changed] Federal Register \u2014 public inspection (HHS/CDC), pre-publication",
+   "url": "https://www.federalregister.gov/api/v1/public-inspection-documents/current.json",
+   "summary": "{\"count\":78,\"results\":[{\"agencies\":[{\"raw_name\":\"National Oceanic and Atmospheric Administration\",\"name\":\"National Oceanic and Atmospheric Administration\",\"id\":361,\"url\":\"https://www.federalregister.gov/agencies/national-oceanic-and-atmospheric-administration\",\"json_url\":\"https://www.federalregister.gov/api/v1/agencies/361\",\"parent_id\":54,\"slug\":\"national-oceanic-and-atmospheric-administration\"}],",
+   "kind": "page-change",
+   "source": "Federal Register \u2014 public inspection (HHS/CDC), pre-publication",
+   "source_id": "us-fedreg-pubinspect-hhs",
+   "tier": 1,
+   "country": "REG",
+   "category": "advisory",
+   "segments": [
+    "city",
+    "bush"
+   ],
+   "first_seen": "2026-10-14T16:24+03:00",
+   "published": "2026-10-13",
+   "verdict": "OPEN THIS \u2014 tier-1 advisory page moved; content not auto-parsed, read it manually"
+  },
+  {
+   "score": 95.0,
    "components": {
     "tier": 40,
     "category": 32,
     "lead": 12.0,
     "relevance": 8,
-    "freshness": 18.1,
+    "freshness": 13.0,
     "undated": -6,
     "page_change": -4
    },
@@ -41,13 +74,13 @@
    "verdict": "OPEN THIS \u2014 tier-1 advisory page moved; content not auto-parsed, read it manually"
   },
   {
-   "score": 65.4,
+   "score": 60.3,
    "components": {
     "tier": 40,
     "category": 12,
     "lead": 3.6,
     "relevance": 0,
-    "freshness": 19.8,
+    "freshness": 14.7,
     "undated": -6,
     "page_change": -4
    },
@@ -75,13 +108,47 @@
    "verdict": "OPEN THIS \u2014 tier-1 airline page moved; content not auto-parsed, read it manually"
   },
   {
-   "score": 107.6,
+   "score": 46.4,
+   "components": {
+    "tier": 40,
+    "category": 12,
+    "lead": 3.6,
+    "relevance": 0,
+    "freshness": 0.8,
+    "undated": -6,
+    "page_change": -4
+   },
+   "keywords": [],
+   "shock_terms": [],
+   "dedupe_match": null,
+   "dedupe_similarity": 0.0,
+   "id": "544eb0a3d4bf",
+   "title": "[page changed] Airlink news",
+   "url": "https://www.flyairlink.com/",
+   "summary": "Request unsuccessful. Incapsula incident ID: 726000830520639840-643449262777439437",
+   "kind": "page-change",
+   "source": "Airlink news",
+   "source_id": "air-airlink",
+   "tier": 1,
+   "country": "REG",
+   "category": "airline",
+   "segments": [
+    "city",
+    "bush",
+    "beach"
+   ],
+   "first_seen": "2026-10-13T23:07+03:00",
+   "published": null,
+   "verdict": "OPEN THIS \u2014 tier-1 airline page moved; content not auto-parsed, read it manually"
+  },
+  {
+   "score": 102.5,
    "components": {
     "tier": 40,
     "category": 9,
     "lead": 16.8,
     "relevance": 12,
-    "freshness": 19.8,
+    "freshness": 14.7,
     "corroborated": 10
    },
    "keywords": [
@@ -112,13 +179,77 @@
    "verdict": "STRONG \u2014 tier-1, upstream"
   },
   {
-   "score": 100.1,
+   "score": 96.2,
+   "components": {
+    "tier": 40,
+    "category": 24,
+    "lead": 2.4,
+    "relevance": 0,
+    "freshness": 19.8,
+    "corroborated": 10
+   },
+   "keywords": [],
+   "shock_terms": [],
+   "dedupe_match": null,
+   "dedupe_similarity": 0.17,
+   "id": "3b3b9f9c3a13",
+   "title": "SitRep N\u00b0151 /MVE-BDBV/12/10/2026",
+   "url": "https://insp.cd/sitrep-n151-mve-bdbv-12-10-2026",
+   "summary": "",
+   "kind": "item",
+   "source": "INSP RDC \u2014 Ebola daily situation reports (SitRep)",
+   "source_id": "cd-insp-sitrep",
+   "tier": 1,
+   "country": "GLOBAL",
+   "category": "health",
+   "segments": [
+    "City",
+    "Bush"
+   ],
+   "first_seen": "2026-10-14T16:24+03:00",
+   "published": "2026-10-14",
+   "verdict": "STRONG \u2014 tier-1, upstream"
+  },
+  {
+   "score": 96.2,
+   "components": {
+    "tier": 40,
+    "category": 24,
+    "lead": 2.4,
+    "relevance": 0,
+    "freshness": 19.8,
+    "corroborated": 10
+   },
+   "keywords": [],
+   "shock_terms": [],
+   "dedupe_match": null,
+   "dedupe_similarity": 0.11,
+   "id": "30909f840ef4",
+   "title": "SitRep N\u00b0150 /MVE-BDBV/11/10/2026",
+   "url": "https://insp.cd/sitrep-n150-mve-bdbv-11-10-2026",
+   "summary": "Date du rapport : 12 octobre 2026 Date de publication :",
+   "kind": "item",
+   "source": "INSP RDC \u2014 Ebola daily situation reports (SitRep)",
+   "source_id": "cd-insp-sitrep",
+   "tier": 1,
+   "country": "GLOBAL",
+   "category": "health",
+   "segments": [
+    "City",
+    "Bush"
+   ],
+   "first_seen": "2026-10-14T16:24+03:00",
+   "published": "2026-10-14",
+   "verdict": "STRONG \u2014 tier-1, upstream"
+  },
+  {
+   "score": 95.0,
    "components": {
     "tier": 40,
     "category": 32,
     "lead": 0.0,
     "relevance": 0,
-    "freshness": 18.1,
+    "freshness": 13.0,
     "corroborated": 10
    },
    "keywords": [],
@@ -145,13 +276,13 @@
    "verdict": "STRONG \u2014 tier-1, upstream"
   },
   {
-   "score": 100.1,
+   "score": 95.0,
    "components": {
     "tier": 40,
     "category": 32,
     "lead": 0.0,
     "relevance": 0,
-    "freshness": 18.1,
+    "freshness": 13.0,
     "corroborated": 10
    },
    "keywords": [],
@@ -178,13 +309,13 @@
    "verdict": "STRONG \u2014 tier-1, upstream"
   },
   {
-   "score": 100.1,
+   "score": 95.0,
    "components": {
     "tier": 40,
     "category": 32,
     "lead": 0.0,
     "relevance": 0,
-    "freshness": 18.1,
+    "freshness": 13.0,
     "corroborated": 10
    },
    "keywords": [],
@@ -211,13 +342,312 @@
    "verdict": "STRONG \u2014 tier-1, upstream"
   },
   {
-   "score": 90.5,
+   "score": 92.4,
+   "components": {
+    "tier": 40,
+    "category": 18,
+    "lead": 8.4,
+    "relevance": 16,
+    "freshness": 0.0,
+    "corroborated": 10
+   },
+   "keywords": [
+    "fee",
+    "wildlife"
+   ],
+   "shock_terms": [],
+   "dedupe_match": null,
+   "dedupe_similarity": 0.0,
+   "id": "c68968041098",
+   "title": "A Mother\u2019s Loss: Why We Must Slow Down for Wildlife",
+   "url": "https://kws.go.ke/a-mothers-loss-why-we-must-slow-down-for-wildlife",
+   "summary": "Baboon troops are intricate families that live, move, feed, and protect their young together. Far from a random gathering, a troop is a community bound by deep connections. Mothers meticulously watch over their infants, older members guide the young, and a shared rhythm of life has resonated across these landscapes for generations. Not long ago, [...]",
+   "kind": "item",
+   "source": "Kenya Wildlife Service",
+   "source_id": "ke-kws",
+   "tier": 1,
+   "country": "KE",
+   "category": "parks",
+   "segments": [
+    "bush"
+   ],
+   "first_seen": "2026-10-13T19:58+03:00",
+   "published": "2026-10-13",
+   "verdict": "STRONG \u2014 tier-1, upstream"
+  },
+  {
+   "score": 90.8,
+   "components": {
+    "tier": 40,
+    "category": 7,
+    "lead": 6.0,
+    "relevance": 8,
+    "freshness": 19.8,
+    "corroborated": 10
+   },
+   "keywords": [
+    "eta"
+   ],
+   "shock_terms": [],
+   "dedupe_match": null,
+   "dedupe_similarity": 0.25,
+   "id": "83fc85f4dded",
+   "title": "EAC and Germany Reinforce Partnership on Pandemic Preparedness and Regional Development",
+   "url": "https://www.eac.int/press-releases/147-health/3607-eac-and-germany-reinforce-partnership-on-pandemic-preparedness-and-regional-development",
+   "summary": "East African Community Headquarters, Arusha, Tanzania, 14th October, 2026: The East African Community (EAC) Secretary General, Ambassador Stephen P. Mbundi, held high-level engagements with Germany\u2019s Federal Minister for Economic Cooperation and Development, Hon. Reem Alabali-Radovan, and the Head of the Africa Department at the Federal Ministry for Economic Cooperation and Development (BMZ), Mr. ",
+   "kind": "item",
+   "source": "East African Community \u2014 Secretariat news",
+   "source_id": "eac-secretariat",
+   "tier": 1,
+   "country": "Regional",
+   "category": "body",
+   "segments": [
+    "city"
+   ],
+   "first_seen": "2026-10-14T16:24+03:00",
+   "published": "2026-10-14",
+   "verdict": "STRONG \u2014 tier-1, upstream"
+  },
+  {
+   "score": 90.4,
+   "components": {
+    "tier": 20,
+    "category": 5,
+    "lead": 3.6,
+    "relevance": 32,
+    "freshness": 19.8,
+    "corroborated": 10
+   },
+   "keywords": [
+    "occupancy",
+    "adr",
+    "revpar",
+    "hotel",
+    "opening"
+   ],
+   "shock_terms": [],
+   "dedupe_match": null,
+   "dedupe_similarity": 0.12,
+   "id": "a5e77646637c",
+   "title": "Jeddah hotel performance jumped in September",
+   "url": "https://www.hospitalitynet.org/news/4134903/jeddah-hotel-performance-jumped-in-september",
+   "summary": "Jeddah hotels saw RevPAR surge 53.3% year-over-year in September 2026, with the Gulf Cup opening day driving peak occupancy of 78.3% and ADR of SAR688.72.",
+   "kind": "item",
+   "source": "Hospitality Net \u2014 Africa announcements",
+   "source_id": "dev-hospitalitynet-africa",
+   "tier": 2,
+   "country": "REG",
+   "category": "trade",
+   "segments": [
+    "city",
+    "bush",
+    "beach"
+   ],
+   "first_seen": "2026-10-14T16:24+03:00",
+   "published": "2026-10-14",
+   "verdict": "CONSIDER"
+  },
+  {
+   "score": 89.2,
+   "components": {
+    "tier": 20,
+    "category": 5,
+    "lead": 2.4,
+    "relevance": 32,
+    "freshness": 19.8,
+    "corroborated": 10
+   },
+   "keywords": [
+    "occupancy",
+    "adr",
+    "revpar",
+    "hotel",
+    "opening"
+   ],
+   "shock_terms": [],
+   "dedupe_match": null,
+   "dedupe_similarity": 0.12,
+   "id": "a6368109c495",
+   "title": "Jeddah hotel performance jumped in September",
+   "url": "https://www.hospitalitynet.org/news/4134903/jeddah-hotel-performance-jumped-in-september",
+   "summary": "Jeddah hotels saw RevPAR surge 53.3% year-over-year in September 2026, with the Gulf Cup opening day driving peak occupancy of 78.3% and ADR of SAR688.72.",
+   "kind": "item",
+   "source": "Hospitality Net: Africa openings",
+   "source_id": "dev-hospitalitynet-openings",
+   "tier": 2,
+   "country": "AFRICA",
+   "category": "trade",
+   "segments": [
+    "city",
+    "bush",
+    "beach"
+   ],
+   "first_seen": "2026-10-14T16:24+03:00",
+   "published": "2026-10-14",
+   "verdict": "CONSIDER"
+  },
+  {
+   "score": 89.2,
+   "components": {
+    "tier": 20,
+    "category": 14,
+    "lead": 8.4,
+    "relevance": 36,
+    "freshness": 0.8,
+    "corroborated": 10
+   },
+   "keywords": [
+    "suspend",
+    "vat",
+    "route",
+    "airline",
+    "flight"
+   ],
+   "shock_terms": [],
+   "dedupe_match": null,
+   "dedupe_similarity": 0.17,
+   "id": "80c9f890ac37",
+   "title": "Trinity Airways Suspends Seoul \u2013 Frankfurt Route in NW26",
+   "url": "https://www.aeroroutes.com/eng/261013-twnw26fra",
+   "summary": "Published at 1100PDT / 1800GMT 13OCT26 Trinity Airways (formerly known as T\u2019way Air) during Northern winter 2026/27 season is suspending Seoul Incheon \u2013 Frankfurt route, as this route remains unavailable for reservation during winter season as of 13OCT26. For the week of 18OCT26, the airline operates 4 weekly flights with A330-200 aircraft. TW403 ICN0950 \u2013 1650FRA 332 x247 TW404 FRA1850 \u2013 1400+1IC",
+   "kind": "item",
+   "source": "AeroRoutes schedule filings",
+   "source_id": "aeroroutes",
+   "tier": 2,
+   "country": "GLOBAL",
+   "category": "aviation-tracker",
+   "segments": [
+    "city",
+    "bush",
+    "beach"
+   ],
+   "first_seen": "2026-10-13T23:09+03:00",
+   "published": "2026-10-13",
+   "verdict": "CONSIDER"
+  },
+  {
+   "score": 88.4,
+   "components": {
+    "tier": 20,
+    "category": 14,
+    "lead": 8.4,
+    "relevance": 36,
+    "freshness": 0.0,
+    "corroborated": 10
+   },
+   "keywords": [
+    "suspend",
+    "vat",
+    "route",
+    "airline",
+    "flight"
+   ],
+   "shock_terms": [],
+   "dedupe_match": null,
+   "dedupe_similarity": 0.11,
+   "id": "90c3e7d9fdd8",
+   "title": "HiSky Shortens Bucharest \u2013 New York Service in NW26",
+   "url": "https://www.aeroroutes.com/eng/261013-h4nw26jfk",
+   "summary": "Published at 0700PDT / 1400GMT 13OCT26 HiSky in recent weeks filed service changes on Bucharest \u2013 New York JFK route for Northern winter 2026/27 season, which sees the airline suspends this route, except holidays period. Based on available flights for reservations on the airline\u2019s website, service is offered on following dates: 30OCT26, 18DEC26, 21DEC26, 23DEC26, 28DEC26, 04JAN27, 06JAN27, 08JAN27",
+   "kind": "item",
+   "source": "AeroRoutes schedule filings",
+   "source_id": "aeroroutes",
+   "tier": 2,
+   "country": "GLOBAL",
+   "category": "aviation-tracker",
+   "segments": [
+    "city",
+    "bush",
+    "beach"
+   ],
+   "first_seen": "2026-10-13T19:58+03:00",
+   "published": "2026-10-13",
+   "verdict": "CONSIDER"
+  },
+  {
+   "score": 88.2,
+   "components": {
+    "tier": 20,
+    "category": 14,
+    "lead": 8.4,
+    "relevance": 16,
+    "freshness": 19.8,
+    "corroborated": 10
+   },
+   "keywords": [
+    "route",
+    "airline",
+    "flight"
+   ],
+   "shock_terms": [],
+   "dedupe_match": null,
+   "dedupe_similarity": 0.11,
+   "id": "83d697143972",
+   "title": "Air New Zealand 1Q27 Shanghai Service Increases",
+   "url": "https://www.aeroroutes.com/eng/261014-nz1q27pvg",
+   "summary": "Published at 0100PDT / 0800GMT 14OCT26 Air New Zealand in the first quarter of 2027 plans to increase on Auckland \u2013 Shanghai Pu Dong service, where the airline plans to operate 10 weekly flights for the period of 26JAN27 \u2013 20FEB27, instead of 7 weekly. Boeing 787-9 operates this route. NZ1387 AKL1250 \u2013 1955PVG 789 246 NZ289 AKL2355 \u2013 0700+1PVG 789 D NZ288 PVG1415 \u2013 0645+1AKL 789 D NZ1386 PVG2125 \u2013",
+   "kind": "item",
+   "source": "AeroRoutes schedule filings",
+   "source_id": "aeroroutes",
+   "tier": 2,
+   "country": "GLOBAL",
+   "category": "aviation-tracker",
+   "segments": [
+    "city",
+    "bush",
+    "beach"
+   ],
+   "first_seen": "2026-10-14T16:24+03:00",
+   "published": "2026-10-14",
+   "verdict": "CONSIDER"
+  },
+  {
+   "score": 86.5,
+   "components": {
+    "tier": 20,
+    "category": 14,
+    "lead": 8.4,
+    "relevance": 28,
+    "freshness": 6.1,
+    "corroborated": 10
+   },
+   "keywords": [
+    "vat",
+    "route",
+    "airline",
+    "flight",
+    "booking"
+   ],
+   "shock_terms": [],
+   "dedupe_match": null,
+   "dedupe_similarity": 0.11,
+   "id": "dd4f7a049f4d",
+   "title": "Arkia Closes Tel Aviv \u2013 Tokyo Bookings From Oct 2026",
+   "url": "https://www.aeroroutes.com/eng/261013-iznw26nrt",
+   "summary": "Published at 1600PDT / 2300GMT 13OCT26 Arkia \u2013 Israeli Airlines as of Tuesday 13OCT26 filed additional changes to its planned Tel Aviv \u2013 Tokyo Narita route, due to regulatory approval issue on wet-lease aircraft operation, the airline has closed reservations for all flights on/after 25OCT26. Updated schedule filing shows 1 weekly flight from 08NOV26 \u2013 20DEC26 and effective 28MAR27, reservations ar",
+   "kind": "item",
+   "source": "AeroRoutes schedule filings",
+   "source_id": "aeroroutes",
+   "tier": 2,
+   "country": "GLOBAL",
+   "category": "aviation-tracker",
+   "segments": [
+    "city",
+    "bush",
+    "beach"
+   ],
+   "first_seen": "2026-10-14T03:56+03:00",
+   "published": "2026-10-14",
+   "verdict": "CONSIDER"
+  },
+  {
+   "score": 85.4,
    "components": {
     "tier": 20,
     "category": 14,
     "lead": 8.4,
     "relevance": 20,
-    "freshness": 18.1,
+    "freshness": 13.0,
     "corroborated": 10
    },
    "keywords": [
@@ -247,13 +677,13 @@
    "verdict": "CONSIDER"
   },
   {
-   "score": 90.5,
+   "score": 85.4,
    "components": {
     "tier": 20,
     "category": 14,
     "lead": 8.4,
     "relevance": 20,
-    "freshness": 18.1,
+    "freshness": 13.0,
     "corroborated": 10
    },
    "keywords": [
@@ -284,13 +714,13 @@
    "verdict": "CONSIDER"
   },
   {
-   "score": 89.8,
+   "score": 84.8,
    "components": {
     "tier": 40,
     "category": 9,
     "lead": 16.8,
     "relevance": 12,
-    "freshness": 18.0,
+    "freshness": 13.0,
     "undated": -6
    },
    "keywords": [
@@ -321,13 +751,13 @@
    "verdict": "CONSIDER"
   },
   {
-   "score": 89.8,
+   "score": 84.8,
    "components": {
     "tier": 40,
     "category": 17,
     "lead": 16.8,
     "relevance": 4,
-    "freshness": 18.0,
+    "freshness": 13.0,
     "undated": -6
    },
    "keywords": [
@@ -356,13 +786,13 @@
    "verdict": "CONSIDER"
   },
   {
-   "score": 89.8,
+   "score": 84.8,
    "components": {
     "tier": 40,
     "category": 17,
     "lead": 16.8,
     "relevance": 4,
-    "freshness": 18.0,
+    "freshness": 13.0,
     "undated": -6
    },
    "keywords": [
@@ -391,13 +821,13 @@
    "verdict": "CONSIDER"
   },
   {
-   "score": 89.8,
+   "score": 84.8,
    "components": {
     "tier": 40,
     "category": 17,
     "lead": 16.8,
     "relevance": 4,
-    "freshness": 18.0,
+    "freshness": 13.0,
     "undated": -6
    },
    "keywords": [
@@ -426,13 +856,197 @@
    "verdict": "CONSIDER"
   },
   {
-   "score": 86.5,
+   "score": 84.5,
+   "components": {
+    "tier": 20,
+    "category": 4,
+    "lead": 2.4,
+    "relevance": 24,
+    "freshness": 6.1,
+    "corroborated": 10,
+    "shock": 18
+   },
+   "keywords": [
+    "outbreak",
+    "ebola"
+   ],
+   "shock_terms": [
+    "outbreak"
+   ],
+   "dedupe_match": null,
+   "dedupe_similarity": 0.12,
+   "id": "2016657d42af",
+   "title": "Ebola disrupting education for 1.8 million children in eastern DRC",
+   "url": "https://www.independent.co.ug/ebola-disrupting-education-for-1-8-million-children-in-eastern-drc",
+   "summary": "Kinshasa, DRC | URN | Hundreds of thousands of children in the eastern Democratic Republic of Congo (DRC) are facing major disruptions to their education as the country battles its largest and deadliest Ebola outbreak, the Norwegian Refugee Council (NRC) has warned. The humanitarian organisation said fear of Ebola, inadequate infection prevention and control measures, \u2026 The post Ebola disrupting e",
+   "kind": "item",
+   "source": "The Independent (Uganda)",
+   "source_id": "ug-independent",
+   "tier": 2,
+   "country": "UG",
+   "category": "press",
+   "segments": [
+    "city",
+    "bush",
+    "beach"
+   ],
+   "first_seen": "2026-10-14T03:56+03:00",
+   "published": "2026-10-13",
+   "verdict": "CONSIDER"
+  },
+  {
+   "score": 84.2,
+   "components": {
+    "tier": 40,
+    "category": 24,
+    "lead": 2.4,
+    "relevance": 4,
+    "freshness": 19.8,
+    "undated": -6
+   },
+   "keywords": [
+    "summit"
+   ],
+   "shock_terms": [],
+   "dedupe_match": null,
+   "dedupe_similarity": 0.11,
+   "id": "4ed5a5672e53",
+   "title": "PS OLUGA CHAIRS INTERGOVERNMENTAL MEETING TO PREPARE FOR AFRICAN UNION SUMMIT ON LOCAL MANUFACTURING",
+   "url": "https://www.health.go.ke/ps-oluga-chairs-intergovernmental-meeting-prepare-african-union-summit-local-manufacturing-0",
+   "summary": "",
+   "kind": "item",
+   "source": "Kenya Ministry of Health",
+   "source_id": "ke-moh",
+   "tier": 1,
+   "country": "KE",
+   "category": "health",
+   "segments": [
+    "city",
+    "bush",
+    "beach"
+   ],
+   "first_seen": "2026-10-14T16:24+03:00",
+   "published": null,
+   "verdict": "CONSIDER"
+  },
+  {
+   "score": 84.2,
+   "components": {
+    "tier": 40,
+    "category": 24,
+    "lead": 2.4,
+    "relevance": 4,
+    "freshness": 19.8,
+    "undated": -6
+   },
+   "keywords": [
+    "summit"
+   ],
+   "shock_terms": [],
+   "dedupe_match": null,
+   "dedupe_similarity": 0.11,
+   "id": "86ed278892a6",
+   "title": "PS OLUGA CHAIRS INTERGOVERNMENTAL MEETING TO PREPARE FOR AFRICAN UNION SUMMIT ON LOCAL MANUFACTURING",
+   "url": "https://www.health.go.ke/ps-oluga-chairs-intergovernmental-meeting-prepare-african-union-summit-local-manufacturing",
+   "summary": "",
+   "kind": "item",
+   "source": "Kenya Ministry of Health",
+   "source_id": "ke-moh",
+   "tier": 1,
+   "country": "KE",
+   "category": "health",
+   "segments": [
+    "city",
+    "bush",
+    "beach"
+   ],
+   "first_seen": "2026-10-14T16:24+03:00",
+   "published": null,
+   "verdict": "CONSIDER"
+  },
+  {
+   "score": 84.2,
+   "components": {
+    "tier": 20,
+    "category": 4,
+    "lead": 2.4,
+    "relevance": 28,
+    "freshness": 19.8,
+    "corroborated": 10
+   },
+   "keywords": [
+    "tax",
+    "fuel",
+    "diesel",
+    "shilling"
+   ],
+   "shock_terms": [],
+   "dedupe_match": null,
+   "dedupe_similarity": 0.22,
+   "id": "4b44e18a616e",
+   "title": "Global diesel crisis adds to Uganda\u2019s fuel price pressures",
+   "url": "https://www.independent.co.ug/global-diesel-crisis-adds-to-ugandas-fuel-price-pressures",
+   "summary": "Kampala, Uganda | URN | The International Energy Agency is urging governments to accelerate emergency oil stock releases as disruptions in the Strait of Hormuz and reduced Russian supplies tighten global diesel markets. In Uganda, Energy Minister Monica Musenero said international prices, a weakening shilling and higher fuel taxes are contributing to rising pump \u2026 The post Global diesel crisis add",
+   "kind": "item",
+   "source": "The Independent (Uganda)",
+   "source_id": "ug-independent",
+   "tier": 2,
+   "country": "UG",
+   "category": "press",
+   "segments": [
+    "city",
+    "bush",
+    "beach"
+   ],
+   "first_seen": "2026-10-14T16:24+03:00",
+   "published": "2026-10-14",
+   "verdict": "CONSIDER"
+  },
+  {
+   "score": 82.5,
+   "components": {
+    "tier": 20,
+    "category": 14,
+    "lead": 8.4,
+    "relevance": 24,
+    "freshness": 6.1,
+    "corroborated": 10
+   },
+   "keywords": [
+    "cancel",
+    "route",
+    "franc"
+   ],
+   "shock_terms": [],
+   "dedupe_match": null,
+   "dedupe_similarity": 0.11,
+   "id": "214cd089bc11",
+   "title": "Air India Cancels Additional European Routes From Nov 2026",
+   "url": "https://www.aeroroutes.com/eng/261013-ainw26eu",
+   "summary": "Published at 1701PDT 13OCT26 / 0001GMT 14OCT26 Air India in the last few days filed additional network changes, as the carrier cancels 2 additional European routes. Delhi \u2013 Birmingham 3 weekly 777-300ER cancelled from 04NOV26 Delhi \u2013 Vienna 4 weekly 787-8 cancelled from 01NOV26 (Vienna will continue to be served as technical stop on selected service to Toronto, from San Francisco and Vancouver) Pr",
+   "kind": "item",
+   "source": "AeroRoutes schedule filings",
+   "source_id": "aeroroutes",
+   "tier": 2,
+   "country": "GLOBAL",
+   "category": "aviation-tracker",
+   "segments": [
+    "city",
+    "bush",
+    "beach"
+   ],
+   "first_seen": "2026-10-14T03:56+03:00",
+   "published": "2026-10-14",
+   "verdict": "CONSIDER"
+  },
+  {
+   "score": 81.4,
    "components": {
     "tier": 20,
     "category": 14,
     "lead": 8.4,
     "relevance": 16,
-    "freshness": 18.1,
+    "freshness": 13.0,
     "corroborated": 10
    },
    "keywords": [
@@ -463,922 +1077,13 @@
    "verdict": "CONSIDER"
   },
   {
-   "score": 84.5,
-   "components": {
-    "tier": 20,
-    "category": 4,
-    "lead": 2.4,
-    "relevance": 28,
-    "freshness": 18.1,
-    "undated": -6,
-    "shock": 18
-   },
-   "keywords": [
-    "outbreak",
-    "grounded",
-    "flight"
-   ],
-   "shock_terms": [
-    "outbreak",
-    "grounded"
-   ],
-   "dedupe_match": null,
-   "dedupe_similarity": 0.2,
-   "id": "d03330ce441d",
-   "title": "Qantas flight grounded after bedbug outbreak",
-   "url": "https://nilepost.co.ug/news/377735/qantas-flight-grounded-after-bedbug-outbreak",
-   "summary": "",
-   "kind": "item",
-   "source": "Nile Post (Uganda)",
-   "source_id": "ug-nilepost",
-   "tier": 2,
-   "country": "UG",
-   "category": "press",
-   "segments": [
-    "city",
-    "bush",
-    "beach"
-   ],
-   "first_seen": "2026-10-14T10:16+03:00",
-   "published": null,
-   "verdict": "CONSIDER"
-  },
-  {
-   "score": 82.5,
+   "score": 80.2,
    "components": {
     "tier": 20,
     "category": 14,
     "lead": 8.4,
-    "relevance": 12,
-    "freshness": 18.1,
-    "corroborated": 10
-   },
-   "keywords": [
-    "route",
-    "airline"
-   ],
-   "shock_terms": [],
-   "dedupe_match": null,
-   "dedupe_similarity": 0.09,
-   "id": "16df6fede39a",
-   "title": "Emirates 4Q26 Amsterdam Aircraft Changes \u2013 13OCT26",
-   "url": "https://www.aeroroutes.com/eng/261013-ek4q26ams",
-   "summary": "Published at 2000PDT 13OCT26 / 0300GMT 14OCT26 Emirates in recent schedule update revised planned Airbus A380 service on Dubai \u2013 Amsterdam route. The airline previously scheduled A380 service suspension from 01OCT26 to 31OCT26, however this has been extended to 21NOV26. The airline operates this route 3 times daily with 777-300ER until 21NOV26. EK145 DXB0315 \u2013 0750AMS 77W D EK147 DXB0810 \u2013 1245AMS",
-   "kind": "item",
-   "source": "AeroRoutes schedule filings",
-   "source_id": "aeroroutes",
-   "tier": 2,
-   "country": "GLOBAL",
-   "category": "aviation-tracker",
-   "segments": [
-    "city",
-    "bush",
-    "beach"
-   ],
-   "first_seen": "2026-10-14T10:16+03:00",
-   "published": "2026-10-14",
-   "verdict": "CONSIDER"
-  },
-  {
-   "score": 80.6,
-   "components": {
-    "tier": 40,
-    "category": 10,
-    "lead": 16.8,
-    "relevance": 0,
-    "freshness": 19.8,
-    "undated": -6
-   },
-   "keywords": [],
-   "shock_terms": [],
-   "dedupe_match": null,
-   "dedupe_similarity": 0.0,
-   "id": "0ef5c866e72e",
-   "title": "\ud835\udc12\ud835\udc04\ud835\udc0d\ud835\udc00\ud835\udc13\ud835\udc04 \ud835\udc0f\ud835\udc14\ud835\udc12\ud835\udc07\ud835\udc04\ud835\udc12 \ud835\udc05\ud835\udc0e\ud835\udc11 \ud835\udc08\ud835\udc0d\ud835\udc02\ud835\udc0b\ud835\udc14\ud835\udc12\ud835\udc08\ud835\udc15\ud835\udc04 \ud835\udc04\ud835\udc0d\ud835\udc15\ud835\udc08\ud835\udc11\ud835\udc0e\ud835\udc0d\ud835\udc0c\ud835\udc04\ud835\udc0d\ud835\udc13\ud835\udc00\ud835\udc0b \ud835\udc11\ud835\udc04\ud835\udc06\ud835\udc14\ud835\udc0b\ud835\udc00\ud835\udc13\ud835\udc08\ud835\udc0e\ud835\udc0d\ud835\udc12",
-   "url": "https://www.parliament.go.ke/node/26546",
-   "summary": "",
-   "kind": "item",
-   "source": "Parliament of Kenya \u2014 bills & papers",
-   "source_id": "ke-parliament",
-   "tier": 1,
-   "country": "KE",
-   "category": "legislature",
-   "segments": [
-    "city",
-    "bush",
-    "beach"
-   ],
-   "first_seen": "2026-10-14T11:47+03:00",
-   "published": null,
-   "verdict": "CONSIDER"
-  },
-  {
-   "score": 80.6,
-   "components": {
-    "tier": 40,
-    "category": 10,
-    "lead": 16.8,
-    "relevance": 0,
-    "freshness": 19.8,
-    "undated": -6
-   },
-   "keywords": [],
-   "shock_terms": [],
-   "dedupe_match": null,
-   "dedupe_similarity": 0.12,
-   "id": "6504cdd223b2",
-   "title": "'Investigate alleged killings by UWA rangers' Wednesday, 14 October 2026",
-   "url": "https://www.parliament.go.ug/news/4661/investigate-alleged-killings-uwa-rangers",
-   "summary": "",
-   "kind": "item",
-   "source": "Parliament of Uganda",
-   "source_id": "ug-parliament",
-   "tier": 1,
-   "country": "UG",
-   "category": "legislature",
-   "segments": [
-    "city",
-    "bush",
-    "beach"
-   ],
-   "first_seen": "2026-10-14T11:47+03:00",
-   "published": null,
-   "verdict": "CONSIDER"
-  },
-  {
-   "score": 80.6,
-   "components": {
-    "tier": 40,
-    "category": 10,
-    "lead": 16.8,
-    "relevance": 0,
-    "freshness": 19.8,
-    "undated": -6
-   },
-   "keywords": [],
-   "shock_terms": [],
-   "dedupe_match": null,
-   "dedupe_similarity": 0.22,
-   "id": "03cf8da9c649",
-   "title": "Law to regulate registration of health facilities in the offing Wednesday, 14 October 2026",
-   "url": "https://www.parliament.go.ug/news/4660/law-regulate-registration-health-facilities-offing",
-   "summary": "",
-   "kind": "item",
-   "source": "Parliament of Uganda",
-   "source_id": "ug-parliament",
-   "tier": 1,
-   "country": "UG",
-   "category": "legislature",
-   "segments": [
-    "city",
-    "bush",
-    "beach"
-   ],
-   "first_seen": "2026-10-14T11:47+03:00",
-   "published": null,
-   "verdict": "CONSIDER"
-  },
-  {
-   "score": 80.5,
-   "components": {
-    "tier": 20,
-    "category": 4,
-    "lead": 2.4,
-    "relevance": 8,
-    "freshness": 18.1,
-    "corroborated": 10,
-    "shock": 18
-   },
-   "keywords": [
-    "strike"
-   ],
-   "shock_terms": [
-    "strike"
-   ],
-   "dedupe_match": null,
-   "dedupe_similarity": 0.14,
-   "id": "69e8f1696763",
-   "title": "End strike by lecturers to ease students\u2019 suffering",
-   "url": "https://nation.africa/kenya/blogs-opinion/editorials/end-strike-by-lecturers-to-ease-students-suffering-5631076",
-   "summary": "The academic programmes for more than 700,000 students in public universities have been disrupted.",
-   "kind": "item",
-   "source": "Nation Africa: Kenya business",
-   "source_id": "ke-nation-business",
-   "tier": 2,
-   "country": "KE",
-   "category": "press",
-   "segments": [
-    "city",
-    "bush",
-    "beach"
-   ],
-   "first_seen": "2026-10-14T10:16+03:00",
-   "published": "2026-10-14",
-   "verdict": "CONSIDER"
-  },
-  {
-   "score": 79.7,
-   "components": {
-    "tier": 40,
-    "category": 32,
-    "lead": 3.6,
-    "relevance": 0,
-    "freshness": 18.1,
-    "stale_trap": -10,
-    "page_change": -4
-   },
-   "keywords": [],
-   "shock_terms": [],
-   "dedupe_match": null,
-   "dedupe_similarity": 0.22,
-   "id": "8c9ecfbb3dfe",
-   "title": "[page changed] Federal Register \u2014 public inspection (HHS/CDC), pre-publication",
-   "url": "https://www.federalregister.gov/api/v1/public-inspection-documents/current.json",
-   "summary": "{\"count\":127,\"results\":[{\"agencies\":[{\"raw_name\":\"Industry and Security Bureau\",\"name\":\"Industry and Security Bureau\",\"id\":241,\"url\":\"https://www.federalregister.gov/agencies/industry-and-security-bureau\",\"json_url\":\"https://www.federalregister.gov/api/v1/agencies/241\",\"parent_id\":54,\"slug\":\"industry-and-security-bureau\"}],\"agency_letters\":[],\"agency_names\":[\"Industry and Security Bureau\"],\"docket",
-   "kind": "page-change",
-   "source": "Federal Register \u2014 public inspection (HHS/CDC), pre-publication",
-   "source_id": "us-fedreg-pubinspect-hhs",
-   "tier": 1,
-   "country": "REG",
-   "category": "advisory",
-   "segments": [
-    "city",
-    "bush"
-   ],
-   "first_seen": "2026-10-14T10:14+03:00",
-   "published": "2026-10-09",
-   "verdict": "CHECK \u2014 source date older than the window"
-  },
-  {
-   "score": 75.8,
-   "components": {
-    "tier": 40,
-    "category": 7,
-    "lead": 16.8,
-    "relevance": 0,
-    "freshness": 18.0,
-    "undated": -6
-   },
-   "keywords": [],
-   "shock_terms": [],
-   "dedupe_match": null,
-   "dedupe_similarity": 0.0,
-   "id": "8ab96be66c30",
-   "title": "Request for procurement of Double cabin picku...",
-   "url": "https://egpuganda.go.ug/index/407766942_egp",
-   "summary": "",
-   "kind": "item",
-   "source": "Uganda EGP portal",
-   "source_id": "ug-tenders",
-   "tier": 1,
-   "country": "UG",
-   "category": "tender",
-   "segments": [
-    "city",
-    "bush",
-    "beach"
-   ],
-   "first_seen": "2026-10-14T10:14+03:00",
-   "published": null,
-   "verdict": "CONSIDER"
-  },
-  {
-   "score": 75.8,
-   "components": {
-    "tier": 40,
-    "category": 7,
-    "lead": 16.8,
-    "relevance": 0,
-    "freshness": 18.0,
-    "undated": -6
-   },
-   "keywords": [],
-   "shock_terms": [],
-   "dedupe_match": null,
-   "dedupe_similarity": 0.0,
-   "id": "25eac5ad0fbe",
-   "title": "Request for Procurement of New Single Cabin P...",
-   "url": "https://egpuganda.go.ug/index/407764916_egp",
-   "summary": "",
-   "kind": "item",
-   "source": "Uganda EGP portal",
-   "source_id": "ug-tenders",
-   "tier": 1,
-   "country": "UG",
-   "category": "tender",
-   "segments": [
-    "city",
-    "bush",
-    "beach"
-   ],
-   "first_seen": "2026-10-14T10:14+03:00",
-   "published": null,
-   "verdict": "CONSIDER"
-  },
-  {
-   "score": 75.8,
-   "components": {
-    "tier": 40,
-    "category": 7,
-    "lead": 16.8,
-    "relevance": 0,
-    "freshness": 18.0,
-    "undated": -6
-   },
-   "keywords": [],
-   "shock_terms": [],
-   "dedupe_match": null,
-   "dedupe_similarity": 0.0,
-   "id": "620b352391d1",
-   "title": "Request for the procurement of New Vans to su...",
-   "url": "https://egpuganda.go.ug/index/407752760_egp",
-   "summary": "",
-   "kind": "item",
-   "source": "Uganda EGP portal",
-   "source_id": "ug-tenders",
-   "tier": 1,
-   "country": "UG",
-   "category": "tender",
-   "segments": [
-    "city",
-    "bush",
-    "beach"
-   ],
-   "first_seen": "2026-10-14T10:14+03:00",
-   "published": null,
-   "verdict": "CONSIDER"
-  },
-  {
-   "score": 75.8,
-   "components": {
-    "tier": 40,
-    "category": 7,
-    "lead": 16.8,
-    "relevance": 0,
-    "freshness": 18.0,
-    "undated": -6
-   },
-   "keywords": [],
-   "shock_terms": [],
-   "dedupe_match": null,
-   "dedupe_similarity": 0.0,
-   "id": "ea1341cb9ce3",
-   "title": "Procurement of Customized vehicles for Animal...",
-   "url": "https://egpuganda.go.ug/index/407770994_egp",
-   "summary": "",
-   "kind": "item",
-   "source": "Uganda EGP portal",
-   "source_id": "ug-tenders",
-   "tier": 1,
-   "country": "UG",
-   "category": "tender",
-   "segments": [
-    "city",
-    "bush",
-    "beach"
-   ],
-   "first_seen": "2026-10-14T10:14+03:00",
-   "published": null,
-   "verdict": "CONSIDER"
-  },
-  {
-   "score": 73.2,
-   "components": {
-    "tier": 20,
-    "category": 5,
-    "lead": 2.4,
-    "relevance": 16,
-    "freshness": 19.8,
-    "corroborated": 10
-   },
-   "keywords": [
-    "capacity",
-    "hotel",
-    "investment"
-   ],
-   "shock_terms": [],
-   "dedupe_match": null,
-   "dedupe_similarity": 0.33,
-   "id": "3a19641bfde3",
-   "title": "Hotel Cala to Open on Tampa Riverwalk in January 2027",
-   "url": "https://www.hotelnewsresource.com/article143312.html",
-   "summary": "Hotel Cala is scheduled to open on the Tampa Riverwalk in January 2027, expanding hospitality capacity in a prominent downtown waterfront district and signaling continued investment in Tampa\u2019s urban core.",
-   "kind": "item",
-   "source": "HVS \u2014 market reports and event-impact studies (via Hotel News Resource)",
-   "source_id": "gl-hvs-market-reports",
-   "tier": 2,
-   "country": "GLOBAL",
-   "category": "trade",
-   "segments": [
-    "city"
-   ],
-   "first_seen": "2026-10-14T11:47+03:00",
-   "published": "2026-10-13",
-   "verdict": "CONSIDER"
-  },
-  {
-   "score": 72.2,
-   "components": {
-    "tier": 40,
-    "category": 8,
-    "lead": 2.4,
     "relevance": 8,
     "freshness": 19.8,
-    "undated": -6
-   },
-   "keywords": [
-    "hotel",
-    "airline"
-   ],
-   "shock_terms": [],
-   "dedupe_match": null,
-   "dedupe_similarity": 0.12,
-   "id": "3aadd532b4a6",
-   "title": "IATA and World Sustainable Hospitality Alliance to Collaborate on Sustainable Hotel Procurement IATA and the World Sustainable Hospitality Alliance (WSHA) have agreed to strengthen alignment on sustainability between the airline and hospitality sectors. 14.10.2026",
-   "url": "https://www.iata.org/en/pressroom/2026-releases/10-14-iata-and-world-sustainable-hospitality-alliance-to-collaborate-on-sustainable-hotel-procurement",
-   "summary": "",
-   "kind": "item",
-   "source": "IATA pressroom",
-   "source_id": "iata-pressroom",
-   "tier": 1,
-   "country": "GLOBAL",
-   "category": "aviation-body",
-   "segments": [
-    "city",
-    "bush",
-    "beach"
-   ],
-   "first_seen": "2026-10-14T11:47+03:00",
-   "published": null,
-   "verdict": "CONSIDER"
-  },
-  {
-   "score": 72.1,
-   "components": {
-    "tier": 20,
-    "category": 4,
-    "lead": 0.0,
-    "relevance": 20,
-    "freshness": 18.1,
-    "corroborated": 10
-   },
-   "keywords": [
-    "tax",
-    "fee",
-    "tourism"
-   ],
-   "shock_terms": [],
-   "dedupe_match": null,
-   "dedupe_similarity": 0.22,
-   "id": "1f4ddb1f2e3a",
-   "title": "Uganda Pitches Minerals, Coffee and Tourism to Thai Investors",
-   "url": "https://softpower.ug/uganda-pitches-minerals-coffee-and-tourism-to-thai-investors",
-   "summary": "Uganda is courting Thai investors to invest in its minerals and coffee as well as the tourism industry. Early this week, officials offered 10-year tax holidays and full foreign ownership to businesses willing to set up in the East African nation. Uganda\u2019s Minister of Finance, Planning and Economic Development Henry Musasizi made the pitch at [\u2026] The post Uganda Pitches Minerals, Coffee and Tourism",
-   "kind": "item",
-   "source": "SoftPower News \u2014 Tourism & Travel (Uganda)",
-   "source_id": "ug-softpower-tourism",
-   "tier": 2,
-   "country": "UG",
-   "category": "press",
-   "segments": [
-    "bush",
-    "city"
-   ],
-   "first_seen": "2026-10-14T10:16+03:00",
-   "published": "2026-10-13",
-   "verdict": "CONSIDER"
-  },
-  {
-   "score": 71.8,
-   "components": {
-    "tier": 20,
-    "category": 4,
-    "lead": 0.0,
-    "relevance": 0,
-    "freshness": 19.8,
-    "corroborated": 10,
-    "shock": 18
-   },
-   "keywords": [],
-   "shock_terms": [
-    "attack"
-   ],
-   "dedupe_match": null,
-   "dedupe_similarity": 0.14,
-   "id": "df21184acb10",
-   "title": "In these hard times, Gashumba was wrong to attack people\u2019s businesses",
-   "url": "https://www.monitor.co.ug/uganda/oped/commentary/in-these-hard-times-gashumba-was-wrong-to-attack-people-s-businesses-5631128",
-   "summary": "What Uganda needs right now is less theatrical confrontation and more clear accountability on...",
-   "kind": "item",
-   "source": "Daily Monitor (Uganda)",
-   "source_id": "np-monitor-ug",
-   "tier": 2,
-   "country": "UG",
-   "category": "press",
-   "segments": [
-    "city",
-    "bush",
-    "beach"
-   ],
-   "first_seen": "2026-10-14T11:47+03:00",
-   "published": "2026-10-14",
-   "verdict": "CONSIDER"
-  },
-  {
-   "score": 70.5,
-   "components": {
-    "tier": 20,
-    "category": 14,
-    "lead": 8.4,
-    "relevance": 0,
-    "freshness": 18.1,
-    "corroborated": 10
-   },
-   "keywords": [],
-   "shock_terms": [],
-   "dedupe_match": null,
-   "dedupe_similarity": 0.11,
-   "id": "1a136e7684d7",
-   "title": "Etihad NW26 Barcelona Aircraft Changes",
-   "url": "https://www.aeroroutes.com/eng/261014-eynw26bcn",
-   "summary": "Published at 0000PDT / 0700GMT 14OCT26 Etihad at the launch of Northern winter 2026/27 season is adjusting operational aircraft on 1 of 2 daily Abu Dhabi \u2013 Barcelona service. From 25OCT26, EY111/112 service will be operated by avianca Boeing 787-8, instead of Etihad 787-9. EY111 AUH0235 \u2013 0655BCN 788 D EY113 AUH1405 \u2013 1825BCN 789 D EY112 BCN1005 \u2013 1930AUH 788 D EY114 BCN2150 \u2013 0705+1AUH 789 D",
-   "kind": "item",
-   "source": "AeroRoutes schedule filings",
-   "source_id": "aeroroutes",
-   "tier": 2,
-   "country": "GLOBAL",
-   "category": "aviation-tracker",
-   "segments": [
-    "city",
-    "bush",
-    "beach"
-   ],
-   "first_seen": "2026-10-14T10:16+03:00",
-   "published": "2026-10-14",
-   "verdict": "CONSIDER"
-  },
-  {
-   "score": 68.7,
-   "components": {
-    "tier": 20,
-    "category": 5,
-    "lead": 3.6,
-    "relevance": 12,
-    "freshness": 18.1,
-    "corroborated": 10
-   },
-   "keywords": [
-    "hotel",
-    "booking",
-    "guest"
-   ],
-   "shock_terms": [],
-   "dedupe_match": null,
-   "dedupe_similarity": 0.12,
-   "id": "1c023fefde8e",
-   "title": "Strengthening the Guest Experience: How Bespoke Hotels is Using Canary Across its UK Portfolio",
-   "url": "https://www.hospitalitynet.org/casestudy/4134889/strengthening-the-guest-experience-how-bespoke-hotels-is-using-canary-across-its-uk-portfolio",
-   "summary": "Bespoke Hotels deployed Canary Technologies across its 57-property UK portfolio, recovering implementation costs within weeks and gaining consolidated reporting, upsell revenue, and guest data from OTA bookings.",
-   "kind": "item",
-   "source": "Hospitality Net \u2014 Africa announcements",
-   "source_id": "dev-hospitalitynet-africa",
-   "tier": 2,
-   "country": "REG",
-   "category": "trade",
-   "segments": [
-    "city",
-    "bush",
-    "beach"
-   ],
-   "first_seen": "2026-10-14T10:16+03:00",
-   "published": "2026-10-13",
-   "verdict": "weak"
-  },
-  {
-   "score": 68.2,
-   "components": {
-    "tier": 40,
-    "category": 8,
-    "lead": 2.4,
-    "relevance": 4,
-    "freshness": 19.8,
-    "undated": -6
-   },
-   "keywords": [
-    "opening"
-   ],
-   "shock_terms": [],
-   "dedupe_match": null,
-   "dedupe_similarity": 0.11,
-   "id": "199ba5ff734b",
-   "title": "WSS 2026 Speech - Marie Owens Thomsen, Senior Vice President Sustainability & Chief Economist Read Marie Owens Thomsen's opening remarks at the IATA World Sustainability Symposium in Brussels, Belgium. 13.10.2026",
-   "url": "https://www.iata.org/en/pressroom/2026-speeches/10-13-wss-2026-speech-marie-owens-thomsen-senior-vice-president-sustainability-chief-economist",
-   "summary": "",
-   "kind": "item",
-   "source": "IATA pressroom",
-   "source_id": "iata-pressroom",
-   "tier": 1,
-   "country": "GLOBAL",
-   "category": "aviation-body",
-   "segments": [
-    "city",
-    "bush",
-    "beach"
-   ],
-   "first_seen": "2026-10-14T11:47+03:00",
-   "published": null,
-   "verdict": "weak"
-  },
-  {
-   "score": 66.5,
-   "components": {
-    "tier": 20,
-    "category": 4,
-    "lead": 2.4,
-    "relevance": 12,
-    "freshness": 18.1,
-    "corroborated": 10
-   },
-   "keywords": [
-    "vat",
-    "operator"
-   ],
-   "shock_terms": [],
-   "dedupe_match": null,
-   "dedupe_similarity": 0.12,
-   "id": "50c5d47914b0",
-   "title": "Experts Explain What Happens After Your Critical Data Has Been Breached",
-   "url": "https://www.kenyans.co.ke/news/127829-kcsfa-lists-4-details-organisations-should-report-after-data-breaches",
-   "summary": "Under the law, operators of public and private computer systems or networks are required to report any cybercrimes to the NC4 within 24 hours.",
-   "kind": "item",
-   "source": "Kenyans.co.ke news",
-   "source_id": "ke-kenyans",
-   "tier": 2,
-   "country": "KE",
-   "category": "press",
-   "segments": [
-    "city",
-    "bush",
-    "beach"
-   ],
-   "first_seen": "2026-10-14T10:16+03:00",
-   "published": "2026-10-14",
-   "verdict": "weak"
-  },
-  {
-   "score": 66.5,
-   "components": {
-    "tier": 20,
-    "category": 4,
-    "lead": 2.4,
-    "relevance": 12,
-    "freshness": 18.1,
-    "corroborated": 10
-   },
-   "keywords": [
-    "fuel",
-    "shilling"
-   ],
-   "shock_terms": [],
-   "dedupe_match": null,
-   "dedupe_similarity": 0.33,
-   "id": "78558f2c4ffb",
-   "title": "Ugandans pay the price of a weaker shilling",
-   "url": "https://www.independent.co.ug/ugandans-pay-the-price-of-a-weaker-shilling",
-   "summary": "Petrol prices have jumped to Shs7,000 per litre from Shs4,000 in September, as the dollar climbs to Shs4,000 from Shs3,700 Kampala, Uganda | JULIUS BUSINGE | Uganda\u2019s government is resisting broad fuel subsidies and artificial support for the shilling, a decision that could prolong pressure on households and businesses but preserve foreign exchange \u2026 The post Ugandans pay the price of a weaker shi",
-   "kind": "item",
-   "source": "The Independent (Uganda)",
-   "source_id": "ug-independent",
-   "tier": 2,
-   "country": "UG",
-   "category": "press",
-   "segments": [
-    "city",
-    "bush",
-    "beach"
-   ],
-   "first_seen": "2026-10-14T10:16+03:00",
-   "published": "2026-10-14",
-   "verdict": "weak"
-  },
-  {
-   "score": 66.5,
-   "components": {
-    "tier": 20,
-    "category": 4,
-    "lead": 2.4,
-    "relevance": 12,
-    "freshness": 18.1,
-    "corroborated": 10
-   },
-   "keywords": [
-    "hotel",
-    "summit",
-    "investment"
-   ],
-   "shock_terms": [],
-   "dedupe_match": null,
-   "dedupe_similarity": 0.18,
-   "id": "f0189d583070",
-   "title": "Uganda social enterprises target $1m fund at November summit",
-   "url": "https://www.independent.co.ug/uganda-social-enterprises-target-1m-fund-at-november-summit",
-   "summary": "Kampala, Uganda | JULIUS BUSINGE | Uganda\u2019s social enterprise sector will seek to attract investment, expand market access and create jobs at the Pan-African Social Enterprise Summit scheduled for November 23\u201324 at Hotel Africana in Kampala, where organisers plan to launch a proposed US$1 million fund to support businesses addressing social and environmental challenges. The \u2026 The post Uganda socia",
-   "kind": "item",
-   "source": "The Independent (Uganda)",
-   "source_id": "ug-independent",
-   "tier": 2,
-   "country": "UG",
-   "category": "press",
-   "segments": [
-    "city",
-    "bush",
-    "beach"
-   ],
-   "first_seen": "2026-10-14T10:16+03:00",
-   "published": "2026-10-14",
-   "verdict": "weak"
-  },
-  {
-   "score": 64.2,
-   "components": {
-    "tier": 40,
-    "category": 8,
-    "lead": 2.4,
-    "relevance": 0,
-    "freshness": 19.8,
-    "undated": -6
-   },
-   "keywords": [],
-   "shock_terms": [],
-   "dedupe_match": null,
-   "dedupe_similarity": 0.11,
-   "id": "44dd34ffe6ce",
-   "title": "ICAO Joins Supporting Alliance for CORSIA EEU Supply IATA announced at its World Sustainability Symposium that the International Civil Aviation Organization (ICAO) has joined the Supporting Alliance for CORSIA EEU Supply (the Alliance). 13.10.2026",
-   "url": "https://www.iata.org/en/pressroom/2026-releases/10-13-icao-joins-supporting-alliance-for-corsia-eeu-supply",
-   "summary": "",
-   "kind": "item",
-   "source": "IATA pressroom",
-   "source_id": "iata-pressroom",
-   "tier": 1,
-   "country": "GLOBAL",
-   "category": "aviation-body",
-   "segments": [
-    "city",
-    "bush",
-    "beach"
-   ],
-   "first_seen": "2026-10-14T11:47+03:00",
-   "published": null,
-   "verdict": "weak"
-  },
-  {
-   "score": 62.5,
-   "components": {
-    "tier": 20,
-    "category": 4,
-    "lead": 2.4,
-    "relevance": 8,
-    "freshness": 18.1,
-    "corroborated": 10
-   },
-   "keywords": [
-    "eta"
-   ],
-   "shock_terms": [],
-   "dedupe_match": null,
-   "dedupe_similarity": 0.14,
-   "id": "21220775275b",
-   "title": "Details Emerge of Pope Leo XIV's Health Condition After Cancer Diagnosis",
-   "url": "https://www.kenyans.co.ke/news/127827-pope-leo-xiv-undergoes-90-minute-surgery-after-cancer-diagnosis",
-   "summary": "Pope Leo XIV's diagnosis, on the other hand, has raised questions about the planned visit to South America in November,",
-   "kind": "item",
-   "source": "Kenyans.co.ke news",
-   "source_id": "ke-kenyans",
-   "tier": 2,
-   "country": "KE",
-   "category": "press",
-   "segments": [
-    "city",
-    "bush",
-    "beach"
-   ],
-   "first_seen": "2026-10-14T10:16+03:00",
-   "published": "2026-10-14",
-   "verdict": "weak"
-  },
-  {
-   "score": 62.5,
-   "components": {
-    "tier": 20,
-    "category": 4,
-    "lead": 2.4,
-    "relevance": 8,
-    "freshness": 18.1,
-    "corroborated": 10
-   },
-   "keywords": [
-    "vat"
-   ],
-   "shock_terms": [],
-   "dedupe_match": null,
-   "dedupe_similarity": 0.0,
-   "id": "9813f1372d65",
-   "title": "Pope Leo diagnosed with cancer as doctors remove lobe of lung, Vatican says",
-   "url": "https://nation.africa/kenya/news/world/pope-leo-diagnosed-with-cancer-as-doctors-remove-lobe-of-lung-vatican-says-5631090",
-   "summary": "The pope was admitted to Rome's Gemelli hospital on Tuesday for surgery to remove a growth on...",
-   "kind": "item",
-   "source": "Nation Africa: Kenya business",
-   "source_id": "ke-nation-business",
-   "tier": 2,
-   "country": "KE",
-   "category": "press",
-   "segments": [
-    "city",
-    "bush",
-    "beach"
-   ],
-   "first_seen": "2026-10-14T10:16+03:00",
-   "published": "2026-10-14",
-   "verdict": "weak"
-  },
-  {
-   "score": 62.5,
-   "components": {
-    "tier": 20,
-    "category": 4,
-    "lead": 2.4,
-    "relevance": 8,
-    "freshness": 18.1,
-    "corroborated": 10
-   },
-   "keywords": [
-    "tax"
-   ],
-   "shock_terms": [],
-   "dedupe_match": null,
-   "dedupe_similarity": 0.14,
-   "id": "b7944dcc534c",
-   "title": "Nile Breweries\u2019 next 75 years depend on more than beer",
-   "url": "https://www.independent.co.ug/nile-breweries-next-75-years-depend-on-more-than-beer",
-   "summary": "As the brewer marks its 75th anniversary, local sourcing, tax policy, illicit alcohol and water efficiency are emerging as key tests of its next phase of growth NEWS ANALYSIS | JULIUS BUSINGE | Uganda\u2019s beer maker, Nile Breweries Limited, is looking to deepen local sourcing, improve water efficiency and address industry taxation and \u2026 The post Nile Breweries\u2019 next 75 years depend on more than beer",
-   "kind": "item",
-   "source": "The Independent (Uganda)",
-   "source_id": "ug-independent",
-   "tier": 2,
-   "country": "UG",
-   "category": "press",
-   "segments": [
-    "city",
-    "bush",
-    "beach"
-   ],
-   "first_seen": "2026-10-14T10:16+03:00",
-   "published": "2026-10-14",
-   "verdict": "weak"
-  },
-  {
-   "score": 62.5,
-   "components": {
-    "tier": 20,
-    "category": 4,
-    "lead": 2.4,
-    "relevance": 8,
-    "freshness": 18.1,
-    "corroborated": 10
-   },
-   "keywords": [
-    "fee"
-   ],
-   "shock_terms": [],
-   "dedupe_match": null,
-   "dedupe_similarity": 0.22,
-   "id": "b567f44d2f07",
-   "title": "NCBA waives digital transaction fees as customers face rising costs",
-   "url": "https://www.independent.co.ug/ncba-waives-digital-transaction-fees-as-customers-face-rising-costs",
-   "summary": "The decision highlights a commercial trade-off facing banks as they expand digital services Kampala, Uganda | JULIUS BUSINGE | NCBA Bank Uganda has waived transaction fees on selected digital banking services until the end of the year, seeking to ease customers\u2019 financial burden while encouraging greater use of its digital platforms. The \u2026 The post NCBA waives digital transaction fees as customers",
-   "kind": "item",
-   "source": "The Independent (Uganda)",
-   "source_id": "ug-independent",
-   "tier": 2,
-   "country": "UG",
-   "category": "press",
-   "segments": [
-    "city",
-    "bush",
-    "beach"
-   ],
-   "first_seen": "2026-10-14T10:16+03:00",
-   "published": "2026-10-14",
-   "verdict": "weak"
-  },
-  {
-   "score": 62.5,
-   "components": {
-    "tier": 20,
-    "category": 4,
-    "lead": 2.4,
-    "relevance": 8,
-    "freshness": 18.1,
     "corroborated": 10
    },
    "keywords": [
@@ -1386,25 +1091,326 @@
    ],
    "shock_terms": [],
    "dedupe_match": null,
-   "dedupe_similarity": 0.14,
-   "id": "ccedc07554e2",
-   "title": "Carrefour champions healthy living at Matooke C2C Marathon",
-   "url": "https://www.independent.co.ug/carrefour-champions-healthy-living-at-matooke-c2c-marathon",
-   "summary": "Kampala, Uganda | THE INDEPENDENT | Carrefour Uganda has reaffirmed its commitment to promoting healthy lifestyles after supporting runners at the Matooke C2C Marathon with drinking water, fresh fruits, glucose and Deep Heat muscle relief. The marathon, held under the theme \u201cRun for Your Life,\u201d attracted hundreds of participants along the Kampala-to-Entebbe route, bringing together \u2026 The post Carr",
+   "dedupe_similarity": 0.0,
+   "id": "10f62428972f",
+   "title": "TUI Netherlands Adds Kilimanjaro Service in NS27",
+   "url": "https://www.aeroroutes.com/eng/261014-orns27jro",
+   "summary": "Published at 0400PDT / 1100GMT 14OCT26 TUI Netherlands during Northern summer 2027 season plans to add service to Kilimanjaro, as the carrier schedules 2 weekly Amsterdam \u2013 Zanzibar \u2013 Kilimanjaro \u2013 Amsterdam routing. Boeing 787-8 to operate this route from 03JUN27. OR193 AMS2025 \u2013 0715+1ZNZ0810+1 \u2013 0910+1JRO1020+1 \u2013 1850+1AMS 788 47",
    "kind": "item",
-   "source": "The Independent (Uganda)",
-   "source_id": "ug-independent",
+   "source": "AeroRoutes schedule filings",
+   "source_id": "aeroroutes",
    "tier": 2,
-   "country": "UG",
-   "category": "press",
+   "country": "GLOBAL",
+   "category": "aviation-tracker",
    "segments": [
     "city",
     "bush",
     "beach"
    ],
-   "first_seen": "2026-10-14T10:16+03:00",
+   "first_seen": "2026-10-14T16:24+03:00",
    "published": "2026-10-14",
-   "verdict": "weak"
+   "verdict": "CONSIDER"
+  },
+  {
+   "score": 80.2,
+   "components": {
+    "tier": 20,
+    "category": 14,
+    "lead": 8.4,
+    "relevance": 8,
+    "freshness": 19.8,
+    "corroborated": 10
+   },
+   "keywords": [
+    "route"
+   ],
+   "shock_terms": [],
+   "dedupe_match": null,
+   "dedupe_similarity": 0.17,
+   "id": "b0f62349d387",
+   "title": "TUI Airways NS27 London Gatwick Network Additions",
+   "url": "https://www.aeroroutes.com/eng/261014-tomns27lgw",
+   "summary": "Published at 0300PDT / 1000GMT 14OCT26 TUI Airways in Northern summer 2027 season schedules new routes to Europe. AeroRoutes \u2019 report last week on 08OCT26 only focused on Spain, while the other new routes are listed below. London Gatwick \u2013 Athens eff 28MAR27 4 weekly 737 MAX 8 London Gatwick \u2013 Djerba eff 03MAY27 2 weekly 737-800/MAX 8 (Last served until October 2015) London Gatwick \u2013 Mytilene eff ",
+   "kind": "item",
+   "source": "AeroRoutes schedule filings",
+   "source_id": "aeroroutes",
+   "tier": 2,
+   "country": "GLOBAL",
+   "category": "aviation-tracker",
+   "segments": [
+    "city",
+    "bush",
+    "beach"
+   ],
+   "first_seen": "2026-10-14T16:24+03:00",
+   "published": "2026-10-14",
+   "verdict": "CONSIDER"
+  },
+  {
+   "score": 80.2,
+   "components": {
+    "tier": 20,
+    "category": 14,
+    "lead": 8.4,
+    "relevance": 8,
+    "freshness": 19.8,
+    "corroborated": 10
+   },
+   "keywords": [
+    "route"
+   ],
+   "shock_terms": [],
+   "dedupe_match": null,
+   "dedupe_similarity": 0.0,
+   "id": "9ca8b24ac79f",
+   "title": "TUIfly NS27 Short-Haul Network Additions \u2013 11OCT26",
+   "url": "https://www.aeroroutes.com/eng/261014-x3ns27",
+   "summary": "Published at 0200PDT / 0900GMT 14OCT26 TUIfly during Northern summer 2027 season plans to add 6 short-haul routes from Dusseldorf and Hannover. Planned network addition overview as follows. Dusseldorf \u2013 Ljubljana eff 04MAY27 3 weekly 737-800 Dusseldorf \u2013 Malaga eff 02MAY27 3 weekly 737-800 (Last served in summer 2022) Dusseldorf \u2013 Naples eff 02MAY27 3 weekly 737-800 (Last served until October 2008",
+   "kind": "item",
+   "source": "AeroRoutes schedule filings",
+   "source_id": "aeroroutes",
+   "tier": 2,
+   "country": "GLOBAL",
+   "category": "aviation-tracker",
+   "segments": [
+    "city",
+    "bush",
+    "beach"
+   ],
+   "first_seen": "2026-10-14T16:24+03:00",
+   "published": "2026-10-14",
+   "verdict": "CONSIDER"
+  },
+  {
+   "score": 80.2,
+   "components": {
+    "tier": 40,
+    "category": 24,
+    "lead": 2.4,
+    "relevance": 0,
+    "freshness": 19.8,
+    "undated": -6
+   },
+   "keywords": [],
+   "shock_terms": [],
+   "dedupe_match": null,
+   "dedupe_similarity": 0.0,
+   "id": "3366e846dcc0",
+   "title": "WIZARA YA AFYA YAWEKA MIKAKATI YA KUIMARISHA UHAMASISHAJ...",
+   "url": "https://www.moh.go.tz/news-single/wizara-ya-afya-yaweka-mikakati-ya-kuimarisha-uhamasishaji-wa-bima-ya-afya-kwa-wote",
+   "summary": "",
+   "kind": "item",
+   "source": "Tanzania Ministry of Health",
+   "source_id": "tz-moh",
+   "tier": 1,
+   "country": "TZ",
+   "category": "health",
+   "segments": [
+    "city",
+    "bush",
+    "beach"
+   ],
+   "first_seen": "2026-10-14T16:24+03:00",
+   "published": null,
+   "verdict": "CONSIDER"
+  },
+  {
+   "score": 80.2,
+   "components": {
+    "tier": 40,
+    "category": 24,
+    "lead": 2.4,
+    "relevance": 0,
+    "freshness": 19.8,
+    "undated": -6
+   },
+   "keywords": [],
+   "shock_terms": [],
+   "dedupe_match": null,
+   "dedupe_similarity": 0.0,
+   "id": "248526dacbb4",
+   "title": "MHE. CHALAMILA: SEKTA YA AFYA IPEWE KIPAUMBELE KWA U...",
+   "url": "https://www.moh.go.tz/news-single/mhe-chalamila-sekta-ya-afya-ipewe-kipaumbele-kwa-usalama-na-maendeleo-ya-taifa",
+   "summary": "",
+   "kind": "item",
+   "source": "Tanzania Ministry of Health",
+   "source_id": "tz-moh",
+   "tier": 1,
+   "country": "TZ",
+   "category": "health",
+   "segments": [
+    "city",
+    "bush",
+    "beach"
+   ],
+   "first_seen": "2026-10-14T16:24+03:00",
+   "published": null,
+   "verdict": "CONSIDER"
+  },
+  {
+   "score": 80.2,
+   "components": {
+    "tier": 40,
+    "category": 24,
+    "lead": 2.4,
+    "relevance": 0,
+    "freshness": 19.8,
+    "undated": -6
+   },
+   "keywords": [],
+   "shock_terms": [],
+   "dedupe_match": null,
+   "dedupe_similarity": 0.0,
+   "id": "ffa8fa542716",
+   "title": "DKT. MAGEMBE: JAMBO UKILIKABIZI KWA WAKUU WA MIKOA H...",
+   "url": "https://www.moh.go.tz/news-single/dkt-magembe-jambo-ukilikabizi-kwa-wakuu-wa-mikoa-halitakwama",
+   "summary": "",
+   "kind": "item",
+   "source": "Tanzania Ministry of Health",
+   "source_id": "tz-moh",
+   "tier": 1,
+   "country": "TZ",
+   "category": "health",
+   "segments": [
+    "city",
+    "bush",
+    "beach"
+   ],
+   "first_seen": "2026-10-14T16:24+03:00",
+   "published": null,
+   "verdict": "CONSIDER"
+  },
+  {
+   "score": 80.2,
+   "components": {
+    "tier": 40,
+    "category": 24,
+    "lead": 2.4,
+    "relevance": 0,
+    "freshness": 19.8,
+    "undated": -6
+   },
+   "keywords": [],
+   "shock_terms": [],
+   "dedupe_match": null,
+   "dedupe_similarity": 0.0,
+   "id": "8882c7bd329f",
+   "title": "PROF. SUNGUYA: AZITAKA NCHI ZA AFRIKA KUWEKA MIKAKAT...",
+   "url": "https://www.moh.go.tz/news-single/prof-sunguya-azitaka-nchi-za-afrika-kuweka-mikakati-ya-kutokomeza-vifo-vya-wajawazito",
+   "summary": "",
+   "kind": "item",
+   "source": "Tanzania Ministry of Health",
+   "source_id": "tz-moh",
+   "tier": 1,
+   "country": "TZ",
+   "category": "health",
+   "segments": [
+    "city",
+    "bush",
+    "beach"
+   ],
+   "first_seen": "2026-10-14T16:24+03:00",
+   "published": null,
+   "verdict": "CONSIDER"
+  },
+  {
+   "score": 80.2,
+   "components": {
+    "tier": 40,
+    "category": 24,
+    "lead": 2.4,
+    "relevance": 0,
+    "freshness": 19.8,
+    "undated": -6
+   },
+   "keywords": [],
+   "shock_terms": [],
+   "dedupe_match": null,
+   "dedupe_similarity": 0.0,
+   "id": "3c3151db6a42",
+   "title": "KIONGOZI BORA ANAONGOZA KIMKAKATI NA KUANDAA VIONGOZ...",
+   "url": "https://www.moh.go.tz/news-single/kiongozi-bora-anaongoza-kimkakati-na-kuandaa-viongozi-wa-baadaye",
+   "summary": "",
+   "kind": "item",
+   "source": "Tanzania Ministry of Health",
+   "source_id": "tz-moh",
+   "tier": 1,
+   "country": "TZ",
+   "category": "health",
+   "segments": [
+    "city",
+    "bush",
+    "beach"
+   ],
+   "first_seen": "2026-10-14T16:24+03:00",
+   "published": null,
+   "verdict": "CONSIDER"
+  },
+  {
+   "score": 80.2,
+   "components": {
+    "tier": 40,
+    "category": 24,
+    "lead": 2.4,
+    "relevance": 0,
+    "freshness": 19.8,
+    "undated": -6
+   },
+   "keywords": [],
+   "shock_terms": [],
+   "dedupe_match": null,
+   "dedupe_similarity": 0.0,
+   "id": "2a2b80e7ddbb",
+   "title": "MAFUNZO YA TAFAKURI YAIMARISHA UONGOZI WA KIMKAKATI ...",
+   "url": "https://www.moh.go.tz/news-single/mafunzo-ya-tafakuri-yaimarisha-uongozi-wa-kimkakati-wizara-ya-afya",
+   "summary": "",
+   "kind": "item",
+   "source": "Tanzania Ministry of Health",
+   "source_id": "tz-moh",
+   "tier": 1,
+   "country": "TZ",
+   "category": "health",
+   "segments": [
+    "city",
+    "bush",
+    "beach"
+   ],
+   "first_seen": "2026-10-14T16:24+03:00",
+   "published": null,
+   "verdict": "CONSIDER"
+  },
+  {
+   "score": 80.2,
+   "components": {
+    "tier": 40,
+    "category": 24,
+    "lead": 2.4,
+    "relevance": 0,
+    "freshness": 19.8,
+    "undated": -6
+   },
+   "keywords": [],
+   "shock_terms": [],
+   "dedupe_match": null,
+   "dedupe_similarity": 0.0,
+   "id": "2138157a8ba3",
+   "title": "UONGOZI SIO KUJIFUNGIA OFISINI, NI KUSHIRIKIANA NA W...",
+   "url": "https://www.moh.go.tz/news-single/uongozi-sio-kujifungia-ofisini-ni-kushirikiana-na-watu-dkt-magembe",
+   "summary": "",
+   "kind": "item",
+   "source": "Tanzania Ministry of Health",
+   "source_id": "tz-moh",
+   "tier": 1,
+   "country": "TZ",
+   "category": "health",
+   "segments": [
+    "city",
+    "bush",
+    "beach"
+   ],
+   "first_seen": "2026-10-14T16:24+03:00",
+   "published": null,
+   "verdict": "CONSIDER"
   }
  ]
 }
