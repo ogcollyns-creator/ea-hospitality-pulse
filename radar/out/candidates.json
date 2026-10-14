@@ -1,53 +1,18 @@
 {
- "generated": "2026-10-13T23:44:24+03:00",
- "slot": "evening",
- "window_start": 1791806400,
- "observations_in_window": 1306,
- "deduped_against": 28,
+ "generated": "2026-10-14T03:57:37+03:00",
+ "slot": "morning",
+ "window_start": 1791903600,
+ "observations_in_window": 472,
+ "deduped_against": 26,
  "candidates": [
   {
-   "score": 85.5,
-   "components": {
-    "tier": 40,
-    "category": 32,
-    "lead": 12.0,
-    "relevance": 8,
-    "freshness": 3.5,
-    "undated": -6,
-    "page_change": -4
-   },
-   "keywords": [
-    "fee"
-   ],
-   "shock_terms": [],
-   "dedupe_match": null,
-   "dedupe_similarity": 0.11,
-   "id": "8423a51f9936",
-   "title": "[page changed] Federal Register \u2014 CDC notices",
-   "url": "https://www.federalregister.gov/api/v1/documents.rss?conditions%5Bagencies%5D%5B%5D=centers-for-disease-control-and-prevention&order=newest",
-   "summary": "Federal Register Documents published on or after 09/13/2026 and from Centers for Disease Control and Prevention https://www.federalregister.gov/api/v1/documents.rss?conditions%5Bagencies%5D%5B%5D=centers-for-disease-control-and-prevention&order=newest Thu, 08 Oct 2026 04:00:00 GMT The documents in this feed originate from FederalRegister.gov which displays an unofficial web version of the daily Fe",
-   "kind": "page-change",
-   "source": "Federal Register \u2014 CDC notices",
-   "source_id": "us-fedreg-cdc",
-   "tier": 1,
-   "country": "REG",
-   "category": "advisory",
-   "segments": [
-    "city",
-    "bush"
-   ],
-   "first_seen": "2026-10-13T08:54+03:00",
-   "published": null,
-   "verdict": "OPEN THIS \u2014 tier-1 advisory page moved; content not auto-parsed, read it manually"
-  },
-  {
-   "score": 64.7,
+   "score": 60.1,
    "components": {
     "tier": 40,
     "category": 12,
     "lead": 3.6,
     "relevance": 0,
-    "freshness": 19.1,
+    "freshness": 14.5,
     "undated": -6,
     "page_change": -4
    },
@@ -75,47 +40,13 @@
    "verdict": "OPEN THIS \u2014 tier-1 airline page moved; content not auto-parsed, read it manually"
   },
   {
-   "score": 49.1,
-   "components": {
-    "tier": 40,
-    "category": 12,
-    "lead": 3.6,
-    "relevance": 0,
-    "freshness": 3.5,
-    "undated": -6,
-    "page_change": -4
-   },
-   "keywords": [],
-   "shock_terms": [],
-   "dedupe_match": null,
-   "dedupe_similarity": 0.0,
-   "id": "e81e8621b88f",
-   "title": "[page changed] Airlink news",
-   "url": "https://www.flyairlink.com/",
-   "summary": "Request unsuccessful. Incapsula incident ID: 177000340189574375-147618038860023980",
-   "kind": "page-change",
-   "source": "Airlink news",
-   "source_id": "air-airlink",
-   "tier": 1,
-   "country": "REG",
-   "category": "airline",
-   "segments": [
-    "city",
-    "bush",
-    "beach"
-   ],
-   "first_seen": "2026-10-13T08:54+03:00",
-   "published": null,
-   "verdict": "OPEN THIS \u2014 tier-1 airline page moved; content not auto-parsed, read it manually"
-  },
-  {
-   "score": 108.1,
+   "score": 103.4,
    "components": {
     "tier": 40,
     "category": 18,
     "lead": 8.4,
     "relevance": 16,
-    "freshness": 15.7,
+    "freshness": 11.0,
     "corroborated": 10
    },
    "keywords": [
@@ -143,13 +74,13 @@
    "verdict": "STRONG \u2014 tier-1, upstream"
   },
   {
-   "score": 107.6,
+   "score": 102.9,
    "components": {
     "tier": 20,
     "category": 14,
     "lead": 8.4,
     "relevance": 36,
-    "freshness": 19.2,
+    "freshness": 14.5,
     "corroborated": 10
    },
    "keywords": [
@@ -182,13 +113,52 @@
    "verdict": "CONSIDER"
   },
   {
-   "score": 104.1,
+   "score": 100.2,
+   "components": {
+    "tier": 20,
+    "category": 14,
+    "lead": 8.4,
+    "relevance": 28,
+    "freshness": 19.8,
+    "corroborated": 10
+   },
+   "keywords": [
+    "vat",
+    "route",
+    "airline",
+    "flight",
+    "booking"
+   ],
+   "shock_terms": [],
+   "dedupe_match": null,
+   "dedupe_similarity": 0.11,
+   "id": "dd4f7a049f4d",
+   "title": "Arkia Closes Tel Aviv \u2013 Tokyo Bookings From Oct 2026",
+   "url": "https://www.aeroroutes.com/eng/261013-iznw26nrt",
+   "summary": "Published at 1600PDT / 2300GMT 13OCT26 Arkia \u2013 Israeli Airlines as of Tuesday 13OCT26 filed additional changes to its planned Tel Aviv \u2013 Tokyo Narita route, due to regulatory approval issue on wet-lease aircraft operation, the airline has closed reservations for all flights on/after 25OCT26. Updated schedule filing shows 1 weekly flight from 08NOV26 \u2013 20DEC26 and effective 28MAR27, reservations ar",
+   "kind": "item",
+   "source": "AeroRoutes schedule filings",
+   "source_id": "aeroroutes",
+   "tier": 2,
+   "country": "GLOBAL",
+   "category": "aviation-tracker",
+   "segments": [
+    "city",
+    "bush",
+    "beach"
+   ],
+   "first_seen": "2026-10-14T03:56+03:00",
+   "published": "2026-10-14",
+   "verdict": "CONSIDER"
+  },
+  {
+   "score": 99.4,
    "components": {
     "tier": 20,
     "category": 14,
     "lead": 8.4,
     "relevance": 36,
-    "freshness": 15.7,
+    "freshness": 11.0,
     "corroborated": 10
    },
    "keywords": [
@@ -221,48 +191,126 @@
    "verdict": "CONSIDER"
   },
   {
-   "score": 101.2,
+   "score": 98.2,
    "components": {
-    "tier": 40,
-    "category": 18,
-    "lead": 8.4,
-    "relevance": 16,
-    "freshness": 8.8,
-    "corroborated": 10
+    "tier": 20,
+    "category": 4,
+    "lead": 2.4,
+    "relevance": 24,
+    "freshness": 19.8,
+    "corroborated": 10,
+    "shock": 18
    },
    "keywords": [
-    "wildlife",
-    "hotel",
-    "safari"
+    "outbreak",
+    "ebola"
    ],
-   "shock_terms": [],
+   "shock_terms": [
+    "outbreak"
+   ],
    "dedupe_match": null,
-   "dedupe_similarity": 0.2,
-   "id": "43017243f0ca",
-   "title": "Strengthening Justice to Protect Kenya\u2019s Wildlife",
-   "url": "https://kws.go.ke/strengthening-justice-to-protect-kenyas-wildlife",
-   "summary": "Protecting Kenya's wildlife requires more than just field enforcement; it demands a justice system that holds offenders accountable from the arrest to the sentencing. Today, Kenya Wildlife Service (KWS) Director General Prof. Erustus Kanga attended the National Council on the Administration of Justice (NCAJ) Members' Council meeting at Safari Park Hotel, following KWS's official inclusion [...]",
+   "dedupe_similarity": 0.12,
+   "id": "2016657d42af",
+   "title": "Ebola disrupting education for 1.8 million children in eastern DRC",
+   "url": "https://www.independent.co.ug/ebola-disrupting-education-for-1-8-million-children-in-eastern-drc",
+   "summary": "Kinshasa, DRC | URN | Hundreds of thousands of children in the eastern Democratic Republic of Congo (DRC) are facing major disruptions to their education as the country battles its largest and deadliest Ebola outbreak, the Norwegian Refugee Council (NRC) has warned. The humanitarian organisation said fear of Ebola, inadequate infection prevention and control measures, \u2026 The post Ebola disrupting e",
    "kind": "item",
-   "source": "Kenya Wildlife Service",
-   "source_id": "ke-kws",
-   "tier": 1,
-   "country": "KE",
-   "category": "parks",
+   "source": "The Independent (Uganda)",
+   "source_id": "ug-independent",
+   "tier": 2,
+   "country": "UG",
+   "category": "press",
    "segments": [
-    "bush"
+    "city",
+    "bush",
+    "beach"
    ],
-   "first_seen": "2026-10-13T13:42+03:00",
-   "published": "2026-10-12",
-   "verdict": "STRONG \u2014 tier-1, upstream"
+   "first_seen": "2026-10-14T03:56+03:00",
+   "published": "2026-10-13",
+   "verdict": "CONSIDER"
   },
   {
-   "score": 95.6,
+   "score": 96.2,
    "components": {
     "tier": 20,
     "category": 14,
     "lead": 8.4,
     "relevance": 24,
-    "freshness": 19.2,
+    "freshness": 19.8,
+    "corroborated": 10
+   },
+   "keywords": [
+    "cancel",
+    "route",
+    "franc"
+   ],
+   "shock_terms": [],
+   "dedupe_match": null,
+   "dedupe_similarity": 0.11,
+   "id": "214cd089bc11",
+   "title": "Air India Cancels Additional European Routes From Nov 2026",
+   "url": "https://www.aeroroutes.com/eng/261013-ainw26eu",
+   "summary": "Published at 1701PDT 13OCT26 / 0001GMT 14OCT26 Air India in the last few days filed additional network changes, as the carrier cancels 2 additional European routes. Delhi \u2013 Birmingham 3 weekly 777-300ER cancelled from 04NOV26 Delhi \u2013 Vienna 4 weekly 787-8 cancelled from 01NOV26 (Vienna will continue to be served as technical stop on selected service to Toronto, from San Francisco and Vancouver) Pr",
+   "kind": "item",
+   "source": "AeroRoutes schedule filings",
+   "source_id": "aeroroutes",
+   "tier": 2,
+   "country": "GLOBAL",
+   "category": "aviation-tracker",
+   "segments": [
+    "city",
+    "bush",
+    "beach"
+   ],
+   "first_seen": "2026-10-14T03:56+03:00",
+   "published": "2026-10-14",
+   "verdict": "CONSIDER"
+  },
+  {
+   "score": 92.2,
+   "components": {
+    "tier": 20,
+    "category": 14,
+    "lead": 8.4,
+    "relevance": 20,
+    "freshness": 19.8,
+    "corroborated": 10
+   },
+   "keywords": [
+    "route",
+    "charter",
+    "flight"
+   ],
+   "shock_terms": [],
+   "dedupe_match": null,
+   "dedupe_similarity": 0.11,
+   "id": "3df7a28d54db",
+   "title": "SkyAlps Nov 2026 Bolzano \u2013 Palma de Mallorca Charter",
+   "url": "https://www.aeroroutes.com/eng/261013-bqnov26pmi",
+   "summary": "Published at 1500PDT / 2200GMT 13OCT26 SkyAlps in November 2026 plans one-time charter flight on Bolzano \u2013 Palma de Mallorca route, on board Dash 8-Q400 aircraft. The one-time flight departs Bolzano on 20NOV26, Palma de Mallorca on 22NOV26. BQ2301 BZO0800 \u2013 1000PMI DH4 20NOV26 BQ2302 PMI2000 \u2013 2200BZO DH4 22NOV26",
+   "kind": "item",
+   "source": "AeroRoutes schedule filings",
+   "source_id": "aeroroutes",
+   "tier": 2,
+   "country": "GLOBAL",
+   "category": "aviation-tracker",
+   "segments": [
+    "city",
+    "bush",
+    "beach"
+   ],
+   "first_seen": "2026-10-14T03:56+03:00",
+   "published": "2026-10-14",
+   "verdict": "CONSIDER"
+  },
+  {
+   "score": 90.9,
+   "components": {
+    "tier": 20,
+    "category": 14,
+    "lead": 8.4,
+    "relevance": 24,
+    "freshness": 14.5,
     "corroborated": 10
    },
    "keywords": [
@@ -294,13 +342,51 @@
    "verdict": "CONSIDER"
   },
   {
-   "score": 92.3,
+   "score": 88.2,
+   "components": {
+    "tier": 20,
+    "category": 4,
+    "lead": 2.4,
+    "relevance": 32,
+    "freshness": 19.8,
+    "corroborated": 10
+   },
+   "keywords": [
+    "ebola",
+    "suspend",
+    "tourism",
+    "booking"
+   ],
+   "shock_terms": [],
+   "dedupe_match": null,
+   "dedupe_similarity": 0.22,
+   "id": "9070916bb85b",
+   "title": "Cruise ships firm suspends boarding of Kenyan crew over Ebola fears",
+   "url": "https://nation.africa/kenya/news/cruise-ships-firm-suspends-boarding-of-kenyan-crew-over-ebola-fears-5630952",
+   "summary": "Tourism players warn tougher travel advisories could hurt bookings.",
+   "kind": "item",
+   "source": "Nation Africa: Kenya business",
+   "source_id": "ke-nation-business",
+   "tier": 2,
+   "country": "KE",
+   "category": "press",
+   "segments": [
+    "city",
+    "bush",
+    "beach"
+   ],
+   "first_seen": "2026-10-14T03:56+03:00",
+   "published": "2026-10-13",
+   "verdict": "CONSIDER"
+  },
+  {
+   "score": 87.6,
    "components": {
     "tier": 20,
     "category": 9,
     "lead": 3.6,
     "relevance": 16,
-    "freshness": 15.7,
+    "freshness": 11.0,
     "corroborated": 10,
     "shock": 18
    },
@@ -332,13 +418,13 @@
    "verdict": "CONSIDER"
   },
   {
-   "score": 92.1,
+   "score": 87.4,
    "components": {
     "tier": 20,
     "category": 14,
     "lead": 8.4,
     "relevance": 24,
-    "freshness": 15.7,
+    "freshness": 11.0,
     "corroborated": 10
    },
    "keywords": [
@@ -370,13 +456,13 @@
    "verdict": "CONSIDER"
   },
   {
-   "score": 92.1,
+   "score": 87.4,
    "components": {
     "tier": 40,
     "category": 18,
     "lead": 8.4,
     "relevance": 0,
-    "freshness": 15.7,
+    "freshness": 11.0,
     "corroborated": 10
    },
    "keywords": [],
@@ -398,16 +484,16 @@
    ],
    "first_seen": "2026-10-13T19:58+03:00",
    "published": "2026-10-13",
-   "verdict": "STRONG \u2014 tier-1, upstream"
+   "verdict": "CONSIDER"
   },
   {
-   "score": 88.1,
+   "score": 83.4,
    "components": {
     "tier": 20,
     "category": 14,
     "lead": 8.4,
     "relevance": 20,
-    "freshness": 15.7,
+    "freshness": 11.0,
     "corroborated": 10
    },
    "keywords": [
@@ -437,13 +523,13 @@
    "verdict": "CONSIDER"
   },
   {
-   "score": 87.6,
+   "score": 82.9,
    "components": {
     "tier": 20,
     "category": 14,
     "lead": 8.4,
     "relevance": 16,
-    "freshness": 19.2,
+    "freshness": 14.5,
     "corroborated": 10
    },
    "keywords": [
@@ -474,13 +560,13 @@
    "verdict": "CONSIDER"
   },
   {
-   "score": 87.2,
+   "score": 82.5,
    "components": {
     "tier": 20,
     "category": 4,
     "lead": 0.0,
     "relevance": 16,
-    "freshness": 19.2,
+    "freshness": 14.5,
     "corroborated": 10,
     "shock": 18
    },
@@ -513,13 +599,46 @@
    "verdict": "CONSIDER"
   },
   {
-   "score": 85.8,
+   "score": 81.4,
+   "components": {
+    "tier": 40,
+    "category": 32,
+    "lead": 3.6,
+    "relevance": 0,
+    "freshness": 19.8,
+    "stale_trap": -10,
+    "page_change": -4
+   },
+   "keywords": [],
+   "shock_terms": [],
+   "dedupe_match": null,
+   "dedupe_similarity": 0.22,
+   "id": "012903f00459",
+   "title": "[page changed] Federal Register \u2014 public inspection (HHS/CDC), pre-publication",
+   "url": "https://www.federalregister.gov/api/v1/public-inspection-documents/current.json",
+   "summary": "{\"count\":127,\"results\":[{\"agencies\":[{\"raw_name\":\"Industry and Security Bureau\",\"name\":\"Industry and Security Bureau\",\"id\":241,\"url\":\"https://www.federalregister.gov/agencies/industry-and-security-bureau\",\"json_url\":\"https://www.federalregister.gov/api/v1/agencies/241\",\"parent_id\":54,\"slug\":\"industry-and-security-bureau\"}],\"agency_letters\":[],\"agency_names\":[\"Industry and Security Bureau\"],\"docket",
+   "kind": "page-change",
+   "source": "Federal Register \u2014 public inspection (HHS/CDC), pre-publication",
+   "source_id": "us-fedreg-pubinspect-hhs",
+   "tier": 1,
+   "country": "REG",
+   "category": "advisory",
+   "segments": [
+    "city",
+    "bush"
+   ],
+   "first_seen": "2026-10-14T03:56+03:00",
+   "published": "2026-10-09",
+   "verdict": "CHECK \u2014 source date older than the window"
+  },
+  {
+   "score": 81.1,
    "components": {
     "tier": 20,
     "category": 5,
     "lead": 3.6,
     "relevance": 28,
-    "freshness": 19.2,
+    "freshness": 14.5,
     "corroborated": 10
    },
    "keywords": [
@@ -552,164 +671,13 @@
    "verdict": "CONSIDER"
   },
   {
-   "score": 85.2,
-   "components": {
-    "tier": 20,
-    "category": 14,
-    "lead": 8.4,
-    "relevance": 24,
-    "freshness": 8.8,
-    "corroborated": 10
-   },
-   "keywords": [
-    "cancel",
-    "route",
-    "flight"
-   ],
-   "shock_terms": [],
-   "dedupe_match": null,
-   "dedupe_similarity": 0.09,
-   "id": "1559a48e281e",
-   "title": "Delta NS27 Atlanta \u2013 Athens Service Changes",
-   "url": "https://www.aeroroutes.com/eng/261013-dlns27ath",
-   "summary": "Published at 0100PDT / 0800GMT 13OCT26 Delta in recent schedule update cancelled planned seasonal service increase on Atlanta \u2013 Athens route for Northern summer 2027 season. The seasonal 3 weekly from 05MAY27 is now scheduled with Airbus A350-900 instead of A330-900neo, while planned increase to 6 weekly from 06JUN27 is no longer in effect. The Skyteam member will operate 10 weekly flights on this",
-   "kind": "item",
-   "source": "AeroRoutes schedule filings",
-   "source_id": "aeroroutes",
-   "tier": 2,
-   "country": "GLOBAL",
-   "category": "aviation-tracker",
-   "segments": [
-    "city",
-    "bush",
-    "beach"
-   ],
-   "first_seen": "2026-10-13T13:43+03:00",
-   "published": "2026-10-13",
-   "verdict": "CONSIDER"
-  },
-  {
-   "score": 82.2,
-   "components": {
-    "tier": 20,
-    "category": 5,
-    "lead": 1.2,
-    "relevance": 28,
-    "freshness": 0.0,
-    "corroborated": 10,
-    "shock": 18
-   },
-   "keywords": [
-    "terror",
-    "airport",
-    "strike"
-   ],
-   "shock_terms": [
-    "attack",
-    "strike"
-   ],
-   "dedupe_match": null,
-   "dedupe_similarity": 0.14,
-   "id": "6c961bf7c42d",
-   "title": "Saudi Arabia\u2019s Aviation Ambitions Meet a Week of Terror",
-   "url": "https://skift.com/2026/10/12/saudi-arabias-aviation-ambitions-meet-a-week-of-terror",
-   "summary": "A single airport incident would have been troubling. A succession of strikes over just one week, including repeated attacks on the capital, presents an extraordinary challenge for the Saudi travel industry.",
-   "kind": "item",
-   "source": "Skift",
-   "source_id": "tp-skift",
-   "tier": 2,
-   "country": "GLOBAL",
-   "category": "trade",
-   "segments": [
-    "city",
-    "bush",
-    "beach"
-   ],
-   "first_seen": "2026-10-12T17:42+03:00",
-   "published": "2026-10-12",
-   "verdict": "CONSIDER"
-  },
-  {
-   "score": 81.3,
-   "components": {
-    "tier": 40,
-    "category": 15,
-    "lead": 16.8,
-    "relevance": 12,
-    "freshness": 3.5,
-    "undated": -6
-   },
-   "keywords": [
-    "tax",
-    "conference"
-   ],
-   "shock_terms": [],
-   "dedupe_match": null,
-   "dedupe_similarity": 0.22,
-   "id": "69748527238f",
-   "title": "CATA PRESIDENT CONGRATULATES TANZANIA AND TRA ON SUCCESSFUL HOSTING OF 46TH CATA ANNUAL CONFERENCE 08 October, 2026 The President of the Commonwealth Association of Tax Administrators (CATA), Dr. Abu Tariq Jamaluddin, has\u2026 -->",
-   "url": "https://www.tra.go.tz/news/cata-president-congratulates-tanzania-and-tra-for-successful-hosting-of-46th-annual-conference",
-   "summary": "",
-   "kind": "item",
-   "source": "Tanzania Revenue Authority",
-   "source_id": "tz-tra",
-   "tier": 1,
-   "country": "TZ",
-   "category": "fiscal",
-   "segments": [
-    "city",
-    "bush",
-    "beach"
-   ],
-   "first_seen": "2026-10-13T08:54+03:00",
-   "published": null,
-   "verdict": "CONSIDER"
-  },
-  {
-   "score": 81.2,
-   "components": {
-    "tier": 20,
-    "category": 14,
-    "lead": 8.4,
-    "relevance": 20,
-    "freshness": 8.8,
-    "corroborated": 10
-   },
-   "keywords": [
-    "adr",
-    "route",
-    "flight"
-   ],
-   "shock_terms": [],
-   "dedupe_match": null,
-   "dedupe_similarity": 0.11,
-   "id": "fbbe113e628f",
-   "title": "Air Serbia NW26 Leased A220 Operations \u2013 11OCT26",
-   "url": "https://www.aeroroutes.com/eng/261013-junw26220",
-   "summary": "Published at 0300PDT / 1000GMT 13OCT26 Air Serbia during Northern winter 2026/27 season continues to offer flights operated by airBaltic Airbus A220-300 aircraft. As of 11OCT26, planned operational routes between 25OCT26 and 27MAR27 include the following, excluding one-time flight. Belgrade \u2013 Amsterdam Belgrade \u2013 Athens Belgrade \u2013 Barcelona Belgrade \u2013 Istanbul Belgrade \u2013 Lisbon Belgrade \u2013 Madrid B",
-   "kind": "item",
-   "source": "AeroRoutes schedule filings",
-   "source_id": "aeroroutes",
-   "tier": 2,
-   "country": "GLOBAL",
-   "category": "aviation-tracker",
-   "segments": [
-    "city",
-    "bush",
-    "beach"
-   ],
-   "first_seen": "2026-10-13T13:43+03:00",
-   "published": "2026-10-13",
-   "verdict": "CONSIDER"
-  },
-  {
-   "score": 81.1,
+   "score": 76.4,
    "components": {
     "tier": 20,
     "category": 5,
     "lead": 2.4,
     "relevance": 28,
-    "freshness": 15.7,
+    "freshness": 11.0,
     "corroborated": 10
    },
    "keywords": [
@@ -742,13 +710,48 @@
    "verdict": "CONSIDER"
   },
   {
-   "score": 80.7,
+   "score": 76.2,
+   "components": {
+    "tier": 20,
+    "category": 14,
+    "lead": 8.4,
+    "relevance": 4,
+    "freshness": 19.8,
+    "corroborated": 10
+   },
+   "keywords": [
+    "flight"
+   ],
+   "shock_terms": [],
+   "dedupe_match": null,
+   "dedupe_similarity": 0.11,
+   "id": "20ed11ebdf19",
+   "title": "Israir mid-Oct 2026 Valencia \u2013 Tel Aviv Flight",
+   "url": "https://www.aeroroutes.com/eng/261013-6hoct26vlc",
+   "summary": "Published at 1400PDT / 2100GMT 13OCT26 Israir this week schedules one-time Valencia \u2013 Tel Aviv flight, based on schedule filing. The schedule filing lists Airbus A320 aircraft departing on 16OCT26 with following schedule. 6H186 VLC0100 \u2013 0655TLV 320 5",
+   "kind": "item",
+   "source": "AeroRoutes schedule filings",
+   "source_id": "aeroroutes",
+   "tier": 2,
+   "country": "GLOBAL",
+   "category": "aviation-tracker",
+   "segments": [
+    "city",
+    "bush",
+    "beach"
+   ],
+   "first_seen": "2026-10-14T03:56+03:00",
+   "published": "2026-10-14",
+   "verdict": "CONSIDER"
+  },
+  {
+   "score": 76.1,
    "components": {
     "tier": 40,
     "category": 32,
     "lead": 3.6,
     "relevance": 0,
-    "freshness": 19.1,
+    "freshness": 14.5,
     "stale_trap": -10,
     "page_change": -4
    },
@@ -775,51 +778,13 @@
    "verdict": "CHECK \u2014 source date older than the window"
   },
   {
-   "score": 80.4,
-   "components": {
-    "tier": 20,
-    "category": 14,
-    "lead": 8.4,
-    "relevance": 28,
-    "freshness": 0.0,
-    "corroborated": 10
-   },
-   "keywords": [
-    "vat",
-    "route",
-    "frequency",
-    "flight"
-   ],
-   "shock_terms": [],
-   "dedupe_match": null,
-   "dedupe_similarity": 0.11,
-   "id": "2b886a8417b9",
-   "title": "Saudia Further Expands Manchester Service in NW26",
-   "url": "https://www.aeroroutes.com/eng/261012-svnw26man",
-   "summary": "Published at 1200PDT / 1900GMT 12OCT26 Saudia in recent schedule update filed additional frequency expansion on Jeddah \u2013 Manchester route, which was not highlighted in previous AeroRoutes \u2019 update. The Skyteam member plans to increase service from 7 to 10 weekly from 01NOV26, and will further expand to 13 weekly from 03DEC26, 14 from 02JAN27. Additional flights are available for reservations. SV12",
-   "kind": "item",
-   "source": "AeroRoutes schedule filings",
-   "source_id": "aeroroutes",
-   "tier": 2,
-   "country": "GLOBAL",
-   "category": "aviation-tracker",
-   "segments": [
-    "city",
-    "bush",
-    "beach"
-   ],
-   "first_seen": "2026-10-12T22:05+03:00",
-   "published": "2026-10-12",
-   "verdict": "CONSIDER"
-  },
-  {
-   "score": 79.9,
+   "score": 75.3,
    "components": {
     "tier": 40,
     "category": 10,
     "lead": 16.8,
     "relevance": 0,
-    "freshness": 19.1,
+    "freshness": 14.5,
     "undated": -6
    },
    "keywords": [],
@@ -846,13 +811,13 @@
    "verdict": "CONSIDER"
   },
   {
-   "score": 79.9,
+   "score": 75.3,
    "components": {
     "tier": 40,
     "category": 10,
     "lead": 16.8,
     "relevance": 0,
-    "freshness": 19.1,
+    "freshness": 14.5,
     "undated": -6
    },
    "keywords": [],
@@ -879,19 +844,19 @@
    "verdict": "CONSIDER"
   },
   {
-   "score": 79.9,
+   "score": 75.3,
    "components": {
     "tier": 40,
     "category": 10,
     "lead": 16.8,
     "relevance": 0,
-    "freshness": 19.1,
+    "freshness": 14.5,
     "undated": -6
    },
    "keywords": [],
    "shock_terms": [],
    "dedupe_match": null,
-   "dedupe_similarity": 0.14,
+   "dedupe_similarity": 0.12,
    "id": "8085128136e2",
    "title": "Mbarara Cancer Centre to reduce congestion at Mulago - Ayume Tuesday, 13 October 2026",
    "url": "https://www.parliament.go.ug/news/4659/mbarara-cancer-centre-reduce-congestion-mulago-ayume",
@@ -912,19 +877,19 @@
    "verdict": "CONSIDER"
   },
   {
-   "score": 79.9,
+   "score": 75.3,
    "components": {
     "tier": 40,
     "category": 10,
     "lead": 16.8,
     "relevance": 0,
-    "freshness": 19.1,
+    "freshness": 14.5,
     "undated": -6
    },
    "keywords": [],
    "shock_terms": [],
    "dedupe_match": null,
-   "dedupe_similarity": 0.14,
+   "dedupe_similarity": 0.12,
    "id": "9e7adf04bacc",
    "title": "Police not involved in procurement of digital number plates - Otafiire Tuesday, 13 October 2026",
    "url": "https://www.parliament.go.ug/news/4658/police-not-involved-procurement-digital-number-plates-otafiire",
@@ -945,84 +910,13 @@
    "verdict": "CONSIDER"
   },
   {
-   "score": 79.9,
-   "components": {
-    "tier": 20,
-    "category": 14,
-    "lead": 8.4,
-    "relevance": 24,
-    "freshness": 3.5,
-    "corroborated": 10
-   },
-   "keywords": [
-    "vat",
-    "route",
-    "airline",
-    "flight"
-   ],
-   "shock_terms": [],
-   "dedupe_match": null,
-   "dedupe_similarity": 0.09,
-   "id": "5dd6ec0b90fe",
-   "title": "Delta Moves Atlanta \u2013 Riyadh Launch to March 2027",
-   "url": "https://www.aeroroutes.com/eng/261012-dlns27ruh",
-   "summary": "Published at 1701PDT 12OCT26 / 0001GMT 13OCT26 Delta on Monday 12OCT26 filed service changes for Atlanta \u2013 Riyadh route. Previously scheduled to commence on 23OCT26, the airline will now launch this route on 27MAR27 at the earliest, as reservations for winter season are no longer available. Upon revised service launch on 27MAR27, the Skyteam member operates 3 weekly flights with following schedule",
-   "kind": "item",
-   "source": "AeroRoutes schedule filings",
-   "source_id": "aeroroutes",
-   "tier": 2,
-   "country": "GLOBAL",
-   "category": "aviation-tracker",
-   "segments": [
-    "city",
-    "bush",
-    "beach"
-   ],
-   "first_seen": "2026-10-13T08:55+03:00",
-   "published": "2026-10-13",
-   "verdict": "CONSIDER"
-  },
-  {
-   "score": 79.3,
-   "components": {
-    "tier": 40,
-    "category": 9,
-    "lead": 16.8,
-    "relevance": 0,
-    "freshness": 3.5,
-    "corroborated": 10
-   },
-   "keywords": [],
-   "shock_terms": [],
-   "dedupe_match": null,
-   "dedupe_similarity": 0.11,
-   "id": "bff8caef14c3",
-   "title": "Hilton Earns Top Recognition in Cond\u00e9 Nast Traveler\u2019s 2026 Readers\u2019 Choice Awards Across U.S. and U.K. Surveys",
-   "url": "https://stories.hilton.com/releases/hilton-earns-top-recognition-in-conde-nast-travelers-2026-readers-choice-awards",
-   "summary": "MCLEAN, Va. \u2013 Hilton (NYSE: HLT), a global leader in hospitality, announces that more than 50 of its properties have earned prestigious spots in the 2026 Cond\u00e9 Nast Traveler Readers\u2019 Choice Awards, as voted by travelers from the U.S. and U.K. This recognition reflects Hilton\u2019s ongoing commitment to delivering world-class experiences around the globe, with [\u2026] The post Hilton Earns Top Recognition ",
-   "kind": "item",
-   "source": "Hilton stories/newsroom",
-   "source_id": "dev-hilton",
-   "tier": 1,
-   "country": "GLOBAL",
-   "category": "hotel-group",
-   "segments": [
-    "city",
-    "bush",
-    "beach"
-   ],
-   "first_seen": "2026-10-13T08:54+03:00",
-   "published": "2026-10-12",
-   "verdict": "CONSIDER"
-  },
-  {
-   "score": 77.3,
+   "score": 72.6,
    "components": {
     "tier": 40,
     "category": 32,
     "lead": 3.6,
     "relevance": 0,
-    "freshness": 15.7,
+    "freshness": 11.0,
     "stale_trap": -10,
     "page_change": -4
    },
@@ -1049,266 +943,158 @@
    "verdict": "CHECK \u2014 source date older than the window"
   },
   {
-   "score": 77.3,
-   "components": {
-    "tier": 40,
-    "category": 15,
-    "lead": 16.8,
-    "relevance": 8,
-    "freshness": 3.5,
-    "undated": -6
-   },
-   "keywords": [
-    "tax"
-   ],
-   "shock_terms": [],
-   "dedupe_match": null,
-   "dedupe_similarity": 0.14,
-   "id": "56d5cffc30c7",
-   "title": "TANZANIA, MALAWI TO CONTINUE IMPROVING TAX SERVICES AT BORDER POSTS",
-   "url": "https://www.tra.go.tz/news/tanzania-malawi-to-continue-improving-tax-services-at-border-posts",
-   "summary": "",
-   "kind": "item",
-   "source": "Tanzania Revenue Authority",
-   "source_id": "tz-tra",
-   "tier": 1,
-   "country": "TZ",
-   "category": "fiscal",
-   "segments": [
-    "city",
-    "bush",
-    "beach"
-   ],
-   "first_seen": "2026-10-13T08:54+03:00",
-   "published": null,
-   "verdict": "CONSIDER"
-  },
-  {
-   "score": 77.2,
+   "score": 69.2,
    "components": {
     "tier": 20,
-    "category": 14,
-    "lead": 8.4,
-    "relevance": 16,
-    "freshness": 8.8,
-    "corroborated": 10
-   },
-   "keywords": [
-    "route",
-    "airline",
-    "flight"
-   ],
-   "shock_terms": [],
-   "dedupe_match": null,
-   "dedupe_similarity": 0.14,
-   "id": "fa0ee301898d",
-   "title": "Air Canada NW26 Vancouver \u2013 Sapporo Aircraft Changes",
-   "url": "https://www.aeroroutes.com/eng/261013-acnw26cts",
-   "summary": "Published at 0000PDT / 0700GMT 13OCT26 Air Canada in recent schedule update further revised planned Vancouver \u2013 Sapporo New Chitose route during Northern winter 2026/27 season. The new 3 weekly service from 17DEC26 to 25MAR27 will now be exclusively served by 787-9. It previously planned to operate -8 instead of -9 for the period of 18JAN27 \u2013 28FEB27. AC055 YVR1425 \u2013 1535+1CTS 789 146 AC054 CTS193",
-   "kind": "item",
-   "source": "AeroRoutes schedule filings",
-   "source_id": "aeroroutes",
-   "tier": 2,
-   "country": "GLOBAL",
-   "category": "aviation-tracker",
-   "segments": [
-    "city",
-    "bush",
-    "beach"
-   ],
-   "first_seen": "2026-10-13T13:43+03:00",
-   "published": "2026-10-13",
-   "verdict": "CONSIDER"
-  },
-  {
-   "score": 76.6,
-   "components": {
-    "tier": 20,
-    "category": 9,
-    "lead": 3.6,
-    "relevance": 16,
-    "freshness": 0.0,
-    "corroborated": 10,
-    "shock": 18
-   },
-   "keywords": [
-    "insolven",
-    "airline"
-   ],
-   "shock_terms": [
-    "insolven"
-   ],
-   "dedupe_match": null,
-   "dedupe_similarity": 0.0,
-   "id": "51fe9b155b39",
-   "title": "Prologis-Chef J\u00fcrgen Krumt\u00fcnger: \"Situation der Airline-Branche ist ausgesprochen angespannt\"",
-   "url": "https://www.fvw.de/touristik/verkehr/prologis-chef-krumtuenger-im-interview-situation-der-airline-branche-ist-ausgesprochen-angespannt-265132",
-   "summary": "Vor allem stark gestiegene Kerosin-Kosten belasten aktuell die Fluggesellschaften. Air Baltic und Volotea mussten bereits Insolvenz anmelden. Im Interview spricht J\u00fcrgen Krumt\u00fcnger, Gesch\u00e4ftsf\u00fchrer der Aviation-Beratung Prologis, \u00fcber die schwierige Lage der Branche, welche Airlines die Kostensteigerung besonders trifft und welche Hebel es gibt, den Druck zu mildern.",
-   "kind": "item",
-   "source": "FVW / German travel trade",
-   "source_id": "sm-derreise",
-   "tier": 2,
-   "country": "GLOBAL",
-   "category": "source-market",
-   "segments": [
-    "beach",
-    "bush"
-   ],
-   "first_seen": "2026-10-12T17:42+03:00",
-   "published": "2026-10-12",
-   "verdict": "CONSIDER"
-  },
-  {
-   "score": 76.5,
-   "components": {
-    "tier": 20,
-    "category": 14,
-    "lead": 8.4,
+    "category": 5,
+    "lead": 2.4,
     "relevance": 12,
-    "freshness": 12.1,
+    "freshness": 19.8,
     "corroborated": 10
    },
    "keywords": [
-    "route",
-    "airline"
+    "hotel",
+    "booking",
+    "guest"
    ],
    "shock_terms": [],
    "dedupe_match": null,
-   "dedupe_similarity": 0.14,
-   "id": "f8f9636d0782",
-   "title": "Data: Lufthansa NS06 A340-600 Network Overview",
-   "url": "https://www.aeroroutes.com/eng/261013-lhns06346",
-   "summary": "Published at 0500PDT / 1200GMT 13OCT26 Lufthansa this week plans to schedule last Airbus A340-600 scheduled operation. Reported on AeroRoutes on 06MAY26 , Lufthansa filed A340-600 schedule until 18OCT26 inclusive. The schedule filing remains unchanged until early-October, as the carrier confirmed the schedule on various social media channels. Frankfurt \u2013 New York JFK LH400/401 Frankfurt \u2013 Washingt",
+   "dedupe_similarity": 0.12,
+   "id": "49797cf3eeca",
+   "title": "Strengthening the Guest Experience: How Bespoke Hotels is Using Canary Across its UK Portfolio",
+   "url": "https://www.hospitalitynet.org/casestudy/4134889/strengthening-the-guest-experience-how-bespoke-hotels-is-using-canary-across-its-uk-portfolio",
+   "summary": "Bespoke Hotels deployed Canary Technologies across its 57-property UK portfolio, recovering implementation costs within weeks and gaining consolidated reporting, upsell revenue, and guest data from OTA bookings.",
    "kind": "item",
-   "source": "AeroRoutes schedule filings",
-   "source_id": "aeroroutes",
+   "source": "Hospitality Net: Africa openings",
+   "source_id": "dev-hospitalitynet-openings",
    "tier": 2,
-   "country": "GLOBAL",
-   "category": "aviation-tracker",
+   "country": "AFRICA",
+   "category": "trade",
    "segments": [
     "city",
     "bush",
     "beach"
    ],
-   "first_seen": "2026-10-13T16:45+03:00",
+   "first_seen": "2026-10-14T03:56+03:00",
    "published": "2026-10-13",
-   "verdict": "CONSIDER"
+   "verdict": "weak"
   },
   {
-   "score": 76.4,
-   "components": {
-    "tier": 40,
-    "category": 18,
-    "lead": 8.4,
-    "relevance": 0,
-    "freshness": 0.0,
-    "corroborated": 10
-   },
-   "keywords": [],
-   "shock_terms": [],
-   "dedupe_match": null,
-   "dedupe_similarity": 0.0,
-   "id": "ebd488411cbf",
-   "title": "Saving A Grievously Injured Serpent",
-   "url": "https://kws.go.ke/saving-a-grievously-injured-serpent",
-   "summary": "Last week, the veterinary team at the Coast received a call about an unusual patient: a common egg-eater snake found with a severe evisceration wound to its abdomen. Its intestines were exposed, a life-threatening injury for any creature, let alone one so often misunderstood. The team acted swiftly, sedating the snake, cleaning the wound and [...]",
-   "kind": "item",
-   "source": "Kenya Wildlife Service",
-   "source_id": "ke-kws",
-   "tier": 1,
-   "country": "KE",
-   "category": "parks",
-   "segments": [
-    "bush"
-   ],
-   "first_seen": "2026-10-12T22:05+03:00",
-   "published": "2026-10-12",
-   "verdict": "CONSIDER"
-  },
-  {
-   "score": 76.0,
+   "score": 69.2,
    "components": {
     "tier": 20,
-    "category": 4,
-    "lead": 0.0,
-    "relevance": 24,
-    "freshness": 0.0,
-    "corroborated": 10,
-    "shock": 18
-   },
-   "keywords": [
-    "outbreak",
-    "ebola"
-   ],
-   "shock_terms": [
-    "outbreak"
-   ],
-   "dedupe_match": null,
-   "dedupe_similarity": 0.18,
-   "id": "890f0602fd16",
-   "title": "Ebola: US maintains travel restrictions on Uganda despite WHO, Africa CDC calls",
-   "url": "https://www.monitor.co.ug/uganda/news/national/ebola-us-maintains-travel-restrictions-on-uganda-despite-who-africa-cdc-calls-5629434",
-   "summary": "Uganda officially declared an end to its domestic Ebola outbreak on July 28 following effective...",
-   "kind": "item",
-   "source": "Daily Monitor (Uganda)",
-   "source_id": "np-monitor-ug",
-   "tier": 2,
-   "country": "UG",
-   "category": "press",
-   "segments": [
-    "city",
-    "bush",
-    "beach"
-   ],
-   "first_seen": "2026-10-12T22:05+03:00",
-   "published": "2026-10-12",
-   "verdict": "CONSIDER"
-  },
-  {
-   "score": 75.9,
-   "components": {
-    "tier": 20,
-    "category": 14,
-    "lead": 8.4,
-    "relevance": 20,
-    "freshness": 3.5,
+    "category": 5,
+    "lead": 2.4,
+    "relevance": 12,
+    "freshness": 19.8,
     "corroborated": 10
    },
    "keywords": [
-    "route",
-    "seat",
-    "airline"
+    "fee",
+    "hotel"
    ],
    "shock_terms": [],
    "dedupe_match": null,
    "dedupe_similarity": 0.11,
-   "id": "50a52234d990",
-   "title": "Philippine Airlines Nov 2026 A350-1000 Osaka Operations",
-   "url": "https://www.aeroroutes.com/eng/261012-prnov26kix",
-   "summary": "Published at 2000PDT 12OCT26 / 0300GMT 13OCT26 Philippine Airlines in November 2026 schedules limited time Airbus A350-1000 aircraft operation on Manila \u2013 Osaka Kansai route. The 382-seater is scheduled to operate PR412/411 service on 07NOV26 and 14NOV26. Following schedule focuses on A350-1000 operation. PR412 MNL0910 \u2013 1345KIX 350 PR411 KIX1500 \u2013 1845MNL 350 Planned operation remains subject to ",
+   "id": "d4b38668c1fe",
+   "title": "The Incentive Management Fee: Why the Line It\u2019s Calculated From Matters More Than the Percentage",
+   "url": "https://www.hospitalitynet.org/opinion/4134886/the-incentive-management-fee-why-the-line-its-calculated-from-matters-more-than-the-percentage",
+   "summary": "A 40-year hotel valuation veteran explains why the profit line used to calculate incentive management fees matters more than the percentage, and how an owner's priority provision resolves the GOP vs. net income standoff.",
    "kind": "item",
-   "source": "AeroRoutes schedule filings",
-   "source_id": "aeroroutes",
+   "source": "Hospitality Net: Africa openings",
+   "source_id": "dev-hospitalitynet-openings",
    "tier": 2,
-   "country": "GLOBAL",
-   "category": "aviation-tracker",
+   "country": "AFRICA",
+   "category": "trade",
    "segments": [
     "city",
     "bush",
     "beach"
    ],
-   "first_seen": "2026-10-13T08:55+03:00",
+   "first_seen": "2026-10-14T03:56+03:00",
    "published": "2026-10-13",
-   "verdict": "CONSIDER"
+   "verdict": "weak"
   },
   {
-   "score": 73.8,
+   "score": 69.2,
+   "components": {
+    "tier": 20,
+    "category": 5,
+    "lead": 2.4,
+    "relevance": 12,
+    "freshness": 19.8,
+    "corroborated": 10
+   },
+   "keywords": [
+    "vat",
+    "hotel"
+   ],
+   "shock_terms": [],
+   "dedupe_match": null,
+   "dedupe_similarity": 0.11,
+   "id": "da9e855a2575",
+   "title": "Access Point Financial Releases State of the Hotel Construction Loan Report",
+   "url": "https://www.hospitalitynet.org/news/4134888/access-point-financial-releases-state-of-the-hotel-construction-loan-report",
+   "summary": "APF's five-page report covers hotel construction loan trends, highlighting rising costs, CMBS maturities, supply constraints, and a shift toward renovations and acquisitions over new builds.",
+   "kind": "item",
+   "source": "Hospitality Net: Africa openings",
+   "source_id": "dev-hospitalitynet-openings",
+   "tier": 2,
+   "country": "AFRICA",
+   "category": "trade",
+   "segments": [
+    "city",
+    "bush",
+    "beach"
+   ],
+   "first_seen": "2026-10-14T03:56+03:00",
+   "published": "2026-10-13",
+   "verdict": "weak"
+  },
+  {
+   "score": 69.2,
+   "components": {
+    "tier": 20,
+    "category": 5,
+    "lead": 2.4,
+    "relevance": 12,
+    "freshness": 19.8,
+    "corroborated": 10
+   },
+   "keywords": [
+    "revpar",
+    "conference"
+   ],
+   "shock_terms": [],
+   "dedupe_match": null,
+   "dedupe_similarity": 0.33,
+   "id": "d937f9c0e60b",
+   "title": "Hospitality Asset Managers Association (HAMA) Releases Fall 2026 Conference Industry Outlook Survey Results",
+   "url": "https://www.hospitalitynet.org/news/4134887/hospitality-asset-managers-association-hama-releases-fall-2026-conference-industry-outlook-survey-results",
+   "summary": "HAMA's Fall 2026 semi-annual survey of 72 asset managers shows strong RevPAR and GOP gains, with 97% expecting growth to continue in 2027, while demand, wages, labor, and insurance costs top member concerns.",
+   "kind": "item",
+   "source": "Hospitality Net: Africa openings",
+   "source_id": "dev-hospitalitynet-openings",
+   "tier": 2,
+   "country": "AFRICA",
+   "category": "trade",
+   "segments": [
+    "city",
+    "bush",
+    "beach"
+   ],
+   "first_seen": "2026-10-14T03:56+03:00",
+   "published": "2026-10-13",
+   "verdict": "weak"
+  },
+  {
+   "score": 69.1,
    "components": {
     "tier": 20,
     "category": 5,
     "lead": 3.6,
     "relevance": 16,
-    "freshness": 19.2,
+    "freshness": 14.5,
     "corroborated": 10
    },
    "keywords": [
@@ -1336,85 +1122,16 @@
    ],
    "first_seen": "2026-10-13T23:09+03:00",
    "published": "2026-10-13",
-   "verdict": "CONSIDER"
+   "verdict": "weak"
   },
   {
-   "score": 73.7,
-   "components": {
-    "tier": 40,
-    "category": 32,
-    "lead": 3.6,
-    "relevance": 0,
-    "freshness": 12.1,
-    "stale_trap": -10,
-    "page_change": -4
-   },
-   "keywords": [],
-   "shock_terms": [],
-   "dedupe_match": null,
-   "dedupe_similarity": 0.2,
-   "id": "d81a27abd7f7",
-   "title": "[page changed] Federal Register \u2014 public inspection (HHS/CDC), pre-publication",
-   "url": "https://www.federalregister.gov/api/v1/public-inspection-documents/current.json",
-   "summary": "{\"count\":125,\"results\":[{\"agencies\":[{\"raw_name\":\"Industry and Security Bureau\",\"name\":\"Industry and Security Bureau\",\"id\":241,\"url\":\"https://www.federalregister.gov/agencies/industry-and-security-bureau\",\"json_url\":\"https://www.federalregister.gov/api/v1/agencies/241\",\"parent_id\":54,\"slug\":\"industry-and-security-bureau\"}],\"agency_letters\":[],\"agency_names\":[\"Industry and Security Bureau\"],\"docket",
-   "kind": "page-change",
-   "source": "Federal Register \u2014 public inspection (HHS/CDC), pre-publication",
-   "source_id": "us-fedreg-pubinspect-hhs",
-   "tier": 1,
-   "country": "REG",
-   "category": "advisory",
-   "segments": [
-    "city",
-    "bush"
-   ],
-   "first_seen": "2026-10-13T16:45+03:00",
-   "published": "2026-10-09",
-   "verdict": "CHECK \u2014 source date older than the window"
-  },
-  {
-   "score": 73.2,
-   "components": {
-    "tier": 20,
-    "category": 14,
-    "lead": 8.4,
-    "relevance": 12,
-    "freshness": 8.8,
-    "corroborated": 10
-   },
-   "keywords": [
-    "route",
-    "flight"
-   ],
-   "shock_terms": [],
-   "dedupe_match": null,
-   "dedupe_similarity": 0.09,
-   "id": "d12f52916e73",
-   "title": "United Extends Newark \u2013 Marrakech Service to mid-2Q27",
-   "url": "https://www.aeroroutes.com/eng/261013-uans27rak",
-   "summary": "Published at 0200PDT / 0900GMT 13OCT26 United in recent schedule update extended schedule filing for Newark \u2013 Marrakech route, initially scheduled until 26MAR27 (US departure), United will continue to serve this route until 25MAY27 inclusive. For the period of 27MAR27 \u2013 25MAY27, United operates 3 weekly flights with 767-400ER. UA628 EWR2025 \u2013 0800+1RAK 764 246 UA627 RAK1050 \u2013 1530EWR 764 357",
-   "kind": "item",
-   "source": "AeroRoutes schedule filings",
-   "source_id": "aeroroutes",
-   "tier": 2,
-   "country": "GLOBAL",
-   "category": "aviation-tracker",
-   "segments": [
-    "city",
-    "bush",
-    "beach"
-   ],
-   "first_seen": "2026-10-13T13:43+03:00",
-   "published": "2026-10-13",
-   "verdict": "CONSIDER"
-  },
-  {
-   "score": 73.1,
+   "score": 68.4,
    "components": {
     "tier": 20,
     "category": 5,
     "lead": 2.4,
     "relevance": 20,
-    "freshness": 15.7,
+    "freshness": 11.0,
     "corroborated": 10
    },
    "keywords": [
@@ -1443,7 +1160,295 @@
    ],
    "first_seen": "2026-10-13T19:58+03:00",
    "published": "2026-10-13",
-   "verdict": "CONSIDER"
+   "verdict": "weak"
+  },
+  {
+   "score": 68.2,
+   "components": {
+    "tier": 20,
+    "category": 24,
+    "lead": 2.4,
+    "relevance": 12,
+    "freshness": 19.8,
+    "undated": -6,
+    "page_change": -4
+   },
+   "keywords": [
+    "quarantine"
+   ],
+   "shock_terms": [],
+   "dedupe_match": null,
+   "dedupe_similarity": 0.12,
+   "id": "87388ea89123",
+   "title": "[page changed] ProMED-mail",
+   "url": "https://promedmail.org/",
+   "summary": "Protecting Global Health, One Alert at a Time | ProMED Previous slide Next slide Protecting Global Health, One Alert at a Time ProMED: Your 24/7 early warning system for emerging infectious diseases worldwide. Subscribe ProMED's Weekly Pulse A snapshot of global health events from the past 7 days Latest Posts on ProMED All Date Title Wed Oct 14 2026 FOOT & MOUTH DISEASE - INDONESIA (07): (LAMPUNG)",
+   "kind": "page-change",
+   "source": "ProMED-mail",
+   "source_id": "promed",
+   "tier": 2,
+   "country": "GLOBAL",
+   "category": "health",
+   "segments": [
+    "city",
+    "bush",
+    "beach"
+   ],
+   "first_seen": "2026-10-14T03:56+03:00",
+   "published": null,
+   "verdict": "weak"
+  },
+  {
+   "score": 68.2,
+   "components": {
+    "tier": 20,
+    "category": 4,
+    "lead": 2.4,
+    "relevance": 12,
+    "freshness": 19.8,
+    "corroborated": 10
+   },
+   "keywords": [
+    "ebola"
+   ],
+   "shock_terms": [],
+   "dedupe_match": null,
+   "dedupe_similarity": 0.18,
+   "id": "479e934b4fc7",
+   "title": "Suspected Ebola case in Nanyuki turns negative",
+   "url": "https://nation.africa/kenya/counties/laikipia/suspected-ebola-case-in-nanyuki-turns-negative-5630974",
+   "summary": "The 35-year-old woman died while receiving treatment at Nanyuki hospital.",
+   "kind": "item",
+   "source": "Nation Africa: Kenya business",
+   "source_id": "ke-nation-business",
+   "tier": 2,
+   "country": "KE",
+   "category": "press",
+   "segments": [
+    "city",
+    "bush",
+    "beach"
+   ],
+   "first_seen": "2026-10-14T03:56+03:00",
+   "published": "2026-10-13",
+   "verdict": "weak"
+  },
+  {
+   "score": 68.2,
+   "components": {
+    "tier": 20,
+    "category": 4,
+    "lead": 2.4,
+    "relevance": 12,
+    "freshness": 19.8,
+    "corroborated": 10
+   },
+   "keywords": [
+    "election",
+    "camp"
+   ],
+   "shock_terms": [],
+   "dedupe_match": null,
+   "dedupe_similarity": 0.0,
+   "id": "ee0900030c1f",
+   "title": "Beyond the burden: Lamu's iconic donkeys trot into the 2027 campaign fever",
+   "url": "https://nation.africa/kenya/counties/lamu/beyond-the-burden-lamu-s-iconic-donkeys-trot-into-the-2027-campaign-fever-5630576",
+   "summary": "Donkeys are carrying campaign messages as election fever builds.",
+   "kind": "item",
+   "source": "Nation Africa: Kenya business",
+   "source_id": "ke-nation-business",
+   "tier": 2,
+   "country": "KE",
+   "category": "press",
+   "segments": [
+    "city",
+    "bush",
+    "beach"
+   ],
+   "first_seen": "2026-10-14T03:56+03:00",
+   "published": "2026-10-13",
+   "verdict": "weak"
+  },
+  {
+   "score": 67.9,
+   "components": {
+    "tier": 20,
+    "category": 5,
+    "lead": 2.4,
+    "relevance": 16,
+    "freshness": 14.5,
+    "corroborated": 10
+   },
+   "keywords": [
+    "vat",
+    "hotel",
+    "inflation"
+   ],
+   "shock_terms": [],
+   "dedupe_match": null,
+   "dedupe_similarity": 0.0,
+   "id": "6330652d8847",
+   "title": "Hotel Construction Faces Higher Costs as Developers Shift to Renovations",
+   "url": "https://www.hotelnewsresource.com/article143298.html",
+   "summary": "Access Point Financial\u2019s report says high borrowing costs, construction inflation and tighter lending standards are limiting hotel development, while renovations, extended-stay projects and selective luxury construction remain active.",
+   "kind": "item",
+   "source": "HVS \u2014 market reports and event-impact studies (via Hotel News Resource)",
+   "source_id": "gl-hvs-market-reports",
+   "tier": 2,
+   "country": "GLOBAL",
+   "category": "trade",
+   "segments": [
+    "city"
+   ],
+   "first_seen": "2026-10-13T23:09+03:00",
+   "published": "2026-10-13",
+   "verdict": "weak"
+  },
+  {
+   "score": 67.9,
+   "components": {
+    "tier": 20,
+    "category": 5,
+    "lead": 2.4,
+    "relevance": 16,
+    "freshness": 14.5,
+    "corroborated": 10
+   },
+   "keywords": [
+    "vat",
+    "tourism",
+    "investment"
+   ],
+   "shock_terms": [],
+   "dedupe_match": null,
+   "dedupe_similarity": 0.12,
+   "id": "46fb131620ef",
+   "title": "WTTC Members Announce $2BN Investment Commitment in Malta, Reflecting Strong Confidence in the Government\u2019s Tourism Vision",
+   "url": "https://www.hotelnewsresource.com/article143293.html",
+   "summary": "World Travel & Tourism Council (WTTC) members have pledged a $2 billion investment in Malta, signaling strong private sector confidence in the Maltese government's tourism development plans and reinforcing Malta's position as a destination for significant hospitality sector growth.",
+   "kind": "item",
+   "source": "HVS \u2014 market reports and event-impact studies (via Hotel News Resource)",
+   "source_id": "gl-hvs-market-reports",
+   "tier": 2,
+   "country": "GLOBAL",
+   "category": "trade",
+   "segments": [
+    "city"
+   ],
+   "first_seen": "2026-10-13T23:09+03:00",
+   "published": "2026-10-13",
+   "verdict": "weak"
+  },
+  {
+   "score": 67.9,
+   "components": {
+    "tier": 20,
+    "category": 5,
+    "lead": 2.4,
+    "relevance": 16,
+    "freshness": 14.5,
+    "corroborated": 10
+   },
+   "keywords": [
+    "hotel",
+    "tourism",
+    "conference",
+    "pipeline"
+   ],
+   "shock_terms": [],
+   "dedupe_match": null,
+   "dedupe_similarity": 0.0,
+   "id": "98c4d7dbde60",
+   "title": "The Caribbean\u2019s Lodging Boom: A Summary of the Development Pipeline - By Shannon L. Sampson",
+   "url": "https://www.hotelnewsresource.com/article143291.html",
+   "summary": "The Caribbean hospitality market is undergoing a transformative period of growth, characterized by substantial new hotel development, expanding branded residential offerings, and continued investor interest. This article highlights the projects, trends, and opportunities shaping the future of Caribbean tourism and hospitality and previews the development pipeline to be presented at the upcoming CH",
+   "kind": "item",
+   "source": "HVS \u2014 market reports and event-impact studies (via Hotel News Resource)",
+   "source_id": "gl-hvs-market-reports",
+   "tier": 2,
+   "country": "GLOBAL",
+   "category": "trade",
+   "segments": [
+    "city"
+   ],
+   "first_seen": "2026-10-13T23:09+03:00",
+   "published": "2026-10-13",
+   "verdict": "weak"
+  },
+  {
+   "score": 67.4,
+   "components": {
+    "tier": 5,
+    "category": 5,
+    "lead": 2.4,
+    "relevance": 16,
+    "freshness": 11.0,
+    "corroborated": 10,
+    "shock": 18
+   },
+   "keywords": [
+    "evacuat",
+    "beach"
+   ],
+   "shock_terms": [
+    "evacuat"
+   ],
+   "dedupe_match": null,
+   "dedupe_similarity": 0.0,
+   "id": "4881a3e7a20b",
+   "title": "Tropical Storm Rachel Batters California Coast, Forcing Long Beach Residents to Evacuate",
+   "url": "https://www.travelandtourworld.com/news/article/illn00l6lprs",
+   "summary": "Tropical Storm Rachel Batters California Coast, Forcing Long Beach Residents to Evacuate Tropical Storm Rachel batters California coast, forcing Long Beach evacuations! Discover massive storm surges, red-tagged homes and emergency alerts. The post Tropical Storm Rachel Batters California Coast, Forcing Long Beach Residents to Evacuate appeared first on Travel And Tour World .",
+   "kind": "item",
+   "source": "Travel And Tour World",
+   "source_id": "gl-travelandtourworld",
+   "tier": 3,
+   "country": "GLOBAL",
+   "category": "trade",
+   "segments": [
+    "city",
+    "bush",
+    "beach"
+   ],
+   "first_seen": "2026-10-13T19:58+03:00",
+   "published": "2026-10-13",
+   "verdict": "weak"
+  },
+  {
+   "score": 66.5,
+   "components": {
+    "tier": 20,
+    "category": 4,
+    "lead": 0.0,
+    "relevance": 0,
+    "freshness": 14.5,
+    "corroborated": 10,
+    "shock": 18
+   },
+   "keywords": [],
+   "shock_terms": [
+    "attack"
+   ],
+   "dedupe_match": null,
+   "dedupe_similarity": 0.0,
+   "id": "013b2b42e1c1",
+   "title": "Security intensifies operations in Mubende after deadly night attacks, key suspect arrested in Rwizi",
+   "url": "https://www.monitor.co.ug/uganda/news/national/security-intensifies-operations-in-mubende-after-deadly-night-attacks-key-suspect-arrested-in-rwizi-5630676",
+   "summary": "At least 50 Field Force Unit personnel from Naguru have been deployed in Kitenga Sub-county",
+   "kind": "item",
+   "source": "Daily Monitor (Uganda)",
+   "source_id": "np-monitor-ug",
+   "tier": 2,
+   "country": "UG",
+   "category": "press",
+   "segments": [
+    "city",
+    "bush",
+    "beach"
+   ],
+   "first_seen": "2026-10-13T23:09+03:00",
+   "published": "2026-10-13",
+   "verdict": "weak"
   }
  ]
 }
