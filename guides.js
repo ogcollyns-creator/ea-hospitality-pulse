@@ -1,5 +1,14 @@
 window.GUIDES = [
  {
+  "slug": "kenya-hotel-classification-stale-star",
+  "title": "Kenya is about to re-grade its hotels. The stars being sold today were set in 2018.",
+  "description": "The Tourism Regulatory Authority starts its national classification exercise in Nairobi and Kiambu on 26 October, eight years after the last one. Kenya is the only EAC state with more four-star hotels than three-star, and its public register of classified hotels currently returns a single record named Test Entity 1.",
+  "category": "Big Read",
+  "updated": "2026-10-14",
+  "readMins": 9,
+  "image": "img/editions/kenya-hotel-classification-stale-star.jpg"
+ },
+ {
   "slug": "zanzibar-vfms-booking-system-taxman",
   "title": "Zanzibar's taxman is moving into the booking system. The levy is not the expensive part.",
   "description": "Zanzibar's revenue authority published an amendment to its Virtual Fiscal Management System regulations on 1 September requiring accommodation providers to run an approved property management system wired into the state's platform. Operators are being told the window closes in weeks, by their software vendors rather than by a public notice. The consequence that matters is not the tax rate, it is that occupancy and achieved rate become a government record before they are a management report.",
