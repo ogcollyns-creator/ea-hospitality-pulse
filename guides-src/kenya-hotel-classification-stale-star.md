@@ -4,6 +4,8 @@ slug: kenya-hotel-classification-stale-star
 description: The Tourism Regulatory Authority starts its national classification exercise in Nairobi and Kiambu on 26 October, eight years after the last one. Kenya is the only EAC state with more four-star hotels than three-star, and its public register of classified hotels currently returns a single record named Test Entity 1.
 category: Big Read
 updated: 2026-10-14
+image: "img/editions/kenya-hotel-classification-stale-star.jpg"
+image_credit: "Photograph: Onyango George / EA Hospitality Pulse"
 ---
 The notice is short, as these things are. Managers of tourism establishments in Nairobi and Kiambu counties are to complete an online pre-qualification form, because from 26 October to 4 December the Tourism Regulatory Authority will arrive to assess, classify and grade them against East African Community quality standards. Nakuru and Baringo follow from 6 to 18 December. Central Kenya and the Mount Kenya region are booked for 11 January to 15 February 2027. The stated purpose is to improve service quality and to build consumer confidence through consistent standards.
 
