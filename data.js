@@ -1,5 +1,14 @@
 window.EDITIONS = [
  {
+  "id": "pulse-2026-10-14-evening",
+  "date": "2026-10-14",
+  "dateDisplay": "Wednesday, 14 October 2026",
+  "edition": "Evening Wrap",
+  "editionKey": "evening",
+  "summary": "Kenya's EPRA review is reported to add about KSh12 to petrol and KSh9 to diesel from 15 October",
+  "bodyHtml": "<p><strong>Kenya&#x27;s EPRA review is reported to add about KSh12 to petrol and KSh9 to diesel from 15 October, but the notice is not confirmed</strong><br><em>🌆 Evening Wrap · Wed 14 Oct 2026</em></p>\n<p>━━━━━━━━━<br><span class=\"item-head\">1️⃣ Kenya&#x27;s EPRA review is reported to add about KSh12 to petrol and KSh9 to diesel from 15 October</span></p>\n<p>The review for 15 Oct to 14 Nov was due at 4 pm on 14 Oct. Pulse Kenya (14 Oct) and The Kenya Times (14 Oct) report rises of about KSh12 on petrol and KSh9 on diesel, citing landed costs: super petrol at Mombasa up from about US$1,199 to US$1,385 a tonne, diesel from US$1,200 to US$1,313 (August to September). Pulse&#x27;s own pump prices contradict each other, so we quote none. Rigathi Gachagua claimed them beforehand; Energy CS Opiyo Wandayi rejected him, saying EPRA sets prices <strong>(Capital FM, Allafrica, 14 Oct)</strong>. To 14 Oct: Nairobi petrol KSh214.03, diesel KSh217.86.<br>Our inference: matching figures prove nothing either way.<br><span class=\"sowhat\">🎯 So what: check EPRA&#x27;s notice tonight, then re-cost transfers and generator diesel. Fuel clauses belong in 2027 contracts.</span><br><span class=\"tagline\">🏷 City, Bush, Beach | Kenya | Reported | impact:margin</span></p>\n<p><span class=\"item-head\">2️⃣ Kenya&#x27;s 8% VAT on fuel is due to lapse, and a bill would extend it 90 days to mid-December</span></p>\n<p>The 8% rate on petroleum was due to expire 14 Oct. The Tax Laws (Amendment) Bill, 2026, sponsored by Majority Leader Kimani Ichung&#x27;wah, would keep it for 90 days. Cost to the Treasury: over KSh36bn <strong>(Eastleigh Voice, 14 Oct)</strong>. The 9 Oct bill set 8%; the extension is new.<br>Our inference: if the bill is not passed in time, the rate reverts, adding to tonight&#x27;s rise.<br><span class=\"sowhat\">🎯 So what: ask your fuel supplier which VAT rate is on tomorrow&#x27;s invoice.</span><br><span class=\"tagline\">🏷 City, Bush, Beach | Kenya | Reported | impact:margin</span></p>\n<p><span class=\"item-head\">3️⃣ Uganda&#x27;s Energy Minister blamed the weaker shilling for about Shs300 a litre on pump prices</span></p>\n<p>Monica Musenero told Parliament the shilling moved from about Shs3,790 to Shs4,035 per US dollar between early September and 5 Oct. She added that a Shs200 a litre excise rise took effect 1 July. Some MPs want tax relief; the IEA cites &quot;unprecedented tightness&quot; in diesel <strong>(The Independent, 14 Oct)</strong>.<br><span class=\"sowhat\">🎯 So what: Ugandan lodges with US$ rates and shilling fuel bills should pass fuel through in 2027 contracts and watch for any excise relief.</span><br><span class=\"tagline\">🏷 Bush, City | Uganda | Confirmed | impact:margin</span></p>\n<p><strong>🏗 DEAL FLOW:</strong> No verified EA deal flow in the window. Mereshi Safari Camp Serengeti (reported 13 Oct) is unchanged. Hospitality Net&#x27;s Africa page shows nothing newer <strong>(14 Oct)</strong>.</p>\n<p><strong>📻 ALSO TONIGHT</strong><br>🇨🇩 DRC Ebola: 9,066 confirmed cases, 4,381 deaths <strong>(DRC Health Ministry via Al Jazeera, 13 Oct)</strong>, up from 8,978 and 4,336 on 10 Oct. No new Kenyan count seen since 11 Oct&#x27;s 122 contacts.<br>🌍 EAC–Germany, Berlin: €3–5m for a regional climate project; German programmes trained 500 lab experts <strong>(EAC, 14 Oct)</strong>.<br>✈️ AeroRoutes lists &quot;TUI Netherlands adds Kilimanjaro in NS27&quot; (14 Oct). We could not open the filing, so no dates or frequency yet.</p>\n<p><strong>⏳ CATCHING UP</strong><br>🇷🇼 Rwanda&#x27;s September inflation rose to 17.2%, from 15.7% in August (NISR, 10 Oct; Financial Afrik, 12 Oct).<br>🇹🇿 Tanzania&#x27;s inflation held at 4.3%; restaurants and accommodation 2.9%, transport 14.0% (NBS, 8 Oct; TanzaniaInvest, 9 Oct).</p>\n<p><strong>📅 WEEK AHEAD</strong> Uganda bus-driver talks Thu 15 Oct; KPC strike notice running; US entry order on Uganda, DRC and South Sudan to about 8–10 Nov; Uganda Airlines Accra from 27 Oct.</p>\n<p><strong>🔍 BLIND SPOTS</strong> EPRA&#x27;s notice, advisory pages, gazettes, Africa CDC and aviation regulators were web-scanned, not opened. Tier C rotation pages were not opened. Competitor sites showed no dated EA items.</p>\n<p>🔗 This edition on the web: <a href=\"https://eahospitalitypulse.com/editions/pulse-2026-10-14-evening.html\" rel=\"noopener\">eahospitalitypulse.com/editions/pulse-2026-10-14-evenin…</a></p>"
+ },
+ {
   "id": "pulse-2026-10-13-evening",
   "date": "2026-10-13",
   "dateDisplay": "Tuesday, 13 October 2026",
@@ -1207,6 +1216,68 @@ window.EDITIONS = [
  }
 ];
 window.INSIGHTS = [
+ {
+  "headline": "Kenya's EPRA review is reported to add about KSh12 to petrol and KSh9 to diesel from 15 October",
+  "body": "The review for 15 Oct to 14 Nov was due at 4 pm on 14 Oct. Pulse Kenya (14 Oct) and The Kenya Times (14 Oct) report rises of about KSh12 on petrol and KSh9 on diesel, citing landed costs: super petrol at Mombasa up from about US$1,199 to US$1,385 a tonne, diesel from US$1,200 to US$1,313 (August to September). Pulse's own pump prices contradict each other, so we quote none. Rigathi Gachagua claimed them beforehand; Energy CS Opiyo Wandayi rejected him, saying EPRA sets prices *(Capital FM, Allafrica, 14 Oct)*. To 14 Oct: Nairobi petrol KSh214.03, diesel KSh217.86. Our inference: matching figures prove nothing either way.",
+  "sowhat": "🎯 So what: check EPRA's notice tonight, then re-cost transfers and generator diesel. Fuel clauses belong in 2027 contracts.",
+  "segments": [
+   "city",
+   "bush",
+   "beach"
+  ],
+  "countries": "Kenya",
+  "confidence": "Reported",
+  "impact": "-margin",
+  "impactClass": "margin",
+  "intensity": 2,
+  "impactSet": "author",
+  "source": "pulse-2026-10-14-evening",
+  "date": "2026-10-14",
+  "dateDisplay": "Wednesday, 14 October 2026",
+  "edition": "Evening Wrap",
+  "editionKey": "evening"
+ },
+ {
+  "headline": "Kenya's 8% VAT on fuel is due to lapse, and a bill would extend it 90 days to mid-December",
+  "body": "The 8% rate on petroleum was due to expire 14 Oct. The Tax Laws (Amendment) Bill, 2026, sponsored by Majority Leader Kimani Ichung'wah, would keep it for 90 days. Cost to the Treasury: over KSh36bn *(Eastleigh Voice, 14 Oct)*. The 9 Oct bill set 8%; the extension is new. Our inference: if the bill is not passed in time, the rate reverts, adding to tonight's rise.",
+  "sowhat": "🎯 So what: ask your fuel supplier which VAT rate is on tomorrow's invoice.",
+  "segments": [
+   "city",
+   "bush",
+   "beach"
+  ],
+  "countries": "Kenya",
+  "confidence": "Reported",
+  "impact": "-margin",
+  "impactClass": "margin",
+  "intensity": 2,
+  "impactSet": "author",
+  "source": "pulse-2026-10-14-evening",
+  "date": "2026-10-14",
+  "dateDisplay": "Wednesday, 14 October 2026",
+  "edition": "Evening Wrap",
+  "editionKey": "evening"
+ },
+ {
+  "headline": "Uganda's Energy Minister blamed the weaker shilling for about Shs300 a litre on pump prices",
+  "body": "Monica Musenero told Parliament the shilling moved from about Shs3,790 to Shs4,035 per US dollar between early September and 5 Oct. She added that a Shs200 a litre excise rise took effect 1 July. Some MPs want tax relief; the IEA cites \"unprecedented tightness\" in diesel *(The Independent, 14 Oct)*.",
+  "sowhat": "🎯 So what: Ugandan lodges with US$ rates and shilling fuel bills should pass fuel through in 2027 contracts and watch for any excise relief.",
+  "segments": [
+   "city",
+   "bush"
+  ],
+  "countries": "Uganda",
+  "confidence": "Confirmed",
+  "impact": "-margin",
+  "impactClass": "margin",
+  "intensity": 3,
+  "impactSet": "author",
+  "source": "pulse-2026-10-14-evening",
+  "date": "2026-10-14",
+  "dateDisplay": "Wednesday, 14 October 2026",
+  "edition": "Evening Wrap",
+  "editionKey": "evening"
+ },
  {
   "headline": "Formula One has confirmed a 10-year African Grand Prix at Bugesera, 40 km from Kigali",
   "body": "F1 announced the deal on 13 Oct. The race is branded the African Grand Prix presented by Visit Rwanda. A Hermann Tilke circuit will sit beside the new Kigali international airport, to FIA Grade 1 standard. No race date is set; the circuit is expected in the early 2030s *(Formula One announcement, 13 Oct; Nile Post, 13 Oct)*. Neither source gives hotel or visitor numbers. Our inference: this is a 2030s event, not a 2027 one. Its first effect is on investors and brands choosing where to put keys near Bugesera and Kigali.",
@@ -6866,4 +6937,4 @@ window.INSIGHTS = [
   "editionKey": "evening"
  }
 ];
-window.BUILT_AT = "2026-10-14 06:24";
+window.BUILT_AT = "2026-10-14 15:58";
