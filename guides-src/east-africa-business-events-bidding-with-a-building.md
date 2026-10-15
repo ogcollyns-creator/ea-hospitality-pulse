@@ -4,8 +4,9 @@ slug: east-africa-business-events-bidding-with-a-building
 description: Nine in ten meeting planners expect to spend more in 2027 and four in ten have already moved an event's destination under cost and geopolitical pressure. Africa holds about 4% of the world's association meetings, and the two East African capitals chasing the segment this week are chasing two very different versions of it.
 category: Big Read
 updated: 2026-10-15
+image: "img/editions/east-africa-business-events-bidding-with-a-building.jpg"
+image_credit: "Photograph: Onyango George / EA Hospitality Pulse"
 ---
-
 On Monday morning at the Speke Resort Convention Centre in Munyonyo, a few hundred metres from the water, Jackline Nanteza opened a trade show that had not existed before. The inaugural Africa Destination Celebrations Conference and Expo ran for two days under the theme "Africa Unveils Events in the Wild", and it had drawn wedding planners and professional conference organisers from Nigeria, Kenya, the United Kingdom, Botswana, South Africa, Zambia, Romania, India, France and Spain. Nanteza, who founded the thing and runs it, put the question plainly. "Why should Africa be known primarily for wildlife, safaris and holidays only," she asked.
 
 It is a fair question, and this week it arrived with unusually good timing. Two days after the Kampala expo closed, American Express Global Business Travel published its 2027 Global Meetings and Events Forecast, built on a YouGov survey of 500 meetings professionals across eleven countries, fielded between 5 and 14 August. The numbers describe a segment in rude health: 93% of planners say they are optimistic about the sector in 2027, and 91% expect their own meetings and events spend to rise. Gerardo Tejado Donde, Amex GBT's senior vice president for professional services, called the optimism "grounded in realism", noting that planners "know 2027 will demand sharper risk management and disciplined cost control".
