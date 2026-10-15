@@ -3,71 +3,71 @@ _Window opens Wed 14 Oct 15:00 EAT · 1671 observations in window · 26 headline
 
 Ranked by first-seen recency, source tier and hospitality relevance. `first seen` is when the radar observed the item, which is the date the recency gate runs on. `published` is what the source claims — where the two disagree, the disagreement is the story.
 
-### 🔴 [119.8] Order Under Sections 362 and 365 of the Public Health Service Act Continuing the Suspension of the Right To Introduce Ce
+### 🔴 [119.3] Order Under Sections 362 and 365 of the Public Health Service Act Continuing the Suspension of the Right To Introduce Ce
 - **Verdict:** LEAD CANDIDATE — tier-1 shock language
 - **Source:** Federal Register — CDC documents (newest first) · tier 1 · GLOBAL · advisory
 - **First seen:** 2026-10-15T11:23+03:00 EAT · **Source date:** 2026-10-15
 - **URL:** https://www.federalregister.gov/documents/2026/10/15/2026-21036/order-under-sections-362-and-365-of-the-public-health-service-act-continuing-the-suspension-of-the
 - **Shock language:** outbreak
 - **Extract:** The Centers for Disease Control and Prevention (CDC), a component of the Department of Health and Human Services (HHS), announces it is issuing an Order under Sections 362 and 365 of the Public Health Service Act, and associated implementing regulations, conti
-- **Score parts:** tier +40, category +32, lead +0, relevance +12, freshness +7.8, corroborated +10, shock +18
+- **Score parts:** tier +40, category +32, lead +0, relevance +12, freshness +7.3, corroborated +10, shock +18
 
-### 🔴 [107.0] Weekly Bulletin on Outbreak and other Emergencies: Week 40: 28 September to 05 October 2026
+### 🔴 [106.5] Weekly Bulletin on Outbreak and other Emergencies: Week 40: 28 September to 05 October 2026
 - **Verdict:** LEAD CANDIDATE — tier-1 shock language
 - **Source:** WHO AFRO outbreaks & emergencies · tier 1 · REG · health
 - **First seen:** 2026-10-15T17:11+03:00 EAT · **Source date:** — none stated
 - **URL:** https://www.afro.who.int/countries/senegal/publication/weekly-bulletin-outbreak-and-other-emergencies-week-40-28-september-05-october-2026
 - **Shock language:** outbreak
-- **Score parts:** tier +40, category +24, lead +4.8, relevance +12, freshness +14.2, undated -6, shock +18
+- **Score parts:** tier +40, category +24, lead +4.8, relevance +12, freshness +13.7, undated -6, shock +18
 
-### 🚨 [105.8] [page changed] Federal Register — CDC notices
+### 🚨 [105.3] [page changed] Federal Register — CDC notices
 - **Verdict:** OPEN THIS — tier-1 advisory page moved; content not auto-parsed, read it manually
 - **Source:** Federal Register — CDC notices · tier 1 · REG · advisory
 - **First seen:** 2026-10-15T11:23+03:00 EAT · **Source date:** 2026-11-10
 - **URL:** https://www.federalregister.gov/api/v1/documents.rss?conditions%5Bagencies%5D%5B%5D=centers-for-disease-control-and-prevention&order=newest
 - **Extract:** Federal Register Documents published on or after 09/15/2026 and from Centers for Disease Control and Prevention https://www.federalregister.gov/api/v1/documents.rss?conditions%5Bagencies%5D%5B%5D=centers-for-disease-control-and-prevention&order=newest Thu, 15 
-- **Score parts:** tier +40, category +32, lead +12, relevance +8, freshness +7.8, corroborated +10, page_change -4
+- **Score parts:** tier +40, category +32, lead +12, relevance +8, freshness +7.3, corroborated +10, page_change -4
 
-### 🚨 [101.4] [page changed] Federal Register — public inspection (HHS/CDC), pre-publication
+### 🚨 [100.9] [page changed] Federal Register — public inspection (HHS/CDC), pre-publication
 - **Verdict:** OPEN THIS — tier-1 advisory page moved; content not auto-parsed, read it manually
 - **Source:** Federal Register — public inspection (HHS/CDC), pre-publication · tier 1 · REG · advisory
 - **First seen:** 2026-10-15T22:15+03:00 EAT · **Source date:** 2026-10-15
 - **URL:** https://www.federalregister.gov/api/v1/public-inspection-documents/current.json
 - **Extract:** {"count":132,"results":[{"agencies":[{"raw_name":"SMALL BUSINESS ADMINISTRATION","name":"Small Business Administration","id":468,"url":"https://www.federalregister.gov/agencies/small-business-administration","json_url":"https://www.federalregister.gov/api/v1/a
-- **Score parts:** tier +40, category +32, lead +3.6, relevance +0, freshness +19.8, corroborated +10, page_change -4
+- **Score parts:** tier +40, category +32, lead +3.6, relevance +0, freshness +19.3, corroborated +10, page_change -4
 
-### 🚨 [95.8] [page changed] Federal Register — public inspection (HHS/CDC), pre-publication
+### 🚨 [95.3] [page changed] Federal Register — public inspection (HHS/CDC), pre-publication
 - **Verdict:** OPEN THIS — tier-1 advisory page moved; content not auto-parsed, read it manually
 - **Source:** Federal Register — public inspection (HHS/CDC), pre-publication · tier 1 · REG · advisory
 - **First seen:** 2026-10-15T17:11+03:00 EAT · **Source date:** 2026-10-15
 - **URL:** https://www.federalregister.gov/api/v1/public-inspection-documents/current.json
 - **Extract:** {"count":131,"results":[{"agencies":[{"raw_name":"SMALL BUSINESS ADMINISTRATION","name":"Small Business Administration","id":468,"url":"https://www.federalregister.gov/agencies/small-business-administration","json_url":"https://www.federalregister.gov/api/v1/a
-- **Score parts:** tier +40, category +32, lead +3.6, relevance +0, freshness +14.2, corroborated +10, page_change -4
+- **Score parts:** tier +40, category +32, lead +3.6, relevance +0, freshness +13.7, corroborated +10, page_change -4
 
-### 🚨 [95.4] [page changed] WHO Disease Outbreak News
+### 🚨 [94.9] [page changed] WHO Disease Outbreak News
 - **Verdict:** OPEN THIS — tier-1 health page moved; content not auto-parsed, read it manually
 - **Source:** WHO Disease Outbreak News · tier 1 · GLOBAL · health
 - **First seen:** 2026-10-15T11:23+03:00 EAT · **Source date:** — none stated
 - **URL:** https://www.who.int/rss-feeds/news-english.xml
 - **Shock language:** outbreak
 - **Extract:** ﻿ News (English) - World Health Organization https://www.who.int/ Corporate news releases, statements, and notes for media issued by the World Health Organization. urn:uuid:0ce5fa04-9ac3-465f-89cf-15a8e5a748dd https://www.who.int/news/item/25-02-2026-who-direc
-- **Score parts:** tier +40, category +24, lead +3.6, relevance +12, freshness +7.8, undated -6, shock +18, page_change -4
+- **Score parts:** tier +40, category +24, lead +3.6, relevance +12, freshness +7.3, undated -6, shock +18, page_change -4
 
-### 🚨 [79.4] [page changed] Federal Register — public inspection (HHS/CDC), pre-publication
+### 🚨 [78.9] [page changed] Federal Register — public inspection (HHS/CDC), pre-publication
 - **Verdict:** OPEN THIS — tier-1 advisory page moved; content not auto-parsed, read it manually
 - **Source:** Federal Register — public inspection (HHS/CDC), pre-publication · tier 1 · REG · advisory
 - **First seen:** 2026-10-15T11:23+03:00 EAT · **Source date:** 2026-10-13
 - **URL:** https://www.federalregister.gov/api/v1/public-inspection-documents/current.json
 - **Extract:** {"count":81,"results":[{"agencies":[{"raw_name":"National Oceanic and Atmospheric Administration","name":"National Oceanic and Atmospheric Administration","id":361,"url":"https://www.federalregister.gov/agencies/national-oceanic-and-atmospheric-administration"
-- **Score parts:** tier +40, category +32, lead +3.6, relevance +0, freshness +7.8, page_change -4
+- **Score parts:** tier +40, category +32, lead +3.6, relevance +0, freshness +7.3, page_change -4
 
-### 🚨 [74.2] [page changed] Federal Register — public inspection (HHS/CDC), pre-publication
+### 🚨 [73.7] [page changed] Federal Register — public inspection (HHS/CDC), pre-publication
 - **Verdict:** OPEN THIS — tier-1 advisory page moved; content not auto-parsed, read it manually
 - **Source:** Federal Register — public inspection (HHS/CDC), pre-publication · tier 1 · REG · advisory
 - **First seen:** 2026-10-15T06:39+03:00 EAT · **Source date:** 2026-10-13
 - **URL:** https://www.federalregister.gov/api/v1/public-inspection-documents/current.json
 - **Extract:** {"count":81,"results":[{"agencies":[{"raw_name":"National Oceanic and Atmospheric Administration","name":"National Oceanic and Atmospheric Administration","id":361,"url":"https://www.federalregister.gov/agencies/national-oceanic-and-atmospheric-administration"
-- **Score parts:** tier +40, category +32, lead +3.6, relevance +0, freshness +2.6, page_change -4
+- **Score parts:** tier +40, category +32, lead +3.6, relevance +0, freshness +2.1, page_change -4
 
 ### 🚨 [71.6] [page changed] Federal Register — public inspection (HHS/CDC), pre-publication
 - **Verdict:** OPEN THIS — tier-1 advisory page moved; content not auto-parsed, read it manually
@@ -93,13 +93,13 @@ Ranked by first-seen recency, source tier and hospitality relevance. `first seen
 - **Extract:** {"count":78,"results":[{"agencies":[{"raw_name":"National Oceanic and Atmospheric Administration","name":"National Oceanic and Atmospheric Administration","id":361,"url":"https://www.federalregister.gov/agencies/national-oceanic-and-atmospheric-administration"
 - **Score parts:** tier +40, category +32, lead +3.6, relevance +0, freshness +0, page_change -4
 
-### 🚨 [59.8] [page changed] Airlink news
+### 🚨 [59.3] [page changed] Airlink news
 - **Verdict:** OPEN THIS — tier-1 airline page moved; content not auto-parsed, read it manually
 - **Source:** Airlink news · tier 1 · REG · airline
 - **First seen:** 2026-10-15T17:10+03:00 EAT · **Source date:** — none stated
 - **URL:** https://www.flyairlink.com/
 - **Extract:** Request unsuccessful. Incapsula incident ID: 1093000101372289183-665939369420718763
-- **Score parts:** tier +40, category +12, lead +3.6, relevance +0, freshness +14.2, undated -6, page_change -4
+- **Score parts:** tier +40, category +12, lead +3.6, relevance +0, freshness +13.7, undated -6, page_change -4
 
 ### 🚨 [45.6] [page changed] Airlink news
 - **Verdict:** OPEN THIS — tier-1 airline page moved; content not auto-parsed, read it manually
@@ -109,61 +109,61 @@ Ranked by first-seen recency, source tier and hospitality relevance. `first seen
 - **Extract:** Request unsuccessful. Incapsula incident ID: 1023000111842346673-1393296474745275123
 - **Score parts:** tier +40, category +12, lead +3.6, relevance +0, freshness +0, undated -6, page_change -4
 
-### 🟠 [106.0] Jambojet resumes daily Nairobi–Entebbe flights
+### 🟠 [105.5] Jambojet resumes daily Nairobi–Entebbe flights
 - **Verdict:** STRONG — tier-1, upstream
 - **Source:** Kenya Airports Authority · tier 1 · KE · aviation
 - **First seen:** 2026-10-15T17:11+03:00 EAT · **Source date:** 2026-10-15
 - **URL:** https://www.kaa.go.ke/jambojet-resumes-nairobi-entebbe
 - **Extract:** Jambojet resumed daily flights between Nairobi and Entebbe on Thursday, 1 October 2026, six years after the route was suspended during the COVID-19 pandemic.
-- **Score parts:** tier +40, category +13, lead +4.8, relevance +24, freshness +14.2, corroborated +10
+- **Score parts:** tier +40, category +13, lead +4.8, relevance +24, freshness +13.7, corroborated +10
 
-### 🟡 [98.2] From Ebola fighter to survivor, DRC doctor vows to return to front lines
+### 🟡 [97.7] From Ebola fighter to survivor, DRC doctor vows to return to front lines
 - **Verdict:** CONSIDER
 - **Source:** The Independent (Uganda) · tier 2 · UG · press
 - **First seen:** 2026-10-15T22:15+03:00 EAT · **Source date:** 2026-10-15
 - **URL:** https://www.independent.co.ug/from-ebola-fighter-to-survivor-drc-doctor-vows-to-return-to-front-lines
 - **Shock language:** outbreak
 - **Extract:** BENI, DRC | Xinhua | For years, Alex Olela fought Ebola from the front lines, treating patients during five outbreaks of the deadly disease in the Democratic Republic of the Congo (DRC). Then, in a cruel twist, the doctor found himself on the other side of the
-- **Score parts:** tier +20, category +4, lead +2.4, relevance +24, freshness +19.8, corroborated +10, shock +18
+- **Score parts:** tier +20, category +4, lead +2.4, relevance +24, freshness +19.3, corroborated +10, shock +18
 
-### 🟠 [98.0] Eldoret International Airport joins neighbours for Mazingira Day clean-up
+### 🟠 [97.5] Eldoret International Airport joins neighbours for Mazingira Day clean-up
 - **Verdict:** STRONG — tier-1, upstream
 - **Source:** Kenya Airports Authority · tier 1 · KE · aviation
 - **First seen:** 2026-10-15T17:11+03:00 EAT · **Source date:** 2026-10-15
 - **URL:** https://www.kaa.go.ke/eldoret-mazingira-day-clean-up
 - **Extract:** Eldoret International Airport held a clean-up along the Kapsabet–Eldoret Road on Friday, 9 October 2026, the eve of Mazingira Day, the national day for environmental conservation observed every 10 October.
-- **Score parts:** tier +40, category +13, lead +4.8, relevance +16, freshness +14.2, corroborated +10
+- **Score parts:** tier +40, category +13, lead +4.8, relevance +16, freshness +13.7, corroborated +10
 
-### 🟠 [96.2] SitRep N°152 /MVE-BDBV/13/10/2026
+### 🟠 [95.7] SitRep N°152 /MVE-BDBV/13/10/2026
 - **Verdict:** STRONG — tier-1, upstream
 - **Source:** INSP RDC — Ebola daily situation reports (SitRep) · tier 1 · GLOBAL · health
 - **First seen:** 2026-10-15T22:15+03:00 EAT · **Source date:** 2026-10-15
 - **URL:** https://insp.cd/sitrep-n152-mve-bdbv-13-10-2026
-- **Score parts:** tier +40, category +24, lead +2.4, relevance +0, freshness +19.8, corroborated +10
+- **Score parts:** tier +40, category +24, lead +2.4, relevance +0, freshness +19.3, corroborated +10
 
-### 🟡 [94.6] Ethiopian 4Q26 Selected Atlanta Service Cancellations
+### 🟡 [94.1] Ethiopian 4Q26 Selected Atlanta Service Cancellations
 - **Verdict:** CONSIDER
 - **Source:** AeroRoutes schedule filings · tier 2 · GLOBAL · aviation-tracker
 - **First seen:** 2026-10-15T17:12+03:00 EAT · **Source date:** 2026-10-15
 - **URL:** https://www.aeroroutes.com/eng/261015-et4q26atl
 - **Extract:** Published at 0300PDT / 1000GMT 15OCT26 Ethiopian Airlines in recent schedule update filed service changes on Addis Ababa – Atlanta route in the fourth quarter of 2026. The airline is cancelling this route during the period of 20OCT26 – 08DEC26, EXCEPT 01NOV26 
-- **Score parts:** tier +20, category +14, lead +8.4, relevance +28, freshness +14.2, corroborated +10
+- **Score parts:** tier +20, category +14, lead +8.4, relevance +28, freshness +13.7, corroborated +10
 
-### 🟠 [94.0] Freedom Airline’s Nairobi–Lodwar route opens new opportunities for Turkana
+### 🟠 [93.5] Freedom Airline’s Nairobi–Lodwar route opens new opportunities for Turkana
 - **Verdict:** STRONG — tier-1, upstream
 - **Source:** Kenya Airports Authority · tier 1 · KE · aviation
 - **First seen:** 2026-10-15T17:11+03:00 EAT · **Source date:** 2026-10-15
 - **URL:** https://www.kaa.go.ke/freedom-airline-nairobi-lodwar
 - **Extract:** Freedom Airline launched its Nairobi–Lodwar service on Friday, 18 September 2026. KAA Managing Director and CEO Mr Moses Wekesa joined senior officials and Freedom Airline Chief Operations Officer Capt. Ibrahim…
-- **Score parts:** tier +40, category +13, lead +4.8, relevance +12, freshness +14.2, corroborated +10
+- **Score parts:** tier +40, category +13, lead +4.8, relevance +12, freshness +13.7, corroborated +10
 
-### 🟠 [94.0] Moi International Airport wins three honours at ACI Africa awards
+### 🟠 [93.5] Moi International Airport wins three honours at ACI Africa awards
 - **Verdict:** STRONG — tier-1, upstream
 - **Source:** Kenya Airports Authority · tier 1 · KE · aviation
 - **First seen:** 2026-10-15T17:11+03:00 EAT · **Source date:** 2026-10-15
 - **URL:** https://www.kaa.go.ke/moi-international-aci-africa-awards
 - **Extract:** Moi International Airport, Mombasa, earned three runner-up honours at the 2026 ACI Africa Passenger Facilitation & Readiness Excellence Awards in Abuja, Nigeria.
-- **Score parts:** tier +40, category +13, lead +4.8, relevance +12, freshness +14.2, corroborated +10
+- **Score parts:** tier +40, category +13, lead +4.8, relevance +12, freshness +13.7, corroborated +10
 
 ### 🟡 [92.4] GOL Suspends US Service Feb/Mar 2027
 - **Verdict:** CONSIDER
@@ -181,142 +181,142 @@ Ranked by first-seen recency, source tier and hospitality relevance. `first seen
 - **Extract:** Restoring wildlife to suitable habitats is a critical component of conservation, alleviating pressure on communities while fostering healthier wildlife populations. The Kenya Wildlife Service (KWS) Vet and Capture team understands that friction happens when hu
 - **Score parts:** tier +40, category +18, lead +8.4, relevance +16, freshness +0, corroborated +10
 
-### 🟠 [90.6] Buffalo Rescued From Lake
+### 🟠 [90.1] Buffalo Rescued From Lake
 - **Verdict:** STRONG — tier-1, upstream
 - **Source:** Kenya Wildlife Service · tier 1 · KE · parks
 - **First seen:** 2026-10-15T17:11+03:00 EAT · **Source date:** 2026-10-15
 - **URL:** https://kws.go.ke/buffalo-rescued-from-lake
 - **Extract:** Yesterday, at the Kamuta area inside the waters of Lake Naivasha, the KWS veterinary team retrieved a wire snare that had entangled the neck and a front leg of a female buffalo. The snare had left her immobile and in great distress, trapped in the water with n
-- **Score parts:** tier +40, category +18, lead +8.4, relevance +0, freshness +14.2, corroborated +10
+- **Score parts:** tier +40, category +18, lead +8.4, relevance +0, freshness +13.7, corroborated +10
 
-### 🟠 [90.6] Nala’s Recovery: A Lioness Cared For, A Community Heard
+### 🟠 [90.1] Nala’s Recovery: A Lioness Cared For, A Community Heard
 - **Verdict:** STRONG — tier-1, upstream
 - **Source:** Kenya Wildlife Service · tier 1 · KE · parks
 - **First seen:** 2026-10-15T17:11+03:00 EAT · **Source date:** 2026-10-15
 - **URL:** https://kws.go.ke/nalas-recovery-a-lioness-cared-for-a-community-heard
 - **Extract:** Following reports of lameness, Nala, an adult female lioness of the Rongai Pride, was attended to by the KWS Mara veterinary team. Examination revealed an open wound around her right elbow joint. There is a saying that a lioness with a limp is a lioness in tro
-- **Score parts:** tier +40, category +18, lead +8.4, relevance +0, freshness +14.2, corroborated +10
+- **Score parts:** tier +40, category +18, lead +8.4, relevance +0, freshness +13.7, corroborated +10
 
-### 🟠 [90.0] JKIA steps up preparations for El Niño rains
-- **Verdict:** STRONG — tier-1, upstream
+### 🟡 [89.5] JKIA steps up preparations for El Niño rains
+- **Verdict:** CONSIDER
 - **Source:** Kenya Airports Authority · tier 1 · KE · aviation
 - **First seen:** 2026-10-15T17:11+03:00 EAT · **Source date:** 2026-10-15
 - **URL:** https://www.kaa.go.ke/jkia-el-nino-preparedness
 - **Extract:** KAA hosted an El Niño preparedness and response briefing at Jomo Kenyatta International Airport, bringing together airport stakeholders and partner agencies to review measures and strengthen coordination ahead of…
-- **Score parts:** tier +40, category +13, lead +4.8, relevance +8, freshness +14.2, corroborated +10
+- **Score parts:** tier +40, category +13, lead +4.8, relevance +8, freshness +13.7, corroborated +10
 
-### 🟠 [90.0] Manda handles its first international flights as leaders arrive for Lamu refinery groundbreaking
-- **Verdict:** STRONG — tier-1, upstream
+### 🟡 [89.5] Manda handles its first international flights as leaders arrive for Lamu refinery groundbreaking
+- **Verdict:** CONSIDER
 - **Source:** Kenya Airports Authority · tier 1 · KE · aviation
 - **First seen:** 2026-10-15T17:11+03:00 EAT · **Source date:** 2026-10-15
 - **URL:** https://www.kaa.go.ke/manda-first-international-flights
 - **Extract:** Manda handled international flights for the first time in its history on 29 and 30 September 2026, as Heads of State and Government, investors and more than 400 invited guests arrived in Lamu County for the…
-- **Score parts:** tier +40, category +13, lead +4.8, relevance +8, freshness +14.2, corroborated +10
+- **Score parts:** tier +40, category +13, lead +4.8, relevance +8, freshness +13.7, corroborated +10
 
-### 🟠 [90.0] KAA and airport partners mark Customer Service Week across the network
-- **Verdict:** STRONG — tier-1, upstream
+### 🟡 [89.5] KAA and airport partners mark Customer Service Week across the network
+- **Verdict:** CONSIDER
 - **Source:** Kenya Airports Authority · tier 1 · KE · aviation
 - **First seen:** 2026-10-15T17:11+03:00 EAT · **Source date:** 2026-10-15
 - **URL:** https://www.kaa.go.ke/customer-service-week-2026
 - **Extract:** Airports across the KAA network marked Customer Service Week from Monday, 5 October to Friday, 9 October 2026 under the theme “The Extra Mile”.
-- **Score parts:** tier +40, category +13, lead +4.8, relevance +8, freshness +14.2, corroborated +10
+- **Score parts:** tier +40, category +13, lead +4.8, relevance +8, freshness +13.7, corroborated +10
 
-### 🟡 [88.2] Shanghai Airlines Increases Shanghai – Kuala Lumpur Flights in NW26
+### 🟡 [87.7] Shanghai Airlines Increases Shanghai – Kuala Lumpur Flights in NW26
 - **Verdict:** CONSIDER
 - **Source:** AeroRoutes schedule filings · tier 2 · GLOBAL · aviation-tracker
 - **First seen:** 2026-10-15T22:15+03:00 EAT · **Source date:** 2026-10-15
 - **URL:** https://www.aeroroutes.com/eng/261015-fmnw26kul
 - **Extract:** Published at 0800PDT / 1500GMT 15OCT26 Shanghai Airlines during Northern winter 2026/27 season plans to expand Shanghai Pu Dong – Kuala Lumpur route, with the addition of 5th daily flight from 25OCT26. This route is primarily served by 737 MAX 8, although the 
-- **Score parts:** tier +20, category +14, lead +8.4, relevance +16, freshness +19.8, corroborated +10
+- **Score parts:** tier +20, category +14, lead +8.4, relevance +16, freshness +19.3, corroborated +10
 
-### 🟡 [88.2] Qatar Airways NW26 Service Changes – 11OCT26
+### 🟡 [87.7] Qatar Airways NW26 Service Changes – 11OCT26
 - **Verdict:** CONSIDER
 - **Source:** AeroRoutes schedule filings · tier 2 · GLOBAL · aviation-tracker
 - **First seen:** 2026-10-15T11:23+03:00 EAT · **Source date:** 2026-10-15
 - **URL:** https://www.aeroroutes.com/eng/261015-qrnw26
 - **Extract:** Published at 0100PDT / 0800GMT 15OCT26 Qatar Airways in the last few weeks filed additional changes to its Northern winter 2026/27 season operations, which now sees the airline reduces 5.7% of flights, based on one-way departure from Doha (excluding tag-on sec
-- **Score parts:** tier +20, category +14, lead +8.4, relevance +28, freshness +7.8, corroborated +10
+- **Score parts:** tier +20, category +14, lead +8.4, relevance +28, freshness +7.3, corroborated +10
 
-### 🟡 [87.2] UCAA ADVANCES GREEN AVIATION AND DIGITAL TRANSFORMATION
+### 🟡 [86.7] UCAA ADVANCES GREEN AVIATION AND DIGITAL TRANSFORMATION
 - **Verdict:** CONSIDER
 - **Source:** Uganda Civil Aviation Authority · tier 1 · UG · aviation
 - **First seen:** 2026-10-15T17:11+03:00 EAT · **Source date:** 2026-10-15
 - **URL:** https://caa.go.ug/ucaa-advances-green-aviation-and-digital-transformation
 - **Extract:** The Uganda Civil Aviation Authority (UCAA) participated in the 3rd CEO Breakfast and High-Level Meeting on Green Economy, SDGs and Sustainability, held on October 14, 2026, at the UNICEF Conference Centre in Mbuya. The meeting was officially opened by the Spea
-- **Score parts:** tier +40, category +13, lead +6, relevance +4, freshness +14.2, corroborated +10
+- **Score parts:** tier +40, category +13, lead +6, relevance +4, freshness +13.7, corroborated +10
 
-### 🟡 [86.0] KAA joins labour migration dialogue at ELRASE IV
+### 🟡 [85.5] KAA joins labour migration dialogue at ELRASE IV
 - **Verdict:** CONSIDER
 - **Source:** Kenya Airports Authority · tier 1 · KE · aviation
 - **First seen:** 2026-10-15T17:11+03:00 EAT · **Source date:** 2026-10-15
 - **URL:** https://www.kaa.go.ke/labour-migration-dialogue-elrase-iv
 - **Extract:** KAA took part in the Fourth Employment and Labour Relations Annual Symposium and Exhibition (ELRASE IV), held at Strathmore University from 15 to 18 September 2026 under the theme “Labour Migration and Access to…
-- **Score parts:** tier +40, category +13, lead +4.8, relevance +4, freshness +14.2, corroborated +10
+- **Score parts:** tier +40, category +13, lead +4.8, relevance +4, freshness +13.7, corroborated +10
 
-### 🟡 [83.8] Neuer Lufthansa Airbus A350-1000 fliegt zuerst nach Tokio
+### 🟡 [83.3] Neuer Lufthansa Airbus A350-1000 fliegt zuerst nach Tokio
 - **Verdict:** CONSIDER
 - **Source:** Lufthansa Group newsroom · tier 1 · GLOBAL · airline
 - **First seen:** 2026-10-15T17:10+03:00 EAT · **Source date:** 2026-10-15
 - **URL:** https://newsroom.lufthansagroup.com/neuer-lufthansa-airbus-a350-1000-fliegt-zuerst-nach-tokio
 - **Extract:** Mitte November landet der erste Lufthansa Airbus A350-1000 von den Airbus Werken Toulouse in München. Nach finalen Arbeiten durch Lufthansa heißt es „Take off“ für den ersten Flug mit Gästen an Bord: Am 3. Dezember 2026 fliegt der A350-1000 von München nach To
-- **Score parts:** tier +40, category +12, lead +3.6, relevance +4, freshness +14.2, corroborated +10
+- **Score parts:** tier +40, category +12, lead +3.6, relevance +4, freshness +13.7, corroborated +10
 
-### 🟡 [82.6] Airlink Plans Johannesburg Lanseria – Cape Town From Dec 2026
+### 🟡 [82.1] Airlink Plans Johannesburg Lanseria – Cape Town From Dec 2026
 - **Verdict:** CONSIDER
 - **Source:** AeroRoutes schedule filings · tier 2 · GLOBAL · aviation-tracker
 - **First seen:** 2026-10-15T17:12+03:00 EAT · **Source date:** 2026-10-15
 - **URL:** https://www.aeroroutes.com/eng/261015-4zdec26hlacpt
 - **Extract:** Published at 0600PDT / 1300GMT 15OCT26 South African carrier Airlink in December 2026 plans to launch Johannesburg Lanseria – Cape Town route, on board Embraer E190-E1 aircraft. The airline will offer 2 daily flights from 04DEC26. 4Z965 HLA0910 – 1135CPT E90 D
-- **Score parts:** tier +20, category +14, lead +8.4, relevance +16, freshness +14.2, corroborated +10
+- **Score parts:** tier +20, category +14, lead +8.4, relevance +16, freshness +13.7, corroborated +10
 
-### 🟡 [82.6] Vietnam Airlines NW26 Munich Aircraft Changes
+### 🟡 [82.1] Vietnam Airlines NW26 Munich Aircraft Changes
 - **Verdict:** CONSIDER
 - **Source:** AeroRoutes schedule filings · tier 2 · GLOBAL · aviation-tracker
 - **First seen:** 2026-10-15T17:12+03:00 EAT · **Source date:** 2026-10-15
 - **URL:** https://www.aeroroutes.com/eng/261015-vnnw26muc
 - **Extract:** Published at 0400PDT / 1100GMT 15OCT26 Vietnam Airlines during Northern winter 2026/27 season schedules aircraft changes on selected Hanoi – Munich route. From 04NOV26 to 27JAN27, 1 of 3 weekly flights to be operated by Airbus A350-900, instead of 787-9. VN035
-- **Score parts:** tier +20, category +14, lead +8.4, relevance +16, freshness +14.2, corroborated +10
+- **Score parts:** tier +20, category +14, lead +8.4, relevance +16, freshness +13.7, corroborated +10
 
-### 🟡 [82.6] Air China NW26 Delhi Service Changes
+### 🟡 [82.1] Air China NW26 Delhi Service Changes
 - **Verdict:** CONSIDER
 - **Source:** AeroRoutes schedule filings · tier 2 · GLOBAL · aviation-tracker
 - **First seen:** 2026-10-15T17:12+03:00 EAT · **Source date:** 2026-10-15
 - **URL:** https://www.aeroroutes.com/eng/261015-canw26del
 - **Extract:** Published at 0200PDT / 0900GMT 15OCT26 Air China during Northern winter 2026/27 season is adjusting service on Beijing Capital – Delhi route, currently scheduled 3 times weekly. From 25OCT26, service to be operated by Airbus A330-200, instead of -200, while op
-- **Score parts:** tier +20, category +14, lead +8.4, relevance +16, freshness +14.2, corroborated +10
+- **Score parts:** tier +20, category +14, lead +8.4, relevance +16, freshness +13.7, corroborated +10
 
-### 🟡 [80.2] EVA Air 1Q27 Sendai Aircraft Changes
+### 🟡 [79.7] EVA Air 1Q27 Sendai Aircraft Changes
 - **Verdict:** CONSIDER
 - **Source:** AeroRoutes schedule filings · tier 2 · GLOBAL · aviation-tracker
 - **First seen:** 2026-10-15T22:15+03:00 EAT · **Source date:** 2026-10-15
 - **URL:** https://www.aeroroutes.com/eng/261015-br1q27sdj
 - **Extract:** Published at 1000PDT / 1700GMT 15OCT26 EVA Air in the first quarter of 2027 once again schedules aircraft changes on Taipei Taoyuan – Sendai route, as the carrier schedules Airbus A330-300 aircraft from 20JAN27 to 10MAR27, replacing A321. This route is schedul
-- **Score parts:** tier +20, category +14, lead +8.4, relevance +8, freshness +19.8, corroborated +10
+- **Score parts:** tier +20, category +14, lead +8.4, relevance +8, freshness +19.3, corroborated +10
 
-### 🟡 [80.2] China Southern late-2026 One-Time Luxembourg Aircraft Changes
+### 🟡 [79.7] China Southern late-2026 One-Time Luxembourg Aircraft Changes
 - **Verdict:** CONSIDER
 - **Source:** AeroRoutes schedule filings · tier 2 · GLOBAL · aviation-tracker
 - **First seen:** 2026-10-15T22:15+03:00 EAT · **Source date:** 2026-10-15
 - **URL:** https://www.aeroroutes.com/eng/261015-czdec26lux
 - **Extract:** Published at 0900PDT / 1600GMT 15OCT26 China Southern at the end of 2026 schedules one-time aircraft changes on Guangzhou – Zhengzhou – Luxembourg route. On 31DEC26, this service will be operated by 787-9, instead of A350-900 (Luxembourg departure on 01JAN27).
-- **Score parts:** tier +20, category +14, lead +8.4, relevance +8, freshness +19.8, corroborated +10
+- **Score parts:** tier +20, category +14, lead +8.4, relevance +8, freshness +19.3, corroborated +10
 
-### 🟡 [80.2] Rex Cancels 2 Sydney Routes From late-Oct 2026
+### 🟡 [79.7] Rex Cancels 2 Sydney Routes From late-Oct 2026
 - **Verdict:** CONSIDER
 - **Source:** AeroRoutes schedule filings · tier 2 · GLOBAL · aviation-tracker
 - **First seen:** 2026-10-15T11:23+03:00 EAT · **Source date:** 2026-10-15
 - **URL:** https://www.aeroroutes.com/eng/261015-zlnw26syd
 - **Extract:** Published at 0000PDT / 0700GMT 15OCT26 Australian carrier Regional Express (Rex) at the launch of Northern winter 2026/27 season is cancelling 2 routes from Sydney, where it will no longer operates service to Orange and Port Macquarie. Following routes will no
-- **Score parts:** tier +20, category +14, lead +8.4, relevance +20, freshness +7.8, corroborated +10
+- **Score parts:** tier +20, category +14, lead +8.4, relevance +20, freshness +7.3, corroborated +10
 
-### 🟡 [79.0] Cambodia Connects with Coastal Eastern Sabah and Other Asian Places as US Releases Travel Advisory Over Rising Abduction
+### 🟡 [78.5] Cambodia Connects with Coastal Eastern Sabah and Other Asian Places as US Releases Travel Advisory Over Rising Abduction
 - **Verdict:** CONSIDER
 - **Source:** Travel And Tour World · tier 3 · GLOBAL · trade
 - **First seen:** 2026-10-15T06:40+03:00 EAT · **Source date:** 2026-10-15
 - **URL:** https://www.travelandtourworld.com/news/article/xbn5vf9p3rs1
 - **Shock language:** level 4
 - **Extract:** Cambodia Connects with Coastal Eastern Sabah and Other Asian Places as US Releases Travel Advisory Over Rising Abduction Risks and Urgent Border Constraints Cambodia areas within 50km of the Thai border are under US Level 4 advice; eastern Sabah islands and wa
-- **Score parts:** tier +5, category +5, lead +2.4, relevance +36, freshness +2.6, corroborated +10, shock +18
+- **Score parts:** tier +5, category +5, lead +2.4, relevance +36, freshness +2.1, corroborated +10, shock +18
 
 ### 🟡 [77.6] Lufthansa Group begrüßt Zusage im TAP Air Portugal Privatisierungsverfahren
 - **Verdict:** CONSIDER
