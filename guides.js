@@ -1,5 +1,14 @@
 window.GUIDES = [
  {
+  "slug": "east-africa-business-events-bidding-with-a-building",
+  "title": "The most movable money in travel is shopping for a destination. Kenya has been bidding with a building site.",
+  "description": "Nine in ten meeting planners expect to spend more in 2027 and four in ten have already moved an event's destination under cost and geopolitical pressure. Africa holds about 4% of the world's association meetings, and the two East African capitals chasing the segment this week are chasing two very different versions of it.",
+  "category": "Big Read",
+  "updated": "2026-10-15",
+  "readMins": 8,
+  "image": "img/editions/east-africa-business-events-bidding-with-a-building.jpg"
+ },
+ {
   "slug": "kenya-hotel-classification-stale-star",
   "title": "Kenya is about to re-grade its hotels. The stars being sold today were set in 2018.",
   "description": "The Tourism Regulatory Authority starts its national classification exercise in Nairobi and Kiambu on 26 October, eight years after the last one. Kenya is the only EAC state with more four-star hotels than three-star, and its public register of classified hotels currently returns a single record named Test Entity 1.",
