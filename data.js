@@ -1,5 +1,14 @@
 window.EDITIONS = [
  {
+  "id": "pulse-2026-10-16-evening",
+  "date": "2026-10-16",
+  "dateDisplay": "Friday, 16 October 2026",
+  "edition": "Evening Wrap",
+  "editionKey": "evening",
+  "summary": "Kenya confirmed a second Ebola case on 14 October, a 39-year-old relative already in quarantine",
+  "bodyHtml": "<p><strong>Kenya confirmed a second Ebola case on 14 October, a 39-year-old relative already in quarantine</strong><br><em>🌆 Evening Wrap · Fri 16 Oct 2026 · catch-up edition, covers 14–16 Oct</em></p>\n<p>━━━━━━━━━<br><span class=\"item-head\">1️⃣ Kenya confirmed a second Ebola case on 14 October, a 39-year-old relative already in quarantine</span></p>\n<p>Symptoms began 13 Oct; two labs confirmed it. Kenya now has two cases and one death. The first patient had 128 listed contacts: 113 traced, 108 in quarantine, 5 outside Kenya, 15 still being traced. The Ministry sees no wider community spread and no restriction on travel, trade or gatherings <strong>(Ministry of Health via Pulse Kenya and Medical Daily, 14–15 Oct)</strong>.<br>Our inference: a case inside quarantine is the system working, but contacts are watched for 21 days, so the count can move into November.<br><span class=\"sowhat\">🎯 So what: keep staff briefings factual and watch the Public Health PS&#x27;s suspension of government meetings in hotels.</span><br><span class=\"tagline\">🏷 City, Bush, Beach | Kenya | Confirmed | impact:risk</span></p>\n<p><span class=\"item-head\">2️⃣ The US lowered Tanzania from Level 3 to Level 2 on 16 October</span></p>\n<p>It had been Level 3, &quot;reconsider travel&quot;, since 31 Oct 2025. Level 2 cites crime, terrorism, health (a new indicator), unrest and arbitrary law enforcement. Mtwara, on the Mozambique border, stays at &quot;reconsider travel&quot; <strong>(travel.state.gov, 16 Oct)</strong>.<br>Our inference: the page is country-wide, so Zanzibar should inherit it; we saw no separate line.<br><span class=\"sowhat\">🎯 So what: US-market sellers can drop the Level 3 caveat from Tanzania quotes now.</span><br><span class=\"tagline\">🏷 Bush, Beach | Tanzania, Zanzibar | Confirmed | impact:demand</span></p>\n<p><span class=\"item-head\">3️⃣ Kenya&#x27;s EPRA lifted pump prices from 15 October: petrol KSh226.96, diesel KSh227.76, kerosene KSh219.85</span></p>\n<p>Rises of KSh12.93, KSh9.90 and KSh28.49 respectively, valid to 14 Nov. EPRA&#x27;s director-general Edward Kinyua blamed the Middle East conflict for higher import costs <strong>(The Star, 14 Oct)</strong>. Diesel now sits above petrol. The VAT extension bill&#x27;s outcome is not confirmed.<br><span class=\"sowhat\">🎯 So what: re-cost transfer and generator budgets at about KSh228 a litre of diesel until 14 Nov.</span><br><span class=\"tagline\">🏷 City, Bush, Beach | Kenya | Confirmed | impact:margin</span></p>\n<p><strong>🏗 DEAL FLOW:</strong> 🇺🇬 Mirima Kibale Lodge has opened: 10 forest cottages (8 suites, 2 family villas) on a ridge above Lake Nyamirima, about 16 km from Kibale&#x27;s Kanyanchu centre, <strong>(Tourism Update, 16 Oct; operator release not seen)</strong>. 🇺🇬 Kampala Marriott (181 rooms, opened 27 Aug) is valued at about US$167m, implied by NSSF paying US$50m for 30% <strong>(Billionaires.Africa, 15 Oct, citing New Vision; secondary)</strong>.</p>\n<p><strong>📻 ALSO TONIGHT</strong><br>🌍 EAC tourism ministers (Arusha, 15 Oct) adopted a 2027–2036 tourism marketing strategy and the brand &quot;Visit East Africa: Feel the Vibe&quot;, urged faster hotel classification before AFCON 2027, and set the Single Tourist Visa study for 20 Oct, comments by 30 Nov <strong>(EAC, 15 Oct)</strong>.<br>🇹🇿 StawiBluu, a US$18.5m EU and German programme run by GIZ, backs sustainable tourism and aquaculture across Dar, Bagamoyo, Unguja, Pemba and Mafia; launched 8 Oct <strong>(Tourism Update, 16 Oct)</strong>.</p>\n<p><strong>⏳ CATCHING UP</strong><br>✈️ Freedom Airline began Nairobi–Lodwar flights on Tue and Sat from 18 Sep <strong>(Kenya Airports Authority, 15 Oct)</strong>.</p>\n<p><strong>📅 WEEK AHEAD</strong> EAC Single Tourist Visa study due 20 Oct; Kenya contact monitoring runs 21 days; US entry order on Uganda, DRC and South Sudan to about 8–10 Nov.</p>\n<p><strong>🔍 BLIND SPOTS</strong> No 15 Oct Wrap ran. UK, Canadian, German and French advisories, WHO and Africa CDC were web-scanned, not opened. KPC strike outcome unread. Hotelsafrica items are undated, so none ran.</p>\n<p>🔗 This edition on the web: <a href=\"https://eahospitalitypulse.com/editions/pulse-2026-10-16-evening.html\" rel=\"noopener\">eahospitalitypulse.com/editions/pulse-2026-10-16-evenin…</a></p>"
+ },
+ {
   "id": "pulse-2026-10-14-evening",
   "date": "2026-10-14",
   "dateDisplay": "Wednesday, 14 October 2026",
@@ -1216,6 +1225,68 @@ window.EDITIONS = [
  }
 ];
 window.INSIGHTS = [
+ {
+  "headline": "Kenya confirmed a second Ebola case on 14 October, a 39-year-old relative already in quarantine",
+  "body": "Symptoms began 13 Oct; two labs confirmed it. Kenya now has two cases and one death. The first patient had 128 listed contacts: 113 traced, 108 in quarantine, 5 outside Kenya, 15 still being traced. The Ministry sees no wider community spread and no restriction on travel, trade or gatherings *(Ministry of Health via Pulse Kenya and Medical Daily, 14–15 Oct)*. Our inference: a case inside quarantine is the system working, but contacts are watched for 21 days, so the count can move into November.",
+  "sowhat": "🎯 So what: keep staff briefings factual and watch the Public Health PS's suspension of government meetings in hotels.",
+  "segments": [
+   "city",
+   "bush",
+   "beach"
+  ],
+  "countries": "Kenya",
+  "confidence": "Confirmed",
+  "impact": "risk",
+  "impactClass": "risk",
+  "intensity": 3,
+  "impactSet": "author",
+  "source": "pulse-2026-10-16-evening",
+  "date": "2026-10-16",
+  "dateDisplay": "Friday, 16 October 2026",
+  "edition": "Evening Wrap",
+  "editionKey": "evening"
+ },
+ {
+  "headline": "The US lowered Tanzania from Level 3 to Level 2 on 16 October",
+  "body": "It had been Level 3, \"reconsider travel\", since 31 Oct 2025. Level 2 cites crime, terrorism, health (a new indicator), unrest and arbitrary law enforcement. Mtwara, on the Mozambique border, stays at \"reconsider travel\" *(travel.state.gov, 16 Oct)*. Our inference: the page is country-wide, so Zanzibar should inherit it; we saw no separate line.",
+  "sowhat": "🎯 So what: US-market sellers can drop the Level 3 caveat from Tanzania quotes now.",
+  "segments": [
+   "bush",
+   "beach"
+  ],
+  "countries": "Tanzania, Zanzibar",
+  "confidence": "Confirmed",
+  "impact": "+demand",
+  "impactClass": "demand",
+  "intensity": 3,
+  "impactSet": "author",
+  "source": "pulse-2026-10-16-evening",
+  "date": "2026-10-16",
+  "dateDisplay": "Friday, 16 October 2026",
+  "edition": "Evening Wrap",
+  "editionKey": "evening"
+ },
+ {
+  "headline": "Kenya's EPRA lifted pump prices from 15 October: petrol KSh226.96, diesel KSh227.76, kerosene KSh219.85",
+  "body": "Rises of KSh12.93, KSh9.90 and KSh28.49 respectively, valid to 14 Nov. EPRA's director-general Edward Kinyua blamed the Middle East conflict for higher import costs *(The Star, 14 Oct)*. Diesel now sits above petrol. The VAT extension bill's outcome is not confirmed.",
+  "sowhat": "🎯 So what: re-cost transfer and generator budgets at about KSh228 a litre of diesel until 14 Nov.",
+  "segments": [
+   "city",
+   "bush",
+   "beach"
+  ],
+  "countries": "Kenya",
+  "confidence": "Confirmed",
+  "impact": "-margin",
+  "impactClass": "margin",
+  "intensity": 3,
+  "impactSet": "author",
+  "source": "pulse-2026-10-16-evening",
+  "date": "2026-10-16",
+  "dateDisplay": "Friday, 16 October 2026",
+  "edition": "Evening Wrap",
+  "editionKey": "evening"
+ },
  {
   "headline": "Kenya's EPRA review is reported to add about KSh12 to petrol and KSh9 to diesel from 15 October",
   "body": "The review for 15 Oct to 14 Nov was due at 4 pm on 14 Oct. Pulse Kenya (14 Oct) and The Kenya Times (14 Oct) report rises of about KSh12 on petrol and KSh9 on diesel, citing landed costs: super petrol at Mombasa up from about US$1,199 to US$1,385 a tonne, diesel from US$1,200 to US$1,313 (August to September). Pulse's own pump prices contradict each other, so we quote none. Rigathi Gachagua claimed them beforehand; Energy CS Opiyo Wandayi rejected him, saying EPRA sets prices *(Capital FM, Allafrica, 14 Oct)*. To 14 Oct: Nairobi petrol KSh214.03, diesel KSh217.86. Our inference: matching figures prove nothing either way.",
@@ -6937,4 +7008,4 @@ window.INSIGHTS = [
   "editionKey": "evening"
  }
 ];
-window.BUILT_AT = "2026-10-16 06:08";
+window.BUILT_AT = "2026-10-16 16:18";
