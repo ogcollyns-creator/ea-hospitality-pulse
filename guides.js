@@ -1,5 +1,14 @@
 window.GUIDES = [
  {
+  "slug": "gulf-surplus-capacity-east-africa-hub-bet",
+  "title": "The Gulf added a third daily flight to Nairobi while its own hub was losing a third of its passengers. That is not confidence, it is surplus.",
+  "description": "Dubai International carried 31% fewer passengers in the first half of 2026 and Middle East arrivals fell 22%, yet Emirates put a third daily service into Nairobi on 1 July and signed a marketing agreement with the Kenya Tourism Board in September. Kenya is measuring the deal by Middle Eastern visitors, a market worth 20,480 arrivals. The thing it has actually bought is a transfer desk, and the price is good because the aircraft has nowhere better to be.",
+  "category": "Big Read",
+  "updated": "2026-10-16",
+  "readMins": 7,
+  "image": "img/editions/gulf-surplus-capacity-east-africa-hub-bet.jpg"
+ },
+ {
   "slug": "east-africa-business-events-bidding-with-a-building",
   "title": "The most movable money in travel is shopping for a destination. Kenya has been bidding with a building site.",
   "description": "Nine in ten meeting planners expect to spend more in 2027 and four in ten have already moved an event's destination under cost and geopolitical pressure. Africa holds about 4% of the world's association meetings, and the two East African capitals chasing the segment this week are chasing two very different versions of it.",
