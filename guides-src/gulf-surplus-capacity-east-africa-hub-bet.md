@@ -4,8 +4,9 @@ slug: gulf-surplus-capacity-east-africa-hub-bet
 description: Dubai International carried 31% fewer passengers in the first half of 2026 and Middle East arrivals fell 22%, yet Emirates put a third daily service into Nairobi on 1 July and signed a marketing agreement with the Kenya Tourism Board in September. Kenya is measuring the deal by Middle Eastern visitors, a market worth 20,480 arrivals. The thing it has actually bought is a transfer desk, and the price is good because the aircraft has nowhere better to be.
 category: Big Read
 updated: 2026-10-16
+image: "img/editions/gulf-surplus-capacity-east-africa-hub-bet.jpg"
+image_credit: "Handout: Emirates - editorial use"
 ---
-
 EK717 came in over Embakasi at twenty past five on the morning of 1 July, an hour when Jomo Kenyatta International Airport is already busy with the European red-eyes. The Boeing 777 was the third Emirates arrival of the day from Dubai, a frequency the route had never carried before. Teresia Mbaika, Kenya's Principal Secretary for Aviation and Aerospace Development, called it "a strong vote of confidence in Kenya's aviation, tourism and trade sectors". Christophe Leloup, Emirates' country manager for Kenya, noted that "for three decades, Kenya has been one of Emirates' most important destinations in Africa". The route went to 21 weekly flights, and the carrier added 280 tonnes of weekly cargo capacity on top.
 
 Both statements are true. Neither explains the timing. On the morning that third daily landed, the hub it had flown from was four months into the worst disruption in its history. The US and Israeli war on Iran began on 28 February. Within days, Qatar, Saudi Arabia, the UAE, Kuwait, Bahrain, Oman and Jordan had closed their airspace partially or completely, and Iranian projectiles had struck or been intercepted over the airports at Dubai, Abu Dhabi, Kuwait and Bahrain. Emirates resumed a handful of departures on 3 March, Etihad on 6 March, Qatar Airways the week after. Restoring the schedules took months. Dubai International handled 31% fewer passengers in the first half of 2026 than in the same period of 2025.
