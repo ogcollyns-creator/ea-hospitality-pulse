@@ -1,48 +1,44 @@
 {
- "generated": "2026-10-16T06:42:10+03:00",
- "slot": "morning",
- "window_start": 1792076400,
- "observations_in_window": 474,
+ "generated": "2026-10-16T11:18:45+03:00",
+ "slot": "midday",
+ "window_start": 1792123200,
+ "observations_in_window": 218,
  "deduped_against": 23,
  "candidates": [
   {
-   "score": 102.2,
+   "score": 117.8,
    "components": {
     "tier": 40,
-    "category": 24,
-    "lead": 3.6,
-    "relevance": 12,
-    "freshness": 14.6,
-    "undated": -6,
-    "shock": 18,
+    "category": 32,
+    "lead": 12.0,
+    "relevance": 8,
+    "freshness": 19.8,
+    "corroborated": 10,
     "page_change": -4
    },
    "keywords": [
-    "outbreak"
+    "fee"
    ],
-   "shock_terms": [
-    "outbreak"
-   ],
+   "shock_terms": [],
    "dedupe_match": null,
-   "dedupe_similarity": 0.12,
-   "id": "7865a37c93eb",
-   "title": "[page changed] WHO Disease Outbreak News",
-   "url": "https://www.who.int/rss-feeds/news-english.xml",
-   "summary": "\ufeff News (English) - World Health Organization https://www.who.int/ Corporate news releases, statements, and notes for media issued by the World Health Organization. urn:uuid:0ce5fa04-9ac3-465f-89cf-15a8e5a748dd https://www.who.int/news/item/25-02-2026-who-director-general-visits-jordan-to-recognize-strong-collaboration-on-health-system-delivery--emergency-relief-and-advancing-mental-health WHO Dire",
+   "dedupe_similarity": 0.11,
+   "id": "07add32c6869",
+   "title": "[page changed] Federal Register \u2014 CDC notices",
+   "url": "https://www.federalregister.gov/api/v1/documents.rss?conditions%5Bagencies%5D%5B%5D=centers-for-disease-control-and-prevention&order=newest",
+   "summary": "Federal Register Documents published on or after 09/16/2026 and from Centers for Disease Control and Prevention https://www.federalregister.gov/api/v1/documents.rss?conditions%5Bagencies%5D%5B%5D=centers-for-disease-control-and-prevention&order=newest Fri, 16 Oct 2026 04:00:00 GMT The documents in this feed originate from FederalRegister.gov which displays an unofficial web version of the daily Fe",
    "kind": "page-change",
-   "source": "WHO Disease Outbreak News",
-   "source_id": "who-don",
+   "source": "Federal Register \u2014 CDC notices",
+   "source_id": "us-fedreg-cdc",
    "tier": 1,
-   "country": "GLOBAL",
-   "category": "health",
+   "country": "REG",
+   "category": "advisory",
    "segments": [
     "city",
-    "bush",
-    "beach"
+    "bush"
    ],
-   "first_seen": "2026-10-16T01:56+03:00",
-   "published": null,
-   "verdict": "OPEN THIS \u2014 tier-1 health page moved; content not auto-parsed, read it manually"
+   "first_seen": "2026-10-16T11:16+03:00",
+   "published": "2026-11-10",
+   "verdict": "OPEN THIS \u2014 tier-1 advisory page moved; content not auto-parsed, read it manually"
   },
   {
    "score": 101.3,
@@ -59,7 +55,7 @@
    "shock_terms": [],
    "dedupe_match": null,
    "dedupe_similarity": 0.2,
-   "id": "f8680ef75a12",
+   "id": "79856b516eff",
    "title": "[page changed] Federal Register \u2014 public inspection (HHS/CDC), pre-publication",
    "url": "https://www.federalregister.gov/api/v1/public-inspection-documents/current.json",
    "summary": "{\"count\":134,\"results\":[{\"agencies\":[{\"raw_name\":\"SMALL BUSINESS ADMINISTRATION\",\"name\":\"Small Business Administration\",\"id\":468,\"url\":\"https://www.federalregister.gov/agencies/small-business-administration\",\"json_url\":\"https://www.federalregister.gov/api/v1/agencies/468\",\"parent_id\":null,\"slug\":\"small-business-administration\"}],\"agency_letters\":[],\"agency_names\":[\"Small Business Administration\"],",
@@ -73,419 +69,69 @@
     "city",
     "bush"
    ],
-   "first_seen": "2026-10-16T06:35+03:00",
+   "first_seen": "2026-10-16T11:15+03:00",
    "published": "2026-10-15",
    "verdict": "OPEN THIS \u2014 tier-1 advisory page moved; content not auto-parsed, read it manually"
   },
   {
-   "score": 96.2,
+   "score": 117.8,
    "components": {
     "tier": 40,
     "category": 32,
-    "lead": 3.6,
-    "relevance": 0,
-    "freshness": 14.6,
-    "corroborated": 10,
-    "page_change": -4
-   },
-   "keywords": [],
-   "shock_terms": [],
-   "dedupe_match": null,
-   "dedupe_similarity": 0.2,
-   "id": "a59bff1f85df",
-   "title": "[page changed] Federal Register \u2014 public inspection (HHS/CDC), pre-publication",
-   "url": "https://www.federalregister.gov/api/v1/public-inspection-documents/current.json",
-   "summary": "{\"count\":134,\"results\":[{\"agencies\":[{\"raw_name\":\"SMALL BUSINESS ADMINISTRATION\",\"name\":\"Small Business Administration\",\"id\":468,\"url\":\"https://www.federalregister.gov/agencies/small-business-administration\",\"json_url\":\"https://www.federalregister.gov/api/v1/agencies/468\",\"parent_id\":null,\"slug\":\"small-business-administration\"}],\"agency_letters\":[],\"agency_names\":[\"Small Business Administration\"],",
-   "kind": "page-change",
-   "source": "Federal Register \u2014 public inspection (HHS/CDC), pre-publication",
-   "source_id": "us-fedreg-pubinspect-hhs",
-   "tier": 1,
-   "country": "REG",
-   "category": "advisory",
-   "segments": [
-    "city",
-    "bush"
-   ],
-   "first_seen": "2026-10-16T01:56+03:00",
-   "published": "2026-10-15",
-   "verdict": "OPEN THIS \u2014 tier-1 advisory page moved; content not auto-parsed, read it manually"
-  },
-  {
-   "score": 92.1,
-   "components": {
-    "tier": 40,
-    "category": 32,
-    "lead": 3.6,
-    "relevance": 0,
-    "freshness": 10.5,
-    "corroborated": 10,
-    "page_change": -4
-   },
-   "keywords": [],
-   "shock_terms": [],
-   "dedupe_match": null,
-   "dedupe_similarity": 0.2,
-   "id": "7590de70bd02",
-   "title": "[page changed] Federal Register \u2014 public inspection (HHS/CDC), pre-publication",
-   "url": "https://www.federalregister.gov/api/v1/public-inspection-documents/current.json",
-   "summary": "{\"count\":132,\"results\":[{\"agencies\":[{\"raw_name\":\"SMALL BUSINESS ADMINISTRATION\",\"name\":\"Small Business Administration\",\"id\":468,\"url\":\"https://www.federalregister.gov/agencies/small-business-administration\",\"json_url\":\"https://www.federalregister.gov/api/v1/agencies/468\",\"parent_id\":null,\"slug\":\"small-business-administration\"}],\"agency_letters\":[],\"agency_names\":[\"Small Business Administration\"],",
-   "kind": "page-change",
-   "source": "Federal Register \u2014 public inspection (HHS/CDC), pre-publication",
-   "source_id": "us-fedreg-pubinspect-hhs",
-   "tier": 1,
-   "country": "REG",
-   "category": "advisory",
-   "segments": [
-    "city",
-    "bush"
-   ],
-   "first_seen": "2026-10-15T22:15+03:00",
-   "published": "2026-10-15",
-   "verdict": "OPEN THIS \u2014 tier-1 advisory page moved; content not auto-parsed, read it manually"
-  },
-  {
-   "score": 65.3,
-   "components": {
-    "tier": 40,
-    "category": 12,
-    "lead": 3.6,
-    "relevance": 0,
-    "freshness": 19.7,
-    "undated": -6,
-    "page_change": -4
-   },
-   "keywords": [],
-   "shock_terms": [],
-   "dedupe_match": null,
-   "dedupe_similarity": 0.0,
-   "id": "f19a1bc5a7e2",
-   "title": "[page changed] Airlink news",
-   "url": "https://www.flyairlink.com/",
-   "summary": "Request unsuccessful. Incapsula incident ID: 2107000770420848601-555271746035061583",
-   "kind": "page-change",
-   "source": "Airlink news",
-   "source_id": "air-airlink",
-   "tier": 1,
-   "country": "REG",
-   "category": "airline",
-   "segments": [
-    "city",
-    "bush",
-    "beach"
-   ],
-   "first_seen": "2026-10-16T06:34+03:00",
-   "published": null,
-   "verdict": "OPEN THIS \u2014 tier-1 airline page moved; content not auto-parsed, read it manually"
-  },
-  {
-   "score": 105.5,
-   "components": {
-    "tier": 40,
-    "category": 7,
-    "lead": 16.8,
-    "relevance": 12,
-    "freshness": 19.7,
-    "corroborated": 10
-   },
-   "keywords": [
-    "airport",
-    "airline"
-   ],
-   "shock_terms": [],
-   "dedupe_match": null,
-   "dedupe_similarity": 0.25,
-   "id": "3936e2aa67f8",
-   "title": "Stakeholders review full-scale emergency exercise at JKIA",
-   "url": "https://www.kaa.go.ke/jkia-emergency-exercise-review",
-   "summary": "Stakeholders from government agencies, airlines, emergency health providers and other airport partners met on Monday, 22 June 2026 to review the Full-Scale Emergency Exercise held at Jomo Kenyatta International\u2026",
-   "kind": "item",
-   "source": "KAA tenders",
-   "source_id": "ke-kaa-tenders",
-   "tier": 1,
-   "country": "KE",
-   "category": "tender",
-   "segments": [
-    "city",
-    "bush",
-    "beach"
-   ],
-   "first_seen": "2026-10-16T06:35+03:00",
-   "published": "2026-10-15",
-   "verdict": "STRONG \u2014 tier-1, upstream"
-  },
-  {
-   "score": 101.5,
-   "components": {
-    "tier": 40,
-    "category": 7,
-    "lead": 16.8,
-    "relevance": 8,
-    "freshness": 19.7,
-    "corroborated": 10
-   },
-   "keywords": [
-    "airport"
-   ],
-   "shock_terms": [],
-   "dedupe_match": null,
-   "dedupe_similarity": 0.2,
-   "id": "740c84159695",
-   "title": "KAA and partners plant 16,000 trees at Dongo Kundu",
-   "url": "https://www.kaa.go.ke/dongo-kundu-tree-planting",
-   "summary": "Kenya Airports Authority and the Kenya Civil Aviation Authority led a tree planting exercise at Dongo Kundu in Mombasa, where participants planted 16,000 tree seedlings.",
-   "kind": "item",
-   "source": "KAA tenders",
-   "source_id": "ke-kaa-tenders",
-   "tier": 1,
-   "country": "KE",
-   "category": "tender",
-   "segments": [
-    "city",
-    "bush",
-    "beach"
-   ],
-   "first_seen": "2026-10-16T06:35+03:00",
-   "published": "2026-10-15",
-   "verdict": "STRONG \u2014 tier-1, upstream"
-  },
-  {
-   "score": 99.5,
-   "components": {
-    "tier": 40,
-    "category": 13,
-    "lead": 4.8,
-    "relevance": 12,
-    "freshness": 19.7,
-    "corroborated": 10
-   },
-   "keywords": [
-    "airport",
-    "airline"
-   ],
-   "shock_terms": [],
-   "dedupe_match": null,
-   "dedupe_similarity": 0.25,
-   "id": "0566d2965188",
-   "title": "Stakeholders review full-scale emergency exercise at JKIA",
-   "url": "https://www.kaa.go.ke/jkia-emergency-exercise-review",
-   "summary": "Stakeholders from government agencies, airlines, emergency health providers and other airport partners met on Monday, 22 June 2026 to review the Full-Scale Emergency Exercise held at Jomo Kenyatta International\u2026",
-   "kind": "item",
-   "source": "Kenya Airports Authority",
-   "source_id": "ke-kaa",
-   "tier": 1,
-   "country": "KE",
-   "category": "aviation",
-   "segments": [
-    "city",
-    "bush",
-    "beach"
-   ],
-   "first_seen": "2026-10-16T06:35+03:00",
-   "published": "2026-10-15",
-   "verdict": "STRONG \u2014 tier-1, upstream"
-  },
-  {
-   "score": 97.6,
-   "components": {
-    "tier": 40,
-    "category": 7,
-    "lead": 6.0,
-    "relevance": 20,
-    "freshness": 14.6,
-    "corroborated": 10
-   },
-   "keywords": [
-    "fee",
-    "wildlife",
-    "tourism"
-   ],
-   "shock_terms": [],
-   "dedupe_match": null,
-   "dedupe_similarity": 0.11,
-   "id": "fdf6cf5ab0c4",
-   "title": "EAC Ministers Adopt Ten-Year Tourism Marketing Strategy and Commit to Leverage AFCON 2027",
-   "url": "https://www.eac.int/press-releases/156-tourism-wildlife-management/3608-eac-ministers-adopt-ten-year-tourism-marketing-strategy-and-commit-to-leverage-afcon-2027",
-   "summary": "East African Community Headquarters, Arusha, Tanzania,15th October, 2026: EAC Ministers responsible for Tourism and Wildlife Management have adopted the EAC Tourism Marketing Strategy (2027\u20132036), setting a ten-year framework for joint efforts to promote East Africa as a single, competitive tourism destination. The Strategy will leverage the region\u2019s natural and cultural heritage through digital m",
-   "kind": "item",
-   "source": "East African Community \u2014 Secretariat news",
-   "source_id": "eac-secretariat",
-   "tier": 1,
-   "country": "Regional",
-   "category": "body",
-   "segments": [
-    "city"
-   ],
-   "first_seen": "2026-10-16T01:56+03:00",
-   "published": "2026-10-15",
-   "verdict": "STRONG \u2014 tier-1, upstream"
-  },
-  {
-   "score": 95.5,
-   "components": {
-    "tier": 40,
-    "category": 13,
-    "lead": 4.8,
-    "relevance": 8,
-    "freshness": 19.7,
-    "corroborated": 10
-   },
-   "keywords": [
-    "airport"
-   ],
-   "shock_terms": [],
-   "dedupe_match": null,
-   "dedupe_similarity": 0.2,
-   "id": "3981559e84eb",
-   "title": "KAA and partners plant 16,000 trees at Dongo Kundu",
-   "url": "https://www.kaa.go.ke/dongo-kundu-tree-planting",
-   "summary": "Kenya Airports Authority and the Kenya Civil Aviation Authority led a tree planting exercise at Dongo Kundu in Mombasa, where participants planted 16,000 tree seedlings.",
-   "kind": "item",
-   "source": "Kenya Airports Authority",
-   "source_id": "ke-kaa",
-   "tier": 1,
-   "country": "KE",
-   "category": "aviation",
-   "segments": [
-    "city",
-    "bush",
-    "beach"
-   ],
-   "first_seen": "2026-10-16T06:35+03:00",
-   "published": "2026-10-15",
-   "verdict": "STRONG \u2014 tier-1, upstream"
-  },
-  {
-   "score": 89.5,
-   "components": {
-    "tier": 40,
-    "category": 7,
-    "lead": 16.8,
+    "lead": 0.0,
     "relevance": 16,
-    "freshness": 19.7,
-    "stale_trap": -10
+    "freshness": 19.8,
+    "corroborated": 10
    },
    "keywords": [
-    "vat",
-    "airport"
+    "advisory",
+    "conference"
    ],
    "shock_terms": [],
    "dedupe_match": null,
-   "dedupe_similarity": 0.11,
-   "id": "d19844b74033",
-   "title": "Eldoret International Airport joins neighbours for Mazingira Day clean-up",
-   "url": "https://www.kaa.go.ke/eldoret-mazingira-day-clean-up",
-   "summary": "Eldoret International Airport held a clean-up along the Kapsabet\u2013Eldoret Road on Friday, 9 October 2026, the eve of Mazingira Day, the national day for environmental conservation observed every 10 October.",
+   "dedupe_similarity": 0.33,
+   "id": "84c248af9c35",
+   "title": "Meeting of the Advisory Council for the Elimination of Tuberculosis",
+   "url": "https://www.federalregister.gov/documents/2026/10/16/2026-21125/meeting-of-the-advisory-council-for-the-elimination-of-tuberculosis",
+   "summary": "In accordance with the Federal Advisory Committee Act, the Centers for Disease Control and Prevention (CDC) announces the following meeting of the Advisory Council for the Elimination of Tuberculosis (ACET). This meeting is open to the public, limited only by the number of audio and web conference lines (1,000 lines are available). Time will be available for public comment (registration is require",
    "kind": "item",
-   "source": "KAA tenders",
-   "source_id": "ke-kaa-tenders",
+   "source": "Federal Register \u2014 CDC documents (newest first)",
+   "source_id": "fr-cdc-agency-feed",
    "tier": 1,
-   "country": "KE",
-   "category": "tender",
+   "country": "GLOBAL",
+   "category": "advisory",
    "segments": [
-    "city",
-    "bush",
-    "beach"
+    "Bush",
+    "City",
+    "Beach"
    ],
-   "first_seen": "2026-10-16T06:35+03:00",
-   "published": "2026-10-09",
-   "verdict": "CHECK \u2014 source date older than the window"
+   "first_seen": "2026-10-16T11:16+03:00",
+   "published": "2026-10-16",
+   "verdict": "STRONG \u2014 tier-1, upstream"
   },
   {
-   "score": 88.9,
-   "components": {
-    "tier": 20,
-    "category": 4,
-    "lead": 2.4,
-    "relevance": 24,
-    "freshness": 10.5,
-    "corroborated": 10,
-    "shock": 18
-   },
-   "keywords": [
-    "outbreak",
-    "ebola"
-   ],
-   "shock_terms": [
-    "outbreak"
-   ],
-   "dedupe_match": null,
-   "dedupe_similarity": 0.12,
-   "id": "928c5037c97a",
-   "title": "From Ebola fighter to survivor, DRC doctor vows to return to front lines",
-   "url": "https://www.independent.co.ug/from-ebola-fighter-to-survivor-drc-doctor-vows-to-return-to-front-lines",
-   "summary": "BENI, DRC | Xinhua | For years, Alex Olela fought Ebola from the front lines, treating patients during five outbreaks of the deadly disease in the Democratic Republic of the Congo (DRC). Then, in a cruel twist, the doctor found himself on the other side of the battle \u2014 not as a caregiver, but \u2026 The post From Ebola fighter to survivor, DRC doctor vows to return to front lines appeared first on The ",
-   "kind": "item",
-   "source": "The Independent (Uganda)",
-   "source_id": "ug-independent",
-   "tier": 2,
-   "country": "UG",
-   "category": "press",
-   "segments": [
-    "city",
-    "bush",
-    "beach"
-   ],
-   "first_seen": "2026-10-15T22:15+03:00",
-   "published": "2026-10-15",
-   "verdict": "CONSIDER"
-  },
-  {
-   "score": 88.5,
-   "components": {
-    "tier": 40,
-    "category": 10,
-    "lead": 16.8,
-    "relevance": 8,
-    "freshness": 19.7,
-    "undated": -6
-   },
-   "keywords": [
-    "tax"
-   ],
-   "shock_terms": [],
-   "dedupe_match": null,
-   "dedupe_similarity": 0.25,
-   "id": "e45e018c7944",
-   "title": "NIN\u2013TIN integration to expand Uganda\u2019s tax base Thursday, 15 October 2026",
-   "url": "https://www.parliament.go.ug/news/4668/nin-tin-integration-expand-ugandas-tax-base",
-   "summary": "",
-   "kind": "item",
-   "source": "Parliament of Uganda",
-   "source_id": "ug-parliament",
-   "tier": 1,
-   "country": "UG",
-   "category": "legislature",
-   "segments": [
-    "city",
-    "bush",
-    "beach"
-   ],
-   "first_seen": "2026-10-16T06:35+03:00",
-   "published": null,
-   "verdict": "CONSIDER"
-  },
-  {
-   "score": 88.1,
+   "score": 100.2,
    "components": {
     "tier": 20,
     "category": 14,
     "lead": 8.4,
-    "relevance": 16,
-    "freshness": 19.7,
+    "relevance": 28,
+    "freshness": 19.8,
     "corroborated": 10
    },
    "keywords": [
+    "vat",
+    "adr",
     "route",
-    "airline",
-    "flight"
+    "airline"
    ],
    "shock_terms": [],
    "dedupe_match": null,
-   "dedupe_similarity": 0.0,
-   "id": "560080364e22",
-   "title": "Austrian Discontinues Cologne/Bonn Service in Jan 2027",
-   "url": "https://www.aeroroutes.com/eng/261015-osjan27cgn",
-   "summary": "Published at 1800PDT 15OCT26 / 0100GMT 16OCT26 Austrian Airlines in the first quarter of 2027 plans to discontinue Vienna \u2013 Cologne/Bonn route, with last flight scheduled on 11JAN27. Eurowings will continue to operate this route. Austrian during winter season schedules up to 2 daily flights. OS245 VIE0720 \u2013 0855CGN EQV x67 OS249 VIE1800 \u2013 1935GN EQV x6 OS246 CGN0940 \u2013 1110VIE EQV x67 OS250 CGN2020",
+   "dedupe_similarity": 0.14,
+   "id": "1d7b24759824",
+   "title": "Hainan Airlines Nov 2026 Shenzhen Long-Haul Reductions",
+   "url": "https://www.aeroroutes.com/eng/261016-hunov26szx",
+   "summary": "Published at 0100PDT / 0800GMT 16OCT26 Hainan Airlines as of 16OCT26 filed various long-haul service changes at Shenzhen , where the airline closed reservations on various Middle East and European routes for the month of November 2026, signaling the airline\u2019s plan to extend service reductions. Shenzhen \u2013 Brussels 08NOV26 \u2013 30NOV26 3 weekly closed for reservations Shenzhen \u2013 Budapest 16NOV26 \u2013 30NO",
    "kind": "item",
    "source": "AeroRoutes schedule filings",
    "source_id": "aeroroutes",
@@ -497,27 +143,27 @@
     "bush",
     "beach"
    ],
-   "first_seen": "2026-10-16T06:35+03:00",
+   "first_seen": "2026-10-16T11:16+03:00",
    "published": "2026-10-16",
    "verdict": "CONSIDER"
   },
   {
-   "score": 86.9,
+   "score": 96.2,
    "components": {
     "tier": 40,
     "category": 24,
     "lead": 2.4,
     "relevance": 0,
-    "freshness": 10.5,
+    "freshness": 19.8,
     "corroborated": 10
    },
    "keywords": [],
    "shock_terms": [],
    "dedupe_match": null,
    "dedupe_similarity": 0.17,
-   "id": "7883d7b38d0b",
-   "title": "SitRep N\u00b0152 /MVE-BDBV/13/10/2026",
-   "url": "https://insp.cd/sitrep-n152-mve-bdbv-13-10-2026",
+   "id": "9dcba04091b9",
+   "title": "SitRep N\u00b0153 /MVE-BDBV/14/10/2026",
+   "url": "https://insp.cd/sitrep-n153-mve-bdbv-14-10-2026",
    "summary": "",
    "kind": "item",
    "source": "INSP RDC \u2014 Ebola daily situation reports (SitRep)",
@@ -529,76 +175,73 @@
     "City",
     "Bush"
    ],
-   "first_seen": "2026-10-15T22:15+03:00",
-   "published": "2026-10-15",
-   "verdict": "CONSIDER"
+   "first_seen": "2026-10-16T11:16+03:00",
+   "published": "2026-10-16",
+   "verdict": "STRONG \u2014 tier-1, upstream"
   },
   {
-   "score": 86.1,
+   "score": 88.2,
    "components": {
     "tier": 20,
-    "category": 24,
-    "lead": 2.4,
-    "relevance": 12,
-    "freshness": 19.7,
-    "undated": -6,
-    "shock": 18,
-    "page_change": -4
+    "category": 14,
+    "lead": 8.4,
+    "relevance": 16,
+    "freshness": 19.8,
+    "corroborated": 10
    },
    "keywords": [
-    "outbreak"
+    "route",
+    "airline",
+    "flight"
    ],
-   "shock_terms": [
-    "outbreak"
-   ],
+   "shock_terms": [],
    "dedupe_match": null,
-   "dedupe_similarity": 0.12,
-   "id": "49c1911caa7e",
-   "title": "[page changed] ProMED-mail",
-   "url": "https://promedmail.org/",
-   "summary": "Protecting Global Health, One Alert at a Time | ProMED Previous slide Next slide Protecting Global Health, One Alert at a Time ProMED: Your 24/7 early warning system for emerging infectious diseases worldwide. Subscribe ProMED's Weekly Pulse A snapshot of global health events from the past 7 days Latest Posts on ProMED All Date Title Fri Oct 16 2026 AVIAN INFLUENZA - PERU (03): (PIURA) HPAI H5N1, ",
-   "kind": "page-change",
-   "source": "ProMED-mail",
-   "source_id": "promed",
+   "dedupe_similarity": 0.14,
+   "id": "cec391d8a7ee",
+   "title": "Hainan Airlines Dec 2026 Haikou \u2013 Sydney Service Increases",
+   "url": "https://www.aeroroutes.com/eng/261015-hudec26haksyd",
+   "summary": "Published at 2245PDT 15OCT26 / 0545GMT 16OCT26 Hainan Airlines during the month of December 2026 once again schedules service increase on Haikou \u2013 Sydney route. From 01DEC26 to 23DEC26, service increases from 3 to 7 weekly, while additional 5 weekly flights will also be offered for the period of 18DEC26 \u2013 22DEC26. HU775 HAK0245 \u2013 1520SYD 333 x246 HU775 HAK0250 \u2013 1530SYD 333 246 HU776 SYD2100 \u2013 035",
+   "kind": "item",
+   "source": "AeroRoutes schedule filings",
+   "source_id": "aeroroutes",
    "tier": 2,
    "country": "GLOBAL",
-   "category": "health",
+   "category": "aviation-tracker",
    "segments": [
     "city",
     "bush",
     "beach"
    ],
-   "first_seen": "2026-10-16T06:35+03:00",
-   "published": null,
+   "first_seen": "2026-10-16T11:16+03:00",
+   "published": "2026-10-16",
    "verdict": "CONSIDER"
   },
   {
-   "score": 86.1,
+   "score": 82.2,
    "components": {
     "tier": 20,
     "category": 4,
     "lead": 2.4,
-    "relevance": 12,
-    "freshness": 19.7,
+    "relevance": 8,
+    "freshness": 19.8,
     "corroborated": 10,
     "shock": 18
    },
    "keywords": [
-    "strike",
-    "camp"
+    "fuel"
    ],
    "shock_terms": [
-    "strike"
+    "attack"
    ],
    "dedupe_match": null,
-   "dedupe_similarity": 0.14,
-   "id": "3222a58d40b9",
-   "title": "Students bear brunt as lecturers dig in over strike demands",
-   "url": "https://nation.africa/kenya/news/education/students-bear-brunt-as-lecturers-dig-in-over-strike-demands-5633574",
-   "summary": "Students remain untaught and idle on campuses.",
+   "dedupe_similarity": 0.29,
+   "id": "b82012d620d0",
+   "title": "Kenya Condemns Houthi Attacks on Saudi Arabia Amid Fuel Supply Concerns",
+   "url": "https://www.kenyans.co.ke/news/127882-kenya-condemns-houthi-attacks-saudi-arabia-death-toll-hits-19",
+   "summary": "Kenya relies on fuel from Saudi Arabia under the G-2G agreement, with concerns growing over fuel supply following attacks on critical infrastructure.",
    "kind": "item",
-   "source": "Nation Africa: Kenya business",
-   "source_id": "ke-nation-business",
+   "source": "Kenyans.co.ke news",
+   "source_id": "ke-kenyans",
    "tier": 2,
    "country": "KE",
    "category": "press",
@@ -607,280 +250,30 @@
     "bush",
     "beach"
    ],
-   "first_seen": "2026-10-16T06:35+03:00",
-   "published": "2026-10-15",
-   "verdict": "CONSIDER"
-  },
-  {
-   "score": 84.1,
-   "components": {
-    "tier": 20,
-    "category": 14,
-    "lead": 8.4,
-    "relevance": 12,
-    "freshness": 19.7,
-    "corroborated": 10
-   },
-   "keywords": [
-    "route",
-    "flight"
-   ],
-   "shock_terms": [],
-   "dedupe_match": null,
-   "dedupe_similarity": 0.11,
-   "id": "55699bb5c00f",
-   "title": "Air China Maintains Boeing 777 Warsaw Flights in NW26",
-   "url": "https://www.aeroroutes.com/eng/261015-canw26waw",
-   "summary": "Published at 2000PDT 15OCT26 / 0300GMT 16OCT26 Air China in the last few days filed operational aircraft for Beijing Capital \u2013 Warsaw route during Northern winter 2026/27 season, as the carrier now plans to maintain Boeing 777-300ER aircraft for the period of 25OCT26 \u2013 27MAR27, replacing A330-300. This route is served on daily basis. CA737 PEK1355 \u2013 1720WAW 773 4 CA737 PEK1400 \u2013 1720WAW 773 23 CA7",
-   "kind": "item",
-   "source": "AeroRoutes schedule filings",
-   "source_id": "aeroroutes",
-   "tier": 2,
-   "country": "GLOBAL",
-   "category": "aviation-tracker",
-   "segments": [
-    "city",
-    "bush",
-    "beach"
-   ],
-   "first_seen": "2026-10-16T06:35+03:00",
+   "first_seen": "2026-10-16T11:16+03:00",
    "published": "2026-10-16",
    "verdict": "CONSIDER"
   },
   {
-   "score": 84.1,
-   "components": {
-    "tier": 20,
-    "category": 14,
-    "lead": 8.4,
-    "relevance": 12,
-    "freshness": 19.7,
-    "corroborated": 10
-   },
-   "keywords": [
-    "route",
-    "flight"
-   ],
-   "shock_terms": [],
-   "dedupe_match": null,
-   "dedupe_similarity": 0.14,
-   "id": "fff68147fdf2",
-   "title": "Air Cara\u00efbes Extends St. Maarten Service to Year-Round in NS27",
-   "url": "https://www.aeroroutes.com/eng/261015-txns27sxm",
-   "summary": "Published at 1701PDT 15OCT26 / 0001GMT 16OCT26 Air Cara\u00efbes during Northern summer 2027 season once again intends to extend Paris Orly \u2013 St. Maarten service to year-round operation, as the carrier lists 1 weekly flight from 13MAY27 to 14OCT27. The carrier in 2026 planned to operate this route during summer season with 2 weekly flights, however this never materialized. TX520 ORY1225 \u2013 1515SXM 359 4",
-   "kind": "item",
-   "source": "AeroRoutes schedule filings",
-   "source_id": "aeroroutes",
-   "tier": 2,
-   "country": "GLOBAL",
-   "category": "aviation-tracker",
-   "segments": [
-    "city",
-    "bush",
-    "beach"
-   ],
-   "first_seen": "2026-10-16T06:35+03:00",
-   "published": "2026-10-16",
-   "verdict": "CONSIDER"
-  },
-  {
-   "score": 83.0,
-   "components": {
-    "tier": 20,
-    "category": 14,
-    "lead": 8.4,
-    "relevance": 16,
-    "freshness": 14.6,
-    "corroborated": 10
-   },
-   "keywords": [
-    "vat",
-    "airline",
-    "flight"
-   ],
-   "shock_terms": [],
-   "dedupe_match": null,
-   "dedupe_similarity": 0.22,
-   "id": "45333a0eb4f9",
-   "title": "US-Bangla Airlines Increases Dhaka \u2013 Chennai Flights in NW26",
-   "url": "https://www.aeroroutes.com/eng/261015-bsnw26maa",
-   "summary": "Published at 1500PDT / 2200GMT 15OCT26 Bangladeshi-carrier US-Bangla Airlines from mid-November 2026 plans to increase Dhaka \u2013 Chennai flights, as the carrier this week opened reservations for additional flights. From 13NOV26, overall service will increase from 3 to 5 weekly, on board Boeing 737-800. BS205 DAC1045 \u2013 1255MAA 738 x13 BS206 MAA1355 \u2013 1705DAC 738 x13",
-   "kind": "item",
-   "source": "AeroRoutes schedule filings",
-   "source_id": "aeroroutes",
-   "tier": 2,
-   "country": "GLOBAL",
-   "category": "aviation-tracker",
-   "segments": [
-    "city",
-    "bush",
-    "beach"
-   ],
-   "first_seen": "2026-10-16T01:56+03:00",
-   "published": "2026-10-16",
-   "verdict": "CONSIDER"
-  },
-  {
-   "score": 82.5,
-   "components": {
-    "tier": 40,
-    "category": 7,
-    "lead": 16.8,
-    "relevance": 24,
-    "freshness": 19.7,
-    "stale_trap": -25
-   },
-   "keywords": [
-    "suspend",
-    "route",
-    "flight"
-   ],
-   "shock_terms": [],
-   "dedupe_match": null,
-   "dedupe_similarity": 0.12,
-   "id": "b1eee3684372",
-   "title": "Jambojet resumes daily Nairobi\u2013Entebbe flights",
-   "url": "https://www.kaa.go.ke/jambojet-resumes-nairobi-entebbe",
-   "summary": "Jambojet resumed daily flights between Nairobi and Entebbe on Thursday, 1 October 2026, six years after the route was suspended during the COVID-19 pandemic.",
-   "kind": "item",
-   "source": "KAA tenders",
-   "source_id": "ke-kaa-tenders",
-   "tier": 1,
-   "country": "KE",
-   "category": "tender",
-   "segments": [
-    "city",
-    "bush",
-    "beach"
-   ],
-   "first_seen": "2026-10-16T06:35+03:00",
-   "published": "2026-10-01",
-   "verdict": "CHECK \u2014 source date older than the window"
-  },
-  {
-   "score": 81.5,
-   "components": {
-    "tier": 40,
-    "category": 7,
-    "lead": 16.8,
-    "relevance": 8,
-    "freshness": 19.7,
-    "stale_trap": -10
-   },
-   "keywords": [
-    "airport"
-   ],
-   "shock_terms": [],
-   "dedupe_match": null,
-   "dedupe_similarity": 0.11,
-   "id": "7e846931f055",
-   "title": "KAA and airport partners mark Customer Service Week across the network",
-   "url": "https://www.kaa.go.ke/customer-service-week-2026",
-   "summary": "Airports across the KAA network marked Customer Service Week from Monday, 5 October to Friday, 9 October 2026 under the theme \u201cThe Extra Mile\u201d.",
-   "kind": "item",
-   "source": "KAA tenders",
-   "source_id": "ke-kaa-tenders",
-   "tier": 1,
-   "country": "KE",
-   "category": "tender",
-   "segments": [
-    "city",
-    "bush",
-    "beach"
-   ],
-   "first_seen": "2026-10-16T06:35+03:00",
-   "published": "2026-10-09",
-   "verdict": "CHECK \u2014 source date older than the window"
-  },
-  {
-   "score": 81.1,
-   "components": {
-    "tier": 20,
-    "category": 5,
-    "lead": 2.4,
-    "relevance": 24,
-    "freshness": 19.7,
-    "corroborated": 10
-   },
-   "keywords": [
-    "fee",
-    "seat",
-    "hotel",
-    "guest"
-   ],
-   "shock_terms": [],
-   "dedupe_match": null,
-   "dedupe_similarity": 0.12,
-   "id": "e8ffdcff8352",
-   "title": "Fall F&B Forecast: Coffee, Comfort, and a Bigger Seat at the Revenue Table - By Guy Reinbold",
-   "url": "https://www.hotelnewsresource.com/article143352.html",
-   "summary": "Guy Reinbold highlights how hotels are prioritizing coffee programs, comfort-driven menus, and enhanced F&B experiences this fall to capture greater guest spending and strengthen overall property profitability.",
-   "kind": "item",
-   "source": "HVS \u2014 market reports and event-impact studies (via Hotel News Resource)",
-   "source_id": "gl-hvs-market-reports",
-   "tier": 2,
-   "country": "GLOBAL",
-   "category": "trade",
-   "segments": [
-    "city"
-   ],
-   "first_seen": "2026-10-16T06:35+03:00",
-   "published": "2026-10-15",
-   "verdict": "CONSIDER"
-  },
-  {
-   "score": 80.5,
-   "components": {
-    "tier": 40,
-    "category": 10,
-    "lead": 16.8,
-    "relevance": 0,
-    "freshness": 19.7,
-    "undated": -6
-   },
-   "keywords": [],
-   "shock_terms": [],
-   "dedupe_match": null,
-   "dedupe_similarity": 0.22,
-   "id": "24b2d48d120f",
-   "title": "Aga Khan to promote green energy products Thursday, 15 October 2026",
-   "url": "https://www.parliament.go.ug/news/4669/aga-khan-promote-green-energy-products",
-   "summary": "",
-   "kind": "item",
-   "source": "Parliament of Uganda",
-   "source_id": "ug-parliament",
-   "tier": 1,
-   "country": "UG",
-   "category": "legislature",
-   "segments": [
-    "city",
-    "bush",
-    "beach"
-   ],
-   "first_seen": "2026-10-16T06:35+03:00",
-   "published": null,
-   "verdict": "CONSIDER"
-  },
-  {
-   "score": 80.1,
+   "score": 80.2,
    "components": {
     "tier": 20,
     "category": 14,
     "lead": 8.4,
     "relevance": 8,
-    "freshness": 19.7,
+    "freshness": 19.8,
     "corroborated": 10
    },
    "keywords": [
-    "vat"
+    "seat"
    ],
    "shock_terms": [],
    "dedupe_match": null,
-   "dedupe_similarity": 0.22,
-   "id": "c90a9a0df757",
-   "title": "Lufthansa Outlines A350-1000 Dec 2026/Jan 2027 Network",
-   "url": "https://www.aeroroutes.com/eng/261015-lhdec26351",
-   "summary": "Published at 1600PDT / 2300GMT 15OCT26 Lufthansa today (15OCT26) announced and opened reservations for its planned Airbus A350-1000 operation, scheduled to enter service on 03DEC26, Munich \u2013 Tokyo Haneda. Configuration of the A350-1000 is F4J49W35Y212. As of 15OCT26, reservations for the A350-1000 are only available until early-January 2027. Planned operations as follows. All dates are based on Mu",
+   "dedupe_similarity": 0.0,
+   "id": "5877720ac2e6",
+   "title": "Air Canada Expands Boeing 777-300ER Venice Service in NS27",
+   "url": "https://www.aeroroutes.com/eng/261016-acns27vce",
+   "summary": "Published at 0000PDT / 0700GMT 16OCT26 Air Canada in the last few days filed aircraft changes for Venice Marco Polo , as the carrier expands 400-seater Boeing 777-300ER operation in Northern summer 2027 season. Montreal \u2013 Venice Marco Polo Boeing 777-300ER operates during following periods, instead of A330-300, 3 weekly: 10JUN27 \u2013 03JUL27, eff 26AUG27 (Previous: eff 07SEP27) AC818 YUL1925 \u2013 0910+1",
    "kind": "item",
    "source": "AeroRoutes schedule filings",
    "source_id": "aeroroutes",
@@ -892,55 +285,18 @@
     "bush",
     "beach"
    ],
-   "first_seen": "2026-10-16T06:35+03:00",
+   "first_seen": "2026-10-16T11:16+03:00",
    "published": "2026-10-16",
    "verdict": "CONSIDER"
   },
   {
-   "score": 78.9,
-   "components": {
-    "tier": 20,
-    "category": 14,
-    "lead": 8.4,
-    "relevance": 16,
-    "freshness": 10.5,
-    "corroborated": 10
-   },
-   "keywords": [
-    "route",
-    "airline",
-    "flight"
-   ],
-   "shock_terms": [],
-   "dedupe_match": null,
-   "dedupe_similarity": 0.14,
-   "id": "324b76269566",
-   "title": "Shanghai Airlines Increases Shanghai \u2013 Kuala Lumpur Flights in NW26",
-   "url": "https://www.aeroroutes.com/eng/261015-fmnw26kul",
-   "summary": "Published at 0800PDT / 1500GMT 15OCT26 Shanghai Airlines during Northern winter 2026/27 season plans to expand Shanghai Pu Dong \u2013 Kuala Lumpur route, with the addition of 5th daily flight from 25OCT26. This route is primarily served by 737 MAX 8, although the 787-9 is also scheduled to operate 3 weekly round-trip. FM863 PVG0010 \u2013 0540KUL 789 146 FM863 PVG0010 \u2013 0540KUL 7M8 x146 FM881 PVG0750 \u2013 132",
-   "kind": "item",
-   "source": "AeroRoutes schedule filings",
-   "source_id": "aeroroutes",
-   "tier": 2,
-   "country": "GLOBAL",
-   "category": "aviation-tracker",
-   "segments": [
-    "city",
-    "bush",
-    "beach"
-   ],
-   "first_seen": "2026-10-15T22:15+03:00",
-   "published": "2026-10-15",
-   "verdict": "CONSIDER"
-  },
-  {
-   "score": 75.0,
+   "score": 80.2,
    "components": {
     "tier": 20,
     "category": 14,
     "lead": 8.4,
     "relevance": 8,
-    "freshness": 14.6,
+    "freshness": 19.8,
     "corroborated": 10
    },
    "keywords": [
@@ -948,11 +304,11 @@
    ],
    "shock_terms": [],
    "dedupe_match": null,
-   "dedupe_similarity": 0.14,
-   "id": "f1e884716187",
-   "title": "Air India Resumes Osaka Service From Feb 2027",
-   "url": "https://www.aeroroutes.com/eng/261015-aifeb27kix",
-   "summary": "Published at 1400PDT / 2100GMT 15OCT26 Air India today (15OCT26) announced service resumption to Osaka, last served until September 2019. The Star Alliance member plans to operate Delhi \u2013 Osaka Kansai route 4 times weekly from 02FEB27, with 787-8. AI360 DEL2250 \u2013 0950+1KIX 788 x135 AI361 KIX1150 \u2013 1820DEL 788 x246 Air India previously operated Mumbai \u2013 Delhi \u2013 Hong Kong \u2013 Osaka Kansai routing. The",
+   "dedupe_similarity": 0.11,
+   "id": "a06973935964",
+   "title": "Qantas Extends Revised European Routing to mid-1Q27",
+   "url": "https://www.aeroroutes.com/eng/261015-qfnw26eu",
+   "summary": "Published at 2330PDT 15OCT26 / 0630GMT 16OCT26 Qantas in mid-August 2026 filed international network adjustment to selected European routes, as revised operation being extended to 31JAN27 inclusive, instead of 24OCT26. Perth \u2013 Singapore \u2013 London Heathrow \u2013 Perth 1 daily 787-9 until 31JAN27 QF209 PER1615 \u2013 2140SIN2310 \u2013 0530+1LHR 789 D QF010 LHR1130 \u2013 1215+1PER 789 D Sydney \u2013 Singapore \u2013 Paris Char",
    "kind": "item",
    "source": "AeroRoutes schedule filings",
    "source_id": "aeroroutes",
@@ -964,137 +320,516 @@
     "bush",
     "beach"
    ],
-   "first_seen": "2026-10-16T01:56+03:00",
+   "first_seen": "2026-10-16T11:16+03:00",
    "published": "2026-10-16",
    "verdict": "CONSIDER"
   },
   {
-   "score": 73.1,
+   "score": 80.1,
    "components": {
-    "tier": 20,
-    "category": 5,
+    "tier": 40,
+    "category": 24,
     "lead": 2.4,
-    "relevance": 16,
-    "freshness": 19.7,
-    "corroborated": 10
-   },
-   "keywords": [
-    "occupancy",
-    "hotel",
-    "booking"
-   ],
-   "shock_terms": [],
-   "dedupe_match": null,
-   "dedupe_similarity": 0.12,
-   "id": "2ad5789d53d1",
-   "title": "A Full House Isn\u2019t Always a Full Win: Rethinking Fall Group Revenue - By Whitney Altizer",
-   "url": "https://www.hotelnewsresource.com/article143351.html",
-   "summary": "Whitney Altizer examines how hotels can maximize profitability from fall group bookings by focusing on total revenue management rather than relying solely on high occupancy figures.",
-   "kind": "item",
-   "source": "HVS \u2014 market reports and event-impact studies (via Hotel News Resource)",
-   "source_id": "gl-hvs-market-reports",
-   "tier": 2,
-   "country": "GLOBAL",
-   "category": "trade",
-   "segments": [
-    "city"
-   ],
-   "first_seen": "2026-10-16T06:35+03:00",
-   "published": "2026-10-15",
-   "verdict": "CONSIDER"
-  },
-  {
-   "score": 73.1,
-   "components": {
-    "tier": 20,
-    "category": 5,
-    "lead": 2.4,
-    "relevance": 16,
-    "freshness": 19.7,
-    "corroborated": 10
-   },
-   "keywords": [
-    "eta",
-    "hotel",
-    "operator"
-   ],
-   "shock_terms": [],
-   "dedupe_match": null,
-   "dedupe_similarity": 0.33,
-   "id": "28be91c1cc19",
-   "title": "AI in Hotel Revenue Management: The Ultimate Guide - By Jonathan Gough",
-   "url": "https://www.hotelnewsresource.com/article143344.html",
-   "summary": "Jonathan Gough's comprehensive guide examines how artificial intelligence is being integrated into hotel revenue management systems, detailing its impact on pricing optimization, demand forecasting, and operational efficiency for hotel owners and operators.",
-   "kind": "item",
-   "source": "HVS \u2014 market reports and event-impact studies (via Hotel News Resource)",
-   "source_id": "gl-hvs-market-reports",
-   "tier": 2,
-   "country": "GLOBAL",
-   "category": "trade",
-   "segments": [
-    "city"
-   ],
-   "first_seen": "2026-10-16T06:35+03:00",
-   "published": "2026-10-15",
-   "verdict": "CONSIDER"
-  },
-  {
-   "score": 72.1,
-   "components": {
-    "tier": 20,
-    "category": 14,
-    "lead": 8.4,
     "relevance": 0,
     "freshness": 19.7,
-    "corroborated": 10
+    "undated": -6
    },
    "keywords": [],
    "shock_terms": [],
    "dedupe_match": null,
-   "dedupe_similarity": 0.11,
-   "id": "0481989cf09c",
-   "title": "KLM NW26 A350-900 Operations \u2013 15OCT26",
-   "url": "https://www.aeroroutes.com/eng/261015-klnw26359",
-   "summary": "Published at 1900PDT 15OCT26 / 0200GMT 16OCT26 KLM in recent weeks filed additional changes to planned Airbus A350-900 aircraft for Northern winter 2026/27 season. As of 15OCT26, planned operation as follows. Amsterdam \u2013 Kilimanjaro \u2013 Dar es Salaam \u2013 Amsterdam eff 15DEC26 2 weekly (1 weekly from 06JAN27, 2 weekly from 26FEB27, 3 weekly from 06MAR27) Amsterdam \u2013 Montreal 3 weekly during following p",
+   "dedupe_similarity": 0.29,
+   "id": "8c33f6ada863",
+   "title": "Setting Kenya\u2019s research agenda on health, migration and displacement",
+   "url": "https://www.afro.who.int/countries/kenya/news/setting-kenyas-research-agenda-health-migration-and-displacement",
+   "summary": "",
    "kind": "item",
-   "source": "AeroRoutes schedule filings",
-   "source_id": "aeroroutes",
+   "source": "WHO AFRO \u2014 Kenya country newsroom",
+   "source_id": "who-afro-kenya",
+   "tier": 1,
+   "country": "KE",
+   "category": "health",
+   "segments": [
+    "bush",
+    "city",
+    "beach"
+   ],
+   "first_seen": "2026-10-16T11:15+03:00",
+   "published": null,
+   "verdict": "CONSIDER"
+  },
+  {
+   "score": 80.1,
+   "components": {
+    "tier": 40,
+    "category": 24,
+    "lead": 2.4,
+    "relevance": 0,
+    "freshness": 19.7,
+    "undated": -6
+   },
+   "keywords": [],
+   "shock_terms": [],
+   "dedupe_match": null,
+   "dedupe_similarity": 0.33,
+   "id": "f12abee0bfea",
+   "title": "15 October 2026 | Cluster/Departmental news Setting Kenya\u2019s research agenda on health, migration and displacement",
+   "url": "https://www.afro.who.int/countries/kenya/news/setting-kenyas-research-agenda-health-migration-and-displacement",
+   "summary": "",
+   "kind": "item",
+   "source": "WHO AFRO \u2014 Rwanda country newsroom",
+   "source_id": "who-afro-rwanda",
+   "tier": 1,
+   "country": "RW",
+   "category": "health",
+   "segments": [
+    "bush",
+    "city",
+    "beach"
+   ],
+   "first_seen": "2026-10-16T11:15+03:00",
+   "published": null,
+   "verdict": "CONSIDER"
+  },
+  {
+   "score": 80.1,
+   "components": {
+    "tier": 40,
+    "category": 24,
+    "lead": 2.4,
+    "relevance": 0,
+    "freshness": 19.7,
+    "undated": -6
+   },
+   "keywords": [],
+   "shock_terms": [],
+   "dedupe_match": null,
+   "dedupe_similarity": 0.33,
+   "id": "1652f046f1a5",
+   "title": "15 October 2026 | Cluster/Departmental news Setting Kenya\u2019s research agenda on health, migration and displacement",
+   "url": "https://www.afro.who.int/countries/kenya/news/setting-kenyas-research-agenda-health-migration-and-displacement",
+   "summary": "",
+   "kind": "item",
+   "source": "WHO AFRO \u2014 Uganda country newsroom",
+   "source_id": "who-afro-uganda",
+   "tier": 1,
+   "country": "UG",
+   "category": "health",
+   "segments": [
+    "bush",
+    "city",
+    "beach"
+   ],
+   "first_seen": "2026-10-16T11:15+03:00",
+   "published": null,
+   "verdict": "CONSIDER"
+  },
+  {
+   "score": 77.8,
+   "components": {
+    "tier": 20,
+    "category": 4,
+    "lead": 0.0,
+    "relevance": 24,
+    "freshness": 19.8,
+    "corroborated": 10
+   },
+   "keywords": [
+    "fee",
+    "capacity",
+    "airline",
+    "flight"
+   ],
+   "shock_terms": [],
+   "dedupe_match": null,
+   "dedupe_similarity": 0.17,
+   "id": "bf35fae44e65",
+   "title": "Global airlines bet on Zanzibar as regional carriers retreat on surging fees for travellers",
+   "url": "https://www.theeastafrican.co.ke/tea/news/east-africa/global-airlines-bet-on-zanzibar-as-regional-carriers-retreat-on-surging-fees-for-travellers-5633284",
+   "summary": "British Airways, Etihad and Emirates, among others, are increasing their flights and capacity...",
+   "kind": "item",
+   "source": "The EastAfrican",
+   "source_id": "np-eastafrican",
    "tier": 2,
-   "country": "GLOBAL",
-   "category": "aviation-tracker",
+   "country": "REG",
+   "category": "press",
    "segments": [
     "city",
     "bush",
     "beach"
    ],
-   "first_seen": "2026-10-16T06:35+03:00",
+   "first_seen": "2026-10-16T11:16+03:00",
    "published": "2026-10-16",
    "verdict": "CONSIDER"
   },
   {
-   "score": 72.1,
+   "score": 72.0,
+   "components": {
+    "tier": 40,
+    "category": 5,
+    "lead": 1.2,
+    "relevance": 12,
+    "freshness": 19.8,
+    "undated": -6
+   },
+   "keywords": [
+    "eta",
+    "hotel"
+   ],
+   "shock_terms": [],
+   "dedupe_match": null,
+   "dedupe_similarity": 0.29,
+   "id": "6b460b10d366",
+   "title": "16 Oct 2026 Communications Uganda Media Centre MKUTANO KUJADILI HAKI MILIKI KATIKA TEKNOLOJIA BARANI AFRIKA (ATIS) UTAKAOFANYIKA TAREHE 22-23 MARRIOT HOTEL Mkutano huu utawaleta pamoja wajumbe 160 pamoja na wawasilishaji 60 kutoka mataifa ya Uganda, Kenya, Tanzania, Rwanda, Sudan Kusini, Ethiopia, Nigeria na Ghana. Read \u2192",
+   "url": "https://mediacentre.go.ug/release?slug=mkutano-kujadili-haki-miliki-katika-teknolojia-barani-afrika-atis-utakaofanyika-tarehe-22-23-marriot-hotel",
+   "summary": "",
+   "kind": "item",
+   "source": "Uganda Media Centre \u2014 press room",
+   "source_id": "ug-mediacentre",
+   "tier": 1,
+   "country": "UG",
+   "category": "gov-comms",
+   "segments": [
+    "city",
+    "bush"
+   ],
+   "first_seen": "2026-10-16T11:16+03:00",
+   "published": null,
+   "verdict": "CONSIDER"
+  },
+  {
+   "score": 70.7,
+   "components": {
+    "tier": 40,
+    "category": 5,
+    "lead": 12.0,
+    "relevance": 0,
+    "freshness": 19.7,
+    "undated": -6
+   },
+   "keywords": [],
+   "shock_terms": [],
+   "dedupe_match": null,
+   "dedupe_similarity": 0.0,
+   "id": "a2a3204a13ea",
+   "title": "\ud835\udc0d\ud835\udc00\ud835\udc13\ud835\udc08\ud835\udc0e\ud835\udc0d\ud835\udc00\ud835\udc0b \ud835\udc00\ud835\udc12\ud835\udc12\ud835\udc04\ud835\udc0c\ud835\udc01\ud835\udc0b\ud835\udc18 \ud835\udc0f\ud835\udc00\ud835\udc12\ud835\udc12\ud835\udc04\ud835\udc12 \ud835\udc01\ud835\udc08\ud835\udc0b\ud835\udc0b \ud835\udc13\ud835\udc0e \ud835\udc12\ud835\udc13\ud835\udc11\ud835\udc04\ud835\udc0d\ud835\udc06\ud835\udc13\ud835\udc07\ud835\udc04\ud835\udc0d \ud835\udc0e\ud835\udc15\ud835\udc04\ud835\udc11\ud835\udc12\ud835\udc08\ud835\udc06\ud835\udc07\ud835\udc13 \ud835\udc0e\ud835\udc05 \ud835\udc04\ud835\udc00\ud835\udc12\ud835\udc13 \ud835\udc00\ud835\udc05\ud835\udc11\ud835\udc08\ud835\udc02\ud835\udc00\ud835\udc0d \ud835\udc03\ud835\udc04\ud835\udc15\ud835\udc04\ud835\udc0b\ud835\udc0e\ud835\udc0f\ud835\udc0c\ud835\udc04\ud835\udc0d\ud835\udc13 \ud835\udc01\ud835\udc00\ud835\udc0d\ud835\udc0a \ud835\udc05\ud835\udc14\ud835\udc0d\ud835\udc03\ud835\udc08\ud835\udc0d\ud835\udc06",
+   "url": "https://www.parliament.go.ke/node/26559",
+   "summary": "",
+   "kind": "item",
+   "source": "Senate Committee on Delegated Legislation (Kenya) \u2014 the committee that annuls or accedes to statutory instruments",
+   "source_id": "ke-senate-delegated-legislation",
+   "tier": 1,
+   "country": "KE",
+   "category": "REG",
+   "segments": [
+    "city",
+    "bush",
+    "beach"
+   ],
+   "first_seen": "2026-10-16T11:15+03:00",
+   "published": null,
+   "verdict": "CONSIDER"
+  },
+  {
+   "score": 70.7,
+   "components": {
+    "tier": 40,
+    "category": 5,
+    "lead": 12.0,
+    "relevance": 0,
+    "freshness": 19.7,
+    "undated": -6
+   },
+   "keywords": [],
+   "shock_terms": [],
+   "dedupe_match": null,
+   "dedupe_similarity": 0.0,
+   "id": "ecdf5d1be3f0",
+   "title": "\ud835\udc07\ud835\udc0e\ud835\udc14\ud835\udc12\ud835\udc04 \ud835\udc0f\ud835\udc00\ud835\udc12\ud835\udc12\ud835\udc04\ud835\udc12 \ud835\udc01\ud835\udc08\ud835\udc0b\ud835\udc0b \ud835\udc13\ud835\udc0e \ud835\udc11\ud835\udc04\ud835\udc02\ud835\udc0e\ud835\udc06\ud835\udc0d\ud835\udc08\ud835\udc19\ud835\udc04 \ud835\udc04\ud835\udc0d\ud835\udc15\ud835\udc08\ud835\udc11\ud835\udc0e\ud835\udc0d\ud835\udc0c\ud835\udc04\ud835\udc0d\ud835\udc13\ud835\udc00\ud835\udc0b \ud835\udc0f\ud835\udc11\ud835\udc0e\ud835\udc05\ud835\udc04\ud835\udc12\ud835\udc12\ud835\udc08\ud835\udc0e\ud835\udc0d\ud835\udc00\ud835\udc0b\ud835\udc12",
+   "url": "https://www.parliament.go.ke/node/26558",
+   "summary": "",
+   "kind": "item",
+   "source": "Senate Committee on Delegated Legislation (Kenya) \u2014 the committee that annuls or accedes to statutory instruments",
+   "source_id": "ke-senate-delegated-legislation",
+   "tier": 1,
+   "country": "KE",
+   "category": "REG",
+   "segments": [
+    "city",
+    "bush",
+    "beach"
+   ],
+   "first_seen": "2026-10-16T11:15+03:00",
+   "published": null,
+   "verdict": "CONSIDER"
+  },
+  {
+   "score": 70.7,
+   "components": {
+    "tier": 40,
+    "category": 5,
+    "lead": 12.0,
+    "relevance": 0,
+    "freshness": 19.7,
+    "undated": -6
+   },
+   "keywords": [],
+   "shock_terms": [],
+   "dedupe_match": null,
+   "dedupe_similarity": 0.0,
+   "id": "11df83bc377b",
+   "title": "\ud835\udc0c\ud835\udc0f\ud835\udc12 \ud835\udc0f\ud835\udc00\ud835\udc12\ud835\udc12 \ud835\udc01\ud835\udc11\ud835\udc04\ud835\udc00\ud835\udc12\ud835\udc13\ud835\udc05\ud835\udc04\ud835\udc04\ud835\udc03\ud835\udc08\ud835\udc0d\ud835\udc06 \ud835\udc0c\ud835\udc0e\ud835\udc13\ud835\udc07\ud835\udc04\ud835\udc11\ud835\udc12 \ud835\udc01\ud835\udc08\ud835\udc0b\ud835\udc0b \ud835\udc13\ud835\udc0e \ud835\udc12\ud835\udc13\ud835\udc11\ud835\udc04\ud835\udc0d\ud835\udc06\ud835\udc13\ud835\udc07\ud835\udc04\ud835\udc0d \ud835\udc12\ud835\udc14\ud835\udc0f\ud835\udc0f\ud835\udc0e\ud835\udc11\ud835\udc13 \ud835\udc00\ud835\udc0d\ud835\udc03 \ud835\udc16\ud835\udc0e\ud835\udc11\ud835\udc0a \ud835\udc0f\ud835\udc0b\ud835\udc00\ud835\udc02\ud835\udc04 \ud835\udc0f\ud835\udc11\ud835\udc0e\ud835\udc13\ud835\udc04\ud835\udc02\ud835\udc13\ud835\udc08\ud835\udc0e\ud835\udc0d",
+   "url": "https://www.parliament.go.ke/node/26557",
+   "summary": "",
+   "kind": "item",
+   "source": "Senate Committee on Delegated Legislation (Kenya) \u2014 the committee that annuls or accedes to statutory instruments",
+   "source_id": "ke-senate-delegated-legislation",
+   "tier": 1,
+   "country": "KE",
+   "category": "REG",
+   "segments": [
+    "city",
+    "bush",
+    "beach"
+   ],
+   "first_seen": "2026-10-16T11:15+03:00",
+   "published": null,
+   "verdict": "CONSIDER"
+  },
+  {
+   "score": 70.7,
+   "components": {
+    "tier": 40,
+    "category": 5,
+    "lead": 12.0,
+    "relevance": 0,
+    "freshness": 19.7,
+    "undated": -6
+   },
+   "keywords": [],
+   "shock_terms": [],
+   "dedupe_match": null,
+   "dedupe_similarity": 0.0,
+   "id": "e144ca058483",
+   "title": "\ud835\udde0\ud835\udde3\ud835\udde6 \ud835\uddd5\ud835\uddd4\ud835\uddd6\ud835\uddde \ud835\udde0\ud835\udde2\ud835\udde7\ud835\udddc\ud835\udde2\ud835\udde1 \ud835\udde7\ud835\udde2 \ud835\uddd6\ud835\udde5\ud835\uddd8\ud835\uddd4\ud835\udde7\ud835\uddd8 \ud835\udde6\ud835\uddd8\ud835\uddd6\ud835\udde8\ud835\udde5\ud835\udddc\ud835\udde7\ud835\uddec \ud835\udddd\ud835\udde2\ud835\uddd5\ud835\udde6 \ud835\uddd9\ud835\udde2\ud835\udde5 \ud835\udde1\ud835\uddec\ud835\udde6 \ud835\uddda\ud835\udde5\ud835\uddd4\ud835\uddd7\ud835\udde8\ud835\uddd4\ud835\udde7\ud835\uddd8\ud835\udde6",
+   "url": "https://www.parliament.go.ke/node/26556",
+   "summary": "",
+   "kind": "item",
+   "source": "Senate Committee on Delegated Legislation (Kenya) \u2014 the committee that annuls or accedes to statutory instruments",
+   "source_id": "ke-senate-delegated-legislation",
+   "tier": 1,
+   "country": "KE",
+   "category": "REG",
+   "segments": [
+    "city",
+    "bush",
+    "beach"
+   ],
+   "first_seen": "2026-10-16T11:15+03:00",
+   "published": null,
+   "verdict": "CONSIDER"
+  },
+  {
+   "score": 70.7,
+   "components": {
+    "tier": 40,
+    "category": 5,
+    "lead": 12.0,
+    "relevance": 0,
+    "freshness": 19.7,
+    "undated": -6
+   },
+   "keywords": [],
+   "shock_terms": [],
+   "dedupe_match": null,
+   "dedupe_similarity": 0.0,
+   "id": "5ab15f8a8623",
+   "title": "\ud835\udc0a\ud835\udc04\ud835\udc0d\ud835\udc18\ud835\udc00\ud835\udc0d\ud835\udc12 \ud835\udc12\ud835\udc04\ud835\udc13 \ud835\udc05\ud835\udc0e\ud835\udc11 \ud835\udc02\ud835\udc0e\ud835\udc0d\ud835\udc13\ud835\udc08\ud835\udc0d\ud835\udc14\ud835\udc04\ud835\udc03 \ud835\udc11\ud835\udc04\ud835\udc0f\ud835\udc11\ud835\udc08\ud835\udc04\ud835\udc15\ud835\udc04 \ud835\udc00\ud835\udc12 \ud835\udc0d\ud835\udc00\ud835\udc13\ud835\udc08\ud835\udc0e\ud835\udc0d\ud835\udc00\ud835\udc0b \ud835\udc00\ud835\udc12\ud835\udc12\ud835\udc04\ud835\udc0c\ud835\udc01\ud835\udc0b\ud835\udc18 \ud835\udc04\ud835\udc17\ud835\udc13\ud835\udc04\ud835\udc0d\ud835\udc03\ud835\udc12 \ud835\udc05\ud835\udc14\ud835\udc04\ud835\udc0b \ud835\udc13\ud835\udc00\ud835\udc17 \ud835\udc11\ud835\udc04\ud835\udc0b\ud835\udc08\ud835\udc04\ud835\udc05",
+   "url": "https://www.parliament.go.ke/node/26555",
+   "summary": "",
+   "kind": "item",
+   "source": "Senate Committee on Delegated Legislation (Kenya) \u2014 the committee that annuls or accedes to statutory instruments",
+   "source_id": "ke-senate-delegated-legislation",
+   "tier": 1,
+   "country": "KE",
+   "category": "REG",
+   "segments": [
+    "city",
+    "bush",
+    "beach"
+   ],
+   "first_seen": "2026-10-16T11:15+03:00",
+   "published": null,
+   "verdict": "CONSIDER"
+  },
+  {
+   "score": 70.4,
+   "components": {
+    "tier": 20,
+    "category": 5,
+    "lead": 3.6,
+    "relevance": 12,
+    "freshness": 19.8,
+    "corroborated": 10
+   },
+   "keywords": [
+    "eta",
+    "hotel"
+   ],
+   "shock_terms": [],
+   "dedupe_match": null,
+   "dedupe_similarity": 0.0,
+   "id": "d744908cbcfe",
+   "title": "Behind the Bottle: How Bargello Earned its Wine Spectator Honors",
+   "url": "https://www.hospitalitynet.org/opinion/4134628/behind-the-bottle-how-bargello-earned-its-wine-spectator-honors",
+   "summary": "Bargello's F&B director reflects on earning a second consecutive Wine Spectator Award of Excellence, detailing how independence from hotel brand mandates, low-production wine sourcing, and community-focused service shaped the program.",
+   "kind": "item",
+   "source": "Hospitality Net \u2014 Africa announcements",
+   "source_id": "dev-hospitalitynet-africa",
+   "tier": 2,
+   "country": "REG",
+   "category": "trade",
+   "segments": [
+    "city",
+    "bush",
+    "beach"
+   ],
+   "first_seen": "2026-10-16T11:16+03:00",
+   "published": "2026-10-16",
+   "verdict": "CONSIDER"
+  },
+  {
+   "score": 69.8,
+   "components": {
+    "tier": 20,
+    "category": 4,
+    "lead": 0.0,
+    "relevance": 16,
+    "freshness": 19.8,
+    "corroborated": 10
+   },
+   "keywords": [
+    "vat",
+    "fuel"
+   ],
+   "shock_terms": [],
+   "dedupe_match": null,
+   "dedupe_similarity": 0.14,
+   "id": "c62140a7d1db",
+   "title": "Private sector expands for 20th month as costs rise",
+   "url": "https://www.monitor.co.ug/uganda/business/markets/private-sector-expands-for-20th-month-as-costs-rise--5633290",
+   "summary": "The private sector, in September, extended its growth streak, but rising fuel, transport, and...",
+   "kind": "item",
+   "source": "Daily Monitor (Uganda)",
+   "source_id": "np-monitor-ug",
+   "tier": 2,
+   "country": "UG",
+   "category": "press",
+   "segments": [
+    "city",
+    "bush",
+    "beach"
+   ],
+   "first_seen": "2026-10-16T11:16+03:00",
+   "published": "2026-10-16",
+   "verdict": "weak"
+  },
+  {
+   "score": 69.2,
+   "components": {
+    "tier": 20,
+    "category": 5,
+    "lead": 2.4,
+    "relevance": 12,
+    "freshness": 19.8,
+    "corroborated": 10
+   },
+   "keywords": [
+    "eta",
+    "hotel"
+   ],
+   "shock_terms": [],
+   "dedupe_match": null,
+   "dedupe_similarity": 0.0,
+   "id": "c47259b13ff3",
+   "title": "Behind the Bottle: How Bargello Earned its Wine Spectator Honors",
+   "url": "https://www.hospitalitynet.org/opinion/4134628/behind-the-bottle-how-bargello-earned-its-wine-spectator-honors",
+   "summary": "Bargello's F&B director reflects on earning a second consecutive Wine Spectator Award of Excellence, detailing how independence from hotel brand mandates, low-production wine sourcing, and community-focused service shaped the program.",
+   "kind": "item",
+   "source": "Hospitality Net: Africa openings",
+   "source_id": "dev-hospitalitynet-openings",
+   "tier": 2,
+   "country": "AFRICA",
+   "category": "trade",
+   "segments": [
+    "city",
+    "bush",
+    "beach"
+   ],
+   "first_seen": "2026-10-16T11:16+03:00",
+   "published": "2026-10-16",
+   "verdict": "weak"
+  },
+  {
+   "score": 66.2,
+   "components": {
+    "tier": 5,
+    "category": 5,
+    "lead": 2.4,
+    "relevance": 24,
+    "freshness": 19.8,
+    "corroborated": 10
+   },
+   "keywords": [
+    "arrivals",
+    "flood",
+    "tourism",
+    "tourist"
+   ],
+   "shock_terms": [],
+   "dedupe_match": null,
+   "dedupe_similarity": 0.14,
+   "id": "1dcdfbf421d8",
+   "title": "Nepal Tourism Remains Strong Amid Flooding as Foreign Tourist Arrivals Surge 12.1 Percent in September 2026",
+   "url": "https://www.travelandtourworld.com/news/article/937yemxw9mpz",
+   "summary": "Nepal Tourism Remains Strong Amid Flooding as Foreign Tourist Arrivals Surge 12.1 Percent in September 2026 Nepal tourism grows 12.1% in September 2026 despite flooding, driven by rising arrivals from India, China and South Asia. The post Nepal Tourism Remains Strong Amid Flooding as Foreign Tourist Arrivals Surge 12.1 Percent in September 2026 appeared first on Travel And Tour World .",
+   "kind": "item",
+   "source": "Travel And Tour World",
+   "source_id": "gl-travelandtourworld",
+   "tier": 3,
+   "country": "GLOBAL",
+   "category": "trade",
+   "segments": [
+    "city",
+    "bush",
+    "beach"
+   ],
+   "first_seen": "2026-10-16T11:16+03:00",
+   "published": "2026-10-16",
+   "verdict": "weak"
+  },
+  {
+   "score": 64.2,
    "components": {
     "tier": 20,
     "category": 4,
     "lead": 2.4,
-    "relevance": 16,
-    "freshness": 19.7,
+    "relevance": 8,
+    "freshness": 19.8,
     "corroborated": 10
    },
    "keywords": [
-    "levy",
-    "tax"
+    "vat"
    ],
    "shock_terms": [],
    "dedupe_match": null,
-   "dedupe_similarity": 0.33,
-   "id": "42f66d1066d4",
-   "title": "Machakos Assembly staff lose medical cover amid Sh17.8bn budget row",
-   "url": "https://nation.africa/kenya/counties/machakos/machakos-assembly-staff-lose-medical-cover-amid-sh17-8bn-budget-row-5633788",
-   "summary": "The Assembly has also received a KRA demand for unpaid taxes and housing levy.",
+   "dedupe_similarity": 0.12,
+   "id": "41db5b96c41d",
+   "title": "KRA Staff to Get Additional Bonuses Under New Law",
+   "url": "https://www.kenyans.co.ke/news/127886-kra-staff-earn-3-bonuses-exceeding-revenue-targets-under-new-law",
+   "summary": "The new law also introduces key changes to KRA management, with the act now set to motivate the staff to collect more revenue as the government grapples with meeting the revenue target.",
    "kind": "item",
-   "source": "Nation Africa: Kenya business",
-   "source_id": "ke-nation-business",
+   "source": "Kenyans.co.ke news",
+   "source_id": "ke-kenyans",
    "tier": 2,
    "country": "KE",
    "category": "press",
@@ -1103,31 +838,30 @@
     "bush",
     "beach"
    ],
-   "first_seen": "2026-10-16T06:35+03:00",
-   "published": "2026-10-15",
-   "verdict": "CONSIDER"
+   "first_seen": "2026-10-16T11:16+03:00",
+   "published": "2026-10-16",
+   "verdict": "weak"
   },
   {
-   "score": 72.1,
+   "score": 64.2,
    "components": {
     "tier": 20,
     "category": 4,
     "lead": 2.4,
-    "relevance": 16,
-    "freshness": 19.7,
+    "relevance": 8,
+    "freshness": 19.8,
     "corroborated": 10
    },
    "keywords": [
-    "fee",
-    "gorilla"
+    "election"
    ],
    "shock_terms": [],
    "dedupe_match": null,
-   "dedupe_similarity": 0.14,
-   "id": "6006df4fcac5",
-   "title": "UCRA welcomes Rugaya as new Executive Director with bold commercial vision",
-   "url": "https://www.independent.co.ug/ucra-welcomes-rugaya-as-new-executive-director-with-bold-commercial-vision",
-   "summary": "Kampala, Uganda | THE INDEPENDENT | The Uganda Coffee Roasters Association (UCRA) has officially introduced Richard Rugaya of Gorilla Highland Coffee as its newly appointed incoming Executive Director, signalling a decisive shift in the association\u2019s direction. Rugaya steps into the role with a transformative vision outlined in his proposed 2027\u20132030 Strategic Brief, which moves \u2026 The post UCRA we",
+   "dedupe_similarity": 0.12,
+   "id": "12cf799cf7d2",
+   "title": "\u2018Like we don\u2019t exist\u2019: Palestinians in West Bank denied say in Israel vote",
+   "url": "https://www.independent.co.ug/like-we-dont-exist-palestinians-in-west-bank-denied-say-in-israel-vote",
+   "summary": "Palestinians in the occupied West Bank have no voice in the October 27 election, even as Israel\u2019s government shapes their lives through settlement expansion, home demolitions and movement restrictions NEWS ANALYSIS | AGENCIES | In Jabal al-Baba, a small Bedouin community east of Jerusalem, Israel controls almost every aspect of Palestinians\u2019 daily life, from building \u2026 The post \u2018Like we don\u2019t exis",
    "kind": "item",
    "source": "The Independent (Uganda)",
    "source_id": "ug-independent",
@@ -1139,290 +873,531 @@
     "bush",
     "beach"
    ],
-   "first_seen": "2026-10-16T06:35+03:00",
-   "published": "2026-10-15",
-   "verdict": "CONSIDER"
-  },
-  {
-   "score": 70.9,
-   "components": {
-    "tier": 20,
-    "category": 14,
-    "lead": 8.4,
-    "relevance": 8,
-    "freshness": 10.5,
-    "corroborated": 10
-   },
-   "keywords": [
-    "route"
-   ],
-   "shock_terms": [],
-   "dedupe_match": null,
-   "dedupe_similarity": 0.0,
-   "id": "d7ecea4c83e0",
-   "title": "EVA Air 1Q27 Sendai Aircraft Changes",
-   "url": "https://www.aeroroutes.com/eng/261015-br1q27sdj",
-   "summary": "Published at 1000PDT / 1700GMT 15OCT26 EVA Air in the first quarter of 2027 once again schedules aircraft changes on Taipei Taoyuan \u2013 Sendai route, as the carrier schedules Airbus A330-300 aircraft from 20JAN27 to 10MAR27, replacing A321. This route is scheduled on daily basis. BR118 TPE1015 \u2013 1425SDJ 333 D BR117 SDJ1615 \u2013 1930TPE 333 D",
-   "kind": "item",
-   "source": "AeroRoutes schedule filings",
-   "source_id": "aeroroutes",
-   "tier": 2,
-   "country": "GLOBAL",
-   "category": "aviation-tracker",
-   "segments": [
-    "city",
-    "bush",
-    "beach"
-   ],
-   "first_seen": "2026-10-15T22:15+03:00",
-   "published": "2026-10-15",
-   "verdict": "CONSIDER"
-  },
-  {
-   "score": 70.9,
-   "components": {
-    "tier": 20,
-    "category": 14,
-    "lead": 8.4,
-    "relevance": 8,
-    "freshness": 10.5,
-    "corroborated": 10
-   },
-   "keywords": [
-    "route"
-   ],
-   "shock_terms": [],
-   "dedupe_match": null,
-   "dedupe_similarity": 0.14,
-   "id": "6849367fc474",
-   "title": "China Southern late-2026 One-Time Luxembourg Aircraft Changes",
-   "url": "https://www.aeroroutes.com/eng/261015-czdec26lux",
-   "summary": "Published at 0900PDT / 1600GMT 15OCT26 China Southern at the end of 2026 schedules one-time aircraft changes on Guangzhou \u2013 Zhengzhou \u2013 Luxembourg route. On 31DEC26, this service will be operated by 787-9, instead of A350-900 (Luxembourg departure on 01JAN27). This route is served once weekly. CZ677 CAN0935 \u2013 1900LUX1450 \u2013 1900LUX 789 4 CZ678 LUX1430 \u2013 0705+1CGO0955+1 \u2013 1230+1CAN 789 5",
-   "kind": "item",
-   "source": "AeroRoutes schedule filings",
-   "source_id": "aeroroutes",
-   "tier": 2,
-   "country": "GLOBAL",
-   "category": "aviation-tracker",
-   "segments": [
-    "city",
-    "bush",
-    "beach"
-   ],
-   "first_seen": "2026-10-15T22:15+03:00",
-   "published": "2026-10-15",
-   "verdict": "CONSIDER"
-  },
-  {
-   "score": 70.5,
-   "components": {
-    "tier": 40,
-    "category": 7,
-    "lead": 16.8,
-    "relevance": 12,
-    "freshness": 19.7,
-    "stale_trap": -25
-   },
-   "keywords": [
-    "airport",
-    "passenger"
-   ],
-   "shock_terms": [],
-   "dedupe_match": null,
-   "dedupe_similarity": 0.11,
-   "id": "6bf4e9cffa86",
-   "title": "Moi International Airport wins three honours at ACI Africa awards",
-   "url": "https://www.kaa.go.ke/moi-international-aci-africa-awards",
-   "summary": "Moi International Airport, Mombasa, earned three runner-up honours at the 2026 ACI Africa Passenger Facilitation & Readiness Excellence Awards in Abuja, Nigeria.",
-   "kind": "item",
-   "source": "KAA tenders",
-   "source_id": "ke-kaa-tenders",
-   "tier": 1,
-   "country": "KE",
-   "category": "tender",
-   "segments": [
-    "city",
-    "bush",
-    "beach"
-   ],
-   "first_seen": "2026-10-16T06:35+03:00",
-   "published": "2026-09-27",
-   "verdict": "CHECK \u2014 source date older than the window"
-  },
-  {
-   "score": 69.1,
-   "components": {
-    "tier": 20,
-    "category": 5,
-    "lead": 2.4,
-    "relevance": 12,
-    "freshness": 19.7,
-    "corroborated": 10
-   },
-   "keywords": [
-    "hotel",
-    "resort",
-    "investment"
-   ],
-   "shock_terms": [],
-   "dedupe_match": null,
-   "dedupe_similarity": 0.12,
-   "id": "fe5d803185d3",
-   "title": "Wyndham Alltra Adds Adults-Only Aman\u00e1 Retreat in Dominican Republic",
-   "url": "https://www.hotelnewsresource.com/article143360.html",
-   "summary": "Wyndham Hotels & Resorts has added the adults-only Aman\u00e1 Retreat in the Dominican Republic to its Wyndham Alltra portfolio, reflecting continued brand investment in the region's all-inclusive resort segment.",
-   "kind": "item",
-   "source": "HVS \u2014 market reports and event-impact studies (via Hotel News Resource)",
-   "source_id": "gl-hvs-market-reports",
-   "tier": 2,
-   "country": "GLOBAL",
-   "category": "trade",
-   "segments": [
-    "city"
-   ],
-   "first_seen": "2026-10-16T06:35+03:00",
+   "first_seen": "2026-10-16T11:16+03:00",
    "published": "2026-10-16",
    "verdict": "weak"
   },
   {
-   "score": 69.1,
+   "score": 64.2,
    "components": {
     "tier": 20,
-    "category": 5,
+    "category": 4,
     "lead": 2.4,
-    "relevance": 12,
-    "freshness": 19.7,
+    "relevance": 8,
+    "freshness": 19.8,
     "corroborated": 10
    },
    "keywords": [
-    "hotel",
-    "resort",
-    "opening"
+    "investment",
+    "shilling"
    ],
    "shock_terms": [],
    "dedupe_match": null,
-   "dedupe_similarity": 0.33,
-   "id": "24d250fc7a41",
-   "title": "M Social Hotel Sunnyvale, CA to Open in December 2026",
-   "url": "https://www.hotelnewsresource.com/article143358.html",
-   "summary": "Millennium Hotels and Resorts has scheduled the opening of the M Social Hotel Sunnyvale, California, for December 2026, signaling ongoing expansion activity in the Silicon Valley hospitality market.",
+   "dedupe_similarity": 0.2,
+   "id": "a93efbb6143a",
+   "title": "BoU Governor: Sovereignty Law is innocent",
+   "url": "https://www.independent.co.ug/bou-governor-sovereignty-law-is-innocent",
+   "summary": "Kampala, Uganda | URN | Bank of Uganda Governor Michael Atingi-Ego has rejected suggestions that Uganda\u2019s Sovereignty Bill may have contributed to the recent depreciation of the shilling, attributing the currency\u2019s weakness primarily to a widening current account deficit and reduced portfolio investment flows. The Protection of Sovereignty Act, 2026, which President Yoweri \u2026 The post BoU Governor:",
    "kind": "item",
-   "source": "HVS \u2014 market reports and event-impact studies (via Hotel News Resource)",
-   "source_id": "gl-hvs-market-reports",
+   "source": "The Independent (Uganda)",
+   "source_id": "ug-independent",
    "tier": 2,
-   "country": "GLOBAL",
-   "category": "trade",
+   "country": "UG",
+   "category": "press",
    "segments": [
-    "city"
+    "city",
+    "bush",
+    "beach"
    ],
-   "first_seen": "2026-10-16T06:35+03:00",
-   "published": "2026-10-15",
+   "first_seen": "2026-10-16T11:16+03:00",
+   "published": "2026-10-16",
    "verdict": "weak"
   },
   {
-   "score": 69.1,
+   "score": 63.8,
+   "components": {
+    "tier": 20,
+    "category": 4,
+    "lead": 0.0,
+    "relevance": 8,
+    "freshness": 19.8,
+    "undated": -6,
+    "shock": 18
+   },
+   "keywords": [
+    "airport"
+   ],
+   "shock_terms": [
+    "attack"
+   ],
+   "dedupe_match": null,
+   "dedupe_similarity": 0.0,
+   "id": "05b9bd54e122",
+   "title": "international Yemen's Houthis vow more attacks on Saudi airports, oil facilities after Aramco HQ hit Yesterday - 3 min read",
+   "url": "https://www.thecitizen.co.tz/tanzania/news/international/yemen-s-houthis-vow-more-attacks-on-saudi-airports-oil-facilities-after-aramco-hq-hit-5632628",
+   "summary": "",
+   "kind": "item",
+   "source": "The Citizen (Tanzania)",
+   "source_id": "np-citizen-tz",
+   "tier": 2,
+   "country": "TZ",
+   "category": "press",
+   "segments": [
+    "city",
+    "bush",
+    "beach"
+   ],
+   "first_seen": "2026-10-16T11:16+03:00",
+   "published": null,
+   "verdict": "weak"
+  },
+  {
+   "score": 62.4,
    "components": {
     "tier": 20,
     "category": 5,
-    "lead": 2.4,
-    "relevance": 12,
-    "freshness": 19.7,
+    "lead": 3.6,
+    "relevance": 4,
+    "freshness": 19.8,
     "corroborated": 10
    },
    "keywords": [
-    "fee",
+    "hotel"
+   ],
+   "shock_terms": [],
+   "dedupe_match": null,
+   "dedupe_similarity": 0.14,
+   "id": "9298cecd6d7f",
+   "title": "Undefeated So Far: Pricepoint Dares Hoteliers to Out-Price Its AI in New Game Rate War",
+   "url": "https://www.hospitalitynet.org/news/4134935/undefeated-so-far-pricepoint-dares-hoteliers-to-out-price-its-ai-in-new-game-rate-war",
+   "summary": "Pricepoint has launched Rate War, a free 2-minute browser game at ratewar.ai that challenges anyone to out-price its AI on 30 nights of hotel inventory.",
+   "kind": "item",
+   "source": "Hospitality Net \u2014 Africa announcements",
+   "source_id": "dev-hospitalitynet-africa",
+   "tier": 2,
+   "country": "REG",
+   "category": "trade",
+   "segments": [
+    "city",
+    "bush",
+    "beach"
+   ],
+   "first_seen": "2026-10-16T11:16+03:00",
+   "published": "2026-10-16",
+   "verdict": "weak"
+  },
+  {
+   "score": 62.4,
+   "components": {
+    "tier": 20,
+    "category": 5,
+    "lead": 3.6,
+    "relevance": 4,
+    "freshness": 19.8,
+    "corroborated": 10
+   },
+   "keywords": [
     "hotel"
    ],
    "shock_terms": [],
    "dedupe_match": null,
    "dedupe_similarity": 0.12,
-   "id": "cdcca3d729ea",
-   "title": "Valuing a Hotel Management Company: Read the Hotels Behind the Fees",
-   "url": "https://www.hotelnewsresource.com/article143356.html",
-   "summary": "A hotel management company is worth what the hotels behind its fees will keep paying. Learn how to read competitive position, contract survival and owner economics, then turn them into a defensible multiple, with a hypothetical worked example of a downside case.",
+   "id": "68acff54c199",
+   "title": "AI makes information abundant, trusted local expertise becomes a differentiator",
+   "url": "https://www.hospitalitynet.org/news/4134950/ai-makes-information-abundant-trusted-local-expertise-becomes-a-differentiator",
+   "summary": "Citing Hilton's 2027 Trends Report and four industry studies, the article argues hotels should position staff expertise as a trust differentiator as AI handles discovery but falls short on high-stakes decisions.",
    "kind": "item",
-   "source": "HVS \u2014 market reports and event-impact studies (via Hotel News Resource)",
-   "source_id": "gl-hvs-market-reports",
+   "source": "Hospitality Net \u2014 Africa announcements",
+   "source_id": "dev-hospitalitynet-africa",
    "tier": 2,
-   "country": "GLOBAL",
+   "country": "REG",
    "category": "trade",
-   "segments": [
-    "city"
-   ],
-   "first_seen": "2026-10-16T06:35+03:00",
-   "published": "2026-10-15",
-   "verdict": "weak"
-  },
-  {
-   "score": 69.1,
-   "components": {
-    "tier": 20,
-    "category": 5,
-    "lead": 2.4,
-    "relevance": 12,
-    "freshness": 19.7,
-    "corroborated": 10
-   },
-   "keywords": [
-    "hotel",
-    "conference",
-    "investment"
-   ],
-   "shock_terms": [],
-   "dedupe_match": null,
-   "dedupe_similarity": 0.14,
-   "id": "cf235f30b90c",
-   "title": "The Lodging Conference: Optimism Is Back, But the Rules of Growth Are Changing - By Wayne West III",
-   "url": "https://www.hotelnewsresource.com/article143350.html",
-   "summary": "Wayne West III reports that participants at The Lodging Conference expressed renewed optimism about the hospitality sector\u2019s outlook, while also emphasizing that traditional approaches to hotel growth, investment, and operational success are being reevaluated in response to current market conditions.",
-   "kind": "item",
-   "source": "HVS \u2014 market reports and event-impact studies (via Hotel News Resource)",
-   "source_id": "gl-hvs-market-reports",
-   "tier": 2,
-   "country": "GLOBAL",
-   "category": "trade",
-   "segments": [
-    "city"
-   ],
-   "first_seen": "2026-10-16T06:35+03:00",
-   "published": "2026-10-15",
-   "verdict": "weak"
-  },
-  {
-   "score": 66.5,
-   "components": {
-    "tier": 40,
-    "category": 7,
-    "lead": 16.8,
-    "relevance": 8,
-    "freshness": 19.7,
-    "stale_trap": -25
-   },
-   "keywords": [
-    "flight",
-    "guest"
-   ],
-   "shock_terms": [],
-   "dedupe_match": null,
-   "dedupe_similarity": 0.14,
-   "id": "33004064ea2b",
-   "title": "Manda handles its first international flights as leaders arrive for Lamu refinery groundbreaking",
-   "url": "https://www.kaa.go.ke/manda-first-international-flights",
-   "summary": "Manda handled international flights for the first time in its history on 29 and 30 September 2026, as Heads of State and Government, investors and more than 400 invited guests arrived in Lamu County for the\u2026",
-   "kind": "item",
-   "source": "KAA tenders",
-   "source_id": "ke-kaa-tenders",
-   "tier": 1,
-   "country": "KE",
-   "category": "tender",
    "segments": [
     "city",
     "bush",
     "beach"
    ],
-   "first_seen": "2026-10-16T06:35+03:00",
-   "published": "2026-09-30",
-   "verdict": "CHECK \u2014 source date older than the window"
+   "first_seen": "2026-10-16T11:16+03:00",
+   "published": "2026-10-16",
+   "verdict": "weak"
+  },
+  {
+   "score": 62.2,
+   "components": {
+    "tier": 5,
+    "category": 5,
+    "lead": 2.4,
+    "relevance": 20,
+    "freshness": 19.8,
+    "corroborated": 10
+   },
+   "keywords": [
+    "vat",
+    "wildlife",
+    "tourism"
+   ],
+   "shock_terms": [],
+   "dedupe_match": null,
+   "dedupe_similarity": 0.2,
+   "id": "5827190fb1c7",
+   "title": "UK Unites Germany and More Various Countries as EU \u20ac50M Drives Uganda Tourism and Conservation Growth",
+   "url": "https://www.travelandtourworld.com/news/article/0dx6nq7mism7",
+   "summary": "UK Unites Germany and More Various Countries as EU \u20ac50M Drives Uganda Tourism and Conservation Growth EU \u20ac50M funding supports Uganda tourism and wildlife conservation, strengthening travel opportunities for visitors from the UK, Germany, Kenya and Rwanda. The post UK Unites Germany and More Various Countries as EU \u20ac50M Drives Uganda Tourism and Conservation Growth appeared first on Travel And Tou",
+   "kind": "item",
+   "source": "Travel And Tour World",
+   "source_id": "gl-travelandtourworld",
+   "tier": 3,
+   "country": "GLOBAL",
+   "category": "trade",
+   "segments": [
+    "city",
+    "bush",
+    "beach"
+   ],
+   "first_seen": "2026-10-16T11:16+03:00",
+   "published": "2026-10-16",
+   "verdict": "weak"
+  },
+  {
+   "score": 61.8,
+   "components": {
+    "tier": 20,
+    "category": 4,
+    "lead": 0.0,
+    "relevance": 8,
+    "freshness": 19.8,
+    "corroborated": 10
+   },
+   "keywords": [
+    "fee"
+   ],
+   "shock_terms": [],
+   "dedupe_match": null,
+   "dedupe_similarity": 0.12,
+   "id": "d3640e2cf20e",
+   "title": "Education crisis looms as fees directives leave Island schools struggling",
+   "url": "https://www.monitor.co.ug/uganda/news/education/education-crisis-looms-as-fees-directives-leave-island-schools-struggling-5634042",
+   "summary": "Parents reportedly cited Local Government minister Balaam Barugahara\u2019s directive that parents...",
+   "kind": "item",
+   "source": "Daily Monitor (Uganda)",
+   "source_id": "np-monitor-ug",
+   "tier": 2,
+   "country": "UG",
+   "category": "press",
+   "segments": [
+    "city",
+    "bush",
+    "beach"
+   ],
+   "first_seen": "2026-10-16T11:16+03:00",
+   "published": "2026-10-16",
+   "verdict": "weak"
+  },
+  {
+   "score": 61.8,
+   "components": {
+    "tier": 20,
+    "category": 4,
+    "lead": 0.0,
+    "relevance": 8,
+    "freshness": 19.8,
+    "corroborated": 10
+   },
+   "keywords": [
+    "fee"
+   ],
+   "shock_terms": [],
+   "dedupe_match": null,
+   "dedupe_similarity": 0.0,
+   "id": "136d1e099807",
+   "title": "Love in the age of AI: Say bye to authenticity",
+   "url": "https://www.monitor.co.ug/uganda/lifestyle/heart-to-heart/love-in-the-age-of-ai-say-bye-to-authenticity-5632520",
+   "summary": "Kampala, whose relationships are largely an amalgam of genuine feelings and evasive...",
+   "kind": "item",
+   "source": "Daily Monitor (Uganda)",
+   "source_id": "np-monitor-ug",
+   "tier": 2,
+   "country": "UG",
+   "category": "press",
+   "segments": [
+    "city",
+    "bush",
+    "beach"
+   ],
+   "first_seen": "2026-10-16T11:16+03:00",
+   "published": "2026-10-16",
+   "verdict": "weak"
+  },
+  {
+   "score": 61.8,
+   "components": {
+    "tier": 20,
+    "category": 4,
+    "lead": 0.0,
+    "relevance": 8,
+    "freshness": 19.8,
+    "corroborated": 10
+   },
+   "keywords": [
+    "fee"
+   ],
+   "shock_terms": [],
+   "dedupe_match": null,
+   "dedupe_similarity": 0.0,
+   "id": "e9ff23cb2cb6",
+   "title": "Afrigo Band still gets generations on their feet",
+   "url": "https://www.monitor.co.ug/uganda/lifestyle/entertainment/afrigo-band-still-gets-generations-on-their-feet-5633954",
+   "summary": "Beneath clear skies, Sahel Gardens on Entebbe Road offered a relaxed setting as Afrigo Band...",
+   "kind": "item",
+   "source": "Daily Monitor (Uganda)",
+   "source_id": "np-monitor-ug",
+   "tier": 2,
+   "country": "UG",
+   "category": "press",
+   "segments": [
+    "city",
+    "bush",
+    "beach"
+   ],
+   "first_seen": "2026-10-16T11:16+03:00",
+   "published": "2026-10-16",
+   "verdict": "weak"
+  },
+  {
+   "score": 61.2,
+   "components": {
+    "tier": 20,
+    "category": 5,
+    "lead": 2.4,
+    "relevance": 4,
+    "freshness": 19.8,
+    "corroborated": 10
+   },
+   "keywords": [
+    "hotel"
+   ],
+   "shock_terms": [],
+   "dedupe_match": null,
+   "dedupe_similarity": 0.14,
+   "id": "53b6aa2e6d60",
+   "title": "Undefeated So Far: Pricepoint Dares Hoteliers to Out-Price Its AI in New Game Rate War",
+   "url": "https://www.hospitalitynet.org/news/4134935/undefeated-so-far-pricepoint-dares-hoteliers-to-out-price-its-ai-in-new-game-rate-war",
+   "summary": "Pricepoint has launched Rate War, a free 2-minute browser game at ratewar.ai that challenges anyone to out-price its AI on 30 nights of hotel inventory.",
+   "kind": "item",
+   "source": "Hospitality Net: Africa openings",
+   "source_id": "dev-hospitalitynet-openings",
+   "tier": 2,
+   "country": "AFRICA",
+   "category": "trade",
+   "segments": [
+    "city",
+    "bush",
+    "beach"
+   ],
+   "first_seen": "2026-10-16T11:16+03:00",
+   "published": "2026-10-16",
+   "verdict": "weak"
+  },
+  {
+   "score": 60.2,
+   "components": {
+    "tier": 20,
+    "category": 4,
+    "lead": 2.4,
+    "relevance": 4,
+    "freshness": 19.8,
+    "corroborated": 10
+   },
+   "keywords": [
+    "traffic"
+   ],
+   "shock_terms": [],
+   "dedupe_match": null,
+   "dedupe_similarity": 0.0,
+   "id": "5964715e119f",
+   "title": "Traffic Paralysed on Southern Bypass After Two Lorries Overturn",
+   "url": "https://www.kenyans.co.ke/news/127883-traffic-paralysed-southern-bypass-after-two-lorries-overturn",
+   "summary": "Motorists faced major delays during the Friday morning commute after an early accident blocked a key section of the highway.",
+   "kind": "item",
+   "source": "Kenyans.co.ke news",
+   "source_id": "ke-kenyans",
+   "tier": 2,
+   "country": "KE",
+   "category": "press",
+   "segments": [
+    "city",
+    "bush",
+    "beach"
+   ],
+   "first_seen": "2026-10-16T11:16+03:00",
+   "published": "2026-10-16",
+   "verdict": "weak"
+  },
+  {
+   "score": 60.2,
+   "components": {
+    "tier": 20,
+    "category": 4,
+    "lead": 2.4,
+    "relevance": 4,
+    "freshness": 19.8,
+    "corroborated": 10
+   },
+   "keywords": [
+    "investment"
+   ],
+   "shock_terms": [],
+   "dedupe_match": null,
+   "dedupe_similarity": 0.14,
+   "id": "2979f9fb1f41",
+   "title": "I&M Bank expands asset financing for pickup trucks, tractors",
+   "url": "https://www.independent.co.ug/im-bank-expands-asset-financing-for-pickup-trucks-tractors",
+   "summary": "Kampala, Uganda | PATRICIA AKANKWATSA | I&M Bank Uganda has expanded its asset financing offering to help businesses acquire pickup trucks and tractors, as the lender seeks to support investment while allowing enterprises to preserve working capital. The financing options were unveiled during the launch of the second season of the bank\u2019s Tukikube ne I&M \u2026 The post I&M Bank expands asset financing ",
+   "kind": "item",
+   "source": "The Independent (Uganda)",
+   "source_id": "ug-independent",
+   "tier": 2,
+   "country": "UG",
+   "category": "press",
+   "segments": [
+    "city",
+    "bush",
+    "beach"
+   ],
+   "first_seen": "2026-10-16T11:16+03:00",
+   "published": "2026-10-16",
+   "verdict": "weak"
+  },
+  {
+   "score": 60.2,
+   "components": {
+    "tier": 20,
+    "category": 4,
+    "lead": 2.4,
+    "relevance": 4,
+    "freshness": 19.8,
+    "corroborated": 10
+   },
+   "keywords": [
+    "shilling"
+   ],
+   "shock_terms": [],
+   "dedupe_match": null,
+   "dedupe_similarity": 0.14,
+   "id": "6c3f6d7dee17",
+   "title": "Uganda commits to transparency in oil and mineral revenues",
+   "url": "https://www.independent.co.ug/uganda-commits-to-transparency-in-oil-and-mineral-revenues",
+   "summary": "Kampala, Uganda | URN | The government reiterated its commitment to ensuring transparency and accountability in managing funds from the country\u2019s extractive sector, including oil, gas, and other natural resources. The commitment comes as the latest extractive industry report shows that companies disclosed about 261 million shillings in social expenditure during the 2023/2024 financial year. \u2026 The ",
+   "kind": "item",
+   "source": "The Independent (Uganda)",
+   "source_id": "ug-independent",
+   "tier": 2,
+   "country": "UG",
+   "category": "press",
+   "segments": [
+    "city",
+    "bush",
+    "beach"
+   ],
+   "first_seen": "2026-10-16T11:16+03:00",
+   "published": "2026-10-16",
+   "verdict": "weak"
+  },
+  {
+   "score": 60.0,
+   "components": {
+    "tier": 40,
+    "category": 5,
+    "lead": 1.2,
+    "relevance": 0,
+    "freshness": 19.8,
+    "undated": -6
+   },
+   "keywords": [],
+   "shock_terms": [],
+   "dedupe_match": null,
+   "dedupe_similarity": 0.0,
+   "id": "f38dd1d70266",
+   "title": "Communications 82",
+   "url": "https://mediacentre.go.ug/press-room?cat=communications",
+   "summary": "",
+   "kind": "item",
+   "source": "Uganda Media Centre \u2014 press room",
+   "source_id": "ug-mediacentre",
+   "tier": 1,
+   "country": "UG",
+   "category": "gov-comms",
+   "segments": [
+    "city",
+    "bush"
+   ],
+   "first_seen": "2026-10-16T11:16+03:00",
+   "published": null,
+   "verdict": "weak"
+  },
+  {
+   "score": 60.0,
+   "components": {
+    "tier": 40,
+    "category": 5,
+    "lead": 1.2,
+    "relevance": 0,
+    "freshness": 19.8,
+    "undated": -6
+   },
+   "keywords": [],
+   "shock_terms": [],
+   "dedupe_match": null,
+   "dedupe_similarity": 0.0,
+   "id": "cee340e6b972",
+   "title": "Foreign Affairs 2",
+   "url": "https://mediacentre.go.ug/press-room?cat=foreign-affairs",
+   "summary": "",
+   "kind": "item",
+   "source": "Uganda Media Centre \u2014 press room",
+   "source_id": "ug-mediacentre",
+   "tier": 1,
+   "country": "UG",
+   "category": "gov-comms",
+   "segments": [
+    "city",
+    "bush"
+   ],
+   "first_seen": "2026-10-16T11:16+03:00",
+   "published": null,
+   "verdict": "weak"
+  },
+  {
+   "score": 60.0,
+   "components": {
+    "tier": 40,
+    "category": 5,
+    "lead": 1.2,
+    "relevance": 0,
+    "freshness": 19.8,
+    "undated": -6
+   },
+   "keywords": [],
+   "shock_terms": [],
+   "dedupe_match": null,
+   "dedupe_similarity": 0.12,
+   "id": "f882b15160e8",
+   "title": "15 Oct 2026 Communications Ministry of Local Government MINISTRY OF TRADE TO INTRODUCE DIGITAL MARK FOR ONLINE CONSUMER PROTECTION In a bid to make digital trading a safe space for buyers and consumers, the Ministry of Trade, Industry and Cooperatives is set to introduce the digital mark to safeguard business transactions for online consumer protection. Read \u2192",
+   "url": "https://mediacentre.go.ug/release?slug=ministry-of-trade-to-introduce-digital-mark-for-online-consumer-protection",
+   "summary": "",
+   "kind": "item",
+   "source": "Uganda Media Centre \u2014 press room",
+   "source_id": "ug-mediacentre",
+   "tier": 1,
+   "country": "UG",
+   "category": "gov-comms",
+   "segments": [
+    "city",
+    "bush"
+   ],
+   "first_seen": "2026-10-16T11:16+03:00",
+   "published": null,
+   "verdict": "weak"
   }
  ]
 }

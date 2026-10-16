@@ -1,293 +1,155 @@
-# Radar candidates — morning slot
-_Window opens Thu 15 Oct 18:00 EAT · 474 observations in window · 23 headlines deduped against_
+# Radar candidates — midday slot
+_Window opens Fri 16 Oct 07:00 EAT · 218 observations in window · 23 headlines deduped against_
 
 Ranked by first-seen recency, source tier and hospitality relevance. `first seen` is when the radar observed the item, which is the date the recency gate runs on. `published` is what the source claims — where the two disagree, the disagreement is the story.
 
-### 🚨 [102.2] [page changed] WHO Disease Outbreak News
-- **Verdict:** OPEN THIS — tier-1 health page moved; content not auto-parsed, read it manually
-- **Source:** WHO Disease Outbreak News · tier 1 · GLOBAL · health
-- **First seen:** 2026-10-16T01:56+03:00 EAT · **Source date:** — none stated
-- **URL:** https://www.who.int/rss-feeds/news-english.xml
-- **Shock language:** outbreak
-- **Extract:** ﻿ News (English) - World Health Organization https://www.who.int/ Corporate news releases, statements, and notes for media issued by the World Health Organization. urn:uuid:0ce5fa04-9ac3-465f-89cf-15a8e5a748dd https://www.who.int/news/item/25-02-2026-who-direc
-- **Score parts:** tier +40, category +24, lead +3.6, relevance +12, freshness +14.6, undated -6, shock +18, page_change -4
+### 🚨 [117.8] [page changed] Federal Register — CDC notices
+- **Verdict:** OPEN THIS — tier-1 advisory page moved; content not auto-parsed, read it manually
+- **Source:** Federal Register — CDC notices · tier 1 · REG · advisory
+- **First seen:** 2026-10-16T11:16+03:00 EAT · **Source date:** 2026-11-10
+- **URL:** https://www.federalregister.gov/api/v1/documents.rss?conditions%5Bagencies%5D%5B%5D=centers-for-disease-control-and-prevention&order=newest
+- **Extract:** Federal Register Documents published on or after 09/16/2026 and from Centers for Disease Control and Prevention https://www.federalregister.gov/api/v1/documents.rss?conditions%5Bagencies%5D%5B%5D=centers-for-disease-control-and-prevention&order=newest Fri, 16 
+- **Score parts:** tier +40, category +32, lead +12, relevance +8, freshness +19.8, corroborated +10, page_change -4
 
 ### 🚨 [101.3] [page changed] Federal Register — public inspection (HHS/CDC), pre-publication
 - **Verdict:** OPEN THIS — tier-1 advisory page moved; content not auto-parsed, read it manually
 - **Source:** Federal Register — public inspection (HHS/CDC), pre-publication · tier 1 · REG · advisory
-- **First seen:** 2026-10-16T06:35+03:00 EAT · **Source date:** 2026-10-15
+- **First seen:** 2026-10-16T11:15+03:00 EAT · **Source date:** 2026-10-15
 - **URL:** https://www.federalregister.gov/api/v1/public-inspection-documents/current.json
 - **Extract:** {"count":134,"results":[{"agencies":[{"raw_name":"SMALL BUSINESS ADMINISTRATION","name":"Small Business Administration","id":468,"url":"https://www.federalregister.gov/agencies/small-business-administration","json_url":"https://www.federalregister.gov/api/v1/a
 - **Score parts:** tier +40, category +32, lead +3.6, relevance +0, freshness +19.7, corroborated +10, page_change -4
 
-### 🚨 [96.2] [page changed] Federal Register — public inspection (HHS/CDC), pre-publication
-- **Verdict:** OPEN THIS — tier-1 advisory page moved; content not auto-parsed, read it manually
-- **Source:** Federal Register — public inspection (HHS/CDC), pre-publication · tier 1 · REG · advisory
-- **First seen:** 2026-10-16T01:56+03:00 EAT · **Source date:** 2026-10-15
-- **URL:** https://www.federalregister.gov/api/v1/public-inspection-documents/current.json
-- **Extract:** {"count":134,"results":[{"agencies":[{"raw_name":"SMALL BUSINESS ADMINISTRATION","name":"Small Business Administration","id":468,"url":"https://www.federalregister.gov/agencies/small-business-administration","json_url":"https://www.federalregister.gov/api/v1/a
-- **Score parts:** tier +40, category +32, lead +3.6, relevance +0, freshness +14.6, corroborated +10, page_change -4
-
-### 🚨 [92.1] [page changed] Federal Register — public inspection (HHS/CDC), pre-publication
-- **Verdict:** OPEN THIS — tier-1 advisory page moved; content not auto-parsed, read it manually
-- **Source:** Federal Register — public inspection (HHS/CDC), pre-publication · tier 1 · REG · advisory
-- **First seen:** 2026-10-15T22:15+03:00 EAT · **Source date:** 2026-10-15
-- **URL:** https://www.federalregister.gov/api/v1/public-inspection-documents/current.json
-- **Extract:** {"count":132,"results":[{"agencies":[{"raw_name":"SMALL BUSINESS ADMINISTRATION","name":"Small Business Administration","id":468,"url":"https://www.federalregister.gov/agencies/small-business-administration","json_url":"https://www.federalregister.gov/api/v1/a
-- **Score parts:** tier +40, category +32, lead +3.6, relevance +0, freshness +10.5, corroborated +10, page_change -4
-
-### 🚨 [65.3] [page changed] Airlink news
-- **Verdict:** OPEN THIS — tier-1 airline page moved; content not auto-parsed, read it manually
-- **Source:** Airlink news · tier 1 · REG · airline
-- **First seen:** 2026-10-16T06:34+03:00 EAT · **Source date:** — none stated
-- **URL:** https://www.flyairlink.com/
-- **Extract:** Request unsuccessful. Incapsula incident ID: 2107000770420848601-555271746035061583
-- **Score parts:** tier +40, category +12, lead +3.6, relevance +0, freshness +19.7, undated -6, page_change -4
-
-### 🟠 [105.5] Stakeholders review full-scale emergency exercise at JKIA
+### 🟠 [117.8] Meeting of the Advisory Council for the Elimination of Tuberculosis
 - **Verdict:** STRONG — tier-1, upstream
-- **Source:** KAA tenders · tier 1 · KE · tender
-- **First seen:** 2026-10-16T06:35+03:00 EAT · **Source date:** 2026-10-15
-- **URL:** https://www.kaa.go.ke/jkia-emergency-exercise-review
-- **Extract:** Stakeholders from government agencies, airlines, emergency health providers and other airport partners met on Monday, 22 June 2026 to review the Full-Scale Emergency Exercise held at Jomo Kenyatta International…
-- **Score parts:** tier +40, category +7, lead +16.8, relevance +12, freshness +19.7, corroborated +10
+- **Source:** Federal Register — CDC documents (newest first) · tier 1 · GLOBAL · advisory
+- **First seen:** 2026-10-16T11:16+03:00 EAT · **Source date:** 2026-10-16
+- **URL:** https://www.federalregister.gov/documents/2026/10/16/2026-21125/meeting-of-the-advisory-council-for-the-elimination-of-tuberculosis
+- **Extract:** In accordance with the Federal Advisory Committee Act, the Centers for Disease Control and Prevention (CDC) announces the following meeting of the Advisory Council for the Elimination of Tuberculosis (ACET). This meeting is open to the public, limited only by 
+- **Score parts:** tier +40, category +32, lead +0, relevance +16, freshness +19.8, corroborated +10
 
-### 🟠 [101.5] KAA and partners plant 16,000 trees at Dongo Kundu
-- **Verdict:** STRONG — tier-1, upstream
-- **Source:** KAA tenders · tier 1 · KE · tender
-- **First seen:** 2026-10-16T06:35+03:00 EAT · **Source date:** 2026-10-15
-- **URL:** https://www.kaa.go.ke/dongo-kundu-tree-planting
-- **Extract:** Kenya Airports Authority and the Kenya Civil Aviation Authority led a tree planting exercise at Dongo Kundu in Mombasa, where participants planted 16,000 tree seedlings.
-- **Score parts:** tier +40, category +7, lead +16.8, relevance +8, freshness +19.7, corroborated +10
-
-### 🟠 [99.5] Stakeholders review full-scale emergency exercise at JKIA
-- **Verdict:** STRONG — tier-1, upstream
-- **Source:** Kenya Airports Authority · tier 1 · KE · aviation
-- **First seen:** 2026-10-16T06:35+03:00 EAT · **Source date:** 2026-10-15
-- **URL:** https://www.kaa.go.ke/jkia-emergency-exercise-review
-- **Extract:** Stakeholders from government agencies, airlines, emergency health providers and other airport partners met on Monday, 22 June 2026 to review the Full-Scale Emergency Exercise held at Jomo Kenyatta International…
-- **Score parts:** tier +40, category +13, lead +4.8, relevance +12, freshness +19.7, corroborated +10
-
-### 🟠 [97.6] EAC Ministers Adopt Ten-Year Tourism Marketing Strategy and Commit to Leverage AFCON 2027
-- **Verdict:** STRONG — tier-1, upstream
-- **Source:** East African Community — Secretariat news · tier 1 · Regional · body
-- **First seen:** 2026-10-16T01:56+03:00 EAT · **Source date:** 2026-10-15
-- **URL:** https://www.eac.int/press-releases/156-tourism-wildlife-management/3608-eac-ministers-adopt-ten-year-tourism-marketing-strategy-and-commit-to-leverage-afcon-2027
-- **Extract:** East African Community Headquarters, Arusha, Tanzania,15th October, 2026: EAC Ministers responsible for Tourism and Wildlife Management have adopted the EAC Tourism Marketing Strategy (2027–2036), setting a ten-year framework for joint efforts to promote East 
-- **Score parts:** tier +40, category +7, lead +6, relevance +20, freshness +14.6, corroborated +10
-
-### 🟠 [95.5] KAA and partners plant 16,000 trees at Dongo Kundu
-- **Verdict:** STRONG — tier-1, upstream
-- **Source:** Kenya Airports Authority · tier 1 · KE · aviation
-- **First seen:** 2026-10-16T06:35+03:00 EAT · **Source date:** 2026-10-15
-- **URL:** https://www.kaa.go.ke/dongo-kundu-tree-planting
-- **Extract:** Kenya Airports Authority and the Kenya Civil Aviation Authority led a tree planting exercise at Dongo Kundu in Mombasa, where participants planted 16,000 tree seedlings.
-- **Score parts:** tier +40, category +13, lead +4.8, relevance +8, freshness +19.7, corroborated +10
-
-### 🟡 [89.5] Eldoret International Airport joins neighbours for Mazingira Day clean-up
-- **Verdict:** CHECK — source date older than the window
-- **Source:** KAA tenders · tier 1 · KE · tender
-- **First seen:** 2026-10-16T06:35+03:00 EAT · **Source date:** 2026-10-09
-- **URL:** https://www.kaa.go.ke/eldoret-mazingira-day-clean-up
-- **Extract:** Eldoret International Airport held a clean-up along the Kapsabet–Eldoret Road on Friday, 9 October 2026, the eve of Mazingira Day, the national day for environmental conservation observed every 10 October.
-- **Score parts:** tier +40, category +7, lead +16.8, relevance +16, freshness +19.7, stale_trap -10
-
-### 🟡 [88.9] From Ebola fighter to survivor, DRC doctor vows to return to front lines
-- **Verdict:** CONSIDER
-- **Source:** The Independent (Uganda) · tier 2 · UG · press
-- **First seen:** 2026-10-15T22:15+03:00 EAT · **Source date:** 2026-10-15
-- **URL:** https://www.independent.co.ug/from-ebola-fighter-to-survivor-drc-doctor-vows-to-return-to-front-lines
-- **Shock language:** outbreak
-- **Extract:** BENI, DRC | Xinhua | For years, Alex Olela fought Ebola from the front lines, treating patients during five outbreaks of the deadly disease in the Democratic Republic of the Congo (DRC). Then, in a cruel twist, the doctor found himself on the other side of the
-- **Score parts:** tier +20, category +4, lead +2.4, relevance +24, freshness +10.5, corroborated +10, shock +18
-
-### 🟡 [88.5] NIN–TIN integration to expand Uganda’s tax base Thursday, 15 October 2026
-- **Verdict:** CONSIDER
-- **Source:** Parliament of Uganda · tier 1 · UG · legislature
-- **First seen:** 2026-10-16T06:35+03:00 EAT · **Source date:** — none stated
-- **URL:** https://www.parliament.go.ug/news/4668/nin-tin-integration-expand-ugandas-tax-base
-- **Score parts:** tier +40, category +10, lead +16.8, relevance +8, freshness +19.7, undated -6
-
-### 🟡 [88.1] Austrian Discontinues Cologne/Bonn Service in Jan 2027
+### 🟡 [100.2] Hainan Airlines Nov 2026 Shenzhen Long-Haul Reductions
 - **Verdict:** CONSIDER
 - **Source:** AeroRoutes schedule filings · tier 2 · GLOBAL · aviation-tracker
-- **First seen:** 2026-10-16T06:35+03:00 EAT · **Source date:** 2026-10-16
-- **URL:** https://www.aeroroutes.com/eng/261015-osjan27cgn
-- **Extract:** Published at 1800PDT 15OCT26 / 0100GMT 16OCT26 Austrian Airlines in the first quarter of 2027 plans to discontinue Vienna – Cologne/Bonn route, with last flight scheduled on 11JAN27. Eurowings will continue to operate this route. Austrian during winter season 
-- **Score parts:** tier +20, category +14, lead +8.4, relevance +16, freshness +19.7, corroborated +10
+- **First seen:** 2026-10-16T11:16+03:00 EAT · **Source date:** 2026-10-16
+- **URL:** https://www.aeroroutes.com/eng/261016-hunov26szx
+- **Extract:** Published at 0100PDT / 0800GMT 16OCT26 Hainan Airlines as of 16OCT26 filed various long-haul service changes at Shenzhen , where the airline closed reservations on various Middle East and European routes for the month of November 2026, signaling the airline’s 
+- **Score parts:** tier +20, category +14, lead +8.4, relevance +28, freshness +19.8, corroborated +10
 
-### 🟡 [86.9] SitRep N°152 /MVE-BDBV/13/10/2026
-- **Verdict:** CONSIDER
+### 🟠 [96.2] SitRep N°153 /MVE-BDBV/14/10/2026
+- **Verdict:** STRONG — tier-1, upstream
 - **Source:** INSP RDC — Ebola daily situation reports (SitRep) · tier 1 · GLOBAL · health
-- **First seen:** 2026-10-15T22:15+03:00 EAT · **Source date:** 2026-10-15
-- **URL:** https://insp.cd/sitrep-n152-mve-bdbv-13-10-2026
-- **Score parts:** tier +40, category +24, lead +2.4, relevance +0, freshness +10.5, corroborated +10
+- **First seen:** 2026-10-16T11:16+03:00 EAT · **Source date:** 2026-10-16
+- **URL:** https://insp.cd/sitrep-n153-mve-bdbv-14-10-2026
+- **Score parts:** tier +40, category +24, lead +2.4, relevance +0, freshness +19.8, corroborated +10
 
-### 🟡 [86.1] [page changed] ProMED-mail
-- **Verdict:** CONSIDER
-- **Source:** ProMED-mail · tier 2 · GLOBAL · health
-- **First seen:** 2026-10-16T06:35+03:00 EAT · **Source date:** — none stated
-- **URL:** https://promedmail.org/
-- **Shock language:** outbreak
-- **Extract:** Protecting Global Health, One Alert at a Time | ProMED Previous slide Next slide Protecting Global Health, One Alert at a Time ProMED: Your 24/7 early warning system for emerging infectious diseases worldwide. Subscribe ProMED's Weekly Pulse A snapshot of glob
-- **Score parts:** tier +20, category +24, lead +2.4, relevance +12, freshness +19.7, undated -6, shock +18, page_change -4
-
-### 🟡 [86.1] Students bear brunt as lecturers dig in over strike demands
-- **Verdict:** CONSIDER
-- **Source:** Nation Africa: Kenya business · tier 2 · KE · press
-- **First seen:** 2026-10-16T06:35+03:00 EAT · **Source date:** 2026-10-15
-- **URL:** https://nation.africa/kenya/news/education/students-bear-brunt-as-lecturers-dig-in-over-strike-demands-5633574
-- **Shock language:** strike
-- **Extract:** Students remain untaught and idle on campuses.
-- **Score parts:** tier +20, category +4, lead +2.4, relevance +12, freshness +19.7, corroborated +10, shock +18
-
-### 🟡 [84.1] Air China Maintains Boeing 777 Warsaw Flights in NW26
+### 🟡 [88.2] Hainan Airlines Dec 2026 Haikou – Sydney Service Increases
 - **Verdict:** CONSIDER
 - **Source:** AeroRoutes schedule filings · tier 2 · GLOBAL · aviation-tracker
-- **First seen:** 2026-10-16T06:35+03:00 EAT · **Source date:** 2026-10-16
-- **URL:** https://www.aeroroutes.com/eng/261015-canw26waw
-- **Extract:** Published at 2000PDT 15OCT26 / 0300GMT 16OCT26 Air China in the last few days filed operational aircraft for Beijing Capital – Warsaw route during Northern winter 2026/27 season, as the carrier now plans to maintain Boeing 777-300ER aircraft for the period of 
-- **Score parts:** tier +20, category +14, lead +8.4, relevance +12, freshness +19.7, corroborated +10
+- **First seen:** 2026-10-16T11:16+03:00 EAT · **Source date:** 2026-10-16
+- **URL:** https://www.aeroroutes.com/eng/261015-hudec26haksyd
+- **Extract:** Published at 2245PDT 15OCT26 / 0545GMT 16OCT26 Hainan Airlines during the month of December 2026 once again schedules service increase on Haikou – Sydney route. From 01DEC26 to 23DEC26, service increases from 3 to 7 weekly, while additional 5 weekly flights wi
+- **Score parts:** tier +20, category +14, lead +8.4, relevance +16, freshness +19.8, corroborated +10
 
-### 🟡 [84.1] Air Caraïbes Extends St. Maarten Service to Year-Round in NS27
+### 🟡 [82.2] Kenya Condemns Houthi Attacks on Saudi Arabia Amid Fuel Supply Concerns
+- **Verdict:** CONSIDER
+- **Source:** Kenyans.co.ke news · tier 2 · KE · press
+- **First seen:** 2026-10-16T11:16+03:00 EAT · **Source date:** 2026-10-16
+- **URL:** https://www.kenyans.co.ke/news/127882-kenya-condemns-houthi-attacks-saudi-arabia-death-toll-hits-19
+- **Shock language:** attack
+- **Extract:** Kenya relies on fuel from Saudi Arabia under the G-2G agreement, with concerns growing over fuel supply following attacks on critical infrastructure.
+- **Score parts:** tier +20, category +4, lead +2.4, relevance +8, freshness +19.8, corroborated +10, shock +18
+
+### 🟡 [80.2] Air Canada Expands Boeing 777-300ER Venice Service in NS27
 - **Verdict:** CONSIDER
 - **Source:** AeroRoutes schedule filings · tier 2 · GLOBAL · aviation-tracker
-- **First seen:** 2026-10-16T06:35+03:00 EAT · **Source date:** 2026-10-16
-- **URL:** https://www.aeroroutes.com/eng/261015-txns27sxm
-- **Extract:** Published at 1701PDT 15OCT26 / 0001GMT 16OCT26 Air Caraïbes during Northern summer 2027 season once again intends to extend Paris Orly – St. Maarten service to year-round operation, as the carrier lists 1 weekly flight from 13MAY27 to 14OCT27. The carrier in 2
-- **Score parts:** tier +20, category +14, lead +8.4, relevance +12, freshness +19.7, corroborated +10
+- **First seen:** 2026-10-16T11:16+03:00 EAT · **Source date:** 2026-10-16
+- **URL:** https://www.aeroroutes.com/eng/261016-acns27vce
+- **Extract:** Published at 0000PDT / 0700GMT 16OCT26 Air Canada in the last few days filed aircraft changes for Venice Marco Polo , as the carrier expands 400-seater Boeing 777-300ER operation in Northern summer 2027 season. Montreal – Venice Marco Polo Boeing 777-300ER ope
+- **Score parts:** tier +20, category +14, lead +8.4, relevance +8, freshness +19.8, corroborated +10
 
-### 🟡 [83.0] US-Bangla Airlines Increases Dhaka – Chennai Flights in NW26
+### 🟡 [80.2] Qantas Extends Revised European Routing to mid-1Q27
 - **Verdict:** CONSIDER
 - **Source:** AeroRoutes schedule filings · tier 2 · GLOBAL · aviation-tracker
-- **First seen:** 2026-10-16T01:56+03:00 EAT · **Source date:** 2026-10-16
-- **URL:** https://www.aeroroutes.com/eng/261015-bsnw26maa
-- **Extract:** Published at 1500PDT / 2200GMT 15OCT26 Bangladeshi-carrier US-Bangla Airlines from mid-November 2026 plans to increase Dhaka – Chennai flights, as the carrier this week opened reservations for additional flights. From 13NOV26, overall service will increase fro
-- **Score parts:** tier +20, category +14, lead +8.4, relevance +16, freshness +14.6, corroborated +10
+- **First seen:** 2026-10-16T11:16+03:00 EAT · **Source date:** 2026-10-16
+- **URL:** https://www.aeroroutes.com/eng/261015-qfnw26eu
+- **Extract:** Published at 2330PDT 15OCT26 / 0630GMT 16OCT26 Qantas in mid-August 2026 filed international network adjustment to selected European routes, as revised operation being extended to 31JAN27 inclusive, instead of 24OCT26. Perth – Singapore – London Heathrow – Per
+- **Score parts:** tier +20, category +14, lead +8.4, relevance +8, freshness +19.8, corroborated +10
 
-### 🟡 [82.5] Jambojet resumes daily Nairobi–Entebbe flights
-- **Verdict:** CHECK — source date older than the window
-- **Source:** KAA tenders · tier 1 · KE · tender
-- **First seen:** 2026-10-16T06:35+03:00 EAT · **Source date:** 2026-10-01
-- **URL:** https://www.kaa.go.ke/jambojet-resumes-nairobi-entebbe
-- **Extract:** Jambojet resumed daily flights between Nairobi and Entebbe on Thursday, 1 October 2026, six years after the route was suspended during the COVID-19 pandemic.
-- **Score parts:** tier +40, category +7, lead +16.8, relevance +24, freshness +19.7, stale_trap -25
-
-### 🟡 [81.5] KAA and airport partners mark Customer Service Week across the network
-- **Verdict:** CHECK — source date older than the window
-- **Source:** KAA tenders · tier 1 · KE · tender
-- **First seen:** 2026-10-16T06:35+03:00 EAT · **Source date:** 2026-10-09
-- **URL:** https://www.kaa.go.ke/customer-service-week-2026
-- **Extract:** Airports across the KAA network marked Customer Service Week from Monday, 5 October to Friday, 9 October 2026 under the theme “The Extra Mile”.
-- **Score parts:** tier +40, category +7, lead +16.8, relevance +8, freshness +19.7, stale_trap -10
-
-### 🟡 [81.1] Fall F&B Forecast: Coffee, Comfort, and a Bigger Seat at the Revenue Table - By Guy Reinbold
+### 🟡 [80.1] Setting Kenya’s research agenda on health, migration and displacement
 - **Verdict:** CONSIDER
-- **Source:** HVS — market reports and event-impact studies (via Hotel News Resource) · tier 2 · GLOBAL · trade
-- **First seen:** 2026-10-16T06:35+03:00 EAT · **Source date:** 2026-10-15
-- **URL:** https://www.hotelnewsresource.com/article143352.html
-- **Extract:** Guy Reinbold highlights how hotels are prioritizing coffee programs, comfort-driven menus, and enhanced F&B experiences this fall to capture greater guest spending and strengthen overall property profitability.
-- **Score parts:** tier +20, category +5, lead +2.4, relevance +24, freshness +19.7, corroborated +10
+- **Source:** WHO AFRO — Kenya country newsroom · tier 1 · KE · health
+- **First seen:** 2026-10-16T11:15+03:00 EAT · **Source date:** — none stated
+- **URL:** https://www.afro.who.int/countries/kenya/news/setting-kenyas-research-agenda-health-migration-and-displacement
+- **Score parts:** tier +40, category +24, lead +2.4, relevance +0, freshness +19.7, undated -6
 
-### 🟡 [80.5] Aga Khan to promote green energy products Thursday, 15 October 2026
+### 🟡 [80.1] 15 October 2026 | Cluster/Departmental news Setting Kenya’s research agenda on health, migration and displacement
 - **Verdict:** CONSIDER
-- **Source:** Parliament of Uganda · tier 1 · UG · legislature
-- **First seen:** 2026-10-16T06:35+03:00 EAT · **Source date:** — none stated
-- **URL:** https://www.parliament.go.ug/news/4669/aga-khan-promote-green-energy-products
-- **Score parts:** tier +40, category +10, lead +16.8, relevance +0, freshness +19.7, undated -6
+- **Source:** WHO AFRO — Rwanda country newsroom · tier 1 · RW · health
+- **First seen:** 2026-10-16T11:15+03:00 EAT · **Source date:** — none stated
+- **URL:** https://www.afro.who.int/countries/kenya/news/setting-kenyas-research-agenda-health-migration-and-displacement
+- **Score parts:** tier +40, category +24, lead +2.4, relevance +0, freshness +19.7, undated -6
 
-### 🟡 [80.1] Lufthansa Outlines A350-1000 Dec 2026/Jan 2027 Network
+### 🟡 [80.1] 15 October 2026 | Cluster/Departmental news Setting Kenya’s research agenda on health, migration and displacement
 - **Verdict:** CONSIDER
-- **Source:** AeroRoutes schedule filings · tier 2 · GLOBAL · aviation-tracker
-- **First seen:** 2026-10-16T06:35+03:00 EAT · **Source date:** 2026-10-16
-- **URL:** https://www.aeroroutes.com/eng/261015-lhdec26351
-- **Extract:** Published at 1600PDT / 2300GMT 15OCT26 Lufthansa today (15OCT26) announced and opened reservations for its planned Airbus A350-1000 operation, scheduled to enter service on 03DEC26, Munich – Tokyo Haneda. Configuration of the A350-1000 is F4J49W35Y212. As of 1
-- **Score parts:** tier +20, category +14, lead +8.4, relevance +8, freshness +19.7, corroborated +10
+- **Source:** WHO AFRO — Uganda country newsroom · tier 1 · UG · health
+- **First seen:** 2026-10-16T11:15+03:00 EAT · **Source date:** — none stated
+- **URL:** https://www.afro.who.int/countries/kenya/news/setting-kenyas-research-agenda-health-migration-and-displacement
+- **Score parts:** tier +40, category +24, lead +2.4, relevance +0, freshness +19.7, undated -6
 
-### 🟡 [78.9] Shanghai Airlines Increases Shanghai – Kuala Lumpur Flights in NW26
+### 🟡 [77.8] Global airlines bet on Zanzibar as regional carriers retreat on surging fees for travellers
 - **Verdict:** CONSIDER
-- **Source:** AeroRoutes schedule filings · tier 2 · GLOBAL · aviation-tracker
-- **First seen:** 2026-10-15T22:15+03:00 EAT · **Source date:** 2026-10-15
-- **URL:** https://www.aeroroutes.com/eng/261015-fmnw26kul
-- **Extract:** Published at 0800PDT / 1500GMT 15OCT26 Shanghai Airlines during Northern winter 2026/27 season plans to expand Shanghai Pu Dong – Kuala Lumpur route, with the addition of 5th daily flight from 25OCT26. This route is primarily served by 737 MAX 8, although the 
-- **Score parts:** tier +20, category +14, lead +8.4, relevance +16, freshness +10.5, corroborated +10
+- **Source:** The EastAfrican · tier 2 · REG · press
+- **First seen:** 2026-10-16T11:16+03:00 EAT · **Source date:** 2026-10-16
+- **URL:** https://www.theeastafrican.co.ke/tea/news/east-africa/global-airlines-bet-on-zanzibar-as-regional-carriers-retreat-on-surging-fees-for-travellers-5633284
+- **Extract:** British Airways, Etihad and Emirates, among others, are increasing their flights and capacity...
+- **Score parts:** tier +20, category +4, lead +0, relevance +24, freshness +19.8, corroborated +10
 
-### 🟡 [75.0] Air India Resumes Osaka Service From Feb 2027
+### 🟡 [72.0] 16 Oct 2026 Communications Uganda Media Centre MKUTANO KUJADILI HAKI MILIKI KATIKA TEKNOLOJIA BARANI AFRIKA (ATIS) UTAKA
 - **Verdict:** CONSIDER
-- **Source:** AeroRoutes schedule filings · tier 2 · GLOBAL · aviation-tracker
-- **First seen:** 2026-10-16T01:56+03:00 EAT · **Source date:** 2026-10-16
-- **URL:** https://www.aeroroutes.com/eng/261015-aifeb27kix
-- **Extract:** Published at 1400PDT / 2100GMT 15OCT26 Air India today (15OCT26) announced service resumption to Osaka, last served until September 2019. The Star Alliance member plans to operate Delhi – Osaka Kansai route 4 times weekly from 02FEB27, with 787-8. AI360 DEL225
-- **Score parts:** tier +20, category +14, lead +8.4, relevance +8, freshness +14.6, corroborated +10
+- **Source:** Uganda Media Centre — press room · tier 1 · UG · gov-comms
+- **First seen:** 2026-10-16T11:16+03:00 EAT · **Source date:** — none stated
+- **URL:** https://mediacentre.go.ug/release?slug=mkutano-kujadili-haki-miliki-katika-teknolojia-barani-afrika-atis-utakaofanyika-tarehe-22-23-marriot-hotel
+- **Score parts:** tier +40, category +5, lead +1.2, relevance +12, freshness +19.8, undated -6
 
-### 🟡 [73.1] A Full House Isn’t Always a Full Win: Rethinking Fall Group Revenue - By Whitney Altizer
+### 🟡 [70.7] 𝐍𝐀𝐓𝐈𝐎𝐍𝐀𝐋 𝐀𝐒𝐒𝐄𝐌𝐁𝐋𝐘 𝐏𝐀𝐒𝐒𝐄𝐒 𝐁𝐈𝐋𝐋 𝐓𝐎 𝐒𝐓𝐑𝐄𝐍𝐆𝐓𝐇𝐄𝐍 𝐎𝐕𝐄𝐑𝐒𝐈𝐆𝐇𝐓 𝐎𝐅 𝐄𝐀𝐒𝐓 𝐀𝐅𝐑𝐈𝐂𝐀𝐍 𝐃𝐄𝐕𝐄𝐋𝐎𝐏𝐌𝐄𝐍𝐓 𝐁𝐀𝐍𝐊 𝐅𝐔𝐍𝐃𝐈𝐍𝐆
 - **Verdict:** CONSIDER
-- **Source:** HVS — market reports and event-impact studies (via Hotel News Resource) · tier 2 · GLOBAL · trade
-- **First seen:** 2026-10-16T06:35+03:00 EAT · **Source date:** 2026-10-15
-- **URL:** https://www.hotelnewsresource.com/article143351.html
-- **Extract:** Whitney Altizer examines how hotels can maximize profitability from fall group bookings by focusing on total revenue management rather than relying solely on high occupancy figures.
-- **Score parts:** tier +20, category +5, lead +2.4, relevance +16, freshness +19.7, corroborated +10
+- **Source:** Senate Committee on Delegated Legislation (Kenya) — the committee that annuls or accedes to statutory instruments · tier 1 · KE · REG
+- **First seen:** 2026-10-16T11:15+03:00 EAT · **Source date:** — none stated
+- **URL:** https://www.parliament.go.ke/node/26559
+- **Score parts:** tier +40, category +5, lead +12, relevance +0, freshness +19.7, undated -6
 
-### 🟡 [73.1] AI in Hotel Revenue Management: The Ultimate Guide - By Jonathan Gough
+### 🟡 [70.7] 𝐇𝐎𝐔𝐒𝐄 𝐏𝐀𝐒𝐒𝐄𝐒 𝐁𝐈𝐋𝐋 𝐓𝐎 𝐑𝐄𝐂𝐎𝐆𝐍𝐈𝐙𝐄 𝐄𝐍𝐕𝐈𝐑𝐎𝐍𝐌𝐄𝐍𝐓𝐀𝐋 𝐏𝐑𝐎𝐅𝐄𝐒𝐒𝐈𝐎𝐍𝐀𝐋𝐒
 - **Verdict:** CONSIDER
-- **Source:** HVS — market reports and event-impact studies (via Hotel News Resource) · tier 2 · GLOBAL · trade
-- **First seen:** 2026-10-16T06:35+03:00 EAT · **Source date:** 2026-10-15
-- **URL:** https://www.hotelnewsresource.com/article143344.html
-- **Extract:** Jonathan Gough's comprehensive guide examines how artificial intelligence is being integrated into hotel revenue management systems, detailing its impact on pricing optimization, demand forecasting, and operational efficiency for hotel owners and operators.
-- **Score parts:** tier +20, category +5, lead +2.4, relevance +16, freshness +19.7, corroborated +10
+- **Source:** Senate Committee on Delegated Legislation (Kenya) — the committee that annuls or accedes to statutory instruments · tier 1 · KE · REG
+- **First seen:** 2026-10-16T11:15+03:00 EAT · **Source date:** — none stated
+- **URL:** https://www.parliament.go.ke/node/26558
+- **Score parts:** tier +40, category +5, lead +12, relevance +0, freshness +19.7, undated -6
 
-### 🟡 [72.1] KLM NW26 A350-900 Operations – 15OCT26
+### 🟡 [70.7] 𝐌𝐏𝐒 𝐏𝐀𝐒𝐒 𝐁𝐑𝐄𝐀𝐒𝐓𝐅𝐄𝐄𝐃𝐈𝐍𝐆 𝐌𝐎𝐓𝐇𝐄𝐑𝐒 𝐁𝐈𝐋𝐋 𝐓𝐎 𝐒𝐓𝐑𝐄𝐍𝐆𝐓𝐇𝐄𝐍 𝐒𝐔𝐏𝐏𝐎𝐑𝐓 𝐀𝐍𝐃 𝐖𝐎𝐑𝐊 𝐏𝐋𝐀𝐂𝐄 𝐏𝐑𝐎𝐓𝐄𝐂𝐓𝐈𝐎𝐍
 - **Verdict:** CONSIDER
-- **Source:** AeroRoutes schedule filings · tier 2 · GLOBAL · aviation-tracker
-- **First seen:** 2026-10-16T06:35+03:00 EAT · **Source date:** 2026-10-16
-- **URL:** https://www.aeroroutes.com/eng/261015-klnw26359
-- **Extract:** Published at 1900PDT 15OCT26 / 0200GMT 16OCT26 KLM in recent weeks filed additional changes to planned Airbus A350-900 aircraft for Northern winter 2026/27 season. As of 15OCT26, planned operation as follows. Amsterdam – Kilimanjaro – Dar es Salaam – Amsterdam
-- **Score parts:** tier +20, category +14, lead +8.4, relevance +0, freshness +19.7, corroborated +10
+- **Source:** Senate Committee on Delegated Legislation (Kenya) — the committee that annuls or accedes to statutory instruments · tier 1 · KE · REG
+- **First seen:** 2026-10-16T11:15+03:00 EAT · **Source date:** — none stated
+- **URL:** https://www.parliament.go.ke/node/26557
+- **Score parts:** tier +40, category +5, lead +12, relevance +0, freshness +19.7, undated -6
 
-### 🟡 [72.1] Machakos Assembly staff lose medical cover amid Sh17.8bn budget row
+### 🟡 [70.7] 𝗠𝗣𝗦 𝗕𝗔𝗖𝗞 𝗠𝗢𝗧𝗜𝗢𝗡 𝗧𝗢 𝗖𝗥𝗘𝗔𝗧𝗘 𝗦𝗘𝗖𝗨𝗥𝗜𝗧𝗬 𝗝𝗢𝗕𝗦 𝗙𝗢𝗥 𝗡𝗬𝗦 𝗚𝗥𝗔𝗗𝗨𝗔𝗧𝗘𝗦
 - **Verdict:** CONSIDER
-- **Source:** Nation Africa: Kenya business · tier 2 · KE · press
-- **First seen:** 2026-10-16T06:35+03:00 EAT · **Source date:** 2026-10-15
-- **URL:** https://nation.africa/kenya/counties/machakos/machakos-assembly-staff-lose-medical-cover-amid-sh17-8bn-budget-row-5633788
-- **Extract:** The Assembly has also received a KRA demand for unpaid taxes and housing levy.
-- **Score parts:** tier +20, category +4, lead +2.4, relevance +16, freshness +19.7, corroborated +10
+- **Source:** Senate Committee on Delegated Legislation (Kenya) — the committee that annuls or accedes to statutory instruments · tier 1 · KE · REG
+- **First seen:** 2026-10-16T11:15+03:00 EAT · **Source date:** — none stated
+- **URL:** https://www.parliament.go.ke/node/26556
+- **Score parts:** tier +40, category +5, lead +12, relevance +0, freshness +19.7, undated -6
 
-### 🟡 [72.1] UCRA welcomes Rugaya as new Executive Director with bold commercial vision
+### 🟡 [70.7] 𝐊𝐄𝐍𝐘𝐀𝐍𝐒 𝐒𝐄𝐓 𝐅𝐎𝐑 𝐂𝐎𝐍𝐓𝐈𝐍𝐔𝐄𝐃 𝐑𝐄𝐏𝐑𝐈𝐄𝐕𝐄 𝐀𝐒 𝐍𝐀𝐓𝐈𝐎𝐍𝐀𝐋 𝐀𝐒𝐒𝐄𝐌𝐁𝐋𝐘 𝐄𝐗𝐓𝐄𝐍𝐃𝐒 𝐅𝐔𝐄𝐋 𝐓𝐀𝐗 𝐑𝐄𝐋𝐈𝐄𝐅
 - **Verdict:** CONSIDER
-- **Source:** The Independent (Uganda) · tier 2 · UG · press
-- **First seen:** 2026-10-16T06:35+03:00 EAT · **Source date:** 2026-10-15
-- **URL:** https://www.independent.co.ug/ucra-welcomes-rugaya-as-new-executive-director-with-bold-commercial-vision
-- **Extract:** Kampala, Uganda | THE INDEPENDENT | The Uganda Coffee Roasters Association (UCRA) has officially introduced Richard Rugaya of Gorilla Highland Coffee as its newly appointed incoming Executive Director, signalling a decisive shift in the association’s direction
-- **Score parts:** tier +20, category +4, lead +2.4, relevance +16, freshness +19.7, corroborated +10
+- **Source:** Senate Committee on Delegated Legislation (Kenya) — the committee that annuls or accedes to statutory instruments · tier 1 · KE · REG
+- **First seen:** 2026-10-16T11:15+03:00 EAT · **Source date:** — none stated
+- **URL:** https://www.parliament.go.ke/node/26555
+- **Score parts:** tier +40, category +5, lead +12, relevance +0, freshness +19.7, undated -6
 
-### 🟡 [70.9] EVA Air 1Q27 Sendai Aircraft Changes
+### 🟡 [70.4] Behind the Bottle: How Bargello Earned its Wine Spectator Honors
 - **Verdict:** CONSIDER
-- **Source:** AeroRoutes schedule filings · tier 2 · GLOBAL · aviation-tracker
-- **First seen:** 2026-10-15T22:15+03:00 EAT · **Source date:** 2026-10-15
-- **URL:** https://www.aeroroutes.com/eng/261015-br1q27sdj
-- **Extract:** Published at 1000PDT / 1700GMT 15OCT26 EVA Air in the first quarter of 2027 once again schedules aircraft changes on Taipei Taoyuan – Sendai route, as the carrier schedules Airbus A330-300 aircraft from 20JAN27 to 10MAR27, replacing A321. This route is schedul
-- **Score parts:** tier +20, category +14, lead +8.4, relevance +8, freshness +10.5, corroborated +10
-
-### 🟡 [70.9] China Southern late-2026 One-Time Luxembourg Aircraft Changes
-- **Verdict:** CONSIDER
-- **Source:** AeroRoutes schedule filings · tier 2 · GLOBAL · aviation-tracker
-- **First seen:** 2026-10-15T22:15+03:00 EAT · **Source date:** 2026-10-15
-- **URL:** https://www.aeroroutes.com/eng/261015-czdec26lux
-- **Extract:** Published at 0900PDT / 1600GMT 15OCT26 China Southern at the end of 2026 schedules one-time aircraft changes on Guangzhou – Zhengzhou – Luxembourg route. On 31DEC26, this service will be operated by 787-9, instead of A350-900 (Luxembourg departure on 01JAN27).
-- **Score parts:** tier +20, category +14, lead +8.4, relevance +8, freshness +10.5, corroborated +10
-
-### 🟡 [70.5] Moi International Airport wins three honours at ACI Africa awards
-- **Verdict:** CHECK — source date older than the window
-- **Source:** KAA tenders · tier 1 · KE · tender
-- **First seen:** 2026-10-16T06:35+03:00 EAT · **Source date:** 2026-09-27
-- **URL:** https://www.kaa.go.ke/moi-international-aci-africa-awards
-- **Extract:** Moi International Airport, Mombasa, earned three runner-up honours at the 2026 ACI Africa Passenger Facilitation & Readiness Excellence Awards in Abuja, Nigeria.
-- **Score parts:** tier +40, category +7, lead +16.8, relevance +12, freshness +19.7, stale_trap -25
-
-### 🟡 [66.5] Manda handles its first international flights as leaders arrive for Lamu refinery groundbreaking
-- **Verdict:** CHECK — source date older than the window
-- **Source:** KAA tenders · tier 1 · KE · tender
-- **First seen:** 2026-10-16T06:35+03:00 EAT · **Source date:** 2026-09-30
-- **URL:** https://www.kaa.go.ke/manda-first-international-flights
-- **Extract:** Manda handled international flights for the first time in its history on 29 and 30 September 2026, as Heads of State and Government, investors and more than 400 invited guests arrived in Lamu County for the…
-- **Score parts:** tier +40, category +7, lead +16.8, relevance +8, freshness +19.7, stale_trap -25
+- **Source:** Hospitality Net — Africa announcements · tier 2 · REG · trade
+- **First seen:** 2026-10-16T11:16+03:00 EAT · **Source date:** 2026-10-16
+- **URL:** https://www.hospitalitynet.org/opinion/4134628/behind-the-bottle-how-bargello-earned-its-wine-spectator-honors
+- **Extract:** Bargello's F&B director reflects on earning a second consecutive Wine Spectator Award of Excellence, detailing how independence from hotel brand mandates, low-production wine sourcing, and community-focused service shaped the program.
+- **Score parts:** tier +20, category +5, lead +3.6, relevance +12, freshness +19.8, corroborated +10
