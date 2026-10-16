@@ -1,18 +1,18 @@
 {
- "generated": "2026-10-16T17:37:50+03:00",
+ "generated": "2026-10-16T21:59:23+03:00",
  "slot": "evening",
  "window_start": 1792065600,
- "observations_in_window": 1266,
- "deduped_against": 23,
+ "observations_in_window": 1451,
+ "deduped_against": 26,
  "candidates": [
   {
-   "score": 140.3,
+   "score": 135.5,
    "components": {
     "tier": 40,
     "category": 32,
     "lead": 1.2,
     "relevance": 36,
-    "freshness": 19.1,
+    "freshness": 14.3,
     "undated": -6,
     "shock": 18
    },
@@ -25,7 +25,7 @@
     "attack"
    ],
    "dedupe_match": null,
-   "dedupe_similarity": 0.12,
+   "dedupe_similarity": 0.4,
    "id": "6b09c15b8103",
    "title": "Tanzania - Level 2: Exercise Increased Caution",
    "url": "https://travel.state.gov/content/tsg_aem/us/en/home/international-travel/travel-advisories/destination.tza.html",
@@ -46,13 +46,13 @@
    "verdict": "LEAD CANDIDATE \u2014 tier-1 shock language"
   },
   {
-   "score": 110.8,
+   "score": 106.0,
    "components": {
     "tier": 40,
     "category": 32,
     "lead": 12.0,
     "relevance": 8,
-    "freshness": 12.8,
+    "freshness": 8.0,
     "corroborated": 10,
     "page_change": -4
    },
@@ -61,7 +61,7 @@
    ],
    "shock_terms": [],
    "dedupe_match": null,
-   "dedupe_similarity": 0.11,
+   "dedupe_similarity": 0.2,
    "id": "07add32c6869",
    "title": "[page changed] Federal Register \u2014 CDC notices",
    "url": "https://www.federalregister.gov/api/v1/documents.rss?conditions%5Bagencies%5D%5B%5D=centers-for-disease-control-and-prevention&order=newest",
@@ -81,13 +81,13 @@
    "verdict": "OPEN THIS \u2014 tier-1 advisory page moved; content not auto-parsed, read it manually"
   },
   {
-   "score": 106.7,
+   "score": 101.9,
    "components": {
     "tier": 40,
     "category": 24,
     "lead": 3.6,
     "relevance": 12,
-    "freshness": 19.1,
+    "freshness": 14.3,
     "undated": -6,
     "shock": 18,
     "page_change": -4
@@ -120,13 +120,46 @@
    "verdict": "OPEN THIS \u2014 tier-1 health page moved; content not auto-parsed, read it manually"
   },
   {
-   "score": 100.7,
+   "score": 101.3,
    "components": {
     "tier": 40,
     "category": 32,
     "lead": 3.6,
     "relevance": 0,
-    "freshness": 19.1,
+    "freshness": 19.7,
+    "corroborated": 10,
+    "page_change": -4
+   },
+   "keywords": [],
+   "shock_terms": [],
+   "dedupe_match": null,
+   "dedupe_similarity": 0.2,
+   "id": "d53df26414a5",
+   "title": "[page changed] Federal Register \u2014 public inspection (HHS/CDC), pre-publication",
+   "url": "https://www.federalregister.gov/api/v1/public-inspection-documents/current.json",
+   "summary": "{\"count\":147,\"results\":[{\"agencies\":[{\"raw_name\":\"Justice Department\",\"name\":\"Justice Department\",\"id\":268,\"url\":\"https://www.federalregister.gov/agencies/justice-department\",\"json_url\":\"https://www.federalregister.gov/api/v1/agencies/268\",\"parent_id\":null,\"slug\":\"justice-department\"}],\"agency_letters\":[],\"agency_names\":[\"Justice Department\"],\"docket_numbers\":[],\"document_number\":\"2026-21187\",\"edi",
+   "kind": "page-change",
+   "source": "Federal Register \u2014 public inspection (HHS/CDC), pre-publication",
+   "source_id": "us-fedreg-pubinspect-hhs",
+   "tier": 1,
+   "country": "REG",
+   "category": "advisory",
+   "segments": [
+    "city",
+    "bush"
+   ],
+   "first_seen": "2026-10-16T21:51+03:00",
+   "published": "2026-10-16",
+   "verdict": "OPEN THIS \u2014 tier-1 advisory page moved; content not auto-parsed, read it manually"
+  },
+  {
+   "score": 95.9,
+   "components": {
+    "tier": 40,
+    "category": 32,
+    "lead": 3.6,
+    "relevance": 0,
+    "freshness": 14.3,
     "corroborated": 10,
     "page_change": -4
    },
@@ -153,13 +186,51 @@
    "verdict": "OPEN THIS \u2014 tier-1 advisory page moved; content not auto-parsed, read it manually"
   },
   {
-   "score": 94.4,
+   "score": 92.8,
+   "components": {
+    "tier": 40,
+    "category": 24,
+    "lead": 4.8,
+    "relevance": 12,
+    "freshness": 0.0,
+    "undated": -6,
+    "shock": 18
+   },
+   "keywords": [
+    "outbreak"
+   ],
+   "shock_terms": [
+    "outbreak"
+   ],
+   "dedupe_match": null,
+   "dedupe_similarity": 0.2,
+   "id": "360063888e22",
+   "title": "Weekly Bulletin on Outbreak and other Emergencies: Week 40: 28 September to 05 October 2026",
+   "url": "https://www.afro.who.int/countries/senegal/publication/weekly-bulletin-outbreak-and-other-emergencies-week-40-28-september-05-october-2026",
+   "summary": "",
+   "kind": "item",
+   "source": "WHO AFRO outbreaks & emergencies",
+   "source_id": "who-afro-outbreaks",
+   "tier": 1,
+   "country": "REG",
+   "category": "health",
+   "segments": [
+    "city",
+    "bush",
+    "beach"
+   ],
+   "first_seen": "2026-10-15T17:11+03:00",
+   "published": null,
+   "verdict": "LEAD CANDIDATE \u2014 tier-1 shock language"
+  },
+  {
+   "score": 89.6,
    "components": {
     "tier": 40,
     "category": 32,
     "lead": 3.6,
     "relevance": 0,
-    "freshness": 12.8,
+    "freshness": 8.0,
     "corroborated": 10,
     "page_change": -4
    },
@@ -186,51 +257,13 @@
    "verdict": "OPEN THIS \u2014 tier-1 advisory page moved; content not auto-parsed, read it manually"
   },
   {
-   "score": 92.8,
-   "components": {
-    "tier": 40,
-    "category": 24,
-    "lead": 4.8,
-    "relevance": 12,
-    "freshness": 0.0,
-    "undated": -6,
-    "shock": 18
-   },
-   "keywords": [
-    "outbreak"
-   ],
-   "shock_terms": [
-    "outbreak"
-   ],
-   "dedupe_match": null,
-   "dedupe_similarity": 0.11,
-   "id": "360063888e22",
-   "title": "Weekly Bulletin on Outbreak and other Emergencies: Week 40: 28 September to 05 October 2026",
-   "url": "https://www.afro.who.int/countries/senegal/publication/weekly-bulletin-outbreak-and-other-emergencies-week-40-28-september-05-october-2026",
-   "summary": "",
-   "kind": "item",
-   "source": "WHO AFRO outbreaks & emergencies",
-   "source_id": "who-afro-outbreaks",
-   "tier": 1,
-   "country": "REG",
-   "category": "health",
-   "segments": [
-    "city",
-    "bush",
-    "beach"
-   ],
-   "first_seen": "2026-10-15T17:11+03:00",
-   "published": null,
-   "verdict": "LEAD CANDIDATE \u2014 tier-1 shock language"
-  },
-  {
-   "score": 90.1,
+   "score": 87.6,
    "components": {
     "tier": 40,
     "category": 24,
     "lead": 3.6,
     "relevance": 12,
-    "freshness": 2.5,
+    "freshness": 0.0,
     "undated": -6,
     "shock": 18,
     "page_change": -4
@@ -263,13 +296,13 @@
    "verdict": "OPEN THIS \u2014 tier-1 health page moved; content not auto-parsed, read it manually"
   },
   {
-   "score": 89.2,
+   "score": 84.5,
    "components": {
     "tier": 40,
     "category": 32,
     "lead": 3.6,
     "relevance": 0,
-    "freshness": 7.6,
+    "freshness": 2.9,
     "corroborated": 10,
     "page_change": -4
    },
@@ -296,13 +329,13 @@
    "verdict": "OPEN THIS \u2014 tier-1 advisory page moved; content not auto-parsed, read it manually"
   },
   {
-   "score": 84.1,
+   "score": 81.6,
    "components": {
     "tier": 40,
     "category": 32,
     "lead": 3.6,
     "relevance": 0,
-    "freshness": 2.5,
+    "freshness": 0.0,
     "corroborated": 10,
     "page_change": -4
    },
@@ -395,13 +428,47 @@
    "verdict": "OPEN THIS \u2014 tier-1 advisory page moved; content not auto-parsed, read it manually"
   },
   {
-   "score": 53.2,
+   "score": 65.3,
    "components": {
     "tier": 40,
     "category": 12,
     "lead": 3.6,
     "relevance": 0,
-    "freshness": 7.6,
+    "freshness": 19.7,
+    "undated": -6,
+    "page_change": -4
+   },
+   "keywords": [],
+   "shock_terms": [],
+   "dedupe_match": null,
+   "dedupe_similarity": 0.0,
+   "id": "b7f74ab1b31e",
+   "title": "[page changed] Airlink news",
+   "url": "https://www.flyairlink.com/",
+   "summary": "Request unsuccessful. Incapsula incident ID: 1024000102185083797-65076979463881351",
+   "kind": "page-change",
+   "source": "Airlink news",
+   "source_id": "air-airlink",
+   "tier": 1,
+   "country": "REG",
+   "category": "airline",
+   "segments": [
+    "city",
+    "bush",
+    "beach"
+   ],
+   "first_seen": "2026-10-16T21:51+03:00",
+   "published": null,
+   "verdict": "OPEN THIS \u2014 tier-1 airline page moved; content not auto-parsed, read it manually"
+  },
+  {
+   "score": 48.4,
+   "components": {
+    "tier": 40,
+    "category": 12,
+    "lead": 3.6,
+    "relevance": 0,
+    "freshness": 2.8,
     "undated": -6,
     "page_change": -4
    },
@@ -463,13 +530,13 @@
    "verdict": "OPEN THIS \u2014 tier-1 airline page moved; content not auto-parsed, read it manually"
   },
   {
-   "score": 110.8,
+   "score": 106.0,
    "components": {
     "tier": 40,
     "category": 32,
     "lead": 0.0,
     "relevance": 16,
-    "freshness": 12.8,
+    "freshness": 8.0,
     "corroborated": 10
    },
    "keywords": [
@@ -499,61 +566,25 @@
    "verdict": "STRONG \u2014 tier-1, upstream"
   },
   {
-   "score": 96.7,
-   "components": {
-    "tier": 40,
-    "category": 32,
-    "lead": 3.6,
-    "relevance": 8,
-    "freshness": 19.1,
-    "undated": -6
-   },
-   "keywords": [
-    "election"
-   ],
-   "shock_terms": [],
-   "dedupe_match": null,
-   "dedupe_similarity": 0.0,
-   "id": "5fcc79d178c2",
-   "title": "Voting in U.S. Elections from Overseas",
-   "url": "https://ke.usembassy.gov/voting-in-u-s-elections-from-overseas-3",
-   "summary": "",
-   "kind": "item",
-   "source": "US Embassy Nairobi \u2014 travel advisory & alerts",
-   "source_id": "adv-us-embassy-kenya",
-   "tier": 1,
-   "country": "KE",
-   "category": "advisory",
-   "segments": [
-    "city",
-    "bush",
-    "beach"
-   ],
-   "first_seen": "2026-10-16T16:59+03:00",
-   "published": null,
-   "verdict": "STRONG \u2014 tier-1, upstream"
-  },
-  {
-   "score": 93.4,
+   "score": 101.5,
    "components": {
     "tier": 40,
     "category": 7,
     "lead": 16.8,
-    "relevance": 12,
-    "freshness": 7.6,
+    "relevance": 8,
+    "freshness": 19.7,
     "corroborated": 10
    },
    "keywords": [
-    "airport",
-    "airline"
+    "airport"
    ],
    "shock_terms": [],
    "dedupe_match": null,
-   "dedupe_similarity": 0.25,
-   "id": "3936e2aa67f8",
-   "title": "Stakeholders review full-scale emergency exercise at JKIA",
-   "url": "https://www.kaa.go.ke/jkia-emergency-exercise-review",
-   "summary": "Stakeholders from government agencies, airlines, emergency health providers and other airport partners met on Monday, 22 June 2026 to review the Full-Scale Emergency Exercise held at Jomo Kenyatta International\u2026",
+   "dedupe_similarity": 0.22,
+   "id": "190264eae973",
+   "title": "Back on the fairway, Aviation Community Golf Day returns",
+   "url": "https://www.kaa.go.ke/back-on-the-fairway-aviation-community-golf-day-returns",
+   "summary": "After a two-year break, KAA's Aviation Community Golf Day returns to bring the people behind Kenya's airports together on the course at Karen Country Club on 30 October 2026.",
    "kind": "item",
    "source": "KAA tenders",
    "source_id": "ke-kaa-tenders",
@@ -565,67 +596,100 @@
     "bush",
     "beach"
    ],
-   "first_seen": "2026-10-16T06:35+03:00",
-   "published": "2026-10-15",
+   "first_seen": "2026-10-16T21:51+03:00",
+   "published": "2026-10-16",
    "verdict": "STRONG \u2014 tier-1, upstream"
   },
   {
-   "score": 93.2,
+   "score": 96.7,
    "components": {
-    "tier": 20,
-    "category": 14,
-    "lead": 8.4,
-    "relevance": 28,
-    "freshness": 12.8,
+    "tier": 40,
+    "category": 13,
+    "lead": 6.0,
+    "relevance": 8,
+    "freshness": 19.7,
     "corroborated": 10
    },
    "keywords": [
-    "vat",
-    "adr",
-    "route",
-    "airline"
+    "airline",
+    "flight"
    ],
    "shock_terms": [],
    "dedupe_match": null,
-   "dedupe_similarity": 0.14,
-   "id": "1d7b24759824",
-   "title": "Hainan Airlines Nov 2026 Shenzhen Long-Haul Reductions",
-   "url": "https://www.aeroroutes.com/eng/261016-hunov26szx",
-   "summary": "Published at 0100PDT / 0800GMT 16OCT26 Hainan Airlines as of 16OCT26 filed various long-haul service changes at Shenzhen , where the airline closed reservations on various Middle East and European routes for the month of November 2026, signaling the airline\u2019s plan to extend service reductions. Shenzhen \u2013 Brussels 08NOV26 \u2013 30NOV26 3 weekly closed for reservations Shenzhen \u2013 Budapest 16NOV26 \u2013 30NO",
+   "dedupe_similarity": 0.11,
+   "id": "611aa505914d",
+   "title": "EXCLUSIVE FLIGHT DISCOUNTS FOR AFRAA 58TH AGA DELEGATES",
+   "url": "https://www.afraa.org/exclusive-flight-discounts-for-afraa-58th-aga-delegates",
+   "summary": "Planning your trip to Libreville, Gabon, for the 58th African Airlines Association (AFRAA) Annual General Assembly (AGA), taking place from 22\u201324 November 2026? Great news! FlyGabon, the official host [\u2026]",
    "kind": "item",
-   "source": "AeroRoutes schedule filings",
-   "source_id": "aeroroutes",
-   "tier": 2,
-   "country": "GLOBAL",
-   "category": "aviation-tracker",
+   "source": "AFRAA \u2014 monthly African air transport / capacity brief",
+   "source_id": "afraa-capacity",
+   "tier": 1,
+   "country": "REG",
+   "category": "aviation",
    "segments": [
     "city",
     "bush",
     "beach"
    ],
-   "first_seen": "2026-10-16T11:16+03:00",
+   "first_seen": "2026-10-16T21:51+03:00",
    "published": "2026-10-16",
-   "verdict": "CONSIDER"
+   "verdict": "STRONG \u2014 tier-1, upstream"
   },
   {
-   "score": 92.7,
+   "score": 95.5,
+   "components": {
+    "tier": 40,
+    "category": 13,
+    "lead": 4.8,
+    "relevance": 8,
+    "freshness": 19.7,
+    "corroborated": 10
+   },
+   "keywords": [
+    "airport"
+   ],
+   "shock_terms": [],
+   "dedupe_match": null,
+   "dedupe_similarity": 0.22,
+   "id": "98b734de7074",
+   "title": "Back on the fairway, Aviation Community Golf Day returns",
+   "url": "https://www.kaa.go.ke/back-on-the-fairway-aviation-community-golf-day-returns",
+   "summary": "After a two-year break, KAA's Aviation Community Golf Day returns to bring the people behind Kenya's airports together on the course at Karen Country Club on 30 October 2026.",
+   "kind": "item",
+   "source": "Kenya Airports Authority",
+   "source_id": "ke-kaa",
+   "tier": 1,
+   "country": "KE",
+   "category": "aviation",
+   "segments": [
+    "city",
+    "bush",
+    "beach"
+   ],
+   "first_seen": "2026-10-16T21:51+03:00",
+   "published": "2026-10-16",
+   "verdict": "STRONG \u2014 tier-1, upstream"
+  },
+  {
+   "score": 91.9,
    "components": {
     "tier": 40,
     "category": 32,
     "lead": 3.6,
-    "relevance": 4,
-    "freshness": 19.1,
+    "relevance": 8,
+    "freshness": 14.3,
     "undated": -6
    },
    "keywords": [
-    "tourist"
+    "election"
    ],
    "shock_terms": [],
    "dedupe_match": null,
-   "dedupe_similarity": 0.33,
-   "id": "b5f1c1c1a13b",
-   "title": "Routine Message: Tourists Entering Kenya Must Purchase Local Health Insurance",
-   "url": "https://ke.usembassy.gov/routine-message-tourists-entering-kenya-must-purchase-local-health-insurance",
+   "dedupe_similarity": 0.0,
+   "id": "5fcc79d178c2",
+   "title": "Voting in U.S. Elections from Overseas",
+   "url": "https://ke.usembassy.gov/voting-in-u-s-elections-from-overseas-3",
    "summary": "",
    "kind": "item",
    "source": "US Embassy Nairobi \u2014 travel advisory & alerts",
@@ -659,7 +723,7 @@
    ],
    "shock_terms": [],
    "dedupe_match": null,
-   "dedupe_similarity": 0.12,
+   "dedupe_similarity": 0.2,
    "id": "5e20aa81a6b3",
    "title": "Jambojet resumes daily Nairobi\u2013Entebbe flights",
    "url": "https://www.kaa.go.ke/jambojet-resumes-nairobi-entebbe",
@@ -680,13 +744,155 @@
    "verdict": "STRONG \u2014 tier-1, upstream"
   },
   {
-   "score": 91.5,
+   "score": 88.7,
+   "components": {
+    "tier": 40,
+    "category": 7,
+    "lead": 16.8,
+    "relevance": 12,
+    "freshness": 2.9,
+    "corroborated": 10
+   },
+   "keywords": [
+    "airport",
+    "airline"
+   ],
+   "shock_terms": [],
+   "dedupe_match": null,
+   "dedupe_similarity": 0.25,
+   "id": "3936e2aa67f8",
+   "title": "Stakeholders review full-scale emergency exercise at JKIA",
+   "url": "https://www.kaa.go.ke/jkia-emergency-exercise-review",
+   "summary": "Stakeholders from government agencies, airlines, emergency health providers and other airport partners met on Monday, 22 June 2026 to review the Full-Scale Emergency Exercise held at Jomo Kenyatta International\u2026",
+   "kind": "item",
+   "source": "KAA tenders",
+   "source_id": "ke-kaa-tenders",
+   "tier": 1,
+   "country": "KE",
+   "category": "tender",
+   "segments": [
+    "city",
+    "bush",
+    "beach"
+   ],
+   "first_seen": "2026-10-16T06:35+03:00",
+   "published": "2026-10-15",
+   "verdict": "CONSIDER"
+  },
+  {
+   "score": 88.4,
+   "components": {
+    "tier": 20,
+    "category": 14,
+    "lead": 8.4,
+    "relevance": 28,
+    "freshness": 8.0,
+    "corroborated": 10
+   },
+   "keywords": [
+    "vat",
+    "adr",
+    "route",
+    "airline"
+   ],
+   "shock_terms": [],
+   "dedupe_match": null,
+   "dedupe_similarity": 0.14,
+   "id": "1d7b24759824",
+   "title": "Hainan Airlines Nov 2026 Shenzhen Long-Haul Reductions",
+   "url": "https://www.aeroroutes.com/eng/261016-hunov26szx",
+   "summary": "Published at 0100PDT / 0800GMT 16OCT26 Hainan Airlines as of 16OCT26 filed various long-haul service changes at Shenzhen , where the airline closed reservations on various Middle East and European routes for the month of November 2026, signaling the airline\u2019s plan to extend service reductions. Shenzhen \u2013 Brussels 08NOV26 \u2013 30NOV26 3 weekly closed for reservations Shenzhen \u2013 Budapest 16NOV26 \u2013 30NO",
+   "kind": "item",
+   "source": "AeroRoutes schedule filings",
+   "source_id": "aeroroutes",
+   "tier": 2,
+   "country": "GLOBAL",
+   "category": "aviation-tracker",
+   "segments": [
+    "city",
+    "bush",
+    "beach"
+   ],
+   "first_seen": "2026-10-16T11:16+03:00",
+   "published": "2026-10-16",
+   "verdict": "CONSIDER"
+  },
+  {
+   "score": 87.9,
+   "components": {
+    "tier": 40,
+    "category": 32,
+    "lead": 3.6,
+    "relevance": 4,
+    "freshness": 14.3,
+    "undated": -6
+   },
+   "keywords": [
+    "tourist"
+   ],
+   "shock_terms": [],
+   "dedupe_match": null,
+   "dedupe_similarity": 0.33,
+   "id": "b5f1c1c1a13b",
+   "title": "Routine Message: Tourists Entering Kenya Must Purchase Local Health Insurance",
+   "url": "https://ke.usembassy.gov/routine-message-tourists-entering-kenya-must-purchase-local-health-insurance",
+   "summary": "",
+   "kind": "item",
+   "source": "US Embassy Nairobi \u2014 travel advisory & alerts",
+   "source_id": "adv-us-embassy-kenya",
+   "tier": 1,
+   "country": "KE",
+   "category": "advisory",
+   "segments": [
+    "city",
+    "bush",
+    "beach"
+   ],
+   "first_seen": "2026-10-16T16:59+03:00",
+   "published": null,
+   "verdict": "CONSIDER"
+  },
+  {
+   "score": 87.5,
+   "components": {
+    "tier": 40,
+    "category": 17,
+    "lead": 16.8,
+    "relevance": 0,
+    "freshness": 19.7,
+    "undated": -6
+   },
+   "keywords": [],
+   "shock_terms": [],
+   "dedupe_match": null,
+   "dedupe_similarity": 0.4,
+   "id": "75f88f613d68",
+   "title": "16 Oct 26 TIRA yafanya Bonanza la Michezo kuelekea Uzinduzi wa Taarifa... Mamlaka ya usimamizi wa Bima Tanzania TIRA,hii leo Oktoba 15 mwaka 2026 imefanya Bonanza la kimichez... Read More",
+   "url": "https://www.tira.go.tz/news/tira-yafanya-bonanza-la-michezo-kuelekea-uzinduzi-wa-taarifa-ya-utendaji-wa-soko-la-bima",
+   "summary": "",
+   "kind": "item",
+   "source": "Tanzania Insurance Regulatory Authority (TIRA)",
+   "source_id": "tz-tira",
+   "tier": 1,
+   "country": "TZ",
+   "category": "regulator",
+   "segments": [
+    "beach",
+    "bush",
+    "city"
+   ],
+   "first_seen": "2026-10-16T21:51+03:00",
+   "published": null,
+   "verdict": "CONSIDER"
+  },
+  {
+   "score": 86.7,
    "components": {
     "tier": 20,
     "category": 14,
     "lead": 8.4,
     "relevance": 20,
-    "freshness": 19.1,
+    "freshness": 14.3,
     "corroborated": 10
    },
    "keywords": [
@@ -716,13 +922,46 @@
    "verdict": "CONSIDER"
   },
   {
-   "score": 89.4,
+   "score": 85.5,
+   "components": {
+    "tier": 40,
+    "category": 15,
+    "lead": 16.8,
+    "relevance": 0,
+    "freshness": 19.7,
+    "undated": -6
+   },
+   "keywords": [],
+   "shock_terms": [],
+   "dedupe_match": null,
+   "dedupe_similarity": 0.0,
+   "id": "324eeabbba58",
+   "title": "umusoro ku mutungo utimukanwa",
+   "url": "https://www.rra.gov.rw/imisoro-yimbere-mu-gihugu/imisoro-yeguriwe-inzego-zibanze/umusoro-ku-mutungo-utimukanwa",
+   "summary": "",
+   "kind": "item",
+   "source": "Rwanda Revenue Authority",
+   "source_id": "rw-rra",
+   "tier": 1,
+   "country": "RW",
+   "category": "fiscal",
+   "segments": [
+    "city",
+    "bush",
+    "beach"
+   ],
+   "first_seen": "2026-10-16T21:51+03:00",
+   "published": null,
+   "verdict": "CONSIDER"
+  },
+  {
+   "score": 84.7,
    "components": {
     "tier": 40,
     "category": 7,
     "lead": 16.8,
     "relevance": 8,
-    "freshness": 7.6,
+    "freshness": 2.9,
     "corroborated": 10
    },
    "keywords": [
@@ -751,13 +990,13 @@
    "verdict": "CONSIDER"
   },
   {
-   "score": 89.2,
+   "score": 84.4,
    "components": {
     "tier": 40,
     "category": 24,
     "lead": 2.4,
     "relevance": 0,
-    "freshness": 12.8,
+    "freshness": 8.0,
     "corroborated": 10
    },
    "keywords": [],
@@ -783,13 +1022,84 @@
    "verdict": "CONSIDER"
   },
   {
-   "score": 87.5,
+   "score": 83.8,
+   "components": {
+    "tier": 40,
+    "category": 13,
+    "lead": 4.8,
+    "relevance": 16,
+    "freshness": 0.0,
+    "corroborated": 10
+   },
+   "keywords": [
+    "vat",
+    "airport"
+   ],
+   "shock_terms": [],
+   "dedupe_match": null,
+   "dedupe_similarity": 0.2,
+   "id": "f1b7fdb7c16c",
+   "title": "Eldoret International Airport joins neighbours for Mazingira Day clean-up",
+   "url": "https://www.kaa.go.ke/eldoret-mazingira-day-clean-up",
+   "summary": "Eldoret International Airport held a clean-up along the Kapsabet\u2013Eldoret Road on Friday, 9 October 2026, the eve of Mazingira Day, the national day for environmental conservation observed every 10 October.",
+   "kind": "item",
+   "source": "Kenya Airports Authority",
+   "source_id": "ke-kaa",
+   "tier": 1,
+   "country": "KE",
+   "category": "aviation",
+   "segments": [
+    "city",
+    "bush",
+    "beach"
+   ],
+   "first_seen": "2026-10-15T17:11+03:00",
+   "published": "2026-10-15",
+   "verdict": "CONSIDER"
+  },
+  {
+   "score": 83.0,
+   "components": {
+    "tier": 40,
+    "category": 7,
+    "lead": 6.0,
+    "relevance": 20,
+    "freshness": 0.0,
+    "corroborated": 10
+   },
+   "keywords": [
+    "fee",
+    "wildlife",
+    "tourism"
+   ],
+   "shock_terms": [],
+   "dedupe_match": null,
+   "dedupe_similarity": 0.4,
+   "id": "fdf6cf5ab0c4",
+   "title": "EAC Ministers Adopt Ten-Year Tourism Marketing Strategy and Commit to Leverage AFCON 2027",
+   "url": "https://www.eac.int/press-releases/156-tourism-wildlife-management/3608-eac-ministers-adopt-ten-year-tourism-marketing-strategy-and-commit-to-leverage-afcon-2027",
+   "summary": "East African Community Headquarters, Arusha, Tanzania,15th October, 2026: EAC Ministers responsible for Tourism and Wildlife Management have adopted the EAC Tourism Marketing Strategy (2027\u20132036), setting a ten-year framework for joint efforts to promote East Africa as a single, competitive tourism destination. The Strategy will leverage the region\u2019s natural and cultural heritage through digital m",
+   "kind": "item",
+   "source": "East African Community \u2014 Secretariat news",
+   "source_id": "eac-secretariat",
+   "tier": 1,
+   "country": "Regional",
+   "category": "body",
+   "segments": [
+    "city"
+   ],
+   "first_seen": "2026-10-16T01:56+03:00",
+   "published": "2026-10-15",
+   "verdict": "CONSIDER"
+  },
+  {
+   "score": 82.7,
    "components": {
     "tier": 40,
     "category": 13,
     "lead": 4.8,
     "relevance": 12,
-    "freshness": 7.7,
+    "freshness": 2.9,
     "corroborated": 10
    },
    "keywords": [
@@ -819,13 +1129,51 @@
    "verdict": "CONSIDER"
   },
   {
-   "score": 85.5,
+   "score": 82.1,
+   "components": {
+    "tier": 20,
+    "category": 4,
+    "lead": 2.4,
+    "relevance": 8,
+    "freshness": 19.7,
+    "corroborated": 10,
+    "shock": 18
+   },
+   "keywords": [
+    "airport"
+   ],
+   "shock_terms": [
+    "attack"
+   ],
+   "dedupe_match": null,
+   "dedupe_similarity": 0.0,
+   "id": "e7c67190f53e",
+   "title": "Saudi-led coalition: 17 killed, over 330 injured in attacks on Riyadh airport since Oct",
+   "url": "https://www.independent.co.ug/saudi-led-coalition-17-killed-over-330-injured-in-attacks-on-riyadh-airport-since-oct",
+   "summary": "RIYADH | Xinhua | Attacks on King Khalid International Airport in the Saudi capital Riyadh have killed 17 people and injured more than 330 others since Oct. 1, with the airport coming under 20 attacks during the two-week period, the Saudi-led coalition said Thursday, amid continued threats posed by Yemen\u2019s Houthi group against Saudi \u2026 The post Saudi-led coalition: 17 killed, over 330 injured in at",
+   "kind": "item",
+   "source": "The Independent (Uganda)",
+   "source_id": "ug-independent",
+   "tier": 2,
+   "country": "UG",
+   "category": "press",
+   "segments": [
+    "city",
+    "bush",
+    "beach"
+   ],
+   "first_seen": "2026-10-16T21:52+03:00",
+   "published": "2026-10-16",
+   "verdict": "CONSIDER"
+  },
+  {
+   "score": 80.7,
    "components": {
     "tier": 20,
     "category": 24,
     "lead": 2.4,
     "relevance": 12,
-    "freshness": 19.1,
+    "freshness": 14.3,
     "undated": -6,
     "shock": 18,
     "page_change": -4
@@ -858,574 +1206,200 @@
    "verdict": "CONSIDER"
   },
   {
-   "score": 85.5,
+   "score": 80.5,
    "components": {
     "tier": 40,
-    "category": 7,
-    "lead": 6.0,
-    "relevance": 20,
-    "freshness": 2.5,
-    "corroborated": 10
-   },
-   "keywords": [
-    "fee",
-    "wildlife",
-    "tourism"
-   ],
-   "shock_terms": [],
-   "dedupe_match": null,
-   "dedupe_similarity": 0.11,
-   "id": "fdf6cf5ab0c4",
-   "title": "EAC Ministers Adopt Ten-Year Tourism Marketing Strategy and Commit to Leverage AFCON 2027",
-   "url": "https://www.eac.int/press-releases/156-tourism-wildlife-management/3608-eac-ministers-adopt-ten-year-tourism-marketing-strategy-and-commit-to-leverage-afcon-2027",
-   "summary": "East African Community Headquarters, Arusha, Tanzania,15th October, 2026: EAC Ministers responsible for Tourism and Wildlife Management have adopted the EAC Tourism Marketing Strategy (2027\u20132036), setting a ten-year framework for joint efforts to promote East Africa as a single, competitive tourism destination. The Strategy will leverage the region\u2019s natural and cultural heritage through digital m",
-   "kind": "item",
-   "source": "East African Community \u2014 Secretariat news",
-   "source_id": "eac-secretariat",
-   "tier": 1,
-   "country": "Regional",
-   "category": "body",
-   "segments": [
-    "city"
-   ],
-   "first_seen": "2026-10-16T01:56+03:00",
-   "published": "2026-10-15",
-   "verdict": "CONSIDER"
-  },
-  {
-   "score": 83.8,
-   "components": {
-    "tier": 40,
-    "category": 13,
-    "lead": 4.8,
-    "relevance": 16,
-    "freshness": 0.0,
-    "corroborated": 10
-   },
-   "keywords": [
-    "vat",
-    "airport"
-   ],
-   "shock_terms": [],
-   "dedupe_match": null,
-   "dedupe_similarity": 0.11,
-   "id": "f1b7fdb7c16c",
-   "title": "Eldoret International Airport joins neighbours for Mazingira Day clean-up",
-   "url": "https://www.kaa.go.ke/eldoret-mazingira-day-clean-up",
-   "summary": "Eldoret International Airport held a clean-up along the Kapsabet\u2013Eldoret Road on Friday, 9 October 2026, the eve of Mazingira Day, the national day for environmental conservation observed every 10 October.",
-   "kind": "item",
-   "source": "Kenya Airports Authority",
-   "source_id": "ke-kaa",
-   "tier": 1,
-   "country": "KE",
-   "category": "aviation",
-   "segments": [
-    "city",
-    "bush",
-    "beach"
-   ],
-   "first_seen": "2026-10-15T17:11+03:00",
-   "published": "2026-10-15",
-   "verdict": "CONSIDER"
-  },
-  {
-   "score": 83.5,
-   "components": {
-    "tier": 20,
-    "category": 14,
-    "lead": 8.4,
-    "relevance": 12,
-    "freshness": 19.1,
-    "corroborated": 10
-   },
-   "keywords": [
-    "route",
-    "airline"
-   ],
-   "shock_terms": [],
-   "dedupe_match": null,
-   "dedupe_similarity": 0.14,
-   "id": "d233aec0b7b7",
-   "title": "EGYPTAIR Cargo Moves Forward Cardiff Launch in Oct 2026",
-   "url": "https://www.aeroroutes.com/eng/261016-mscnw26cwl",
-   "summary": "Published at 0500PDT / 1200GMT 16OCT26 EGYPTAIR Cargo has moved forward planned service launch on Cairo \u2013 Cardiff route, reflected in recent schedule update. The airline\u2019s 1 daily Airbus A330 Freighter operation is now scheduled from 25OCT26, instead of 30OCT26. Schedule below focuses on the period of 30OCT26 \u2013 27MAR27. MS5530 CAI0730 \u2013 1050CWL 33X D MS5531 CWL1220 \u2013 1905CAI 33X D",
-   "kind": "item",
-   "source": "AeroRoutes schedule filings",
-   "source_id": "aeroroutes",
-   "tier": 2,
-   "country": "GLOBAL",
-   "category": "aviation-tracker",
-   "segments": [
-    "city",
-    "bush",
-    "beach"
-   ],
-   "first_seen": "2026-10-16T16:59+03:00",
-   "published": "2026-10-16",
-   "verdict": "CONSIDER"
-  },
-  {
-   "score": 83.5,
-   "components": {
-    "tier": 20,
-    "category": 14,
-    "lead": 8.4,
-    "relevance": 12,
-    "freshness": 19.1,
-    "corroborated": 10
-   },
-   "keywords": [
-    "route",
-    "flight"
-   ],
-   "shock_terms": [],
-   "dedupe_match": null,
-   "dedupe_similarity": 0.17,
-   "id": "dede83c9539e",
-   "title": "Etihad NW26 Jakarta Aircraft Changes",
-   "url": "https://www.aeroroutes.com/eng/261016-eynw26cgk",
-   "summary": "Published at 0400PDT / 1100GMT 16OCT26 Etihad Airways during Northern winter 2026/27 season schedules aircraft changes on Abu Dhabi \u2013 Jakarta route, as 1 of 2 daily flight to be operated by Hi-Fly A330-200 aircraft, effective 25OCT26. EY472 AUH0845 \u2013 2020CGK 332 D EY474 AUH2120 \u2013 0835+1CGK 787 D EY475 CGK1800 \u2013 2310AUH 787 D EY473 CGK2320 \u2013 0505+1AUH 332 D",
-   "kind": "item",
-   "source": "AeroRoutes schedule filings",
-   "source_id": "aeroroutes",
-   "tier": 2,
-   "country": "GLOBAL",
-   "category": "aviation-tracker",
-   "segments": [
-    "city",
-    "bush",
-    "beach"
-   ],
-   "first_seen": "2026-10-16T16:59+03:00",
-   "published": "2026-10-16",
-   "verdict": "CONSIDER"
-  },
-  {
-   "score": 83.5,
-   "components": {
-    "tier": 20,
-    "category": 14,
-    "lead": 8.4,
-    "relevance": 12,
-    "freshness": 19.1,
-    "corroborated": 10
-   },
-   "keywords": [
-    "route",
-    "airline"
-   ],
-   "shock_terms": [],
-   "dedupe_match": null,
-   "dedupe_similarity": 0.0,
-   "id": "31768eded139",
-   "title": "Thai AirAsia 1Q27 Phuket \u2013 Siem Reap Service Changes",
-   "url": "https://www.aeroroutes.com/eng/261016-fd1q27sai",
-   "summary": "Published at 0300PDT / 1000GMT 16OCT26 Thai AirAsia in recent schedule update revised planned Phuket \u2013 Siem Reap route in the first quarter of 2027. From 02JAN27 to 27MAR27, the airline will continue to serve this route 4 times weekly, instead of increasing to 1 daily. The airline will resume this route on 25OCT26. FD612 HKT1430 \u2013 1605SAI 320 x246 FD613 SAI1650 \u2013 1825 HKT 320 x246",
-   "kind": "item",
-   "source": "AeroRoutes schedule filings",
-   "source_id": "aeroroutes",
-   "tier": 2,
-   "country": "GLOBAL",
-   "category": "aviation-tracker",
-   "segments": [
-    "city",
-    "bush",
-    "beach"
-   ],
-   "first_seen": "2026-10-16T16:59+03:00",
-   "published": "2026-10-16",
-   "verdict": "CONSIDER"
-  },
-  {
-   "score": 83.5,
-   "components": {
-    "tier": 40,
-    "category": 13,
-    "lead": 4.8,
-    "relevance": 8,
-    "freshness": 7.7,
-    "corroborated": 10
-   },
-   "keywords": [
-    "airport"
-   ],
-   "shock_terms": [],
-   "dedupe_match": null,
-   "dedupe_similarity": 0.2,
-   "id": "3981559e84eb",
-   "title": "KAA and partners plant 16,000 trees at Dongo Kundu",
-   "url": "https://www.kaa.go.ke/dongo-kundu-tree-planting",
-   "summary": "Kenya Airports Authority and the Kenya Civil Aviation Authority led a tree planting exercise at Dongo Kundu in Mombasa, where participants planted 16,000 tree seedlings.",
-   "kind": "item",
-   "source": "Kenya Airports Authority",
-   "source_id": "ke-kaa",
-   "tier": 1,
-   "country": "KE",
-   "category": "aviation",
-   "segments": [
-    "city",
-    "bush",
-    "beach"
-   ],
-   "first_seen": "2026-10-16T06:35+03:00",
-   "published": "2026-10-15",
-   "verdict": "CONSIDER"
-  },
-  {
-   "score": 82.8,
-   "components": {
-    "tier": 40,
-    "category": 7,
-    "lead": 6.0,
+    "category": 10,
+    "lead": 16.8,
     "relevance": 0,
-    "freshness": 19.8,
-    "corroborated": 10
-   },
-   "keywords": [],
-   "shock_terms": [],
-   "dedupe_match": null,
-   "dedupe_similarity": 0.11,
-   "id": "6c5d39ed3bc3",
-   "title": "EAC Partner States Advance Measure to Strengthen E-Commerce and Digital Trade",
-   "url": "https://www.eac.int/eadrip-news-updates/eardip-press-releases/3609-eac-partner-states-advance-measure-to-strengthen-e-commerce-and-digital-trade",
-   "summary": "East African Community Headquarters, Arusha, Tanzania, 16 th October, 2026: The East African Community (EAC) Partner States have advanced regional efforts to strengthen e-commerce and digital trade, with a focus on improving data and monitoring, building consumer trust, enhancing preparedness for implementation of the AfCFTA Protocol on Digital Trade, and accelerating implementation of the EAC E-C",
-   "kind": "item",
-   "source": "East African Community \u2014 Secretariat news",
-   "source_id": "eac-secretariat",
-   "tier": 1,
-   "country": "Regional",
-   "category": "body",
-   "segments": [
-    "city"
-   ],
-   "first_seen": "2026-10-16T17:37+03:00",
-   "published": "2026-10-16",
-   "verdict": "CONSIDER"
-  },
-  {
-   "score": 82.4,
-   "components": {
-    "tier": 20,
-    "category": 5,
-    "lead": 3.6,
-    "relevance": 24,
-    "freshness": 19.8,
-    "corroborated": 10
-   },
-   "keywords": [
-    "airport",
-    "hotel",
-    "resort",
-    "rooms",
-    "guest"
-   ],
-   "shock_terms": [],
-   "dedupe_match": null,
-   "dedupe_similarity": 0.12,
-   "id": "e28ea1c3422a",
-   "title": "OTH Hotels Resorts Expands Southern U.S. Portfolio with Two Hotels in Kentucky and North Carolina",
-   "url": "https://www.hospitalitynet.org/news/4134952/oth-hotels-resorts-expands-southern-us-portfolio-with-two-hotels-in-kentucky-and-north-carolina",
-   "summary": "OTH Hotels Resorts adds 275 guestrooms via Capital Plaza Hotel in Frankfort, KY (set for a 2027 rebrand as The Franklin Hotel) and Four Points by Sheraton Greensboro Airport in NC.",
-   "kind": "item",
-   "source": "Hospitality Net \u2014 Africa announcements",
-   "source_id": "dev-hospitalitynet-africa",
-   "tier": 2,
-   "country": "REG",
-   "category": "trade",
-   "segments": [
-    "city",
-    "bush",
-    "beach"
-   ],
-   "first_seen": "2026-10-16T17:37+03:00",
-   "published": "2026-10-16",
-   "verdict": "CONSIDER"
-  },
-  {
-   "score": 81.4,
-   "components": {
-    "tier": 40,
-    "category": 24,
-    "lead": 3.6,
-    "relevance": 0,
-    "freshness": 19.8,
+    "freshness": 19.7,
     "undated": -6
    },
    "keywords": [],
    "shock_terms": [],
    "dedupe_match": null,
-   "dedupe_similarity": 0.14,
-   "id": "510446f9e219",
-   "title": "Communicable disease threats report, 10 - 16 October, week 42",
-   "url": "https://www.ecdc.europa.eu/en/publications-data/communicable-disease-threats-report-10-16-october-week-42",
+   "dedupe_similarity": 0.4,
+   "id": "10db66845e36",
+   "title": "MPs call for children\u2019s inclusion in regional climate decisions Friday, 16 October 2026",
+   "url": "https://www.parliament.go.ug/index.php/news/4672/mps-call-childrens-inclusion-regional-climate-decisions",
    "summary": "",
    "kind": "item",
-   "source": "ECDC weekly communicable disease threats report",
-   "source_id": "ecdc-cdtr",
+   "source": "Parliament of Uganda",
+   "source_id": "ug-parliament",
    "tier": 1,
-   "country": "GLOBAL",
-   "category": "health",
+   "country": "UG",
+   "category": "legislature",
    "segments": [
     "city",
     "bush",
     "beach"
    ],
-   "first_seen": "2026-10-16T17:37+03:00",
+   "first_seen": "2026-10-16T21:51+03:00",
    "published": null,
-   "verdict": "CONSIDER"
-  },
-  {
-   "score": 81.2,
-   "components": {
-    "tier": 20,
-    "category": 14,
-    "lead": 8.4,
-    "relevance": 16,
-    "freshness": 12.8,
-    "corroborated": 10
-   },
-   "keywords": [
-    "route",
-    "airline",
-    "flight"
-   ],
-   "shock_terms": [],
-   "dedupe_match": null,
-   "dedupe_similarity": 0.14,
-   "id": "cec391d8a7ee",
-   "title": "Hainan Airlines Dec 2026 Haikou \u2013 Sydney Service Increases",
-   "url": "https://www.aeroroutes.com/eng/261015-hudec26haksyd",
-   "summary": "Published at 2245PDT 15OCT26 / 0545GMT 16OCT26 Hainan Airlines during the month of December 2026 once again schedules service increase on Haikou \u2013 Sydney route. From 01DEC26 to 23DEC26, service increases from 3 to 7 weekly, while additional 5 weekly flights will also be offered for the period of 18DEC26 \u2013 22DEC26. HU775 HAK0245 \u2013 1520SYD 333 x246 HU775 HAK0250 \u2013 1530SYD 333 246 HU776 SYD2100 \u2013 035",
-   "kind": "item",
-   "source": "AeroRoutes schedule filings",
-   "source_id": "aeroroutes",
-   "tier": 2,
-   "country": "GLOBAL",
-   "category": "aviation-tracker",
-   "segments": [
-    "city",
-    "bush",
-    "beach"
-   ],
-   "first_seen": "2026-10-16T11:16+03:00",
-   "published": "2026-10-16",
    "verdict": "CONSIDER"
   },
   {
    "score": 80.5,
    "components": {
-    "tier": 20,
-    "category": 5,
-    "lead": 2.4,
-    "relevance": 24,
-    "freshness": 19.1,
-    "corroborated": 10
-   },
-   "keywords": [
-    "airport",
-    "hotel",
-    "resort",
-    "rooms",
-    "guest"
-   ],
-   "shock_terms": [],
-   "dedupe_match": null,
-   "dedupe_similarity": 0.12,
-   "id": "40bd7750972d",
-   "title": "OTH Hotels Resorts Expands Southern U.S. Portfolio with Two Hotels in Kentucky and North Carolina",
-   "url": "https://www.hospitalitynet.org/news/4134952/oth-hotels-resorts-expands-southern-us-portfolio-with-two-hotels-in-kentucky-and-north-carolina",
-   "summary": "OTH Hotels Resorts adds 275 guestrooms via Capital Plaza Hotel in Frankfort, KY (set for a 2027 rebrand as The Franklin Hotel) and Four Points by Sheraton Greensboro Airport in NC.",
-   "kind": "item",
-   "source": "Hospitality Net: Africa openings",
-   "source_id": "dev-hospitalitynet-openings",
-   "tier": 2,
-   "country": "AFRICA",
-   "category": "trade",
-   "segments": [
-    "city",
-    "bush",
-    "beach"
-   ],
-   "first_seen": "2026-10-16T16:59+03:00",
-   "published": "2026-10-16",
-   "verdict": "CONSIDER"
-  },
-  {
-   "score": 80.4,
-   "components": {
-    "tier": 20,
-    "category": 14,
-    "lead": 8.4,
-    "relevance": 28,
-    "freshness": 0.0,
-    "corroborated": 10
-   },
-   "keywords": [
-    "cancel",
-    "route",
-    "airline",
-    "flight"
-   ],
-   "shock_terms": [],
-   "dedupe_match": null,
-   "dedupe_similarity": 0.11,
-   "id": "9998ee43f5b8",
-   "title": "Ethiopian 4Q26 Selected Atlanta Service Cancellations",
-   "url": "https://www.aeroroutes.com/eng/261015-et4q26atl",
-   "summary": "Published at 0300PDT / 1000GMT 15OCT26 Ethiopian Airlines in recent schedule update filed service changes on Addis Ababa \u2013 Atlanta route in the fourth quarter of 2026. The airline is cancelling this route during the period of 20OCT26 \u2013 08DEC26, EXCEPT 01NOV26 and 29NOV26 (Addis Ababa departure). The airline operates Boeing 787-8 aircraft with westbound flight operating via Rome Fiumicino as techni",
-   "kind": "item",
-   "source": "AeroRoutes schedule filings",
-   "source_id": "aeroroutes",
-   "tier": 2,
-   "country": "GLOBAL",
-   "category": "aviation-tracker",
-   "segments": [
-    "city",
-    "bush",
-    "beach"
-   ],
-   "first_seen": "2026-10-15T17:12+03:00",
-   "published": "2026-10-15",
-   "verdict": "CONSIDER"
-  },
-  {
-   "score": 79.8,
-   "components": {
     "tier": 40,
-    "category": 13,
-    "lead": 4.8,
-    "relevance": 12,
-    "freshness": 0.0,
-    "corroborated": 10
-   },
-   "keywords": [
-    "route",
-    "airline"
-   ],
-   "shock_terms": [],
-   "dedupe_match": null,
-   "dedupe_similarity": 0.11,
-   "id": "a99629411b6d",
-   "title": "Freedom Airline\u2019s Nairobi\u2013Lodwar route opens new opportunities for Turkana",
-   "url": "https://www.kaa.go.ke/freedom-airline-nairobi-lodwar",
-   "summary": "Freedom Airline launched its Nairobi\u2013Lodwar service on Friday, 18 September 2026. KAA Managing Director and CEO Mr Moses Wekesa joined senior officials and Freedom Airline Chief Operations Officer Capt. Ibrahim\u2026",
-   "kind": "item",
-   "source": "Kenya Airports Authority",
-   "source_id": "ke-kaa",
-   "tier": 1,
-   "country": "KE",
-   "category": "aviation",
-   "segments": [
-    "city",
-    "bush",
-    "beach"
-   ],
-   "first_seen": "2026-10-15T17:11+03:00",
-   "published": "2026-10-15",
-   "verdict": "CONSIDER"
-  },
-  {
-   "score": 79.8,
-   "components": {
-    "tier": 40,
-    "category": 13,
-    "lead": 4.8,
-    "relevance": 12,
-    "freshness": 0.0,
-    "corroborated": 10
-   },
-   "keywords": [
-    "airport",
-    "passenger"
-   ],
-   "shock_terms": [],
-   "dedupe_match": null,
-   "dedupe_similarity": 0.11,
-   "id": "155aea66bf43",
-   "title": "Moi International Airport wins three honours at ACI Africa awards",
-   "url": "https://www.kaa.go.ke/moi-international-aci-africa-awards",
-   "summary": "Moi International Airport, Mombasa, earned three runner-up honours at the 2026 ACI Africa Passenger Facilitation & Readiness Excellence Awards in Abuja, Nigeria.",
-   "kind": "item",
-   "source": "Kenya Airports Authority",
-   "source_id": "ke-kaa",
-   "tier": 1,
-   "country": "KE",
-   "category": "aviation",
-   "segments": [
-    "city",
-    "bush",
-    "beach"
-   ],
-   "first_seen": "2026-10-15T17:11+03:00",
-   "published": "2026-10-15",
-   "verdict": "CONSIDER"
-  },
-  {
-   "score": 79.5,
-   "components": {
-    "tier": 20,
-    "category": 14,
-    "lead": 8.4,
-    "relevance": 8,
-    "freshness": 19.1,
-    "corroborated": 10
-   },
-   "keywords": [
-    "airline",
-    "flight"
-   ],
-   "shock_terms": [],
-   "dedupe_match": null,
-   "dedupe_similarity": 0.11,
-   "id": "a8c079aba5f2",
-   "title": "US-Bangla Airlines NW26 International Service Increases",
-   "url": "https://www.aeroroutes.com/eng/261016-bsnw26int",
-   "summary": "Published at 0600PDT / 1300GMT 16OCT26 US-Bangla Airlines during Northern winter 2026/27 season schedules selected international flights increase. Planned increases include the following. Dhaka \u2013 Chennai eff 13NOV26 Increase from 3 to 5 weekly, 737-800 Dhaka \u2013 Kuala Lumpur eff 09NOV26 Increase from 1 to 2 daily, additional flight by 737-800 BS315 DAC0825 \u2013 1420KUL 333 D BS317 DAC2000 \u2013 0200+1KUL 7",
-   "kind": "item",
-   "source": "AeroRoutes schedule filings",
-   "source_id": "aeroroutes",
-   "tier": 2,
-   "country": "GLOBAL",
-   "category": "aviation-tracker",
-   "segments": [
-    "city",
-    "bush",
-    "beach"
-   ],
-   "first_seen": "2026-10-16T16:59+03:00",
-   "published": "2026-10-16",
-   "verdict": "CONSIDER"
-  },
-  {
-   "score": 79.5,
-   "components": {
-    "tier": 40,
-    "category": 24,
-    "lead": 2.4,
+    "category": 10,
+    "lead": 16.8,
     "relevance": 0,
-    "freshness": 19.1,
+    "freshness": 19.7,
     "undated": -6
    },
    "keywords": [],
    "shock_terms": [],
    "dedupe_match": null,
-   "dedupe_similarity": 0.11,
-   "id": "019b4588cc11",
-   "title": "8 October 2026 | News Release Power of Partnerships: Investing in East Africa\u2019s Young People",
-   "url": "https://www.afro.who.int/news/power-partnerships-investing-east-africas-young-people",
+   "dedupe_similarity": 0.4,
+   "id": "6f63c4c9509d",
+   "title": "COSASE Flags Delays in Human Rights Cases Despite Shs28.95 bn UHRC Funding Friday, 16 October 2026",
+   "url": "https://www.parliament.go.ug/index.php/news/4671/cosase-flags-delays-human-rights-cases-despite-shs2895-bn-uhrc-funding",
    "summary": "",
    "kind": "item",
-   "source": "WHO AFRO \u2014 Kenya country newsroom",
-   "source_id": "who-afro-kenya",
+   "source": "Parliament of Uganda",
+   "source_id": "ug-parliament",
    "tier": 1,
-   "country": "KE",
-   "category": "health",
+   "country": "UG",
+   "category": "legislature",
    "segments": [
-    "bush",
     "city",
+    "bush",
     "beach"
    ],
-   "first_seen": "2026-10-16T16:59+03:00",
+   "first_seen": "2026-10-16T21:51+03:00",
+   "published": null,
+   "verdict": "CONSIDER"
+  },
+  {
+   "score": 80.5,
+   "components": {
+    "tier": 40,
+    "category": 10,
+    "lead": 16.8,
+    "relevance": 0,
+    "freshness": 19.7,
+    "undated": -6
+   },
+   "keywords": [],
+   "shock_terms": [],
+   "dedupe_match": null,
+   "dedupe_similarity": 0.4,
+   "id": "a7453228a844",
+   "title": "Audit Russian digital number plate firm \u2013 MPs ask Auditor General Friday, 16 October 2026",
+   "url": "https://www.parliament.go.ug/index.php/news/4670/audit-russian-digital-number-plate-firm-mps-ask-auditor-general",
+   "summary": "",
+   "kind": "item",
+   "source": "Parliament of Uganda",
+   "source_id": "ug-parliament",
+   "tier": 1,
+   "country": "UG",
+   "category": "legislature",
+   "segments": [
+    "city",
+    "bush",
+    "beach"
+   ],
+   "first_seen": "2026-10-16T21:51+03:00",
+   "published": null,
+   "verdict": "CONSIDER"
+  },
+  {
+   "score": 80.5,
+   "components": {
+    "tier": 40,
+    "category": 10,
+    "lead": 16.8,
+    "relevance": 0,
+    "freshness": 19.7,
+    "undated": -6
+   },
+   "keywords": [],
+   "shock_terms": [],
+   "dedupe_match": null,
+   "dedupe_similarity": 0.22,
+   "id": "c3023d9c4ee7",
+   "title": "Aga Khan to promote green energy products Thursday, 15 October 2026",
+   "url": "https://www.parliament.go.ug/index.php/news/4669/aga-khan-promote-green-energy-products",
+   "summary": "",
+   "kind": "item",
+   "source": "Parliament of Uganda",
+   "source_id": "ug-parliament",
+   "tier": 1,
+   "country": "UG",
+   "category": "legislature",
+   "segments": [
+    "city",
+    "bush",
+    "beach"
+   ],
+   "first_seen": "2026-10-16T21:51+03:00",
+   "published": null,
+   "verdict": "CONSIDER"
+  },
+  {
+   "score": 80.5,
+   "components": {
+    "tier": 40,
+    "category": 10,
+    "lead": 16.8,
+    "relevance": 0,
+    "freshness": 19.7,
+    "undated": -6
+   },
+   "keywords": [],
+   "shock_terms": [],
+   "dedupe_match": null,
+   "dedupe_similarity": 0.0,
+   "id": "1ce82cd41bd5",
+   "title": "\ud835\udc0d\ud835\udc00\ud835\udc13\ud835\udc08\ud835\udc0e\ud835\udc0d\ud835\udc00\ud835\udc0b \ud835\udc00\ud835\udc12\ud835\udc12\ud835\udc04\ud835\udc0c\ud835\udc01\ud835\udc0b\ud835\udc18 \ud835\udc0f\ud835\udc00\ud835\udc12\ud835\udc12\ud835\udc04\ud835\udc12 \ud835\udc01\ud835\udc08\ud835\udc0b\ud835\udc0b \ud835\udc13\ud835\udc0e \ud835\udc12\ud835\udc13\ud835\udc11\ud835\udc04\ud835\udc0d\ud835\udc06\ud835\udc13\ud835\udc07\ud835\udc04\ud835\udc0d \ud835\udc0e\ud835\udc15\ud835\udc04\ud835\udc11\ud835\udc12\ud835\udc08\ud835\udc06\ud835\udc07\ud835\udc13 \ud835\udc0e\ud835\udc05 \ud835\udc04\ud835\udc00\ud835\udc12\ud835\udc13 \ud835\udc00\ud835\udc05\ud835\udc11\ud835\udc08\ud835\udc02\ud835\udc00\ud835\udc0d \ud835\udc03\ud835\udc04\ud835\udc15\ud835\udc04\ud835\udc0b\ud835\udc0e\ud835\udc0f\ud835\udc0c\ud835\udc04\ud835\udc0d\ud835\udc13 \ud835\udc01\ud835\udc00\ud835\udc0d\ud835\udc0a \ud835\udc05\ud835\udc14\ud835\udc0d\ud835\udc03\ud835\udc08\ud835\udc0d\ud835\udc06",
+   "url": "https://www.parliament.go.ke/node/26559",
+   "summary": "",
+   "kind": "item",
+   "source": "Parliament of Kenya \u2014 bills & papers",
+   "source_id": "ke-parliament",
+   "tier": 1,
+   "country": "KE",
+   "category": "legislature",
+   "segments": [
+    "city",
+    "bush",
+    "beach"
+   ],
+   "first_seen": "2026-10-16T21:51+03:00",
+   "published": null,
+   "verdict": "CONSIDER"
+  },
+  {
+   "score": 80.5,
+   "components": {
+    "tier": 40,
+    "category": 10,
+    "lead": 16.8,
+    "relevance": 0,
+    "freshness": 19.7,
+    "undated": -6
+   },
+   "keywords": [],
+   "shock_terms": [],
+   "dedupe_match": null,
+   "dedupe_similarity": 0.0,
+   "id": "869c57add253",
+   "title": "\ud835\udc07\ud835\udc0e\ud835\udc14\ud835\udc12\ud835\udc04 \ud835\udc0f\ud835\udc00\ud835\udc12\ud835\udc12\ud835\udc04\ud835\udc12 \ud835\udc01\ud835\udc08\ud835\udc0b\ud835\udc0b \ud835\udc13\ud835\udc0e \ud835\udc11\ud835\udc04\ud835\udc02\ud835\udc0e\ud835\udc06\ud835\udc0d\ud835\udc08\ud835\udc19\ud835\udc04 \ud835\udc04\ud835\udc0d\ud835\udc15\ud835\udc08\ud835\udc11\ud835\udc0e\ud835\udc0d\ud835\udc0c\ud835\udc04\ud835\udc0d\ud835\udc13\ud835\udc00\ud835\udc0b \ud835\udc0f\ud835\udc11\ud835\udc0e\ud835\udc05\ud835\udc04\ud835\udc12\ud835\udc12\ud835\udc08\ud835\udc0e\ud835\udc0d\ud835\udc00\ud835\udc0b\ud835\udc12",
+   "url": "https://www.parliament.go.ke/node/26558",
+   "summary": "",
+   "kind": "item",
+   "source": "Parliament of Kenya \u2014 bills & papers",
+   "source_id": "ke-parliament",
+   "tier": 1,
+   "country": "KE",
+   "category": "legislature",
+   "segments": [
+    "city",
+    "bush",
+    "beach"
+   ],
+   "first_seen": "2026-10-16T21:51+03:00",
    "published": null,
    "verdict": "CONSIDER"
   }
