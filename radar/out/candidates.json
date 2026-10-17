@@ -1,8 +1,8 @@
 {
- "generated": "2026-10-17T20:53:12+03:00",
+ "generated": "2026-10-17T23:20:52+03:00",
  "slot": "evening",
  "window_start": 1792152000,
- "observations_in_window": 1044,
+ "observations_in_window": 1087,
  "deduped_against": 26,
  "candidates": [
   {
@@ -46,13 +46,13 @@
    "verdict": "LEAD CANDIDATE \u2014 tier-1 shock language"
   },
   {
-   "score": 106.8,
+   "score": 104.1,
    "components": {
     "tier": 40,
     "category": 32,
     "lead": 12.0,
     "relevance": 8,
-    "freshness": 8.8,
+    "freshness": 6.1,
     "corroborated": 10,
     "page_change": -4
    },
@@ -81,13 +81,46 @@
    "verdict": "OPEN THIS \u2014 tier-1 advisory page moved; content not auto-parsed, read it manually"
   },
   {
-   "score": 100.3,
+   "score": 101.3,
    "components": {
     "tier": 40,
     "category": 32,
     "lead": 3.6,
     "relevance": 0,
-    "freshness": 18.7,
+    "freshness": 19.7,
+    "corroborated": 10,
+    "page_change": -4
+   },
+   "keywords": [],
+   "shock_terms": [],
+   "dedupe_match": null,
+   "dedupe_similarity": 0.12,
+   "id": "6e3fa14a5b0c",
+   "title": "[page changed] Federal Register \u2014 public inspection (HHS/CDC), pre-publication",
+   "url": "https://www.federalregister.gov/api/v1/public-inspection-documents/current.json",
+   "summary": "{\"count\":150,\"results\":[{\"agencies\":[{\"raw_name\":\"Justice Department\",\"name\":\"Justice Department\",\"id\":268,\"url\":\"https://www.federalregister.gov/agencies/justice-department\",\"json_url\":\"https://www.federalregister.gov/api/v1/agencies/268\",\"parent_id\":null,\"slug\":\"justice-department\"}],\"agency_letters\":[],\"agency_names\":[\"Justice Department\"],\"docket_numbers\":[],\"document_number\":\"2026-21187\",\"edi",
+   "kind": "page-change",
+   "source": "Federal Register \u2014 public inspection (HHS/CDC), pre-publication",
+   "source_id": "us-fedreg-pubinspect-hhs",
+   "tier": 1,
+   "country": "REG",
+   "category": "advisory",
+   "segments": [
+    "city",
+    "bush"
+   ],
+   "first_seen": "2026-10-17T23:16+03:00",
+   "published": "2026-10-16",
+   "verdict": "OPEN THIS \u2014 tier-1 advisory page moved; content not auto-parsed, read it manually"
+  },
+  {
+   "score": 97.6,
+   "components": {
+    "tier": 40,
+    "category": 32,
+    "lead": 3.6,
+    "relevance": 0,
+    "freshness": 16.0,
     "corroborated": 10,
     "page_change": -4
    },
@@ -114,13 +147,13 @@
    "verdict": "OPEN THIS \u2014 tier-1 advisory page moved; content not auto-parsed, read it manually"
   },
   {
-   "score": 96.0,
+   "score": 93.3,
    "components": {
     "tier": 40,
     "category": 32,
     "lead": 3.6,
     "relevance": 0,
-    "freshness": 14.4,
+    "freshness": 11.7,
     "corroborated": 10,
     "page_change": -4
    },
@@ -147,13 +180,13 @@
    "verdict": "OPEN THIS \u2014 tier-1 advisory page moved; content not auto-parsed, read it manually"
   },
   {
-   "score": 90.4,
+   "score": 87.7,
    "components": {
     "tier": 40,
     "category": 32,
     "lead": 3.6,
     "relevance": 0,
-    "freshness": 8.8,
+    "freshness": 6.1,
     "corroborated": 10,
     "page_change": -4
    },
@@ -219,13 +252,13 @@
    "verdict": "OPEN THIS \u2014 tier-1 health page moved; content not auto-parsed, read it manually"
   },
   {
-   "score": 85.5,
+   "score": 82.8,
    "components": {
     "tier": 40,
     "category": 32,
     "lead": 3.6,
     "relevance": 0,
-    "freshness": 3.9,
+    "freshness": 1.2,
     "corroborated": 10,
     "page_change": -4
    },
@@ -351,13 +384,47 @@
    "verdict": "OPEN THIS \u2014 tier-1 advisory page moved; content not auto-parsed, read it manually"
   },
   {
-   "score": 54.4,
+   "score": 65.3,
    "components": {
     "tier": 40,
     "category": 12,
     "lead": 3.6,
     "relevance": 0,
-    "freshness": 8.8,
+    "freshness": 19.7,
+    "undated": -6,
+    "page_change": -4
+   },
+   "keywords": [],
+   "shock_terms": [],
+   "dedupe_match": null,
+   "dedupe_similarity": 0.0,
+   "id": "e99a2980a046",
+   "title": "[page changed] Airlink news",
+   "url": "https://www.flyairlink.com/",
+   "summary": "Request unsuccessful. Incapsula incident ID: 605000381797885576-1691065230204668338",
+   "kind": "page-change",
+   "source": "Airlink news",
+   "source_id": "air-airlink",
+   "tier": 1,
+   "country": "REG",
+   "category": "airline",
+   "segments": [
+    "city",
+    "bush",
+    "beach"
+   ],
+   "first_seen": "2026-10-17T23:16+03:00",
+   "published": null,
+   "verdict": "OPEN THIS \u2014 tier-1 airline page moved; content not auto-parsed, read it manually"
+  },
+  {
+   "score": 51.7,
+   "components": {
+    "tier": 40,
+    "category": 12,
+    "lead": 3.6,
+    "relevance": 0,
+    "freshness": 6.1,
     "undated": -6,
     "page_change": -4
    },
@@ -419,13 +486,53 @@
    "verdict": "OPEN THIS \u2014 tier-1 airline page moved; content not auto-parsed, read it manually"
   },
   {
-   "score": 98.2,
+   "score": 98.1,
+   "components": {
+    "tier": 20,
+    "category": 24,
+    "lead": 2.4,
+    "relevance": 24,
+    "freshness": 19.7,
+    "undated": -6,
+    "shock": 18,
+    "page_change": -4
+   },
+   "keywords": [
+    "ebola",
+    "quarantine"
+   ],
+   "shock_terms": [
+    "confirmed case"
+   ],
+   "dedupe_match": null,
+   "dedupe_similarity": 0.12,
+   "id": "cee7c56a3fb7",
+   "title": "[page changed] ProMED-mail",
+   "url": "https://promedmail.org/",
+   "summary": "Protecting Global Health, One Alert at a Time | ProMED Previous slide Next slide Protecting Global Health, One Alert at a Time ProMED: Your 24/7 early warning system for emerging infectious diseases worldwide. Subscribe ProMED's Weekly Pulse A snapshot of global health events from the past 7 days Latest Posts on ProMED All Date Title Sat Oct 17 2026 \u0418\u043d\u0444\u0435\u043a\u0446\u0438\u0438, \u043f\u0435\u0440\u0435\u0434\u0430\u044e\u0449\u0438\u0435\u0441\u044f \u043a\u043b\u0435\u0449\u0430\u043c\u0438 - \u0420\u043e\u0441\u0441\u0438\u044f (\u041a\u0443\u0440\u0441\u043a\u0430\u044f",
+   "kind": "page-change",
+   "source": "ProMED-mail",
+   "source_id": "promed",
+   "tier": 2,
+   "country": "GLOBAL",
+   "category": "health",
+   "segments": [
+    "city",
+    "bush",
+    "beach"
+   ],
+   "first_seen": "2026-10-17T23:16+03:00",
+   "published": null,
+   "verdict": "CONSIDER"
+  },
+  {
+   "score": 95.5,
    "components": {
     "tier": 20,
     "category": 4,
     "lead": 2.4,
     "relevance": 24,
-    "freshness": 19.8,
+    "freshness": 17.1,
     "corroborated": 10,
     "shock": 18
    },
@@ -458,13 +565,13 @@
    "verdict": "CONSIDER"
   },
   {
-   "score": 97.1,
+   "score": 94.4,
    "components": {
     "tier": 20,
     "category": 24,
     "lead": 2.4,
     "relevance": 24,
-    "freshness": 18.7,
+    "freshness": 16.0,
     "undated": -6,
     "shock": 18,
     "page_change": -4
@@ -498,13 +605,13 @@
    "verdict": "CONSIDER"
   },
   {
-   "score": 90.8,
+   "score": 88.1,
    "components": {
     "tier": 40,
     "category": 24,
     "lead": 2.4,
     "relevance": 0,
-    "freshness": 14.4,
+    "freshness": 11.7,
     "corroborated": 10
    },
    "keywords": [],
@@ -527,16 +634,16 @@
    ],
    "first_seen": "2026-10-17T16:00+03:00",
    "published": "2026-10-17",
-   "verdict": "STRONG \u2014 tier-1, upstream"
+   "verdict": "CONSIDER"
   },
   {
-   "score": 87.2,
+   "score": 84.5,
    "components": {
     "tier": 20,
     "category": 24,
     "lead": 2.4,
     "relevance": 24,
-    "freshness": 8.8,
+    "freshness": 6.1,
     "undated": -6,
     "shock": 18,
     "page_change": -4
@@ -570,13 +677,13 @@
    "verdict": "CONSIDER"
   },
   {
-   "score": 86.8,
+   "score": 84.1,
    "components": {
     "tier": 40,
     "category": 24,
     "lead": 2.4,
     "relevance": 12,
-    "freshness": 14.4,
+    "freshness": 11.7,
     "undated": -6
    },
    "keywords": [
@@ -602,84 +709,6 @@
    ],
    "first_seen": "2026-10-17T16:00+03:00",
    "published": null,
-   "verdict": "CONSIDER"
-  },
-  {
-   "score": 82.3,
-   "components": {
-    "tier": 20,
-    "category": 24,
-    "lead": 2.4,
-    "relevance": 24,
-    "freshness": 3.9,
-    "undated": -6,
-    "shock": 18,
-    "page_change": -4
-   },
-   "keywords": [
-    "ebola",
-    "quarantine"
-   ],
-   "shock_terms": [
-    "confirmed case"
-   ],
-   "dedupe_match": null,
-   "dedupe_similarity": 0.12,
-   "id": "b2b98f5d7d5d",
-   "title": "[page changed] ProMED-mail",
-   "url": "https://promedmail.org/",
-   "summary": "Protecting Global Health, One Alert at a Time | ProMED Previous slide Next slide Protecting Global Health, One Alert at a Time ProMED: Your 24/7 early warning system for emerging infectious diseases worldwide. Subscribe ProMED's Weekly Pulse A snapshot of global health events from the past 7 days Latest Posts on ProMED All Date Title Sat Oct 17 2026 EBOLA DISEASE - KENYA (03): THIRD CONFIRMED CASE",
-   "kind": "page-change",
-   "source": "ProMED-mail",
-   "source_id": "promed",
-   "tier": 2,
-   "country": "GLOBAL",
-   "category": "health",
-   "segments": [
-    "city",
-    "bush",
-    "beach"
-   ],
-   "first_seen": "2026-10-17T06:25+03:00",
-   "published": null,
-   "verdict": "CONSIDER"
-  },
-  {
-   "score": 82.2,
-   "components": {
-    "tier": 20,
-    "category": 4,
-    "lead": 2.4,
-    "relevance": 8,
-    "freshness": 19.8,
-    "corroborated": 10,
-    "shock": 18
-   },
-   "keywords": [
-    "strike"
-   ],
-   "shock_terms": [
-    "strike"
-   ],
-   "dedupe_match": null,
-   "dedupe_similarity": 0.17,
-   "id": "52e0f18feedc",
-   "title": "Parents urge the government to urgently end lecturers\u2019 strike",
-   "url": "https://nation.africa/kenya/videos/parents-urge-the-government-to-urgently-end-lecturers-strike-5635730",
-   "summary": "",
-   "kind": "item",
-   "source": "Nation Africa: Kenya business",
-   "source_id": "ke-nation-business",
-   "tier": 2,
-   "country": "KE",
-   "category": "press",
-   "segments": [
-    "city",
-    "bush",
-    "beach"
-   ],
-   "first_seen": "2026-10-17T20:53+03:00",
-   "published": "2026-10-17",
    "verdict": "CONSIDER"
   },
   {
@@ -718,13 +747,91 @@
    "verdict": "CONSIDER"
   },
   {
-   "score": 80.3,
+   "score": 79.6,
+   "components": {
+    "tier": 20,
+    "category": 24,
+    "lead": 2.4,
+    "relevance": 24,
+    "freshness": 1.2,
+    "undated": -6,
+    "shock": 18,
+    "page_change": -4
+   },
+   "keywords": [
+    "ebola",
+    "quarantine"
+   ],
+   "shock_terms": [
+    "confirmed case"
+   ],
+   "dedupe_match": null,
+   "dedupe_similarity": 0.12,
+   "id": "b2b98f5d7d5d",
+   "title": "[page changed] ProMED-mail",
+   "url": "https://promedmail.org/",
+   "summary": "Protecting Global Health, One Alert at a Time | ProMED Previous slide Next slide Protecting Global Health, One Alert at a Time ProMED: Your 24/7 early warning system for emerging infectious diseases worldwide. Subscribe ProMED's Weekly Pulse A snapshot of global health events from the past 7 days Latest Posts on ProMED All Date Title Sat Oct 17 2026 EBOLA DISEASE - KENYA (03): THIRD CONFIRMED CASE",
+   "kind": "page-change",
+   "source": "ProMED-mail",
+   "source_id": "promed",
+   "tier": 2,
+   "country": "GLOBAL",
+   "category": "health",
+   "segments": [
+    "city",
+    "bush",
+    "beach"
+   ],
+   "first_seen": "2026-10-17T06:25+03:00",
+   "published": null,
+   "verdict": "CONSIDER"
+  },
+  {
+   "score": 79.5,
+   "components": {
+    "tier": 20,
+    "category": 4,
+    "lead": 2.4,
+    "relevance": 8,
+    "freshness": 17.1,
+    "corroborated": 10,
+    "shock": 18
+   },
+   "keywords": [
+    "strike"
+   ],
+   "shock_terms": [
+    "strike"
+   ],
+   "dedupe_match": null,
+   "dedupe_similarity": 0.17,
+   "id": "52e0f18feedc",
+   "title": "Parents urge the government to urgently end lecturers\u2019 strike",
+   "url": "https://nation.africa/kenya/videos/parents-urge-the-government-to-urgently-end-lecturers-strike-5635730",
+   "summary": "",
+   "kind": "item",
+   "source": "Nation Africa: Kenya business",
+   "source_id": "ke-nation-business",
+   "tier": 2,
+   "country": "KE",
+   "category": "press",
+   "segments": [
+    "city",
+    "bush",
+    "beach"
+   ],
+   "first_seen": "2026-10-17T20:53+03:00",
+   "published": "2026-10-17",
+   "verdict": "CONSIDER"
+  },
+  {
+   "score": 77.6,
    "components": {
     "tier": 20,
     "category": 14,
     "lead": 8.4,
     "relevance": 24,
-    "freshness": 3.9,
+    "freshness": 1.2,
     "corroborated": 10
    },
    "keywords": [
@@ -788,43 +895,6 @@
    ],
    "first_seen": "2026-10-16T16:59+03:00",
    "published": null,
-   "verdict": "CONSIDER"
-  },
-  {
-   "score": 77.2,
-   "components": {
-    "tier": 20,
-    "category": 14,
-    "lead": 8.4,
-    "relevance": 16,
-    "freshness": 8.8,
-    "corroborated": 10
-   },
-   "keywords": [
-    "route",
-    "airline",
-    "flight"
-   ],
-   "shock_terms": [],
-   "dedupe_match": null,
-   "dedupe_similarity": 0.11,
-   "id": "a82a2b0691c5",
-   "title": "Hunnu Air Plans Regular Ulaanbaatar \u2013 Shenzhen Service in NW26",
-   "url": "https://www.aeroroutes.com/eng/261016-mrnw26szx",
-   "summary": "Published at 2030PDT 16OCT26 / 0330GMT 17OCT26 Mongolian carrier Hunnu Air starting next week plans to launch regular service on Ulaanbaatar \u2013 Shenzhen route, on board Embraer E195-E1 aircraft. Based on schedule filing, the airline would operate 1 weekly flight from 22OCT26 at the earliest. MR867 UBN2305 \u2013 0305+1SZX E95 3 MR868 SZX0405 \u2013 0805UBN E95 4",
-   "kind": "item",
-   "source": "AeroRoutes schedule filings",
-   "source_id": "aeroroutes",
-   "tier": 2,
-   "country": "GLOBAL",
-   "category": "aviation-tracker",
-   "segments": [
-    "city",
-    "bush",
-    "beach"
-   ],
-   "first_seen": "2026-10-17T10:52+03:00",
-   "published": "2026-10-17",
    "verdict": "CONSIDER"
   },
   {
@@ -899,81 +969,6 @@
    "verdict": "CONSIDER"
   },
   {
-   "score": 76.3,
-   "components": {
-    "tier": 20,
-    "category": 14,
-    "lead": 8.4,
-    "relevance": 20,
-    "freshness": 3.9,
-    "corroborated": 10
-   },
-   "keywords": [
-    "route",
-    "airline",
-    "flight",
-    "franc"
-   ],
-   "shock_terms": [],
-   "dedupe_match": null,
-   "dedupe_similarity": 0.0,
-   "id": "742e26f5ef7c",
-   "title": "Air France NS27 Rio de Janeiro Service Increases",
-   "url": "https://www.aeroroutes.com/eng/261016-afns27gig",
-   "summary": "Published at 1701PDT 16OCT26 / 0001GMT 17OCT26 Air France during Northern summer 2027 season plans to increase Paris Charles de Gaulle \u2013 Rio de Janeiro Galeao route, where the airline plans to add 2nd daily flight from 01JUN27. Airbus A350-900 aircraft operates this route. AF512 CDG1010 \u2013 1640GIG 359 D AF442 CDG1325 \u2013 1945GIG 359 D AF511 GIG1855 \u2013 1055+1CDG 359 D AF443 GIG2200 \u2013 1415+1CDG 359 D Th",
-   "kind": "item",
-   "source": "AeroRoutes schedule filings",
-   "source_id": "aeroroutes",
-   "tier": 2,
-   "country": "GLOBAL",
-   "category": "aviation-tracker",
-   "segments": [
-    "city",
-    "bush",
-    "beach"
-   ],
-   "first_seen": "2026-10-17T06:25+03:00",
-   "published": "2026-10-17",
-   "verdict": "CONSIDER"
-  },
-  {
-   "score": 76.2,
-   "components": {
-    "tier": 20,
-    "category": 4,
-    "lead": 2.4,
-    "relevance": 20,
-    "freshness": 19.8,
-    "corroborated": 10
-   },
-   "keywords": [
-    "ebola",
-    "tourism",
-    "tourist"
-   ],
-   "shock_terms": [],
-   "dedupe_match": null,
-   "dedupe_similarity": 0.33,
-   "id": "5165b01e5843",
-   "title": "Ebola, insurance row and El Ni\u00f1o cloud Kenya\u2019s 5.5m tourist ambition as festive season approaches",
-   "url": "https://nation.africa/kenya/news/ebola-insurance-row-and-el-ni%C3%B1o-cloud-kenya-s-5-5m-tourist-ambition-as-festive-season-approaches-5635816",
-   "summary": "The tourism industry isgearing up for the festive season.",
-   "kind": "item",
-   "source": "Nation Africa: Kenya business",
-   "source_id": "ke-nation-business",
-   "tier": 2,
-   "country": "KE",
-   "category": "press",
-   "segments": [
-    "city",
-    "bush",
-    "beach"
-   ],
-   "first_seen": "2026-10-17T20:53+03:00",
-   "published": "2026-10-17",
-   "verdict": "CONSIDER"
-  },
-  {
    "score": 75.8,
    "components": {
     "tier": 40,
@@ -1009,145 +1004,77 @@
    "verdict": "CONSIDER"
   },
   {
-   "score": 74.8,
-   "components": {
-    "tier": 40,
-    "category": 24,
-    "lead": 2.4,
-    "relevance": 0,
-    "freshness": 14.4,
-    "undated": -6
-   },
-   "keywords": [],
-   "shock_terms": [],
-   "dedupe_match": null,
-   "dedupe_similarity": 0.25,
-   "id": "74c1e8338f53",
-   "title": "Posted on: October 17th, 2026",
-   "url": "https://www.moh.go.tz",
-   "summary": "",
-   "kind": "item",
-   "source": "Tanzania Ministry of Health",
-   "source_id": "tz-moh",
-   "tier": 1,
-   "country": "TZ",
-   "category": "health",
-   "segments": [
-    "city",
-    "bush",
-    "beach"
-   ],
-   "first_seen": "2026-10-17T16:00+03:00",
-   "published": null,
-   "verdict": "CONSIDER"
-  },
-  {
-   "score": 74.8,
-   "components": {
-    "tier": 40,
-    "category": 24,
-    "lead": 2.4,
-    "relevance": 0,
-    "freshness": 14.4,
-    "undated": -6
-   },
-   "keywords": [],
-   "shock_terms": [],
-   "dedupe_match": null,
-   "dedupe_similarity": 0.25,
-   "id": "f4636db157b9",
-   "title": "MWONGOZO WA USHAURI KWA WASAFIRI NA. 18 WA TAR...",
-   "url": "https://www.moh.go.tz/storage/app/uploads/public/6ad/341/c35/6ad341c35c481998786984.pdf",
-   "summary": "\u0004\u00a5\u00a4\u00ac\u00cdoT\u00fe\u00cd\u00b6R\u00a1Zi\u000e\u0010\u0013\u0081\u00eei\u0002W\u00d0\u00e2\u00fe k\u001a\u0092j\u00a3O\u00b1\u0091\u00e3\u008d# \u00c5N &\u00b5\u00fc \u00a8\u00ea\u0013\u00e9\u00d7 \u00a8K\u00e7,,\u00029\u00eb\u00ee r\u008fzu QZ\u00feP\u008b+\u0015wQ\u00d3<\u000f\u00c0Wy\u0005\u0095\u00ae\u0089\u00a4\u0098\u00e0l\u00aa\u00a9wl\u00e4\u00b15 \u0004\u00c5q <v\u0017\u00b6\u00c0 \u0001\u0013\u009a\u00ed\u00cdy\u00a7\u008c\u00ae\u008d\u00de\u00af!\u008b\u0091\b \u008fS\u00de\u00a2\u00a3\u00d0\\\u00ca/S\u0006\u00d2\u00ca[\u00eb\u0098a\u0088\u0080e\u0090\u0001\u00e8\u0005v\u00b7\u0016\u001a \u009f\u0086\u00e4\u00b6'\u00cd\u0098I\u00ce:\u0004\u00aek\u00c3w\u00a9c|/ \u00daY\u0004y\u0005@\u00fb\u00a4\u00f7\u00ae\u00ca z\u00c7U\u008exbb\u0092\u00b2\u00b0\b\u00e3\u0005\u0086*b\u0095\u0099\u00acT\u00aeps\u00eaQC\u0088\u00ad\u0097\u00cf\u0097\u00b63\u0080\u007f\u00adDY\u00c4r\u00ff\u0000h\u00b6\u00e2\u00d8>Z\u00b0\u00c8\u0019\u00fd*\u00cc\u0016\u008b\u00bd\u00a4 \u00b1 <\u00b0\u0015\u0018E\u00c3 \u00e6\u00b9T\u00a3\u00cd\u00aa;\u00a3\u0080Q\u00bbL\u00ce\u009a\u00ed\u00dd<\u00b8\u0094E\u0017\u00f7\u0017\u00bf\u00d4\u00f55\u00d5x\u0012q\u0081\u00d7\u0006\u00807h\u00ac\u00dd;[\u00b3\u00d4\u00b4\u00a7\u00d4m\u008b\u0098\u0013vK.\u000f x\u00aa\u00d3N\u0082u\u00a6\u00f3\u0092\u00d0 \u0002\u00c9\u0086o \u00ca*\u009e\u0097\u00a8\u00dbj\u00b6\u0011^\u00da3\u0018\u00a4\u0019\u001b\u0086 R\u00d7\u00fcK\u00a7x}\u00a1\u001a\u0083H<\u00ec\u00ed\u00d8\u009b\u00a8\u0003f\u008a\u00c4\u00d6\u00bcO\u00a6h\u0091\u00db\u00bd\u00eb\u00c9\u008b\u008f\u00f5~Zn\u00cdN\u00ba\u00ed\u009bj\u00d6\u00fao\u00ef<\u00fb\u0088|\u00e4\u00f9x+\u00f5 \u00f7",
-   "kind": "doc",
-   "source": "Tanzania Ministry of Health",
-   "source_id": "tz-moh",
-   "tier": 1,
-   "country": "TZ",
-   "category": "health",
-   "segments": [
-    "city",
-    "bush",
-    "beach"
-   ],
-   "first_seen": "2026-10-17T16:00+03:00",
-   "published": null,
-   "verdict": "CONSIDER"
-  },
-  {
-   "score": 74.4,
+   "score": 74.5,
    "components": {
     "tier": 20,
-    "category": 4,
-    "lead": 0.0,
-    "relevance": 24,
-    "freshness": 14.4,
-    "undated": -6,
-    "shock": 18
-   },
-   "keywords": [
-    "outbreak",
-    "ebola"
-   ],
-   "shock_terms": [
-    "outbreak"
-   ],
-   "dedupe_match": null,
-   "dedupe_similarity": 0.12,
-   "id": "9d5890004f1c",
-   "title": "Africa Congo Ebola outbreak spreads to new province bordering Central African Republic Yesterday - 2 min read",
-   "url": "https://www.thecitizen.co.tz/tanzania/news/africa/congo-ebola-outbreak-spreads-to-new-province-bordering-central-african-republic-5634318",
-   "summary": "",
-   "kind": "item",
-   "source": "The Citizen (Tanzania)",
-   "source_id": "np-citizen-tz",
-   "tier": 2,
-   "country": "TZ",
-   "category": "press",
-   "segments": [
-    "city",
-    "bush",
-    "beach"
-   ],
-   "first_seen": "2026-10-17T16:00+03:00",
-   "published": null,
-   "verdict": "CONSIDER"
-  },
-  {
-   "score": 74.2,
-   "components": {
-    "tier": 5,
-    "category": 5,
-    "lead": 2.4,
-    "relevance": 32,
-    "freshness": 19.8,
+    "category": 14,
+    "lead": 8.4,
+    "relevance": 16,
+    "freshness": 6.1,
     "corroborated": 10
    },
    "keywords": [
-    "cancel",
-    "adr",
-    "airport",
+    "route",
+    "airline",
     "flight"
    ],
    "shock_terms": [],
    "dedupe_match": null,
-   "dedupe_similarity": 0.0,
-   "id": "8ee98ac299c7",
-   "title": "Flights Cancelled Swept Europe As Barcelona, Madrid, and More Record 110 Cancellations And 2,180 Delays, Disrupting Travel",
-   "url": "https://www.travelandtourworld.com/news/article/jzfrqlt1rjw0",
-   "summary": "Flights Cancelled Swept Europe As Barcelona, Madrid, and More Record 110 Cancellations And 2,180 Delays, Disrupting Travel Flight cancellations continued across Europe today as over 2,200 cancellations and delays affected Amsterdam, Paris, Madrid, Barcelona, Zurich and more airports The post Flights Cancelled Swept Europe As Barcelona, Madrid, and More Record 110 Cancellations And 2,180 Delays, Di",
+   "dedupe_similarity": 0.11,
+   "id": "a82a2b0691c5",
+   "title": "Hunnu Air Plans Regular Ulaanbaatar \u2013 Shenzhen Service in NW26",
+   "url": "https://www.aeroroutes.com/eng/261016-mrnw26szx",
+   "summary": "Published at 2030PDT 16OCT26 / 0330GMT 17OCT26 Mongolian carrier Hunnu Air starting next week plans to launch regular service on Ulaanbaatar \u2013 Shenzhen route, on board Embraer E195-E1 aircraft. Based on schedule filing, the airline would operate 1 weekly flight from 22OCT26 at the earliest. MR867 UBN2305 \u2013 0305+1SZX E95 3 MR868 SZX0405 \u2013 0805UBN E95 4",
    "kind": "item",
-   "source": "Travel And Tour World",
-   "source_id": "gl-travelandtourworld",
-   "tier": 3,
+   "source": "AeroRoutes schedule filings",
+   "source_id": "aeroroutes",
+   "tier": 2,
    "country": "GLOBAL",
-   "category": "trade",
+   "category": "aviation-tracker",
    "segments": [
     "city",
     "bush",
     "beach"
    ],
-   "first_seen": "2026-10-17T20:53+03:00",
+   "first_seen": "2026-10-17T10:52+03:00",
+   "published": "2026-10-17",
+   "verdict": "CONSIDER"
+  },
+  {
+   "score": 73.6,
+   "components": {
+    "tier": 20,
+    "category": 14,
+    "lead": 8.4,
+    "relevance": 20,
+    "freshness": 1.2,
+    "corroborated": 10
+   },
+   "keywords": [
+    "route",
+    "airline",
+    "flight",
+    "franc"
+   ],
+   "shock_terms": [],
+   "dedupe_match": null,
+   "dedupe_similarity": 0.0,
+   "id": "742e26f5ef7c",
+   "title": "Air France NS27 Rio de Janeiro Service Increases",
+   "url": "https://www.aeroroutes.com/eng/261016-afns27gig",
+   "summary": "Published at 1701PDT 16OCT26 / 0001GMT 17OCT26 Air France during Northern summer 2027 season plans to increase Paris Charles de Gaulle \u2013 Rio de Janeiro Galeao route, where the airline plans to add 2nd daily flight from 01JUN27. Airbus A350-900 aircraft operates this route. AF512 CDG1010 \u2013 1640GIG 359 D AF442 CDG1325 \u2013 1945GIG 359 D AF511 GIG1855 \u2013 1055+1CDG 359 D AF443 GIG2200 \u2013 1415+1CDG 359 D Th",
+   "kind": "item",
+   "source": "AeroRoutes schedule filings",
+   "source_id": "aeroroutes",
+   "tier": 2,
+   "country": "GLOBAL",
+   "category": "aviation-tracker",
+   "segments": [
+    "city",
+    "bush",
+    "beach"
+   ],
+   "first_seen": "2026-10-17T06:25+03:00",
    "published": "2026-10-17",
    "verdict": "CONSIDER"
   },
@@ -1184,6 +1111,43 @@
    ],
    "first_seen": "2026-10-16T16:59+03:00",
    "published": null,
+   "verdict": "CONSIDER"
+  },
+  {
+   "score": 73.5,
+   "components": {
+    "tier": 20,
+    "category": 4,
+    "lead": 2.4,
+    "relevance": 20,
+    "freshness": 17.1,
+    "corroborated": 10
+   },
+   "keywords": [
+    "ebola",
+    "tourism",
+    "tourist"
+   ],
+   "shock_terms": [],
+   "dedupe_match": null,
+   "dedupe_similarity": 0.33,
+   "id": "5165b01e5843",
+   "title": "Ebola, insurance row and El Ni\u00f1o cloud Kenya\u2019s 5.5m tourist ambition as festive season approaches",
+   "url": "https://nation.africa/kenya/news/ebola-insurance-row-and-el-ni%C3%B1o-cloud-kenya-s-5-5m-tourist-ambition-as-festive-season-approaches-5635816",
+   "summary": "The tourism industry isgearing up for the festive season.",
+   "kind": "item",
+   "source": "Nation Africa: Kenya business",
+   "source_id": "ke-nation-business",
+   "tier": 2,
+   "country": "KE",
+   "category": "press",
+   "segments": [
+    "city",
+    "bush",
+    "beach"
+   ],
+   "first_seen": "2026-10-17T20:53+03:00",
+   "published": "2026-10-17",
    "verdict": "CONSIDER"
   },
   {
@@ -1258,13 +1222,156 @@
    "verdict": "CONSIDER"
   },
   {
-   "score": 72.3,
+   "score": 72.1,
+   "components": {
+    "tier": 40,
+    "category": 24,
+    "lead": 2.4,
+    "relevance": 0,
+    "freshness": 11.7,
+    "undated": -6
+   },
+   "keywords": [],
+   "shock_terms": [],
+   "dedupe_match": null,
+   "dedupe_similarity": 0.25,
+   "id": "74c1e8338f53",
+   "title": "Posted on: October 17th, 2026",
+   "url": "https://www.moh.go.tz",
+   "summary": "",
+   "kind": "item",
+   "source": "Tanzania Ministry of Health",
+   "source_id": "tz-moh",
+   "tier": 1,
+   "country": "TZ",
+   "category": "health",
+   "segments": [
+    "city",
+    "bush",
+    "beach"
+   ],
+   "first_seen": "2026-10-17T16:00+03:00",
+   "published": null,
+   "verdict": "CONSIDER"
+  },
+  {
+   "score": 72.1,
+   "components": {
+    "tier": 40,
+    "category": 24,
+    "lead": 2.4,
+    "relevance": 0,
+    "freshness": 11.7,
+    "undated": -6
+   },
+   "keywords": [],
+   "shock_terms": [],
+   "dedupe_match": null,
+   "dedupe_similarity": 0.25,
+   "id": "f4636db157b9",
+   "title": "MWONGOZO WA USHAURI KWA WASAFIRI NA. 18 WA TAR...",
+   "url": "https://www.moh.go.tz/storage/app/uploads/public/6ad/341/c35/6ad341c35c481998786984.pdf",
+   "summary": "\u0004\u00a5\u00a4\u00ac\u00cdoT\u00fe\u00cd\u00b6R\u00a1Zi\u000e\u0010\u0013\u0081\u00eei\u0002W\u00d0\u00e2\u00fe k\u001a\u0092j\u00a3O\u00b1\u0091\u00e3\u008d# \u00c5N &\u00b5\u00fc \u00a8\u00ea\u0013\u00e9\u00d7 \u00a8K\u00e7,,\u00029\u00eb\u00ee r\u008fzu QZ\u00feP\u008b+\u0015wQ\u00d3<\u000f\u00c0Wy\u0005\u0095\u00ae\u0089\u00a4\u0098\u00e0l\u00aa\u00a9wl\u00e4\u00b15 \u0004\u00c5q <v\u0017\u00b6\u00c0 \u0001\u0013\u009a\u00ed\u00cdy\u00a7\u008c\u00ae\u008d\u00de\u00af!\u008b\u0091\b \u008fS\u00de\u00a2\u00a3\u00d0\\\u00ca/S\u0006\u00d2\u00ca[\u00eb\u0098a\u0088\u0080e\u0090\u0001\u00e8\u0005v\u00b7\u0016\u001a \u009f\u0086\u00e4\u00b6'\u00cd\u0098I\u00ce:\u0004\u00aek\u00c3w\u00a9c|/ \u00daY\u0004y\u0005@\u00fb\u00a4\u00f7\u00ae\u00ca z\u00c7U\u008exbb\u0092\u00b2\u00b0\b\u00e3\u0005\u0086*b\u0095\u0099\u00acT\u00aeps\u00eaQC\u0088\u00ad\u0097\u00cf\u0097\u00b63\u0080\u007f\u00adDY\u00c4r\u00ff\u0000h\u00b6\u00e2\u00d8>Z\u00b0\u00c8\u0019\u00fd*\u00cc\u0016\u008b\u00bd\u00a4 \u00b1 <\u00b0\u0015\u0018E\u00c3 \u00e6\u00b9T\u00a3\u00cd\u00aa;\u00a3\u0080Q\u00bbL\u00ce\u009a\u00ed\u00dd<\u00b8\u0094E\u0017\u00f7\u0017\u00bf\u00d4\u00f55\u00d5x\u0012q\u0081\u00d7\u0006\u00807h\u00ac\u00dd;[\u00b3\u00d4\u00b4\u00a7\u00d4m\u008b\u0098\u0013vK.\u000f x\u00aa\u00d3N\u0082u\u00a6\u00f3\u0092\u00d0 \u0002\u00c9\u0086o \u00ca*\u009e\u0097\u00a8\u00dbj\u00b6\u0011^\u00da3\u0018\u00a4\u0019\u001b\u0086 R\u00d7\u00fcK\u00a7x}\u00a1\u001a\u0083H<\u00ec\u00ed\u00d8\u009b\u00a8\u0003f\u008a\u00c4\u00d6\u00bcO\u00a6h\u0091\u00db\u00bd\u00eb\u00c9\u008b\u008f\u00f5~Zn\u00cdN\u00ba\u00ed\u009bj\u00d6\u00fao\u00ef<\u00fb\u0088|\u00e4\u00f9x+\u00f5 \u00f7",
+   "kind": "doc",
+   "source": "Tanzania Ministry of Health",
+   "source_id": "tz-moh",
+   "tier": 1,
+   "country": "TZ",
+   "category": "health",
+   "segments": [
+    "city",
+    "bush",
+    "beach"
+   ],
+   "first_seen": "2026-10-17T16:00+03:00",
+   "published": null,
+   "verdict": "CONSIDER"
+  },
+  {
+   "score": 71.7,
+   "components": {
+    "tier": 20,
+    "category": 4,
+    "lead": 0.0,
+    "relevance": 24,
+    "freshness": 11.7,
+    "undated": -6,
+    "shock": 18
+   },
+   "keywords": [
+    "outbreak",
+    "ebola"
+   ],
+   "shock_terms": [
+    "outbreak"
+   ],
+   "dedupe_match": null,
+   "dedupe_similarity": 0.12,
+   "id": "9d5890004f1c",
+   "title": "Africa Congo Ebola outbreak spreads to new province bordering Central African Republic Yesterday - 2 min read",
+   "url": "https://www.thecitizen.co.tz/tanzania/news/africa/congo-ebola-outbreak-spreads-to-new-province-bordering-central-african-republic-5634318",
+   "summary": "",
+   "kind": "item",
+   "source": "The Citizen (Tanzania)",
+   "source_id": "np-citizen-tz",
+   "tier": 2,
+   "country": "TZ",
+   "category": "press",
+   "segments": [
+    "city",
+    "bush",
+    "beach"
+   ],
+   "first_seen": "2026-10-17T16:00+03:00",
+   "published": null,
+   "verdict": "CONSIDER"
+  },
+  {
+   "score": 71.5,
+   "components": {
+    "tier": 5,
+    "category": 5,
+    "lead": 2.4,
+    "relevance": 32,
+    "freshness": 17.1,
+    "corroborated": 10
+   },
+   "keywords": [
+    "cancel",
+    "adr",
+    "airport",
+    "flight"
+   ],
+   "shock_terms": [],
+   "dedupe_match": null,
+   "dedupe_similarity": 0.0,
+   "id": "8ee98ac299c7",
+   "title": "Flights Cancelled Swept Europe As Barcelona, Madrid, and More Record 110 Cancellations And 2,180 Delays, Disrupting Travel",
+   "url": "https://www.travelandtourworld.com/news/article/jzfrqlt1rjw0",
+   "summary": "Flights Cancelled Swept Europe As Barcelona, Madrid, and More Record 110 Cancellations And 2,180 Delays, Disrupting Travel Flight cancellations continued across Europe today as over 2,200 cancellations and delays affected Amsterdam, Paris, Madrid, Barcelona, Zurich and more airports The post Flights Cancelled Swept Europe As Barcelona, Madrid, and More Record 110 Cancellations And 2,180 Delays, Di",
+   "kind": "item",
+   "source": "Travel And Tour World",
+   "source_id": "gl-travelandtourworld",
+   "tier": 3,
+   "country": "GLOBAL",
+   "category": "trade",
+   "segments": [
+    "city",
+    "bush",
+    "beach"
+   ],
+   "first_seen": "2026-10-17T20:53+03:00",
+   "published": "2026-10-17",
+   "verdict": "CONSIDER"
+  },
+  {
+   "score": 69.6,
    "components": {
     "tier": 20,
     "category": 14,
     "lead": 8.4,
     "relevance": 16,
-    "freshness": 3.9,
+    "freshness": 1.2,
     "corroborated": 10
    },
    "keywords": [
@@ -1292,16 +1399,16 @@
    ],
    "first_seen": "2026-10-17T06:25+03:00",
    "published": "2026-10-17",
-   "verdict": "CONSIDER"
+   "verdict": "weak"
   },
   {
-   "score": 72.2,
+   "score": 69.5,
    "components": {
     "tier": 40,
     "category": 7,
     "lead": 16.8,
     "relevance": 0,
-    "freshness": 14.4,
+    "freshness": 11.7,
     "undated": -6
    },
    "keywords": [],
@@ -1324,109 +1431,6 @@
     "beach"
    ],
    "first_seen": "2026-10-17T15:59+03:00",
-   "published": null,
-   "verdict": "CONSIDER"
-  },
-  {
-   "score": 70.8,
-   "components": {
-    "tier": 20,
-    "category": 4,
-    "lead": 2.4,
-    "relevance": 20,
-    "freshness": 14.4,
-    "corroborated": 10
-   },
-   "keywords": [
-    "vat",
-    "eta",
-    "rooms"
-   ],
-   "shock_terms": [],
-   "dedupe_match": null,
-   "dedupe_similarity": 0.14,
-   "id": "ef073612ac85",
-   "title": "Carrefour upgrades Namuwongo children\u2019s home",
-   "url": "https://www.independent.co.ug/carrefour-upgrades-namuwongo-childrens-home",
-   "summary": "Kampala, Uganda | THE INDEPENDENT | Retailer Carrefour Uganda has renovated and handed over a community facility used by In Need Home, a non-governmental organisation supporting vulnerable children and families in Namuwongo, Kampala, in a project funded through contributions from shoppers, it said on Oct.16 in a media release. The refurbishment covered classrooms, offices and \u2026 The post Carrefour ",
-   "kind": "item",
-   "source": "The Independent (Uganda)",
-   "source_id": "ug-independent",
-   "tier": 2,
-   "country": "UG",
-   "category": "press",
-   "segments": [
-    "city",
-    "bush",
-    "beach"
-   ],
-   "first_seen": "2026-10-17T16:00+03:00",
-   "published": "2026-10-17",
-   "verdict": "CONSIDER"
-  },
-  {
-   "score": 69.6,
-   "components": {
-    "tier": 40,
-    "category": 10,
-    "lead": 16.8,
-    "relevance": 0,
-    "freshness": 8.8,
-    "undated": -6
-   },
-   "keywords": [],
-   "shock_terms": [],
-   "dedupe_match": null,
-   "dedupe_similarity": 0.4,
-   "id": "4200348d188f",
-   "title": "MPs call for children\u2019s inclusion in regional climate decisions Friday, 16 October 2026",
-   "url": "https://www.parliament.go.ug/news/4672/mps-call-childrens-inclusion-regional-climate-decisions",
-   "summary": "",
-   "kind": "item",
-   "source": "Parliament of Uganda",
-   "source_id": "ug-parliament",
-   "tier": 1,
-   "country": "UG",
-   "category": "legislature",
-   "segments": [
-    "city",
-    "bush",
-    "beach"
-   ],
-   "first_seen": "2026-10-17T10:51+03:00",
-   "published": null,
-   "verdict": "weak"
-  },
-  {
-   "score": 69.6,
-   "components": {
-    "tier": 40,
-    "category": 10,
-    "lead": 16.8,
-    "relevance": 0,
-    "freshness": 8.8,
-    "undated": -6
-   },
-   "keywords": [],
-   "shock_terms": [],
-   "dedupe_match": null,
-   "dedupe_similarity": 0.4,
-   "id": "cb9aef2a33a8",
-   "title": "COSASE Flags Delays in Human Rights Cases Despite Shs28.95 bn UHRC Funding Friday, 16 October 2026",
-   "url": "https://www.parliament.go.ug/news/4671/cosase-flags-delays-human-rights-cases-despite-shs2895-bn-uhrc-funding",
-   "summary": "",
-   "kind": "item",
-   "source": "Parliament of Uganda",
-   "source_id": "ug-parliament",
-   "tier": 1,
-   "country": "UG",
-   "category": "legislature",
-   "segments": [
-    "city",
-    "bush",
-    "beach"
-   ],
-   "first_seen": "2026-10-17T10:51+03:00",
    "published": null,
    "verdict": "weak"
   }
