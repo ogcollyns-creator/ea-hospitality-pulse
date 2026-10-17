@@ -1,18 +1,58 @@
 {
- "generated": "2026-10-17T11:19:36+03:00",
- "slot": "midday",
- "window_start": 1792209600,
- "observations_in_window": 148,
+ "generated": "2026-10-17T16:02:49+03:00",
+ "slot": "evening",
+ "window_start": 1792152000,
+ "observations_in_window": 934,
  "deduped_against": 23,
  "candidates": [
   {
-   "score": 117.3,
+   "score": 121.2,
+   "components": {
+    "tier": 40,
+    "category": 32,
+    "lead": 1.2,
+    "relevance": 36,
+    "freshness": 0.0,
+    "undated": -6,
+    "shock": 18
+   },
+   "keywords": [
+    "advisory",
+    "terror",
+    "kidnap"
+   ],
+   "shock_terms": [
+    "attack"
+   ],
+   "dedupe_match": null,
+   "dedupe_similarity": 0.4,
+   "id": "6b09c15b8103",
+   "title": "Tanzania - Level 2: Exercise Increased Caution",
+   "url": "https://travel.state.gov/content/tsg_aem/us/en/home/international-travel/travel-advisories/destination.tza.html",
+   "summary": "Exercise increased caution in Tanzania due to crime, terrorism, health, unrest , arbitrary enforcement of laws , and targeting gay and lesbian individuals . Some areas have increased risk. Read the entire Travel Advisory. Crime Violent crime happens in Tanzania. It includes assault, sexual assault, robberies, mugging, and express kidnapping. Crime can happen at any time. It is more common in crowd",
+   "kind": "item",
+   "source": "US State Dept travel advisories (EA feed)",
+   "source_id": "adv-us-ea",
+   "tier": 1,
+   "country": "REG",
+   "category": "advisory",
+   "segments": [
+    "city",
+    "bush",
+    "beach"
+   ],
+   "first_seen": "2026-10-16T16:59+03:00",
+   "published": null,
+   "verdict": "LEAD CANDIDATE \u2014 tier-1 shock language"
+  },
+  {
+   "score": 112.1,
    "components": {
     "tier": 40,
     "category": 32,
     "lead": 12.0,
     "relevance": 8,
-    "freshness": 19.3,
+    "freshness": 14.1,
     "corroborated": 10,
     "page_change": -4
    },
@@ -41,13 +81,46 @@
    "verdict": "OPEN THIS \u2014 tier-1 advisory page moved; content not auto-parsed, read it manually"
   },
   {
-   "score": 100.9,
+   "score": 101.3,
    "components": {
     "tier": 40,
     "category": 32,
     "lead": 3.6,
     "relevance": 0,
-    "freshness": 19.3,
+    "freshness": 19.7,
+    "corroborated": 10,
+    "page_change": -4
+   },
+   "keywords": [],
+   "shock_terms": [],
+   "dedupe_match": null,
+   "dedupe_similarity": 0.12,
+   "id": "8a8c5c5f8008",
+   "title": "[page changed] Federal Register \u2014 public inspection (HHS/CDC), pre-publication",
+   "url": "https://www.federalregister.gov/api/v1/public-inspection-documents/current.json",
+   "summary": "{\"count\":150,\"results\":[{\"agencies\":[{\"raw_name\":\"Justice Department\",\"name\":\"Justice Department\",\"id\":268,\"url\":\"https://www.federalregister.gov/agencies/justice-department\",\"json_url\":\"https://www.federalregister.gov/api/v1/agencies/268\",\"parent_id\":null,\"slug\":\"justice-department\"}],\"agency_letters\":[],\"agency_names\":[\"Justice Department\"],\"docket_numbers\":[],\"document_number\":\"2026-21187\",\"edi",
+   "kind": "page-change",
+   "source": "Federal Register \u2014 public inspection (HHS/CDC), pre-publication",
+   "source_id": "us-fedreg-pubinspect-hhs",
+   "tier": 1,
+   "country": "REG",
+   "category": "advisory",
+   "segments": [
+    "city",
+    "bush"
+   ],
+   "first_seen": "2026-10-17T16:00+03:00",
+   "published": "2026-10-16",
+   "verdict": "OPEN THIS \u2014 tier-1 advisory page moved; content not auto-parsed, read it manually"
+  },
+  {
+   "score": 95.7,
+   "components": {
+    "tier": 40,
+    "category": 32,
+    "lead": 3.6,
+    "relevance": 0,
+    "freshness": 14.1,
     "corroborated": 10,
     "page_change": -4
    },
@@ -74,13 +147,184 @@
    "verdict": "OPEN THIS \u2014 tier-1 advisory page moved; content not auto-parsed, read it manually"
   },
   {
-   "score": 64.9,
+   "score": 90.8,
+   "components": {
+    "tier": 40,
+    "category": 32,
+    "lead": 3.6,
+    "relevance": 0,
+    "freshness": 9.2,
+    "corroborated": 10,
+    "page_change": -4
+   },
+   "keywords": [],
+   "shock_terms": [],
+   "dedupe_match": null,
+   "dedupe_similarity": 0.12,
+   "id": "55d472f22d55",
+   "title": "[page changed] Federal Register \u2014 public inspection (HHS/CDC), pre-publication",
+   "url": "https://www.federalregister.gov/api/v1/public-inspection-documents/current.json",
+   "summary": "{\"count\":150,\"results\":[{\"agencies\":[{\"raw_name\":\"Justice Department\",\"name\":\"Justice Department\",\"id\":268,\"url\":\"https://www.federalregister.gov/agencies/justice-department\",\"json_url\":\"https://www.federalregister.gov/api/v1/agencies/268\",\"parent_id\":null,\"slug\":\"justice-department\"}],\"agency_letters\":[],\"agency_names\":[\"Justice Department\"],\"docket_numbers\":[],\"document_number\":\"2026-21187\",\"edi",
+   "kind": "page-change",
+   "source": "Federal Register \u2014 public inspection (HHS/CDC), pre-publication",
+   "source_id": "us-fedreg-pubinspect-hhs",
+   "tier": 1,
+   "country": "REG",
+   "category": "advisory",
+   "segments": [
+    "city",
+    "bush"
+   ],
+   "first_seen": "2026-10-17T06:24+03:00",
+   "published": "2026-10-16",
+   "verdict": "OPEN THIS \u2014 tier-1 advisory page moved; content not auto-parsed, read it manually"
+  },
+  {
+   "score": 87.6,
+   "components": {
+    "tier": 40,
+    "category": 24,
+    "lead": 3.6,
+    "relevance": 12,
+    "freshness": 0.0,
+    "undated": -6,
+    "shock": 18,
+    "page_change": -4
+   },
+   "keywords": [
+    "outbreak"
+   ],
+   "shock_terms": [
+    "outbreak"
+   ],
+   "dedupe_match": null,
+   "dedupe_similarity": 0.12,
+   "id": "c3703fbf4368",
+   "title": "[page changed] WHO Disease Outbreak News",
+   "url": "https://www.who.int/rss-feeds/news-english.xml",
+   "summary": "\ufeff News (English) - World Health Organization https://www.who.int/ Corporate news releases, statements, and notes for media issued by the World Health Organization. urn:uuid:0ce5fa04-9ac3-465f-89cf-15a8e5a748dd https://www.who.int/news/item/25-02-2026-who-director-general-visits-jordan-to-recognize-strong-collaboration-on-health-system-delivery--emergency-relief-and-advancing-mental-health WHO Dire",
+   "kind": "page-change",
+   "source": "WHO Disease Outbreak News",
+   "source_id": "who-don",
+   "tier": 1,
+   "country": "GLOBAL",
+   "category": "health",
+   "segments": [
+    "city",
+    "bush",
+    "beach"
+   ],
+   "first_seen": "2026-10-16T16:59+03:00",
+   "published": null,
+   "verdict": "OPEN THIS \u2014 tier-1 health page moved; content not auto-parsed, read it manually"
+  },
+  {
+   "score": 85.5,
+   "components": {
+    "tier": 40,
+    "category": 32,
+    "lead": 3.6,
+    "relevance": 0,
+    "freshness": 3.9,
+    "corroborated": 10,
+    "page_change": -4
+   },
+   "keywords": [],
+   "shock_terms": [],
+   "dedupe_match": null,
+   "dedupe_similarity": 0.12,
+   "id": "6ade3e85fb9d",
+   "title": "[page changed] Federal Register \u2014 public inspection (HHS/CDC), pre-publication",
+   "url": "https://www.federalregister.gov/api/v1/public-inspection-documents/current.json",
+   "summary": "{\"count\":150,\"results\":[{\"agencies\":[{\"raw_name\":\"Justice Department\",\"name\":\"Justice Department\",\"id\":268,\"url\":\"https://www.federalregister.gov/agencies/justice-department\",\"json_url\":\"https://www.federalregister.gov/api/v1/agencies/268\",\"parent_id\":null,\"slug\":\"justice-department\"}],\"agency_letters\":[],\"agency_names\":[\"Justice Department\"],\"docket_numbers\":[],\"document_number\":\"2026-21187\",\"edi",
+   "kind": "page-change",
+   "source": "Federal Register \u2014 public inspection (HHS/CDC), pre-publication",
+   "source_id": "us-fedreg-pubinspect-hhs",
+   "tier": 1,
+   "country": "REG",
+   "category": "advisory",
+   "segments": [
+    "city",
+    "bush"
+   ],
+   "first_seen": "2026-10-17T01:38+03:00",
+   "published": "2026-10-16",
+   "verdict": "OPEN THIS \u2014 tier-1 advisory page moved; content not auto-parsed, read it manually"
+  },
+  {
+   "score": 81.6,
+   "components": {
+    "tier": 40,
+    "category": 32,
+    "lead": 3.6,
+    "relevance": 0,
+    "freshness": 0.0,
+    "corroborated": 10,
+    "page_change": -4
+   },
+   "keywords": [],
+   "shock_terms": [],
+   "dedupe_match": null,
+   "dedupe_similarity": 0.12,
+   "id": "d53df26414a5",
+   "title": "[page changed] Federal Register \u2014 public inspection (HHS/CDC), pre-publication",
+   "url": "https://www.federalregister.gov/api/v1/public-inspection-documents/current.json",
+   "summary": "{\"count\":147,\"results\":[{\"agencies\":[{\"raw_name\":\"Justice Department\",\"name\":\"Justice Department\",\"id\":268,\"url\":\"https://www.federalregister.gov/agencies/justice-department\",\"json_url\":\"https://www.federalregister.gov/api/v1/agencies/268\",\"parent_id\":null,\"slug\":\"justice-department\"}],\"agency_letters\":[],\"agency_names\":[\"Justice Department\"],\"docket_numbers\":[],\"document_number\":\"2026-21187\",\"edi",
+   "kind": "page-change",
+   "source": "Federal Register \u2014 public inspection (HHS/CDC), pre-publication",
+   "source_id": "us-fedreg-pubinspect-hhs",
+   "tier": 1,
+   "country": "REG",
+   "category": "advisory",
+   "segments": [
+    "city",
+    "bush"
+   ],
+   "first_seen": "2026-10-16T21:51+03:00",
+   "published": "2026-10-16",
+   "verdict": "OPEN THIS \u2014 tier-1 advisory page moved; content not auto-parsed, read it manually"
+  },
+  {
+   "score": 81.6,
+   "components": {
+    "tier": 40,
+    "category": 32,
+    "lead": 3.6,
+    "relevance": 0,
+    "freshness": 0.0,
+    "corroborated": 10,
+    "page_change": -4
+   },
+   "keywords": [],
+   "shock_terms": [],
+   "dedupe_match": null,
+   "dedupe_similarity": 0.12,
+   "id": "3acec6a3435e",
+   "title": "[page changed] Federal Register \u2014 public inspection (HHS/CDC), pre-publication",
+   "url": "https://www.federalregister.gov/api/v1/public-inspection-documents/current.json",
+   "summary": "{\"count\":144,\"results\":[{\"agencies\":[{\"raw_name\":\"Justice Department\",\"name\":\"Justice Department\",\"id\":268,\"url\":\"https://www.federalregister.gov/agencies/justice-department\",\"json_url\":\"https://www.federalregister.gov/api/v1/agencies/268\",\"parent_id\":null,\"slug\":\"justice-department\"}],\"agency_letters\":[],\"agency_names\":[\"Justice Department\"],\"docket_numbers\":[],\"document_number\":\"2026-21187\",\"edi",
+   "kind": "page-change",
+   "source": "Federal Register \u2014 public inspection (HHS/CDC), pre-publication",
+   "source_id": "us-fedreg-pubinspect-hhs",
+   "tier": 1,
+   "country": "REG",
+   "category": "advisory",
+   "segments": [
+    "city",
+    "bush"
+   ],
+   "first_seen": "2026-10-16T16:59+03:00",
+   "published": "2026-10-16",
+   "verdict": "OPEN THIS \u2014 tier-1 advisory page moved; content not auto-parsed, read it manually"
+  },
+  {
+   "score": 59.7,
    "components": {
     "tier": 40,
     "category": 12,
     "lead": 3.6,
     "relevance": 0,
-    "freshness": 19.3,
+    "freshness": 14.1,
     "undated": -6,
     "page_change": -4
    },
@@ -108,13 +352,79 @@
    "verdict": "OPEN THIS \u2014 tier-1 airline page moved; content not auto-parsed, read it manually"
   },
   {
-   "score": 97.7,
+   "score": 45.6,
+   "components": {
+    "tier": 40,
+    "category": 12,
+    "lead": 3.6,
+    "relevance": 0,
+    "freshness": 0.0,
+    "undated": -6,
+    "page_change": -4
+   },
+   "keywords": [],
+   "shock_terms": [],
+   "dedupe_match": null,
+   "dedupe_similarity": 0.0,
+   "id": "b7f74ab1b31e",
+   "title": "[page changed] Airlink news",
+   "url": "https://www.flyairlink.com/",
+   "summary": "Request unsuccessful. Incapsula incident ID: 1024000102185083797-65076979463881351",
+   "kind": "page-change",
+   "source": "Airlink news",
+   "source_id": "air-airlink",
+   "tier": 1,
+   "country": "REG",
+   "category": "airline",
+   "segments": [
+    "city",
+    "bush",
+    "beach"
+   ],
+   "first_seen": "2026-10-16T21:51+03:00",
+   "published": null,
+   "verdict": "OPEN THIS \u2014 tier-1 airline page moved; content not auto-parsed, read it manually"
+  },
+  {
+   "score": 96.2,
+   "components": {
+    "tier": 40,
+    "category": 24,
+    "lead": 2.4,
+    "relevance": 0,
+    "freshness": 19.8,
+    "corroborated": 10
+   },
+   "keywords": [],
+   "shock_terms": [],
+   "dedupe_match": null,
+   "dedupe_similarity": 0.17,
+   "id": "1e51d25c7554",
+   "title": "SitRep N\u00b0154 /MVE-BDBV/15/10/2026",
+   "url": "https://insp.cd/sitrep-n154-mve-bdbv-15-10-2026",
+   "summary": "",
+   "kind": "item",
+   "source": "INSP RDC \u2014 Ebola daily situation reports (SitRep)",
+   "source_id": "cd-insp-sitrep",
+   "tier": 1,
+   "country": "GLOBAL",
+   "category": "health",
+   "segments": [
+    "City",
+    "Bush"
+   ],
+   "first_seen": "2026-10-17T16:00+03:00",
+   "published": "2026-10-17",
+   "verdict": "STRONG \u2014 tier-1, upstream"
+  },
+  {
+   "score": 92.5,
    "components": {
     "tier": 20,
     "category": 24,
     "lead": 2.4,
     "relevance": 24,
-    "freshness": 19.3,
+    "freshness": 14.1,
     "undated": -6,
     "shock": 18,
     "page_change": -4
@@ -148,13 +458,126 @@
    "verdict": "CONSIDER"
   },
   {
-   "score": 87.7,
+   "score": 92.2,
+   "components": {
+    "tier": 40,
+    "category": 24,
+    "lead": 2.4,
+    "relevance": 12,
+    "freshness": 19.8,
+    "undated": -6
+   },
+   "keywords": [
+    "advisory"
+   ],
+   "shock_terms": [],
+   "dedupe_match": null,
+   "dedupe_similarity": 0.2,
+   "id": "951cabf9f775",
+   "title": "TRAVEL ADVISORY NO.18 OF 17\"h OCTOBER ON THREA...",
+   "url": "https://www.moh.go.tz/storage/app/uploads/public/6ad/342/9a7/6ad3429a7996c028117271.pdf",
+   "summary": "\u00a2\u0080 +\u00cf<W\u00e3;\u00fb=fK 5UD$\u0006b3\u0092k\u00a6\u00f0\u00d6\u00b5.\u00ad\u00a3}\u00aa\u00e6 *Ub\u00ac;1\u00f6\u00a4\u0016v6$\u0095ceN\u00acOAUF\u00a5\u0019\u00b81q\u00ecj \u00e5\u00fci \u00cd\u001b\u00ef\u0095Fd\u00c7;G\u00a5q\u00d1j\u00b7?oK\u0089\u000eU\u00beS\u00e9\u008a\u00e1\u00af\u0089\u0092\u0095\u00a1\u00d0\u00e9\u00a3\u0087u\u0015\u00cfK\u0086U\u0095r8\u00c7Q\u00e9O\u00acX/#S\u00192\u0005f\u00c6\u00c2x\u00dfVuMMl\u00ac\u0084\u00e3\u0003q\u00c0,p\u0001\u00ae\u009au\u00a38s\u00a3\u0007\u0016\u009d\u008d\u001a+\u0098\u00d3|J\u00cf\u00a8\u001bK\u00df,\u0016\u00fb\u00ae\u00bd t\u00e3\u00a5\\&\u00a6\u00ae\u0082p\u0094 \u0098\u00b4QEY!E\u0014P\u0001E\u0014P\u0001E\u0014P\u0001E\u0014P\u0001E\u0014P\u0001E\u0014P\u0001E\u0014P\u0001E\u0014P\u0001E\u0014P\u0001E\u0014P\u0001E\u0014P\u0001E\u0014P\u0001E\u0014P\u0001E\u0014P\u0001E\u0014P\u0001E\u0014P\u0001E\u0014P\u0001E\u0014P\u0001E\u0014P\u0001E\u0014P\u0001E\u0014P\u0001E\u0014P\u0001E\u0014P\u0001E\u0014P\u0001E\u0014P\u0001E\u0014P\u0001E\u0014P\u0001E\u0014P\u0001E\u0014P\u0001E\u0014P\u0001E\u0014P\u0001E\u0014P\u0001E\u0014P\u0001E\u0014P\u0001E\u0014P\u0001E\u0014P\u0001E\u0014P\u0001E\u0014P\u0001E\u0014P\u0001E\u0014P\u0001E\u0014P\u0001E\u0014P\u0001E\u0014P\u0001E\u0014P\u0001E\u0014P\u0001E\u0014P\u0001E\u0014P\u0001E\u0014P\u0001E\u0014P\u0001E\u0014P\u0001E\u0014P\u0001E\u0014P\u0001E\u0014P\u0001E\u0014",
+   "kind": "doc",
+   "source": "Tanzania Ministry of Health",
+   "source_id": "tz-moh",
+   "tier": 1,
+   "country": "TZ",
+   "category": "health",
+   "segments": [
+    "city",
+    "bush",
+    "beach"
+   ],
+   "first_seen": "2026-10-17T16:00+03:00",
+   "published": null,
+   "verdict": "STRONG \u2014 tier-1, upstream"
+  },
+  {
+   "score": 87.6,
+   "components": {
+    "tier": 20,
+    "category": 24,
+    "lead": 2.4,
+    "relevance": 24,
+    "freshness": 9.2,
+    "undated": -6,
+    "shock": 18,
+    "page_change": -4
+   },
+   "keywords": [
+    "ebola",
+    "quarantine"
+   ],
+   "shock_terms": [
+    "confirmed case"
+   ],
+   "dedupe_match": null,
+   "dedupe_similarity": 0.12,
+   "id": "b2b98f5d7d5d",
+   "title": "[page changed] ProMED-mail",
+   "url": "https://promedmail.org/",
+   "summary": "Protecting Global Health, One Alert at a Time | ProMED Previous slide Next slide Protecting Global Health, One Alert at a Time ProMED: Your 24/7 early warning system for emerging infectious diseases worldwide. Subscribe ProMED's Weekly Pulse A snapshot of global health events from the past 7 days Latest Posts on ProMED All Date Title Sat Oct 17 2026 EBOLA DISEASE - KENYA (03): THIRD CONFIRMED CASE",
+   "kind": "page-change",
+   "source": "ProMED-mail",
+   "source_id": "promed",
+   "tier": 2,
+   "country": "GLOBAL",
+   "category": "health",
+   "segments": [
+    "city",
+    "bush",
+    "beach"
+   ],
+   "first_seen": "2026-10-17T06:25+03:00",
+   "published": null,
+   "verdict": "CONSIDER"
+  },
+  {
+   "score": 85.6,
+   "components": {
+    "tier": 20,
+    "category": 14,
+    "lead": 8.4,
+    "relevance": 24,
+    "freshness": 9.2,
+    "corroborated": 10
+   },
+   "keywords": [
+    "route",
+    "frequency",
+    "airline",
+    "flight"
+   ],
+   "shock_terms": [],
+   "dedupe_match": null,
+   "dedupe_similarity": 0.0,
+   "id": "3993e6aa10ae",
+   "title": "Shenzhen Airlines Oct/Nov 2026 Jakarta Service Reductions",
+   "url": "https://www.aeroroutes.com/eng/261016-zhoct26cgk",
+   "summary": "Published at 1830PDT 16OCT26 / 0130GMT 17OCT26 Shenzhen Airlines next week is adding Shenzhen \u2013 Jakarta service as previously planned, although the airline will now operate with reduced frequency in the first 6 weeks. The airline will now operate 3 weekly flights for the period of 19OCT26 \u2013 28NOV26, increasing to 1 daily from 01DEC26. Boeing 737-800 aircraft operates this route. ZH161 SZX2050 \u2013 00",
+   "kind": "item",
+   "source": "AeroRoutes schedule filings",
+   "source_id": "aeroroutes",
+   "tier": 2,
+   "country": "GLOBAL",
+   "category": "aviation-tracker",
+   "segments": [
+    "city",
+    "bush",
+    "beach"
+   ],
+   "first_seen": "2026-10-17T06:25+03:00",
+   "published": "2026-10-17",
+   "verdict": "CONSIDER"
+  },
+  {
+   "score": 82.5,
    "components": {
     "tier": 20,
     "category": 14,
     "lead": 8.4,
     "relevance": 16,
-    "freshness": 19.3,
+    "freshness": 14.1,
     "corroborated": 10
    },
    "keywords": [
@@ -185,13 +608,474 @@
    "verdict": "CONSIDER"
   },
   {
-   "score": 80.1,
+   "score": 81.8,
+   "components": {
+    "tier": 40,
+    "category": 7,
+    "lead": 16.8,
+    "relevance": 8,
+    "freshness": 0.0,
+    "corroborated": 10
+   },
+   "keywords": [
+    "airport"
+   ],
+   "shock_terms": [],
+   "dedupe_match": null,
+   "dedupe_similarity": 0.22,
+   "id": "190264eae973",
+   "title": "Back on the fairway, Aviation Community Golf Day returns",
+   "url": "https://www.kaa.go.ke/back-on-the-fairway-aviation-community-golf-day-returns",
+   "summary": "After a two-year break, KAA's Aviation Community Golf Day returns to bring the people behind Kenya's airports together on the course at Karen Country Club on 30 October 2026.",
+   "kind": "item",
+   "source": "KAA tenders",
+   "source_id": "ke-kaa-tenders",
+   "tier": 1,
+   "country": "KE",
+   "category": "tender",
+   "segments": [
+    "city",
+    "bush",
+    "beach"
+   ],
+   "first_seen": "2026-10-16T21:51+03:00",
+   "published": "2026-10-16",
+   "verdict": "CONSIDER"
+  },
+  {
+   "score": 81.6,
+   "components": {
+    "tier": 20,
+    "category": 14,
+    "lead": 8.4,
+    "relevance": 20,
+    "freshness": 9.2,
+    "corroborated": 10
+   },
+   "keywords": [
+    "route",
+    "airline",
+    "flight",
+    "franc"
+   ],
+   "shock_terms": [],
+   "dedupe_match": null,
+   "dedupe_similarity": 0.0,
+   "id": "742e26f5ef7c",
+   "title": "Air France NS27 Rio de Janeiro Service Increases",
+   "url": "https://www.aeroroutes.com/eng/261016-afns27gig",
+   "summary": "Published at 1701PDT 16OCT26 / 0001GMT 17OCT26 Air France during Northern summer 2027 season plans to increase Paris Charles de Gaulle \u2013 Rio de Janeiro Galeao route, where the airline plans to add 2nd daily flight from 01JUN27. Airbus A350-900 aircraft operates this route. AF512 CDG1010 \u2013 1640GIG 359 D AF442 CDG1325 \u2013 1945GIG 359 D AF511 GIG1855 \u2013 1055+1CDG 359 D AF443 GIG2200 \u2013 1415+1CDG 359 D Th",
+   "kind": "item",
+   "source": "AeroRoutes schedule filings",
+   "source_id": "aeroroutes",
+   "tier": 2,
+   "country": "GLOBAL",
+   "category": "aviation-tracker",
+   "segments": [
+    "city",
+    "bush",
+    "beach"
+   ],
+   "first_seen": "2026-10-17T06:25+03:00",
+   "published": "2026-10-17",
+   "verdict": "CONSIDER"
+  },
+  {
+   "score": 80.3,
+   "components": {
+    "tier": 40,
+    "category": 32,
+    "lead": 2.4,
+    "relevance": 8,
+    "freshness": 3.9,
+    "undated": -6
+   },
+   "keywords": [
+    "election"
+   ],
+   "shock_terms": [],
+   "dedupe_match": null,
+   "dedupe_similarity": 0.0,
+   "id": "49a2778333a4",
+   "title": "Voting in U.S. Elections from Overseas",
+   "url": "https://ke.usembassy.gov/voting-in-u-s-elections-from-overseas-3",
+   "summary": "",
+   "kind": "item",
+   "source": "US Embassy Nairobi \u2014 alerts & messages",
+   "source_id": "ke-usembassy-alerts",
+   "tier": 1,
+   "country": "KE",
+   "category": "advisory",
+   "segments": [
+    "city",
+    "bush",
+    "beach"
+   ],
+   "first_seen": "2026-10-17T01:38+03:00",
+   "published": null,
+   "verdict": "CONSIDER"
+  },
+  {
+   "score": 80.2,
+   "components": {
+    "tier": 40,
+    "category": 24,
+    "lead": 2.4,
+    "relevance": 0,
+    "freshness": 19.8,
+    "undated": -6
+   },
+   "keywords": [],
+   "shock_terms": [],
+   "dedupe_match": null,
+   "dedupe_similarity": 0.25,
+   "id": "74c1e8338f53",
+   "title": "Posted on: October 17th, 2026",
+   "url": "https://www.moh.go.tz",
+   "summary": "",
+   "kind": "item",
+   "source": "Tanzania Ministry of Health",
+   "source_id": "tz-moh",
+   "tier": 1,
+   "country": "TZ",
+   "category": "health",
+   "segments": [
+    "city",
+    "bush",
+    "beach"
+   ],
+   "first_seen": "2026-10-17T16:00+03:00",
+   "published": null,
+   "verdict": "CONSIDER"
+  },
+  {
+   "score": 80.2,
+   "components": {
+    "tier": 40,
+    "category": 24,
+    "lead": 2.4,
+    "relevance": 0,
+    "freshness": 19.8,
+    "undated": -6
+   },
+   "keywords": [],
+   "shock_terms": [],
+   "dedupe_match": null,
+   "dedupe_similarity": 0.25,
+   "id": "f4636db157b9",
+   "title": "MWONGOZO WA USHAURI KWA WASAFIRI NA. 18 WA TAR...",
+   "url": "https://www.moh.go.tz/storage/app/uploads/public/6ad/341/c35/6ad341c35c481998786984.pdf",
+   "summary": "\u0004\u00a5\u00a4\u00ac\u00cdoT\u00fe\u00cd\u00b6R\u00a1Zi\u000e\u0010\u0013\u0081\u00eei\u0002W\u00d0\u00e2\u00fe k\u001a\u0092j\u00a3O\u00b1\u0091\u00e3\u008d# \u00c5N &\u00b5\u00fc \u00a8\u00ea\u0013\u00e9\u00d7 \u00a8K\u00e7,,\u00029\u00eb\u00ee r\u008fzu QZ\u00feP\u008b+\u0015wQ\u00d3<\u000f\u00c0Wy\u0005\u0095\u00ae\u0089\u00a4\u0098\u00e0l\u00aa\u00a9wl\u00e4\u00b15 \u0004\u00c5q <v\u0017\u00b6\u00c0 \u0001\u0013\u009a\u00ed\u00cdy\u00a7\u008c\u00ae\u008d\u00de\u00af!\u008b\u0091\b \u008fS\u00de\u00a2\u00a3\u00d0\\\u00ca/S\u0006\u00d2\u00ca[\u00eb\u0098a\u0088\u0080e\u0090\u0001\u00e8\u0005v\u00b7\u0016\u001a \u009f\u0086\u00e4\u00b6'\u00cd\u0098I\u00ce:\u0004\u00aek\u00c3w\u00a9c|/ \u00daY\u0004y\u0005@\u00fb\u00a4\u00f7\u00ae\u00ca z\u00c7U\u008exbb\u0092\u00b2\u00b0\b\u00e3\u0005\u0086*b\u0095\u0099\u00acT\u00aeps\u00eaQC\u0088\u00ad\u0097\u00cf\u0097\u00b63\u0080\u007f\u00adDY\u00c4r\u00ff\u0000h\u00b6\u00e2\u00d8>Z\u00b0\u00c8\u0019\u00fd*\u00cc\u0016\u008b\u00bd\u00a4 \u00b1 <\u00b0\u0015\u0018E\u00c3 \u00e6\u00b9T\u00a3\u00cd\u00aa;\u00a3\u0080Q\u00bbL\u00ce\u009a\u00ed\u00dd<\u00b8\u0094E\u0017\u00f7\u0017\u00bf\u00d4\u00f55\u00d5x\u0012q\u0081\u00d7\u0006\u00807h\u00ac\u00dd;[\u00b3\u00d4\u00b4\u00a7\u00d4m\u008b\u0098\u0013vK.\u000f x\u00aa\u00d3N\u0082u\u00a6\u00f3\u0092\u00d0 \u0002\u00c9\u0086o \u00ca*\u009e\u0097\u00a8\u00dbj\u00b6\u0011^\u00da3\u0018\u00a4\u0019\u001b\u0086 R\u00d7\u00fcK\u00a7x}\u00a1\u001a\u0083H<\u00ec\u00ed\u00d8\u009b\u00a8\u0003f\u008a\u00c4\u00d6\u00bcO\u00a6h\u0091\u00db\u00bd\u00eb\u00c9\u008b\u008f\u00f5~Zn\u00cdN\u00ba\u00ed\u009bj\u00d6\u00fao\u00ef<\u00fb\u0088|\u00e4\u00f9x+\u00f5 \u00f7",
+   "kind": "doc",
+   "source": "Tanzania Ministry of Health",
+   "source_id": "tz-moh",
+   "tier": 1,
+   "country": "TZ",
+   "category": "health",
+   "segments": [
+    "city",
+    "bush",
+    "beach"
+   ],
+   "first_seen": "2026-10-17T16:00+03:00",
+   "published": null,
+   "verdict": "CONSIDER"
+  },
+  {
+   "score": 79.8,
+   "components": {
+    "tier": 20,
+    "category": 4,
+    "lead": 0.0,
+    "relevance": 24,
+    "freshness": 19.8,
+    "undated": -6,
+    "shock": 18
+   },
+   "keywords": [
+    "outbreak",
+    "ebola"
+   ],
+   "shock_terms": [
+    "outbreak"
+   ],
+   "dedupe_match": null,
+   "dedupe_similarity": 0.12,
+   "id": "9d5890004f1c",
+   "title": "Africa Congo Ebola outbreak spreads to new province bordering Central African Republic Yesterday - 2 min read",
+   "url": "https://www.thecitizen.co.tz/tanzania/news/africa/congo-ebola-outbreak-spreads-to-new-province-bordering-central-african-republic-5634318",
+   "summary": "",
+   "kind": "item",
+   "source": "The Citizen (Tanzania)",
+   "source_id": "np-citizen-tz",
+   "tier": 2,
+   "country": "TZ",
+   "category": "press",
+   "segments": [
+    "city",
+    "bush",
+    "beach"
+   ],
+   "first_seen": "2026-10-17T16:00+03:00",
+   "published": null,
+   "verdict": "CONSIDER"
+  },
+  {
+   "score": 77.6,
+   "components": {
+    "tier": 20,
+    "category": 14,
+    "lead": 8.4,
+    "relevance": 16,
+    "freshness": 9.2,
+    "corroborated": 10
+   },
+   "keywords": [
+    "route",
+    "airline",
+    "flight"
+   ],
+   "shock_terms": [],
+   "dedupe_match": null,
+   "dedupe_similarity": 0.0,
+   "id": "5535f9044330",
+   "title": "Air Transat May 2027 Toronto \u2013 Berlin Service Increases",
+   "url": "https://www.aeroroutes.com/eng/261016-tsmay27ber",
+   "summary": "Published at 1800PDT 16OCT26 / 0100GMT 17OCT26 Air Transat in May 2027 plans to increase Toronto Pearson \u2013 Berlin route, when compared to the schedule in May 2026. When seasonal service commences on 01MAY27 for 2027, the airline operates 2 weekly flights, compared to 1 in May 2026. TS418 YYZ2105 \u2013 1055+1BER 32Q 46 TS419 BER1225 \u2013 1515YYZ 32Q 57 The airline will continue to operate 3 weekly flights",
+   "kind": "item",
+   "source": "AeroRoutes schedule filings",
+   "source_id": "aeroroutes",
+   "tier": 2,
+   "country": "GLOBAL",
+   "category": "aviation-tracker",
+   "segments": [
+    "city",
+    "bush",
+    "beach"
+   ],
+   "first_seen": "2026-10-17T06:25+03:00",
+   "published": "2026-10-17",
+   "verdict": "CONSIDER"
+  },
+  {
+   "score": 77.6,
+   "components": {
+    "tier": 40,
+    "category": 32,
+    "lead": 3.6,
+    "relevance": 8,
+    "freshness": 0.0,
+    "undated": -6
+   },
+   "keywords": [
+    "election"
+   ],
+   "shock_terms": [],
+   "dedupe_match": null,
+   "dedupe_similarity": 0.0,
+   "id": "5fcc79d178c2",
+   "title": "Voting in U.S. Elections from Overseas",
+   "url": "https://ke.usembassy.gov/voting-in-u-s-elections-from-overseas-3",
+   "summary": "",
+   "kind": "item",
+   "source": "US Embassy Nairobi \u2014 travel advisory & alerts",
+   "source_id": "adv-us-embassy-kenya",
+   "tier": 1,
+   "country": "KE",
+   "category": "advisory",
+   "segments": [
+    "city",
+    "bush",
+    "beach"
+   ],
+   "first_seen": "2026-10-16T16:59+03:00",
+   "published": null,
+   "verdict": "CONSIDER"
+  },
+  {
+   "score": 77.5,
+   "components": {
+    "tier": 40,
+    "category": 7,
+    "lead": 16.8,
+    "relevance": 0,
+    "freshness": 19.7,
+    "undated": -6
+   },
+   "keywords": [],
+   "shock_terms": [],
+   "dedupe_match": null,
+   "dedupe_similarity": 0.0,
+   "id": "0872e03202e7",
+   "title": "Provision of Data Centre Infrastructure Suppo...",
+   "url": "https://egpuganda.go.ug/index/409989464_egp",
+   "summary": "",
+   "kind": "item",
+   "source": "Uganda EGP portal",
+   "source_id": "ug-tenders",
+   "tier": 1,
+   "country": "UG",
+   "category": "tender",
+   "segments": [
+    "city",
+    "bush",
+    "beach"
+   ],
+   "first_seen": "2026-10-17T15:59+03:00",
+   "published": null,
+   "verdict": "CONSIDER"
+  },
+  {
+   "score": 77.0,
+   "components": {
+    "tier": 40,
+    "category": 13,
+    "lead": 6.0,
+    "relevance": 8,
+    "freshness": 0.0,
+    "corroborated": 10
+   },
+   "keywords": [
+    "airline",
+    "flight"
+   ],
+   "shock_terms": [],
+   "dedupe_match": null,
+   "dedupe_similarity": 0.11,
+   "id": "611aa505914d",
+   "title": "EXCLUSIVE FLIGHT DISCOUNTS FOR AFRAA 58TH AGA DELEGATES",
+   "url": "https://www.afraa.org/exclusive-flight-discounts-for-afraa-58th-aga-delegates",
+   "summary": "Planning your trip to Libreville, Gabon, for the 58th African Airlines Association (AFRAA) Annual General Assembly (AGA), taking place from 22\u201324 November 2026? Great news! FlyGabon, the official host [\u2026]",
+   "kind": "item",
+   "source": "AFRAA \u2014 monthly African air transport / capacity brief",
+   "source_id": "afraa-capacity",
+   "tier": 1,
+   "country": "REG",
+   "category": "aviation",
+   "segments": [
+    "city",
+    "bush",
+    "beach"
+   ],
+   "first_seen": "2026-10-16T21:51+03:00",
+   "published": "2026-10-16",
+   "verdict": "CONSIDER"
+  },
+  {
+   "score": 76.3,
+   "components": {
+    "tier": 40,
+    "category": 32,
+    "lead": 2.4,
+    "relevance": 4,
+    "freshness": 3.9,
+    "undated": -6
+   },
+   "keywords": [
+    "tourist"
+   ],
+   "shock_terms": [],
+   "dedupe_match": null,
+   "dedupe_similarity": 0.33,
+   "id": "f82f6354426b",
+   "title": "Routine Message: Tourists Entering Kenya Must Purchase Local Health Insurance",
+   "url": "https://ke.usembassy.gov/routine-message-tourists-entering-kenya-must-purchase-local-health-insurance",
+   "summary": "",
+   "kind": "item",
+   "source": "US Embassy Nairobi \u2014 alerts & messages",
+   "source_id": "ke-usembassy-alerts",
+   "tier": 1,
+   "country": "KE",
+   "category": "advisory",
+   "segments": [
+    "city",
+    "bush",
+    "beach"
+   ],
+   "first_seen": "2026-10-17T01:38+03:00",
+   "published": null,
+   "verdict": "CONSIDER"
+  },
+  {
+   "score": 76.2,
+   "components": {
+    "tier": 20,
+    "category": 4,
+    "lead": 2.4,
+    "relevance": 20,
+    "freshness": 19.8,
+    "corroborated": 10
+   },
+   "keywords": [
+    "vat",
+    "eta",
+    "rooms"
+   ],
+   "shock_terms": [],
+   "dedupe_match": null,
+   "dedupe_similarity": 0.14,
+   "id": "ef073612ac85",
+   "title": "Carrefour upgrades Namuwongo children\u2019s home",
+   "url": "https://www.independent.co.ug/carrefour-upgrades-namuwongo-childrens-home",
+   "summary": "Kampala, Uganda | THE INDEPENDENT | Retailer Carrefour Uganda has renovated and handed over a community facility used by In Need Home, a non-governmental organisation supporting vulnerable children and families in Namuwongo, Kampala, in a project funded through contributions from shoppers, it said on Oct.16 in a media release. The refurbishment covered classrooms, offices and \u2026 The post Carrefour ",
+   "kind": "item",
+   "source": "The Independent (Uganda)",
+   "source_id": "ug-independent",
+   "tier": 2,
+   "country": "UG",
+   "category": "press",
+   "segments": [
+    "city",
+    "bush",
+    "beach"
+   ],
+   "first_seen": "2026-10-17T16:00+03:00",
+   "published": "2026-10-17",
+   "verdict": "CONSIDER"
+  },
+  {
+   "score": 75.8,
+   "components": {
+    "tier": 40,
+    "category": 13,
+    "lead": 4.8,
+    "relevance": 8,
+    "freshness": 0.0,
+    "corroborated": 10
+   },
+   "keywords": [
+    "airport"
+   ],
+   "shock_terms": [],
+   "dedupe_match": null,
+   "dedupe_similarity": 0.22,
+   "id": "98b734de7074",
+   "title": "Back on the fairway, Aviation Community Golf Day returns",
+   "url": "https://www.kaa.go.ke/back-on-the-fairway-aviation-community-golf-day-returns",
+   "summary": "After a two-year break, KAA's Aviation Community Golf Day returns to bring the people behind Kenya's airports together on the course at Karen Country Club on 30 October 2026.",
+   "kind": "item",
+   "source": "Kenya Airports Authority",
+   "source_id": "ke-kaa",
+   "tier": 1,
+   "country": "KE",
+   "category": "aviation",
+   "segments": [
+    "city",
+    "bush",
+    "beach"
+   ],
+   "first_seen": "2026-10-16T21:51+03:00",
+   "published": "2026-10-16",
+   "verdict": "CONSIDER"
+  },
+  {
+   "score": 74.9,
    "components": {
     "tier": 40,
     "category": 10,
     "lead": 16.8,
     "relevance": 0,
-    "freshness": 19.3,
+    "freshness": 14.1,
     "undated": -6
    },
    "keywords": [],
@@ -218,13 +1102,13 @@
    "verdict": "CONSIDER"
   },
   {
-   "score": 80.1,
+   "score": 74.9,
    "components": {
     "tier": 40,
     "category": 10,
     "lead": 16.8,
     "relevance": 0,
-    "freshness": 19.3,
+    "freshness": 14.1,
     "undated": -6
    },
    "keywords": [],
@@ -251,13 +1135,13 @@
    "verdict": "CONSIDER"
   },
   {
-   "score": 80.1,
+   "score": 74.9,
    "components": {
     "tier": 40,
     "category": 10,
     "lead": 16.8,
     "relevance": 0,
-    "freshness": 19.3,
+    "freshness": 14.1,
     "undated": -6
    },
    "keywords": [],
@@ -284,13 +1168,13 @@
    "verdict": "CONSIDER"
   },
   {
-   "score": 80.1,
+   "score": 74.9,
    "components": {
     "tier": 40,
     "category": 10,
     "lead": 16.8,
     "relevance": 0,
-    "freshness": 19.3,
+    "freshness": 14.1,
     "undated": -6
    },
    "keywords": [],
@@ -317,13 +1201,13 @@
    "verdict": "CONSIDER"
   },
   {
-   "score": 79.7,
+   "score": 74.5,
    "components": {
     "tier": 20,
     "category": 14,
     "lead": 8.4,
     "relevance": 8,
-    "freshness": 19.3,
+    "freshness": 14.1,
     "corroborated": 10
    },
    "keywords": [
@@ -352,13 +1236,13 @@
    "verdict": "CONSIDER"
   },
   {
-   "score": 79.7,
+   "score": 74.5,
    "components": {
     "tier": 20,
     "category": 14,
     "lead": 8.4,
     "relevance": 8,
-    "freshness": 19.3,
+    "freshness": 14.1,
     "corroborated": 10
    },
    "keywords": [
@@ -387,13 +1271,52 @@
    "verdict": "CONSIDER"
   },
   {
-   "score": 79.3,
+   "score": 74.2,
+   "components": {
+    "tier": 5,
+    "category": 5,
+    "lead": 2.4,
+    "relevance": 32,
+    "freshness": 19.8,
+    "corroborated": 10
+   },
+   "keywords": [
+    "eta",
+    "charter",
+    "airport",
+    "safari",
+    "operator"
+   ],
+   "shock_terms": [],
+   "dedupe_match": null,
+   "dedupe_similarity": 0.2,
+   "id": "ce81179b540e",
+   "title": "Scenic Air Safaris to launch into Tanzania from November 2026",
+   "url": "https://www.tanzaniatourism.uk/post/scenic-air-safaris-to-launch-into-tanzania-from-november-2026",
+   "summary": "Scenic Air Safaris are extending their services into Tanzania, having invested in local operator Safari Plus, which will now fly as Scenic Air Safaris Plus. The new company brings Scenic Air Safaris\u2019 trusted executive air charter service from Kenya to Tanzania, with Cessna Grand Caravans based at Arusha International Airport and flying to safari destinations across the country. It\u2019s the same servi",
+   "kind": "item",
+   "source": "Tanzania Tourism UK (news)",
+   "source_id": "tz-tanzaniatourism-uk",
+   "tier": 3,
+   "country": "TZ",
+   "category": "trade",
+   "segments": [
+    "city",
+    "bush",
+    "beach"
+   ],
+   "first_seen": "2026-10-17T16:00+03:00",
+   "published": "2026-10-17",
+   "verdict": "CONSIDER"
+  },
+  {
+   "score": 74.1,
    "components": {
     "tier": 20,
     "category": 4,
     "lead": 0.0,
     "relevance": 24,
-    "freshness": 19.3,
+    "freshness": 14.1,
     "undated": -6,
     "shock": 18
    },
@@ -426,984 +1349,76 @@
    "verdict": "CONSIDER"
   },
   {
-   "score": 73.7,
+   "score": 73.6,
    "components": {
     "tier": 20,
-    "category": 4,
-    "lead": 2.4,
-    "relevance": 0,
-    "freshness": 19.3,
-    "corroborated": 10,
-    "shock": 18
-   },
-   "keywords": [],
-   "shock_terms": [
-    "attack"
-   ],
-   "dedupe_match": null,
-   "dedupe_similarity": 0.0,
-   "id": "45ccd622a7f1",
-   "title": "Billions, political rivals and stalled projects: Ruto\u2019s North Rift offensive",
-   "url": "https://nation.africa/kenya/counties/trans-nzoia/ruto-takes-natembeya-fight-trans-nzoia-stadium-hospital-pledges-5635432",
-   "summary": "Ruto attacked the management of the Wamalwa Kijana Referral Hospital, claiming local residents...",
-   "kind": "item",
-   "source": "Nation Africa: Kenya business",
-   "source_id": "ke-nation-business",
-   "tier": 2,
-   "country": "KE",
-   "category": "press",
-   "segments": [
-    "city",
-    "bush",
-    "beach"
-   ],
-   "first_seen": "2026-10-17T10:52+03:00",
-   "published": "2026-10-17",
-   "verdict": "CONSIDER"
-  },
-  {
-   "score": 71.7,
-   "components": {
-    "tier": 20,
-    "category": 4,
-    "lead": 2.4,
-    "relevance": 16,
-    "freshness": 19.3,
-    "corroborated": 10
-   },
-   "keywords": [
-    "collapse",
-    "hotel"
-   ],
-   "shock_terms": [],
-   "dedupe_match": null,
-   "dedupe_similarity": 0.14,
-   "id": "7509323f5235",
-   "title": "Four Injured as Nairobi CBD Building Collapses",
-   "url": "https://www.kenyans.co.ke/news/127901-four-injured-nairobi-cbd-building-collapses-during-night-demolition",
-   "summary": "The building that collapsed housed a popular club and is located near the former Hilton Hotel and opposite the Super Metro bus stop.",
-   "kind": "item",
-   "source": "Kenyans.co.ke news",
-   "source_id": "ke-kenyans",
-   "tier": 2,
-   "country": "KE",
-   "category": "press",
-   "segments": [
-    "city",
-    "bush",
-    "beach"
-   ],
-   "first_seen": "2026-10-17T10:52+03:00",
-   "published": "2026-10-17",
-   "verdict": "CONSIDER"
-  },
-  {
-   "score": 67.7,
-   "components": {
-    "tier": 20,
-    "category": 4,
-    "lead": 2.4,
+    "category": 14,
+    "lead": 8.4,
     "relevance": 12,
-    "freshness": 19.3,
+    "freshness": 9.2,
     "corroborated": 10
    },
    "keywords": [
-    "airport",
-    "passenger"
+    "route",
+    "airline"
    ],
    "shock_terms": [],
    "dedupe_match": null,
-   "dedupe_similarity": 0.0,
-   "id": "3a15ab517e79",
-   "title": "KRA Issues Warning on Drone Imports After JKIA Interception",
-   "url": "https://www.kenyans.co.ke/news/127909-kra-seizes-52-phones-and-three-drones-jkia-customs-operation",
-   "summary": "An airport worker and a passenger came under scrutiny at JKIA after customs officers noticed suspicious behaviour during routine checks.",
+   "dedupe_similarity": 0.11,
+   "id": "23d372d3d221",
+   "title": "KLM NS27 Minneapolis Service Reductions",
+   "url": "https://www.aeroroutes.com/eng/261016-klns27msp",
+   "summary": "Published at 2000PDT 16OCT26 / 0300GMT 17OCT26 KLM during Northern summer 2027 season tentatively schedules service reductions on seasonal Amsterdam \u2013 Minneapolis/St. Paul route, compared to summer 2026. From 31MAR27, the airline operates this route 3 times weekly with 787-10, compared to 4 weekly 787-9/-10 in NS26. KL655 AMS1045 \u2013 1225MSP 781 357 KL656 MSP1505 \u2013 0600+1AMS 781 357",
    "kind": "item",
-   "source": "Kenyans.co.ke news",
-   "source_id": "ke-kenyans",
+   "source": "AeroRoutes schedule filings",
+   "source_id": "aeroroutes",
    "tier": 2,
-   "country": "KE",
-   "category": "press",
-   "segments": [
-    "city",
-    "bush",
-    "beach"
-   ],
-   "first_seen": "2026-10-17T10:52+03:00",
-   "published": "2026-10-17",
-   "verdict": "weak"
-  },
-  {
-   "score": 67.7,
-   "components": {
-    "tier": 20,
-    "category": 4,
-    "lead": 2.4,
-    "relevance": 12,
-    "freshness": 19.3,
-    "corroborated": 10
-   },
-   "keywords": [
-    "capacity",
-    "investment"
-   ],
-   "shock_terms": [],
-   "dedupe_match": null,
-   "dedupe_similarity": 0.14,
-   "id": "7f1ab550ab2d",
-   "title": "$4 billion Hoima refinery awaits key agreements",
-   "url": "https://www.independent.co.ug/4-billion-hoima-refinery-awaits-key-agreements",
-   "summary": "Hoima, Uganda | URN | The planned US$4 billion oil refinery at Kabaale in Hoima District is targeting a Final Investment Decision (FID) in February 2027, but key agreements, engineering work, and arrangements for transporting heavy equipment remain outstanding. The planned refinery, with a capacity to process 60,000 barrels of crude oil per day, is \u2026 The post $4 billion Hoima refinery awaits key a",
-   "kind": "item",
-   "source": "The Independent (Uganda)",
-   "source_id": "ug-independent",
-   "tier": 2,
-   "country": "UG",
-   "category": "press",
-   "segments": [
-    "city",
-    "bush",
-    "beach"
-   ],
-   "first_seen": "2026-10-17T10:52+03:00",
-   "published": "2026-10-17",
-   "verdict": "weak"
-  },
-  {
-   "score": 67.7,
-   "components": {
-    "tier": 20,
-    "category": 4,
-    "lead": 2.4,
-    "relevance": 12,
-    "freshness": 19.3,
-    "corroborated": 10
-   },
-   "keywords": [
-    "collapse"
-   ],
-   "shock_terms": [],
-   "dedupe_match": null,
-   "dedupe_similarity": 0.0,
-   "id": "bf75c359f13b",
-   "title": "Photos: Former Club Avenida building on Moi Avenue collapses, four injured",
-   "url": "https://nation.africa/kenya/news/photos-former-club-avenida-building-on-moi-avenue-collapses-5635446",
-   "summary": "Four people sustained injuries and were rushed for medical treatment.",
-   "kind": "item",
-   "source": "Nation Africa: Kenya business",
-   "source_id": "ke-nation-business",
-   "tier": 2,
-   "country": "KE",
-   "category": "press",
-   "segments": [
-    "city",
-    "bush",
-    "beach"
-   ],
-   "first_seen": "2026-10-17T10:52+03:00",
-   "published": "2026-10-17",
-   "verdict": "weak"
-  },
-  {
-   "score": 67.7,
-   "components": {
-    "tier": 20,
-    "category": 4,
-    "lead": 2.4,
-    "relevance": 12,
-    "freshness": 19.3,
-    "corroborated": 10
-   },
-   "keywords": [
-    "cancel"
-   ],
-   "shock_terms": [],
-   "dedupe_match": null,
-   "dedupe_similarity": 0.0,
-   "id": "72969f347f54",
-   "title": "How Nakuru County lost battle to take over War Memorial Hospital",
-   "url": "https://nation.africa/kenya/counties/nakuru/how-nakuru-county-lost-battle-to-take-over-war-memorial-hospital-5635282",
-   "summary": "Court affirms hospital's title to 27 acres, overturns lease cancellation and orders...",
-   "kind": "item",
-   "source": "Nation Africa: Kenya business",
-   "source_id": "ke-nation-business",
-   "tier": 2,
-   "country": "KE",
-   "category": "press",
-   "segments": [
-    "city",
-    "bush",
-    "beach"
-   ],
-   "first_seen": "2026-10-17T10:52+03:00",
-   "published": "2026-10-17",
-   "verdict": "weak"
-  },
-  {
-   "score": 65.3,
-   "components": {
-    "tier": 20,
-    "category": 4,
-    "lead": 0.0,
-    "relevance": 12,
-    "freshness": 19.3,
-    "corroborated": 10
-   },
-   "keywords": [
-    "ebola"
-   ],
-   "shock_terms": [],
-   "dedupe_match": null,
-   "dedupe_similarity": 0.4,
-   "id": "3a2df1297881",
-   "title": "Kenya reports third Ebola case, a close relative of first two patients",
-   "url": "https://www.monitor.co.ug/uganda/news/kenya-reports-third-ebola-case-a-close-relative-of-first-two-patients-5635372",
-   "summary": "Kenyan authorities say they have contacted 127 out of the 130 people known to have come into...",
-   "kind": "item",
-   "source": "Daily Monitor (Uganda)",
-   "source_id": "np-monitor-ug",
-   "tier": 2,
-   "country": "UG",
-   "category": "press",
-   "segments": [
-    "city",
-    "bush",
-    "beach"
-   ],
-   "first_seen": "2026-10-17T10:52+03:00",
-   "published": "2026-10-17",
-   "verdict": "weak"
-  },
-  {
-   "score": 63.7,
-   "components": {
-    "tier": 20,
-    "category": 4,
-    "lead": 2.4,
-    "relevance": 8,
-    "freshness": 19.3,
-    "corroborated": 10
-   },
-   "keywords": [
-    "eta"
-   ],
-   "shock_terms": [],
-   "dedupe_match": null,
-   "dedupe_similarity": 0.12,
-   "id": "dd040d18f2f0",
-   "title": "Ethiopia installs caretaker government in Tigray",
-   "url": "https://nation.africa/kenya/news/africa/ethiopia-installs-caretaker-government-in-tigray-5635362",
-   "summary": "The temporary administration will be in office for six months.",
-   "kind": "item",
-   "source": "Nation Africa: Kenya business",
-   "source_id": "ke-nation-business",
-   "tier": 2,
-   "country": "KE",
-   "category": "press",
-   "segments": [
-    "city",
-    "bush",
-    "beach"
-   ],
-   "first_seen": "2026-10-17T10:52+03:00",
-   "published": "2026-10-17",
-   "verdict": "weak"
-  },
-  {
-   "score": 63.7,
-   "components": {
-    "tier": 20,
-    "category": 4,
-    "lead": 2.4,
-    "relevance": 8,
-    "freshness": 19.3,
-    "corroborated": 10
-   },
-   "keywords": [
-    "eta"
-   ],
-   "shock_terms": [],
-   "dedupe_match": null,
-   "dedupe_similarity": 0.0,
-   "id": "f3ba05449adf",
-   "title": "Trump fires press secretary Katie Zacharia after less than a week",
-   "url": "https://nation.africa/kenya/news/world/trump-fires-press-secretary-katie-zacharia-after-less-than-a-week-5635366",
-   "summary": "Her dismissal followed intense scrutiny over her legal credentials.",
-   "kind": "item",
-   "source": "Nation Africa: Kenya business",
-   "source_id": "ke-nation-business",
-   "tier": 2,
-   "country": "KE",
-   "category": "press",
-   "segments": [
-    "city",
-    "bush",
-    "beach"
-   ],
-   "first_seen": "2026-10-17T10:52+03:00",
-   "published": "2026-10-17",
-   "verdict": "weak"
-  },
-  {
-   "score": 63.3,
-   "components": {
-    "tier": 20,
-    "category": 4,
-    "lead": 0.0,
-    "relevance": 8,
-    "freshness": 19.3,
-    "undated": -6,
-    "shock": 18
-   },
-   "keywords": [
-    "strike"
-   ],
-   "shock_terms": [
-    "strike"
-   ],
-   "dedupe_match": null,
-   "dedupe_similarity": 0.2,
-   "id": "17ef10236e7c",
-   "title": "World Why Gen Al-Burhan is hesitant to confront Cairo after deadly border strike Sudan's Sovereignty Council said Sudanese and Egyptian leaders had been in contact since the October 10 deadly strike.",
-   "url": "https://www.newvision.co.ug/category/world/why-gen-al-burhan-is-hesitant-to-confront-cai-NV_242548_102026",
-   "summary": "",
-   "kind": "item",
-   "source": "New Vision (Uganda)",
-   "source_id": "np-newvision-ug",
-   "tier": 2,
-   "country": "UG",
-   "category": "press",
-   "segments": [
-    "city",
-    "bush",
-    "beach"
-   ],
-   "first_seen": "2026-10-17T10:52+03:00",
-   "published": null,
-   "verdict": "weak"
-  },
-  {
-   "score": 63.3,
-   "components": {
-    "tier": 20,
-    "category": 4,
-    "lead": 0.0,
-    "relevance": 8,
-    "freshness": 19.3,
-    "undated": -6,
-    "shock": 18
-   },
-   "keywords": [
-    "strike"
-   ],
-   "shock_terms": [
-    "strike"
-   ],
-   "dedupe_match": null,
-   "dedupe_similarity": 0.0,
-   "id": "3b0c40782e51",
-   "title": "international Iran\u2019s precision strikes picked apart Gulf infrastructure, blunting US war plans 21 hours ago - 24 min read",
-   "url": "https://www.thecitizen.co.tz/tanzania/news/international/iran-s-precision-strikes-picked-apart-gulf-infrastructure-blunting-us-war-plans-5634282",
-   "summary": "",
-   "kind": "item",
-   "source": "The Citizen (Tanzania)",
-   "source_id": "np-citizen-tz",
-   "tier": 2,
-   "country": "TZ",
-   "category": "press",
-   "segments": [
-    "city",
-    "bush",
-    "beach"
-   ],
-   "first_seen": "2026-10-17T10:52+03:00",
-   "published": null,
-   "verdict": "weak"
-  },
-  {
-   "score": 63.3,
-   "components": {
-    "tier": 20,
-    "category": 4,
-    "lead": 0.0,
-    "relevance": 8,
-    "freshness": 19.3,
-    "undated": -6,
-    "shock": 18
-   },
-   "keywords": [
-    "eta"
-   ],
-   "shock_terms": [
-    "attack"
-   ],
-   "dedupe_match": null,
-   "dedupe_similarity": 0.0,
-   "id": "0624bcf3f03d",
-   "title": "international Yemen's Houthis hit palace in Aden, coalition details attacks on Saudi infrastructure 23 hours ago - 4 min read",
-   "url": "https://www.thecitizen.co.tz/tanzania/news/international/yemen-s-houthis-hit-palace-in-aden-coalition-details-attacks-on-saudi-infrastructure-5634240",
-   "summary": "",
-   "kind": "item",
-   "source": "The Citizen (Tanzania)",
-   "source_id": "np-citizen-tz",
-   "tier": 2,
-   "country": "TZ",
-   "category": "press",
-   "segments": [
-    "city",
-    "bush",
-    "beach"
-   ],
-   "first_seen": "2026-10-17T10:52+03:00",
-   "published": null,
-   "verdict": "weak"
-  },
-  {
-   "score": 61.3,
-   "components": {
-    "tier": 20,
-    "category": 4,
-    "lead": 0.0,
-    "relevance": 8,
-    "freshness": 19.3,
-    "corroborated": 10
-   },
-   "keywords": [
-    "fee"
-   ],
-   "shock_terms": [],
-   "dedupe_match": null,
-   "dedupe_similarity": 0.14,
-   "id": "dea42533a8db",
-   "title": "Inside move to revamp Uganda fishing sector",
-   "url": "https://www.monitor.co.ug/uganda/news/national/inside-move-to-revamp-uganda-fishing-sector-5635396",
-   "summary": "According to Ubos\u2019s census, 59.3 percent of grow-out farms mainly use farm-made feeds. These...",
-   "kind": "item",
-   "source": "Daily Monitor (Uganda)",
-   "source_id": "np-monitor-ug",
-   "tier": 2,
-   "country": "UG",
-   "category": "press",
-   "segments": [
-    "city",
-    "bush",
-    "beach"
-   ],
-   "first_seen": "2026-10-17T10:52+03:00",
-   "published": "2026-10-17",
-   "verdict": "weak"
-  },
-  {
-   "score": 57.7,
-   "components": {
-    "tier": 5,
-    "category": 5,
-    "lead": 2.4,
-    "relevance": 16,
-    "freshness": 19.3,
-    "corroborated": 10
-   },
-   "keywords": [
-    "eta",
-    "camp",
-    "tourism"
-   ],
-   "shock_terms": [],
-   "dedupe_match": null,
-   "dedupe_similarity": 0.29,
-   "id": "6ba930a64fea",
-   "title": "Thailand Expands Shopping Tourism Benefits for Indian and South Asian Travellers",
-   "url": "https://www.travelandtourworld.com/news/article/mf3m1hwnomwu",
-   "summary": "Thailand Expands Shopping Tourism Benefits for Indian and South Asian Travellers Thailand is expanding its ASEAN India+ Shoppers campaign with benefits from more than 50 retail, dining and hospitality partners. Targeting Indian, ASEAN and other South Asian travellers, the programme runs until 28 November 2026. Discover what visitors can access, how participation works and which conditions to check",
-   "kind": "item",
-   "source": "Travel And Tour World",
-   "source_id": "gl-travelandtourworld",
-   "tier": 3,
    "country": "GLOBAL",
-   "category": "trade",
+   "category": "aviation-tracker",
    "segments": [
     "city",
     "bush",
     "beach"
    ],
-   "first_seen": "2026-10-17T10:52+03:00",
+   "first_seen": "2026-10-17T06:25+03:00",
    "published": "2026-10-17",
-   "verdict": "weak"
+   "verdict": "CONSIDER"
   },
   {
-   "score": 57.7,
+   "score": 73.6,
    "components": {
-    "tier": 5,
-    "category": 5,
-    "lead": 2.4,
-    "relevance": 16,
-    "freshness": 19.3,
+    "tier": 20,
+    "category": 14,
+    "lead": 8.4,
+    "relevance": 12,
+    "freshness": 9.2,
     "corroborated": 10
    },
    "keywords": [
-    "advisory",
+    "route",
     "flight"
    ],
    "shock_terms": [],
    "dedupe_match": null,
    "dedupe_similarity": 0.0,
-   "id": "47069f4812ea",
-   "title": "US Issues New Travel Advisory For Mexico As Category 3 Hurricane Trudy Drives Flight Waivers, Port Closures, And Severe Weather Warnings",
-   "url": "https://www.travelandtourworld.com/news/article/dmv3ihk80j5k",
-   "summary": "US Issues New Travel Advisory For Mexico As Category 3 Hurricane Trudy Drives Flight Waivers, Port Closures, And Severe Weather Warnings U.S. Urges Travelers To Avoid Mexico\u2019s Pacific Coast As Category 3 Hurricane Trudy Approaches Amid Flight Disruption. The post US Issues New Travel Advisory For Mexico As Category 3 Hurricane Trudy Drives Flight Waivers, Port Closures, And Severe Weather Warnings",
+   "id": "b39237ce7cb6",
+   "title": "KLM July 2027 Curacao Service Increases",
+   "url": "https://www.aeroroutes.com/eng/261016-kljul27cur",
+   "summary": "Published at 1930PDT 16OCT26 / 0230GMT 17OCT26 KLM during Northern summer 2027 season schedules service increase on Amsterdam \u2013 Curacao route, where additional flights to be added from 07JUL27 to 01AUG27. During this period the Skyteam member operates 9 weekly flights, instead of 7. KL735 AMS1325 \u2013 1710CUR 77W D KL733 AMS1655 \u2013 2035CUR 789 37 KL736 CUR1855 \u2013 1000+1AMS 77W D KL734 CUR2225 \u2013 1340+1A",
    "kind": "item",
-   "source": "Travel And Tour World",
-   "source_id": "gl-travelandtourworld",
-   "tier": 3,
+   "source": "AeroRoutes schedule filings",
+   "source_id": "aeroroutes",
+   "tier": 2,
    "country": "GLOBAL",
-   "category": "trade",
+   "category": "aviation-tracker",
    "segments": [
     "city",
     "bush",
     "beach"
    ],
-   "first_seen": "2026-10-17T10:52+03:00",
+   "first_seen": "2026-10-17T06:25+03:00",
    "published": "2026-10-17",
-   "verdict": "weak"
-  },
-  {
-   "score": 57.7,
-   "components": {
-    "tier": 5,
-    "category": 5,
-    "lead": 2.4,
-    "relevance": 16,
-    "freshness": 19.3,
-    "corroborated": 10
-   },
-   "keywords": [
-    "route",
-    "tourism",
-    "safari"
-   ],
-   "shock_terms": [],
-   "dedupe_match": null,
-   "dedupe_similarity": 0.14,
-   "id": "1861049e300b",
-   "title": "Africa\u2019s Luxury Safari Boom Meets a New Challenge in 2026 as South Africa and More Upgrade Bushfire Protection",
-   "url": "https://www.travelandtourworld.com/news/article/015vl90u9p76",
-   "summary": "Africa\u2019s Luxury Safari Boom Meets a New Challenge in 2026 as South Africa and More Upgrade Bushfire Protection Wildland disaster readiness reshapes African eco-tourism, securing remote safari corridors and alpine routes. The post Africa\u2019s Luxury Safari Boom Meets a New Challenge in 2026 as South Africa and More Upgrade Bushfire Protection appeared first on Travel And Tour World .",
-   "kind": "item",
-   "source": "Travel And Tour World",
-   "source_id": "gl-travelandtourworld",
-   "tier": 3,
-   "country": "GLOBAL",
-   "category": "trade",
-   "segments": [
-    "city",
-    "bush",
-    "beach"
-   ],
-   "first_seen": "2026-10-17T10:52+03:00",
-   "published": "2026-10-17",
-   "verdict": "weak"
-  },
-  {
-   "score": 57.7,
-   "components": {
-    "tier": 5,
-    "category": 5,
-    "lead": 2.4,
-    "relevance": 16,
-    "freshness": 19.3,
-    "corroborated": 10
-   },
-   "keywords": [
-    "route",
-    "airline",
-    "flight"
-   ],
-   "shock_terms": [],
-   "dedupe_match": null,
-   "dedupe_similarity": 0.14,
-   "id": "1327f69da231",
-   "title": "Air Canada And United Airlines Prepare To Add Travel Expansion With New Non-Stop Flights For Summer 2027 Under Expanded Alliance",
-   "url": "https://www.travelandtourworld.com/news/article/iqy7b1gywb3y",
-   "summary": "Air Canada And United Airlines Prepare To Add Travel Expansion With New Non-Stop Flights For Summer 2027 Under Expanded Alliance Proposals to extend their alliance and launch new routes in summer 2027 made by Air Canada & United. The post Air Canada And United Airlines Prepare To Add Travel Expansion With New Non-Stop Flights For Summer 2027 Under Expanded Alliance appeared first on Travel And Tou",
-   "kind": "item",
-   "source": "Travel And Tour World",
-   "source_id": "gl-travelandtourworld",
-   "tier": 3,
-   "country": "GLOBAL",
-   "category": "trade",
-   "segments": [
-    "city",
-    "bush",
-    "beach"
-   ],
-   "first_seen": "2026-10-17T10:52+03:00",
-   "published": "2026-10-17",
-   "verdict": "weak"
-  },
-  {
-   "score": 57.3,
-   "components": {
-    "tier": 20,
-    "category": 4,
-    "lead": 0.0,
-    "relevance": 4,
-    "freshness": 19.3,
-    "corroborated": 10
-   },
-   "keywords": [
-    "tourism"
-   ],
-   "shock_terms": [],
-   "dedupe_match": null,
-   "dedupe_similarity": 0.2,
-   "id": "455e5e5902b5",
-   "title": "Slow leisure growth tests Uganda\u2019s tourism targets",
-   "url": "https://www.monitor.co.ug/uganda/lifestyle/travel/slow-leisure-growth-tests-uganda-s-tourism-targets--5635412",
-   "summary": "Tourism State minister Susan Nakawuki Nsambu said the sector was tasked with increasing foreign...",
-   "kind": "item",
-   "source": "Daily Monitor (Uganda)",
-   "source_id": "np-monitor-ug",
-   "tier": 2,
-   "country": "UG",
-   "category": "press",
-   "segments": [
-    "city",
-    "bush",
-    "beach"
-   ],
-   "first_seen": "2026-10-17T10:52+03:00",
-   "published": "2026-10-17",
-   "verdict": "weak"
-  },
-  {
-   "score": 55.7,
-   "components": {
-    "tier": 20,
-    "category": 4,
-    "lead": 2.4,
-    "relevance": 0,
-    "freshness": 19.3,
-    "corroborated": 10
-   },
-   "keywords": [],
-   "shock_terms": [],
-   "dedupe_match": null,
-   "dedupe_similarity": 0.17,
-   "id": "7a4e985c9f62",
-   "title": "Kenya Met Predicts Rains and Thunderstorms in 5 Regions",
-   "url": "https://www.kenyans.co.ke/news/127908-kenya-met-predicts-high-temperatures-29degc-nairobi-rains-and-thunderstorms-5-regions",
-   "summary": "Over the last week strong winds and rains have caused chaos in Kisumu and other counties, even as the country braces for El Ni\u00f1o.",
-   "kind": "item",
-   "source": "Kenyans.co.ke news",
-   "source_id": "ke-kenyans",
-   "tier": 2,
-   "country": "KE",
-   "category": "press",
-   "segments": [
-    "city",
-    "bush",
-    "beach"
-   ],
-   "first_seen": "2026-10-17T10:52+03:00",
-   "published": "2026-10-17",
-   "verdict": "weak"
-  },
-  {
-   "score": 55.7,
-   "components": {
-    "tier": 20,
-    "category": 4,
-    "lead": 2.4,
-    "relevance": 0,
-    "freshness": 19.3,
-    "corroborated": 10
-   },
-   "keywords": [],
-   "shock_terms": [],
-   "dedupe_match": null,
-   "dedupe_similarity": 0.14,
-   "id": "f24ad364b546",
-   "title": "Section of Govt Workers Targeted in Fresh Salary Probe",
-   "url": "https://www.kenyans.co.ke/news/127907-govt-probes-health-police-and-prisons-payroll-systems",
-   "summary": "CS Geoffrey Ruku announced new administrative measures against some public servants as investigations into suspected payroll irregularities continue.",
-   "kind": "item",
-   "source": "Kenyans.co.ke news",
-   "source_id": "ke-kenyans",
-   "tier": 2,
-   "country": "KE",
-   "category": "press",
-   "segments": [
-    "city",
-    "bush",
-    "beach"
-   ],
-   "first_seen": "2026-10-17T10:52+03:00",
-   "published": "2026-10-17",
-   "verdict": "weak"
-  },
-  {
-   "score": 55.7,
-   "components": {
-    "tier": 20,
-    "category": 4,
-    "lead": 2.4,
-    "relevance": 0,
-    "freshness": 19.3,
-    "corroborated": 10
-   },
-   "keywords": [],
-   "shock_terms": [],
-   "dedupe_match": null,
-   "dedupe_similarity": 0.12,
-   "id": "d35c2eb8d4cf",
-   "title": "Inside Plans for a New Public Park in Nairobi",
-   "url": "https://www.kenyans.co.ke/news/127906-inside-plan-turn-parklands-kibagare-river-corridor-public-park",
-   "summary": "Some residents of Parklands have been issued with notices to move, with some buildings built on riparian land set to be brought down.",
-   "kind": "item",
-   "source": "Kenyans.co.ke news",
-   "source_id": "ke-kenyans",
-   "tier": 2,
-   "country": "KE",
-   "category": "press",
-   "segments": [
-    "city",
-    "bush",
-    "beach"
-   ],
-   "first_seen": "2026-10-17T10:52+03:00",
-   "published": "2026-10-17",
-   "verdict": "weak"
-  },
-  {
-   "score": 55.7,
-   "components": {
-    "tier": 20,
-    "category": 4,
-    "lead": 2.4,
-    "relevance": 0,
-    "freshness": 19.3,
-    "corroborated": 10
-   },
-   "keywords": [],
-   "shock_terms": [],
-   "dedupe_match": null,
-   "dedupe_similarity": 0.0,
-   "id": "f1088a6603e7",
-   "title": "Two Police Officers Injured After Chaos Erupts During Sifuna-led Rally",
-   "url": "https://www.kenyans.co.ke/news/127904-two-police-officers-injured-vehicles-damaged-chaos-erupts-trans-nzoia",
-   "summary": "Political tensions flared in Trans Nzoia after Sifuna and Natembeya were blocked from speaking at a senior police officer\u2019s funeral.",
-   "kind": "item",
-   "source": "Kenyans.co.ke news",
-   "source_id": "ke-kenyans",
-   "tier": 2,
-   "country": "KE",
-   "category": "press",
-   "segments": [
-    "city",
-    "bush",
-    "beach"
-   ],
-   "first_seen": "2026-10-17T10:52+03:00",
-   "published": "2026-10-17",
-   "verdict": "weak"
-  },
-  {
-   "score": 55.7,
-   "components": {
-    "tier": 20,
-    "category": 4,
-    "lead": 2.4,
-    "relevance": 0,
-    "freshness": 19.3,
-    "corroborated": 10
-   },
-   "keywords": [],
-   "shock_terms": [],
-   "dedupe_match": null,
-   "dedupe_similarity": 0.0,
-   "id": "2cd6cf6e21f4",
-   "title": "Four Dead, Scores Injured in Multiple Road Accidents",
-   "url": "https://www.kenyans.co.ke/news/127903-four-dead-scores-injured-multiple-road-accidents",
-   "summary": "At least 21 people have been reported injured even as pressure mounts on NPS, NTSA and KeNHA to find solutions to reduce accidents.",
-   "kind": "item",
-   "source": "Kenyans.co.ke news",
-   "source_id": "ke-kenyans",
-   "tier": 2,
-   "country": "KE",
-   "category": "press",
-   "segments": [
-    "city",
-    "bush",
-    "beach"
-   ],
-   "first_seen": "2026-10-17T10:52+03:00",
-   "published": "2026-10-17",
-   "verdict": "weak"
-  },
-  {
-   "score": 55.7,
-   "components": {
-    "tier": 20,
-    "category": 4,
-    "lead": 2.4,
-    "relevance": 0,
-    "freshness": 19.3,
-    "corroborated": 10
-   },
-   "keywords": [],
-   "shock_terms": [],
-   "dedupe_match": null,
-   "dedupe_similarity": 0.14,
-   "id": "f94cd40090f6",
-   "title": "Relaxed GROW project loan requirements widens access for entrepreneurs",
-   "url": "https://www.independent.co.ug/relaxed-grow-project-loan-requirements-widens-access-for-entrepreneurs",
-   "summary": "Arua, Uganda | URN | Women entrepreneurs in West Nile are expected to have improved access to loans under the government\u2019s Generating Growth Opportunities and Productivity for Women Entrepreneurs (GROW) Project. This comes after authorities relaxed some lending conditions that had prevented potential beneficiaries from accessing the funds. The changes include reducing the minimum loan \u2026 The post R",
-   "kind": "item",
-   "source": "The Independent (Uganda)",
-   "source_id": "ug-independent",
-   "tier": 2,
-   "country": "UG",
-   "category": "press",
-   "segments": [
-    "city",
-    "bush",
-    "beach"
-   ],
-   "first_seen": "2026-10-17T10:52+03:00",
-   "published": "2026-10-16",
-   "verdict": "weak"
-  },
-  {
-   "score": 55.7,
-   "components": {
-    "tier": 20,
-    "category": 4,
-    "lead": 2.4,
-    "relevance": 0,
-    "freshness": 19.3,
-    "corroborated": 10
-   },
-   "keywords": [],
-   "shock_terms": [],
-   "dedupe_match": null,
-   "dedupe_similarity": 0.12,
-   "id": "edc2b5a8d2b3",
-   "title": "Miraa juice crackdown: Sh1m fine, jail for misuse of Kebs quality mark",
-   "url": "https://nation.africa/kenya/business/miraa-juice-crackdown-sh1m-fine-jail-for-misuse-of-kebs-quality-mark-5635410",
-   "summary": "Members of the public are advised that khat-infused beverages are not currently certified by Kebs.",
-   "kind": "item",
-   "source": "Nation Africa: Kenya business",
-   "source_id": "ke-nation-business",
-   "tier": 2,
-   "country": "KE",
-   "category": "press",
-   "segments": [
-    "city",
-    "bush",
-    "beach"
-   ],
-   "first_seen": "2026-10-17T10:52+03:00",
-   "published": "2026-10-17",
-   "verdict": "weak"
-  },
-  {
-   "score": 55.7,
-   "components": {
-    "tier": 20,
-    "category": 4,
-    "lead": 2.4,
-    "relevance": 0,
-    "freshness": 19.3,
-    "corroborated": 10
-   },
-   "keywords": [],
-   "shock_terms": [],
-   "dedupe_match": null,
-   "dedupe_similarity": 0.0,
-   "id": "1b17b3270a4e",
-   "title": "Trump mocks popularity of the name Mohammad",
-   "url": "https://nation.africa/kenya/news/world/trump-mocks-popularity-of-the-name-mohammad--5635364",
-   "summary": "The incident comes amid heightened Islamophobia concerns and an escalation in rhetoric...",
-   "kind": "item",
-   "source": "Nation Africa: Kenya business",
-   "source_id": "ke-nation-business",
-   "tier": 2,
-   "country": "KE",
-   "category": "press",
-   "segments": [
-    "city",
-    "bush",
-    "beach"
-   ],
-   "first_seen": "2026-10-17T10:52+03:00",
-   "published": "2026-10-17",
-   "verdict": "weak"
-  },
-  {
-   "score": 55.7,
-   "components": {
-    "tier": 20,
-    "category": 4,
-    "lead": 2.4,
-    "relevance": 0,
-    "freshness": 19.3,
-    "corroborated": 10
-   },
-   "keywords": [],
-   "shock_terms": [],
-   "dedupe_match": null,
-   "dedupe_similarity": 0.25,
-   "id": "80d753d7e277",
-   "title": "Kenya\u2019s economy grows 5.1pc despite Iran war price shocks",
-   "url": "https://nation.africa/kenya/business/kenya-s-economy-grows-5-1pc-despite-iran-war-price-shocks-5635400",
-   "summary": "The economy shrugged off the Iran war and below-average rainfall to grow 5.1 per cent in the...",
-   "kind": "item",
-   "source": "Nation Africa: Kenya business",
-   "source_id": "ke-nation-business",
-   "tier": 2,
-   "country": "KE",
-   "category": "press",
-   "segments": [
-    "city",
-    "bush",
-    "beach"
-   ],
-   "first_seen": "2026-10-17T10:52+03:00",
-   "published": "2026-10-17",
-   "verdict": "weak"
-  },
-  {
-   "score": 55.7,
-   "components": {
-    "tier": 20,
-    "category": 4,
-    "lead": 2.4,
-    "relevance": 0,
-    "freshness": 19.3,
-    "corroborated": 10
-   },
-   "keywords": [],
-   "shock_terms": [],
-   "dedupe_match": null,
-   "dedupe_similarity": 0.0,
-   "id": "464825eba8eb",
-   "title": "Joseph Kabila's rebrand of M23: Will it boost the rebellion in eastern Congo?",
-   "url": "https://nation.africa/kenya/news/africa/joseph-kabila-s-rebrand-of-m23-rebellion-in-eastern-congo--5635360",
-   "summary": "FRN group announced it will assume all previous peace obligations and commitments.",
-   "kind": "item",
-   "source": "Nation Africa: Kenya business",
-   "source_id": "ke-nation-business",
-   "tier": 2,
-   "country": "KE",
-   "category": "press",
-   "segments": [
-    "city",
-    "bush",
-    "beach"
-   ],
-   "first_seen": "2026-10-17T10:52+03:00",
-   "published": "2026-10-17",
-   "verdict": "weak"
+   "verdict": "CONSIDER"
   }
  ]
 }
