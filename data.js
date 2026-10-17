@@ -1,5 +1,14 @@
 window.EDITIONS = [
  {
+  "id": "pulse-2026-10-17-evening",
+  "date": "2026-10-17",
+  "dateDisplay": "Saturday, 17 October 2026",
+  "edition": "Evening Wrap",
+  "editionKey": "evening",
+  "summary": "Kenya confirmed a third Ebola case on 16 October, a 65-year-old woman already in quarantine since 6 October",
+  "bodyHtml": "<p><strong>Kenya confirmed a third Ebola case on 16 October, a 65-year-old woman already in quarantine since 6 October</strong><br><em>🌆 Evening Wrap · Sat 17 Oct 2026</em></p>\n<p>━━━━━━━━━<br><span class=\"item-head\">1️⃣ Kenya confirmed a third Ebola case on 16 October, a 65-year-old woman already in quarantine since 6 October</span></p>\n<p>She is a close relative of the first two patients and tested positive at the National Virology Reference Laboratory and KEMRI. All three cases sit in one family; one has died. Of 130 listed contacts, 127 (97.7%) are traced and in quarantine, three are still being traced. The Ministry sees no community transmission and warns more cases among quarantined contacts are possible <strong>(Ministry of Health via The Star, 16 Oct; WHO AFRO, 16 Oct)</strong>.<br>Our inference: cases are surfacing inside quarantine, which is the system working, but contacts are watched for 21 days from their own last exposure, so new exposures can push the end date into November.<br><span class=\"sowhat\">🎯 So what: keep staff briefings to the Ministry&#x27;s wording and hold cancellation policies steady; no restriction on travel is in force.</span><br><span class=\"tagline\">🏷 City, Bush, Beach | Kenya | Confirmed | impact:risk</span></p>\n<p><span class=\"item-head\">2️⃣ Kenya&#x27;s National Assembly passed a bill on 14 October keeping 8% VAT on fuel for 90 days</span></p>\n<p>The Tax Laws (Amendment) Bill 2026 lets the Treasury CS add three more months, up to six in total. This settles the question we left open on 14 Oct. Senate and presidential assent are not confirmed <strong>(Kenya Times, 15 Oct, citing the National Assembly vote)</strong>.<br><span class=\"sowhat\">🎯 So what: budget diesel and transfers off the current EPRA ceilings, not a return to 16% VAT before mid-December.</span><br><span class=\"tagline\">🏷 City, Bush, Beach | Kenya | Reported | impact:margin</span></p>\n<p><span class=\"item-head\">3️⃣ WHO advised on 16 October against closing borders or restricting trade over Kenya&#x27;s cases</span></p>\n<p>Kenya reports no restriction on travel, trade or gatherings, with health checks at points of entry. The Star (16 Oct) adds a digital form and QR code for travellers from 10 high-risk countries and enhanced screening of their aircraft <strong>(WHO AFRO, The Star, 16 Oct)</strong>. We saw no new advisory for Kenya after the third case.<br><span class=\"sowhat\">🎯 So what: expect more questions at check-in from inbound agents on the 10-country form, not fewer bookings by order.</span><br><span class=\"tagline\">🏷 City, Bush, Beach | Kenya | Confirmed | impact:watch</span></p>\n<p><strong>🏗 DEAL FLOW:</strong> No verified EA deal flow in the window. Mirima Kibale Lodge, Uganda, ran on 16 Oct.</p>\n<p><strong>📻 ALSO TONIGHT</strong> No other verified in-window items cleared the recency gate.</p>\n<p><strong>⏳ CATCHING UP</strong><br>🇰🇪 voco opened a suites hotel at JKIA, Nairobi (5 Oct) and Jambojet resumed Nairobi–Entebbe after six years (5 Oct) <strong>(travelnews.africa headlines; primaries not opened)</strong>.<br>🇺🇬 Uganda dropped its yellow fever certificate requirement for entry (ATTA, 2 Oct; Ministry primary not seen).<br>🇰🇪 Hemingways Nairobi became Kenya&#x27;s first Leading Hotels of the World member (ATTA, 7 Oct).</p>\n<p><strong>📅 WEEK AHEAD</strong> EAC Single Tourist Visa study 20 Oct; Kenya contact monitoring runs 21 days.</p>\n<p><strong>🔍 BLIND SPOTS</strong> UK (rechecked 7 Oct only), Canadian, German, French, Australian advisories, Africa CDC, Uganda dashboard and all gazettes were web-scanned, not opened. Hotelsafrica blocks automated reading.</p>\n<p>🔗 This edition on the web: <a href=\"https://eahospitalitypulse.com/editions/pulse-2026-10-17-evening.html\" rel=\"noopener\">eahospitalitypulse.com/editions/pulse-2026-10-17-evenin…</a></p>"
+ },
+ {
   "id": "pulse-2026-10-16-evening",
   "date": "2026-10-16",
   "dateDisplay": "Friday, 16 October 2026",
@@ -1225,6 +1234,69 @@ window.EDITIONS = [
  }
 ];
 window.INSIGHTS = [
+ {
+  "headline": "Kenya confirmed a third Ebola case on 16 October, a 65-year-old woman already in quarantine since 6 October",
+  "body": "She is a close relative of the first two patients and tested positive at the National Virology Reference Laboratory and KEMRI. All three cases sit in one family; one has died. Of 130 listed contacts, 127 (97.7%) are traced and in quarantine, three are still being traced. The Ministry sees no community transmission and warns more cases among quarantined contacts are possible *(Ministry of Health via The Star, 16 Oct; WHO AFRO, 16 Oct)*. Our inference: cases are surfacing inside quarantine, which is the system working, but contacts are watched for 21 days from their own last exposure, so new exposures can push the end date into November.",
+  "sowhat": "🎯 So what: keep staff briefings to the Ministry's wording and hold cancellation policies steady; no restriction on travel is in force.",
+  "segments": [
+   "city",
+   "bush",
+   "beach"
+  ],
+  "countries": "Kenya",
+  "confidence": "Confirmed",
+  "impact": "risk",
+  "impactClass": "risk",
+  "intensity": 3,
+  "impactSet": "author",
+  "source": "pulse-2026-10-17-evening",
+  "date": "2026-10-17",
+  "dateDisplay": "Saturday, 17 October 2026",
+  "edition": "Evening Wrap",
+  "editionKey": "evening"
+ },
+ {
+  "headline": "Kenya's National Assembly passed a bill on 14 October keeping 8% VAT on fuel for 90 days",
+  "body": "The Tax Laws (Amendment) Bill 2026 lets the Treasury CS add three more months, up to six in total. This settles the question we left open on 14 Oct. Senate and presidential assent are not confirmed *(Kenya Times, 15 Oct, citing the National Assembly vote)*.",
+  "sowhat": "🎯 So what: budget diesel and transfers off the current EPRA ceilings, not a return to 16% VAT before mid-December.",
+  "segments": [
+   "city",
+   "bush",
+   "beach"
+  ],
+  "countries": "Kenya",
+  "confidence": "Reported",
+  "impact": "-margin",
+  "impactClass": "margin",
+  "intensity": 2,
+  "impactSet": "author",
+  "source": "pulse-2026-10-17-evening",
+  "date": "2026-10-17",
+  "dateDisplay": "Saturday, 17 October 2026",
+  "edition": "Evening Wrap",
+  "editionKey": "evening"
+ },
+ {
+  "headline": "WHO advised on 16 October against closing borders or restricting trade over Kenya's cases",
+  "body": "Kenya reports no restriction on travel, trade or gatherings, with health checks at points of entry. The Star (16 Oct) adds a digital form and QR code for travellers from 10 high-risk countries and enhanced screening of their aircraft *(WHO AFRO, The Star, 16 Oct)*. We saw no new advisory for Kenya after the third case.",
+  "sowhat": "🎯 So what: expect more questions at check-in from inbound agents on the 10-country form, not fewer bookings by order.",
+  "segments": [
+   "city",
+   "bush",
+   "beach"
+  ],
+  "countries": "Kenya",
+  "confidence": "Confirmed",
+  "impact": "watch",
+  "impactClass": "watch",
+  "intensity": 3,
+  "impactSet": "author",
+  "source": "pulse-2026-10-17-evening",
+  "date": "2026-10-17",
+  "dateDisplay": "Saturday, 17 October 2026",
+  "edition": "Evening Wrap",
+  "editionKey": "evening"
+ },
  {
   "headline": "Kenya confirmed a second Ebola case on 14 October, a 39-year-old relative already in quarantine",
   "body": "Symptoms began 13 Oct; two labs confirmed it. Kenya now has two cases and one death. The first patient had 128 listed contacts: 113 traced, 108 in quarantine, 5 outside Kenya, 15 still being traced. The Ministry sees no wider community spread and no restriction on travel, trade or gatherings *(Ministry of Health via Pulse Kenya and Medical Daily, 14–15 Oct)*. Our inference: a case inside quarantine is the system working, but contacts are watched for 21 days, so the count can move into November.",
@@ -7008,4 +7080,4 @@ window.INSIGHTS = [
   "editionKey": "evening"
  }
 ];
-window.BUILT_AT = "2026-10-17 14:08";
+window.BUILT_AT = "2026-10-17 14:20";
