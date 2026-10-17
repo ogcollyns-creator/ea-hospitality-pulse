@@ -1,5 +1,14 @@
 window.GUIDES = [
  {
+  "slug": "vendor-breach-east-africa-hotel-data-liability",
+  "title": "The breach happened at the software company. Under three East African laws, it is the hotel that has to report it.",
+  "description": "A French hotel software publisher lost roughly 135GB of guest records from about 1,500 establishments between 27 September and 5 October, and the fraud calls began the next day carrying real booking references. The East African exposure is not French, it is structural. Kenya gives a hotel 72 hours from the moment it finds out and gives its software vendor 48 hours to tell it, Tanzania gives no number at all, and Uganda says immediately. Hospitality is on Kenya's register-regardless-of-size list, and the sector's instinctive answer to a data penalty so far has been a sign at the door.",
+  "category": "Big Read",
+  "updated": "2026-10-17",
+  "readMins": 8,
+  "image": "img/editions/vendor-breach-east-africa-hotel-data-liability.jpg"
+ },
+ {
   "slug": "gulf-surplus-capacity-east-africa-hub-bet",
   "title": "The Gulf added a third daily flight to Nairobi while its own hub was losing a third of its passengers. That is not confidence, it is surplus.",
   "description": "Dubai International carried 31% fewer passengers in the first half of 2026 and Middle East arrivals fell 22%, yet Emirates put a third daily service into Nairobi on 1 July and signed a marketing agreement with the Kenya Tourism Board in September. Kenya is measuring the deal by Middle Eastern visitors, a market worth 20,480 arrivals. The thing it has actually bought is a transfer desk, and the price is good because the aircraft has nowhere better to be.",
