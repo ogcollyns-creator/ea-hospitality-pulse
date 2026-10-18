@@ -1,5 +1,14 @@
 window.EDITIONS = [
  {
+  "id": "foresight-2026-10-18",
+  "date": "2026-10-18",
+  "dateDisplay": "Sunday, 18 October 2026",
+  "edition": "Sunday Foresight",
+  "editionKey": "foresight",
+  "summary": "RWANDA'S PRICES ARE RISING FOUR TIMES AS FAST AS TANZANIA'S",
+  "bodyHtml": "<p><strong>Rwanda won Formula One for the 2030s in the week its prices ran 17.2% above last year&#x27;s, and East Africa&#x27;s 2027 cost base now spans 4.3% to 17.2%</strong><br><em>🏨 EA Hospitality Pulse · Sunday Foresight · Sun 18 Oct 2026</em></p>\n<p>This week the region sold the next decade. Formula One signed Rwanda for ten years, circuit due early next decade <strong>(13 Oct)</strong>. EAC ministers adopted a 2027–2036 marketing strategy <strong>(15 Oct)</strong>. The same week&#x27;s statistics describe 2027: urban inflation of 17.2% in Rwanda <strong>(NISR, September)</strong>, 6.8% in Kenya <strong>(KNBS, 30 Sep)</strong> and 4.3% in Tanzania <strong>(NBS, 8 Oct)</strong>.</p>\n<p><strong>What everyone is missing:</strong> nobody sets the cost bases side by side. Rates are quoted in dollars; payroll, power, fuel and food are paid in local currency. A 13-point inflation gap is a margin gap on the same US$ rate, unless the exchange rate offsets it. We hold no Rwandan franc data to say it does <strong>(our inference)</strong>.<br>━━━━━━━━━<br>THE WEEK&#x27;S SIGNALS</p>\n<p><span class=\"item-head\">1️⃣ RWANDA&#x27;S PRICES ARE RISING FOUR TIMES AS FAST AS TANZANIA&#x27;S</span><br>Rwanda&#x27;s urban CPI was 17.2% in September, up from 15.7%; national CPI was 20.0%. Restaurants and hotels rose 18.9% on the year and the energy index 45% <strong>(NISR, reported 12 Oct)</strong>. Tanzania held at 4.3% <strong>(NBS, 8 Oct)</strong>. Uganda&#x27;s latest found is 4.1% for August <strong>(4 Sep)</strong>.<br><span class=\"sowhat\">🎯 So what: put a cost-review date in 2027 Rwanda contracts; price Tanzania as the low-cost base.</span><br><span class=\"tagline\">🏷 City, Bush | 🇷🇼 🇹🇿 🇰🇪 🇺🇬 | Confirmed (figures) / Inference (margin read) | impact:margin</span></p>\n<p><span class=\"item-head\">2️⃣ KENYA&#x27;S DIESEL COST ROSE WHILE ITS POWER CHARGE EASED</span><br>Diesel is KSh227.76 a litre to 14 Nov, up KSh9.90 <strong>(EPRA, 15 Oct)</strong>. Fuel VAT stays 8% for 90 days <strong>(Assembly, 14 Oct)</strong>. October&#x27;s power add-ons are about KSh4.10 a unit, from KSh4.16 <strong>(EPRA, 9 Oct)</strong>.<br><span class=\"sowhat\">🎯 So what: budget transfers on diesel, not power, until the 14 Nov review.</span><br><span class=\"tagline\">🏷 All segments | 🇰🇪 | Confirmed (figures) | impact:margin</span></p>\n<p><span class=\"item-head\">3️⃣ THREE DECADE-LONG PROMISES, ONE UNDECIDED VISA</span><br>F1 gave no start year <strong>(13 Oct)</strong>. The EAC single-visa study is due 20 Oct, comments by 30 Nov <strong>(EAC council, 15 Oct)</strong>. Marriott&#x27;s 18-suite Serengeti camp is dated: November.<br><span class=\"sowhat\">🎯 So what: underwrite 2027 on dated demand only; treat F1 as 2030s upside.</span><br><span class=\"tagline\">🏷 City, Bush | 🇷🇼 🇰🇪 🇺🇬 🇹🇿 | Confirmed (announcements) / Inference (weighting) | impact:watch</span></p>\n<p><span class=\"item-head\">4️⃣ KENYA&#x27;S THIRD EBOLA CASE CAME FROM A QUARANTINED CONTACT</span><br>A 65-year-old woman in quarantine tested positive; 127 of 130 contacts are traced and Kenya says it is open with no travel restrictions <strong>(MoH, 16 Oct)</strong>.<br><span class=\"sowhat\">🎯 So what: tell guests the checks (digital forms, screening) before arrival.</span><br><span class=\"tagline\">🏷 City, Bush | 🇰🇪 🇺🇬 | Confirmed (statements) | impact:risk</span></p>\n<p><span class=\"item-head\">5️⃣ TANZANIA&#x27;S ADVISORY EASED ON TOP OF A RECORD ZANZIBAR AUGUST</span><br>The US cut Tanzania to Level 2 on 16 Oct. Zanzibar took 124,481 visitors in August, up 18%, with bed occupancy estimated at 92.9% <strong>(OCGS, 8 Sep; an older release)</strong>.<br><span class=\"sowhat\">🎯 So what: reopen US quotes for Tanzania; hold Zanzibar peak rates.</span><br><span class=\"tagline\">🏷 Bush, Beach | 🇹🇿 | Confirmed (figures) | impact:demand</span><br>━━━━━━━━━<br>🔎 Blind spots: German and French Kenya advice, UK pages for Uganda, Tanzania and Rwanda, four gazettes, Rwanda&#x27;s and Zanzibar&#x27;s health ministries, and KNBS August arrivals were not confirmed.</p>\n<p><span class=\"meta-line\">📡 30/90-DAY DEMAND CALENDAR</span><br>🇪🇦 20 Oct — EAC visa study due. Don&#x27;t sell it.<br>🇹🇿 9 Nov — Tanzania October CPI <strong>(our 11 Oct edition)</strong>. Check the gap.<br>🇰🇪 14 Nov — EPRA review; diesel cap runs to here.<br>🇷🇼 about 10 Nov — Rwanda October CPI <strong>(release pattern)</strong>. Review contracts.<br>🇪🇦 30 Nov — EAC visa comments due.</p>\n<p>If costs run at three speeds, why does one rate card cover them?</p>\n<p>🔗 This edition on the web: <a href=\"https://eahospitalitypulse.com/editions/foresight-2026-10-18.html\" rel=\"noopener\">eahospitalitypulse.com/editions/foresight-2026-10-18.html</a><br>💼 This week&#x27;s Big Read on LinkedIn: <a href=\"https://www.linkedin.com/company/ea-hospitality-pulse/\" rel=\"noopener\">linkedin.com/company/ea-hospitality-pulse/</a><br>— EA Hospitality Pulse | Daily intelligence for city, bush &amp; beach properties</p>"
+ },
+ {
   "id": "pulse-2026-10-17-evening",
   "date": "2026-10-17",
   "dateDisplay": "Saturday, 17 October 2026",
@@ -1234,6 +1243,107 @@ window.EDITIONS = [
  }
 ];
 window.INSIGHTS = [
+ {
+  "headline": "RWANDA'S PRICES ARE RISING FOUR TIMES AS FAST AS TANZANIA'S",
+  "body": "Rwanda's urban CPI was 17.2% in September, up from 15.7%; national CPI was 20.0%. Restaurants and hotels rose 18.9% on the year and the energy index 45% *(NISR, reported 12 Oct)*. Tanzania held at 4.3% *(NBS, 8 Oct)*. Uganda's latest found is 4.1% for August *(4 Sep)*.",
+  "sowhat": "🎯 So what: put a cost-review date in 2027 Rwanda contracts; price Tanzania as the low-cost base.",
+  "segments": [
+   "city",
+   "bush"
+  ],
+  "countries": "🇷🇼 🇹🇿 🇰🇪 🇺🇬",
+  "confidence": "Confirmed (figures) / Inference (margin read)",
+  "impact": "-margin",
+  "impactClass": "margin",
+  "intensity": 3,
+  "impactSet": "author",
+  "source": "foresight-2026-10-18",
+  "date": "2026-10-18",
+  "dateDisplay": "Sunday, 18 October 2026",
+  "edition": "Sunday Foresight",
+  "editionKey": "foresight"
+ },
+ {
+  "headline": "KENYA'S DIESEL COST ROSE WHILE ITS POWER CHARGE EASED",
+  "body": "Diesel is KSh227.76 a litre to 14 Nov, up KSh9.90 *(EPRA, 15 Oct)*. Fuel VAT stays 8% for 90 days *(Assembly, 14 Oct)*. October's power add-ons are about KSh4.10 a unit, from KSh4.16 *(EPRA, 9 Oct)*.",
+  "sowhat": "🎯 So what: budget transfers on diesel, not power, until the 14 Nov review.",
+  "segments": [
+   "city",
+   "bush",
+   "beach"
+  ],
+  "countries": "🇰🇪",
+  "confidence": "Confirmed (figures)",
+  "impact": "-margin",
+  "impactClass": "margin",
+  "intensity": 3,
+  "impactSet": "author",
+  "source": "foresight-2026-10-18",
+  "date": "2026-10-18",
+  "dateDisplay": "Sunday, 18 October 2026",
+  "edition": "Sunday Foresight",
+  "editionKey": "foresight"
+ },
+ {
+  "headline": "THREE DECADE-LONG PROMISES, ONE UNDECIDED VISA",
+  "body": "F1 gave no start year *(13 Oct)*. The EAC single-visa study is due 20 Oct, comments by 30 Nov *(EAC council, 15 Oct)*. Marriott's 18-suite Serengeti camp is dated: November.",
+  "sowhat": "🎯 So what: underwrite 2027 on dated demand only; treat F1 as 2030s upside.",
+  "segments": [
+   "city",
+   "bush"
+  ],
+  "countries": "🇷🇼 🇰🇪 🇺🇬 🇹🇿",
+  "confidence": "Confirmed (announcements) / Inference (weighting)",
+  "impact": "watch",
+  "impactClass": "watch",
+  "intensity": 3,
+  "impactSet": "author",
+  "source": "foresight-2026-10-18",
+  "date": "2026-10-18",
+  "dateDisplay": "Sunday, 18 October 2026",
+  "edition": "Sunday Foresight",
+  "editionKey": "foresight"
+ },
+ {
+  "headline": "KENYA'S THIRD EBOLA CASE CAME FROM A QUARANTINED CONTACT",
+  "body": "A 65-year-old woman in quarantine tested positive; 127 of 130 contacts are traced and Kenya says it is open with no travel restrictions *(MoH, 16 Oct)*.",
+  "sowhat": "🎯 So what: tell guests the checks (digital forms, screening) before arrival.",
+  "segments": [
+   "city",
+   "bush"
+  ],
+  "countries": "🇰🇪 🇺🇬",
+  "confidence": "Confirmed (statements)",
+  "impact": "risk",
+  "impactClass": "risk",
+  "intensity": 3,
+  "impactSet": "author",
+  "source": "foresight-2026-10-18",
+  "date": "2026-10-18",
+  "dateDisplay": "Sunday, 18 October 2026",
+  "edition": "Sunday Foresight",
+  "editionKey": "foresight"
+ },
+ {
+  "headline": "TANZANIA'S ADVISORY EASED ON TOP OF A RECORD ZANZIBAR AUGUST",
+  "body": "The US cut Tanzania to Level 2 on 16 Oct. Zanzibar took 124,481 visitors in August, up 18%, with bed occupancy estimated at 92.9% *(OCGS, 8 Sep; an older release)*.",
+  "sowhat": "🎯 So what: reopen US quotes for Tanzania; hold Zanzibar peak rates.",
+  "segments": [
+   "bush",
+   "beach"
+  ],
+  "countries": "🇹🇿",
+  "confidence": "Confirmed (figures)",
+  "impact": "+demand",
+  "impactClass": "demand",
+  "intensity": 3,
+  "impactSet": "author",
+  "source": "foresight-2026-10-18",
+  "date": "2026-10-18",
+  "dateDisplay": "Sunday, 18 October 2026",
+  "edition": "Sunday Foresight",
+  "editionKey": "foresight"
+ },
  {
   "headline": "Kenya confirmed a third Ebola case on 16 October, a 65-year-old woman already in quarantine since 6 October",
   "body": "She is a close relative of the first two patients and tested positive at the National Virology Reference Laboratory and KEMRI. All three cases sit in one family; one has died. Of 130 listed contacts, 127 (97.7%) are traced and in quarantine, three are still being traced. The Ministry sees no community transmission and warns more cases among quarantined contacts are possible *(Ministry of Health via The Star, 16 Oct; WHO AFRO, 16 Oct)*. Our inference: cases are surfacing inside quarantine, which is the system working, but contacts are watched for 21 days from their own last exposure, so new exposures can push the end date into November.",
@@ -7080,4 +7190,4 @@ window.INSIGHTS = [
   "editionKey": "evening"
  }
 ];
-window.BUILT_AT = "2026-10-18 08:19";
+window.BUILT_AT = "2026-10-18 14:45";
