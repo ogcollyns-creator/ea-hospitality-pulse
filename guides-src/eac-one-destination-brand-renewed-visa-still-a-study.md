@@ -4,8 +4,9 @@ slug: eac-one-destination-brand-renewed-visa-still-a-study
 description: EAC tourism ministers adopted a ten-year marketing strategy in Arusha last Thursday under a slogan the region already had. The single tourist visa that would let an operator actually sell the region got two more deadlines and no decision.
 category: Big Read
 updated: 2026-10-18
+image: "img/editions/eac-one-destination-brand-renewed-visa-still-a-study.jpg"
+image_credit: "Photograph: Onyango George / EA Hospitality Pulse"
 ---
-
 Four days of meetings at the East African Community headquarters in Arusha ended last Thursday with a document and a slogan. The 13th Sectoral Council on Tourism and Wildlife Management, chaired by Uganda's minister for tourism, wildlife and antiquities, Col Tom Butime, adopted the EAC Tourism Marketing Strategy for 2027 to 2036: a ten-year framework to sell eight partner states to the world as a single destination, using digital campaigns, strategic partnerships and cross-border tour packages under the banner "Visit East Africa: Feel the Vibe."
 
 An operator reading the communiqué would be forgiven for a moment of déjà vu. The slogan is not new. The Community's own tourism marketing page carries "Visit East Africa, Feel the Vibe" as the existing regional brand, complete with a brand manual and a brand communication and promotion plan whose own filename dates it to 2023. Nor is the strategy new in kind. The page lists an EAC Tourism Marketing Strategy for 2021 to 2025, with a successor expected to conclude in 2026. What happened in Arusha last week, stripped of the ribbon, is that a marketing strategy which had expired was replaced by another one, under the same brand, for twice the duration.
