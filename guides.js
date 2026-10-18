@@ -1,5 +1,14 @@
 window.GUIDES = [
  {
+  "slug": "eac-one-destination-brand-renewed-visa-still-a-study",
+  "title": "East Africa renewed its brand for another ten years. The visa that would make it one destination is still a study.",
+  "description": "EAC tourism ministers adopted a ten-year marketing strategy in Arusha last Thursday under a slogan the region already had. The single tourist visa that would let an operator actually sell the region got two more deadlines and no decision.",
+  "category": "Big Read",
+  "updated": "2026-10-18",
+  "readMins": 7,
+  "image": "img/editions/eac-one-destination-brand-renewed-visa-still-a-study.jpg"
+ },
+ {
   "slug": "vendor-breach-east-africa-hotel-data-liability",
   "title": "The breach happened at the software company. Under three East African laws, it is the hotel that has to report it.",
   "description": "A French hotel software publisher lost roughly 135GB of guest records from about 1,500 establishments between 27 September and 5 October, and the fraud calls began the next day carrying real booking references. The East African exposure is not French, it is structural. Kenya gives a hotel 72 hours from the moment it finds out and gives its software vendor 48 hours to tell it, Tanzania gives no number at all, and Uganda says immediately. Hospitality is on Kenya's register-regardless-of-size list, and the sector's instinctive answer to a data penalty so far has been a sign at the door.",
