@@ -1,5 +1,14 @@
 window.EDITIONS = [
  {
+  "id": "pulse-2026-10-19-evening",
+  "date": "2026-10-19",
+  "dateDisplay": "Monday, 19 October 2026",
+  "edition": "Evening Wrap",
+  "editionKey": "evening",
+  "summary": "Kenya's Ebola count reached eight on 18 October after a Nairobi Hospital patient attendant tested positive",
+  "bodyHtml": "<p><strong>Kenya&#x27;s Ebola count reached eight on 18 October after a Nairobi Hospital patient attendant tested positive</strong><br><em>🌆 Evening Wrap · Mon 19 Oct 2026</em></p>\n<p>━━━━━━━━━<br><span class=\"item-head\">1️⃣ Kenya&#x27;s Ebola count reached eight on 18 October after a Nairobi Hospital patient attendant tested positive</span></p>\n<p>The Ministry of Health tested 38 contacts on Sunday and one was positive: a 49-year-old man who attended the first patient and was already in quarantine. Director General Patrick Amoth says he is not a direct health worker, is isolated, and that the other confirmed patients have received monoclonal antibody treatment. This follows seven cases on 17 Oct, three of them health workers. The Ministry still reports no community transmission and no restriction on travel, trade or gatherings <strong>(Ministry of Health via Kenyans.co.ke, 19 Oct; Kenyans.co.ke, 17 Oct)</strong>.<br>Our inference: the count rose four times between 14 and 18 Oct, always inside quarantine, so the 21-day clock can keep resetting into November.<br><span class=\"sowhat\">🎯 So what: keep cancellation terms steady and brief front desk staff on the Ministry&#x27;s wording.</span><br><span class=\"tagline\">🏷 City, Bush, Beach | Kenya | Confirmed | impact:risk</span></p>\n<p><span class=\"item-head\">2️⃣ DRC&#x27;s Ebola outbreak reached an eighth province, Nord-Ubangi, on 19 October, with at least 9,400 cases and 4,500 deaths</span></p>\n<p>Nord-Ubangi borders the Central African Republic and reported two cases, one fatal. The count is DW with AP and Reuters on 19 Oct. Our 12 Oct edition carried 8,978 cases and 4,336 deaths to 10 Oct from the WHO count; the two series differ in method, so treat the gap as direction, not rate <strong>(DW via allAfrica, 19 Oct)</strong>.<br>Our inference: a northern province points away from the Uganda and Rwanda corridors, but source-market caution tracks the total, not the geography.<br><span class=\"sowhat\">🎯 So what: expect rule changes to keep coming from third countries; log each one before you quote guests.</span><br><span class=\"tagline\">🏷 City, Bush, Beach | Kenya, Uganda, Rwanda, Tanzania | Reported | impact:watch</span></p>\n<p><span class=\"item-head\">3️⃣ Kenya&#x27;s matatu owners ruled out a fuel strike on 18 October, but a nationwide cost-of-living protest is planned for 20 October</span></p>\n<p>Matatu Owners Association president Albert Karakacha said operators will absorb diesel at KSh227.76 a litre, up KSh9 from 15 Oct. The Counties Commuters Welfare Association gave EPRA 14 days to reverse the rises or face court, and activists planned a protest on Tuesday <strong>(Kenyans.co.ke, 19 Oct)</strong>.<br>Our inference: protest days can disrupt Nairobi roads at short notice.<br><span class=\"sowhat\">🎯 So what: add buffer to Tuesday airport transfers and confirm staff commutes.</span><br><span class=\"tagline\">🏷 City | Kenya | Reported | impact:risk</span></p>\n<p><strong>🏗 DEAL FLOW:</strong> No verified EA deal flow in the window.</p>\n<p><strong>📻 ALSO TONIGHT</strong><br>🇸🇨 Seychelles: from 14 Oct, foreign nationals from the DRC are admitted only after 21 days outside it <strong>(Seychelles MoH notice, via VoyagesAfriq, 19 Oct)</strong>.<br>🇰🇪 KTB added 14 Signature Experiences, taking the list to 75 (travelnews.africa, 19 Oct; KTB primary not seen).<br>🇹🇿 Zanzibar launched JamboGo Africa, a one-stop booking platform (travelnews.africa, 17 Oct).<br>🇰🇪 KATA&#x27;s Nicanor Sabula wants three months&#x27; notice of new entry rules, after the US$44 insurance start on 5 Oct (Tourism Update, 15 Oct).</p>\n<p><strong>⏳ CATCHING UP</strong> Tanzania&#x27;s Travel Advisory No. 18 (17 Oct) requires an online health form and 21-day monitoring for high-risk arrivals (our 18 Oct draft, Ministry via Xinhua).</p>\n<p><strong>📅 WEEK AHEAD</strong> Uganda Airlines&#x27; Entebbe-Accra launch, late Oct (AeroRoutes, 20 Aug).</p>\n<p><strong>🔍 BLIND SPOTS</strong> Non-UK advisories, Africa CDC, gazettes and Tier C sources were web-scanned, not opened. Hotelsafrica gives no dates.</p>\n<p>🔗 This edition on the web: <a href=\"https://eahospitalitypulse.com/editions/pulse-2026-10-19-evening.html\" rel=\"noopener\">eahospitalitypulse.com/editions/pulse-2026-10-19-evenin…</a></p>"
+ },
+ {
   "id": "foresight-2026-10-18",
   "date": "2026-10-18",
   "dateDisplay": "Sunday, 18 October 2026",
@@ -1243,6 +1252,67 @@ window.EDITIONS = [
  }
 ];
 window.INSIGHTS = [
+ {
+  "headline": "Kenya's Ebola count reached eight on 18 October after a Nairobi Hospital patient attendant tested positive",
+  "body": "The Ministry of Health tested 38 contacts on Sunday and one was positive: a 49-year-old man who attended the first patient and was already in quarantine. Director General Patrick Amoth says he is not a direct health worker, is isolated, and that the other confirmed patients have received monoclonal antibody treatment. This follows seven cases on 17 Oct, three of them health workers. The Ministry still reports no community transmission and no restriction on travel, trade or gatherings *(Ministry of Health via Kenyans.co.ke, 19 Oct; Kenyans.co.ke, 17 Oct)*. Our inference: the count rose four times between 14 and 18 Oct, always inside quarantine, so the 21-day clock can keep resetting into November.",
+  "sowhat": "🎯 So what: keep cancellation terms steady and brief front desk staff on the Ministry's wording.",
+  "segments": [
+   "city",
+   "bush",
+   "beach"
+  ],
+  "countries": "Kenya",
+  "confidence": "Confirmed",
+  "impact": "risk",
+  "impactClass": "risk",
+  "intensity": 3,
+  "impactSet": "author",
+  "source": "pulse-2026-10-19-evening",
+  "date": "2026-10-19",
+  "dateDisplay": "Monday, 19 October 2026",
+  "edition": "Evening Wrap",
+  "editionKey": "evening"
+ },
+ {
+  "headline": "DRC's Ebola outbreak reached an eighth province, Nord-Ubangi, on 19 October, with at least 9,400 cases and 4,500 deaths",
+  "body": "Nord-Ubangi borders the Central African Republic and reported two cases, one fatal. The count is DW with AP and Reuters on 19 Oct. Our 12 Oct edition carried 8,978 cases and 4,336 deaths to 10 Oct from the WHO count; the two series differ in method, so treat the gap as direction, not rate *(DW via allAfrica, 19 Oct)*. Our inference: a northern province points away from the Uganda and Rwanda corridors, but source-market caution tracks the total, not the geography.",
+  "sowhat": "🎯 So what: expect rule changes to keep coming from third countries; log each one before you quote guests.",
+  "segments": [
+   "city",
+   "bush",
+   "beach"
+  ],
+  "countries": "Kenya, Uganda, Rwanda, Tanzania",
+  "confidence": "Reported",
+  "impact": "watch",
+  "impactClass": "watch",
+  "intensity": 2,
+  "impactSet": "author",
+  "source": "pulse-2026-10-19-evening",
+  "date": "2026-10-19",
+  "dateDisplay": "Monday, 19 October 2026",
+  "edition": "Evening Wrap",
+  "editionKey": "evening"
+ },
+ {
+  "headline": "Kenya's matatu owners ruled out a fuel strike on 18 October, but a nationwide cost-of-living protest is planned for 20 October",
+  "body": "Matatu Owners Association president Albert Karakacha said operators will absorb diesel at KSh227.76 a litre, up KSh9 from 15 Oct. The Counties Commuters Welfare Association gave EPRA 14 days to reverse the rises or face court, and activists planned a protest on Tuesday *(Kenyans.co.ke, 19 Oct)*. Our inference: protest days can disrupt Nairobi roads at short notice.",
+  "sowhat": "🎯 So what: add buffer to Tuesday airport transfers and confirm staff commutes.",
+  "segments": [
+   "city"
+  ],
+  "countries": "Kenya",
+  "confidence": "Reported",
+  "impact": "risk",
+  "impactClass": "risk",
+  "intensity": 2,
+  "impactSet": "author",
+  "source": "pulse-2026-10-19-evening",
+  "date": "2026-10-19",
+  "dateDisplay": "Monday, 19 October 2026",
+  "edition": "Evening Wrap",
+  "editionKey": "evening"
+ },
  {
   "headline": "RWANDA'S PRICES ARE RISING FOUR TIMES AS FAST AS TANZANIA'S",
   "body": "Rwanda's urban CPI was 17.2% in September, up from 15.7%; national CPI was 20.0%. Restaurants and hotels rose 18.9% on the year and the energy index 45% *(NISR, reported 12 Oct)*. Tanzania held at 4.3% *(NBS, 8 Oct)*. Uganda's latest found is 4.1% for August *(4 Sep)*.",
@@ -7190,4 +7260,4 @@ window.INSIGHTS = [
   "editionKey": "evening"
  }
 ];
-window.BUILT_AT = "2026-10-19 15:51";
+window.BUILT_AT = "2026-10-19 16:01";
