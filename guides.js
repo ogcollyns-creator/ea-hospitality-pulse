@@ -1,5 +1,14 @@
 window.GUIDES = [
  {
+  "slug": "kenya-payments-bill-cost-of-taking-money",
+  "title": "The law that reprices every deposit your lodge takes",
+  "description": "Treasury and the Central Bank spent the first week and a half of October taking public views on a Bill that rewrites the licensing of every company standing between a guest's card and a lodge's bank account. One of the eleven hearings was held in a hotel. The hospitality industry, which has already been taught once this year what a payment rail costs it, was largely somewhere else.",
+  "category": "Big Read",
+  "updated": "2026-10-19",
+  "readMins": 9,
+  "image": "img/editions/kenya-payments-bill-cost-of-taking-money.jpg"
+ },
+ {
   "slug": "eac-one-destination-brand-renewed-visa-still-a-study",
   "title": "East Africa renewed its brand for another ten years. The visa that would make it one destination is still a study.",
   "description": "EAC tourism ministers adopted a ten-year marketing strategy in Arusha last Thursday under a slogan the region already had. The single tourist visa that would let an operator actually sell the region got two more deadlines and no decision.",
