@@ -1,18 +1,18 @@
 {
- "generated": "2026-10-19T11:59:48+03:00",
+ "generated": "2026-10-19T15:38:10+03:00",
  "slot": "midday",
  "window_start": 1792382400,
- "observations_in_window": 266,
+ "observations_in_window": 367,
  "deduped_against": 20,
  "candidates": [
   {
-   "score": 112.6,
+   "score": 108.6,
    "components": {
     "tier": 40,
     "category": 32,
     "lead": 12.0,
     "relevance": 8,
-    "freshness": 14.6,
+    "freshness": 10.6,
     "corroborated": 10,
     "page_change": -4
    },
@@ -41,13 +41,13 @@
    "verdict": "OPEN THIS \u2014 tier-1 advisory page moved; content not auto-parsed, read it manually"
   },
   {
-   "score": 102.2,
+   "score": 98.2,
    "components": {
     "tier": 40,
     "category": 24,
     "lead": 3.6,
     "relevance": 12,
-    "freshness": 14.6,
+    "freshness": 10.6,
     "undated": -6,
     "shock": 18,
     "page_change": -4
@@ -80,13 +80,116 @@
    "verdict": "OPEN THIS \u2014 tier-1 health page moved; content not auto-parsed, read it manually"
   },
   {
-   "score": 98.2,
+   "score": 65.2,
+   "components": {
+    "tier": 40,
+    "category": 12,
+    "lead": 3.6,
+    "relevance": 0,
+    "freshness": 19.6,
+    "undated": -6,
+    "page_change": -4
+   },
+   "keywords": [],
+   "shock_terms": [],
+   "dedupe_match": null,
+   "dedupe_similarity": 0.0,
+   "id": "08ff2e997b97",
+   "title": "[page changed] Airlink news",
+   "url": "https://www.flyairlink.com/",
+   "summary": "Request unsuccessful. Incapsula incident ID: 536000090013906865-4710711575446126",
+   "kind": "page-change",
+   "source": "Airlink news",
+   "source_id": "air-airlink",
+   "tier": 1,
+   "country": "REG",
+   "category": "airline",
+   "segments": [
+    "city",
+    "bush",
+    "beach"
+   ],
+   "first_seen": "2026-10-19T15:26+03:00",
+   "published": null,
+   "verdict": "OPEN THIS \u2014 tier-1 airline page moved; content not auto-parsed, read it manually"
+  },
+  {
+   "score": 111.4,
+   "components": {
+    "tier": 40,
+    "category": 9,
+    "lead": 16.8,
+    "relevance": 16,
+    "freshness": 19.6,
+    "corroborated": 10
+   },
+   "keywords": [
+    "airport",
+    "hotel",
+    "resort"
+   ],
+   "shock_terms": [],
+   "dedupe_match": null,
+   "dedupe_similarity": 0.0,
+   "id": "c45082c9938a",
+   "title": "Hilton and Scandic Sign New Nordics Strategic Agreement",
+   "url": "https://stories.hilton.com/releases/hilton-and-scandic-sign-new-nordics-strategic-agreement",
+   "summary": "\u2022 Hilton and Scandic Hotels Group have signed a multi-year development agreement covering Sweden, Norway, Denmark and Finland.\u2022 The first hotel announced under the agreement is a 284-room Hilton Hotels & Resorts property at Scanport, adjacent to Copenhagen Airport, expected to open in 2029.\u2022 Hilton and Scandic also plan to introduce new benefits for Hilton [\u2026] The post Hilton and Scandic Sign New ",
+   "kind": "item",
+   "source": "Hilton stories/newsroom",
+   "source_id": "dev-hilton",
+   "tier": 1,
+   "country": "GLOBAL",
+   "category": "hotel-group",
+   "segments": [
+    "city",
+    "bush",
+    "beach"
+   ],
+   "first_seen": "2026-10-19T15:26+03:00",
+   "published": "2026-10-19",
+   "verdict": "STRONG \u2014 tier-1, upstream"
+  },
+  {
+   "score": 96.0,
+   "components": {
+    "tier": 40,
+    "category": 24,
+    "lead": 2.4,
+    "relevance": 0,
+    "freshness": 19.6,
+    "corroborated": 10
+   },
+   "keywords": [],
+   "shock_terms": [],
+   "dedupe_match": null,
+   "dedupe_similarity": 0.17,
+   "id": "c37e5c9f30cd",
+   "title": "SitRep N\u00b0156 /MVE-BDBV/17/10/2026",
+   "url": "https://insp.cd/sitrep-n156-mve-bdbv-17-10-2026",
+   "summary": "",
+   "kind": "item",
+   "source": "INSP RDC \u2014 Ebola daily situation reports (SitRep)",
+   "source_id": "cd-insp-sitrep",
+   "tier": 1,
+   "country": "GLOBAL",
+   "category": "health",
+   "segments": [
+    "City",
+    "Bush"
+   ],
+   "first_seen": "2026-10-19T15:27+03:00",
+   "published": "2026-10-19",
+   "verdict": "STRONG \u2014 tier-1, upstream"
+  },
+  {
+   "score": 94.2,
    "components": {
     "tier": 20,
     "category": 4,
     "lead": 2.4,
     "relevance": 24,
-    "freshness": 19.8,
+    "freshness": 15.8,
     "corroborated": 10,
     "shock": 18
    },
@@ -120,13 +223,13 @@
    "verdict": "CONSIDER"
   },
   {
-   "score": 98.0,
+   "score": 94.0,
    "components": {
     "tier": 20,
     "category": 5,
     "lead": 1.2,
     "relevance": 24,
-    "freshness": 19.8,
+    "freshness": 15.8,
     "corroborated": 10,
     "shock": 18
    },
@@ -159,13 +262,48 @@
    "verdict": "CONSIDER"
   },
   {
-   "score": 96.2,
+   "score": 93.4,
+   "components": {
+    "tier": 40,
+    "category": 15,
+    "lead": 16.8,
+    "relevance": 8,
+    "freshness": 19.6,
+    "undated": -6
+   },
+   "keywords": [
+    "tax"
+   ],
+   "shock_terms": [],
+   "dedupe_match": null,
+   "dedupe_similarity": 0.22,
+   "id": "effbbceeb010",
+   "title": "PARLIAMENTARY BUDGET COMMITTEE COMMENDS TRA FOR REVENUE COLLECTION PERFORMANCE AND DIGITAL TAX SYSTEMS 15 October, 2026 PARLIAMENTARY BUDGET COMMITTEE COMMENDS TRA FOR REVENUE COLLECTION PERFORMANCE AND DIGITAL TAX SYSTEMSThe\u2026 -->",
+   "url": "https://www.tra.go.tz/news/parliamentary-budget-committee-commends-tra-for-revenue-collection-performance-and-digital-tax-systems",
+   "summary": "",
+   "kind": "item",
+   "source": "Tanzania Revenue Authority",
+   "source_id": "tz-tra",
+   "tier": 1,
+   "country": "TZ",
+   "category": "fiscal",
+   "segments": [
+    "city",
+    "bush",
+    "beach"
+   ],
+   "first_seen": "2026-10-19T15:26+03:00",
+   "published": null,
+   "verdict": "STRONG \u2014 tier-1, upstream"
+  },
+  {
+   "score": 92.2,
    "components": {
     "tier": 40,
     "category": 24,
     "lead": 2.4,
     "relevance": 0,
-    "freshness": 19.8,
+    "freshness": 15.8,
     "corroborated": 10
    },
    "keywords": [],
@@ -191,13 +329,79 @@
    "verdict": "STRONG \u2014 tier-1, upstream"
   },
   {
-   "score": 88.2,
+   "score": 89.4,
+   "components": {
+    "tier": 40,
+    "category": 15,
+    "lead": 16.8,
+    "relevance": 4,
+    "freshness": 19.6,
+    "undated": -6
+   },
+   "keywords": [
+    "conference"
+   ],
+   "shock_terms": [],
+   "dedupe_match": null,
+   "dedupe_similarity": 0.2,
+   "id": "6788bdf8026f",
+   "title": "CATA PRESIDENT CONGRATULATES TANZANIA AND TRA ON SUCCESSFUL HOSTING OF 46TH CATA ANNUAL CONFERENCE",
+   "url": "https://www.tra.go.tz/news/cata-president-congratulates-tanzania-and-tra-for-successful-hosting-of-46th-annual-conference",
+   "summary": "",
+   "kind": "item",
+   "source": "Tanzania Revenue Authority",
+   "source_id": "tz-tra",
+   "tier": 1,
+   "country": "TZ",
+   "category": "fiscal",
+   "segments": [
+    "city",
+    "bush",
+    "beach"
+   ],
+   "first_seen": "2026-10-19T15:26+03:00",
+   "published": null,
+   "verdict": "CONSIDER"
+  },
+  {
+   "score": 85.2,
+   "components": {
+    "tier": 40,
+    "category": 12,
+    "lead": 3.6,
+    "relevance": 0,
+    "freshness": 19.6,
+    "corroborated": 10
+   },
+   "keywords": [],
+   "shock_terms": [],
+   "dedupe_match": null,
+   "dedupe_similarity": 0.11,
+   "id": "6e8f4762fd28",
+   "title": "Lufthansa verabschiedet letzten Airbus A340-600 in den Ruhestand und treibt Flottenerneuerung voran",
+   "url": "https://newsroom.lufthansagroup.com/lufthansa-verabschiedet-letzten-airbus-a340-600-in-den-ruhestand-und-treibt-flottenerneuerung-voran",
+   "summary": "Es ist das Ende einer \u00c4ra: Mit der heutigen Landung von Flug LH419 aus Washington D.C. stellt Lufthansa den Airbus A340-600 nach 23 Jahren kommerziellen Betriebs au\u00dfer Dienst. Nach acht Stunden und f\u00fcnf Minuten landete das Flugzeug mit der Kennung D-AIHW mit 267 Passagieren und 15 Crewmitgliedern an Bord p\u00fcnktlich am Frankfurter Flughafen und wurde dort von zahlreichen Spottern und Influencern erw",
+   "kind": "item",
+   "source": "Lufthansa Group newsroom",
+   "source_id": "air-lh",
+   "tier": 1,
+   "country": "GLOBAL",
+   "category": "airline",
+   "segments": [
+    "beach"
+   ],
+   "first_seen": "2026-10-19T15:26+03:00",
+   "published": "2026-10-19",
+   "verdict": "CONSIDER"
+  },
+  {
+   "score": 84.2,
    "components": {
     "tier": 20,
     "category": 14,
     "lead": 8.4,
     "relevance": 16,
-    "freshness": 19.8,
+    "freshness": 15.8,
     "corroborated": 10
    },
    "keywords": [
@@ -228,13 +432,82 @@
    "verdict": "CONSIDER"
   },
   {
-   "score": 84.2,
+   "score": 84.0,
    "components": {
     "tier": 20,
     "category": 14,
     "lead": 8.4,
     "relevance": 12,
-    "freshness": 19.8,
+    "freshness": 19.6,
+    "corroborated": 10
+   },
+   "keywords": [
+    "capacity",
+    "airline"
+   ],
+   "shock_terms": [],
+   "dedupe_match": null,
+   "dedupe_similarity": 0.0,
+   "id": "823080788f2c",
+   "title": "Cebu Pacific Adds A330 Vietnam Service in NW26",
+   "url": "https://www.aeroroutes.com/eng/261019-5jnw26vn",
+   "summary": "Published at 0400PDT / 1100GMT 19OCT26 Cebu Pacific during Northern winter 2026/27 season plans to expand capacity to Vietnam, as the airline adds Airbus A330-900neo service to both Da Nang and Hanoi. Manila \u2013 Da Nang eff 05DEC26 5J5758/5759 Day x135 Manila \u2013 Hanoi eff 09JAN27 5J746/747 Day 246",
+   "kind": "item",
+   "source": "AeroRoutes schedule filings",
+   "source_id": "aeroroutes",
+   "tier": 2,
+   "country": "GLOBAL",
+   "category": "aviation-tracker",
+   "segments": [
+    "city",
+    "bush",
+    "beach"
+   ],
+   "first_seen": "2026-10-19T15:27+03:00",
+   "published": "2026-10-19",
+   "verdict": "CONSIDER"
+  },
+  {
+   "score": 81.2,
+   "components": {
+    "tier": 40,
+    "category": 32,
+    "lead": 3.6,
+    "relevance": 0,
+    "freshness": 19.6,
+    "stale_trap": -10,
+    "page_change": -4
+   },
+   "keywords": [],
+   "shock_terms": [],
+   "dedupe_match": null,
+   "dedupe_similarity": 0.11,
+   "id": "47928c00f4cf",
+   "title": "[page changed] Federal Register \u2014 public inspection (HHS/CDC), pre-publication",
+   "url": "https://www.federalregister.gov/api/v1/public-inspection-documents/current.json",
+   "summary": "{\"count\":150,\"results\":[{\"agencies\":[{\"raw_name\":\"Justice Department\",\"name\":\"Justice Department\",\"id\":268,\"url\":\"https://www.federalregister.gov/agencies/justice-department\",\"json_url\":\"https://www.federalregister.gov/api/v1/agencies/268\",\"parent_id\":null,\"slug\":\"justice-department\"}],\"agency_letters\":[],\"agency_names\":[\"Justice Department\"],\"docket_numbers\":[],\"document_number\":\"2026-21187\",\"edi",
+   "kind": "page-change",
+   "source": "Federal Register \u2014 public inspection (HHS/CDC), pre-publication",
+   "source_id": "us-fedreg-pubinspect-hhs",
+   "tier": 1,
+   "country": "REG",
+   "category": "advisory",
+   "segments": [
+    "city",
+    "bush"
+   ],
+   "first_seen": "2026-10-19T15:26+03:00",
+   "published": "2026-10-16",
+   "verdict": "CHECK \u2014 source date older than the window"
+  },
+  {
+   "score": 80.2,
+   "components": {
+    "tier": 20,
+    "category": 14,
+    "lead": 8.4,
+    "relevance": 12,
+    "freshness": 15.8,
     "corroborated": 10
    },
    "keywords": [
@@ -264,13 +537,13 @@
    "verdict": "CONSIDER"
   },
   {
-   "score": 84.2,
+   "score": 80.2,
    "components": {
     "tier": 20,
     "category": 14,
     "lead": 8.4,
     "relevance": 12,
-    "freshness": 19.8,
+    "freshness": 15.8,
     "corroborated": 10
    },
    "keywords": [
@@ -300,13 +573,217 @@
    "verdict": "CONSIDER"
   },
   {
-   "score": 83.8,
+   "score": 80.0,
+   "components": {
+    "tier": 20,
+    "category": 14,
+    "lead": 8.4,
+    "relevance": 8,
+    "freshness": 19.6,
+    "corroborated": 10
+   },
+   "keywords": [
+    "frequency"
+   ],
+   "shock_terms": [],
+   "dedupe_match": null,
+   "dedupe_similarity": 0.1,
+   "id": "a34ffe5a0aa5",
+   "title": "Cebu Pacific Nov 2026 Australia Service Reductions",
+   "url": "https://www.aeroroutes.com/eng/261019-5jnov26au",
+   "summary": "Published at 0500PDT / 1200GMT 19OCT26 Cebu Pacific in recent weeks filed frequency changes to Australia for the month of November 2026, as the carrier schedules service reductions. Planned changes as follows. Manila \u2013 Melbourne 30OCT26 \u2013 22NOV26 Reduce from 5 to 3 weekly Manila \u2013 Sydney 02NOV26 \u2013 29NOV26 Reduce from 7 to 3 weekly",
+   "kind": "item",
+   "source": "AeroRoutes schedule filings",
+   "source_id": "aeroroutes",
+   "tier": 2,
+   "country": "GLOBAL",
+   "category": "aviation-tracker",
+   "segments": [
+    "city",
+    "bush",
+    "beach"
+   ],
+   "first_seen": "2026-10-19T15:27+03:00",
+   "published": "2026-10-19",
+   "verdict": "CONSIDER"
+  },
+  {
+   "score": 80.0,
+   "components": {
+    "tier": 20,
+    "category": 14,
+    "lead": 8.4,
+    "relevance": 8,
+    "freshness": 19.6,
+    "corroborated": 10
+   },
+   "keywords": [
+    "route"
+   ],
+   "shock_terms": [],
+   "dedupe_match": null,
+   "dedupe_similarity": 0.11,
+   "id": "593bad070ac0",
+   "title": "Etihad NW26 Warsaw Aircraft Changes",
+   "url": "https://www.aeroroutes.com/eng/261019-eynw26waw",
+   "summary": "Published at 0300PDT / 1000GMT 19OCT26 Etihad Airways in last week\u2019s schedule update filed aircraft changes on Abu Dhabi \u2013 Warsaw route, for the period of 25OCT26 \u2013 07JAN27. The daily service will now be operated by leased Wamos Air Airbus A330-200 aircraft, instead of Boeing 787-9/-10. EY159 AUH0255 \u2013 0620WAW 332 D EY160 WAW1030 \u2013 1910AUH 332 D",
+   "kind": "item",
+   "source": "AeroRoutes schedule filings",
+   "source_id": "aeroroutes",
+   "tier": 2,
+   "country": "GLOBAL",
+   "category": "aviation-tracker",
+   "segments": [
+    "city",
+    "bush",
+    "beach"
+   ],
+   "first_seen": "2026-10-19T15:27+03:00",
+   "published": "2026-10-19",
+   "verdict": "CONSIDER"
+  },
+  {
+   "score": 80.0,
+   "components": {
+    "tier": 20,
+    "category": 14,
+    "lead": 8.4,
+    "relevance": 8,
+    "freshness": 19.6,
+    "corroborated": 10
+   },
+   "keywords": [
+    "route"
+   ],
+   "shock_terms": [],
+   "dedupe_match": null,
+   "dedupe_similarity": 0.0,
+   "id": "faaa384b7d34",
+   "title": "Qantas Expands Cathay Pacific Codeshare in NW26",
+   "url": "https://www.aeroroutes.com/eng/261019-qfcxcodeshare",
+   "summary": "Published at 0200PDT / 0900GMT 19OCT26 Qantas at the launch of Northern winter 2026/27 season expands codeshare partnership with Cathay Pacific, covering additional 5 routes. Planned new codeshare routes from 25OCT26 include the following. Qantas operated by Cathay Pacific Hong Kong \u2013 Adelaide Hong Kong \u2013 Brisbane Hong Kong \u2013 Dhaka Hong Kong \u2013 Kathmandu Hong Kong \u2013 Manila",
+   "kind": "item",
+   "source": "AeroRoutes schedule filings",
+   "source_id": "aeroroutes",
+   "tier": 2,
+   "country": "GLOBAL",
+   "category": "aviation-tracker",
+   "segments": [
+    "city",
+    "bush",
+    "beach"
+   ],
+   "first_seen": "2026-10-19T15:27+03:00",
+   "published": "2026-10-19",
+   "verdict": "CONSIDER"
+  },
+  {
+   "score": 80.0,
+   "components": {
+    "tier": 40,
+    "category": 24,
+    "lead": 2.4,
+    "relevance": 0,
+    "freshness": 19.6,
+    "undated": -6
+   },
+   "keywords": [],
+   "shock_terms": [],
+   "dedupe_match": null,
+   "dedupe_similarity": 0.2,
+   "id": "ca31ff2969f3",
+   "title": "19 October 2026 | Cluster/Departmental news Accelerating global transition to mercury-free oral health care",
+   "url": "https://www.afro.who.int/countries/senegal/news/accelerating-global-transition-mercury-free-oral-health-care",
+   "summary": "",
+   "kind": "item",
+   "source": "WHO AFRO \u2014 Kenya country newsroom",
+   "source_id": "who-afro-kenya",
+   "tier": 1,
+   "country": "KE",
+   "category": "health",
+   "segments": [
+    "bush",
+    "city",
+    "beach"
+   ],
+   "first_seen": "2026-10-19T15:26+03:00",
+   "published": null,
+   "verdict": "CONSIDER"
+  },
+  {
+   "score": 80.0,
+   "components": {
+    "tier": 40,
+    "category": 24,
+    "lead": 2.4,
+    "relevance": 0,
+    "freshness": 19.6,
+    "undated": -6
+   },
+   "keywords": [],
+   "shock_terms": [],
+   "dedupe_match": null,
+   "dedupe_similarity": 0.2,
+   "id": "e2290cfe839d",
+   "title": "19 October 2026 | Cluster/Departmental news Accelerating global transition to mercury-free oral health care",
+   "url": "https://www.afro.who.int/countries/senegal/news/accelerating-global-transition-mercury-free-oral-health-care",
+   "summary": "",
+   "kind": "item",
+   "source": "WHO AFRO \u2014 Rwanda country newsroom",
+   "source_id": "who-afro-rwanda",
+   "tier": 1,
+   "country": "RW",
+   "category": "health",
+   "segments": [
+    "bush",
+    "city",
+    "beach"
+   ],
+   "first_seen": "2026-10-19T15:26+03:00",
+   "published": null,
+   "verdict": "CONSIDER"
+  },
+  {
+   "score": 80.0,
+   "components": {
+    "tier": 40,
+    "category": 24,
+    "lead": 2.4,
+    "relevance": 0,
+    "freshness": 19.6,
+    "undated": -6
+   },
+   "keywords": [],
+   "shock_terms": [],
+   "dedupe_match": null,
+   "dedupe_similarity": 0.2,
+   "id": "83846670cffd",
+   "title": "19 October 2026 | Cluster/Departmental news Accelerating global transition to mercury-free oral health care",
+   "url": "https://www.afro.who.int/countries/senegal/news/accelerating-global-transition-mercury-free-oral-health-care",
+   "summary": "",
+   "kind": "item",
+   "source": "WHO AFRO \u2014 Uganda country newsroom",
+   "source_id": "who-afro-uganda",
+   "tier": 1,
+   "country": "UG",
+   "category": "health",
+   "segments": [
+    "bush",
+    "city",
+    "beach"
+   ],
+   "first_seen": "2026-10-19T15:26+03:00",
+   "published": null,
+   "verdict": "CONSIDER"
+  },
+  {
+   "score": 79.8,
    "components": {
     "tier": 20,
     "category": 4,
     "lead": 0.0,
     "relevance": 12,
-    "freshness": 19.8,
+    "freshness": 15.8,
     "corroborated": 10,
     "shock": 18
    },
@@ -339,13 +816,52 @@
    "verdict": "CONSIDER"
   },
   {
-   "score": 81.4,
+   "score": 79.6,
+   "components": {
+    "tier": 20,
+    "category": 4,
+    "lead": 0.0,
+    "relevance": 24,
+    "freshness": 19.6,
+    "undated": -6,
+    "shock": 18
+   },
+   "keywords": [
+    "outbreak",
+    "ebola"
+   ],
+   "shock_terms": [
+    "outbreak"
+   ],
+   "dedupe_match": null,
+   "dedupe_similarity": 0.2,
+   "id": "00a25bef78a2",
+   "title": "Congo Ebola outbreak spreads to new province bordering Central African Republic Oct 16 - 2 min read",
+   "url": "https://www.thecitizen.co.tz/tanzania/news/africa/congo-ebola-outbreak-spreads-to-new-province-bordering-central-african-republic-5634318",
+   "summary": "",
+   "kind": "item",
+   "source": "The Citizen (Tanzania)",
+   "source_id": "np-citizen-tz",
+   "tier": 2,
+   "country": "TZ",
+   "category": "press",
+   "segments": [
+    "city",
+    "bush",
+    "beach"
+   ],
+   "first_seen": "2026-10-19T15:27+03:00",
+   "published": null,
+   "verdict": "CONSIDER"
+  },
+  {
+   "score": 77.4,
    "components": {
     "tier": 40,
     "category": 32,
     "lead": 3.6,
     "relevance": 0,
-    "freshness": 19.8,
+    "freshness": 15.8,
     "stale_trap": -10,
     "page_change": -4
    },
@@ -372,13 +888,13 @@
    "verdict": "CHECK \u2014 source date older than the window"
   },
   {
-   "score": 80.2,
+   "score": 76.2,
    "components": {
     "tier": 20,
     "category": 14,
     "lead": 8.4,
     "relevance": 8,
-    "freshness": 19.8,
+    "freshness": 15.8,
     "corroborated": 10
    },
    "keywords": [
@@ -407,13 +923,13 @@
    "verdict": "CONSIDER"
   },
   {
-   "score": 80.2,
+   "score": 76.2,
    "components": {
     "tier": 20,
     "category": 14,
     "lead": 8.4,
     "relevance": 8,
-    "freshness": 19.8,
+    "freshness": 15.8,
     "corroborated": 10
    },
    "keywords": [
@@ -442,13 +958,13 @@
    "verdict": "CONSIDER"
   },
   {
-   "score": 80.2,
+   "score": 76.2,
    "components": {
     "tier": 40,
     "category": 24,
     "lead": 2.4,
     "relevance": 0,
-    "freshness": 19.8,
+    "freshness": 15.8,
     "undated": -6
    },
    "keywords": [],
@@ -475,13 +991,13 @@
    "verdict": "CONSIDER"
   },
   {
-   "score": 76.2,
+   "score": 72.2,
    "components": {
     "tier": 40,
     "category": 32,
     "lead": 3.6,
     "relevance": 0,
-    "freshness": 14.6,
+    "freshness": 10.6,
     "stale_trap": -10,
     "page_change": -4
    },
@@ -508,13 +1024,13 @@
    "verdict": "CHECK \u2014 source date older than the window"
   },
   {
-   "score": 75.0,
+   "score": 71.0,
    "components": {
     "tier": 20,
     "category": 14,
     "lead": 8.4,
     "relevance": 8,
-    "freshness": 14.6,
+    "freshness": 10.6,
     "corroborated": 10
    },
    "keywords": [
@@ -543,13 +1059,13 @@
    "verdict": "CONSIDER"
   },
   {
-   "score": 71.8,
+   "score": 67.8,
    "components": {
     "tier": 20,
     "category": 4,
     "lead": 0.0,
     "relevance": 0,
-    "freshness": 19.8,
+    "freshness": 15.8,
     "corroborated": 10,
     "shock": 18
    },
@@ -576,16 +1092,16 @@
    ],
    "first_seen": "2026-10-19T11:59+03:00",
    "published": "2026-10-19",
-   "verdict": "CONSIDER"
+   "verdict": "weak"
   },
   {
-   "score": 71.8,
+   "score": 67.8,
    "components": {
     "tier": 20,
     "category": 4,
     "lead": 0.0,
     "relevance": 0,
-    "freshness": 19.8,
+    "freshness": 15.8,
     "corroborated": 10,
     "shock": 18
    },
@@ -612,16 +1128,16 @@
    ],
    "first_seen": "2026-10-19T11:59+03:00",
    "published": "2026-10-19",
-   "verdict": "CONSIDER"
+   "verdict": "weak"
   },
   {
-   "score": 70.4,
+   "score": 66.4,
    "components": {
     "tier": 20,
     "category": 5,
     "lead": 3.6,
     "relevance": 12,
-    "freshness": 19.8,
+    "freshness": 15.8,
     "corroborated": 10
    },
    "keywords": [
@@ -648,16 +1164,16 @@
    ],
    "first_seen": "2026-10-19T11:59+03:00",
    "published": "2026-10-19",
-   "verdict": "CONSIDER"
+   "verdict": "weak"
   },
   {
-   "score": 70.4,
+   "score": 66.4,
    "components": {
     "tier": 20,
     "category": 5,
     "lead": 3.6,
     "relevance": 12,
-    "freshness": 19.8,
+    "freshness": 15.8,
     "corroborated": 10
    },
    "keywords": [
@@ -684,16 +1200,16 @@
    ],
    "first_seen": "2026-10-19T11:59+03:00",
    "published": "2026-10-19",
-   "verdict": "CONSIDER"
+   "verdict": "weak"
   },
   {
-   "score": 70.4,
+   "score": 66.4,
    "components": {
     "tier": 20,
     "category": 5,
     "lead": 3.6,
     "relevance": 12,
-    "freshness": 19.8,
+    "freshness": 15.8,
     "corroborated": 10
    },
    "keywords": [
@@ -721,16 +1237,89 @@
    ],
    "first_seen": "2026-10-19T11:59+03:00",
    "published": "2026-10-19",
-   "verdict": "CONSIDER"
+   "verdict": "weak"
   },
   {
-   "score": 69.2,
+   "score": 65.6,
+   "components": {
+    "tier": 20,
+    "category": 4,
+    "lead": 0.0,
+    "relevance": 12,
+    "freshness": 19.6,
+    "corroborated": 10
+   },
+   "keywords": [
+    "vat",
+    "investment"
+   ],
+   "shock_terms": [],
+   "dedupe_match": null,
+   "dedupe_similarity": 0.0,
+   "id": "e0e26f912efa",
+   "title": "VP agrees to become basketball patron, names Alikiba, Harmonize as influential figures",
+   "url": "https://dailynews.co.tz/vp-agrees-to-become-basketball-patron-names-alikiba-harmonize-as-influential-figures",
+   "summary": "DAR ES SALAAM: VICE President Deogratius Ndejembi, has agreed to become the patron of basketball in the country, expressing his passion for the sport and his ambition to see it achieve popularity comparable to football. He urged artists and businesspeople to invest in basketball by owning teams, saying greater private investment would increase competition and \u2026 The post VP agrees to become basketb",
+   "kind": "item",
+   "source": "Daily News (Tanzania)",
+   "source_id": "np-dailynews-tz",
+   "tier": 2,
+   "country": "TZ",
+   "category": "press",
+   "segments": [
+    "city",
+    "bush",
+    "beach"
+   ],
+   "first_seen": "2026-10-19T15:27+03:00",
+   "published": "2026-10-19",
+   "verdict": "weak"
+  },
+  {
+   "score": 65.6,
+   "components": {
+    "tier": 20,
+    "category": 4,
+    "lead": 0.0,
+    "relevance": 12,
+    "freshness": 19.6,
+    "corroborated": 10
+   },
+   "keywords": [
+    "exhibition",
+    "investment",
+    "guest"
+   ],
+   "shock_terms": [],
+   "dedupe_match": null,
+   "dedupe_similarity": 0.2,
+   "id": "570d72f862b7",
+   "title": "From Constantine to Dodoma, Tanzania turns international exhibitions into gateways for investment and business partnerships",
+   "url": "https://dailynews.co.tz/from-constantine-to-dodoma-tanzania-turns-international-exhibitions-into-gateways-for-investment-and-business-partnerships",
+   "summary": "WHEN Tanzania\u2019s name was announced among the distinguished guests at Bati-Est Expo 2026 in Constantine, Algeria, the occasion offered more than diplomatic recognition. It created a platform to present the country\u2019s expanding construction industry, infrastructure ambitions and opportunities for Algerian businesses seeking partners and markets in Africa. Tanzanian Ambassador to Algeria Mobhare Matin",
+   "kind": "item",
+   "source": "Daily News (Tanzania)",
+   "source_id": "np-dailynews-tz",
+   "tier": 2,
+   "country": "TZ",
+   "category": "press",
+   "segments": [
+    "city",
+    "bush",
+    "beach"
+   ],
+   "first_seen": "2026-10-19T15:27+03:00",
+   "published": "2026-10-19",
+   "verdict": "weak"
+  },
+  {
+   "score": 65.2,
    "components": {
     "tier": 20,
     "category": 5,
     "lead": 2.4,
     "relevance": 12,
-    "freshness": 19.8,
+    "freshness": 15.8,
     "corroborated": 10
    },
    "keywords": [
@@ -760,13 +1349,13 @@
    "verdict": "weak"
   },
   {
-   "score": 69.2,
+   "score": 65.2,
    "components": {
     "tier": 20,
     "category": 5,
     "lead": 2.4,
     "relevance": 12,
-    "freshness": 19.8,
+    "freshness": 15.8,
     "corroborated": 10
    },
    "keywords": [
@@ -796,13 +1385,13 @@
    "verdict": "weak"
   },
   {
-   "score": 69.2,
+   "score": 65.2,
    "components": {
     "tier": 20,
     "category": 5,
     "lead": 2.4,
     "relevance": 12,
-    "freshness": 19.8,
+    "freshness": 15.8,
     "corroborated": 10
    },
    "keywords": [
@@ -817,610 +1406,6 @@
    "title": "The Biggest Opportunity for Longevity Amenities at Hotels Is in the Guestroom",
    "url": "https://www.hospitalitynet.org/opinion/4134723/the-biggest-opportunity-for-longevity-amenities-at-hotels-is-in-the-guestroom",
    "summary": "Opinion piece arguing that guestrooms, not spas or gyms, are the highest-impact and most scalable venue for longevity amenities, with practical guidance on outcomes, business models, and phased capex deployment.",
-   "kind": "item",
-   "source": "Hospitality Net: Africa openings",
-   "source_id": "dev-hospitalitynet-openings",
-   "tier": 2,
-   "country": "AFRICA",
-   "category": "trade",
-   "segments": [
-    "city",
-    "bush",
-    "beach"
-   ],
-   "first_seen": "2026-10-19T11:59+03:00",
-   "published": "2026-10-19",
-   "verdict": "weak"
-  },
-  {
-   "score": 69.2,
-   "components": {
-    "tier": 20,
-    "category": 5,
-    "lead": 2.4,
-    "relevance": 12,
-    "freshness": 19.8,
-    "corroborated": 10
-   },
-   "keywords": [
-    "vat",
-    "lodge"
-   ],
-   "shock_terms": [],
-   "dedupe_match": null,
-   "dedupe_similarity": 0.17,
-   "id": "6f6853d09c38",
-   "title": "andBeyond Xaranna Okavango Delta Lodge to undergo renovation",
-   "url": "https://www.sleepermagazine.com/stories/projects/andbeyond-xaranna-okavango-delta-lodge-to-undergo-renovation",
-   "summary": "andBeyond is set to reopen one of its Botswana properties as andBeyond Xaranna Okavango Delta Lodge in August 2027 following [\u2026] The post andBeyond Xaranna Okavango Delta Lodge to undergo renovation appeared first on Sleeper .",
-   "kind": "item",
-   "source": "Sleeper: hotel projects",
-   "source_id": "dev-sleeper",
-   "tier": 2,
-   "country": "GLOBAL",
-   "category": "trade",
-   "segments": [
-    "city",
-    "bush",
-    "beach"
-   ],
-   "first_seen": "2026-10-19T11:59+03:00",
-   "published": "2026-10-19",
-   "verdict": "weak"
-  },
-  {
-   "score": 68.2,
-   "components": {
-    "tier": 20,
-    "category": 4,
-    "lead": 2.4,
-    "relevance": 12,
-    "freshness": 19.8,
-    "corroborated": 10
-   },
-   "keywords": [
-    "ebola"
-   ],
-   "shock_terms": [],
-   "dedupe_match": null,
-   "dedupe_similarity": 0.33,
-   "id": "c0587d73664d",
-   "title": "Ebola Cases Rise to 8 as Ministry of Health Official Confirms New Case",
-   "url": "https://www.kenyans.co.ke/news/127939-kenya-confirms-8th-ebola-case-nairobi-hospital-patient-attendant-tests-positive",
-   "summary": "Despite the new case, the Ministry of Health maintained that there was no cause for alarm among the general public, assuring Kenyans that the risk of wider transmission remains low.",
-   "kind": "item",
-   "source": "Kenyans.co.ke news",
-   "source_id": "ke-kenyans",
-   "tier": 2,
-   "country": "KE",
-   "category": "press",
-   "segments": [
-    "city",
-    "bush",
-    "beach"
-   ],
-   "first_seen": "2026-10-19T11:59+03:00",
-   "published": "2026-10-19",
-   "verdict": "weak"
-  },
-  {
-   "score": 66.6,
-   "components": {
-    "tier": 20,
-    "category": 4,
-    "lead": 0.0,
-    "relevance": 0,
-    "freshness": 14.6,
-    "corroborated": 10,
-    "shock": 18
-   },
-   "keywords": [],
-   "shock_terms": [
-    "attack"
-   ],
-   "dedupe_match": null,
-   "dedupe_similarity": 0.0,
-   "id": "2548d6303bbe",
-   "title": "Captain of flydubai plane describes blocking axe blows as co-pilot attacked",
-   "url": "https://www.monitor.co.ug/uganda/news/world/captain-of-flydubai-plane-describes-blocking-axe-blows-as-co-pilot-attacked-5637028",
-   "summary": "The plan was inspired by the September 11, 2001, attacks on the US",
-   "kind": "item",
-   "source": "Daily Monitor (Uganda)",
-   "source_id": "np-monitor-ug",
-   "tier": 2,
-   "country": "UG",
-   "category": "press",
-   "segments": [
-    "city",
-    "bush",
-    "beach"
-   ],
-   "first_seen": "2026-10-19T07:18+03:00",
-   "published": "2026-10-18",
-   "verdict": "weak"
-  },
-  {
-   "score": 65.8,
-   "components": {
-    "tier": 20,
-    "category": 4,
-    "lead": 0.0,
-    "relevance": 12,
-    "freshness": 19.8,
-    "corroborated": 10
-   },
-   "keywords": [
-    "capacity",
-    "investment"
-   ],
-   "shock_terms": [],
-   "dedupe_match": null,
-   "dedupe_similarity": 0.2,
-   "id": "ee2d9eaa19e5",
-   "title": "Local funding key to expanding port capacity",
-   "url": "https://dailynews.co.tz/local-funding-key-to-expanding-port-capacity",
-   "summary": "DAR ES SALAAM: TANZANIA\u2019S growing maritime trade is putting increasing pressure on port infrastructure, making sustained investment essential to expanding cargohandling capacity, improving efficiency and strengthening the country\u2019s position as a regional trade gateway. Dar es Salaam Port, the country\u2019s principal maritime gateway, handled 33.7 million tonnes of cargo in the 2025/26 financial year, ",
-   "kind": "item",
-   "source": "Daily News (Tanzania)",
-   "source_id": "np-dailynews-tz",
-   "tier": 2,
-   "country": "TZ",
-   "category": "press",
-   "segments": [
-    "city",
-    "bush",
-    "beach"
-   ],
-   "first_seen": "2026-10-19T11:59+03:00",
-   "published": "2026-10-19",
-   "verdict": "weak"
-  },
-  {
-   "score": 65.8,
-   "components": {
-    "tier": 20,
-    "category": 4,
-    "lead": 0.0,
-    "relevance": 12,
-    "freshness": 19.8,
-    "corroborated": 10
-   },
-   "keywords": [
-    "vat",
-    "investment"
-   ],
-   "shock_terms": [],
-   "dedupe_match": null,
-   "dedupe_similarity": 0.0,
-   "id": "2b3ed4fa9e92",
-   "title": "Innovation from investment to impact",
-   "url": "https://www.monitor.co.ug/uganda/oped/commentary/innovation-from-investment-to-impact-5637322",
-   "summary": "Adopting innovative practices will be critical to reducing the environmental footprint of...",
-   "kind": "item",
-   "source": "Daily Monitor (Uganda)",
-   "source_id": "np-monitor-ug",
-   "tier": 2,
-   "country": "UG",
-   "category": "press",
-   "segments": [
-    "city",
-    "bush",
-    "beach"
-   ],
-   "first_seen": "2026-10-19T11:59+03:00",
-   "published": "2026-10-19",
-   "verdict": "weak"
-  },
-  {
-   "score": 64.6,
-   "components": {
-    "tier": 20,
-    "category": 4,
-    "lead": 0.0,
-    "relevance": 16,
-    "freshness": 14.6,
-    "corroborated": 10
-   },
-   "keywords": [
-    "airport",
-    "hotel",
-    "exhibition"
-   ],
-   "shock_terms": [],
-   "dedupe_match": null,
-   "dedupe_similarity": 0.22,
-   "id": "144cd1b6e340",
-   "title": "Uganda, Somalia to Hold Mid-term JPC Review Alongside Business Forum",
-   "url": "https://softpower.ug/uganda-somalia-to-hold-mid-term-jpc-review-alongside-business-forum",
-   "summary": "Uganda and Somalia will review progress on commitments made under their Joint Permanent Commission (JPC) at a meeting in the Somali capital, Mogadishu, held alongside a business forum and joint exhibition from October 20 to 23. The mid-term review, at the Airport Hotel in Mogadishu, comes a year after the commission\u2019s second session in Kampala [\u2026] The post Uganda, Somalia to Hold Mid-term JPC Revi",
-   "kind": "item",
-   "source": "SoftPower News \u2014 Tourism & Travel (Uganda)",
-   "source_id": "ug-softpower-tourism",
-   "tier": 2,
-   "country": "UG",
-   "category": "press",
-   "segments": [
-    "bush",
-    "city"
-   ],
-   "first_seen": "2026-10-19T07:18+03:00",
-   "published": "2026-10-18",
-   "verdict": "weak"
-  },
-  {
-   "score": 64.2,
-   "components": {
-    "tier": 20,
-    "category": 4,
-    "lead": 2.4,
-    "relevance": 8,
-    "freshness": 19.8,
-    "corroborated": 10
-   },
-   "keywords": [
-    "election"
-   ],
-   "shock_terms": [],
-   "dedupe_match": null,
-   "dedupe_similarity": 0.0,
-   "id": "7219248935b8",
-   "title": "Ruto, CSs Make New Appointments to Govt",
-   "url": "https://www.kenyans.co.ke/news/127941-ruto-css-make-fresh-appointments-state-agencies-universities",
-   "summary": "The new appointments affect several state agencies, with the appointees expected to assume their roles immediately as the country prepares for the 2027 General Election.",
-   "kind": "item",
-   "source": "Kenyans.co.ke news",
-   "source_id": "ke-kenyans",
-   "tier": 2,
-   "country": "KE",
-   "category": "press",
-   "segments": [
-    "city",
-    "bush",
-    "beach"
-   ],
-   "first_seen": "2026-10-19T11:59+03:00",
-   "published": "2026-10-19",
-   "verdict": "weak"
-  },
-  {
-   "score": 63.8,
-   "components": {
-    "tier": 20,
-    "category": 4,
-    "lead": 0.0,
-    "relevance": 8,
-    "freshness": 19.8,
-    "undated": -6,
-    "shock": 18
-   },
-   "keywords": [
-    "strike"
-   ],
-   "shock_terms": [
-    "strike"
-   ],
-   "dedupe_match": null,
-   "dedupe_similarity": 0.0,
-   "id": "b5e026299a9c",
-   "title": "News Court of Appeal strikes out appeal filed by murder convict",
-   "url": "https://www.newvision.co.ug/category/news/court-of-appeal-strikes-out-appeal-filed-by-m-NV_242633_102026",
-   "summary": "",
-   "kind": "item",
-   "source": "New Vision (Uganda)",
-   "source_id": "np-newvision-ug",
-   "tier": 2,
-   "country": "UG",
-   "category": "press",
-   "segments": [
-    "city",
-    "bush",
-    "beach"
-   ],
-   "first_seen": "2026-10-19T11:59+03:00",
-   "published": null,
-   "verdict": "weak"
-  },
-  {
-   "score": 62.8,
-   "components": {
-    "tier": 20,
-    "category": 5,
-    "lead": 1.2,
-    "relevance": 12,
-    "freshness": 14.6,
-    "corroborated": 10
-   },
-   "keywords": [
-    "seat",
-    "flight"
-   ],
-   "shock_terms": [],
-   "dedupe_match": null,
-   "dedupe_similarity": 0.11,
-   "id": "eed1c8bf7861",
-   "title": "UK\u2019s India Growth Plan Means Getting Travelers Out of London",
-   "url": "https://skift.com/2026/10/18/uks-india-growth-plan-means-getting-travelers-out-of-london",
-   "summary": "The UK may not need to win many more Indian travelers so much as encourage the ones it gets already beyond London. With 94% of direct seats landing in the capital, a $2 billion visitor-spend target by 2030 will depend on regional flights and bookable itineraries.",
-   "kind": "item",
-   "source": "Skift",
-   "source_id": "tp-skift",
-   "tier": 2,
-   "country": "GLOBAL",
-   "category": "trade",
-   "segments": [
-    "city",
-    "bush",
-    "beach"
-   ],
-   "first_seen": "2026-10-19T07:18+03:00",
-   "published": "2026-10-19",
-   "verdict": "weak"
-  },
-  {
-   "score": 62.4,
-   "components": {
-    "tier": 20,
-    "category": 5,
-    "lead": 3.6,
-    "relevance": 4,
-    "freshness": 19.8,
-    "corroborated": 10
-   },
-   "keywords": [
-    "hotel"
-   ],
-   "shock_terms": [],
-   "dedupe_match": null,
-   "dedupe_similarity": 0.0,
-   "id": "29c269149df3",
-   "title": "As AI Assistants Reshape Travel Discovery, AI Hospitality Alliance Releases Comprehensive Hotel AI Visibility Guide",
-   "url": "https://www.hospitalitynet.org/news/4134978/as-ai-assistants-reshape-travel-discovery-ai-hospitality-alliance-releases-comprehensive-hotel-ai-visibility-guide",
-   "summary": "AIHA has released a free Hotel AI Visibility guide covering KPIs, self-assessments, and AEO strategy to help hotels control how AI assistants represent their properties to travelers.",
-   "kind": "item",
-   "source": "Hospitality Net \u2014 Africa announcements",
-   "source_id": "dev-hospitalitynet-africa",
-   "tier": 2,
-   "country": "REG",
-   "category": "trade",
-   "segments": [
-    "city",
-    "bush",
-    "beach"
-   ],
-   "first_seen": "2026-10-19T11:59+03:00",
-   "published": "2026-10-19",
-   "verdict": "weak"
-  },
-  {
-   "score": 62.4,
-   "components": {
-    "tier": 20,
-    "category": 5,
-    "lead": 3.6,
-    "relevance": 4,
-    "freshness": 19.8,
-    "corroborated": 10
-   },
-   "keywords": [
-    "hotel"
-   ],
-   "shock_terms": [],
-   "dedupe_match": null,
-   "dedupe_similarity": 0.0,
-   "id": "681e5b9f8286",
-   "title": "Enhancing the Dining Experience in Hotels: Strategies for Boosting Food and Beverage Revenues",
-   "url": "https://www.hospitalitynet.org/opinion/4134977/enhancing-the-dining-experience-in-hotels-strategies-for-boosting-food-and-beverage-revenues",
-   "summary": "A broad strategy guide covering ambiance, menu design, technology, upselling, loyalty programs, and sustainability to help hotels grow F&B revenues.",
-   "kind": "item",
-   "source": "Hospitality Net \u2014 Africa announcements",
-   "source_id": "dev-hospitalitynet-africa",
-   "tier": 2,
-   "country": "REG",
-   "category": "trade",
-   "segments": [
-    "city",
-    "bush",
-    "beach"
-   ],
-   "first_seen": "2026-10-19T11:59+03:00",
-   "published": "2026-10-19",
-   "verdict": "weak"
-  },
-  {
-   "score": 62.4,
-   "components": {
-    "tier": 20,
-    "category": 5,
-    "lead": 3.6,
-    "relevance": 4,
-    "freshness": 19.8,
-    "corroborated": 10
-   },
-   "keywords": [
-    "hotel"
-   ],
-   "shock_terms": [],
-   "dedupe_match": null,
-   "dedupe_similarity": 0.0,
-   "id": "5276dd900d12",
-   "title": "TFE Hotels\u2019 Academe Sets New Benchmark for Higher Education Pathways",
-   "url": "https://www.hospitalitynet.org/news/4134974/tfe-hotels-academe-sets-new-benchmark-for-higher-education-pathways",
-   "summary": "TFE Hotels becomes the first hotel group in Australia and New Zealand to have its internal leadership programs accredited for university credit across eight institutions, with 86% of recent graduates promoted.",
-   "kind": "item",
-   "source": "Hospitality Net \u2014 Africa announcements",
-   "source_id": "dev-hospitalitynet-africa",
-   "tier": 2,
-   "country": "REG",
-   "category": "trade",
-   "segments": [
-    "city",
-    "bush",
-    "beach"
-   ],
-   "first_seen": "2026-10-19T11:59+03:00",
-   "published": "2026-10-19",
-   "verdict": "weak"
-  },
-  {
-   "score": 61.8,
-   "components": {
-    "tier": 20,
-    "category": 4,
-    "lead": 0.0,
-    "relevance": 8,
-    "freshness": 19.8,
-    "corroborated": 10
-   },
-   "keywords": [
-    "eta"
-   ],
-   "shock_terms": [],
-   "dedupe_match": null,
-   "dedupe_similarity": 0.2,
-   "id": "0a0cccda87c9",
-   "title": "New technology could transform Tanzania\u2019s disaster preparedness",
-   "url": "https://dailynews.co.tz/new-technology-could-transform-tanzanias-disaster-preparedness",
-   "summary": "TANZANIA\u2019S growing interest in satellite technology and artificial intelligence (AI) marks an important shift in disaster management from responding after disasters occur to anticipating risks and preparing in advance. A recent working visit to T\u00fcrkiye by Permanent Secretary in the Prime Minister\u2019s Office (Policy, Parliament, Coordination and Persons with Disabilities), Dr Jim Yonazi, highlights t",
-   "kind": "item",
-   "source": "Daily News (Tanzania)",
-   "source_id": "np-dailynews-tz",
-   "tier": 2,
-   "country": "TZ",
-   "category": "press",
-   "segments": [
-    "city",
-    "bush",
-    "beach"
-   ],
-   "first_seen": "2026-10-19T11:59+03:00",
-   "published": "2026-10-19",
-   "verdict": "weak"
-  },
-  {
-   "score": 61.8,
-   "components": {
-    "tier": 20,
-    "category": 4,
-    "lead": 0.0,
-    "relevance": 8,
-    "freshness": 19.8,
-    "corroborated": 10
-   },
-   "keywords": [
-    "electricity"
-   ],
-   "shock_terms": [],
-   "dedupe_match": null,
-   "dedupe_similarity": 0.2,
-   "id": "52447f0c7060",
-   "title": "CEOrt urges joint action to curb climate losses",
-   "url": "https://dailynews.co.tz/ceort-urges-joint-action-to-curb-climate-losses",
-   "summary": "DAR ES SALAAM: THE CEO Roundtable of Tanzania (CEOrt) has called for stronger government-business coordination to reduce the economic costs of recurring climate shocks, protect infrastructure and maintain business continuity. Business leaders and climate experts said repeated damage to roads, electricity networks and drainage systems expose vulnerabilities that individual companies could not adequ",
-   "kind": "item",
-   "source": "Daily News (Tanzania)",
-   "source_id": "np-dailynews-tz",
-   "tier": 2,
-   "country": "TZ",
-   "category": "press",
-   "segments": [
-    "city",
-    "bush",
-    "beach"
-   ],
-   "first_seen": "2026-10-19T11:59+03:00",
-   "published": "2026-10-19",
-   "verdict": "weak"
-  },
-  {
-   "score": 61.8,
-   "components": {
-    "tier": 20,
-    "category": 4,
-    "lead": 0.0,
-    "relevance": 8,
-    "freshness": 19.8,
-    "corroborated": 10
-   },
-   "keywords": [
-    "fuel"
-   ],
-   "shock_terms": [],
-   "dedupe_match": null,
-   "dedupe_similarity": 0.14,
-   "id": "f83a30aa8f54",
-   "title": "Govt bought fuel security in KPC: What do the numbers reveal now?",
-   "url": "https://www.monitor.co.ug/uganda/business/markets/govt-bought-fuel-security-in-kpc-what-do-the-numbers-reveal-now--5637216",
-   "summary": "KPC recommended a dividend of Shs9.12 per share, amounting to about Shs165.3b, which, if...",
-   "kind": "item",
-   "source": "Daily Monitor (Uganda)",
-   "source_id": "np-monitor-ug",
-   "tier": 2,
-   "country": "UG",
-   "category": "press",
-   "segments": [
-    "city",
-    "bush",
-    "beach"
-   ],
-   "first_seen": "2026-10-19T11:59+03:00",
-   "published": "2026-10-19",
-   "verdict": "weak"
-  },
-  {
-   "score": 61.8,
-   "components": {
-    "tier": 20,
-    "category": 4,
-    "lead": 0.0,
-    "relevance": 8,
-    "freshness": 19.8,
-    "corroborated": 10
-   },
-   "keywords": [
-    "fee"
-   ],
-   "shock_terms": [],
-   "dedupe_match": null,
-   "dedupe_similarity": 0.12,
-   "id": "69a6393da16c",
-   "title": "The emotional cost of sending learners home over unpaid fees",
-   "url": "https://www.monitor.co.ug/uganda/news/education/the-emotional-cost-of-sending-learners-home-over-unpaid-fees-5637278",
-   "summary": "Experts say the way learners are sent home, the duration of their absence and the support they...",
-   "kind": "item",
-   "source": "Daily Monitor (Uganda)",
-   "source_id": "np-monitor-ug",
-   "tier": 2,
-   "country": "UG",
-   "category": "press",
-   "segments": [
-    "city",
-    "bush",
-    "beach"
-   ],
-   "first_seen": "2026-10-19T11:59+03:00",
-   "published": "2026-10-19",
-   "verdict": "weak"
-  },
-  {
-   "score": 61.2,
-   "components": {
-    "tier": 20,
-    "category": 5,
-    "lead": 2.4,
-    "relevance": 4,
-    "freshness": 19.8,
-    "corroborated": 10
-   },
-   "keywords": [
-    "hotel"
-   ],
-   "shock_terms": [],
-   "dedupe_match": null,
-   "dedupe_similarity": 0.0,
-   "id": "f83a2a8fa1cb",
-   "title": "As AI Assistants Reshape Travel Discovery, AI Hospitality Alliance Releases Comprehensive Hotel AI Visibility Guide",
-   "url": "https://www.hospitalitynet.org/news/4134978/as-ai-assistants-reshape-travel-discovery-ai-hospitality-alliance-releases-comprehensive-hotel-ai-visibility-guide",
-   "summary": "AIHA has released a free Hotel AI Visibility guide covering KPIs, self-assessments, and AEO strategy to help hotels control how AI assistants represent their properties to travelers.",
    "kind": "item",
    "source": "Hospitality Net: Africa openings",
    "source_id": "dev-hospitalitynet-openings",
