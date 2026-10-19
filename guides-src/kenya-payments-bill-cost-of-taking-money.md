@@ -4,8 +4,9 @@ slug: kenya-payments-bill-cost-of-taking-money
 description: Treasury and the Central Bank spent the first week and a half of October taking public views on a Bill that rewrites the licensing of every company standing between a guest's card and a lodge's bank account. One of the eleven hearings was held in a hotel. The hospitality industry, which has already been taught once this year what a payment rail costs it, was largely somewhere else.
 category: Big Read
 updated: 2026-10-19
+image: "img/editions/kenya-payments-bill-cost-of-taking-money.jpg"
+image_credit: "Illustration: Onyango George / EA Hospitality Pulse"
 ---
-
 One of the eleven public forums on the draft National Payment System Bill was held at the Mombasa Beach Hotel, between nine in the morning and one in the afternoon, in a function room of the sort East African hotels rent out for about the price of a mid-season double. The venue was incidental. The subject was not. Somewhere in that building a card terminal was taking a deposit on a December booking, routed through a payment gateway whose right to exist in its current form is exactly what the Bill in the room was proposing to rewrite.
 
 The National Treasury and the Central Bank of Kenya published the draft Bill, alongside a draft National Payment System Policy, on 21 September. The public participation window ran from 28 September to 9 October, across eleven venues from Garissa to Nandi, with submissions accepted by post, by hand at the Governor's office on Haile Selassie Avenue, or by email to paymentslawreview@centralbank.go.ke. The notice was signed by John Mbadi, Cabinet Secretary for the National Treasury. The Bill would repeal the National Payment System Act, Cap. 491A, the statute under which every payment service provider in Kenya currently operates. The window has now closed.
