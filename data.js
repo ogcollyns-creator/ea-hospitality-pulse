@@ -1,5 +1,14 @@
 window.EDITIONS = [
  {
+  "id": "pulse-2026-10-20-evening",
+  "date": "2026-10-20",
+  "dateDisplay": "Tuesday, 20 October 2026",
+  "edition": "Evening Wrap",
+  "editionKey": "evening",
+  "summary": "The US raised Kenya from Level 2 to Level 3 on 19 October, citing Ebola alongside crime and terrorism",
+  "bodyHtml": "<p><strong>The US raised Kenya from Level 2 to Level 3 on 19 October, citing Ebola alongside crime and terrorism</strong><br><em>🌆 Evening Wrap · Tue 20 Oct 2026</em></p>\n<p>━━━━━━━━━<br><span class=\"item-head\">1️⃣ The US raised Kenya from Level 2 to Level 3 on 19 October, citing Ebola alongside crime and terrorism</span></p>\n<p>travel.state.gov now reads &quot;Reconsider Travel&quot; for Kenya, led by health risk after eight confirmed Ebola cases. Level 4 areas are unchanged: Eastleigh, Kibera, the north-east and north coast, West Pokot and Turkana. The page footer still says &quot;last updated 30 July&quot;, which conflicts with the 19 Oct issue date <strong>(US State Department, read 20 Oct; Kenyans.co.ke, 20 Oct)</strong>. UK FCDO re-dated Kenya on 16 Oct for Ebola screening with no level change, and Canada&#x27;s 15 Oct update kept &quot;high degree of caution&quot; <strong>(FCDO; travel.gc.ca, read 20 Oct)</strong>.<br>Our inference: Kenya now ranks above Tanzania (Level 2 since 16 Oct) in US eyes, and level-triggered rules at some insurers and corporate travel desks may bite. The UK and Canadian levels are unchanged.<br><span class=\"sowhat\">🎯 So what: ask US agents which policies they apply, offer free date changes instead of discounts, and send US guests the Level 4 map.</span><br><span class=\"tagline\">🏷 City, Bush, Beach | Kenya | Confirmed | impact:risk</span></p>\n<p><span class=\"item-head\">2️⃣ Kenya&#x27;s public health workers&#x27; strike reached 90 days on 19 October, with nationwide demonstrations threatened from Wednesday 21 October</span></p>\n<p>The Kenya Environmental Health and Public Health Practitioners Union gave government 48 hours to end the strike. It wants permanent jobs for contract staff, higher risk allowances and signed pay deals honoured. Leaders warn the strike undermines Ebola containment, with about 4,200 public health officers serving nearly 50 million people <strong>(Kenyans.co.ke, 19 Oct, 19:50 EAT)</strong>. A separate fuel-price protest call tied to Mashujaa Day, 20 Oct, names no date or route and no police statement; matatu owners say they will not strike <strong>(The Star, 20 Oct)</strong>.<br>Our inference: two protest calls in 48 hours raise the odds of Nairobi road delays.<br><span class=\"sowhat\">🎯 So what: add buffer to Wednesday airport transfers and confirm staff commutes tonight.</span><br><span class=\"tagline\">🏷 City | Kenya | Reported | impact:risk</span></p>\n<p><span class=\"item-head\">3️⃣ Zanzibar&#x27;s airline seats are forecast to rise 33% over six months while online-agency room rates fell about 18% in the year to October</span></p>\n<p>ATTA released Data Appeal Mabrian figures at its Essence of Africa buyer forum in Zanzibar, 20 to 22 Oct. Domestic seats are up 36% and international 31% year on year; forward GDS bookings to March 2027 are up 10%; UK bookings are up 51%. The release gives no arrivals figures and does not explain how the 33% was built <strong>(VoyagesAfriq, 20 Oct; ATTA)</strong>.<br>Our inference: seats are growing faster than forward bookings, so the 18% rate drop may continue. The bases differ, so this is direction only.<br><span class=\"sowhat\">🎯 So what: hold December to March rates, and check parity before releasing allotments.</span><br><span class=\"tagline\">🏷 Beach | Zanzibar, Tanzania | Reported | impact:watch</span></p>\n<p><strong>🏗 DEAL FLOW:</strong> No verified EA deal flow in the window.</p>\n<p><strong>📻 ALSO TONIGHT</strong><br>🇪🇹 Ethiopian Airlines&#x27; NDC fares went live on AirGateway on 19 Oct; the aggregator says zero transaction fees, with no duration given <strong>(travelnews.africa, 19 Oct)</strong>.<br>🇷🇼 Rwanda approved a World Bank facility of about US$80m (Rwf118bn) for business loans; sectors not stated <strong>(The New Times, 19 Oct)</strong>.</p>\n<p><strong>📅 WEEK AHEAD</strong> Wed 21 Oct: union demonstrations threatened in Kenya. About 30 Oct: KNBS October CPI.</p>\n<p><strong>🔍 BLIND SPOTS</strong> Not opened, web-scanned only: WHO, Africa CDC, Uganda MoH, Zanzibar MoH, KCAA, UWA, TANAPA, NCAA and four gazettes. German and French Kenya advisories unconfirmed today. Tier C rotation not run.</p>\n<p>🔗 This edition on the web: <a href=\"https://eahospitalitypulse.com/editions/pulse-2026-10-20-evening.html\" rel=\"noopener\">eahospitalitypulse.com/editions/pulse-2026-10-20-evenin…</a></p>"
+ },
+ {
   "id": "pulse-2026-10-19-evening",
   "date": "2026-10-19",
   "dateDisplay": "Monday, 19 October 2026",
@@ -1252,6 +1261,65 @@ window.EDITIONS = [
  }
 ];
 window.INSIGHTS = [
+ {
+  "headline": "The US raised Kenya from Level 2 to Level 3 on 19 October, citing Ebola alongside crime and terrorism",
+  "body": "travel.state.gov now reads \"Reconsider Travel\" for Kenya, led by health risk after eight confirmed Ebola cases. Level 4 areas are unchanged: Eastleigh, Kibera, the north-east and north coast, West Pokot and Turkana. The page footer still says \"last updated 30 July\", which conflicts with the 19 Oct issue date *(US State Department, read 20 Oct; Kenyans.co.ke, 20 Oct)*. UK FCDO re-dated Kenya on 16 Oct for Ebola screening with no level change, and Canada's 15 Oct update kept \"high degree of caution\" *(FCDO; travel.gc.ca, read 20 Oct)*. Our inference: Kenya now ranks above Tanzania (Level 2 since 16 Oct) in US eyes, and level-triggered rules at some insurers and corporate travel desks may bite. The UK and Canadian levels are unchanged.",
+  "sowhat": "🎯 So what: ask US agents which policies they apply, offer free date changes instead of discounts, and send US guests the Level 4 map.",
+  "segments": [
+   "city",
+   "bush",
+   "beach"
+  ],
+  "countries": "Kenya",
+  "confidence": "Confirmed",
+  "impact": "risk",
+  "impactClass": "risk",
+  "intensity": 3,
+  "impactSet": "author",
+  "source": "pulse-2026-10-20-evening",
+  "date": "2026-10-20",
+  "dateDisplay": "Tuesday, 20 October 2026",
+  "edition": "Evening Wrap",
+  "editionKey": "evening"
+ },
+ {
+  "headline": "Kenya's public health workers' strike reached 90 days on 19 October, with nationwide demonstrations threatened from Wednesday 21 October",
+  "body": "The Kenya Environmental Health and Public Health Practitioners Union gave government 48 hours to end the strike. It wants permanent jobs for contract staff, higher risk allowances and signed pay deals honoured. Leaders warn the strike undermines Ebola containment, with about 4,200 public health officers serving nearly 50 million people *(Kenyans.co.ke, 19 Oct, 19:50 EAT)*. A separate fuel-price protest call tied to Mashujaa Day, 20 Oct, names no date or route and no police statement; matatu owners say they will not strike *(The Star, 20 Oct)*. Our inference: two protest calls in 48 hours raise the odds of Nairobi road delays.",
+  "sowhat": "🎯 So what: add buffer to Wednesday airport transfers and confirm staff commutes tonight.",
+  "segments": [
+   "city"
+  ],
+  "countries": "Kenya",
+  "confidence": "Reported",
+  "impact": "risk",
+  "impactClass": "risk",
+  "intensity": 2,
+  "impactSet": "author",
+  "source": "pulse-2026-10-20-evening",
+  "date": "2026-10-20",
+  "dateDisplay": "Tuesday, 20 October 2026",
+  "edition": "Evening Wrap",
+  "editionKey": "evening"
+ },
+ {
+  "headline": "Zanzibar's airline seats are forecast to rise 33% over six months while online-agency room rates fell about 18% in the year to October",
+  "body": "ATTA released Data Appeal Mabrian figures at its Essence of Africa buyer forum in Zanzibar, 20 to 22 Oct. Domestic seats are up 36% and international 31% year on year; forward GDS bookings to March 2027 are up 10%; UK bookings are up 51%. The release gives no arrivals figures and does not explain how the 33% was built *(VoyagesAfriq, 20 Oct; ATTA)*. Our inference: seats are growing faster than forward bookings, so the 18% rate drop may continue. The bases differ, so this is direction only.",
+  "sowhat": "🎯 So what: hold December to March rates, and check parity before releasing allotments.",
+  "segments": [
+   "beach"
+  ],
+  "countries": "Zanzibar, Tanzania",
+  "confidence": "Reported",
+  "impact": "watch",
+  "impactClass": "watch",
+  "intensity": 2,
+  "impactSet": "author",
+  "source": "pulse-2026-10-20-evening",
+  "date": "2026-10-20",
+  "dateDisplay": "Tuesday, 20 October 2026",
+  "edition": "Evening Wrap",
+  "editionKey": "evening"
+ },
  {
   "headline": "Kenya's Ebola count reached eight on 18 October after a Nairobi Hospital patient attendant tested positive",
   "body": "The Ministry of Health tested 38 contacts on Sunday and one was positive: a 49-year-old man who attended the first patient and was already in quarantine. Director General Patrick Amoth says he is not a direct health worker, is isolated, and that the other confirmed patients have received monoclonal antibody treatment. This follows seven cases on 17 Oct, three of them health workers. The Ministry still reports no community transmission and no restriction on travel, trade or gatherings *(Ministry of Health via Kenyans.co.ke, 19 Oct; Kenyans.co.ke, 17 Oct)*. Our inference: the count rose four times between 14 and 18 Oct, always inside quarantine, so the 21-day clock can keep resetting into November.",
@@ -7260,4 +7328,4 @@ window.INSIGHTS = [
   "editionKey": "evening"
  }
 ];
-window.BUILT_AT = "2026-10-20 18:51";
+window.BUILT_AT = "2026-10-20 19:05";
