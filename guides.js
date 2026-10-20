@@ -1,5 +1,14 @@
 window.GUIDES = [
  {
+  "slug": "kenya-signature-experiences-no-till",
+  "title": "Kenya curated 75 experiences this month. Not one of them can be bought where it is displayed.",
+  "description": "The Magical Kenya Signature Experiences collection grew to 75 entries on 15 October. The public page carries no price, no availability and no booking button, and Kenya's own draft tourism strategy already names the missing piece.",
+  "category": "Big Read",
+  "updated": "2026-10-20",
+  "readMins": 8,
+  "image": "img/editions/kenya-signature-experiences-no-till.jpg"
+ },
+ {
   "slug": "kenya-payments-bill-cost-of-taking-money",
   "title": "The law that reprices every deposit your lodge takes",
   "description": "Treasury and the Central Bank spent the first week and a half of October taking public views on a Bill that rewrites the licensing of every company standing between a guest's card and a lodge's bank account. One of the eleven hearings was held in a hotel. The hospitality industry, which has already been taught once this year what a payment rail costs it, was largely somewhere else.",
