@@ -1,64 +1,18 @@
 {
- "generated": "2026-10-20T17:46:45+03:00",
+ "generated": "2026-10-20T22:28:11+03:00",
  "slot": "evening",
  "window_start": 1792411200,
- "observations_in_window": 1107,
- "deduped_against": 20,
+ "observations_in_window": 1347,
+ "deduped_against": 23,
  "candidates": [
   {
-   "score": 148.1,
-   "components": {
-    "tier": 40,
-    "category": 32,
-    "lead": 1.2,
-    "relevance": 60,
-    "freshness": 2.9,
-    "undated": -6,
-    "shock": 18
-   },
-   "keywords": [
-    "advisory",
-    "outbreak",
-    "ebola",
-    "terror",
-    "kidnap",
-    "level 3",
-    "traffic"
-   ],
-   "shock_terms": [
-    "level 3",
-    "reconsider travel",
-    "outbreak"
-   ],
-   "dedupe_match": null,
-   "dedupe_similarity": 0.33,
-   "id": "7880ed2752b3",
-   "title": "Kenya - Level 3: Reconsider Travel",
-   "url": "https://travel.state.gov/content/tsg_aem/us/en/home/international-travel/travel-advisories/destination.ken.html",
-   "summary": "Reconsider travel to Kenya due to risk of health, crime, kidnapping, terrorism, unrest , and traffic safety . Some areas have increased risk. Read the entire Travel Advisory. The U.S. Centers for Disease Control and Prevention (CDC) has issued a Travel Health Notice for Ebola Bundibugyo Virus Disease for Kenya . The U.S. Centers for Disease Control and Prevention (CDC) has issued a Travel Health N",
-   "kind": "item",
-   "source": "US State Dept travel advisories (EA feed)",
-   "source_id": "adv-us-ea",
-   "tier": 1,
-   "country": "REG",
-   "category": "advisory",
-   "segments": [
-    "city",
-    "bush",
-    "beach"
-   ],
-   "first_seen": "2026-10-20T02:24+03:00",
-   "published": null,
-   "verdict": "LEAD CANDIDATE \u2014 tier-1 shock language"
-  },
-  {
-   "score": 129.7,
+   "score": 124.5,
    "components": {
     "tier": 40,
     "category": 32,
     "lead": 2.4,
     "relevance": 24,
-    "freshness": 19.3,
+    "freshness": 14.1,
     "undated": -6,
     "shock": 18
    },
@@ -71,7 +25,7 @@
     "reconsider travel"
    ],
    "dedupe_match": null,
-   "dedupe_similarity": 0.2,
+   "dedupe_similarity": 0.4,
    "id": "827c912dfb69",
    "title": "Travel Advisory \u2013 Kenya Level 3 \u2013 Reconsider Travel",
    "url": "https://ke.usembassy.gov/travel-advisory-kenya-level-3-reconsider-travel",
@@ -92,13 +46,13 @@
    "verdict": "LEAD CANDIDATE \u2014 tier-1 shock language"
   },
   {
-   "score": 114.5,
+   "score": 111.6,
    "components": {
     "tier": 40,
     "category": 32,
     "lead": 3.6,
     "relevance": 24,
-    "freshness": 2.9,
+    "freshness": 0.0,
     "undated": -6,
     "shock": 18
    },
@@ -111,7 +65,7 @@
     "reconsider travel"
    ],
    "dedupe_match": null,
-   "dedupe_similarity": 0.2,
+   "dedupe_similarity": 0.4,
    "id": "eb4dcb5cb12d",
    "title": "Travel Advisory \u2013 Kenya Level 3 \u2013 Reconsider Travel",
    "url": "https://ke.usembassy.gov/travel-advisory-kenya-level-3-reconsider-travel",
@@ -132,13 +86,13 @@
    "verdict": "LEAD CANDIDATE \u2014 tier-1 shock language"
   },
   {
-   "score": 111.0,
+   "score": 105.9,
    "components": {
     "tier": 40,
     "category": 32,
     "lead": 12.0,
     "relevance": 8,
-    "freshness": 13.0,
+    "freshness": 7.9,
     "corroborated": 10,
     "page_change": -4
    },
@@ -167,13 +121,46 @@
    "verdict": "OPEN THIS \u2014 tier-1 advisory page moved; content not auto-parsed, read it manually"
   },
   {
-   "score": 100.9,
+   "score": 101.3,
    "components": {
     "tier": 40,
     "category": 32,
     "lead": 3.6,
     "relevance": 0,
-    "freshness": 19.3,
+    "freshness": 19.7,
+    "corroborated": 10,
+    "page_change": -4
+   },
+   "keywords": [],
+   "shock_terms": [],
+   "dedupe_match": null,
+   "dedupe_similarity": 0.08,
+   "id": "f8c4b72d95d6",
+   "title": "[page changed] Federal Register \u2014 public inspection (HHS/CDC), pre-publication",
+   "url": "https://www.federalregister.gov/api/v1/public-inspection-documents/current.json",
+   "summary": "{\"count\":64,\"results\":[{\"agencies\":[{\"raw_name\":\"Indian Affairs Bureau\",\"name\":\"Indian Affairs Bureau\",\"id\":234,\"url\":\"https://www.federalregister.gov/agencies/indian-affairs-bureau\",\"json_url\":\"https://www.federalregister.gov/api/v1/agencies/234\",\"parent_id\":253,\"slug\":\"indian-affairs-bureau\"}],\"agency_letters\":[],\"agency_names\":[\"Indian Affairs Bureau\"],\"docket_numbers\":[],\"document_number\":\"202",
+   "kind": "page-change",
+   "source": "Federal Register \u2014 public inspection (HHS/CDC), pre-publication",
+   "source_id": "us-fedreg-pubinspect-hhs",
+   "tier": 1,
+   "country": "REG",
+   "category": "advisory",
+   "segments": [
+    "city",
+    "bush"
+   ],
+   "first_seen": "2026-10-20T22:23+03:00",
+   "published": "2026-10-20",
+   "verdict": "OPEN THIS \u2014 tier-1 advisory page moved; content not auto-parsed, read it manually"
+  },
+  {
+   "score": 95.7,
+   "components": {
+    "tier": 40,
+    "category": 32,
+    "lead": 3.6,
+    "relevance": 0,
+    "freshness": 14.1,
     "corroborated": 10,
     "page_change": -4
    },
@@ -277,13 +264,47 @@
    "verdict": "OPEN THIS \u2014 tier-1 health page moved; content not auto-parsed, read it manually"
   },
   {
-   "score": 53.4,
+   "score": 65.3,
    "components": {
     "tier": 40,
     "category": 12,
     "lead": 3.6,
     "relevance": 0,
-    "freshness": 7.8,
+    "freshness": 19.7,
+    "undated": -6,
+    "page_change": -4
+   },
+   "keywords": [],
+   "shock_terms": [],
+   "dedupe_match": null,
+   "dedupe_similarity": 0.0,
+   "id": "be4c5d11feda",
+   "title": "[page changed] Airlink news",
+   "url": "https://www.flyairlink.com/",
+   "summary": "Request unsuccessful. Incapsula incident ID: 1019000060210339567-257050648816320949",
+   "kind": "page-change",
+   "source": "Airlink news",
+   "source_id": "air-airlink",
+   "tier": 1,
+   "country": "REG",
+   "category": "airline",
+   "segments": [
+    "city",
+    "bush",
+    "beach"
+   ],
+   "first_seen": "2026-10-20T22:22+03:00",
+   "published": null,
+   "verdict": "OPEN THIS \u2014 tier-1 airline page moved; content not auto-parsed, read it manually"
+  },
+  {
+   "score": 48.2,
+   "components": {
+    "tier": 40,
+    "category": 12,
+    "lead": 3.6,
+    "relevance": 0,
+    "freshness": 2.6,
     "undated": -6,
     "page_change": -4
    },
@@ -345,13 +366,481 @@
    "verdict": "OPEN THIS \u2014 tier-1 airline page moved; content not auto-parsed, read it manually"
   },
   {
+   "score": 111.5,
+   "components": {
+    "tier": 40,
+    "category": 9,
+    "lead": 16.8,
+    "relevance": 16,
+    "freshness": 19.7,
+    "corroborated": 10
+   },
+   "keywords": [
+    "fee",
+    "hotel",
+    "resort"
+   ],
+   "shock_terms": [],
+   "dedupe_match": null,
+   "dedupe_similarity": 0.0,
+   "id": "e1dca4f02c0f",
+   "title": "Team Members Rank Hilton the No. 1 Best Workplace in Hotels & Resorts",
+   "url": "https://stories.hilton.com/releases/team-members-rank-hilton-the-no-1-best-workplace-in-hotels-resorts",
+   "summary": "MCLEAN, Va. \u2013 Today, Hilton (NYSE: HLT) announced that it has been named the No. 1 Best Workplace in Great Place to Work\u2019s first ranking of the Best Workplaces in Hotels & Resorts. Based on feedback from Hilton team members across the U.S., the recognition reflects a people-first culture designed to help team members build [\u2026] The post Team Members Rank Hilton the No. 1 Best Workplace in Hotels & ",
+   "kind": "item",
+   "source": "Hilton stories/newsroom",
+   "source_id": "dev-hilton",
+   "tier": 1,
+   "country": "GLOBAL",
+   "category": "hotel-group",
+   "segments": [
+    "city",
+    "bush",
+    "beach"
+   ],
+   "first_seen": "2026-10-20T22:22+03:00",
+   "published": "2026-10-20",
+   "verdict": "STRONG \u2014 tier-1, upstream"
+  },
+  {
+   "score": 103.5,
+   "components": {
+    "tier": 40,
+    "category": 9,
+    "lead": 16.8,
+    "relevance": 8,
+    "freshness": 19.7,
+    "corroborated": 10
+   },
+   "keywords": [
+    "vat"
+   ],
+   "shock_terms": [],
+   "dedupe_match": null,
+   "dedupe_similarity": 0.14,
+   "id": "91c974670074",
+   "title": "Hilton Announces Planned Transfer of Stock Listing to Nasdaq",
+   "url": "https://stories.hilton.com/releases/hilton-announces-planned-transfer-of-stock-listing-to-nasdaq",
+   "summary": "McLEAN, Va. \u2013 Hilton (NYSE: HLT) today announced plans to transfer the listing of its common stock from the New York Stock Exchange to Nasdaq, marking the latest milestone in the company\u2019s evolution as an innovative, fast-growing, capital-efficient hospitality leader. Hilton expects its common stock to begin trading on Nasdaq under its existing ticker symbol, [\u2026] The post Hilton Announces Planned ",
+   "kind": "item",
+   "source": "Hilton stories/newsroom",
+   "source_id": "dev-hilton",
+   "tier": 1,
+   "country": "GLOBAL",
+   "category": "hotel-group",
+   "segments": [
+    "city",
+    "bush",
+    "beach"
+   ],
+   "first_seen": "2026-10-20T22:22+03:00",
+   "published": "2026-10-20",
+   "verdict": "STRONG \u2014 tier-1, upstream"
+  },
+  {
+   "score": 102.5,
+   "components": {
+    "tier": 40,
+    "category": 16,
+    "lead": 16.8,
+    "relevance": 0,
+    "freshness": 19.7,
+    "corroborated": 10
+   },
+   "keywords": [],
+   "shock_terms": [],
+   "dedupe_match": null,
+   "dedupe_similarity": 0.17,
+   "id": "b5af2d07e993",
+   "title": "Natural Capital Accounting \u2013 National Policy Forum",
+   "url": "https://www.knbs.or.ke/natural-capital-accounting-national-policy-forum",
+   "summary": "",
+   "kind": "item",
+   "source": "KNBS advance release calendar",
+   "source_id": "ke-knbs-calendar",
+   "tier": 1,
+   "country": "KE",
+   "category": "statistics",
+   "segments": [
+    "city",
+    "bush",
+    "beach"
+   ],
+   "first_seen": "2026-10-20T22:22+03:00",
+   "published": "2026-10-20",
+   "verdict": "STRONG \u2014 tier-1, upstream"
+  },
+  {
+   "score": 99.5,
+   "components": {
+    "tier": 40,
+    "category": 9,
+    "lead": 16.8,
+    "relevance": 4,
+    "freshness": 19.7,
+    "corroborated": 10
+   },
+   "keywords": [
+    "hotel"
+   ],
+   "shock_terms": [],
+   "dedupe_match": null,
+   "dedupe_similarity": 0.08,
+   "id": "db105bee667b",
+   "title": "Signia Hilton Savannah Reaches Major Construction Milestone with Topping Out Ceremony",
+   "url": "https://stories.hilton.com/releases/signia-hilton-savannah-reaches-major-construction-milestone",
+   "summary": "SAVANNAH, Ga. \u2013 Signia Hilton Savannah reached a major construction milestone today as the Savannah-Georgia Convention Center Authority (SGCCA), Savannah Convention Center, Hilton, Brasfield & Gorrie, Songy Highroads, elected officials and community partners celebrated the topping out of the 444-room hotel. The property will serve as the headquarters hotel for the Savannah Convention Center, furth",
+   "kind": "item",
+   "source": "Hilton stories/newsroom",
+   "source_id": "dev-hilton",
+   "tier": 1,
+   "country": "GLOBAL",
+   "category": "hotel-group",
+   "segments": [
+    "city",
+    "bush",
+    "beach"
+   ],
+   "first_seen": "2026-10-20T22:22+03:00",
+   "published": "2026-10-20",
+   "verdict": "STRONG \u2014 tier-1, upstream"
+  },
+  {
    "score": 95.7,
+   "components": {
+    "tier": 20,
+    "category": 4,
+    "lead": 0.0,
+    "relevance": 24,
+    "freshness": 19.7,
+    "corroborated": 10,
+    "shock": 18
+   },
+   "keywords": [
+    "outbreak",
+    "ebola"
+   ],
+   "shock_terms": [
+    "outbreak"
+   ],
+   "dedupe_match": null,
+   "dedupe_similarity": 0.17,
+   "id": "f7687cf54f68",
+   "title": "Africa\u2019s conflicts, Ebola outbreak halt children\u2019s education",
+   "url": "https://www.theeastafrican.co.ke/tea/news/east-africa/africa-s-conflicts-ebola-outbreak-halt-children-s-education-5638604",
+   "summary": "The warnings are contained in a report by the Norwegian Refugee Council (NRC), an aid agency...",
+   "kind": "item",
+   "source": "The EastAfrican",
+   "source_id": "np-eastafrican",
+   "tier": 2,
+   "country": "REG",
+   "category": "press",
+   "segments": [
+    "city",
+    "bush",
+    "beach"
+   ],
+   "first_seen": "2026-10-20T22:24+03:00",
+   "published": "2026-10-20",
+   "verdict": "CONSIDER"
+  },
+  {
+   "score": 95.7,
+   "components": {
+    "tier": 20,
+    "category": 4,
+    "lead": 0.0,
+    "relevance": 24,
+    "freshness": 19.7,
+    "corroborated": 10,
+    "shock": 18
+   },
+   "keywords": [
+    "outbreak",
+    "ebola"
+   ],
+   "shock_terms": [
+    "reconsider travel",
+    "outbreak"
+   ],
+   "dedupe_match": null,
+   "dedupe_similarity": 0.33,
+   "id": "a59cb3ebc3a7",
+   "title": "'Reconsider travel': US raises warning level for Kenya over surging Ebola risk",
+   "url": "https://www.theeastafrican.co.ke/tea/news/world/us-raises-warning-level-for-kenya-over-surging-ebola-risk-5638520",
+   "summary": "The alert comes as Kenya confirms eight Ebola cases amidst a broader regional outbreak.",
+   "kind": "item",
+   "source": "The EastAfrican",
+   "source_id": "np-eastafrican",
+   "tier": 2,
+   "country": "REG",
+   "category": "press",
+   "segments": [
+    "city",
+    "bush",
+    "beach"
+   ],
+   "first_seen": "2026-10-20T22:24+03:00",
+   "published": "2026-10-20",
+   "verdict": "CONSIDER"
+  },
+  {
+   "score": 93.5,
+   "components": {
+    "tier": 40,
+    "category": 15,
+    "lead": 16.8,
+    "relevance": 8,
+    "freshness": 19.7,
+    "undated": -6
+   },
+   "keywords": [
+    "tax"
+   ],
+   "shock_terms": [],
+   "dedupe_match": null,
+   "dedupe_similarity": 0.0,
+   "id": "d9ce3dda2a9c",
+   "title": "CG MWENDA REASSURES BUSINESSES: NO BUSINESS WILL BE CLOSED OVER TAX CHALLENGES",
+   "url": "https://www.tra.go.tz/news/cg-mwenda-reassures-businesses-no-business-will-be-closed-over-tax-challenges",
+   "summary": "",
+   "kind": "item",
+   "source": "Tanzania Revenue Authority",
+   "source_id": "tz-tra",
+   "tier": 1,
+   "country": "TZ",
+   "category": "fiscal",
+   "segments": [
+    "city",
+    "bush",
+    "beach"
+   ],
+   "first_seen": "2026-10-20T22:23+03:00",
+   "published": null,
+   "verdict": "STRONG \u2014 tier-1, upstream"
+  },
+  {
+   "score": 93.5,
+   "components": {
+    "tier": 40,
+    "category": 15,
+    "lead": 16.8,
+    "relevance": 8,
+    "freshness": 19.7,
+    "undated": -6
+   },
+   "keywords": [
+    "tax"
+   ],
+   "shock_terms": [],
+   "dedupe_match": null,
+   "dedupe_similarity": 0.11,
+   "id": "72a31e5c3bfe",
+   "title": "PARLIAMENTARY BUDGET COMMITTEE COMMENDS TRA FOR REVENUE COLLECTION PERFORMANCE AND DIGITAL TAX SYSTEMS",
+   "url": "https://www.tra.go.tz/news/parliamentary-budget-committee-commends-tra-for-revenue-collection-performance-and-digital-tax-systems",
+   "summary": "",
+   "kind": "item",
+   "source": "Tanzania Revenue Authority",
+   "source_id": "tz-tra",
+   "tier": 1,
+   "country": "TZ",
+   "category": "fiscal",
+   "segments": [
+    "city",
+    "bush",
+    "beach"
+   ],
+   "first_seen": "2026-10-20T22:23+03:00",
+   "published": null,
+   "verdict": "STRONG \u2014 tier-1, upstream"
+  },
+  {
+   "score": 92.1,
+   "components": {
+    "tier": 20,
+    "category": 14,
+    "lead": 8.4,
+    "relevance": 20,
+    "freshness": 19.7,
+    "corroborated": 10
+   },
+   "keywords": [
+    "vat",
+    "route",
+    "flight"
+   ],
+   "shock_terms": [],
+   "dedupe_match": null,
+   "dedupe_similarity": 0.0,
+   "id": "d99213c6a18b",
+   "title": "Delta Resumes Boston \u2013 Reykjav\u00edk Service in NS27",
+   "url": "https://www.aeroroutes.com/eng/261026-dlns27boskef",
+   "summary": "Published at 0800PDT / 1500GMT 20OCT26 Delta in Northern summer 2027 season plans to resume Boston \u2013 Reykjav\u00edk Keflav\u00edk route, as the carrier opened reservations this past weekend. Last served until September 2021, Delta will resume this route on 12APR27, with Boeing 757-200 operating 1 daily flight. DL310 BOS2105 \u2013 0630+1KEF 752 D DL311 KEF0815 \u2013 1000BOS 752 D",
+   "kind": "item",
+   "source": "AeroRoutes schedule filings",
+   "source_id": "aeroroutes",
+   "tier": 2,
+   "country": "GLOBAL",
+   "category": "aviation-tracker",
+   "segments": [
+    "city",
+    "bush",
+    "beach"
+   ],
+   "first_seen": "2026-10-20T22:24+03:00",
+   "published": "2026-10-20",
+   "verdict": "CONSIDER"
+  },
+  {
+   "score": 91.8,
+   "components": {
+    "tier": 40,
+    "category": 9,
+    "lead": 16.8,
+    "relevance": 16,
+    "freshness": 0.0,
+    "corroborated": 10
+   },
+   "keywords": [
+    "airport",
+    "hotel",
+    "resort"
+   ],
+   "shock_terms": [],
+   "dedupe_match": null,
+   "dedupe_similarity": 0.07,
+   "id": "c45082c9938a",
+   "title": "Hilton and Scandic Sign New Nordics Strategic Agreement",
+   "url": "https://stories.hilton.com/releases/hilton-and-scandic-sign-new-nordics-strategic-agreement",
+   "summary": "\u2022 Hilton and Scandic Hotels Group have signed a multi-year development agreement covering Sweden, Norway, Denmark and Finland.\u2022 The first hotel announced under the agreement is a 284-room Hilton Hotels & Resorts property at Scanport, adjacent to Copenhagen Airport, expected to open in 2029.\u2022 Hilton and Scandic also plan to introduce new benefits for Hilton [\u2026] The post Hilton and Scandic Sign New ",
+   "kind": "item",
+   "source": "Hilton stories/newsroom",
+   "source_id": "dev-hilton",
+   "tier": 1,
+   "country": "GLOBAL",
+   "category": "hotel-group",
+   "segments": [
+    "city",
+    "bush",
+    "beach"
+   ],
+   "first_seen": "2026-10-19T15:26+03:00",
+   "published": "2026-10-19",
+   "verdict": "STRONG \u2014 tier-1, upstream"
+  },
+  {
+   "score": 91.5,
+   "components": {
+    "tier": 40,
+    "category": 17,
+    "lead": 16.8,
+    "relevance": 4,
+    "freshness": 19.7,
+    "undated": -6
+   },
+   "keywords": [
+    "tourism"
+   ],
+   "shock_terms": [],
+   "dedupe_match": null,
+   "dedupe_similarity": 0.17,
+   "id": "dcb5e6e2e483",
+   "title": "Last days to join an online hackathon on game-based tourism",
+   "url": "https://transition-pathways.europa.eu/tourism/news/last-days-join-online-hackathon-game-based-tourism",
+   "summary": "",
+   "kind": "item",
+   "source": "EU Tourism Transition Pathway \u2014 legislation & guidance",
+   "source_id": "eu-tourism-pathway",
+   "tier": 1,
+   "country": "REG",
+   "category": "regulator",
+   "segments": [
+    "bush",
+    "beach",
+    "city"
+   ],
+   "first_seen": "2026-10-20T22:22+03:00",
+   "published": null,
+   "verdict": "STRONG \u2014 tier-1, upstream"
+  },
+  {
+   "score": 91.5,
+   "components": {
+    "tier": 40,
+    "category": 17,
+    "lead": 16.8,
+    "relevance": 4,
+    "freshness": 19.7,
+    "undated": -6
+   },
+   "keywords": [
+    "tourism"
+   ],
+   "shock_terms": [],
+   "dedupe_match": null,
+   "dedupe_similarity": 0.0,
+   "id": "f3d4227ae2c9",
+   "title": "Pomerania honours tourism projects and debates the role of AI in the sector",
+   "url": "https://transition-pathways.europa.eu/tourism/best-practices/pomerania-honours-tourism-projects-and-debates-role-ai-sector",
+   "summary": "",
+   "kind": "item",
+   "source": "EU Tourism Transition Pathway \u2014 legislation & guidance",
+   "source_id": "eu-tourism-pathway",
+   "tier": 1,
+   "country": "REG",
+   "category": "regulator",
+   "segments": [
+    "bush",
+    "beach",
+    "city"
+   ],
+   "first_seen": "2026-10-20T22:22+03:00",
+   "published": null,
+   "verdict": "STRONG \u2014 tier-1, upstream"
+  },
+  {
+   "score": 91.5,
+   "components": {
+    "tier": 40,
+    "category": 17,
+    "lead": 16.8,
+    "relevance": 4,
+    "freshness": 19.7,
+    "undated": -6
+   },
+   "keywords": [
+    "tourism"
+   ],
+   "shock_terms": [],
+   "dedupe_match": null,
+   "dedupe_similarity": 0.1,
+   "id": "1129b381e0f1",
+   "title": "Online hackathon invites professionals and students to design game-based tourism experiences",
+   "url": "https://transition-pathways.europa.eu/tourism/events/online-hackathon-invites-professionals-and-students-design-game-based-tourism",
+   "summary": "",
+   "kind": "item",
+   "source": "EU Tourism Transition Pathway \u2014 legislation & guidance",
+   "source_id": "eu-tourism-pathway",
+   "tier": 1,
+   "country": "REG",
+   "category": "regulator",
+   "segments": [
+    "bush",
+    "beach",
+    "city"
+   ],
+   "first_seen": "2026-10-20T22:22+03:00",
+   "published": null,
+   "verdict": "STRONG \u2014 tier-1, upstream"
+  },
+  {
+   "score": 90.5,
    "components": {
     "tier": 20,
     "category": 14,
     "lead": 8.4,
     "relevance": 24,
-    "freshness": 19.3,
+    "freshness": 14.1,
     "corroborated": 10
    },
    "keywords": [
@@ -383,13 +872,13 @@
    "verdict": "CONSIDER"
   },
   {
-   "score": 95.0,
+   "score": 89.9,
    "components": {
     "tier": 40,
     "category": 32,
     "lead": 0.0,
     "relevance": 0,
-    "freshness": 13.0,
+    "freshness": 7.9,
     "corroborated": 10
    },
    "keywords": [],
@@ -413,16 +902,88 @@
    ],
    "first_seen": "2026-10-20T11:37+03:00",
    "published": "2026-10-20",
-   "verdict": "STRONG \u2014 tier-1, upstream"
+   "verdict": "CONSIDER"
   },
   {
-   "score": 93.5,
+   "score": 89.3,
+   "components": {
+    "tier": 40,
+    "category": 12,
+    "lead": 3.6,
+    "relevance": 4,
+    "freshness": 19.7,
+    "corroborated": 10
+   },
+   "keywords": [
+    "airline"
+   ],
+   "shock_terms": [],
+   "dedupe_match": null,
+   "dedupe_similarity": 0.07,
+   "id": "2559352b26b5",
+   "title": "Sommer 2027: Airlines der Lufthansa Group starten umfangreichste Streckenoffensive seit 2020",
+   "url": "https://newsroom.lufthansagroup.com/sommer-2027-airlines-der-lufthansa-group-starten-umfangreichste-streckenoffensive-seit-2020",
+   "summary": "Zehn neue Interkontinentalverbindungen, neue Europaziele und zahlreiche Frequenzerh\u00f6hungen: Die Fl\u00fcge des Sommerflugplan 2027 der Lufthansa Group Airlines stehen ab dem 20. Oktober 2026 zur Buchung bereit. Es ist die umfassendste Programmerweiterung des Konzerns seit Beginn der Corona-Pandemie im Jahr 2020. Die Airlines Lufthansa, Discover Airlines, Austrian Airlines, Swiss International Air Lines",
+   "kind": "item",
+   "source": "Lufthansa Group newsroom",
+   "source_id": "air-lh",
+   "tier": 1,
+   "country": "GLOBAL",
+   "category": "airline",
+   "segments": [
+    "beach"
+   ],
+   "first_seen": "2026-10-20T22:22+03:00",
+   "published": "2026-10-20",
+   "verdict": "CONSIDER"
+  },
+  {
+   "score": 88.4,
+   "components": {
+    "tier": 20,
+    "category": 14,
+    "lead": 8.4,
+    "relevance": 36,
+    "freshness": 0.0,
+    "corroborated": 10
+   },
+   "keywords": [
+    "route",
+    "frequency",
+    "capacity",
+    "seat",
+    "airline"
+   ],
+   "shock_terms": [],
+   "dedupe_match": null,
+   "dedupe_similarity": 0.09,
+   "id": "85b96a2d8452",
+   "title": "Gulf Air NW26 Capacity / Frequency Changes \u2013 18OCT26",
+   "url": "https://www.aeroroutes.com/eng/261019-gfnw26",
+   "summary": "Published at 1600PDT / 2300GMT 19OCT26 Gulf Air during Northern winter 2026/27 season plans to increase service on Bahrain \u2013 Munich route, when compared to winter 2025/26 season. The airline since May 2026 increased service from 4 to 7 weekly, which will be maintained on/after 25OCT26. 166-seater Airbus A321LR operates this route. GF087 BAH0130 \u2013 0545MUC 32Q D GF086 MUC1110 \u2013 1850BAH 32Q D The fol",
+   "kind": "item",
+   "source": "AeroRoutes schedule filings",
+   "source_id": "aeroroutes",
+   "tier": 2,
+   "country": "GLOBAL",
+   "category": "aviation-tracker",
+   "segments": [
+    "city",
+    "bush",
+    "beach"
+   ],
+   "first_seen": "2026-10-20T02:24+03:00",
+   "published": "2026-10-20",
+   "verdict": "CONSIDER"
+  },
+  {
+   "score": 88.3,
    "components": {
     "tier": 20,
     "category": 14,
     "lead": 8.4,
     "relevance": 28,
-    "freshness": 13.1,
+    "freshness": 7.9,
     "corroborated": 10
    },
    "keywords": [
@@ -454,13 +1015,49 @@
    "verdict": "CONSIDER"
   },
   {
-   "score": 92.8,
+   "score": 88.1,
+   "components": {
+    "tier": 20,
+    "category": 14,
+    "lead": 8.4,
+    "relevance": 16,
+    "freshness": 19.7,
+    "corroborated": 10
+   },
+   "keywords": [
+    "vat",
+    "route"
+   ],
+   "shock_terms": [],
+   "dedupe_match": null,
+   "dedupe_similarity": 0.14,
+   "id": "54f3e7f6b852",
+   "title": "ITA Airways Adds Caracas Service in NS27",
+   "url": "https://www.aeroroutes.com/eng/261020-azns27ccs",
+   "summary": "Published at 1000PDT / 1700GMT 20OCT26 ITA Airways today (20OCT26) opened reservations for planned service to Venezuela, as the carrier schedules Rome Fiumicino \u2013 Caracas launch on 30MAR27. Alitalia last served this route until April 2015. Airbus A330-900neo aircraft to serve this route 3 times weekly. AZ690 FCO1100 \u2013 1600CCS 339 247 AZ691 CCS1915 \u2013 1130+1FCO 339 247",
+   "kind": "item",
+   "source": "AeroRoutes schedule filings",
+   "source_id": "aeroroutes",
+   "tier": 2,
+   "country": "GLOBAL",
+   "category": "aviation-tracker",
+   "segments": [
+    "city",
+    "bush",
+    "beach"
+   ],
+   "first_seen": "2026-10-20T22:24+03:00",
+   "published": "2026-10-20",
+   "verdict": "CONSIDER"
+  },
+  {
+   "score": 87.7,
    "components": {
     "tier": 40,
     "category": 13,
     "lead": 6.0,
     "relevance": 16,
-    "freshness": 7.8,
+    "freshness": 2.7,
     "corroborated": 10
    },
    "keywords": [
@@ -488,53 +1085,49 @@
    ],
    "first_seen": "2026-10-20T06:53+03:00",
    "published": "2026-10-19",
-   "verdict": "STRONG \u2014 tier-1, upstream"
+   "verdict": "CONSIDER"
   },
   {
-   "score": 91.8,
+   "score": 87.5,
    "components": {
     "tier": 40,
-    "category": 9,
+    "category": 17,
     "lead": 16.8,
-    "relevance": 16,
-    "freshness": 0.0,
-    "corroborated": 10
+    "relevance": 0,
+    "freshness": 19.7,
+    "undated": -6
    },
-   "keywords": [
-    "airport",
-    "hotel",
-    "resort"
-   ],
+   "keywords": [],
    "shock_terms": [],
    "dedupe_match": null,
-   "dedupe_similarity": 0.0,
-   "id": "c45082c9938a",
-   "title": "Hilton and Scandic Sign New Nordics Strategic Agreement",
-   "url": "https://stories.hilton.com/releases/hilton-and-scandic-sign-new-nordics-strategic-agreement",
-   "summary": "\u2022 Hilton and Scandic Hotels Group have signed a multi-year development agreement covering Sweden, Norway, Denmark and Finland.\u2022 The first hotel announced under the agreement is a 284-room Hilton Hotels & Resorts property at Scanport, adjacent to Copenhagen Airport, expected to open in 2029.\u2022 Hilton and Scandic also plan to introduce new benefits for Hilton [\u2026] The post Hilton and Scandic Sign New ",
+   "dedupe_similarity": 0.2,
+   "id": "2524f7b32acb",
+   "title": "20 Oct 26 TIRA yapokea maoni ya wadau Marekebisho ya Sheria ya Bima Za... Mamlaka ya Usimamizi wa Bima Tanzania (TIRA), leo Oktoba 19, 2026, imefanya Kikao Kazi Unguja, Zanzi... Read More",
+   "url": "https://www.tira.go.tz/news/tira-yapokea-maoni-ya-wadau-marekebisho-ya-sheria-ya-bima-zanzibar",
+   "summary": "",
    "kind": "item",
-   "source": "Hilton stories/newsroom",
-   "source_id": "dev-hilton",
+   "source": "Tanzania Insurance Regulatory Authority (TIRA)",
+   "source_id": "tz-tira",
    "tier": 1,
-   "country": "GLOBAL",
-   "category": "hotel-group",
+   "country": "TZ",
+   "category": "regulator",
    "segments": [
-    "city",
+    "beach",
     "bush",
-    "beach"
+    "city"
    ],
-   "first_seen": "2026-10-19T15:26+03:00",
-   "published": "2026-10-19",
-   "verdict": "STRONG \u2014 tier-1, upstream"
+   "first_seen": "2026-10-20T22:23+03:00",
+   "published": null,
+   "verdict": "CONSIDER"
   },
   {
-   "score": 91.7,
+   "score": 86.5,
    "components": {
     "tier": 5,
     "category": 5,
     "lead": 2.4,
     "relevance": 32,
-    "freshness": 19.3,
+    "freshness": 14.1,
     "corroborated": 10,
     "shock": 18
    },
@@ -569,13 +1162,13 @@
    "verdict": "CONSIDER"
   },
   {
-   "score": 91.5,
+   "score": 86.3,
    "components": {
     "tier": 20,
     "category": 4,
     "lead": 2.4,
     "relevance": 24,
-    "freshness": 13.1,
+    "freshness": 7.9,
     "corroborated": 10,
     "shock": 18
    },
@@ -608,52 +1201,178 @@
    "verdict": "CONSIDER"
   },
   {
-   "score": 91.3,
+   "score": 85.5,
    "components": {
-    "tier": 20,
-    "category": 14,
-    "lead": 8.4,
-    "relevance": 36,
-    "freshness": 2.9,
-    "corroborated": 10
+    "tier": 40,
+    "category": 15,
+    "lead": 16.8,
+    "relevance": 0,
+    "freshness": 19.7,
+    "undated": -6
    },
-   "keywords": [
-    "route",
-    "frequency",
-    "capacity",
-    "seat",
-    "airline"
-   ],
+   "keywords": [],
    "shock_terms": [],
    "dedupe_match": null,
-   "dedupe_similarity": 0.09,
-   "id": "85b96a2d8452",
-   "title": "Gulf Air NW26 Capacity / Frequency Changes \u2013 18OCT26",
-   "url": "https://www.aeroroutes.com/eng/261019-gfnw26",
-   "summary": "Published at 1600PDT / 2300GMT 19OCT26 Gulf Air during Northern winter 2026/27 season plans to increase service on Bahrain \u2013 Munich route, when compared to winter 2025/26 season. The airline since May 2026 increased service from 4 to 7 weekly, which will be maintained on/after 25OCT26. 166-seater Airbus A321LR operates this route. GF087 BAH0130 \u2013 0545MUC 32Q D GF086 MUC1110 \u2013 1850BAH 32Q D The fol",
+   "dedupe_similarity": 0.4,
+   "id": "a3f96f83e0fc",
+   "title": "CG MWENDA VISITS KILOMBERO SUGAR FACTORY, VOWS TO SUPPORT SUGARCANE FARMERS 20 October, 2026 The Commissioner General of the Tanzania Revenue Authority (TRA), Mr. Yusuph Juma Mwenda, has visited Kilombero Sugar\u2026 -->",
+   "url": "https://www.tra.go.tz/news/cg-mwenda-visits-kilombero-sugar-factory-vows-to-support-sugarcane-farmers",
+   "summary": "",
    "kind": "item",
-   "source": "AeroRoutes schedule filings",
-   "source_id": "aeroroutes",
-   "tier": 2,
-   "country": "GLOBAL",
-   "category": "aviation-tracker",
+   "source": "Tanzania Revenue Authority",
+   "source_id": "tz-tra",
+   "tier": 1,
+   "country": "TZ",
+   "category": "fiscal",
    "segments": [
     "city",
     "bush",
     "beach"
    ],
-   "first_seen": "2026-10-20T02:24+03:00",
+   "first_seen": "2026-10-20T22:23+03:00",
+   "published": null,
+   "verdict": "CONSIDER"
+  },
+  {
+   "score": 85.3,
+   "components": {
+    "tier": 40,
+    "category": 12,
+    "lead": 3.6,
+    "relevance": 0,
+    "freshness": 19.7,
+    "corroborated": 10
+   },
+   "keywords": [],
+   "shock_terms": [],
+   "dedupe_match": null,
+   "dedupe_similarity": 0.0,
+   "id": "0df854e9f67a",
+   "title": "CEOs Survey of September 2026",
+   "url": "https://www.centralbank.go.ke/2026/10/20/ceos-survey-of-september-2026",
+   "summary": "",
+   "kind": "item",
+   "source": "CBK weekly bulletin",
+   "source_id": "ke-cbk-bulletin",
+   "tier": 1,
+   "country": "KE",
+   "category": "central-bank",
+   "segments": [
+    "city",
+    "bush",
+    "beach"
+   ],
+   "first_seen": "2026-10-20T22:23+03:00",
    "published": "2026-10-20",
    "verdict": "CONSIDER"
   },
   {
-   "score": 89.4,
+   "score": 85.3,
+   "components": {
+    "tier": 40,
+    "category": 12,
+    "lead": 3.6,
+    "relevance": 0,
+    "freshness": 19.7,
+    "corroborated": 10
+   },
+   "keywords": [],
+   "shock_terms": [],
+   "dedupe_match": null,
+   "dedupe_similarity": 0.0,
+   "id": "687dc067584b",
+   "title": "Market Perceptions Survey of September 2026",
+   "url": "https://www.centralbank.go.ke/2026/10/20/market-perceptions-survey-of-september-2026",
+   "summary": "",
+   "kind": "item",
+   "source": "CBK weekly bulletin",
+   "source_id": "ke-cbk-bulletin",
+   "tier": 1,
+   "country": "KE",
+   "category": "central-bank",
+   "segments": [
+    "city",
+    "bush",
+    "beach"
+   ],
+   "first_seen": "2026-10-20T22:23+03:00",
+   "published": "2026-10-20",
+   "verdict": "CONSIDER"
+  },
+  {
+   "score": 85.3,
+   "components": {
+    "tier": 40,
+    "category": 12,
+    "lead": 3.6,
+    "relevance": 0,
+    "freshness": 19.7,
+    "corroborated": 10
+   },
+   "keywords": [],
+   "shock_terms": [],
+   "dedupe_match": null,
+   "dedupe_similarity": 0.0,
+   "id": "170a62c3b3bf",
+   "title": "Agriculture Sector Survey of September 2026",
+   "url": "https://www.centralbank.go.ke/2026/10/20/agriculture-sector-survey-of-september-2026",
+   "summary": "",
+   "kind": "item",
+   "source": "CBK weekly bulletin",
+   "source_id": "ke-cbk-bulletin",
+   "tier": 1,
+   "country": "KE",
+   "category": "central-bank",
+   "segments": [
+    "city",
+    "bush",
+    "beach"
+   ],
+   "first_seen": "2026-10-20T22:23+03:00",
+   "published": "2026-10-20",
+   "verdict": "CONSIDER"
+  },
+  {
+   "score": 85.3,
+   "components": {
+    "tier": 40,
+    "category": 12,
+    "lead": 3.6,
+    "relevance": 0,
+    "freshness": 19.7,
+    "corroborated": 10
+   },
+   "keywords": [],
+   "shock_terms": [],
+   "dedupe_match": null,
+   "dedupe_similarity": 0.0,
+   "id": "bda7c6894b00",
+   "title": "MEFMI Vacancy \u2013 Manager Positions",
+   "url": "https://www.centralbank.go.ke/2026/10/20/mefmi-vacancy-manager-positions",
+   "summary": "",
+   "kind": "item",
+   "source": "CBK weekly bulletin",
+   "source_id": "ke-cbk-bulletin",
+   "tier": 1,
+   "country": "KE",
+   "category": "central-bank",
+   "segments": [
+    "city",
+    "bush",
+    "beach"
+   ],
+   "first_seen": "2026-10-20T22:23+03:00",
+   "published": "2026-10-20",
+   "verdict": "CONSIDER"
+  },
+  {
+   "score": 84.3,
    "components": {
     "tier": 40,
     "category": 16,
     "lead": 2.4,
     "relevance": 8,
-    "freshness": 13.0,
+    "freshness": 7.9,
     "corroborated": 10
    },
    "keywords": [
@@ -682,557 +1401,13 @@
    "verdict": "CONSIDER"
   },
   {
-   "score": 87.7,
-   "components": {
-    "tier": 20,
-    "category": 14,
-    "lead": 8.4,
-    "relevance": 16,
-    "freshness": 19.3,
-    "corroborated": 10
-   },
-   "keywords": [
-    "route",
-    "airline",
-    "flight"
-   ],
-   "shock_terms": [],
-   "dedupe_match": null,
-   "dedupe_similarity": 0.09,
-   "id": "3ddf4854f67b",
-   "title": "Vueling Removes 737 MAX Schedule Filing in 2027",
-   "url": "https://www.aeroroutes.com/eng/261020-vyyr277m8",
-   "summary": "Published at 0500PDT / 1200GMT 20OCT26 Vueling since the week of 07SEP26\u2019s schedule update removed schedule filing of Boeing 737 MAX 8-200 aircraft, previously scheduled to enter service in January 2027. Prior to removal, the airline was scheduling following routes to be served by 737 MAX 8-200, along with Airbus aircraft. Barcelona \u2013 Alicante First flight 06JAN27 Barcelona \u2013 Fuerteventura First f",
-   "kind": "item",
-   "source": "AeroRoutes schedule filings",
-   "source_id": "aeroroutes",
-   "tier": 2,
-   "country": "GLOBAL",
-   "category": "aviation-tracker",
-   "segments": [
-    "city",
-    "bush",
-    "beach"
-   ],
-   "first_seen": "2026-10-20T17:19+03:00",
-   "published": "2026-10-20",
-   "verdict": "CONSIDER"
-  },
-  {
-   "score": 87.7,
-   "components": {
-    "tier": 40,
-    "category": 16,
-    "lead": 2.4,
-    "relevance": 0,
-    "freshness": 19.3,
-    "corroborated": 10
-   },
-   "keywords": [],
-   "shock_terms": [],
-   "dedupe_match": null,
-   "dedupe_similarity": 0.17,
-   "id": "76c37bc541f9",
-   "title": "Natural Capital Accounting \u2013 National Policy Forum",
-   "url": "https://www.knbs.or.ke/natural-capital-accounting-national-policy-forum",
-   "summary": "",
-   "kind": "item",
-   "source": "KNBS statistical releases",
-   "source_id": "ke-knbs-releases",
-   "tier": 1,
-   "country": "KE",
-   "category": "statistics",
-   "segments": [
-    "city",
-    "bush",
-    "beach"
-   ],
-   "first_seen": "2026-10-20T17:19+03:00",
-   "published": "2026-10-20",
-   "verdict": "CONSIDER"
-  },
-  {
-   "score": 86.2,
-   "components": {
-    "tier": 20,
-    "category": 24,
-    "lead": 2.4,
-    "relevance": 24,
-    "freshness": 7.8,
-    "undated": -6,
-    "shock": 18,
-    "page_change": -4
-   },
-   "keywords": [
-    "outbreak",
-    "ebola"
-   ],
-   "shock_terms": [
-    "outbreak"
-   ],
-   "dedupe_match": null,
-   "dedupe_similarity": 0.0,
-   "id": "d32697bf5ff6",
-   "title": "[page changed] ProMED-mail",
-   "url": "https://promedmail.org/",
-   "summary": "Protecting Global Health, One Alert at a Time | ProMED Previous slide Next slide Protecting Global Health, One Alert at a Time ProMED: Your 24/7 early warning system for emerging infectious diseases worldwide. Subscribe ProMED's Weekly Pulse A snapshot of global health events from the past 7 days Latest Posts on ProMED All Date Title Tue Oct 20 2026 FOODBORNE ILLNESS - TURKIYE: (BURSA) PROBABLE BA",
-   "kind": "page-change",
-   "source": "ProMED-mail",
-   "source_id": "promed",
-   "tier": 2,
-   "country": "GLOBAL",
-   "category": "health",
-   "segments": [
-    "city",
-    "bush",
-    "beach"
-   ],
-   "first_seen": "2026-10-20T06:53+03:00",
-   "published": null,
-   "verdict": "CONSIDER"
-  },
-  {
-   "score": 85.8,
-   "components": {
-    "tier": 5,
-    "category": 5,
-    "lead": 0.0,
-    "relevance": 28,
-    "freshness": 19.8,
-    "corroborated": 10,
-    "shock": 18
-   },
-   "keywords": [
-    "advisory",
-    "level 3",
-    "tourism"
-   ],
-   "shock_terms": [
-    "level 3",
-    "reconsider travel"
-   ],
-   "dedupe_match": null,
-   "dedupe_similarity": 0.4,
-   "id": "954acb284d9b",
-   "title": "Africa: US Eases Travel Advisory for Tanzania as Americans Lead $4.41bn Tourism Market",
-   "url": "https://atqnews.com/africa-us-eases-travel-advisory-for-tanzania-as-americans-lead-4-41bn-tourism-market",
-   "summary": "The United States has downgraded its travel advisory for Tanzania, easing its nationwide warning from Level 3, \u201cReconsider Travel,\u201d to Level 2,\u2026 The post Africa: US Eases Travel Advisory for Tanzania as Americans Lead $4.41bn Tourism Market appeared first on ATQ News .",
-   "kind": "item",
-   "source": "ATQ News",
-   "source_id": "tp-atqnews",
-   "tier": 3,
-   "country": "REG",
-   "category": "trade",
-   "segments": [
-    "city",
-    "bush",
-    "beach"
-   ],
-   "first_seen": "2026-10-20T17:46+03:00",
-   "published": "2026-10-20",
-   "verdict": "CONSIDER"
-  },
-  {
-   "score": 84.2,
-   "components": {
-    "tier": 5,
-    "category": 5,
-    "lead": 2.4,
-    "relevance": 36,
-    "freshness": 7.8,
-    "corroborated": 10,
-    "shock": 18
-   },
-   "keywords": [
-    "advisory",
-    "curfew",
-    "protest",
-    "franc"
-   ],
-   "shock_terms": [
-    "curfew"
-   ],
-   "dedupe_match": null,
-   "dedupe_similarity": 0.17,
-   "id": "9ced244e383b",
-   "title": "UK Steps Up With US, Italy And More In Issuing Travel Advisory For France Amid Protests And Partial Curfews Announced Across Paris And Nice",
-   "url": "https://www.travelandtourworld.com/news/article/v3i5u9puvzl3",
-   "summary": "UK Steps Up With US, Italy And More In Issuing Travel Advisory For France Amid Protests And Partial Curfews Announced Across Paris And Nice The UK joins America and Italy in advising against travel to France in light of the violent protests in Paris and Nice that have resulted in imposed curfews. The post UK Steps Up With US, Italy And More In Issuing Travel Advisory For France Amid Protests And P",
-   "kind": "item",
-   "source": "Travel And Tour World",
-   "source_id": "gl-travelandtourworld",
-   "tier": 3,
-   "country": "GLOBAL",
-   "category": "trade",
-   "segments": [
-    "city",
-    "bush",
-    "beach"
-   ],
-   "first_seen": "2026-10-20T06:53+03:00",
-   "published": "2026-10-20",
-   "verdict": "CONSIDER"
-  },
-  {
-   "score": 83.7,
-   "components": {
-    "tier": 40,
-    "category": 12,
-    "lead": 2.4,
-    "relevance": 0,
-    "freshness": 19.3,
-    "corroborated": 10
-   },
-   "keywords": [],
-   "shock_terms": [],
-   "dedupe_match": null,
-   "dedupe_similarity": 0.0,
-   "id": "02162a5e2e5a",
-   "title": "CEOs Survey of September 2026",
-   "url": "https://www.centralbank.go.ke/2026/10/20/ceos-survey-of-september-2026",
-   "summary": "",
-   "kind": "item",
-   "source": "Central Bank of Kenya press releases",
-   "source_id": "ke-cbk-press",
-   "tier": 1,
-   "country": "KE",
-   "category": "central-bank",
-   "segments": [
-    "city",
-    "bush",
-    "beach"
-   ],
-   "first_seen": "2026-10-20T17:19+03:00",
-   "published": "2026-10-20",
-   "verdict": "CONSIDER"
-  },
-  {
-   "score": 83.7,
-   "components": {
-    "tier": 40,
-    "category": 12,
-    "lead": 2.4,
-    "relevance": 0,
-    "freshness": 19.3,
-    "corroborated": 10
-   },
-   "keywords": [],
-   "shock_terms": [],
-   "dedupe_match": null,
-   "dedupe_similarity": 0.0,
-   "id": "03d4e68406ea",
-   "title": "Market Perceptions Survey of September 2026",
-   "url": "https://www.centralbank.go.ke/2026/10/20/market-perceptions-survey-of-september-2026",
-   "summary": "",
-   "kind": "item",
-   "source": "Central Bank of Kenya press releases",
-   "source_id": "ke-cbk-press",
-   "tier": 1,
-   "country": "KE",
-   "category": "central-bank",
-   "segments": [
-    "city",
-    "bush",
-    "beach"
-   ],
-   "first_seen": "2026-10-20T17:19+03:00",
-   "published": "2026-10-20",
-   "verdict": "CONSIDER"
-  },
-  {
-   "score": 83.7,
-   "components": {
-    "tier": 40,
-    "category": 12,
-    "lead": 2.4,
-    "relevance": 0,
-    "freshness": 19.3,
-    "corroborated": 10
-   },
-   "keywords": [],
-   "shock_terms": [],
-   "dedupe_match": null,
-   "dedupe_similarity": 0.0,
-   "id": "2dce2fae5944",
-   "title": "Agriculture Sector Survey of September 2026",
-   "url": "https://www.centralbank.go.ke/2026/10/20/agriculture-sector-survey-of-september-2026",
-   "summary": "",
-   "kind": "item",
-   "source": "Central Bank of Kenya press releases",
-   "source_id": "ke-cbk-press",
-   "tier": 1,
-   "country": "KE",
-   "category": "central-bank",
-   "segments": [
-    "city",
-    "bush",
-    "beach"
-   ],
-   "first_seen": "2026-10-20T17:19+03:00",
-   "published": "2026-10-20",
-   "verdict": "CONSIDER"
-  },
-  {
-   "score": 79.7,
-   "components": {
-    "tier": 20,
-    "category": 14,
-    "lead": 8.4,
-    "relevance": 8,
-    "freshness": 19.3,
-    "corroborated": 10
-   },
-   "keywords": [
-    "route"
-   ],
-   "shock_terms": [],
-   "dedupe_match": null,
-   "dedupe_similarity": 0.07,
-   "id": "53bb580ad5a2",
-   "title": "Transavia NS27 Network Additions \u2013 18OCT26",
-   "url": "https://www.aeroroutes.com/eng/261020-hvns27",
-   "summary": "Published at 0700PDT / 1400GMT 20OCT26 Transavia during Northern summer 2027 season plans to a total of 7 routes, based on schedule filing as of 18OCT26, including those previously not covered on AeroRoutes . Planned network additions as follows. Amsterdam \u2013 Murcia eff 30MAR27 3 weekly A320neo/321neo/737-800 Amsterdam \u2013 Pula eff 02JUN27 2 weekly 737-800/A321neo (3 weekly 09JUL27 \u2013 24SEP27) Amsterd",
-   "kind": "item",
-   "source": "AeroRoutes schedule filings",
-   "source_id": "aeroroutes",
-   "tier": 2,
-   "country": "GLOBAL",
-   "category": "aviation-tracker",
-   "segments": [
-    "city",
-    "bush",
-    "beach"
-   ],
-   "first_seen": "2026-10-20T17:19+03:00",
-   "published": "2026-10-20",
-   "verdict": "CONSIDER"
-  },
-  {
-   "score": 79.7,
-   "components": {
-    "tier": 20,
-    "category": 14,
-    "lead": 8.4,
-    "relevance": 8,
-    "freshness": 19.3,
-    "corroborated": 10
-   },
-   "keywords": [
-    "route"
-   ],
-   "shock_terms": [],
-   "dedupe_match": null,
-   "dedupe_similarity": 0.07,
-   "id": "8e5c104cec08",
-   "title": "Volotea NS27 Network Additions \u2013 18OCT26",
-   "url": "https://www.aeroroutes.com/eng/261020-v7ns27",
-   "summary": "Published at 0400PDT / 1100GMT 20OCT26 Volotea during Northern summer 2027 season plans to resume a pair of routes, after 1-year hiatus. Planned network additions as of 18OCT26 include the following. Brest \u2013 Rome Fiumicino eff 29MAR27 2 weekly A320 (No service 22JUN27 \u2013 05SEP27; Last served until March 2026) V72388 BES1250 \u2013 1520FCO 320 5 V72388 BES1740 \u2013 2010FCO 320 1 V72389 FCO1605 \u2013 1840BES 320",
-   "kind": "item",
-   "source": "AeroRoutes schedule filings",
-   "source_id": "aeroroutes",
-   "tier": 2,
-   "country": "GLOBAL",
-   "category": "aviation-tracker",
-   "segments": [
-    "city",
-    "bush",
-    "beach"
-   ],
-   "first_seen": "2026-10-20T17:19+03:00",
-   "published": "2026-10-20",
-   "verdict": "CONSIDER"
-  },
-  {
-   "score": 79.7,
-   "components": {
-    "tier": 20,
-    "category": 14,
-    "lead": 8.4,
-    "relevance": 8,
-    "freshness": 19.3,
-    "corroborated": 10
-   },
-   "keywords": [
-    "route"
-   ],
-   "shock_terms": [],
-   "dedupe_match": null,
-   "dedupe_similarity": 0.0,
-   "id": "4b5e96b6568d",
-   "title": "Volotea NW26 Network Changes \u2013 18OCT26",
-   "url": "https://www.aeroroutes.com/eng/261020-v7nw26",
-   "summary": "Published at 0300PDT / 1000GMT 20OCT26 Volotea during Northern winter 2026/27 season schedules additional new routes, previously not covered on AeroRoutes. A Coruna \u2013 Alicante eff 02DEC26 2 weekly A320 (No service 07JAN27 \u2013 19MAR27) A Coruna \u2013 Bilbao eff 06NOV26 2 weekly A320 (No service 05JAN27 \u2013 18FEB27; Last served until January 2024) Montpellier \u2013 Bordeaux eff 04FEB27 2 weekly A320 (Previous: ",
-   "kind": "item",
-   "source": "AeroRoutes schedule filings",
-   "source_id": "aeroroutes",
-   "tier": 2,
-   "country": "GLOBAL",
-   "category": "aviation-tracker",
-   "segments": [
-    "city",
-    "bush",
-    "beach"
-   ],
-   "first_seen": "2026-10-20T17:19+03:00",
-   "published": "2026-10-20",
-   "verdict": "CONSIDER"
-  },
-  {
-   "score": 79.7,
-   "components": {
-    "tier": 20,
-    "category": 14,
-    "lead": 8.4,
-    "relevance": 8,
-    "freshness": 19.3,
-    "corroborated": 10
-   },
-   "keywords": [
-    "route"
-   ],
-   "shock_terms": [],
-   "dedupe_match": null,
-   "dedupe_similarity": 0.0,
-   "id": "ce8d090cbf1d",
-   "title": "Condor Outlines Fly Air41 A319 Network in NS27",
-   "url": "https://www.aeroroutes.com/eng/261020-dens27ber",
-   "summary": "Published at 0200PDT / 0900GMT 20OCT26 Condor during Northern summer 2027 season continues to offer service operated by leased Airbus A319 aircraft from Fly Air41. From 01MAY27, Fly Air41 A319 primarily operates following routes for Condor. Frankfurt \u2013 Jerez de la Frontera (eff 03MAY27) Frankfurt \u2013 Palma de Mallorca (eff 15MAY27) Frankfurt \u2013 Preveza (eff 29JUN27) Frankfurt \u2013 Stockholm Arlanda (eff",
-   "kind": "item",
-   "source": "AeroRoutes schedule filings",
-   "source_id": "aeroroutes",
-   "tier": 2,
-   "country": "GLOBAL",
-   "category": "aviation-tracker",
-   "segments": [
-    "city",
-    "bush",
-    "beach"
-   ],
-   "first_seen": "2026-10-20T17:19+03:00",
-   "published": "2026-10-20",
-   "verdict": "CONSIDER"
-  },
-  {
-   "score": 79.3,
-   "components": {
-    "tier": 40,
-    "category": 24,
-    "lead": 2.4,
-    "relevance": 0,
-    "freshness": 2.9,
-    "corroborated": 10
-   },
-   "keywords": [],
-   "shock_terms": [],
-   "dedupe_match": null,
-   "dedupe_similarity": 0.17,
-   "id": "b812d084ca3a",
-   "title": "SitRep N\u00b0157 /MVE-BDBV/18/10/2026",
-   "url": "https://insp.cd/sitrep-n157-mve-bdbv-18-10-2026",
-   "summary": "",
-   "kind": "item",
-   "source": "INSP RDC \u2014 Ebola daily situation reports (SitRep)",
-   "source_id": "cd-insp-sitrep",
-   "tier": 1,
-   "country": "GLOBAL",
-   "category": "health",
-   "segments": [
-    "City",
-    "Bush"
-   ],
-   "first_seen": "2026-10-20T02:24+03:00",
-   "published": "2026-10-19",
-   "verdict": "CONSIDER"
-  },
-  {
-   "score": 78.4,
-   "components": {
-    "tier": 20,
-    "category": 4,
-    "lead": 2.4,
-    "relevance": 24,
-    "freshness": 0.0,
-    "corroborated": 10,
-    "shock": 18
-   },
-   "keywords": [
-    "outbreak",
-    "ebola"
-   ],
-   "shock_terms": [
-    "outbreak"
-   ],
-   "dedupe_match": null,
-   "dedupe_similarity": 0.4,
-   "id": "bfbc281e3265",
-   "title": "Congo confirms Ebola outbreak has spread to eighth province",
-   "url": "https://nation.africa/kenya/news/africa/congo-confirms-ebola-outbreak-has-spread-to-eighth-province-5637174",
-   "summary": "The outbreak is the worst Ebola epidemic in Congo's history.",
-   "kind": "item",
-   "source": "Nation Africa: Kenya business",
-   "source_id": "ke-nation-business",
-   "tier": 2,
-   "country": "KE",
-   "category": "press",
-   "segments": [
-    "city",
-    "bush",
-    "beach"
-   ],
-   "first_seen": "2026-10-19T19:30+03:00",
-   "published": "2026-10-19",
-   "verdict": "CONSIDER"
-  },
-  {
-   "score": 77.8,
-   "components": {
-    "tier": 5,
-    "category": 5,
-    "lead": 0.0,
-    "relevance": 32,
-    "freshness": 7.8,
-    "corroborated": 10,
-    "shock": 18
-   },
-   "keywords": [
-    "curfew",
-    "protest",
-    "tourism",
-    "flight",
-    "franc"
-   ],
-   "shock_terms": [
-    "curfew"
-   ],
-   "dedupe_match": null,
-   "dedupe_similarity": 0.2,
-   "id": "ac357b4b5f04",
-   "title": "France\u2019s Tourism Wake-Up Call: Protests, Curfews and Global Concern",
-   "url": "https://eturbonews.com/france-protests-tourism-travel-advice",
-   "summary": "France\u2019s tourism industry faces growing uncertainty after nationwide protests on October 17, 2026, escalated into violence, looting and arson. Demonstrators blocked access to the Louvre, authorities introduced localized overnight restrictions, and governments in Europe and Asia urged travelers to exercise caution. Existing U.S., Canadian and Australian advisories also highlight relevant safety ris",
-   "kind": "item",
-   "source": "eTurboNews Africa",
-   "source_id": "tp-eturbonews",
-   "tier": 3,
-   "country": "GLOBAL",
-   "category": "trade",
-   "segments": [
-    "city",
-    "bush",
-    "beach"
-   ],
-   "first_seen": "2026-10-20T06:53+03:00",
-   "published": "2026-10-19",
-   "verdict": "CONSIDER"
-  },
-  {
-   "score": 77.5,
+   "score": 84.1,
    "components": {
     "tier": 20,
     "category": 14,
     "lead": 8.4,
     "relevance": 12,
-    "freshness": 13.1,
+    "freshness": 19.7,
     "corroborated": 10
    },
    "keywords": [
@@ -1242,10 +1417,10 @@
    "shock_terms": [],
    "dedupe_match": null,
    "dedupe_similarity": 0.0,
-   "id": "4b8e90426c9d",
-   "title": "KLM Outlines German Airways E190 Network in NW26",
-   "url": "https://www.aeroroutes.com/eng/261020-klnw26zq",
-   "summary": "Published at 0000PDT / 070GMT 20OCT26 KLM Royal Dutch Airlines during Northern winter 2026/27 season continues to offer service operated by German Airways Embraer E190 aircraft, as operational schedule by the leased aircraft appeared in the schedule filing in the last few weeks. From 25OCT26 to 27MAR27, the leased E190 primarily operates following routes. Amsterdam \u2013 Dusseldorf 2 daily (3 on Satur",
+   "id": "5958c262d218",
+   "title": "American Adds Miami \u2013 Barcelona (Venezuela) in 1Q27",
+   "url": "https://www.aeroroutes.com/eng/261020-aa1q27bla",
+   "summary": "Published at 1215PDT / 1915GMT 20OCT26 American Airlines in the first quarter of 2027 expands service to Venezuela, with the launch of Miami \u2013 Barcelona (Venezuela) route. Envoy Air Embraer E175 aircraft to serve this route on daily basis, effective 15JAN27. AA3775 MIA1015 \u2013 1452BLA E75 135 AA3776 BLA1532 \u2013 1819MIA E75 135",
    "kind": "item",
    "source": "AeroRoutes schedule filings",
    "source_id": "aeroroutes",
@@ -1257,219 +1432,7 @@
     "bush",
     "beach"
    ],
-   "first_seen": "2026-10-20T11:38+03:00",
-   "published": "2026-10-20",
-   "verdict": "CONSIDER"
-  },
-  {
-   "score": 77.5,
-   "components": {
-    "tier": 20,
-    "category": 4,
-    "lead": 2.4,
-    "relevance": 28,
-    "freshness": 13.1,
-    "corroborated": 10
-   },
-   "keywords": [
-    "collapse",
-    "vat",
-    "electricity"
-   ],
-   "shock_terms": [],
-   "dedupe_match": null,
-   "dedupe_similarity": 0.1,
-   "id": "c9054a9c7bf7",
-   "title": "UEDCL: When organisations inherit institutional cultures",
-   "url": "https://www.independent.co.ug/uedcl-when-organisations-inherit-institutional-cultures",
-   "summary": "COMMENT | RONALD AMANYIRE | People are understandably frustrated by what appears to be an overnight collapse in electricity service delivery following the transition from UMEME to Uganda Electricity Company Limited (UEDCL). However, many are overlooking a fundamental reality. UMEME was a private company operating under a commercial model. Its survival depended on efficiency, \u2026 The post UEDCL: When",
-   "kind": "item",
-   "source": "The Independent (Uganda)",
-   "source_id": "ug-independent",
-   "tier": 2,
-   "country": "UG",
-   "category": "press",
-   "segments": [
-    "city",
-    "bush",
-    "beach"
-   ],
-   "first_seen": "2026-10-20T11:38+03:00",
-   "published": "2026-10-20",
-   "verdict": "CONSIDER"
-  },
-  {
-   "score": 76.4,
-   "components": {
-    "tier": 40,
-    "category": 24,
-    "lead": 2.4,
-    "relevance": 0,
-    "freshness": 0.0,
-    "corroborated": 10
-   },
-   "keywords": [],
-   "shock_terms": [],
-   "dedupe_match": null,
-   "dedupe_similarity": 0.17,
-   "id": "c37e5c9f30cd",
-   "title": "SitRep N\u00b0156 /MVE-BDBV/17/10/2026",
-   "url": "https://insp.cd/sitrep-n156-mve-bdbv-17-10-2026",
-   "summary": "",
-   "kind": "item",
-   "source": "INSP RDC \u2014 Ebola daily situation reports (SitRep)",
-   "source_id": "cd-insp-sitrep",
-   "tier": 1,
-   "country": "GLOBAL",
-   "category": "health",
-   "segments": [
-    "City",
-    "Bush"
-   ],
-   "first_seen": "2026-10-19T15:27+03:00",
-   "published": "2026-10-19",
-   "verdict": "CONSIDER"
-  },
-  {
-   "score": 74.6,
-   "components": {
-    "tier": 40,
-    "category": 32,
-    "lead": 3.6,
-    "relevance": 0,
-    "freshness": 13.0,
-    "stale_trap": -10,
-    "page_change": -4
-   },
-   "keywords": [],
-   "shock_terms": [],
-   "dedupe_match": null,
-   "dedupe_similarity": 0.08,
-   "id": "8ecc7f1947aa",
-   "title": "[page changed] Federal Register \u2014 public inspection (HHS/CDC), pre-publication",
-   "url": "https://www.federalregister.gov/api/v1/public-inspection-documents/current.json",
-   "summary": "{\"count\":82,\"results\":[{\"agencies\":[{\"raw_name\":\"LEGAL SERVICES CORPORATION\",\"name\":\"Legal Services Corporation\",\"id\":276,\"url\":\"https://www.federalregister.gov/agencies/legal-services-corporation\",\"json_url\":\"https://www.federalregister.gov/api/v1/agencies/276\",\"parent_id\":null,\"slug\":\"legal-services-corporation\"}],\"agency_letters\":[],\"agency_names\":[\"Legal Services Corporation\"],\"docket_numbers\"",
-   "kind": "page-change",
-   "source": "Federal Register \u2014 public inspection (HHS/CDC), pre-publication",
-   "source_id": "us-fedreg-pubinspect-hhs",
-   "tier": 1,
-   "country": "REG",
-   "category": "advisory",
-   "segments": [
-    "city",
-    "bush"
-   ],
-   "first_seen": "2026-10-20T11:37+03:00",
-   "published": "2026-10-16",
-   "verdict": "CHECK \u2014 source date older than the window"
-  },
-  {
-   "score": 74.4,
-   "components": {
-    "tier": 20,
-    "category": 5,
-    "lead": 3.6,
-    "relevance": 16,
-    "freshness": 19.8,
-    "corroborated": 10
-   },
-   "keywords": [
-    "eta",
-    "hotel",
-    "booking"
-   ],
-   "shock_terms": [],
-   "dedupe_match": null,
-   "dedupe_similarity": 0.0,
-   "id": "d7c33f6845f6",
-   "title": "Cloudbeds brings AI travel demand directly to hoteliers with Meta\u2019s Muse integration",
-   "url": "https://www.hospitalitynet.org/news/4135008/cloudbeds-brings-ai-travel-demand-directly-to-hoteliers-with-metas-muse-integration",
-   "summary": "Cloudbeds integrates with Meta's Muse AI agent to let hotels surface live rates and availability to AI-assisted travelers, routing bookings directly into the Cloudbeds PMS, rolling out in the US in Q1 2027.",
-   "kind": "item",
-   "source": "Hospitality Net \u2014 Africa announcements",
-   "source_id": "dev-hospitalitynet-africa",
-   "tier": 2,
-   "country": "REG",
-   "category": "trade",
-   "segments": [
-    "city",
-    "bush",
-    "beach"
-   ],
-   "first_seen": "2026-10-20T17:46+03:00",
-   "published": "2026-10-20",
-   "verdict": "CONSIDER"
-  },
-  {
-   "score": 73.8,
-   "components": {
-    "tier": 40,
-    "category": 15,
-    "lead": 16.8,
-    "relevance": 8,
-    "freshness": 0.0,
-    "undated": -6
-   },
-   "keywords": [
-    "tax"
-   ],
-   "shock_terms": [],
-   "dedupe_match": null,
-   "dedupe_similarity": 0.22,
-   "id": "effbbceeb010",
-   "title": "PARLIAMENTARY BUDGET COMMITTEE COMMENDS TRA FOR REVENUE COLLECTION PERFORMANCE AND DIGITAL TAX SYSTEMS 15 October, 2026 PARLIAMENTARY BUDGET COMMITTEE COMMENDS TRA FOR REVENUE COLLECTION PERFORMANCE AND DIGITAL TAX SYSTEMSThe\u2026 -->",
-   "url": "https://www.tra.go.tz/news/parliamentary-budget-committee-commends-tra-for-revenue-collection-performance-and-digital-tax-systems",
-   "summary": "",
-   "kind": "item",
-   "source": "Tanzania Revenue Authority",
-   "source_id": "tz-tra",
-   "tier": 1,
-   "country": "TZ",
-   "category": "fiscal",
-   "segments": [
-    "city",
-    "bush",
-    "beach"
-   ],
-   "first_seen": "2026-10-19T15:26+03:00",
-   "published": null,
-   "verdict": "CONSIDER"
-  },
-  {
-   "score": 73.3,
-   "components": {
-    "tier": 20,
-    "category": 5,
-    "lead": 1.2,
-    "relevance": 24,
-    "freshness": 13.1,
-    "corroborated": 10
-   },
-   "keywords": [
-    "capacity",
-    "seat",
-    "tourism",
-    "airline"
-   ],
-   "shock_terms": [],
-   "dedupe_match": null,
-   "dedupe_similarity": 0.17,
-   "id": "06ccdbb26e2c",
-   "title": "Zanzibar\u2019s air capacity set to surge 33% as new tourism data reveals shifting visitor trends",
-   "url": "https://voyagesafriq.com/2026/10/20/zanzibars-air-capacity-set-to-surge-33-as-new-tourism-data-reveals-shifting-visitor-trends",
-   "summary": "Zanzibar is set for a significant expansion in air connectivity, with available airline seats forecast to increase by 33% over the next six months, according to new tourism intelligence released by [\u2026] The post Zanzibar\u2019s air capacity set to surge 33% as new tourism data reveals shifting visitor trends appeared first on Voyages Afriq .",
-   "kind": "item",
-   "source": "VoyagesAfriq",
-   "source_id": "tp-voyagesafriq",
-   "tier": 2,
-   "country": "REG",
-   "category": "trade",
-   "segments": [
-    "city",
-    "bush",
-    "beach"
-   ],
-   "first_seen": "2026-10-20T11:38+03:00",
+   "first_seen": "2026-10-20T22:24+03:00",
    "published": "2026-10-20",
    "verdict": "CONSIDER"
   }
