@@ -4,8 +4,9 @@ slug: kenya-signature-experiences-no-till
 description: The Magical Kenya Signature Experiences collection grew to 75 entries on 15 October. The public page carries no price, no availability and no booking button, and Kenya's own draft tourism strategy already names the missing piece.
 category: Big Read
 updated: 2026-10-20
+image: "img/editions/kenya-signature-experiences-no-till.jpg"
+image_credit: "Illustration: AI-generated for EA Hospitality Pulse — synthetic image, not a photograph"
 ---
-
 On the morning of 15 October, in a hall in Nairobi, June Chepkemei read out fourteen names. "We are proud to welcome 14 new experiences into the Magical Kenya Signature Experiences collection," the chief executive of the Kenya Tourism Board said at the unveiling. Among the new entries were a cross-border culinary route and a conservation experience at Ol Pejeta Conservancy, home to the world's last two northern white rhinos. Hawa Ali, who founded the African Food Trail, told the room that "we are moving into a new age in tourism where people want to see more." Enid Nkatha, head of tourism at Ol Pejeta, said she was grateful "that people will now come and help us with conservation work." With the fourteen added, the collection stands at 75 curated entries for the 2026 to 2028 cycle. Chepkemei said the board wanted to back products that are "market-ready, distinctive and capable of delivering."
 
 Five days later, on the morning of 20 October, the collection's public page carried 72 listings. Each one has a title, an operator or venue name, a region, and one or more category tags. Not one carries a price. Not one shows availability. There is no booking button, and no sign in the design of the page that there was ever meant to be one. A handful of the tags are misspelt. The shop window is real, and in places it is beautiful. There is no till in it.
