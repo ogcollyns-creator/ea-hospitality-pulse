@@ -1,18 +1,18 @@
 {
- "generated": "2026-10-21T17:56:42+03:00",
+ "generated": "2026-10-21T22:23:18+03:00",
  "slot": "evening",
  "window_start": 1792497600,
- "observations_in_window": 1148,
- "deduped_against": 20,
+ "observations_in_window": 1319,
+ "deduped_against": 23,
  "candidates": [
   {
-   "score": 136.5,
+   "score": 131.6,
    "components": {
     "tier": 40,
     "category": 32,
     "lead": 1.2,
     "relevance": 32,
-    "freshness": 19.3,
+    "freshness": 14.4,
     "undated": -6,
     "shock": 18
    },
@@ -46,79 +46,6 @@
    "first_seen": "2026-10-21T17:30+03:00",
    "published": null,
    "verdict": "LEAD CANDIDATE \u2014 tier-1 shock language"
-  },
-  {
-   "score": 112.1,
-   "components": {
-    "tier": 40,
-    "category": 24,
-    "lead": 4.8,
-    "relevance": 12,
-    "freshness": 19.3,
-    "undated": -6,
-    "shock": 18
-   },
-   "keywords": [
-    "outbreak"
-   ],
-   "shock_terms": [
-    "outbreak"
-   ],
-   "dedupe_match": null,
-   "dedupe_similarity": 0.2,
-   "id": "2044a4565ae9",
-   "title": "Weekly Bulletin on Outbreak and other Emergencies: Week 41: 05 to 11 October 2026",
-   "url": "https://www.afro.who.int/countries/zambia/publication/weekly-bulletin-outbreak-and-other-emergencies-week-41-05-11-october-2026",
-   "summary": "",
-   "kind": "item",
-   "source": "WHO AFRO outbreaks & emergencies",
-   "source_id": "who-afro-outbreaks",
-   "tier": 1,
-   "country": "REG",
-   "category": "health",
-   "segments": [
-    "city",
-    "bush",
-    "beach"
-   ],
-   "first_seen": "2026-10-21T17:30+03:00",
-   "published": null,
-   "verdict": "LEAD CANDIDATE \u2014 tier-1 shock language"
-  },
-  {
-   "score": 110.9,
-   "components": {
-    "tier": 40,
-    "category": 32,
-    "lead": 12.0,
-    "relevance": 8,
-    "freshness": 12.9,
-    "corroborated": 10,
-    "page_change": -4
-   },
-   "keywords": [
-    "fee"
-   ],
-   "shock_terms": [],
-   "dedupe_match": null,
-   "dedupe_similarity": 0.07,
-   "id": "975e8236935a",
-   "title": "[page changed] Federal Register \u2014 CDC notices",
-   "url": "https://www.federalregister.gov/api/v1/documents.rss?conditions%5Bagencies%5D%5B%5D=centers-for-disease-control-and-prevention&order=newest",
-   "summary": "Federal Register Documents published on or after 09/21/2026 and from Centers for Disease Control and Prevention https://www.federalregister.gov/api/v1/documents.rss?conditions%5Bagencies%5D%5B%5D=centers-for-disease-control-and-prevention&order=newest Tue, 20 Oct 2026 04:00:00 GMT The documents in this feed originate from FederalRegister.gov which displays an unofficial web version of the daily Fe",
-   "kind": "page-change",
-   "source": "Federal Register \u2014 CDC notices",
-   "source_id": "us-fedreg-cdc",
-   "tier": 1,
-   "country": "REG",
-   "category": "advisory",
-   "segments": [
-    "city",
-    "bush"
-   ],
-   "first_seen": "2026-10-21T11:39+03:00",
-   "published": "2026-11-10",
-   "verdict": "OPEN THIS \u2014 tier-1 advisory page moved; content not auto-parsed, read it manually"
   },
   {
    "score": 110.4,
@@ -161,13 +88,125 @@
    "verdict": "LEAD CANDIDATE \u2014 tier-1 shock language"
   },
   {
-   "score": 106.9,
+   "score": 107.4,
    "components": {
     "tier": 40,
     "category": 24,
     "lead": 3.6,
     "relevance": 12,
-    "freshness": 19.3,
+    "freshness": 19.8,
+    "undated": -6,
+    "shock": 18,
+    "page_change": -4
+   },
+   "keywords": [
+    "outbreak"
+   ],
+   "shock_terms": [
+    "outbreak"
+   ],
+   "dedupe_match": null,
+   "dedupe_similarity": 0.07,
+   "id": "76dfb0f9b278",
+   "title": "[page changed] WHO Disease Outbreak News",
+   "url": "https://www.who.int/rss-feeds/news-english.xml",
+   "summary": "\ufeff News (English) - World Health Organization https://www.who.int/ Corporate news releases, statements, and notes for media issued by the World Health Organization. urn:uuid:bd8af334-aa22-4b0e-b7fc-99c1489bca25 https://www.who.int/news/item/27-08-2020-new-who-technical-package-health-data-for-covid-19-response New WHO technical package to help countries improve health data for COVID-19 response and",
+   "kind": "page-change",
+   "source": "WHO Disease Outbreak News",
+   "source_id": "who-don",
+   "tier": 1,
+   "country": "GLOBAL",
+   "category": "health",
+   "segments": [
+    "city",
+    "bush",
+    "beach"
+   ],
+   "first_seen": "2026-10-21T22:22+03:00",
+   "published": null,
+   "verdict": "OPEN THIS \u2014 tier-1 health page moved; content not auto-parsed, read it manually"
+  },
+  {
+   "score": 107.2,
+   "components": {
+    "tier": 40,
+    "category": 24,
+    "lead": 4.8,
+    "relevance": 12,
+    "freshness": 14.4,
+    "undated": -6,
+    "shock": 18
+   },
+   "keywords": [
+    "outbreak"
+   ],
+   "shock_terms": [
+    "outbreak"
+   ],
+   "dedupe_match": null,
+   "dedupe_similarity": 0.2,
+   "id": "2044a4565ae9",
+   "title": "Weekly Bulletin on Outbreak and other Emergencies: Week 41: 05 to 11 October 2026",
+   "url": "https://www.afro.who.int/countries/zambia/publication/weekly-bulletin-outbreak-and-other-emergencies-week-41-05-11-october-2026",
+   "summary": "",
+   "kind": "item",
+   "source": "WHO AFRO outbreaks & emergencies",
+   "source_id": "who-afro-outbreaks",
+   "tier": 1,
+   "country": "REG",
+   "category": "health",
+   "segments": [
+    "city",
+    "bush",
+    "beach"
+   ],
+   "first_seen": "2026-10-21T17:30+03:00",
+   "published": null,
+   "verdict": "LEAD CANDIDATE \u2014 tier-1 shock language"
+  },
+  {
+   "score": 106.0,
+   "components": {
+    "tier": 40,
+    "category": 32,
+    "lead": 12.0,
+    "relevance": 8,
+    "freshness": 8.0,
+    "corroborated": 10,
+    "page_change": -4
+   },
+   "keywords": [
+    "fee"
+   ],
+   "shock_terms": [],
+   "dedupe_match": null,
+   "dedupe_similarity": 0.08,
+   "id": "975e8236935a",
+   "title": "[page changed] Federal Register \u2014 CDC notices",
+   "url": "https://www.federalregister.gov/api/v1/documents.rss?conditions%5Bagencies%5D%5B%5D=centers-for-disease-control-and-prevention&order=newest",
+   "summary": "Federal Register Documents published on or after 09/21/2026 and from Centers for Disease Control and Prevention https://www.federalregister.gov/api/v1/documents.rss?conditions%5Bagencies%5D%5B%5D=centers-for-disease-control-and-prevention&order=newest Tue, 20 Oct 2026 04:00:00 GMT The documents in this feed originate from FederalRegister.gov which displays an unofficial web version of the daily Fe",
+   "kind": "page-change",
+   "source": "Federal Register \u2014 CDC notices",
+   "source_id": "us-fedreg-cdc",
+   "tier": 1,
+   "country": "REG",
+   "category": "advisory",
+   "segments": [
+    "city",
+    "bush"
+   ],
+   "first_seen": "2026-10-21T11:39+03:00",
+   "published": "2026-11-10",
+   "verdict": "OPEN THIS \u2014 tier-1 advisory page moved; content not auto-parsed, read it manually"
+  },
+  {
+   "score": 102.0,
+   "components": {
+    "tier": 40,
+    "category": 24,
+    "lead": 3.6,
+    "relevance": 12,
+    "freshness": 14.4,
     "undated": -6,
     "shock": 18,
     "page_change": -4
@@ -200,13 +239,46 @@
    "verdict": "OPEN THIS \u2014 tier-1 health page moved; content not auto-parsed, read it manually"
   },
   {
-   "score": 100.9,
+   "score": 101.4,
    "components": {
     "tier": 40,
     "category": 32,
     "lead": 3.6,
     "relevance": 0,
-    "freshness": 19.3,
+    "freshness": 19.8,
+    "corroborated": 10,
+    "page_change": -4
+   },
+   "keywords": [],
+   "shock_terms": [],
+   "dedupe_match": null,
+   "dedupe_similarity": 0.1,
+   "id": "c6d225ab0f23",
+   "title": "[page changed] Federal Register \u2014 public inspection (HHS/CDC), pre-publication",
+   "url": "https://www.federalregister.gov/api/v1/public-inspection-documents/current.json",
+   "summary": "{\"count\":96,\"results\":[{\"agencies\":[{\"raw_name\":\"Federal Energy Regulatory Commission\",\"name\":\"Federal Energy Regulatory Commission\",\"id\":167,\"url\":\"https://www.federalregister.gov/agencies/federal-energy-regulatory-commission\",\"json_url\":\"https://www.federalregister.gov/api/v1/agencies/167\",\"parent_id\":136,\"slug\":\"federal-energy-regulatory-commission\"}],\"agency_letters\":[],\"agency_names\":[\"Federa",
+   "kind": "page-change",
+   "source": "Federal Register \u2014 public inspection (HHS/CDC), pre-publication",
+   "source_id": "us-fedreg-pubinspect-hhs",
+   "tier": 1,
+   "country": "REG",
+   "category": "advisory",
+   "segments": [
+    "city",
+    "bush"
+   ],
+   "first_seen": "2026-10-21T22:22+03:00",
+   "published": "2026-10-20",
+   "verdict": "OPEN THIS \u2014 tier-1 advisory page moved; content not auto-parsed, read it manually"
+  },
+  {
+   "score": 96.0,
+   "components": {
+    "tier": 40,
+    "category": 32,
+    "lead": 3.6,
+    "relevance": 0,
+    "freshness": 14.4,
     "corroborated": 10,
     "page_change": -4
    },
@@ -233,13 +305,13 @@
    "verdict": "OPEN THIS \u2014 tier-1 advisory page moved; content not auto-parsed, read it manually"
   },
   {
-   "score": 94.5,
+   "score": 89.6,
    "components": {
     "tier": 40,
     "category": 32,
     "lead": 3.6,
     "relevance": 0,
-    "freshness": 12.9,
+    "freshness": 8.0,
     "corroborated": 10,
     "page_change": -4
    },
@@ -266,13 +338,13 @@
    "verdict": "OPEN THIS \u2014 tier-1 advisory page moved; content not auto-parsed, read it manually"
   },
   {
-   "score": 89.1,
+   "score": 84.2,
    "components": {
     "tier": 40,
     "category": 32,
     "lead": 3.6,
     "relevance": 0,
-    "freshness": 7.5,
+    "freshness": 2.6,
     "corroborated": 10,
     "page_change": -4
    },
@@ -299,13 +371,13 @@
    "verdict": "OPEN THIS \u2014 tier-1 advisory page moved; content not auto-parsed, read it manually"
   },
   {
-   "score": 83.8,
+   "score": 81.6,
    "components": {
     "tier": 40,
     "category": 32,
     "lead": 3.6,
     "relevance": 0,
-    "freshness": 2.2,
+    "freshness": 0.0,
     "corroborated": 10,
     "page_change": -4
    },
@@ -398,13 +470,13 @@
    "verdict": "OPEN THIS \u2014 tier-1 advisory page moved; content not auto-parsed, read it manually"
   },
   {
-   "score": 58.5,
+   "score": 53.6,
    "components": {
     "tier": 40,
     "category": 12,
     "lead": 3.6,
     "relevance": 0,
-    "freshness": 12.9,
+    "freshness": 8.0,
     "undated": -6,
     "page_change": -4
    },
@@ -466,13 +538,13 @@
    "verdict": "OPEN THIS \u2014 tier-1 airline page moved; content not auto-parsed, read it manually"
   },
   {
-   "score": 127.7,
+   "score": 122.8,
    "components": {
     "tier": 40,
     "category": 18,
     "lead": 8.4,
     "relevance": 32,
-    "freshness": 19.3,
+    "freshness": 14.4,
     "corroborated": 10
    },
    "keywords": [
@@ -503,13 +575,13 @@
    "verdict": "STRONG \u2014 tier-1, upstream"
   },
   {
-   "score": 102.9,
+   "score": 98.0,
    "components": {
     "tier": 5,
     "category": 5,
     "lead": 0.0,
     "relevance": 52,
-    "freshness": 12.9,
+    "freshness": 8.0,
     "corroborated": 10,
     "shock": 18
    },
@@ -548,13 +620,13 @@
    "verdict": "CONSIDER"
   },
   {
-   "score": 97.6,
+   "score": 92.7,
    "components": {
     "tier": 20,
     "category": 5,
     "lead": 1.2,
     "relevance": 24,
-    "freshness": 19.4,
+    "freshness": 14.5,
     "corroborated": 10,
     "shock": 18
    },
@@ -589,13 +661,13 @@
    "verdict": "CONSIDER"
   },
   {
-   "score": 97.3,
+   "score": 92.4,
    "components": {
     "tier": 40,
     "category": 18,
     "lead": 8.4,
     "relevance": 8,
-    "freshness": 12.9,
+    "freshness": 8.0,
     "corroborated": 10
    },
    "keywords": [
@@ -619,6 +691,111 @@
    ],
    "first_seen": "2026-10-21T11:39+03:00",
    "published": "2026-10-21",
+   "verdict": "STRONG \u2014 tier-1, upstream"
+  },
+  {
+   "score": 92.2,
+   "components": {
+    "tier": 40,
+    "category": 24,
+    "lead": 2.4,
+    "relevance": 12,
+    "freshness": 19.8,
+    "undated": -6
+   },
+   "keywords": [
+    "ebola"
+   ],
+   "shock_terms": [],
+   "dedupe_match": null,
+   "dedupe_similarity": 0.2,
+   "id": "e3ce0117fda4",
+   "title": "Emergency 21 October 2026 | Feature Story On the Frontlines of the Ebola Response, Dr Alain Mangolopa Kakule Fights to Save Lives",
+   "url": "https://www.afro.who.int/countries/democratic-republic-of-congo/news/frontlines-ebola-response-dr-alain-mangolopa-kakule-fights-save-lives",
+   "summary": "",
+   "kind": "item",
+   "source": "WHO AFRO \u2014 Kenya country newsroom",
+   "source_id": "who-afro-kenya",
+   "tier": 1,
+   "country": "KE",
+   "category": "health",
+   "segments": [
+    "bush",
+    "city",
+    "beach"
+   ],
+   "first_seen": "2026-10-21T22:22+03:00",
+   "published": null,
+   "verdict": "STRONG \u2014 tier-1, upstream"
+  },
+  {
+   "score": 92.2,
+   "components": {
+    "tier": 40,
+    "category": 24,
+    "lead": 2.4,
+    "relevance": 12,
+    "freshness": 19.8,
+    "undated": -6
+   },
+   "keywords": [
+    "ebola"
+   ],
+   "shock_terms": [],
+   "dedupe_match": null,
+   "dedupe_similarity": 0.2,
+   "id": "da897bb6f03f",
+   "title": "Emergency 21 October 2026 | Feature Story On the Frontlines of the Ebola Response, Dr Alain Mangolopa Kakule Fights to Save Lives",
+   "url": "https://www.afro.who.int/countries/democratic-republic-of-congo/news/frontlines-ebola-response-dr-alain-mangolopa-kakule-fights-save-lives",
+   "summary": "",
+   "kind": "item",
+   "source": "WHO AFRO \u2014 Rwanda country newsroom",
+   "source_id": "who-afro-rwanda",
+   "tier": 1,
+   "country": "RW",
+   "category": "health",
+   "segments": [
+    "bush",
+    "city",
+    "beach"
+   ],
+   "first_seen": "2026-10-21T22:22+03:00",
+   "published": null,
+   "verdict": "STRONG \u2014 tier-1, upstream"
+  },
+  {
+   "score": 92.2,
+   "components": {
+    "tier": 40,
+    "category": 24,
+    "lead": 2.4,
+    "relevance": 12,
+    "freshness": 19.8,
+    "undated": -6
+   },
+   "keywords": [
+    "ebola"
+   ],
+   "shock_terms": [],
+   "dedupe_match": null,
+   "dedupe_similarity": 0.2,
+   "id": "235546620b21",
+   "title": "Emergency 21 October 2026 | Feature Story On the Frontlines of the Ebola Response, Dr Alain Mangolopa Kakule Fights to Save Lives",
+   "url": "https://www.afro.who.int/countries/democratic-republic-of-congo/news/frontlines-ebola-response-dr-alain-mangolopa-kakule-fights-save-lives",
+   "summary": "",
+   "kind": "item",
+   "source": "WHO AFRO \u2014 Uganda country newsroom",
+   "source_id": "who-afro-uganda",
+   "tier": 1,
+   "country": "UG",
+   "category": "health",
+   "segments": [
+    "bush",
+    "city",
+    "beach"
+   ],
+   "first_seen": "2026-10-21T22:22+03:00",
+   "published": null,
    "verdict": "STRONG \u2014 tier-1, upstream"
   },
   {
@@ -659,13 +836,50 @@
    "verdict": "STRONG \u2014 tier-1, upstream"
   },
   {
-   "score": 89.3,
+   "score": 88.2,
+   "components": {
+    "tier": 20,
+    "category": 14,
+    "lead": 8.4,
+    "relevance": 16,
+    "freshness": 19.8,
+    "corroborated": 10
+   },
+   "keywords": [
+    "route",
+    "airline",
+    "flight"
+   ],
+   "shock_terms": [],
+   "dedupe_match": null,
+   "dedupe_similarity": 0.0,
+   "id": "dd5c723cacc9",
+   "title": "Brussels Airlines Adds Harstad-Narvik/Evenes Summer Service in mid-2027",
+   "url": "https://www.aeroroutes.com/eng/261021-snns27eve",
+   "summary": "Published at 0900PDT / 1600GMT 21OCT26 Brussels Airlines during Northern summer 2027 season plans to add Brussels \u2013 Harstad-Narvik/Evenes route, previously scheduled during winter season. The 1 weekly flight will be offered during the period of 20JUN27 \u2013 22AUG27, on board Airbus A319 aircraft. SN2269 BRU0725 \u2013 1030EVE 319 7 SN2270 EVE1125 \u2013 1435BRU 319 7",
+   "kind": "item",
+   "source": "AeroRoutes schedule filings",
+   "source_id": "aeroroutes",
+   "tier": 2,
+   "country": "GLOBAL",
+   "category": "aviation-tracker",
+   "segments": [
+    "city",
+    "bush",
+    "beach"
+   ],
+   "first_seen": "2026-10-21T22:22+03:00",
+   "published": "2026-10-21",
+   "verdict": "CONSIDER"
+  },
+  {
+   "score": 84.4,
    "components": {
     "tier": 40,
     "category": 24,
     "lead": 2.4,
     "relevance": 0,
-    "freshness": 12.9,
+    "freshness": 8.0,
     "corroborated": 10
    },
    "keywords": [],
@@ -687,115 +901,6 @@
     "Bush"
    ],
    "first_seen": "2026-10-21T11:39+03:00",
-   "published": "2026-10-21",
-   "verdict": "CONSIDER"
-  },
-  {
-   "score": 87.8,
-   "components": {
-    "tier": 20,
-    "category": 14,
-    "lead": 8.4,
-    "relevance": 16,
-    "freshness": 19.4,
-    "corroborated": 10
-   },
-   "keywords": [
-    "vat",
-    "route"
-   ],
-   "shock_terms": [],
-   "dedupe_match": null,
-   "dedupe_similarity": 0.07,
-   "id": "e5ae9ce8d600",
-   "title": "easyJet NS27 Network Additions \u2013 18OCT26",
-   "url": "https://www.aeroroutes.com/eng/261021-u2ns27",
-   "summary": "Published at 0200PDT / 0900GMT 21OCT26 easyJet in recent weeks gradually announced new routes scheduled for Northern summer 2027 season. The following is the summary of planned additions as of 18OCT26, as further expansion can be expected in the next few months. Aberdeen \u2013 Palma de Mallorca eff 03MAY27 2 weekly A320 Amsterdam \u2013 Tivat 29JUN27 \u2013 04SEP27 2 weekly A320 Basel/Mulhouse \u2013 Pantelleria eff",
-   "kind": "item",
-   "source": "AeroRoutes schedule filings",
-   "source_id": "aeroroutes",
-   "tier": 2,
-   "country": "GLOBAL",
-   "category": "aviation-tracker",
-   "segments": [
-    "city",
-    "bush",
-    "beach"
-   ],
-   "first_seen": "2026-10-21T17:32+03:00",
-   "published": "2026-10-21",
-   "verdict": "CONSIDER"
-  },
-  {
-   "score": 83.8,
-   "components": {
-    "tier": 20,
-    "category": 4,
-    "lead": 2.4,
-    "relevance": 28,
-    "freshness": 19.4,
-    "corroborated": 10
-   },
-   "keywords": [
-    "collapse",
-    "flood",
-    "election"
-   ],
-   "shock_terms": [],
-   "dedupe_match": null,
-   "dedupe_similarity": 0.1,
-   "id": "363d22a28eaa",
-   "title": "Why Ugandan courts are dismissing election petitions without hearing their merits",
-   "url": "https://www.independent.co.ug/why-ugandan-courts-are-dismissing-election-petitions-without-hearing-their-merits",
-   "summary": "Kampala, Uganda | URN | In the months after the January 2026 general elections, defeated candidates flooded the High Court with petitions alleging irregularities, violence, ballot stuffing and altered results. Some of these challenges have collapsed before judges ever examined the substance. Petitions and supporting affidavits have been struck out for arriving outside the \u2026 The post Why Ugandan co",
-   "kind": "item",
-   "source": "The Independent (Uganda)",
-   "source_id": "ug-independent",
-   "tier": 2,
-   "country": "UG",
-   "category": "press",
-   "segments": [
-    "city",
-    "bush",
-    "beach"
-   ],
-   "first_seen": "2026-10-21T17:32+03:00",
-   "published": "2026-10-21",
-   "verdict": "CONSIDER"
-  },
-  {
-   "score": 83.8,
-   "components": {
-    "tier": 20,
-    "category": 14,
-    "lead": 8.4,
-    "relevance": 12,
-    "freshness": 19.4,
-    "corroborated": 10
-   },
-   "keywords": [
-    "route",
-    "flight"
-   ],
-   "shock_terms": [],
-   "dedupe_match": null,
-   "dedupe_similarity": 0.09,
-   "id": "05a74fbf2c84",
-   "title": "Ryanair NW26 Network Additions \u2013 18OCT26",
-   "url": "https://www.aeroroutes.com/eng/261021-frnw26",
-   "summary": "Published at 0400PDT / 1100GMT 21OCT26 The following is the summary of Ryanair\u2019s planned network addition for Northern winter 2026/27 season, as of 18OCT26. The summary includes updated list previously not covered since AeroRoutes \u2019 report in late-May 2026. * Malta Air aircraft * buzz aircraft ^ Operated by Ryanair UK under RK-coded flight numbers ^^ Ryanair UK RK-coded flight numbers operated by ",
-   "kind": "item",
-   "source": "AeroRoutes schedule filings",
-   "source_id": "aeroroutes",
-   "tier": 2,
-   "country": "GLOBAL",
-   "category": "aviation-tracker",
-   "segments": [
-    "city",
-    "bush",
-    "beach"
-   ],
-   "first_seen": "2026-10-21T17:32+03:00",
    "published": "2026-10-21",
    "verdict": "CONSIDER"
   },
@@ -835,6 +940,42 @@
    "verdict": "CONSIDER"
   },
   {
+   "score": 82.9,
+   "components": {
+    "tier": 20,
+    "category": 14,
+    "lead": 8.4,
+    "relevance": 16,
+    "freshness": 14.5,
+    "corroborated": 10
+   },
+   "keywords": [
+    "vat",
+    "route"
+   ],
+   "shock_terms": [],
+   "dedupe_match": null,
+   "dedupe_similarity": 0.07,
+   "id": "e5ae9ce8d600",
+   "title": "easyJet NS27 Network Additions \u2013 18OCT26",
+   "url": "https://www.aeroroutes.com/eng/261021-u2ns27",
+   "summary": "Published at 0200PDT / 0900GMT 21OCT26 easyJet in recent weeks gradually announced new routes scheduled for Northern summer 2027 season. The following is the summary of planned additions as of 18OCT26, as further expansion can be expected in the next few months. Aberdeen \u2013 Palma de Mallorca eff 03MAY27 2 weekly A320 Amsterdam \u2013 Tivat 29JUN27 \u2013 04SEP27 2 weekly A320 Basel/Mulhouse \u2013 Pantelleria eff",
+   "kind": "item",
+   "source": "AeroRoutes schedule filings",
+   "source_id": "aeroroutes",
+   "tier": 2,
+   "country": "GLOBAL",
+   "category": "aviation-tracker",
+   "segments": [
+    "city",
+    "bush",
+    "beach"
+   ],
+   "first_seen": "2026-10-21T17:32+03:00",
+   "published": "2026-10-21",
+   "verdict": "CONSIDER"
+  },
+  {
    "score": 82.8,
    "components": {
     "tier": 40,
@@ -868,159 +1009,13 @@
    "verdict": "CONSIDER"
   },
   {
-   "score": 81.7,
-   "components": {
-    "tier": 20,
-    "category": 5,
-    "lead": 1.2,
-    "relevance": 36,
-    "freshness": 7.5,
-    "undated": -6,
-    "shock": 18
-   },
-   "keywords": [
-    "advisory",
-    "ebola",
-    "level 3"
-   ],
-   "shock_terms": [
-    "level 3"
-   ],
-   "dedupe_match": null,
-   "dedupe_similarity": 0.38,
-   "id": "709d787fe1f2",
-   "title": "Kenya Faces Level 3 US Advisory as Ebola Cases Climb to Eight",
-   "url": "https://travelnews.africa/news-single.html?id=18628&title=Kenya+Faces+Level+3+US+Advisory+as+Ebola+Cases+Climb+to+Eight",
-   "summary": "",
-   "kind": "item",
-   "source": "travelnews.africa",
-   "source_id": "tp-travelnews-africa",
-   "tier": 2,
-   "country": "REG",
-   "category": "trade",
-   "segments": [
-    "city",
-    "bush",
-    "beach"
-   ],
-   "first_seen": "2026-10-21T06:43+03:00",
-   "published": null,
-   "verdict": "CONSIDER"
-  },
-  {
-   "score": 81.7,
-   "components": {
-    "tier": 20,
-    "category": 5,
-    "lead": 1.2,
-    "relevance": 36,
-    "freshness": 7.5,
-    "undated": -6,
-    "shock": 18
-   },
-   "keywords": [
-    "advisory",
-    "ebola",
-    "level 3"
-   ],
-   "shock_terms": [
-    "level 3"
-   ],
-   "dedupe_match": null,
-   "dedupe_similarity": 0.38,
-   "id": "aaf7b74e3b20",
-   "title": "Kenya Faces Level 3 US Advisory as Ebola Cases Climb to Eight",
-   "url": "https://travelnews.africa/news-single.html?id=18628",
-   "summary": "",
-   "kind": "item",
-   "source": "travelnews.africa",
-   "source_id": "tp-travelnews-africa",
-   "tier": 2,
-   "country": "REG",
-   "category": "trade",
-   "segments": [
-    "city",
-    "bush",
-    "beach"
-   ],
-   "first_seen": "2026-10-21T06:43+03:00",
-   "published": null,
-   "verdict": "CONSIDER"
-  },
-  {
-   "score": 81.3,
-   "components": {
-    "tier": 40,
-    "category": 16,
-    "lead": 2.4,
-    "relevance": 0,
-    "freshness": 12.9,
-    "corroborated": 10
-   },
-   "keywords": [],
-   "shock_terms": [],
-   "dedupe_match": null,
-   "dedupe_similarity": 0.1,
-   "id": "72c493d770c3",
-   "title": "Bid Notices",
-   "url": "https://www.ubos.org/2026/10/21/bid-notices-5",
-   "summary": "Uganda Bureau of Statistics has allocated/received funds to be used for the provision of: 1) Bid Notice: [\u2026] The post Bid Notices appeared first on Uganda Bureau of Statistics .",
-   "kind": "item",
-   "source": "UBOS statistical releases",
-   "source_id": "ug-ubos",
-   "tier": 1,
-   "country": "UG",
-   "category": "statistics",
-   "segments": [
-    "city",
-    "bush",
-    "beach"
-   ],
-   "first_seen": "2026-10-21T11:39+03:00",
-   "published": "2026-10-21",
-   "verdict": "CONSIDER"
-  },
-  {
-   "score": 79.8,
-   "components": {
-    "tier": 40,
-    "category": 24,
-    "lead": 2.4,
-    "relevance": 0,
-    "freshness": 19.4,
-    "undated": -6
-   },
-   "keywords": [],
-   "shock_terms": [],
-   "dedupe_match": null,
-   "dedupe_similarity": 0.25,
-   "id": "811490960cee",
-   "title": "Posted on: October 21st, 2026",
-   "url": "https://www.moh.go.tz",
-   "summary": "",
-   "kind": "item",
-   "source": "Tanzania Ministry of Health",
-   "source_id": "tz-moh",
-   "tier": 1,
-   "country": "TZ",
-   "category": "health",
-   "segments": [
-    "city",
-    "bush",
-    "beach"
-   ],
-   "first_seen": "2026-10-21T17:32+03:00",
-   "published": null,
-   "verdict": "CONSIDER"
-  },
-  {
-   "score": 79.8,
+   "score": 80.2,
    "components": {
     "tier": 20,
     "category": 14,
     "lead": 8.4,
     "relevance": 8,
-    "freshness": 19.4,
+    "freshness": 19.8,
     "corroborated": 10
    },
    "keywords": [
@@ -1028,11 +1023,11 @@
    ],
    "shock_terms": [],
    "dedupe_match": null,
-   "dedupe_similarity": 0.14,
-   "id": "24aa0ccacb51",
-   "title": "Wizz Air NW26 Network Additions \u2013 18OCT26",
-   "url": "https://www.aeroroutes.com/eng/261021-w6nw26",
-   "summary": "Published at 0700PDT / 1400GMT 21OCT26 The following is the latest summary of Wizz Air\u2019s planned network additions for Northern winter 2026/27 season, as of 18OCT26. Planned new routes at Santiago de Compostela will now commence from mid-December 2026, instead of early-February 2027. New routes previously not covered on AeroRoutes as follows. * Wizz Air Malta / W4 ^ Wizz Air UK / W9 * Naples \u2013 Bas",
+   "dedupe_similarity": 0.0,
+   "id": "918114df108d",
+   "title": "SWISS Resumes Zurich \u2013 Toulouse in NS27",
+   "url": "https://www.aeroroutes.com/eng/261021-lxns27tls",
+   "summary": "Published at 0800PDT / 1500GMT 21OCT26 Swiss International Air Lines (SWISS) in Northern summer 2027 season plans to resume Zurich \u2013 Toulouse route, last served until January 2016. The Star Alliance member will serve this route on seasonal basis, twice weekly from 25JUN27 to 23AUG27, with Airbus A220-300 and Helvetic Airways Embraer E195-E1. LX2538 ZRH1235 \u2013 1400TLS E95 1 LX2538 ZRH1735 \u2013 1900TLS ",
    "kind": "item",
    "source": "AeroRoutes schedule filings",
    "source_id": "aeroroutes",
@@ -1044,112 +1039,8 @@
     "bush",
     "beach"
    ],
-   "first_seen": "2026-10-21T17:32+03:00",
+   "first_seen": "2026-10-21T22:22+03:00",
    "published": "2026-10-21",
-   "verdict": "CONSIDER"
-  },
-  {
-   "score": 79.8,
-   "components": {
-    "tier": 20,
-    "category": 14,
-    "lead": 8.4,
-    "relevance": 8,
-    "freshness": 19.4,
-    "corroborated": 10
-   },
-   "keywords": [
-    "route"
-   ],
-   "shock_terms": [],
-   "dedupe_match": null,
-   "dedupe_similarity": 0.07,
-   "id": "9f958c87f665",
-   "title": "Air Serbia NS27 Short-Haul Network Additions",
-   "url": "https://www.aeroroutes.com/eng/261021-juns27eu",
-   "summary": "Published at 0600PDT / 1300GMT 21OCT26 Air Serbia in Northern summer 2027 season schedules 5 short-haul routes addition, including a service resumption. Planned service includes the following. Belgrade \u2013 Chisinau eff 03JUN27 4 weekly ATR72 JU108 BEG0020 \u2013 0325RMO AT7 x237 JU109 RMO0355 \u2013 0515BEG AT7 x237 Belgrade \u2013 Cluj eff 31MAY27 4 weekly ATR72 JU192 BEG0050 \u2013 0310CLJ AT7 46 JU190 BEG1310 \u2013 1530",
-   "kind": "item",
-   "source": "AeroRoutes schedule filings",
-   "source_id": "aeroroutes",
-   "tier": 2,
-   "country": "GLOBAL",
-   "category": "aviation-tracker",
-   "segments": [
-    "city",
-    "bush",
-    "beach"
-   ],
-   "first_seen": "2026-10-21T17:32+03:00",
-   "published": "2026-10-21",
-   "verdict": "CONSIDER"
-  },
-  {
-   "score": 79.8,
-   "components": {
-    "tier": 20,
-    "category": 14,
-    "lead": 8.4,
-    "relevance": 8,
-    "freshness": 19.4,
-    "corroborated": 10
-   },
-   "keywords": [
-    "airline",
-    "flight"
-   ],
-   "shock_terms": [],
-   "dedupe_match": null,
-   "dedupe_similarity": 0.07,
-   "id": "773c12a63cec",
-   "title": "EGYPTAIR Cargo Moves Cardiff Launch to early-Nov 2026",
-   "url": "https://www.aeroroutes.com/eng/261021-mscnw26cwl",
-   "summary": "Published at 0300PDT / 1000GMT 21OCT26 EGYPTAIR Cargo this week continues to revise planned Cairo \u2013 Cardiff service, on board Airbus A330 Freighter. The airline now plans first flight on 01NOV26, based on schedule filing for this daily service. MS5530 CAI0730 \u2013 1050CWL 33X D MS5531 CWL1220 \u2013 1905CAI 33X D",
-   "kind": "item",
-   "source": "AeroRoutes schedule filings",
-   "source_id": "aeroroutes",
-   "tier": 2,
-   "country": "GLOBAL",
-   "category": "aviation-tracker",
-   "segments": [
-    "city",
-    "bush",
-    "beach"
-   ],
-   "first_seen": "2026-10-21T17:32+03:00",
-   "published": "2026-10-21",
-   "verdict": "CONSIDER"
-  },
-  {
-   "score": 79.8,
-   "components": {
-    "tier": 40,
-    "category": 24,
-    "lead": 2.4,
-    "relevance": 0,
-    "freshness": 19.4,
-    "undated": -6
-   },
-   "keywords": [],
-   "shock_terms": [],
-   "dedupe_match": null,
-   "dedupe_similarity": 0.2,
-   "id": "878928a642ff",
-   "title": "Taarifa kwa Umma_CMO_Tishio la BVD_21 October...",
-   "url": "https://www.moh.go.tz/storage/app/uploads/public/6ad/8a7/35e/6ad8a735e595e999133375.pdf",
-   "summary": "!!!!\"#$%&'(!)#!$&&*+#*,!-#!.#*/#*(#!-(/#'#!)#!#0)#!.##'(0#!$&%($&!1-#!&$$#!1&%&2&!$-3*3*4,!-#!&+,*\"-#!-#!35,6#!47879:;!<=!,>?7@:!<A<B!*8CDC!-:E:EFGH;!\"#$%&%!'%!()'%!#*%+,*-%!./,*-,0,%!.//)%1%2#31%!/22%!./1/3/!./,*-,0,%!./4%+5!.4%!6#31#5!0%!/75*84%!4%!9:50%;!<#31#5!1#0#!*#!./)/%6#%!20#+/.5!4%!/75*84%!4%!9:50%!/*%5,*-,0,%!.4,*',!*=1#!'%!>%2/1/&#!'%!?#-,25.&%3#%!'%!?5*75!@ABCDE!*%!1#F#!.%&#:/*#!./+%6",
-   "kind": "doc",
-   "source": "Tanzania Ministry of Health",
-   "source_id": "tz-moh",
-   "tier": 1,
-   "country": "TZ",
-   "category": "health",
-   "segments": [
-    "city",
-    "bush",
-    "beach"
-   ],
-   "first_seen": "2026-10-21T17:32+03:00",
-   "published": null,
    "verdict": "CONSIDER"
   },
   {
@@ -1188,26 +1079,63 @@
    "verdict": "CONSIDER"
   },
   {
-   "score": 77.3,
+   "score": 78.9,
+   "components": {
+    "tier": 20,
+    "category": 4,
+    "lead": 2.4,
+    "relevance": 28,
+    "freshness": 14.5,
+    "corroborated": 10
+   },
+   "keywords": [
+    "collapse",
+    "flood",
+    "election"
+   ],
+   "shock_terms": [],
+   "dedupe_match": null,
+   "dedupe_similarity": 0.1,
+   "id": "363d22a28eaa",
+   "title": "Why Ugandan courts are dismissing election petitions without hearing their merits",
+   "url": "https://www.independent.co.ug/why-ugandan-courts-are-dismissing-election-petitions-without-hearing-their-merits",
+   "summary": "Kampala, Uganda | URN | In the months after the January 2026 general elections, defeated candidates flooded the High Court with petitions alleging irregularities, violence, ballot stuffing and altered results. Some of these challenges have collapsed before judges ever examined the substance. Petitions and supporting affidavits have been struck out for arriving outside the \u2026 The post Why Ugandan co",
+   "kind": "item",
+   "source": "The Independent (Uganda)",
+   "source_id": "ug-independent",
+   "tier": 2,
+   "country": "UG",
+   "category": "press",
+   "segments": [
+    "city",
+    "bush",
+    "beach"
+   ],
+   "first_seen": "2026-10-21T17:32+03:00",
+   "published": "2026-10-21",
+   "verdict": "CONSIDER"
+  },
+  {
+   "score": 78.9,
    "components": {
     "tier": 20,
     "category": 14,
     "lead": 8.4,
     "relevance": 12,
-    "freshness": 12.9,
+    "freshness": 14.5,
     "corroborated": 10
    },
    "keywords": [
     "route",
-    "airline"
+    "flight"
    ],
    "shock_terms": [],
    "dedupe_match": null,
-   "dedupe_similarity": 0.14,
-   "id": "e056d89af42c",
-   "title": "Brussels Airlines Adds Cairo Service in NS27",
-   "url": "https://www.aeroroutes.com/eng/261021-snns27cai",
-   "summary": "Published at 0000PDT / 0700GMT 21OCT26 Brussels Airlines at the launch of Northern summer 2027 season plans to launch Brussels \u2013 Cairo route, on board Airbus A320neo aircraft. The airline will offer this route 5 times weekly from 29MAR27. Schedule below focuses on the month of June 2027. SN3323 BRU1005 \u2013 1520CAI 32N 16 SN3339 BRU2110 \u2013 0230+1CAI 32N 23 SN3339 BRU2110 \u2013 0230+1CAI 32N 4 SN3340 CAI04",
+   "dedupe_similarity": 0.09,
+   "id": "05a74fbf2c84",
+   "title": "Ryanair NW26 Network Additions \u2013 18OCT26",
+   "url": "https://www.aeroroutes.com/eng/261021-frnw26",
+   "summary": "Published at 0400PDT / 1100GMT 21OCT26 The following is the summary of Ryanair\u2019s planned network addition for Northern winter 2026/27 season, as of 18OCT26. The summary includes updated list previously not covered since AeroRoutes \u2019 report in late-May 2026. * Malta Air aircraft * buzz aircraft ^ Operated by Ryanair UK under RK-coded flight numbers ^^ Ryanair UK RK-coded flight numbers operated by ",
    "kind": "item",
    "source": "AeroRoutes schedule filings",
    "source_id": "aeroroutes",
@@ -1219,7 +1147,120 @@
     "bush",
     "beach"
    ],
-   "first_seen": "2026-10-21T11:40+03:00",
+   "first_seen": "2026-10-21T17:32+03:00",
+   "published": "2026-10-21",
+   "verdict": "CONSIDER"
+  },
+  {
+   "score": 76.8,
+   "components": {
+    "tier": 20,
+    "category": 5,
+    "lead": 1.2,
+    "relevance": 36,
+    "freshness": 2.6,
+    "undated": -6,
+    "shock": 18
+   },
+   "keywords": [
+    "advisory",
+    "ebola",
+    "level 3"
+   ],
+   "shock_terms": [
+    "level 3"
+   ],
+   "dedupe_match": null,
+   "dedupe_similarity": 0.38,
+   "id": "709d787fe1f2",
+   "title": "Kenya Faces Level 3 US Advisory as Ebola Cases Climb to Eight",
+   "url": "https://travelnews.africa/news-single.html?id=18628&title=Kenya+Faces+Level+3+US+Advisory+as+Ebola+Cases+Climb+to+Eight",
+   "summary": "",
+   "kind": "item",
+   "source": "travelnews.africa",
+   "source_id": "tp-travelnews-africa",
+   "tier": 2,
+   "country": "REG",
+   "category": "trade",
+   "segments": [
+    "city",
+    "bush",
+    "beach"
+   ],
+   "first_seen": "2026-10-21T06:43+03:00",
+   "published": null,
+   "verdict": "CONSIDER"
+  },
+  {
+   "score": 76.8,
+   "components": {
+    "tier": 20,
+    "category": 5,
+    "lead": 1.2,
+    "relevance": 36,
+    "freshness": 2.6,
+    "undated": -6,
+    "shock": 18
+   },
+   "keywords": [
+    "advisory",
+    "ebola",
+    "level 3"
+   ],
+   "shock_terms": [
+    "level 3"
+   ],
+   "dedupe_match": null,
+   "dedupe_similarity": 0.38,
+   "id": "aaf7b74e3b20",
+   "title": "Kenya Faces Level 3 US Advisory as Ebola Cases Climb to Eight",
+   "url": "https://travelnews.africa/news-single.html?id=18628",
+   "summary": "",
+   "kind": "item",
+   "source": "travelnews.africa",
+   "source_id": "tp-travelnews-africa",
+   "tier": 2,
+   "country": "REG",
+   "category": "trade",
+   "segments": [
+    "city",
+    "bush",
+    "beach"
+   ],
+   "first_seen": "2026-10-21T06:43+03:00",
+   "published": null,
+   "verdict": "CONSIDER"
+  },
+  {
+   "score": 76.4,
+   "components": {
+    "tier": 40,
+    "category": 16,
+    "lead": 2.4,
+    "relevance": 0,
+    "freshness": 8.0,
+    "corroborated": 10
+   },
+   "keywords": [],
+   "shock_terms": [],
+   "dedupe_match": null,
+   "dedupe_similarity": 0.1,
+   "id": "72c493d770c3",
+   "title": "Bid Notices",
+   "url": "https://www.ubos.org/2026/10/21/bid-notices-5",
+   "summary": "Uganda Bureau of Statistics has allocated/received funds to be used for the provision of: 1) Bid Notice: [\u2026] The post Bid Notices appeared first on Uganda Bureau of Statistics .",
+   "kind": "item",
+   "source": "UBOS statistical releases",
+   "source_id": "ug-ubos",
+   "tier": 1,
+   "country": "UG",
+   "category": "statistics",
+   "segments": [
+    "city",
+    "bush",
+    "beach"
+   ],
+   "first_seen": "2026-10-21T11:39+03:00",
    "published": "2026-10-21",
    "verdict": "CONSIDER"
   },
@@ -1341,25 +1382,58 @@
    "verdict": "CONSIDER"
   },
   {
-   "score": 75.8,
+   "score": 74.9,
+   "components": {
+    "tier": 40,
+    "category": 24,
+    "lead": 2.4,
+    "relevance": 0,
+    "freshness": 14.5,
+    "undated": -6
+   },
+   "keywords": [],
+   "shock_terms": [],
+   "dedupe_match": null,
+   "dedupe_similarity": 0.25,
+   "id": "811490960cee",
+   "title": "Posted on: October 21st, 2026",
+   "url": "https://www.moh.go.tz",
+   "summary": "",
+   "kind": "item",
+   "source": "Tanzania Ministry of Health",
+   "source_id": "tz-moh",
+   "tier": 1,
+   "country": "TZ",
+   "category": "health",
+   "segments": [
+    "city",
+    "bush",
+    "beach"
+   ],
+   "first_seen": "2026-10-21T17:32+03:00",
+   "published": null,
+   "verdict": "CONSIDER"
+  },
+  {
+   "score": 74.9,
    "components": {
     "tier": 20,
     "category": 14,
     "lead": 8.4,
-    "relevance": 4,
-    "freshness": 19.4,
+    "relevance": 8,
+    "freshness": 14.5,
     "corroborated": 10
    },
    "keywords": [
-    "flight"
+    "route"
    ],
    "shock_terms": [],
    "dedupe_match": null,
-   "dedupe_similarity": 0.07,
-   "id": "4cc5e7a4e3b4",
-   "title": "Ryanair NS27 Network Additions \u2013 18OCT26",
-   "url": "https://www.aeroroutes.com/eng/261021-frns27",
-   "summary": "Published at 0500PDT / 1200GMT 21OCT26 Ryanair in the last few weeks filed network additions for Northern summer 2027 season. As of 18OCT26, planned addition includes the following. Further changes remain highly possible. * Malta Air aircraft * buzz aircraft ^ Operated by Ryanair UK under RK-coded flight numbers ^^ Ryanair UK RK-coded flight numbers operated by Ryanair aircraft A320 is operated by",
+   "dedupe_similarity": 0.14,
+   "id": "24aa0ccacb51",
+   "title": "Wizz Air NW26 Network Additions \u2013 18OCT26",
+   "url": "https://www.aeroroutes.com/eng/261021-w6nw26",
+   "summary": "Published at 0700PDT / 1400GMT 21OCT26 The following is the latest summary of Wizz Air\u2019s planned network additions for Northern winter 2026/27 season, as of 18OCT26. Planned new routes at Santiago de Compostela will now commence from mid-December 2026, instead of early-February 2027. New routes previously not covered on AeroRoutes as follows. * Wizz Air Malta / W4 ^ Wizz Air UK / W9 * Naples \u2013 Bas",
    "kind": "item",
    "source": "AeroRoutes schedule filings",
    "source_id": "aeroroutes",
@@ -1373,74 +1447,6 @@
    ],
    "first_seen": "2026-10-21T17:32+03:00",
    "published": "2026-10-21",
-   "verdict": "CONSIDER"
-  },
-  {
-   "score": 75.7,
-   "components": {
-    "tier": 40,
-    "category": 24,
-    "lead": 4.8,
-    "relevance": 0,
-    "freshness": 12.9,
-    "undated": -6
-   },
-   "keywords": [],
-   "shock_terms": [],
-   "dedupe_match": null,
-   "dedupe_similarity": 0.2,
-   "id": "ec3559a506fa",
-   "title": "Africa CDC Epidemic Intelligence Weekly Report, October 2026 EBS Weekly Reports",
-   "url": "https://africacdc.org/download/africa-cdc-epidemic-intelligence-weekly-report-october-2026",
-   "summary": "",
-   "kind": "item",
-   "source": "Africa CDC downloads (sit reps & EIW)",
-   "source_id": "africacdc-downloads",
-   "tier": 1,
-   "country": "REG",
-   "category": "health",
-   "segments": [
-    "city",
-    "bush",
-    "beach"
-   ],
-   "first_seen": "2026-10-21T11:39+03:00",
-   "published": null,
-   "verdict": "CONSIDER"
-  },
-  {
-   "score": 74.7,
-   "components": {
-    "tier": 40,
-    "category": 24,
-    "lead": 2.4,
-    "relevance": 12,
-    "freshness": 2.3,
-    "undated": -6
-   },
-   "keywords": [
-    "ebola"
-   ],
-   "shock_terms": [],
-   "dedupe_match": null,
-   "dedupe_similarity": 0.33,
-   "id": "82b0209277f7",
-   "title": "Emergency 20 October 2026 | News Release Nigeria confirms imported case of Ebola Bundibugyo virus disease",
-   "url": "https://www.afro.who.int/countries/nigeria/news/nigeria-confirms-imported-case-ebola-bundibugyo-virus-disease",
-   "summary": "",
-   "kind": "item",
-   "source": "WHO AFRO \u2014 Kenya country newsroom",
-   "source_id": "who-afro-kenya",
-   "tier": 1,
-   "country": "KE",
-   "category": "health",
-   "segments": [
-    "bush",
-    "city",
-    "beach"
-   ],
-   "first_seen": "2026-10-21T01:59+03:00",
-   "published": null,
    "verdict": "CONSIDER"
   }
  ]
