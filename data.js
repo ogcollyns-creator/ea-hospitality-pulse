@@ -1,5 +1,14 @@
 window.EDITIONS = [
  {
+  "id": "pulse-2026-10-21-evening",
+  "date": "2026-10-21",
+  "dateDisplay": "Wednesday, 21 October 2026",
+  "edition": "Evening Wrap",
+  "editionKey": "evening",
+  "summary": "Kenya confirmed its ninth Ebola case on 20 October, a relative already in quarantine, with 134 of 135 contacts traced",
+  "bodyHtml": "<p><strong>Kenya confirmed its ninth Ebola case on 20 October, a relative already in quarantine, with 134 of 135 contacts traced</strong><br><em>🌆 Evening Wrap · Wed 21 Oct 2026</em></p>\n<p>━━━━━━━━━<br><span class=\"item-head\">1️⃣ Kenya confirmed its ninth Ebola case on 20 October, a relative already in quarantine, with 134 of 135 contacts traced</span></p>\n<p>Our last count was eight. The patient, 24, is a relative of the first case and was in quarantine when he fell ill. Director-General Patrick Amoth says all nine belong to one cluster, eight are stable, and most contacts go home from 25 October. Kenya has restricted no travel or trade <strong>(Al Jazeera, 20 Oct; Pulse.co.ke, 21 Oct; Ministry statement not read)</strong>.<br>Our inference: a case inside quarantine is containment working, but the count still rises.<br><span class=\"sowhat\">🎯 So what: tell guests the cases sit in one traced cluster; do not claim &quot;Ebola-free&quot;.</span><br><span class=\"tagline\">🏷 City, Bush, Beach | Kenya | Reported | impact:risk</span></p>\n<p><span class=\"item-head\">2️⃣ El Salvador ordered entry refused to travellers from or through Kenya, Uganda, Rwanda and Ethiopia among eight countries</span></p>\n<p>Kenyans.co.ke cites El Salvador&#x27;s Health Ministry Official Letter No. 2026-6000-055: arrivals from or via the listed countries &quot;will be declared inadmissible&quot;. The rest are Angola, Burundi, the DRC and the Central African Republic; some have no cases. No effective date <strong>(Kenyans.co.ke, 21 Oct, 07:36 EAT; letter not seen)</strong>. Foreign Affairs PS Korir Sing&#x27;oei called the US Level 3 &quot;more of a caution&quot; <strong>(Kenyans.co.ke, 21 Oct)</strong>.<br>Our inference: Rwanda and Ethiopia are listed without cases, so blanket bans are a risk for every market. El Salvador is a small source market.<br><span class=\"sowhat\">🎯 So what: check your source markets&#x27; entry rules before promising refunds; WHO advises against restrictions.</span><br><span class=\"tagline\">🏷 City, Bush, Beach | Kenya, Uganda, Rwanda | Reported | impact:risk</span></p>\n<p><span class=\"item-head\">3️⃣ Nigeria confirmed an imported Ebola case on 20 October in a woman who had travelled to Uganda, which says it has no active cases</span></p>\n<p>WHO&#x27;s Africa office says lab testing confirmed Bundibugyo virus on 20 October. Symptoms began 7 October, four days after arrival; 44 contacts are monitored and her source is unresolved. WHO again advises against travel or trade restrictions <strong>(WHO AFRO, 20 Oct)</strong>. Uganda&#x27;s Director General of Health Services, Charles Olaro, said exposure may not have happened in Uganda and that it has &quot;no confirmed active Ebola cases&quot; <strong>(Daily Monitor, 20 Oct)</strong>.<br>Our inference: a Uganda link risks pulling gorilla-circuit bookings into the scare.<br><span class=\"sowhat\">🎯 So what: if you sell Uganda, put Olaro&#x27;s statement in your agent briefings.</span><br><span class=\"tagline\">🏷 Bush, City | Uganda, Kenya | Confirmed | impact:watch</span></p>\n<p><strong>🏗 DEAL FLOW:</strong> No verified EA deal flow in the window.</p>\n<p><strong>📻 ALSO TONIGHT</strong><br>🇰🇪 Kenyan long-distance drivers were told on 20 Oct to stop DRC trips after 12 drivers were reported killed on the Mahagi-Kisangani route <strong>(LoDDCA, via Kenyans.co.ke, 21 Oct)</strong>.<br>🇰🇪 Treasury proposes tolling the 25km James Gichuru-Rironi road under a PPP; no rates, proposal stage <strong>(Kenyans.co.ke, 21 Oct)</strong>.</p>\n<p><strong>📅 WEEK AHEAD</strong> 22 Oct: Essence of Africa ends in Zanzibar. 25 Oct: most Kenyan contacts due out of quarantine. 27 Oct: Uganda Airlines starts Entebbe-Accra <strong>(AeroRoutes, 20 Aug)</strong>. About 30 Oct: KNBS CPI. Kenya&#x27;s health workers&#x27; strike: status not verified today.</p>\n<p><strong>🔍 BLIND SPOTS</strong> Web-scanned only, pages not opened: UK, Canada, German and French advisories; Africa CDC; Rwanda and Zanzibar health ministries; UWA, TANAPA, NCAA; four gazettes; TIRA. Statistics and Tier C not run.</p>\n<p>🔗 This edition on the web: <a href=\"https://eahospitalitypulse.com/editions/pulse-2026-10-21-evening.html\" rel=\"noopener\">eahospitalitypulse.com/editions/pulse-2026-10-21-evenin…</a></p>"
+ },
+ {
   "id": "pulse-2026-10-20-evening",
   "date": "2026-10-20",
   "dateDisplay": "Tuesday, 20 October 2026",
@@ -1261,6 +1270,68 @@ window.EDITIONS = [
  }
 ];
 window.INSIGHTS = [
+ {
+  "headline": "Kenya confirmed its ninth Ebola case on 20 October, a relative already in quarantine, with 134 of 135 contacts traced",
+  "body": "Our last count was eight. The patient, 24, is a relative of the first case and was in quarantine when he fell ill. Director-General Patrick Amoth says all nine belong to one cluster, eight are stable, and most contacts go home from 25 October. Kenya has restricted no travel or trade *(Al Jazeera, 20 Oct; Pulse.co.ke, 21 Oct; Ministry statement not read)*. Our inference: a case inside quarantine is containment working, but the count still rises.",
+  "sowhat": "🎯 So what: tell guests the cases sit in one traced cluster; do not claim \"Ebola-free\".",
+  "segments": [
+   "city",
+   "bush",
+   "beach"
+  ],
+  "countries": "Kenya",
+  "confidence": "Reported",
+  "impact": "risk",
+  "impactClass": "risk",
+  "intensity": 2,
+  "impactSet": "author",
+  "source": "pulse-2026-10-21-evening",
+  "date": "2026-10-21",
+  "dateDisplay": "Wednesday, 21 October 2026",
+  "edition": "Evening Wrap",
+  "editionKey": "evening"
+ },
+ {
+  "headline": "El Salvador ordered entry refused to travellers from or through Kenya, Uganda, Rwanda and Ethiopia among eight countries",
+  "body": "Kenyans.co.ke cites El Salvador's Health Ministry Official Letter No. 2026-6000-055: arrivals from or via the listed countries \"will be declared inadmissible\". The rest are Angola, Burundi, the DRC and the Central African Republic; some have no cases. No effective date *(Kenyans.co.ke, 21 Oct, 07:36 EAT; letter not seen)*. Foreign Affairs PS Korir Sing'oei called the US Level 3 \"more of a caution\" *(Kenyans.co.ke, 21 Oct)*. Our inference: Rwanda and Ethiopia are listed without cases, so blanket bans are a risk for every market. El Salvador is a small source market.",
+  "sowhat": "🎯 So what: check your source markets' entry rules before promising refunds; WHO advises against restrictions.",
+  "segments": [
+   "city",
+   "bush",
+   "beach"
+  ],
+  "countries": "Kenya, Uganda, Rwanda",
+  "confidence": "Reported",
+  "impact": "risk",
+  "impactClass": "risk",
+  "intensity": 2,
+  "impactSet": "author",
+  "source": "pulse-2026-10-21-evening",
+  "date": "2026-10-21",
+  "dateDisplay": "Wednesday, 21 October 2026",
+  "edition": "Evening Wrap",
+  "editionKey": "evening"
+ },
+ {
+  "headline": "Nigeria confirmed an imported Ebola case on 20 October in a woman who had travelled to Uganda, which says it has no active cases",
+  "body": "WHO's Africa office says lab testing confirmed Bundibugyo virus on 20 October. Symptoms began 7 October, four days after arrival; 44 contacts are monitored and her source is unresolved. WHO again advises against travel or trade restrictions *(WHO AFRO, 20 Oct)*. Uganda's Director General of Health Services, Charles Olaro, said exposure may not have happened in Uganda and that it has \"no confirmed active Ebola cases\" *(Daily Monitor, 20 Oct)*. Our inference: a Uganda link risks pulling gorilla-circuit bookings into the scare.",
+  "sowhat": "🎯 So what: if you sell Uganda, put Olaro's statement in your agent briefings.",
+  "segments": [
+   "city",
+   "bush"
+  ],
+  "countries": "Uganda, Kenya",
+  "confidence": "Confirmed",
+  "impact": "watch",
+  "impactClass": "watch",
+  "intensity": 3,
+  "impactSet": "author",
+  "source": "pulse-2026-10-21-evening",
+  "date": "2026-10-21",
+  "dateDisplay": "Wednesday, 21 October 2026",
+  "edition": "Evening Wrap",
+  "editionKey": "evening"
+ },
  {
   "headline": "The US raised Kenya from Level 2 to Level 3 on 19 October, citing Ebola alongside crime and terrorism",
   "body": "travel.state.gov now reads \"Reconsider Travel\" for Kenya, led by health risk after eight confirmed Ebola cases. Level 4 areas are unchanged: Eastleigh, Kibera, the north-east and north coast, West Pokot and Turkana. The page footer still says \"last updated 30 July\", which conflicts with the 19 Oct issue date *(US State Department, read 20 Oct; Kenyans.co.ke, 20 Oct)*. UK FCDO re-dated Kenya on 16 Oct for Ebola screening with no level change, and Canada's 15 Oct update kept \"high degree of caution\" *(FCDO; travel.gc.ca, read 20 Oct)*. Our inference: Kenya now ranks above Tanzania (Level 2 since 16 Oct) in US eyes, and level-triggered rules at some insurers and corporate travel desks may bite. The UK and Canadian levels are unchanged.",
@@ -7328,4 +7399,4 @@ window.INSIGHTS = [
   "editionKey": "evening"
  }
 ];
-window.BUILT_AT = "2026-10-20 19:05";
+window.BUILT_AT = "2026-10-21 16:06";
