@@ -1,9 +1,9 @@
 {
- "generated": "2026-10-21T02:05:11+03:00",
+ "generated": "2026-10-21T06:45:54+03:00",
  "slot": "morning",
  "window_start": 1792508400,
- "observations_in_window": 303,
- "deduped_against": 23,
+ "observations_in_window": 417,
+ "deduped_against": 20,
  "candidates": [
   {
    "score": 101.3,
@@ -13,6 +13,39 @@
     "lead": 3.6,
     "relevance": 0,
     "freshness": 19.7,
+    "corroborated": 10,
+    "page_change": -4
+   },
+   "keywords": [],
+   "shock_terms": [],
+   "dedupe_match": null,
+   "dedupe_similarity": 0.08,
+   "id": "7e97fe303d19",
+   "title": "[page changed] Federal Register \u2014 public inspection (HHS/CDC), pre-publication",
+   "url": "https://www.federalregister.gov/api/v1/public-inspection-documents/current.json",
+   "summary": "{\"count\":64,\"results\":[{\"agencies\":[{\"raw_name\":\"Indian Affairs Bureau\",\"name\":\"Indian Affairs Bureau\",\"id\":234,\"url\":\"https://www.federalregister.gov/agencies/indian-affairs-bureau\",\"json_url\":\"https://www.federalregister.gov/api/v1/agencies/234\",\"parent_id\":253,\"slug\":\"indian-affairs-bureau\"}],\"agency_letters\":[],\"agency_names\":[\"Indian Affairs Bureau\"],\"docket_numbers\":[],\"document_number\":\"202",
+   "kind": "page-change",
+   "source": "Federal Register \u2014 public inspection (HHS/CDC), pre-publication",
+   "source_id": "us-fedreg-pubinspect-hhs",
+   "tier": 1,
+   "country": "REG",
+   "category": "advisory",
+   "segments": [
+    "city",
+    "bush"
+   ],
+   "first_seen": "2026-10-21T06:43+03:00",
+   "published": "2026-10-20",
+   "verdict": "OPEN THIS \u2014 tier-1 advisory page moved; content not auto-parsed, read it manually"
+  },
+  {
+   "score": 96.1,
+   "components": {
+    "tier": 40,
+    "category": 32,
+    "lead": 3.6,
+    "relevance": 0,
+    "freshness": 14.5,
     "corroborated": 10,
     "page_change": -4
    },
@@ -39,13 +72,13 @@
    "verdict": "OPEN THIS \u2014 tier-1 advisory page moved; content not auto-parsed, read it manually"
   },
   {
-   "score": 97.3,
+   "score": 92.2,
    "components": {
     "tier": 40,
     "category": 32,
     "lead": 3.6,
     "relevance": 0,
-    "freshness": 15.7,
+    "freshness": 10.6,
     "corroborated": 10,
     "page_change": -4
    },
@@ -72,13 +105,13 @@
    "verdict": "OPEN THIS \u2014 tier-1 advisory page moved; content not auto-parsed, read it manually"
   },
   {
-   "score": 61.3,
+   "score": 56.2,
    "components": {
     "tier": 40,
     "category": 12,
     "lead": 3.6,
     "relevance": 0,
-    "freshness": 15.7,
+    "freshness": 10.6,
     "undated": -6,
     "page_change": -4
    },
@@ -106,13 +139,13 @@
    "verdict": "OPEN THIS \u2014 tier-1 airline page moved; content not auto-parsed, read it manually"
   },
   {
-   "score": 107.5,
+   "score": 102.4,
    "components": {
     "tier": 40,
     "category": 9,
     "lead": 16.8,
     "relevance": 16,
-    "freshness": 15.7,
+    "freshness": 10.6,
     "corroborated": 10
    },
    "keywords": [
@@ -143,13 +176,13 @@
    "verdict": "STRONG \u2014 tier-1, upstream"
   },
   {
-   "score": 99.5,
+   "score": 94.4,
    "components": {
     "tier": 40,
     "category": 9,
     "lead": 16.8,
     "relevance": 8,
-    "freshness": 15.7,
+    "freshness": 10.6,
     "corroborated": 10
    },
    "keywords": [
@@ -178,13 +211,93 @@
    "verdict": "STRONG \u2014 tier-1, upstream"
   },
   {
-   "score": 98.5,
+   "score": 94.0,
+   "components": {
+    "tier": 20,
+    "category": 5,
+    "lead": 1.2,
+    "relevance": 36,
+    "freshness": 19.8,
+    "undated": -6,
+    "shock": 18
+   },
+   "keywords": [
+    "advisory",
+    "ebola",
+    "level 3"
+   ],
+   "shock_terms": [
+    "level 3"
+   ],
+   "dedupe_match": null,
+   "dedupe_similarity": 0.38,
+   "id": "709d787fe1f2",
+   "title": "Kenya Faces Level 3 US Advisory as Ebola Cases Climb to Eight",
+   "url": "https://travelnews.africa/news-single.html?id=18628&title=Kenya+Faces+Level+3+US+Advisory+as+Ebola+Cases+Climb+to+Eight",
+   "summary": "",
+   "kind": "item",
+   "source": "travelnews.africa",
+   "source_id": "tp-travelnews-africa",
+   "tier": 2,
+   "country": "REG",
+   "category": "trade",
+   "segments": [
+    "city",
+    "bush",
+    "beach"
+   ],
+   "first_seen": "2026-10-21T06:43+03:00",
+   "published": null,
+   "verdict": "CONSIDER"
+  },
+  {
+   "score": 94.0,
+   "components": {
+    "tier": 20,
+    "category": 5,
+    "lead": 1.2,
+    "relevance": 36,
+    "freshness": 19.8,
+    "undated": -6,
+    "shock": 18
+   },
+   "keywords": [
+    "advisory",
+    "ebola",
+    "level 3"
+   ],
+   "shock_terms": [
+    "level 3"
+   ],
+   "dedupe_match": null,
+   "dedupe_similarity": 0.38,
+   "id": "aaf7b74e3b20",
+   "title": "Kenya Faces Level 3 US Advisory as Ebola Cases Climb to Eight",
+   "url": "https://travelnews.africa/news-single.html?id=18628",
+   "summary": "",
+   "kind": "item",
+   "source": "travelnews.africa",
+   "source_id": "tp-travelnews-africa",
+   "tier": 2,
+   "country": "REG",
+   "category": "trade",
+   "segments": [
+    "city",
+    "bush",
+    "beach"
+   ],
+   "first_seen": "2026-10-21T06:43+03:00",
+   "published": null,
+   "verdict": "CONSIDER"
+  },
+  {
+   "score": 93.4,
    "components": {
     "tier": 40,
     "category": 16,
     "lead": 16.8,
     "relevance": 0,
-    "freshness": 15.7,
+    "freshness": 10.6,
     "corroborated": 10
    },
    "keywords": [],
@@ -211,13 +324,13 @@
    "verdict": "STRONG \u2014 tier-1, upstream"
   },
   {
-   "score": 95.5,
+   "score": 90.4,
    "components": {
     "tier": 40,
     "category": 9,
     "lead": 16.8,
     "relevance": 4,
-    "freshness": 15.7,
+    "freshness": 10.6,
     "corroborated": 10
    },
    "keywords": [
@@ -246,13 +359,13 @@
    "verdict": "STRONG \u2014 tier-1, upstream"
   },
   {
-   "score": 92.1,
+   "score": 87.0,
    "components": {
     "tier": 40,
     "category": 24,
     "lead": 2.4,
     "relevance": 12,
-    "freshness": 19.7,
+    "freshness": 14.6,
     "undated": -6
    },
    "keywords": [
@@ -278,16 +391,16 @@
    ],
    "first_seen": "2026-10-21T01:59+03:00",
    "published": null,
-   "verdict": "STRONG \u2014 tier-1, upstream"
+   "verdict": "CONSIDER"
   },
   {
-   "score": 92.1,
+   "score": 86.9,
    "components": {
     "tier": 20,
     "category": 14,
     "lead": 8.4,
     "relevance": 20,
-    "freshness": 19.7,
+    "freshness": 14.5,
     "corroborated": 10
    },
    "keywords": [
@@ -318,13 +431,13 @@
    "verdict": "CONSIDER"
   },
   {
-   "score": 92.1,
+   "score": 86.9,
    "components": {
     "tier": 40,
     "category": 24,
     "lead": 2.4,
     "relevance": 12,
-    "freshness": 19.7,
+    "freshness": 14.5,
     "undated": -6
    },
    "keywords": [
@@ -350,16 +463,16 @@
    ],
    "first_seen": "2026-10-21T01:59+03:00",
    "published": null,
-   "verdict": "STRONG \u2014 tier-1, upstream"
+   "verdict": "CONSIDER"
   },
   {
-   "score": 92.1,
+   "score": 86.9,
    "components": {
     "tier": 40,
     "category": 24,
     "lead": 2.4,
     "relevance": 12,
-    "freshness": 19.7,
+    "freshness": 14.5,
     "undated": -6
    },
    "keywords": [
@@ -385,16 +498,16 @@
    ],
    "first_seen": "2026-10-21T01:59+03:00",
    "published": null,
-   "verdict": "STRONG \u2014 tier-1, upstream"
+   "verdict": "CONSIDER"
   },
   {
-   "score": 91.8,
+   "score": 86.6,
    "components": {
     "tier": 20,
     "category": 4,
     "lead": 0.0,
     "relevance": 24,
-    "freshness": 15.8,
+    "freshness": 10.6,
     "corroborated": 10,
     "shock": 18
    },
@@ -427,13 +540,13 @@
    "verdict": "CONSIDER"
   },
   {
-   "score": 91.8,
+   "score": 86.6,
    "components": {
     "tier": 20,
     "category": 4,
     "lead": 0.0,
     "relevance": 24,
-    "freshness": 15.8,
+    "freshness": 10.6,
     "corroborated": 10,
     "shock": 18
    },
@@ -467,13 +580,13 @@
    "verdict": "CONSIDER"
   },
   {
-   "score": 89.5,
+   "score": 84.4,
    "components": {
     "tier": 40,
     "category": 15,
     "lead": 16.8,
     "relevance": 8,
-    "freshness": 15.7,
+    "freshness": 10.6,
     "undated": -6
    },
    "keywords": [
@@ -502,13 +615,13 @@
    "verdict": "CONSIDER"
   },
   {
-   "score": 89.5,
+   "score": 84.4,
    "components": {
     "tier": 40,
     "category": 15,
     "lead": 16.8,
     "relevance": 8,
-    "freshness": 15.7,
+    "freshness": 10.6,
     "undated": -6
    },
    "keywords": [
@@ -516,7 +629,7 @@
    ],
    "shock_terms": [],
    "dedupe_match": null,
-   "dedupe_similarity": 0.11,
+   "dedupe_similarity": 0.0,
    "id": "72a31e5c3bfe",
    "title": "PARLIAMENTARY BUDGET COMMITTEE COMMENDS TRA FOR REVENUE COLLECTION PERFORMANCE AND DIGITAL TAX SYSTEMS",
    "url": "https://www.tra.go.tz/news/parliamentary-budget-committee-commends-tra-for-revenue-collection-performance-and-digital-tax-systems",
@@ -537,13 +650,48 @@
    "verdict": "CONSIDER"
   },
   {
-   "score": 88.2,
+   "score": 84.2,
+   "components": {
+    "tier": 20,
+    "category": 14,
+    "lead": 8.4,
+    "relevance": 12,
+    "freshness": 19.8,
+    "corroborated": 10
+   },
+   "keywords": [
+    "cancel"
+   ],
+   "shock_terms": [],
+   "dedupe_match": null,
+   "dedupe_similarity": 0.2,
+   "id": "7a407d3a2046",
+   "title": "LEVEL 1Q27 US Seasonal Cancellations",
+   "url": "https://www.aeroroutes.com/eng/261020-ibll1q27us",
+   "summary": "Published at 1900PDT 20OCT26 / 0200GMT 21OCT26 LEVEL in the first quarter of 2027 is cancelling service to the US on seasonal basis, reflected in recent schedule update. Barcelona \u2013 Miami 21JAN27 \u2013 28FEB27 3 weekly service cancelled Barcelona \u2013 New York JFK 19JAN27 \u2013 15MAR27 3 weekly service cancelled",
+   "kind": "item",
+   "source": "AeroRoutes schedule filings",
+   "source_id": "aeroroutes",
+   "tier": 2,
+   "country": "GLOBAL",
+   "category": "aviation-tracker",
+   "segments": [
+    "city",
+    "bush",
+    "beach"
+   ],
+   "first_seen": "2026-10-21T06:43+03:00",
+   "published": "2026-10-21",
+   "verdict": "CONSIDER"
+  },
+  {
+   "score": 83.0,
    "components": {
     "tier": 20,
     "category": 14,
     "lead": 8.4,
     "relevance": 20,
-    "freshness": 15.8,
+    "freshness": 10.6,
     "corroborated": 10
    },
    "keywords": [
@@ -574,13 +722,13 @@
    "verdict": "CONSIDER"
   },
   {
-   "score": 87.5,
+   "score": 82.4,
    "components": {
     "tier": 40,
     "category": 17,
     "lead": 16.8,
     "relevance": 4,
-    "freshness": 15.7,
+    "freshness": 10.6,
     "undated": -6
    },
    "keywords": [
@@ -609,13 +757,13 @@
    "verdict": "CONSIDER"
   },
   {
-   "score": 87.5,
+   "score": 82.4,
    "components": {
     "tier": 40,
     "category": 17,
     "lead": 16.8,
     "relevance": 4,
-    "freshness": 15.7,
+    "freshness": 10.6,
     "undated": -6
    },
    "keywords": [
@@ -644,13 +792,13 @@
    "verdict": "CONSIDER"
   },
   {
-   "score": 87.5,
+   "score": 82.4,
    "components": {
     "tier": 40,
     "category": 17,
     "lead": 16.8,
     "relevance": 4,
-    "freshness": 15.7,
+    "freshness": 10.6,
     "undated": -6
    },
    "keywords": [
@@ -679,13 +827,48 @@
    "verdict": "CONSIDER"
   },
   {
-   "score": 85.3,
+   "score": 80.2,
+   "components": {
+    "tier": 20,
+    "category": 14,
+    "lead": 8.4,
+    "relevance": 8,
+    "freshness": 19.8,
+    "corroborated": 10
+   },
+   "keywords": [
+    "route"
+   ],
+   "shock_terms": [],
+   "dedupe_match": null,
+   "dedupe_similarity": 0.0,
+   "id": "4d654d8cd2ba",
+   "title": "Air Serbia Plans Miami May 2027 Launch",
+   "url": "https://www.aeroroutes.com/eng/261020-jumay27mia",
+   "summary": "Published at 1600PDT / 2300GMT 20OCT26 Air Serbia during Northern summer 2027 season plans to launch new route to the US, as the carrier schedules Belgrade \u2013 Miami launch on 23MAY27. Airbus A330-200 aircraft to serve this route twie weekly. JU502 BEG1130 \u2013 1730MIA 332 7 JU502 BEG1350 \u2013 1950MIA 332 4 JU503 MIA1900 \u2013 1130+1BEG 332 7 JU503 MIA2230 \u2013 1500+1BEG 332 4",
+   "kind": "item",
+   "source": "AeroRoutes schedule filings",
+   "source_id": "aeroroutes",
+   "tier": 2,
+   "country": "GLOBAL",
+   "category": "aviation-tracker",
+   "segments": [
+    "city",
+    "bush",
+    "beach"
+   ],
+   "first_seen": "2026-10-21T06:43+03:00",
+   "published": "2026-10-21",
+   "verdict": "CONSIDER"
+  },
+  {
+   "score": 80.2,
    "components": {
     "tier": 40,
     "category": 12,
     "lead": 3.6,
     "relevance": 4,
-    "freshness": 15.7,
+    "freshness": 10.6,
     "corroborated": 10
    },
    "keywords": [
@@ -712,13 +895,13 @@
    "verdict": "CONSIDER"
   },
   {
-   "score": 84.2,
+   "score": 79.0,
    "components": {
     "tier": 20,
     "category": 14,
     "lead": 8.4,
     "relevance": 16,
-    "freshness": 15.8,
+    "freshness": 10.6,
     "corroborated": 10
    },
    "keywords": [
@@ -748,13 +931,13 @@
    "verdict": "CONSIDER"
   },
   {
-   "score": 83.5,
+   "score": 78.4,
    "components": {
     "tier": 40,
     "category": 17,
     "lead": 16.8,
     "relevance": 0,
-    "freshness": 15.7,
+    "freshness": 10.6,
     "undated": -6
    },
    "keywords": [],
@@ -781,13 +964,13 @@
    "verdict": "CONSIDER"
   },
   {
-   "score": 81.5,
+   "score": 76.4,
    "components": {
     "tier": 40,
     "category": 15,
     "lead": 16.8,
     "relevance": 0,
-    "freshness": 15.7,
+    "freshness": 10.6,
     "undated": -6
    },
    "keywords": [],
@@ -814,13 +997,180 @@
    "verdict": "CONSIDER"
   },
   {
-   "score": 81.3,
+   "score": 76.2,
+   "components": {
+    "tier": 20,
+    "category": 14,
+    "lead": 8.4,
+    "relevance": 4,
+    "freshness": 19.8,
+    "corroborated": 10
+   },
+   "keywords": [
+    "airline"
+   ],
+   "shock_terms": [],
+   "dedupe_match": null,
+   "dedupe_similarity": 0.07,
+   "id": "7572b073a329",
+   "title": "Fiji Airways NS27 Singapore Service Increases",
+   "url": "https://www.aeroroutes.com/eng/261020-fjns27sin",
+   "summary": "Published at 1800PDT 20OCT26 / 0100GMT 21OCT26 Fiji Airways at the launch of Northern summer 2027 season plans to launch 3rd weekly Nadi \u2013 Singapore service, operated by Airbus A330-200 aircraft. The additional service will commence on 29MAR27. In addition, the airline will also modify operational schedules, as selected service will depart Nadi in the morning hours. FJ363 NAN0930 \u2013 1605SIN 332 7 F",
+   "kind": "item",
+   "source": "AeroRoutes schedule filings",
+   "source_id": "aeroroutes",
+   "tier": 2,
+   "country": "GLOBAL",
+   "category": "aviation-tracker",
+   "segments": [
+    "city",
+    "bush",
+    "beach"
+   ],
+   "first_seen": "2026-10-21T06:43+03:00",
+   "published": "2026-10-21",
+   "verdict": "CONSIDER"
+  },
+  {
+   "score": 76.2,
+   "components": {
+    "tier": 40,
+    "category": 12,
+    "lead": 3.6,
+    "relevance": 0,
+    "freshness": 10.6,
+    "corroborated": 10
+   },
+   "keywords": [],
+   "shock_terms": [],
+   "dedupe_match": null,
+   "dedupe_similarity": 0.0,
+   "id": "0df854e9f67a",
+   "title": "CEOs Survey of September 2026",
+   "url": "https://www.centralbank.go.ke/2026/10/20/ceos-survey-of-september-2026",
+   "summary": "",
+   "kind": "item",
+   "source": "CBK weekly bulletin",
+   "source_id": "ke-cbk-bulletin",
+   "tier": 1,
+   "country": "KE",
+   "category": "central-bank",
+   "segments": [
+    "city",
+    "bush",
+    "beach"
+   ],
+   "first_seen": "2026-10-20T22:23+03:00",
+   "published": "2026-10-20",
+   "verdict": "CONSIDER"
+  },
+  {
+   "score": 76.2,
+   "components": {
+    "tier": 40,
+    "category": 12,
+    "lead": 3.6,
+    "relevance": 0,
+    "freshness": 10.6,
+    "corroborated": 10
+   },
+   "keywords": [],
+   "shock_terms": [],
+   "dedupe_match": null,
+   "dedupe_similarity": 0.0,
+   "id": "687dc067584b",
+   "title": "Market Perceptions Survey of September 2026",
+   "url": "https://www.centralbank.go.ke/2026/10/20/market-perceptions-survey-of-september-2026",
+   "summary": "",
+   "kind": "item",
+   "source": "CBK weekly bulletin",
+   "source_id": "ke-cbk-bulletin",
+   "tier": 1,
+   "country": "KE",
+   "category": "central-bank",
+   "segments": [
+    "city",
+    "bush",
+    "beach"
+   ],
+   "first_seen": "2026-10-20T22:23+03:00",
+   "published": "2026-10-20",
+   "verdict": "CONSIDER"
+  },
+  {
+   "score": 76.2,
+   "components": {
+    "tier": 40,
+    "category": 12,
+    "lead": 3.6,
+    "relevance": 0,
+    "freshness": 10.6,
+    "corroborated": 10
+   },
+   "keywords": [],
+   "shock_terms": [],
+   "dedupe_match": null,
+   "dedupe_similarity": 0.0,
+   "id": "170a62c3b3bf",
+   "title": "Agriculture Sector Survey of September 2026",
+   "url": "https://www.centralbank.go.ke/2026/10/20/agriculture-sector-survey-of-september-2026",
+   "summary": "",
+   "kind": "item",
+   "source": "CBK weekly bulletin",
+   "source_id": "ke-cbk-bulletin",
+   "tier": 1,
+   "country": "KE",
+   "category": "central-bank",
+   "segments": [
+    "city",
+    "bush",
+    "beach"
+   ],
+   "first_seen": "2026-10-20T22:23+03:00",
+   "published": "2026-10-20",
+   "verdict": "CONSIDER"
+  },
+  {
+   "score": 76.2,
+   "components": {
+    "tier": 40,
+    "category": 12,
+    "lead": 3.6,
+    "relevance": 0,
+    "freshness": 10.6,
+    "corroborated": 10
+   },
+   "keywords": [],
+   "shock_terms": [],
+   "dedupe_match": null,
+   "dedupe_similarity": 0.0,
+   "id": "bda7c6894b00",
+   "title": "MEFMI Vacancy \u2013 Manager Positions",
+   "url": "https://www.centralbank.go.ke/2026/10/20/mefmi-vacancy-manager-positions",
+   "summary": "",
+   "kind": "item",
+   "source": "CBK weekly bulletin",
+   "source_id": "ke-cbk-bulletin",
+   "tier": 1,
+   "country": "KE",
+   "category": "central-bank",
+   "segments": [
+    "city",
+    "bush",
+    "beach"
+   ],
+   "first_seen": "2026-10-20T22:23+03:00",
+   "published": "2026-10-20",
+   "verdict": "CONSIDER"
+  },
+  {
+   "score": 76.1,
    "components": {
     "tier": 40,
     "category": 12,
     "lead": 3.6,
     "relevance": 12,
-    "freshness": 19.7,
+    "freshness": 14.5,
     "undated": -6
    },
    "keywords": [
@@ -850,145 +1200,13 @@
    "verdict": "CONSIDER"
   },
   {
-   "score": 81.3,
-   "components": {
-    "tier": 40,
-    "category": 12,
-    "lead": 3.6,
-    "relevance": 0,
-    "freshness": 15.7,
-    "corroborated": 10
-   },
-   "keywords": [],
-   "shock_terms": [],
-   "dedupe_match": null,
-   "dedupe_similarity": 0.0,
-   "id": "0df854e9f67a",
-   "title": "CEOs Survey of September 2026",
-   "url": "https://www.centralbank.go.ke/2026/10/20/ceos-survey-of-september-2026",
-   "summary": "",
-   "kind": "item",
-   "source": "CBK weekly bulletin",
-   "source_id": "ke-cbk-bulletin",
-   "tier": 1,
-   "country": "KE",
-   "category": "central-bank",
-   "segments": [
-    "city",
-    "bush",
-    "beach"
-   ],
-   "first_seen": "2026-10-20T22:23+03:00",
-   "published": "2026-10-20",
-   "verdict": "CONSIDER"
-  },
-  {
-   "score": 81.3,
-   "components": {
-    "tier": 40,
-    "category": 12,
-    "lead": 3.6,
-    "relevance": 0,
-    "freshness": 15.7,
-    "corroborated": 10
-   },
-   "keywords": [],
-   "shock_terms": [],
-   "dedupe_match": null,
-   "dedupe_similarity": 0.0,
-   "id": "687dc067584b",
-   "title": "Market Perceptions Survey of September 2026",
-   "url": "https://www.centralbank.go.ke/2026/10/20/market-perceptions-survey-of-september-2026",
-   "summary": "",
-   "kind": "item",
-   "source": "CBK weekly bulletin",
-   "source_id": "ke-cbk-bulletin",
-   "tier": 1,
-   "country": "KE",
-   "category": "central-bank",
-   "segments": [
-    "city",
-    "bush",
-    "beach"
-   ],
-   "first_seen": "2026-10-20T22:23+03:00",
-   "published": "2026-10-20",
-   "verdict": "CONSIDER"
-  },
-  {
-   "score": 81.3,
-   "components": {
-    "tier": 40,
-    "category": 12,
-    "lead": 3.6,
-    "relevance": 0,
-    "freshness": 15.7,
-    "corroborated": 10
-   },
-   "keywords": [],
-   "shock_terms": [],
-   "dedupe_match": null,
-   "dedupe_similarity": 0.0,
-   "id": "170a62c3b3bf",
-   "title": "Agriculture Sector Survey of September 2026",
-   "url": "https://www.centralbank.go.ke/2026/10/20/agriculture-sector-survey-of-september-2026",
-   "summary": "",
-   "kind": "item",
-   "source": "CBK weekly bulletin",
-   "source_id": "ke-cbk-bulletin",
-   "tier": 1,
-   "country": "KE",
-   "category": "central-bank",
-   "segments": [
-    "city",
-    "bush",
-    "beach"
-   ],
-   "first_seen": "2026-10-20T22:23+03:00",
-   "published": "2026-10-20",
-   "verdict": "CONSIDER"
-  },
-  {
-   "score": 81.3,
-   "components": {
-    "tier": 40,
-    "category": 12,
-    "lead": 3.6,
-    "relevance": 0,
-    "freshness": 15.7,
-    "corroborated": 10
-   },
-   "keywords": [],
-   "shock_terms": [],
-   "dedupe_match": null,
-   "dedupe_similarity": 0.0,
-   "id": "bda7c6894b00",
-   "title": "MEFMI Vacancy \u2013 Manager Positions",
-   "url": "https://www.centralbank.go.ke/2026/10/20/mefmi-vacancy-manager-positions",
-   "summary": "",
-   "kind": "item",
-   "source": "CBK weekly bulletin",
-   "source_id": "ke-cbk-bulletin",
-   "tier": 1,
-   "country": "KE",
-   "category": "central-bank",
-   "segments": [
-    "city",
-    "bush",
-    "beach"
-   ],
-   "first_seen": "2026-10-20T22:23+03:00",
-   "published": "2026-10-20",
-   "verdict": "CONSIDER"
-  },
-  {
-   "score": 80.2,
+   "score": 75.0,
    "components": {
     "tier": 20,
     "category": 14,
     "lead": 8.4,
     "relevance": 12,
-    "freshness": 15.8,
+    "freshness": 10.6,
     "corroborated": 10
    },
    "keywords": [
@@ -1018,13 +1236,13 @@
    "verdict": "CONSIDER"
   },
   {
-   "score": 80.2,
+   "score": 75.0,
    "components": {
     "tier": 20,
     "category": 14,
     "lead": 8.4,
     "relevance": 12,
-    "freshness": 15.8,
+    "freshness": 10.6,
     "corroborated": 10
    },
    "keywords": [
@@ -1054,48 +1272,13 @@
    "verdict": "CONSIDER"
   },
   {
-   "score": 80.1,
-   "components": {
-    "tier": 20,
-    "category": 14,
-    "lead": 8.4,
-    "relevance": 8,
-    "freshness": 19.7,
-    "corroborated": 10
-   },
-   "keywords": [
-    "route"
-   ],
-   "shock_terms": [],
-   "dedupe_match": null,
-   "dedupe_similarity": 0.2,
-   "id": "0e1d378a9735",
-   "title": "Air Canada NS27 US Network Changes \u2013 18OCT26",
-   "url": "https://www.aeroroutes.com/eng/261020-acns27us",
-   "summary": "Published at 1300PDT / 2000GMT 20OCT26 Air Canada last week announced US network changes, as the carrier adds 3 routes in Northern summer 2027 season, while removing 5. Edmonton \u2013 Newark eff 02JUN27 4 weekly A220-300 (United last served this route until October 2014) AC1562 YEG0600 \u2013 1223EWR 223 x246 AC1563 EWR1320 \u2013 1633YEG 223 x246 Montreal \u2013 Indianapolis eff 01JUN27 1 daily Embraer E175 AC8563 ",
-   "kind": "item",
-   "source": "AeroRoutes schedule filings",
-   "source_id": "aeroroutes",
-   "tier": 2,
-   "country": "GLOBAL",
-   "category": "aviation-tracker",
-   "segments": [
-    "city",
-    "bush",
-    "beach"
-   ],
-   "first_seen": "2026-10-21T01:59+03:00",
-   "published": "2026-10-20",
-   "verdict": "CONSIDER"
-  },
-  {
-   "score": 80.1,
+   "score": 75.0,
    "components": {
     "tier": 40,
     "category": 12,
     "lead": 2.4,
     "relevance": 0,
-    "freshness": 15.7,
+    "freshness": 10.6,
     "corroborated": 10
    },
    "keywords": [],
@@ -1122,13 +1305,13 @@
    "verdict": "CONSIDER"
   },
   {
-   "score": 80.1,
+   "score": 75.0,
    "components": {
     "tier": 40,
     "category": 12,
     "lead": 2.4,
     "relevance": 0,
-    "freshness": 15.7,
+    "freshness": 10.6,
     "corroborated": 10
    },
    "keywords": [],
@@ -1155,13 +1338,13 @@
    "verdict": "CONSIDER"
   },
   {
-   "score": 80.1,
+   "score": 75.0,
    "components": {
     "tier": 40,
     "category": 12,
     "lead": 2.4,
     "relevance": 0,
-    "freshness": 15.7,
+    "freshness": 10.6,
     "corroborated": 10
    },
    "keywords": [],
@@ -1188,13 +1371,13 @@
    "verdict": "CONSIDER"
   },
   {
-   "score": 80.1,
+   "score": 75.0,
    "components": {
     "tier": 40,
     "category": 12,
     "lead": 2.4,
     "relevance": 0,
-    "freshness": 15.7,
+    "freshness": 10.6,
     "corroborated": 10
    },
    "keywords": [],
@@ -1218,175 +1401,6 @@
    ],
    "first_seen": "2026-10-20T22:22+03:00",
    "published": "2026-10-20",
-   "verdict": "CONSIDER"
-  },
-  {
-   "score": 76.5,
-   "components": {
-    "tier": 40,
-    "category": 10,
-    "lead": 16.8,
-    "relevance": 0,
-    "freshness": 15.7,
-    "undated": -6
-   },
-   "keywords": [],
-   "shock_terms": [],
-   "dedupe_match": null,
-   "dedupe_similarity": 0.2,
-   "id": "2448cd344f53",
-   "title": "MPs want healthcare gaps fixed despite slight progress Tuesday, 20 October 2026",
-   "url": "https://www.parliament.go.ug/news/4675/mps-want-healthcare-gaps-fixed-despite-slight-progress",
-   "summary": "",
-   "kind": "item",
-   "source": "Parliament of Uganda",
-   "source_id": "ug-parliament",
-   "tier": 1,
-   "country": "UG",
-   "category": "legislature",
-   "segments": [
-    "city",
-    "bush",
-    "beach"
-   ],
-   "first_seen": "2026-10-20T22:23+03:00",
-   "published": null,
-   "verdict": "CONSIDER"
-  },
-  {
-   "score": 76.5,
-   "components": {
-    "tier": 40,
-    "category": 10,
-    "lead": 16.8,
-    "relevance": 0,
-    "freshness": 15.7,
-    "undated": -6
-   },
-   "keywords": [],
-   "shock_terms": [],
-   "dedupe_match": null,
-   "dedupe_similarity": 0.2,
-   "id": "ee9d00388b00",
-   "title": "Mbarara University pharmacy course accredited - Tayebwa Tuesday, 20 October 2026",
-   "url": "https://www.parliament.go.ug/news/4674/mbarara-university-pharmacy-course-accredited-tayebwa",
-   "summary": "",
-   "kind": "item",
-   "source": "Parliament of Uganda",
-   "source_id": "ug-parliament",
-   "tier": 1,
-   "country": "UG",
-   "category": "legislature",
-   "segments": [
-    "city",
-    "bush",
-    "beach"
-   ],
-   "first_seen": "2026-10-20T22:23+03:00",
-   "published": null,
-   "verdict": "CONSIDER"
-  },
-  {
-   "score": 76.5,
-   "components": {
-    "tier": 40,
-    "category": 10,
-    "lead": 16.8,
-    "relevance": 0,
-    "freshness": 15.7,
-    "undated": -6
-   },
-   "keywords": [],
-   "shock_terms": [],
-   "dedupe_match": null,
-   "dedupe_similarity": 0.2,
-   "id": "2f65a01bc82a",
-   "title": "\u2019Fast-track Parliament\u2019s directive on Mt Elgon evictions\u2019 Tuesday, 20 October 2026",
-   "url": "https://www.parliament.go.ug/news/4673/fast-track-parliaments-directive-mt-elgon-evictions",
-   "summary": "",
-   "kind": "item",
-   "source": "Parliament of Uganda",
-   "source_id": "ug-parliament",
-   "tier": 1,
-   "country": "UG",
-   "category": "legislature",
-   "segments": [
-    "city",
-    "bush",
-    "beach"
-   ],
-   "first_seen": "2026-10-20T22:23+03:00",
-   "published": null,
-   "verdict": "CONSIDER"
-  },
-  {
-   "score": 76.2,
-   "components": {
-    "tier": 20,
-    "category": 14,
-    "lead": 8.4,
-    "relevance": 8,
-    "freshness": 15.8,
-    "corroborated": 10
-   },
-   "keywords": [
-    "route"
-   ],
-   "shock_terms": [],
-   "dedupe_match": null,
-   "dedupe_similarity": 0.0,
-   "id": "6a09be3dfce7",
-   "title": "avianca NW26 Bogota \u2013 New York Aircraft Changes",
-   "url": "https://www.aeroroutes.com/eng/261026-avnw26bogjfk",
-   "summary": "Published at 1100PDT / 1800GMT 20OCT26 avianca at the launch of Northern winter 2026/27 season is adjusting widebody aircraft operation on Bogota \u2013 New York JFK route. 1 of 3 daily AV244/245 will be operated by Wamos Air A330-200, instead of 787-8 from 26OCT26 initially, then switching to Wamos Air A330-300 from 25NOV26. AV210 BOG0700 \u2013 1255JFK 32N D AV244 BOG1640 \u2013 2235JFK 333 D AV020 BOG2305 \u2013 0",
-   "kind": "item",
-   "source": "AeroRoutes schedule filings",
-   "source_id": "aeroroutes",
-   "tier": 2,
-   "country": "GLOBAL",
-   "category": "aviation-tracker",
-   "segments": [
-    "city",
-    "bush",
-    "beach"
-   ],
-   "first_seen": "2026-10-20T22:24+03:00",
-   "published": "2026-10-20",
-   "verdict": "CONSIDER"
-  },
-  {
-   "score": 76.1,
-   "components": {
-    "tier": 20,
-    "category": 14,
-    "lead": 8.4,
-    "relevance": 4,
-    "freshness": 19.7,
-    "corroborated": 10
-   },
-   "keywords": [
-    "airline"
-   ],
-   "shock_terms": [],
-   "dedupe_match": null,
-   "dedupe_similarity": 0.07,
-   "id": "ff58d2fcf42c",
-   "title": "Lufthansa NS27 Intercontinental Network Changes \u2013 20OCT26",
-   "url": "https://www.aeroroutes.com/eng/261020-lhns27inc",
-   "summary": "Published at 1500PDT / 2200GMT 20OCT26 Lufthansa today (20OCT26) filed initial changes to its intercontinental operations for Northern summer 2027 season, effective 28MAR27, featuring gradual roll out of 4-class A350-900 (Allegris service) at Frankfurt . The airline will also launch service to Columbus OH, while returning to Phoenix after 23-year hiatus. Frankfurt \u2013 Columbus OH eff 05MAY27 3 weekl",
-   "kind": "item",
-   "source": "AeroRoutes schedule filings",
-   "source_id": "aeroroutes",
-   "tier": 2,
-   "country": "GLOBAL",
-   "category": "aviation-tracker",
-   "segments": [
-    "city",
-    "bush",
-    "beach"
-   ],
-   "first_seen": "2026-10-21T01:59+03:00",
-   "published": "2026-10-21",
    "verdict": "CONSIDER"
   }
  ]
