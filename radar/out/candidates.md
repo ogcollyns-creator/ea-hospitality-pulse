@@ -1,5 +1,5 @@
 # Radar candidates — evening slot
-_Window opens Wed 21 Oct 15:00 EAT · 1223 observations in window · 20 headlines deduped against_
+_Window opens Wed 21 Oct 15:00 EAT · 1244 observations in window · 20 headlines deduped against_
 
 Ranked by first-seen recency, source tier and hospitality relevance. `first seen` is when the radar observed the item, which is the date the recency gate runs on. `published` is what the source claims — where the two disagree, the disagreement is the story.
 
@@ -12,30 +12,30 @@ Ranked by first-seen recency, source tier and hospitality relevance. `first seen
 - **Extract:** Exercise increased caution in France due to terrorism and unrest . Violence and rioting have recently occurred in France and may continue. Avoid demonstrations and areas of unrest. Stay away from areas with large crowds or significant police activity. Pickpock
 - **Score parts:** tier +40, category +32, lead +1.2, relevance +32, freshness +0, undated -6, shock +18
 
-### 🚨 [111.2] [page changed] Federal Register — CDC notices
+### 🚨 [111.0] [page changed] Federal Register — CDC notices
 - **Verdict:** OPEN THIS — tier-1 advisory page moved; content not auto-parsed, read it manually
 - **Source:** Federal Register — CDC notices · tier 1 · REG · advisory
 - **First seen:** 2026-10-22T11:42+03:00 EAT · **Source date:** 2026-11-10
 - **URL:** https://www.federalregister.gov/api/v1/documents.rss?conditions%5Bagencies%5D%5B%5D=centers-for-disease-control-and-prevention&order=newest
 - **Extract:** Federal Register Documents published on or after 09/22/2026 and from Centers for Disease Control and Prevention https://www.federalregister.gov/api/v1/documents.rss?conditions%5Bagencies%5D%5B%5D=centers-for-disease-control-and-prevention&order=newest Tue, 20 
-- **Score parts:** tier +40, category +32, lead +12, relevance +8, freshness +13.2, corroborated +10, page_change -4
+- **Score parts:** tier +40, category +32, lead +12, relevance +8, freshness +13, corroborated +10, page_change -4
 
-### 🚨 [101.3] [page changed] Federal Register — public inspection (HHS/CDC), pre-publication
+### 🚨 [101.1] [page changed] Federal Register — public inspection (HHS/CDC), pre-publication
 - **Verdict:** OPEN THIS — tier-1 advisory page moved; content not auto-parsed, read it manually
 - **Source:** Federal Register — public inspection (HHS/CDC), pre-publication · tier 1 · REG · advisory
 - **First seen:** 2026-10-22T17:40+03:00 EAT · **Source date:** 2026-10-21
 - **URL:** https://www.federalregister.gov/api/v1/public-inspection-documents/current.json
 - **Extract:** {"count":80,"results":[{"agencies":[{"raw_name":"National Oceanic and Atmospheric Administration","name":"National Oceanic and Atmospheric Administration","id":361,"url":"https://www.federalregister.gov/agencies/national-oceanic-and-atmospheric-administration"
-- **Score parts:** tier +40, category +32, lead +3.6, relevance +0, freshness +19.7, corroborated +10, page_change -4
+- **Score parts:** tier +40, category +32, lead +3.6, relevance +0, freshness +19.5, corroborated +10, page_change -4
 
-### 🚨 [95.3] [page changed] WHO Disease Outbreak News
+### 🚨 [95.1] [page changed] WHO Disease Outbreak News
 - **Verdict:** OPEN THIS — tier-1 health page moved; content not auto-parsed, read it manually
 - **Source:** WHO Disease Outbreak News · tier 1 · GLOBAL · health
 - **First seen:** 2026-10-22T06:42+03:00 EAT · **Source date:** — none stated
 - **URL:** https://www.who.int/rss-feeds/news-english.xml
 - **Shock language:** outbreak
 - **Extract:** ﻿ News (English) - World Health Organization https://www.who.int/ Corporate news releases, statements, and notes for media issued by the World Health Organization. urn:uuid:bd8af334-aa22-4b0e-b7fc-99c1489bca25 https://www.who.int/news/item/27-08-2020-new-who-t
-- **Score parts:** tier +40, category +24, lead +3.6, relevance +12, freshness +7.7, undated -6, shock +18, page_change -4
+- **Score parts:** tier +40, category +24, lead +3.6, relevance +12, freshness +7.5, undated -6, shock +18, page_change -4
 
 ### 🔴 [92.8] Weekly Bulletin on Outbreak and other Emergencies: Week 41: 05 to 11 October 2026
 - **Verdict:** LEAD CANDIDATE — tier-1 shock language
@@ -63,61 +63,61 @@ Ranked by first-seen recency, source tier and hospitality relevance. `first seen
 - **Extract:** ﻿ News (English) - World Health Organization https://www.who.int/ Corporate news releases, statements, and notes for media issued by the World Health Organization. urn:uuid:bd8af334-aa22-4b0e-b7fc-99c1489bca25 https://www.who.int/news/item/27-08-2020-new-who-t
 - **Score parts:** tier +40, category +24, lead +3.6, relevance +12, freshness +0, undated -6, shock +18, page_change -4
 
-### 🚨 [86.9] [page changed] France Conseils aux voyageurs — Tanzania
+### 🚨 [86.7] [page changed] France Conseils aux voyageurs — Tanzania
 - **Verdict:** OPEN THIS — tier-1 advisory page moved; content not auto-parsed, read it manually
 - **Source:** France Conseils aux voyageurs — Tanzania · tier 1 · TZ · advisory
 - **First seen:** 2026-10-22T17:40+03:00 EAT · **Source date:** — none stated
 - **URL:** https://www.diplomatie.gouv.fr/fr/conseils-aux-voyageurs/conseils-par-pays-destination/tanzania/
 - **Extract:** Ministère de l'Europe et des Affaires étrangères - Maintenance technique Site en cours de maintenance Merci de patienter quelques instants...
-- **Score parts:** tier +40, category +32, lead +1.2, relevance +4, freshness +19.7, undated -6, page_change -4
+- **Score parts:** tier +40, category +32, lead +1.2, relevance +4, freshness +19.5, undated -6, page_change -4
 
-### 🚨 [84.8] [page changed] Federal Register — public inspection (HHS/CDC), pre-publication
+### 🚨 [84.6] [page changed] Federal Register — public inspection (HHS/CDC), pre-publication
 - **Verdict:** OPEN THIS — tier-1 advisory page moved; content not auto-parsed, read it manually
 - **Source:** Federal Register — public inspection (HHS/CDC), pre-publication · tier 1 · REG · advisory
 - **First seen:** 2026-10-22T11:41+03:00 EAT · **Source date:** 2026-10-20
 - **URL:** https://www.federalregister.gov/api/v1/public-inspection-documents/current.json
 - **Extract:** {"count":99,"results":[{"agencies":[{"raw_name":"Federal Energy Regulatory Commission","name":"Federal Energy Regulatory Commission","id":167,"url":"https://www.federalregister.gov/agencies/federal-energy-regulatory-commission","json_url":"https://www.federalr
-- **Score parts:** tier +40, category +32, lead +3.6, relevance +0, freshness +13.2, page_change -4
+- **Score parts:** tier +40, category +32, lead +3.6, relevance +0, freshness +13, page_change -4
 
-### 🚨 [80.4] [page changed] France Conseils aux voyageurs — Kenya
+### 🚨 [80.1] [page changed] France Conseils aux voyageurs — Kenya
 - **Verdict:** OPEN THIS — tier-1 advisory page moved; content not auto-parsed, read it manually
 - **Source:** France Conseils aux voyageurs — Kenya · tier 1 · KE · advisory
 - **First seen:** 2026-10-22T11:41+03:00 EAT · **Source date:** — none stated
 - **URL:** https://www.diplomatie.gouv.fr/fr/conseils-aux-voyageurs/conseils-par-pays-destination/kenya/
 - **Extract:** Maintenance en cours - Ministère de l'Europe et des affaires étrangères Maintenance en cours Le service est actuellement indisponible. La page sera de nouveau accessible dans quelques minutes. Nous vous remercions pour votre compréhension.
-- **Score parts:** tier +40, category +32, lead +1.2, relevance +4, freshness +13.2, undated -6, page_change -4
+- **Score parts:** tier +40, category +32, lead +1.2, relevance +4, freshness +12.9, undated -6, page_change -4
 
-### 🚨 [80.4] [page changed] France Conseils aux voyageurs — Tanzania
+### 🚨 [80.1] [page changed] France Conseils aux voyageurs — Tanzania
 - **Verdict:** OPEN THIS — tier-1 advisory page moved; content not auto-parsed, read it manually
 - **Source:** France Conseils aux voyageurs — Tanzania · tier 1 · TZ · advisory
 - **First seen:** 2026-10-22T11:41+03:00 EAT · **Source date:** — none stated
 - **URL:** https://www.diplomatie.gouv.fr/fr/conseils-aux-voyageurs/conseils-par-pays-destination/tanzania/
 - **Extract:** Maintenance en cours - Ministère de l'Europe et des affaires étrangères Maintenance en cours Le service est actuellement indisponible. La page sera de nouveau accessible dans quelques minutes. Nous vous remercions pour votre compréhension.
-- **Score parts:** tier +40, category +32, lead +1.2, relevance +4, freshness +13.2, undated -6, page_change -4
+- **Score parts:** tier +40, category +32, lead +1.2, relevance +4, freshness +12.9, undated -6, page_change -4
 
-### 🚨 [79.3] [page changed] Federal Register — public inspection (HHS/CDC), pre-publication
+### 🚨 [79.1] [page changed] Federal Register — public inspection (HHS/CDC), pre-publication
 - **Verdict:** OPEN THIS — tier-1 advisory page moved; content not auto-parsed, read it manually
 - **Source:** Federal Register — public inspection (HHS/CDC), pre-publication · tier 1 · REG · advisory
 - **First seen:** 2026-10-22T06:42+03:00 EAT · **Source date:** 2026-10-20
 - **URL:** https://www.federalregister.gov/api/v1/public-inspection-documents/current.json
 - **Extract:** {"count":99,"results":[{"agencies":[{"raw_name":"Federal Energy Regulatory Commission","name":"Federal Energy Regulatory Commission","id":167,"url":"https://www.federalregister.gov/agencies/federal-energy-regulatory-commission","json_url":"https://www.federalr
-- **Score parts:** tier +40, category +32, lead +3.6, relevance +0, freshness +7.7, page_change -4
+- **Score parts:** tier +40, category +32, lead +3.6, relevance +0, freshness +7.5, page_change -4
 
-### 🚨 [79.2] [page changed] France Diplomatie — Kenya dernières minutes et alertes
+### 🚨 [78.9] [page changed] France Diplomatie — Kenya dernières minutes et alertes
 - **Verdict:** OPEN THIS — tier-1 advisory page moved; content not auto-parsed, read it manually
 - **Source:** France Diplomatie — Kenya dernières minutes et alertes · tier 1 · KE · advisory
 - **First seen:** 2026-10-22T11:41+03:00 EAT · **Source date:** — none stated
 - **URL:** https://www.diplomatie.gouv.fr/fr/information-par-pays/kenya/dernieres-minutes-et-alertes
 - **Extract:** Maintenance en cours - Ministère de l'Europe et des affaires étrangères Maintenance en cours Le service est actuellement indisponible. La page sera de nouveau accessible dans quelques minutes. Nous vous remercions pour votre compréhension.
-- **Score parts:** tier +40, category +32, lead +0, relevance +4, freshness +13.2, undated -6, page_change -4
+- **Score parts:** tier +40, category +32, lead +0, relevance +4, freshness +12.9, undated -6, page_change -4
 
-### 🚨 [74.3] [page changed] Federal Register — public inspection (HHS/CDC), pre-publication
+### 🚨 [74.1] [page changed] Federal Register — public inspection (HHS/CDC), pre-publication
 - **Verdict:** OPEN THIS — tier-1 advisory page moved; content not auto-parsed, read it manually
 - **Source:** Federal Register — public inspection (HHS/CDC), pre-publication · tier 1 · REG · advisory
 - **First seen:** 2026-10-22T02:10+03:00 EAT · **Source date:** 2026-10-20
 - **URL:** https://www.federalregister.gov/api/v1/public-inspection-documents/current.json
 - **Extract:** {"count":99,"results":[{"agencies":[{"raw_name":"Federal Energy Regulatory Commission","name":"Federal Energy Regulatory Commission","id":167,"url":"https://www.federalregister.gov/agencies/federal-energy-regulatory-commission","json_url":"https://www.federalr
-- **Score parts:** tier +40, category +32, lead +3.6, relevance +0, freshness +2.7, page_change -4
+- **Score parts:** tier +40, category +32, lead +3.6, relevance +0, freshness +2.5, page_change -4
 
 ### 🚨 [71.6] [page changed] Federal Register — public inspection (HHS/CDC), pre-publication
 - **Verdict:** OPEN THIS — tier-1 advisory page moved; content not auto-parsed, read it manually
@@ -135,29 +135,29 @@ Ranked by first-seen recency, source tier and hospitality relevance. `first seen
 - **Extract:** {"count":95,"results":[{"agencies":[{"raw_name":"Federal Energy Regulatory Commission","name":"Federal Energy Regulatory Commission","id":167,"url":"https://www.federalregister.gov/agencies/federal-energy-regulatory-commission","json_url":"https://www.federalr
 - **Score parts:** tier +40, category +32, lead +3.6, relevance +0, freshness +0, page_change -4
 
-### 🚨 [65.3] [page changed] Airlink news
+### 🚨 [65.1] [page changed] Airlink news
 - **Verdict:** OPEN THIS — tier-1 airline page moved; content not auto-parsed, read it manually
 - **Source:** Airlink news · tier 1 · REG · airline
 - **First seen:** 2026-10-22T17:39+03:00 EAT · **Source date:** — none stated
 - **URL:** https://www.flyairlink.com/
 - **Extract:** Request unsuccessful. Incapsula incident ID: 397000050279547673-254547945562374515
-- **Score parts:** tier +40, category +12, lead +3.6, relevance +0, freshness +19.7, undated -6, page_change -4
+- **Score parts:** tier +40, category +12, lead +3.6, relevance +0, freshness +19.5, undated -6, page_change -4
 
-### 🚨 [48.3] [page changed] Airlink news
+### 🚨 [48.1] [page changed] Airlink news
 - **Verdict:** OPEN THIS — tier-1 airline page moved; content not auto-parsed, read it manually
 - **Source:** Airlink news · tier 1 · REG · airline
 - **First seen:** 2026-10-22T02:09+03:00 EAT · **Source date:** — none stated
 - **URL:** https://www.flyairlink.com/
 - **Extract:** Request unsuccessful. Incapsula incident ID: 102000360058482299-88698101235583285
-- **Score parts:** tier +40, category +12, lead +3.6, relevance +0, freshness +2.7, undated -6, page_change -4
+- **Score parts:** tier +40, category +12, lead +3.6, relevance +0, freshness +2.5, undated -6, page_change -4
 
-### 🟠 [131.5] Beyond the Layover: Hilton Hotels & Resorts Continues to Pioneer the Airport Hotel
+### 🟠 [131.3] Beyond the Layover: Hilton Hotels & Resorts Continues to Pioneer the Airport Hotel
 - **Verdict:** STRONG — tier-1, upstream
 - **Source:** Hilton stories/newsroom · tier 1 · GLOBAL · hotel-group
 - **First seen:** 2026-10-22T17:39+03:00 EAT · **Source date:** 2026-10-22
 - **URL:** https://stories.hilton.com/destination-spotlight/hilton-hotels-resorts-continues-to-pioneer-the-airport-hotel
 - **Extract:** Since opening the San Francisco Airport Hilton in 1959, Hilton Hotels & Resorts has continued to reimagine airport hotels, creating stays that make travel feel thoughtfully hosted and connected. Today, the brand operates 60 airport hotels globally, representin
-- **Score parts:** tier +40, category +9, lead +16.8, relevance +36, freshness +19.7, corroborated +10
+- **Score parts:** tier +40, category +9, lead +16.8, relevance +36, freshness +19.5, corroborated +10
 
 ### 🟠 [108.4] Thamani Asili Launched: A New Chapter for Conservation and Community Prosperity
 - **Verdict:** STRONG — tier-1, upstream
@@ -167,155 +167,155 @@ Ranked by first-seen recency, source tier and hospitality relevance. `first seen
 - **Extract:** Cabinet Secretary for Tourism and Wildlife, Hon. Rebecca Miano, EGH, representing His Excellency President William Ruto as Chief Guest, today officially launched the Thamani Asili Programme at Maktau in Tsavo West National Park. The initiative marks a signific
 - **Score parts:** tier +40, category +18, lead +8.4, relevance +32, freshness +0, corroborated +10
 
-### 🟠 [103.5] Hilton for Business Introduces New Travel Coordinator Tools and Program Enhancements Shaped by Member Feedback
+### 🟠 [103.3] Hilton for Business Introduces New Travel Coordinator Tools and Program Enhancements Shaped by Member Feedback
 - **Verdict:** STRONG — tier-1, upstream
 - **Source:** Hilton stories/newsroom · tier 1 · GLOBAL · hotel-group
 - **First seen:** 2026-10-22T17:39+03:00 EAT · **Source date:** 2026-10-22
 - **URL:** https://stories.hilton.com/releases/hilton-for-business-introduces-new-tools-and-program-enhancements
 - **Extract:** MCLEAN, Va. – Today, Hilton announced a series of new travel coordinator tools and program enhancements to Hilton for Business, its free global travel program designed for small and medium-sized companies (SMBs). Built around direct feedback from current membe
-- **Score parts:** tier +40, category +9, lead +16.8, relevance +8, freshness +19.7, corroborated +10
+- **Score parts:** tier +40, category +9, lead +16.8, relevance +8, freshness +19.5, corroborated +10
 
-### 🟠 [101.5] Kenya Champions Global Aviation Safety Frameworks at ICAO Security Week 2026
+### 🟠 [101.3] Kenya Champions Global Aviation Safety Frameworks at ICAO Security Week 2026
 - **Verdict:** STRONG — tier-1, upstream
 - **Source:** KAA tenders · tier 1 · KE · tender
 - **First seen:** 2026-10-22T17:39+03:00 EAT · **Source date:** 2026-10-22
 - **URL:** https://www.kaa.go.ke/kenya-champions-global-aviation-safety-frameworks-at-icao-security-week-2026
 - **Extract:** As the International Civil Aviation Organization (ICAO) Security Week 2026 draws to a close today in Astana, Kenya has proudly reaffirmed its unwavering commitment to the global aviation community by championing coordinated, high-level action to safeguard inte
-- **Score parts:** tier +40, category +7, lead +16.8, relevance +8, freshness +19.7, corroborated +10
+- **Score parts:** tier +40, category +7, lead +16.8, relevance +8, freshness +19.5, corroborated +10
 
-### 🟡 [98.2] Ebola or Politics?
+### 🟠 [98.0] Raffles Family Office and Rwanda Development Board Partner to Mobilize Private Investment in Rwanda
+- **Verdict:** STRONG — tier-1, upstream
+- **Source:** Rwanda Development Board media · tier 1 · RW · regulator
+- **First seen:** 2026-10-22T11:42+03:00 EAT · **Source date:** 2026-10-22
+- **URL:** https://rdb.rw/raffles-family-office-and-rwanda-development-board-partner-to-mobilize-private-investment-in-rwanda
+- **Extract:** SINGAPORE & HONG KONG, 22 October 2026 – Raffles Family Office (“RFO”), a leading Asian multi-family office, today announced that it has signed a strategic capital mobilisation and investment promotion agreement with the Rwanda Development Board (“RDB”) to exp
+- **Score parts:** tier +40, category +17, lead +6, relevance +12, freshness +13, corroborated +10
+
+### 🟡 [97.9] Ebola or Politics?
 - **Verdict:** CONSIDER
 - **Source:** The Independent (Uganda) · tier 2 · UG · press
 - **First seen:** 2026-10-22T17:40+03:00 EAT · **Source date:** 2026-10-22
 - **URL:** https://www.independent.co.ug/ebola-or-politics
 - **Shock language:** outbreak
 - **Extract:** The science and suspicion behind Uganda’s travel restrictions SPECIAL REPORT | Uganda’s Bundibugyo Ebola outbreak was officially declared over in August. Yet the United States and Canada continue to enforce restrictions affecting travellers linked to Uganda. T
-- **Score parts:** tier +20, category +4, lead +2.4, relevance +24, freshness +19.8, corroborated +10, shock +18
+- **Score parts:** tier +20, category +4, lead +2.4, relevance +24, freshness +19.5, corroborated +10, shock +18
 
-### 🟠 [98.2] Raffles Family Office and Rwanda Development Board Partner to Mobilize Private Investment in Rwanda
-- **Verdict:** STRONG — tier-1, upstream
-- **Source:** Rwanda Development Board media · tier 1 · RW · regulator
-- **First seen:** 2026-10-22T11:42+03:00 EAT · **Source date:** 2026-10-22
-- **URL:** https://rdb.rw/raffles-family-office-and-rwanda-development-board-partner-to-mobilize-private-investment-in-rwanda
-- **Extract:** SINGAPORE & HONG KONG, 22 October 2026 – Raffles Family Office (“RFO”), a leading Asian multi-family office, today announced that it has signed a strategic capital mobilisation and investment promotion agreement with the Rwanda Development Board (“RDB”) to exp
-- **Score parts:** tier +40, category +17, lead +6, relevance +12, freshness +13.2, corroborated +10
-
-### 🟠 [95.5] Kenya Champions Global Aviation Safety Frameworks at ICAO Security Week 2026
+### 🟠 [95.3] Kenya Champions Global Aviation Safety Frameworks at ICAO Security Week 2026
 - **Verdict:** STRONG — tier-1, upstream
 - **Source:** Kenya Airports Authority · tier 1 · KE · aviation
 - **First seen:** 2026-10-22T17:40+03:00 EAT · **Source date:** 2026-10-22
 - **URL:** https://www.kaa.go.ke/kenya-champions-global-aviation-safety-frameworks-at-icao-security-week-2026
 - **Extract:** As the International Civil Aviation Organization (ICAO) Security Week 2026 draws to a close today in Astana, Kenya has proudly reaffirmed its unwavering commitment to the global aviation community by championing coordinated, high-level action to safeguard inte
-- **Score parts:** tier +40, category +13, lead +4.8, relevance +8, freshness +19.7, corroborated +10
+- **Score parts:** tier +40, category +13, lead +4.8, relevance +8, freshness +19.5, corroborated +10
 
-### 🟡 [93.6] Parata Air Plans Yangyang – Shanghai Dec 2026 Launch
+### 🟡 [93.4] Parata Air Plans Yangyang – Shanghai Dec 2026 Launch
 - **Verdict:** CONSIDER
 - **Source:** AeroRoutes schedule filings · tier 2 · GLOBAL · aviation-tracker
 - **First seen:** 2026-10-22T11:42+03:00 EAT · **Source date:** 2026-10-22
 - **URL:** https://www.aeroroutes.com/eng/261021-wenw26pvg
 - **Extract:** Published at 2130PDT 21OCT26 / 0430GMT 22OCT26 Korean carrier Parata Air during Northern winter 2026/27 season plans to launch new route to China, offering 2 weekly Yangyang – Shanghai Pu Dong flights, on board 174-seater Airbus A320 aircraft. Based on travel 
-- **Score parts:** tier +20, category +14, lead +8.4, relevance +28, freshness +13.2, corroborated +10
+- **Score parts:** tier +20, category +14, lead +8.4, relevance +28, freshness +13, corroborated +10
 
-### 🟠 [93.3] U.S. Remarks on Bilateral Health Cooperation at the 2026 Trust Summit, Nairobi, Kenya
+### 🟠 [93.1] U.S. Remarks on Bilateral Health Cooperation at the 2026 Trust Summit, Nairobi, Kenya
 - **Verdict:** STRONG — tier-1, upstream
 - **Source:** US Embassy Nairobi — travel advisory & alerts · tier 1 · KE · advisory
 - **First seen:** 2026-10-22T17:40+03:00 EAT · **Source date:** — none stated
 - **URL:** https://ke.usembassy.gov/u-s-remarks-on-bilateral-health-cooperation-at-the-2026-trust-summit-nairobi-kenya
-- **Score parts:** tier +40, category +32, lead +3.6, relevance +4, freshness +19.7, undated -6
+- **Score parts:** tier +40, category +32, lead +3.6, relevance +4, freshness +19.5, undated -6
 
-### 🟡 [88.2] AJet Increases Istanbul – Milan Bergamo Flights in NW26
+### 🟡 [87.9] AJet Increases Istanbul – Milan Bergamo Flights in NW26
 - **Verdict:** CONSIDER
 - **Source:** AeroRoutes schedule filings · tier 2 · GLOBAL · aviation-tracker
 - **First seen:** 2026-10-22T17:40+03:00 EAT · **Source date:** 2026-10-22
 - **URL:** https://www.aeroroutes.com/eng/261022-vfnw26bgy
 - **Extract:** Published at 0400PDT / 1100GMT 22OCT26 AJet during Northern winter 2026/27 season plans to increase service on Istanbul Sabiha Gokcen – Milan Bergamo route, the airline has announced in recent travel agent bulletin. The airline will increase service from 7 to 
-- **Score parts:** tier +20, category +14, lead +8.4, relevance +16, freshness +19.8, corroborated +10
+- **Score parts:** tier +20, category +14, lead +8.4, relevance +16, freshness +19.5, corroborated +10
 
-### 🟡 [88.2] 22 October 2026 | News Release Improving dietary diversity for better health among children in Africa
+### 🟡 [87.9] 22 October 2026 | News Release Improving dietary diversity for better health among children in Africa
 - **Verdict:** CONSIDER
 - **Source:** WHO AFRO — Kenya country newsroom · tier 1 · KE · health
 - **First seen:** 2026-10-22T17:40+03:00 EAT · **Source date:** — none stated
 - **URL:** https://www.afro.who.int/news/improving-dietary-diversity-better-health-among-children-africa
-- **Score parts:** tier +40, category +24, lead +2.4, relevance +8, freshness +19.8, undated -6
+- **Score parts:** tier +40, category +24, lead +2.4, relevance +8, freshness +19.5, undated -6
 
-### 🟡 [88.1] 22 October 2026 | News Release Improving dietary diversity for better health among children in Africa
+### 🟡 [87.9] 22 October 2026 | News Release Improving dietary diversity for better health among children in Africa
 - **Verdict:** CONSIDER
 - **Source:** WHO AFRO — Rwanda country newsroom · tier 1 · RW · health
 - **First seen:** 2026-10-22T17:40+03:00 EAT · **Source date:** — none stated
 - **URL:** https://www.afro.who.int/news/improving-dietary-diversity-better-health-among-children-africa
-- **Score parts:** tier +40, category +24, lead +2.4, relevance +8, freshness +19.7, undated -6
+- **Score parts:** tier +40, category +24, lead +2.4, relevance +8, freshness +19.5, undated -6
 
-### 🟡 [88.1] 22 October 2026 | News Release Improving dietary diversity for better health among children in Africa
+### 🟡 [87.9] 22 October 2026 | News Release Improving dietary diversity for better health among children in Africa
 - **Verdict:** CONSIDER
 - **Source:** WHO AFRO — Uganda country newsroom · tier 1 · UG · health
 - **First seen:** 2026-10-22T17:40+03:00 EAT · **Source date:** — none stated
 - **URL:** https://www.afro.who.int/news/improving-dietary-diversity-better-health-among-children-africa
-- **Score parts:** tier +40, category +24, lead +2.4, relevance +8, freshness +19.7, undated -6
+- **Score parts:** tier +40, category +24, lead +2.4, relevance +8, freshness +19.5, undated -6
 
-### 🟡 [87.5] Bio-based Europe Alliance launches to accelerate market uptake of sustainable bio-based solutions
+### 🟡 [87.3] Bio-based Europe Alliance launches to accelerate market uptake of sustainable bio-based solutions
 - **Verdict:** CONSIDER
 - **Source:** European Commission — green claims / EmpCo · tier 1 · REG · regulator
 - **First seen:** 2026-10-22T17:39+03:00 EAT · **Source date:** — none stated
 - **URL:** https://environment.ec.europa.eu/news/bio-based-alliance-launches-drive-sustainable-solutions-2026-10-22_en
-- **Score parts:** tier +40, category +17, lead +16.8, relevance +0, freshness +19.7, undated -6
+- **Score parts:** tier +40, category +17, lead +16.8, relevance +0, freshness +19.5, undated -6
 
-### 🟡 [85.6] Mahan Air NW26 China Operations
+### 🟡 [85.4] Mahan Air NW26 China Operations
 - **Verdict:** CONSIDER
 - **Source:** AeroRoutes schedule filings · tier 2 · GLOBAL · aviation-tracker
 - **First seen:** 2026-10-22T11:42+03:00 EAT · **Source date:** 2026-10-22
 - **URL:** https://www.aeroroutes.com/eng/261022-w5nw26cn
 - **Extract:** Published at 0100PDT / 0800GMT 22OCT26 Mahan Air during Northern winter 2026/27 season plans to operate following service to China, including 1 of the 2 carrier’s international routes operated by Airbus A340-600. Planned operations from 25OCT26 as follows, bas
-- **Score parts:** tier +20, category +14, lead +8.4, relevance +20, freshness +13.2, corroborated +10
+- **Score parts:** tier +20, category +14, lead +8.4, relevance +20, freshness +13, corroborated +10
 
-### 🟡 [85.6] Emergency 22 October 2026 | Feature Story At the Border, DRC and South Sudan Strengthen Ebola Surveillance
+### 🟡 [85.3] Emergency 22 October 2026 | Feature Story At the Border, DRC and South Sudan Strengthen Ebola Surveillance
 - **Verdict:** CONSIDER
 - **Source:** WHO AFRO — Kenya country newsroom · tier 1 · KE · health
 - **First seen:** 2026-10-22T11:41+03:00 EAT · **Source date:** — none stated
 - **URL:** https://www.afro.who.int/countries/democratic-republic-of-congo/news/border-drc-and-south-sudan-strengthen-ebola-surveillance
-- **Score parts:** tier +40, category +24, lead +2.4, relevance +12, freshness +13.2, undated -6
+- **Score parts:** tier +40, category +24, lead +2.4, relevance +12, freshness +12.9, undated -6
 
-### 🟡 [85.6] Emergency 22 October 2026 | Feature Story At the Border, DRC and South Sudan Strengthen Ebola Surveillance
+### 🟡 [85.3] Emergency 22 October 2026 | Feature Story At the Border, DRC and South Sudan Strengthen Ebola Surveillance
 - **Verdict:** CONSIDER
 - **Source:** WHO AFRO — Rwanda country newsroom · tier 1 · RW · health
 - **First seen:** 2026-10-22T11:41+03:00 EAT · **Source date:** — none stated
 - **URL:** https://www.afro.who.int/countries/democratic-republic-of-congo/news/border-drc-and-south-sudan-strengthen-ebola-surveillance
-- **Score parts:** tier +40, category +24, lead +2.4, relevance +12, freshness +13.2, undated -6
+- **Score parts:** tier +40, category +24, lead +2.4, relevance +12, freshness +12.9, undated -6
 
-### 🟡 [85.6] Emergency 22 October 2026 | Feature Story At the Border, DRC and South Sudan Strengthen Ebola Surveillance
+### 🟡 [85.3] Emergency 22 October 2026 | Feature Story At the Border, DRC and South Sudan Strengthen Ebola Surveillance
 - **Verdict:** CONSIDER
 - **Source:** WHO AFRO — Uganda country newsroom · tier 1 · UG · health
 - **First seen:** 2026-10-22T11:41+03:00 EAT · **Source date:** — none stated
 - **URL:** https://www.afro.who.int/countries/democratic-republic-of-congo/news/border-drc-and-south-sudan-strengthen-ebola-surveillance
-- **Score parts:** tier +40, category +24, lead +2.4, relevance +12, freshness +13.2, undated -6
+- **Score parts:** tier +40, category +24, lead +2.4, relevance +12, freshness +12.9, undated -6
 
-### 🟡 [84.2] SIA Expands Garuda Domestic Codeshare From late-Oct 2026
+### 🟡 [83.9] SIA Expands Garuda Domestic Codeshare From late-Oct 2026
 - **Verdict:** CONSIDER
 - **Source:** AeroRoutes schedule filings · tier 2 · GLOBAL · aviation-tracker
 - **First seen:** 2026-10-22T17:40+03:00 EAT · **Source date:** 2026-10-22
 - **URL:** https://www.aeroroutes.com/eng/261022-sqgacodeshare
 - **Extract:** Published at 0700PDT / 1400GMT 22OCT26 Singapore Airlines (SIA) at the launch of Northern winter 2026/27 season plans to expand codeshare partnership with Garuda Indonesia, covering the latter’s additional domestic routes. Planned codeshare routes from 25OCT26
-- **Score parts:** tier +20, category +14, lead +8.4, relevance +12, freshness +19.8, corroborated +10
+- **Score parts:** tier +20, category +14, lead +8.4, relevance +12, freshness +19.5, corroborated +10
 
-### 🟡 [84.2] Batik Air Malaysia NW26 Taipei Schedule Changes
+### 🟡 [83.9] Batik Air Malaysia NW26 Taipei Schedule Changes
 - **Verdict:** CONSIDER
 - **Source:** AeroRoutes schedule filings · tier 2 · GLOBAL · aviation-tracker
 - **First seen:** 2026-10-22T17:40+03:00 EAT · **Source date:** 2026-10-22
 - **URL:** https://www.aeroroutes.com/eng/261022-odnw26tpe
 - **Extract:** Published at 0200PDT / 0900GMT 22OCT26 Batik Air Malaysia at the launch of Northern winter 2026/27 season plans to adjust operational schedule on Kuala Lumpur – Taipei Taoyuan route, served 3 times weekly with 737 MAX 8. From 25OCT26, the 3 weekly flights will
-- **Score parts:** tier +20, category +14, lead +8.4, relevance +12, freshness +19.8, corroborated +10
+- **Score parts:** tier +20, category +14, lead +8.4, relevance +12, freshness +19.5, corroborated +10
 
-### 🟡 [84.1] Air Canada 1HNS27 Montreal – Madrid Service Changes
+### 🟡 [83.9] Air Canada 1HNS27 Montreal – Madrid Service Changes
 - **Verdict:** CONSIDER
 - **Source:** AeroRoutes schedule filings · tier 2 · GLOBAL · aviation-tracker
 - **First seen:** 2026-10-22T06:42+03:00 EAT · **Source date:** 2026-10-22
 - **URL:** https://www.aeroroutes.com/eng/261021-acns27mad
 - **Extract:** Published at 2000PDT 21OCT26 / 0300GMT 22OCT26 Air Canada in the first half of Northern summer 2027 season plans aircraft changes on Montreal – Madrid route, which sees the airline operating Airbus A321XLR aircraft from 28MAR27 to 15JUN27, replacing A330-300. 
-- **Score parts:** tier +20, category +14, lead +8.4, relevance +24, freshness +7.7, corroborated +10
+- **Score parts:** tier +20, category +14, lead +8.4, relevance +24, freshness +7.5, corroborated +10
 
-### 🟡 [84.1] Air Canada Feb 2027 Vancouver – Osaka Frequency Changes
+### 🟡 [83.9] Air Canada Feb 2027 Vancouver – Osaka Frequency Changes
 - **Verdict:** CONSIDER
 - **Source:** AeroRoutes schedule filings · tier 2 · GLOBAL · aviation-tracker
 - **First seen:** 2026-10-22T06:42+03:00 EAT · **Source date:** 2026-10-22
 - **URL:** https://www.aeroroutes.com/eng/261021-acfeb27kix
 - **Extract:** Published at 1915PDT 21OCT26 / 0215GMT 22OCT26 Air Canada in recent schedule update continues to revise planned Vancouver – Osaka Kansai route. Planned service from February 2027 remains unchanged, however the airline will only operate 3 weekly flights for tha
-- **Score parts:** tier +20, category +14, lead +8.4, relevance +24, freshness +7.7, corroborated +10
+- **Score parts:** tier +20, category +14, lead +8.4, relevance +24, freshness +7.5, corroborated +10
