@@ -1,18 +1,57 @@
 {
- "generated": "2026-10-22T02:19:46+03:00",
+ "generated": "2026-10-22T06:43:21+03:00",
  "slot": "morning",
  "window_start": 1792594800,
- "observations_in_window": 279,
- "deduped_against": 23,
+ "observations_in_window": 399,
+ "deduped_against": 20,
  "candidates": [
   {
-   "score": 103.0,
+   "score": 107.4,
    "components": {
     "tier": 40,
     "category": 24,
     "lead": 3.6,
     "relevance": 12,
-    "freshness": 15.4,
+    "freshness": 19.8,
+    "undated": -6,
+    "shock": 18,
+    "page_change": -4
+   },
+   "keywords": [
+    "outbreak"
+   ],
+   "shock_terms": [
+    "outbreak"
+   ],
+   "dedupe_match": null,
+   "dedupe_similarity": 0.07,
+   "id": "b5bc876c296d",
+   "title": "[page changed] WHO Disease Outbreak News",
+   "url": "https://www.who.int/rss-feeds/news-english.xml",
+   "summary": "\ufeff News (English) - World Health Organization https://www.who.int/ Corporate news releases, statements, and notes for media issued by the World Health Organization. urn:uuid:bd8af334-aa22-4b0e-b7fc-99c1489bca25 https://www.who.int/news/item/27-08-2020-new-who-technical-package-health-data-for-covid-19-response New WHO technical package to help countries improve health data for COVID-19 response and",
+   "kind": "page-change",
+   "source": "WHO Disease Outbreak News",
+   "source_id": "who-don",
+   "tier": 1,
+   "country": "GLOBAL",
+   "category": "health",
+   "segments": [
+    "city",
+    "bush",
+    "beach"
+   ],
+   "first_seen": "2026-10-22T06:42+03:00",
+   "published": null,
+   "verdict": "OPEN THIS \u2014 tier-1 health page moved; content not auto-parsed, read it manually"
+  },
+  {
+   "score": 98.2,
+   "components": {
+    "tier": 40,
+    "category": 24,
+    "lead": 3.6,
+    "relevance": 12,
+    "freshness": 10.6,
     "undated": -6,
     "shock": 18,
     "page_change": -4
@@ -45,20 +84,51 @@
    "verdict": "OPEN THIS \u2014 tier-1 health page moved; content not auto-parsed, read it manually"
   },
   {
-   "score": 101.2,
+   "score": 91.4,
    "components": {
     "tier": 40,
     "category": 32,
     "lead": 3.6,
     "relevance": 0,
-    "freshness": 19.6,
-    "corroborated": 10,
+    "freshness": 19.8,
     "page_change": -4
    },
    "keywords": [],
    "shock_terms": [],
    "dedupe_match": null,
-   "dedupe_similarity": 0.1,
+   "dedupe_similarity": 0.08,
+   "id": "5fb4b46b7768",
+   "title": "[page changed] Federal Register \u2014 public inspection (HHS/CDC), pre-publication",
+   "url": "https://www.federalregister.gov/api/v1/public-inspection-documents/current.json",
+   "summary": "{\"count\":99,\"results\":[{\"agencies\":[{\"raw_name\":\"Federal Energy Regulatory Commission\",\"name\":\"Federal Energy Regulatory Commission\",\"id\":167,\"url\":\"https://www.federalregister.gov/agencies/federal-energy-regulatory-commission\",\"json_url\":\"https://www.federalregister.gov/api/v1/agencies/167\",\"parent_id\":136,\"slug\":\"federal-energy-regulatory-commission\"}],\"agency_letters\":[],\"agency_names\":[\"Federa",
+   "kind": "page-change",
+   "source": "Federal Register \u2014 public inspection (HHS/CDC), pre-publication",
+   "source_id": "us-fedreg-pubinspect-hhs",
+   "tier": 1,
+   "country": "REG",
+   "category": "advisory",
+   "segments": [
+    "city",
+    "bush"
+   ],
+   "first_seen": "2026-10-22T06:42+03:00",
+   "published": "2026-10-20",
+   "verdict": "OPEN THIS \u2014 tier-1 advisory page moved; content not auto-parsed, read it manually"
+  },
+  {
+   "score": 86.4,
+   "components": {
+    "tier": 40,
+    "category": 32,
+    "lead": 3.6,
+    "relevance": 0,
+    "freshness": 14.8,
+    "page_change": -4
+   },
+   "keywords": [],
+   "shock_terms": [],
+   "dedupe_match": null,
+   "dedupe_similarity": 0.08,
    "id": "585c0f3e3dad",
    "title": "[page changed] Federal Register \u2014 public inspection (HHS/CDC), pre-publication",
    "url": "https://www.federalregister.gov/api/v1/public-inspection-documents/current.json",
@@ -78,20 +148,19 @@
    "verdict": "OPEN THIS \u2014 tier-1 advisory page moved; content not auto-parsed, read it manually"
   },
   {
-   "score": 97.0,
+   "score": 82.2,
    "components": {
     "tier": 40,
     "category": 32,
     "lead": 3.6,
     "relevance": 0,
-    "freshness": 15.4,
-    "corroborated": 10,
+    "freshness": 10.6,
     "page_change": -4
    },
    "keywords": [],
    "shock_terms": [],
    "dedupe_match": null,
-   "dedupe_similarity": 0.1,
+   "dedupe_similarity": 0.08,
    "id": "c6d225ab0f23",
    "title": "[page changed] Federal Register \u2014 public inspection (HHS/CDC), pre-publication",
    "url": "https://www.federalregister.gov/api/v1/public-inspection-documents/current.json",
@@ -111,13 +180,13 @@
    "verdict": "OPEN THIS \u2014 tier-1 advisory page moved; content not auto-parsed, read it manually"
   },
   {
-   "score": 65.2,
+   "score": 60.4,
    "components": {
     "tier": 40,
     "category": 12,
     "lead": 3.6,
     "relevance": 0,
-    "freshness": 19.6,
+    "freshness": 14.8,
     "undated": -6,
     "page_change": -4
    },
@@ -145,13 +214,89 @@
    "verdict": "OPEN THIS \u2014 tier-1 airline page moved; content not auto-parsed, read it manually"
   },
   {
-   "score": 99.4,
+   "score": 96.2,
+   "components": {
+    "tier": 20,
+    "category": 14,
+    "lead": 8.4,
+    "relevance": 24,
+    "freshness": 19.8,
+    "corroborated": 10
+   },
+   "keywords": [
+    "adr",
+    "route",
+    "airline",
+    "flight"
+   ],
+   "shock_terms": [],
+   "dedupe_match": null,
+   "dedupe_similarity": 0.07,
+   "id": "b434cfb656a4",
+   "title": "Air Canada 1HNS27 Montreal \u2013 Madrid Service Changes",
+   "url": "https://www.aeroroutes.com/eng/261021-acns27mad",
+   "summary": "Published at 2000PDT 21OCT26 / 0300GMT 22OCT26 Air Canada in the first half of Northern summer 2027 season plans aircraft changes on Montreal \u2013 Madrid route, which sees the airline operating Airbus A321XLR aircraft from 28MAR27 to 15JUN27, replacing A330-300. With this aircraft change, AC will now operate 1 daily flight during this period, instead of previously scheduled 4 weekly 28MAR27 \u2013 05MAY27",
+   "kind": "item",
+   "source": "AeroRoutes schedule filings",
+   "source_id": "aeroroutes",
+   "tier": 2,
+   "country": "GLOBAL",
+   "category": "aviation-tracker",
+   "segments": [
+    "city",
+    "bush",
+    "beach"
+   ],
+   "first_seen": "2026-10-22T06:42+03:00",
+   "published": "2026-10-22",
+   "verdict": "CONSIDER"
+  },
+  {
+   "score": 96.2,
+   "components": {
+    "tier": 20,
+    "category": 14,
+    "lead": 8.4,
+    "relevance": 24,
+    "freshness": 19.8,
+    "corroborated": 10
+   },
+   "keywords": [
+    "route",
+    "frequency",
+    "airline",
+    "flight"
+   ],
+   "shock_terms": [],
+   "dedupe_match": null,
+   "dedupe_similarity": 0.07,
+   "id": "76b93b795230",
+   "title": "Air Canada Feb 2027 Vancouver \u2013 Osaka Frequency Changes",
+   "url": "https://www.aeroroutes.com/eng/261021-acfeb27kix",
+   "summary": "Published at 1915PDT 21OCT26 / 0215GMT 22OCT26 Air Canada in recent schedule update continues to revise planned Vancouver \u2013 Osaka Kansai route. Planned service from February 2027 remains unchanged, however the airline will only operate 3 weekly flights for that month, thus first flight of the year is scheduled on 03FEB27, instead of 02FEB27. Boeing 787-9 operates this route. AC023 YVR1445 \u2013 1740+1",
+   "kind": "item",
+   "source": "AeroRoutes schedule filings",
+   "source_id": "aeroroutes",
+   "tier": 2,
+   "country": "GLOBAL",
+   "category": "aviation-tracker",
+   "segments": [
+    "city",
+    "bush",
+    "beach"
+   ],
+   "first_seen": "2026-10-22T06:42+03:00",
+   "published": "2026-10-22",
+   "verdict": "CONSIDER"
+  },
+  {
+   "score": 94.6,
    "components": {
     "tier": 40,
     "category": 9,
     "lead": 16.8,
     "relevance": 4,
-    "freshness": 19.6,
+    "freshness": 14.8,
     "corroborated": 10
    },
    "keywords": [
@@ -159,7 +304,7 @@
    ],
    "shock_terms": [],
    "dedupe_match": null,
-   "dedupe_similarity": 0.14,
+   "dedupe_similarity": 0.1,
    "id": "b27323f40ea1",
    "title": "Hilton Becomes First Major Hotel Brand to Offer Digital Solution to Pay with Points",
    "url": "https://stories.hilton.com/releases/hilton-becomes-first-major-hotel-brand-to-offer-digital-solution-to-pay-with-points",
@@ -180,13 +325,13 @@
    "verdict": "STRONG \u2014 tier-1, upstream"
   },
   {
-   "score": 96.0,
+   "score": 91.2,
    "components": {
     "tier": 40,
     "category": 24,
     "lead": 2.4,
     "relevance": 0,
-    "freshness": 19.6,
+    "freshness": 14.8,
     "corroborated": 10
    },
    "keywords": [],
@@ -212,13 +357,13 @@
    "verdict": "STRONG \u2014 tier-1, upstream"
   },
   {
-   "score": 95.4,
+   "score": 90.6,
    "components": {
     "tier": 40,
     "category": 17,
     "lead": 16.8,
     "relevance": 8,
-    "freshness": 19.6,
+    "freshness": 14.8,
     "undated": -6
    },
    "keywords": [
@@ -247,13 +392,86 @@
    "verdict": "STRONG \u2014 tier-1, upstream"
   },
   {
-   "score": 89.2,
+   "score": 88.2,
+   "components": {
+    "tier": 20,
+    "category": 14,
+    "lead": 8.4,
+    "relevance": 16,
+    "freshness": 19.8,
+    "corroborated": 10
+   },
+   "keywords": [
+    "vat",
+    "airline",
+    "flight"
+   ],
+   "shock_terms": [],
+   "dedupe_match": null,
+   "dedupe_similarity": 0.07,
+   "id": "858f411f5be4",
+   "title": "Syrian Airlines NW26 Deir ez-Zor Service Changes",
+   "url": "https://www.aeroroutes.com/eng/261021-rbnw26dez",
+   "summary": "Published at 1830PDT 21OCT26 / 0130GMT 22OCT26 Syrian Airlines during Northern winter 2026/27 season is reducing service at Deir ez-Zor , as the carrier schedules 1 weekly flight each to Damascus and Kuwait City, instead of 2 weekly, based on available flights for reservations on the airline\u2019s website. Damascus \u2013 Deir ez-Zor eff 26OCT26 Reduce from 2 to 1 weekly, A320 RB133 DAM0500 \u2013 0600DEZ 320 4",
+   "kind": "item",
+   "source": "AeroRoutes schedule filings",
+   "source_id": "aeroroutes",
+   "tier": 2,
+   "country": "GLOBAL",
+   "category": "aviation-tracker",
+   "segments": [
+    "city",
+    "bush",
+    "beach"
+   ],
+   "first_seen": "2026-10-22T06:42+03:00",
+   "published": "2026-10-22",
+   "verdict": "CONSIDER"
+  },
+  {
+   "score": 88.2,
+   "components": {
+    "tier": 20,
+    "category": 14,
+    "lead": 8.4,
+    "relevance": 16,
+    "freshness": 19.8,
+    "corroborated": 10
+   },
+   "keywords": [
+    "route",
+    "frequency"
+   ],
+   "shock_terms": [],
+   "dedupe_match": null,
+   "dedupe_similarity": 0.0,
+   "id": "b2943160e8a2",
+   "title": "flydubai Cargo NW26 Operations \u2013 21OCT26",
+   "url": "https://www.aeroroutes.com/eng/261021-fzcnw26",
+   "summary": "Published at 1745PDT 21OCT26 / 0045GMT 22OCT26 flydubai Cargo at the launch of Northern winter 2026/27 season plans to expand Boing 737-800 Freighter operations, with following routes scheduled from 25OCT26. Information is based on schedule filing from flydubai Cargo\u2019s website, although certain routing may see frequency variations. Dubai al Maktoum \u2013 Ahmedabad 2 weekly Dubai al Maktoum \u2013 Almaty 2 ",
+   "kind": "item",
+   "source": "AeroRoutes schedule filings",
+   "source_id": "aeroroutes",
+   "tier": 2,
+   "country": "GLOBAL",
+   "category": "aviation-tracker",
+   "segments": [
+    "city",
+    "bush",
+    "beach"
+   ],
+   "first_seen": "2026-10-22T06:42+03:00",
+   "published": "2026-10-22",
+   "verdict": "CONSIDER"
+  },
+  {
+   "score": 84.4,
    "components": {
     "tier": 40,
     "category": 12,
     "lead": 3.6,
     "relevance": 4,
-    "freshness": 19.6,
+    "freshness": 14.8,
     "corroborated": 10
    },
    "keywords": [
@@ -280,13 +498,85 @@
    "verdict": "CONSIDER"
   },
   {
-   "score": 88.0,
+   "score": 84.2,
+   "components": {
+    "tier": 20,
+    "category": 14,
+    "lead": 8.4,
+    "relevance": 12,
+    "freshness": 19.8,
+    "corroborated": 10
+   },
+   "keywords": [
+    "route",
+    "airline"
+   ],
+   "shock_terms": [],
+   "dedupe_match": null,
+   "dedupe_similarity": 0.1,
+   "id": "9914f069bd2e",
+   "title": "SWISS NS27 Intercontinental Service Changes \u2013 21OCT26",
+   "url": "https://www.aeroroutes.com/eng/261021-lxns27inc",
+   "summary": "Published at 1701PDT 21OCT26 / 0001GMT 22OCT26 Swiss International Air Lines (SWISS) this week filed minor aircraft adjustments for US service during Northern summer 2027 season. In addition, the airline\u2019s new Bangalore service has already been extended to year-round, which was not covered on AeroRoutes . Latest adjustment as of 21OCT26 as follows. Zurich \u2013 Bangalore eff 28MAR27 Service operates y",
+   "kind": "item",
+   "source": "AeroRoutes schedule filings",
+   "source_id": "aeroroutes",
+   "tier": 2,
+   "country": "GLOBAL",
+   "category": "aviation-tracker",
+   "segments": [
+    "city",
+    "bush",
+    "beach"
+   ],
+   "first_seen": "2026-10-22T06:42+03:00",
+   "published": "2026-10-22",
+   "verdict": "CONSIDER"
+  },
+  {
+   "score": 84.2,
+   "components": {
+    "tier": 20,
+    "category": 14,
+    "lead": 8.4,
+    "relevance": 12,
+    "freshness": 19.8,
+    "corroborated": 10
+   },
+   "keywords": [
+    "route",
+    "airline"
+   ],
+   "shock_terms": [],
+   "dedupe_match": null,
+   "dedupe_similarity": 0.0,
+   "id": "e4d90f4e773d",
+   "title": "PIA NW26 Islamabad \u2013 Beijing Aircraft Changes",
+   "url": "https://www.aeroroutes.com/eng/261021-pknw26pek",
+   "summary": "Published at 1615PDT / 2315GMT 21OCT26 Pakistan International Airlines (PIA) in recent schedule update filed aircraft changes for Islamabad \u2013 Beijing Capital route, scheduled to resume on 30OCT26 after brief hiatus. The once weekly service previously scheduled with 777-300ER for the entire season, however following periods will now see -200ER operating: 06NOV26 \u2013 27NOV26, 11DEC26 \u2013 26MAR27. PK854 ",
+   "kind": "item",
+   "source": "AeroRoutes schedule filings",
+   "source_id": "aeroroutes",
+   "tier": 2,
+   "country": "GLOBAL",
+   "category": "aviation-tracker",
+   "segments": [
+    "city",
+    "bush",
+    "beach"
+   ],
+   "first_seen": "2026-10-22T06:42+03:00",
+   "published": "2026-10-22",
+   "verdict": "CONSIDER"
+  },
+  {
+   "score": 83.2,
    "components": {
     "tier": 20,
     "category": 14,
     "lead": 8.4,
     "relevance": 16,
-    "freshness": 19.6,
+    "freshness": 14.8,
     "corroborated": 10
    },
    "keywords": [
@@ -317,13 +607,13 @@
    "verdict": "CONSIDER"
   },
   {
-   "score": 87.9,
+   "score": 83.0,
    "components": {
     "tier": 40,
     "category": 24,
     "lead": 2.4,
     "relevance": 12,
-    "freshness": 15.5,
+    "freshness": 10.6,
     "undated": -6
    },
    "keywords": [
@@ -352,13 +642,13 @@
    "verdict": "CONSIDER"
   },
   {
-   "score": 87.9,
+   "score": 83.0,
    "components": {
     "tier": 40,
     "category": 24,
     "lead": 2.4,
     "relevance": 12,
-    "freshness": 15.5,
+    "freshness": 10.6,
     "undated": -6
    },
    "keywords": [
@@ -387,13 +677,13 @@
    "verdict": "CONSIDER"
   },
   {
-   "score": 87.8,
+   "score": 83.0,
    "components": {
     "tier": 40,
     "category": 24,
     "lead": 2.4,
     "relevance": 12,
-    "freshness": 15.4,
+    "freshness": 10.6,
     "undated": -6
    },
    "keywords": [
@@ -422,13 +712,13 @@
    "verdict": "CONSIDER"
   },
   {
-   "score": 85.6,
+   "score": 80.8,
    "components": {
     "tier": 5,
     "category": 5,
     "lead": 0.0,
     "relevance": 28,
-    "freshness": 19.6,
+    "freshness": 14.8,
     "corroborated": 10,
     "shock": 18
    },
@@ -464,13 +754,13 @@
    "verdict": "CONSIDER"
   },
   {
-   "score": 85.4,
+   "score": 80.6,
    "components": {
     "tier": 40,
     "category": 15,
     "lead": 16.8,
     "relevance": 0,
-    "freshness": 19.6,
+    "freshness": 14.8,
     "undated": -6
    },
    "keywords": [],
@@ -497,13 +787,13 @@
    "verdict": "CONSIDER"
   },
   {
-   "score": 85.4,
+   "score": 80.6,
    "components": {
     "tier": 40,
     "category": 15,
     "lead": 16.8,
     "relevance": 0,
-    "freshness": 19.6,
+    "freshness": 14.8,
     "undated": -6
    },
    "keywords": [],
@@ -530,13 +820,49 @@
    "verdict": "CONSIDER"
   },
   {
-   "score": 83.9,
+   "score": 80.2,
+   "components": {
+    "tier": 20,
+    "category": 4,
+    "lead": 2.4,
+    "relevance": 24,
+    "freshness": 19.8,
+    "corroborated": 10
+   },
+   "keywords": [
+    "advisory",
+    "ebola"
+   ],
+   "shock_terms": [],
+   "dedupe_match": null,
+   "dedupe_similarity": 0.17,
+   "id": "3d48870350a7",
+   "title": "US Ebola advisory unfair",
+   "url": "https://nation.africa/kenya/blogs-opinion/editorials/us-ebola-advisory-unfair-5640834",
+   "summary": "The US advisory is, therefore, in bad taste and a mockery of its otherwise solid bilateral...",
+   "kind": "item",
+   "source": "Nation Africa: Kenya business",
+   "source_id": "ke-nation-business",
+   "tier": 2,
+   "country": "KE",
+   "category": "press",
+   "segments": [
+    "city",
+    "bush",
+    "beach"
+   ],
+   "first_seen": "2026-10-22T06:42+03:00",
+   "published": "2026-10-22",
+   "verdict": "CONSIDER"
+  },
+  {
+   "score": 79.0,
    "components": {
     "tier": 20,
     "category": 14,
     "lead": 8.4,
     "relevance": 16,
-    "freshness": 15.5,
+    "freshness": 10.6,
     "corroborated": 10
    },
    "keywords": [
@@ -567,13 +893,13 @@
    "verdict": "CONSIDER"
   },
   {
-   "score": 80.4,
+   "score": 75.6,
    "components": {
     "tier": 40,
     "category": 10,
     "lead": 16.8,
     "relevance": 0,
-    "freshness": 19.6,
+    "freshness": 14.8,
     "undated": -6
    },
    "keywords": [],
@@ -600,13 +926,13 @@
    "verdict": "CONSIDER"
   },
   {
-   "score": 80.4,
+   "score": 75.6,
    "components": {
     "tier": 40,
     "category": 10,
     "lead": 16.8,
     "relevance": 0,
-    "freshness": 19.6,
+    "freshness": 14.8,
     "undated": -6
    },
    "keywords": [],
@@ -633,13 +959,13 @@
    "verdict": "CONSIDER"
   },
   {
-   "score": 80.4,
+   "score": 75.6,
    "components": {
     "tier": 40,
     "category": 10,
     "lead": 16.8,
     "relevance": 0,
-    "freshness": 19.6,
+    "freshness": 14.8,
     "undated": -6
    },
    "keywords": [],
@@ -666,13 +992,13 @@
    "verdict": "CONSIDER"
   },
   {
-   "score": 80.4,
+   "score": 75.6,
    "components": {
     "tier": 40,
     "category": 10,
     "lead": 16.8,
     "relevance": 0,
-    "freshness": 19.6,
+    "freshness": 14.8,
     "undated": -6
    },
    "keywords": [],
@@ -699,13 +1025,13 @@
    "verdict": "CONSIDER"
   },
   {
-   "score": 77.9,
+   "score": 73.1,
    "components": {
     "tier": 40,
     "category": 7,
     "lead": 16.8,
     "relevance": 4,
-    "freshness": 16.1,
+    "freshness": 11.3,
     "undated": -6
    },
    "keywords": [
@@ -734,13 +1060,13 @@
    "verdict": "CONSIDER"
   },
   {
-   "score": 77.0,
+   "score": 72.2,
    "components": {
     "tier": 20,
     "category": 5,
     "lead": 2.4,
     "relevance": 20,
-    "freshness": 19.6,
+    "freshness": 14.8,
     "corroborated": 10
    },
    "keywords": [
@@ -770,13 +1096,13 @@
    "verdict": "CONSIDER"
   },
   {
-   "score": 75.9,
+   "score": 71.0,
    "components": {
     "tier": 20,
     "category": 14,
     "lead": 8.4,
     "relevance": 8,
-    "freshness": 15.5,
+    "freshness": 10.6,
     "corroborated": 10
    },
    "keywords": [
@@ -805,13 +1131,13 @@
    "verdict": "CONSIDER"
   },
   {
-   "score": 73.9,
+   "score": 69.1,
    "components": {
     "tier": 40,
     "category": 7,
     "lead": 16.8,
     "relevance": 0,
-    "freshness": 16.1,
+    "freshness": 11.3,
     "undated": -6
    },
    "keywords": [],
@@ -835,16 +1161,16 @@
    ],
    "first_seen": "2026-10-21T22:57+03:00",
    "published": null,
-   "verdict": "CONSIDER"
+   "verdict": "weak"
   },
   {
-   "score": 73.9,
+   "score": 69.1,
    "components": {
     "tier": 40,
     "category": 7,
     "lead": 16.8,
     "relevance": 0,
-    "freshness": 16.1,
+    "freshness": 11.3,
     "undated": -6
    },
    "keywords": [],
@@ -868,16 +1194,16 @@
    ],
    "first_seen": "2026-10-21T22:57+03:00",
    "published": null,
-   "verdict": "CONSIDER"
+   "verdict": "weak"
   },
   {
-   "score": 73.9,
+   "score": 69.1,
    "components": {
     "tier": 40,
     "category": 7,
     "lead": 16.8,
     "relevance": 0,
-    "freshness": 16.1,
+    "freshness": 11.3,
     "undated": -6
    },
    "keywords": [],
@@ -901,16 +1227,16 @@
    ],
    "first_seen": "2026-10-21T22:57+03:00",
    "published": null,
-   "verdict": "CONSIDER"
+   "verdict": "weak"
   },
   {
-   "score": 73.9,
+   "score": 69.1,
    "components": {
     "tier": 40,
     "category": 7,
     "lead": 16.8,
     "relevance": 0,
-    "freshness": 16.1,
+    "freshness": 11.3,
     "undated": -6
    },
    "keywords": [],
@@ -934,16 +1260,16 @@
    ],
    "first_seen": "2026-10-21T22:57+03:00",
    "published": null,
-   "verdict": "CONSIDER"
+   "verdict": "weak"
   },
   {
-   "score": 73.9,
+   "score": 69.1,
    "components": {
     "tier": 40,
     "category": 7,
     "lead": 16.8,
     "relevance": 0,
-    "freshness": 16.1,
+    "freshness": 11.3,
     "undated": -6
    },
    "keywords": [],
@@ -967,16 +1293,52 @@
    ],
    "first_seen": "2026-10-21T22:57+03:00",
    "published": null,
-   "verdict": "CONSIDER"
+   "verdict": "weak"
   },
   {
-   "score": 73.0,
+   "score": 68.2,
+   "components": {
+    "tier": 20,
+    "category": 4,
+    "lead": 2.4,
+    "relevance": 12,
+    "freshness": 19.8,
+    "corroborated": 10
+   },
+   "keywords": [
+    "tax",
+    "camp"
+   ],
+   "shock_terms": [],
+   "dedupe_match": null,
+   "dedupe_similarity": 0.17,
+   "id": "00544a2db360",
+   "title": "Karua, Nyoro, Matiang'i dismiss Ruto\u2019s tax relief pledges as 2027 campaign bait",
+   "url": "https://nation.africa/kenya/news/politics/karua-nyoro-matiang-i-dismiss-ruto-s-tax-relief-pledges-as-2027-campaign-bait-5640936",
+   "summary": "Opposition leaders accuse Ruto of repackaging campaign promises.",
+   "kind": "item",
+   "source": "Nation Africa: Kenya business",
+   "source_id": "ke-nation-business",
+   "tier": 2,
+   "country": "KE",
+   "category": "press",
+   "segments": [
+    "city",
+    "bush",
+    "beach"
+   ],
+   "first_seen": "2026-10-22T06:42+03:00",
+   "published": "2026-10-21",
+   "verdict": "weak"
+  },
+  {
+   "score": 68.2,
    "components": {
     "tier": 20,
     "category": 5,
     "lead": 2.4,
     "relevance": 16,
-    "freshness": 19.6,
+    "freshness": 14.8,
     "corroborated": 10
    },
    "keywords": [
@@ -1002,16 +1364,16 @@
    ],
    "first_seen": "2026-10-22T02:11+03:00",
    "published": "2026-10-21",
-   "verdict": "CONSIDER"
+   "verdict": "weak"
   },
   {
-   "score": 73.0,
+   "score": 68.2,
    "components": {
     "tier": 20,
     "category": 5,
     "lead": 2.4,
     "relevance": 16,
-    "freshness": 19.6,
+    "freshness": 14.8,
     "corroborated": 10
    },
    "keywords": [
@@ -1027,356 +1389,6 @@
    "title": "How to Use Flight Search Data to Forecast Hotel Demand",
    "url": "https://www.hotelnewsresource.com/article143425.html",
    "summary": "Hotel operators and revenue managers are increasingly utilizing flight search data to more accurately predict future hotel demand, enabling improved pricing, inventory allocation, and marketing decisions based on travelers\u2019 intent and booking patterns.",
-   "kind": "item",
-   "source": "HVS \u2014 market reports and event-impact studies (via Hotel News Resource)",
-   "source_id": "gl-hvs-market-reports",
-   "tier": 2,
-   "country": "GLOBAL",
-   "category": "trade",
-   "segments": [
-    "city"
-   ],
-   "first_seen": "2026-10-22T02:11+03:00",
-   "published": "2026-10-21",
-   "verdict": "CONSIDER"
-  },
-  {
-   "score": 70.4,
-   "components": {
-    "tier": 40,
-    "category": 7,
-    "lead": 16.8,
-    "relevance": 12,
-    "freshness": 19.6,
-    "stale_trap": -25
-   },
-   "keywords": [
-    "airport",
-    "signing"
-   ],
-   "shock_terms": [],
-   "dedupe_match": null,
-   "dedupe_similarity": 0.17,
-   "id": "f387a84ada4a",
-   "title": "Kenya, UK Sign Landmark Aviation Security MoU to Advance One-Stop Security at JKIA",
-   "url": "https://www.kaa.go.ke/kenya-uk-sign-landmark-aviation-security-mou-to-advance-one-stop-security-at-jkia",
-   "summary": "The Kenya Airports Authority (KAA) welcomes a major leap forward in international travel efficiency following the official signing of a Memorandum of Understanding (MoU) between Kenya and the United Kingdom on the Recognition of Aviation Security Measures for One-Stop Security. This landmark agreement marks a significant milestone in bilateral cooperation, designed to fortify civil aviation [\u2026]",
-   "kind": "item",
-   "source": "KAA tenders",
-   "source_id": "ke-kaa-tenders",
-   "tier": 1,
-   "country": "KE",
-   "category": "tender",
-   "segments": [
-    "city",
-    "bush",
-    "beach"
-   ],
-   "first_seen": "2026-10-22T02:09+03:00",
-   "published": "2026-10-14",
-   "verdict": "CHECK \u2014 source date older than the window"
-  },
-  {
-   "score": 69.9,
-   "components": {
-    "tier": 20,
-    "category": 4,
-    "lead": 2.4,
-    "relevance": 0,
-    "freshness": 15.5,
-    "corroborated": 10,
-    "shock": 18
-   },
-   "keywords": [],
-   "shock_terms": [
-    "attack"
-   ],
-   "dedupe_match": null,
-   "dedupe_similarity": 0.0,
-   "id": "49a8099df535",
-   "title": "Sudan drone attack kills over 150 in disputed Abyei region",
-   "url": "https://nation.africa/kenya/news/africa/sudan-drone-attack-kills-over-150-in-disputed-abyei-region--5638506",
-   "summary": "This marks one of the bloodiest weeks in the ongoing war between the Sudanese Armed Forces and...",
-   "kind": "item",
-   "source": "Nation Africa: Kenya business",
-   "source_id": "ke-nation-business",
-   "tier": 2,
-   "country": "KE",
-   "category": "press",
-   "segments": [
-    "city",
-    "bush",
-    "beach"
-   ],
-   "first_seen": "2026-10-21T22:22+03:00",
-   "published": "2026-10-21",
-   "verdict": "weak"
-  },
-  {
-   "score": 69.5,
-   "components": {
-    "tier": 20,
-    "category": 4,
-    "lead": 0.0,
-    "relevance": 20,
-    "freshness": 15.5,
-    "corroborated": 10
-   },
-   "keywords": [
-    "electricity",
-    "capacity",
-    "investment"
-   ],
-   "shock_terms": [],
-   "dedupe_match": null,
-   "dedupe_similarity": 0.3,
-   "id": "379a445b72dd",
-   "title": "Uganda Targets 20,000MW Electricity Capacity by 2040, Seeks EU Investment",
-   "url": "https://softpower.ug/uganda-targets-20000mw-electricity-capacity-by-2040-seeks-eu-investment",
-   "summary": "KAMPALA \u2014 Uganda is targeting electricity generation capacity of 20,000 megawatts (MW) by 2040 and has called on European investors to increase financing for renewable energy, hydropower and other projects needed to support industrialisation and economic growth. Finance Minister Henry Musasizi said increased investment in the energy sector would be critical to achieving the Government\u2019s [\u2026] The po",
-   "kind": "item",
-   "source": "SoftPower News \u2014 Tourism & Travel (Uganda)",
-   "source_id": "ug-softpower-tourism",
-   "tier": 2,
-   "country": "UG",
-   "category": "press",
-   "segments": [
-    "bush",
-    "city"
-   ],
-   "first_seen": "2026-10-21T22:22+03:00",
-   "published": "2026-10-21",
-   "verdict": "weak"
-  },
-  {
-   "score": 69.0,
-   "components": {
-    "tier": 20,
-    "category": 5,
-    "lead": 2.4,
-    "relevance": 12,
-    "freshness": 19.6,
-    "corroborated": 10
-   },
-   "keywords": [
-    "vat",
-    "hotel"
-   ],
-   "shock_terms": [],
-   "dedupe_match": null,
-   "dedupe_similarity": 0.0,
-   "id": "4ac60d35eebc",
-   "title": "Christopher Nez Named Food and Beverage Director at Lotte New York Palace",
-   "url": "https://www.hotelnewsresource.com/article143439.html",
-   "summary": "Lotte New York Palace has appointed Christopher Nez as its new Food and Beverage Director, tasking him with overseeing all culinary operations and supporting the hotel's continued focus on elevating its dining and event offerings.",
-   "kind": "item",
-   "source": "HVS \u2014 market reports and event-impact studies (via Hotel News Resource)",
-   "source_id": "gl-hvs-market-reports",
-   "tier": 2,
-   "country": "GLOBAL",
-   "category": "trade",
-   "segments": [
-    "city"
-   ],
-   "first_seen": "2026-10-22T02:11+03:00",
-   "published": "2026-10-21",
-   "verdict": "weak"
-  },
-  {
-   "score": 69.0,
-   "components": {
-    "tier": 20,
-    "category": 5,
-    "lead": 2.4,
-    "relevance": 12,
-    "freshness": 19.6,
-    "corroborated": 10
-   },
-   "keywords": [
-    "hotel",
-    "guest",
-    "operator"
-   ],
-   "shock_terms": [],
-   "dedupe_match": null,
-   "dedupe_similarity": 0.07,
-   "id": "7d816339e2be",
-   "title": "How Hotel Data Analytics Can Help Anticipate Traveler Behavior in 2027",
-   "url": "https://www.hotelnewsresource.com/article143427.html",
-   "summary": "Hotel operators are adopting sophisticated data analytics tools to forecast traveler behavior for 2027, aiming to improve demand forecasting, personalize guest experiences, and enhance revenue management decisions based on predictive insights.",
-   "kind": "item",
-   "source": "HVS \u2014 market reports and event-impact studies (via Hotel News Resource)",
-   "source_id": "gl-hvs-market-reports",
-   "tier": 2,
-   "country": "GLOBAL",
-   "category": "trade",
-   "segments": [
-    "city"
-   ],
-   "first_seen": "2026-10-22T02:11+03:00",
-   "published": "2026-10-21",
-   "verdict": "weak"
-  },
-  {
-   "score": 67.9,
-   "components": {
-    "tier": 20,
-    "category": 4,
-    "lead": 2.4,
-    "relevance": 16,
-    "freshness": 15.5,
-    "corroborated": 10
-   },
-   "keywords": [
-    "eta",
-    "protest"
-   ],
-   "shock_terms": [],
-   "dedupe_match": null,
-   "dedupe_similarity": 0.0,
-   "id": "217ef1828b86",
-   "title": "7 Police Officers Under Probe Over Arrest of Citizen TV Journalist",
-   "url": "https://www.kenyans.co.ke/news/128761-ipoa-probe-7-officers-over-arrest-citizen-tvs-odee-francis",
-   "summary": "The journalist was harassed, temporarily arrested, and detained at the Central Police Station after officers reportedly confused him with other protesters.",
-   "kind": "item",
-   "source": "Kenyans.co.ke news",
-   "source_id": "ke-kenyans",
-   "tier": 2,
-   "country": "KE",
-   "category": "press",
-   "segments": [
-    "city",
-    "bush",
-    "beach"
-   ],
-   "first_seen": "2026-10-21T22:22+03:00",
-   "published": "2026-10-21",
-   "verdict": "weak"
-  },
-  {
-   "score": 67.8,
-   "components": {
-    "tier": 20,
-    "category": 5,
-    "lead": 1.2,
-    "relevance": 12,
-    "freshness": 19.6,
-    "corroborated": 10
-   },
-   "keywords": [
-    "fuel",
-    "airline"
-   ],
-   "shock_terms": [],
-   "dedupe_match": null,
-   "dedupe_similarity": 0.17,
-   "id": "32529eb3a67d",
-   "title": "Southwest Airlines Slashes 2026 Profit Guidance on Higher Fuel Bills",
-   "url": "https://skift.com/2026/10/21/southwest-slashes-2026-profit-guidance-on-higher-fuel-bills",
-   "summary": "Southwest is the latest airline to slash its profit outlook for the year as surging fuel costs bite into record revenues.",
-   "kind": "item",
-   "source": "Skift",
-   "source_id": "tp-skift",
-   "tier": 2,
-   "country": "GLOBAL",
-   "category": "trade",
-   "segments": [
-    "city",
-    "bush",
-    "beach"
-   ],
-   "first_seen": "2026-10-22T02:11+03:00",
-   "published": "2026-10-22",
-   "verdict": "weak"
-  },
-  {
-   "score": 66.5,
-   "components": {
-    "tier": 40,
-    "category": 5,
-    "lead": 12.0,
-    "relevance": 0,
-    "freshness": 15.5,
-    "undated": -6
-   },
-   "keywords": [],
-   "shock_terms": [],
-   "dedupe_match": null,
-   "dedupe_similarity": 0.2,
-   "id": "d6836c6b0f06",
-   "title": "Order Paper For Thursday, 22nd October 2026",
-   "url": "https://www.parliament.go.ke/sites/default/files/2026-10/ORDER%20PAPER%20FOR%20THURSDAY%2C%2022ND%20OCTOBER%202026.pdf",
-   "summary": "!\"#$%&&'%\"()*$+#*,&'%!!!!!!!!!!!!!!!!-#.%\"(/&00#1'(!2314(567(((((((((((((((((((((((((((((((((2899:7((!;<)=>?@A(B-(C<3DE((!!F@;!<<3!F()E;?@EG<3!(H(2-@-!F(/<//@B37(!!\"#$%&!'(%&)$&**#+,)-$!B;I<;/(B-(!F<(IED(!!F=;/IEDJ(BA!B><;(88J(8K8L(E!(84:K()4G4(!(./#.$(0$,1*'%#**$$);ED<;/(!!\"!!\"#$%$&'()'$*%+*,+-)'.+#\"!/*##0%$1)'$*%+,(*#+'.2+/.)$(+$\"!32&&)42&+%\"!52'$'$*%&+&\"!5)62(&+'\"!7*'$12&+*,+3*'$*%++(\"!802&'$*%",
-   "kind": "doc",
-   "source": "Senate Committee on Delegated Legislation (Kenya) \u2014 the committee that annuls or accedes to statutory instruments",
-   "source_id": "ke-senate-delegated-legislation",
-   "tier": 1,
-   "country": "KE",
-   "category": "REG",
-   "segments": [
-    "city",
-    "bush",
-    "beach"
-   ],
-   "first_seen": "2026-10-21T22:22+03:00",
-   "published": null,
-   "verdict": "weak"
-  },
-  {
-   "score": 65.0,
-   "components": {
-    "tier": 20,
-    "category": 5,
-    "lead": 2.4,
-    "relevance": 8,
-    "freshness": 19.6,
-    "corroborated": 10
-   },
-   "keywords": [
-    "hotel",
-    "operator"
-   ],
-   "shock_terms": [],
-   "dedupe_match": null,
-   "dedupe_similarity": 0.07,
-   "id": "893e1cc1effa",
-   "title": "Pan Pacific Hotels Group Plans 10 Southeast Asia Projects for 2027",
-   "url": "https://www.hotelnewsresource.com/article143440.html",
-   "summary": "Pan Pacific Hotels Group has announced plans to open 10 new properties across Southeast Asia by 2027, signaling a significant expansion of its regional portfolio and increased competition for hotel owners, operators, and developers in these growth markets.",
-   "kind": "item",
-   "source": "HVS \u2014 market reports and event-impact studies (via Hotel News Resource)",
-   "source_id": "gl-hvs-market-reports",
-   "tier": 2,
-   "country": "GLOBAL",
-   "category": "trade",
-   "segments": [
-    "city"
-   ],
-   "first_seen": "2026-10-22T02:11+03:00",
-   "published": "2026-10-21",
-   "verdict": "weak"
-  },
-  {
-   "score": 65.0,
-   "components": {
-    "tier": 20,
-    "category": 5,
-    "lead": 2.4,
-    "relevance": 8,
-    "freshness": 19.6,
-    "corroborated": 10
-   },
-   "keywords": [
-    "summit",
-    "investment"
-   ],
-   "shock_terms": [],
-   "dedupe_match": null,
-   "dedupe_similarity": 0.1,
-   "id": "9903b5d62579",
-   "title": "Travel Tech Start-Up Summit: Buyers and Investors Tell Founders AI Has Raised the Bar on Standing out",
-   "url": "https://www.hotelnewsresource.com/article143433.html",
-   "summary": "At the Travel Tech Start-Up Summit, buyers and investors advised hospitality technology founders that the widespread use of AI has increased expectations for product differentiation, making it more challenging for new entrants to secure investment and commercial partnerships.",
    "kind": "item",
    "source": "HVS \u2014 market reports and event-impact studies (via Hotel News Resource)",
    "source_id": "gl-hvs-market-reports",
