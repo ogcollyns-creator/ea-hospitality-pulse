@@ -1,5 +1,14 @@
 window.EDITIONS = [
  {
+  "id": "pulse-2026-10-22-evening",
+  "date": "2026-10-22",
+  "dateDisplay": "Thursday, 22 October 2026",
+  "edition": "Evening Wrap",
+  "editionKey": "evening",
+  "summary": "Ghana tightened Ebola screening at Accra airport on 21 October, citing direct flights with Kenya",
+  "bodyHtml": "<p><strong>Ghana tightened Ebola screening at Accra airport on 21 October, citing direct flights with Kenya</strong><br><em>🌆 Evening Wrap · Thu 22 Oct 2026</em></p>\n<p>━━━━━━━━━<br><span class=\"item-head\">1️⃣ Ghana tightened Ebola screening at Accra airport on 21 October, citing direct flights with Kenya</span></p>\n<p>Ghana&#x27;s Health Ministry announced enhanced screening at entry points, monitoring of travellers from affected areas, staff sensitisation and drills at Accra airport and the Infectious Disease Centre. It cited &quot;direct flights between the two countries&quot;. No ban or effective date is stated <strong>(Ministry statement 21 Oct, via Kenyans.co.ke, 22 Oct 07:36 EAT; statement itself not seen)</strong>.<br>Our inference: this is screening, not refusal, unlike El Salvador, but it invites copycat rules.<br><span class=\"sowhat\">🎯 So what: if you hold Ghana or Nigeria bookings, send guests the arrival-screening note now and offer date changes before refunds.</span><br><span class=\"tagline\">🏷 City, Bush, Beach | Kenya | Reported | impact:risk</span></p>\n<p><span class=\"item-head\">2️⃣ WHO&#x27;s latest situation report shows DRC&#x27;s Ebola outbreak still rising, at 9,637 confirmed cases by 19 October</span></p>\n<p>Confirmed cases rose 10.4% to 1,466 in the 21 days to 19 October against the prior 21 days; deaths rose 7.5% to 692. The DRC total is 9,637 cases and 4,646 deaths across 8 of 26 provinces. It lists Kenya at nine cases including one death (not independently confirmed by us) <strong>(WHO situation report, via Xinhua/New Vision, 22 Oct)</strong>.<br>Our inference: the source outbreak is not shrinking, so source-market caution will outlast Kenya&#x27;s own cluster.<br><span class=\"sowhat\">🎯 So what: do not plan a recovery pitch before December; price flexible rebooking, not discounts.</span><br><span class=\"tagline\">🏷 City, Bush, Beach | Kenya, Uganda, Rwanda | Confirmed | impact:risk</span></p>\n<p><span class=\"item-head\">3️⃣ Ebola is adding cost and delay to the Northern Corridor, already strained by insecurity and peak-season imports</span></p>\n<p>The EastAfrican reports four pressures at once: the outbreak, attacks on trucks in eastern DRC and South Sudan, seasonal import volume and Ebola-related border measures, raising transport costs, delays and extra charges. No figures given <strong>(The EastAfrican, 22 Oct; article body not fully read)</strong>.<br>Our inference: the corridor feeds Kampala and Kigali hotel supply chains; expect dearer imported fit-out, linen and food.<br><span class=\"sowhat\">🎯 So what: place imported orders for Q4 now and ask suppliers for landed-cost quotes in writing.</span><br><span class=\"tagline\">🏷 City | Kenya, Uganda, Rwanda | Reported | impact:margin</span></p>\n<p><strong>🏗 DEAL FLOW:</strong> No verified EA deal flow in the window. Competitor-listed openings carry no dates, so none run.</p>\n<p><strong>📻 ALSO TONIGHT</strong><br>🇷🇼 Raffles Family Office signed an investment-promotion agreement with the Rwanda Development Board on 22 Oct, naming tourism and hospitality among sectors; it targets &quot;hundreds of millions of dollars&quot;, no hotel or sum committed <strong>(RDB release, 22 Oct)</strong>.<br>🇸🇸 WHO says Haut-Uélé had 408 confirmed cases at 17 Oct and DRC and South Sudan are tightening Aba border checks, with only 5 of 11 control points working <strong>(WHO AFRO, 22 Oct)</strong>.</p>\n<p><strong>📅 WEEK AHEAD</strong> 23 Oct: CBK weekly bulletin due. 25 Oct: most Kenyan contacts due out of quarantine. 27 Oct: Uganda Airlines starts Entebbe-Accra <strong>(AeroRoutes, 20 Aug)</strong>. About 30 Oct: KNBS CPI.</p>\n<p><strong>🔍 BLIND SPOTS</strong> Web-scanned only, pages not opened: UK, US, Canadian, German and French advisories (French pages in maintenance); Rwanda, Zanzibar and Uganda health sources; UWA, TANAPA, NCAA; all four gazettes; TIRA; KCAA; statistics bureaus; central banks.</p>\n<p>🔗 This edition on the web: <a href=\"https://eahospitalitypulse.com/editions/pulse-2026-10-22-evening.html\" rel=\"noopener\">eahospitalitypulse.com/editions/pulse-2026-10-22-evenin…</a></p>"
+ },
+ {
   "id": "pulse-2026-10-21-evening",
   "date": "2026-10-21",
   "dateDisplay": "Wednesday, 21 October 2026",
@@ -1270,6 +1279,67 @@ window.EDITIONS = [
  }
 ];
 window.INSIGHTS = [
+ {
+  "headline": "Ghana tightened Ebola screening at Accra airport on 21 October, citing direct flights with Kenya",
+  "body": "Ghana's Health Ministry announced enhanced screening at entry points, monitoring of travellers from affected areas, staff sensitisation and drills at Accra airport and the Infectious Disease Centre. It cited \"direct flights between the two countries\". No ban or effective date is stated *(Ministry statement 21 Oct, via Kenyans.co.ke, 22 Oct 07:36 EAT; statement itself not seen)*. Our inference: this is screening, not refusal, unlike El Salvador, but it invites copycat rules.",
+  "sowhat": "🎯 So what: if you hold Ghana or Nigeria bookings, send guests the arrival-screening note now and offer date changes before refunds.",
+  "segments": [
+   "city",
+   "bush",
+   "beach"
+  ],
+  "countries": "Kenya",
+  "confidence": "Reported",
+  "impact": "risk",
+  "impactClass": "risk",
+  "intensity": 2,
+  "impactSet": "author",
+  "source": "pulse-2026-10-22-evening",
+  "date": "2026-10-22",
+  "dateDisplay": "Thursday, 22 October 2026",
+  "edition": "Evening Wrap",
+  "editionKey": "evening"
+ },
+ {
+  "headline": "WHO's latest situation report shows DRC's Ebola outbreak still rising, at 9,637 confirmed cases by 19 October",
+  "body": "Confirmed cases rose 10.4% to 1,466 in the 21 days to 19 October against the prior 21 days; deaths rose 7.5% to 692. The DRC total is 9,637 cases and 4,646 deaths across 8 of 26 provinces. It lists Kenya at nine cases including one death (not independently confirmed by us) *(WHO situation report, via Xinhua/New Vision, 22 Oct)*. Our inference: the source outbreak is not shrinking, so source-market caution will outlast Kenya's own cluster.",
+  "sowhat": "🎯 So what: do not plan a recovery pitch before December; price flexible rebooking, not discounts.",
+  "segments": [
+   "city",
+   "bush",
+   "beach"
+  ],
+  "countries": "Kenya, Uganda, Rwanda",
+  "confidence": "Confirmed",
+  "impact": "risk",
+  "impactClass": "risk",
+  "intensity": 3,
+  "impactSet": "author",
+  "source": "pulse-2026-10-22-evening",
+  "date": "2026-10-22",
+  "dateDisplay": "Thursday, 22 October 2026",
+  "edition": "Evening Wrap",
+  "editionKey": "evening"
+ },
+ {
+  "headline": "Ebola is adding cost and delay to the Northern Corridor, already strained by insecurity and peak-season imports",
+  "body": "The EastAfrican reports four pressures at once: the outbreak, attacks on trucks in eastern DRC and South Sudan, seasonal import volume and Ebola-related border measures, raising transport costs, delays and extra charges. No figures given *(The EastAfrican, 22 Oct; article body not fully read)*. Our inference: the corridor feeds Kampala and Kigali hotel supply chains; expect dearer imported fit-out, linen and food.",
+  "sowhat": "🎯 So what: place imported orders for Q4 now and ask suppliers for landed-cost quotes in writing.",
+  "segments": [
+   "city"
+  ],
+  "countries": "Kenya, Uganda, Rwanda",
+  "confidence": "Reported",
+  "impact": "-margin",
+  "impactClass": "margin",
+  "intensity": 2,
+  "impactSet": "author",
+  "source": "pulse-2026-10-22-evening",
+  "date": "2026-10-22",
+  "dateDisplay": "Thursday, 22 October 2026",
+  "edition": "Evening Wrap",
+  "editionKey": "evening"
+ },
  {
   "headline": "Kenya confirmed its ninth Ebola case on 20 October, a relative already in quarantine, with 134 of 135 contacts traced",
   "body": "Our last count was eight. The patient, 24, is a relative of the first case and was in quarantine when he fell ill. Director-General Patrick Amoth says all nine belong to one cluster, eight are stable, and most contacts go home from 25 October. Kenya has restricted no travel or trade *(Al Jazeera, 20 Oct; Pulse.co.ke, 21 Oct; Ministry statement not read)*. Our inference: a case inside quarantine is containment working, but the count still rises.",
@@ -7399,4 +7469,4 @@ window.INSIGHTS = [
   "editionKey": "evening"
  }
 ];
-window.BUILT_AT = "2026-10-22 19:04";
+window.BUILT_AT = "2026-10-22 19:14";
