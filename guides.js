@@ -1,5 +1,14 @@
 window.GUIDES = [
  {
+  "slug": "ai-agent-access-east-africa-lodges",
+  "title": "Nobody at your lodge decided to block the AI agent. Something in your stack did.",
+  "description": "On 18 October an AI agent working for a traveller could not see a rate at a Wyndham hotel. On 19 October it reached the guest details page. Nothing in Wyndham's published policy changed overnight, and that is the point: access to hotel inventory is now decided by bot-management software rather than by anyone's commercial judgement. East African operators have never looked at what their own stack does.",
+  "category": "Big Read",
+  "updated": "2026-10-23",
+  "readMins": 8,
+  "image": "img/editions/ai-agent-access-east-africa-lodges.jpg"
+ },
+ {
   "slug": "kenya-signature-experiences-no-till",
   "title": "Kenya curated 75 experiences this month. Not one of them can be bought where it is displayed.",
   "description": "The Magical Kenya Signature Experiences collection grew to 75 entries on 15 October. The public page carries no price, no availability and no booking button, and Kenya's own draft tourism strategy already names the missing piece.",
