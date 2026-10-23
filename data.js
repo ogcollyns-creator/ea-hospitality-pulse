@@ -1,5 +1,14 @@
 window.EDITIONS = [
  {
+  "id": "pulse-2026-10-23-evening",
+  "date": "2026-10-23",
+  "dateDisplay": "Friday, 23 October 2026",
+  "edition": "Evening Wrap",
+  "editionKey": "evening",
+  "summary": "Kenya recorded no new Ebola cases in the 24 hours to 22 October, holding at nine",
+  "bodyHtml": "<p><strong>Kenya recorded no new Ebola cases in the 24 hours to 22 October, holding at nine</strong><br><em>🌆 Evening Wrap · Fri 23 Oct 2026</em></p>\n<p>━━━━━━━━━<br><span class=\"item-head\">1️⃣ Kenya recorded no new Ebola cases in the 24 hours to 22 October, holding at nine</span></p>\n<p>Ministry of Health figures: all nine cases sit in one cluster. The index case died on 5 October; eight patients (four relatives, four health workers) are in isolation and reported stable. All 14 samples tested in the day were negative, all 135 contacts of the first case are traced, and the first group finishes 21-day monitoring on Sunday 25 October. 709,093 travellers have been screened at entry points, 3,107 in the latest 24 hours. Government says travel, trade and public gatherings stay unrestricted <strong>(Ministry statement 22 Oct, via The Standard 22 Oct 16:53 and The Star 23 Oct 06:52)</strong>.<br>Our inference: one quiet day is not a clearance. The Standard notes anyone exposed to a later case is monitored from that later date, and the ninth case tested positive on 19 October after falling ill in quarantine <strong>(Citizen Digital, 20 Oct)</strong>, so some clocks may have restarted.<br><span class=\"sowhat\">🎯 So what: do not reprice or relaunch on a plateau. Keep flexible-rebooking terms and brief reception staff on the screening questions guests will meet at the airport.</span><br><span class=\"tagline\">🏷 City, Bush, Beach | Kenya | Confirmed | impact:risk</span></p>\n<p><span class=\"item-head\">2️⃣ Foreign government decisions, not Kenya&#x27;s case count, now decide how many guests can travel</span><br>Three source-side measures landed in three days: the US raised Kenya to Level 3 on 19 Oct, El Salvador refused entry to travellers from or through Kenya, Uganda, Rwanda and Ethiopia on 21 Oct, and Ghana tightened Accra screening on 21 Oct <strong>(all carried in our 20-22 Oct editions)</strong>.<br>Our inference: such rules are easier to impose than lift, and we have seen no published criteria for lifting any of them, so a flat Kenyan count will not reopen those markets by itself.<br><span class=\"sowhat\">🎯 So what: ask each source-market agent which rule applies to their guests, then write the refund and date-change terms into the contract before peak-season deposits arrive.</span><br><span class=\"tagline\">🏷 City, Bush, Beach | Kenya, Uganda, Rwanda | Reported | impact:demand</span></p>\n<p><strong>🏗 DEAL FLOW:</strong> No verified EA deal flow in the window. Hospitality Net&#x27;s newest East African item is dated 12 Oct (Mereshi Safari Camp Serengeti); nothing dated 20-23 Oct.</p>\n<p><strong>📻 ALSO TONIGHT</strong><br>🇹🇿 Zanzibar: ATTA&#x27;s Essence of Africa buyer forum closed on 22 Oct; ask ATTA for the buyer list and Data Appeal figures <strong>(VoyagesAfriq, 20 Oct)</strong>.<br>🇰🇪 Fuel: EPRA pump prices from 15 Oct stand at petrol KSh226.96, diesel KSh227.76; the next review is due around 14 Nov <strong>(EPRA, 14 Oct)</strong>.</p>\n<p><strong>📅 WEEK AHEAD</strong> 25 Oct: first Kenyan contacts leave quarantine. 27 Oct: Uganda Airlines starts Entebbe-Accra <strong>(AeroRoutes, 20 Aug)</strong>. About 30 Oct: KNBS CPI. CBK weekly bulletin due today, not yet seen.</p>\n<p><strong>🔍 BLIND SPOTS</strong> Web-scanned only, pages not opened: UK, Canadian, German and French advisories; WHO, Africa CDC, Uganda, Rwanda and Zanzibar health pages; KCAA, UWA, TANAPA, NCAA; Kenya, Uganda, Tanzania and Rwanda gazettes; TIRA; hotelsafrica.org, travelnews.africa and Tourism Update homepages. An undated Tourism Fund story on a 2% levy for supermarkets was dropped.</p>\n<p>🔗 This edition on the web: <a href=\"https://eahospitalitypulse.com/editions/pulse-2026-10-23-evening.html\" rel=\"noopener\">eahospitalitypulse.com/editions/pulse-2026-10-23-evenin…</a></p>"
+ },
+ {
   "id": "pulse-2026-10-22-evening",
   "date": "2026-10-22",
   "dateDisplay": "Thursday, 22 October 2026",
@@ -1279,6 +1288,48 @@ window.EDITIONS = [
  }
 ];
 window.INSIGHTS = [
+ {
+  "headline": "Kenya recorded no new Ebola cases in the 24 hours to 22 October, holding at nine",
+  "body": "Ministry of Health figures: all nine cases sit in one cluster. The index case died on 5 October; eight patients (four relatives, four health workers) are in isolation and reported stable. All 14 samples tested in the day were negative, all 135 contacts of the first case are traced, and the first group finishes 21-day monitoring on Sunday 25 October. 709,093 travellers have been screened at entry points, 3,107 in the latest 24 hours. Government says travel, trade and public gatherings stay unrestricted *(Ministry statement 22 Oct, via The Standard 22 Oct 16:53 and The Star 23 Oct 06:52)*. Our inference: one quiet day is not a clearance. The Standard notes anyone exposed to a later case is monitored from that later date, and the ninth case tested positive on 19 October after falling ill in quarantine *(Citizen Digital, 20 Oct)*, so some clocks may have restarted.",
+  "sowhat": "🎯 So what: do not reprice or relaunch on a plateau. Keep flexible-rebooking terms and brief reception staff on the screening questions guests will meet at the airport.",
+  "segments": [
+   "city",
+   "bush",
+   "beach"
+  ],
+  "countries": "Kenya",
+  "confidence": "Confirmed",
+  "impact": "risk",
+  "impactClass": "risk",
+  "intensity": 3,
+  "impactSet": "author",
+  "source": "pulse-2026-10-23-evening",
+  "date": "2026-10-23",
+  "dateDisplay": "Friday, 23 October 2026",
+  "edition": "Evening Wrap",
+  "editionKey": "evening"
+ },
+ {
+  "headline": "Foreign government decisions, not Kenya's case count, now decide how many guests can travel",
+  "body": "Three source-side measures landed in three days: the US raised Kenya to Level 3 on 19 Oct, El Salvador refused entry to travellers from or through Kenya, Uganda, Rwanda and Ethiopia on 21 Oct, and Ghana tightened Accra screening on 21 Oct *(all carried in our 20-22 Oct editions)*. Our inference: such rules are easier to impose than lift, and we have seen no published criteria for lifting any of them, so a flat Kenyan count will not reopen those markets by itself.",
+  "sowhat": "🎯 So what: ask each source-market agent which rule applies to their guests, then write the refund and date-change terms into the contract before peak-season deposits arrive.",
+  "segments": [
+   "city",
+   "bush",
+   "beach"
+  ],
+  "countries": "Kenya, Uganda, Rwanda",
+  "confidence": "Reported",
+  "impact": "+demand",
+  "impactClass": "demand",
+  "intensity": 2,
+  "impactSet": "author",
+  "source": "pulse-2026-10-23-evening",
+  "date": "2026-10-23",
+  "dateDisplay": "Friday, 23 October 2026",
+  "edition": "Evening Wrap",
+  "editionKey": "evening"
+ },
  {
   "headline": "Ghana tightened Ebola screening at Accra airport on 21 October, citing direct flights with Kenya",
   "body": "Ghana's Health Ministry announced enhanced screening at entry points, monitoring of travellers from affected areas, staff sensitisation and drills at Accra airport and the Infectious Disease Centre. It cited \"direct flights between the two countries\". No ban or effective date is stated *(Ministry statement 21 Oct, via Kenyans.co.ke, 22 Oct 07:36 EAT; statement itself not seen)*. Our inference: this is screening, not refusal, unlike El Salvador, but it invites copycat rules.",
@@ -7469,4 +7520,4 @@ window.INSIGHTS = [
   "editionKey": "evening"
  }
 ];
-window.BUILT_AT = "2026-10-23 19:58";
+window.BUILT_AT = "2026-10-23 20:03";
