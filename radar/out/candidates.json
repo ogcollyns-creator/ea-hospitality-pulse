@@ -1,150 +1,60 @@
 {
- "generated": "2026-10-23T06:58:18+03:00",
- "slot": "morning",
- "window_start": 1792681200,
- "observations_in_window": 396,
+ "generated": "2026-10-23T11:38:20+03:00",
+ "slot": "midday",
+ "window_start": 1792728000,
+ "observations_in_window": 163,
  "deduped_against": 23,
  "candidates": [
   {
-   "score": 139.4,
+   "score": 117.8,
    "components": {
     "tier": 40,
     "category": 32,
-    "lead": 1.2,
-    "relevance": 44,
-    "freshness": 10.2,
-    "undated": -6,
-    "shock": 18
+    "lead": 12.0,
+    "relevance": 8,
+    "freshness": 19.8,
+    "corroborated": 10,
+    "page_change": -4
    },
    "keywords": [
-    "advisory",
-    "terror",
-    "level 3",
-    "route"
+    "fee"
    ],
-   "shock_terms": [
-    "level 3",
-    "reconsider travel"
-   ],
+   "shock_terms": [],
    "dedupe_match": null,
-   "dedupe_similarity": 0.33,
-   "id": "9dd87266edf4",
-   "title": "Israel - Level 3: Reconsider Travel",
-   "url": "https://travel.state.gov/content/tsg_aem/us/en/home/international-travel/travel-advisories/destination.isr.html",
-   "summary": "Reconsider travel to Israel due to terrorism and unrest . Some areas have increased risk. Read the entire Travel Advisory. As of August 26, 2026, family members may join U.S. government employees who work in Israel. U.S. government employee travel restrictions U.S. government employees working in Israel are restricted from the following locations due to safety risks: Areas north of Route 85 to Rou",
-   "kind": "item",
-   "source": "US State Dept travel advisories (EA feed)",
-   "source_id": "adv-us-ea",
+   "dedupe_similarity": 0.08,
+   "id": "08394cde55d8",
+   "title": "[page changed] Federal Register \u2014 CDC notices",
+   "url": "https://www.federalregister.gov/api/v1/documents.rss?conditions%5Bagencies%5D%5B%5D=centers-for-disease-control-and-prevention&order=newest",
+   "summary": "Federal Register Documents published on or after 09/23/2026 and from Centers for Disease Control and Prevention https://www.federalregister.gov/api/v1/documents.rss?conditions%5Bagencies%5D%5B%5D=centers-for-disease-control-and-prevention&order=newest Tue, 20 Oct 2026 04:00:00 GMT The documents in this feed originate from FederalRegister.gov which displays an unofficial web version of the daily Fe",
+   "kind": "page-change",
+   "source": "Federal Register \u2014 CDC notices",
+   "source_id": "us-fedreg-cdc",
    "tier": 1,
    "country": "REG",
    "category": "advisory",
    "segments": [
     "city",
-    "bush",
-    "beach"
+    "bush"
    ],
-   "first_seen": "2026-10-22T22:17+03:00",
-   "published": null,
-   "verdict": "LEAD CANDIDATE \u2014 tier-1 shock language"
+   "first_seen": "2026-10-23T11:37+03:00",
+   "published": "2026-11-10",
+   "verdict": "OPEN THIS \u2014 tier-1 advisory page moved; content not auto-parsed, read it manually"
   },
   {
-   "score": 127.4,
-   "components": {
-    "tier": 40,
-    "category": 32,
-    "lead": 1.2,
-    "relevance": 32,
-    "freshness": 10.2,
-    "undated": -6,
-    "shock": 18
-   },
-   "keywords": [
-    "terror",
-    "level 3",
-    "route"
-   ],
-   "shock_terms": [
-    "level 3",
-    "reconsider travel"
-   ],
-   "dedupe_match": null,
-   "dedupe_similarity": 0.2,
-   "id": "d3ba155909f8",
-   "title": "The West Bank - Level 3: Reconsider Travel",
-   "url": "https://travel.state.gov/content/tsg_aem/us/en/home/international-travel/travel-advisories/destination.xwb.html",
-   "summary": "Reconsider travel to the West Bank due to terrorism and unrest . U.S. government employee travel restrictions U.S. government employees working in Israel must obtain special authorization for official travel to the West Bank due to safety risks. U.S. government employees working in Israel and their family members are currently restricted from all personal travel to the West Bank, except: Travel on",
-   "kind": "item",
-   "source": "US State Dept travel advisories (EA feed)",
-   "source_id": "adv-us-ea",
-   "tier": 1,
-   "country": "REG",
-   "category": "advisory",
-   "segments": [
-    "city",
-    "bush",
-    "beach"
-   ],
-   "first_seen": "2026-10-22T22:17+03:00",
-   "published": null,
-   "verdict": "LEAD CANDIDATE \u2014 tier-1 shock language"
-  },
-  {
-   "score": 123.4,
-   "components": {
-    "tier": 40,
-    "category": 32,
-    "lead": 1.2,
-    "relevance": 28,
-    "freshness": 10.2,
-    "undated": -6,
-    "shock": 18
-   },
-   "keywords": [
-    "terror",
-    "level 4",
-    "tourist"
-   ],
-   "shock_terms": [
-    "level 4",
-    "do not travel",
-    "attack"
-   ],
-   "dedupe_match": null,
-   "dedupe_similarity": 0.2,
-   "id": "b489cdf4e56c",
-   "title": "Gaza - Level 4: Do Not Travel",
-   "url": "https://travel.state.gov/content/tsg_aem/us/en/home/international-travel/travel-advisories/destination.xgz.html",
-   "summary": "Do not travel to Gaza due to terrorism , unrest , and limited health infrastructure. Restrictions on U.S. Government Personnel Movement U.S. government employees are prohibited from traveling to Gaza for any reason due to safety risks. The U.S. government is unable to provide routine or emergency consular services to U.S. citizens in Gaza. Terrorism Terrorist groups, lone-actor terrorists, and oth",
-   "kind": "item",
-   "source": "US State Dept travel advisories (EA feed)",
-   "source_id": "adv-us-ea",
-   "tier": 1,
-   "country": "REG",
-   "category": "advisory",
-   "segments": [
-    "city",
-    "bush",
-    "beach"
-   ],
-   "first_seen": "2026-10-22T22:17+03:00",
-   "published": null,
-   "verdict": "LEAD CANDIDATE \u2014 tier-1 shock language"
-  },
-  {
-   "score": 91.2,
+   "score": 91.4,
    "components": {
     "tier": 40,
     "category": 32,
     "lead": 3.6,
     "relevance": 0,
-    "freshness": 19.6,
+    "freshness": 19.8,
     "page_change": -4
    },
    "keywords": [],
    "shock_terms": [],
    "dedupe_match": null,
    "dedupe_similarity": 0.1,
-   "id": "a07df1114996",
+   "id": "d7267ff8abb0",
    "title": "[page changed] Federal Register \u2014 public inspection (HHS/CDC), pre-publication",
    "url": "https://www.federalregister.gov/api/v1/public-inspection-documents/current.json",
    "summary": "{\"count\":86,\"results\":[{\"agencies\":[{\"raw_name\":\"National Oceanic and Atmospheric Administration\",\"name\":\"National Oceanic and Atmospheric Administration\",\"id\":361,\"url\":\"https://www.federalregister.gov/agencies/national-oceanic-and-atmospheric-administration\",\"json_url\":\"https://www.federalregister.gov/api/v1/agencies/361\",\"parent_id\":54,\"slug\":\"national-oceanic-and-atmospheric-administration\"}],",
@@ -158,227 +68,265 @@
     "city",
     "bush"
    ],
-   "first_seen": "2026-10-23T06:47+03:00",
+   "first_seen": "2026-10-23T11:37+03:00",
    "published": "2026-10-21",
    "verdict": "OPEN THIS \u2014 tier-1 advisory page moved; content not auto-parsed, read it manually"
   },
   {
-   "score": 86.1,
+   "score": 99.0,
    "components": {
     "tier": 40,
-    "category": 32,
-    "lead": 3.6,
-    "relevance": 0,
-    "freshness": 14.5,
-    "page_change": -4
+    "category": 24,
+    "lead": 1.2,
+    "relevance": 4,
+    "freshness": 19.8,
+    "corroborated": 10
    },
-   "keywords": [],
+   "keywords": [
+    "camp"
+   ],
    "shock_terms": [],
    "dedupe_match": null,
-   "dedupe_similarity": 0.1,
-   "id": "de28de605eb6",
-   "title": "[page changed] Federal Register \u2014 public inspection (HHS/CDC), pre-publication",
-   "url": "https://www.federalregister.gov/api/v1/public-inspection-documents/current.json",
-   "summary": "{\"count\":86,\"results\":[{\"agencies\":[{\"raw_name\":\"National Oceanic and Atmospheric Administration\",\"name\":\"National Oceanic and Atmospheric Administration\",\"id\":361,\"url\":\"https://www.federalregister.gov/agencies/national-oceanic-and-atmospheric-administration\",\"json_url\":\"https://www.federalregister.gov/api/v1/agencies/361\",\"parent_id\":54,\"slug\":\"national-oceanic-and-atmospheric-administration\"}],",
-   "kind": "page-change",
-   "source": "Federal Register \u2014 public inspection (HHS/CDC), pre-publication",
-   "source_id": "us-fedreg-pubinspect-hhs",
+   "dedupe_similarity": 0.17,
+   "id": "cfa3963187ab",
+   "title": "Ministry of Health Concludes Two-Day Integrated Health Camp for Staff",
+   "url": "http://localhost:8080/Ministry of Health Concludes Two-Day Integrated Health Camp for Staff",
+   "summary": "",
+   "kind": "item",
+   "source": "Uganda Ministry of Health \u2014 news",
+   "source_id": "ug-moh-news",
    "tier": 1,
-   "country": "REG",
-   "category": "advisory",
+   "country": "UG",
+   "category": "health",
    "segments": [
     "city",
     "bush"
    ],
-   "first_seen": "2026-10-23T02:06+03:00",
-   "published": "2026-10-21",
-   "verdict": "OPEN THIS \u2014 tier-1 advisory page moved; content not auto-parsed, read it manually"
+   "first_seen": "2026-10-23T11:37+03:00",
+   "published": "2026-10-22",
+   "verdict": "STRONG \u2014 tier-1, upstream"
   },
   {
-   "score": 81.8,
+   "score": 99.0,
    "components": {
     "tier": 40,
-    "category": 32,
-    "lead": 3.6,
-    "relevance": 0,
-    "freshness": 10.2,
-    "page_change": -4
+    "category": 24,
+    "lead": 1.2,
+    "relevance": 4,
+    "freshness": 19.8,
+    "corroborated": 10
    },
-   "keywords": [],
+   "keywords": [
+    "camp"
+   ],
    "shock_terms": [],
    "dedupe_match": null,
-   "dedupe_similarity": 0.1,
-   "id": "9471f3aa39d2",
-   "title": "[page changed] Federal Register \u2014 public inspection (HHS/CDC), pre-publication",
-   "url": "https://www.federalregister.gov/api/v1/public-inspection-documents/current.json",
-   "summary": "{\"count\":84,\"results\":[{\"agencies\":[{\"raw_name\":\"National Oceanic and Atmospheric Administration\",\"name\":\"National Oceanic and Atmospheric Administration\",\"id\":361,\"url\":\"https://www.federalregister.gov/agencies/national-oceanic-and-atmospheric-administration\",\"json_url\":\"https://www.federalregister.gov/api/v1/agencies/361\",\"parent_id\":54,\"slug\":\"national-oceanic-and-atmospheric-administration\"}],",
-   "kind": "page-change",
-   "source": "Federal Register \u2014 public inspection (HHS/CDC), pre-publication",
-   "source_id": "us-fedreg-pubinspect-hhs",
+   "dedupe_similarity": 0.17,
+   "id": "f6361a2fe106",
+   "title": "Ministry of Health Concludes Two-Day Integrated Health Camp for Staff",
+   "url": "http://localhost:8080/Ministry of Health Concludes Two-Day Integrated Health Camp for Staff",
+   "summary": "",
+   "kind": "item",
+   "source": "Uganda Ministry of Health",
+   "source_id": "ug-moh",
    "tier": 1,
-   "country": "REG",
-   "category": "advisory",
+   "country": "UG",
+   "category": "health",
    "segments": [
     "city",
-    "bush"
+    "bush",
+    "beach"
    ],
-   "first_seen": "2026-10-22T22:17+03:00",
-   "published": "2026-10-21",
-   "verdict": "OPEN THIS \u2014 tier-1 advisory page moved; content not auto-parsed, read it manually"
+   "first_seen": "2026-10-23T11:37+03:00",
+   "published": "2026-10-22",
+   "verdict": "STRONG \u2014 tier-1, upstream"
   },
   {
-   "score": 65.2,
+   "score": 96.2,
+   "components": {
+    "tier": 20,
+    "category": 14,
+    "lead": 8.4,
+    "relevance": 24,
+    "freshness": 19.8,
+    "corroborated": 10
+   },
+   "keywords": [
+    "adr",
+    "route",
+    "airline",
+    "flight"
+   ],
+   "shock_terms": [],
+   "dedupe_match": null,
+   "dedupe_similarity": 0.17,
+   "id": "b02acf8725dd",
+   "title": "Iberia Express Moves Manchester Service to Mainline From late-Oct 2026",
+   "url": "https://www.aeroroutes.com/eng/261022-ibnw26man",
+   "summary": "Published at 2100PDT 22OCT26 / 0400GMT 23OCT26 Iberia at the launch of Northern winter 2026/27 season is adjusting service on Madrid \u2013 Manchester route, with mainline service replacing current Iberia Express operation. From 25OCT26, the airline continues to operate 3 weekly flights. IB987 MAD1130 \u2013 1305MAN 320 2 IB987 MAD1200 \u2013 1335MAN 320 1 IB987 MAD1220 \u2013 1355MAN 320 4 IB988 MAN1345 \u2013 1715MAD 32",
+   "kind": "item",
+   "source": "AeroRoutes schedule filings",
+   "source_id": "aeroroutes",
+   "tier": 2,
+   "country": "GLOBAL",
+   "category": "aviation-tracker",
+   "segments": [
+    "city",
+    "bush",
+    "beach"
+   ],
+   "first_seen": "2026-10-23T11:37+03:00",
+   "published": "2026-10-23",
+   "verdict": "CONSIDER"
+  },
+  {
+   "score": 93.4,
    "components": {
     "tier": 40,
     "category": 12,
     "lead": 3.6,
-    "relevance": 0,
-    "freshness": 19.6,
-    "undated": -6,
-    "page_change": -4
+    "relevance": 8,
+    "freshness": 19.8,
+    "corroborated": 10
    },
-   "keywords": [],
+   "keywords": [
+    "route"
+   ],
    "shock_terms": [],
    "dedupe_match": null,
    "dedupe_similarity": 0.0,
-   "id": "af3d1c22a004",
-   "title": "[page changed] Airlink news",
-   "url": "https://www.flyairlink.com/",
-   "summary": "Request unsuccessful. Incapsula incident ID: 1024000110568041418-223888128287441637",
-   "kind": "page-change",
-   "source": "Airlink news",
-   "source_id": "air-airlink",
+   "id": "3e9d6b6b7185",
+   "title": "Meer premiumcapaciteit op KLM-vluchten naar Aruba en Bonaire deze winter",
+   "url": "https://nieuws.klm.com/meer-premium-capaciteit-op-klm-vluchten-naar-aruba-en-bonaire-deze-winter",
+   "summary": "KLM biedt reizigers naar Aruba en Bonaire deze winter meer mogelijkheden voor extra comfort. Vanaf 25 oktober zet de luchtvaartmaatschappij op de route naar Aruba en Bonaire haar Boeing 777 en Boeing 787-10 in. Deze toestellen beschikken over meer capaciteit in zowel World Business Class als Premium Comfort Class, waardoor reizigers kunnen profiteren van een nog comfortabelere reiservaring naar be",
+   "kind": "item",
+   "source": "KLM/Air France newsroom",
+   "source_id": "air-klm",
    "tier": 1,
-   "country": "REG",
+   "country": "GLOBAL",
    "category": "airline",
    "segments": [
     "city",
     "bush",
     "beach"
    ],
-   "first_seen": "2026-10-23T06:46+03:00",
-   "published": null,
-   "verdict": "OPEN THIS \u2014 tier-1 airline page moved; content not auto-parsed, read it manually"
-  },
-  {
-   "score": 105.4,
-   "components": {
-    "tier": 40,
-    "category": 7,
-    "lead": 16.8,
-    "relevance": 12,
-    "freshness": 19.6,
-    "corroborated": 10
-   },
-   "keywords": [
-    "flight",
-    "traffic",
-    "passenger"
-   ],
-   "shock_terms": [],
-   "dedupe_match": null,
-   "dedupe_similarity": 0.11,
-   "id": "a63dd9a9ad96",
-   "title": "Air Traffic Analysis: May 2026",
-   "url": "https://www.kaa.go.ke/air-traffic-analysis-may-2026",
-   "summary": "A busier May across the network, with more passengers, more flights and more cargo than a year earlier.",
-   "kind": "item",
-   "source": "KAA tenders",
-   "source_id": "ke-kaa-tenders",
-   "tier": 1,
-   "country": "KE",
-   "category": "tender",
-   "segments": [
-    "city",
-    "bush",
-    "beach"
-   ],
-   "first_seen": "2026-10-23T06:46+03:00",
-   "published": "2026-10-22",
+   "first_seen": "2026-10-23T11:36+03:00",
+   "published": "2026-10-23",
    "verdict": "STRONG \u2014 tier-1, upstream"
   },
   {
-   "score": 99.4,
+   "score": 92.2,
    "components": {
     "tier": 40,
-    "category": 13,
-    "lead": 4.8,
+    "category": 24,
+    "lead": 2.4,
     "relevance": 12,
-    "freshness": 19.6,
-    "corroborated": 10
-   },
-   "keywords": [
-    "flight",
-    "traffic",
-    "passenger"
-   ],
-   "shock_terms": [],
-   "dedupe_match": null,
-   "dedupe_similarity": 0.11,
-   "id": "cb466d18fc53",
-   "title": "Air Traffic Analysis: May 2026",
-   "url": "https://www.kaa.go.ke/air-traffic-analysis-may-2026",
-   "summary": "A busier May across the network, with more passengers, more flights and more cargo than a year earlier.",
-   "kind": "item",
-   "source": "Kenya Airports Authority",
-   "source_id": "ke-kaa",
-   "tier": 1,
-   "country": "KE",
-   "category": "aviation",
-   "segments": [
-    "city",
-    "bush",
-    "beach"
-   ],
-   "first_seen": "2026-10-23T06:47+03:00",
-   "published": "2026-10-22",
-   "verdict": "STRONG \u2014 tier-1, upstream"
-  },
-  {
-   "score": 90.3,
-   "components": {
-    "tier": 40,
-    "category": 9,
-    "lead": 16.8,
-    "relevance": 16,
-    "freshness": 14.5,
+    "freshness": 19.8,
     "undated": -6
    },
    "keywords": [
-    "vat",
-    "hotel",
-    "resort"
+    "ebola"
    ],
    "shock_terms": [],
    "dedupe_match": null,
-   "dedupe_similarity": 0.0,
-   "id": "a4237a736dab",
-   "title": "IHG Hotels & Resorts Partners with American Express to Elevate Premium Travel Experiences for Card Members in Mainland China",
-   "url": "https://www.ihgplc.com/en/news-and-media/news-releases/2026/ihg-hotels-and-resorts-partners-with-american-express-to-elevate-premium-travel-experiences-for-card-members-in-mainland-china",
+   "dedupe_similarity": 0.2,
+   "id": "7eee448d304c",
+   "title": "Emergency 23 October 2026 | Feature Story Ebola response: Strengthening treatment and preserving essential care",
+   "url": "https://www.afro.who.int/countries/democratic-republic-of-congo/news/ebola-response-strengthening-treatment-and-preserving-essential-care",
    "summary": "",
    "kind": "item",
-   "source": "IHG news",
-   "source_id": "dev-ihg",
+   "source": "WHO AFRO \u2014 Kenya country newsroom",
+   "source_id": "who-afro-kenya",
    "tier": 1,
-   "country": "GLOBAL",
-   "category": "hotel-group",
+   "country": "KE",
+   "category": "health",
    "segments": [
-    "city",
     "bush",
+    "city",
     "beach"
    ],
-   "first_seen": "2026-10-23T02:06+03:00",
+   "first_seen": "2026-10-23T11:37+03:00",
    "published": null,
    "verdict": "STRONG \u2014 tier-1, upstream"
   },
   {
-   "score": 88.0,
+   "score": 92.2,
+   "components": {
+    "tier": 40,
+    "category": 24,
+    "lead": 2.4,
+    "relevance": 12,
+    "freshness": 19.8,
+    "undated": -6
+   },
+   "keywords": [
+    "ebola"
+   ],
+   "shock_terms": [],
+   "dedupe_match": null,
+   "dedupe_similarity": 0.2,
+   "id": "eef0a1e0e59e",
+   "title": "Emergency 23 October 2026 | Feature Story Ebola response: Strengthening treatment and preserving essential care",
+   "url": "https://www.afro.who.int/countries/democratic-republic-of-congo/news/ebola-response-strengthening-treatment-and-preserving-essential-care",
+   "summary": "",
+   "kind": "item",
+   "source": "WHO AFRO \u2014 Rwanda country newsroom",
+   "source_id": "who-afro-rwanda",
+   "tier": 1,
+   "country": "RW",
+   "category": "health",
+   "segments": [
+    "bush",
+    "city",
+    "beach"
+   ],
+   "first_seen": "2026-10-23T11:37+03:00",
+   "published": null,
+   "verdict": "STRONG \u2014 tier-1, upstream"
+  },
+  {
+   "score": 92.2,
+   "components": {
+    "tier": 40,
+    "category": 24,
+    "lead": 2.4,
+    "relevance": 12,
+    "freshness": 19.8,
+    "undated": -6
+   },
+   "keywords": [
+    "ebola"
+   ],
+   "shock_terms": [],
+   "dedupe_match": null,
+   "dedupe_similarity": 0.2,
+   "id": "9664b7a341fe",
+   "title": "Emergency 23 October 2026 | Feature Story Ebola response: Strengthening treatment and preserving essential care",
+   "url": "https://www.afro.who.int/countries/democratic-republic-of-congo/news/ebola-response-strengthening-treatment-and-preserving-essential-care",
+   "summary": "",
+   "kind": "item",
+   "source": "WHO AFRO \u2014 Uganda country newsroom",
+   "source_id": "who-afro-uganda",
+   "tier": 1,
+   "country": "UG",
+   "category": "health",
+   "segments": [
+    "bush",
+    "city",
+    "beach"
+   ],
+   "first_seen": "2026-10-23T11:37+03:00",
+   "published": null,
+   "verdict": "STRONG \u2014 tier-1, upstream"
+  },
+  {
+   "score": 88.2,
    "components": {
     "tier": 20,
     "category": 14,
     "lead": 8.4,
     "relevance": 16,
-    "freshness": 19.6,
+    "freshness": 19.8,
     "corroborated": 10
    },
    "keywords": [
@@ -389,10 +337,10 @@
    "shock_terms": [],
    "dedupe_match": null,
    "dedupe_similarity": 0.08,
-   "id": "8f6032e07b7a",
-   "title": "AirBorneo 4Q26 Kuching \u2013 Singapore Service Reductions",
-   "url": "https://www.aeroroutes.com/eng/261022-my4q26sin",
-   "summary": "Published at 1845PDT 22OCT26 / 0145GMT 23OCT26 AirBorneo in the fourth quarter of 2026 schedules service reductions on Kuching \u2013 Singapore route. From 25OCT26 to 31DEC26, the airline schedules 4 weekly flights, instead of 7. MY385 KCH1935 \u2013 2110SIN 738 x157 MY386 SIN2200 \u2013 2335KCH 738 x157",
+   "id": "7f92d350d83c",
+   "title": "TAAG Adds Dakar / Praia From Dec 2026",
+   "url": "https://www.aeroroutes.com/eng/261022-dtdec26dssrai",
+   "summary": "Published at 2315PDT 22OCT26 / 0615GMT 23OCT26 TAAG Angola Airlines from December 2026 plans to launch regular scheduled service to Senegal and Cape Verde, where the airline schedules Luanda \u2013 Dakar \u2013 Praia flights. Airbus A220-300 aircraft will serve this route from 14DEC26, twice weekly. DT502 NBJ1150 \u2013 1640DSS1750 \u2013 1815RAI 223 16 DT503 RAI1155 \u2013 1420DSS1525 \u2013 2215NBJ 223 27",
    "kind": "item",
    "source": "AeroRoutes schedule filings",
    "source_id": "aeroroutes",
@@ -404,583 +352,334 @@
     "bush",
     "beach"
    ],
-   "first_seen": "2026-10-23T06:48+03:00",
+   "first_seen": "2026-10-23T11:37+03:00",
    "published": "2026-10-23",
    "verdict": "CONSIDER"
   },
   {
-   "score": 86.9,
+   "score": 88.2,
    "components": {
-    "tier": 40,
-    "category": 32,
-    "lead": 2.4,
-    "relevance": 4,
-    "freshness": 14.5,
-    "undated": -6
+    "tier": 20,
+    "category": 14,
+    "lead": 8.4,
+    "relevance": 16,
+    "freshness": 19.8,
+    "corroborated": 10
    },
    "keywords": [
-    "summit"
+    "route",
+    "airline",
+    "flight"
    ],
    "shock_terms": [],
    "dedupe_match": null,
-   "dedupe_similarity": 0.22,
-   "id": "4afcd5ce07d0",
-   "title": "U.S. Remarks on Bilateral Health Cooperation at the 2026 Trust Summit, Nairobi, Kenya",
-   "url": "https://ke.usembassy.gov/u-s-remarks-on-bilateral-health-cooperation-at-the-2026-trust-summit-nairobi-kenya",
-   "summary": "",
+   "dedupe_similarity": 0.25,
+   "id": "ccd947eec719",
+   "title": "IndiGo Jan 2027 Amsterdam Service Increases",
+   "url": "https://www.aeroroutes.com/eng/261022-6ejan27ams",
+   "summary": "Published at 2230PDT 22OCT26 / 0530GMT 23OCT26 Indian low-cost carrier IndiGo this week continues to revise planned Mumbai \u2013 Amsterdam route for Northern winter 2026/27 season. AeroRoutes on 14OCT26 reported the carrier maintains 7 weekly for the period of 16DEC26 \u2013 27MAR27, however this should\u2019ve been corrected to 16DEC26 \u2013 31DEC26. As of 22OCT26, IndiGo maintains 7 weekly flights until 16JAN27, ",
    "kind": "item",
-   "source": "US Embassy Nairobi \u2014 alerts & messages",
-   "source_id": "ke-usembassy-alerts",
-   "tier": 1,
-   "country": "KE",
-   "category": "advisory",
+   "source": "AeroRoutes schedule filings",
+   "source_id": "aeroroutes",
+   "tier": 2,
+   "country": "GLOBAL",
+   "category": "aviation-tracker",
    "segments": [
     "city",
     "bush",
     "beach"
    ],
-   "first_seen": "2026-10-23T02:06+03:00",
-   "published": null,
+   "first_seen": "2026-10-23T11:37+03:00",
+   "published": "2026-10-23",
    "verdict": "CONSIDER"
   },
   {
-   "score": 86.3,
+   "score": 88.2,
    "components": {
-    "tier": 40,
-    "category": 17,
-    "lead": 16.8,
-    "relevance": 4,
-    "freshness": 14.5,
-    "undated": -6
+    "tier": 20,
+    "category": 14,
+    "lead": 8.4,
+    "relevance": 16,
+    "freshness": 19.8,
+    "corroborated": 10
    },
    "keywords": [
-    "tourism"
+    "route",
+    "airline",
+    "flight"
    ],
    "shock_terms": [],
    "dedupe_match": null,
-   "dedupe_similarity": 0.14,
-   "id": "3a29a5a9d782",
-   "title": "WEBINAR DEPLOYTOUR Beyond Borders: Tourism, Data & Skills",
-   "url": "https://transition-pathways.europa.eu/tourism/events/webinar-deploytour-beyond-borders-tourism-data-skills",
+   "dedupe_similarity": 0.08,
+   "id": "0b321607f6e1",
+   "title": "Greater Bay Airlines Increases Hohhet Flights in Nov 2026",
+   "url": "https://www.aeroroutes.com/eng/261022-hbnov26het",
+   "summary": "Published at 2145PDT 22OCT26 / 0445GMT 23OCT26 Hong Kong\u2019s Greater Bay Airlines in November 2026 schedules service increase on Hong Kong \u2013 Hohhet route, as the carrier schedules 2nd weekly flight from 28OCT26 to 29NOV26. Boeing 737-800 aircraft operates this route. HB920 HKG1730 \u2013 2100HET 738 37 HB921 HET2200 \u2013 0115+1HKG 738 37 For the moment the airline only lists this service until 29NOV26.",
+   "kind": "item",
+   "source": "AeroRoutes schedule filings",
+   "source_id": "aeroroutes",
+   "tier": 2,
+   "country": "GLOBAL",
+   "category": "aviation-tracker",
+   "segments": [
+    "city",
+    "bush",
+    "beach"
+   ],
+   "first_seen": "2026-10-23T11:37+03:00",
+   "published": "2026-10-23",
+   "verdict": "CONSIDER"
+  },
+  {
+   "score": 85.0,
+   "components": {
+    "tier": 40,
+    "category": 24,
+    "lead": 1.2,
+    "relevance": 0,
+    "freshness": 19.8
+   },
+   "keywords": [],
+   "shock_terms": [],
+   "dedupe_match": null,
+   "dedupe_similarity": 0.0,
+   "id": "fea5f171aa03",
+   "title": "EMPOWER PROJECT TRANSITION EVENT",
+   "url": "http://localhost:8080/EMPOWER PROJECT TRANSITION EVENT",
    "summary": "",
    "kind": "item",
-   "source": "EU Tourism Transition Pathway \u2014 legislation & guidance",
-   "source_id": "eu-tourism-pathway",
+   "source": "Uganda Ministry of Health \u2014 news",
+   "source_id": "ug-moh-news",
    "tier": 1,
-   "country": "REG",
-   "category": "regulator",
+   "country": "UG",
+   "category": "health",
+   "segments": [
+    "city",
+    "bush"
+   ],
+   "first_seen": "2026-10-23T11:37+03:00",
+   "published": "2026-10-21",
+   "verdict": "CONSIDER"
+  },
+  {
+   "score": 85.0,
+   "components": {
+    "tier": 40,
+    "category": 24,
+    "lead": 1.2,
+    "relevance": 0,
+    "freshness": 19.8
+   },
+   "keywords": [],
+   "shock_terms": [],
+   "dedupe_match": null,
+   "dedupe_similarity": 0.0,
+   "id": "aa2e04d32425",
+   "title": "EMPOWER PROJECT TRANSITION EVENT",
+   "url": "http://localhost:8080/EMPOWER PROJECT TRANSITION EVENT",
+   "summary": "",
+   "kind": "item",
+   "source": "Uganda Ministry of Health",
+   "source_id": "ug-moh",
+   "tier": 1,
+   "country": "UG",
+   "category": "health",
+   "segments": [
+    "city",
+    "bush",
+    "beach"
+   ],
+   "first_seen": "2026-10-23T11:37+03:00",
+   "published": "2026-10-21",
+   "verdict": "CONSIDER"
+  },
+  {
+   "score": 84.2,
+   "components": {
+    "tier": 20,
+    "category": 14,
+    "lead": 8.4,
+    "relevance": 12,
+    "freshness": 19.8,
+    "corroborated": 10
+   },
+   "keywords": [
+    "route",
+    "franc"
+   ],
+   "shock_terms": [],
+   "dedupe_match": null,
+   "dedupe_similarity": 0.17,
+   "id": "27b90a0e50af",
+   "title": "Air Cote d\u2019Ivoire / Air France Launches Codeshare Partnership in NW26",
+   "url": "https://www.aeroroutes.com/eng/261023-hfafcodeshare",
+   "summary": "Published at 0130PDT / 0830GMT 23OCT26 Air Cote d\u2019Ivoire and Air France at the launch of Northern winter 2026/27 season plans to launch reciprocal codeshare partnership. From 25OCT26, the codeshare service will cover Paris Charles de Gaulle \u2013 Abidjan route with following schedules. HF177/AF7180 CDG0800 \u2013 1340ABJ 339 x135 HF179/AF7175 CDG1055 \u2013 1635ABJ 339 x246 AF702/HF1702 CDG1400 \u2013 1935ABJ 77W D ",
+   "kind": "item",
+   "source": "AeroRoutes schedule filings",
+   "source_id": "aeroroutes",
+   "tier": 2,
+   "country": "GLOBAL",
+   "category": "aviation-tracker",
+   "segments": [
+    "city",
+    "bush",
+    "beach"
+   ],
+   "first_seen": "2026-10-23T11:37+03:00",
+   "published": "2026-10-23",
+   "verdict": "CONSIDER"
+  },
+  {
+   "score": 84.2,
+   "components": {
+    "tier": 20,
+    "category": 14,
+    "lead": 8.4,
+    "relevance": 12,
+    "freshness": 19.8,
+    "corroborated": 10
+   },
+   "keywords": [
+    "route",
+    "flight"
+   ],
+   "shock_terms": [],
+   "dedupe_match": null,
+   "dedupe_similarity": 0.17,
+   "id": "d301bf989bd4",
+   "title": "Royal Jordanian Removes Planned Tashkent Service Increase in NW26",
+   "url": "https://www.aeroroutes.com/eng/261023-rjnw26tas",
+   "summary": "Published at 0045PDT / 0745GMT 23OCT26 Royal Jordanian in recent schedule update revised Amman \u2013 Tashkent service for Northern winter 2026/27 season. Initially filed 3rd weekly flight from 30OCT26 is no longer in effect. During winter season, this route will be operated by Airbus A320neo, instead of A319/320/Embraer E195-E2. RJ196 AMM2205 \u2013 0450+1TAS 32N 2 RJ196 AMM2245 \u2013 0530+1TAS 32N 6 RJ197 TAS",
+   "kind": "item",
+   "source": "AeroRoutes schedule filings",
+   "source_id": "aeroroutes",
+   "tier": 2,
+   "country": "GLOBAL",
+   "category": "aviation-tracker",
+   "segments": [
+    "city",
+    "bush",
+    "beach"
+   ],
+   "first_seen": "2026-10-23T11:37+03:00",
+   "published": "2026-10-23",
+   "verdict": "CONSIDER"
+  },
+  {
+   "score": 84.2,
+   "components": {
+    "tier": 20,
+    "category": 14,
+    "lead": 8.4,
+    "relevance": 12,
+    "freshness": 19.8,
+    "corroborated": 10
+   },
+   "keywords": [
+    "route",
+    "flight"
+   ],
+   "shock_terms": [],
+   "dedupe_match": null,
+   "dedupe_similarity": 0.08,
+   "id": "92c8e3afe94b",
+   "title": "Royal Jordanian Plans Beijing late-Jan 2027 Launch",
+   "url": "https://www.aeroroutes.com/eng/261023-rj1q27pek",
+   "summary": "Published at 0000PDT / 0700GMT 23OCT26 Royal Jordanian in late-January 2027 plans to launch new route to China, as the carrier schedules 2 weekly Amman \u2013 Beijing Capital flights from 26JAN27. Boeing 787-8 to operate this route. RJ186 AMM0040 \u2013 1435PEK 788 5 RJ184 AMM1040 \u2013 0035+1PEK 788 2 RJ185 PEK0315 \u2013 0905AMM 788 3 RJ187 PEK1735 \u2013 2325AMM 788 5 Service to increase to 4 weekly during summer seas",
+   "kind": "item",
+   "source": "AeroRoutes schedule filings",
+   "source_id": "aeroroutes",
+   "tier": 2,
+   "country": "GLOBAL",
+   "category": "aviation-tracker",
+   "segments": [
+    "city",
+    "bush",
+    "beach"
+   ],
+   "first_seen": "2026-10-23T11:37+03:00",
+   "published": "2026-10-23",
+   "verdict": "CONSIDER"
+  },
+  {
+   "score": 80.2,
+   "components": {
+    "tier": 40,
+    "category": 24,
+    "lead": 2.4,
+    "relevance": 0,
+    "freshness": 19.8,
+    "undated": -6
+   },
+   "keywords": [],
+   "shock_terms": [],
+   "dedupe_match": null,
+   "dedupe_similarity": 0.14,
+   "id": "85319dfb1acf",
+   "title": "How Uganda is bringing malaria care closer to every family",
+   "url": "https://www.afro.who.int/countries/uganda/news/how-uganda-bringing-malaria-care-closer-every-family",
+   "summary": "",
+   "kind": "item",
+   "source": "WHO AFRO \u2014 Uganda country newsroom",
+   "source_id": "who-afro-uganda",
+   "tier": 1,
+   "country": "UG",
+   "category": "health",
    "segments": [
     "bush",
-    "beach",
-    "city"
+    "city",
+    "beach"
    ],
-   "first_seen": "2026-10-23T02:06+03:00",
+   "first_seen": "2026-10-23T11:37+03:00",
    "published": null,
    "verdict": "CONSIDER"
   },
   {
-   "score": 84.5,
+   "score": 79.8,
    "components": {
     "tier": 20,
-    "category": 5,
-    "lead": 1.2,
-    "relevance": 20,
-    "freshness": 10.3,
+    "category": 4,
+    "lead": 0.0,
+    "relevance": 8,
+    "freshness": 19.8,
     "corroborated": 10,
     "shock": 18
    },
    "keywords": [
-    "strike",
-    "tourism",
-    "booking",
-    "operator"
+    "strike"
    ],
    "shock_terms": [
     "strike"
    ],
    "dedupe_match": null,
-   "dedupe_similarity": 0.08,
-   "id": "3cac062609cc",
-   "title": "Saudi Strikes Spill Over Into Gulf Tourism, Operators Say",
-   "url": "https://skift.com/2026/10/22/saudi-strikes-spill-over-into-gulf-tourism-operators-say",
-   "summary": "Houthi strikes are measurably cutting Saudi demand, but the UAE\u2019s damage so far shows up in operator sentiment and forward bookings more than in the data. The winter season will test whether travelers view the Gulf as a single risk.",
+   "dedupe_similarity": 0.06,
+   "id": "6981deb8b8ce",
+   "title": "Barker thrilled as Doumbia ends drought",
+   "url": "https://dailynews.co.tz/barker-thrilled-as-doumbia-ends-drought",
+   "summary": "DAR ES SALAAM: THE Malian forward Ibrahim Doumbia ends his scoring frustration with a brace in Simba\u2019s 6-1 demolition of 15 de Agosto, putting the Reds in a commanding position ahead of Sunday\u2019s return leg in Dar es Salaam. Simba striker Doumbia finally found his scoring touch, ending his goal drought since the start of \u2026 The post Barker thrilled as Doumbia ends drought appeared first on Daily New",
    "kind": "item",
-   "source": "Skift",
-   "source_id": "tp-skift",
+   "source": "Daily News (Tanzania)",
+   "source_id": "np-dailynews-tz",
    "tier": 2,
-   "country": "GLOBAL",
-   "category": "trade",
+   "country": "TZ",
+   "category": "press",
    "segments": [
     "city",
     "bush",
     "beach"
    ],
-   "first_seen": "2026-10-22T22:18+03:00",
-   "published": "2026-10-22",
-   "verdict": "CONSIDER"
-  },
-  {
-   "score": 84.0,
-   "components": {
-    "tier": 20,
-    "category": 14,
-    "lead": 8.4,
-    "relevance": 12,
-    "freshness": 19.6,
-    "corroborated": 10
-   },
-   "keywords": [
-    "route",
-    "flight"
-   ],
-   "shock_terms": [],
-   "dedupe_match": null,
-   "dedupe_similarity": 0.0,
-   "id": "1b9dac73838b",
-   "title": "SAS 1Q27 Troms\u00f8 \u2013 Svalbard Service Adjustment",
-   "url": "https://www.aeroroutes.com/eng/261022-sk1q27lyr",
-   "summary": "Published at 1715PDT 22OCT26 / 0015GMT 23OCT26 SAS in the first quarter of 2027 adjusts seasonal increase on Troms\u00f8 \u2013 Longyearbyen (Svalbard) route. The 3rd weekly flight will be offered from 06FEB27 to 18MAR27 with Airbus A320neo aircraft. In the first quarter of 2026, the 3rd weekly flight commenced from 20JAN26 to 28MAR26. SK4424 TOS1215 \u2013 1410LYR 32N 246 SK4425 LYR1455 \u2013 1635TOS 32N 246",
-   "kind": "item",
-   "source": "AeroRoutes schedule filings",
-   "source_id": "aeroroutes",
-   "tier": 2,
-   "country": "GLOBAL",
-   "category": "aviation-tracker",
-   "segments": [
-    "city",
-    "bush",
-    "beach"
-   ],
-   "first_seen": "2026-10-23T06:48+03:00",
+   "first_seen": "2026-10-23T11:37+03:00",
    "published": "2026-10-23",
    "verdict": "CONSIDER"
   },
   {
-   "score": 84.0,
-   "components": {
-    "tier": 20,
-    "category": 14,
-    "lead": 8.4,
-    "relevance": 12,
-    "freshness": 19.6,
-    "corroborated": 10
-   },
-   "keywords": [
-    "route",
-    "flight"
-   ],
-   "shock_terms": [],
-   "dedupe_match": null,
-   "dedupe_similarity": 0.08,
-   "id": "356d3cb761a8",
-   "title": "Air China 4Q26 Europe Service Reductions \u2013 22OCT26",
-   "url": "https://www.aeroroutes.com/eng/261022-ca4q26eu",
-   "summary": "Published at 1630PDT / 2330GMT 22OCT26 Air China in recent schedule update further reduces selected European routes for the fourth quarter of 2026. Further reductions are listed in the parenthesis below (for flights to/from Beijing Capital), as of 22OCT26. Beijing Capital \u2013 Budapest 25OCT26 \u2013 05JAN27 Reduce from 7 to 6 weekly (5 weekly 24NOV26 \u2013 14DEC26), 787-9 Beijing Capital \u2013 Geneva 25OCT26 \u2013 0",
-   "kind": "item",
-   "source": "AeroRoutes schedule filings",
-   "source_id": "aeroroutes",
-   "tier": 2,
-   "country": "GLOBAL",
-   "category": "aviation-tracker",
-   "segments": [
-    "city",
-    "bush",
-    "beach"
-   ],
-   "first_seen": "2026-10-23T06:48+03:00",
-   "published": "2026-10-23",
-   "verdict": "CONSIDER"
-  },
-  {
-   "score": 82.6,
-   "components": {
-    "tier": 40,
-    "category": 24,
-    "lead": 2.4,
-    "relevance": 12,
-    "freshness": 10.2,
-    "undated": -6
-   },
-   "keywords": [
-    "ebola"
-   ],
-   "shock_terms": [],
-   "dedupe_match": null,
-   "dedupe_similarity": 0.2,
-   "id": "f125ec44b69d",
-   "title": "Emergency 22 October 2026 | Feature Story At the border, the Democratic Republic of the Congo and South Sudan strengthen Ebola surveillance",
-   "url": "https://www.afro.who.int/countries/democratic-republic-of-congo/news/border-democratic-republic-congo-and-south-sudan-strengthen-ebola-surveillance",
-   "summary": "",
-   "kind": "item",
-   "source": "WHO AFRO \u2014 Kenya country newsroom",
-   "source_id": "who-afro-kenya",
-   "tier": 1,
-   "country": "KE",
-   "category": "health",
-   "segments": [
-    "bush",
-    "city",
-    "beach"
-   ],
-   "first_seen": "2026-10-22T22:17+03:00",
-   "published": null,
-   "verdict": "CONSIDER"
-  },
-  {
-   "score": 82.6,
-   "components": {
-    "tier": 40,
-    "category": 24,
-    "lead": 2.4,
-    "relevance": 12,
-    "freshness": 10.2,
-    "undated": -6
-   },
-   "keywords": [
-    "ebola"
-   ],
-   "shock_terms": [],
-   "dedupe_match": null,
-   "dedupe_similarity": 0.23,
-   "id": "67d3e38368b7",
-   "title": "Emergency 22 October 2026 | Feature Story Continuity of care in Lita: A hospital transformed by the Ebola response",
-   "url": "https://www.afro.who.int/countries/democratic-republic-of-congo/news/continuity-care-lita-hospital-transformed-ebola-response",
-   "summary": "",
-   "kind": "item",
-   "source": "WHO AFRO \u2014 Kenya country newsroom",
-   "source_id": "who-afro-kenya",
-   "tier": 1,
-   "country": "KE",
-   "category": "health",
-   "segments": [
-    "bush",
-    "city",
-    "beach"
-   ],
-   "first_seen": "2026-10-22T22:17+03:00",
-   "published": null,
-   "verdict": "CONSIDER"
-  },
-  {
-   "score": 82.6,
-   "components": {
-    "tier": 40,
-    "category": 24,
-    "lead": 2.4,
-    "relevance": 12,
-    "freshness": 10.2,
-    "undated": -6
-   },
-   "keywords": [
-    "ebola"
-   ],
-   "shock_terms": [],
-   "dedupe_match": null,
-   "dedupe_similarity": 0.23,
-   "id": "c782aa04ecf6",
-   "title": "Emergency 22 October 2026 | Feature Story Continuity of care in Lita: A hospital transformed by the Ebola response",
-   "url": "https://www.afro.who.int/countries/democratic-republic-of-congo/news/continuity-care-lita-hospital-transformed-ebola-response",
-   "summary": "",
-   "kind": "item",
-   "source": "WHO AFRO \u2014 Rwanda country newsroom",
-   "source_id": "who-afro-rwanda",
-   "tier": 1,
-   "country": "RW",
-   "category": "health",
-   "segments": [
-    "bush",
-    "city",
-    "beach"
-   ],
-   "first_seen": "2026-10-22T22:17+03:00",
-   "published": null,
-   "verdict": "CONSIDER"
-  },
-  {
-   "score": 82.6,
-   "components": {
-    "tier": 40,
-    "category": 24,
-    "lead": 2.4,
-    "relevance": 12,
-    "freshness": 10.2,
-    "undated": -6
-   },
-   "keywords": [
-    "ebola"
-   ],
-   "shock_terms": [],
-   "dedupe_match": null,
-   "dedupe_similarity": 0.2,
-   "id": "f6af1e53ae4f",
-   "title": "Emergency 22 October 2026 | Feature Story At the border, the Democratic Republic of the Congo and South Sudan strengthen Ebola surveillance",
-   "url": "https://www.afro.who.int/countries/democratic-republic-of-congo/news/border-democratic-republic-congo-and-south-sudan-strengthen-ebola-surveillance",
-   "summary": "",
-   "kind": "item",
-   "source": "WHO AFRO \u2014 Rwanda country newsroom",
-   "source_id": "who-afro-rwanda",
-   "tier": 1,
-   "country": "RW",
-   "category": "health",
-   "segments": [
-    "bush",
-    "city",
-    "beach"
-   ],
-   "first_seen": "2026-10-22T22:17+03:00",
-   "published": null,
-   "verdict": "CONSIDER"
-  },
-  {
-   "score": 82.6,
-   "components": {
-    "tier": 40,
-    "category": 24,
-    "lead": 2.4,
-    "relevance": 12,
-    "freshness": 10.2,
-    "undated": -6
-   },
-   "keywords": [
-    "ebola"
-   ],
-   "shock_terms": [],
-   "dedupe_match": null,
-   "dedupe_similarity": 0.2,
-   "id": "9eddba621d65",
-   "title": "Emergency 22 October 2026 | Feature Story At the border, the Democratic Republic of the Congo and South Sudan strengthen Ebola surveillance",
-   "url": "https://www.afro.who.int/countries/democratic-republic-of-congo/news/border-democratic-republic-congo-and-south-sudan-strengthen-ebola-surveillance",
-   "summary": "",
-   "kind": "item",
-   "source": "WHO AFRO \u2014 Uganda country newsroom",
-   "source_id": "who-afro-uganda",
-   "tier": 1,
-   "country": "UG",
-   "category": "health",
-   "segments": [
-    "bush",
-    "city",
-    "beach"
-   ],
-   "first_seen": "2026-10-22T22:16+03:00",
-   "published": null,
-   "verdict": "CONSIDER"
-  },
-  {
-   "score": 82.6,
-   "components": {
-    "tier": 40,
-    "category": 24,
-    "lead": 2.4,
-    "relevance": 12,
-    "freshness": 10.2,
-    "undated": -6
-   },
-   "keywords": [
-    "ebola"
-   ],
-   "shock_terms": [],
-   "dedupe_match": null,
-   "dedupe_similarity": 0.23,
-   "id": "2c45fd1f61f1",
-   "title": "Emergency 22 October 2026 | Feature Story Continuity of care in Lita: A hospital transformed by the Ebola response",
-   "url": "https://www.afro.who.int/countries/democratic-republic-of-congo/news/continuity-care-lita-hospital-transformed-ebola-response",
-   "summary": "",
-   "kind": "item",
-   "source": "WHO AFRO \u2014 Uganda country newsroom",
-   "source_id": "who-afro-uganda",
-   "tier": 1,
-   "country": "UG",
-   "category": "health",
-   "segments": [
-    "bush",
-    "city",
-    "beach"
-   ],
-   "first_seen": "2026-10-22T22:16+03:00",
-   "published": null,
-   "verdict": "CONSIDER"
-  },
-  {
-   "score": 82.3,
-   "components": {
-    "tier": 40,
-    "category": 9,
-    "lead": 16.8,
-    "relevance": 8,
-    "freshness": 14.5,
-    "undated": -6
-   },
-   "keywords": [
-    "hotel",
-    "resort"
-   ],
-   "shock_terms": [],
-   "dedupe_match": null,
-   "dedupe_similarity": 0.0,
-   "id": "4eb8e79c4565",
-   "title": "IHG Hotels & Resorts hits 1,000 open hotels in Europe",
-   "url": "https://www.ihgplc.com/en/news-and-media/news-releases/2026/ihg-hotels-and-resorts-hits-1000-open-hotels-in-europe",
-   "summary": "",
-   "kind": "item",
-   "source": "IHG news",
-   "source_id": "dev-ihg",
-   "tier": 1,
-   "country": "GLOBAL",
-   "category": "hotel-group",
-   "segments": [
-    "city",
-    "bush",
-    "beach"
-   ],
-   "first_seen": "2026-10-23T02:06+03:00",
-   "published": null,
-   "verdict": "CONSIDER"
-  },
-  {
-   "score": 80.4,
-   "components": {
-    "tier": 40,
-    "category": 10,
-    "lead": 16.8,
-    "relevance": 0,
-    "freshness": 19.6,
-    "undated": -6
-   },
-   "keywords": [],
-   "shock_terms": [],
-   "dedupe_match": null,
-   "dedupe_similarity": 0.2,
-   "id": "afe151ffc383",
-   "title": "Speaker Oboth Calls for Coordinated Planning of Parliament\u2019s Work Thursday, 22 October 2026",
-   "url": "https://www.parliament.go.ug/news/4681/speaker-oboth-calls-coordinated-planning-parliaments-work",
-   "summary": "",
-   "kind": "item",
-   "source": "Parliament of Uganda",
-   "source_id": "ug-parliament",
-   "tier": 1,
-   "country": "UG",
-   "category": "legislature",
-   "segments": [
-    "city",
-    "bush",
-    "beach"
-   ],
-   "first_seen": "2026-10-23T06:46+03:00",
-   "published": null,
-   "verdict": "CONSIDER"
-  },
-  {
-   "score": 80.4,
-   "components": {
-    "tier": 40,
-    "category": 10,
-    "lead": 16.8,
-    "relevance": 0,
-    "freshness": 19.6,
-    "undated": -6
-   },
-   "keywords": [],
-   "shock_terms": [],
-   "dedupe_match": null,
-   "dedupe_similarity": 0.2,
-   "id": "29e3f1870425",
-   "title": "Justice Ministry and DPP on spot over diversion of Shs41 billion Thursday, 22 October 2026",
-   "url": "https://www.parliament.go.ug/news/4680/justice-ministry-and-dpp-spot-over-diversion-shs41-billion",
-   "summary": "",
-   "kind": "item",
-   "source": "Parliament of Uganda",
-   "source_id": "ug-parliament",
-   "tier": 1,
-   "country": "UG",
-   "category": "legislature",
-   "segments": [
-    "city",
-    "bush",
-    "beach"
-   ],
-   "first_seen": "2026-10-23T06:46+03:00",
-   "published": null,
-   "verdict": "CONSIDER"
-  },
-  {
-   "score": 80.0,
-   "components": {
-    "tier": 20,
-    "category": 14,
-    "lead": 8.4,
-    "relevance": 8,
-    "freshness": 19.6,
-    "corroborated": 10
-   },
-   "keywords": [
-    "adr"
-   ],
-   "shock_terms": [],
-   "dedupe_match": null,
-   "dedupe_similarity": 0.17,
-   "id": "acab7a4756bd",
-   "title": "Iberia Extends Privilege Style A330 Service to early-Jan 2027",
-   "url": "https://www.aeroroutes.com/eng/261022-ibnw26pvg",
-   "summary": "Published at 2015PDT 22OCT26 / 0315GMT 23OCT26 Iberia during Northern winter 2026/27 season continues to schedule leased Airbus A330-200 aircraft from Privilege Style, primarily serving The Americas. The leased aircraft is currently scheduled until early-January 2027. Madrid \u2013 Caracas 5 weekly until 10JAN27 Madrid \u2013 Santo Domingo 1 weekly (2 weekly from 01DEC26) until 07JAN27",
-   "kind": "item",
-   "source": "AeroRoutes schedule filings",
-   "source_id": "aeroroutes",
-   "tier": 2,
-   "country": "GLOBAL",
-   "category": "aviation-tracker",
-   "segments": [
-    "city",
-    "bush",
-    "beach"
-   ],
-   "first_seen": "2026-10-23T06:48+03:00",
-   "published": "2026-10-23",
-   "verdict": "CONSIDER"
-  },
-  {
-   "score": 80.0,
-   "components": {
-    "tier": 20,
-    "category": 14,
-    "lead": 8.4,
-    "relevance": 8,
-    "freshness": 19.6,
-    "corroborated": 10
-   },
-   "keywords": [
-    "route"
-   ],
-   "shock_terms": [],
-   "dedupe_match": null,
-   "dedupe_similarity": 0.17,
-   "id": "d4d215072fa4",
-   "title": "United NS27 Canada Service Increases \u2013 22OCT26",
-   "url": "https://www.aeroroutes.com/eng/261022-uans27ca",
-   "summary": "Published at 1800PDT 22OCT26 / 0100GMT 23OCT26 United today (22OCT26) filed planned service changes to Canada in Northern summer 2027 season, where the carrier adds 3 routes, previously highlighted in Air Canada\u2019s press release on its US service changes. Denver \u2013 Ottawa eff 29APR27 1 daily Embraer E175 (Skywest) UA5335 DEN1732 \u2013 2318YOW E7W D UA4716 YOW0800 \u2013 1017DEN E7W D Denver \u2013 Quebec City eff",
-   "kind": "item",
-   "source": "AeroRoutes schedule filings",
-   "source_id": "aeroroutes",
-   "tier": 2,
-   "country": "GLOBAL",
-   "category": "aviation-tracker",
-   "segments": [
-    "city",
-    "bush",
-    "beach"
-   ],
-   "first_seen": "2026-10-23T06:48+03:00",
-   "published": "2026-10-23",
-   "verdict": "CONSIDER"
-  },
-  {
-   "score": 79.6,
+   "score": 79.8,
    "components": {
     "tier": 20,
     "category": 4,
     "lead": 0.0,
     "relevance": 24,
-    "freshness": 19.6,
+    "freshness": 19.8,
     "undated": -6,
     "shock": 18
    },
@@ -993,8 +692,8 @@
    ],
    "dedupe_match": null,
    "dedupe_similarity": 0.33,
-   "id": "a4cd2bbe8931",
-   "title": "Africa Nigeria reports Ebola case as outbreak reaches West Africa 18 hours ago - 3 min read",
+   "id": "d7f7b7312f3d",
+   "title": "Africa Nigeria reports Ebola case as outbreak reaches West Africa 23 hours ago - 3 min read",
    "url": "https://www.thecitizen.co.tz/tanzania/news/africa/nigeria-reports-ebola-case-as-outbreak-reaches-west-africa-5641492",
    "summary": "",
    "kind": "item",
@@ -1008,136 +707,69 @@
     "bush",
     "beach"
    ],
-   "first_seen": "2026-10-23T06:48+03:00",
+   "first_seen": "2026-10-23T11:37+03:00",
    "published": null,
    "verdict": "CONSIDER"
   },
   {
-   "score": 78.9,
+   "score": 76.2,
    "components": {
     "tier": 20,
-    "category": 14,
-    "lead": 8.4,
-    "relevance": 12,
-    "freshness": 14.5,
-    "corroborated": 10
+    "category": 24,
+    "lead": 2.4,
+    "relevance": 20,
+    "freshness": 19.8,
+    "undated": -6,
+    "page_change": -4
    },
    "keywords": [
-    "route",
-    "flight"
+    "ebola",
+    "tourism",
+    "franc"
    ],
    "shock_terms": [],
    "dedupe_match": null,
-   "dedupe_similarity": 0.17,
-   "id": "0c6225bfc742",
-   "title": "Jazeera Resumes Kuwait City \u2013 Yerevan Service in NW26",
-   "url": "https://www.aeroroutes.com/eng/261022-j9nw26evn",
-   "summary": "Published at 1545PDT / 2245GMT 22OCT26 Jazeera Airways during Northern winter 2026/27 season plans to resume Kuwait City \u2013 Yerevan route, on board Airbus A320ceo/320neo aircraft. Service will operate from 03DEC26 with two weekly flights, increasing to 3 weekly from 22DEC26 to 16JAN27. This route was served twice weekly during Northern winter 2025/26 season. J9609 KWI0940 \u2013 1325EVN 320 246 J9610 EV",
-   "kind": "item",
-   "source": "AeroRoutes schedule filings",
-   "source_id": "aeroroutes",
+   "dedupe_similarity": 0.07,
+   "id": "30f46643bb5a",
+   "title": "[page changed] ProMED-mail",
+   "url": "https://promedmail.org/",
+   "summary": "Protecting Global Health, One Alert at a Time | ProMED Previous slide Next slide Protecting Global Health, One Alert at a Time ProMED: Your 24/7 early warning system for emerging infectious diseases worldwide. Subscribe ProMED's Weekly Pulse A snapshot of global health events from the past 7 days Latest Posts on ProMED All Date Title Fri Oct 23 2026 MYCOBACTERIA, NON-TUBERCULOUS - USA: CDC, MEDICA",
+   "kind": "page-change",
+   "source": "ProMED-mail",
+   "source_id": "promed",
    "tier": 2,
    "country": "GLOBAL",
-   "category": "aviation-tracker",
+   "category": "health",
    "segments": [
     "city",
     "bush",
     "beach"
    ],
-   "first_seen": "2026-10-23T02:07+03:00",
-   "published": "2026-10-23",
-   "verdict": "CONSIDER"
-  },
-  {
-   "score": 78.7,
-   "components": {
-    "tier": 40,
-    "category": 16,
-    "lead": 2.4,
-    "relevance": 0,
-    "freshness": 10.3,
-    "corroborated": 10
-   },
-   "keywords": [],
-   "shock_terms": [],
-   "dedupe_match": null,
-   "dedupe_similarity": 0.1,
-   "id": "192b498dd3bc",
-   "title": "National Standard Indicators",
-   "url": "https://www.ubos.org/2026/10/22/national-standard-indicators",
-   "summary": "The National Standard Indicator (NSI) Framework is structured hierarchically to ensure that it tracks Uganda\u2019s progress towards [\u2026] The post National Standard Indicators appeared first on Uganda Bureau of Statistics .",
-   "kind": "item",
-   "source": "UBOS statistical releases",
-   "source_id": "ug-ubos",
-   "tier": 1,
-   "country": "UG",
-   "category": "statistics",
-   "segments": [
-    "city",
-    "bush",
-    "beach"
-   ],
-   "first_seen": "2026-10-22T22:17+03:00",
-   "published": "2026-10-22",
-   "verdict": "CONSIDER"
-  },
-  {
-   "score": 77.4,
-   "components": {
-    "tier": 40,
-    "category": 32,
-    "lead": 1.2,
-    "relevance": 0,
-    "freshness": 10.2,
-    "undated": -6
-   },
-   "keywords": [],
-   "shock_terms": [],
-   "dedupe_match": null,
-   "dedupe_similarity": 0.2,
-   "id": "5f21102113f1",
-   "title": "French Polynesia - Level 1: Exercise Normal Precautions",
-   "url": "https://travel.state.gov/content/tsg_aem/us/en/home/international-travel/travel-advisories/destination.pyf.html",
-   "summary": "Exercise normal precaution in French Polynesia . Review the travel guidance section for additional information on travel to French Polynesia.",
-   "kind": "item",
-   "source": "US State Dept travel advisories (EA feed)",
-   "source_id": "adv-us-ea",
-   "tier": 1,
-   "country": "REG",
-   "category": "advisory",
-   "segments": [
-    "city",
-    "bush",
-    "beach"
-   ],
-   "first_seen": "2026-10-22T22:17+03:00",
+   "first_seen": "2026-10-23T11:37+03:00",
    "published": null,
    "verdict": "CONSIDER"
   },
   {
-   "score": 77.1,
+   "score": 74.4,
    "components": {
     "tier": 20,
     "category": 5,
     "lead": 3.6,
-    "relevance": 24,
-    "freshness": 14.5,
+    "relevance": 16,
+    "freshness": 19.8,
     "corroborated": 10
    },
    "keywords": [
-    "revpar",
-    "hotel",
-    "tourism",
-    "booking",
-    "operator"
+    "advisory",
+    "hotel"
    ],
    "shock_terms": [],
    "dedupe_match": null,
-   "dedupe_similarity": 0.12,
-   "id": "31cccf78ccfc",
-   "title": "Why wellness is your hotel\u2019s most important new booking driver",
-   "url": "https://www.hospitalitynet.org/opinion/4135058/why-wellness-is-your-hotels-most-important-new-booking-driver",
-   "summary": "With wellness tourism growing at 14.5% annually and spa-enabled hotels generating 108% higher TRevPAR, operators are urged to integrate wellness into booking strategy, not treat it as a cost centre.",
+   "dedupe_similarity": 0.17,
+   "id": "b9c96ca8f846",
+   "title": "The Bell Stays on Top",
+   "url": "https://www.hospitalitynet.org/news/4135051/the-bell-stays-on-top",
+   "summary": "Pertlink marks its 26th anniversary by repositioning as a hospitality technology and AI advisory, flagging AI discoverability as the defining challenge for hotels in 2027.",
    "kind": "item",
    "source": "Hospitality Net \u2014 Africa announcements",
    "source_id": "dev-hospitalitynet-africa",
@@ -1149,142 +781,466 @@
     "bush",
     "beach"
    ],
-   "first_seen": "2026-10-23T02:07+03:00",
-   "published": "2026-10-22",
-   "verdict": "CONSIDER"
-  },
-  {
-   "score": 76.0,
-   "components": {
-    "tier": 20,
-    "category": 14,
-    "lead": 8.4,
-    "relevance": 4,
-    "freshness": 19.6,
-    "corroborated": 10
-   },
-   "keywords": [
-    "airline"
-   ],
-   "shock_terms": [],
-   "dedupe_match": null,
-   "dedupe_similarity": 0.17,
-   "id": "b71a9c1c7b2a",
-   "title": "Philippine Airlines NW26 Asia Service Increases",
-   "url": "https://www.aeroroutes.com/eng/261022-prnw26as",
-   "summary": "Published at 1930PDT 22OCT26 / 0230GMT 23OCT26 Philippine Airlines earlier this year (in the second half of 2026) filed service increase on Manila \u2013 Shanghai Pu Dong for Northern winter 2026/27 season, which remains unchanged as of 22OCT26. Currently served 7 weekly, the airline from 25OCT26 will increase service to 14 weekly, with a mix of Airbus A321, A330-300 and 777-300ER. PR338 MNL0605 \u2013 0950",
-   "kind": "item",
-   "source": "AeroRoutes schedule filings",
-   "source_id": "aeroroutes",
-   "tier": 2,
-   "country": "GLOBAL",
-   "category": "aviation-tracker",
-   "segments": [
-    "city",
-    "bush",
-    "beach"
-   ],
-   "first_seen": "2026-10-23T06:48+03:00",
+   "first_seen": "2026-10-23T11:37+03:00",
    "published": "2026-10-23",
    "verdict": "CONSIDER"
   },
   {
-   "score": 74.9,
-   "components": {
-    "tier": 20,
-    "category": 14,
-    "lead": 8.4,
-    "relevance": 8,
-    "freshness": 14.5,
-    "corroborated": 10
-   },
-   "keywords": [
-    "route"
-   ],
-   "shock_terms": [],
-   "dedupe_match": null,
-   "dedupe_similarity": 0.17,
-   "id": "d58334706e0c",
-   "title": "Iran Air Tour NW26 Malaysia Operations",
-   "url": "https://www.aeroroutes.com/eng/261022-b9nw26my",
-   "summary": "Published at 1500PDT / 2200GMT 22OCT26 Iran Air Tour during Northern winter 2026/27 season continues to offer nonstop service to Malaysia. From 31OCT26, Airbus A310 continues to serve Tehran Imam Khomeini \u2013 Kuala Lumpur route on weekly basis. B99774 IKA2200 \u2013 1030+1KUL 310 6 B99775 KUL2355 \u2013 0325+1IKA 310 7",
-   "kind": "item",
-   "source": "AeroRoutes schedule filings",
-   "source_id": "aeroroutes",
-   "tier": 2,
-   "country": "GLOBAL",
-   "category": "aviation-tracker",
-   "segments": [
-    "city",
-    "bush",
-    "beach"
-   ],
-   "first_seen": "2026-10-23T02:07+03:00",
-   "published": "2026-10-23",
-   "verdict": "CONSIDER"
-  },
-  {
-   "score": 74.7,
+   "score": 74.4,
    "components": {
     "tier": 20,
     "category": 5,
-    "lead": 1.2,
-    "relevance": 24,
-    "freshness": 14.5,
+    "lead": 3.6,
+    "relevance": 16,
+    "freshness": 19.8,
     "corroborated": 10
    },
    "keywords": [
-    "eta",
+    "vat",
     "hotel",
-    "booking",
-    "opening",
-    "franc"
+    "booking"
    ],
    "shock_terms": [],
    "dedupe_match": null,
-   "dedupe_similarity": 0.12,
-   "id": "b8676a2a91cb",
-   "title": "Wyndham Courts AI Booking Agents in Push for Direct Bookings",
-   "url": "https://skift.com/2026/10/22/wyndham-courts-ai-booking-agents-in-push-for-direct-bookings",
-   "summary": "The Super 8 and La Quinta franchiser is opening its inventory to Meta's Muse, OpenAI, and Instinct. Morgan Stanley analysts think AI agents could cost hotel groups less per booking than online travel agencies do.",
+   "dedupe_similarity": 0.14,
+   "id": "f59d3bd45c03",
+   "title": "Hotel distribution in 2026: The GDS runs the business trip",
+   "url": "https://www.hospitalitynet.org/opinion/4135061/hotel-distribution-in-2026-the-gds-runs-the-business-trip",
+   "summary": "Sabre GDS hotel reservations grew 8% year-over-year in Q2, with corporate travel now 45% of its volume, as booking tools blend GDS rates with OTA prices on a single screen.",
    "kind": "item",
-   "source": "Skift",
-   "source_id": "tp-skift",
+   "source": "Hospitality Net \u2014 Africa announcements",
+   "source_id": "dev-hospitalitynet-africa",
    "tier": 2,
-   "country": "GLOBAL",
+   "country": "REG",
    "category": "trade",
    "segments": [
     "city",
     "bush",
     "beach"
    ],
-   "first_seen": "2026-10-23T02:07+03:00",
-   "published": "2026-10-22",
+   "first_seen": "2026-10-23T11:37+03:00",
+   "published": "2026-10-23",
    "verdict": "CONSIDER"
   },
   {
-   "score": 74.5,
+   "score": 73.2,
+   "components": {
+    "tier": 20,
+    "category": 5,
+    "lead": 2.4,
+    "relevance": 16,
+    "freshness": 19.8,
+    "corroborated": 10
+   },
+   "keywords": [
+    "advisory",
+    "hotel"
+   ],
+   "shock_terms": [],
+   "dedupe_match": null,
+   "dedupe_similarity": 0.17,
+   "id": "f1758dc7e4a7",
+   "title": "The Bell Stays on Top",
+   "url": "https://www.hospitalitynet.org/news/4135051/the-bell-stays-on-top",
+   "summary": "Pertlink marks its 26th anniversary by repositioning as a hospitality technology and AI advisory, flagging AI discoverability as the defining challenge for hotels in 2027.",
+   "kind": "item",
+   "source": "Hospitality Net: Africa openings",
+   "source_id": "dev-hospitalitynet-openings",
+   "tier": 2,
+   "country": "AFRICA",
+   "category": "trade",
+   "segments": [
+    "city",
+    "bush",
+    "beach"
+   ],
+   "first_seen": "2026-10-23T11:37+03:00",
+   "published": "2026-10-23",
+   "verdict": "CONSIDER"
+  },
+  {
+   "score": 73.2,
+   "components": {
+    "tier": 20,
+    "category": 5,
+    "lead": 2.4,
+    "relevance": 16,
+    "freshness": 19.8,
+    "corroborated": 10
+   },
+   "keywords": [
+    "vat",
+    "hotel",
+    "booking"
+   ],
+   "shock_terms": [],
+   "dedupe_match": null,
+   "dedupe_similarity": 0.14,
+   "id": "5d2d916bc02b",
+   "title": "Hotel distribution in 2026: The GDS runs the business trip",
+   "url": "https://www.hospitalitynet.org/opinion/4135061/hotel-distribution-in-2026-the-gds-runs-the-business-trip",
+   "summary": "Sabre GDS hotel reservations grew 8% year-over-year in Q2, with corporate travel now 45% of its volume, as booking tools blend GDS rates with OTA prices on a single screen.",
+   "kind": "item",
+   "source": "Hospitality Net: Africa openings",
+   "source_id": "dev-hospitalitynet-openings",
+   "tier": 2,
+   "country": "AFRICA",
+   "category": "trade",
+   "segments": [
+    "city",
+    "bush",
+    "beach"
+   ],
+   "first_seen": "2026-10-23T11:37+03:00",
+   "published": "2026-10-23",
+   "verdict": "CONSIDER"
+  },
+  {
+   "score": 72.2,
+   "components": {
+    "tier": 20,
+    "category": 4,
+    "lead": 2.4,
+    "relevance": 16,
+    "freshness": 19.8,
+    "corroborated": 10
+   },
+   "keywords": [
+    "tourism",
+    "summit",
+    "investment",
+    "opening"
+   ],
+   "shock_terms": [],
+   "dedupe_match": null,
+   "dedupe_similarity": 0.12,
+   "id": "3d8f2204e8c4",
+   "title": "KeNHA Moves to Verify Rironi-Mau Summit Costs Ahead of Phase 1 Opening",
+   "url": "https://www.kenyans.co.ke/news/128793-kenha-seeks-firm-verify-rironi-mau-summit-project-costs",
+   "summary": "The project is expected to support trade, tourism and investment in towns along the highway while creating employment opportunities during construction.",
+   "kind": "item",
+   "source": "Kenyans.co.ke news",
+   "source_id": "ke-kenyans",
+   "tier": 2,
+   "country": "KE",
+   "category": "press",
+   "segments": [
+    "city",
+    "bush",
+    "beach"
+   ],
+   "first_seen": "2026-10-23T11:37+03:00",
+   "published": "2026-10-23",
+   "verdict": "CONSIDER"
+  },
+  {
+   "score": 72.2,
+   "components": {
+    "tier": 20,
+    "category": 4,
+    "lead": 2.4,
+    "relevance": 16,
+    "freshness": 19.8,
+    "corroborated": 10
+   },
+   "keywords": [
+    "tax",
+    "eta"
+   ],
+   "shock_terms": [],
+   "dedupe_match": null,
+   "dedupe_similarity": 0.08,
+   "id": "46efa5cf623e",
+   "title": "Treasury to Scrap PAYE Relief for Employees in New Tax Plan",
+   "url": "https://www.kenyans.co.ke/news/128788-mbadi-reveals-plan-scrap-paye-relief-employees-under-new-tax-proposal",
+   "summary": "The latest government decision to remove relief but retain the same PAYE deduction on other tax bands could force thousands of employees to pay more in monthly taxes.",
+   "kind": "item",
+   "source": "Kenyans.co.ke news",
+   "source_id": "ke-kenyans",
+   "tier": 2,
+   "country": "KE",
+   "category": "press",
+   "segments": [
+    "city",
+    "bush",
+    "beach"
+   ],
+   "first_seen": "2026-10-23T11:37+03:00",
+   "published": "2026-10-23",
+   "verdict": "CONSIDER"
+  },
+  {
+   "score": 70.4,
+   "components": {
+    "tier": 20,
+    "category": 5,
+    "lead": 3.6,
+    "relevance": 12,
+    "freshness": 19.8,
+    "corroborated": 10
+   },
+   "keywords": [
+    "adr",
+    "hotel"
+   ],
+   "shock_terms": [],
+   "dedupe_match": null,
+   "dedupe_similarity": 0.0,
+   "id": "1e315ef04e72",
+   "title": "Why Success belongs to Hotels that Dare to be Different",
+   "url": "https://www.hospitalitynet.org/opinion/4134993/why-success-belongs-to-hotels-that-dare-to-be-different",
+   "summary": "Independent and boutique hotels command ADR premiums of up to 34% over traditional same-class hotels by leaning into authentic identities rather than chasing chain-style standardization.",
+   "kind": "item",
+   "source": "Hospitality Net \u2014 Africa announcements",
+   "source_id": "dev-hospitalitynet-africa",
+   "tier": 2,
+   "country": "REG",
+   "category": "trade",
+   "segments": [
+    "city",
+    "bush",
+    "beach"
+   ],
+   "first_seen": "2026-10-23T11:37+03:00",
+   "published": "2026-10-23",
+   "verdict": "CONSIDER"
+  },
+  {
+   "score": 70.4,
+   "components": {
+    "tier": 20,
+    "category": 5,
+    "lead": 3.6,
+    "relevance": 12,
+    "freshness": 19.8,
+    "corroborated": 10
+   },
+   "keywords": [
+    "adr",
+    "hotel"
+   ],
+   "shock_terms": [],
+   "dedupe_match": null,
+   "dedupe_similarity": 0.0,
+   "id": "8394354eb35b",
+   "title": "Read the Meter",
+   "url": "https://www.hospitalitynet.org/opinion/4135040/read-the-meter",
+   "summary": "Drawing on a McKinsey explainer, this piece introduces \"token literacy\" for hoteliers, explaining how AI billing works and why spend can nearly quadruple from pilot to portfolio rollout.",
+   "kind": "item",
+   "source": "Hospitality Net \u2014 Africa announcements",
+   "source_id": "dev-hospitalitynet-africa",
+   "tier": 2,
+   "country": "REG",
+   "category": "trade",
+   "segments": [
+    "city",
+    "bush",
+    "beach"
+   ],
+   "first_seen": "2026-10-23T11:37+03:00",
+   "published": "2026-10-23",
+   "verdict": "CONSIDER"
+  },
+  {
+   "score": 69.8,
    "components": {
     "tier": 20,
     "category": 4,
     "lead": 0.0,
-    "relevance": 24,
-    "freshness": 14.5,
+    "relevance": 16,
+    "freshness": 19.8,
+    "corroborated": 10
+   },
+   "keywords": [
+    "electricity",
+    "investment",
+    "franc"
+   ],
+   "shock_terms": [],
+   "dedupe_match": null,
+   "dedupe_similarity": 0.12,
+   "id": "df4bdb82cc1b",
+   "title": "Mlandizi substation to spur industrial growth",
+   "url": "https://dailynews.co.tz/mlandizi-substation-to-spur-industrial-growth",
+   "summary": "MLANDIZI: COAST Regional Commissioner, Stanslaus Nyongo has said the Mlandizi Power Substation, with 11 electricity distribution lines, is key to developing industrial parks, reducing frequent power outages and attracting investment to the region. He said the 16bn/- substation, constructed through a partnership between the government and France, through the French Development Agency (AFD), had bee",
+   "kind": "item",
+   "source": "Daily News (Tanzania)",
+   "source_id": "np-dailynews-tz",
+   "tier": 2,
+   "country": "TZ",
+   "category": "press",
+   "segments": [
+    "city",
+    "bush",
+    "beach"
+   ],
+   "first_seen": "2026-10-23T11:37+03:00",
+   "published": "2026-10-23",
+   "verdict": "weak"
+  },
+  {
+   "score": 69.4,
+   "components": {
+    "tier": 40,
+    "category": 12,
+    "lead": 3.6,
+    "relevance": 0,
+    "freshness": 19.8,
+    "undated": -6
+   },
+   "keywords": [],
+   "shock_terms": [],
+   "dedupe_match": null,
+   "dedupe_similarity": 0.0,
+   "id": "7485f7861b4b",
+   "title": "Gavana Tutuba atambuliwa kimataifa kwa mafanikio ya sekta ya fedha nchini",
+   "url": "https://www.bot.go.tz/News/index/1178",
+   "summary": "",
+   "kind": "item",
+   "source": "Bank of Tanzania",
+   "source_id": "tz-bot",
+   "tier": 1,
+   "country": "TZ",
+   "category": "central-bank",
+   "segments": [
+    "city",
+    "bush",
+    "beach"
+   ],
+   "first_seen": "2026-10-23T11:36+03:00",
+   "published": null,
+   "verdict": "weak"
+  },
+  {
+   "score": 69.2,
+   "components": {
+    "tier": 20,
+    "category": 5,
+    "lead": 2.4,
+    "relevance": 12,
+    "freshness": 19.8,
+    "corroborated": 10
+   },
+   "keywords": [
+    "adr",
+    "hotel"
+   ],
+   "shock_terms": [],
+   "dedupe_match": null,
+   "dedupe_similarity": 0.0,
+   "id": "69699b03d72b",
+   "title": "Why Success belongs to Hotels that Dare to be Different",
+   "url": "https://www.hospitalitynet.org/opinion/4134993/why-success-belongs-to-hotels-that-dare-to-be-different",
+   "summary": "Independent and boutique hotels command ADR premiums of up to 34% over traditional same-class hotels by leaning into authentic identities rather than chasing chain-style standardization.",
+   "kind": "item",
+   "source": "Hospitality Net: Africa openings",
+   "source_id": "dev-hospitalitynet-openings",
+   "tier": 2,
+   "country": "AFRICA",
+   "category": "trade",
+   "segments": [
+    "city",
+    "bush",
+    "beach"
+   ],
+   "first_seen": "2026-10-23T11:37+03:00",
+   "published": "2026-10-23",
+   "verdict": "weak"
+  },
+  {
+   "score": 69.2,
+   "components": {
+    "tier": 20,
+    "category": 5,
+    "lead": 2.4,
+    "relevance": 12,
+    "freshness": 19.8,
+    "corroborated": 10
+   },
+   "keywords": [
+    "adr",
+    "hotel"
+   ],
+   "shock_terms": [],
+   "dedupe_match": null,
+   "dedupe_similarity": 0.0,
+   "id": "81c07e423c24",
+   "title": "Read the Meter",
+   "url": "https://www.hospitalitynet.org/opinion/4135040/read-the-meter",
+   "summary": "Drawing on a McKinsey explainer, this piece introduces \"token literacy\" for hoteliers, explaining how AI billing works and why spend can nearly quadruple from pilot to portfolio rollout.",
+   "kind": "item",
+   "source": "Hospitality Net: Africa openings",
+   "source_id": "dev-hospitalitynet-openings",
+   "tier": 2,
+   "country": "AFRICA",
+   "category": "trade",
+   "segments": [
+    "city",
+    "bush",
+    "beach"
+   ],
+   "first_seen": "2026-10-23T11:37+03:00",
+   "published": "2026-10-23",
+   "verdict": "weak"
+  },
+  {
+   "score": 68.2,
+   "components": {
+    "tier": 20,
+    "category": 4,
+    "lead": 2.4,
+    "relevance": 12,
+    "freshness": 19.8,
+    "corroborated": 10
+   },
+   "keywords": [
+    "protest",
+    "operator"
+   ],
+   "shock_terms": [],
+   "dedupe_match": null,
+   "dedupe_similarity": 0.14,
+   "id": "92c37c2a2b9b",
+   "title": "Activists Announce March to State House in Fresh Protests",
+   "url": "https://www.kenyans.co.ke/news/128787-activists-plan-march-state-house-protest-high-fuel-prices-monday",
+   "summary": "The latest pump prices have prompted threats of protests, with motorists and transport operators raising concerns over the mounting cost of living.",
+   "kind": "item",
+   "source": "Kenyans.co.ke news",
+   "source_id": "ke-kenyans",
+   "tier": 2,
+   "country": "KE",
+   "category": "press",
+   "segments": [
+    "city",
+    "bush",
+    "beach"
+   ],
+   "first_seen": "2026-10-23T11:37+03:00",
+   "published": "2026-10-23",
+   "verdict": "weak"
+  },
+  {
+   "score": 67.8,
+   "components": {
+    "tier": 20,
+    "category": 4,
+    "lead": 0.0,
+    "relevance": 12,
+    "freshness": 19.8,
     "undated": -6,
     "shock": 18
    },
    "keywords": [
-    "outbreak",
-    "ebola"
+    "outbreak"
    ],
    "shock_terms": [
     "outbreak"
    ],
    "dedupe_match": null,
-   "dedupe_similarity": 0.33,
-   "id": "714494b2aecf",
-   "title": "Africa Nigeria reports Ebola case as outbreak reaches West Africa 13 hours ago - 3 min read",
-   "url": "https://www.thecitizen.co.tz/tanzania/news/africa/nigeria-reports-ebola-case-as-outbreak-reaches-west-africa-5641492",
+   "dedupe_similarity": 0.2,
+   "id": "21912627d58f",
+   "title": "National Tanzania to operate disease sample bank to tackle future outbreaks 43 min ago - 2 min read",
+   "url": "https://www.thecitizen.co.tz/tanzania/news/national/tanzania-to-operate-disease-sample-bank-to-tackle-future-outbreaks-5642256",
    "summary": "",
    "kind": "item",
    "source": "The Citizen (Tanzania)",
@@ -1297,141 +1253,190 @@
     "bush",
     "beach"
    ],
-   "first_seen": "2026-10-23T02:07+03:00",
+   "first_seen": "2026-10-23T11:37+03:00",
    "published": null,
-   "verdict": "CONSIDER"
+   "verdict": "weak"
   },
   {
-   "score": 74.3,
+   "score": 66.4,
    "components": {
-    "tier": 40,
-    "category": 9,
-    "lead": 16.8,
-    "relevance": 0,
-    "freshness": 14.5,
-    "undated": -6
+    "tier": 20,
+    "category": 5,
+    "lead": 3.6,
+    "relevance": 8,
+    "freshness": 19.8,
+    "corroborated": 10
    },
-   "keywords": [],
+   "keywords": [
+    "hotel",
+    "guest"
+   ],
    "shock_terms": [],
    "dedupe_match": null,
    "dedupe_similarity": 0.0,
-   "id": "2e90f5b7cb2f",
-   "title": "Q3 Trading Update to 30 September 2026",
-   "url": "https://www.ihgplc.com/en/news-and-media/news-releases/2026/third-quarter-trading-update-to-30-september-2026",
-   "summary": "",
+   "id": "be63db166ce0",
+   "title": "Hotel vs. vacation rental: 5 key differences to know",
+   "url": "https://www.hospitalitynet.org/explainer/4135050/hotel-vs-vacation-rental-5-key-differences-to-know",
+   "summary": "An explainer comparing hotels and vacation rentals across five dimensions: guest experience, location, amenities, pricing transparency, and distribution, aimed at helping hoteliers position more effectively.",
    "kind": "item",
-   "source": "IHG news",
-   "source_id": "dev-ihg",
-   "tier": 1,
-   "country": "GLOBAL",
-   "category": "hotel-group",
+   "source": "Hospitality Net \u2014 Africa announcements",
+   "source_id": "dev-hospitalitynet-africa",
+   "tier": 2,
+   "country": "REG",
+   "category": "trade",
    "segments": [
     "city",
     "bush",
     "beach"
    ],
-   "first_seen": "2026-10-23T02:06+03:00",
-   "published": null,
-   "verdict": "CONSIDER"
+   "first_seen": "2026-10-23T11:37+03:00",
+   "published": "2026-10-23",
+   "verdict": "weak"
   },
   {
-   "score": 74.3,
+   "score": 66.4,
    "components": {
-    "tier": 40,
-    "category": 9,
-    "lead": 16.8,
-    "relevance": 0,
-    "freshness": 14.5,
-    "undated": -6
+    "tier": 20,
+    "category": 5,
+    "lead": 3.6,
+    "relevance": 8,
+    "freshness": 19.8,
+    "corroborated": 10
    },
-   "keywords": [],
+   "keywords": [
+    "hotel",
+    "guest"
+   ],
    "shock_terms": [],
    "dedupe_match": null,
    "dedupe_similarity": 0.0,
-   "id": "cb1069c5d81b",
-   "title": "Kimpton Serves Up The Curious Palate: A New Chapter of Culinary Originals",
-   "url": "https://www.ihgplc.com/en/news-and-media/news-releases/2026/kimpton-serves-up-the-curious-palate-a-new-chapter-of-culinary-originals",
-   "summary": "",
+   "id": "56168c375409",
+   "title": "From Ancient Myths to Modern Journeys, Exploring Grand Odysseys",
+   "url": "https://www.hospitalitynet.org/news/4135060/from-ancient-myths-to-modern-journeys-exploring-grand-odysseys",
+   "summary": "Skyscanner's 2027 trends report highlights \"Grand Odysseys\" travel, with 43% of Millennials and 42% of Gen Z inspired by mythology, offering hotels a role across pre-, during, and post-trip guest engagement.",
    "kind": "item",
-   "source": "IHG news",
-   "source_id": "dev-ihg",
-   "tier": 1,
-   "country": "GLOBAL",
-   "category": "hotel-group",
+   "source": "Hospitality Net \u2014 Africa announcements",
+   "source_id": "dev-hospitalitynet-africa",
+   "tier": 2,
+   "country": "REG",
+   "category": "trade",
    "segments": [
     "city",
     "bush",
     "beach"
    ],
-   "first_seen": "2026-10-23T02:06+03:00",
-   "published": null,
-   "verdict": "CONSIDER"
+   "first_seen": "2026-10-23T11:37+03:00",
+   "published": "2026-10-23",
+   "verdict": "weak"
   },
   {
-   "score": 72.3,
+   "score": 65.2,
    "components": {
-    "tier": 40,
-    "category": 7,
-    "lead": 16.8,
-    "relevance": 0,
-    "freshness": 14.5,
-    "undated": -6
+    "tier": 20,
+    "category": 5,
+    "lead": 2.4,
+    "relevance": 8,
+    "freshness": 19.8,
+    "corroborated": 10
    },
-   "keywords": [],
+   "keywords": [
+    "hotel",
+    "guest"
+   ],
    "shock_terms": [],
    "dedupe_match": null,
    "dedupe_similarity": 0.0,
-   "id": "3ddaf2da3a6c",
-   "title": "Building, Construction, Architectural, Plumbi...",
-   "url": "https://egpuganda.go.ug/index/412833968_egp",
-   "summary": "",
+   "id": "27b9a704bccc",
+   "title": "Hotel vs. vacation rental: 5 key differences to know",
+   "url": "https://www.hospitalitynet.org/explainer/4135050/hotel-vs-vacation-rental-5-key-differences-to-know",
+   "summary": "An explainer comparing hotels and vacation rentals across five dimensions: guest experience, location, amenities, pricing transparency, and distribution, aimed at helping hoteliers position more effectively.",
    "kind": "item",
-   "source": "Uganda EGP portal",
-   "source_id": "ug-tenders",
-   "tier": 1,
-   "country": "UG",
-   "category": "tender",
+   "source": "Hospitality Net: Africa openings",
+   "source_id": "dev-hospitalitynet-openings",
+   "tier": 2,
+   "country": "AFRICA",
+   "category": "trade",
    "segments": [
     "city",
     "bush",
     "beach"
    ],
-   "first_seen": "2026-10-23T02:06+03:00",
-   "published": null,
-   "verdict": "CONSIDER"
+   "first_seen": "2026-10-23T11:37+03:00",
+   "published": "2026-10-23",
+   "verdict": "weak"
   },
   {
-   "score": 72.3,
+   "score": 64.2,
    "components": {
-    "tier": 40,
-    "category": 7,
-    "lead": 16.8,
-    "relevance": 0,
-    "freshness": 14.5,
-    "undated": -6
+    "tier": 20,
+    "category": 4,
+    "lead": 2.4,
+    "relevance": 8,
+    "freshness": 19.8,
+    "corroborated": 10
    },
-   "keywords": [],
+   "keywords": [
+    "election"
+   ],
    "shock_terms": [],
    "dedupe_match": null,
-   "dedupe_similarity": 0.0,
-   "id": "8e4fb19c9340",
-   "title": "ICT Hardware and Software Solutions - combine...",
-   "url": "https://egpuganda.go.ug/index/409316832_egp",
-   "summary": "",
+   "dedupe_similarity": 0.1,
+   "id": "169ca35e66b4",
+   "title": "Inside New Election Bill Changing How Presidential Results Are Transmitted",
+   "url": "https://www.kenyans.co.ke/news/128792-mps-pass-bill-requiring-presidential-results-reach-tallying-centres-within-two-hours",
+   "summary": "The changes cover result timelines, livestreaming of announcements, public access to election technology and other key aspects of the electoral process.",
    "kind": "item",
-   "source": "Uganda EGP portal",
-   "source_id": "ug-tenders",
-   "tier": 1,
-   "country": "UG",
-   "category": "tender",
+   "source": "Kenyans.co.ke news",
+   "source_id": "ke-kenyans",
+   "tier": 2,
+   "country": "KE",
+   "category": "press",
    "segments": [
     "city",
     "bush",
     "beach"
    ],
-   "first_seen": "2026-10-23T02:06+03:00",
+   "first_seen": "2026-10-23T11:37+03:00",
+   "published": "2026-10-23",
+   "verdict": "weak"
+  },
+  {
+   "score": 63.8,
+   "components": {
+    "tier": 20,
+    "category": 4,
+    "lead": 0.0,
+    "relevance": 8,
+    "freshness": 19.8,
+    "undated": -6,
+    "shock": 18
+   },
+   "keywords": [
+    "strike"
+   ],
+   "shock_terms": [
+    "strike"
+   ],
+   "dedupe_match": null,
+   "dedupe_similarity": 0.0,
+   "id": "f1feb8b3d9d2",
+   "title": "international Russia, Ukraine exchange strikes as US envoy leaves after talks 23 hours ago - 2 min read",
+   "url": "https://www.thecitizen.co.tz/tanzania/news/international/russia-ukraine-exchange-strikes-as-us-envoy-leaves-after-talks-5641486",
+   "summary": "",
+   "kind": "item",
+   "source": "The Citizen (Tanzania)",
+   "source_id": "np-citizen-tz",
+   "tier": 2,
+   "country": "TZ",
+   "category": "press",
+   "segments": [
+    "city",
+    "bush",
+    "beach"
+   ],
+   "first_seen": "2026-10-23T11:37+03:00",
    "published": null,
-   "verdict": "CONSIDER"
+   "verdict": "weak"
   }
  ]
 }
