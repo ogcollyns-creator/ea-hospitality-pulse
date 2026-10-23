@@ -1,18 +1,18 @@
 {
- "generated": "2026-10-23T02:07:36+03:00",
+ "generated": "2026-10-23T06:58:18+03:00",
  "slot": "morning",
  "window_start": 1792681200,
- "observations_in_window": 276,
+ "observations_in_window": 396,
  "deduped_against": 23,
  "candidates": [
   {
-   "score": 144.8,
+   "score": 139.4,
    "components": {
     "tier": 40,
     "category": 32,
     "lead": 1.2,
     "relevance": 44,
-    "freshness": 15.6,
+    "freshness": 10.2,
     "undated": -6,
     "shock": 18
    },
@@ -48,13 +48,13 @@
    "verdict": "LEAD CANDIDATE \u2014 tier-1 shock language"
   },
   {
-   "score": 132.8,
+   "score": 127.4,
    "components": {
     "tier": 40,
     "category": 32,
     "lead": 1.2,
     "relevance": 32,
-    "freshness": 15.6,
+    "freshness": 10.2,
     "undated": -6,
     "shock": 18
    },
@@ -89,13 +89,13 @@
    "verdict": "LEAD CANDIDATE \u2014 tier-1 shock language"
   },
   {
-   "score": 128.8,
+   "score": 123.4,
    "components": {
     "tier": 40,
     "category": 32,
     "lead": 1.2,
     "relevance": 28,
-    "freshness": 15.6,
+    "freshness": 10.2,
     "undated": -6,
     "shock": 18
    },
@@ -131,14 +131,45 @@
    "verdict": "LEAD CANDIDATE \u2014 tier-1 shock language"
   },
   {
-   "score": 101.4,
+   "score": 91.2,
    "components": {
     "tier": 40,
     "category": 32,
     "lead": 3.6,
     "relevance": 0,
-    "freshness": 19.8,
-    "corroborated": 10,
+    "freshness": 19.6,
+    "page_change": -4
+   },
+   "keywords": [],
+   "shock_terms": [],
+   "dedupe_match": null,
+   "dedupe_similarity": 0.1,
+   "id": "a07df1114996",
+   "title": "[page changed] Federal Register \u2014 public inspection (HHS/CDC), pre-publication",
+   "url": "https://www.federalregister.gov/api/v1/public-inspection-documents/current.json",
+   "summary": "{\"count\":86,\"results\":[{\"agencies\":[{\"raw_name\":\"National Oceanic and Atmospheric Administration\",\"name\":\"National Oceanic and Atmospheric Administration\",\"id\":361,\"url\":\"https://www.federalregister.gov/agencies/national-oceanic-and-atmospheric-administration\",\"json_url\":\"https://www.federalregister.gov/api/v1/agencies/361\",\"parent_id\":54,\"slug\":\"national-oceanic-and-atmospheric-administration\"}],",
+   "kind": "page-change",
+   "source": "Federal Register \u2014 public inspection (HHS/CDC), pre-publication",
+   "source_id": "us-fedreg-pubinspect-hhs",
+   "tier": 1,
+   "country": "REG",
+   "category": "advisory",
+   "segments": [
+    "city",
+    "bush"
+   ],
+   "first_seen": "2026-10-23T06:47+03:00",
+   "published": "2026-10-21",
+   "verdict": "OPEN THIS \u2014 tier-1 advisory page moved; content not auto-parsed, read it manually"
+  },
+  {
+   "score": 86.1,
+   "components": {
+    "tier": 40,
+    "category": 32,
+    "lead": 3.6,
+    "relevance": 0,
+    "freshness": 14.5,
     "page_change": -4
    },
    "keywords": [],
@@ -164,14 +195,13 @@
    "verdict": "OPEN THIS \u2014 tier-1 advisory page moved; content not auto-parsed, read it manually"
   },
   {
-   "score": 97.2,
+   "score": 81.8,
    "components": {
     "tier": 40,
     "category": 32,
     "lead": 3.6,
     "relevance": 0,
-    "freshness": 15.6,
-    "corroborated": 10,
+    "freshness": 10.2,
     "page_change": -4
    },
    "keywords": [],
@@ -197,13 +227,121 @@
    "verdict": "OPEN THIS \u2014 tier-1 advisory page moved; content not auto-parsed, read it manually"
   },
   {
-   "score": 95.6,
+   "score": 65.2,
+   "components": {
+    "tier": 40,
+    "category": 12,
+    "lead": 3.6,
+    "relevance": 0,
+    "freshness": 19.6,
+    "undated": -6,
+    "page_change": -4
+   },
+   "keywords": [],
+   "shock_terms": [],
+   "dedupe_match": null,
+   "dedupe_similarity": 0.0,
+   "id": "af3d1c22a004",
+   "title": "[page changed] Airlink news",
+   "url": "https://www.flyairlink.com/",
+   "summary": "Request unsuccessful. Incapsula incident ID: 1024000110568041418-223888128287441637",
+   "kind": "page-change",
+   "source": "Airlink news",
+   "source_id": "air-airlink",
+   "tier": 1,
+   "country": "REG",
+   "category": "airline",
+   "segments": [
+    "city",
+    "bush",
+    "beach"
+   ],
+   "first_seen": "2026-10-23T06:46+03:00",
+   "published": null,
+   "verdict": "OPEN THIS \u2014 tier-1 airline page moved; content not auto-parsed, read it manually"
+  },
+  {
+   "score": 105.4,
+   "components": {
+    "tier": 40,
+    "category": 7,
+    "lead": 16.8,
+    "relevance": 12,
+    "freshness": 19.6,
+    "corroborated": 10
+   },
+   "keywords": [
+    "flight",
+    "traffic",
+    "passenger"
+   ],
+   "shock_terms": [],
+   "dedupe_match": null,
+   "dedupe_similarity": 0.11,
+   "id": "a63dd9a9ad96",
+   "title": "Air Traffic Analysis: May 2026",
+   "url": "https://www.kaa.go.ke/air-traffic-analysis-may-2026",
+   "summary": "A busier May across the network, with more passengers, more flights and more cargo than a year earlier.",
+   "kind": "item",
+   "source": "KAA tenders",
+   "source_id": "ke-kaa-tenders",
+   "tier": 1,
+   "country": "KE",
+   "category": "tender",
+   "segments": [
+    "city",
+    "bush",
+    "beach"
+   ],
+   "first_seen": "2026-10-23T06:46+03:00",
+   "published": "2026-10-22",
+   "verdict": "STRONG \u2014 tier-1, upstream"
+  },
+  {
+   "score": 99.4,
+   "components": {
+    "tier": 40,
+    "category": 13,
+    "lead": 4.8,
+    "relevance": 12,
+    "freshness": 19.6,
+    "corroborated": 10
+   },
+   "keywords": [
+    "flight",
+    "traffic",
+    "passenger"
+   ],
+   "shock_terms": [],
+   "dedupe_match": null,
+   "dedupe_similarity": 0.11,
+   "id": "cb466d18fc53",
+   "title": "Air Traffic Analysis: May 2026",
+   "url": "https://www.kaa.go.ke/air-traffic-analysis-may-2026",
+   "summary": "A busier May across the network, with more passengers, more flights and more cargo than a year earlier.",
+   "kind": "item",
+   "source": "Kenya Airports Authority",
+   "source_id": "ke-kaa",
+   "tier": 1,
+   "country": "KE",
+   "category": "aviation",
+   "segments": [
+    "city",
+    "bush",
+    "beach"
+   ],
+   "first_seen": "2026-10-23T06:47+03:00",
+   "published": "2026-10-22",
+   "verdict": "STRONG \u2014 tier-1, upstream"
+  },
+  {
+   "score": 90.3,
    "components": {
     "tier": 40,
     "category": 9,
     "lead": 16.8,
     "relevance": 16,
-    "freshness": 19.8,
+    "freshness": 14.5,
     "undated": -6
    },
    "keywords": [
@@ -234,13 +372,50 @@
    "verdict": "STRONG \u2014 tier-1, upstream"
   },
   {
-   "score": 92.2,
+   "score": 88.0,
+   "components": {
+    "tier": 20,
+    "category": 14,
+    "lead": 8.4,
+    "relevance": 16,
+    "freshness": 19.6,
+    "corroborated": 10
+   },
+   "keywords": [
+    "route",
+    "airline",
+    "flight"
+   ],
+   "shock_terms": [],
+   "dedupe_match": null,
+   "dedupe_similarity": 0.08,
+   "id": "8f6032e07b7a",
+   "title": "AirBorneo 4Q26 Kuching \u2013 Singapore Service Reductions",
+   "url": "https://www.aeroroutes.com/eng/261022-my4q26sin",
+   "summary": "Published at 1845PDT 22OCT26 / 0145GMT 23OCT26 AirBorneo in the fourth quarter of 2026 schedules service reductions on Kuching \u2013 Singapore route. From 25OCT26 to 31DEC26, the airline schedules 4 weekly flights, instead of 7. MY385 KCH1935 \u2013 2110SIN 738 x157 MY386 SIN2200 \u2013 2335KCH 738 x157",
+   "kind": "item",
+   "source": "AeroRoutes schedule filings",
+   "source_id": "aeroroutes",
+   "tier": 2,
+   "country": "GLOBAL",
+   "category": "aviation-tracker",
+   "segments": [
+    "city",
+    "bush",
+    "beach"
+   ],
+   "first_seen": "2026-10-23T06:48+03:00",
+   "published": "2026-10-23",
+   "verdict": "CONSIDER"
+  },
+  {
+   "score": 86.9,
    "components": {
     "tier": 40,
     "category": 32,
     "lead": 2.4,
     "relevance": 4,
-    "freshness": 19.8,
+    "freshness": 14.5,
     "undated": -6
    },
    "keywords": [
@@ -266,16 +441,16 @@
    ],
    "first_seen": "2026-10-23T02:06+03:00",
    "published": null,
-   "verdict": "STRONG \u2014 tier-1, upstream"
+   "verdict": "CONSIDER"
   },
   {
-   "score": 91.6,
+   "score": 86.3,
    "components": {
     "tier": 40,
     "category": 17,
     "lead": 16.8,
     "relevance": 4,
-    "freshness": 19.8,
+    "freshness": 14.5,
     "undated": -6
    },
    "keywords": [
@@ -301,16 +476,16 @@
    ],
    "first_seen": "2026-10-23T02:06+03:00",
    "published": null,
-   "verdict": "STRONG \u2014 tier-1, upstream"
+   "verdict": "CONSIDER"
   },
   {
-   "score": 89.8,
+   "score": 84.5,
    "components": {
     "tier": 20,
     "category": 5,
     "lead": 1.2,
     "relevance": 20,
-    "freshness": 15.6,
+    "freshness": 10.3,
     "corroborated": 10,
     "shock": 18
    },
@@ -345,13 +520,85 @@
    "verdict": "CONSIDER"
   },
   {
-   "score": 88.0,
+   "score": 84.0,
+   "components": {
+    "tier": 20,
+    "category": 14,
+    "lead": 8.4,
+    "relevance": 12,
+    "freshness": 19.6,
+    "corroborated": 10
+   },
+   "keywords": [
+    "route",
+    "flight"
+   ],
+   "shock_terms": [],
+   "dedupe_match": null,
+   "dedupe_similarity": 0.0,
+   "id": "1b9dac73838b",
+   "title": "SAS 1Q27 Troms\u00f8 \u2013 Svalbard Service Adjustment",
+   "url": "https://www.aeroroutes.com/eng/261022-sk1q27lyr",
+   "summary": "Published at 1715PDT 22OCT26 / 0015GMT 23OCT26 SAS in the first quarter of 2027 adjusts seasonal increase on Troms\u00f8 \u2013 Longyearbyen (Svalbard) route. The 3rd weekly flight will be offered from 06FEB27 to 18MAR27 with Airbus A320neo aircraft. In the first quarter of 2026, the 3rd weekly flight commenced from 20JAN26 to 28MAR26. SK4424 TOS1215 \u2013 1410LYR 32N 246 SK4425 LYR1455 \u2013 1635TOS 32N 246",
+   "kind": "item",
+   "source": "AeroRoutes schedule filings",
+   "source_id": "aeroroutes",
+   "tier": 2,
+   "country": "GLOBAL",
+   "category": "aviation-tracker",
+   "segments": [
+    "city",
+    "bush",
+    "beach"
+   ],
+   "first_seen": "2026-10-23T06:48+03:00",
+   "published": "2026-10-23",
+   "verdict": "CONSIDER"
+  },
+  {
+   "score": 84.0,
+   "components": {
+    "tier": 20,
+    "category": 14,
+    "lead": 8.4,
+    "relevance": 12,
+    "freshness": 19.6,
+    "corroborated": 10
+   },
+   "keywords": [
+    "route",
+    "flight"
+   ],
+   "shock_terms": [],
+   "dedupe_match": null,
+   "dedupe_similarity": 0.08,
+   "id": "356d3cb761a8",
+   "title": "Air China 4Q26 Europe Service Reductions \u2013 22OCT26",
+   "url": "https://www.aeroroutes.com/eng/261022-ca4q26eu",
+   "summary": "Published at 1630PDT / 2330GMT 22OCT26 Air China in recent schedule update further reduces selected European routes for the fourth quarter of 2026. Further reductions are listed in the parenthesis below (for flights to/from Beijing Capital), as of 22OCT26. Beijing Capital \u2013 Budapest 25OCT26 \u2013 05JAN27 Reduce from 7 to 6 weekly (5 weekly 24NOV26 \u2013 14DEC26), 787-9 Beijing Capital \u2013 Geneva 25OCT26 \u2013 0",
+   "kind": "item",
+   "source": "AeroRoutes schedule filings",
+   "source_id": "aeroroutes",
+   "tier": 2,
+   "country": "GLOBAL",
+   "category": "aviation-tracker",
+   "segments": [
+    "city",
+    "bush",
+    "beach"
+   ],
+   "first_seen": "2026-10-23T06:48+03:00",
+   "published": "2026-10-23",
+   "verdict": "CONSIDER"
+  },
+  {
+   "score": 82.6,
    "components": {
     "tier": 40,
     "category": 24,
     "lead": 2.4,
     "relevance": 12,
-    "freshness": 15.6,
+    "freshness": 10.2,
     "undated": -6
    },
    "keywords": [
@@ -380,13 +627,13 @@
    "verdict": "CONSIDER"
   },
   {
-   "score": 88.0,
+   "score": 82.6,
    "components": {
     "tier": 40,
     "category": 24,
     "lead": 2.4,
     "relevance": 12,
-    "freshness": 15.6,
+    "freshness": 10.2,
     "undated": -6
    },
    "keywords": [
@@ -415,13 +662,13 @@
    "verdict": "CONSIDER"
   },
   {
-   "score": 88.0,
+   "score": 82.6,
    "components": {
     "tier": 40,
     "category": 24,
     "lead": 2.4,
     "relevance": 12,
-    "freshness": 15.6,
+    "freshness": 10.2,
     "undated": -6
    },
    "keywords": [
@@ -450,13 +697,13 @@
    "verdict": "CONSIDER"
   },
   {
-   "score": 88.0,
+   "score": 82.6,
    "components": {
     "tier": 40,
     "category": 24,
     "lead": 2.4,
     "relevance": 12,
-    "freshness": 15.6,
+    "freshness": 10.2,
     "undated": -6
    },
    "keywords": [
@@ -485,13 +732,13 @@
    "verdict": "CONSIDER"
   },
   {
-   "score": 88.0,
+   "score": 82.6,
    "components": {
     "tier": 40,
     "category": 24,
     "lead": 2.4,
     "relevance": 12,
-    "freshness": 15.6,
+    "freshness": 10.2,
     "undated": -6
    },
    "keywords": [
@@ -520,13 +767,13 @@
    "verdict": "CONSIDER"
   },
   {
-   "score": 88.0,
+   "score": 82.6,
    "components": {
     "tier": 40,
     "category": 24,
     "lead": 2.4,
     "relevance": 12,
-    "freshness": 15.6,
+    "freshness": 10.2,
     "undated": -6
    },
    "keywords": [
@@ -555,13 +802,13 @@
    "verdict": "CONSIDER"
   },
   {
-   "score": 87.6,
+   "score": 82.3,
    "components": {
     "tier": 40,
     "category": 9,
     "lead": 16.8,
     "relevance": 8,
-    "freshness": 19.8,
+    "freshness": 14.5,
     "undated": -6
    },
    "keywords": [
@@ -591,13 +838,188 @@
    "verdict": "CONSIDER"
   },
   {
-   "score": 84.2,
+   "score": 80.4,
+   "components": {
+    "tier": 40,
+    "category": 10,
+    "lead": 16.8,
+    "relevance": 0,
+    "freshness": 19.6,
+    "undated": -6
+   },
+   "keywords": [],
+   "shock_terms": [],
+   "dedupe_match": null,
+   "dedupe_similarity": 0.2,
+   "id": "afe151ffc383",
+   "title": "Speaker Oboth Calls for Coordinated Planning of Parliament\u2019s Work Thursday, 22 October 2026",
+   "url": "https://www.parliament.go.ug/news/4681/speaker-oboth-calls-coordinated-planning-parliaments-work",
+   "summary": "",
+   "kind": "item",
+   "source": "Parliament of Uganda",
+   "source_id": "ug-parliament",
+   "tier": 1,
+   "country": "UG",
+   "category": "legislature",
+   "segments": [
+    "city",
+    "bush",
+    "beach"
+   ],
+   "first_seen": "2026-10-23T06:46+03:00",
+   "published": null,
+   "verdict": "CONSIDER"
+  },
+  {
+   "score": 80.4,
+   "components": {
+    "tier": 40,
+    "category": 10,
+    "lead": 16.8,
+    "relevance": 0,
+    "freshness": 19.6,
+    "undated": -6
+   },
+   "keywords": [],
+   "shock_terms": [],
+   "dedupe_match": null,
+   "dedupe_similarity": 0.2,
+   "id": "29e3f1870425",
+   "title": "Justice Ministry and DPP on spot over diversion of Shs41 billion Thursday, 22 October 2026",
+   "url": "https://www.parliament.go.ug/news/4680/justice-ministry-and-dpp-spot-over-diversion-shs41-billion",
+   "summary": "",
+   "kind": "item",
+   "source": "Parliament of Uganda",
+   "source_id": "ug-parliament",
+   "tier": 1,
+   "country": "UG",
+   "category": "legislature",
+   "segments": [
+    "city",
+    "bush",
+    "beach"
+   ],
+   "first_seen": "2026-10-23T06:46+03:00",
+   "published": null,
+   "verdict": "CONSIDER"
+  },
+  {
+   "score": 80.0,
+   "components": {
+    "tier": 20,
+    "category": 14,
+    "lead": 8.4,
+    "relevance": 8,
+    "freshness": 19.6,
+    "corroborated": 10
+   },
+   "keywords": [
+    "adr"
+   ],
+   "shock_terms": [],
+   "dedupe_match": null,
+   "dedupe_similarity": 0.17,
+   "id": "acab7a4756bd",
+   "title": "Iberia Extends Privilege Style A330 Service to early-Jan 2027",
+   "url": "https://www.aeroroutes.com/eng/261022-ibnw26pvg",
+   "summary": "Published at 2015PDT 22OCT26 / 0315GMT 23OCT26 Iberia during Northern winter 2026/27 season continues to schedule leased Airbus A330-200 aircraft from Privilege Style, primarily serving The Americas. The leased aircraft is currently scheduled until early-January 2027. Madrid \u2013 Caracas 5 weekly until 10JAN27 Madrid \u2013 Santo Domingo 1 weekly (2 weekly from 01DEC26) until 07JAN27",
+   "kind": "item",
+   "source": "AeroRoutes schedule filings",
+   "source_id": "aeroroutes",
+   "tier": 2,
+   "country": "GLOBAL",
+   "category": "aviation-tracker",
+   "segments": [
+    "city",
+    "bush",
+    "beach"
+   ],
+   "first_seen": "2026-10-23T06:48+03:00",
+   "published": "2026-10-23",
+   "verdict": "CONSIDER"
+  },
+  {
+   "score": 80.0,
+   "components": {
+    "tier": 20,
+    "category": 14,
+    "lead": 8.4,
+    "relevance": 8,
+    "freshness": 19.6,
+    "corroborated": 10
+   },
+   "keywords": [
+    "route"
+   ],
+   "shock_terms": [],
+   "dedupe_match": null,
+   "dedupe_similarity": 0.17,
+   "id": "d4d215072fa4",
+   "title": "United NS27 Canada Service Increases \u2013 22OCT26",
+   "url": "https://www.aeroroutes.com/eng/261022-uans27ca",
+   "summary": "Published at 1800PDT 22OCT26 / 0100GMT 23OCT26 United today (22OCT26) filed planned service changes to Canada in Northern summer 2027 season, where the carrier adds 3 routes, previously highlighted in Air Canada\u2019s press release on its US service changes. Denver \u2013 Ottawa eff 29APR27 1 daily Embraer E175 (Skywest) UA5335 DEN1732 \u2013 2318YOW E7W D UA4716 YOW0800 \u2013 1017DEN E7W D Denver \u2013 Quebec City eff",
+   "kind": "item",
+   "source": "AeroRoutes schedule filings",
+   "source_id": "aeroroutes",
+   "tier": 2,
+   "country": "GLOBAL",
+   "category": "aviation-tracker",
+   "segments": [
+    "city",
+    "bush",
+    "beach"
+   ],
+   "first_seen": "2026-10-23T06:48+03:00",
+   "published": "2026-10-23",
+   "verdict": "CONSIDER"
+  },
+  {
+   "score": 79.6,
+   "components": {
+    "tier": 20,
+    "category": 4,
+    "lead": 0.0,
+    "relevance": 24,
+    "freshness": 19.6,
+    "undated": -6,
+    "shock": 18
+   },
+   "keywords": [
+    "outbreak",
+    "ebola"
+   ],
+   "shock_terms": [
+    "outbreak"
+   ],
+   "dedupe_match": null,
+   "dedupe_similarity": 0.33,
+   "id": "a4cd2bbe8931",
+   "title": "Africa Nigeria reports Ebola case as outbreak reaches West Africa 18 hours ago - 3 min read",
+   "url": "https://www.thecitizen.co.tz/tanzania/news/africa/nigeria-reports-ebola-case-as-outbreak-reaches-west-africa-5641492",
+   "summary": "",
+   "kind": "item",
+   "source": "The Citizen (Tanzania)",
+   "source_id": "np-citizen-tz",
+   "tier": 2,
+   "country": "TZ",
+   "category": "press",
+   "segments": [
+    "city",
+    "bush",
+    "beach"
+   ],
+   "first_seen": "2026-10-23T06:48+03:00",
+   "published": null,
+   "verdict": "CONSIDER"
+  },
+  {
+   "score": 78.9,
    "components": {
     "tier": 20,
     "category": 14,
     "lead": 8.4,
     "relevance": 12,
-    "freshness": 19.8,
+    "freshness": 14.5,
     "corroborated": 10
    },
    "keywords": [
@@ -627,13 +1049,13 @@
    "verdict": "CONSIDER"
   },
   {
-   "score": 84.0,
+   "score": 78.7,
    "components": {
     "tier": 40,
     "category": 16,
     "lead": 2.4,
     "relevance": 0,
-    "freshness": 15.6,
+    "freshness": 10.3,
     "corroborated": 10
    },
    "keywords": [],
@@ -660,13 +1082,13 @@
    "verdict": "CONSIDER"
   },
   {
-   "score": 82.8,
+   "score": 77.4,
    "components": {
     "tier": 40,
     "category": 32,
     "lead": 1.2,
     "relevance": 0,
-    "freshness": 15.6,
+    "freshness": 10.2,
     "undated": -6
    },
    "keywords": [],
@@ -693,13 +1115,13 @@
    "verdict": "CONSIDER"
   },
   {
-   "score": 82.4,
+   "score": 77.1,
    "components": {
     "tier": 20,
     "category": 5,
     "lead": 3.6,
     "relevance": 24,
-    "freshness": 19.8,
+    "freshness": 14.5,
     "corroborated": 10
    },
    "keywords": [
@@ -732,13 +1154,48 @@
    "verdict": "CONSIDER"
   },
   {
-   "score": 80.2,
+   "score": 76.0,
+   "components": {
+    "tier": 20,
+    "category": 14,
+    "lead": 8.4,
+    "relevance": 4,
+    "freshness": 19.6,
+    "corroborated": 10
+   },
+   "keywords": [
+    "airline"
+   ],
+   "shock_terms": [],
+   "dedupe_match": null,
+   "dedupe_similarity": 0.17,
+   "id": "b71a9c1c7b2a",
+   "title": "Philippine Airlines NW26 Asia Service Increases",
+   "url": "https://www.aeroroutes.com/eng/261022-prnw26as",
+   "summary": "Published at 1930PDT 22OCT26 / 0230GMT 23OCT26 Philippine Airlines earlier this year (in the second half of 2026) filed service increase on Manila \u2013 Shanghai Pu Dong for Northern winter 2026/27 season, which remains unchanged as of 22OCT26. Currently served 7 weekly, the airline from 25OCT26 will increase service to 14 weekly, with a mix of Airbus A321, A330-300 and 777-300ER. PR338 MNL0605 \u2013 0950",
+   "kind": "item",
+   "source": "AeroRoutes schedule filings",
+   "source_id": "aeroroutes",
+   "tier": 2,
+   "country": "GLOBAL",
+   "category": "aviation-tracker",
+   "segments": [
+    "city",
+    "bush",
+    "beach"
+   ],
+   "first_seen": "2026-10-23T06:48+03:00",
+   "published": "2026-10-23",
+   "verdict": "CONSIDER"
+  },
+  {
+   "score": 74.9,
    "components": {
     "tier": 20,
     "category": 14,
     "lead": 8.4,
     "relevance": 8,
-    "freshness": 19.8,
+    "freshness": 14.5,
     "corroborated": 10
    },
    "keywords": [
@@ -767,13 +1224,13 @@
    "verdict": "CONSIDER"
   },
   {
-   "score": 80.0,
+   "score": 74.7,
    "components": {
     "tier": 20,
     "category": 5,
     "lead": 1.2,
     "relevance": 24,
-    "freshness": 19.8,
+    "freshness": 14.5,
     "corroborated": 10
    },
    "keywords": [
@@ -806,13 +1263,13 @@
    "verdict": "CONSIDER"
   },
   {
-   "score": 79.8,
+   "score": 74.5,
    "components": {
     "tier": 20,
     "category": 4,
     "lead": 0.0,
     "relevance": 24,
-    "freshness": 19.8,
+    "freshness": 14.5,
     "undated": -6,
     "shock": 18
    },
@@ -845,13 +1302,13 @@
    "verdict": "CONSIDER"
   },
   {
-   "score": 79.6,
+   "score": 74.3,
    "components": {
     "tier": 40,
     "category": 9,
     "lead": 16.8,
     "relevance": 0,
-    "freshness": 19.8,
+    "freshness": 14.5,
     "undated": -6
    },
    "keywords": [],
@@ -878,13 +1335,13 @@
    "verdict": "CONSIDER"
   },
   {
-   "score": 79.6,
+   "score": 74.3,
    "components": {
     "tier": 40,
     "category": 9,
     "lead": 16.8,
     "relevance": 0,
-    "freshness": 19.8,
+    "freshness": 14.5,
     "undated": -6
    },
    "keywords": [],
@@ -911,13 +1368,13 @@
    "verdict": "CONSIDER"
   },
   {
-   "score": 77.6,
+   "score": 72.3,
    "components": {
     "tier": 40,
     "category": 7,
     "lead": 16.8,
     "relevance": 0,
-    "freshness": 19.8,
+    "freshness": 14.5,
     "undated": -6
    },
    "keywords": [],
@@ -944,13 +1401,13 @@
    "verdict": "CONSIDER"
   },
   {
-   "score": 77.6,
+   "score": 72.3,
    "components": {
     "tier": 40,
     "category": 7,
     "lead": 16.8,
     "relevance": 0,
-    "freshness": 19.8,
+    "freshness": 14.5,
     "undated": -6
    },
    "keywords": [],
@@ -975,477 +1432,6 @@
    "first_seen": "2026-10-23T02:06+03:00",
    "published": null,
    "verdict": "CONSIDER"
-  },
-  {
-   "score": 77.0,
-   "components": {
-    "tier": 20,
-    "category": 5,
-    "lead": 2.4,
-    "relevance": 24,
-    "freshness": 15.6,
-    "corroborated": 10
-   },
-   "keywords": [
-    "revpar",
-    "hotel",
-    "tourism",
-    "booking",
-    "operator"
-   ],
-   "shock_terms": [],
-   "dedupe_match": null,
-   "dedupe_similarity": 0.12,
-   "id": "39c3f4a14881",
-   "title": "Why wellness is your hotel\u2019s most important new booking driver",
-   "url": "https://www.hospitalitynet.org/opinion/4135058/why-wellness-is-your-hotels-most-important-new-booking-driver",
-   "summary": "With wellness tourism growing at 14.5% annually and spa-enabled hotels generating 108% higher TRevPAR, operators are urged to integrate wellness into booking strategy, not treat it as a cost centre.",
-   "kind": "item",
-   "source": "Hospitality Net: Africa openings",
-   "source_id": "dev-hospitalitynet-openings",
-   "tier": 2,
-   "country": "AFRICA",
-   "category": "trade",
-   "segments": [
-    "city",
-    "bush",
-    "beach"
-   ],
-   "first_seen": "2026-10-22T22:18+03:00",
-   "published": "2026-10-22",
-   "verdict": "CONSIDER"
-  },
-  {
-   "score": 76.0,
-   "components": {
-    "tier": 40,
-    "category": 24,
-    "lead": 2.4,
-    "relevance": 0,
-    "freshness": 15.6,
-    "undated": -6
-   },
-   "keywords": [],
-   "shock_terms": [],
-   "dedupe_match": null,
-   "dedupe_similarity": 0.2,
-   "id": "1a7f300564b0",
-   "title": "22 October 2026 | Feature Story Hope Kasamba: polio vaccinator, Malawi",
-   "url": "https://www.afro.who.int/countries/malawi/news/hope-kasamba-polio-vaccinator-malawi",
-   "summary": "",
-   "kind": "item",
-   "source": "WHO AFRO \u2014 Kenya country newsroom",
-   "source_id": "who-afro-kenya",
-   "tier": 1,
-   "country": "KE",
-   "category": "health",
-   "segments": [
-    "bush",
-    "city",
-    "beach"
-   ],
-   "first_seen": "2026-10-22T22:17+03:00",
-   "published": null,
-   "verdict": "CONSIDER"
-  },
-  {
-   "score": 76.0,
-   "components": {
-    "tier": 40,
-    "category": 24,
-    "lead": 2.4,
-    "relevance": 0,
-    "freshness": 15.6,
-    "undated": -6
-   },
-   "keywords": [],
-   "shock_terms": [],
-   "dedupe_match": null,
-   "dedupe_similarity": 0.2,
-   "id": "3bd0ee0ffff0",
-   "title": "22 October 2026 | Feature Story Hope Kasamba: polio vaccinator, Malawi",
-   "url": "https://www.afro.who.int/countries/malawi/news/hope-kasamba-polio-vaccinator-malawi",
-   "summary": "",
-   "kind": "item",
-   "source": "WHO AFRO \u2014 Rwanda country newsroom",
-   "source_id": "who-afro-rwanda",
-   "tier": 1,
-   "country": "RW",
-   "category": "health",
-   "segments": [
-    "bush",
-    "city",
-    "beach"
-   ],
-   "first_seen": "2026-10-22T22:17+03:00",
-   "published": null,
-   "verdict": "CONSIDER"
-  },
-  {
-   "score": 76.0,
-   "components": {
-    "tier": 40,
-    "category": 24,
-    "lead": 2.4,
-    "relevance": 0,
-    "freshness": 15.6,
-    "undated": -6
-   },
-   "keywords": [],
-   "shock_terms": [],
-   "dedupe_match": null,
-   "dedupe_similarity": 0.2,
-   "id": "fb57c6ef5433",
-   "title": "22 October 2026 | Feature Story Hope Kasamba: polio vaccinator, Malawi",
-   "url": "https://www.afro.who.int/countries/malawi/news/hope-kasamba-polio-vaccinator-malawi",
-   "summary": "",
-   "kind": "item",
-   "source": "WHO AFRO \u2014 Uganda country newsroom",
-   "source_id": "who-afro-uganda",
-   "tier": 1,
-   "country": "UG",
-   "category": "health",
-   "segments": [
-    "bush",
-    "city",
-    "beach"
-   ],
-   "first_seen": "2026-10-22T22:16+03:00",
-   "published": null,
-   "verdict": "CONSIDER"
-  },
-  {
-   "score": 75.6,
-   "components": {
-    "tier": 20,
-    "category": 4,
-    "lead": 0.0,
-    "relevance": 24,
-    "freshness": 15.6,
-    "undated": -6,
-    "shock": 18
-   },
-   "keywords": [
-    "outbreak",
-    "ebola"
-   ],
-   "shock_terms": [
-    "outbreak"
-   ],
-   "dedupe_match": null,
-   "dedupe_similarity": 0.22,
-   "id": "4456e6296bb8",
-   "title": "Ebola outbreak Ebola outbreak rebounds in DR Congo as cross-border spread heightens concerns",
-   "url": "https://www.newvision.co.ug/category/health/ebola-outbreak-rebounds-in-dr-congo-as-cross-",
-   "summary": "",
-   "kind": "item",
-   "source": "New Vision (Uganda)",
-   "source_id": "np-newvision-ug",
-   "tier": 2,
-   "country": "UG",
-   "category": "press",
-   "segments": [
-    "city",
-    "bush",
-    "beach"
-   ],
-   "first_seen": "2026-10-22T22:18+03:00",
-   "published": null,
-   "verdict": "CONSIDER"
-  },
-  {
-   "score": 75.6,
-   "components": {
-    "tier": 20,
-    "category": 4,
-    "lead": 0.0,
-    "relevance": 24,
-    "freshness": 15.6,
-    "undated": -6,
-    "shock": 18
-   },
-   "keywords": [
-    "outbreak",
-    "ebola"
-   ],
-   "shock_terms": [
-    "outbreak"
-   ],
-   "dedupe_match": null,
-   "dedupe_similarity": 0.33,
-   "id": "596d86d536e5",
-   "title": "Africa Nigeria reports Ebola case as outbreak reaches West Africa 9 hours ago - 3 min read",
-   "url": "https://www.thecitizen.co.tz/tanzania/news/africa/nigeria-reports-ebola-case-as-outbreak-reaches-west-africa-5641492",
-   "summary": "",
-   "kind": "item",
-   "source": "The Citizen (Tanzania)",
-   "source_id": "np-citizen-tz",
-   "tier": 2,
-   "country": "TZ",
-   "category": "press",
-   "segments": [
-    "city",
-    "bush",
-    "beach"
-   ],
-   "first_seen": "2026-10-22T22:18+03:00",
-   "published": null,
-   "verdict": "CONSIDER"
-  },
-  {
-   "score": 72.0,
-   "components": {
-    "tier": 40,
-    "category": 5,
-    "lead": 1.2,
-    "relevance": 12,
-    "freshness": 19.8,
-    "undated": -6
-   },
-   "keywords": [
-    "gazette",
-    "conference"
-   ],
-   "shock_terms": [],
-   "dedupe_match": null,
-   "dedupe_similarity": 0.2,
-   "id": "2e8ebc8291ba",
-   "title": "23 Oct 2026 Communications Directorate of Ethics and Integrity Man on a Mission: The 5th Commemoration of Bishop Hannington Day 2026 Government of Uganda gazetted the 29th day of October as the national day to commemorate the martyrdom of Bishop James Hannington, who was murdered along with his 48 porters, on the orders of Kabaka Mwanga II of Buganda. During a press conference at\u2026 Read \u2192",
-   "url": "https://mediacentre.go.ug/press-room/man-on-a-mission-the-5th-commemoration-of-bishop-hannington-day-2026",
-   "summary": "",
-   "kind": "item",
-   "source": "Uganda Media Centre \u2014 press room",
-   "source_id": "ug-mediacentre",
-   "tier": 1,
-   "country": "UG",
-   "category": "gov-comms",
-   "segments": [
-    "city",
-    "bush"
-   ],
-   "first_seen": "2026-10-23T02:07+03:00",
-   "published": null,
-   "verdict": "CONSIDER"
-  },
-  {
-   "score": 70.4,
-   "components": {
-    "tier": 20,
-    "category": 5,
-    "lead": 3.6,
-    "relevance": 12,
-    "freshness": 19.8,
-    "corroborated": 10
-   },
-   "keywords": [
-    "arrivals",
-    "hotel"
-   ],
-   "shock_terms": [],
-   "dedupe_match": null,
-   "dedupe_similarity": 0.14,
-   "id": "3600c4bde57f",
-   "title": "Speedy Arrivals, Seamless Stays: How Hotel June Malibu Eliminated Wait Times With Canary's Mobile Key",
-   "url": "https://www.hospitalitynet.org/casestudy/4134927/speedy-arrivals-seamless-stays-how-hotel-june-malibu-eliminated-wait-times-with-canarys-mobile-key",
-   "summary": "Hotel June Malibu cut check-in wait times from 7 minutes to zero using Canary Technologies' Mobile Key and Mobile Check-In, with over half of mobile check-ins now opting for a mobile key.",
-   "kind": "item",
-   "source": "Hospitality Net \u2014 Africa announcements",
-   "source_id": "dev-hospitalitynet-africa",
-   "tier": 2,
-   "country": "REG",
-   "category": "trade",
-   "segments": [
-    "city",
-    "bush",
-    "beach"
-   ],
-   "first_seen": "2026-10-23T02:07+03:00",
-   "published": "2026-10-22",
-   "verdict": "CONSIDER"
-  },
-  {
-   "score": 66.4,
-   "components": {
-    "tier": 20,
-    "category": 5,
-    "lead": 3.6,
-    "relevance": 8,
-    "freshness": 19.8,
-    "corroborated": 10
-   },
-   "keywords": [
-    "hotel",
-    "booking"
-   ],
-   "shock_terms": [],
-   "dedupe_match": null,
-   "dedupe_similarity": 0.08,
-   "id": "5fa89a9b868b",
-   "title": "Your hotel website is your 24/7 salesperson. Would you hire it?",
-   "url": "https://www.hospitalitynet.org/opinion/4135016/your-hotel-website-is-your-247-salesperson-would-you-hire-it",
-   "summary": "A practical checklist for hoteliers to audit their website like a salesperson, covering page speed, booking paths, content accuracy, and personalization to drive direct bookings over OTAs.",
-   "kind": "item",
-   "source": "Hospitality Net \u2014 Africa announcements",
-   "source_id": "dev-hospitalitynet-africa",
-   "tier": 2,
-   "country": "REG",
-   "category": "trade",
-   "segments": [
-    "city",
-    "bush",
-    "beach"
-   ],
-   "first_seen": "2026-10-23T02:07+03:00",
-   "published": "2026-10-22",
-   "verdict": "weak"
-  },
-  {
-   "score": 65.0,
-   "components": {
-    "tier": 20,
-    "category": 5,
-    "lead": 2.4,
-    "relevance": 12,
-    "freshness": 15.6,
-    "corroborated": 10
-   },
-   "keywords": [
-    "arrivals",
-    "hotel"
-   ],
-   "shock_terms": [],
-   "dedupe_match": null,
-   "dedupe_similarity": 0.14,
-   "id": "e47bef51dc21",
-   "title": "Speedy Arrivals, Seamless Stays: How Hotel June Malibu Eliminated Wait Times With Canary's Mobile Key",
-   "url": "https://www.hospitalitynet.org/casestudy/4134927/speedy-arrivals-seamless-stays-how-hotel-june-malibu-eliminated-wait-times-with-canarys-mobile-key",
-   "summary": "Hotel June Malibu cut check-in wait times from 7 minutes to zero using Canary Technologies' Mobile Key and Mobile Check-In, with over half of mobile check-ins now opting for a mobile key.",
-   "kind": "item",
-   "source": "Hospitality Net: Africa openings",
-   "source_id": "dev-hospitalitynet-openings",
-   "tier": 2,
-   "country": "AFRICA",
-   "category": "trade",
-   "segments": [
-    "city",
-    "bush",
-    "beach"
-   ],
-   "first_seen": "2026-10-22T22:18+03:00",
-   "published": "2026-10-22",
-   "verdict": "weak"
-  },
-  {
-   "score": 64.0,
-   "components": {
-    "tier": 20,
-    "category": 5,
-    "lead": 1.2,
-    "relevance": 8,
-    "freshness": 19.8,
-    "corroborated": 10
-   },
-   "keywords": [
-    "airline",
-    "investment"
-   ],
-   "shock_terms": [],
-   "dedupe_match": null,
-   "dedupe_similarity": 0.0,
-   "id": "92da3ac3f33b",
-   "title": "American Airlines Expects a 2026 Loss. How It Plans to Turn a Profit in 2027.",
-   "url": "https://skift.com/2026/10/22/american-airlines-expects-a-2026-loss-how-it-plans-to-turn-a-profit-in-2027",
-   "summary": "American CEO Robert Isom said he was confident that American\u2019s premium investments will pay off in 2027.",
-   "kind": "item",
-   "source": "Skift",
-   "source_id": "tp-skift",
-   "tier": 2,
-   "country": "GLOBAL",
-   "category": "trade",
-   "segments": [
-    "city",
-    "bush",
-    "beach"
-   ],
-   "first_seen": "2026-10-23T02:07+03:00",
-   "published": "2026-10-22",
-   "verdict": "weak"
-  },
-  {
-   "score": 63.8,
-   "components": {
-    "tier": 20,
-    "category": 4,
-    "lead": 0.0,
-    "relevance": 8,
-    "freshness": 19.8,
-    "undated": -6,
-    "shock": 18
-   },
-   "keywords": [
-    "strike"
-   ],
-   "shock_terms": [
-    "strike"
-   ],
-   "dedupe_match": null,
-   "dedupe_similarity": 0.0,
-   "id": "fd94b565fcec",
-   "title": "international Russia, Ukraine exchange strikes as US envoy leaves after talks 13 hours ago - 2 min read",
-   "url": "https://www.thecitizen.co.tz/tanzania/news/international/russia-ukraine-exchange-strikes-as-us-envoy-leaves-after-talks-5641486",
-   "summary": "",
-   "kind": "item",
-   "source": "The Citizen (Tanzania)",
-   "source_id": "np-citizen-tz",
-   "tier": 2,
-   "country": "TZ",
-   "category": "press",
-   "segments": [
-    "city",
-    "bush",
-    "beach"
-   ],
-   "first_seen": "2026-10-23T02:07+03:00",
-   "published": null,
-   "verdict": "weak"
-  },
-  {
-   "score": 63.8,
-   "components": {
-    "tier": 20,
-    "category": 4,
-    "lead": 0.0,
-    "relevance": 8,
-    "freshness": 19.8,
-    "undated": -6,
-    "shock": 18
-   },
-   "keywords": [
-    "airport"
-   ],
-   "shock_terms": [
-    "attack"
-   ],
-   "dedupe_match": null,
-   "dedupe_similarity": 0.09,
-   "id": "01359a7ef4b0",
-   "title": "international Two killed, 8 injured in attack on airport in Saudi oil city Dammam 13 hours ago - 1 min read",
-   "url": "https://www.thecitizen.co.tz/tanzania/news/international/two-killed-8-injured-in-attack-on-airport-in-saudi-oil-city-dammam-5641458",
-   "summary": "",
-   "kind": "item",
-   "source": "The Citizen (Tanzania)",
-   "source_id": "np-citizen-tz",
-   "tier": 2,
-   "country": "TZ",
-   "category": "press",
-   "segments": [
-    "city",
-    "bush",
-    "beach"
-   ],
-   "first_seen": "2026-10-23T02:07+03:00",
-   "published": null,
-   "verdict": "weak"
   }
  ]
 }
