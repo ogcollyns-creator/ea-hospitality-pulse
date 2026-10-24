@@ -1,18 +1,62 @@
 {
- "generated": "2026-10-24T02:02:25+03:00",
+ "generated": "2026-10-24T06:42:55+03:00",
  "slot": "morning",
  "window_start": 1792767600,
- "observations_in_window": 228,
- "deduped_against": 25,
+ "observations_in_window": 317,
+ "deduped_against": 22,
  "candidates": [
   {
-   "score": 123.3,
+   "score": 161.0,
+   "components": {
+    "tier": 40,
+    "category": 32,
+    "lead": 1.2,
+    "relevance": 56,
+    "freshness": 19.8,
+    "undated": -6,
+    "shock": 18
+   },
+   "keywords": [
+    "advisory",
+    "terror",
+    "kidnap",
+    "level 4",
+    "airport"
+   ],
+   "shock_terms": [
+    "level 4",
+    "do not travel",
+    "attack"
+   ],
+   "dedupe_match": null,
+   "dedupe_similarity": 0.2,
+   "id": "e061c1edd859",
+   "title": "Iran - Level 4: Do Not Travel",
+   "url": "https://travel.state.gov/content/tsg_aem/us/en/home/international-travel/travel-advisories/destination.irn.html",
+   "summary": "Do not travel to Iran due to the risk of terrorism , unrest , kidnapping , arbitrary arrest of U.S. citizens, and wrongful detention . Read the entire Travel Advisory. Do not travel to Iran for any reason. U.S. citizens in Iran should leave immediately . There is no U.S. Embassy in Iran. Review our information on Travel to High-Risk Areas . Iranian-supported Houthis have engaged in hostilities aga",
+   "kind": "item",
+   "source": "US State Dept travel advisories (EA feed)",
+   "source_id": "adv-us-ea",
+   "tier": 1,
+   "country": "REG",
+   "category": "advisory",
+   "segments": [
+    "city",
+    "bush",
+    "beach"
+   ],
+   "first_seen": "2026-10-24T06:41+03:00",
+   "published": null,
+   "verdict": "LEAD CANDIDATE \u2014 tier-1 shock language"
+  },
+  {
+   "score": 118.2,
    "components": {
     "tier": 40,
     "category": 24,
     "lead": 3.6,
     "relevance": 24,
-    "freshness": 19.7,
+    "freshness": 14.6,
     "undated": -6,
     "shock": 18
    },
@@ -45,13 +89,13 @@
    "verdict": "LEAD CANDIDATE \u2014 tier-1 shock language"
   },
   {
-   "score": 118.2,
+   "score": 113.1,
    "components": {
     "tier": 40,
     "category": 24,
     "lead": 2.4,
     "relevance": 24,
-    "freshness": 15.8,
+    "freshness": 10.7,
     "undated": -6,
     "shock": 18
    },
@@ -83,14 +127,45 @@
    "verdict": "LEAD CANDIDATE \u2014 tier-1 shock language"
   },
   {
-   "score": 101.3,
+   "score": 91.4,
    "components": {
     "tier": 40,
     "category": 32,
     "lead": 3.6,
     "relevance": 0,
-    "freshness": 19.7,
-    "corroborated": 10,
+    "freshness": 19.8,
+    "page_change": -4
+   },
+   "keywords": [],
+   "shock_terms": [],
+   "dedupe_match": null,
+   "dedupe_similarity": 0.1,
+   "id": "bcef1c18db75",
+   "title": "[page changed] Federal Register \u2014 public inspection (HHS/CDC), pre-publication",
+   "url": "https://www.federalregister.gov/api/v1/public-inspection-documents/current.json",
+   "summary": "{\"count\":107,\"results\":[{\"agencies\":[{\"raw_name\":\"LEGAL SERVICES CORPORATION\",\"name\":\"Legal Services Corporation\",\"id\":276,\"url\":\"https://www.federalregister.gov/agencies/legal-services-corporation\",\"json_url\":\"https://www.federalregister.gov/api/v1/agencies/276\",\"parent_id\":null,\"slug\":\"legal-services-corporation\"}],\"agency_letters\":[],\"agency_names\":[\"Legal Services Corporation\"],\"docket_numbers",
+   "kind": "page-change",
+   "source": "Federal Register \u2014 public inspection (HHS/CDC), pre-publication",
+   "source_id": "us-fedreg-pubinspect-hhs",
+   "tier": 1,
+   "country": "REG",
+   "category": "advisory",
+   "segments": [
+    "city",
+    "bush"
+   ],
+   "first_seen": "2026-10-24T06:41+03:00",
+   "published": "2026-10-22",
+   "verdict": "OPEN THIS \u2014 tier-1 advisory page moved; content not auto-parsed, read it manually"
+  },
+  {
+   "score": 86.2,
+   "components": {
+    "tier": 40,
+    "category": 32,
+    "lead": 3.6,
+    "relevance": 0,
+    "freshness": 14.6,
     "page_change": -4
    },
    "keywords": [],
@@ -116,14 +191,13 @@
    "verdict": "OPEN THIS \u2014 tier-1 advisory page moved; content not auto-parsed, read it manually"
   },
   {
-   "score": 97.4,
+   "score": 82.3,
    "components": {
     "tier": 40,
     "category": 32,
     "lead": 3.6,
     "relevance": 0,
-    "freshness": 15.8,
-    "corroborated": 10,
+    "freshness": 10.7,
     "page_change": -4
    },
    "keywords": [],
@@ -149,13 +223,13 @@
    "verdict": "OPEN THIS \u2014 tier-1 advisory page moved; content not auto-parsed, read it manually"
   },
   {
-   "score": 61.4,
+   "score": 56.3,
    "components": {
     "tier": 40,
     "category": 12,
     "lead": 3.6,
     "relevance": 0,
-    "freshness": 15.8,
+    "freshness": 10.7,
     "undated": -6,
     "page_change": -4
    },
@@ -183,13 +257,13 @@
    "verdict": "OPEN THIS \u2014 tier-1 airline page moved; content not auto-parsed, read it manually"
   },
   {
-   "score": 111.6,
+   "score": 106.5,
    "components": {
     "tier": 40,
     "category": 9,
     "lead": 16.8,
     "relevance": 20,
-    "freshness": 15.8,
+    "freshness": 10.7,
     "corroborated": 10
    },
    "keywords": [
@@ -221,13 +295,116 @@
    "verdict": "STRONG \u2014 tier-1, upstream"
   },
   {
-   "score": 89.4,
+   "score": 91.6,
+   "components": {
+    "tier": 40,
+    "category": 17,
+    "lead": 16.8,
+    "relevance": 4,
+    "freshness": 19.8,
+    "undated": -6
+   },
+   "keywords": [
+    "tourism"
+   ],
+   "shock_terms": [],
+   "dedupe_match": null,
+   "dedupe_similarity": 0.0,
+   "id": "3da46a0f0b37",
+   "title": "EU project launches a community to support tourism destinations and SMEs in the data transition",
+   "url": "https://transition-pathways.europa.eu/tourism/news/eu-project-launches-community-support-tourism-destinations-and-smes-data-transition",
+   "summary": "",
+   "kind": "item",
+   "source": "EU Tourism Transition Pathway \u2014 legislation & guidance",
+   "source_id": "eu-tourism-pathway",
+   "tier": 1,
+   "country": "REG",
+   "category": "regulator",
+   "segments": [
+    "bush",
+    "beach",
+    "city"
+   ],
+   "first_seen": "2026-10-24T06:41+03:00",
+   "published": null,
+   "verdict": "STRONG \u2014 tier-1, upstream"
+  },
+  {
+   "score": 91.6,
+   "components": {
+    "tier": 40,
+    "category": 17,
+    "lead": 16.8,
+    "relevance": 4,
+    "freshness": 19.8,
+    "undated": -6
+   },
+   "keywords": [
+    "tourism"
+   ],
+   "shock_terms": [],
+   "dedupe_match": null,
+   "dedupe_similarity": 0.0,
+   "id": "93459c7d6616",
+   "title": "New Baltic rural tourism project starts with a focus on low-carbon access to destinations",
+   "url": "https://transition-pathways.europa.eu/tourism/news/new-baltic-rural-tourism-project-starts-focus-low-carbon-access-destinations",
+   "summary": "",
+   "kind": "item",
+   "source": "EU Tourism Transition Pathway \u2014 legislation & guidance",
+   "source_id": "eu-tourism-pathway",
+   "tier": 1,
+   "country": "REG",
+   "category": "regulator",
+   "segments": [
+    "bush",
+    "beach",
+    "city"
+   ],
+   "first_seen": "2026-10-24T06:41+03:00",
+   "published": null,
+   "verdict": "STRONG \u2014 tier-1, upstream"
+  },
+  {
+   "score": 87.6,
+   "components": {
+    "tier": 40,
+    "category": 17,
+    "lead": 16.8,
+    "relevance": 0,
+    "freshness": 19.8,
+    "undated": -6
+   },
+   "keywords": [],
+   "shock_terms": [],
+   "dedupe_match": null,
+   "dedupe_similarity": 0.1,
+   "id": "607a97dccb02",
+   "title": "New water sports facility opens in Ireland as part of a \u20ac32 million national programme",
+   "url": "https://transition-pathways.europa.eu/tourism/news/new-water-sports-facility-opens-ireland-part-eur32-million-national-programme",
+   "summary": "",
+   "kind": "item",
+   "source": "EU Tourism Transition Pathway \u2014 legislation & guidance",
+   "source_id": "eu-tourism-pathway",
+   "tier": 1,
+   "country": "REG",
+   "category": "regulator",
+   "segments": [
+    "bush",
+    "beach",
+    "city"
+   ],
+   "first_seen": "2026-10-24T06:41+03:00",
+   "published": null,
+   "verdict": "CONSIDER"
+  },
+  {
+   "score": 84.3,
    "components": {
     "tier": 40,
     "category": 12,
     "lead": 3.6,
     "relevance": 8,
-    "freshness": 15.8,
+    "freshness": 10.7,
     "corroborated": 10
    },
    "keywords": [
@@ -254,13 +431,13 @@
    "verdict": "CONSIDER"
   },
   {
-   "score": 88.2,
+   "score": 83.1,
    "components": {
     "tier": 40,
     "category": 24,
     "lead": 2.4,
     "relevance": 12,
-    "freshness": 15.8,
+    "freshness": 10.7,
     "undated": -6
    },
    "keywords": [
@@ -288,13 +465,13 @@
    "verdict": "CONSIDER"
   },
   {
-   "score": 88.2,
+   "score": 83.1,
    "components": {
     "tier": 40,
     "category": 24,
     "lead": 2.4,
     "relevance": 12,
-    "freshness": 15.8,
+    "freshness": 10.7,
     "undated": -6
    },
    "keywords": [
@@ -322,13 +499,13 @@
    "verdict": "CONSIDER"
   },
   {
-   "score": 85.6,
+   "score": 80.5,
    "components": {
     "tier": 40,
     "category": 15,
     "lead": 16.8,
     "relevance": 8,
-    "freshness": 15.8,
+    "freshness": 10.7,
     "undated": -6,
     "page_change": -4
    },
@@ -358,19 +535,54 @@
    "verdict": "CONSIDER"
   },
   {
-   "score": 83.6,
+   "score": 78.8,
+   "components": {
+    "tier": 40,
+    "category": 5,
+    "lead": 12.0,
+    "relevance": 8,
+    "freshness": 19.8,
+    "undated": -6
+   },
+   "keywords": [
+    "election"
+   ],
+   "shock_terms": [],
+   "dedupe_match": null,
+   "dedupe_similarity": 0.14,
+   "id": "cf0854bbbe58",
+   "title": "EXPLAINER ON THE ELECTIONS (AMENDMENT) (NO. 2) BILL (SENATE BILL NO. 29 OF 2024)",
+   "url": "https://www.parliament.go.ke/explainer-elections-amendment-no-2-bill-senate-bill-no-29-2024",
+   "summary": "",
+   "kind": "item",
+   "source": "Senate Committee on Delegated Legislation (Kenya) \u2014 the committee that annuls or accedes to statutory instruments",
+   "source_id": "ke-senate-delegated-legislation",
+   "tier": 1,
+   "country": "KE",
+   "category": "REG",
+   "segments": [
+    "city",
+    "bush",
+    "beach"
+   ],
+   "first_seen": "2026-10-24T06:41+03:00",
+   "published": null,
+   "verdict": "CONSIDER"
+  },
+  {
+   "score": 78.5,
    "components": {
     "tier": 40,
     "category": 17,
     "lead": 16.8,
     "relevance": 0,
-    "freshness": 15.8,
+    "freshness": 10.7,
     "undated": -6
    },
    "keywords": [],
    "shock_terms": [],
    "dedupe_match": null,
-   "dedupe_similarity": 0.2,
+   "dedupe_similarity": 0.17,
    "id": "b62408bbead3",
    "title": "23 Oct 26 Tupo Tayari Kutekeleza Sheria ya Bima ya Afya Kwa Wote - TIR... Mamlaka ya Usimamizi wa Bima Tanzania (TIRA) imeshiriki katika uzinduzi wa Bima ya Afya kwa Wote Awa... Read More",
    "url": "https://www.tira.go.tz/news/tupo-tayari-kutekeleza-sheria-ya-bima-ya-afya-kwa-wote-tira",
@@ -391,19 +603,19 @@
    "verdict": "CONSIDER"
   },
   {
-   "score": 83.6,
+   "score": 78.5,
    "components": {
     "tier": 40,
     "category": 17,
     "lead": 16.8,
     "relevance": 0,
-    "freshness": 15.8,
+    "freshness": 10.7,
     "undated": -6
    },
    "keywords": [],
    "shock_terms": [],
    "dedupe_match": null,
-   "dedupe_similarity": 0.2,
+   "dedupe_similarity": 0.17,
    "id": "024f4fc337e0",
    "title": "23 Oct 26 TIRA, Tume ya Kurekebisha Sheria na Wadau Washiriki Kikao Ka... Mamlaka ya Usimamizi wa Bima Tanzania (TIRA) leo, tarehe 22 Oktoba 2026, imefanya kikao kazi jijini... Read More",
    "url": "https://www.tira.go.tz/news/tira-tume-ya-kurekebisha-sheria-na-wadau-washiriki-kikao-kazi-maoni-sheria-ya-bima-yatolewa",
@@ -424,13 +636,46 @@
    "verdict": "CONSIDER"
   },
   {
-   "score": 81.6,
+   "score": 77.6,
+   "components": {
+    "tier": 40,
+    "category": 7,
+    "lead": 16.8,
+    "relevance": 0,
+    "freshness": 19.8,
+    "undated": -6
+   },
+   "keywords": [],
+   "shock_terms": [],
+   "dedupe_match": null,
+   "dedupe_similarity": 0.0,
+   "id": "097dc035f3fc",
+   "title": "Consultancy Services to develop Land Use and ...",
+   "url": "https://egpuganda.go.ug/index/410874826_egp",
+   "summary": "",
+   "kind": "item",
+   "source": "Uganda EGP portal",
+   "source_id": "ug-tenders",
+   "tier": 1,
+   "country": "UG",
+   "category": "tender",
+   "segments": [
+    "city",
+    "bush",
+    "beach"
+   ],
+   "first_seen": "2026-10-24T06:41+03:00",
+   "published": null,
+   "verdict": "CONSIDER"
+  },
+  {
+   "score": 76.5,
    "components": {
     "tier": 40,
     "category": 15,
     "lead": 16.8,
     "relevance": 0,
-    "freshness": 15.8,
+    "freshness": 10.7,
     "undated": -6
    },
    "keywords": [],
@@ -457,13 +702,13 @@
    "verdict": "CONSIDER"
   },
   {
-   "score": 81.6,
+   "score": 76.5,
    "components": {
     "tier": 40,
     "category": 15,
     "lead": 16.8,
     "relevance": 0,
-    "freshness": 15.8,
+    "freshness": 10.7,
     "undated": -6
    },
    "keywords": [],
@@ -490,13 +735,13 @@
    "verdict": "CONSIDER"
   },
   {
-   "score": 78.7,
+   "score": 73.6,
    "components": {
     "tier": 40,
     "category": 5,
     "lead": 12.0,
     "relevance": 8,
-    "freshness": 19.7,
+    "freshness": 14.6,
     "undated": -6
    },
    "keywords": [
@@ -525,13 +770,13 @@
    "verdict": "CONSIDER"
   },
   {
-   "score": 78.3,
+   "score": 73.1,
    "components": {
     "tier": 20,
     "category": 4,
     "lead": 2.4,
     "relevance": 8,
-    "freshness": 15.9,
+    "freshness": 10.7,
     "corroborated": 10,
     "shock": 18
    },
@@ -563,19 +808,52 @@
    "verdict": "CONSIDER"
   },
   {
-   "score": 76.6,
+   "score": 72.8,
    "components": {
     "tier": 40,
-    "category": 10,
-    "lead": 16.8,
+    "category": 13,
+    "lead": 6.0,
     "relevance": 0,
-    "freshness": 15.8,
+    "freshness": 19.8,
     "undated": -6
    },
    "keywords": [],
    "shock_terms": [],
    "dedupe_match": null,
-   "dedupe_similarity": 0.2,
+   "dedupe_similarity": 0.17,
+   "id": "c7641a38db34",
+   "title": "News The Director General of the Tanzania Civil Aviation Authority (TCAA), Dr. Jabiri Bakari, has urged staff to work diligently, uphold professional ethic... - 23 October, 2026",
+   "url": "https://www.tcaa.go.tz/news/tcaa-staff-urged-to-work-diligently-and-deliver-quality-services-on-time",
+   "summary": "",
+   "kind": "item",
+   "source": "Tanzania Civil Aviation Authority",
+   "source_id": "tz-tcaa",
+   "tier": 1,
+   "country": "TZ",
+   "category": "aviation",
+   "segments": [
+    "city",
+    "bush",
+    "beach"
+   ],
+   "first_seen": "2026-10-24T06:41+03:00",
+   "published": null,
+   "verdict": "CONSIDER"
+  },
+  {
+   "score": 71.5,
+   "components": {
+    "tier": 40,
+    "category": 10,
+    "lead": 16.8,
+    "relevance": 0,
+    "freshness": 10.7,
+    "undated": -6
+   },
+   "keywords": [],
+   "shock_terms": [],
+   "dedupe_match": null,
+   "dedupe_similarity": 0.1,
    "id": "8aeaed38b5d9",
    "title": "Minister Ogwang rejects Kitara FC\u2019s request to use Hoima City Stadium Friday, 23 October 2026",
    "url": "https://www.parliament.go.ug/news/4683/minister-ogwang-rejects-kitara-fcs-request-use-hoima-city-stadium",
@@ -596,19 +874,19 @@
    "verdict": "CONSIDER"
   },
   {
-   "score": 76.6,
+   "score": 71.5,
    "components": {
     "tier": 40,
     "category": 10,
     "lead": 16.8,
     "relevance": 0,
-    "freshness": 15.8,
+    "freshness": 10.7,
     "undated": -6
    },
    "keywords": [],
    "shock_terms": [],
    "dedupe_match": null,
-   "dedupe_similarity": 0.2,
+   "dedupe_similarity": 0.1,
    "id": "a9d069c0daaf",
    "title": "Use oversights visits to bring people close to Parliament - Tayebwa Friday, 23 October 2026",
    "url": "https://www.parliament.go.ug/news/4682/use-oversights-visits-bring-people-close-parliament-tayebwa",
@@ -629,13 +907,13 @@
    "verdict": "CONSIDER"
   },
   {
-   "score": 75.9,
+   "score": 70.7,
    "components": {
     "tier": 20,
     "category": 4,
     "lead": 0.0,
     "relevance": 24,
-    "freshness": 15.9,
+    "freshness": 10.7,
     "undated": -6,
     "shock": 18
    },
@@ -668,13 +946,153 @@
    "verdict": "CONSIDER"
   },
   {
-   "score": 72.3,
+   "score": 68.2,
+   "components": {
+    "tier": 20,
+    "category": 4,
+    "lead": 2.4,
+    "relevance": 12,
+    "freshness": 19.8,
+    "corroborated": 10
+   },
+   "keywords": [
+    "collapse"
+   ],
+   "shock_terms": [],
+   "dedupe_match": null,
+   "dedupe_similarity": 0.0,
+   "id": "ec56933993c0",
+   "title": "Eastleigh building collapse: Rescue operations continue into the night",
+   "url": "https://nation.africa/kenya/counties/nairobi/building-collapses-in-eastleigh-5643012",
+   "summary": "Police lob tear gas to disperse curious onlookers and make way for rescuers.",
+   "kind": "item",
+   "source": "Nation Africa: Kenya business",
+   "source_id": "ke-nation-business",
+   "tier": 2,
+   "country": "KE",
+   "category": "press",
+   "segments": [
+    "city",
+    "bush",
+    "beach"
+   ],
+   "first_seen": "2026-10-24T06:41+03:00",
+   "published": "2026-10-23",
+   "verdict": "weak"
+  },
+  {
+   "score": 68.2,
+   "components": {
+    "tier": 20,
+    "category": 4,
+    "lead": 2.4,
+    "relevance": 12,
+    "freshness": 19.8,
+    "corroborated": 10
+   },
+   "keywords": [
+    "collapse"
+   ],
+   "shock_terms": [],
+   "dedupe_match": null,
+   "dedupe_similarity": 0.0,
+   "id": "4ff4922d6617",
+   "title": "Rescue operations continue into the night at site of Eastleigh building collapse",
+   "url": "https://nation.africa/kenya/videos/rescue-operations-continue-into-the-night-at-site-of-eastleigh-building-collapse-5643266",
+   "summary": "",
+   "kind": "item",
+   "source": "Nation Africa: Kenya business",
+   "source_id": "ke-nation-business",
+   "tier": 2,
+   "country": "KE",
+   "category": "press",
+   "segments": [
+    "city",
+    "bush",
+    "beach"
+   ],
+   "first_seen": "2026-10-24T06:41+03:00",
+   "published": "2026-10-23",
+   "verdict": "weak"
+  },
+  {
+   "score": 68.2,
+   "components": {
+    "tier": 20,
+    "category": 4,
+    "lead": 2.4,
+    "relevance": 12,
+    "freshness": 19.8,
+    "corroborated": 10
+   },
+   "keywords": [
+    "collapse"
+   ],
+   "shock_terms": [],
+   "dedupe_match": null,
+   "dedupe_similarity": 0.08,
+   "id": "2a1f63de6fca",
+   "title": "Minutes to disaster: Survivors recount cracks, panic before Nairobi\u2019s Eastleigh building collapse",
+   "url": "https://nation.africa/kenya/counties/nairobi/survivors-cracks-panic-before-eastleigh-building-collapse-5643492",
+   "summary": "Construction worker says he noticed cracks within the building before tragedy struck.",
+   "kind": "item",
+   "source": "Nation Africa: Kenya business",
+   "source_id": "ke-nation-business",
+   "tier": 2,
+   "country": "KE",
+   "category": "press",
+   "segments": [
+    "city",
+    "bush",
+    "beach"
+   ],
+   "first_seen": "2026-10-24T06:41+03:00",
+   "published": "2026-10-23",
+   "verdict": "weak"
+  },
+  {
+   "score": 68.2,
+   "components": {
+    "tier": 20,
+    "category": 4,
+    "lead": 2.4,
+    "relevance": 12,
+    "freshness": 19.8,
+    "corroborated": 10
+   },
+   "keywords": [
+    "collapse"
+   ],
+   "shock_terms": [],
+   "dedupe_match": null,
+   "dedupe_similarity": 0.0,
+   "id": "da839b5595fd",
+   "title": "Eastleigh building collapse: Witness recounts moments before 13 storey structure crumbled",
+   "url": "https://nation.africa/kenya/counties/nairobi/eastleigh-building-collapse-witness-recounts-moments-before-13-storey-structure-crumbled-5643604",
+   "summary": "",
+   "kind": "item",
+   "source": "Nation Africa: Kenya business",
+   "source_id": "ke-nation-business",
+   "tier": 2,
+   "country": "KE",
+   "category": "press",
+   "segments": [
+    "city",
+    "bush",
+    "beach"
+   ],
+   "first_seen": "2026-10-24T06:41+03:00",
+   "published": "2026-10-23",
+   "verdict": "weak"
+  },
+  {
+   "score": 67.1,
    "components": {
     "tier": 20,
     "category": 4,
     "lead": 2.4,
     "relevance": 20,
-    "freshness": 15.9,
+    "freshness": 10.7,
     "corroborated": 10
    },
    "keywords": [
@@ -701,16 +1119,16 @@
    ],
    "first_seen": "2026-10-23T22:26+03:00",
    "published": "2026-10-23",
-   "verdict": "CONSIDER"
+   "verdict": "weak"
   },
   {
-   "score": 69.7,
+   "score": 64.6,
    "components": {
     "tier": 20,
     "category": 4,
     "lead": 0.0,
     "relevance": 16,
-    "freshness": 19.7,
+    "freshness": 14.6,
     "corroborated": 10
    },
    "keywords": [
@@ -741,13 +1159,49 @@
    "verdict": "weak"
   },
   {
-   "score": 69.2,
+   "score": 64.2,
+   "components": {
+    "tier": 20,
+    "category": 24,
+    "lead": 2.4,
+    "relevance": 8,
+    "freshness": 19.8,
+    "undated": -6,
+    "page_change": -4
+   },
+   "keywords": [
+    "vat"
+   ],
+   "shock_terms": [],
+   "dedupe_match": null,
+   "dedupe_similarity": 0.1,
+   "id": "5c40ee8bcc5b",
+   "title": "[page changed] ProMED-mail",
+   "url": "https://promedmail.org/",
+   "summary": "Protecting Global Health, One Alert at a Time | ProMED Previous slide Next slide Protecting Global Health, One Alert at a Time ProMED: Your 24/7 early warning system for emerging infectious diseases worldwide. Subscribe ProMED's Weekly Pulse A snapshot of global health events from the past 7 days Latest Posts on ProMED All Date Title Sat Oct 24 2026 RESEARCH & INNOVATION (209): SALMONELLA, PROBIOT",
+   "kind": "page-change",
+   "source": "ProMED-mail",
+   "source_id": "promed",
+   "tier": 2,
+   "country": "GLOBAL",
+   "category": "health",
+   "segments": [
+    "city",
+    "bush",
+    "beach"
+   ],
+   "first_seen": "2026-10-24T06:41+03:00",
+   "published": null,
+   "verdict": "weak"
+  },
+  {
+   "score": 64.1,
    "components": {
     "tier": 20,
     "category": 5,
     "lead": 2.4,
     "relevance": 16,
-    "freshness": 15.8,
+    "freshness": 10.7,
     "corroborated": 10
    },
    "keywords": [
@@ -776,13 +1230,13 @@
    "verdict": "weak"
   },
   {
-   "score": 67.9,
+   "score": 62.7,
    "components": {
     "tier": 5,
     "category": 5,
     "lead": 0.0,
     "relevance": 32,
-    "freshness": 15.9,
+    "freshness": 10.7,
     "corroborated": 10
    },
    "keywords": [
@@ -816,13 +1270,13 @@
    "verdict": "weak"
   },
   {
-   "score": 67.7,
+   "score": 62.6,
    "components": {
     "tier": 20,
     "category": 4,
     "lead": 0.0,
     "relevance": 12,
-    "freshness": 19.7,
+    "freshness": 14.6,
     "undated": -6,
     "shock": 18
    },
@@ -833,7 +1287,7 @@
     "outbreak"
    ],
    "dedupe_match": null,
-   "dedupe_similarity": 0.2,
+   "dedupe_similarity": 0.17,
    "id": "34f59d8f0dda",
    "title": "National Tanzania to operate disease sample bank to tackle future outbreaks 15 hours ago - 2 min read",
    "url": "https://www.thecitizen.co.tz/tanzania/news/national/tanzania-to-operate-disease-sample-bank-to-tackle-future-outbreaks-5642256",
@@ -854,13 +1308,51 @@
    "verdict": "weak"
   },
   {
-   "score": 66.3,
+   "score": 62.2,
+   "components": {
+    "tier": 5,
+    "category": 5,
+    "lead": 2.4,
+    "relevance": 20,
+    "freshness": 19.8,
+    "corroborated": 10
+   },
+   "keywords": [
+    "vat",
+    "tourism",
+    "booking",
+    "investment"
+   ],
+   "shock_terms": [],
+   "dedupe_match": null,
+   "dedupe_similarity": 0.1,
+   "id": "f3f6bb886c1f",
+   "title": "Vietnam Forest Tourism Puts Conservation at the Heart of Dong Nai Travel",
+   "url": "https://www.travelandtourworld.com/news/article/0i9y2mhndml9",
+   "summary": "Vietnam Forest Tourism Puts Conservation at the Heart of Dong Nai Travel Dong Nai is connecting forest experiences with conservation goals and local livelihoods. New partnerships and published investment targets outline its ambitions, but what does visitor spending actually support? Explore the plans behind Vietnam\u2019s forest tourism push and the practical questions travellers should ask before book",
+   "kind": "item",
+   "source": "Travel And Tour World",
+   "source_id": "gl-travelandtourworld",
+   "tier": 3,
+   "country": "GLOBAL",
+   "category": "trade",
+   "segments": [
+    "city",
+    "bush",
+    "beach"
+   ],
+   "first_seen": "2026-10-24T06:41+03:00",
+   "published": "2026-10-24",
+   "verdict": "weak"
+  },
+  {
+   "score": 61.2,
    "components": {
     "tier": 20,
     "category": 5,
     "lead": 3.6,
     "relevance": 8,
-    "freshness": 19.7,
+    "freshness": 14.6,
     "corroborated": 10
    },
    "keywords": [
@@ -890,13 +1382,13 @@
    "verdict": "weak"
   },
   {
-   "score": 66.3,
+   "score": 61.1,
    "components": {
     "tier": 5,
     "category": 5,
     "lead": 2.4,
     "relevance": 28,
-    "freshness": 15.9,
+    "freshness": 10.7,
     "corroborated": 10
    },
    "keywords": [
@@ -924,497 +1416,6 @@
     "beach"
    ],
    "first_seen": "2026-10-23T22:27+03:00",
-   "published": "2026-10-23",
-   "verdict": "weak"
-  },
-  {
-   "score": 65.7,
-   "components": {
-    "tier": 20,
-    "category": 4,
-    "lead": 0.0,
-    "relevance": 12,
-    "freshness": 19.7,
-    "corroborated": 10
-   },
-   "keywords": [
-    "collapse"
-   ],
-   "shock_terms": [],
-   "dedupe_match": null,
-   "dedupe_similarity": 0.0,
-   "id": "3aa29c373db4",
-   "title": "Building collapses in Kenyan capital, rescuers on the scene",
-   "url": "https://www.monitor.co.ug/uganda/news/building-collapses-in-kenyan-capital-rescuers-on-the-scene-5643636",
-   "summary": "It was not \u200bimmediately clear what caused \u200bthe building to collapse",
-   "kind": "item",
-   "source": "Daily Monitor (Uganda)",
-   "source_id": "np-monitor-ug",
-   "tier": 2,
-   "country": "UG",
-   "category": "press",
-   "segments": [
-    "city",
-    "bush",
-    "beach"
-   ],
-   "first_seen": "2026-10-24T01:58+03:00",
-   "published": "2026-10-23",
-   "verdict": "weak"
-  },
-  {
-   "score": 65.7,
-   "components": {
-    "tier": 20,
-    "category": 4,
-    "lead": 0.0,
-    "relevance": 12,
-    "freshness": 19.7,
-    "corroborated": 10
-   },
-   "keywords": [
-    "ebola"
-   ],
-   "shock_terms": [],
-   "dedupe_match": null,
-   "dedupe_similarity": 0.33,
-   "id": "1c88718af8e8",
-   "title": "Health officials race to trace source of Nigeria's Ebola infection",
-   "url": "https://www.monitor.co.ug/uganda/news/world/health-officials-race-to-trace-source-of-nigeria-s-ebola-infection-5643328",
-   "summary": "Ugandan authorities have said the woman had been in eastern Congo before transiting through Uganda",
-   "kind": "item",
-   "source": "Daily Monitor (Uganda)",
-   "source_id": "np-monitor-ug",
-   "tier": 2,
-   "country": "UG",
-   "category": "press",
-   "segments": [
-    "city",
-    "bush",
-    "beach"
-   ],
-   "first_seen": "2026-10-24T01:58+03:00",
-   "published": "2026-10-23",
-   "verdict": "weak"
-  },
-  {
-   "score": 65.2,
-   "components": {
-    "tier": 20,
-    "category": 5,
-    "lead": 2.4,
-    "relevance": 12,
-    "freshness": 15.8,
-    "corroborated": 10
-   },
-   "keywords": [
-    "eta",
-    "guest"
-   ],
-   "shock_terms": [],
-   "dedupe_match": null,
-   "dedupe_similarity": 0.1,
-   "id": "adf8206b0d94",
-   "title": "Atlas Ocean Voyages Details Owner\u2019s Suites on Atlas Adventurer",
-   "url": "https://www.hotelnewsresource.com/article143478.html",
-   "summary": "Atlas Ocean Voyages has unveiled details of the Owner\u2019s Suites aboard its new vessel, Atlas Adventurer, highlighting expanded luxury accommodations as part of its strategy to appeal to premium cruise guests.",
-   "kind": "item",
-   "source": "HVS \u2014 market reports and event-impact studies (via Hotel News Resource)",
-   "source_id": "gl-hvs-market-reports",
-   "tier": 2,
-   "country": "GLOBAL",
-   "category": "trade",
-   "segments": [
-    "city"
-   ],
-   "first_seen": "2026-10-23T22:26+03:00",
-   "published": "2026-10-23",
-   "verdict": "weak"
-  },
-  {
-   "score": 65.2,
-   "components": {
-    "tier": 20,
-    "category": 5,
-    "lead": 2.4,
-    "relevance": 12,
-    "freshness": 15.8,
-    "corroborated": 10
-   },
-   "keywords": [
-    "hotel",
-    "guest",
-    "operator"
-   ],
-   "shock_terms": [],
-   "dedupe_match": null,
-   "dedupe_similarity": 0.07,
-   "id": "6095a1983e01",
-   "title": "PHP2Shell and Hotel Website Security: Why Your Technology Stack Matters",
-   "url": "https://www.hotelnewsresource.com/article143477.html",
-   "summary": "Vizergy highlights how the PHP2Shell vulnerability poses a significant security risk to hotel websites, emphasizing the need for hotel owners and operators to assess and strengthen their technology stack to protect sensitive guest information and maintain business continuity.",
-   "kind": "item",
-   "source": "HVS \u2014 market reports and event-impact studies (via Hotel News Resource)",
-   "source_id": "gl-hvs-market-reports",
-   "tier": 2,
-   "country": "GLOBAL",
-   "category": "trade",
-   "segments": [
-    "city"
-   ],
-   "first_seen": "2026-10-23T22:26+03:00",
-   "published": "2026-10-23",
-   "verdict": "weak"
-  },
-  {
-   "score": 65.2,
-   "components": {
-    "tier": 20,
-    "category": 5,
-    "lead": 2.4,
-    "relevance": 12,
-    "freshness": 15.8,
-    "corroborated": 10
-   },
-   "keywords": [
-    "adr",
-    "hotel"
-   ],
-   "shock_terms": [],
-   "dedupe_match": null,
-   "dedupe_similarity": 0.08,
-   "id": "bad725b9aa85",
-   "title": "Casa Verbena Madrid Opens as Outset Collection\u2019s First European Hotel",
-   "url": "https://www.hotelnewsresource.com/article143476.html",
-   "summary": "Outset Collection has opened Casa Verbena Madrid, marking its first European hotel and signaling the brand's entry into the competitive Madrid hospitality market with a boutique property.",
-   "kind": "item",
-   "source": "HVS \u2014 market reports and event-impact studies (via Hotel News Resource)",
-   "source_id": "gl-hvs-market-reports",
-   "tier": 2,
-   "country": "GLOBAL",
-   "category": "trade",
-   "segments": [
-    "city"
-   ],
-   "first_seen": "2026-10-23T22:26+03:00",
-   "published": "2026-10-23",
-   "verdict": "weak"
-  },
-  {
-   "score": 65.2,
-   "components": {
-    "tier": 20,
-    "category": 5,
-    "lead": 2.4,
-    "relevance": 12,
-    "freshness": 15.8,
-    "corroborated": 10
-   },
-   "keywords": [
-    "hotel",
-    "tourism",
-    "operator"
-   ],
-   "shock_terms": [],
-   "dedupe_match": null,
-   "dedupe_similarity": 0.1,
-   "id": "986dadc2fb40",
-   "title": "Spain's Travel & Tourism Sector Set to Surpass \u20ac269BN in 2026",
-   "url": "https://www.hotelnewsresource.com/article143474.html",
-   "summary": "Spain's travel and tourism sector is forecast to exceed \u20ac269 billion in 2026, signaling significant opportunities and potential demand growth for hotel owners, operators, and investors in the Spanish market.",
-   "kind": "item",
-   "source": "HVS \u2014 market reports and event-impact studies (via Hotel News Resource)",
-   "source_id": "gl-hvs-market-reports",
-   "tier": 2,
-   "country": "GLOBAL",
-   "category": "trade",
-   "segments": [
-    "city"
-   ],
-   "first_seen": "2026-10-23T22:26+03:00",
-   "published": "2026-10-23",
-   "verdict": "weak"
-  },
-  {
-   "score": 65.2,
-   "components": {
-    "tier": 20,
-    "category": 5,
-    "lead": 2.4,
-    "relevance": 12,
-    "freshness": 15.8,
-    "corroborated": 10
-   },
-   "keywords": [
-    "hotel",
-    "guest",
-    "franc"
-   ],
-   "shock_terms": [],
-   "dedupe_match": null,
-   "dedupe_similarity": 0.0,
-   "id": "8c068423c344",
-   "title": "Hospitality And Guest Service Excellence Now Pays Off Even More For Franchise Hotels - By Doug Kennedy",
-   "url": "https://www.hotelnewsresource.com/article143469.html",
-   "summary": "Doug Kennedy highlights how franchise hotels now offer enhanced financial rewards and recognition programs for employees who achieve excellence in guest service, aiming to improve guest satisfaction scores and strengthen the brand's reputation.",
-   "kind": "item",
-   "source": "HVS \u2014 market reports and event-impact studies (via Hotel News Resource)",
-   "source_id": "gl-hvs-market-reports",
-   "tier": 2,
-   "country": "GLOBAL",
-   "category": "trade",
-   "segments": [
-    "city"
-   ],
-   "first_seen": "2026-10-23T22:26+03:00",
-   "published": "2026-10-23",
-   "verdict": "weak"
-  },
-  {
-   "score": 64.3,
-   "components": {
-    "tier": 20,
-    "category": 4,
-    "lead": 2.4,
-    "relevance": 12,
-    "freshness": 15.9,
-    "corroborated": 10
-   },
-   "keywords": [
-    "collapse"
-   ],
-   "shock_terms": [],
-   "dedupe_match": null,
-   "dedupe_similarity": 0.0,
-   "id": "dd21406dfb64",
-   "title": "13-storey building collapses in Eastleigh",
-   "url": "https://nation.africa/kenya/videos/13-storey-building-collapses-in-eastleigh-5643266",
-   "summary": "",
-   "kind": "item",
-   "source": "Nation Africa: Kenya business",
-   "source_id": "ke-nation-business",
-   "tier": 2,
-   "country": "KE",
-   "category": "press",
-   "segments": [
-    "city",
-    "bush",
-    "beach"
-   ],
-   "first_seen": "2026-10-23T22:26+03:00",
-   "published": "2026-10-23",
-   "verdict": "weak"
-  },
-  {
-   "score": 64.3,
-   "components": {
-    "tier": 20,
-    "category": 4,
-    "lead": 2.4,
-    "relevance": 12,
-    "freshness": 15.9,
-    "corroborated": 10
-   },
-   "keywords": [
-    "collapse"
-   ],
-   "shock_terms": [],
-   "dedupe_match": null,
-   "dedupe_similarity": 0.0,
-   "id": "95d364352ce4",
-   "title": "Building collapses in Eastleigh, rescuers race to save several feared trapped",
-   "url": "https://nation.africa/kenya/counties/nairobi/building-collapses-in-eastleigh-rescuers-race-to-save-several-feared-trapped-5643012",
-   "summary": "Police lob tear gas to disperse curious onlookers and make way for rescuers.",
-   "kind": "item",
-   "source": "Nation Africa: Kenya business",
-   "source_id": "ke-nation-business",
-   "tier": 2,
-   "country": "KE",
-   "category": "press",
-   "segments": [
-    "city",
-    "bush",
-    "beach"
-   ],
-   "first_seen": "2026-10-23T22:26+03:00",
-   "published": "2026-10-23",
-   "verdict": "weak"
-  },
-  {
-   "score": 64.3,
-   "components": {
-    "tier": 20,
-    "category": 4,
-    "lead": 2.4,
-    "relevance": 12,
-    "freshness": 15.9,
-    "corroborated": 10
-   },
-   "keywords": [
-    "suspend"
-   ],
-   "shock_terms": [],
-   "dedupe_match": null,
-   "dedupe_similarity": 0.17,
-   "id": "4f63b44ec7b8",
-   "title": "Marathon world champion Jepchirchir suspended for doping",
-   "url": "https://nation.africa/kenya/sports/athletics/marathon-world-champion-jepchirchir-suspended-for-doping-5643146",
-   "summary": "Kenya\u2019s decorated marathon runner provisionally suspended after failing drug test.",
-   "kind": "item",
-   "source": "Nation Africa: Kenya business",
-   "source_id": "ke-nation-business",
-   "tier": 2,
-   "country": "KE",
-   "category": "press",
-   "segments": [
-    "city",
-    "bush",
-    "beach"
-   ],
-   "first_seen": "2026-10-23T22:26+03:00",
-   "published": "2026-10-23",
-   "verdict": "weak"
-  },
-  {
-   "score": 64.3,
-   "components": {
-    "tier": 20,
-    "category": 4,
-    "lead": 2.4,
-    "relevance": 12,
-    "freshness": 15.9,
-    "corroborated": 10
-   },
-   "keywords": [
-    "collapse"
-   ],
-   "shock_terms": [],
-   "dedupe_match": null,
-   "dedupe_similarity": 0.12,
-   "id": "72f360bb9bdc",
-   "title": "Eastleigh building collapse: Rescuers dig through rubble in search of survivors",
-   "url": "https://nation.africa/kenya/videos/eastleigh-building-collapse-rescuers-dig-through-rubble-in-search-of-survivors-5643116",
-   "summary": "",
-   "kind": "item",
-   "source": "Nation Africa: Kenya business",
-   "source_id": "ke-nation-business",
-   "tier": 2,
-   "country": "KE",
-   "category": "press",
-   "segments": [
-    "city",
-    "bush",
-    "beach"
-   ],
-   "first_seen": "2026-10-23T22:26+03:00",
-   "published": "2026-10-23",
-   "verdict": "weak"
-  },
-  {
-   "score": 63.9,
-   "components": {
-    "tier": 20,
-    "category": 4,
-    "lead": 0.0,
-    "relevance": 12,
-    "freshness": 15.9,
-    "undated": -6,
-    "shock": 18
-   },
-   "keywords": [
-    "outbreak"
-   ],
-   "shock_terms": [
-    "outbreak"
-   ],
-   "dedupe_match": null,
-   "dedupe_similarity": 0.2,
-   "id": "e0b275522eb5",
-   "title": "National Tanzania to operate disease sample bank to tackle future outbreaks 11 hours ago - 2 min read",
-   "url": "https://www.thecitizen.co.tz/tanzania/news/national/tanzania-to-operate-disease-sample-bank-to-tackle-future-outbreaks-5642256",
-   "summary": "",
-   "kind": "item",
-   "source": "The Citizen (Tanzania)",
-   "source_id": "np-citizen-tz",
-   "tier": 2,
-   "country": "TZ",
-   "category": "press",
-   "segments": [
-    "city",
-    "bush",
-    "beach"
-   ],
-   "first_seen": "2026-10-23T22:27+03:00",
-   "published": null,
-   "verdict": "weak"
-  },
-  {
-   "score": 62.3,
-   "components": {
-    "tier": 20,
-    "category": 5,
-    "lead": 3.6,
-    "relevance": 4,
-    "freshness": 19.7,
-    "corroborated": 10
-   },
-   "keywords": [
-    "guest"
-   ],
-   "shock_terms": [],
-   "dedupe_match": null,
-   "dedupe_similarity": 0.0,
-   "id": "9e9db5231744",
-   "title": "How Holiday Inn Paris \u2014 Gare de Lyon Bastille Unlocked an Extra \u20ac2K in Monthly Revenue",
-   "url": "https://www.hospitalitynet.org/casestudy/4134928/how-holiday-inn-paris-gare-de-lyon-bastille-unlocked-an-extra-2k-in-monthly-revenue",
-   "summary": "Holiday Inn Paris Gare de Lyon Bastille generates \u20ac2K monthly in upsell revenue and reclaims significant staff time after deploying Canary Technologies' full guest management suite.",
-   "kind": "item",
-   "source": "Hospitality Net \u2014 Africa announcements",
-   "source_id": "dev-hospitalitynet-africa",
-   "tier": 2,
-   "country": "REG",
-   "category": "trade",
-   "segments": [
-    "city",
-    "bush",
-    "beach"
-   ],
-   "first_seen": "2026-10-24T01:58+03:00",
-   "published": "2026-10-23",
-   "verdict": "weak"
-  },
-  {
-   "score": 62.3,
-   "components": {
-    "tier": 20,
-    "category": 5,
-    "lead": 3.6,
-    "relevance": 4,
-    "freshness": 19.7,
-    "corroborated": 10
-   },
-   "keywords": [
-    "resort"
-   ],
-   "shock_terms": [],
-   "dedupe_match": null,
-   "dedupe_similarity": 0.14,
-   "id": "e9c27e99c679",
-   "title": "Miraggio Thermal Spa Resort proves \u20ac515K+ in email marketing ROI in first four months",
-   "url": "https://www.hospitalitynet.org/casestudy/4135079/miraggio-thermal-spa-resort-proves-515k-in-email-marketing-roi-in-first-four-months",
-   "summary": "Miraggio Thermal Spa Resort generated over \u20ac515K in email marketing ROI within its first four months using Revinate Core and Marketing.",
-   "kind": "item",
-   "source": "Hospitality Net \u2014 Africa announcements",
-   "source_id": "dev-hospitalitynet-africa",
-   "tier": 2,
-   "country": "REG",
-   "category": "trade",
-   "segments": [
-    "city",
-    "bush",
-    "beach"
-   ],
-   "first_seen": "2026-10-24T01:58+03:00",
    "published": "2026-10-23",
    "verdict": "weak"
   }
