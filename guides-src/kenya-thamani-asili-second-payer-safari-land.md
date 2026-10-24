@@ -4,8 +4,9 @@ slug: kenya-thamani-asili-second-payer-safari-land
 description: At a KWS field station in Tsavo West on 21 October, Kenya closed a 160 million dollar Project Finance for Permanence deal covering 17.3 million hectares over ten years. That is about 92 US cents per hectare per year: small against the land, and larger than anything the conservancy model has ever had. The conditions attached matter more than the headline.
 category: Big Read
 updated: 2026-10-24
+image: "img/editions/kenya-thamani-asili-second-payer-safari-land.jpg"
+image_credit: "Illustration: AI-generated for EA Hospitality Pulse — synthetic image, not a photograph"
 ---
-
 Maktau is a gate, not a destination. It sits on the Tsavo West side of the Mombasa corridor, a KWS field station where elephants cross between the national park and the ranchland, the sort of place that appears on an operator's route notes and nowhere in a brochure. On 21 October, Rebecca Miano, Kenya's Cabinet Secretary for Tourism and Wildlife, stood there on behalf of President William Ruto and launched a ten-year programme called Thamani Asili, the value of nature, carrying a headline figure of 160 million dollars, or 20.78 billion shillings.
 
 The press coverage that followed, domestic and international, settled on the number and the hectares. Both are real. Neither is the thing a camp owner in the Mara, a lodge in Laikipia or a tented operation on a Tsavo ranch should be reading, because what was signed at Maktau is not a grant. It is a contract with conditions, and for the first time in the fifteen years that Kenya's conservancy model has existed at scale, those conditions put a payer other than the guest underneath the land that the guest comes to see.
