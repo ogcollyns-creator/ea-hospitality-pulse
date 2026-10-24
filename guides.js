@@ -1,5 +1,14 @@
 window.GUIDES = [
  {
+  "slug": "kenya-thamani-asili-second-payer-safari-land",
+  "title": "For fifteen years the guest has paid for Kenya's safari land. Maktau just signed up a second payer.",
+  "description": "At a KWS field station in Tsavo West on 21 October, Kenya closed a 160 million dollar Project Finance for Permanence deal covering 17.3 million hectares over ten years. That is about 92 US cents per hectare per year: small against the land, and larger than anything the conservancy model has ever had. The conditions attached matter more than the headline.",
+  "category": "Big Read",
+  "updated": "2026-10-24",
+  "readMins": 8,
+  "image": "img/editions/kenya-thamani-asili-second-payer-safari-land.jpg"
+ },
+ {
   "slug": "ai-agent-access-east-africa-lodges",
   "title": "Nobody at your lodge decided to block the AI agent. Something in your stack did.",
   "description": "On 18 October an AI agent working for a traveller could not see a rate at a Wyndham hotel. On 19 October it reached the guest details page. Nothing in Wyndham's published policy changed overnight, and that is the point: access to hotel inventory is now decided by bot-management software rather than by anyone's commercial judgement. East African operators have never looked at what their own stack does.",
