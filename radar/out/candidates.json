@@ -1,18 +1,18 @@
 {
- "generated": "2026-10-24T21:15:43+03:00",
+ "generated": "2026-10-24T23:26:49+03:00",
  "slot": "evening",
  "window_start": 1792756800,
- "observations_in_window": 1085,
+ "observations_in_window": 1133,
  "deduped_against": 22,
  "candidates": [
   {
-   "score": 145.0,
+   "score": 142.6,
    "components": {
     "tier": 40,
     "category": 32,
     "lead": 1.2,
     "relevance": 56,
-    "freshness": 3.8,
+    "freshness": 1.4,
     "undated": -6,
     "shock": 18
    },
@@ -50,13 +50,13 @@
    "verdict": "LEAD CANDIDATE \u2014 tier-1 shock language"
   },
   {
-   "score": 106.7,
+   "score": 104.3,
    "components": {
     "tier": 40,
     "category": 32,
     "lead": 12.0,
     "relevance": 8,
-    "freshness": 8.7,
+    "freshness": 6.3,
     "corroborated": 10,
     "page_change": -4
    },
@@ -201,13 +201,45 @@
    "verdict": "LEAD CANDIDATE \u2014 tier-1 shock language"
   },
   {
-   "score": 90.3,
+   "score": 91.3,
    "components": {
     "tier": 40,
     "category": 32,
     "lead": 3.6,
     "relevance": 0,
-    "freshness": 18.7,
+    "freshness": 19.7,
+    "page_change": -4
+   },
+   "keywords": [],
+   "shock_terms": [],
+   "dedupe_match": null,
+   "dedupe_similarity": 0.1,
+   "id": "b9eefffbb610",
+   "title": "[page changed] Federal Register \u2014 public inspection (HHS/CDC), pre-publication",
+   "url": "https://www.federalregister.gov/api/v1/public-inspection-documents/current.json",
+   "summary": "{\"count\":107,\"results\":[{\"agencies\":[{\"raw_name\":\"LEGAL SERVICES CORPORATION\",\"name\":\"Legal Services Corporation\",\"id\":276,\"url\":\"https://www.federalregister.gov/agencies/legal-services-corporation\",\"json_url\":\"https://www.federalregister.gov/api/v1/agencies/276\",\"parent_id\":null,\"slug\":\"legal-services-corporation\"}],\"agency_letters\":[],\"agency_names\":[\"Legal Services Corporation\"],\"docket_numbers",
+   "kind": "page-change",
+   "source": "Federal Register \u2014 public inspection (HHS/CDC), pre-publication",
+   "source_id": "us-fedreg-pubinspect-hhs",
+   "tier": 1,
+   "country": "REG",
+   "category": "advisory",
+   "segments": [
+    "city",
+    "bush"
+   ],
+   "first_seen": "2026-10-24T23:23+03:00",
+   "published": "2026-10-22",
+   "verdict": "OPEN THIS \u2014 tier-1 advisory page moved; content not auto-parsed, read it manually"
+  },
+  {
+   "score": 87.9,
+   "components": {
+    "tier": 40,
+    "category": 32,
+    "lead": 3.6,
+    "relevance": 0,
+    "freshness": 16.3,
     "page_change": -4
    },
    "keywords": [],
@@ -233,13 +265,13 @@
    "verdict": "OPEN THIS \u2014 tier-1 advisory page moved; content not auto-parsed, read it manually"
   },
   {
-   "score": 86.0,
+   "score": 83.6,
    "components": {
     "tier": 40,
     "category": 32,
     "lead": 3.6,
     "relevance": 0,
-    "freshness": 14.4,
+    "freshness": 12.0,
     "page_change": -4
    },
    "keywords": [],
@@ -265,13 +297,13 @@
    "verdict": "OPEN THIS \u2014 tier-1 advisory page moved; content not auto-parsed, read it manually"
   },
   {
-   "score": 80.3,
+   "score": 77.9,
    "components": {
     "tier": 40,
     "category": 32,
     "lead": 3.6,
     "relevance": 0,
-    "freshness": 8.7,
+    "freshness": 6.3,
     "page_change": -4
    },
    "keywords": [],
@@ -297,13 +329,13 @@
    "verdict": "OPEN THIS \u2014 tier-1 advisory page moved; content not auto-parsed, read it manually"
   },
   {
-   "score": 75.4,
+   "score": 73.0,
    "components": {
     "tier": 40,
     "category": 32,
     "lead": 3.6,
     "relevance": 0,
-    "freshness": 3.8,
+    "freshness": 1.4,
     "page_change": -4
    },
    "keywords": [],
@@ -425,13 +457,47 @@
    "verdict": "OPEN THIS \u2014 tier-1 advisory page moved; content not auto-parsed, read it manually"
   },
   {
-   "score": 54.3,
+   "score": 65.3,
    "components": {
     "tier": 40,
     "category": 12,
     "lead": 3.6,
     "relevance": 0,
-    "freshness": 8.7,
+    "freshness": 19.7,
+    "undated": -6,
+    "page_change": -4
+   },
+   "keywords": [],
+   "shock_terms": [],
+   "dedupe_match": null,
+   "dedupe_similarity": 0.0,
+   "id": "d824b9938fe5",
+   "title": "[page changed] Airlink news",
+   "url": "https://www.flyairlink.com/",
+   "summary": "Request unsuccessful. Incapsula incident ID: 1020000121295040299-463098174378869542",
+   "kind": "page-change",
+   "source": "Airlink news",
+   "source_id": "air-airlink",
+   "tier": 1,
+   "country": "REG",
+   "category": "airline",
+   "segments": [
+    "city",
+    "bush",
+    "beach"
+   ],
+   "first_seen": "2026-10-24T23:23+03:00",
+   "published": null,
+   "verdict": "OPEN THIS \u2014 tier-1 airline page moved; content not auto-parsed, read it manually"
+  },
+  {
+   "score": 51.9,
+   "components": {
+    "tier": 40,
+    "category": 12,
+    "lead": 3.6,
+    "relevance": 0,
+    "freshness": 6.3,
     "undated": -6,
     "page_change": -4
    },
@@ -493,13 +559,45 @@
    "verdict": "OPEN THIS \u2014 tier-1 airline page moved; content not auto-parsed, read it manually"
   },
   {
-   "score": 98.2,
+   "score": 96.1,
+   "components": {
+    "tier": 40,
+    "category": 24,
+    "lead": 2.4,
+    "relevance": 0,
+    "freshness": 19.7,
+    "corroborated": 10
+   },
+   "keywords": [],
+   "shock_terms": [],
+   "dedupe_match": null,
+   "dedupe_similarity": 0.14,
+   "id": "349c19edeacd",
+   "title": "Semaine \u00c9pid\u00e9miologique 41\u2022 R\u00e9union du 21 Octobre 2026",
+   "url": "https://insp.cd/semaine-epidemiologique-41-reunion-du-21-octobre-2026",
+   "summary": "",
+   "kind": "item",
+   "source": "INSP RDC \u2014 Ebola daily situation reports (SitRep)",
+   "source_id": "cd-insp-sitrep",
+   "tier": 1,
+   "country": "GLOBAL",
+   "category": "health",
+   "segments": [
+    "City",
+    "Bush"
+   ],
+   "first_seen": "2026-10-24T23:24+03:00",
+   "published": "2026-10-24",
+   "verdict": "STRONG \u2014 tier-1, upstream"
+  },
+  {
+   "score": 95.8,
    "components": {
     "tier": 20,
     "category": 4,
     "lead": 2.4,
     "relevance": 24,
-    "freshness": 19.8,
+    "freshness": 17.4,
     "corroborated": 10,
     "shock": 18
    },
@@ -570,13 +668,52 @@
    "verdict": "STRONG \u2014 tier-1, upstream"
   },
   {
-   "score": 90.8,
+   "score": 95.7,
+   "components": {
+    "tier": 20,
+    "category": 4,
+    "lead": 0.0,
+    "relevance": 24,
+    "freshness": 19.7,
+    "corroborated": 10,
+    "shock": 18
+   },
+   "keywords": [
+    "outbreak",
+    "ebola"
+   ],
+   "shock_terms": [
+    "outbreak"
+   ],
+   "dedupe_match": null,
+   "dedupe_similarity": 0.33,
+   "id": "a6a1024ced0d",
+   "title": "Kenya reports second death from Ebola",
+   "url": "https://www.monitor.co.ug/uganda/news/kenya-reports-second-death-from-ebola-5644392",
+   "summary": "The outbreak, which began in the Democratic Republic of Congo (DRC), has been reported in four...",
+   "kind": "item",
+   "source": "Daily Monitor (Uganda)",
+   "source_id": "np-monitor-ug",
+   "tier": 2,
+   "country": "UG",
+   "category": "press",
+   "segments": [
+    "city",
+    "bush",
+    "beach"
+   ],
+   "first_seen": "2026-10-24T23:24+03:00",
+   "published": "2026-10-24",
+   "verdict": "CONSIDER"
+  },
+  {
+   "score": 88.4,
    "components": {
     "tier": 40,
     "category": 24,
     "lead": 2.4,
     "relevance": 0,
-    "freshness": 14.4,
+    "freshness": 12.0,
     "corroborated": 10
    },
    "keywords": [],
@@ -599,16 +736,16 @@
    ],
    "first_seen": "2026-10-24T16:21+03:00",
    "published": "2026-10-24",
-   "verdict": "STRONG \u2014 tier-1, upstream"
+   "verdict": "CONSIDER"
   },
   {
-   "score": 90.8,
+   "score": 88.4,
    "components": {
     "tier": 40,
     "category": 24,
     "lead": 2.4,
     "relevance": 0,
-    "freshness": 14.4,
+    "freshness": 12.0,
     "corroborated": 10
    },
    "keywords": [],
@@ -631,16 +768,16 @@
    ],
    "first_seen": "2026-10-24T16:21+03:00",
    "published": "2026-10-24",
-   "verdict": "STRONG \u2014 tier-1, upstream"
+   "verdict": "CONSIDER"
   },
   {
-   "score": 87.1,
+   "score": 84.7,
    "components": {
     "tier": 40,
     "category": 24,
     "lead": 2.4,
     "relevance": 8,
-    "freshness": 18.7,
+    "freshness": 16.3,
     "undated": -6
    },
    "keywords": [
@@ -665,6 +802,72 @@
     "beach"
    ],
    "first_seen": "2026-10-24T20:16+03:00",
+   "published": null,
+   "verdict": "CONSIDER"
+  },
+  {
+   "score": 80.5,
+   "components": {
+    "tier": 40,
+    "category": 10,
+    "lead": 16.8,
+    "relevance": 0,
+    "freshness": 19.7,
+    "undated": -6
+   },
+   "keywords": [],
+   "shock_terms": [],
+   "dedupe_match": null,
+   "dedupe_similarity": 0.1,
+   "id": "824a752b7879",
+   "title": "Minister Ogwang rejects Kitara FC\u2019s request to use Hoima City Stadium Friday, 23 October 2026",
+   "url": "https://www.parliament.go.ug/index.php/news/4683/minister-ogwang-rejects-kitara-fcs-request-use-hoima-city-stadium",
+   "summary": "",
+   "kind": "item",
+   "source": "Parliament of Uganda",
+   "source_id": "ug-parliament",
+   "tier": 1,
+   "country": "UG",
+   "category": "legislature",
+   "segments": [
+    "city",
+    "bush",
+    "beach"
+   ],
+   "first_seen": "2026-10-24T23:23+03:00",
+   "published": null,
+   "verdict": "CONSIDER"
+  },
+  {
+   "score": 80.5,
+   "components": {
+    "tier": 40,
+    "category": 10,
+    "lead": 16.8,
+    "relevance": 0,
+    "freshness": 19.7,
+    "undated": -6
+   },
+   "keywords": [],
+   "shock_terms": [],
+   "dedupe_match": null,
+   "dedupe_similarity": 0.1,
+   "id": "f16e58e1a050",
+   "title": "Use oversights visits to bring people close to Parliament - Tayebwa Friday, 23 October 2026",
+   "url": "https://www.parliament.go.ug/index.php/news/4682/use-oversights-visits-bring-people-close-parliament-tayebwa",
+   "summary": "",
+   "kind": "item",
+   "source": "Parliament of Uganda",
+   "source_id": "ug-parliament",
+   "tier": 1,
+   "country": "UG",
+   "category": "legislature",
+   "segments": [
+    "city",
+    "bush",
+    "beach"
+   ],
+   "first_seen": "2026-10-24T23:23+03:00",
    "published": null,
    "verdict": "CONSIDER"
   },
@@ -709,13 +912,48 @@
    "verdict": "CONSIDER"
   },
   {
-   "score": 79.1,
+   "score": 77.1,
+   "components": {
+    "tier": 20,
+    "category": 5,
+    "lead": 2.4,
+    "relevance": 20,
+    "freshness": 19.7,
+    "corroborated": 10
+   },
+   "keywords": [
+    "occupancy",
+    "revpar",
+    "hotel"
+   ],
+   "shock_terms": [],
+   "dedupe_match": null,
+   "dedupe_similarity": 0.25,
+   "id": "3a4724e382bb",
+   "title": "In September, Canadian Hotels Post Strongest RevPAR Growth in More Than Three Years",
+   "url": "https://www.hotelnewsresource.com/article143479.html",
+   "summary": "Canada\u2019s hotel occupancy rose 5.0% year over year to 77.9% in September 2026, while RevPAR increased 14.0% to CAD 200.79; Quebec led provincial growth, with Montreal benefiting from major events.",
+   "kind": "item",
+   "source": "HVS \u2014 market reports and event-impact studies (via Hotel News Resource)",
+   "source_id": "gl-hvs-market-reports",
+   "tier": 2,
+   "country": "GLOBAL",
+   "category": "trade",
+   "segments": [
+    "city"
+   ],
+   "first_seen": "2026-10-24T23:24+03:00",
+   "published": "2026-10-24",
+   "verdict": "CONSIDER"
+  },
+  {
+   "score": 76.7,
    "components": {
     "tier": 40,
     "category": 24,
     "lead": 2.4,
     "relevance": 0,
-    "freshness": 18.7,
+    "freshness": 16.3,
     "undated": -6
    },
    "keywords": [],
@@ -742,13 +980,45 @@
    "verdict": "CONSIDER"
   },
   {
-   "score": 77.5,
+   "score": 76.1,
+   "components": {
+    "tier": 40,
+    "category": 24,
+    "lead": 2.4,
+    "relevance": 0,
+    "freshness": 19.7,
+    "stale_trap": -10
+   },
+   "keywords": [],
+   "shock_terms": [],
+   "dedupe_match": null,
+   "dedupe_similarity": 0.14,
+   "id": "240e6c184091",
+   "title": "Semaine \u00c9pid\u00e9miologique 40\u2022 R\u00e9union du 14 Octobre 2026",
+   "url": "https://insp.cd/25735-2",
+   "summary": "",
+   "kind": "item",
+   "source": "INSP RDC \u2014 Ebola daily situation reports (SitRep)",
+   "source_id": "cd-insp-sitrep",
+   "tier": 1,
+   "country": "GLOBAL",
+   "category": "health",
+   "segments": [
+    "City",
+    "Bush"
+   ],
+   "first_seen": "2026-10-24T23:24+03:00",
+   "published": "2026-10-19",
+   "verdict": "CHECK \u2014 source date older than the window"
+  },
+  {
+   "score": 75.1,
    "components": {
     "tier": 40,
     "category": 10,
     "lead": 16.8,
     "relevance": 8,
-    "freshness": 8.7,
+    "freshness": 6.3,
     "undated": -6
    },
    "keywords": [
@@ -777,13 +1047,13 @@
    "verdict": "CONSIDER"
   },
   {
-   "score": 77.5,
+   "score": 75.1,
    "components": {
     "tier": 40,
     "category": 10,
     "lead": 16.8,
     "relevance": 8,
-    "freshness": 8.7,
+    "freshness": 6.3,
     "undated": -6
    },
    "keywords": [
@@ -812,13 +1082,13 @@
    "verdict": "CONSIDER"
   },
   {
-   "score": 76.4,
+   "score": 74.0,
    "components": {
     "tier": 20,
     "category": 4,
     "lead": 0.0,
     "relevance": 28,
-    "freshness": 14.4,
+    "freshness": 12.0,
     "corroborated": 10
    },
    "keywords": [
@@ -846,151 +1116,6 @@
     "beach"
    ],
    "first_seen": "2026-10-24T16:21+03:00",
-   "published": "2026-10-24",
-   "verdict": "CONSIDER"
-  },
-  {
-   "score": 75.6,
-   "components": {
-    "tier": 40,
-    "category": 17,
-    "lead": 16.8,
-    "relevance": 4,
-    "freshness": 3.8,
-    "undated": -6
-   },
-   "keywords": [
-    "tourism"
-   ],
-   "shock_terms": [],
-   "dedupe_match": null,
-   "dedupe_similarity": 0.0,
-   "id": "3da46a0f0b37",
-   "title": "EU project launches a community to support tourism destinations and SMEs in the data transition",
-   "url": "https://transition-pathways.europa.eu/tourism/news/eu-project-launches-community-support-tourism-destinations-and-smes-data-transition",
-   "summary": "",
-   "kind": "item",
-   "source": "EU Tourism Transition Pathway \u2014 legislation & guidance",
-   "source_id": "eu-tourism-pathway",
-   "tier": 1,
-   "country": "REG",
-   "category": "regulator",
-   "segments": [
-    "bush",
-    "beach",
-    "city"
-   ],
-   "first_seen": "2026-10-24T06:41+03:00",
-   "published": null,
-   "verdict": "CONSIDER"
-  },
-  {
-   "score": 75.6,
-   "components": {
-    "tier": 40,
-    "category": 17,
-    "lead": 16.8,
-    "relevance": 4,
-    "freshness": 3.8,
-    "undated": -6
-   },
-   "keywords": [
-    "tourism"
-   ],
-   "shock_terms": [],
-   "dedupe_match": null,
-   "dedupe_similarity": 0.0,
-   "id": "93459c7d6616",
-   "title": "New Baltic rural tourism project starts with a focus on low-carbon access to destinations",
-   "url": "https://transition-pathways.europa.eu/tourism/news/new-baltic-rural-tourism-project-starts-focus-low-carbon-access-destinations",
-   "summary": "",
-   "kind": "item",
-   "source": "EU Tourism Transition Pathway \u2014 legislation & guidance",
-   "source_id": "eu-tourism-pathway",
-   "tier": 1,
-   "country": "REG",
-   "category": "regulator",
-   "segments": [
-    "bush",
-    "beach",
-    "city"
-   ],
-   "first_seen": "2026-10-24T06:41+03:00",
-   "published": null,
-   "verdict": "CONSIDER"
-  },
-  {
-   "score": 74.4,
-   "components": {
-    "tier": 20,
-    "category": 4,
-    "lead": 0.0,
-    "relevance": 24,
-    "freshness": 14.4,
-    "undated": -6,
-    "shock": 18
-   },
-   "keywords": [
-    "outbreak",
-    "ebola"
-   ],
-   "shock_terms": [
-    "outbreak"
-   ],
-   "dedupe_match": null,
-   "dedupe_similarity": 0.33,
-   "id": "4341e8f61813",
-   "title": "Nigeria reports Ebola case as outbreak reaches West Africa Oct 22 - 3 min read",
-   "url": "https://www.thecitizen.co.tz/tanzania/news/africa/nigeria-reports-ebola-case-as-outbreak-reaches-west-africa-5641492",
-   "summary": "",
-   "kind": "item",
-   "source": "The Citizen (Tanzania)",
-   "source_id": "np-citizen-tz",
-   "tier": 2,
-   "country": "TZ",
-   "category": "press",
-   "segments": [
-    "city",
-    "bush",
-    "beach"
-   ],
-   "first_seen": "2026-10-24T16:21+03:00",
-   "published": null,
-   "verdict": "CONSIDER"
-  },
-  {
-   "score": 74.2,
-   "components": {
-    "tier": 20,
-    "category": 4,
-    "lead": 2.4,
-    "relevance": 0,
-    "freshness": 19.8,
-    "corroborated": 10,
-    "shock": 18
-   },
-   "keywords": [],
-   "shock_terms": [
-    "attack"
-   ],
-   "dedupe_match": null,
-   "dedupe_similarity": 0.0,
-   "id": "ef31ca22bd09",
-   "title": "Ditch Kalonzo and the opposition, I am your best bet in 2027: Ruto charms Ukambani",
-   "url": "https://nation.africa/kenya/news/politics/ditch-kalonzo-iam-your-best-bet-2027-ruto-charms-ukambani-5644268",
-   "summary": "Ruto launches scathing attack on Wiper party leader in his Ukambani backyard.",
-   "kind": "item",
-   "source": "Nation Africa: Kenya business",
-   "source_id": "ke-nation-business",
-   "tier": 2,
-   "country": "KE",
-   "category": "press",
-   "segments": [
-    "city",
-    "bush",
-    "beach"
-   ],
-   "first_seen": "2026-10-24T21:14+03:00",
    "published": "2026-10-24",
    "verdict": "CONSIDER"
   },
@@ -1028,35 +1153,72 @@
    "verdict": "CONSIDER"
   },
   {
-   "score": 72.8,
+   "score": 73.2,
    "components": {
     "tier": 40,
-    "category": 13,
-    "lead": 6.0,
-    "relevance": 0,
-    "freshness": 19.8,
+    "category": 17,
+    "lead": 16.8,
+    "relevance": 4,
+    "freshness": 1.4,
     "undated": -6
    },
-   "keywords": [],
+   "keywords": [
+    "tourism"
+   ],
    "shock_terms": [],
    "dedupe_match": null,
-   "dedupe_similarity": 0.2,
-   "id": "8a4248ee0369",
-   "title": "News &nbsp; The Tanzania Civil Aviation Authority (TCAA) hosted a delegation from the South Sudan Civil Aviation Authority (SSCAA) Board of Directors at... - 24 October, 2026",
-   "url": "https://www.tcaa.go.tz/news/south-sudan-civil-aviation-authority-board-of-directors-benchmarks-tcaa",
+   "dedupe_similarity": 0.0,
+   "id": "3da46a0f0b37",
+   "title": "EU project launches a community to support tourism destinations and SMEs in the data transition",
+   "url": "https://transition-pathways.europa.eu/tourism/news/eu-project-launches-community-support-tourism-destinations-and-smes-data-transition",
    "summary": "",
    "kind": "item",
-   "source": "Tanzania Civil Aviation Authority",
-   "source_id": "tz-tcaa",
+   "source": "EU Tourism Transition Pathway \u2014 legislation & guidance",
+   "source_id": "eu-tourism-pathway",
    "tier": 1,
-   "country": "TZ",
-   "category": "aviation",
+   "country": "REG",
+   "category": "regulator",
    "segments": [
-    "city",
     "bush",
-    "beach"
+    "beach",
+    "city"
    ],
-   "first_seen": "2026-10-24T21:14+03:00",
+   "first_seen": "2026-10-24T06:41+03:00",
+   "published": null,
+   "verdict": "CONSIDER"
+  },
+  {
+   "score": 73.2,
+   "components": {
+    "tier": 40,
+    "category": 17,
+    "lead": 16.8,
+    "relevance": 4,
+    "freshness": 1.4,
+    "undated": -6
+   },
+   "keywords": [
+    "tourism"
+   ],
+   "shock_terms": [],
+   "dedupe_match": null,
+   "dedupe_similarity": 0.0,
+   "id": "93459c7d6616",
+   "title": "New Baltic rural tourism project starts with a focus on low-carbon access to destinations",
+   "url": "https://transition-pathways.europa.eu/tourism/news/new-baltic-rural-tourism-project-starts-focus-low-carbon-access-destinations",
+   "summary": "",
+   "kind": "item",
+   "source": "EU Tourism Transition Pathway \u2014 legislation & guidance",
+   "source_id": "eu-tourism-pathway",
+   "tier": 1,
+   "country": "REG",
+   "category": "regulator",
+   "segments": [
+    "bush",
+    "beach",
+    "city"
+   ],
+   "first_seen": "2026-10-24T06:41+03:00",
    "published": null,
    "verdict": "CONSIDER"
   },
@@ -1129,297 +1291,118 @@
    "verdict": "CONSIDER"
   },
   {
-   "score": 72.2,
+   "score": 72.0,
    "components": {
     "tier": 20,
     "category": 4,
-    "lead": 2.4,
-    "relevance": 16,
-    "freshness": 19.8,
-    "corroborated": 10
+    "lead": 0.0,
+    "relevance": 24,
+    "freshness": 12.0,
+    "undated": -6,
+    "shock": 18
    },
    "keywords": [
-    "fee",
-    "protest"
+    "outbreak",
+    "ebola"
    ],
-   "shock_terms": [],
+   "shock_terms": [
+    "outbreak"
+   ],
    "dedupe_match": null,
-   "dedupe_similarity": 0.08,
-   "id": "c31a355e6006",
-   "title": "Fishermen protest seven-day fishing \u2018suspension\u2019 over rough seas",
-   "url": "https://nation.africa/kenya/counties/mombasa/fishermen-protest-seven-day-fishing-suspension-rough-seas--5644308",
-   "summary": "Fishermen concerned about how they will feed their families during the proposed suspension.",
-   "kind": "item",
-   "source": "Nation Africa: Kenya business",
-   "source_id": "ke-nation-business",
-   "tier": 2,
-   "country": "KE",
-   "category": "press",
-   "segments": [
-    "city",
-    "bush",
-    "beach"
-   ],
-   "first_seen": "2026-10-24T21:14+03:00",
-   "published": "2026-10-24",
-   "verdict": "CONSIDER"
-  },
-  {
-   "score": 72.2,
-   "components": {
-    "tier": 20,
-    "category": 4,
-    "lead": 2.4,
-    "relevance": 16,
-    "freshness": 19.8,
-    "corroborated": 10
-   },
-   "keywords": [
-    "seat",
-    "election"
-   ],
-   "shock_terms": [],
-   "dedupe_match": null,
-   "dedupe_similarity": 0.12,
-   "id": "c97b7d22e45b",
-   "title": "All seats except president up for grabs: ODM sells 50-50 deal with UDA to supporters in fresh bid to galvanise base",
-   "url": "https://nation.africa/kenya/news/politics/odm-sells-50-50-deal-supporters-fresh-bid-galvanise-base-5644020",
-   "summary": "ODM leaders renew calls for power-sharing deal with Ruto ahead of 2027 elections.",
-   "kind": "item",
-   "source": "Nation Africa: Kenya business",
-   "source_id": "ke-nation-business",
-   "tier": 2,
-   "country": "KE",
-   "category": "press",
-   "segments": [
-    "city",
-    "bush",
-    "beach"
-   ],
-   "first_seen": "2026-10-24T21:14+03:00",
-   "published": "2026-10-24",
-   "verdict": "CONSIDER"
-  },
-  {
-   "score": 71.6,
-   "components": {
-    "tier": 40,
-    "category": 17,
-    "lead": 16.8,
-    "relevance": 0,
-    "freshness": 3.8,
-    "undated": -6
-   },
-   "keywords": [],
-   "shock_terms": [],
-   "dedupe_match": null,
-   "dedupe_similarity": 0.1,
-   "id": "607a97dccb02",
-   "title": "New water sports facility opens in Ireland as part of a \u20ac32 million national programme",
-   "url": "https://transition-pathways.europa.eu/tourism/news/new-water-sports-facility-opens-ireland-part-eur32-million-national-programme",
+   "dedupe_similarity": 0.33,
+   "id": "4341e8f61813",
+   "title": "Nigeria reports Ebola case as outbreak reaches West Africa Oct 22 - 3 min read",
+   "url": "https://www.thecitizen.co.tz/tanzania/news/africa/nigeria-reports-ebola-case-as-outbreak-reaches-west-africa-5641492",
    "summary": "",
    "kind": "item",
-   "source": "EU Tourism Transition Pathway \u2014 legislation & guidance",
-   "source_id": "eu-tourism-pathway",
-   "tier": 1,
-   "country": "REG",
-   "category": "regulator",
+   "source": "The Citizen (Tanzania)",
+   "source_id": "np-citizen-tz",
+   "tier": 2,
+   "country": "TZ",
+   "category": "press",
    "segments": [
+    "city",
     "bush",
-    "beach",
-    "city"
+    "beach"
    ],
-   "first_seen": "2026-10-24T06:41+03:00",
+   "first_seen": "2026-10-24T16:21+03:00",
    "published": null,
    "verdict": "CONSIDER"
   },
   {
-   "score": 71.0,
+   "score": 71.8,
    "components": {
-    "tier": 40,
-    "category": 7,
-    "lead": 6.0,
-    "relevance": 8,
-    "freshness": 0.0,
-    "corroborated": 10
-   },
-   "keywords": [
-    "eta"
-   ],
-   "shock_terms": [],
-   "dedupe_match": null,
-   "dedupe_similarity": 0.3,
-   "id": "9191c48579bc",
-   "title": "EAC, Japan and UNOPS Join Forces to Strengthen Border Security and Enhance Regional Trade",
-   "url": "https://www.eac.int/press-releases/154-peace-security/3610-eac,-japan-and-unops-join-forces-to-strengthen-border-security-and-enhance-regional-trade%20",
-   "summary": "16 Japan-funded patrol vehicles handed over to support border security operations across the eight EAC Partner States, contributing to safer cross-border trade and stronger regional cooperation. East African Community Headquarters, Arusha, Tanzania, 23rd October 2026: The East African Community (EAC) Secretariat has handed over 16 patrol vehicles to EAC Partner States to strengthen border security",
-   "kind": "item",
-   "source": "East African Community \u2014 Secretariat news",
-   "source_id": "eac-secretariat",
-   "tier": 1,
-   "country": "Regional",
-   "category": "body",
-   "segments": [
-    "city"
-   ],
-   "first_seen": "2026-10-23T17:43+03:00",
-   "published": "2026-10-23",
-   "verdict": "CONSIDER"
-  },
-  {
-   "score": 70.6,
-   "components": {
-    "tier": 20,
+    "tier": 5,
     "category": 5,
-    "lead": 3.6,
+    "lead": 0.0,
     "relevance": 32,
-    "freshness": 0.0,
+    "freshness": 19.8,
     "corroborated": 10
    },
    "keywords": [
-    "capacity",
-    "hotel",
-    "conference",
-    "mice",
-    "rooms",
-    "guest",
-    "operator"
-   ],
-   "shock_terms": [],
-   "dedupe_match": null,
-   "dedupe_similarity": 0.1,
-   "id": "029345b73c17",
-   "title": "Artotel Group Strengthens Its Presence in Central Java Through the Management of Ramada by Wyndham Yogyakarta and Wyndham Garden Yogyakarta Conference Hotel & Action Park",
-   "url": "https://www.hospitalitynet.org/news/4135065/artotel-group-strengthens-its-presence-in-central-java-through-the-management-of-ramada-by-wyndham-yogyakarta-and-wyndham-garden-yogyakarta-conference-hotel-action-park",
-   "summary": "Artotel Group appointed as third-party operator of two Wyndham-branded properties in Sleman, Yogyakarta, adding 260 rooms and MICE capacity for up to 1,000 guests to its Central Java portfolio.",
-   "kind": "item",
-   "source": "Hospitality Net \u2014 Africa announcements",
-   "source_id": "dev-hospitalitynet-africa",
-   "tier": 2,
-   "country": "REG",
-   "category": "trade",
-   "segments": [
-    "city",
-    "bush",
-    "beach"
-   ],
-   "first_seen": "2026-10-23T17:43+03:00",
-   "published": "2026-10-23",
-   "verdict": "CONSIDER"
-  },
-  {
-   "score": 69.8,
-   "components": {
-    "tier": 40,
-    "category": 15,
-    "lead": 16.8,
-    "relevance": 8,
-    "freshness": 0.0,
-    "undated": -6,
-    "page_change": -4
-   },
-   "keywords": [
-    "tax"
-   ],
-   "shock_terms": [],
-   "dedupe_match": null,
-   "dedupe_similarity": 0.14,
-   "id": "4c9d7cd0513c",
-   "title": "[page changed] Rwanda Revenue Authority",
-   "url": "https://www.rra.gov.rw/",
-   "summary": "Rwanda Revenue Authority \u2013 Urubuga rurimo kuvugururwa / Website upgrade / Mise \u00e0 jour du site Rwanda Revenue Authority Urubuga rurimo kuvugururwa Urubuga rw'Ikigo cy'Imisoro n'Amahoro ntirurimo kuboneka by'agateganyo kubera imirimo yo kuruvugurura. Turabashimira kwihangana kwanyu, turagaruka vuba. Muri iki gihe, izi serivisi zirakora: e-Tax \u2013 Kumenyekanisha imisoro MyRRA Kumenyekanisha imisoro y'U",
-   "kind": "page-change",
-   "source": "Rwanda Revenue Authority",
-   "source_id": "rw-rra",
-   "tier": 1,
-   "country": "RW",
-   "category": "fiscal",
-   "segments": [
-    "city",
-    "bush",
-    "beach"
-   ],
-   "first_seen": "2026-10-23T22:26+03:00",
-   "published": null,
-   "verdict": "weak"
-  },
-  {
-   "score": 69.4,
-   "components": {
-    "tier": 20,
-    "category": 5,
-    "lead": 2.4,
-    "relevance": 32,
-    "freshness": 0.0,
-    "corroborated": 10
-   },
-   "keywords": [
-    "capacity",
-    "hotel",
-    "conference",
-    "mice",
-    "rooms",
-    "guest",
-    "operator"
-   ],
-   "shock_terms": [],
-   "dedupe_match": null,
-   "dedupe_similarity": 0.1,
-   "id": "00aa21e16ea0",
-   "title": "Artotel Group Strengthens Its Presence in Central Java Through the Management of Ramada by Wyndham Yogyakarta and Wyndham Garden Yogyakarta Conference Hotel & Action Park",
-   "url": "https://www.hospitalitynet.org/news/4135065/artotel-group-strengthens-its-presence-in-central-java-through-the-management-of-ramada-by-wyndham-yogyakarta-and-wyndham-garden-yogyakarta-conference-hotel-action-park",
-   "summary": "Artotel Group appointed as third-party operator of two Wyndham-branded properties in Sleman, Yogyakarta, adding 260 rooms and MICE capacity for up to 1,000 guests to its Central Java portfolio.",
-   "kind": "item",
-   "source": "Hospitality Net: Africa openings",
-   "source_id": "dev-hospitalitynet-openings",
-   "tier": 2,
-   "country": "AFRICA",
-   "category": "trade",
-   "segments": [
-    "city",
-    "bush",
-    "beach"
-   ],
-   "first_seen": "2026-10-23T17:27+03:00",
-   "published": "2026-10-23",
-   "verdict": "weak"
-  },
-  {
-   "score": 68.4,
-   "components": {
-    "tier": 20,
-    "category": 14,
-    "lead": 8.4,
-    "relevance": 16,
-    "freshness": 0.0,
-    "corroborated": 10
-   },
-   "keywords": [
+    "fuel",
     "route",
+    "airport",
     "airline",
-    "flight"
+    "opening"
    ],
    "shock_terms": [],
    "dedupe_match": null,
-   "dedupe_similarity": 0.07,
-   "id": "d4eb7f6e359e",
-   "title": "Vietnam Airlines Adds Regular Da Nang \u2013 Singapore Service in NW26",
-   "url": "https://www.aeroroutes.com/eng/261023-vnnw26dadsin",
-   "summary": "Published at 0345PDT / 1045GMT 23OCT26 Vietnam Airlines from November 2026 plans to add Da Nang \u2013 Singapore route, with regular scheduled flight planned from 17NOV26, on board Airbus A321 aircraft. This route is scheduled on daily basis. VN691 DAD1500 \u2013 1845SIN 321 D VN690 SIN1945 \u2013 2130DAD 321 D The carrier last served this route briefly in the second quarter of 2022.",
+   "dedupe_similarity": 0.1,
+   "id": "d7c7ac397df1",
+   "title": "From Etihad and Lufthansa to Aeromexico: Aviation\u2019s Busy Week of New Routes, Big Ambitions and Difficult Skies",
+   "url": "https://eturbonews.com/global-aviation-news-october-18-24-2026",
+   "summary": "New routes to unexpected destinations, an airport opening in Australia, airline bosses making bold decisions, and a warning that cheap airfares may soon become a luxury. From Etihad's arrival in Luxembourg and Aeromexico's American ambitions to Lufthansa's expansion and Ryanair's fare concerns, the aviation world had a busy seven days. But behind the exciting announcements is a more complicated st",
    "kind": "item",
-   "source": "AeroRoutes schedule filings",
-   "source_id": "aeroroutes",
-   "tier": 2,
+   "source": "eTurboNews Africa",
+   "source_id": "tp-eturbonews",
+   "tier": 3,
    "country": "GLOBAL",
-   "category": "aviation-tracker",
+   "category": "trade",
    "segments": [
     "city",
     "bush",
     "beach"
    ],
-   "first_seen": "2026-10-23T17:26+03:00",
-   "published": "2026-10-23",
-   "verdict": "weak"
+   "first_seen": "2026-10-24T23:24+03:00",
+   "published": "2026-10-24",
+   "verdict": "CONSIDER"
+  },
+  {
+   "score": 71.8,
+   "components": {
+    "tier": 20,
+    "category": 4,
+    "lead": 2.4,
+    "relevance": 0,
+    "freshness": 17.4,
+    "corroborated": 10,
+    "shock": 18
+   },
+   "keywords": [],
+   "shock_terms": [
+    "attack"
+   ],
+   "dedupe_match": null,
+   "dedupe_similarity": 0.0,
+   "id": "ef31ca22bd09",
+   "title": "Ditch Kalonzo and the opposition, I am your best bet in 2027: Ruto charms Ukambani",
+   "url": "https://nation.africa/kenya/news/politics/ditch-kalonzo-iam-your-best-bet-2027-ruto-charms-ukambani-5644268",
+   "summary": "Ruto launches scathing attack on Wiper party leader in his Ukambani backyard.",
+   "kind": "item",
+   "source": "Nation Africa: Kenya business",
+   "source_id": "ke-nation-business",
+   "tier": 2,
+   "country": "KE",
+   "category": "press",
+   "segments": [
+    "city",
+    "bush",
+    "beach"
+   ],
+   "first_seen": "2026-10-24T21:14+03:00",
+   "published": "2026-10-24",
+   "verdict": "CONSIDER"
   }
  ]
 }
