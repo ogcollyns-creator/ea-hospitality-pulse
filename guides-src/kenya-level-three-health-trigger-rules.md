@@ -4,8 +4,9 @@ slug: kenya-level-three-health-trigger-rules
 description: Washington's own change note says Kenya went from Level 2 to Level 3 on 19 October because of health risks, not the crime and kidnapping language that led the coverage. The distinction matters, because a health trigger reverses on a clock while the institutional rules it fires do not.
 category: Big Read
 updated: 2026-10-25
+image: "img/editions/kenya-level-three-health-trigger-rules.jpg"
+image_credit: "Illustration: Onyango George / EA Hospitality Pulse"
 ---
-
 On the closing day of the Magical Kenya Travel Expo, in a hall of buyers who had flown in to write business for 2027, Rebecca Miano gave the answer the room wanted. Kenya's Cabinet Secretary for Tourism and Wildlife was being asked about the Ebola case confirmed in Nairobi two days earlier, on 6 October, in a man who had arrived by air from the Democratic Republic of Congo. "We have reasons to consider this an isolated case," she said, and offered a pledge alongside it: "No effort and vigilance will be spared to ensure that Kenya continues to remain a safe destination."
 
 Eleven days later, on 19 October, the United States Department of State renewed its travel advisory for Kenya and moved it up a tier, from Level 2 to Level 3, Reconsider Travel. The headline that travelled fastest came from the advisory's own first line, which asks Americans to reconsider travel "due to risk of health, crime, kidnapping, terrorism, unrest, and traffic safety." Fox News led on crime and sexual assault. A dozen trade sites led on safari risk. Almost nobody led on the sentence the State Department buried further down, and which the US embassy in Nairobi repeated on 20 October without elaboration: "The level was changed from Level 2 to Level 3 due to health risks."
