@@ -1,5 +1,14 @@
 window.EDITIONS = [
  {
+  "id": "foresight-2026-10-25",
+  "date": "2026-10-25",
+  "dateDisplay": "Sunday, 25 October 2026",
+  "edition": "Sunday Foresight",
+  "editionKey": "foresight",
+  "summary": "THE US NOW RATES FOUR EAST AFRICAN DESTINATIONS THREE WAYS",
+  "bodyHtml": "<p><strong>Kenya&#x27;s new US Level 3 will probably outlast its nine Ebola cases: Uganda is still at Level 4, 89 days after declaring its outbreak over</strong><br><em>🏨 EA Hospitality Pulse · Sunday Foresight · Sun 25 Oct 2026</em></p>\n<p>The US cut Tanzania to Level 2 on 16 Oct and raised Kenya to Level 3 on 19 Oct; Rwanda is at Level 3 and Uganda at Level 4 <strong>(State Department, read 25 Oct)</strong>. The ratings do not follow the cases. Kenya has nine, in one cluster <strong>(MoH, 23 Oct)</strong>. Uganda has none <strong>(20 Oct)</strong> yet is at Level 4.</p>\n<p><strong>What everyone is missing:</strong> the argument is whether Kenya&#x27;s outbreak will grow. The better question is how long the rating outlasts it. Uganda declared its outbreak over on 28 July; the US page still read Level 4 on 25 Oct. Its central bank held an emergency meeting on 14 Oct and raised its rate to 12%, citing weaker tourism receipts among other causes. Kenya following suit is our inference.<br>━━━━━━━━━<br>THE WEEK&#x27;S SIGNALS</p>\n<p><span class=\"item-head\">1️⃣ THE US NOW RATES FOUR EAST AFRICAN DESTINATIONS THREE WAYS</span><br>Tanzania Level 2, Mtwara aside <strong>(16 Oct)</strong>. Kenya Level 3 <strong>(19 Oct)</strong>. Rwanda Level 3, Uganda Level 4, both issued 4 June <strong>(State Department)</strong>.<br><span class=\"sowhat\">🎯 So what: know who reads the US page.</span><br><span class=\"tagline\">🏷 City, Bush, Beach | 🇹🇿 🇰🇪 🇷🇼 🇺🇬 | Confirmed (levels) / Inference (booking effect) | impact:demand</span></p>\n<p><span class=\"item-head\">2️⃣ UGANDA&#x27;S OUTBREAK ENDED, ITS ADVISORY DID NOT, AND ITS CENTRAL BANK CALLED AN EMERGENCY</span><br>The Bank of Uganda raised its rate from 9.75% to 12.0% on 14 Oct, the largest move since 2011, citing energy, the shilling and a US$4.6bn current-account gap, partly from lower tourism receipts <strong>(Nairametrics, 14 Oct)</strong>. The shilling is down over 11% since January <strong>(Daily Monitor, 15 Oct)</strong>.<br><span class=\"sowhat\">🎯 So what: reprice shilling debt; dollar earners feel less local-cost pressure.</span><br><span class=\"tagline\">🏷 Bush, City | 🇺🇬 | Confirmed (rate, figures) / Inference (tourism share) | impact:margin</span></p>\n<p><span class=\"item-head\">3️⃣ KENYA&#x27;S EBOLA COUNT IS NINE, ONE CLUSTER, AND THE FIRST CONTACTS LEAVE QUARANTINE TODAY</span><br>Nine cases, two deaths, 135 contacts traced, no community spread or travel restrictions <strong>(MoH, 22–23 Oct)</strong>. Nigeria says its case is closely related to Kenya&#x27;s index case <strong>(Al Jazeera, 23 Oct)</strong>.<br><span class=\"sowhat\">🎯 So what: tell guests the screening steps in advance.</span><br><span class=\"tagline\">🏷 City, Bush | 🇰🇪 🇳🇬 | Confirmed (statements) | impact:risk</span></p>\n<p><span class=\"item-head\">4️⃣ TANZANIA&#x27;S DOWNGRADE ARRIVED WITH A NEW ENTRY FORM FOR EVERY TRAVELLER</span><br>Since 17 Oct every mainland arrival needs an online health form <strong>(Travel Advisory No. 18)</strong>. US$44 insurance applies since 1 Oct. No booking link to the downgrade is yet established <strong>(ATTA, 19 Oct)</strong>.<br><span class=\"sowhat\">🎯 So what: explain both in your pre-arrival email; hold rates.</span><br><span class=\"tagline\">🏷 Bush, Beach | 🇹🇿 | Confirmed (rules) / Inference (rate headroom) | impact:watch</span></p>\n<p><span class=\"item-head\">5️⃣ ZANZIBAR&#x27;S TRADE SHOW DREW AN AMERICAN SHARE</span><br>Essence of Africa (20–22 Oct) was previewed with 178 buyers from 40 countries, 23% from the Americas <strong>(organiser, 15 Oct)</strong>.<br><span class=\"sowhat\">🎯 So what: follow up this week.</span><br><span class=\"tagline\">🏷 Beach | 🇹🇿 | Confirmed (preview figures) | impact:demand</span><br>━━━━━━━━━<br>🔎 Blind spots: CA/DE/FR Kenya advice, UK Uganda and Tanzania pages, Africa CDC, four gazettes, Kenya&#x27;s August arrivals.</p>\n<p><span class=\"meta-line\">📡 30/90-DAY DEMAND CALENDAR</span><br>🇰🇪 25 Oct — first Ebola contacts leave quarantine <strong>(MoH)</strong>. Hold the &quot;one cluster&quot; message.<br>🇹🇿 9 Nov — Tanzania October CPI <strong>(release pattern)</strong>.<br>🇺🇸 12 Nov — CDC entry-order renewal due <strong>(our call)</strong>.<br>🇰🇪 14 Nov — EPRA fuel review. Budget on the current cap.<br>🇪🇦 30 Nov — EAC visa comments due; our Kenya Level 3 call runs here.</p>\n<p>If the rating outlasts the outbreak, which month is your 2027 rate card priced against?</p>\n<p>🔗 This edition on the web: <a href=\"https://eahospitalitypulse.com/editions/foresight-2026-10-25.html\" rel=\"noopener\">eahospitalitypulse.com/editions/foresight-2026-10-25.html</a><br>💼 This week&#x27;s Big Read on LinkedIn: <a href=\"https://www.linkedin.com/company/ea-hospitality-pulse/\" rel=\"noopener\">linkedin.com/company/ea-hospitality-pulse/</a><br>— EA Hospitality Pulse | Daily intelligence for city, bush &amp; beach properties</p>"
+ },
+ {
   "id": "pulse-2026-10-23-evening",
   "date": "2026-10-23",
   "dateDisplay": "Friday, 23 October 2026",
@@ -1288,6 +1297,106 @@ window.EDITIONS = [
  }
 ];
 window.INSIGHTS = [
+ {
+  "headline": "THE US NOW RATES FOUR EAST AFRICAN DESTINATIONS THREE WAYS",
+  "body": "Tanzania Level 2, Mtwara aside *(16 Oct)*. Kenya Level 3 *(19 Oct)*. Rwanda Level 3, Uganda Level 4, both issued 4 June *(State Department)*.",
+  "sowhat": "🎯 So what: know who reads the US page.",
+  "segments": [
+   "city",
+   "bush",
+   "beach"
+  ],
+  "countries": "🇹🇿 🇰🇪 🇷🇼 🇺🇬",
+  "confidence": "Confirmed (levels) / Inference (booking effect)",
+  "impact": "+demand",
+  "impactClass": "demand",
+  "intensity": 3,
+  "impactSet": "author",
+  "source": "foresight-2026-10-25",
+  "date": "2026-10-25",
+  "dateDisplay": "Sunday, 25 October 2026",
+  "edition": "Sunday Foresight",
+  "editionKey": "foresight"
+ },
+ {
+  "headline": "UGANDA'S OUTBREAK ENDED, ITS ADVISORY DID NOT, AND ITS CENTRAL BANK CALLED AN EMERGENCY",
+  "body": "The Bank of Uganda raised its rate from 9.75% to 12.0% on 14 Oct, the largest move since 2011, citing energy, the shilling and a US$4.6bn current-account gap, partly from lower tourism receipts *(Nairametrics, 14 Oct)*. The shilling is down over 11% since January *(Daily Monitor, 15 Oct)*.",
+  "sowhat": "🎯 So what: reprice shilling debt; dollar earners feel less local-cost pressure.",
+  "segments": [
+   "city",
+   "bush"
+  ],
+  "countries": "🇺🇬",
+  "confidence": "Confirmed (rate, figures) / Inference (tourism share)",
+  "impact": "-margin",
+  "impactClass": "margin",
+  "intensity": 3,
+  "impactSet": "author",
+  "source": "foresight-2026-10-25",
+  "date": "2026-10-25",
+  "dateDisplay": "Sunday, 25 October 2026",
+  "edition": "Sunday Foresight",
+  "editionKey": "foresight"
+ },
+ {
+  "headline": "KENYA'S EBOLA COUNT IS NINE, ONE CLUSTER, AND THE FIRST CONTACTS LEAVE QUARANTINE TODAY",
+  "body": "Nine cases, two deaths, 135 contacts traced, no community spread or travel restrictions *(MoH, 22–23 Oct)*. Nigeria says its case is closely related to Kenya's index case *(Al Jazeera, 23 Oct)*.",
+  "sowhat": "🎯 So what: tell guests the screening steps in advance.",
+  "segments": [
+   "city",
+   "bush"
+  ],
+  "countries": "🇰🇪 🇳🇬",
+  "confidence": "Confirmed (statements)",
+  "impact": "risk",
+  "impactClass": "risk",
+  "intensity": 3,
+  "impactSet": "author",
+  "source": "foresight-2026-10-25",
+  "date": "2026-10-25",
+  "dateDisplay": "Sunday, 25 October 2026",
+  "edition": "Sunday Foresight",
+  "editionKey": "foresight"
+ },
+ {
+  "headline": "TANZANIA'S DOWNGRADE ARRIVED WITH A NEW ENTRY FORM FOR EVERY TRAVELLER",
+  "body": "Since 17 Oct every mainland arrival needs an online health form *(Travel Advisory No. 18)*. US$44 insurance applies since 1 Oct. No booking link to the downgrade is yet established *(ATTA, 19 Oct)*.",
+  "sowhat": "🎯 So what: explain both in your pre-arrival email; hold rates.",
+  "segments": [
+   "bush",
+   "beach"
+  ],
+  "countries": "🇹🇿",
+  "confidence": "Confirmed (rules) / Inference (rate headroom)",
+  "impact": "watch",
+  "impactClass": "watch",
+  "intensity": 3,
+  "impactSet": "author",
+  "source": "foresight-2026-10-25",
+  "date": "2026-10-25",
+  "dateDisplay": "Sunday, 25 October 2026",
+  "edition": "Sunday Foresight",
+  "editionKey": "foresight"
+ },
+ {
+  "headline": "ZANZIBAR'S TRADE SHOW DREW AN AMERICAN SHARE",
+  "body": "Essence of Africa (20–22 Oct) was previewed with 178 buyers from 40 countries, 23% from the Americas *(organiser, 15 Oct)*.",
+  "sowhat": "🎯 So what: follow up this week.",
+  "segments": [
+   "beach"
+  ],
+  "countries": "🇹🇿",
+  "confidence": "Confirmed (preview figures)",
+  "impact": "+demand",
+  "impactClass": "demand",
+  "intensity": 3,
+  "impactSet": "author",
+  "source": "foresight-2026-10-25",
+  "date": "2026-10-25",
+  "dateDisplay": "Sunday, 25 October 2026",
+  "edition": "Sunday Foresight",
+  "editionKey": "foresight"
+ },
  {
   "headline": "Kenya recorded no new Ebola cases in the 24 hours to 22 October, holding at nine",
   "body": "Ministry of Health figures: all nine cases sit in one cluster. The index case died on 5 October; eight patients (four relatives, four health workers) are in isolation and reported stable. All 14 samples tested in the day were negative, all 135 contacts of the first case are traced, and the first group finishes 21-day monitoring on Sunday 25 October. 709,093 travellers have been screened at entry points, 3,107 in the latest 24 hours. Government says travel, trade and public gatherings stay unrestricted *(Ministry statement 22 Oct, via The Standard 22 Oct 16:53 and The Star 23 Oct 06:52)*. Our inference: one quiet day is not a clearance. The Standard notes anyone exposed to a later case is monitored from that later date, and the ninth case tested positive on 19 October after falling ill in quarantine *(Citizen Digital, 20 Oct)*, so some clocks may have restarted.",
@@ -7520,4 +7629,4 @@ window.INSIGHTS = [
   "editionKey": "evening"
  }
 ];
-window.BUILT_AT = "2026-10-24 09:54";
+window.BUILT_AT = "2026-10-25 15:42";
