@@ -1,5 +1,14 @@
 window.GUIDES = [
  {
+  "slug": "kenya-level-three-health-trigger-rules",
+  "title": "Kenya moved a tier on health, not crime. That decides who cancels, and when.",
+  "description": "Washington's own change note says Kenya went from Level 2 to Level 3 on 19 October because of health risks, not the crime and kidnapping language that led the coverage. The distinction matters, because a health trigger reverses on a clock while the institutional rules it fires do not.",
+  "category": "Big Read",
+  "updated": "2026-10-25",
+  "readMins": 9,
+  "image": "img/editions/kenya-level-three-health-trigger-rules.jpg"
+ },
+ {
   "slug": "kenya-thamani-asili-second-payer-safari-land",
   "title": "For fifteen years the guest has paid for Kenya's safari land. Maktau just signed up a second payer.",
   "description": "At a KWS field station in Tsavo West on 21 October, Kenya closed a 160 million dollar Project Finance for Permanence deal covering 17.3 million hectares over ten years. That is about 92 US cents per hectare per year: small against the land, and larger than anything the conservancy model has ever had. The conditions attached matter more than the headline.",
