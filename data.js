@@ -1,5 +1,14 @@
 window.EDITIONS = [
  {
+  "id": "pulse-2026-10-25-evening",
+  "date": "2026-10-25",
+  "dateDisplay": "Sunday, 25 October 2026",
+  "edition": "Evening Wrap",
+  "editionKey": "evening",
+  "summary": "Kenya's first Ebola contacts were due out of quarantine on 25 October, but the 42-day clock to an all-clear has not started",
+  "bodyHtml": "<p><strong>Kenya&#x27;s first Ebola contacts were due out of quarantine on 25 October, but the 42-day clock to an all-clear has not started</strong><br><em>🌆 Evening Wrap · Sun 25 Oct 2026</em></p>\n<p>━━━━━━━━━<br><span class=\"item-head\">1️⃣ Kenya&#x27;s first Ebola contacts were due out of quarantine on 25 October, but the 42-day clock to an all-clear has not started</span></p>\n<p>Health Director General Dr Patrick Amoth said on Thursday 22 Oct that &quot;our first contacts will begin leaving the quarantine facilities on Sunday&quot;, after the full 21-day monitoring period without symptoms. The Ministry puts the count at nine cases, with 134 of 135 contacts traced as of 20 Oct. It also said the 42-day countdown to being declared Ebola-free has not formally begun <strong>(Kenyans.co.ke, 22 Oct 14:00)</strong>. We have not yet seen a Ministry statement confirming that releases happened today.<br>Our inference: counting 42 days from the ninth case (confirmed 20 Oct) gives about 1 December at the very earliest, and the 23 Oct death pushes that later. &quot;Cases are contained&quot; and &quot;Kenya is declared clear&quot; are different dates.<br><span class=\"sowhat\">🎯 So what: brief reception on the first, not the second. Do not promise guests an all-clear before December.</span><br><span class=\"tagline\">🏷 City, Bush, Beach | Kenya | Confirmed | impact:risk</span></p>\n<p><span class=\"item-head\">2️⃣ Kenya, Uganda and Tanzania have still not agreed a joint AFCON 2027 visa; the proposal is a four-month visa with fee and dates unconfirmed</span><br>KATA&#x27;s 25 Oct note says the plan is &quot;not a final tripartite agreement&quot;, with fee, eligibility and operating dates unset, and the tournament running 19 June to 17 July 2027. Kenya&#x27;s Sports CS Salim Mvurya announced the &quot;PAMOJA Visa Framework&quot; on 25 Aug, with no dates or fees <strong>(Kenyans.co.ke, 25 Aug)</strong>. Uganda&#x27;s Cabinet separately backed a three-month visa-fee waiver around the tournament, announced 7 Apr <strong>(VisasNews, 7 Apr; secondary)</strong>.<br>Our inference: a June-July 2027 rate card cannot assume a single-visa gateway yet. Only Uganda has a stated fee relief, and that is reported second-hand.<br><span class=\"sowhat\">🎯 So what: price AFCON-window rooms on the current visa rules. Add a visa-change clause rather than discounting for an unconfirmed benefit.</span><br><span class=\"tagline\">🏷 City, Beach | Kenya, Uganda, Tanzania | Reported | impact:watch</span></p>\n<p><strong>🏗 DEAL FLOW:</strong> No verified EA deal flow in the window. Newest dated item is Mereshi Safari Camp Serengeti, Autograph Collection, planned for November 2026 <strong>(Hospitality Net, 12 Oct)</strong>.</p>\n<p><strong>📻 ALSO TONIGHT</strong><br>🇺🇬 27 Oct: Uganda Airlines begins Entebbe-Accra <strong>(AeroRoutes, 20 Aug)</strong>.<br>🇰🇪 EPRA&#x27;s 14 Oct pump prices stand until about 14 Nov <strong>(EPRA, 14 Oct)</strong>.</p>\n<p><strong>⏳ CATCHING UP</strong> 🇰🇪 25 Aug: PAMOJA Visa Framework announced by Kenya&#x27;s Sports CS <strong>(Kenyans.co.ke, 25 Aug)</strong>.</p>\n<p><strong>📅 WEEK AHEAD</strong> 27 Oct Entebbe-Accra launch. About 30 Oct KNBS CPI. 14 Nov EPRA review.</p>\n<p><strong>🔍 BLIND SPOTS</strong> Primary pages not read directly: UK, Canadian, German, French advisories; WHO, Africa CDC, Rwanda, Zanzibar health; KCAA, UWA, TANAPA, NCAA; four gazettes; TIRA. Web-scanned only; nothing new surfaced. Tier C rotation not run.</p>\n<p>🔗 This edition on the web: <a href=\"https://eahospitalitypulse.com/editions/pulse-2026-10-25-evening.html\" rel=\"noopener\">eahospitalitypulse.com/editions/pulse-2026-10-25-evenin…</a></p>"
+ },
+ {
   "id": "foresight-2026-10-25",
   "date": "2026-10-25",
   "dateDisplay": "Sunday, 25 October 2026",
@@ -1297,6 +1306,47 @@ window.EDITIONS = [
  }
 ];
 window.INSIGHTS = [
+ {
+  "headline": "Kenya's first Ebola contacts were due out of quarantine on 25 October, but the 42-day clock to an all-clear has not started",
+  "body": "Health Director General Dr Patrick Amoth said on Thursday 22 Oct that \"our first contacts will begin leaving the quarantine facilities on Sunday\", after the full 21-day monitoring period without symptoms. The Ministry puts the count at nine cases, with 134 of 135 contacts traced as of 20 Oct. It also said the 42-day countdown to being declared Ebola-free has not formally begun *(Kenyans.co.ke, 22 Oct 14:00)*. We have not yet seen a Ministry statement confirming that releases happened today. Our inference: counting 42 days from the ninth case (confirmed 20 Oct) gives about 1 December at the very earliest, and the 23 Oct death pushes that later. \"Cases are contained\" and \"Kenya is declared clear\" are different dates.",
+  "sowhat": "🎯 So what: brief reception on the first, not the second. Do not promise guests an all-clear before December.",
+  "segments": [
+   "city",
+   "bush",
+   "beach"
+  ],
+  "countries": "Kenya",
+  "confidence": "Confirmed",
+  "impact": "risk",
+  "impactClass": "risk",
+  "intensity": 3,
+  "impactSet": "author",
+  "source": "pulse-2026-10-25-evening",
+  "date": "2026-10-25",
+  "dateDisplay": "Sunday, 25 October 2026",
+  "edition": "Evening Wrap",
+  "editionKey": "evening"
+ },
+ {
+  "headline": "Kenya, Uganda and Tanzania have still not agreed a joint AFCON 2027 visa; the proposal is a four-month visa with fee and dates unconfirmed",
+  "body": "KATA's 25 Oct note says the plan is \"not a final tripartite agreement\", with fee, eligibility and operating dates unset, and the tournament running 19 June to 17 July 2027. Kenya's Sports CS Salim Mvurya announced the \"PAMOJA Visa Framework\" on 25 Aug, with no dates or fees *(Kenyans.co.ke, 25 Aug)*. Uganda's Cabinet separately backed a three-month visa-fee waiver around the tournament, announced 7 Apr *(VisasNews, 7 Apr; secondary)*. Our inference: a June-July 2027 rate card cannot assume a single-visa gateway yet. Only Uganda has a stated fee relief, and that is reported second-hand.",
+  "sowhat": "🎯 So what: price AFCON-window rooms on the current visa rules. Add a visa-change clause rather than discounting for an unconfirmed benefit.",
+  "segments": [
+   "city",
+   "beach"
+  ],
+  "countries": "Kenya, Uganda, Tanzania",
+  "confidence": "Reported",
+  "impact": "watch",
+  "impactClass": "watch",
+  "intensity": 2,
+  "impactSet": "author",
+  "source": "pulse-2026-10-25-evening",
+  "date": "2026-10-25",
+  "dateDisplay": "Sunday, 25 October 2026",
+  "edition": "Evening Wrap",
+  "editionKey": "evening"
+ },
  {
   "headline": "THE US NOW RATES FOUR EAST AFRICAN DESTINATIONS THREE WAYS",
   "body": "Tanzania Level 2, Mtwara aside *(16 Oct)*. Kenya Level 3 *(19 Oct)*. Rwanda Level 3, Uganda Level 4, both issued 4 June *(State Department)*.",
@@ -7629,4 +7679,4 @@ window.INSIGHTS = [
   "editionKey": "evening"
  }
 ];
-window.BUILT_AT = "2026-10-25 16:11";
+window.BUILT_AT = "2026-10-26 14:44";

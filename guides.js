@@ -1,5 +1,14 @@
 window.GUIDES = [
  {
+  "slug": "zanzibar-seats-up-rates-down-capacity-lesson",
+  "title": "Zanzibar got the seats it asked for. The room rate fell 18 per cent.",
+  "description": "Airline capacity into Zanzibar rose 11 per cent in a year and is forecast to rise another 33 per cent by March. August set an arrivals record at an estimated 92.9 per cent bed occupancy. Over the same twelve months the weighted average online room rate fell about 18 per cent, in every category. East Africa has spent three years arguing that seats are the binding constraint. One island has now run the experiment.",
+  "category": "Big Read",
+  "updated": "2026-10-26",
+  "readMins": 7,
+  "image": "img/editions/zanzibar-seats-up-rates-down-capacity-lesson.jpg"
+ },
+ {
   "slug": "kenya-level-three-health-trigger-rules",
   "title": "Kenya moved a tier on health, not crime. That decides who cancels, and when.",
   "description": "Washington's own change note says Kenya went from Level 2 to Level 3 on 19 October because of health risks, not the crime and kidnapping language that led the coverage. The distinction matters, because a health trigger reverses on a clock while the institutional rules it fires do not.",
