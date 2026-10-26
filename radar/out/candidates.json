@@ -1,18 +1,18 @@
 {
- "generated": "2026-10-26T19:36:11+03:00",
+ "generated": "2026-10-26T23:38:07+03:00",
  "slot": "evening",
  "window_start": 1792929600,
- "observations_in_window": 997,
+ "observations_in_window": 1180,
  "deduped_against": 21,
  "candidates": [
   {
-   "score": 109.5,
+   "score": 105.1,
    "components": {
     "tier": 40,
     "category": 32,
     "lead": 12.0,
     "relevance": 8,
-    "freshness": 11.5,
+    "freshness": 7.1,
     "corroborated": 10,
     "page_change": -4
    },
@@ -41,13 +41,46 @@
    "verdict": "OPEN THIS \u2014 tier-1 advisory page moved; content not auto-parsed, read it manually"
   },
   {
-   "score": 101.5,
+   "score": 101.4,
+   "components": {
+    "tier": 40,
+    "category": 32,
+    "lead": 3.6,
+    "relevance": 0,
+    "freshness": 19.8,
+    "corroborated": 10,
+    "page_change": -4
+   },
+   "keywords": [],
+   "shock_terms": [],
+   "dedupe_match": null,
+   "dedupe_similarity": 0.12,
+   "id": "4d9e99e740dd",
+   "title": "[page changed] Federal Register \u2014 public inspection (HHS/CDC), pre-publication",
+   "url": "https://www.federalregister.gov/api/v1/public-inspection-documents/current.json",
+   "summary": "{\"count\":86,\"results\":[{\"agencies\":[{\"raw_name\":\"Rural Housing Service\",\"name\":\"Rural Housing Service\",\"id\":458,\"url\":\"https://www.federalregister.gov/agencies/rural-housing-service\",\"json_url\":\"https://www.federalregister.gov/api/v1/agencies/458\",\"parent_id\":12,\"slug\":\"rural-housing-service\"}],\"agency_letters\":[],\"agency_names\":[\"Rural Housing Service\"],\"docket_numbers\":[],\"document_number\":\"2026",
+   "kind": "page-change",
+   "source": "Federal Register \u2014 public inspection (HHS/CDC), pre-publication",
+   "source_id": "us-fedreg-pubinspect-hhs",
+   "tier": 1,
+   "country": "REG",
+   "category": "advisory",
+   "segments": [
+    "city",
+    "bush"
+   ],
+   "first_seen": "2026-10-26T23:36+03:00",
+   "published": "2026-10-26",
+   "verdict": "OPEN THIS \u2014 tier-1 advisory page moved; content not auto-parsed, read it manually"
+  },
+  {
+   "score": 97.1,
    "components": {
     "tier": 40,
     "category": 5,
     "lead": 1.2,
     "relevance": 24,
-    "freshness": 19.3,
+    "freshness": 14.9,
     "undated": -6,
     "shock": 18
    },
@@ -79,13 +112,13 @@
    "verdict": "LEAD CANDIDATE \u2014 tier-1 shock language"
   },
   {
-   "score": 100.9,
+   "score": 96.5,
    "components": {
     "tier": 40,
     "category": 32,
     "lead": 3.6,
     "relevance": 0,
-    "freshness": 19.3,
+    "freshness": 14.9,
     "corroborated": 10,
     "page_change": -4
    },
@@ -112,13 +145,13 @@
    "verdict": "OPEN THIS \u2014 tier-1 advisory page moved; content not auto-parsed, read it manually"
   },
   {
-   "score": 57.1,
+   "score": 52.6,
    "components": {
     "tier": 40,
     "category": 12,
     "lead": 3.6,
     "relevance": 0,
-    "freshness": 11.5,
+    "freshness": 7.0,
     "undated": -6,
     "page_change": -4
    },
@@ -180,13 +213,13 @@
    "verdict": "OPEN THIS \u2014 tier-1 airline page moved; content not auto-parsed, read it manually"
   },
   {
-   "score": 109.7,
+   "score": 105.3,
    "components": {
     "tier": 20,
     "category": 4,
     "lead": 2.4,
     "relevance": 36,
-    "freshness": 19.3,
+    "freshness": 14.9,
     "corroborated": 10,
     "shock": 18
    },
@@ -220,13 +253,53 @@
    "verdict": "CONSIDER"
   },
   {
-   "score": 107.9,
+   "score": 103.8,
+   "components": {
+    "tier": 20,
+    "category": 4,
+    "lead": 0.0,
+    "relevance": 32,
+    "freshness": 19.8,
+    "corroborated": 10,
+    "shock": 18
+   },
+   "keywords": [
+    "ebola",
+    "evacuat",
+    "eta"
+   ],
+   "shock_terms": [
+    "evacuat"
+   ],
+   "dedupe_match": null,
+   "dedupe_similarity": 0.33,
+   "id": "e88da6d4276a",
+   "title": "New details emerge on Swiss diplomat\u2019s wife in Nigeria Ebola case, Kampala trip",
+   "url": "https://www.monitor.co.ug/uganda/news/national/new-details-emerge-on-swiss-diplomat-s-wife-in-nigeria-ebola-case-kampala-trip-5646226",
+   "summary": "Uganda probes Ebola link to Kampala as Nigeria patient is evacuated",
+   "kind": "item",
+   "source": "Daily Monitor (Uganda)",
+   "source_id": "np-monitor-ug",
+   "tier": 2,
+   "country": "UG",
+   "category": "press",
+   "segments": [
+    "city",
+    "bush",
+    "beach"
+   ],
+   "first_seen": "2026-10-26T23:37+03:00",
+   "published": "2026-10-26",
+   "verdict": "CONSIDER"
+  },
+  {
+   "score": 103.4,
    "components": {
     "tier": 40,
     "category": 18,
     "lead": 8.4,
     "relevance": 20,
-    "freshness": 11.5,
+    "freshness": 7.0,
     "corroborated": 10
    },
    "keywords": [
@@ -255,13 +328,52 @@
    "verdict": "STRONG \u2014 tier-1, upstream"
   },
   {
-   "score": 96.5,
+   "score": 94.2,
+   "components": {
+    "tier": 20,
+    "category": 4,
+    "lead": 2.4,
+    "relevance": 20,
+    "freshness": 19.8,
+    "corroborated": 10,
+    "shock": 18
+   },
+   "keywords": [
+    "collapse",
+    "strike"
+   ],
+   "shock_terms": [
+    "strike"
+   ],
+   "dedupe_match": null,
+   "dedupe_similarity": 0.14,
+   "id": "d6a8124feb7c",
+   "title": "Talks to resolve lecturers' strike collapse, yet again",
+   "url": "https://nation.africa/kenya/news/education/talks-to-resolve-lecturers-strike-collapse-yet-again--5646430",
+   "summary": "Meeting ends in disarray after workers' unions reject government offer.",
+   "kind": "item",
+   "source": "Nation Africa: Kenya business",
+   "source_id": "ke-nation-business",
+   "tier": 2,
+   "country": "KE",
+   "category": "press",
+   "segments": [
+    "city",
+    "bush",
+    "beach"
+   ],
+   "first_seen": "2026-10-26T23:37+03:00",
+   "published": "2026-10-26",
+   "verdict": "CONSIDER"
+  },
+  {
+   "score": 92.0,
    "components": {
     "tier": 40,
     "category": 13,
     "lead": 6.0,
     "relevance": 16,
-    "freshness": 11.5,
+    "freshness": 7.0,
     "corroborated": 10
    },
    "keywords": [
@@ -292,13 +404,13 @@
    "verdict": "STRONG \u2014 tier-1, upstream"
   },
   {
-   "score": 95.7,
+   "score": 91.3,
    "components": {
     "tier": 20,
     "category": 14,
     "lead": 8.4,
     "relevance": 24,
-    "freshness": 19.3,
+    "freshness": 14.9,
     "corroborated": 10
    },
    "keywords": [
@@ -329,13 +441,83 @@
    "verdict": "CONSIDER"
   },
   {
-   "score": 92.5,
+   "score": 88.2,
+   "components": {
+    "tier": 20,
+    "category": 14,
+    "lead": 8.4,
+    "relevance": 16,
+    "freshness": 19.8,
+    "corroborated": 10
+   },
+   "keywords": [
+    "route",
+    "airline",
+    "flight"
+   ],
+   "shock_terms": [],
+   "dedupe_match": null,
+   "dedupe_similarity": 0.07,
+   "id": "0c0d8e3229b8",
+   "title": "Qanot Sharq Adds Bishkek Service in NW26",
+   "url": "https://www.aeroroutes.com/eng/261026-hhnw26bsz",
+   "summary": "Published at 1330PDT / 2030GMT 26OCT26 Uzbekistan\u2019s Qanot Sharq from mid-November 2026 plans to add service at Kyrgyzstan, where the airline schedules 1 weekly flight each on Tashkent \u2013 Bishkek and Bishkek \u2013 Phuket route, with A321neo. Tashkent \u2013 Bishkek eff 17NOV26 1 weekly A321neo HH607 TAS1910 \u2013 2120BSZ 321 2 HH608 BSZ1600 \u2013 1610TAS 321 3 Bishkek \u2013 Phuket eff 17NOV26 1 weekly A321neo HH2241 BSZ",
+   "kind": "item",
+   "source": "AeroRoutes schedule filings",
+   "source_id": "aeroroutes",
+   "tier": 2,
+   "country": "GLOBAL",
+   "category": "aviation-tracker",
+   "segments": [
+    "city",
+    "bush",
+    "beach"
+   ],
+   "first_seen": "2026-10-26T23:37+03:00",
+   "published": "2026-10-26",
+   "verdict": "CONSIDER"
+  },
+  {
+   "score": 88.2,
+   "components": {
+    "tier": 40,
+    "category": 16,
+    "lead": 2.4,
+    "relevance": 0,
+    "freshness": 19.8,
+    "corroborated": 10
+   },
+   "keywords": [],
+   "shock_terms": [],
+   "dedupe_match": null,
+   "dedupe_similarity": 0.12,
+   "id": "0107b516bfb5",
+   "title": "Key Economic Indicators 142nd Issue Q4 2025-26 \u2013 (Apr-Jun 2026)",
+   "url": "https://www.ubos.org/2026/10/26/key-economic-indicators-142nd-issue-q4-2025-26-apr-jun-2026",
+   "summary": "This is the 142nd issue of the Key Economic Indicators, reflecting the performance of the economy during [\u2026] The post Key Economic Indicators 142nd Issue Q4 2025-26 \u2013 (Apr-Jun 2026) appeared first on Uganda Bureau of Statistics .",
+   "kind": "item",
+   "source": "UBOS statistical releases",
+   "source_id": "ug-ubos",
+   "tier": 1,
+   "country": "UG",
+   "category": "statistics",
+   "segments": [
+    "city",
+    "bush",
+    "beach"
+   ],
+   "first_seen": "2026-10-26T23:37+03:00",
+   "published": "2026-10-26",
+   "verdict": "CONSIDER"
+  },
+  {
+   "score": 88.0,
    "components": {
     "tier": 40,
     "category": 13,
     "lead": 6.0,
     "relevance": 12,
-    "freshness": 11.5,
+    "freshness": 7.0,
     "corroborated": 10
    },
    "keywords": [
@@ -362,16 +544,16 @@
    ],
    "first_seen": "2026-10-26T12:02+03:00",
    "published": "2026-10-26",
-   "verdict": "STRONG \u2014 tier-1, upstream"
+   "verdict": "CONSIDER"
   },
   {
-   "score": 92.5,
+   "score": 88.0,
    "components": {
     "tier": 40,
     "category": 13,
     "lead": 6.0,
     "relevance": 12,
-    "freshness": 11.5,
+    "freshness": 7.0,
     "corroborated": 10
    },
    "keywords": [
@@ -398,16 +580,16 @@
    ],
    "first_seen": "2026-10-26T12:02+03:00",
    "published": "2026-10-26",
-   "verdict": "STRONG \u2014 tier-1, upstream"
+   "verdict": "CONSIDER"
   },
   {
-   "score": 89.5,
+   "score": 85.1,
    "components": {
     "tier": 20,
     "category": 5,
     "lead": 1.2,
     "relevance": 16,
-    "freshness": 19.3,
+    "freshness": 14.9,
     "corroborated": 10,
     "shock": 18
    },
@@ -440,13 +622,13 @@
    "verdict": "CONSIDER"
   },
   {
-   "score": 88.5,
+   "score": 84.0,
    "components": {
     "tier": 40,
     "category": 13,
     "lead": 6.0,
     "relevance": 8,
-    "freshness": 11.5,
+    "freshness": 7.0,
     "corroborated": 10
    },
    "keywords": [
@@ -476,13 +658,53 @@
    "verdict": "CONSIDER"
   },
   {
-   "score": 87.9,
+   "score": 83.8,
+   "components": {
+    "tier": 20,
+    "category": 4,
+    "lead": 0.0,
+    "relevance": 28,
+    "freshness": 19.8,
+    "undated": -6,
+    "shock": 18
+   },
+   "keywords": [
+    "ebola",
+    "evacuat",
+    "flight"
+   ],
+   "shock_terms": [
+    "evacuat"
+   ],
+   "dedupe_match": null,
+   "dedupe_similarity": 0.2,
+   "id": "28a5d2fbc6f6",
+   "title": "Africa Nigeria's Ebola patient on medical evacuation flight to Switzerland, condition stable 7 hours ago - 3 min read",
+   "url": "https://www.thecitizen.co.tz/tanzania/news/africa/nigeria-s-ebola-patient-on-medical-evacuation-flight-to-switzerland-condition-stable-5646364",
+   "summary": "",
+   "kind": "item",
+   "source": "The Citizen (Tanzania)",
+   "source_id": "np-citizen-tz",
+   "tier": 2,
+   "country": "TZ",
+   "category": "press",
+   "segments": [
+    "city",
+    "bush",
+    "beach"
+   ],
+   "first_seen": "2026-10-26T23:37+03:00",
+   "published": null,
+   "verdict": "CONSIDER"
+  },
+  {
+   "score": 83.5,
    "components": {
     "tier": 40,
     "category": 24,
     "lead": 2.4,
     "relevance": 0,
-    "freshness": 11.5,
+    "freshness": 7.1,
     "corroborated": 10
    },
    "keywords": [],
@@ -508,13 +730,13 @@
    "verdict": "CONSIDER"
   },
   {
-   "score": 85.5,
+   "score": 81.1,
    "components": {
     "tier": 20,
     "category": 5,
     "lead": 1.2,
     "relevance": 12,
-    "freshness": 19.3,
+    "freshness": 14.9,
     "corroborated": 10,
     "shock": 18
    },
@@ -548,13 +770,87 @@
    "verdict": "CONSIDER"
   },
   {
-   "score": 83.9,
+   "score": 80.2,
+   "components": {
+    "tier": 20,
+    "category": 14,
+    "lead": 8.4,
+    "relevance": 8,
+    "freshness": 19.8,
+    "corroborated": 10
+   },
+   "keywords": [
+    "route"
+   ],
+   "shock_terms": [],
+   "dedupe_match": null,
+   "dedupe_similarity": 0.0,
+   "id": "e9cb29c22615",
+   "title": "Royal Jordanian Adds Amman City \u2013 Makhachkala From Nov 2026",
+   "url": "https://www.aeroroutes.com/eng/261026-rjnov26mcx",
+   "summary": "Published at 0945PDT / 1645GMT 26OCT26 Royal Jordanian from November 2026 plans to add new route to Russia, where the carrier lists Amman City \u2013 Makhachkala route. The weekly service is scheduled from 04NOV26, on board Airbus A320neo. RJ868 ADJ0410 \u2013 0700MCX 32N 3 RJ869 MCX0800 \u2013 1105ADJ 32N 3",
+   "kind": "item",
+   "source": "AeroRoutes schedule filings",
+   "source_id": "aeroroutes",
+   "tier": 2,
+   "country": "GLOBAL",
+   "category": "aviation-tracker",
+   "segments": [
+    "city",
+    "bush",
+    "beach"
+   ],
+   "first_seen": "2026-10-26T23:37+03:00",
+   "published": "2026-10-26",
+   "verdict": "CONSIDER"
+  },
+  {
+   "score": 79.8,
+   "components": {
+    "tier": 20,
+    "category": 4,
+    "lead": 0.0,
+    "relevance": 24,
+    "freshness": 19.8,
+    "undated": -6,
+    "shock": 18
+   },
+   "keywords": [
+    "outbreak",
+    "ebola"
+   ],
+   "shock_terms": [
+    "outbreak"
+   ],
+   "dedupe_match": null,
+   "dedupe_similarity": 0.4,
+   "id": "048390ded9f2",
+   "title": "Ebola outbreak Ebola: Govt to sue illegal entrants",
+   "url": "https://www.newvision.co.ug/category/health/ebola-govt-to-sue-illegal-entrants",
+   "summary": "",
+   "kind": "item",
+   "source": "New Vision (Uganda)",
+   "source_id": "np-newvision-ug",
+   "tier": 2,
+   "country": "UG",
+   "category": "press",
+   "segments": [
+    "city",
+    "bush",
+    "beach"
+   ],
+   "first_seen": "2026-10-26T23:37+03:00",
+   "published": null,
+   "verdict": "CONSIDER"
+  },
+  {
+   "score": 79.5,
    "components": {
     "tier": 40,
     "category": 24,
     "lead": 2.4,
     "relevance": 12,
-    "freshness": 11.5,
+    "freshness": 7.1,
     "undated": -6
    },
    "keywords": [
@@ -583,13 +879,13 @@
    "verdict": "CONSIDER"
   },
   {
-   "score": 83.9,
+   "score": 79.5,
    "components": {
     "tier": 40,
     "category": 24,
     "lead": 2.4,
     "relevance": 12,
-    "freshness": 11.5,
+    "freshness": 7.1,
     "undated": -6
    },
    "keywords": [
@@ -618,13 +914,13 @@
    "verdict": "CONSIDER"
   },
   {
-   "score": 83.9,
+   "score": 79.4,
    "components": {
     "tier": 40,
     "category": 24,
     "lead": 2.4,
     "relevance": 12,
-    "freshness": 11.5,
+    "freshness": 7.0,
     "undated": -6
    },
    "keywords": [
@@ -653,13 +949,13 @@
    "verdict": "CONSIDER"
   },
   {
-   "score": 83.7,
+   "score": 79.3,
    "components": {
     "tier": 20,
     "category": 14,
     "lead": 8.4,
     "relevance": 12,
-    "freshness": 19.3,
+    "freshness": 14.9,
     "corroborated": 10
    },
    "keywords": [
@@ -689,13 +985,13 @@
    "verdict": "CONSIDER"
   },
   {
-   "score": 83.7,
+   "score": 79.3,
    "components": {
     "tier": 20,
     "category": 14,
     "lead": 8.4,
     "relevance": 12,
-    "freshness": 19.3,
+    "freshness": 14.9,
     "corroborated": 10
    },
    "keywords": [
@@ -725,13 +1021,13 @@
    "verdict": "CONSIDER"
   },
   {
-   "score": 83.7,
+   "score": 79.3,
    "components": {
     "tier": 20,
     "category": 14,
     "lead": 8.4,
     "relevance": 12,
-    "freshness": 19.3,
+    "freshness": 14.9,
     "corroborated": 10
    },
    "keywords": [
@@ -761,13 +1057,13 @@
    "verdict": "CONSIDER"
   },
   {
-   "score": 83.7,
+   "score": 79.3,
    "components": {
     "tier": 20,
     "category": 14,
     "lead": 8.4,
     "relevance": 12,
-    "freshness": 19.3,
+    "freshness": 14.9,
     "corroborated": 10
    },
    "keywords": [
@@ -797,13 +1093,13 @@
    "verdict": "CONSIDER"
   },
   {
-   "score": 83.7,
+   "score": 79.3,
    "components": {
     "tier": 20,
     "category": 14,
     "lead": 8.4,
     "relevance": 12,
-    "freshness": 19.3,
+    "freshness": 14.9,
     "corroborated": 10
    },
    "keywords": [
@@ -833,13 +1129,13 @@
    "verdict": "CONSIDER"
   },
   {
-   "score": 83.7,
+   "score": 79.3,
    "components": {
     "tier": 20,
     "category": 14,
     "lead": 8.4,
     "relevance": 12,
-    "freshness": 19.3,
+    "freshness": 14.9,
     "corroborated": 10
    },
    "keywords": [
@@ -869,13 +1165,13 @@
    "verdict": "CONSIDER"
   },
   {
-   "score": 83.3,
+   "score": 78.9,
    "components": {
     "tier": 20,
     "category": 4,
     "lead": 0.0,
     "relevance": 12,
-    "freshness": 19.3,
+    "freshness": 14.9,
     "corroborated": 10,
     "shock": 18
    },
@@ -907,13 +1203,13 @@
    "verdict": "CONSIDER"
   },
   {
-   "score": 83.3,
+   "score": 78.9,
    "components": {
     "tier": 20,
     "category": 4,
     "lead": 0.0,
     "relevance": 28,
-    "freshness": 19.3,
+    "freshness": 14.9,
     "undated": -6,
     "shock": 18
    },
@@ -947,13 +1243,13 @@
    "verdict": "CONSIDER"
   },
   {
-   "score": 83.3,
+   "score": 78.8,
    "components": {
     "tier": 40,
     "category": 9,
     "lead": 16.8,
     "relevance": 12,
-    "freshness": 11.5,
+    "freshness": 7.0,
     "undated": -6
    },
    "keywords": [
@@ -984,13 +1280,127 @@
    "verdict": "CONSIDER"
   },
   {
-   "score": 79.9,
+   "score": 76.4,
+   "components": {
+    "tier": 5,
+    "category": 5,
+    "lead": 2.4,
+    "relevance": 36,
+    "freshness": 0.0,
+    "corroborated": 10,
+    "shock": 18
+   },
+   "keywords": [
+    "tax",
+    "fuel",
+    "capacity",
+    "airline",
+    "flight",
+    "franc"
+   ],
+   "shock_terms": [
+    "reconsider travel"
+   ],
+   "dedupe_match": null,
+   "dedupe_similarity": 0.08,
+   "id": "90b2b4ff02eb",
+   "title": "UK Joins France, Belgium, Netherlands and Germany as Europe Faces Higher Summer 2027 Airfares",
+   "url": "https://www.travelandtourworld.com/news/article/vf2mvp3kyv3c",
+   "summary": "UK Joins France, Belgium, Netherlands and Germany as Europe Faces Higher Summer 2027 Airfares UK joins France, Belgium, Netherlands and Germany as Europe faces higher summer 2027 airfares, driven by rising jet fuel prices, aviation taxes and airline capacity adjustments. These growing pressures could increase holiday costs across European destinations, prompting travellers to reconsider travel bud",
+   "kind": "item",
+   "source": "Travel And Tour World",
+   "source_id": "gl-travelandtourworld",
+   "tier": 3,
+   "country": "GLOBAL",
+   "category": "trade",
+   "segments": [
+    "city",
+    "bush",
+    "beach"
+   ],
+   "first_seen": "2026-10-25T20:29+03:00",
+   "published": "2026-10-25",
+   "verdict": "CONSIDER"
+  },
+  {
+   "score": 76.4,
+   "components": {
+    "tier": 40,
+    "category": 24,
+    "lead": 2.4,
+    "relevance": 0,
+    "freshness": 0.0,
+    "corroborated": 10
+   },
+   "keywords": [],
+   "shock_terms": [],
+   "dedupe_match": null,
+   "dedupe_similarity": 0.0,
+   "id": "1aac684d6dc6",
+   "title": "SitRep N\u00b0162/MVE-BDBV/23/10/2026",
+   "url": "https://insp.cd/sitrep-n162-mve-bdbv-23-10-2026",
+   "summary": "",
+   "kind": "item",
+   "source": "INSP RDC \u2014 Ebola daily situation reports (SitRep)",
+   "source_id": "cd-insp-sitrep",
+   "tier": 1,
+   "country": "GLOBAL",
+   "category": "health",
+   "segments": [
+    "City",
+    "Bush"
+   ],
+   "first_seen": "2026-10-25T16:01+03:00",
+   "published": "2026-10-25",
+   "verdict": "CONSIDER"
+  },
+  {
+   "score": 76.0,
+   "components": {
+    "tier": 20,
+    "category": 4,
+    "lead": 0.0,
+    "relevance": 24,
+    "freshness": 0.0,
+    "corroborated": 10,
+    "shock": 18
+   },
+   "keywords": [
+    "ebola",
+    "quarantine"
+   ],
+   "shock_terms": [
+    "confirmed case"
+   ],
+   "dedupe_match": null,
+   "dedupe_similarity": 0.33,
+   "id": "1b5331d3bd70",
+   "title": "Uganda imposes mandatory 21-day DRC quarantine as regional Ebola threat expands",
+   "url": "https://www.monitor.co.ug/uganda/news/national/uganda-imposes-mandatory-21-day-drc-quarantine-as-regional-ebola-threat-expands-5645034",
+   "summary": "\"Uganda remains Ebola-free, with no confirmed cases recorded since the country declared the...",
+   "kind": "item",
+   "source": "Daily Monitor (Uganda)",
+   "source_id": "np-monitor-ug",
+   "tier": 2,
+   "country": "UG",
+   "category": "press",
+   "segments": [
+    "city",
+    "bush",
+    "beach"
+   ],
+   "first_seen": "2026-10-25T23:31+03:00",
+   "published": "2026-10-25",
+   "verdict": "CONSIDER"
+  },
+  {
+   "score": 75.5,
    "components": {
     "tier": 20,
     "category": 14,
     "lead": 8.4,
     "relevance": 16,
-    "freshness": 11.5,
+    "freshness": 7.1,
     "corroborated": 10
    },
    "keywords": [
@@ -1021,13 +1431,13 @@
    "verdict": "CONSIDER"
   },
   {
-   "score": 79.9,
+   "score": 75.5,
    "components": {
     "tier": 40,
     "category": 16,
     "lead": 2.4,
     "relevance": 0,
-    "freshness": 11.5,
+    "freshness": 7.1,
     "corroborated": 10
    },
    "keywords": [],
@@ -1050,377 +1460,6 @@
     "beach"
    ],
    "first_seen": "2026-10-26T12:03+03:00",
-   "published": "2026-10-26",
-   "verdict": "CONSIDER"
-  },
-  {
-   "score": 79.7,
-   "components": {
-    "tier": 20,
-    "category": 14,
-    "lead": 8.4,
-    "relevance": 8,
-    "freshness": 19.3,
-    "corroborated": 10
-   },
-   "keywords": [
-    "route"
-   ],
-   "shock_terms": [],
-   "dedupe_match": null,
-   "dedupe_similarity": 0.08,
-   "id": "048ccbd812dc",
-   "title": "Jeju Air Plans Seoul \u2013 Sendai 1Q27 Launch",
-   "url": "https://www.aeroroutes.com/eng/261026-7c1q27sdj",
-   "summary": "Published at 0645PDT / 1345GMT 26OCT26 Jeju Air in the first quarter of 2027 plans to launch new route to Japan, with the launch of Seoul Incheon \u2013 Sendai route on 08JAN27. Boeing 737-800 aircraft to serve this route 3 times weekly. 7C1631 ICN0835 \u2013 1030SDJ 738 357 7C1632 SDJ1130 \u2013 1440ICN 738 357",
-   "kind": "item",
-   "source": "AeroRoutes schedule filings",
-   "source_id": "aeroroutes",
-   "tier": 2,
-   "country": "GLOBAL",
-   "category": "aviation-tracker",
-   "segments": [
-    "city",
-    "bush",
-    "beach"
-   ],
-   "first_seen": "2026-10-26T19:10+03:00",
-   "published": "2026-10-26",
-   "verdict": "CONSIDER"
-  },
-  {
-   "score": 79.7,
-   "components": {
-    "tier": 20,
-    "category": 14,
-    "lead": 8.4,
-    "relevance": 8,
-    "freshness": 19.3,
-    "corroborated": 10
-   },
-   "keywords": [
-    "seat"
-   ],
-   "shock_terms": [],
-   "dedupe_match": null,
-   "dedupe_similarity": 0.17,
-   "id": "518500ba019c",
-   "title": "Trinity Airways 777-300ER NW26 Operations \u2013 25OCT26",
-   "url": "https://www.aeroroutes.com/eng/261026-twnw2677w",
-   "summary": "Published at 0300PDT / 1000GMT 26OCT26 Korean carrier Trinity Airways during Northern winter 2026/27 season scheduled following 368-seater Boeing 777-300ER operations, based on schedule filing as of 25OCT26. Seoul Incheon \u2013 Barcelona 3 weekly (Day 136, no 777-300ER service scheduled 15NOV26 \u2013 27NOV26) Seoul Incheon \u2013 Osaka Kansai TW303/304 on 21NOV26 / 22NOV26 Additional changes remain highly poss",
-   "kind": "item",
-   "source": "AeroRoutes schedule filings",
-   "source_id": "aeroroutes",
-   "tier": 2,
-   "country": "GLOBAL",
-   "category": "aviation-tracker",
-   "segments": [
-    "city",
-    "bush",
-    "beach"
-   ],
-   "first_seen": "2026-10-26T19:10+03:00",
-   "published": "2026-10-26",
-   "verdict": "CONSIDER"
-  },
-  {
-   "score": 79.7,
-   "components": {
-    "tier": 40,
-    "category": 24,
-    "lead": 2.4,
-    "relevance": 0,
-    "freshness": 19.3,
-    "undated": -6
-   },
-   "keywords": [],
-   "shock_terms": [],
-   "dedupe_match": null,
-   "dedupe_similarity": 0.0,
-   "id": "0ce933f3e01f",
-   "title": "WIZARA YA AFYA YAIMARISHA MIKAKATI YA URUTUBISHAJI WA VY...",
-   "url": "https://www.moh.go.tz/news-single/wizara-ya-afya-yaimarisha-mikakati-ya-urutubishaji-wa-vyakula-nchini",
-   "summary": "",
-   "kind": "item",
-   "source": "Tanzania Ministry of Health",
-   "source_id": "tz-moh",
-   "tier": 1,
-   "country": "TZ",
-   "category": "health",
-   "segments": [
-    "city",
-    "bush",
-    "beach"
-   ],
-   "first_seen": "2026-10-26T19:09+03:00",
-   "published": null,
-   "verdict": "CONSIDER"
-  },
-  {
-   "score": 79.7,
-   "components": {
-    "tier": 40,
-    "category": 24,
-    "lead": 2.4,
-    "relevance": 0,
-    "freshness": 19.3,
-    "undated": -6
-   },
-   "keywords": [],
-   "shock_terms": [],
-   "dedupe_match": null,
-   "dedupe_similarity": 0.0,
-   "id": "8e6fe27a5083",
-   "title": "KAMATI YA BUNGE YATAKA USHIRIKIANO WA SEKTA MTAMBUKA...",
-   "url": "https://www.moh.go.tz/news-single/kamati-ya-bunge-yataka-ushirikiano-wa-sekta-mtambuka-kuimarisha-lishe-nchini",
-   "summary": "",
-   "kind": "item",
-   "source": "Tanzania Ministry of Health",
-   "source_id": "tz-moh",
-   "tier": 1,
-   "country": "TZ",
-   "category": "health",
-   "segments": [
-    "city",
-    "bush",
-    "beach"
-   ],
-   "first_seen": "2026-10-26T19:09+03:00",
-   "published": null,
-   "verdict": "CONSIDER"
-  },
-  {
-   "score": 79.7,
-   "components": {
-    "tier": 40,
-    "category": 24,
-    "lead": 2.4,
-    "relevance": 0,
-    "freshness": 19.3,
-    "undated": -6
-   },
-   "keywords": [],
-   "shock_terms": [],
-   "dedupe_match": null,
-   "dedupe_similarity": 0.0,
-   "id": "ec17dfced94a",
-   "title": "SERIKALI YAIMARISHA MIKAKATI YA KUPAMBANA NA UTAPIAM...",
-   "url": "https://www.moh.go.tz/news-single/serikali-yaimarisha-mikakati-ya-kupambana-na-utapiamlo-nchini",
-   "summary": "",
-   "kind": "item",
-   "source": "Tanzania Ministry of Health",
-   "source_id": "tz-moh",
-   "tier": 1,
-   "country": "TZ",
-   "category": "health",
-   "segments": [
-    "city",
-    "bush",
-    "beach"
-   ],
-   "first_seen": "2026-10-26T19:09+03:00",
-   "published": null,
-   "verdict": "CONSIDER"
-  },
-  {
-   "score": 79.7,
-   "components": {
-    "tier": 40,
-    "category": 24,
-    "lead": 2.4,
-    "relevance": 0,
-    "freshness": 19.3,
-    "undated": -6
-   },
-   "keywords": [],
-   "shock_terms": [],
-   "dedupe_match": null,
-   "dedupe_similarity": 0.0,
-   "id": "64fc5b0fbe63",
-   "title": "WIZARA YA AFYA YAIMARISHA UTAYARI WA KUKABILIANA NA ...",
-   "url": "https://www.moh.go.tz/news-single/wizara-ya-afya-yaimarisha-utayari-wa-kukabiliana-na-dharura-za-afya-kupitia-pheoc",
-   "summary": "",
-   "kind": "item",
-   "source": "Tanzania Ministry of Health",
-   "source_id": "tz-moh",
-   "tier": 1,
-   "country": "TZ",
-   "category": "health",
-   "segments": [
-    "city",
-    "bush",
-    "beach"
-   ],
-   "first_seen": "2026-10-26T19:09+03:00",
-   "published": null,
-   "verdict": "CONSIDER"
-  },
-  {
-   "score": 79.7,
-   "components": {
-    "tier": 40,
-    "category": 24,
-    "lead": 2.4,
-    "relevance": 0,
-    "freshness": 19.3,
-    "undated": -6
-   },
-   "keywords": [],
-   "shock_terms": [],
-   "dedupe_match": null,
-   "dedupe_similarity": 0.0,
-   "id": "bd8abb5b5c70",
-   "title": "SERIKALI YATAKA MAAZIMIO YA KONGAMANO LA VIJANA KUTE...",
-   "url": "https://www.moh.go.tz/news-single/serikali-yataka-maazimio-ya-kongamano-la-vijana-kutekelezwa-kwa-vitendo",
-   "summary": "",
-   "kind": "item",
-   "source": "Tanzania Ministry of Health",
-   "source_id": "tz-moh",
-   "tier": 1,
-   "country": "TZ",
-   "category": "health",
-   "segments": [
-    "city",
-    "bush",
-    "beach"
-   ],
-   "first_seen": "2026-10-26T19:09+03:00",
-   "published": null,
-   "verdict": "CONSIDER"
-  },
-  {
-   "score": 79.7,
-   "components": {
-    "tier": 40,
-    "category": 24,
-    "lead": 2.4,
-    "relevance": 0,
-    "freshness": 19.3,
-    "undated": -6
-   },
-   "keywords": [],
-   "shock_terms": [],
-   "dedupe_match": null,
-   "dedupe_similarity": 0.0,
-   "id": "21ac9710be0f",
-   "title": "WIZARA YA AFYA YAIMARISHA UWEZO WATOA HUDUMA ZA DHAR...",
-   "url": "https://www.moh.go.tz/news-single/wizara-ya-afya-yaimarisha-uwezo-watoa-huduma-za-dharura-kwenye-magari-ya-wagonjwa",
-   "summary": "",
-   "kind": "item",
-   "source": "Tanzania Ministry of Health",
-   "source_id": "tz-moh",
-   "tier": 1,
-   "country": "TZ",
-   "category": "health",
-   "segments": [
-    "city",
-    "bush",
-    "beach"
-   ],
-   "first_seen": "2026-10-26T19:09+03:00",
-   "published": null,
-   "verdict": "CONSIDER"
-  },
-  {
-   "score": 79.7,
-   "components": {
-    "tier": 40,
-    "category": 24,
-    "lead": 2.4,
-    "relevance": 0,
-    "freshness": 19.3,
-    "undated": -6
-   },
-   "keywords": [],
-   "shock_terms": [],
-   "dedupe_match": null,
-   "dedupe_similarity": 0.0,
-   "id": "588e79cc3023",
-   "title": "KAMATI YA BUNGE YAAHIDI KUUNGA MKONO SERIKALI KUIMAR...",
-   "url": "https://www.moh.go.tz/news-single/kamati-ya-bunge-yaahidi-kuunga-mkono-serikali-kuimarisha-viwanda-vya-dawa-na-vifaa-tiba",
-   "summary": "",
-   "kind": "item",
-   "source": "Tanzania Ministry of Health",
-   "source_id": "tz-moh",
-   "tier": 1,
-   "country": "TZ",
-   "category": "health",
-   "segments": [
-    "city",
-    "bush",
-    "beach"
-   ],
-   "first_seen": "2026-10-26T19:09+03:00",
-   "published": null,
-   "verdict": "CONSIDER"
-  },
-  {
-   "score": 79.7,
-   "components": {
-    "tier": 40,
-    "category": 24,
-    "lead": 2.4,
-    "relevance": 0,
-    "freshness": 19.3,
-    "undated": -6
-   },
-   "keywords": [],
-   "shock_terms": [],
-   "dedupe_match": null,
-   "dedupe_similarity": 0.0,
-   "id": "f6815e8f7c9d",
-   "title": "SERIKALI YAWEKA MIKAKATI KUONGEZA UZALISHAJI WA DAWA...",
-   "url": "https://www.moh.go.tz/news-single/serikali-yaweka-mikakati-kuongeza-uzalishaji-wa-dawa-na-vifaa-tiba-nchini",
-   "summary": "",
-   "kind": "item",
-   "source": "Tanzania Ministry of Health",
-   "source_id": "tz-moh",
-   "tier": 1,
-   "country": "TZ",
-   "category": "health",
-   "segments": [
-    "city",
-    "bush",
-    "beach"
-   ],
-   "first_seen": "2026-10-26T19:09+03:00",
-   "published": null,
-   "verdict": "CONSIDER"
-  },
-  {
-   "score": 77.9,
-   "components": {
-    "tier": 20,
-    "category": 5,
-    "lead": 3.6,
-    "relevance": 20,
-    "freshness": 19.3,
-    "corroborated": 10
-   },
-   "keywords": [
-    "vat",
-    "eta",
-    "hotel"
-   ],
-   "shock_terms": [],
-   "dedupe_match": null,
-   "dedupe_similarity": 0.07,
-   "id": "c0e25e1e2a7e",
-   "title": "When Hospitality Becomes Infrastructure",
-   "url": "https://www.hospitalitynet.org/opinion/4135109/when-hospitality-becomes-infrastructure",
-   "summary": "The article argues that hotels in large-scale developments now function as destination infrastructure, shaping early perceptions, activating public life, and supporting residential and retail value beyond traditional hotel metrics.",
-   "kind": "item",
-   "source": "Hospitality Net \u2014 Africa announcements",
-   "source_id": "dev-hospitalitynet-africa",
-   "tier": 2,
-   "country": "REG",
-   "category": "trade",
-   "segments": [
-    "city",
-    "bush",
-    "beach"
-   ],
-   "first_seen": "2026-10-26T19:10+03:00",
    "published": "2026-10-26",
    "verdict": "CONSIDER"
   }
