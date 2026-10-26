@@ -4,8 +4,9 @@ slug: zanzibar-seats-up-rates-down-capacity-lesson
 description: Airline capacity into Zanzibar rose 11 per cent in a year and is forecast to rise another 33 per cent by March. August set an arrivals record at an estimated 92.9 per cent bed occupancy. Over the same twelve months the weighted average online room rate fell about 18 per cent, in every category. East Africa has spent three years arguing that seats are the binding constraint. One island has now run the experiment.
 category: Big Read
 updated: 2026-10-26
+image: "img/editions/zanzibar-seats-up-rates-down-capacity-lesson.jpg"
+image_credit: "Photograph: Onyango George / EA Hospitality Pulse"
 ---
-
 On the evening of 20 October, in a five star beachfront resort that had opened on Zanzibar's coast only eight months earlier, Shariff Ali Shariff told a room of 178 foreign travel buyers that his island had outgrown its own brochure. "Zanzibar is no longer just a destination for holidays," the Minister of State in the President's Office said. He wanted conferences. He wanted Pemba developed carefully. He wanted guests who, in his phrase, "come for our beaches but stay longer." It was a confident speech to a confident room. Essence of Africa, the buyer forum hosting it, had grown its exhibitor list by 53 per cent since its first edition, and roughly three quarters of the buyers sitting in front of him were attending for the first time.
 
 Within forty eight hours the association that convened those buyers published the figures that complicate the speech. Airline seat capacity into Zanzibar grew by more than 11 per cent in the twelve months to October 2026, with long haul seats up 26 per cent. Over the next six months it is forecast to rise by 33 per cent, split between a 36 per cent jump in domestic capacity and 31 per cent internationally. Forward flight bookings through the global distribution systems for travel to March 2027 are up 10 per cent year on year. By any measure an island tourism board would recognise, this is the thing everyone has been asking for.
