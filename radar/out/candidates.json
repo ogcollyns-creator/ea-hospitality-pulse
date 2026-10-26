@@ -1,18 +1,18 @@
 {
- "generated": "2026-10-26T02:59:36+03:00",
+ "generated": "2026-10-26T06:45:16+03:00",
  "slot": "morning",
  "window_start": 1792940400,
- "observations_in_window": 258,
- "deduped_against": 26,
+ "observations_in_window": 299,
+ "deduped_against": 21,
  "candidates": [
   {
-   "score": 61.6,
+   "score": 57.4,
    "components": {
     "tier": 40,
     "category": 12,
     "lead": 3.6,
     "relevance": 0,
-    "freshness": 16.0,
+    "freshness": 11.8,
     "undated": -6,
     "page_change": -4
    },
@@ -40,13 +40,13 @@
    "verdict": "OPEN THIS \u2014 tier-1 airline page moved; content not auto-parsed, read it manually"
   },
   {
-   "score": 92.0,
+   "score": 87.8,
    "components": {
     "tier": 20,
     "category": 4,
     "lead": 0.0,
     "relevance": 24,
-    "freshness": 16.0,
+    "freshness": 11.8,
     "corroborated": 10,
     "shock": 18
    },
@@ -79,13 +79,13 @@
    "verdict": "CONSIDER"
   },
   {
-   "score": 89.1,
+   "score": 84.9,
    "components": {
     "tier": 5,
     "category": 5,
     "lead": 2.4,
     "relevance": 36,
-    "freshness": 12.7,
+    "freshness": 8.5,
     "corroborated": 10,
     "shock": 18
    },
@@ -101,7 +101,7 @@
     "reconsider travel"
    ],
    "dedupe_match": null,
-   "dedupe_similarity": 0.29,
+   "dedupe_similarity": 0.08,
    "id": "90b2b4ff02eb",
    "title": "UK Joins France, Belgium, Netherlands and Germany as Europe Faces Higher Summer 2027 Airfares",
    "url": "https://www.travelandtourworld.com/news/article/vf2mvp3kyv3c",
@@ -122,13 +122,46 @@
    "verdict": "CONSIDER"
   },
   {
-   "score": 81.3,
+   "score": 81.4,
    "components": {
     "tier": 40,
     "category": 32,
     "lead": 3.6,
     "relevance": 0,
-    "freshness": 19.7,
+    "freshness": 19.8,
+    "stale_trap": -10,
+    "page_change": -4
+   },
+   "keywords": [],
+   "shock_terms": [],
+   "dedupe_match": null,
+   "dedupe_similarity": 0.12,
+   "id": "9aa851194e8d",
+   "title": "[page changed] Federal Register \u2014 public inspection (HHS/CDC), pre-publication",
+   "url": "https://www.federalregister.gov/api/v1/public-inspection-documents/current.json",
+   "summary": "{\"count\":107,\"results\":[{\"agencies\":[{\"raw_name\":\"LEGAL SERVICES CORPORATION\",\"name\":\"Legal Services Corporation\",\"id\":276,\"url\":\"https://www.federalregister.gov/agencies/legal-services-corporation\",\"json_url\":\"https://www.federalregister.gov/api/v1/agencies/276\",\"parent_id\":null,\"slug\":\"legal-services-corporation\"}],\"agency_letters\":[],\"agency_names\":[\"Legal Services Corporation\"],\"docket_numbers",
+   "kind": "page-change",
+   "source": "Federal Register \u2014 public inspection (HHS/CDC), pre-publication",
+   "source_id": "us-fedreg-pubinspect-hhs",
+   "tier": 1,
+   "country": "REG",
+   "category": "advisory",
+   "segments": [
+    "city",
+    "bush"
+   ],
+   "first_seen": "2026-10-26T06:42+03:00",
+   "published": "2026-10-22",
+   "verdict": "CHECK \u2014 source date older than the window"
+  },
+  {
+   "score": 77.2,
+   "components": {
+    "tier": 40,
+    "category": 32,
+    "lead": 3.6,
+    "relevance": 0,
+    "freshness": 15.6,
     "stale_trap": -10,
     "page_change": -4
    },
@@ -155,13 +188,13 @@
    "verdict": "CHECK \u2014 source date older than the window"
   },
   {
-   "score": 77.6,
+   "score": 73.4,
    "components": {
     "tier": 40,
     "category": 32,
     "lead": 3.6,
     "relevance": 0,
-    "freshness": 16.0,
+    "freshness": 11.8,
     "stale_trap": -10,
     "page_change": -4
    },
@@ -188,13 +221,49 @@
    "verdict": "CHECK \u2014 source date older than the window"
   },
   {
-   "score": 75.1,
+   "score": 71.8,
+   "components": {
+    "tier": 20,
+    "category": 4,
+    "lead": 0.0,
+    "relevance": 0,
+    "freshness": 19.8,
+    "corroborated": 10,
+    "shock": 18
+   },
+   "keywords": [],
+   "shock_terms": [
+    "attack"
+   ],
+   "dedupe_match": null,
+   "dedupe_similarity": 0.0,
+   "id": "0a524720d43b",
+   "title": "Buffaloes take over Agago villages, kill one",
+   "url": "https://www.monitor.co.ug/uganda/news/national/buffaloes-take-over-agago-villages-kill-one-5645600",
+   "summary": "Mr Richard Olwoch, 36, a farmer, was attacked by a group of six buffaloes that gored him to death",
+   "kind": "item",
+   "source": "Daily Monitor (Uganda)",
+   "source_id": "np-monitor-ug",
+   "tier": 2,
+   "country": "UG",
+   "category": "press",
+   "segments": [
+    "city",
+    "bush",
+    "beach"
+   ],
+   "first_seen": "2026-10-26T06:43+03:00",
+   "published": "2026-10-25",
+   "verdict": "CONSIDER"
+  },
+  {
+   "score": 70.9,
    "components": {
     "tier": 20,
     "category": 4,
     "lead": 2.4,
     "relevance": 8,
-    "freshness": 12.7,
+    "freshness": 8.5,
     "corroborated": 10,
     "shock": 18
    },
@@ -226,13 +295,13 @@
    "verdict": "CONSIDER"
   },
   {
-   "score": 74.2,
+   "score": 70.1,
    "components": {
     "tier": 40,
     "category": 32,
     "lead": 3.6,
     "relevance": 0,
-    "freshness": 12.6,
+    "freshness": 8.5,
     "stale_trap": -10,
     "page_change": -4
    },
@@ -259,13 +328,13 @@
    "verdict": "CHECK \u2014 source date older than the window"
   },
   {
-   "score": 74.0,
+   "score": 69.8,
    "components": {
     "tier": 5,
     "category": 5,
     "lead": 0.0,
     "relevance": 20,
-    "freshness": 16.0,
+    "freshness": 11.8,
     "corroborated": 10,
     "shock": 18
    },
@@ -296,16 +365,16 @@
    ],
    "first_seen": "2026-10-25T23:31+03:00",
    "published": "2026-10-25",
-   "verdict": "CONSIDER"
+   "verdict": "weak"
   },
   {
-   "score": 72.0,
+   "score": 67.8,
    "components": {
     "tier": 5,
     "category": 5,
     "lead": 0.0,
     "relevance": 36,
-    "freshness": 16.0,
+    "freshness": 11.8,
     "corroborated": 10
    },
    "keywords": [
@@ -319,7 +388,7 @@
    ],
    "shock_terms": [],
    "dedupe_match": null,
-   "dedupe_similarity": 0.17,
+   "dedupe_similarity": 0.14,
    "id": "8484f486bde2",
    "title": "Jamaica Tourism After Hurricane Melissa: Bartlett Promises to \u201cBounce Forward\u201d as 400,000 Canadian Airline Seats Await",
    "url": "https://eturbonews.com/jamaica-tourism-hurricane-melissa-canada-recovery",
@@ -337,16 +406,16 @@
    ],
    "first_seen": "2026-10-25T23:31+03:00",
    "published": "2026-10-25",
-   "verdict": "CONSIDER"
+   "verdict": "weak"
   },
   {
-   "score": 68.1,
+   "score": 64.0,
    "components": {
     "tier": 20,
     "category": 4,
     "lead": 2.4,
     "relevance": 12,
-    "freshness": 19.7,
+    "freshness": 15.6,
     "corroborated": 10
    },
    "keywords": [
@@ -375,13 +444,13 @@
    "verdict": "weak"
   },
   {
-   "score": 68.0,
+   "score": 63.8,
    "components": {
     "tier": 20,
     "category": 4,
     "lead": 0.0,
     "relevance": 0,
-    "freshness": 16.0,
+    "freshness": 11.8,
     "corroborated": 10,
     "shock": 18
    },
@@ -411,13 +480,13 @@
    "verdict": "weak"
   },
   {
-   "score": 64.1,
+   "score": 60.0,
    "components": {
     "tier": 20,
     "category": 4,
     "lead": 2.4,
     "relevance": 8,
-    "freshness": 19.7,
+    "freshness": 15.6,
     "corroborated": 10
    },
    "keywords": [
@@ -446,13 +515,13 @@
    "verdict": "weak"
   },
   {
-   "score": 61.1,
+   "score": 56.9,
    "components": {
     "tier": 20,
     "category": 4,
     "lead": 2.4,
     "relevance": 12,
-    "freshness": 12.7,
+    "freshness": 8.5,
     "corroborated": 10
    },
    "keywords": [
@@ -482,13 +551,13 @@
    "verdict": "weak"
   },
   {
-   "score": 61.1,
+   "score": 56.9,
    "components": {
     "tier": 20,
     "category": 4,
     "lead": 2.4,
     "relevance": 12,
-    "freshness": 12.7,
+    "freshness": 8.5,
     "corroborated": 10
    },
    "keywords": [
@@ -497,7 +566,7 @@
    ],
    "shock_terms": [],
    "dedupe_match": null,
-   "dedupe_similarity": 0.17,
+   "dedupe_similarity": 0.12,
    "id": "c33327ebb0ab",
    "title": "CS Wandayi: Dangote\u2019s KPC stake signals confidence in Kenya\u2019s economy",
    "url": "https://nation.africa/kenya/business/wandayi-dangote-kpc-stake-signals-confidence-kenya-economy-5645060",
@@ -518,13 +587,13 @@
    "verdict": "weak"
   },
   {
-   "score": 61.1,
+   "score": 56.9,
    "components": {
     "tier": 20,
     "category": 4,
     "lead": 2.4,
     "relevance": 12,
-    "freshness": 12.7,
+    "freshness": 8.5,
     "corroborated": 10
    },
    "keywords": [
@@ -533,7 +602,7 @@
    ],
    "shock_terms": [],
    "dedupe_match": null,
-   "dedupe_similarity": 0.17,
+   "dedupe_similarity": 0.1,
    "id": "32faee6aaf82",
    "title": "'They created the hunger': Tinubu blames opposition in 2027 re-election campaign",
    "url": "https://nation.africa/kenya/news/africa/-tinubu-blames-opposition-in-2027-re-election-campaign--5644736",
@@ -554,13 +623,47 @@
    "verdict": "weak"
   },
   {
-   "score": 59.9,
+   "score": 56.2,
+   "components": {
+    "tier": 20,
+    "category": 24,
+    "lead": 2.4,
+    "relevance": 0,
+    "freshness": 19.8,
+    "undated": -6,
+    "page_change": -4
+   },
+   "keywords": [],
+   "shock_terms": [],
+   "dedupe_match": null,
+   "dedupe_similarity": 0.1,
+   "id": "be89a000c6a9",
+   "title": "[page changed] ProMED-mail",
+   "url": "https://promedmail.org/",
+   "summary": "Protecting Global Health, One Alert at a Time | ProMED Previous slide Next slide Protecting Global Health, One Alert at a Time ProMED: Your 24/7 early warning system for emerging infectious diseases worldwide. Subscribe ProMED's Weekly Pulse A snapshot of global health events from the past 7 days Latest Posts on ProMED All Date Title Mon Oct 26 2026 AVIAN INFLUENZA - CANADA, USA (02): (ALBERTA) (I",
+   "kind": "page-change",
+   "source": "ProMED-mail",
+   "source_id": "promed",
+   "tier": 2,
+   "country": "GLOBAL",
+   "category": "health",
+   "segments": [
+    "city",
+    "bush",
+    "beach"
+   ],
+   "first_seen": "2026-10-26T06:43+03:00",
+   "published": null,
+   "verdict": "weak"
+  },
+  {
+   "score": 55.8,
    "components": {
     "tier": 20,
     "category": 5,
     "lead": 1.2,
     "relevance": 20,
-    "freshness": 19.7,
+    "freshness": 15.6,
     "undated": -6
    },
    "keywords": [
@@ -590,13 +693,13 @@
    "verdict": "weak"
   },
   {
-   "score": 59.9,
+   "score": 55.8,
    "components": {
     "tier": 20,
     "category": 5,
     "lead": 1.2,
     "relevance": 20,
-    "freshness": 19.7,
+    "freshness": 15.6,
     "undated": -6
    },
    "keywords": [
@@ -626,13 +729,13 @@
    "verdict": "weak"
   },
   {
-   "score": 58.7,
+   "score": 54.5,
    "components": {
     "tier": 20,
     "category": 4,
     "lead": 0.0,
     "relevance": 12,
-    "freshness": 12.7,
+    "freshness": 8.5,
     "corroborated": 10
    },
    "keywords": [
@@ -662,13 +765,13 @@
    "verdict": "weak"
   },
   {
-   "score": 58.1,
+   "score": 54.0,
    "components": {
     "tier": 5,
     "category": 5,
     "lead": 2.4,
     "relevance": 16,
-    "freshness": 19.7,
+    "freshness": 15.6,
     "corroborated": 10
    },
    "keywords": [
@@ -699,13 +802,79 @@
    "verdict": "weak"
   },
   {
-   "score": 58.0,
+   "score": 53.8,
+   "components": {
+    "tier": 20,
+    "category": 4,
+    "lead": 0.0,
+    "relevance": 0,
+    "freshness": 19.8,
+    "corroborated": 10
+   },
+   "keywords": [],
+   "shock_terms": [],
+   "dedupe_match": null,
+   "dedupe_similarity": 0.07,
+   "id": "5c63237bdae7",
+   "title": "Govt halves non-essential spending as local currency hits 33-year low against US dollar",
+   "url": "https://www.monitor.co.ug/uganda/news/national/govt-halves-non-essential-spending-as-local-currency-hits-33-year-low-against-us-dollar-5645604",
+   "summary": "Confirming the market volatility, Mr Stephen Kaboyo, a financial analyst and Partner at Alpha...",
+   "kind": "item",
+   "source": "Daily Monitor (Uganda)",
+   "source_id": "np-monitor-ug",
+   "tier": 2,
+   "country": "UG",
+   "category": "press",
+   "segments": [
+    "city",
+    "bush",
+    "beach"
+   ],
+   "first_seen": "2026-10-26T06:43+03:00",
+   "published": "2026-10-26",
+   "verdict": "weak"
+  },
+  {
+   "score": 53.8,
+   "components": {
+    "tier": 20,
+    "category": 4,
+    "lead": 0.0,
+    "relevance": 0,
+    "freshness": 19.8,
+    "corroborated": 10
+   },
+   "keywords": [],
+   "shock_terms": [],
+   "dedupe_match": null,
+   "dedupe_similarity": 0.0,
+   "id": "560b2f9ffa65",
+   "title": "Past and Present: Obote shot in assassination attempt",
+   "url": "https://www.monitor.co.ug/uganda/magazines/people-power/past-and-present-obote-shot-in-assassination-attempt-5644704",
+   "summary": "Milton Obote was not facing opposition from only outside. He was also under pressure from...",
+   "kind": "item",
+   "source": "Daily Monitor (Uganda)",
+   "source_id": "np-monitor-ug",
+   "tier": 2,
+   "country": "UG",
+   "category": "press",
+   "segments": [
+    "city",
+    "bush",
+    "beach"
+   ],
+   "first_seen": "2026-10-26T06:43+03:00",
+   "published": "2026-10-25",
+   "verdict": "weak"
+  },
+  {
+   "score": 53.8,
    "components": {
     "tier": 20,
     "category": 4,
     "lead": 0.0,
     "relevance": 8,
-    "freshness": 16.0,
+    "freshness": 11.8,
     "corroborated": 10
    },
    "keywords": [
@@ -734,13 +903,13 @@
    "verdict": "weak"
   },
   {
-   "score": 57.1,
+   "score": 52.9,
    "components": {
     "tier": 20,
     "category": 4,
     "lead": 2.4,
     "relevance": 8,
-    "freshness": 12.7,
+    "freshness": 8.5,
     "corroborated": 10
    },
    "keywords": [
@@ -769,13 +938,13 @@
    "verdict": "weak"
   },
   {
-   "score": 57.1,
+   "score": 52.9,
    "components": {
     "tier": 20,
     "category": 4,
     "lead": 2.4,
     "relevance": 8,
-    "freshness": 12.7,
+    "freshness": 8.5,
     "corroborated": 10
    },
    "keywords": [
@@ -804,13 +973,13 @@
    "verdict": "weak"
   },
   {
-   "score": 57.1,
+   "score": 52.9,
    "components": {
     "tier": 20,
     "category": 4,
     "lead": 2.4,
     "relevance": 8,
-    "freshness": 12.7,
+    "freshness": 8.5,
     "corroborated": 10
    },
    "keywords": [
@@ -839,13 +1008,13 @@
    "verdict": "weak"
   },
   {
-   "score": 57.1,
+   "score": 52.9,
    "components": {
     "tier": 20,
     "category": 4,
     "lead": 2.4,
     "relevance": 8,
-    "freshness": 12.7,
+    "freshness": 8.5,
     "corroborated": 10
    },
    "keywords": [
@@ -874,13 +1043,13 @@
    "verdict": "weak"
   },
   {
-   "score": 57.1,
+   "score": 52.9,
    "components": {
     "tier": 20,
     "category": 4,
     "lead": 2.4,
     "relevance": 8,
-    "freshness": 12.7,
+    "freshness": 8.5,
     "corroborated": 10
    },
    "keywords": [
@@ -909,13 +1078,13 @@
    "verdict": "weak"
   },
   {
-   "score": 57.1,
+   "score": 52.9,
    "components": {
     "tier": 20,
     "category": 4,
     "lead": 2.4,
     "relevance": 8,
-    "freshness": 12.7,
+    "freshness": 8.5,
     "corroborated": 10
    },
    "keywords": [
@@ -944,13 +1113,13 @@
    "verdict": "weak"
   },
   {
-   "score": 56.7,
+   "score": 52.5,
    "components": {
     "tier": 20,
     "category": 4,
     "lead": 0.0,
     "relevance": 8,
-    "freshness": 12.7,
+    "freshness": 8.5,
     "undated": -6,
     "shock": 18
    },
@@ -961,7 +1130,7 @@
     "strike"
    ],
    "dedupe_match": null,
-   "dedupe_similarity": 0.17,
+   "dedupe_similarity": 0.14,
    "id": "aec083215c02",
    "title": "World 'Strike on Gaza university kills three' Gaza's education ministry said in a statement that the students had been present for classes.",
    "url": "https://www.newvision.co.ug/category/world/strike-on-gaza-university-kills-three-NV_242983_102026",
@@ -982,13 +1151,13 @@
    "verdict": "weak"
   },
   {
-   "score": 56.1,
+   "score": 52.0,
    "components": {
     "tier": 20,
     "category": 24,
     "lead": 2.4,
     "relevance": 0,
-    "freshness": 19.7,
+    "freshness": 15.6,
     "undated": -6,
     "page_change": -4
    },
@@ -1016,19 +1185,19 @@
    "verdict": "weak"
   },
   {
-   "score": 56.1,
+   "score": 52.0,
    "components": {
     "tier": 20,
     "category": 4,
     "lead": 2.4,
     "relevance": 0,
-    "freshness": 19.7,
+    "freshness": 15.6,
     "corroborated": 10
    },
    "keywords": [],
    "shock_terms": [],
    "dedupe_match": null,
-   "dedupe_similarity": 0.17,
+   "dedupe_similarity": 0.15,
    "id": "ea55f5bf4dc9",
    "title": "Uganda calls for predictable funding and joint AU-UN frameworks for continental peace operations",
    "url": "https://www.independent.co.ug/uganda-calls-for-predictable-funding-and-joint-au-un-frameworks-for-continental-peace-operations-2",
@@ -1049,13 +1218,13 @@
    "verdict": "weak"
   },
   {
-   "score": 56.1,
+   "score": 52.0,
    "components": {
     "tier": 20,
     "category": 4,
     "lead": 2.4,
     "relevance": 0,
-    "freshness": 19.7,
+    "freshness": 15.6,
     "corroborated": 10
    },
    "keywords": [],
@@ -1082,13 +1251,13 @@
    "verdict": "weak"
   },
   {
-   "score": 56.1,
+   "score": 52.0,
    "components": {
     "tier": 20,
     "category": 4,
     "lead": 2.4,
     "relevance": 16,
-    "freshness": 19.7,
+    "freshness": 15.6,
     "undated": -6
    },
    "keywords": [
@@ -1118,13 +1287,13 @@
    "verdict": "weak"
   },
   {
-   "score": 56.1,
+   "score": 52.0,
    "components": {
     "tier": 20,
     "category": 4,
     "lead": 2.4,
     "relevance": 0,
-    "freshness": 19.7,
+    "freshness": 15.6,
     "corroborated": 10
    },
    "keywords": [],
@@ -1151,13 +1320,13 @@
    "verdict": "weak"
   },
   {
-   "score": 56.1,
+   "score": 52.0,
    "components": {
     "tier": 20,
     "category": 4,
     "lead": 2.4,
     "relevance": 0,
-    "freshness": 19.7,
+    "freshness": 15.6,
     "corroborated": 10
    },
    "keywords": [],
@@ -1184,13 +1353,13 @@
    "verdict": "weak"
   },
   {
-   "score": 56.1,
+   "score": 52.0,
    "components": {
     "tier": 20,
     "category": 4,
     "lead": 2.4,
     "relevance": 0,
-    "freshness": 19.7,
+    "freshness": 15.6,
     "corroborated": 10
    },
    "keywords": [],
@@ -1217,13 +1386,13 @@
    "verdict": "weak"
   },
   {
-   "score": 55.1,
+   "score": 50.9,
    "components": {
     "tier": 5,
     "category": 5,
     "lead": 2.4,
     "relevance": 20,
-    "freshness": 12.7,
+    "freshness": 8.5,
     "corroborated": 10
    },
    "keywords": [
@@ -1245,183 +1414,6 @@
    "tier": 3,
    "country": "GLOBAL",
    "category": "trade",
-   "segments": [
-    "city",
-    "bush",
-    "beach"
-   ],
-   "first_seen": "2026-10-25T20:29+03:00",
-   "published": "2026-10-25",
-   "verdict": "weak"
-  },
-  {
-   "score": 54.7,
-   "components": {
-    "tier": 20,
-    "category": 4,
-    "lead": 0.0,
-    "relevance": 8,
-    "freshness": 12.7,
-    "corroborated": 10
-   },
-   "keywords": [
-    "eta"
-   ],
-   "shock_terms": [],
-   "dedupe_match": null,
-   "dedupe_similarity": 0.17,
-   "id": "f89fab2cd3bd",
-   "title": "Tanzania sees massive drop in poverty level as population hits 70m",
-   "url": "https://dailynews.co.tz/tanzania-sees-massive-drop-in-poverty-level-as-population-hits-70m",
-   "summary": "DODOMA: THE government has proudly announced massive decline in poverty level for its citizens countrywide. The government, through its spokesperson and the Permanent Secretary in the Ministry of Information, Culture, Arts and Sports, Gerson Msigwa, said statistics show that poverty level has declined, with basic needs poverty falling from 38.6 per cent in 1991/92 to \u2026 The post Tanzania sees massi",
-   "kind": "item",
-   "source": "Daily News (Tanzania)",
-   "source_id": "np-dailynews-tz",
-   "tier": 2,
-   "country": "TZ",
-   "category": "press",
-   "segments": [
-    "city",
-    "bush",
-    "beach"
-   ],
-   "first_seen": "2026-10-25T20:29+03:00",
-   "published": "2026-10-25",
-   "verdict": "weak"
-  },
-  {
-   "score": 54.7,
-   "components": {
-    "tier": 20,
-    "category": 4,
-    "lead": 0.0,
-    "relevance": 8,
-    "freshness": 12.7,
-    "corroborated": 10
-   },
-   "keywords": [
-    "fuel"
-   ],
-   "shock_terms": [],
-   "dedupe_match": null,
-   "dedupe_similarity": 0.17,
-   "id": "d227f81b8d18",
-   "title": "Tanzania banks on peace and stability to attain a 1tri/- US dollar economy",
-   "url": "https://dailynews.co.tz/tanzania-banks-on-peace-and-stability-to-attain-a-1tri-us-dollar-economy",
-   "summary": "DODOMA: Government Spokesperson, Gerson Msigwa has stressed the importance of Tanzanians maintaining peace and stability by avoiding violence and violations of the law, urging those with grievances to use lawful channels to present their complaints rather than fuel conflicts. Speaking to media outlets in Dodoma, Msigwa said a peaceful environment was essential for enabling citizens \u2026 The post Tanz",
-   "kind": "item",
-   "source": "Daily News (Tanzania)",
-   "source_id": "np-dailynews-tz",
-   "tier": 2,
-   "country": "TZ",
-   "category": "press",
-   "segments": [
-    "city",
-    "bush",
-    "beach"
-   ],
-   "first_seen": "2026-10-25T20:29+03:00",
-   "published": "2026-10-25",
-   "verdict": "weak"
-  },
-  {
-   "score": 54.1,
-   "components": {
-    "tier": 5,
-    "category": 5,
-    "lead": 2.4,
-    "relevance": 12,
-    "freshness": 19.7,
-    "corroborated": 10
-   },
-   "keywords": [
-    "tax",
-    "tourist"
-   ],
-   "shock_terms": [],
-   "dedupe_match": null,
-   "dedupe_similarity": 0.1,
-   "id": "d3f2e14c163c",
-   "title": "Japan Introduces Tax-Free Shopping Overhaul, Bringing New Rules for Luxury Goods Across Tokyo, Osaka and Many More",
-   "url": "https://www.travelandtourworld.com/news/article/aeasa7fxbhc0",
-   "summary": "Japan Introduces Tax-Free Shopping Overhaul, Bringing New Rules for Luxury Goods Across Tokyo, Osaka and Many More Japan has new tax-free shopping rules that will begin November 2026, changing refunds for tourists visiting Tokyo, Osaka, Kyoto and other major cities. The post Japan Introduces Tax-Free Shopping Overhaul, Bringing New Rules for Luxury Goods Across Tokyo, Osaka and Many More appeared ",
-   "kind": "item",
-   "source": "Travel And Tour World",
-   "source_id": "gl-travelandtourworld",
-   "tier": 3,
-   "country": "GLOBAL",
-   "category": "trade",
-   "segments": [
-    "city",
-    "bush",
-    "beach"
-   ],
-   "first_seen": "2026-10-26T02:55+03:00",
-   "published": "2026-10-26",
-   "verdict": "weak"
-  },
-  {
-   "score": 54.1,
-   "components": {
-    "tier": 5,
-    "category": 5,
-    "lead": 2.4,
-    "relevance": 12,
-    "freshness": 19.7,
-    "corroborated": 10
-   },
-   "keywords": [
-    "vat",
-    "tourism"
-   ],
-   "shock_terms": [],
-   "dedupe_match": null,
-   "dedupe_similarity": 0.14,
-   "id": "66197b91a087",
-   "title": "Tajikistan Elevates Central Asia\u2019s Tourism Ambitions as Kyrgyzstan, Germany, Russia and Iran Spotlight Rich Cultural Heritage in 2026",
-   "url": "https://www.travelandtourworld.com/news/article/tkqac2y53wsf",
-   "summary": "Tajikistan Elevates Central Asia\u2019s Tourism Ambitions as Kyrgyzstan, Germany, Russia and Iran Spotlight Rich Cultural Heritage in 2026 Tajikistan expands sustainable tourism cooperation in 2026, highlighting cultural heritage, regional destinations and international partnerships. The post Tajikistan Elevates Central Asia\u2019s Tourism Ambitions as Kyrgyzstan, Germany, Russia and Iran Spotlight Rich Cul",
-   "kind": "item",
-   "source": "Travel And Tour World",
-   "source_id": "gl-travelandtourworld",
-   "tier": 3,
-   "country": "GLOBAL",
-   "category": "trade",
-   "segments": [
-    "city",
-    "bush",
-    "beach"
-   ],
-   "first_seen": "2026-10-26T02:55+03:00",
-   "published": "2026-10-26",
-   "verdict": "weak"
-  },
-  {
-   "score": 53.1,
-   "components": {
-    "tier": 20,
-    "category": 4,
-    "lead": 2.4,
-    "relevance": 4,
-    "freshness": 12.7,
-    "corroborated": 10
-   },
-   "keywords": [
-    "passenger"
-   ],
-   "shock_terms": [],
-   "dedupe_match": null,
-   "dedupe_similarity": 0.14,
-   "id": "dce6da493160",
-   "title": "Motorists Demand Urgent Changes on Nairobi-Mombasa Highway After Crash Kills 22",
-   "url": "https://www.kenyans.co.ke/news/128851-mak-demands-separation-trucks-and-buses-dualing-highway-after-22-die-fatal-crash",
-   "summary": "The demands followed a series of several deaths along the Mombasa-Nairobi Highway, with the latest being the Sunday crash that claimed the lives of at least 22 passengers, with several others injured.",
-   "kind": "item",
-   "source": "Kenyans.co.ke news",
-   "source_id": "ke-kenyans",
-   "tier": 2,
-   "country": "KE",
-   "category": "press",
    "segments": [
     "city",
     "bush",
