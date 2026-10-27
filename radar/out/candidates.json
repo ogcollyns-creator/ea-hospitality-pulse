@@ -1,18 +1,18 @@
 {
- "generated": "2026-10-27T14:46:58+03:00",
- "slot": "midday",
- "window_start": 1793073600,
- "observations_in_window": 466,
+ "generated": "2026-10-27T18:25:35+03:00",
+ "slot": "evening",
+ "window_start": 1793016000,
+ "observations_in_window": 1350,
  "deduped_against": 18,
  "candidates": [
   {
-   "score": 109.4,
+   "score": 105.4,
    "components": {
     "tier": 40,
     "category": 32,
     "lead": 12.0,
     "relevance": 8,
-    "freshness": 11.4,
+    "freshness": 7.4,
     "corroborated": 10,
     "page_change": -4
    },
@@ -41,13 +41,46 @@
    "verdict": "OPEN THIS \u2014 tier-1 advisory page moved; content not auto-parsed, read it manually"
   },
   {
-   "score": 98.8,
+   "score": 101.4,
+   "components": {
+    "tier": 40,
+    "category": 32,
+    "lead": 3.6,
+    "relevance": 0,
+    "freshness": 19.8,
+    "corroborated": 10,
+    "page_change": -4
+   },
+   "keywords": [],
+   "shock_terms": [],
+   "dedupe_match": null,
+   "dedupe_similarity": 0.12,
+   "id": "bc1cbd12021e",
+   "title": "[page changed] Federal Register \u2014 public inspection (HHS/CDC), pre-publication",
+   "url": "https://www.federalregister.gov/api/v1/public-inspection-documents/current.json",
+   "summary": "{\"count\":105,\"results\":[{\"agencies\":[{\"raw_name\":\"Unified Carrier Registration Plan\",\"name\":\"Unified Carrier Registration Plan\",\"id\":601,\"url\":\"https://www.federalregister.gov/agencies/unified-carrier-registration-plan\",\"json_url\":\"https://www.federalregister.gov/api/v1/agencies/601\",\"parent_id\":null,\"slug\":\"unified-carrier-registration-plan\"}],\"agency_letters\":[],\"agency_names\":[\"Unified Carrier ",
+   "kind": "page-change",
+   "source": "Federal Register \u2014 public inspection (HHS/CDC), pre-publication",
+   "source_id": "us-fedreg-pubinspect-hhs",
+   "tier": 1,
+   "country": "REG",
+   "category": "advisory",
+   "segments": [
+    "city",
+    "bush"
+   ],
+   "first_seen": "2026-10-27T18:23+03:00",
+   "published": "2026-10-26",
+   "verdict": "OPEN THIS \u2014 tier-1 advisory page moved; content not auto-parsed, read it manually"
+  },
+  {
+   "score": 94.8,
    "components": {
     "tier": 40,
     "category": 32,
     "lead": 12.0,
     "relevance": 8,
-    "freshness": 16.8,
+    "freshness": 12.8,
     "undated": -6,
     "page_change": -4
    },
@@ -76,13 +109,13 @@
    "verdict": "OPEN THIS \u2014 tier-1 advisory page moved; content not auto-parsed, read it manually"
   },
   {
-   "score": 98.4,
+   "score": 94.4,
    "components": {
     "tier": 40,
     "category": 32,
     "lead": 3.6,
     "relevance": 0,
-    "freshness": 16.8,
+    "freshness": 12.8,
     "corroborated": 10,
     "page_change": -4
    },
@@ -109,13 +142,13 @@
    "verdict": "OPEN THIS \u2014 tier-1 advisory page moved; content not auto-parsed, read it manually"
   },
   {
-   "score": 93.0,
+   "score": 88.9,
    "components": {
     "tier": 40,
     "category": 32,
     "lead": 3.6,
     "relevance": 0,
-    "freshness": 11.4,
+    "freshness": 7.3,
     "corroborated": 10,
     "page_change": -4
    },
@@ -142,13 +175,117 @@
    "verdict": "OPEN THIS \u2014 tier-1 advisory page moved; content not auto-parsed, read it manually"
   },
   {
-   "score": 65.4,
+   "score": 82.2,
+   "components": {
+    "tier": 40,
+    "category": 5,
+    "lead": 1.2,
+    "relevance": 24,
+    "freshness": 0.0,
+    "undated": -6,
+    "shock": 18
+   },
+   "keywords": [
+    "outbreak",
+    "ebola"
+   ],
+   "shock_terms": [
+    "outbreak"
+   ],
+   "dedupe_match": null,
+   "dedupe_similarity": 0.25,
+   "id": "f0aa78cecdbf",
+   "title": "25 Oct 2026 Communications Ministry of Health Health Minister Updates Public on Progress in National Ebola Preparedness and Response Efforts Uganda confirmed an outbreak of Bundibugyo virus disease on 15 May 2026, following a cross-border introduction involving Democratic Republic of Congo (DRC) nationals seeking care in Ugandan hospitals. Through a coordinated response, we\u2026 Read \u2192",
+   "url": "https://mediacentre.go.ug/press-room/health-minister-updates-public-on-progress-in-national-ebola-preparedness-and-response-efforts",
+   "summary": "",
+   "kind": "item",
+   "source": "Uganda Media Centre \u2014 press room",
+   "source_id": "ug-mediacentre",
+   "tier": 1,
+   "country": "UG",
+   "category": "gov-comms",
+   "segments": [
+    "city",
+    "bush"
+   ],
+   "first_seen": "2026-10-26T19:08+03:00",
+   "published": null,
+   "verdict": "LEAD CANDIDATE \u2014 tier-1 shock language"
+  },
+  {
+   "score": 81.6,
+   "components": {
+    "tier": 40,
+    "category": 32,
+    "lead": 3.6,
+    "relevance": 0,
+    "freshness": 0.0,
+    "corroborated": 10,
+    "page_change": -4
+   },
+   "keywords": [],
+   "shock_terms": [],
+   "dedupe_match": null,
+   "dedupe_similarity": 0.12,
+   "id": "4d9e99e740dd",
+   "title": "[page changed] Federal Register \u2014 public inspection (HHS/CDC), pre-publication",
+   "url": "https://www.federalregister.gov/api/v1/public-inspection-documents/current.json",
+   "summary": "{\"count\":86,\"results\":[{\"agencies\":[{\"raw_name\":\"Rural Housing Service\",\"name\":\"Rural Housing Service\",\"id\":458,\"url\":\"https://www.federalregister.gov/agencies/rural-housing-service\",\"json_url\":\"https://www.federalregister.gov/api/v1/agencies/458\",\"parent_id\":12,\"slug\":\"rural-housing-service\"}],\"agency_letters\":[],\"agency_names\":[\"Rural Housing Service\"],\"docket_numbers\":[],\"document_number\":\"2026",
+   "kind": "page-change",
+   "source": "Federal Register \u2014 public inspection (HHS/CDC), pre-publication",
+   "source_id": "us-fedreg-pubinspect-hhs",
+   "tier": 1,
+   "country": "REG",
+   "category": "advisory",
+   "segments": [
+    "city",
+    "bush"
+   ],
+   "first_seen": "2026-10-26T23:36+03:00",
+   "published": "2026-10-26",
+   "verdict": "OPEN THIS \u2014 tier-1 advisory page moved; content not auto-parsed, read it manually"
+  },
+  {
+   "score": 81.6,
+   "components": {
+    "tier": 40,
+    "category": 32,
+    "lead": 3.6,
+    "relevance": 0,
+    "freshness": 0.0,
+    "corroborated": 10,
+    "page_change": -4
+   },
+   "keywords": [],
+   "shock_terms": [],
+   "dedupe_match": null,
+   "dedupe_similarity": 0.12,
+   "id": "1f10dcc03907",
+   "title": "[page changed] Federal Register \u2014 public inspection (HHS/CDC), pre-publication",
+   "url": "https://www.federalregister.gov/api/v1/public-inspection-documents/current.json",
+   "summary": "{\"count\":85,\"results\":[{\"agencies\":[{\"raw_name\":\"Rural Housing Service\",\"name\":\"Rural Housing Service\",\"id\":458,\"url\":\"https://www.federalregister.gov/agencies/rural-housing-service\",\"json_url\":\"https://www.federalregister.gov/api/v1/agencies/458\",\"parent_id\":12,\"slug\":\"rural-housing-service\"}],\"agency_letters\":[],\"agency_names\":[\"Rural Housing Service\"],\"docket_numbers\":[],\"document_number\":\"2026",
+   "kind": "page-change",
+   "source": "Federal Register \u2014 public inspection (HHS/CDC), pre-publication",
+   "source_id": "us-fedreg-pubinspect-hhs",
+   "tier": 1,
+   "country": "REG",
+   "category": "advisory",
+   "segments": [
+    "city",
+    "bush"
+   ],
+   "first_seen": "2026-10-26T19:09+03:00",
+   "published": "2026-10-26",
+   "verdict": "OPEN THIS \u2014 tier-1 advisory page moved; content not auto-parsed, read it manually"
+  },
+  {
+   "score": 61.4,
    "components": {
     "tier": 40,
     "category": 12,
     "lead": 3.6,
     "relevance": 0,
-    "freshness": 19.8,
+    "freshness": 15.8,
     "undated": -6,
     "page_change": -4
    },
@@ -176,13 +313,47 @@
    "verdict": "OPEN THIS \u2014 tier-1 airline page moved; content not auto-parsed, read it manually"
   },
   {
-   "score": 114.8,
+   "score": 46.7,
+   "components": {
+    "tier": 40,
+    "category": 12,
+    "lead": 3.6,
+    "relevance": 0,
+    "freshness": 1.1,
+    "undated": -6,
+    "page_change": -4
+   },
+   "keywords": [],
+   "shock_terms": [],
+   "dedupe_match": null,
+   "dedupe_similarity": 0.0,
+   "id": "a3b11e3af62b",
+   "title": "[page changed] Airlink news",
+   "url": "https://www.flyairlink.com/",
+   "summary": "Request unsuccessful. Incapsula incident ID: 957000060766283967-788817408792789430",
+   "kind": "page-change",
+   "source": "Airlink news",
+   "source_id": "air-airlink",
+   "tier": 1,
+   "country": "REG",
+   "category": "airline",
+   "segments": [
+    "city",
+    "bush",
+    "beach"
+   ],
+   "first_seen": "2026-10-27T01:23+03:00",
+   "published": null,
+   "verdict": "OPEN THIS \u2014 tier-1 airline page moved; content not auto-parsed, read it manually"
+  },
+  {
+   "score": 110.8,
    "components": {
     "tier": 40,
     "category": 32,
     "lead": 0.0,
     "relevance": 16,
-    "freshness": 16.8,
+    "freshness": 12.8,
     "corroborated": 10
    },
    "keywords": [
@@ -212,13 +383,13 @@
    "verdict": "STRONG \u2014 tier-1, upstream"
   },
   {
-   "score": 106.8,
+   "score": 102.8,
    "components": {
     "tier": 40,
     "category": 32,
     "lead": 0.0,
     "relevance": 8,
-    "freshness": 16.8,
+    "freshness": 12.8,
     "corroborated": 10
    },
    "keywords": [
@@ -248,13 +419,128 @@
    "verdict": "STRONG \u2014 tier-1, upstream"
   },
   {
-   "score": 99.8,
+   "score": 98.2,
+   "components": {
+    "tier": 20,
+    "category": 4,
+    "lead": 2.4,
+    "relevance": 24,
+    "freshness": 19.8,
+    "corroborated": 10,
+    "shock": 18
+   },
+   "keywords": [
+    "outbreak",
+    "ebola"
+   ],
+   "shock_terms": [
+    "outbreak"
+   ],
+   "dedupe_match": null,
+   "dedupe_similarity": 0.33,
+   "id": "12bb5c3acf27",
+   "title": "Uganda\u2019s Ebola puzzle crosses borders",
+   "url": "https://www.independent.co.ug/ugandas-ebola-puzzle-crosses-borders",
+   "summary": "SPECIAL REPORT | Uganda insists it has contained its Bundibugyo virus disease outbreak, but cases in Kenya and Nigeria, conflicting accounts of the patients\u2019 movements and questions about the source of infection have put its public-health assurances under renewed scrutiny, reports Ronald Musoke. In May, this year, as Uganda confronted the latest outbreak of \u2026 The post Uganda\u2019s Ebola puzzle crosses",
+   "kind": "item",
+   "source": "The Independent (Uganda)",
+   "source_id": "ug-independent",
+   "tier": 2,
+   "country": "UG",
+   "category": "press",
+   "segments": [
+    "city",
+    "bush",
+    "beach"
+   ],
+   "first_seen": "2026-10-27T18:24+03:00",
+   "published": "2026-10-27",
+   "verdict": "CONSIDER"
+  },
+  {
+   "score": 98.2,
+   "components": {
+    "tier": 20,
+    "category": 4,
+    "lead": 2.4,
+    "relevance": 24,
+    "freshness": 19.8,
+    "corroborated": 10,
+    "shock": 18
+   },
+   "keywords": [
+    "outbreak",
+    "ebola"
+   ],
+   "shock_terms": [
+    "outbreak"
+   ],
+   "dedupe_match": null,
+   "dedupe_similarity": 0.25,
+   "id": "3a770099df36",
+   "title": "Mental health: a critical component of disease outbreak response",
+   "url": "https://www.independent.co.ug/mental-health-a-critical-component-of-disease-outbreak-response",
+   "summary": "SPECIAL REPORT | Daniel Dramile, a psychiatric nurse at Oli Health Centre in Arua City, Uganda, was part of a small team who staffed the facility\u2019s Ebola isolation centre during the country\u2019s recent Ebola outbreak in 2026. Dramile emphasizes the importance of mental health during disease outbreak response, especially within the African context. What \u2026 The post Mental health: a critical component o",
+   "kind": "item",
+   "source": "The Independent (Uganda)",
+   "source_id": "ug-independent",
+   "tier": 2,
+   "country": "UG",
+   "category": "press",
+   "segments": [
+    "city",
+    "bush",
+    "beach"
+   ],
+   "first_seen": "2026-10-27T18:24+03:00",
+   "published": "2026-10-27",
+   "verdict": "CONSIDER"
+  },
+  {
+   "score": 96.2,
+   "components": {
+    "tier": 20,
+    "category": 14,
+    "lead": 8.4,
+    "relevance": 24,
+    "freshness": 19.8,
+    "corroborated": 10
+   },
+   "keywords": [
+    "cancel",
+    "route",
+    "airline"
+   ],
+   "shock_terms": [],
+   "dedupe_match": null,
+   "dedupe_similarity": 0.17,
+   "id": "50214e88bf86",
+   "title": "Edelweiss Air Removes Las Vegas Service in NS27",
+   "url": "https://www.aeroroutes.com/eng/261027-wkns27las",
+   "summary": "Published at 0215PDT / 0915GMT 27OCT26 Edelweiss in last week\u2019s schedule update removed Zurich \u2013 Las Vegas route for Northern summer 2027 season, as the carrier cancelled this seasonal route. The airline previously planned 2 weekly service with Airbus A350-900 aircraft from 26MAY27. Previously filed schedule as follows. WK002/LX8002 ZRH1355 \u2013 1625LAS 359 36 WK003/LX8003 LAS1920 \u2013 1500+1ZRH 359 36",
+   "kind": "item",
+   "source": "AeroRoutes schedule filings",
+   "source_id": "aeroroutes",
+   "tier": 2,
+   "country": "GLOBAL",
+   "category": "aviation-tracker",
+   "segments": [
+    "city",
+    "bush",
+    "beach"
+   ],
+   "first_seen": "2026-10-27T18:24+03:00",
+   "published": "2026-10-27",
+   "verdict": "CONSIDER"
+  },
+  {
+   "score": 95.8,
    "components": {
     "tier": 20,
     "category": 4,
     "lead": 0.0,
     "relevance": 28,
-    "freshness": 19.8,
+    "freshness": 15.8,
     "corroborated": 10,
     "shock": 18
    },
@@ -288,13 +574,13 @@
    "verdict": "CONSIDER"
   },
   {
-   "score": 98.8,
+   "score": 94.8,
    "components": {
     "tier": 40,
     "category": 32,
     "lead": 0.0,
     "relevance": 0,
-    "freshness": 16.8,
+    "freshness": 12.8,
     "corroborated": 10
    },
    "keywords": [],
@@ -321,13 +607,118 @@
    "verdict": "STRONG \u2014 tier-1, upstream"
   },
   {
-   "score": 95.6,
+   "score": 93.3,
+   "components": {
+    "tier": 40,
+    "category": 12,
+    "lead": 3.6,
+    "relevance": 8,
+    "freshness": 19.7,
+    "corroborated": 10
+   },
+   "keywords": [
+    "fee"
+   ],
+   "shock_terms": [],
+   "dedupe_match": null,
+   "dedupe_similarity": 0.0,
+   "id": "7fd05f7934ae",
+   "title": "\u2018Grand Caf\u00e9 KLM\u2019 opent tijdelijk haar deuren in Amsterdam Zuid",
+   "url": "https://nieuws.klm.com/grand-cafe-klm-opent-tijdelijk-haar-deuren-op-amsterdam-zuid",
+   "summary": "Sinds zondag biedt KLM op Europese vluchten een vernieuwde Economy Class-service aan onder de naam Grand Caf\u00e9 KLM . KLM wil passagiers hiermee meer keuze en flexibiliteit bieden tijdens hun reis. Om toekomstige passagiers kennis te laten maken met het nieuwe aanbod opent KLM vanaf vandaag tot en met 30 oktober een tijdelijk grand caf\u00e9 op het WTC-plein naast station Amsterdam Zuid. Het pop-upcaf\u00e9 b",
+   "kind": "item",
+   "source": "KLM/Air France newsroom",
+   "source_id": "air-klm",
+   "tier": 1,
+   "country": "GLOBAL",
+   "category": "airline",
+   "segments": [
+    "city",
+    "bush",
+    "beach"
+   ],
+   "first_seen": "2026-10-27T18:22+03:00",
+   "published": "2026-10-27",
+   "verdict": "STRONG \u2014 tier-1, upstream"
+  },
+  {
+   "score": 92.2,
+   "components": {
+    "tier": 20,
+    "category": 14,
+    "lead": 8.4,
+    "relevance": 20,
+    "freshness": 19.8,
+    "corroborated": 10
+   },
+   "keywords": [
+    "cancel",
+    "route"
+   ],
+   "shock_terms": [],
+   "dedupe_match": null,
+   "dedupe_similarity": 0.17,
+   "id": "af61156cb62a",
+   "title": "avianca NW26 North America Service Changes \u2013 25OCT26",
+   "url": "https://www.aeroroutes.com/eng/261027-avnw26na",
+   "summary": "Published at 0730PDT / 1430GMT 27OCT26 avianca recently filed additional changes to its planned North America operation for Northern winter 2026/27 season. Latest operation changes previously not covered on AeroRoutes include the following. Barranquilla \u2013 Fort Lauderdale/Hollywood Service cancelled from 01NOV26 Cali \u2013 Miami eff 17DEC26 Service restored, 1 daily A320 (4 weekly 02FEB27 \u2013 26MAR27). A",
+   "kind": "item",
+   "source": "AeroRoutes schedule filings",
+   "source_id": "aeroroutes",
+   "tier": 2,
+   "country": "GLOBAL",
+   "category": "aviation-tracker",
+   "segments": [
+    "city",
+    "bush",
+    "beach"
+   ],
+   "first_seen": "2026-10-27T18:24+03:00",
+   "published": "2026-10-27",
+   "verdict": "CONSIDER"
+  },
+  {
+   "score": 92.1,
+   "components": {
+    "tier": 40,
+    "category": 24,
+    "lead": 2.4,
+    "relevance": 12,
+    "freshness": 19.7,
+    "undated": -6
+   },
+   "keywords": [
+    "ebola"
+   ],
+   "shock_terms": [],
+   "dedupe_match": null,
+   "dedupe_similarity": 0.38,
+   "id": "e16201809910",
+   "title": "ECDC to deploy experts as Ebola cases emerge in Kenya and Nigeria",
+   "url": "https://www.ecdc.europa.eu/en/news-events/ecdc-deploy-experts-ebola-cases-emerge-kenya-and-nigeria",
+   "summary": "",
+   "kind": "item",
+   "source": "ECDC \u2014 DRC/Uganda Ebola outbreak page",
+   "source_id": "ecdc-ebola",
+   "tier": 1,
+   "country": "GLOBAL",
+   "category": "health",
+   "segments": [
+    "city",
+    "bush"
+   ],
+   "first_seen": "2026-10-27T18:22+03:00",
+   "published": null,
+   "verdict": "STRONG \u2014 tier-1, upstream"
+  },
+  {
+   "score": 91.6,
    "components": {
     "tier": 40,
     "category": 9,
     "lead": 16.8,
     "relevance": 0,
-    "freshness": 19.8,
+    "freshness": 15.8,
     "corroborated": 10
    },
    "keywords": [],
@@ -354,13 +745,53 @@
    "verdict": "STRONG \u2014 tier-1, upstream"
   },
   {
-   "score": 93.2,
+   "score": 90.4,
+   "components": {
+    "tier": 20,
+    "category": 4,
+    "lead": 2.4,
+    "relevance": 36,
+    "freshness": 0.0,
+    "corroborated": 10,
+    "shock": 18
+   },
+   "keywords": [
+    "outbreak",
+    "ebola",
+    "quarantine"
+   ],
+   "shock_terms": [
+    "outbreak"
+   ],
+   "dedupe_match": null,
+   "dedupe_similarity": 0.25,
+   "id": "cb9d1d3582be",
+   "title": "Uganda imposes mandatory 21-day DRC quarantine as regional Ebola threat expands",
+   "url": "https://nation.africa/kenya/news/africa/uganda-imposes-mandatory-21-day-drc-quarantine-as-regional-ebola-threat-expands-5645632",
+   "summary": "Uganda insists it is Ebola-free since the country declared Bundibugyo virus disease outbreak...",
+   "kind": "item",
+   "source": "Nation Africa: Kenya business",
+   "source_id": "ke-nation-business",
+   "tier": 2,
+   "country": "KE",
+   "category": "press",
+   "segments": [
+    "city",
+    "bush",
+    "beach"
+   ],
+   "first_seen": "2026-10-26T19:10+03:00",
+   "published": "2026-10-26",
+   "verdict": "CONSIDER"
+  },
+  {
+   "score": 89.2,
    "components": {
     "tier": 40,
     "category": 24,
     "lead": 2.4,
     "relevance": 0,
-    "freshness": 16.8,
+    "freshness": 12.8,
     "corroborated": 10
    },
    "keywords": [],
@@ -383,16 +814,16 @@
    ],
    "first_seen": "2026-10-27T12:05+03:00",
    "published": "2026-10-27",
-   "verdict": "STRONG \u2014 tier-1, upstream"
+   "verdict": "CONSIDER"
   },
   {
-   "score": 92.6,
+   "score": 88.6,
    "components": {
     "tier": 40,
     "category": 9,
     "lead": 16.8,
     "relevance": 16,
-    "freshness": 16.8,
+    "freshness": 12.8,
     "undated": -6
    },
    "keywords": [
@@ -420,16 +851,122 @@
    ],
    "first_seen": "2026-10-27T12:05+03:00",
    "published": null,
-   "verdict": "STRONG \u2014 tier-1, upstream"
+   "verdict": "CONSIDER"
   },
   {
-   "score": 89.2,
+   "score": 88.2,
+   "components": {
+    "tier": 20,
+    "category": 14,
+    "lead": 8.4,
+    "relevance": 16,
+    "freshness": 19.8,
+    "corroborated": 10
+   },
+   "keywords": [
+    "vat",
+    "route"
+   ],
+   "shock_terms": [],
+   "dedupe_match": null,
+   "dedupe_similarity": 0.08,
+   "id": "8ade0622431b",
+   "title": "Aeromexico Jan 2027 US Network Additions",
+   "url": "https://www.aeroroutes.com/eng/261027-amjan27us",
+   "summary": "Published at 0515PDT / 1215GMT 27OCT26 Aeromexico in January 2027 plans to add 3 routes to the US, including 2 service resumptions. Following services opened for reservations since last week. Mexico City \u2013 Fort Lauderdale/Hollywood eff 14JAN27 1 daily 737 MAX 8 (Last served until September 2007) AM468 MEX0930 \u2013 1350FLL 7M8 D AM469 FLL1520 \u2013 1815MEX 7M8 D Mexico City \u2013 Orange County eff 11JAN27 1 d",
+   "kind": "item",
+   "source": "AeroRoutes schedule filings",
+   "source_id": "aeroroutes",
+   "tier": 2,
+   "country": "GLOBAL",
+   "category": "aviation-tracker",
+   "segments": [
+    "city",
+    "bush",
+    "beach"
+   ],
+   "first_seen": "2026-10-27T18:24+03:00",
+   "published": "2026-10-27",
+   "verdict": "CONSIDER"
+  },
+  {
+   "score": 88.2,
+   "components": {
+    "tier": 20,
+    "category": 14,
+    "lead": 8.4,
+    "relevance": 16,
+    "freshness": 19.8,
+    "corroborated": 10
+   },
+   "keywords": [
+    "adr",
+    "airline",
+    "flight"
+   ],
+   "shock_terms": [],
+   "dedupe_match": null,
+   "dedupe_similarity": 0.17,
+   "id": "3cf674ee2553",
+   "title": "Iberia Further Expands Fortaleza / Recife Flights in NW26",
+   "url": "https://www.aeroroutes.com/eng/261027-ibnw26br",
+   "summary": "Published at 0345PDT / 1045GMT 27OCT26 Iberia in the last few months ramped up planned service increase to Fortaleza and Recife in Brasil during Northern winter 2026/27 season. Original filing shows service increasing from 3 to 4-5 weekly for Fortaleza and 5-7 weekly for Recife, the airline has since boosted to 7 weekly for entire season. Latest update sees the airline further expanding frequencie",
+   "kind": "item",
+   "source": "AeroRoutes schedule filings",
+   "source_id": "aeroroutes",
+   "tier": 2,
+   "country": "GLOBAL",
+   "category": "aviation-tracker",
+   "segments": [
+    "city",
+    "bush",
+    "beach"
+   ],
+   "first_seen": "2026-10-27T18:24+03:00",
+   "published": "2026-10-27",
+   "verdict": "CONSIDER"
+  },
+  {
+   "score": 88.2,
+   "components": {
+    "tier": 40,
+    "category": 16,
+    "lead": 2.4,
+    "relevance": 0,
+    "freshness": 19.8,
+    "corroborated": 10
+   },
+   "keywords": [],
+   "shock_terms": [],
+   "dedupe_match": null,
+   "dedupe_similarity": 0.15,
+   "id": "8aed73352940",
+   "title": "2025 Statistical Abstract",
+   "url": "https://www.ubos.org/2026/10/27/2025-statistical-abstract",
+   "summary": "This Statistical Abstract is the Bureau\u2019s prime annual publication through which key statistical information derived from the [\u2026] The post 2025 Statistical Abstract appeared first on Uganda Bureau of Statistics .",
+   "kind": "item",
+   "source": "UBOS statistical releases",
+   "source_id": "ug-ubos",
+   "tier": 1,
+   "country": "UG",
+   "category": "statistics",
+   "segments": [
+    "city",
+    "bush",
+    "beach"
+   ],
+   "first_seen": "2026-10-27T18:23+03:00",
+   "published": "2026-10-27",
+   "verdict": "CONSIDER"
+  },
+  {
+   "score": 85.2,
    "components": {
     "tier": 40,
     "category": 24,
     "lead": 2.4,
     "relevance": 12,
-    "freshness": 16.8,
+    "freshness": 12.8,
     "undated": -6
    },
    "keywords": [
@@ -458,13 +995,13 @@
    "verdict": "CONSIDER"
   },
   {
-   "score": 89.2,
+   "score": 85.2,
    "components": {
     "tier": 40,
     "category": 24,
     "lead": 2.4,
     "relevance": 12,
-    "freshness": 16.8,
+    "freshness": 12.8,
     "undated": -6
    },
    "keywords": [
@@ -493,13 +1030,13 @@
    "verdict": "CONSIDER"
   },
   {
-   "score": 89.2,
+   "score": 85.2,
    "components": {
     "tier": 40,
     "category": 24,
     "lead": 2.4,
     "relevance": 12,
-    "freshness": 16.8,
+    "freshness": 12.8,
     "undated": -6
    },
    "keywords": [
@@ -528,13 +1065,240 @@
    "verdict": "CONSIDER"
   },
   {
-   "score": 87.8,
+   "score": 84.2,
+   "components": {
+    "tier": 20,
+    "category": 4,
+    "lead": 2.4,
+    "relevance": 28,
+    "freshness": 19.8,
+    "corroborated": 10
+   },
+   "keywords": [
+    "suspend",
+    "seat",
+    "election"
+   ],
+   "shock_terms": [],
+   "dedupe_match": null,
+   "dedupe_similarity": 0.07,
+   "id": "69a079da41b3",
+   "title": "IEBC Suspends By-Election",
+   "url": "https://www.kenyans.co.ke/news/128921-iebc-announces-suspension-migwani-ward-election-after-court-ruling",
+   "summary": "The suspension follows a petition filed before the High Court challenging the circumstances surrounding how the seat fell vacant.",
+   "kind": "item",
+   "source": "Kenyans.co.ke news",
+   "source_id": "ke-kenyans",
+   "tier": 2,
+   "country": "KE",
+   "category": "press",
+   "segments": [
+    "city",
+    "bush",
+    "beach"
+   ],
+   "first_seen": "2026-10-27T18:24+03:00",
+   "published": "2026-10-27",
+   "verdict": "CONSIDER"
+  },
+  {
+   "score": 84.2,
+   "components": {
+    "tier": 20,
+    "category": 14,
+    "lead": 8.4,
+    "relevance": 12,
+    "freshness": 19.8,
+    "corroborated": 10
+   },
+   "keywords": [
+    "route",
+    "flight"
+   ],
+   "shock_terms": [],
+   "dedupe_match": null,
+   "dedupe_similarity": 0.08,
+   "id": "518e4fc33e79",
+   "title": "Aeromexico Resumes Mexico City \u2013 Saltillo From March 2027",
+   "url": "https://www.aeroroutes.com/eng/261027-ammar27slw",
+   "summary": "Published at 0600PDT / 1300GMT 27OCT26 Aeromexico from March 2027 plans to resume Mexico City \u2013 Saltillo route, with 2 daily flights scheduled from 18MAR27. This route was last served until November 2019. AM2310 MEX0810 \u2013 1000SLW E90 D AM2312 MEX1510 \u2013 1700SLW E90 D AM2311 SLW1035 \u2013 1220MEX E90 D AM2313 SLW1735 \u2013 1920MEX E90 D",
+   "kind": "item",
+   "source": "AeroRoutes schedule filings",
+   "source_id": "aeroroutes",
+   "tier": 2,
+   "country": "GLOBAL",
+   "category": "aviation-tracker",
+   "segments": [
+    "city",
+    "bush",
+    "beach"
+   ],
+   "first_seen": "2026-10-27T18:24+03:00",
+   "published": "2026-10-27",
+   "verdict": "CONSIDER"
+  },
+  {
+   "score": 84.2,
+   "components": {
+    "tier": 20,
+    "category": 14,
+    "lead": 8.4,
+    "relevance": 12,
+    "freshness": 19.8,
+    "corroborated": 10
+   },
+   "keywords": [
+    "route",
+    "flight"
+   ],
+   "shock_terms": [],
+   "dedupe_match": null,
+   "dedupe_similarity": 0.17,
+   "id": "144847e38d0e",
+   "title": "Delta Removes Seasonal Detroit \u2013 Reykjav\u00edk Service in NS27",
+   "url": "https://www.aeroroutes.com/eng/261027-dlns27kef",
+   "summary": "Published at 0430PDT / 1130GMT 27OCT26 Delta in last week\u2019s schedule update removed seasonal Detroit \u2013 Reykjav\u00edk Keflav\u00edk route during Northern summer 2027 season. Prior to removal, the Skyteam member planned initially 5 weekly flights when seasonal service returns on 06MAY27, increasing to 1 daily from 28MAY27. Previously filed schedule as follows. DL342 DTW2159 \u2013 0740+1KEF 752 D DL343 KEF0845 \u2013 ",
+   "kind": "item",
+   "source": "AeroRoutes schedule filings",
+   "source_id": "aeroroutes",
+   "tier": 2,
+   "country": "GLOBAL",
+   "category": "aviation-tracker",
+   "segments": [
+    "city",
+    "bush",
+    "beach"
+   ],
+   "first_seen": "2026-10-27T18:24+03:00",
+   "published": "2026-10-27",
+   "verdict": "CONSIDER"
+  },
+  {
+   "score": 84.0,
+   "components": {
+    "tier": 20,
+    "category": 4,
+    "lead": 0.0,
+    "relevance": 32,
+    "freshness": 0.0,
+    "corroborated": 10,
+    "shock": 18
+   },
+   "keywords": [
+    "ebola",
+    "evacuat",
+    "eta"
+   ],
+   "shock_terms": [
+    "evacuat"
+   ],
+   "dedupe_match": null,
+   "dedupe_similarity": 0.33,
+   "id": "e88da6d4276a",
+   "title": "New details emerge on Swiss diplomat\u2019s wife in Nigeria Ebola case, Kampala trip",
+   "url": "https://www.monitor.co.ug/uganda/news/national/new-details-emerge-on-swiss-diplomat-s-wife-in-nigeria-ebola-case-kampala-trip-5646226",
+   "summary": "Uganda probes Ebola link to Kampala as Nigeria patient is evacuated",
+   "kind": "item",
+   "source": "Daily Monitor (Uganda)",
+   "source_id": "np-monitor-ug",
+   "tier": 2,
+   "country": "UG",
+   "category": "press",
+   "segments": [
+    "city",
+    "bush",
+    "beach"
+   ],
+   "first_seen": "2026-10-26T23:37+03:00",
+   "published": "2026-10-26",
+   "verdict": "CONSIDER"
+  },
+  {
+   "score": 83.8,
+   "components": {
+    "tier": 20,
+    "category": 4,
+    "lead": 0.0,
+    "relevance": 28,
+    "freshness": 19.8,
+    "undated": -6,
+    "shock": 18
+   },
+   "keywords": [
+    "ebola",
+    "evacuat",
+    "flight"
+   ],
+   "shock_terms": [
+    "evacuat"
+   ],
+   "dedupe_match": null,
+   "dedupe_similarity": 0.18,
+   "id": "5b2e02547392",
+   "title": "Africa Nigeria's Ebola patient on medical evacuation flight to Switzerland, condition stable Yesterday - 3 min read",
+   "url": "https://www.thecitizen.co.tz/tanzania/news/africa/nigeria-s-ebola-patient-on-medical-evacuation-flight-to-switzerland-condition-stable-5646364",
+   "summary": "",
+   "kind": "item",
+   "source": "The Citizen (Tanzania)",
+   "source_id": "np-citizen-tz",
+   "tier": 2,
+   "country": "TZ",
+   "category": "press",
+   "segments": [
+    "city",
+    "bush",
+    "beach"
+   ],
+   "first_seen": "2026-10-27T18:24+03:00",
+   "published": null,
+   "verdict": "CONSIDER"
+  },
+  {
+   "score": 83.8,
+   "components": {
+    "tier": 20,
+    "category": 4,
+    "lead": 0.0,
+    "relevance": 12,
+    "freshness": 19.8,
+    "corroborated": 10,
+    "shock": 18
+   },
+   "keywords": [
+    "grounded"
+   ],
+   "shock_terms": [
+    "grounded"
+   ],
+   "dedupe_match": null,
+   "dedupe_similarity": 0.0,
+   "id": "798765a5e011",
+   "title": "Service delivery grounded in Tororo as 30 officers interdicted over graft",
+   "url": "https://www.monitor.co.ug/uganda/news/national/service-delivery-grounded-in-tororo-as-30-officers-interdicted-over-graft-5647258",
+   "summary": "The minister said officers face corruption, abuse of office, extortion of PDM and Emyooga...",
+   "kind": "item",
+   "source": "Daily Monitor (Uganda)",
+   "source_id": "np-monitor-ug",
+   "tier": 2,
+   "country": "UG",
+   "category": "press",
+   "segments": [
+    "city",
+    "bush",
+    "beach"
+   ],
+   "first_seen": "2026-10-27T18:24+03:00",
+   "published": "2026-10-27",
+   "verdict": "CONSIDER"
+  },
+  {
+   "score": 83.8,
    "components": {
     "tier": 20,
     "category": 14,
     "lead": 8.4,
     "relevance": 24,
-    "freshness": 11.4,
+    "freshness": 7.4,
     "corroborated": 10
    },
    "keywords": [
@@ -567,13 +1331,52 @@
    "verdict": "CONSIDER"
   },
   {
-   "score": 85.2,
+   "score": 81.8,
+   "components": {
+    "tier": 20,
+    "category": 4,
+    "lead": 0.0,
+    "relevance": 28,
+    "freshness": 19.8,
+    "corroborated": 10
+   },
+   "keywords": [
+    "route",
+    "tourism",
+    "airline",
+    "flight",
+    "investment",
+    "opening"
+   ],
+   "shock_terms": [],
+   "dedupe_match": null,
+   "dedupe_similarity": 0.33,
+   "id": "7f76c617f0e6",
+   "title": "Uganda Airlines Launches Direct Entebbe\u2013Accra Flights to Boost Trade and Tourism",
+   "url": "https://softpower.ug/uganda-airlines-launches-direct-entebbe-accra-flights-to-boost-trade-and-tourism",
+   "summary": "Uganda Airlines has launched direct flights between Entebbe and Accra, Ghana, opening a new air link between East and West Africa aimed at expanding trade, tourism, investment and cultural exchange. The route, which brings the national carrier\u2019s network to 18 destinations, is expected to reduce travel time between the two countries and provide Ugandan and [\u2026] The post Uganda Airlines Launches Dire",
+   "kind": "item",
+   "source": "SoftPower News \u2014 Tourism & Travel (Uganda)",
+   "source_id": "ug-softpower-tourism",
+   "tier": 2,
+   "country": "UG",
+   "category": "press",
+   "segments": [
+    "bush",
+    "city"
+   ],
+   "first_seen": "2026-10-27T18:24+03:00",
+   "published": "2026-10-27",
+   "verdict": "CONSIDER"
+  },
+  {
+   "score": 81.2,
    "components": {
     "tier": 20,
     "category": 14,
     "lead": 8.4,
     "relevance": 16,
-    "freshness": 16.8,
+    "freshness": 12.8,
     "corroborated": 10
    },
    "keywords": [
@@ -604,13 +1407,13 @@
    "verdict": "CONSIDER"
   },
   {
-   "score": 85.2,
+   "score": 81.2,
    "components": {
     "tier": 20,
     "category": 14,
     "lead": 8.4,
     "relevance": 16,
-    "freshness": 16.8,
+    "freshness": 12.8,
     "corroborated": 10
    },
    "keywords": [
@@ -637,819 +1440,6 @@
     "beach"
    ],
    "first_seen": "2026-10-27T12:05+03:00",
-   "published": "2026-10-27",
-   "verdict": "CONSIDER"
-  },
-  {
-   "score": 85.2,
-   "components": {
-    "tier": 20,
-    "category": 14,
-    "lead": 8.4,
-    "relevance": 16,
-    "freshness": 16.8,
-    "corroborated": 10
-   },
-   "keywords": [
-    "route",
-    "airline",
-    "flight"
-   ],
-   "shock_terms": [],
-   "dedupe_match": null,
-   "dedupe_similarity": 0.08,
-   "id": "8d1257444317",
-   "title": "Syrian Airlines Resumes Berlin Service From Nov 2026",
-   "url": "https://www.aeroroutes.com/eng/261027-rbnov26ber",
-   "summary": "Published at 0000PDT / 0700GMT 27OCT26 Syrian Airlines in November 2026 plans to launch service to Germany, as the carrier resumes Damascus \u2013 Berlin route, on board Airbus A320 aircraft. First flight is scheduled on 10NOV26, with 2 weekly flights scheduled. RB280 DAM0655 \u2013 0925BER 320 2 RB280 DAM1420 \u2013 1650BER 320 5 RB279 BER1025 \u2013 1640DAM 320 2 RB279 BER1750 \u2013 0005+1DAM 320 5",
-   "kind": "item",
-   "source": "AeroRoutes schedule filings",
-   "source_id": "aeroroutes",
-   "tier": 2,
-   "country": "GLOBAL",
-   "category": "aviation-tracker",
-   "segments": [
-    "city",
-    "bush",
-    "beach"
-   ],
-   "first_seen": "2026-10-27T12:05+03:00",
-   "published": "2026-10-27",
-   "verdict": "CONSIDER"
-  },
-  {
-   "score": 84.6,
-   "components": {
-    "tier": 40,
-    "category": 9,
-    "lead": 16.8,
-    "relevance": 8,
-    "freshness": 16.8,
-    "undated": -6
-   },
-   "keywords": [
-    "hotel",
-    "resort"
-   ],
-   "shock_terms": [],
-   "dedupe_match": null,
-   "dedupe_similarity": 0.0,
-   "id": "58822dc46231",
-   "title": "IHG Hotels & Resorts signs Holiday Inn Raipur, strengthening presence in Chhattisgarh\u2019s emerging business hub",
-   "url": "https://www.ihgplc.com/en/news-and-media/news-releases/2026/ihg-signs-holiday-inn-raipur-strengthening-presence-in-chhattisgarhs-emerging-business-hub",
-   "summary": "",
-   "kind": "item",
-   "source": "IHG news",
-   "source_id": "dev-ihg",
-   "tier": 1,
-   "country": "GLOBAL",
-   "category": "hotel-group",
-   "segments": [
-    "city",
-    "bush",
-    "beach"
-   ],
-   "first_seen": "2026-10-27T12:05+03:00",
-   "published": null,
-   "verdict": "CONSIDER"
-  },
-  {
-   "score": 83.8,
-   "components": {
-    "tier": 20,
-    "category": 4,
-    "lead": 0.0,
-    "relevance": 28,
-    "freshness": 19.8,
-    "undated": -6,
-    "shock": 18
-   },
-   "keywords": [
-    "ebola",
-    "evacuat",
-    "flight"
-   ],
-   "shock_terms": [
-    "evacuat"
-   ],
-   "dedupe_match": null,
-   "dedupe_similarity": 0.3,
-   "id": "f5b2d06e634f",
-   "title": "Africa Nigeria's Ebola patient on medical evacuation flight to Switzerland, condition stable 22 hours ago - 3 min read",
-   "url": "https://www.thecitizen.co.tz/tanzania/news/africa/nigeria-s-ebola-patient-on-medical-evacuation-flight-to-switzerland-condition-stable-5646364",
-   "summary": "",
-   "kind": "item",
-   "source": "The Citizen (Tanzania)",
-   "source_id": "np-citizen-tz",
-   "tier": 2,
-   "country": "TZ",
-   "category": "press",
-   "segments": [
-    "city",
-    "bush",
-    "beach"
-   ],
-   "first_seen": "2026-10-27T14:45+03:00",
-   "published": null,
-   "verdict": "CONSIDER"
-  },
-  {
-   "score": 83.8,
-   "components": {
-    "tier": 20,
-    "category": 14,
-    "lead": 8.4,
-    "relevance": 20,
-    "freshness": 11.4,
-    "corroborated": 10
-   },
-   "keywords": [
-    "route",
-    "airline",
-    "flight",
-    "booking"
-   ],
-   "shock_terms": [],
-   "dedupe_match": null,
-   "dedupe_similarity": 0.08,
-   "id": "cb5c2a8ae762",
-   "title": "Air Cambodia Shelves Planned NW26 Fuzhou / Tokyo Service Increase",
-   "url": "https://www.aeroroutes.com/eng/261026-k6nw26nrt",
-   "summary": "Published at 2015PDT 26OCT26 / 0315GMT 27OCT26 Air Cambodia in the last few days revised planned service on Phnom Penh Krong Ta Khmau \u2013 Fuzhou \u2013 Tokyo Narita route. From 15DEC26, the airline will continue to operate 3 weekly flights, as planned increase to 5 weekly is no longer in effect. Previously reported on AeroRoutes , prior to removal of additional frequencies, the airline already closed boo",
-   "kind": "item",
-   "source": "AeroRoutes schedule filings",
-   "source_id": "aeroroutes",
-   "tier": 2,
-   "country": "GLOBAL",
-   "category": "aviation-tracker",
-   "segments": [
-    "city",
-    "bush",
-    "beach"
-   ],
-   "first_seen": "2026-10-27T07:07+03:00",
-   "published": "2026-10-27",
-   "verdict": "CONSIDER"
-  },
-  {
-   "score": 83.8,
-   "components": {
-    "tier": 20,
-    "category": 14,
-    "lead": 8.4,
-    "relevance": 20,
-    "freshness": 11.4,
-    "corroborated": 10
-   },
-   "keywords": [
-    "vat",
-    "route",
-    "flight"
-   ],
-   "shock_terms": [],
-   "dedupe_match": null,
-   "dedupe_similarity": 0.08,
-   "id": "349972407363",
-   "title": "Sun d\u2019Or Moves Marrakech Service Resumption to Dec 2026",
-   "url": "https://www.aeroroutes.com/eng/261026-lynw26rak",
-   "summary": "Published at 1715PDT 26OCT26 / 0015GMT 27OCT26 Sun d\u2019Or last week revised planned service resumption on Tel Aviv \u2013 Marrakech route. Initially to be resumed on 16NOV26, the carrier now intends to operate 2 weekly flights from 14DEC26 at the earliest, although further changes remain possible. Reservations for Marrakech service is not available at this time. LY5453 TLV0700 \u2013 1125RAK 737 13 LY5454 RAK",
-   "kind": "item",
-   "source": "AeroRoutes schedule filings",
-   "source_id": "aeroroutes",
-   "tier": 2,
-   "country": "GLOBAL",
-   "category": "aviation-tracker",
-   "segments": [
-    "city",
-    "bush",
-    "beach"
-   ],
-   "first_seen": "2026-10-27T07:07+03:00",
-   "published": "2026-10-27",
-   "verdict": "CONSIDER"
-  },
-  {
-   "score": 83.2,
-   "components": {
-    "tier": 20,
-    "category": 4,
-    "lead": 2.4,
-    "relevance": 12,
-    "freshness": 16.8,
-    "corroborated": 10,
-    "shock": 18
-   },
-   "keywords": [
-    "terror"
-   ],
-   "shock_terms": [
-    "attack"
-   ],
-   "dedupe_match": null,
-   "dedupe_similarity": 0.2,
-   "id": "5da17a00c307",
-   "title": "UN Announces Withdrawal from Somalia as Al-Shabaab Attacks Persist in Kenya",
-   "url": "https://www.kenyans.co.ke/news/128890-un-announces-end-somalia-mission-al-shabaab-threat-persists-kenya",
-   "summary": "Attacks linked to the militia group have increased, especially in northern Kenya, with government increasing survillance to tame the terror attacks.",
-   "kind": "item",
-   "source": "Kenyans.co.ke news",
-   "source_id": "ke-kenyans",
-   "tier": 2,
-   "country": "KE",
-   "category": "press",
-   "segments": [
-    "city",
-    "bush",
-    "beach"
-   ],
-   "first_seen": "2026-10-27T12:05+03:00",
-   "published": "2026-10-27",
-   "verdict": "CONSIDER"
-  },
-  {
-   "score": 81.2,
-   "components": {
-    "tier": 20,
-    "category": 4,
-    "lead": 2.4,
-    "relevance": 28,
-    "freshness": 16.8,
-    "corroborated": 10
-   },
-   "keywords": [
-    "vat",
-    "tourism",
-    "beach",
-    "summit",
-    "investment",
-    "opening"
-   ],
-   "shock_terms": [],
-   "dedupe_match": null,
-   "dedupe_similarity": 0.17,
-   "id": "b35d748ad4a3",
-   "title": "Uganda, Kenya private sector sign three deals on tourism, trade and investment",
-   "url": "https://www.independent.co.ug/uganda-kenya-private-sector-sign-three-deals-on-tourism-trade-and-investment",
-   "summary": "Mombasa, Kenya | NEWS CORRESPONENT | Ugandan and Kenyan private-sector bodies have signed three agreements on tourism, trade and investment at a regional summit in Mombasa, Kenya. The memoranda of understanding (MoUs) were signed on the opening day of the fifth Uganda\u2013Kenya Coast Tourism and Innovation Summit at the Sarova Whitesands Beach \u2026 The post Uganda, Kenya private sector sign three deals o",
-   "kind": "item",
-   "source": "The Independent (Uganda)",
-   "source_id": "ug-independent",
-   "tier": 2,
-   "country": "UG",
-   "category": "press",
-   "segments": [
-    "city",
-    "bush",
-    "beach"
-   ],
-   "first_seen": "2026-10-27T12:05+03:00",
-   "published": "2026-10-27",
-   "verdict": "CONSIDER"
-  },
-  {
-   "score": 81.2,
-   "components": {
-    "tier": 20,
-    "category": 14,
-    "lead": 8.4,
-    "relevance": 12,
-    "freshness": 16.8,
-    "corroborated": 10
-   },
-   "keywords": [
-    "route",
-    "airline"
-   ],
-   "shock_terms": [],
-   "dedupe_match": null,
-   "dedupe_similarity": 0.17,
-   "id": "fbf5bb0cf69e",
-   "title": "Air China / Aegean Airlines Expands Codeshare in NW26",
-   "url": "https://www.aeroroutes.com/eng/261026-caa3nw26",
-   "summary": "Published at 2315PDT 26OCT26 / 0615GMT 27OCT26 Star Alliance members Air China and Aegean Airlines at the launch of Northern winter 2026/27 season expands codeshare partnership. Planned new codeshare routes from 25OCT26 include the following. Aegean Airlines operated by Air China Beijing Capital \u2013 Athens Beijing Capital \u2013 Guangzhou Air China operated by Aegean Airlines Athens \u2013 Irakleion Athens \u2013 ",
-   "kind": "item",
-   "source": "AeroRoutes schedule filings",
-   "source_id": "aeroroutes",
-   "tier": 2,
-   "country": "GLOBAL",
-   "category": "aviation-tracker",
-   "segments": [
-    "city",
-    "bush",
-    "beach"
-   ],
-   "first_seen": "2026-10-27T12:05+03:00",
-   "published": "2026-10-27",
-   "verdict": "CONSIDER"
-  },
-  {
-   "score": 81.2,
-   "components": {
-    "tier": 20,
-    "category": 14,
-    "lead": 8.4,
-    "relevance": 12,
-    "freshness": 16.8,
-    "corroborated": 10
-   },
-   "keywords": [
-    "route",
-    "airline"
-   ],
-   "shock_terms": [],
-   "dedupe_match": null,
-   "dedupe_similarity": 0.07,
-   "id": "ebb9413999bf",
-   "title": "Vietravel Airlines Adds Hanoi \u2013 Shenzhen From Nov 2026",
-   "url": "https://www.aeroroutes.com/eng/261026-vunov26szx",
-   "summary": "Published at 2145PDT 26OCT26 / 0445GMT 27OCT26 Vietravel Airlines from mid-November 2026 schedules Hanoi \u2013 Shenzhen service, on board Airbus A321 aircraft. The airline plans to serve this route on daily basis from 14NOV26. VU650 HAN0100 \u2013 0350SZX 321 D VU651 SZX0450 \u2013 0600HAN 321 D",
-   "kind": "item",
-   "source": "AeroRoutes schedule filings",
-   "source_id": "aeroroutes",
-   "tier": 2,
-   "country": "GLOBAL",
-   "category": "aviation-tracker",
-   "segments": [
-    "city",
-    "bush",
-    "beach"
-   ],
-   "first_seen": "2026-10-27T12:05+03:00",
-   "published": "2026-10-27",
-   "verdict": "CONSIDER"
-  },
-  {
-   "score": 80.8,
-   "components": {
-    "tier": 20,
-    "category": 4,
-    "lead": 0.0,
-    "relevance": 28,
-    "freshness": 16.8,
-    "undated": -6,
-    "shock": 18
-   },
-   "keywords": [
-    "ebola",
-    "evacuat",
-    "flight"
-   ],
-   "shock_terms": [
-    "evacuat"
-   ],
-   "dedupe_match": null,
-   "dedupe_similarity": 0.25,
-   "id": "037022287fde",
-   "title": "Africa Nigeria's Ebola patient on medical evacuation flight to Switzerland, condition stable 20 hours ago - 3 min read",
-   "url": "https://www.thecitizen.co.tz/tanzania/news/africa/nigeria-s-ebola-patient-on-medical-evacuation-flight-to-switzerland-condition-stable-5646364",
-   "summary": "",
-   "kind": "item",
-   "source": "The Citizen (Tanzania)",
-   "source_id": "np-citizen-tz",
-   "tier": 2,
-   "country": "TZ",
-   "category": "press",
-   "segments": [
-    "city",
-    "bush",
-    "beach"
-   ],
-   "first_seen": "2026-10-27T12:05+03:00",
-   "published": null,
-   "verdict": "CONSIDER"
-  },
-  {
-   "score": 80.6,
-   "components": {
-    "tier": 40,
-    "category": 9,
-    "lead": 16.8,
-    "relevance": 4,
-    "freshness": 16.8,
-    "undated": -6
-   },
-   "keywords": [
-    "signing"
-   ],
-   "shock_terms": [],
-   "dedupe_match": null,
-   "dedupe_similarity": 0.0,
-   "id": "28834669dab9",
-   "title": "IHG strengthens Nordic portfolio with the signing of Holiday Inn Express Reykjavik \u2013 Valh\u00f6ll",
-   "url": "https://www.ihgplc.com/en/news-and-media/news-releases/2026/ihg-strengthens-nordic-portfolio-with-the-signing-of-holiday-inn-express-reykjavik-valholl",
-   "summary": "",
-   "kind": "item",
-   "source": "IHG news",
-   "source_id": "dev-ihg",
-   "tier": 1,
-   "country": "GLOBAL",
-   "category": "hotel-group",
-   "segments": [
-    "city",
-    "bush",
-    "beach"
-   ],
-   "first_seen": "2026-10-27T12:05+03:00",
-   "published": null,
-   "verdict": "CONSIDER"
-  },
-  {
-   "score": 79.8,
-   "components": {
-    "tier": 20,
-    "category": 4,
-    "lead": 0.0,
-    "relevance": 8,
-    "freshness": 19.8,
-    "corroborated": 10,
-    "shock": 18
-   },
-   "keywords": [
-    "strike"
-   ],
-   "shock_terms": [
-    "strike"
-   ],
-   "dedupe_match": null,
-   "dedupe_similarity": 0.1,
-   "id": "8d76028b3c3b",
-   "title": "Why govt must invest in affordable housing",
-   "url": "https://www.monitor.co.ug/uganda/oped/letters/why-govt-must-invest-in-affordable-housing-5647054",
-   "summary": "The looming housing crisis that is about to strike us, is still making push-ups",
-   "kind": "item",
-   "source": "Daily Monitor (Uganda)",
-   "source_id": "np-monitor-ug",
-   "tier": 2,
-   "country": "UG",
-   "category": "press",
-   "segments": [
-    "city",
-    "bush",
-    "beach"
-   ],
-   "first_seen": "2026-10-27T14:45+03:00",
-   "published": "2026-10-27",
-   "verdict": "CONSIDER"
-  },
-  {
-   "score": 79.8,
-   "components": {
-    "tier": 20,
-    "category": 14,
-    "lead": 8.4,
-    "relevance": 16,
-    "freshness": 11.4,
-    "corroborated": 10
-   },
-   "keywords": [
-    "route",
-    "airline",
-    "flight"
-   ],
-   "shock_terms": [],
-   "dedupe_match": null,
-   "dedupe_similarity": 0.08,
-   "id": "ea9d3c931c3f",
-   "title": "Sichuan Airlines Adds A330 Chengdu \u2013 Tokyo Flights From March 2027",
-   "url": "https://www.aeroroutes.com/eng/261026-3umar27nrt",
-   "summary": "Published at 1930PDT 26OCT26 / 0230GMT 27OCT26 Sichuan Airlines in March 2027 tentatively filed widebody aircraft operation on Chengdu Tianfu \u2013 Tokyo Narita route, which sees Airbus A330-300 operating from 04MAR27, 5 times weekly. 3U3961 TFU0935 \u2013 1510NRT 333 x13 3U3962 NRT1640 \u2013 2145TFU 333 x13 The A330-300 aircraft will replace A321neo on this route.",
-   "kind": "item",
-   "source": "AeroRoutes schedule filings",
-   "source_id": "aeroroutes",
-   "tier": 2,
-   "country": "GLOBAL",
-   "category": "aviation-tracker",
-   "segments": [
-    "city",
-    "bush",
-    "beach"
-   ],
-   "first_seen": "2026-10-27T07:07+03:00",
-   "published": "2026-10-27",
-   "verdict": "CONSIDER"
-  },
-  {
-   "score": 79.6,
-   "components": {
-    "tier": 40,
-    "category": 9,
-    "lead": 16.8,
-    "relevance": 0,
-    "freshness": 19.8,
-    "undated": -6
-   },
-   "keywords": [],
-   "shock_terms": [],
-   "dedupe_match": null,
-   "dedupe_similarity": 0.0,
-   "id": "bbd2e408c83a",
-   "title": "ibis, ibis Styles, ibis budget",
-   "url": "https://press.accor.com/section/premium-midscale-economy/premium-midscale-economy-ibis/?lang=eng",
-   "summary": "",
-   "kind": "item",
-   "source": "Accor press",
-   "source_id": "dev-accor",
-   "tier": 1,
-   "country": "GLOBAL",
-   "category": "hotel-group",
-   "segments": [
-    "city",
-    "bush",
-    "beach"
-   ],
-   "first_seen": "2026-10-27T14:45+03:00",
-   "published": null,
-   "verdict": "CONSIDER"
-  },
-  {
-   "score": 79.6,
-   "components": {
-    "tier": 40,
-    "category": 24,
-    "lead": 4.8,
-    "relevance": 0,
-    "freshness": 16.8,
-    "undated": -6
-   },
-   "keywords": [],
-   "shock_terms": [],
-   "dedupe_match": null,
-   "dedupe_similarity": 0.08,
-   "id": "6ec6bec8479c",
-   "title": "Community Health Programme \u2013 Continental Acceleration Plan 2026\u20132030 Continental Roadmap, Manuals, Guidelines & Frameworks",
-   "url": "https://africacdc.org/download/community-health-programme-continental-acceleration-plan-2026-2030",
-   "summary": "",
-   "kind": "item",
-   "source": "Africa CDC downloads (sit reps & EIW)",
-   "source_id": "africacdc-downloads",
-   "tier": 1,
-   "country": "REG",
-   "category": "health",
-   "segments": [
-    "city",
-    "bush",
-    "beach"
-   ],
-   "first_seen": "2026-10-27T12:05+03:00",
-   "published": null,
-   "verdict": "CONSIDER"
-  },
-  {
-   "score": 79.2,
-   "components": {
-    "tier": 20,
-    "category": 4,
-    "lead": 2.4,
-    "relevance": 8,
-    "freshness": 16.8,
-    "corroborated": 10,
-    "shock": 18
-   },
-   "keywords": [
-    "strike"
-   ],
-   "shock_terms": [
-    "strike"
-   ],
-   "dedupe_match": null,
-   "dedupe_similarity": 0.1,
-   "id": "4141ef004d10",
-   "title": "Josphat Lopaga: From guns to goals",
-   "url": "https://nation.africa/kenya/sports/football/josphat-lopaga-from-guns-to-goals--5646924",
-   "summary": "Like many children in Baragoi, the Murang\u2019a Seal striker grew up in an environment where guns...",
-   "kind": "item",
-   "source": "Nation Africa: Kenya business",
-   "source_id": "ke-nation-business",
-   "tier": 2,
-   "country": "KE",
-   "category": "press",
-   "segments": [
-    "city",
-    "bush",
-    "beach"
-   ],
-   "first_seen": "2026-10-27T12:05+03:00",
-   "published": "2026-10-27",
-   "verdict": "CONSIDER"
-  },
-  {
-   "score": 77.8,
-   "components": {
-    "tier": 20,
-    "category": 24,
-    "lead": 2.4,
-    "relevance": 12,
-    "freshness": 11.4,
-    "undated": -6,
-    "shock": 18,
-    "page_change": -4
-   },
-   "keywords": [
-    "outbreak"
-   ],
-   "shock_terms": [
-    "outbreak"
-   ],
-   "dedupe_match": null,
-   "dedupe_similarity": 0.1,
-   "id": "31c1ad54220f",
-   "title": "[page changed] ProMED-mail",
-   "url": "https://promedmail.org/",
-   "summary": "Protecting Global Health, One Alert at a Time | ProMED Previous slide Next slide Protecting Global Health, One Alert at a Time ProMED: Your 24/7 early warning system for emerging infectious diseases worldwide. Subscribe ProMED's Weekly Pulse A snapshot of global health events from the past 7 days Latest Posts on ProMED All Date Title Tue Oct 27 2026 XANTHOMONAS PRUNICOLA, WHEAT - AMERICAS: EMERGIN",
-   "kind": "page-change",
-   "source": "ProMED-mail",
-   "source_id": "promed",
-   "tier": 2,
-   "country": "GLOBAL",
-   "category": "health",
-   "segments": [
-    "city",
-    "bush",
-    "beach"
-   ],
-   "first_seen": "2026-10-27T07:07+03:00",
-   "published": null,
-   "verdict": "CONSIDER"
-  },
-  {
-   "score": 77.2,
-   "components": {
-    "tier": 20,
-    "category": 14,
-    "lead": 8.4,
-    "relevance": 8,
-    "freshness": 16.8,
-    "corroborated": 10
-   },
-   "keywords": [
-    "route"
-   ],
-   "shock_terms": [],
-   "dedupe_match": null,
-   "dedupe_similarity": 0.0,
-   "id": "42c2e2b30ad5",
-   "title": "Air China Adds 747-8I Vancouver Service in Nov 2026",
-   "url": "https://www.aeroroutes.com/eng/261027-canov26yvr",
-   "summary": "Published at 2230PDT 26OCT26 / 0530GMT 27OCT26 Star Alliance member Air China in early-November 2026 schedules limited time Boeing 747-8I service on Beijing Capital \u2013 Vancouver route. The 747-8I will replace 777-300ER on 08NOV26 and 09NOV26, with following schedule. CA991 PEK1355 \u2013 1000YVR 747 CA992 YVR1300 \u2013 1710+1PEK 747 On 08NOV26, the carrier\u2019s Beijing Capital \u2013 New York JFK service will switc",
-   "kind": "item",
-   "source": "AeroRoutes schedule filings",
-   "source_id": "aeroroutes",
-   "tier": 2,
-   "country": "GLOBAL",
-   "category": "aviation-tracker",
-   "segments": [
-    "city",
-    "bush",
-    "beach"
-   ],
-   "first_seen": "2026-10-27T12:05+03:00",
-   "published": "2026-10-27",
-   "verdict": "CONSIDER"
-  },
-  {
-   "score": 75.8,
-   "components": {
-    "tier": 20,
-    "category": 14,
-    "lead": 8.4,
-    "relevance": 12,
-    "freshness": 11.4,
-    "corroborated": 10
-   },
-   "keywords": [
-    "route",
-    "airline"
-   ],
-   "shock_terms": [],
-   "dedupe_match": null,
-   "dedupe_similarity": 0.17,
-   "id": "7cd02638477f",
-   "title": "Sichuan Expands A321neo International Network in NW26",
-   "url": "https://www.aeroroutes.com/eng/261026-3unw2632q",
-   "summary": "Published at 1845PDT 26OCT26 / 0145GMT 27OCT26 Sichuan Airlines at the launch of Northern winter 2026/27 season expansions Airbus A321neo operation on international routes. From 25OCT26, Airbus A321neo aircraft will gradually operating following routes, along or replace other Airbus aircraft type. Chengdu Tianfu \u2013 Bangkok Suvarnabhumi Chengdu Tianfu \u2013 Denpasar Chengdu Tianfu \u2013 Ho Chi Minh City Che",
-   "kind": "item",
-   "source": "AeroRoutes schedule filings",
-   "source_id": "aeroroutes",
-   "tier": 2,
-   "country": "GLOBAL",
-   "category": "aviation-tracker",
-   "segments": [
-    "city",
-    "bush",
-    "beach"
-   ],
-   "first_seen": "2026-10-27T07:07+03:00",
-   "published": "2026-10-27",
-   "verdict": "CONSIDER"
-  },
-  {
-   "score": 75.8,
-   "components": {
-    "tier": 20,
-    "category": 14,
-    "lead": 8.4,
-    "relevance": 12,
-    "freshness": 11.4,
-    "corroborated": 10
-   },
-   "keywords": [
-    "route",
-    "flight"
-   ],
-   "shock_terms": [],
-   "dedupe_match": null,
-   "dedupe_similarity": 0.17,
-   "id": "5c91037b1c0e",
-   "title": "Fly One Adds Chisinau \u2013 Thessaloniki in NS27",
-   "url": "https://www.aeroroutes.com/eng/261026-5fns27skg",
-   "summary": "Published at 1500PDT / 2200GMT 26OCT26 Fly One in Northern summer 2027 season plans to launch Chisinau \u2013 Thessaloniki route, with 2 weekly flights scheduled from 03JUN27 to 09SEP27, with a mix of A320/321 aircraft. 5F6809 RMO0610 \u2013 0810SKG 321 7 5F6809 RMO0620 \u2013 0820SKG 320 4 5F6810 SKG0900 \u2013 1100RMO 321 7 5F6810 SKG0920 \u2013 1120RMO 320 4",
-   "kind": "item",
-   "source": "AeroRoutes schedule filings",
-   "source_id": "aeroroutes",
-   "tier": 2,
-   "country": "GLOBAL",
-   "category": "aviation-tracker",
-   "segments": [
-    "city",
-    "bush",
-    "beach"
-   ],
-   "first_seen": "2026-10-27T07:07+03:00",
-   "published": "2026-10-27",
-   "verdict": "CONSIDER"
-  },
-  {
-   "score": 75.4,
-   "components": {
-    "tier": 20,
-    "category": 4,
-    "lead": 0.0,
-    "relevance": 28,
-    "freshness": 11.4,
-    "undated": -6,
-    "shock": 18
-   },
-   "keywords": [
-    "ebola",
-    "evacuat",
-    "flight"
-   ],
-   "shock_terms": [
-    "evacuat"
-   ],
-   "dedupe_match": null,
-   "dedupe_similarity": 0.2,
-   "id": "46321dc3c7e3",
-   "title": "Africa Nigeria's Ebola patient on medical evacuation flight to Switzerland, condition stable 15 hours ago - 3 min read",
-   "url": "https://www.thecitizen.co.tz/tanzania/news/africa/nigeria-s-ebola-patient-on-medical-evacuation-flight-to-switzerland-condition-stable-5646364",
-   "summary": "",
-   "kind": "item",
-   "source": "The Citizen (Tanzania)",
-   "source_id": "np-citizen-tz",
-   "tier": 2,
-   "country": "TZ",
-   "category": "press",
-   "segments": [
-    "city",
-    "bush",
-    "beach"
-   ],
-   "first_seen": "2026-10-27T07:07+03:00",
-   "published": null,
-   "verdict": "CONSIDER"
-  },
-  {
-   "score": 71.8,
-   "components": {
-    "tier": 20,
-    "category": 14,
-    "lead": 8.4,
-    "relevance": 8,
-    "freshness": 11.4,
-    "corroborated": 10
-   },
-   "keywords": [
-    "route"
-   ],
-   "shock_terms": [],
-   "dedupe_match": null,
-   "dedupe_similarity": 0.0,
-   "id": "e0dd4e640280",
-   "title": "Riyadh Air Moves Operation to Gassim in Oct/Nov 2026",
-   "url": "https://www.aeroroutes.com/eng/261026-rxoct26elq",
-   "summary": "Published at 1630PDT / 2330GMT 26OCT26 Riyadh Air for the next two weeks tentatively moves operation from Riyadh to Gassim , with 6 routes scheduled between 25OCT26 and 08NOV26. Planned operation as follows. Gassim \u2013 Cairo 3 weekly 787-9 (RX9319/9320) Gassim \u2013 Dhaka 3 weekly 787-9 (RX9763/9764) Gassim \u2013 Islamabad 2 weekly 787-9 (RX9661/9662) Gassim \u2013 Jeddah 2-3 daily 787-9 (RX900-919 series) Gassi",
-   "kind": "item",
-   "source": "AeroRoutes schedule filings",
-   "source_id": "aeroroutes",
-   "tier": 2,
-   "country": "GLOBAL",
-   "category": "aviation-tracker",
-   "segments": [
-    "city",
-    "bush",
-    "beach"
-   ],
-   "first_seen": "2026-10-27T07:07+03:00",
    "published": "2026-10-27",
    "verdict": "CONSIDER"
   }
