@@ -1,5 +1,14 @@
 window.EDITIONS = [
  {
+  "id": "pulse-2026-10-28-evening",
+  "date": "2026-10-28",
+  "dateDisplay": "Wednesday, 28 October 2026",
+  "edition": "Evening Wrap",
+  "editionKey": "evening",
+  "summary": "Uganda Airlines began four weekly Entebbe–Accra flights on 27 October, its 18th destination, with return fares from US$550",
+  "bodyHtml": "<p><strong>Uganda Airlines began four weekly Entebbe–Accra flights on 27 October, its 18th destination, with return fares from US$550</strong><br><em>🌆 Evening Wrap · Wed 28 Oct 2026</em></p>\n<p>━━━━━━━━━<br><span class=\"item-head\">1️⃣ Uganda Airlines began four weekly Entebbe–Accra flights on 27 October, its 18th destination, with return fares from US$550</span></p>\n<p>The Boeing 737-800 flies about five hours. The airline&#x27;s acting CEO, Girma Wake, pitched Ghanaian visitors for Uganda&#x27;s wildlife; the minister&#x27;s emphasis was agricultural trade <strong>(Uganda Media Centre, 28 Oct)</strong>. The launch is the one we diarised on 5 Oct.<br>Our inference: Ghana is a small source market and Accra has screened Kenya-linked arrivals since 21 Oct, so treat this as West African upside, not a 2027 plan.<br><span class=\"sowhat\">🎯 So what: if you sell Uganda, add one West African agent to your rate-sheet mailing this month.</span><br><span class=\"tagline\">🏷 City, Bush | Uganda | Confirmed | impact:watch</span></p>\n<p><span class=\"item-head\">2️⃣ DRC&#x27;s Ebola outbreak passed 10,000 confirmed cases, with 10,060 cases and 4,887 deaths at 25 October</span><br>That is 423 more cases and 241 more deaths than WHO&#x27;s 19 October count we cited on 22 Oct, though the sources differ. Ituri holds 71.7% of cases; 66 health zones in 8 of 26 provinces are affected. The report lists DRC, Uganda, Kenya and Nigeria, plus one imported case in France <strong>(Xinhua via The Independent Uganda, 27 Oct, citing DRC health authorities)</strong>. Uganda itself says it has no active cases.<br>Our inference: the source outbreak is still growing, so Kenya&#x27;s 42-day clock is the only part of this on a timer.<br><span class=\"sowhat\">🎯 So what: price US and European Ebola questions as a months-long issue, not a weeks-long one.</span><br><span class=\"tagline\">🏷 City, Bush, Beach | Kenya, Uganda, Rwanda | Confirmed | impact:risk</span></p>\n<p><span class=\"item-head\">3️⃣ ECDC rates Ebola infection risk for European visitors to Kenya as low, while two US agencies report no Kenya booking impact</span><br>ECDC&#x27;s 27 Oct statement, announcing experts for Nigeria, says infection risk for Europeans living in or travelling to affected areas in Kenya and Nigeria is low with precautions, and risk to the EU very low. It gives no travel restrictions <strong>(ECDC, 27 Oct)</strong>. Two US luxury agencies, Extraordinary Journeys and Greatways Travel, told Tourism Update they see no tangible Kenya impact; no figures given <strong>(Tourism Update, 27 Oct)</strong>.<br>Our inference: agent comments are anecdote, not data, and the US Level 3 advisory has bitten before.<br><span class=\"sowhat\">🎯 So what: quote ECDC&#x27;s wording to European agents; ask US agents for actual cancellation counts.</span><br><span class=\"tagline\">🏷 City, Bush, Beach | Kenya | Confirmed | impact:demand</span></p>\n<p><strong>🏗 DEAL FLOW:</strong> No verified EA deal flow in the window. Newest dated item remains Mereshi Safari Camp Serengeti, Autograph Collection, planned for November <strong>(Hospitality Net, 12 Oct)</strong>.</p>\n<p><strong>📻 ALSO TONIGHT</strong><br>🇺🇬 27 Oct: Parliament&#x27;s news page carries &quot;Gov&#x27;t urges calm as Shilling faces foreign exchange pressure&quot;; the page blocks our reader, so the body is unread. The shilling touched about Shs4,500 on 23 Oct, a 33-year low <strong>(Parliament of Uganda, 27 Oct; Daily Monitor, 23 Oct)</strong>.<br>🇰🇪 Hotel grading by the Tourism Regulatory Authority began in Nairobi and Kiambu on 26 Oct and runs to 4 Dec <strong>(Capital FM, 13 Oct)</strong>.</p>\n<p><strong>⏳ CATCHING UP</strong><br>🇹🇿 23 Oct: President Samia named new board chairs for wildlife and tourism bodies, tagged TAWA, TTB and TANAPA; names unread <strong>(The Citizen, 23 Oct)</strong>.</p>\n<p><strong>📅 WEEK AHEAD</strong> About 30 Oct KNBS October CPI. 3 Nov US no-DRC declaration starts; Kenya&#x27;s next 98 contacts leave.</p>\n<p><strong>🔍 BLIND SPOTS</strong> Web-scanned only, not opened: UK, Canada, German and French advisories, Africa CDC, WHO, Uganda dashboard, Rwanda and Zanzibar health, KCAA, UWA, TANAPA, NCAA, four gazettes, TIRA, CBK, EPRA, KNBS, BoU, BoT, BNR, UBOS, OCGS, ZRB. Tier C not read.</p>\n<p>🔗 This edition on the web: <a href=\"https://eahospitalitypulse.com/editions/pulse-2026-10-28-evening.html\" rel=\"noopener\">eahospitalitypulse.com/editions/pulse-2026-10-28-evenin…</a></p>"
+ },
+ {
   "id": "pulse-2026-10-27-evening",
   "date": "2026-10-27",
   "dateDisplay": "Tuesday, 27 October 2026",
@@ -1315,6 +1324,68 @@ window.EDITIONS = [
  }
 ];
 window.INSIGHTS = [
+ {
+  "headline": "Uganda Airlines began four weekly Entebbe–Accra flights on 27 October, its 18th destination, with return fares from US$550",
+  "body": "The Boeing 737-800 flies about five hours. The airline's acting CEO, Girma Wake, pitched Ghanaian visitors for Uganda's wildlife; the minister's emphasis was agricultural trade *(Uganda Media Centre, 28 Oct)*. The launch is the one we diarised on 5 Oct. Our inference: Ghana is a small source market and Accra has screened Kenya-linked arrivals since 21 Oct, so treat this as West African upside, not a 2027 plan.",
+  "sowhat": "🎯 So what: if you sell Uganda, add one West African agent to your rate-sheet mailing this month.",
+  "segments": [
+   "city",
+   "bush"
+  ],
+  "countries": "Uganda",
+  "confidence": "Confirmed",
+  "impact": "watch",
+  "impactClass": "watch",
+  "intensity": 3,
+  "impactSet": "author",
+  "source": "pulse-2026-10-28-evening",
+  "date": "2026-10-28",
+  "dateDisplay": "Wednesday, 28 October 2026",
+  "edition": "Evening Wrap",
+  "editionKey": "evening"
+ },
+ {
+  "headline": "DRC's Ebola outbreak passed 10,000 confirmed cases, with 10,060 cases and 4,887 deaths at 25 October",
+  "body": "That is 423 more cases and 241 more deaths than WHO's 19 October count we cited on 22 Oct, though the sources differ. Ituri holds 71.7% of cases; 66 health zones in 8 of 26 provinces are affected. The report lists DRC, Uganda, Kenya and Nigeria, plus one imported case in France *(Xinhua via The Independent Uganda, 27 Oct, citing DRC health authorities)*. Uganda itself says it has no active cases. Our inference: the source outbreak is still growing, so Kenya's 42-day clock is the only part of this on a timer.",
+  "sowhat": "🎯 So what: price US and European Ebola questions as a months-long issue, not a weeks-long one.",
+  "segments": [
+   "city",
+   "bush",
+   "beach"
+  ],
+  "countries": "Kenya, Uganda, Rwanda",
+  "confidence": "Confirmed",
+  "impact": "risk",
+  "impactClass": "risk",
+  "intensity": 3,
+  "impactSet": "author",
+  "source": "pulse-2026-10-28-evening",
+  "date": "2026-10-28",
+  "dateDisplay": "Wednesday, 28 October 2026",
+  "edition": "Evening Wrap",
+  "editionKey": "evening"
+ },
+ {
+  "headline": "ECDC rates Ebola infection risk for European visitors to Kenya as low, while two US agencies report no Kenya booking impact",
+  "body": "ECDC's 27 Oct statement, announcing experts for Nigeria, says infection risk for Europeans living in or travelling to affected areas in Kenya and Nigeria is low with precautions, and risk to the EU very low. It gives no travel restrictions *(ECDC, 27 Oct)*. Two US luxury agencies, Extraordinary Journeys and Greatways Travel, told Tourism Update they see no tangible Kenya impact; no figures given *(Tourism Update, 27 Oct)*. Our inference: agent comments are anecdote, not data, and the US Level 3 advisory has bitten before.",
+  "sowhat": "🎯 So what: quote ECDC's wording to European agents; ask US agents for actual cancellation counts.",
+  "segments": [
+   "city",
+   "bush",
+   "beach"
+  ],
+  "countries": "Kenya",
+  "confidence": "Confirmed",
+  "impact": "+demand",
+  "impactClass": "demand",
+  "intensity": 3,
+  "impactSet": "author",
+  "source": "pulse-2026-10-28-evening",
+  "date": "2026-10-28",
+  "dateDisplay": "Wednesday, 28 October 2026",
+  "edition": "Evening Wrap",
+  "editionKey": "evening"
+ },
  {
   "headline": "The US will require a signed no-DRC declaration from every passenger flying to America from 3 November, including from Nairobi, Entebbe and Kigali",
   "body": "CDC's Order, signed 22 Oct and published in the Federal Register on 27 Oct (91 FR 67582), bars airlines from boarding anyone to the US without a signed statement that they were not in the Democratic Republic of the Congo in the previous 21 days. It applies from 11:59pm EST on 3 Nov, covers US connections, and airlines must keep the forms 42 days. The Order names no East African country. The text gives two end dates, 17 and 18 Dec *(Federal Register, 27 Oct; CDC, undated page)*. Our inference: this is a paperwork cost, not a ban, but it bites gorilla-trekking itineraries that cross into the DRC.",
@@ -7749,4 +7820,4 @@ window.INSIGHTS = [
   "editionKey": "evening"
  }
 ];
-window.BUILT_AT = "2026-10-28 12:38";
+window.BUILT_AT = "2026-10-28 14:33";
