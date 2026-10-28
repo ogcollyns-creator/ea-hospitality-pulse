@@ -1,5 +1,14 @@
 window.GUIDES = [
  {
+  "slug": "east-africa-plate-cost-unhedged-2027",
+  "title": "East Africa's lodges hedged the room rate. The plate is the open position.",
+  "description": "Kenya's maize harvest has fallen to a seven-year low, food inflation is running at 9.5 per cent, and the strongest El Nino since 1950 is landing on the region's granary. Full-board rates for 2027 are already contracted. The cost inside them is not.",
+  "category": "Big Read",
+  "updated": "2026-10-28",
+  "readMins": 8,
+  "image": "img/editions/east-africa-plate-cost-unhedged-2027.jpg"
+ },
+ {
   "slug": "zanzibar-seats-up-rates-down-capacity-lesson",
   "title": "Zanzibar got the seats it asked for. The room rate fell 18 per cent.",
   "description": "Airline capacity into Zanzibar rose 11 per cent in a year and is forecast to rise another 33 per cent by March. August set an arrivals record at an estimated 92.9 per cent bed occupancy. Over the same twelve months the weighted average online room rate fell about 18 per cent, in every category. East Africa has spent three years arguing that seats are the binding constraint. One island has now run the experiment.",
