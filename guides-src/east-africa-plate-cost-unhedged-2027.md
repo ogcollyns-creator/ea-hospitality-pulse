@@ -4,8 +4,9 @@ slug: east-africa-plate-cost-unhedged-2027
 description: Kenya's maize harvest has fallen to a seven-year low, food inflation is running at 9.5 per cent, and the strongest El Nino since 1950 is landing on the region's granary. Full-board rates for 2027 are already contracted. The cost inside them is not.
 category: Big Read
 updated: 2026-10-28
+image: "img/editions/east-africa-plate-cost-unhedged-2027.jpg"
+image_credit: "Photograph: Onyango George / EA Hospitality Pulse"
 ---
-
 The cabinet secretary was explaining a shortage, and in the middle of it he said something that should have unsettled every lodge owner between Laikipia and the Selous.
 
 Mutahi Kagwe, Kenya's cabinet secretary for agriculture and livestock development, went on NTV in the first week of October to account for a harvest that had not arrived. The National Cereals and Produce Board had spent two months buying maize off farmers and had managed, by his own account, less than a million bags. The gap would be bought abroad. "We will import from the East Africa region and COMESA region," he said. Then, almost as an aside: "We import most of our maize from Tanzania."
