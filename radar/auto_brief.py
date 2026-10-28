@@ -14,6 +14,11 @@ Writes editions-src/pulse-YYYY-MM-DD-<slot>.md (unless it already exists).
 import os, re, sys, csv, glob, datetime, json
 
 HERE=os.path.dirname(os.path.abspath(__file__)); REPO=os.path.dirname(HERE)
+
+# predictions.csv flipped from comma to tab on 6 Oct 2026; tabular reads either.
+sys.path.insert(0, REPO)
+import tabular
+
 EAT=datetime.timezone(datetime.timedelta(hours=3))
 CFG=json.load(open(os.path.join(REPO,"site_config.json")))
 BASE=CFG["base"].rstrip("/"); CH=CFG.get("channels",{})
@@ -36,7 +41,7 @@ def open_calls_due(days=14):
     p=os.path.join(REPO,"ledger","predictions.csv")
     if not os.path.exists(p): return []
     today=datetime.date.today(); out=[]
-    for r in csv.DictReader(open(p)):
+    for r in tabular.rows(p):
         if r.get("status")!="open": continue
         rb=r.get("resolve_by","")
         try: d=datetime.date.fromisoformat(rb)

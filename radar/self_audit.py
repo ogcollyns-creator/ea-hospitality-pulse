@@ -32,6 +32,11 @@ import os, sys, re, json, csv, time, glob, datetime, collections
 
 HERE = os.path.dirname(os.path.abspath(__file__))
 REPO = os.path.dirname(HERE)
+
+# predictions.csv flipped from comma to tab on 6 Oct 2026; tabular reads either.
+sys.path.insert(0, REPO)
+import tabular
+
 OUT  = os.path.join(HERE, "out")
 EAT  = datetime.timezone(datetime.timedelta(hours=3))
 NOW  = time.time()
@@ -132,18 +137,26 @@ def _editions():
         out.append({"date":d,"slot":slot,"tier":int(tm.group(1)) if tm else None})
     return out
 
+# Operating model changed on 27 Sep 2026: the midday run was retired and the
+# morning run became the Big Read, which lands in guides-src rather than
+# editions-src. The Evening Wrap is now the only daily news edition. This check
+# went on demanding three slots a day, so it reported a FAIL every single run
+# and a real missed evening was indistinguishable from the two phantom gaps.
+DAILY_SLOTS = ("evening",)
+
 def check_cadence(eds):
     recent=[e for e in eds if (TODAY-e["date"]).days<=2]
     got={(e["date"],e["slot"]) for e in recent}
-    # expected: morning+midday+evening for each of the last 2 full days
     missing=[]
     for dd in [TODAY-datetime.timedelta(days=1), TODAY-datetime.timedelta(days=2)]:
-        for slot in ("morning","midday","evening"):
+        for slot in DAILY_SLOTS:
             if (dd,slot) not in got: missing.append(f"{dd} {slot}")
-    if not missing: return R("edition cadence","PASS",f"{len(recent)} editions in last 2d; no slot gaps.")
-    return R("edition cadence","WARN" if len(missing)<=2 else "FAIL",
-             f"Missing slots (last 2 full days): {', '.join(missing)}",
-             "Confirm the scheduled Pulse task fired for each slot.")
+    if not missing:
+        return R("edition cadence","PASS",
+                 f"{len(recent)} editions in last 2d; no gaps in {'/'.join(DAILY_SLOTS)}.")
+    return R("edition cadence","WARN" if len(missing)<=1 else "FAIL",
+             f"Missing editions (last 2 full days): {', '.join(missing)}",
+             "Confirm the scheduled Evening Wrap task fired.")
 
 def check_signal_quality(eds):
     wk=[e for e in eds if (TODAY-e["date"]).days<=7 and e["tier"]]
@@ -159,7 +172,7 @@ def check_signal_quality(eds):
 def check_ledger():
     p=os.path.join(REPO,"ledger","predictions.csv")
     if not os.path.exists(p): return R("ledger hygiene","FAIL","predictions.csv missing.","")
-    rows=list(csv.DictReader(open(p)))
+    rows=tabular.rows(p)
     openc=[r for r in rows if r.get("status")=="open"]
     overdue=[r for r in openc if r.get("resolve_by") and parse_date(r["resolve_by"]) and parse_date(r["resolve_by"])<TODAY]
     nosrc=[r for r in rows if not r.get("source_url","").strip()]
@@ -205,7 +218,7 @@ def check_rate_index():
 
 def check_forecast_throughput():
     p=os.path.join(REPO,"ledger","predictions.csv")
-    rows=list(csv.DictReader(open(p))) if os.path.exists(p) else []
+    rows=tabular.rows(p) if os.path.exists(p) else []
     recent=[r for r in rows if parse_date(r.get("made_date","")) and (TODAY-parse_date(r["made_date"])).days<=7]
     detail=f"{len(recent)} new falsifiable calls logged in last 7d."
     if len(recent)>=3: return R("forecast throughput","PASS",detail)
