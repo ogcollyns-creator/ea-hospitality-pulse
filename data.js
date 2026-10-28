@@ -1,5 +1,14 @@
 window.EDITIONS = [
  {
+  "id": "pulse-2026-10-27-evening",
+  "date": "2026-10-27",
+  "dateDisplay": "Tuesday, 27 October 2026",
+  "edition": "Evening Wrap",
+  "editionKey": "evening",
+  "summary": "The US will require a signed no-DRC declaration from every passenger flying to America from 3 November, including from Nairobi, Entebbe and Kigali",
+  "bodyHtml": "<p><strong>The US will require a signed no-DRC declaration from every passenger flying to America from 3 November, including from Nairobi, Entebbe and Kigali</strong><br><em>🌆 Evening Wrap · Tue 27 Oct 2026</em></p>\n<p>━━━━━━━━━<br><span class=\"item-head\">1️⃣ The US will require a signed no-DRC declaration from every passenger flying to America from 3 November, including from Nairobi, Entebbe and Kigali</span></p>\n<p>CDC&#x27;s Order, signed 22 Oct and published in the Federal Register on 27 Oct (91 FR 67582), bars airlines from boarding anyone to the US without a signed statement that they were not in the Democratic Republic of the Congo in the previous 21 days. It applies from 11:59pm EST on 3 Nov, covers US connections, and airlines must keep the forms 42 days. The Order names no East African country. The text gives two end dates, 17 and 18 Dec <strong>(Federal Register, 27 Oct; CDC, undated page)</strong>.<br>Our inference: this is a paperwork cost, not a ban, but it bites gorilla-trekking itineraries that cross into the DRC.<br><span class=\"sowhat\">🎯 So what: tell US-bound guests and agents now, and add the form to check-in for departures after 3 Nov.</span><br><span class=\"tagline\">🏷 City, Bush | Kenya, Uganda, Rwanda | Confirmed | impact:risk</span></p>\n<p><span class=\"item-head\">2️⃣ Uganda barred DRC-history travellers from transiting and reinstated locator forms after an Ebola case in Nigeria was traced to a Ugandan holiday</span><br>A Ugandan-born woman, wife of a Swiss diplomat in Abuja, was evacuated to Switzerland on 26 Oct. Officials say she spent two weeks in Uganda; Switzerland and Africa CDC say her papers show no Congo visit <strong>(Daily Monitor, 27 Oct)</strong>. Uganda ordered locator forms for all arrivals and a transit ban on DRC-history travellers on 24 Oct, and its Health Minister said on 25 Oct that Uganda &quot;remains Ebola-free&quot; and the Nigerian case is under investigation <strong>(Uganda Media Centre, 25 Oct)</strong>.<br>Our inference: if the probe finds local infection, Uganda&#x27;s July all-clear is the next thing questioned.<br><span class=\"sowhat\">🎯 So what: tell Entebbe-bound guests to expect the form. Hold refund terms until the probe reports.</span><br><span class=\"tagline\">🏷 City, Bush | Uganda | Confirmed | impact:risk</span></p>\n<p><span class=\"item-head\">3️⃣ Kenya released its first 20 Ebola contacts on 26 Oct; 98 remain and leave from 3 November</span><br>The Ministry counts nine cases, two deaths and seven patients stable in treatment, and says the outbreak is &quot;not yet contained&quot;. Travel, trade and gatherings stay unrestricted <strong>(Citizen Digital, 26 Oct)</strong>. The 42-day clock starts only after the last patient clears two tests and is discharged.<br><span class=\"sowhat\">🎯 So what: say &quot;contacts released&quot;, never &quot;cleared&quot;, in guest messages.</span><br><span class=\"tagline\">🏷 City, Bush, Beach | Kenya | Confirmed | impact:risk</span></p>\n<p><strong>🏗 DEAL FLOW:</strong> No verified EA deal flow in the window. Newest dated item is Mereshi Safari Camp Serengeti, Autograph Collection, planned for November <strong>(Hospitality Net, 12 Oct)</strong>.</p>\n<p><strong>📻 ALSO TONIGHT</strong><br>🇰🇪 31 Oct: the UN ends its Somalia mission; Kenyan troops stay in the AU force to 31 Dec <strong>(Kenyans.co.ke, 27 Oct)</strong>.<br>🇰🇪🇺🇬 27 Oct: private sectors sign three tourism, trade and investment deals; terms not read <strong>(The Independent Uganda, 27 Oct)</strong>.<br>🇰🇪🇺🇬 26 Oct: a US$1.2bn &quot;Roosevelt Africa Trail&quot; corridor is proposed, still in feasibility <strong>(Tourism Update, 26 Oct)</strong>.<br>🌍 27 Oct: Hilton&#x27;s global Q3 RevPAR rose 5.8%; no Africa split <strong>(Hilton, 27 Oct)</strong>.</p>\n<p><strong>📅 WEEK AHEAD</strong> About 30 Oct KNBS CPI. 31 Oct UN Somalia exit. 3 Nov US form starts; Kenya&#x27;s next contacts leave.</p>\n<p><strong>🔍 BLIND SPOTS</strong> Not opened directly: four advisories, WHO, Rwanda and Zanzibar health, KCAA, park authorities, four gazettes, central banks. Web-scanned only; Tier C not read.</p>\n<p>🔗 This edition on the web: <a href=\"https://eahospitalitypulse.com/editions/pulse-2026-10-27-evening.html\" rel=\"noopener\">eahospitalitypulse.com/editions/pulse-2026-10-27-evenin…</a></p>"
+ },
+ {
   "id": "pulse-2026-10-25-evening",
   "date": "2026-10-25",
   "dateDisplay": "Sunday, 25 October 2026",
@@ -1306,6 +1315,67 @@ window.EDITIONS = [
  }
 ];
 window.INSIGHTS = [
+ {
+  "headline": "The US will require a signed no-DRC declaration from every passenger flying to America from 3 November, including from Nairobi, Entebbe and Kigali",
+  "body": "CDC's Order, signed 22 Oct and published in the Federal Register on 27 Oct (91 FR 67582), bars airlines from boarding anyone to the US without a signed statement that they were not in the Democratic Republic of the Congo in the previous 21 days. It applies from 11:59pm EST on 3 Nov, covers US connections, and airlines must keep the forms 42 days. The Order names no East African country. The text gives two end dates, 17 and 18 Dec *(Federal Register, 27 Oct; CDC, undated page)*. Our inference: this is a paperwork cost, not a ban, but it bites gorilla-trekking itineraries that cross into the DRC.",
+  "sowhat": "🎯 So what: tell US-bound guests and agents now, and add the form to check-in for departures after 3 Nov.",
+  "segments": [
+   "city",
+   "bush"
+  ],
+  "countries": "Kenya, Uganda, Rwanda",
+  "confidence": "Confirmed",
+  "impact": "risk",
+  "impactClass": "risk",
+  "intensity": 3,
+  "impactSet": "author",
+  "source": "pulse-2026-10-27-evening",
+  "date": "2026-10-27",
+  "dateDisplay": "Tuesday, 27 October 2026",
+  "edition": "Evening Wrap",
+  "editionKey": "evening"
+ },
+ {
+  "headline": "Uganda barred DRC-history travellers from transiting and reinstated locator forms after an Ebola case in Nigeria was traced to a Ugandan holiday",
+  "body": "A Ugandan-born woman, wife of a Swiss diplomat in Abuja, was evacuated to Switzerland on 26 Oct. Officials say she spent two weeks in Uganda; Switzerland and Africa CDC say her papers show no Congo visit *(Daily Monitor, 27 Oct)*. Uganda ordered locator forms for all arrivals and a transit ban on DRC-history travellers on 24 Oct, and its Health Minister said on 25 Oct that Uganda \"remains Ebola-free\" and the Nigerian case is under investigation *(Uganda Media Centre, 25 Oct)*. Our inference: if the probe finds local infection, Uganda's July all-clear is the next thing questioned.",
+  "sowhat": "🎯 So what: tell Entebbe-bound guests to expect the form. Hold refund terms until the probe reports.",
+  "segments": [
+   "city",
+   "bush"
+  ],
+  "countries": "Uganda",
+  "confidence": "Confirmed",
+  "impact": "risk",
+  "impactClass": "risk",
+  "intensity": 3,
+  "impactSet": "author",
+  "source": "pulse-2026-10-27-evening",
+  "date": "2026-10-27",
+  "dateDisplay": "Tuesday, 27 October 2026",
+  "edition": "Evening Wrap",
+  "editionKey": "evening"
+ },
+ {
+  "headline": "Kenya released its first 20 Ebola contacts on 26 Oct; 98 remain and leave from 3 November",
+  "body": "The Ministry counts nine cases, two deaths and seven patients stable in treatment, and says the outbreak is \"not yet contained\". Travel, trade and gatherings stay unrestricted *(Citizen Digital, 26 Oct)*. The 42-day clock starts only after the last patient clears two tests and is discharged.",
+  "sowhat": "🎯 So what: say \"contacts released\", never \"cleared\", in guest messages.",
+  "segments": [
+   "city",
+   "bush",
+   "beach"
+  ],
+  "countries": "Kenya",
+  "confidence": "Confirmed",
+  "impact": "risk",
+  "impactClass": "risk",
+  "intensity": 3,
+  "impactSet": "author",
+  "source": "pulse-2026-10-27-evening",
+  "date": "2026-10-27",
+  "dateDisplay": "Tuesday, 27 October 2026",
+  "edition": "Evening Wrap",
+  "editionKey": "evening"
+ },
  {
   "headline": "Kenya's first Ebola contacts were due out of quarantine on 25 October, but the 42-day clock to an all-clear has not started",
   "body": "Health Director General Dr Patrick Amoth said on Thursday 22 Oct that \"our first contacts will begin leaving the quarantine facilities on Sunday\", after the full 21-day monitoring period without symptoms. The Ministry puts the count at nine cases, with 134 of 135 contacts traced as of 20 Oct. It also said the 42-day countdown to being declared Ebola-free has not formally begun *(Kenyans.co.ke, 22 Oct 14:00)*. We have not yet seen a Ministry statement confirming that releases happened today. Our inference: counting 42 days from the ninth case (confirmed 20 Oct) gives about 1 December at the very earliest, and the 23 Oct death pushes that later. \"Cases are contained\" and \"Kenya is declared clear\" are different dates.",
@@ -7679,4 +7749,4 @@ window.INSIGHTS = [
   "editionKey": "evening"
  }
 ];
-window.BUILT_AT = "2026-10-28 10:34";
+window.BUILT_AT = "2026-10-28 10:49";
