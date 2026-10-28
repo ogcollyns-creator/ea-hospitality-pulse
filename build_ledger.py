@@ -12,21 +12,16 @@ publicly — a track record that only shows hits is marketing, not a record.
 Run: python3 build_ledger.py
 """
 import os, csv, json, datetime
+import tabular
 
 HERE = os.path.dirname(os.path.abspath(__file__))
 SRC = os.path.join(HERE, "ledger", "predictions.csv")
 
 def main():
-    rows = []
-    with open(SRC, encoding="utf-8") as f:
-        for r in csv.DictReader(f):
-            if not r.get("id"):
-                continue
-            # pipes are used in the CSV to escape commas inside claims
-            for k in ("claim", "resolution_criteria", "evidence"):
-                if r.get(k):
-                    r[k] = r[k].replace("|", ",")
-            rows.append(r)
+    # pipes are the CSV's escape for a comma inside a claim; tabular restores them
+    rows = [r for r in tabular.rows(
+        SRC, pipes_as_commas=("claim", "resolution_criteria", "evidence"))
+        if r.get("id")]
 
     today = datetime.date.today()
     for r in rows:

@@ -19,6 +19,7 @@ Fonts are vendored in fonts/ so the runner and the sandbox render identically.
 Deps: fpdf2  (pip install fpdf2 --break-system-packages)
 """
 import sys, os, re, json, datetime, unicodedata, tempfile
+import tabular
 
 ROOT = os.path.dirname(os.path.abspath(__file__))
 FONT_DIR = os.path.join(ROOT, "fonts")
@@ -197,8 +198,7 @@ def ledger_this_week(end_iso, days=7, edition_filter="foresight"):
             return False
 
     made, resolved = [], []
-    with open(LEDGER, encoding="utf-8") as fh:
-        for row in csv.DictReader(fh):
+    for row in tabular.rows(LEDGER):
             if inwin(row.get("made_date")) and (
                     not edition_filter
                     or edition_filter in (row.get("edition") or "").lower()):

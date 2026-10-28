@@ -27,6 +27,7 @@ know that a property has not silently changed what the price includes.
 Appends to rates/observations.csv using today's date, then rebuild with build_rate_index.py.
 """
 import sys, os, csv, json, datetime
+import tabular
 
 HERE = os.path.dirname(os.path.abspath(__file__))
 RD = os.path.join(HERE, "rates")
@@ -100,7 +101,8 @@ def main():
     path = os.path.join(RD, "observations.csv")
     exists = os.path.exists(path)
     with open(path, "a", newline="", encoding="utf-8") as f:
-        w = csv.writer(f)
+        # match the file's delimiter; comma rows in a tab file were lost
+        w = csv.writer(f, delimiter=tabular.sniff(path) if exists else "\t")
         if not exists:
             w.writerow(HEADER)
         w.writerow([datetime.date.today().isoformat(), market, prop, rate, stay,

@@ -30,6 +30,7 @@ METHOD (v2), published on the site for transparency:
 Run: python3 build_rate_index.py
 """
 import os, json, csv, datetime, statistics
+import tabular
 from collections import Counter
 
 HERE = os.path.dirname(os.path.abspath(__file__))
@@ -69,17 +70,16 @@ def main():
     INACTIVE = {(i.get("market"), i.get("property")) for i in basket.get("inactive", [])}
 
     rows = []
-    with open(os.path.join(RD, "observations.csv"), encoding="utf-8") as f:
-        for r in csv.DictReader(f):
-            if not r.get("observed_date") or not r.get("rate_usd"):
-                continue
-            try:
-                r["rate_usd"] = float(r["rate_usd"])
-            except ValueError:
-                continue
-            r["market"] = (r.get("market") or "").strip().lower()
-            r["week"] = iso_week(r["observed_date"])
-            rows.append(r)
+    for r in tabular.rows(os.path.join(RD, "observations.csv")):
+        if not r.get("observed_date") or not r.get("rate_usd"):
+            continue
+        try:
+            r["rate_usd"] = float(r["rate_usd"])
+        except ValueError:
+            continue
+        r["market"] = (r.get("market") or "").strip().lower()
+        r["week"] = iso_week(r["observed_date"])
+        rows.append(r)
 
     # market -> channel -> property -> week -> [rates]   (per-property dedupe happens here)
     g = {}

@@ -27,6 +27,7 @@ fall to 'unconfident' because of cadence.
     python3 rates_due.py --stale         # properties overdue against their cadence
 """
 import argparse, csv, datetime, json, os, sys, collections
+import tabular
 
 HERE = os.path.dirname(os.path.abspath(__file__))
 BASKET = os.path.join(HERE, "rates", "basket.json")
@@ -65,18 +66,17 @@ def last_seen():
     seen = {}
     if not os.path.exists(OBS):
         return seen
-    with open(OBS, encoding="utf-8") as f:
-        for r in csv.DictReader(f):
-            if r.get("channel", "direct") != "direct":
-                continue
-            try:
-                d = datetime.date.fromisoformat(r["observed_date"])
-            except Exception:
-                continue
-            tag = iso_week(d)
-            k = (r["market"], r["property"])
-            if k not in seen or tag > seen[k]:
-                seen[k] = tag
+    for r in tabular.rows(OBS):
+        if r.get("channel", "direct") != "direct":
+            continue
+        try:
+            d = datetime.date.fromisoformat(r["observed_date"])
+        except Exception:
+            continue
+        tag = iso_week(d)
+        k = (r["market"], r["property"])
+        if k not in seen or tag > seen[k]:
+            seen[k] = tag
     return seen
 
 

@@ -10,6 +10,7 @@ Scans editions-src/*.md. Run: python build_site.py
 import os, re, json, html, datetime, subprocess
 import sys, subprocess
 from urllib.parse import quote
+import tabular
 
 HERE = os.path.dirname(os.path.abspath(__file__))
 SRC = os.path.join(HERE, "editions-src")
@@ -1657,10 +1658,8 @@ AUTHOR_SLUG = "about/onyango-george"
 
 def ledger_record():
     """Public forecast record, read from the ledger source rather than restated."""
-    import csv
     try:
-        rows = list(csv.DictReader(open(os.path.join(HERE, "ledger", "predictions.csv"),
-                                        encoding="utf-8")))
+        rows = tabular.rows(os.path.join(HERE, "ledger", "predictions.csv"))
     except Exception:
         return None
     st = {}

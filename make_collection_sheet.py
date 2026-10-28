@@ -18,6 +18,7 @@ So this version removes the judgement from the collector:
   * the convention ("lowest available double") is stated on the entry row, not buried
 """
 import argparse, csv, datetime, json, os, collections
+import tabular
 from openpyxl import Workbook
 from openpyxl.styles import Font, PatternFill, Alignment, Border, Side
 from openpyxl.worksheet.datavalidation import DataValidation
@@ -81,13 +82,12 @@ def history():
     last = {}
     if not os.path.exists(OBS):
         return last
-    with open(OBS, encoding="utf-8") as f:
-        for r in csv.DictReader(f):
-            if r.get("channel", "direct") != "direct":
-                continue
-            k = (r["market"], r["property"])
-            if k not in last or r["observed_date"] > last[k]["observed_date"]:
-                last[k] = r
+    for r in tabular.rows(OBS):
+        if r.get("channel", "direct") != "direct":
+            continue
+        k = (r["market"], r["property"])
+        if k not in last or r["observed_date"] > last[k]["observed_date"]:
+            last[k] = r
     return last
 
 

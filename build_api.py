@@ -13,6 +13,7 @@ at most.
 Run after any data rebuild:  python3 build_api.py
 """
 import json, os, re, datetime, csv
+import tabular
 
 HERE = os.path.dirname(os.path.abspath(__file__))
 API = os.path.join(HERE, "api", "v1")
@@ -152,7 +153,7 @@ except Exception as e:
 
 # ---- raw rate observations (CSV mirrored to JSON) ----
 try:
-    obs = list(csv.DictReader(open(os.path.join(HERE, "rates", "observations.csv"), encoding="utf-8")))
+    obs = tabular.rows(os.path.join(HERE, "rates", "observations.csv"))
     for o in obs:
         try: o["rate_usd"] = float(o["rate_usd"])
         except Exception: pass

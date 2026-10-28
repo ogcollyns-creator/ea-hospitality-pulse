@@ -30,6 +30,7 @@ Without a key the script exits cleanly and writes nothing.
   python3 fetch_ota_rates.py [--max N]     # default 10 properties per run
 """
 import os, sys, csv, json, time, datetime, difflib, urllib.parse, urllib.request
+import tabular
 
 HERE = os.path.dirname(os.path.abspath(__file__))
 RD = os.path.join(HERE, "rates")
@@ -139,7 +140,7 @@ def main():
 
     seen = set()
     if os.path.exists(OBS):
-        for r in csv.DictReader(open(OBS, encoding="utf-8")):
+        for r in tabular.rows(OBS):
             if (r.get("channel") or "direct") == "ota" and r.get("observed_date"):
                 if iso_week(r["observed_date"]) == this_week:
                     seen.add(r["property"])
@@ -206,7 +207,8 @@ def main():
     if rows_out:
         exists = os.path.exists(OBS)
         with open(OBS, "a", newline="", encoding="utf-8") as f:
-            w = csv.writer(f)
+            # match the file's delimiter; comma rows in a tab file were lost
+            w = csv.writer(f, delimiter=tabular.sniff(OBS) if exists else "\t")
             if not exists:
                 w.writerow(HEADER)
             w.writerows(rows_out)

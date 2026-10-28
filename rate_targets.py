@@ -13,6 +13,7 @@ LOOKBACK window, so evenness matters more than volume.
   python3 rate_targets.py [N]        # default 8
 """
 import os, sys, csv, json, datetime
+import tabular
 from collections import defaultdict
 
 HERE = os.path.dirname(os.path.abspath(__file__))
@@ -24,7 +25,7 @@ last = {}
 counts = defaultdict(int)
 path = os.path.join(RD, "observations.csv")
 if os.path.exists(path):
-    for r in csv.DictReader(open(path, encoding="utf-8")):
+    for r in tabular.rows(path):
         p = r.get("property")
         d = r.get("observed_date")
         if not p or not d:
