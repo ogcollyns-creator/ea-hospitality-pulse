@@ -23,6 +23,12 @@ on:
       # until something else on this list happened to move.
       - 'hero_gate.py'
       - 'og/hero_map.json'
+      # Data readers invoked by build_site.py. ledger.js was empty on the live
+      # site from 6 to 28 Oct 2026 because predictions.csv changed delimiter;
+      # the fix lives in these files, so they must be able to trigger a rebuild.
+      - 'tabular.py'
+      - 'build_ledger.py'
+      - 'build_rate_index.py'
       - 'img/incoming/**'
       # the workflow itself: a change to the gate or the hero chain must be able
       # to trigger a rebuild, or the fix sits undeployed until something else moves
