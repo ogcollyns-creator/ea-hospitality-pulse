@@ -187,8 +187,11 @@ def check_ledger():
     return R("ledger hygiene","PASS",detail)
 
 def check_data_freshness():
+    # Every tracker the site renders, so none can rot unwatched. connectivity.js
+    # and rivals.js were missing from this list until 28 Oct 2026 and had gone
+    # 36 and 69 days without a refresh while the audit reported nothing.
     limits={"advisories.js":4,"costs.js":10,"rules.js":21,"calendar.js":21,
-            "mice.js":14,"pipeline.js":21}
+            "mice.js":14,"pipeline.js":21,"connectivity.js":21,"rivals.js":30}
     stale=[]
     for f,lim in limits.items():
         p=os.path.join(REPO,f)
