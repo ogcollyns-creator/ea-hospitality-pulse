@@ -4,8 +4,9 @@ slug: soft-brand-affiliation-east-africa-independents
 description: On one Tuesday last week the world's hotel groups told investors that their growth now comes from buildings they do not own and names they do not change. East Africa's independents are the buildings, and the fine print is about distribution, not identity.
 category: Big Read
 updated: 2026-10-29
+image: "img/editions/soft-brand-affiliation-east-africa-independents.jpg"
+image_credit: "Photograph: Onyango George / EA Hospitality Pulse"
 ---
-
 On the morning of 27 October, in Phoenix, Arizona, BWH Hotels announced that more than 4,000 hotels across eighteen brands in over a hundred countries would be gathered under a single masterbrand called WorldHotels, with one loyalty programme to replace two. Nothing above the front doors will change: the release is explicit that individual property names, signage and flags stay as they are and that each brand's identity is preserved. Ron Pohl, who runs the new WorldHotels Collection, described the platform as sitting "at the intersection of independence and scale."
 
 Hours later, Preferred Hotels & Resorts announced that twenty eight hotels had joined its membership in the three months to 30 September, its largest quarterly intake since 2024. One of the twenty eight is in Africa, a restored palace in Fès. None is in East Africa. And on the same day, Hilton reported third quarter results showing a record pipeline of 543,100 rooms and the largest organic openings quarter in its history.
