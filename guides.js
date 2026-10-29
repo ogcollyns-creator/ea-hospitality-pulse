@@ -1,5 +1,14 @@
 window.GUIDES = [
  {
+  "slug": "soft-brand-affiliation-east-africa-independents",
+  "title": "Nobody will ask your lodge to change its name. That is what the brands are now selling East Africa.",
+  "description": "On one Tuesday last week the world's hotel groups told investors that their growth now comes from buildings they do not own and names they do not change. East Africa's independents are the buildings, and the fine print is about distribution, not identity.",
+  "category": "Big Read",
+  "updated": "2026-10-29",
+  "readMins": 8,
+  "image": "img/editions/soft-brand-affiliation-east-africa-independents.jpg"
+ },
+ {
   "slug": "east-africa-plate-cost-unhedged-2027",
   "title": "East Africa's lodges hedged the room rate. The plate is the open position.",
   "description": "Kenya's maize harvest has fallen to a seven-year low, food inflation is running at 9.5 per cent, and the strongest El Nino since 1950 is landing on the region's granary. Full-board rates for 2027 are already contracted. The cost inside them is not.",
