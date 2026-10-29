@@ -1,8 +1,8 @@
 window.LEDGER = {
- "updated": "2026-10-29 14:55",
+ "updated": "2026-10-29 15:21",
  "stats": {
-  "total": 247,
-  "open": 160,
+  "total": 248,
+  "open": 161,
   "resolved": 85,
   "correct": 65,
   "partial": 1,
@@ -569,6 +569,22 @@ window.LEDGER = {
    "resolved_date": "",
    "evidence": "",
    "source_url": "https://www.cdc.gov/port-health/media/pdfs/2026/10/Title-42-Order-October-11.pdf",
+   "overdue": false
+  },
+  {
+   "id": "P248",
+   "made_date": "2026-10-29",
+   "edition": "pulse-2026-10-29-evening",
+   "claim": "The Uganda-Kenya Coast Tourism and Innovation Summit organisers will publish the promised communique by 12 Nov 2026",
+   "resolution_criteria": "ATTA, Uganda Consulate Mombasa, Kenya or Uganda tourism ministry or trade press shows a published summit communique dated on or before 12 Nov 2026; if none found the call is incorrect",
+   "resolve_by": "2026-11-12",
+   "market": "KE",
+   "segment": "Beach/City",
+   "confidence": "Reported",
+   "status": "open",
+   "resolved_date": "",
+   "evidence": "",
+   "source_url": "",
    "overdue": false
   },
   {

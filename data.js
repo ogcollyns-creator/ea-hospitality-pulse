@@ -1,5 +1,14 @@
 window.EDITIONS = [
  {
+  "id": "pulse-2026-10-29-evening",
+  "date": "2026-10-29",
+  "dateDisplay": "Thursday, 29 October 2026",
+  "edition": "Evening Wrap",
+  "editionKey": "evening",
+  "summary": "Uganda's gorilla-tourism pledge evaluation says only 33% of operators brief tourists, and lodges need NEMA impact certificates before December",
+  "bodyHtml": "<p><strong>Uganda&#x27;s gorilla-tourism pledge evaluation says only 33% of operators brief tourists, and lodges need NEMA impact certificates before December</strong><br><em>🌆 Evening Wrap · Thu 29 Oct 2026</em></p>\n<p>━━━━━━━━━<br><span class=\"item-head\">1️⃣ Uganda&#x27;s gorilla-tourism pledge evaluation says only 33% of operators brief tourists, and lodges need NEMA impact certificates before December</span></p>\n<p>An IGCP-commissioned evaluation of the Gorilla Friendly Pledge was validated in Kampala on 28 October. Of 250 respondents (Dec 2025–Feb 2026), 95.2% had taken the pledge and 73.6% had training, but only 33.2% had briefed tourists. It cites weak enforcement, unregulated tipping and reflective glass near lodges, urges UWA to run a carrying-capacity assessment, and tells lodges to hold NEMA environmental and social impact certificates before December 2026. UWA&#x27;s Charles Tumwesigye said certification should follow. No permit or tariff change was announced <strong>(The Independent Uganda, 29 Oct)</strong>.<br>Our inference: certification plus a capacity study is the likely route to tighter rules; the NEMA deadline is the only dated item.<br><span class=\"sowhat\">🎯 So what: check your NEMA certificate status this week and put the pledge in the pre-arrival brief.</span><br><span class=\"tagline\">🏷 Bush | Uganda | Confirmed | impact:risk</span></p>\n<p><span class=\"item-head\">2️⃣ Kenya Airways now flies Nairobi–Dubai 14 times a week, with the second daily frequency effective 25 October</span></p>\n<p>The expanded schedule took effect on 25 October, &quot;14 flights per week in each direction&quot;. Aircraft and times were not stated <strong>(Tourism Update, 28 Oct)</strong>.<br>Our inference: more Gulf-hub seats for Europe and Asia connections; fares and load factors are unpublished.<br><span class=\"sowhat\">🎯 So what: ask Gulf-routed agents for the new times before you quote 2027 transfer plans.</span><br><span class=\"tagline\">🏷 City, Bush, Beach | Kenya | Confirmed | impact:demand</span></p>\n<p><span class=\"item-head\">3️⃣ Uganda and Kenya tour associations signed three MoUs at the Mombasa coast summit on 26–27 October</span></p>\n<p>AUTO with KATO, the travel agents&#x27; associations of both countries, and Private Sector Foundation Uganda with KNCCI Mombasa. Kenyan arrivals in Uganda rose from 466,902 (2024) to 519,041 (2025); Uganda sent 234,556 to Kenya. Targets: two digital tourism prototypes and ten operator links within three months; a communiqué is due within two weeks <strong>(ATTA, 27 Oct)</strong>.<br><span class=\"sowhat\">🎯 So what: coast properties should pitch Ugandan operators before the communiqué lands, about 10 Nov.</span><br><span class=\"tagline\">🏷 Beach, City | Kenya, Uganda | Confirmed | impact:demand</span></p>\n<p><strong>🏗 DEAL FLOW:</strong> No verified EA deal flow dated in the window.</p>\n<p><strong>📻 ALSO TONIGHT</strong><br>🇺🇬 28 Oct: US Embassy Kampala&#x27;s alert restates Entebbe and border screening and the closed DRC border, and says foreign nationals may not board US flights until 21 days out of Uganda; US order behind that untraced <strong>(US Embassy Kampala, 28 Oct)</strong>.<br>🇹🇿 28 Oct: Jailed opposition leader Tundu Lissu began a hunger strike, his lawyer says over denied privacy with counsel <strong>(Reuters via The EastAfrican, 28 Oct)</strong>. Watch item.<br>🇰🇪 29 Oct: Treasury posted the Draft 2027 Budget Policy Statement and a public notice; body unread, so no tourism measures confirmed <strong>(Treasury, first seen 29 Oct)</strong>.</p>\n<p><strong>⏳ CATCHING UP</strong><br>🇹🇿 5 Oct: Infinity Developments bought Beyt Al Salaam Hotel, Stone Town, in a &quot;multi-billion-shilling&quot; deal; price and plans unread <strong>(The Citizen, 5 Oct)</strong>.</p>\n<p><strong>📅 WEEK AHEAD</strong> About 30 Oct KNBS October CPI (September: 6.8%). 3 Nov US no-DRC declaration starts.</p>\n<p><strong>🔍 BLIND SPOTS</strong> Web-scanned only, not opened: UK, Canada, German, French advisories, WHO, Africa CDC, gazettes, TIRA, KCAA, TANAPA, NCAA, EPRA, CBK, BoU, BoT, BNR, OCGS.</p>\n<p>🔗 This edition on the web: <a href=\"https://eahospitalitypulse.com/editions/pulse-2026-10-29-evening.html\" rel=\"noopener\">eahospitalitypulse.com/editions/pulse-2026-10-29-evenin…</a></p>"
+ },
+ {
   "id": "pulse-2026-10-28-evening",
   "date": "2026-10-28",
   "dateDisplay": "Wednesday, 28 October 2026",
@@ -1324,6 +1333,66 @@ window.EDITIONS = [
  }
 ];
 window.INSIGHTS = [
+ {
+  "headline": "Uganda's gorilla-tourism pledge evaluation says only 33% of operators brief tourists, and lodges need NEMA impact certificates before December",
+  "body": "An IGCP-commissioned evaluation of the Gorilla Friendly Pledge was validated in Kampala on 28 October. Of 250 respondents (Dec 2025–Feb 2026), 95.2% had taken the pledge and 73.6% had training, but only 33.2% had briefed tourists. It cites weak enforcement, unregulated tipping and reflective glass near lodges, urges UWA to run a carrying-capacity assessment, and tells lodges to hold NEMA environmental and social impact certificates before December 2026. UWA's Charles Tumwesigye said certification should follow. No permit or tariff change was announced *(The Independent Uganda, 29 Oct)*. Our inference: certification plus a capacity study is the likely route to tighter rules; the NEMA deadline is the only dated item.",
+  "sowhat": "🎯 So what: check your NEMA certificate status this week and put the pledge in the pre-arrival brief.",
+  "segments": [
+   "bush"
+  ],
+  "countries": "Uganda",
+  "confidence": "Confirmed",
+  "impact": "risk",
+  "impactClass": "risk",
+  "intensity": 3,
+  "impactSet": "author",
+  "source": "pulse-2026-10-29-evening",
+  "date": "2026-10-29",
+  "dateDisplay": "Thursday, 29 October 2026",
+  "edition": "Evening Wrap",
+  "editionKey": "evening"
+ },
+ {
+  "headline": "Kenya Airways now flies Nairobi–Dubai 14 times a week, with the second daily frequency effective 25 October",
+  "body": "The expanded schedule took effect on 25 October, \"14 flights per week in each direction\". Aircraft and times were not stated *(Tourism Update, 28 Oct)*. Our inference: more Gulf-hub seats for Europe and Asia connections; fares and load factors are unpublished.",
+  "sowhat": "🎯 So what: ask Gulf-routed agents for the new times before you quote 2027 transfer plans.",
+  "segments": [
+   "city",
+   "bush",
+   "beach"
+  ],
+  "countries": "Kenya",
+  "confidence": "Confirmed",
+  "impact": "+demand",
+  "impactClass": "demand",
+  "intensity": 3,
+  "impactSet": "author",
+  "source": "pulse-2026-10-29-evening",
+  "date": "2026-10-29",
+  "dateDisplay": "Thursday, 29 October 2026",
+  "edition": "Evening Wrap",
+  "editionKey": "evening"
+ },
+ {
+  "headline": "Uganda and Kenya tour associations signed three MoUs at the Mombasa coast summit on 26–27 October",
+  "body": "AUTO with KATO, the travel agents' associations of both countries, and Private Sector Foundation Uganda with KNCCI Mombasa. Kenyan arrivals in Uganda rose from 466,902 (2024) to 519,041 (2025); Uganda sent 234,556 to Kenya. Targets: two digital tourism prototypes and ten operator links within three months; a communiqué is due within two weeks *(ATTA, 27 Oct)*.",
+  "sowhat": "🎯 So what: coast properties should pitch Ugandan operators before the communiqué lands, about 10 Nov.",
+  "segments": [
+   "city",
+   "beach"
+  ],
+  "countries": "Kenya, Uganda",
+  "confidence": "Confirmed",
+  "impact": "+demand",
+  "impactClass": "demand",
+  "intensity": 3,
+  "impactSet": "author",
+  "source": "pulse-2026-10-29-evening",
+  "date": "2026-10-29",
+  "dateDisplay": "Thursday, 29 October 2026",
+  "edition": "Evening Wrap",
+  "editionKey": "evening"
+ },
  {
   "headline": "Uganda Airlines began four weekly Entebbe–Accra flights on 27 October, its 18th destination, with return fares from US$550",
   "body": "The Boeing 737-800 flies about five hours. The airline's acting CEO, Girma Wake, pitched Ghanaian visitors for Uganda's wildlife; the minister's emphasis was agricultural trade *(Uganda Media Centre, 28 Oct)*. The launch is the one we diarised on 5 Oct. Our inference: Ghana is a small source market and Accra has screened Kenya-linked arrivals since 21 Oct, so treat this as West African upside, not a 2027 plan.",
@@ -7820,4 +7889,4 @@ window.INSIGHTS = [
   "editionKey": "evening"
  }
 ];
-window.BUILT_AT = "2026-10-29 14:55";
+window.BUILT_AT = "2026-10-29 15:20";
