@@ -3,61 +3,61 @@ _Window opens Thu 29 Oct 15:00 EAT · 1316 observations in window · 18 headline
 
 Ranked by first-seen recency, source tier and hospitality relevance. `first seen` is when the radar observed the item, which is the date the recency gate runs on. `published` is what the source claims — where the two disagree, the disagreement is the story.
 
-### 🚨 [101.4] [page changed] Federal Register — public inspection (HHS/CDC), pre-publication
+### 🚨 [100.4] [page changed] Federal Register — public inspection (HHS/CDC), pre-publication
 - **Verdict:** OPEN THIS — tier-1 advisory page moved; content not auto-parsed, read it manually
 - **Source:** Federal Register — public inspection (HHS/CDC), pre-publication · tier 1 · REG · advisory
 - **First seen:** 2026-10-30T22:01+03:00 EAT · **Source date:** 2026-10-29
 - **URL:** https://www.federalregister.gov/api/v1/public-inspection-documents/current.json
 - **Extract:** {"count":105,"results":[{"agencies":[{"raw_name":"Food and Drug Administration","name":"Food and Drug Administration","id":199,"url":"https://www.federalregister.gov/agencies/food-and-drug-administration","json_url":"https://www.federalregister.gov/api/v1/agen
-- **Score parts:** tier +40, category +32, lead +3.6, relevance +0, freshness +19.8, corroborated +10, page_change -4
+- **Score parts:** tier +40, category +32, lead +3.6, relevance +0, freshness +18.8, corroborated +10, page_change -4
 
-### 🚨 [98.0] [page changed] Federal Register — public inspection (HHS/CDC), pre-publication
+### 🚨 [97.0] [page changed] Federal Register — public inspection (HHS/CDC), pre-publication
 - **Verdict:** OPEN THIS — tier-1 advisory page moved; content not auto-parsed, read it manually
 - **Source:** Federal Register — public inspection (HHS/CDC), pre-publication · tier 1 · REG · advisory
 - **First seen:** 2026-10-30T18:57+03:00 EAT · **Source date:** 2026-10-29
 - **URL:** https://www.federalregister.gov/api/v1/public-inspection-documents/current.json
 - **Extract:** {"count":105,"results":[{"agencies":[{"raw_name":"Food and Drug Administration","name":"Food and Drug Administration","id":199,"url":"https://www.federalregister.gov/agencies/food-and-drug-administration","json_url":"https://www.federalregister.gov/api/v1/agen
-- **Score parts:** tier +40, category +32, lead +3.6, relevance +0, freshness +16.4, corroborated +10, page_change -4
+- **Score parts:** tier +40, category +32, lead +3.6, relevance +0, freshness +15.4, corroborated +10, page_change -4
 
-### 🚨 [98.0] [page changed] Federal Register — CDC notices
+### 🚨 [97.0] [page changed] Federal Register — CDC notices
 - **Verdict:** OPEN THIS — tier-1 advisory page moved; content not auto-parsed, read it manually
 - **Source:** Federal Register — CDC notices · tier 1 · REG · advisory
 - **First seen:** 2026-10-30T13:07+03:00 EAT · **Source date:** 2026-10-28
 - **URL:** https://www.federalregister.gov/api/v1/documents.rss?conditions%5Bagencies%5D%5B%5D=centers-for-disease-control-and-prevention&order=newest
 - **Extract:** Federal Register Documents published on or after 09/30/2026 and from Centers for Disease Control and Prevention https://www.federalregister.gov/api/v1/documents.rss?conditions%5Bagencies%5D%5B%5D=centers-for-disease-control-and-prevention&order=newest Fri, 30 
-- **Score parts:** tier +40, category +32, lead +12, relevance +8, freshness +10, page_change -4
+- **Score parts:** tier +40, category +32, lead +12, relevance +8, freshness +9, page_change -4
 
-### 🚨 [86.1] [page changed] Federal Register — CDC notices
+### 🚨 [85.1] [page changed] Federal Register — CDC notices
 - **Verdict:** OPEN THIS — tier-1 advisory page moved; content not auto-parsed, read it manually
 - **Source:** Federal Register — CDC notices · tier 1 · REG · advisory
 - **First seen:** 2026-10-30T07:48+03:00 EAT · **Source date:** — none stated
 - **URL:** https://www.federalregister.gov/api/v1/documents.rss?conditions%5Bagencies%5D%5B%5D=centers-for-disease-control-and-prevention&order=newest
 - **Extract:** Federal Register Documents published on or after 09/30/2026 and from Centers for Disease Control and Prevention https://www.federalregister.gov/api/v1/documents.rss?conditions%5Bagencies%5D%5B%5D=centers-for-disease-control-and-prevention&order=newest Tue, 27 
-- **Score parts:** tier +40, category +32, lead +12, relevance +8, freshness +4.1, undated -6, page_change -4
+- **Score parts:** tier +40, category +32, lead +12, relevance +8, freshness +3.1, undated -6, page_change -4
 
-### 🚨 [84.0] [page changed] Federal Register — public inspection (HHS/CDC), pre-publication
+### 🚨 [83.0] [page changed] Federal Register — public inspection (HHS/CDC), pre-publication
 - **Verdict:** OPEN THIS — tier-1 advisory page moved; content not auto-parsed, read it manually
 - **Source:** Federal Register — public inspection (HHS/CDC), pre-publication · tier 1 · REG · advisory
 - **First seen:** 2026-10-30T15:19+03:00 EAT · **Source date:** 2026-10-28
 - **URL:** https://www.federalregister.gov/api/v1/public-inspection-documents/current.json
 - **Extract:** {"count":123,"results":[{"agencies":[{"raw_name":"Health and Human Services Department","name":"Health and Human Services Department","id":221,"url":"https://www.federalregister.gov/agencies/health-and-human-services-department","json_url":"https://www.federal
-- **Score parts:** tier +40, category +32, lead +3.6, relevance +0, freshness +12.4, page_change -4
+- **Score parts:** tier +40, category +32, lead +3.6, relevance +0, freshness +11.4, page_change -4
 
-### 🚨 [81.6] [page changed] Federal Register — public inspection (HHS/CDC), pre-publication
+### 🚨 [80.6] [page changed] Federal Register — public inspection (HHS/CDC), pre-publication
 - **Verdict:** OPEN THIS — tier-1 advisory page moved; content not auto-parsed, read it manually
 - **Source:** Federal Register — public inspection (HHS/CDC), pre-publication · tier 1 · REG · advisory
 - **First seen:** 2026-10-30T13:07+03:00 EAT · **Source date:** 2026-10-28
 - **URL:** https://www.federalregister.gov/api/v1/public-inspection-documents/current.json
 - **Extract:** {"count":123,"results":[{"agencies":[{"raw_name":"Health and Human Services Department","name":"Health and Human Services Department","id":221,"url":"https://www.federalregister.gov/agencies/health-and-human-services-department","json_url":"https://www.federal
-- **Score parts:** tier +40, category +32, lead +3.6, relevance +0, freshness +10, page_change -4
+- **Score parts:** tier +40, category +32, lead +3.6, relevance +0, freshness +9, page_change -4
 
-### 🚨 [75.7] [page changed] Federal Register — public inspection (HHS/CDC), pre-publication
+### 🚨 [74.7] [page changed] Federal Register — public inspection (HHS/CDC), pre-publication
 - **Verdict:** OPEN THIS — tier-1 advisory page moved; content not auto-parsed, read it manually
 - **Source:** Federal Register — public inspection (HHS/CDC), pre-publication · tier 1 · REG · advisory
 - **First seen:** 2026-10-30T07:48+03:00 EAT · **Source date:** 2026-10-28
 - **URL:** https://www.federalregister.gov/api/v1/public-inspection-documents/current.json
 - **Extract:** {"count":123,"results":[{"agencies":[{"raw_name":"Health and Human Services Department","name":"Health and Human Services Department","id":221,"url":"https://www.federalregister.gov/agencies/health-and-human-services-department","json_url":"https://www.federal
-- **Score parts:** tier +40, category +32, lead +3.6, relevance +0, freshness +4.1, page_change -4
+- **Score parts:** tier +40, category +32, lead +3.6, relevance +0, freshness +3.1, page_change -4
 
 ### 🚨 [71.6] [page changed] Federal Register — public inspection (HHS/CDC), pre-publication
 - **Verdict:** OPEN THIS — tier-1 advisory page moved; content not auto-parsed, read it manually
@@ -83,13 +83,13 @@ Ranked by first-seen recency, source tier and hospitality relevance. `first seen
 - **Extract:** {"count":123,"results":[{"agencies":[{"raw_name":"Health and Human Services Department","name":"Health and Human Services Department","id":221,"url":"https://www.federalregister.gov/agencies/health-and-human-services-department","json_url":"https://www.federal
 - **Score parts:** tier +40, category +32, lead +3.6, relevance +0, freshness +0, page_change -4
 
-### 🚨 [55.6] [page changed] Airlink news
+### 🚨 [54.6] [page changed] Airlink news
 - **Verdict:** OPEN THIS — tier-1 airline page moved; content not auto-parsed, read it manually
 - **Source:** Airlink news · tier 1 · REG · airline
 - **First seen:** 2026-10-30T13:07+03:00 EAT · **Source date:** — none stated
 - **URL:** https://www.flyairlink.com/
 - **Extract:** Request unsuccessful. Incapsula incident ID: 1016000101685710886-1093669192419771060
-- **Score parts:** tier +40, category +12, lead +3.6, relevance +0, freshness +10, undated -6, page_change -4
+- **Score parts:** tier +40, category +12, lead +3.6, relevance +0, freshness +9, undated -6, page_change -4
 
 ### 🚨 [45.6] [page changed] Airlink news
 - **Verdict:** OPEN THIS — tier-1 airline page moved; content not auto-parsed, read it manually
@@ -99,47 +99,47 @@ Ranked by first-seen recency, source tier and hospitality relevance. `first seen
 - **Extract:** Request unsuccessful. Incapsula incident ID: 176000350807028173-1037714646195243251
 - **Score parts:** tier +40, category +12, lead +3.6, relevance +0, freshness +0, undated -6, page_change -4
 
-### 🟠 [104.0] Solicitation of Nominations for Appointment to the Advisory Committee on Immunization Practices
+### 🟠 [103.0] Solicitation of Nominations for Appointment to the Advisory Committee on Immunization Practices
 - **Verdict:** STRONG — tier-1, upstream
 - **Source:** Federal Register — CDC documents (newest first) · tier 1 · GLOBAL · advisory
 - **First seen:** 2026-10-30T13:07+03:00 EAT · **Source date:** 2026-10-30
 - **URL:** https://www.federalregister.gov/documents/2026/10/30/2026-22185/solicitation-of-nominations-for-appointment-to-the-advisory-committee-on-immunization-practices
 - **Extract:** In accordance with the Federal Advisory Committee Act, the Centers for Disease Control and Prevention (CDC), within the Department of Health and Human Services (HHS), is seeking nominations for membership on the Advisory Committee on Immunization Practices (AC
-- **Score parts:** tier +40, category +32, lead +0, relevance +12, freshness +10, corroborated +10
+- **Score parts:** tier +40, category +32, lead +0, relevance +12, freshness +9, corroborated +10
 
-### 🟠 [100.0] Notice of Amended Order Requirement for Attestation by All Persons Arriving in the United States From Any Foreign Countr
+### 🟠 [99.0] Notice of Amended Order Requirement for Attestation by All Persons Arriving in the United States From Any Foreign Countr
 - **Verdict:** STRONG — tier-1, upstream
 - **Source:** Federal Register — CDC documents (newest first) · tier 1 · GLOBAL · advisory
 - **First seen:** 2026-10-30T13:07+03:00 EAT · **Source date:** 2026-10-30
 - **URL:** https://www.federalregister.gov/documents/2026/10/30/2026-22211/notice-of-amended-order-requirement-for-attestation-by-all-persons-arriving-in-the-united-states
 - **Extract:** The Centers for Disease Control and Prevention (CDC), a component of the Department of Health and Human Services (HHS), announces the issuance of an Amended Order under Sections 361, 365, 368, and 369 of the Public Health Service Act, and associated implementi
-- **Score parts:** tier +40, category +32, lead +0, relevance +8, freshness +10, corroborated +10
+- **Score parts:** tier +40, category +32, lead +0, relevance +8, freshness +9, corroborated +10
 
-### 🟡 [94.8] MoH Reveals Next Steps as Kenya Goes 10 Days Without New Ebola Cases
+### 🟡 [93.8] MoH Reveals Next Steps as Kenya Goes 10 Days Without New Ebola Cases
 - **Verdict:** CONSIDER
 - **Source:** Kenyans.co.ke news · tier 2 · KE · press
 - **First seen:** 2026-10-30T18:58+03:00 EAT · **Source date:** 2026-10-30
 - **URL:** https://www.kenyans.co.ke/news/129010-moh-release-46-ebola-contacts-quarantine-issues-notice
 - **Shock language:** outbreak
 - **Extract:** Despite the development, the presence of active Ebola patients means Kenya is yet to start the 42-day countdown required to end the outbreak.
-- **Score parts:** tier +20, category +4, lead +2.4, relevance +24, freshness +16.4, corroborated +10, shock +18
+- **Score parts:** tier +20, category +4, lead +2.4, relevance +24, freshness +15.4, corroborated +10, shock +18
 
-### 🟡 [91.8] 90s Kenyan drama marred by production blind spots
+### 🟡 [90.8] 90s Kenyan drama marred by production blind spots
 - **Verdict:** CONSIDER
 - **Source:** The EastAfrican · tier 2 · REG · press
 - **First seen:** 2026-10-30T22:01+03:00 EAT · **Source date:** 2026-10-30
 - **URL:** https://www.theeastafrican.co.ke/tea/magazine/90s-kenyan-drama-marred-by-production-blind-spots-5652608
 - **Shock language:** grounded
 - **Extract:** The world of the film feels lived-in, grounded by strong direction, atmospheric locations, and...
-- **Score parts:** tier +20, category +4, lead +0, relevance +20, freshness +19.8, corroborated +10, shock +18
+- **Score parts:** tier +20, category +4, lead +0, relevance +20, freshness +18.8, corroborated +10, shock +18
 
-### 🟡 [89.4] Eerste KLM-vlucht met Airbus A350 naar Toronto
+### 🟡 [88.4] Eerste KLM-vlucht met Airbus A350 naar Toronto
 - **Verdict:** CONSIDER
 - **Source:** KLM/Air France newsroom · tier 1 · GLOBAL · airline
 - **First seen:** 2026-10-30T22:00+03:00 EAT · **Source date:** 2026-10-30
 - **URL:** https://nieuws.klm.com/eerste-klm-vlucht-met-airbus-a350-naar-toronto
 - **Extract:** De eerste Airbus A350-900 van KLM is vandaag vertrokken van Schiphol naar Toronto. Met vlucht KL0691 vliegt de A350 voor het eerst met passagiers en acht ton vracht aan boord. Het toestel draagt de naam ‘De Nachtwacht’. Aan boord zaten ook enthousiaste vliegtu
-- **Score parts:** tier +40, category +12, lead +3.6, relevance +4, freshness +19.8, corroborated +10
+- **Score parts:** tier +40, category +12, lead +3.6, relevance +4, freshness +18.8, corroborated +10
 
 ### 🟡 [88.4] Live from Kenya: Bringing the Wild to the World
 - **Verdict:** CONSIDER
@@ -149,14 +149,6 @@ Ranked by first-seen recency, source tier and hospitality relevance. `first seen
 - **Extract:** https://x.com/KWSKenya/status/2115058753724699044/video/1?t=3 The Kenya Wildlife Service, in partnership with WildEarth, is bringing Kenya's wildlife to audiences worldwide through live, unscripted safari experiences. No script, rehearsal, or second takes. It 
 - **Score parts:** tier +40, category +18, lead +8.4, relevance +12, freshness +0, corroborated +10
 
-### 🟡 [88.2] Cebu Pacific Nov 2026 Asia Service Reductions
-- **Verdict:** CONSIDER
-- **Source:** AeroRoutes schedule filings · tier 2 · GLOBAL · aviation-tracker
-- **First seen:** 2026-10-30T22:01+03:00 EAT · **Source date:** 2026-10-30
-- **URL:** https://www.aeroroutes.com/eng/261030-5jnov26
-- **Extract:** Published at 0900PDT / 1600GMT 30OCT26 Cebu Pacific recent schedule update filed various service reductions with in East Asia, mainly focusing on November 2026. Cebu – Bangkok Don Mueang 04NOV26 – 01DEC26 Reduce from 7 to 4 weekly Cebu – Hong Kong 04NOV26 – 01
-- **Score parts:** tier +20, category +14, lead +8.4, relevance +16, freshness +19.8, corroborated +10
-
 ### 🟡 [87.8] New Hilton Openings in 2027
 - **Verdict:** CONSIDER
 - **Source:** Hilton stories/newsroom · tier 1 · GLOBAL · hotel-group
@@ -165,27 +157,13 @@ Ranked by first-seen recency, source tier and hospitality relevance. `first seen
 - **Extract:** In 2027, Hilton plans to welcome an exciting collection of new hotels around the globe, including brand debuts in more than 30 countries, reimaging historic landmarks and introducing distinctive stays in some of the world’s most compelling cities and resort lo
 - **Score parts:** tier +40, category +9, lead +16.8, relevance +12, freshness +0, corroborated +10
 
-### 🟡 [86.4] Semaine Épidémiologique 42• Réunion du 28 Octobre 2026
+### 🟡 [87.2] Cebu Pacific Nov 2026 Asia Service Reductions
 - **Verdict:** CONSIDER
-- **Source:** INSP RDC — Ebola daily situation reports (SitRep) · tier 1 · GLOBAL · health
-- **First seen:** 2026-10-30T13:07+03:00 EAT · **Source date:** 2026-10-30
-- **URL:** https://insp.cd/semaine-epidemiologique-42-reunion-du-28-octobre-2026
-- **Score parts:** tier +40, category +24, lead +2.4, relevance +0, freshness +10, corroborated +10
-
-### 🟡 [86.4] SitRep N°167/MVE-BDBV/28/10/2026
-- **Verdict:** CONSIDER
-- **Source:** INSP RDC — Ebola daily situation reports (SitRep) · tier 1 · GLOBAL · health
-- **First seen:** 2026-10-30T13:07+03:00 EAT · **Source date:** 2026-10-30
-- **URL:** https://insp.cd/sitrep-n167-mve-bdbv-28-10-2026
-- **Score parts:** tier +40, category +24, lead +2.4, relevance +0, freshness +10, corroborated +10
-
-### 🟡 [86.4] The Three Elephants Who Survived Against All Odds
-- **Verdict:** CONSIDER
-- **Source:** Kenya Wildlife Service · tier 1 · KE · parks
-- **First seen:** 2026-10-30T13:07+03:00 EAT · **Source date:** 2026-10-30
-- **URL:** https://kws.go.ke/the-three-elephants-who-survived-against-all-odds
-- **Extract:** The wilderness does not negotiate. It gives and it takes by rules older than memory, and sometimes those rules leave the smallest and most vulnerable behind. This week, across the Tsavo landscape, three elephant calves found themselves on the wrong side of tho
-- **Score parts:** tier +40, category +18, lead +8.4, relevance +0, freshness +10, corroborated +10
+- **Source:** AeroRoutes schedule filings · tier 2 · GLOBAL · aviation-tracker
+- **First seen:** 2026-10-30T22:01+03:00 EAT · **Source date:** 2026-10-30
+- **URL:** https://www.aeroroutes.com/eng/261030-5jnov26
+- **Extract:** Published at 0900PDT / 1600GMT 30OCT26 Cebu Pacific recent schedule update filed various service reductions with in East Asia, mainly focusing on November 2026. Cebu – Bangkok Don Mueang 04NOV26 – 01DEC26 Reduce from 7 to 4 weekly Cebu – Hong Kong 04NOV26 – 01
+- **Score parts:** tier +20, category +14, lead +8.4, relevance +16, freshness +18.8, corroborated +10
 
 ### 🟡 [86.4] Nairobi Traders Block Streets, Protest Evictions
 - **Verdict:** CONSIDER
@@ -196,21 +174,27 @@ Ranked by first-seen recency, source tier and hospitality relevance. `first seen
 - **Extract:** Since the collapse of the building, several evacuation orders have been issued by Nairobi County, as well as police, to prevent further disasters.
 - **Score parts:** tier +20, category +4, lead +2.4, relevance +32, freshness +0, corroborated +10, shock +18
 
-### 🟡 [84.8] WestJet Expands KLM Codeshare in NS27
+### 🟡 [85.4] Semaine Épidémiologique 42• Réunion du 28 Octobre 2026
 - **Verdict:** CONSIDER
-- **Source:** AeroRoutes schedule filings · tier 2 · GLOBAL · aviation-tracker
-- **First seen:** 2026-10-30T18:58+03:00 EAT · **Source date:** 2026-10-30
-- **URL:** https://www.aeroroutes.com/eng/261030-wsklcodeshare
-- **Extract:** Published at 0800PDT / 1500GMT 30OCT26 WestJet in Northern summer 2027 season plans to expand codeshare partnership with KLM, with additional 12 routes planned from 30APR27. WestJet operated by KLM Amsterdam – Alesund Amsterdam – Bergen Amsterdam – Bilbao Amst
-- **Score parts:** tier +20, category +14, lead +8.4, relevance +16, freshness +16.4, corroborated +10
+- **Source:** INSP RDC — Ebola daily situation reports (SitRep) · tier 1 · GLOBAL · health
+- **First seen:** 2026-10-30T13:07+03:00 EAT · **Source date:** 2026-10-30
+- **URL:** https://insp.cd/semaine-epidemiologique-42-reunion-du-28-octobre-2026
+- **Score parts:** tier +40, category +24, lead +2.4, relevance +0, freshness +9, corroborated +10
 
-### 🟡 [84.8] Luxair Begins Embraer E195-E2 London City Service in 4Q26
+### 🟡 [85.4] SitRep N°167/MVE-BDBV/28/10/2026
 - **Verdict:** CONSIDER
-- **Source:** AeroRoutes schedule filings · tier 2 · GLOBAL · aviation-tracker
-- **First seen:** 2026-10-30T18:58+03:00 EAT · **Source date:** 2026-10-30
-- **URL:** https://www.aeroroutes.com/eng/261030-lg4q26lcy
-- **Extract:** Published at 0400PDT / 1100GMT 30OCT26 Luxair earlier this month launched Embraer E195-E2 service on Luxembourg – London City route, replacing Dash 8-Q400 on selected flights. The first E195-E2 flight was operated on 05OCT26. During Northern winter 2026/27 sea
-- **Score parts:** tier +20, category +14, lead +8.4, relevance +16, freshness +16.4, corroborated +10
+- **Source:** INSP RDC — Ebola daily situation reports (SitRep) · tier 1 · GLOBAL · health
+- **First seen:** 2026-10-30T13:07+03:00 EAT · **Source date:** 2026-10-30
+- **URL:** https://insp.cd/sitrep-n167-mve-bdbv-28-10-2026
+- **Score parts:** tier +40, category +24, lead +2.4, relevance +0, freshness +9, corroborated +10
+
+### 🟡 [85.4] The Three Elephants Who Survived Against All Odds
+- **Verdict:** CONSIDER
+- **Source:** Kenya Wildlife Service · tier 1 · KE · parks
+- **First seen:** 2026-10-30T13:07+03:00 EAT · **Source date:** 2026-10-30
+- **URL:** https://kws.go.ke/the-three-elephants-who-survived-against-all-odds
+- **Extract:** The wilderness does not negotiate. It gives and it takes by rules older than memory, and sometimes those rules leave the smallest and most vulnerable behind. This week, across the Tsavo landscape, three elephant calves found themselves on the wrong side of tho
+- **Score parts:** tier +40, category +18, lead +8.4, relevance +0, freshness +9, corroborated +10
 
 ### 🟡 [84.4] Thai Lion Air Extends India Suspension into 2027
 - **Verdict:** CONSIDER
@@ -228,19 +212,21 @@ Ranked by first-seen recency, source tier and hospitality relevance. `first seen
 - **Extract:** https://x.com/KWSKenya/status/2115752884734161370/video/1?t=2 Nairobi is abuzz with anticipation for a world-class showdown slated for early next year. German giants Bayern Munich and Dutch powerhouse AFC Ajax Amsterdam are set to clash at the new Raila Odinga
 - **Score parts:** tier +40, category +18, lead +8.4, relevance +8, freshness +0, corroborated +10
 
-### 🟡 [81.8] MUZEJ UJA (Olive Oil Museum) - Diversifying Heritage Olive-Oil Tourism through EU-Supported Rural Accommodation
+### 🟡 [83.8] WestJet Expands KLM Codeshare in NS27
 - **Verdict:** CONSIDER
-- **Source:** EU Tourism Transition Pathway — legislation & guidance · tier 1 · REG · regulator
-- **First seen:** 2026-10-30T13:07+03:00 EAT · **Source date:** — none stated
-- **URL:** https://transition-pathways.europa.eu/tourism/best-practices/muzej-uja-olive-oil-museum-diversifying-heritage-olive-oil-tourism-through
-- **Score parts:** tier +40, category +17, lead +16.8, relevance +4, freshness +10, undated -6
+- **Source:** AeroRoutes schedule filings · tier 2 · GLOBAL · aviation-tracker
+- **First seen:** 2026-10-30T18:58+03:00 EAT · **Source date:** 2026-10-30
+- **URL:** https://www.aeroroutes.com/eng/261030-wsklcodeshare
+- **Extract:** Published at 0800PDT / 1500GMT 30OCT26 WestJet in Northern summer 2027 season plans to expand codeshare partnership with KLM, with additional 12 routes planned from 30APR27. WestJet operated by KLM Amsterdam – Alesund Amsterdam – Bergen Amsterdam – Bilbao Amst
+- **Score parts:** tier +20, category +14, lead +8.4, relevance +16, freshness +15.4, corroborated +10
 
-### 🟡 [81.8] Anonymous accommodation company - A Lean SME's Path to Tourism Modernisation
+### 🟡 [83.8] Luxair Begins Embraer E195-E2 London City Service in 4Q26
 - **Verdict:** CONSIDER
-- **Source:** EU Tourism Transition Pathway — legislation & guidance · tier 1 · REG · regulator
-- **First seen:** 2026-10-30T13:07+03:00 EAT · **Source date:** — none stated
-- **URL:** https://transition-pathways.europa.eu/tourism/best-practices/anonymous-accommodation-company-lean-smes-path-tourism-modernisation
-- **Score parts:** tier +40, category +17, lead +16.8, relevance +4, freshness +10, undated -6
+- **Source:** AeroRoutes schedule filings · tier 2 · GLOBAL · aviation-tracker
+- **First seen:** 2026-10-30T18:58+03:00 EAT · **Source date:** 2026-10-30
+- **URL:** https://www.aeroroutes.com/eng/261030-lg4q26lcy
+- **Extract:** Published at 0400PDT / 1100GMT 30OCT26 Luxair earlier this month launched Embraer E195-E2 service on Luxembourg – London City route, replacing Dash 8-Q400 on selected flights. The first E195-E2 flight was operated on 05OCT26. During Northern winter 2026/27 sea
+- **Score parts:** tier +20, category +14, lead +8.4, relevance +16, freshness +15.4, corroborated +10
 
 ### 🟡 [81.8] KAA invites comments on the proposed review of the Concession Order and cargo rates
 - **Verdict:** CONSIDER
@@ -250,71 +236,85 @@ Ranked by first-seen recency, source tier and hospitality relevance. `first seen
 - **Extract:** Stakeholders and the public can comment on the draft Commercial Charges Order, 2026 until 1 December 2026, and attend forums in Nairobi, Mombasa, Kisumu and Eldoret on 24 November.
 - **Score parts:** tier +40, category +7, lead +16.8, relevance +8, freshness +0, corroborated +10
 
-### 🟡 [80.8] Alaska Expands Icelandair Codeshare in 4Q26
+### 🟡 [80.8] MUZEJ UJA (Olive Oil Museum) - Diversifying Heritage Olive-Oil Tourism through EU-Supported Rural Accommodation
+- **Verdict:** CONSIDER
+- **Source:** EU Tourism Transition Pathway — legislation & guidance · tier 1 · REG · regulator
+- **First seen:** 2026-10-30T13:07+03:00 EAT · **Source date:** — none stated
+- **URL:** https://transition-pathways.europa.eu/tourism/best-practices/muzej-uja-olive-oil-museum-diversifying-heritage-olive-oil-tourism-through
+- **Score parts:** tier +40, category +17, lead +16.8, relevance +4, freshness +9, undated -6
+
+### 🟡 [80.8] Anonymous accommodation company - A Lean SME's Path to Tourism Modernisation
+- **Verdict:** CONSIDER
+- **Source:** EU Tourism Transition Pathway — legislation & guidance · tier 1 · REG · regulator
+- **First seen:** 2026-10-30T13:07+03:00 EAT · **Source date:** — none stated
+- **URL:** https://transition-pathways.europa.eu/tourism/best-practices/anonymous-accommodation-company-lean-smes-path-tourism-modernisation
+- **Score parts:** tier +40, category +17, lead +16.8, relevance +4, freshness +9, undated -6
+
+### 🟡 [79.8] Alaska Expands Icelandair Codeshare in 4Q26
 - **Verdict:** CONSIDER
 - **Source:** AeroRoutes schedule filings · tier 2 · GLOBAL · aviation-tracker
 - **First seen:** 2026-10-30T18:58+03:00 EAT · **Source date:** 2026-10-30
 - **URL:** https://www.aeroroutes.com/eng/261030-asficodeshare
 - **Extract:** Published at 0700PDT / 1400GMT 30OCT26 Alaska Airlines earlier this month filed changes to selected codeshare routes with Icelandair, as following routes now become two-way codeshare, instead of one-way. Following routes have been converted to two-way codeshar
-- **Score parts:** tier +20, category +14, lead +8.4, relevance +12, freshness +16.4, corroborated +10
+- **Score parts:** tier +20, category +14, lead +8.4, relevance +12, freshness +15.4, corroborated +10
 
-### 🟡 [80.8] Norwegian NS27 Network Additions – 25OCT26
+### 🟡 [79.8] Norwegian NS27 Network Additions – 25OCT26
 - **Verdict:** CONSIDER
 - **Source:** AeroRoutes schedule filings · tier 2 · GLOBAL · aviation-tracker
 - **First seen:** 2026-10-30T18:58+03:00 EAT · **Source date:** 2026-10-30
 - **URL:** https://www.aeroroutes.com/eng/261030-dyns27
 - **Extract:** Published at 0600PDT / 1300GMT 30OCT26 Norwegian earlier this month announced initial new routes scheduled for Northern summer 2027 season. Planned network additions as follows (routes marked with ^ represents service operating under D8-coded flight numbers). 
-- **Score parts:** tier +20, category +14, lead +8.4, relevance +12, freshness +16.4, corroborated +10
+- **Score parts:** tier +20, category +14, lead +8.4, relevance +12, freshness +15.4, corroborated +10
 
-### 🟡 [78.8] Chaos as Russia Closes Airports as Putin Hosts Ruto, Other African Presidents
+### 🟡 [77.8] Chaos as Russia Closes Airports as Putin Hosts Ruto, Other African Presidents
 - **Verdict:** CONSIDER
 - **Source:** Kenyans.co.ke news · tier 2 · KE · press
 - **First seen:** 2026-10-30T18:58+03:00 EAT · **Source date:** 2026-10-30
 - **URL:** https://www.kenyans.co.ke/news/129013-russia-closes-moscow-airports-over-drone-threat-putin-hosts-african-leaders
 - **Shock language:** attack
 - **Extract:** Despite the persistent drone attacks, by Friday noon, there was no immediate indication that the latest attack targeted or interfered with the African leaders.
-- **Score parts:** tier +20, category +4, lead +2.4, relevance +8, freshness +16.4, corroborated +10, shock +18
+- **Score parts:** tier +20, category +4, lead +2.4, relevance +8, freshness +15.4, corroborated +10, shock +18
 
-### 🟡 [77.8] 30 Oct 26 Kamishna wa Bima awataka wadau Kanda ya Kaskazini kuongeza u... Kamishna wa Bima Tanzania, Dkt. Baghayo A. Saq
+### 🟡 [76.8] 30 Oct 26 Kamishna wa Bima awataka wadau Kanda ya Kaskazini kuongeza u... Kamishna wa Bima Tanzania, Dkt. Baghayo A. Saq
 - **Verdict:** CONSIDER
 - **Source:** Tanzania Insurance Regulatory Authority (TIRA) · tier 1 · TZ · regulator
 - **First seen:** 2026-10-30T13:07+03:00 EAT · **Source date:** — none stated
 - **URL:** https://www.tira.go.tz/news/kamishna-wa-bima-awataka-wadau-kanda-ya-kaskazini-kuongeza-ubunifu-bidhaa-za-bima-na-kutumia-fursa-za-kiuchumi-sekta-ya-bima
-- **Score parts:** tier +40, category +17, lead +16.8, relevance +0, freshness +10, undated -6
+- **Score parts:** tier +40, category +17, lead +16.8, relevance +0, freshness +9, undated -6
 
-### 🟡 [77.8] 30 Oct 26 Menejimenti ya TIRA yanolewa mafunzo ya uongozi na utoaji w... Mamlaka ya Usimamizi wa Bima Tanzania (TIRA) kw
+### 🟡 [76.8] 30 Oct 26 Menejimenti ya TIRA yanolewa mafunzo ya uongozi na utoaji w... Mamlaka ya Usimamizi wa Bima Tanzania (TIRA) kw
 - **Verdict:** CONSIDER
 - **Source:** Tanzania Insurance Regulatory Authority (TIRA) · tier 1 · TZ · regulator
 - **First seen:** 2026-10-30T13:07+03:00 EAT · **Source date:** — none stated
 - **URL:** https://www.tira.go.tz/news/menejimenti-ya-tira-yanilewa-kwa-mafunzo-ya-uongozi-na-utoaji-wa-huduma-bora
-- **Score parts:** tier +40, category +17, lead +16.8, relevance +0, freshness +10, undated -6
+- **Score parts:** tier +40, category +17, lead +16.8, relevance +0, freshness +9, undated -6
 
-### 🟡 [77.8] Commission report on the assessment of the appropriateness of revising the targets for recycling efficiency and recovery
+### 🟡 [76.8] Commission report on the assessment of the appropriateness of revising the targets for recycling efficiency and recovery
 - **Verdict:** CONSIDER
 - **Source:** European Commission — green claims / EmpCo · tier 1 · REG · regulator
 - **First seen:** 2026-10-30T13:07+03:00 EAT · **Source date:** — none stated
 - **URL:** https://environment.ec.europa.eu/publications/commission-report-assessment-appropriateness-revising-targets-recycling-efficiency-and-recovery_en
-- **Score parts:** tier +40, category +17, lead +16.8, relevance +0, freshness +10, undated -6
+- **Score parts:** tier +40, category +17, lead +16.8, relevance +0, freshness +9, undated -6
 
-### 🟡 [77.8] ENNOV Solutions - Building a Competitive EU Funding Proposal as a Solo Founder
+### 🟡 [76.8] ENNOV Solutions - Building a Competitive EU Funding Proposal as a Solo Founder
 - **Verdict:** CONSIDER
 - **Source:** EU Tourism Transition Pathway — legislation & guidance · tier 1 · REG · regulator
 - **First seen:** 2026-10-30T13:07+03:00 EAT · **Source date:** — none stated
 - **URL:** https://transition-pathways.europa.eu/tourism/best-practices/ennov-solutions-building-competitive-eu-funding-proposal-solo-founder
-- **Score parts:** tier +40, category +17, lead +16.8, relevance +0, freshness +10, undated -6
+- **Score parts:** tier +40, category +17, lead +16.8, relevance +0, freshness +9, undated -6
 
-### 🟡 [76.6] Badr Airlines NW26 Khartoum International Network Additions
+### 🟡 [76.4] Satena Increases Medellin – Valledupar Flights in NW26
 - **Verdict:** CONSIDER
 - **Source:** AeroRoutes schedule filings · tier 2 · GLOBAL · aviation-tracker
-- **First seen:** 2026-10-30T07:49+03:00 EAT · **Source date:** 2026-10-30
-- **URL:** https://www.aeroroutes.com/eng/261029-j4nw26krt
-- **Extract:** Published at 1600PDT / 2300GMT 29OCT26 Sudan’s Badr Airlines at the launch of Northern winter 2026/27 season introduces 3 international routes at Khartoum , on board a mix of CRJ200 and 737-800 aircraft. Khartoum – Addis Ababa eff 25OCT26 3 weekly CRJ200 J4612
-- **Score parts:** tier +20, category +14, lead +8.4, relevance +20, freshness +4.2, corroborated +10
+- **First seen:** 2026-10-29T19:09+03:00 EAT · **Source date:** 2026-10-29
+- **URL:** https://www.aeroroutes.com/eng/261029-9rnw26eohvup
+- **Extract:** Published at 0700PDT / 1400GMT 29OCT26 Satena yesterday (28OCT26) launched additional frequency on Medellin Olaya Herrera – Valledupar flight. Operated by ATR72, the airline now offers 4 weekly flights on this route, instead of 3. 9R6758 EOH0615 – 0757VUP AT7 
+- **Score parts:** tier +20, category +14, lead +8.4, relevance +24, freshness +0, corroborated +10
 
-### 🟡 [76.6] Nile Air Adds Hurghada – Graz Charter in NS27
+### 🟡 [76.4] Saving the Grevy’s Zebra: A Rescue in Laikipia
 - **Verdict:** CONSIDER
-- **Source:** AeroRoutes schedule filings · tier 2 · GLOBAL · aviation-tracker
-- **First seen:** 2026-10-30T07:49+03:00 EAT · **Source date:** 2026-10-30
-- **URL:** https://www.aeroroutes.com/eng/261029-npns27hrggrz
-- **Extract:** Published at 1400PDT / 2100GMT 29OCT26 Egyptian carrier Nile Air in Spring 2027 plans to add Hurghada – Graz route, operating as scheduled charter service. The airline will serve this route once a week from 19MAR27, on board Airbus A320 aircraft. NP7503 HRG043
-- **Score parts:** tier +20, category +14, lead +8.4, relevance +20, freshness +4.2, corroborated +10
+- **Source:** Kenya Wildlife Service · tier 1 · KE · parks
+- **First seen:** 2026-10-29T19:09+03:00 EAT · **Source date:** 2026-10-29
+- **URL:** https://kws.go.ke/saving-the-grevys-zebra-a-rescue-in-laikipia
+- **Extract:** Kenya is home to two of the world's three zebra species: the common, or plains, zebra and the endangered Grevy's zebra. With its narrow, closely spaced stripes and large, rounded ears, the Grevy's zebra is unmistakable. In Kenya, its main populations are found
+- **Score parts:** tier +40, category +18, lead +8.4, relevance +0, freshness +0, corroborated +10
