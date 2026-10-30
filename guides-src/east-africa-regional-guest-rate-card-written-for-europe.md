@@ -4,8 +4,9 @@ slug: east-africa-regional-guest-rate-card-written-for-europe
 description: Seventy Ugandan hoteliers spent six days on the Kenyan coast this week and three trade associations signed memoranda in Mombasa, but the region's largest source market is the one East Africa's commercial architecture, priced in dollars and sold through overseas intermediaries, is least equipped to serve.
 category: Big Read
 updated: 2026-10-30
+image: "img/editions/east-africa-regional-guest-rate-card-written-for-europe.jpg"
+image_credit: "Illustration: AI-generated for EA Hospitality Pulse — synthetic image, not a photograph"
 ---
-
 The delegation had already seen the product by the time the speeches began. More than seventy Ugandan tour operators, travel agents, hoteliers and Uganda Tourism Board officials had spent six days working their way along the Kenyan coast, playing a golf tournament at Vipingo Ridge on the Saturday, before assembling on Monday at the Sarova Whitesands Beach Resort in Mombasa for the fifth Uganda-Kenya Coast Tourism and Innovation Summit. Herbert Kiguli, Uganda's Consul General in Mombasa, framed the week in the language the region now uses by default. "Our approach is to embrace complementarity rather than competition," he said.
 
 Three memoranda were signed on the opening day. Uganda's and Kenya's tour operator associations, AUTO and KATO, agreed on regional cooperation. Their travel agent counterparts, TUGATA and KATA, signed an implementation agreement for the coastal collaboration. The Private Sector Foundation Uganda signed with the Mombasa chapter of the Kenya National Chamber of Commerce and Industry. All three were private sector documents. A joint government declaration for the East African Community Secretariat was expected, and a communiqué with institutional commitments is due within a fortnight.
