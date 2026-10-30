@@ -1,5 +1,14 @@
 window.GUIDES = [
  {
+  "slug": "east-africa-regional-guest-rate-card-written-for-europe",
+  "title": "Africa is now 47 per cent of Kenya's arrivals. The rate card is still written for Europe.",
+  "description": "Seventy Ugandan hoteliers spent six days on the Kenyan coast this week and three trade associations signed memoranda in Mombasa, but the region's largest source market is the one East Africa's commercial architecture, priced in dollars and sold through overseas intermediaries, is least equipped to serve.",
+  "category": "Big Read",
+  "updated": "2026-10-30",
+  "readMins": 8,
+  "image": "img/editions/east-africa-regional-guest-rate-card-written-for-europe.jpg"
+ },
+ {
   "slug": "soft-brand-affiliation-east-africa-independents",
   "title": "Nobody will ask your lodge to change its name. That is what the brands are now selling East Africa.",
   "description": "On one Tuesday last week the world's hotel groups told investors that their growth now comes from buildings they do not own and names they do not change. East Africa's independents are the buildings, and the fine print is about distribution, not identity.",
