@@ -1,5 +1,14 @@
 window.GUIDES = [
  {
+  "slug": "east-africa-cruise-call-day-business-not-bed-nights",
+  "title": "East Africa is counting cruise ships. The number that pays is bed nights.",
+  "description": "Mombasa's record 2025/26 cruise season delivered 4,889 passengers across nine calls, under four per cent of a single month's air arrivals into Zanzibar, and almost none of them slept ashore. The published schedule for the season now opening shows four calls and not one turnaround. The region is lobbying for berths when the thing that converts a day call into a bed night is scheduled lift.",
+  "category": "Big Read",
+  "updated": "2026-10-31",
+  "readMins": 8,
+  "image": "img/editions/east-africa-cruise-call-day-business-not-bed-nights.jpg"
+ },
+ {
   "slug": "east-africa-regional-guest-rate-card-written-for-europe",
   "title": "Africa is now 47 per cent of Kenya's arrivals. The rate card is still written for Europe.",
   "description": "Seventy Ugandan hoteliers spent six days on the Kenyan coast this week and three trade associations signed memoranda in Mombasa, but the region's largest source market is the one East Africa's commercial architecture, priced in dollars and sold through overseas intermediaries, is least equipped to serve.",
