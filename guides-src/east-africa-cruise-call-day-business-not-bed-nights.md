@@ -4,8 +4,9 @@ slug: east-africa-cruise-call-day-business-not-bed-nights
 description: Mombasa's record 2025/26 cruise season delivered 4,889 passengers across nine calls, under four per cent of a single month's air arrivals into Zanzibar, and almost none of them slept ashore. The published schedule for the season now opening shows four calls and not one turnaround. The region is lobbying for berths when the thing that converts a day call into a bed night is scheduled lift.
 category: Big Read
 updated: 2026-10-31
+image: "img/editions/east-africa-cruise-call-day-business-not-bed-nights.jpg"
+image_credit: "A cruise ship's pool deck at dusk: on a day call the ship is the passenger's hotel, and the luggage never comes ashore. Photograph: Onyango George / EA Hospitality Pulse"
 ---
-
 On the last day of June the MS Viking Yi Dun tied up at Kilindini with 717 passengers aboard, most of them Chinese, the first Asian-sourced cruise vessel ever to call at Mombasa. It was also the ninth and final call of the 2025/26 season. Two men standing on the quay said almost exactly the same thing. Capt. William Ruto, managing director of the Kenya Ports Authority, observed that "one day is not enough for visitors to experience the beautiful scenery of Mombasa". Mohamed Hersi, group director of operations at Pollman's Tours and Safaris, put it to the passengers directly: "I wish you were staying longer so that you could enjoy more of what Kenya has to offer."
 
 Both were describing, politely, the central commercial fact about cruise tourism in East Africa, which is that it does not sell beds. A cruise call is a day business. It delivers a crowd to a quay for eight or twelve hours, sells them an excursion, a lunch and a carving, and sails. The region is budgeting it as a bed-night market, lobbying for it as one, and setting targets against it as one. The arithmetic does not support any of that, and the season now opening is the moment to say so, because the published schedule for it is thinner than the one it follows.
