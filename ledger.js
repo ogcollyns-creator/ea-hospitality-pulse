@@ -1,8 +1,8 @@
 window.LEDGER = {
- "updated": "2026-10-31 16:39",
+ "updated": "2026-10-31 16:48",
  "stats": {
-  "total": 248,
-  "open": 161,
+  "total": 250,
+  "open": 163,
   "resolved": 85,
   "correct": 65,
   "partial": 1,
@@ -828,6 +828,22 @@ window.LEDGER = {
    "overdue": false
   },
   {
+   "id": "P249",
+   "made_date": "2026-10-31",
+   "edition": "Evening Wrap",
+   "claim": "Kenya's confirmed Ebola count stays at nine through November",
+   "resolution_criteria": "Kenya Ministry of Health situation updates show no new confirmed case between 1 Nov and 30 Nov 2026 (total remains 9)",
+   "resolve_by": "2026-11-30",
+   "market": "KE",
+   "segment": "All",
+   "confidence": "Early signal",
+   "status": "open",
+   "resolved_date": "",
+   "evidence": "",
+   "source_url": "",
+   "overdue": false
+  },
+  {
    "id": "P190",
    "made_date": "2026-09-17",
    "edition": "Evening Wrap",
@@ -905,6 +921,22 @@ window.LEDGER = {
    "resolved_date": "",
    "evidence": "",
    "source_url": "https://capitalfm.africa/jkia-ranks-sixth-in-africa-by-seat-capacity/",
+   "overdue": false
+  },
+  {
+   "id": "P250",
+   "made_date": "2026-10-31",
+   "edition": "Evening Wrap",
+   "claim": "The US no-DRC boarding declaration is extended beyond its 18 December 2026 end date",
+   "resolution_criteria": "CDC or Federal Register notice published by 19 Dec 2026 extending the declaration requirement past 18 Dec 2026, or the requirement lapses on 18 Dec with no extension",
+   "resolve_by": "2026-12-19",
+   "market": "GLOBAL",
+   "segment": "All",
+   "confidence": "Early signal",
+   "status": "open",
+   "resolved_date": "",
+   "evidence": "",
+   "source_url": "",
    "overdue": false
   },
   {

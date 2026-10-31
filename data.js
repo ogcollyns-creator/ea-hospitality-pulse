@@ -1,5 +1,14 @@
 window.EDITIONS = [
  {
+  "id": "pulse-2026-10-31-evening",
+  "date": "2026-10-31",
+  "dateDisplay": "Saturday, 31 October 2026",
+  "edition": "Evening Wrap",
+  "editionKey": "evening",
+  "summary": "Kenya's Ebola quarantine releases and the US no-DRC boarding rule both start on 3 November",
+  "bodyHtml": "<p><strong>Kenya&#x27;s Ebola quarantine releases and the US no-DRC boarding rule both start on 3 November, and no all-clear date can yet be computed</strong><br><em>🌆 Evening Wrap · Sat 31 Oct 2026 · Expert Brief (catch-up: no 30 Oct Wrap)</em></p>\n<p>━━━━━━━━━<br><span class=\"item-head\">1️⃣ Kenya&#x27;s Ebola quarantine releases and the US no-DRC boarding rule both start on 3 November</span></p>\n<p><strong>Kenya.</strong> The Ministry of Health said on 26 October that 20 contacts had finished 21 days of monitoring and gone home, and that the remaining 98 are due out in four groups from 3 November. It also said the outbreak &quot;had not yet been contained&quot; <strong>(Citizen Digital, 26 Oct)</strong>. Confirmed cases stood at nine with two deaths; travel, trade and public gatherings remain unrestricted <strong>(Citizen Digital, 22 and 26 Oct)</strong>.</p>\n<p><strong>The end date.</strong> The outbreak can only be declared over 42 days after the last confirmed patient has two negative tests at least 48 hours apart and is discharged or buried <strong>(Citizen Digital, 26 Oct)</strong>. No discharge date has been published.<br>Our inference: the 42-day clock has not started, so no end date can be computed and any &quot;Kenya clear by December&quot; claim is unsupported.</p>\n<p><strong>The US rule.</strong> From 11:59 pm Eastern on 3 November to 18 December, every passenger on a US-bound flight must declare whether they were in the DRC in the previous 21 days. Airlines verify before boarding; anyone who was there generally cannot board until Day 22 <strong>(CDC rule as reported by InsideFlyer, 26 Oct)</strong>. Only the DRC is named; Kenya, Uganda and Rwanda are not.<br><span class=\"sowhat\">🎯 So what: keep Ebola-free wording in US-market confirmations, tell US guests to expect a boarding form at Nairobi, Entebbe and Kigali, and do not discount on the festive season until the Ministry publishes an end-of-outbreak date.</span><br><span class=\"tagline\">🏷 City, Bush, Beach | Kenya, Uganda, Rwanda | Confirmed | impact:demand</span></p>\n<p><strong>🏗 DEAL FLOW:</strong> No verified EA deal flow dated 30–31 Oct. Newest on Hospitality Net Africa: Mereshi Safari Camp, Serengeti, due to open November 2026 (12 Oct, already run).</p>\n<p><strong>📻 ALSO TONIGHT</strong><br>🇨🇩 31 Oct: Daily Monitor&#x27;s headline says Congo&#x27;s Ebola outbreak has now killed more than 5,000; article unread. Our last figure was 4,887 deaths at 25 Oct <strong>(Daily Monitor, 31 Oct, headline only)</strong>.<br>🇹🇿 30 Oct: TANAPA briefed airport transport operators at Nyerere airport Terminal Three on promoting parks and road safety; no fee or policy change <strong>(The Respondent, 30 Oct)</strong>.<br>🇰🇪 30 Oct: KNBS October CPI was due; no print found. September was 6.8% <strong>(Nairametrics, 30 Sep)</strong>.</p>\n<p><strong>📅 WEEK AHEAD</strong> 3 Nov: Kenya&#x27;s first of four release groups, US declaration starts. Mid-Nov: EPRA fuel review (14th).</p>\n<p><strong>🔍 BLIND SPOTS</strong> Not opened, web-scanned only, nothing dated 30–31 Oct found: UK, Canadian, German, French and US advisories, WHO, Africa CDC, Uganda dashboard, all four gazettes, TIRA, KCAA, UWA, NCAA, EPRA, KNBS, CBK, BoU, BoT, BNR, OCGS. This is a thin night because the sources are dark, not proof of a quiet day.</p>\n<p>🔗 This edition on the web: <a href=\"https://eahospitalitypulse.com/editions/pulse-2026-10-31-evening.html\" rel=\"noopener\">eahospitalitypulse.com/editions/pulse-2026-10-31-evenin…</a></p>"
+ },
+ {
   "id": "pulse-2026-10-29-evening",
   "date": "2026-10-29",
   "dateDisplay": "Thursday, 29 October 2026",
@@ -1333,6 +1342,27 @@ window.EDITIONS = [
  }
 ];
 window.INSIGHTS = [
+ {
+  "headline": "Kenya's Ebola quarantine releases and the US no-DRC boarding rule both start on 3 November",
+  "body": "**Kenya.** The Ministry of Health said on 26 October that 20 contacts had finished 21 days of monitoring and gone home, and that the remaining 98 are due out in four groups from 3 November. It also said the outbreak \"had not yet been contained\" *(Citizen Digital, 26 Oct)*. Confirmed cases stood at nine with two deaths; travel, trade and public gatherings remain unrestricted *(Citizen Digital, 22 and 26 Oct)*. **The end date.** The outbreak can only be declared over 42 days after the last confirmed patient has two negative tests at least 48 hours apart and is discharged or buried *(Citizen Digital, 26 Oct)*. No discharge date has been published. Our inference: the 42-day clock has not started, so no end date can be computed and any \"Kenya clear by December\" claim is unsupported. **The US rule.** From 11:59 pm Eastern on 3 November to 18 December, every passenger on a US-bound flight must declare whether they were in the DRC in the previous 21 days. Airlines verify before boarding; anyone who was there generally cannot board until Day 22 *(CDC rule as reported by InsideFlyer, 26 Oct)*. Only the DRC is named; Kenya, Uganda and Rwanda are not.",
+  "sowhat": "🎯 So what: keep Ebola-free wording in US-market confirmations, tell US guests to expect a boarding form at Nairobi, Entebbe and Kigali, and do not discount on the festive season until the Ministry publishes an end-of-outbreak date.",
+  "segments": [
+   "city",
+   "bush",
+   "beach"
+  ],
+  "countries": "Kenya, Uganda, Rwanda",
+  "confidence": "Confirmed",
+  "impact": "+demand",
+  "impactClass": "demand",
+  "intensity": 3,
+  "impactSet": "author",
+  "source": "pulse-2026-10-31-evening",
+  "date": "2026-10-31",
+  "dateDisplay": "Saturday, 31 October 2026",
+  "edition": "Evening Wrap",
+  "editionKey": "evening"
+ },
  {
   "headline": "Uganda's gorilla-tourism pledge evaluation says only 33% of operators brief tourists, and lodges need NEMA impact certificates before December",
   "body": "An IGCP-commissioned evaluation of the Gorilla Friendly Pledge was validated in Kampala on 28 October. Of 250 respondents (Dec 2025–Feb 2026), 95.2% had taken the pledge and 73.6% had training, but only 33.2% had briefed tourists. It cites weak enforcement, unregulated tipping and reflective glass near lodges, urges UWA to run a carrying-capacity assessment, and tells lodges to hold NEMA environmental and social impact certificates before December 2026. UWA's Charles Tumwesigye said certification should follow. No permit or tariff change was announced *(The Independent Uganda, 29 Oct)*. Our inference: certification plus a capacity study is the likely route to tighter rules; the NEMA deadline is the only dated item.",
@@ -7889,4 +7919,4 @@ window.INSIGHTS = [
   "editionKey": "evening"
  }
 ];
-window.BUILT_AT = "2026-10-31 16:38";
+window.BUILT_AT = "2026-10-31 16:47";
