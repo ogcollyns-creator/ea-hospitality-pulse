@@ -1,5 +1,5 @@
 window.LEDGER = {
- "updated": "2026-10-31 16:53",
+ "updated": "2026-11-01 18:32",
  "stats": {
   "total": 250,
   "open": 163,
@@ -57,7 +57,7 @@ window.LEDGER = {
    "resolved_date": "",
    "evidence": "",
    "source_url": "",
-   "overdue": false
+   "overdue": true
   },
   {
    "id": "P009",
@@ -73,7 +73,7 @@ window.LEDGER = {
    "resolved_date": "",
    "evidence": "",
    "source_url": "",
-   "overdue": false
+   "overdue": true
   },
   {
    "id": "P011",
@@ -89,7 +89,7 @@ window.LEDGER = {
    "resolved_date": "",
    "evidence": "",
    "source_url": "",
-   "overdue": false
+   "overdue": true
   },
   {
    "id": "P051",
@@ -105,7 +105,7 @@ window.LEDGER = {
    "resolved_date": "",
    "evidence": "NOT GRADED ON 15 SEP 2026 RESOLVE_BY - RESOLUTION SOURCE HAS NOT PUBLISHED. The call requires a WHO AFRO Emergency Preparedness & Response Weekly Situation Report for Kenya of Week 29 or later. The most recent such report reachable on the 15 Sep sweep remains WEEK 26 (published early July 2026), which carries cumulative dengue at 1,583 across six sub-counties (Dadaab, Wajir North, Mandera South, Kilifi South, Galole, Kibra) with 5 suspected deaths. No Week 29+ Kenya sit-rep is published or indexed. Grading against Week 26 would be grading against a report that PREDATES the Week 28 baseline in the claim, so the call cannot be settled either way on available evidence. RESOLVE_BY EXTENDED ONCE to 31 Oct 2026, criteria UNCHANGED, and the extension is declared rather than silent. Note for context, not for grading: Kenya MoH reported 1,678 cases and five suspected deaths across Garissa and Wajir as at 26 Aug 2026 (MoH statement, 28 Aug 2026).",
    "source_url": "https://www.afro.who.int/sites/default/files/2026-07/Week%2028.pdf",
-   "overdue": false
+   "overdue": true
   },
   {
    "id": "P079",
@@ -121,7 +121,7 @@ window.LEDGER = {
    "resolved_date": "",
    "evidence": "",
    "source_url": "https://www.treasury.go.ke/",
-   "overdue": false
+   "overdue": true
   },
   {
    "id": "P089",
@@ -137,7 +137,7 @@ window.LEDGER = {
    "resolved_date": "",
    "evidence": "",
    "source_url": "https://africacdc.org/news-item/africa-cdc-welcomes-emergency-consultative-group-recommendations-on-ebola-bundibugyo-response/",
-   "overdue": false
+   "overdue": true
   },
   {
    "id": "P095",
@@ -153,7 +153,7 @@ window.LEDGER = {
    "resolved_date": "",
    "evidence": "",
    "source_url": "https://atta.travel/resource/kenya-tourism-board-named-lead-destination-partner-for-africa-global-pr-week-2026.html",
-   "overdue": false
+   "overdue": true
   },
   {
    "id": "P099",
@@ -169,7 +169,7 @@ window.LEDGER = {
    "resolved_date": "",
    "evidence": "",
    "source_url": "https://allafrica.com/stories/202608170290.html",
-   "overdue": false
+   "overdue": true
   },
   {
    "id": "P119",
@@ -185,7 +185,7 @@ window.LEDGER = {
    "resolved_date": "",
    "evidence": "",
    "source_url": "",
-   "overdue": false
+   "overdue": true
   },
   {
    "id": "P148",
@@ -201,7 +201,7 @@ window.LEDGER = {
    "resolved_date": "",
    "evidence": "",
    "source_url": "https://dailynews.co.tz/upgraded-arusha-airport-ready-for-24-operations-in-its-bid-to-boost-tourism/",
-   "overdue": false
+   "overdue": true
   },
   {
    "id": "P157",
@@ -217,7 +217,7 @@ window.LEDGER = {
    "resolved_date": "",
    "evidence": "",
    "source_url": "https://www.gov.uk/foreign-travel-advice/uganda",
-   "overdue": false
+   "overdue": true
   },
   {
    "id": "P167",
@@ -233,7 +233,7 @@ window.LEDGER = {
    "resolved_date": "",
    "evidence": "",
    "source_url": "https://www.gov.uk/foreign-travel-advice/kenya/health",
-   "overdue": false
+   "overdue": true
   },
   {
    "id": "P168",
@@ -249,7 +249,7 @@ window.LEDGER = {
    "resolved_date": "",
    "evidence": "",
    "source_url": "https://www.kbc.co.ke/kenyans-urged-to-adhere-to-mpox-preventive-measures-as-1298-cases-recorded/",
-   "overdue": false
+   "overdue": true
   },
   {
    "id": "P175",
@@ -265,7 +265,7 @@ window.LEDGER = {
    "resolved_date": "",
    "evidence": "",
    "source_url": "https://www.thecitizen.co.tz/tanzania/zanzibar/zanzibar-tourism-arrivals-hit-record-124-481-in-august-5590494",
-   "overdue": false
+   "overdue": true
   },
   {
    "id": "P180",
@@ -281,7 +281,7 @@ window.LEDGER = {
    "resolved_date": "",
    "evidence": "",
    "source_url": "https://peopledaily.digital/business/how-ksh938m-govt-fuel-stabilisation-support-helped-reduce-diesel-prices",
-   "overdue": false
+   "overdue": true
   },
   {
    "id": "P181",
@@ -297,7 +297,7 @@ window.LEDGER = {
    "resolved_date": "",
    "evidence": "",
    "source_url": "https://thebizlens.co.tz/2026/09/02/ewura-cuts-petrol-diesel-prices-amid-global-market-volatility/",
-   "overdue": false
+   "overdue": true
   },
   {
    "id": "P183",
@@ -313,7 +313,7 @@ window.LEDGER = {
    "resolved_date": "",
    "evidence": "",
    "source_url": "https://www.businessdailyafrica.com/bd/corporate/shipping-logistics/eyes-on-kcaa-as-wilson-airport-awaits-full-operations-on-revamped-main-runway--5561932",
-   "overdue": false
+   "overdue": true
   },
   {
    "id": "P198",
@@ -329,7 +329,7 @@ window.LEDGER = {
    "resolved_date": "",
    "evidence": "",
    "source_url": "https://travel.gc.ca/travelling/health-safety/travel-health-notices/549",
-   "overdue": false
+   "overdue": true
   },
   {
    "id": "P205",
@@ -345,7 +345,7 @@ window.LEDGER = {
    "resolved_date": "",
    "evidence": "",
    "source_url": "https://vellum.co.ke/kenya-gazette-week-ended-18th-september-2026/",
-   "overdue": false
+   "overdue": true
   },
   {
    "id": "P209",
@@ -361,7 +361,7 @@ window.LEDGER = {
    "resolved_date": "",
    "evidence": "",
    "source_url": "",
-   "overdue": false
+   "overdue": true
   },
   {
    "id": "P212",
@@ -377,7 +377,7 @@ window.LEDGER = {
    "resolved_date": "",
    "evidence": "",
    "source_url": "",
-   "overdue": false
+   "overdue": true
   },
   {
    "id": "P216",
@@ -393,7 +393,7 @@ window.LEDGER = {
    "resolved_date": "",
    "evidence": "",
    "source_url": "https://hapakenya.com/2026/07/29/kenya-targets-5-million-visitors-as-magical-kenya-travel-expo-2026-launches/",
-   "overdue": false
+   "overdue": true
   },
   {
    "id": "P219",
@@ -409,7 +409,7 @@ window.LEDGER = {
    "resolved_date": "",
    "evidence": "",
    "source_url": "https://www.gov.uk/foreign-travel-advice/kenya",
-   "overdue": false
+   "overdue": true
   },
   {
    "id": "P223",
@@ -425,7 +425,7 @@ window.LEDGER = {
    "resolved_date": "",
    "evidence": "",
    "source_url": "https://www.gov.uk/foreign-travel-advice/kenya/entry-requirements",
-   "overdue": false
+   "overdue": true
   },
   {
    "id": "P236",
@@ -441,7 +441,7 @@ window.LEDGER = {
    "resolved_date": "",
    "evidence": "",
    "source_url": "https://www.kenyans.co.ke/news/127939-kenya-confirms-8th-ebola-case-nairobi-hospital-patient-attendant-tests-positive",
-   "overdue": false
+   "overdue": true
   },
   {
    "id": "P238",
@@ -457,7 +457,7 @@ window.LEDGER = {
    "resolved_date": "",
    "evidence": "",
    "source_url": "https://www.kenyans.co.ke/news/127954-public-health-students-threaten-nationwide-protests-over-90-day-health-workers-strike",
-   "overdue": false
+   "overdue": true
   },
   {
    "id": "P239",

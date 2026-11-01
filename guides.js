@@ -1,5 +1,14 @@
 window.GUIDES = [
  {
+  "slug": "mea-revpar-bucket-east-africa-no-number",
+  "title": "Hilton reported its Africa region down 5.6 per cent. It was not measuring Africa.",
+  "description": "Three of the four listed hotel majors reported the same overlapping geography this month. Hilton's Middle East and Africa line fell 5.6 per cent and is guided to a low double-digit decline for the year, IHG's wider EMEAA bucket rose 5.0 per cent, and Accor published its numbers twice, once with the Middle East in and once with it out. None of them published a figure for Africa. East Africa is where those same companies are building hardest, and it is the half of a hyphen whose number is set somewhere else.",
+  "category": "Big Read",
+  "updated": "2026-11-01",
+  "readMins": 8,
+  "image": "img/editions/mea-revpar-bucket-east-africa-no-number.jpg"
+ },
+ {
   "slug": "east-africa-cruise-call-day-business-not-bed-nights",
   "title": "East Africa is counting cruise ships. The number that pays is bed nights.",
   "description": "Mombasa's record 2025/26 cruise season delivered 4,889 passengers across nine calls, under four per cent of a single month's air arrivals into Zanzibar, and almost none of them slept ashore. The published schedule for the season now opening shows four calls and not one turnaround. The region is lobbying for berths when the thing that converts a day call into a bed night is scheduled lift.",
