@@ -1,111 +1,75 @@
 {
- "generated": "2026-11-01T03:49:59+03:00",
- "slot": "morning",
- "window_start": 1793458800,
- "observations_in_window": 402,
+ "generated": "2026-11-01T11:55:08+03:00",
+ "slot": "midday",
+ "window_start": 1793505600,
+ "observations_in_window": 160,
  "deduped_against": 17,
  "candidates": [
   {
-   "score": 114.2,
+   "score": 100.2,
    "components": {
-    "tier": 40,
-    "category": 24,
-    "lead": 4.8,
-    "relevance": 24,
-    "freshness": 9.4,
-    "undated": -6,
-    "shock": 18
-   },
-   "keywords": [
-    "outbreak",
-    "ebola"
-   ],
-   "shock_terms": [
-    "outbreak"
-   ],
-   "dedupe_match": null,
-   "dedupe_similarity": 0.2,
-   "id": "1a208688d77c",
-   "title": "Ebola 2026: From a National Outbreak to a Continental Health Security Test Ministerial Meeting",
-   "url": "https://africacdc.org/download/ebola-2026-from-a-national-outbreak-to-a-continental-health-security-test",
-   "summary": "",
-   "kind": "item",
-   "source": "Africa CDC downloads (sit reps & EIW)",
-   "source_id": "africacdc-downloads",
-   "tier": 1,
-   "country": "REG",
-   "category": "health",
-   "segments": [
-    "city",
-    "bush",
-    "beach"
-   ],
-   "first_seen": "2026-10-31T18:21+03:00",
-   "published": null,
-   "verdict": "LEAD CANDIDATE \u2014 tier-1 shock language"
-  },
-  {
-   "score": 65.3,
-   "components": {
-    "tier": 40,
-    "category": 12,
-    "lead": 3.6,
-    "relevance": 0,
-    "freshness": 19.7,
-    "undated": -6,
-    "page_change": -4
-   },
-   "keywords": [],
-   "shock_terms": [],
-   "dedupe_match": null,
-   "dedupe_similarity": 0.0,
-   "id": "511ca1a100ff",
-   "title": "[page changed] Airlink news",
-   "url": "https://www.flyairlink.com/",
-   "summary": "Request unsuccessful. Incapsula incident ID: 395000390831999163-1456298435141110261",
-   "kind": "page-change",
-   "source": "Airlink news",
-   "source_id": "air-airlink",
-   "tier": 1,
-   "country": "REG",
-   "category": "airline",
-   "segments": [
-    "city",
-    "bush",
-    "beach"
-   ],
-   "first_seen": "2026-11-01T03:46+03:00",
-   "published": null,
-   "verdict": "OPEN THIS \u2014 tier-1 airline page moved; content not auto-parsed, read it manually"
-  },
-  {
-   "score": 120.8,
-   "components": {
-    "tier": 20,
+    "tier": 5,
     "category": 5,
     "lead": 2.4,
-    "relevance": 56,
-    "freshness": 9.4,
+    "relevance": 40,
+    "freshness": 19.8,
     "corroborated": 10,
     "shock": 18
    },
    "keywords": [
     "outbreak",
     "ebola",
-    "suspend",
     "visa",
-    "arrivals",
-    "passenger"
+    "arrivals"
    ],
    "shock_terms": [
     "outbreak"
    ],
    "dedupe_match": null,
-   "dedupe_similarity": 0.3,
-   "id": "92b43037d8d6",
-   "title": "Saudi Arabia suspends visas and bars arrivals from Kenya over Ebola concerns",
-   "url": "https://katakenya.org/saudi-arabia-suspends-visas-and-bars-arrivals-from-kenya-over-ebola-concerns",
-   "summary": "Saudi Arabia has suspended the issuance of all visa categories to travellers from Kenya and barred entry to passengers arriving from the country, disrupting travel between the two markets following concerns over the Ebola outbreak. The restrictions, announced on October 30 following an assessment by Saudi health authorities, also suspend travel by Saudi citizens to [\u2026]",
+   "dedupe_similarity": 0.25,
+   "id": "af9b02252d3c",
+   "title": "Saudi Arabia Closes Its Borders To Arrivals From Kenya, Halting All Entry Visas As Health Officials Respond To Regional Ebola Outbreaks",
+   "url": "https://www.travelandtourworld.com/news/article/40ghqvd72vua",
+   "summary": "Saudi Arabia Closes Its Borders To Arrivals From Kenya, Halting All Entry Visas As Health Officials Respond To Regional Ebola Outbreaks Saudi Arabia has banned entry of Kenyan nationals and put an end to issuing visas due to the regional risk posed by the Ebola virus. The post Saudi Arabia Closes Its Borders To Arrivals From Kenya, Halting All Entry Visas As Health Officials Respond To Regional Eb",
+   "kind": "item",
+   "source": "Travel And Tour World",
+   "source_id": "gl-travelandtourworld",
+   "tier": 3,
+   "country": "GLOBAL",
+   "category": "trade",
+   "segments": [
+    "city",
+    "bush",
+    "beach"
+   ],
+   "first_seen": "2026-11-01T11:53+03:00",
+   "published": "2026-11-01",
+   "verdict": "CONSIDER"
+  },
+  {
+   "score": 99.2,
+   "components": {
+    "tier": 20,
+    "category": 5,
+    "lead": 2.4,
+    "relevance": 24,
+    "freshness": 19.8,
+    "corroborated": 10,
+    "shock": 18
+   },
+   "keywords": [
+    "ebola",
+    "travel ban"
+   ],
+   "shock_terms": [
+    "confirmed case"
+   ],
+   "dedupe_match": null,
+   "dedupe_similarity": 0.38,
+   "id": "5cb36ab799a8",
+   "title": "Kenya challenges Saudi Ebola travel ban as no new cases reported since October 19",
+   "url": "https://katakenya.org/kenya-challenges-saudi-ebola-travel-ban-as-no-new-cases-reported-since-october-19",
+   "summary": "Kenya has asked Saudi Arabia to lift its Ebola-related travel restrictions, arguing that the measures are disproportionate to the country\u2019s public-health situation after reporting no new infections since October 19 and containing all confirmed cases within a single transmission cluster. In a diplomatic note dated October 30, the Ministry of Foreign and Diaspora Affairs urged [\u2026]",
    "kind": "item",
    "source": "Kenya Association of Travel Agents news",
    "source_id": "tp-kata",
@@ -117,220 +81,44 @@
     "bush",
     "beach"
    ],
-   "first_seen": "2026-10-31T18:22+03:00",
-   "published": "2026-10-31",
-   "verdict": "CONSIDER"
-  },
-  {
-   "score": 101.5,
-   "components": {
-    "tier": 40,
-    "category": 15,
-    "lead": 16.8,
-    "relevance": 0,
-    "freshness": 19.7,
-    "corroborated": 10
-   },
-   "keywords": [],
-   "shock_terms": [],
-   "dedupe_match": null,
-   "dedupe_similarity": 0.14,
-   "id": "cc9207f10c6d",
-   "title": "",
-   "url": "https://www.tra.go.tz/images/uploads/public_notice/english/AMNESTY_ENGLISH.pdf",
-   "summary": "Dar es Salaam, 2 October, 2026:PUBLIC NOTICEThe Tanzania Revenue Authority (TRA) hereby informs the general public, particularly owners and users of motor vehicles that have contravened applicable Customs laws and procedures, of a special amnesty on penalties intended to provide an opportunity for voluntary disclosure, regularization, and compliance.Under this arrangement, eligible persons are enc",
-   "kind": "doc",
-   "source": "Tanzania Revenue Authority",
-   "source_id": "tz-tra",
-   "tier": 1,
-   "country": "TZ",
-   "category": "fiscal",
-   "segments": [
-    "city",
-    "bush",
-    "beach"
-   ],
-   "first_seen": "2026-11-01T03:46+03:00",
-   "published": "2026-12-31",
-   "verdict": "STRONG \u2014 tier-1, upstream"
-  },
-  {
-   "score": 96.2,
-   "components": {
-    "tier": 40,
-    "category": 24,
-    "lead": 2.4,
-    "relevance": 0,
-    "freshness": 19.8,
-    "corroborated": 10
-   },
-   "keywords": [],
-   "shock_terms": [],
-   "dedupe_match": null,
-   "dedupe_similarity": 0.17,
-   "id": "3aed68a2f308",
-   "title": "SitRep N\u00b0169/MVE-BDBV/30/10/2026",
-   "url": "https://insp.cd/sitrep-n169-mve-bdbv-30-10-2026",
-   "summary": "",
-   "kind": "item",
-   "source": "INSP RDC \u2014 Ebola daily situation reports (SitRep)",
-   "source_id": "cd-insp-sitrep",
-   "tier": 1,
-   "country": "GLOBAL",
-   "category": "health",
-   "segments": [
-    "City",
-    "Bush"
-   ],
-   "first_seen": "2026-11-01T03:48+03:00",
+   "first_seen": "2026-11-01T11:53+03:00",
    "published": "2026-11-01",
-   "verdict": "STRONG \u2014 tier-1, upstream"
-  },
-  {
-   "score": 89.8,
-   "components": {
-    "tier": 20,
-    "category": 4,
-    "lead": 0.0,
-    "relevance": 24,
-    "freshness": 13.8,
-    "corroborated": 10,
-    "shock": 18
-   },
-   "keywords": [
-    "outbreak",
-    "ebola"
-   ],
-   "shock_terms": [
-    "outbreak"
-   ],
-   "dedupe_match": null,
-   "dedupe_similarity": 0.42,
-   "id": "bdd877da049f",
-   "title": "Africa\u2019s lost war? Ebola cases cross 10,000 mark",
-   "url": "https://www.theeastafrican.co.ke/tea/sustainability/health/africa-s-lost-war-ebola-cases-cross-10-000-mark-5652918",
-   "summary": "Tough times ahead as more cases are reported since the outbreak, with more than 4,000 people...",
-   "kind": "item",
-   "source": "The EastAfrican",
-   "source_id": "np-eastafrican",
-   "tier": 2,
-   "country": "REG",
-   "category": "press",
-   "segments": [
-    "city",
-    "bush",
-    "beach"
-   ],
-   "first_seen": "2026-10-31T22:23+03:00",
-   "published": "2026-10-31",
    "verdict": "CONSIDER"
   },
   {
-   "score": 86.2,
+   "score": 97.7,
    "components": {
-    "tier": 20,
-    "category": 24,
-    "lead": 2.4,
-    "relevance": 12,
-    "freshness": 19.8,
-    "undated": -6,
-    "shock": 18,
+    "tier": 40,
+    "category": 32,
+    "lead": 12.0,
+    "relevance": 8,
+    "freshness": 19.7,
+    "stale_trap": -10,
     "page_change": -4
    },
    "keywords": [
-    "outbreak"
+    "fee"
    ],
-   "shock_terms": [
-    "outbreak"
-   ],
+   "shock_terms": [],
    "dedupe_match": null,
-   "dedupe_similarity": 0.07,
-   "id": "6d763b8b0bb1",
-   "title": "[page changed] ProMED-mail",
-   "url": "https://promedmail.org/",
-   "summary": "Protecting Global Health, One Alert at a Time | ProMED Previous slide Next slide Protecting Global Health, One Alert at a Time ProMED: Your 24/7 early warning system for emerging infectious diseases worldwide. Subscribe ProMED's Weekly Pulse A snapshot of global health events from the past 7 days Latest Posts on ProMED All Date Title Sun Nov 01 2026 MENINGOCOCCAL DISEASE - VIET NAM (27): (CA MAU) ",
+   "dedupe_similarity": 0.08,
+   "id": "8f3c362720f4",
+   "title": "[page changed] Federal Register \u2014 CDC notices",
+   "url": "https://www.federalregister.gov/api/v1/documents.rss?conditions%5Bagencies%5D%5B%5D=centers-for-disease-control-and-prevention&order=newest",
+   "summary": "Federal Register Documents published on or after 10/02/2026 and from Centers for Disease Control and Prevention https://www.federalregister.gov/api/v1/documents.rss?conditions%5Bagencies%5D%5B%5D=centers-for-disease-control-and-prevention&order=newest Mon, 02 Nov 2026 05:00:00 GMT The documents in this feed originate from FederalRegister.gov which displays an unofficial web version of the daily Fe",
    "kind": "page-change",
-   "source": "ProMED-mail",
-   "source_id": "promed",
-   "tier": 2,
-   "country": "GLOBAL",
-   "category": "health",
+   "source": "Federal Register \u2014 CDC notices",
+   "source_id": "us-fedreg-cdc",
+   "tier": 1,
+   "country": "REG",
+   "category": "advisory",
    "segments": [
     "city",
-    "bush",
-    "beach"
+    "bush"
    ],
-   "first_seen": "2026-11-01T03:48+03:00",
-   "published": null,
-   "verdict": "CONSIDER"
-  },
-  {
-   "score": 84.8,
-   "components": {
-    "tier": 40,
-    "category": 7,
-    "lead": 6.0,
-    "relevance": 8,
-    "freshness": 13.8,
-    "corroborated": 10
-   },
-   "keywords": [
-    "vat"
-   ],
-   "shock_terms": [],
-   "dedupe_match": null,
-   "dedupe_similarity": 0.29,
-   "id": "844a05de4c7c",
-   "title": "EAC Ministers Adopt Regional Artificial Intelligence and Digital Transformation Strategies, Approve Establishment of Regional AI Foundational Module for Universities",
-   "url": "https://www.eac.int/press-releases/138-education,-science-technology-news/3612-eac-ministers-adopt%20-regional-artificial-intelligence-and-digital-transformation-strategies,-approve-establishment-of-regional-ai-foundational-module-for-universities",
-   "summary": "East African Community Headquarters, Arusha, Tanzania 31 st October, 2026: The East African Community (EAC) Ministers responsible for Education, Science and Technology, Culture and Sports have adopted the EAC Artificial Intelligence (AI) Strategy, the EAC Digital Transformation Strategy and the EAC Biotechnology Strategy, paving the way for a coordinated regional approach to emerging technologies,",
-   "kind": "item",
-   "source": "East African Community \u2014 Secretariat news",
-   "source_id": "eac-secretariat",
-   "tier": 1,
-   "country": "Regional",
-   "category": "body",
-   "segments": [
-    "city"
-   ],
-   "first_seen": "2026-10-31T22:22+03:00",
-   "published": "2026-10-31",
-   "verdict": "CONSIDER"
-  },
-  {
-   "score": 81.8,
-   "components": {
-    "tier": 40,
-    "category": 24,
-    "lead": 2.4,
-    "relevance": 12,
-    "freshness": 9.4,
-    "undated": -6
-   },
-   "keywords": [
-    "ebola"
-   ],
-   "shock_terms": [],
-   "dedupe_match": null,
-   "dedupe_similarity": 0.2,
-   "id": "603f9dc4c881",
-   "title": "UTAYARI WA KUKABILIANA NA EBOLA WAPEWA KIPAUMBELE...",
-   "url": "https://www.moh.go.tz/news-single/utayari-wa-kukabiliana-na-ebola-wapewa-kipaumbele",
-   "summary": "",
-   "kind": "item",
-   "source": "Tanzania Ministry of Health",
-   "source_id": "tz-moh",
-   "tier": 1,
-   "country": "TZ",
-   "category": "health",
-   "segments": [
-    "city",
-    "bush",
-    "beach"
-   ],
-   "first_seen": "2026-10-31T18:22+03:00",
-   "published": null,
-   "verdict": "CONSIDER"
+   "first_seen": "2026-11-01T11:51+03:00",
+   "published": "2026-10-28",
+   "verdict": "CHECK \u2014 source date older than the window"
   },
   {
    "score": 81.3,
@@ -347,7 +135,7 @@
    "shock_terms": [],
    "dedupe_match": null,
    "dedupe_similarity": 0.12,
-   "id": "bd657def098d",
+   "id": "5f38cbe6dcfa",
    "title": "[page changed] Federal Register \u2014 public inspection (HHS/CDC), pre-publication",
    "url": "https://www.federalregister.gov/api/v1/public-inspection-documents/current.json",
    "summary": "{\"count\":108,\"results\":[{\"agencies\":[{\"raw_name\":\"Food and Drug Administration\",\"name\":\"Food and Drug Administration\",\"id\":199,\"url\":\"https://www.federalregister.gov/agencies/food-and-drug-administration\",\"json_url\":\"https://www.federalregister.gov/api/v1/agencies/199\",\"parent_id\":221,\"slug\":\"food-and-drug-administration\"}],\"agency_letters\":[],\"agency_names\":[\"Food and Drug Administration\"],\"docke",
@@ -361,289 +149,69 @@
     "city",
     "bush"
    ],
-   "first_seen": "2026-11-01T03:47+03:00",
+   "first_seen": "2026-11-01T11:51+03:00",
    "published": "2026-10-29",
    "verdict": "CHECK \u2014 source date older than the window"
   },
   {
-   "score": 80.2,
+   "score": 72.2,
+   "components": {
+    "tier": 20,
+    "category": 4,
+    "lead": 2.4,
+    "relevance": 16,
+    "freshness": 19.8,
+    "corroborated": 10
+   },
+   "keywords": [
+    "fee",
+    "protest"
+   ],
+   "shock_terms": [],
+   "dedupe_match": null,
+   "dedupe_similarity": 0.14,
+   "id": "ad5cd2c74a7a",
+   "title": "Youth protests across Europe",
+   "url": "https://www.independent.co.ug/youth-protests-across-europe",
+   "summary": "Here are the overlapping crises facing Gen Z COMMENT | ALINA COSMA | Young people are facing a future that feels increasingly uncertain. Although every generation experiences turbulence while navigating adolescence, the pressures experienced by Gen Z \u2013 those born between 1997 and 2012 \u2013 are different and seem more pervasive. From climate change \u2026 The post Youth protests across Europe appeared firs",
+   "kind": "item",
+   "source": "The Independent (Uganda)",
+   "source_id": "ug-independent",
+   "tier": 2,
+   "country": "UG",
+   "category": "press",
+   "segments": [
+    "city",
+    "bush",
+    "beach"
+   ],
+   "first_seen": "2026-11-01T11:53+03:00",
+   "published": "2026-11-01",
+   "verdict": "CONSIDER"
+  },
+  {
+   "score": 68.2,
    "components": {
     "tier": 20,
     "category": 4,
     "lead": 2.4,
     "relevance": 12,
-    "freshness": 13.8,
-    "corroborated": 10,
-    "shock": 18
-   },
-   "keywords": [
-    "curfew"
-   ],
-   "shock_terms": [
-    "curfew"
-   ],
-   "dedupe_match": null,
-   "dedupe_similarity": 0.11,
-   "id": "103041ca44e7",
-   "title": "Police rule out Likoni curfew as hunt for suspects, missing AK-47 intensifies",
-   "url": "https://nation.africa/kenya/counties/mombasa/police-likoni-curfew-hunt-suspects-missing-ak47-intensifies-5653718",
-   "summary": "Police intensify search for killers of county enforcement officer.",
-   "kind": "item",
-   "source": "Nation Africa: Kenya business",
-   "source_id": "ke-nation-business",
-   "tier": 2,
-   "country": "KE",
-   "category": "press",
-   "segments": [
-    "city",
-    "bush",
-    "beach"
-   ],
-   "first_seen": "2026-10-31T22:23+03:00",
-   "published": "2026-10-31",
-   "verdict": "CONSIDER"
-  },
-  {
-   "score": 76.2,
-   "components": {
-    "tier": 20,
-    "category": 4,
-    "lead": 2.4,
-    "relevance": 8,
-    "freshness": 13.8,
-    "corroborated": 10,
-    "shock": 18
-   },
-   "keywords": [
-    "strike"
-   ],
-   "shock_terms": [
-    "strike"
-   ],
-   "dedupe_match": null,
-   "dedupe_similarity": 0.14,
-   "id": "c137604ca8fb",
-   "title": "Lecturers\u2019 strike: Crash programmes, longer semesters to recover four weeks lost",
-   "url": "https://nation.africa/kenya/news/education/lecturers-strike-crash-programmes-longer-semesters-weeks-lost-5653598",
-   "summary": "Public universities may extend current semesters by one to two weeks to recover lost time.",
-   "kind": "item",
-   "source": "Nation Africa: Kenya business",
-   "source_id": "ke-nation-business",
-   "tier": 2,
-   "country": "KE",
-   "category": "press",
-   "segments": [
-    "city",
-    "bush",
-    "beach"
-   ],
-   "first_seen": "2026-10-31T22:23+03:00",
-   "published": "2026-10-31",
-   "verdict": "CONSIDER"
-  },
-  {
-   "score": 75.4,
-   "components": {
-    "tier": 40,
-    "category": 32,
-    "lead": 3.6,
-    "relevance": 0,
-    "freshness": 13.8,
-    "stale_trap": -10,
-    "page_change": -4
-   },
-   "keywords": [],
-   "shock_terms": [],
-   "dedupe_match": null,
-   "dedupe_similarity": 0.12,
-   "id": "3d78f1b2163c",
-   "title": "[page changed] Federal Register \u2014 public inspection (HHS/CDC), pre-publication",
-   "url": "https://www.federalregister.gov/api/v1/public-inspection-documents/current.json",
-   "summary": "{\"count\":108,\"results\":[{\"agencies\":[{\"raw_name\":\"Food and Drug Administration\",\"name\":\"Food and Drug Administration\",\"id\":199,\"url\":\"https://www.federalregister.gov/agencies/food-and-drug-administration\",\"json_url\":\"https://www.federalregister.gov/api/v1/agencies/199\",\"parent_id\":221,\"slug\":\"food-and-drug-administration\"}],\"agency_letters\":[],\"agency_names\":[\"Food and Drug Administration\"],\"docke",
-   "kind": "page-change",
-   "source": "Federal Register \u2014 public inspection (HHS/CDC), pre-publication",
-   "source_id": "us-fedreg-pubinspect-hhs",
-   "tier": 1,
-   "country": "REG",
-   "category": "advisory",
-   "segments": [
-    "city",
-    "bush"
-   ],
-   "first_seen": "2026-10-31T22:23+03:00",
-   "published": "2026-10-29",
-   "verdict": "CHECK \u2014 source date older than the window"
-  },
-  {
-   "score": 74.2,
-   "components": {
-    "tier": 20,
-    "category": 4,
-    "lead": 2.4,
-    "relevance": 24,
-    "freshness": 13.8,
-    "corroborated": 10
-   },
-   "keywords": [
-    "ebola",
-    "travel ban"
-   ],
-   "shock_terms": [],
-   "dedupe_match": null,
-   "dedupe_similarity": 0.25,
-   "id": "bc285dacce8d",
-   "title": "Saudi Arabia imposes Ebola-related travel bans on Kenya as countries tighten controls",
-   "url": "https://nation.africa/kenya/news/saudi-arabia-ebola-travel-bans-kenya-countries-tighten-controls-5653668",
-   "summary": "Riyadh\u2019s restrictions target people arriving from Kenya or those who have recently travelled...",
-   "kind": "item",
-   "source": "Nation Africa: Kenya business",
-   "source_id": "ke-nation-business",
-   "tier": 2,
-   "country": "KE",
-   "category": "press",
-   "segments": [
-    "city",
-    "bush",
-    "beach"
-   ],
-   "first_seen": "2026-10-31T22:23+03:00",
-   "published": "2026-10-31",
-   "verdict": "CONSIDER"
-  },
-  {
-   "score": 73.8,
-   "components": {
-    "tier": 20,
-    "category": 4,
-    "lead": 2.4,
-    "relevance": 28,
-    "freshness": 9.4,
-    "corroborated": 10
-   },
-   "keywords": [
-    "suspend",
-    "visa",
-    "arrivals"
-   ],
-   "shock_terms": [],
-   "dedupe_match": null,
-   "dedupe_similarity": 0.12,
-   "id": "aa60595d02d2",
-   "title": "Govt Hits Back at Saudi Arabia Over New Restrictions on Kenyans",
-   "url": "https://www.kenyans.co.ke/news/129032-ministry-health-defends-kenyas-ebola-response-amid-saudi-arabia-restrictions",
-   "summary": "The response comes after Saudi Arabia suspended travel by its citizens to Kenya, stopped issuing visas to Kenyans and barred arrivals from the country.",
-   "kind": "item",
-   "source": "Kenyans.co.ke news",
-   "source_id": "ke-kenyans",
-   "tier": 2,
-   "country": "KE",
-   "category": "press",
-   "segments": [
-    "city",
-    "bush",
-    "beach"
-   ],
-   "first_seen": "2026-10-31T18:22+03:00",
-   "published": "2026-10-31",
-   "verdict": "CONSIDER"
-  },
-  {
-   "score": 71.0,
-   "components": {
-    "tier": 40,
-    "category": 32,
-    "lead": 3.6,
-    "relevance": 0,
-    "freshness": 9.4,
-    "stale_trap": -10,
-    "page_change": -4
-   },
-   "keywords": [],
-   "shock_terms": [],
-   "dedupe_match": null,
-   "dedupe_similarity": 0.12,
-   "id": "8ec2e08fdcb9",
-   "title": "[page changed] Federal Register \u2014 public inspection (HHS/CDC), pre-publication",
-   "url": "https://www.federalregister.gov/api/v1/public-inspection-documents/current.json",
-   "summary": "{\"count\":108,\"results\":[{\"agencies\":[{\"raw_name\":\"Food and Drug Administration\",\"name\":\"Food and Drug Administration\",\"id\":199,\"url\":\"https://www.federalregister.gov/agencies/food-and-drug-administration\",\"json_url\":\"https://www.federalregister.gov/api/v1/agencies/199\",\"parent_id\":221,\"slug\":\"food-and-drug-administration\"}],\"agency_letters\":[],\"agency_names\":[\"Food and Drug Administration\"],\"docke",
-   "kind": "page-change",
-   "source": "Federal Register \u2014 public inspection (HHS/CDC), pre-publication",
-   "source_id": "us-fedreg-pubinspect-hhs",
-   "tier": 1,
-   "country": "REG",
-   "category": "advisory",
-   "segments": [
-    "city",
-    "bush"
-   ],
-   "first_seen": "2026-10-31T18:21+03:00",
-   "published": "2026-10-29",
-   "verdict": "CHECK \u2014 source date older than the window"
-  },
-  {
-   "score": 70.2,
-   "components": {
-    "tier": 5,
-    "category": 5,
-    "lead": 2.4,
-    "relevance": 28,
     "freshness": 19.8,
     "corroborated": 10
    },
    "keywords": [
-    "route",
-    "airport",
-    "tourism",
-    "airline",
-    "flight"
+    "ebola"
    ],
    "shock_terms": [],
    "dedupe_match": null,
-   "dedupe_similarity": 0.13,
-   "id": "066293276f17",
-   "title": "United Airlines Launches New Nonstop Newark\u2013St. Croix Flights, Strengthening US Virgin Islands Tourism and Caribbean Connectivity",
-   "url": "https://www.travelandtourworld.com/news/article/i4ao7a3gkjg3",
-   "summary": "United Airlines Launches New Nonstop Newark\u2013St. Croix Flights, Strengthening US Virgin Islands Tourism and Caribbean Connectivity United Airlines added to their presence within the Caribbean with the launch of a new non-stop route between Newark Liberty International Airport (EWR), New Jersey and Henry E. Rohlsen Airport (STX), St. Croix The post United Airlines Launches New Nonstop Newark\u2013St. Cro",
+   "dedupe_similarity": 0.12,
+   "id": "0afd390ba4f2",
+   "title": "Duale: Saudi Arabia travel suspension over Ebola excessive, unjustified",
+   "url": "https://nation.africa/kenya/videos/-duale-saudi-arabia-travel-suspension-over-ebola-excessive-unjustified-5654052",
+   "summary": "",
    "kind": "item",
-   "source": "Travel And Tour World",
-   "source_id": "gl-travelandtourworld",
-   "tier": 3,
-   "country": "GLOBAL",
-   "category": "trade",
-   "segments": [
-    "city",
-    "bush",
-    "beach"
-   ],
-   "first_seen": "2026-11-01T03:48+03:00",
-   "published": "2026-11-01",
-   "verdict": "CONSIDER"
-  },
-  {
-   "score": 69.8,
-   "components": {
-    "tier": 20,
-    "category": 4,
-    "lead": 2.4,
-    "relevance": 24,
-    "freshness": 9.4,
-    "corroborated": 10
-   },
-   "keywords": [
-    "advisory",
-    "flood",
-    "traffic"
-   ],
-   "shock_terms": [],
-   "dedupe_match": null,
-   "dedupe_similarity": 0.17,
-   "id": "dabe60d5b1ba",
-   "title": "Kenya Met Lists Counties Set for Heavy Rain as Flooding Hits Nairobi",
-   "url": "https://www.kenyans.co.ke/news/129027-nairobi-among-counties-receive-rainfall-over-next-5-days-kenya-met",
-   "summary": "The advisory comes hours after overnight downpours caused flash floods and traffic jams across Nairobi and its neighbouring counties of Kiambu, Machakos and Kajiado.",
-   "kind": "item",
-   "source": "Kenyans.co.ke news",
-   "source_id": "ke-kenyans",
+   "source": "Nation Africa: Kenya business",
+   "source_id": "ke-nation-business",
    "tier": 2,
    "country": "KE",
    "category": "press",
@@ -652,239 +220,8 @@
     "bush",
     "beach"
    ],
-   "first_seen": "2026-10-31T18:22+03:00",
-   "published": "2026-10-31",
-   "verdict": "weak"
-  },
-  {
-   "score": 69.8,
-   "components": {
-    "tier": 40,
-    "category": 24,
-    "lead": 2.4,
-    "relevance": 0,
-    "freshness": 9.4,
-    "undated": -6
-   },
-   "keywords": [],
-   "shock_terms": [],
-   "dedupe_match": null,
-   "dedupe_similarity": 0.0,
-   "id": "b90f91c42b33",
-   "title": "WIZARA YA AFYA YATATHMINI UTAYARI WA MBEYA DC KUKABILIAN...",
-   "url": "https://www.moh.go.tz/news-single/wizara-ya-afya-yatathmini-utayari-wa-mbeya-dc-kukabiliana-na-milipuko-ya-magonjwa-ikiwemo-ebola",
-   "summary": "",
-   "kind": "item",
-   "source": "Tanzania Ministry of Health",
-   "source_id": "tz-moh",
-   "tier": 1,
-   "country": "TZ",
-   "category": "health",
-   "segments": [
-    "city",
-    "bush",
-    "beach"
-   ],
-   "first_seen": "2026-10-31T18:22+03:00",
-   "published": null,
-   "verdict": "weak"
-  },
-  {
-   "score": 69.8,
-   "components": {
-    "tier": 40,
-    "category": 24,
-    "lead": 2.4,
-    "relevance": 0,
-    "freshness": 9.4,
-    "undated": -6
-   },
-   "keywords": [],
-   "shock_terms": [],
-   "dedupe_match": null,
-   "dedupe_similarity": 0.0,
-   "id": "bf87f3b8c7f7",
-   "title": "KUPUNGUZA MATUMIZI YA CHUMVI, SUKARI NA MAFUTA, KUFA...",
-   "url": "https://www.moh.go.tz/news-single/kupunguza-matumizi-ya-chumvi-sukari-na-mafuta-kufanya-mazoezi-ni-msingi-wa-afya-bora",
-   "summary": "",
-   "kind": "item",
-   "source": "Tanzania Ministry of Health",
-   "source_id": "tz-moh",
-   "tier": 1,
-   "country": "TZ",
-   "category": "health",
-   "segments": [
-    "city",
-    "bush",
-    "beach"
-   ],
-   "first_seen": "2026-10-31T18:22+03:00",
-   "published": null,
-   "verdict": "weak"
-  },
-  {
-   "score": 69.8,
-   "components": {
-    "tier": 40,
-    "category": 24,
-    "lead": 2.4,
-    "relevance": 0,
-    "freshness": 9.4,
-    "undated": -6
-   },
-   "keywords": [],
-   "shock_terms": [],
-   "dedupe_match": null,
-   "dedupe_similarity": 0.14,
-   "id": "6510c4aa3f15",
-   "title": "BONANZA LA 360 KUWAFIKIA VIJANA ZAIDI YA 3,000 MWANZ...",
-   "url": "https://www.moh.go.tz/news-single/bonanza-la-360-kuwafikia-vijana-zaidi-ya-3000-mwanza-kutoa-elimu-na-huduma-za-afya",
-   "summary": "",
-   "kind": "item",
-   "source": "Tanzania Ministry of Health",
-   "source_id": "tz-moh",
-   "tier": 1,
-   "country": "TZ",
-   "category": "health",
-   "segments": [
-    "city",
-    "bush",
-    "beach"
-   ],
-   "first_seen": "2026-10-31T18:22+03:00",
-   "published": null,
-   "verdict": "weak"
-  },
-  {
-   "score": 69.8,
-   "components": {
-    "tier": 40,
-    "category": 24,
-    "lead": 2.4,
-    "relevance": 0,
-    "freshness": 9.4,
-    "undated": -6
-   },
-   "keywords": [],
-   "shock_terms": [],
-   "dedupe_match": null,
-   "dedupe_similarity": 0.0,
-   "id": "13774054e32b",
-   "title": "LISHE BORA MSINGI WA AFYA NA MAENDELEO YA TAIFA...",
-   "url": "https://www.moh.go.tz/news-single/lishe-bora-msingi-wa-afya-na-maendeleo-ya-taifa",
-   "summary": "",
-   "kind": "item",
-   "source": "Tanzania Ministry of Health",
-   "source_id": "tz-moh",
-   "tier": 1,
-   "country": "TZ",
-   "category": "health",
-   "segments": [
-    "city",
-    "bush",
-    "beach"
-   ],
-   "first_seen": "2026-10-31T18:22+03:00",
-   "published": null,
-   "verdict": "weak"
-  },
-  {
-   "score": 69.8,
-   "components": {
-    "tier": 40,
-    "category": 24,
-    "lead": 2.4,
-    "relevance": 0,
-    "freshness": 9.4,
-    "undated": -6
-   },
-   "keywords": [],
-   "shock_terms": [],
-   "dedupe_match": null,
-   "dedupe_similarity": 0.0,
-   "id": "3127d67f56af",
-   "title": "WIZARA YA AFYA YATATHMINI UTAYARI WA HOSPITALI YA RU...",
-   "url": "https://www.moh.go.tz/news-single/wizara-ya-afya-yatathmini-utayari-wa-hospitali-ya-rufaa-kanda-ya-mbeya-kukabiliana-na-ebola",
-   "summary": "",
-   "kind": "item",
-   "source": "Tanzania Ministry of Health",
-   "source_id": "tz-moh",
-   "tier": 1,
-   "country": "TZ",
-   "category": "health",
-   "segments": [
-    "city",
-    "bush",
-    "beach"
-   ],
-   "first_seen": "2026-10-31T18:22+03:00",
-   "published": null,
-   "verdict": "weak"
-  },
-  {
-   "score": 69.8,
-   "components": {
-    "tier": 40,
-    "category": 24,
-    "lead": 2.4,
-    "relevance": 0,
-    "freshness": 9.4,
-    "undated": -6
-   },
-   "keywords": [],
-   "shock_terms": [],
-   "dedupe_match": null,
-   "dedupe_similarity": 0.2,
-   "id": "5a7816f05eaf",
-   "title": "TANZANIA YAJIUNGA NA MPANGO WA WHO WA KUKOMESHA UNEN...",
-   "url": "https://www.moh.go.tz/news-single/tanzania-yajiunga-na-mpango-wa-who-wa-kukomesha-unene-uliopitiliza",
-   "summary": "",
-   "kind": "item",
-   "source": "Tanzania Ministry of Health",
-   "source_id": "tz-moh",
-   "tier": 1,
-   "country": "TZ",
-   "category": "health",
-   "segments": [
-    "city",
-    "bush",
-    "beach"
-   ],
-   "first_seen": "2026-10-31T18:22+03:00",
-   "published": null,
-   "verdict": "weak"
-  },
-  {
-   "score": 69.8,
-   "components": {
-    "tier": 40,
-    "category": 24,
-    "lead": 2.4,
-    "relevance": 0,
-    "freshness": 9.4,
-    "undated": -6
-   },
-   "keywords": [],
-   "shock_terms": [],
-   "dedupe_match": null,
-   "dedupe_similarity": 0.0,
-   "id": "23f393efa7db",
-   "title": "WIZARA YA AFYA YATOA MAFUNZO IGAWILO DC KUIMARISHA U...",
-   "url": "https://www.moh.go.tz/news-single/wizara-ya-afya-yatoa-mafunzo-igawilo-dc-kuimarisha-utayari-wa-kukabiliana-na-ebola",
-   "summary": "",
-   "kind": "item",
-   "source": "Tanzania Ministry of Health",
-   "source_id": "tz-moh",
-   "tier": 1,
-   "country": "TZ",
-   "category": "health",
-   "segments": [
-    "city",
-    "bush",
-    "beach"
-   ],
-   "first_seen": "2026-10-31T18:22+03:00",
-   "published": null,
+   "first_seen": "2026-11-01T11:53+03:00",
+   "published": "2026-11-01",
    "verdict": "weak"
   },
   {
@@ -898,18 +235,18 @@
     "corroborated": 10
    },
    "keywords": [
-    "route",
-    "airport",
-    "airline",
-    "flight"
+    "arrivals",
+    "fuel",
+    "hotel",
+    "tourism"
    ],
    "shock_terms": [],
    "dedupe_match": null,
-   "dedupe_similarity": 0.13,
-   "id": "4422f58de472",
-   "title": "United Airlines to Exit Tulum Airport in January 2027 as Newark and Houston Flights End Amid Growing Route Cuts",
-   "url": "https://www.travelandtourworld.com/news/article/m390lcf1wl9a",
-   "summary": "United Airlines to Exit Tulum Airport in January 2027 as Newark and Houston Flights End Amid Growing Route Cuts United Airlines is preparing to leave Tulum International Airport in Mexico in January 2027. The airline will stop its flights from Newark and Houston. The post United Airlines to Exit Tulum Airport in January 2027 as Newark and Houston Flights End Amid Growing Route Cuts appeared first ",
+   "dedupe_similarity": 0.08,
+   "id": "ea1cb03f7ce5",
+   "title": "Fiji Tourism Drives Economic Momentum as Higher International Arrivals and Stronger Hotel Revenue Fuel Growth",
+   "url": "https://www.travelandtourworld.com/news/article/h03hw0iu38vj",
+   "summary": "Fiji Tourism Drives Economic Momentum as Higher International Arrivals and Stronger Hotel Revenue Fuel Growth Fiji tourism boosts economic growth as visitor arrivals rise 3.7% and hotel revenue climbs 10.5%, supported by global demand. The post Fiji Tourism Drives Economic Momentum as Higher International Arrivals and Stronger Hotel Revenue Fuel Growth appeared first on Travel And Tour World .",
    "kind": "item",
    "source": "Travel And Tour World",
    "source_id": "gl-travelandtourworld",
@@ -921,351 +258,30 @@
     "bush",
     "beach"
    ],
-   "first_seen": "2026-11-01T03:48+03:00",
+   "first_seen": "2026-11-01T11:53+03:00",
    "published": "2026-11-01",
    "verdict": "weak"
   },
   {
-   "score": 64.1,
-   "components": {
-    "tier": 40,
-    "category": 8,
-    "lead": 2.4,
-    "relevance": 0,
-    "freshness": 19.7,
-    "undated": -6
-   },
-   "keywords": [],
-   "shock_terms": [],
-   "dedupe_match": null,
-   "dedupe_similarity": 0.0,
-   "id": "7cd748f1a155",
-   "title": "IATA News Fact Sheet - IATA 01.11.2026 PDF",
-   "url": "https://www.iata.org/en/iata-repository/pressroom/fact-sheets/fact-sheet-iata",
-   "summary": "",
-   "kind": "item",
-   "source": "IATA pressroom",
-   "source_id": "iata-pressroom",
-   "tier": 1,
-   "country": "GLOBAL",
-   "category": "aviation-body",
-   "segments": [
-    "city",
-    "bush",
-    "beach"
-   ],
-   "first_seen": "2026-11-01T03:46+03:00",
-   "published": null,
-   "verdict": "weak"
-  },
-  {
-   "score": 62.2,
-   "components": {
-    "tier": 20,
-    "category": 24,
-    "lead": 2.4,
-    "relevance": 12,
-    "freshness": 13.8,
-    "undated": -6,
-    "page_change": -4
-   },
-   "keywords": [
-    "ebola"
-   ],
-   "shock_terms": [],
-   "dedupe_match": null,
-   "dedupe_similarity": 0.07,
-   "id": "54058a1fe542",
-   "title": "[page changed] ProMED-mail",
-   "url": "https://promedmail.org/",
-   "summary": "Protecting Global Health, One Alert at a Time | ProMED Previous slide Next slide Protecting Global Health, One Alert at a Time ProMED: Your 24/7 early warning system for emerging infectious diseases worldwide. Subscribe ProMED's Weekly Pulse A snapshot of global health events from the past 7 days Latest Posts on ProMED All Date Title Sat Oct 31 2026 CRIPTOSPORIDIOSIS \u2013 BRASIL: (S\u00c3O PAULO) BROTE CO",
-   "kind": "page-change",
-   "source": "ProMED-mail",
-   "source_id": "promed",
-   "tier": 2,
-   "country": "GLOBAL",
-   "category": "health",
-   "segments": [
-    "city",
-    "bush",
-    "beach"
-   ],
-   "first_seen": "2026-10-31T22:23+03:00",
-   "published": null,
-   "verdict": "weak"
-  },
-  {
-   "score": 62.2,
-   "components": {
-    "tier": 20,
-    "category": 4,
-    "lead": 2.4,
-    "relevance": 12,
-    "freshness": 13.8,
-    "corroborated": 10
-   },
-   "keywords": [
-    "fee",
-    "inflation"
-   ],
-   "shock_terms": [],
-   "dedupe_match": null,
-   "dedupe_similarity": 0.0,
-   "id": "c0661ed63d92",
-   "title": "LSK loses bid to block higher excise stamp fees over Sh4.5bn KRA debt",
-   "url": "https://nation.africa/kenya/news/lsk-loses-bid-to-block-higher-excise-stamp-fees-over-sh4-5bn-kra-debt-5653468",
-   "summary": "KRA defended the adjustments as vital to offset inflation.",
-   "kind": "item",
-   "source": "Nation Africa: Kenya business",
-   "source_id": "ke-nation-business",
-   "tier": 2,
-   "country": "KE",
-   "category": "press",
-   "segments": [
-    "city",
-    "bush",
-    "beach"
-   ],
-   "first_seen": "2026-10-31T22:23+03:00",
-   "published": "2026-10-31",
-   "verdict": "weak"
-  },
-  {
-   "score": 61.8,
-   "components": {
-    "tier": 20,
-    "category": 4,
-    "lead": 2.4,
-    "relevance": 16,
-    "freshness": 9.4,
-    "corroborated": 10
-   },
-   "keywords": [
-    "eta",
-    "flood"
-   ],
-   "shock_terms": [],
-   "dedupe_match": null,
-   "dedupe_similarity": 0.0,
-   "id": "51d9b30c7559",
-   "title": "Coastal floods displace hundreds as Tana River and Lamu brace for more water",
-   "url": "https://nation.africa/kenya/counties/coastal-floods-displace-hundreds-as-tana-river-and-lamu-brace-for-more-water-5653216",
-   "summary": "Tana River Governor and Water Cabinet Secretary warned downstream residents to relocate...",
-   "kind": "item",
-   "source": "Nation Africa: Kenya business",
-   "source_id": "ke-nation-business",
-   "tier": 2,
-   "country": "KE",
-   "category": "press",
-   "segments": [
-    "city",
-    "bush",
-    "beach"
-   ],
-   "first_seen": "2026-10-31T18:22+03:00",
-   "published": "2026-10-31",
-   "verdict": "weak"
-  },
-  {
-   "score": 60.2,
-   "components": {
-    "tier": 20,
-    "category": 4,
-    "lead": 2.4,
-    "relevance": 20,
-    "freshness": 19.8,
-    "undated": -6
-   },
-   "keywords": [
-    "suspend",
-    "eta"
-   ],
-   "shock_terms": [],
-   "dedupe_match": null,
-   "dedupe_similarity": 0.0,
-   "id": "ac912ca8971f",
-   "title": "News By Amon Katungulu | Oct 30, 2026 7. Peasants Party Suspends Secretary General Over Misconduct",
-   "url": "https://nilepost.co.ug/news/382871/peasants-party-suspends-secretary-general-over-misconduct",
-   "summary": "",
-   "kind": "item",
-   "source": "Nile Post (Uganda)",
-   "source_id": "ug-nilepost",
-   "tier": 2,
-   "country": "UG",
-   "category": "press",
-   "segments": [
-    "city",
-    "bush",
-    "beach"
-   ],
-   "first_seen": "2026-11-01T03:48+03:00",
-   "published": null,
-   "verdict": "weak"
-  },
-  {
-   "score": 58.2,
-   "components": {
-    "tier": 5,
-    "category": 5,
-    "lead": 2.4,
-    "relevance": 16,
-    "freshness": 19.8,
-    "corroborated": 10
-   },
-   "keywords": [
-    "visa",
-    "eta"
-   ],
-   "shock_terms": [],
-   "dedupe_match": null,
-   "dedupe_similarity": 0.15,
-   "id": "9b3710f4ae71",
-   "title": "Kazakhstan Introduces Mandatory QazETA Travel Authorisation from July 2027, Changing Visa-Free Entry Rules for International Travellers",
-   "url": "https://www.travelandtourworld.com/news/article/5xhengk6tyfd",
-   "summary": "Kazakhstan Introduces Mandatory QazETA Travel Authorisation from July 2027, Changing Visa-Free Entry Rules for International Travellers Kazakhstan makes free QazETA mandatory from July 2027. Check Indian visa-free rules, deadlines, exemptions and application steps. The post Kazakhstan Introduces Mandatory QazETA Travel Authorisation from July 2027, Changing Visa-Free Entry Rules for International ",
-   "kind": "item",
-   "source": "Travel And Tour World",
-   "source_id": "gl-travelandtourworld",
-   "tier": 3,
-   "country": "GLOBAL",
-   "category": "trade",
-   "segments": [
-    "city",
-    "bush",
-    "beach"
-   ],
-   "first_seen": "2026-11-01T03:48+03:00",
-   "published": "2026-11-01",
-   "verdict": "weak"
-  },
-  {
-   "score": 58.2,
-   "components": {
-    "tier": 20,
-    "category": 4,
-    "lead": 2.4,
-    "relevance": 8,
-    "freshness": 13.8,
-    "corroborated": 10
-   },
-   "keywords": [
-    "election"
-   ],
-   "shock_terms": [],
-   "dedupe_match": null,
-   "dedupe_similarity": 0.12,
-   "id": "189df1c8a40d",
-   "title": "Kenya\u2019s diplomatic push faces test in Phoebe Okowa\u2019s ICJ re-election bid",
-   "url": "https://nation.africa/kenya/news/kenya-diplomatic-push-test-phoebe-okowa-icj-reelection-bid-5653640",
-   "summary": "If Judge Phoebe Okowa wins, it will mean she stays on the bench until 2036.",
-   "kind": "item",
-   "source": "Nation Africa: Kenya business",
-   "source_id": "ke-nation-business",
-   "tier": 2,
-   "country": "KE",
-   "category": "press",
-   "segments": [
-    "city",
-    "bush",
-    "beach"
-   ],
-   "first_seen": "2026-10-31T22:23+03:00",
-   "published": "2026-10-31",
-   "verdict": "weak"
-  },
-  {
-   "score": 57.8,
-   "components": {
-    "tier": 20,
-    "category": 24,
-    "lead": 2.4,
-    "relevance": 12,
-    "freshness": 9.4,
-    "undated": -6,
-    "page_change": -4
-   },
-   "keywords": [
-    "ebola"
-   ],
-   "shock_terms": [],
-   "dedupe_match": null,
-   "dedupe_similarity": 0.07,
-   "id": "90080c152422",
-   "title": "[page changed] ProMED-mail",
-   "url": "https://promedmail.org/",
-   "summary": "Protecting Global Health, One Alert at a Time | ProMED Previous slide Next slide Protecting Global Health, One Alert at a Time ProMED: Your 24/7 early warning system for emerging infectious diseases worldwide. Subscribe ProMED's Weekly Pulse A snapshot of global health events from the past 7 days Latest Posts on ProMED All Date Title Sat Oct 31 2026 EBOLA DISEASE - DEMOCRATIC REPUBLIC OF CONGO (79",
-   "kind": "page-change",
-   "source": "ProMED-mail",
-   "source_id": "promed",
-   "tier": 2,
-   "country": "GLOBAL",
-   "category": "health",
-   "segments": [
-    "city",
-    "bush",
-    "beach"
-   ],
-   "first_seen": "2026-10-31T18:22+03:00",
-   "published": null,
-   "verdict": "weak"
-  },
-  {
-   "score": 57.8,
-   "components": {
-    "tier": 20,
-    "category": 4,
-    "lead": 2.4,
-    "relevance": 28,
-    "freshness": 9.4,
-    "undated": -6
-   },
-   "keywords": [
-    "suspend",
-    "levy",
-    "tax"
-   ],
-   "shock_terms": [],
-   "dedupe_match": null,
-   "dedupe_similarity": 0.12,
-   "id": "aa9cd6ae3934",
-   "title": "Tea exporters get relief as TBK suspends levy on court orders The High Court has suspended Kenya\u2019s 0.8 per cent tea levy on imports and exports, halting a tax that the Tea Board of Kenya expected to raise Sh1.2 billion annually.",
-   "url": "https://www.standardmedia.co.ke/business/business/article/2001561059/tea-exporters-get-relief-as-tbk-suspends-levy-on-court-orders",
-   "summary": "",
-   "kind": "item",
-   "source": "The Standard (Kenya): business",
-   "source_id": "ke-standard-business",
-   "tier": 2,
-   "country": "KE",
-   "category": "press",
-   "segments": [
-    "city",
-    "bush",
-    "beach"
-   ],
-   "first_seen": "2026-10-31T18:22+03:00",
-   "published": null,
-   "verdict": "weak"
-  },
-  {
-   "score": 57.1,
+   "score": 65.8,
    "components": {
     "tier": 20,
     "category": 4,
     "lead": 0.0,
     "relevance": 12,
-    "freshness": 11.1,
+    "freshness": 19.8,
     "corroborated": 10
    },
    "keywords": [
-    "suspend"
+    "ebola"
    ],
    "shock_terms": [],
    "dedupe_match": null,
-   "dedupe_similarity": 0.0,
-   "id": "f1cf7baf16c8",
-   "title": "PLU halts paper endorsements for Muhoozi, vows mass countrywide expansion amid NRM succession buzz",
-   "url": "https://www.monitor.co.ug/uganda/news/national/plu-halts-paper-endorsements-for-muhoozi-vows-mass-countrywide-expansion-amid-nrm-succession-buzz-5653636",
-   "summary": "Fadil declared, confirming that physical collection of signatures has been suspended with...",
+   "dedupe_similarity": 0.17,
+   "id": "a01424cf7fb9",
+   "title": "Nigeria reports two suspected Ebola cases in northeast region",
+   "url": "https://www.monitor.co.ug/uganda/news/nigeria-reports-two-suspected-ebola-cases-in-northeast-region-5654062",
+   "summary": "The two individuals have been isolated while officials carry out contact identification...",
    "kind": "item",
    "source": "Daily Monitor (Uganda)",
    "source_id": "np-monitor-ug",
@@ -1277,8 +293,568 @@
     "bush",
     "beach"
    ],
-   "first_seen": "2026-10-31T19:57+03:00",
-   "published": "2026-10-31",
+   "first_seen": "2026-11-01T11:53+03:00",
+   "published": "2026-11-01",
+   "verdict": "weak"
+  },
+  {
+   "score": 64.2,
+   "components": {
+    "tier": 20,
+    "category": 4,
+    "lead": 2.4,
+    "relevance": 8,
+    "freshness": 19.8,
+    "corroborated": 10
+   },
+   "keywords": [
+    "flood"
+   ],
+   "shock_terms": [],
+   "dedupe_match": null,
+   "dedupe_similarity": 0.11,
+   "id": "e943c45c6e27",
+   "title": "Interior Ministry Fires Warning to Parents, Teachers Ahead of 2026 KCSE Exams",
+   "url": "https://www.kenyans.co.ke/news/129045-interior-ministry-warns-kcse-exam-frauderster-says-police-close",
+   "summary": "The 2026 KCSE examinations will begin on Monday, November 2, countrywide even parts of the country stare at growing risks of flooding.",
+   "kind": "item",
+   "source": "Kenyans.co.ke news",
+   "source_id": "ke-kenyans",
+   "tier": 2,
+   "country": "KE",
+   "category": "press",
+   "segments": [
+    "city",
+    "bush",
+    "beach"
+   ],
+   "first_seen": "2026-11-01T11:53+03:00",
+   "published": "2026-11-01",
+   "verdict": "weak"
+  },
+  {
+   "score": 64.2,
+   "components": {
+    "tier": 20,
+    "category": 4,
+    "lead": 2.4,
+    "relevance": 8,
+    "freshness": 19.8,
+    "corroborated": 10
+   },
+   "keywords": [
+    "eta"
+   ],
+   "shock_terms": [],
+   "dedupe_match": null,
+   "dedupe_similarity": 0.08,
+   "id": "8c2449714629",
+   "title": "Sports PS Reveals Fresh Details of Ajax, Bayern Clash at Talanta",
+   "url": "https://www.kenyans.co.ke/news/129043-sports-ps-says-private-sector-fund-ajax-bayern-clash",
+   "summary": "The explanation comes amid public debate over the source of funds the government would use to host the two European giants in Nairobi on January 5, 2027.",
+   "kind": "item",
+   "source": "Kenyans.co.ke news",
+   "source_id": "ke-kenyans",
+   "tier": 2,
+   "country": "KE",
+   "category": "press",
+   "segments": [
+    "city",
+    "bush",
+    "beach"
+   ],
+   "first_seen": "2026-11-01T11:53+03:00",
+   "published": "2026-11-01",
+   "verdict": "weak"
+  },
+  {
+   "score": 64.2,
+   "components": {
+    "tier": 20,
+    "category": 4,
+    "lead": 2.4,
+    "relevance": 8,
+    "freshness": 19.8,
+    "corroborated": 10
+   },
+   "keywords": [
+    "election"
+   ],
+   "shock_terms": [],
+   "dedupe_match": null,
+   "dedupe_similarity": 0.08,
+   "id": "32323611f74d",
+   "title": "Ruto Picks Former Minister, Ex-Senator in Latest Appointments",
+   "url": "https://www.kenyans.co.ke/news/129040-ruto-appoints-former-minister-njeru-ndwiga-coffee-board-chair",
+   "summary": "The former ministers and legislators will lead different state agencies, as Ruto moves to streamline and enhance government operations ahead of the 2027 General Elections.",
+   "kind": "item",
+   "source": "Kenyans.co.ke news",
+   "source_id": "ke-kenyans",
+   "tier": 2,
+   "country": "KE",
+   "category": "press",
+   "segments": [
+    "city",
+    "bush",
+    "beach"
+   ],
+   "first_seen": "2026-11-01T11:53+03:00",
+   "published": "2026-11-01",
+   "verdict": "weak"
+  },
+  {
+   "score": 64.2,
+   "components": {
+    "tier": 20,
+    "category": 4,
+    "lead": 2.4,
+    "relevance": 8,
+    "freshness": 19.8,
+    "corroborated": 10
+   },
+   "keywords": [
+    "tax"
+   ],
+   "shock_terms": [],
+   "dedupe_match": null,
+   "dedupe_similarity": 0.06,
+   "id": "e86970f2a0d7",
+   "title": "Inside New KRA's Plot to Recover Unpaid Taxes",
+   "url": "https://www.kenyans.co.ke/news/129039-kra-recover-unpaid-business-taxes-through-government-pending-bills",
+   "summary": "The authority is targeting Kenyans of all walks of life in a bid to raise revenue collections and limit the need to introduce new taxes.",
+   "kind": "item",
+   "source": "Kenyans.co.ke news",
+   "source_id": "ke-kenyans",
+   "tier": 2,
+   "country": "KE",
+   "category": "press",
+   "segments": [
+    "city",
+    "bush",
+    "beach"
+   ],
+   "first_seen": "2026-11-01T11:53+03:00",
+   "published": "2026-11-01",
+   "verdict": "weak"
+  },
+  {
+   "score": 64.2,
+   "components": {
+    "tier": 20,
+    "category": 4,
+    "lead": 2.4,
+    "relevance": 8,
+    "freshness": 19.8,
+    "corroborated": 10
+   },
+   "keywords": [
+    "election"
+   ],
+   "shock_terms": [],
+   "dedupe_match": null,
+   "dedupe_similarity": 0.2,
+   "id": "e9804263e162",
+   "title": "ODM leaders demand a signed pre-election deal with UDA",
+   "url": "https://nation.africa/kenya/videos/odm-leaders-demand-a-signed-pre-election-deal-with-uda-5654056",
+   "summary": "",
+   "kind": "item",
+   "source": "Nation Africa: Kenya business",
+   "source_id": "ke-nation-business",
+   "tier": 2,
+   "country": "KE",
+   "category": "press",
+   "segments": [
+    "city",
+    "bush",
+    "beach"
+   ],
+   "first_seen": "2026-11-01T11:53+03:00",
+   "published": "2026-11-01",
+   "verdict": "weak"
+  },
+  {
+   "score": 64.2,
+   "components": {
+    "tier": 20,
+    "category": 4,
+    "lead": 2.4,
+    "relevance": 8,
+    "freshness": 19.8,
+    "corroborated": 10
+   },
+   "keywords": [
+    "protest"
+   ],
+   "shock_terms": [],
+   "dedupe_match": null,
+   "dedupe_similarity": 0.08,
+   "id": "00f41ddcf3e9",
+   "title": "Gen Z-led protests in Germany turn violent as rioters loot stores in Frankfurt",
+   "url": "https://nation.africa/kenya/news/world/gen-z-led-protests-in-germany-turn-violent-as-rioters-loot-stores-in-frankfurt--5654046",
+   "summary": "The German protests took place in 34 cities including Berlin, Frankfurt and Munich.",
+   "kind": "item",
+   "source": "Nation Africa: Kenya business",
+   "source_id": "ke-nation-business",
+   "tier": 2,
+   "country": "KE",
+   "category": "press",
+   "segments": [
+    "city",
+    "bush",
+    "beach"
+   ],
+   "first_seen": "2026-11-01T11:53+03:00",
+   "published": "2026-11-01",
+   "verdict": "weak"
+  },
+  {
+   "score": 64.2,
+   "components": {
+    "tier": 20,
+    "category": 4,
+    "lead": 2.4,
+    "relevance": 8,
+    "freshness": 19.8,
+    "corroborated": 10
+   },
+   "keywords": [
+    "fee"
+   ],
+   "shock_terms": [],
+   "dedupe_match": null,
+   "dedupe_similarity": 0.0,
+   "id": "38af2ac955f1",
+   "title": "Opposition must offer an economic alternative",
+   "url": "https://nation.africa/kenya/blogs-opinion/opinion/opposition-must-offer-an-economic-alternative-5653722",
+   "summary": "Opposition should guarantee free day secondary education. Fees burden households and interrupt...",
+   "kind": "item",
+   "source": "Nation Africa: Kenya business",
+   "source_id": "ke-nation-business",
+   "tier": 2,
+   "country": "KE",
+   "category": "press",
+   "segments": [
+    "city",
+    "bush",
+    "beach"
+   ],
+   "first_seen": "2026-11-01T11:53+03:00",
+   "published": "2026-11-01",
+   "verdict": "weak"
+  },
+  {
+   "score": 64.2,
+   "components": {
+    "tier": 20,
+    "category": 4,
+    "lead": 2.4,
+    "relevance": 8,
+    "freshness": 19.8,
+    "corroborated": 10
+   },
+   "keywords": [
+    "vat"
+   ],
+   "shock_terms": [],
+   "dedupe_match": null,
+   "dedupe_similarity": 0.0,
+   "id": "098ab1c15f70",
+   "title": "Our problem with Ruto education reforms: What unions, private schools, parents want changed",
+   "url": "https://nation.africa/kenya/news/education/our-problem-with-ruto-education-reforms-what-unions-private-schools-parents-want-changed-5653828",
+   "summary": "The Bills, which are undergoing public participation, seek to overhaul the Education sector.",
+   "kind": "item",
+   "source": "Nation Africa: Kenya business",
+   "source_id": "ke-nation-business",
+   "tier": 2,
+   "country": "KE",
+   "category": "press",
+   "segments": [
+    "city",
+    "bush",
+    "beach"
+   ],
+   "first_seen": "2026-11-01T11:53+03:00",
+   "published": "2026-11-01",
+   "verdict": "weak"
+  },
+  {
+   "score": 62.2,
+   "components": {
+    "tier": 5,
+    "category": 5,
+    "lead": 2.4,
+    "relevance": 20,
+    "freshness": 19.8,
+    "corroborated": 10
+   },
+   "keywords": [
+    "fuel",
+    "seat",
+    "airline"
+   ],
+   "shock_terms": [],
+   "dedupe_match": null,
+   "dedupe_similarity": 0.07,
+   "id": "aba48c43784c",
+   "title": "Alaska Airlines Financial Crisis Deepens as $700 Million Loss Warning and 200 Job Cuts Threaten Seattle\u2019s Global Expansion",
+   "url": "https://www.travelandtourworld.com/news/article/yit46y7tofew",
+   "summary": "Alaska Airlines Financial Crisis Deepens as $700 Million Loss Warning and 200 Job Cuts Threaten Seattle\u2019s Global Expansion Alaska Airlines warns of a potential $700 million loss, cuts 200 jobs and faces rising fuel costs amid ambitious expansion plans. The post Alaska Airlines Financial Crisis Deepens as $700 Million Loss Warning and 200 Job Cuts Threaten Seattle\u2019s Global Expansion appeared first ",
+   "kind": "item",
+   "source": "Travel And Tour World",
+   "source_id": "gl-travelandtourworld",
+   "tier": 3,
+   "country": "GLOBAL",
+   "category": "trade",
+   "segments": [
+    "city",
+    "bush",
+    "beach"
+   ],
+   "first_seen": "2026-11-01T11:53+03:00",
+   "published": "2026-11-01",
+   "verdict": "weak"
+  },
+  {
+   "score": 61.8,
+   "components": {
+    "tier": 20,
+    "category": 4,
+    "lead": 0.0,
+    "relevance": 8,
+    "freshness": 19.8,
+    "corroborated": 10
+   },
+   "keywords": [
+    "eta"
+   ],
+   "shock_terms": [],
+   "dedupe_match": null,
+   "dedupe_similarity": 0.12,
+   "id": "886332c65dd2",
+   "title": "Past & Present: UK\u2019s House of Lords discusses Uganda human rights situation",
+   "url": "https://www.monitor.co.ug/uganda/magazines/people-power/past-present-uk-s-house-of-lords-discusses-uganda-human-rights-situation-5654084",
+   "summary": "At the time, details of a report that Amnesty International was compiling on the human rights...",
+   "kind": "item",
+   "source": "Daily Monitor (Uganda)",
+   "source_id": "np-monitor-ug",
+   "tier": 2,
+   "country": "UG",
+   "category": "press",
+   "segments": [
+    "city",
+    "bush",
+    "beach"
+   ],
+   "first_seen": "2026-11-01T11:53+03:00",
+   "published": "2026-11-01",
+   "verdict": "weak"
+  },
+  {
+   "score": 60.2,
+   "components": {
+    "tier": 20,
+    "category": 4,
+    "lead": 2.4,
+    "relevance": 4,
+    "freshness": 19.8,
+    "corroborated": 10
+   },
+   "keywords": [
+    "franc"
+   ],
+   "shock_terms": [],
+   "dedupe_match": null,
+   "dedupe_similarity": 0.0,
+   "id": "753365d84690",
+   "title": "Is France the sick man of Europe?",
+   "url": "https://nation.africa/kenya/blogs-opinion/opinion/is-france-the-sick-man-of-europe--5653694",
+   "summary": "As the French Empire has shrunk, so has its influence at home and abroad.",
+   "kind": "item",
+   "source": "Nation Africa: Kenya business",
+   "source_id": "ke-nation-business",
+   "tier": 2,
+   "country": "KE",
+   "category": "press",
+   "segments": [
+    "city",
+    "bush",
+    "beach"
+   ],
+   "first_seen": "2026-11-01T11:53+03:00",
+   "published": "2026-11-01",
+   "verdict": "weak"
+  },
+  {
+   "score": 60.2,
+   "components": {
+    "tier": 20,
+    "category": 4,
+    "lead": 2.4,
+    "relevance": 4,
+    "freshness": 19.8,
+    "corroborated": 10
+   },
+   "keywords": [
+    "camp"
+   ],
+   "shock_terms": [],
+   "dedupe_match": null,
+   "dedupe_similarity": 0.0,
+   "id": "9666a4cd979b",
+   "title": "Courting Kalonzo: Why Ruto camp wants Wiper boss",
+   "url": "https://nation.africa/kenya/news/politics/courting-kalonzo-why-ruto-camp-wants-wiper-boss-5653898",
+   "summary": "President Ruto has made open overtures targeting the Wiper leader.",
+   "kind": "item",
+   "source": "Nation Africa: Kenya business",
+   "source_id": "ke-nation-business",
+   "tier": 2,
+   "country": "KE",
+   "category": "press",
+   "segments": [
+    "city",
+    "bush",
+    "beach"
+   ],
+   "first_seen": "2026-11-01T11:53+03:00",
+   "published": "2026-11-01",
+   "verdict": "weak"
+  },
+  {
+   "score": 60.2,
+   "components": {
+    "tier": 20,
+    "category": 4,
+    "lead": 2.4,
+    "relevance": 4,
+    "freshness": 19.8,
+    "corroborated": 10
+   },
+   "keywords": [
+    "shilling"
+   ],
+   "shock_terms": [],
+   "dedupe_match": null,
+   "dedupe_similarity": 0.0,
+   "id": "8fc791379aa8",
+   "title": "Curb county negligence",
+   "url": "https://nation.africa/kenya/blogs-opinion/editorials/curb-county-negligence-5654004",
+   "summary": "County governments have been ordered to pay millions of shillings in compensation for unfair...",
+   "kind": "item",
+   "source": "Nation Africa: Kenya business",
+   "source_id": "ke-nation-business",
+   "tier": 2,
+   "country": "KE",
+   "category": "press",
+   "segments": [
+    "city",
+    "bush",
+    "beach"
+   ],
+   "first_seen": "2026-11-01T11:53+03:00",
+   "published": "2026-11-01",
+   "verdict": "weak"
+  },
+  {
+   "score": 60.0,
+   "components": {
+    "tier": 20,
+    "category": 5,
+    "lead": 1.2,
+    "relevance": 4,
+    "freshness": 19.8,
+    "corroborated": 10
+   },
+   "keywords": [
+    "investment"
+   ],
+   "shock_terms": [],
+   "dedupe_match": null,
+   "dedupe_similarity": 0.08,
+   "id": "20559b7fdb75",
+   "title": "Dar es Salaam Stock Exchange Week 44 of 2026: Equity Turnover Surges +147.30% to TZS 41.66 Billion as NMG (+30.23%) Leads as Best Stock Performer",
+   "url": "https://www.tanzaniainvest.com/finance/capitalmarkets/dse-exchange-report-week-44-2026",
+   "summary": "Equity turnover at the Dar es Salaam Stock Exchange surged +147.30% week-on-week to TZS 41.66 billion during Week 44 of 2026, with 18,522,653 shares changing hands across 18,746 deals. NMG advanced +30.23%, PAL gained +5.45%, and TTP rose +4.00%, while USL fell -16.67%, MBP declined -8.96%, and NMB slipped -6.67%. Total market capitalisation stood at TZS 38,567.91 billion as the DSEI moved -2.53% ",
+   "kind": "item",
+   "source": "TanzaniaInvest \u2014 tourism",
+   "source_id": "tp-tanzaniainvest",
+   "tier": 2,
+   "country": "TZ",
+   "category": "trade",
+   "segments": [
+    "city",
+    "bush",
+    "beach"
+   ],
+   "first_seen": "2026-11-01T11:53+03:00",
+   "published": "2026-11-01",
+   "verdict": "weak"
+  },
+  {
+   "score": 57.8,
+   "components": {
+    "tier": 20,
+    "category": 4,
+    "lead": 0.0,
+    "relevance": 4,
+    "freshness": 19.8,
+    "corroborated": 10
+   },
+   "keywords": [
+    "investment"
+   ],
+   "shock_terms": [],
+   "dedupe_match": null,
+   "dedupe_similarity": 0.0,
+   "id": "07759a03da1e",
+   "title": "Land values around Government City set to rise",
+   "url": "https://dailynews.co.tz/land-values-around-government-city-set-to-rise",
+   "summary": "DODOMA: LAND values in areas surrounding Mtumba Government City are expected to appreciate as the new administrative hub attracts more residents, businesses and investment, raising expectations of improved social services and infrastructure. Residents and property investors say the development is creating opportunities in real estate, hospitality, commecial buildings and residential settlements as",
+   "kind": "item",
+   "source": "Daily News (Tanzania)",
+   "source_id": "np-dailynews-tz",
+   "tier": 2,
+   "country": "TZ",
+   "category": "press",
+   "segments": [
+    "city",
+    "bush",
+    "beach"
+   ],
+   "first_seen": "2026-11-01T11:53+03:00",
+   "published": "2026-11-01",
+   "verdict": "weak"
+  },
+  {
+   "score": 56.2,
+   "components": {
+    "tier": 20,
+    "category": 4,
+    "lead": 2.4,
+    "relevance": 0,
+    "freshness": 19.8,
+    "corroborated": 10
+   },
+   "keywords": [],
+   "shock_terms": [],
+   "dedupe_match": null,
+   "dedupe_similarity": 0.14,
+   "id": "3c4a9288f7fd",
+   "title": "How Much the Highest-Paid TSC Teachers Earn",
+   "url": "https://www.kenyans.co.ke/news/129044-how-much-kenyas-highest-paid-teachers-earn-under-new-tsc-salary-structure",
+   "summary": "Teachers are among the key public servants and form a good chunk of the annual recurrent budget from figures shared by the Treasury.",
+   "kind": "item",
+   "source": "Kenyans.co.ke news",
+   "source_id": "ke-kenyans",
+   "tier": 2,
+   "country": "KE",
+   "category": "press",
+   "segments": [
+    "city",
+    "bush",
+    "beach"
+   ],
+   "first_seen": "2026-11-01T11:53+03:00",
+   "published": "2026-11-01",
    "verdict": "weak"
   },
   {
@@ -1295,10 +871,109 @@
    "shock_terms": [],
    "dedupe_match": null,
    "dedupe_similarity": 0.12,
-   "id": "af8bb2cd53d9",
-   "title": "Few people have the courage to acknowledge error and the wisdom to seek peace",
-   "url": "https://www.independent.co.ug/few-people-have-the-courage-to-acknowledge-error-and-the-wisdom-to-seek-peace",
-   "summary": "COMMENT | CRISPIN KAHERU | Twenty-seven years ago, long before Uganda\u2019s present debates about political reconciliation, General Salim Saleh articulated a remarkably profound philosophy of leadership. It was a philosophy rooted in humility, acknowledgement of error, forgiveness and the courage to begin again. His Tarehe Sita Statement of 6 February 1999, titled From Fighting Dictatorship \u2026 The post",
+   "id": "f9e2e3cace67",
+   "title": "World Bank Flags UoN Master's Course With Little Change Since 1971",
+   "url": "https://www.kenyans.co.ke/news/129041-world-bank-flags-uon-masters-course-little-change-1971",
+   "summary": "The World Bank has warned the university and the country over the course, which has specialised postgraduate programmes, attracting students seeking to advance their careers.",
+   "kind": "item",
+   "source": "Kenyans.co.ke news",
+   "source_id": "ke-kenyans",
+   "tier": 2,
+   "country": "KE",
+   "category": "press",
+   "segments": [
+    "city",
+    "bush",
+    "beach"
+   ],
+   "first_seen": "2026-11-01T11:53+03:00",
+   "published": "2026-11-01",
+   "verdict": "weak"
+  },
+  {
+   "score": 56.2,
+   "components": {
+    "tier": 20,
+    "category": 4,
+    "lead": 2.4,
+    "relevance": 0,
+    "freshness": 19.8,
+    "corroborated": 10
+   },
+   "keywords": [],
+   "shock_terms": [],
+   "dedupe_match": null,
+   "dedupe_similarity": 0.08,
+   "id": "4c85d539a4a5",
+   "title": "University Put on the Spot Over Honorary Degree for Sitting Governor",
+   "url": "https://www.kenyans.co.ke/news/129038-cofek-moves-court-challenge-lusakas-planned-honorary-degree",
+   "summary": "Awards of honorary degrees to political figures has been a subject of contention for a while now, with COFEK now seeking a fresh presedent to settle the matter.",
+   "kind": "item",
+   "source": "Kenyans.co.ke news",
+   "source_id": "ke-kenyans",
+   "tier": 2,
+   "country": "KE",
+   "category": "press",
+   "segments": [
+    "city",
+    "bush",
+    "beach"
+   ],
+   "first_seen": "2026-11-01T11:53+03:00",
+   "published": "2026-11-01",
+   "verdict": "weak"
+  },
+  {
+   "score": 56.2,
+   "components": {
+    "tier": 20,
+    "category": 4,
+    "lead": 2.4,
+    "relevance": 0,
+    "freshness": 19.8,
+    "corroborated": 10
+   },
+   "keywords": [],
+   "shock_terms": [],
+   "dedupe_match": null,
+   "dedupe_similarity": 0.08,
+   "id": "b84cbdf306de",
+   "title": "Kalonzo Sends Warning After Heckling at Sifuna Event",
+   "url": "https://www.kenyans.co.ke/news/129037-kalonzo-warns-wiper-members-after-heckling-linda-mwananchi-unveiling",
+   "summary": "On Friday, during the Linda Mwananchi event, Kalonzo faced a fierce crowd after he was heckled while making his remarks at the podium, raising questions over opposition unity.",
+   "kind": "item",
+   "source": "Kenyans.co.ke news",
+   "source_id": "ke-kenyans",
+   "tier": 2,
+   "country": "KE",
+   "category": "press",
+   "segments": [
+    "city",
+    "bush",
+    "beach"
+   ],
+   "first_seen": "2026-11-01T11:53+03:00",
+   "published": "2026-11-01",
+   "verdict": "weak"
+  },
+  {
+   "score": 56.2,
+   "components": {
+    "tier": 20,
+    "category": 4,
+    "lead": 2.4,
+    "relevance": 0,
+    "freshness": 19.8,
+    "corroborated": 10
+   },
+   "keywords": [],
+   "shock_terms": [],
+   "dedupe_match": null,
+   "dedupe_similarity": 0.14,
+   "id": "3202c4ad31be",
+   "title": "Japan\u2019s expensive funerals and declining birth rates are transforming ancestral traditions",
+   "url": "https://www.independent.co.ug/japans-expensive-funerals-and-declining-birth-rates-are-transforming-ancestral-traditions",
+   "summary": "Many Japanese are thinking about whether to continue burial traditions that place on their relatives financial and emotional costs associated with maintaining the family grave COMMETN | MIMI HANAOKA | Whenever I drive amid the mazelike bustle of Tokyo\u2019s Shuto Expressway, where approximately 1 million vehicles transit daily, I see billboard advertisements for all manner \u2026 The post Japan\u2019s expensive",
    "kind": "item",
    "source": "The Independent (Uganda)",
    "source_id": "ug-independent",
@@ -1310,118 +985,405 @@
     "bush",
     "beach"
    ],
-   "first_seen": "2026-11-01T03:48+03:00",
-   "published": "2026-10-31",
+   "first_seen": "2026-11-01T11:53+03:00",
+   "published": "2026-11-01",
    "verdict": "weak"
   },
   {
    "score": 56.2,
    "components": {
-    "tier": 5,
-    "category": 5,
+    "tier": 20,
+    "category": 24,
     "lead": 2.4,
-    "relevance": 20,
-    "freshness": 13.8,
-    "corroborated": 10
+    "relevance": 0,
+    "freshness": 19.8,
+    "undated": -6,
+    "page_change": -4
    },
-   "keywords": [
-    "tax",
-    "eta",
-    "flight"
-   ],
+   "keywords": [],
    "shock_terms": [],
    "dedupe_match": null,
    "dedupe_similarity": 0.07,
-   "id": "0bbebec3dc92",
-   "title": "Florida Launches Historic Electric Air Taxi Flights Across Tampa Bay as Joby and BETA Transform Future US Travel in 2026",
-   "url": "https://www.travelandtourworld.com/news/article/re85ro9dgkjr",
-   "summary": "Florida Launches Historic Electric Air Taxi Flights Across Tampa Bay as Joby and BETA Transform Future US Travel in 2026 Florida launches historic electric air taxi flights across Tampa Bay as Joby Aviation and BETA Technologies advance the future of US travel in 2026. The post Florida Launches Historic Electric Air Taxi Flights Across Tampa Bay as Joby and BETA Transform Future US Travel in 2026 ",
-   "kind": "item",
-   "source": "Travel And Tour World",
-   "source_id": "gl-travelandtourworld",
-   "tier": 3,
+   "id": "8f4f9b5ba0ef",
+   "title": "[page changed] ProMED-mail",
+   "url": "https://promedmail.org/",
+   "summary": "Protecting Global Health, One Alert at a Time | ProMED Previous slide Next slide Protecting Global Health, One Alert at a Time ProMED: Your 24/7 early warning system for emerging infectious diseases worldwide. Subscribe ProMED's Weekly Pulse A snapshot of global health events from the past 7 days Latest Posts on ProMED All Date Title Sun Nov 01 2026 SURVEILLANCE (389): USA, DRUG-RESISTANT INFECTIO",
+   "kind": "page-change",
+   "source": "ProMED-mail",
+   "source_id": "promed",
+   "tier": 2,
    "country": "GLOBAL",
-   "category": "trade",
+   "category": "health",
    "segments": [
     "city",
     "bush",
     "beach"
    ],
-   "first_seen": "2026-10-31T22:23+03:00",
-   "published": "2026-10-31",
+   "first_seen": "2026-11-01T11:53+03:00",
+   "published": null,
    "verdict": "weak"
   },
   {
-   "score": 55.8,
-   "components": {
-    "tier": 5,
-    "category": 5,
-    "lead": 0.0,
-    "relevance": 16,
-    "freshness": 19.8,
-    "corroborated": 10
-   },
-   "keywords": [
-    "hotel",
-    "resort",
-    "opening",
-    "guest"
-   ],
-   "shock_terms": [],
-   "dedupe_match": null,
-   "dedupe_similarity": 0.0,
-   "id": "5e6adc1bfaff",
-   "title": "Marriott, Hilton, Hyatt and WorldHotels Shake Up Global Hospitality: New Luxury Hotels, Bigger Portfolios and a Battle for Guests",
-   "url": "https://eturbonews.com/global-hotel-hospitality-news-october-25-31-2026",
-   "summary": "From a glamorous new EDITION hotel in Cape Town to a Thompson debut in Rome, the world's hotel industry had another busy week. Hilton and Hyatt revealed impressive financial numbers, Wyndham moved into vacation homes, and WorldHotels announced a major brand transformation. New resorts are coming to Portugal and T\u00fcrkiye, while hospitality executives are changing jobs from the Maldives to Los Angele",
-   "kind": "item",
-   "source": "eTurboNews Africa",
-   "source_id": "tp-eturbonews",
-   "tier": 3,
-   "country": "GLOBAL",
-   "category": "trade",
-   "segments": [
-    "city",
-    "bush",
-    "beach"
-   ],
-   "first_seen": "2026-11-01T03:48+03:00",
-   "published": "2026-10-31",
-   "verdict": "weak"
-  },
-  {
-   "score": 55.8,
+   "score": 56.2,
    "components": {
     "tier": 20,
     "category": 4,
-    "lead": 0.0,
-    "relevance": 8,
-    "freshness": 13.8,
+    "lead": 2.4,
+    "relevance": 0,
+    "freshness": 19.8,
     "corroborated": 10
    },
-   "keywords": [
-    "tax"
-   ],
+   "keywords": [],
    "shock_terms": [],
    "dedupe_match": null,
-   "dedupe_similarity": 0.14,
-   "id": "1d5cb1a31f50",
-   "title": "Why it\u2019s cheaper to call China, US from East Africa than within bloc",
-   "url": "https://www.theeastafrican.co.ke/tea/business-tech/why-it-s-cheaper-to-call-china-us-from-east-africa-5653134",
-   "summary": "Uneven implementation of One Network Area deal, policy differences, taxes and high...",
+   "dedupe_similarity": 0.0,
+   "id": "c4413ffdd588",
+   "title": "Silent divorce: When couples drift apart without realising it",
+   "url": "https://nation.africa/kenya/life-and-style/lifestyle/silent-divorce-when-couples-drift-apart-without-realising-it-5653370",
+   "summary": "You may not fight or argue but fading affection, shallow conversations and growing emotional...",
    "kind": "item",
-   "source": "The EastAfrican",
-   "source_id": "np-eastafrican",
+   "source": "Nation Africa: Kenya business",
+   "source_id": "ke-nation-business",
    "tier": 2,
-   "country": "REG",
+   "country": "KE",
    "category": "press",
    "segments": [
     "city",
     "bush",
     "beach"
    ],
-   "first_seen": "2026-10-31T22:23+03:00",
-   "published": "2026-10-31",
+   "first_seen": "2026-11-01T11:53+03:00",
+   "published": "2026-12-01",
+   "verdict": "weak"
+  },
+  {
+   "score": 56.2,
+   "components": {
+    "tier": 20,
+    "category": 4,
+    "lead": 2.4,
+    "relevance": 0,
+    "freshness": 19.8,
+    "corroborated": 10
+   },
+   "keywords": [],
+   "shock_terms": [],
+   "dedupe_match": null,
+   "dedupe_similarity": 0.0,
+   "id": "3d0cecf32728",
+   "title": "Talk of Town: MPs pocket crowd mobilisation cash, dampening mood at city event",
+   "url": "https://nation.africa/kenya/news/politics/talk-of-town-mps-pocket-crowd-mobilisation-cash-dampening-mood-at-city-event-5654094",
+   "summary": "In other news, politicians are buzzing over a curvaceous female entertainer.",
+   "kind": "item",
+   "source": "Nation Africa: Kenya business",
+   "source_id": "ke-nation-business",
+   "tier": 2,
+   "country": "KE",
+   "category": "press",
+   "segments": [
+    "city",
+    "bush",
+    "beach"
+   ],
+   "first_seen": "2026-11-01T11:53+03:00",
+   "published": "2026-11-01",
+   "verdict": "weak"
+  },
+  {
+   "score": 56.2,
+   "components": {
+    "tier": 20,
+    "category": 4,
+    "lead": 2.4,
+    "relevance": 0,
+    "freshness": 19.8,
+    "corroborated": 10
+   },
+   "keywords": [],
+   "shock_terms": [],
+   "dedupe_match": null,
+   "dedupe_similarity": 0.0,
+   "id": "907b445f3c22",
+   "title": "Priest uses rap, farming and sheng to reach the youth",
+   "url": "https://nation.africa/kenya/videos/priest-uses-rap-farming-and-sheng-to-reach-the-youth-5654086",
+   "summary": "",
+   "kind": "item",
+   "source": "Nation Africa: Kenya business",
+   "source_id": "ke-nation-business",
+   "tier": 2,
+   "country": "KE",
+   "category": "press",
+   "segments": [
+    "city",
+    "bush",
+    "beach"
+   ],
+   "first_seen": "2026-11-01T11:53+03:00",
+   "published": "2026-11-01",
+   "verdict": "weak"
+  },
+  {
+   "score": 56.2,
+   "components": {
+    "tier": 20,
+    "category": 4,
+    "lead": 2.4,
+    "relevance": 0,
+    "freshness": 19.8,
+    "corroborated": 10
+   },
+   "keywords": [],
+   "shock_terms": [],
+   "dedupe_match": null,
+   "dedupe_similarity": 0.25,
+   "id": "7878a34ccf67",
+   "title": "Sifuna rallies coast for 2027",
+   "url": "https://nation.africa/kenya/videos/-sifuna-rallies-coast-for-2027-5654054",
+   "summary": "",
+   "kind": "item",
+   "source": "Nation Africa: Kenya business",
+   "source_id": "ke-nation-business",
+   "tier": 2,
+   "country": "KE",
+   "category": "press",
+   "segments": [
+    "city",
+    "bush",
+    "beach"
+   ],
+   "first_seen": "2026-11-01T11:53+03:00",
+   "published": "2026-11-01",
+   "verdict": "weak"
+  },
+  {
+   "score": 56.2,
+   "components": {
+    "tier": 20,
+    "category": 4,
+    "lead": 2.4,
+    "relevance": 0,
+    "freshness": 19.8,
+    "corroborated": 10
+   },
+   "keywords": [],
+   "shock_terms": [],
+   "dedupe_match": null,
+   "dedupe_similarity": 0.0,
+   "id": "7897c9391a89",
+   "title": "Kalonzo accuses allies of letting Ruto gain Ukambani ground",
+   "url": "https://nation.africa/kenya/videos/-kalonzo-accuses-allies-of-letting-ruto-gain-ukambani-ground-5654050",
+   "summary": "",
+   "kind": "item",
+   "source": "Nation Africa: Kenya business",
+   "source_id": "ke-nation-business",
+   "tier": 2,
+   "country": "KE",
+   "category": "press",
+   "segments": [
+    "city",
+    "bush",
+    "beach"
+   ],
+   "first_seen": "2026-11-01T11:53+03:00",
+   "published": "2026-11-01",
+   "verdict": "weak"
+  },
+  {
+   "score": 56.2,
+   "components": {
+    "tier": 20,
+    "category": 4,
+    "lead": 2.4,
+    "relevance": 0,
+    "freshness": 19.8,
+    "corroborated": 10
+   },
+   "keywords": [],
+   "shock_terms": [],
+   "dedupe_match": null,
+   "dedupe_similarity": 0.2,
+   "id": "01f10e51a16c",
+   "title": "Fifa cautions Kenya over football disputes taken to ordinary courts",
+   "url": "https://nation.africa/kenya/sports/football/fifa-cautions-kenya-over-football-disputes-taken-to-ordinary-courts-5654010",
+   "summary": "Fifa sent a warning letter to FKF and Confederation of African Football (CAF) in October.",
+   "kind": "item",
+   "source": "Nation Africa: Kenya business",
+   "source_id": "ke-nation-business",
+   "tier": 2,
+   "country": "KE",
+   "category": "press",
+   "segments": [
+    "city",
+    "bush",
+    "beach"
+   ],
+   "first_seen": "2026-11-01T11:53+03:00",
+   "published": "2026-11-01",
+   "verdict": "weak"
+  },
+  {
+   "score": 56.2,
+   "components": {
+    "tier": 20,
+    "category": 4,
+    "lead": 2.4,
+    "relevance": 0,
+    "freshness": 19.8,
+    "corroborated": 10
+   },
+   "keywords": [],
+   "shock_terms": [],
+   "dedupe_match": null,
+   "dedupe_similarity": 0.0,
+   "id": "90d10f86d61d",
+   "title": "From refugee to entrepreneur: Mubalama Adelle builds a thriving tailoring business in Kakuma",
+   "url": "https://nation.africa/kenya/news/gender/from-refugee-to-entrepreneur-mubalama-adelle-builds-a-thriving-tailoring-business-in-kakuma-5652340",
+   "summary": "Adelle lost everything when she fled the DRC. In Kakuma, she found a sewing machine, a loan and...",
+   "kind": "item",
+   "source": "Nation Africa: Kenya business",
+   "source_id": "ke-nation-business",
+   "tier": 2,
+   "country": "KE",
+   "category": "press",
+   "segments": [
+    "city",
+    "bush",
+    "beach"
+   ],
+   "first_seen": "2026-11-01T11:53+03:00",
+   "published": "2026-11-01",
+   "verdict": "weak"
+  },
+  {
+   "score": 56.2,
+   "components": {
+    "tier": 20,
+    "category": 4,
+    "lead": 2.4,
+    "relevance": 0,
+    "freshness": 19.8,
+    "corroborated": 10
+   },
+   "keywords": [],
+   "shock_terms": [],
+   "dedupe_match": null,
+   "dedupe_similarity": 0.0,
+   "id": "90ccb9e9a80b",
+   "title": "What Kenyans youths can learn from Serbia and Brazil",
+   "url": "https://nation.africa/kenya/blogs-opinion/opinion/what-kenyans-youths-can-learn-from-serbia-and-brazil-5653716",
+   "summary": "Serbia asks how a movement can choose its representatives without surrendering its identity to...",
+   "kind": "item",
+   "source": "Nation Africa: Kenya business",
+   "source_id": "ke-nation-business",
+   "tier": 2,
+   "country": "KE",
+   "category": "press",
+   "segments": [
+    "city",
+    "bush",
+    "beach"
+   ],
+   "first_seen": "2026-11-01T11:53+03:00",
+   "published": "2026-11-01",
+   "verdict": "weak"
+  },
+  {
+   "score": 56.2,
+   "components": {
+    "tier": 20,
+    "category": 4,
+    "lead": 2.4,
+    "relevance": 0,
+    "freshness": 19.8,
+    "corroborated": 10
+   },
+   "keywords": [],
+   "shock_terms": [],
+   "dedupe_match": null,
+   "dedupe_similarity": 0.2,
+   "id": "dae782395a59",
+   "title": "Inaction as deaths rise: 270 mapped black spots remain unfixed on Kenya\u2019s roads",
+   "url": "https://nation.africa/kenya/news/inaction-as-deaths-rise-270-mapped-black-spots-remain-unfixed-on-kenya-s-roads-5653866",
+   "summary": "The increasing accidents and deaths point to an entrenched systemic crisis.",
+   "kind": "item",
+   "source": "Nation Africa: Kenya business",
+   "source_id": "ke-nation-business",
+   "tier": 2,
+   "country": "KE",
+   "category": "press",
+   "segments": [
+    "city",
+    "bush",
+    "beach"
+   ],
+   "first_seen": "2026-11-01T11:53+03:00",
+   "published": "2026-11-01",
+   "verdict": "weak"
+  },
+  {
+   "score": 56.2,
+   "components": {
+    "tier": 20,
+    "category": 4,
+    "lead": 2.4,
+    "relevance": 0,
+    "freshness": 19.8,
+    "corroborated": 10
+   },
+   "keywords": [],
+   "shock_terms": [],
+   "dedupe_match": null,
+   "dedupe_similarity": 0.08,
+   "id": "bf19ec9d659d",
+   "title": "Inside Murkomen, IG Kanja 2027 poll security plan",
+   "url": "https://nation.africa/kenya/news/inside-murkomen-ig-kanja-2027-poll-security-plan-5653932",
+   "summary": "Security agencies have intensified operations against criminal elements ahead of the 2027 polls.",
+   "kind": "item",
+   "source": "Nation Africa: Kenya business",
+   "source_id": "ke-nation-business",
+   "tier": 2,
+   "country": "KE",
+   "category": "press",
+   "segments": [
+    "city",
+    "bush",
+    "beach"
+   ],
+   "first_seen": "2026-11-01T11:53+03:00",
+   "published": "2026-11-01",
+   "verdict": "weak"
+  },
+  {
+   "score": 56.2,
+   "components": {
+    "tier": 20,
+    "category": 4,
+    "lead": 2.4,
+    "relevance": 0,
+    "freshness": 19.8,
+    "corroborated": 10
+   },
+   "keywords": [],
+   "shock_terms": [],
+   "dedupe_match": null,
+   "dedupe_similarity": 0.0,
+   "id": "a2e37f9cb823",
+   "title": "Lasting peace in North Rift must go beyond security operations",
+   "url": "https://nation.africa/kenya/blogs-opinion/blogs/lasting-peace-in-north-rift-must-go-beyond-security-operations-5653974",
+   "summary": "Security operations must also restore access to essential services and economic opportunities.",
+   "kind": "item",
+   "source": "Nation Africa: Kenya business",
+   "source_id": "ke-nation-business",
+   "tier": 2,
+   "country": "KE",
+   "category": "press",
+   "segments": [
+    "city",
+    "bush",
+    "beach"
+   ],
+   "first_seen": "2026-11-01T11:53+03:00",
+   "published": "2026-11-01",
    "verdict": "weak"
   }
  ]
