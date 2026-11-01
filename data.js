@@ -1,5 +1,14 @@
 window.EDITIONS = [
  {
+  "id": "foresight-2026-11-01",
+  "date": "2026-11-01",
+  "dateDisplay": "Sunday, 1 November 2026",
+  "edition": "Sunday Foresight",
+  "editionKey": "foresight",
+  "summary": "KENYA'S INFLATION IS 7.3%, AND TRANSPORT IS 17.1%",
+  "bodyHtml": "<p><strong>Kenya&#x27;s inflation hit 7.3% on 17.1% dearer transport, and with the shilling flat, 2027 dollar rates are losing margin before Ebola costs a single booking</strong><br><em>🏨 EA Hospitality Pulse · Sunday Foresight · Sun 1 Nov 2026</em></p>\n<p>The month&#x27;s argument has been about demand: Level 3, nine Ebola cases, a boarding form. The number that landed on 30 October was about cost. Kenya&#x27;s annual inflation rose to 7.3% from 6.8%, the highest since July 2023, with transport up 17.1% and diesel up 32.5% on a year earlier <strong>(KNBS, 30 Oct)</strong>. Core inflation is only 4.3%. Non-core, meaning food and fuel, is 15.1%.</p>\n<p><strong>What everyone is missing:</strong> that split matters more than the headline. A fuel-and-food shock is not a wage shock, so it lands on lines a lodge cannot trim: transfers, game drives, generators, provisions. The shilling was KSh129.91 to the dollar on 22 October, against 129.81 a week earlier <strong>(CBK, 23 Oct)</strong>. With the currency still, local inflation is dollar cost for anything bought in shillings, so 2027 dollar rates set on spring costs are quietly marked down. That is our inference.<br>━━━━━━━━━<br>THE WEEK&#x27;S SIGNALS</p>\n<p><span class=\"item-head\">1️⃣ KENYA&#x27;S INFLATION IS 7.3%, AND TRANSPORT IS 17.1%</span><br>Food 10.2%, prices up 0.7% on the month <strong>(KNBS, 30 Oct)</strong>. The Central Bank held at 8.75% on 7 Oct.<br><span class=\"sowhat\">🎯 So what: re-cost transfers and provisions before you quote 2027.</span><br><span class=\"tagline\">🏷 City, Bush, Beach | 🇰🇪 | Confirmed (figures) / Inference (rate-card effect) | impact:margin</span></p>\n<p><span class=\"item-head\">2️⃣ THE 8% FUEL VAT HAS A DATE, AND BY OUR COUNT IT IS ABOUT 12 JANUARY</span><br>EPRA&#x27;s 15 Oct to 14 Nov prices: diesel KSh227.76, petrol 226.96 <strong>(Capital FM, 16 Oct)</strong>. The Act signed 16 Oct extends 8% for 90 days from 14 Oct. At 16%, our arithmetic puts diesel near KSh244.6, up 7.4%.<br><span class=\"sowhat\">🎯 So what: price a no-relief case.</span><br><span class=\"tagline\">🏷 Bush, City, Beach | 🇰🇪 | Confirmed (prices, Act) / Inference (end date, cliff) | impact:margin</span></p>\n<p><span class=\"item-head\">3️⃣ KENYA&#x27;S ACCOMMODATION AND FOOD GROWTH ROUGHLY HALVED IN Q2</span><br>Accommodation and food services grew 7.4% in the second quarter, down from 14.7% in the first <strong>(CBK bulletin, 23 Oct)</strong>. That is sector growth, not occupancy.<br><span class=\"sowhat\">🎯 So what: it predates Level 3.</span><br><span class=\"tagline\">🏷 City, Bush, Beach | 🇰🇪 | Confirmed (figures) / Inference (cause) | impact:watch</span></p>\n<p><span class=\"item-head\">4️⃣ RWANDA&#x27;S URBAN PRICES ARE UP 17.2%, TANZANIA&#x27;S 4.3%</span><br>Rwanda&#x27;s September urban index: hotels and restaurants 18.9%, energy 45.0% <strong>(NISR, 10 Oct)</strong>. Tanzania 4.3%, transport 14.0% <strong>(NBS, September)</strong>. Uganda&#x27;s policy rate: 12.0%. Local currency.<br><span class=\"sowhat\">🎯 So what: Tanzania&#x27;s edge is the headline, not fuel.</span><br><span class=\"tagline\">🏷 City, Bush | 🇷🇼 🇹🇿 🇺🇬 | Confirmed (indices) / Inference (competitiveness) | impact:margin</span></p>\n<p><span class=\"item-head\">5️⃣ ZANZIBAR&#x27;S AUGUST: 124,481 ARRIVALS, UP 18%, AMERICAS DOWN 29%</span><br>Occupancy est. 92.9% from declared stays, one peak month <strong>(OCGS, 8 Sep)</strong>. Europe supplied 58.1%.<br><span class=\"sowhat\">🎯 So what: the island sells on Europe.</span><br><span class=\"tagline\">🏷 Beach | 🇹🇿 | Confirmed (release) / Inference (read) | impact:demand</span><br>━━━━━━━━━<br>🔎 Blind spots: UK Kenya, Canadian, German, French advice; Africa CDC; KCAA; three gazettes.</p>\n<p><span class=\"meta-line\">📡 30/90-DAY DEMAND CALENDAR</span><br>🇺🇸 3 Nov — US no-DRC boarding declaration starts. Tell US guests.<br>🇹🇿 8–9 Nov — Tanzania October CPI <strong>(pattern)</strong>. Compare with 14.0%.<br>🇷🇼 10–12 Nov — Rwanda October CPI <strong>(pattern)</strong>. Our call: above 15%.<br>🇰🇪 14 Nov — EPRA review; new prices from 15 Nov. Re-cost transfers.<br>🇷🇼 18–20 Nov — Africa Fintech Summit, Kigali. Price city rooms.<br>🇰🇪 30 Nov — KNBS November CPI (about).<br>🇰🇪 12 Jan 2027 — fuel VAT relief reaches 90 days <strong>(our arithmetic)</strong>.</p>\n<p>If diesel went to KSh244, which line of your 2027 rate card would stop covering its cost?</p>\n<p>🔗 This edition on the web: <a href=\"https://eahospitalitypulse.com/editions/foresight-2026-11-01.html\" rel=\"noopener\">eahospitalitypulse.com/editions/foresight-2026-11-01.html</a><br>💼 This week&#x27;s Big Read on LinkedIn: <a href=\"https://www.linkedin.com/company/ea-hospitality-pulse/\" rel=\"noopener\">linkedin.com/company/ea-hospitality-pulse/</a><br>— EA Hospitality Pulse | Daily intelligence for city, bush &amp; beach properties</p>"
+ },
+ {
   "id": "pulse-2026-10-31-evening",
   "date": "2026-10-31",
   "dateDisplay": "Saturday, 31 October 2026",
@@ -1342,6 +1351,108 @@ window.EDITIONS = [
  }
 ];
 window.INSIGHTS = [
+ {
+  "headline": "KENYA'S INFLATION IS 7.3%, AND TRANSPORT IS 17.1%",
+  "body": "Food 10.2%, prices up 0.7% on the month *(KNBS, 30 Oct)*. The Central Bank held at 8.75% on 7 Oct.",
+  "sowhat": "🎯 So what: re-cost transfers and provisions before you quote 2027.",
+  "segments": [
+   "city",
+   "bush",
+   "beach"
+  ],
+  "countries": "🇰🇪",
+  "confidence": "Confirmed (figures) / Inference (rate-card effect)",
+  "impact": "-margin",
+  "impactClass": "margin",
+  "intensity": 3,
+  "impactSet": "author",
+  "source": "foresight-2026-11-01",
+  "date": "2026-11-01",
+  "dateDisplay": "Sunday, 1 November 2026",
+  "edition": "Sunday Foresight",
+  "editionKey": "foresight"
+ },
+ {
+  "headline": "THE 8% FUEL VAT HAS A DATE, AND BY OUR COUNT IT IS ABOUT 12 JANUARY",
+  "body": "EPRA's 15 Oct to 14 Nov prices: diesel KSh227.76, petrol 226.96 *(Capital FM, 16 Oct)*. The Act signed 16 Oct extends 8% for 90 days from 14 Oct. At 16%, our arithmetic puts diesel near KSh244.6, up 7.4%.",
+  "sowhat": "🎯 So what: price a no-relief case.",
+  "segments": [
+   "city",
+   "bush",
+   "beach"
+  ],
+  "countries": "🇰🇪",
+  "confidence": "Confirmed (prices, Act) / Inference (end date, cliff)",
+  "impact": "-margin",
+  "impactClass": "margin",
+  "intensity": 3,
+  "impactSet": "author",
+  "source": "foresight-2026-11-01",
+  "date": "2026-11-01",
+  "dateDisplay": "Sunday, 1 November 2026",
+  "edition": "Sunday Foresight",
+  "editionKey": "foresight"
+ },
+ {
+  "headline": "KENYA'S ACCOMMODATION AND FOOD GROWTH ROUGHLY HALVED IN Q2",
+  "body": "Accommodation and food services grew 7.4% in the second quarter, down from 14.7% in the first *(CBK bulletin, 23 Oct)*. That is sector growth, not occupancy.",
+  "sowhat": "🎯 So what: it predates Level 3.",
+  "segments": [
+   "city",
+   "bush",
+   "beach"
+  ],
+  "countries": "🇰🇪",
+  "confidence": "Confirmed (figures) / Inference (cause)",
+  "impact": "watch",
+  "impactClass": "watch",
+  "intensity": 3,
+  "impactSet": "author",
+  "source": "foresight-2026-11-01",
+  "date": "2026-11-01",
+  "dateDisplay": "Sunday, 1 November 2026",
+  "edition": "Sunday Foresight",
+  "editionKey": "foresight"
+ },
+ {
+  "headline": "RWANDA'S URBAN PRICES ARE UP 17.2%, TANZANIA'S 4.3%",
+  "body": "Rwanda's September urban index: hotels and restaurants 18.9%, energy 45.0% *(NISR, 10 Oct)*. Tanzania 4.3%, transport 14.0% *(NBS, September)*. Uganda's policy rate: 12.0%. Local currency.",
+  "sowhat": "🎯 So what: Tanzania's edge is the headline, not fuel.",
+  "segments": [
+   "city",
+   "bush"
+  ],
+  "countries": "🇷🇼 🇹🇿 🇺🇬",
+  "confidence": "Confirmed (indices) / Inference (competitiveness)",
+  "impact": "-margin",
+  "impactClass": "margin",
+  "intensity": 3,
+  "impactSet": "author",
+  "source": "foresight-2026-11-01",
+  "date": "2026-11-01",
+  "dateDisplay": "Sunday, 1 November 2026",
+  "edition": "Sunday Foresight",
+  "editionKey": "foresight"
+ },
+ {
+  "headline": "ZANZIBAR'S AUGUST: 124,481 ARRIVALS, UP 18%, AMERICAS DOWN 29%",
+  "body": "Occupancy est. 92.9% from declared stays, one peak month *(OCGS, 8 Sep)*. Europe supplied 58.1%.",
+  "sowhat": "🎯 So what: the island sells on Europe.",
+  "segments": [
+   "beach"
+  ],
+  "countries": "🇹🇿",
+  "confidence": "Confirmed (release) / Inference (read)",
+  "impact": "+demand",
+  "impactClass": "demand",
+  "intensity": 3,
+  "impactSet": "author",
+  "source": "foresight-2026-11-01",
+  "date": "2026-11-01",
+  "dateDisplay": "Sunday, 1 November 2026",
+  "edition": "Sunday Foresight",
+  "editionKey": "foresight"
+ },
  {
   "headline": "Kenya's Ebola quarantine releases and the US no-DRC boarding rule both start on 3 November",
   "body": "**Kenya.** The Ministry of Health said on 26 October that 20 contacts had finished 21 days of monitoring and gone home, and that the remaining 98 are due out in four groups from 3 November. It also said the outbreak \"had not yet been contained\" *(Citizen Digital, 26 Oct)*. Confirmed cases stood at nine with two deaths; travel, trade and public gatherings remain unrestricted *(Citizen Digital, 22 and 26 Oct)*. **The end date.** The outbreak can only be declared over 42 days after the last confirmed patient has two negative tests at least 48 hours apart and is discharged or buried *(Citizen Digital, 26 Oct)*. No discharge date has been published. Our inference: the 42-day clock has not started, so no end date can be computed and any \"Kenya clear by December\" claim is unsupported. **The US rule.** From 11:59 pm Eastern on 3 November to 18 December, every passenger on a US-bound flight must declare whether they were in the DRC in the previous 21 days. Airlines verify before boarding; anyone who was there generally cannot board until Day 22 *(CDC rule as reported by InsideFlyer, 26 Oct)*. Only the DRC is named; Kenya, Uganda and Rwanda are not.",
@@ -7919,4 +8030,4 @@ window.INSIGHTS = [
   "editionKey": "evening"
  }
 ];
-window.BUILT_AT = "2026-11-01 18:31";
+window.BUILT_AT = "2026-11-01 18:57";
