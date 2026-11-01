@@ -1,18 +1,18 @@
 {
- "generated": "2026-11-01T00:08:45+03:00",
+ "generated": "2026-11-01T03:49:59+03:00",
  "slot": "morning",
  "window_start": 1793458800,
- "observations_in_window": 303,
+ "observations_in_window": 402,
  "deduped_against": 17,
  "candidates": [
   {
-   "score": 118.2,
+   "score": 114.2,
    "components": {
     "tier": 40,
     "category": 24,
     "lead": 4.8,
     "relevance": 24,
-    "freshness": 13.4,
+    "freshness": 9.4,
     "undated": -6,
     "shock": 18
    },
@@ -45,77 +45,47 @@
    "verdict": "LEAD CANDIDATE \u2014 tier-1 shock language"
   },
   {
-   "score": 89.5,
+   "score": 65.3,
    "components": {
     "tier": 40,
-    "category": 32,
+    "category": 12,
     "lead": 3.6,
     "relevance": 0,
-    "freshness": 17.9,
+    "freshness": 19.7,
+    "undated": -6,
     "page_change": -4
    },
    "keywords": [],
    "shock_terms": [],
    "dedupe_match": null,
-   "dedupe_similarity": 0.12,
-   "id": "3d78f1b2163c",
-   "title": "[page changed] Federal Register \u2014 public inspection (HHS/CDC), pre-publication",
-   "url": "https://www.federalregister.gov/api/v1/public-inspection-documents/current.json",
-   "summary": "{\"count\":108,\"results\":[{\"agencies\":[{\"raw_name\":\"Food and Drug Administration\",\"name\":\"Food and Drug Administration\",\"id\":199,\"url\":\"https://www.federalregister.gov/agencies/food-and-drug-administration\",\"json_url\":\"https://www.federalregister.gov/api/v1/agencies/199\",\"parent_id\":221,\"slug\":\"food-and-drug-administration\"}],\"agency_letters\":[],\"agency_names\":[\"Food and Drug Administration\"],\"docke",
+   "dedupe_similarity": 0.0,
+   "id": "511ca1a100ff",
+   "title": "[page changed] Airlink news",
+   "url": "https://www.flyairlink.com/",
+   "summary": "Request unsuccessful. Incapsula incident ID: 395000390831999163-1456298435141110261",
    "kind": "page-change",
-   "source": "Federal Register \u2014 public inspection (HHS/CDC), pre-publication",
-   "source_id": "us-fedreg-pubinspect-hhs",
+   "source": "Airlink news",
+   "source_id": "air-airlink",
    "tier": 1,
    "country": "REG",
-   "category": "advisory",
+   "category": "airline",
    "segments": [
     "city",
-    "bush"
+    "bush",
+    "beach"
    ],
-   "first_seen": "2026-10-31T22:23+03:00",
-   "published": "2026-10-29",
-   "verdict": "OPEN THIS \u2014 tier-1 advisory page moved; content not auto-parsed, read it manually"
+   "first_seen": "2026-11-01T03:46+03:00",
+   "published": null,
+   "verdict": "OPEN THIS \u2014 tier-1 airline page moved; content not auto-parsed, read it manually"
   },
   {
-   "score": 85.0,
-   "components": {
-    "tier": 40,
-    "category": 32,
-    "lead": 3.6,
-    "relevance": 0,
-    "freshness": 13.4,
-    "page_change": -4
-   },
-   "keywords": [],
-   "shock_terms": [],
-   "dedupe_match": null,
-   "dedupe_similarity": 0.12,
-   "id": "8ec2e08fdcb9",
-   "title": "[page changed] Federal Register \u2014 public inspection (HHS/CDC), pre-publication",
-   "url": "https://www.federalregister.gov/api/v1/public-inspection-documents/current.json",
-   "summary": "{\"count\":108,\"results\":[{\"agencies\":[{\"raw_name\":\"Food and Drug Administration\",\"name\":\"Food and Drug Administration\",\"id\":199,\"url\":\"https://www.federalregister.gov/agencies/food-and-drug-administration\",\"json_url\":\"https://www.federalregister.gov/api/v1/agencies/199\",\"parent_id\":221,\"slug\":\"food-and-drug-administration\"}],\"agency_letters\":[],\"agency_names\":[\"Food and Drug Administration\"],\"docke",
-   "kind": "page-change",
-   "source": "Federal Register \u2014 public inspection (HHS/CDC), pre-publication",
-   "source_id": "us-fedreg-pubinspect-hhs",
-   "tier": 1,
-   "country": "REG",
-   "category": "advisory",
-   "segments": [
-    "city",
-    "bush"
-   ],
-   "first_seen": "2026-10-31T18:21+03:00",
-   "published": "2026-10-29",
-   "verdict": "OPEN THIS \u2014 tier-1 advisory page moved; content not auto-parsed, read it manually"
-  },
-  {
-   "score": 124.9,
+   "score": 120.8,
    "components": {
     "tier": 20,
     "category": 5,
     "lead": 2.4,
     "relevance": 56,
-    "freshness": 13.5,
+    "freshness": 9.4,
     "corroborated": 10,
     "shock": 18
    },
@@ -152,13 +122,78 @@
    "verdict": "CONSIDER"
   },
   {
-   "score": 93.9,
+   "score": 101.5,
+   "components": {
+    "tier": 40,
+    "category": 15,
+    "lead": 16.8,
+    "relevance": 0,
+    "freshness": 19.7,
+    "corroborated": 10
+   },
+   "keywords": [],
+   "shock_terms": [],
+   "dedupe_match": null,
+   "dedupe_similarity": 0.14,
+   "id": "cc9207f10c6d",
+   "title": "",
+   "url": "https://www.tra.go.tz/images/uploads/public_notice/english/AMNESTY_ENGLISH.pdf",
+   "summary": "Dar es Salaam, 2 October, 2026:PUBLIC NOTICEThe Tanzania Revenue Authority (TRA) hereby informs the general public, particularly owners and users of motor vehicles that have contravened applicable Customs laws and procedures, of a special amnesty on penalties intended to provide an opportunity for voluntary disclosure, regularization, and compliance.Under this arrangement, eligible persons are enc",
+   "kind": "doc",
+   "source": "Tanzania Revenue Authority",
+   "source_id": "tz-tra",
+   "tier": 1,
+   "country": "TZ",
+   "category": "fiscal",
+   "segments": [
+    "city",
+    "bush",
+    "beach"
+   ],
+   "first_seen": "2026-11-01T03:46+03:00",
+   "published": "2026-12-31",
+   "verdict": "STRONG \u2014 tier-1, upstream"
+  },
+  {
+   "score": 96.2,
+   "components": {
+    "tier": 40,
+    "category": 24,
+    "lead": 2.4,
+    "relevance": 0,
+    "freshness": 19.8,
+    "corroborated": 10
+   },
+   "keywords": [],
+   "shock_terms": [],
+   "dedupe_match": null,
+   "dedupe_similarity": 0.17,
+   "id": "3aed68a2f308",
+   "title": "SitRep N\u00b0169/MVE-BDBV/30/10/2026",
+   "url": "https://insp.cd/sitrep-n169-mve-bdbv-30-10-2026",
+   "summary": "",
+   "kind": "item",
+   "source": "INSP RDC \u2014 Ebola daily situation reports (SitRep)",
+   "source_id": "cd-insp-sitrep",
+   "tier": 1,
+   "country": "GLOBAL",
+   "category": "health",
+   "segments": [
+    "City",
+    "Bush"
+   ],
+   "first_seen": "2026-11-01T03:48+03:00",
+   "published": "2026-11-01",
+   "verdict": "STRONG \u2014 tier-1, upstream"
+  },
+  {
+   "score": 89.8,
    "components": {
     "tier": 20,
     "category": 4,
     "lead": 0.0,
     "relevance": 24,
-    "freshness": 17.9,
+    "freshness": 13.8,
     "corroborated": 10,
     "shock": 18
    },
@@ -191,13 +226,52 @@
    "verdict": "CONSIDER"
   },
   {
-   "score": 88.9,
+   "score": 86.2,
+   "components": {
+    "tier": 20,
+    "category": 24,
+    "lead": 2.4,
+    "relevance": 12,
+    "freshness": 19.8,
+    "undated": -6,
+    "shock": 18,
+    "page_change": -4
+   },
+   "keywords": [
+    "outbreak"
+   ],
+   "shock_terms": [
+    "outbreak"
+   ],
+   "dedupe_match": null,
+   "dedupe_similarity": 0.07,
+   "id": "6d763b8b0bb1",
+   "title": "[page changed] ProMED-mail",
+   "url": "https://promedmail.org/",
+   "summary": "Protecting Global Health, One Alert at a Time | ProMED Previous slide Next slide Protecting Global Health, One Alert at a Time ProMED: Your 24/7 early warning system for emerging infectious diseases worldwide. Subscribe ProMED's Weekly Pulse A snapshot of global health events from the past 7 days Latest Posts on ProMED All Date Title Sun Nov 01 2026 MENINGOCOCCAL DISEASE - VIET NAM (27): (CA MAU) ",
+   "kind": "page-change",
+   "source": "ProMED-mail",
+   "source_id": "promed",
+   "tier": 2,
+   "country": "GLOBAL",
+   "category": "health",
+   "segments": [
+    "city",
+    "bush",
+    "beach"
+   ],
+   "first_seen": "2026-11-01T03:48+03:00",
+   "published": null,
+   "verdict": "CONSIDER"
+  },
+  {
+   "score": 84.8,
    "components": {
     "tier": 40,
     "category": 7,
     "lead": 6.0,
     "relevance": 8,
-    "freshness": 17.9,
+    "freshness": 13.8,
     "corroborated": 10
    },
    "keywords": [
@@ -224,13 +298,13 @@
    "verdict": "CONSIDER"
   },
   {
-   "score": 85.8,
+   "score": 81.8,
    "components": {
     "tier": 40,
     "category": 24,
     "lead": 2.4,
     "relevance": 12,
-    "freshness": 13.4,
+    "freshness": 9.4,
     "undated": -6
    },
    "keywords": [
@@ -259,13 +333,46 @@
    "verdict": "CONSIDER"
   },
   {
-   "score": 84.3,
+   "score": 81.3,
+   "components": {
+    "tier": 40,
+    "category": 32,
+    "lead": 3.6,
+    "relevance": 0,
+    "freshness": 19.7,
+    "stale_trap": -10,
+    "page_change": -4
+   },
+   "keywords": [],
+   "shock_terms": [],
+   "dedupe_match": null,
+   "dedupe_similarity": 0.12,
+   "id": "bd657def098d",
+   "title": "[page changed] Federal Register \u2014 public inspection (HHS/CDC), pre-publication",
+   "url": "https://www.federalregister.gov/api/v1/public-inspection-documents/current.json",
+   "summary": "{\"count\":108,\"results\":[{\"agencies\":[{\"raw_name\":\"Food and Drug Administration\",\"name\":\"Food and Drug Administration\",\"id\":199,\"url\":\"https://www.federalregister.gov/agencies/food-and-drug-administration\",\"json_url\":\"https://www.federalregister.gov/api/v1/agencies/199\",\"parent_id\":221,\"slug\":\"food-and-drug-administration\"}],\"agency_letters\":[],\"agency_names\":[\"Food and Drug Administration\"],\"docke",
+   "kind": "page-change",
+   "source": "Federal Register \u2014 public inspection (HHS/CDC), pre-publication",
+   "source_id": "us-fedreg-pubinspect-hhs",
+   "tier": 1,
+   "country": "REG",
+   "category": "advisory",
+   "segments": [
+    "city",
+    "bush"
+   ],
+   "first_seen": "2026-11-01T03:47+03:00",
+   "published": "2026-10-29",
+   "verdict": "CHECK \u2014 source date older than the window"
+  },
+  {
+   "score": 80.2,
    "components": {
     "tier": 20,
     "category": 4,
     "lead": 2.4,
     "relevance": 12,
-    "freshness": 17.9,
+    "freshness": 13.8,
     "corroborated": 10,
     "shock": 18
    },
@@ -297,13 +404,13 @@
    "verdict": "CONSIDER"
   },
   {
-   "score": 80.3,
+   "score": 76.2,
    "components": {
     "tier": 20,
     "category": 4,
     "lead": 2.4,
     "relevance": 8,
-    "freshness": 17.9,
+    "freshness": 13.8,
     "corroborated": 10,
     "shock": 18
    },
@@ -335,13 +442,46 @@
    "verdict": "CONSIDER"
   },
   {
-   "score": 78.3,
+   "score": 75.4,
+   "components": {
+    "tier": 40,
+    "category": 32,
+    "lead": 3.6,
+    "relevance": 0,
+    "freshness": 13.8,
+    "stale_trap": -10,
+    "page_change": -4
+   },
+   "keywords": [],
+   "shock_terms": [],
+   "dedupe_match": null,
+   "dedupe_similarity": 0.12,
+   "id": "3d78f1b2163c",
+   "title": "[page changed] Federal Register \u2014 public inspection (HHS/CDC), pre-publication",
+   "url": "https://www.federalregister.gov/api/v1/public-inspection-documents/current.json",
+   "summary": "{\"count\":108,\"results\":[{\"agencies\":[{\"raw_name\":\"Food and Drug Administration\",\"name\":\"Food and Drug Administration\",\"id\":199,\"url\":\"https://www.federalregister.gov/agencies/food-and-drug-administration\",\"json_url\":\"https://www.federalregister.gov/api/v1/agencies/199\",\"parent_id\":221,\"slug\":\"food-and-drug-administration\"}],\"agency_letters\":[],\"agency_names\":[\"Food and Drug Administration\"],\"docke",
+   "kind": "page-change",
+   "source": "Federal Register \u2014 public inspection (HHS/CDC), pre-publication",
+   "source_id": "us-fedreg-pubinspect-hhs",
+   "tier": 1,
+   "country": "REG",
+   "category": "advisory",
+   "segments": [
+    "city",
+    "bush"
+   ],
+   "first_seen": "2026-10-31T22:23+03:00",
+   "published": "2026-10-29",
+   "verdict": "CHECK \u2014 source date older than the window"
+  },
+  {
+   "score": 74.2,
    "components": {
     "tier": 20,
     "category": 4,
     "lead": 2.4,
     "relevance": 24,
-    "freshness": 17.9,
+    "freshness": 13.8,
     "corroborated": 10
    },
    "keywords": [
@@ -371,13 +511,13 @@
    "verdict": "CONSIDER"
   },
   {
-   "score": 77.9,
+   "score": 73.8,
    "components": {
     "tier": 20,
     "category": 4,
     "lead": 2.4,
     "relevance": 28,
-    "freshness": 13.5,
+    "freshness": 9.4,
     "corroborated": 10
    },
    "keywords": [
@@ -408,13 +548,85 @@
    "verdict": "CONSIDER"
   },
   {
-   "score": 73.9,
+   "score": 71.0,
+   "components": {
+    "tier": 40,
+    "category": 32,
+    "lead": 3.6,
+    "relevance": 0,
+    "freshness": 9.4,
+    "stale_trap": -10,
+    "page_change": -4
+   },
+   "keywords": [],
+   "shock_terms": [],
+   "dedupe_match": null,
+   "dedupe_similarity": 0.12,
+   "id": "8ec2e08fdcb9",
+   "title": "[page changed] Federal Register \u2014 public inspection (HHS/CDC), pre-publication",
+   "url": "https://www.federalregister.gov/api/v1/public-inspection-documents/current.json",
+   "summary": "{\"count\":108,\"results\":[{\"agencies\":[{\"raw_name\":\"Food and Drug Administration\",\"name\":\"Food and Drug Administration\",\"id\":199,\"url\":\"https://www.federalregister.gov/agencies/food-and-drug-administration\",\"json_url\":\"https://www.federalregister.gov/api/v1/agencies/199\",\"parent_id\":221,\"slug\":\"food-and-drug-administration\"}],\"agency_letters\":[],\"agency_names\":[\"Food and Drug Administration\"],\"docke",
+   "kind": "page-change",
+   "source": "Federal Register \u2014 public inspection (HHS/CDC), pre-publication",
+   "source_id": "us-fedreg-pubinspect-hhs",
+   "tier": 1,
+   "country": "REG",
+   "category": "advisory",
+   "segments": [
+    "city",
+    "bush"
+   ],
+   "first_seen": "2026-10-31T18:21+03:00",
+   "published": "2026-10-29",
+   "verdict": "CHECK \u2014 source date older than the window"
+  },
+  {
+   "score": 70.2,
+   "components": {
+    "tier": 5,
+    "category": 5,
+    "lead": 2.4,
+    "relevance": 28,
+    "freshness": 19.8,
+    "corroborated": 10
+   },
+   "keywords": [
+    "route",
+    "airport",
+    "tourism",
+    "airline",
+    "flight"
+   ],
+   "shock_terms": [],
+   "dedupe_match": null,
+   "dedupe_similarity": 0.13,
+   "id": "066293276f17",
+   "title": "United Airlines Launches New Nonstop Newark\u2013St. Croix Flights, Strengthening US Virgin Islands Tourism and Caribbean Connectivity",
+   "url": "https://www.travelandtourworld.com/news/article/i4ao7a3gkjg3",
+   "summary": "United Airlines Launches New Nonstop Newark\u2013St. Croix Flights, Strengthening US Virgin Islands Tourism and Caribbean Connectivity United Airlines added to their presence within the Caribbean with the launch of a new non-stop route between Newark Liberty International Airport (EWR), New Jersey and Henry E. Rohlsen Airport (STX), St. Croix The post United Airlines Launches New Nonstop Newark\u2013St. Cro",
+   "kind": "item",
+   "source": "Travel And Tour World",
+   "source_id": "gl-travelandtourworld",
+   "tier": 3,
+   "country": "GLOBAL",
+   "category": "trade",
+   "segments": [
+    "city",
+    "bush",
+    "beach"
+   ],
+   "first_seen": "2026-11-01T03:48+03:00",
+   "published": "2026-11-01",
+   "verdict": "CONSIDER"
+  },
+  {
+   "score": 69.8,
    "components": {
     "tier": 20,
     "category": 4,
     "lead": 2.4,
     "relevance": 24,
-    "freshness": 13.5,
+    "freshness": 9.4,
     "corroborated": 10
    },
    "keywords": [
@@ -442,16 +654,16 @@
    ],
    "first_seen": "2026-10-31T18:22+03:00",
    "published": "2026-10-31",
-   "verdict": "CONSIDER"
+   "verdict": "weak"
   },
   {
-   "score": 73.8,
+   "score": 69.8,
    "components": {
     "tier": 40,
     "category": 24,
     "lead": 2.4,
     "relevance": 0,
-    "freshness": 13.4,
+    "freshness": 9.4,
     "undated": -6
    },
    "keywords": [],
@@ -475,16 +687,16 @@
    ],
    "first_seen": "2026-10-31T18:22+03:00",
    "published": null,
-   "verdict": "CONSIDER"
+   "verdict": "weak"
   },
   {
-   "score": 73.8,
+   "score": 69.8,
    "components": {
     "tier": 40,
     "category": 24,
     "lead": 2.4,
     "relevance": 0,
-    "freshness": 13.4,
+    "freshness": 9.4,
     "undated": -6
    },
    "keywords": [],
@@ -508,16 +720,16 @@
    ],
    "first_seen": "2026-10-31T18:22+03:00",
    "published": null,
-   "verdict": "CONSIDER"
+   "verdict": "weak"
   },
   {
-   "score": 73.8,
+   "score": 69.8,
    "components": {
     "tier": 40,
     "category": 24,
     "lead": 2.4,
     "relevance": 0,
-    "freshness": 13.4,
+    "freshness": 9.4,
     "undated": -6
    },
    "keywords": [],
@@ -541,16 +753,16 @@
    ],
    "first_seen": "2026-10-31T18:22+03:00",
    "published": null,
-   "verdict": "CONSIDER"
+   "verdict": "weak"
   },
   {
-   "score": 73.8,
+   "score": 69.8,
    "components": {
     "tier": 40,
     "category": 24,
     "lead": 2.4,
     "relevance": 0,
-    "freshness": 13.4,
+    "freshness": 9.4,
     "undated": -6
    },
    "keywords": [],
@@ -574,16 +786,16 @@
    ],
    "first_seen": "2026-10-31T18:22+03:00",
    "published": null,
-   "verdict": "CONSIDER"
+   "verdict": "weak"
   },
   {
-   "score": 73.8,
+   "score": 69.8,
    "components": {
     "tier": 40,
     "category": 24,
     "lead": 2.4,
     "relevance": 0,
-    "freshness": 13.4,
+    "freshness": 9.4,
     "undated": -6
    },
    "keywords": [],
@@ -607,16 +819,16 @@
    ],
    "first_seen": "2026-10-31T18:22+03:00",
    "published": null,
-   "verdict": "CONSIDER"
+   "verdict": "weak"
   },
   {
-   "score": 73.8,
+   "score": 69.8,
    "components": {
     "tier": 40,
     "category": 24,
     "lead": 2.4,
     "relevance": 0,
-    "freshness": 13.4,
+    "freshness": 9.4,
     "undated": -6
    },
    "keywords": [],
@@ -640,16 +852,16 @@
    ],
    "first_seen": "2026-10-31T18:22+03:00",
    "published": null,
-   "verdict": "CONSIDER"
+   "verdict": "weak"
   },
   {
-   "score": 73.8,
+   "score": 69.8,
    "components": {
     "tier": 40,
     "category": 24,
     "lead": 2.4,
     "relevance": 0,
-    "freshness": 13.4,
+    "freshness": 9.4,
     "undated": -6
    },
    "keywords": [],
@@ -673,16 +885,87 @@
    ],
    "first_seen": "2026-10-31T18:22+03:00",
    "published": null,
-   "verdict": "CONSIDER"
+   "verdict": "weak"
   },
   {
-   "score": 66.3,
+   "score": 66.2,
+   "components": {
+    "tier": 5,
+    "category": 5,
+    "lead": 2.4,
+    "relevance": 24,
+    "freshness": 19.8,
+    "corroborated": 10
+   },
+   "keywords": [
+    "route",
+    "airport",
+    "airline",
+    "flight"
+   ],
+   "shock_terms": [],
+   "dedupe_match": null,
+   "dedupe_similarity": 0.13,
+   "id": "4422f58de472",
+   "title": "United Airlines to Exit Tulum Airport in January 2027 as Newark and Houston Flights End Amid Growing Route Cuts",
+   "url": "https://www.travelandtourworld.com/news/article/m390lcf1wl9a",
+   "summary": "United Airlines to Exit Tulum Airport in January 2027 as Newark and Houston Flights End Amid Growing Route Cuts United Airlines is preparing to leave Tulum International Airport in Mexico in January 2027. The airline will stop its flights from Newark and Houston. The post United Airlines to Exit Tulum Airport in January 2027 as Newark and Houston Flights End Amid Growing Route Cuts appeared first ",
+   "kind": "item",
+   "source": "Travel And Tour World",
+   "source_id": "gl-travelandtourworld",
+   "tier": 3,
+   "country": "GLOBAL",
+   "category": "trade",
+   "segments": [
+    "city",
+    "bush",
+    "beach"
+   ],
+   "first_seen": "2026-11-01T03:48+03:00",
+   "published": "2026-11-01",
+   "verdict": "weak"
+  },
+  {
+   "score": 64.1,
+   "components": {
+    "tier": 40,
+    "category": 8,
+    "lead": 2.4,
+    "relevance": 0,
+    "freshness": 19.7,
+    "undated": -6
+   },
+   "keywords": [],
+   "shock_terms": [],
+   "dedupe_match": null,
+   "dedupe_similarity": 0.0,
+   "id": "7cd748f1a155",
+   "title": "IATA News Fact Sheet - IATA 01.11.2026 PDF",
+   "url": "https://www.iata.org/en/iata-repository/pressroom/fact-sheets/fact-sheet-iata",
+   "summary": "",
+   "kind": "item",
+   "source": "IATA pressroom",
+   "source_id": "iata-pressroom",
+   "tier": 1,
+   "country": "GLOBAL",
+   "category": "aviation-body",
+   "segments": [
+    "city",
+    "bush",
+    "beach"
+   ],
+   "first_seen": "2026-11-01T03:46+03:00",
+   "published": null,
+   "verdict": "weak"
+  },
+  {
+   "score": 62.2,
    "components": {
     "tier": 20,
     "category": 24,
     "lead": 2.4,
     "relevance": 12,
-    "freshness": 17.9,
+    "freshness": 13.8,
     "undated": -6,
     "page_change": -4
    },
@@ -712,13 +995,13 @@
    "verdict": "weak"
   },
   {
-   "score": 66.3,
+   "score": 62.2,
    "components": {
     "tier": 20,
     "category": 4,
     "lead": 2.4,
     "relevance": 12,
-    "freshness": 17.9,
+    "freshness": 13.8,
     "corroborated": 10
    },
    "keywords": [
@@ -748,13 +1031,13 @@
    "verdict": "weak"
   },
   {
-   "score": 65.8,
+   "score": 61.8,
    "components": {
     "tier": 20,
     "category": 4,
     "lead": 2.4,
     "relevance": 16,
-    "freshness": 13.4,
+    "freshness": 9.4,
     "corroborated": 10
    },
    "keywords": [
@@ -784,13 +1067,85 @@
    "verdict": "weak"
   },
   {
-   "score": 62.3,
+   "score": 60.2,
+   "components": {
+    "tier": 20,
+    "category": 4,
+    "lead": 2.4,
+    "relevance": 20,
+    "freshness": 19.8,
+    "undated": -6
+   },
+   "keywords": [
+    "suspend",
+    "eta"
+   ],
+   "shock_terms": [],
+   "dedupe_match": null,
+   "dedupe_similarity": 0.0,
+   "id": "ac912ca8971f",
+   "title": "News By Amon Katungulu | Oct 30, 2026 7. Peasants Party Suspends Secretary General Over Misconduct",
+   "url": "https://nilepost.co.ug/news/382871/peasants-party-suspends-secretary-general-over-misconduct",
+   "summary": "",
+   "kind": "item",
+   "source": "Nile Post (Uganda)",
+   "source_id": "ug-nilepost",
+   "tier": 2,
+   "country": "UG",
+   "category": "press",
+   "segments": [
+    "city",
+    "bush",
+    "beach"
+   ],
+   "first_seen": "2026-11-01T03:48+03:00",
+   "published": null,
+   "verdict": "weak"
+  },
+  {
+   "score": 58.2,
+   "components": {
+    "tier": 5,
+    "category": 5,
+    "lead": 2.4,
+    "relevance": 16,
+    "freshness": 19.8,
+    "corroborated": 10
+   },
+   "keywords": [
+    "visa",
+    "eta"
+   ],
+   "shock_terms": [],
+   "dedupe_match": null,
+   "dedupe_similarity": 0.15,
+   "id": "9b3710f4ae71",
+   "title": "Kazakhstan Introduces Mandatory QazETA Travel Authorisation from July 2027, Changing Visa-Free Entry Rules for International Travellers",
+   "url": "https://www.travelandtourworld.com/news/article/5xhengk6tyfd",
+   "summary": "Kazakhstan Introduces Mandatory QazETA Travel Authorisation from July 2027, Changing Visa-Free Entry Rules for International Travellers Kazakhstan makes free QazETA mandatory from July 2027. Check Indian visa-free rules, deadlines, exemptions and application steps. The post Kazakhstan Introduces Mandatory QazETA Travel Authorisation from July 2027, Changing Visa-Free Entry Rules for International ",
+   "kind": "item",
+   "source": "Travel And Tour World",
+   "source_id": "gl-travelandtourworld",
+   "tier": 3,
+   "country": "GLOBAL",
+   "category": "trade",
+   "segments": [
+    "city",
+    "bush",
+    "beach"
+   ],
+   "first_seen": "2026-11-01T03:48+03:00",
+   "published": "2026-11-01",
+   "verdict": "weak"
+  },
+  {
+   "score": 58.2,
    "components": {
     "tier": 20,
     "category": 4,
     "lead": 2.4,
     "relevance": 8,
-    "freshness": 17.9,
+    "freshness": 13.8,
     "corroborated": 10
    },
    "keywords": [
@@ -819,13 +1174,13 @@
    "verdict": "weak"
   },
   {
-   "score": 61.9,
+   "score": 57.8,
    "components": {
     "tier": 20,
     "category": 24,
     "lead": 2.4,
     "relevance": 12,
-    "freshness": 13.5,
+    "freshness": 9.4,
     "undated": -6,
     "page_change": -4
    },
@@ -855,13 +1210,13 @@
    "verdict": "weak"
   },
   {
-   "score": 61.9,
+   "score": 57.8,
    "components": {
     "tier": 20,
     "category": 4,
     "lead": 2.4,
     "relevance": 28,
-    "freshness": 13.5,
+    "freshness": 9.4,
     "undated": -6
    },
    "keywords": [
@@ -892,13 +1247,13 @@
    "verdict": "weak"
   },
   {
-   "score": 61.2,
+   "score": 57.1,
    "components": {
     "tier": 20,
     "category": 4,
     "lead": 0.0,
     "relevance": 12,
-    "freshness": 15.2,
+    "freshness": 11.1,
     "corroborated": 10
    },
    "keywords": [
@@ -927,13 +1282,46 @@
    "verdict": "weak"
   },
   {
-   "score": 60.3,
+   "score": 56.2,
+   "components": {
+    "tier": 20,
+    "category": 4,
+    "lead": 2.4,
+    "relevance": 0,
+    "freshness": 19.8,
+    "corroborated": 10
+   },
+   "keywords": [],
+   "shock_terms": [],
+   "dedupe_match": null,
+   "dedupe_similarity": 0.12,
+   "id": "af8bb2cd53d9",
+   "title": "Few people have the courage to acknowledge error and the wisdom to seek peace",
+   "url": "https://www.independent.co.ug/few-people-have-the-courage-to-acknowledge-error-and-the-wisdom-to-seek-peace",
+   "summary": "COMMENT | CRISPIN KAHERU | Twenty-seven years ago, long before Uganda\u2019s present debates about political reconciliation, General Salim Saleh articulated a remarkably profound philosophy of leadership. It was a philosophy rooted in humility, acknowledgement of error, forgiveness and the courage to begin again. His Tarehe Sita Statement of 6 February 1999, titled From Fighting Dictatorship \u2026 The post",
+   "kind": "item",
+   "source": "The Independent (Uganda)",
+   "source_id": "ug-independent",
+   "tier": 2,
+   "country": "UG",
+   "category": "press",
+   "segments": [
+    "city",
+    "bush",
+    "beach"
+   ],
+   "first_seen": "2026-11-01T03:48+03:00",
+   "published": "2026-10-31",
+   "verdict": "weak"
+  },
+  {
+   "score": 56.2,
    "components": {
     "tier": 5,
     "category": 5,
     "lead": 2.4,
     "relevance": 20,
-    "freshness": 17.9,
+    "freshness": 13.8,
     "corroborated": 10
    },
    "keywords": [
@@ -964,13 +1352,51 @@
    "verdict": "weak"
   },
   {
-   "score": 59.9,
+   "score": 55.8,
+   "components": {
+    "tier": 5,
+    "category": 5,
+    "lead": 0.0,
+    "relevance": 16,
+    "freshness": 19.8,
+    "corroborated": 10
+   },
+   "keywords": [
+    "hotel",
+    "resort",
+    "opening",
+    "guest"
+   ],
+   "shock_terms": [],
+   "dedupe_match": null,
+   "dedupe_similarity": 0.0,
+   "id": "5e6adc1bfaff",
+   "title": "Marriott, Hilton, Hyatt and WorldHotels Shake Up Global Hospitality: New Luxury Hotels, Bigger Portfolios and a Battle for Guests",
+   "url": "https://eturbonews.com/global-hotel-hospitality-news-october-25-31-2026",
+   "summary": "From a glamorous new EDITION hotel in Cape Town to a Thompson debut in Rome, the world's hotel industry had another busy week. Hilton and Hyatt revealed impressive financial numbers, Wyndham moved into vacation homes, and WorldHotels announced a major brand transformation. New resorts are coming to Portugal and T\u00fcrkiye, while hospitality executives are changing jobs from the Maldives to Los Angele",
+   "kind": "item",
+   "source": "eTurboNews Africa",
+   "source_id": "tp-eturbonews",
+   "tier": 3,
+   "country": "GLOBAL",
+   "category": "trade",
+   "segments": [
+    "city",
+    "bush",
+    "beach"
+   ],
+   "first_seen": "2026-11-01T03:48+03:00",
+   "published": "2026-10-31",
+   "verdict": "weak"
+  },
+  {
+   "score": 55.8,
    "components": {
     "tier": 20,
     "category": 4,
     "lead": 0.0,
     "relevance": 8,
-    "freshness": 17.9,
+    "freshness": 13.8,
     "corroborated": 10
    },
    "keywords": [
@@ -989,428 +1415,6 @@
    "tier": 2,
    "country": "REG",
    "category": "press",
-   "segments": [
-    "city",
-    "bush",
-    "beach"
-   ],
-   "first_seen": "2026-10-31T22:23+03:00",
-   "published": "2026-10-31",
-   "verdict": "weak"
-  },
-  {
-   "score": 59.9,
-   "components": {
-    "tier": 20,
-    "category": 4,
-    "lead": 0.0,
-    "relevance": 8,
-    "freshness": 17.9,
-    "corroborated": 10
-   },
-   "keywords": [
-    "flood"
-   ],
-   "shock_terms": [],
-   "dedupe_match": null,
-   "dedupe_similarity": 0.07,
-   "id": "d76f15567587",
-   "title": "Not waiting for invite: Africa\u2019s youth continue to set tone globally",
-   "url": "https://www.theeastafrican.co.ke/tea/opinion/guest-blogs/not-waiting-for-invite-africa-s-youth-continue-to-set-tone-globally-5653008",
-   "summary": "The headlines of recent weeks, of conflict, floods, drought and vanishing forests, need not be...",
-   "kind": "item",
-   "source": "The EastAfrican",
-   "source_id": "np-eastafrican",
-   "tier": 2,
-   "country": "REG",
-   "category": "press",
-   "segments": [
-    "city",
-    "bush",
-    "beach"
-   ],
-   "first_seen": "2026-10-31T22:23+03:00",
-   "published": "2026-10-31",
-   "verdict": "weak"
-  },
-  {
-   "score": 59.9,
-   "components": {
-    "tier": 20,
-    "category": 4,
-    "lead": 0.0,
-    "relevance": 8,
-    "freshness": 17.9,
-    "corroborated": 10
-   },
-   "keywords": [
-    "route"
-   ],
-   "shock_terms": [],
-   "dedupe_match": null,
-   "dedupe_similarity": 0.1,
-   "id": "4dafb2f17d43",
-   "title": "Airtel Africa dodges $515m payout with London listing of its mobile money unit",
-   "url": "https://www.theeastafrican.co.ke/tea/business-tech/airtel-africa-dodges-515m-payout-with-london-listing-5653126",
-   "summary": "The October IPO of its mobile money unit gives minority investors an exit route and values the...",
-   "kind": "item",
-   "source": "The EastAfrican",
-   "source_id": "np-eastafrican",
-   "tier": 2,
-   "country": "REG",
-   "category": "press",
-   "segments": [
-    "city",
-    "bush",
-    "beach"
-   ],
-   "first_seen": "2026-10-31T22:23+03:00",
-   "published": "2026-10-31",
-   "verdict": "weak"
-  },
-  {
-   "score": 59.9,
-   "components": {
-    "tier": 20,
-    "category": 4,
-    "lead": 0.0,
-    "relevance": 8,
-    "freshness": 17.9,
-    "corroborated": 10
-   },
-   "keywords": [
-    "election"
-   ],
-   "shock_terms": [],
-   "dedupe_match": null,
-   "dedupe_similarity": 0.15,
-   "id": "97a172c0f89f",
-   "title": "Beyond goons, Kenya must tackle networks turning political violence into a resource",
-   "url": "https://www.theeastafrican.co.ke/tea/opinion/guest-blogs/beyond-goons-kenya-must-tackle-political-violence-networks-5653002",
-   "summary": "2027 elections test is whether its institutions can break the connection between coercion and...",
-   "kind": "item",
-   "source": "The EastAfrican",
-   "source_id": "np-eastafrican",
-   "tier": 2,
-   "country": "REG",
-   "category": "press",
-   "segments": [
-    "city",
-    "bush",
-    "beach"
-   ],
-   "first_seen": "2026-10-31T22:23+03:00",
-   "published": "2026-10-31",
-   "verdict": "weak"
-  },
-  {
-   "score": 59.9,
-   "components": {
-    "tier": 20,
-    "category": 4,
-    "lead": 0.0,
-    "relevance": 8,
-    "freshness": 17.9,
-    "corroborated": 10
-   },
-   "keywords": [
-    "election"
-   ],
-   "shock_terms": [],
-   "dedupe_match": null,
-   "dedupe_similarity": 0.11,
-   "id": "6690e1ee99bc",
-   "title": "Court to rule on Mawogola county election petition on December 19",
-   "url": "https://www.monitor.co.ug/uganda/news/national/court-to-rule-on-mawogola-county-election-petition-on-december-19-5653964",
-   "summary": "The respondents have presented their final witness",
-   "kind": "item",
-   "source": "Daily Monitor (Uganda)",
-   "source_id": "np-monitor-ug",
-   "tier": 2,
-   "country": "UG",
-   "category": "press",
-   "segments": [
-    "city",
-    "bush",
-    "beach"
-   ],
-   "first_seen": "2026-10-31T22:23+03:00",
-   "published": "2026-10-31",
-   "verdict": "weak"
-  },
-  {
-   "score": 59.9,
-   "components": {
-    "tier": 20,
-    "category": 4,
-    "lead": 0.0,
-    "relevance": 8,
-    "freshness": 17.9,
-    "corroborated": 10
-   },
-   "keywords": [
-    "fuel"
-   ],
-   "shock_terms": [],
-   "dedupe_match": null,
-   "dedupe_similarity": 0.07,
-   "id": "dd305658d708",
-   "title": "Lango transporters hike fares to Kampala over high fuel prices",
-   "url": "https://www.monitor.co.ug/uganda/news/national/lango-transporters-hike-fares-to-kampala-over-high-fuel-prices-5653950",
-   "summary": "The news has caused anxiety among the business community, especially small-scale traders",
-   "kind": "item",
-   "source": "Daily Monitor (Uganda)",
-   "source_id": "np-monitor-ug",
-   "tier": 2,
-   "country": "UG",
-   "category": "press",
-   "segments": [
-    "city",
-    "bush",
-    "beach"
-   ],
-   "first_seen": "2026-10-31T22:23+03:00",
-   "published": "2026-10-31",
-   "verdict": "weak"
-  },
-  {
-   "score": 59.9,
-   "components": {
-    "tier": 20,
-    "category": 4,
-    "lead": 0.0,
-    "relevance": 8,
-    "freshness": 17.9,
-    "corroborated": 10
-   },
-   "keywords": [
-    "eta"
-   ],
-   "shock_terms": [],
-   "dedupe_match": null,
-   "dedupe_similarity": 0.0,
-   "id": "72874f93b67a",
-   "title": "Gen Muhoozi orders release of detained ex-CMI chief Bakahumura",
-   "url": "https://www.monitor.co.ug/uganda/news/national/gen-muhoozi-orders-release-of-detained-ex-cmi-chief-bakahumura-5653826",
-   "summary": "Gen Muhoozi announced the decision on Saturday via his official X handle, indicating a shift...",
-   "kind": "item",
-   "source": "Daily Monitor (Uganda)",
-   "source_id": "np-monitor-ug",
-   "tier": 2,
-   "country": "UG",
-   "category": "press",
-   "segments": [
-    "city",
-    "bush",
-    "beach"
-   ],
-   "first_seen": "2026-10-31T22:23+03:00",
-   "published": "2026-10-31",
-   "verdict": "weak"
-  },
-  {
-   "score": 59.5,
-   "components": {
-    "tier": 20,
-    "category": 4,
-    "lead": 0.0,
-    "relevance": 12,
-    "freshness": 13.5,
-    "corroborated": 10
-   },
-   "keywords": [
-    "vat",
-    "franc"
-   ],
-   "shock_terms": [],
-   "dedupe_match": null,
-   "dedupe_similarity": 0.14,
-   "id": "e7fd7ad56560",
-   "title": "Ugandan Businesswoman Jane Frances Acilo Named Elevate Africa Global Ambassador",
-   "url": "https://softpower.ug/ugandan-businesswoman-jane-frances-acilo-named-elevate-africa-global-ambassador",
-   "summary": "KAMPALA \u2013 Ugandan businesswoman and philanthropist Jane Frances Acilo has been named a Global Ambassador of the Elevate Africa Global Ambassadors Program. This recognition strengthens her platform to champion African leadership, amplify the continent\u2019s voice, and advance initiatives that create meaningful social impact. Acilo received the recognition during the Elevate Africa Convening 2026, held ",
-   "kind": "item",
-   "source": "SoftPower News \u2014 Tourism & Travel (Uganda)",
-   "source_id": "ug-softpower-tourism",
-   "tier": 2,
-   "country": "UG",
-   "category": "press",
-   "segments": [
-    "bush",
-    "city"
-   ],
-   "first_seen": "2026-10-31T18:22+03:00",
-   "published": "2026-10-31",
-   "verdict": "weak"
-  },
-  {
-   "score": 58.3,
-   "components": {
-    "tier": 20,
-    "category": 4,
-    "lead": 2.4,
-    "relevance": 4,
-    "freshness": 17.9,
-    "corroborated": 10
-   },
-   "keywords": [
-    "camp"
-   ],
-   "shock_terms": [],
-   "dedupe_match": null,
-   "dedupe_similarity": 0.08,
-   "id": "f7a7db473007",
-   "title": "Sifuna\u2019s Linda Mwananchi eyes presence in all 47 counties ahead of 2027 polls",
-   "url": "https://nation.africa/kenya/news/politics/sifuna-linda-mwananchi-presence-47-counties-2027-polls-5653842",
-   "summary": "Senator Edwin Sifuna's party takes campaigns to Kwale County a day after rebranding.",
-   "kind": "item",
-   "source": "Nation Africa: Kenya business",
-   "source_id": "ke-nation-business",
-   "tier": 2,
-   "country": "KE",
-   "category": "press",
-   "segments": [
-    "city",
-    "bush",
-    "beach"
-   ],
-   "first_seen": "2026-10-31T22:23+03:00",
-   "published": "2026-10-31",
-   "verdict": "weak"
-  },
-  {
-   "score": 57.9,
-   "components": {
-    "tier": 20,
-    "category": 4,
-    "lead": 2.4,
-    "relevance": 8,
-    "freshness": 13.5,
-    "corroborated": 10
-   },
-   "keywords": [
-    "protest"
-   ],
-   "shock_terms": [],
-   "dedupe_match": null,
-   "dedupe_similarity": 0.12,
-   "id": "21292718dbf2",
-   "title": "Kenya Weighs In as Political Crisis Deepens in Poland",
-   "url": "https://www.kenyans.co.ke/news/129030-ps-singoei-condemns-unconstitutional-power-changes-amid-poland-political-crisis",
-   "summary": "As Poland faces protests and a political standoff over its top court, PS Sing\u2019Oei has condemned unconstitutional changes to government.",
-   "kind": "item",
-   "source": "Kenyans.co.ke news",
-   "source_id": "ke-kenyans",
-   "tier": 2,
-   "country": "KE",
-   "category": "press",
-   "segments": [
-    "city",
-    "bush",
-    "beach"
-   ],
-   "first_seen": "2026-10-31T18:22+03:00",
-   "published": "2026-10-31",
-   "verdict": "weak"
-  },
-  {
-   "score": 57.8,
-   "components": {
-    "tier": 20,
-    "category": 4,
-    "lead": 2.4,
-    "relevance": 8,
-    "freshness": 13.4,
-    "corroborated": 10
-   },
-   "keywords": [
-    "seat"
-   ],
-   "shock_terms": [],
-   "dedupe_match": null,
-   "dedupe_similarity": 0.08,
-   "id": "d975dff18d37",
-   "title": "The Woman Rep myth: How a non-existent sunset clause became political fact",
-   "url": "https://nation.africa/kenya/news/gender/the-woman-rep-myth-how-a-non-existent-sunset-clause-became-political-fact-5651984",
-   "summary": "Despite widespread claims that the 47 seats expire after 2027, the Constitution contains no...",
-   "kind": "item",
-   "source": "Nation Africa: Kenya business",
-   "source_id": "ke-nation-business",
-   "tier": 2,
-   "country": "KE",
-   "category": "press",
-   "segments": [
-    "city",
-    "bush",
-    "beach"
-   ],
-   "first_seen": "2026-10-31T18:22+03:00",
-   "published": "2026-10-31",
-   "verdict": "weak"
-  },
-  {
-   "score": 57.8,
-   "components": {
-    "tier": 20,
-    "category": 4,
-    "lead": 2.4,
-    "relevance": 8,
-    "freshness": 13.4,
-    "corroborated": 10
-   },
-   "keywords": [
-    "election"
-   ],
-   "shock_terms": [],
-   "dedupe_match": null,
-   "dedupe_similarity": 0.08,
-   "id": "59e938712fe1",
-   "title": "The impossible logistics of South Sudan's December elections",
-   "url": "https://nation.africa/kenya/news/africa/the-impossible-logistics-of-south-sudan-s-december-elections--5653180",
-   "summary": "Severe logistical hurdles threaten the tight timeline.",
-   "kind": "item",
-   "source": "Nation Africa: Kenya business",
-   "source_id": "ke-nation-business",
-   "tier": 2,
-   "country": "KE",
-   "category": "press",
-   "segments": [
-    "city",
-    "bush",
-    "beach"
-   ],
-   "first_seen": "2026-10-31T18:22+03:00",
-   "published": "2026-10-31",
-   "verdict": "weak"
-  },
-  {
-   "score": 56.3,
-   "components": {
-    "tier": 5,
-    "category": 5,
-    "lead": 2.4,
-    "relevance": 16,
-    "freshness": 17.9,
-    "corroborated": 10
-   },
-   "keywords": [
-    "route",
-    "airline",
-    "flight"
-   ],
-   "shock_terms": [],
-   "dedupe_match": null,
-   "dedupe_similarity": 0.08,
-   "id": "4951860fd3c5",
-   "title": "Canada Adds with US as Air Canada and United Airlines Reveal Six New Cross Border Flight Routes for Summer 2027",
-   "url": "https://www.travelandtourworld.com/news/article/hb616a3ekjdg",
-   "summary": "Canada Adds with US as Air Canada and United Airlines Reveal Six New Cross Border Flight Routes for Summer 2027 Air Canada and United Airlines announce six new Canada\u2013US routes for summer 2027, connecting Toronto, Montr\u00e9al, Edmonton, Ottawa and more cities. The post Canada Adds with US as Air Canada and United Airlines Reveal Six New Cross Border Flight Routes for Summer 2027 appeared first on Tra",
-   "kind": "item",
-   "source": "Travel And Tour World",
-   "source_id": "gl-travelandtourworld",
-   "tier": 3,
-   "country": "GLOBAL",
-   "category": "trade",
    "segments": [
     "city",
     "bush",
