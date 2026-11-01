@@ -4,6 +4,8 @@ slug: mea-revpar-bucket-east-africa-no-number
 description: Three of the four listed hotel majors reported the same overlapping geography this month. Hilton's Middle East and Africa line fell 5.6 per cent and is guided to a low double-digit decline for the year, IHG's wider EMEAA bucket rose 5.0 per cent, and Accor published its numbers twice, once with the Middle East in and once with it out. None of them published a figure for Africa. East Africa is where those same companies are building hardest, and it is the half of a hyphen whose number is set somewhere else.
 category: Big Read
 updated: 2026-11-01
+image: "img/editions/mea-revpar-bucket-east-africa-no-number.jpg"
+image_credit: "Photograph: Onyango George / EA Hospitality Pulse"
 ---
 Hilton published its third-quarter results on 27 October and raised its outlook for the year. Revenue per available room across the system was up 5.8 per cent on a currency-neutral basis. The United States was up 7.0 per cent, the Americas outside the United States up 6.3 per cent, Europe up 6.5 per cent. Asia Pacific was almost flat, down 0.5 per cent. One line in the table pointed the other way: Middle East and Africa, down 5.6 per cent.
 
