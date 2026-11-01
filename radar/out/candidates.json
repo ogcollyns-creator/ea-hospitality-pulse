@@ -1,9 +1,9 @@
 {
- "generated": "2026-11-01T19:37:07+03:00",
+ "generated": "2026-11-01T22:50:22+03:00",
  "slot": "evening",
  "window_start": 1793448000,
- "observations_in_window": 740,
- "deduped_against": 17,
+ "observations_in_window": 784,
+ "deduped_against": 22,
  "candidates": [
   {
    "score": 104.8,
@@ -45,13 +45,13 @@
    "verdict": "LEAD CANDIDATE \u2014 tier-1 shock language"
   },
   {
-   "score": 64.8,
+   "score": 61.2,
    "components": {
     "tier": 40,
     "category": 12,
     "lead": 3.6,
     "relevance": 0,
-    "freshness": 19.2,
+    "freshness": 15.6,
     "undated": -6,
     "page_change": -4
    },
@@ -79,13 +79,13 @@
    "verdict": "OPEN THIS \u2014 tier-1 airline page moved; content not auto-parsed, read it manually"
   },
   {
-   "score": 48.0,
+   "score": 45.6,
    "components": {
     "tier": 40,
     "category": 12,
     "lead": 3.6,
     "relevance": 0,
-    "freshness": 2.4,
+    "freshness": 0.0,
     "undated": -6,
     "page_change": -4
    },
@@ -156,13 +156,13 @@
    "verdict": "CONSIDER"
   },
   {
-   "score": 92.2,
+   "score": 88.6,
    "components": {
     "tier": 40,
     "category": 13,
     "lead": 6.0,
     "relevance": 4,
-    "freshness": 19.2,
+    "freshness": 15.6,
     "corroborated": 10
    },
    "keywords": [
@@ -170,7 +170,7 @@
    ],
    "shock_terms": [],
    "dedupe_match": null,
-   "dedupe_similarity": 0.17,
+   "dedupe_similarity": 0.2,
    "id": "aec78685fb57",
    "title": "AIR CAIRO YAANZA RASMI SAFARI ZAKE AAKIA.",
    "url": "https://zaa.go.tz/index.php/2026/11/01/air-cairo-yaanza-rasmi-safari-zake-aakia",
@@ -186,16 +186,16 @@
    ],
    "first_seen": "2026-11-01T19:03+03:00",
    "published": "2026-11-01",
-   "verdict": "STRONG \u2014 tier-1, upstream"
+   "verdict": "CONSIDER"
   },
   {
-   "score": 91.7,
+   "score": 88.2,
    "components": {
     "tier": 5,
     "category": 5,
     "lead": 2.4,
     "relevance": 40,
-    "freshness": 11.3,
+    "freshness": 7.8,
     "corroborated": 10,
     "shock": 18
    },
@@ -230,13 +230,13 @@
    "verdict": "CONSIDER"
   },
   {
-   "score": 90.7,
+   "score": 87.2,
    "components": {
     "tier": 20,
     "category": 5,
     "lead": 2.4,
     "relevance": 24,
-    "freshness": 11.3,
+    "freshness": 7.8,
     "corroborated": 10,
     "shock": 18
    },
@@ -269,13 +269,13 @@
    "verdict": "CONSIDER"
   },
   {
-   "score": 89.3,
+   "score": 85.7,
    "components": {
     "tier": 40,
     "category": 32,
     "lead": 12.0,
     "relevance": 8,
-    "freshness": 11.3,
+    "freshness": 7.7,
     "stale_trap": -10,
     "page_change": -4
    },
@@ -304,19 +304,19 @@
    "verdict": "CHECK \u2014 source date older than the window"
   },
   {
-   "score": 84.2,
+   "score": 81.8,
    "components": {
     "tier": 40,
     "category": 15,
     "lead": 16.8,
     "relevance": 0,
-    "freshness": 2.4,
+    "freshness": 0.0,
     "corroborated": 10
    },
    "keywords": [],
    "shock_terms": [],
    "dedupe_match": null,
-   "dedupe_similarity": 0.14,
+   "dedupe_similarity": 0.2,
    "id": "cc9207f10c6d",
    "title": "",
    "url": "https://www.tra.go.tz/images/uploads/public_notice/english/AMNESTY_ENGLISH.pdf",
@@ -337,20 +337,53 @@
    "verdict": "CONSIDER"
   },
   {
-   "score": 80.8,
+   "score": 81.4,
    "components": {
     "tier": 40,
     "category": 32,
     "lead": 3.6,
     "relevance": 0,
-    "freshness": 19.2,
+    "freshness": 19.8,
     "stale_trap": -10,
     "page_change": -4
    },
    "keywords": [],
    "shock_terms": [],
    "dedupe_match": null,
-   "dedupe_similarity": 0.12,
+   "dedupe_similarity": 0.2,
+   "id": "a54baa58e9b7",
+   "title": "[page changed] Federal Register \u2014 public inspection (HHS/CDC), pre-publication",
+   "url": "https://www.federalregister.gov/api/v1/public-inspection-documents/current.json",
+   "summary": "{\"count\":108,\"results\":[{\"agencies\":[{\"raw_name\":\"Food and Drug Administration\",\"name\":\"Food and Drug Administration\",\"id\":199,\"url\":\"https://www.federalregister.gov/agencies/food-and-drug-administration\",\"json_url\":\"https://www.federalregister.gov/api/v1/agencies/199\",\"parent_id\":221,\"slug\":\"food-and-drug-administration\"}],\"agency_letters\":[],\"agency_names\":[\"Food and Drug Administration\"],\"docke",
+   "kind": "page-change",
+   "source": "Federal Register \u2014 public inspection (HHS/CDC), pre-publication",
+   "source_id": "us-fedreg-pubinspect-hhs",
+   "tier": 1,
+   "country": "REG",
+   "category": "advisory",
+   "segments": [
+    "city",
+    "bush"
+   ],
+   "first_seen": "2026-11-01T22:47+03:00",
+   "published": "2026-10-29",
+   "verdict": "CHECK \u2014 source date older than the window"
+  },
+  {
+   "score": 77.3,
+   "components": {
+    "tier": 40,
+    "category": 32,
+    "lead": 3.6,
+    "relevance": 0,
+    "freshness": 15.7,
+    "stale_trap": -10,
+    "page_change": -4
+   },
+   "keywords": [],
+   "shock_terms": [],
+   "dedupe_match": null,
+   "dedupe_similarity": 0.2,
    "id": "ef97441d3f41",
    "title": "[page changed] Federal Register \u2014 public inspection (HHS/CDC), pre-publication",
    "url": "https://www.federalregister.gov/api/v1/public-inspection-documents/current.json",
@@ -370,13 +403,13 @@
    "verdict": "CHECK \u2014 source date older than the window"
   },
   {
-   "score": 78.8,
+   "score": 76.4,
    "components": {
     "tier": 40,
     "category": 24,
     "lead": 2.4,
     "relevance": 0,
-    "freshness": 2.4,
+    "freshness": 0.0,
     "corroborated": 10
    },
    "keywords": [],
@@ -398,44 +431,6 @@
     "Bush"
    ],
    "first_seen": "2026-11-01T03:48+03:00",
-   "published": "2026-11-01",
-   "verdict": "CONSIDER"
-  },
-  {
-   "score": 76.6,
-   "components": {
-    "tier": 20,
-    "category": 5,
-    "lead": 2.4,
-    "relevance": 20,
-    "freshness": 19.2,
-    "corroborated": 10
-   },
-   "keywords": [
-    "tax",
-    "airline",
-    "booking",
-    "passenger"
-   ],
-   "shock_terms": [],
-   "dedupe_match": null,
-   "dedupe_similarity": 0.25,
-   "id": "c7602588da41",
-   "title": "The Hidden Cost of Ticketing Errors: How Small Mistakes Can Become Expensive for Travel Agencies",
-   "url": "https://katakenya.org/the-hidden-cost-of-ticketing-errors-how-small-mistakes-can-become-expensive-for-travel-agencies",
-   "summary": "A ticket issued with the wrong fare, an incorrectly calculated tax, or a booking left active after a ticket is voided can expose a travel agency to costs that extend well beyond the original transaction. For travel agencies, financial risk doesn\u2019t end when a passenger receives an electronic ticket. Airlines continue to audit bookings, ticket [\u2026]",
-   "kind": "item",
-   "source": "Kenya Association of Travel Agents news",
-   "source_id": "tp-kata",
-   "tier": 2,
-   "country": "KE",
-   "category": "trade",
-   "segments": [
-    "city",
-    "bush",
-    "beach"
-   ],
-   "first_seen": "2026-11-01T19:04+03:00",
    "published": "2026-11-01",
    "verdict": "CONSIDER"
   },
@@ -479,32 +474,34 @@
    "verdict": "CONSIDER"
   },
   {
-   "score": 73.6,
+   "score": 73.1,
    "components": {
     "tier": 20,
-    "category": 4,
+    "category": 5,
     "lead": 2.4,
-    "relevance": 0,
-    "freshness": 19.2,
-    "corroborated": 10,
-    "shock": 18
+    "relevance": 20,
+    "freshness": 15.7,
+    "corroborated": 10
    },
-   "keywords": [],
-   "shock_terms": [
-    "attack"
+   "keywords": [
+    "tax",
+    "airline",
+    "booking",
+    "passenger"
    ],
+   "shock_terms": [],
    "dedupe_match": null,
-   "dedupe_similarity": 0.08,
-   "id": "2f733669b575",
-   "title": "Chaos as Goons Disrupt Radio Citizen Event",
-   "url": "https://www.kenyans.co.ke/news/129053-chaos-goons-disrupt-radio-citizen-event",
-   "summary": "The media fraternity has faced trying times this year, marred by numerous incidents of goon attacks, even as police bosses heighten measures.",
+   "dedupe_similarity": 0.25,
+   "id": "c7602588da41",
+   "title": "The Hidden Cost of Ticketing Errors: How Small Mistakes Can Become Expensive for Travel Agencies",
+   "url": "https://katakenya.org/the-hidden-cost-of-ticketing-errors-how-small-mistakes-can-become-expensive-for-travel-agencies",
+   "summary": "A ticket issued with the wrong fare, an incorrectly calculated tax, or a booking left active after a ticket is voided can expose a travel agency to costs that extend well beyond the original transaction. For travel agencies, financial risk doesn\u2019t end when a passenger receives an electronic ticket. Airlines continue to audit bookings, ticket [\u2026]",
    "kind": "item",
-   "source": "Kenyans.co.ke news",
-   "source_id": "ke-kenyans",
+   "source": "Kenya Association of Travel Agents news",
+   "source_id": "tp-kata",
    "tier": 2,
    "country": "KE",
-   "category": "press",
+   "category": "trade",
    "segments": [
     "city",
     "bush",
@@ -513,39 +510,6 @@
    "first_seen": "2026-11-01T19:04+03:00",
    "published": "2026-11-01",
    "verdict": "CONSIDER"
-  },
-  {
-   "score": 72.9,
-   "components": {
-    "tier": 40,
-    "category": 32,
-    "lead": 3.6,
-    "relevance": 0,
-    "freshness": 11.3,
-    "stale_trap": -10,
-    "page_change": -4
-   },
-   "keywords": [],
-   "shock_terms": [],
-   "dedupe_match": null,
-   "dedupe_similarity": 0.12,
-   "id": "5f38cbe6dcfa",
-   "title": "[page changed] Federal Register \u2014 public inspection (HHS/CDC), pre-publication",
-   "url": "https://www.federalregister.gov/api/v1/public-inspection-documents/current.json",
-   "summary": "{\"count\":108,\"results\":[{\"agencies\":[{\"raw_name\":\"Food and Drug Administration\",\"name\":\"Food and Drug Administration\",\"id\":199,\"url\":\"https://www.federalregister.gov/agencies/food-and-drug-administration\",\"json_url\":\"https://www.federalregister.gov/api/v1/agencies/199\",\"parent_id\":221,\"slug\":\"food-and-drug-administration\"}],\"agency_letters\":[],\"agency_names\":[\"Food and Drug Administration\"],\"docke",
-   "kind": "page-change",
-   "source": "Federal Register \u2014 public inspection (HHS/CDC), pre-publication",
-   "source_id": "us-fedreg-pubinspect-hhs",
-   "tier": 1,
-   "country": "REG",
-   "category": "advisory",
-   "segments": [
-    "city",
-    "bush"
-   ],
-   "first_seen": "2026-11-01T11:51+03:00",
-   "published": "2026-10-29",
-   "verdict": "CHECK \u2014 source date older than the window"
   },
   {
    "score": 72.4,
@@ -583,39 +547,6 @@
    "verdict": "CONSIDER"
   },
   {
-   "score": 72.2,
-   "components": {
-    "tier": 40,
-    "category": 13,
-    "lead": 6.0,
-    "relevance": 0,
-    "freshness": 19.2,
-    "undated": -6
-   },
-   "keywords": [],
-   "shock_terms": [],
-   "dedupe_match": null,
-   "dedupe_similarity": 0.14,
-   "id": "b6bd0208b3e6",
-   "title": "News https://youtube.com/watch?v=DH17Gogh4S0 The Tanzania Civil Aviation Authority (TCAA) presents the Civil Aviation Services Portal (CASP), a digital.... - 1 November, 2026",
-   "url": "https://www.tcaa.go.tz/news/air-transport-services-are-now-at-your-fingertips",
-   "summary": "",
-   "kind": "item",
-   "source": "Tanzania Civil Aviation Authority",
-   "source_id": "tz-tcaa",
-   "tier": 1,
-   "country": "TZ",
-   "category": "aviation",
-   "segments": [
-    "city",
-    "bush",
-    "beach"
-   ],
-   "first_seen": "2026-11-01T19:04+03:00",
-   "published": null,
-   "verdict": "CONSIDER"
-  },
-  {
    "score": 71.0,
    "components": {
     "tier": 40,
@@ -649,31 +580,31 @@
    "verdict": "CONSIDER"
   },
   {
-   "score": 69.2,
+   "score": 70.1,
    "components": {
     "tier": 20,
     "category": 4,
-    "lead": 0.0,
-    "relevance": 16,
-    "freshness": 19.2,
-    "corroborated": 10
+    "lead": 2.4,
+    "relevance": 0,
+    "freshness": 15.7,
+    "corroborated": 10,
+    "shock": 18
    },
-   "keywords": [
-    "fee",
-    "tariff"
+   "keywords": [],
+   "shock_terms": [
+    "attack"
    ],
-   "shock_terms": [],
    "dedupe_match": null,
    "dedupe_similarity": 0.08,
-   "id": "c531fafbc6eb",
-   "title": "With No Tariffs, Rwandan Companies See Over 10% Rise in Cargo to China",
-   "url": "https://www.ktpress.rw/2026/11/with-no-tariffs-rwandan-companies-see-over-10-rise-in-cargo-to-china",
-   "summary": "KIGALI \u2013 For Lawrence Mukakabera, a coffee harvest is a source of income, a reward for months of tending her crop and, increasingly, a connection to markets thousands of kilometers\u2026 The post With No Tariffs, Rwandan Companies See Over 10% Rise in Cargo to China appeared first on KT PRESS .",
+   "id": "2f733669b575",
+   "title": "Chaos as Goons Disrupt Radio Citizen Event",
+   "url": "https://www.kenyans.co.ke/news/129053-chaos-goons-disrupt-radio-citizen-event",
+   "summary": "The media fraternity has faced trying times this year, marred by numerous incidents of goon attacks, even as police bosses heighten measures.",
    "kind": "item",
-   "source": "KT Press (Rwanda)",
-   "source_id": "np-ktpress-rw",
+   "source": "Kenyans.co.ke news",
+   "source_id": "ke-kenyans",
    "tier": 2,
-   "country": "RW",
+   "country": "KE",
    "category": "press",
    "segments": [
     "city",
@@ -682,16 +613,82 @@
    ],
    "first_seen": "2026-11-01T19:04+03:00",
    "published": "2026-11-01",
+   "verdict": "CONSIDER"
+  },
+  {
+   "score": 69.3,
+   "components": {
+    "tier": 40,
+    "category": 32,
+    "lead": 3.6,
+    "relevance": 0,
+    "freshness": 7.7,
+    "stale_trap": -10,
+    "page_change": -4
+   },
+   "keywords": [],
+   "shock_terms": [],
+   "dedupe_match": null,
+   "dedupe_similarity": 0.2,
+   "id": "5f38cbe6dcfa",
+   "title": "[page changed] Federal Register \u2014 public inspection (HHS/CDC), pre-publication",
+   "url": "https://www.federalregister.gov/api/v1/public-inspection-documents/current.json",
+   "summary": "{\"count\":108,\"results\":[{\"agencies\":[{\"raw_name\":\"Food and Drug Administration\",\"name\":\"Food and Drug Administration\",\"id\":199,\"url\":\"https://www.federalregister.gov/agencies/food-and-drug-administration\",\"json_url\":\"https://www.federalregister.gov/api/v1/agencies/199\",\"parent_id\":221,\"slug\":\"food-and-drug-administration\"}],\"agency_letters\":[],\"agency_names\":[\"Food and Drug Administration\"],\"docke",
+   "kind": "page-change",
+   "source": "Federal Register \u2014 public inspection (HHS/CDC), pre-publication",
+   "source_id": "us-fedreg-pubinspect-hhs",
+   "tier": 1,
+   "country": "REG",
+   "category": "advisory",
+   "segments": [
+    "city",
+    "bush"
+   ],
+   "first_seen": "2026-11-01T11:51+03:00",
+   "published": "2026-10-29",
+   "verdict": "CHECK \u2014 source date older than the window"
+  },
+  {
+   "score": 68.7,
+   "components": {
+    "tier": 40,
+    "category": 13,
+    "lead": 6.0,
+    "relevance": 0,
+    "freshness": 15.7,
+    "undated": -6
+   },
+   "keywords": [],
+   "shock_terms": [],
+   "dedupe_match": null,
+   "dedupe_similarity": 0.2,
+   "id": "b6bd0208b3e6",
+   "title": "News https://youtube.com/watch?v=DH17Gogh4S0 The Tanzania Civil Aviation Authority (TCAA) presents the Civil Aviation Services Portal (CASP), a digital.... - 1 November, 2026",
+   "url": "https://www.tcaa.go.tz/news/air-transport-services-are-now-at-your-fingertips",
+   "summary": "",
+   "kind": "item",
+   "source": "Tanzania Civil Aviation Authority",
+   "source_id": "tz-tcaa",
+   "tier": 1,
+   "country": "TZ",
+   "category": "aviation",
+   "segments": [
+    "city",
+    "bush",
+    "beach"
+   ],
+   "first_seen": "2026-11-01T19:04+03:00",
+   "published": null,
    "verdict": "weak"
   },
   {
-   "score": 68.8,
+   "score": 66.4,
    "components": {
     "tier": 20,
     "category": 24,
     "lead": 2.4,
     "relevance": 12,
-    "freshness": 2.4,
+    "freshness": 0.0,
     "undated": -6,
     "shock": 18,
     "page_change": -4
@@ -721,42 +718,6 @@
    ],
    "first_seen": "2026-11-01T03:48+03:00",
    "published": null,
-   "verdict": "weak"
-  },
-  {
-   "score": 67.6,
-   "components": {
-    "tier": 20,
-    "category": 4,
-    "lead": 2.4,
-    "relevance": 12,
-    "freshness": 19.2,
-    "corroborated": 10
-   },
-   "keywords": [
-    "eta",
-    "inflation"
-   ],
-   "shock_terms": [],
-   "dedupe_match": null,
-   "dedupe_similarity": 0.25,
-   "id": "5c08f4c979d4",
-   "title": "Lagarde\u2019s early exit raises questions over ECB independence, policy outlook",
-   "url": "https://www.independent.co.ug/lagardes-early-exit-raises-questions-over-ecb-independence-policy-outlook",
-   "summary": "BERLIN | Xinhua | European Central Bank (ECB) President Christine Lagarde\u2019s decision to step down nearly nine months before the end of her term has sparked debate over the implications of her early departure and raised questions about the outlook for eurozone monetary policy. The move comes as the eurozone faces renewed inflationary pressures, \u2026 The post Lagarde\u2019s early exit raises questions over ",
-   "kind": "item",
-   "source": "The Independent (Uganda)",
-   "source_id": "ug-independent",
-   "tier": 2,
-   "country": "UG",
-   "category": "press",
-   "segments": [
-    "city",
-    "bush",
-    "beach"
-   ],
-   "first_seen": "2026-11-01T19:04+03:00",
-   "published": "2026-11-01",
    "verdict": "weak"
   },
   {
@@ -798,32 +759,104 @@
    "verdict": "weak"
   },
   {
-   "score": 64.6,
+   "score": 65.8,
    "components": {
     "tier": 20,
-    "category": 5,
-    "lead": 2.4,
-    "relevance": 8,
-    "freshness": 19.2,
+    "category": 4,
+    "lead": 0.0,
+    "relevance": 12,
+    "freshness": 19.8,
     "corroborated": 10
    },
    "keywords": [
-    "airline",
-    "booking"
+    "capacity",
+    "investment"
    ],
    "shock_terms": [],
    "dedupe_match": null,
-   "dedupe_similarity": 0.17,
-   "id": "27a3a502af94",
-   "title": "Can travel agencies access NDC without IATA accreditation?",
-   "url": "https://katakenya.org/can-travel-agencies-access-ndc-without-iata-accreditation",
-   "summary": "IATA accreditation is not a universal requirement for accessing airline New Distribution Capability (NDC) content. However, booking access, ticketing authority and payment settlement are three different things, and smaller travel agencies need to understand the distinction. A travel agency does not necessarily need IATA accreditation to participate in the growing NDC distribution market. Airlines ",
+   "dedupe_similarity": 0.2,
+   "id": "53aca85f7909",
+   "title": "JKCI steps up healthcare preparations for AFCON 2027",
+   "url": "https://dailynews.co.tz/jkci-steps-up-healthcare-preparations-for-afcon-2027",
+   "summary": "ARUSHA: THE Jakaya Kikwete Cardiac Institute (JKCI), in partnership with Global Medicare, is strengthening the capacity of JKCI-ALMC Hospital (Selian Urban Hospital) in Arusha through strategic investments in healthcare infrastructure, advanced medical technology and state-of-the-art medical equipment. The investment forms part of preparations to enhance healthcare service delivery ahead of the 20",
    "kind": "item",
-   "source": "Kenya Association of Travel Agents news",
-   "source_id": "tp-kata",
+   "source": "Daily News (Tanzania)",
+   "source_id": "np-dailynews-tz",
    "tier": 2,
-   "country": "KE",
-   "category": "trade",
+   "country": "TZ",
+   "category": "press",
+   "segments": [
+    "city",
+    "bush",
+    "beach"
+   ],
+   "first_seen": "2026-11-01T22:48+03:00",
+   "published": "2026-11-01",
+   "verdict": "weak"
+  },
+  {
+   "score": 65.8,
+   "components": {
+    "tier": 20,
+    "category": 4,
+    "lead": 0.0,
+    "relevance": 12,
+    "freshness": 19.8,
+    "corroborated": 10
+   },
+   "keywords": [
+    "vat",
+    "exhibition"
+   ],
+   "shock_terms": [],
+   "dedupe_match": null,
+   "dedupe_similarity": 0.0,
+   "id": "7fb263cdbbb2",
+   "title": "Startup policies are underway, but what about funding for the young innovators?",
+   "url": "https://www.monitor.co.ug/uganda/news/national/startup-policies-are-underway-but-what-about-funding-for-the-young-innovators--5654650",
+   "summary": "Mr Akandwanaho said innovation exhibitions being held in the country are one of the great...",
+   "kind": "item",
+   "source": "Daily Monitor (Uganda)",
+   "source_id": "np-monitor-ug",
+   "tier": 2,
+   "country": "UG",
+   "category": "press",
+   "segments": [
+    "city",
+    "bush",
+    "beach"
+   ],
+   "first_seen": "2026-11-01T22:48+03:00",
+   "published": "2026-11-01",
+   "verdict": "weak"
+  },
+  {
+   "score": 65.7,
+   "components": {
+    "tier": 20,
+    "category": 4,
+    "lead": 0.0,
+    "relevance": 16,
+    "freshness": 15.7,
+    "corroborated": 10
+   },
+   "keywords": [
+    "fee",
+    "tariff"
+   ],
+   "shock_terms": [],
+   "dedupe_match": null,
+   "dedupe_similarity": 0.08,
+   "id": "c531fafbc6eb",
+   "title": "With No Tariffs, Rwandan Companies See Over 10% Rise in Cargo to China",
+   "url": "https://www.ktpress.rw/2026/11/with-no-tariffs-rwandan-companies-see-over-10-rise-in-cargo-to-china",
+   "summary": "KIGALI \u2013 For Lawrence Mukakabera, a coffee harvest is a source of income, a reward for months of tending her crop and, increasingly, a connection to markets thousands of kilometers\u2026 The post With No Tariffs, Rwandan Companies See Over 10% Rise in Cargo to China appeared first on KT PRESS .",
+   "kind": "item",
+   "source": "KT Press (Rwanda)",
+   "source_id": "np-ktpress-rw",
+   "tier": 2,
+   "country": "RW",
+   "category": "press",
    "segments": [
     "city",
     "bush",
@@ -850,7 +883,7 @@
    ],
    "shock_terms": [],
    "dedupe_match": null,
-   "dedupe_similarity": 0.12,
+   "dedupe_similarity": 0.25,
    "id": "aa60595d02d2",
    "title": "Govt Hits Back at Saudi Arabia Over New Restrictions on Kenyans",
    "url": "https://www.kenyans.co.ke/news/129032-ministry-health-defends-kenyas-ebola-response-amid-saudi-arabia-restrictions",
@@ -871,200 +904,26 @@
    "verdict": "weak"
   },
   {
-   "score": 64.0,
-   "components": {
-    "tier": 40,
-    "category": 32,
-    "lead": 3.6,
-    "relevance": 0,
-    "freshness": 2.4,
-    "stale_trap": -10,
-    "page_change": -4
-   },
-   "keywords": [],
-   "shock_terms": [],
-   "dedupe_match": null,
-   "dedupe_similarity": 0.12,
-   "id": "bd657def098d",
-   "title": "[page changed] Federal Register \u2014 public inspection (HHS/CDC), pre-publication",
-   "url": "https://www.federalregister.gov/api/v1/public-inspection-documents/current.json",
-   "summary": "{\"count\":108,\"results\":[{\"agencies\":[{\"raw_name\":\"Food and Drug Administration\",\"name\":\"Food and Drug Administration\",\"id\":199,\"url\":\"https://www.federalregister.gov/agencies/food-and-drug-administration\",\"json_url\":\"https://www.federalregister.gov/api/v1/agencies/199\",\"parent_id\":221,\"slug\":\"food-and-drug-administration\"}],\"agency_letters\":[],\"agency_names\":[\"Food and Drug Administration\"],\"docke",
-   "kind": "page-change",
-   "source": "Federal Register \u2014 public inspection (HHS/CDC), pre-publication",
-   "source_id": "us-fedreg-pubinspect-hhs",
-   "tier": 1,
-   "country": "REG",
-   "category": "advisory",
-   "segments": [
-    "city",
-    "bush"
-   ],
-   "first_seen": "2026-11-01T03:47+03:00",
-   "published": "2026-10-29",
-   "verdict": "CHECK \u2014 source date older than the window"
-  },
-  {
-   "score": 63.7,
+   "score": 64.1,
    "components": {
     "tier": 20,
     "category": 4,
     "lead": 2.4,
-    "relevance": 16,
-    "freshness": 11.3,
+    "relevance": 12,
+    "freshness": 15.7,
     "corroborated": 10
    },
    "keywords": [
-    "fee",
-    "protest"
+    "eta",
+    "inflation"
    ],
    "shock_terms": [],
    "dedupe_match": null,
-   "dedupe_similarity": 0.14,
-   "id": "ad5cd2c74a7a",
-   "title": "Youth protests across Europe",
-   "url": "https://www.independent.co.ug/youth-protests-across-europe",
-   "summary": "Here are the overlapping crises facing Gen Z COMMENT | ALINA COSMA | Young people are facing a future that feels increasingly uncertain. Although every generation experiences turbulence while navigating adolescence, the pressures experienced by Gen Z \u2013 those born between 1997 and 2012 \u2013 are different and seem more pervasive. From climate change \u2026 The post Youth protests across Europe appeared firs",
-   "kind": "item",
-   "source": "The Independent (Uganda)",
-   "source_id": "ug-independent",
-   "tier": 2,
-   "country": "UG",
-   "category": "press",
-   "segments": [
-    "city",
-    "bush",
-    "beach"
-   ],
-   "first_seen": "2026-11-01T11:53+03:00",
-   "published": "2026-11-01",
-   "verdict": "weak"
-  },
-  {
-   "score": 63.6,
-   "components": {
-    "tier": 20,
-    "category": 4,
-    "lead": 2.4,
-    "relevance": 8,
-    "freshness": 19.2,
-    "corroborated": 10
-   },
-   "keywords": [
-    "summit",
-    "opening"
-   ],
-   "shock_terms": [],
-   "dedupe_match": null,
-   "dedupe_similarity": 0.15,
-   "id": "8bfc40df1bad",
-   "title": "Explained: What Is Bitumen, Material Behind Rironi-Mau Road Delays",
-   "url": "https://www.kenyans.co.ke/news/129052-explained-what-bitumen-material-behind-rironi-mau-road-delays",
-   "summary": "CS Chirchir has pushed the opening of the 60-kilometre section of the Rironi-Mau Summit highway to early December 2026, from October 30, citing a shortage of bitumen.",
-   "kind": "item",
-   "source": "Kenyans.co.ke news",
-   "source_id": "ke-kenyans",
-   "tier": 2,
-   "country": "KE",
-   "category": "press",
-   "segments": [
-    "city",
-    "bush",
-    "beach"
-   ],
-   "first_seen": "2026-11-01T19:04+03:00",
-   "published": "2026-11-01",
-   "verdict": "weak"
-  },
-  {
-   "score": 63.6,
-   "components": {
-    "tier": 20,
-    "category": 4,
-    "lead": 2.4,
-    "relevance": 8,
-    "freshness": 19.2,
-    "corroborated": 10
-   },
-   "keywords": [
-    "election"
-   ],
-   "shock_terms": [],
-   "dedupe_match": null,
-   "dedupe_similarity": 0.15,
-   "id": "09942a8fc099",
-   "title": "Four Political Parties Announce Changes Including Top Leadership",
-   "url": "https://www.kenyans.co.ke/news/129047-four-political-parties-announce-changes-leadership-headquarters-and-identity",
-   "summary": "The changes come 10 months ahead of the 2027 General Election, as political parties move to consolidate support and strengthen their positions ahead of the polls.",
-   "kind": "item",
-   "source": "Kenyans.co.ke news",
-   "source_id": "ke-kenyans",
-   "tier": 2,
-   "country": "KE",
-   "category": "press",
-   "segments": [
-    "city",
-    "bush",
-    "beach"
-   ],
-   "first_seen": "2026-11-01T19:04+03:00",
-   "published": "2026-11-01",
-   "verdict": "weak"
-  },
-  {
-   "score": 63.6,
-   "components": {
-    "tier": 20,
-    "category": 4,
-    "lead": 2.4,
-    "relevance": 8,
-    "freshness": 19.2,
-    "corroborated": 10
-   },
-   "keywords": [
-    "vat"
-   ],
-   "shock_terms": [],
-   "dedupe_match": null,
-   "dedupe_similarity": 0.0,
-   "id": "4e48b56d127f",
-   "title": "NLC Identifies Private Land for Acquisition for Proposed Military Air Base",
-   "url": "https://www.kenyans.co.ke/news/129046-nlc-eyes-private-land-new-military-air-base",
-   "summary": "The new acquisitions by the National Land Commission (NLC) are to affect a total of six counties, with landowners affected being advised further on land compensation.",
-   "kind": "item",
-   "source": "Kenyans.co.ke news",
-   "source_id": "ke-kenyans",
-   "tier": 2,
-   "country": "KE",
-   "category": "press",
-   "segments": [
-    "city",
-    "bush",
-    "beach"
-   ],
-   "first_seen": "2026-11-01T19:04+03:00",
-   "published": "2026-11-01",
-   "verdict": "weak"
-  },
-  {
-   "score": 63.6,
-   "components": {
-    "tier": 20,
-    "category": 4,
-    "lead": 2.4,
-    "relevance": 8,
-    "freshness": 19.2,
-    "corroborated": 10
-   },
-   "keywords": [
-    "fuel"
-   ],
-   "shock_terms": [],
-   "dedupe_match": null,
-   "dedupe_similarity": 0.0,
-   "id": "e57c61072f9e",
-   "title": "Benin company breathes new life into used cooking oil",
-   "url": "https://www.independent.co.ug/benin-company-breathes-new-life-into-used-cooking-oil",
-   "summary": "COTONOU | Xinhua | Once discarded into the environment or sometimes reused for cooking, used cooking oil is finding a new lease on life in Benin, where a local company is turning the waste into useful products such as soap and biofuel. At Ouedo-Kpossidja, a locality about 40 km north of Cotonou, the country\u2019s \u2026 The post Benin company breathes new life into used cooking oil appeared first on The In",
+   "dedupe_similarity": 0.25,
+   "id": "5c08f4c979d4",
+   "title": "Lagarde\u2019s early exit raises questions over ECB independence, policy outlook",
+   "url": "https://www.independent.co.ug/lagardes-early-exit-raises-questions-over-ecb-independence-policy-outlook",
+   "summary": "BERLIN | Xinhua | European Central Bank (ECB) President Christine Lagarde\u2019s decision to step down nearly nine months before the end of her term has sparked debate over the implications of her early departure and raised questions about the outlook for eurozone monetary policy. The move comes as the eurozone faces renewed inflationary pressures, \u2026 The post Lagarde\u2019s early exit raises questions over ",
    "kind": "item",
    "source": "The Independent (Uganda)",
    "source_id": "ug-independent",
@@ -1078,184 +937,6 @@
    ],
    "first_seen": "2026-11-01T19:04+03:00",
    "published": "2026-11-01",
-   "verdict": "weak"
-  },
-  {
-   "score": 63.6,
-   "components": {
-    "tier": 20,
-    "category": 4,
-    "lead": 2.4,
-    "relevance": 8,
-    "freshness": 19.2,
-    "corroborated": 10
-   },
-   "keywords": [
-    "eta"
-   ],
-   "shock_terms": [],
-   "dedupe_match": null,
-   "dedupe_similarity": 0.13,
-   "id": "43f32e2de772",
-   "title": "Kyenjojo welder uses government support to build business and train youth",
-   "url": "https://www.independent.co.ug/kyenjojo-welder-uses-government-support-to-build-business-and-train-youth",
-   "summary": "Kyenjojo, Uganda | URN | A welder in Kyenjojo District has used government support to set up his own workshop, build a house, and begin training six young men in welding and metal fabrication. Brian Ayesiga says his transformation began at the Kijwiga Presidential Skilling Hub, where he acquired vocational skills before gaining practical experience \u2026 The post Kyenjojo welder uses government suppor",
-   "kind": "item",
-   "source": "The Independent (Uganda)",
-   "source_id": "ug-independent",
-   "tier": 2,
-   "country": "UG",
-   "category": "press",
-   "segments": [
-    "city",
-    "bush",
-    "beach"
-   ],
-   "first_seen": "2026-11-01T19:04+03:00",
-   "published": "2026-11-01",
-   "verdict": "weak"
-  },
-  {
-   "score": 63.6,
-   "components": {
-    "tier": 20,
-    "category": 4,
-    "lead": 2.4,
-    "relevance": 8,
-    "freshness": 19.2,
-    "corroborated": 10
-   },
-   "keywords": [
-    "eta"
-   ],
-   "shock_terms": [],
-   "dedupe_match": null,
-   "dedupe_similarity": 0.0,
-   "id": "dcefdfd9a298",
-   "title": "Joho, Mvurya face off in battle for Kwale political supremacy",
-   "url": "https://nation.africa/kenya/counties/kwale/joho-mvurya-face-off-battle-for-kwale-political-supremacy-5654256",
-   "summary": "Mining Cabinet Secretary and Sports Cabinet Secretary headed for a political showdown.",
-   "kind": "item",
-   "source": "Nation Africa: Kenya business",
-   "source_id": "ke-nation-business",
-   "tier": 2,
-   "country": "KE",
-   "category": "press",
-   "segments": [
-    "city",
-    "bush",
-    "beach"
-   ],
-   "first_seen": "2026-11-01T19:04+03:00",
-   "published": "2026-11-01",
-   "verdict": "weak"
-  },
-  {
-   "score": 63.6,
-   "components": {
-    "tier": 20,
-    "category": 4,
-    "lead": 2.4,
-    "relevance": 8,
-    "freshness": 19.2,
-    "corroborated": 10
-   },
-   "keywords": [
-    "tax"
-   ],
-   "shock_terms": [],
-   "dedupe_match": null,
-   "dedupe_similarity": 0.0,
-   "id": "784eb35c8012",
-   "title": "Ex-MP Kirima's family hit with Sh3.3bn lawyers\u2019 bill after wealth dispute",
-   "url": "https://nation.africa/kenya/news/ex-mp-kirima-s-family-hit-with-sh3-3bn-lawyers-bill-after-wealth-dispute-5654206",
-   "summary": "The judge ordered the bill to be assessed afresh by another taxing officer after finding errors.",
-   "kind": "item",
-   "source": "Nation Africa: Kenya business",
-   "source_id": "ke-nation-business",
-   "tier": 2,
-   "country": "KE",
-   "category": "press",
-   "segments": [
-    "city",
-    "bush",
-    "beach"
-   ],
-   "first_seen": "2026-11-01T19:04+03:00",
-   "published": "2026-11-01",
-   "verdict": "weak"
-  },
-  {
-   "score": 63.6,
-   "components": {
-    "tier": 20,
-    "category": 4,
-    "lead": 2.4,
-    "relevance": 8,
-    "freshness": 19.2,
-    "corroborated": 10
-   },
-   "keywords": [
-    "eta"
-   ],
-   "shock_terms": [],
-   "dedupe_match": null,
-   "dedupe_similarity": 0.17,
-   "id": "792411d12040",
-   "title": "Big Tech returns smallest share of cash to shareholders in 15 years, given AI spending",
-   "url": "https://nation.africa/kenya/business/companies/big-tech-returns-smallest-share-of-cash-to-shareholders-in-15-years-given-ai-spending-5654110",
-   "summary": "Microsoft, Alphabet, Amazon, Meta and Oracle returned 9.3 per cent of the cash their businesses...",
-   "kind": "item",
-   "source": "Nation Africa: Kenya business",
-   "source_id": "ke-nation-business",
-   "tier": 2,
-   "country": "KE",
-   "category": "press",
-   "segments": [
-    "city",
-    "bush",
-    "beach"
-   ],
-   "first_seen": "2026-11-01T19:04+03:00",
-   "published": "2026-11-01",
-   "verdict": "weak"
-  },
-  {
-   "score": 63.2,
-   "components": {
-    "tier": 20,
-    "category": 4,
-    "lead": 0.0,
-    "relevance": 8,
-    "freshness": 19.2,
-    "undated": -6,
-    "shock": 18
-   },
-   "keywords": [
-    "strike"
-   ],
-   "shock_terms": [
-    "strike"
-   ],
-   "dedupe_match": null,
-   "dedupe_similarity": 0.0,
-   "id": "caa9640cb377",
-   "title": "World Iran warns new war could last longer after Trump threatens strikes",
-   "url": "https://www.newvision.co.ug/category/world/iran-warns-new-war-could-last-longer-after-tr-NV_243366_112026",
-   "summary": "",
-   "kind": "item",
-   "source": "New Vision (Uganda)",
-   "source_id": "np-newvision-ug",
-   "tier": 2,
-   "country": "UG",
-   "category": "press",
-   "segments": [
-    "city",
-    "bush",
-    "beach"
-   ],
-   "first_seen": "2026-11-01T19:04+03:00",
-   "published": null,
    "verdict": "weak"
   },
   {
@@ -1297,40 +978,37 @@
    "verdict": "weak"
   },
   {
-   "score": 61.6,
+   "score": 61.8,
    "components": {
-    "tier": 5,
-    "category": 5,
-    "lead": 2.4,
-    "relevance": 20,
-    "freshness": 19.2,
+    "tier": 20,
+    "category": 4,
+    "lead": 0.0,
+    "relevance": 8,
+    "freshness": 19.8,
     "corroborated": 10
    },
    "keywords": [
-    "airport",
-    "airline",
-    "flight",
-    "passenger"
+    "vat"
    ],
    "shock_terms": [],
    "dedupe_match": null,
-   "dedupe_similarity": 0.07,
-   "id": "26a7cd2cdd45",
-   "title": "Singapore Airlines Flight SQ213 Arts Landing During Intense Gale to Safeguard Passengers at Perth Airport in Australia",
-   "url": "https://www.travelandtourworld.com/news/article/g0fqd9tp0wpk",
-   "summary": "Singapore Airlines Flight SQ213 Arts Landing During Intense Gale to Safeguard Passengers at Perth Airport in Australia Focus on Singapore Airlines SQ213 go-around at Perth Airport as the A350 fights winds before landing The post Singapore Airlines Flight SQ213 Arts Landing During Intense Gale to Safeguard Passengers at Perth Airport in Australia appeared first on Travel And Tour World .",
+   "dedupe_similarity": 0.0,
+   "id": "69e79ccc8c88",
+   "title": "All Saints Cathedral elevated to deanery, gets first female Dean",
+   "url": "https://www.monitor.co.ug/uganda/news/national/all-saints-cathedral-elevated-to-deanery-gets-first-female-dean-5654626",
+   "summary": "Rev Canon Rebecca Nyegenye, who previously served as the cathedral Provost, was installed as...",
    "kind": "item",
-   "source": "Travel And Tour World",
-   "source_id": "gl-travelandtourworld",
-   "tier": 3,
-   "country": "GLOBAL",
-   "category": "trade",
+   "source": "Daily Monitor (Uganda)",
+   "source_id": "np-monitor-ug",
+   "tier": 2,
+   "country": "UG",
+   "category": "press",
    "segments": [
     "city",
     "bush",
     "beach"
    ],
-   "first_seen": "2026-11-01T19:04+03:00",
+   "first_seen": "2026-11-01T22:48+03:00",
    "published": "2026-11-01",
    "verdict": "weak"
   },
@@ -1348,7 +1026,40 @@
    "keywords": [],
    "shock_terms": [],
    "dedupe_match": null,
-   "dedupe_similarity": 0.12,
+   "dedupe_similarity": 0.2,
+   "id": "bd657def098d",
+   "title": "[page changed] Federal Register \u2014 public inspection (HHS/CDC), pre-publication",
+   "url": "https://www.federalregister.gov/api/v1/public-inspection-documents/current.json",
+   "summary": "{\"count\":108,\"results\":[{\"agencies\":[{\"raw_name\":\"Food and Drug Administration\",\"name\":\"Food and Drug Administration\",\"id\":199,\"url\":\"https://www.federalregister.gov/agencies/food-and-drug-administration\",\"json_url\":\"https://www.federalregister.gov/api/v1/agencies/199\",\"parent_id\":221,\"slug\":\"food-and-drug-administration\"}],\"agency_letters\":[],\"agency_names\":[\"Food and Drug Administration\"],\"docke",
+   "kind": "page-change",
+   "source": "Federal Register \u2014 public inspection (HHS/CDC), pre-publication",
+   "source_id": "us-fedreg-pubinspect-hhs",
+   "tier": 1,
+   "country": "REG",
+   "category": "advisory",
+   "segments": [
+    "city",
+    "bush"
+   ],
+   "first_seen": "2026-11-01T03:47+03:00",
+   "published": "2026-10-29",
+   "verdict": "CHECK \u2014 source date older than the window"
+  },
+  {
+   "score": 61.6,
+   "components": {
+    "tier": 40,
+    "category": 32,
+    "lead": 3.6,
+    "relevance": 0,
+    "freshness": 0.0,
+    "stale_trap": -10,
+    "page_change": -4
+   },
+   "keywords": [],
+   "shock_terms": [],
+   "dedupe_match": null,
+   "dedupe_similarity": 0.2,
    "id": "3d78f1b2163c",
    "title": "[page changed] Federal Register \u2014 public inspection (HHS/CDC), pre-publication",
    "url": "https://www.federalregister.gov/api/v1/public-inspection-documents/current.json",
@@ -1381,7 +1092,7 @@
    "keywords": [],
    "shock_terms": [],
    "dedupe_match": null,
-   "dedupe_similarity": 0.12,
+   "dedupe_similarity": 0.2,
    "id": "8ec2e08fdcb9",
    "title": "[page changed] Federal Register \u2014 public inspection (HHS/CDC), pre-publication",
    "url": "https://www.federalregister.gov/api/v1/public-inspection-documents/current.json",
@@ -1401,31 +1112,32 @@
    "verdict": "CHECK \u2014 source date older than the window"
   },
   {
-   "score": 61.2,
+   "score": 61.1,
    "components": {
     "tier": 20,
-    "category": 4,
-    "lead": 0.0,
+    "category": 5,
+    "lead": 2.4,
     "relevance": 8,
-    "freshness": 19.2,
+    "freshness": 15.7,
     "corroborated": 10
    },
    "keywords": [
-    "vat"
+    "airline",
+    "booking"
    ],
    "shock_terms": [],
    "dedupe_match": null,
-   "dedupe_similarity": 0.08,
-   "id": "7d55d4d11923",
-   "title": "PM Nabbanja tasks Kabale University on agricultural research, practical innovation",
-   "url": "https://www.monitor.co.ug/uganda/news/national/pm-nabbanja-tasks-kabale-university-on-agricultural-research-practical-innovation--5654170",
-   "summary": "\u201cOne of the most pressing challenges facing Kabale University is the need for additional...",
+   "dedupe_similarity": 0.17,
+   "id": "27a3a502af94",
+   "title": "Can travel agencies access NDC without IATA accreditation?",
+   "url": "https://katakenya.org/can-travel-agencies-access-ndc-without-iata-accreditation",
+   "summary": "IATA accreditation is not a universal requirement for accessing airline New Distribution Capability (NDC) content. However, booking access, ticketing authority and payment settlement are three different things, and smaller travel agencies need to understand the distinction. A travel agency does not necessarily need IATA accreditation to participate in the growing NDC distribution market. Airlines ",
    "kind": "item",
-   "source": "Daily Monitor (Uganda)",
-   "source_id": "np-monitor-ug",
+   "source": "Kenya Association of Travel Agents news",
+   "source_id": "tp-kata",
    "tier": 2,
-   "country": "UG",
-   "category": "press",
+   "country": "KE",
+   "category": "trade",
    "segments": [
     "city",
     "bush",
@@ -1433,6 +1145,277 @@
    ],
    "first_seen": "2026-11-01T19:04+03:00",
    "published": "2026-11-01",
+   "verdict": "weak"
+  },
+  {
+   "score": 60.4,
+   "components": {
+    "tier": 20,
+    "category": 4,
+    "lead": 2.4,
+    "relevance": 24,
+    "freshness": 0.0,
+    "corroborated": 10
+   },
+   "keywords": [
+    "ebola",
+    "travel ban"
+   ],
+   "shock_terms": [],
+   "dedupe_match": null,
+   "dedupe_similarity": 0.25,
+   "id": "bc285dacce8d",
+   "title": "Saudi Arabia imposes Ebola-related travel bans on Kenya as countries tighten controls",
+   "url": "https://nation.africa/kenya/news/saudi-arabia-ebola-travel-bans-kenya-countries-tighten-controls-5653668",
+   "summary": "Riyadh\u2019s restrictions target people arriving from Kenya or those who have recently travelled...",
+   "kind": "item",
+   "source": "Nation Africa: Kenya business",
+   "source_id": "ke-nation-business",
+   "tier": 2,
+   "country": "KE",
+   "category": "press",
+   "segments": [
+    "city",
+    "bush",
+    "beach"
+   ],
+   "first_seen": "2026-10-31T22:23+03:00",
+   "published": "2026-10-31",
+   "verdict": "weak"
+  },
+  {
+   "score": 60.4,
+   "components": {
+    "tier": 20,
+    "category": 4,
+    "lead": 2.4,
+    "relevance": 24,
+    "freshness": 0.0,
+    "corroborated": 10
+   },
+   "keywords": [
+    "advisory",
+    "flood",
+    "traffic"
+   ],
+   "shock_terms": [],
+   "dedupe_match": null,
+   "dedupe_similarity": 0.25,
+   "id": "dabe60d5b1ba",
+   "title": "Kenya Met Lists Counties Set for Heavy Rain as Flooding Hits Nairobi",
+   "url": "https://www.kenyans.co.ke/news/129027-nairobi-among-counties-receive-rainfall-over-next-5-days-kenya-met",
+   "summary": "The advisory comes hours after overnight downpours caused flash floods and traffic jams across Nairobi and its neighbouring counties of Kiambu, Machakos and Kajiado.",
+   "kind": "item",
+   "source": "Kenyans.co.ke news",
+   "source_id": "ke-kenyans",
+   "tier": 2,
+   "country": "KE",
+   "category": "press",
+   "segments": [
+    "city",
+    "bush",
+    "beach"
+   ],
+   "first_seen": "2026-10-31T18:22+03:00",
+   "published": "2026-10-31",
+   "verdict": "weak"
+  },
+  {
+   "score": 60.4,
+   "components": {
+    "tier": 40,
+    "category": 24,
+    "lead": 2.4,
+    "relevance": 0,
+    "freshness": 0.0,
+    "undated": -6
+   },
+   "keywords": [],
+   "shock_terms": [],
+   "dedupe_match": null,
+   "dedupe_similarity": 0.0,
+   "id": "b90f91c42b33",
+   "title": "WIZARA YA AFYA YATATHMINI UTAYARI WA MBEYA DC KUKABILIAN...",
+   "url": "https://www.moh.go.tz/news-single/wizara-ya-afya-yatathmini-utayari-wa-mbeya-dc-kukabiliana-na-milipuko-ya-magonjwa-ikiwemo-ebola",
+   "summary": "",
+   "kind": "item",
+   "source": "Tanzania Ministry of Health",
+   "source_id": "tz-moh",
+   "tier": 1,
+   "country": "TZ",
+   "category": "health",
+   "segments": [
+    "city",
+    "bush",
+    "beach"
+   ],
+   "first_seen": "2026-10-31T18:22+03:00",
+   "published": null,
+   "verdict": "weak"
+  },
+  {
+   "score": 60.4,
+   "components": {
+    "tier": 40,
+    "category": 24,
+    "lead": 2.4,
+    "relevance": 0,
+    "freshness": 0.0,
+    "undated": -6
+   },
+   "keywords": [],
+   "shock_terms": [],
+   "dedupe_match": null,
+   "dedupe_similarity": 0.0,
+   "id": "bf87f3b8c7f7",
+   "title": "KUPUNGUZA MATUMIZI YA CHUMVI, SUKARI NA MAFUTA, KUFA...",
+   "url": "https://www.moh.go.tz/news-single/kupunguza-matumizi-ya-chumvi-sukari-na-mafuta-kufanya-mazoezi-ni-msingi-wa-afya-bora",
+   "summary": "",
+   "kind": "item",
+   "source": "Tanzania Ministry of Health",
+   "source_id": "tz-moh",
+   "tier": 1,
+   "country": "TZ",
+   "category": "health",
+   "segments": [
+    "city",
+    "bush",
+    "beach"
+   ],
+   "first_seen": "2026-10-31T18:22+03:00",
+   "published": null,
+   "verdict": "weak"
+  },
+  {
+   "score": 60.4,
+   "components": {
+    "tier": 40,
+    "category": 24,
+    "lead": 2.4,
+    "relevance": 0,
+    "freshness": 0.0,
+    "undated": -6
+   },
+   "keywords": [],
+   "shock_terms": [],
+   "dedupe_match": null,
+   "dedupe_similarity": 0.14,
+   "id": "6510c4aa3f15",
+   "title": "BONANZA LA 360 KUWAFIKIA VIJANA ZAIDI YA 3,000 MWANZ...",
+   "url": "https://www.moh.go.tz/news-single/bonanza-la-360-kuwafikia-vijana-zaidi-ya-3000-mwanza-kutoa-elimu-na-huduma-za-afya",
+   "summary": "",
+   "kind": "item",
+   "source": "Tanzania Ministry of Health",
+   "source_id": "tz-moh",
+   "tier": 1,
+   "country": "TZ",
+   "category": "health",
+   "segments": [
+    "city",
+    "bush",
+    "beach"
+   ],
+   "first_seen": "2026-10-31T18:22+03:00",
+   "published": null,
+   "verdict": "weak"
+  },
+  {
+   "score": 60.4,
+   "components": {
+    "tier": 40,
+    "category": 24,
+    "lead": 2.4,
+    "relevance": 0,
+    "freshness": 0.0,
+    "undated": -6
+   },
+   "keywords": [],
+   "shock_terms": [],
+   "dedupe_match": null,
+   "dedupe_similarity": 0.0,
+   "id": "13774054e32b",
+   "title": "LISHE BORA MSINGI WA AFYA NA MAENDELEO YA TAIFA...",
+   "url": "https://www.moh.go.tz/news-single/lishe-bora-msingi-wa-afya-na-maendeleo-ya-taifa",
+   "summary": "",
+   "kind": "item",
+   "source": "Tanzania Ministry of Health",
+   "source_id": "tz-moh",
+   "tier": 1,
+   "country": "TZ",
+   "category": "health",
+   "segments": [
+    "city",
+    "bush",
+    "beach"
+   ],
+   "first_seen": "2026-10-31T18:22+03:00",
+   "published": null,
+   "verdict": "weak"
+  },
+  {
+   "score": 60.4,
+   "components": {
+    "tier": 40,
+    "category": 24,
+    "lead": 2.4,
+    "relevance": 0,
+    "freshness": 0.0,
+    "undated": -6
+   },
+   "keywords": [],
+   "shock_terms": [],
+   "dedupe_match": null,
+   "dedupe_similarity": 0.0,
+   "id": "3127d67f56af",
+   "title": "WIZARA YA AFYA YATATHMINI UTAYARI WA HOSPITALI YA RU...",
+   "url": "https://www.moh.go.tz/news-single/wizara-ya-afya-yatathmini-utayari-wa-hospitali-ya-rufaa-kanda-ya-mbeya-kukabiliana-na-ebola",
+   "summary": "",
+   "kind": "item",
+   "source": "Tanzania Ministry of Health",
+   "source_id": "tz-moh",
+   "tier": 1,
+   "country": "TZ",
+   "category": "health",
+   "segments": [
+    "city",
+    "bush",
+    "beach"
+   ],
+   "first_seen": "2026-10-31T18:22+03:00",
+   "published": null,
+   "verdict": "weak"
+  },
+  {
+   "score": 60.4,
+   "components": {
+    "tier": 40,
+    "category": 24,
+    "lead": 2.4,
+    "relevance": 0,
+    "freshness": 0.0,
+    "undated": -6
+   },
+   "keywords": [],
+   "shock_terms": [],
+   "dedupe_match": null,
+   "dedupe_similarity": 0.2,
+   "id": "5a7816f05eaf",
+   "title": "TANZANIA YAJIUNGA NA MPANGO WA WHO WA KUKOMESHA UNEN...",
+   "url": "https://www.moh.go.tz/news-single/tanzania-yajiunga-na-mpango-wa-who-wa-kukomesha-unene-uliopitiliza",
+   "summary": "",
+   "kind": "item",
+   "source": "Tanzania Ministry of Health",
+   "source_id": "tz-moh",
+   "tier": 1,
+   "country": "TZ",
+   "category": "health",
+   "segments": [
+    "city",
+    "bush",
+    "beach"
+   ],
+   "first_seen": "2026-10-31T18:22+03:00",
+   "published": null,
    "verdict": "weak"
   }
  ]
