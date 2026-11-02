@@ -1,5 +1,14 @@
 window.GUIDES = [
  {
+  "slug": "wtm-london-2026-east-africa-cost-of-the-room",
+  "title": "East Africa sells 2027 in three days at ExCeL. The hard part is getting into the room.",
+  "description": "World Travel Market opens in London on Tuesday with Africa back on the main exhibition floor and eight East African businesses sharing one association stand. A year ago, 12 of the 14 Ugandan operators who had paid for space were refused UK visas, and no regional board has yet published what it spends to be in that building or what it brings home.",
+  "category": "Big Read",
+  "updated": "2026-11-02",
+  "readMins": 8,
+  "image": "img/editions/wtm-london-2026-east-africa-cost-of-the-room.jpg"
+ },
+ {
   "slug": "mea-revpar-bucket-east-africa-no-number",
   "title": "Hilton reported its Africa region down 5.6 per cent. It was not measuring Africa.",
   "description": "Three of the four listed hotel majors reported the same overlapping geography this month. Hilton's Middle East and Africa line fell 5.6 per cent and is guided to a low double-digit decline for the year, IHG's wider EMEAA bucket rose 5.0 per cent, and Accor published its numbers twice, once with the Middle East in and once with it out. None of them published a figure for Africa. East Africa is where those same companies are building hardest, and it is the half of a hyphen whose number is set somewhere else.",
