@@ -1,18 +1,18 @@
 {
- "generated": "2026-11-02T00:49:15+03:00",
+ "generated": "2026-11-02T04:20:47+03:00",
  "slot": "morning",
  "window_start": 1793545200,
- "observations_in_window": 256,
- "deduped_against": 22,
+ "observations_in_window": 287,
+ "deduped_against": 15,
  "candidates": [
   {
-   "score": 59.1,
+   "score": 55.2,
    "components": {
     "tier": 40,
     "category": 12,
     "lead": 3.6,
     "relevance": 0,
-    "freshness": 13.5,
+    "freshness": 9.6,
     "undated": -6,
     "page_change": -4
    },
@@ -40,13 +40,54 @@
    "verdict": "OPEN THIS \u2014 tier-1 airline page moved; content not auto-parsed, read it manually"
   },
   {
-   "score": 98.2,
+   "score": 110.2,
+   "components": {
+    "tier": 20,
+    "category": 24,
+    "lead": 2.4,
+    "relevance": 36,
+    "freshness": 19.8,
+    "undated": -6,
+    "shock": 18,
+    "page_change": -4
+   },
+   "keywords": [
+    "outbreak",
+    "ebola",
+    "cholera"
+   ],
+   "shock_terms": [
+    "outbreak"
+   ],
+   "dedupe_match": null,
+   "dedupe_similarity": 0.07,
+   "id": "4e51977e60b2",
+   "title": "[page changed] ProMED-mail",
+   "url": "https://promedmail.org/",
+   "summary": "Protecting Global Health, One Alert at a Time | ProMED Previous slide Next slide Protecting Global Health, One Alert at a Time ProMED: Your 24/7 early warning system for emerging infectious diseases worldwide. Subscribe ProMED's Weekly Pulse A snapshot of global health events from the past 7 days Latest Posts on ProMED All Date Title Sun Nov 01 2026 EBOLA DISEASE - NIGERIA (02): TWO NEW SUSPECTED ",
+   "kind": "page-change",
+   "source": "ProMED-mail",
+   "source_id": "promed",
+   "tier": 2,
+   "country": "GLOBAL",
+   "category": "health",
+   "segments": [
+    "city",
+    "bush",
+    "beach"
+   ],
+   "first_seen": "2026-11-02T04:20+03:00",
+   "published": null,
+   "verdict": "CONSIDER"
+  },
+  {
+   "score": 94.3,
    "components": {
     "tier": 20,
     "category": 4,
     "lead": 2.4,
     "relevance": 24,
-    "freshness": 19.8,
+    "freshness": 15.9,
     "corroborated": 10,
     "shock": 18
    },
@@ -79,13 +120,13 @@
    "verdict": "CONSIDER"
   },
   {
-   "score": 86.5,
+   "score": 82.6,
    "components": {
     "tier": 40,
     "category": 13,
     "lead": 6.0,
     "relevance": 4,
-    "freshness": 13.5,
+    "freshness": 9.6,
     "corroborated": 10
    },
    "keywords": [
@@ -112,13 +153,146 @@
    "verdict": "CONSIDER"
   },
   {
-   "score": 79.2,
+   "score": 82.2,
+   "components": {
+    "tier": 40,
+    "category": 16,
+    "lead": 2.4,
+    "relevance": 4,
+    "freshness": 19.8
+   },
+   "keywords": [
+    "tourism"
+   ],
+   "shock_terms": [],
+   "dedupe_match": null,
+   "dedupe_similarity": 0.17,
+   "id": "724186e6772b",
+   "title": "Uganda Tourism Satellite Account Report 2024",
+   "url": "https://www.ubos.org/2026/10/30/uganda-tourism-satellite-account-report-2024",
+   "summary": "The 2024 Uganda Tourism Satellite Account has been compiled in accordance with the Tourism Satellite Account: Recommended [\u2026] The post Uganda Tourism Satellite Account Report 2024 appeared first on Uganda Bureau of Statistics .",
+   "kind": "item",
+   "source": "UBOS statistical releases",
+   "source_id": "ug-ubos",
+   "tier": 1,
+   "country": "UG",
+   "category": "statistics",
+   "segments": [
+    "city",
+    "bush",
+    "beach"
+   ],
+   "first_seen": "2026-11-02T04:20+03:00",
+   "published": "2026-10-30",
+   "verdict": "CONSIDER"
+  },
+  {
+   "score": 82.2,
+   "components": {
+    "tier": 40,
+    "category": 16,
+    "lead": 2.4,
+    "relevance": 4,
+    "freshness": 19.8
+   },
+   "keywords": [
+    "inflation"
+   ],
+   "shock_terms": [],
+   "dedupe_match": null,
+   "dedupe_similarity": 0.25,
+   "id": "53311fb0c9ec",
+   "title": "Producer Price Index \u2013 Manufacturing & Utilities (PPI -M&U) September 2026",
+   "url": "https://www.ubos.org/2026/10/30/producer-price-index-manufacturing-utilities-ppi-mu-september-2026",
+   "summary": "The Annual Headline Inflation as measured by the Producer Price Index of Manufacturing and Utilities for the [\u2026] The post Producer Price Index \u2013 Manufacturing & Utilities (PPI -M&U) September 2026 appeared first on Uganda Bureau of Statistics .",
+   "kind": "item",
+   "source": "UBOS statistical releases",
+   "source_id": "ug-ubos",
+   "tier": 1,
+   "country": "UG",
+   "category": "statistics",
+   "segments": [
+    "city",
+    "bush",
+    "beach"
+   ],
+   "first_seen": "2026-11-02T04:20+03:00",
+   "published": "2026-10-30",
+   "verdict": "CONSIDER"
+  },
+  {
+   "score": 81.4,
    "components": {
     "tier": 40,
     "category": 32,
     "lead": 3.6,
     "relevance": 0,
-    "freshness": 17.6,
+    "freshness": 19.8,
+    "stale_trap": -10,
+    "page_change": -4
+   },
+   "keywords": [],
+   "shock_terms": [],
+   "dedupe_match": null,
+   "dedupe_similarity": 0.2,
+   "id": "8e5ae0959811",
+   "title": "[page changed] Federal Register \u2014 public inspection (HHS/CDC), pre-publication",
+   "url": "https://www.federalregister.gov/api/v1/public-inspection-documents/current.json",
+   "summary": "{\"count\":108,\"results\":[{\"agencies\":[{\"raw_name\":\"Food and Drug Administration\",\"name\":\"Food and Drug Administration\",\"id\":199,\"url\":\"https://www.federalregister.gov/agencies/food-and-drug-administration\",\"json_url\":\"https://www.federalregister.gov/api/v1/agencies/199\",\"parent_id\":221,\"slug\":\"food-and-drug-administration\"}],\"agency_letters\":[],\"agency_names\":[\"Food and Drug Administration\"],\"docke",
+   "kind": "page-change",
+   "source": "Federal Register \u2014 public inspection (HHS/CDC), pre-publication",
+   "source_id": "us-fedreg-pubinspect-hhs",
+   "tier": 1,
+   "country": "REG",
+   "category": "advisory",
+   "segments": [
+    "city",
+    "bush"
+   ],
+   "first_seen": "2026-11-02T04:20+03:00",
+   "published": "2026-10-29",
+   "verdict": "CHECK \u2014 source date older than the window"
+  },
+  {
+   "score": 78.2,
+   "components": {
+    "tier": 40,
+    "category": 16,
+    "lead": 2.4,
+    "relevance": 0,
+    "freshness": 19.8
+   },
+   "keywords": [],
+   "shock_terms": [],
+   "dedupe_match": null,
+   "dedupe_similarity": 0.09,
+   "id": "4beeb595b25c",
+   "title": "PPI M&U September 2026",
+   "url": "https://www.ubos.org/2026/10/30/producer-price-index-manufacturing-utilities-ppi-mu-september-2026-2",
+   "summary": "Registered at 128.31 (Index) The post PPI M&U September 2026 appeared first on Uganda Bureau of Statistics .",
+   "kind": "item",
+   "source": "UBOS statistical releases",
+   "source_id": "ug-ubos",
+   "tier": 1,
+   "country": "UG",
+   "category": "statistics",
+   "segments": [
+    "city",
+    "bush",
+    "beach"
+   ],
+   "first_seen": "2026-11-02T04:20+03:00",
+   "published": "2026-10-30",
+   "verdict": "CONSIDER"
+  },
+  {
+   "score": 75.3,
+   "components": {
+    "tier": 40,
+    "category": 32,
+    "lead": 3.6,
+    "relevance": 0,
+    "freshness": 13.7,
     "stale_trap": -10,
     "page_change": -4
    },
@@ -145,13 +319,13 @@
    "verdict": "CHECK \u2014 source date older than the window"
   },
   {
-   "score": 75.1,
+   "score": 71.2,
    "components": {
     "tier": 40,
     "category": 32,
     "lead": 3.6,
     "relevance": 0,
-    "freshness": 13.5,
+    "freshness": 9.6,
     "stale_trap": -10,
     "page_change": -4
    },
@@ -178,13 +352,13 @@
    "verdict": "CHECK \u2014 source date older than the window"
   },
   {
-   "score": 74.2,
+   "score": 70.3,
    "components": {
     "tier": 20,
     "category": 4,
     "lead": 2.4,
     "relevance": 0,
-    "freshness": 19.8,
+    "freshness": 15.9,
     "corroborated": 10,
     "shock": 18
    },
@@ -214,13 +388,13 @@
    "verdict": "CONSIDER"
   },
   {
-   "score": 70.9,
+   "score": 67.0,
    "components": {
     "tier": 20,
     "category": 5,
     "lead": 2.4,
     "relevance": 20,
-    "freshness": 13.5,
+    "freshness": 9.6,
     "corroborated": 10
    },
    "keywords": [
@@ -249,16 +423,16 @@
    ],
    "first_seen": "2026-11-01T19:04+03:00",
    "published": "2026-11-01",
-   "verdict": "CONSIDER"
+   "verdict": "weak"
   },
   {
-   "score": 67.9,
+   "score": 64.0,
    "components": {
     "tier": 20,
     "category": 4,
     "lead": 2.4,
     "relevance": 0,
-    "freshness": 13.5,
+    "freshness": 9.6,
     "corroborated": 10,
     "shock": 18
    },
@@ -288,13 +462,13 @@
    "verdict": "weak"
   },
   {
-   "score": 66.5,
+   "score": 62.6,
    "components": {
     "tier": 40,
     "category": 13,
     "lead": 6.0,
     "relevance": 0,
-    "freshness": 13.5,
+    "freshness": 9.6,
     "undated": -6
    },
    "keywords": [],
@@ -321,13 +495,13 @@
    "verdict": "weak"
   },
   {
-   "score": 66.2,
+   "score": 62.3,
    "components": {
     "tier": 5,
     "category": 5,
     "lead": 2.4,
     "relevance": 24,
-    "freshness": 19.8,
+    "freshness": 15.9,
     "corroborated": 10
    },
    "keywords": [
@@ -337,7 +511,7 @@
    ],
    "shock_terms": [],
    "dedupe_match": null,
-   "dedupe_similarity": 0.14,
+   "dedupe_similarity": 0.08,
    "id": "dbae5e4c4b03",
    "title": "Hundreds of Travelers Impacted across Middle East Airports Including Cairo, Kuwait City and Others with 560 Delays and 95 Cancellations",
    "url": "https://www.travelandtourworld.com/news/article/kvfcz44gwx5q",
@@ -358,13 +532,13 @@
    "verdict": "weak"
   },
   {
-   "score": 66.2,
+   "score": 62.3,
    "components": {
     "tier": 5,
     "category": 5,
     "lead": 2.4,
     "relevance": 24,
-    "freshness": 19.8,
+    "freshness": 15.9,
     "corroborated": 10
    },
    "keywords": [
@@ -374,7 +548,7 @@
    ],
    "shock_terms": [],
    "dedupe_match": null,
-   "dedupe_similarity": 0.12,
+   "dedupe_similarity": 0.11,
    "id": "17809f419d47",
    "title": "One Checkbox, Huge Consequences: Navigating the Strict New US CDC Ebola Travel Attestation",
    "url": "https://www.travelandtourworld.com/news/article/w24uusy2omi6",
@@ -395,13 +569,13 @@
    "verdict": "weak"
   },
   {
-   "score": 64.2,
+   "score": 60.3,
    "components": {
     "tier": 20,
     "category": 4,
     "lead": 2.4,
     "relevance": 8,
-    "freshness": 19.8,
+    "freshness": 15.9,
     "corroborated": 10
    },
    "keywords": [
@@ -430,13 +604,48 @@
    "verdict": "weak"
   },
   {
-   "score": 63.6,
+   "score": 60.0,
+   "components": {
+    "tier": 20,
+    "category": 5,
+    "lead": 1.2,
+    "relevance": 4,
+    "freshness": 19.8,
+    "corroborated": 10
+   },
+   "keywords": [
+    "tourism"
+   ],
+   "shock_terms": [],
+   "dedupe_match": null,
+   "dedupe_similarity": 0.11,
+   "id": "333117e15a3c",
+   "title": "Seychelles Heads to WTM London to Strengthen Its Presence in the UK Market",
+   "url": "https://voyagesafriq.com/2026/11/01/seychelles-heads-to-wtm-london-to-strengthen-its-presence-in-the-uk-market",
+   "summary": "The Seychelles\u2019 Minister for Tourism and Culture, Mrs Amanda Bernstein, is leading a delegation to the World Travel Market (WTM) London 2026, from 3 to 5 November. Meetings will be [\u2026] The post Seychelles Heads to WTM London to Strengthen Its Presence in the UK Market<gwmw style=\"display:none;\"></gwmw> appeared first on Voyages Afriq .",
+   "kind": "item",
+   "source": "VoyagesAfriq",
+   "source_id": "tp-voyagesafriq",
+   "tier": 2,
+   "country": "REG",
+   "category": "trade",
+   "segments": [
+    "city",
+    "bush",
+    "beach"
+   ],
+   "first_seen": "2026-11-02T04:20+03:00",
+   "published": "2026-11-01",
+   "verdict": "weak"
+  },
+  {
+   "score": 59.7,
    "components": {
     "tier": 20,
     "category": 4,
     "lead": 0.0,
     "relevance": 12,
-    "freshness": 17.6,
+    "freshness": 13.7,
     "corroborated": 10
    },
    "keywords": [
@@ -466,13 +675,13 @@
    "verdict": "weak"
   },
   {
-   "score": 63.6,
+   "score": 59.7,
    "components": {
     "tier": 20,
     "category": 4,
     "lead": 0.0,
     "relevance": 12,
-    "freshness": 17.6,
+    "freshness": 13.7,
     "corroborated": 10
    },
    "keywords": [
@@ -502,13 +711,13 @@
    "verdict": "weak"
   },
   {
-   "score": 63.5,
+   "score": 59.6,
    "components": {
     "tier": 20,
     "category": 4,
     "lead": 0.0,
     "relevance": 16,
-    "freshness": 13.5,
+    "freshness": 9.6,
     "corroborated": 10
    },
    "keywords": [
@@ -538,13 +747,13 @@
    "verdict": "weak"
   },
   {
-   "score": 62.2,
+   "score": 58.3,
    "components": {
     "tier": 5,
     "category": 5,
     "lead": 2.4,
     "relevance": 20,
-    "freshness": 19.8,
+    "freshness": 15.9,
     "corroborated": 10
    },
    "keywords": [
@@ -574,13 +783,13 @@
    "verdict": "weak"
   },
   {
-   "score": 61.9,
+   "score": 58.0,
    "components": {
     "tier": 20,
     "category": 4,
     "lead": 2.4,
     "relevance": 12,
-    "freshness": 13.5,
+    "freshness": 9.6,
     "corroborated": 10
    },
    "keywords": [
@@ -589,7 +798,7 @@
    ],
    "shock_terms": [],
    "dedupe_match": null,
-   "dedupe_similarity": 0.25,
+   "dedupe_similarity": 0.08,
    "id": "5c08f4c979d4",
    "title": "Lagarde\u2019s early exit raises questions over ECB independence, policy outlook",
    "url": "https://www.independent.co.ug/lagardes-early-exit-raises-questions-over-ecb-independence-policy-outlook",
@@ -610,13 +819,13 @@
    "verdict": "weak"
   },
   {
-   "score": 59.6,
+   "score": 55.7,
    "components": {
     "tier": 20,
     "category": 4,
     "lead": 0.0,
     "relevance": 8,
-    "freshness": 17.6,
+    "freshness": 13.7,
     "corroborated": 10
    },
    "keywords": [
@@ -645,13 +854,13 @@
    "verdict": "weak"
   },
   {
-   "score": 58.9,
+   "score": 55.0,
    "components": {
     "tier": 20,
     "category": 5,
     "lead": 2.4,
     "relevance": 8,
-    "freshness": 13.5,
+    "freshness": 9.6,
     "corroborated": 10
    },
    "keywords": [
@@ -681,13 +890,13 @@
    "verdict": "weak"
   },
   {
-   "score": 58.2,
+   "score": 54.3,
    "components": {
     "tier": 5,
     "category": 5,
     "lead": 2.4,
     "relevance": 16,
-    "freshness": 19.8,
+    "freshness": 15.9,
     "corroborated": 10
    },
    "keywords": [
@@ -718,13 +927,13 @@
    "verdict": "weak"
   },
   {
-   "score": 58.2,
+   "score": 54.3,
    "components": {
     "tier": 5,
     "category": 5,
     "lead": 2.4,
     "relevance": 16,
-    "freshness": 19.8,
+    "freshness": 15.9,
     "corroborated": 10
    },
    "keywords": [
@@ -754,13 +963,13 @@
    "verdict": "weak"
   },
   {
-   "score": 57.9,
+   "score": 54.0,
    "components": {
     "tier": 20,
     "category": 4,
     "lead": 2.4,
     "relevance": 8,
-    "freshness": 13.5,
+    "freshness": 9.6,
     "corroborated": 10
    },
    "keywords": [
@@ -790,13 +999,13 @@
    "verdict": "weak"
   },
   {
-   "score": 57.9,
+   "score": 54.0,
    "components": {
     "tier": 20,
     "category": 4,
     "lead": 2.4,
     "relevance": 8,
-    "freshness": 13.5,
+    "freshness": 9.6,
     "corroborated": 10
    },
    "keywords": [
@@ -804,7 +1013,7 @@
    ],
    "shock_terms": [],
    "dedupe_match": null,
-   "dedupe_similarity": 0.15,
+   "dedupe_similarity": 0.08,
    "id": "09942a8fc099",
    "title": "Four Political Parties Announce Changes Including Top Leadership",
    "url": "https://www.kenyans.co.ke/news/129047-four-political-parties-announce-changes-leadership-headquarters-and-identity",
@@ -825,13 +1034,13 @@
    "verdict": "weak"
   },
   {
-   "score": 57.9,
+   "score": 54.0,
    "components": {
     "tier": 20,
     "category": 4,
     "lead": 2.4,
     "relevance": 8,
-    "freshness": 13.5,
+    "freshness": 9.6,
     "corroborated": 10
    },
    "keywords": [
@@ -860,13 +1069,13 @@
    "verdict": "weak"
   },
   {
-   "score": 57.9,
+   "score": 54.0,
    "components": {
     "tier": 20,
     "category": 4,
     "lead": 2.4,
     "relevance": 8,
-    "freshness": 13.5,
+    "freshness": 9.6,
     "corroborated": 10
    },
    "keywords": [
@@ -895,13 +1104,13 @@
    "verdict": "weak"
   },
   {
-   "score": 57.9,
+   "score": 54.0,
    "components": {
     "tier": 20,
     "category": 4,
     "lead": 2.4,
     "relevance": 8,
-    "freshness": 13.5,
+    "freshness": 9.6,
     "corroborated": 10
    },
    "keywords": [
@@ -930,13 +1139,13 @@
    "verdict": "weak"
   },
   {
-   "score": 57.9,
+   "score": 54.0,
    "components": {
     "tier": 20,
     "category": 4,
     "lead": 2.4,
     "relevance": 8,
-    "freshness": 13.5,
+    "freshness": 9.6,
     "corroborated": 10
    },
    "keywords": [
@@ -965,13 +1174,13 @@
    "verdict": "weak"
   },
   {
-   "score": 57.9,
+   "score": 54.0,
    "components": {
     "tier": 20,
     "category": 4,
     "lead": 2.4,
     "relevance": 8,
-    "freshness": 13.5,
+    "freshness": 9.6,
     "corroborated": 10
    },
    "keywords": [
@@ -1000,13 +1209,13 @@
    "verdict": "weak"
   },
   {
-   "score": 57.9,
+   "score": 54.0,
    "components": {
     "tier": 20,
     "category": 4,
     "lead": 2.4,
     "relevance": 8,
-    "freshness": 13.5,
+    "freshness": 9.6,
     "corroborated": 10
    },
    "keywords": [
@@ -1014,7 +1223,7 @@
    ],
    "shock_terms": [],
    "dedupe_match": null,
-   "dedupe_similarity": 0.17,
+   "dedupe_similarity": 0.0,
    "id": "792411d12040",
    "title": "Big Tech returns smallest share of cash to shareholders in 15 years, given AI spending",
    "url": "https://nation.africa/kenya/business/companies/big-tech-returns-smallest-share-of-cash-to-shareholders-in-15-years-given-ai-spending-5654110",
@@ -1035,13 +1244,13 @@
    "verdict": "weak"
   },
   {
-   "score": 57.5,
+   "score": 53.6,
    "components": {
     "tier": 20,
     "category": 4,
     "lead": 0.0,
     "relevance": 8,
-    "freshness": 13.5,
+    "freshness": 9.6,
     "undated": -6,
     "shock": 18
    },
@@ -1073,19 +1282,19 @@
    "verdict": "weak"
   },
   {
-   "score": 56.2,
+   "score": 52.3,
    "components": {
     "tier": 20,
     "category": 4,
     "lead": 2.4,
     "relevance": 0,
-    "freshness": 19.8,
+    "freshness": 15.9,
     "corroborated": 10
    },
    "keywords": [],
    "shock_terms": [],
    "dedupe_match": null,
-   "dedupe_similarity": 0.1,
+   "dedupe_similarity": 0.08,
    "id": "0b22c6d8e144",
    "title": "State Proposes Ugali Vanilla and Strawberry Flavors on Market Shelves",
    "url": "https://www.kenyans.co.ke/news/129055-industry-ps-juma-mukwana-urges-millers-introduce-flavored-ugali-export-markets",
@@ -1106,13 +1315,13 @@
    "verdict": "weak"
   },
   {
-   "score": 56.2,
+   "score": 52.3,
    "components": {
     "tier": 20,
     "category": 4,
     "lead": 2.4,
     "relevance": 0,
-    "freshness": 19.8,
+    "freshness": 15.9,
     "corroborated": 10
    },
    "keywords": [],
@@ -1139,13 +1348,13 @@
    "verdict": "weak"
   },
   {
-   "score": 56.2,
+   "score": 52.3,
    "components": {
     "tier": 20,
     "category": 4,
     "lead": 2.4,
     "relevance": 0,
-    "freshness": 19.8,
+    "freshness": 15.9,
     "corroborated": 10
    },
    "keywords": [],
@@ -1172,19 +1381,19 @@
    "verdict": "weak"
   },
   {
-   "score": 56.2,
+   "score": 52.3,
    "components": {
     "tier": 20,
     "category": 4,
     "lead": 2.4,
     "relevance": 0,
-    "freshness": 19.8,
+    "freshness": 15.9,
     "corroborated": 10
    },
    "keywords": [],
    "shock_terms": [],
    "dedupe_match": null,
-   "dedupe_similarity": 0.12,
+   "dedupe_similarity": 0.1,
    "id": "c2df56b17251",
    "title": "Lodwar water crisis: Vandalism, ageing pipes leave residents desperate",
    "url": "https://nation.africa/kenya/counties/turkana/lodwar-water-crisis-vandalism-ageing-pipes-residents-desperate-5654612",
@@ -1195,222 +1404,6 @@
    "tier": 2,
    "country": "KE",
    "category": "press",
-   "segments": [
-    "city",
-    "bush",
-    "beach"
-   ],
-   "first_seen": "2026-11-02T00:47+03:00",
-   "published": "2026-11-01",
-   "verdict": "weak"
-  },
-  {
-   "score": 55.9,
-   "components": {
-    "tier": 5,
-    "category": 5,
-    "lead": 2.4,
-    "relevance": 20,
-    "freshness": 13.5,
-    "corroborated": 10
-   },
-   "keywords": [
-    "airport",
-    "airline",
-    "flight",
-    "passenger"
-   ],
-   "shock_terms": [],
-   "dedupe_match": null,
-   "dedupe_similarity": 0.07,
-   "id": "26a7cd2cdd45",
-   "title": "Singapore Airlines Flight SQ213 Arts Landing During Intense Gale to Safeguard Passengers at Perth Airport in Australia",
-   "url": "https://www.travelandtourworld.com/news/article/g0fqd9tp0wpk",
-   "summary": "Singapore Airlines Flight SQ213 Arts Landing During Intense Gale to Safeguard Passengers at Perth Airport in Australia Focus on Singapore Airlines SQ213 go-around at Perth Airport as the A350 fights winds before landing The post Singapore Airlines Flight SQ213 Arts Landing During Intense Gale to Safeguard Passengers at Perth Airport in Australia appeared first on Travel And Tour World .",
-   "kind": "item",
-   "source": "Travel And Tour World",
-   "source_id": "gl-travelandtourworld",
-   "tier": 3,
-   "country": "GLOBAL",
-   "category": "trade",
-   "segments": [
-    "city",
-    "bush",
-    "beach"
-   ],
-   "first_seen": "2026-11-01T19:04+03:00",
-   "published": "2026-11-01",
-   "verdict": "weak"
-  },
-  {
-   "score": 55.5,
-   "components": {
-    "tier": 20,
-    "category": 4,
-    "lead": 0.0,
-    "relevance": 8,
-    "freshness": 13.5,
-    "corroborated": 10
-   },
-   "keywords": [
-    "vat"
-   ],
-   "shock_terms": [],
-   "dedupe_match": null,
-   "dedupe_similarity": 0.08,
-   "id": "7d55d4d11923",
-   "title": "PM Nabbanja tasks Kabale University on agricultural research, practical innovation",
-   "url": "https://www.monitor.co.ug/uganda/news/national/pm-nabbanja-tasks-kabale-university-on-agricultural-research-practical-innovation--5654170",
-   "summary": "\u201cOne of the most pressing challenges facing Kabale University is the need for additional...",
-   "kind": "item",
-   "source": "Daily Monitor (Uganda)",
-   "source_id": "np-monitor-ug",
-   "tier": 2,
-   "country": "UG",
-   "category": "press",
-   "segments": [
-    "city",
-    "bush",
-    "beach"
-   ],
-   "first_seen": "2026-11-01T19:04+03:00",
-   "published": "2026-11-01",
-   "verdict": "weak"
-  },
-  {
-   "score": 55.5,
-   "components": {
-    "tier": 20,
-    "category": 4,
-    "lead": 0.0,
-    "relevance": 8,
-    "freshness": 13.5,
-    "corroborated": 10
-   },
-   "keywords": [
-    "eta"
-   ],
-   "shock_terms": [],
-   "dedupe_match": null,
-   "dedupe_similarity": 0.0,
-   "id": "0e8e9515d9a6",
-   "title": "Muhoozi orders release of detained ex-CMI chief Bakahumura",
-   "url": "https://www.monitor.co.ug/uganda/news/national/muhoozi-orders-release-of-detained-ex-cmi-chief-bakahumura-5653826",
-   "summary": "Gen Muhoozi announced the decision on Saturday via his official X handle, indicating a shift...",
-   "kind": "item",
-   "source": "Daily Monitor (Uganda)",
-   "source_id": "np-monitor-ug",
-   "tier": 2,
-   "country": "UG",
-   "category": "press",
-   "segments": [
-    "city",
-    "bush",
-    "beach"
-   ],
-   "first_seen": "2026-11-01T19:04+03:00",
-   "published": "2026-10-31",
-   "verdict": "weak"
-  },
-  {
-   "score": 54.9,
-   "components": {
-    "tier": 20,
-    "category": 5,
-    "lead": 2.4,
-    "relevance": 4,
-    "freshness": 13.5,
-    "corroborated": 10
-   },
-   "keywords": [
-    "beach"
-   ],
-   "shock_terms": [],
-   "dedupe_match": null,
-   "dedupe_similarity": 0.17,
-   "id": "22ba365e5b6c",
-   "title": "Dubai turns city into fitness destination with month-long challenge",
-   "url": "https://katakenya.org/dubai-turns-city-into-fitness-destination-with-month-long-challenge",
-   "summary": "Dubai has turned its streets, beaches, parks and public spaces into a month-long fitness destination, as the emirate launched the 2026 edition of its Dubai Fitness Challenge, targeting residents and international visitors with 30 days of sporting activities and community events. Running from October 31 to November 29, the annual initiative encourages participants to undertake [\u2026]",
-   "kind": "item",
-   "source": "Kenya Association of Travel Agents news",
-   "source_id": "tp-kata",
-   "tier": 2,
-   "country": "KE",
-   "category": "trade",
-   "segments": [
-    "city",
-    "bush",
-    "beach"
-   ],
-   "first_seen": "2026-11-01T19:04+03:00",
-   "published": "2026-11-01",
-   "verdict": "weak"
-  },
-  {
-   "score": 54.2,
-   "components": {
-    "tier": 5,
-    "category": 5,
-    "lead": 2.4,
-    "relevance": 12,
-    "freshness": 19.8,
-    "corroborated": 10
-   },
-   "keywords": [
-    "resort",
-    "tourism",
-    "beach"
-   ],
-   "shock_terms": [],
-   "dedupe_match": null,
-   "dedupe_similarity": 0.08,
-   "id": "0c57ab96e211",
-   "title": "Venezuela Tourism Roars Back as 55 La Guaira Beach Resorts Reopen After Devastating Earthquake Disruption",
-   "url": "https://www.travelandtourworld.com/news/article/vicycomnx69w",
-   "summary": "Venezuela Tourism Roars Back as 55 La Guaira Beach Resorts Reopen After Devastating Earthquake Disruption The Caribbean state of Venezuela is starting to reboot its 55 resorts along the coast of La Guaira, reviving business along 80% of the area after months of disruption caused by the earthquake sequence that struck on June 24. The post Venezuela Tourism Roars Back as 55 La Guaira Beach Resorts R",
-   "kind": "item",
-   "source": "Travel And Tour World",
-   "source_id": "gl-travelandtourworld",
-   "tier": 3,
-   "country": "GLOBAL",
-   "category": "trade",
-   "segments": [
-    "city",
-    "bush",
-    "beach"
-   ],
-   "first_seen": "2026-11-02T00:47+03:00",
-   "published": "2026-11-01",
-   "verdict": "weak"
-  },
-  {
-   "score": 54.2,
-   "components": {
-    "tier": 5,
-    "category": 5,
-    "lead": 2.4,
-    "relevance": 12,
-    "freshness": 19.8,
-    "corroborated": 10
-   },
-   "keywords": [
-    "visa",
-    "tourist"
-   ],
-   "shock_terms": [],
-   "dedupe_match": null,
-   "dedupe_similarity": 0.14,
-   "id": "46e98a20ff01",
-   "title": "Canada and Other Countries Lose Global Tourist Spending over Strict Visas and Application Delays",
-   "url": "https://www.travelandtourworld.com/news/article/7w1ylvqcfnva",
-   "summary": "Canada and Other Countries Lose Global Tourist Spending over Strict Visas and Application Delays Canada and other countries lose global tourist spending over strict visas and application delays as visitors rebook easier destinations. The post Canada and Other Countries Lose Global Tourist Spending over Strict Visas and Application Delays appeared first on Travel And Tour World .",
-   "kind": "item",
-   "source": "Travel And Tour World",
-   "source_id": "gl-travelandtourworld",
-   "tier": 3,
-   "country": "GLOBAL",
-   "category": "trade",
    "segments": [
     "city",
     "bush",
