@@ -1,5 +1,5 @@
 window.RATE_INDEX = {
- "updated": "2026-11-01 11:38",
+ "updated": "2026-11-02 13:02",
  "convention": {
   "los": 2,
   "lead_days": 30,
@@ -12,7 +12,7 @@ window.RATE_INDEX = {
  "methodNote": "Each property is compared only with itself, so the index measures rate MOVEMENT validly even though the basket mixes meal bases and rate types. Raw medians are context only and are not comparable across markets — check levelComparable before quoting a level.",
  "wowNote": "wow is the matched-sample link for the latest week. wowClean is the same link computed only on pairs whose meal basis was KNOWN and UNCHANGED between the two weeks; basisChangedPairs counts the pairs excluded from it. Where basisChangedPairs is large relative to matched, the headline wow is partly a re-basing artefact — quote wowClean, or quote no move at all.",
  "spreadNote": "Commission-leakage spread = median of (OTA rate / direct rate - 1) for the same property in the same week. Computed only where the direct rate is room-only or B&B, since an OTA lowest rate is not comparable with a fully-inclusive safari rate. Markets where no property qualifies report null.",
- "totalObservations": 880,
+ "totalObservations": 883,
  "distinctProperties": 128,
  "basketSize": 134,
  "markets": {
@@ -532,12 +532,34 @@ window.RATE_INDEX = {
       "basisChangedPairs": 3,
       "cleanMatched": 0,
       "linkClean": null
+     },
+     {
+      "week": "2026-W45",
+      "weekStart": "2026-11-02",
+      "median": 305.0,
+      "n": 3,
+      "observations": 3,
+      "coverage": 19,
+      "confident": true,
+      "basisMix": {
+       "UNK": 3
+      },
+      "rateTypeMix": {
+       "international": 3
+      },
+      "levelComparable": true,
+      "matched": 3,
+      "link": 1.0,
+      "index": 68.8,
+      "basisChangedPairs": 3,
+      "cleanMatched": 0,
+      "linkClean": null
      }
     ],
     "latest": {
-     "week": "2026-W44",
-     "weekStart": "2026-10-26",
-     "median": 318.0,
+     "week": "2026-W45",
+     "weekStart": "2026-11-02",
+     "median": 305.0,
      "n": 3,
      "observations": 3,
      "coverage": 19,
@@ -550,13 +572,13 @@ window.RATE_INDEX = {
      },
      "levelComparable": true,
      "matched": 3,
-     "link": 0.96277,
+     "link": 1.0,
      "index": 68.8,
      "basisChangedPairs": 3,
      "cleanMatched": 0,
      "linkClean": null
     },
-    "wow": -3.7
+    "wow": 0.0
    },
    "spread": [
     {
