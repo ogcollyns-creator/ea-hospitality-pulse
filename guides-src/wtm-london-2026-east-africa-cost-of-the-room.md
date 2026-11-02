@@ -4,6 +4,8 @@ slug: wtm-london-2026-east-africa-cost-of-the-room
 description: World Travel Market opens in London on Tuesday with Africa back on the main exhibition floor and eight East African businesses sharing one association stand. A year ago, 12 of the 14 Ugandan operators who had paid for space were refused UK visas, and no regional board has yet published what it spends to be in that building or what it brings home.
 category: Big Read
 updated: 2026-11-02
+image: "img/editions/wtm-london-2026-east-africa-cost-of-the-room.jpg"
+image_credit: "Illustration: AI-generated for EA Hospitality Pulse — synthetic image, not a photograph"
 ---
 One year ago today, Isa Kato should have been setting up a table at ExCeL in east London. Instead he was writing from Kampala. Kato, vice-president of the Uganda Tourism Association and managing director of Pristine Tours, was one of 14 Ugandan tour operators who had booked space on the Uganda stand at World Travel Market London 2025. Twelve of them, Kato among them, were refused UK visas. Two went. The rest had already paid close to US$1,000 each for a table, more than US$200 in visa fees, and flights and London accommodation that were not refundable.
 
