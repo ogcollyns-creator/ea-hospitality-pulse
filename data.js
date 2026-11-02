@@ -1,5 +1,14 @@
 window.EDITIONS = [
  {
+  "id": "pulse-2026-11-02-evening",
+  "date": "2026-11-02",
+  "dateDisplay": "Monday, 2 November 2026",
+  "edition": "Evening Wrap",
+  "editionKey": "evening",
+  "summary": "Uganda bought itself a seat at the 2027 AFCON, and the hotel work starts with packages",
+  "bodyHtml": "<p><strong>Uganda Tourism Board signed a sponsorship deal with CAF on 30 October to brand Uganda on the June 2027 AFCON, co-hosted with Kenya and Tanzania</strong><br><em>🌆 Evening Wrap · Mon 2 Nov 2026 · Expert Brief</em></p>\n<p>━━━━━━━━━<br><span class=\"item-head\">1️⃣ Uganda bought itself a seat at the 2027 AFCON, and the hotel work starts with packages</span></p>\n<p><strong>What happened.</strong> The Uganda Tourism Board signed an official destination sponsorship agreement with the Confederation of African Football at the Kampala Marriott on Friday 30 October. &quot;Explore Uganda – The Pearl of Africa&quot; will run on AFCON broadcasts, digital content and in-stadium advertising. UTB is the first regional sponsor named for the tournament, which Uganda co-hosts with Kenya and Tanzania in June 2027, the first three-nation AFCON <strong>(New Vision, 31 Oct)</strong>.</p>\n<p><strong>What was not said.</strong> The article gives no hotel figures, occupancy targets or booking projections. UTB plans match-plus-wildlife, culture and food packages and a &quot;HERE FOR IT&quot; campaign &quot;in the coming weeks&quot;; the State Minister for Tourism told operators to build competitive packages; the Deputy Speaker called for investment in accommodation, transport and security <strong>(New Vision, 31 Oct)</strong>.<br>Our inference: the sponsorship buys visibility, not rooms. Only operators with a priced package can convert it.</p>\n<p><span class=\"sowhat\">🎯 So what: if you are in Kampala, Entebbe or on the gorilla and Murchison circuits, price a match-plus-safari package now and hold June 2027 inventory back from net-rate contracts until UTB publishes its campaign details.</span><br><span class=\"tagline\">🏷 City, Bush | Uganda, Kenya, Tanzania | Confirmed | impact:demand</span></p>\n<p><span class=\"item-head\">2️⃣ Kenya&#x27;s Ebola countdown: first of four release groups leaves quarantine tomorrow</span><br>Not new, but dated: 46 contacts are due out on 3 November <strong>(Capital FM, 31 Oct)</strong>. The Ministry reported nine cases and no community transmission on 22 Oct and no end-of-outbreak date <strong>(Citizen Digital, 22 Oct, modified 2 Nov)</strong>. We found no new case after 22 Oct, but the Ministry&#x27;s own pages were not opened.<br><span class=\"sowhat\">🎯 So what: unchanged from Saturday. Keep Ebola-free wording factual; do not discount on a recovery nobody has dated.</span><br><span class=\"tagline\">🏷 City, Bush, Beach | Kenya | Confirmed | impact:watch</span></p>\n<p><strong>🏗 DEAL FLOW:</strong> No verified EA deal flow dated 31 Oct to 2 Nov.</p>\n<p><strong>📻 ALSO TONIGHT</strong><br>🇺🇬 2 Nov: Uganda Airlines&#x27; four-weekly Entebbe–Lagos–Accra service (UR900, Boeing 737-800, since 27 Oct) was re-reported by Travel News Africa; our Accra story ran on 28 Oct <strong>(Travel News Africa, 2 Nov)</strong>.<br>🇰🇪 Fuel: Nairobi super petrol is KES 226.96 under the 14 October EPRA cycle; the next review is due 14 November <strong>(Tech-ish, 14 Oct)</strong>.</p>\n<p><strong>⏳ CATCHING UP</strong><br>🇰🇪 29 Oct: A&amp;K Sanctuary&#x27;s Kitirua Plains Lodge in Amboseli is now open <strong>(Tourism Update, 29 Oct)</strong>.<br>🇺🇬 Uganda Airlines files Entebbe–Kigali daily from 18 November on a CRJ900 <strong>(AeroRoutes, 25 Aug)</strong>.</p>\n<p><strong>📅 WEEK AHEAD</strong> 3 Nov: Kenya release group one; US no-DRC declaration starts. 14 Nov: EPRA review. 18 Nov: Uganda Airlines to Kigali.</p>\n<p><strong>🔍 BLIND SPOTS</strong> Web-scanned only, primary pages not opened, nothing dated 31 Oct to 2 Nov surfaced: UK, Canadian, German, French advisories, WHO, Africa CDC, Uganda dashboard, all four gazettes, TIRA, KCAA, UWA, TANAPA, NCAA, KNBS, CBK, BoU, BoT, BNR, OCGS. Hotelsafrica.org and Travel News East Africa carry no story dates, so in-window items there could not be separated. A thin night, not proof of a quiet one.</p>\n<p>🔗 This edition on the web: <a href=\"https://eahospitalitypulse.com/editions/pulse-2026-11-02-evening.html\" rel=\"noopener\">eahospitalitypulse.com/editions/pulse-2026-11-02-evenin…</a></p>"
+ },
+ {
   "id": "foresight-2026-11-01",
   "date": "2026-11-01",
   "dateDisplay": "Sunday, 1 November 2026",
@@ -1351,6 +1360,47 @@ window.EDITIONS = [
  }
 ];
 window.INSIGHTS = [
+ {
+  "headline": "Uganda bought itself a seat at the 2027 AFCON, and the hotel work starts with packages",
+  "body": "**What happened.** The Uganda Tourism Board signed an official destination sponsorship agreement with the Confederation of African Football at the Kampala Marriott on Friday 30 October. \"Explore Uganda – The Pearl of Africa\" will run on AFCON broadcasts, digital content and in-stadium advertising. UTB is the first regional sponsor named for the tournament, which Uganda co-hosts with Kenya and Tanzania in June 2027, the first three-nation AFCON *(New Vision, 31 Oct)*. **What was not said.** The article gives no hotel figures, occupancy targets or booking projections. UTB plans match-plus-wildlife, culture and food packages and a \"HERE FOR IT\" campaign \"in the coming weeks\"; the State Minister for Tourism told operators to build competitive packages; the Deputy Speaker called for investment in accommodation, transport and security *(New Vision, 31 Oct)*. Our inference: the sponsorship buys visibility, not rooms. Only operators with a priced package can convert it.",
+  "sowhat": "🎯 So what: if you are in Kampala, Entebbe or on the gorilla and Murchison circuits, price a match-plus-safari package now and hold June 2027 inventory back from net-rate contracts until UTB publishes its campaign details.",
+  "segments": [
+   "city",
+   "bush"
+  ],
+  "countries": "Uganda, Kenya, Tanzania",
+  "confidence": "Confirmed",
+  "impact": "+demand",
+  "impactClass": "demand",
+  "intensity": 3,
+  "impactSet": "author",
+  "source": "pulse-2026-11-02-evening",
+  "date": "2026-11-02",
+  "dateDisplay": "Monday, 2 November 2026",
+  "edition": "Evening Wrap",
+  "editionKey": "evening"
+ },
+ {
+  "headline": "Kenya's Ebola countdown: first of four release groups leaves quarantine tomorrow",
+  "body": "Not new, but dated: 46 contacts are due out on 3 November *(Capital FM, 31 Oct)*. The Ministry reported nine cases and no community transmission on 22 Oct and no end-of-outbreak date *(Citizen Digital, 22 Oct, modified 2 Nov)*. We found no new case after 22 Oct, but the Ministry's own pages were not opened.",
+  "sowhat": "🎯 So what: unchanged from Saturday. Keep Ebola-free wording factual; do not discount on a recovery nobody has dated.",
+  "segments": [
+   "city",
+   "bush",
+   "beach"
+  ],
+  "countries": "Kenya",
+  "confidence": "Confirmed",
+  "impact": "watch",
+  "impactClass": "watch",
+  "intensity": 3,
+  "impactSet": "author",
+  "source": "pulse-2026-11-02-evening",
+  "date": "2026-11-02",
+  "dateDisplay": "Monday, 2 November 2026",
+  "edition": "Evening Wrap",
+  "editionKey": "evening"
+ },
  {
   "headline": "KENYA'S INFLATION IS 7.3%, AND TRANSPORT IS 17.1%",
   "body": "Food 10.2%, prices up 0.7% on the month *(KNBS, 30 Oct)*. The Central Bank held at 8.75% on 7 Oct.",
@@ -8030,4 +8080,4 @@ window.INSIGHTS = [
   "editionKey": "evening"
  }
 ];
-window.BUILT_AT = "2026-11-02 15:48";
+window.BUILT_AT = "2026-11-02 16:04";
