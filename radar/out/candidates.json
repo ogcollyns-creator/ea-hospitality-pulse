@@ -1,18 +1,18 @@
 {
- "generated": "2026-11-03T20:08:11+03:00",
+ "generated": "2026-11-03T22:18:38+03:00",
  "slot": "evening",
  "window_start": 1793620800,
- "observations_in_window": 1126,
+ "observations_in_window": 1203,
  "deduped_against": 20,
  "candidates": [
   {
-   "score": 107.4,
+   "score": 105.0,
    "components": {
     "tier": 40,
     "category": 24,
     "lead": 3.6,
     "relevance": 12,
-    "freshness": 19.8,
+    "freshness": 17.4,
     "undated": -6,
     "shock": 18,
     "page_change": -4
@@ -52,6 +52,39 @@
     "lead": 3.6,
     "relevance": 0,
     "freshness": 19.8,
+    "corroborated": 10,
+    "page_change": -4
+   },
+   "keywords": [],
+   "shock_terms": [],
+   "dedupe_match": null,
+   "dedupe_similarity": 0.4,
+   "id": "f58c7b1092f7",
+   "title": "[page changed] Federal Register \u2014 public inspection (HHS/CDC), pre-publication",
+   "url": "https://www.federalregister.gov/api/v1/public-inspection-documents/current.json",
+   "summary": "{\"count\":92,\"results\":[{\"agencies\":[{\"raw_name\":\"Foreign Agricultural Service\",\"name\":\"Foreign Agricultural Service\",\"id\":202,\"url\":\"https://www.federalregister.gov/agencies/foreign-agricultural-service\",\"json_url\":\"https://www.federalregister.gov/api/v1/agencies/202\",\"parent_id\":12,\"slug\":\"foreign-agricultural-service\"}],\"agency_letters\":[],\"agency_names\":[\"Foreign Agricultural Service\"],\"docket_",
+   "kind": "page-change",
+   "source": "Federal Register \u2014 public inspection (HHS/CDC), pre-publication",
+   "source_id": "us-fedreg-pubinspect-hhs",
+   "tier": 1,
+   "country": "REG",
+   "category": "advisory",
+   "segments": [
+    "city",
+    "bush"
+   ],
+   "first_seen": "2026-11-03T22:15+03:00",
+   "published": "2026-11-03",
+   "verdict": "OPEN THIS \u2014 tier-1 advisory page moved; content not auto-parsed, read it manually"
+  },
+  {
+   "score": 99.0,
+   "components": {
+    "tier": 40,
+    "category": 32,
+    "lead": 3.6,
+    "relevance": 0,
+    "freshness": 17.4,
     "corroborated": 10,
     "page_change": -4
    },
@@ -117,13 +150,13 @@
    "verdict": "OPEN THIS \u2014 tier-1 health page moved; content not auto-parsed, read it manually"
   },
   {
-   "score": 59.4,
+   "score": 57.0,
    "components": {
     "tier": 40,
     "category": 12,
     "lead": 3.6,
     "relevance": 0,
-    "freshness": 13.8,
+    "freshness": 11.4,
     "undated": -6,
     "page_change": -4
    },
@@ -185,13 +218,13 @@
    "verdict": "OPEN THIS \u2014 tier-1 airline page moved; content not auto-parsed, read it manually"
   },
   {
-   "score": 101.4,
+   "score": 99.0,
    "components": {
     "tier": 40,
     "category": 18,
     "lead": 8.4,
     "relevance": 12,
-    "freshness": 13.0,
+    "freshness": 10.6,
     "corroborated": 10
    },
    "keywords": [
@@ -217,45 +250,6 @@
    "first_seen": "2026-11-03T13:58+03:00",
    "published": "2026-11-03",
    "verdict": "STRONG \u2014 tier-1, upstream"
-  },
-  {
-   "score": 97.4,
-   "components": {
-    "tier": 20,
-    "category": 14,
-    "lead": 8.4,
-    "relevance": 32,
-    "freshness": 13.0,
-    "corroborated": 10
-   },
-   "keywords": [
-    "vat",
-    "route",
-    "airport",
-    "airline",
-    "flight"
-   ],
-   "shock_terms": [],
-   "dedupe_match": null,
-   "dedupe_similarity": 0.13,
-   "id": "4f4157686d33",
-   "title": "LATAM Brasil Adds Sao Paulo \u2013 Geneva in NS27",
-   "url": "https://www.aeroroutes.com/eng/261103-lans27gva",
-   "summary": "Published at 0000PCT / 0700GMT 03NOV26 LATAM Airlines Brasil last week opened reservations for Sao Paulo Guarulhos \u2013 Geneva route, with nonstop flight scheduled from 28MAR27. Boeing 787-9 to serve this route 3 times weekly. LA8080 GRU1805 \u2013 0955+1GVA 789 247 LA8081 GVA1205 \u2013 1855GRU 789 135 Swissair previously operated 1-stop flight between the two airports in 1992, with 1 weekly Zurich \u2013 Geneva \u2013",
-   "kind": "item",
-   "source": "AeroRoutes schedule filings",
-   "source_id": "aeroroutes",
-   "tier": 2,
-   "country": "GLOBAL",
-   "category": "aviation-tracker",
-   "segments": [
-    "city",
-    "bush",
-    "beach"
-   ],
-   "first_seen": "2026-11-03T13:59+03:00",
-   "published": "2026-11-03",
-   "verdict": "CONSIDER"
   },
   {
    "score": 96.4,
@@ -293,13 +287,52 @@
    "verdict": "STRONG \u2014 tier-1, upstream"
   },
   {
-   "score": 92.8,
+   "score": 95.0,
+   "components": {
+    "tier": 20,
+    "category": 14,
+    "lead": 8.4,
+    "relevance": 32,
+    "freshness": 10.6,
+    "corroborated": 10
+   },
+   "keywords": [
+    "vat",
+    "route",
+    "airport",
+    "airline",
+    "flight"
+   ],
+   "shock_terms": [],
+   "dedupe_match": null,
+   "dedupe_similarity": 0.13,
+   "id": "4f4157686d33",
+   "title": "LATAM Brasil Adds Sao Paulo \u2013 Geneva in NS27",
+   "url": "https://www.aeroroutes.com/eng/261103-lans27gva",
+   "summary": "Published at 0000PCT / 0700GMT 03NOV26 LATAM Airlines Brasil last week opened reservations for Sao Paulo Guarulhos \u2013 Geneva route, with nonstop flight scheduled from 28MAR27. Boeing 787-9 to serve this route 3 times weekly. LA8080 GRU1805 \u2013 0955+1GVA 789 247 LA8081 GVA1205 \u2013 1855GRU 789 135 Swissair previously operated 1-stop flight between the two airports in 1992, with 1 weekly Zurich \u2013 Geneva \u2013",
+   "kind": "item",
+   "source": "AeroRoutes schedule filings",
+   "source_id": "aeroroutes",
+   "tier": 2,
+   "country": "GLOBAL",
+   "category": "aviation-tracker",
+   "segments": [
+    "city",
+    "bush",
+    "beach"
+   ],
+   "first_seen": "2026-11-03T13:59+03:00",
+   "published": "2026-11-03",
+   "verdict": "CONSIDER"
+  },
+  {
+   "score": 90.4,
    "components": {
     "tier": 40,
     "category": 13,
     "lead": 6.0,
     "relevance": 4,
-    "freshness": 19.8,
+    "freshness": 17.4,
     "corroborated": 10
    },
    "keywords": [
@@ -326,13 +359,13 @@
    "verdict": "STRONG \u2014 tier-1, upstream"
   },
   {
-   "score": 92.2,
+   "score": 89.8,
    "components": {
     "tier": 20,
     "category": 14,
     "lead": 8.4,
     "relevance": 20,
-    "freshness": 19.8,
+    "freshness": 17.4,
     "corroborated": 10
    },
    "keywords": [
@@ -362,13 +395,13 @@
    "verdict": "CONSIDER"
   },
   {
-   "score": 92.2,
+   "score": 89.8,
    "components": {
     "tier": 40,
     "category": 24,
     "lead": 2.4,
     "relevance": 12,
-    "freshness": 19.8,
+    "freshness": 17.4,
     "undated": -6
    },
    "keywords": [
@@ -394,16 +427,16 @@
    ],
    "first_seen": "2026-11-03T20:06+03:00",
    "published": null,
-   "verdict": "STRONG \u2014 tier-1, upstream"
+   "verdict": "CONSIDER"
   },
   {
-   "score": 91.0,
+   "score": 88.6,
    "components": {
     "tier": 40,
     "category": 32,
     "lead": 12.0,
     "relevance": 8,
-    "freshness": 13.0,
+    "freshness": 10.6,
     "stale_trap": -10,
     "page_change": -4
    },
@@ -430,38 +463,6 @@
    "first_seen": "2026-11-03T13:58+03:00",
    "published": "2026-10-28",
    "verdict": "CHECK \u2014 source date older than the window"
-  },
-  {
-   "score": 89.4,
-   "components": {
-    "tier": 40,
-    "category": 24,
-    "lead": 2.4,
-    "relevance": 0,
-    "freshness": 13.0,
-    "corroborated": 10
-   },
-   "keywords": [],
-   "shock_terms": [],
-   "dedupe_match": null,
-   "dedupe_similarity": 0.0,
-   "id": "99f569688d95",
-   "title": "SitRep N\u00b0171/MVE-BDBV/01/11/2026",
-   "url": "https://insp.cd/sitrep-n171-mve-bdbv-01-11-2026",
-   "summary": "",
-   "kind": "item",
-   "source": "INSP RDC \u2014 Ebola daily situation reports (SitRep)",
-   "source_id": "cd-insp-sitrep",
-   "tier": 1,
-   "country": "GLOBAL",
-   "category": "health",
-   "segments": [
-    "City",
-    "Bush"
-   ],
-   "first_seen": "2026-11-03T13:59+03:00",
-   "published": "2026-11-03",
-   "verdict": "CONSIDER"
   },
   {
    "score": 88.4,
@@ -495,43 +496,6 @@
    ],
    "first_seen": "2026-11-02T22:30+03:00",
    "published": "2026-11-02",
-   "verdict": "CONSIDER"
-  },
-  {
-   "score": 88.2,
-   "components": {
-    "tier": 20,
-    "category": 14,
-    "lead": 8.4,
-    "relevance": 16,
-    "freshness": 19.8,
-    "corroborated": 10
-   },
-   "keywords": [
-    "route",
-    "airline",
-    "flight"
-   ],
-   "shock_terms": [],
-   "dedupe_match": null,
-   "dedupe_similarity": 0.13,
-   "id": "5a29925daf74",
-   "title": "Arkia Adds Tel Aviv \u2013 Reykjav\u00edk Service in NS27",
-   "url": "https://www.aeroroutes.com/eng/261103-izns27kef",
-   "summary": "Published at 0400PCT / 1100GMT 03NOV26 Arkia \u2013 Israeli Airlines during Northern summer 2027 season plans to launch service to Iceland, where the airline lists 1 weekly Tel Aviv \u2013 Reykjav\u00edk Keflav\u00edk flight. Airbus A321LR to serve this route once a week from 22JUN27. IZ561 TLV1415 \u2013 1855KEF 32Q 2 IZ562 KEF2025 \u2013 0610+1KEF 32Q 2",
-   "kind": "item",
-   "source": "AeroRoutes schedule filings",
-   "source_id": "aeroroutes",
-   "tier": 2,
-   "country": "GLOBAL",
-   "category": "aviation-tracker",
-   "segments": [
-    "city",
-    "bush",
-    "beach"
-   ],
-   "first_seen": "2026-11-03T20:06+03:00",
-   "published": "2026-11-03",
    "verdict": "CONSIDER"
   },
   {
@@ -572,13 +536,82 @@
    "verdict": "CONSIDER"
   },
   {
-   "score": 87.4,
+   "score": 87.0,
+   "components": {
+    "tier": 40,
+    "category": 24,
+    "lead": 2.4,
+    "relevance": 0,
+    "freshness": 10.6,
+    "corroborated": 10
+   },
+   "keywords": [],
+   "shock_terms": [],
+   "dedupe_match": null,
+   "dedupe_similarity": 0.0,
+   "id": "99f569688d95",
+   "title": "SitRep N\u00b0171/MVE-BDBV/01/11/2026",
+   "url": "https://insp.cd/sitrep-n171-mve-bdbv-01-11-2026",
+   "summary": "",
+   "kind": "item",
+   "source": "INSP RDC \u2014 Ebola daily situation reports (SitRep)",
+   "source_id": "cd-insp-sitrep",
+   "tier": 1,
+   "country": "GLOBAL",
+   "category": "health",
+   "segments": [
+    "City",
+    "Bush"
+   ],
+   "first_seen": "2026-11-03T13:59+03:00",
+   "published": "2026-11-03",
+   "verdict": "CONSIDER"
+  },
+  {
+   "score": 85.8,
+   "components": {
+    "tier": 20,
+    "category": 14,
+    "lead": 8.4,
+    "relevance": 16,
+    "freshness": 17.4,
+    "corroborated": 10
+   },
+   "keywords": [
+    "route",
+    "airline",
+    "flight"
+   ],
+   "shock_terms": [],
+   "dedupe_match": null,
+   "dedupe_similarity": 0.13,
+   "id": "5a29925daf74",
+   "title": "Arkia Adds Tel Aviv \u2013 Reykjav\u00edk Service in NS27",
+   "url": "https://www.aeroroutes.com/eng/261103-izns27kef",
+   "summary": "Published at 0400PCT / 1100GMT 03NOV26 Arkia \u2013 Israeli Airlines during Northern summer 2027 season plans to launch service to Iceland, where the airline lists 1 weekly Tel Aviv \u2013 Reykjav\u00edk Keflav\u00edk flight. Airbus A321LR to serve this route once a week from 22JUN27. IZ561 TLV1415 \u2013 1855KEF 32Q 2 IZ562 KEF2025 \u2013 0610+1KEF 32Q 2",
+   "kind": "item",
+   "source": "AeroRoutes schedule filings",
+   "source_id": "aeroroutes",
+   "tier": 2,
+   "country": "GLOBAL",
+   "category": "aviation-tracker",
+   "segments": [
+    "city",
+    "bush",
+    "beach"
+   ],
+   "first_seen": "2026-11-03T20:06+03:00",
+   "published": "2026-11-03",
+   "verdict": "CONSIDER"
+  },
+  {
+   "score": 85.0,
    "components": {
     "tier": 40,
     "category": 12,
     "lead": 3.6,
     "relevance": 8,
-    "freshness": 13.8,
+    "freshness": 11.4,
     "corroborated": 10
    },
    "keywords": [
@@ -603,299 +636,6 @@
     "beach"
    ],
    "first_seen": "2026-11-03T14:41+03:00",
-   "published": "2026-11-03",
-   "verdict": "CONSIDER"
-  },
-  {
-   "score": 86.4,
-   "components": {
-    "tier": 20,
-    "category": 5,
-    "lead": 3.6,
-    "relevance": 28,
-    "freshness": 19.8,
-    "corroborated": 10
-   },
-   "keywords": [
-    "occupancy",
-    "adr",
-    "revpar",
-    "hotel"
-   ],
-   "shock_terms": [],
-   "dedupe_match": null,
-   "dedupe_similarity": 0.12,
-   "id": "1e72dd472c94",
-   "title": "RoomPriceGenie launches Portfolio Calendar to give hotel groups clearer control of revenue performance",
-   "url": "https://www.hospitalitynet.org/news/4135249/roompricegenie-launches-portfolio-calendar-to-give-hotel-groups-clearer-control-of-revenue-performance",
-   "summary": "RoomPriceGenie's Portfolio Calendar gives multi-property hotel groups a single dashboard view of occupancy, ADR, RevPAR, and pricing across all properties to streamline revenue oversight.",
-   "kind": "item",
-   "source": "Hospitality Net \u2014 Africa announcements",
-   "source_id": "dev-hospitalitynet-africa",
-   "tier": 2,
-   "country": "REG",
-   "category": "trade",
-   "segments": [
-    "city",
-    "bush",
-    "beach"
-   ],
-   "first_seen": "2026-11-03T20:06+03:00",
-   "published": "2026-11-03",
-   "verdict": "CONSIDER"
-  },
-  {
-   "score": 85.4,
-   "components": {
-    "tier": 20,
-    "category": 14,
-    "lead": 8.4,
-    "relevance": 20,
-    "freshness": 13.0,
-    "corroborated": 10
-   },
-   "keywords": [
-    "adr",
-    "route",
-    "flight"
-   ],
-   "shock_terms": [],
-   "dedupe_match": null,
-   "dedupe_similarity": 0.08,
-   "id": "fd88cd1970a9",
-   "title": "Wizz Air Adds Short-Term Madrid \u2013 Malaga / Seville Flights From Nov 2026",
-   "url": "https://www.aeroroutes.com/eng/261103-w4nov26es",
-   "summary": "Published at 0200PCT / 0900GMT 03NOV26 Wizz Air this month schedules a pair of domestic routes at Spain for 6-week period, including Madrid \u2013 Malaga and Madrid \u2013 Seville. Schedule below focuses on the week of 16-22NOV26. Madrid \u2013 Malaga 06NOV26 \u2013 13DEC26 2 daily A321neo W47541 MAD0540 \u2013 0700AGP 32Q 7 W47541 MAD0545 \u2013 0705AGP 32Q 6 W47541 MAD0600 \u2013 0720AGP 32Q 1 W57541 MAD0645 \u2013 0805AGP 32Q 24 W475",
-   "kind": "item",
-   "source": "AeroRoutes schedule filings",
-   "source_id": "aeroroutes",
-   "tier": 2,
-   "country": "GLOBAL",
-   "category": "aviation-tracker",
-   "segments": [
-    "city",
-    "bush",
-    "beach"
-   ],
-   "first_seen": "2026-11-03T13:59+03:00",
-   "published": "2026-11-03",
-   "verdict": "CONSIDER"
-  },
-  {
-   "score": 85.4,
-   "components": {
-    "tier": 20,
-    "category": 14,
-    "lead": 8.4,
-    "relevance": 20,
-    "freshness": 13.0,
-    "corroborated": 10
-   },
-   "keywords": [
-    "vat",
-    "route",
-    "flight"
-   ],
-   "shock_terms": [],
-   "dedupe_match": null,
-   "dedupe_similarity": 0.2,
-   "id": "da3b538634dd",
-   "title": "Saudia Removes Planned Jeddah \u2013 Delhi NW26 Flight Increases",
-   "url": "https://www.aeroroutes.com/eng/261102-svnw26del",
-   "summary": "Published at 2300OCT 02NOV26 / 0600GMT 03NOV26 Saudia in recent schedule update removed planned service increase on Jeddah \u2013 Delhi route, despite additional flights never opened for reservations. The Skyteam member will maintain 9 weekly flights with 777-300ER during Northern winter 2026/27 season. SV756 JED0215 \u2013 0945DEL 777 x246 SV758 JED1055 \u2013 1825DEL 777 x24 SV757 DEL1125 \u2013 1500JED 777 x246 SV",
-   "kind": "item",
-   "source": "AeroRoutes schedule filings",
-   "source_id": "aeroroutes",
-   "tier": 2,
-   "country": "GLOBAL",
-   "category": "aviation-tracker",
-   "segments": [
-    "city",
-    "bush",
-    "beach"
-   ],
-   "first_seen": "2026-11-03T13:59+03:00",
-   "published": "2026-11-03",
-   "verdict": "CONSIDER"
-  },
-  {
-   "score": 85.4,
-   "components": {
-    "tier": 40,
-    "category": 24,
-    "lead": 2.4,
-    "relevance": 12,
-    "freshness": 13.0,
-    "undated": -6
-   },
-   "keywords": [
-    "ebola"
-   ],
-   "shock_terms": [],
-   "dedupe_match": null,
-   "dedupe_similarity": 0.22,
-   "id": "8090c9a28231",
-   "title": "Emergency 3 November 2026 | Feature Story Taking care of others despite fear: a doctor facing Ebola",
-   "url": "https://www.afro.who.int/countries/democratic-republic-of-congo/news/taking-care-others-despite-fear-doctor-facing-ebola",
-   "summary": "",
-   "kind": "item",
-   "source": "WHO AFRO \u2014 Kenya country newsroom",
-   "source_id": "who-afro-kenya",
-   "tier": 1,
-   "country": "KE",
-   "category": "health",
-   "segments": [
-    "bush",
-    "city",
-    "beach"
-   ],
-   "first_seen": "2026-11-03T13:57+03:00",
-   "published": null,
-   "verdict": "CONSIDER"
-  },
-  {
-   "score": 85.4,
-   "components": {
-    "tier": 40,
-    "category": 24,
-    "lead": 2.4,
-    "relevance": 12,
-    "freshness": 13.0,
-    "undated": -6
-   },
-   "keywords": [
-    "ebola"
-   ],
-   "shock_terms": [],
-   "dedupe_match": null,
-   "dedupe_similarity": 0.22,
-   "id": "5009f4605e05",
-   "title": "Emergency 3 November 2026 | Feature Story Taking care of others despite fear: a doctor facing Ebola",
-   "url": "https://www.afro.who.int/countries/democratic-republic-of-congo/news/taking-care-others-despite-fear-doctor-facing-ebola",
-   "summary": "",
-   "kind": "item",
-   "source": "WHO AFRO \u2014 Rwanda country newsroom",
-   "source_id": "who-afro-rwanda",
-   "tier": 1,
-   "country": "RW",
-   "category": "health",
-   "segments": [
-    "bush",
-    "city",
-    "beach"
-   ],
-   "first_seen": "2026-11-03T13:57+03:00",
-   "published": null,
-   "verdict": "CONSIDER"
-  },
-  {
-   "score": 85.4,
-   "components": {
-    "tier": 40,
-    "category": 24,
-    "lead": 2.4,
-    "relevance": 12,
-    "freshness": 13.0,
-    "undated": -6
-   },
-   "keywords": [
-    "ebola"
-   ],
-   "shock_terms": [],
-   "dedupe_match": null,
-   "dedupe_similarity": 0.22,
-   "id": "1cf5a08cc1f0",
-   "title": "Emergency 3 November 2026 | Feature Story Taking care of others despite fear: a doctor facing Ebola",
-   "url": "https://www.afro.who.int/countries/democratic-republic-of-congo/news/taking-care-others-despite-fear-doctor-facing-ebola",
-   "summary": "",
-   "kind": "item",
-   "source": "WHO AFRO \u2014 Uganda country newsroom",
-   "source_id": "who-afro-uganda",
-   "tier": 1,
-   "country": "UG",
-   "category": "health",
-   "segments": [
-    "bush",
-    "city",
-    "beach"
-   ],
-   "first_seen": "2026-11-03T13:57+03:00",
-   "published": null,
-   "verdict": "CONSIDER"
-  },
-  {
-   "score": 85.2,
-   "components": {
-    "tier": 20,
-    "category": 5,
-    "lead": 2.4,
-    "relevance": 28,
-    "freshness": 19.8,
-    "corroborated": 10
-   },
-   "keywords": [
-    "occupancy",
-    "adr",
-    "revpar",
-    "hotel"
-   ],
-   "shock_terms": [],
-   "dedupe_match": null,
-   "dedupe_similarity": 0.12,
-   "id": "1f8191a7b07a",
-   "title": "RoomPriceGenie launches Portfolio Calendar to give hotel groups clearer control of revenue performance",
-   "url": "https://www.hospitalitynet.org/news/4135249/roompricegenie-launches-portfolio-calendar-to-give-hotel-groups-clearer-control-of-revenue-performance",
-   "summary": "RoomPriceGenie's Portfolio Calendar gives multi-property hotel groups a single dashboard view of occupancy, ADR, RevPAR, and pricing across all properties to streamline revenue oversight.",
-   "kind": "item",
-   "source": "Hospitality Net: Africa openings",
-   "source_id": "dev-hospitalitynet-openings",
-   "tier": 2,
-   "country": "AFRICA",
-   "category": "trade",
-   "segments": [
-    "city",
-    "bush",
-    "beach"
-   ],
-   "first_seen": "2026-11-03T20:06+03:00",
-   "published": "2026-11-03",
-   "verdict": "CONSIDER"
-  },
-  {
-   "score": 85.0,
-   "components": {
-    "tier": 20,
-    "category": 14,
-    "lead": 8.4,
-    "relevance": 28,
-    "freshness": 4.6,
-    "corroborated": 10
-   },
-   "keywords": [
-    "route",
-    "frequency",
-    "seat",
-    "airline"
-   ],
-   "shock_terms": [],
-   "dedupe_match": null,
-   "dedupe_similarity": 0.08,
-   "id": "fb1667b7e07e",
-   "title": "IndiGo NW26 Mumbai \u2013 Denpasar Service Changes \u2013 01NOV26",
-   "url": "https://www.aeroroutes.com/eng/261102-6enw26bomdps",
-   "summary": "Published at 1900PCT 02NOV26 / 0200GMT 03NOV26 Indian low-cost carrier IndiGo since last month switched operational aircraft on Mumbai \u2013 Denpasar route (Eastbound via Chennai). Since 01OCT26, the airline has been operating 220-seater Airbus A321neo, instead of A320neo. Operational frequency for the period of 01OCT26 \u2013 31DEC26 has been reduced from 7 to 6 weekly. 6E1511 BOM0610 \u2013 0820MAA0900 \u2013 1750",
-   "kind": "item",
-   "source": "AeroRoutes schedule filings",
-   "source_id": "aeroroutes",
-   "tier": 2,
-   "country": "GLOBAL",
-   "category": "aviation-tracker",
-   "segments": [
-    "city",
-    "bush",
-    "beach"
-   ],
-   "first_seen": "2026-11-03T06:21+03:00",
    "published": "2026-11-03",
    "verdict": "CONSIDER"
   },
@@ -938,101 +678,34 @@
    "verdict": "CONSIDER"
   },
   {
-   "score": 84.2,
+   "score": 84.0,
    "components": {
     "tier": 20,
-    "category": 14,
-    "lead": 8.4,
-    "relevance": 12,
-    "freshness": 19.8,
+    "category": 5,
+    "lead": 3.6,
+    "relevance": 28,
+    "freshness": 17.4,
     "corroborated": 10
    },
    "keywords": [
-    "route",
-    "airline"
+    "occupancy",
+    "adr",
+    "revpar",
+    "hotel"
    ],
    "shock_terms": [],
    "dedupe_match": null,
-   "dedupe_similarity": 0.13,
-   "id": "d203b0aed564",
-   "title": "Southwind Adds Istanbul \u2013 St. Petersburg From Nov 2026",
-   "url": "https://www.aeroroutes.com/eng/261103-2snov26led",
-   "summary": "Published at 0800PCT / 1500GMT 03NOV26 Southwind Airlines during Northern winter 2026/27 season plans to add Istanbul \u2013 St. Petersburg route, on board Boeing 737 MAX 8 aircraft. The airline plans to serve this route on daily basis from 09NOV26. 2S117 IST1000 \u2013 1340LED 7M8 D 2S118 LED1440 \u2013 1835IST 7M8 D",
+   "dedupe_similarity": 0.12,
+   "id": "1e72dd472c94",
+   "title": "RoomPriceGenie launches Portfolio Calendar to give hotel groups clearer control of revenue performance",
+   "url": "https://www.hospitalitynet.org/news/4135249/roompricegenie-launches-portfolio-calendar-to-give-hotel-groups-clearer-control-of-revenue-performance",
+   "summary": "RoomPriceGenie's Portfolio Calendar gives multi-property hotel groups a single dashboard view of occupancy, ADR, RevPAR, and pricing across all properties to streamline revenue oversight.",
    "kind": "item",
-   "source": "AeroRoutes schedule filings",
-   "source_id": "aeroroutes",
+   "source": "Hospitality Net \u2014 Africa announcements",
+   "source_id": "dev-hospitalitynet-africa",
    "tier": 2,
-   "country": "GLOBAL",
-   "category": "aviation-tracker",
-   "segments": [
-    "city",
-    "bush",
-    "beach"
-   ],
-   "first_seen": "2026-11-03T20:06+03:00",
-   "published": "2026-11-03",
-   "verdict": "CONSIDER"
-  },
-  {
-   "score": 84.2,
-   "components": {
-    "tier": 20,
-    "category": 14,
-    "lead": 8.4,
-    "relevance": 12,
-    "freshness": 19.8,
-    "corroborated": 10
-   },
-   "keywords": [
-    "route",
-    "airline"
-   ],
-   "shock_terms": [],
-   "dedupe_match": null,
-   "dedupe_similarity": 0.17,
-   "id": "b57a16d1c585",
-   "title": "flydubai Plans Skopje Launch in April 2027",
-   "url": "https://www.aeroroutes.com/eng/261103-fzns27skp",
-   "summary": "Published at 0600PCT / 1300GMT 03NOV26 flydubai during Northern summer 2027 season plans to launch service to Macedonia, where the airline launches Dubai \u2013 Skopje route. The airline\u2019s 737 MAX 8 aircraft to serve this route 3 times per week from 01APR27. FZ1763 DXB0955 \u2013 1330SKP 7M8 146 FZ1764 SKP1430 \u2013 2145DXB 7M8 146",
-   "kind": "item",
-   "source": "AeroRoutes schedule filings",
-   "source_id": "aeroroutes",
-   "tier": 2,
-   "country": "GLOBAL",
-   "category": "aviation-tracker",
-   "segments": [
-    "city",
-    "bush",
-    "beach"
-   ],
-   "first_seen": "2026-11-03T20:06+03:00",
-   "published": "2026-11-03",
-   "verdict": "CONSIDER"
-  },
-  {
-   "score": 84.2,
-   "components": {
-    "tier": 40,
-    "category": 12,
-    "lead": 2.4,
-    "relevance": 0,
-    "freshness": 19.8,
-    "corroborated": 10
-   },
-   "keywords": [],
-   "shock_terms": [],
-   "dedupe_match": null,
-   "dedupe_similarity": 0.25,
-   "id": "02fc1b526fd5",
-   "title": "Kenya Financial Sector Stability Report 2025",
-   "url": "https://www.centralbank.go.ke/2026/11/03/kenya-financial-sector-stability-report-2025",
-   "summary": "",
-   "kind": "item",
-   "source": "Central Bank of Kenya press releases",
-   "source_id": "ke-cbk-press",
-   "tier": 1,
-   "country": "KE",
-   "category": "central-bank",
+   "country": "REG",
+   "category": "trade",
    "segments": [
     "city",
     "bush",
@@ -1079,13 +752,373 @@
    "verdict": "CONSIDER"
   },
   {
-   "score": 83.4,
+   "score": 83.0,
+   "components": {
+    "tier": 20,
+    "category": 14,
+    "lead": 8.4,
+    "relevance": 20,
+    "freshness": 10.6,
+    "corroborated": 10
+   },
+   "keywords": [
+    "adr",
+    "route",
+    "flight"
+   ],
+   "shock_terms": [],
+   "dedupe_match": null,
+   "dedupe_similarity": 0.08,
+   "id": "fd88cd1970a9",
+   "title": "Wizz Air Adds Short-Term Madrid \u2013 Malaga / Seville Flights From Nov 2026",
+   "url": "https://www.aeroroutes.com/eng/261103-w4nov26es",
+   "summary": "Published at 0200PCT / 0900GMT 03NOV26 Wizz Air this month schedules a pair of domestic routes at Spain for 6-week period, including Madrid \u2013 Malaga and Madrid \u2013 Seville. Schedule below focuses on the week of 16-22NOV26. Madrid \u2013 Malaga 06NOV26 \u2013 13DEC26 2 daily A321neo W47541 MAD0540 \u2013 0700AGP 32Q 7 W47541 MAD0545 \u2013 0705AGP 32Q 6 W47541 MAD0600 \u2013 0720AGP 32Q 1 W57541 MAD0645 \u2013 0805AGP 32Q 24 W475",
+   "kind": "item",
+   "source": "AeroRoutes schedule filings",
+   "source_id": "aeroroutes",
+   "tier": 2,
+   "country": "GLOBAL",
+   "category": "aviation-tracker",
+   "segments": [
+    "city",
+    "bush",
+    "beach"
+   ],
+   "first_seen": "2026-11-03T13:59+03:00",
+   "published": "2026-11-03",
+   "verdict": "CONSIDER"
+  },
+  {
+   "score": 83.0,
+   "components": {
+    "tier": 20,
+    "category": 14,
+    "lead": 8.4,
+    "relevance": 20,
+    "freshness": 10.6,
+    "corroborated": 10
+   },
+   "keywords": [
+    "vat",
+    "route",
+    "flight"
+   ],
+   "shock_terms": [],
+   "dedupe_match": null,
+   "dedupe_similarity": 0.2,
+   "id": "da3b538634dd",
+   "title": "Saudia Removes Planned Jeddah \u2013 Delhi NW26 Flight Increases",
+   "url": "https://www.aeroroutes.com/eng/261102-svnw26del",
+   "summary": "Published at 2300OCT 02NOV26 / 0600GMT 03NOV26 Saudia in recent schedule update removed planned service increase on Jeddah \u2013 Delhi route, despite additional flights never opened for reservations. The Skyteam member will maintain 9 weekly flights with 777-300ER during Northern winter 2026/27 season. SV756 JED0215 \u2013 0945DEL 777 x246 SV758 JED1055 \u2013 1825DEL 777 x24 SV757 DEL1125 \u2013 1500JED 777 x246 SV",
+   "kind": "item",
+   "source": "AeroRoutes schedule filings",
+   "source_id": "aeroroutes",
+   "tier": 2,
+   "country": "GLOBAL",
+   "category": "aviation-tracker",
+   "segments": [
+    "city",
+    "bush",
+    "beach"
+   ],
+   "first_seen": "2026-11-03T13:59+03:00",
+   "published": "2026-11-03",
+   "verdict": "CONSIDER"
+  },
+  {
+   "score": 83.0,
+   "components": {
+    "tier": 40,
+    "category": 24,
+    "lead": 2.4,
+    "relevance": 12,
+    "freshness": 10.6,
+    "undated": -6
+   },
+   "keywords": [
+    "ebola"
+   ],
+   "shock_terms": [],
+   "dedupe_match": null,
+   "dedupe_similarity": 0.22,
+   "id": "8090c9a28231",
+   "title": "Emergency 3 November 2026 | Feature Story Taking care of others despite fear: a doctor facing Ebola",
+   "url": "https://www.afro.who.int/countries/democratic-republic-of-congo/news/taking-care-others-despite-fear-doctor-facing-ebola",
+   "summary": "",
+   "kind": "item",
+   "source": "WHO AFRO \u2014 Kenya country newsroom",
+   "source_id": "who-afro-kenya",
+   "tier": 1,
+   "country": "KE",
+   "category": "health",
+   "segments": [
+    "bush",
+    "city",
+    "beach"
+   ],
+   "first_seen": "2026-11-03T13:57+03:00",
+   "published": null,
+   "verdict": "CONSIDER"
+  },
+  {
+   "score": 83.0,
+   "components": {
+    "tier": 40,
+    "category": 24,
+    "lead": 2.4,
+    "relevance": 12,
+    "freshness": 10.6,
+    "undated": -6
+   },
+   "keywords": [
+    "ebola"
+   ],
+   "shock_terms": [],
+   "dedupe_match": null,
+   "dedupe_similarity": 0.22,
+   "id": "5009f4605e05",
+   "title": "Emergency 3 November 2026 | Feature Story Taking care of others despite fear: a doctor facing Ebola",
+   "url": "https://www.afro.who.int/countries/democratic-republic-of-congo/news/taking-care-others-despite-fear-doctor-facing-ebola",
+   "summary": "",
+   "kind": "item",
+   "source": "WHO AFRO \u2014 Rwanda country newsroom",
+   "source_id": "who-afro-rwanda",
+   "tier": 1,
+   "country": "RW",
+   "category": "health",
+   "segments": [
+    "bush",
+    "city",
+    "beach"
+   ],
+   "first_seen": "2026-11-03T13:57+03:00",
+   "published": null,
+   "verdict": "CONSIDER"
+  },
+  {
+   "score": 83.0,
+   "components": {
+    "tier": 40,
+    "category": 24,
+    "lead": 2.4,
+    "relevance": 12,
+    "freshness": 10.6,
+    "undated": -6
+   },
+   "keywords": [
+    "ebola"
+   ],
+   "shock_terms": [],
+   "dedupe_match": null,
+   "dedupe_similarity": 0.22,
+   "id": "1cf5a08cc1f0",
+   "title": "Emergency 3 November 2026 | Feature Story Taking care of others despite fear: a doctor facing Ebola",
+   "url": "https://www.afro.who.int/countries/democratic-republic-of-congo/news/taking-care-others-despite-fear-doctor-facing-ebola",
+   "summary": "",
+   "kind": "item",
+   "source": "WHO AFRO \u2014 Uganda country newsroom",
+   "source_id": "who-afro-uganda",
+   "tier": 1,
+   "country": "UG",
+   "category": "health",
+   "segments": [
+    "bush",
+    "city",
+    "beach"
+   ],
+   "first_seen": "2026-11-03T13:57+03:00",
+   "published": null,
+   "verdict": "CONSIDER"
+  },
+  {
+   "score": 82.8,
+   "components": {
+    "tier": 20,
+    "category": 5,
+    "lead": 2.4,
+    "relevance": 28,
+    "freshness": 17.4,
+    "corroborated": 10
+   },
+   "keywords": [
+    "occupancy",
+    "adr",
+    "revpar",
+    "hotel"
+   ],
+   "shock_terms": [],
+   "dedupe_match": null,
+   "dedupe_similarity": 0.12,
+   "id": "1f8191a7b07a",
+   "title": "RoomPriceGenie launches Portfolio Calendar to give hotel groups clearer control of revenue performance",
+   "url": "https://www.hospitalitynet.org/news/4135249/roompricegenie-launches-portfolio-calendar-to-give-hotel-groups-clearer-control-of-revenue-performance",
+   "summary": "RoomPriceGenie's Portfolio Calendar gives multi-property hotel groups a single dashboard view of occupancy, ADR, RevPAR, and pricing across all properties to streamline revenue oversight.",
+   "kind": "item",
+   "source": "Hospitality Net: Africa openings",
+   "source_id": "dev-hospitalitynet-openings",
+   "tier": 2,
+   "country": "AFRICA",
+   "category": "trade",
+   "segments": [
+    "city",
+    "bush",
+    "beach"
+   ],
+   "first_seen": "2026-11-03T20:06+03:00",
+   "published": "2026-11-03",
+   "verdict": "CONSIDER"
+  },
+  {
+   "score": 82.6,
+   "components": {
+    "tier": 20,
+    "category": 14,
+    "lead": 8.4,
+    "relevance": 28,
+    "freshness": 2.2,
+    "corroborated": 10
+   },
+   "keywords": [
+    "route",
+    "frequency",
+    "seat",
+    "airline"
+   ],
+   "shock_terms": [],
+   "dedupe_match": null,
+   "dedupe_similarity": 0.08,
+   "id": "fb1667b7e07e",
+   "title": "IndiGo NW26 Mumbai \u2013 Denpasar Service Changes \u2013 01NOV26",
+   "url": "https://www.aeroroutes.com/eng/261102-6enw26bomdps",
+   "summary": "Published at 1900PCT 02NOV26 / 0200GMT 03NOV26 Indian low-cost carrier IndiGo since last month switched operational aircraft on Mumbai \u2013 Denpasar route (Eastbound via Chennai). Since 01OCT26, the airline has been operating 220-seater Airbus A321neo, instead of A320neo. Operational frequency for the period of 01OCT26 \u2013 31DEC26 has been reduced from 7 to 6 weekly. 6E1511 BOM0610 \u2013 0820MAA0900 \u2013 1750",
+   "kind": "item",
+   "source": "AeroRoutes schedule filings",
+   "source_id": "aeroroutes",
+   "tier": 2,
+   "country": "GLOBAL",
+   "category": "aviation-tracker",
+   "segments": [
+    "city",
+    "bush",
+    "beach"
+   ],
+   "first_seen": "2026-11-03T06:21+03:00",
+   "published": "2026-11-03",
+   "verdict": "CONSIDER"
+  },
+  {
+   "score": 81.8,
+   "components": {
+    "tier": 20,
+    "category": 14,
+    "lead": 8.4,
+    "relevance": 12,
+    "freshness": 17.4,
+    "corroborated": 10
+   },
+   "keywords": [
+    "route",
+    "airline"
+   ],
+   "shock_terms": [],
+   "dedupe_match": null,
+   "dedupe_similarity": 0.13,
+   "id": "d203b0aed564",
+   "title": "Southwind Adds Istanbul \u2013 St. Petersburg From Nov 2026",
+   "url": "https://www.aeroroutes.com/eng/261103-2snov26led",
+   "summary": "Published at 0800PCT / 1500GMT 03NOV26 Southwind Airlines during Northern winter 2026/27 season plans to add Istanbul \u2013 St. Petersburg route, on board Boeing 737 MAX 8 aircraft. The airline plans to serve this route on daily basis from 09NOV26. 2S117 IST1000 \u2013 1340LED 7M8 D 2S118 LED1440 \u2013 1835IST 7M8 D",
+   "kind": "item",
+   "source": "AeroRoutes schedule filings",
+   "source_id": "aeroroutes",
+   "tier": 2,
+   "country": "GLOBAL",
+   "category": "aviation-tracker",
+   "segments": [
+    "city",
+    "bush",
+    "beach"
+   ],
+   "first_seen": "2026-11-03T20:06+03:00",
+   "published": "2026-11-03",
+   "verdict": "CONSIDER"
+  },
+  {
+   "score": 81.8,
+   "components": {
+    "tier": 20,
+    "category": 14,
+    "lead": 8.4,
+    "relevance": 12,
+    "freshness": 17.4,
+    "corroborated": 10
+   },
+   "keywords": [
+    "route",
+    "airline"
+   ],
+   "shock_terms": [],
+   "dedupe_match": null,
+   "dedupe_similarity": 0.17,
+   "id": "b57a16d1c585",
+   "title": "flydubai Plans Skopje Launch in April 2027",
+   "url": "https://www.aeroroutes.com/eng/261103-fzns27skp",
+   "summary": "Published at 0600PCT / 1300GMT 03NOV26 flydubai during Northern summer 2027 season plans to launch service to Macedonia, where the airline launches Dubai \u2013 Skopje route. The airline\u2019s 737 MAX 8 aircraft to serve this route 3 times per week from 01APR27. FZ1763 DXB0955 \u2013 1330SKP 7M8 146 FZ1764 SKP1430 \u2013 2145DXB 7M8 146",
+   "kind": "item",
+   "source": "AeroRoutes schedule filings",
+   "source_id": "aeroroutes",
+   "tier": 2,
+   "country": "GLOBAL",
+   "category": "aviation-tracker",
+   "segments": [
+    "city",
+    "bush",
+    "beach"
+   ],
+   "first_seen": "2026-11-03T20:06+03:00",
+   "published": "2026-11-03",
+   "verdict": "CONSIDER"
+  },
+  {
+   "score": 81.8,
+   "components": {
+    "tier": 40,
+    "category": 12,
+    "lead": 2.4,
+    "relevance": 0,
+    "freshness": 17.4,
+    "corroborated": 10
+   },
+   "keywords": [],
+   "shock_terms": [],
+   "dedupe_match": null,
+   "dedupe_similarity": 0.25,
+   "id": "02fc1b526fd5",
+   "title": "Kenya Financial Sector Stability Report 2025",
+   "url": "https://www.centralbank.go.ke/2026/11/03/kenya-financial-sector-stability-report-2025",
+   "summary": "",
+   "kind": "item",
+   "source": "Central Bank of Kenya press releases",
+   "source_id": "ke-cbk-press",
+   "tier": 1,
+   "country": "KE",
+   "category": "central-bank",
+   "segments": [
+    "city",
+    "bush",
+    "beach"
+   ],
+   "first_seen": "2026-11-03T20:06+03:00",
+   "published": "2026-11-03",
+   "verdict": "CONSIDER"
+  },
+  {
+   "score": 81.0,
    "components": {
     "tier": 40,
     "category": 12,
     "lead": 3.6,
     "relevance": 4,
-    "freshness": 13.8,
+    "freshness": 11.4,
     "corroborated": 10
    },
    "keywords": [
@@ -1112,13 +1145,51 @@
    "verdict": "CONSIDER"
   },
   {
-   "score": 82.2,
+   "score": 79.8,
+   "components": {
+    "tier": 20,
+    "category": 4,
+    "lead": 0.0,
+    "relevance": 8,
+    "freshness": 19.8,
+    "corroborated": 10,
+    "shock": 18
+   },
+   "keywords": [
+    "strike"
+   ],
+   "shock_terms": [
+    "strike"
+   ],
+   "dedupe_match": null,
+   "dedupe_similarity": 0.0,
+   "id": "682d45240483",
+   "title": "Tenerife striker De Miguel dies after collision in match",
+   "url": "https://www.monitor.co.ug/uganda/sports/soccer/tenerife-striker-de-miguel-dies-after-collision-in-match-5656920",
+   "summary": "Spanish football federation postpones all games on Tuesday",
+   "kind": "item",
+   "source": "Daily Monitor (Uganda)",
+   "source_id": "np-monitor-ug",
+   "tier": 2,
+   "country": "UG",
+   "category": "press",
+   "segments": [
+    "city",
+    "bush",
+    "beach"
+   ],
+   "first_seen": "2026-11-03T22:16+03:00",
+   "published": "2026-11-03",
+   "verdict": "CONSIDER"
+  },
+  {
+   "score": 79.8,
    "components": {
     "tier": 20,
     "category": 4,
     "lead": 2.4,
     "relevance": 8,
-    "freshness": 19.8,
+    "freshness": 17.4,
     "corroborated": 10,
     "shock": 18
    },
@@ -1150,13 +1221,13 @@
    "verdict": "CONSIDER"
   },
   {
-   "score": 81.6,
+   "score": 79.2,
    "components": {
     "tier": 40,
     "category": 17,
     "lead": 16.8,
     "relevance": 0,
-    "freshness": 13.8,
+    "freshness": 11.4,
     "undated": -6
    },
    "keywords": [],
@@ -1183,13 +1254,13 @@
    "verdict": "CONSIDER"
   },
   {
-   "score": 81.0,
+   "score": 78.6,
    "components": {
     "tier": 20,
     "category": 14,
     "lead": 8.4,
     "relevance": 24,
-    "freshness": 4.6,
+    "freshness": 2.2,
     "corroborated": 10
    },
    "keywords": [
@@ -1221,13 +1292,13 @@
    "verdict": "CONSIDER"
   },
   {
-   "score": 80.2,
+   "score": 77.8,
    "components": {
     "tier": 20,
     "category": 14,
     "lead": 8.4,
     "relevance": 8,
-    "freshness": 19.8,
+    "freshness": 17.4,
     "corroborated": 10
    },
    "keywords": [
@@ -1256,13 +1327,13 @@
    "verdict": "CONSIDER"
   },
   {
-   "score": 80.2,
+   "score": 77.8,
    "components": {
     "tier": 20,
     "category": 14,
     "lead": 8.4,
     "relevance": 8,
-    "freshness": 19.8,
+    "freshness": 17.4,
     "corroborated": 10
    },
    "keywords": [
@@ -1287,42 +1358,6 @@
     "beach"
    ],
    "first_seen": "2026-11-03T20:06+03:00",
-   "published": "2026-11-03",
-   "verdict": "CONSIDER"
-  },
-  {
-   "score": 77.4,
-   "components": {
-    "tier": 20,
-    "category": 14,
-    "lead": 8.4,
-    "relevance": 12,
-    "freshness": 13.0,
-    "corroborated": 10
-   },
-   "keywords": [
-    "route",
-    "airline"
-   ],
-   "shock_terms": [],
-   "dedupe_match": null,
-   "dedupe_similarity": 0.11,
-   "id": "dcde2b3dd341",
-   "title": "El Al Nov 2026 East Midlands Operations",
-   "url": "https://www.aeroroutes.com/eng/261102-lynov26ema",
-   "summary": "Published at 2030PCT 02NOV26 / 0330GMT 03NOV26 El Al Israel Airlines in November 2026 schedules limited time service on Tel Aviv \u2013 East Midlands route, on board Boeing 737-800. Planned schedule as follows. LY197 TLV1000 \u2013 1335EMA 738 03NOV26 / 09NOV26 LY198 EMA1200 \u2013 1900TLV 738 10NOV26 / 16NOV26",
-   "kind": "item",
-   "source": "AeroRoutes schedule filings",
-   "source_id": "aeroroutes",
-   "tier": 2,
-   "country": "GLOBAL",
-   "category": "aviation-tracker",
-   "segments": [
-    "city",
-    "bush",
-    "beach"
-   ],
-   "first_seen": "2026-11-03T13:59+03:00",
    "published": "2026-11-03",
    "verdict": "CONSIDER"
   },
@@ -1365,75 +1400,36 @@
    "verdict": "CONSIDER"
   },
   {
-   "score": 76.2,
+   "score": 75.8,
    "components": {
-    "tier": 20,
-    "category": 14,
-    "lead": 8.4,
-    "relevance": 4,
-    "freshness": 19.8,
+    "tier": 40,
+    "category": 9,
+    "lead": 16.8,
+    "relevance": 0,
+    "freshness": 0.0,
     "corroborated": 10
    },
-   "keywords": [
-    "airline"
-   ],
+   "keywords": [],
    "shock_terms": [],
    "dedupe_match": null,
    "dedupe_similarity": 0.07,
-   "id": "d001fd712115",
-   "title": "SunExpress Plans Damascus Nov 2026 Launch",
-   "url": "https://www.aeroroutes.com/eng/261103-xqnov26dam",
-   "summary": "Published at 1000PCT / 1700GMT 03NOV26 SunExpress this month plans to expand service to Syria, with the launch of Damascus service. The airline previously planned to launch Damascus service in March 2026. Antalya \u2013 Damascus eff 12NOV26 3 weekly 737-800 (Previous: eff 07MAR26) XQ204 AYT2325 \u2013 0105+1DAM 73H 246 XQ205 DAM0305 \u2013 0450AYT 73H 357 Izmir \u2013 Damascus eff 13NOV26 3 weekly 737-800 (Previous: ",
+   "id": "d8a2fb39ef82",
+   "title": "Hilton Introduces High Performance Meetings, Placing Wellness at the Forefront of the Event Experience",
+   "url": "https://stories.hilton.com/releases/hilton-introduces-high-performance-meetings",
+   "summary": "MCLEAN, Va. \u2013 Hilton (NYSE: HLT) today announced the launch of High Performance Meetings, a new wellness-focused framework designed to help meeting and event attendees arrive focused, stay energized and return home ready to apply what they\u2019ve learned. Developed in partnership with TIGNUM, a consulting firm specializing in sustainable human performance, the science-backed approach incorporates mind",
    "kind": "item",
-   "source": "AeroRoutes schedule filings",
-   "source_id": "aeroroutes",
-   "tier": 2,
+   "source": "Hilton stories/newsroom",
+   "source_id": "dev-hilton",
+   "tier": 1,
    "country": "GLOBAL",
-   "category": "aviation-tracker",
+   "category": "hotel-group",
    "segments": [
     "city",
     "bush",
     "beach"
    ],
-   "first_seen": "2026-11-03T20:06+03:00",
-   "published": "2026-11-03",
-   "verdict": "CONSIDER"
-  },
-  {
-   "score": 76.2,
-   "components": {
-    "tier": 20,
-    "category": 4,
-    "lead": 2.4,
-    "relevance": 20,
-    "freshness": 19.8,
-    "corroborated": 10
-   },
-   "keywords": [
-    "fee",
-    "fuel",
-    "pipeline"
-   ],
-   "shock_terms": [],
-   "dedupe_match": null,
-   "dedupe_similarity": 0.2,
-   "id": "b2c85d7b47c8",
-   "title": "Police Launch Probe After KPC Foils Fuel Theft Attempt Through Illegal Pipeline Connection",
-   "url": "https://www.kenyans.co.ke/news/129107-kpc-foils-attempted-fuel-theft-through-illegal-pipeline-connection-mombasa",
-   "summary": "The development comes amid fuel shortage fears and high pump prices, with motorists already feeling the pinch, raising concerns over the security of the country's petroleum infrastructure.",
-   "kind": "item",
-   "source": "Kenyans.co.ke news",
-   "source_id": "ke-kenyans",
-   "tier": 2,
-   "country": "KE",
-   "category": "press",
-   "segments": [
-    "city",
-    "bush",
-    "beach"
-   ],
-   "first_seen": "2026-11-03T20:06+03:00",
-   "published": "2026-11-03",
+   "first_seen": "2026-11-03T02:08+03:00",
+   "published": "2026-11-02",
    "verdict": "CONSIDER"
   }
  ]
