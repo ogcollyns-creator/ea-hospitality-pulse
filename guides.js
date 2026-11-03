@@ -1,5 +1,14 @@
 window.GUIDES = [
  {
+  "slug": "package-travel-supplier-refund-east-africa",
+  "title": "Europe put a clock on the money your lodge pays back. Nobody set one on the money it is owed.",
+  "description": "A statutory instrument laid in Westminster and a directive signed in Brussels have both written a refund deadline into the supplier's side of the package holiday contract, 14 days in Britain from April 2027 and seven days under EU law. Neither says a word about when the supplier gets paid in the first place. East Africa is signing the contracts that cross those dates right now.",
+  "category": "Big Read",
+  "updated": "2026-11-03",
+  "readMins": 8,
+  "image": "img/editions/package-travel-supplier-refund-east-africa.jpg"
+ },
+ {
   "slug": "wtm-london-2026-east-africa-cost-of-the-room",
   "title": "East Africa sells 2027 in three days at ExCeL. The hard part is getting into the room.",
   "description": "World Travel Market opens in London on Tuesday with Africa back on the main exhibition floor and eight East African businesses sharing one association stand. A year ago, 12 of the 14 Ugandan operators who had paid for space were refused UK visas, and no regional board has yet published what it spends to be in that building or what it brings home.",
