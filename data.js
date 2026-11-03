@@ -1,5 +1,14 @@
 window.EDITIONS = [
  {
+  "id": "pulse-2026-11-03-evening",
+  "date": "2026-11-03",
+  "dateDisplay": "Tuesday, 3 November 2026",
+  "edition": "Evening Wrap",
+  "editionKey": "evening",
+  "summary": "Kenya's Ebola count stands at nine cases, two deaths and two patients still in treatment",
+  "bodyHtml": "<p><strong>Kenya discharged five Ebola patients and released 46 more contacts on 3 November, with no new case since 19 October</strong><br><em>🌆 Evening Wrap · Tue 3 Nov 2026</em></p>\n<p>━━━━━━━━━<br><span class=\"item-head\">1️⃣ Kenya&#x27;s Ebola count stands at nine cases, two deaths and two patients still in treatment</span></p>\n<p><strong>What happened.</strong> Five men, two at Kenyatta National Hospital and three at The Nairobi Hospital, tested negative and went home on 3 November. Kenya has recorded nine confirmed cases and two deaths (22.2%), all in one cluster linked to the first imported case, with no new infection since 19 October. Another 46 contacts left quarantine today, making 66 released; 52 remain and are due out by 11 November <strong>(KBC, 3 Nov; The Standard, 3 Nov; Reuters via TimesLIVE, 3 Nov)</strong>.<br>The 42-day countdown starts only when the last patient has recovered or been buried; travel, trade and gatherings stay unrestricted <strong>(KBC, 3 Nov)</strong>.<br>Our inference: two patients remain in hospital, so the clock has not started. If both left by 11 November, the earliest end date would be about 23 December.</p>\n<p><span class=\"sowhat\">🎯 So what: keep &quot;Ebola-free&quot; out of your marketing until the Ministry declares it, and quote its figures to anxious bookers.</span><br><span class=\"tagline\">🏷 City, Bush, Beach | Kenya | Confirmed | impact:risk</span></p>\n<p><span class=\"item-head\">2️⃣ Kenya&#x27;s Health Ministry confirmed Saudi Arabia and Kuwait have imposed travel measures on Kenya</span></p>\n<p><strong>What happened.</strong> The Ministry&#x27;s 3 November statement says Saudi Arabia and Kuwait have announced measures on travel to and from Kenya and that it has asked for their justification <strong>(KBC, 3 Nov)</strong>. Saudi Arabia&#x27;s order, announced on 30 October, bars Saudi citizens from travelling to Kenya, suspends every visa type for travellers from Kenya and refuses entry to anyone arriving from Kenya, including via a third country if they were in Kenya in the previous 21 days <strong>(Khaleej Times, 30 Oct)</strong>. We missed it on 31 October. Kuwait&#x27;s terms and any effective date were not stated.</p>\n<p><span class=\"sowhat\">🎯 So what: if you hold Saudi or Kuwaiti bookings, ask each guest now whether they can still travel, and agree date changes rather than refunds where you can.</span><br><span class=\"tagline\">🏷 City, Beach | Kenya | Confirmed | impact:demand</span></p>\n<p><span class=\"item-head\">3️⃣ Tanzania&#x27;s Health Ministry and WHO assessed Ebola readiness in Ruvuma, with no case reported</span></p>\n<p><strong>What happened.</strong> The Ministry, TAMISEMI and WHO reviewed infection-control capacity at hospitals in Ruvuma Region on 3 November. The article reports no confirmed or suspected Ebola case in Tanzania. Teams will visit other regions near international borders <strong>(Daily News Tanzania, 3 Nov)</strong>. Ruvuma is far south of the northern safari circuit.<br><span class=\"sowhat\">🎯 So what: no entry rule has changed; expect health-team visits in border regions.</span><br><span class=\"tagline\">🏷 Bush | Tanzania | Reported | impact:watch</span></p>\n<p><strong>🏗 DEAL FLOW:</strong> No verified EA deal flow dated 2–3 Nov.</p>\n<p><strong>📻 ALSO TONIGHT</strong><br>🇪🇹 3 Nov: The National Bank of Ethiopia&#x27;s MPC (meeting 8) kept its policy rate at 16%; the next meeting is end-January 2027. We omit its inflation figures: the 9% headline does not square with its 14.8% food and 15.1% non-food rates <strong>(NBE, 3 Nov)</strong>.<br>🇺🇸 3 Nov: The US no-DRC passenger declaration starts today for flights from Nairobi, Entebbe and Kigali; we have not seen how it ran.</p>\n<p><strong>⏳ CATCHING UP</strong> 🇸🇦 30 Oct: Saudi Arabia&#x27;s Kenya entry and visa ban, item 2.</p>\n<p><strong>📅 WEEK AHEAD</strong> 11 Nov: last 52 Kenyan contacts due out. 14 Nov: EPRA fuel review. 18 Nov: Uganda Airlines to Kigali.</p>\n<p><strong>🔍 BLIND SPOTS</strong> Web-scanned only, primary pages not opened: all government advisories, WHO DON, Africa CDC, Uganda dashboard, the four gazettes, TIRA, KCAA, UWA, TANAPA, NCAA, central banks, OCGS, ZRB and the Tier C rotation. Competitor sites carry no story dates. A thin night, not a quiet one.</p>\n<p>🔗 This edition on the web: <a href=\"https://eahospitalitypulse.com/editions/pulse-2026-11-03-evening.html\" rel=\"noopener\">eahospitalitypulse.com/editions/pulse-2026-11-03-evenin…</a></p>"
+ },
+ {
   "id": "pulse-2026-11-02-evening",
   "date": "2026-11-02",
   "dateDisplay": "Monday, 2 November 2026",
@@ -1360,6 +1369,66 @@ window.EDITIONS = [
  }
 ];
 window.INSIGHTS = [
+ {
+  "headline": "Kenya's Ebola count stands at nine cases, two deaths and two patients still in treatment",
+  "body": "**What happened.** Five men, two at Kenyatta National Hospital and three at The Nairobi Hospital, tested negative and went home on 3 November. Kenya has recorded nine confirmed cases and two deaths (22.2%), all in one cluster linked to the first imported case, with no new infection since 19 October. Another 46 contacts left quarantine today, making 66 released; 52 remain and are due out by 11 November *(KBC, 3 Nov; The Standard, 3 Nov; Reuters via TimesLIVE, 3 Nov)*. The 42-day countdown starts only when the last patient has recovered or been buried; travel, trade and gatherings stay unrestricted *(KBC, 3 Nov)*. Our inference: two patients remain in hospital, so the clock has not started. If both left by 11 November, the earliest end date would be about 23 December.",
+  "sowhat": "🎯 So what: keep \"Ebola-free\" out of your marketing until the Ministry declares it, and quote its figures to anxious bookers.",
+  "segments": [
+   "city",
+   "bush",
+   "beach"
+  ],
+  "countries": "Kenya",
+  "confidence": "Confirmed",
+  "impact": "risk",
+  "impactClass": "risk",
+  "intensity": 3,
+  "impactSet": "author",
+  "source": "pulse-2026-11-03-evening",
+  "date": "2026-11-03",
+  "dateDisplay": "Tuesday, 3 November 2026",
+  "edition": "Evening Wrap",
+  "editionKey": "evening"
+ },
+ {
+  "headline": "Kenya's Health Ministry confirmed Saudi Arabia and Kuwait have imposed travel measures on Kenya",
+  "body": "**What happened.** The Ministry's 3 November statement says Saudi Arabia and Kuwait have announced measures on travel to and from Kenya and that it has asked for their justification *(KBC, 3 Nov)*. Saudi Arabia's order, announced on 30 October, bars Saudi citizens from travelling to Kenya, suspends every visa type for travellers from Kenya and refuses entry to anyone arriving from Kenya, including via a third country if they were in Kenya in the previous 21 days *(Khaleej Times, 30 Oct)*. We missed it on 31 October. Kuwait's terms and any effective date were not stated.",
+  "sowhat": "🎯 So what: if you hold Saudi or Kuwaiti bookings, ask each guest now whether they can still travel, and agree date changes rather than refunds where you can.",
+  "segments": [
+   "city",
+   "beach"
+  ],
+  "countries": "Kenya",
+  "confidence": "Confirmed",
+  "impact": "+demand",
+  "impactClass": "demand",
+  "intensity": 3,
+  "impactSet": "author",
+  "source": "pulse-2026-11-03-evening",
+  "date": "2026-11-03",
+  "dateDisplay": "Tuesday, 3 November 2026",
+  "edition": "Evening Wrap",
+  "editionKey": "evening"
+ },
+ {
+  "headline": "Tanzania's Health Ministry and WHO assessed Ebola readiness in Ruvuma, with no case reported",
+  "body": "**What happened.** The Ministry, TAMISEMI and WHO reviewed infection-control capacity at hospitals in Ruvuma Region on 3 November. The article reports no confirmed or suspected Ebola case in Tanzania. Teams will visit other regions near international borders *(Daily News Tanzania, 3 Nov)*. Ruvuma is far south of the northern safari circuit.",
+  "sowhat": "🎯 So what: no entry rule has changed; expect health-team visits in border regions.",
+  "segments": [
+   "bush"
+  ],
+  "countries": "Tanzania",
+  "confidence": "Reported",
+  "impact": "watch",
+  "impactClass": "watch",
+  "intensity": 2,
+  "impactSet": "author",
+  "source": "pulse-2026-11-03-evening",
+  "date": "2026-11-03",
+  "dateDisplay": "Tuesday, 3 November 2026",
+  "edition": "Evening Wrap",
+  "editionKey": "evening"
+ },
  {
   "headline": "Uganda bought itself a seat at the 2027 AFCON, and the hotel work starts with packages",
   "body": "**What happened.** The Uganda Tourism Board signed an official destination sponsorship agreement with the Confederation of African Football at the Kampala Marriott on Friday 30 October. \"Explore Uganda – The Pearl of Africa\" will run on AFCON broadcasts, digital content and in-stadium advertising. UTB is the first regional sponsor named for the tournament, which Uganda co-hosts with Kenya and Tanzania in June 2027, the first three-nation AFCON *(New Vision, 31 Oct)*. **What was not said.** The article gives no hotel figures, occupancy targets or booking projections. UTB plans match-plus-wildlife, culture and food packages and a \"HERE FOR IT\" campaign \"in the coming weeks\"; the State Minister for Tourism told operators to build competitive packages; the Deputy Speaker called for investment in accommodation, transport and security *(New Vision, 31 Oct)*. Our inference: the sponsorship buys visibility, not rooms. Only operators with a priced package can convert it.",
@@ -8080,4 +8149,4 @@ window.INSIGHTS = [
   "editionKey": "evening"
  }
 ];
-window.BUILT_AT = "2026-11-03 06:15";
+window.BUILT_AT = "2026-11-03 16:07";

@@ -1,14 +1,14 @@
 window.LEDGER = {
- "updated": "2026-11-03 06:16",
+ "updated": "2026-11-03 16:08",
  "stats": {
-  "total": 251,
-  "open": 164,
-  "resolved": 85,
+  "total": 253,
+  "open": 165,
+  "resolved": 86,
   "correct": 65,
   "partial": 1,
-  "incorrect": 19,
+  "incorrect": 20,
   "void": 2,
-  "accuracy": 77
+  "accuracy": 76
  },
  "open": [
   {
@@ -428,22 +428,6 @@ window.LEDGER = {
    "overdue": true
   },
   {
-   "id": "P236",
-   "made_date": "2026-10-19",
-   "edition": "pulse-2026-10-19-evening",
-   "claim": "Kenya will report more than 10 confirmed Ebola cases in total by 31 Oct 2026 - the count was 8 on 18 Oct after rising four times between 14 and 18 Oct",
-   "resolution_criteria": "Kenya Ministry of Health or WHO AFRO situation statement dated on or before 31 Oct 2026 showing cumulative confirmed Kenyan cases of 11 or more resolves CORRECT; a count of 10 or fewer resolves INCORRECT",
-   "resolve_by": "2026-10-31",
-   "market": "Kenya",
-   "segment": "City|Bush|Beach",
-   "confidence": "Low",
-   "status": "open",
-   "resolved_date": "",
-   "evidence": "",
-   "source_url": "https://www.kenyans.co.ke/news/127939-kenya-confirms-8th-ebola-case-nairobi-hospital-patient-attendant-tests-positive",
-   "overdue": true
-  },
-  {
    "id": "P238",
    "made_date": "2026-10-20",
    "edition": "pulse-2026-10-20-evening",
@@ -581,6 +565,22 @@ window.LEDGER = {
    "market": "KE",
    "segment": "Beach/City",
    "confidence": "Reported",
+   "status": "open",
+   "resolved_date": "",
+   "evidence": "",
+   "source_url": "",
+   "overdue": false
+  },
+  {
+   "id": "P253",
+   "made_date": "2026-11-03",
+   "edition": "pulse-2026-11-03-evening",
+   "claim": "All 52 Kenyan Ebola contacts still in quarantine on 3 Nov will be released by 14 Nov with no new confirmed Kenyan case",
+   "resolution_criteria": "Kenya MoH statement or Kenyan press (KBC,The Standard,Capital FM) dated by 14 Nov 2026 confirming release of the remaining contacts and cumulative confirmed cases still at 9; any new confirmed case resolves INCORRECT",
+   "resolve_by": "2026-11-14",
+   "market": "Kenya",
+   "segment": "City|Bush|Beach",
+   "confidence": "medium",
    "status": "open",
    "resolved_date": "",
    "evidence": "",
@@ -1605,6 +1605,22 @@ window.LEDGER = {
    "market": "TZ",
    "segment": "Bush/Beach",
    "confidence": "Reported",
+   "status": "open",
+   "resolved_date": "",
+   "evidence": "",
+   "source_url": "",
+   "overdue": false
+  },
+  {
+   "id": "P252",
+   "made_date": "2026-11-03",
+   "edition": "pulse-2026-11-03-evening",
+   "claim": "Kenya will not be declared Ebola-free (outbreak over) by the Ministry of Health before 31 December 2026: two patients were still in hospital on 3 Nov and the 42-day clock starts only after the last is discharged",
+   "resolution_criteria": "Kenya MoH or WHO statement dated on or before 31 Dec 2026 declaring the Kenyan Ebola outbreak over resolves INCORRECT; no such declaration by that date resolves CORRECT",
+   "resolve_by": "2026-12-31",
+   "market": "Kenya",
+   "segment": "City|Bush|Beach",
+   "confidence": "medium",
    "status": "open",
    "resolved_date": "",
    "evidence": "",
@@ -2637,6 +2653,22 @@ window.LEDGER = {
   }
  ],
  "resolved": [
+  {
+   "id": "P236",
+   "made_date": "2026-10-19",
+   "edition": "pulse-2026-10-19-evening",
+   "claim": "Kenya will report more than 10 confirmed Ebola cases in total by 31 Oct 2026 - the count was 8 on 18 Oct after rising four times between 14 and 18 Oct",
+   "resolution_criteria": "Kenya Ministry of Health or WHO AFRO situation statement dated on or before 31 Oct 2026 showing cumulative confirmed Kenyan cases of 11 or more resolves CORRECT; a count of 10 or fewer resolves INCORRECT",
+   "resolve_by": "2026-10-31",
+   "market": "Kenya",
+   "segment": "City|Bush|Beach",
+   "confidence": "Low",
+   "status": "incorrect",
+   "resolved_date": "2026-11-03",
+   "evidence": "Kenya MoH figures reported 3 Nov 2026 show 9 confirmed cases in total (no new infection since 19 Oct); the 11-or-more test was not met.",
+   "source_url": "https://www.kbc.co.ke/government-discharges-five-ebola-patients-as-46-contacts-exit-quarantine/",
+   "overdue": false
+  },
   {
    "id": "P041",
    "made_date": "2026-07-31",
