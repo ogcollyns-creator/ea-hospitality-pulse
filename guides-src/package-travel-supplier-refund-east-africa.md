@@ -4,8 +4,9 @@ slug: package-travel-supplier-refund-east-africa
 description: A statutory instrument laid in Westminster and a directive signed in Brussels have both written a refund deadline into the supplier's side of the package holiday contract, 14 days in Britain from April 2027 and seven days under EU law. Neither says a word about when the supplier gets paid in the first place. East Africa is signing the contracts that cross those dates right now.
 category: Big Read
 updated: 2026-11-03
+image: "img/editions/package-travel-supplier-refund-east-africa.jpg"
+image_credit: "Illustration: AI-generated for EA Hospitality Pulse — synthetic image, not a photograph. Document text is illustrative; the payment terms shown are not a reported figure."
 ---
-
 Statutory Instrument 2026 No. 455 is not a document anyone in Nairobi was waiting for. It runs through the dry business of amending the United Kingdom's Package Travel and Linked Travel Arrangements Regulations 2018, abolishes a category of booking almost nobody could define, repeals five schedules of information requirements, and makes a consequential change to the Government of Wales Act. It does not mention Africa. It does not mention safaris, or camps, or the particular problem of selling a tented room in the Mara to someone in Hamburg eight months before they arrive.
 
 It does, however, contain a new regulation 29A. The government's own guidance states the effect plainly: where a third party fails to perform a service it agreed to provide as part of a package, "the third party must refund the organiser the payments which the organiser has made to the third party within 14 days." A companion provision, regulation 29B, gives organisers what the guidance calls "an express right to seek redress from third parties" where that third party contributed to whatever triggered a payment to the traveller. The amendments commence on 6 April 2027, and the government has confirmed they do not reach contracts entered into before that date.
