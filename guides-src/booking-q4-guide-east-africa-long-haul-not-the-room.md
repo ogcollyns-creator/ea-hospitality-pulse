@@ -4,6 +4,8 @@ slug: booking-q4-guide-east-africa-long-haul-not-the-room
 description: Booking Holdings reported 7 per cent room-night growth on 3 November and told the market to expect 1 to 3 per cent in the fourth quarter, naming elevated airfares and reduced route capacity on long-haul routes as the cause. East Africa sells almost nothing but long-haul. The same month's aviation data shows African carriers adding international capacity faster than they fill it, at the lowest load factor of any region in the world.
 category: Big Read
 updated: 2026-11-04
+image: "img/editions/booking-q4-guide-east-africa-long-haul-not-the-room.jpg"
+image_credit: "Photograph: Onyango George / EA Hospitality Pulse"
 ---
 At the ExCeL centre in London on 3 November, with more than forty Kenyan trade partners working the stands around her, the chief executive of the Kenya Tourism Board was selling a number. June Chepkemei's pitch at World Travel Market was that Kenya should take 199,645 British visitors this year against 170,936 in 2025, a rise of 16.8 per cent, and that it would get there by widening the offer beyond the thing Britain already associates with the country. "Our pitch is that Kenya offers much more than the iconic safari experience," she said.
 
