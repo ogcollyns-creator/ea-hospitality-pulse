@@ -1,5 +1,14 @@
 window.GUIDES = [
  {
+  "slug": "booking-q4-guide-east-africa-long-haul-not-the-room",
+  "title": "The world's largest seller of hotel rooms guided its next quarter down to 1 per cent. It did not blame the room.",
+  "description": "Booking Holdings reported 7 per cent room-night growth on 3 November and told the market to expect 1 to 3 per cent in the fourth quarter, naming elevated airfares and reduced route capacity on long-haul routes as the cause. East Africa sells almost nothing but long-haul. The same month's aviation data shows African carriers adding international capacity faster than they fill it, at the lowest load factor of any region in the world.",
+  "category": "Big Read",
+  "updated": "2026-11-04",
+  "readMins": 8,
+  "image": "img/editions/booking-q4-guide-east-africa-long-haul-not-the-room.jpg"
+ },
+ {
   "slug": "package-travel-supplier-refund-east-africa",
   "title": "Europe put a clock on the money your lodge pays back. Nobody set one on the money it is owed.",
   "description": "A statutory instrument laid in Westminster and a directive signed in Brussels have both written a refund deadline into the supplier's side of the package holiday contract, 14 days in Britain from April 2027 and seven days under EU law. Neither says a word about when the supplier gets paid in the first place. East Africa is signing the contracts that cross those dates right now.",
