@@ -8,7 +8,7 @@
 // of real bush and beach supply — do not appear in chain pipeline data at all, so treat
 // the country totals as a floor for branded supply, not a count of everything being built.
 window.PIPELINE = {
- updated: "27 September 2026",
+ updated: "27 September 2026 [DATE NOT BUMPED in the 5 Nov tracker refresh: the W Hospitality benchmark and most project rows were not re-checked, and no brand newsroom sweep was completed. Changed that day: ADDED Mereshi Safari Camp, Serengeti, Autograph Collection (18 suites, anticipated November 2026; Hospitality Net, 12 Oct); LUX* Lake Kivu and SALT of Akagera marked OPEN since 15 June 2026 (The Lux Collective press release, primary). voco Nairobi Airport Suites (28 Sep) and Ubuyu (17 Sep) re-confirmed on the Hospitality Net Africa openings list.]",
  benchmarkNote: "W Hospitality Group, Hotel Chain Development Pipelines in Africa 2026 (published 10 March 2026). Africa-wide the pipeline reached a record 123,846 rooms across 675 properties, up 18.6% year on year. Branded chain projects only.",
  markets: [
   { country:"Kenya", flag:"🇰🇪", hotels:35, rooms:6190, avgSize:177, underConstruction:4922, ucPct:79.5,
@@ -33,6 +33,12 @@ window.PIPELINE = {
     source:"W Hospitality Group, Hotel Chain Development Pipelines in Africa 2026 (10 Mar 2026), via ENA / Capital Ethiopia / ATTA", verified:true }
  ],
  projects: [
+  { property:"Mereshi Safari Camp, Serengeti, Autograph Collection", brand:"Marriott / Autograph Collection",
+    country:"Tanzania", flag:"🇹🇿", rooms:18, status:"Opening imminent", opening:"Anticipated November 2026",
+    signed:null,
+    detail:"ADDED 5 NOV 2026. 18 elevated tented suites of 95m2 each on 55 acres near the Fort Ikoma Gate, Robanda, western Serengeti. Owner Delaware Investments; designed by Dunia Design, as was sister property Mapito Safari Camp. About 95% of materials and furnishings sourced in Tanzania; about 100 permanent jobs, over 90% held by Tanzanians. NOTE: our 4 Nov Evening Wrap described this as an opening dated 12 Oct; 12 Oct is the date of the announcement, and the camp is ANTICIPATED to open in November. We have not confirmed it has opened.",
+    impact:"Another Marriott-flagged camp in the western Serengeti puts Bonvoy points and US distribution next to independent Ikoma and Grumeti camps. Expect it in 2027 agent rate comparisons.",
+    segment:"Bush", source:"Delaware Investments via Hospitality Net, 12 Oct 2026 (updated 19 Oct)", verified:true, flagged:"watch" },
     { property:"Ubuyu, a Banyan Tree Escape", brand:"Banyan Group / Banyan Tree Escape",
     country:"Tanzania", flag:"🇹🇿", rooms:6, status:"Opened", opening:"September 2026",
     signed:null,
@@ -75,11 +81,11 @@ window.PIPELINE = {
     segment:"Beach", source:"Minor Hotels / Luxury Travel Advisor", verified:true },
 
   { property:"LUX* and SALT multi-property circuit", brand:"The Lux Collective",
-    country:"Rwanda", flag:"🇷🇼", rooms:null, status:"Signed — 5 properties", opening:"Phase 1 mid-2026; Phase 2 in 2028",
+    country:"Rwanda", flag:"🇷🇼", rooms:null, status:"Phase 1 OPEN (2 of 5); 3 more planned for 2028", opening:"LUX* Lake Kivu (14 keys) and SALT of Akagera (60 keys) launched 15 June 2026; Volcanoes, Nyungwe and Akagera developments in 2028",
     signed:"2026 (Africa CEO Forum, Kigali)",
     detail:"Partnership with Cleo Capital Group for an ultra-luxury circuit across five sites. Phase 1 rebrands Cleo Lake Kivu as LUX* Lake Kivu and Akagera Game Lodge as SALT of Akagera. Phase 2 adds LUX* Volcanoes, LUX* Nyungwe and LUX* Akagera in 2028.",
     impact:"This is a circuit, not a hotel — it lets an operator sell Rwanda as a multi-night branded itinerary rather than a gorilla-permit stopover. Kenyan and Tanzanian bush operators should read it as Rwanda moving to capture more nights per trip from the same high-value guest.",
-    segment:"Bush", source:"The Lux Collective via Hospitality Net", verified:true, flagged:"action" },
+    segment:"Bush", source:"The Lux Collective press release, 15 June 2026 (read 5 Nov 2026); earlier The Lux Collective via Hospitality Net", verified:true, flagged:"action" },
 
   { property:"Hilton Kampala (Nakasero)", brand:"Hilton",
     country:"Uganda", flag:"🇺🇬", rooms:244, status:"Management agreement signed", opening:"Not announced",

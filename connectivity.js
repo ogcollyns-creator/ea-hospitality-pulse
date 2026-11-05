@@ -5,7 +5,7 @@
 // and are what operators can actually act on. Where a monthly seat figure is published
 // by a named body (AFRAA), we carry it with that attribution.
 window.CONNECT = {
- updated: "22 September 2026 (editor refresh. First full refresh since 25 July. ADDED: AFRAA August 2026 seat capacity (JKIA 567,644, sixth in Africa; Addis 1.25m), UCAA August 2026 Entebbe international passengers (169,706, down 29.1% year on year), KNBS 2025 JKIA annual total (8.93m). ADDED ROUTE EVENTS: Jambojet NBO-EBB (1 Oct), Uganda Airlines EBB-ACC (27 Oct) and EBB-KGL (18 Nov), Ethiopian ADD-JRO-ZNZ to seven weekly (30 Nov), British Airways LGW-JRO-ZNZ (29 May 2027). CORRECTED: the Airlink row previously read 'Johannesburg to Zanzibar / Nairobi, Launching 2026'. That was wrong on both counts. Airlink has flown Johannesburg-Nairobi daily since 24 April 2023, and Johannesburg-Zanzibar launched on 3 June 2026. Carried-over rows not re-checked since 25 July are marked as such.)",
+ updated: "22 September 2026 [DATE NOT BUMPED in the 5 Nov tracker refresh: no newer AFRAA, UCAA or KAA traffic figure was found, and most route rows were not re-checked. Changed that day: Jambojet NBO-EBB now OPERATING (Citizen Digital and The Standard, 2 Oct); Uganda Airlines EBB-ACC reported LAUNCHED 27 Oct via Lagos (ATTA, 29 Oct, single source); Entebbe CDC-order note corrected to the current 10 Nov expiry.] (editor refresh. First full refresh since 25 July. ADDED: AFRAA August 2026 seat capacity (JKIA 567,644, sixth in Africa; Addis 1.25m), UCAA August 2026 Entebbe international passengers (169,706, down 29.1% year on year), KNBS 2025 JKIA annual total (8.93m). ADDED ROUTE EVENTS: Jambojet NBO-EBB (1 Oct), Uganda Airlines EBB-ACC (27 Oct) and EBB-KGL (18 Nov), Ethiopian ADD-JRO-ZNZ to seven weekly (30 Nov), British Airways LGW-JRO-ZNZ (29 May 2027). CORRECTED: the Airlink row previously read 'Johannesburg to Zanzibar / Nairobi, Launching 2026'. That was wrong on both counts. Airlink has flown Johannesburg-Nairobi daily since 24 April 2023, and Johannesburg-Zanzibar launched on 3 June 2026. Carried-over rows not re-checked since 25 July are marked as such.)",
  traffic: [
   { airport:"JKIA Nairobi", code:"NBO", flag:"🇰🇪", metric:"Seat capacity (all carriers)",
     value:"567,644", period:"August 2026", change:"Sixth in Africa; Addis Ababa 1.25m", dir:"flat",
@@ -21,7 +21,7 @@ window.CONNECT = {
     source:"KNBS", verified:true },
   { airport:"Entebbe", code:"EBB", flag:"🇺🇬", metric:"International passengers",
     value:"169,706", period:"August 2026", change:"−29.1% year on year", dir:"down",
-    note:"The sharpest monthly fall on record for the Uganda shock. Uganda was declared Ebola-free in late August, but the US CDC entry order still covers travellers recently in Uganda (to ~11 Oct 2026). See the Rules tracker.",
+    note:"The sharpest monthly fall on record for the Uganda shock. Uganda was declared Ebola-free in late August, but the US CDC entry order still covers travellers recently in Uganda (current term 11 Oct to 10 Nov 2026, 91 FR 65556; corrected 5 Nov). See the Rules tracker. No September UCAA figure located as at 5 Nov.",
     source:"UCAA August 2026 statistics (EA Pulse signal, 20 Sep 2026)", verified:true },
   { airport:"Entebbe", code:"EBB", flag:"🇺🇬", metric:"International arrivals",
     value:"239,850", period:"Q1 2026", change:"−7.9% vs Q1 2025 (260,434)", dir:"down",
@@ -33,12 +33,12 @@ window.CONNECT = {
     source:"UCAA", verified:true }
  ],
  routes: [
-  { carrier:"Jambojet", route:"Nairobi ⇄ Entebbe", status:"Announced", effective:"1 Oct 2026",
-    impact:"Daily, back after six years. One-way fares reported from about US$170. Cheapest scheduled link between the two capitals; useful for Kampala city hotels and UG-KE combination safaris.",
-    segment:"City, Bush", source:"allAfrica / Jambojet, 21 Aug 2026", dir:"up" },
-  { carrier:"Uganda Airlines", route:"Entebbe ⇄ Accra", status:"Announced", effective:"27 Oct 2026",
-    impact:"Four weekly, Boeing 737-800 wet-leased from Ethiopian. First direct West Africa link for Entebbe's hub.",
-    segment:"City", source:"ATTA, 5 Aug 2026", dir:"up" },
+  { carrier:"Jambojet", route:"Nairobi ⇄ Entebbe", status:"Operating", effective:"Since early Oct 2026 (launch reported 2 Oct)",
+    impact:"CONFIRMED 5 NOV 2026: daily service resumed (Citizen Digital and The Standard, both 2 Oct 2026; scheduled start was 1 Oct). Daily, back after six years. One-way fares reported from about US$170. Cheapest scheduled link between the two capitals; useful for Kampala city hotels and UG-KE combination safaris.",
+    segment:"City, Bush", source:"Citizen Digital, 2 Oct 2026; The Standard, 2 Oct 2026; earlier allAfrica / Jambojet, 21 Aug 2026", dir:"up" },
+  { carrier:"Uganda Airlines", route:"Entebbe ⇄ Lagos ⇄ Accra", status:"Launched 27 Oct 2026 (single source)", effective:"27 Oct 2026",
+    impact:"UPDATED 5 NOV 2026: inaugurated 27 Oct as flight UR900 VIA LAGOS, not non-stop, with fifth-freedom rights between Lagos and Accra (ATTA, 29 Oct, citing VoyagesAfriq 28 Oct; not yet confirmed by a second independent source). Four weekly, Boeing 737-800 wet-leased from Ethiopian. Entebbe's first West Africa link beyond Lagos.",
+    segment:"City", source:"ATTA, 29 Oct 2026 (inaugural); ATTA, 5 Aug 2026", dir:"up" },
   { carrier:"Uganda Airlines", route:"Entebbe ⇄ Kigali", status:"Announced", effective:"18 Nov 2026",
     impact:"Daily CRJ-900. Return fares reported from about US$370 against RwandAir's US$450. Makes Bwindi plus Volcanoes a single itinerary without a long drive. Not yet flown a season: keep a fallback routing in 2027 contracts.",
     segment:"Bush, City", source:"ATTA, 5 Aug 2026; EA Pulse Big Read, 19 Sep 2026", dir:"up" },
