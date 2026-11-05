@@ -1,5 +1,5 @@
 window.LEDGER = {
- "updated": "2026-11-04 05:44",
+ "updated": "2026-11-05 05:36",
  "stats": {
   "total": 253,
   "open": 165,
@@ -457,7 +457,7 @@ window.LEDGER = {
    "resolved_date": "",
    "evidence": "",
    "source_url": "https://www.aljazeera.com/news/2026/10/20/kenya-confirms-ninth-ebola-case",
-   "overdue": false
+   "overdue": true
   },
   {
    "id": "P243",
@@ -473,7 +473,7 @@ window.LEDGER = {
    "resolved_date": "",
    "evidence": "",
    "source_url": "",
-   "overdue": false
+   "overdue": true
   },
   {
    "id": "P234",

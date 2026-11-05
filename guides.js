@@ -1,5 +1,14 @@
 window.GUIDES = [
  {
+  "slug": "booking-commission-on-the-levy-east-africa",
+  "title": "East Africa spent 2026 adding charges to the room. A platform has started taking a cut of them.",
+  "description": "Booking.com has moved government taxes into the base on which it calculates commission. The Caribbean has spent six months fighting it and won carve-outs for others. East Africa, which has layered more levies onto the room this year than any region on the continent, has not asked a single question.",
+  "category": "Big Read",
+  "updated": "2026-11-05",
+  "readMins": 8,
+  "image": "img/editions/booking-commission-on-the-levy-east-africa.jpg"
+ },
+ {
   "slug": "booking-q4-guide-east-africa-long-haul-not-the-room",
   "title": "The world's largest seller of hotel rooms guided its next quarter down to 1 per cent. It did not blame the room.",
   "description": "Booking Holdings reported 7 per cent room-night growth on 3 November and told the market to expect 1 to 3 per cent in the fourth quarter, naming elevated airfares and reduced route capacity on long-haul routes as the cause. East Africa sells almost nothing but long-haul. The same month's aviation data shows African carriers adding international capacity faster than they fill it, at the lowest load factor of any region in the world.",
