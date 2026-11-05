@@ -4,6 +4,8 @@ slug: booking-commission-on-the-levy-east-africa
 description: Booking.com has moved government taxes into the base on which it calculates commission. The Caribbean has spent six months fighting it and won carve-outs for others. East Africa, which has layered more levies onto the room this year than any region on the continent, has not asked a single question.
 category: Big Read
 updated: 2026-11-05
+image: "img/editions/booking-commission-on-the-levy-east-africa.jpg"
+image_credit: "Photograph: Onyango George / EA Hospitality Pulse"
 ---
 On 28 October, in Kingston, O'Brian Heron sat down across a table from representatives of the company that sells more hotel rooms than any other on earth, to argue about money that was never his. Heron is president of the Jamaica Hotel and Tourist Association, and his members had been told that from 17 November, new bookings on Booking.com would carry commission calculated not on the room rate but on the room rate plus Jamaica's General Consumption Tax. The company left the meeting promising a formal follow-up. Heron left it with a sentence that is worth reading twice by anyone running a lodge in the Mara or a beach property in Nungwi.
 
