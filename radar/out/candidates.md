@@ -1,300 +1,318 @@
-# Radar candidates — morning slot
-_Window opens Wed 04 Nov 18:00 EAT · 605 observations in window · 17 headlines deduped against_
+# Radar candidates — midday slot
+_Window opens Thu 05 Nov 07:00 EAT · 370 observations in window · 16 headlines deduped against_
 
 Ranked by first-seen recency, source tier and hospitality relevance. `first seen` is when the radar observed the item, which is the date the recency gate runs on. `published` is what the source claims — where the two disagree, the disagreement is the story.
 
-### 🚨 [99.3] [page changed] Federal Register — public inspection (HHS/CDC), pre-publication
+### 🚨 [101.0] [page changed] Federal Register — public inspection (HHS/CDC), pre-publication
 - **Verdict:** OPEN THIS — tier-1 advisory page moved; content not auto-parsed, read it manually
 - **Source:** Federal Register — public inspection (HHS/CDC), pre-publication · tier 1 · REG · advisory
-- **First seen:** 2026-11-05T00:24+03:00 EAT · **Source date:** 2026-11-04
+- **First seen:** 2026-11-05T14:02+03:00 EAT · **Source date:** 2026-11-04
 - **URL:** https://www.federalregister.gov/api/v1/public-inspection-documents/current.json
-- **Extract:** {"count":112,"results":[{"agencies":[{"raw_name":"NATIONAL SCIENCE FOUNDATION","name":"National Science Foundation","id":366,"url":"https://www.federalregister.gov/agencies/national-science-foundation","json_url":"https://www.federalregister.gov/api/v1/agencie
-- **Score parts:** tier +40, category +32, lead +3.6, relevance +0, freshness +17.7, corroborated +10, page_change -4
+- **Extract:** {"count":115,"results":[{"agencies":[{"raw_name":"NATIONAL SCIENCE FOUNDATION","name":"National Science Foundation","id":366,"url":"https://www.federalregister.gov/agencies/national-science-foundation","json_url":"https://www.federalregister.gov/api/v1/agencie
+- **Score parts:** tier +40, category +32, lead +3.6, relevance +0, freshness +19.4, corroborated +10, page_change -4
 
-### 🚨 [94.7] [page changed] Federal Register — public inspection (HHS/CDC), pre-publication
-- **Verdict:** OPEN THIS — tier-1 advisory page moved; content not auto-parsed, read it manually
-- **Source:** Federal Register — public inspection (HHS/CDC), pre-publication · tier 1 · REG · advisory
-- **First seen:** 2026-11-04T20:17+03:00 EAT · **Source date:** 2026-11-04
-- **URL:** https://www.federalregister.gov/api/v1/public-inspection-documents/current.json
-- **Extract:** {"count":112,"results":[{"agencies":[{"raw_name":"NATIONAL SCIENCE FOUNDATION","name":"National Science Foundation","id":366,"url":"https://www.federalregister.gov/agencies/national-science-foundation","json_url":"https://www.federalregister.gov/api/v1/agencie
-- **Score parts:** tier +40, category +32, lead +3.6, relevance +0, freshness +13.1, corroborated +10, page_change -4
-
-### 🚨 [58.7] [page changed] Airlink news
+### 🚨 [65.0] [page changed] Airlink news
 - **Verdict:** OPEN THIS — tier-1 airline page moved; content not auto-parsed, read it manually
 - **Source:** Airlink news · tier 1 · REG · airline
-- **First seen:** 2026-11-04T20:17+03:00 EAT · **Source date:** — none stated
+- **First seen:** 2026-11-05T14:01+03:00 EAT · **Source date:** — none stated
 - **URL:** https://www.flyairlink.com/
-- **Extract:** Request unsuccessful. Incapsula incident ID: 2211000040532411250-256274909081305391
-- **Score parts:** tier +40, category +12, lead +3.6, relevance +0, freshness +13.1, undated -6, page_change -4
+- **Extract:** Request unsuccessful. Incapsula incident ID: 438000830000578572-1785907559929028
+- **Score parts:** tier +40, category +12, lead +3.6, relevance +0, freshness +19.4, undated -6, page_change -4
 
-### 🟠 [97.5] When Lunch Fights Back: Cheetah Rescued in Tsavo East
+### 🟠 [131.8] Wildlife Crime: A Global Security Threat, KWS Tells International Conference
 - **Verdict:** STRONG — tier-1, upstream
 - **Source:** Kenya Wildlife Service · tier 1 · KE · parks
-- **First seen:** 2026-11-04T20:17+03:00 EAT · **Source date:** 2026-11-04
-- **URL:** https://kws.go.ke/when-lunch-fights-back-cheetah-rescued-in-tsavo-east
-- **Extract:** Imagine going out to catch lunch, only for said lunch to viciously fight back. That is precisely what happened to a female cheetah near Aruba in Tsavo East National Park when a seemingly routine hunt took an unexpected turn. Per the settings instilled by Mothe
-- **Score parts:** tier +40, category +18, lead +8.4, relevance +8, freshness +13.1, corroborated +10
+- **First seen:** 2026-11-05T14:02+03:00 EAT · **Source date:** 2026-11-05
+- **URL:** https://kws.go.ke/wildlife-crime-a-global-security-threat-kws-tells-international-conference
+- **Extract:** Wildlife crime extends far beyond remote savannahs and forest edges, posing a significant national and international security threat. Poaching and trafficking networks are increasingly linked to terrorism financing, money laundering, and other forms of organis
+- **Score parts:** tier +40, category +18, lead +8.4, relevance +36, freshness +19.4, corroborated +10
 
-### 🟠 [96.9] Hilton Caribbean Footprint Tops 100 Open and Planned Hotels
+### 🟠 [96.4] SAVE THE DATE: The 2nd African MRO Conference and Aviation Finance Forum | 04–07 April 2027 | Cairo, Egypt
 - **Verdict:** STRONG — tier-1, upstream
-- **Source:** Hilton stories/newsroom · tier 1 · GLOBAL · hotel-group
-- **First seen:** 2026-11-04T20:17+03:00 EAT · **Source date:** 2026-11-04
-- **URL:** https://stories.hilton.com/releases/hilton-caribbean-footprint-tops-100-open-and-planned-hotels
-- **Extract:** MIAMI and SAN JUAN, Puerto Rico — Hilton (NYSE: HLT) has surpassed 100 open and planned hotels across the Caribbean, marking a significant milestone in its expansion throughout the region. Contributing to the momentum is this week’s opening of the first Homewo
-- **Score parts:** tier +40, category +9, lead +16.8, relevance +8, freshness +13.1, corroborated +10
+- **Source:** AFRAA — monthly African air transport / capacity brief · tier 1 · REG · aviation
+- **First seen:** 2026-11-05T14:01+03:00 EAT · **Source date:** 2026-11-05
+- **URL:** https://www.afraa.org/save-the-date-the-2nd-african-mro-conference-and-aviation-finance-forum-04-07-april-2027-cairo-egypt
+- **Extract:** Following the success of this year’s inaugural African MRO Conference, the African Airlines Association (AFRAA) and four leading African MRO service providers—EGYPTAIR MAINTENANCE & ENGINEERING, Ethiopian MRO Services, […]
+- **Score parts:** tier +40, category +13, lead +6, relevance +8, freshness +19.4, corroborated +10
 
-### 🟡 [94.1] Rwandair Extends Brussels / Paris Service Reductions into Jan 2027
+### 🟠 [95.9] SitRep N°173/MVE-BDBV/03/11/2026
+- **Verdict:** STRONG — tier-1, upstream
+- **Source:** INSP RDC — Ebola daily situation reports (SitRep) · tier 1 · GLOBAL · health
+- **First seen:** 2026-11-05T14:03+03:00 EAT · **Source date:** 2026-11-05
+- **URL:** https://insp.cd/sitrep-n173-mve-bdbv-03-11-2026
+- **Score parts:** tier +40, category +24, lead +2.4, relevance +0, freshness +19.5, corroborated +10
+
+### 🟡 [91.9] Alaska Adds Seattle – Guadalajara From March 2027
 - **Verdict:** CONSIDER
 - **Source:** AeroRoutes schedule filings · tier 2 · GLOBAL · aviation-tracker
-- **First seen:** 2026-11-05T00:24+03:00 EAT · **Source date:** 2026-11-05
-- **URL:** https://www.aeroroutes.com/eng/261104-wbnw26cdgbru
-- **Extract:** Published at 1400PCT / 2100GMT 04NOV26 Rwandair in recent days extends Kigali – Paris Charles de Gaulle – Brussels service reduction to 31JAN27, as Mondays service for the period of 14DEC26 – 31JAN27 is no longer available for reservations. With the booking cl
-- **Score parts:** tier +20, category +14, lead +8.4, relevance +24, freshness +17.7, corroborated +10
+- **First seen:** 2026-11-05T14:03+03:00 EAT · **Source date:** 2026-11-05
+- **URL:** https://www.aeroroutes.com/eng/261105-asns27gdl
+- **Extract:** Published at 0300PCT / 1000GMT 05NOV26 Alaska Airlines during Northern summer 2027 season plans to add Seattle – Guadalajara service, on board Boeing 737-800 aircraft. The Oneworld member schedules this route 3 times weekly from 18MAR27 to 07AUG27. AS694 SEA23
+- **Score parts:** tier +20, category +14, lead +8.4, relevance +20, freshness +19.5, corroborated +10
 
-### 🟡 [90.1] Enter Air Schedules Warsaw – Fuerteventura in NW26
+### 🟡 [91.9] EGYPTAIR Opens Chicago / Los Angeles Bookings in 2Q27
 - **Verdict:** CONSIDER
 - **Source:** AeroRoutes schedule filings · tier 2 · GLOBAL · aviation-tracker
-- **First seen:** 2026-11-05T00:24+03:00 EAT · **Source date:** 2026-11-04
-- **URL:** https://www.aeroroutes.com/eng/261104-entnw26fue
-- **Extract:** Published at 1100PCT / 1800GMT 04NOV26 Polish carrier Enter Air during Northern winter 2026/27 season schedules regular charter flights on Warsaw – Fuerteventura route. From 24DEC26, Boeing 737 aircraft to operate this route once a weekly. ENT7037 WAW0825 – 13
-- **Score parts:** tier +20, category +14, lead +8.4, relevance +20, freshness +17.7, corroborated +10
+- **First seen:** 2026-11-05T14:03+03:00 EAT · **Source date:** 2026-11-05
+- **URL:** https://www.aeroroutes.com/eng/261105-ms2q27us
+- **Extract:** Published at 0200PCT / 0900GMT 05NOV26 EGYPTAIR in late-October 2026 opened reservations for Chicago and Los Angeles during the second quarter of 2027. Due to schedule filing issue, service for both routes were not available during certain periods. Cairo – Chi
+- **Score parts:** tier +20, category +14, lead +8.4, relevance +20, freshness +19.5, corroborated +10
 
-### 🟡 [89.9] Oboth pledges review of tax regime for private schools Wednesday, 4 November 2026
-- **Verdict:** CONSIDER
-- **Source:** Parliament of Uganda · tier 1 · UG · legislature
-- **First seen:** 2026-11-04T20:17+03:00 EAT · **Source date:** — none stated
-- **URL:** https://www.parliament.go.ug/news/4706/oboth-pledges-review-tax-regime-private-schools
-- **Score parts:** tier +40, category +10, lead +16.8, relevance +16, freshness +13.1, undated -6
-
-### 🟡 [89.5] Minor Hotels Announces the First Minor Reserve Collection in Asia with the Signing of Gardens of Eden Resort Phuket
-- **Verdict:** CONSIDER
-- **Source:** Minor Hotels newsroom · tier 1 · GLOBAL · hotel-group
-- **First seen:** 2026-11-05T00:23+03:00 EAT · **Source date:** — none stated
-- **URL:** https://media.minorhotels.com/en-GLO/273923-minor-hotels-announces-the-first-minor-reserve-collection-in-asia-with-the-signing-of-gardens-of-eden-resort-phuket
-- **Score parts:** tier +40, category +9, lead +16.8, relevance +12, freshness +17.7, undated -6
-
-### 🟡 [89.5] Oaks Hotels, Resorts & Suites Arrives in Japan with Two Kyoto Openings
-- **Verdict:** CONSIDER
-- **Source:** Minor Hotels newsroom · tier 1 · GLOBAL · hotel-group
-- **First seen:** 2026-11-05T00:23+03:00 EAT · **Source date:** — none stated
-- **URL:** https://media.minorhotels.com/en-GLO/272656-oaks-hotels-resorts-suites-arrives-in-japan-with-two-kyoto-openings
-- **Score parts:** tier +40, category +9, lead +16.8, relevance +12, freshness +17.7, undated -6
-
-### 🟡 [89.5] The new EU Sustainable Tourism Strategy is out!
-- **Verdict:** CONSIDER
-- **Source:** EU Tourism Transition Pathway — legislation & guidance · tier 1 · REG · regulator
-- **First seen:** 2026-11-05T00:23+03:00 EAT · **Source date:** — none stated
-- **URL:** https://transition-pathways.europa.eu/tourism/news/new-eu-sustainable-tourism-strategy-out
-- **Score parts:** tier +40, category +17, lead +16.8, relevance +4, freshness +17.7, undated -6
-
-### 🟡 [89.5] The European Commission is about to unveil the EU Sustainable Tourism Strategy
-- **Verdict:** CONSIDER
-- **Source:** EU Tourism Transition Pathway — legislation & guidance · tier 1 · REG · regulator
-- **First seen:** 2026-11-05T00:23+03:00 EAT · **Source date:** — none stated
-- **URL:** https://transition-pathways.europa.eu/tourism/news/european-commission-about-unveil-eu-sustainable-tourism-strategy
-- **Score parts:** tier +40, category +17, lead +16.8, relevance +4, freshness +17.7, undated -6
-
-### 🟡 [86.1] WestJet Reduces Calgary – Dublin Service in NS27
+### 🟡 [91.9] Etihad Removes Planned Asmara Service From late-March 2027
 - **Verdict:** CONSIDER
 - **Source:** AeroRoutes schedule filings · tier 2 · GLOBAL · aviation-tracker
-- **First seen:** 2026-11-05T00:24+03:00 EAT · **Source date:** 2026-11-04
-- **URL:** https://www.aeroroutes.com/eng/261104-wsns27yycdub
-- **Extract:** Published at 1300PCT / 2000GMT 04NOV26 WestJet during Northern summer 2027 season schedules service reductions on Calgary – Dublin route, reflected in recent schedule update. The airline will continue to operate 3 weekly flights on/after 25MAY27, instead of in
-- **Score parts:** tier +20, category +14, lead +8.4, relevance +16, freshness +17.7, corroborated +10
+- **First seen:** 2026-11-05T14:03+03:00 EAT · **Source date:** 2026-11-05
+- **URL:** https://www.aeroroutes.com/eng/261105-eyns27asm
+- **Extract:** Published at 0000PCT / 0700GMT 05NOV26 Etihad this week filed service changes to planned Abu Dhabi – Asmara route, as the airline removed schedule filing and closed reservations. The airline previously scheduled this route 4 times weekly from 28MAR27. EY733 AU
+- **Score parts:** tier +20, category +14, lead +8.4, relevance +20, freshness +19.5, corroborated +10
 
-### 🟡 [85.5] Minor Hotels Brings Anantara Retreats to India with Darjeeling Signing
-- **Verdict:** CONSIDER
-- **Source:** Minor Hotels newsroom · tier 1 · GLOBAL · hotel-group
-- **First seen:** 2026-11-05T00:23+03:00 EAT · **Source date:** — none stated
-- **URL:** https://media.minorhotels.com/en-GLO/273491-minor-hotels-brings-anantara-retreats-to-india-with-darjeeling-signing
-- **Score parts:** tier +40, category +9, lead +16.8, relevance +8, freshness +17.7, undated -6
-
-### 🟡 [85.5] Minor Hotels Announces Morocco Debut with Signing of Anantara Retreat Rabat
-- **Verdict:** CONSIDER
-- **Source:** Minor Hotels newsroom · tier 1 · GLOBAL · hotel-group
-- **First seen:** 2026-11-05T00:23+03:00 EAT · **Source date:** — none stated
-- **URL:** https://media.minorhotels.com/en-GLO/272736-minor-hotels-announces-morocco-debut-with-signing-of-anantara-retreat-rabat
-- **Score parts:** tier +40, category +9, lead +16.8, relevance +8, freshness +17.7, undated -6
-
-### 🟡 [85.5] Minor Hotels Appoints Magdalena Martorell as General Manager of Avani+ Fares Maldives Resort
-- **Verdict:** CONSIDER
-- **Source:** Minor Hotels newsroom · tier 1 · GLOBAL · hotel-group
-- **First seen:** 2026-11-05T00:23+03:00 EAT · **Source date:** — none stated
-- **URL:** https://media.minorhotels.com/en-GLO/272520-minor-hotels-appoints-magdalena-martorell-as-general-manager-of-avani-fares-maldives-resort
-- **Score parts:** tier +40, category +9, lead +16.8, relevance +8, freshness +17.7, undated -6
-
-### 🟡 [85.5] Minor Hotels Expands UAE Portfolio with Anantara Siniya Island Resort & Residences
-- **Verdict:** CONSIDER
-- **Source:** Minor Hotels newsroom · tier 1 · GLOBAL · hotel-group
-- **First seen:** 2026-11-05T00:23+03:00 EAT · **Source date:** — none stated
-- **URL:** https://media.minorhotels.com/en-GLO/272735-minor-hotels-expands-uae-portfolio-with-anantara-siniya-island-resort-residences
-- **Score parts:** tier +40, category +9, lead +16.8, relevance +8, freshness +17.7, undated -6
-
-### 🟡 [85.5] Minor Hotels Accelerates Colbert Collection Growth with Dubai Islands Signing
-- **Verdict:** CONSIDER
-- **Source:** Minor Hotels newsroom · tier 1 · GLOBAL · hotel-group
-- **First seen:** 2026-11-05T00:23+03:00 EAT · **Source date:** — none stated
-- **URL:** https://media.minorhotels.com/en-GLO/270173-minor-hotels-accelerates-colbert-collection-growth-with-dubai-islands-signing
-- **Score parts:** tier +40, category +9, lead +16.8, relevance +8, freshness +17.7, undated -6
-
-### 🟡 [85.5] Anantara Tented Camp Kafue River Unveils a Lodge in One of Africa’s Last Great Wildernesses in Zambia
-- **Verdict:** CONSIDER
-- **Source:** Minor Hotels newsroom · tier 1 · GLOBAL · hotel-group
-- **First seen:** 2026-11-05T00:23+03:00 EAT · **Source date:** — none stated
-- **URL:** https://media.minorhotels.com/en-GLO/270861-anantara-tented-camp-kafue-river-unveils-a-lodge-in-one-of-africa-s-last-great-wildernesses-in-zambia
-- **Score parts:** tier +40, category +9, lead +16.8, relevance +8, freshness +17.7, undated -6
-
-### 🟡 [85.5] Anantara Desaru Coast Takes the Planning out of the Family Holiday with its Private Residences Family Escape
-- **Verdict:** CONSIDER
-- **Source:** Minor Hotels newsroom · tier 1 · GLOBAL · hotel-group
-- **First seen:** 2026-11-05T00:23+03:00 EAT · **Source date:** — none stated
-- **URL:** https://media.minorhotels.com/en-GLO/272602-anantara-desaru-coast-takes-the-planning-out-of-the-family-holiday-with-its-private-residences-family-escape
-- **Score parts:** tier +40, category +9, lead +16.8, relevance +8, freshness +17.7, undated -6
-
-### 🟡 [85.5] IHG brings global Holiday Inn brand strength to regional Australia with two new hotel signings
-- **Verdict:** CONSIDER
-- **Source:** IHG news · tier 1 · GLOBAL · hotel-group
-- **First seen:** 2026-11-05T00:23+03:00 EAT · **Source date:** — none stated
-- **URL:** https://www.ihgplc.com/en/news-and-media/news-releases/2026/ihg-brings-global-holiday-inn-brand-strength-to-regional-australia-with-two-new-hotel-signings
-- **Score parts:** tier +40, category +9, lead +16.8, relevance +8, freshness +17.7, undated -6
-
-### 🟡 [82.1] Arkia Adds Tallinn / Yerevan in NS27
+### 🟡 [91.9] GOL Northern winter 2026/27 season Network Changes – 01NOV26
 - **Verdict:** CONSIDER
 - **Source:** AeroRoutes schedule filings · tier 2 · GLOBAL · aviation-tracker
-- **First seen:** 2026-11-05T00:24+03:00 EAT · **Source date:** 2026-11-04
-- **URL:** https://www.aeroroutes.com/eng/261104-izns27
-- **Extract:** Published at 1200PCT / 1900GMT 04NOV26 Arkia – Israeli Airlines during Northern summer 2027 season schedules additional routes, in addition to previously reported service to Iceland . The airline will add service to Tallinn and Yerevan during summer season. Te
-- **Score parts:** tier +20, category +14, lead +8.4, relevance +12, freshness +17.7, corroborated +10
+- **First seen:** 2026-11-05T14:03+03:00 EAT · **Source date:** 2026-11-05
+- **URL:** https://www.aeroroutes.com/eng/261104-g3nw26
+- **Extract:** Published at 1900PCT 04NOV26 / 0200GMT 05NOV26 Brasilian carrier GOL in recent schedule update filed changes to its operational network, with 24 regional and domestic routes to be discontinued from 01FEB27, including selected routes that are seeing shortened o
+- **Score parts:** tier +20, category +14, lead +8.4, relevance +20, freshness +19.5, corroborated +10
 
-### 🟡 [81.9] Suspects to be held in gazetted detention facilities – Minister Kamuntu Wednesday, 4 November 2026
-- **Verdict:** CONSIDER
-- **Source:** Parliament of Uganda · tier 1 · UG · legislature
-- **First seen:** 2026-11-04T20:17+03:00 EAT · **Source date:** — none stated
-- **URL:** https://www.parliament.go.ug/news/4705/suspects-be-held-gazetted-detention-facilities-minister-kamuntu
-- **Score parts:** tier +40, category +10, lead +16.8, relevance +8, freshness +13.1, undated -6
-
-### 🟡 [81.7] Isabirye keeps Bul grounded
-- **Verdict:** CONSIDER
-- **Source:** Daily Monitor (Uganda) · tier 2 · UG · press
-- **First seen:** 2026-11-05T00:24+03:00 EAT · **Source date:** 2026-11-04
-- **URL:** https://www.monitor.co.ug/uganda/sports/soccer/isabirye-keeps-bul-grounded-5658266
-- **Shock language:** grounded
-- **Extract:** Bul moving to 23 points, level with Nec, while the Jogoos drop to third on 21
-- **Score parts:** tier +20, category +4, lead +0, relevance +12, freshness +17.7, corroborated +10, shock +18
-
-### 🟡 [81.6] Utair Adds Tyumen – Bishkek in NW26
+### 🟡 [91.9] Air Zimbabwe Plans Johannesburg Service Resumption in Dec 2026
 - **Verdict:** CONSIDER
 - **Source:** AeroRoutes schedule filings · tier 2 · GLOBAL · aviation-tracker
-- **First seen:** 2026-11-04T20:18+03:00 EAT · **Source date:** 2026-11-04
-- **URL:** https://www.aeroroutes.com/eng/261104-utnw26bsz
-- **Extract:** Published at 0700PCT / 1400GMT 04NOV26 Russian carrier Utair last week launched Tyumen – Bishkek route, where the airline schedules 1 weekly flight with Boeing 737-800 aircraft. First flight operated on 27OCT26 from Tymen. UT867 TJM2145 – 0130+1BSZ 73H 2 UT868
-- **Score parts:** tier +20, category +14, lead +8.4, relevance +16, freshness +13.2, corroborated +10
+- **First seen:** 2026-11-05T14:03+03:00 EAT · **Source date:** 2026-11-05
+- **URL:** https://www.aeroroutes.com/eng/261104-umnw26jnb
+- **Extract:** Published at 1500PCT / 2200GMT 04NOV26 Air Zimbabwe plans to resume service to South Africa in December 2026, with 3 weekly Harare – Johannesburg flights on board Embraer ERJ145 aircraft. Based on available flights for reservations on the airline’s website, fi
+- **Score parts:** tier +20, category +14, lead +8.4, relevance +20, freshness +19.5, corroborated +10
 
-### 🟡 [81.6] S7 Airlines Adds Vladivostok – Phuket Form late-Dec 2026
+### 🟡 [89.0] KLM grijpt in om positie te versterken en om Nederland met de wereld te blijven verbinden
+- **Verdict:** CONSIDER
+- **Source:** KLM/Air France newsroom · tier 1 · GLOBAL · airline
+- **First seen:** 2026-11-05T14:03+03:00 EAT · **Source date:** 2026-11-05
+- **URL:** https://nieuws.klm.com/klm-grijpt-in-om-positie-te-versterken-en-om-nederland-met-de-wereld-te-blijven-verbinden
+- **Extract:** Focus op de kern: het wereldwijde netwerk met 160 directe bestemmingen vanaf Schiphol, de sterke klantrelatie en een betrouwbare operatie met een moderne vloot; Maatregelen om het Europees netwerk van KLM concurrerender te maken; Organisatie wordt kleiner, een
+- **Score parts:** tier +40, category +12, lead +3.6, relevance +4, freshness +19.4, corroborated +10
+
+### 🟡 [87.9] Pacific Mission Aviation Expands Yap – Koror Flights in 1Q27
 - **Verdict:** CONSIDER
 - **Source:** AeroRoutes schedule filings · tier 2 · GLOBAL · aviation-tracker
-- **First seen:** 2026-11-04T20:18+03:00 EAT · **Source date:** 2026-11-04
-- **URL:** https://www.aeroroutes.com/eng/261104-s7dec26hkt
-- **Extract:** Published at 0330PCT / 1030GMT 04NOV26 Russian carrier S7 Airlines from late-December 2026 is expanding service to Thailand, with the addition of Vladivostok – Phuket flight. Boeing 737-800 aircraft to operate this route twice weekly from 25DEC26. Note the air
-- **Score parts:** tier +20, category +14, lead +8.4, relevance +16, freshness +13.2, corroborated +10
+- **First seen:** 2026-11-05T14:03+03:00 EAT · **Source date:** 2026-11-05
+- **URL:** https://www.aeroroutes.com/eng/261104-pma1q27
+- **Extract:** Published at 1800PCT 04NOV26 / 0100GMT 05NOV26 Pacific Mission Aviation from January 2027 plans to introduce additional frequencies on Yap – Koror route, with the addition of 2nd weekly flight, operating on Fridays. Based on data from Flightradar24 , the carri
+- **Score parts:** tier +20, category +14, lead +8.4, relevance +16, freshness +19.5, corroborated +10
 
-### 🟡 [81.5] Avani+ Khao Lak Launches AvaniStrong for an Active Beach Break
+### 🟡 [87.9] Neos Resumes Milan – Nanjing in Mar/Apr 2027
 - **Verdict:** CONSIDER
-- **Source:** Minor Hotels newsroom · tier 1 · GLOBAL · hotel-group
-- **First seen:** 2026-11-05T00:23+03:00 EAT · **Source date:** — none stated
-- **URL:** https://media.minorhotels.com/en-GLO/274020-avani-khao-lak-launches-avanistrong-for-an-active-beach-break
-- **Score parts:** tier +40, category +9, lead +16.8, relevance +4, freshness +17.7, undated -6
+- **Source:** AeroRoutes schedule filings · tier 2 · GLOBAL · aviation-tracker
+- **First seen:** 2026-11-05T14:03+03:00 EAT · **Source date:** 2026-11-05
+- **URL:** https://www.aeroroutes.com/eng/261104-nons27nkg
+- **Extract:** Published at 1701PCT 04NOV26 / 0001GMT 05NOV26 Italian carrier Neos in the second quarter of 2027 once again schedules Milan Malpensa – Nanjing route, currently listed from 29MAR27 to 27APR27. Boeing 787-9 operates 1 weekly flight. NO976 MXP1530 – 0900+1NKG 78
+- **Score parts:** tier +20, category +14, lead +8.4, relevance +16, freshness +19.5, corroborated +10
 
-### 🟡 [81.5] A Natural Setting for Restorative Escapes: Anantara Koh Yao Yai Resort & Villas Introduces New, Personalised Wellness...
+### 🟡 [86.4] EAC Recognises 16 Women Entrepreneurs Championing Regional Trade at the 26th EAC MSMEs Trade Fair
 - **Verdict:** CONSIDER
-- **Source:** Minor Hotels newsroom · tier 1 · GLOBAL · hotel-group
-- **First seen:** 2026-11-05T00:23+03:00 EAT · **Source date:** — none stated
-- **URL:** https://media.minorhotels.com/en-GLO/273708-a-natural-setting-for-restorative-escapes-anantara-koh-yao-yai-resort-villas-introduces-new-personalised-wellness-journeys
-- **Score parts:** tier +40, category +9, lead +16.8, relevance +4, freshness +17.7, undated -6
+- **Source:** East African Community — Secretariat news · tier 1 · Regional · body
+- **First seen:** 2026-11-05T14:03+03:00 EAT · **Source date:** 2026-11-05
+- **URL:** https://www.eac.int/press-releases/157-trade/3613-eac-recognises-16-women-entrepreneurs-championing-regional-trade-at-the-26th-eac-msmes-trade-fair
+- **Extract:** East African Community Headquarters, Arusha, Tanzania, 5 th November, 2026: Sixteen women entrepreneurs from the eight East African Community (EAC) Partner States have been recognised as Champion Mentees under the East African Women in Trade Champions Initiati
+- **Score parts:** tier +40, category +7, lead +6, relevance +4, freshness +19.4, corroborated +10
 
-### 🟡 [81.5] Tivoli President Milano Hotel Unveils Its Latest Additions in Wellbeing, Dining and Hospitality
+### 🟡 [85.0] Cijfers derde kwartaal KLM Groep
 - **Verdict:** CONSIDER
-- **Source:** Minor Hotels newsroom · tier 1 · GLOBAL · hotel-group
-- **First seen:** 2026-11-05T00:23+03:00 EAT · **Source date:** — none stated
-- **URL:** https://media.minorhotels.com/en-GLO/273636-tivoli-president-milano-hotel-unveils-its-latest-additions-in-wellbeing-dining-and-hospitality
-- **Score parts:** tier +40, category +9, lead +16.8, relevance +4, freshness +17.7, undated -6
+- **Source:** KLM/Air France newsroom · tier 1 · GLOBAL · airline
+- **First seen:** 2026-11-05T14:03+03:00 EAT · **Source date:** 2026-11-05
+- **URL:** https://nieuws.klm.com/cijfers-derde-kwartaal-2026-klm-groep
+- **Extract:** Marjan Rintel, CEO KLM: “Het resultaat over het derde kwartaal is mede te danken aan de inzet van onze collega's en de besparingen die we gezamenlijk hebben gerealiseerd. Daarmee zijn onze structurele problemen echter niet opgelost. De brandstofprijzen zetten 
+- **Score parts:** tier +40, category +12, lead +3.6, relevance +0, freshness +19.4, corroborated +10
 
-### 🟡 [81.5] Life Longevity Becomes a Strategic Partner of the 2026 Global Wellness Summit in Phuket
+### 🟡 [83.9] EGYPTAIR Cargo Tentatively Moves Cardiff Launch to mid-Nov 2026
 - **Verdict:** CONSIDER
-- **Source:** Minor Hotels newsroom · tier 1 · GLOBAL · hotel-group
-- **First seen:** 2026-11-05T00:23+03:00 EAT · **Source date:** — none stated
-- **URL:** https://media.minorhotels.com/en-GLO/273693-life-longevity-becomes-a-strategic-partner-of-the-2026-global-wellness-summit-in-phuket
-- **Score parts:** tier +40, category +9, lead +16.8, relevance +4, freshness +17.7, undated -6
+- **Source:** AeroRoutes schedule filings · tier 2 · GLOBAL · aviation-tracker
+- **First seen:** 2026-11-05T14:03+03:00 EAT · **Source date:** 2026-11-05
+- **URL:** https://www.aeroroutes.com/eng/261105-mscnw26cwl
+- **Extract:** Published at 0100PCT / 0800GMT 05NOV26 EGYPTAIR Cargo in the last few days continue to revise planned Cairo – Cardiff launch. As of 04NOV26, the airline intends to launch this route on 14NOV26 at the earliest. A330 Freighter to serve this route once a day. MS5
+- **Score parts:** tier +20, category +14, lead +8.4, relevance +12, freshness +19.5, corroborated +10
 
-### 🟡 [81.5] Minor Hotels Celebrates 30 Wins and Top Regional Rankings in the CNT Readers' Choice Awards
+### 🟡 [83.9] Sichuan Airlines Jan 2027 One-Time Chengdu – Tokyo Aircraft Changes
 - **Verdict:** CONSIDER
-- **Source:** Minor Hotels newsroom · tier 1 · GLOBAL · hotel-group
-- **First seen:** 2026-11-05T00:23+03:00 EAT · **Source date:** — none stated
-- **URL:** https://media.minorhotels.com/en-GLO/272891-minor-hotels-celebrates-30-wins-and-top-regional-rankings-in-the-cnt-readers-choice-awards
-- **Score parts:** tier +40, category +9, lead +16.8, relevance +4, freshness +17.7, undated -6
+- **Source:** AeroRoutes schedule filings · tier 2 · GLOBAL · aviation-tracker
+- **First seen:** 2026-11-05T14:03+03:00 EAT · **Source date:** 2026-11-05
+- **URL:** https://www.aeroroutes.com/eng/261104-3ujan27nrt
+- **Extract:** Published at 2000PCT 04NOV26 / 0300GMT 05NOV26 Sichuan Airlines in early-January 2027 schedules one-time aircraft changes on Chengdu Tianfu – Tokyo Narita route. On 03JAN27, service to be operated by Airbus A350-900, instead of A321neo. 3U3961 TFU0935 – 1510NR
+- **Score parts:** tier +20, category +14, lead +8.4, relevance +12, freshness +19.5, corroborated +10
 
-### 🟡 [81.5] Minor Hotels Founder William E Heinecke Receives Lifetime Achievement Award as Anantara Takes Two Further Honours at ...
+### 🟡 [83.8] PS Oluga Calls for Stronger Alignment of Development Partner Investments with Health Priorities
 - **Verdict:** CONSIDER
-- **Source:** Minor Hotels newsroom · tier 1 · GLOBAL · hotel-group
-- **First seen:** 2026-11-05T00:23+03:00 EAT · **Source date:** — none stated
-- **URL:** https://media.minorhotels.com/en-GLO/272918-minor-hotels-founder-william-e-heinecke-receives-lifetime-achievement-award-as-anantara-takes-two-further-honours-at-2026-ultras
-- **Score parts:** tier +40, category +9, lead +16.8, relevance +4, freshness +17.7, undated -6
+- **Source:** Kenya Ministry of Health · tier 1 · KE · health
+- **First seen:** 2026-11-05T14:02+03:00 EAT · **Source date:** — none stated
+- **URL:** https://www.health.go.ke/ps-oluga-calls-stronger-alignment-development-partner-investments-health-priorities
+- **Score parts:** tier +40, category +24, lead +2.4, relevance +4, freshness +19.4, undated -6
 
-### 🟡 [81.5] Minor Hotels Launches Life Longevity, One Wellness Brand for Every Season of Life
-- **Verdict:** CONSIDER
-- **Source:** Minor Hotels newsroom · tier 1 · GLOBAL · hotel-group
-- **First seen:** 2026-11-05T00:23+03:00 EAT · **Source date:** — none stated
-- **URL:** https://media.minorhotels.com/en-GLO/272890-minor-hotels-launches-life-longevity-one-wellness-brand-for-every-season-of-life
-- **Score parts:** tier +40, category +9, lead +16.8, relevance +4, freshness +17.7, undated -6
+### 🟡 [82.4] [page changed] Federal Register — CDC notices
+- **Verdict:** CHECK — source date older than the window
+- **Source:** Federal Register — CDC notices · tier 1 · REG · advisory
+- **First seen:** 2026-11-05T14:02+03:00 EAT · **Source date:** 2026-10-28
+- **URL:** https://www.federalregister.gov/api/v1/documents.rss?conditions%5Bagencies%5D%5B%5D=centers-for-disease-control-and-prevention&order=newest
+- **Extract:** Federal Register Documents published on or after 10/06/2026 and from Centers for Disease Control and Prevention https://www.federalregister.gov/api/v1/documents.rss?conditions%5Bagencies%5D%5B%5D=centers-for-disease-control-and-prevention&order=newest Mon, 02 
+- **Score parts:** tier +40, category +32, lead +12, relevance +8, freshness +19.4, stale_trap -25, page_change -4
 
-### 🟡 [81.5] World Architecture Day: Minor Hotels Celebrates the Hotels Where Design, Heritage and Destination Come Together
+### 🟡 [82.1] ABTA meets with Maldives Minister of Tourism to discuss tax
 - **Verdict:** CONSIDER
-- **Source:** Minor Hotels newsroom · tier 1 · GLOBAL · hotel-group
-- **First seen:** 2026-11-05T00:23+03:00 EAT · **Source date:** — none stated
-- **URL:** https://media.minorhotels.com/en-GLO/272817-world-architecture-day-minor-hotels-celebrates-the-hotels-where-design-heritage-and-destination-come-together
-- **Score parts:** tier +40, category +9, lead +16.8, relevance +4, freshness +17.7, undated -6
+- **Source:** ABTA (UK) news · tier 2 · GLOBAL · source-market
+- **First seen:** 2026-11-05T14:03+03:00 EAT · **Source date:** 2026-11-05
+- **URL:** https://www.abta.com/news/abta-meets-maldives-minister-tourism-discuss-tax
+- **Extract:** ABTA meets with Maldives Minister of Tourism to discuss tax Full Page image dhewitt@abta.co.uk Thu, 11/05/2026 - 07:00 ABTA met with the Maldives Minister of Tourism and Civil Aviation, H.E. Mohamed Ameen, during WTM in London. During the meeting he confirmed 
+- **Score parts:** tier +20, category +9, lead +3.6, relevance +20, freshness +19.5, corroborated +10
 
-### 🟡 [81.5] Minor Hotels to Bring Minor Reserve Collection to the UK with Reimagining of London's Iconic Dukes
+### 🟡 [81.9] Why public universities lecturers might go back to the streets
 - **Verdict:** CONSIDER
-- **Source:** Minor Hotels newsroom · tier 1 · GLOBAL · hotel-group
-- **First seen:** 2026-11-05T00:23+03:00 EAT · **Source date:** — none stated
-- **URL:** https://media.minorhotels.com/en-GLO/272679-minor-hotels-to-bring-minor-reserve-collection-to-the-uk-with-reimagining-of-london-s-iconic-dukes
-- **Score parts:** tier +40, category +9, lead +16.8, relevance +4, freshness +17.7, undated -6
-
-### 🟡 [81.5] Anantara Siam Bangkok Hotel Enters the Guinness Book of Records for the World’s Longest Mango Sticky Rice
-- **Verdict:** CONSIDER
-- **Source:** Minor Hotels newsroom · tier 1 · GLOBAL · hotel-group
-- **First seen:** 2026-11-05T00:23+03:00 EAT · **Source date:** — none stated
-- **URL:** https://media.minorhotels.com/en-GLO/273321-anantara-siam-bangkok-hotel-enters-the-guinness-book-of-records-for-the-world-s-longest-mango-sticky-rice
-- **Score parts:** tier +40, category +9, lead +16.8, relevance +4, freshness +17.7, undated -6
-
-### 🟡 [81.5] Tivoli Avenida Liberdade Lisbon Unveils Its Reimagined Rooms and Suites
-- **Verdict:** CONSIDER
-- **Source:** Minor Hotels newsroom · tier 1 · GLOBAL · hotel-group
-- **First seen:** 2026-11-05T00:23+03:00 EAT · **Source date:** — none stated
-- **URL:** https://media.minorhotels.com/en-GLO/271964-tivoli-avenida-liberdade-lisbon-unveils-its-reimagined-rooms-and-suites
-- **Score parts:** tier +40, category +9, lead +16.8, relevance +4, freshness +17.7, undated -6
-
-### 🟡 [80.9] 4 Nov 26 KAMISHNA WA BIMA ASISITIZA UJUMUISHWAJI WA WANANCHI NA UPATI... Kamishna wa Bima Tanzania, Dkt. Baghayo A. Saqw
-- **Verdict:** CONSIDER
-- **Source:** Tanzania Insurance Regulatory Authority (TIRA) · tier 1 · TZ · regulator
-- **First seen:** 2026-11-04T20:17+03:00 EAT · **Source date:** — none stated
-- **URL:** https://www.tira.go.tz/news/kamishna-wa-bima-asisitiza-ujumuishwaji-wa-wananchi-na-upatikanaji-wa-vifurushi-nafuu-vya-bima-ya-afya-kwa-wote
-- **Score parts:** tier +40, category +17, lead +16.8, relevance +0, freshness +13.1, undated -6
-
-### 🟡 [77.7] Constitutional Court orders protection for male victims of indecent assault, strikes down discriminatory law
-- **Verdict:** CONSIDER
-- **Source:** Daily Monitor (Uganda) · tier 2 · UG · press
-- **First seen:** 2026-11-05T00:24+03:00 EAT · **Source date:** 2026-11-04
-- **URL:** https://www.monitor.co.ug/uganda/news/national/constitutional-court-orders-protection-for-male-victims-of-indecent-assault-strikes-down-discriminatory-law-5658096
+- **Source:** Nation Africa: Kenya business · tier 2 · KE · press
+- **First seen:** 2026-11-05T14:03+03:00 EAT · **Source date:** 2026-11-05
+- **URL:** https://nation.africa/kenya/news/education/why-public-universities-lecturers-might-go-back-to-the-streets-5658632
 - **Shock language:** strike
-- **Extract:** The court gave the government 12 months to amend Section 42 of the MCA to reflect this...
-- **Score parts:** tier +20, category +4, lead +0, relevance +8, freshness +17.7, corroborated +10, shock +18
+- **Extract:** Lecturers resumed duty this week after month-long strike that ended with Sh20 billion agreement...
+- **Score parts:** tier +20, category +4, lead +2.4, relevance +8, freshness +19.5, corroborated +10, shock +18
 
-### 🟡 [77.6] Azur Air NW26 Mattala/Hambantota Operations
+### 🟡 [80.9] U.K. Holiday Tax Bill Would Grant Mayors Uncapped Levy Powers
+- **Verdict:** CONSIDER
+- **Source:** HVS — market reports and event-impact studies (via Hotel News Resource) · tier 2 · GLOBAL · trade
+- **First seen:** 2026-11-05T14:03+03:00 EAT · **Source date:** 2026-11-04
+- **URL:** https://www.hotelnewsresource.com/article143623.html
+- **Extract:** A new U.K. government bill would allow city mayors to impose uncapped tourist taxes, potentially increasing costs for hotels and accommodation providers in affected regions.
+- **Score parts:** tier +20, category +5, lead +2.4, relevance +24, freshness +19.5, corroborated +10
+
+### 🟡 [80.2] Parliament approves Shs148.2 billion loan for Mbarara cancer centre Thursday, 5 November 2026
+- **Verdict:** CONSIDER
+- **Source:** Parliament of Uganda · tier 1 · UG · legislature
+- **First seen:** 2026-11-05T14:01+03:00 EAT · **Source date:** — none stated
+- **URL:** https://www.parliament.go.ug/news/4707/parliament-approves-shs1482-billion-loan-mbarara-cancer-centre
+- **Score parts:** tier +40, category +10, lead +16.8, relevance +0, freshness +19.4, undated -6
+
+### 🟡 [80.2] Order Paper For Thursday, 5th November 2026
+- **Verdict:** CONSIDER
+- **Source:** Parliament of Kenya — bills & papers · tier 1 · KE · legislature
+- **First seen:** 2026-11-05T14:01+03:00 EAT · **Source date:** — none stated
+- **URL:** https://www.parliament.go.ke/sites/default/files/2026-11/%20ORDER%20PAPER%20FOR%20THURSDAY%2C%205TH%20NOVEMBER%202026_1.pdf
+- **Extract:** !"#$%&''(&#!)*%+$*,'(&!!!!!!!!!!!!!!!!-$.&#!/'00$1(!!2314!5657!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!289:87!!!;<)=>?@A!B-!C<3DE!!"F@;"<<3"F!)E;?@EG<3"!H!2-@-"F!/<//@B37!!!"#$%&!'(%&)$&**#+,)-$!B;I<;/!B-!"F<!IED!!!!"F=;/IEDJ!3BK<G><;!6LJ!868M!E"!84N6!)4G4!!(./#.$(0$,
+- **Score parts:** tier +40, category +10, lead +16.8, relevance +0, freshness +19.4, undated -6
+
+### 🟡 [79.9] Delta Adds Austin – Fayetteville/NW Arkansas Service From March 2027
 - **Verdict:** CONSIDER
 - **Source:** AeroRoutes schedule filings · tier 2 · GLOBAL · aviation-tracker
-- **First seen:** 2026-11-04T20:18+03:00 EAT · **Source date:** 2026-11-04
-- **URL:** https://www.aeroroutes.com/eng/261104-zfnw26hri
-- **Extract:** Published at 0900PCT / 1600GMT 04NOV26 Russian carrier Azur Air during Northern winter 2026/27 season schedules regular charter flights to Mattala/Hambantota in Sri Lanka. Planned charter operation for winter season as follows. Kazan – Mattala/Hambantota eff 0
-- **Score parts:** tier +20, category +14, lead +8.4, relevance +12, freshness +13.2, corroborated +10
+- **First seen:** 2026-11-05T14:03+03:00 EAT · **Source date:** 2026-11-05
+- **URL:** https://www.aeroroutes.com/eng/261105-dlmar27xna
+- **Extract:** Published at 0400PCT / 1100GMT 05NOV26 Delta in March 2027 continues to expand service at Austin, as the carrier schedules Austin – Fayetteville/NW Arkansas launch on 07MAR27. Skywest Embraer E175 aircraft to serve this route on daily basis. DL3626 AUS2059 – 2
+- **Score parts:** tier +20, category +14, lead +8.4, relevance +8, freshness +19.5, corroborated +10
+
+### 🟡 [79.8] MID TERM REVIEW OF HEALTH BASKET FUND FUNCTIONALITY AT ALL LEVE...
+- **Verdict:** CONSIDER
+- **Source:** Tanzania Ministry of Health · tier 1 · TZ · health
+- **First seen:** 2026-11-05T14:03+03:00 EAT · **Source date:** — none stated
+- **URL:** https://www.moh.go.tz/storage/app/uploads/public/6ae/c44/707/6aec447079b25050623363.pdf
+- **Extract:** ¢Ø×<'®xjÞÊmwOÉo#.æÊ#pá<Ö¶µá}gÃ°YË­Ø=Þ©h» *FáÁ Ö®µágÃÐÚK­X½Þ¢À ²ÆT÷'8Ï÷Bùÿ JóÊö òè| âÉ¼wgæ 6öÈ#vÒASÅÒhQøa]Î©rëy¬ÈÛ¨h¡Ý Û ÛH9U?cÁÁÂIN»"_ø Ø0*Jßv~pù#vÂT§áx#ø{á/øK/\Õ htI"Àórw ò«u!tað ÅW[ÔbhôVNaCÁ¸lO
+- **Score parts:** tier +40, category +24, lead +2.4, relevance +0, freshness +19.4, undated -6
+
+### 🟡 [79.8] Government Sets December 2026 Deadline for Pharmaceutical Manufacturers to Adopt GS1 Standards
+- **Verdict:** CONSIDER
+- **Source:** Kenya Ministry of Health · tier 1 · KE · health
+- **First seen:** 2026-11-05T14:02+03:00 EAT · **Source date:** — none stated
+- **URL:** https://www.health.go.ke/government-sets-december-2026-deadline-pharmaceutical-manufacturers-adopt-gs1-standards
+- **Score parts:** tier +40, category +24, lead +2.4, relevance +0, freshness +19.4, undated -6
+
+### 🟡 [79.8] Emergency 5 November 2026 | Feature Story Alain Alithum: restoring trust in communities affected by Bundibugyo virus dis
+- **Verdict:** CONSIDER
+- **Source:** WHO AFRO — Kenya country newsroom · tier 1 · KE · health
+- **First seen:** 2026-11-05T14:02+03:00 EAT · **Source date:** — none stated
+- **URL:** https://www.afro.who.int/countries/democratic-republic-of-congo/news/alain-alithum-restoring-trust-communities-affected-bundibugyo-virus-disease
+- **Score parts:** tier +40, category +24, lead +2.4, relevance +0, freshness +19.4, undated -6
+
+### 🟡 [79.8] Emergency 5 November 2026 | Feature Story Alain Alithum: restoring trust in communities affected by Bundibugyo virus dis
+- **Verdict:** CONSIDER
+- **Source:** WHO AFRO — Rwanda country newsroom · tier 1 · RW · health
+- **First seen:** 2026-11-05T14:02+03:00 EAT · **Source date:** — none stated
+- **URL:** https://www.afro.who.int/countries/democratic-republic-of-congo/news/alain-alithum-restoring-trust-communities-affected-bundibugyo-virus-disease
+- **Score parts:** tier +40, category +24, lead +2.4, relevance +0, freshness +19.4, undated -6
+
+### 🟡 [79.8] Emergency 5 November 2026 | Feature Story Alain Alithum: restoring trust in communities affected by Bundibugyo virus dis
+- **Verdict:** CONSIDER
+- **Source:** WHO AFRO — Uganda country newsroom · tier 1 · UG · health
+- **First seen:** 2026-11-05T14:02+03:00 EAT · **Source date:** — none stated
+- **URL:** https://www.afro.who.int/countries/democratic-republic-of-congo/news/alain-alithum-restoring-trust-communities-affected-bundibugyo-virus-disease
+- **Score parts:** tier +40, category +24, lead +2.4, relevance +0, freshness +19.4, undated -6
+
+### 🟡 [78.1] 47 hours back every month for Beaumier’s central reservations team
+- **Verdict:** CONSIDER
+- **Source:** Hospitality Net — Africa announcements · tier 2 · REG · trade
+- **First seen:** 2026-11-05T14:03+03:00 EAT · **Source date:** 2026-11-05
+- **URL:** https://www.hospitalitynet.org/casestudy/4135267/47-hours-back-every-month-for-beaumiers-central-reservations-team
+- **Extract:** Beaumier's 10-hotel group cut reservation offer handling time by 80% using AI tool Altek integrated with Opera Cloud and Outlook, saving 47 hours of team capacity monthly.
+- **Score parts:** tier +20, category +5, lead +3.6, relevance +20, freshness +19.5, corroborated +10
+
+### 🟡 [78.1] Event im Hilton Frankfurt Airport: Der Visit-USA-Vorstand wurde wiedergewählt
+- **Verdict:** CONSIDER
+- **Source:** FVW / German travel trade · tier 2 · GLOBAL · source-market
+- **First seen:** 2026-11-05T14:03+03:00 EAT · **Source date:** 2026-11-04
+- **URL:** https://www.fvw.de/touristik/vertrieb/event-im-hilton-frankfurt-airport-der-visit-usa-vorstand-wurde-wiedergewaehlt-265839
+- **Extract:** Am 30. und 31. Oktober hielt das Visit USA Committee Germany ein Event im Hilton Frankfurt Airport ab. Es fand die turnusgemäße Mitgliederversammlung sowie das jährliche Branchen- und Trainingsevent am Folgetag statt.
+- **Score parts:** tier +20, category +9, lead +3.6, relevance +16, freshness +19.5, corroborated +10
+
+### 🟡 [76.9] 47 hours back every month for Beaumier’s central reservations team
+- **Verdict:** CONSIDER
+- **Source:** Hospitality Net: Africa openings · tier 2 · AFRICA · trade
+- **First seen:** 2026-11-05T14:03+03:00 EAT · **Source date:** 2026-11-05
+- **URL:** https://www.hospitalitynet.org/casestudy/4135267/47-hours-back-every-month-for-beaumiers-central-reservations-team
+- **Extract:** Beaumier's 10-hotel group cut reservation offer handling time by 80% using AI tool Altek integrated with Opera Cloud and Outlook, saving 47 hours of team capacity monthly.
+- **Score parts:** tier +20, category +5, lead +2.4, relevance +20, freshness +19.5, corroborated +10
+
+### 🟡 [75.9] Air Congo NW26 Europe Aircraft Changes
+- **Verdict:** CONSIDER
+- **Source:** AeroRoutes schedule filings · tier 2 · GLOBAL · aviation-tracker
+- **First seen:** 2026-11-05T14:03+03:00 EAT · **Source date:** 2026-11-05
+- **URL:** https://www.aeroroutes.com/eng/261104-4hnw26eu
+- **Extract:** Published at 1600PCT / 2300GMT 04NOV26 Air Congo last week adjusted operational aircraft for Europe, as Kinshasa – Brussels – Paris Charles de Gaulle – Kinshasa service switched from Ethiopian Airlines 787-8 to MIAT Mongolian Airlines 787-9. The MIAT aircraft 
+- **Score parts:** tier +20, category +14, lead +8.4, relevance +4, freshness +19.5, corroborated +10
+
+### 🟡 [74.1] AHLA Announces 2026 HTNG TechOvation Award Winners
+- **Verdict:** CONSIDER
+- **Source:** Hospitality Net — Africa announcements · tier 2 · REG · trade
+- **First seen:** 2026-11-05T14:03+03:00 EAT · **Source date:** 2026-11-05
+- **URL:** https://www.hospitalitynet.org/news/4135285/ahla-announces-2026-htng-techovation-award-winners
+- **Extract:** AHLA/HTNG named Hotel Shield winner of the 2026 TechOvation Award for its AI vision platform that detects human trafficking in hotels via real-time watchlist matching and staff alerts.
+- **Score parts:** tier +20, category +5, lead +3.6, relevance +16, freshness +19.5, corroborated +10
+
+### 🟡 [74.1] "Proteste sind Teil der Kultur": Frankreich-Demos werden Tourismus nicht schaden
+- **Verdict:** CONSIDER
+- **Source:** FVW / German travel trade · tier 2 · GLOBAL · source-market
+- **First seen:** 2026-11-05T14:03+03:00 EAT · **Source date:** 2026-11-04
+- **URL:** https://www.fvw.de/touristik/destination/proteste-sind-teil-der-kultur-frankreich-demos-werden-tourismus-nicht-schaden-265831
+- **Extract:** In den vergangenen Jahren ist es in Frankreich immer wieder zu gewaltsamen Protesten gekommen. Doch die Anzahl der ausländischen Besucher ist von Jahr zu Jahr stetig gestiegen.
+- **Score parts:** tier +20, category +9, lead +3.6, relevance +12, freshness +19.5, corroborated +10
+
+### 🟡 [72.9] AHLA Announces 2026 HTNG TechOvation Award Winners
+- **Verdict:** CONSIDER
+- **Source:** Hospitality Net: Africa openings · tier 2 · AFRICA · trade
+- **First seen:** 2026-11-05T14:03+03:00 EAT · **Source date:** 2026-11-05
+- **URL:** https://www.hospitalitynet.org/news/4135285/ahla-announces-2026-htng-techovation-award-winners
+- **Extract:** AHLA/HTNG named Hotel Shield winner of the 2026 TechOvation Award for its AI vision platform that detects human trafficking in hotels via real-time watchlist matching and staff alerts.
+- **Score parts:** tier +20, category +5, lead +2.4, relevance +16, freshness +19.5, corroborated +10
+
+### 🟡 [72.9] 15 Ways to Attract More Hotel Direct Bookings - By Linda Pashaj
+- **Verdict:** CONSIDER
+- **Source:** HVS — market reports and event-impact studies (via Hotel News Resource) · tier 2 · GLOBAL · trade
+- **First seen:** 2026-11-05T14:03+03:00 EAT · **Source date:** 2026-11-04
+- **URL:** https://www.hotelnewsresource.com/article143634.html
+- **Extract:** Linda Pashaj outlines 15 actionable strategies for hotels to boost direct bookings, addressing the operational and revenue implications of shifting business away from online travel agencies toward proprietary channels.
+- **Score parts:** tier +20, category +5, lead +2.4, relevance +16, freshness +19.5, corroborated +10
+
+### 🟡 [72.9] What is GEO? What It Means for Independent Hotels - By Femke Nollet
+- **Verdict:** CONSIDER
+- **Source:** HVS — market reports and event-impact studies (via Hotel News Resource) · tier 2 · GLOBAL · trade
+- **First seen:** 2026-11-05T14:03+03:00 EAT · **Source date:** 2026-11-04
+- **URL:** https://www.hotelnewsresource.com/article143627.html
+- **Extract:** Femke Nollet explains the concept of Google Enhanced Optimization (GEO), detailing how this digital marketing tool can help independent hotels increase direct bookings and strengthen their online presence against larger hotel brands.
+- **Score parts:** tier +20, category +5, lead +2.4, relevance +16, freshness +19.5, corroborated +10
+
+### 🟡 [71.9] Democrats projected to win U.S. Congress in midterm elections
+- **Verdict:** CONSIDER
+- **Source:** The Independent (Uganda) · tier 2 · UG · press
+- **First seen:** 2026-11-05T14:03+03:00 EAT · **Source date:** 2026-11-05
+- **URL:** https://www.independent.co.ug/democrats-projected-to-win-u-s-congress-in-midterm-elections
+- **Extract:** WASHINGTON | Xinhua | Democrats are projected to flip control of the U.S. Senate after winning several key races in battleground states, securing control of both chambers of Congress in the midterm elections, election forecasting agency Decision Desk HQ report
+- **Score parts:** tier +20, category +4, lead +2.4, relevance +16, freshness +19.5, corroborated +10
