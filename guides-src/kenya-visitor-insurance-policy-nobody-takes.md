@@ -4,8 +4,9 @@ slug: kenya-visitor-insurance-policy-nobody-takes
 description: Since 5 October every short-stay visitor to Kenya has had to buy a state-channelled US$50,000 travel health policy that the High Court has now upheld, and the cost to operators is not the US$48 but the fact that the country's own travel agents are telling members to keep buying private cover on top of it.
 category: Big Read
 updated: 2026-11-06
+image: "img/editions/kenya-visitor-insurance-policy-nobody-takes.jpg"
+image_credit: "Photograph: Onyango George / EA Hospitality Pulse"
 ---
-
 On Thursday, Ghana's Ministry of Foreign Affairs published a notice through its High Commission in Nairobi. It told Ghanaians that every non-Kenyan travelling to Kenya for a stay of under twelve months, children included, must now hold a Kenyan travel health insurance policy bought through a Kenyan government portal, and that foreign travel insurance policies "will not be accepted for compliance." The advice was sound. It was also a month and a day late: the requirement took effect on 5 October. Zambia's foreign ministry had got there on 27 October, three weeks after the gate closed.
 
 That lag is not the story, but it is a useful measure of one. A rule that reaches source markets by diplomatic note, a month after enforcement begins, has not reached them through the trade. And the reason it has not is that the people who sell Kenya have spent since July trying to establish what the rule actually is, and are still trying.
