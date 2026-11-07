@@ -1,125 +1,225 @@
-# Radar candidates — midday slot
-_Window opens Sat 07 Nov 07:00 EAT · 351 observations in window · 16 headlines deduped against_
+# Radar candidates — evening slot
+_Window opens Fri 06 Nov 15:00 EAT · 951 observations in window · 16 headlines deduped against_
 
 Ranked by first-seen recency, source tier and hospitality relevance. `first seen` is when the radar observed the item, which is the date the recency gate runs on. `published` is what the source claims — where the two disagree, the disagreement is the story.
 
-### 🚨 [57.9] [page changed] Airlink news
+### 🚨 [54.4] [page changed] Airlink news
 - **Verdict:** OPEN THIS — tier-1 airline page moved; content not auto-parsed, read it manually
 - **Source:** Airlink news · tier 1 · REG · airline
 - **First seen:** 2026-11-07T08:46+03:00 EAT · **Source date:** — none stated
 - **URL:** https://www.flyairlink.com/
 - **Extract:** Request unsuccessful. Incapsula incident ID: 959000080215525450-92345318800032294
-- **Score parts:** tier +40, category +12, lead +3.6, relevance +0, freshness +12.3, undated -6, page_change -4
+- **Score parts:** tier +40, category +12, lead +3.6, relevance +0, freshness +8.8, undated -6, page_change -4
 
-### 🟡 [114.7] [page changed] ProMED-mail
+### 🚨 [45.6] [page changed] Airlink news
+- **Verdict:** OPEN THIS — tier-1 airline page moved; content not auto-parsed, read it manually
+- **Source:** Airlink news · tier 1 · REG · airline
+- **First seen:** 2026-11-06T19:47+03:00 EAT · **Source date:** — none stated
+- **URL:** https://www.flyairlink.com/
+- **Extract:** Request unsuccessful. Incapsula incident ID: 362000420094338606-26564531663276708
+- **Score parts:** tier +40, category +12, lead +3.6, relevance +0, freshness +0, undated -6, page_change -4
+
+### 🟡 [111.3] [page changed] ProMED-mail
 - **Verdict:** CONSIDER
 - **Source:** ProMED-mail · tier 2 · GLOBAL · health
 - **First seen:** 2026-11-07T08:48+03:00 EAT · **Source date:** — none stated
 - **URL:** https://promedmail.org/
 - **Shock language:** outbreak, evacuat
 - **Extract:** Protecting Global Health, One Alert at a Time | ProMED Previous slide Next slide Protecting Global Health, One Alert at a Time ProMED: Your 24/7 early warning system for emerging infectious diseases worldwide. Subscribe ProMED's Weekly Pulse A snapshot of glob
-- **Score parts:** tier +20, category +24, lead +2.4, relevance +48, freshness +12.3, undated -6, shock +18, page_change -4
+- **Score parts:** tier +20, category +24, lead +2.4, relevance +48, freshness +8.9, undated -6, shock +18, page_change -4
 
-### 🟠 [100.1] Hilton Miami Beach to Debut in Early 2027, Uniting Five Historic Art Deco and Miami Modern Buildings
+### 🟡 [110.2] [page changed] ProMED-mail
+- **Verdict:** CONSIDER
+- **Source:** ProMED-mail · tier 2 · GLOBAL · health
+- **First seen:** 2026-11-07T18:41+03:00 EAT · **Source date:** — none stated
+- **URL:** https://promedmail.org/
+- **Shock language:** outbreak
+- **Extract:** Protecting Global Health, One Alert at a Time | ProMED Previous slide Next slide Protecting Global Health, One Alert at a Time ProMED: Your 24/7 early warning system for emerging infectious diseases worldwide. Subscribe ProMED's Weekly Pulse A snapshot of glob
+- **Score parts:** tier +20, category +24, lead +2.4, relevance +36, freshness +19.8, undated -6, shock +18, page_change -4
+
+### 🟠 [96.6] Hilton Miami Beach to Debut in Early 2027, Uniting Five Historic Art Deco and Miami Modern Buildings
 - **Verdict:** STRONG — tier-1, upstream
 - **Source:** Hilton stories/newsroom · tier 1 · GLOBAL · hotel-group
 - **First seen:** 2026-11-07T08:46+03:00 EAT · **Source date:** 2026-11-07
 - **URL:** https://stories.hilton.com/releases/hilton-miami-beach-to-debut-in-early-2027-uniting-five-historic-art-deco-and-miami-modern-buildings
 - **Extract:** MIAMI BEACH, FL (November 6, 2026) – Hilton Miami Beach, a new 289-room hotel anticipated to open in early 2027, will bring Hilton Hotels & Resorts signature global hospitality to Miami Beach’s Museum Historic District. The property will unite five historic bu
-- **Score parts:** tier +40, category +9, lead +16.8, relevance +12, freshness +12.3, corroborated +10
+- **Score parts:** tier +40, category +9, lead +16.8, relevance +12, freshness +8.8, corroborated +10
 
-### 🟠 [93.7] SitRep N°175/MVE-BDBV/05/11/2026
+### 🟠 [90.2] SitRep N°175/MVE-BDBV/05/11/2026
 - **Verdict:** STRONG — tier-1, upstream
 - **Source:** INSP RDC — Ebola daily situation reports (SitRep) · tier 1 · GLOBAL · health
 - **First seen:** 2026-11-07T13:18+03:00 EAT · **Source date:** 2026-11-07
 - **URL:** https://insp.cd/sitrep-n175-mve-bdbv-05-11-2026
-- **Score parts:** tier +40, category +24, lead +2.4, relevance +0, freshness +17.3, corroborated +10
+- **Score parts:** tier +40, category +24, lead +2.4, relevance +0, freshness +13.8, corroborated +10
 
-### 🟡 [84.1] 7 Nov 26 TIRA NA ARIS WAANZA SAFARI YA KUPANDA MLIMA KILIMANJARO; KAM... Kamishna wa Bima Tanzania, Dkt. Baghayo Saqware
+### 🟡 [88.4] BeOnd Suspends Scheduled Service in Nov 2026
+- **Verdict:** CONSIDER
+- **Source:** AeroRoutes schedule filings · tier 2 · GLOBAL · aviation-tracker
+- **First seen:** 2026-11-06T19:47+03:00 EAT · **Source date:** 2026-11-06
+- **URL:** https://www.aeroroutes.com/eng/261106-b4nov26
+- **Extract:** Published 0700PCT / 1400GMT 06NOV26 Maldivian boutique carrier BeOnd on 30OCT26 announced scheduled service in November 2026 will be cancelled, affecting following routes. Male – Dubai al Maktoum – Munich 2 weekly A319 Male – Dubai al Maktoum – Zurich 2 weekly
+- **Score parts:** tier +20, category +14, lead +8.4, relevance +36, freshness +0, corroborated +10
+
+### 🟡 [81.4] [page changed] Federal Register — public inspection (HHS/CDC), pre-publication
+- **Verdict:** CHECK — source date older than the window
+- **Source:** Federal Register — public inspection (HHS/CDC), pre-publication · tier 1 · REG · advisory
+- **First seen:** 2026-11-07T18:41+03:00 EAT · **Source date:** 2026-11-04
+- **URL:** https://www.federalregister.gov/api/v1/public-inspection-documents/current.json
+- **Extract:** {"count":103,"results":[{"agencies":[{"raw_name":"Centers for Medicare & Medicaid Services","name":"Centers for Medicare & Medicaid Services","id":45,"url":"https://www.federalregister.gov/agencies/centers-for-medicare-medicaid-services","json_url":"https://ww
+- **Score parts:** tier +40, category +32, lead +3.6, relevance +0, freshness +19.8, stale_trap -10, page_change -4
+
+### 🟡 [80.6] 7 Nov 26 TIRA NA ARIS WAANZA SAFARI YA KUPANDA MLIMA KILIMANJARO; KAM... Kamishna wa Bima Tanzania, Dkt. Baghayo Saqware
 - **Verdict:** CONSIDER
 - **Source:** Tanzania Insurance Regulatory Authority (TIRA) · tier 1 · TZ · regulator
 - **First seen:** 2026-11-07T08:46+03:00 EAT · **Source date:** — none stated
 - **URL:** https://www.tira.go.tz/news/tira-na-aris-waanza-safari-ya-kupanda-mlima-kilimanjaro-kamishna-wa-bima-ashiriki
-- **Score parts:** tier +40, category +17, lead +16.8, relevance +4, freshness +12.3, undated -6
+- **Score parts:** tier +40, category +17, lead +16.8, relevance +4, freshness +8.8, undated -6
 
-### 🟡 [78.8] [page changed] Federal Register — public inspection (HHS/CDC), pre-publication
+### 🟡 [77.8] Wendi Launches Weekly Rewards Campaign to Boost Digital Transactions
+- **Verdict:** CONSIDER
+- **Source:** SoftPower News — Tourism & Travel (Uganda) · tier 2 · UG · press
+- **First seen:** 2026-11-07T18:41+03:00 EAT · **Source date:** 2026-11-07
+- **URL:** https://softpower.ug/wendi-launches-weekly-rewards-campaign-to-boost-digital-transactions
+- **Extract:** Pearl Bank’s mobile wallet, Wendi, has launched a weekly rewards campaign offering customers fuel vouchers, smartphones, household appliances and cash prizes for making digital transactions worth at least Shs10,000. The campaign, dubbed Wendi Ku Win, was launc
+- **Score parts:** tier +20, category +4, lead +0, relevance +24, freshness +19.8, corroborated +10
+
+### 🟡 [76.0] Ebola: Two new vaccine trials begin as outbreak tops 10,000 cases in Congo
+- **Verdict:** CONSIDER
+- **Source:** The EastAfrican · tier 2 · REG · press
+- **First seen:** 2026-11-06T22:00+03:00 EAT · **Source date:** 2026-11-06
+- **URL:** https://www.theeastafrican.co.ke/tea/sustainability/health/ebola-two-new-vaccine-trials-begin-congo-5661328
+- **Shock language:** outbreak
+- **Extract:** The trials raise hopes of stronger protection against the Bundibugyo strain of the virus.
+- **Score parts:** tier +20, category +4, lead +0, relevance +24, freshness +0, corroborated +10, shock +18
+
+### 🟡 [75.4] [page changed] Federal Register — public inspection (HHS/CDC), pre-publication
 - **Verdict:** CHECK — source date older than the window
 - **Source:** Federal Register — public inspection (HHS/CDC), pre-publication · tier 1 · REG · advisory
 - **First seen:** 2026-11-07T13:18+03:00 EAT · **Source date:** 2026-11-04
 - **URL:** https://www.federalregister.gov/api/v1/public-inspection-documents/current.json
 - **Extract:** {"count":103,"results":[{"agencies":[{"raw_name":"Centers for Medicare & Medicaid Services","name":"Centers for Medicare & Medicaid Services","id":45,"url":"https://www.federalregister.gov/agencies/centers-for-medicare-medicaid-services","json_url":"https://ww
-- **Score parts:** tier +40, category +32, lead +3.6, relevance +0, freshness +17.2, stale_trap -10, page_change -4
+- **Score parts:** tier +40, category +32, lead +3.6, relevance +0, freshness +13.8, stale_trap -10, page_change -4
 
-### 🟡 [75.3] [page changed] Federal Register — CDC notices
+### 🟡 [74.3] Ukraine launches public consultation on Sustainable Tourism Strategy
+- **Verdict:** CONSIDER
+- **Source:** EU Tourism Transition Pathway — legislation & guidance · tier 1 · REG · regulator
+- **First seen:** 2026-11-07T02:59+03:00 EAT · **Source date:** — none stated
+- **URL:** https://transition-pathways.europa.eu/tourism/news/ukraine-launches-public-consultation-sustainable-tourism-strategy
+- **Score parts:** tier +40, category +17, lead +16.8, relevance +4, freshness +2.5, undated -6
+
+### 🟡 [74.3] Stakeholder Forum – DEPLOYTOUR : Building the European Tourism Data Space Together
+- **Verdict:** CONSIDER
+- **Source:** EU Tourism Transition Pathway — legislation & guidance · tier 1 · REG · regulator
+- **First seen:** 2026-11-07T02:59+03:00 EAT · **Source date:** — none stated
+- **URL:** https://transition-pathways.europa.eu/tourism/events/stakeholder-forum-deploytour-building-european-tourism-data-space-together
+- **Score parts:** tier +40, category +17, lead +16.8, relevance +4, freshness +2.5, undated -6
+
+### 🟡 [73.8] KAA Approves FY 2026/2027 Annual Procurement Plan on the eGP System
+- **Verdict:** CONSIDER
+- **Source:** KAA tenders · tier 1 · KE · tender
+- **First seen:** 2026-11-06T19:47+03:00 EAT · **Source date:** 2026-11-06
+- **URL:** https://www.kaa.go.ke/kaa-approves-fy-2026-2027-annual-procurement-plan-egp
+- **Extract:** The Managing Director and CEO, Mr Moses Wekesa, has approved the Authority’s Consolidated Annual Procurement Plan for FY 2026/2027 on the Electronic Government Procurement (eGP) system.
+- **Score parts:** tier +40, category +7, lead +16.8, relevance +0, freshness +0, corroborated +10
+
+### 🟡 [72.4] CS Duale, UNICEF Review Kenya’s Ebola Response and Strengthen Health Emergency Preparedness
+- **Verdict:** CONSIDER
+- **Source:** Kenya Ministry of Health · tier 1 · KE · health
+- **First seen:** 2026-11-06T19:47+03:00 EAT · **Source date:** — none stated
+- **URL:** https://www.health.go.ke/index.php/cs-duale-unicef-review-kenyas-ebola-response-and-strengthen-health-emergency-preparedness
+- **Score parts:** tier +40, category +24, lead +2.4, relevance +12, freshness +0, undated -6
+
+### 🟡 [71.9] [page changed] Federal Register — CDC notices
 - **Verdict:** CHECK — source date older than the window
 - **Source:** Federal Register — CDC notices · tier 1 · REG · advisory
 - **First seen:** 2026-11-07T08:47+03:00 EAT · **Source date:** 2026-10-28
 - **URL:** https://www.federalregister.gov/api/v1/documents.rss?conditions%5Bagencies%5D%5B%5D=centers-for-disease-control-and-prevention&order=newest
 - **Extract:** Federal Register Documents published on or after 10/08/2026 and from Centers for Disease Control and Prevention https://www.federalregister.gov/api/v1/documents.rss?conditions%5Bagencies%5D%5B%5D=centers-for-disease-control-and-prevention&order=newest Mon, 02 
-- **Score parts:** tier +40, category +32, lead +12, relevance +8, freshness +12.3, stale_trap -25, page_change -4
+- **Score parts:** tier +40, category +32, lead +12, relevance +8, freshness +8.9, stale_trap -25, page_change -4
 
-### 🟡 [75.0] Advancing on Nationwide Mosquito Net Coverage as Preparations for Final Distribution Wave Begin.
+### 🟡 [71.6] Advancing on Nationwide Mosquito Net Coverage as Preparations for Final Distribution Wave Begin.
 - **Verdict:** CHECK — source date older than the window
 - **Source:** Uganda Ministry of Health — news · tier 1 · UG · health
 - **First seen:** 2026-11-07T15:37+03:00 EAT · **Source date:** 2026-11-04
 - **URL:** http://localhost:8080/Advancing-on-Nationwide-Mosquito-Net-Coverage-as-Preparations-for-Final-Distribution-Wave-Begin.
-- **Score parts:** tier +40, category +24, lead +1.2, relevance +0, freshness +19.8, stale_trap -10
+- **Score parts:** tier +40, category +24, lead +1.2, relevance +0, freshness +16.4, stale_trap -10
 
-### 🟡 [75.0] Ministry of Health, UNFPA Advance Plans to Scale Up Midwifery Models of Care in Uganda.
+### 🟡 [71.6] Ministry of Health, UNFPA Advance Plans to Scale Up Midwifery Models of Care in Uganda.
 - **Verdict:** CHECK — source date older than the window
 - **Source:** Uganda Ministry of Health — news · tier 1 · UG · health
 - **First seen:** 2026-11-07T15:37+03:00 EAT · **Source date:** 2026-11-03
 - **URL:** http://localhost:8080/Ministry-of-Health,-UNFPA-Advance-Plans-to-Scale-Up-Midwifery-Models-of-Care-in-Uganda.
-- **Score parts:** tier +40, category +24, lead +1.2, relevance +0, freshness +19.8, stale_trap -10
+- **Score parts:** tier +40, category +24, lead +1.2, relevance +0, freshness +16.4, stale_trap -10
 
-### 🟡 [75.0] Advancing on Nationwide Mosquito Net Coverage as Preparations for Final Distribution Wave Begin.
+### 🟡 [71.6] Advancing on Nationwide Mosquito Net Coverage as Preparations for Final Distribution Wave Begin.
 - **Verdict:** CHECK — source date older than the window
 - **Source:** Uganda Ministry of Health · tier 1 · UG · health
 - **First seen:** 2026-11-07T15:37+03:00 EAT · **Source date:** 2026-11-04
 - **URL:** http://localhost:8080/Advancing-on-Nationwide-Mosquito-Net-Coverage-as-Preparations-for-Final-Distribution-Wave-Begin.
-- **Score parts:** tier +40, category +24, lead +1.2, relevance +0, freshness +19.8, stale_trap -10
+- **Score parts:** tier +40, category +24, lead +1.2, relevance +0, freshness +16.4, stale_trap -10
 
-### 🟡 [75.0] Ministry of Health, UNFPA Advance Plans to Scale Up Midwifery Models of Care in Uganda.
+### 🟡 [71.6] Ministry of Health, UNFPA Advance Plans to Scale Up Midwifery Models of Care in Uganda.
 - **Verdict:** CHECK — source date older than the window
 - **Source:** Uganda Ministry of Health · tier 1 · UG · health
 - **First seen:** 2026-11-07T15:37+03:00 EAT · **Source date:** 2026-11-03
 - **URL:** http://localhost:8080/Ministry-of-Health,-UNFPA-Advance-Plans-to-Scale-Up-Midwifery-Models-of-Care-in-Uganda.
-- **Score parts:** tier +40, category +24, lead +1.2, relevance +0, freshness +19.8, stale_trap -10
+- **Score parts:** tier +40, category +24, lead +1.2, relevance +0, freshness +16.4, stale_trap -10
 
-### 🟡 [73.9] [page changed] Federal Register — public inspection (HHS/CDC), pre-publication
+### 🟡 [71.0] EAC Honours East Africa’s Quality Champions at Regional Quality Awards in Kigali
+- **Verdict:** CONSIDER
+- **Source:** East African Community — Secretariat news · tier 1 · Regional · body
+- **First seen:** 2026-11-06T22:00+03:00 EAT · **Source date:** 2026-11-06
+- **URL:** https://www.eac.int/press-releases/157-trade/3615-eac-honours-east-africa%E2%80%99s-quality-champions-at-regional-quality-awards-in-kigali
+- **Extract:** 26 organisations from six EAC Partner States recognised for excellence in quality, innovation and competitiveness. East African Community headquarters, Arusha, Tanzania, 6th November 2026: The East African Community (EAC) honoured 26 organisations at its 2026 
+- **Score parts:** tier +40, category +7, lead +6, relevance +8, freshness +0, corroborated +10
+
+### 🟡 [70.7] 𝐒𝐄𝐍𝐀𝐓𝐄 𝐔𝐑𝐆𝐄𝐃 𝐓𝐎 𝐒𝐓𝐑𝐈𝐊𝐄 𝐎𝐔𝐓 𝐓𝐎𝐔𝐑𝐈𝐒𝐌 𝐑𝐄𝐆𝐔𝐋𝐀𝐓𝐈𝐎𝐍𝐒
+- **Verdict:** CONSIDER
+- **Source:** Senate Committee on Delegated Legislation (Kenya) — the committee that annuls or accedes to statutory instruments · tier 1 · KE · REG
+- **First seen:** 2026-11-07T18:40+03:00 EAT · **Source date:** — none stated
+- **URL:** https://www.parliament.go.ke/index.php/node/26624
+- **Score parts:** tier +40, category +5, lead +12, relevance +0, freshness +19.7, undated -6
+
+### 🟡 [70.7] 𝐉𝐋𝐀𝐂 𝐓𝐇𝐑𝐎𝐖𝐒 𝐈𝐓𝐒 𝐖𝐄𝐈𝐆𝐇𝐓 𝐁𝐄𝐇𝐈𝐍𝐃 𝐂𝐀𝐌𝐏𝐀𝐈𝐆𝐍 𝐅𝐎𝐑 𝐄𝐑𝐀𝐃𝐈𝐂𝐀𝐓𝐈𝐎𝐍 𝐎𝐅 𝐓𝐇𝐄 𝐌𝐀𝐍𝐃𝐀𝐓𝐎𝐑𝐘 𝐃𝐄𝐀𝐓𝐇 𝐒𝐄𝐍𝐓𝐄𝐍𝐂𝐄 𝐀𝐒 𝐈𝐓 𝐇𝐎𝐒𝐓𝐒 𝐈𝐂𝐃𝐏 𝐃𝐄𝐋𝐄𝐆𝐀𝐓𝐈𝐎𝐍
+- **Verdict:** CONSIDER
+- **Source:** Senate Committee on Delegated Legislation (Kenya) — the committee that annuls or accedes to statutory instruments · tier 1 · KE · REG
+- **First seen:** 2026-11-07T18:40+03:00 EAT · **Source date:** — none stated
+- **URL:** https://www.parliament.go.ke/index.php/node/26623
+- **Score parts:** tier +40, category +5, lead +12, relevance +0, freshness +19.7, undated -6
+
+### 🟡 [70.7] 𝐉𝐋𝐀𝐂 𝐂𝐎𝐍𝐒𝐈𝐃𝐄𝐑𝐒 𝐁𝐈𝐋𝐋 𝐓𝐎 𝐄𝐍𝐇𝐀𝐍𝐂𝐄 𝐋𝐄𝐆𝐀𝐋 𝐅𝐑𝐀𝐌𝐄𝐖𝐎𝐑𝐊 𝐂𝐎𝐍𝐂𝐄𝐑𝐍𝐈𝐍𝐁𝐆 𝐂𝐎𝐔𝐑𝐓𝐒 𝐎𝐅 𝐀𝐑𝐌𝐒 𝐀𝐍𝐃 𝐎𝐓𝐇𝐄𝐑 𝐎𝐅𝐅𝐈𝐂𝐈𝐀𝐋 𝐒𝐘𝐌𝐁𝐎𝐋𝐒
+- **Verdict:** CONSIDER
+- **Source:** Senate Committee on Delegated Legislation (Kenya) — the committee that annuls or accedes to statutory instruments · tier 1 · KE · REG
+- **First seen:** 2026-11-07T18:40+03:00 EAT · **Source date:** — none stated
+- **URL:** https://www.parliament.go.ke/index.php/node/26622
+- **Score parts:** tier +40, category +5, lead +12, relevance +0, freshness +19.7, undated -6
+
+### 🟡 [70.7] 𝐄𝐍𝐇𝐀𝐍𝐂𝐄 𝐈𝐍𝐂𝐋𝐔𝐒𝐈𝐕𝐈𝐓𝐘 𝐀𝐍𝐃 𝐅𝐀𝐈𝐑𝐍𝐄𝐒𝐒 𝐈𝐍 𝐑𝐄𝐂𝐑𝐔𝐈𝐓𝐌𝐄𝐍𝐓 𝐎𝐅 𝐒𝐓𝐀𝐅𝐅 𝐅𝐎𝐑 𝐁𝐄𝐓𝐓𝐄𝐑 𝐑𝐄𝐆𝐈𝐎𝐍𝐀𝐋 𝐃𝐈𝐕𝐄𝐑𝐒𝐈𝐓𝐘: 𝐏𝐈𝐂 𝐂𝐀&𝐄 𝐃𝐈𝐑𝐄𝐂𝐓𝐒
+- **Verdict:** CONSIDER
+- **Source:** Senate Committee on Delegated Legislation (Kenya) — the committee that annuls or accedes to statutory instruments · tier 1 · KE · REG
+- **First seen:** 2026-11-07T18:40+03:00 EAT · **Source date:** — none stated
+- **URL:** https://www.parliament.go.ke/index.php/node/26621
+- **Score parts:** tier +40, category +5, lead +12, relevance +0, freshness +19.7, undated -6
+
+### 🟡 [70.5] [page changed] Federal Register — public inspection (HHS/CDC), pre-publication
 - **Verdict:** CHECK — source date older than the window
 - **Source:** Federal Register — public inspection (HHS/CDC), pre-publication · tier 1 · REG · advisory
 - **First seen:** 2026-11-07T08:46+03:00 EAT · **Source date:** 2026-11-04
 - **URL:** https://www.federalregister.gov/api/v1/public-inspection-documents/current.json
 - **Extract:** {"count":103,"results":[{"agencies":[{"raw_name":"Centers for Medicare & Medicaid Services","name":"Centers for Medicare & Medicaid Services","id":45,"url":"https://www.federalregister.gov/agencies/centers-for-medicare-medicaid-services","json_url":"https://ww
-- **Score parts:** tier +40, category +32, lead +3.6, relevance +0, freshness +12.3, stale_trap -10, page_change -4
+- **Score parts:** tier +40, category +32, lead +3.6, relevance +0, freshness +8.9, stale_trap -10, page_change -4
 
-### 🟡 [73.7] PPP Boss Responds to Double Taxation Claims Over Rironi-Mau Summit Toll
+### 🟡 [70.3] Tivoli Hotels & Resorts Celebrates the Festive Season with Timeless Experiences Across Europe
+- **Verdict:** CONSIDER
+- **Source:** Minor Hotels newsroom · tier 1 · GLOBAL · hotel-group
+- **First seen:** 2026-11-07T02:59+03:00 EAT · **Source date:** — none stated
+- **URL:** https://media.minorhotels.com/en-GLO/274134-tivoli-hotels-resorts-celebrates-the-festive-season-with-timeless-experiences-across-europe
+- **Score parts:** tier +40, category +9, lead +16.8, relevance +8, freshness +2.5, undated -6
+
+### 🟡 [70.2] PPP Boss Responds to Double Taxation Claims Over Rironi-Mau Summit Toll
 - **Verdict:** CONSIDER
 - **Source:** Kenyans.co.ke news · tier 2 · KE · press
 - **First seen:** 2026-11-07T13:18+03:00 EAT · **Source date:** 2026-11-07
 - **URL:** https://www.kenyans.co.ke/news/129208-ppp-boss-responds-double-taxation-claims-over-rironi-mau-summit-toll
 - **Extract:** The explanation comes amid growing opposition to the proposed toll charges, with COFEK challenging the Ksh8 per kilometre tariff before the PPP Petition Committee.
-- **Score parts:** tier +20, category +4, lead +2.4, relevance +20, freshness +17.3, corroborated +10
-
-### 🟡 [70.4] Bis Ende 2028 geregelt: Condor sichert den Tariffrieden an Bord
-- **Verdict:** CONSIDER
-- **Source:** FVW / German travel trade · tier 2 · GLOBAL · source-market
-- **First seen:** 2026-11-07T15:37+03:00 EAT · **Source date:** 2026-11-06
-- **URL:** https://www.fvw.de/touristik/verkehr/bis-ende-2028-geregelt-condor-sichert-tariffrieden-an-bord-265898
-- **Extract:** Mehr planbare Freizeit und verlässlichere freie Tage: Condor und die Kabinengewerkschaft UFO haben sich auf neue Regeln für das fliegende Personal geeinigt. Auch die Passagiere profitieren.
-- **Score parts:** tier +20, category +9, lead +3.6, relevance +8, freshness +19.8, corroborated +10
-
-### 🟡 [64.0] Ministry of Health Concludes Two-Day Integrated Health Camp for Staff
-- **Verdict:** CHECK — source date older than the window
-- **Source:** Uganda Ministry of Health — news · tier 1 · UG · health
-- **First seen:** 2026-11-07T15:37+03:00 EAT · **Source date:** 2026-10-22
-- **URL:** http://localhost:8080/Ministry-of-Health-Concludes-Two-Day-Integrated-Health-Camp-for-Staff
-- **Score parts:** tier +40, category +24, lead +1.2, relevance +4, freshness +19.8, stale_trap -25
-
-### 🟡 [64.0] Ministry of Health Concludes Two-Day Integrated Health Camp for Staff
-- **Verdict:** CHECK — source date older than the window
-- **Source:** Uganda Ministry of Health · tier 1 · UG · health
-- **First seen:** 2026-11-07T15:37+03:00 EAT · **Source date:** 2026-10-22
-- **URL:** http://localhost:8080/Ministry-of-Health-Concludes-Two-Day-Integrated-Health-Camp-for-Staff
-- **Score parts:** tier +40, category +24, lead +1.2, relevance +4, freshness +19.8, stale_trap -25
+- **Score parts:** tier +20, category +4, lead +2.4, relevance +20, freshness +13.8, corroborated +10
