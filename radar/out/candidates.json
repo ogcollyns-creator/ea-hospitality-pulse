@@ -1,18 +1,18 @@
 {
- "generated": "2026-11-08T02:30:53+03:00",
+ "generated": "2026-11-08T08:00:01+03:00",
  "slot": "morning",
  "window_start": 1794063600,
- "observations_in_window": 268,
- "deduped_against": 16,
+ "observations_in_window": 320,
+ "deduped_against": 15,
  "candidates": [
   {
-   "score": 59.9,
+   "score": 53.9,
    "components": {
     "tier": 40,
     "category": 12,
     "lead": 3.6,
     "relevance": 0,
-    "freshness": 14.3,
+    "freshness": 8.3,
     "undated": -6,
     "page_change": -4
    },
@@ -40,13 +40,13 @@
    "verdict": "OPEN THIS \u2014 tier-1 airline page moved; content not auto-parsed, read it manually"
   },
   {
-   "score": 101.6,
+   "score": 95.6,
    "components": {
     "tier": 20,
     "category": 24,
     "lead": 2.4,
     "relevance": 36,
-    "freshness": 11.2,
+    "freshness": 5.2,
     "undated": -6,
     "shock": 18,
     "page_change": -4
@@ -81,13 +81,13 @@
    "verdict": "CONSIDER"
   },
   {
-   "score": 93.8,
+   "score": 87.7,
    "components": {
     "tier": 20,
     "category": 24,
     "lead": 2.4,
     "relevance": 24,
-    "freshness": 15.4,
+    "freshness": 9.3,
     "undated": -6,
     "shock": 18,
     "page_change": -4
@@ -121,13 +121,46 @@
    "verdict": "CONSIDER"
   },
   {
-   "score": 82.1,
+   "score": 81.4,
+   "components": {
+    "tier": 40,
+    "category": 32,
+    "lead": 3.6,
+    "relevance": 0,
+    "freshness": 19.8,
+    "stale_trap": -10,
+    "page_change": -4
+   },
+   "keywords": [],
+   "shock_terms": [],
+   "dedupe_match": null,
+   "dedupe_similarity": 0.2,
+   "id": "8a35dfbd7a49",
+   "title": "[page changed] Federal Register \u2014 public inspection (HHS/CDC), pre-publication",
+   "url": "https://www.federalregister.gov/api/v1/public-inspection-documents/current.json",
+   "summary": "{\"count\":103,\"results\":[{\"agencies\":[{\"raw_name\":\"Centers for Medicare & Medicaid Services\",\"name\":\"Centers for Medicare & Medicaid Services\",\"id\":45,\"url\":\"https://www.federalregister.gov/agencies/centers-for-medicare-medicaid-services\",\"json_url\":\"https://www.federalregister.gov/api/v1/agencies/45\",\"parent_id\":221,\"slug\":\"centers-for-medicare-medicaid-services\"}],\"agency_letters\":[],\"agency_name",
+   "kind": "page-change",
+   "source": "Federal Register \u2014 public inspection (HHS/CDC), pre-publication",
+   "source_id": "us-fedreg-pubinspect-hhs",
+   "tier": 1,
+   "country": "REG",
+   "category": "advisory",
+   "segments": [
+    "city",
+    "bush"
+   ],
+   "first_seen": "2026-11-08T07:57+03:00",
+   "published": "2026-11-04",
+   "verdict": "CHECK \u2014 source date older than the window"
+  },
+  {
+   "score": 76.1,
    "components": {
     "tier": 40,
     "category": 17,
     "lead": 16.8,
     "relevance": 0,
-    "freshness": 14.3,
+    "freshness": 8.3,
     "undated": -6
    },
    "keywords": [],
@@ -154,13 +187,13 @@
    "verdict": "CONSIDER"
   },
   {
-   "score": 81.4,
+   "score": 75.3,
    "components": {
     "tier": 40,
     "category": 32,
     "lead": 3.6,
     "relevance": 0,
-    "freshness": 19.8,
+    "freshness": 13.7,
     "stale_trap": -10,
     "page_change": -4
    },
@@ -187,13 +220,51 @@
    "verdict": "CHECK \u2014 source date older than the window"
   },
   {
-   "score": 75.9,
+   "score": 72.2,
+   "components": {
+    "tier": 20,
+    "category": 4,
+    "lead": 2.4,
+    "relevance": 16,
+    "freshness": 19.8,
+    "corroborated": 10
+   },
+   "keywords": [
+    "summit",
+    "operator",
+    "traffic",
+    "passenger"
+   ],
+   "shock_terms": [],
+   "dedupe_match": null,
+   "dedupe_similarity": 0.1,
+   "id": "6261d5c2d817",
+   "title": "PSV Operator Issues Notice to Passengers after Motorists Spend Night on Nairobi-Nakuru Highway",
+   "url": "https://www.kenyans.co.ke/news/129222-ena-coach-warns-passengers-delays-traffic-snarl-hits-nakuru-nairobi-highway",
+   "summary": "The government is moving to reduce traffic along the highway with the construction of the Rironi-Mau Summit road, with a section of the road expected to be opened by December as travel surges.",
+   "kind": "item",
+   "source": "Kenyans.co.ke news",
+   "source_id": "ke-kenyans",
+   "tier": 2,
+   "country": "KE",
+   "category": "press",
+   "segments": [
+    "city",
+    "bush",
+    "beach"
+   ],
+   "first_seen": "2026-11-08T07:58+03:00",
+   "published": "2026-11-08",
+   "verdict": "CONSIDER"
+  },
+  {
+   "score": 69.9,
    "components": {
     "tier": 40,
     "category": 32,
     "lead": 3.6,
     "relevance": 0,
-    "freshness": 14.3,
+    "freshness": 8.3,
     "stale_trap": -10,
     "page_change": -4
    },
@@ -220,79 +291,49 @@
    "verdict": "CHECK \u2014 source date older than the window"
   },
   {
-   "score": 72.8,
+   "score": 68.2,
    "components": {
-    "tier": 40,
-    "category": 13,
-    "lead": 6.0,
-    "relevance": 0,
+    "tier": 20,
+    "category": 4,
+    "lead": 2.4,
+    "relevance": 12,
     "freshness": 19.8,
-    "undated": -6
+    "corroborated": 10
    },
-   "keywords": [],
+   "keywords": [
+    "eta",
+    "traffic"
+   ],
    "shock_terms": [],
    "dedupe_match": null,
-   "dedupe_similarity": 0.11,
-   "id": "c5de66ba004e",
-   "title": "News &nbsp; The sudden passing of Mr Peter Erasto Chinyama on Friday, 6 November 2026, was solemnly commemorated yesterday during the Africa&ndash;India... - 7 November, 2026",
-   "url": "https://www.tcaa.go.tz/news/africa-s-aviation-community-pays-tribute-to-the-late-peter-erasto-chinyama",
-   "summary": "",
+   "dedupe_similarity": 0.12,
+   "id": "fa7b70e0895f",
+   "title": "Myanmar frees Ugandan trafficking victim as 20 others await return",
+   "url": "https://www.independent.co.ug/myanmar-frees-ugandan-trafficking-victim-as-20-others-await-return",
+   "summary": "Kampala, Uganda | URN | Myanmar authorities have released a Ugandan national, Felix Adupe, who was allegedly trafficked into the Southeast Asian country and detained in a facility linked to the growing network of forced online scam operations. The release, announced by Foreign Affairs Minister Ambassador Adonia Ayebare, took place at 5:15 p.m. local \u2026 The post Myanmar frees Ugandan trafficking vic",
    "kind": "item",
-   "source": "Tanzania Civil Aviation Authority",
-   "source_id": "tz-tcaa",
-   "tier": 1,
-   "country": "TZ",
-   "category": "aviation",
+   "source": "The Independent (Uganda)",
+   "source_id": "ug-independent",
+   "tier": 2,
+   "country": "UG",
+   "category": "press",
    "segments": [
     "city",
     "bush",
     "beach"
    ],
-   "first_seen": "2026-11-08T02:29+03:00",
-   "published": null,
-   "verdict": "CONSIDER"
+   "first_seen": "2026-11-08T07:58+03:00",
+   "published": "2026-11-08",
+   "verdict": "weak"
   },
   {
-   "score": 72.8,
-   "components": {
-    "tier": 40,
-    "category": 13,
-    "lead": 6.0,
-    "relevance": 0,
-    "freshness": 19.8,
-    "undated": -6
-   },
-   "keywords": [],
-   "shock_terms": [],
-   "dedupe_match": null,
-   "dedupe_similarity": 0.2,
-   "id": "75b4a2fada91",
-   "title": "News The Director General of the Tanzania Civil Aviation Authority, Dr. Jabiri K. Bakari, is deeply saddened to announce the death of our colleague, Mr. Pe... - 7 November, 2026",
-   "url": "https://www.tcaa.go.tz/news/death-announcement",
-   "summary": "",
-   "kind": "item",
-   "source": "Tanzania Civil Aviation Authority",
-   "source_id": "tz-tcaa",
-   "tier": 1,
-   "country": "TZ",
-   "category": "aviation",
-   "segments": [
-    "city",
-    "bush",
-    "beach"
-   ],
-   "first_seen": "2026-11-08T02:29+03:00",
-   "published": null,
-   "verdict": "CONSIDER"
-  },
-  {
-   "score": 72.8,
+   "score": 66.8,
    "components": {
     "tier": 40,
     "category": 32,
     "lead": 3.6,
     "relevance": 0,
-    "freshness": 11.2,
+    "freshness": 5.2,
     "stale_trap": -10,
     "page_change": -4
    },
@@ -319,13 +360,79 @@
    "verdict": "CHECK \u2014 source date older than the window"
   },
   {
-   "score": 69.2,
+   "score": 66.7,
+   "components": {
+    "tier": 40,
+    "category": 13,
+    "lead": 6.0,
+    "relevance": 0,
+    "freshness": 13.7,
+    "undated": -6
+   },
+   "keywords": [],
+   "shock_terms": [],
+   "dedupe_match": null,
+   "dedupe_similarity": 0.1,
+   "id": "c5de66ba004e",
+   "title": "News &nbsp; The sudden passing of Mr Peter Erasto Chinyama on Friday, 6 November 2026, was solemnly commemorated yesterday during the Africa&ndash;India... - 7 November, 2026",
+   "url": "https://www.tcaa.go.tz/news/africa-s-aviation-community-pays-tribute-to-the-late-peter-erasto-chinyama",
+   "summary": "",
+   "kind": "item",
+   "source": "Tanzania Civil Aviation Authority",
+   "source_id": "tz-tcaa",
+   "tier": 1,
+   "country": "TZ",
+   "category": "aviation",
+   "segments": [
+    "city",
+    "bush",
+    "beach"
+   ],
+   "first_seen": "2026-11-08T02:29+03:00",
+   "published": null,
+   "verdict": "weak"
+  },
+  {
+   "score": 66.7,
+   "components": {
+    "tier": 40,
+    "category": 13,
+    "lead": 6.0,
+    "relevance": 0,
+    "freshness": 13.7,
+    "undated": -6
+   },
+   "keywords": [],
+   "shock_terms": [],
+   "dedupe_match": null,
+   "dedupe_similarity": 0.2,
+   "id": "75b4a2fada91",
+   "title": "News The Director General of the Tanzania Civil Aviation Authority, Dr. Jabiri K. Bakari, is deeply saddened to announce the death of our colleague, Mr. Pe... - 7 November, 2026",
+   "url": "https://www.tcaa.go.tz/news/death-announcement",
+   "summary": "",
+   "kind": "item",
+   "source": "Tanzania Civil Aviation Authority",
+   "source_id": "tz-tcaa",
+   "tier": 1,
+   "country": "TZ",
+   "category": "aviation",
+   "segments": [
+    "city",
+    "bush",
+    "beach"
+   ],
+   "first_seen": "2026-11-08T02:29+03:00",
+   "published": null,
+   "verdict": "weak"
+  },
+  {
+   "score": 63.2,
    "components": {
     "tier": 20,
     "category": 4,
     "lead": 0.0,
     "relevance": 24,
-    "freshness": 11.2,
+    "freshness": 5.2,
     "corroborated": 10
    },
    "keywords": [
@@ -356,13 +463,13 @@
    "verdict": "weak"
   },
   {
-   "score": 68.3,
+   "score": 62.3,
    "components": {
     "tier": 5,
     "category": 5,
     "lead": 0.0,
     "relevance": 16,
-    "freshness": 14.3,
+    "freshness": 8.3,
     "corroborated": 10,
     "shock": 18
    },
@@ -375,7 +482,7 @@
     "attack"
    ],
    "dedupe_match": null,
-   "dedupe_similarity": 0.11,
+   "dedupe_similarity": 0.1,
    "id": "bbc49d5a47a9",
    "title": "Deadly Shooting in Krakow\u2019s Historic Main Square Kills Five, Shakes Confidence in Poland\u2019s Tourist Safety",
    "url": "https://eturbonews.com/krakow-shooting-main-square-poland-tourist-safety-2026",
@@ -396,13 +503,50 @@
    "verdict": "weak"
   },
   {
-   "score": 66.2,
+   "score": 62.2,
+   "components": {
+    "tier": 5,
+    "category": 5,
+    "lead": 2.4,
+    "relevance": 20,
+    "freshness": 19.8,
+    "corroborated": 10
+   },
+   "keywords": [
+    "adr",
+    "fuel",
+    "camp"
+   ],
+   "shock_terms": [],
+   "dedupe_match": null,
+   "dedupe_similarity": 0.1,
+   "id": "1afa7b7fec1e",
+   "title": "Switzerland Takes Indian Travel Dreams to New Heights with an Exciting Digital Campaign Featuring Alpine Wonders and Lakeside Thrills",
+   "url": "https://www.travelandtourworld.com/news/article/15fa2ekjwh9b",
+   "summary": "Switzerland Takes Indian Travel Dreams to New Heights with an Exciting Digital Campaign Featuring Alpine Wonders and Lakeside Thrills Switzerland has inspired Indian travellers with a digital campaign that showcases stunning Alpine landscapes and adrenaline-fueled lake adventures. The post Switzerland Takes Indian Travel Dreams to New Heights with an Exciting Digital Campaign Featuring Alpine Wond",
+   "kind": "item",
+   "source": "Travel And Tour World",
+   "source_id": "gl-travelandtourworld",
+   "tier": 3,
+   "country": "GLOBAL",
+   "category": "trade",
+   "segments": [
+    "city",
+    "bush",
+    "beach"
+   ],
+   "first_seen": "2026-11-08T07:58+03:00",
+   "published": "2026-11-08",
+   "verdict": "weak"
+  },
+  {
+   "score": 60.1,
    "components": {
     "tier": 5,
     "category": 5,
     "lead": 2.4,
     "relevance": 24,
-    "freshness": 19.8,
+    "freshness": 13.7,
     "corroborated": 10
    },
    "keywords": [
@@ -435,13 +579,13 @@
    "verdict": "weak"
   },
   {
-   "score": 64.2,
+   "score": 58.1,
    "components": {
     "tier": 20,
     "category": 4,
     "lead": 2.4,
     "relevance": 8,
-    "freshness": 19.8,
+    "freshness": 13.7,
     "corroborated": 10
    },
    "keywords": [
@@ -470,13 +614,13 @@
    "verdict": "weak"
   },
   {
-   "score": 64.2,
+   "score": 58.1,
    "components": {
     "tier": 20,
     "category": 4,
     "lead": 2.4,
     "relevance": 8,
-    "freshness": 19.8,
+    "freshness": 13.7,
     "corroborated": 10
    },
    "keywords": [
@@ -505,13 +649,13 @@
    "verdict": "weak"
   },
   {
-   "score": 62.3,
+   "score": 56.3,
    "components": {
     "tier": 5,
     "category": 5,
     "lead": 0.0,
     "relevance": 28,
-    "freshness": 14.3,
+    "freshness": 8.3,
     "corroborated": 10
    },
    "keywords": [
@@ -544,13 +688,80 @@
    "verdict": "weak"
   },
   {
-   "score": 62.2,
+   "score": 56.2,
+   "components": {
+    "tier": 20,
+    "category": 24,
+    "lead": 2.4,
+    "relevance": 0,
+    "freshness": 19.8,
+    "undated": -6,
+    "page_change": -4
+   },
+   "keywords": [],
+   "shock_terms": [],
+   "dedupe_match": null,
+   "dedupe_similarity": 0.12,
+   "id": "7421bc8dfbaa",
+   "title": "[page changed] ProMED-mail",
+   "url": "https://promedmail.org/",
+   "summary": "Protecting Global Health, One Alert at a Time | ProMED Previous slide Next slide Protecting Global Health, One Alert at a Time ProMED: Your 24/7 early warning system for emerging infectious diseases worldwide. Subscribe ProMED's Weekly Pulse A snapshot of global health events from the past 7 days Latest Posts on ProMED All Date Title Sun Nov 08 2026 WATERBORNE DISEASES - INDIA (04): (ODISHA) JAUND",
+   "kind": "page-change",
+   "source": "ProMED-mail",
+   "source_id": "promed",
+   "tier": 2,
+   "country": "GLOBAL",
+   "category": "health",
+   "segments": [
+    "city",
+    "bush",
+    "beach"
+   ],
+   "first_seen": "2026-11-08T07:58+03:00",
+   "published": null,
+   "verdict": "weak"
+  },
+  {
+   "score": 56.2,
+   "components": {
+    "tier": 20,
+    "category": 4,
+    "lead": 2.4,
+    "relevance": 0,
+    "freshness": 19.8,
+    "corroborated": 10
+   },
+   "keywords": [],
+   "shock_terms": [],
+   "dedupe_match": null,
+   "dedupe_similarity": 0.0,
+   "id": "756918c759aa",
+   "title": "UDA Politician Apologises Over Remarks Targeting Sifuna Supporters",
+   "url": "https://www.kenyans.co.ke/news/129221-nandi-mca-apologises-over-remarks-targeting-sifuna-supporters-nandi",
+   "summary": "The politician has been under scrutiny in the past few days following her remarks warning Sifuna supporters from her county.",
+   "kind": "item",
+   "source": "Kenyans.co.ke news",
+   "source_id": "ke-kenyans",
+   "tier": 2,
+   "country": "KE",
+   "category": "press",
+   "segments": [
+    "city",
+    "bush",
+    "beach"
+   ],
+   "first_seen": "2026-11-08T07:58+03:00",
+   "published": "2026-11-08",
+   "verdict": "weak"
+  },
+  {
+   "score": 56.1,
    "components": {
     "tier": 40,
     "category": 5,
     "lead": 12.0,
     "relevance": 0,
-    "freshness": 11.2,
+    "freshness": 5.1,
     "undated": -6
    },
    "keywords": [],
@@ -577,13 +788,13 @@
    "verdict": "weak"
   },
   {
-   "score": 62.2,
+   "score": 56.1,
    "components": {
     "tier": 40,
     "category": 5,
     "lead": 12.0,
     "relevance": 0,
-    "freshness": 11.2,
+    "freshness": 5.1,
     "undated": -6
    },
    "keywords": [],
@@ -610,13 +821,13 @@
    "verdict": "weak"
   },
   {
-   "score": 62.2,
+   "score": 56.1,
    "components": {
     "tier": 40,
     "category": 5,
     "lead": 12.0,
     "relevance": 0,
-    "freshness": 11.2,
+    "freshness": 5.1,
     "undated": -6
    },
    "keywords": [],
@@ -643,13 +854,13 @@
    "verdict": "weak"
   },
   {
-   "score": 62.2,
+   "score": 56.1,
    "components": {
     "tier": 40,
     "category": 5,
     "lead": 12.0,
     "relevance": 0,
-    "freshness": 11.2,
+    "freshness": 5.1,
     "undated": -6
    },
    "keywords": [],
@@ -676,13 +887,13 @@
    "verdict": "weak"
   },
   {
-   "score": 61.8,
+   "score": 55.7,
    "components": {
     "tier": 20,
     "category": 4,
     "lead": 0.0,
     "relevance": 8,
-    "freshness": 19.8,
+    "freshness": 13.7,
     "corroborated": 10
    },
    "keywords": [
@@ -711,13 +922,218 @@
    "verdict": "weak"
   },
   {
-   "score": 59.6,
+   "score": 54.2,
+   "components": {
+    "tier": 5,
+    "category": 5,
+    "lead": 2.4,
+    "relevance": 12,
+    "freshness": 19.8,
+    "corroborated": 10
+   },
+   "keywords": [
+    "fuel",
+    "tourism"
+   ],
+   "shock_terms": [],
+   "dedupe_match": null,
+   "dedupe_similarity": 0.2,
+   "id": "f9db2e46b33f",
+   "title": "Japan Teams up With More Countries in Powering Bangkok\u2019s massive tourism comeback this November",
+   "url": "https://www.travelandtourworld.com/news/article/tg4z2r06yplv",
+   "summary": "Japan Teams up With More Countries in Powering Bangkok\u2019s massive tourism comeback this November Japan fuels Bangkok's massive November tourism comeback as the World's Best City prepares to host the historic Eurovision Asia. The post Japan Teams up With More Countries in Powering Bangkok\u2019s massive tourism comeback this November appeared first on Travel And Tour World .",
+   "kind": "item",
+   "source": "Travel And Tour World",
+   "source_id": "gl-travelandtourworld",
+   "tier": 3,
+   "country": "GLOBAL",
+   "category": "trade",
+   "segments": [
+    "city",
+    "bush",
+    "beach"
+   ],
+   "first_seen": "2026-11-08T07:58+03:00",
+   "published": "2026-11-08",
+   "verdict": "weak"
+  },
+  {
+   "score": 54.2,
+   "components": {
+    "tier": 5,
+    "category": 5,
+    "lead": 2.4,
+    "relevance": 12,
+    "freshness": 19.8,
+    "corroborated": 10
+   },
+   "keywords": [
+    "airline",
+    "flight",
+    "opening"
+   ],
+   "shock_terms": [],
+   "dedupe_match": null,
+   "dedupe_similarity": 0.1,
+   "id": "fb3fe86d9b62",
+   "title": "KM Malta Airlines Opens a New Gateway to Mediterranean Holidays with Direct Bordeaux to Malta Flights in Summer 2027",
+   "url": "https://www.travelandtourworld.com/news/article/q4o8vg8swi2c",
+   "summary": "KM Malta Airlines Opens a New Gateway to Mediterranean Holidays with Direct Bordeaux to Malta Flights in Summer 2027 KM Malta Airlines is opening a gateway to Mediterranean holidays in summer 2027. The post KM Malta Airlines Opens a New Gateway to Mediterranean Holidays with Direct Bordeaux to Malta Flights in Summer 2027 appeared first on Travel And Tour World .",
+   "kind": "item",
+   "source": "Travel And Tour World",
+   "source_id": "gl-travelandtourworld",
+   "tier": 3,
+   "country": "GLOBAL",
+   "category": "trade",
+   "segments": [
+    "city",
+    "bush",
+    "beach"
+   ],
+   "first_seen": "2026-11-08T07:58+03:00",
+   "published": "2026-11-08",
+   "verdict": "weak"
+  },
+  {
+   "score": 53.8,
+   "components": {
+    "tier": 20,
+    "category": 4,
+    "lead": 0.0,
+    "relevance": 0,
+    "freshness": 19.8,
+    "corroborated": 10
+   },
+   "keywords": [],
+   "shock_terms": [],
+   "dedupe_match": null,
+   "dedupe_similarity": 0.2,
+   "id": "788816910863",
+   "title": "\u2018Carte d\u2019Identit\u00e9\u2019: The Play Taking Rwanda\u2019s History to a Young Audience",
+   "url": "https://www.ktpress.rw/2026/11/carte-didentite-the-play-taking-rwandas-history-to-a-young-audience",
+   "summary": "KIGALI \u2014 First Lady Mrs Jeannette Kagame joined a predominantly young audience at the Kigali Convention Centre on Saturday evening to watch a play that uses humour, personal memory and\u2026 The post \u2018Carte d\u2019Identit\u00e9\u2019: The Play Taking Rwanda\u2019s History to a Young Audience appeared first on KT PRESS .",
+   "kind": "item",
+   "source": "KT Press (Rwanda)",
+   "source_id": "np-ktpress-rw",
+   "tier": 2,
+   "country": "RW",
+   "category": "press",
+   "segments": [
+    "city",
+    "bush",
+    "beach"
+   ],
+   "first_seen": "2026-11-08T07:58+03:00",
+   "published": "2026-11-08",
+   "verdict": "weak"
+  },
+  {
+   "score": 53.8,
+   "components": {
+    "tier": 20,
+    "category": 4,
+    "lead": 0.0,
+    "relevance": 0,
+    "freshness": 19.8,
+    "corroborated": 10
+   },
+   "keywords": [],
+   "shock_terms": [],
+   "dedupe_match": null,
+   "dedupe_similarity": 0.2,
+   "id": "771fca1059c9",
+   "title": "International NGOs in Rwanda Receive Over US$230 Million Annually. Is the Impact Visible?",
+   "url": "https://www.ktpress.rw/2026/11/international-ngos-in-rwanda-receive-over-us230-million-annually-is-the-impact-visible",
+   "summary": "Operating across Rwanda\u2019s 30 districts, international NGOs manage hundreds of millions of dollars in development funding every year. But with 1,487 local NGOs competing for a place in the same\u2026 The post International NGOs in Rwanda Receive Over US$230 Million Annually. Is the Impact Visible? appeared first on KT PRESS .",
+   "kind": "item",
+   "source": "KT Press (Rwanda)",
+   "source_id": "np-ktpress-rw",
+   "tier": 2,
+   "country": "RW",
+   "category": "press",
+   "segments": [
+    "city",
+    "bush",
+    "beach"
+   ],
+   "first_seen": "2026-11-08T07:58+03:00",
+   "published": "2026-11-08",
+   "verdict": "weak"
+  },
+  {
+   "score": 53.8,
+   "components": {
+    "tier": 20,
+    "category": 4,
+    "lead": 0.0,
+    "relevance": 0,
+    "freshness": 19.8,
+    "corroborated": 10
+   },
+   "keywords": [],
+   "shock_terms": [],
+   "dedupe_match": null,
+   "dedupe_similarity": 0.0,
+   "id": "d4a7dbb4e4fb",
+   "title": "The stiffening of a dead body",
+   "url": "https://www.monitor.co.ug/uganda/magazines/people-power/the-stiffening-of-a-dead-body-5662602",
+   "summary": "Stiffening of the body is first apparent in the small muscles of the eyelids, lower jaw and...",
+   "kind": "item",
+   "source": "Daily Monitor (Uganda)",
+   "source_id": "np-monitor-ug",
+   "tier": 2,
+   "country": "UG",
+   "category": "press",
+   "segments": [
+    "city",
+    "bush",
+    "beach"
+   ],
+   "first_seen": "2026-11-08T07:58+03:00",
+   "published": "2026-11-08",
+   "verdict": "weak"
+  },
+  {
+   "score": 53.8,
+   "components": {
+    "tier": 20,
+    "category": 4,
+    "lead": 0.0,
+    "relevance": 0,
+    "freshness": 19.8,
+    "corroborated": 10
+   },
+   "keywords": [],
+   "shock_terms": [],
+   "dedupe_match": null,
+   "dedupe_similarity": 0.0,
+   "id": "bf777cf84fe6",
+   "title": "Truck drivers demand compensation from Juba after Ugandan driver shot dead in South Sudan",
+   "url": "https://www.monitor.co.ug/uganda/news/national/truck-drivers-demand-compensation-from-juba-after-ugandan-driver-shot-dead-in-south-sudan-5662472",
+   "summary": "The South Sudan minister of trade recently promised the truck drivers that their security is...",
+   "kind": "item",
+   "source": "Daily Monitor (Uganda)",
+   "source_id": "np-monitor-ug",
+   "tier": 2,
+   "country": "UG",
+   "category": "press",
+   "segments": [
+    "city",
+    "bush",
+    "beach"
+   ],
+   "first_seen": "2026-11-08T07:58+03:00",
+   "published": "2026-11-08",
+   "verdict": "weak"
+  },
+  {
+   "score": 53.6,
    "components": {
     "tier": 20,
     "category": 4,
     "lead": 2.4,
     "relevance": 12,
-    "freshness": 11.2,
+    "freshness": 5.2,
     "corroborated": 10
    },
    "keywords": [
@@ -747,13 +1163,13 @@
    "verdict": "weak"
   },
   {
-   "score": 59.6,
+   "score": 53.6,
    "components": {
     "tier": 20,
     "category": 4,
     "lead": 2.4,
     "relevance": 12,
-    "freshness": 11.2,
+    "freshness": 5.2,
     "corroborated": 10
    },
    "keywords": [
@@ -782,13 +1198,13 @@
    "verdict": "weak"
   },
   {
-   "score": 59.6,
+   "score": 53.6,
    "components": {
     "tier": 20,
     "category": 4,
     "lead": 2.4,
     "relevance": 12,
-    "freshness": 11.2,
+    "freshness": 5.2,
     "corroborated": 10
    },
    "keywords": [
@@ -819,13 +1235,13 @@
    "verdict": "weak"
   },
   {
-   "score": 58.3,
+   "score": 52.3,
    "components": {
     "tier": 5,
     "category": 5,
     "lead": 0.0,
     "relevance": 24,
-    "freshness": 14.3,
+    "freshness": 8.3,
     "corroborated": 10
    },
    "keywords": [
@@ -859,13 +1275,13 @@
    "verdict": "weak"
   },
   {
-   "score": 58.2,
+   "score": 52.1,
    "components": {
     "tier": 5,
     "category": 5,
     "lead": 2.4,
     "relevance": 16,
-    "freshness": 19.8,
+    "freshness": 13.7,
     "corroborated": 10
    },
    "keywords": [
@@ -896,13 +1312,13 @@
    "verdict": "weak"
   },
   {
-   "score": 56.3,
+   "score": 50.3,
    "components": {
     "tier": 20,
     "category": 4,
     "lead": 0.0,
     "relevance": 8,
-    "freshness": 14.3,
+    "freshness": 8.3,
     "corroborated": 10
    },
    "keywords": [
@@ -931,471 +1347,75 @@
    "verdict": "weak"
   },
   {
-   "score": 56.2,
+   "score": 50.2,
    "components": {
-    "tier": 20,
-    "category": 24,
-    "lead": 2.4,
-    "relevance": 0,
-    "freshness": 19.8,
-    "undated": -6,
-    "page_change": -4
-   },
-   "keywords": [],
-   "shock_terms": [],
-   "dedupe_match": null,
-   "dedupe_similarity": 0.12,
-   "id": "075c0e51e2c7",
-   "title": "[page changed] ProMED-mail",
-   "url": "https://promedmail.org/",
-   "summary": "Protecting Global Health, One Alert at a Time | ProMED Previous slide Next slide Protecting Global Health, One Alert at a Time ProMED: Your 24/7 early warning system for emerging infectious diseases worldwide. Subscribe ProMED's Weekly Pulse A snapshot of global health events from the past 7 days Latest Posts on ProMED All Date Title Sat Nov 07 2026 \u041a\u043b\u0435\u0449\u0435\u0432\u043e\u0439 \u044d\u043d\u0446\u0435\u0444\u0430\u043b\u0438\u0442 \u0438 \u0431\u043e\u043b\u0435\u0437\u043d\u044c \u041b\u0430\u0439\u043c\u0430 \u2013 \u0420\u043e\u0441\u0441\u0438\u044f (\u0421\u0430\u043d",
-   "kind": "page-change",
-   "source": "ProMED-mail",
-   "source_id": "promed",
-   "tier": 2,
-   "country": "GLOBAL",
-   "category": "health",
-   "segments": [
-    "city",
-    "bush",
-    "beach"
-   ],
-   "first_seen": "2026-11-08T02:29+03:00",
-   "published": null,
-   "verdict": "weak"
-  },
-  {
-   "score": 56.2,
-   "components": {
-    "tier": 20,
-    "category": 4,
-    "lead": 2.4,
-    "relevance": 0,
-    "freshness": 19.8,
-    "corroborated": 10
-   },
-   "keywords": [],
-   "shock_terms": [],
-   "dedupe_match": null,
-   "dedupe_similarity": 0.0,
-   "id": "e611d5643921",
-   "title": "CS Chirchir Unveils New Plan to Fast-Track Rironi-Naivasha Highway Construction",
-   "url": "https://www.kenyans.co.ke/news/129220-cs-chirchir-unveils-new-plan-fast-track-rironi-naivasha-highway-works",
-   "summary": "The section missed its October 30 completion deadline, with the government citing global disruptions in bitumen supplies, even as Chirchir maintains that the road will be ready before December.",
-   "kind": "item",
-   "source": "Kenyans.co.ke news",
-   "source_id": "ke-kenyans",
-   "tier": 2,
-   "country": "KE",
-   "category": "press",
-   "segments": [
-    "city",
-    "bush",
-    "beach"
-   ],
-   "first_seen": "2026-11-08T02:29+03:00",
-   "published": "2026-11-07",
-   "verdict": "weak"
-  },
-  {
-   "score": 56.2,
-   "components": {
-    "tier": 20,
-    "category": 4,
-    "lead": 2.4,
-    "relevance": 0,
-    "freshness": 19.8,
-    "corroborated": 10
-   },
-   "keywords": [],
-   "shock_terms": [],
-   "dedupe_match": null,
-   "dedupe_similarity": 0.0,
-   "id": "cb851425581b",
-   "title": "Uhuru, Ruto Photographer Reveals Why He Feared State House Assignment",
-   "url": "https://www.kenyans.co.ke/news/129216-mwarv-reveals-stories-behind-iconic-2017-uhuru-ruto-campaign-photos",
-   "summary": "Mwarv, one of the country\u2019s most celebrated photographers, recalls the moment that led to a shoot that shaped the 2017 polls.",
-   "kind": "item",
-   "source": "Kenyans.co.ke news",
-   "source_id": "ke-kenyans",
-   "tier": 2,
-   "country": "KE",
-   "category": "press",
-   "segments": [
-    "city",
-    "bush",
-    "beach"
-   ],
-   "first_seen": "2026-11-08T02:29+03:00",
-   "published": "2026-11-07",
-   "verdict": "weak"
-  },
-  {
-   "score": 56.2,
-   "components": {
-    "tier": 20,
-    "category": 4,
-    "lead": 2.4,
-    "relevance": 0,
-    "freshness": 19.8,
-    "corroborated": 10
-   },
-   "keywords": [],
-   "shock_terms": [],
-   "dedupe_match": null,
-   "dedupe_similarity": 0.2,
-   "id": "361c68f9a347",
-   "title": "Tanzania Faces Fresh International Pressure After Tundu Lissu's Sentencing",
-   "url": "https://www.kenyans.co.ke/news/129219-eu-us-raise-alarm-over-tanzania-after-tundu-lissus-4-year-jail-sentence",
-   "summary": "On Friday, Tundu Lissu was sentenced to four years in prison, sparking mixed reactions from the international community and politicians from the East African region.",
-   "kind": "item",
-   "source": "Kenyans.co.ke news",
-   "source_id": "ke-kenyans",
-   "tier": 2,
-   "country": "KE",
-   "category": "press",
-   "segments": [
-    "city",
-    "bush",
-    "beach"
-   ],
-   "first_seen": "2026-11-08T02:29+03:00",
-   "published": "2026-11-07",
-   "verdict": "weak"
-  },
-  {
-   "score": 56.2,
-   "components": {
-    "tier": 20,
-    "category": 4,
-    "lead": 2.4,
-    "relevance": 0,
-    "freshness": 19.8,
-    "corroborated": 10
-   },
-   "keywords": [],
-   "shock_terms": [],
-   "dedupe_match": null,
-   "dedupe_similarity": 0.12,
-   "id": "5efab836293e",
-   "title": "Lobby Groups Raise Alarm Over False Charges Targeting Activists",
-   "url": "https://www.kenyans.co.ke/news/129218-kilifi-activist-peter-komora-set-sentencing-wildlife-trophies-case",
-   "summary": "An upcoming sentencing has prompted the groups to question alleged attempts to silence activists through criminal charges linked to community advocacy work.",
-   "kind": "item",
-   "source": "Kenyans.co.ke news",
-   "source_id": "ke-kenyans",
-   "tier": 2,
-   "country": "KE",
-   "category": "press",
-   "segments": [
-    "city",
-    "bush",
-    "beach"
-   ],
-   "first_seen": "2026-11-08T02:29+03:00",
-   "published": "2026-11-07",
-   "verdict": "weak"
-  },
-  {
-   "score": 56.2,
-   "components": {
-    "tier": 20,
-    "category": 4,
-    "lead": 2.4,
-    "relevance": 0,
-    "freshness": 19.8,
-    "corroborated": 10
-   },
-   "keywords": [],
-   "shock_terms": [],
-   "dedupe_match": null,
-   "dedupe_similarity": 0.11,
-   "id": "b31670871bdc",
-   "title": "Sue me, the teachers will work over the holidays...",
-   "url": "https://nation.africa/kenya/life-and-style/lifestyle/sue-me-the-teachers-will-work-over-the-holidays--5662040",
-   "summary": "Teachers are expected to fulfil their professional responsibilities throughout the school...",
-   "kind": "item",
-   "source": "Nation Africa: Kenya business",
-   "source_id": "ke-nation-business",
-   "tier": 2,
-   "country": "KE",
-   "category": "press",
-   "segments": [
-    "city",
-    "bush",
-    "beach"
-   ],
-   "first_seen": "2026-11-08T02:29+03:00",
-   "published": "2026-11-08",
-   "verdict": "weak"
-  },
-  {
-   "score": 56.2,
-   "components": {
-    "tier": 20,
-    "category": 4,
-    "lead": 2.4,
-    "relevance": 0,
-    "freshness": 19.8,
-    "corroborated": 10
-   },
-   "keywords": [],
-   "shock_terms": [],
-   "dedupe_match": null,
-   "dedupe_similarity": 0.0,
-   "id": "94ad78924bde",
-   "title": "Sermon: The need for change is part of being Christian",
-   "url": "https://nation.africa/kenya/life-and-style/lifestyle/sermon-the-need-for-change-is-part-of-being-christian--5662174",
-   "summary": "Many Christians live a double life. There\u2019s one for Sunday, and one for the rest of the week.",
-   "kind": "item",
-   "source": "Nation Africa: Kenya business",
-   "source_id": "ke-nation-business",
-   "tier": 2,
-   "country": "KE",
-   "category": "press",
-   "segments": [
-    "city",
-    "bush",
-    "beach"
-   ],
-   "first_seen": "2026-11-08T02:29+03:00",
-   "published": "2026-11-08",
-   "verdict": "weak"
-  },
-  {
-   "score": 56.2,
-   "components": {
-    "tier": 20,
-    "category": 4,
-    "lead": 2.4,
-    "relevance": 0,
-    "freshness": 19.8,
-    "corroborated": 10
-   },
-   "keywords": [],
-   "shock_terms": [],
-   "dedupe_match": null,
-   "dedupe_similarity": 0.0,
-   "id": "c4e723bc59be",
-   "title": "Solve hitch of promoted but stuck JSS teachers",
-   "url": "https://nation.africa/kenya/blogs-opinion/editorials/solve-hitch-of-promoted-but-stuck-jss-teachers-5662562",
-   "summary": "As the JSS is domiciled in primary schools, the teachers lack independence and are blocked from...",
-   "kind": "item",
-   "source": "Nation Africa: Kenya business",
-   "source_id": "ke-nation-business",
-   "tier": 2,
-   "country": "KE",
-   "category": "press",
-   "segments": [
-    "city",
-    "bush",
-    "beach"
-   ],
-   "first_seen": "2026-11-08T02:29+03:00",
-   "published": "2026-11-08",
-   "verdict": "weak"
-  },
-  {
-   "score": 56.2,
-   "components": {
-    "tier": 20,
-    "category": 4,
-    "lead": 2.4,
-    "relevance": 0,
-    "freshness": 19.8,
-    "corroborated": 10
-   },
-   "keywords": [],
-   "shock_terms": [],
-   "dedupe_match": null,
-   "dedupe_similarity": 0.0,
-   "id": "0aee582a5592",
-   "title": "Effort calls for sobriety",
-   "url": "https://nation.africa/kenya/blogs-opinion/editorials/effort-calls-for-sobriety-5662570",
-   "summary": "The proposals include banning the sale of alcohol 300 metres from learning institutions and...",
-   "kind": "item",
-   "source": "Nation Africa: Kenya business",
-   "source_id": "ke-nation-business",
-   "tier": 2,
-   "country": "KE",
-   "category": "press",
-   "segments": [
-    "city",
-    "bush",
-    "beach"
-   ],
-   "first_seen": "2026-11-08T02:29+03:00",
-   "published": "2026-11-08",
-   "verdict": "weak"
-  },
-  {
-   "score": 56.2,
-   "components": {
-    "tier": 20,
-    "category": 4,
-    "lead": 2.4,
-    "relevance": 0,
-    "freshness": 19.8,
-    "corroborated": 10
-   },
-   "keywords": [],
-   "shock_terms": [],
-   "dedupe_match": null,
-   "dedupe_similarity": 0.0,
-   "id": "c140c15b1d3f",
-   "title": "Odegaard seals narrow win for Arsenal, Tottenham revival ends at Leeds",
-   "url": "https://nation.africa/kenya/sports/football/odegaard-seals-narrow-win-for-arsenal-tottenham-revival-ends-at-leeds-5662528",
-   "summary": "Arsenal stay six points clear as Spurs suffer defeat.",
-   "kind": "item",
-   "source": "Nation Africa: Kenya business",
-   "source_id": "ke-nation-business",
-   "tier": 2,
-   "country": "KE",
-   "category": "press",
-   "segments": [
-    "city",
-    "bush",
-    "beach"
-   ],
-   "first_seen": "2026-11-08T02:29+03:00",
-   "published": "2026-11-07",
-   "verdict": "weak"
-  },
-  {
-   "score": 56.2,
-   "components": {
-    "tier": 20,
-    "category": 4,
-    "lead": 2.4,
-    "relevance": 0,
-    "freshness": 19.8,
-    "corroborated": 10
-   },
-   "keywords": [],
-   "shock_terms": [],
-   "dedupe_match": null,
-   "dedupe_similarity": 0.1,
-   "id": "d0a8a54af41e",
-   "title": "Governor Lenku's new party: What it means for ODM, Ruto and the Maa region",
-   "url": "https://nation.africa/kenya/counties/kajiado/governor-lenku-s-new-party-what-it-means-for-odm-ruto-and-the-maa-region-5662510",
-   "summary": "FEDA could complicate the battle for Maa votes ahead of 2027.",
-   "kind": "item",
-   "source": "Nation Africa: Kenya business",
-   "source_id": "ke-nation-business",
-   "tier": 2,
-   "country": "KE",
-   "category": "press",
-   "segments": [
-    "city",
-    "bush",
-    "beach"
-   ],
-   "first_seen": "2026-11-08T02:29+03:00",
-   "published": "2026-11-07",
-   "verdict": "weak"
-  },
-  {
-   "score": 56.2,
-   "components": {
-    "tier": 20,
-    "category": 4,
-    "lead": 2.4,
-    "relevance": 0,
-    "freshness": 19.8,
-    "corroborated": 10
-   },
-   "keywords": [],
-   "shock_terms": [],
-   "dedupe_match": null,
-   "dedupe_similarity": 0.25,
-   "id": "67a52861cce1",
-   "title": "Uganda urged to consider Tanzania\u2019s law against sexual corruption",
-   "url": "https://www.independent.co.ug/uganda-urged-to-consider-tanzanias-law-against-sexual-corruption",
-   "summary": "Kampala, Uganda | URN | At least one in ten respondents in a household survey said they knew of a case in which a teacher or school official had offered a child good grades or a pass in an examination in exchange for sexual favours. The findings highlight a form of corruption that remains largely \u2026 The post Uganda urged to consider Tanzania\u2019s law against sexual corruption appeared first on The Ind",
-   "kind": "item",
-   "source": "The Independent (Uganda)",
-   "source_id": "ug-independent",
-   "tier": 2,
-   "country": "UG",
-   "category": "press",
-   "segments": [
-    "city",
-    "bush",
-    "beach"
-   ],
-   "first_seen": "2026-11-08T02:29+03:00",
-   "published": "2026-11-07",
-   "verdict": "weak"
-  },
-  {
-   "score": 55.6,
-   "components": {
-    "tier": 20,
-    "category": 4,
+    "tier": 5,
+    "category": 5,
     "lead": 2.4,
     "relevance": 8,
-    "freshness": 11.2,
+    "freshness": 19.8,
     "corroborated": 10
    },
    "keywords": [
-    "protest"
+    "hotel",
+    "tourism"
    ],
    "shock_terms": [],
    "dedupe_match": null,
-   "dedupe_similarity": 0.0,
-   "id": "cb5efa5c9d36",
-   "title": "Residents Stage Protest Over Govt's Multi-Billion Project",
-   "url": "https://www.kenyans.co.ke/news/129215-thwake-dam-residents-stage-protests-over-compensation-damaged-homes-businesses",
-   "summary": "Images seen by Kenyans.co.ke showed residents hoisting twigs and placards as they protested outside the construction premises, forcing the police to intervene.",
+   "dedupe_similarity": 0.1,
+   "id": "1b04c26fb33b",
+   "title": "Thailand\u2019s Phuket Tourism Set for Spectacular Boost as Mamaka Hilton Unveils 165-Room Luxury Hotel with 1960s Glamour, Rooftop Dining, Wellness and Exclusive Holiday Experiences in Bang Tao",
+   "url": "https://www.travelandtourworld.com/news/article/wymemp33u2if",
+   "summary": "Thailand\u2019s Phuket Tourism Set for Spectacular Boost as Mamaka Hilton Unveils 165-Room Luxury Hotel with 1960s Glamour, Rooftop Dining, Wellness and Exclusive Holiday Experiences in Bang Tao Phuket tourism in Thailand will get energy as Mamaka Phuket, Tapestry Collection, by Hilton is set to open in Bang Tao this December. The post Thailand\u2019s Phuket Tourism Set for Spectacular Boost as Mamaka Hilto",
    "kind": "item",
-   "source": "Kenyans.co.ke news",
-   "source_id": "ke-kenyans",
-   "tier": 2,
-   "country": "KE",
-   "category": "press",
+   "source": "Travel And Tour World",
+   "source_id": "gl-travelandtourworld",
+   "tier": 3,
+   "country": "GLOBAL",
+   "category": "trade",
    "segments": [
     "city",
     "bush",
     "beach"
    ],
-   "first_seen": "2026-11-07T18:41+03:00",
-   "published": "2026-11-07",
+   "first_seen": "2026-11-08T07:58+03:00",
+   "published": "2026-11-08",
    "verdict": "weak"
   },
   {
-   "score": 55.6,
+   "score": 50.2,
    "components": {
-    "tier": 20,
-    "category": 4,
+    "tier": 5,
+    "category": 5,
     "lead": 2.4,
     "relevance": 8,
-    "freshness": 11.2,
+    "freshness": 19.8,
     "corroborated": 10
    },
    "keywords": [
     "camp",
-    "traffic"
+    "tourism"
    ],
    "shock_terms": [],
    "dedupe_match": null,
-   "dedupe_similarity": 0.1,
-   "id": "41e645a230fa",
-   "title": "Ugandans trapped in Myanmar slave camps set for repatriation",
-   "url": "https://www.independent.co.ug/ugandans-trapped-in-myanmar-slave-camps-set-for-repatriation",
-   "summary": "Kampala, Uganda | URN | The government has announced that 21 Ugandans who were trafficked to Myanmar and held in forced labour camps operated by international criminal syndicates are expected to return home next week, following months of captivity. Government Spokesperson Allan Kasujja says that the 21 Ugandans were lured to Myanmar with false \u2026 The post Ugandans trapped in Myanmar slave camps set",
+   "dedupe_similarity": 0.2,
+   "id": "6815bfa22e83",
+   "title": "Saint Lucia Targets Canadian Travel Advisors with Powerful Tourism Push Across Toronto, Burlington and Ajax in November 2026",
+   "url": "https://www.travelandtourworld.com/news/article/lueq06ecobui",
+   "summary": "Saint Lucia Targets Canadian Travel Advisors with Powerful Tourism Push Across Toronto, Burlington and Ajax in November 2026 Saint Lucia are visiting Canada as part of a key tourism campaign to travel agents in Toronto, Burlington and Ajax between 16-18 November 2026. The post Saint Lucia Targets Canadian Travel Advisors with Powerful Tourism Push Across Toronto, Burlington and Ajax in November 20",
    "kind": "item",
-   "source": "The Independent (Uganda)",
-   "source_id": "ug-independent",
-   "tier": 2,
-   "country": "UG",
-   "category": "press",
+   "source": "Travel And Tour World",
+   "source_id": "gl-travelandtourworld",
+   "tier": 3,
+   "country": "GLOBAL",
+   "category": "trade",
    "segments": [
     "city",
     "bush",
     "beach"
    ],
-   "first_seen": "2026-11-07T18:41+03:00",
-   "published": "2026-11-07",
+   "first_seen": "2026-11-08T07:58+03:00",
+   "published": "2026-11-08",
    "verdict": "weak"
   }
  ]
