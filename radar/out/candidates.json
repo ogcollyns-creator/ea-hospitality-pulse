@@ -1,18 +1,18 @@
 {
- "generated": "2026-11-08T19:02:38+03:00",
+ "generated": "2026-11-08T21:42:47+03:00",
  "slot": "evening",
  "window_start": 1794052800,
- "observations_in_window": 746,
+ "observations_in_window": 801,
  "deduped_against": 15,
  "candidates": [
   {
-   "score": 59.3,
+   "score": 56.3,
    "components": {
     "tier": 40,
     "category": 12,
     "lead": 3.6,
     "relevance": 0,
-    "freshness": 13.7,
+    "freshness": 10.7,
     "undated": -6,
     "page_change": -4
    },
@@ -74,13 +74,13 @@
    "verdict": "OPEN THIS \u2014 tier-1 airline page moved; content not auto-parsed, read it manually"
   },
   {
-   "score": 117.7,
+   "score": 114.8,
    "components": {
     "tier": 40,
     "category": 32,
     "lead": 0.0,
     "relevance": 16,
-    "freshness": 19.7,
+    "freshness": 16.8,
     "corroborated": 10
    },
    "keywords": [
@@ -110,13 +110,13 @@
    "verdict": "STRONG \u2014 tier-1, upstream"
   },
   {
-   "score": 112.1,
+   "score": 109.2,
    "components": {
     "tier": 40,
     "category": 18,
     "lead": 8.4,
     "relevance": 16,
-    "freshness": 19.7,
+    "freshness": 16.8,
     "corroborated": 10
    },
    "keywords": [
@@ -144,13 +144,13 @@
    "verdict": "STRONG \u2014 tier-1, upstream"
   },
   {
-   "score": 101.7,
+   "score": 98.8,
    "components": {
     "tier": 40,
     "category": 32,
     "lead": 0.0,
     "relevance": 0,
-    "freshness": 19.7,
+    "freshness": 16.8,
     "corroborated": 10
    },
    "keywords": [],
@@ -177,13 +177,13 @@
    "verdict": "STRONG \u2014 tier-1, upstream"
   },
   {
-   "score": 101.7,
+   "score": 98.8,
    "components": {
     "tier": 40,
     "category": 32,
     "lead": 0.0,
     "relevance": 0,
-    "freshness": 19.7,
+    "freshness": 16.8,
     "corroborated": 10
    },
    "keywords": [],
@@ -210,13 +210,13 @@
    "verdict": "STRONG \u2014 tier-1, upstream"
   },
   {
-   "score": 101.7,
+   "score": 98.8,
    "components": {
     "tier": 40,
     "category": 32,
     "lead": 0.0,
     "relevance": 0,
-    "freshness": 19.7,
+    "freshness": 16.8,
     "corroborated": 10
    },
    "keywords": [],
@@ -243,13 +243,13 @@
    "verdict": "STRONG \u2014 tier-1, upstream"
   },
   {
-   "score": 96.2,
+   "score": 93.2,
    "components": {
     "tier": 40,
     "category": 24,
     "lead": 2.4,
     "relevance": 0,
-    "freshness": 19.8,
+    "freshness": 16.8,
     "corroborated": 10
    },
    "keywords": [],
@@ -275,13 +275,13 @@
    "verdict": "STRONG \u2014 tier-1, upstream"
   },
   {
-   "score": 95.5,
+   "score": 92.6,
    "components": {
     "tier": 40,
     "category": 13,
     "lead": 4.8,
     "relevance": 8,
-    "freshness": 19.7,
+    "freshness": 16.8,
     "corroborated": 10
    },
    "keywords": [
@@ -310,13 +310,13 @@
    "verdict": "STRONG \u2014 tier-1, upstream"
   },
   {
-   "score": 94.2,
+   "score": 91.2,
    "components": {
     "tier": 20,
     "category": 4,
     "lead": 2.4,
     "relevance": 20,
-    "freshness": 19.8,
+    "freshness": 16.8,
     "corroborated": 10,
     "shock": 18
    },
@@ -390,13 +390,46 @@
    "verdict": "CONSIDER"
   },
   {
-   "score": 83.5,
+   "score": 81.4,
+   "components": {
+    "tier": 40,
+    "category": 32,
+    "lead": 3.6,
+    "relevance": 0,
+    "freshness": 19.8,
+    "stale_trap": -10,
+    "page_change": -4
+   },
+   "keywords": [],
+   "shock_terms": [],
+   "dedupe_match": null,
+   "dedupe_similarity": 0.2,
+   "id": "9ed6bc75b16d",
+   "title": "[page changed] Federal Register \u2014 public inspection (HHS/CDC), pre-publication",
+   "url": "https://www.federalregister.gov/api/v1/public-inspection-documents/current.json",
+   "summary": "{\"count\":103,\"results\":[{\"agencies\":[{\"raw_name\":\"Centers for Medicare & Medicaid Services\",\"name\":\"Centers for Medicare & Medicaid Services\",\"id\":45,\"url\":\"https://www.federalregister.gov/agencies/centers-for-medicare-medicaid-services\",\"json_url\":\"https://www.federalregister.gov/api/v1/agencies/45\",\"parent_id\":221,\"slug\":\"centers-for-medicare-medicaid-services\"}],\"agency_letters\":[],\"agency_name",
+   "kind": "page-change",
+   "source": "Federal Register \u2014 public inspection (HHS/CDC), pre-publication",
+   "source_id": "us-fedreg-pubinspect-hhs",
+   "tier": 1,
+   "country": "REG",
+   "category": "advisory",
+   "segments": [
+    "city",
+    "bush"
+   ],
+   "first_seen": "2026-11-08T21:41+03:00",
+   "published": "2026-11-04",
+   "verdict": "CHECK \u2014 source date older than the window"
+  },
+  {
+   "score": 80.6,
    "components": {
     "tier": 40,
     "category": 13,
     "lead": 4.8,
     "relevance": 16,
-    "freshness": 19.7,
+    "freshness": 16.8,
     "stale_trap": -10
    },
    "keywords": [
@@ -426,13 +459,13 @@
    "verdict": "CHECK \u2014 source date older than the window"
   },
   {
-   "score": 82.2,
+   "score": 79.2,
    "components": {
     "tier": 20,
     "category": 4,
     "lead": 2.4,
     "relevance": 8,
-    "freshness": 19.8,
+    "freshness": 16.8,
     "corroborated": 10,
     "shock": 18
    },
@@ -464,13 +497,13 @@
    "verdict": "CONSIDER"
   },
   {
-   "score": 81.4,
+   "score": 78.4,
    "components": {
     "tier": 40,
     "category": 32,
     "lead": 3.6,
     "relevance": 0,
-    "freshness": 19.8,
+    "freshness": 16.8,
     "stale_trap": -10,
     "page_change": -4
    },
@@ -537,13 +570,13 @@
    "verdict": "CONSIDER"
   },
   {
-   "score": 77.8,
+   "score": 74.8,
    "components": {
     "tier": 20,
     "category": 4,
     "lead": 0.0,
     "relevance": 24,
-    "freshness": 19.8,
+    "freshness": 16.8,
     "corroborated": 10
    },
    "keywords": [
@@ -574,13 +607,13 @@
    "verdict": "CONSIDER"
   },
   {
-   "score": 76.7,
+   "score": 73.7,
    "components": {
     "tier": 40,
     "category": 32,
     "lead": 12.0,
     "relevance": 8,
-    "freshness": 13.7,
+    "freshness": 10.7,
     "stale_trap": -25,
     "page_change": -4
    },
@@ -609,13 +642,13 @@
    "verdict": "CHECK \u2014 source date older than the window"
   },
   {
-   "score": 75.3,
+   "score": 72.3,
    "components": {
     "tier": 40,
     "category": 32,
     "lead": 3.6,
     "relevance": 0,
-    "freshness": 13.7,
+    "freshness": 10.7,
     "stale_trap": -10,
     "page_change": -4
    },
@@ -642,13 +675,13 @@
    "verdict": "CHECK \u2014 source date older than the window"
   },
   {
-   "score": 73.2,
+   "score": 70.2,
    "components": {
     "tier": 20,
     "category": 5,
     "lead": 2.4,
     "relevance": 16,
-    "freshness": 19.8,
+    "freshness": 16.8,
     "corroborated": 10
    },
    "keywords": [
@@ -679,13 +712,13 @@
    "verdict": "CONSIDER"
   },
   {
-   "score": 71.7,
+   "score": 68.7,
    "components": {
     "tier": 20,
     "category": 4,
     "lead": 0.0,
     "relevance": 24,
-    "freshness": 13.7,
+    "freshness": 10.7,
     "corroborated": 10
    },
    "keywords": [
@@ -712,16 +745,16 @@
    ],
    "first_seen": "2026-11-08T13:28+03:00",
    "published": "2026-11-07",
-   "verdict": "CONSIDER"
+   "verdict": "weak"
   },
   {
-   "score": 71.1,
+   "score": 68.1,
    "components": {
     "tier": 20,
     "category": 5,
     "lead": 2.4,
     "relevance": 20,
-    "freshness": 13.7,
+    "freshness": 10.7,
     "corroborated": 10
    },
    "keywords": [
@@ -750,40 +783,7 @@
    ],
    "first_seen": "2026-11-08T13:28+03:00",
    "published": "2026-11-08",
-   "verdict": "CONSIDER"
-  },
-  {
-   "score": 69.2,
-   "components": {
-    "tier": 40,
-    "category": 32,
-    "lead": 3.6,
-    "relevance": 0,
-    "freshness": 7.6,
-    "stale_trap": -10,
-    "page_change": -4
-   },
-   "keywords": [],
-   "shock_terms": [],
-   "dedupe_match": null,
-   "dedupe_similarity": 0.2,
-   "id": "8a35dfbd7a49",
-   "title": "[page changed] Federal Register \u2014 public inspection (HHS/CDC), pre-publication",
-   "url": "https://www.federalregister.gov/api/v1/public-inspection-documents/current.json",
-   "summary": "{\"count\":103,\"results\":[{\"agencies\":[{\"raw_name\":\"Centers for Medicare & Medicaid Services\",\"name\":\"Centers for Medicare & Medicaid Services\",\"id\":45,\"url\":\"https://www.federalregister.gov/agencies/centers-for-medicare-medicaid-services\",\"json_url\":\"https://www.federalregister.gov/api/v1/agencies/45\",\"parent_id\":221,\"slug\":\"centers-for-medicare-medicaid-services\"}],\"agency_letters\":[],\"agency_name",
-   "kind": "page-change",
-   "source": "Federal Register \u2014 public inspection (HHS/CDC), pre-publication",
-   "source_id": "us-fedreg-pubinspect-hhs",
-   "tier": 1,
-   "country": "REG",
-   "category": "advisory",
-   "segments": [
-    "city",
-    "bush"
-   ],
-   "first_seen": "2026-11-08T07:57+03:00",
-   "published": "2026-11-04",
-   "verdict": "CHECK \u2014 source date older than the window"
+   "verdict": "weak"
   },
   {
    "score": 67.8,
@@ -819,13 +819,46 @@
    "verdict": "weak"
   },
   {
-   "score": 67.1,
+   "score": 66.3,
+   "components": {
+    "tier": 40,
+    "category": 32,
+    "lead": 3.6,
+    "relevance": 0,
+    "freshness": 4.7,
+    "stale_trap": -10,
+    "page_change": -4
+   },
+   "keywords": [],
+   "shock_terms": [],
+   "dedupe_match": null,
+   "dedupe_similarity": 0.2,
+   "id": "8a35dfbd7a49",
+   "title": "[page changed] Federal Register \u2014 public inspection (HHS/CDC), pre-publication",
+   "url": "https://www.federalregister.gov/api/v1/public-inspection-documents/current.json",
+   "summary": "{\"count\":103,\"results\":[{\"agencies\":[{\"raw_name\":\"Centers for Medicare & Medicaid Services\",\"name\":\"Centers for Medicare & Medicaid Services\",\"id\":45,\"url\":\"https://www.federalregister.gov/agencies/centers-for-medicare-medicaid-services\",\"json_url\":\"https://www.federalregister.gov/api/v1/agencies/45\",\"parent_id\":221,\"slug\":\"centers-for-medicare-medicaid-services\"}],\"agency_letters\":[],\"agency_name",
+   "kind": "page-change",
+   "source": "Federal Register \u2014 public inspection (HHS/CDC), pre-publication",
+   "source_id": "us-fedreg-pubinspect-hhs",
+   "tier": 1,
+   "country": "REG",
+   "category": "advisory",
+   "segments": [
+    "city",
+    "bush"
+   ],
+   "first_seen": "2026-11-08T07:57+03:00",
+   "published": "2026-11-04",
+   "verdict": "CHECK \u2014 source date older than the window"
+  },
+  {
+   "score": 64.1,
    "components": {
     "tier": 20,
     "category": 5,
     "lead": 2.4,
     "relevance": 16,
-    "freshness": 13.7,
+    "freshness": 10.7,
     "corroborated": 10
    },
    "keywords": [
@@ -856,13 +889,13 @@
    "verdict": "weak"
   },
   {
-   "score": 66.2,
+   "score": 63.2,
    "components": {
     "tier": 20,
     "category": 4,
     "lead": 2.4,
     "relevance": 8,
-    "freshness": 19.8,
+    "freshness": 16.8,
     "undated": -6,
     "shock": 18
    },
@@ -894,85 +927,48 @@
    "verdict": "weak"
   },
   {
-   "score": 64.2,
+   "score": 61.8,
    "components": {
     "tier": 20,
     "category": 4,
-    "lead": 2.4,
+    "lead": 0.0,
     "relevance": 8,
     "freshness": 19.8,
     "corroborated": 10
    },
    "keywords": [
-    "hotel",
-    "operator"
+    "eta"
    ],
    "shock_terms": [],
    "dedupe_match": null,
-   "dedupe_similarity": 0.1,
-   "id": "62cf3f4ae4e7",
-   "title": "Computer guru and plant operator: Experts who enforced Mackenzie\u2019s evil plan jailed for 160 years",
-   "url": "https://nation.africa/kenya/counties/mombasa/computer-guru-and-plant-operator-experts-who-enforced-mackenzie-s-evil-plan-jailed-for-160-years-5663038",
-   "summary": "Prior, the computer programmer worked in a hotel and the plant operator in major projects such...",
+   "dedupe_similarity": 0.2,
+   "id": "b8dfb85c97e0",
+   "title": "Tanzania reiterates on land and ethnic rights at UN",
+   "url": "https://dailynews.co.tz/tanzania-reiterates-on-land-and-ethnic-rights-at-un",
+   "summary": "At the 53rd session of the United Nations Universal Periodic Review (UPR53) in Geneva, Professor Hamisi Masanja Malebo, Executive Secretary of the UNESCO National Commission of Tanzania, articulated the official position of the Tanzanian government regarding land rights and ethnic categorization. Prof Malebo, on behalf of the Government of the United Republic of Tanzania, clarified \u2026 The post Tanz",
    "kind": "item",
-   "source": "Nation Africa: Kenya business",
-   "source_id": "ke-nation-business",
+   "source": "Daily News (Tanzania)",
+   "source_id": "np-dailynews-tz",
    "tier": 2,
-   "country": "KE",
+   "country": "TZ",
    "category": "press",
    "segments": [
     "city",
     "bush",
     "beach"
    ],
-   "first_seen": "2026-11-08T19:00+03:00",
+   "first_seen": "2026-11-08T21:41+03:00",
    "published": "2026-11-08",
    "verdict": "weak"
   },
   {
-   "score": 64.0,
-   "components": {
-    "tier": 20,
-    "category": 5,
-    "lead": 1.2,
-    "relevance": 8,
-    "freshness": 19.8,
-    "corroborated": 10
-   },
-   "keywords": [
-    "airline",
-    "booking"
-   ],
-   "shock_terms": [],
-   "dedupe_match": null,
-   "dedupe_similarity": 0.1,
-   "id": "89952c03a56d",
-   "title": "AI Agents Still Need Middlemen. But Will They Need Amadeus?",
-   "url": "https://skift.com/2026/11/08/ai-agents-still-need-middlemen-but-will-they-need-amadeus",
-   "summary": "Amadeus has the scale and airline relationships, but those advantages don't guarantee it a direct role in AI-agent bookings.",
-   "kind": "item",
-   "source": "Skift",
-   "source_id": "tp-skift",
-   "tier": 2,
-   "country": "GLOBAL",
-   "category": "trade",
-   "segments": [
-    "city",
-    "bush",
-    "beach"
-   ],
-   "first_seen": "2026-11-08T19:00+03:00",
-   "published": "2026-11-08",
-   "verdict": "weak"
-  },
-  {
-   "score": 63.2,
+   "score": 61.6,
    "components": {
     "tier": 40,
     "category": 32,
     "lead": 3.6,
     "relevance": 0,
-    "freshness": 1.6,
+    "freshness": 0.0,
     "stale_trap": -10,
     "page_change": -4
    },
@@ -997,150 +993,6 @@
    "first_seen": "2026-11-08T02:29+03:00",
    "published": "2026-11-04",
    "verdict": "CHECK \u2014 source date older than the window"
-  },
-  {
-   "score": 62.2,
-   "components": {
-    "tier": 5,
-    "category": 5,
-    "lead": 2.4,
-    "relevance": 20,
-    "freshness": 19.8,
-    "corroborated": 10
-   },
-   "keywords": [
-    "vat",
-    "hotel",
-    "resort",
-    "tourism"
-   ],
-   "shock_terms": [],
-   "dedupe_match": null,
-   "dedupe_similarity": 0.1,
-   "id": "c05711185c76",
-   "title": "Spain And Mediterranean Destinations Elevate Travel As Palma Hotels Unite City Life And Coastal Luxury",
-   "url": "https://www.travelandtourworld.com/news/article/3iss30wt2y9p",
-   "summary": "Spain And Mediterranean Destinations Elevate Travel As Palma Hotels Unite City Life And Coastal Luxury Palma Hotels elevate Spain Tourism with luxury stays, historic retreats, coastal resorts, rooftop pools and Mediterranean experiences in Mallorca The post Spain And Mediterranean Destinations Elevate Travel As Palma Hotels Unite City Life And Coastal Luxury appeared first on Travel And Tour World",
-   "kind": "item",
-   "source": "Travel And Tour World",
-   "source_id": "gl-travelandtourworld",
-   "tier": 3,
-   "country": "GLOBAL",
-   "category": "trade",
-   "segments": [
-    "city",
-    "bush",
-    "beach"
-   ],
-   "first_seen": "2026-11-08T19:00+03:00",
-   "published": "2026-11-08",
-   "verdict": "weak"
-  },
-  {
-   "score": 61.9,
-   "components": {
-    "tier": 20,
-    "category": 5,
-    "lead": 1.2,
-    "relevance": 12,
-    "freshness": 13.7,
-    "corroborated": 10
-   },
-   "keywords": [
-    "vat",
-    "investment"
-   ],
-   "shock_terms": [],
-   "dedupe_match": null,
-   "dedupe_similarity": 0.2,
-   "id": "beec295ab20a",
-   "title": "Tanzania Launches 2026\u20132031 Industrial Development Programme with UNIDO to Expand Value Addition",
-   "url": "https://www.tanzaniainvest.com/industry/industrial-development-programme-unido-2026-2031",
-   "summary": "Tanzania launched a 2026\u20132031 industrial development programme with UNIDO in Dodoma to expand local value addition, investment, and manufacturing skills. The areas of work include improving the investment environment, strengthening industrial governance and skills, promoting technology and innovation, and expanding market access.",
-   "kind": "item",
-   "source": "TanzaniaInvest \u2014 tourism",
-   "source_id": "tp-tanzaniainvest",
-   "tier": 2,
-   "country": "TZ",
-   "category": "trade",
-   "segments": [
-    "city",
-    "bush",
-    "beach"
-   ],
-   "first_seen": "2026-11-08T13:28+03:00",
-   "published": "2026-11-08",
-   "verdict": "weak"
-  },
-  {
-   "score": 61.8,
-   "components": {
-    "tier": 20,
-    "category": 4,
-    "lead": 0.0,
-    "relevance": 8,
-    "freshness": 19.8,
-    "corroborated": 10
-   },
-   "keywords": [
-    "vat"
-   ],
-   "shock_terms": [],
-   "dedupe_match": null,
-   "dedupe_similarity": 0.1,
-   "id": "a31c4c8fe486",
-   "title": "China top scholar shares Africa\u2019s modernisation path",
-   "url": "https://dailynews.co.tz/china-top-scholar-shares-africas-modernisation-path",
-   "summary": "CHINA: CHINA\u2019S top economist, Professor Zhong Weiguo has pointed out Beijing\u2019s Reform and Open up approach as one of the instrumental tools that are driving the country\u2019s modernisation worth replicating by developing countries in Africa. The Reform and Open up approach entails freeing up the mind to embrace innovation and emerging technologies. It also involves \u2026 The post China top scholar shares ",
-   "kind": "item",
-   "source": "Daily News (Tanzania)",
-   "source_id": "np-dailynews-tz",
-   "tier": 2,
-   "country": "TZ",
-   "category": "press",
-   "segments": [
-    "city",
-    "bush",
-    "beach"
-   ],
-   "first_seen": "2026-11-08T19:00+03:00",
-   "published": "2026-11-08",
-   "verdict": "weak"
-  },
-  {
-   "score": 61.8,
-   "components": {
-    "tier": 20,
-    "category": 4,
-    "lead": 0.0,
-    "relevance": 8,
-    "freshness": 19.8,
-    "corroborated": 10
-   },
-   "keywords": [
-    "vat"
-   ],
-   "shock_terms": [],
-   "dedupe_match": null,
-   "dedupe_similarity": 0.2,
-   "id": "c0637e0081c6",
-   "title": "CSOs receive 5.2bn/- for conservation projects",
-   "url": "https://dailynews.co.tz/csos-receive-5-2bn-for-conservation-projects",
-   "summary": "DAR ES SALAAM: FORTY-NINE civil society organisations (CSOs) in Mainland Tanzania and Zanzibar are set to receive grants totalling 5.2bn/- (2 million US dollars) to support community-led environmental conservation and sustainable development projects. The funding is being provided under the eighth operational phase (OP8) of the Global Environment Facility (GEF) Small Grants Programme (SGP), implem",
-   "kind": "item",
-   "source": "Daily News (Tanzania)",
-   "source_id": "np-dailynews-tz",
-   "tier": 2,
-   "country": "TZ",
-   "category": "press",
-   "segments": [
-    "city",
-    "bush",
-    "beach"
-   ],
-   "first_seen": "2026-11-08T19:00+03:00",
-   "published": "2026-11-08",
-   "verdict": "weak"
   },
   {
    "score": 61.6,
@@ -1212,10 +1064,226 @@
    "score": 61.2,
    "components": {
     "tier": 20,
+    "category": 4,
+    "lead": 2.4,
+    "relevance": 8,
+    "freshness": 16.8,
+    "corroborated": 10
+   },
+   "keywords": [
+    "hotel",
+    "operator"
+   ],
+   "shock_terms": [],
+   "dedupe_match": null,
+   "dedupe_similarity": 0.1,
+   "id": "62cf3f4ae4e7",
+   "title": "Computer guru and plant operator: Experts who enforced Mackenzie\u2019s evil plan jailed for 160 years",
+   "url": "https://nation.africa/kenya/counties/mombasa/computer-guru-and-plant-operator-experts-who-enforced-mackenzie-s-evil-plan-jailed-for-160-years-5663038",
+   "summary": "Prior, the computer programmer worked in a hotel and the plant operator in major projects such...",
+   "kind": "item",
+   "source": "Nation Africa: Kenya business",
+   "source_id": "ke-nation-business",
+   "tier": 2,
+   "country": "KE",
+   "category": "press",
+   "segments": [
+    "city",
+    "bush",
+    "beach"
+   ],
+   "first_seen": "2026-11-08T19:00+03:00",
+   "published": "2026-11-08",
+   "verdict": "weak"
+  },
+  {
+   "score": 61.0,
+   "components": {
+    "tier": 20,
+    "category": 5,
+    "lead": 1.2,
+    "relevance": 8,
+    "freshness": 16.8,
+    "corroborated": 10
+   },
+   "keywords": [
+    "airline",
+    "booking"
+   ],
+   "shock_terms": [],
+   "dedupe_match": null,
+   "dedupe_similarity": 0.1,
+   "id": "89952c03a56d",
+   "title": "AI Agents Still Need Middlemen. But Will They Need Amadeus?",
+   "url": "https://skift.com/2026/11/08/ai-agents-still-need-middlemen-but-will-they-need-amadeus",
+   "summary": "Amadeus has the scale and airline relationships, but those advantages don't guarantee it a direct role in AI-agent bookings.",
+   "kind": "item",
+   "source": "Skift",
+   "source_id": "tp-skift",
+   "tier": 2,
+   "country": "GLOBAL",
+   "category": "trade",
+   "segments": [
+    "city",
+    "bush",
+    "beach"
+   ],
+   "first_seen": "2026-11-08T19:00+03:00",
+   "published": "2026-11-08",
+   "verdict": "weak"
+  },
+  {
+   "score": 59.2,
+   "components": {
+    "tier": 5,
+    "category": 5,
+    "lead": 2.4,
+    "relevance": 20,
+    "freshness": 16.8,
+    "corroborated": 10
+   },
+   "keywords": [
+    "vat",
+    "hotel",
+    "resort",
+    "tourism"
+   ],
+   "shock_terms": [],
+   "dedupe_match": null,
+   "dedupe_similarity": 0.1,
+   "id": "c05711185c76",
+   "title": "Spain And Mediterranean Destinations Elevate Travel As Palma Hotels Unite City Life And Coastal Luxury",
+   "url": "https://www.travelandtourworld.com/news/article/3iss30wt2y9p",
+   "summary": "Spain And Mediterranean Destinations Elevate Travel As Palma Hotels Unite City Life And Coastal Luxury Palma Hotels elevate Spain Tourism with luxury stays, historic retreats, coastal resorts, rooftop pools and Mediterranean experiences in Mallorca The post Spain And Mediterranean Destinations Elevate Travel As Palma Hotels Unite City Life And Coastal Luxury appeared first on Travel And Tour World",
+   "kind": "item",
+   "source": "Travel And Tour World",
+   "source_id": "gl-travelandtourworld",
+   "tier": 3,
+   "country": "GLOBAL",
+   "category": "trade",
+   "segments": [
+    "city",
+    "bush",
+    "beach"
+   ],
+   "first_seen": "2026-11-08T19:00+03:00",
+   "published": "2026-11-08",
+   "verdict": "weak"
+  },
+  {
+   "score": 58.9,
+   "components": {
+    "tier": 20,
+    "category": 5,
+    "lead": 1.2,
+    "relevance": 12,
+    "freshness": 10.7,
+    "corroborated": 10
+   },
+   "keywords": [
+    "vat",
+    "investment"
+   ],
+   "shock_terms": [],
+   "dedupe_match": null,
+   "dedupe_similarity": 0.2,
+   "id": "beec295ab20a",
+   "title": "Tanzania Launches 2026\u20132031 Industrial Development Programme with UNIDO to Expand Value Addition",
+   "url": "https://www.tanzaniainvest.com/industry/industrial-development-programme-unido-2026-2031",
+   "summary": "Tanzania launched a 2026\u20132031 industrial development programme with UNIDO in Dodoma to expand local value addition, investment, and manufacturing skills. The areas of work include improving the investment environment, strengthening industrial governance and skills, promoting technology and innovation, and expanding market access.",
+   "kind": "item",
+   "source": "TanzaniaInvest \u2014 tourism",
+   "source_id": "tp-tanzaniainvest",
+   "tier": 2,
+   "country": "TZ",
+   "category": "trade",
+   "segments": [
+    "city",
+    "bush",
+    "beach"
+   ],
+   "first_seen": "2026-11-08T13:28+03:00",
+   "published": "2026-11-08",
+   "verdict": "weak"
+  },
+  {
+   "score": 58.8,
+   "components": {
+    "tier": 20,
+    "category": 4,
+    "lead": 0.0,
+    "relevance": 8,
+    "freshness": 16.8,
+    "corroborated": 10
+   },
+   "keywords": [
+    "vat"
+   ],
+   "shock_terms": [],
+   "dedupe_match": null,
+   "dedupe_similarity": 0.1,
+   "id": "a31c4c8fe486",
+   "title": "China top scholar shares Africa\u2019s modernisation path",
+   "url": "https://dailynews.co.tz/china-top-scholar-shares-africas-modernisation-path",
+   "summary": "CHINA: CHINA\u2019S top economist, Professor Zhong Weiguo has pointed out Beijing\u2019s Reform and Open up approach as one of the instrumental tools that are driving the country\u2019s modernisation worth replicating by developing countries in Africa. The Reform and Open up approach entails freeing up the mind to embrace innovation and emerging technologies. It also involves \u2026 The post China top scholar shares ",
+   "kind": "item",
+   "source": "Daily News (Tanzania)",
+   "source_id": "np-dailynews-tz",
+   "tier": 2,
+   "country": "TZ",
+   "category": "press",
+   "segments": [
+    "city",
+    "bush",
+    "beach"
+   ],
+   "first_seen": "2026-11-08T19:00+03:00",
+   "published": "2026-11-08",
+   "verdict": "weak"
+  },
+  {
+   "score": 58.8,
+   "components": {
+    "tier": 20,
+    "category": 4,
+    "lead": 0.0,
+    "relevance": 8,
+    "freshness": 16.8,
+    "corroborated": 10
+   },
+   "keywords": [
+    "vat"
+   ],
+   "shock_terms": [],
+   "dedupe_match": null,
+   "dedupe_similarity": 0.2,
+   "id": "c0637e0081c6",
+   "title": "CSOs receive 5.2bn/- for conservation projects",
+   "url": "https://dailynews.co.tz/csos-receive-5-2bn-for-conservation-projects",
+   "summary": "DAR ES SALAAM: FORTY-NINE civil society organisations (CSOs) in Mainland Tanzania and Zanzibar are set to receive grants totalling 5.2bn/- (2 million US dollars) to support community-led environmental conservation and sustainable development projects. The funding is being provided under the eighth operational phase (OP8) of the Global Environment Facility (GEF) Small Grants Programme (SGP), implem",
+   "kind": "item",
+   "source": "Daily News (Tanzania)",
+   "source_id": "np-dailynews-tz",
+   "tier": 2,
+   "country": "TZ",
+   "category": "press",
+   "segments": [
+    "city",
+    "bush",
+    "beach"
+   ],
+   "first_seen": "2026-11-08T19:00+03:00",
+   "published": "2026-11-08",
+   "verdict": "weak"
+  },
+  {
+   "score": 58.2,
+   "components": {
+    "tier": 20,
     "category": 5,
     "lead": 2.4,
     "relevance": 4,
-    "freshness": 19.8,
+    "freshness": 16.8,
     "corroborated": 10
    },
    "keywords": [
@@ -1244,13 +1312,50 @@
    "verdict": "weak"
   },
   {
-   "score": 60.2,
+   "score": 58.0,
+   "components": {
+    "tier": 20,
+    "category": 4,
+    "lead": 0.0,
+    "relevance": 24,
+    "freshness": 0.0,
+    "corroborated": 10
+   },
+   "keywords": [
+    "tax",
+    "fuel",
+    "camp",
+    "operator"
+   ],
+   "shock_terms": [],
+   "dedupe_match": null,
+   "dedupe_similarity": 0.2,
+   "id": "fbfa869f5d7d",
+   "title": "Wendi Launches Weekly Rewards Campaign to Boost Digital Transactions",
+   "url": "https://softpower.ug/wendi-launches-weekly-rewards-campaign-to-boost-digital-transactions",
+   "summary": "Pearl Bank\u2019s mobile wallet, Wendi, has launched a weekly rewards campaign offering customers fuel vouchers, smartphones, household appliances and cash prizes for making digital transactions worth at least Shs10,000. The campaign, dubbed Wendi Ku Win, was launched on November 6, 2026, at Kampala\u2019s Old Taxi Park in partnership with the Uganda Taxi Operators Federation (UTOF). [\u2026] The post Wendi Laun",
+   "kind": "item",
+   "source": "SoftPower News \u2014 Tourism & Travel (Uganda)",
+   "source_id": "ug-softpower-tourism",
+   "tier": 2,
+   "country": "UG",
+   "category": "press",
+   "segments": [
+    "bush",
+    "city"
+   ],
+   "first_seen": "2026-11-07T18:41+03:00",
+   "published": "2026-11-07",
+   "verdict": "weak"
+  },
+  {
+   "score": 57.2,
    "components": {
     "tier": 20,
     "category": 4,
     "lead": 2.4,
     "relevance": 4,
-    "freshness": 19.8,
+    "freshness": 16.8,
     "corroborated": 10
    },
    "keywords": [
@@ -1279,13 +1384,13 @@
    "verdict": "weak"
   },
   {
-   "score": 60.2,
+   "score": 57.2,
    "components": {
     "tier": 20,
     "category": 4,
     "lead": 2.4,
     "relevance": 4,
-    "freshness": 19.8,
+    "freshness": 16.8,
     "corroborated": 10
    },
    "keywords": [
@@ -1311,115 +1416,6 @@
    ],
    "first_seen": "2026-11-08T19:00+03:00",
    "published": "2026-11-08",
-   "verdict": "weak"
-  },
-  {
-   "score": 60.0,
-   "components": {
-    "tier": 20,
-    "category": 5,
-    "lead": 1.2,
-    "relevance": 4,
-    "freshness": 19.8,
-    "corroborated": 10
-   },
-   "keywords": [
-    "airline"
-   ],
-   "shock_terms": [],
-   "dedupe_match": null,
-   "dedupe_similarity": 0.1,
-   "id": "d6c6c3467e6e",
-   "title": "Aviation\u2019s Next Disaster Could Be In Your Carry-On",
-   "url": "https://skift.com/2026/11/08/aviations-next-disaster-could-be-in-your-carry-on",
-   "summary": "Battery incidents are rising and airlines are tightening restrictions, with cabin crews the last line of defense. Is the industry doing enough to prevent the next fire, or simply getting better at putting them out?",
-   "kind": "item",
-   "source": "Skift",
-   "source_id": "tp-skift",
-   "tier": 2,
-   "country": "GLOBAL",
-   "category": "trade",
-   "segments": [
-    "city",
-    "bush",
-    "beach"
-   ],
-   "first_seen": "2026-11-08T19:00+03:00",
-   "published": "2026-11-08",
-   "verdict": "weak"
-  },
-  {
-   "score": 60.0,
-   "components": {
-    "tier": 20,
-    "category": 4,
-    "lead": 2.4,
-    "relevance": 16,
-    "freshness": 7.6,
-    "corroborated": 10
-   },
-   "keywords": [
-    "summit",
-    "operator",
-    "traffic",
-    "passenger"
-   ],
-   "shock_terms": [],
-   "dedupe_match": null,
-   "dedupe_similarity": 0.1,
-   "id": "6261d5c2d817",
-   "title": "PSV Operator Issues Notice to Passengers after Motorists Spend Night on Nairobi-Nakuru Highway",
-   "url": "https://www.kenyans.co.ke/news/129222-ena-coach-warns-passengers-delays-traffic-snarl-hits-nakuru-nairobi-highway",
-   "summary": "The government is moving to reduce traffic along the highway with the construction of the Rironi-Mau Summit road, with a section of the road expected to be opened by December as travel surges.",
-   "kind": "item",
-   "source": "Kenyans.co.ke news",
-   "source_id": "ke-kenyans",
-   "tier": 2,
-   "country": "KE",
-   "category": "press",
-   "segments": [
-    "city",
-    "bush",
-    "beach"
-   ],
-   "first_seen": "2026-11-08T07:58+03:00",
-   "published": "2026-11-08",
-   "verdict": "weak"
-  },
-  {
-   "score": 58.4,
-   "components": {
-    "tier": 20,
-    "category": 4,
-    "lead": 0.0,
-    "relevance": 8,
-    "freshness": 16.4,
-    "corroborated": 10
-   },
-   "keywords": [
-    "summit",
-    "guest"
-   ],
-   "shock_terms": [],
-   "dedupe_match": null,
-   "dedupe_similarity": 0.0,
-   "id": "41fc973157d2",
-   "title": "200 African delegates head to Arusha for EA Court of Justice\u2019s silver Jubilee",
-   "url": "https://dailynews.co.tz/200-african-delegates-head-to-arusha-for-ea-court-of-justices-silver-jubilee",
-   "summary": "ARUSHA: THE Ugandan first Deputy Prime Minister, who serves as the minister for East African Community Affairs, Rebecca Kadaga will represent President Yoweri Museveni in the East African Court of Justice\u2019s Silver Jubilee celebrations in Arusha. President Museveni is currently the Chairperson of the EAC Heads of State Summit. More than 200 guests are expected \u2026 The post 200 African delegates head ",
-   "kind": "item",
-   "source": "Daily News (Tanzania)",
-   "source_id": "np-dailynews-tz",
-   "tier": 2,
-   "country": "TZ",
-   "category": "press",
-   "segments": [
-    "city",
-    "bush",
-    "beach"
-   ],
-   "first_seen": "2026-11-08T15:54+03:00",
-   "published": "2026-11-07",
    "verdict": "weak"
   }
  ]
