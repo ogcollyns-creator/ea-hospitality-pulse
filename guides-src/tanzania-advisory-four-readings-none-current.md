@@ -4,8 +4,9 @@ slug: tanzania-advisory-four-readings-none-current
 description: Tanzania went to London this week to sell eight million tourists, then a court in Dar es Salaam jailed the opposition leader. The commercial problem is not the verdict: it is that the four advisory pages which price that risk have all stopped being updated.
 category: Big Read
 updated: 2026-11-08
+image: "img/editions/tanzania-advisory-four-readings-none-current.jpg"
+image_credit: "Photograph: Onyango George / EA Hospitality Pulse"
 ---
-
 The Tanzanian stand at ExCeL closed on Thursday. Dr Ashatu Kijaji, the natural resources and tourism minister, had spent the week of World Travel Market in London with more than thirty Tanzanian companies around her, telling them that an exhibition is only worth the commercial relationships it produces, and repeating the number the government has attached to the next five years: eight million tourists. The stand came down, the delegation flew home, and on Friday a three-judge panel of the High Court in Dar es Salaam dismissed the treason charge against Tundu Lissu, convicted him of incitement, and sentenced him to four years.
 
 "We are satisfied that through his statements, the accused intended to disrupt elections and instigate violence," the court held. Lissu, who leads Chadema and was arrested before the October 2025 presidential election, called the trial political persecution. "Excuses were created to imprison me," he said. Tito Magoti, a Tanzanian human rights lawyer based in Oxford, read the dismissal of the treason count as "a major blow" for the state, on the argument that the object of the exercise had been imprisonment rather than a treason conviction. The verdict drew calls for Lissu's release from British and European Union parliamentarians.
