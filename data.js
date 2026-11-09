@@ -1,5 +1,14 @@
 window.EDITIONS = [
  {
+  "id": "pulse-2026-11-09-evening",
+  "date": "2026-11-09",
+  "dateDisplay": "Monday, 9 November 2026",
+  "edition": "Evening Wrap",
+  "editionKey": "evening",
+  "summary": "The UK added Moyale to its Kenya \"all but essential\" list on 6 November",
+  "bodyHtml": "<p><strong>The UK now advises against all but essential travel to Moyale Town and 5km around it, as Ethiopia&#x27;s border fighting spills into Kenya</strong><br><em>🌆 Evening Wrap · Mon 9 Nov 2026</em></p>\n<p>━━━━━━━━━<br><span class=\"item-head\">1️⃣ The UK added Moyale to its Kenya &quot;all but essential&quot; list on 6 November</span></p>\n<p><strong>What happened.</strong> The FCDO updated its Kenya advice on 6 Nov (17:00 UTC) to cover Moyale Town and up to 5km around it, including the Ethiopia border. Its regional-risks page cites violence in the Ethiopian town of Moyale since October, with stray gunfire and projectiles landing within 3km <strong>(gov.uk, 6 Nov)</strong>. About 50,000 people have crossed into Kenya by local authorities&#x27; count; UNHCR counts at least 11,000 in temporary sites <strong>(Africanews/AFP, 5 Nov)</strong>.</p>\n<p><strong>Read.</strong> Inference: no safari or coast area is touched, and the level elsewhere is unchanged. The risk is overland Ethiopia–Kenya itineraries via Marsabit, which the FCDO tells vehicles to run straight down the A2.</p>\n<p><span class=\"sowhat\">🎯 So what: if you sell Ethiopia–Kenya overland add-ons, pull them. Brief reservations that this is local to the border.</span><br><span class=\"tagline\">🏷 City, Bush | Kenya, Ethiopia | Confirmed (advice), Reported (displacement) | impact:risk</span></p>\n<p><span class=\"item-head\">2️⃣ The US entry order on DRC, Uganda and South Sudan travellers expires tomorrow, and no renewal is published</span></p>\n<p>The CDC order lapses at 16:59 US Eastern time on 10 Nov unless renewed <strong>(Federal Register doc 2026-21036)</strong>. Earlier orders were continued in 30-day steps. We found no renewal as of 9 Nov. Uganda has been Ebola-free since 27 Aug <strong>(our 4 Nov edition)</strong>. Inference: renewal is the base case, but whether Uganda stays listed decides US bookings for gorilla season.<br><span class=\"tagline\">🏷 Bush | Uganda | Confirmed (expiry), Inference (outcome) | impact:demand</span></p>\n<p><span class=\"item-head\">3️⃣ Kenya&#x27;s Ebola 42-day clock has not started: one patient is still in treatment (Health Ministry, 6 Nov)</span></p>\n<p>Nine cases, two deaths, six recoveries; last infection 19 Oct. The 42 days start only when the last patient leaves treatment clear of the virus. 52 contacts are due out by 11 Nov <strong>(Standard, Kenyans.co.ke, 6 Nov)</strong>. We found no discharge since. By our arithmetic, a discharge today would end the countdown on 20 Dec.<br><span class=\"sowhat\">🎯 So what: tie December cancellation terms to &quot;42 days after the last patient&quot;, not the 11 Nov contact release.</span><br><span class=\"tagline\">🏷 City, Bush, Beach | Kenya | Confirmed, Inference | impact:risk</span></p>\n<p><strong>🏗 DEAL FLOW:</strong> No verified EA deal flow in the window.</p>\n<p><strong>📻 ALSO TONIGHT</strong><br>🛢 Murban crude fell to US$94.04 on 5 Nov from US$110.46 on 29 Oct <strong>(CBK weekly bulletin, 6 Nov)</strong>. EPRA&#x27;s next pump-price review is 14 Nov.<br>🏞 KWS launched &quot;Nature Ndio Form&quot;, a campaign urging Kenyans to visit parks over the festive season <strong>(kws.go.ke, 9 Nov)</strong>.</p>\n<p><strong>⏳ CATCHING UP</strong><br>✈ Entebbe handled 153,968 international passengers in September, down 32.0% on a year earlier <strong>(UCAA, 27 Oct)</strong>.<br><span class=\"meta-line\">🏨 Kitirua Plains Lodge, Amboseli (A&amp;K Sanctuary, 13 suites), has been open since June <strong>(Sanctuary notice, 2 Jun)</strong>. Mereshi Serengeti is not confirmed open.</span><br>✏ Corrections: FHS Africa Kampala is 28–29 Apr 2027; the WTA Grand Final on 12 Dec is in the Serengeti.</p>\n<p><strong>🔍 BLIND SPOTS</strong> Competitor sites (hotelsafrica.org, travelnewseastafrica.com, travelnews.africa, Tourism Update) could not be opened. US State Dept pages, gazettes, KCAA, park authorities and statistics offices were web-scanned, not opened at source.</p>\n<p>🔗 This edition on the web: <a href=\"https://eahospitalitypulse.com/editions/pulse-2026-11-09-evening.html\" rel=\"noopener\">eahospitalitypulse.com/editions/pulse-2026-11-09-evenin…</a></p>"
+ },
+ {
   "id": "pulse-2026-11-06-evening",
   "date": "2026-11-06",
   "dateDisplay": "Friday, 6 November 2026",
@@ -1378,6 +1387,66 @@ window.EDITIONS = [
  }
 ];
 window.INSIGHTS = [
+ {
+  "headline": "The UK added Moyale to its Kenya \"all but essential\" list on 6 November",
+  "body": "**What happened.** The FCDO updated its Kenya advice on 6 Nov (17:00 UTC) to cover Moyale Town and up to 5km around it, including the Ethiopia border. Its regional-risks page cites violence in the Ethiopian town of Moyale since October, with stray gunfire and projectiles landing within 3km *(gov.uk, 6 Nov)*. About 50,000 people have crossed into Kenya by local authorities' count; UNHCR counts at least 11,000 in temporary sites *(Africanews/AFP, 5 Nov)*. **Read.** Inference: no safari or coast area is touched, and the level elsewhere is unchanged. The risk is overland Ethiopia–Kenya itineraries via Marsabit, which the FCDO tells vehicles to run straight down the A2.",
+  "sowhat": "🎯 So what: if you sell Ethiopia–Kenya overland add-ons, pull them. Brief reservations that this is local to the border.",
+  "segments": [
+   "city",
+   "bush"
+  ],
+  "countries": "Kenya, Ethiopia",
+  "confidence": "Confirmed (advice), Reported (displacement)",
+  "impact": "risk",
+  "impactClass": "risk",
+  "intensity": 3,
+  "impactSet": "author",
+  "source": "pulse-2026-11-09-evening",
+  "date": "2026-11-09",
+  "dateDisplay": "Monday, 9 November 2026",
+  "edition": "Evening Wrap",
+  "editionKey": "evening"
+ },
+ {
+  "headline": "The US entry order on DRC, Uganda and South Sudan travellers expires tomorrow, and no renewal is published",
+  "body": "The CDC order lapses at 16:59 US Eastern time on 10 Nov unless renewed *(Federal Register doc 2026-21036)*. Earlier orders were continued in 30-day steps. We found no renewal as of 9 Nov. Uganda has been Ebola-free since 27 Aug *(our 4 Nov edition)*. Inference: renewal is the base case, but whether Uganda stays listed decides US bookings for gorilla season.",
+  "sowhat": "",
+  "segments": [
+   "bush"
+  ],
+  "countries": "Uganda",
+  "confidence": "Confirmed (expiry), Inference (outcome)",
+  "impact": "+demand",
+  "impactClass": "demand",
+  "intensity": 3,
+  "impactSet": "author",
+  "source": "pulse-2026-11-09-evening",
+  "date": "2026-11-09",
+  "dateDisplay": "Monday, 9 November 2026",
+  "edition": "Evening Wrap",
+  "editionKey": "evening"
+ },
+ {
+  "headline": "Kenya's Ebola 42-day clock has not started: one patient is still in treatment (Health Ministry, 6 Nov)",
+  "body": "Nine cases, two deaths, six recoveries; last infection 19 Oct. The 42 days start only when the last patient leaves treatment clear of the virus. 52 contacts are due out by 11 Nov *(Standard, Kenyans.co.ke, 6 Nov)*. We found no discharge since. By our arithmetic, a discharge today would end the countdown on 20 Dec.",
+  "sowhat": "🎯 So what: tie December cancellation terms to \"42 days after the last patient\", not the 11 Nov contact release.",
+  "segments": [
+   "city",
+   "bush",
+   "beach"
+  ],
+  "countries": "Kenya",
+  "confidence": "Confirmed, Inference",
+  "impact": "risk",
+  "impactClass": "risk",
+  "intensity": 3,
+  "impactSet": "author",
+  "source": "pulse-2026-11-09-evening",
+  "date": "2026-11-09",
+  "dateDisplay": "Monday, 9 November 2026",
+  "edition": "Evening Wrap",
+  "editionKey": "evening"
+ },
  {
   "headline": "WHO's Tedros urged countries on 4 November to lift Ebola travel restrictions and praised Kenya",
   "body": "**What happened.** At his Wednesday 4 November briefing the WHO chief said such restrictions \"punish countries for doing the right thing\". He praised Kenya and Nigeria for openness *(The Independent Uganda, 6 Nov)*. Kenya's figures in that report are unchanged: nine cases, two deaths, none new since 19 October, 52 contacts due out by 11 November. Africa CDC made the same call on 3 November *(Africa CDC news page)*. **The second-order read.** The appeal targets measures in force, including Saudi Arabia's and Kuwait's on Kenya *(our 3 Nov edition)*. The US order on DRC, Uganda and South Sudan travellers runs to about 10 November; CDC's page was last updated on 11 October and we found no renewal notice as of 6 November. Our inference: this is advocacy, not a rule change.",
@@ -8219,4 +8288,4 @@ window.INSIGHTS = [
   "editionKey": "evening"
  }
 ];
-window.BUILT_AT = "2026-11-09 06:17";
+window.BUILT_AT = "2026-11-09 15:38";

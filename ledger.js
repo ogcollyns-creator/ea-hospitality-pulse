@@ -1,8 +1,8 @@
 window.LEDGER = {
- "updated": "2026-11-09 06:18",
+ "updated": "2026-11-09 15:39",
  "stats": {
-  "total": 257,
-  "open": 143,
+  "total": 258,
+  "open": 144,
   "resolved": 112,
   "correct": 81,
   "partial": 1,
@@ -585,6 +585,22 @@ window.LEDGER = {
    "resolved_date": "",
    "evidence": "",
    "source_url": "https://capitalfm.africa/jkia-ranks-sixth-in-africa-by-seat-capacity/",
+   "overdue": false
+  },
+  {
+   "id": "P258",
+   "made_date": "2026-11-09",
+   "edition": "pulse-2026-11-09-evening",
+   "claim": "The UK FCDO will still advise against all but essential travel to Moyale Town and 5km around it on 15 Dec 2026",
+   "resolution_criteria": "gov.uk/foreign-travel-advice/kenya Warnings and insurance page checked on 15 Dec 2026. Moyale Town still listed under all-but-essential resolves CORRECT; removed or narrowed resolves INCORRECT",
+   "resolve_by": "2026-12-15",
+   "market": "Kenya",
+   "segment": "Bush",
+   "confidence": "medium",
+   "status": "open",
+   "resolved_date": "",
+   "evidence": "",
+   "source_url": "",
    "overdue": false
   },
   {
