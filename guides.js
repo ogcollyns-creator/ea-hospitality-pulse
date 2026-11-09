@@ -1,5 +1,32 @@
 window.GUIDES = [
  {
+  "slug": "tanzania-advisory-four-readings-none-current",
+  "title": "Four governments have read Tanzania's year. Not one of them has read it lately.",
+  "description": "Tanzania went to London this week to sell eight million tourists, then a court in Dar es Salaam jailed the opposition leader. The commercial problem is not the verdict: it is that the four advisory pages which price that risk have all stopped being updated.",
+  "category": "Big Read",
+  "updated": "2026-11-08",
+  "readMins": 8,
+  "image": "img/editions/tanzania-advisory-four-readings-none-current.jpg"
+ },
+ {
+  "slug": "east-africa-afcon-2027-rooms-for-29-days",
+  "title": "East Africa is building hotel rooms for 29 days of football",
+  "description": "AFCON 2027 is being sold to East African hoteliers as a demand event. The document that will decide who earns from it is a procurement specification, and it lands on the opening weeks of the region's most expensive season.",
+  "category": "Big Read",
+  "updated": "2026-11-07",
+  "readMins": 8,
+  "image": "img/editions/east-africa-afcon-2027-rooms-for-29-days.jpg"
+ },
+ {
+  "slug": "kenya-visitor-insurance-policy-nobody-takes",
+  "title": "Kenya made a health policy a condition of entry. A month in, Nairobi's biggest hospitals were not taking it.",
+  "description": "Since 5 October every short-stay visitor to Kenya has had to buy a state-channelled US$50,000 travel health policy that the High Court has now upheld, and the cost to operators is not the US$48 but the fact that the country's own travel agents are telling members to keep buying private cover on top of it.",
+  "category": "Big Read",
+  "updated": "2026-11-06",
+  "readMins": 8,
+  "image": "img/editions/kenya-visitor-insurance-policy-nobody-takes.jpg"
+ },
+ {
   "slug": "booking-commission-on-the-levy-east-africa",
   "title": "East Africa spent 2026 adding charges to the room. A platform has started taking a cut of them.",
   "description": "Booking.com has moved government taxes into the base on which it calculates commission. The Caribbean has spent six months fighting it and won carve-outs for others. East Africa, which has layered more levies onto the room this year than any region on the continent, has not asked a single question.",

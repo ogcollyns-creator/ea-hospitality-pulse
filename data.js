@@ -1,5 +1,14 @@
 window.EDITIONS = [
  {
+  "id": "pulse-2026-11-06-evening",
+  "date": "2026-11-06",
+  "dateDisplay": "Friday, 6 November 2026",
+  "edition": "Evening Wrap",
+  "editionKey": "evening",
+  "summary": "WHO's Tedros urged countries on 4 November to lift Ebola travel restrictions and praised Kenya",
+  "bodyHtml": "<p><strong>WHO&#x27;s Tedros urged countries on 4 November to lift Ebola travel restrictions, while the US order covering Uganda is due to lapse on 10 November</strong><br><em>🌆 Evening Wrap · Fri 6 Nov 2026</em></p>\n<p>━━━━━━━━━<br><span class=\"item-head\">1️⃣ WHO&#x27;s Tedros urged countries on 4 November to lift Ebola travel restrictions and praised Kenya</span></p>\n<p><strong>What happened.</strong> At his Wednesday 4 November briefing the WHO chief said such restrictions &quot;punish countries for doing the right thing&quot;. He praised Kenya and Nigeria for openness <strong>(The Independent Uganda, 6 Nov)</strong>. Kenya&#x27;s figures in that report are unchanged: nine cases, two deaths, none new since 19 October, 52 contacts due out by 11 November. Africa CDC made the same call on 3 November <strong>(Africa CDC news page)</strong>.</p>\n<p><strong>The second-order read.</strong> The appeal targets measures in force, including Saudi Arabia&#x27;s and Kuwait&#x27;s on Kenya <strong>(our 3 Nov edition)</strong>. The US order on DRC, Uganda and South Sudan travellers runs to about 10 November; CDC&#x27;s page was last updated on 11 October and we found no renewal notice as of 6 November. Our inference: this is advocacy, not a rule change.</p>\n<p><span class=\"sowhat\">🎯 So what: do not tell guests any border rule is easing. Quote each destination&#x27;s current notice and re-check on 10 and 11 November.</span><br><span class=\"tagline\">🏷 City, Bush, Beach | Kenya, Uganda | Confirmed (statement) / Early signal (easing) | impact:risk</span></p>\n<p><span class=\"item-head\">2️⃣ Kenya Airways plans a sixth weekly Boeing 777 from Nairobi to London Heathrow from 20 November to 18 January</span></p>\n<p><strong>What happened.</strong> AeroRoutes, citing KQ&#x27;s filing, reports the 777-300ER rising from 5 to 6 weekly for 20 Nov 2026 to 18 Jan 2027, excluding 8 and 29 December <strong>(AeroRoutes, 5 Nov)</strong>. Its flight table does not add up cleanly to six and it is our only source, so the count is unconfirmed.</p>\n<p><strong>The second-order read.</strong> Inference: the filing covers the UK festive peak, so more seats, not proof of more demand. KQ&#x27;s H1 loss was KSh16.1bn <strong>(Standard, 26 Aug)</strong>.</p>\n<p><span class=\"sowhat\">🎯 So what: if you sell UK-sourced December stays, ask agents whether Heathrow seats are tight before setting late rates.</span><br><span class=\"tagline\">🏷 City, Beach | Kenya | Early signal | impact:demand</span></p>\n<p><span class=\"item-head\">3️⃣ The EastAfrican reports El Niño raises Rift Valley fever risk as above-average rain is expected</span></p>\n<p><strong>What happened.</strong> The 6 November report says much of Eastern Africa braces for above-average rainfall and flooding. We could not open the full article, so we lack the forecast period, countries and any official outlook.</p>\n<p><strong>The second-order read.</strong> Inference: a risk to road and airstrip access in the short rains, not a case count. No outbreak is reported in what we read.</p>\n<p><span class=\"sowhat\">🎯 So what: check flood-prone access routes and cancellation wording, and use your met service&#x27;s own outlook.</span><br><span class=\"tagline\">🏷 Bush, Beach | Kenya, Uganda, Tanzania | Early signal | impact:risk</span></p>\n<p><strong>🏗 DEAL FLOW:</strong> No verified EA deal flow dated 4–6 Nov. Watch: Mereshi Safari Camp Serengeti, Autograph Collection, due to open in November <strong>(Hospitality Net, 12 Oct)</strong>.</p>\n<p><strong>📻 ALSO TONIGHT</strong><br>🇰🇪 5 Nov: KWS hosted the Ol Pejeta board on easing pressure on a rhino sanctuary over carrying capacity <strong>(KWS, 6 Nov)</strong>.<br>🇺🇬 18 Nov: Uganda Airlines starts a daily Entebbe–Kigali flight <strong>(AeroRoutes, 25 Aug)</strong>.</p>\n<p><strong>📅 WEEK AHEAD</strong> 9 Nov: Tanzania October CPI. 10 Nov: US order due to lapse. 11 Nov: Kenya&#x27;s last 52 contacts due out. 14 Nov: EPRA fuel review, petrol now KSh226.96.</p>\n<p><strong>⏳ CATCHING UP</strong> 🇺🇬 Uganda&#x27;s October inflation was reported at 5.8% (30 Oct) and the central bank rate at 12.0% since 14 Oct <strong>(Rio Times, Nairametrics; secondary, UBOS and BoU not opened)</strong>.</p>\n<p><strong>🔍 BLIND SPOTS</strong> German and French advisories, Rwanda and Zanzibar health ministries, Kenya, Uganda and Rwanda gazettes, KCAA, KAA, NeST, ZRB. Brand newsrooms not opened one by one.</p>\n<p>🔗 This edition on the web: <a href=\"https://eahospitalitypulse.com/editions/pulse-2026-11-06-evening.html\" rel=\"noopener\">eahospitalitypulse.com/editions/pulse-2026-11-06-evenin…</a></p>"
+ },
+ {
   "id": "pulse-2026-11-03-evening",
   "date": "2026-11-03",
   "dateDisplay": "Tuesday, 3 November 2026",
@@ -1369,6 +1378,67 @@ window.EDITIONS = [
  }
 ];
 window.INSIGHTS = [
+ {
+  "headline": "WHO's Tedros urged countries on 4 November to lift Ebola travel restrictions and praised Kenya",
+  "body": "**What happened.** At his Wednesday 4 November briefing the WHO chief said such restrictions \"punish countries for doing the right thing\". He praised Kenya and Nigeria for openness *(The Independent Uganda, 6 Nov)*. Kenya's figures in that report are unchanged: nine cases, two deaths, none new since 19 October, 52 contacts due out by 11 November. Africa CDC made the same call on 3 November *(Africa CDC news page)*. **The second-order read.** The appeal targets measures in force, including Saudi Arabia's and Kuwait's on Kenya *(our 3 Nov edition)*. The US order on DRC, Uganda and South Sudan travellers runs to about 10 November; CDC's page was last updated on 11 October and we found no renewal notice as of 6 November. Our inference: this is advocacy, not a rule change.",
+  "sowhat": "🎯 So what: do not tell guests any border rule is easing. Quote each destination's current notice and re-check on 10 and 11 November.",
+  "segments": [
+   "city",
+   "bush",
+   "beach"
+  ],
+  "countries": "Kenya, Uganda",
+  "confidence": "Confirmed (statement) / Early signal (easing)",
+  "impact": "risk",
+  "impactClass": "risk",
+  "intensity": 3,
+  "impactSet": "author",
+  "source": "pulse-2026-11-06-evening",
+  "date": "2026-11-06",
+  "dateDisplay": "Friday, 6 November 2026",
+  "edition": "Evening Wrap",
+  "editionKey": "evening"
+ },
+ {
+  "headline": "Kenya Airways plans a sixth weekly Boeing 777 from Nairobi to London Heathrow from 20 November to 18 January",
+  "body": "**What happened.** AeroRoutes, citing KQ's filing, reports the 777-300ER rising from 5 to 6 weekly for 20 Nov 2026 to 18 Jan 2027, excluding 8 and 29 December *(AeroRoutes, 5 Nov)*. Its flight table does not add up cleanly to six and it is our only source, so the count is unconfirmed. **The second-order read.** Inference: the filing covers the UK festive peak, so more seats, not proof of more demand. KQ's H1 loss was KSh16.1bn *(Standard, 26 Aug)*.",
+  "sowhat": "🎯 So what: if you sell UK-sourced December stays, ask agents whether Heathrow seats are tight before setting late rates.",
+  "segments": [
+   "city",
+   "beach"
+  ],
+  "countries": "Kenya",
+  "confidence": "Early signal",
+  "impact": "+demand",
+  "impactClass": "demand",
+  "intensity": 1,
+  "impactSet": "author",
+  "source": "pulse-2026-11-06-evening",
+  "date": "2026-11-06",
+  "dateDisplay": "Friday, 6 November 2026",
+  "edition": "Evening Wrap",
+  "editionKey": "evening"
+ },
+ {
+  "headline": "The EastAfrican reports El Niño raises Rift Valley fever risk as above-average rain is expected",
+  "body": "**What happened.** The 6 November report says much of Eastern Africa braces for above-average rainfall and flooding. We could not open the full article, so we lack the forecast period, countries and any official outlook. **The second-order read.** Inference: a risk to road and airstrip access in the short rains, not a case count. No outbreak is reported in what we read.",
+  "sowhat": "🎯 So what: check flood-prone access routes and cancellation wording, and use your met service's own outlook.",
+  "segments": [
+   "bush",
+   "beach"
+  ],
+  "countries": "Kenya, Uganda, Tanzania",
+  "confidence": "Early signal",
+  "impact": "risk",
+  "impactClass": "risk",
+  "intensity": 1,
+  "impactSet": "author",
+  "source": "pulse-2026-11-06-evening",
+  "date": "2026-11-06",
+  "dateDisplay": "Friday, 6 November 2026",
+  "edition": "Evening Wrap",
+  "editionKey": "evening"
+ },
  {
   "headline": "Kenya's Ebola count stands at nine cases, two deaths and two patients still in treatment",
   "body": "**What happened.** Five men, two at Kenyatta National Hospital and three at The Nairobi Hospital, tested negative and went home on 3 November. Kenya has recorded nine confirmed cases and two deaths (22.2%), all in one cluster linked to the first imported case, with no new infection since 19 October. Another 46 contacts left quarantine today, making 66 released; 52 remain and are due out by 11 November *(KBC, 3 Nov; The Standard, 3 Nov; Reuters via TimesLIVE, 3 Nov)*. The 42-day countdown starts only when the last patient has recovered or been buried; travel, trade and gatherings stay unrestricted *(KBC, 3 Nov)*. Our inference: two patients remain in hospital, so the clock has not started. If both left by 11 November, the earliest end date would be about 23 December.",
@@ -8149,4 +8219,4 @@ window.INSIGHTS = [
   "editionKey": "evening"
  }
 ];
-window.BUILT_AT = "2026-11-05 05:34";
+window.BUILT_AT = "2026-11-09 05:30";
