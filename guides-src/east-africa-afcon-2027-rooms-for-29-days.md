@@ -4,8 +4,9 @@ slug: east-africa-afcon-2027-rooms-for-29-days
 description: AFCON 2027 is being sold to East African hoteliers as a demand event. The document that will decide who earns from it is a procurement specification, and it lands on the opening weeks of the region's most expensive season.
 category: Big Read
 updated: 2026-11-07
+image: "img/editions/east-africa-afcon-2027-rooms-for-29-days.jpg"
+image_credit: "Handout: Confederation of African Football - editorial use"
 ---
-
 At the Edmara Hotel site in Hoima, the Africa Cup of Nations is being measured in bodies. "Currently, we have 100 workers at the construction site," Edgar Isingoma, the hotel's proprietor, told Uganda's Daily Monitor in August, putting the build at roughly 80 per cent complete and due to finish by December. Edmara is going to about 95 rooms. A short drive away, the Albertine Palace is taking its international-standard stock from 78 to 100. Kabalega Resort is going from 102 to 259 across its Hoima and Masindi properties. Hoima Resort Hotel has added an accommodation wing. Almost none of this was in anyone's business plan three years ago, and all of it is being built against a tournament that will last twenty-nine days.
 
 That is the sentence East African operators should sit with before deciding what AFCON PAMOJA 2027 actually is. FIFA confirmed the dates ahead of its congress in Vancouver: 19 June to 17 July 2027, twenty-four teams, ten candidate stadiums across seven host cities in Kenya, Uganda and Tanzania. The official framing in all three capitals is of a demand event. Kenya's sports cabinet secretary, Salim Mvurya, unveiling the local organising committee's standing committee on 29 October, said its members "carry the hopes and aspirations of over 55 million Kenyans", and the government's account of the benefits runs predictably through hotels, airlines, transport operators and tour companies. The physical evidence is real enough: Uganda's new 20,000 seat Hoima City Stadium is a $130m build, part of a Shs545bn public package reshaping the Bunyoro sub-region.
