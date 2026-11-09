@@ -1,18 +1,51 @@
 {
- "generated": "2026-11-09T14:43:06+03:00",
- "slot": "midday",
- "window_start": 1794196800,
- "observations_in_window": 380,
- "deduped_against": 8,
+ "generated": "2026-11-09T23:10:05+03:00",
+ "slot": "evening",
+ "window_start": 1794139200,
+ "observations_in_window": 1075,
+ "deduped_against": 11,
  "candidates": [
   {
-   "score": 65.4,
+   "score": 101.1,
+   "components": {
+    "tier": 40,
+    "category": 32,
+    "lead": 3.6,
+    "relevance": 0,
+    "freshness": 19.5,
+    "corroborated": 10,
+    "page_change": -4
+   },
+   "keywords": [],
+   "shock_terms": [],
+   "dedupe_match": null,
+   "dedupe_similarity": 0.1,
+   "id": "4da19bb33d9c",
+   "title": "[page changed] Federal Register \u2014 public inspection (HHS/CDC), pre-publication",
+   "url": "https://www.federalregister.gov/api/v1/public-inspection-documents/current.json",
+   "summary": "{\"count\":109,\"results\":[{\"agencies\":[{\"raw_name\":\"Centers for Medicare & Medicaid Services\",\"name\":\"Centers for Medicare & Medicaid Services\",\"id\":45,\"url\":\"https://www.federalregister.gov/agencies/centers-for-medicare-medicaid-services\",\"json_url\":\"https://www.federalregister.gov/api/v1/agencies/45\",\"parent_id\":221,\"slug\":\"centers-for-medicare-medicaid-services\"}],\"agency_letters\":[],\"agency_name",
+   "kind": "page-change",
+   "source": "Federal Register \u2014 public inspection (HHS/CDC), pre-publication",
+   "source_id": "us-fedreg-pubinspect-hhs",
+   "tier": 1,
+   "country": "REG",
+   "category": "advisory",
+   "segments": [
+    "city",
+    "bush"
+   ],
+   "first_seen": "2026-11-09T22:51+03:00",
+   "published": "2026-11-09",
+   "verdict": "OPEN THIS \u2014 tier-1 advisory page moved; content not auto-parsed, read it manually"
+  },
+  {
+   "score": 56.1,
    "components": {
     "tier": 40,
     "category": 12,
     "lead": 3.6,
     "relevance": 0,
-    "freshness": 19.8,
+    "freshness": 10.5,
     "undated": -6,
     "page_change": -4
    },
@@ -40,13 +73,80 @@
    "verdict": "OPEN THIS \u2014 tier-1 airline page moved; content not auto-parsed, read it manually"
   },
   {
-   "score": 112.2,
+   "score": 45.6,
+   "components": {
+    "tier": 40,
+    "category": 12,
+    "lead": 3.6,
+    "relevance": 0,
+    "freshness": 0.0,
+    "undated": -6,
+    "page_change": -4
+   },
+   "keywords": [],
+   "shock_terms": [],
+   "dedupe_match": null,
+   "dedupe_similarity": 0.0,
+   "id": "c2c158312efc",
+   "title": "[page changed] Airlink news",
+   "url": "https://www.flyairlink.com/",
+   "summary": "Request unsuccessful. Incapsula incident ID: 473000100142985362-324511017199010485",
+   "kind": "page-change",
+   "source": "Airlink news",
+   "source_id": "air-airlink",
+   "tier": 1,
+   "country": "REG",
+   "category": "airline",
+   "segments": [
+    "city",
+    "bush",
+    "beach"
+   ],
+   "first_seen": "2026-11-09T02:27+03:00",
+   "published": null,
+   "verdict": "OPEN THIS \u2014 tier-1 airline page moved; content not auto-parsed, read it manually"
+  },
+  {
+   "score": 103.9,
+   "components": {
+    "tier": 40,
+    "category": 18,
+    "lead": 8.4,
+    "relevance": 8,
+    "freshness": 19.5,
+    "corroborated": 10
+   },
+   "keywords": [
+    "wildlife"
+   ],
+   "shock_terms": [],
+   "dedupe_match": null,
+   "dedupe_similarity": 0.07,
+   "id": "a652e715d3be",
+   "title": "Hii Haikuwa Stroll ya Kawaida (This Was No Ordinary Stroll)",
+   "url": "https://kws.go.ke/hii-haikuwa-stroll-ya-kawaida-this-was-no-ordinary-stroll",
+   "summary": "https://x.com/KWSKenya/status/2119737362955518148/video/1?t=5 More than 20 elephants wandered into Masongaleni, Kibwezi East, raising safety concerns for residents and wildlife alike. It is easy to smile at the image of a herd arriving uninvited, trumpeting merrily, trunks raised, inspecting the neighbourhood. Alas, for families who woke to find giants among their homes and farms, it was no [...]",
+   "kind": "item",
+   "source": "Kenya Wildlife Service",
+   "source_id": "ke-kws",
+   "tier": 1,
+   "country": "KE",
+   "category": "parks",
+   "segments": [
+    "bush"
+   ],
+   "first_seen": "2026-11-09T22:51+03:00",
+   "published": "2026-11-09",
+   "verdict": "STRONG \u2014 tier-1, upstream"
+  },
+  {
+   "score": 102.9,
    "components": {
     "tier": 40,
     "category": 18,
     "lead": 8.4,
     "relevance": 16,
-    "freshness": 19.8,
+    "freshness": 10.5,
     "corroborated": 10
    },
    "keywords": [
@@ -56,7 +156,7 @@
    ],
    "shock_terms": [],
    "dedupe_match": null,
-   "dedupe_similarity": 0.12,
+   "dedupe_similarity": 0.17,
    "id": "34ba8d0b6671",
    "title": "Nature Ndio Form: KWS Invites Kenyans to Spend the Festive Season in the Wild",
    "url": "https://kws.go.ke/nature-ndio-form-kws-invites-kenyans-to-spend-the-festive-season-in-the-wild",
@@ -75,13 +175,55 @@
    "verdict": "STRONG \u2014 tier-1, upstream"
   },
   {
-   "score": 108.2,
+   "score": 99.9,
+   "components": {
+    "tier": 5,
+    "category": 5,
+    "lead": 2.4,
+    "relevance": 40,
+    "freshness": 19.5,
+    "corroborated": 10,
+    "shock": 18
+   },
+   "keywords": [
+    "advisory",
+    "kidnap",
+    "level 4",
+    "tourism"
+   ],
+   "shock_terms": [
+    "level 4",
+    "do not travel"
+   ],
+   "dedupe_match": null,
+   "dedupe_similarity": 0.2,
+   "id": "b6f3fdf2186b",
+   "title": "US Level 4 Do Not Travel Advisory Warnings Clash with Bizarre Tourism Surges in Belarus and Other Countries as the State Department Warns Travellers of Severe Kidnapping and More Risks Abroad",
+   "url": "https://www.travelandtourworld.com/news/article/e82zwax1dvlx",
+   "summary": "US Level 4 Do Not Travel Advisory Warnings Clash with Bizarre Tourism Surges in Belarus and Other Countries as the State Department Warns Travellers of Severe Kidnapping and More Risks Abroad The US Level 4 Do Not Travel advisory warns against Afghanistan, Belarus, and Syria due to severe risks, despite shocking recent tourism surges. The post US Level 4 Do Not Travel Advisory Warnings Clash with ",
+   "kind": "item",
+   "source": "Travel And Tour World",
+   "source_id": "gl-travelandtourworld",
+   "tier": 3,
+   "country": "GLOBAL",
+   "category": "trade",
+   "segments": [
+    "city",
+    "bush",
+    "beach"
+   ],
+   "first_seen": "2026-11-09T22:52+03:00",
+   "published": "2026-11-09",
+   "verdict": "CONSIDER"
+  },
+  {
+   "score": 98.9,
    "components": {
     "tier": 20,
     "category": 14,
     "lead": 8.4,
     "relevance": 36,
-    "freshness": 19.8,
+    "freshness": 10.5,
     "corroborated": 10
    },
    "keywords": [
@@ -93,7 +235,7 @@
    ],
    "shock_terms": [],
    "dedupe_match": null,
-   "dedupe_similarity": 0.0,
+   "dedupe_similarity": 0.17,
    "id": "7d1d26d12ff2",
    "title": "Hainan Airlines Extends Europe Reductions into Dec 2026",
    "url": "https://www.aeroroutes.com/eng/261109-hudec26eu",
@@ -114,13 +256,83 @@
    "verdict": "CONSIDER"
   },
   {
-   "score": 96.2,
+   "score": 98.0,
+   "components": {
+    "tier": 40,
+    "category": 32,
+    "lead": 0.0,
+    "relevance": 16,
+    "freshness": 0.0,
+    "corroborated": 10
+   },
+   "keywords": [
+    "advisory",
+    "conference"
+   ],
+   "shock_terms": [],
+   "dedupe_match": null,
+   "dedupe_similarity": 0.12,
+   "id": "36b761d1019e",
+   "title": "Meeting of the Advisory Board on Radiation and Worker Health, National Institute for Occupational Safety and Health",
+   "url": "https://www.federalregister.gov/documents/2026/11/09/2026-22775/meeting-of-the-advisory-board-on-radiation-and-worker-health-national-institute-for-occupational",
+   "summary": "In accordance with the Federal Advisory Committee Act, the Centers for Disease Control and Prevention (CDC) announces the following meeting of the Advisory Board on Radiation and Worker Health (ABRWH). This is a virtual meeting. It is open to the public, limited only by the space available and the number of audio conference lines and internet conference access, with a public comment period. The pu",
+   "kind": "item",
+   "source": "Federal Register \u2014 CDC documents (newest first)",
+   "source_id": "fr-cdc-agency-feed",
+   "tier": 1,
+   "country": "GLOBAL",
+   "category": "advisory",
+   "segments": [
+    "Bush",
+    "City",
+    "Beach"
+   ],
+   "first_seen": "2026-11-08T18:59+03:00",
+   "published": "2026-11-09",
+   "verdict": "STRONG \u2014 tier-1, upstream"
+  },
+  {
+   "score": 92.4,
+   "components": {
+    "tier": 40,
+    "category": 18,
+    "lead": 8.4,
+    "relevance": 16,
+    "freshness": 0.0,
+    "corroborated": 10
+   },
+   "keywords": [
+    "vat",
+    "wildlife"
+   ],
+   "shock_terms": [],
+   "dedupe_match": null,
+   "dedupe_similarity": 0.17,
+   "id": "a80a1b769686",
+   "title": "Guided by Faith, Strengthened by Service",
+   "url": "https://kws.go.ke/guided-by-faith-strengthened-by-service",
+   "summary": "Our commitment to wildlife conservation goes beyond protecting nature. It is anchored in faith, gratitude, and the recognition that our strength, wisdom and protection ultimately come from God. Yesterday, the Kenya Wildlife Service (KWS) joined fellow Uniformed Disciplined Services and their families at the National Annual Joint Prayer and Thanksgiving Service at the Holy Family [...]",
+   "kind": "item",
+   "source": "Kenya Wildlife Service",
+   "source_id": "ke-kws",
+   "tier": 1,
+   "country": "KE",
+   "category": "parks",
+   "segments": [
+    "bush"
+   ],
+   "first_seen": "2026-11-08T18:59+03:00",
+   "published": "2026-11-08",
+   "verdict": "STRONG \u2014 tier-1, upstream"
+  },
+  {
+   "score": 86.9,
    "components": {
     "tier": 40,
     "category": 24,
     "lead": 2.4,
     "relevance": 0,
-    "freshness": 19.8,
+    "freshness": 10.5,
     "corroborated": 10
    },
    "keywords": [],
@@ -143,16 +355,16 @@
    ],
    "first_seen": "2026-11-09T14:41+03:00",
    "published": "2026-11-09",
-   "verdict": "STRONG \u2014 tier-1, upstream"
+   "verdict": "CONSIDER"
   },
   {
-   "score": 96.2,
+   "score": 86.9,
    "components": {
     "tier": 40,
     "category": 18,
     "lead": 8.4,
     "relevance": 0,
-    "freshness": 19.8,
+    "freshness": 10.5,
     "corroborated": 10
    },
    "keywords": [],
@@ -174,16 +386,16 @@
    ],
    "first_seen": "2026-11-09T14:41+03:00",
    "published": "2026-11-09",
-   "verdict": "STRONG \u2014 tier-1, upstream"
+   "verdict": "CONSIDER"
   },
   {
-   "score": 93.6,
+   "score": 84.3,
    "components": {
     "tier": 40,
     "category": 15,
     "lead": 16.8,
     "relevance": 8,
-    "freshness": 19.8,
+    "freshness": 10.5,
     "undated": -6
    },
    "keywords": [
@@ -209,16 +421,52 @@
    ],
    "first_seen": "2026-11-09T14:40+03:00",
    "published": null,
-   "verdict": "STRONG \u2014 tier-1, upstream"
+   "verdict": "CONSIDER"
   },
   {
-   "score": 92.2,
+   "score": 83.9,
+   "components": {
+    "tier": 20,
+    "category": 14,
+    "lead": 8.4,
+    "relevance": 12,
+    "freshness": 19.5,
+    "corroborated": 10
+   },
+   "keywords": [
+    "route",
+    "flight"
+   ],
+   "shock_terms": [],
+   "dedupe_match": null,
+   "dedupe_similarity": 0.11,
+   "id": "2d3b89db3d7f",
+   "title": "Korean Air Adds A321neo Seoul \u2013 Singapore Service in NW27",
+   "url": "https://www.aeroroutes.com/eng/261109-kenw27sin",
+   "summary": "Published at 0600PCT / 1300GMT 09NOV26 Korean Air during Northern winter 2027/28 season tentatively filed Airbus A321neo service on Seoul Incheon \u2013 Singapore route, effective 31OCT27. Based on current filing, this route would be the carrier\u2019s longest A321neo route in terms of block time (6hrs 40-45mins), operating on 1 of 4 daily flights. Further changes remain highly possible. KE643 ICN1435 \u2013 202",
+   "kind": "item",
+   "source": "AeroRoutes schedule filings",
+   "source_id": "aeroroutes",
+   "tier": 2,
+   "country": "GLOBAL",
+   "category": "aviation-tracker",
+   "segments": [
+    "city",
+    "bush",
+    "beach"
+   ],
+   "first_seen": "2026-11-09T22:52+03:00",
+   "published": "2026-11-09",
+   "verdict": "CONSIDER"
+  },
+  {
+   "score": 82.9,
    "components": {
     "tier": 20,
     "category": 14,
     "lead": 8.4,
     "relevance": 20,
-    "freshness": 19.8,
+    "freshness": 10.5,
     "corroborated": 10
    },
    "keywords": [
@@ -228,7 +476,7 @@
    ],
    "shock_terms": [],
    "dedupe_match": null,
-   "dedupe_similarity": 0.1,
+   "dedupe_similarity": 0.11,
    "id": "0fb8fccfd49c",
    "title": "Wizz Air NS27 Network Additions \u2013 08NOV26",
    "url": "https://www.aeroroutes.com/eng/261109-w6w4ns27",
@@ -249,13 +497,13 @@
    "verdict": "CONSIDER"
   },
   {
-   "score": 92.2,
+   "score": 82.9,
    "components": {
     "tier": 20,
     "category": 14,
     "lead": 8.4,
     "relevance": 20,
-    "freshness": 19.8,
+    "freshness": 10.5,
     "corroborated": 10
    },
    "keywords": [
@@ -286,13 +534,185 @@
    "verdict": "CONSIDER"
   },
   {
-   "score": 90.9,
+   "score": 82.0,
+   "components": {
+    "tier": 40,
+    "category": 32,
+    "lead": 0.0,
+    "relevance": 0,
+    "freshness": 0.0,
+    "corroborated": 10
+   },
+   "keywords": [],
+   "shock_terms": [],
+   "dedupe_match": null,
+   "dedupe_similarity": 0.0,
+   "id": "9bb7c192bddf",
+   "title": "Proposed Data Collection Submitted for Public Comment and Recommendations",
+   "url": "https://www.federalregister.gov/documents/2026/11/09/2026-22821/proposed-data-collection-submitted-for-public-comment-and-recommendations",
+   "summary": "The Centers for Disease Control and Prevention (CDC), as part of its continuing effort to reduce public burden and maximize the utility of government information, invites the general public and other federal agencies the opportunity to comment on a continuing information collection, as required by the Paperwork Reduction Act of 1995. This notice invites comment on an existing information collectio",
+   "kind": "item",
+   "source": "Federal Register \u2014 CDC documents (newest first)",
+   "source_id": "fr-cdc-agency-feed",
+   "tier": 1,
+   "country": "GLOBAL",
+   "category": "advisory",
+   "segments": [
+    "Bush",
+    "City",
+    "Beach"
+   ],
+   "first_seen": "2026-11-08T18:59+03:00",
+   "published": "2026-11-09",
+   "verdict": "CONSIDER"
+  },
+  {
+   "score": 82.0,
+   "components": {
+    "tier": 40,
+    "category": 32,
+    "lead": 0.0,
+    "relevance": 0,
+    "freshness": 0.0,
+    "corroborated": 10
+   },
+   "keywords": [],
+   "shock_terms": [],
+   "dedupe_match": null,
+   "dedupe_similarity": 0.0,
+   "id": "190e1a6ea3c9",
+   "title": "Agency Forms Undergoing Paperwork Reduction Act Review",
+   "url": "https://www.federalregister.gov/documents/2026/11/09/2026-22820/agency-forms-undergoing-paperwork-reduction-act-review",
+   "summary": "",
+   "kind": "item",
+   "source": "Federal Register \u2014 CDC documents (newest first)",
+   "source_id": "fr-cdc-agency-feed",
+   "tier": 1,
+   "country": "GLOBAL",
+   "category": "advisory",
+   "segments": [
+    "Bush",
+    "City",
+    "Beach"
+   ],
+   "first_seen": "2026-11-08T18:59+03:00",
+   "published": "2026-11-09",
+   "verdict": "CONSIDER"
+  },
+  {
+   "score": 82.0,
+   "components": {
+    "tier": 40,
+    "category": 32,
+    "lead": 0.0,
+    "relevance": 0,
+    "freshness": 0.0,
+    "corroborated": 10
+   },
+   "keywords": [],
+   "shock_terms": [],
+   "dedupe_match": null,
+   "dedupe_similarity": 0.0,
+   "id": "a5f0728e293c",
+   "title": "Agency Forms Undergoing Paperwork Reduction Act Review",
+   "url": "https://www.federalregister.gov/documents/2026/11/09/2026-22819/agency-forms-undergoing-paperwork-reduction-act-review",
+   "summary": "",
+   "kind": "item",
+   "source": "Federal Register \u2014 CDC documents (newest first)",
+   "source_id": "fr-cdc-agency-feed",
+   "tier": 1,
+   "country": "GLOBAL",
+   "category": "advisory",
+   "segments": [
+    "Bush",
+    "City",
+    "Beach"
+   ],
+   "first_seen": "2026-11-08T18:59+03:00",
+   "published": "2026-11-09",
+   "verdict": "CONSIDER"
+  },
+  {
+   "score": 81.9,
+   "components": {
+    "tier": 20,
+    "category": 4,
+    "lead": 2.4,
+    "relevance": 8,
+    "freshness": 19.5,
+    "corroborated": 10,
+    "shock": 18
+   },
+   "keywords": [
+    "route"
+   ],
+   "shock_terms": [
+    "attack"
+   ],
+   "dedupe_match": null,
+   "dedupe_similarity": 0.0,
+   "id": "d8b5364a0bd6",
+   "title": "KDF foils attack in Lamu amid Al-Shabaab resurgence fears",
+   "url": "https://nation.africa/kenya/counties/lamu/kdf-foils-attack-in-lamu-amid-al-shabaab-resurgence-fears--5664248",
+   "summary": "Soldiers recovered an IED during normal patrols along the Baure-Milimani route on Monday.",
+   "kind": "item",
+   "source": "Nation Africa: Kenya business",
+   "source_id": "ke-nation-business",
+   "tier": 2,
+   "country": "KE",
+   "category": "press",
+   "segments": [
+    "city",
+    "bush",
+    "beach"
+   ],
+   "first_seen": "2026-11-09T22:52+03:00",
+   "published": "2026-11-09",
+   "verdict": "CONSIDER"
+  },
+  {
+   "score": 81.8,
+   "components": {
+    "tier": 40,
+    "category": 7,
+    "lead": 16.8,
+    "relevance": 8,
+    "freshness": 0.0,
+    "corroborated": 10
+   },
+   "keywords": [
+    "fee"
+   ],
+   "shock_terms": [],
+   "dedupe_match": null,
+   "dedupe_similarity": 0.11,
+   "id": "73139983d30e",
+   "title": "Beware of fake KAA job adverts",
+   "url": "https://www.kaa.go.ke/public-notice-fake-job-adverts",
+   "summary": "KAA does not charge any fee at any stage of recruitment. Genuine vacancies are published on www.kaa.go.ke.",
+   "kind": "item",
+   "source": "KAA tenders",
+   "source_id": "ke-kaa-tenders",
+   "tier": 1,
+   "country": "KE",
+   "category": "tender",
+   "segments": [
+    "city",
+    "bush",
+    "beach"
+   ],
+   "first_seen": "2026-11-09T02:27+03:00",
+   "published": "2026-11-08",
+   "verdict": "CONSIDER"
+  },
+  {
+   "score": 81.6,
    "components": {
     "tier": 20,
     "category": 24,
     "lead": 2.4,
     "relevance": 24,
-    "freshness": 12.5,
+    "freshness": 3.2,
     "undated": -6,
     "shock": 18,
     "page_change": -4
@@ -326,19 +746,158 @@
    "verdict": "CONSIDER"
   },
   {
-   "score": 88.2,
+   "score": 79.9,
+   "components": {
+    "tier": 20,
+    "category": 14,
+    "lead": 8.4,
+    "relevance": 8,
+    "freshness": 19.5,
+    "corroborated": 10
+   },
+   "keywords": [
+    "route"
+   ],
+   "shock_terms": [],
+   "dedupe_match": null,
+   "dedupe_similarity": 0.11,
+   "id": "c152672ce077",
+   "title": "Icelandair Oct/Nov 2027 Preliminary A321neo Gdansk Service",
+   "url": "https://www.aeroroutes.com/eng/261109-fi4q27gdn",
+   "summary": "Published at 0500PCT / 1200GMT 09NOV26 Icelandair in its preliminary schedule filing has filed limited time Airbus A321neo operations on Reykjav\u00edk Keflav\u00edk \u2013 Gdansk route, scheduled on 29OCT27 and 02NOV27. Planned A321neo service as follows. FI552 KEF0720 \u2013 1255GDN 32Q 29OCT27 FI552 KEF0720 \u2013 1155GDN 32Q 02NOV27 FI553 GDN1350 \u2013 1550KEF 32Q 29OCT27 FI553 GDN1250 \u2013 1550KEF 32Q 02NOV27",
+   "kind": "item",
+   "source": "AeroRoutes schedule filings",
+   "source_id": "aeroroutes",
+   "tier": 2,
+   "country": "GLOBAL",
+   "category": "aviation-tracker",
+   "segments": [
+    "city",
+    "bush",
+    "beach"
+   ],
+   "first_seen": "2026-11-09T22:52+03:00",
+   "published": "2026-11-09",
+   "verdict": "CONSIDER"
+  },
+  {
+   "score": 79.9,
+   "components": {
+    "tier": 40,
+    "category": 24,
+    "lead": 2.4,
+    "relevance": 0,
+    "freshness": 19.5,
+    "undated": -6
+   },
+   "keywords": [],
+   "shock_terms": [],
+   "dedupe_match": null,
+   "dedupe_similarity": 0.17,
+   "id": "56fcbf7b2bff",
+   "title": "Yellow Fever in Burkina Faso, C\u00f4te d\u2019Ivoire, and Ghana",
+   "url": "https://wwwnc.cdc.gov/travel/notices/level2/yellow-fever-ghana",
+   "summary": "",
+   "kind": "item",
+   "source": "US CDC travel health notices",
+   "source_id": "cdc-travel-notices",
+   "tier": 1,
+   "country": "GLOBAL",
+   "category": "health",
+   "segments": [
+    "city",
+    "bush",
+    "beach"
+   ],
+   "first_seen": "2026-11-09T22:52+03:00",
+   "published": null,
+   "verdict": "CONSIDER"
+  },
+  {
+   "score": 79.8,
+   "components": {
+    "tier": 40,
+    "category": 24,
+    "lead": 2.4,
+    "relevance": 0,
+    "freshness": 19.4,
+    "undated": -6
+   },
+   "keywords": [],
+   "shock_terms": [],
+   "dedupe_match": null,
+   "dedupe_similarity": 0.12,
+   "id": "7b2decd1af35",
+   "title": "Building the health system needed for Uganda's tenfold growth ambition",
+   "url": "https://www.afro.who.int/countries/uganda/news/building-health-system-needed-ugandas-tenfold-growth-ambition",
+   "summary": "",
+   "kind": "item",
+   "source": "WHO AFRO \u2014 Uganda country newsroom",
+   "source_id": "who-afro-uganda",
+   "tier": 1,
+   "country": "UG",
+   "category": "health",
+   "segments": [
+    "bush",
+    "city",
+    "beach"
+   ],
+   "first_seen": "2026-11-09T22:50+03:00",
+   "published": null,
+   "verdict": "CONSIDER"
+  },
+  {
+   "score": 79.7,
+   "components": {
+    "tier": 20,
+    "category": 5,
+    "lead": 1.2,
+    "relevance": 24,
+    "freshness": 19.5,
+    "corroborated": 10
+   },
+   "keywords": [
+    "vat",
+    "adr",
+    "hotel",
+    "tourism"
+   ],
+   "shock_terms": [],
+   "dedupe_match": null,
+   "dedupe_similarity": 0.1,
+   "id": "367e57a6b4ed",
+   "title": "Can Venezuela Build a Different Kind of High-End Tourism?",
+   "url": "https://skift.com/2026/11/09/can-venezuela-build-a-different-kind-of-high-end-tourism",
+   "summary": "Adriana Cisneros sees an opportunity for Venezuela to build a distinctive, conservation-minded tourism industry before the international hotel brands arrive. Whether that vision becomes reality will depend on political stability, security, and crucially, the choices made by the country's tourism leadership.",
+   "kind": "item",
+   "source": "Skift",
+   "source_id": "tp-skift",
+   "tier": 2,
+   "country": "GLOBAL",
+   "category": "trade",
+   "segments": [
+    "city",
+    "bush",
+    "beach"
+   ],
+   "first_seen": "2026-11-09T22:52+03:00",
+   "published": "2026-11-09",
+   "verdict": "CONSIDER"
+  },
+  {
+   "score": 78.9,
    "components": {
     "tier": 40,
     "category": 16,
     "lead": 2.4,
     "relevance": 0,
-    "freshness": 19.8,
+    "freshness": 10.5,
     "corroborated": 10
    },
    "keywords": [],
    "shock_terms": [],
    "dedupe_match": null,
-   "dedupe_similarity": 0.1,
+   "dedupe_similarity": 0.11,
    "id": "0cd367c5f6b5",
    "title": "Labour Market Survey Q1 July \u2013 Sept 2026",
    "url": "https://www.ubos.org/2026/11/09/labour-market-survey-q1-july-sept-2026",
@@ -359,13 +918,86 @@
    "verdict": "CONSIDER"
   },
   {
-   "score": 86.4,
+   "score": 78.1,
+   "components": {
+    "tier": 20,
+    "category": 5,
+    "lead": 3.6,
+    "relevance": 20,
+    "freshness": 19.5,
+    "corroborated": 10
+   },
+   "keywords": [
+    "eta",
+    "hotel",
+    "booking",
+    "guest"
+   ],
+   "shock_terms": [],
+   "dedupe_match": null,
+   "dedupe_similarity": 0.1,
+   "id": "37cbd557dea1",
+   "title": "Supercharge your hotel's digital marketing with your CRM data",
+   "url": "https://www.hospitalitynet.org/whitepaper/4135346/supercharge-your-hotels-digital-marketing-with-your-crm-data",
+   "summary": "A practical guide on connecting CRM guest data to digital marketing to drive direct bookings, repeat stays, and ancillary revenue through segmentation, retargeting, and AI-driven personalization.",
+   "kind": "item",
+   "source": "Hospitality Net \u2014 Africa announcements",
+   "source_id": "dev-hospitalitynet-africa",
+   "tier": 2,
+   "country": "REG",
+   "category": "trade",
+   "segments": [
+    "city",
+    "bush",
+    "beach"
+   ],
+   "first_seen": "2026-11-09T22:52+03:00",
+   "published": "2026-11-09",
+   "verdict": "CONSIDER"
+  },
+  {
+   "score": 78.1,
+   "components": {
+    "tier": 20,
+    "category": 9,
+    "lead": 3.6,
+    "relevance": 16,
+    "freshness": 19.5,
+    "corroborated": 10
+   },
+   "keywords": [
+    "eta",
+    "route"
+   ],
+   "shock_terms": [],
+   "dedupe_match": null,
+   "dedupe_similarity": 0.0,
+   "id": "a37f57840fad",
+   "title": "Fluggesellschaft aus Nordrhein-Westfalen: Leav Aviation k\u00fcndigt dritte Kreta-Route an",
+   "url": "https://www.fvw.de/touristik/verkehr/fluggesellschaft-aus-nordrhein-westfalen-leav-aviation-kuendigt-dritte-kreta-route-an-265921",
+   "summary": "Die in K\u00f6ln beheimatete Leav Aviation will n\u00e4chstes Jahr nicht nur ab ihrem Heimatflughafen und M\u00fcnster/Osnabr\u00fcck nach Kreta abheben, sondern auch ab dem Flughafen Paderborn-Lippstadt.",
+   "kind": "item",
+   "source": "FVW / German travel trade",
+   "source_id": "sm-derreise",
+   "tier": 2,
+   "country": "GLOBAL",
+   "category": "source-market",
+   "segments": [
+    "beach",
+    "bush"
+   ],
+   "first_seen": "2026-11-09T22:52+03:00",
+   "published": "2026-11-09",
+   "verdict": "CONSIDER"
+  },
+  {
+   "score": 77.1,
    "components": {
     "tier": 20,
     "category": 5,
     "lead": 3.6,
     "relevance": 28,
-    "freshness": 19.8,
+    "freshness": 10.5,
     "corroborated": 10
    },
    "keywords": [
@@ -398,19 +1030,89 @@
    "verdict": "CONSIDER"
   },
   {
-   "score": 85.6,
+   "score": 76.9,
+   "components": {
+    "tier": 20,
+    "category": 5,
+    "lead": 2.4,
+    "relevance": 20,
+    "freshness": 19.5,
+    "corroborated": 10
+   },
+   "keywords": [
+    "eta",
+    "hotel",
+    "booking",
+    "guest"
+   ],
+   "shock_terms": [],
+   "dedupe_match": null,
+   "dedupe_similarity": 0.1,
+   "id": "e89345979735",
+   "title": "Supercharge your hotel's digital marketing with your CRM data",
+   "url": "https://www.hospitalitynet.org/whitepaper/4135346/supercharge-your-hotels-digital-marketing-with-your-crm-data",
+   "summary": "A practical guide on connecting CRM guest data to digital marketing to drive direct bookings, repeat stays, and ancillary revenue through segmentation, retargeting, and AI-driven personalization.",
+   "kind": "item",
+   "source": "Hospitality Net: Africa openings",
+   "source_id": "dev-hospitalitynet-openings",
+   "tier": 2,
+   "country": "AFRICA",
+   "category": "trade",
+   "segments": [
+    "city",
+    "bush",
+    "beach"
+   ],
+   "first_seen": "2026-11-09T22:52+03:00",
+   "published": "2026-11-09",
+   "verdict": "CONSIDER"
+  },
+  {
+   "score": 76.4,
+   "components": {
+    "tier": 40,
+    "category": 24,
+    "lead": 2.4,
+    "relevance": 0,
+    "freshness": 0.0,
+    "corroborated": 10
+   },
+   "keywords": [],
+   "shock_terms": [],
+   "dedupe_match": null,
+   "dedupe_similarity": 0.0,
+   "id": "de2cb0cbf71f",
+   "title": "SitRep N\u00b0176/MVE-BDBV/06/11/2026",
+   "url": "https://insp.cd/sitrep-n176-mve-bdbv-06-11-2026",
+   "summary": "",
+   "kind": "item",
+   "source": "INSP RDC \u2014 Ebola daily situation reports (SitRep)",
+   "source_id": "cd-insp-sitrep",
+   "tier": 1,
+   "country": "GLOBAL",
+   "category": "health",
+   "segments": [
+    "City",
+    "Bush"
+   ],
+   "first_seen": "2026-11-08T19:00+03:00",
+   "published": "2026-11-08",
+   "verdict": "CONSIDER"
+  },
+  {
+   "score": 76.3,
    "components": {
     "tier": 40,
     "category": 15,
     "lead": 16.8,
     "relevance": 0,
-    "freshness": 19.8,
+    "freshness": 10.5,
     "undated": -6
    },
    "keywords": [],
    "shock_terms": [],
    "dedupe_match": null,
-   "dedupe_similarity": 0.12,
+   "dedupe_similarity": 0.17,
    "id": "0faecd4a85e1",
    "title": "TRA APPLAUDED FOR ENHANCING AND FACILITATING TRADE BETWEEN TANZANIA MAINLAND AND ZANZIBAR 06 November, 2026 Zanzibar\u2019s Minister for Finance and Planning, Hon. Dr. Juma Malik Akil, has commended the Tanzania Revenue\u2026 -->",
    "url": "https://www.tra.go.tz/news/tra-recognised-for-enhancing-and-facilitating-trade-between-tanzania-mainland-and-zanzibar",
@@ -431,13 +1133,13 @@
    "verdict": "CONSIDER"
   },
   {
-   "score": 85.6,
+   "score": 76.3,
    "components": {
     "tier": 40,
     "category": 15,
     "lead": 16.8,
     "relevance": 0,
-    "freshness": 19.8,
+    "freshness": 10.5,
     "undated": -6
    },
    "keywords": [],
@@ -464,13 +1166,48 @@
    "verdict": "CONSIDER"
   },
   {
-   "score": 85.2,
+   "score": 75.9,
+   "components": {
+    "tier": 40,
+    "category": 16,
+    "lead": 2.4,
+    "relevance": 4,
+    "freshness": 19.5,
+    "undated": -6
+   },
+   "keywords": [
+    "inflation"
+   ],
+   "shock_terms": [],
+   "dedupe_match": null,
+   "dedupe_similarity": 0.0,
+   "id": "e02dcaff919f",
+   "title": "Inflation Rate for October, 2026: 4.2%",
+   "url": "https://www.nbs.go.tz/statistics/topic/consumer-price-index-2026",
+   "summary": "",
+   "kind": "item",
+   "source": "NBS Tanzania statistics",
+   "source_id": "tz-nbs",
+   "tier": 1,
+   "country": "TZ",
+   "category": "statistics",
+   "segments": [
+    "city",
+    "bush",
+    "beach"
+   ],
+   "first_seen": "2026-11-09T22:51+03:00",
+   "published": null,
+   "verdict": "CONSIDER"
+  },
+  {
+   "score": 75.9,
    "components": {
     "tier": 20,
     "category": 5,
     "lead": 2.4,
     "relevance": 28,
-    "freshness": 19.8,
+    "freshness": 10.5,
     "corroborated": 10
    },
    "keywords": [
@@ -503,13 +1240,48 @@
    "verdict": "CONSIDER"
   },
   {
-   "score": 84.2,
+   "score": 75.8,
+   "components": {
+    "tier": 40,
+    "category": 13,
+    "lead": 4.8,
+    "relevance": 8,
+    "freshness": 0.0,
+    "corroborated": 10
+   },
+   "keywords": [
+    "fee"
+   ],
+   "shock_terms": [],
+   "dedupe_match": null,
+   "dedupe_similarity": 0.11,
+   "id": "c2a196e92203",
+   "title": "Beware of fake KAA job adverts",
+   "url": "https://www.kaa.go.ke/public-notice-fake-job-adverts",
+   "summary": "KAA does not charge any fee at any stage of recruitment. Genuine vacancies are published on www.kaa.go.ke.",
+   "kind": "item",
+   "source": "Kenya Airports Authority",
+   "source_id": "ke-kaa",
+   "tier": 1,
+   "country": "KE",
+   "category": "aviation",
+   "segments": [
+    "city",
+    "bush",
+    "beach"
+   ],
+   "first_seen": "2026-11-08T18:59+03:00",
+   "published": "2026-11-08",
+   "verdict": "CONSIDER"
+  },
+  {
+   "score": 74.9,
    "components": {
     "tier": 20,
     "category": 14,
     "lead": 8.4,
     "relevance": 12,
-    "freshness": 19.8,
+    "freshness": 10.5,
     "corroborated": 10
    },
    "keywords": [
@@ -518,7 +1290,7 @@
    ],
    "shock_terms": [],
    "dedupe_match": null,
-   "dedupe_similarity": 0.0,
+   "dedupe_similarity": 0.11,
    "id": "8a2051d1cced",
    "title": "Icelandair 2026-27 Holidays Troms\u00f8 Aircraft Changes",
    "url": "https://www.aeroroutes.com/eng/261109-finw26tos",
@@ -539,13 +1311,13 @@
    "verdict": "CONSIDER"
   },
   {
-   "score": 84.2,
+   "score": 74.9,
    "components": {
     "tier": 40,
     "category": 24,
     "lead": 2.4,
     "relevance": 4,
-    "freshness": 19.8,
+    "freshness": 10.5,
     "undated": -6
    },
    "keywords": [
@@ -574,13 +1346,13 @@
    "verdict": "CONSIDER"
   },
   {
-   "score": 84.2,
+   "score": 74.9,
    "components": {
     "tier": 40,
     "category": 12,
     "lead": 2.4,
     "relevance": 0,
-    "freshness": 19.8,
+    "freshness": 10.5,
     "corroborated": 10
    },
    "keywords": [],
@@ -607,523 +1379,29 @@
    "verdict": "CONSIDER"
   },
   {
-   "score": 82.8,
-   "components": {
-    "tier": 40,
-    "category": 7,
-    "lead": 6.0,
-    "relevance": 0,
-    "freshness": 19.8,
-    "corroborated": 10
-   },
-   "keywords": [],
-   "shock_terms": [],
-   "dedupe_match": null,
-   "dedupe_similarity": 0.12,
-   "id": "00614e8144f4",
-   "title": "EAC Ministers Adopt Regional El Ni\u00f1o Emergency Preparedness and Response Plan",
-   "url": "https://www.eac.int/press-releases/144-environment-natural-resources/3617-eac-ministers-adopt-regional-el-ni%C3%B1o-emergency-preparedness-and-response-plan",
-   "summary": "El Ni\u00f1o must find East Africa ready, coordinated and united: Partner States commit to act as one to protect lives, livelihoods and regional stability as heavy rains are expected to persist through February 2027 East African Community Headquarters, Arusha, Tanzania, 9th November 2026: The East African Community (EAC) has adopted the EAC El Ni\u00f1o Emergency Preparedness and Response Plan, which sets o",
-   "kind": "item",
-   "source": "East African Community \u2014 Secretariat news",
-   "source_id": "eac-secretariat",
-   "tier": 1,
-   "country": "Regional",
-   "category": "body",
-   "segments": [
-    "city"
-   ],
-   "first_seen": "2026-11-09T14:40+03:00",
-   "published": "2026-11-09",
-   "verdict": "CONSIDER"
-  },
-  {
-   "score": 82.2,
+   "score": 74.4,
    "components": {
     "tier": 20,
     "category": 4,
     "lead": 2.4,
-    "relevance": 8,
-    "freshness": 19.8,
+    "relevance": 20,
+    "freshness": 0.0,
     "corroborated": 10,
     "shock": 18
    },
    "keywords": [
-    "strike"
-   ],
-   "shock_terms": [
-    "strike"
-   ],
-   "dedupe_match": null,
-   "dedupe_similarity": 0.0,
-   "id": "47baa32ba11d",
-   "title": "Trump says he is highly unlikely to order Iran strikes if talks progress",
-   "url": "https://nation.africa/kenya/news/world/trump-says-he-is-highly-unlikely-to-order-iran-strikes-if-talks-progress-5663574",
-   "summary": "Trump acknowledged that the Iran war was part of the reason for Republicans' defeat.",
-   "kind": "item",
-   "source": "Nation Africa: Kenya business",
-   "source_id": "ke-nation-business",
-   "tier": 2,
-   "country": "KE",
-   "category": "press",
-   "segments": [
-    "city",
-    "bush",
-    "beach"
-   ],
-   "first_seen": "2026-11-09T14:41+03:00",
-   "published": "2026-11-09",
-   "verdict": "CONSIDER"
-  },
-  {
-   "score": 81.4,
-   "components": {
-    "tier": 40,
-    "category": 32,
-    "lead": 3.6,
-    "relevance": 0,
-    "freshness": 19.8,
-    "stale_trap": -10,
-    "page_change": -4
-   },
-   "keywords": [],
-   "shock_terms": [],
-   "dedupe_match": null,
-   "dedupe_similarity": 0.1,
-   "id": "5ab1d4434260",
-   "title": "[page changed] Federal Register \u2014 public inspection (HHS/CDC), pre-publication",
-   "url": "https://www.federalregister.gov/api/v1/public-inspection-documents/current.json",
-   "summary": "{\"count\":103,\"results\":[{\"agencies\":[{\"raw_name\":\"Centers for Medicare & Medicaid Services\",\"name\":\"Centers for Medicare & Medicaid Services\",\"id\":45,\"url\":\"https://www.federalregister.gov/agencies/centers-for-medicare-medicaid-services\",\"json_url\":\"https://www.federalregister.gov/api/v1/agencies/45\",\"parent_id\":221,\"slug\":\"centers-for-medicare-medicaid-services\"}],\"agency_letters\":[],\"agency_name",
-   "kind": "page-change",
-   "source": "Federal Register \u2014 public inspection (HHS/CDC), pre-publication",
-   "source_id": "us-fedreg-pubinspect-hhs",
-   "tier": 1,
-   "country": "REG",
-   "category": "advisory",
-   "segments": [
-    "city",
-    "bush"
-   ],
-   "first_seen": "2026-11-09T14:41+03:00",
-   "published": "2026-11-04",
-   "verdict": "CHECK \u2014 source date older than the window"
-  },
-  {
-   "score": 80.6,
-   "components": {
-    "tier": 40,
-    "category": 10,
-    "lead": 16.8,
-    "relevance": 0,
-    "freshness": 19.8,
-    "undated": -6
-   },
-   "keywords": [],
-   "shock_terms": [],
-   "dedupe_match": null,
-   "dedupe_similarity": 0.12,
-   "id": "88b6521dfc55",
-   "title": "Unite in negotations with the Eureopan Union - Tayebwa Monday, 9 November 2026",
-   "url": "https://www.parliament.go.ug/news/4712/unite-negotations-eureopan-union-tayebwa",
-   "summary": "",
-   "kind": "item",
-   "source": "Parliament of Uganda",
-   "source_id": "ug-parliament",
-   "tier": 1,
-   "country": "UG",
-   "category": "legislature",
-   "segments": [
-    "city",
-    "bush",
-    "beach"
-   ],
-   "first_seen": "2026-11-09T14:40+03:00",
-   "published": null,
-   "verdict": "CONSIDER"
-  },
-  {
-   "score": 80.2,
-   "components": {
-    "tier": 20,
-    "category": 4,
-    "lead": 2.4,
-    "relevance": 24,
-    "freshness": 19.8,
-    "corroborated": 10
-   },
-   "keywords": [
-    "eta",
-    "seat",
-    "election"
-   ],
-   "shock_terms": [],
-   "dedupe_match": null,
-   "dedupe_similarity": 0.0,
-   "id": "9a26c4e9110c",
-   "title": "Can Eisenkot form Israeli gov\u2019t after getting mandate?",
-   "url": "https://www.independent.co.ug/can-eisenkot-form-israeli-govt-after-getting-mandate",
-   "summary": "JERUSALEM | Xinhua | Former Israeli military chief Gadi Eisenkot received a presidential mandate on Sunday to form a government, giving him the first opportunity to unseat Prime Minister Benjamin Netanyahu, Israel\u2019s longest-serving prime minister, after an October election stripped his right-wing coalition of a parliamentary majority. But while Eisenkot has the backing of \u2026 The post Can Eisenkot f",
-   "kind": "item",
-   "source": "The Independent (Uganda)",
-   "source_id": "ug-independent",
-   "tier": 2,
-   "country": "UG",
-   "category": "press",
-   "segments": [
-    "city",
-    "bush",
-    "beach"
-   ],
-   "first_seen": "2026-11-09T14:41+03:00",
-   "published": "2026-11-09",
-   "verdict": "CONSIDER"
-  },
-  {
-   "score": 80.2,
-   "components": {
-    "tier": 20,
-    "category": 14,
-    "lead": 8.4,
-    "relevance": 8,
-    "freshness": 19.8,
-    "corroborated": 10
-   },
-   "keywords": [
-    "route"
-   ],
-   "shock_terms": [],
-   "dedupe_match": null,
-   "dedupe_similarity": 0.1,
-   "id": "2a5ed5195306",
-   "title": "TAP Air Portugal NW27 Porto \u2013 Luanda Preliminary Aircraft Changes",
-   "url": "https://www.aeroroutes.com/eng/261109-tpnw27nbj",
-   "summary": "Published at 0100PCT / 0800GMT 09NOV26 TAP Air Portugal in its preliminary schedule listing for Northern winter 2027/28 season lists aircraft changes on Porto \u2013 Luanda route. From 31OCT27, TAP currently lists Airbus A321LR operation, instead of A330-900neo. Further changes remain possible. TP293 OPO1300 \u2013 2210NBJ 32Q 5 TP293 OPO2125 \u2013 0635+1NBJ 32Q 7 TP294 NBJ0820 \u2013 1545OPO 32Q 1 TP294 NBJ2355 \u2013 0",
-   "kind": "item",
-   "source": "AeroRoutes schedule filings",
-   "source_id": "aeroroutes",
-   "tier": 2,
-   "country": "GLOBAL",
-   "category": "aviation-tracker",
-   "segments": [
-    "city",
-    "bush",
-    "beach"
-   ],
-   "first_seen": "2026-11-09T14:41+03:00",
-   "published": "2026-11-09",
-   "verdict": "CONSIDER"
-  },
-  {
-   "score": 80.2,
-   "components": {
-    "tier": 40,
-    "category": 24,
-    "lead": 2.4,
-    "relevance": 0,
-    "freshness": 19.8,
-    "undated": -6
-   },
-   "keywords": [],
-   "shock_terms": [],
-   "dedupe_match": null,
-   "dedupe_similarity": 0.12,
-   "id": "01d243c4669a",
-   "title": "Uganda and the Democratic Republic of the Congo strengthen cross-border collaboration on health security",
-   "url": "https://www.afro.who.int/countries/uganda/news/uganda-and-democratic-republic-congo-strengthen-cross-border-collaboration-health-security",
-   "summary": "",
-   "kind": "item",
-   "source": "WHO AFRO \u2014 Uganda country newsroom",
-   "source_id": "who-afro-uganda",
-   "tier": 1,
-   "country": "UG",
-   "category": "health",
-   "segments": [
-    "bush",
-    "city",
-    "beach"
-   ],
-   "first_seen": "2026-11-09T14:40+03:00",
-   "published": null,
-   "verdict": "CONSIDER"
-  },
-  {
-   "score": 78.2,
-   "components": {
-    "tier": 5,
-    "category": 5,
-    "lead": 2.4,
-    "relevance": 36,
-    "freshness": 19.8,
-    "corroborated": 10
-   },
-   "keywords": [
-    "route",
-    "capacity",
-    "seat",
-    "airline",
-    "flight",
-    "franc"
-   ],
-   "shock_terms": [],
-   "dedupe_match": null,
-   "dedupe_similarity": 0.1,
-   "id": "14cb0e4cfad4",
-   "title": "Seattle Leads the West Coast International Air Travel Battle as San Francisco, Los Angeles and San Diego Compete for Pacific Flights Amid Falling US International Capacity",
-   "url": "https://www.travelandtourworld.com/news/article/brud97dpu9o4",
-   "summary": "Seattle Leads the West Coast International Air Travel Battle as San Francisco, Los Angeles and San Diego Compete for Pacific Flights Amid Falling US International Capacity Seattle, San Francisco, Los Angeles and San Diego compete for Pacific air travel as airlines reassess international routes and capacity. The post Seattle Leads the West Coast International Air Travel Battle as San Francisco, Los",
-   "kind": "item",
-   "source": "Travel And Tour World",
-   "source_id": "gl-travelandtourworld",
-   "tier": 3,
-   "country": "GLOBAL",
-   "category": "trade",
-   "segments": [
-    "city",
-    "bush",
-    "beach"
-   ],
-   "first_seen": "2026-11-09T14:41+03:00",
-   "published": "2026-11-09",
-   "verdict": "CONSIDER"
-  },
-  {
-   "score": 77.2,
-   "components": {
-    "tier": 20,
-    "category": 5,
-    "lead": 2.4,
-    "relevance": 20,
-    "freshness": 19.8,
-    "corroborated": 10
-   },
-   "keywords": [
-    "eta",
-    "hotel",
-    "resort",
-    "opening"
-   ],
-   "shock_terms": [],
-   "dedupe_match": null,
-   "dedupe_similarity": 0.2,
-   "id": "523b4f8303c2",
-   "title": "Domes Resorts details Greek expansion for Casa Collective",
-   "url": "https://www.sleepermagazine.com/stories/projects/casa-collective-greek-expansion",
-   "summary": "Following its acquisition of Casa Collective, Domes Resorts has announced three new hotel openings in Greece for 2027. The expansion [\u2026] The post Domes Resorts details Greek expansion for Casa Collective appeared first on Sleeper .",
-   "kind": "item",
-   "source": "Sleeper: hotel projects",
-   "source_id": "dev-sleeper",
-   "tier": 2,
-   "country": "GLOBAL",
-   "category": "trade",
-   "segments": [
-    "city",
-    "bush",
-    "beach"
-   ],
-   "first_seen": "2026-11-09T14:41+03:00",
-   "published": "2026-11-09",
-   "verdict": "CONSIDER"
-  },
-  {
-   "score": 76.2,
-   "components": {
-    "tier": 20,
-    "category": 4,
-    "lead": 2.4,
-    "relevance": 20,
-    "freshness": 19.8,
-    "corroborated": 10
-   },
-   "keywords": [
-    "advisory",
-    "fee"
-   ],
-   "shock_terms": [],
-   "dedupe_match": null,
-   "dedupe_similarity": 0.1,
-   "id": "e970eb11a9d8",
-   "title": "Banks compete on speed as digital banking takes hold",
-   "url": "https://www.independent.co.ug/banks-compete-on-speed-as-digital-banking-takes-hold",
-   "summary": "Physical branches remain important for advisory services and complex transactions, but they are no longer the primary centre of financial activity COMMENT | MARK MUYOBO | Uganda\u2019s financial sector is undergoing a quiet but intense transformation. For decades, competition among banks was driven by interest rates, fees, branch networks and balance sheet strength. \u2026 The post Banks compete on speed as",
-   "kind": "item",
-   "source": "The Independent (Uganda)",
-   "source_id": "ug-independent",
-   "tier": 2,
-   "country": "UG",
-   "category": "press",
-   "segments": [
-    "city",
-    "bush",
-    "beach"
-   ],
-   "first_seen": "2026-11-09T14:41+03:00",
-   "published": "2026-11-09",
-   "verdict": "CONSIDER"
-  },
-  {
-   "score": 76.2,
-   "components": {
-    "tier": 20,
-    "category": 4,
-    "lead": 2.4,
-    "relevance": 20,
-    "freshness": 19.8,
-    "corroborated": 10
-   },
-   "keywords": [
-    "collapse",
-    "eta"
-   ],
-   "shock_terms": [],
-   "dedupe_match": null,
-   "dedupe_similarity": 0.1,
-   "id": "5693d6300508",
-   "title": "75% of inspected buildings fail required standards, MPS told",
-   "url": "https://www.independent.co.ug/75-of-inspected-buildings-fail-required-standards-mps-told",
-   "summary": "Kampala, Uganda | URN | Only 25 per cent of building developments inspected across Uganda meet the required construction standards, raising concerns about public safety and the effectiveness of building regulation amid persistent cases of building collapses and fires. The National Building Review Board (NBRB) Executive Secretary, Eng. Flavia Gutto Bwire, disclosed this while appearing \u2026 The post 7",
-   "kind": "item",
-   "source": "The Independent (Uganda)",
-   "source_id": "ug-independent",
-   "tier": 2,
-   "country": "UG",
-   "category": "press",
-   "segments": [
-    "city",
-    "bush",
-    "beach"
-   ],
-   "first_seen": "2026-11-09T14:41+03:00",
-   "published": "2026-11-09",
-   "verdict": "CONSIDER"
-  },
-  {
-   "score": 74.4,
-   "components": {
-    "tier": 20,
-    "category": 5,
-    "lead": 3.6,
-    "relevance": 16,
-    "freshness": 19.8,
-    "corroborated": 10
-   },
-   "keywords": [
-    "capacity",
-    "hotel",
-    "operator"
-   ],
-   "shock_terms": [],
-   "dedupe_match": null,
-   "dedupe_similarity": 0.1,
-   "id": "ff151a9830d0",
-   "title": "The Spa Revenue Trap: Why Luxury Hotels Need to Rethink Wellness Profitability",
-   "url": "https://www.hospitalitynet.org/opinion/4135340/the-spa-revenue-trap-why-luxury-hotels-need-to-rethink-wellness-profitability",
-   "summary": "The article argues luxury hotels over-rely on revenue as a spa performance metric, urging operators to adopt contribution margins, capacity utilisation and payroll efficiency as measures of true wellness profitability.",
-   "kind": "item",
-   "source": "Hospitality Net \u2014 Africa announcements",
-   "source_id": "dev-hospitalitynet-africa",
-   "tier": 2,
-   "country": "REG",
-   "category": "trade",
-   "segments": [
-    "city",
-    "bush",
-    "beach"
-   ],
-   "first_seen": "2026-11-09T14:41+03:00",
-   "published": "2026-11-09",
-   "verdict": "CONSIDER"
-  },
-  {
-   "score": 74.1,
-   "components": {
-    "tier": 40,
-    "category": 32,
-    "lead": 3.6,
-    "relevance": 0,
-    "freshness": 12.5,
-    "stale_trap": -10,
-    "page_change": -4
-   },
-   "keywords": [],
-   "shock_terms": [],
-   "dedupe_match": null,
-   "dedupe_similarity": 0.1,
-   "id": "ddc084533761",
-   "title": "[page changed] Federal Register \u2014 public inspection (HHS/CDC), pre-publication",
-   "url": "https://www.federalregister.gov/api/v1/public-inspection-documents/current.json",
-   "summary": "{\"count\":103,\"results\":[{\"agencies\":[{\"raw_name\":\"Centers for Medicare & Medicaid Services\",\"name\":\"Centers for Medicare & Medicaid Services\",\"id\":45,\"url\":\"https://www.federalregister.gov/agencies/centers-for-medicare-medicaid-services\",\"json_url\":\"https://www.federalregister.gov/api/v1/agencies/45\",\"parent_id\":221,\"slug\":\"centers-for-medicare-medicaid-services\"}],\"agency_letters\":[],\"agency_name",
-   "kind": "page-change",
-   "source": "Federal Register \u2014 public inspection (HHS/CDC), pre-publication",
-   "source_id": "us-fedreg-pubinspect-hhs",
-   "tier": 1,
-   "country": "REG",
-   "category": "advisory",
-   "segments": [
-    "city",
-    "bush"
-   ],
-   "first_seen": "2026-11-09T08:05+03:00",
-   "published": "2026-11-04",
-   "verdict": "CHECK \u2014 source date older than the window"
-  },
-  {
-   "score": 73.2,
-   "components": {
-    "tier": 20,
-    "category": 5,
-    "lead": 2.4,
-    "relevance": 16,
-    "freshness": 19.8,
-    "corroborated": 10
-   },
-   "keywords": [
-    "capacity",
-    "hotel",
-    "operator"
-   ],
-   "shock_terms": [],
-   "dedupe_match": null,
-   "dedupe_similarity": 0.1,
-   "id": "7bbb37f9883c",
-   "title": "The Spa Revenue Trap: Why Luxury Hotels Need to Rethink Wellness Profitability",
-   "url": "https://www.hospitalitynet.org/opinion/4135340/the-spa-revenue-trap-why-luxury-hotels-need-to-rethink-wellness-profitability",
-   "summary": "The article argues luxury hotels over-rely on revenue as a spa performance metric, urging operators to adopt contribution margins, capacity utilisation and payroll efficiency as measures of true wellness profitability.",
-   "kind": "item",
-   "source": "Hospitality Net: Africa openings",
-   "source_id": "dev-hospitalitynet-openings",
-   "tier": 2,
-   "country": "AFRICA",
-   "category": "trade",
-   "segments": [
-    "city",
-    "bush",
-    "beach"
-   ],
-   "first_seen": "2026-11-09T14:41+03:00",
-   "published": "2026-11-09",
-   "verdict": "CONSIDER"
-  },
-  {
-   "score": 72.2,
-   "components": {
-    "tier": 20,
-    "category": 4,
-    "lead": 2.4,
-    "relevance": 16,
-    "freshness": 19.8,
-    "corroborated": 10
-   },
-   "keywords": [
-    "levy",
+    "level 4",
     "vat"
    ],
-   "shock_terms": [],
+   "shock_terms": [
+    "level 4"
+   ],
    "dedupe_match": null,
-   "dedupe_similarity": 0.0,
-   "id": "78295b48870c",
-   "title": "Blow to Ruto as Kenyans Move to Court to Stop Housing Levy Deductions",
-   "url": "https://www.kenyans.co.ke/news/129242-6-kenyans-file-petition-stop-housing-levy-deductions",
-   "summary": "Beyond the deductions, the petitioners are challenging the government's use of public and community land to construct houses that are eventually sold to private individuals.",
+   "dedupe_similarity": 0.1,
+   "id": "b5e91c774219",
+   "title": "Patients Transferred as Level 4 Hospital Develops Large Cracks Months After Commissioning",
+   "url": "https://www.kenyans.co.ke/news/129231-marigat-sub-county-level-4-hospital-develops-cracks-months-after-commissioning",
+   "summary": "President William Ruto commissioned the hospital in March and further ordered the elevation of the hospital from Level 4 to Level 5 during his Baringo tour in October.",
    "kind": "item",
    "source": "Kenyans.co.ke news",
    "source_id": "ke-kenyans",
@@ -1135,298 +1413,9 @@
     "bush",
     "beach"
    ],
-   "first_seen": "2026-11-09T14:41+03:00",
-   "published": "2026-11-09",
+   "first_seen": "2026-11-08T19:00+03:00",
+   "published": "2026-11-08",
    "verdict": "CONSIDER"
-  },
-  {
-   "score": 72.2,
-   "components": {
-    "tier": 20,
-    "category": 4,
-    "lead": 2.4,
-    "relevance": 16,
-    "freshness": 19.8,
-    "corroborated": 10
-   },
-   "keywords": [
-    "fee",
-    "eta"
-   ],
-   "shock_terms": [],
-   "dedupe_match": null,
-   "dedupe_similarity": 0.0,
-   "id": "96c47acdd4bd",
-   "title": "Old tyres, basins and gumboots: How a Githunguri farmer grows vegetables on little land",
-   "url": "https://nation.africa/kenya/business/seeds-of-gold/old-tyres-basins-and-gumboots-how-a-githunguri-farmer-grows-vegetables-on-little-land-5662916",
-   "summary": "She quit alcohol and drugs and now feeds her family by rearing chickens and growing vegetables...",
-   "kind": "item",
-   "source": "Nation Africa: Kenya business",
-   "source_id": "ke-nation-business",
-   "tier": 2,
-   "country": "KE",
-   "category": "press",
-   "segments": [
-    "city",
-    "bush",
-    "beach"
-   ],
-   "first_seen": "2026-11-09T14:41+03:00",
-   "published": "2026-11-09",
-   "verdict": "CONSIDER"
-  },
-  {
-   "score": 72.0,
-   "components": {
-    "tier": 40,
-    "category": 5,
-    "lead": 1.2,
-    "relevance": 12,
-    "freshness": 19.8,
-    "undated": -6
-   },
-   "keywords": [
-    "fee",
-    "investment"
-   ],
-   "shock_terms": [],
-   "dedupe_match": null,
-   "dedupe_similarity": 0.1,
-   "id": "7b9ef8fee990",
-   "title": "7 Nov 2026 Economy State House President Museveni Implores Italian Investors to Partner with Uganda in Value Addition, Industrialisation President Yoweri Kaguta Museveni has called on Italian investors to partner with Uganda in agriculture, mineral processing, coffee production, electric vehicle manufacturing and technology transfer, emphasising the need for investments that promote local producti",
-   "url": "https://mediacentre.go.ug/press-room/president-museveni-implores-italian-investors-to-partner-with-uganda-in-value-addition-industrialisation",
-   "summary": "",
-   "kind": "item",
-   "source": "Uganda Media Centre \u2014 press room",
-   "source_id": "ug-mediacentre",
-   "tier": 1,
-   "country": "UG",
-   "category": "gov-comms",
-   "segments": [
-    "city",
-    "bush"
-   ],
-   "first_seen": "2026-11-09T14:41+03:00",
-   "published": null,
-   "verdict": "CONSIDER"
-  },
-  {
-   "score": 70.4,
-   "components": {
-    "tier": 20,
-    "category": 5,
-    "lead": 3.6,
-    "relevance": 12,
-    "freshness": 19.8,
-    "corroborated": 10
-   },
-   "keywords": [
-    "revpar",
-    "hotel"
-   ],
-   "shock_terms": [],
-   "dedupe_match": null,
-   "dedupe_similarity": 0.2,
-   "id": "a7b15984c03e",
-   "title": "Economic Forecast 2027: Lodging Sector Session with Bernie Baumohl",
-   "url": "https://www.hospitalitynet.org/opinion/4135338/economic-forecast-2027-lodging-sector-session-with-bernie-baumohl",
-   "summary": "Economist Bernie Baumohl, ranked top US forecaster in 2025, projects 2.1% GDP growth in 2027 with no recession, constrained hotel supply, and roughly 4% RevPAR growth for the lodging sector.",
-   "kind": "item",
-   "source": "Hospitality Net \u2014 Africa announcements",
-   "source_id": "dev-hospitalitynet-africa",
-   "tier": 2,
-   "country": "REG",
-   "category": "trade",
-   "segments": [
-    "city",
-    "bush",
-    "beach"
-   ],
-   "first_seen": "2026-11-09T14:41+03:00",
-   "published": "2026-11-09",
-   "verdict": "CONSIDER"
-  },
-  {
-   "score": 69.2,
-   "components": {
-    "tier": 20,
-    "category": 5,
-    "lead": 2.4,
-    "relevance": 12,
-    "freshness": 19.8,
-    "corroborated": 10
-   },
-   "keywords": [
-    "revpar",
-    "hotel"
-   ],
-   "shock_terms": [],
-   "dedupe_match": null,
-   "dedupe_similarity": 0.2,
-   "id": "5023bd98d818",
-   "title": "Economic Forecast 2027: Lodging Sector Session with Bernie Baumohl",
-   "url": "https://www.hospitalitynet.org/opinion/4135338/economic-forecast-2027-lodging-sector-session-with-bernie-baumohl",
-   "summary": "Economist Bernie Baumohl, ranked top US forecaster in 2025, projects 2.1% GDP growth in 2027 with no recession, constrained hotel supply, and roughly 4% RevPAR growth for the lodging sector.",
-   "kind": "item",
-   "source": "Hospitality Net: Africa openings",
-   "source_id": "dev-hospitalitynet-openings",
-   "tier": 2,
-   "country": "AFRICA",
-   "category": "trade",
-   "segments": [
-    "city",
-    "bush",
-    "beach"
-   ],
-   "first_seen": "2026-11-09T14:41+03:00",
-   "published": "2026-11-09",
-   "verdict": "weak"
-  },
-  {
-   "score": 68.0,
-   "components": {
-    "tier": 40,
-    "category": 5,
-    "lead": 1.2,
-    "relevance": 8,
-    "freshness": 19.8,
-    "undated": -6
-   },
-   "keywords": [
-    "eta"
-   ],
-   "shock_terms": [],
-   "dedupe_match": null,
-   "dedupe_similarity": 0.0,
-   "id": "16be1937fd77",
-   "title": "8 Nov 2026 Governance State House President Museveni Appoints 13 New Permanent Secretaries President Yoweri Kaguta Museveni has appointed 13 new Permanent Secretaries across Government Ministries, Departments and Agencies in a move to strengthen public sector leadership and improve service delivery. Read \u2192",
-   "url": "https://mediacentre.go.ug/press-room/president-museveni-appoints-13-new-permanent-secretaries-1",
-   "summary": "",
-   "kind": "item",
-   "source": "Uganda Media Centre \u2014 press room",
-   "source_id": "ug-mediacentre",
-   "tier": 1,
-   "country": "UG",
-   "category": "gov-comms",
-   "segments": [
-    "city",
-    "bush"
-   ],
-   "first_seen": "2026-11-09T14:41+03:00",
-   "published": null,
-   "verdict": "weak"
-  },
-  {
-   "score": 67.8,
-   "components": {
-    "tier": 20,
-    "category": 4,
-    "lead": 0.0,
-    "relevance": 12,
-    "freshness": 19.8,
-    "undated": -6,
-    "shock": 18
-   },
-   "keywords": [
-    "outbreak"
-   ],
-   "shock_terms": [
-    "outbreak"
-   ],
-   "dedupe_match": null,
-   "dedupe_similarity": 0.25,
-   "id": "9714704c73af",
-   "title": "Uganda, Rwanda test joint readiness for cross-border disease outbreaks Olaro said the exercise was intended to strengthen Uganda's health security through collaboration with Rwanda, health workers, development partners and security agencies. News",
-   "url": "https://www.newvision.co.ug/category/news/uganda-rwanda-test-joint-readiness-for-cross--NV_243847_112026",
-   "summary": "",
-   "kind": "item",
-   "source": "New Vision (Uganda)",
-   "source_id": "np-newvision-ug",
-   "tier": 2,
-   "country": "UG",
-   "category": "press",
-   "segments": [
-    "city",
-    "bush",
-    "beach"
-   ],
-   "first_seen": "2026-11-09T14:41+03:00",
-   "published": null,
-   "verdict": "weak"
-  },
-  {
-   "score": 67.8,
-   "components": {
-    "tier": 20,
-    "category": 4,
-    "lead": 0.0,
-    "relevance": 12,
-    "freshness": 19.8,
-    "undated": -6,
-    "shock": 18
-   },
-   "keywords": [
-    "outbreak"
-   ],
-   "shock_terms": [
-    "outbreak"
-   ],
-   "dedupe_match": null,
-   "dedupe_similarity": 0.25,
-   "id": "1c05fa8d22ad",
-   "title": "Health Uganda, Rwanda test joint readiness for cross-border disease outbreaks \u00b7 2 min read",
-   "url": "https://www.newvision.co.ug/category/health/uganda-rwanda-test-joint-readiness-for-cross--NV_243847_112026",
-   "summary": "",
-   "kind": "item",
-   "source": "New Vision (Uganda)",
-   "source_id": "np-newvision-ug",
-   "tier": 2,
-   "country": "UG",
-   "category": "press",
-   "segments": [
-    "city",
-    "bush",
-    "beach"
-   ],
-   "first_seen": "2026-11-09T14:41+03:00",
-   "published": null,
-   "verdict": "weak"
-  },
-  {
-   "score": 66.4,
-   "components": {
-    "tier": 20,
-    "category": 5,
-    "lead": 3.6,
-    "relevance": 8,
-    "freshness": 19.8,
-    "corroborated": 10
-   },
-   "keywords": [
-    "hotel",
-    "resort"
-   ],
-   "shock_terms": [],
-   "dedupe_match": null,
-   "dedupe_similarity": 0.12,
-   "id": "2d58bed3140e",
-   "title": "Four Seasons Resorts Lanai to Resume Full Management of Sensei Lanai, a Four Seasons Resort",
-   "url": "https://www.hospitalitynet.org/news/4135331/four-seasons-resorts-lanai-to-resume-full-management-of-sensei-lanai-a-four-seasons-resort",
-   "summary": "From December 2026, Four Seasons will consolidate wellness and hotel operations at Sensei Lanai under one structure, as Sensei shifts focus to its standalone retreat portfolio.",
-   "kind": "item",
-   "source": "Hospitality Net \u2014 Africa announcements",
-   "source_id": "dev-hospitalitynet-africa",
-   "tier": 2,
-   "country": "REG",
-   "category": "trade",
-   "segments": [
-    "city",
-    "bush",
-    "beach"
-   ],
-   "first_seen": "2026-11-09T14:41+03:00",
-   "published": "2026-11-09",
-   "verdict": "weak"
   }
  ]
 }
