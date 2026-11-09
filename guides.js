@@ -1,5 +1,14 @@
 window.GUIDES = [
  {
+  "slug": "mara-bed-ceiling-unenforced-luxury-pipeline",
+  "title": "The Mara's bed ceiling is absolute on paper. Nobody has got a court to look at it.",
+  "description": "W Hospitality Group's new pipeline report names the Maasai Mara and the Serengeti among sub-Saharan Africa's luxury development hotspots, and asks whether they can absorb the supply. Kenya's own management plan answered that question in 2023. The answers that have actually counted since then have all been procedural.",
+  "category": "Big Read",
+  "updated": "2026-11-09",
+  "readMins": 8,
+  "image": "img/editions/mara-bed-ceiling-unenforced-luxury-pipeline.jpg"
+ },
+ {
   "slug": "tanzania-advisory-four-readings-none-current",
   "title": "Four governments have read Tanzania's year. Not one of them has read it lately.",
   "description": "Tanzania went to London this week to sell eight million tourists, then a court in Dar es Salaam jailed the opposition leader. The commercial problem is not the verdict: it is that the four advisory pages which price that risk have all stopped being updated.",
