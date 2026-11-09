@@ -4,6 +4,8 @@ slug: mara-bed-ceiling-unenforced-luxury-pipeline
 description: W Hospitality Group's new pipeline report names the Maasai Mara and the Serengeti among sub-Saharan Africa's luxury development hotspots, and asks whether they can absorb the supply. Kenya's own management plan answered that question in 2023. The answers that have actually counted since then have all been procedural.
 category: Big Read
 updated: 2026-11-09
+image: "img/editions/mara-bed-ceiling-unenforced-luxury-pipeline.jpg"
+image_credit: "Photograph: Onyango George / EA Hospitality Pulse"
 ---
 The question arrived at the end of a spreadsheet. W Hospitality Group, the Lagos consultancy that has counted Africa's hotel pipeline every year since 2009, published the luxury cut of its 2026 survey last week, and the numbers were the largest it has ever recorded: 675 hotels and resorts in development across the continent, 123,846 rooms, up almost 19 per cent in a year. Within that, 105 projects at five stars and above, carrying 19,453 rooms, of which 57 are already under construction rather than on paper. North Africa took 70 of the luxury schemes. Sub-Saharan Africa took 35, spread across 14 countries, and 26 of those 35 are in holiday and resort locations rather than cities. The places the report names are Zanzibar, the Serengeti, the Maasai Mara, Victoria Falls, Yaoundé, Kampala and Kigali.
 
