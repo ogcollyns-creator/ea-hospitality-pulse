@@ -1,18 +1,18 @@
 {
- "generated": "2026-11-10T10:08:21+03:00",
+ "generated": "2026-11-10T14:42:47+03:00",
  "slot": "midday",
  "window_start": 1794283200,
- "observations_in_window": 192,
+ "observations_in_window": 410,
  "deduped_against": 9,
  "candidates": [
   {
-   "score": 117.8,
+   "score": 112.7,
    "components": {
     "tier": 40,
     "category": 32,
     "lead": 12.0,
     "relevance": 8,
-    "freshness": 19.8,
+    "freshness": 14.7,
     "corroborated": 10,
     "page_change": -4
    },
@@ -41,13 +41,46 @@
    "verdict": "OPEN THIS \u2014 tier-1 advisory page moved; content not auto-parsed, read it manually"
   },
   {
-   "score": 101.3,
+   "score": 101.0,
    "components": {
     "tier": 40,
     "category": 32,
     "lead": 3.6,
     "relevance": 0,
-    "freshness": 19.7,
+    "freshness": 19.4,
+    "corroborated": 10,
+    "page_change": -4
+   },
+   "keywords": [],
+   "shock_terms": [],
+   "dedupe_match": null,
+   "dedupe_similarity": 0.1,
+   "id": "f02d59429bca",
+   "title": "[page changed] Federal Register \u2014 public inspection (HHS/CDC), pre-publication",
+   "url": "https://www.federalregister.gov/api/v1/public-inspection-documents/current.json",
+   "summary": "{\"count\":110,\"results\":[{\"agencies\":[{\"raw_name\":\"Centers for Medicare & Medicaid Services\",\"name\":\"Centers for Medicare & Medicaid Services\",\"id\":45,\"url\":\"https://www.federalregister.gov/agencies/centers-for-medicare-medicaid-services\",\"json_url\":\"https://www.federalregister.gov/api/v1/agencies/45\",\"parent_id\":221,\"slug\":\"centers-for-medicare-medicaid-services\"}],\"agency_letters\":[],\"agency_name",
+   "kind": "page-change",
+   "source": "Federal Register \u2014 public inspection (HHS/CDC), pre-publication",
+   "source_id": "us-fedreg-pubinspect-hhs",
+   "tier": 1,
+   "country": "REG",
+   "category": "advisory",
+   "segments": [
+    "city",
+    "bush"
+   ],
+   "first_seen": "2026-11-10T14:20+03:00",
+   "published": "2026-11-09",
+   "verdict": "OPEN THIS \u2014 tier-1 advisory page moved; content not auto-parsed, read it manually"
+  },
+  {
+   "score": 96.3,
+   "components": {
+    "tier": 40,
+    "category": 32,
+    "lead": 3.6,
+    "relevance": 0,
+    "freshness": 14.7,
     "corroborated": 10,
     "page_change": -4
    },
@@ -74,13 +107,154 @@
    "verdict": "OPEN THIS \u2014 tier-1 advisory page moved; content not auto-parsed, read it manually"
   },
   {
-   "score": 98.2,
+   "score": 95.8,
+   "components": {
+    "tier": 40,
+    "category": 24,
+    "lead": 2.4,
+    "relevance": 0,
+    "freshness": 19.4,
+    "corroborated": 10
+   },
+   "keywords": [],
+   "shock_terms": [],
+   "dedupe_match": null,
+   "dedupe_similarity": 0.0,
+   "id": "2fa7472a3d7b",
+   "title": "Semaine \u00c9pid\u00e9miologique 43\u2022 R\u00e9union du 04 Novembre 2026",
+   "url": "https://insp.cd/semaine-epidemiologique-43-reunion-du-04-novembre-2026",
+   "summary": "",
+   "kind": "item",
+   "source": "INSP RDC \u2014 Ebola daily situation reports (SitRep)",
+   "source_id": "cd-insp-sitrep",
+   "tier": 1,
+   "country": "GLOBAL",
+   "category": "health",
+   "segments": [
+    "City",
+    "Bush"
+   ],
+   "first_seen": "2026-11-10T14:21+03:00",
+   "published": "2026-11-10",
+   "verdict": "STRONG \u2014 tier-1, upstream"
+  },
+  {
+   "score": 95.8,
+   "components": {
+    "tier": 40,
+    "category": 24,
+    "lead": 2.4,
+    "relevance": 0,
+    "freshness": 19.4,
+    "corroborated": 10
+   },
+   "keywords": [],
+   "shock_terms": [],
+   "dedupe_match": null,
+   "dedupe_similarity": 0.0,
+   "id": "0ad23793188f",
+   "title": "SitRep N\u00b0178/MVE-BDBV/08/11/2026",
+   "url": "https://insp.cd/sitrep-n178-mve-bdbv-08-11-2026",
+   "summary": "",
+   "kind": "item",
+   "source": "INSP RDC \u2014 Ebola daily situation reports (SitRep)",
+   "source_id": "cd-insp-sitrep",
+   "tier": 1,
+   "country": "GLOBAL",
+   "category": "health",
+   "segments": [
+    "City",
+    "Bush"
+   ],
+   "first_seen": "2026-11-10T14:21+03:00",
+   "published": "2026-11-10",
+   "verdict": "STRONG \u2014 tier-1, upstream"
+  },
+  {
+   "score": 95.8,
+   "components": {
+    "tier": 20,
+    "category": 14,
+    "lead": 8.4,
+    "relevance": 24,
+    "freshness": 19.4,
+    "corroborated": 10
+   },
+   "keywords": [
+    "cancel",
+    "route",
+    "flight"
+   ],
+   "shock_terms": [],
+   "dedupe_match": null,
+   "dedupe_similarity": 0.11,
+   "id": "0d0a22408d5e",
+   "title": "Air Canada Cancels Halifax \u2013 Brussels in NS27",
+   "url": "https://www.aeroroutes.com/eng/261110-acns27yhzbru",
+   "summary": "Published at 0400PCT / 1100GMT 10NOV26 Air Canada in last week\u2019s schedule update removed Halifax \u2013 Brussels route in Northern summer 2027 season. The carrier previously planned to move from mainline operation to rouge, when this route returns for the second consecutive summer, with 3 weekly flights from 17JUN27 to 05SEP27. Previously filed schedule as follows. AC2084 YHZ2030 \u2013 0750+1BRU 7M8 246 AC",
+   "kind": "item",
+   "source": "AeroRoutes schedule filings",
+   "source_id": "aeroroutes",
+   "tier": 2,
+   "country": "GLOBAL",
+   "category": "aviation-tracker",
+   "segments": [
+    "city",
+    "bush",
+    "beach"
+   ],
+   "first_seen": "2026-11-10T14:21+03:00",
+   "published": "2026-11-10",
+   "verdict": "CONSIDER"
+  },
+  {
+   "score": 95.4,
+   "components": {
+    "tier": 20,
+    "category": 4,
+    "lead": 0.0,
+    "relevance": 24,
+    "freshness": 19.4,
+    "corroborated": 10,
+    "shock": 18
+   },
+   "keywords": [
+    "grounded",
+    "airport",
+    "flight"
+   ],
+   "shock_terms": [
+    "grounded"
+   ],
+   "dedupe_match": null,
+   "dedupe_similarity": 0.12,
+   "id": "1bf7dc4cb82d",
+   "title": "Air Tanzania announces eight-day flight disruption as Airbus fleet grounded",
+   "url": "https://www.theeastafrican.co.ke/tea/business-tech/air-tanzania-flight-disruption-as-airbus-fleet-grounded-5665152",
+   "summary": "Firm urged travellers to confirm their flight status before heading to the airport, as...",
+   "kind": "item",
+   "source": "The EastAfrican",
+   "source_id": "np-eastafrican",
+   "tier": 2,
+   "country": "REG",
+   "category": "press",
+   "segments": [
+    "city",
+    "bush",
+    "beach"
+   ],
+   "first_seen": "2026-11-10T14:21+03:00",
+   "published": "2026-11-10",
+   "verdict": "CONSIDER"
+  },
+  {
+   "score": 93.1,
    "components": {
     "tier": 20,
     "category": 4,
     "lead": 2.4,
     "relevance": 24,
-    "freshness": 19.8,
+    "freshness": 14.7,
     "corroborated": 10,
     "shock": 18
    },
@@ -113,13 +287,13 @@
    "verdict": "CONSIDER"
   },
   {
-   "score": 96.2,
+   "score": 91.1,
    "components": {
     "tier": 20,
     "category": 14,
     "lead": 8.4,
     "relevance": 24,
-    "freshness": 19.8,
+    "freshness": 14.7,
     "corroborated": 10
    },
    "keywords": [
@@ -150,13 +324,13 @@
    "verdict": "CONSIDER"
   },
   {
-   "score": 91.5,
+   "score": 86.5,
    "components": {
     "tier": 40,
     "category": 17,
     "lead": 16.8,
     "relevance": 4,
-    "freshness": 19.7,
+    "freshness": 14.7,
     "undated": -6
    },
    "keywords": [
@@ -182,16 +356,16 @@
    ],
    "first_seen": "2026-11-10T10:05+03:00",
    "published": null,
-   "verdict": "STRONG \u2014 tier-1, upstream"
+   "verdict": "CONSIDER"
   },
   {
-   "score": 91.5,
+   "score": 86.5,
    "components": {
     "tier": 40,
     "category": 17,
     "lead": 16.8,
     "relevance": 4,
-    "freshness": 19.7,
+    "freshness": 14.7,
     "undated": -6
    },
    "keywords": [
@@ -217,16 +391,91 @@
    ],
    "first_seen": "2026-11-10T10:05+03:00",
    "published": null,
-   "verdict": "STRONG \u2014 tier-1, upstream"
+   "verdict": "CONSIDER"
   },
   {
-   "score": 88.2,
+   "score": 83.8,
+   "components": {
+    "tier": 5,
+    "category": 5,
+    "lead": 2.4,
+    "relevance": 24,
+    "freshness": 19.4,
+    "corroborated": 10,
+    "shock": 18
+   },
+   "keywords": [
+    "advisory",
+    "curfew"
+   ],
+   "shock_terms": [
+    "curfew"
+   ],
+   "dedupe_match": null,
+   "dedupe_similarity": 0.2,
+   "id": "ce1ec15f258e",
+   "title": "Thailand Travel Advisory Maps Closed Border Crossings and Sabah Sea Curfews as Papua Risks and Haze Measures Ease",
+   "url": "https://www.travelandtourworld.com/news/article/jcj3galxet0g",
+   "summary": "Thailand Travel Advisory Maps Closed Border Crossings and Sabah Sea Curfews as Papua Risks and Haze Measures Ease Thailand border closures and Sabah sea curfews persist amid Papua warnings as Singapore eases haze rules. The post Thailand Travel Advisory Maps Closed Border Crossings and Sabah Sea Curfews as Papua Risks and Haze Measures Ease appeared first on Travel And Tour World .",
+   "kind": "item",
+   "source": "Travel And Tour World",
+   "source_id": "gl-travelandtourworld",
+   "tier": 3,
+   "country": "GLOBAL",
+   "category": "trade",
+   "segments": [
+    "city",
+    "bush",
+    "beach"
+   ],
+   "first_seen": "2026-11-10T14:21+03:00",
+   "published": "2026-11-10",
+   "verdict": "CONSIDER"
+  },
+  {
+   "score": 83.8,
+   "components": {
+    "tier": 20,
+    "category": 14,
+    "lead": 8.4,
+    "relevance": 12,
+    "freshness": 19.4,
+    "corroborated": 10
+   },
+   "keywords": [
+    "charter",
+    "flight"
+   ],
+   "shock_terms": [],
+   "dedupe_match": null,
+   "dedupe_similarity": 0.11,
+   "id": "7bd304ae3683",
+   "title": "Korean Air 1Q27 Egypt Charters",
+   "url": "https://www.aeroroutes.com/eng/261110-ke1q27eg",
+   "summary": "Published at 0100PCT / 0800GMT 10NOV26 Korean Air in the first quarter of 2027 schedules charter service to Egypt, operating nonstop Seoul Incheon \u2013 Cairo flights with 777-300ER. The charter flight is scheduled once a week from 01JAN27 to 12FEB27. KE9953 ICN1220 \u2013 1805CAI 77W 5 KE9954 CAI2005 \u2013 1330+1ICN 77W 5",
+   "kind": "item",
+   "source": "AeroRoutes schedule filings",
+   "source_id": "aeroroutes",
+   "tier": 2,
+   "country": "GLOBAL",
+   "category": "aviation-tracker",
+   "segments": [
+    "city",
+    "bush",
+    "beach"
+   ],
+   "first_seen": "2026-11-10T14:21+03:00",
+   "published": "2026-11-10",
+   "verdict": "CONSIDER"
+  },
+  {
+   "score": 83.1,
    "components": {
     "tier": 20,
     "category": 14,
     "lead": 8.4,
     "relevance": 16,
-    "freshness": 19.8,
+    "freshness": 14.7,
     "corroborated": 10
    },
    "keywords": [
@@ -257,13 +506,13 @@
    "verdict": "CONSIDER"
   },
   {
-   "score": 88.2,
+   "score": 83.1,
    "components": {
     "tier": 20,
     "category": 14,
     "lead": 8.4,
     "relevance": 16,
-    "freshness": 19.8,
+    "freshness": 14.7,
     "corroborated": 10
    },
    "keywords": [
@@ -294,13 +543,13 @@
    "verdict": "CONSIDER"
   },
   {
-   "score": 87.5,
+   "score": 82.5,
    "components": {
     "tier": 40,
     "category": 17,
     "lead": 16.8,
     "relevance": 0,
-    "freshness": 19.7,
+    "freshness": 14.7,
     "undated": -6
    },
    "keywords": [],
@@ -327,13 +576,13 @@
    "verdict": "CONSIDER"
   },
   {
-   "score": 85.3,
+   "score": 80.3,
    "components": {
     "tier": 40,
     "category": 12,
     "lead": 3.6,
     "relevance": 0,
-    "freshness": 19.7,
+    "freshness": 14.7,
     "corroborated": 10
    },
    "keywords": [],
@@ -360,13 +609,145 @@
    "verdict": "CONSIDER"
   },
   {
-   "score": 84.1,
+   "score": 79.8,
+   "components": {
+    "tier": 40,
+    "category": 24,
+    "lead": 2.4,
+    "relevance": 0,
+    "freshness": 19.4,
+    "undated": -6
+   },
+   "keywords": [],
+   "shock_terms": [],
+   "dedupe_match": null,
+   "dedupe_similarity": 0.17,
+   "id": "1252c25ee338",
+   "title": "10 November 2026 | News Release New WHO report reveals critical gaps in Africa's health information systems",
+   "url": "https://www.afro.who.int/news/new-who-report-reveals-critical-gaps-africas-health-information-systems",
+   "summary": "",
+   "kind": "item",
+   "source": "WHO AFRO \u2014 Kenya country newsroom",
+   "source_id": "who-afro-kenya",
+   "tier": 1,
+   "country": "KE",
+   "category": "health",
+   "segments": [
+    "bush",
+    "city",
+    "beach"
+   ],
+   "first_seen": "2026-11-10T14:21+03:00",
+   "published": null,
+   "verdict": "CONSIDER"
+  },
+  {
+   "score": 79.8,
+   "components": {
+    "tier": 40,
+    "category": 24,
+    "lead": 2.4,
+    "relevance": 0,
+    "freshness": 19.4,
+    "undated": -6
+   },
+   "keywords": [],
+   "shock_terms": [],
+   "dedupe_match": null,
+   "dedupe_similarity": 0.17,
+   "id": "3df008433c06",
+   "title": "10 November 2026 | News Release New WHO report reveals critical gaps in Africa's health information systems",
+   "url": "https://www.afro.who.int/news/new-who-report-reveals-critical-gaps-africas-health-information-systems",
+   "summary": "",
+   "kind": "item",
+   "source": "WHO AFRO \u2014 Rwanda country newsroom",
+   "source_id": "who-afro-rwanda",
+   "tier": 1,
+   "country": "RW",
+   "category": "health",
+   "segments": [
+    "bush",
+    "city",
+    "beach"
+   ],
+   "first_seen": "2026-11-10T14:20+03:00",
+   "published": null,
+   "verdict": "CONSIDER"
+  },
+  {
+   "score": 79.8,
+   "components": {
+    "tier": 40,
+    "category": 24,
+    "lead": 2.4,
+    "relevance": 0,
+    "freshness": 19.4,
+    "undated": -6
+   },
+   "keywords": [],
+   "shock_terms": [],
+   "dedupe_match": null,
+   "dedupe_similarity": 0.14,
+   "id": "cab108f66620",
+   "title": "New WHO data strengthens the case for tobacco-free farms in Uganda",
+   "url": "https://www.afro.who.int/countries/uganda/news/new-who-data-strengthens-case-tobacco-free-farms-uganda",
+   "summary": "",
+   "kind": "item",
+   "source": "WHO AFRO \u2014 Uganda country newsroom",
+   "source_id": "who-afro-uganda",
+   "tier": 1,
+   "country": "UG",
+   "category": "health",
+   "segments": [
+    "bush",
+    "city",
+    "beach"
+   ],
+   "first_seen": "2026-11-10T14:20+03:00",
+   "published": null,
+   "verdict": "CONSIDER"
+  },
+  {
+   "score": 79.8,
+   "components": {
+    "tier": 40,
+    "category": 24,
+    "lead": 2.4,
+    "relevance": 0,
+    "freshness": 19.4,
+    "undated": -6
+   },
+   "keywords": [],
+   "shock_terms": [],
+   "dedupe_match": null,
+   "dedupe_similarity": 0.17,
+   "id": "8c5d54bf0b02",
+   "title": "10 November 2026 | News Release New WHO report reveals critical gaps in Africa's health information systems",
+   "url": "https://www.afro.who.int/news/new-who-report-reveals-critical-gaps-africas-health-information-systems",
+   "summary": "",
+   "kind": "item",
+   "source": "WHO AFRO \u2014 Uganda country newsroom",
+   "source_id": "who-afro-uganda",
+   "tier": 1,
+   "country": "UG",
+   "category": "health",
+   "segments": [
+    "bush",
+    "city",
+    "beach"
+   ],
+   "first_seen": "2026-11-10T14:20+03:00",
+   "published": null,
+   "verdict": "CONSIDER"
+  },
+  {
+   "score": 79.1,
    "components": {
     "tier": 40,
     "category": 12,
     "lead": 2.4,
     "relevance": 0,
-    "freshness": 19.7,
+    "freshness": 14.7,
     "corroborated": 10
    },
    "keywords": [],
@@ -393,13 +774,82 @@
    "verdict": "CONSIDER"
   },
   {
-   "score": 83.5,
+   "score": 78.6,
+   "components": {
+    "tier": 40,
+    "category": 24,
+    "lead": 1.2,
+    "relevance": 4,
+    "freshness": 19.4,
+    "stale_trap": -10
+   },
+   "keywords": [
+    "investment"
+   ],
+   "shock_terms": [],
+   "dedupe_match": null,
+   "dedupe_similarity": 0.11,
+   "id": "6a065b0323f9",
+   "title": "UGANDA STRENGTHENS CHILDHOOD CANCER CARE THROUGH REGIONAL CENTRES, SPECIALIST TRAINING AND NEW INVESTMENTS.",
+   "url": "http://localhost:8080/UGANDA-STRENGTHENS-CHILDHOOD-CANCER-CARE-THROUGH-REGIONAL-CENTRES,-SPECIALIST-TRAINING-AND-NEW-INVESTMENTS.",
+   "summary": "",
+   "kind": "item",
+   "source": "Uganda Ministry of Health \u2014 news",
+   "source_id": "ug-moh-news",
+   "tier": 1,
+   "country": "UG",
+   "category": "health",
+   "segments": [
+    "city",
+    "bush"
+   ],
+   "first_seen": "2026-11-10T14:20+03:00",
+   "published": "2026-11-07",
+   "verdict": "CHECK \u2014 source date older than the window"
+  },
+  {
+   "score": 78.6,
+   "components": {
+    "tier": 40,
+    "category": 24,
+    "lead": 1.2,
+    "relevance": 4,
+    "freshness": 19.4,
+    "stale_trap": -10
+   },
+   "keywords": [
+    "investment"
+   ],
+   "shock_terms": [],
+   "dedupe_match": null,
+   "dedupe_similarity": 0.11,
+   "id": "3fe4162b4083",
+   "title": "UGANDA STRENGTHENS CHILDHOOD CANCER CARE THROUGH REGIONAL CENTRES, SPECIALIST TRAINING AND NEW INVESTMENTS.",
+   "url": "http://localhost:8080/UGANDA-STRENGTHENS-CHILDHOOD-CANCER-CARE-THROUGH-REGIONAL-CENTRES,-SPECIALIST-TRAINING-AND-NEW-INVESTMENTS.",
+   "summary": "",
+   "kind": "item",
+   "source": "Uganda Ministry of Health",
+   "source_id": "ug-moh",
+   "tier": 1,
+   "country": "UG",
+   "category": "health",
+   "segments": [
+    "city",
+    "bush",
+    "beach"
+   ],
+   "first_seen": "2026-11-10T14:20+03:00",
+   "published": "2026-11-07",
+   "verdict": "CHECK \u2014 source date older than the window"
+  },
+  {
+   "score": 78.5,
    "components": {
     "tier": 40,
     "category": 9,
     "lead": 16.8,
     "relevance": 4,
-    "freshness": 19.7,
+    "freshness": 14.7,
     "undated": -6
    },
    "keywords": [
@@ -426,13 +876,122 @@
    "verdict": "CONSIDER"
   },
   {
-   "score": 80.2,
+   "score": 75.8,
+   "components": {
+    "tier": 20,
+    "category": 4,
+    "lead": 2.4,
+    "relevance": 20,
+    "freshness": 19.4,
+    "corroborated": 10
+   },
+   "keywords": [
+    "eta",
+    "route",
+    "passenger"
+   ],
+   "shock_terms": [],
+   "dedupe_match": null,
+   "dedupe_similarity": 0.2,
+   "id": "9f51403ac431",
+   "title": "Kenya Railways Unveils New Routes, Fares & Timetable for Some Nairobi Trains",
+   "url": "https://www.kenyans.co.ke/news/129271-kenya-railways-announces-new-nyahururu-limuru-train-route-timetable-and-fares",
+   "summary": "Kenya Railways urged all passengers travelling along the affected routes to familiarise themselves with the revised schedules and fares before planning their journeys.",
+   "kind": "item",
+   "source": "Kenyans.co.ke news",
+   "source_id": "ke-kenyans",
+   "tier": 2,
+   "country": "KE",
+   "category": "press",
+   "segments": [
+    "city",
+    "bush",
+    "beach"
+   ],
+   "first_seen": "2026-11-10T14:21+03:00",
+   "published": "2026-11-10",
+   "verdict": "CONSIDER"
+  },
+  {
+   "score": 75.8,
+   "components": {
+    "tier": 20,
+    "category": 4,
+    "lead": 2.4,
+    "relevance": 20,
+    "freshness": 19.4,
+    "corroborated": 10
+   },
+   "keywords": [
+    "suspend",
+    "tourist",
+    "passenger"
+   ],
+   "shock_terms": [],
+   "dedupe_match": null,
+   "dedupe_similarity": 0.14,
+   "id": "53a5fa2e1122",
+   "title": "CS Announces Plans for Cable Cars Along Nairobi-Nakuru Highway",
+   "url": "https://www.kenyans.co.ke/news/129270-cs-chirchir-unveils-plans-cable-cars-rironi-mau-summit-viewpoint-sections",
+   "summary": "The CS says that the proposed cable cars would allow tourists to travel in suspended passenger cabins supported by overhead steel cables to have a great view of the viewpoint sections.",
+   "kind": "item",
+   "source": "Kenyans.co.ke news",
+   "source_id": "ke-kenyans",
+   "tier": 2,
+   "country": "KE",
+   "category": "press",
+   "segments": [
+    "city",
+    "bush",
+    "beach"
+   ],
+   "first_seen": "2026-11-10T14:21+03:00",
+   "published": "2026-11-10",
+   "verdict": "CONSIDER"
+  },
+  {
+   "score": 75.8,
+   "components": {
+    "tier": 20,
+    "category": 14,
+    "lead": 8.4,
+    "relevance": 4,
+    "freshness": 19.4,
+    "corroborated": 10
+   },
+   "keywords": [
+    "franc"
+   ],
+   "shock_terms": [],
+   "dedupe_match": null,
+   "dedupe_similarity": 0.11,
+   "id": "574716e0bff6",
+   "title": "Air France Plans to Conclude A330-200 Service in early-March 2027",
+   "url": "https://www.aeroroutes.com/eng/261110-afnw26332",
+   "summary": "Published at 0300PCT / 1000GMT 10NOV26 Air France in the last few weeks adjusted Airbus A330-200 operations, as the carrier intends to conclude the type\u2019s scheduled operation 3 weeks earlier than initially filed. As of 08NOV26, the A330-200 is now scheduled until 07MAR27 inclusive. Paris Charles de Gaulle \u2013 Abuja \u2013 N\u2019djamena \u2013 Paris Charles de Gaulle 1-2 weekly until 19FEB27 Paris Charles de Gaull",
+   "kind": "item",
+   "source": "AeroRoutes schedule filings",
+   "source_id": "aeroroutes",
+   "tier": 2,
+   "country": "GLOBAL",
+   "category": "aviation-tracker",
+   "segments": [
+    "city",
+    "bush",
+    "beach"
+   ],
+   "first_seen": "2026-11-10T14:21+03:00",
+   "published": "2026-11-10",
+   "verdict": "CONSIDER"
+  },
+  {
+   "score": 75.1,
    "components": {
     "tier": 20,
     "category": 14,
     "lead": 8.4,
     "relevance": 8,
-    "freshness": 19.8,
+    "freshness": 14.7,
     "corroborated": 10
    },
    "keywords": [
@@ -461,13 +1020,13 @@
    "verdict": "CONSIDER"
   },
   {
-   "score": 80.2,
+   "score": 75.1,
    "components": {
     "tier": 20,
     "category": 14,
     "lead": 8.4,
     "relevance": 8,
-    "freshness": 19.8,
+    "freshness": 14.7,
     "corroborated": 10
    },
    "keywords": [
@@ -496,13 +1055,13 @@
    "verdict": "CONSIDER"
   },
   {
-   "score": 80.2,
+   "score": 75.1,
    "components": {
     "tier": 20,
     "category": 14,
     "lead": 8.4,
     "relevance": 8,
-    "freshness": 19.8,
+    "freshness": 14.7,
     "corroborated": 10
    },
    "keywords": [
@@ -532,13 +1091,13 @@
    "verdict": "CONSIDER"
   },
   {
-   "score": 79.5,
+   "score": 74.5,
    "components": {
     "tier": 40,
     "category": 9,
     "lead": 16.8,
     "relevance": 0,
-    "freshness": 19.7,
+    "freshness": 14.7,
     "undated": -6
    },
    "keywords": [],
@@ -563,13 +1122,53 @@
    "verdict": "CONSIDER"
   },
   {
-   "score": 77.5,
+   "score": 73.8,
+   "components": {
+    "tier": 5,
+    "category": 5,
+    "lead": 2.4,
+    "relevance": 32,
+    "freshness": 19.4,
+    "corroborated": 10
+   },
+   "keywords": [
+    "tax",
+    "airport",
+    "tourism",
+    "airline",
+    "flight",
+    "passenger"
+   ],
+   "shock_terms": [],
+   "dedupe_match": null,
+   "dedupe_similarity": 0.1,
+   "id": "67f19b330f92",
+   "title": "Arusha Airport goes 24/7 to aid tourism",
+   "url": "https://www.tanzaniatourism.uk/post/arusha-airport-goes-24-7",
+   "summary": "Arusha Airport has begun operating around the clock following the installation and inspection of a modern runway lighting system, up from its previous 12-hour daytime limit. The upgrade cost around \u00a33 million and included runway extensions, landing and taxiway lights, and terminal expansions. Airport manager Edgar Mwankuga said the facility had been handling growing passenger volumes, particularly",
+   "kind": "item",
+   "source": "Tanzania Tourism UK (news)",
+   "source_id": "tz-tanzaniatourism-uk",
+   "tier": 3,
+   "country": "TZ",
+   "category": "trade",
+   "segments": [
+    "city",
+    "bush",
+    "beach"
+   ],
+   "first_seen": "2026-11-10T14:21+03:00",
+   "published": "2026-11-10",
+   "verdict": "CONSIDER"
+  },
+  {
+   "score": 72.5,
    "components": {
     "tier": 40,
     "category": 7,
     "lead": 16.8,
     "relevance": 0,
-    "freshness": 19.7,
+    "freshness": 14.7,
     "undated": -6
    },
    "keywords": [],
@@ -596,13 +1195,13 @@
    "verdict": "CONSIDER"
   },
   {
-   "score": 77.5,
+   "score": 72.5,
    "components": {
     "tier": 40,
     "category": 7,
     "lead": 16.8,
     "relevance": 0,
-    "freshness": 19.7,
+    "freshness": 14.7,
     "undated": -6
    },
    "keywords": [],
@@ -629,13 +1228,13 @@
    "verdict": "CONSIDER"
   },
   {
-   "score": 77.5,
+   "score": 72.5,
    "components": {
     "tier": 40,
     "category": 7,
     "lead": 16.8,
     "relevance": 0,
-    "freshness": 19.7,
+    "freshness": 14.7,
     "undated": -6
    },
    "keywords": [],
@@ -662,13 +1261,13 @@
    "verdict": "CONSIDER"
   },
   {
-   "score": 77.5,
+   "score": 72.5,
    "components": {
     "tier": 40,
     "category": 7,
     "lead": 16.8,
     "relevance": 0,
-    "freshness": 19.7,
+    "freshness": 14.7,
     "undated": -6
    },
    "keywords": [],
@@ -695,13 +1294,13 @@
    "verdict": "CONSIDER"
   },
   {
-   "score": 77.5,
+   "score": 72.5,
    "components": {
     "tier": 40,
     "category": 7,
     "lead": 16.8,
     "relevance": 0,
-    "freshness": 19.7,
+    "freshness": 14.7,
     "undated": -6
    },
    "keywords": [],
@@ -728,138 +1327,26 @@
    "verdict": "CONSIDER"
   },
   {
-   "score": 76.2,
-   "components": {
-    "tier": 20,
-    "category": 14,
-    "lead": 8.4,
-    "relevance": 4,
-    "freshness": 19.8,
-    "corroborated": 10
-   },
-   "keywords": [
-    "flight"
-   ],
-   "shock_terms": [],
-   "dedupe_match": null,
-   "dedupe_similarity": 0.11,
-   "id": "206309821516",
-   "title": "THAI NW26 Additional A321neo Service Changes \u2013 08NOV26",
-   "url": "https://www.aeroroutes.com/eng/261109-tgnw2632q",
-   "summary": "Published at 2230PCT 09NOV26 / 0530GMT 10NOV26 Thai Airways International (THAI) in recent weeks filed additional service changes to Hong Kong and India, mainly focusing on revised Airbus A321neo operations. As of 09NOV26, planned changes as follows. Bangkok Suvarnabhumi \u2013 Bangalore 02DEC26 \u2013 27MAR27 4 weekly TG355/356 A320 replaces A321neo Bangkok Suvarnabhumi \u2013 Chennai eff 25OCT26 4 weekly TG359",
-   "kind": "item",
-   "source": "AeroRoutes schedule filings",
-   "source_id": "aeroroutes",
-   "tier": 2,
-   "country": "GLOBAL",
-   "category": "aviation-tracker",
-   "segments": [
-    "city",
-    "bush",
-    "beach"
-   ],
-   "first_seen": "2026-11-10T10:06+03:00",
-   "published": "2026-11-10",
-   "verdict": "CONSIDER"
-  },
-  {
-   "score": 74.2,
-   "components": {
-    "tier": 5,
-    "category": 5,
-    "lead": 2.4,
-    "relevance": 32,
-    "freshness": 19.8,
-    "corroborated": 10
-   },
-   "keywords": [
-    "vat",
-    "gorilla",
-    "wildlife",
-    "lodge",
-    "tourism"
-   ],
-   "shock_terms": [],
-   "dedupe_match": null,
-   "dedupe_similarity": 0.22,
-   "id": "138812737f18",
-   "title": "US Follows Others as Uganda\u2019s New Erebero Hills Lodge Boosts Luxury Gorilla Trekking and Conservation Tourism",
-   "url": "https://www.travelandtourworld.com/news/article/p88yvzu5mdn8",
-   "summary": "US Follows Others as Uganda\u2019s New Erebero Hills Lodge Boosts Luxury Gorilla Trekking and Conservation Tourism Uganda luxury gorilla trekking expands with Erebero Hills in Bwindi, offering travellers wildlife encounters, premium suites and conservation experiences. The post US Follows Others as Uganda\u2019s New Erebero Hills Lodge Boosts Luxury Gorilla Trekking and Conservation Tourism appeared first o",
-   "kind": "item",
-   "source": "Travel And Tour World",
-   "source_id": "gl-travelandtourworld",
-   "tier": 3,
-   "country": "GLOBAL",
-   "category": "trade",
-   "segments": [
-    "city",
-    "bush",
-    "beach"
-   ],
-   "first_seen": "2026-11-10T10:06+03:00",
-   "published": "2026-11-10",
-   "verdict": "CONSIDER"
-  },
-  {
-   "score": 70.2,
-   "components": {
-    "tier": 5,
-    "category": 5,
-    "lead": 2.4,
-    "relevance": 28,
-    "freshness": 19.8,
-    "corroborated": 10
-   },
-   "keywords": [
-    "tax",
-    "airport",
-    "tourism",
-    "flight",
-    "passenger"
-   ],
-   "shock_terms": [],
-   "dedupe_match": null,
-   "dedupe_similarity": 0.0,
-   "id": "6a5aa8110649",
-   "title": "Montevideo Strengthens International Connectivity and Tourism as Carrasco Airport Records Passenger Growth",
-   "url": "https://www.travelandtourworld.com/news/article/7pboa69r0u83",
-   "summary": "Montevideo Strengthens International Connectivity and Tourism as Carrasco Airport Records Passenger Growth Carrasco Airport cuts customs delays 40% with smart eGates as transatlantic flights to Montevideo jump 10% and tax credits launch. The post Montevideo Strengthens International Connectivity and Tourism as Carrasco Airport Records Passenger Growth appeared first on Travel And Tour World .",
-   "kind": "item",
-   "source": "Travel And Tour World",
-   "source_id": "gl-travelandtourworld",
-   "tier": 3,
-   "country": "GLOBAL",
-   "category": "trade",
-   "segments": [
-    "city",
-    "bush",
-    "beach"
-   ],
-   "first_seen": "2026-11-10T10:06+03:00",
-   "published": "2026-11-10",
-   "verdict": "CONSIDER"
-  },
-  {
-   "score": 68.2,
+   "score": 71.8,
    "components": {
     "tier": 20,
     "category": 4,
     "lead": 2.4,
-    "relevance": 12,
-    "freshness": 19.8,
+    "relevance": 16,
+    "freshness": 19.4,
     "corroborated": 10
    },
    "keywords": [
-    "suspend"
+    "tax",
+    "eta"
    ],
    "shock_terms": [],
    "dedupe_match": null,
    "dedupe_similarity": 0.0,
-   "id": "8594a95baaec",
-   "title": "High Court Issues Ruling on Petition to Freeze CSs' Salaries",
-   "url": "https://www.kenyans.co.ke/news/129265-high-court-asked-freeze-cabinet-secretaries-salaries-over-gender-rule",
-   "summary": "The development follows a July ruling declaring President Ruto's Cabinet unconstitutional over failure to meet the two-thirds gender rule, which the Court of Appeal later declined to suspend.",
+   "id": "c77d97b457f5",
+   "title": "KRA Announces Major Changes to Individual Tax Filing from 2027",
+   "url": "https://www.kenyans.co.ke/news/129275-kra-moves-individual-income-tax-filing-deadline-june-april-starting-2027",
+   "summary": "KRA affirms that to facilitate the new changes, KRA will send every taxpayer a detailed breakdown of the necessities prior to the new directive.",
    "kind": "item",
    "source": "Kenyans.co.ke news",
    "source_id": "ke-kenyans",
@@ -871,542 +1358,42 @@
     "bush",
     "beach"
    ],
-   "first_seen": "2026-11-10T10:06+03:00",
+   "first_seen": "2026-11-10T14:21+03:00",
    "published": "2026-11-10",
-   "verdict": "weak"
+   "verdict": "CONSIDER"
   },
   {
-   "score": 68.2,
+   "score": 71.8,
    "components": {
     "tier": 20,
-    "category": 4,
-    "lead": 2.4,
-    "relevance": 12,
-    "freshness": 19.8,
+    "category": 14,
+    "lead": 8.4,
+    "relevance": 0,
+    "freshness": 19.4,
     "corroborated": 10
    },
-   "keywords": [
-    "election",
-    "camp"
-   ],
-   "shock_terms": [],
-   "dedupe_match": null,
-   "dedupe_similarity": 0.0,
-   "id": "a483fcb28d6f",
-   "title": "President Ruto should learn from Trump loss",
-   "url": "https://nation.africa/kenya/blogs-opinion/opinion/president-ruto-should-learn-from-trump-loss-5664114",
-   "summary": "President Ruto is approaching his re-election campaign having forgotten the issues which...",
-   "kind": "item",
-   "source": "Nation Africa: Kenya business",
-   "source_id": "ke-nation-business",
-   "tier": 2,
-   "country": "KE",
-   "category": "press",
-   "segments": [
-    "city",
-    "bush",
-    "beach"
-   ],
-   "first_seen": "2026-11-10T10:06+03:00",
-   "published": "2026-11-10",
-   "verdict": "weak"
-  },
-  {
-   "score": 68.2,
-   "components": {
-    "tier": 20,
-    "category": 4,
-    "lead": 2.4,
-    "relevance": 12,
-    "freshness": 19.8,
-    "corroborated": 10
-   },
-   "keywords": [
-    "vat",
-    "tourism"
-   ],
-   "shock_terms": [],
-   "dedupe_match": null,
-   "dedupe_similarity": 0.0,
-   "id": "3b0629c5f55a",
-   "title": "What Maa festival promises to deliver",
-   "url": "https://nation.africa/kenya/blogs-opinion/blogs/what-maa-festival-promises-to-deliver-5664220",
-   "summary": "Maa Cultural and Tourism Festival offers a model for linking cultural preservation with...",
-   "kind": "item",
-   "source": "Nation Africa: Kenya business",
-   "source_id": "ke-nation-business",
-   "tier": 2,
-   "country": "KE",
-   "category": "press",
-   "segments": [
-    "city",
-    "bush",
-    "beach"
-   ],
-   "first_seen": "2026-11-10T10:06+03:00",
-   "published": "2026-11-10",
-   "verdict": "weak"
-  },
-  {
-   "score": 68.2,
-   "components": {
-    "tier": 20,
-    "category": 4,
-    "lead": 2.4,
-    "relevance": 12,
-    "freshness": 19.8,
-    "corroborated": 10
-   },
-   "keywords": [
-    "suspend"
-   ],
-   "shock_terms": [],
-   "dedupe_match": null,
-   "dedupe_similarity": 0.0,
-   "id": "53fb1780b23d",
-   "title": "Ouster of FKF presidents and VPs is a familiar football script",
-   "url": "https://nation.africa/kenya/sports/football/ouster-of-fkf-presidents-and-vps-is-a-familiar-football-script-5664692",
-   "summary": "An SGM in 2005 removed Sambu as president, in 2012 vice president Shollei was suspended.",
-   "kind": "item",
-   "source": "Nation Africa: Kenya business",
-   "source_id": "ke-nation-business",
-   "tier": 2,
-   "country": "KE",
-   "category": "press",
-   "segments": [
-    "city",
-    "bush",
-    "beach"
-   ],
-   "first_seen": "2026-11-10T10:06+03:00",
-   "published": "2026-11-10",
-   "verdict": "weak"
-  },
-  {
-   "score": 68.0,
-   "components": {
-    "tier": 20,
-    "category": 5,
-    "lead": 1.2,
-    "relevance": 12,
-    "freshness": 19.8,
-    "corroborated": 10
-   },
-   "keywords": [
-    "fee",
-    "tourism"
-   ],
-   "shock_terms": [],
-   "dedupe_match": null,
-   "dedupe_similarity": 0.12,
-   "id": "e1b42ddd1ca0",
-   "title": "Tanzania Exports Grow 19.9% to USD 21.1 Billion in Year Ending September 2026, Led by Gold and Tourism",
-   "url": "https://www.tanzaniainvest.com/economy/trade/bot-economic-review-exports-september-2026",
-   "summary": "Tanzania's exports of goods and services grew 19.9% to USD 21,065.1 million in the year ending September 2026, led by gold and travel receipts. Traditional exports also grew, led by tobacco, while coffee and cashew nut exports declined.",
-   "kind": "item",
-   "source": "TanzaniaInvest \u2014 tourism",
-   "source_id": "tp-tanzaniainvest",
-   "tier": 2,
-   "country": "TZ",
-   "category": "trade",
-   "segments": [
-    "city",
-    "bush",
-    "beach"
-   ],
-   "first_seen": "2026-11-10T10:06+03:00",
-   "published": "2026-11-10",
-   "verdict": "weak"
-  },
-  {
-   "score": 66.4,
-   "components": {
-    "tier": 20,
-    "category": 5,
-    "lead": 3.6,
-    "relevance": 8,
-    "freshness": 19.8,
-    "corroborated": 10
-   },
-   "keywords": [
-    "hotel",
-    "resort"
-   ],
+   "keywords": [],
    "shock_terms": [],
    "dedupe_match": null,
    "dedupe_similarity": 0.11,
-   "id": "d1c274604dc1",
-   "title": "Exploring Un-Adulting as Adults Seek to Be Kids Again",
-   "url": "https://www.hospitalitynet.org/news/4135369/exploring-un-adulting-as-adults-seek-to-be-kids-again",
-   "summary": "Expedia's Unpack '27 report finds 57% of travellers plan to book an \"Un-Adulting\" trip by 2027, prompting hoteliers to consider nostalgia-themed stays and adults-only playground resorts.",
+   "id": "79795519c078",
+   "title": "KLM Extends A330-200 Service to early-2H27",
+   "url": "https://www.aeroroutes.com/eng/261110-klns27332",
+   "summary": "Published at 0200PCT / 0900GMT 10NOV26 KLM in recent schedule update extended Airbus A330-200 operations into the second half of 2027, as the carrier gradually updates Northern summer 2027 season. The Skyteam member currently lists A330-200 service until 01AUG27 inclusive. Planned A330-200 service for the period of 28MAR27 \u2013 01AUG27, as of 08NOV26, as follows. Amsterdam \u2013 Kigali \u2013 Entebbe \u2013 Amster",
    "kind": "item",
-   "source": "Hospitality Net \u2014 Africa announcements",
-   "source_id": "dev-hospitalitynet-africa",
-   "tier": 2,
-   "country": "REG",
-   "category": "trade",
-   "segments": [
-    "city",
-    "bush",
-    "beach"
-   ],
-   "first_seen": "2026-11-10T10:06+03:00",
-   "published": "2026-11-10",
-   "verdict": "weak"
-  },
-  {
-   "score": 65.2,
-   "components": {
-    "tier": 20,
-    "category": 5,
-    "lead": 2.4,
-    "relevance": 8,
-    "freshness": 19.8,
-    "corroborated": 10
-   },
-   "keywords": [
-    "hotel",
-    "resort"
-   ],
-   "shock_terms": [],
-   "dedupe_match": null,
-   "dedupe_similarity": 0.11,
-   "id": "cbd8ef33359d",
-   "title": "Exploring Un-Adulting as Adults Seek to Be Kids Again",
-   "url": "https://www.hospitalitynet.org/news/4135369/exploring-un-adulting-as-adults-seek-to-be-kids-again",
-   "summary": "Expedia's Unpack '27 report finds 57% of travellers plan to book an \"Un-Adulting\" trip by 2027, prompting hoteliers to consider nostalgia-themed stays and adults-only playground resorts.",
-   "kind": "item",
-   "source": "Hospitality Net: Africa openings",
-   "source_id": "dev-hospitalitynet-openings",
-   "tier": 2,
-   "country": "AFRICA",
-   "category": "trade",
-   "segments": [
-    "city",
-    "bush",
-    "beach"
-   ],
-   "first_seen": "2026-11-10T10:06+03:00",
-   "published": "2026-11-10",
-   "verdict": "weak"
-  },
-  {
-   "score": 64.2,
-   "components": {
-    "tier": 20,
-    "category": 4,
-    "lead": 2.4,
-    "relevance": 8,
-    "freshness": 19.8,
-    "corroborated": 10
-   },
-   "keywords": [
-    "vat"
-   ],
-   "shock_terms": [],
-   "dedupe_match": null,
-   "dedupe_similarity": 0.11,
-   "id": "81b41334a05d",
-   "title": "Uganda\u2019s external debt rises 16% to $23.9 billion",
-   "url": "https://www.independent.co.ug/ugandas-external-debt-rises-16-to-23-9-billion",
-   "summary": "Kampala, Uganda | URN | Uganda\u2019s external debt stock rose by 15.9 per cent to US$23.9 billion in 2025, up from US$9.8 billion a decade earlier, as the country continued to rely on a mix of multilateral lenders, bilateral partners and private creditors to finance its development needs. The increase is reported in the World \u2026 The post Uganda\u2019s external debt rises 16% to $23.9 billion appeared first ",
-   "kind": "item",
-   "source": "The Independent (Uganda)",
-   "source_id": "ug-independent",
-   "tier": 2,
-   "country": "UG",
-   "category": "press",
-   "segments": [
-    "city",
-    "bush",
-    "beach"
-   ],
-   "first_seen": "2026-11-10T10:06+03:00",
-   "published": "2026-11-10",
-   "verdict": "weak"
-  },
-  {
-   "score": 64.2,
-   "components": {
-    "tier": 20,
-    "category": 4,
-    "lead": 2.4,
-    "relevance": 8,
-    "freshness": 19.8,
-    "corroborated": 10
-   },
-   "keywords": [
-    "fuel"
-   ],
-   "shock_terms": [],
-   "dedupe_match": null,
-   "dedupe_similarity": 0.11,
-   "id": "106969925b1a",
-   "title": "Shell, MTN MoMo offer motorists 20% fuel cashback",
-   "url": "https://www.independent.co.ug/shell-mtn-momo-offer-motorists-20-fuel-cashback",
-   "summary": "Kampala, Uganda | THE INDEPENDENT | Vivo Energy Uganda, which markets and distributes Shell-branded fuels and lubricants, has partnered with MTN MoMo to offer motorists a 20% cashback on qualifying fuel purchases made through mobile money. Under the promotion, dubbed \u201cFuel Happy Hour\u201d, customers who buy fuel at Shell service stations and pay using MTN \u2026 The post Shell, MTN MoMo offer motorists 20%",
-   "kind": "item",
-   "source": "The Independent (Uganda)",
-   "source_id": "ug-independent",
-   "tier": 2,
-   "country": "UG",
-   "category": "press",
-   "segments": [
-    "city",
-    "bush",
-    "beach"
-   ],
-   "first_seen": "2026-11-10T10:06+03:00",
-   "published": "2026-11-10",
-   "verdict": "weak"
-  },
-  {
-   "score": 64.0,
-   "components": {
-    "tier": 20,
-    "category": 5,
-    "lead": 1.2,
-    "relevance": 8,
-    "freshness": 19.8,
-    "corroborated": 10
-   },
-   "keywords": [
-    "hotel",
-    "pipeline"
-   ],
-   "shock_terms": [],
-   "dedupe_match": null,
-   "dedupe_similarity": 0.07,
-   "id": "13ea92b9c115",
-   "title": "Hotel Chains\u2019 Middle East Recovery Stalls as Peak Season Arrives",
-   "url": "https://skift.com/2026/11/10/hotel-chains-middle-east-recovery-stalls-as-peak-season-arrives",
-   "summary": "The Middle East is a small slice of most hotel chains\u2019 revenue but a bigger part of their pipelines. So far, they\u2019re holding to their development plans, even as a second weak peak season looms.",
-   "kind": "item",
-   "source": "Skift",
-   "source_id": "tp-skift",
+   "source": "AeroRoutes schedule filings",
+   "source_id": "aeroroutes",
    "tier": 2,
    "country": "GLOBAL",
-   "category": "trade",
+   "category": "aviation-tracker",
    "segments": [
     "city",
     "bush",
     "beach"
    ],
-   "first_seen": "2026-11-10T10:06+03:00",
+   "first_seen": "2026-11-10T14:21+03:00",
    "published": "2026-11-10",
-   "verdict": "weak"
-  },
-  {
-   "score": 63.8,
-   "components": {
-    "tier": 20,
-    "category": 4,
-    "lead": 0.0,
-    "relevance": 8,
-    "freshness": 19.8,
-    "undated": -6,
-    "shock": 18
-   },
-   "keywords": [
-    "strike"
-   ],
-   "shock_terms": [
-    "strike"
-   ],
-   "dedupe_match": null,
-   "dedupe_similarity": 0.0,
-   "id": "7a81a446055d",
-   "title": "Africa Global oil prices fall as Trump signals reluctance to launch news strikes on Iran 23 hours ago - 2 min read",
-   "url": "https://www.thecitizen.co.tz/tanzania/news/africa/global-oil-prices-fall-as-trump-signals-reluctance-to-launch-news-strikes-on-iran-5663738",
-   "summary": "",
-   "kind": "item",
-   "source": "The Citizen (Tanzania)",
-   "source_id": "np-citizen-tz",
-   "tier": 2,
-   "country": "TZ",
-   "category": "press",
-   "segments": [
-    "city",
-    "bush",
-    "beach"
-   ],
-   "first_seen": "2026-11-10T10:06+03:00",
-   "published": null,
-   "verdict": "weak"
-  },
-  {
-   "score": 62.4,
-   "components": {
-    "tier": 20,
-    "category": 5,
-    "lead": 3.6,
-    "relevance": 4,
-    "freshness": 19.8,
-    "corroborated": 10
-   },
-   "keywords": [
-    "hotel"
-   ],
-   "shock_terms": [],
-   "dedupe_match": null,
-   "dedupe_similarity": 0.0,
-   "id": "de0a122df304",
-   "title": "What Hotel Projects Get Wrong When Sourcing FF&E from Foshan \u2014 and How to Fix It Before Production Starts",
-   "url": "https://www.hospitalitynet.org/opinion/4135370/what-hotel-projects-get-wrong-when-sourcing-ff-e-from-foshan-and-how-to-fix-it-before-production-starts",
-   "summary": "A five-step process guide for hotel procurement teams sourcing FF&E from Foshan, covering spec writing, sampling, QC scheduling, lead time planning, and landed-cost budgeting.",
-   "kind": "item",
-   "source": "Hospitality Net \u2014 Africa announcements",
-   "source_id": "dev-hospitalitynet-africa",
-   "tier": 2,
-   "country": "REG",
-   "category": "trade",
-   "segments": [
-    "city",
-    "bush",
-    "beach"
-   ],
-   "first_seen": "2026-11-10T10:06+03:00",
-   "published": "2026-11-10",
-   "verdict": "weak"
-  },
-  {
-   "score": 62.4,
-   "components": {
-    "tier": 20,
-    "category": 5,
-    "lead": 3.6,
-    "relevance": 4,
-    "freshness": 19.8,
-    "corroborated": 10
-   },
-   "keywords": [
-    "hotel"
-   ],
-   "shock_terms": [],
-   "dedupe_match": null,
-   "dedupe_similarity": 0.0,
-   "id": "ca7404065bb1",
-   "title": "How to Use AI Agents to Build Workflows That Prevent Overnight Emergencies in Hotels",
-   "url": "https://www.hospitalitynet.org/opinion/4135357/how-to-use-ai-agents-to-build-workflows-that-prevent-overnight-emergencies-in-hotels",
-   "summary": "A step-by-step guide to deploying AI agents for overnight hotel operations, covering six workflow examples from kitchen temperature alerts to shift handoffs, using Zenzap as the featured platform.",
-   "kind": "item",
-   "source": "Hospitality Net \u2014 Africa announcements",
-   "source_id": "dev-hospitalitynet-africa",
-   "tier": 2,
-   "country": "REG",
-   "category": "trade",
-   "segments": [
-    "city",
-    "bush",
-    "beach"
-   ],
-   "first_seen": "2026-11-10T10:06+03:00",
-   "published": "2026-11-10",
-   "verdict": "weak"
-  },
-  {
-   "score": 61.8,
-   "components": {
-    "tier": 20,
-    "category": 4,
-    "lead": 0.0,
-    "relevance": 8,
-    "freshness": 19.8,
-    "corroborated": 10
-   },
-   "keywords": [
-    "capacity"
-   ],
-   "shock_terms": [],
-   "dedupe_match": null,
-   "dedupe_similarity": 0.11,
-   "id": "1132d4c20c2d",
-   "title": "Pride Bank Taps Beatrice Lugalambi as Executive Director to Lead Next Phase of Growth",
-   "url": "https://softpower.ug/pride-bank-taps-beatrice-lugalambi-as-executive-director-to-lead-next-phase-of-growth",
-   "summary": "Beatrice Lugalambi has joined Pride Bank Limited\u2019s executive leadership team, bringing on board one of Uganda\u2019s experienced banking professionals as the institution strengthens its leadership capacity and advances its ambitions in the country\u2019s financial services sector. With more than 30 years of experience in banking and financial services, Lugalambi brings a wealth of expertise in [\u2026] The post ",
-   "kind": "item",
-   "source": "SoftPower News \u2014 Tourism & Travel (Uganda)",
-   "source_id": "ug-softpower-tourism",
-   "tier": 2,
-   "country": "UG",
-   "category": "press",
-   "segments": [
-    "bush",
-    "city"
-   ],
-   "first_seen": "2026-11-10T10:06+03:00",
-   "published": "2026-11-09",
-   "verdict": "weak"
-  },
-  {
-   "score": 61.8,
-   "components": {
-    "tier": 20,
-    "category": 4,
-    "lead": 0.0,
-    "relevance": 8,
-    "freshness": 19.8,
-    "corroborated": 10
-   },
-   "keywords": [
-    "tax"
-   ],
-   "shock_terms": [],
-   "dedupe_match": null,
-   "dedupe_similarity": 0.25,
-   "id": "6303575bc857",
-   "title": "Public drugs must reach patients",
-   "url": "https://dailynews.co.tz/public-drugs-must-reach-patients",
-   "summary": "TANZANIA: THE Prime Minister\u2019s directive requiring security organs to conduct monthly investigations into the procurement, distribution and use of medicines in public health facilities raises an important accountability issue: Medicines purchased with taxpayers\u2019 money must reach the patients for whom they are intended. The directive addresses a troubling contradiction. While official figures indic",
-   "kind": "item",
-   "source": "Daily News (Tanzania)",
-   "source_id": "np-dailynews-tz",
-   "tier": 2,
-   "country": "TZ",
-   "category": "press",
-   "segments": [
-    "city",
-    "bush",
-    "beach"
-   ],
-   "first_seen": "2026-11-10T10:06+03:00",
-   "published": "2026-11-10",
-   "verdict": "weak"
-  },
-  {
-   "score": 61.8,
-   "components": {
-    "tier": 20,
-    "category": 4,
-    "lead": 0.0,
-    "relevance": 8,
-    "freshness": 19.8,
-    "corroborated": 10
-   },
-   "keywords": [
-    "vat"
-   ],
-   "shock_terms": [],
-   "dedupe_match": null,
-   "dedupe_similarity": 0.12,
-   "id": "e524cd6b4d23",
-   "title": "Govt mobilises regions to boost UHC uptake",
-   "url": "https://dailynews.co.tz/govt-mobilises-regions-to-boost-uhc-uptake",
-   "summary": "DODOMA: THE government has decentralised supervision of the second phase of Universal Health Coverage (UHC) implementation to regional authorities in a renewed push to expand enrolment and strengthen public participation in the scheme. Assistant Director for Policy, Research and Innovation in the Ministry of Health, Mr Tumainiel Macha, said the approach was aimed at strengthening \u2026 The post Govt m",
-   "kind": "item",
-   "source": "Daily News (Tanzania)",
-   "source_id": "np-dailynews-tz",
-   "tier": 2,
-   "country": "TZ",
-   "category": "press",
-   "segments": [
-    "city",
-    "bush",
-    "beach"
-   ],
-   "first_seen": "2026-11-10T10:06+03:00",
-   "published": "2026-11-10",
-   "verdict": "weak"
+   "verdict": "CONSIDER"
   }
  ]
 }
