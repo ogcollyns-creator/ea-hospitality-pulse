@@ -8,7 +8,7 @@
 // of real bush and beach supply — do not appear in chain pipeline data at all, so treat
 // the country totals as a floor for branded supply, not a count of everything being built.
 window.PIPELINE = {
- updated: "27 September 2026 [DATE NOT BUMPED in the 5 Nov tracker refresh: the W Hospitality benchmark and most project rows were not re-checked, and no brand newsroom sweep was completed. Changed that day: ADDED Mereshi Safari Camp, Serengeti, Autograph Collection (18 suites, anticipated November 2026; Hospitality Net, 12 Oct); LUX* Lake Kivu and SALT of Akagera marked OPEN since 15 June 2026 (The Lux Collective press release, primary). voco Nairobi Airport Suites (28 Sep) and Ubuyu (17 Sep) re-confirmed on the Hospitality Net Africa openings list.]",
+ updated: "9 November 2026 (tracker refresh — verified: W Hospitality 2026 benchmark for Kenya, Tanzania and the Ethiopia comparator, with Uganda and Rwanda still outside the top ten, against the FHS Africa / W Hospitality release of 10 Mar 2026 (no newer edition found; Ethiopia under-construction corrected 4,765 to 4,768); Mereshi Safari Camp (owner page read 9 Nov: still in development, not confirmed open); Choice Hotels Kenya trio (corrected to two Clarions plus Ascend, per Choice release 4 Feb 2026 and choicehotels.com); Radisson Blu Nairobi Arboretum (corrected: opened 2019, not 2026); Ngorongoro Explorer Lodge (June 2027 re-confirmed by Elewana Sep 2026 newsletter); Kitirua Plains Lodge ADDED, open since June 2026 (Sanctuary Retreats / A&K releases); carried over, not re-checked: andBeyond Ngorongoro Crater Lodge January 2027 target (searched, no re-confirmation found), Autograph Zanzibar, Anantara Zanzibar, Lux Collective Rwanda, Hilton Kampala, Kampala Marriott, Best Western Premier Royal Golf View, The Pinnacle Kigali, Zaria Court Kigali, Ubuyu, voco Nairobi Airport Suites, Zanzibar 'seven-star' plan, chains table). Previous note follows: ) 27 September 2026 [DATE NOT BUMPED in the 5 Nov tracker refresh: the W Hospitality benchmark and most project rows were not re-checked, and no brand newsroom sweep was completed. Changed that day: ADDED Mereshi Safari Camp, Serengeti, Autograph Collection (18 suites, anticipated November 2026; Hospitality Net, 12 Oct); LUX* Lake Kivu and SALT of Akagera marked OPEN since 15 June 2026 (The Lux Collective press release, primary). voco Nairobi Airport Suites (28 Sep) and Ubuyu (17 Sep) re-confirmed on the Hospitality Net Africa openings list.]",
  benchmarkNote: "W Hospitality Group, Hotel Chain Development Pipelines in Africa 2026 (published 10 March 2026). Africa-wide the pipeline reached a record 123,846 rooms across 675 properties, up 18.6% year on year. Branded chain projects only.",
  markets: [
   { country:"Kenya", flag:"🇰🇪", hotels:35, rooms:6190, avgSize:177, underConstruction:4922, ucPct:79.5,
@@ -27,18 +27,24 @@ window.PIPELINE = {
     africaRank:null,
     note:"Also absent from the W Hospitality top-ten, yet running one of the region's most active luxury signing programmes (LUX*, SLH, Aleph — below). The contradiction is the point: Rwanda's growth is small-format and high-rate, which does not register in a room-count league table but does compete directly for the premium guest.",
     source:"W Hospitality Group / FHS Africa 2026 (absence from top-10)", verified:true },
-  { country:"Ethiopia (comparator)", flag:"🇪🇹", hotels:34, rooms:5964, avgSize:175, underConstruction:4765, ucPct:79.9,
+  { country:"Ethiopia (comparator)", flag:"🇪🇹", hotels:34, rooms:5964, avgSize:175, underConstruction:4768, ucPct:79.9,
     africaRank:5,
     note:"NOT one of our five home markets — tracked as a COMPARATOR because Addis Ababa and Ethiopian Airlines move East African demand. Ethiopia holds the HIGHEST construction ratio on the continent (79.9% of 5,964 pipeline rooms across 34 hotels actually being built), fifth-largest African pipeline. Much of it is timed to COP32 in Addis Ababa in 2027, expected to draw 80,000+ international delegates. Read-across for EA owners: Addis is Ethiopian Airlines’ hub and the connecting gateway for a large share of long-haul arrivals into Nairobi, Kigali, Entebbe, Kilimanjaro and Zanzibar — a supply-and-airlift surge there is a feeder-capacity and city-MICE signal for the whole region, not a distant story.",
-    source:"W Hospitality Group, Hotel Chain Development Pipelines in Africa 2026 (10 Mar 2026), via ENA / Capital Ethiopia / ATTA", verified:true }
+    source:"W Hospitality Group, Hotel Chain Development Pipelines in Africa 2026 (10 Mar 2026), via ENA / Capital Ethiopia / ATTA; under-construction figure corrected 4,765 to 4,768 on 9 Nov 2026 per the FHS Africa / W Hospitality release (APO Group via Hospitality Net and africa.com, 10 Mar 2026)", verified:true }
  ],
  projects: [
   { property:"Mereshi Safari Camp, Serengeti, Autograph Collection", brand:"Marriott / Autograph Collection",
-    country:"Tanzania", flag:"🇹🇿", rooms:18, status:"Opening imminent", opening:"Anticipated November 2026",
+    country:"Tanzania", flag:"🇹🇿", rooms:18, status:"Pre-opening (not confirmed open at 9 Nov 2026)", opening:"Anticipated November 2026 (owner)",
     signed:null,
-    detail:"ADDED 5 NOV 2026. 18 elevated tented suites of 95m2 each on 55 acres near the Fort Ikoma Gate, Robanda, western Serengeti. Owner Delaware Investments; designed by Dunia Design, as was sister property Mapito Safari Camp. About 95% of materials and furnishings sourced in Tanzania; about 100 permanent jobs, over 90% held by Tanzanians. NOTE: our 4 Nov Evening Wrap described this as an opening dated 12 Oct; 12 Oct is the date of the announcement, and the camp is ANTICIPATED to open in November. We have not confirmed it has opened.",
+    detail:"ADDED 5 NOV 2026. 18 elevated tented suites of 95m2 each on 55 acres near the Fort Ikoma Gate, Robanda, western Serengeti. Owner Delaware Investments; designed by Dunia Design, as was sister property Mapito Safari Camp. About 95% of materials and furnishings sourced in Tanzania; about 100 permanent jobs, over 90% held by Tanzanians. NOTE: our 4 Nov Evening Wrap described this as an opening dated 12 Oct; 12 Oct is the date of the announcement, and the camp is ANTICIPATED to open in November. We have not confirmed it has opened. 9 NOV 2026 CHECK: owner Delaware Investments' own project page still lists Mereshi as 'In Development', opening 'Nov '26' (read 9 Nov 2026); no opening release from Marriott or the owner found. The date has slipped once already: Marriott's own signing release (29 Apr 2025, via Hospitality Net) anticipated a Q3 2025 opening with 16 tented suites including a two-bedroom villa, against 18 suites in the owner's Oct 2026 release. Single-source, not verified by us: The Points Guy (21 Oct 2026, modified 29 Oct) reports Marriott.com taking bookings only for stays from 4 January 2027.",
     impact:"Another Marriott-flagged camp in the western Serengeti puts Bonvoy points and US distribution next to independent Ikoma and Grumeti camps. Expect it in 2027 agent rate comparisons.",
-    segment:"Bush", source:"Delaware Investments via Hospitality Net, 12 Oct 2026 (updated 19 Oct)", verified:true, flagged:"watch" },
+    segment:"Bush", source:"Delaware Investments via Hospitality Net, 12 Oct 2026 (updated 19 Oct); Delaware Investments project page, read 9 Nov 2026; Marriott International release via Hospitality Net, 29 Apr 2025", verified:true, flagged:"watch" },
+  { property:"Kitirua Plains Lodge, an A&K Sanctuary", brand:"Abercrombie & Kent / A&K Sanctuary",
+    country:"Kenya", flag:"🇰🇪", rooms:13, status:"Open", opening:"June 2026",
+    signed:null,
+    detail:"ADDED 9 NOV 2026. 13 suites (eleven one-bedroom, two two-bedroom) on a 128-acre private concession bordering Amboseli National Park, facing Kilimanjaro. A&K had targeted 1 June 2026; Sanctuary Retreats posted 'Kitirua Plains Lodge, an A&K Sanctuary is Now Open' on 2 June 2026, and an A&K release reproduced by Le Journal des Palaces is dated 10 July 2026 and says the lodge is 'now open and accepting reservations'. A Tourism Update item of 29 Oct 2026 reported it open, but it has been trading since mid-2026. A&K's own site did not render for us.",
+    impact:"Another top-tier branded lodge in Amboseli, a park dominated by mid-market lodges and a few high-end conservancy camps. With only 13 suites it does not shift supply, but A&K's own tour volume feeds it directly. Expect it to set a new rate ceiling for Amboseli.",
+    segment:"Bush", source:"Sanctuary Retreats member notice on ATTA, 2 Jun 2026 (atta.travel/resource/kitirua-plains-lodge--an-a-k-sanctuary-is-now-open.html); A&K release via Le Journal des Palaces, 10 Jul 2026 (pressrelease-78878)", verified:true, flagged:"watch" },
     { property:"Ubuyu, a Banyan Tree Escape", brand:"Banyan Group / Banyan Tree Escape",
     country:"Tanzania", flag:"🇹🇿", rooms:6, status:"Opened", opening:"September 2026",
     signed:null,
@@ -122,19 +128,19 @@ window.PIPELINE = {
     impact:"Sports and events supply, deliberately sited. Rwanda is building hotel capacity around an events calendar rather than waiting for demand — the MICE and sports-tourism competition for regional conference business is getting sharper.",
     segment:"City", source:"Hilton / trade press", verified:true },
 
-  { property:"Three franchised properties (Ascend, Clarion, Quality Inn)", brand:"Choice Hotels International",
-    country:"Kenya", flag:"🇰🇪", rooms:null, status:"Signed — directly franchised", opening:"Early 2026",
-    signed:"2026",
-    detail:"Choice Hotels' entry into Africa: an Ascend Collection property in the Maasai Mara National Reserve, plus a Clarion and a Quality Inn in Nairobi.",
+  { property:"La Maison Royale Westlands, South C and Masai Mara (to become Clarion x2 and Ascend Collection)", brand:"Choice Hotels International",
+    country:"Kenya", flag:"🇰🇪", rooms:134, status:"In the Choice system, still trading as La Maison Royale; conversion to Clarion and Ascend not yet shown", opening:"Joined Choice in 2026 (bookable on choicehotels.com at 9 Nov 2026); Choice originally said 'early 2026'",
+    signed:"Announced 19 November 2025; properties named 4 February 2026",
+    detail:"CORRECTED 9 NOV 2026. Choice's own 4 Feb 2026 release names the three conversions: La Maison Royale Westlands (53 rooms) to become Clarion Hotel Westlands; La Maison Royale South C (59 rooms) to become Clarion Hotel South C; La Maison Royale Masai Mara (22 rooms), a safari lodge in the Olare Motorogi Conservancy, to join the Ascend Collection. Our earlier row, following Choice's 19 Nov 2025 release, listed a Clarion and a Quality Inn in the Nairobi CBD and placed the Mara property in the National Reserve. The Feb 2026 list has two Clarions and no Quality Inn, and the Mara lodge is in a conservancy, not the Reserve. At 9 Nov 2026 choicehotels.com lists all three, two of them bookable, under the La Maison Royale name with a 'New to Choice Hotels' label. None is yet shown under the Clarion or Ascend flag.",
     impact:"A soft-brand flag inside the Mara is the notable one. Ascend Collection lets an independent camp keep its identity while gaining US distribution — that is a direct competitive answer for Mara camps currently relying on OTA and agent volume, and a template other independents will follow.",
-    segment:"Bush, City", source:"Choice Hotels / Travel Agent Central", verified:true, flagged:"action" },
+    segment:"Bush, City", source:"Choice Hotels EMEA release via Hospitality Net, 4 Feb 2026 (updated 20 Feb), hospitalitynet.org/news/4130739; Choice Hotels release, 19 Nov 2025 (media.choicehotels.com); choicehotels.com Kenya listings, read 9 Nov 2026", verified:true, flagged:"action" },
 
   { property:"Radisson Blu Hotel & Residence, Nairobi Arboretum", brand:"Radisson Hotel Group",
-    country:"Kenya", flag:"🇰🇪", rooms:null, status:"Open", opening:"2026",
+    country:"Kenya", flag:"🇰🇪", rooms:122, status:"Open (since 2019, not new supply)", opening:"Autumn 2019 (Radisson release 3 Oct 2019; grand opening Feb 2020)",
     signed:null,
-    detail:"Radisson's third hotel in Kenya, in Kilimani overlooking the Arboretum, adjacent to State House.",
-    impact:"More Nairobi upper-upscale supply in a corridor already dense with it. Rate discipline in Kilimani and Upper Hill is the thing to watch — this is exactly where a supply increase shows up as discounting first.",
-    segment:"City", source:"Radisson Hotel Group", verified:true },
+    detail:"CORRECTED 9 NOV 2026. This row previously gave the opening as 2026. That was wrong: Radisson announced the opening on 3 October 2019. The hotel has 122 rooms and suites and was Radisson's third hotel in Kenya and its first extended-stay product in Nairobi, in Kilimani overlooking the Arboretum, next to State House. It has traded for six years and is not part of the 2026 pipeline. We keep the row only so that the correction is visible.",
+    impact:"No new supply. This is existing upper-upscale stock in the Kilimani and Upper Hill corridor, and nothing about it should feed into a 2026–27 supply model.",
+    segment:"City", source:"Radisson Hotel Group release, 3 Oct 2019 (via Le Journal des Palaces, pressrelease-56335); Business Traveller, 2 Oct 2019; The Star (KE), 4 Feb 2020 (grand opening)", verified:true },
 
   { property:"East Africa's first 'seven-star' hotel", brand:"Not announced",
     country:"Zanzibar", flag:"🇹🇿", rooms:null, status:"Plans unveiled", opening:"Not announced",
