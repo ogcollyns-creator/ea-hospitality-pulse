@@ -1,18 +1,18 @@
 {
- "generated": "2026-11-11T16:46:56+03:00",
+ "generated": "2026-11-11T20:10:55+03:00",
  "slot": "evening",
  "window_start": 1794312000,
- "observations_in_window": 1073,
- "deduped_against": 6,
+ "observations_in_window": 1307,
+ "deduped_against": 9,
  "candidates": [
   {
-   "score": 114.8,
+   "score": 111.1,
    "components": {
     "tier": 40,
     "category": 32,
     "lead": 12.0,
     "relevance": 8,
-    "freshness": 16.8,
+    "freshness": 13.1,
     "corroborated": 10,
     "page_change": -4
    },
@@ -41,13 +41,13 @@
    "verdict": "OPEN THIS \u2014 tier-1 advisory page moved; content not auto-parsed, read it manually"
   },
   {
-   "score": 108.3,
+   "score": 104.5,
    "components": {
     "tier": 40,
     "category": 32,
     "lead": 12.0,
     "relevance": 8,
-    "freshness": 10.3,
+    "freshness": 6.5,
     "corroborated": 10,
     "page_change": -4
    },
@@ -111,13 +111,45 @@
    "verdict": "OPEN THIS \u2014 tier-1 advisory page moved; content not auto-parsed, read it manually"
   },
   {
-   "score": 91.3,
+   "score": 91.4,
    "components": {
     "tier": 40,
     "category": 32,
     "lead": 3.6,
     "relevance": 0,
-    "freshness": 19.7,
+    "freshness": 19.8,
+    "page_change": -4
+   },
+   "keywords": [],
+   "shock_terms": [],
+   "dedupe_match": null,
+   "dedupe_similarity": 0.0,
+   "id": "0684f8097486",
+   "title": "[page changed] Federal Register \u2014 public inspection (HHS/CDC), pre-publication",
+   "url": "https://www.federalregister.gov/api/v1/public-inspection-documents/current.json",
+   "summary": "{\"count\":124,\"results\":[{\"agencies\":[{\"raw_name\":\"Drug Enforcement Administration\",\"name\":\"Drug Enforcement Administration\",\"id\":116,\"url\":\"https://www.federalregister.gov/agencies/drug-enforcement-administration\",\"json_url\":\"https://www.federalregister.gov/api/v1/agencies/116\",\"parent_id\":268,\"slug\":\"drug-enforcement-administration\"}],\"agency_letters\":[],\"agency_names\":[\"Drug Enforcement Administ",
+   "kind": "page-change",
+   "source": "Federal Register \u2014 public inspection (HHS/CDC), pre-publication",
+   "source_id": "us-fedreg-pubinspect-hhs",
+   "tier": 1,
+   "country": "REG",
+   "category": "advisory",
+   "segments": [
+    "city",
+    "bush"
+   ],
+   "first_seen": "2026-11-11T20:10+03:00",
+   "published": "2026-11-09",
+   "verdict": "OPEN THIS \u2014 tier-1 advisory page moved; content not auto-parsed, read it manually"
+  },
+  {
+   "score": 87.6,
+   "components": {
+    "tier": 40,
+    "category": 32,
+    "lead": 3.6,
+    "relevance": 0,
+    "freshness": 16.0,
     "page_change": -4
    },
    "keywords": [],
@@ -143,13 +175,13 @@
    "verdict": "OPEN THIS \u2014 tier-1 advisory page moved; content not auto-parsed, read it manually"
   },
   {
-   "score": 88.4,
+   "score": 84.7,
    "components": {
     "tier": 40,
     "category": 32,
     "lead": 3.6,
     "relevance": 0,
-    "freshness": 16.8,
+    "freshness": 13.1,
     "page_change": -4
    },
    "keywords": [],
@@ -175,13 +207,13 @@
    "verdict": "OPEN THIS \u2014 tier-1 advisory page moved; content not auto-parsed, read it manually"
   },
   {
-   "score": 81.9,
+   "score": 78.1,
    "components": {
     "tier": 40,
     "category": 32,
     "lead": 3.6,
     "relevance": 0,
-    "freshness": 10.3,
+    "freshness": 6.5,
     "page_change": -4
    },
    "keywords": [],
@@ -207,13 +239,13 @@
    "verdict": "OPEN THIS \u2014 tier-1 advisory page moved; content not auto-parsed, read it manually"
   },
   {
-   "score": 73.3,
+   "score": 71.6,
    "components": {
     "tier": 40,
     "category": 32,
     "lead": 3.6,
     "relevance": 0,
-    "freshness": 1.7,
+    "freshness": 0.0,
     "page_change": -4
    },
    "keywords": [],
@@ -271,13 +303,47 @@
    "verdict": "OPEN THIS \u2014 tier-1 advisory page moved; content not auto-parsed, read it manually"
   },
   {
-   "score": 55.9,
+   "score": 65.4,
    "components": {
     "tier": 40,
     "category": 12,
     "lead": 3.6,
     "relevance": 0,
-    "freshness": 10.3,
+    "freshness": 19.8,
+    "undated": -6,
+    "page_change": -4
+   },
+   "keywords": [],
+   "shock_terms": [],
+   "dedupe_match": null,
+   "dedupe_similarity": 0.0,
+   "id": "0ded999db553",
+   "title": "[page changed] Airlink news",
+   "url": "https://www.flyairlink.com/",
+   "summary": "Request unsuccessful. Incapsula incident ID: 1022000151811565973-807074026282157038",
+   "kind": "page-change",
+   "source": "Airlink news",
+   "source_id": "air-airlink",
+   "tier": 1,
+   "country": "REG",
+   "category": "airline",
+   "segments": [
+    "city",
+    "bush",
+    "beach"
+   ],
+   "first_seen": "2026-11-11T20:09+03:00",
+   "published": null,
+   "verdict": "OPEN THIS \u2014 tier-1 airline page moved; content not auto-parsed, read it manually"
+  },
+  {
+   "score": 52.1,
+   "components": {
+    "tier": 40,
+    "category": 12,
+    "lead": 3.6,
+    "relevance": 0,
+    "freshness": 6.5,
     "undated": -6,
     "page_change": -4
    },
@@ -339,13 +405,86 @@
    "verdict": "OPEN THIS \u2014 tier-1 airline page moved; content not auto-parsed, read it manually"
   },
   {
-   "score": 107.2,
+   "score": 105.6,
+   "components": {
+    "tier": 40,
+    "category": 15,
+    "lead": 16.8,
+    "relevance": 20,
+    "freshness": 19.8,
+    "undated": -6
+   },
+   "keywords": [
+    "eta",
+    "hotel",
+    "beach",
+    "guest"
+   ],
+   "shock_terms": [],
+   "dedupe_match": null,
+   "dedupe_similarity": 0.0,
+   "id": "dca2b380c602",
+   "title": "DRAFT NATIONAL POLICY ON UNCLAIMED FINANCIAL ASSETS, 2026",
+   "url": "https://www.treasury.go.ke/sites/default/files/Latest%20updates/treasury--public%20notice--25x3.pdf",
+   "summary": "en-USDRAFT NATIONAL POLICY ON UNCLAIMED FINANCIAL en-USASSETS, 2026en-USTHE NATIONAL TREASURYen-USPUBLIC NOTICE en-USDateen-USVenueen-USTarget Countiesen-USTimeen-US1.en-US23en-USrden-US Novemen-US-en-USber 2026en-USMombasa Beach Hotelen-USMombasa, Kilifi, Kwale, and en-USTaita Taveta.en-US9:00 am 1:00 pmen-US2.en-US23en-USrden-US Novemen-US-en-USber 2026en-US Kisii Universityen-USKisii, Migori, B",
+   "kind": "doc",
+   "source": "National Treasury Kenya",
+   "source_id": "ke-treasury",
+   "tier": 1,
+   "country": "KE",
+   "category": "fiscal",
+   "segments": [
+    "city",
+    "bush",
+    "beach"
+   ],
+   "first_seen": "2026-11-11T20:10+03:00",
+   "published": null,
+   "verdict": "STRONG \u2014 tier-1, upstream"
+  },
+  {
+   "score": 103.6,
+   "components": {
+    "tier": 40,
+    "category": 9,
+    "lead": 16.8,
+    "relevance": 8,
+    "freshness": 19.8,
+    "corroborated": 10
+   },
+   "keywords": [
+    "eta"
+   ],
+   "shock_terms": [],
+   "dedupe_match": null,
+   "dedupe_similarity": 0.17,
+   "id": "f62b781c2a4b",
+   "title": "Hilton Named Top Hospitality Workplace in South East Asia for Second Consecutive Year",
+   "url": "https://stories.hilton.com/releases/hilton-named-top-hospitality-workplace-in-south-east-asia-for-second-consecutive-year",
+   "summary": "SINGAPORE \u2013 Hilton (Nasdaq: HLT), Asia\u2019s fastest-growing hospitality company, has retained its position as South East Asia\u2019s highest-ranked hospitality employer for the second consecutive year, placing No. 2 overall on Fortune\u2019s 100 Best Companies to Work For\u2122 Southeast Asia 2026 list. This recognition comes as growth across Asia Pacific intensifies competition for hospitality talent. In [\u2026] The p",
+   "kind": "item",
+   "source": "Hilton stories/newsroom",
+   "source_id": "dev-hilton",
+   "tier": 1,
+   "country": "GLOBAL",
+   "category": "hotel-group",
+   "segments": [
+    "city",
+    "bush",
+    "beach"
+   ],
+   "first_seen": "2026-11-11T20:09+03:00",
+   "published": "2026-11-11",
+   "verdict": "STRONG \u2014 tier-1, upstream"
+  },
+  {
+   "score": 103.5,
    "components": {
     "tier": 20,
     "category": 4,
     "lead": 2.4,
     "relevance": 36,
-    "freshness": 16.8,
+    "freshness": 13.1,
     "corroborated": 10,
     "shock": 18
    },
@@ -379,13 +518,13 @@
    "verdict": "CONSIDER"
   },
   {
-   "score": 102.7,
+   "score": 99.0,
    "components": {
     "tier": 20,
     "category": 14,
     "lead": 8.4,
     "relevance": 40,
-    "freshness": 10.3,
+    "freshness": 6.6,
     "corroborated": 10
    },
    "keywords": [
@@ -418,13 +557,13 @@
    "verdict": "CONSIDER"
   },
   {
-   "score": 98.8,
+   "score": 95.1,
    "components": {
     "tier": 40,
     "category": 32,
     "lead": 0.0,
     "relevance": 0,
-    "freshness": 16.8,
+    "freshness": 13.1,
     "corroborated": 10
    },
    "keywords": [],
@@ -451,13 +590,13 @@
    "verdict": "STRONG \u2014 tier-1, upstream"
   },
   {
-   "score": 98.1,
+   "score": 94.3,
    "components": {
     "tier": 40,
     "category": 9,
     "lead": 16.8,
     "relevance": 12,
-    "freshness": 10.3,
+    "freshness": 6.5,
     "corroborated": 10
    },
    "keywords": [
@@ -487,13 +626,46 @@
    "verdict": "STRONG \u2014 tier-1, upstream"
   },
   {
-   "score": 96.6,
+   "score": 93.6,
+   "components": {
+    "tier": 40,
+    "category": 7,
+    "lead": 16.8,
+    "relevance": 0,
+    "freshness": 19.8,
+    "corroborated": 10
+   },
+   "keywords": [],
+   "shock_terms": [],
+   "dedupe_match": null,
+   "dedupe_similarity": 0.33,
+   "id": "b285fffc28e2",
+   "title": "Emirates brings the A350 to JKIA",
+   "url": "https://www.kaa.go.ke/emirates-brings-the-a350-to-jkia",
+   "summary": "The Emirates Airbus A350 arrived at JKIA on 11 November 2026 on its first scheduled service to Nairobi, bringing Premium Economy to Kenya for the first time.",
+   "kind": "item",
+   "source": "KAA tenders",
+   "source_id": "ke-kaa-tenders",
+   "tier": 1,
+   "country": "KE",
+   "category": "tender",
+   "segments": [
+    "city",
+    "bush",
+    "beach"
+   ],
+   "first_seen": "2026-11-11T20:09+03:00",
+   "published": "2026-11-11",
+   "verdict": "STRONG \u2014 tier-1, upstream"
+  },
+  {
+   "score": 92.9,
    "components": {
     "tier": 40,
     "category": 17,
     "lead": 16.8,
     "relevance": 12,
-    "freshness": 16.8,
+    "freshness": 13.1,
     "undated": -6
    },
    "keywords": [
@@ -523,6 +695,41 @@
    "verdict": "STRONG \u2014 tier-1, upstream"
   },
   {
+   "score": 92.6,
+   "components": {
+    "tier": 40,
+    "category": 10,
+    "lead": 16.8,
+    "relevance": 12,
+    "freshness": 19.8,
+    "undated": -6
+   },
+   "keywords": [
+    "advisory"
+   ],
+   "shock_terms": [],
+   "dedupe_match": null,
+   "dedupe_similarity": 0.22,
+   "id": "6242f8e1e517",
+   "title": "Govt to keep talking to US over travel advisory Wednesday, 11 November 2026",
+   "url": "https://www.parliament.go.ug/news/4725/govt-keep-talking-us-over-travel-advisory",
+   "summary": "",
+   "kind": "item",
+   "source": "Parliament of Uganda",
+   "source_id": "ug-parliament",
+   "tier": 1,
+   "country": "UG",
+   "category": "legislature",
+   "segments": [
+    "city",
+    "bush",
+    "beach"
+   ],
+   "first_seen": "2026-11-11T20:09+03:00",
+   "published": null,
+   "verdict": "STRONG \u2014 tier-1, upstream"
+  },
+  {
    "score": 91.8,
    "components": {
     "tier": 40,
@@ -540,7 +747,7 @@
    ],
    "shock_terms": [],
    "dedupe_match": null,
-   "dedupe_similarity": 0.1,
+   "dedupe_similarity": 0.14,
    "id": "eaf12e8dc467",
    "title": "Hilton to Debut in Canberra with Signing of Hilton Canberra Manuka",
    "url": "https://stories.hilton.com/releases/hilton-to-debut-in-canberra-with-signing-of-hilton-canberra-manuka",
@@ -561,13 +768,219 @@
    "verdict": "STRONG \u2014 tier-1, upstream"
   },
   {
-   "score": 89.2,
+   "score": 88.6,
+   "components": {
+    "tier": 40,
+    "category": 10,
+    "lead": 16.8,
+    "relevance": 8,
+    "freshness": 19.8,
+    "undated": -6
+   },
+   "keywords": [
+    "election"
+   ],
+   "shock_terms": [],
+   "dedupe_match": null,
+   "dedupe_similarity": 0.17,
+   "id": "a39ead6770ba",
+   "title": "Law on election of Leader of the Opposition tabled Wednesday, 11 November 2026",
+   "url": "https://www.parliament.go.ug/news/4723/law-election-leader-opposition-tabled",
+   "summary": "",
+   "kind": "item",
+   "source": "Parliament of Uganda",
+   "source_id": "ug-parliament",
+   "tier": 1,
+   "country": "UG",
+   "category": "legislature",
+   "segments": [
+    "city",
+    "bush",
+    "beach"
+   ],
+   "first_seen": "2026-11-11T20:09+03:00",
+   "published": null,
+   "verdict": "CONSIDER"
+  },
+  {
+   "score": 88.2,
+   "components": {
+    "tier": 20,
+    "category": 14,
+    "lead": 8.4,
+    "relevance": 16,
+    "freshness": 19.8,
+    "corroborated": 10
+   },
+   "keywords": [
+    "eta",
+    "route"
+   ],
+   "shock_terms": [],
+   "dedupe_match": null,
+   "dedupe_similarity": 0.14,
+   "id": "b46b9a69cba0",
+   "title": "British Airways / Viva Begins Codeshare From late-March 2027",
+   "url": "https://www.aeroroutes.com/eng/261111-bavbcodeshare",
+   "summary": "Published at 0700PCT / 1400GMT 11NOV26 British Airways at the launch of Northern summer 2027 season plans to commence codeshare partnership with Viva, covering 17 domestic routes within Mexico. Planned codeshare routes from 28MAR27 include the following. British Airways operated by VivaAerobus Cancun \u2013 Chihuahua Cancun \u2013 Guadalajara Cancun \u2013 Leon/Guanajuato Cancun \u2013 Mexico City Cancun \u2013 Monterrey ",
+   "kind": "item",
+   "source": "AeroRoutes schedule filings",
+   "source_id": "aeroroutes",
+   "tier": 2,
+   "country": "GLOBAL",
+   "category": "aviation-tracker",
+   "segments": [
+    "city",
+    "bush",
+    "beach"
+   ],
+   "first_seen": "2026-11-11T20:10+03:00",
+   "published": "2026-11-11",
+   "verdict": "CONSIDER"
+  },
+  {
+   "score": 88.2,
+   "components": {
+    "tier": 20,
+    "category": 14,
+    "lead": 8.4,
+    "relevance": 16,
+    "freshness": 19.8,
+    "corroborated": 10
+   },
+   "keywords": [
+    "vat",
+    "route"
+   ],
+   "shock_terms": [],
+   "dedupe_match": null,
+   "dedupe_similarity": 0.11,
+   "id": "f550934d644b",
+   "title": "Aero NW26 Westchester County Operations",
+   "url": "https://www.aeroroutes.com/eng/261111-5enw26hpn",
+   "summary": "Published at 0600PCT / 1300GMT 11NOV26 Aero, the US-based Premium semi-private carrier, has filed scheduled at Westchester County in the OAG, with 2 routes scheduled in Northern winter 2026/27 season. Aspen \u2013 Westchester County 26DEC26, 07JAN27, 13JAN27, 15JAN27, 21JAN27, 04FEB27, 07FEB27, 10FEB27, 11FEB27, 18FEB27, 21FEB27, 25FEB27, 28FEB27, 05MAR27, 07MAR27, 11MAR27, 17MAR27, 22MAR27, 25MAR27 Mi",
+   "kind": "item",
+   "source": "AeroRoutes schedule filings",
+   "source_id": "aeroroutes",
+   "tier": 2,
+   "country": "GLOBAL",
+   "category": "aviation-tracker",
+   "segments": [
+    "city",
+    "bush",
+    "beach"
+   ],
+   "first_seen": "2026-11-11T20:10+03:00",
+   "published": "2026-11-11",
+   "verdict": "CONSIDER"
+  },
+  {
+   "score": 87.6,
+   "components": {
+    "tier": 40,
+    "category": 13,
+    "lead": 4.8,
+    "relevance": 0,
+    "freshness": 19.8,
+    "corroborated": 10
+   },
+   "keywords": [],
+   "shock_terms": [],
+   "dedupe_match": null,
+   "dedupe_similarity": 0.33,
+   "id": "e543a6b94ee5",
+   "title": "Emirates brings the A350 to JKIA",
+   "url": "https://www.kaa.go.ke/emirates-brings-the-a350-to-jkia",
+   "summary": "The Emirates Airbus A350 arrived at JKIA on 11 November 2026 on its first scheduled service to Nairobi, bringing Premium Economy to Kenya for the first time.",
+   "kind": "item",
+   "source": "Kenya Airports Authority",
+   "source_id": "ke-kaa",
+   "tier": 1,
+   "country": "KE",
+   "category": "aviation",
+   "segments": [
+    "city",
+    "bush",
+    "beach"
+   ],
+   "first_seen": "2026-11-11T20:09+03:00",
+   "published": "2026-11-11",
+   "verdict": "CONSIDER"
+  },
+  {
+   "score": 85.6,
+   "components": {
+    "tier": 40,
+    "category": 15,
+    "lead": 16.8,
+    "relevance": 0,
+    "freshness": 19.8,
+    "undated": -6
+   },
+   "keywords": [],
+   "shock_terms": [],
+   "dedupe_match": null,
+   "dedupe_similarity": 0.0,
+   "id": "fd6e8b6b03f5",
+   "title": "TEMPLATE FOR RECEIVING COMMENTS",
+   "url": "https://www.treasury.go.ke/sites/default/files/Latest%20updates/Template%20for%20Receiving%20Comments%20on%20the%20Unclaimed%20Financial%20Assets%20Policy.docx",
+   "summary": "PK\u0003\u0004\u0014\u0000\u0006\u0000\b\u0000\u0000\u0000!\u0000\u0014\u009f\u00ffF\u00a2\u0001\u0000\u00001\b\u0000\u0000\u0013\u0000\b\u0002[Content_Types].xml \u00a2\u0004\u0002( \u0000\u0002\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000",
+   "kind": "doc",
+   "source": "National Treasury Kenya",
+   "source_id": "ke-treasury",
+   "tier": 1,
+   "country": "KE",
+   "category": "fiscal",
+   "segments": [
+    "city",
+    "bush",
+    "beach"
+   ],
+   "first_seen": "2026-11-11T20:10+03:00",
+   "published": null,
+   "verdict": "CONSIDER"
+  },
+  {
+   "score": 85.6,
+   "components": {
+    "tier": 40,
+    "category": 15,
+    "lead": 16.8,
+    "relevance": 0,
+    "freshness": 19.8,
+    "undated": -6
+   },
+   "keywords": [],
+   "shock_terms": [],
+   "dedupe_match": null,
+   "dedupe_similarity": 0.0,
+   "id": "ae6cedf3ca01",
+   "title": "DRAFT ON NATIONAL POLICY ON UNCLAIMED FINANCIAL ASSETS",
+   "url": "https://www.treasury.go.ke/sites/default/files/Latest%20updates/Draft%20UFA%20National%20Policy%20Final%2021.08.2026.pdf",
+   "summary": "National Policy on Unclaimed Financial Assets en-GB en-GB en-GB en-GB en-GB en-GB en-GB en-GB en-GB en-GB en-GB en-GB en-GBTHE NATIONAL TREASURY en-GB en-GB en-GB en-GB en-GBNATIONAL POLICY ON UNCLAIMED FINANCIAL ASSETS en-GB en-GB en-GB en-GB en-GB en-GB en-GB en-GB en-GB en-GB en-GB en-GB en-GB en-GB en-GB en-GB en-GB en-GB en-GB en-GB en-GB en-GBAUGUST 2026 en-GB en-GB en-GB en-GB en-GB E:\u00b1\u0002\u0000\b ",
+   "kind": "doc",
+   "source": "National Treasury Kenya",
+   "source_id": "ke-treasury",
+   "tier": 1,
+   "country": "KE",
+   "category": "fiscal",
+   "segments": [
+    "city",
+    "bush",
+    "beach"
+   ],
+   "first_seen": "2026-11-11T20:09+03:00",
+   "published": null,
+   "verdict": "CONSIDER"
+  },
+  {
+   "score": 85.5,
    "components": {
     "tier": 20,
     "category": 14,
     "lead": 8.4,
     "relevance": 20,
-    "freshness": 16.8,
+    "freshness": 13.1,
     "corroborated": 10
    },
    "keywords": [
@@ -598,13 +1011,44 @@
    "verdict": "CONSIDER"
   },
   {
-   "score": 88.7,
+   "score": 85.4,
+   "components": {
+    "tier": 40,
+    "category": 12,
+    "lead": 3.6,
+    "relevance": 0,
+    "freshness": 19.8,
+    "corroborated": 10
+   },
+   "keywords": [],
+   "shock_terms": [],
+   "dedupe_match": null,
+   "dedupe_similarity": 0.0,
+   "id": "ade978b92987",
+   "title": "Erster Lufthansa Airbus A350-1000: Willkommen in M\u00fcnchen!",
+   "url": "https://newsroom.lufthansagroup.com/erster-lufthansa-airbus-a350-1000-willkommen-in-muenchen",
+   "summary": "Gro\u00dfer Empfang f\u00fcr das erste Flugzeug der neuen Airbus A350-1000 Flotte: Das neue Flaggschiff mit dem Taufnamen \u201eDeutschland\u201c ist heute auf seiner Heimatbasis in M\u00fcnchen gelandet. Um 15:37 Uhr setzte das modernste Langstreckenflugzeug der Airbuswerke mit der Sonderflugnummer LH9901 auf der n\u00f6rdlichen Start- und Landebahn des Flughafens auf, wo es von zahlreichen Fans empfangen wurde. Nach der \u201eBeg",
+   "kind": "item",
+   "source": "Lufthansa Group newsroom",
+   "source_id": "air-lh",
+   "tier": 1,
+   "country": "GLOBAL",
+   "category": "airline",
+   "segments": [
+    "beach"
+   ],
+   "first_seen": "2026-11-11T20:09+03:00",
+   "published": "2026-11-11",
+   "verdict": "CONSIDER"
+  },
+  {
+   "score": 85.0,
    "components": {
     "tier": 40,
     "category": 13,
     "lead": 6.0,
     "relevance": 0,
-    "freshness": 19.7,
+    "freshness": 16.0,
     "corroborated": 10
    },
    "keywords": [],
@@ -629,13 +1073,13 @@
    "verdict": "CONSIDER"
   },
   {
-   "score": 88.6,
+   "score": 84.9,
    "components": {
     "tier": 40,
     "category": 17,
     "lead": 16.8,
     "relevance": 4,
-    "freshness": 16.8,
+    "freshness": 13.1,
     "undated": -6
    },
    "keywords": [
@@ -664,13 +1108,13 @@
    "verdict": "CONSIDER"
   },
   {
-   "score": 88.6,
+   "score": 84.9,
    "components": {
     "tier": 40,
     "category": 17,
     "lead": 16.8,
     "relevance": 4,
-    "freshness": 16.8,
+    "freshness": 13.1,
     "undated": -6
    },
    "keywords": [
@@ -699,13 +1143,13 @@
    "verdict": "CONSIDER"
   },
   {
-   "score": 88.6,
+   "score": 84.9,
    "components": {
     "tier": 40,
     "category": 17,
     "lead": 16.8,
     "relevance": 4,
-    "freshness": 16.8,
+    "freshness": 13.1,
     "undated": -6
    },
    "keywords": [
@@ -734,13 +1178,13 @@
    "verdict": "CONSIDER"
   },
   {
-   "score": 88.6,
+   "score": 84.9,
    "components": {
     "tier": 40,
     "category": 17,
     "lead": 16.8,
     "relevance": 4,
-    "freshness": 16.8,
+    "freshness": 13.1,
     "undated": -6
    },
    "keywords": [
@@ -748,7 +1192,7 @@
    ],
    "shock_terms": [],
    "dedupe_match": null,
-   "dedupe_similarity": 0.0,
+   "dedupe_similarity": 0.11,
    "id": "8be83312632e",
    "title": "Polish tourism companies can apply for staff training funding in December 2026",
    "url": "https://transition-pathways.europa.eu/tourism/funding-calls/polish-tourism-companies-can-apply-staff-training-funding-december-2026",
@@ -765,280 +1209,6 @@
     "city"
    ],
    "first_seen": "2026-11-11T14:04+03:00",
-   "published": null,
-   "verdict": "CONSIDER"
-  },
-  {
-   "score": 86.7,
-   "components": {
-    "tier": 20,
-    "category": 14,
-    "lead": 8.4,
-    "relevance": 24,
-    "freshness": 10.3,
-    "corroborated": 10
-   },
-   "keywords": [
-    "cancel",
-    "vat",
-    "airline"
-   ],
-   "shock_terms": [],
-   "dedupe_match": null,
-   "dedupe_similarity": 0.11,
-   "id": "fd4def791b24",
-   "title": "Hainan Airlines Extends Shenzhen \u2013 Cairo Cancellations to Dec 2026",
-   "url": "https://www.aeroroutes.com/eng/261110-hudec26cai",
-   "summary": "Published at 2000PCT 10NOV26 / 0300GMT 11NOV26 Hainan Airlines in recent days closed reservations for Shenzhen \u2013 Cairo service for the month of December 2026, as the carrier to extend cancellations to 29DEC26 inclusive. Reservations for the period of 04DEC26 \u2013 29DEC26 are no longer available. Previously filed schedule for December 2026 as follows. HU471 SZX0155 \u2013 0810CAI 789 257 HU472 CAI1220 \u2013 04",
-   "kind": "item",
-   "source": "AeroRoutes schedule filings",
-   "source_id": "aeroroutes",
-   "tier": 2,
-   "country": "GLOBAL",
-   "category": "aviation-tracker",
-   "segments": [
-    "city",
-    "bush",
-    "beach"
-   ],
-   "first_seen": "2026-11-11T08:08+03:00",
-   "published": "2026-11-11",
-   "verdict": "CONSIDER"
-  },
-  {
-   "score": 86.7,
-   "components": {
-    "tier": 40,
-    "category": 24,
-    "lead": 2.4,
-    "relevance": 0,
-    "freshness": 10.3,
-    "corroborated": 10
-   },
-   "keywords": [],
-   "shock_terms": [],
-   "dedupe_match": null,
-   "dedupe_similarity": 0.0,
-   "id": "1978a0f9d99f",
-   "title": "SitRep N\u00b0179/MVE-BDBV/09/11/2026",
-   "url": "https://insp.cd/sitrep-n179-mve-bdbv-09-11-2026",
-   "summary": "",
-   "kind": "item",
-   "source": "INSP RDC \u2014 Ebola daily situation reports (SitRep)",
-   "source_id": "cd-insp-sitrep",
-   "tier": 1,
-   "country": "GLOBAL",
-   "category": "health",
-   "segments": [
-    "City",
-    "Bush"
-   ],
-   "first_seen": "2026-11-11T08:08+03:00",
-   "published": "2026-11-11",
-   "verdict": "CONSIDER"
-  },
-  {
-   "score": 85.2,
-   "components": {
-    "tier": 40,
-    "category": 16,
-    "lead": 2.4,
-    "relevance": 0,
-    "freshness": 16.8,
-    "corroborated": 10
-   },
-   "keywords": [],
-   "shock_terms": [],
-   "dedupe_match": null,
-   "dedupe_similarity": 0.17,
-   "id": "b7cb6a0e0e19",
-   "title": "Statistics Week 12th to 20th November 2026",
-   "url": "https://www.ubos.org/2026/11/11/statistics-week-12th-to-20th-november-2026",
-   "summary": "STATISTICS WEEK 12th to 20th NOVEMBER 2026 Africa Statistics Day (ASD) Theme: Institutionalizing water and sanitation statistics [\u2026] The post Statistics Week 12th to 20th November 2026 appeared first on Uganda Bureau of Statistics .",
-   "kind": "item",
-   "source": "UBOS statistical releases",
-   "source_id": "ug-ubos",
-   "tier": 1,
-   "country": "UG",
-   "category": "statistics",
-   "segments": [
-    "city",
-    "bush",
-    "beach"
-   ],
-   "first_seen": "2026-11-11T14:04+03:00",
-   "published": "2026-11-11",
-   "verdict": "CONSIDER"
-  },
-  {
-   "score": 84.6,
-   "components": {
-    "tier": 40,
-    "category": 9,
-    "lead": 16.8,
-    "relevance": 8,
-    "freshness": 16.8,
-    "undated": -6
-   },
-   "keywords": [
-    "hotel",
-    "opening"
-   ],
-   "shock_terms": [],
-   "dedupe_match": null,
-   "dedupe_similarity": 0.0,
-   "id": "40ee943f9755",
-   "title": "New Minor Hotels Openings in 2027",
-   "url": "https://media.minorhotels.com/en-GLO/274283-new-minor-hotels-openings-in-2027",
-   "summary": "",
-   "kind": "item",
-   "source": "Minor Hotels newsroom",
-   "source_id": "dev-minor",
-   "tier": 1,
-   "country": "GLOBAL",
-   "category": "hotel-group",
-   "segments": [
-    "beach"
-   ],
-   "first_seen": "2026-11-11T14:04+03:00",
-   "published": null,
-   "verdict": "CONSIDER"
-  },
-  {
-   "score": 84.6,
-   "components": {
-    "tier": 40,
-    "category": 9,
-    "lead": 16.8,
-    "relevance": 8,
-    "freshness": 16.8,
-    "undated": -6
-   },
-   "keywords": [
-    "hotel",
-    "signing"
-   ],
-   "shock_terms": [],
-   "dedupe_match": null,
-   "dedupe_similarity": 0.0,
-   "id": "0f4b7b658d72",
-   "title": "Minor Hotels Enters Uzbekistan with the Signing of NH Hotel Tashkent",
-   "url": "https://media.minorhotels.com/en-GLO/274232-minor-hotels-enters-uzbekistan-with-the-signing-of-nh-hotel-tashkent",
-   "summary": "",
-   "kind": "item",
-   "source": "Minor Hotels newsroom",
-   "source_id": "dev-minor",
-   "tier": 1,
-   "country": "GLOBAL",
-   "category": "hotel-group",
-   "segments": [
-    "beach"
-   ],
-   "first_seen": "2026-11-11T14:04+03:00",
-   "published": null,
-   "verdict": "CONSIDER"
-  },
-  {
-   "score": 84.6,
-   "components": {
-    "tier": 40,
-    "category": 9,
-    "lead": 16.8,
-    "relevance": 8,
-    "freshness": 16.8,
-    "undated": -6
-   },
-   "keywords": [
-    "hotel",
-    "resort"
-   ],
-   "shock_terms": [],
-   "dedupe_match": null,
-   "dedupe_similarity": 0.0,
-   "id": "e74b4a496804",
-   "title": "IHG Hotels & Resorts celebrates 50 open voco hotels across Europe",
-   "url": "https://www.ihgplc.com/en/news-and-media/news-releases/2026/ihg-hotels-and-resorts-celebrates-50-open-voco-hotels-across-europe",
-   "summary": "",
-   "kind": "item",
-   "source": "IHG news",
-   "source_id": "dev-ihg",
-   "tier": 1,
-   "country": "GLOBAL",
-   "category": "hotel-group",
-   "segments": [
-    "city",
-    "bush",
-    "beach"
-   ],
-   "first_seen": "2026-11-11T14:04+03:00",
-   "published": null,
-   "verdict": "CONSIDER"
-  },
-  {
-   "score": 84.6,
-   "components": {
-    "tier": 40,
-    "category": 9,
-    "lead": 16.8,
-    "relevance": 8,
-    "freshness": 16.8,
-    "undated": -6
-   },
-   "keywords": [
-    "hotel",
-    "resort"
-   ],
-   "shock_terms": [],
-   "dedupe_match": null,
-   "dedupe_similarity": 0.0,
-   "id": "a7097f39868c",
-   "title": "IHG Hotels & Resorts strengthens development focus in Greece & Cyprus with the appointment of Rozenn Lavaur Fournier as Director of Development",
-   "url": "https://www.ihgplc.com/en/news-and-media/news-releases/2026/ihg-hotels-and-resorts-strengthens-development-focus-in-greece-and-cyprus-with-the-appointment-of-rozenn-lavaur-fournier-as-director-of-development",
-   "summary": "",
-   "kind": "item",
-   "source": "IHG news",
-   "source_id": "dev-ihg",
-   "tier": 1,
-   "country": "GLOBAL",
-   "category": "hotel-group",
-   "segments": [
-    "city",
-    "bush",
-    "beach"
-   ],
-   "first_seen": "2026-11-11T14:04+03:00",
-   "published": null,
-   "verdict": "CONSIDER"
-  },
-  {
-   "score": 84.5,
-   "components": {
-    "tier": 40,
-    "category": 32,
-    "lead": 16.8,
-    "relevance": 0,
-    "freshness": 1.7,
-    "undated": -6
-   },
-   "keywords": [],
-   "shock_terms": [],
-   "dedupe_match": null,
-   "dedupe_similarity": 0.2,
-   "id": "491cd70717cf",
-   "title": "here",
-   "url": "https://www.cdc.gov/port-health/media/pdfs/2026/11/November-T42-Order_signed.pdf",
-   "summary": "1 U.S. DEPARTMENT OF HEALTH AND HUMAN SERVICES CENTERS FOR DISEASE CONTROL AND PREVENTION (CDC) ORDER UNDER SECTIONS 362 & 365 OF THE PUBLIC HEALTH SERVICE ACT (42 U.S.C. 265, 268) and 42 C.F.R. 71.40 CONTINUING THE SUSPENSION OF THE RIGHT TO INTRODUCE CERTAIN PERSONS FROM COUNTRIES WHERE A QUARANTINABLE COMMUNICABLE DISEASE EXISTS I. Executive Summary The Centers for Disease Control and Preventio",
-   "kind": "doc",
-   "source": "CDC port health \u2014 s.362 Ebola entry orders",
-   "source_id": "us-cdc-evdorder",
-   "tier": 1,
-   "country": "REG",
-   "category": "advisory",
-   "segments": [
-    "city",
-    "bush"
-   ],
-   "first_seen": "2026-11-11T00:21+03:00",
    "published": null,
    "verdict": "CONSIDER"
   },
@@ -1076,60 +1246,26 @@
    "verdict": "CONSIDER"
   },
   {
-   "score": 84.1,
-   "components": {
-    "tier": 40,
-    "category": 7,
-    "lead": 16.8,
-    "relevance": 0,
-    "freshness": 10.3,
-    "corroborated": 10
-   },
-   "keywords": [],
-   "shock_terms": [],
-   "dedupe_match": null,
-   "dedupe_similarity": 0.0,
-   "id": "c48ff40ca556",
-   "title": "National Assembly Transport Committee visits JKIA to review Master Plan progress",
-   "url": "https://www.kaa.go.ke/transport-committee-visits-jkia-master-plan",
-   "summary": "The Departmental Committee on Transport and Infrastructure was briefed on the JKIA Master Plan and updated on the status of implementation of the JKIA Modernisation Project.",
-   "kind": "item",
-   "source": "KAA tenders",
-   "source_id": "ke-kaa-tenders",
-   "tier": 1,
-   "country": "KE",
-   "category": "tender",
-   "segments": [
-    "city",
-    "bush",
-    "beach"
-   ],
-   "first_seen": "2026-11-11T08:06+03:00",
-   "published": "2026-11-10",
-   "verdict": "CONSIDER"
-  },
-  {
-   "score": 82.7,
+   "score": 84.2,
    "components": {
     "tier": 20,
     "category": 14,
     "lead": 8.4,
-    "relevance": 20,
-    "freshness": 10.3,
+    "relevance": 12,
+    "freshness": 19.8,
     "corroborated": 10
    },
    "keywords": [
-    "vat",
     "route",
     "airline"
    ],
    "shock_terms": [],
    "dedupe_match": null,
-   "dedupe_similarity": 0.14,
-   "id": "0df9a4d69164",
-   "title": "Starlux Plans Sydney / Auckland late-March 2027 Debut",
-   "url": "https://www.aeroroutes.com/eng/261110-jxns27sw",
-   "summary": "Published at 1745PCT 10NOV26 / 0045GMT 11NOV26 Starlux Airlines as of Tuesday (10NOV26) filed operational schedule for its planned service to Australia and New Zealand, where the airline plans to launch Taipei Taoyuan \u2013 Sydney \u2013 Auckland route on 23MAR27. Initially scheduled 4 times weekly, service to increase to 1 daily from 01MAY27, with A330-900neo. Schedule below focuses on the period of 01MAY",
+   "dedupe_similarity": 0.17,
+   "id": "39503d4a9297",
+   "title": "Air China Expands Turkish Airlines Codeshare From Nov 2026",
+   "url": "https://www.aeroroutes.com/eng/261111-catkcodeshare",
+   "summary": "Published at 1000PCT / 1700GMT 11NOV26 Star Alliance member Air China earlier this month expanded codeshare partnership with Turkish Airlines, including the latter\u2019s service to Africa and Mexico. Following codeshare routes went into effect since early-November 2026. Air China operated by Turkish Airlines Istanbul \u2013 Accra Istanbul \u2013 Algiers Istanbul \u2013 Ankara Istanbul \u2013 Casablanca Istanbul \u2013 Chengdu",
    "kind": "item",
    "source": "AeroRoutes schedule filings",
    "source_id": "aeroroutes",
@@ -1141,87 +1277,18 @@
     "bush",
     "beach"
    ],
-   "first_seen": "2026-11-11T08:08+03:00",
+   "first_seen": "2026-11-11T20:10+03:00",
    "published": "2026-11-11",
    "verdict": "CONSIDER"
   },
   {
-   "score": 82.0,
-   "components": {
-    "tier": 40,
-    "category": 32,
-    "lead": 0.0,
-    "relevance": 0,
-    "freshness": 0.0,
-    "corroborated": 10
-   },
-   "keywords": [],
-   "shock_terms": [],
-   "dedupe_match": null,
-   "dedupe_similarity": 0.0,
-   "id": "64f08e2666c0",
-   "title": "Proposed Data Collection Submitted for Public Comment and Recommendations",
-   "url": "https://www.federalregister.gov/documents/2026/11/10/2026-22881/proposed-data-collection-submitted-for-public-comment-and-recommendations",
-   "summary": "The Centers for Disease Control and Prevention (CDC), as part of its continuing effort to reduce public burden and maximize the utility of government information, invites the general public and other federal agencies the opportunity to comment on a continuing information collection, as required by the Paperwork Reduction Act of 1995. This notice invites comment on a proposed information collection",
-   "kind": "item",
-   "source": "Federal Register \u2014 CDC documents (newest first)",
-   "source_id": "fr-cdc-agency-feed",
-   "tier": 1,
-   "country": "GLOBAL",
-   "category": "advisory",
-   "segments": [
-    "Bush",
-    "City",
-    "Beach"
-   ],
-   "first_seen": "2026-11-10T19:12+03:00",
-   "published": "2026-11-10",
-   "verdict": "CONSIDER"
-  },
-  {
-   "score": 81.2,
+   "score": 84.2,
    "components": {
     "tier": 20,
     "category": 14,
     "lead": 8.4,
     "relevance": 12,
-    "freshness": 16.8,
-    "corroborated": 10
-   },
-   "keywords": [
-    "route",
-    "flight"
-   ],
-   "shock_terms": [],
-   "dedupe_match": null,
-   "dedupe_similarity": 0.14,
-   "id": "9274db6b8934",
-   "title": "Aeromexico June 2027 US Network Additions",
-   "url": "https://www.aeroroutes.com/eng/261111-amjun27us",
-   "summary": "Published at 0200PCT / 0900GMT 11NOV26 Aeromexico in June 2027 plans to expand service to the US and Puerto Rico, with the launch of 3 routes. Mexico City \u2013 Nashville eff 13JUN27 4 weekly Embraer E190 Mexico City \u2013 New Orleans eff 17JUN27 4 weekly Embraer E190 Mexico City \u2013 San Juan eff 24JUN27 4 weekly 737 MAX 8 (Previously scheduled from October 2025) The carrier will also launch 2nd daily Mexic",
-   "kind": "item",
-   "source": "AeroRoutes schedule filings",
-   "source_id": "aeroroutes",
-   "tier": 2,
-   "country": "GLOBAL",
-   "category": "aviation-tracker",
-   "segments": [
-    "city",
-    "bush",
-    "beach"
-   ],
-   "first_seen": "2026-11-11T14:04+03:00",
-   "published": "2026-11-11",
-   "verdict": "CONSIDER"
-  },
-  {
-   "score": 81.2,
-   "components": {
-    "tier": 20,
-    "category": 14,
-    "lead": 8.4,
-    "relevance": 12,
-    "freshness": 16.8,
+    "freshness": 19.8,
     "corroborated": 10
    },
    "keywords": [
@@ -1231,10 +1298,10 @@
    "shock_terms": [],
    "dedupe_match": null,
    "dedupe_similarity": 0.11,
-   "id": "9d718f21efeb",
-   "title": "Sky Airline Removes Planned 2 Routes From Santiago in late-Dec 2026",
-   "url": "https://www.aeroroutes.com/eng/261110-h2dec26",
-   "summary": "Published at 2345PCT 10NOV26 / 0645GMT 11NOV26 Chile\u2019s Sky Airline in recent schedule update removed planned 2 new nonstop routes from Santiago de Chile , previously scheduled from late-December 2026 with A321neo/XLR aircraft. The airline previously planned to launch following routes. Santiago de Chile \u2013 Punta Cana eff 29DEC26 4 weekly A321neo H2950 SCL0744 \u2013 1450PUJ 32Q x135 H2951 PUJ1600 \u2013 0052+",
+   "id": "86830b45313d",
+   "title": "Sichuan Airlines Expands Turkish Airlines Codeshare From Nov 2026",
+   "url": "https://www.aeroroutes.com/eng/261111-3utkcodeshare",
+   "summary": "Published at 0900PCT / 1600GMT 11NOV26 Sichuan Airlines starting today (11NOV26) expands codeshare partnership with Turkish Airlines, including the latter\u2019s new service to Chengdu. Planned new codeshare routes include the following. Sichuan Airlines operated by Turkish Airlines Istanbul \u2013 Bucharest Istanbul \u2013 Chengdu Tianfu Istanbul \u2013 Sao Paulo Guarulhos Istanbul \u2013 Sofia Istanbul \u2013 Zurich",
    "kind": "item",
    "source": "AeroRoutes schedule filings",
    "source_id": "aeroroutes",
@@ -1246,18 +1313,18 @@
     "bush",
     "beach"
    ],
-   "first_seen": "2026-11-11T14:04+03:00",
+   "first_seen": "2026-11-11T20:10+03:00",
    "published": "2026-11-11",
    "verdict": "CONSIDER"
   },
   {
-   "score": 81.2,
+   "score": 84.2,
    "components": {
     "tier": 20,
     "category": 14,
     "lead": 8.4,
     "relevance": 12,
-    "freshness": 16.8,
+    "freshness": 19.8,
     "corroborated": 10
    },
    "keywords": [
@@ -1267,10 +1334,10 @@
    "shock_terms": [],
    "dedupe_match": null,
    "dedupe_similarity": 0.14,
-   "id": "ff2f74e5cabd",
-   "title": "S7 Airlines Add Irkutsk \u2013 Da Nang From March 2027",
-   "url": "https://www.aeroroutes.com/eng/261110-s7ns27dad",
-   "summary": "Published at 2300PCT 10NOV26 / 0600GMT 11NOV26 Russian carrier S7 Airlines from March 2027 plans to launch new route to Vietnam. From 02MAR27, the carrier\u2019s Airbus A320 aircraft to serve Irkutsk \u2013 Da Nang route twice weekly. Schedule below focuses on the period of 30MAR27 \u2013 30OCT27. S76335 IKT1130 \u2013 1625DAD 320 26 S76336 DAD1730 \u2013 0035+1IKT 320 26",
+   "id": "0b863bc4d8c4",
+   "title": "Sky Airline Adds Lima \u2013 Rio de Janeiro From late-Dec 2026",
+   "url": "https://www.aeroroutes.com/eng/261111-h2nw26gig",
+   "summary": "Published at 0800PCT / 1500GMT 11NOV26 Sky Airline from late-December 2026 plans to add new service between Peru and Brasil, as the carrier schedules Lima \u2013 Rio de Janeiro Galeao route from 28DEC26. Initially this route is scheduled 6 weekly, increasing to 1 daily from 07JAN27, then reduced to 4 weekly from 01MAR27. Airbus A320neo operates this route. H25820 LIM2325 \u2013 0700+1GIG 32N x135 H25821 GIG",
    "kind": "item",
    "source": "AeroRoutes schedule filings",
    "source_id": "aeroroutes",
@@ -1282,118 +1349,43 @@
     "bush",
     "beach"
    ],
-   "first_seen": "2026-11-11T14:04+03:00",
+   "first_seen": "2026-11-11T20:10+03:00",
    "published": "2026-11-11",
    "verdict": "CONSIDER"
   },
   {
-   "score": 81.0,
+   "score": 84.2,
    "components": {
     "tier": 20,
-    "category": 5,
-    "lead": 1.2,
-    "relevance": 28,
-    "freshness": 16.8,
+    "category": 14,
+    "lead": 8.4,
+    "relevance": 12,
+    "freshness": 19.8,
     "corroborated": 10
    },
    "keywords": [
-    "fuel",
     "route",
-    "seat",
     "airline"
    ],
    "shock_terms": [],
    "dedupe_match": null,
-   "dedupe_similarity": 0.1,
-   "id": "6e05d17e1f55",
-   "title": "Malaysia Airlines Overtakes AirAsia on India Routes by Standing Still",
-   "url": "https://skift.com/2026/11/11/malaysia-airlines-overtakes-airasia-on-india-routes-by-standing-still",
-   "summary": "AirAsia\u2019s fuel-driven retreat should be a gift to its rivals, but high fuel costs and scarce aircraft mean few can afford to take advantage. Malaysia Airlines has overtaken it on India routes with 1% more seats in a market that shrank 10%. The longer AirAsia stays small, the more of those default gains could become permanent.",
+   "dedupe_similarity": 0.11,
+   "id": "41ca45e8fe90",
+   "title": "Alaska Removes 3 Portland OR Routes in NS27",
+   "url": "https://www.aeroroutes.com/eng/261111-asns27pdx",
+   "summary": "Published at 0500PCT / 1200GMT 11NOV26 Alaska Airlines in recent schedule update removed 3 routes at Portland OR for Northern summer 2027 season. Removed routes include the following. Portland OR \u2013 Baltimore/Washington Seasonal 1 daily 737-900ER from 13MAY27 removed Portland OR \u2013 Jackson Hole Seasonal 2 weekly Embraer E175 (Skywest) 12JUN27 \u2013 29SEP27 removed Portland OR \u2013 St. Louis Seasonal 1 dail",
    "kind": "item",
-   "source": "Skift",
-   "source_id": "tp-skift",
+   "source": "AeroRoutes schedule filings",
+   "source_id": "aeroroutes",
    "tier": 2,
    "country": "GLOBAL",
-   "category": "trade",
+   "category": "aviation-tracker",
    "segments": [
     "city",
     "bush",
     "beach"
    ],
-   "first_seen": "2026-11-11T14:04+03:00",
-   "published": "2026-11-11",
-   "verdict": "CONSIDER"
-  },
-  {
-   "score": 80.6,
-   "components": {
-    "tier": 40,
-    "category": 9,
-    "lead": 16.8,
-    "relevance": 4,
-    "freshness": 16.8,
-    "undated": -6
-   },
-   "keywords": [
-    "camp"
-   ],
-   "shock_terms": [],
-   "dedupe_match": null,
-   "dedupe_similarity": 0.0,
-   "id": "7d2d14857b40",
-   "title": "Holiday Inn Express by IHG Taps Brooke Averick and Connor Wood for \u201cUnpacking\u201d Campaign, Bringing Analog Connection Back to the Breakfast Table",
-   "url": "https://www.ihgplc.com/en/news-and-media/news-releases/2026/holiday-inn-express-by-ihg-taps-brooke-averick-and-connor-wood-for-unpacking-campaign",
-   "summary": "",
-   "kind": "item",
-   "source": "IHG news",
-   "source_id": "dev-ihg",
-   "tier": 1,
-   "country": "GLOBAL",
-   "category": "hotel-group",
-   "segments": [
-    "city",
-    "bush",
-    "beach"
-   ],
-   "first_seen": "2026-11-11T14:04+03:00",
-   "published": null,
-   "verdict": "CONSIDER"
-  },
-  {
-   "score": 80.4,
-   "components": {
-    "tier": 20,
-    "category": 5,
-    "lead": 3.6,
-    "relevance": 4,
-    "freshness": 19.8,
-    "corroborated": 10,
-    "shock": 18
-   },
-   "keywords": [
-    "hotel"
-   ],
-   "shock_terms": [
-    "attack"
-   ],
-   "dedupe_match": null,
-   "dedupe_similarity": 0.0,
-   "id": "4e5628d0cb03",
-   "title": "What the Federal Refrigeration Hack Warning Means for Hotels",
-   "url": "https://www.hospitalitynet.org/opinion/4135416/what-the-federal-refrigeration-hack-warning-means-for-hotels",
-   "summary": "A US federal warning about cyberattacks on refrigeration controllers has direct implications for hotels, whose walk-in coolers and freezers often run on networked, vendor-managed systems with little IT oversight.",
-   "kind": "item",
-   "source": "Hospitality Net \u2014 Africa announcements",
-   "source_id": "dev-hospitalitynet-africa",
-   "tier": 2,
-   "country": "REG",
-   "category": "trade",
-   "segments": [
-    "city",
-    "bush",
-    "beach"
-   ],
-   "first_seen": "2026-11-11T16:44+03:00",
+   "first_seen": "2026-11-11T20:10+03:00",
    "published": "2026-11-11",
    "verdict": "CONSIDER"
   }
