@@ -1,10 +1,10 @@
 window.LEDGER = {
- "updated": "2026-11-09 15:39",
+ "updated": "2026-11-11 14:37",
  "stats": {
   "total": 258,
-  "open": 144,
-  "resolved": 112,
-  "correct": 81,
+  "open": 143,
+  "resolved": 113,
+  "correct": 82,
   "partial": 1,
   "incorrect": 30,
   "void": 2,
@@ -23,7 +23,7 @@ window.LEDGER = {
    "confidence": "Confirmed",
    "status": "open",
    "resolved_date": "",
-   "evidence": "CHECKED 2026-11-05, STILL OPEN: no Tourism Research Institute or ministry August 2026 arrivals figure found (searched tri.go.ke, ministry releases, Star, Business Daily, Nation, Citizen). KNBS Leading Economic Indicators Aug 2026 PDF exists but could not be opened and counts JKIA/Moi airport arrivals only.",
+   "evidence": "CHECKED 2026-11-10, STILL OPEN: no Tourism Research Institute or ministry August 2026 arrivals figure found (searched tri.go.ke, tourism.go.ke, Star, KBC, Khusoko). KNBS Leading Economic Indicators Aug 2026 PDF exists (published Oct 2026) but its server blocks retrieval and it counts JKIA/MIA arrivals only. Void eligible from 2026-11-15 if no TRI/ministry figure appears.",
    "source_url": "",
    "overdue": true
   },
@@ -39,7 +39,7 @@ window.LEDGER = {
    "confidence": "Reported",
    "status": "open",
    "resolved_date": "",
-   "evidence": "CHECKED 2026-11-05, STILL OPEN: second search today found no FCC Tanzania decision on A Squared / Nawiri. Only FCC-Nawiri item is the earlier Asilia Southern Tanzania clearance (Daily News 6 Mar 2026), a different deal. Kenya CAK approval does not meet the test.",
+   "evidence": "CHECKED 2026-11-10, STILL OPEN: no FCC Tanzania decision on A Squared / Nawiri found. FCC public-notices page returns no readable content; TanzaniaInvest 9 Jul 2026 reports only the start of FCC review and 14-day comment window. Kenya CAK approval does not meet the test. Void eligible from 2026-12-01 if no decision is published.",
    "source_url": "",
    "overdue": true
   },
@@ -55,7 +55,7 @@ window.LEDGER = {
    "confidence": "Confirmed",
    "status": "open",
    "resolved_date": "",
-   "evidence": "CHECKED 2026-11-05, STILL OPEN: no Kenya MoH mpox statement found after the 6 Sep update (1298 cases; Mombasa 452). WHO AFRO Week 41 sit-rep (1339 cumulative; Nairobi leads 2026 cases 212/390) gives no cumulative county ranking and is not an MoH update.",
+   "evidence": "CHECKED 2026-11-10, STILL OPEN: no Kenya MoH mpox statement or briefing found after the 6 Sep 2026 update (1,298 cases; Mombasa 452) via MoH X account, Kenyans.co.ke, KBC, Nation (blocked). If none was published by 31 Oct the test cannot be met; void eligible from 2026-12-01.",
    "source_url": "https://www.kbc.co.ke/kenyans-urged-to-adhere-to-mpox-preventive-measures-as-1298-cases-recorded/",
    "overdue": true
   },
@@ -71,25 +71,9 @@ window.LEDGER = {
    "confidence": "Confirmed",
    "status": "open",
    "resolved_date": "",
-   "evidence": "CHECKED 2026-11-05, STILL OPEN: second search today found no OCGS September 2026 release or press report (The Citizen, Daily News, zanzibarism.com, TanzaniaInvest). Latest is August 124481; Jan-Aug 633228 so September needs 66773+.",
+   "evidence": "CHECKED 2026-11-10, STILL OPEN: no OCGS September 2026 arrivals release or press report found (searched The Citizen, Daily News, TanzaniaInvest, zanzibarism.com, allAfrica). Latest published month is August (124,481; Jan-Aug 633,228). Test requires a release on or before 31 Oct; void eligible from 2026-12-01 if none existed by then.",
    "source_url": "https://www.thecitizen.co.tz/tanzania/zanzibar/zanzibar-tourism-arrivals-hit-record-124-481-in-august-5590494",
    "overdue": true
-  },
-  {
-   "id": "P220",
-   "made_date": "2026-10-08",
-   "edition": "pulse-2026-10-08-evening",
-   "claim": "EWURA will NOT set Dar es Salaam petrol below TSh 4,057 per litre in its November 2026 caps",
-   "resolution_criteria": "Check EWURA November 2026 cap announcement and Daily News or The Citizen coverage. A Dar petrol cap below TSh 4,057 resolves INCORRECT",
-   "resolve_by": "2026-11-10",
-   "market": "TZ",
-   "segment": "City|Bush|Beach",
-   "confidence": "Medium",
-   "status": "open",
-   "resolved_date": "",
-   "evidence": "",
-   "source_url": "https://dailynews.co.tz/fuel-prices-climb-amid-middle-east-crisis",
-   "overdue": false
   },
   {
    "id": "P244",
@@ -103,9 +87,9 @@ window.LEDGER = {
    "confidence": "Reported",
    "status": "open",
    "resolved_date": "",
-   "evidence": "",
+   "evidence": "CHECKED 2026-11-10, STILL OPEN (due today, day not over): no new confirmed Uganda case in any source. WHO DON625 (6 Nov 2026) says Uganda outbreak controlled since August; CDC situation summary (updated 9 Nov) lists Uganda at 20 confirmed, no new cases; Uganda MoH via Daily Monitor 24 Oct reaffirmed Ebola-free status during Nigeria case probe. Resolve CORRECT on next run if nothing changes.",
    "source_url": "",
-   "overdue": false
+   "overdue": true
   },
   {
    "id": "P245",
@@ -119,9 +103,9 @@ window.LEDGER = {
    "confidence": "Reported",
    "status": "open",
    "resolved_date": "",
-   "evidence": "",
+   "evidence": "CHECKED 2026-11-10, STILL OPEN (due today, 7-8 Nov INSP sitreps not located): latest counts found are below 11,000 - WHO DON625 (6 Nov) 10,668 confirmed as of 3 Nov; CDC 10,879 confirmed as of 6 Nov; Outbreak News Today 10,803 as of 5 Nov. At ~70/day an 8 Nov INSP sitrep could be near 11,000, so verify INSP SitRep dated 7-8 Nov before resolving.",
    "source_url": "",
-   "overdue": false
+   "overdue": true
   },
   {
    "id": "P228",
@@ -2317,6 +2301,22 @@ window.LEDGER = {
   }
  ],
  "resolved": [
+  {
+   "id": "P220",
+   "made_date": "2026-10-08",
+   "edition": "pulse-2026-10-08-evening",
+   "claim": "EWURA will NOT set Dar es Salaam petrol below TSh 4,057 per litre in its November 2026 caps",
+   "resolution_criteria": "Check EWURA November 2026 cap announcement and Daily News or The Citizen coverage. A Dar petrol cap below TSh 4,057 resolves INCORRECT",
+   "resolve_by": "2026-11-10",
+   "market": "TZ",
+   "segment": "City|Bush|Beach",
+   "confidence": "Medium",
+   "status": "correct",
+   "resolved_date": "2026-11-10",
+   "evidence": "EWURA November 2026 caps effective 4 Nov 2026: Dar es Salaam petrol TSh 4,083/litre, up TSh 26 from TSh 4,057 in October (Mwananchi 4 Nov 2026; Rio Times citing EWURA). Cap is not below 4,057 so the stated failure condition is not met.",
+   "source_url": "https://www.mwananchi.co.tz/mw/habari/biashara/hizi-hapa-bei-mpya-za-mafuta-yazidi-kung-ata-5657832",
+   "overdue": false
+  },
   {
    "id": "P234",
    "made_date": "2026-10-18",

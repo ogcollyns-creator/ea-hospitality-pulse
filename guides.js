@@ -1,5 +1,23 @@
 window.GUIDES = [
  {
+  "slug": "zanzibar-cctv-mandate-nobody-can-produce-the-order",
+  "title": "Zanzibar's hotels have five weeks to install CCTV. Nobody has produced the order.",
+  "description": "Three accounts published in two days gave the archipelago's hotels a 15 December deadline, a camera specification and a schedule of penalties. None of them cites a circular, a gazette notice or a named official, and they disagree on the one question that decides the price.",
+  "category": "Big Read",
+  "updated": "2026-11-11",
+  "readMins": 8,
+  "image": "img/editions/zanzibar-cctv-mandate-nobody-can-produce-the-order.jpg"
+ },
+ {
+  "slug": "zanzibar-wage-floor-contract-is-the-cost",
+  "title": "Zanzibar's hotels will argue about the 30 per cent. The expensive word in the order is \"contract\".",
+  "description": "On 31 October Zanzibar raised its private sector wage floor by about 30 per cent from 1 January and lifted the dollar floor for foreign workers by half. In the same announcement the Labour Commissioner was told to put every private sector worker on a written contract by December. Over the twelve months to October the islands' advertised room rate fell about 18 per cent.",
+  "category": "Big Read",
+  "updated": "2026-11-10",
+  "readMins": 8,
+  "image": "img/editions/zanzibar-wage-floor-contract-is-the-cost.jpg"
+ },
+ {
   "slug": "mara-bed-ceiling-unenforced-luxury-pipeline",
   "title": "The Mara's bed ceiling is absolute on paper. Nobody has got a court to look at it.",
   "description": "W Hospitality Group's new pipeline report names the Maasai Mara and the Serengeti among sub-Saharan Africa's luxury development hotspots, and asks whether they can absorb the supply. Kenya's own management plan answered that question in 2023. The answers that have actually counted since then have all been procedural.",
