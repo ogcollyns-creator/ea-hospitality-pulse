@@ -1,5 +1,14 @@
 window.EDITIONS = [
  {
+  "id": "pulse-2026-11-11-evening",
+  "date": "2026-11-11",
+  "dateDisplay": "Wednesday, 11 November 2026",
+  "edition": "Evening Wrap",
+  "editionKey": "evening",
+  "summary": "Kenya's 42-day Ebola countdown started today; the target date is 23 December",
+  "bodyHtml": "<p><strong>Kenya discharged its last Ebola patient on 11 November and has set 23 December for its Ebola-free declaration</strong><br><em>🌆 Evening Wrap · Wed 11 Nov 2026</em></p>\n<p>━━━━━━━━━<br><span class=\"item-head\">1️⃣ Kenya&#x27;s 42-day Ebola countdown started today; the target date is 23 December</span></p>\n<p><strong>What happened.</strong> Health CS Aden Duale said the last patient left treatment clear of the virus on 11 Nov, and the final 11 contacts were released. The tally is nine cases, two deaths and seven recoveries. Kenya is on course for an Ebola-free declaration on 23 Dec if no new case appears <strong>(KBC; Kenyans.co.ke, 11 Nov)</strong>. Duale said Kenya will issue no &quot;Ebola-free&quot; travel certificates, will not quarantine travellers for other countries, and is &quot;open for business&quot;.</p>\n<p><strong>Read.</strong> Inference: 23 Dec is too late to rescue December; it helps January to March bookings.</p>\n<p><span class=\"sowhat\">🎯 So what: tell agents Kenya issues no health certificates, so guests should not ask for one. Set any Ebola clause to end on 23 Dec.</span><br><span class=\"tagline\">🏷 City, Bush, Beach | Kenya | Confirmed | impact:demand</span></p>\n<p><span class=\"item-head\">2️⃣ The US renewed its Ebola entry ban for 30 days on 10 November, and Uganda is still on it</span></p>\n<p>The CDC continued its order on non-US nationals recently in the DRC, Uganda or South Sudan from 5pm US Eastern on 10 Nov, for 30 days <strong>(CDC order signed 9 Nov)</strong>. Uganda finished 42-day monitoring on 27 Aug but stays listed over cross-border risk from the DRC. Kenya is not covered and sits at CDC Level 1.</p>\n<p><span class=\"sowhat\">🎯 So what: non-US passport holders, green-card holders included, who visit Uganda still cannot enter the US for 21 days. Check US-resident guests&#x27; onward plans; the next decision is due about 10 Dec.</span><br><span class=\"tagline\">🏷 Bush | Uganda, Rwanda, Kenya | Confirmed | impact:demand</span></p>\n<p><span class=\"item-head\">3️⃣ Rwanda&#x27;s urban inflation hit 19.5% in October, up from 17.2% in September</span></p>\n<p>Food prices drove the rise <strong>(New Times, citing NISR, 10 Nov; September print NISR, 10 Oct)</strong>. The central bank rate is 8.75% <strong>(BNR, Aug)</strong>.</p>\n<p><strong>Read.</strong> Inference: Kigali hotels face rising food and wage costs while US-dollar rates for gorilla and MICE business are set months ahead.<br><span class=\"sowhat\">🎯 So what: re-cost 2027 F&amp;B packages and MICE quotes now, not at contract.</span><br><span class=\"tagline\">🏷 City, Bush | Rwanda | Confirmed | impact:margin</span></p>\n<p><strong>🏗 DEAL FLOW</strong><br>🇰🇪 Pergamon Hospitality (The Kasa, Malindi) named Steve Chumba Group General Manager <strong>(ATC News, 10 Nov)</strong>.<br>🇹🇿 Minor Hotels&#x27; upcoming-openings page lists Anantara Zanzibar Resort &amp; Residences for 2027. Earlier reports said 2030; unconfirmed with Minor <strong>(minorhotels.com, read 11 Nov)</strong>.</p>\n<p><strong>📻 ALSO TONIGHT</strong><br>🇰🇪 Suspected al-Shabaab gunmen killed eight people, including five road workers, in Mandera on 10 Nov <strong>(Reuters, 10 Nov)</strong>. Western advisories unchanged.<br>✈ Air Tanzania warned on 10 Nov of delays, schedule changes and aircraft swaps over eight days after early engine removals <strong>(The Citizen, 10 Nov)</strong>. Dates and routes are not published.<br>🏞 KWS closed Hell&#x27;s Gate gorge for the El Niño rains, which may last into early 2027 <strong>(Kenyans.co.ke, 9 Nov)</strong>.<br>🦁 UWA launched a national lion and large-carnivore taskforce <strong>(UWA, 10 Nov)</strong>.<br>💱 KSh129.96 to the dollar <strong>(CBK, 10 Nov)</strong>. EPRA&#x27;s pump-price review is due 14 Nov. CBK&#x27;s MPC meets 9 Dec.</p>\n<p><strong>🔍 BLIND SPOTS</strong> Gazettes, French advice, Africa CDC, US Embassy Nairobi/OSAC, OCGS, BNR, KNBS and ZRB were web-scanned, not opened. TIRA&#x27;s 10 Nov notice is image-only, unread.</p>\n<p>🔗 This edition on the web: <a href=\"https://eahospitalitypulse.com/editions/pulse-2026-11-11-evening.html\" rel=\"noopener\">eahospitalitypulse.com/editions/pulse-2026-11-11-evenin…</a></p>"
+ },
+ {
   "id": "pulse-2026-11-09-evening",
   "date": "2026-11-09",
   "dateDisplay": "Monday, 9 November 2026",
@@ -1387,6 +1396,66 @@ window.EDITIONS = [
  }
 ];
 window.INSIGHTS = [
+ {
+  "headline": "Kenya's 42-day Ebola countdown started today; the target date is 23 December",
+  "body": "**What happened.** Health CS Aden Duale said the last patient left treatment clear of the virus on 11 Nov, and the final 11 contacts were released. The tally is nine cases, two deaths and seven recoveries. Kenya is on course for an Ebola-free declaration on 23 Dec if no new case appears *(KBC; Kenyans.co.ke, 11 Nov)*. Duale said Kenya will issue no \"Ebola-free\" travel certificates, will not quarantine travellers for other countries, and is \"open for business\". **Read.** Inference: 23 Dec is too late to rescue December; it helps January to March bookings.",
+  "sowhat": "🎯 So what: tell agents Kenya issues no health certificates, so guests should not ask for one. Set any Ebola clause to end on 23 Dec.",
+  "segments": [
+   "city",
+   "bush",
+   "beach"
+  ],
+  "countries": "Kenya",
+  "confidence": "Confirmed",
+  "impact": "+demand",
+  "impactClass": "demand",
+  "intensity": 3,
+  "impactSet": "author",
+  "source": "pulse-2026-11-11-evening",
+  "date": "2026-11-11",
+  "dateDisplay": "Wednesday, 11 November 2026",
+  "edition": "Evening Wrap",
+  "editionKey": "evening"
+ },
+ {
+  "headline": "The US renewed its Ebola entry ban for 30 days on 10 November, and Uganda is still on it",
+  "body": "The CDC continued its order on non-US nationals recently in the DRC, Uganda or South Sudan from 5pm US Eastern on 10 Nov, for 30 days *(CDC order signed 9 Nov)*. Uganda finished 42-day monitoring on 27 Aug but stays listed over cross-border risk from the DRC. Kenya is not covered and sits at CDC Level 1.",
+  "sowhat": "🎯 So what: non-US passport holders, green-card holders included, who visit Uganda still cannot enter the US for 21 days. Check US-resident guests' onward plans; the next decision is due about 10 Dec.",
+  "segments": [
+   "bush"
+  ],
+  "countries": "Uganda, Rwanda, Kenya",
+  "confidence": "Confirmed",
+  "impact": "+demand",
+  "impactClass": "demand",
+  "intensity": 3,
+  "impactSet": "author",
+  "source": "pulse-2026-11-11-evening",
+  "date": "2026-11-11",
+  "dateDisplay": "Wednesday, 11 November 2026",
+  "edition": "Evening Wrap",
+  "editionKey": "evening"
+ },
+ {
+  "headline": "Rwanda's urban inflation hit 19.5% in October, up from 17.2% in September",
+  "body": "Food prices drove the rise *(New Times, citing NISR, 10 Nov; September print NISR, 10 Oct)*. The central bank rate is 8.75% *(BNR, Aug)*. **Read.** Inference: Kigali hotels face rising food and wage costs while US-dollar rates for gorilla and MICE business are set months ahead.",
+  "sowhat": "🎯 So what: re-cost 2027 F&B packages and MICE quotes now, not at contract.",
+  "segments": [
+   "city",
+   "bush"
+  ],
+  "countries": "Rwanda",
+  "confidence": "Confirmed",
+  "impact": "-margin",
+  "impactClass": "margin",
+  "intensity": 3,
+  "impactSet": "author",
+  "source": "pulse-2026-11-11-evening",
+  "date": "2026-11-11",
+  "dateDisplay": "Wednesday, 11 November 2026",
+  "edition": "Evening Wrap",
+  "editionKey": "evening"
+ },
  {
   "headline": "The UK added Moyale to its Kenya \"all but essential\" list on 6 November",
   "body": "**What happened.** The FCDO updated its Kenya advice on 6 Nov (17:00 UTC) to cover Moyale Town and up to 5km around it, including the Ethiopia border. Its regional-risks page cites violence in the Ethiopian town of Moyale since October, with stray gunfire and projectiles landing within 3km *(gov.uk, 6 Nov)*. About 50,000 people have crossed into Kenya by local authorities' count; UNHCR counts at least 11,000 in temporary sites *(Africanews/AFP, 5 Nov)*. **Read.** Inference: no safari or coast area is touched, and the level elsewhere is unchanged. The risk is overland Ethiopia–Kenya itineraries via Marsabit, which the FCDO tells vehicles to run straight down the A2.",
@@ -8288,4 +8357,4 @@ window.INSIGHTS = [
   "editionKey": "evening"
  }
 ];
-window.BUILT_AT = "2026-11-11 14:36";
+window.BUILT_AT = "2026-11-11 15:15";
