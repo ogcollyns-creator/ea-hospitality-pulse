@@ -4,6 +4,8 @@ slug: zanzibar-cctv-mandate-nobody-can-produce-the-order
 description: Three accounts published in two days gave the archipelago's hotels a 15 December deadline, a camera specification and a schedule of penalties. None of them cites a circular, a gazette notice or a named official, and they disagree on the one question that decides the price.
 category: Big Read
 updated: 2026-11-11
+image: "img/editions/zanzibar-cctv-mandate-nobody-can-produce-the-order.jpg"
+image_credit: "Photograph: Onyango George / EA Hospitality Pulse"
 ---
 Muyuni Beach had a good week. On 6 November, Iberostar opened a 358 room resort on the sand there, its first property in Tanzania, the latest and largest piece of evidence that the archipelago's long run of record arrivals has convinced European capital to build rather than contract. Two days later, every other hotel on Unguja and Pemba began reading that it had until 15 December to install closed circuit television.
 

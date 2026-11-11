@@ -4,6 +4,8 @@ slug: zanzibar-wage-floor-contract-is-the-cost
 description: On 31 October Zanzibar raised its private sector wage floor by about 30 per cent from 1 January and lifted the dollar floor for foreign workers by half. In the same announcement the Labour Commissioner was told to put every private sector worker on a written contract by December. Over the twelve months to October the islands' advertised room rate fell about 18 per cent.
 category: Big Read
 updated: 2026-11-10
+image: "img/editions/zanzibar-wage-floor-contract-is-the-cost.jpg"
+image_credit: "Photograph: Onyango George / EA Hospitality Pulse"
 ---
 There was a ceremony in Unguja on the last Saturday of October, and the Minister for Labour, Employment, Youth and Empowerment, Ali Suleiman Ameir, read out a schedule of numbers. The private sector minimum wage would rise from 347,000 shillings a month to 450,000. Small businesses named in the regulations would move from 250,000 to 300,000. A skilled day labourer's floor would go from 30,000 shillings to 35,000, an unskilled one's from 25,000 to 30,000. A domestic worker living in the employer's house would move from 100,000 to 110,000, one living out from 120,000 to 130,000. A foreign worker's floor would rise from a thousand United States dollars a month to fifteen hundred. The rates take effect on 1 January 2027, and employers were given three months to adjust budgets, payroll systems and contracts.
 
