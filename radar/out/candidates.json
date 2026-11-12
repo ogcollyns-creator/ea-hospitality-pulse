@@ -1,18 +1,51 @@
 {
- "generated": "2026-11-12T15:17:25+03:00",
- "slot": "midday",
- "window_start": 1794456000,
- "observations_in_window": 322,
+ "generated": "2026-11-12T20:37:35+03:00",
+ "slot": "evening",
+ "window_start": 1794398400,
+ "observations_in_window": 1273,
  "deduped_against": 9,
  "candidates": [
   {
-   "score": 100.8,
+   "score": 101.4,
+   "components": {
+    "tier": 40,
+    "category": 32,
+    "lead": 3.6,
+    "relevance": 0,
+    "freshness": 19.8,
+    "corroborated": 10,
+    "page_change": -4
+   },
+   "keywords": [],
+   "shock_terms": [],
+   "dedupe_match": null,
+   "dedupe_similarity": 0.14,
+   "id": "f37cbaa14037",
+   "title": "[page changed] Federal Register \u2014 public inspection (HHS/CDC), pre-publication",
+   "url": "https://www.federalregister.gov/api/v1/public-inspection-documents/current.json",
+   "summary": "{\"count\":121,\"results\":[{\"agencies\":[{\"raw_name\":\"Housing and Urban Development Department\",\"name\":\"Housing and Urban Development Department\",\"id\":228,\"url\":\"https://www.federalregister.gov/agencies/housing-and-urban-development-department\",\"json_url\":\"https://www.federalregister.gov/api/v1/agencies/228\",\"parent_id\":null,\"slug\":\"housing-and-urban-development-department\"}],\"agency_letters\":[],\"agen",
+   "kind": "page-change",
+   "source": "Federal Register \u2014 public inspection (HHS/CDC), pre-publication",
+   "source_id": "us-fedreg-pubinspect-hhs",
+   "tier": 1,
+   "country": "REG",
+   "category": "advisory",
+   "segments": [
+    "city",
+    "bush"
+   ],
+   "first_seen": "2026-11-12T20:37+03:00",
+   "published": "2026-11-12",
+   "verdict": "OPEN THIS \u2014 tier-1 advisory page moved; content not auto-parsed, read it manually"
+  },
+  {
+   "score": 94.9,
    "components": {
     "tier": 40,
     "category": 32,
     "lead": 12.0,
     "relevance": 8,
-    "freshness": 18.8,
+    "freshness": 12.9,
     "undated": -6,
     "page_change": -4
    },
@@ -41,13 +74,13 @@
    "verdict": "OPEN THIS \u2014 tier-1 advisory page moved; content not auto-parsed, read it manually"
   },
   {
-   "score": 64.4,
+   "score": 58.5,
    "components": {
     "tier": 40,
     "category": 12,
     "lead": 3.6,
     "relevance": 0,
-    "freshness": 18.8,
+    "freshness": 12.9,
     "undated": -6,
     "page_change": -4
    },
@@ -75,13 +108,47 @@
    "verdict": "OPEN THIS \u2014 tier-1 airline page moved; content not auto-parsed, read it manually"
   },
   {
-   "score": 133.2,
+   "score": 45.6,
+   "components": {
+    "tier": 40,
+    "category": 12,
+    "lead": 3.6,
+    "relevance": 0,
+    "freshness": 0.0,
+    "undated": -6,
+    "page_change": -4
+   },
+   "keywords": [],
+   "shock_terms": [],
+   "dedupe_match": null,
+   "dedupe_similarity": 0.0,
+   "id": "0ded999db553",
+   "title": "[page changed] Airlink news",
+   "url": "https://www.flyairlink.com/",
+   "summary": "Request unsuccessful. Incapsula incident ID: 1022000151811565973-807074026282157038",
+   "kind": "page-change",
+   "source": "Airlink news",
+   "source_id": "air-airlink",
+   "tier": 1,
+   "country": "REG",
+   "category": "airline",
+   "segments": [
+    "city",
+    "bush",
+    "beach"
+   ],
+   "first_seen": "2026-11-11T20:09+03:00",
+   "published": null,
+   "verdict": "OPEN THIS \u2014 tier-1 airline page moved; content not auto-parsed, read it manually"
+  },
+  {
+   "score": 127.4,
    "components": {
     "tier": 20,
     "category": 14,
     "lead": 8.4,
     "relevance": 44,
-    "freshness": 18.8,
+    "freshness": 13.0,
     "corroborated": 10,
     "shock": 18
    },
@@ -118,13 +185,48 @@
    "verdict": "CONSIDER"
   },
   {
-   "score": 98.6,
+   "score": 116.2,
+   "components": {
+    "tier": 40,
+    "category": 18,
+    "lead": 8.4,
+    "relevance": 20,
+    "freshness": 19.8,
+    "corroborated": 10
+   },
+   "keywords": [
+    "vat",
+    "wildlife",
+    "hotel"
+   ],
+   "shock_terms": [],
+   "dedupe_match": null,
+   "dedupe_similarity": 0.17,
+   "id": "109c2b3f3a73",
+   "title": "KWS Hosts Stakeholder Validation Workshop for Black Rhino Recovery Plan",
+   "url": "https://kws.go.ke/kws-hosts-stakeholder-validation-workshop-for-black-rhino-recovery-plan",
+   "summary": "The Kenya Wildlife Service (KWS), with support from WWF-Kenya, today convened a stakeholder validation workshop for the 8th Edition of the Black Rhino Recovery and Action Plan covering the period 2027 to 2031, aimed at strengthening the country's black rhino conservation efforts. Held at the DoubleTree by Hilton Hotel in Nairobi, the workshop brought together [...]",
+   "kind": "item",
+   "source": "Kenya Wildlife Service",
+   "source_id": "ke-kws",
+   "tier": 1,
+   "country": "KE",
+   "category": "parks",
+   "segments": [
+    "bush"
+   ],
+   "first_seen": "2026-11-12T20:37+03:00",
+   "published": "2026-11-12",
+   "verdict": "STRONG \u2014 tier-1, upstream"
+  },
+  {
+   "score": 92.7,
    "components": {
     "tier": 40,
     "category": 17,
     "lead": 16.8,
     "relevance": 12,
-    "freshness": 18.8,
+    "freshness": 12.9,
     "undated": -6
    },
    "keywords": [
@@ -154,13 +256,52 @@
    "verdict": "STRONG \u2014 tier-1, upstream"
   },
   {
-   "score": 95.2,
+   "score": 90.2,
+   "components": {
+    "tier": 20,
+    "category": 4,
+    "lead": 2.4,
+    "relevance": 16,
+    "freshness": 19.8,
+    "corroborated": 10,
+    "shock": 18
+   },
+   "keywords": [
+    "permit",
+    "strike"
+   ],
+   "shock_terms": [
+    "strike"
+   ],
+   "dedupe_match": null,
+   "dedupe_similarity": 0.0,
+   "id": "a271091abf6f",
+   "title": "Court opens door for refugees to join Kenyan formal labour market",
+   "url": "https://nation.africa/kenya/news/court-opens-door-for-refugees-to-join-kenyan-formal-labour-market--5668082",
+   "summary": "Judge strikes down barriers to refugees' work permits.",
+   "kind": "item",
+   "source": "Nation Africa: Kenya business",
+   "source_id": "ke-nation-business",
+   "tier": 2,
+   "country": "KE",
+   "category": "press",
+   "segments": [
+    "city",
+    "bush",
+    "beach"
+   ],
+   "first_seen": "2026-11-12T20:37+03:00",
+   "published": "2026-11-12",
+   "verdict": "CONSIDER"
+  },
+  {
+   "score": 89.4,
    "components": {
     "tier": 40,
     "category": 24,
     "lead": 2.4,
     "relevance": 0,
-    "freshness": 18.8,
+    "freshness": 13.0,
     "corroborated": 10
    },
    "keywords": [],
@@ -183,16 +324,16 @@
    ],
    "first_seen": "2026-11-12T14:24+03:00",
    "published": "2026-11-12",
-   "verdict": "STRONG \u2014 tier-1, upstream"
+   "verdict": "CONSIDER"
   },
   {
-   "score": 94.0,
+   "score": 88.2,
    "components": {
     "tier": 40,
     "category": 24,
     "lead": 1.2,
     "relevance": 0,
-    "freshness": 18.8,
+    "freshness": 13.0,
     "corroborated": 10
    },
    "keywords": [],
@@ -215,16 +356,16 @@
    ],
    "first_seen": "2026-11-12T14:24+03:00",
    "published": "2026-11-11",
-   "verdict": "STRONG \u2014 tier-1, upstream"
+   "verdict": "CONSIDER"
   },
   {
-   "score": 94.0,
+   "score": 88.2,
    "components": {
     "tier": 40,
     "category": 24,
     "lead": 1.2,
     "relevance": 0,
-    "freshness": 18.8,
+    "freshness": 13.0,
     "corroborated": 10
    },
    "keywords": [],
@@ -248,16 +389,16 @@
    ],
    "first_seen": "2026-11-12T14:23+03:00",
    "published": "2026-11-11",
-   "verdict": "STRONG \u2014 tier-1, upstream"
+   "verdict": "CONSIDER"
   },
   {
-   "score": 92.6,
+   "score": 86.7,
    "components": {
     "tier": 40,
     "category": 15,
     "lead": 16.8,
     "relevance": 8,
-    "freshness": 18.8,
+    "freshness": 12.9,
     "undated": -6
    },
    "keywords": [
@@ -283,16 +424,16 @@
    ],
    "first_seen": "2026-11-12T14:23+03:00",
    "published": null,
-   "verdict": "STRONG \u2014 tier-1, upstream"
+   "verdict": "CONSIDER"
   },
   {
-   "score": 92.6,
+   "score": 86.7,
    "components": {
     "tier": 40,
     "category": 15,
     "lead": 16.8,
     "relevance": 8,
-    "freshness": 18.8,
+    "freshness": 12.9,
     "undated": -6
    },
    "keywords": [
@@ -318,16 +459,54 @@
    ],
    "first_seen": "2026-11-12T14:22+03:00",
    "published": null,
-   "verdict": "STRONG \u2014 tier-1, upstream"
+   "verdict": "CONSIDER"
   },
   {
-   "score": 90.6,
+   "score": 85.8,
+   "components": {
+    "tier": 40,
+    "category": 15,
+    "lead": 16.8,
+    "relevance": 20,
+    "freshness": 0.0,
+    "undated": -6
+   },
+   "keywords": [
+    "eta",
+    "hotel",
+    "beach",
+    "guest"
+   ],
+   "shock_terms": [],
+   "dedupe_match": null,
+   "dedupe_similarity": 0.0,
+   "id": "dca2b380c602",
+   "title": "DRAFT NATIONAL POLICY ON UNCLAIMED FINANCIAL ASSETS, 2026",
+   "url": "https://www.treasury.go.ke/sites/default/files/Latest%20updates/treasury--public%20notice--25x3.pdf",
+   "summary": "en-USDRAFT NATIONAL POLICY ON UNCLAIMED FINANCIAL en-USASSETS, 2026en-USTHE NATIONAL TREASURYen-USPUBLIC NOTICE en-USDateen-USVenueen-USTarget Countiesen-USTimeen-US1.en-US23en-USrden-US Novemen-US-en-USber 2026en-USMombasa Beach Hotelen-USMombasa, Kilifi, Kwale, and en-USTaita Taveta.en-US9:00 am 1:00 pmen-US2.en-US23en-USrden-US Novemen-US-en-USber 2026en-US Kisii Universityen-USKisii, Migori, B",
+   "kind": "doc",
+   "source": "National Treasury Kenya",
+   "source_id": "ke-treasury",
+   "tier": 1,
+   "country": "KE",
+   "category": "fiscal",
+   "segments": [
+    "city",
+    "bush",
+    "beach"
+   ],
+   "first_seen": "2026-11-11T20:10+03:00",
+   "published": null,
+   "verdict": "CONSIDER"
+  },
+  {
+   "score": 84.7,
    "components": {
     "tier": 40,
     "category": 17,
     "lead": 16.8,
     "relevance": 4,
-    "freshness": 18.8,
+    "freshness": 12.9,
     "undated": -6
    },
    "keywords": [
@@ -353,16 +532,89 @@
    ],
    "first_seen": "2026-11-12T14:22+03:00",
    "published": null,
-   "verdict": "STRONG \u2014 tier-1, upstream"
+   "verdict": "CONSIDER"
   },
   {
-   "score": 87.6,
+   "score": 83.8,
+   "components": {
+    "tier": 40,
+    "category": 9,
+    "lead": 16.8,
+    "relevance": 8,
+    "freshness": 0.0,
+    "corroborated": 10
+   },
+   "keywords": [
+    "eta"
+   ],
+   "shock_terms": [],
+   "dedupe_match": null,
+   "dedupe_similarity": 0.17,
+   "id": "f62b781c2a4b",
+   "title": "Hilton Named Top Hospitality Workplace in South East Asia for Second Consecutive Year",
+   "url": "https://stories.hilton.com/releases/hilton-named-top-hospitality-workplace-in-south-east-asia-for-second-consecutive-year",
+   "summary": "SINGAPORE \u2013 Hilton (Nasdaq: HLT), Asia\u2019s fastest-growing hospitality company, has retained its position as South East Asia\u2019s highest-ranked hospitality employer for the second consecutive year, placing No. 2 overall on Fortune\u2019s 100 Best Companies to Work For\u2122 Southeast Asia 2026 list. This recognition comes as growth across Asia Pacific intensifies competition for hospitality talent. In [\u2026] The p",
+   "kind": "item",
+   "source": "Hilton stories/newsroom",
+   "source_id": "dev-hilton",
+   "tier": 1,
+   "country": "GLOBAL",
+   "category": "hotel-group",
+   "segments": [
+    "city",
+    "bush",
+    "beach"
+   ],
+   "first_seen": "2026-11-11T20:09+03:00",
+   "published": "2026-11-11",
+   "verdict": "CONSIDER"
+  },
+  {
+   "score": 82.4,
+   "components": {
+    "tier": 20,
+    "category": 5,
+    "lead": 3.6,
+    "relevance": 24,
+    "freshness": 19.8,
+    "corroborated": 10
+   },
+   "keywords": [
+    "vat",
+    "eta",
+    "flight",
+    "booking"
+   ],
+   "shock_terms": [],
+   "dedupe_match": null,
+   "dedupe_similarity": 0.12,
+   "id": "b31d048a8a2f",
+   "title": "From $0 to $10 Billion in Months: Silicon Valley's AI Assistant Gold Rush Is On (and What It Means for Travel)",
+   "url": "https://www.hospitalitynet.org/opinion/4135431/from-0-to-10-billion-in-months-silicon-valleys-ai-assistant-gold-rush-is-on-and-what-it-means-for-travel",
+   "summary": "A wave of AI personal assistants from Meta, xAI, Anthropic, OpenAI and startups like Instinct are moving beyond chatbots to handle tasks like booking flights, managing reservations and coordinating schedules.",
+   "kind": "item",
+   "source": "Hospitality Net \u2014 Africa announcements",
+   "source_id": "dev-hospitalitynet-africa",
+   "tier": 2,
+   "country": "REG",
+   "category": "trade",
+   "segments": [
+    "city",
+    "bush",
+    "beach"
+   ],
+   "first_seen": "2026-11-12T20:37+03:00",
+   "published": "2026-11-12",
+   "verdict": "CONSIDER"
+  },
+  {
+   "score": 81.7,
    "components": {
     "tier": 40,
     "category": 10,
     "lead": 16.8,
     "relevance": 8,
-    "freshness": 18.8,
+    "freshness": 12.9,
     "undated": -6
    },
    "keywords": [
@@ -391,13 +643,13 @@
    "verdict": "CONSIDER"
   },
   {
-   "score": 87.2,
+   "score": 81.4,
    "components": {
     "tier": 20,
     "category": 14,
     "lead": 8.4,
     "relevance": 16,
-    "freshness": 18.8,
+    "freshness": 13.0,
     "corroborated": 10
    },
    "keywords": [
@@ -427,13 +679,13 @@
    "verdict": "CONSIDER"
   },
   {
-   "score": 87.2,
+   "score": 81.4,
    "components": {
     "tier": 20,
     "category": 14,
     "lead": 8.4,
     "relevance": 16,
-    "freshness": 18.8,
+    "freshness": 13.0,
     "corroborated": 10
    },
    "keywords": [
@@ -463,13 +715,13 @@
    "verdict": "CONSIDER"
   },
   {
-   "score": 87.2,
+   "score": 81.4,
    "components": {
     "tier": 40,
     "category": 16,
     "lead": 2.4,
     "relevance": 0,
-    "freshness": 18.8,
+    "freshness": 13.0,
     "corroborated": 10
    },
    "keywords": [],
@@ -496,13 +748,51 @@
    "verdict": "CONSIDER"
   },
   {
-   "score": 86.6,
+   "score": 81.2,
+   "components": {
+    "tier": 20,
+    "category": 5,
+    "lead": 2.4,
+    "relevance": 24,
+    "freshness": 19.8,
+    "corroborated": 10
+   },
+   "keywords": [
+    "vat",
+    "eta",
+    "flight",
+    "booking"
+   ],
+   "shock_terms": [],
+   "dedupe_match": null,
+   "dedupe_similarity": 0.12,
+   "id": "53f730223ab8",
+   "title": "From $0 to $10 Billion in Months: Silicon Valley's AI Assistant Gold Rush Is On (and What It Means for Travel)",
+   "url": "https://www.hospitalitynet.org/opinion/4135431/from-0-to-10-billion-in-months-silicon-valleys-ai-assistant-gold-rush-is-on-and-what-it-means-for-travel",
+   "summary": "A wave of AI personal assistants from Meta, xAI, Anthropic, OpenAI and startups like Instinct are moving beyond chatbots to handle tasks like booking flights, managing reservations and coordinating schedules.",
+   "kind": "item",
+   "source": "Hospitality Net: Africa openings",
+   "source_id": "dev-hospitalitynet-openings",
+   "tier": 2,
+   "country": "AFRICA",
+   "category": "trade",
+   "segments": [
+    "city",
+    "bush",
+    "beach"
+   ],
+   "first_seen": "2026-11-12T20:37+03:00",
+   "published": "2026-11-12",
+   "verdict": "CONSIDER"
+  },
+  {
+   "score": 80.7,
    "components": {
     "tier": 40,
     "category": 17,
     "lead": 16.8,
     "relevance": 0,
-    "freshness": 18.8,
+    "freshness": 12.9,
     "undated": -6
    },
    "keywords": [],
@@ -529,13 +819,13 @@
    "verdict": "CONSIDER"
   },
   {
-   "score": 86.6,
+   "score": 80.7,
    "components": {
     "tier": 40,
     "category": 17,
     "lead": 16.8,
     "relevance": 0,
-    "freshness": 18.8,
+    "freshness": 12.9,
     "undated": -6
    },
    "keywords": [],
@@ -562,13 +852,13 @@
    "verdict": "CONSIDER"
   },
   {
-   "score": 85.8,
+   "score": 79.9,
    "components": {
     "tier": 40,
     "category": 7,
     "lead": 6.0,
     "relevance": 4,
-    "freshness": 18.8,
+    "freshness": 12.9,
     "corroborated": 10
    },
    "keywords": [
@@ -595,13 +885,90 @@
    "verdict": "CONSIDER"
   },
   {
-   "score": 84.6,
+   "score": 79.8,
+   "components": {
+    "tier": 20,
+    "category": 4,
+    "lead": 0.0,
+    "relevance": 24,
+    "freshness": 19.8,
+    "undated": -6,
+    "shock": 18
+   },
+   "keywords": [
+    "outbreak",
+    "ebola"
+   ],
+   "shock_terms": [
+    "outbreak"
+   ],
+   "dedupe_match": null,
+   "dedupe_similarity": 0.12,
+   "id": "83caa4c399a5",
+   "title": "Congo\u2019s Ebola outbreak surpasses 11,000 cases, with more than 5,300 deaths Yesterday - 2 min read",
+   "url": "https://www.thecitizen.co.tz/tanzania/news/africa/congo-s-ebola-outbreak-surpasses-11-000-cases-with-more-than-5-300-deaths-5666292",
+   "summary": "",
+   "kind": "item",
+   "source": "The Citizen (Tanzania)",
+   "source_id": "np-citizen-tz",
+   "tier": 2,
+   "country": "TZ",
+   "category": "press",
+   "segments": [
+    "city",
+    "bush",
+    "beach"
+   ],
+   "first_seen": "2026-11-12T20:37+03:00",
+   "published": null,
+   "verdict": "CONSIDER"
+  },
+  {
+   "score": 79.8,
+   "components": {
+    "tier": 20,
+    "category": 4,
+    "lead": 0.0,
+    "relevance": 8,
+    "freshness": 19.8,
+    "corroborated": 10,
+    "shock": 18
+   },
+   "keywords": [
+    "strike"
+   ],
+   "shock_terms": [
+    "strike"
+   ],
+   "dedupe_match": null,
+   "dedupe_similarity": 0.0,
+   "id": "79485e7bc060",
+   "title": "In-form Vula brings scoring form to Cranes fold",
+   "url": "https://www.monitor.co.ug/uganda/sports/soccer/in-form-vula-brings-scoring-form-to-cranes-fold-5667788",
+   "summary": "Vula heads into the next Cranes engagement as the most in-form striker having found the back of...",
+   "kind": "item",
+   "source": "Daily Monitor (Uganda)",
+   "source_id": "np-monitor-ug",
+   "tier": 2,
+   "country": "UG",
+   "category": "press",
+   "segments": [
+    "city",
+    "bush",
+    "beach"
+   ],
+   "first_seen": "2026-11-12T20:37+03:00",
+   "published": "2026-11-12",
+   "verdict": "CONSIDER"
+  },
+  {
+   "score": 78.7,
    "components": {
     "tier": 40,
     "category": 15,
     "lead": 16.8,
     "relevance": 0,
-    "freshness": 18.8,
+    "freshness": 12.9,
     "undated": -6
    },
    "keywords": [],
@@ -628,13 +995,13 @@
    "verdict": "CONSIDER"
   },
   {
-   "score": 84.6,
+   "score": 78.7,
    "components": {
     "tier": 40,
     "category": 15,
     "lead": 16.8,
     "relevance": 0,
-    "freshness": 18.8,
+    "freshness": 12.9,
     "undated": -6
    },
    "keywords": [],
@@ -661,13 +1028,13 @@
    "verdict": "CONSIDER"
   },
   {
-   "score": 84.0,
+   "score": 78.2,
    "components": {
     "tier": 40,
     "category": 24,
     "lead": 1.2,
     "relevance": 0,
-    "freshness": 18.8
+    "freshness": 13.0
    },
    "keywords": [],
    "shock_terms": [],
@@ -692,13 +1059,13 @@
    "verdict": "CONSIDER"
   },
   {
-   "score": 84.0,
+   "score": 78.2,
    "components": {
     "tier": 40,
     "category": 24,
     "lead": 1.2,
     "relevance": 0,
-    "freshness": 18.8
+    "freshness": 13.0
    },
    "keywords": [],
    "shock_terms": [],
@@ -724,13 +1091,50 @@
    "verdict": "CONSIDER"
   },
   {
-   "score": 83.2,
+   "score": 77.8,
+   "components": {
+    "tier": 20,
+    "category": 4,
+    "lead": 0.0,
+    "relevance": 24,
+    "freshness": 19.8,
+    "corroborated": 10
+   },
+   "keywords": [
+    "eta",
+    "electricity",
+    "capacity"
+   ],
+   "shock_terms": [],
+   "dedupe_match": null,
+   "dedupe_similarity": 0.11,
+   "id": "9bccbc854fe8",
+   "title": "Tanzania envisions renewable energy to contribute 1,892MW to national power target by 2030",
+   "url": "https://dailynews.co.tz/tanzania-envisions-renewable-energy-to-contribute-1892mw-to-national-power-target-by-2030",
+   "summary": "DAR ES SALAAM: THE Tanzanian government plans to increase Tanzania\u2019s electricity generation capacity to 8,000 megawatts by 2030, with renewable energy sources expected to contribute 1,892MW, including solar, biomass and wind power. Permanent Secretary in the Ministry of Energy responsible for Oil and Gas, Dr James Mataragio, made the remarks today, November 12, 2026, in \u2026 The post Tanzania envisio",
+   "kind": "item",
+   "source": "Daily News (Tanzania)",
+   "source_id": "np-dailynews-tz",
+   "tier": 2,
+   "country": "TZ",
+   "category": "press",
+   "segments": [
+    "city",
+    "bush",
+    "beach"
+   ],
+   "first_seen": "2026-11-12T20:37+03:00",
+   "published": "2026-11-12",
+   "verdict": "CONSIDER"
+  },
+  {
+   "score": 77.4,
    "components": {
     "tier": 20,
     "category": 14,
     "lead": 8.4,
     "relevance": 12,
-    "freshness": 18.8,
+    "freshness": 13.0,
     "corroborated": 10
    },
    "keywords": [
@@ -760,13 +1164,13 @@
    "verdict": "CONSIDER"
   },
   {
-   "score": 83.2,
+   "score": 77.4,
    "components": {
     "tier": 20,
     "category": 14,
     "lead": 8.4,
     "relevance": 12,
-    "freshness": 18.8,
+    "freshness": 13.0,
     "corroborated": 10
    },
    "keywords": [
@@ -796,13 +1200,13 @@
    "verdict": "CONSIDER"
   },
   {
-   "score": 83.2,
+   "score": 77.4,
    "components": {
     "tier": 20,
     "category": 14,
     "lead": 8.4,
     "relevance": 12,
-    "freshness": 18.8,
+    "freshness": 13.0,
     "corroborated": 10
    },
    "keywords": [
@@ -832,13 +1236,13 @@
    "verdict": "CONSIDER"
   },
   {
-   "score": 83.2,
+   "score": 77.4,
    "components": {
     "tier": 20,
     "category": 14,
     "lead": 8.4,
     "relevance": 12,
-    "freshness": 18.8,
+    "freshness": 13.0,
     "corroborated": 10
    },
    "keywords": [
@@ -868,13 +1272,13 @@
    "verdict": "CONSIDER"
   },
   {
-   "score": 83.2,
+   "score": 77.4,
    "components": {
     "tier": 40,
     "category": 18,
     "lead": 8.4,
     "relevance": 8,
-    "freshness": 18.8,
+    "freshness": 13.0,
     "stale_trap": -10
    },
    "keywords": [
@@ -901,13 +1305,13 @@
    "verdict": "CHECK \u2014 source date older than the window"
   },
   {
-   "score": 80.4,
+   "score": 74.6,
    "components": {
     "tier": 40,
     "category": 32,
     "lead": 3.6,
     "relevance": 0,
-    "freshness": 18.8,
+    "freshness": 13.0,
     "stale_trap": -10,
     "page_change": -4
    },
@@ -934,132 +1338,27 @@
    "verdict": "CHECK \u2014 source date older than the window"
   },
   {
-   "score": 79.6,
-   "components": {
-    "tier": 40,
-    "category": 10,
-    "lead": 16.8,
-    "relevance": 0,
-    "freshness": 18.8,
-    "undated": -6
-   },
-   "keywords": [],
-   "shock_terms": [],
-   "dedupe_match": null,
-   "dedupe_similarity": 0.17,
-   "id": "2eb2c75e98ae",
-   "title": "Sustainable financing of new cities key to development - MP Alobo Thursday, 12 November 2026",
-   "url": "https://www.parliament.go.ug/news/4727/sustainable-financing-new-cities-key-development-mp-alobo",
-   "summary": "",
-   "kind": "item",
-   "source": "Parliament of Uganda",
-   "source_id": "ug-parliament",
-   "tier": 1,
-   "country": "UG",
-   "category": "legislature",
-   "segments": [
-    "city",
-    "bush",
-    "beach"
-   ],
-   "first_seen": "2026-11-12T14:22+03:00",
-   "published": null,
-   "verdict": "CONSIDER"
-  },
-  {
-   "score": 79.6,
-   "components": {
-    "tier": 40,
-    "category": 10,
-    "lead": 16.8,
-    "relevance": 0,
-    "freshness": 18.8,
-    "undated": -6
-   },
-   "keywords": [],
-   "shock_terms": [],
-   "dedupe_match": null,
-   "dedupe_similarity": 0.17,
-   "id": "1ae3d8f5ad16",
-   "title": "Supplementary Order Paper For Thursday, 12th November 2026",
-   "url": "https://www.parliament.go.ke/sites/default/files/2026-11/SUPPLEMENTARY%20ORDER%20PAPER%20FOR%20THURSDAY%2C%2012TH%20NOVEMBER%202026.pdf",
-   "summary": "!\"#$%&''(&#!)*%+$*,'(&!!!!!!!!!!!!!!!!-$.&#!/'00$1(!!2314!5678!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!29:6;8!!!<=)>?@AB!C-!D=3EF!!\"GA<\"==3\"G!)F<@AFH=3\"!I!2-A-\"G!/=//AC38!!!\"#$%&!'(%&)$&**#+,)-$!C<J=</!C-!\"G=!JFE!SUPPLEMENTARY !!\"G></JFEK!3CL=H?=<!59K!969:!F\"!94M6!)4H4!!(./#.$(0$,1*'%#**$)<FE=</!!!\"!!\"#$%$&'()'$*%+*,+-)'.+#\"!/*##0%$1)'$*%+,(*#+'.2+/.)$(+$\"!32&&)42&+%\"!52'$'$*%&+&\"!5)62(&+'\"!7*'$12&+*,+3*'",
-   "kind": "doc",
-   "source": "Parliament of Kenya \u2014 bills & papers",
-   "source_id": "ke-parliament",
-   "tier": 1,
-   "country": "KE",
-   "category": "legislature",
-   "segments": [
-    "city",
-    "bush",
-    "beach"
-   ],
-   "first_seen": "2026-11-12T14:22+03:00",
-   "published": null,
-   "verdict": "CONSIDER"
-  },
-  {
-   "score": 78.8,
-   "components": {
-    "tier": 20,
-    "category": 4,
-    "lead": 0.0,
-    "relevance": 24,
-    "freshness": 18.8,
-    "undated": -6,
-    "shock": 18
-   },
-   "keywords": [
-    "outbreak",
-    "ebola"
-   ],
-   "shock_terms": [
-    "outbreak"
-   ],
-   "dedupe_match": null,
-   "dedupe_similarity": 0.12,
-   "id": "c4d2e88790e5",
-   "title": "Africa Congo\u2019s Ebola outbreak surpasses 11,000 cases, with more than 5,300 deaths Yesterday - 2 min read",
-   "url": "https://www.thecitizen.co.tz/tanzania/news/africa/congo-s-ebola-outbreak-surpasses-11-000-cases-with-more-than-5-300-deaths-5666292",
-   "summary": "",
-   "kind": "item",
-   "source": "The Citizen (Tanzania)",
-   "source_id": "np-citizen-tz",
-   "tier": 2,
-   "country": "TZ",
-   "category": "press",
-   "segments": [
-    "city",
-    "bush",
-    "beach"
-   ],
-   "first_seen": "2026-11-12T14:24+03:00",
-   "published": null,
-   "verdict": "CONSIDER"
-  },
-  {
-   "score": 77.4,
+   "score": 74.4,
    "components": {
     "tier": 20,
     "category": 5,
     "lead": 3.6,
-    "relevance": 20,
-    "freshness": 18.8,
+    "relevance": 16,
+    "freshness": 19.8,
     "corroborated": 10
    },
    "keywords": [
-    "eta",
-    "adr",
-    "tourism"
+    "fee",
+    "hotel",
+    "guest"
    ],
    "shock_terms": [],
    "dedupe_match": null,
-   "dedupe_similarity": 0.0,
-   "id": "d4a887564807",
-   "title": "\u201cA Champion of Multilateralism\u201d: UN Tourism Welcomes Secretary-General Ant\u00f3nio Guterres to Madrid",
-   "url": "https://www.hospitalitynet.org/news/4135435/a-champion-of-multilateralism-un-tourism-welcomes-secretary-general-antonio-guterres-to-madrid",
-   "summary": "UN Secretary-General Guterres visited UN Tourism HQ in Madrid, the first such visit by a sitting UN chief since 2007, reaffirming tourism's role in sustainability and developing economies.",
+   "dedupe_similarity": 0.17,
+   "id": "11680c875414",
+   "title": "What Neuroscience Can Teach Hotels About Guest Wellness",
+   "url": "https://www.hospitalitynet.org/interview/4134968/what-neuroscience-can-teach-hotels-about-guest-wellness",
+   "summary": "Neuroscientist Dr. Karlie Intlekofer argues luxury hotels should prioritize sleep architecture and accessible movement over added amenities to help guests recover and leave feeling restored.",
    "kind": "item",
    "source": "Hospitality Net \u2014 Africa announcements",
    "source_id": "dev-hospitalitynet-africa",
@@ -1071,319 +1370,42 @@
     "bush",
     "beach"
    ],
-   "first_seen": "2026-11-12T14:24+03:00",
+   "first_seen": "2026-11-12T20:37+03:00",
    "published": "2026-11-12",
    "verdict": "CONSIDER"
   },
   {
-   "score": 76.6,
+   "score": 73.8,
    "components": {
     "tier": 40,
     "category": 7,
     "lead": 16.8,
     "relevance": 0,
-    "freshness": 18.8,
-    "undated": -6
+    "freshness": 0.0,
+    "corroborated": 10
    },
    "keywords": [],
    "shock_terms": [],
    "dedupe_match": null,
-   "dedupe_similarity": 0.0,
-   "id": "4f797bf5be67",
-   "title": "Civil Works for Upgrading to Bitumen standard...",
-   "url": "https://egpuganda.go.ug/index/420066788_egp",
-   "summary": "",
+   "dedupe_similarity": 0.33,
+   "id": "b285fffc28e2",
+   "title": "Emirates brings the A350 to JKIA",
+   "url": "https://www.kaa.go.ke/emirates-brings-the-a350-to-jkia",
+   "summary": "The Emirates Airbus A350 arrived at JKIA on 11 November 2026 on its first scheduled service to Nairobi, bringing Premium Economy to Kenya for the first time.",
    "kind": "item",
-   "source": "Uganda EGP portal",
-   "source_id": "ug-tenders",
+   "source": "KAA tenders",
+   "source_id": "ke-kaa-tenders",
    "tier": 1,
-   "country": "UG",
+   "country": "KE",
    "category": "tender",
    "segments": [
     "city",
     "bush",
     "beach"
    ],
-   "first_seen": "2026-11-12T14:22+03:00",
-   "published": null,
+   "first_seen": "2026-11-11T20:09+03:00",
+   "published": "2026-11-11",
    "verdict": "CONSIDER"
-  },
-  {
-   "score": 76.6,
-   "components": {
-    "tier": 40,
-    "category": 7,
-    "lead": 16.8,
-    "relevance": 0,
-    "freshness": 18.8,
-    "undated": -6
-   },
-   "keywords": [],
-   "shock_terms": [],
-   "dedupe_match": null,
-   "dedupe_similarity": 0.0,
-   "id": "e2efacc5595b",
-   "title": "Building, Construction, Architectural, Plumbi...",
-   "url": "https://egpuganda.go.ug/index/417680160_egp",
-   "summary": "",
-   "kind": "item",
-   "source": "Uganda EGP portal",
-   "source_id": "ug-tenders",
-   "tier": 1,
-   "country": "UG",
-   "category": "tender",
-   "segments": [
-    "city",
-    "bush",
-    "beach"
-   ],
-   "first_seen": "2026-11-12T14:22+03:00",
-   "published": null,
-   "verdict": "CONSIDER"
-  },
-  {
-   "score": 76.6,
-   "components": {
-    "tier": 40,
-    "category": 7,
-    "lead": 16.8,
-    "relevance": 0,
-    "freshness": 18.8,
-    "undated": -6
-   },
-   "keywords": [],
-   "shock_terms": [],
-   "dedupe_match": null,
-   "dedupe_similarity": 0.0,
-   "id": "067fd14845f1",
-   "title": "PROCUREMENT OF STATION WAGON VEHICLES...",
-   "url": "https://egpuganda.go.ug/index/424284920_egp",
-   "summary": "",
-   "kind": "item",
-   "source": "Uganda EGP portal",
-   "source_id": "ug-tenders",
-   "tier": 1,
-   "country": "UG",
-   "category": "tender",
-   "segments": [
-    "city",
-    "bush",
-    "beach"
-   ],
-   "first_seen": "2026-11-12T14:22+03:00",
-   "published": null,
-   "verdict": "CONSIDER"
-  },
-  {
-   "score": 76.2,
-   "components": {
-    "tier": 20,
-    "category": 5,
-    "lead": 2.4,
-    "relevance": 20,
-    "freshness": 18.8,
-    "corroborated": 10
-   },
-   "keywords": [
-    "eta",
-    "adr",
-    "tourism"
-   ],
-   "shock_terms": [],
-   "dedupe_match": null,
-   "dedupe_similarity": 0.0,
-   "id": "664dd05481e5",
-   "title": "\u201cA Champion of Multilateralism\u201d: UN Tourism Welcomes Secretary-General Ant\u00f3nio Guterres to Madrid",
-   "url": "https://www.hospitalitynet.org/news/4135435/a-champion-of-multilateralism-un-tourism-welcomes-secretary-general-antonio-guterres-to-madrid",
-   "summary": "UN Secretary-General Guterres visited UN Tourism HQ in Madrid, the first such visit by a sitting UN chief since 2007, reaffirming tourism's role in sustainability and developing economies.",
-   "kind": "item",
-   "source": "Hospitality Net: Africa openings",
-   "source_id": "dev-hospitalitynet-openings",
-   "tier": 2,
-   "country": "AFRICA",
-   "category": "trade",
-   "segments": [
-    "city",
-    "bush",
-    "beach"
-   ],
-   "first_seen": "2026-11-12T14:24+03:00",
-   "published": "2026-11-12",
-   "verdict": "CONSIDER"
-  },
-  {
-   "score": 75.2,
-   "components": {
-    "tier": 20,
-    "category": 4,
-    "lead": 2.4,
-    "relevance": 20,
-    "freshness": 18.8,
-    "corroborated": 10
-   },
-   "keywords": [
-    "terror",
-    "tax"
-   ],
-   "shock_terms": [],
-   "dedupe_match": null,
-   "dedupe_similarity": 0.12,
-   "id": "92dbdfe6939b",
-   "title": "Understanding \u2018beneficial ownership\u2019 in the Kiira Motors case",
-   "url": "https://www.independent.co.ug/understanding-beneficial-ownership-in-the-kiira-motors-case",
-   "summary": "Kampala, Uganda | COMMENT \u2013 URN | Beneficial ownership is a legal, financial, and regulatory concept that is important in preventing financial crime and promoting transparency between companies and the government. In the fight against financial crime, it helps trace and prevent money laundering, terrorist financing, tax evasion, and corruption. On the transparency front, it \u2026 The post Understandin",
-   "kind": "item",
-   "source": "The Independent (Uganda)",
-   "source_id": "ug-independent",
-   "tier": 2,
-   "country": "UG",
-   "category": "press",
-   "segments": [
-    "city",
-    "bush",
-    "beach"
-   ],
-   "first_seen": "2026-11-12T14:24+03:00",
-   "published": "2026-11-12",
-   "verdict": "CONSIDER"
-  },
-  {
-   "score": 75.2,
-   "components": {
-    "tier": 20,
-    "category": 4,
-    "lead": 2.4,
-    "relevance": 20,
-    "freshness": 18.8,
-    "corroborated": 10
-   },
-   "keywords": [
-    "ebola",
-    "visa"
-   ],
-   "shock_terms": [],
-   "dedupe_match": null,
-   "dedupe_similarity": 0.4,
-   "id": "97307b9f60ef",
-   "title": "UAE lifts visa restrictions on Ugandans, puts 21 day window",
-   "url": "https://www.independent.co.ug/uae-lifts-visa-restrictions-on-ugandans",
-   "summary": "Kampala, Uganda | URN | The United Arab Emirates (UAE) has lifted its suspension on issuing new visas to Ugandan nationals, easing travel restrictions imposed in June 2026 following concerns over the spread of the Ebola virus in the region. The decision, announced on Wednesday, November 11, allows Ugandans to apply for visas and \u2026 The post UAE lifts visa restrictions on Ugandans, puts 21 day windo",
-   "kind": "item",
-   "source": "The Independent (Uganda)",
-   "source_id": "ug-independent",
-   "tier": 2,
-   "country": "UG",
-   "category": "press",
-   "segments": [
-    "city",
-    "bush",
-    "beach"
-   ],
-   "first_seen": "2026-11-12T14:24+03:00",
-   "published": "2026-11-12",
-   "verdict": "CONSIDER"
-  },
-  {
-   "score": 75.2,
-   "components": {
-    "tier": 20,
-    "category": 14,
-    "lead": 8.4,
-    "relevance": 4,
-    "freshness": 18.8,
-    "corroborated": 10
-   },
-   "keywords": [
-    "airline"
-   ],
-   "shock_terms": [],
-   "dedupe_match": null,
-   "dedupe_similarity": 0.22,
-   "id": "0bbcb6905ce8",
-   "title": "KLM NW26 A350 Operations \u2013 11NOV26",
-   "url": "https://www.aeroroutes.com/eng/261112-klnw26359",
-   "summary": "Published at 0200PCT / 0900GMT 12NOV26 KLM has revised planned Airbus A350-900 operations as the airline delays planned service entry for Dar es Salaam, Kilimanjaro, Montreal and Zanzibar (previously scheduled from mid-December 2026). Revised A350 operation for Northern winter 2026/27 season as of 11NOV26 as follows. Amsterdam \u2013 Kilimanjaro \u2013 Dar es Salaam \u2013 Amsterdam eff 06JAN27 1 weekly (2 weekl",
-   "kind": "item",
-   "source": "AeroRoutes schedule filings",
-   "source_id": "aeroroutes",
-   "tier": 2,
-   "country": "GLOBAL",
-   "category": "aviation-tracker",
-   "segments": [
-    "city",
-    "bush",
-    "beach"
-   ],
-   "first_seen": "2026-11-12T14:24+03:00",
-   "published": "2026-11-12",
-   "verdict": "CONSIDER"
-  },
-  {
-   "score": 75.2,
-   "components": {
-    "tier": 20,
-    "category": 14,
-    "lead": 8.4,
-    "relevance": 4,
-    "freshness": 18.8,
-    "corroborated": 10
-   },
-   "keywords": [
-    "flight"
-   ],
-   "shock_terms": [],
-   "dedupe_match": null,
-   "dedupe_similarity": 0.11,
-   "id": "5d13126024c7",
-   "title": "Air New Zealand 3Q27 Tahiti Service Increases",
-   "url": "https://www.aeroroutes.com/eng/261111-nz3q27ppt",
-   "summary": "Published at 2200PCT 11NOV26 / 0500GMT 12NOV26 Air New Zealand in the third quarter of 2027 schedules service increase to French Polynesia, as the carrier adds 5th weekly Auckland \u2013 Papeete (Tahiti) flight for the peak season. Additional service will be offered from 24JUL27 to 15AUG27, with 787-9. NZ904 AKL1100 \u2013 1750-1PPT 789 7 NZ902 AKL1930 \u2013 0220PPT 789 x247 NZ903 PPT0350 \u2013 0750+1AKL 789 x247 N",
-   "kind": "item",
-   "source": "AeroRoutes schedule filings",
-   "source_id": "aeroroutes",
-   "tier": 2,
-   "country": "GLOBAL",
-   "category": "aviation-tracker",
-   "segments": [
-    "city",
-    "bush",
-    "beach"
-   ],
-   "first_seen": "2026-11-12T14:24+03:00",
-   "published": "2026-11-12",
-   "verdict": "CONSIDER"
-  },
-  {
-   "score": 74.0,
-   "components": {
-    "tier": 40,
-    "category": 24,
-    "lead": 1.2,
-    "relevance": 0,
-    "freshness": 18.8,
-    "stale_trap": -10
-   },
-   "keywords": [],
-   "shock_terms": [],
-   "dedupe_match": null,
-   "dedupe_similarity": 0.2,
-   "id": "5ea8138ef04f",
-   "title": "Healthy Communities Start with Proper Nutrition: Ministry of Health and KCCA Bring Vital Services to Mbuya Residents.",
-   "url": "http://localhost:8080/Healthy-Communities-Start-with-Proper-Nutrition:-Ministry-of-Health-and-KCCA-Bring-Vital-Services-to-Mbuya-Residents.",
-   "summary": "",
-   "kind": "item",
-   "source": "Uganda Ministry of Health \u2014 news",
-   "source_id": "ug-moh-news",
-   "tier": 1,
-   "country": "UG",
-   "category": "health",
-   "segments": [
-    "city",
-    "bush"
-   ],
-   "first_seen": "2026-11-12T14:24+03:00",
-   "published": "2026-11-09",
-   "verdict": "CHECK \u2014 source date older than the window"
   }
  ]
 }
