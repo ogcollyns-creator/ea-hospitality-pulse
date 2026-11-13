@@ -1,18 +1,51 @@
 {
- "generated": "2026-11-13T00:52:13+03:00",
+ "generated": "2026-11-13T05:50:00+03:00",
  "slot": "morning",
  "window_start": 1794495600,
- "observations_in_window": 451,
+ "observations_in_window": 636,
  "deduped_against": 9,
  "candidates": [
   {
-   "score": 100.8,
+   "score": 101.0,
    "components": {
     "tier": 40,
     "category": 32,
     "lead": 3.6,
     "relevance": 0,
-    "freshness": 19.2,
+    "freshness": 19.4,
+    "corroborated": 10,
+    "page_change": -4
+   },
+   "keywords": [],
+   "shock_terms": [],
+   "dedupe_match": null,
+   "dedupe_similarity": 0.14,
+   "id": "7084f8a0600d",
+   "title": "[page changed] Federal Register \u2014 public inspection (HHS/CDC), pre-publication",
+   "url": "https://www.federalregister.gov/api/v1/public-inspection-documents/current.json",
+   "summary": "{\"count\":125,\"results\":[{\"agencies\":[{\"raw_name\":\"Housing and Urban Development Department\",\"name\":\"Housing and Urban Development Department\",\"id\":228,\"url\":\"https://www.federalregister.gov/agencies/housing-and-urban-development-department\",\"json_url\":\"https://www.federalregister.gov/api/v1/agencies/228\",\"parent_id\":null,\"slug\":\"housing-and-urban-development-department\"}],\"agency_letters\":[],\"agen",
+   "kind": "page-change",
+   "source": "Federal Register \u2014 public inspection (HHS/CDC), pre-publication",
+   "source_id": "us-fedreg-pubinspect-hhs",
+   "tier": 1,
+   "country": "REG",
+   "category": "advisory",
+   "segments": [
+    "city",
+    "bush"
+   ],
+   "first_seen": "2026-11-13T05:28+03:00",
+   "published": "2026-11-12",
+   "verdict": "OPEN THIS \u2014 tier-1 advisory page moved; content not auto-parsed, read it manually"
+  },
+  {
+   "score": 95.4,
+   "components": {
+    "tier": 40,
+    "category": 32,
+    "lead": 3.6,
+    "relevance": 0,
+    "freshness": 13.8,
     "corroborated": 10,
     "page_change": -4
    },
@@ -39,13 +72,13 @@
    "verdict": "OPEN THIS \u2014 tier-1 advisory page moved; content not auto-parsed, read it manually"
   },
   {
-   "score": 96.7,
+   "score": 91.3,
    "components": {
     "tier": 40,
     "category": 32,
     "lead": 3.6,
     "relevance": 0,
-    "freshness": 15.1,
+    "freshness": 9.7,
     "corroborated": 10,
     "page_change": -4
    },
@@ -72,13 +105,81 @@
    "verdict": "OPEN THIS \u2014 tier-1 advisory page moved; content not auto-parsed, read it manually"
   },
   {
-   "score": 111.5,
+   "score": 81.0,
+   "components": {
+    "tier": 40,
+    "category": 12,
+    "lead": 3.6,
+    "relevance": 0,
+    "freshness": 19.4,
+    "corroborated": 10,
+    "page_change": -4
+   },
+   "keywords": [],
+   "shock_terms": [],
+   "dedupe_match": null,
+   "dedupe_similarity": 0.0,
+   "id": "19aa60b2ca51",
+   "title": "[page changed] Bank of Tanzania",
+   "url": "https://www.bot.go.tz/",
+   "summary": "Service unavailable \u2014 Bank of Tanzania Bank of Tanzania \u00b7 Service notice We could not complete your request. Something unexpected went wrong on our end. Our team has been notified and is looking into it. Please try again in a few moments. Return to home Go back Reference 20261113022703-67D103 Request / Time (UTC) 2026-11-13 02:27:03 If the problem persists, please quote the Reference above when co",
+   "kind": "page-change",
+   "source": "Bank of Tanzania",
+   "source_id": "tz-bot",
+   "tier": 1,
+   "country": "TZ",
+   "category": "central-bank",
+   "segments": [
+    "city",
+    "bush",
+    "beach"
+   ],
+   "first_seen": "2026-11-13T05:28+03:00",
+   "published": "2026-11-13",
+   "verdict": "OPEN THIS \u2014 tier-1 central-bank page moved; content not auto-parsed, read it manually"
+  },
+  {
+   "score": 65.0,
+   "components": {
+    "tier": 40,
+    "category": 12,
+    "lead": 3.6,
+    "relevance": 0,
+    "freshness": 19.4,
+    "undated": -6,
+    "page_change": -4
+   },
+   "keywords": [],
+   "shock_terms": [],
+   "dedupe_match": null,
+   "dedupe_similarity": 0.0,
+   "id": "760f48a93225",
+   "title": "[page changed] Airlink news",
+   "url": "https://www.flyairlink.com/",
+   "summary": "Request unsuccessful. Incapsula incident ID: 361000440656464560-419113143674407722",
+   "kind": "page-change",
+   "source": "Airlink news",
+   "source_id": "air-airlink",
+   "tier": 1,
+   "country": "REG",
+   "category": "airline",
+   "segments": [
+    "city",
+    "bush",
+    "beach"
+   ],
+   "first_seen": "2026-11-13T05:27+03:00",
+   "published": null,
+   "verdict": "OPEN THIS \u2014 tier-1 airline page moved; content not auto-parsed, read it manually"
+  },
+  {
+   "score": 106.1,
    "components": {
     "tier": 40,
     "category": 18,
     "lead": 8.4,
     "relevance": 20,
-    "freshness": 15.1,
+    "freshness": 9.7,
     "corroborated": 10
    },
    "keywords": [
@@ -107,13 +208,412 @@
    "verdict": "STRONG \u2014 tier-1, upstream"
   },
   {
-   "score": 85.5,
+   "score": 95.8,
+   "components": {
+    "tier": 40,
+    "category": 24,
+    "lead": 2.4,
+    "relevance": 0,
+    "freshness": 19.4,
+    "corroborated": 10
+   },
+   "keywords": [],
+   "shock_terms": [],
+   "dedupe_match": null,
+   "dedupe_similarity": 0.0,
+   "id": "8e4098729066",
+   "title": "SitRep N\u00b0181/MVE-BDBV/11/11/2026",
+   "url": "https://insp.cd/sitrep-n181-mve-bdbv-11-11-2026",
+   "summary": "",
+   "kind": "item",
+   "source": "INSP RDC \u2014 Ebola daily situation reports (SitRep)",
+   "source_id": "cd-insp-sitrep",
+   "tier": 1,
+   "country": "GLOBAL",
+   "category": "health",
+   "segments": [
+    "City",
+    "Bush"
+   ],
+   "first_seen": "2026-11-13T05:28+03:00",
+   "published": "2026-11-13",
+   "verdict": "STRONG \u2014 tier-1, upstream"
+  },
+  {
+   "score": 95.2,
+   "components": {
+    "tier": 40,
+    "category": 9,
+    "lead": 16.8,
+    "relevance": 0,
+    "freshness": 19.4,
+    "corroborated": 10
+   },
+   "keywords": [],
+   "shock_terms": [],
+   "dedupe_match": null,
+   "dedupe_similarity": 0.17,
+   "id": "57faf90c0b8b",
+   "title": "Hilton Named No. 1 on World\u2019s Best Workplaces List for Second Consecutive Year, Remains Only Hospitality Company Ever to Top the Prestigious List",
+   "url": "https://stories.hilton.com/releases/hilton-named-no-1-on-worlds-best-workplaces-list-for-second-consecutive-year",
+   "summary": "MCLEAN, Va. \u2013 As it is named the No. 1 World\u2019s Best Workplace by Fortune and Great Place To Work for the third time and second consecutive year, Hilton (Nasdaq: HLT) is sharing new research that shows how frontline hospitality roles like ones on front desk or culinary teams offer a valuable start to a successful, lifelong [\u2026] The post Hilton Named No. 1 on World\u2019s Best Workplaces List for Second C",
+   "kind": "item",
+   "source": "Hilton stories/newsroom",
+   "source_id": "dev-hilton",
+   "tier": 1,
+   "country": "GLOBAL",
+   "category": "hotel-group",
+   "segments": [
+    "city",
+    "bush",
+    "beach"
+   ],
+   "first_seen": "2026-11-13T05:27+03:00",
+   "published": "2026-11-12",
+   "verdict": "STRONG \u2014 tier-1, upstream"
+  },
+  {
+   "score": 91.8,
+   "components": {
+    "tier": 20,
+    "category": 14,
+    "lead": 8.4,
+    "relevance": 20,
+    "freshness": 19.4,
+    "corroborated": 10
+   },
+   "keywords": [
+    "route",
+    "seat",
+    "airline"
+   ],
+   "shock_terms": [],
+   "dedupe_match": null,
+   "dedupe_similarity": 0.11,
+   "id": "62d1b7aab3ec",
+   "title": "Alaska Expands Seattle Domestic Network in NS27",
+   "url": "https://www.aeroroutes.com/eng/261112-asns27sea",
+   "summary": "Published at 1900PCT 12NOV26 / 0200GMT 13NOV26 Alaska Airlines today (12NOV26) announced domestic network additions at Seattle , with the launch of 4 routes in summer 2027. Seattle \u2013 Charlotte eff 10JUN27 1 daily 737-900ER AS704 SEA0830 \u2013 1651CLT 73J D AS704 CLT1754 \u2013 2047SEA 73J D Seattle \u2013 Des Moines eff 24JUN27 1 daily Embraer E175 (Horizon) AS2024 SEA0900 \u2013 1442DSM E75 D AS2024 DSM1527 \u2013 1736S",
+   "kind": "item",
+   "source": "AeroRoutes schedule filings",
+   "source_id": "aeroroutes",
+   "tier": 2,
+   "country": "GLOBAL",
+   "category": "aviation-tracker",
+   "segments": [
+    "city",
+    "bush",
+    "beach"
+   ],
+   "first_seen": "2026-11-13T05:28+03:00",
+   "published": "2026-11-13",
+   "verdict": "CONSIDER"
+  },
+  {
+   "score": 88.2,
+   "components": {
+    "tier": 40,
+    "category": 10,
+    "lead": 16.8,
+    "relevance": 8,
+    "freshness": 19.4,
+    "undated": -6
+   },
+   "keywords": [
+    "tax"
+   ],
+   "shock_terms": [],
+   "dedupe_match": null,
+   "dedupe_similarity": 0.17,
+   "id": "08e1fd0e9440",
+   "title": "UPPC, Ankole Western University granted Shs14.97 billion tax relief Thursday, 12 November 2026",
+   "url": "https://www.parliament.go.ug/news/4731/uppc-ankole-western-university-granted-shs1497-billion-tax-relief",
+   "summary": "",
+   "kind": "item",
+   "source": "Parliament of Uganda",
+   "source_id": "ug-parliament",
+   "tier": 1,
+   "country": "UG",
+   "category": "legislature",
+   "segments": [
+    "city",
+    "bush",
+    "beach"
+   ],
+   "first_seen": "2026-11-13T05:27+03:00",
+   "published": null,
+   "verdict": "CONSIDER"
+  },
+  {
+   "score": 87.2,
+   "components": {
+    "tier": 40,
+    "category": 17,
+    "lead": 16.8,
+    "relevance": 0,
+    "freshness": 19.4,
+    "undated": -6
+   },
+   "keywords": [],
+   "shock_terms": [],
+   "dedupe_match": null,
+   "dedupe_similarity": 0.0,
+   "id": "7849a692c522",
+   "title": "12 Nov 26 MASHINDANO YA SHIMMUTA 2026 YAZINDULIWA RASMI MOROGORO, TIRA... Waziri Mkuu wa Jamhuri ya Muungano wa Tanzania, Mhe. Dkt. Mwigulu Nchemba, amezindua rasmi Mashindan... Read More",
+   "url": "https://www.tira.go.tz/news/mashindano-ya-shimmuta-2026-yazinduliwa-rasmi-morogoro-tira-yashiriki",
+   "summary": "",
+   "kind": "item",
+   "source": "Tanzania Insurance Regulatory Authority (TIRA)",
+   "source_id": "tz-tira",
+   "tier": 1,
+   "country": "TZ",
+   "category": "regulator",
+   "segments": [
+    "beach",
+    "bush",
+    "city"
+   ],
+   "first_seen": "2026-11-13T05:27+03:00",
+   "published": null,
+   "verdict": "CONSIDER"
+  },
+  {
+   "score": 85.2,
+   "components": {
+    "tier": 40,
+    "category": 15,
+    "lead": 16.8,
+    "relevance": 0,
+    "freshness": 19.4,
+    "undated": -6
+   },
+   "keywords": [],
+   "shock_terms": [],
+   "dedupe_match": null,
+   "dedupe_similarity": 0.0,
+   "id": "a98022e9d67b",
+   "title": "INVITATION FOR APPLICATIONS FOR CUSTOMS DUTY REMISSIONS FOR THE THIRD QUARTER OF THE FINANCIAL YEAR 2026/2027",
+   "url": "https://www.tra.go.tz/images/uploads/public_notice/english/PUBLIC_NOTICE_CUSTOMS_REMISSION_THIRD_QUARTER_2026.pdf",
+   "summary": "\u00b6\u00ff\u0000\u009e\u0012\u00fe\u009f\u00e3@\u00f1E\u00afx&\u00fd?\u00c6\u0080 \u00d2g\u009d\u00fcGs\u001b\u00cc\u00ec\u0080\u00bf\u00caX\u0091\u00c1\u00f4\u00ae\u0092\u00b9o\u000f\u00c8'\u00d7\u00eef\u0000\u0080\u00ea\u00ee\u0001\u00ed\u0096 \u00e3]M\u0000\u0015 \u00dc\u00ff\u0000f\u00b4\u0096}\u00bb\u00bc\u00b5-\u008c\u00e355#*\u00ba\u0095`\u0019H\u00c1\u0004d\u001a\u0000\u00e6\u00ff\u0000\u00e1*l\u007f\u00c7\u0098\u00cf\u00fdt\u00ff\u0000\u00ebR\u00ff\u0000\u00c2T\u007f\u00e7\u00cc\u007f\u00df\u00df\u00fe\u00b5n\u00a5\u0095\u00a4g\u00ac\u00a1\u00e2 8\u00ff\u0000\u00cbV \u00f0\u0003G\u00fc$:w\u00fc\u00f5o\u00fb\u00e0\u00d0\u0006\u00adT\u00d5f\u0092 6yam\u00ae\u00ab\u0090q\u00d3\u009a\u00ad\u00ff\u0000 \u0006\u009d\u00ff\u0000=[\u00fe\u00f85[R\u00d6\u00ac.4\u00e9\u00e2\u008eR\u00ce\u00eb\u00806\u0011@\u0016|=u=\u00dd\u0083Ip\u00fb\u00d8HT c\u008c\u000f\u00f1\u00adJ\u00c9\u00f0\u00d2\u00e3GC\u00ea\u00cc\u007fZ\u00d6 \u0002\u008a+/\u00c4\u0017\u00afg\u00a7\u00fe\u00e8\u00e2I\u000e\u00d0GoS@\u000e\u00bf\u00d6\u00ed,\u009c\u00c6X\u00cb \u00ea\u00a9\u00db\u00eak \u0002\u00a1\u00bb\u00ba\u008e\u00ce\u00d9\u00a7\u0098\u00e1W\u00d3\u00a9\u00f6\u00a9\u00ab\u009c\u00f1t\u00ac\u0012\u00da!\u00f7If?Q\u008c\u007f3@\u0017\u00b4m]\u00b5]\u00c5O#\u00f05\u00a5@\u0005s:\u0018\u00cf\u0088\u00af \u000f\u0093\u00e7\u00e9\u00fe\u00f0\u00c5M\u00adkr\u00c1;\u00d9\u00da\u00a6\u00d7\u0018\u0005\u00cf'\u0091\u00d8~5c\u00c3\u00basY\u00db\u00b4\u00d3\u0002%\u009b \u0092E`\u00bb\u00be`:~~\u00f4\\h\u00b6\u0013\u00c6T@\u00b1\u00b68d\u00e0\u008a\u00cf\u00f0\u00c9\u008e\u00bb\u0007c\u0006\u00ff\u0000W\u008e\u0087\u00eb] \u0000\u0014QE\u0000\u0014Q\\\u00ef\u00885 \u00da\u00e5t\u00fb",
+   "kind": "doc",
+   "source": "Tanzania Revenue Authority",
+   "source_id": "tz-tra",
+   "tier": 1,
+   "country": "TZ",
+   "category": "fiscal",
+   "segments": [
+    "city",
+    "bush",
+    "beach"
+   ],
+   "first_seen": "2026-11-13T05:27+03:00",
+   "published": null,
+   "verdict": "CONSIDER"
+  },
+  {
+   "score": 85.0,
+   "components": {
+    "tier": 40,
+    "category": 12,
+    "lead": 3.6,
+    "relevance": 0,
+    "freshness": 19.4,
+    "corroborated": 10
+   },
+   "keywords": [],
+   "shock_terms": [],
+   "dedupe_match": null,
+   "dedupe_similarity": 0.0,
+   "id": "c62238bcd68b",
+   "title": "Touchdown in M\u00fcnchen: Lufthansa bringt New England Patriots zum NFL Munich Game nach Deutschland",
+   "url": "https://newsroom.lufthansagroup.com/touchdown-in-muenchen-lufthansa-bringt-new-england-patriots-zum-nfl-munich-game-nach-deutschland",
+   "summary": "Um 09:38 Uhr Ortszeit ist am heutigen Donnerstag Lufthansa Sonderflug LH2573 aus Boston am Flughafen M\u00fcnchen gelandet. An Bord: die Football-Mannschaft New England Patriots, die zum \u201eNFL Munich Game\u201c nach Deutschland reist. Direkt nach der Landung wurde das Team auf dem Vorfeld von begeisterten Fans empfangen. Der Flug der Mannschaft markiert den Auftakt der neuen Partnerschaft zwischen Lufthansa ",
+   "kind": "item",
+   "source": "Lufthansa Group newsroom",
+   "source_id": "air-lh",
+   "tier": 1,
+   "country": "GLOBAL",
+   "category": "airline",
+   "segments": [
+    "beach"
+   ],
+   "first_seen": "2026-11-13T05:27+03:00",
+   "published": "2026-11-12",
+   "verdict": "CONSIDER"
+  },
+  {
+   "score": 80.2,
+   "components": {
+    "tier": 40,
+    "category": 10,
+    "lead": 16.8,
+    "relevance": 0,
+    "freshness": 19.4,
+    "undated": -6
+   },
+   "keywords": [],
+   "shock_terms": [],
+   "dedupe_match": null,
+   "dedupe_similarity": 0.0,
+   "id": "30c36da8373e",
+   "title": "\ud835\udc06\ud835\udc0e\ud835\udc15\ud835\udc04\ud835\udc11\ud835\udc0d\ud835\udc0e\ud835\udc11 \ud835\udc0d\ud835\udc03\ud835\udc04\ud835\udc13\ud835\udc08 \ud835\udc00\ud835\udc0d\ud835\udc03 \ud835\udc12\ud835\udc0f\ud835\udc04\ud835\udc00\ud835\udc0a\ud835\udc04\ud835\udc11 \ud835\udc0a\ud835\udc08\ud835\udc14\ud835\udc12\ud835\udc18\ud835\udc00 \ud835\udc01\ud835\udc14\ud835\udc11\ud835\udc11\ud835\udc18 \ud835\udc13\ud835\udc07\ud835\udc04 \ud835\udc07\ud835\udc00\ud835\udc13\ud835\udc02\ud835\udc07\ud835\udc04\ud835\udc13 \ud835\udc05\ud835\udc0e\ud835\udc11 \ud835\udc13\ud835\udc07\ud835\udc04 \ud835\udc06\ud835\udc11\ud835\udc04\ud835\udc00\ud835\udc13\ud835\udc04\ud835\udc11 \ud835\udc06\ud835\udc0e\ud835\udc0e\ud835\udc03 \ud835\udc0e\ud835\udc05 \ud835\udc0c\ud835\udc00\ud835\udc02\ud835\udc07\ud835\udc00\ud835\udc0a\ud835\udc0e\ud835\udc12 \ud835\udc11\ud835\udc04\ud835\udc12\ud835\udc08\ud835\udc03\ud835\udc04\ud835\udc0d\ud835\udc13\ud835\udc12 \u200b",
+   "url": "https://www.parliament.go.ke/index.php/node/26657",
+   "summary": "",
+   "kind": "item",
+   "source": "Parliament of Kenya \u2014 bills & papers",
+   "source_id": "ke-parliament",
+   "tier": 1,
+   "country": "KE",
+   "category": "legislature",
+   "segments": [
+    "city",
+    "bush",
+    "beach"
+   ],
+   "first_seen": "2026-11-13T05:27+03:00",
+   "published": null,
+   "verdict": "CONSIDER"
+  },
+  {
+   "score": 80.2,
+   "components": {
+    "tier": 40,
+    "category": 10,
+    "lead": 16.8,
+    "relevance": 0,
+    "freshness": 19.4,
+    "undated": -6
+   },
+   "keywords": [],
+   "shock_terms": [],
+   "dedupe_match": null,
+   "dedupe_similarity": 0.0,
+   "id": "bd68ca23ccfe",
+   "title": "\ud835\udc06\ud835\udc0e\ud835\udc15\ud835\udc04\ud835\udc11\ud835\udc0d\ud835\udc0e\ud835\udc11 \ud835\udc0d\ud835\udc03\ud835\udc04\ud835\udc13\ud835\udc08 \ud835\udc00\ud835\udc0d\ud835\udc03 \ud835\udc12\ud835\udc0f\ud835\udc04\ud835\udc00\ud835\udc0a\ud835\udc04\ud835\udc11 \ud835\udc0a\ud835\udc08\ud835\udc14\ud835\udc12\ud835\udc18\ud835\udc00 \ud835\udc01\ud835\udc14\ud835\udc11\ud835\udc11\ud835\udc18 \ud835\udc13\ud835\udc07\ud835\udc04 \ud835\udc07\ud835\udc00\ud835\udc13\ud835\udc02\ud835\udc07\ud835\udc04\ud835\udc13 \ud835\udc05\ud835\udc0e\ud835\udc11 \ud835\udc13\ud835\udc07\ud835\udc04 \ud835\udc06\ud835\udc11\ud835\udc04\ud835\udc00\ud835\udc13\ud835\udc04\ud835\udc11 \ud835\udc06\ud835\udc0e\ud835\udc0e\ud835\udc03 \ud835\udc0e\ud835\udc05 \ud835\udc0c\ud835\udc00\ud835\udc02\ud835\udc07\ud835\udc00\ud835\udc0a\ud835\udc0e\ud835\udc12 \ud835\udc11\ud835\udc04\ud835\udc12\ud835\udc08\ud835\udc03\ud835\udc04\ud835\udc0d\ud835\udc13\ud835\udc12 \u200b",
+   "url": "https://www.parliament.go.ke/node/26657",
+   "summary": "",
+   "kind": "item",
+   "source": "Parliament of Kenya \u2014 bills & papers",
+   "source_id": "ke-parliament",
+   "tier": 1,
+   "country": "KE",
+   "category": "legislature",
+   "segments": [
+    "city",
+    "bush",
+    "beach"
+   ],
+   "first_seen": "2026-11-13T05:27+03:00",
+   "published": null,
+   "verdict": "CONSIDER"
+  },
+  {
+   "score": 80.2,
+   "components": {
+    "tier": 40,
+    "category": 10,
+    "lead": 16.8,
+    "relevance": 0,
+    "freshness": 19.4,
+    "undated": -6
+   },
+   "keywords": [],
+   "shock_terms": [],
+   "dedupe_match": null,
+   "dedupe_similarity": 0.17,
+   "id": "47fbea4e5e17",
+   "title": "Gov't intervenes in illegal sale of Lugazi Catholic Church land Thursday, 12 November 2026",
+   "url": "https://www.parliament.go.ug/news/4732/govt-intervenes-illegal-sale-lugazi-catholic-church-land",
+   "summary": "",
+   "kind": "item",
+   "source": "Parliament of Uganda",
+   "source_id": "ug-parliament",
+   "tier": 1,
+   "country": "UG",
+   "category": "legislature",
+   "segments": [
+    "city",
+    "bush",
+    "beach"
+   ],
+   "first_seen": "2026-11-13T05:27+03:00",
+   "published": null,
+   "verdict": "CONSIDER"
+  },
+  {
+   "score": 80.2,
+   "components": {
+    "tier": 40,
+    "category": 10,
+    "lead": 16.8,
+    "relevance": 0,
+    "freshness": 19.4,
+    "undated": -6
+   },
+   "keywords": [],
+   "shock_terms": [],
+   "dedupe_match": null,
+   "dedupe_similarity": 0.17,
+   "id": "253ba28ff81c",
+   "title": "Gov\u2019t requires Shs15 billion for HIV/AIDS prevention messages Thursday, 12 November 2026",
+   "url": "https://www.parliament.go.ug/news/4730/govt-requires-shs15-billion-hivaids-prevention-messages",
+   "summary": "",
+   "kind": "item",
+   "source": "Parliament of Uganda",
+   "source_id": "ug-parliament",
+   "tier": 1,
+   "country": "UG",
+   "category": "legislature",
+   "segments": [
+    "city",
+    "bush",
+    "beach"
+   ],
+   "first_seen": "2026-11-13T05:27+03:00",
+   "published": null,
+   "verdict": "CONSIDER"
+  },
+  {
+   "score": 80.2,
+   "components": {
+    "tier": 40,
+    "category": 10,
+    "lead": 16.8,
+    "relevance": 0,
+    "freshness": 19.4,
+    "undated": -6
+   },
+   "keywords": [],
+   "shock_terms": [],
+   "dedupe_match": null,
+   "dedupe_similarity": 0.17,
+   "id": "266ce06b2045",
+   "title": "Petition Parliament with your evidence - Speaker Oboth Thursday, 12 November 2026",
+   "url": "https://www.parliament.go.ug/news/4729/petition-parliament-your-evidence-speaker-oboth",
+   "summary": "",
+   "kind": "item",
+   "source": "Parliament of Uganda",
+   "source_id": "ug-parliament",
+   "tier": 1,
+   "country": "UG",
+   "category": "legislature",
+   "segments": [
+    "city",
+    "bush",
+    "beach"
+   ],
+   "first_seen": "2026-11-13T05:27+03:00",
+   "published": null,
+   "verdict": "CONSIDER"
+  },
+  {
+   "score": 80.1,
    "components": {
     "tier": 20,
     "category": 4,
     "lead": 2.4,
     "relevance": 16,
-    "freshness": 15.1,
+    "freshness": 9.7,
     "corroborated": 10,
     "shock": 18
    },
@@ -146,13 +646,155 @@
    "verdict": "CONSIDER"
   },
   {
-   "score": 83.2,
+   "score": 79.8,
+   "components": {
+    "tier": 40,
+    "category": 24,
+    "lead": 2.4,
+    "relevance": 0,
+    "freshness": 19.4,
+    "undated": -6
+   },
+   "keywords": [],
+   "shock_terms": [],
+   "dedupe_match": null,
+   "dedupe_similarity": 0.0,
+   "id": "638cf22b49fe",
+   "title": "WAHUDUMU WA AFYA NGAZI YA JAMII, KUSHIRIKI KAMPENI YA BI...",
+   "url": "https://www.moh.go.tz/news-single/wahudumu-wa-afya-ngazi-ya-jamii-kushiriki-kampeni-ya-bima-ya-afya-arusha",
+   "summary": "",
+   "kind": "item",
+   "source": "Tanzania Ministry of Health",
+   "source_id": "tz-moh",
+   "tier": 1,
+   "country": "TZ",
+   "category": "health",
+   "segments": [
+    "city",
+    "bush",
+    "beach"
+   ],
+   "first_seen": "2026-11-13T05:28+03:00",
+   "published": null,
+   "verdict": "CONSIDER"
+  },
+  {
+   "score": 79.8,
+   "components": {
+    "tier": 40,
+    "category": 24,
+    "lead": 2.4,
+    "relevance": 0,
+    "freshness": 19.4,
+    "undated": -6
+   },
+   "keywords": [],
+   "shock_terms": [],
+   "dedupe_match": null,
+   "dedupe_similarity": 0.0,
+   "id": "d74ed36afb14",
+   "title": "WIZARA YA AFYA, TERUMO BCT KUSHIRIKIANA KUIMARISHA H...",
+   "url": "https://www.moh.go.tz/news-single/wizara-ya-afya-terumo-bct-kushirikiana-kuimarisha-huduma-za-sikoseli-nchini",
+   "summary": "",
+   "kind": "item",
+   "source": "Tanzania Ministry of Health",
+   "source_id": "tz-moh",
+   "tier": 1,
+   "country": "TZ",
+   "category": "health",
+   "segments": [
+    "city",
+    "bush",
+    "beach"
+   ],
+   "first_seen": "2026-11-13T05:28+03:00",
+   "published": null,
+   "verdict": "CONSIDER"
+  },
+  {
+   "score": 79.6,
+   "components": {
+    "tier": 20,
+    "category": 5,
+    "lead": 1.2,
+    "relevance": 24,
+    "freshness": 19.4,
+    "corroborated": 10
+   },
+   "keywords": [
+    "vat",
+    "seat",
+    "airline",
+    "passenger"
+   ],
+   "shock_terms": [],
+   "dedupe_match": null,
+   "dedupe_similarity": 0.0,
+   "id": "d27675a4a9f0",
+   "title": "Redefining Flying: Where Innovation Meets the Human Touch",
+   "url": "https://skift.com/2026/11/12/redefining-flying-where-innovation-meets-the-human-touch",
+   "summary": "Airlines seeking more premium revenue must decide how to allocate limited cabin space between higher-value seats, traditional amenities, and new passenger experiences.",
+   "kind": "item",
+   "source": "Skift",
+   "source_id": "tp-skift",
+   "tier": 2,
+   "country": "GLOBAL",
+   "category": "trade",
+   "segments": [
+    "city",
+    "bush",
+    "beach"
+   ],
+   "first_seen": "2026-11-13T05:28+03:00",
+   "published": "2026-11-13",
+   "verdict": "CONSIDER"
+  },
+  {
+   "score": 79.6,
+   "components": {
+    "tier": 20,
+    "category": 5,
+    "lead": 1.2,
+    "relevance": 24,
+    "freshness": 19.4,
+    "corroborated": 10
+   },
+   "keywords": [
+    "route",
+    "airport",
+    "airline",
+    "investment"
+   ],
+   "shock_terms": [],
+   "dedupe_match": null,
+   "dedupe_similarity": 0.07,
+   "id": "8e14394b457a",
+   "title": "Boeing on Market Forces Shaping Fleets and Routes Through 2045",
+   "url": "https://skift.com/2026/11/12/boeing-on-market-forces-shaping-fleets-and-routes-through-2045",
+   "summary": "Aviation's next phase of growth will require airlines, manufacturers, and airports to make long-term investment decisions around sharply different regional demand patterns.",
+   "kind": "item",
+   "source": "Skift",
+   "source_id": "tp-skift",
+   "tier": 2,
+   "country": "GLOBAL",
+   "category": "trade",
+   "segments": [
+    "city",
+    "bush",
+    "beach"
+   ],
+   "first_seen": "2026-11-13T05:28+03:00",
+   "published": "2026-11-13",
+   "verdict": "CONSIDER"
+  },
+  {
+   "score": 77.8,
    "components": {
     "tier": 20,
     "category": 4,
     "lead": 0.0,
     "relevance": 12,
-    "freshness": 19.2,
+    "freshness": 13.8,
     "corroborated": 10,
     "shock": 18
    },
@@ -184,13 +826,86 @@
    "verdict": "CONSIDER"
   },
   {
-   "score": 79.6,
+   "score": 76.8,
+   "components": {
+    "tier": 20,
+    "category": 5,
+    "lead": 2.4,
+    "relevance": 20,
+    "freshness": 19.4,
+    "corroborated": 10
+   },
+   "keywords": [
+    "vat",
+    "hotel",
+    "booking",
+    "guest"
+   ],
+   "shock_terms": [],
+   "dedupe_match": null,
+   "dedupe_similarity": 0.0,
+   "id": "52fccca22867",
+   "title": "Traversing.ai Brings End-to-End Direct Booking and Guest Services to ChatGPT for Rio Las Vegas",
+   "url": "https://www.hotelnewsresource.com/article143731.html",
+   "summary": "Traversing.ai has implemented its end-to-end direct booking and guest service platform within ChatGPT for the Rio Las Vegas, enabling guests to make reservations and access hotel services through AI-powered chat interactions.",
+   "kind": "item",
+   "source": "HVS \u2014 market reports and event-impact studies (via Hotel News Resource)",
+   "source_id": "gl-hvs-market-reports",
+   "tier": 2,
+   "country": "GLOBAL",
+   "category": "trade",
+   "segments": [
+    "city"
+   ],
+   "first_seen": "2026-11-13T05:28+03:00",
+   "published": "2026-11-12",
+   "verdict": "CONSIDER"
+  },
+  {
+   "score": 75.6,
+   "components": {
+    "tier": 20,
+    "category": 5,
+    "lead": 1.2,
+    "relevance": 20,
+    "freshness": 19.4,
+    "corroborated": 10
+   },
+   "keywords": [
+    "capacity",
+    "seat",
+    "airline"
+   ],
+   "shock_terms": [],
+   "dedupe_match": null,
+   "dedupe_similarity": 0.0,
+   "id": "dee5883f2002",
+   "title": "How Embraer and Porter Airlines Consider Matching the Jet to the Market",
+   "url": "https://skift.com/2026/11/12/how-embraer-and-porter-airlines-consider-matching-the-jet-to-the-market",
+   "summary": "Airlines choosing new aircraft must weigh lower per-seat operating costs against the revenue consequences of deploying more capacity than a market can support.",
+   "kind": "item",
+   "source": "Skift",
+   "source_id": "tp-skift",
+   "tier": 2,
+   "country": "GLOBAL",
+   "category": "trade",
+   "segments": [
+    "city",
+    "bush",
+    "beach"
+   ],
+   "first_seen": "2026-11-13T05:28+03:00",
+   "published": "2026-11-13",
+   "verdict": "CONSIDER"
+  },
+  {
+   "score": 74.2,
    "components": {
     "tier": 40,
     "category": 24,
     "lead": 2.4,
     "relevance": 0,
-    "freshness": 19.2,
+    "freshness": 13.8,
     "undated": -6
    },
    "keywords": [],
@@ -217,13 +932,13 @@
    "verdict": "CONSIDER"
   },
   {
-   "score": 79.6,
+   "score": 74.2,
    "components": {
     "tier": 40,
     "category": 24,
     "lead": 2.4,
     "relevance": 0,
-    "freshness": 19.2,
+    "freshness": 13.8,
     "undated": -6
    },
    "keywords": [],
@@ -250,13 +965,13 @@
    "verdict": "CONSIDER"
   },
   {
-   "score": 79.6,
+   "score": 74.2,
    "components": {
     "tier": 40,
     "category": 24,
     "lead": 2.4,
     "relevance": 0,
-    "freshness": 19.2,
+    "freshness": 13.8,
     "undated": -6
    },
    "keywords": [],
@@ -283,13 +998,13 @@
    "verdict": "CONSIDER"
   },
   {
-   "score": 79.6,
+   "score": 74.2,
    "components": {
     "tier": 40,
     "category": 24,
     "lead": 2.4,
     "relevance": 0,
-    "freshness": 19.2,
+    "freshness": 13.8,
     "undated": -6
    },
    "keywords": [],
@@ -316,13 +1031,13 @@
    "verdict": "CONSIDER"
   },
   {
-   "score": 79.6,
+   "score": 74.2,
    "components": {
     "tier": 40,
     "category": 24,
     "lead": 2.4,
     "relevance": 0,
-    "freshness": 19.2,
+    "freshness": 13.8,
     "undated": -6
    },
    "keywords": [],
@@ -349,13 +1064,13 @@
    "verdict": "CONSIDER"
   },
   {
-   "score": 79.6,
+   "score": 74.2,
    "components": {
     "tier": 40,
     "category": 24,
     "lead": 2.4,
     "relevance": 0,
-    "freshness": 19.2,
+    "freshness": 13.8,
     "undated": -6
    },
    "keywords": [],
@@ -382,13 +1097,13 @@
    "verdict": "CONSIDER"
   },
   {
-   "score": 79.6,
+   "score": 74.2,
    "components": {
     "tier": 40,
     "category": 24,
     "lead": 2.4,
     "relevance": 0,
-    "freshness": 19.2,
+    "freshness": 13.8,
     "undated": -6
    },
    "keywords": [],
@@ -415,13 +1130,13 @@
    "verdict": "CONSIDER"
   },
   {
-   "score": 79.6,
+   "score": 74.2,
    "components": {
     "tier": 40,
     "category": 24,
     "lead": 2.4,
     "relevance": 0,
-    "freshness": 19.2,
+    "freshness": 13.8,
     "undated": -6
    },
    "keywords": [],
@@ -448,13 +1163,121 @@
    "verdict": "CONSIDER"
   },
   {
-   "score": 79.4,
+   "score": 74.0,
+   "components": {
+    "tier": 20,
+    "category": 5,
+    "lead": 3.6,
+    "relevance": 16,
+    "freshness": 19.4,
+    "corroborated": 10
+   },
+   "keywords": [
+    "eta",
+    "hotel",
+    "rooms"
+   ],
+   "shock_terms": [],
+   "dedupe_match": null,
+   "dedupe_similarity": 0.0,
+   "id": "aabcb9454b77",
+   "title": "Specifying Natural Stone for Hotel Bathrooms and Lobbies Without Costly Rework",
+   "url": "https://www.hospitalitynet.org/opinion/4135457/specifying-natural-stone-for-hotel-bathrooms-and-lobbies-without-costly-rework",
+   "summary": "A stone fabricator's guide to avoiding costly rework: lock material specs, approve named slabs with cut layouts, detail working-side drawings, and inspect finished pieces against an agreed record before shipment.",
+   "kind": "item",
+   "source": "Hospitality Net \u2014 Africa announcements",
+   "source_id": "dev-hospitalitynet-africa",
+   "tier": 2,
+   "country": "REG",
+   "category": "trade",
+   "segments": [
+    "city",
+    "bush",
+    "beach"
+   ],
+   "first_seen": "2026-11-13T05:28+03:00",
+   "published": "2026-11-13",
+   "verdict": "CONSIDER"
+  },
+  {
+   "score": 74.0,
+   "components": {
+    "tier": 20,
+    "category": 9,
+    "lead": 3.6,
+    "relevance": 12,
+    "freshness": 19.4,
+    "corroborated": 10
+   },
+   "keywords": [
+    "route",
+    "tourist"
+   ],
+   "shock_terms": [],
+   "dedupe_match": null,
+   "dedupe_similarity": 0.0,
+   "id": "e21bf90fbb50",
+   "title": "Webinar zu Williams und Tusayan: Arizona informiert Expis \u00fcber Tore zum Grand Canyon",
+   "url": "https://www.fvw.de/counter/verkauf/webinar-zu-williams-und-tusayan-arizona-informiert-ueber-tore-zum-grand-canyon-266033",
+   "summary": "Williams? Tusayan? Nicht jedem Reiseprofi sind die beiden Orte und ihr touristisches Profil ein Begriff \u2013 dabei gelten sie als Gateway zur bekanntesten Attraktion Arizonas, dem Grand Canyon. Was Urlauber dort sonst noch erleben k\u00f6nnen von der Route 66 bis zur Sternbeobachtung, dar\u00fcber informiert ein Webinar am 24. November.",
+   "kind": "item",
+   "source": "FVW / German travel trade",
+   "source_id": "sm-derreise",
+   "tier": 2,
+   "country": "GLOBAL",
+   "category": "source-market",
+   "segments": [
+    "beach",
+    "bush"
+   ],
+   "first_seen": "2026-11-13T05:28+03:00",
+   "published": "2026-11-12",
+   "verdict": "CONSIDER"
+  },
+  {
+   "score": 74.0,
+   "components": {
+    "tier": 20,
+    "category": 9,
+    "lead": 3.6,
+    "relevance": 12,
+    "freshness": 19.4,
+    "corroborated": 10
+   },
+   "keywords": [
+    "tourism",
+    "tourist",
+    "franc"
+   ],
+   "shock_terms": [],
+   "dedupe_match": null,
+   "dedupe_similarity": 0.0,
+   "id": "c15120857665",
+   "title": "TUI-Franchise-Tagung 2026 (+Galerie): 180 Touristiker zum Wandel im Tourismus",
+   "url": "https://www.fvw.de/touristik/vertrieb/tui-franchise-tagung-2026-galerie-180-touristiker-zum-wandel-im-tourismus-266002",
+   "summary": "180 Inhaberinnen und Inhaber von TUI Reisecentern, First Reiseb\u00fcros und Hapag-Lloyd Reiseb\u00fcros folgten der Einladung von TUI Franchise ins Akra Didim an der s\u00fcdt\u00fcrkischen \u00c4g\u00e4is. Auf der TUI-Franchise-Management-Tagung stand der Wandel des Tourismus im Mittelpunkt.",
+   "kind": "item",
+   "source": "FVW / German travel trade",
+   "source_id": "sm-derreise",
+   "tier": 2,
+   "country": "GLOBAL",
+   "category": "source-market",
+   "segments": [
+    "beach",
+    "bush"
+   ],
+   "first_seen": "2026-11-13T05:28+03:00",
+   "published": "2026-11-11",
+   "verdict": "CONSIDER"
+  },
+  {
+   "score": 74.0,
    "components": {
     "tier": 20,
     "category": 5,
     "lead": 1.2,
     "relevance": 24,
-    "freshness": 19.2,
+    "freshness": 13.8,
     "corroborated": 10
    },
    "keywords": [
@@ -486,880 +1309,65 @@
    "verdict": "CONSIDER"
   },
   {
-   "score": 77.7,
+   "score": 73.8,
    "components": {
     "tier": 20,
-    "category": 5,
-    "lead": 3.6,
-    "relevance": 24,
-    "freshness": 15.1,
-    "corroborated": 10
-   },
-   "keywords": [
-    "vat",
-    "eta",
-    "flight",
-    "booking"
-   ],
-   "shock_terms": [],
-   "dedupe_match": null,
-   "dedupe_similarity": 0.12,
-   "id": "b31d048a8a2f",
-   "title": "From $0 to $10 Billion in Months: Silicon Valley's AI Assistant Gold Rush Is On (and What It Means for Travel)",
-   "url": "https://www.hospitalitynet.org/opinion/4135431/from-0-to-10-billion-in-months-silicon-valleys-ai-assistant-gold-rush-is-on-and-what-it-means-for-travel",
-   "summary": "A wave of AI personal assistants from Meta, xAI, Anthropic, OpenAI and startups like Instinct are moving beyond chatbots to handle tasks like booking flights, managing reservations and coordinating schedules.",
-   "kind": "item",
-   "source": "Hospitality Net \u2014 Africa announcements",
-   "source_id": "dev-hospitalitynet-africa",
-   "tier": 2,
-   "country": "REG",
-   "category": "trade",
-   "segments": [
-    "city",
-    "bush",
-    "beach"
-   ],
-   "first_seen": "2026-11-12T20:37+03:00",
-   "published": "2026-11-12",
-   "verdict": "CONSIDER"
-  },
-  {
-   "score": 76.5,
-   "components": {
-    "tier": 20,
-    "category": 5,
+    "category": 4,
     "lead": 2.4,
-    "relevance": 24,
-    "freshness": 15.1,
-    "corroborated": 10
-   },
-   "keywords": [
-    "vat",
-    "eta",
-    "flight",
-    "booking"
-   ],
-   "shock_terms": [],
-   "dedupe_match": null,
-   "dedupe_similarity": 0.12,
-   "id": "53f730223ab8",
-   "title": "From $0 to $10 Billion in Months: Silicon Valley's AI Assistant Gold Rush Is On (and What It Means for Travel)",
-   "url": "https://www.hospitalitynet.org/opinion/4135431/from-0-to-10-billion-in-months-silicon-valleys-ai-assistant-gold-rush-is-on-and-what-it-means-for-travel",
-   "summary": "A wave of AI personal assistants from Meta, xAI, Anthropic, OpenAI and startups like Instinct are moving beyond chatbots to handle tasks like booking flights, managing reservations and coordinating schedules.",
-   "kind": "item",
-   "source": "Hospitality Net: Africa openings",
-   "source_id": "dev-hospitalitynet-openings",
-   "tier": 2,
-   "country": "AFRICA",
-   "category": "trade",
-   "segments": [
-    "city",
-    "bush",
-    "beach"
-   ],
-   "first_seen": "2026-11-12T20:37+03:00",
-   "published": "2026-11-12",
-   "verdict": "CONSIDER"
-  },
-  {
-   "score": 75.4,
-   "components": {
-    "tier": 20,
-    "category": 5,
-    "lead": 1.2,
-    "relevance": 20,
-    "freshness": 19.2,
-    "corroborated": 10
-   },
-   "keywords": [
-    "vat",
-    "adr",
-    "tourism"
-   ],
-   "shock_terms": [],
-   "dedupe_match": null,
-   "dedupe_similarity": 0.14,
-   "id": "07985e0fd0ef",
-   "title": "FITUR 2027 expands with New halls, Tech and Sustainability focus",
-   "url": "https://voyagesafriq.com/2026/11/12/fitur-2027-expands-with-new-halls-tech-and-sustainability-focus",
-   "summary": "FITUR 2027, the International Tourism Trade Fair organized by IFEMA MADRID, will take place from 20 to 24 January 2027,with Puerto Rico as Partner Country, in an edition defined by growth, specialization and innovation across [\u2026] The post FITUR 2027 expands with New halls, Tech and Sustainability focus<gwmw style=\"display:none;\"></gwmw> appeared first on Voyages Afriq .",
-   "kind": "item",
-   "source": "VoyagesAfriq",
-   "source_id": "tp-voyagesafriq",
-   "tier": 2,
-   "country": "REG",
-   "category": "trade",
-   "segments": [
-    "city",
-    "bush",
-    "beach"
-   ],
-   "first_seen": "2026-11-13T00:22+03:00",
-   "published": "2026-11-12",
-   "verdict": "CONSIDER"
-  },
-  {
-   "score": 75.1,
-   "components": {
-    "tier": 20,
-    "category": 4,
-    "lead": 0.0,
-    "relevance": 24,
-    "freshness": 15.1,
-    "undated": -6,
-    "shock": 18
-   },
-   "keywords": [
-    "outbreak",
-    "ebola"
-   ],
-   "shock_terms": [
-    "outbreak"
-   ],
-   "dedupe_match": null,
-   "dedupe_similarity": 0.12,
-   "id": "83caa4c399a5",
-   "title": "Congo\u2019s Ebola outbreak surpasses 11,000 cases, with more than 5,300 deaths Yesterday - 2 min read",
-   "url": "https://www.thecitizen.co.tz/tanzania/news/africa/congo-s-ebola-outbreak-surpasses-11-000-cases-with-more-than-5-300-deaths-5666292",
-   "summary": "",
-   "kind": "item",
-   "source": "The Citizen (Tanzania)",
-   "source_id": "np-citizen-tz",
-   "tier": 2,
-   "country": "TZ",
-   "category": "press",
-   "segments": [
-    "city",
-    "bush",
-    "beach"
-   ],
-   "first_seen": "2026-11-12T20:37+03:00",
-   "published": null,
-   "verdict": "CONSIDER"
-  },
-  {
-   "score": 75.1,
-   "components": {
-    "tier": 20,
-    "category": 4,
-    "lead": 0.0,
-    "relevance": 8,
-    "freshness": 15.1,
+    "relevance": 0,
+    "freshness": 19.4,
     "corroborated": 10,
     "shock": 18
    },
-   "keywords": [
-    "strike"
-   ],
+   "keywords": [],
    "shock_terms": [
-    "strike"
+    "attack"
    ],
    "dedupe_match": null,
    "dedupe_similarity": 0.0,
-   "id": "79485e7bc060",
-   "title": "In-form Vula brings scoring form to Cranes fold",
-   "url": "https://www.monitor.co.ug/uganda/sports/soccer/in-form-vula-brings-scoring-form-to-cranes-fold-5667788",
-   "summary": "Vula heads into the next Cranes engagement as the most in-form striker having found the back of...",
+   "id": "f5d87f521f79",
+   "title": "'Runaway' police inspector charged with killing lawyer Kyalo Mbobu",
+   "url": "https://nation.africa/kenya/news/-runaway-police-inspector-charged-with-killing-lawyer-kyalo-mbobu-5669000",
+   "summary": "The prosecution told the court that Mr Mbobu was killed in a commando-style attack.",
    "kind": "item",
-   "source": "Daily Monitor (Uganda)",
-   "source_id": "np-monitor-ug",
+   "source": "Nation Africa: Kenya business",
+   "source_id": "ke-nation-business",
    "tier": 2,
-   "country": "UG",
+   "country": "KE",
    "category": "press",
    "segments": [
     "city",
     "bush",
     "beach"
    ],
-   "first_seen": "2026-11-12T20:37+03:00",
+   "first_seen": "2026-11-13T05:28+03:00",
    "published": "2026-11-12",
    "verdict": "CONSIDER"
   },
   {
-   "score": 73.2,
-   "components": {
-    "tier": 20,
-    "category": 4,
-    "lead": 0.0,
-    "relevance": 20,
-    "freshness": 19.2,
-    "corroborated": 10
-   },
-   "keywords": [
-    "electricity",
-    "flood",
-    "investment"
-   ],
-   "shock_terms": [],
-   "dedupe_match": null,
-   "dedupe_similarity": 0.29,
-   "id": "eabdd028a064",
-   "title": "At COP31, Government Pitches $3bn for Electricity, Flood Protection for 220,000 Kigalians",
-   "url": "https://www.ktpress.rw/2026/11/at-cop31-government-pitches-3bn-for-electricity-flood-protection-for-220000-kigalians",
-   "summary": "Government of Rwanda is seeking greater international investment in electricity infrastructure, urban resilience, green industrialisation and climate-smart agriculture as it works to turn its climate commitments into projects that can\u2026 The post At COP31, Government Pitches $3bn for Electricity, Flood Protection for 220,000 Kigalians appeared first on KT PRESS .",
-   "kind": "item",
-   "source": "KT Press (Rwanda)",
-   "source_id": "np-ktpress-rw",
-   "tier": 2,
-   "country": "RW",
-   "category": "press",
-   "segments": [
-    "city",
-    "bush",
-    "beach"
-   ],
-   "first_seen": "2026-11-13T00:22+03:00",
-   "published": "2026-11-12",
-   "verdict": "CONSIDER"
-  },
-  {
-   "score": 73.1,
-   "components": {
-    "tier": 20,
-    "category": 4,
-    "lead": 0.0,
-    "relevance": 24,
-    "freshness": 15.1,
-    "corroborated": 10
-   },
-   "keywords": [
-    "eta",
-    "electricity",
-    "capacity"
-   ],
-   "shock_terms": [],
-   "dedupe_match": null,
-   "dedupe_similarity": 0.11,
-   "id": "9bccbc854fe8",
-   "title": "Tanzania envisions renewable energy to contribute 1,892MW to national power target by 2030",
-   "url": "https://dailynews.co.tz/tanzania-envisions-renewable-energy-to-contribute-1892mw-to-national-power-target-by-2030",
-   "summary": "DAR ES SALAAM: THE Tanzanian government plans to increase Tanzania\u2019s electricity generation capacity to 8,000 megawatts by 2030, with renewable energy sources expected to contribute 1,892MW, including solar, biomass and wind power. Permanent Secretary in the Ministry of Energy responsible for Oil and Gas, Dr James Mataragio, made the remarks today, November 12, 2026, in \u2026 The post Tanzania envisio",
-   "kind": "item",
-   "source": "Daily News (Tanzania)",
-   "source_id": "np-dailynews-tz",
-   "tier": 2,
-   "country": "TZ",
-   "category": "press",
-   "segments": [
-    "city",
-    "bush",
-    "beach"
-   ],
-   "first_seen": "2026-11-12T20:37+03:00",
-   "published": "2026-11-12",
-   "verdict": "CONSIDER"
-  },
-  {
-   "score": 71.4,
+   "score": 73.6,
    "components": {
     "tier": 20,
     "category": 5,
     "lead": 1.2,
-    "relevance": 16,
-    "freshness": 19.2,
-    "corroborated": 10
-   },
-   "keywords": [
-    "airport",
-    "airline",
-    "investment"
-   ],
-   "shock_terms": [],
-   "dedupe_match": null,
-   "dedupe_similarity": 0.0,
-   "id": "cf8904474fef",
-   "title": "The Airport Scorecard: What Airlines and Airports Must Get Right",
-   "url": "https://skift.com/2026/11/12/the-airport-scorecard-what-airlines-and-airports-must-get-right",
-   "summary": "Airports can use major-event deadlines to accelerate investment, but the lasting benefits depend on what changes after the crowds leave.",
-   "kind": "item",
-   "source": "Skift",
-   "source_id": "tp-skift",
-   "tier": 2,
-   "country": "GLOBAL",
-   "category": "trade",
-   "segments": [
-    "city",
-    "bush",
-    "beach"
-   ],
-   "first_seen": "2026-11-13T00:22+03:00",
-   "published": "2026-11-12",
-   "verdict": "CONSIDER"
-  },
-  {
-   "score": 70.2,
-   "components": {
-    "tier": 5,
-    "category": 5,
-    "lead": 2.4,
-    "relevance": 28,
-    "freshness": 19.8,
-    "corroborated": 10
-   },
-   "keywords": [
-    "route",
-    "seat",
-    "airline",
-    "flight",
-    "passenger"
-   ],
-   "shock_terms": [],
-   "dedupe_match": null,
-   "dedupe_similarity": 0.0,
-   "id": "25d405d99682",
-   "title": "Charlotte Unites with 4 More Cities in Connecting Seattle with New Flight Routes Offering from Alaska Airlines Competing with Delta and More",
-   "url": "https://www.travelandtourworld.com/news/article/3dkgca5ruu4m",
-   "summary": "Charlotte Unites with 4 More Cities in Connecting Seattle with New Flight Routes Offering from Alaska Airlines Competing with Delta and More Charlotte Unites with 4 More Cities in Connecting with Seattle with New Flight Routes Offering from Alaska Airlines and competing with American, Delta and More, marking a significant expansion of air connectivity across the United States and Mexico in 2027. A",
-   "kind": "item",
-   "source": "Travel And Tour World",
-   "source_id": "gl-travelandtourworld",
-   "tier": 3,
-   "country": "GLOBAL",
-   "category": "trade",
-   "segments": [
-    "city",
-    "bush",
-    "beach"
-   ],
-   "first_seen": "2026-11-13T00:52+03:00",
-   "published": "2026-11-13",
-   "verdict": "CONSIDER"
-  },
-  {
-   "score": 69.7,
-   "components": {
-    "tier": 20,
-    "category": 5,
-    "lead": 3.6,
-    "relevance": 16,
-    "freshness": 15.1,
-    "corroborated": 10
-   },
-   "keywords": [
-    "fee",
-    "hotel",
-    "guest"
-   ],
-   "shock_terms": [],
-   "dedupe_match": null,
-   "dedupe_similarity": 0.17,
-   "id": "11680c875414",
-   "title": "What Neuroscience Can Teach Hotels About Guest Wellness",
-   "url": "https://www.hospitalitynet.org/interview/4134968/what-neuroscience-can-teach-hotels-about-guest-wellness",
-   "summary": "Neuroscientist Dr. Karlie Intlekofer argues luxury hotels should prioritize sleep architecture and accessible movement over added amenities to help guests recover and leave feeling restored.",
-   "kind": "item",
-   "source": "Hospitality Net \u2014 Africa announcements",
-   "source_id": "dev-hospitalitynet-africa",
-   "tier": 2,
-   "country": "REG",
-   "category": "trade",
-   "segments": [
-    "city",
-    "bush",
-    "beach"
-   ],
-   "first_seen": "2026-11-12T20:37+03:00",
-   "published": "2026-11-12",
-   "verdict": "weak"
-  },
-  {
-   "score": 69.2,
-   "components": {
-    "tier": 20,
-    "category": 5,
-    "lead": 2.4,
-    "relevance": 12,
-    "freshness": 19.8,
-    "corroborated": 10
-   },
-   "keywords": [
-    "hotel",
-    "booking",
-    "guest"
-   ],
-   "shock_terms": [],
-   "dedupe_match": null,
-   "dedupe_similarity": 0.1,
-   "id": "8eceb4d72777",
-   "title": "From Booking to Check-In: How to Make the Most of Travel Tuesday",
-   "url": "https://www.hospitalitynet.org/opinion/4135454/from-booking-to-check-in-how-to-make-the-most-of-travel-tuesday",
-   "summary": "A tactical guide for hoteliers on maximising Travel Tuesday, covering distribution, rate protection, mobile check-in, guest messaging, and upselling to convert discount bookings into higher-value stays.",
-   "kind": "item",
-   "source": "Hospitality Net: Africa openings",
-   "source_id": "dev-hospitalitynet-openings",
-   "tier": 2,
-   "country": "AFRICA",
-   "category": "trade",
-   "segments": [
-    "city",
-    "bush",
-    "beach"
-   ],
-   "first_seen": "2026-11-13T00:52+03:00",
-   "published": "2026-11-12",
-   "verdict": "weak"
-  },
-  {
-   "score": 68.5,
-   "components": {
-    "tier": 20,
-    "category": 5,
-    "lead": 2.4,
-    "relevance": 16,
-    "freshness": 15.1,
-    "corroborated": 10
-   },
-   "keywords": [
-    "fee",
-    "hotel",
-    "guest"
-   ],
-   "shock_terms": [],
-   "dedupe_match": null,
-   "dedupe_similarity": 0.17,
-   "id": "f6c1e3da3491",
-   "title": "What Neuroscience Can Teach Hotels About Guest Wellness",
-   "url": "https://www.hospitalitynet.org/interview/4134968/what-neuroscience-can-teach-hotels-about-guest-wellness",
-   "summary": "Neuroscientist Dr. Karlie Intlekofer argues luxury hotels should prioritize sleep architecture and accessible movement over added amenities to help guests recover and leave feeling restored.",
-   "kind": "item",
-   "source": "Hospitality Net: Africa openings",
-   "source_id": "dev-hospitalitynet-openings",
-   "tier": 2,
-   "country": "AFRICA",
-   "category": "trade",
-   "segments": [
-    "city",
-    "bush",
-    "beach"
-   ],
-   "first_seen": "2026-11-12T20:37+03:00",
-   "published": "2026-11-12",
-   "verdict": "weak"
-  },
-  {
-   "score": 67.4,
-   "components": {
-    "tier": 20,
-    "category": 5,
-    "lead": 1.2,
-    "relevance": 12,
-    "freshness": 19.2,
-    "corroborated": 10
-   },
-   "keywords": [
-    "fuel",
-    "airline"
-   ],
-   "shock_terms": [],
-   "dedupe_match": null,
-   "dedupe_similarity": 0.0,
-   "id": "1b4fdcdfc293",
-   "title": "IAG\u2019s CEO on the Value of Diversification When Fuel Spikes",
-   "url": "https://skift.com/2026/11/12/iags-ceo-on-the-value-of-diversification-when-fuel-spikes",
-   "summary": "Airline groups facing volatile fuel costs and uneven demand need a disciplined approach to allocating capital across different markets and business models.",
-   "kind": "item",
-   "source": "Skift",
-   "source_id": "tp-skift",
-   "tier": 2,
-   "country": "GLOBAL",
-   "category": "trade",
-   "segments": [
-    "city",
-    "bush",
-    "beach"
-   ],
-   "first_seen": "2026-11-13T00:22+03:00",
-   "published": "2026-11-13",
-   "verdict": "weak"
-  },
-  {
-   "score": 67.4,
-   "components": {
-    "tier": 20,
-    "category": 5,
-    "lead": 1.2,
-    "relevance": 12,
-    "freshness": 19.2,
-    "corroborated": 10
-   },
-   "keywords": [
-    "seat",
-    "airline"
-   ],
-   "shock_terms": [],
-   "dedupe_match": null,
-   "dedupe_similarity": 0.0,
-   "id": "b920b2f364be",
-   "title": "Air Canada Exec: Airline Needs Reliability to Be Fully Premium",
-   "url": "https://skift.com/2026/11/12/air-canada-exec-airline-needs-reliability-to-be-fully-premium",
-   "summary": "Air Canada doesn\u2019t need another lie-flat seat. It needs to run on time, and its own operations chief admits it isn\u2019t there yet.",
-   "kind": "item",
-   "source": "Skift",
-   "source_id": "tp-skift",
-   "tier": 2,
-   "country": "GLOBAL",
-   "category": "trade",
-   "segments": [
-    "city",
-    "bush",
-    "beach"
-   ],
-   "first_seen": "2026-11-13T00:22+03:00",
-   "published": "2026-11-12",
-   "verdict": "weak"
-  },
-  {
-   "score": 67.2,
-   "components": {
-    "tier": 20,
-    "category": 4,
-    "lead": 0.0,
-    "relevance": 12,
-    "freshness": 19.2,
-    "undated": -6,
+    "relevance": 0,
+    "freshness": 19.4,
+    "corroborated": 10,
     "shock": 18
    },
-   "keywords": [
-    "evacuat"
-   ],
-   "shock_terms": [
-    "evacuat"
-   ],
-   "dedupe_match": null,
-   "dedupe_similarity": 0.0,
-   "id": "458338372b91",
-   "title": "international A Ukrainian army unit pioneered drone evacuations. Now it's scaling up 7 hours ago - 4 min read",
-   "url": "https://www.thecitizen.co.tz/tanzania/news/international/a-ukrainian-army-unit-pioneered-drone-evacuations-now-it-s-scaling-up-5668554",
-   "summary": "",
-   "kind": "item",
-   "source": "The Citizen (Tanzania)",
-   "source_id": "np-citizen-tz",
-   "tier": 2,
-   "country": "TZ",
-   "category": "press",
-   "segments": [
-    "city",
-    "bush",
-    "beach"
-   ],
-   "first_seen": "2026-11-13T00:22+03:00",
-   "published": null,
-   "verdict": "weak"
-  },
-  {
-   "score": 66.2,
-   "components": {
-    "tier": 5,
-    "category": 5,
-    "lead": 2.4,
-    "relevance": 24,
-    "freshness": 19.8,
-    "corroborated": 10
-   },
-   "keywords": [
-    "cancel",
-    "airport",
-    "flight"
-   ],
-   "shock_terms": [],
-   "dedupe_match": null,
-   "dedupe_similarity": 0.17,
-   "id": "98ef3152d502",
-   "title": "Asia Flights Affected at Dubai, Samui and More with 382 Cancellations and 4,395 Delays",
-   "url": "https://www.travelandtourworld.com/news/article/0dkk46ig7k8y",
-   "summary": "Asia Flights Affected at Dubai, Samui and More with 382 Cancellations and 4,395 Delays Asia faces 382 flight cancellations and 4,395 delays across major airports in India, China, Japan, Thailand and Indonesia on 13 November 2026. The post Asia Flights Affected at Dubai, Samui and More with 382 Cancellations and 4,395 Delays appeared first on Travel And Tour World .",
-   "kind": "item",
-   "source": "Travel And Tour World",
-   "source_id": "gl-travelandtourworld",
-   "tier": 3,
-   "country": "GLOBAL",
-   "category": "trade",
-   "segments": [
-    "city",
-    "bush",
-    "beach"
-   ],
-   "first_seen": "2026-11-13T00:52+03:00",
-   "published": "2026-11-12",
-   "verdict": "weak"
-  },
-  {
-   "score": 66.1,
-   "components": {
-    "tier": 40,
-    "category": 5,
-    "lead": 12.0,
-    "relevance": 0,
-    "freshness": 15.1,
-    "undated": -6
-   },
    "keywords": [],
-   "shock_terms": [],
+   "shock_terms": [
+    "attack"
+   ],
    "dedupe_match": null,
    "dedupe_similarity": 0.0,
-   "id": "ab1770690397",
-   "title": "\ud835\udc06\ud835\udc0e\ud835\udc15\ud835\udc04\ud835\udc11\ud835\udc0d\ud835\udc0e\ud835\udc11 \ud835\udc0d\ud835\udc03\ud835\udc04\ud835\udc13\ud835\udc08 \ud835\udc00\ud835\udc0d\ud835\udc03 \ud835\udc12\ud835\udc0f\ud835\udc04\ud835\udc00\ud835\udc0a\ud835\udc04\ud835\udc11 \ud835\udc0a\ud835\udc08\ud835\udc14\ud835\udc12\ud835\udc18\ud835\udc00 \ud835\udc01\ud835\udc14\ud835\udc11\ud835\udc11\ud835\udc18 \ud835\udc13\ud835\udc07\ud835\udc04 \ud835\udc07\ud835\udc00\ud835\udc13\ud835\udc02\ud835\udc07\ud835\udc04\ud835\udc13 \ud835\udc05\ud835\udc0e\ud835\udc11 \ud835\udc13\ud835\udc07\ud835\udc04 \ud835\udc06\ud835\udc11\ud835\udc04\ud835\udc00\ud835\udc13\ud835\udc04\ud835\udc11 \ud835\udc06\ud835\udc0e\ud835\udc0e\ud835\udc03 \ud835\udc0e\ud835\udc05 \ud835\udc0c\ud835\udc00\ud835\udc02\ud835\udc07\ud835\udc00\ud835\udc0a\ud835\udc0e\ud835\udc12 \ud835\udc11\ud835\udc04\ud835\udc12\ud835\udc08\ud835\udc03\ud835\udc04\ud835\udc0d\ud835\udc13\ud835\udc12 \u200b",
-   "url": "https://www.parliament.go.ke/node/26657",
-   "summary": "",
+   "id": "33b638d1c72f",
+   "title": "Expedia Confirms Cyberattack Through Third-Party Vendor",
+   "url": "https://skift.com/2026/11/12/expedia-confirms-cyberattack-through-third-party-vendor",
+   "summary": "Expedia says attackers reached its systems through a compromised technology provider. The company has not disclosed the extent of any data exposure.",
    "kind": "item",
-   "source": "Senate Committee on Delegated Legislation (Kenya) \u2014 the committee that annuls or accedes to statutory instruments",
-   "source_id": "ke-senate-delegated-legislation",
-   "tier": 1,
-   "country": "KE",
-   "category": "REG",
-   "segments": [
-    "city",
-    "bush",
-    "beach"
-   ],
-   "first_seen": "2026-11-12T20:36+03:00",
-   "published": null,
-   "verdict": "weak"
-  },
-  {
-   "score": 65.7,
-   "components": {
-    "tier": 20,
-    "category": 5,
-    "lead": 3.6,
-    "relevance": 12,
-    "freshness": 15.1,
-    "corroborated": 10
-   },
-   "keywords": [
-    "tax",
-    "hotel"
-   ],
-   "shock_terms": [],
-   "dedupe_match": null,
-   "dedupe_similarity": 0.12,
-   "id": "ffcae727b7b1",
-   "title": "Inn-Flow Introduces AP Agent, Expanding AI-powered Capabilities Across Hotel Accounting Workflows",
-   "url": "https://www.hospitalitynet.org/news/4135429/inn-flow-introduces-ap-agent-expanding-ai-powered-capabilities-across-hotel-accounting-workflows",
-   "summary": "Inn-Flow's AP Agent automates invoice extraction, vendor matching, GL coding and tax allocation within its hotel accounting platform, reducing manual data entry for hotel finance teams.",
-   "kind": "item",
-   "source": "Hospitality Net \u2014 Africa announcements",
-   "source_id": "dev-hospitalitynet-africa",
-   "tier": 2,
-   "country": "REG",
-   "category": "trade",
-   "segments": [
-    "city",
-    "bush",
-    "beach"
-   ],
-   "first_seen": "2026-11-12T20:37+03:00",
-   "published": "2026-11-12",
-   "verdict": "weak"
-  },
-  {
-   "score": 65.7,
-   "components": {
-    "tier": 20,
-    "category": 5,
-    "lead": 3.6,
-    "relevance": 12,
-    "freshness": 15.1,
-    "corroborated": 10
-   },
-   "keywords": [
-    "hotel",
-    "beach",
-    "booking"
-   ],
-   "shock_terms": [],
-   "dedupe_match": null,
-   "dedupe_similarity": 0.0,
-   "id": "e80633d6a03b",
-   "title": "Miami Beach\u2019s Shepley Hotel Boosts Direct Bookings 27% With roommaster",
-   "url": "https://www.hospitalitynet.org/news/4135446/miami-beachs-shepley-hotel-boosts-direct-bookings-27-with-roommaster",
-   "summary": "Miami Beach's 29-room Shepley Hotel achieved a 27% direct booking increase and cut housekeeping scheduling from 3 hours to 45 minutes after upgrading to roommaster's Premium Booking Engine tier.",
-   "kind": "item",
-   "source": "Hospitality Net \u2014 Africa announcements",
-   "source_id": "dev-hospitalitynet-africa",
-   "tier": 2,
-   "country": "REG",
-   "category": "trade",
-   "segments": [
-    "city",
-    "bush",
-    "beach"
-   ],
-   "first_seen": "2026-11-12T20:37+03:00",
-   "published": "2026-11-12",
-   "verdict": "weak"
-  },
-  {
-   "score": 65.7,
-   "components": {
-    "tier": 20,
-    "category": 5,
-    "lead": 3.6,
-    "relevance": 12,
-    "freshness": 15.1,
-    "corroborated": 10
-   },
-   "keywords": [
-    "hotel",
-    "rooms",
-    "guest"
-   ],
-   "shock_terms": [],
-   "dedupe_match": null,
-   "dedupe_similarity": 0.0,
-   "id": "a4a303ae2fec",
-   "title": "Hapi and dailypoint Partner to Simplify Hotel Technology Integrations and Speed Customer Deployment",
-   "url": "https://www.hospitalitynet.org/news/4135442/hapi-and-dailypoint-partner-to-simplify-hotel-technology-integrations-and-speed-customer-deployment",
-   "summary": "Hapi and dailypoint have partnered to streamline hotel tech integrations, letting dailypoint access real-time guest data from systems like SevenRooms without building each connection independently.",
-   "kind": "item",
-   "source": "Hospitality Net \u2014 Africa announcements",
-   "source_id": "dev-hospitalitynet-africa",
-   "tier": 2,
-   "country": "REG",
-   "category": "trade",
-   "segments": [
-    "city",
-    "bush",
-    "beach"
-   ],
-   "first_seen": "2026-11-12T20:37+03:00",
-   "published": "2026-11-12",
-   "verdict": "weak"
-  },
-  {
-   "score": 65.7,
-   "components": {
-    "tier": 20,
-    "category": 5,
-    "lead": 3.6,
-    "relevance": 12,
-    "freshness": 15.1,
-    "corroborated": 10
-   },
-   "keywords": [
-    "hotel",
-    "booking",
-    "guest"
-   ],
-   "shock_terms": [],
-   "dedupe_match": null,
-   "dedupe_similarity": 0.0,
-   "id": "579e48abe63f",
-   "title": "Hotels Measure Bookings. But What Are Guests Actually Doing with the Information?",
-   "url": "https://www.hospitalitynet.org/opinion/4135441/hotels-measure-bookings-but-what-are-guests-actually-doing-with-the-information",
-   "summary": "Research with 440 guests on Meituan.com finds that clarity and usefulness of booking platform information drives guest engagement, perceived value, and brand advocacy.",
-   "kind": "item",
-   "source": "Hospitality Net \u2014 Africa announcements",
-   "source_id": "dev-hospitalitynet-africa",
-   "tier": 2,
-   "country": "REG",
-   "category": "trade",
-   "segments": [
-    "city",
-    "bush",
-    "beach"
-   ],
-   "first_seen": "2026-11-12T20:37+03:00",
-   "published": "2026-11-12",
-   "verdict": "weak"
-  },
-  {
-   "score": 65.2,
-   "components": {
-    "tier": 20,
-    "category": 4,
-    "lead": 0.0,
-    "relevance": 12,
-    "freshness": 19.2,
-    "corroborated": 10
-   },
-   "keywords": [
-    "ebola"
-   ],
-   "shock_terms": [],
-   "dedupe_match": null,
-   "dedupe_similarity": 0.12,
-   "id": "547cf506d36b",
-   "title": "Ebola: Insecurity in eastern DRC blocks response as deaths pass 5,300",
-   "url": "https://www.theeastafrican.co.ke/tea/sustainability/ebola-insecurity-in-eastern-drc-blocks-response-5668350",
-   "summary": "Insecurity is having a direct impact on surveillance.",
-   "kind": "item",
-   "source": "The EastAfrican",
-   "source_id": "np-eastafrican",
-   "tier": 2,
-   "country": "REG",
-   "category": "press",
-   "segments": [
-    "city",
-    "bush",
-    "beach"
-   ],
-   "first_seen": "2026-11-13T00:22+03:00",
-   "published": "2026-11-12",
-   "verdict": "weak"
-  },
-  {
-   "score": 65.1,
-   "components": {
-    "tier": 20,
-    "category": 4,
-    "lead": 0.0,
-    "relevance": 16,
-    "freshness": 15.1,
-    "corroborated": 10
-   },
-   "keywords": [
-    "eta",
-    "summit",
-    "franc"
-   ],
-   "shock_terms": [],
-   "dedupe_match": null,
-   "dedupe_similarity": 0.0,
-   "id": "075c90760b5c",
-   "title": "Get My Way or I Walk: Kinshasa\u2019s Playbook for Wrecking International Organizations",
-   "url": "https://www.ktpress.rw/2026/11/get-my-way-or-i-walk-kinshasas-playbook-for-wrecking-international-organizations",
-   "summary": "The Francophone world has its eyes on the 20th Francophonie Summit in Phnom Penh, Cambodia, where the next Secretary-General of the Organisation Internationale de la Francophonie (OIF) will be elected\u2026 The post Get My Way or I Walk: Kinshasa\u2019s Playbook for Wrecking International Organizations appeared first on KT PRESS .",
-   "kind": "item",
-   "source": "KT Press (Rwanda)",
-   "source_id": "np-ktpress-rw",
-   "tier": 2,
-   "country": "RW",
-   "category": "press",
-   "segments": [
-    "city",
-    "bush",
-    "beach"
-   ],
-   "first_seen": "2026-11-12T20:37+03:00",
-   "published": "2026-11-12",
-   "verdict": "weak"
-  },
-  {
-   "score": 64.5,
-   "components": {
-    "tier": 20,
-    "category": 5,
-    "lead": 2.4,
-    "relevance": 12,
-    "freshness": 15.1,
-    "corroborated": 10
-   },
-   "keywords": [
-    "hotel",
-    "guest",
-    "operator"
-   ],
-   "shock_terms": [],
-   "dedupe_match": null,
-   "dedupe_similarity": 0.0,
-   "id": "df5d697628eb",
-   "title": "Q&A: Paragon Studio brings wellness into the guestroom",
-   "url": "https://www.sleepermagazine.com/stories/products/qa-paragon-studio-brings-wellness-into-the-guestroom",
-   "summary": "Having made its name in superyacht and prime residential gyms, Paragon Studio is now working with hotel operators and designers [\u2026] The post Q&A: Paragon Studio brings wellness into the guestroom appeared first on Sleeper .",
-   "kind": "item",
-   "source": "Sleeper: hotel projects",
-   "source_id": "dev-sleeper",
+   "source": "Skift",
+   "source_id": "tp-skift",
    "tier": 2,
    "country": "GLOBAL",
    "category": "trade",
@@ -1368,82 +1376,9 @@
     "bush",
     "beach"
    ],
-   "first_seen": "2026-11-12T20:37+03:00",
-   "published": "2026-11-12",
-   "verdict": "weak"
-  },
-  {
-   "score": 64.5,
-   "components": {
-    "tier": 20,
-    "category": 5,
-    "lead": 2.4,
-    "relevance": 12,
-    "freshness": 15.1,
-    "corroborated": 10
-   },
-   "keywords": [
-    "tax",
-    "hotel"
-   ],
-   "shock_terms": [],
-   "dedupe_match": null,
-   "dedupe_similarity": 0.12,
-   "id": "f5e955e8eae4",
-   "title": "Inn-Flow Introduces AP Agent, Expanding AI-powered Capabilities Across Hotel Accounting Workflows",
-   "url": "https://www.hospitalitynet.org/news/4135429/inn-flow-introduces-ap-agent-expanding-ai-powered-capabilities-across-hotel-accounting-workflows",
-   "summary": "Inn-Flow's AP Agent automates invoice extraction, vendor matching, GL coding and tax allocation within its hotel accounting platform, reducing manual data entry for hotel finance teams.",
-   "kind": "item",
-   "source": "Hospitality Net: Africa openings",
-   "source_id": "dev-hospitalitynet-openings",
-   "tier": 2,
-   "country": "AFRICA",
-   "category": "trade",
-   "segments": [
-    "city",
-    "bush",
-    "beach"
-   ],
-   "first_seen": "2026-11-12T20:37+03:00",
-   "published": "2026-11-12",
-   "verdict": "weak"
-  },
-  {
-   "score": 64.5,
-   "components": {
-    "tier": 20,
-    "category": 5,
-    "lead": 2.4,
-    "relevance": 12,
-    "freshness": 15.1,
-    "corroborated": 10
-   },
-   "keywords": [
-    "hotel",
-    "beach",
-    "booking"
-   ],
-   "shock_terms": [],
-   "dedupe_match": null,
-   "dedupe_similarity": 0.0,
-   "id": "fae13143a52d",
-   "title": "Miami Beach\u2019s Shepley Hotel Boosts Direct Bookings 27% With roommaster",
-   "url": "https://www.hospitalitynet.org/news/4135446/miami-beachs-shepley-hotel-boosts-direct-bookings-27-with-roommaster",
-   "summary": "Miami Beach's 29-room Shepley Hotel achieved a 27% direct booking increase and cut housekeeping scheduling from 3 hours to 45 minutes after upgrading to roommaster's Premium Booking Engine tier.",
-   "kind": "item",
-   "source": "Hospitality Net: Africa openings",
-   "source_id": "dev-hospitalitynet-openings",
-   "tier": 2,
-   "country": "AFRICA",
-   "category": "trade",
-   "segments": [
-    "city",
-    "bush",
-    "beach"
-   ],
-   "first_seen": "2026-11-12T20:37+03:00",
-   "published": "2026-11-12",
-   "verdict": "weak"
+   "first_seen": "2026-11-13T05:28+03:00",
+   "published": "2026-11-13",
+   "verdict": "CONSIDER"
   }
  ]
 }
