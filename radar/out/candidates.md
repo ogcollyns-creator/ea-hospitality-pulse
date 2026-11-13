@@ -1,310 +1,195 @@
-# Radar candidates — morning slot
-_Window opens Thu 12 Nov 18:00 EAT · 636 observations in window · 9 headlines deduped against_
+# Radar candidates — midday slot
+_Window opens Fri 13 Nov 07:00 EAT · 280 observations in window · 9 headlines deduped against_
 
 Ranked by first-seen recency, source tier and hospitality relevance. `first seen` is when the radar observed the item, which is the date the recency gate runs on. `published` is what the source claims — where the two disagree, the disagreement is the story.
 
-### 🚨 [101.0] [page changed] Federal Register — public inspection (HHS/CDC), pre-publication
+### 🔴 [131.8] Order Under Sections 362 and 365 of the Public Health Service Act Continuing the Suspension of the Right To Introduce Ce
+- **Verdict:** LEAD CANDIDATE — tier-1 shock language
+- **Source:** Federal Register — CDC documents (newest first) · tier 1 · GLOBAL · advisory
+- **First seen:** 2026-11-13T14:06+03:00 EAT · **Source date:** 2026-11-13
+- **URL:** https://www.federalregister.gov/documents/2026/11/13/2026-23114/order-under-sections-362-and-365-of-the-public-health-service-act-continuing-the-suspension-of-the
+- **Shock language:** outbreak
+- **Extract:** The Centers for Disease Control and Prevention (CDC), a component of the Department of Health and Human Services (HHS), announces it is issuing an Order under Sections 362 and 365 of the Public Health Service Act, and associated implementing regulations, conti
+- **Score parts:** tier +40, category +32, lead +0, relevance +12, freshness +19.8, corroborated +10, shock +18
+
+### 🚨 [117.8] [page changed] Federal Register — CDC notices
+- **Verdict:** OPEN THIS — tier-1 advisory page moved; content not auto-parsed, read it manually
+- **Source:** Federal Register — CDC notices · tier 1 · REG · advisory
+- **First seen:** 2026-11-13T14:06+03:00 EAT · **Source date:** 2026-12-10
+- **URL:** https://www.federalregister.gov/api/v1/documents.rss?conditions%5Bagencies%5D%5B%5D=centers-for-disease-control-and-prevention&order=newest
+- **Extract:** Federal Register Documents published on or after 10/14/2026 and from Centers for Disease Control and Prevention https://www.federalregister.gov/api/v1/documents.rss?conditions%5Bagencies%5D%5B%5D=centers-for-disease-control-and-prevention&order=newest Fri, 13 
+- **Score parts:** tier +40, category +32, lead +12, relevance +8, freshness +19.8, corroborated +10, page_change -4
+
+### 🚨 [101.4] [page changed] Federal Register — public inspection (HHS/CDC), pre-publication
 - **Verdict:** OPEN THIS — tier-1 advisory page moved; content not auto-parsed, read it manually
 - **Source:** Federal Register — public inspection (HHS/CDC), pre-publication · tier 1 · REG · advisory
-- **First seen:** 2026-11-13T05:28+03:00 EAT · **Source date:** 2026-11-12
+- **First seen:** 2026-11-13T14:06+03:00 EAT · **Source date:** 2026-11-12
 - **URL:** https://www.federalregister.gov/api/v1/public-inspection-documents/current.json
 - **Extract:** {"count":125,"results":[{"agencies":[{"raw_name":"Housing and Urban Development Department","name":"Housing and Urban Development Department","id":228,"url":"https://www.federalregister.gov/agencies/housing-and-urban-development-department","json_url":"https:/
-- **Score parts:** tier +40, category +32, lead +3.6, relevance +0, freshness +19.4, corroborated +10, page_change -4
+- **Score parts:** tier +40, category +32, lead +3.6, relevance +0, freshness +19.8, corroborated +10, page_change -4
 
-### 🚨 [95.4] [page changed] Federal Register — public inspection (HHS/CDC), pre-publication
-- **Verdict:** OPEN THIS — tier-1 advisory page moved; content not auto-parsed, read it manually
-- **Source:** Federal Register — public inspection (HHS/CDC), pre-publication · tier 1 · REG · advisory
-- **First seen:** 2026-11-13T00:21+03:00 EAT · **Source date:** 2026-11-12
-- **URL:** https://www.federalregister.gov/api/v1/public-inspection-documents/current.json
-- **Extract:** {"count":125,"results":[{"agencies":[{"raw_name":"Housing and Urban Development Department","name":"Housing and Urban Development Department","id":228,"url":"https://www.federalregister.gov/agencies/housing-and-urban-development-department","json_url":"https:/
-- **Score parts:** tier +40, category +32, lead +3.6, relevance +0, freshness +13.8, corroborated +10, page_change -4
-
-### 🚨 [91.3] [page changed] Federal Register — public inspection (HHS/CDC), pre-publication
-- **Verdict:** OPEN THIS — tier-1 advisory page moved; content not auto-parsed, read it manually
-- **Source:** Federal Register — public inspection (HHS/CDC), pre-publication · tier 1 · REG · advisory
-- **First seen:** 2026-11-12T20:37+03:00 EAT · **Source date:** 2026-11-12
-- **URL:** https://www.federalregister.gov/api/v1/public-inspection-documents/current.json
-- **Extract:** {"count":121,"results":[{"agencies":[{"raw_name":"Housing and Urban Development Department","name":"Housing and Urban Development Department","id":228,"url":"https://www.federalregister.gov/agencies/housing-and-urban-development-department","json_url":"https:/
-- **Score parts:** tier +40, category +32, lead +3.6, relevance +0, freshness +9.7, corroborated +10, page_change -4
-
-### 🚨 [81.0] [page changed] Bank of Tanzania
-- **Verdict:** OPEN THIS — tier-1 central-bank page moved; content not auto-parsed, read it manually
-- **Source:** Bank of Tanzania · tier 1 · TZ · central-bank
-- **First seen:** 2026-11-13T05:28+03:00 EAT · **Source date:** 2026-11-13
-- **URL:** https://www.bot.go.tz/
-- **Extract:** Service unavailable — Bank of Tanzania Bank of Tanzania · Service notice We could not complete your request. Something unexpected went wrong on our end. Our team has been notified and is looking into it. Please try again in a few moments. Return to home Go bac
-- **Score parts:** tier +40, category +12, lead +3.6, relevance +0, freshness +19.4, corroborated +10, page_change -4
-
-### 🚨 [65.0] [page changed] Airlink news
-- **Verdict:** OPEN THIS — tier-1 airline page moved; content not auto-parsed, read it manually
-- **Source:** Airlink news · tier 1 · REG · airline
-- **First seen:** 2026-11-13T05:27+03:00 EAT · **Source date:** — none stated
-- **URL:** https://www.flyairlink.com/
-- **Extract:** Request unsuccessful. Incapsula incident ID: 361000440656464560-419113143674407722
-- **Score parts:** tier +40, category +12, lead +3.6, relevance +0, freshness +19.4, undated -6, page_change -4
-
-### 🟠 [106.1] KWS Hosts Stakeholder Validation Workshop for Black Rhino Recovery Plan
+### 🟠 [103.0] MOH, CHAI CONCLUDE MEETING TO ACCELERATE ACCESS TO INNOVATIVE RMNCAH COMMODITIES.
 - **Verdict:** STRONG — tier-1, upstream
-- **Source:** Kenya Wildlife Service · tier 1 · KE · parks
-- **First seen:** 2026-11-12T20:37+03:00 EAT · **Source date:** 2026-11-12
-- **URL:** https://kws.go.ke/kws-hosts-stakeholder-validation-workshop-for-black-rhino-recovery-plan
-- **Extract:** The Kenya Wildlife Service (KWS), with support from WWF-Kenya, today convened a stakeholder validation workshop for the 8th Edition of the Black Rhino Recovery and Action Plan covering the period 2027 to 2031, aimed at strengthening the country's black rhino c
-- **Score parts:** tier +40, category +18, lead +8.4, relevance +20, freshness +9.7, corroborated +10
+- **Source:** Uganda Ministry of Health — news · tier 1 · UG · health
+- **First seen:** 2026-11-13T14:06+03:00 EAT · **Source date:** 2026-11-12
+- **URL:** http://localhost:8080/MOH,-CHAI-CONCLUDE-MEETING-TO-ACCELERATE-ACCESS-TO-INNOVATIVE-RMNCAH-COMMODITIES.
+- **Score parts:** tier +40, category +24, lead +1.2, relevance +8, freshness +19.8, corroborated +10
 
-### 🟠 [95.8] SitRep N°181/MVE-BDBV/11/11/2026
+### 🟠 [103.0] MOH, CHAI CONCLUDE MEETING TO ACCELERATE ACCESS TO INNOVATIVE RMNCAH COMMODITIES.
 - **Verdict:** STRONG — tier-1, upstream
-- **Source:** INSP RDC — Ebola daily situation reports (SitRep) · tier 1 · GLOBAL · health
-- **First seen:** 2026-11-13T05:28+03:00 EAT · **Source date:** 2026-11-13
-- **URL:** https://insp.cd/sitrep-n181-mve-bdbv-11-11-2026
-- **Score parts:** tier +40, category +24, lead +2.4, relevance +0, freshness +19.4, corroborated +10
+- **Source:** Uganda Ministry of Health · tier 1 · UG · health
+- **First seen:** 2026-11-13T14:06+03:00 EAT · **Source date:** 2026-11-12
+- **URL:** http://localhost:8080/MOH,-CHAI-CONCLUDE-MEETING-TO-ACCELERATE-ACCESS-TO-INNOVATIVE-RMNCAH-COMMODITIES.
+- **Score parts:** tier +40, category +24, lead +1.2, relevance +8, freshness +19.8, corroborated +10
 
-### 🟠 [95.2] Hilton Named No. 1 on World’s Best Workplaces List for Second Consecutive Year, Remains Only Hospitality Company Ever to
+### 🟠 [96.8] Minister of State for Works and Transport (Transport) visits Entebbe International Airport
 - **Verdict:** STRONG — tier-1, upstream
-- **Source:** Hilton stories/newsroom · tier 1 · GLOBAL · hotel-group
-- **First seen:** 2026-11-13T05:27+03:00 EAT · **Source date:** 2026-11-12
-- **URL:** https://stories.hilton.com/releases/hilton-named-no-1-on-worlds-best-workplaces-list-for-second-consecutive-year
-- **Extract:** MCLEAN, Va. – As it is named the No. 1 World’s Best Workplace by Fortune and Great Place To Work for the third time and second consecutive year, Hilton (Nasdaq: HLT) is sharing new research that shows how frontline hospitality roles like ones on front desk or 
-- **Score parts:** tier +40, category +9, lead +16.8, relevance +0, freshness +19.4, corroborated +10
+- **Source:** Uganda Civil Aviation Authority · tier 1 · UG · aviation
+- **First seen:** 2026-11-13T14:07+03:00 EAT · **Source date:** 2026-11-13
+- **URL:** https://caa.go.ug/minister-of-state-for-works-and-transport-transport-visits-entebbe-international-airport
+- **Extract:** The Minister of State for Works and Transport (Transport), Hon. Julius Maganda Wandera, this morning visited and inspected facilities at Entebbe International Airport where he was received by members of the Uganda Civil Aviation Authority Executive Committee l
+- **Score parts:** tier +40, category +13, lead +6, relevance +8, freshness +19.8, corroborated +10
 
-### 🟡 [91.8] Alaska Expands Seattle Domestic Network in NS27
+### 🟠 [95.0] Kayunga Religious Leaders and District Stakeholders Commit to Strengthening Community Awareness on TB, HIV, Malaria and 
+- **Verdict:** STRONG — tier-1, upstream
+- **Source:** Uganda Ministry of Health — news · tier 1 · UG · health
+- **First seen:** 2026-11-13T14:06+03:00 EAT · **Source date:** 2026-11-12
+- **URL:** http://localhost:8080/Kayunga-Religious-Leaders-and-District-Stakeholders-Commit-to-Strengthening-Community-Awareness-on-TB,-HIV,-Malaria-and-NCDs.
+- **Score parts:** tier +40, category +24, lead +1.2, relevance +0, freshness +19.8, corroborated +10
+
+### 🟠 [95.0] Kayunga Religious Leaders and District Stakeholders Commit to Strengthening Community Awareness on TB, HIV, Malaria and 
+- **Verdict:** STRONG — tier-1, upstream
+- **Source:** Uganda Ministry of Health · tier 1 · UG · health
+- **First seen:** 2026-11-13T14:06+03:00 EAT · **Source date:** 2026-11-12
+- **URL:** http://localhost:8080/Kayunga-Religious-Leaders-and-District-Stakeholders-Commit-to-Strengthening-Community-Awareness-on-TB,-HIV,-Malaria-and-NCDs.
+- **Score parts:** tier +40, category +24, lead +1.2, relevance +0, freshness +19.8, corroborated +10
+
+### 🟡 [88.8] AVIATION RUN 2026
+- **Verdict:** CONSIDER
+- **Source:** Uganda Civil Aviation Authority · tier 1 · UG · aviation
+- **First seen:** 2026-11-13T14:07+03:00 EAT · **Source date:** 2026-11-13
+- **URL:** https://caa.go.ug/aviation-run-2026
+- **Extract:** As we count down to the Aviation Run scheduled to take place on 29 November 2026, Uganda Civil Aviation Authority extends its sincere appreciation to all our sponsors and partners for coming on board to support this initiative. Your commitment, generosity and 
+- **Score parts:** tier +40, category +13, lead +6, relevance +0, freshness +19.8, corroborated +10
+
+### 🟡 [88.2] Hainan Airlines Increases Haikou – Singapore Flights From Dec 2026
 - **Verdict:** CONSIDER
 - **Source:** AeroRoutes schedule filings · tier 2 · GLOBAL · aviation-tracker
-- **First seen:** 2026-11-13T05:28+03:00 EAT · **Source date:** 2026-11-13
-- **URL:** https://www.aeroroutes.com/eng/261112-asns27sea
-- **Extract:** Published at 1900PCT 12NOV26 / 0200GMT 13NOV26 Alaska Airlines today (12NOV26) announced domestic network additions at Seattle , with the launch of 4 routes in summer 2027. Seattle – Charlotte eff 10JUN27 1 daily 737-900ER AS704 SEA0830 – 1651CLT 73J D AS704 C
-- **Score parts:** tier +20, category +14, lead +8.4, relevance +20, freshness +19.4, corroborated +10
+- **First seen:** 2026-11-13T14:07+03:00 EAT · **Source date:** 2026-11-13
+- **URL:** https://www.aeroroutes.com/eng/261112-hunw26haksin
+- **Extract:** Published at 2115PCT 12NOV26 / 0415GMT 13NOV26 Hainan Airlines from mid-December 2026 schedules service increase on Haikou – Singapore route, as overall service for this sector increases from 18 to 21 weekly, effective 12DEC26. Additional flights operated by 7
+- **Score parts:** tier +20, category +14, lead +8.4, relevance +16, freshness +19.8, corroborated +10
 
-### 🟡 [88.2] UPPC, Ankole Western University granted Shs14.97 billion tax relief Thursday, 12 November 2026
+### 🟡 [88.2] Statistics Week 12th to 20th November 2026 – Join us Online
 - **Verdict:** CONSIDER
-- **Source:** Parliament of Uganda · tier 1 · UG · legislature
-- **First seen:** 2026-11-13T05:27+03:00 EAT · **Source date:** — none stated
-- **URL:** https://www.parliament.go.ug/news/4731/uppc-ankole-western-university-granted-shs1497-billion-tax-relief
-- **Score parts:** tier +40, category +10, lead +16.8, relevance +8, freshness +19.4, undated -6
+- **Source:** UBOS statistical releases · tier 1 · UG · statistics
+- **First seen:** 2026-11-13T14:06+03:00 EAT · **Source date:** 2026-11-13
+- **URL:** https://www.ubos.org/2026/11/13/statistics-week-12th-to-20th-november-2026
+- **Extract:** STATISTICS WEEK 12th to 20th NOVEMBER 2026 Africa Statistics Day (ASD) Theme: Institutionalizing water and sanitation statistics […] The post Statistics Week 12th to 20th November 2026 – Join us Online appeared first on Uganda Bureau of Statistics .
+- **Score parts:** tier +40, category +16, lead +2.4, relevance +0, freshness +19.8, corroborated +10
 
-### 🟡 [87.2] 12 Nov 26 MASHINDANO YA SHIMMUTA 2026 YAZINDULIWA RASMI MOROGORO, TIRA... Waziri Mkuu wa Jamhuri ya Muungano wa Tanzania
+### 🟡 [87.5] KAA hosts the 6th annual EMS Fire Symposium and Competition at JKIA
 - **Verdict:** CONSIDER
-- **Source:** Tanzania Insurance Regulatory Authority (TIRA) · tier 1 · TZ · regulator
-- **First seen:** 2026-11-13T05:27+03:00 EAT · **Source date:** — none stated
-- **URL:** https://www.tira.go.tz/news/mashindano-ya-shimmuta-2026-yazinduliwa-rasmi-morogoro-tira-yashiriki
-- **Score parts:** tier +40, category +17, lead +16.8, relevance +0, freshness +19.4, undated -6
+- **Source:** Kenya Airports Authority · tier 1 · KE · aviation
+- **First seen:** 2026-11-13T14:06+03:00 EAT · **Source date:** 2026-11-13
+- **URL:** https://www.kaa.go.ke/kaa-hosts-6th-annual-ems-fire-symposium-and-competition
+- **Extract:** Firefighters, emergency medical teams and other first responders from across the country have been at the KAA Training Academy, JKIA, since Monday, 9 November 2026 for the 6th annual EMS Fire Symposium and Competition.
+- **Score parts:** tier +40, category +13, lead +4.8, relevance +0, freshness +19.7, corroborated +10
 
-### 🟡 [85.2] INVITATION FOR APPLICATIONS FOR CUSTOMS DUTY REMISSIONS FOR THE THIRD QUARTER OF THE FINANCIAL YEAR 2026/2027
-- **Verdict:** CONSIDER
-- **Source:** Tanzania Revenue Authority · tier 1 · TZ · fiscal
-- **First seen:** 2026-11-13T05:27+03:00 EAT · **Source date:** — none stated
-- **URL:** https://www.tra.go.tz/images/uploads/public_notice/english/PUBLIC_NOTICE_CUSTOMS_REMISSION_THIRD_QUARTER_2026.pdf
-- **Extract:** ¶ÿ þã@ñE¯x&ý?Æ ÒgüGsÌì¿ÊXÁô®¹oÈ'×îf êîí ã]M  Üÿ f´}»¼µ-ã55#*º`HÁd æÿ á*lÇÏýtÿ ëRÿ ÂTçÌßßþµn¥¤g¬¡â 8ÿ ËV ðGü$:wüõoûàÐ­TÕf 6yam®«qÓ­ÿ  ÿ =[þø5[RÖ¬.4éâRÎë6@|=u=ÝIpûØHT cñ­JÉðÒãGCêÌZÖ +/Ä¯g§þèâIÐGoS@¿Öí,ÆXË ê©Ûêk ¡»º
-- **Score parts:** tier +40, category +15, lead +16.8, relevance +0, freshness +19.4, undated -6
-
-### 🟡 [85.0] Touchdown in München: Lufthansa bringt New England Patriots zum NFL Munich Game nach Deutschland
-- **Verdict:** CONSIDER
-- **Source:** Lufthansa Group newsroom · tier 1 · GLOBAL · airline
-- **First seen:** 2026-11-13T05:27+03:00 EAT · **Source date:** 2026-11-12
-- **URL:** https://newsroom.lufthansagroup.com/touchdown-in-muenchen-lufthansa-bringt-new-england-patriots-zum-nfl-munich-game-nach-deutschland
-- **Extract:** Um 09:38 Uhr Ortszeit ist am heutigen Donnerstag Lufthansa Sonderflug LH2573 aus Boston am Flughafen München gelandet. An Bord: die Football-Mannschaft New England Patriots, die zum „NFL Munich Game“ nach Deutschland reist. Direkt nach der Landung wurde das Te
-- **Score parts:** tier +40, category +12, lead +3.6, relevance +0, freshness +19.4, corroborated +10
-
-### 🟡 [80.2] 𝐆𝐎𝐕𝐄𝐑𝐍𝐎𝐑 𝐍𝐃𝐄𝐓𝐈 𝐀𝐍𝐃 𝐒𝐏𝐄𝐀𝐊𝐄𝐑 𝐊𝐈𝐔𝐒𝐘𝐀 𝐁𝐔𝐑𝐑𝐘 𝐓𝐇𝐄 𝐇𝐀𝐓𝐂𝐇𝐄𝐓 𝐅𝐎𝐑 𝐓𝐇𝐄 𝐆𝐑𝐄𝐀𝐓𝐄𝐑 𝐆𝐎𝐎𝐃 𝐎𝐅 𝐌𝐀𝐂𝐇𝐀𝐊𝐎𝐒 𝐑𝐄𝐒𝐈𝐃𝐄𝐍𝐓𝐒 ​
-- **Verdict:** CONSIDER
-- **Source:** Parliament of Kenya — bills & papers · tier 1 · KE · legislature
-- **First seen:** 2026-11-13T05:27+03:00 EAT · **Source date:** — none stated
-- **URL:** https://www.parliament.go.ke/index.php/node/26657
-- **Score parts:** tier +40, category +10, lead +16.8, relevance +0, freshness +19.4, undated -6
-
-### 🟡 [80.2] 𝐆𝐎𝐕𝐄𝐑𝐍𝐎𝐑 𝐍𝐃𝐄𝐓𝐈 𝐀𝐍𝐃 𝐒𝐏𝐄𝐀𝐊𝐄𝐑 𝐊𝐈𝐔𝐒𝐘𝐀 𝐁𝐔𝐑𝐑𝐘 𝐓𝐇𝐄 𝐇𝐀𝐓𝐂𝐇𝐄𝐓 𝐅𝐎𝐑 𝐓𝐇𝐄 𝐆𝐑𝐄𝐀𝐓𝐄𝐑 𝐆𝐎𝐎𝐃 𝐎𝐅 𝐌𝐀𝐂𝐇𝐀𝐊𝐎𝐒 𝐑𝐄𝐒𝐈𝐃𝐄𝐍𝐓𝐒 ​
-- **Verdict:** CONSIDER
-- **Source:** Parliament of Kenya — bills & papers · tier 1 · KE · legislature
-- **First seen:** 2026-11-13T05:27+03:00 EAT · **Source date:** — none stated
-- **URL:** https://www.parliament.go.ke/node/26657
-- **Score parts:** tier +40, category +10, lead +16.8, relevance +0, freshness +19.4, undated -6
-
-### 🟡 [80.2] Gov't intervenes in illegal sale of Lugazi Catholic Church land Thursday, 12 November 2026
-- **Verdict:** CONSIDER
-- **Source:** Parliament of Uganda · tier 1 · UG · legislature
-- **First seen:** 2026-11-13T05:27+03:00 EAT · **Source date:** — none stated
-- **URL:** https://www.parliament.go.ug/news/4732/govt-intervenes-illegal-sale-lugazi-catholic-church-land
-- **Score parts:** tier +40, category +10, lead +16.8, relevance +0, freshness +19.4, undated -6
-
-### 🟡 [80.2] Gov’t requires Shs15 billion for HIV/AIDS prevention messages Thursday, 12 November 2026
-- **Verdict:** CONSIDER
-- **Source:** Parliament of Uganda · tier 1 · UG · legislature
-- **First seen:** 2026-11-13T05:27+03:00 EAT · **Source date:** — none stated
-- **URL:** https://www.parliament.go.ug/news/4730/govt-requires-shs15-billion-hivaids-prevention-messages
-- **Score parts:** tier +40, category +10, lead +16.8, relevance +0, freshness +19.4, undated -6
-
-### 🟡 [80.2] Petition Parliament with your evidence - Speaker Oboth Thursday, 12 November 2026
-- **Verdict:** CONSIDER
-- **Source:** Parliament of Uganda · tier 1 · UG · legislature
-- **First seen:** 2026-11-13T05:27+03:00 EAT · **Source date:** — none stated
-- **URL:** https://www.parliament.go.ug/news/4729/petition-parliament-your-evidence-speaker-oboth
-- **Score parts:** tier +40, category +10, lead +16.8, relevance +0, freshness +19.4, undated -6
-
-### 🟡 [80.1] Court opens door for refugees to join Kenyan formal labour market
+### 🟡 [86.2] Attacks on health workers hamper Congo Ebola fight, Africa CDC warns
 - **Verdict:** CONSIDER
 - **Source:** Nation Africa: Kenya business · tier 2 · KE · press
-- **First seen:** 2026-11-12T20:37+03:00 EAT · **Source date:** 2026-11-12
-- **URL:** https://nation.africa/kenya/news/court-opens-door-for-refugees-to-join-kenyan-formal-labour-market--5668082
-- **Shock language:** strike
-- **Extract:** Judge strikes down barriers to refugees' work permits.
-- **Score parts:** tier +20, category +4, lead +2.4, relevance +16, freshness +9.7, corroborated +10, shock +18
-
-### 🟡 [79.8] WAHUDUMU WA AFYA NGAZI YA JAMII, KUSHIRIKI KAMPENI YA BI...
-- **Verdict:** CONSIDER
-- **Source:** Tanzania Ministry of Health · tier 1 · TZ · health
-- **First seen:** 2026-11-13T05:28+03:00 EAT · **Source date:** — none stated
-- **URL:** https://www.moh.go.tz/news-single/wahudumu-wa-afya-ngazi-ya-jamii-kushiriki-kampeni-ya-bima-ya-afya-arusha
-- **Score parts:** tier +40, category +24, lead +2.4, relevance +0, freshness +19.4, undated -6
-
-### 🟡 [79.8] WIZARA YA AFYA, TERUMO BCT KUSHIRIKIANA KUIMARISHA H...
-- **Verdict:** CONSIDER
-- **Source:** Tanzania Ministry of Health · tier 1 · TZ · health
-- **First seen:** 2026-11-13T05:28+03:00 EAT · **Source date:** — none stated
-- **URL:** https://www.moh.go.tz/news-single/wizara-ya-afya-terumo-bct-kushirikiana-kuimarisha-huduma-za-sikoseli-nchini
-- **Score parts:** tier +40, category +24, lead +2.4, relevance +0, freshness +19.4, undated -6
-
-### 🟡 [79.6] Redefining Flying: Where Innovation Meets the Human Touch
-- **Verdict:** CONSIDER
-- **Source:** Skift · tier 2 · GLOBAL · trade
-- **First seen:** 2026-11-13T05:28+03:00 EAT · **Source date:** 2026-11-13
-- **URL:** https://skift.com/2026/11/12/redefining-flying-where-innovation-meets-the-human-touch
-- **Extract:** Airlines seeking more premium revenue must decide how to allocate limited cabin space between higher-value seats, traditional amenities, and new passenger experiences.
-- **Score parts:** tier +20, category +5, lead +1.2, relevance +24, freshness +19.4, corroborated +10
-
-### 🟡 [79.6] Boeing on Market Forces Shaping Fleets and Routes Through 2045
-- **Verdict:** CONSIDER
-- **Source:** Skift · tier 2 · GLOBAL · trade
-- **First seen:** 2026-11-13T05:28+03:00 EAT · **Source date:** 2026-11-13
-- **URL:** https://skift.com/2026/11/12/boeing-on-market-forces-shaping-fleets-and-routes-through-2045
-- **Extract:** Aviation's next phase of growth will require airlines, manufacturers, and airports to make long-term investment decisions around sharply different regional demand patterns.
-- **Score parts:** tier +20, category +5, lead +1.2, relevance +24, freshness +19.4, corroborated +10
-
-### 🟡 [77.8] Attacks on health workers hamper Congo Ebola fight, Africa CDC warns
-- **Verdict:** CONSIDER
-- **Source:** Daily Monitor (Uganda) · tier 2 · UG · press
-- **First seen:** 2026-11-13T00:22+03:00 EAT · **Source date:** 2026-11-12
-- **URL:** https://www.monitor.co.ug/uganda/news/attacks-on-health-workers-hamper-congo-ebola-fight-africa-cdc-warns-5668892
+- **First seen:** 2026-11-13T14:07+03:00 EAT · **Source date:** 2026-11-13
+- **URL:** https://nation.africa/kenya/news/africa/attacks-on-health-workers-hamper-congo-ebola-fight-africa-cdc-warns-5669136
 - **Shock language:** attack
-- **Extract:** WHO warns violence could reverse gains in DRC Ebola response
-- **Score parts:** tier +20, category +4, lead +0, relevance +12, freshness +13.8, corroborated +10, shock +18
+- **Extract:** An attack in North Kivu last week by an armed group killed 66 people, including three health...
+- **Score parts:** tier +20, category +4, lead +2.4, relevance +12, freshness +19.8, corroborated +10, shock +18
 
-### 🟡 [76.8] Traversing.ai Brings End-to-End Direct Booking and Guest Services to ChatGPT for Rio Las Vegas
-- **Verdict:** CONSIDER
-- **Source:** HVS — market reports and event-impact studies (via Hotel News Resource) · tier 2 · GLOBAL · trade
-- **First seen:** 2026-11-13T05:28+03:00 EAT · **Source date:** 2026-11-12
-- **URL:** https://www.hotelnewsresource.com/article143731.html
-- **Extract:** Traversing.ai has implemented its end-to-end direct booking and guest service platform within ChatGPT for the Rio Las Vegas, enabling guests to make reservations and access hotel services through AI-powered chat interactions.
-- **Score parts:** tier +20, category +5, lead +2.4, relevance +20, freshness +19.4, corroborated +10
-
-### 🟡 [75.6] How Embraer and Porter Airlines Consider Matching the Jet to the Market
+### 🟡 [86.0] Saudi Hotel Builders Keep Going as Attacks Scare Off Foreign Visitors
 - **Verdict:** CONSIDER
 - **Source:** Skift · tier 2 · GLOBAL · trade
-- **First seen:** 2026-11-13T05:28+03:00 EAT · **Source date:** 2026-11-13
-- **URL:** https://skift.com/2026/11/12/how-embraer-and-porter-airlines-consider-matching-the-jet-to-the-market
-- **Extract:** Airlines choosing new aircraft must weigh lower per-seat operating costs against the revenue consequences of deploying more capacity than a market can support.
-- **Score parts:** tier +20, category +5, lead +1.2, relevance +20, freshness +19.4, corroborated +10
+- **First seen:** 2026-11-13T14:07+03:00 EAT · **Source date:** 2026-11-13
+- **URL:** https://skift.com/2026/11/12/saudi-hotel-builders-keep-going-as-attacks-scare-off-foreign-visitors
+- **Shock language:** attack
+- **Extract:** Saudi hotel developers are still building through Houthi attacks, and a record pipeline shows it. But their bet rests on domestic and religious travel. The international guests that Vision 2030 needs are the ones the attacks are scaring off.
+- **Score parts:** tier +20, category +5, lead +1.2, relevance +12, freshness +19.8, corroborated +10, shock +18
 
-### 🟡 [74.2] WIZARA YA AFYA, TERUMO BCT KUSHIRIKIANA KUIMARISHA HUDUM...
+### 🟡 [84.2] Air New Zealand Sep/Oct 2027 Taipei Service Increases
 - **Verdict:** CONSIDER
-- **Source:** Tanzania Ministry of Health · tier 1 · TZ · health
-- **First seen:** 2026-11-13T00:21+03:00 EAT · **Source date:** — none stated
-- **URL:** https://www.moh.go.tz/news-single/wizara-ya-afya-terumo-bct-kushirikiana-kuimarisha-huduma-za-sikoseli-nchini
-- **Score parts:** tier +40, category +24, lead +2.4, relevance +0, freshness +13.8, undated -6
+- **Source:** AeroRoutes schedule filings · tier 2 · GLOBAL · aviation-tracker
+- **First seen:** 2026-11-13T14:07+03:00 EAT · **Source date:** 2026-11-13
+- **URL:** https://www.aeroroutes.com/eng/261112-nzsep27tpe
+- **Extract:** Published at 2330PCT 12NOV26 / 0630GMT 13NOV26 Air New Zealand in September and October 2027 plans service increases on Auckland – Taipei Taoyuan route, operated by Boeing 787-9. From 19SEP27 to 30OCT27, the airline serves this route 5 times weekly, instead of
+- **Score parts:** tier +20, category +14, lead +8.4, relevance +12, freshness +19.8, corroborated +10
 
-### 🟡 [74.2] RAI YATOLEWA KWA WANANCHI KUZINGATIA MITINDO BORA YA...
+### 🟡 [84.2] Philippine Airlines Maintains A330 Dubai Service in NW26
 - **Verdict:** CONSIDER
-- **Source:** Tanzania Ministry of Health · tier 1 · TZ · health
-- **First seen:** 2026-11-13T00:21+03:00 EAT · **Source date:** — none stated
-- **URL:** https://www.moh.go.tz/news-single/rai-yatolewa-kwa-wananchi-kuzingatia-mitindo-bora-ya-maisha
-- **Score parts:** tier +40, category +24, lead +2.4, relevance +0, freshness +13.8, undated -6
+- **Source:** AeroRoutes schedule filings · tier 2 · GLOBAL · aviation-tracker
+- **First seen:** 2026-11-13T14:07+03:00 EAT · **Source date:** 2026-11-13
+- **URL:** https://www.aeroroutes.com/eng/261112-prnw26dxb
+- **Extract:** Published at 2030PCT 12NOV26 / 0330GMT 13NOV26 Philippine Airlines during Northern winter 2026/27 season is maintaining Airbus A330-300 aircraft operation on Manila – Dubai route, based on recent schedule update. The airline previously planned to switch to 777
+- **Score parts:** tier +20, category +14, lead +8.4, relevance +12, freshness +19.8, corroborated +10
 
-### 🟡 [74.2] KAMATI YA BUNGE YAPONGEZA JUHUDI ZA RAIS SAMIA KUFIK...
+### 🟡 [84.2] Sun PhuQuoc Expands Seoul Service in 1Q27
 - **Verdict:** CONSIDER
-- **Source:** Tanzania Ministry of Health · tier 1 · TZ · health
-- **First seen:** 2026-11-13T00:21+03:00 EAT · **Source date:** — none stated
-- **URL:** https://www.moh.go.tz/news-single/kamati-ya-bunge-yapongeza-juhudi-za-rais-samia-kufikia-malengo-ya-3-zero
-- **Score parts:** tier +40, category +24, lead +2.4, relevance +0, freshness +13.8, undated -6
+- **Source:** AeroRoutes schedule filings · tier 2 · GLOBAL · aviation-tracker
+- **First seen:** 2026-11-13T14:07+03:00 EAT · **Source date:** 2026-11-13
+- **URL:** https://www.aeroroutes.com/eng/261112-9gnw26icn
+- **Extract:** Published at 1945PCT 12NOV26 / 0245GMT 13NOV26 Sun PhuQuoc Airways in the first quarter of 2027 plans to launch additional flights on Phu Quoc – Seoul Incheon route. From 01JAN27, the carrier will launch 3rd daily flight, on board Airbus A321neo. 9G450 PQC0240
+- **Score parts:** tier +20, category +14, lead +8.4, relevance +12, freshness +19.8, corroborated +10
 
-### 🟡 [74.2] WIZARA YA AFYA YAIMARISHA UTAYARI WA WATUMISHI WA AF...
+### 🟡 [82.2] From threats and attacks to death and disappearance, journalists pay the price
 - **Verdict:** CONSIDER
-- **Source:** Tanzania Ministry of Health · tier 1 · TZ · health
-- **First seen:** 2026-11-13T00:21+03:00 EAT · **Source date:** — none stated
-- **URL:** https://www.moh.go.tz/news-single/wizara-ya-afya-yaimarisha-utayari-wa-watumishi-wa-afya-ruvuma-kukabiliana-na-ugonjwa-wa-ebola
-- **Score parts:** tier +40, category +24, lead +2.4, relevance +0, freshness +13.8, undated -6
+- **Source:** Nation Africa: Kenya business · tier 2 · KE · press
+- **First seen:** 2026-11-13T14:07+03:00 EAT · **Source date:** 2026-11-13
+- **URL:** https://nation.africa/kenya/blogs-opinion/opinion/from-threats-and-attacks-to-death-and-disappearance-journalists-pay-the-price-5668732
+- **Shock language:** attack
+- **Extract:** As Kenya heads to the General Election next year, this should become the rallying call...
+- **Score parts:** tier +20, category +4, lead +2.4, relevance +8, freshness +19.8, corroborated +10, shock +18
 
-### 🟡 [74.2] TANZANIA YAENDELEA KUJIZATITI KUKABILIANA NA UGONJWA...
+### 🟡 [80.2] Ministry of Health and Kakamega County Review Plans for Operationalisation of Level Six Hospital
 - **Verdict:** CONSIDER
-- **Source:** Tanzania Ministry of Health · tier 1 · TZ · health
-- **First seen:** 2026-11-13T00:21+03:00 EAT · **Source date:** — none stated
-- **URL:** https://www.moh.go.tz/news-single/tanzania-yaendelea-kujizatiti-kukabiliana-na-ugonjwa-wa-ebola
-- **Score parts:** tier +40, category +24, lead +2.4, relevance +0, freshness +13.8, undated -6
+- **Source:** Kenya Ministry of Health · tier 1 · KE · health
+- **First seen:** 2026-11-13T14:07+03:00 EAT · **Source date:** — none stated
+- **URL:** https://www.health.go.ke/ministry-health-and-kakamega-county-review-plans-operationalisation-level-six-hospital
+- **Score parts:** tier +40, category +24, lead +2.4, relevance +0, freshness +19.8, undated -6
 
-### 🟡 [74.2] TANZANIA ,PFIZER KUIMARISHA UPATIKANAJI WA DAWA NA H...
+### 🟡 [79.8] Congo’s Ebola outbreak surpasses 11,000 cases, with more than 5,300 deaths Nov 11 - 2 min read
 - **Verdict:** CONSIDER
-- **Source:** Tanzania Ministry of Health · tier 1 · TZ · health
-- **First seen:** 2026-11-13T00:21+03:00 EAT · **Source date:** — none stated
-- **URL:** https://www.moh.go.tz/news-single/tanzania-pfizer-kuimarisha-upatikanaji-wa-dawa-na-huduma-bora-za-afya-nchini
-- **Score parts:** tier +40, category +24, lead +2.4, relevance +0, freshness +13.8, undated -6
+- **Source:** The Citizen (Tanzania) · tier 2 · TZ · press
+- **First seen:** 2026-11-13T14:07+03:00 EAT · **Source date:** — none stated
+- **URL:** https://www.thecitizen.co.tz/tanzania/news/africa/congo-s-ebola-outbreak-surpasses-11-000-cases-with-more-than-5-300-deaths-5666292
+- **Shock language:** outbreak
+- **Score parts:** tier +20, category +4, lead +0, relevance +24, freshness +19.8, undated -6, shock +18
 
-### 🟡 [74.2] UBORA WA HUDUMA UPIMWE KUPITIA MATOKEO KWA WANANCHI...
+### 🟡 [76.2] Sun PhuQuoc Airways Increases Almaty Flights in 1Q27
 - **Verdict:** CONSIDER
-- **Source:** Tanzania Ministry of Health · tier 1 · TZ · health
-- **First seen:** 2026-11-13T00:21+03:00 EAT · **Source date:** — none stated
-- **URL:** https://www.moh.go.tz/news-single/ubora-wa-huduma-upimwe-kupitia-matokeo-kwa-wananchi
-- **Score parts:** tier +40, category +24, lead +2.4, relevance +0, freshness +13.8, undated -6
+- **Source:** AeroRoutes schedule filings · tier 2 · GLOBAL · aviation-tracker
+- **First seen:** 2026-11-13T14:07+03:00 EAT · **Source date:** 2026-11-13
+- **URL:** https://www.aeroroutes.com/eng/261112-9g1q27ala
+- **Extract:** Published at 2245PCT 12NOV26 / 0545GMT 13NOV26 Sun PhuQuoc Airways in the first quarter of 2027 plans to increase Phu Quoc – Almaty flights, as overall service increases from 3 to 5 weekly. Additional service to commence from 02JAN27, with A321LR. 9G221 PQC181
+- **Score parts:** tier +20, category +14, lead +8.4, relevance +4, freshness +19.8, corroborated +10
 
-### 🟡 [74.2] SERIKALI, WADAU KUIMARISHA URATIBU WA RASILIMALI NA ...
+### 🟡 [76.2] Shandong Airlines Jan 2027 Seoul Service Reductions
 - **Verdict:** CONSIDER
-- **Source:** Tanzania Ministry of Health · tier 1 · TZ · health
-- **First seen:** 2026-11-13T00:21+03:00 EAT · **Source date:** — none stated
-- **URL:** https://www.moh.go.tz/news-single/serikali-wadau-kuimarisha-uratibu-wa-rasilimali-na-utoaji-wa-huduma-za-afya-nchini
-- **Score parts:** tier +40, category +24, lead +2.4, relevance +0, freshness +13.8, undated -6
+- **Source:** AeroRoutes schedule filings · tier 2 · GLOBAL · aviation-tracker
+- **First seen:** 2026-11-13T14:07+03:00 EAT · **Source date:** 2026-11-13
+- **URL:** https://www.aeroroutes.com/eng/261112-scjan27icn
+- **Extract:** Published at 2200PCT 12NOV26 / 0500GMT 13NOV26 Shandong Airlines in January 2027 schedules service reductions to Korea, reflected in recent schedule update. Planned reductions as follows. Jinan – Seoul Incheon 01JAN27 – 31JAN27 Reduce from 5 to 4 daily, 737-80
+- **Score parts:** tier +20, category +14, lead +8.4, relevance +4, freshness +19.8, corroborated +10
 
-### 🟡 [74.0] Specifying Natural Stone for Hotel Bathrooms and Lobbies Without Costly Rework
+### 🟡 [70.4] U.S. hotel results for week ending 7 November
 - **Verdict:** CONSIDER
 - **Source:** Hospitality Net — Africa announcements · tier 2 · REG · trade
-- **First seen:** 2026-11-13T05:28+03:00 EAT · **Source date:** 2026-11-13
-- **URL:** https://www.hospitalitynet.org/opinion/4135457/specifying-natural-stone-for-hotel-bathrooms-and-lobbies-without-costly-rework
-- **Extract:** A stone fabricator's guide to avoiding costly rework: lock material specs, approve named slabs with cut layouts, detail working-side drawings, and inspect finished pieces against an agreed record before shipment.
-- **Score parts:** tier +20, category +5, lead +3.6, relevance +16, freshness +19.4, corroborated +10
+- **First seen:** 2026-11-13T14:07+03:00 EAT · **Source date:** 2026-11-13
+- **URL:** https://www.hospitalitynet.org/news/4135464/us-hotel-results-for-week-ending-7-november
+- **Extract:** U.S. hotels posted a 4.7% RevPAR gain for the week of 1-7 November 2026, with St. Louis leading Top 25 Markets and non-top-25 markets outperforming at +7.1%.
+- **Score parts:** tier +20, category +5, lead +3.6, relevance +12, freshness +19.8, corroborated +10
 
-### 🟡 [74.0] Webinar zu Williams und Tusayan: Arizona informiert Expis über Tore zum Grand Canyon
+### 🟡 [70.4] Boutique vs. Full-Service Hotels: What's Really the Difference and Who Wins?
 - **Verdict:** CONSIDER
-- **Source:** FVW / German travel trade · tier 2 · GLOBAL · source-market
-- **First seen:** 2026-11-13T05:28+03:00 EAT · **Source date:** 2026-11-12
-- **URL:** https://www.fvw.de/counter/verkauf/webinar-zu-williams-und-tusayan-arizona-informiert-ueber-tore-zum-grand-canyon-266033
-- **Extract:** Williams? Tusayan? Nicht jedem Reiseprofi sind die beiden Orte und ihr touristisches Profil ein Begriff – dabei gelten sie als Gateway zur bekanntesten Attraktion Arizonas, dem Grand Canyon. Was Urlauber dort sonst noch erleben können von der Route 66 bis zur 
-- **Score parts:** tier +20, category +9, lead +3.6, relevance +12, freshness +19.4, corroborated +10
-
-### 🟡 [74.0] TUI-Franchise-Tagung 2026 (+Galerie): 180 Touristiker zum Wandel im Tourismus
-- **Verdict:** CONSIDER
-- **Source:** FVW / German travel trade · tier 2 · GLOBAL · source-market
-- **First seen:** 2026-11-13T05:28+03:00 EAT · **Source date:** 2026-11-11
-- **URL:** https://www.fvw.de/touristik/vertrieb/tui-franchise-tagung-2026-galerie-180-touristiker-zum-wandel-im-tourismus-266002
-- **Extract:** 180 Inhaberinnen und Inhaber von TUI Reisecentern, First Reisebüros und Hapag-Lloyd Reisebüros folgten der Einladung von TUI Franchise ins Akra Didim an der südtürkischen Ägäis. Auf der TUI-Franchise-Management-Tagung stand der Wandel des Tourismus im Mittelpu
-- **Score parts:** tier +20, category +9, lead +3.6, relevance +12, freshness +19.4, corroborated +10
-
-### 🟡 [74.0] Fastjet Zimbabwe adds A320 capacity for peak holiday travel
-- **Verdict:** CONSIDER
-- **Source:** VoyagesAfriq · tier 2 · REG · trade
-- **First seen:** 2026-11-13T00:22+03:00 EAT · **Source date:** 2026-11-12
-- **URL:** https://voyagesafriq.com/2026/11/12/fastjet-zimbabwe-adds-a320-capacity-for-peak-holiday-travel
-- **Extract:** Fastjet Zimbabwe has today announced a significant increase in flight capacity on the popular Harare to Johannesburg route. During the busy festive season, the Zimbabwean airline will operate three Airbus A320 […] The post Fastjet Zimbabwe adds A320 capacity f
-- **Score parts:** tier +20, category +5, lead +1.2, relevance +24, freshness +13.8, corroborated +10
-
-### 🟡 [73.8] 'Runaway' police inspector charged with killing lawyer Kyalo Mbobu
-- **Verdict:** CONSIDER
-- **Source:** Nation Africa: Kenya business · tier 2 · KE · press
-- **First seen:** 2026-11-13T05:28+03:00 EAT · **Source date:** 2026-11-12
-- **URL:** https://nation.africa/kenya/news/-runaway-police-inspector-charged-with-killing-lawyer-kyalo-mbobu-5669000
-- **Shock language:** attack
-- **Extract:** The prosecution told the court that Mr Mbobu was killed in a commando-style attack.
-- **Score parts:** tier +20, category +4, lead +2.4, relevance +0, freshness +19.4, corroborated +10, shock +18
-
-### 🟡 [73.6] Expedia Confirms Cyberattack Through Third-Party Vendor
-- **Verdict:** CONSIDER
-- **Source:** Skift · tier 2 · GLOBAL · trade
-- **First seen:** 2026-11-13T05:28+03:00 EAT · **Source date:** 2026-11-13
-- **URL:** https://skift.com/2026/11/12/expedia-confirms-cyberattack-through-third-party-vendor
-- **Shock language:** attack
-- **Extract:** Expedia says attackers reached its systems through a compromised technology provider. The company has not disclosed the extent of any data exposure.
-- **Score parts:** tier +20, category +5, lead +1.2, relevance +0, freshness +19.4, corroborated +10, shock +18
+- **Source:** Hospitality Net — Africa announcements · tier 2 · REG · trade
+- **First seen:** 2026-11-13T14:07+03:00 EAT · **Source date:** 2026-11-13
+- **URL:** https://www.hospitalitynet.org/opinion/4135459/boutique-vs-full-service-hotels-whats-really-the-difference-and-who-wins
+- **Extract:** A detailed comparison of boutique and full-service hotel models covering amenities, service philosophy, loyalty programs, and notable examples to help professionals understand what each model does best.
+- **Score parts:** tier +20, category +5, lead +3.6, relevance +12, freshness +19.8, corroborated +10
