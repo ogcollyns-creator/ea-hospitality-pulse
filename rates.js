@@ -1,5 +1,5 @@
 window.RATE_INDEX = {
- "updated": "2026-11-15 12:27",
+ "updated": "2026-11-16 13:19",
  "convention": {
   "los": 2,
   "lead_days": 30,
@@ -12,7 +12,7 @@ window.RATE_INDEX = {
  "methodNote": "Each property is compared only with itself, so the index measures rate MOVEMENT validly even though the basket mixes meal bases and rate types. Raw medians are context only and are not comparable across markets — check levelComparable before quoting a level.",
  "wowNote": "wow is the matched-sample link for the latest week. wowClean is the same link computed only on pairs whose meal basis was KNOWN and UNCHANGED between the two weeks; basisChangedPairs counts the pairs excluded from it. Where basisChangedPairs is large relative to matched, the headline wow is partly a re-basing artefact — quote wowClean, or quote no move at all.",
  "spreadNote": "Commission-leakage spread = median of (OTA rate / direct rate - 1) for the same property in the same week. Computed only where the direct rate is room-only or B&B, since an OTA lowest rate is not comparable with a fully-inclusive safari rate. Markets where no property qualifies report null.",
- "totalObservations": 888,
+ "totalObservations": 891,
  "distinctProperties": 128,
  "basketSize": 134,
  "markets": {
@@ -576,31 +576,53 @@ window.RATE_INDEX = {
       "basisChangedPairs": 4,
       "cleanMatched": 0,
       "linkClean": null
+     },
+     {
+      "week": "2026-W47",
+      "weekStart": "2026-11-16",
+      "median": 292.0,
+      "n": 3,
+      "observations": 3,
+      "coverage": 19,
+      "confident": true,
+      "basisMix": {
+       "UNK": 3
+      },
+      "rateTypeMix": {
+       "international": 3
+      },
+      "levelComparable": true,
+      "matched": 3,
+      "link": 1.0015,
+      "index": 73.1,
+      "basisChangedPairs": 3,
+      "cleanMatched": 0,
+      "linkClean": null
      }
     ],
     "latest": {
-     "week": "2026-W46",
-     "weekStart": "2026-11-09",
-     "median": 257.0,
-     "n": 4,
-     "observations": 4,
-     "coverage": 25,
+     "week": "2026-W47",
+     "weekStart": "2026-11-16",
+     "median": 292.0,
+     "n": 3,
+     "observations": 3,
+     "coverage": 19,
      "confident": true,
      "basisMix": {
-      "UNK": 4
+      "UNK": 3
      },
      "rateTypeMix": {
-      "international": 4
+      "international": 3
      },
      "levelComparable": true,
-     "matched": 4,
-     "link": 0.96715,
-     "index": 73.0,
-     "basisChangedPairs": 4,
+     "matched": 3,
+     "link": 1.0015,
+     "index": 73.1,
+     "basisChangedPairs": 3,
      "cleanMatched": 0,
      "linkClean": null
     },
-    "wow": -3.3
+    "wow": 0.2
    },
    "spread": [
     {
