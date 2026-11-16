@@ -4,8 +4,9 @@ slug: east-africa-currency-cushion-dollar-rate-card
 description: For two decades East Africa's dollar-priced hotels carried an automatic hedge: when local costs rose, the local currency fell, and the gap closed itself. In 2026 that stopped working in half the region, and Rwanda's October inflation print shows what a property is left holding when it does.
 category: Big Read
 updated: 2026-11-16
+image: "img/editions/east-africa-currency-cushion-dollar-rate-card.jpg"
+image_credit: "Photograph: Onyango George / EA Hospitality Pulse"
 ---
-
 On 6 November the National Bank of Rwanda published its annual report, and on the face of it the news was good. Real GDP had grown 10.6 per cent in 2025/2026, up from 6.3 per cent the year before. Merchandise exports were up 33 per cent. And the Rwandan franc, which had shed 9.68 per cent against the US dollar in the previous financial year, had given up only 2.28 per cent in this one. Governor Soraya Hakuziyaremye identified persistent inflation as the central challenge, noting that the headline rate had averaged 9.2 per cent against a target band of 2 to 8 per cent. A stable currency and a double-digit growth rate is the combination every finance ministry in the region would like to be presenting.
 
 Four days later the National Institute of Statistics of Rwanda published the October consumer price index. National inflation was 26.5 per cent year on year. In urban areas, where the hotels are, it was 19.5 per cent. In rural areas it was 31.3 per cent. The monthly move alone was 6.5 per cent nationally. Those two documents, published inside a week by two arms of the same state, describe the same economy. For anyone running a hotel in Kigali, read together they describe a trap.
