@@ -1,5 +1,14 @@
 window.GUIDES = [
  {
+  "slug": "east-africa-currency-cushion-dollar-rate-card",
+  "title": "Uganda's shilling fell 16 per cent this year. Rwanda's franc fell 2. The same dollar rate card now means four different things.",
+  "description": "For two decades East Africa's dollar-priced hotels carried an automatic hedge: when local costs rose, the local currency fell, and the gap closed itself. In 2026 that stopped working in half the region, and Rwanda's October inflation print shows what a property is left holding when it does.",
+  "category": "Big Read",
+  "updated": "2026-11-16",
+  "readMins": 8,
+  "image": "img/editions/east-africa-currency-cushion-dollar-rate-card.jpg"
+ },
+ {
   "slug": "zanzibar-cctv-mandate-nobody-can-produce-the-order",
   "title": "Zanzibar's hotels have five weeks to install CCTV. Nobody has produced the order.",
   "description": "Three accounts published in two days gave the archipelago's hotels a 15 December deadline, a camera specification and a schedule of penalties. None of them cites a circular, a gazette notice or a named official, and they disagree on the one question that decides the price.",

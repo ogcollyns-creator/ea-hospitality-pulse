@@ -1,5 +1,14 @@
 window.EDITIONS = [
  {
+  "id": "foresight-2026-11-15",
+  "date": "2026-11-15",
+  "dateDisplay": "Sunday, 15 November 2026",
+  "edition": "Sunday Foresight",
+  "editionKey": "foresight",
+  "summary": "KENYA'S 42-DAY COUNTDOWN STARTED ON 11 NOVEMBER",
+  "bodyHtml": "<p><strong>Kenya&#x27;s Ebola-free date is 23 December, but Uganda&#x27;s 28 July all-clear took 106 days to reopen UAE visas and has not moved the US</strong><br><em>🏨 EA Hospitality Pulse · Sunday Foresight · Sun 15 Nov 2026</em></p>\n<p>Kenya discharged its last Ebola patient on 11 November. If no case follows, it can be declared Ebola-free on 23 December <strong>(Health Ministry, via Africanews, 11 Nov)</strong>. Owners now have a date. It is the wrong date to plan around.</p>\n<p><strong>What everyone is missing:</strong> Uganda ran this test first. Its ministry declared the outbreak over on 28 July; WHO confirmed in late August <strong>(Al Jazeera)</strong>. The UAE eased for Ugandans on 26 September and resumed visas on 11 November, 106 days later, and travellers must still be 21 days out of Uganda <strong>(The National, 11 Nov)</strong>. The US reissued Uganda&#x27;s Level 4 on 9 November and renewed its entry order to 10 December. The health clock is the shortest one. Demand runs on the others. Our inference, from one precedent: Gulf demand for Kenya returns in late Q1 2027, not at Christmas.<br>━━━━━━━━━<br>THE WEEK&#x27;S SIGNALS</p>\n<p><span class=\"item-head\">1️⃣ KENYA&#x27;S 42-DAY COUNTDOWN STARTED ON 11 NOVEMBER</span><br>Nine cases, two deaths <strong>(Africanews, 11 Nov)</strong>. Saudi Arabia&#x27;s visa suspension of 30 Oct names no end condition <strong>(Citizen Digital, 31 Oct)</strong>.<br><span class=\"sowhat\">🎯 So what: tie 2027 Gulf and US offers to the lifting of each measure, not to 23 Dec.</span><br><span class=\"tagline\">🏷 City, Bush, Beach | 🇰🇪 | Confirmed (dates) / Inference (lag) | impact:watch</span></p>\n<p><span class=\"item-head\">2️⃣ THE UAE REOPENED VISAS FOR UGANDANS ON 11 NOVEMBER, WITH A 21-DAY RULE</span><br>DRC and South Sudan stay suspended <strong>(The National; Gulf News, 11 Nov)</strong>.<br><span class=\"sowhat\">🎯 So what: Kampala hotels, keep Dubai-routed staff travel off the plan until January.</span><br><span class=\"tagline\">🏷 City | 🇺🇬 🇰🇪 | Confirmed | impact:demand</span></p>\n<p><span class=\"item-head\">3️⃣ THE US KEPT UGANDA AT LEVEL 4 AND RENEWED ITS ENTRY ORDER TO 10 DECEMBER</span><br>State Department reissue 9 Nov <strong>(Kenyans.co.ke, 10 Nov)</strong>; CDC order signed 10 Nov <strong>(Federal Register 2026-23114, 13 Nov)</strong>. Uganda told Parliament on 11 Nov that talks have not worked <strong>(UBC, 12 Nov)</strong>.<br><span class=\"sowhat\">🎯 So what: gorilla lodges, sell to UK and EU agents; the UK advises against no part of Uganda.</span><br><span class=\"tagline\">🏷 Bush | 🇺🇬 🇷🇼 | Confirmed | impact:risk</span></p>\n<p><span class=\"item-head\">4️⃣ EPRA HELD KENYA&#x27;S FUEL CAPS BY ABSORBING KSH10.54 A LITRE ON DIESEL</span><br>Nairobi diesel KSh227.76 to 14 Dec; KSh4.6bn drawn from the stabilisation fund <strong>(Citizen Digital; TV47, 14 Nov)</strong>. Rwanda&#x27;s October urban inflation hit 19.5%, hotels and restaurants 20.6% <strong>(NISR, 10 Nov)</strong>.<br><span class=\"sowhat\">🎯 So what: budget the 14 Dec review as a possible rise; it lands mid-peak.</span><br><span class=\"tagline\">🏷 City, Bush, Beach | 🇰🇪 🇷🇼 | Confirmed (prices) / Inference (Dec risk) | impact:margin</span><br>━━━━━━━━━<br>🔎 Blind spots: Zanzibar September arrivals (OCGS unreadable); WHO AFRO&#x27;s 15 Nov release; travel.state.gov (press-sourced).</p>\n<p><span class=\"meta-line\">📡 30/90-DAY DEMAND CALENDAR</span><br>🇺🇬 18 Nov — Uganda Airlines Entebbe–Kigali. Quote it to Kigali MICE.<br>🇷🇼 18–19 Nov — Africa Fintech Summit, Kigali. Hold city rate.<br>🇹🇿 20 Nov — IndiGo Mumbai–Dar, daily. Load India rates.<br>🇰🇪 3 Dec — Senate ruling on licence fees (LN 127). File evidence.<br>🇰🇪 9 Dec — CBK rate decision.<br>🇺🇸 10 Dec — CDC order expires. Hold US wording.<br>🇹🇿 12 Dec — World Travel Awards final, Serengeti.<br>🇰🇪 14 Dec — EPRA review.<br>🇰🇪 23 Dec — earliest Ebola-free date.</p>\n<p>Which of your markets reopens on a date you can name?</p>\n<p>🔗 This edition on the web: <a href=\"https://eahospitalitypulse.com/editions/foresight-2026-11-15.html\" rel=\"noopener\">eahospitalitypulse.com/editions/foresight-2026-11-15.html</a><br>💼 This week&#x27;s Big Read on LinkedIn: <a href=\"https://www.linkedin.com/company/ea-hospitality-pulse/\" rel=\"noopener\">linkedin.com/company/ea-hospitality-pulse/</a><br>— EA Hospitality Pulse | Daily intelligence for city, bush &amp; beach properties</p>"
+ },
+ {
   "id": "pulse-2026-11-11-evening",
   "date": "2026-11-11",
   "dateDisplay": "Wednesday, 11 November 2026",
@@ -1396,6 +1405,86 @@ window.EDITIONS = [
  }
 ];
 window.INSIGHTS = [
+ {
+  "headline": "KENYA'S 42-DAY COUNTDOWN STARTED ON 11 NOVEMBER",
+  "body": "Nine cases, two deaths *(Africanews, 11 Nov)*. Saudi Arabia's visa suspension of 30 Oct names no end condition *(Citizen Digital, 31 Oct)*.",
+  "sowhat": "🎯 So what: tie 2027 Gulf and US offers to the lifting of each measure, not to 23 Dec.",
+  "segments": [
+   "city",
+   "bush",
+   "beach"
+  ],
+  "countries": "🇰🇪",
+  "confidence": "Confirmed (dates) / Inference (lag)",
+  "impact": "watch",
+  "impactClass": "watch",
+  "intensity": 3,
+  "impactSet": "author",
+  "source": "foresight-2026-11-15",
+  "date": "2026-11-15",
+  "dateDisplay": "Sunday, 15 November 2026",
+  "edition": "Sunday Foresight",
+  "editionKey": "foresight"
+ },
+ {
+  "headline": "THE UAE REOPENED VISAS FOR UGANDANS ON 11 NOVEMBER, WITH A 21-DAY RULE",
+  "body": "DRC and South Sudan stay suspended *(The National; Gulf News, 11 Nov)*.",
+  "sowhat": "🎯 So what: Kampala hotels, keep Dubai-routed staff travel off the plan until January.",
+  "segments": [
+   "city"
+  ],
+  "countries": "🇺🇬 🇰🇪",
+  "confidence": "Confirmed",
+  "impact": "+demand",
+  "impactClass": "demand",
+  "intensity": 3,
+  "impactSet": "author",
+  "source": "foresight-2026-11-15",
+  "date": "2026-11-15",
+  "dateDisplay": "Sunday, 15 November 2026",
+  "edition": "Sunday Foresight",
+  "editionKey": "foresight"
+ },
+ {
+  "headline": "THE US KEPT UGANDA AT LEVEL 4 AND RENEWED ITS ENTRY ORDER TO 10 DECEMBER",
+  "body": "State Department reissue 9 Nov *(Kenyans.co.ke, 10 Nov)*; CDC order signed 10 Nov *(Federal Register 2026-23114, 13 Nov)*. Uganda told Parliament on 11 Nov that talks have not worked *(UBC, 12 Nov)*.",
+  "sowhat": "🎯 So what: gorilla lodges, sell to UK and EU agents; the UK advises against no part of Uganda.",
+  "segments": [
+   "bush"
+  ],
+  "countries": "🇺🇬 🇷🇼",
+  "confidence": "Confirmed",
+  "impact": "risk",
+  "impactClass": "risk",
+  "intensity": 3,
+  "impactSet": "author",
+  "source": "foresight-2026-11-15",
+  "date": "2026-11-15",
+  "dateDisplay": "Sunday, 15 November 2026",
+  "edition": "Sunday Foresight",
+  "editionKey": "foresight"
+ },
+ {
+  "headline": "EPRA HELD KENYA'S FUEL CAPS BY ABSORBING KSH10.54 A LITRE ON DIESEL",
+  "body": "Nairobi diesel KSh227.76 to 14 Dec; KSh4.6bn drawn from the stabilisation fund *(Citizen Digital; TV47, 14 Nov)*. Rwanda's October urban inflation hit 19.5%, hotels and restaurants 20.6% *(NISR, 10 Nov)*.",
+  "sowhat": "🎯 So what: budget the 14 Dec review as a possible rise; it lands mid-peak.",
+  "segments": [
+   "city",
+   "bush",
+   "beach"
+  ],
+  "countries": "🇰🇪 🇷🇼",
+  "confidence": "Confirmed (prices) / Inference (Dec risk)",
+  "impact": "-margin",
+  "impactClass": "margin",
+  "intensity": 3,
+  "impactSet": "author",
+  "source": "foresight-2026-11-15",
+  "date": "2026-11-15",
+  "dateDisplay": "Sunday, 15 November 2026",
+  "edition": "Sunday Foresight",
+  "editionKey": "foresight"
+ },
  {
   "headline": "Kenya's 42-day Ebola countdown started today; the target date is 23 December",
   "body": "**What happened.** Health CS Aden Duale said the last patient left treatment clear of the virus on 11 Nov, and the final 11 contacts were released. The tally is nine cases, two deaths and seven recoveries. Kenya is on course for an Ebola-free declaration on 23 Dec if no new case appears *(KBC; Kenyans.co.ke, 11 Nov)*. Duale said Kenya will issue no \"Ebola-free\" travel certificates, will not quarantine travellers for other countries, and is \"open for business\". **Read.** Inference: 23 Dec is too late to rescue December; it helps January to March bookings.",
@@ -8357,4 +8446,4 @@ window.INSIGHTS = [
   "editionKey": "evening"
  }
 ];
-window.BUILT_AT = "2026-11-11 15:15";
+window.BUILT_AT = "2026-11-16 08:02";

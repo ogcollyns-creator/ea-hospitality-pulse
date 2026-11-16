@@ -1,12 +1,12 @@
 window.LEDGER = {
- "updated": "2026-11-11 15:16",
+ "updated": "2026-11-16 08:03",
  "stats": {
-  "total": 261,
-  "open": 145,
-  "resolved": 114,
-  "correct": 83,
+  "total": 263,
+  "open": 140,
+  "resolved": 121,
+  "correct": 88,
   "partial": 1,
-  "incorrect": 30,
+  "incorrect": 32,
   "void": 2,
   "accuracy": 73
  },
@@ -92,22 +92,6 @@ window.LEDGER = {
    "overdue": true
   },
   {
-   "id": "P228",
-   "made_date": "2026-10-12",
-   "edition": "pulse-2026-10-12-evening",
-   "claim": "The CDC will issue a further renewal of its entry order on travellers from DRC, Uganda and South Sudan on or before 12 November 2026",
-   "resolution_criteria": "Check cdc.gov/port-health and the Federal Register to 12 Nov 2026. A successor order effective by then resolves CORRECT; lapse without successor resolves INCORRECT",
-   "resolve_by": "2026-11-12",
-   "market": "UG|KE|RW",
-   "segment": "Bush|City",
-   "confidence": "Medium",
-   "status": "open",
-   "resolved_date": "",
-   "evidence": "",
-   "source_url": "https://www.cdc.gov/port-health/media/pdfs/2026/10/Title-42-Order-October-11.pdf",
-   "overdue": false
-  },
-  {
    "id": "P248",
    "made_date": "2026-10-29",
    "edition": "pulse-2026-10-29-evening",
@@ -121,7 +105,7 @@ window.LEDGER = {
    "resolved_date": "",
    "evidence": "",
    "source_url": "",
-   "overdue": false
+   "overdue": true
   },
   {
    "id": "P253",
@@ -137,23 +121,7 @@ window.LEDGER = {
    "resolved_date": "",
    "evidence": "",
    "source_url": "",
-   "overdue": false
-  },
-  {
-   "id": "P254",
-   "made_date": "2026-11-04",
-   "edition": "pulse-2026-11-04-evening",
-   "claim": "CDC renews its Title 42 Ebola entry order covering the DRC, Uganda and South Sudan beyond 10 Nov 2026, with Uganda still listed",
-   "resolution_criteria": "CDC port-health order or Federal Register notice, or a law-firm summary of it (Erickson,AILA), dated by 14 Nov 2026 showing the order in force past 10 Nov with Uganda listed resolves CORRECT; lapse on 10 Nov or Uganda removed resolves INCORRECT",
-   "resolve_by": "2026-11-14",
-   "market": "UG",
-   "segment": "Bush|City",
-   "confidence": "Early signal",
-   "status": "open",
-   "resolved_date": "",
-   "evidence": "",
-   "source_url": "",
-   "overdue": false
+   "overdue": true
   },
   {
    "id": "P128",
@@ -169,23 +137,7 @@ window.LEDGER = {
    "resolved_date": "",
    "evidence": "",
    "source_url": "https://skift.com/2026/08/04/booking-holdings-saw-pressure-from-googles-ai-overviews/",
-   "overdue": false
-  },
-  {
-   "id": "P182",
-   "made_date": "2026-09-15",
-   "edition": "Morning Brief",
-   "claim": "Kenya's reduced 8% VAT rate on petrol, diesel and kerosene will be extended again beyond its 14 October 2026 expiry rather than being allowed to revert to 16% - it has already been rolled over once (15 Apr-14 Jul, then 15 Jul-14 Oct by KRA Order of 14 Jul 2026), and reversion would add roughly KSh 16/litre to the Nairobi diesel cap in the same cycle that two Gulf supply routes were severed",
-   "resolution_criteria": "A KRA Value Added Tax (Amendment of Rate of Tax) Order, Kenya Gazette notice, National Treasury or KRA statement, or Kenyan national press report (Business Daily, The Star, People Daily, Citizen Digital, Kenyans.co.ke) published on or before 15 November 2026 confirming the 8% rate on petrol, diesel and kerosene continues past 14 Oct 2026 resolves the call CORRECT. Confirmation that the rate reverted to 16% on 15 Oct 2026, or that no extension instrument was made and 16% applies, resolves it INCORRECT",
-   "resolve_by": "2026-11-15",
-   "market": "Kenya",
-   "segment": "Bush|Beach|City",
-   "confidence": "Medium",
-   "status": "open",
-   "resolved_date": "",
-   "evidence": "",
-   "source_url": "https://regfollower.com/kenya-kra-extends-8-vat-rate-on-fuel-products-through-14-october-2026/",
-   "overdue": false
+   "overdue": true
   },
   {
    "id": "P195",
@@ -201,7 +153,7 @@ window.LEDGER = {
    "resolved_date": "",
    "evidence": "",
    "source_url": "https://www.regulations.gov/docket/CDC-2026-0892",
-   "overdue": false
+   "overdue": true
   },
   {
    "id": "P227",
@@ -217,7 +169,7 @@ window.LEDGER = {
    "resolved_date": "",
    "evidence": "",
    "source_url": "https://www.kenyans.co.ke/news/127748-govt-suspends-meetings-seminars-hotels-after-ebola-case",
-   "overdue": false
+   "overdue": true
   },
   {
    "id": "P246",
@@ -233,7 +185,7 @@ window.LEDGER = {
    "resolved_date": "",
    "evidence": "",
    "source_url": "",
-   "overdue": false
+   "overdue": true
   },
   {
    "id": "P230",
@@ -249,70 +201,6 @@ window.LEDGER = {
    "resolved_date": "",
    "evidence": "",
    "source_url": "https://travel.state.gov/content/tsg_aem/us/en/home/international-travel/travel-advisories/destination.tza.html",
-   "overdue": false
-  },
-  {
-   "id": "P064",
-   "made_date": "2026-08-10",
-   "edition": "Evening Wrap",
-   "claim": "Kenya's EPRA super petrol price (Nairobi) in the review effective on/around 15 November 2026 will print ABOVE KSh 214.03/L — the 8% fuel-VAT concession (extended only to 14 Oct 2026) lapses and removes the prop holding today's flat price",
-   "resolution_criteria": "The EPRA monthly fuel price review effective on/around 15 Nov 2026 shows Nairobi super petrol above KSh 214.03/L. If at or below KSh 214.03/L the call is incorrect",
-   "resolve_by": "2026-11-20",
-   "market": "KE",
-   "segment": "All",
-   "confidence": "Early signal",
-   "status": "open",
-   "resolved_date": "",
-   "evidence": "",
-   "source_url": "https://www.epra.go.ke/",
-   "overdue": false
-  },
-  {
-   "id": "P233",
-   "made_date": "2026-10-18",
-   "edition": "foresight-2026-10-18",
-   "claim": "Rwanda urban CPI for October 2026 will stay above 15.0% year on year - September was 17.2% with restaurants and hotels at 18.9% and energy at 45%",
-   "resolution_criteria": "NISR October 2026 CPI report (statistics.gov.rw; expected around 10-12 Nov) shows urban annual inflation above 15.0% resolves CORRECT; at or below 15.0% resolves INCORRECT",
-   "resolve_by": "2026-11-20",
-   "market": "RW",
-   "segment": "City|Bush",
-   "confidence": "Medium",
-   "status": "open",
-   "resolved_date": "",
-   "evidence": "",
-   "source_url": "https://statistics.gov.rw/node/1836",
-   "overdue": false
-  },
-  {
-   "id": "P256",
-   "made_date": "2026-11-06",
-   "edition": "pulse-2026-11-06-evening",
-   "claim": "Kenya's EPRA review effective 15 Nov 2026 will set Nairobi super petrol above the current KSh226.96/L cap",
-   "resolution_criteria": "EPRA review effective on/around 15 Nov 2026 shows Nairobi super petrol above KSh226.96/L resolves CORRECT; at or below resolves INCORRECT; source EPRA press release or Business Daily,Citizen Digital coverage",
-   "resolve_by": "2026-11-20",
-   "market": "KE",
-   "segment": "City|Bush|Beach",
-   "confidence": "Medium",
-   "status": "open",
-   "resolved_date": "",
-   "evidence": "",
-   "source_url": "",
-   "overdue": false
-  },
-  {
-   "id": "P257",
-   "made_date": "2026-11-06",
-   "edition": "pulse-2026-11-06-evening",
-   "claim": "Tanzania's October 2026 headline CPI inflation will print at or above September's 4.3%",
-   "resolution_criteria": "NBS Tanzania October 2026 CPI release (scheduled 9 Nov per Tanzania Invest) shows headline annual inflation at or above 4.3% resolves CORRECT; below 4.3% resolves INCORRECT",
-   "resolve_by": "2026-11-20",
-   "market": "TZ",
-   "segment": "City|Bush|Beach",
-   "confidence": "Medium",
-   "status": "open",
-   "resolved_date": "",
-   "evidence": "",
-   "source_url": "",
    "overdue": false
   },
   {
@@ -1372,6 +1260,22 @@ window.LEDGER = {
    "overdue": false
   },
   {
+   "id": "P262",
+   "made_date": "2026-11-15",
+   "edition": "foresight-2026-11-15",
+   "claim": "Saudi Arabia will NOT lift its 30 October 2026 suspension of visas for travellers arriving from Kenya before 31 January 2027 - Uganda's precedent shows Gulf easing lags the end-of-outbreak declaration by weeks, and Kenya's earliest Ebola-free date is 23 December",
+   "resolution_criteria": "An official Saudi announcement (SPA or MoFA) lifting or easing the Kenya visa suspension dated on or before 31 Jan 2027 resolves INCORRECT; no such announcement by that date resolves CORRECT",
+   "resolve_by": "2027-01-31",
+   "market": "KE",
+   "segment": "Beach|City",
+   "confidence": "Medium",
+   "status": "open",
+   "resolved_date": "",
+   "evidence": "",
+   "source_url": "",
+   "overdue": false
+  },
+  {
    "id": "P010",
    "made_date": "2026-07-25",
    "edition": "Evening Wrap",
@@ -1381,6 +1285,22 @@ window.LEDGER = {
    "market": "UG",
    "segment": "City/Bush",
    "confidence": "Early signal",
+   "status": "open",
+   "resolved_date": "",
+   "evidence": "",
+   "source_url": "",
+   "overdue": false
+  },
+  {
+   "id": "P263",
+   "made_date": "2026-11-15",
+   "edition": "foresight-2026-11-15",
+   "claim": "The US State Department will still rate Kenya at Level 3 or higher on 31 January 2027, even if Kenya is declared Ebola-free on 23 December 2026",
+   "resolution_criteria": "travel.state.gov Kenya advisory level on 31 Jan 2027: Level 3 or 4 resolves CORRECT; Level 2 or 1 resolves INCORRECT",
+   "resolve_by": "2027-02-07",
+   "market": "KE",
+   "segment": "City|Bush|Beach",
+   "confidence": "Medium",
    "status": "open",
    "resolved_date": "",
    "evidence": "",
@@ -2333,6 +2253,118 @@ window.LEDGER = {
   }
  ],
  "resolved": [
+  {
+   "id": "P064",
+   "made_date": "2026-08-10",
+   "edition": "Evening Wrap",
+   "claim": "Kenya's EPRA super petrol price (Nairobi) in the review effective on/around 15 November 2026 will print ABOVE KSh 214.03/L — the 8% fuel-VAT concession (extended only to 14 Oct 2026) lapses and removes the prop holding today's flat price",
+   "resolution_criteria": "The EPRA monthly fuel price review effective on/around 15 Nov 2026 shows Nairobi super petrol above KSh 214.03/L. If at or below KSh 214.03/L the call is incorrect",
+   "resolve_by": "2026-11-20",
+   "market": "KE",
+   "segment": "All",
+   "confidence": "Early signal",
+   "status": "correct",
+   "resolved_date": "2026-11-15",
+   "evidence": "EPRA 14 Nov review set Nairobi super petrol at KSh226.96/L for 15 Nov-14 Dec, above 214.03",
+   "source_url": "https://www.citizen.digital/",
+   "overdue": false
+  },
+  {
+   "id": "P182",
+   "made_date": "2026-09-15",
+   "edition": "Morning Brief",
+   "claim": "Kenya's reduced 8% VAT rate on petrol, diesel and kerosene will be extended again beyond its 14 October 2026 expiry rather than being allowed to revert to 16% - it has already been rolled over once (15 Apr-14 Jul, then 15 Jul-14 Oct by KRA Order of 14 Jul 2026), and reversion would add roughly KSh 16/litre to the Nairobi diesel cap in the same cycle that two Gulf supply routes were severed",
+   "resolution_criteria": "A KRA Value Added Tax (Amendment of Rate of Tax) Order, Kenya Gazette notice, National Treasury or KRA statement, or Kenyan national press report (Business Daily, The Star, People Daily, Citizen Digital, Kenyans.co.ke) published on or before 15 November 2026 confirming the 8% rate on petrol, diesel and kerosene continues past 14 Oct 2026 resolves the call CORRECT. Confirmation that the rate reverted to 16% on 15 Oct 2026, or that no extension instrument was made and 16% applies, resolves it INCORRECT",
+   "resolve_by": "2026-11-15",
+   "market": "Kenya",
+   "segment": "Bush|Beach|City",
+   "confidence": "Medium",
+   "status": "correct",
+   "resolved_date": "2026-11-15",
+   "evidence": "Tax Laws (Amendment) Act signed 16 Oct extends the 8% rate for 90 days from 14 Oct; EPRA 14 Nov prices for 15 Nov-14 Dec still include VAT at 8% (Citizen Digital 14 Nov)",
+   "source_url": "https://www.citizen.digital/",
+   "overdue": false
+  },
+  {
+   "id": "P228",
+   "made_date": "2026-10-12",
+   "edition": "pulse-2026-10-12-evening",
+   "claim": "The CDC will issue a further renewal of its entry order on travellers from DRC, Uganda and South Sudan on or before 12 November 2026",
+   "resolution_criteria": "Check cdc.gov/port-health and the Federal Register to 12 Nov 2026. A successor order effective by then resolves CORRECT; lapse without successor resolves INCORRECT",
+   "resolve_by": "2026-11-12",
+   "market": "UG|KE|RW",
+   "segment": "Bush|City",
+   "confidence": "Medium",
+   "status": "correct",
+   "resolved_date": "2026-11-15",
+   "evidence": "CDC November Title 42 order signed 10 Nov 2026, runs to 10 Dec; published Federal Register 13 Nov (2026-23114)",
+   "source_url": "https://www.cdc.gov/port-health/media/pdfs/2026/11/November-T42-Order_signed.pdf",
+   "overdue": false
+  },
+  {
+   "id": "P233",
+   "made_date": "2026-10-18",
+   "edition": "foresight-2026-10-18",
+   "claim": "Rwanda urban CPI for October 2026 will stay above 15.0% year on year - September was 17.2% with restaurants and hotels at 18.9% and energy at 45%",
+   "resolution_criteria": "NISR October 2026 CPI report (statistics.gov.rw; expected around 10-12 Nov) shows urban annual inflation above 15.0% resolves CORRECT; at or below 15.0% resolves INCORRECT",
+   "resolve_by": "2026-11-20",
+   "market": "RW",
+   "segment": "City|Bush",
+   "confidence": "Medium",
+   "status": "correct",
+   "resolved_date": "2026-11-15",
+   "evidence": "NISR October 2026 CPI (10 Nov): urban inflation 19.5%, restaurants & hotels +20.6%",
+   "source_url": "https://www.statistics.gov.rw/",
+   "overdue": false
+  },
+  {
+   "id": "P254",
+   "made_date": "2026-11-04",
+   "edition": "pulse-2026-11-04-evening",
+   "claim": "CDC renews its Title 42 Ebola entry order covering the DRC, Uganda and South Sudan beyond 10 Nov 2026, with Uganda still listed",
+   "resolution_criteria": "CDC port-health order or Federal Register notice, or a law-firm summary of it (Erickson,AILA), dated by 14 Nov 2026 showing the order in force past 10 Nov with Uganda listed resolves CORRECT; lapse on 10 Nov or Uganda removed resolves INCORRECT",
+   "resolve_by": "2026-11-14",
+   "market": "UG",
+   "segment": "Bush|City",
+   "confidence": "Early signal",
+   "status": "correct",
+   "resolved_date": "2026-11-15",
+   "evidence": "CDC renewed the entry order on 10 Nov to 10 Dec 2026 with Uganda still listed",
+   "source_url": "https://www.cdc.gov/port-health/media/pdfs/2026/11/November-T42-Order_signed.pdf",
+   "overdue": false
+  },
+  {
+   "id": "P256",
+   "made_date": "2026-11-06",
+   "edition": "pulse-2026-11-06-evening",
+   "claim": "Kenya's EPRA review effective 15 Nov 2026 will set Nairobi super petrol above the current KSh226.96/L cap",
+   "resolution_criteria": "EPRA review effective on/around 15 Nov 2026 shows Nairobi super petrol above KSh226.96/L resolves CORRECT; at or below resolves INCORRECT; source EPRA press release or Business Daily,Citizen Digital coverage",
+   "resolve_by": "2026-11-20",
+   "market": "KE",
+   "segment": "City|Bush|Beach",
+   "confidence": "Medium",
+   "status": "incorrect",
+   "resolved_date": "2026-11-15",
+   "evidence": "EPRA 14 Nov held Nairobi super petrol at KSh226.96/L (unchanged), not above; KSh4.6bn stabilisation draw absorbed KSh8.58/L",
+   "source_url": "https://www.citizen.digital/",
+   "overdue": false
+  },
+  {
+   "id": "P257",
+   "made_date": "2026-11-06",
+   "edition": "pulse-2026-11-06-evening",
+   "claim": "Tanzania's October 2026 headline CPI inflation will print at or above September's 4.3%",
+   "resolution_criteria": "NBS Tanzania October 2026 CPI release (scheduled 9 Nov per Tanzania Invest) shows headline annual inflation at or above 4.3% resolves CORRECT; below 4.3% resolves INCORRECT",
+   "resolve_by": "2026-11-20",
+   "market": "TZ",
+   "segment": "City|Bush|Beach",
+   "confidence": "Medium",
+   "status": "incorrect",
+   "resolved_date": "2026-11-15",
+   "evidence": "NBS October 2026 CPI release (9 Nov): headline 4.2%, below September 4.3%",
+   "source_url": "https://www.nbs.go.tz/",
+   "overdue": false
+  },
   {
    "id": "P244",
    "made_date": "2026-10-27",
