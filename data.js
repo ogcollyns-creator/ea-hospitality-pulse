@@ -1,5 +1,14 @@
 window.EDITIONS = [
  {
+  "id": "pulse-2026-11-16-evening",
+  "date": "2026-11-16",
+  "dateDisplay": "Monday, 16 November 2026",
+  "edition": "Evening Wrap",
+  "editionKey": "evening",
+  "summary": "Canada's Ebola border rules on Uganda run out at 23:59 on 27 November, 11 days from now",
+  "bodyHtml": "<p><strong>Canada&#x27;s 21-day quarantine on travellers from Uganda expires on 27 November unless Ottawa renews it</strong><br><em>🌆 Evening Wrap · Mon 16 Nov 2026</em></p>\n<p>━━━━━━━━━<br><span class=\"item-head\">1️⃣ Canada&#x27;s Ebola border rules on Uganda run out at 23:59 on 27 November, 11 days from now</span></p>\n<p><strong>What happened.</strong> Foreign nationals who were in Uganda or South Sudan in the past 21 days must quarantine for 21 days; DRC presence bars entry. Citizens quarantine too, and transit counts <strong>(Public Health Agency of Canada page, modified 4 Nov, read 16 Nov)</strong>. IRCC separately bars Uganda residents from travelling on approved visas or eTAs to the same date <strong>(IRCC notice, 28 Sep)</strong>. Ottawa still says avoid non-essential travel to all of Uganda <strong>(travel.gc.ca, updated 13 Oct)</strong>.</p>\n<p><strong>Read.</strong> Inference: renewal is likelier than lapse. Ottawa extended for 60 days in September, the US renewed to 10 Dec, and Africa CDC says the DRC outbreak is not under control <strong>(15 Nov)</strong>.</p>\n<p><span class=\"sowhat\">🎯 So what: gorilla lodges and Kampala hotels, tell Canadian agents the rules stand to at least 27 Nov and quote no lifting date.</span><br><span class=\"tagline\">🏷 Bush, City | Uganda | Confirmed (rules, expiry) / Inference (renewal) | impact:risk</span></p>\n<p><span class=\"item-head\">2️⃣ More than six hippos have died on Lake Naivasha in two weeks, and KWS has not said why</span></p>\n<p>Some carcasses, floating near Kamere beach, showed no wounds, raising poisoning fears. KWS has issued no statement <strong>(Kenyans.co.ke, 15 Nov)</strong>.</p>\n<p><strong>Read.</strong> Inference: unexplained deaths on a lake also used by flower farms will draw questions about water quality.<br><span class=\"sowhat\">🎯 So what: Naivasha lodges, route boat safaris away from carcasses and give guests a factual line until KWS reports.</span><br><span class=\"tagline\">🏷 Bush | Kenya | Reported | impact:risk</span></p>\n<p><span class=\"item-head\">3️⃣ Ruto says Narok&#x27;s new airport will open to foreign tourists in 2027</span></p>\n<p>At the Maa festival on 14 Nov he said he would open it &quot;for tourists who are coming from abroad&quot;. Runway tarmacking was due to start today. Plans show a 1.5km runway and a terminal; no cost is published <strong>(Kenyans.co.ke, 14 Nov)</strong>.</p>\n<p><strong>Read.</strong> Inference: 1.5km suits turboprops, not long-haul jets, so this would compete with Mara airstrip flights, not Nairobi.<br><span class=\"sowhat\">🎯 So what: Mara camps, ask Narok County and the Transport Ministry for the terminal timetable before promising guests a Narok gateway.</span><br><span class=\"tagline\">🏷 Bush | Kenya | Confirmed (statement) / Inference (aircraft) | impact:watch</span></p>\n<p><strong>🏗 DEAL FLOW</strong><br>No verified EA deal flow in the window.</p>\n<p><strong>📻 ALSO TONIGHT</strong><br>🚆 Kenya Railways adds a daytime Madaraka Express each way, 1 Dec–4 Jan <strong>(Kenya Railways notice, 13 Nov)</strong>.<br>🇪🇹 Nigeria told travellers with heart or lung conditions to seek advice before transiting Addis, citing 16 altitude-linked deaths this year <strong>(Nigeria MFA, 13 Nov)</strong>.<br>✈ KLM&#x27;s A350 on its Tanzania loops slips from mid-December to 6–8 Jan; Nairobi from 5 Jan <strong>(AeroRoutes, 12 Nov)</strong>.<br>🛠 Corrections to our trackers: Rwanda&#x27;s tourist visa is US$50 single and US$70 multiple, not about US$35 <strong>(migration.gov.rw)</strong>. Tanzania&#x27;s insurance exemption covers EAC and SADC residents, not citizens <strong>(NIC)</strong>.</p>\n<p><strong>⏳ CATCHING UP</strong><br>🇰🇪 Hemingways Nairobi became Kenya&#x27;s first Leading Hotels of the World member <strong>(Hemingways via ATTA, 7 Oct)</strong>.<br>🇰🇪🇹🇿 Namanga cargo halted for about four days, 2–6 Nov, after a Kenyan clearing agent was found dead on the Tanzanian side <strong>(The Standard, 6 Nov)</strong>.</p>\n<p><strong>📅 WEEK AHEAD</strong> 18 Nov: Uganda Airlines Entebbe–Kigali. 20 Nov: KQ sixth weekly Heathrow. 27 Nov: Canada&#x27;s rules expire. 1–4 Dec: World Aquaculture, JNICC Dar.</p>\n<p><strong>🔍 BLIND SPOTS</strong> French Kenya advice undated; OCGS Zanzibar Sep–Oct arrivals not found; travel.state.gov unreadable.</p>\n<p>🔗 This edition on the web: <a href=\"https://eahospitalitypulse.com/editions/pulse-2026-11-16-evening.html\" rel=\"noopener\">eahospitalitypulse.com/editions/pulse-2026-11-16-evenin…</a></p>"
+ },
+ {
   "id": "foresight-2026-11-15",
   "date": "2026-11-15",
   "dateDisplay": "Sunday, 15 November 2026",
@@ -1405,6 +1414,64 @@ window.EDITIONS = [
  }
 ];
 window.INSIGHTS = [
+ {
+  "headline": "Canada's Ebola border rules on Uganda run out at 23:59 on 27 November, 11 days from now",
+  "body": "**What happened.** Foreign nationals who were in Uganda or South Sudan in the past 21 days must quarantine for 21 days; DRC presence bars entry. Citizens quarantine too, and transit counts *(Public Health Agency of Canada page, modified 4 Nov, read 16 Nov)*. IRCC separately bars Uganda residents from travelling on approved visas or eTAs to the same date *(IRCC notice, 28 Sep)*. Ottawa still says avoid non-essential travel to all of Uganda *(travel.gc.ca, updated 13 Oct)*. **Read.** Inference: renewal is likelier than lapse. Ottawa extended for 60 days in September, the US renewed to 10 Dec, and Africa CDC says the DRC outbreak is not under control *(15 Nov)*.",
+  "sowhat": "🎯 So what: gorilla lodges and Kampala hotels, tell Canadian agents the rules stand to at least 27 Nov and quote no lifting date.",
+  "segments": [
+   "city",
+   "bush"
+  ],
+  "countries": "Uganda",
+  "confidence": "Confirmed (rules, expiry) / Inference (renewal)",
+  "impact": "risk",
+  "impactClass": "risk",
+  "intensity": 3,
+  "impactSet": "author",
+  "source": "pulse-2026-11-16-evening",
+  "date": "2026-11-16",
+  "dateDisplay": "Monday, 16 November 2026",
+  "edition": "Evening Wrap",
+  "editionKey": "evening"
+ },
+ {
+  "headline": "More than six hippos have died on Lake Naivasha in two weeks, and KWS has not said why",
+  "body": "Some carcasses, floating near Kamere beach, showed no wounds, raising poisoning fears. KWS has issued no statement *(Kenyans.co.ke, 15 Nov)*. **Read.** Inference: unexplained deaths on a lake also used by flower farms will draw questions about water quality.",
+  "sowhat": "🎯 So what: Naivasha lodges, route boat safaris away from carcasses and give guests a factual line until KWS reports.",
+  "segments": [
+   "bush"
+  ],
+  "countries": "Kenya",
+  "confidence": "Reported",
+  "impact": "risk",
+  "impactClass": "risk",
+  "intensity": 2,
+  "impactSet": "author",
+  "source": "pulse-2026-11-16-evening",
+  "date": "2026-11-16",
+  "dateDisplay": "Monday, 16 November 2026",
+  "edition": "Evening Wrap",
+  "editionKey": "evening"
+ },
+ {
+  "headline": "Ruto says Narok's new airport will open to foreign tourists in 2027",
+  "body": "At the Maa festival on 14 Nov he said he would open it \"for tourists who are coming from abroad\". Runway tarmacking was due to start today. Plans show a 1.5km runway and a terminal; no cost is published *(Kenyans.co.ke, 14 Nov)*. **Read.** Inference: 1.5km suits turboprops, not long-haul jets, so this would compete with Mara airstrip flights, not Nairobi.",
+  "sowhat": "🎯 So what: Mara camps, ask Narok County and the Transport Ministry for the terminal timetable before promising guests a Narok gateway.",
+  "segments": [
+   "bush"
+  ],
+  "countries": "Kenya",
+  "confidence": "Confirmed (statement) / Inference (aircraft)",
+  "impact": "watch",
+  "impactClass": "watch",
+  "intensity": 3,
+  "impactSet": "author",
+  "source": "pulse-2026-11-16-evening",
+  "date": "2026-11-16",
+  "dateDisplay": "Monday, 16 November 2026",
+  "edition": "Evening Wrap",
+  "editionKey": "evening"
+ },
  {
   "headline": "KENYA'S 42-DAY COUNTDOWN STARTED ON 11 NOVEMBER",
   "body": "Nine cases, two deaths *(Africanews, 11 Nov)*. Saudi Arabia's visa suspension of 30 Oct names no end condition *(Citizen Digital, 31 Oct)*.",
@@ -8446,4 +8513,4 @@ window.INSIGHTS = [
   "editionKey": "evening"
  }
 ];
-window.BUILT_AT = "2026-11-16 08:22";
+window.BUILT_AT = "2026-11-17 09:08";

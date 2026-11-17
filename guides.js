@@ -1,5 +1,14 @@
 window.GUIDES = [
  {
+  "slug": "tanzania-in-park-beds-160-sites-nobody-flies-there",
+  "title": "Tanzania doubled the beds inside its national parks. The 160 sites it has just put on the market are in the parks nobody flies to.",
+  "description": "TANAPA's annual results, released on 10 November, show in-park bed capacity up from 5,755 to 12,094 since 2021, a revenue target missed by about 66 billion shillings, and domestic park visits down 7.7 per cent in a single year. The agency's answer is 160 more investment sites, 130 of them camps, concentrated in a circuit whose access project the government itself asked the World Bank to cancel.",
+  "category": "Big Read",
+  "updated": "2026-11-17",
+  "readMins": 7,
+  "image": "img/editions/tanzania-in-park-beds-160-sites-nobody-flies-there.jpg"
+ },
+ {
   "slug": "east-africa-currency-cushion-dollar-rate-card",
   "title": "Uganda's shilling fell 16 per cent this year. Rwanda's franc fell 2. The same dollar rate card now means four different things.",
   "description": "For two decades East Africa's dollar-priced hotels carried an automatic hedge: when local costs rose, the local currency fell, and the gap closed itself. In 2026 that stopped working in half the region, and Rwanda's October inflation print shows what a property is left holding when it does.",
