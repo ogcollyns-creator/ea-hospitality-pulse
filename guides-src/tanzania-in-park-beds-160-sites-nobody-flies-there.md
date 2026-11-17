@@ -4,8 +4,9 @@ slug: tanzania-in-park-beds-160-sites-nobody-flies-there
 description: TANAPA's annual results, released on 10 November, show in-park bed capacity up from 5,755 to 12,094 since 2021, a revenue target missed by about 66 billion shillings, and domestic park visits down 7.7 per cent in a single year. The agency's answer is 160 more investment sites, 130 of them camps, concentrated in a circuit whose access project the government itself asked the World Bank to cancel.
 category: Big Read
 updated: 2026-11-17
+image: "img/editions/tanzania-in-park-beds-160-sites-nobody-flies-there.jpg"
+image_credit: "Illustration: AI-generated (Google Gemini) / EA Hospitality Pulse"
 ---
-
 Massana Gibril Mwishawa had a good five years to report. On 10 November the conservation commissioner of the Tanzania National Parks Authority set out a run of numbers most state tourism agencies on the continent would envy. Visitors to the country's twenty-one national parks had risen from 708,319 in 2021/22 to 1,559,641 in 2025/26. Revenue had gone from 174 billion shillings to 534 billion over the same period, roughly 201 million dollars. Rhino numbers were up from 128 to about 170. Rangers had run 301,314 patrols. "We also confiscated 65,860 livestock found illegally inside national parks," he said.
 
 Then came the headline the investment newsletters picked up. "TANAPA has identified 160 new investment sites," Mwishawa said: thirty for lodges, 130 for camps.
