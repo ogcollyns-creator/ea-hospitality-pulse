@@ -1,8 +1,8 @@
 window.LEDGER = {
- "updated": "2026-11-17 09:09",
+ "updated": "2026-11-17 14:12",
  "stats": {
-  "total": 263,
-  "open": 133,
+  "total": 266,
+  "open": 136,
   "resolved": 128,
   "correct": 92,
   "partial": 1,
@@ -1084,6 +1084,22 @@ window.LEDGER = {
    "overdue": false
   },
   {
+   "id": "P264",
+   "made_date": "2026-11-17",
+   "edition": "pulse-2026-11-17-evening",
+   "claim": "The UN Security Council will renew the UNSOS support mandate for Somalia beyond 31 December 2026 - the US now backs a one-year renewal after planning in July to stop funding it",
+   "resolution_criteria": "A UN Security Council resolution adopted on or before 31 Dec 2026 extends the UNSOS mandate beyond 31 Dec 2026 (UN press release press.un.org or securitycouncilreport.org). No renewal adopted by 31 Dec 2026 resolves INCORRECT",
+   "resolve_by": "2026-12-31",
+   "market": "KE",
+   "segment": "Beach",
+   "confidence": "Medium",
+   "status": "open",
+   "resolved_date": "",
+   "evidence": "",
+   "source_url": "https://www.kenyans.co.ke/news/129426-us-renews-funding-unsos-and-aussom-major-boost-against-al-shabaab",
+   "overdue": false
+  },
+  {
    "id": "P006",
    "made_date": "2026-07-25",
    "edition": "Morning Brief",
@@ -1257,6 +1273,22 @@ window.LEDGER = {
    "resolved_date": "",
    "evidence": "",
    "source_url": "https://www.ocgs.go.tz/tourism",
+   "overdue": false
+  },
+  {
+   "id": "P265",
+   "made_date": "2026-11-17",
+   "edition": "pulse-2026-11-17-evening",
+   "claim": "The National Assembly will adopt Kenya's 2027 Budget Policy Statement with total 2027/28 expenditure within 5% of the KSh5.323 trillion proposed",
+   "resolution_criteria": "National Assembly-adopted 2027 BPS (Budget and Appropriations Committee report or Kenyan press) shows total 2027/28 expenditure between KSh5.057trn and KSh5.589trn. Outside that band resolves INCORRECT; no adoption reported by 28 Feb 2027 resolves VOID",
+   "resolve_by": "2027-02-28",
+   "market": "KE",
+   "segment": "City|Bush|Beach",
+   "confidence": "Medium",
+   "status": "open",
+   "resolved_date": "",
+   "evidence": "",
+   "source_url": "https://www.kenyans.co.ke/news/129404-parliament-gives-kenyans-until-november-20-submit-views-2027-budget",
    "overdue": false
   },
   {
@@ -1513,6 +1545,22 @@ window.LEDGER = {
    "resolved_date": "",
    "evidence": "",
    "source_url": "https://www.monitor.co.ug/uganda/sports/soccer/afcon-2027-museveni-assures-caf-of-uganda-s-readiness-vows-to-unlock-regional-single-visa-5605392",
+   "overdue": false
+  },
+  {
+   "id": "P266",
+   "made_date": "2026-11-17",
+   "edition": "pulse-2026-11-17-evening",
+   "claim": "The original Turkana Boy fossil will NOT be on public display in Nairobi by 31 March 2027 despite President Ruto saying on 16 Nov 2026 it would be shown 'shortly'",
+   "resolution_criteria": "National Museums of Kenya or government announcement, or Kenyan press report, of the ORIGINAL Turkana Boy remains (not the replica) open to public viewing on or before 31 Mar 2027 resolves INCORRECT; none resolves CORRECT",
+   "resolve_by": "2027-03-31",
+   "market": "KE",
+   "segment": "City",
+   "confidence": "Medium",
+   "status": "open",
+   "resolved_date": "",
+   "evidence": "",
+   "source_url": "https://www.kenyans.co.ke/news/129411-ruto-announces-plan-display-original-turkana-boy-remains-nairobi-park",
    "overdue": false
   },
   {

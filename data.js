@@ -1,5 +1,14 @@
 window.EDITIONS = [
  {
+  "id": "pulse-2026-11-17-evening",
+  "date": "2026-11-17",
+  "dateDisplay": "Tuesday, 17 November 2026",
+  "edition": "Evening Wrap",
+  "editionKey": "evening",
+  "summary": "Kenya's budget ceilings for 2027/28 close to public comment on Friday, three days from now",
+  "bodyHtml": "<p><strong>Kenya&#x27;s Parliament wants views on a KSh5.32 trillion 2027/28 budget by 5pm on Friday 20 November</strong><br><em>🌆 Evening Wrap · Tue 17 Nov 2026</em></p>\n<p>━━━━━━━━━<br><span class=\"item-head\">1️⃣ Kenya&#x27;s budget ceilings for 2027/28 close to public comment on Friday, three days from now</span></p>\n<p><strong>What happened.</strong> Parliament is taking submissions on the 2027 Budget Policy Statement and the debt strategy until 5pm on 20 Nov, by hand to the Clerk or to cna@parliament.go.ke. Proposed spending is KSh5.323trn, with KSh1.321trn of borrowing. The budget will be passed about three months early, ahead of the 10 Aug 2027 election <strong>(Parliament notice via Kenyans.co.ke, 16 Nov)</strong>.</p>\n<p><strong>Read.</strong> Inference: ceilings set now decide the Kenya Tourism Board&#x27;s marketing money; KAHC has asked for predictable KTB funding <strong>(Citizen Digital, 9 Nov)</strong>.</p>\n<p><span class=\"sowhat\">🎯 So what: associations and group owners, file one page on KTB funding and any levy asks by Friday.</span><br><span class=\"tagline\">🏷 City, Bush, Beach | Kenya | Reported (notice) / Inference | impact:margin</span></p>\n<p><span class=\"item-head\">2️⃣ The US now backs a one-year renewal of the Somalia missions it planned to stop funding</span></p>\n<p>The State Department will support renewing the UN support office (UNSOS) and the AU mission (AUSSOM), reversing a July decision to stop funding UNSOS after 2026. A suspected Al-Shabaab ambush killed eight on the Mandera–Lafey road on 10 Nov <strong>(Kenyans.co.ke, 17 Nov)</strong>.</p>\n<p><strong>Read.</strong> Inference: this removes a 31 December funding cliff for the troops north of Lamu. It changes no travel advice.<br><span class=\"sowhat\">🎯 So what: Lamu properties, cite the renewal if agents ask, but do not tell them the risk has fallen.</span><br><span class=\"tagline\">🏷 Beach | Kenya | Reported / Inference | impact:risk</span></p>\n<p><span class=\"item-head\">3️⃣ Zanzibar wants at least 40% of its hotel investors to expand into Arusha</span></p>\n<p>Investment minister Shariff Shariff, hosting an Arusha delegation, said Zanzibar would push its hotel investors into Arusha and link the two for visitors. No agreement, timeline or value was given <strong>(Daily News, 17 Nov)</strong>.</p>\n<p><strong>Read.</strong> Inference: an aim, not a pipeline, but beach groups are being invited into the safari gateway.<br><span class=\"sowhat\">🎯 So what: Arusha hotels, watch for Zanzibar groups&#x27; licence filings; Zanzibar resorts, lock in Arusha partners for combinations.</span><br><span class=\"tagline\">🏷 City, Beach | Tanzania, Zanzibar | Confirmed (statement) / Inference | impact:watch</span></p>\n<p><strong>🏗 DEAL FLOW</strong><br>No verified EA deal flow in the window. Mereshi Safari Camp Serengeti (Autograph Collection), billed for November, has no confirmed opening <strong>(Hospitality Net, 12 Oct)</strong>.</p>\n<p><strong>📻 ALSO TONIGHT</strong><br>🦴 Ruto says the original Turkana Boy fossil will &quot;shortly&quot; go on public view in Nairobi; no date or venue <strong>(Kenyans.co.ke, 16 Nov)</strong>.<br>🛣 MPs backed NSSF&#x27;s stake in the KSh176bn Rironi–Mau Summit road <strong>(Kenyans.co.ke, 16 Nov)</strong>.<br>🌧 Floods cut the Nairobi–Garissa highway at Mwingi <strong>(Kenyans.co.ke, 16 Nov)</strong>.<br>🦠 DRC Ebola passes 11,000 cases and 5,400 deaths in eight provinces <strong>(WHO&#x27;s Tedros, 15 Nov)</strong>. Our sweep found no new Kenyan case; the 23 Dec target stands.<br>✈ Tanzania is at ICAO&#x27;s air transport conference in Montréal, 16–20 Nov <strong>(TCAA, 17 Nov)</strong>.</p>\n<p><strong>⏳ CATCHING UP</strong><br>🇰🇪 Ruto says the Rironi–Maai Mahiu escarpment road to Narok goes to four lanes once Rironi–Mau Summit is done (due April 2027) <strong>(Kenyans.co.ke, 15 Nov)</strong>.</p>\n<p><strong>📅 WEEK AHEAD</strong> 18 Nov: Uganda Airlines Entebbe–Kigali. 20 Nov: budget comments close; KQ sixth weekly Heathrow. 27 Nov: Canada&#x27;s Uganda rules expire.</p>\n<p><strong>🔍 BLIND SPOTS</strong> German and French Kenya advice pages undated; Kenya Gazette not read; hotelsafrica.org unreadable; travel.state.gov Tanzania still shows Level 3 (31 Oct 2025).</p>\n<p>🔗 This edition on the web: <a href=\"https://eahospitalitypulse.com/editions/pulse-2026-11-17-evening.html\" rel=\"noopener\">eahospitalitypulse.com/editions/pulse-2026-11-17-evenin…</a></p>"
+ },
+ {
   "id": "pulse-2026-11-16-evening",
   "date": "2026-11-16",
   "dateDisplay": "Monday, 16 November 2026",
@@ -1414,6 +1423,66 @@ window.EDITIONS = [
  }
 ];
 window.INSIGHTS = [
+ {
+  "headline": "Kenya's budget ceilings for 2027/28 close to public comment on Friday, three days from now",
+  "body": "**What happened.** Parliament is taking submissions on the 2027 Budget Policy Statement and the debt strategy until 5pm on 20 Nov, by hand to the Clerk or to cna@parliament.go.ke. Proposed spending is KSh5.323trn, with KSh1.321trn of borrowing. The budget will be passed about three months early, ahead of the 10 Aug 2027 election *(Parliament notice via Kenyans.co.ke, 16 Nov)*. **Read.** Inference: ceilings set now decide the Kenya Tourism Board's marketing money; KAHC has asked for predictable KTB funding *(Citizen Digital, 9 Nov)*.",
+  "sowhat": "🎯 So what: associations and group owners, file one page on KTB funding and any levy asks by Friday.",
+  "segments": [
+   "city",
+   "bush",
+   "beach"
+  ],
+  "countries": "Kenya",
+  "confidence": "Reported (notice) / Inference",
+  "impact": "-margin",
+  "impactClass": "margin",
+  "intensity": 2,
+  "impactSet": "author",
+  "source": "pulse-2026-11-17-evening",
+  "date": "2026-11-17",
+  "dateDisplay": "Tuesday, 17 November 2026",
+  "edition": "Evening Wrap",
+  "editionKey": "evening"
+ },
+ {
+  "headline": "The US now backs a one-year renewal of the Somalia missions it planned to stop funding",
+  "body": "The State Department will support renewing the UN support office (UNSOS) and the AU mission (AUSSOM), reversing a July decision to stop funding UNSOS after 2026. A suspected Al-Shabaab ambush killed eight on the Mandera–Lafey road on 10 Nov *(Kenyans.co.ke, 17 Nov)*. **Read.** Inference: this removes a 31 December funding cliff for the troops north of Lamu. It changes no travel advice.",
+  "sowhat": "🎯 So what: Lamu properties, cite the renewal if agents ask, but do not tell them the risk has fallen.",
+  "segments": [
+   "beach"
+  ],
+  "countries": "Kenya",
+  "confidence": "Reported / Inference",
+  "impact": "risk",
+  "impactClass": "risk",
+  "intensity": 2,
+  "impactSet": "author",
+  "source": "pulse-2026-11-17-evening",
+  "date": "2026-11-17",
+  "dateDisplay": "Tuesday, 17 November 2026",
+  "edition": "Evening Wrap",
+  "editionKey": "evening"
+ },
+ {
+  "headline": "Zanzibar wants at least 40% of its hotel investors to expand into Arusha",
+  "body": "Investment minister Shariff Shariff, hosting an Arusha delegation, said Zanzibar would push its hotel investors into Arusha and link the two for visitors. No agreement, timeline or value was given *(Daily News, 17 Nov)*. **Read.** Inference: an aim, not a pipeline, but beach groups are being invited into the safari gateway.",
+  "sowhat": "🎯 So what: Arusha hotels, watch for Zanzibar groups' licence filings; Zanzibar resorts, lock in Arusha partners for combinations.",
+  "segments": [
+   "city",
+   "beach"
+  ],
+  "countries": "Tanzania, Zanzibar",
+  "confidence": "Confirmed (statement) / Inference",
+  "impact": "watch",
+  "impactClass": "watch",
+  "intensity": 3,
+  "impactSet": "author",
+  "source": "pulse-2026-11-17-evening",
+  "date": "2026-11-17",
+  "dateDisplay": "Tuesday, 17 November 2026",
+  "edition": "Evening Wrap",
+  "editionKey": "evening"
+ },
  {
   "headline": "Canada's Ebola border rules on Uganda run out at 23:59 on 27 November, 11 days from now",
   "body": "**What happened.** Foreign nationals who were in Uganda or South Sudan in the past 21 days must quarantine for 21 days; DRC presence bars entry. Citizens quarantine too, and transit counts *(Public Health Agency of Canada page, modified 4 Nov, read 16 Nov)*. IRCC separately bars Uganda residents from travelling on approved visas or eTAs to the same date *(IRCC notice, 28 Sep)*. Ottawa still says avoid non-essential travel to all of Uganda *(travel.gc.ca, updated 13 Oct)*. **Read.** Inference: renewal is likelier than lapse. Ottawa extended for 60 days in September, the US renewed to 10 Dec, and Africa CDC says the DRC outbreak is not under control *(15 Nov)*.",
@@ -8513,4 +8582,4 @@ window.INSIGHTS = [
   "editionKey": "evening"
  }
 ];
-window.BUILT_AT = "2026-11-17 09:08";
+window.BUILT_AT = "2026-11-17 14:11";
