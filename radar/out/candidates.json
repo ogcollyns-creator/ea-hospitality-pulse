@@ -1,18 +1,51 @@
 {
- "generated": "2026-11-17T23:34:26+03:00",
- "slot": "evening",
- "window_start": 1794830400,
- "observations_in_window": 1221,
+ "generated": "2026-11-18T02:07:54+03:00",
+ "slot": "morning",
+ "window_start": 1794927600,
+ "observations_in_window": 584,
  "deduped_against": 13,
  "candidates": [
   {
-   "score": 99.2,
+   "score": 101.3,
    "components": {
     "tier": 40,
     "category": 32,
     "lead": 3.6,
     "relevance": 0,
-    "freshness": 17.6,
+    "freshness": 19.7,
+    "corroborated": 10,
+    "page_change": -4
+   },
+   "keywords": [],
+   "shock_terms": [],
+   "dedupe_match": null,
+   "dedupe_similarity": 0.1,
+   "id": "66b50afc7d30",
+   "title": "[page changed] Federal Register \u2014 public inspection (HHS/CDC), pre-publication",
+   "url": "https://www.federalregister.gov/api/v1/public-inspection-documents/current.json",
+   "summary": "{\"count\":118,\"results\":[{\"agencies\":[{\"raw_name\":\"EQUAL EMPLOYMENT OPPORTUNITY COMMISSION\",\"name\":\"Equal Employment Opportunity Commission\",\"id\":147,\"url\":\"https://www.federalregister.gov/agencies/equal-employment-opportunity-commission\",\"json_url\":\"https://www.federalregister.gov/api/v1/agencies/147\",\"parent_id\":null,\"slug\":\"equal-employment-opportunity-commission\"}],\"agency_letters\":[],\"agency_n",
+   "kind": "page-change",
+   "source": "Federal Register \u2014 public inspection (HHS/CDC), pre-publication",
+   "source_id": "us-fedreg-pubinspect-hhs",
+   "tier": 1,
+   "country": "REG",
+   "category": "advisory",
+   "segments": [
+    "city",
+    "bush"
+   ],
+   "first_seen": "2026-11-18T01:59+03:00",
+   "published": "2026-11-16",
+   "verdict": "OPEN THIS \u2014 tier-1 advisory page moved; content not auto-parsed, read it manually"
+  },
+  {
+   "score": 96.4,
+   "components": {
+    "tier": 40,
+    "category": 32,
+    "lead": 3.6,
+    "relevance": 0,
+    "freshness": 14.8,
     "corroborated": 10,
     "page_change": -4
    },
@@ -39,48 +72,13 @@
    "verdict": "OPEN THIS \u2014 tier-1 advisory page moved; content not auto-parsed, read it manually"
   },
   {
-   "score": 90.5,
-   "components": {
-    "tier": 40,
-    "category": 32,
-    "lead": 12.0,
-    "relevance": 8,
-    "freshness": 8.5,
-    "undated": -6,
-    "page_change": -4
-   },
-   "keywords": [
-    "fee"
-   ],
-   "shock_terms": [],
-   "dedupe_match": null,
-   "dedupe_similarity": 0.25,
-   "id": "d8c9c7cfadf7",
-   "title": "[page changed] Federal Register \u2014 CDC notices",
-   "url": "https://www.federalregister.gov/api/v1/documents.rss?conditions%5Bagencies%5D%5B%5D=centers-for-disease-control-and-prevention&order=newest",
-   "summary": "Federal Register Documents published on or after 10/18/2026 and from Centers for Disease Control and Prevention https://www.federalregister.gov/api/v1/documents.rss?conditions%5Bagencies%5D%5B%5D=centers-for-disease-control-and-prevention&order=newest Tue, 17 Nov 2026 05:00:00 GMT The documents in this feed originate from FederalRegister.gov which displays an unofficial web version of the daily Fe",
-   "kind": "page-change",
-   "source": "Federal Register \u2014 CDC notices",
-   "source_id": "us-fedreg-cdc",
-   "tier": 1,
-   "country": "REG",
-   "category": "advisory",
-   "segments": [
-    "city",
-    "bush"
-   ],
-   "first_seen": "2026-11-17T13:20+03:00",
-   "published": null,
-   "verdict": "OPEN THIS \u2014 tier-1 advisory page moved; content not auto-parsed, read it manually"
-  },
-  {
-   "score": 54.1,
+   "score": 65.2,
    "components": {
     "tier": 40,
     "category": 12,
     "lead": 3.6,
     "relevance": 0,
-    "freshness": 8.5,
+    "freshness": 19.6,
     "undated": -6,
     "page_change": -4
    },
@@ -88,10 +86,10 @@
    "shock_terms": [],
    "dedupe_match": null,
    "dedupe_similarity": 0.0,
-   "id": "4b5a14519069",
+   "id": "ed29c119a83a",
    "title": "[page changed] Airlink news",
    "url": "https://www.flyairlink.com/",
-   "summary": "Request unsuccessful. Incapsula incident ID: 259000150002816574-2771031311975411",
+   "summary": "Request unsuccessful. Incapsula incident ID: 472000110115549290-123353878838641392",
    "kind": "page-change",
    "source": "Airlink news",
    "source_id": "air-airlink",
@@ -103,52 +101,18 @@
     "bush",
     "beach"
    ],
-   "first_seen": "2026-11-17T13:19+03:00",
+   "first_seen": "2026-11-18T01:59+03:00",
    "published": null,
    "verdict": "OPEN THIS \u2014 tier-1 airline page moved; content not auto-parsed, read it manually"
   },
   {
-   "score": 45.6,
-   "components": {
-    "tier": 40,
-    "category": 12,
-    "lead": 3.6,
-    "relevance": 0,
-    "freshness": 0.0,
-    "undated": -6,
-    "page_change": -4
-   },
-   "keywords": [],
-   "shock_terms": [],
-   "dedupe_match": null,
-   "dedupe_similarity": 0.0,
-   "id": "b6da2f865a6b",
-   "title": "[page changed] Airlink news",
-   "url": "https://www.flyairlink.com/",
-   "summary": "Request unsuccessful. Incapsula incident ID: 731000860068676157-33121314660881792",
-   "kind": "page-change",
-   "source": "Airlink news",
-   "source_id": "air-airlink",
-   "tier": 1,
-   "country": "REG",
-   "category": "airline",
-   "segments": [
-    "city",
-    "bush",
-    "beach"
-   ],
-   "first_seen": "2026-11-16T18:07+03:00",
-   "published": null,
-   "verdict": "OPEN THIS \u2014 tier-1 airline page moved; content not auto-parsed, read it manually"
-  },
-  {
-   "score": 110.0,
+   "score": 107.2,
    "components": {
     "tier": 40,
     "category": 18,
     "lead": 8.4,
     "relevance": 16,
-    "freshness": 17.6,
+    "freshness": 14.8,
     "corroborated": 10
    },
    "keywords": [
@@ -176,28 +140,26 @@
    "verdict": "STRONG \u2014 tier-1, upstream"
   },
   {
-   "score": 104.3,
+   "score": 103.4,
    "components": {
     "tier": 40,
     "category": 9,
     "lead": 16.8,
-    "relevance": 20,
-    "freshness": 8.5,
+    "relevance": 8,
+    "freshness": 19.6,
     "corroborated": 10
    },
    "keywords": [
-    "eta",
     "hotel",
-    "resort",
-    "beach"
+    "signing"
    ],
    "shock_terms": [],
    "dedupe_match": null,
-   "dedupe_similarity": 0.12,
-   "id": "0c2989d4801a",
-   "title": "From Christmas Markets to Caribbean Shores: Celebrate the Holidays with Hilton Hotels & Resorts",
-   "url": "https://stories.hilton.com/destination-spotlight/celebrate-the-holidays-with-hilton-hotels-resorts",
-   "summary": "Holiday travel makes the season even more magical. For many, a December getaway conjures images of snow-covered scenery, steaming mugs of mulled wine and bustling Christmas markets filled with tempting treats. For others, the ultimate holiday gift is an escape from the cold, where palm trees and sandy beaches offer a soothing respite filled with [\u2026] The post From Christmas Markets to Caribbean Sho",
+   "dedupe_similarity": 0.14,
+   "id": "e717d8428b6e",
+   "title": "Hilton Accelerates Lifestyle Growth in South East Asia with First Tempo by Hilton Signing in Phuket",
+   "url": "https://stories.hilton.com/releases/tempo-by-hilton-phuket-signing",
+   "summary": "PHUKET, Thailand \u2013 Hilton (NYSE: HLT) today announced the signing of Tempo by Hilton Phuket Bang Tao, the first under the brand in South East Asia, in partnership with Sindhu Development Co., Ltd. Expected to open in 2030, the hotel will bring Tempo\u2019s vibrant, contemporary approach to hospitality to Phuket, offering a thoughtfully designed stay [\u2026] The post Hilton Accelerates Lifestyle Growth in S",
    "kind": "item",
    "source": "Hilton stories/newsroom",
    "source_id": "dev-hilton",
@@ -209,18 +171,223 @@
     "bush",
     "beach"
    ],
-   "first_seen": "2026-11-17T13:19+03:00",
-   "published": "2026-11-16",
+   "first_seen": "2026-11-18T01:59+03:00",
+   "published": "2026-11-17",
    "verdict": "STRONG \u2014 tier-1, upstream"
   },
   {
-   "score": 98.0,
+   "score": 101.4,
+   "components": {
+    "tier": 40,
+    "category": 15,
+    "lead": 16.8,
+    "relevance": 16,
+    "freshness": 19.6,
+    "undated": -6
+   },
+   "keywords": [
+    "tax",
+    "eta"
+   ],
+   "shock_terms": [],
+   "dedupe_match": null,
+   "dedupe_similarity": 0.17,
+   "id": "04b4e79391f5",
+   "title": "TRA AND IMF STRENGTHEN COOPERATION TO PROMOTE TRANSPARENCY AND ACCOUNTABILITY IN TAX ADMINISTRATION 17 November, 2026 The Tanzania Revenue Authority (TRA) has held discussions with a delegation from the International Monetary Fund\u2026 -->",
+   "url": "https://www.tra.go.tz/news/tra-and-imf-strengthen-cooperation-to-promote-transparency-and-accountability-in-tax-administration",
+   "summary": "",
+   "kind": "item",
+   "source": "Tanzania Revenue Authority",
+   "source_id": "tz-tra",
+   "tier": 1,
+   "country": "TZ",
+   "category": "fiscal",
+   "segments": [
+    "city",
+    "bush",
+    "beach"
+   ],
+   "first_seen": "2026-11-18T01:59+03:00",
+   "published": null,
+   "verdict": "STRONG \u2014 tier-1, upstream"
+  },
+  {
+   "score": 99.4,
+   "components": {
+    "tier": 40,
+    "category": 9,
+    "lead": 16.8,
+    "relevance": 4,
+    "freshness": 19.6,
+    "corroborated": 10
+   },
+   "keywords": [
+    "signing"
+   ],
+   "shock_terms": [],
+   "dedupe_match": null,
+   "dedupe_similarity": 0.14,
+   "id": "f0051d7611f1",
+   "title": "Apartment Collection by Hilton Announces First International Signings Amid Growing Owner Demand",
+   "url": "https://stories.hilton.com/releases/apartment-collection-by-hilton-announces-first-international-signings",
+   "summary": "MCLEAN, Va. \u2014 Apartment Collection by Hilton, Hilton\u2019s (Nasdaq: HLT) extended-stay, apartment-style lodging brand, today announced its first signings outside the United States, in Dubai, United Arab Emirates, expected to open in December 2026 and Grace Bay, Turks and Caicos, expected to open in 2028. The signings mark a significant milestone as the brand surpasses [\u2026] The post Apartment Collection",
+   "kind": "item",
+   "source": "Hilton stories/newsroom",
+   "source_id": "dev-hilton",
+   "tier": 1,
+   "country": "GLOBAL",
+   "category": "hotel-group",
+   "segments": [
+    "city",
+    "bush",
+    "beach"
+   ],
+   "first_seen": "2026-11-18T01:59+03:00",
+   "published": "2026-11-17",
+   "verdict": "STRONG \u2014 tier-1, upstream"
+  },
+  {
+   "score": 96.4,
+   "components": {
+    "tier": 40,
+    "category": 10,
+    "lead": 16.8,
+    "relevance": 0,
+    "freshness": 19.6,
+    "corroborated": 10
+   },
+   "keywords": [],
+   "shock_terms": [],
+   "dedupe_match": null,
+   "dedupe_similarity": 0.33,
+   "id": "95cec0d0fe59",
+   "title": "Order Paper For Wednesday, 18th November 2026 -Joint Sitting Of Parliament",
+   "url": "https://www.parliament.go.ke/sites/default/files/2026-11/ORDER%20PAPER%20FOR%20WEDNESDAY%2C%2018TH%20NOVEMBER%202026%20-%20-%20JOINT%20SITTING%20OF%20PARLIAMENT.pdf",
+   "summary": "Thirteenth Parliament Fifth Session (No. S.S./05) (01) REPUBLIC OF KENYA THIRTEENTH PARLIAMENT - (FIFTH SESSION) SPECIAL SITTING OF PARLIAMENT ORDERS OF THE DAY WEDNESDAY, NOVEMBER 18, 2026 AT 2.30 PM 1.!PRAYER By the Speaker of the Senate. 2.!CONVOCATION (i)!By the Speaker of the Senate. (ii)!By the Speaker of the National Assembly. (iii)!The Speaker of the National Assembly invites His Excellenc",
+   "kind": "doc",
+   "source": "Parliament of Kenya \u2014 bills & papers",
+   "source_id": "ke-parliament",
+   "tier": 1,
+   "country": "KE",
+   "category": "legislature",
+   "segments": [
+    "city",
+    "bush",
+    "beach"
+   ],
+   "first_seen": "2026-11-18T01:59+03:00",
+   "published": "2026-11-18",
+   "verdict": "STRONG \u2014 tier-1, upstream"
+  },
+  {
+   "score": 96.1,
+   "components": {
+    "tier": 20,
+    "category": 14,
+    "lead": 8.4,
+    "relevance": 24,
+    "freshness": 19.7,
+    "corroborated": 10
+   },
+   "keywords": [
+    "route",
+    "capacity",
+    "seat"
+   ],
+   "shock_terms": [],
+   "dedupe_match": null,
+   "dedupe_similarity": 0.14,
+   "id": "fb011e27607f",
+   "title": "Lufthansa NS27 4-class A350-900 Frankfurt Operations Overview \u2013 15NOV26",
+   "url": "https://www.aeroroutes.com/eng/261117-lhns27359",
+   "summary": "Published at 1500PCT / 2200GMT 17NOV26 Lufthansa in recent schedule update filed aircraft changes for Frankfurt \u2013 Singapore route during Northern summer 2027 season. From 28MAR27, the daily service will be operated by Airbus A350-900, replacing the 747-400. LH780 FRA2150 \u2013 1625+1SIN 359 D LH781 SIN2340 \u2013 0640+1FRA 359 D From 01JUN27, service will be operated by 4-class A350-900, instead of 3-class",
+   "kind": "item",
+   "source": "AeroRoutes schedule filings",
+   "source_id": "aeroroutes",
+   "tier": 2,
+   "country": "GLOBAL",
+   "category": "aviation-tracker",
+   "segments": [
+    "city",
+    "bush",
+    "beach"
+   ],
+   "first_seen": "2026-11-18T02:00+03:00",
+   "published": "2026-11-18",
+   "verdict": "CONSIDER"
+  },
+  {
+   "score": 96.1,
+   "components": {
+    "tier": 40,
+    "category": 24,
+    "lead": 2.4,
+    "relevance": 0,
+    "freshness": 19.7,
+    "corroborated": 10
+   },
+   "keywords": [],
+   "shock_terms": [],
+   "dedupe_match": null,
+   "dedupe_similarity": 0.17,
+   "id": "730ee2f16911",
+   "title": "Semaine \u00c9pid\u00e9miologique 44. R\u00e9union du 11 Novembre 2026",
+   "url": "https://insp.cd/semaine-epidemiologique-44-reunion-du-11-novembre-2026",
+   "summary": "",
+   "kind": "item",
+   "source": "INSP RDC \u2014 Ebola daily situation reports (SitRep)",
+   "source_id": "cd-insp-sitrep",
+   "tier": 1,
+   "country": "GLOBAL",
+   "category": "health",
+   "segments": [
+    "City",
+    "Bush"
+   ],
+   "first_seen": "2026-11-18T02:00+03:00",
+   "published": "2026-11-17",
+   "verdict": "STRONG \u2014 tier-1, upstream"
+  },
+  {
+   "score": 96.1,
+   "components": {
+    "tier": 40,
+    "category": 24,
+    "lead": 2.4,
+    "relevance": 0,
+    "freshness": 19.7,
+    "corroborated": 10
+   },
+   "keywords": [],
+   "shock_terms": [],
+   "dedupe_match": null,
+   "dedupe_similarity": 0.17,
+   "id": "f4f35f2f79f2",
+   "title": "SitRep N\u00b0186/MVE-BDBV/16/11/2026",
+   "url": "https://insp.cd/sitrep-n186-mve-bdbv-16-11-2026",
+   "summary": "",
+   "kind": "item",
+   "source": "INSP RDC \u2014 Ebola daily situation reports (SitRep)",
+   "source_id": "cd-insp-sitrep",
+   "tier": 1,
+   "country": "GLOBAL",
+   "category": "health",
+   "segments": [
+    "City",
+    "Bush"
+   ],
+   "first_seen": "2026-11-18T02:00+03:00",
+   "published": "2026-11-17",
+   "verdict": "STRONG \u2014 tier-1, upstream"
+  },
+  {
+   "score": 95.2,
    "components": {
     "tier": 20,
     "category": 14,
     "lead": 8.4,
     "relevance": 28,
-    "freshness": 17.6,
+    "freshness": 14.8,
     "corroborated": 10
    },
    "keywords": [
@@ -252,48 +419,46 @@
    "verdict": "CONSIDER"
   },
   {
-   "score": 96.4,
+   "score": 93.2,
    "components": {
     "tier": 40,
-    "category": 24,
-    "lead": 2.4,
-    "relevance": 20,
-    "freshness": 0.0,
+    "category": 12,
+    "lead": 3.6,
+    "relevance": 8,
+    "freshness": 19.6,
     "corroborated": 10
    },
    "keywords": [
-    "ebola",
-    "adr"
+    "seat"
    ],
    "shock_terms": [],
    "dedupe_match": null,
    "dedupe_similarity": 0.14,
-   "id": "d40fa537b500",
-   "title": "L\u2019INSP RENFORCE LE DISPOSITIF NATIONAL D\u2019ALERTE SANITAIRE \u00c0 TRAVERS LA FORMATION DE 55 T\u00c9L\u00c9OP\u00c9RATEURS.",
-   "url": "https://insp.cd/linsp-renforce-le-dispositif-national-dalerte-sanitaire-a-travers-la-formation-de-55-teleoperateurs",
-   "summary": "Dans le cadre du renforcement de la riposte contre la 17\u1d49 \u00e9pid\u00e9mie de maladie \u00e0 virus Ebola (MVE-17), l\u2019Institut National",
+   "id": "3521d4ab4585",
+   "title": "Mehr Komfort auf Kurz- und Mittelstrecken: Lufthansa Premium Business Seat ab sofort buchbar",
+   "url": "https://newsroom.lufthansagroup.com/mehr-komfort-auf-kurz--und-mittelstrecken-lufthansa-premium-business-seat-ab-sofort-buchbar",
+   "summary": "Lufthansa erweitert ihr Premium-Angebot auf Kurz- und Mittelstrecken: Mit dem neuen Premium Business Seat genie\u00dfen Flugg\u00e4ste k\u00fcnftig noch mehr pers\u00f6nlichen Freiraum und zus\u00e4tzlichen Komfort. Ab heute ist der Sitz f\u00fcr Fl\u00fcge ab 1. M\u00e4rz 2027 auf den Verbindungen zwischen Frankfurt und Athen, Nizza sowie Kairo buchbar. In den ersten beiden Reihen der Business Class erwartet Flugg\u00e4ste ein besonders gro",
    "kind": "item",
-   "source": "INSP RDC \u2014 Ebola daily situation reports (SitRep)",
-   "source_id": "cd-insp-sitrep",
+   "source": "Lufthansa Group newsroom",
+   "source_id": "air-lh",
    "tier": 1,
    "country": "GLOBAL",
-   "category": "health",
+   "category": "airline",
    "segments": [
-    "City",
-    "Bush"
+    "beach"
    ],
-   "first_seen": "2026-11-16T22:38+03:00",
-   "published": "2026-11-16",
+   "first_seen": "2026-11-18T01:59+03:00",
+   "published": "2026-11-17",
    "verdict": "STRONG \u2014 tier-1, upstream"
   },
   {
-   "score": 94.0,
+   "score": 91.2,
    "components": {
     "tier": 20,
     "category": 14,
     "lead": 8.4,
     "relevance": 24,
-    "freshness": 17.6,
+    "freshness": 14.8,
     "corroborated": 10
    },
    "keywords": [
@@ -325,13 +490,13 @@
    "verdict": "CONSIDER"
   },
   {
-   "score": 94.0,
+   "score": 91.2,
    "components": {
     "tier": 40,
     "category": 24,
     "lead": 2.4,
     "relevance": 0,
-    "freshness": 17.6,
+    "freshness": 14.8,
     "corroborated": 10
    },
    "keywords": [],
@@ -357,13 +522,13 @@
    "verdict": "STRONG \u2014 tier-1, upstream"
   },
   {
-   "score": 93.6,
+   "score": 90.8,
    "components": {
     "tier": 20,
     "category": 4,
     "lead": 0.0,
     "relevance": 24,
-    "freshness": 17.6,
+    "freshness": 14.8,
     "corroborated": 10,
     "shock": 18
    },
@@ -395,13 +560,13 @@
    "verdict": "CONSIDER"
   },
   {
-   "score": 91.6,
+   "score": 88.8,
    "components": {
     "tier": 40,
     "category": 17,
     "lead": 16.8,
     "relevance": 4,
-    "freshness": 19.8,
+    "freshness": 17.0,
     "undated": -6
    },
    "keywords": [
@@ -427,49 +592,16 @@
    ],
    "first_seen": "2026-11-17T23:33+03:00",
    "published": null,
-   "verdict": "STRONG \u2014 tier-1, upstream"
+   "verdict": "CONSIDER"
   },
   {
-   "score": 90.5,
-   "components": {
-    "tier": 40,
-    "category": 32,
-    "lead": 0.0,
-    "relevance": 0,
-    "freshness": 8.5,
-    "corroborated": 10
-   },
-   "keywords": [],
-   "shock_terms": [],
-   "dedupe_match": null,
-   "dedupe_similarity": 0.0,
-   "id": "0a19135d6495",
-   "title": "Agency Forms Undergoing Paperwork Reduction Act Review",
-   "url": "https://www.federalregister.gov/documents/2026/11/17/2026-23301/agency-forms-undergoing-paperwork-reduction-act-review",
-   "summary": "",
-   "kind": "item",
-   "source": "Federal Register \u2014 CDC documents (newest first)",
-   "source_id": "fr-cdc-agency-feed",
-   "tier": 1,
-   "country": "GLOBAL",
-   "category": "advisory",
-   "segments": [
-    "Bush",
-    "City",
-    "Beach"
-   ],
-   "first_seen": "2026-11-17T13:20+03:00",
-   "published": "2026-11-17",
-   "verdict": "STRONG \u2014 tier-1, upstream"
-  },
-  {
-   "score": 90.0,
+   "score": 87.2,
    "components": {
     "tier": 20,
     "category": 14,
     "lead": 8.4,
     "relevance": 20,
-    "freshness": 17.6,
+    "freshness": 14.8,
     "corroborated": 10
    },
    "keywords": [
@@ -501,50 +633,211 @@
    "verdict": "CONSIDER"
   },
   {
-   "score": 87.8,
+   "score": 85.5,
    "components": {
     "tier": 40,
-    "category": 9,
+    "category": 15,
     "lead": 16.8,
-    "relevance": 12,
-    "freshness": 0.0,
-    "corroborated": 10
+    "relevance": 0,
+    "freshness": 19.7,
+    "undated": -6
    },
-   "keywords": [
-    "hotel",
-    "opening",
-    "pipeline"
-   ],
+   "keywords": [],
    "shock_terms": [],
    "dedupe_match": null,
-   "dedupe_similarity": 0.12,
-   "id": "1ecc3f9908bb",
-   "title": "Hilton\u2019s Growth in Greece Continues with Standout Openings",
-   "url": "https://stories.hilton.com/releases/hiltons-growth-in-greece-continues-with-standout-openings",
-   "summary": "ATHENS, Greece \u2013 Hilton is accelerating its growth in Greece, expanding from just one trading hotel six years ago to more than 80 properties trading or in the pipeline today. Spanning nine brands and supported by its partnership with Small Luxury Hotels of the World (SLH), the portfolio offers travellers greater choice across Greece\u2019s cities, [\u2026] The post Hilton\u2019s Growth in Greece Continues with S",
-   "kind": "item",
-   "source": "Hilton stories/newsroom",
-   "source_id": "dev-hilton",
+   "dedupe_similarity": 0.0,
+   "id": "9490d6fc7ef6",
+   "title": "TEMPLATE FOR SUBMITTING COMMENTS - JUDGES' RETIREMENT BENEFITS REGULATIONS, 2026.docx",
+   "url": "https://www.treasury.go.ke/sites/default/files/Latest%20updates/TEMPLATE%20FOR%20SUBMITTING%20COMMENTS%20-%20JUDGES%27%20RETIREMENT%20BENEFITS%20REGULATIONS%2C%202026.docx",
+   "summary": "",
+   "kind": "doc",
+   "source": "National Treasury Kenya",
+   "source_id": "ke-treasury",
    "tier": 1,
-   "country": "GLOBAL",
-   "category": "hotel-group",
+   "country": "KE",
+   "category": "fiscal",
    "segments": [
     "city",
     "bush",
     "beach"
    ],
-   "first_seen": "2026-11-16T18:07+03:00",
-   "published": "2026-11-16",
+   "first_seen": "2026-11-18T02:00+03:00",
+   "published": null,
    "verdict": "CONSIDER"
   },
   {
-   "score": 87.6,
+   "score": 85.5,
+   "components": {
+    "tier": 40,
+    "category": 15,
+    "lead": 16.8,
+    "relevance": 0,
+    "freshness": 19.7,
+    "undated": -6
+   },
+   "keywords": [],
+   "shock_terms": [],
+   "dedupe_match": null,
+   "dedupe_similarity": 0.14,
+   "id": "1d4578f0d774",
+   "title": "Public Statement on the Status of Disbursements to County Governments 2026",
+   "url": "https://www.treasury.go.ke/sites/default/files/Latest%20updates/PUBLIC%20STATEMENT%20ON%20THE%20STATUS%20OF%20DISBURSEMENTS%20TO%20COUNTY%20GOVERNMENTS%202026.pdf",
+   "summary": "",
+   "kind": "doc",
+   "source": "National Treasury Kenya",
+   "source_id": "ke-treasury",
+   "tier": 1,
+   "country": "KE",
+   "category": "fiscal",
+   "segments": [
+    "city",
+    "bush",
+    "beach"
+   ],
+   "first_seen": "2026-11-18T02:00+03:00",
+   "published": null,
+   "verdict": "CONSIDER"
+  },
+  {
+   "score": 85.5,
+   "components": {
+    "tier": 40,
+    "category": 15,
+    "lead": 16.8,
+    "relevance": 0,
+    "freshness": 19.7,
+    "undated": -6
+   },
+   "keywords": [],
+   "shock_terms": [],
+   "dedupe_match": null,
+   "dedupe_similarity": 0.0,
+   "id": "2e94442cbd50",
+   "title": "THE JUDGES RETIREMENT BENEFITS REGULATIONS, 2026",
+   "url": "https://www.treasury.go.ke/sites/default/files/Latest%20updates/JUDGES%27%20RETIREMENT%20BENEFITS%20REGULATIONS%2C%202026.pdf",
+   "summary": "E:\u00b1\u0002\u0000\b -, E\u00b0\u0003%Ead\u00b0PQXED\u001b!!Y-, E\u00b0\u0000C`D-,\u0001\u00b0\u0006C\u00b0\u0007Ce -, i\u00b0@a\u00b0\u0000\u008b \u00b1,\u00c0\u008a\u008c\u00b8\u0010\u0000b`+ d#da\\X\u00b0\u0003aY-,\u008a\u0003E\u008a\u008a\u0087\u00b0\u0011+\u00b0\u0001\u0088QX\u00b9@\u0000\u0004\u0000c\u00b8\b\u0000\u0088T\\\u001b\u00b0\u0001Y-\u00b1 \u0003AS\u0002\u00c8\u0002\u00c6\u00008\u0000 \u0002\u00c7\u0002\u00c6\u00008\u0000 \u0002\u00dd\u00008\u0002\u00da\u0000U\u0002\u00d9\u00008\u0002\u00d7\u0000U\u0002\u00d8\u00008\u0002\u00d7\u0000U\u0002\u00d6\u00008\u0002\u00d5\u0000U\u0002\u00d4\u00008\u0002\u00d3\u0000U\u0002\u00d2\u00008\u0002\u00d1\u0000U\u0002\u00bf\u00008\u0002\u00be\u0000U\u0002\u00bd\u00008\u0002\u00bc\u0000U\u0000\u0004\u0002\u00db\u00004\u0002\u00db\u0000T\u0002\u00db\u0000\u0003\u00004\u0002\u00db\u0000T\u0002\u00db\u0000d\u0002\u00db\u0000\u00a4\u0002\u00db\u0000\u00d4\u0002\u00db\u0000\u0005\u0000k\u0002\u00d5\u0000\u0001\u0000 \u0002\u00d1\u0000\u0001\u0000\u0014\u0002\u00c2\u0000D\u0002\u00c2\u0000d\u0002\u00c2\u0000t\u0002\u00c2\u0000\u0094\u0002\u00c2\u0000\u0005\u0000\u00a4\u0002\u00be\u0000\u0001\u0000\u00a4\u0002\u00bc\u0000\u0001\u0000 \u0002\u0084\u00b4 \u0018\u0001J \u00b8\u0002\u0083\u00b4 \u0018\u0001J \u00b8\u0002\u0082\u00b4 \u0018\u0001J \u00b8\u0002\u0081\u00b4 \u0018\u0001J \u00b8\u0002\u0080\u00b4 \u0018\u0001J \u00b8\u0002\u007f\u00b4 \u0018\u0001J \u00b8\u0002~\u00b4 \u0018\u0001J \u00b8\u0002}\u00b4 \u0018\u0001J \u00b8\u0002|\u00b4 \u0018\u0001J \u00b8\u0002{\u00b4 \u0018\u0001J \u00b8\u0002z\u00b4 \u0018\u0001J \u00b8\u0002y\u00b4 \u0018\u0001J \u00b8\u0002x\u00b4 \u0018\u0001J \u00b8\u0002",
+   "kind": "doc",
+   "source": "National Treasury Kenya",
+   "source_id": "ke-treasury",
+   "tier": 1,
+   "country": "KE",
+   "category": "fiscal",
+   "segments": [
+    "city",
+    "bush",
+    "beach"
+   ],
+   "first_seen": "2026-11-18T01:59+03:00",
+   "published": null,
+   "verdict": "CONSIDER"
+  },
+  {
+   "score": 85.5,
+   "components": {
+    "tier": 40,
+    "category": 15,
+    "lead": 16.8,
+    "relevance": 0,
+    "freshness": 19.7,
+    "undated": -6
+   },
+   "keywords": [],
+   "shock_terms": [],
+   "dedupe_match": null,
+   "dedupe_similarity": 0.0,
+   "id": "d70eeda0c3e4",
+   "title": "The Judges Retirement Benefits Regulations,2026",
+   "url": "https://www.treasury.go.ke/sites/default/files/Latest%20updates/PUBLIC%20NOTICE%20-%20INVITATION%20FOR%20COMMENTS%20ON%20THE%20DRAFT%20JUDGES%E2%80%99%20RETIREMENT%20BENEFITS%20REGULATIONS%2C%202026%20%282%29.pdf",
+   "summary": "GPOS\u00d0\u00c2\u0091\u00cd\u0000\u0003X\u00a8\u0000\u0001\u00a7$GSUB\u009c\u00e3 \u00e3\u0000\u0004\u00ff\u00cc\u0000\u0000l\u00eaJSTFm*i\u0006\u0000\u0005l\u00b8\u0000\u0000\u0000 LTSH\u009c%b\u00ab\u0000\u0000A\u00d4\u0000\u0000\u0011POS/2\u0017oS~\u0000\u0000\u0002\u0018\u0000\u0000\u0000`PCLTY\u00d3\u0081\u00e3\u0000\u0003UH\u0000\u0000\u00006VDMXN#h\u0082\u0000\u0000S$\u0000\u0000\u0011\u0094cmap\u00c3L0\u00dc\u0000\u0002\u0004@\u0000\u0000\u0003\u0002cvt d\u0002\u00d7\u0000\u0002!4\u0000\u0000\u0010\u0084fpgmmY\u001bS\u0000\u0002\u0007D\u0000\u0000 Ygasp\u0000\u0019\u0000!\u0000\u0003U8\u0000\u0000\u0000\u0010glyfq\u00e1\u00a7\u00d9\u0000\u00021\u00b8\u0000\u0000\u00d4\u00fchdmx\u00ad\u009c\u00c51\u0000\u0000d\u00b8\u0000\u0001\u009f\u0088head\u00e9R\u009ce\u0000\u0000\u0001\u009c\u0000\u0000\u00006hhea\u0013M\u0016z\u0000\u0000\u0001\u00d4\u0000\u0000\u0000$hmtx5\u00c9\u001a\u00f4\u0000\u0000\u0002x\u0000\u0000?\\kern\u00fd\u00be\u0001\u0013\u0000\u0003\u0000$\u00ff\u00f6\u0000\u00ff\u00f5\u0000-\u0000\u0000$\u00ff\u00f6\u0000\u00ff\u00f5\u0000-\u0000\u0000$\u00ff\u00f6\u0000\u00ff\u00f5\u0000-\u0000\u001a\u0019\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000 \u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000",
+   "kind": "doc",
+   "source": "National Treasury Kenya",
+   "source_id": "ke-treasury",
+   "tier": 1,
+   "country": "KE",
+   "category": "fiscal",
+   "segments": [
+    "city",
+    "bush",
+    "beach"
+   ],
+   "first_seen": "2026-11-18T01:59+03:00",
+   "published": null,
+   "verdict": "CONSIDER"
+  },
+  {
+   "score": 85.4,
+   "components": {
+    "tier": 40,
+    "category": 15,
+    "lead": 16.8,
+    "relevance": 0,
+    "freshness": 19.6,
+    "undated": -6
+   },
+   "keywords": [],
+   "shock_terms": [],
+   "dedupe_match": null,
+   "dedupe_similarity": 0.14,
+   "id": "ac6926156615",
+   "title": "TRA APPLAUDED FOR ENHANCING AND FACILITATING TRADE BETWEEN TANZANIA MAINLAND AND ZANZIBAR",
+   "url": "https://www.tra.go.tz/news/tra-recognised-for-enhancing-and-facilitating-trade-between-tanzania-mainland-and-zanzibar",
+   "summary": "",
+   "kind": "item",
+   "source": "Tanzania Revenue Authority",
+   "source_id": "tz-tra",
+   "tier": 1,
+   "country": "TZ",
+   "category": "fiscal",
+   "segments": [
+    "city",
+    "bush",
+    "beach"
+   ],
+   "first_seen": "2026-11-18T01:59+03:00",
+   "published": null,
+   "verdict": "CONSIDER"
+  },
+  {
+   "score": 85.4,
+   "components": {
+    "tier": 40,
+    "category": 15,
+    "lead": 16.8,
+    "relevance": 0,
+    "freshness": 19.6,
+    "undated": -6
+   },
+   "keywords": [],
+   "shock_terms": [],
+   "dedupe_match": null,
+   "dedupe_similarity": 0.3,
+   "id": "843fec734d05",
+   "title": "2027 BUDGET POLICY STATEMENT",
+   "url": "https://www.treasury.go.ke/sites/default/files/Latest%20updates/2027%20Budget%20Policy%20Statement.pdf",
+   "summary": "en-GB en-GB en-GB en-GB en-GB en-GB en-GB en-GB en-GB en-GB en-GBREPUBLIC OF KENYA en-GB en-GBTHE NATIONAL TREASURY en-GB en-GB en-GB en-GB en-GB en-GB en-GBMEDIUM TERM en-GB en-GB2027 BUDGET POLICY en-GBSTATEMENT en-GB en-GB en-GB en-GB en-GB en-GB en-GBSECURING THE GAINS OF THE BOTTOM-UP ECONOMIC TRANSFORMATION AGENDA FOR RESILIENT AND BROAD-BASED GROWTH en-GB en-GB en-GB en-GB en-GB en-GB en-GB",
+   "kind": "doc",
+   "source": "National Treasury Kenya",
+   "source_id": "ke-treasury",
+   "tier": 1,
+   "country": "KE",
+   "category": "fiscal",
+   "segments": [
+    "city",
+    "bush",
+    "beach"
+   ],
+   "first_seen": "2026-11-18T01:59+03:00",
+   "published": null,
+   "verdict": "CONSIDER"
+  },
+  {
+   "score": 84.8,
    "components": {
     "tier": 40,
     "category": 9,
     "lead": 16.8,
     "relevance": 8,
-    "freshness": 19.8,
+    "freshness": 17.0,
     "undated": -6
    },
    "keywords": [
@@ -574,13 +867,85 @@
    "verdict": "CONSIDER"
   },
   {
-   "score": 86.0,
+   "score": 84.1,
+   "components": {
+    "tier": 20,
+    "category": 14,
+    "lead": 8.4,
+    "relevance": 12,
+    "freshness": 19.7,
+    "corroborated": 10
+   },
+   "keywords": [
+    "route",
+    "airline"
+   ],
+   "shock_terms": [],
+   "dedupe_match": null,
+   "dedupe_similarity": 0.17,
+   "id": "3b50cf178503",
+   "title": "Air China Begins Brussels Airlines Codeshare From Nov 2026",
+   "url": "https://www.aeroroutes.com/eng/261117-casncodeshare",
+   "summary": "Published at 1400PCT / 2100GMT 17NOV26 Air China earlier this month launched codeshare partnership with Brussels Airlines, covering various service beyond Brussels. Following codeshare routes went into effect since mid-November 2026. Air China operated by Brussels Airlines Brussels \u2013 Abidjan Brussels \u2013 Accra Brussels \u2013 Accra \u2013 Cotonou Brussels \u2013 Barcelona Brussels \u2013 Bilbao Brussels \u2013 Bologna Bruss",
+   "kind": "item",
+   "source": "AeroRoutes schedule filings",
+   "source_id": "aeroroutes",
+   "tier": 2,
+   "country": "GLOBAL",
+   "category": "aviation-tracker",
+   "segments": [
+    "city",
+    "bush",
+    "beach"
+   ],
+   "first_seen": "2026-11-18T02:00+03:00",
+   "published": "2026-11-18",
+   "verdict": "CONSIDER"
+  },
+  {
+   "score": 84.1,
+   "components": {
+    "tier": 20,
+    "category": 14,
+    "lead": 8.4,
+    "relevance": 12,
+    "freshness": 19.7,
+    "corroborated": 10
+   },
+   "keywords": [
+    "seat",
+    "airline"
+   ],
+   "shock_terms": [],
+   "dedupe_match": null,
+   "dedupe_similarity": 0.14,
+   "id": "959ac1be2485",
+   "title": "SAS NS27 Intercontinental Service Changes \u2013 15NOV26",
+   "url": "https://www.aeroroutes.com/eng/261117-skns27inc",
+   "summary": "Published at 1200PCT / 1900GMT 17NOV26 SAS last week filed intercontinental network changes for Northern summer 2027 season, reflecting the airline\u2019s announcement. As of 15NOV26, planned changes include the following. Copenhagen \u2013 Atlanta eff 13MAY27 A330-300 replaces A350-900 eff 13MAY27 Increase from 5 to 6 weekly (1 daily from 21MAY27) Copenhagen \u2013 Chicago O'Hare eff 12MAY27 A3350-900 operates ",
+   "kind": "item",
+   "source": "AeroRoutes schedule filings",
+   "source_id": "aeroroutes",
+   "tier": 2,
+   "country": "GLOBAL",
+   "category": "aviation-tracker",
+   "segments": [
+    "city",
+    "bush",
+    "beach"
+   ],
+   "first_seen": "2026-11-18T02:00+03:00",
+   "published": "2026-11-17",
+   "verdict": "CONSIDER"
+  },
+  {
+   "score": 83.2,
    "components": {
     "tier": 20,
     "category": 14,
     "lead": 8.4,
     "relevance": 16,
-    "freshness": 17.6,
+    "freshness": 14.8,
     "corroborated": 10
    },
    "keywords": [
@@ -610,13 +975,13 @@
    "verdict": "CONSIDER"
   },
   {
-   "score": 86.0,
+   "score": 83.2,
    "components": {
     "tier": 20,
     "category": 14,
     "lead": 8.4,
     "relevance": 16,
-    "freshness": 17.6,
+    "freshness": 14.8,
     "corroborated": 10
    },
    "keywords": [
@@ -647,13 +1012,13 @@
    "verdict": "CONSIDER"
   },
   {
-   "score": 86.0,
+   "score": 83.2,
    "components": {
     "tier": 20,
     "category": 14,
     "lead": 8.4,
     "relevance": 16,
-    "freshness": 17.6,
+    "freshness": 14.8,
     "corroborated": 10
    },
    "keywords": [
@@ -684,13 +1049,13 @@
    "verdict": "CONSIDER"
   },
   {
-   "score": 84.6,
+   "score": 81.8,
    "components": {
     "tier": 40,
     "category": 5,
     "lead": 12.0,
     "relevance": 0,
-    "freshness": 17.6,
+    "freshness": 14.8,
     "corroborated": 10
    },
    "keywords": [],
@@ -717,13 +1082,13 @@
    "verdict": "CONSIDER"
   },
   {
-   "score": 84.1,
+   "score": 81.2,
    "components": {
     "tier": 5,
     "category": 5,
     "lead": 2.4,
     "relevance": 44,
-    "freshness": 17.7,
+    "freshness": 14.8,
     "corroborated": 10
    },
    "keywords": [
@@ -758,13 +1123,13 @@
    "verdict": "CONSIDER"
   },
   {
-   "score": 83.6,
+   "score": 80.8,
    "components": {
     "tier": 40,
     "category": 9,
     "lead": 16.8,
     "relevance": 4,
-    "freshness": 19.8,
+    "freshness": 17.0,
     "undated": -6
    },
    "keywords": [
@@ -791,142 +1156,192 @@
    "verdict": "CONSIDER"
   },
   {
-   "score": 81.0,
+   "score": 80.4,
    "components": {
-    "tier": 20,
-    "category": 14,
-    "lead": 8.4,
-    "relevance": 20,
-    "freshness": 8.6,
-    "corroborated": 10
+    "tier": 40,
+    "category": 10,
+    "lead": 16.8,
+    "relevance": 0,
+    "freshness": 19.6,
+    "undated": -6
    },
-   "keywords": [
-    "frequency",
-    "seat",
-    "flight"
-   ],
+   "keywords": [],
    "shock_terms": [],
    "dedupe_match": null,
-   "dedupe_similarity": 0.14,
-   "id": "37c066a12437",
-   "title": "Cathay Pacific Expands Seattle Flights in NS27",
-   "url": "https://www.aeroroutes.com/eng/261116-cxns27sea",
-   "summary": "Published at 2200PCT 16NOV26 / 0500GMT 17NOV26 Cathay Pacific in Northern summer 2027 season plans to increase Hong Kong \u2013 Seattle service, as the carrier schedules 1 daily flight, instead of 5 weekly. Planned frequency increase is scheduled from 28MAR27, with A350-900 aircraft. CX862 HKG1245 \u2013 0935SEA 359 57 CX852 HKG1305 \u2013 0945SEA 359 x57 CX833 SEA1115 \u2013 1630+1HKG 359 57 CX853 SEA1145 \u2013 1645+1HK",
-   "kind": "item",
-   "source": "AeroRoutes schedule filings",
-   "source_id": "aeroroutes",
-   "tier": 2,
-   "country": "GLOBAL",
-   "category": "aviation-tracker",
+   "dedupe_similarity": 0.33,
+   "id": "74914dbcbc86",
+   "title": "The Hansard - Thursday, 12 November 2026",
+   "url": "https://www.parliament.go.ke/sites/default/files/2026-11/The%20Hansard%20-%20Thursday%2C%2012%20November%202026.pdf",
+   "summary": "en-GB en-GB en-GBREPUBLIC OF KENYA en-GB en-GB en-GB en-GB en-GB en-GB en-GBTHIRTEENTH PARLIAMENT en-GB en-GB en-GB en-GB en-GB en-GB en-GBNATIONAL ASSEMBLY en-GB en-GB en-GB en-GB en-GB en-GBTHE HANSARD en-GB en-GB en-GB en-GB en-GB en-GB en-GB en-GB en-GB12th November 2026 Vol. V No. 105 12th November 2026 National Assembly Debates 1 Disclaimer: The electronic version of the Official Hansard Rep",
+   "kind": "doc",
+   "source": "Parliament of Kenya \u2014 bills & papers",
+   "source_id": "ke-parliament",
+   "tier": 1,
+   "country": "KE",
+   "category": "legislature",
    "segments": [
     "city",
     "bush",
     "beach"
    ],
-   "first_seen": "2026-11-17T13:21+03:00",
-   "published": "2026-11-17",
+   "first_seen": "2026-11-18T01:59+03:00",
+   "published": null,
    "verdict": "CONSIDER"
   },
   {
    "score": 80.4,
    "components": {
-    "tier": 20,
-    "category": 14,
-    "lead": 8.4,
-    "relevance": 28,
-    "freshness": 0.0,
-    "corroborated": 10
+    "tier": 40,
+    "category": 10,
+    "lead": 16.8,
+    "relevance": 0,
+    "freshness": 19.6,
+    "undated": -6
    },
-   "keywords": [
-    "cancel",
-    "route",
-    "airline",
-    "flight"
-   ],
+   "keywords": [],
    "shock_terms": [],
    "dedupe_match": null,
-   "dedupe_similarity": 0.0,
-   "id": "52dd85b52b3c",
-   "title": "Air Serbia Cancels Guangzhou Service in late-Nov 2026",
-   "url": "https://www.aeroroutes.com/eng/261116-junw26can",
-   "summary": "Published at 0800PCT / 1500GMT 16NOV26 Air Serbia in the last few days filed service changes for Belgrade \u2013 Guangzhou route, which now sees the carrier operating last flight on 27NOV26. The airline currently operates this route twice weekly, with Airbus A330-200 aircraft. JU988 BEG0020 \u2013 1855CAN 332 15 JU989 CAN2245 \u2013 0415+1BEG 332 15",
+   "dedupe_similarity": 0.17,
+   "id": "0e9c7b5f8b93",
+   "title": "Govt to cash 13,000 to clear way for Malaba-Kampala railway Tuesday, 17 November 2026",
+   "url": "https://www.parliament.go.ug/news/4741/govt-cash-13000-clear-way-malaba-kampala-railway",
+   "summary": "",
    "kind": "item",
-   "source": "AeroRoutes schedule filings",
-   "source_id": "aeroroutes",
-   "tier": 2,
-   "country": "GLOBAL",
-   "category": "aviation-tracker",
+   "source": "Parliament of Uganda",
+   "source_id": "ug-parliament",
+   "tier": 1,
+   "country": "UG",
+   "category": "legislature",
    "segments": [
     "city",
     "bush",
     "beach"
    ],
-   "first_seen": "2026-11-16T18:08+03:00",
-   "published": "2026-11-16",
+   "first_seen": "2026-11-18T01:59+03:00",
+   "published": null,
    "verdict": "CONSIDER"
   },
   {
-   "score": 80.0,
+   "score": 80.4,
+   "components": {
+    "tier": 40,
+    "category": 10,
+    "lead": 16.8,
+    "relevance": 0,
+    "freshness": 19.6,
+    "undated": -6
+   },
+   "keywords": [],
+   "shock_terms": [],
+   "dedupe_match": null,
+   "dedupe_similarity": 0.25,
+   "id": "813a1e7bc10c",
+   "title": "House approves PAYE waiver for Northern Uganda Diocese Tuesday, 17 November 2026",
+   "url": "https://www.parliament.go.ug/news/4740/house-approves-paye-waiver-northern-uganda-diocese",
+   "summary": "",
+   "kind": "item",
+   "source": "Parliament of Uganda",
+   "source_id": "ug-parliament",
+   "tier": 1,
+   "country": "UG",
+   "category": "legislature",
+   "segments": [
+    "city",
+    "bush",
+    "beach"
+   ],
+   "first_seen": "2026-11-18T01:59+03:00",
+   "published": null,
+   "verdict": "CONSIDER"
+  },
+  {
+   "score": 80.4,
+   "components": {
+    "tier": 40,
+    "category": 10,
+    "lead": 16.8,
+    "relevance": 0,
+    "freshness": 19.6,
+    "undated": -6
+   },
+   "keywords": [],
+   "shock_terms": [],
+   "dedupe_match": null,
+   "dedupe_similarity": 0.17,
+   "id": "68acdcd05037",
+   "title": "Finance minister stakes Shs198bn to revive tea industry Tuesday, 17 November 2026",
+   "url": "https://www.parliament.go.ug/news/4739/finance-minister-stakes-shs198bn-revive-tea-industry",
+   "summary": "",
+   "kind": "item",
+   "source": "Parliament of Uganda",
+   "source_id": "ug-parliament",
+   "tier": 1,
+   "country": "UG",
+   "category": "legislature",
+   "segments": [
+    "city",
+    "bush",
+    "beach"
+   ],
+   "first_seen": "2026-11-18T01:59+03:00",
+   "published": null,
+   "verdict": "CONSIDER"
+  },
+  {
+   "score": 80.4,
+   "components": {
+    "tier": 40,
+    "category": 10,
+    "lead": 16.8,
+    "relevance": 0,
+    "freshness": 19.6,
+    "undated": -6
+   },
+   "keywords": [],
+   "shock_terms": [],
+   "dedupe_match": null,
+   "dedupe_similarity": 0.17,
+   "id": "55cd967eabcf",
+   "title": "MPs push joint security action to protect Zoka Forest Tuesday, 17 November 2026",
+   "url": "https://www.parliament.go.ug/news/4738/mps-push-joint-security-action-protect-zoka-forest",
+   "summary": "",
+   "kind": "item",
+   "source": "Parliament of Uganda",
+   "source_id": "ug-parliament",
+   "tier": 1,
+   "country": "UG",
+   "category": "legislature",
+   "segments": [
+    "city",
+    "bush",
+    "beach"
+   ],
+   "first_seen": "2026-11-18T01:59+03:00",
+   "published": null,
+   "verdict": "CONSIDER"
+  },
+  {
+   "score": 79.7,
    "components": {
     "tier": 20,
     "category": 4,
     "lead": 0.0,
-    "relevance": 28,
-    "freshness": 0.0,
-    "corroborated": 10,
+    "relevance": 24,
+    "freshness": 19.7,
+    "undated": -6,
     "shock": 18
    },
    "keywords": [
     "outbreak",
-    "terror",
-    "opening"
+    "ebola"
    ],
    "shock_terms": [
     "outbreak"
    ],
    "dedupe_match": null,
    "dedupe_similarity": 0.2,
-   "id": "b6079d57a65a",
-   "title": "Call for EAC bloc to jointly address cross-border security threats, transnational crime, cybercrime",
-   "url": "https://dailynews.co.tz/call-for-eac-bloc-to-jointly-address-cross-border-security-threats-transnational-crime-cybercrime",
-   "summary": "KAMPALA: MEMBER states of the East African Community (EAC) have been urged to strengthen regional cooperation to jointly address cross-border security threats, including terrorism, armed groups, transnational crime, border insecurity, disease outbreaks and cybercrime. The call was made by Uganda\u2019s Chief of Defence Forces, Lieutenant General Jack Ngorza Okasumba, when officially opening the EAC Def",
-   "kind": "item",
-   "source": "Daily News (Tanzania)",
-   "source_id": "np-dailynews-tz",
-   "tier": 2,
-   "country": "TZ",
-   "category": "press",
-   "segments": [
-    "city",
-    "bush",
-    "beach"
-   ],
-   "first_seen": "2026-11-16T22:39+03:00",
-   "published": "2026-11-16",
-   "verdict": "CONSIDER"
-  },
-  {
-   "score": 79.8,
-   "components": {
-    "tier": 20,
-    "category": 4,
-    "lead": 0.0,
-    "relevance": 24,
-    "freshness": 19.8,
-    "undated": -6,
-    "shock": 18
-   },
-   "keywords": [
-    "outbreak",
-    "ebola"
-   ],
-   "shock_terms": [
-    "outbreak"
-   ],
-   "dedupe_match": null,
-   "dedupe_similarity": 0.12,
-   "id": "f85eaecea1c4",
-   "title": "Africa Congo's Ebola outbreak is spreading and killing at a record pace 9 hours ago - 2 min read",
+   "id": "9824ad363c0d",
+   "title": "Africa Congo's Ebola outbreak is spreading and killing at a record pace 11 hours ago - 2 min read",
    "url": "https://www.thecitizen.co.tz/tanzania/news/africa/congo-s-ebola-outbreak-is-spreading-and-killing-at-a-record-pace-5673836",
    "summary": "",
    "kind": "item",
@@ -940,491 +1355,46 @@
     "bush",
     "beach"
    ],
-   "first_seen": "2026-11-17T23:33+03:00",
+   "first_seen": "2026-11-18T02:00+03:00",
    "published": null,
    "verdict": "CONSIDER"
   },
   {
-   "score": 79.6,
-   "components": {
-    "tier": 40,
-    "category": 9,
-    "lead": 16.8,
-    "relevance": 0,
-    "freshness": 19.8,
-    "undated": -6
-   },
-   "keywords": [],
-   "shock_terms": [],
-   "dedupe_match": null,
-   "dedupe_similarity": 0.0,
-   "id": "8397ad0e05a0",
-   "title": "Adventure Above the Mekong: Anantara Golden Triangle Launches New Explorer Tent",
-   "url": "https://media.minorhotels.com/en-GLO/274719-adventure-above-the-mekong-anantara-golden-triangle-launches-new-explorer-tent",
-   "summary": "",
-   "kind": "item",
-   "source": "Minor Hotels newsroom",
-   "source_id": "dev-minor",
-   "tier": 1,
-   "country": "GLOBAL",
-   "category": "hotel-group",
-   "segments": [
-    "beach"
-   ],
-   "first_seen": "2026-11-17T23:33+03:00",
-   "published": null,
-   "verdict": "CONSIDER"
-  },
-  {
-   "score": 79.0,
+   "score": 77.9,
    "components": {
     "tier": 20,
-    "category": 4,
-    "lead": 2.4,
-    "relevance": 16,
-    "freshness": 8.6,
+    "category": 5,
+    "lead": 1.2,
+    "relevance": 4,
+    "freshness": 19.7,
     "corroborated": 10,
     "shock": 18
    },
    "keywords": [
-    "terror",
-    "investment"
+    "airline"
    ],
    "shock_terms": [
     "attack"
    ],
    "dedupe_match": null,
-   "dedupe_similarity": 0.17,
-   "id": "130873a63fe9",
-   "title": "Trump Makes Major U-turn in Fight Against Al-Shabaab Amid Renewed Attacks",
-   "url": "https://www.kenyans.co.ke/news/129426-us-renews-funding-unsos-and-aussom-major-boost-against-al-shabaab",
-   "summary": "Kenya is among the countries hardest hit by Al-Shabaab attacks in the region, despite its sustained investment in counterterrorism operations.",
+   "dedupe_similarity": 0.0,
+   "id": "91c584fd48b0",
+   "title": "Marriott Bonvoy Sign-Ins Were Down for Hours",
+   "url": "https://skift.com/2026/11/17/marriott-bonvoy-sign-ins-were-down-for-hours-disrupting-mobile-keys",
+   "summary": "Marriott\u2019s website and app briefly blocked loyalty member log-ins Tuesday. The company says the outage wasn\u2019t a cyberattack. United Airlines and many non-travel companies have suffered various tech disruptions in recent days.",
    "kind": "item",
-   "source": "Kenyans.co.ke news",
-   "source_id": "ke-kenyans",
-   "tier": 2,
-   "country": "KE",
-   "category": "press",
-   "segments": [
-    "city",
-    "bush",
-    "beach"
-   ],
-   "first_seen": "2026-11-17T13:21+03:00",
-   "published": "2026-11-17",
-   "verdict": "CONSIDER"
-  },
-  {
-   "score": 78.0,
-   "components": {
-    "tier": 20,
-    "category": 14,
-    "lead": 8.4,
-    "relevance": 8,
-    "freshness": 17.6,
-    "corroborated": 10
-   },
-   "keywords": [
-    "seat"
-   ],
-   "shock_terms": [],
-   "dedupe_match": null,
-   "dedupe_similarity": 0.14,
-   "id": "35c19c62a466",
-   "title": "Virgin Atlantic NS27 Service Changes \u2013 15NOV26",
-   "url": "https://www.aeroroutes.com/eng/261117-vsns27",
-   "summary": "Published at 1100PCT / 1800GMT 17NOV26 Virgin Atlantic earlier this month filed service changes to its planned operation for Northern summer 2027 season. Based on schedule filing comparison 25OCT26 vs 15NOV26, planned changes include the following. London Heathrow \u2013 Boston 1 of 2 daily VS157/158 service changes 28MAR27 \u2013 14APR27 Increase from 4 to 7 weekly eff 28MAR27 335-seater A350-1000 replaces",
-   "kind": "item",
-   "source": "AeroRoutes schedule filings",
-   "source_id": "aeroroutes",
+   "source": "Skift",
+   "source_id": "tp-skift",
    "tier": 2,
    "country": "GLOBAL",
-   "category": "aviation-tracker",
+   "category": "trade",
    "segments": [
     "city",
     "bush",
     "beach"
    ],
-   "first_seen": "2026-11-17T21:36+03:00",
-   "published": "2026-11-17",
-   "verdict": "CONSIDER"
-  },
-  {
-   "score": 78.0,
-   "components": {
-    "tier": 20,
-    "category": 14,
-    "lead": 8.4,
-    "relevance": 8,
-    "freshness": 17.6,
-    "corroborated": 10
-   },
-   "keywords": [
-    "airline",
-    "flight"
-   ],
-   "shock_terms": [],
-   "dedupe_match": null,
-   "dedupe_similarity": 0.17,
-   "id": "5bc31538b1e3",
-   "title": "Iraqi Airways Resumes Beijing Flights From Nov 2026",
-   "url": "https://www.aeroroutes.com/eng/261117-ianw26pek",
-   "summary": "Published at 0700PCT / 1400GMT 17NOV26 Iraqi Airways this past weekend resumed service to Beijing, after 11-month hiatus. The airline once again operates Baghdad \u2013 Basra \u2013 Beijing Capital service with 787-8 from 14NOV26, scheduled twice weekly. IA471 BGW1230 \u2013 1330BSR1430 \u2013 0400+1PEK 788 26 IA472 PEK0600 \u2013 1000BSR1100 \u2013 1200BGW 788 37 The carrier also operates 2 weekly Baghdad \u2013 Guangzhou flights ",
-   "kind": "item",
-   "source": "AeroRoutes schedule filings",
-   "source_id": "aeroroutes",
-   "tier": 2,
-   "country": "GLOBAL",
-   "category": "aviation-tracker",
-   "segments": [
-    "city",
-    "bush",
-    "beach"
-   ],
-   "first_seen": "2026-11-17T21:36+03:00",
-   "published": "2026-11-17",
-   "verdict": "CONSIDER"
-  },
-  {
-   "score": 77.7,
-   "components": {
-    "tier": 20,
-    "category": 4,
-    "lead": 0.0,
-    "relevance": 24,
-    "freshness": 17.7,
-    "undated": -6,
-    "shock": 18
-   },
-   "keywords": [
-    "outbreak",
-    "ebola"
-   ],
-   "shock_terms": [
-    "outbreak"
-   ],
-   "dedupe_match": null,
-   "dedupe_similarity": 0.12,
-   "id": "da048bdb885f",
-   "title": "Africa Congo's Ebola outbreak is spreading and killing at a record pace 7 hours ago - 2 min read",
-   "url": "https://www.thecitizen.co.tz/tanzania/news/africa/congo-s-ebola-outbreak-is-spreading-and-killing-at-a-record-pace-5673836",
-   "summary": "",
-   "kind": "item",
-   "source": "The Citizen (Tanzania)",
-   "source_id": "np-citizen-tz",
-   "tier": 2,
-   "country": "TZ",
-   "category": "press",
-   "segments": [
-    "city",
-    "bush",
-    "beach"
-   ],
-   "first_seen": "2026-11-17T21:37+03:00",
-   "published": null,
-   "verdict": "CONSIDER"
-  },
-  {
-   "score": 77.6,
-   "components": {
-    "tier": 40,
-    "category": 7,
-    "lead": 16.8,
-    "relevance": 0,
-    "freshness": 19.8,
-    "undated": -6
-   },
-   "keywords": [],
-   "shock_terms": [],
-   "dedupe_match": null,
-   "dedupe_similarity": 0.0,
-   "id": "0bdbe6bef5d8",
-   "title": "Framework Contract for Consultancy Services f...",
-   "url": "https://egpuganda.go.ug/index/424951474_egp",
-   "summary": "",
-   "kind": "item",
-   "source": "Uganda EGP portal",
-   "source_id": "ug-tenders",
-   "tier": 1,
-   "country": "UG",
-   "category": "tender",
-   "segments": [
-    "city",
-    "bush",
-    "beach"
-   ],
-   "first_seen": "2026-11-17T23:33+03:00",
-   "published": null,
-   "verdict": "CONSIDER"
-  },
-  {
-   "score": 77.6,
-   "components": {
-    "tier": 40,
-    "category": 7,
-    "lead": 16.8,
-    "relevance": 0,
-    "freshness": 19.8,
-    "undated": -6
-   },
-   "keywords": [],
-   "shock_terms": [],
-   "dedupe_match": null,
-   "dedupe_similarity": 0.0,
-   "id": "a8aa04a668a2",
-   "title": "Civil Works for Upgrading Seruwungu road & Ak...",
-   "url": "https://egpuganda.go.ug/index/425648418_egp",
-   "summary": "",
-   "kind": "item",
-   "source": "Uganda EGP portal",
-   "source_id": "ug-tenders",
-   "tier": 1,
-   "country": "UG",
-   "category": "tender",
-   "segments": [
-    "city",
-    "bush",
-    "beach"
-   ],
-   "first_seen": "2026-11-17T23:33+03:00",
-   "published": null,
-   "verdict": "CONSIDER"
-  },
-  {
-   "score": 77.6,
-   "components": {
-    "tier": 40,
-    "category": 7,
-    "lead": 16.8,
-    "relevance": 0,
-    "freshness": 19.8,
-    "undated": -6
-   },
-   "keywords": [],
-   "shock_terms": [],
-   "dedupe_match": null,
-   "dedupe_similarity": 0.0,
-   "id": "169214bb0222",
-   "title": "Brand visibility - PROCUREMENT OF INFORMATION...",
-   "url": "https://egpuganda.go.ug/index/415688602_egp",
-   "summary": "",
-   "kind": "item",
-   "source": "Uganda EGP portal",
-   "source_id": "ug-tenders",
-   "tier": 1,
-   "country": "UG",
-   "category": "tender",
-   "segments": [
-    "city",
-    "bush",
-    "beach"
-   ],
-   "first_seen": "2026-11-17T23:33+03:00",
-   "published": null,
-   "verdict": "CONSIDER"
-  },
-  {
-   "score": 77.6,
-   "components": {
-    "tier": 40,
-    "category": 7,
-    "lead": 16.8,
-    "relevance": 0,
-    "freshness": 19.8,
-    "undated": -6
-   },
-   "keywords": [],
-   "shock_terms": [],
-   "dedupe_match": null,
-   "dedupe_similarity": 0.0,
-   "id": "f079999f0f54",
-   "title": "PROCUREMENT OF EIGHT (8) STATION WAGONS AND F...",
-   "url": "https://egpuganda.go.ug/index/423417792_egp",
-   "summary": "",
-   "kind": "item",
-   "source": "Uganda EGP portal",
-   "source_id": "ug-tenders",
-   "tier": 1,
-   "country": "UG",
-   "category": "tender",
-   "segments": [
-    "city",
-    "bush",
-    "beach"
-   ],
-   "first_seen": "2026-11-17T23:33+03:00",
-   "published": null,
-   "verdict": "CONSIDER"
-  },
-  {
-   "score": 77.0,
-   "components": {
-    "tier": 20,
-    "category": 14,
-    "lead": 8.4,
-    "relevance": 16,
-    "freshness": 8.6,
-    "corroborated": 10
-   },
-   "keywords": [
-    "route",
-    "frequency"
-   ],
-   "shock_terms": [],
-   "dedupe_match": null,
-   "dedupe_similarity": 0.14,
-   "id": "0175aa24dcf3",
-   "title": "Air New Zealand June/July 2027 Vancouver Service Increases",
-   "url": "https://www.aeroroutes.com/eng/261117-nzns27yvr",
-   "summary": "Published at 0100PCT / 0800GMT 17NOV26 Air New Zealand during Northern summer 2027 season plans to increase service on Auckland \u2013 Vancouver route, as peak season frequency increases from 7 to 9 weekly. Frequency increase is scheduled from 18JUN27 to 30JUL27, with a mix of 787-9 and 777-300ER. NZ024 AKL2020 \u2013 1420YVR 789 x1 NZ024 AKL2020 \u2013 1420YVR 77W 1 NZ026 AKL2355 \u2013 1755YVR 77W 35 NZ023 YVR2055 ",
-   "kind": "item",
-   "source": "AeroRoutes schedule filings",
-   "source_id": "aeroroutes",
-   "tier": 2,
-   "country": "GLOBAL",
-   "category": "aviation-tracker",
-   "segments": [
-    "city",
-    "bush",
-    "beach"
-   ],
-   "first_seen": "2026-11-17T13:21+03:00",
-   "published": "2026-11-17",
-   "verdict": "CONSIDER"
-  },
-  {
-   "score": 77.0,
-   "components": {
-    "tier": 20,
-    "category": 14,
-    "lead": 8.4,
-    "relevance": 16,
-    "freshness": 8.6,
-    "corroborated": 10
-   },
-   "keywords": [
-    "route",
-    "airline",
-    "flight"
-   ],
-   "shock_terms": [],
-   "dedupe_match": null,
-   "dedupe_similarity": 0.14,
-   "id": "b3d6e2281190",
-   "title": "Etihad Increases Calgary Flights in 4Q27",
-   "url": "https://www.aeroroutes.com/eng/261117-ey4q27yyc",
-   "summary": "Published at 0000PCT / 0700GMT 17NOV26 Etihad Airways from mid-October 2027 plans to increase service on Abu Dhabi \u2013 Calgary route, the airline announced yesterday (16NOV26). From 15OCT27, the airline will increase service from 4 to 7 weekly, with 787-9. EY029 AUH0225 \u2013 0650YYC 789 D EY030 YYC1335 \u2013 1255+1AUH 789 D",
-   "kind": "item",
-   "source": "AeroRoutes schedule filings",
-   "source_id": "aeroroutes",
-   "tier": 2,
-   "country": "GLOBAL",
-   "category": "aviation-tracker",
-   "segments": [
-    "city",
-    "bush",
-    "beach"
-   ],
-   "first_seen": "2026-11-17T13:21+03:00",
-   "published": "2026-11-17",
-   "verdict": "CONSIDER"
-  },
-  {
-   "score": 76.4,
-   "components": {
-    "tier": 40,
-    "category": 18,
-    "lead": 8.4,
-    "relevance": 0,
-    "freshness": 0.0,
-    "corroborated": 10
-   },
-   "keywords": [],
-   "shock_terms": [],
-   "dedupe_match": null,
-   "dedupe_similarity": 0.0,
-   "id": "d8edd3b59948",
-   "title": "The Littlest Elephant Fighter in Tsavo",
-   "url": "https://kws.go.ke/the-littlest-elephant-fighter-in-tsavo",
-   "summary": "Remember your salad days, when the world felt enormous and you could not wander too far away from your family? Now imagine that security gone in an instant. That is what happened to a ndama ya tembo, as an elephant calf is known in Kiswahili. She is a two-and-a-half-year-old female who was found all alone [...]",
-   "kind": "item",
-   "source": "Kenya Wildlife Service",
-   "source_id": "ke-kws",
-   "tier": 1,
-   "country": "KE",
-   "category": "parks",
-   "segments": [
-    "bush"
-   ],
-   "first_seen": "2026-11-16T22:38+03:00",
-   "published": "2026-11-16",
-   "verdict": "CONSIDER"
-  },
-  {
-   "score": 74.1,
-   "components": {
-    "tier": 40,
-    "category": 12,
-    "lead": 3.6,
-    "relevance": 0,
-    "freshness": 8.5,
-    "corroborated": 10
-   },
-   "keywords": [],
-   "shock_terms": [],
-   "dedupe_match": null,
-   "dedupe_similarity": 0.0,
-   "id": "5f27256c7cdd",
-   "title": "Lufthansa legt Vereinigung Cockpit umfassendes Angebot auf Basis der Schlichterempfehlungen vor",
-   "url": "https://newsroom.lufthansagroup.com/lufthansa-legt-vereinigung-cockpit-umfassendes-angebot-auf-basis-der-schlichterempfehlungen-vor",
-   "summary": "Lufthansa hat der Vereinigung Cockpit (VC) ein umfassendes Angebot zur Beilegung der offenen Tarifkonflikte vorgelegt. Es er\u00f6ffnet die Perspektive auf bis zu 1.000 Neueinstellungen im Cockpit bis Ende 2033 und entsprechend j\u00e4hrlich bis zu 150 zus\u00e4tzliche Kapit\u00e4nsbef\u00f6rderungen. Grundlage sind die Empfehlungen der ehemaligen Ministerpr\u00e4sidenten Bodo Ramelow und Roland Koch, die von den beiden Tarifp",
-   "kind": "item",
-   "source": "Lufthansa Group newsroom",
-   "source_id": "air-lh",
-   "tier": 1,
-   "country": "GLOBAL",
-   "category": "airline",
-   "segments": [
-    "beach"
-   ],
-   "first_seen": "2026-11-17T13:19+03:00",
-   "published": "2026-11-17",
-   "verdict": "CONSIDER"
-  },
-  {
-   "score": 74.0,
-   "components": {
-    "tier": 20,
-    "category": 4,
-    "lead": 2.4,
-    "relevance": 20,
-    "freshness": 17.6,
-    "corroborated": 10
-   },
-   "keywords": [
-    "terror",
-    "election"
-   ],
-   "shock_terms": [],
-   "dedupe_match": null,
-   "dedupe_similarity": 0.14,
-   "id": "52a06269f4c2",
-   "title": "Nigeria says US intelligence support helping target militants, secure 2027 election",
-   "url": "https://nation.africa/kenya/news/africa/nigeria-says-us-intelligence-support-helping-target-militants-secure-2027-election-5673428",
-   "summary": "Defence minister said Nigerian troops killed several terrorist leaders in overnight operations.",
-   "kind": "item",
-   "source": "Nation Africa: Kenya business",
-   "source_id": "ke-nation-business",
-   "tier": 2,
-   "country": "KE",
-   "category": "press",
-   "segments": [
-    "city",
-    "bush",
-    "beach"
-   ],
-   "first_seen": "2026-11-17T21:36+03:00",
-   "published": "2026-11-17",
+   "first_seen": "2026-11-18T02:00+03:00",
+   "published": "2026-11-18",
    "verdict": "CONSIDER"
   }
  ]
