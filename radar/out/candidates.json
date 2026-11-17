@@ -1,18 +1,51 @@
 {
- "generated": "2026-11-17T14:58:28+03:00",
- "slot": "midday",
- "window_start": 1794888000,
- "observations_in_window": 342,
- "deduped_against": 10,
+ "generated": "2026-11-17T21:39:25+03:00",
+ "slot": "evening",
+ "window_start": 1794830400,
+ "observations_in_window": 1155,
+ "deduped_against": 13,
  "candidates": [
   {
-   "score": 100.0,
+   "score": 101.3,
+   "components": {
+    "tier": 40,
+    "category": 32,
+    "lead": 3.6,
+    "relevance": 0,
+    "freshness": 19.7,
+    "corroborated": 10,
+    "page_change": -4
+   },
+   "keywords": [],
+   "shock_terms": [],
+   "dedupe_match": null,
+   "dedupe_similarity": 0.1,
+   "id": "d3853ee2963d",
+   "title": "[page changed] Federal Register \u2014 public inspection (HHS/CDC), pre-publication",
+   "url": "https://www.federalregister.gov/api/v1/public-inspection-documents/current.json",
+   "summary": "{\"count\":115,\"results\":[{\"agencies\":[{\"raw_name\":\"EQUAL EMPLOYMENT OPPORTUNITY COMMISSION\",\"name\":\"Equal Employment Opportunity Commission\",\"id\":147,\"url\":\"https://www.federalregister.gov/agencies/equal-employment-opportunity-commission\",\"json_url\":\"https://www.federalregister.gov/api/v1/agencies/147\",\"parent_id\":null,\"slug\":\"equal-employment-opportunity-commission\"}],\"agency_letters\":[],\"agency_n",
+   "kind": "page-change",
+   "source": "Federal Register \u2014 public inspection (HHS/CDC), pre-publication",
+   "source_id": "us-fedreg-pubinspect-hhs",
+   "tier": 1,
+   "country": "REG",
+   "category": "advisory",
+   "segments": [
+    "city",
+    "bush"
+   ],
+   "first_seen": "2026-11-17T21:36+03:00",
+   "published": "2026-11-16",
+   "verdict": "OPEN THIS \u2014 tier-1 advisory page moved; content not auto-parsed, read it manually"
+  },
+  {
+   "score": 92.6,
    "components": {
     "tier": 40,
     "category": 32,
     "lead": 12.0,
     "relevance": 8,
-    "freshness": 18.0,
+    "freshness": 10.6,
     "undated": -6,
     "page_change": -4
    },
@@ -41,13 +74,13 @@
    "verdict": "OPEN THIS \u2014 tier-1 advisory page moved; content not auto-parsed, read it manually"
   },
   {
-   "score": 63.6,
+   "score": 56.2,
    "components": {
     "tier": 40,
     "category": 12,
     "lead": 3.6,
     "relevance": 0,
-    "freshness": 18.0,
+    "freshness": 10.6,
     "undated": -6,
     "page_change": -4
    },
@@ -75,13 +108,81 @@
    "verdict": "OPEN THIS \u2014 tier-1 airline page moved; content not auto-parsed, read it manually"
   },
   {
-   "score": 113.8,
+   "score": 45.6,
+   "components": {
+    "tier": 40,
+    "category": 12,
+    "lead": 3.6,
+    "relevance": 0,
+    "freshness": 0.0,
+    "undated": -6,
+    "page_change": -4
+   },
+   "keywords": [],
+   "shock_terms": [],
+   "dedupe_match": null,
+   "dedupe_similarity": 0.0,
+   "id": "b6da2f865a6b",
+   "title": "[page changed] Airlink news",
+   "url": "https://www.flyairlink.com/",
+   "summary": "Request unsuccessful. Incapsula incident ID: 731000860068676157-33121314660881792",
+   "kind": "page-change",
+   "source": "Airlink news",
+   "source_id": "air-airlink",
+   "tier": 1,
+   "country": "REG",
+   "category": "airline",
+   "segments": [
+    "city",
+    "bush",
+    "beach"
+   ],
+   "first_seen": "2026-11-16T18:07+03:00",
+   "published": null,
+   "verdict": "OPEN THIS \u2014 tier-1 airline page moved; content not auto-parsed, read it manually"
+  },
+  {
+   "score": 112.1,
+   "components": {
+    "tier": 40,
+    "category": 18,
+    "lead": 8.4,
+    "relevance": 16,
+    "freshness": 19.7,
+    "corroborated": 10
+   },
+   "keywords": [
+    "conservanc",
+    "wildlife"
+   ],
+   "shock_terms": [],
+   "dedupe_match": null,
+   "dedupe_similarity": 0.17,
+   "id": "7f6fb78f124d",
+   "title": "An Innocent Bystander: Solio\u2019s Ten-Month-Old Rhino Calf Treated",
+   "url": "https://kws.go.ke/an-innocent-bystander-solios-ten-month-old-rhino-calf-treated",
+   "summary": "A Kenya Wildlife Service (KWS) Mt. Kenya Veterinary Unit team recently treated a ten-month-old female white rhino calf at Solio Conservancy for blunt trauma to a hind limb, most likely caused by a male mating with her mother. She was lame on that leg but mercifully had no open wounds. She was treated and released. [...]",
+   "kind": "item",
+   "source": "Kenya Wildlife Service",
+   "source_id": "ke-kws",
+   "tier": 1,
+   "country": "KE",
+   "category": "parks",
+   "segments": [
+    "bush"
+   ],
+   "first_seen": "2026-11-17T21:36+03:00",
+   "published": "2026-11-17",
+   "verdict": "STRONG \u2014 tier-1, upstream"
+  },
+  {
+   "score": 106.4,
    "components": {
     "tier": 40,
     "category": 9,
     "lead": 16.8,
     "relevance": 20,
-    "freshness": 18.0,
+    "freshness": 10.6,
     "corroborated": 10
    },
    "keywords": [
@@ -113,13 +214,194 @@
    "verdict": "STRONG \u2014 tier-1, upstream"
   },
   {
-   "score": 100.0,
+   "score": 100.2,
+   "components": {
+    "tier": 20,
+    "category": 14,
+    "lead": 8.4,
+    "relevance": 28,
+    "freshness": 19.8,
+    "corroborated": 10
+   },
+   "keywords": [
+    "route",
+    "frequency",
+    "seat",
+    "airline"
+   ],
+   "shock_terms": [],
+   "dedupe_match": null,
+   "dedupe_similarity": 0.14,
+   "id": "8e917d095746",
+   "title": "Alaska NS27 Seattle \u2013 Paris Frequency Changes",
+   "url": "https://www.aeroroutes.com/eng/261117-asns27cdg",
+   "summary": "Published at 0500PCT / 1200GMT 17NOV26 Alaska Airlines during Northern summer 2027 season is adjusting operational frequencies on Seattle \u2013 Paris Charles de Gaulle route, scheduled to commence on 25MAY27. The Oneworld member will operate this route 5 times weekly, however service will be reduced to 4 weekly from 17JUL27. The frequency changes were previously not covered on AeroRoutes . This route ",
+   "kind": "item",
+   "source": "AeroRoutes schedule filings",
+   "source_id": "aeroroutes",
+   "tier": 2,
+   "country": "GLOBAL",
+   "category": "aviation-tracker",
+   "segments": [
+    "city",
+    "bush",
+    "beach"
+   ],
+   "first_seen": "2026-11-17T21:36+03:00",
+   "published": "2026-11-17",
+   "verdict": "CONSIDER"
+  },
+  {
+   "score": 96.4,
+   "components": {
+    "tier": 40,
+    "category": 24,
+    "lead": 2.4,
+    "relevance": 20,
+    "freshness": 0.0,
+    "corroborated": 10
+   },
+   "keywords": [
+    "ebola",
+    "adr"
+   ],
+   "shock_terms": [],
+   "dedupe_match": null,
+   "dedupe_similarity": 0.14,
+   "id": "d40fa537b500",
+   "title": "L\u2019INSP RENFORCE LE DISPOSITIF NATIONAL D\u2019ALERTE SANITAIRE \u00c0 TRAVERS LA FORMATION DE 55 T\u00c9L\u00c9OP\u00c9RATEURS.",
+   "url": "https://insp.cd/linsp-renforce-le-dispositif-national-dalerte-sanitaire-a-travers-la-formation-de-55-teleoperateurs",
+   "summary": "Dans le cadre du renforcement de la riposte contre la 17\u1d49 \u00e9pid\u00e9mie de maladie \u00e0 virus Ebola (MVE-17), l\u2019Institut National",
+   "kind": "item",
+   "source": "INSP RDC \u2014 Ebola daily situation reports (SitRep)",
+   "source_id": "cd-insp-sitrep",
+   "tier": 1,
+   "country": "GLOBAL",
+   "category": "health",
+   "segments": [
+    "City",
+    "Bush"
+   ],
+   "first_seen": "2026-11-16T22:38+03:00",
+   "published": "2026-11-16",
+   "verdict": "STRONG \u2014 tier-1, upstream"
+  },
+  {
+   "score": 96.2,
+   "components": {
+    "tier": 20,
+    "category": 14,
+    "lead": 8.4,
+    "relevance": 24,
+    "freshness": 19.8,
+    "corroborated": 10
+   },
+   "keywords": [
+    "cancel",
+    "airline",
+    "flight",
+    "booking"
+   ],
+   "shock_terms": [],
+   "dedupe_match": null,
+   "dedupe_similarity": 0.12,
+   "id": "f42d909e6645",
+   "title": "Hainan Airlines Dec 2026 Beijing \u2013 Europe Service Reductions",
+   "url": "https://www.aeroroutes.com/eng/261117-hudec26pek",
+   "summary": "Published at 0900PCT / 1600GMT 17NOV26 Hainan Airlines has extended service reductions to Europe from Beijing into the first half of December 2026, as the carrier\u2019s schedule filing confirmed the plan. Cancelled flights on various dates listed below have been closed for bookings in the last 2 weeks. Beijing Capital \u2013 Berlin Service cancelled on following dates in Dec 2026: 02, 03, 07, 10 (A330-900n",
+   "kind": "item",
+   "source": "AeroRoutes schedule filings",
+   "source_id": "aeroroutes",
+   "tier": 2,
+   "country": "GLOBAL",
+   "category": "aviation-tracker",
+   "segments": [
+    "city",
+    "bush",
+    "beach"
+   ],
+   "first_seen": "2026-11-17T21:36+03:00",
+   "published": "2026-11-17",
+   "verdict": "CONSIDER"
+  },
+  {
+   "score": 96.1,
+   "components": {
+    "tier": 40,
+    "category": 24,
+    "lead": 2.4,
+    "relevance": 0,
+    "freshness": 19.7,
+    "corroborated": 10
+   },
+   "keywords": [],
+   "shock_terms": [],
+   "dedupe_match": null,
+   "dedupe_similarity": 0.17,
+   "id": "32db80c9f482",
+   "title": "SitRep N\u00b0185/MVE-BDBV/15/11/2026",
+   "url": "https://insp.cd/sitrep-n185-mve-bdbv-15-11-2026",
+   "summary": "",
+   "kind": "item",
+   "source": "INSP RDC \u2014 Ebola daily situation reports (SitRep)",
+   "source_id": "cd-insp-sitrep",
+   "tier": 1,
+   "country": "GLOBAL",
+   "category": "health",
+   "segments": [
+    "City",
+    "Bush"
+   ],
+   "first_seen": "2026-11-17T21:36+03:00",
+   "published": "2026-11-17",
+   "verdict": "STRONG \u2014 tier-1, upstream"
+  },
+  {
+   "score": 95.8,
+   "components": {
+    "tier": 20,
+    "category": 4,
+    "lead": 0.0,
+    "relevance": 24,
+    "freshness": 19.8,
+    "corroborated": 10,
+    "shock": 18
+   },
+   "keywords": [
+    "outbreak",
+    "terror"
+   ],
+   "shock_terms": [
+    "outbreak"
+   ],
+   "dedupe_match": null,
+   "dedupe_similarity": 0.2,
+   "id": "e6b2fa78dcc7",
+   "title": "EAC Defence Experts Meet in Uganda to Address Regional Security Threats",
+   "url": "https://softpower.ug/eac-defence-experts-meet-in-uganda-to-address-regional-security-threats",
+   "summary": "KAMPALA \u2014 Uganda Peoples\u2019 Defence Forces (UPDF) Chief of Joint Staff Lieutenant General Jack Bakasumba has called on East African Community (EAC) member states to strengthen cooperation in addressing shared security threats, including terrorism, border insecurity, cybercrime and disease outbreaks. Bakasumba said the threats facing the region could not be effectively addressed by individual countri",
+   "kind": "item",
+   "source": "SoftPower News \u2014 Tourism & Travel (Uganda)",
+   "source_id": "ug-softpower-tourism",
+   "tier": 2,
+   "country": "UG",
+   "category": "press",
+   "segments": [
+    "bush",
+    "city"
+   ],
+   "first_seen": "2026-11-17T21:37+03:00",
+   "published": "2026-11-17",
+   "verdict": "CONSIDER"
+  },
+  {
+   "score": 92.6,
    "components": {
     "tier": 40,
     "category": 32,
     "lead": 0.0,
     "relevance": 0,
-    "freshness": 18.0,
+    "freshness": 10.6,
     "corroborated": 10
    },
    "keywords": [],
@@ -146,13 +428,272 @@
    "verdict": "STRONG \u2014 tier-1, upstream"
   },
   {
-   "score": 90.4,
+   "score": 92.2,
    "components": {
     "tier": 20,
     "category": 14,
     "lead": 8.4,
     "relevance": 20,
-    "freshness": 18.0,
+    "freshness": 19.8,
+    "corroborated": 10
+   },
+   "keywords": [
+    "seat",
+    "airline",
+    "flight",
+    "franc"
+   ],
+   "shock_terms": [],
+   "dedupe_match": null,
+   "dedupe_similarity": 0.12,
+   "id": "ff27ba5dbdb0",
+   "title": "Alaska Adds Philippine Airlines Trans-Pac Codeshare From Dec 2026",
+   "url": "https://www.aeroroutes.com/eng/261117-asprcodeshare",
+   "summary": "Published at 0400PCT / 1100GMT 17NOV26 Alaska Airlines from December 2026 plans to expand codeshare partnership with Philippine Airlines, as AS-coded flight numbers to appear on selected Philippine Airlines\u2019 Trans-Pacific service. Following codeshare flights scheduled will commence on 01DEC26. Alaska Airlines operated by Philippine Airlines Manila \u2013 Honolulu Manila \u2013 Los Angeles Manila \u2013 San Franc",
+   "kind": "item",
+   "source": "AeroRoutes schedule filings",
+   "source_id": "aeroroutes",
+   "tier": 2,
+   "country": "GLOBAL",
+   "category": "aviation-tracker",
+   "segments": [
+    "city",
+    "bush",
+    "beach"
+   ],
+   "first_seen": "2026-11-17T21:36+03:00",
+   "published": "2026-11-17",
+   "verdict": "CONSIDER"
+  },
+  {
+   "score": 88.2,
+   "components": {
+    "tier": 20,
+    "category": 14,
+    "lead": 8.4,
+    "relevance": 16,
+    "freshness": 19.8,
+    "corroborated": 10
+   },
+   "keywords": [
+    "vat",
+    "route"
+   ],
+   "shock_terms": [],
+   "dedupe_match": null,
+   "dedupe_similarity": 0.14,
+   "id": "51a12a22ffef",
+   "title": "Parata Air Plans Seoul \u2013 Los Angeles May 2027 Debut",
+   "url": "https://www.aeroroutes.com/eng/261117-wens27us",
+   "summary": "Published at 1000PCT / 1700GMT 17NOV26 Korean carrier Parata Air on Tuesday (17NOV26) opened reservations for Seoul Incheon \u2013 Los Angeles route, its first nonstop US service. The carrier plans to serve this route on daily basis with Airbus A330-200 aircraft, effective 01MAY27. WE301 ICN1200 \u2013 0720LAX 332 D WE302 LAX0950 \u2013 1520+1ICN 332 D",
+   "kind": "item",
+   "source": "AeroRoutes schedule filings",
+   "source_id": "aeroroutes",
+   "tier": 2,
+   "country": "GLOBAL",
+   "category": "aviation-tracker",
+   "segments": [
+    "city",
+    "bush",
+    "beach"
+   ],
+   "first_seen": "2026-11-17T21:36+03:00",
+   "published": "2026-11-17",
+   "verdict": "CONSIDER"
+  },
+  {
+   "score": 88.2,
+   "components": {
+    "tier": 20,
+    "category": 14,
+    "lead": 8.4,
+    "relevance": 16,
+    "freshness": 19.8,
+    "corroborated": 10
+   },
+   "keywords": [
+    "route",
+    "airline",
+    "flight"
+   ],
+   "shock_terms": [],
+   "dedupe_match": null,
+   "dedupe_similarity": 0.12,
+   "id": "69e483851912",
+   "title": "Hainan Airlines Adds Haikou \u2013 Phnom Penh From Dec 2026",
+   "url": "https://www.aeroroutes.com/eng/261117-hudec26kti",
+   "summary": "Published at 0800PCT / 1500GMT 17NOV26 Hainan Airlines from December 2026 schedules additional service to Cambodia, as the carrier plans 3 weekly Haikou \u2013 Phnom Penh Krong Ta Khmau flights. 737-800 aircraft to serve this route from 12DEC26. HU457 HAK1350 \u2013 1500KTI 73H 246 HU458 KTI1605 \u2013 1920HAK 73H 246",
+   "kind": "item",
+   "source": "AeroRoutes schedule filings",
+   "source_id": "aeroroutes",
+   "tier": 2,
+   "country": "GLOBAL",
+   "category": "aviation-tracker",
+   "segments": [
+    "city",
+    "bush",
+    "beach"
+   ],
+   "first_seen": "2026-11-17T21:36+03:00",
+   "published": "2026-11-17",
+   "verdict": "CONSIDER"
+  },
+  {
+   "score": 88.2,
+   "components": {
+    "tier": 20,
+    "category": 14,
+    "lead": 8.4,
+    "relevance": 16,
+    "freshness": 19.8,
+    "corroborated": 10
+   },
+   "keywords": [
+    "route",
+    "airline",
+    "flight"
+   ],
+   "shock_terms": [],
+   "dedupe_match": null,
+   "dedupe_similarity": 0.14,
+   "id": "4cf4123405ed",
+   "title": "China Southern Adds Guangzhou \u2013 Langkawi in 1Q27",
+   "url": "https://www.aeroroutes.com/eng/261117-cz1q27lgk",
+   "summary": "Published at 0600PCT / 1300GMT 17NOV26 China Southern in the first quarter of 2027 plans to launch Guangzhou \u2013 Langkawi route, on board Airbus A321neo. The airline operates 3 weekly flights from 22JAN27 to 21FEB27. CZ5025 CAN0300 \u2013 0710LGK 32Q 357 CZ5026 LGK0815 \u2013 1215CAN 32Q 357",
+   "kind": "item",
+   "source": "AeroRoutes schedule filings",
+   "source_id": "aeroroutes",
+   "tier": 2,
+   "country": "GLOBAL",
+   "category": "aviation-tracker",
+   "segments": [
+    "city",
+    "bush",
+    "beach"
+   ],
+   "first_seen": "2026-11-17T21:36+03:00",
+   "published": "2026-11-17",
+   "verdict": "CONSIDER"
+  },
+  {
+   "score": 87.8,
+   "components": {
+    "tier": 40,
+    "category": 9,
+    "lead": 16.8,
+    "relevance": 12,
+    "freshness": 0.0,
+    "corroborated": 10
+   },
+   "keywords": [
+    "hotel",
+    "opening",
+    "pipeline"
+   ],
+   "shock_terms": [],
+   "dedupe_match": null,
+   "dedupe_similarity": 0.12,
+   "id": "1ecc3f9908bb",
+   "title": "Hilton\u2019s Growth in Greece Continues with Standout Openings",
+   "url": "https://stories.hilton.com/releases/hiltons-growth-in-greece-continues-with-standout-openings",
+   "summary": "ATHENS, Greece \u2013 Hilton is accelerating its growth in Greece, expanding from just one trading hotel six years ago to more than 80 properties trading or in the pipeline today. Spanning nine brands and supported by its partnership with Small Luxury Hotels of the World (SLH), the portfolio offers travellers greater choice across Greece\u2019s cities, [\u2026] The post Hilton\u2019s Growth in Greece Continues with S",
+   "kind": "item",
+   "source": "Hilton stories/newsroom",
+   "source_id": "dev-hilton",
+   "tier": 1,
+   "country": "GLOBAL",
+   "category": "hotel-group",
+   "segments": [
+    "city",
+    "bush",
+    "beach"
+   ],
+   "first_seen": "2026-11-16T18:07+03:00",
+   "published": "2026-11-16",
+   "verdict": "CONSIDER"
+  },
+  {
+   "score": 86.7,
+   "components": {
+    "tier": 40,
+    "category": 5,
+    "lead": 12.0,
+    "relevance": 0,
+    "freshness": 19.7,
+    "corroborated": 10
+   },
+   "keywords": [],
+   "shock_terms": [],
+   "dedupe_match": null,
+   "dedupe_similarity": 0.33,
+   "id": "9ec9f868cb89",
+   "title": "Order Paper For Wednesday, 18th November 2026 -Joint Sitting Of Parliament",
+   "url": "https://www.parliament.go.ke/sites/default/files/2026-11/ORDER%20PAPER%20FOR%20WEDNESDAY%2C%2018TH%20NOVEMBER%202026%20-%20-%20JOINT%20SITTING%20OF%20PARLIAMENT.pdf",
+   "summary": "Thirteenth Parliament Fifth Session (No. S.S./05) (01) REPUBLIC OF KENYA THIRTEENTH PARLIAMENT - (FIFTH SESSION) SPECIAL SITTING OF PARLIAMENT ORDERS OF THE DAY WEDNESDAY, NOVEMBER 18, 2026 AT 2.30 PM 1.!PRAYER By the Speaker of the Senate. 2.!CONVOCATION (i)!By the Speaker of the Senate. (ii)!By the Speaker of the National Assembly. (iii)!The Speaker of the National Assembly invites His Excellenc",
+   "kind": "doc",
+   "source": "Senate Committee on Delegated Legislation (Kenya) \u2014 the committee that annuls or accedes to statutory instruments",
+   "source_id": "ke-senate-delegated-legislation",
+   "tier": 1,
+   "country": "KE",
+   "category": "REG",
+   "segments": [
+    "city",
+    "bush",
+    "beach"
+   ],
+   "first_seen": "2026-11-17T21:35+03:00",
+   "published": "2026-11-18",
+   "verdict": "CONSIDER"
+  },
+  {
+   "score": 86.2,
+   "components": {
+    "tier": 5,
+    "category": 5,
+    "lead": 2.4,
+    "relevance": 44,
+    "freshness": 19.8,
+    "corroborated": 10
+   },
+   "keywords": [
+    "cancel",
+    "adr",
+    "airport",
+    "airline",
+    "flight",
+    "franc",
+    "passenger"
+   ],
+   "shock_terms": [],
+   "dedupe_match": null,
+   "dedupe_similarity": 0.17,
+   "id": "83007bbef20b",
+   "title": "Europe Faces Travel Disruptions As London and Others Delay 1,631 And Cancel 70 Flights",
+   "url": "https://www.travelandtourworld.com/news/article/fngdeg5wnwws",
+   "summary": "Photo: Fraport AG Flight disruptions affected air travel across Europe on November 17, 2026, with 1,631 delays and 70 cancellations recorded across 14 major airports. Several major airlines, including British Airways , KLM , and Turkish Airlines , experienced operational interruptions, while airports in the UK , the Netherlands , Spain , Germany , and France also reported delays. London Heathrow ,",
+   "kind": "item",
+   "source": "Travel And Tour World",
+   "source_id": "gl-travelandtourworld",
+   "tier": 3,
+   "country": "GLOBAL",
+   "category": "trade",
+   "segments": [
+    "city",
+    "bush",
+    "beach"
+   ],
+   "first_seen": "2026-11-17T21:37+03:00",
+   "published": "2026-11-17",
+   "verdict": "CONSIDER"
+  },
+  {
+   "score": 83.1,
+   "components": {
+    "tier": 20,
+    "category": 14,
+    "lead": 8.4,
+    "relevance": 20,
+    "freshness": 10.7,
     "corroborated": 10
    },
    "keywords": [
@@ -183,13 +724,13 @@
    "verdict": "CONSIDER"
   },
   {
-   "score": 88.4,
+   "score": 81.1,
    "components": {
     "tier": 20,
     "category": 4,
     "lead": 2.4,
     "relevance": 16,
-    "freshness": 18.0,
+    "freshness": 10.7,
     "corroborated": 10,
     "shock": 18
    },
@@ -222,13 +763,201 @@
    "verdict": "CONSIDER"
   },
   {
-   "score": 86.4,
+   "score": 80.4,
+   "components": {
+    "tier": 20,
+    "category": 14,
+    "lead": 8.4,
+    "relevance": 28,
+    "freshness": 0.0,
+    "corroborated": 10
+   },
+   "keywords": [
+    "cancel",
+    "route",
+    "airline",
+    "flight"
+   ],
+   "shock_terms": [],
+   "dedupe_match": null,
+   "dedupe_similarity": 0.0,
+   "id": "52dd85b52b3c",
+   "title": "Air Serbia Cancels Guangzhou Service in late-Nov 2026",
+   "url": "https://www.aeroroutes.com/eng/261116-junw26can",
+   "summary": "Published at 0800PCT / 1500GMT 16NOV26 Air Serbia in the last few days filed service changes for Belgrade \u2013 Guangzhou route, which now sees the carrier operating last flight on 27NOV26. The airline currently operates this route twice weekly, with Airbus A330-200 aircraft. JU988 BEG0020 \u2013 1855CAN 332 15 JU989 CAN2245 \u2013 0415+1BEG 332 15",
+   "kind": "item",
+   "source": "AeroRoutes schedule filings",
+   "source_id": "aeroroutes",
+   "tier": 2,
+   "country": "GLOBAL",
+   "category": "aviation-tracker",
+   "segments": [
+    "city",
+    "bush",
+    "beach"
+   ],
+   "first_seen": "2026-11-16T18:08+03:00",
+   "published": "2026-11-16",
+   "verdict": "CONSIDER"
+  },
+  {
+   "score": 80.2,
+   "components": {
+    "tier": 20,
+    "category": 14,
+    "lead": 8.4,
+    "relevance": 8,
+    "freshness": 19.8,
+    "corroborated": 10
+   },
+   "keywords": [
+    "seat"
+   ],
+   "shock_terms": [],
+   "dedupe_match": null,
+   "dedupe_similarity": 0.14,
+   "id": "35c19c62a466",
+   "title": "Virgin Atlantic NS27 Service Changes \u2013 15NOV26",
+   "url": "https://www.aeroroutes.com/eng/261117-vsns27",
+   "summary": "Published at 1100PCT / 1800GMT 17NOV26 Virgin Atlantic earlier this month filed service changes to its planned operation for Northern summer 2027 season. Based on schedule filing comparison 25OCT26 vs 15NOV26, planned changes include the following. London Heathrow \u2013 Boston 1 of 2 daily VS157/158 service changes 28MAR27 \u2013 14APR27 Increase from 4 to 7 weekly eff 28MAR27 335-seater A350-1000 replaces",
+   "kind": "item",
+   "source": "AeroRoutes schedule filings",
+   "source_id": "aeroroutes",
+   "tier": 2,
+   "country": "GLOBAL",
+   "category": "aviation-tracker",
+   "segments": [
+    "city",
+    "bush",
+    "beach"
+   ],
+   "first_seen": "2026-11-17T21:36+03:00",
+   "published": "2026-11-17",
+   "verdict": "CONSIDER"
+  },
+  {
+   "score": 80.2,
+   "components": {
+    "tier": 20,
+    "category": 14,
+    "lead": 8.4,
+    "relevance": 8,
+    "freshness": 19.8,
+    "corroborated": 10
+   },
+   "keywords": [
+    "airline",
+    "flight"
+   ],
+   "shock_terms": [],
+   "dedupe_match": null,
+   "dedupe_similarity": 0.17,
+   "id": "5bc31538b1e3",
+   "title": "Iraqi Airways Resumes Beijing Flights From Nov 2026",
+   "url": "https://www.aeroroutes.com/eng/261117-ianw26pek",
+   "summary": "Published at 0700PCT / 1400GMT 17NOV26 Iraqi Airways this past weekend resumed service to Beijing, after 11-month hiatus. The airline once again operates Baghdad \u2013 Basra \u2013 Beijing Capital service with 787-8 from 14NOV26, scheduled twice weekly. IA471 BGW1230 \u2013 1330BSR1430 \u2013 0400+1PEK 788 26 IA472 PEK0600 \u2013 1000BSR1100 \u2013 1200BGW 788 37 The carrier also operates 2 weekly Baghdad \u2013 Guangzhou flights ",
+   "kind": "item",
+   "source": "AeroRoutes schedule filings",
+   "source_id": "aeroroutes",
+   "tier": 2,
+   "country": "GLOBAL",
+   "category": "aviation-tracker",
+   "segments": [
+    "city",
+    "bush",
+    "beach"
+   ],
+   "first_seen": "2026-11-17T21:36+03:00",
+   "published": "2026-11-17",
+   "verdict": "CONSIDER"
+  },
+  {
+   "score": 80.0,
+   "components": {
+    "tier": 20,
+    "category": 4,
+    "lead": 0.0,
+    "relevance": 28,
+    "freshness": 0.0,
+    "corroborated": 10,
+    "shock": 18
+   },
+   "keywords": [
+    "outbreak",
+    "terror",
+    "opening"
+   ],
+   "shock_terms": [
+    "outbreak"
+   ],
+   "dedupe_match": null,
+   "dedupe_similarity": 0.2,
+   "id": "b6079d57a65a",
+   "title": "Call for EAC bloc to jointly address cross-border security threats, transnational crime, cybercrime",
+   "url": "https://dailynews.co.tz/call-for-eac-bloc-to-jointly-address-cross-border-security-threats-transnational-crime-cybercrime",
+   "summary": "KAMPALA: MEMBER states of the East African Community (EAC) have been urged to strengthen regional cooperation to jointly address cross-border security threats, including terrorism, armed groups, transnational crime, border insecurity, disease outbreaks and cybercrime. The call was made by Uganda\u2019s Chief of Defence Forces, Lieutenant General Jack Ngorza Okasumba, when officially opening the EAC Def",
+   "kind": "item",
+   "source": "Daily News (Tanzania)",
+   "source_id": "np-dailynews-tz",
+   "tier": 2,
+   "country": "TZ",
+   "category": "press",
+   "segments": [
+    "city",
+    "bush",
+    "beach"
+   ],
+   "first_seen": "2026-11-16T22:39+03:00",
+   "published": "2026-11-16",
+   "verdict": "CONSIDER"
+  },
+  {
+   "score": 79.8,
+   "components": {
+    "tier": 20,
+    "category": 4,
+    "lead": 0.0,
+    "relevance": 24,
+    "freshness": 19.8,
+    "undated": -6,
+    "shock": 18
+   },
+   "keywords": [
+    "outbreak",
+    "ebola"
+   ],
+   "shock_terms": [
+    "outbreak"
+   ],
+   "dedupe_match": null,
+   "dedupe_similarity": 0.12,
+   "id": "da048bdb885f",
+   "title": "Africa Congo's Ebola outbreak is spreading and killing at a record pace 7 hours ago - 2 min read",
+   "url": "https://www.thecitizen.co.tz/tanzania/news/africa/congo-s-ebola-outbreak-is-spreading-and-killing-at-a-record-pace-5673836",
+   "summary": "",
+   "kind": "item",
+   "source": "The Citizen (Tanzania)",
+   "source_id": "np-citizen-tz",
+   "tier": 2,
+   "country": "TZ",
+   "category": "press",
+   "segments": [
+    "city",
+    "bush",
+    "beach"
+   ],
+   "first_seen": "2026-11-17T21:37+03:00",
+   "published": null,
+   "verdict": "CONSIDER"
+  },
+  {
+   "score": 79.1,
    "components": {
     "tier": 20,
     "category": 14,
     "lead": 8.4,
     "relevance": 16,
-    "freshness": 18.0,
+    "freshness": 10.7,
     "corroborated": 10
    },
    "keywords": [
@@ -258,13 +987,13 @@
    "verdict": "CONSIDER"
   },
   {
-   "score": 86.4,
+   "score": 79.1,
    "components": {
     "tier": 20,
     "category": 14,
     "lead": 8.4,
     "relevance": 16,
-    "freshness": 18.0,
+    "freshness": 10.7,
     "corroborated": 10
    },
    "keywords": [
@@ -295,13 +1024,80 @@
    "verdict": "CONSIDER"
   },
   {
-   "score": 83.6,
+   "score": 76.4,
+   "components": {
+    "tier": 40,
+    "category": 18,
+    "lead": 8.4,
+    "relevance": 0,
+    "freshness": 0.0,
+    "corroborated": 10
+   },
+   "keywords": [],
+   "shock_terms": [],
+   "dedupe_match": null,
+   "dedupe_similarity": 0.0,
+   "id": "d8edd3b59948",
+   "title": "The Littlest Elephant Fighter in Tsavo",
+   "url": "https://kws.go.ke/the-littlest-elephant-fighter-in-tsavo",
+   "summary": "Remember your salad days, when the world felt enormous and you could not wander too far away from your family? Now imagine that security gone in an instant. That is what happened to a ndama ya tembo, as an elephant calf is known in Kiswahili. She is a two-and-a-half-year-old female who was found all alone [...]",
+   "kind": "item",
+   "source": "Kenya Wildlife Service",
+   "source_id": "ke-kws",
+   "tier": 1,
+   "country": "KE",
+   "category": "parks",
+   "segments": [
+    "bush"
+   ],
+   "first_seen": "2026-11-16T22:38+03:00",
+   "published": "2026-11-16",
+   "verdict": "CONSIDER"
+  },
+  {
+   "score": 76.2,
+   "components": {
+    "tier": 20,
+    "category": 4,
+    "lead": 2.4,
+    "relevance": 20,
+    "freshness": 19.8,
+    "corroborated": 10
+   },
+   "keywords": [
+    "terror",
+    "election"
+   ],
+   "shock_terms": [],
+   "dedupe_match": null,
+   "dedupe_similarity": 0.14,
+   "id": "52a06269f4c2",
+   "title": "Nigeria says US intelligence support helping target militants, secure 2027 election",
+   "url": "https://nation.africa/kenya/news/africa/nigeria-says-us-intelligence-support-helping-target-militants-secure-2027-election-5673428",
+   "summary": "Defence minister said Nigerian troops killed several terrorist leaders in overnight operations.",
+   "kind": "item",
+   "source": "Nation Africa: Kenya business",
+   "source_id": "ke-nation-business",
+   "tier": 2,
+   "country": "KE",
+   "category": "press",
+   "segments": [
+    "city",
+    "bush",
+    "beach"
+   ],
+   "first_seen": "2026-11-17T21:36+03:00",
+   "published": "2026-11-17",
+   "verdict": "CONSIDER"
+  },
+  {
+   "score": 76.2,
    "components": {
     "tier": 40,
     "category": 12,
     "lead": 3.6,
     "relevance": 0,
-    "freshness": 18.0,
+    "freshness": 10.6,
     "corroborated": 10
    },
    "keywords": [],
@@ -326,13 +1122,13 @@
    "verdict": "CONSIDER"
   },
   {
-   "score": 82.4,
+   "score": 75.1,
    "components": {
     "tier": 5,
     "category": 5,
     "lead": 2.4,
     "relevance": 24,
-    "freshness": 18.0,
+    "freshness": 10.7,
     "corroborated": 10,
     "shock": 18
    },
@@ -366,13 +1162,13 @@
    "verdict": "CONSIDER"
   },
   {
-   "score": 82.4,
+   "score": 75.1,
    "components": {
     "tier": 20,
     "category": 14,
     "lead": 8.4,
     "relevance": 12,
-    "freshness": 18.0,
+    "freshness": 10.7,
     "corroborated": 10
    },
    "keywords": [
@@ -402,876 +1198,91 @@
    "verdict": "CONSIDER"
   },
   {
-   "score": 80.4,
-   "components": {
-    "tier": 20,
-    "category": 4,
-    "lead": 2.4,
-    "relevance": 8,
-    "freshness": 18.0,
-    "corroborated": 10,
-    "shock": 18
-   },
-   "keywords": [
-    "vat"
-   ],
-   "shock_terms": [
-    "attack"
-   ],
-   "dedupe_match": null,
-   "dedupe_similarity": 0.0,
-   "id": "65cd41753a19",
-   "title": "Natembeya's Aide in ICU After Alleged Attack, Car Set Ablaze",
-   "url": "https://www.kenyans.co.ke/news/129423-natembeyas-aide-icu-after-alleged-attack-car-set-ablaze",
-   "summary": "Trans Nzoia County has, in recent months, been on a political rollercoaster, marred by politically motivated arrests, goons' infiltration, and scuffles for control of county projects.",
-   "kind": "item",
-   "source": "Kenyans.co.ke news",
-   "source_id": "ke-kenyans",
-   "tier": 2,
-   "country": "KE",
-   "category": "press",
-   "segments": [
-    "city",
-    "bush",
-    "beach"
-   ],
-   "first_seen": "2026-11-17T13:21+03:00",
-   "published": "2026-11-17",
-   "verdict": "CONSIDER"
-  },
-  {
-   "score": 79.8,
-   "components": {
-    "tier": 20,
-    "category": 4,
-    "lead": 0.0,
-    "relevance": 24,
-    "freshness": 19.8,
-    "undated": -6,
-    "shock": 18
-   },
-   "keywords": [
-    "outbreak",
-    "ebola"
-   ],
-   "shock_terms": [
-    "outbreak"
-   ],
-   "dedupe_match": null,
-   "dedupe_similarity": 0.12,
-   "id": "2c72e35603a5",
-   "title": "Africa Congo's Ebola outbreak is spreading and killing at a record pace 46 min ago - 2 min read",
-   "url": "https://www.thecitizen.co.tz/tanzania/news/africa/congo-s-ebola-outbreak-is-spreading-and-killing-at-a-record-pace-5673836",
-   "summary": "",
-   "kind": "item",
-   "source": "The Citizen (Tanzania)",
-   "source_id": "np-citizen-tz",
-   "tier": 2,
-   "country": "TZ",
-   "category": "press",
-   "segments": [
-    "city",
-    "bush",
-    "beach"
-   ],
-   "first_seen": "2026-11-17T14:57+03:00",
-   "published": null,
-   "verdict": "CONSIDER"
-  },
-  {
-   "score": 79.6,
+   "score": 74.9,
    "components": {
     "tier": 40,
-    "category": 32,
-    "lead": 3.6,
+    "category": 24,
+    "lead": 1.2,
     "relevance": 0,
-    "freshness": 18.0,
-    "stale_trap": -10,
-    "page_change": -4
+    "freshness": 19.7,
+    "stale_trap": -10
    },
    "keywords": [],
    "shock_terms": [],
    "dedupe_match": null,
    "dedupe_similarity": 0.0,
-   "id": "9a01276d9c1a",
-   "title": "[page changed] Federal Register \u2014 public inspection (HHS/CDC), pre-publication",
-   "url": "https://www.federalregister.gov/api/v1/public-inspection-documents/current.json",
-   "summary": "{\"count\":106,\"results\":[{\"agencies\":[{\"raw_name\":\"SECURITIES AND EXCHANGE COMMISSION\",\"name\":\"Securities and Exchange Commission\",\"id\":466,\"url\":\"https://www.federalregister.gov/agencies/securities-and-exchange-commission\",\"json_url\":\"https://www.federalregister.gov/api/v1/agencies/466\",\"parent_id\":null,\"slug\":\"securities-and-exchange-commission\"}],\"agency_letters\":[],\"agency_names\":[\"Securities a",
-   "kind": "page-change",
-   "source": "Federal Register \u2014 public inspection (HHS/CDC), pre-publication",
-   "source_id": "us-fedreg-pubinspect-hhs",
+   "id": "020bff90b989",
+   "title": "MOH Commissions New Neonatal Care Unit at Pallisa General Hospital while commemorating the World Prematurity Day 2026.",
+   "url": "http://localhost:8080/MOH-Commissions-New-Neonatal-Care-Unit-at-Pallisa-General-Hospital-while-commemorating-the-World-Prematurity-Day-2026.",
+   "summary": "",
+   "kind": "item",
+   "source": "Uganda Ministry of Health \u2014 news",
+   "source_id": "ug-moh-news",
    "tier": 1,
-   "country": "REG",
-   "category": "advisory",
+   "country": "UG",
+   "category": "health",
    "segments": [
     "city",
     "bush"
    ],
-   "first_seen": "2026-11-17T13:20+03:00",
-   "published": "2026-11-12",
+   "first_seen": "2026-11-17T21:36+03:00",
+   "published": "2026-11-13",
    "verdict": "CHECK \u2014 source date older than the window"
   },
   {
-   "score": 78.4,
-   "components": {
-    "tier": 20,
-    "category": 9,
-    "lead": 3.6,
-    "relevance": 16,
-    "freshness": 19.8,
-    "corroborated": 10
-   },
-   "keywords": [
-    "adr",
-    "airport"
-   ],
-   "shock_terms": [],
-   "dedupe_match": null,
-   "dedupe_similarity": 0.14,
-   "id": "7086b25f573b",
-   "title": "Schneller zum Gep\u00e4ck: Ein neues Ankunftsgate f\u00fcr den Ben Gurion Airport",
-   "url": "https://www.fvw.de/touristik/verkehr/schneller-zum-gepaeck-am-ben-gurion-airport-entsteht-ein-neues-ankunftsgate-266110",
-   "summary": "Am internationalen Flughafen Ben Gurion entsteht derzeit das \"Tel Aviv Gate\". Insgesamt wird das sogenannte \"Tel Aviv Gate\" eine Fl\u00e4che von etwa 2000 Quadratmetern umfassen.",
-   "kind": "item",
-   "source": "FVW / German travel trade",
-   "source_id": "sm-derreise",
-   "tier": 2,
-   "country": "GLOBAL",
-   "category": "source-market",
-   "segments": [
-    "beach",
-    "bush"
-   ],
-   "first_seen": "2026-11-17T14:57+03:00",
-   "published": "2026-11-16",
-   "verdict": "CONSIDER"
-  },
-  {
-   "score": 78.4,
-   "components": {
-    "tier": 5,
-    "category": 5,
-    "lead": 2.4,
-    "relevance": 20,
-    "freshness": 18.0,
-    "corroborated": 10,
-    "shock": 18
-   },
-   "keywords": [
-    "strike",
-    "protest",
-    "tourist"
-   ],
-   "shock_terms": [
-    "strike"
-   ],
-   "dedupe_match": null,
-   "dedupe_similarity": 0.17,
-   "id": "b6ebe191b656",
-   "title": "Paris Travel Disruption Erupts as Metro and RER Closures Hit Tourists Amid Major Protests",
-   "url": "https://www.travelandtourworld.com/news/article/7ojsklm68k1p",
-   "summary": "Paris Travel Disruption Erupts as Metro and RER Closures Hit Tourists Amid Major Protests Paris travel chaos on 17 November 2026 as Metro and RER closures disrupt tourists amid major protests and strikes. Check affected stations and travel advice. The post Paris Travel Disruption Erupts as Metro and RER Closures Hit Tourists Amid Major Protests appeared first on Travel And Tour World .",
-   "kind": "item",
-   "source": "Travel And Tour World",
-   "source_id": "gl-travelandtourworld",
-   "tier": 3,
-   "country": "GLOBAL",
-   "category": "trade",
-   "segments": [
-    "city",
-    "bush",
-    "beach"
-   ],
-   "first_seen": "2026-11-17T13:21+03:00",
-   "published": "2026-11-17",
-   "verdict": "CONSIDER"
-  },
-  {
-   "score": 78.4,
-   "components": {
-    "tier": 20,
-    "category": 14,
-    "lead": 8.4,
-    "relevance": 8,
-    "freshness": 18.0,
-    "corroborated": 10
-   },
-   "keywords": [
-    "airline",
-    "flight"
-   ],
-   "shock_terms": [],
-   "dedupe_match": null,
-   "dedupe_similarity": 0.14,
-   "id": "b9ddc74d9ef0",
-   "title": "Air New Zealand NS27 Shanghai Service Increases",
-   "url": "https://www.aeroroutes.com/eng/261117-nzns27pvg",
-   "summary": "Published at 0200PCT / 0900GMT 17NOV26 Air New Zealand during Northern summer 2027 season plans to increase Auckland \u2013 Shanghai Pu Dong flights during specific periods. During following periods, the airline schedules 7 weekly flights, with 787-9: 28MAR27 \u2013 02MAY27, 26JUN27 \u2013 18JUL27, 18SEP27 \u2013 24OCT27. NZ289 AKL2250 \u2013 0655+1PVG 789 D NZ288 PVG1400 \u2013 0525+1AKL 789 D The Star Alliance member previou",
-   "kind": "item",
-   "source": "AeroRoutes schedule filings",
-   "source_id": "aeroroutes",
-   "tier": 2,
-   "country": "GLOBAL",
-   "category": "aviation-tracker",
-   "segments": [
-    "city",
-    "bush",
-    "beach"
-   ],
-   "first_seen": "2026-11-17T13:21+03:00",
-   "published": "2026-11-17",
-   "verdict": "CONSIDER"
-  },
-  {
-   "score": 78.4,
+   "score": 74.9,
    "components": {
     "tier": 40,
     "category": 24,
-    "lead": 2.4,
-    "relevance": 0,
-    "freshness": 18.0,
-    "undated": -6
-   },
-   "keywords": [],
-   "shock_terms": [],
-   "dedupe_match": null,
-   "dedupe_similarity": 0.0,
-   "id": "4a48340831d7",
-   "title": "Ministry of Health Reviews BREHS Implementation Readiness in Turkana County",
-   "url": "https://www.health.go.ke/ministry-health-reviews-brehs-implementation-readiness-turkana-county",
-   "summary": "",
-   "kind": "item",
-   "source": "Kenya Ministry of Health",
-   "source_id": "ke-moh",
-   "tier": 1,
-   "country": "KE",
-   "category": "health",
-   "segments": [
-    "city",
-    "bush",
-    "beach"
-   ],
-   "first_seen": "2026-11-17T13:20+03:00",
-   "published": null,
-   "verdict": "CONSIDER"
-  },
-  {
-   "score": 78.4,
-   "components": {
-    "tier": 40,
-    "category": 24,
-    "lead": 2.4,
-    "relevance": 0,
-    "freshness": 18.0,
-    "undated": -6
-   },
-   "keywords": [],
-   "shock_terms": [],
-   "dedupe_match": null,
-   "dedupe_similarity": 0.0,
-   "id": "1f7d92e14c8f",
-   "title": "PS Oluga Reviews Operations at National Public Health Laboratory Services",
-   "url": "https://www.health.go.ke/ps-oluga-reviews-operations-national-public-health-laboratory-services",
-   "summary": "",
-   "kind": "item",
-   "source": "Kenya Ministry of Health",
-   "source_id": "ke-moh",
-   "tier": 1,
-   "country": "KE",
-   "category": "health",
-   "segments": [
-    "city",
-    "bush",
-    "beach"
-   ],
-   "first_seen": "2026-11-17T13:20+03:00",
-   "published": null,
-   "verdict": "CONSIDER"
-  },
-  {
-   "score": 78.4,
-   "components": {
-    "tier": 40,
-    "category": 24,
-    "lead": 2.4,
-    "relevance": 0,
-    "freshness": 18.0,
-    "undated": -6
-   },
-   "keywords": [],
-   "shock_terms": [],
-   "dedupe_match": null,
-   "dedupe_similarity": 0.17,
-   "id": "cdc25f0d48f7",
-   "title": "PS Oluga Calls for Institutional Accountability in Kenya\u2013US Health Cooperation Framework",
-   "url": "https://www.health.go.ke/ps-oluga-calls-institutional-accountability-kenya-us-health-cooperation-framework",
-   "summary": "",
-   "kind": "item",
-   "source": "Kenya Ministry of Health",
-   "source_id": "ke-moh",
-   "tier": 1,
-   "country": "KE",
-   "category": "health",
-   "segments": [
-    "city",
-    "bush",
-    "beach"
-   ],
-   "first_seen": "2026-11-17T13:20+03:00",
-   "published": null,
-   "verdict": "CONSIDER"
-  },
-  {
-   "score": 78.4,
-   "components": {
-    "tier": 40,
-    "category": 24,
-    "lead": 2.4,
-    "relevance": 0,
-    "freshness": 18.0,
-    "undated": -6
-   },
-   "keywords": [],
-   "shock_terms": [],
-   "dedupe_match": null,
-   "dedupe_similarity": 0.0,
-   "id": "5f7c26a6f6f8",
-   "title": "WORLD PREMATURITY DAY 2026 | NAKURU",
-   "url": "https://www.health.go.ke/world-prematurity-day-2026-nakuru",
-   "summary": "",
-   "kind": "item",
-   "source": "Kenya Ministry of Health",
-   "source_id": "ke-moh",
-   "tier": 1,
-   "country": "KE",
-   "category": "health",
-   "segments": [
-    "city",
-    "bush",
-    "beach"
-   ],
-   "first_seen": "2026-11-17T13:20+03:00",
-   "published": null,
-   "verdict": "CONSIDER"
-  },
-  {
-   "score": 78.4,
-   "components": {
-    "tier": 40,
-    "category": 24,
-    "lead": 2.4,
-    "relevance": 0,
-    "freshness": 18.0,
-    "undated": -6
-   },
-   "keywords": [],
-   "shock_terms": [],
-   "dedupe_match": null,
-   "dedupe_similarity": 0.17,
-   "id": "3790c1085b0c",
-   "title": "Strengthening people-centred care for refugees and migrants in Kenya",
-   "url": "https://www.afro.who.int/countries/kenya/news/strengthening-people-centred-care-refugees-and-migrants-kenya",
-   "summary": "",
-   "kind": "item",
-   "source": "WHO AFRO \u2014 Kenya country newsroom",
-   "source_id": "who-afro-kenya",
-   "tier": 1,
-   "country": "KE",
-   "category": "health",
-   "segments": [
-    "bush",
-    "city",
-    "beach"
-   ],
-   "first_seen": "2026-11-17T13:19+03:00",
-   "published": null,
-   "verdict": "CONSIDER"
-  },
-  {
-   "score": 78.2,
-   "components": {
-    "tier": 20,
-    "category": 5,
     "lead": 1.2,
-    "relevance": 24,
-    "freshness": 18.0,
-    "corroborated": 10
+    "relevance": 0,
+    "freshness": 19.7,
+    "stale_trap": -10
    },
-   "keywords": [
-    "permit",
-    "fuel",
-    "airline",
-    "passenger"
-   ],
+   "keywords": [],
    "shock_terms": [],
    "dedupe_match": null,
-   "dedupe_similarity": 0.14,
-   "id": "49093b4f974a",
-   "title": "Carbon Bills Climb for Europe\u2019s Airlines as Free Permits End",
-   "url": "https://skift.com/2026/11/17/carbon-bills-climb-for-europes-airlines-as-free-permits-end",
-   "summary": "Emissions and SAF costs are now a standing line in European airlines\u2019 results, arriving while fuel prices are already high. The question for 2027 is how much they can pass on to passengers.",
-   "kind": "item",
-   "source": "Skift",
-   "source_id": "tp-skift",
-   "tier": 2,
-   "country": "GLOBAL",
-   "category": "trade",
-   "segments": [
-    "city",
-    "bush",
-    "beach"
-   ],
-   "first_seen": "2026-11-17T13:21+03:00",
-   "published": "2026-11-17",
-   "verdict": "CONSIDER"
-  },
-  {
-   "score": 78.0,
-   "components": {
-    "tier": 20,
-    "category": 4,
-    "lead": 0.0,
-    "relevance": 24,
-    "freshness": 18.0,
-    "undated": -6,
-    "shock": 18
-   },
-   "keywords": [
-    "outbreak",
-    "ebola"
-   ],
-   "shock_terms": [
-    "outbreak"
-   ],
-   "dedupe_match": null,
-   "dedupe_similarity": 0.25,
-   "id": "de77bde1aae7",
-   "title": "Africa Africa CDC says Ebola outbreak still out of control six months since it was declared Yesterday - 2 min read",
-   "url": "https://www.thecitizen.co.tz/tanzania/news/africa/africa-cdc-says-ebola-outbreak-still-out-of-control-six-months-since-it-was-declared-5672458",
+   "dedupe_similarity": 0.0,
+   "id": "cb46f540b21e",
+   "title": "MOH Commissions New Neonatal Care Unit at Pallisa General Hospital while commemorating the World Prematurity Day 2026.",
+   "url": "http://localhost:8080/MOH-Commissions-New-Neonatal-Care-Unit-at-Pallisa-General-Hospital-while-commemorating-the-World-Prematurity-Day-2026.",
    "summary": "",
    "kind": "item",
-   "source": "The Citizen (Tanzania)",
-   "source_id": "np-citizen-tz",
-   "tier": 2,
-   "country": "TZ",
-   "category": "press",
-   "segments": [
-    "city",
-    "bush",
-    "beach"
-   ],
-   "first_seen": "2026-11-17T13:21+03:00",
-   "published": null,
-   "verdict": "CONSIDER"
-  },
-  {
-   "score": 75.0,
-   "components": {
-    "tier": 40,
-    "category": 13,
-    "lead": 6.0,
-    "relevance": 4,
-    "freshness": 18.0,
-    "undated": -6
-   },
-   "keywords": [
-    "conference"
-   ],
-   "shock_terms": [],
-   "dedupe_match": null,
-   "dedupe_similarity": 0.2,
-   "id": "e0ae4655820f",
-   "title": "News Montr&eacute;al, Canada, 16 November 2026. The United Republic of Tanzania is participating in the Seventh Worldwide Air Transport Conference (ATConf/... - 17 November, 2026",
-   "url": "https://www.tcaa.go.tz/news/tanzania-joins-global-talks-on-the-future-of-air-transport",
-   "summary": "",
-   "kind": "item",
-   "source": "Tanzania Civil Aviation Authority",
-   "source_id": "tz-tcaa",
+   "source": "Uganda Ministry of Health",
+   "source_id": "ug-moh",
    "tier": 1,
-   "country": "TZ",
-   "category": "aviation",
-   "segments": [
-    "city",
-    "bush",
-    "beach"
-   ],
-   "first_seen": "2026-11-17T13:20+03:00",
-   "published": null,
-   "verdict": "CONSIDER"
-  },
-  {
-   "score": 74.4,
-   "components": {
-    "tier": 20,
-    "category": 9,
-    "lead": 3.6,
-    "relevance": 12,
-    "freshness": 19.8,
-    "corroborated": 10
-   },
-   "keywords": [
-    "fuel",
-    "tourist"
-   ],
-   "shock_terms": [],
-   "dedupe_match": null,
-   "dedupe_similarity": 0.1,
-   "id": "3d0187a5a976",
-   "title": "Club-Talk von CT, Iata, \"FAZ\" und \"SZ\": T\u00fcrkischer Stra\u00dfenbau, M\u00fctterrente, Fuel-Recovery und Spanien-Tr\u00e4ume",
-   "url": "https://www.fvw.de/touristik/verkehr/pointen-beim-club-talk-von-ct-faz-und-sz-tuerkischer-strassenbau-muetterrente-fuel-recovery-und-spanien-traeume-in-frankfurt-266130",
-   "summary": "In Antalya l\u00e4sst sich laut Eurowings-Chef Kownatzki eine neue Stra\u00dfe per WhatsApp bestellen. Ein Fraport-Aufsichtsrat will mit dem Abschaffen der M\u00fctterrente auch die Luftverkehrsteuer beerdigen. Als mehrere Touristiker einen eigenen Minister fordern, kommt auch ein \"Autominister\" ins Spiel. Pointen satt gestern Abend beim Club-Talk in Frankfurt.",
-   "kind": "item",
-   "source": "FVW / German travel trade",
-   "source_id": "sm-derreise",
-   "tier": 2,
-   "country": "GLOBAL",
-   "category": "source-market",
-   "segments": [
-    "beach",
-    "bush"
-   ],
-   "first_seen": "2026-11-17T14:57+03:00",
-   "published": "2026-11-17",
-   "verdict": "CONSIDER"
-  },
-  {
-   "score": 74.4,
-   "components": {
-    "tier": 20,
-    "category": 9,
-    "lead": 3.6,
-    "relevance": 12,
-    "freshness": 19.8,
-    "corroborated": 10
-   },
-   "keywords": [
-    "adr",
-    "tourism"
-   ],
-   "shock_terms": [],
-   "dedupe_match": null,
-   "dedupe_similarity": 0.14,
-   "id": "f2cc2410ed2c",
-   "title": "Partnerland Puerto Rico: Was die Fitur 2027 in Madrid zu bieten hat",
-   "url": "https://www.fvw.de/touristik/veranstalter/partnerland-puerto-rico-was-die-fitur-2027-in-madrid-zu-bieten-hat-266109",
-   "summary": "Die Internationale Tourismusmesse Fitur 2027 stellt die Themen Nachhaltigkeit, Talentf\u00f6rderung, Inklusion und technischer Wandel als Eckpfeiler ihrer 47. Ausgabe in den Mittelpunkt. Die Messe findet vom 20. bis 24. Januar 2027 mit Puerto Rico als Partner statt.",
-   "kind": "item",
-   "source": "FVW / German travel trade",
-   "source_id": "sm-derreise",
-   "tier": 2,
-   "country": "GLOBAL",
-   "category": "source-market",
-   "segments": [
-    "beach",
-    "bush"
-   ],
-   "first_seen": "2026-11-17T14:57+03:00",
-   "published": "2026-11-16",
-   "verdict": "CONSIDER"
-  },
-  {
-   "score": 74.4,
-   "components": {
-    "tier": 20,
-    "category": 4,
-    "lead": 2.4,
-    "relevance": 20,
-    "freshness": 18.0,
-    "corroborated": 10
-   },
-   "keywords": [
-    "vat",
-    "electricity",
-    "investment"
-   ],
-   "shock_terms": [],
-   "dedupe_match": null,
-   "dedupe_similarity": 0.12,
-   "id": "9992e68067a7",
-   "title": "Inside government\u2019s compact for electricity access, clean cooking",
-   "url": "https://www.independent.co.ug/inside-governments-compact-for-electricity-access-clean-cooking",
-   "summary": "NEWS ANALYSIS | URN | The government of Uganda is targeting 85% electricity access and 50% access to modern cooking solutions by 2030 under a new National Energy Compact that seeks to expand energy infrastructure, attract private investment and address weaknesses in the country\u2019s electricity supply and distribution systems. The Compact, launched by the African \u2026 The post Inside government\u2019s compac",
-   "kind": "item",
-   "source": "The Independent (Uganda)",
-   "source_id": "ug-independent",
-   "tier": 2,
    "country": "UG",
-   "category": "press",
+   "category": "health",
    "segments": [
     "city",
     "bush",
     "beach"
    ],
-   "first_seen": "2026-11-17T13:21+03:00",
-   "published": "2026-11-17",
-   "verdict": "CONSIDER"
+   "first_seen": "2026-11-17T21:36+03:00",
+   "published": "2026-11-13",
+   "verdict": "CHECK \u2014 source date older than the window"
   },
   {
-   "score": 72.4,
-   "components": {
-    "tier": 20,
-    "category": 4,
-    "lead": 2.4,
-    "relevance": 0,
-    "freshness": 18.0,
-    "corroborated": 10,
-    "shock": 18
-   },
-   "keywords": [],
-   "shock_terms": [
-    "attack"
-   ],
-   "dedupe_match": null,
-   "dedupe_similarity": 0.14,
-   "id": "9c87e7aa27b3",
-   "title": "Panic as Armed Gunmen Attack Police Station, Allegedly Open Fire on Officers",
-   "url": "https://www.kenyans.co.ke/news/129434-armed-gunmen-allegedly-attack-lomut-police-station-leave-officer-critically-injured",
-   "summary": "The gunmen are alleged to have stormed the police station at around 9pm, where they opened fire on the officers manning the OB, with the incident coming amid an increase in the number of attacks targeting critical security installations.",
-   "kind": "item",
-   "source": "Kenyans.co.ke news",
-   "source_id": "ke-kenyans",
-   "tier": 2,
-   "country": "KE",
-   "category": "press",
-   "segments": [
-    "city",
-    "bush",
-    "beach"
-   ],
-   "first_seen": "2026-11-17T13:21+03:00",
-   "published": "2026-11-17",
-   "verdict": "CONSIDER"
-  },
-  {
-   "score": 71.4,
+   "score": 74.4,
    "components": {
     "tier": 20,
     "category": 5,
-    "lead": 2.4,
-    "relevance": 16,
-    "freshness": 18.0,
-    "corroborated": 10
-   },
-   "keywords": [
-    "occupancy",
-    "hotel",
-    "guest"
-   ],
-   "shock_terms": [],
-   "dedupe_match": null,
-   "dedupe_similarity": 0.0,
-   "id": "c7ef7410d025",
-   "title": "U.S. Travel Urges Congress to Pass Modern Skies Act After Nationwide Ground Stop",
-   "url": "https://www.hotelnewsresource.com/article143765.html",
-   "summary": "U.S. Travel Association is urging Congress to pass the Modern Skies Act following a nationwide ground stop, emphasizing the need for legislative action to address air travel disruptions that can affect hotel occupancy and guest experience.",
-   "kind": "item",
-   "source": "HVS \u2014 market reports and event-impact studies (via Hotel News Resource)",
-   "source_id": "gl-hvs-market-reports",
-   "tier": 2,
-   "country": "GLOBAL",
-   "category": "trade",
-   "segments": [
-    "city"
-   ],
-   "first_seen": "2026-11-17T13:21+03:00",
-   "published": "2026-11-16",
-   "verdict": "CONSIDER"
-  },
-  {
-   "score": 71.4,
-   "components": {
-    "tier": 20,
-    "category": 5,
-    "lead": 2.4,
-    "relevance": 16,
-    "freshness": 18.0,
-    "corroborated": 10
-   },
-   "keywords": [
-    "vat",
-    "resort",
-    "beach"
-   ],
-   "shock_terms": [],
-   "dedupe_match": null,
-   "dedupe_similarity": 0.17,
-   "id": "24d77de0025c",
-   "title": "Hilton Daytona Beach Oceanfront Resort Begins $60 Million Renovation",
-   "url": "https://www.hotelnewsresource.com/article143762.html",
-   "summary": "Hilton Daytona Beach Oceanfront Resort is launching a $60 million renovation of its 744-room property, with work on the first tower beginning in November 2026.",
-   "kind": "item",
-   "source": "HVS \u2014 market reports and event-impact studies (via Hotel News Resource)",
-   "source_id": "gl-hvs-market-reports",
-   "tier": 2,
-   "country": "GLOBAL",
-   "category": "trade",
-   "segments": [
-    "city"
-   ],
-   "first_seen": "2026-11-17T13:21+03:00",
-   "published": "2026-11-16",
-   "verdict": "CONSIDER"
-  },
-  {
-   "score": 70.4,
-   "components": {
-    "tier": 20,
-    "category": 9,
     "lead": 3.6,
-    "relevance": 8,
+    "relevance": 16,
     "freshness": 19.8,
     "corroborated": 10
    },
    "keywords": [
-    "adr"
-   ],
-   "shock_terms": [],
-   "dedupe_match": null,
-   "dedupe_similarity": 0.0,
-   "id": "c29d3b54f681",
-   "title": "Wander-, Trekking- und Radreisen: Hauser Exkursionen bringt neues Promopaket",
-   "url": "https://www.fvw.de/counter/verkauf/wander--trekking--und-radreisen-hauser-exkursionen-praesentiert-neues-promopaket-266112",
-   "summary": "Hauser Exkursionen pr\u00e4sentiert ein neues Promopaket. Wander-, Trekking- und Radreisen stehen dabei im Vordergrund. Bis zum 9. Dezember kann das Paket von interessierten Reiseb\u00fcros bestellt werden.",
-   "kind": "item",
-   "source": "FVW / German travel trade",
-   "source_id": "sm-derreise",
-   "tier": 2,
-   "country": "GLOBAL",
-   "category": "source-market",
-   "segments": [
-    "beach",
-    "bush"
-   ],
-   "first_seen": "2026-11-17T14:57+03:00",
-   "published": "2026-11-16",
-   "verdict": "CONSIDER"
-  },
-  {
-   "score": 70.4,
-   "components": {
-    "tier": 20,
-    "category": 14,
-    "lead": 8.4,
-    "relevance": 0,
-    "freshness": 18.0,
-    "corroborated": 10
-   },
-   "keywords": [],
-   "shock_terms": [],
-   "dedupe_match": null,
-   "dedupe_similarity": 0.0,
-   "id": "66efa8fd9da5",
-   "title": "One Pacific Airways Outlines Network Overview From late-Nov 2026",
-   "url": "https://www.aeroroutes.com/eng/261116-opnov26",
-   "summary": "Published at 2300PCT 16NOV26 / 0600GMT 17NOV26 Micronesia\u2019s start-up carrier One Pacific Airways on Monday (16NOV26) announced its planned operation with service now scheduled to commence on 30NOV26. Planned operational schedule and network, on board Embraer ERJ145LR aircraft, as follows. Kosrae \u2013 Pohnpei eff 30NOV26 2 weekly OP101 KSA0730 \u2013 0830PNI ER4 1 OP103 KSA1000 \u2013 1100PNI ER4 2 OP102 PNI080",
-   "kind": "item",
-   "source": "AeroRoutes schedule filings",
-   "source_id": "aeroroutes",
-   "tier": 2,
-   "country": "GLOBAL",
-   "category": "aviation-tracker",
-   "segments": [
-    "city",
-    "bush",
-    "beach"
-   ],
-   "first_seen": "2026-11-17T13:21+03:00",
-   "published": "2026-11-17",
-   "verdict": "CONSIDER"
-  },
-  {
-   "score": 70.4,
-   "components": {
-    "tier": 40,
-    "category": 8,
-    "lead": 2.4,
-    "relevance": 8,
-    "freshness": 18.0,
-    "undated": -6
-   },
-   "keywords": [
-    "wildlife"
-   ],
-   "shock_terms": [],
-   "dedupe_match": null,
-   "dedupe_similarity": 0.17,
-   "id": "d832e5f2df7a",
-   "title": "US Fish and Wildlife Service Becomes the First Government Agency to Use IATA\u2019s LAR Verify IATA is working with the United States Fish and Wildlife Service (USFWS), which has become the first government agency globally to subscribe to IATA\u2019s digital portal, LAR Verify. 17.11.2026",
-   "url": "https://www.iata.org/en/pressroom/2026-releases/11-17-us-fish-wildlife-service-becomes-first-government-agency-use-iata-lar-verify",
-   "summary": "",
-   "kind": "item",
-   "source": "IATA pressroom",
-   "source_id": "iata-pressroom",
-   "tier": 1,
-   "country": "GLOBAL",
-   "category": "aviation-body",
-   "segments": [
-    "city",
-    "bush",
-    "beach"
-   ],
-   "first_seen": "2026-11-17T13:19+03:00",
-   "published": null,
-   "verdict": "CONSIDER"
-  },
-  {
-   "score": 70.2,
-   "components": {
-    "tier": 20,
-    "category": 5,
-    "lead": 1.2,
-    "relevance": 16,
-    "freshness": 18.0,
-    "corroborated": 10
-   },
-   "keywords": [
-    "airport",
-    "hotel",
-    "rooms"
-   ],
-   "shock_terms": [],
-   "dedupe_match": null,
-   "dedupe_similarity": 0.14,
-   "id": "0665ed2b76f3",
-   "title": "Adani Turns Its Airports Into a Hotel Business",
-   "url": "https://skift.com/2026/11/16/adani-turns-its-airports-into-a-hotel-business",
-   "summary": "As it uses its airports and surrounding land to build a hotel business, Adani is betting that its planned airport cities can attract enough businesses and visitors to support thousands of hotel rooms.",
-   "kind": "item",
-   "source": "Skift",
-   "source_id": "tp-skift",
-   "tier": 2,
-   "country": "GLOBAL",
-   "category": "trade",
-   "segments": [
-    "city",
-    "bush",
-    "beach"
-   ],
-   "first_seen": "2026-11-17T13:21+03:00",
-   "published": "2026-11-17",
-   "verdict": "CONSIDER"
-  },
-  {
-   "score": 68.6,
-   "components": {
-    "tier": 20,
-    "category": 5,
-    "lead": 3.6,
-    "relevance": 12,
-    "freshness": 18.0,
-    "corroborated": 10
-   },
-   "keywords": [
-    "occupancy",
+    "advisory",
     "hotel"
    ],
    "shock_terms": [],
    "dedupe_match": null,
-   "dedupe_similarity": 0.0,
-   "id": "2c21f339b7be",
-   "title": "Hong Kong Poly Research Reveals How High-Quality Restaurants Boost Hotel Performance",
-   "url": "https://www.hospitalitynet.org/news/4135507/hong-kong-poly-research-reveals-how-high-quality-restaurants-boost-hotel-performance",
-   "summary": "A Hong Kong Poly study finds that higher-rated restaurant clusters significantly boost occupancy rates for both full- and limited-service hotels in the same area, with full-service hotels benefiting most.",
+   "dedupe_similarity": 0.12,
+   "id": "a1ad40398969",
+   "title": "The AI Distribution Shift \u2013 The New Gold of Review Sentiment",
+   "url": "https://www.hospitalitynet.org/news/4135513/the-ai-distribution-shift-the-new-gold-of-review-sentiment",
+   "summary": "HSMAI Europe's AI Advisory Board white paper examines how AI-powered travel assistants are reshaping hotel discovery, reputation signals, and the balance between direct and third-party distribution.",
    "kind": "item",
    "source": "Hospitality Net \u2014 Africa announcements",
    "source_id": "dev-hospitalitynet-africa",
@@ -1283,151 +1294,158 @@
     "bush",
     "beach"
    ],
-   "first_seen": "2026-11-17T13:21+03:00",
+   "first_seen": "2026-11-17T21:36+03:00",
    "published": "2026-11-17",
-   "verdict": "weak"
+   "verdict": "CONSIDER"
   },
   {
-   "score": 68.0,
+   "score": 74.4,
    "components": {
     "tier": 20,
-    "category": 4,
-    "lead": 0.0,
+    "category": 5,
+    "lead": 3.6,
     "relevance": 16,
-    "freshness": 18.0,
-    "corroborated": 10
-   },
-   "keywords": [
-    "eta",
-    "seat"
-   ],
-   "shock_terms": [],
-   "dedupe_match": null,
-   "dedupe_similarity": 0.14,
-   "id": "ee96d0df6601",
-   "title": "Tanzania re-elected to global telecoms governing body",
-   "url": "https://dailynews.co.tz/tanzania-re-elected-to-global-telecoms-governing-body",
-   "summary": "DOHA, QATAR: Tanzania has been re-elected to the governing council of the International Telecommunication Union (ITU) for 2027\u20132030, securing 131 votes as it presses for affordable internet access and a greater role for developing countries in the digital economy. The East African country retained one of Africa\u2019s 13 seats on the 48-member Council at the organisation\u2019s \u2026 The post Tanzania re-electe",
-   "kind": "item",
-   "source": "Daily News (Tanzania)",
-   "source_id": "np-dailynews-tz",
-   "tier": 2,
-   "country": "TZ",
-   "category": "press",
-   "segments": [
-    "city",
-    "bush",
-    "beach"
-   ],
-   "first_seen": "2026-11-17T13:21+03:00",
-   "published": "2026-11-17",
-   "verdict": "weak"
-  },
-  {
-   "score": 68.0,
-   "components": {
-    "tier": 20,
-    "category": 4,
-    "lead": 0.0,
-    "relevance": 16,
-    "freshness": 18.0,
+    "freshness": 19.8,
     "corroborated": 10
    },
    "keywords": [
     "vat",
-    "airport"
+    "hotel",
+    "rooms"
    ],
    "shock_terms": [],
    "dedupe_match": null,
-   "dedupe_similarity": 0.43,
-   "id": "4141c74589fb",
-   "title": "Mikumi airport takes shape ahead of AFCON",
-   "url": "https://dailynews.co.tz/mikumi-airport-takes-shape-ahead-of-afcon",
-   "summary": "MIKUMI: CONSTRUCTION of an airport at Mikumi National Park has reached 80 per cent completion, with the facility expected to open before Christmas ahead of AFCON 2027. Assistant Conservation Commissioner and Mikumi National Park Chief Park Warden Augustine Massesa said the project was progressing well, with the first successful test landings conducted at the airport \u2026 The post Mikumi airport takes",
+   "dedupe_similarity": 0.12,
+   "id": "20c8b2b28ad7",
+   "title": "Jazzware Appoints Shams Ayyub as CEO to Lead Its Next Phase of Growth and Innovation",
+   "url": "https://www.hospitalitynet.org/news/4135503/jazzware-appoints-shams-ayyub-as-ceo-to-lead-its-next-phase-of-growth-and-innovation",
+   "summary": "Jazzware, whose platform connects 1M+ hotel rooms across 60+ countries, names Shams Ayyub as CEO to drive cloud and AI expansion, while he continues leading sister company Ampliphi.",
    "kind": "item",
-   "source": "Daily News (Tanzania)",
-   "source_id": "np-dailynews-tz",
+   "source": "Hospitality Net \u2014 Africa announcements",
+   "source_id": "dev-hospitalitynet-africa",
    "tier": 2,
+   "country": "REG",
+   "category": "trade",
+   "segments": [
+    "city",
+    "bush",
+    "beach"
+   ],
+   "first_seen": "2026-11-17T21:36+03:00",
+   "published": "2026-11-17",
+   "verdict": "CONSIDER"
+  },
+  {
+   "score": 74.2,
+   "components": {
+    "tier": 5,
+    "category": 5,
+    "lead": 2.4,
+    "relevance": 32,
+    "freshness": 19.8,
+    "corroborated": 10
+   },
+   "keywords": [
+    "fee",
+    "park fee",
+    "tourism",
+    "tourist",
+    "investment",
+    "operator"
+   ],
+   "shock_terms": [],
+   "dedupe_match": null,
+   "dedupe_similarity": 0.0,
+   "id": "3b739c86937f",
+   "title": "Minister announces Park fees will be waived for officially approved fam and media trips",
+   "url": "https://www.tanzaniatourism.uk/post/minister-announces-park-fees-will-be-waived-for-officially-approved-fam-and-media-trips",
+   "summary": "The Honourable Dr Ashatu Kijaji, Minister of Natural Resources and Tourism (MNRT), announced that the Tanzanian Government will actively support educational trips conducted by qualifying travel professionals from the UK, by waiving the relevant park fees on their trip Speaking at a recent Tanzania Travel Trade & Investment Forum in London, The Honourable Minister confirmed that MNRT and the Tanzan",
+   "kind": "item",
+   "source": "Tanzania Tourism UK (news)",
+   "source_id": "tz-tanzaniatourism-uk",
+   "tier": 3,
    "country": "TZ",
+   "category": "trade",
+   "segments": [
+    "city",
+    "bush",
+    "beach"
+   ],
+   "first_seen": "2026-11-17T21:37+03:00",
+   "published": "2026-11-17",
+   "verdict": "CONSIDER"
+  },
+  {
+   "score": 74.2,
+   "components": {
+    "tier": 20,
+    "category": 4,
+    "lead": 2.4,
+    "relevance": 0,
+    "freshness": 19.8,
+    "corroborated": 10,
+    "shock": 18
+   },
+   "keywords": [],
+   "shock_terms": [
+    "attack"
+   ],
+   "dedupe_match": null,
+   "dedupe_similarity": 0.0,
+   "id": "ff19e4a39c99",
+   "title": "Natembeya aide in ICU fighting for his life after machete attack at home",
+   "url": "https://nation.africa/kenya/counties/trans-nzoia/natembeya-aide-in-icu-fighting-for-his-life-after-machete-attack-at-home-5673862",
+   "summary": "Masika was attacked near his home and his car set ablaze barely weeks after his dramatic arrest...",
+   "kind": "item",
+   "source": "Nation Africa: Kenya business",
+   "source_id": "ke-nation-business",
+   "tier": 2,
+   "country": "KE",
    "category": "press",
    "segments": [
     "city",
     "bush",
     "beach"
    ],
-   "first_seen": "2026-11-17T13:21+03:00",
+   "first_seen": "2026-11-17T21:36+03:00",
    "published": "2026-11-17",
-   "verdict": "weak"
+   "verdict": "CONSIDER"
   },
   {
-   "score": 67.4,
+   "score": 74.2,
    "components": {
     "tier": 20,
-    "category": 5,
+    "category": 4,
     "lead": 2.4,
-    "relevance": 12,
-    "freshness": 18.0,
-    "corroborated": 10
+    "relevance": 0,
+    "freshness": 19.8,
+    "corroborated": 10,
+    "shock": 18
    },
-   "keywords": [
-    "occupancy",
-    "hotel"
+   "keywords": [],
+   "shock_terms": [
+    "attack"
    ],
-   "shock_terms": [],
    "dedupe_match": null,
    "dedupe_similarity": 0.0,
-   "id": "509f710ec9aa",
-   "title": "Hong Kong Poly Research Reveals How High-Quality Restaurants Boost Hotel Performance",
-   "url": "https://www.hospitalitynet.org/news/4135507/hong-kong-poly-research-reveals-how-high-quality-restaurants-boost-hotel-performance",
-   "summary": "A Hong Kong Poly study finds that higher-rated restaurant clusters significantly boost occupancy rates for both full- and limited-service hotels in the same area, with full-service hotels benefiting most.",
+   "id": "02eb95ea2c96",
+   "title": "Natembeya accuses State actors of attacking aide Amos Masika",
+   "url": "https://nation.africa/kenya/videos/natembeya-accuses-state-actors-of-attacking-aide-amos-masika-5674038",
+   "summary": "",
    "kind": "item",
-   "source": "Hospitality Net: Africa openings",
-   "source_id": "dev-hospitalitynet-openings",
+   "source": "Nation Africa: Kenya business",
+   "source_id": "ke-nation-business",
    "tier": 2,
-   "country": "AFRICA",
-   "category": "trade",
+   "country": "KE",
+   "category": "press",
    "segments": [
     "city",
     "bush",
     "beach"
    ],
-   "first_seen": "2026-11-17T13:21+03:00",
+   "first_seen": "2026-11-17T21:36+03:00",
    "published": "2026-11-17",
-   "verdict": "weak"
-  },
-  {
-   "score": 67.4,
-   "components": {
-    "tier": 20,
-    "category": 5,
-    "lead": 2.4,
-    "relevance": 12,
-    "freshness": 18.0,
-    "corroborated": 10
-   },
-   "keywords": [
-    "airport",
-    "hotel"
-   ],
-   "shock_terms": [],
-   "dedupe_match": null,
-   "dedupe_similarity": 0.14,
-   "id": "b7cae8c5a78f",
-   "title": "Embassy Suites Columbus Airport Listed for Sale at Under $100,000 per Room",
-   "url": "https://www.hotelnewsresource.com/article143773.html",
-   "summary": "The Embassy Suites Columbus Airport has been listed for sale at under $100,000 per room, signaling continued pressure on hotel property values and offering a potential acquisition opportunity for investors seeking branded assets near key transportation hubs.",
-   "kind": "item",
-   "source": "HVS \u2014 market reports and event-impact studies (via Hotel News Resource)",
-   "source_id": "gl-hvs-market-reports",
-   "tier": 2,
-   "country": "GLOBAL",
-   "category": "trade",
-   "segments": [
-    "city"
-   ],
-   "first_seen": "2026-11-17T13:21+03:00",
-   "published": "2026-11-16",
-   "verdict": "weak"
+   "verdict": "CONSIDER"
   }
  ]
 }
