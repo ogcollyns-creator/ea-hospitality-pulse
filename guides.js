@@ -1,5 +1,14 @@
 window.GUIDES = [
  {
+  "slug": "premium-flyer-levy-kenya-row-that-does-not-add-up",
+  "title": "Kenya is first on the list for a levy on business class arrivals. The row of numbers behind it does not add up.",
+  "description": "A COP31 declaration launched in Antalya on Tuesday welcomed small levies on polluting sectors, with Kenya among its backers. Four days earlier the task force Kenya co-chairs published the modelling, and Kenya came first of ten countries at $84 million a year. Work the report's own published figures back and the Kenya row implies a revenue base roughly four times the passenger base it uses to count the cost.",
+  "category": "Big Read",
+  "updated": "2026-11-18",
+  "readMins": 9,
+  "image": "img/editions/premium-flyer-levy-kenya-row-that-does-not-add-up.jpg"
+ },
+ {
   "slug": "tanzania-in-park-beds-160-sites-nobody-flies-there",
   "title": "Tanzania doubled the beds inside its national parks. The 160 sites it has just put on the market are in the parks nobody flies to.",
   "description": "TANAPA's annual results, released on 10 November, show in-park bed capacity up from 5,755 to 12,094 since 2021, a revenue target missed by about 66 billion shillings, and domestic park visits down 7.7 per cent in a single year. The agency's answer is 160 more investment sites, 130 of them camps, concentrated in a circuit whose access project the government itself asked the World Bank to cancel.",
