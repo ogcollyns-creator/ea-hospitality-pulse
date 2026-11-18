@@ -1,25 +1,60 @@
 {
- "generated": "2026-11-18T06:25:06+03:00",
- "slot": "morning",
- "window_start": 1794927600,
- "observations_in_window": 704,
+ "generated": "2026-11-18T15:08:16+03:00",
+ "slot": "midday",
+ "window_start": 1794974400,
+ "observations_in_window": 300,
  "deduped_against": 13,
  "candidates": [
   {
-   "score": 91.4,
+   "score": 101.5,
+   "components": {
+    "tier": 40,
+    "category": 32,
+    "lead": 12.0,
+    "relevance": 8,
+    "freshness": 19.5,
+    "undated": -6,
+    "page_change": -4
+   },
+   "keywords": [
+    "fee"
+   ],
+   "shock_terms": [],
+   "dedupe_match": null,
+   "dedupe_similarity": 0.29,
+   "id": "3c493afd03e3",
+   "title": "[page changed] Federal Register \u2014 CDC notices",
+   "url": "https://www.federalregister.gov/api/v1/documents.rss?conditions%5Bagencies%5D%5B%5D=centers-for-disease-control-and-prevention&order=newest",
+   "summary": "Federal Register Documents published on or after 10/19/2026 and from Centers for Disease Control and Prevention https://www.federalregister.gov/api/v1/documents.rss?conditions%5Bagencies%5D%5B%5D=centers-for-disease-control-and-prevention&order=newest Tue, 17 Nov 2026 05:00:00 GMT The documents in this feed originate from FederalRegister.gov which displays an unofficial web version of the daily Fe",
+   "kind": "page-change",
+   "source": "Federal Register \u2014 CDC notices",
+   "source_id": "us-fedreg-cdc",
+   "tier": 1,
+   "country": "REG",
+   "category": "advisory",
+   "segments": [
+    "city",
+    "bush"
+   ],
+   "first_seen": "2026-11-18T14:50+03:00",
+   "published": null,
+   "verdict": "OPEN THIS \u2014 tier-1 advisory page moved; content not auto-parsed, read it manually"
+  },
+  {
+   "score": 91.1,
    "components": {
     "tier": 40,
     "category": 32,
     "lead": 3.6,
     "relevance": 0,
-    "freshness": 19.8,
+    "freshness": 19.5,
     "page_change": -4
    },
    "keywords": [],
    "shock_terms": [],
    "dedupe_match": null,
    "dedupe_similarity": 0.1,
-   "id": "e0e02881e03c",
+   "id": "f8adabb2fe2a",
    "title": "[page changed] Federal Register \u2014 public inspection (HHS/CDC), pre-publication",
    "url": "https://www.federalregister.gov/api/v1/public-inspection-documents/current.json",
    "summary": "{\"count\":118,\"results\":[{\"agencies\":[{\"raw_name\":\"EQUAL EMPLOYMENT OPPORTUNITY COMMISSION\",\"name\":\"Equal Employment Opportunity Commission\",\"id\":147,\"url\":\"https://www.federalregister.gov/agencies/equal-employment-opportunity-commission\",\"json_url\":\"https://www.federalregister.gov/api/v1/agencies/147\",\"parent_id\":null,\"slug\":\"equal-employment-opportunity-commission\"}],\"agency_letters\":[],\"agency_n",
@@ -33,82 +68,18 @@
     "city",
     "bush"
    ],
-   "first_seen": "2026-11-18T06:22+03:00",
+   "first_seen": "2026-11-18T14:50+03:00",
    "published": "2026-11-16",
    "verdict": "OPEN THIS \u2014 tier-1 advisory page moved; content not auto-parsed, read it manually"
   },
   {
-   "score": 86.5,
-   "components": {
-    "tier": 40,
-    "category": 32,
-    "lead": 3.6,
-    "relevance": 0,
-    "freshness": 14.9,
-    "page_change": -4
-   },
-   "keywords": [],
-   "shock_terms": [],
-   "dedupe_match": null,
-   "dedupe_similarity": 0.1,
-   "id": "66b50afc7d30",
-   "title": "[page changed] Federal Register \u2014 public inspection (HHS/CDC), pre-publication",
-   "url": "https://www.federalregister.gov/api/v1/public-inspection-documents/current.json",
-   "summary": "{\"count\":118,\"results\":[{\"agencies\":[{\"raw_name\":\"EQUAL EMPLOYMENT OPPORTUNITY COMMISSION\",\"name\":\"Equal Employment Opportunity Commission\",\"id\":147,\"url\":\"https://www.federalregister.gov/agencies/equal-employment-opportunity-commission\",\"json_url\":\"https://www.federalregister.gov/api/v1/agencies/147\",\"parent_id\":null,\"slug\":\"equal-employment-opportunity-commission\"}],\"agency_letters\":[],\"agency_n",
-   "kind": "page-change",
-   "source": "Federal Register \u2014 public inspection (HHS/CDC), pre-publication",
-   "source_id": "us-fedreg-pubinspect-hhs",
-   "tier": 1,
-   "country": "REG",
-   "category": "advisory",
-   "segments": [
-    "city",
-    "bush"
-   ],
-   "first_seen": "2026-11-18T01:59+03:00",
-   "published": "2026-11-16",
-   "verdict": "OPEN THIS \u2014 tier-1 advisory page moved; content not auto-parsed, read it manually"
-  },
-  {
-   "score": 81.7,
-   "components": {
-    "tier": 40,
-    "category": 32,
-    "lead": 3.6,
-    "relevance": 0,
-    "freshness": 10.1,
-    "page_change": -4
-   },
-   "keywords": [],
-   "shock_terms": [],
-   "dedupe_match": null,
-   "dedupe_similarity": 0.1,
-   "id": "d3853ee2963d",
-   "title": "[page changed] Federal Register \u2014 public inspection (HHS/CDC), pre-publication",
-   "url": "https://www.federalregister.gov/api/v1/public-inspection-documents/current.json",
-   "summary": "{\"count\":115,\"results\":[{\"agencies\":[{\"raw_name\":\"EQUAL EMPLOYMENT OPPORTUNITY COMMISSION\",\"name\":\"Equal Employment Opportunity Commission\",\"id\":147,\"url\":\"https://www.federalregister.gov/agencies/equal-employment-opportunity-commission\",\"json_url\":\"https://www.federalregister.gov/api/v1/agencies/147\",\"parent_id\":null,\"slug\":\"equal-employment-opportunity-commission\"}],\"agency_letters\":[],\"agency_n",
-   "kind": "page-change",
-   "source": "Federal Register \u2014 public inspection (HHS/CDC), pre-publication",
-   "source_id": "us-fedreg-pubinspect-hhs",
-   "tier": 1,
-   "country": "REG",
-   "category": "advisory",
-   "segments": [
-    "city",
-    "bush"
-   ],
-   "first_seen": "2026-11-17T21:36+03:00",
-   "published": "2026-11-16",
-   "verdict": "OPEN THIS \u2014 tier-1 advisory page moved; content not auto-parsed, read it manually"
-  },
-  {
-   "score": 60.5,
+   "score": 65.1,
    "components": {
     "tier": 40,
     "category": 12,
     "lead": 3.6,
     "relevance": 0,
-    "freshness": 14.9,
+    "freshness": 19.5,
     "undated": -6,
     "page_change": -4
    },
@@ -116,10 +87,10 @@
    "shock_terms": [],
    "dedupe_match": null,
    "dedupe_similarity": 0.0,
-   "id": "ed29c119a83a",
+   "id": "f35c301fa706",
    "title": "[page changed] Airlink news",
    "url": "https://www.flyairlink.com/",
-   "summary": "Request unsuccessful. Incapsula incident ID: 472000110115549290-123353878838641392",
+   "summary": "Request unsuccessful. Incapsula incident ID: 958000100010338287-19219158373630645",
    "kind": "page-change",
    "source": "Airlink news",
    "source_id": "air-airlink",
@@ -131,31 +102,66 @@
     "bush",
     "beach"
    ],
-   "first_seen": "2026-11-18T01:59+03:00",
+   "first_seen": "2026-11-18T14:50+03:00",
    "published": null,
    "verdict": "OPEN THIS \u2014 tier-1 airline page moved; content not auto-parsed, read it manually"
   },
   {
-   "score": 102.5,
+   "score": 95.9,
+   "components": {
+    "tier": 20,
+    "category": 14,
+    "lead": 8.4,
+    "relevance": 24,
+    "freshness": 19.5,
+    "corroborated": 10
+   },
+   "keywords": [
+    "route",
+    "charter",
+    "airline",
+    "flight"
+   ],
+   "shock_terms": [],
+   "dedupe_match": null,
+   "dedupe_similarity": 0.12,
+   "id": "36feebc9eaf1",
+   "title": "Malaysia Airlines Adds Langkawi \u2013 Tashkent Charters in NW26",
+   "url": "https://www.aeroroutes.com/eng/261117-mhnw26tas",
+   "summary": "Published at 2100PCT 17NOV26 / 0400GMT 18NOV26 Malaysia Airlines from December 2026 plans to add scheduled charter service to Uzbekistan, with 1 weekly Langkawi \u2013 Tashkent flight scheduled from 05DEC26 to 07FEB27. Boeing 737 MAX 8 aircraft to serve this route. MH8460 LGK1740 \u2013 2150TAS 7M8 6 MH8461 TAS2310 \u2013 0900+1LGK 7M8 6 This route was previously served by Batik Air Malaysia.",
+   "kind": "item",
+   "source": "AeroRoutes schedule filings",
+   "source_id": "aeroroutes",
+   "tier": 2,
+   "country": "GLOBAL",
+   "category": "aviation-tracker",
+   "segments": [
+    "city",
+    "bush",
+    "beach"
+   ],
+   "first_seen": "2026-11-18T14:51+03:00",
+   "published": "2026-11-18",
+   "verdict": "CONSIDER"
+  },
+  {
+   "score": 95.9,
    "components": {
     "tier": 40,
     "category": 18,
     "lead": 8.4,
-    "relevance": 16,
-    "freshness": 10.1,
+    "relevance": 0,
+    "freshness": 19.5,
     "corroborated": 10
    },
-   "keywords": [
-    "conservanc",
-    "wildlife"
-   ],
+   "keywords": [],
    "shock_terms": [],
    "dedupe_match": null,
-   "dedupe_similarity": 0.17,
-   "id": "7f6fb78f124d",
-   "title": "An Innocent Bystander: Solio\u2019s Ten-Month-Old Rhino Calf Treated",
-   "url": "https://kws.go.ke/an-innocent-bystander-solios-ten-month-old-rhino-calf-treated",
-   "summary": "A Kenya Wildlife Service (KWS) Mt. Kenya Veterinary Unit team recently treated a ten-month-old female white rhino calf at Solio Conservancy for blunt trauma to a hind limb, most likely caused by a male mating with her mother. She was lame on that leg but mercifully had no open wounds. She was treated and released. [...]",
+   "dedupe_similarity": 0.0,
+   "id": "0f742234f2f6",
+   "title": "Moving Giants: A New Chapter for Elephants in Kora National Park",
+   "url": "https://kws.go.ke/moving-giants-a-new-chapter-for-elephants-in-kora-national-park",
+   "summary": "What does it take to move an elephant to a new home? Months of planning, a lot of teamwork, and a great deal of care. The journey began at Laikipia Air Base in Nanyuki and ended in Kora National Park, Tana River County. For the elephants, it meant swapping one landscape for another. For the [...]",
    "kind": "item",
    "source": "Kenya Wildlife Service",
    "source_id": "ke-kws",
@@ -165,172 +171,32 @@
    "segments": [
     "bush"
    ],
-   "first_seen": "2026-11-17T21:36+03:00",
-   "published": "2026-11-17",
+   "first_seen": "2026-11-18T14:50+03:00",
+   "published": "2026-11-18",
    "verdict": "STRONG \u2014 tier-1, upstream"
   },
   {
-   "score": 98.7,
+   "score": 87.9,
    "components": {
-    "tier": 40,
-    "category": 9,
-    "lead": 16.8,
-    "relevance": 8,
-    "freshness": 14.9,
-    "corroborated": 10
-   },
-   "keywords": [
-    "hotel",
-    "signing"
-   ],
-   "shock_terms": [],
-   "dedupe_match": null,
-   "dedupe_similarity": 0.14,
-   "id": "e717d8428b6e",
-   "title": "Hilton Accelerates Lifestyle Growth in South East Asia with First Tempo by Hilton Signing in Phuket",
-   "url": "https://stories.hilton.com/releases/tempo-by-hilton-phuket-signing",
-   "summary": "PHUKET, Thailand \u2013 Hilton (NYSE: HLT) today announced the signing of Tempo by Hilton Phuket Bang Tao, the first under the brand in South East Asia, in partnership with Sindhu Development Co., Ltd. Expected to open in 2030, the hotel will bring Tempo\u2019s vibrant, contemporary approach to hospitality to Phuket, offering a thoughtfully designed stay [\u2026] The post Hilton Accelerates Lifestyle Growth in S",
-   "kind": "item",
-   "source": "Hilton stories/newsroom",
-   "source_id": "dev-hilton",
-   "tier": 1,
-   "country": "GLOBAL",
-   "category": "hotel-group",
-   "segments": [
-    "city",
-    "bush",
-    "beach"
-   ],
-   "first_seen": "2026-11-18T01:59+03:00",
-   "published": "2026-11-17",
-   "verdict": "STRONG \u2014 tier-1, upstream"
-  },
-  {
-   "score": 96.7,
-   "components": {
-    "tier": 40,
-    "category": 15,
-    "lead": 16.8,
+    "tier": 20,
+    "category": 14,
+    "lead": 8.4,
     "relevance": 16,
-    "freshness": 14.9,
-    "undated": -6
-   },
-   "keywords": [
-    "tax",
-    "eta"
-   ],
-   "shock_terms": [],
-   "dedupe_match": null,
-   "dedupe_similarity": 0.17,
-   "id": "04b4e79391f5",
-   "title": "TRA AND IMF STRENGTHEN COOPERATION TO PROMOTE TRANSPARENCY AND ACCOUNTABILITY IN TAX ADMINISTRATION 17 November, 2026 The Tanzania Revenue Authority (TRA) has held discussions with a delegation from the International Monetary Fund\u2026 -->",
-   "url": "https://www.tra.go.tz/news/tra-and-imf-strengthen-cooperation-to-promote-transparency-and-accountability-in-tax-administration",
-   "summary": "",
-   "kind": "item",
-   "source": "Tanzania Revenue Authority",
-   "source_id": "tz-tra",
-   "tier": 1,
-   "country": "TZ",
-   "category": "fiscal",
-   "segments": [
-    "city",
-    "bush",
-    "beach"
-   ],
-   "first_seen": "2026-11-18T01:59+03:00",
-   "published": null,
-   "verdict": "STRONG \u2014 tier-1, upstream"
-  },
-  {
-   "score": 94.7,
-   "components": {
-    "tier": 40,
-    "category": 9,
-    "lead": 16.8,
-    "relevance": 4,
-    "freshness": 14.9,
-    "corroborated": 10
-   },
-   "keywords": [
-    "signing"
-   ],
-   "shock_terms": [],
-   "dedupe_match": null,
-   "dedupe_similarity": 0.14,
-   "id": "f0051d7611f1",
-   "title": "Apartment Collection by Hilton Announces First International Signings Amid Growing Owner Demand",
-   "url": "https://stories.hilton.com/releases/apartment-collection-by-hilton-announces-first-international-signings",
-   "summary": "MCLEAN, Va. \u2014 Apartment Collection by Hilton, Hilton\u2019s (Nasdaq: HLT) extended-stay, apartment-style lodging brand, today announced its first signings outside the United States, in Dubai, United Arab Emirates, expected to open in December 2026 and Grace Bay, Turks and Caicos, expected to open in 2028. The signings mark a significant milestone as the brand surpasses [\u2026] The post Apartment Collection",
-   "kind": "item",
-   "source": "Hilton stories/newsroom",
-   "source_id": "dev-hilton",
-   "tier": 1,
-   "country": "GLOBAL",
-   "category": "hotel-group",
-   "segments": [
-    "city",
-    "bush",
-    "beach"
-   ],
-   "first_seen": "2026-11-18T01:59+03:00",
-   "published": "2026-11-17",
-   "verdict": "STRONG \u2014 tier-1, upstream"
-  },
-  {
-   "score": 91.7,
-   "components": {
-    "tier": 40,
-    "category": 10,
-    "lead": 16.8,
-    "relevance": 0,
-    "freshness": 14.9,
-    "corroborated": 10
-   },
-   "keywords": [],
-   "shock_terms": [],
-   "dedupe_match": null,
-   "dedupe_similarity": 0.33,
-   "id": "95cec0d0fe59",
-   "title": "Order Paper For Wednesday, 18th November 2026 -Joint Sitting Of Parliament",
-   "url": "https://www.parliament.go.ke/sites/default/files/2026-11/ORDER%20PAPER%20FOR%20WEDNESDAY%2C%2018TH%20NOVEMBER%202026%20-%20-%20JOINT%20SITTING%20OF%20PARLIAMENT.pdf",
-   "summary": "Thirteenth Parliament Fifth Session (No. S.S./05) (01) REPUBLIC OF KENYA THIRTEENTH PARLIAMENT - (FIFTH SESSION) SPECIAL SITTING OF PARLIAMENT ORDERS OF THE DAY WEDNESDAY, NOVEMBER 18, 2026 AT 2.30 PM 1.!PRAYER By the Speaker of the Senate. 2.!CONVOCATION (i)!By the Speaker of the Senate. (ii)!By the Speaker of the National Assembly. (iii)!The Speaker of the National Assembly invites His Excellenc",
-   "kind": "doc",
-   "source": "Parliament of Kenya \u2014 bills & papers",
-   "source_id": "ke-parliament",
-   "tier": 1,
-   "country": "KE",
-   "category": "legislature",
-   "segments": [
-    "city",
-    "bush",
-    "beach"
-   ],
-   "first_seen": "2026-11-18T01:59+03:00",
-   "published": "2026-11-18",
-   "verdict": "STRONG \u2014 tier-1, upstream"
-  },
-  {
-   "score": 91.3,
-   "components": {
-    "tier": 20,
-    "category": 14,
-    "lead": 8.4,
-    "relevance": 24,
-    "freshness": 14.9,
+    "freshness": 19.5,
     "corroborated": 10
    },
    "keywords": [
     "route",
-    "capacity",
-    "seat"
+    "airline",
+    "flight"
    ],
    "shock_terms": [],
    "dedupe_match": null,
    "dedupe_similarity": 0.14,
-   "id": "fb011e27607f",
-   "title": "Lufthansa NS27 4-class A350-900 Frankfurt Operations Overview \u2013 15NOV26",
-   "url": "https://www.aeroroutes.com/eng/261117-lhns27359",
-   "summary": "Published at 1500PCT / 2200GMT 17NOV26 Lufthansa in recent schedule update filed aircraft changes for Frankfurt \u2013 Singapore route during Northern summer 2027 season. From 28MAR27, the daily service will be operated by Airbus A350-900, replacing the 747-400. LH780 FRA2150 \u2013 1625+1SIN 359 D LH781 SIN2340 \u2013 0640+1FRA 359 D From 01JUN27, service will be operated by 4-class A350-900, instead of 3-class",
+   "id": "8af03b928776",
+   "title": "EGYPTAIR NS27 Europe Network Expansion",
+   "url": "https://www.aeroroutes.com/eng/261118-msns27eu",
+   "summary": "Published at 0300PCT / 1000GMT 18NOV26 EGYPTAIR during Northern summer 2027 season plans to expand service to Europe, with the launch of 6 routes. Cairo \u2013 Edinburgh eff 28MAR27 3 weekly 737-800 Cairo \u2013 Hamburg eff 28MAR27 4 weekly 737 MAX 8 Cairo \u2013 London Gatwick eff 29MAR27 3 weekly A320neo Cairo \u2013 London Stansted eff 01JUN27 4 weekly A320neo Cairo \u2013 Marseille eff 28MAR27 4 weekly 737 MAX 8 Cairo",
    "kind": "item",
    "source": "AeroRoutes schedule filings",
    "source_id": "aeroroutes",
@@ -342,97 +208,32 @@
     "bush",
     "beach"
    ],
-   "first_seen": "2026-11-18T02:00+03:00",
+   "first_seen": "2026-11-18T14:51+03:00",
    "published": "2026-11-18",
    "verdict": "CONSIDER"
   },
   {
-   "score": 91.3,
-   "components": {
-    "tier": 40,
-    "category": 24,
-    "lead": 2.4,
-    "relevance": 0,
-    "freshness": 14.9,
-    "corroborated": 10
-   },
-   "keywords": [],
-   "shock_terms": [],
-   "dedupe_match": null,
-   "dedupe_similarity": 0.17,
-   "id": "730ee2f16911",
-   "title": "Semaine \u00c9pid\u00e9miologique 44. R\u00e9union du 11 Novembre 2026",
-   "url": "https://insp.cd/semaine-epidemiologique-44-reunion-du-11-novembre-2026",
-   "summary": "",
-   "kind": "item",
-   "source": "INSP RDC \u2014 Ebola daily situation reports (SitRep)",
-   "source_id": "cd-insp-sitrep",
-   "tier": 1,
-   "country": "GLOBAL",
-   "category": "health",
-   "segments": [
-    "City",
-    "Bush"
-   ],
-   "first_seen": "2026-11-18T02:00+03:00",
-   "published": "2026-11-17",
-   "verdict": "STRONG \u2014 tier-1, upstream"
-  },
-  {
-   "score": 91.3,
-   "components": {
-    "tier": 40,
-    "category": 24,
-    "lead": 2.4,
-    "relevance": 0,
-    "freshness": 14.9,
-    "corroborated": 10
-   },
-   "keywords": [],
-   "shock_terms": [],
-   "dedupe_match": null,
-   "dedupe_similarity": 0.17,
-   "id": "f4f35f2f79f2",
-   "title": "SitRep N\u00b0186/MVE-BDBV/16/11/2026",
-   "url": "https://insp.cd/sitrep-n186-mve-bdbv-16-11-2026",
-   "summary": "",
-   "kind": "item",
-   "source": "INSP RDC \u2014 Ebola daily situation reports (SitRep)",
-   "source_id": "cd-insp-sitrep",
-   "tier": 1,
-   "country": "GLOBAL",
-   "category": "health",
-   "segments": [
-    "City",
-    "Bush"
-   ],
-   "first_seen": "2026-11-18T02:00+03:00",
-   "published": "2026-11-17",
-   "verdict": "STRONG \u2014 tier-1, upstream"
-  },
-  {
-   "score": 90.5,
+   "score": 87.9,
    "components": {
     "tier": 20,
     "category": 14,
     "lead": 8.4,
-    "relevance": 28,
-    "freshness": 10.1,
+    "relevance": 16,
+    "freshness": 19.5,
     "corroborated": 10
    },
    "keywords": [
     "route",
-    "frequency",
-    "seat",
-    "airline"
+    "airline",
+    "flight"
    ],
    "shock_terms": [],
    "dedupe_match": null,
    "dedupe_similarity": 0.14,
-   "id": "8e917d095746",
-   "title": "Alaska NS27 Seattle \u2013 Paris Frequency Changes",
-   "url": "https://www.aeroroutes.com/eng/261117-asns27cdg",
-   "summary": "Published at 0500PCT / 1200GMT 17NOV26 Alaska Airlines during Northern summer 2027 season is adjusting operational frequencies on Seattle \u2013 Paris Charles de Gaulle route, scheduled to commence on 25MAY27. The Oneworld member will operate this route 5 times weekly, however service will be reduced to 4 weekly from 17JUL27. The frequency changes were previously not covered on AeroRoutes . This route ",
+   "id": "dd57c66e9871",
+   "title": "Beijing Capital Adds One-Time Madagascar Flight in Dec 2026",
+   "url": "https://www.aeroroutes.com/eng/261118-jddec26tnr",
+   "summary": "Published at 0200PCT / 0900GMT 18NOV26 Beijing Capital Airlines in mid-December 2026 schedules one-time flight to Madagascar, with A330-300 operating Beijing Daxing \u2013 Haikou \u2013 Antananarivo route. Planned schedule on 14DEC26 as follows. JD615 PKX0755 \u2013 1200HAK1330 \u2013 1905TNR 333 14DEC26 JD616 TNR2305 \u2013 1510+1HAK1640+1 \u2013 2000+1PKX 333 14DEC26",
    "kind": "item",
    "source": "AeroRoutes schedule filings",
    "source_id": "aeroroutes",
@@ -444,30 +245,134 @@
     "bush",
     "beach"
    ],
-   "first_seen": "2026-11-17T21:36+03:00",
-   "published": "2026-11-17",
+   "first_seen": "2026-11-18T14:51+03:00",
+   "published": "2026-11-18",
    "verdict": "CONSIDER"
   },
   {
-   "score": 88.5,
+   "score": 87.9,
+   "components": {
+    "tier": 20,
+    "category": 14,
+    "lead": 8.4,
+    "relevance": 16,
+    "freshness": 19.5,
+    "corroborated": 10
+   },
+   "keywords": [
+    "route",
+    "airline",
+    "flight"
+   ],
+   "shock_terms": [],
+   "dedupe_match": null,
+   "dedupe_similarity": 0.12,
+   "id": "420d087dc1d5",
+   "title": "Air Algerie Adds Athens From late-Dec 2026",
+   "url": "https://www.aeroroutes.com/eng/261118-ahdec26ath",
+   "summary": "Published at 0000PCT / 0700GMT 18NOV26 Air Algerie in late-December 2026 plans to launch service to Greece, as the carrier schedules Algiers \u2013 Athens nonstop flight. The airline plans to serve this route on weekly basis with 737-800, effective 24DEC26. AH3040 ALG1605 \u2013 2000ATH 73H 4 AH3041 ATH2100 \u2013 2315ALG 73H 4",
+   "kind": "item",
+   "source": "AeroRoutes schedule filings",
+   "source_id": "aeroroutes",
+   "tier": 2,
+   "country": "GLOBAL",
+   "category": "aviation-tracker",
+   "segments": [
+    "city",
+    "bush",
+    "beach"
+   ],
+   "first_seen": "2026-11-18T14:51+03:00",
+   "published": "2026-11-18",
+   "verdict": "CONSIDER"
+  },
+  {
+   "score": 87.9,
+   "components": {
+    "tier": 20,
+    "category": 14,
+    "lead": 8.4,
+    "relevance": 16,
+    "freshness": 19.5,
+    "corroborated": 10
+   },
+   "keywords": [
+    "route",
+    "charter"
+   ],
+   "shock_terms": [],
+   "dedupe_match": null,
+   "dedupe_similarity": 0.14,
+   "id": "06ecf74ade54",
+   "title": "tigerair Taiwan Feb 2027 Kaohsiung \u2013 Tokyo Haneda Charters",
+   "url": "https://www.aeroroutes.com/eng/261117-itfeb27khhhnd",
+   "summary": "Published at 2200PCT 17NOV26 / 0500GMT 18NOV26 tigerair Taiwan on Wednesday (18NOV26) announced planned operation for Kaohsiung \u2013 Tokyo Haneda route, the scheduled charter service will run from 01FEB27 to 14FEB27 (Kaohsiung departure) on daily basis, on board Airbus A320. IT8266 KHH2225 \u2013 0300+1HND 320 D IT8267 HND0400 \u2013 0730KHH 320 D",
+   "kind": "item",
+   "source": "AeroRoutes schedule filings",
+   "source_id": "aeroroutes",
+   "tier": 2,
+   "country": "GLOBAL",
+   "category": "aviation-tracker",
+   "segments": [
+    "city",
+    "bush",
+    "beach"
+   ],
+   "first_seen": "2026-11-18T14:51+03:00",
+   "published": "2026-11-18",
+   "verdict": "CONSIDER"
+  },
+  {
+   "score": 87.9,
+   "components": {
+    "tier": 40,
+    "category": 16,
+    "lead": 2.4,
+    "relevance": 0,
+    "freshness": 19.5,
+    "corroborated": 10
+   },
+   "keywords": [],
+   "shock_terms": [],
+   "dedupe_match": null,
+   "dedupe_similarity": 0.25,
+   "id": "dbb7f52d145d",
+   "title": "Statistics Week 12th to 20th November 2026 \u2013 Join us Online",
+   "url": "https://www.ubos.org/2026/11/18/statistics-week-12th-to-20th-november-2026",
+   "summary": "STATISTICS WEEK 12th to 20th NOVEMBER 2026 Africa Statistics Day (ASD) Theme: Institutionalizing water and sanitation statistics [\u2026] The post Statistics Week 12th to 20th November 2026 \u2013 Join us Online appeared first on Uganda Bureau of Statistics .",
+   "kind": "item",
+   "source": "UBOS statistical releases",
+   "source_id": "ug-ubos",
+   "tier": 1,
+   "country": "UG",
+   "category": "statistics",
+   "segments": [
+    "city",
+    "bush",
+    "beach"
+   ],
+   "first_seen": "2026-11-18T14:50+03:00",
+   "published": "2026-11-18",
+   "verdict": "CONSIDER"
+  },
+  {
+   "score": 85.1,
    "components": {
     "tier": 40,
     "category": 12,
     "lead": 3.6,
-    "relevance": 8,
-    "freshness": 14.9,
+    "relevance": 0,
+    "freshness": 19.5,
     "corroborated": 10
    },
-   "keywords": [
-    "seat"
-   ],
+   "keywords": [],
    "shock_terms": [],
    "dedupe_match": null,
-   "dedupe_similarity": 0.14,
-   "id": "3521d4ab4585",
-   "title": "Mehr Komfort auf Kurz- und Mittelstrecken: Lufthansa Premium Business Seat ab sofort buchbar",
-   "url": "https://newsroom.lufthansagroup.com/mehr-komfort-auf-kurz--und-mittelstrecken-lufthansa-premium-business-seat-ab-sofort-buchbar",
-   "summary": "Lufthansa erweitert ihr Premium-Angebot auf Kurz- und Mittelstrecken: Mit dem neuen Premium Business Seat genie\u00dfen Flugg\u00e4ste k\u00fcnftig noch mehr pers\u00f6nlichen Freiraum und zus\u00e4tzlichen Komfort. Ab heute ist der Sitz f\u00fcr Fl\u00fcge ab 1. M\u00e4rz 2027 auf den Verbindungen zwischen Frankfurt und Athen, Nizza sowie Kairo buchbar. In den ersten beiden Reihen der Business Class erwartet Flugg\u00e4ste ein besonders gro",
+   "dedupe_similarity": 0.0,
+   "id": "339c442d72b7",
+   "title": "Lufthansa und DFB verl\u00e4ngern Partnerschaft bis 2031",
+   "url": "https://newsroom.lufthansagroup.com/lufthansa-und-dfb-verlaengern-partnerschaft-bis-2031",
+   "summary": "Lufthansa und der Deutsche Fu\u00dfball-Bund (DFB) setzen ihre bereits seit 2005 bestehende Partnerschaft fort. Beide Partner verl\u00e4ngern ihre Zusammenarbeit bis 2031. K\u00fcnftig umfasst die Partnerschaft neben der M\u00e4nner- auch die Frauen-Nationalmannschaft. Damit steht Lufthansa den Nationalmannschaften des DFB auch in den kommenden Jahren als verl\u00e4sslicher Partner zur Seite. In den Zeitraum der Partnersc",
    "kind": "item",
    "source": "Lufthansa Group newsroom",
    "source_id": "air-lh",
@@ -477,511 +382,18 @@
    "segments": [
     "beach"
    ],
-   "first_seen": "2026-11-18T01:59+03:00",
-   "published": "2026-11-17",
-   "verdict": "CONSIDER"
-  },
-  {
-   "score": 86.5,
-   "components": {
-    "tier": 20,
-    "category": 14,
-    "lead": 8.4,
-    "relevance": 24,
-    "freshness": 10.1,
-    "corroborated": 10
-   },
-   "keywords": [
-    "cancel",
-    "airline",
-    "flight",
-    "booking"
-   ],
-   "shock_terms": [],
-   "dedupe_match": null,
-   "dedupe_similarity": 0.12,
-   "id": "f42d909e6645",
-   "title": "Hainan Airlines Dec 2026 Beijing \u2013 Europe Service Reductions",
-   "url": "https://www.aeroroutes.com/eng/261117-hudec26pek",
-   "summary": "Published at 0900PCT / 1600GMT 17NOV26 Hainan Airlines has extended service reductions to Europe from Beijing into the first half of December 2026, as the carrier\u2019s schedule filing confirmed the plan. Cancelled flights on various dates listed below have been closed for bookings in the last 2 weeks. Beijing Capital \u2013 Berlin Service cancelled on following dates in Dec 2026: 02, 03, 07, 10 (A330-900n",
-   "kind": "item",
-   "source": "AeroRoutes schedule filings",
-   "source_id": "aeroroutes",
-   "tier": 2,
-   "country": "GLOBAL",
-   "category": "aviation-tracker",
-   "segments": [
-    "city",
-    "bush",
-    "beach"
-   ],
-   "first_seen": "2026-11-17T21:36+03:00",
-   "published": "2026-11-17",
-   "verdict": "CONSIDER"
-  },
-  {
-   "score": 86.5,
-   "components": {
-    "tier": 40,
-    "category": 24,
-    "lead": 2.4,
-    "relevance": 0,
-    "freshness": 10.1,
-    "corroborated": 10
-   },
-   "keywords": [],
-   "shock_terms": [],
-   "dedupe_match": null,
-   "dedupe_similarity": 0.17,
-   "id": "32db80c9f482",
-   "title": "SitRep N\u00b0185/MVE-BDBV/15/11/2026",
-   "url": "https://insp.cd/sitrep-n185-mve-bdbv-15-11-2026",
-   "summary": "",
-   "kind": "item",
-   "source": "INSP RDC \u2014 Ebola daily situation reports (SitRep)",
-   "source_id": "cd-insp-sitrep",
-   "tier": 1,
-   "country": "GLOBAL",
-   "category": "health",
-   "segments": [
-    "City",
-    "Bush"
-   ],
-   "first_seen": "2026-11-17T21:36+03:00",
-   "published": "2026-11-17",
-   "verdict": "CONSIDER"
-  },
-  {
-   "score": 86.2,
-   "components": {
-    "tier": 5,
-    "category": 5,
-    "lead": 2.4,
-    "relevance": 44,
-    "freshness": 19.8,
-    "corroborated": 10
-   },
-   "keywords": [
-    "cancel",
-    "hotel",
-    "resort",
-    "tourism",
-    "tourist",
-    "flight",
-    "booking",
-    "investment"
-   ],
-   "shock_terms": [],
-   "dedupe_match": null,
-   "dedupe_similarity": 0.17,
-   "id": "2d26e2e9b9a4",
-   "title": "Cuba Fights to Win Back Canadian Tourists as Hotel Closures and Travel Risks Mount",
-   "url": "https://www.travelandtourworld.com/news/article/or58brdqd4io",
-   "summary": "Cuba is fighting to bring Canadian holidaymakers back as empty hotel rooms, cancelled flights and shortages threaten one of its most important tourism markets. At a business forum in Mississauga, Ontario, on 13 November 2026, Cuban representatives promoted investment opportunities and urged a return of visitors. They also acknowledged the pressure of weak demand on hotels. Yet Canada's warning aga",
-   "kind": "item",
-   "source": "Travel And Tour World",
-   "source_id": "gl-travelandtourworld",
-   "tier": 3,
-   "country": "GLOBAL",
-   "category": "trade",
-   "segments": [
-    "city",
-    "bush",
-    "beach"
-   ],
-   "first_seen": "2026-11-18T06:23+03:00",
+   "first_seen": "2026-11-18T14:50+03:00",
    "published": "2026-11-18",
    "verdict": "CONSIDER"
   },
   {
-   "score": 86.1,
-   "components": {
-    "tier": 20,
-    "category": 4,
-    "lead": 0.0,
-    "relevance": 24,
-    "freshness": 10.1,
-    "corroborated": 10,
-    "shock": 18
-   },
-   "keywords": [
-    "outbreak",
-    "terror"
-   ],
-   "shock_terms": [
-    "outbreak"
-   ],
-   "dedupe_match": null,
-   "dedupe_similarity": 0.2,
-   "id": "e6b2fa78dcc7",
-   "title": "EAC Defence Experts Meet in Uganda to Address Regional Security Threats",
-   "url": "https://softpower.ug/eac-defence-experts-meet-in-uganda-to-address-regional-security-threats",
-   "summary": "KAMPALA \u2014 Uganda Peoples\u2019 Defence Forces (UPDF) Chief of Joint Staff Lieutenant General Jack Bakasumba has called on East African Community (EAC) member states to strengthen cooperation in addressing shared security threats, including terrorism, border insecurity, cybercrime and disease outbreaks. Bakasumba said the threats facing the region could not be effectively addressed by individual countri",
-   "kind": "item",
-   "source": "SoftPower News \u2014 Tourism & Travel (Uganda)",
-   "source_id": "ug-softpower-tourism",
-   "tier": 2,
-   "country": "UG",
-   "category": "press",
-   "segments": [
-    "bush",
-    "city"
-   ],
-   "first_seen": "2026-11-17T21:37+03:00",
-   "published": "2026-11-17",
-   "verdict": "CONSIDER"
-  },
-  {
-   "score": 84.2,
-   "components": {
-    "tier": 20,
-    "category": 14,
-    "lead": 8.4,
-    "relevance": 12,
-    "freshness": 19.8,
-    "corroborated": 10
-   },
-   "keywords": [
-    "route",
-    "flight"
-   ],
-   "shock_terms": [],
-   "dedupe_match": null,
-   "dedupe_similarity": 0.14,
-   "id": "cc0bb808f25a",
-   "title": "Royal Jordanian Moves Belgrade Service Launch to 4Q27",
-   "url": "https://www.aeroroutes.com/eng/261117-rj4q27beg",
-   "summary": "Published at 1800PCT 17NOV26 / 0100GMT 18NOV26 Royal Jordanian in recent schedule update once again revised planned Amman \u2013 Belgrade service. The Oneworld member now intends to launch this route in the fourth quarter of 2027, 6 months later than planned. The schedule filing currently lists 2 weekly flights from 27OCT27, with Embraer E190-E2 aircraft. RJ145 AMM1055 \u2013 1310BEG 290 36 RJ146 BEG1410 \u2013 ",
-   "kind": "item",
-   "source": "AeroRoutes schedule filings",
-   "source_id": "aeroroutes",
-   "tier": 2,
-   "country": "GLOBAL",
-   "category": "aviation-tracker",
-   "segments": [
-    "city",
-    "bush",
-    "beach"
-   ],
-   "first_seen": "2026-11-18T06:23+03:00",
-   "published": "2026-11-18",
-   "verdict": "CONSIDER"
-  },
-  {
-   "score": 84.2,
-   "components": {
-    "tier": 20,
-    "category": 14,
-    "lead": 8.4,
-    "relevance": 12,
-    "freshness": 19.8,
-    "corroborated": 10
-   },
-   "keywords": [
-    "charter",
-    "flight"
-   ],
-   "shock_terms": [],
-   "dedupe_match": null,
-   "dedupe_similarity": 0.17,
-   "id": "3bb8a8aa755a",
-   "title": "Royal Jordanian Nov 2026 Amman City \u2013 Manchester One-Time Charter",
-   "url": "https://www.aeroroutes.com/eng/261117-rjnov26man",
-   "summary": "Published at 1701PCT 17NOV26 / 0001GMT 18NOV26 Royal Jordanian in late-November 2026 schedules one-time Amman City \u2013 Manchester charter flight, on board Airbus A320neo aircraft. Planned operation as follows. RJ6115 ADJ2330 \u2013 0230+1MAN 32N 21NOV26 RJ6116 MAN0330 \u2013 1200AMM 32N 22NOV26",
-   "kind": "item",
-   "source": "AeroRoutes schedule filings",
-   "source_id": "aeroroutes",
-   "tier": 2,
-   "country": "GLOBAL",
-   "category": "aviation-tracker",
-   "segments": [
-    "city",
-    "bush",
-    "beach"
-   ],
-   "first_seen": "2026-11-18T06:23+03:00",
-   "published": "2026-11-18",
-   "verdict": "CONSIDER"
-  },
-  {
-   "score": 84.1,
-   "components": {
-    "tier": 40,
-    "category": 17,
-    "lead": 16.8,
-    "relevance": 4,
-    "freshness": 12.3,
-    "undated": -6
-   },
-   "keywords": [
-    "conference"
-   ],
-   "shock_terms": [],
-   "dedupe_match": null,
-   "dedupe_similarity": 0.0,
-   "id": "73b09a3fde0f",
-   "title": "INSPIRES project session at the annual ECTN Conference 2026",
-   "url": "https://transition-pathways.europa.eu/tourism/events/inspires-project-session-annual-ectn-conference-2026",
-   "summary": "",
-   "kind": "item",
-   "source": "EU Tourism Transition Pathway \u2014 legislation & guidance",
-   "source_id": "eu-tourism-pathway",
-   "tier": 1,
-   "country": "REG",
-   "category": "regulator",
-   "segments": [
-    "bush",
-    "beach",
-    "city"
-   ],
-   "first_seen": "2026-11-17T23:33+03:00",
-   "published": null,
-   "verdict": "CONSIDER"
-  },
-  {
-   "score": 82.5,
-   "components": {
-    "tier": 20,
-    "category": 14,
-    "lead": 8.4,
-    "relevance": 20,
-    "freshness": 10.1,
-    "corroborated": 10
-   },
-   "keywords": [
-    "seat",
-    "airline",
-    "flight",
-    "franc"
-   ],
-   "shock_terms": [],
-   "dedupe_match": null,
-   "dedupe_similarity": 0.12,
-   "id": "ff27ba5dbdb0",
-   "title": "Alaska Adds Philippine Airlines Trans-Pac Codeshare From Dec 2026",
-   "url": "https://www.aeroroutes.com/eng/261117-asprcodeshare",
-   "summary": "Published at 0400PCT / 1100GMT 17NOV26 Alaska Airlines from December 2026 plans to expand codeshare partnership with Philippine Airlines, as AS-coded flight numbers to appear on selected Philippine Airlines\u2019 Trans-Pacific service. Following codeshare flights scheduled will commence on 01DEC26. Alaska Airlines operated by Philippine Airlines Manila \u2013 Honolulu Manila \u2013 Los Angeles Manila \u2013 San Franc",
-   "kind": "item",
-   "source": "AeroRoutes schedule filings",
-   "source_id": "aeroroutes",
-   "tier": 2,
-   "country": "GLOBAL",
-   "category": "aviation-tracker",
-   "segments": [
-    "city",
-    "bush",
-    "beach"
-   ],
-   "first_seen": "2026-11-17T21:36+03:00",
-   "published": "2026-11-17",
-   "verdict": "CONSIDER"
-  },
-  {
-   "score": 80.7,
-   "components": {
-    "tier": 40,
-    "category": 15,
-    "lead": 16.8,
-    "relevance": 0,
-    "freshness": 14.9,
-    "undated": -6
-   },
-   "keywords": [],
-   "shock_terms": [],
-   "dedupe_match": null,
-   "dedupe_similarity": 0.0,
-   "id": "9490d6fc7ef6",
-   "title": "TEMPLATE FOR SUBMITTING COMMENTS - JUDGES' RETIREMENT BENEFITS REGULATIONS, 2026.docx",
-   "url": "https://www.treasury.go.ke/sites/default/files/Latest%20updates/TEMPLATE%20FOR%20SUBMITTING%20COMMENTS%20-%20JUDGES%27%20RETIREMENT%20BENEFITS%20REGULATIONS%2C%202026.docx",
-   "summary": "",
-   "kind": "doc",
-   "source": "National Treasury Kenya",
-   "source_id": "ke-treasury",
-   "tier": 1,
-   "country": "KE",
-   "category": "fiscal",
-   "segments": [
-    "city",
-    "bush",
-    "beach"
-   ],
-   "first_seen": "2026-11-18T02:00+03:00",
-   "published": null,
-   "verdict": "CONSIDER"
-  },
-  {
-   "score": 80.7,
-   "components": {
-    "tier": 40,
-    "category": 15,
-    "lead": 16.8,
-    "relevance": 0,
-    "freshness": 14.9,
-    "undated": -6
-   },
-   "keywords": [],
-   "shock_terms": [],
-   "dedupe_match": null,
-   "dedupe_similarity": 0.14,
-   "id": "1d4578f0d774",
-   "title": "Public Statement on the Status of Disbursements to County Governments 2026",
-   "url": "https://www.treasury.go.ke/sites/default/files/Latest%20updates/PUBLIC%20STATEMENT%20ON%20THE%20STATUS%20OF%20DISBURSEMENTS%20TO%20COUNTY%20GOVERNMENTS%202026.pdf",
-   "summary": "",
-   "kind": "doc",
-   "source": "National Treasury Kenya",
-   "source_id": "ke-treasury",
-   "tier": 1,
-   "country": "KE",
-   "category": "fiscal",
-   "segments": [
-    "city",
-    "bush",
-    "beach"
-   ],
-   "first_seen": "2026-11-18T02:00+03:00",
-   "published": null,
-   "verdict": "CONSIDER"
-  },
-  {
-   "score": 80.7,
-   "components": {
-    "tier": 40,
-    "category": 15,
-    "lead": 16.8,
-    "relevance": 0,
-    "freshness": 14.9,
-    "undated": -6
-   },
-   "keywords": [],
-   "shock_terms": [],
-   "dedupe_match": null,
-   "dedupe_similarity": 0.0,
-   "id": "2e94442cbd50",
-   "title": "THE JUDGES RETIREMENT BENEFITS REGULATIONS, 2026",
-   "url": "https://www.treasury.go.ke/sites/default/files/Latest%20updates/JUDGES%27%20RETIREMENT%20BENEFITS%20REGULATIONS%2C%202026.pdf",
-   "summary": "E:\u00b1\u0002\u0000\b -, E\u00b0\u0003%Ead\u00b0PQXED\u001b!!Y-, E\u00b0\u0000C`D-,\u0001\u00b0\u0006C\u00b0\u0007Ce -, i\u00b0@a\u00b0\u0000\u008b \u00b1,\u00c0\u008a\u008c\u00b8\u0010\u0000b`+ d#da\\X\u00b0\u0003aY-,\u008a\u0003E\u008a\u008a\u0087\u00b0\u0011+\u00b0\u0001\u0088QX\u00b9@\u0000\u0004\u0000c\u00b8\b\u0000\u0088T\\\u001b\u00b0\u0001Y-\u00b1 \u0003AS\u0002\u00c8\u0002\u00c6\u00008\u0000 \u0002\u00c7\u0002\u00c6\u00008\u0000 \u0002\u00dd\u00008\u0002\u00da\u0000U\u0002\u00d9\u00008\u0002\u00d7\u0000U\u0002\u00d8\u00008\u0002\u00d7\u0000U\u0002\u00d6\u00008\u0002\u00d5\u0000U\u0002\u00d4\u00008\u0002\u00d3\u0000U\u0002\u00d2\u00008\u0002\u00d1\u0000U\u0002\u00bf\u00008\u0002\u00be\u0000U\u0002\u00bd\u00008\u0002\u00bc\u0000U\u0000\u0004\u0002\u00db\u00004\u0002\u00db\u0000T\u0002\u00db\u0000\u0003\u00004\u0002\u00db\u0000T\u0002\u00db\u0000d\u0002\u00db\u0000\u00a4\u0002\u00db\u0000\u00d4\u0002\u00db\u0000\u0005\u0000k\u0002\u00d5\u0000\u0001\u0000 \u0002\u00d1\u0000\u0001\u0000\u0014\u0002\u00c2\u0000D\u0002\u00c2\u0000d\u0002\u00c2\u0000t\u0002\u00c2\u0000\u0094\u0002\u00c2\u0000\u0005\u0000\u00a4\u0002\u00be\u0000\u0001\u0000\u00a4\u0002\u00bc\u0000\u0001\u0000 \u0002\u0084\u00b4 \u0018\u0001J \u00b8\u0002\u0083\u00b4 \u0018\u0001J \u00b8\u0002\u0082\u00b4 \u0018\u0001J \u00b8\u0002\u0081\u00b4 \u0018\u0001J \u00b8\u0002\u0080\u00b4 \u0018\u0001J \u00b8\u0002\u007f\u00b4 \u0018\u0001J \u00b8\u0002~\u00b4 \u0018\u0001J \u00b8\u0002}\u00b4 \u0018\u0001J \u00b8\u0002|\u00b4 \u0018\u0001J \u00b8\u0002{\u00b4 \u0018\u0001J \u00b8\u0002z\u00b4 \u0018\u0001J \u00b8\u0002y\u00b4 \u0018\u0001J \u00b8\u0002x\u00b4 \u0018\u0001J \u00b8\u0002",
-   "kind": "doc",
-   "source": "National Treasury Kenya",
-   "source_id": "ke-treasury",
-   "tier": 1,
-   "country": "KE",
-   "category": "fiscal",
-   "segments": [
-    "city",
-    "bush",
-    "beach"
-   ],
-   "first_seen": "2026-11-18T01:59+03:00",
-   "published": null,
-   "verdict": "CONSIDER"
-  },
-  {
-   "score": 80.7,
-   "components": {
-    "tier": 40,
-    "category": 15,
-    "lead": 16.8,
-    "relevance": 0,
-    "freshness": 14.9,
-    "undated": -6
-   },
-   "keywords": [],
-   "shock_terms": [],
-   "dedupe_match": null,
-   "dedupe_similarity": 0.0,
-   "id": "d70eeda0c3e4",
-   "title": "The Judges Retirement Benefits Regulations,2026",
-   "url": "https://www.treasury.go.ke/sites/default/files/Latest%20updates/PUBLIC%20NOTICE%20-%20INVITATION%20FOR%20COMMENTS%20ON%20THE%20DRAFT%20JUDGES%E2%80%99%20RETIREMENT%20BENEFITS%20REGULATIONS%2C%202026%20%282%29.pdf",
-   "summary": "GPOS\u00d0\u00c2\u0091\u00cd\u0000\u0003X\u00a8\u0000\u0001\u00a7$GSUB\u009c\u00e3 \u00e3\u0000\u0004\u00ff\u00cc\u0000\u0000l\u00eaJSTFm*i\u0006\u0000\u0005l\u00b8\u0000\u0000\u0000 LTSH\u009c%b\u00ab\u0000\u0000A\u00d4\u0000\u0000\u0011POS/2\u0017oS~\u0000\u0000\u0002\u0018\u0000\u0000\u0000`PCLTY\u00d3\u0081\u00e3\u0000\u0003UH\u0000\u0000\u00006VDMXN#h\u0082\u0000\u0000S$\u0000\u0000\u0011\u0094cmap\u00c3L0\u00dc\u0000\u0002\u0004@\u0000\u0000\u0003\u0002cvt d\u0002\u00d7\u0000\u0002!4\u0000\u0000\u0010\u0084fpgmmY\u001bS\u0000\u0002\u0007D\u0000\u0000 Ygasp\u0000\u0019\u0000!\u0000\u0003U8\u0000\u0000\u0000\u0010glyfq\u00e1\u00a7\u00d9\u0000\u00021\u00b8\u0000\u0000\u00d4\u00fchdmx\u00ad\u009c\u00c51\u0000\u0000d\u00b8\u0000\u0001\u009f\u0088head\u00e9R\u009ce\u0000\u0000\u0001\u009c\u0000\u0000\u00006hhea\u0013M\u0016z\u0000\u0000\u0001\u00d4\u0000\u0000\u0000$hmtx5\u00c9\u001a\u00f4\u0000\u0000\u0002x\u0000\u0000?\\kern\u00fd\u00be\u0001\u0013\u0000\u0003\u0000$\u00ff\u00f6\u0000\u00ff\u00f5\u0000-\u0000\u0000$\u00ff\u00f6\u0000\u00ff\u00f5\u0000-\u0000\u0000$\u00ff\u00f6\u0000\u00ff\u00f5\u0000-\u0000\u001a\u0019\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000 \u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000",
-   "kind": "doc",
-   "source": "National Treasury Kenya",
-   "source_id": "ke-treasury",
-   "tier": 1,
-   "country": "KE",
-   "category": "fiscal",
-   "segments": [
-    "city",
-    "bush",
-    "beach"
-   ],
-   "first_seen": "2026-11-18T01:59+03:00",
-   "published": null,
-   "verdict": "CONSIDER"
-  },
-  {
-   "score": 80.7,
-   "components": {
-    "tier": 40,
-    "category": 15,
-    "lead": 16.8,
-    "relevance": 0,
-    "freshness": 14.9,
-    "undated": -6
-   },
-   "keywords": [],
-   "shock_terms": [],
-   "dedupe_match": null,
-   "dedupe_similarity": 0.14,
-   "id": "ac6926156615",
-   "title": "TRA APPLAUDED FOR ENHANCING AND FACILITATING TRADE BETWEEN TANZANIA MAINLAND AND ZANZIBAR",
-   "url": "https://www.tra.go.tz/news/tra-recognised-for-enhancing-and-facilitating-trade-between-tanzania-mainland-and-zanzibar",
-   "summary": "",
-   "kind": "item",
-   "source": "Tanzania Revenue Authority",
-   "source_id": "tz-tra",
-   "tier": 1,
-   "country": "TZ",
-   "category": "fiscal",
-   "segments": [
-    "city",
-    "bush",
-    "beach"
-   ],
-   "first_seen": "2026-11-18T01:59+03:00",
-   "published": null,
-   "verdict": "CONSIDER"
-  },
-  {
-   "score": 80.7,
-   "components": {
-    "tier": 40,
-    "category": 15,
-    "lead": 16.8,
-    "relevance": 0,
-    "freshness": 14.9,
-    "undated": -6
-   },
-   "keywords": [],
-   "shock_terms": [],
-   "dedupe_match": null,
-   "dedupe_similarity": 0.3,
-   "id": "843fec734d05",
-   "title": "2027 BUDGET POLICY STATEMENT",
-   "url": "https://www.treasury.go.ke/sites/default/files/Latest%20updates/2027%20Budget%20Policy%20Statement.pdf",
-   "summary": "en-GB en-GB en-GB en-GB en-GB en-GB en-GB en-GB en-GB en-GB en-GBREPUBLIC OF KENYA en-GB en-GBTHE NATIONAL TREASURY en-GB en-GB en-GB en-GB en-GB en-GB en-GBMEDIUM TERM en-GB en-GB2027 BUDGET POLICY en-GBSTATEMENT en-GB en-GB en-GB en-GB en-GB en-GB en-GBSECURING THE GAINS OF THE BOTTOM-UP ECONOMIC TRANSFORMATION AGENDA FOR RESILIENT AND BROAD-BASED GROWTH en-GB en-GB en-GB en-GB en-GB en-GB en-GB",
-   "kind": "doc",
-   "source": "National Treasury Kenya",
-   "source_id": "ke-treasury",
-   "tier": 1,
-   "country": "KE",
-   "category": "fiscal",
-   "segments": [
-    "city",
-    "bush",
-    "beach"
-   ],
-   "first_seen": "2026-11-18T01:59+03:00",
-   "published": null,
-   "verdict": "CONSIDER"
-  },
-  {
-   "score": 80.2,
+   "score": 79.9,
    "components": {
     "tier": 20,
     "category": 14,
     "lead": 8.4,
     "relevance": 8,
-    "freshness": 19.8,
+    "freshness": 19.5,
     "corroborated": 10
    },
    "keywords": [
@@ -990,10 +402,10 @@
    "shock_terms": [],
    "dedupe_match": null,
    "dedupe_similarity": 0.14,
-   "id": "2c665f002bb7",
-   "title": "Centrum Air NW26 Russia Network Additions",
-   "url": "https://www.aeroroutes.com/eng/261117-c6nw26ru",
-   "summary": "Published at 2000PCT 17NOV26 / 0300GMT 18NOV26 Uzbekistan\u2019s Centrum Air in Northern winter 2026/27 season is adding 4 routes to Russia, scheduled between December 2026 and January 2027. Planned network additions as follows. Samarkand \u2013 Mineralnye Vody eff 20JAN27 1 weekly A320 Samarkand \u2013 St. Petersburg eff 14JAN27 1 weekly A320 Tashkent \u2013 Chelyabinsk eff 04DEC26 2 weekly A320/320neo Tashkent \u2013 Ty",
+   "id": "80a9bfd264e3",
+   "title": "Air Cairo NS27 Europe Network Expansion",
+   "url": "https://www.aeroroutes.com/eng/261118-smns27eu",
+   "summary": "Published at 0400PCT / 1100GMT 18NOV26 Air Cairo during Northern summer 2027 season plans to expand service to Europe, with the addition of 6 routes. Planned network additions as follows. Cairo \u2013 Brussels eff 04JUN27 1 weekly A320 Cairo \u2013 Hannover eff 28MAR27 3 weekly A320 Hurghada \u2013 Brussels eff 03JUN27 2 weekly A320 Hurghada \u2013 Copenhagen eff 29MAR27 2 weekly A320 Hurghada \u2013 Graz eff 01APR27 1 we",
    "kind": "item",
    "source": "AeroRoutes schedule filings",
    "source_id": "aeroroutes",
@@ -1005,18 +417,54 @@
     "bush",
     "beach"
    ],
-   "first_seen": "2026-11-18T06:23+03:00",
+   "first_seen": "2026-11-18T14:51+03:00",
    "published": "2026-11-18",
    "verdict": "CONSIDER"
   },
   {
-   "score": 80.2,
+   "score": 79.9,
    "components": {
     "tier": 20,
     "category": 14,
     "lead": 8.4,
     "relevance": 8,
-    "freshness": 19.8,
+    "freshness": 19.5,
+    "corroborated": 10
+   },
+   "keywords": [
+    "airline",
+    "flight"
+   ],
+   "shock_terms": [],
+   "dedupe_match": null,
+   "dedupe_similarity": 0.12,
+   "id": "40441f8b3a39",
+   "title": "Eurowings Dec 2026 One-Time Rabat \u2013 Berlin Flight",
+   "url": "https://www.aeroroutes.com/eng/261118-ewdec26rba",
+   "summary": "Published at 0100PCT / 0800GMT 18NOV26 Eurowings in early-December 2026 lists one-time schedule from Rabat to Berlin , on board Airbus A320neo aircraft. The airline schedules the one-time flight on 05DEC26. EW5243 RBA1500 \u2013 1955BER 32N 05DEC26",
+   "kind": "item",
+   "source": "AeroRoutes schedule filings",
+   "source_id": "aeroroutes",
+   "tier": 2,
+   "country": "GLOBAL",
+   "category": "aviation-tracker",
+   "segments": [
+    "city",
+    "bush",
+    "beach"
+   ],
+   "first_seen": "2026-11-18T14:51+03:00",
+   "published": "2026-11-18",
+   "verdict": "CONSIDER"
+  },
+  {
+   "score": 79.9,
+   "components": {
+    "tier": 20,
+    "category": 14,
+    "lead": 8.4,
+    "relevance": 8,
+    "freshness": 19.5,
     "corroborated": 10
    },
    "keywords": [
@@ -1025,10 +473,10 @@
    "shock_terms": [],
    "dedupe_match": null,
    "dedupe_similarity": 0.12,
-   "id": "599dabdd3375",
-   "title": "FlyCham Adds Damascus \u2013 Dusseldorf in Dec 2026",
-   "url": "https://www.aeroroutes.com/eng/261117-xhdec26dus",
-   "summary": "Published at 1600PCT / 2300GMT 17NOV26 Syrian carrier FlyCham from December 2026 plans to launch service to Germany, with Damascus \u2013 Dusseldorf inaugural scheduled on 04DEC26. Airbus A320 aircraft to serve this route twice weekly. XH161 DAM1100 \u2013 1415DUS 320 25 XH162 DUS1530 \u2013 2245DAM 320 25",
+   "id": "d497c2ab22e6",
+   "title": "China Eastern Adds Fuzhou \u2013 Singapore From Dec 2026",
+   "url": "https://www.aeroroutes.com/eng/261117-mudec26focsin",
+   "summary": "Published at 2300PCT 17NOV26 / 0600GMT 18NOV26 China Eastern from December 2026 plans to add new route to Singapore, with the launch of 3 weekly Fuzhou \u2013 Singapore route. Airbus A320neo to serve this route 3 times weekly from 12DEC26. MU6055 FOC0830 \u2013 1310SIN 32N 246 MU6056 SIN1410 \u2013 1840FOC 32N 246",
    "kind": "item",
    "source": "AeroRoutes schedule filings",
    "source_id": "aeroroutes",
@@ -1040,54 +488,18 @@
     "bush",
     "beach"
    ],
-   "first_seen": "2026-11-18T06:23+03:00",
+   "first_seen": "2026-11-18T14:51+03:00",
    "published": "2026-11-18",
    "verdict": "CONSIDER"
   },
   {
-   "score": 80.1,
-   "components": {
-    "tier": 40,
-    "category": 9,
-    "lead": 16.8,
-    "relevance": 8,
-    "freshness": 12.3,
-    "undated": -6
-   },
-   "keywords": [
-    "hotel",
-    "resort"
-   ],
-   "shock_terms": [],
-   "dedupe_match": null,
-   "dedupe_similarity": 0.12,
-   "id": "b5c33a1d983a",
-   "title": "IHG Hotels & Resorts' Cyber Sale Returns: Save Up to 30% on Hotel Stays Worldwide",
-   "url": "https://www.ihgplc.com/en/news-and-media/news-releases/2026/ihg-hotels-and-resorts-cyber-sale-returns-save-up-to-30-percent-on-hotel-stays-worldwide",
-   "summary": "",
-   "kind": "item",
-   "source": "IHG news",
-   "source_id": "dev-ihg",
-   "tier": 1,
-   "country": "GLOBAL",
-   "category": "hotel-group",
-   "segments": [
-    "city",
-    "bush",
-    "beach"
-   ],
-   "first_seen": "2026-11-17T23:33+03:00",
-   "published": null,
-   "verdict": "CONSIDER"
-  },
-  {
-   "score": 79.8,
+   "score": 79.5,
    "components": {
     "tier": 20,
     "category": 4,
     "lead": 0.0,
     "relevance": 24,
-    "freshness": 19.8,
+    "freshness": 19.5,
     "undated": -6,
     "shock": 18
    },
@@ -1100,8 +512,8 @@
    ],
    "dedupe_match": null,
    "dedupe_similarity": 0.12,
-   "id": "d7597deff99a",
-   "title": "Africa Congo's Ebola outbreak is spreading and killing at a record pace 16 hours ago - 2 min read",
+   "id": "26e6ad332e0e",
+   "title": "Africa Congo's Ebola outbreak is spreading and killing at a record pace Yesterday - 2 min read",
    "url": "https://www.thecitizen.co.tz/tanzania/news/africa/congo-s-ebola-outbreak-is-spreading-and-killing-at-a-record-pace-5673836",
    "summary": "",
    "kind": "item",
@@ -1115,251 +527,221 @@
     "bush",
     "beach"
    ],
-   "first_seen": "2026-11-18T06:23+03:00",
+   "first_seen": "2026-11-18T14:51+03:00",
    "published": null,
    "verdict": "CONSIDER"
   },
   {
-   "score": 79.3,
+   "score": 79.5,
    "components": {
     "tier": 20,
-    "category": 14,
-    "lead": 8.4,
-    "relevance": 12,
-    "freshness": 14.9,
-    "corroborated": 10
+    "category": 4,
+    "lead": 0.0,
+    "relevance": 24,
+    "freshness": 19.5,
+    "undated": -6,
+    "shock": 18
    },
    "keywords": [
-    "route",
-    "airline"
+    "outbreak",
+    "ebola"
    ],
-   "shock_terms": [],
+   "shock_terms": [
+    "outbreak"
+   ],
    "dedupe_match": null,
-   "dedupe_similarity": 0.17,
-   "id": "3b50cf178503",
-   "title": "Air China Begins Brussels Airlines Codeshare From Nov 2026",
-   "url": "https://www.aeroroutes.com/eng/261117-casncodeshare",
-   "summary": "Published at 1400PCT / 2100GMT 17NOV26 Air China earlier this month launched codeshare partnership with Brussels Airlines, covering various service beyond Brussels. Following codeshare routes went into effect since mid-November 2026. Air China operated by Brussels Airlines Brussels \u2013 Abidjan Brussels \u2013 Accra Brussels \u2013 Accra \u2013 Cotonou Brussels \u2013 Barcelona Brussels \u2013 Bilbao Brussels \u2013 Bologna Bruss",
+   "dedupe_similarity": 0.25,
+   "id": "60f4ced5784c",
+   "title": "Africa Africa CDC says Ebola outbreak still out of control six months since it was declared Nov 16 - 2 min read",
+   "url": "https://www.thecitizen.co.tz/tanzania/news/africa/africa-cdc-says-ebola-outbreak-still-out-of-control-six-months-since-it-was-declared-5672458",
+   "summary": "",
    "kind": "item",
-   "source": "AeroRoutes schedule filings",
-   "source_id": "aeroroutes",
+   "source": "The Citizen (Tanzania)",
+   "source_id": "np-citizen-tz",
    "tier": 2,
-   "country": "GLOBAL",
-   "category": "aviation-tracker",
+   "country": "TZ",
+   "category": "press",
    "segments": [
     "city",
     "bush",
     "beach"
    ],
-   "first_seen": "2026-11-18T02:00+03:00",
-   "published": "2026-11-18",
+   "first_seen": "2026-11-18T14:51+03:00",
+   "published": null,
    "verdict": "CONSIDER"
   },
   {
-   "score": 79.3,
+   "score": 75.7,
    "components": {
     "tier": 20,
-    "category": 14,
-    "lead": 8.4,
-    "relevance": 12,
-    "freshness": 14.9,
+    "category": 5,
+    "lead": 1.2,
+    "relevance": 20,
+    "freshness": 19.5,
     "corroborated": 10
    },
    "keywords": [
+    "arrivals",
     "seat",
     "airline"
    ],
    "shock_terms": [],
    "dedupe_match": null,
-   "dedupe_similarity": 0.14,
-   "id": "959ac1be2485",
-   "title": "SAS NS27 Intercontinental Service Changes \u2013 15NOV26",
-   "url": "https://www.aeroroutes.com/eng/261117-skns27inc",
-   "summary": "Published at 1200PCT / 1900GMT 17NOV26 SAS last week filed intercontinental network changes for Northern summer 2027 season, reflecting the airline\u2019s announcement. As of 15NOV26, planned changes include the following. Copenhagen \u2013 Atlanta eff 13MAY27 A330-300 replaces A350-900 eff 13MAY27 Increase from 5 to 6 weekly (1 daily from 21MAY27) Copenhagen \u2013 Chicago O'Hare eff 12MAY27 A3350-900 operates ",
-   "kind": "item",
-   "source": "AeroRoutes schedule filings",
-   "source_id": "aeroroutes",
-   "tier": 2,
-   "country": "GLOBAL",
-   "category": "aviation-tracker",
-   "segments": [
-    "city",
-    "bush",
-    "beach"
-   ],
-   "first_seen": "2026-11-18T02:00+03:00",
-   "published": "2026-11-17",
-   "verdict": "CONSIDER"
-  },
-  {
-   "score": 78.5,
-   "components": {
-    "tier": 20,
-    "category": 14,
-    "lead": 8.4,
-    "relevance": 16,
-    "freshness": 10.1,
-    "corroborated": 10
-   },
-   "keywords": [
-    "vat",
-    "route"
-   ],
-   "shock_terms": [],
-   "dedupe_match": null,
-   "dedupe_similarity": 0.14,
-   "id": "51a12a22ffef",
-   "title": "Parata Air Plans Seoul \u2013 Los Angeles May 2027 Debut",
-   "url": "https://www.aeroroutes.com/eng/261117-wens27us",
-   "summary": "Published at 1000PCT / 1700GMT 17NOV26 Korean carrier Parata Air on Tuesday (17NOV26) opened reservations for Seoul Incheon \u2013 Los Angeles route, its first nonstop US service. The carrier plans to serve this route on daily basis with Airbus A330-200 aircraft, effective 01MAY27. WE301 ICN1200 \u2013 0720LAX 332 D WE302 LAX0950 \u2013 1520+1ICN 332 D",
-   "kind": "item",
-   "source": "AeroRoutes schedule filings",
-   "source_id": "aeroroutes",
-   "tier": 2,
-   "country": "GLOBAL",
-   "category": "aviation-tracker",
-   "segments": [
-    "city",
-    "bush",
-    "beach"
-   ],
-   "first_seen": "2026-11-17T21:36+03:00",
-   "published": "2026-11-17",
-   "verdict": "CONSIDER"
-  },
-  {
-   "score": 78.5,
-   "components": {
-    "tier": 20,
-    "category": 14,
-    "lead": 8.4,
-    "relevance": 16,
-    "freshness": 10.1,
-    "corroborated": 10
-   },
-   "keywords": [
-    "route",
-    "airline",
-    "flight"
-   ],
-   "shock_terms": [],
-   "dedupe_match": null,
    "dedupe_similarity": 0.12,
-   "id": "69e483851912",
-   "title": "Hainan Airlines Adds Haikou \u2013 Phnom Penh From Dec 2026",
-   "url": "https://www.aeroroutes.com/eng/261117-hudec26kti",
-   "summary": "Published at 0800PCT / 1500GMT 17NOV26 Hainan Airlines from December 2026 schedules additional service to Cambodia, as the carrier plans 3 weekly Haikou \u2013 Phnom Penh Krong Ta Khmau flights. 737-800 aircraft to serve this route from 12DEC26. HU457 HAK1350 \u2013 1500KTI 73H 246 HU458 KTI1605 \u2013 1920HAK 73H 246",
+   "id": "f68fe4545c95",
+   "title": "Airlines Race to Keep Up With Vietnam\u2019s Indian Travel Boom",
+   "url": "https://skift.com/2026/11/17/airlines-race-to-keep-up-with-vietnams-indian-travel-boom",
+   "summary": "Indian arrivals to Vietnam are growing more than twice as fast as the overall market, and Vietnamese carriers are chasing that demand into cities like Ahmedabad. Seats alone won\u2019t lock it in, though. Vietnam still needs the food, guides, and wedding and events products Indian travelers expect.",
    "kind": "item",
-   "source": "AeroRoutes schedule filings",
-   "source_id": "aeroroutes",
+   "source": "Skift",
+   "source_id": "tp-skift",
    "tier": 2,
    "country": "GLOBAL",
-   "category": "aviation-tracker",
+   "category": "trade",
    "segments": [
     "city",
     "bush",
     "beach"
    ],
-   "first_seen": "2026-11-17T21:36+03:00",
-   "published": "2026-11-17",
-   "verdict": "CONSIDER"
-  },
-  {
-   "score": 78.5,
-   "components": {
-    "tier": 20,
-    "category": 14,
-    "lead": 8.4,
-    "relevance": 16,
-    "freshness": 10.1,
-    "corroborated": 10
-   },
-   "keywords": [
-    "route",
-    "airline",
-    "flight"
-   ],
-   "shock_terms": [],
-   "dedupe_match": null,
-   "dedupe_similarity": 0.14,
-   "id": "4cf4123405ed",
-   "title": "China Southern Adds Guangzhou \u2013 Langkawi in 1Q27",
-   "url": "https://www.aeroroutes.com/eng/261117-cz1q27lgk",
-   "summary": "Published at 0600PCT / 1300GMT 17NOV26 China Southern in the first quarter of 2027 plans to launch Guangzhou \u2013 Langkawi route, on board Airbus A321neo. The airline operates 3 weekly flights from 22JAN27 to 21FEB27. CZ5025 CAN0300 \u2013 0710LGK 32Q 357 CZ5026 LGK0815 \u2013 1215CAN 32Q 357",
-   "kind": "item",
-   "source": "AeroRoutes schedule filings",
-   "source_id": "aeroroutes",
-   "tier": 2,
-   "country": "GLOBAL",
-   "category": "aviation-tracker",
-   "segments": [
-    "city",
-    "bush",
-    "beach"
-   ],
-   "first_seen": "2026-11-17T21:36+03:00",
-   "published": "2026-11-17",
-   "verdict": "CONSIDER"
-  },
-  {
-   "score": 77.1,
-   "components": {
-    "tier": 40,
-    "category": 5,
-    "lead": 12.0,
-    "relevance": 0,
-    "freshness": 10.1,
-    "corroborated": 10
-   },
-   "keywords": [],
-   "shock_terms": [],
-   "dedupe_match": null,
-   "dedupe_similarity": 0.33,
-   "id": "9ec9f868cb89",
-   "title": "Order Paper For Wednesday, 18th November 2026 -Joint Sitting Of Parliament",
-   "url": "https://www.parliament.go.ke/sites/default/files/2026-11/ORDER%20PAPER%20FOR%20WEDNESDAY%2C%2018TH%20NOVEMBER%202026%20-%20-%20JOINT%20SITTING%20OF%20PARLIAMENT.pdf",
-   "summary": "Thirteenth Parliament Fifth Session (No. S.S./05) (01) REPUBLIC OF KENYA THIRTEENTH PARLIAMENT - (FIFTH SESSION) SPECIAL SITTING OF PARLIAMENT ORDERS OF THE DAY WEDNESDAY, NOVEMBER 18, 2026 AT 2.30 PM 1.!PRAYER By the Speaker of the Senate. 2.!CONVOCATION (i)!By the Speaker of the Senate. (ii)!By the Speaker of the National Assembly. (iii)!The Speaker of the National Assembly invites His Excellenc",
-   "kind": "doc",
-   "source": "Senate Committee on Delegated Legislation (Kenya) \u2014 the committee that annuls or accedes to statutory instruments",
-   "source_id": "ke-senate-delegated-legislation",
-   "tier": 1,
-   "country": "KE",
-   "category": "REG",
-   "segments": [
-    "city",
-    "bush",
-    "beach"
-   ],
-   "first_seen": "2026-11-17T21:35+03:00",
+   "first_seen": "2026-11-18T14:51+03:00",
    "published": "2026-11-18",
    "verdict": "CONSIDER"
   },
   {
-   "score": 76.5,
+   "score": 74.1,
+   "components": {
+    "tier": 20,
+    "category": 5,
+    "lead": 3.6,
+    "relevance": 16,
+    "freshness": 19.5,
+    "corroborated": 10
+   },
+   "keywords": [
+    "vat",
+    "resort",
+    "beach"
+   ],
+   "shock_terms": [],
+   "dedupe_match": null,
+   "dedupe_similarity": 0.0,
+   "id": "56459f84ea16",
+   "title": "John Trovato of Signia by Hilton Diplomat Beach Resort on Rebuilding Trust, Destination Dining, and Running a 1,000-Room Group House",
+   "url": "https://www.hospitalitynet.org/podcast/4135449/john-trovato-of-signia-by-hilton-diplomat-beach-resort-on-rebuilding-trust-destination-dining-and-running-a-1000-room-group-house",
+   "summary": "Signia by Hilton Diplomat MD John Trovato on restoring trust after closure and rebrand, expanding from 2 to 6 restaurants, and why 700 long-tenured staff are the resort's sharpest competitive edge.",
+   "kind": "item",
+   "source": "Hospitality Net \u2014 Africa announcements",
+   "source_id": "dev-hospitalitynet-africa",
+   "tier": 2,
+   "country": "REG",
+   "category": "trade",
+   "segments": [
+    "city",
+    "bush",
+    "beach"
+   ],
+   "first_seen": "2026-11-18T14:51+03:00",
+   "published": "2026-11-18",
+   "verdict": "CONSIDER"
+  },
+  {
+   "score": 74.1,
+   "components": {
+    "tier": 20,
+    "category": 5,
+    "lead": 3.6,
+    "relevance": 16,
+    "freshness": 19.5,
+    "corroborated": 10
+   },
+   "keywords": [
+    "visa",
+    "hotel",
+    "guest"
+   ],
+   "shock_terms": [],
+   "dedupe_match": null,
+   "dedupe_similarity": 0.12,
+   "id": "78760b09b585",
+   "title": "Who pays when an AI agent books the wrong rate? Visa says the guest. Citi says the AI company.",
+   "url": "https://www.hospitalitynet.org/opinion/4135539/who-pays-when-an-ai-agent-books-the-wrong-rate-visa-says-the-guest-citi-says-the-ai-company",
+   "summary": "Visa, Citi, Amex, and AI companies each give different answers on who bears liability when an AI agent books the wrong hotel rate, leaving hotels exposed until card networks settle the rules.",
+   "kind": "item",
+   "source": "Hospitality Net \u2014 Africa announcements",
+   "source_id": "dev-hospitalitynet-africa",
+   "tier": 2,
+   "country": "REG",
+   "category": "trade",
+   "segments": [
+    "city",
+    "bush",
+    "beach"
+   ],
+   "first_seen": "2026-11-18T14:51+03:00",
+   "published": "2026-11-18",
+   "verdict": "CONSIDER"
+  },
+  {
+   "score": 74.1,
+   "components": {
+    "tier": 20,
+    "category": 5,
+    "lead": 3.6,
+    "relevance": 16,
+    "freshness": 19.5,
+    "corroborated": 10
+   },
+   "keywords": [
+    "revpar",
+    "hotel",
+    "rooms"
+   ],
+   "shock_terms": [],
+   "dedupe_match": null,
+   "dedupe_similarity": 0.12,
+   "id": "12cb8c3259c7",
+   "title": "Why Spain's Record RevPAR Is Masking a Commercial Absorption Crisis",
+   "url": "https://www.hospitalitynet.org/opinion/4135391/why-spains-record-revpar-is-masking-a-commercial-absorption-crisis",
+   "summary": "Spain's record hotel metrics hide a looming supply pressure, with 270 new properties and 30,000 rooms entering by 2028, prompting calls to adopt Net RevPAR, TRevPAR and competitive supply audits.",
+   "kind": "item",
+   "source": "Hospitality Net \u2014 Africa announcements",
+   "source_id": "dev-hospitalitynet-africa",
+   "tier": 2,
+   "country": "REG",
+   "category": "trade",
+   "segments": [
+    "city",
+    "bush",
+    "beach"
+   ],
+   "first_seen": "2026-11-18T14:51+03:00",
+   "published": "2026-11-18",
+   "verdict": "CONSIDER"
+  },
+  {
+   "score": 73.9,
    "components": {
     "tier": 5,
     "category": 5,
     "lead": 2.4,
-    "relevance": 44,
-    "freshness": 10.1,
+    "relevance": 32,
+    "freshness": 19.5,
     "corroborated": 10
    },
    "keywords": [
     "cancel",
-    "adr",
-    "airport",
-    "airline",
-    "flight",
-    "franc",
+    "route",
+    "tourism",
+    "operator",
     "passenger"
    ],
    "shock_terms": [],
    "dedupe_match": null,
-   "dedupe_similarity": 0.17,
-   "id": "83007bbef20b",
-   "title": "Europe Faces Travel Disruptions As London and Others Delay 1,631 And Cancel 70 Flights",
-   "url": "https://www.travelandtourworld.com/news/article/fngdeg5wnwws",
-   "summary": "Photo: Fraport AG Flight disruptions affected air travel across Europe on November 17, 2026, with 1,631 delays and 70 cancellations recorded across 14 major airports. Several major airlines, including British Airways , KLM , and Turkish Airlines , experienced operational interruptions, while airports in the UK , the Netherlands , Spain , Germany , and France also reported delays. London Heathrow ,",
+   "dedupe_similarity": 0.0,
+   "id": "d24da9529697",
+   "title": "Europe Cruise Crisis Continues as Low Water Hits Holiday Travel in Germany and Beyond",
+   "url": "https://www.travelandtourworld.com/news/article/ygds5tqpleea",
+   "summary": "Europe's river cruise crisis continues as low water levels hit holiday travel in Germany and beyond, disrupting navigation along the Rhine, Danube and Elbe rivers. Prolonged dry conditions and falling river levels have created operational challenges for cruise operators across Germany, Austria, Hungary, Slovakia and the Czech Republic, threatening Christmas market itineraries, festive excursions a",
    "kind": "item",
    "source": "Travel And Tour World",
    "source_id": "gl-travelandtourworld",
@@ -1371,44 +753,704 @@
     "bush",
     "beach"
    ],
-   "first_seen": "2026-11-17T21:37+03:00",
-   "published": "2026-11-17",
+   "first_seen": "2026-11-18T14:51+03:00",
+   "published": "2026-11-18",
    "verdict": "CONSIDER"
   },
   {
-   "score": 76.2,
+   "score": 73.9,
    "components": {
-    "tier": 20,
-    "category": 14,
-    "lead": 8.4,
-    "relevance": 4,
-    "freshness": 19.8,
+    "tier": 5,
+    "category": 5,
+    "lead": 2.4,
+    "relevance": 32,
+    "freshness": 19.5,
     "corroborated": 10
    },
    "keywords": [
-    "flight"
+    "arrivals",
+    "airport",
+    "tourism",
+    "tourist",
+    "traffic",
+    "passenger"
    ],
    "shock_terms": [],
    "dedupe_match": null,
-   "dedupe_similarity": 0.0,
-   "id": "27ba9cf40df1",
-   "title": "Air Arabia KSA Schedules International Debut in late-Nov 2026",
-   "url": "https://www.aeroroutes.com/eng/261117-4pnov26int",
-   "summary": "Published at 1900PCT 17NOV26 / 0200GMT 18NOV26 Air Arabia KSA (listed as Air Arabia DMM in the OAG) this week launches international service, with flights to Amman and Damascus scheduled. Dammam \u2013 Amman eff 19NOV26 3 weekly A320 (5 weekly from 06DEC26) 4P301 DMM1500 \u2013 1750AMM 320 x14 4P302 AMM1840 \u2013 2055DMM 320 x14 Dammam \u2013 Damascus eff 20NOV26 4 weekly A320 4P311 DMM1500 \u2013 1800DAM 320 x246 4P312 ",
+   "dedupe_similarity": 0.14,
+   "id": "45f1148d83cc",
+   "title": "Florida Sees a US Domestic Tourism Decline in Miami, Orlando and More Cities in 2026",
+   "url": "https://www.travelandtourworld.com/news/article/l1xwiangzrsy",
+   "summary": "Florida sees signs of a US domestic tourism decline in Miami and potentially other cities in 2026, as weaker air passenger traffic raises concerns about travel demand across the state. Between January and October, US citizen originating passenger numbers fell by 3.90% across three examined airport markets, with Miami recording a 0.84% decline and two other markets experiencing sharper reductions o",
    "kind": "item",
-   "source": "AeroRoutes schedule filings",
-   "source_id": "aeroroutes",
-   "tier": 2,
+   "source": "Travel And Tour World",
+   "source_id": "gl-travelandtourworld",
+   "tier": 3,
    "country": "GLOBAL",
-   "category": "aviation-tracker",
+   "category": "trade",
    "segments": [
     "city",
     "bush",
     "beach"
    ],
-   "first_seen": "2026-11-18T06:23+03:00",
+   "first_seen": "2026-11-18T14:51+03:00",
    "published": "2026-11-18",
    "verdict": "CONSIDER"
+  },
+  {
+   "score": 73.9,
+   "components": {
+    "tier": 20,
+    "category": 4,
+    "lead": 2.4,
+    "relevance": 0,
+    "freshness": 19.5,
+    "corroborated": 10,
+    "shock": 18
+   },
+   "keywords": [],
+   "shock_terms": [
+    "attack"
+   ],
+   "dedupe_match": null,
+   "dedupe_similarity": 0.12,
+   "id": "e28e35e24350",
+   "title": "Nine killed in banditry attack along Garissa-Isiolo border",
+   "url": "https://nation.africa/kenya/counties/garissa/nine-killed-in-banditry-attack-along-garissa-isiolo-border-5675020",
+   "summary": "At least 1,500 goats and 60 camels were stolen in the overnight raid.",
+   "kind": "item",
+   "source": "Nation Africa: Kenya business",
+   "source_id": "ke-nation-business",
+   "tier": 2,
+   "country": "KE",
+   "category": "press",
+   "segments": [
+    "city",
+    "bush",
+    "beach"
+   ],
+   "first_seen": "2026-11-18T14:51+03:00",
+   "published": "2026-11-18",
+   "verdict": "CONSIDER"
+  },
+  {
+   "score": 73.5,
+   "components": {
+    "tier": 20,
+    "category": 4,
+    "lead": 0.0,
+    "relevance": 20,
+    "freshness": 19.5,
+    "corroborated": 10
+   },
+   "keywords": [
+    "terror",
+    "election"
+   ],
+   "shock_terms": [],
+   "dedupe_match": null,
+   "dedupe_similarity": 0.0,
+   "id": "6eef702b6a64",
+   "title": "Mozambique\u2019s main opposition leader goes on trial over post-election unrest",
+   "url": "https://www.theeastafrican.co.ke/tea/news/southern-africa/mozambique-main-opposition-leader-trial-5674994",
+   "summary": "He is charged with inciting terrorism and civil disobedience over deadly unrest that followed a...",
+   "kind": "item",
+   "source": "The EastAfrican",
+   "source_id": "np-eastafrican",
+   "tier": 2,
+   "country": "REG",
+   "category": "press",
+   "segments": [
+    "city",
+    "bush",
+    "beach"
+   ],
+   "first_seen": "2026-11-18T14:51+03:00",
+   "published": "2026-11-18",
+   "verdict": "CONSIDER"
+  },
+  {
+   "score": 72.9,
+   "components": {
+    "tier": 20,
+    "category": 5,
+    "lead": 2.4,
+    "relevance": 16,
+    "freshness": 19.5,
+    "corroborated": 10
+   },
+   "keywords": [
+    "vat",
+    "resort",
+    "beach"
+   ],
+   "shock_terms": [],
+   "dedupe_match": null,
+   "dedupe_similarity": 0.0,
+   "id": "584b1ecac772",
+   "title": "John Trovato of Signia by Hilton Diplomat Beach Resort on Rebuilding Trust, Destination Dining, and Running a 1,000-Room Group House",
+   "url": "https://www.hospitalitynet.org/podcast/4135449/john-trovato-of-signia-by-hilton-diplomat-beach-resort-on-rebuilding-trust-destination-dining-and-running-a-1000-room-group-house",
+   "summary": "Signia by Hilton Diplomat MD John Trovato on restoring trust after closure and rebrand, expanding from 2 to 6 restaurants, and why 700 long-tenured staff are the resort's sharpest competitive edge.",
+   "kind": "item",
+   "source": "Hospitality Net: Africa openings",
+   "source_id": "dev-hospitalitynet-openings",
+   "tier": 2,
+   "country": "AFRICA",
+   "category": "trade",
+   "segments": [
+    "city",
+    "bush",
+    "beach"
+   ],
+   "first_seen": "2026-11-18T14:51+03:00",
+   "published": "2026-11-18",
+   "verdict": "CONSIDER"
+  },
+  {
+   "score": 72.9,
+   "components": {
+    "tier": 20,
+    "category": 5,
+    "lead": 2.4,
+    "relevance": 16,
+    "freshness": 19.5,
+    "corroborated": 10
+   },
+   "keywords": [
+    "visa",
+    "hotel",
+    "guest"
+   ],
+   "shock_terms": [],
+   "dedupe_match": null,
+   "dedupe_similarity": 0.12,
+   "id": "99a7e281049d",
+   "title": "Who pays when an AI agent books the wrong rate? Visa says the guest. Citi says the AI company.",
+   "url": "https://www.hospitalitynet.org/opinion/4135539/who-pays-when-an-ai-agent-books-the-wrong-rate-visa-says-the-guest-citi-says-the-ai-company",
+   "summary": "Visa, Citi, Amex, and AI companies each give different answers on who bears liability when an AI agent books the wrong hotel rate, leaving hotels exposed until card networks settle the rules.",
+   "kind": "item",
+   "source": "Hospitality Net: Africa openings",
+   "source_id": "dev-hospitalitynet-openings",
+   "tier": 2,
+   "country": "AFRICA",
+   "category": "trade",
+   "segments": [
+    "city",
+    "bush",
+    "beach"
+   ],
+   "first_seen": "2026-11-18T14:51+03:00",
+   "published": "2026-11-18",
+   "verdict": "CONSIDER"
+  },
+  {
+   "score": 72.9,
+   "components": {
+    "tier": 20,
+    "category": 5,
+    "lead": 2.4,
+    "relevance": 16,
+    "freshness": 19.5,
+    "corroborated": 10
+   },
+   "keywords": [
+    "revpar",
+    "hotel",
+    "rooms"
+   ],
+   "shock_terms": [],
+   "dedupe_match": null,
+   "dedupe_similarity": 0.12,
+   "id": "bb26dc8fce22",
+   "title": "Why Spain's Record RevPAR Is Masking a Commercial Absorption Crisis",
+   "url": "https://www.hospitalitynet.org/opinion/4135391/why-spains-record-revpar-is-masking-a-commercial-absorption-crisis",
+   "summary": "Spain's record hotel metrics hide a looming supply pressure, with 270 new properties and 30,000 rooms entering by 2028, prompting calls to adopt Net RevPAR, TRevPAR and competitive supply audits.",
+   "kind": "item",
+   "source": "Hospitality Net: Africa openings",
+   "source_id": "dev-hospitalitynet-openings",
+   "tier": 2,
+   "country": "AFRICA",
+   "category": "trade",
+   "segments": [
+    "city",
+    "bush",
+    "beach"
+   ],
+   "first_seen": "2026-11-18T14:51+03:00",
+   "published": "2026-11-18",
+   "verdict": "CONSIDER"
+  },
+  {
+   "score": 70.1,
+   "components": {
+    "tier": 20,
+    "category": 5,
+    "lead": 3.6,
+    "relevance": 12,
+    "freshness": 19.5,
+    "corroborated": 10
+   },
+   "keywords": [
+    "revpar",
+    "hotel"
+   ],
+   "shock_terms": [],
+   "dedupe_match": null,
+   "dedupe_similarity": 0.12,
+   "id": "1332979821c8",
+   "title": "Whitebridge APAC Hotels Monitor, Issue 13",
+   "url": "https://www.hospitalitynet.org/news/4135545/whitebridge-apac-hotels-monitor-issue-13",
+   "summary": "Issue 13 of the APAC Hotels Monitor covers regional performance data, with Seoul Incheon leading gains at +22.6% RevPAR, alongside construction cost trends, deal activity, and a feature on theme park hotel premiums.",
+   "kind": "item",
+   "source": "Hospitality Net \u2014 Africa announcements",
+   "source_id": "dev-hospitalitynet-africa",
+   "tier": 2,
+   "country": "REG",
+   "category": "trade",
+   "segments": [
+    "city",
+    "bush",
+    "beach"
+   ],
+   "first_seen": "2026-11-18T14:51+03:00",
+   "published": "2026-11-18",
+   "verdict": "CONSIDER"
+  },
+  {
+   "score": 70.1,
+   "components": {
+    "tier": 20,
+    "category": 5,
+    "lead": 3.6,
+    "relevance": 12,
+    "freshness": 19.5,
+    "corroborated": 10
+   },
+   "keywords": [
+    "hotel",
+    "resort",
+    "opening"
+   ],
+   "shock_terms": [],
+   "dedupe_match": null,
+   "dedupe_similarity": 0.14,
+   "id": "a240ee667947",
+   "title": "Preferred Hotels & Resorts Reveals Its New Independent Hotel Openings for 2027",
+   "url": "https://www.hospitalitynet.org/news/4135542/preferred-hotels-resorts-reveals-its-new-independent-hotel-openings-for-2027",
+   "summary": "Preferred Hotels & Resorts announces 10+ new member properties opening in 2027 across Europe, the Caribbean, North America, the Middle East, and Latin America, spanning its four global collections.",
+   "kind": "item",
+   "source": "Hospitality Net \u2014 Africa announcements",
+   "source_id": "dev-hospitalitynet-africa",
+   "tier": 2,
+   "country": "REG",
+   "category": "trade",
+   "segments": [
+    "city",
+    "bush",
+    "beach"
+   ],
+   "first_seen": "2026-11-18T14:51+03:00",
+   "published": "2026-11-18",
+   "verdict": "CONSIDER"
+  },
+  {
+   "score": 69.9,
+   "components": {
+    "tier": 5,
+    "category": 5,
+    "lead": 2.4,
+    "relevance": 28,
+    "freshness": 19.5,
+    "corroborated": 10
+   },
+   "keywords": [
+    "arrivals",
+    "fuel",
+    "tourism",
+    "flight",
+    "franc"
+   ],
+   "shock_terms": [],
+   "dedupe_match": null,
+   "dedupe_similarity": 0.1,
+   "id": "df5de4cdbcac",
+   "title": "France and More Than Five More European Nations Fuel UK Tourism Growth in 2026",
+   "url": "https://www.travelandtourworld.com/news/article/2dv3kqrsi4mc",
+   "summary": "France and more than five other European nations are set to fuel UK tourism growth in 2026, as strong demand from Germany, Ireland, Spain, Italy, the Netherlands and Switzerland, supported by extensive flight connections, rail networks, ferry services and growing interest in cultural attractions and city breaks, could drive nearly 15.5 million visits to Britain from these seven markets, strengthen",
+   "kind": "item",
+   "source": "Travel And Tour World",
+   "source_id": "gl-travelandtourworld",
+   "tier": 3,
+   "country": "GLOBAL",
+   "category": "trade",
+   "segments": [
+    "city",
+    "bush",
+    "beach"
+   ],
+   "first_seen": "2026-11-18T14:51+03:00",
+   "published": "2026-11-18",
+   "verdict": "weak"
+  },
+  {
+   "score": 69.5,
+   "components": {
+    "tier": 20,
+    "category": 4,
+    "lead": 0.0,
+    "relevance": 16,
+    "freshness": 19.5,
+    "corroborated": 10
+   },
+   "keywords": [
+    "tax",
+    "protest"
+   ],
+   "shock_terms": [],
+   "dedupe_match": null,
+   "dedupe_similarity": 0.17,
+   "id": "ce0ede51f9f5",
+   "title": "Sugarcane farmers protest proposed taxes targeting commercial agriculture",
+   "url": "https://www.monitor.co.ug/uganda/news/national/sugarcane-farmers-protest-proposed-taxes-targeting-commercial-agriculture-5674728",
+   "summary": "Sugarcane growers threaten November 29 delivery boycott",
+   "kind": "item",
+   "source": "Daily Monitor (Uganda)",
+   "source_id": "np-monitor-ug",
+   "tier": 2,
+   "country": "UG",
+   "category": "press",
+   "segments": [
+    "city",
+    "bush",
+    "beach"
+   ],
+   "first_seen": "2026-11-18T14:51+03:00",
+   "published": "2026-11-18",
+   "verdict": "weak"
+  },
+  {
+   "score": 69.1,
+   "components": {
+    "tier": 40,
+    "category": 12,
+    "lead": 3.6,
+    "relevance": 0,
+    "freshness": 19.5,
+    "undated": -6
+   },
+   "keywords": [],
+   "shock_terms": [],
+   "dedupe_match": null,
+   "dedupe_similarity": 0.0,
+   "id": "e7ad6c63536f",
+   "title": "BoT yashiriki COP31, yaongoza mijadala kuhusu Ustahimilivu wa Sekta ya Fedha na Ufadhili wa Tabianchi",
+   "url": "https://www.bot.go.tz/News/index/1179",
+   "summary": "",
+   "kind": "item",
+   "source": "Bank of Tanzania",
+   "source_id": "tz-bot",
+   "tier": 1,
+   "country": "TZ",
+   "category": "central-bank",
+   "segments": [
+    "city",
+    "bush",
+    "beach"
+   ],
+   "first_seen": "2026-11-18T14:50+03:00",
+   "published": null,
+   "verdict": "weak"
+  },
+  {
+   "score": 68.9,
+   "components": {
+    "tier": 20,
+    "category": 5,
+    "lead": 2.4,
+    "relevance": 12,
+    "freshness": 19.5,
+    "corroborated": 10
+   },
+   "keywords": [
+    "revpar",
+    "hotel"
+   ],
+   "shock_terms": [],
+   "dedupe_match": null,
+   "dedupe_similarity": 0.12,
+   "id": "e7c93fa357e3",
+   "title": "Whitebridge APAC Hotels Monitor, Issue 13",
+   "url": "https://www.hospitalitynet.org/news/4135545/whitebridge-apac-hotels-monitor-issue-13",
+   "summary": "Issue 13 of the APAC Hotels Monitor covers regional performance data, with Seoul Incheon leading gains at +22.6% RevPAR, alongside construction cost trends, deal activity, and a feature on theme park hotel premiums.",
+   "kind": "item",
+   "source": "Hospitality Net: Africa openings",
+   "source_id": "dev-hospitalitynet-openings",
+   "tier": 2,
+   "country": "AFRICA",
+   "category": "trade",
+   "segments": [
+    "city",
+    "bush",
+    "beach"
+   ],
+   "first_seen": "2026-11-18T14:51+03:00",
+   "published": "2026-11-18",
+   "verdict": "weak"
+  },
+  {
+   "score": 68.9,
+   "components": {
+    "tier": 20,
+    "category": 5,
+    "lead": 2.4,
+    "relevance": 12,
+    "freshness": 19.5,
+    "corroborated": 10
+   },
+   "keywords": [
+    "hotel",
+    "resort",
+    "opening"
+   ],
+   "shock_terms": [],
+   "dedupe_match": null,
+   "dedupe_similarity": 0.14,
+   "id": "f577d6b1ceb9",
+   "title": "Preferred Hotels & Resorts Reveals Its New Independent Hotel Openings for 2027",
+   "url": "https://www.hospitalitynet.org/news/4135542/preferred-hotels-resorts-reveals-its-new-independent-hotel-openings-for-2027",
+   "summary": "Preferred Hotels & Resorts announces 10+ new member properties opening in 2027 across Europe, the Caribbean, North America, the Middle East, and Latin America, spanning its four global collections.",
+   "kind": "item",
+   "source": "Hospitality Net: Africa openings",
+   "source_id": "dev-hospitalitynet-openings",
+   "tier": 2,
+   "country": "AFRICA",
+   "category": "trade",
+   "segments": [
+    "city",
+    "bush",
+    "beach"
+   ],
+   "first_seen": "2026-11-18T14:51+03:00",
+   "published": "2026-11-18",
+   "verdict": "weak"
+  },
+  {
+   "score": 67.9,
+   "components": {
+    "tier": 20,
+    "category": 4,
+    "lead": 2.4,
+    "relevance": 12,
+    "freshness": 19.5,
+    "corroborated": 10
+   },
+   "keywords": [
+    "airport",
+    "passenger"
+   ],
+   "shock_terms": [],
+   "dedupe_match": null,
+   "dedupe_similarity": 0.14,
+   "id": "88e6f565008a",
+   "title": "SGR Suffers Massive Revenue & Passenger Drop as Latest Figures Emerge",
+   "url": "https://www.kenyans.co.ke/news/129461-sgr-records-28-drop-passengers-revenue-falls-ksh113-million",
+   "summary": "The drop in SGR passenger numbers and revenue also coincided with fewer international passenger movements at Jomo Kenyatta International Airport.",
+   "kind": "item",
+   "source": "Kenyans.co.ke news",
+   "source_id": "ke-kenyans",
+   "tier": 2,
+   "country": "KE",
+   "category": "press",
+   "segments": [
+    "city",
+    "bush",
+    "beach"
+   ],
+   "first_seen": "2026-11-18T14:51+03:00",
+   "published": "2026-11-18",
+   "verdict": "weak"
+  },
+  {
+   "score": 67.9,
+   "components": {
+    "tier": 20,
+    "category": 4,
+    "lead": 2.4,
+    "relevance": 12,
+    "freshness": 19.5,
+    "corroborated": 10
+   },
+   "keywords": [
+    "cancel"
+   ],
+   "shock_terms": [],
+   "dedupe_match": null,
+   "dedupe_similarity": 0.25,
+   "id": "387683ddff4d",
+   "title": "State Gives Way Forward on Chinese Firm Contracts After World Bank's Corruption Report",
+   "url": "https://www.kenyans.co.ke/news/129456-treasury-rules-out-cancellation-crbc-contracts-despite-world-bank-corruption-report",
+   "summary": "There have been calls for the government to cancel several contracts awarded to the contractor after the World Bank revealed the escalated cost of the construction of Phase One of the SGR from Mombasa to Naivasha.",
+   "kind": "item",
+   "source": "Kenyans.co.ke news",
+   "source_id": "ke-kenyans",
+   "tier": 2,
+   "country": "KE",
+   "category": "press",
+   "segments": [
+    "city",
+    "bush",
+    "beach"
+   ],
+   "first_seen": "2026-11-18T14:51+03:00",
+   "published": "2026-11-18",
+   "verdict": "weak"
+  },
+  {
+   "score": 66.1,
+   "components": {
+    "tier": 20,
+    "category": 5,
+    "lead": 3.6,
+    "relevance": 8,
+    "freshness": 19.5,
+    "corroborated": 10
+   },
+   "keywords": [
+    "hotel",
+    "flight"
+   ],
+   "shock_terms": [],
+   "dedupe_match": null,
+   "dedupe_similarity": 0.14,
+   "id": "090b06db9763",
+   "title": "Global Hotel Alliance Reveals the New Traveller Mindset in 2027: Travel for Happiness, AI for Inspiration, Loyalty for Benefits, and Hotels That Make Every Trip Special",
+   "url": "https://www.hospitalitynet.org/news/4135544/global-hotel-alliance-reveals-the-new-traveller-mindset-in-2027-travel-for-happiness-ai-for-inspiration-loyalty-for-benefits-and-hotels-that-make-every-trip-special",
+   "summary": "GHA surveyed 9,000 members of its 38-million-strong DISCOVERY programme, finding 81% plan to use AI for trip research in 2027, while loyalty and hotel quality outrank flights in spend priorities.",
+   "kind": "item",
+   "source": "Hospitality Net \u2014 Africa announcements",
+   "source_id": "dev-hospitalitynet-africa",
+   "tier": 2,
+   "country": "REG",
+   "category": "trade",
+   "segments": [
+    "city",
+    "bush",
+    "beach"
+   ],
+   "first_seen": "2026-11-18T14:51+03:00",
+   "published": "2026-11-18",
+   "verdict": "weak"
+  },
+  {
+   "score": 66.1,
+   "components": {
+    "tier": 20,
+    "category": 5,
+    "lead": 3.6,
+    "relevance": 8,
+    "freshness": 19.5,
+    "corroborated": 10
+   },
+   "keywords": [
+    "hotel",
+    "booking"
+   ],
+   "shock_terms": [],
+   "dedupe_match": null,
+   "dedupe_similarity": 0.12,
+   "id": "6a4e354fb236",
+   "title": "Four.",
+   "url": "https://www.hospitalitynet.org/opinion/4135536/four",
+   "summary": "AI agents currently complete a negligible share of hotel bookings, but discovery is shifting fast, and hotels not connected for direct checkout will default to OTA-mediated sales when in-chat booking scales.",
+   "kind": "item",
+   "source": "Hospitality Net \u2014 Africa announcements",
+   "source_id": "dev-hospitalitynet-africa",
+   "tier": 2,
+   "country": "REG",
+   "category": "trade",
+   "segments": [
+    "city",
+    "bush",
+    "beach"
+   ],
+   "first_seen": "2026-11-18T14:51+03:00",
+   "published": "2026-11-18",
+   "verdict": "weak"
+  },
+  {
+   "score": 66.1,
+   "components": {
+    "tier": 20,
+    "category": 5,
+    "lead": 3.6,
+    "relevance": 8,
+    "freshness": 19.5,
+    "corroborated": 10
+   },
+   "keywords": [
+    "hotel",
+    "guest"
+   ],
+   "shock_terms": [],
+   "dedupe_match": null,
+   "dedupe_similarity": 0.25,
+   "id": "f8f3c9dfdb52",
+   "title": "The Wesley brings Airbnb-style autonomy to a historic Arizona hotel with Mews",
+   "url": "https://www.hospitalitynet.org/news/4135535/the-wesley-brings-airbnb-style-autonomy-to-a-historic-arizona-hotel-with-mews",
+   "summary": "Boutique hotel in Page, Arizona uses Mews PMS, Schlage smart locks and Akia messaging to operate without a 24-hour front desk, with 40-50% of guests now checking in before arrival.",
+   "kind": "item",
+   "source": "Hospitality Net \u2014 Africa announcements",
+   "source_id": "dev-hospitalitynet-africa",
+   "tier": 2,
+   "country": "REG",
+   "category": "trade",
+   "segments": [
+    "city",
+    "bush",
+    "beach"
+   ],
+   "first_seen": "2026-11-18T14:51+03:00",
+   "published": "2026-11-18",
+   "verdict": "weak"
+  },
+  {
+   "score": 65.9,
+   "components": {
+    "tier": 5,
+    "category": 5,
+    "lead": 2.4,
+    "relevance": 24,
+    "freshness": 19.5,
+    "corroborated": 10
+   },
+   "keywords": [
+    "airport",
+    "tourism",
+    "airline",
+    "booking",
+    "passenger"
+   ],
+   "shock_terms": [],
+   "dedupe_match": null,
+   "dedupe_similarity": 0.14,
+   "id": "791b667a473f",
+   "title": "Oman Air and SalamAir Strengthen Global Networks to Drive Oman Aviation and Tourism Growth",
+   "url": "https://www.travelandtourworld.com/news/article/aavk2zzbwxe9",
+   "summary": "Image source : Oman Air Oman Air and SalamAir are expanding their codeshare cooperation to strengthen air connectivity through Muscat International Airport and provide travellers with more convenient access to destinations across Africa, Asia, the Middle East and Europe. The enhanced partnership aims to make better use of both airlines\u2019 networks while improving travel flexibility, booking arrangem",
+   "kind": "item",
+   "source": "Travel And Tour World",
+   "source_id": "gl-travelandtourworld",
+   "tier": 3,
+   "country": "GLOBAL",
+   "category": "trade",
+   "segments": [
+    "city",
+    "bush",
+    "beach"
+   ],
+   "first_seen": "2026-11-18T14:51+03:00",
+   "published": "2026-11-18",
+   "verdict": "weak"
   }
  ]
 }
