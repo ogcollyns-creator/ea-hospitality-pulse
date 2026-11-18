@@ -4,6 +4,8 @@ slug: premium-flyer-levy-kenya-row-that-does-not-add-up
 description: A COP31 declaration launched in Antalya on Tuesday welcomed small levies on polluting sectors, with Kenya among its backers. Four days earlier the task force Kenya co-chairs published the modelling, and Kenya came first of ten countries at $84 million a year. Work the report's own published figures back and the Kenya row implies a revenue base roughly four times the passenger base it uses to count the cost.
 category: Big Read
 updated: 2026-11-18
+image: "img/editions/premium-flyer-levy-kenya-row-that-does-not-add-up.jpg"
+image_credit: "Handout: Ethiopian Airlines - editorial use"
 ---
 On Tuesday in Antalya, in the second week of a climate conference that Australia presides over and Turkey hosts, a declaration was launched that no East African hotelier will have read. Championed by the United Kingdom and backed by Spain, Kenya and Timor-Leste among others, it welcomes "the potential of targeted, small levies" and recognises "the potential of innovative approaches to complement existing sources of public and private finance." It commits nobody to anything. Bloomberg, which saw the draft, reported that Britain intends to carry the proposals into its G20 presidency year in 2027.
 
