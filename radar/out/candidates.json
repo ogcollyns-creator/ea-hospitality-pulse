@@ -1,82 +1,52 @@
 {
- "generated": "2026-11-19T01:38:58+03:00",
+ "generated": "2026-11-19T06:18:34+03:00",
  "slot": "morning",
  "window_start": 1795014000,
- "observations_in_window": 379,
- "deduped_against": 13,
+ "observations_in_window": 506,
+ "deduped_against": 10,
  "candidates": [
   {
-   "score": 90.4,
+   "score": 65.0,
    "components": {
     "tier": 40,
-    "category": 32,
+    "category": 12,
     "lead": 3.6,
     "relevance": 0,
-    "freshness": 18.8,
+    "freshness": 19.4,
+    "undated": -6,
     "page_change": -4
    },
    "keywords": [],
    "shock_terms": [],
    "dedupe_match": null,
-   "dedupe_similarity": 0.1,
-   "id": "858f860cd0e8",
-   "title": "[page changed] Federal Register \u2014 public inspection (HHS/CDC), pre-publication",
-   "url": "https://www.federalregister.gov/api/v1/public-inspection-documents/current.json",
-   "summary": "{\"count\":100,\"results\":[{\"agencies\":[{\"raw_name\":\"Health and Human Services Department\",\"name\":\"Health and Human Services Department\",\"id\":221,\"url\":\"https://www.federalregister.gov/agencies/health-and-human-services-department\",\"json_url\":\"https://www.federalregister.gov/api/v1/agencies/221\",\"parent_id\":null,\"slug\":\"health-and-human-services-department\"}],\"agency_letters\":[],\"agency_names\":[\"Heal",
+   "dedupe_similarity": 0.0,
+   "id": "cfbd606d393b",
+   "title": "[page changed] Airlink news",
+   "url": "https://www.flyairlink.com/",
+   "summary": "Request unsuccessful. Incapsula incident ID: 341000490156172577-256329416388709493",
    "kind": "page-change",
-   "source": "Federal Register \u2014 public inspection (HHS/CDC), pre-publication",
-   "source_id": "us-fedreg-pubinspect-hhs",
+   "source": "Airlink news",
+   "source_id": "air-airlink",
    "tier": 1,
    "country": "REG",
-   "category": "advisory",
+   "category": "airline",
    "segments": [
     "city",
-    "bush"
+    "bush",
+    "beach"
    ],
-   "first_seen": "2026-11-19T00:44+03:00",
-   "published": "2026-11-16",
-   "verdict": "OPEN THIS \u2014 tier-1 advisory page moved; content not auto-parsed, read it manually"
+   "first_seen": "2026-11-19T05:57+03:00",
+   "published": null,
+   "verdict": "OPEN THIS \u2014 tier-1 airline page moved; content not auto-parsed, read it manually"
   },
   {
-   "score": 86.4,
-   "components": {
-    "tier": 40,
-    "category": 32,
-    "lead": 3.6,
-    "relevance": 0,
-    "freshness": 14.8,
-    "page_change": -4
-   },
-   "keywords": [],
-   "shock_terms": [],
-   "dedupe_match": null,
-   "dedupe_similarity": 0.1,
-   "id": "7a05d568696f",
-   "title": "[page changed] Federal Register \u2014 public inspection (HHS/CDC), pre-publication",
-   "url": "https://www.federalregister.gov/api/v1/public-inspection-documents/current.json",
-   "summary": "{\"count\":100,\"results\":[{\"agencies\":[{\"raw_name\":\"Health and Human Services Department\",\"name\":\"Health and Human Services Department\",\"id\":221,\"url\":\"https://www.federalregister.gov/agencies/health-and-human-services-department\",\"json_url\":\"https://www.federalregister.gov/api/v1/agencies/221\",\"parent_id\":null,\"slug\":\"health-and-human-services-department\"}],\"agency_letters\":[],\"agency_names\":[\"Heal",
-   "kind": "page-change",
-   "source": "Federal Register \u2014 public inspection (HHS/CDC), pre-publication",
-   "source_id": "us-fedreg-pubinspect-hhs",
-   "tier": 1,
-   "country": "REG",
-   "category": "advisory",
-   "segments": [
-    "city",
-    "bush"
-   ],
-   "first_seen": "2026-11-18T21:06+03:00",
-   "published": "2026-11-16",
-   "verdict": "OPEN THIS \u2014 tier-1 advisory page moved; content not auto-parsed, read it manually"
-  },
-  {
-   "score": 107.2,
+   "score": 102.1,
    "components": {
     "tier": 5,
     "category": 5,
     "lead": 2.4,
     "relevance": 52,
-    "freshness": 14.8,
+    "freshness": 9.7,
     "corroborated": 10,
     "shock": 18
    },
@@ -114,13 +84,48 @@
    "verdict": "CONSIDER"
   },
   {
-   "score": 91.2,
+   "score": 99.2,
+   "components": {
+    "tier": 40,
+    "category": 9,
+    "lead": 16.8,
+    "relevance": 4,
+    "freshness": 19.4,
+    "corroborated": 10
+   },
+   "keywords": [
+    "guest"
+   ],
+   "shock_terms": [],
+   "dedupe_match": null,
+   "dedupe_similarity": 0.0,
+   "id": "eb6abf23c7c3",
+   "title": "A Welcome in Every Language: Hilton Expands No-Cost Language Learning to All Team Members",
+   "url": "https://stories.hilton.com/releases/hilton-expands-no-cost-language-learning-to-all-team-members",
+   "summary": "At Hilton, the ability to connect across cultures and languages is essential to delivering a welcoming guest experience. That\u2019s why Hilton is expanding its Language Learning Program, giving more than 500,000 team members across its global workforce access to multilingual learning resources at no cost. By helping team members communicate more confidently with guests and [\u2026] The post A Welcome in Ev",
+   "kind": "item",
+   "source": "Hilton stories/newsroom",
+   "source_id": "dev-hilton",
+   "tier": 1,
+   "country": "GLOBAL",
+   "category": "hotel-group",
+   "segments": [
+    "city",
+    "bush",
+    "beach"
+   ],
+   "first_seen": "2026-11-19T05:57+03:00",
+   "published": "2026-11-18",
+   "verdict": "STRONG \u2014 tier-1, upstream"
+  },
+  {
+   "score": 86.1,
    "components": {
     "tier": 20,
     "category": 14,
     "lead": 8.4,
     "relevance": 24,
-    "freshness": 14.8,
+    "freshness": 9.7,
     "corroborated": 10
    },
    "keywords": [
@@ -152,13 +157,13 @@
    "verdict": "CONSIDER"
   },
   {
-   "score": 91.2,
+   "score": 86.1,
    "components": {
     "tier": 20,
     "category": 14,
     "lead": 8.4,
     "relevance": 24,
-    "freshness": 14.8,
+    "freshness": 9.7,
     "corroborated": 10
    },
    "keywords": [
@@ -190,13 +195,86 @@
    "verdict": "CONSIDER"
   },
   {
-   "score": 86.6,
+   "score": 84.8,
+   "components": {
+    "tier": 20,
+    "category": 5,
+    "lead": 2.4,
+    "relevance": 28,
+    "freshness": 19.4,
+    "corroborated": 10
+   },
+   "keywords": [
+    "adr",
+    "hotel",
+    "resort",
+    "signing",
+    "pipeline",
+    "rooms"
+   ],
+   "shock_terms": [],
+   "dedupe_match": null,
+   "dedupe_similarity": 0.1,
+   "id": "4e5c0cdb8b79",
+   "title": "IHG Signs Three Holiday Inn Express Hotels in Spain",
+   "url": "https://www.hotelnewsresource.com/article143818.html",
+   "summary": "IHG Hotels & Resorts has signed three new-build Holiday Inn Express hotels in Spain: two in Madrid and one in Murcia. The hotels will have a combined 477 rooms, and the signings take the brand\u2019s Spanish pipeline to more than 1,300 rooms.",
+   "kind": "item",
+   "source": "HVS \u2014 market reports and event-impact studies (via Hotel News Resource)",
+   "source_id": "gl-hvs-market-reports",
+   "tier": 2,
+   "country": "GLOBAL",
+   "category": "trade",
+   "segments": [
+    "city"
+   ],
+   "first_seen": "2026-11-19T05:58+03:00",
+   "published": "2026-11-18",
+   "verdict": "CONSIDER"
+  },
+  {
+   "score": 84.2,
+   "components": {
+    "tier": 40,
+    "category": 10,
+    "lead": 16.8,
+    "relevance": 4,
+    "freshness": 19.4,
+    "undated": -6
+   },
+   "keywords": [
+    "camp"
+   ],
+   "shock_terms": [],
+   "dedupe_match": null,
+   "dedupe_similarity": 0.17,
+   "id": "e34948e0cee1",
+   "title": "MPs applaud, call for revision of Balaam\u2019s anti-corruption campaign Wednesday, 18 November 2026",
+   "url": "https://www.parliament.go.ug/news/4743/mps-applaud-call-revision-balaams-anti-corruption-campaign",
+   "summary": "",
+   "kind": "item",
+   "source": "Parliament of Uganda",
+   "source_id": "ug-parliament",
+   "tier": 1,
+   "country": "UG",
+   "category": "legislature",
+   "segments": [
+    "city",
+    "bush",
+    "beach"
+   ],
+   "first_seen": "2026-11-19T05:58+03:00",
+   "published": null,
+   "verdict": "CONSIDER"
+  },
+  {
+   "score": 81.5,
    "components": {
     "tier": 40,
     "category": 9,
     "lead": 16.8,
     "relevance": 8,
-    "freshness": 18.8,
+    "freshness": 13.7,
     "undated": -6
    },
    "keywords": [
@@ -224,13 +302,13 @@
    "verdict": "CONSIDER"
   },
   {
-   "score": 86.6,
+   "score": 81.5,
    "components": {
     "tier": 40,
     "category": 9,
     "lead": 16.8,
     "relevance": 8,
-    "freshness": 18.8,
+    "freshness": 13.7,
     "undated": -6
    },
    "keywords": [
@@ -260,13 +338,244 @@
    "verdict": "CONSIDER"
   },
   {
-   "score": 82.6,
+   "score": 81.0,
+   "components": {
+    "tier": 40,
+    "category": 32,
+    "lead": 3.6,
+    "relevance": 0,
+    "freshness": 19.4,
+    "stale_trap": -10,
+    "page_change": -4
+   },
+   "keywords": [],
+   "shock_terms": [],
+   "dedupe_match": null,
+   "dedupe_similarity": 0.1,
+   "id": "874372382ebb",
+   "title": "[page changed] Federal Register \u2014 public inspection (HHS/CDC), pre-publication",
+   "url": "https://www.federalregister.gov/api/v1/public-inspection-documents/current.json",
+   "summary": "{\"count\":100,\"results\":[{\"agencies\":[{\"raw_name\":\"Health and Human Services Department\",\"name\":\"Health and Human Services Department\",\"id\":221,\"url\":\"https://www.federalregister.gov/agencies/health-and-human-services-department\",\"json_url\":\"https://www.federalregister.gov/api/v1/agencies/221\",\"parent_id\":null,\"slug\":\"health-and-human-services-department\"}],\"agency_letters\":[],\"agency_names\":[\"Heal",
+   "kind": "page-change",
+   "source": "Federal Register \u2014 public inspection (HHS/CDC), pre-publication",
+   "source_id": "us-fedreg-pubinspect-hhs",
+   "tier": 1,
+   "country": "REG",
+   "category": "advisory",
+   "segments": [
+    "city",
+    "bush"
+   ],
+   "first_seen": "2026-11-19T05:58+03:00",
+   "published": "2026-11-16",
+   "verdict": "CHECK \u2014 source date older than the window"
+  },
+  {
+   "score": 80.2,
+   "components": {
+    "tier": 40,
+    "category": 10,
+    "lead": 16.8,
+    "relevance": 0,
+    "freshness": 19.4,
+    "undated": -6
+   },
+   "keywords": [],
+   "shock_terms": [],
+   "dedupe_match": null,
+   "dedupe_similarity": 0.0,
+   "id": "ef73ad06e65d",
+   "title": "\ud835\udc0f\ud835\udc11\ud835\udc04\ud835\udc12\ud835\udc08\ud835\udc03\ud835\udc04\ud835\udc0d\ud835\udc13 \ud835\udc11\ud835\udc14\ud835\udc13\ud835\udc0e \ud835\udc03\ud835\udc04\ud835\udc05\ud835\udc04\ud835\udc0d\ud835\udc03\ud835\udc12 \ud835\udc07\ud835\udc08\ud835\udc12 \ud835\udc11\ud835\udc04\ud835\udc02\ud835\udc0e\ud835\udc11\ud835\udc03, \ud835\udc07\ud835\udc08\ud835\udc06\ud835\udc07\ud835\udc0b\ud835\udc08\ud835\udc06\ud835\udc07\ud835\udc13\ud835\udc12 \ud835\udc0a\ud835\udc04\ud835\udc18 \ud835\udc06\ud835\udc0e\ud835\udc15\ud835\udc04\ud835\udc11\ud835\udc0d\ud835\udc0c\ud835\udc04\ud835\udc0d\ud835\udc13 \ud835\udc06\ud835\udc00\ud835\udc08\ud835\udc0d\ud835\udc12",
+   "url": "https://www.parliament.go.ke/index.php/node/26686",
+   "summary": "",
+   "kind": "item",
+   "source": "Parliament of Kenya \u2014 bills & papers",
+   "source_id": "ke-parliament",
+   "tier": 1,
+   "country": "KE",
+   "category": "legislature",
+   "segments": [
+    "city",
+    "bush",
+    "beach"
+   ],
+   "first_seen": "2026-11-19T05:58+03:00",
+   "published": null,
+   "verdict": "CONSIDER"
+  },
+  {
+   "score": 80.2,
+   "components": {
+    "tier": 40,
+    "category": 10,
+    "lead": 16.8,
+    "relevance": 0,
+    "freshness": 19.4,
+    "undated": -6
+   },
+   "keywords": [],
+   "shock_terms": [],
+   "dedupe_match": null,
+   "dedupe_similarity": 0.0,
+   "id": "9f6c273a0837",
+   "title": "\ud835\udc0f\ud835\udc11\ud835\udc04\ud835\udc12\ud835\udc08\ud835\udc03\ud835\udc04\ud835\udc0d\ud835\udc13 \ud835\udc11\ud835\udc14\ud835\udc13\ud835\udc0e \ud835\udc03\ud835\udc04\ud835\udc05\ud835\udc04\ud835\udc0d\ud835\udc03\ud835\udc12 \ud835\udc07\ud835\udc08\ud835\udc12 \ud835\udc11\ud835\udc04\ud835\udc02\ud835\udc0e\ud835\udc11\ud835\udc03, \ud835\udc07\ud835\udc08\ud835\udc06\ud835\udc07\ud835\udc0b\ud835\udc08\ud835\udc06\ud835\udc07\ud835\udc13\ud835\udc12 \ud835\udc0a\ud835\udc04\ud835\udc18 \ud835\udc06\ud835\udc0e\ud835\udc15\ud835\udc04\ud835\udc11\ud835\udc0d\ud835\udc0c\ud835\udc04\ud835\udc0d\ud835\udc13 \ud835\udc06\ud835\udc00\ud835\udc08\ud835\udc0d\ud835\udc12",
+   "url": "https://www.parliament.go.ke/node/26686",
+   "summary": "",
+   "kind": "item",
+   "source": "Parliament of Kenya \u2014 bills & papers",
+   "source_id": "ke-parliament",
+   "tier": 1,
+   "country": "KE",
+   "category": "legislature",
+   "segments": [
+    "city",
+    "bush",
+    "beach"
+   ],
+   "first_seen": "2026-11-19T05:58+03:00",
+   "published": null,
+   "verdict": "CONSIDER"
+  },
+  {
+   "score": 80.2,
+   "components": {
+    "tier": 40,
+    "category": 10,
+    "lead": 16.8,
+    "relevance": 0,
+    "freshness": 19.4,
+    "undated": -6
+   },
+   "keywords": [],
+   "shock_terms": [],
+   "dedupe_match": null,
+   "dedupe_similarity": 0.17,
+   "id": "20ee62e908a6",
+   "title": "MPs demand guidelines, accountability on cleaning days Wednesday, 18 November 2026",
+   "url": "https://www.parliament.go.ug/news/4745/mps-demand-guidelines-accountability-cleaning-days",
+   "summary": "",
+   "kind": "item",
+   "source": "Parliament of Uganda",
+   "source_id": "ug-parliament",
+   "tier": 1,
+   "country": "UG",
+   "category": "legislature",
+   "segments": [
+    "city",
+    "bush",
+    "beach"
+   ],
+   "first_seen": "2026-11-19T05:58+03:00",
+   "published": null,
+   "verdict": "CONSIDER"
+  },
+  {
+   "score": 80.2,
+   "components": {
+    "tier": 40,
+    "category": 10,
+    "lead": 16.8,
+    "relevance": 0,
+    "freshness": 19.4,
+    "undated": -6
+   },
+   "keywords": [],
+   "shock_terms": [],
+   "dedupe_match": null,
+   "dedupe_similarity": 0.17,
+   "id": "d01d0c00962e",
+   "title": "New NIRA system set to tighten security in banking transactions Wednesday, 18 November 2026",
+   "url": "https://www.parliament.go.ug/news/4744/new-nira-system-set-tighten-security-banking-transactions",
+   "summary": "",
+   "kind": "item",
+   "source": "Parliament of Uganda",
+   "source_id": "ug-parliament",
+   "tier": 1,
+   "country": "UG",
+   "category": "legislature",
+   "segments": [
+    "city",
+    "bush",
+    "beach"
+   ],
+   "first_seen": "2026-11-19T05:58+03:00",
+   "published": null,
+   "verdict": "CONSIDER"
+  },
+  {
+   "score": 80.2,
+   "components": {
+    "tier": 40,
+    "category": 10,
+    "lead": 16.8,
+    "relevance": 0,
+    "freshness": 19.4,
+    "undated": -6
+   },
+   "keywords": [],
+   "shock_terms": [],
+   "dedupe_match": null,
+   "dedupe_similarity": 0.25,
+   "id": "bfa157e85744",
+   "title": "MP raises red flag on deaths on Lake Bunyonyi Wednesday, 18 November 2026",
+   "url": "https://www.parliament.go.ug/news/4742/mp-raises-red-flag-deaths-lake-bunyonyi",
+   "summary": "",
+   "kind": "item",
+   "source": "Parliament of Uganda",
+   "source_id": "ug-parliament",
+   "tier": 1,
+   "country": "UG",
+   "category": "legislature",
+   "segments": [
+    "city",
+    "bush",
+    "beach"
+   ],
+   "first_seen": "2026-11-19T05:58+03:00",
+   "published": null,
+   "verdict": "CONSIDER"
+  },
+  {
+   "score": 80.2,
+   "components": {
+    "tier": 40,
+    "category": 10,
+    "lead": 16.8,
+    "relevance": 0,
+    "freshness": 19.4,
+    "undated": -6
+   },
+   "keywords": [],
+   "shock_terms": [],
+   "dedupe_match": null,
+   "dedupe_similarity": 0.33,
+   "id": "25aaa49c7a41",
+   "title": "Order Paper For Thursday, 19th November 2026 - Afternoon Sitting",
+   "url": "https://www.parliament.go.ke/sites/default/files/2026-11/ORDER%20PAPER%20FOR%20THURSDAY%2C%2019TH%20NOVEMBER%202026%20-%20AFTERNOON%20SITTING.pdf",
+   "summary": "!\"#$%&''(&#!)*%+$*,'(&!!!!!!!!!!!!!!!!-$.&#!/'00$1(!2.&'%(11(!/$&&$(3!!4516!789:!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!4;9;;:!!<=)>?@AB!C-!D=5E2!!\"FA<\"==5\"F!)2<@A2G=5\"!H!4-A-\"F!/=//AC5:!!!\"#$%&!'(%&)$&**#+,)-$!C<I=</!C-!\"F=!I2E!!!!\"F></I2EJ!5CK=G?=<!7LJ!;8;9!2\"!;6M8!)6G6!!(./#.$(0$,1*'%#**$!)<2E=</!!\"#!!\"#$%$&'()'$*%+*,+-)'.+$#!/*##0%$1)'$*%+,(*#+'.2+/.)$(+%#!32&&)42&+&#!52'$'$*%&+'#!5)62(&+(#!7*'$12&+*",
+   "kind": "doc",
+   "source": "Parliament of Kenya \u2014 bills & papers",
+   "source_id": "ke-parliament",
+   "tier": 1,
+   "country": "KE",
+   "category": "legislature",
+   "segments": [
+    "city",
+    "bush",
+    "beach"
+   ],
+   "first_seen": "2026-11-19T05:58+03:00",
+   "published": null,
+   "verdict": "CONSIDER"
+  },
+  {
+   "score": 77.5,
    "components": {
     "tier": 40,
     "category": 9,
     "lead": 16.8,
     "relevance": 4,
-    "freshness": 18.8,
+    "freshness": 13.7,
     "undated": -6
    },
    "keywords": [
@@ -293,13 +602,118 @@
    "verdict": "CONSIDER"
   },
   {
-   "score": 79.2,
+   "score": 76.8,
+   "components": {
+    "tier": 20,
+    "category": 5,
+    "lead": 2.4,
+    "relevance": 20,
+    "freshness": 19.4,
+    "corroborated": 10
+   },
+   "keywords": [
+    "vat",
+    "hotel",
+    "investment",
+    "guest"
+   ],
+   "shock_terms": [],
+   "dedupe_match": null,
+   "dedupe_similarity": 0.12,
+   "id": "88a0ae77796c",
+   "title": "One of the Highest-ROI Decisions in a Hotel Renovation - By Mike Pozdol",
+   "url": "https://www.hotelnewsresource.com/article143815.html",
+   "summary": "Mike Pozdol writes that investing in guestroom bathroom upgrades delivers one of the highest returns on investment during hotel renovations because these improvements can drive higher guest satisfaction, higher room rates, and stronger competitive positioning.",
+   "kind": "item",
+   "source": "HVS \u2014 market reports and event-impact studies (via Hotel News Resource)",
+   "source_id": "gl-hvs-market-reports",
+   "tier": 2,
+   "country": "GLOBAL",
+   "category": "trade",
+   "segments": [
+    "city"
+   ],
+   "first_seen": "2026-11-19T05:58+03:00",
+   "published": "2026-11-18",
+   "verdict": "CONSIDER"
+  },
+  {
+   "score": 76.0,
+   "components": {
+    "tier": 40,
+    "category": 7,
+    "lead": 3.6,
+    "relevance": 12,
+    "freshness": 19.4,
+    "undated": -6
+   },
+   "keywords": [
+    "vat",
+    "tourism"
+   ],
+   "shock_terms": [],
+   "dedupe_match": null,
+   "dedupe_similarity": 0.12,
+   "id": "6aa700751683",
+   "title": "Data & Research WTTC Welcomes EU Sustainable Tourism Strategy and Calls for Stronger Public-Private Collaboration to Deliver Its Ambitions 10 Nov 2026",
+   "url": "https://wttc.org/news/wttc-welcomes-eu-sustainable-tourism-strategy-and-calls-for-stronger-public-private-collaboration-to-deliver-its-ambitions",
+   "summary": "",
+   "kind": "item",
+   "source": "WTTC news",
+   "source_id": "sm-wttc",
+   "tier": 1,
+   "country": "GLOBAL",
+   "category": "body",
+   "segments": [
+    "city",
+    "bush",
+    "beach"
+   ],
+   "first_seen": "2026-11-19T05:57+03:00",
+   "published": null,
+   "verdict": "CONSIDER"
+  },
+  {
+   "score": 75.3,
+   "components": {
+    "tier": 40,
+    "category": 32,
+    "lead": 3.6,
+    "relevance": 0,
+    "freshness": 13.7,
+    "stale_trap": -10,
+    "page_change": -4
+   },
+   "keywords": [],
+   "shock_terms": [],
+   "dedupe_match": null,
+   "dedupe_similarity": 0.1,
+   "id": "858f860cd0e8",
+   "title": "[page changed] Federal Register \u2014 public inspection (HHS/CDC), pre-publication",
+   "url": "https://www.federalregister.gov/api/v1/public-inspection-documents/current.json",
+   "summary": "{\"count\":100,\"results\":[{\"agencies\":[{\"raw_name\":\"Health and Human Services Department\",\"name\":\"Health and Human Services Department\",\"id\":221,\"url\":\"https://www.federalregister.gov/agencies/health-and-human-services-department\",\"json_url\":\"https://www.federalregister.gov/api/v1/agencies/221\",\"parent_id\":null,\"slug\":\"health-and-human-services-department\"}],\"agency_letters\":[],\"agency_names\":[\"Heal",
+   "kind": "page-change",
+   "source": "Federal Register \u2014 public inspection (HHS/CDC), pre-publication",
+   "source_id": "us-fedreg-pubinspect-hhs",
+   "tier": 1,
+   "country": "REG",
+   "category": "advisory",
+   "segments": [
+    "city",
+    "bush"
+   ],
+   "first_seen": "2026-11-19T00:44+03:00",
+   "published": "2026-11-16",
+   "verdict": "CHECK \u2014 source date older than the window"
+  },
+  {
+   "score": 74.1,
    "components": {
     "tier": 40,
     "category": 24,
     "lead": 2.4,
     "relevance": 0,
-    "freshness": 18.8,
+    "freshness": 13.7,
     "undated": -6
    },
    "keywords": [],
@@ -326,13 +740,121 @@
    "verdict": "CONSIDER"
   },
   {
-   "score": 77.2,
+   "score": 74.0,
+   "components": {
+    "tier": 20,
+    "category": 5,
+    "lead": 3.6,
+    "relevance": 16,
+    "freshness": 19.4,
+    "corroborated": 10
+   },
+   "keywords": [
+    "fee",
+    "booking",
+    "guest"
+   ],
+   "shock_terms": [],
+   "dedupe_match": null,
+   "dedupe_similarity": 0.0,
+   "id": "60dacc12e38d",
+   "title": "Better Guest Experiences & ROI Model",
+   "url": "https://www.hospitalitynet.org/opinion/4135553/better-guest-experiences-roi-model",
+   "summary": "Article argues that capturing in-stay guest feedback enables service recovery before checkout, linking better reviews to booking conversions and room revenue gains, with a CruVu product call to action.",
+   "kind": "item",
+   "source": "Hospitality Net \u2014 Africa announcements",
+   "source_id": "dev-hospitalitynet-africa",
+   "tier": 2,
+   "country": "REG",
+   "category": "trade",
+   "segments": [
+    "city",
+    "bush",
+    "beach"
+   ],
+   "first_seen": "2026-11-19T05:58+03:00",
+   "published": "2026-11-18",
+   "verdict": "CONSIDER"
+  },
+  {
+   "score": 72.8,
+   "components": {
+    "tier": 20,
+    "category": 5,
+    "lead": 2.4,
+    "relevance": 16,
+    "freshness": 19.4,
+    "corroborated": 10
+   },
+   "keywords": [
+    "hotel",
+    "opening",
+    "rooms",
+    "guest"
+   ],
+   "shock_terms": [],
+   "dedupe_match": null,
+   "dedupe_similarity": 0.14,
+   "id": "6f1b8150193b",
+   "title": "Park Hyatt Brisbane Hotel Projected to Open in 2031",
+   "url": "https://www.hotelnewsresource.com/article143817.html",
+   "summary": "Hyatt plans to develop Park Hyatt Brisbane with Shayher Group, with an opening projected for 2031. The hotel will occupy part of the 309 North Quay development and include 201 guest rooms and suites and 50 serviced apartments.",
+   "kind": "item",
+   "source": "HVS \u2014 market reports and event-impact studies (via Hotel News Resource)",
+   "source_id": "gl-hvs-market-reports",
+   "tier": 2,
+   "country": "GLOBAL",
+   "category": "trade",
+   "segments": [
+    "city"
+   ],
+   "first_seen": "2026-11-19T05:58+03:00",
+   "published": "2026-11-18",
+   "verdict": "CONSIDER"
+  },
+  {
+   "score": 72.8,
+   "components": {
+    "tier": 20,
+    "category": 5,
+    "lead": 2.4,
+    "relevance": 16,
+    "freshness": 19.4,
+    "corroborated": 10
+   },
+   "keywords": [
+    "eta",
+    "hotel",
+    "pipeline"
+   ],
+   "shock_terms": [],
+   "dedupe_match": null,
+   "dedupe_similarity": 0.12,
+   "id": "9a9a2c3c8895",
+   "title": "Your Declined RFPs Are Next Year\u2019s Pipeline - By Natalie Rausch",
+   "url": "https://www.hotelnewsresource.com/article143807.html",
+   "summary": "Natalie Rausch argues that hotel sales teams can strengthen next year's group business pipeline by proactively following up on previously declined RFPs, emphasizing the operational importance of maintaining detailed records and ongoing communication with potential clients.",
+   "kind": "item",
+   "source": "HVS \u2014 market reports and event-impact studies (via Hotel News Resource)",
+   "source_id": "gl-hvs-market-reports",
+   "tier": 2,
+   "country": "GLOBAL",
+   "category": "trade",
+   "segments": [
+    "city"
+   ],
+   "first_seen": "2026-11-19T05:58+03:00",
+   "published": "2026-11-18",
+   "verdict": "CONSIDER"
+  },
+  {
+   "score": 72.1,
    "components": {
     "tier": 20,
     "category": 4,
     "lead": 2.4,
     "relevance": 8,
-    "freshness": 14.8,
+    "freshness": 9.7,
     "corroborated": 10,
     "shock": 18
    },
@@ -364,13 +886,13 @@
    "verdict": "CONSIDER"
   },
   {
-   "score": 76.8,
+   "score": 71.7,
    "components": {
     "tier": 20,
     "category": 4,
     "lead": 0.0,
     "relevance": 28,
-    "freshness": 14.8,
+    "freshness": 9.7,
     "corroborated": 10
    },
    "keywords": [
@@ -404,13 +926,13 @@
    "verdict": "CONSIDER"
   },
   {
-   "score": 76.6,
+   "score": 71.5,
    "components": {
     "tier": 40,
     "category": 7,
     "lead": 16.8,
     "relevance": 0,
-    "freshness": 18.8,
+    "freshness": 13.7,
     "undated": -6
    },
    "keywords": [],
@@ -437,13 +959,13 @@
    "verdict": "CONSIDER"
   },
   {
-   "score": 76.6,
+   "score": 71.5,
    "components": {
     "tier": 40,
     "category": 7,
     "lead": 16.8,
     "relevance": 0,
-    "freshness": 18.8,
+    "freshness": 13.7,
     "undated": -6
    },
    "keywords": [],
@@ -470,13 +992,13 @@
    "verdict": "CONSIDER"
   },
   {
-   "score": 76.6,
+   "score": 71.5,
    "components": {
     "tier": 40,
     "category": 7,
     "lead": 16.8,
     "relevance": 0,
-    "freshness": 18.8,
+    "freshness": 13.7,
     "undated": -6
    },
    "keywords": [],
@@ -503,13 +1025,13 @@
    "verdict": "CONSIDER"
   },
   {
-   "score": 76.6,
+   "score": 71.5,
    "components": {
     "tier": 40,
     "category": 7,
     "lead": 16.8,
     "relevance": 0,
-    "freshness": 18.8,
+    "freshness": 13.7,
     "undated": -6
    },
    "keywords": [],
@@ -536,13 +1058,46 @@
    "verdict": "CONSIDER"
   },
   {
-   "score": 75.2,
+   "score": 71.3,
+   "components": {
+    "tier": 40,
+    "category": 32,
+    "lead": 3.6,
+    "relevance": 0,
+    "freshness": 9.7,
+    "stale_trap": -10,
+    "page_change": -4
+   },
+   "keywords": [],
+   "shock_terms": [],
+   "dedupe_match": null,
+   "dedupe_similarity": 0.1,
+   "id": "7a05d568696f",
+   "title": "[page changed] Federal Register \u2014 public inspection (HHS/CDC), pre-publication",
+   "url": "https://www.federalregister.gov/api/v1/public-inspection-documents/current.json",
+   "summary": "{\"count\":100,\"results\":[{\"agencies\":[{\"raw_name\":\"Health and Human Services Department\",\"name\":\"Health and Human Services Department\",\"id\":221,\"url\":\"https://www.federalregister.gov/agencies/health-and-human-services-department\",\"json_url\":\"https://www.federalregister.gov/api/v1/agencies/221\",\"parent_id\":null,\"slug\":\"health-and-human-services-department\"}],\"agency_letters\":[],\"agency_names\":[\"Heal",
+   "kind": "page-change",
+   "source": "Federal Register \u2014 public inspection (HHS/CDC), pre-publication",
+   "source_id": "us-fedreg-pubinspect-hhs",
+   "tier": 1,
+   "country": "REG",
+   "category": "advisory",
+   "segments": [
+    "city",
+    "bush"
+   ],
+   "first_seen": "2026-11-18T21:06+03:00",
+   "published": "2026-11-16",
+   "verdict": "CHECK \u2014 source date older than the window"
+  },
+  {
+   "score": 70.1,
    "components": {
     "tier": 20,
     "category": 4,
     "lead": 2.4,
     "relevance": 24,
-    "freshness": 14.8,
+    "freshness": 9.7,
     "corroborated": 10
    },
    "keywords": [
@@ -573,13 +1128,13 @@
    "verdict": "CONSIDER"
   },
   {
-   "score": 75.2,
+   "score": 70.1,
    "components": {
     "tier": 20,
     "category": 4,
     "lead": 2.4,
     "relevance": 24,
-    "freshness": 14.8,
+    "freshness": 9.7,
     "corroborated": 10
    },
    "keywords": [
@@ -611,13 +1166,13 @@
    "verdict": "CONSIDER"
   },
   {
-   "score": 75.2,
+   "score": 70.1,
    "components": {
     "tier": 20,
     "category": 14,
     "lead": 8.4,
     "relevance": 8,
-    "freshness": 14.8,
+    "freshness": 9.7,
     "corroborated": 10
    },
    "keywords": [
@@ -647,13 +1202,13 @@
    "verdict": "CONSIDER"
   },
   {
-   "score": 75.2,
+   "score": 70.1,
    "components": {
     "tier": 40,
     "category": 24,
     "lead": 2.4,
     "relevance": 0,
-    "freshness": 14.8,
+    "freshness": 9.7,
     "undated": -6
    },
    "keywords": [],
@@ -680,13 +1235,13 @@
    "verdict": "CONSIDER"
   },
   {
-   "score": 75.2,
+   "score": 70.1,
    "components": {
     "tier": 40,
     "category": 24,
     "lead": 2.4,
     "relevance": 0,
-    "freshness": 14.8,
+    "freshness": 9.7,
     "undated": -6
    },
    "keywords": [],
@@ -713,13 +1268,13 @@
    "verdict": "CONSIDER"
   },
   {
-   "score": 75.2,
+   "score": 70.1,
    "components": {
     "tier": 40,
     "category": 24,
     "lead": 2.4,
     "relevance": 0,
-    "freshness": 14.8,
+    "freshness": 9.7,
     "undated": -6
    },
    "keywords": [],
@@ -746,13 +1301,88 @@
    "verdict": "CONSIDER"
   },
   {
-   "score": 74.2,
+   "score": 70.0,
+   "components": {
+    "tier": 20,
+    "category": 5,
+    "lead": 3.6,
+    "relevance": 12,
+    "freshness": 19.4,
+    "corroborated": 10
+   },
+   "keywords": [
+    "fee",
+    "booking"
+   ],
+   "shock_terms": [],
+   "dedupe_match": null,
+   "dedupe_similarity": 0.14,
+   "id": "006f954495ae",
+   "title": "Vibe Check-In and the Psychology of Choosing Feelings Over Destination",
+   "url": "https://www.hospitalitynet.org/news/4135557/vibe-check-in-and-the-psychology-of-choosing-feelings-over-destination",
+   "summary": "Booking.com's 2027 Travel Predictions reveal 81% of travelers would choose a destination based on desired feelings, signaling a shift hospitality brands should address in positioning and product design.",
+   "kind": "item",
+   "source": "Hospitality Net \u2014 Africa announcements",
+   "source_id": "dev-hospitalitynet-africa",
+   "tier": 2,
+   "country": "REG",
+   "category": "trade",
+   "segments": [
+    "city",
+    "bush",
+    "beach"
+   ],
+   "first_seen": "2026-11-19T05:58+03:00",
+   "published": "2026-11-19",
+   "verdict": "CONSIDER"
+  },
+  {
+   "score": 69.8,
+   "components": {
+    "tier": 5,
+    "category": 5,
+    "lead": 2.4,
+    "relevance": 28,
+    "freshness": 19.4,
+    "corroborated": 10
+   },
+   "keywords": [
+    "tax",
+    "fuel",
+    "airline",
+    "flight",
+    "passenger"
+   ],
+   "shock_terms": [],
+   "dedupe_match": null,
+   "dedupe_similarity": 0.1,
+   "id": "df8bb289d216",
+   "title": "UK Holiday Travel Under Pressure as Jet2 Now Slams Labour Taxes Amid Europe Fuel Crisis",
+   "url": "https://www.travelandtourworld.com/news/article/bvmsnbh1x95i",
+   "summary": "UK holiday flight prices face mounting pressure as Jet2 challenges Britain's rising aviation costs while expensive jet fuel forces European airlines to reconsider fares and flight schedules. The warning comes as airlines struggle with higher environmental compliance expenses, uncertain fuel markets and changing passenger demand. Jet2's latest financial results reveal growing passenger numbers but ",
+   "kind": "item",
+   "source": "Travel And Tour World",
+   "source_id": "gl-travelandtourworld",
+   "tier": 3,
+   "country": "GLOBAL",
+   "category": "trade",
+   "segments": [
+    "city",
+    "bush",
+    "beach"
+   ],
+   "first_seen": "2026-11-19T05:58+03:00",
+   "published": "2026-11-19",
+   "verdict": "weak"
+  },
+  {
+   "score": 69.1,
    "components": {
     "tier": 5,
     "category": 5,
     "lead": 2.4,
     "relevance": 32,
-    "freshness": 19.8,
+    "freshness": 14.7,
     "corroborated": 10
    },
    "keywords": [
@@ -782,663 +1412,6 @@
    ],
    "first_seen": "2026-11-19T01:37+03:00",
    "published": "2026-11-19",
-   "verdict": "CONSIDER"
-  },
-  {
-   "score": 73.4,
-   "components": {
-    "tier": 20,
-    "category": 5,
-    "lead": 3.6,
-    "relevance": 20,
-    "freshness": 14.8,
-    "corroborated": 10
-   },
-   "keywords": [
-    "occupancy",
-    "adr",
-    "booking"
-   ],
-   "shock_terms": [],
-   "dedupe_match": null,
-   "dedupe_similarity": 0.0,
-   "id": "e998c5853bed",
-   "title": "Beyond Occupancy: What Two Platinum Years Taught Me About Select-Service Revenue Strategy",
-   "url": "https://www.hospitalitynet.org/opinion/4135547/beyond-occupancy-what-two-platinum-years-taught-me-about-select-service-revenue-strategy",
-   "summary": "A Comfort Suites GM in St. Louis shares how the property matched prior-year room revenue while selling 469 fewer room nights, with data-backed lessons on ADR, direct bookings, and demand-based pricing.",
-   "kind": "item",
-   "source": "Hospitality Net \u2014 Africa announcements",
-   "source_id": "dev-hospitalitynet-africa",
-   "tier": 2,
-   "country": "REG",
-   "category": "trade",
-   "segments": [
-    "city",
-    "bush",
-    "beach"
-   ],
-   "first_seen": "2026-11-18T21:06+03:00",
-   "published": "2026-11-18",
-   "verdict": "CONSIDER"
-  },
-  {
-   "score": 73.2,
-   "components": {
-    "tier": 20,
-    "category": 5,
-    "lead": 2.4,
-    "relevance": 16,
-    "freshness": 19.8,
-    "corroborated": 10
-   },
-   "keywords": [
-    "fee",
-    "booking",
-    "guest"
-   ],
-   "shock_terms": [],
-   "dedupe_match": null,
-   "dedupe_similarity": 0.0,
-   "id": "e46105b77fd2",
-   "title": "Better Guest Experiences & ROI Model",
-   "url": "https://www.hospitalitynet.org/opinion/4135553/better-guest-experiences-roi-model",
-   "summary": "Article argues that capturing in-stay guest feedback enables service recovery before checkout, linking better reviews to booking conversions and room revenue gains, with a CruVu product call to action.",
-   "kind": "item",
-   "source": "Hospitality Net: Africa openings",
-   "source_id": "dev-hospitalitynet-openings",
-   "tier": 2,
-   "country": "AFRICA",
-   "category": "trade",
-   "segments": [
-    "city",
-    "bush",
-    "beach"
-   ],
-   "first_seen": "2026-11-19T01:37+03:00",
-   "published": "2026-11-18",
-   "verdict": "CONSIDER"
-  },
-  {
-   "score": 72.8,
-   "components": {
-    "tier": 40,
-    "category": 13,
-    "lead": 6.0,
-    "relevance": 0,
-    "freshness": 19.8,
-    "undated": -6
-   },
-   "keywords": [],
-   "shock_terms": [],
-   "dedupe_match": null,
-   "dedupe_similarity": 0.2,
-   "id": "d3ad00ed7a51",
-   "title": "News The United Republic of Tanzania and the Kingdom of Morocco held a bilateral ministerial side meeting on 17 November 2026 in Montr&eacute;al, Canada, d... - 18 November, 2026",
-   "url": "https://www.tcaa.go.tz/news/tanzania-and-morocco-strengthen-air-connectivity-cooperation-at-atconf-7",
-   "summary": "",
-   "kind": "item",
-   "source": "Tanzania Civil Aviation Authority",
-   "source_id": "tz-tcaa",
-   "tier": 1,
-   "country": "TZ",
-   "category": "aviation",
-   "segments": [
-    "city",
-    "bush",
-    "beach"
-   ],
-   "first_seen": "2026-11-19T01:37+03:00",
-   "published": null,
-   "verdict": "CONSIDER"
-  },
-  {
-   "score": 72.2,
-   "components": {
-    "tier": 20,
-    "category": 5,
-    "lead": 2.4,
-    "relevance": 20,
-    "freshness": 14.8,
-    "corroborated": 10
-   },
-   "keywords": [
-    "occupancy",
-    "adr",
-    "booking"
-   ],
-   "shock_terms": [],
-   "dedupe_match": null,
-   "dedupe_similarity": 0.0,
-   "id": "44a229b289ff",
-   "title": "Beyond Occupancy: What Two Platinum Years Taught Me About Select-Service Revenue Strategy",
-   "url": "https://www.hospitalitynet.org/opinion/4135547/beyond-occupancy-what-two-platinum-years-taught-me-about-select-service-revenue-strategy",
-   "summary": "A Comfort Suites GM in St. Louis shares how the property matched prior-year room revenue while selling 469 fewer room nights, with data-backed lessons on ADR, direct bookings, and demand-based pricing.",
-   "kind": "item",
-   "source": "Hospitality Net: Africa openings",
-   "source_id": "dev-hospitalitynet-openings",
-   "tier": 2,
-   "country": "AFRICA",
-   "category": "trade",
-   "segments": [
-    "city",
-    "bush",
-    "beach"
-   ],
-   "first_seen": "2026-11-18T21:06+03:00",
-   "published": "2026-11-18",
-   "verdict": "CONSIDER"
-  },
-  {
-   "score": 71.0,
-   "components": {
-    "tier": 20,
-    "category": 5,
-    "lead": 1.2,
-    "relevance": 20,
-    "freshness": 14.8,
-    "corroborated": 10
-   },
-   "keywords": [
-    "fuel",
-    "capacity",
-    "airline"
-   ],
-   "shock_terms": [],
-   "dedupe_match": null,
-   "dedupe_similarity": 0.14,
-   "id": "ee6467fa396f",
-   "title": "Tony Fernandes Pushes AirAsia\u2019s Comeback to 2028",
-   "url": "https://skift.com/2026/11/18/tony-fernandes-pushes-airasias-comeback-to-2028",
-   "summary": "Tony Fernandes now says 2027 will be a year of consolidation for AirAsia, two months after the airline group promised a fourth-quarter capacity rebound. Engines, not just fuel, are keeping aircraft on the ground.",
-   "kind": "item",
-   "source": "Skift",
-   "source_id": "tp-skift",
-   "tier": 2,
-   "country": "GLOBAL",
-   "category": "trade",
-   "segments": [
-    "city",
-    "bush",
-    "beach"
-   ],
-   "first_seen": "2026-11-18T21:06+03:00",
-   "published": "2026-11-18",
-   "verdict": "CONSIDER"
-  },
-  {
-   "score": 70.2,
-   "components": {
-    "tier": 5,
-    "category": 5,
-    "lead": 2.4,
-    "relevance": 28,
-    "freshness": 19.8,
-    "corroborated": 10
-   },
-   "keywords": [
-    "resort",
-    "tourism",
-    "beach",
-    "airline",
-    "flight",
-    "traffic",
-    "passenger"
-   ],
-   "shock_terms": [],
-   "dedupe_match": null,
-   "dedupe_similarity": 0.14,
-   "id": "d622d73b5344",
-   "title": "Aerom\u00e9xico and Other Top Mexican Airlines Open Access to Island Hopping and Resort Visits",
-   "url": "https://www.travelandtourworld.com/news/article/tdgtvcrfe30k",
-   "summary": "[Image: Aerom\u00e9xico] Aerom\u00e9xico, Volaris and Viva lead Mexico's island and beach resort air connectivity as changing travel demand reshapes the country's tourism industry. These major carriers provide essential links to popular destinations, including Canc\u00fan, Cozumel, Los Cabos, Puerto Vallarta and Tulum. However, surprising passenger declines at several established vacation hotspots reveal growing",
-   "kind": "item",
-   "source": "Travel And Tour World",
-   "source_id": "gl-travelandtourworld",
-   "tier": 3,
-   "country": "GLOBAL",
-   "category": "trade",
-   "segments": [
-    "city",
-    "bush",
-    "beach"
-   ],
-   "first_seen": "2026-11-19T01:37+03:00",
-   "published": "2026-11-19",
-   "verdict": "CONSIDER"
-  },
-  {
-   "score": 70.2,
-   "components": {
-    "tier": 20,
-    "category": 4,
-    "lead": 2.4,
-    "relevance": 12,
-    "freshness": 19.8,
-    "undated": -6,
-    "shock": 18
-   },
-   "keywords": [
-    "level 3"
-   ],
-   "shock_terms": [
-    "level 3"
-   ],
-   "dedupe_match": null,
-   "dedupe_similarity": 0.12,
-   "id": "65d1055ae65e",
-   "title": "Mubende Hospital Opens Level 3 Neonatal Unit to Boost Newborn Survival",
-   "url": "https://nilepost.co.ug/health/388603/mubende-hospital-opens-level-3-neonatal-unit-to-boost-newborn-survival",
-   "summary": "",
-   "kind": "item",
-   "source": "Nile Post (Uganda)",
-   "source_id": "ug-nilepost",
-   "tier": 2,
-   "country": "UG",
-   "category": "press",
-   "segments": [
-    "city",
-    "bush",
-    "beach"
-   ],
-   "first_seen": "2026-11-19T01:37+03:00",
-   "published": null,
-   "verdict": "CONSIDER"
-  },
-  {
-   "score": 67.2,
-   "components": {
-    "tier": 20,
-    "category": 4,
-    "lead": 2.4,
-    "relevance": 16,
-    "freshness": 14.8,
-    "corroborated": 10
-   },
-   "keywords": [
-    "fuel",
-    "operator",
-    "passenger"
-   ],
-   "shock_terms": [],
-   "dedupe_match": null,
-   "dedupe_similarity": 0.25,
-   "id": "0355592b0427",
-   "title": "Bus operators increase fares by up to Shs10,000 over rising fuel, maintenance costs",
-   "url": "https://www.independent.co.ug/bus-operators-increase-fares-by-up-to-shs10000-over-rising-fuel-maintenance-costs",
-   "summary": "Kampala, Uganda | URN | Bus operators across Uganda have increased transport fares by between Shs 5,000 and Shs 10,000, citing rising fuel prices and the increasing cost of essential operational supplies, including engine oil, tyres and spare parts. The new fares, which took immediate effect last Thursday, are expected to affect passengers travelling on \u2026 The post Bus operators increase fares by u",
-   "kind": "item",
-   "source": "The Independent (Uganda)",
-   "source_id": "ug-independent",
-   "tier": 2,
-   "country": "UG",
-   "category": "press",
-   "segments": [
-    "city",
-    "bush",
-    "beach"
-   ],
-   "first_seen": "2026-11-18T21:06+03:00",
-   "published": "2026-11-18",
-   "verdict": "weak"
-  },
-  {
-   "score": 67.0,
-   "components": {
-    "tier": 40,
-    "category": 5,
-    "lead": 1.2,
-    "relevance": 8,
-    "freshness": 18.8,
-    "undated": -6
-   },
-   "keywords": [
-    "tax"
-   ],
-   "shock_terms": [],
-   "dedupe_match": null,
-   "dedupe_similarity": 0.0,
-   "id": "d9abdf171cab",
-   "title": "13 Nov 2026 Communications State House President Museveni Commits Shs125bn To Medical Doctors\u2019 Sacco, Orders Shift To Preventive Healthcare President Yoweri Kaguta Museveni has committed Shs125 billion as seed capital for a medical doctors\u2019 Savings and Credit Cooperative Organisation (SACCO), announced a tax exemption for medical personnel and directed the health sector to prioritise disease preve",
-   "url": "https://mediacentre.go.ug/press-room/president-museveni-commits-shs125bn-to-medical-doctors-sacco-orders-shift-to-preventive-healthcare",
-   "summary": "",
-   "kind": "item",
-   "source": "Uganda Media Centre \u2014 press room",
-   "source_id": "ug-mediacentre",
-   "tier": 1,
-   "country": "UG",
-   "category": "gov-comms",
-   "segments": [
-    "city",
-    "bush"
-   ],
-   "first_seen": "2026-11-19T00:44+03:00",
-   "published": null,
-   "verdict": "weak"
-  },
-  {
-   "score": 65.8,
-   "components": {
-    "tier": 40,
-    "category": 5,
-    "lead": 12.0,
-    "relevance": 0,
-    "freshness": 14.8,
-    "undated": -6
-   },
-   "keywords": [],
-   "shock_terms": [],
-   "dedupe_match": null,
-   "dedupe_similarity": 0.0,
-   "id": "3f8f9d3803a2",
-   "title": "\ud835\udc0f\ud835\udc11\ud835\udc04\ud835\udc12\ud835\udc08\ud835\udc03\ud835\udc04\ud835\udc0d\ud835\udc13 \ud835\udc11\ud835\udc14\ud835\udc13\ud835\udc0e \ud835\udc03\ud835\udc04\ud835\udc05\ud835\udc04\ud835\udc0d\ud835\udc03\ud835\udc12 \ud835\udc07\ud835\udc08\ud835\udc12 \ud835\udc11\ud835\udc04\ud835\udc02\ud835\udc0e\ud835\udc11\ud835\udc03, \ud835\udc07\ud835\udc08\ud835\udc06\ud835\udc07\ud835\udc0b\ud835\udc08\ud835\udc06\ud835\udc07\ud835\udc13\ud835\udc12 \ud835\udc0a\ud835\udc04\ud835\udc18 \ud835\udc06\ud835\udc0e\ud835\udc15\ud835\udc04\ud835\udc11\ud835\udc0d\ud835\udc0c\ud835\udc04\ud835\udc0d\ud835\udc13 \ud835\udc06\ud835\udc00\ud835\udc08\ud835\udc0d\ud835\udc12",
-   "url": "https://www.parliament.go.ke/node/26686",
-   "summary": "",
-   "kind": "item",
-   "source": "Senate Committee on Delegated Legislation (Kenya) \u2014 the committee that annuls or accedes to statutory instruments",
-   "source_id": "ke-senate-delegated-legislation",
-   "tier": 1,
-   "country": "KE",
-   "category": "REG",
-   "segments": [
-    "city",
-    "bush",
-    "beach"
-   ],
-   "first_seen": "2026-11-18T21:06+03:00",
-   "published": null,
-   "verdict": "weak"
-  },
-  {
-   "score": 65.8,
-   "components": {
-    "tier": 40,
-    "category": 5,
-    "lead": 12.0,
-    "relevance": 0,
-    "freshness": 14.8,
-    "undated": -6
-   },
-   "keywords": [],
-   "shock_terms": [],
-   "dedupe_match": null,
-   "dedupe_similarity": 0.33,
-   "id": "fd2c782e9a2e",
-   "title": "Order Paper For Thursday, 19th November 2026 - Afternoon Sitting",
-   "url": "https://www.parliament.go.ke/sites/default/files/2026-11/ORDER%20PAPER%20FOR%20THURSDAY%2C%2019TH%20NOVEMBER%202026%20-%20AFTERNOON%20SITTING.pdf",
-   "summary": "!\"#$%&''(&#!)*%+$*,'(&!!!!!!!!!!!!!!!!-$.&#!/'00$1(!2.&'%(11(!/$&&$(3!!4516!789:!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!4;9;;:!!<=)>?@AB!C-!D=5E2!!\"FA<\"==5\"F!)2<@A2G=5\"!H!4-A-\"F!/=//AC5:!!!\"#$%&!'(%&)$&**#+,)-$!C<I=</!C-!\"F=!I2E!!!!\"F></I2EJ!5CK=G?=<!7LJ!;8;9!2\"!;6M8!)6G6!!(./#.$(0$,1*'%#**$!)<2E=</!!\"#!!\"#$%$&'()'$*%+*,+-)'.+$#!/*##0%$1)'$*%+,(*#+'.2+/.)$(+%#!32&&)42&+&#!52'$'$*%&+'#!5)62(&+(#!7*'$12&+*",
-   "kind": "doc",
-   "source": "Senate Committee on Delegated Legislation (Kenya) \u2014 the committee that annuls or accedes to statutory instruments",
-   "source_id": "ke-senate-delegated-legislation",
-   "tier": 1,
-   "country": "KE",
-   "category": "REG",
-   "segments": [
-    "city",
-    "bush",
-    "beach"
-   ],
-   "first_seen": "2026-11-18T21:05+03:00",
-   "published": null,
-   "verdict": "weak"
-  },
-  {
-   "score": 65.4,
-   "components": {
-    "tier": 20,
-    "category": 5,
-    "lead": 3.6,
-    "relevance": 12,
-    "freshness": 14.8,
-    "corroborated": 10
-   },
-   "keywords": [
-    "hotel",
-    "flight",
-    "booking"
-   ],
-   "shock_terms": [],
-   "dedupe_match": null,
-   "dedupe_similarity": 0.0,
-   "id": "4f6d8e4aa98d",
-   "title": "Yahoo and HTS (Hopper Technology Solutions) team up to make travel booking more rewarding",
-   "url": "https://www.hospitalitynet.org/news/4135551/yahoo-and-hts-hopper-technology-solutions-team-up-to-make-travel-booking-more-rewarding",
-   "summary": "Yahoo and Hopper Technology Solutions launch an integrated travel booking platform where Yahoo Rewards members earn points on hotels, flights, and car rentals, reaching roughly 90% of the US internet population.",
-   "kind": "item",
-   "source": "Hospitality Net \u2014 Africa announcements",
-   "source_id": "dev-hospitalitynet-africa",
-   "tier": 2,
-   "country": "REG",
-   "category": "trade",
-   "segments": [
-    "city",
-    "bush",
-    "beach"
-   ],
-   "first_seen": "2026-11-18T21:06+03:00",
-   "published": "2026-11-18",
-   "verdict": "weak"
-  },
-  {
-   "score": 65.4,
-   "components": {
-    "tier": 20,
-    "category": 5,
-    "lead": 3.6,
-    "relevance": 12,
-    "freshness": 14.8,
-    "corroborated": 10
-   },
-   "keywords": [
-    "vat",
-    "resort"
-   ],
-   "shock_terms": [],
-   "dedupe_match": null,
-   "dedupe_similarity": 0.0,
-   "id": "ea24cc6b650c",
-   "title": "Rebuilding Trust at the Signia by Hilton Diplomat, Accor Moves to Buy Out Ennismore's Minority Holders, Who Pays When an AI Agent Books the Wrong Rate?",
-   "url": "https://www.hospitalitynet.org/editorial/4135550/rebuilding-trust-at-the-signia-by-hilton-diplomat-accor-moves-to-buy-out-ennismores-minority-holders-who-pays-when-an-ai-agent-books-the-wrong-rate",
-   "summary": "Wednesday's lead is a Brand Insiders conversation with John Trovato on rebuilding trust at a 1,000-room Florida resort, followed by Accor's \u20ac1.6 billion move to take fuller control of Ennismore.",
-   "kind": "item",
-   "source": "Hospitality Net \u2014 Africa announcements",
-   "source_id": "dev-hospitalitynet-africa",
-   "tier": 2,
-   "country": "REG",
-   "category": "trade",
-   "segments": [
-    "city",
-    "bush",
-    "beach"
-   ],
-   "first_seen": "2026-11-18T21:06+03:00",
-   "published": "2026-11-18",
-   "verdict": "weak"
-  },
-  {
-   "score": 65.2,
-   "components": {
-    "tier": 20,
-    "category": 5,
-    "lead": 2.4,
-    "relevance": 8,
-    "freshness": 19.8,
-    "corroborated": 10
-   },
-   "keywords": [
-    "hotel",
-    "operator"
-   ],
-   "shock_terms": [],
-   "dedupe_match": null,
-   "dedupe_similarity": 0.14,
-   "id": "666bfc0e8b87",
-   "title": "A Back Office That Runs Itself: Automating Hotel Operations in 2027",
-   "url": "https://www.hospitalitynet.org/whitepaper/4135554/a-back-office-that-runs-itself-automating-hotel-operations-in-2027",
-   "summary": "Otelier whitepaper draws on operator interviews to map which back-office tasks are ready to automate now, from night audit to OTA reconciliation, as GOPPAR growth stalls at 1% in 2027.",
-   "kind": "item",
-   "source": "Hospitality Net: Africa openings",
-   "source_id": "dev-hospitalitynet-openings",
-   "tier": 2,
-   "country": "AFRICA",
-   "category": "trade",
-   "segments": [
-    "city",
-    "bush",
-    "beach"
-   ],
-   "first_seen": "2026-11-19T01:37+03:00",
-   "published": "2026-11-18",
-   "verdict": "weak"
-  },
-  {
-   "score": 65.2,
-   "components": {
-    "tier": 5,
-    "category": 5,
-    "lead": 2.4,
-    "relevance": 28,
-    "freshness": 14.8,
-    "corroborated": 10
-   },
-   "keywords": [
-    "tax",
-    "adr",
-    "airport",
-    "tourist"
-   ],
-   "shock_terms": [],
-   "dedupe_match": null,
-   "dedupe_similarity": 0.43,
-   "id": "dc81fa640fbd",
-   "title": "Madrid Taxi Fares 2027 Reveal a Costly Surprise for Tourists Landing at Barajas Airport",
-   "url": "https://www.travelandtourworld.com/news/article/kfq7e4vmy1nj",
-   "summary": "Madrid Taxi Fares 2027 reveal a costly surprise for tourists landing at Barajas Airport, creating fresh concerns about travel budgets across Spain. As the Spanish capital prepares its proposed taxi fare changes, international visitors must understand what awaits them after landing. Although the \u20ac22 airport minimum remains unchanged for qualifying journeys, the proposed \u20ac34 fixed airport transfer a",
-   "kind": "item",
-   "source": "Travel And Tour World",
-   "source_id": "gl-travelandtourworld",
-   "tier": 3,
-   "country": "GLOBAL",
-   "category": "trade",
-   "segments": [
-    "city",
-    "bush",
-    "beach"
-   ],
-   "first_seen": "2026-11-18T21:06+03:00",
-   "published": "2026-11-18",
-   "verdict": "weak"
-  },
-  {
-   "score": 65.2,
-   "components": {
-    "tier": 5,
-    "category": 5,
-    "lead": 2.4,
-    "relevance": 28,
-    "freshness": 14.8,
-    "corroborated": 10
-   },
-   "keywords": [
-    "cancel",
-    "airport",
-    "flight",
-    "passenger"
-   ],
-   "shock_terms": [],
-   "dedupe_match": null,
-   "dedupe_similarity": 0.17,
-   "id": "0474c86bf6d6",
-   "title": "Flights Cancelled Across Asia as Bangkok, Mumbai, and Others Cancel 210 and Delay 2,809",
-   "url": "https://www.travelandtourworld.com/news/article/bm8opr9tvfmz",
-   "summary": "Image: Dubai Airports Nineteen major airports across East, Southeast, South, and West Asia recorded 2,809 flight delays and 210 cancellations on Wednesday, 18 November 2026, led in combined disruption volume by Bangkok Suvarnabhumi (346 affected flights) and Mumbai (336), according to live tracking data from FlightAware. Travellers connecting through Bangkok, Shanghai Pudong, Singapore Changi, Del",
-   "kind": "item",
-   "source": "Travel And Tour World",
-   "source_id": "gl-travelandtourworld",
-   "tier": 3,
-   "country": "GLOBAL",
-   "category": "trade",
-   "segments": [
-    "city",
-    "bush",
-    "beach"
-   ],
-   "first_seen": "2026-11-18T21:06+03:00",
-   "published": "2026-11-18",
-   "verdict": "weak"
-  },
-  {
-   "score": 65.2,
-   "components": {
-    "tier": 20,
-    "category": 4,
-    "lead": 2.4,
-    "relevance": 12,
-    "freshness": 14.8,
-    "undated": -6,
-    "shock": 18
-   },
-   "keywords": [
-    "grounded"
-   ],
-   "shock_terms": [
-    "grounded"
-   ],
-   "dedupe_match": null,
-   "dedupe_similarity": 0.0,
-   "id": "08dd12bbf085",
-   "title": "Kitagwenda Patients Stranded as District's Only Ambulance Remains Grounded",
-   "url": "https://nilepost.co.ug/news/388545/kitagwenda-patients-stranded-as-districts-only-ambulance-remains-grounded",
-   "summary": "",
-   "kind": "item",
-   "source": "Nile Post (Uganda)",
-   "source_id": "ug-nilepost",
-   "tier": 2,
-   "country": "UG",
-   "category": "press",
-   "segments": [
-    "city",
-    "bush",
-    "beach"
-   ],
-   "first_seen": "2026-11-18T21:06+03:00",
-   "published": null,
-   "verdict": "weak"
-  },
-  {
-   "score": 64.2,
-   "components": {
-    "tier": 20,
-    "category": 5,
-    "lead": 2.4,
-    "relevance": 12,
-    "freshness": 14.8,
-    "corroborated": 10
-   },
-   "keywords": [
-    "hotel",
-    "flight",
-    "booking"
-   ],
-   "shock_terms": [],
-   "dedupe_match": null,
-   "dedupe_similarity": 0.0,
-   "id": "96f41387f229",
-   "title": "Yahoo and HTS (Hopper Technology Solutions) team up to make travel booking more rewarding",
-   "url": "https://www.hospitalitynet.org/news/4135551/yahoo-and-hts-hopper-technology-solutions-team-up-to-make-travel-booking-more-rewarding",
-   "summary": "Yahoo and Hopper Technology Solutions launch an integrated travel booking platform where Yahoo Rewards members earn points on hotels, flights, and car rentals, reaching roughly 90% of the US internet population.",
-   "kind": "item",
-   "source": "Hospitality Net: Africa openings",
-   "source_id": "dev-hospitalitynet-openings",
-   "tier": 2,
-   "country": "AFRICA",
-   "category": "trade",
-   "segments": [
-    "city",
-    "bush",
-    "beach"
-   ],
-   "first_seen": "2026-11-18T21:06+03:00",
-   "published": "2026-11-18",
    "verdict": "weak"
   }
  ]
