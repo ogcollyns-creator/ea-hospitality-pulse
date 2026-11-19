@@ -4,8 +4,9 @@ slug: uganda-low-season-permit-discount-busiest-month
 description: A short table in Uganda Wildlife Authority's January 2027 tariff knocks 200 dollars off a gorilla permit in three named months. The Ministry of Tourism's own half-year statistics show one of those months was the single busiest for arrivals, while half the permit book went unsold all year. The discount is keyed to the calendar, and the problem is not calendar-shaped.
 category: Big Read
 updated: 2026-11-19
+image: "img/editions/uganda-low-season-permit-discount-busiest-month.jpg"
+image_credit: "Photograph: Onyango George / EA Hospitality Pulse"
 ---
-
 Some time in October, a price list appeared in the upload directory of Uganda Wildlife Authority's website. It arrived without a press conference, and it reads like what it is: a working document. There is no foreword, no covering letter, and, remarkably for a schedule of charges, no effective-date clause anywhere in it. There is only a title, Conservation Tariff JANUARY 2027 - JUNE 2028, and then page after page of tables.
 
 Deep inside, past the entrance fees and the sport-fishing permits and the rate for a boat on the Kazinga Channel, sits a short table headed LOW SEASON RATES FOR GORILLA AND CHIMPANZEE TRACKING. Two rows, four figures. A gorilla permit at 600 dollars for a foreign non-resident instead of 800, and 500 for a foreign resident instead of 700. A chimpanzee permit at 200 instead of 250, and 150 instead of 200. Beneath it, in capitals, the only condition attached to any of it: low season rates will apply only for the months of April, May and November.
