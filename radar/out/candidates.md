@@ -1,292 +1,266 @@
-# Radar candidates — morning slot
-_Window opens Wed 18 Nov 18:00 EAT · 506 observations in window · 10 headlines deduped against_
+# Radar candidates — midday slot
+_Window opens Thu 19 Nov 07:00 EAT · 340 observations in window · 13 headlines deduped against_
 
 Ranked by first-seen recency, source tier and hospitality relevance. `first seen` is when the radar observed the item, which is the date the recency gate runs on. `published` is what the source claims — where the two disagree, the disagreement is the story.
 
-### 🚨 [65.0] [page changed] Airlink news
-- **Verdict:** OPEN THIS — tier-1 airline page moved; content not auto-parsed, read it manually
-- **Source:** Airlink news · tier 1 · REG · airline
-- **First seen:** 2026-11-19T05:57+03:00 EAT · **Source date:** — none stated
-- **URL:** https://www.flyairlink.com/
-- **Extract:** Request unsuccessful. Incapsula incident ID: 341000490156172577-256329416388709493
-- **Score parts:** tier +40, category +12, lead +3.6, relevance +0, freshness +19.4, undated -6, page_change -4
+### 🚨 [101.8] [page changed] Federal Register — CDC notices
+- **Verdict:** OPEN THIS — tier-1 advisory page moved; content not auto-parsed, read it manually
+- **Source:** Federal Register — CDC notices · tier 1 · REG · advisory
+- **First seen:** 2026-11-19T14:47+03:00 EAT · **Source date:** — none stated
+- **URL:** https://www.federalregister.gov/api/v1/documents.rss?conditions%5Bagencies%5D%5B%5D=centers-for-disease-control-and-prevention&order=newest
+- **Extract:** Federal Register Documents published on or after 10/20/2026 and from Centers for Disease Control and Prevention https://www.federalregister.gov/api/v1/documents.rss?conditions%5Bagencies%5D%5B%5D=centers-for-disease-control-and-prevention&order=newest Tue, 17 
+- **Score parts:** tier +40, category +32, lead +12, relevance +8, freshness +19.8, undated -6, page_change -4
 
-### 🟡 [102.1] British Airways Dreamliner Veers Off Heathrow Taxiway Into Mud, Prompting Evacuation
-- **Verdict:** CONSIDER
-- **Source:** Travel And Tour World · tier 3 · GLOBAL · trade
-- **First seen:** 2026-11-18T21:06+03:00 EAT · **Source date:** 2026-11-18
-- **URL:** https://www.travelandtourworld.com/news/article/6ssp39fmpzjb
-- **Shock language:** evacuat
-- **Extract:** Image Source: British Airways Media Centre Passengers were put in panic as a British Airways Dreamliner skidded off a taxiway at Heathrow airport, causing it to be evacuated. The incident happened after flight BA75 failed to turn left onto the runway. The larg
-- **Score parts:** tier +5, category +5, lead +2.4, relevance +52, freshness +9.7, corroborated +10, shock +18
-
-### 🟠 [99.2] A Welcome in Every Language: Hilton Expands No-Cost Language Learning to All Team Members
+### 🟠 [104.2] A Tale of Three Giraffes: The Mara Vet Unit’s Extraordinary Week
 - **Verdict:** STRONG — tier-1, upstream
-- **Source:** Hilton stories/newsroom · tier 1 · GLOBAL · hotel-group
-- **First seen:** 2026-11-19T05:57+03:00 EAT · **Source date:** 2026-11-18
-- **URL:** https://stories.hilton.com/releases/hilton-expands-no-cost-language-learning-to-all-team-members
-- **Extract:** At Hilton, the ability to connect across cultures and languages is essential to delivering a welcoming guest experience. That’s why Hilton is expanding its Language Learning Program, giving more than 500,000 team members across its global workforce access to m
-- **Score parts:** tier +40, category +9, lead +16.8, relevance +4, freshness +19.4, corroborated +10
+- **Source:** Kenya Wildlife Service · tier 1 · KE · parks
+- **First seen:** 2026-11-19T14:48+03:00 EAT · **Source date:** 2026-11-19
+- **URL:** https://kws.go.ke/a-tale-of-three-giraffes-the-mara-vet-units-extraordinary-week
+- **Extract:** 12th November, 2026. Some weeks in wildlife veterinary medicine read like a single story. This one ran across several days and three different patients, each giving the team a fresh reason to keep going. It began with a juvenile female giraffe found abandoned 
+- **Score parts:** tier +40, category +18, lead +8.4, relevance +8, freshness +19.8, corroborated +10
 
-### 🟡 [86.1] TAAG 1Q27 Nairobi Frequency Changes
+### 🟠 [102.2] Innocent Bystander: Rescued Solio’s Ten-Month-Old Rhino Calf Successfully Treated
+- **Verdict:** STRONG — tier-1, upstream
+- **Source:** Kenya Wildlife Service · tier 1 · KE · parks
+- **First seen:** 2026-11-19T14:48+03:00 EAT · **Source date:** 2026-11-17
+- **URL:** https://kws.go.ke/an-innocent-bystander-solios-ten-month-old-rhino-calf-treated
+- **Extract:** A Kenya Wildlife Service (KWS) Mt. Kenya Veterinary Unit team recently treated a ten-month-old female white rhino calf at Solio Conservancy for blunt trauma to a hind limb, most likely caused by a male mating with her mother. She was lame on that leg but merci
+- **Score parts:** tier +40, category +18, lead +8.4, relevance +16, freshness +19.8
+
+### 🟡 [100.2] Royal Brunei NS27 London Service Changes
 - **Verdict:** CONSIDER
 - **Source:** AeroRoutes schedule filings · tier 2 · GLOBAL · aviation-tracker
-- **First seen:** 2026-11-18T21:06+03:00 EAT · **Source date:** 2026-11-18
-- **URL:** https://www.aeroroutes.com/eng/261118-dt1q27nbo
-- **Extract:** Published at 0600PCT / 1300GMT 18NOV26 TAAG Angola Airlines in the first quarter of 2027 plans to increase Luanda – Nairobi flights, as overall service to increase from 3 to 5 weekly, effective 04FEB27. This route is operated by Airbus A220-300 aircraft. DT590
-- **Score parts:** tier +20, category +14, lead +8.4, relevance +24, freshness +9.7, corroborated +10
+- **First seen:** 2026-11-19T14:48+03:00 EAT · **Source date:** 2026-11-19
+- **URL:** https://www.aeroroutes.com/eng/261118-bins27lhr
+- **Extract:** Published at 2300PCT 18NOV26 / 0600GMT 19NOV26 Royal Brunei during Northern summer 2027 season plans to maintain nonstop Bandar Seri Begawan – London Heathrow flight, as the airline continues to suspend service to Dubai, on/after 28MAR27. The carrier operates 
+- **Score parts:** tier +20, category +14, lead +8.4, relevance +28, freshness +19.8, corroborated +10
 
-### 🟡 [86.1] Kenya Airways 1Q27 Mumbai Frequency Changes
-- **Verdict:** CONSIDER
-- **Source:** AeroRoutes schedule filings · tier 2 · GLOBAL · aviation-tracker
-- **First seen:** 2026-11-18T21:06+03:00 EAT · **Source date:** 2026-11-18
-- **URL:** https://www.aeroroutes.com/eng/261118-kq1q27bom
-- **Extract:** Published at 0500PCT / 1200GMT 18NOV26 Kenya Airways in the first quarter of 2027 schedules service increase on Nairobi – Mumbai route, based on recent schedule update. From 20JAN27, the airline operates 10 weekly flights with 737-800, instead of 9 weekly. KQ2
-- **Score parts:** tier +20, category +14, lead +8.4, relevance +24, freshness +9.7, corroborated +10
+### 🟠 [90.7] EAC and ESTDEV Sign Cooperation Agreement to Advance Development of Regional Cross-Border Public E-Services
+- **Verdict:** STRONG — tier-1, upstream
+- **Source:** East African Community — Secretariat news · tier 1 · Regional · body
+- **First seen:** 2026-11-19T14:47+03:00 EAT · **Source date:** 2026-11-19
+- **URL:** https://www.eac.int/eadrip-news-updates/eardip-press-releases/3622-eac-and-estdev-sign-cooperation-agreement-to-advance-development-of-regional-cross-border-public-e-services
+- **Extract:** East African Community Headquarters, Arusha, Tanzania, 19th November, 2026: The East African Community (EAC) Secretariat and the Estonian Centre for International Development (ESTDEV) have signed a cooperation agreement to advance the implementation of the Eur
+- **Score parts:** tier +40, category +7, lead +6, relevance +8, freshness +19.7, corroborated +10
 
-### 🟡 [84.8] IHG Signs Three Holiday Inn Express Hotels in Spain
-- **Verdict:** CONSIDER
-- **Source:** HVS — market reports and event-impact studies (via Hotel News Resource) · tier 2 · GLOBAL · trade
-- **First seen:** 2026-11-19T05:58+03:00 EAT · **Source date:** 2026-11-18
-- **URL:** https://www.hotelnewsresource.com/article143818.html
-- **Extract:** IHG Hotels & Resorts has signed three new-build Holiday Inn Express hotels in Spain: two in Madrid and one in Murcia. The hotels will have a combined 477 rooms, and the signings take the brand’s Spanish pipeline to more than 1,300 rooms.
-- **Score parts:** tier +20, category +5, lead +2.4, relevance +28, freshness +19.4, corroborated +10
-
-### 🟡 [84.2] MPs applaud, call for revision of Balaam’s anti-corruption campaign Wednesday, 18 November 2026
-- **Verdict:** CONSIDER
-- **Source:** Parliament of Uganda · tier 1 · UG · legislature
-- **First seen:** 2026-11-19T05:58+03:00 EAT · **Source date:** — none stated
-- **URL:** https://www.parliament.go.ug/news/4743/mps-applaud-call-revision-balaams-anti-corruption-campaign
-- **Score parts:** tier +40, category +10, lead +16.8, relevance +4, freshness +19.4, undated -6
-
-### 🟡 [81.5] Minor Hotels Announces Avani Koh Phangan Resort in Thailand
-- **Verdict:** CONSIDER
-- **Source:** Minor Hotels newsroom · tier 1 · GLOBAL · hotel-group
-- **First seen:** 2026-11-19T00:43+03:00 EAT · **Source date:** — none stated
-- **URL:** https://media.minorhotels.com/en-GLO/274672-minor-hotels-announces-avani-koh-phangan-resort-in-thailand
-- **Score parts:** tier +40, category +9, lead +16.8, relevance +8, freshness +13.7, undated -6
-
-### 🟡 [81.5] IHG Hotels & Resorts signs three new Holiday Inn Express hotels in Spain, further strengthening its presence in the mark
-- **Verdict:** CONSIDER
-- **Source:** IHG news · tier 1 · GLOBAL · hotel-group
-- **First seen:** 2026-11-19T00:43+03:00 EAT · **Source date:** — none stated
-- **URL:** https://www.ihgplc.com/en/news-and-media/news-releases/2026/ihg-hotels-and-resorts-signs-three-new-holiday-inn-express-hotels-in-spain-further-strengthening-its-presence-in-the-market
-- **Score parts:** tier +40, category +9, lead +16.8, relevance +8, freshness +13.7, undated -6
-
-### 🟡 [81.0] [page changed] Federal Register — public inspection (HHS/CDC), pre-publication
-- **Verdict:** CHECK — source date older than the window
-- **Source:** Federal Register — public inspection (HHS/CDC), pre-publication · tier 1 · REG · advisory
-- **First seen:** 2026-11-19T05:58+03:00 EAT · **Source date:** 2026-11-16
-- **URL:** https://www.federalregister.gov/api/v1/public-inspection-documents/current.json
-- **Extract:** {"count":100,"results":[{"agencies":[{"raw_name":"Health and Human Services Department","name":"Health and Human Services Department","id":221,"url":"https://www.federalregister.gov/agencies/health-and-human-services-department","json_url":"https://www.federal
-- **Score parts:** tier +40, category +32, lead +3.6, relevance +0, freshness +19.4, stale_trap -10, page_change -4
-
-### 🟡 [80.2] 𝐏𝐑𝐄𝐒𝐈𝐃𝐄𝐍𝐓 𝐑𝐔𝐓𝐎 𝐃𝐄𝐅𝐄𝐍𝐃𝐒 𝐇𝐈𝐒 𝐑𝐄𝐂𝐎𝐑𝐃, 𝐇𝐈𝐆𝐇𝐋𝐈𝐆𝐇𝐓𝐒 𝐊𝐄𝐘 𝐆𝐎𝐕𝐄𝐑𝐍𝐌𝐄𝐍𝐓 𝐆𝐀𝐈𝐍𝐒
-- **Verdict:** CONSIDER
-- **Source:** Parliament of Kenya — bills & papers · tier 1 · KE · legislature
-- **First seen:** 2026-11-19T05:58+03:00 EAT · **Source date:** — none stated
-- **URL:** https://www.parliament.go.ke/index.php/node/26686
-- **Score parts:** tier +40, category +10, lead +16.8, relevance +0, freshness +19.4, undated -6
-
-### 🟡 [80.2] 𝐏𝐑𝐄𝐒𝐈𝐃𝐄𝐍𝐓 𝐑𝐔𝐓𝐎 𝐃𝐄𝐅𝐄𝐍𝐃𝐒 𝐇𝐈𝐒 𝐑𝐄𝐂𝐎𝐑𝐃, 𝐇𝐈𝐆𝐇𝐋𝐈𝐆𝐇𝐓𝐒 𝐊𝐄𝐘 𝐆𝐎𝐕𝐄𝐑𝐍𝐌𝐄𝐍𝐓 𝐆𝐀𝐈𝐍𝐒
-- **Verdict:** CONSIDER
-- **Source:** Parliament of Kenya — bills & papers · tier 1 · KE · legislature
-- **First seen:** 2026-11-19T05:58+03:00 EAT · **Source date:** — none stated
-- **URL:** https://www.parliament.go.ke/node/26686
-- **Score parts:** tier +40, category +10, lead +16.8, relevance +0, freshness +19.4, undated -6
-
-### 🟡 [80.2] MPs demand guidelines, accountability on cleaning days Wednesday, 18 November 2026
-- **Verdict:** CONSIDER
-- **Source:** Parliament of Uganda · tier 1 · UG · legislature
-- **First seen:** 2026-11-19T05:58+03:00 EAT · **Source date:** — none stated
-- **URL:** https://www.parliament.go.ug/news/4745/mps-demand-guidelines-accountability-cleaning-days
-- **Score parts:** tier +40, category +10, lead +16.8, relevance +0, freshness +19.4, undated -6
-
-### 🟡 [80.2] New NIRA system set to tighten security in banking transactions Wednesday, 18 November 2026
-- **Verdict:** CONSIDER
-- **Source:** Parliament of Uganda · tier 1 · UG · legislature
-- **First seen:** 2026-11-19T05:58+03:00 EAT · **Source date:** — none stated
-- **URL:** https://www.parliament.go.ug/news/4744/new-nira-system-set-tighten-security-banking-transactions
-- **Score parts:** tier +40, category +10, lead +16.8, relevance +0, freshness +19.4, undated -6
-
-### 🟡 [80.2] MP raises red flag on deaths on Lake Bunyonyi Wednesday, 18 November 2026
-- **Verdict:** CONSIDER
-- **Source:** Parliament of Uganda · tier 1 · UG · legislature
-- **First seen:** 2026-11-19T05:58+03:00 EAT · **Source date:** — none stated
-- **URL:** https://www.parliament.go.ug/news/4742/mp-raises-red-flag-deaths-lake-bunyonyi
-- **Score parts:** tier +40, category +10, lead +16.8, relevance +0, freshness +19.4, undated -6
-
-### 🟡 [80.2] Order Paper For Thursday, 19th November 2026 - Afternoon Sitting
-- **Verdict:** CONSIDER
-- **Source:** Parliament of Kenya — bills & papers · tier 1 · KE · legislature
-- **First seen:** 2026-11-19T05:58+03:00 EAT · **Source date:** — none stated
-- **URL:** https://www.parliament.go.ke/sites/default/files/2026-11/ORDER%20PAPER%20FOR%20THURSDAY%2C%2019TH%20NOVEMBER%202026%20-%20AFTERNOON%20SITTING.pdf
-- **Extract:** !"#$%&''(&#!)*%+$*,'(&!!!!!!!!!!!!!!!!-$.&#!/'00$1(!2.&'%(11(!/$&&$(3!!4516!789:!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!4;9;;:!!<=)>?@AB!C-!D=5E2!!"FA<"==5"F!)2<@A2G=5"!H!4-A-"F!/=//AC5:!!!"#$%&!'(%&)$&**#+,)-$!C<I=</!C-!"F=!I2E!!!!"F></I2EJ!5CK=G?=<!7LJ!;8;9!2"!;6M8
-- **Score parts:** tier +40, category +10, lead +16.8, relevance +0, freshness +19.4, undated -6
-
-### 🟡 [77.5] Beyond The Frame at Anantara The Marker Dublin Hotel
-- **Verdict:** CONSIDER
-- **Source:** Minor Hotels newsroom · tier 1 · GLOBAL · hotel-group
-- **First seen:** 2026-11-19T00:43+03:00 EAT · **Source date:** — none stated
-- **URL:** https://media.minorhotels.com/en-GLO/274784-beyond-the-frame-at-anantara-the-marker-dublin-hotel
-- **Score parts:** tier +40, category +9, lead +16.8, relevance +4, freshness +13.7, undated -6
-
-### 🟡 [76.8] One of the Highest-ROI Decisions in a Hotel Renovation - By Mike Pozdol
-- **Verdict:** CONSIDER
-- **Source:** HVS — market reports and event-impact studies (via Hotel News Resource) · tier 2 · GLOBAL · trade
-- **First seen:** 2026-11-19T05:58+03:00 EAT · **Source date:** 2026-11-18
-- **URL:** https://www.hotelnewsresource.com/article143815.html
-- **Extract:** Mike Pozdol writes that investing in guestroom bathroom upgrades delivers one of the highest returns on investment during hotel renovations because these improvements can drive higher guest satisfaction, higher room rates, and stronger competitive positioning.
-- **Score parts:** tier +20, category +5, lead +2.4, relevance +20, freshness +19.4, corroborated +10
-
-### 🟡 [76.0] Data & Research WTTC Welcomes EU Sustainable Tourism Strategy and Calls for Stronger Public-Private Collaboration to Del
-- **Verdict:** CONSIDER
-- **Source:** WTTC news · tier 1 · GLOBAL · body
-- **First seen:** 2026-11-19T05:57+03:00 EAT · **Source date:** — none stated
-- **URL:** https://wttc.org/news/wttc-welcomes-eu-sustainable-tourism-strategy-and-calls-for-stronger-public-private-collaboration-to-deliver-its-ambitions
-- **Score parts:** tier +40, category +7, lead +3.6, relevance +12, freshness +19.4, undated -6
-
-### 🟡 [75.3] [page changed] Federal Register — public inspection (HHS/CDC), pre-publication
-- **Verdict:** CHECK — source date older than the window
-- **Source:** Federal Register — public inspection (HHS/CDC), pre-publication · tier 1 · REG · advisory
-- **First seen:** 2026-11-19T00:44+03:00 EAT · **Source date:** 2026-11-16
-- **URL:** https://www.federalregister.gov/api/v1/public-inspection-documents/current.json
-- **Extract:** {"count":100,"results":[{"agencies":[{"raw_name":"Health and Human Services Department","name":"Health and Human Services Department","id":221,"url":"https://www.federalregister.gov/agencies/health-and-human-services-department","json_url":"https://www.federal
-- **Score parts:** tier +40, category +32, lead +3.6, relevance +0, freshness +13.7, stale_trap -10, page_change -4
-
-### 🟡 [74.1] Multidrug-Resistant Typhoid Fever in Senegal
-- **Verdict:** CONSIDER
-- **Source:** US CDC travel health notices · tier 1 · GLOBAL · health
-- **First seen:** 2026-11-19T00:44+03:00 EAT · **Source date:** — none stated
-- **URL:** https://wwwnc.cdc.gov/travel/notices/level1/mdr-typhoid-senegal
-- **Score parts:** tier +40, category +24, lead +2.4, relevance +0, freshness +13.7, undated -6
-
-### 🟡 [74.0] Better Guest Experiences & ROI Model
-- **Verdict:** CONSIDER
-- **Source:** Hospitality Net — Africa announcements · tier 2 · REG · trade
-- **First seen:** 2026-11-19T05:58+03:00 EAT · **Source date:** 2026-11-18
-- **URL:** https://www.hospitalitynet.org/opinion/4135553/better-guest-experiences-roi-model
-- **Extract:** Article argues that capturing in-stay guest feedback enables service recovery before checkout, linking better reviews to booking conversions and room revenue gains, with a CruVu product call to action.
-- **Score parts:** tier +20, category +5, lead +3.6, relevance +16, freshness +19.4, corroborated +10
-
-### 🟡 [72.8] Park Hyatt Brisbane Hotel Projected to Open in 2031
-- **Verdict:** CONSIDER
-- **Source:** HVS — market reports and event-impact studies (via Hotel News Resource) · tier 2 · GLOBAL · trade
-- **First seen:** 2026-11-19T05:58+03:00 EAT · **Source date:** 2026-11-18
-- **URL:** https://www.hotelnewsresource.com/article143817.html
-- **Extract:** Hyatt plans to develop Park Hyatt Brisbane with Shayher Group, with an opening projected for 2031. The hotel will occupy part of the 309 North Quay development and include 201 guest rooms and suites and 50 serviced apartments.
-- **Score parts:** tier +20, category +5, lead +2.4, relevance +16, freshness +19.4, corroborated +10
-
-### 🟡 [72.8] Your Declined RFPs Are Next Year’s Pipeline - By Natalie Rausch
-- **Verdict:** CONSIDER
-- **Source:** HVS — market reports and event-impact studies (via Hotel News Resource) · tier 2 · GLOBAL · trade
-- **First seen:** 2026-11-19T05:58+03:00 EAT · **Source date:** 2026-11-18
-- **URL:** https://www.hotelnewsresource.com/article143807.html
-- **Extract:** Natalie Rausch argues that hotel sales teams can strengthen next year's group business pipeline by proactively following up on previously declined RFPs, emphasizing the operational importance of maintaining detailed records and ongoing communication with poten
-- **Score parts:** tier +20, category +5, lead +2.4, relevance +16, freshness +19.4, corroborated +10
-
-### 🟡 [72.1] Linda Mwananchi Issues Demands as Ruto Makes Pledges Over Protests
-- **Verdict:** CONSIDER
-- **Source:** Kenyans.co.ke news · tier 2 · KE · press
-- **First seen:** 2026-11-18T21:06+03:00 EAT · **Source date:** 2026-11-18
-- **URL:** https://www.kenyans.co.ke/news/129501-linda-mwananchi-demands-probe-attacks-western-kenya-leaders-and-supporters
-- **Shock language:** attack
-- **Extract:** The Linda Mwananchi Movement has faced repeated attacks on its officials and supporters amid President Ruto’s warning against goonism during his State of the Nation Address.
-- **Score parts:** tier +20, category +4, lead +2.4, relevance +8, freshness +9.7, corroborated +10, shock +18
-
-### 🟡 [71.7] Tanzania eyes bigger share of lucrative global MICE tourism market
-- **Verdict:** CONSIDER
-- **Source:** Daily News (Tanzania) · tier 2 · TZ · press
-- **First seen:** 2026-11-18T21:06+03:00 EAT · **Source date:** 2026-11-18
-- **URL:** https://dailynews.co.tz/tanzania-eyes-bigger-share-of-lucrative-global-mice-tourism-market
-- **Extract:** ARUSHA: IMAGINE thousands of delegates arriving in Arusha from across the globe, gathering under one roof to negotiate investment deals, share technical expertise, and shape regional policy. Beyond the boardroom, these high-yielding visitors embark on wildlife
-- **Score parts:** tier +20, category +4, lead +0, relevance +28, freshness +9.7, corroborated +10
-
-### 🟡 [71.5] Low Cost Nalweyo-Rapzih Road (1.032km), ⁠Ki...
-- **Verdict:** CONSIDER
-- **Source:** Uganda EGP portal · tier 1 · UG · tender
-- **First seen:** 2026-11-19T00:43+03:00 EAT · **Source date:** — none stated
-- **URL:** https://egpuganda.go.ug/index/425713250_egp
-- **Score parts:** tier +40, category +7, lead +16.8, relevance +0, freshness +13.7, undated -6
-
-### 🟡 [71.5] Framework Contract for Borehole Drilling, Con...
-- **Verdict:** CONSIDER
-- **Source:** Uganda EGP portal · tier 1 · UG · tender
-- **First seen:** 2026-11-19T00:43+03:00 EAT · **Source date:** — none stated
-- **URL:** https://egpuganda.go.ug/index/424949448_egp
-- **Score parts:** tier +40, category +7, lead +16.8, relevance +0, freshness +13.7, undated -6
-
-### 🟡 [71.5] Civil Works for Upgrading to Bitumen standard...
-- **Verdict:** CONSIDER
-- **Source:** Uganda EGP portal · tier 1 · UG · tender
-- **First seen:** 2026-11-19T00:43+03:00 EAT · **Source date:** — none stated
-- **URL:** https://egpuganda.go.ug/index/425539014_egp
-- **Score parts:** tier +40, category +7, lead +16.8, relevance +0, freshness +13.7, undated -6
-
-### 🟡 [71.5] Building, Construction, Architectural, Plumbi...
-- **Verdict:** CONSIDER
-- **Source:** Uganda EGP portal · tier 1 · UG · tender
-- **First seen:** 2026-11-19T00:43+03:00 EAT · **Source date:** — none stated
-- **URL:** https://egpuganda.go.ug/index/425565352_egp
-- **Score parts:** tier +40, category +7, lead +16.8, relevance +0, freshness +13.7, undated -6
-
-### 🟡 [71.3] [page changed] Federal Register — public inspection (HHS/CDC), pre-publication
-- **Verdict:** CHECK — source date older than the window
-- **Source:** Federal Register — public inspection (HHS/CDC), pre-publication · tier 1 · REG · advisory
-- **First seen:** 2026-11-18T21:06+03:00 EAT · **Source date:** 2026-11-16
-- **URL:** https://www.federalregister.gov/api/v1/public-inspection-documents/current.json
-- **Extract:** {"count":100,"results":[{"agencies":[{"raw_name":"Health and Human Services Department","name":"Health and Human Services Department","id":221,"url":"https://www.federalregister.gov/agencies/health-and-human-services-department","json_url":"https://www.federal
-- **Score parts:** tier +40, category +32, lead +3.6, relevance +0, freshness +9.7, stale_trap -10, page_change -4
-
-### 🟡 [70.1] State Explores Plans to Turn Diesel & Petrol Cars to Electric Vehicles
-- **Verdict:** CONSIDER
-- **Source:** Kenyans.co.ke news · tier 2 · KE · press
-- **First seen:** 2026-11-18T21:06+03:00 EAT · **Source date:** 2026-11-18
-- **URL:** https://www.kenyans.co.ke/news/129487-transport-ministry-explores-technology-turn-fuel-cars-electric-vehicles
-- **Extract:** The latest move will help address reliance on imported fuel, cut transport-related pollution and take advantage of locally generated electricity.
-- **Score parts:** tier +20, category +4, lead +2.4, relevance +24, freshness +9.7, corroborated +10
-
-### 🟡 [70.1] Report Reveals Region That Beat Europe as Top Destination From JKIA
-- **Verdict:** CONSIDER
-- **Source:** Kenyans.co.ke news · tier 2 · KE · press
-- **First seen:** 2026-11-18T21:06+03:00 EAT · **Source date:** 2026-11-18
-- **URL:** https://www.kenyans.co.ke/news/129475-east-africa-emerges-top-destination-jkia-travellers-knbs-reports
-- **Extract:** New data showed a decline in passenger traffic at the airport, with some traditionally busy international routes recording notable changes.
-- **Score parts:** tier +20, category +4, lead +2.4, relevance +24, freshness +9.7, corroborated +10
-
-### 🟡 [70.1] TAAG Revises Planned Praia Service From Dec 2026
-- **Verdict:** CONSIDER
-- **Source:** AeroRoutes schedule filings · tier 2 · GLOBAL · aviation-tracker
-- **First seen:** 2026-11-18T21:06+03:00 EAT · **Source date:** 2026-11-18
-- **URL:** https://www.aeroroutes.com/eng/261118-dtdec26rai
-- **Extract:** Published at 0700PCT / 1400GMT 18NOV26 TAAG Angola Airlines in recent schedule update revised planned service to Cabo Verde, scheduled from December 2026 with Airbus A220-300 aircraft. The airline previously filed Luanda – Dakar – Praia routing, however the ai
-- **Score parts:** tier +20, category +14, lead +8.4, relevance +8, freshness +9.7, corroborated +10
-
-### 🟡 [70.1] 18 November 2026 | News Release How AI is helping reinforce polio surveillance in Africa
+### 🟡 [88.2] 19 November 2026 | News Release WHO and EDCTP Association partner to strengthen health research and regulatory capacity 
 - **Verdict:** CONSIDER
 - **Source:** WHO AFRO — Kenya country newsroom · tier 1 · KE · health
-- **First seen:** 2026-11-18T21:06+03:00 EAT · **Source date:** — none stated
-- **URL:** https://www.afro.who.int/news/how-ai-helping-reinforce-polio-surveillance-africa
-- **Score parts:** tier +40, category +24, lead +2.4, relevance +0, freshness +9.7, undated -6
+- **First seen:** 2026-11-19T14:47+03:00 EAT · **Source date:** — none stated
+- **URL:** https://www.afro.who.int/news/who-and-edctp-association-partner-strengthen-health-research-and-regulatory-capacity-africa
+- **Score parts:** tier +40, category +24, lead +2.4, relevance +8, freshness +19.8, undated -6
 
-### 🟡 [70.1] 18 November 2026 | News Release How AI is helping reinforce polio surveillance in Africa
+### 🟡 [88.2] 19 November 2026 | News Release WHO and EDCTP Association partner to strengthen health research and regulatory capacity 
 - **Verdict:** CONSIDER
 - **Source:** WHO AFRO — Rwanda country newsroom · tier 1 · RW · health
-- **First seen:** 2026-11-18T21:06+03:00 EAT · **Source date:** — none stated
-- **URL:** https://www.afro.who.int/news/how-ai-helping-reinforce-polio-surveillance-africa
-- **Score parts:** tier +40, category +24, lead +2.4, relevance +0, freshness +9.7, undated -6
+- **First seen:** 2026-11-19T14:47+03:00 EAT · **Source date:** — none stated
+- **URL:** https://www.afro.who.int/news/who-and-edctp-association-partner-strengthen-health-research-and-regulatory-capacity-africa
+- **Score parts:** tier +40, category +24, lead +2.4, relevance +8, freshness +19.8, undated -6
 
-### 🟡 [70.1] 18 November 2026 | News Release How AI is helping reinforce polio surveillance in Africa
+### 🟡 [88.1] 19 November 2026 | News Release WHO and EDCTP Association partner to strengthen health research and regulatory capacity 
 - **Verdict:** CONSIDER
 - **Source:** WHO AFRO — Uganda country newsroom · tier 1 · UG · health
-- **First seen:** 2026-11-18T21:06+03:00 EAT · **Source date:** — none stated
-- **URL:** https://www.afro.who.int/news/how-ai-helping-reinforce-polio-surveillance-africa
-- **Score parts:** tier +40, category +24, lead +2.4, relevance +0, freshness +9.7, undated -6
+- **First seen:** 2026-11-19T14:47+03:00 EAT · **Source date:** — none stated
+- **URL:** https://www.afro.who.int/news/who-and-edctp-association-partner-strengthen-health-research-and-regulatory-capacity-africa
+- **Score parts:** tier +40, category +24, lead +2.4, relevance +8, freshness +19.7, undated -6
 
-### 🟡 [70.0] Vibe Check-In and the Psychology of Choosing Feelings Over Destination
+### 🟡 [84.2] Casino operators warn 15% tax threatens 2,500 jobs
+- **Verdict:** CONSIDER
+- **Source:** The Independent (Uganda) · tier 2 · UG · press
+- **First seen:** 2026-11-19T14:48+03:00 EAT · **Source date:** 2026-11-19
+- **URL:** https://www.independent.co.ug/casino-operators-warn-15-tax-threatens-2500-jobs
+- **Extract:** Industry wants government to retain 30% Gross Gaming Revenue tax, warning proposed levy could drive players to illegal gambling platforms Kampala, Uganda | JULIUS BUSINGE | Uganda’s licensed casino operators have appealed to President Yoweri Museveni to recons
+- **Score parts:** tier +20, category +4, lead +2.4, relevance +28, freshness +19.8, corroborated +10
+
+### 🟡 [84.2] Air Caraïbes Adds Pointe-a-Pitre – St. Maarten From Jan 2027
+- **Verdict:** CONSIDER
+- **Source:** AeroRoutes schedule filings · tier 2 · GLOBAL · aviation-tracker
+- **First seen:** 2026-11-19T14:48+03:00 EAT · **Source date:** 2026-11-19
+- **URL:** https://www.aeroroutes.com/eng/261119-txjan27ptpsxm
+- **Extract:** Published at 0400PCT / 1100GMT 19NOV26 Air Caraïbes in January 2027 plans to add Pointe-a-Pitre – St. Maarten route, on board ATR72 aircraft. The airline will operate this route on daily basis from 02JAN27. TX328 PTP1010 – 1100SXM AT7 14 TX328 PTP1335 – 1425SX
+- **Score parts:** tier +20, category +14, lead +8.4, relevance +12, freshness +19.8, corroborated +10
+
+### 🟡 [84.2] Kenya launches campaign to distribute almost 10.8 million mosquito nets to families in 18 high malaria burden counties
+- **Verdict:** CONSIDER
+- **Source:** WHO AFRO — Kenya country newsroom · tier 1 · KE · health
+- **First seen:** 2026-11-19T14:47+03:00 EAT · **Source date:** — none stated
+- **URL:** https://www.afro.who.int/countries/kenya/news/kenya-launches-campaign-distribute-almost-108-million-mosquito-nets-families-18-high-malaria-burden
+- **Score parts:** tier +40, category +24, lead +2.4, relevance +4, freshness +19.8, undated -6
+
+### 🟡 [82.4] Tourist tax is coming. Where’s the plan?
 - **Verdict:** CONSIDER
 - **Source:** Hospitality Net — Africa announcements · tier 2 · REG · trade
-- **First seen:** 2026-11-19T05:58+03:00 EAT · **Source date:** 2026-11-19
-- **URL:** https://www.hospitalitynet.org/news/4135557/vibe-check-in-and-the-psychology-of-choosing-feelings-over-destination
-- **Extract:** Booking.com's 2027 Travel Predictions reveal 81% of travelers would choose a destination based on desired feelings, signaling a shift hospitality brands should address in positioning and product design.
-- **Score parts:** tier +20, category +5, lead +3.6, relevance +12, freshness +19.4, corroborated +10
+- **First seen:** 2026-11-19T14:48+03:00 EAT · **Source date:** 2026-11-19
+- **URL:** https://www.hospitalitynet.org/opinion/4135404/tourist-tax-is-coming-wheres-the-plan
+- **Extract:** England's incoming overnight visitor levy prompts hoteliers to demand transparent spending plans, with UKHospitality warning a 5% levy could cost 11.9 million visitor nights and 33,000 jobs.
+- **Score parts:** tier +20, category +5, lead +3.6, relevance +24, freshness +19.8, corroborated +10
+
+### 🟡 [81.4] [page changed] Federal Register — public inspection (HHS/CDC), pre-publication
+- **Verdict:** CHECK — source date older than the window
+- **Source:** Federal Register — public inspection (HHS/CDC), pre-publication · tier 1 · REG · advisory
+- **First seen:** 2026-11-19T14:47+03:00 EAT · **Source date:** 2026-11-16
+- **URL:** https://www.federalregister.gov/api/v1/public-inspection-documents/current.json
+- **Extract:** {"count":100,"results":[{"agencies":[{"raw_name":"Health and Human Services Department","name":"Health and Human Services Department","id":221,"url":"https://www.federalregister.gov/agencies/health-and-human-services-department","json_url":"https://www.federal
+- **Score parts:** tier +40, category +32, lead +3.6, relevance +0, freshness +19.8, stale_trap -10, page_change -4
+
+### 🟡 [81.2] Tourist tax is coming. Where’s the plan?
+- **Verdict:** CONSIDER
+- **Source:** Hospitality Net: Africa openings · tier 2 · AFRICA · trade
+- **First seen:** 2026-11-19T14:48+03:00 EAT · **Source date:** 2026-11-19
+- **URL:** https://www.hospitalitynet.org/opinion/4135404/tourist-tax-is-coming-wheres-the-plan
+- **Extract:** England's incoming overnight visitor levy prompts hoteliers to demand transparent spending plans, with UKHospitality warning a 5% levy could cost 11.9 million visitor nights and 33,000 jobs.
+- **Score parts:** tier +20, category +5, lead +2.4, relevance +24, freshness +19.8, corroborated +10
+
+### 🟡 [80.2] Air Transat NS27 Europe / Africa Service Changes – 18NOV26
+- **Verdict:** CONSIDER
+- **Source:** AeroRoutes schedule filings · tier 2 · GLOBAL · aviation-tracker
+- **First seen:** 2026-11-19T14:48+03:00 EAT · **Source date:** 2026-11-19
+- **URL:** https://www.aeroroutes.com/eng/261119-tsns27at
+- **Extract:** Published at 0200PCT / 0900GMT 19NOV26 Air Transat in the last few weeks filed various changes for Northern summer 2027 season, as the carrier adjusts service to Europe and North Africa. Following frequency comparison are based on schedule July 2026 vs July 20
+- **Score parts:** tier +20, category +14, lead +8.4, relevance +8, freshness +19.8, corroborated +10
+
+### 🟡 [80.2] WestJet Discontinues Tulum in early-Jan 2027
+- **Verdict:** CONSIDER
+- **Source:** AeroRoutes schedule filings · tier 2 · GLOBAL · aviation-tracker
+- **First seen:** 2026-11-19T14:48+03:00 EAT · **Source date:** 2026-11-19
+- **URL:** https://www.aeroroutes.com/eng/261119-wsjan27tqo
+- **Extract:** Published at 0100PCT / 0800GMT 19NOV26 WestJet in the first quarter of 2027 is discontinuing service to Tulum in Mexico, where it currently operates 3 routes. Affected routes as follows. Calgary – Tulum 2 weekly 737-800/MAX 8 until 14JAN27 Montreal – Tulum 3 w
+- **Score parts:** tier +20, category +14, lead +8.4, relevance +8, freshness +19.8, corroborated +10
+
+### 🟡 [80.2] WestJet Resumes 5 Domestic Routes in NS27
+- **Verdict:** CONSIDER
+- **Source:** AeroRoutes schedule filings · tier 2 · GLOBAL · aviation-tracker
+- **First seen:** 2026-11-19T14:48+03:00 EAT · **Source date:** 2026-11-19
+- **URL:** https://www.aeroroutes.com/eng/261119-wsns27ca
+- **Extract:** Published at 0000PCT / 0700GMT 19NOV26 WestJet during Northern summer 2027 season plans to resume 5 domestic routes, after one year hiatus in 2026. These services will be operated by a mix of 737-700/-800 and MAX 8。 Edmonton – Montreal eff 24MAR27 6 weekly (1 
+- **Score parts:** tier +20, category +14, lead +8.4, relevance +8, freshness +19.8, corroborated +10
+
+### 🟡 [80.2] TAP Air Portugal Adds Porto – Washington in NS27
+- **Verdict:** CONSIDER
+- **Source:** AeroRoutes schedule filings · tier 2 · GLOBAL · aviation-tracker
+- **First seen:** 2026-11-19T14:48+03:00 EAT · **Source date:** 2026-11-19
+- **URL:** https://www.aeroroutes.com/eng/261118-tpns27opoiad
+- **Extract:** Published at 2200PCT 18NOV26 / 0500GMT 19NOV26 TAP Air Portugal during Northern summer 2027 season plans to launch Porto – Washington Dulles route, on board Airbus A321LR aircraft. The Star Alliance member plans to serve this route 3 times weekly from 30MAR27.
+- **Score parts:** tier +20, category +14, lead +8.4, relevance +8, freshness +19.8, corroborated +10
+
+### 🟡 [80.2] Nauru Airlines Increases Brisbane Service in NW26
+- **Verdict:** CONSIDER
+- **Source:** AeroRoutes schedule filings · tier 2 · GLOBAL · aviation-tracker
+- **First seen:** 2026-11-19T14:48+03:00 EAT · **Source date:** 2026-11-19
+- **URL:** https://www.aeroroutes.com/eng/261118-onnw26bne
+- **Extract:** Published at 2100PCT 18NOV26 / 0400GMT 19NOV26 Nauru Airlines since the launch of Northern winter 2026/27 season increased Naoreo – Brisbane flight, with the addition of 4th weekly flight from 31OCT26. The additional service is operated by Skytrans Airbus A319
+- **Score parts:** tier +20, category +14, lead +8.4, relevance +8, freshness +19.8, corroborated +10
+
+### 🟡 [80.2] Kenya, Tanzania and Zambia expand access to oral health services at primary care level
+- **Verdict:** CONSIDER
+- **Source:** WHO AFRO — Kenya country newsroom · tier 1 · KE · health
+- **First seen:** 2026-11-19T14:47+03:00 EAT · **Source date:** — none stated
+- **URL:** https://www.afro.who.int/countries/kenya/news/kenya-tanzania-and-zambia-expand-access-oral-health-services-primary-care-level
+- **Score parts:** tier +40, category +24, lead +2.4, relevance +0, freshness +19.8, undated -6
+
+### 🟡 [80.2] Kenya launches new national report and guidelines to keep antimicrobials working
+- **Verdict:** CONSIDER
+- **Source:** WHO AFRO — Kenya country newsroom · tier 1 · KE · health
+- **First seen:** 2026-11-19T14:47+03:00 EAT · **Source date:** — none stated
+- **URL:** https://www.afro.who.int/countries/kenya/news/kenya-launches-new-national-report-and-guidelines-keep-antimicrobials-working
+- **Score parts:** tier +40, category +24, lead +2.4, relevance +0, freshness +19.8, undated -6
+
+### 🟡 [80.2] Helping women in Kenya get a cancer diagnosis sooner
+- **Verdict:** CONSIDER
+- **Source:** WHO AFRO — Kenya country newsroom · tier 1 · KE · health
+- **First seen:** 2026-11-19T14:47+03:00 EAT · **Source date:** — none stated
+- **URL:** https://www.afro.who.int/countries/kenya/news/helping-women-kenya-get-cancer-diagnosis-sooner
+- **Score parts:** tier +40, category +24, lead +2.4, relevance +0, freshness +19.8, undated -6
+
+### 🟡 [80.2] 19 November 2026 | Cluster/Departmental news Kenya, Tanzania and Zambia expand access to oral health services at primary
+- **Verdict:** CONSIDER
+- **Source:** WHO AFRO — Rwanda country newsroom · tier 1 · RW · health
+- **First seen:** 2026-11-19T14:47+03:00 EAT · **Source date:** — none stated
+- **URL:** https://www.afro.who.int/countries/kenya/news/kenya-tanzania-and-zambia-expand-access-oral-health-services-primary-care-level
+- **Score parts:** tier +40, category +24, lead +2.4, relevance +0, freshness +19.8, undated -6
+
+### 🟡 [80.1] 19 November 2026 | Cluster/Departmental news Kenya, Tanzania and Zambia expand access to oral health services at primary
+- **Verdict:** CONSIDER
+- **Source:** WHO AFRO — Uganda country newsroom · tier 1 · UG · health
+- **First seen:** 2026-11-19T14:47+03:00 EAT · **Source date:** — none stated
+- **URL:** https://www.afro.who.int/countries/kenya/news/kenya-tanzania-and-zambia-expand-access-oral-health-services-primary-care-level
+- **Score parts:** tier +40, category +24, lead +2.4, relevance +0, freshness +19.7, undated -6
+
+### 🟡 [79.8] Congo's Ebola outbreak is spreading and killing at a record pace Nov 17 - 2 min read
+- **Verdict:** CONSIDER
+- **Source:** The Citizen (Tanzania) · tier 2 · TZ · press
+- **First seen:** 2026-11-19T14:48+03:00 EAT · **Source date:** — none stated
+- **URL:** https://www.thecitizen.co.tz/tanzania/news/africa/congo-s-ebola-outbreak-is-spreading-and-killing-at-a-record-pace-5673836
+- **Shock language:** outbreak
+- **Score parts:** tier +20, category +4, lead +0, relevance +24, freshness +19.8, undated -6, shock +18
+
+### 🟡 [79.8] Africa CDC says Ebola outbreak still out of control six months since it was declared Nov 16 - 2 min read
+- **Verdict:** CONSIDER
+- **Source:** The Citizen (Tanzania) · tier 2 · TZ · press
+- **First seen:** 2026-11-19T14:48+03:00 EAT · **Source date:** — none stated
+- **URL:** https://www.thecitizen.co.tz/tanzania/news/africa/africa-cdc-says-ebola-outbreak-still-out-of-control-six-months-since-it-was-declared-5672458
+- **Shock language:** outbreak
+- **Score parts:** tier +20, category +4, lead +0, relevance +24, freshness +19.8, undated -6, shock +18
+
+### 🟡 [76.2] Air Canada 1Q27 US / Caribbean Service Reductions
+- **Verdict:** CONSIDER
+- **Source:** AeroRoutes schedule filings · tier 2 · GLOBAL · aviation-tracker
+- **First seen:** 2026-11-19T14:48+03:00 EAT · **Source date:** 2026-11-19
+- **URL:** https://www.aeroroutes.com/eng/261119-ac1q27na
+- **Extract:** Published at 0300PCT / 1000GMT 19NOV26 Air Canada earlier this month filed various service reductions on international flights in the first quarter of 2027, focusing on US and Caribbean markets. Planned service reductions as of 15NOV26 include the following. E
+- **Score parts:** tier +20, category +14, lead +8.4, relevance +4, freshness +19.8, corroborated +10
+
+### 🟡 [72.8] News The delegation of the United Republic of Tanzania, led by Hon. Dr. Khalid Salum Mohamed, Minister of Infrastructure
+- **Verdict:** CONSIDER
+- **Source:** Tanzania Civil Aviation Authority · tier 1 · TZ · aviation
+- **First seen:** 2026-11-19T14:48+03:00 EAT · **Source date:** — none stated
+- **URL:** https://www.tcaa.go.tz/news/tanzania-and-icao-discuss-air-navigation-and-technical-cooperation
+- **Score parts:** tier +40, category +13, lead +6, relevance +0, freshness +19.8, undated -6
+
+### 🟡 [72.2] KAA Proposes New Airport Fees Affecting Motorists
+- **Verdict:** CONSIDER
+- **Source:** Kenyans.co.ke news · tier 2 · KE · press
+- **First seen:** 2026-11-19T14:48+03:00 EAT · **Source date:** 2026-11-19
+- **URL:** https://www.kenyans.co.ke/news/129521-kaa-proposes-new-airport-access-fees-higher-parking-charges-across-kenya
+- **Extract:** The new rates have been submitted for public review and are set to significantly affect motorists visiting the airport for drop-offs and pickups as well as the staff across Kenyan airports.
+- **Score parts:** tier +20, category +4, lead +2.4, relevance +16, freshness +19.8, corroborated +10
+
+### 🟡 [72.2] Details of Proposed Toll Fees on Nairobi-Thika Highway & Southern Bypass
+- **Verdict:** CONSIDER
+- **Source:** Kenyans.co.ke news · tier 2 · KE · press
+- **First seen:** 2026-11-19T14:48+03:00 EAT · **Source date:** 2026-11-19
+- **URL:** https://www.kenyans.co.ke/news/129520-treasury-proposes-toll-fees-nairobi-thika-road-among-other-major-highways
+- **Extract:** For motorists in Nairobi and the neighbouring counties, the proposed toll fees could introduce additional costs when travelling to and from Nairobi CBD.
+- **Score parts:** tier +20, category +4, lead +2.4, relevance +16, freshness +19.8, corroborated +10
+
+### 🟡 [70.8] Order Paper For Thursday, 19th November 2026 - Afternoon Sitting
+- **Verdict:** CONSIDER
+- **Source:** Senate Committee on Delegated Legislation (Kenya) — the committee that annuls or accedes to statutory instruments · tier 1 · KE · REG
+- **First seen:** 2026-11-19T14:47+03:00 EAT · **Source date:** — none stated
+- **URL:** https://www.parliament.go.ke/sites/default/files/2026-11/ORDER%20PAPER%20FOR%20THURSDAY%2C%2019TH%20NOVEMBER%202026%20-%20AFTERNOON%20SITTING_0.pdf
+- **Extract:** !"#$%&''(&#!)*%+$*,'(&!!!!!!!!!!!!!!!!-$.&#!/'00$1(!2.&'%(11(!/$&&$(3!!4516!789:!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!4;9;;:!!<=)>?@AB!C-!D=5E2!!"FA<"==5"F!)2<@A2G=5"!H!4-A-"F!/=//AC5:!!!"#$%&!'(%&)$&**#+,)-$!C<I=</!C-!"F=!I2E!!!!"F></I2EJ!5CK=G?=<!7LJ!;8;9!2"!;6M8
+- **Score parts:** tier +40, category +5, lead +12, relevance +0, freshness +19.8, undated -6
+
+### 🟡 [70.4] IHG Signs Three Holiday Inn Express Hotels in Spain, Expanding Madrid Presence and Entering Murcia
+- **Verdict:** CONSIDER
+- **Source:** Hospitality Net — Africa announcements · tier 2 · REG · trade
+- **First seen:** 2026-11-19T14:48+03:00 EAT · **Source date:** 2026-11-19
+- **URL:** https://www.hospitalitynet.org/news/4135570/ihg-signs-three-holiday-inn-express-hotels-in-spain-expanding-madrid-presence-and-entering-murcia
+- **Extract:** IHG signed three new Holiday Inn Express hotels in Spain, adding two in Madrid and entering Murcia for the first time, with all three set to open between 2028 and 2029.
+- **Score parts:** tier +20, category +5, lead +3.6, relevance +12, freshness +19.8, corroborated +10
+
+### 🟡 [70.2] easyJet Passenger Removed from Luton Flight After Smoking in Aircraft Toilet
+- **Verdict:** CONSIDER
+- **Source:** Travel And Tour World · tier 3 · GLOBAL · trade
+- **First seen:** 2026-11-19T14:48+03:00 EAT · **Source date:** 2026-11-19
+- **URL:** https://www.travelandtourworld.com/news/article/jeicladgpl0v
+- **Extract:** Image Credit: easyJet An easyJet passenger was removed from an aircraft at London Luton Airport after allegedly smoking inside an onboard lavatory, disrupting a scheduled service to Glasgow and delaying departure by approximately one hour. The incident occurre
+- **Score parts:** tier +5, category +5, lead +2.4, relevance +28, freshness +19.8, corroborated +10
+
+### 🟡 [70.2] China Holiday Travel Fuels Cathay Group Passenger Growth as Asian Routes Perform Well
+- **Verdict:** CONSIDER
+- **Source:** Travel And Tour World · tier 3 · GLOBAL · trade
+- **First seen:** 2026-11-19T14:48+03:00 EAT · **Source date:** 2026-11-19
+- **URL:** https://www.travelandtourworld.com/news/article/g3srrc452i9o
+- **Extract:** Image Source: Cathay Pacific The Cathay Group carried 3,424,766 passengers across Cathay Pacific and HK Express in October 2026, supported by holiday journeys from mainland China, strong routes serving South Korea and Thailand, and growing international traffi
+- **Score parts:** tier +5, category +5, lead +2.4, relevance +28, freshness +19.8, corroborated +10
