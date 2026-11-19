@@ -1,5 +1,5 @@
 window.RATE_INDEX = {
- "updated": "2026-11-18 13:38",
+ "updated": "2026-11-19 14:05",
  "convention": {
   "los": 2,
   "lead_days": 30,
@@ -12,7 +12,7 @@ window.RATE_INDEX = {
  "methodNote": "Each property is compared only with itself, so the index measures rate MOVEMENT validly even though the basket mixes meal bases and rate types. Raw medians are context only and are not comparable across markets — check levelComparable before quoting a level.",
  "wowNote": "wow is the matched-sample link for the latest week. wowClean is the same link computed only on pairs whose meal basis was KNOWN and UNCHANGED between the two weeks; basisChangedPairs counts the pairs excluded from it. Where basisChangedPairs is large relative to matched, the headline wow is partly a re-basing artefact — quote wowClean, or quote no move at all.",
  "spreadNote": "Commission-leakage spread = median of (OTA rate / direct rate - 1) for the same property in the same week. Computed only where the direct rate is room-only or B&B, since an OTA lowest rate is not comparable with a fully-inclusive safari rate. Markets where no property qualifies report null.",
- "totalObservations": 894,
+ "totalObservations": 895,
  "distinctProperties": 128,
  "basketSize": 134,
  "markets": {
@@ -580,16 +580,16 @@ window.RATE_INDEX = {
      {
       "week": "2026-W47",
       "weekStart": "2026-11-16",
-      "median": 203.0,
-      "n": 6,
-      "observations": 6,
-      "coverage": 38,
+      "median": 187.0,
+      "n": 7,
+      "observations": 7,
+      "coverage": 44,
       "confident": true,
       "basisMix": {
-       "UNK": 6
+       "UNK": 7
       },
       "rateTypeMix": {
-       "international": 6
+       "international": 7
       },
       "levelComparable": true,
       "matched": 4,
@@ -603,16 +603,16 @@ window.RATE_INDEX = {
     "latest": {
      "week": "2026-W47",
      "weekStart": "2026-11-16",
-     "median": 203.0,
-     "n": 6,
-     "observations": 6,
-     "coverage": 38,
+     "median": 187.0,
+     "n": 7,
+     "observations": 7,
+     "coverage": 44,
      "confident": true,
      "basisMix": {
-      "UNK": 6
+      "UNK": 7
      },
      "rateTypeMix": {
-      "international": 6
+      "international": 7
      },
      "levelComparable": true,
      "matched": 4,
