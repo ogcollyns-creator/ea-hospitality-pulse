@@ -1,5 +1,14 @@
 window.GUIDES = [
  {
+  "slug": "uganda-low-season-permit-discount-busiest-month",
+  "title": "Uganda has cut the gorilla permit price in April, May and November. May was its busiest month of the year.",
+  "description": "A short table in Uganda Wildlife Authority's January 2027 tariff knocks 200 dollars off a gorilla permit in three named months. The Ministry of Tourism's own half-year statistics show one of those months was the single busiest for arrivals, while half the permit book went unsold all year. The discount is keyed to the calendar, and the problem is not calendar-shaped.",
+  "category": "Big Read",
+  "updated": "2026-11-19",
+  "readMins": 9,
+  "image": "img/editions/uganda-low-season-permit-discount-busiest-month.jpg"
+ },
+ {
   "slug": "premium-flyer-levy-kenya-row-that-does-not-add-up",
   "title": "Kenya is first on the list for a levy on business class arrivals. The row of numbers behind it does not add up.",
   "description": "A COP31 declaration launched in Antalya on Tuesday welcomed small levies on polluting sectors, with Kenya among its backers. Four days earlier the task force Kenya co-chairs published the modelling, and Kenya came first of ten countries at $84 million a year. Work the report's own published figures back and the Kenya row implies a revenue base roughly four times the passenger base it uses to count the cost.",
