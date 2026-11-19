@@ -1,18 +1,51 @@
 {
- "generated": "2026-11-19T15:35:01+03:00",
- "slot": "midday",
- "window_start": 1795060800,
- "observations_in_window": 340,
- "deduped_against": 13,
+ "generated": "2026-11-19T21:39:10+03:00",
+ "slot": "evening",
+ "window_start": 1795003200,
+ "observations_in_window": 1187,
+ "deduped_against": 16,
  "candidates": [
   {
-   "score": 100.9,
+   "score": 101.1,
+   "components": {
+    "tier": 40,
+    "category": 32,
+    "lead": 3.6,
+    "relevance": 0,
+    "freshness": 19.5,
+    "corroborated": 10,
+    "page_change": -4
+   },
+   "keywords": [],
+   "shock_terms": [],
+   "dedupe_match": null,
+   "dedupe_similarity": 0.17,
+   "id": "9a73bbeaee62",
+   "title": "[page changed] Federal Register \u2014 public inspection (HHS/CDC), pre-publication",
+   "url": "https://www.federalregister.gov/api/v1/public-inspection-documents/current.json",
+   "summary": "{\"count\":112,\"results\":[{\"agencies\":[{\"raw_name\":\"CHEMICAL SAFETY AND HAZARD INVESTIGATION BOARD\",\"name\":\"Chemical Safety and Hazard Investigation Board\",\"id\":47,\"url\":\"https://www.federalregister.gov/agencies/chemical-safety-and-hazard-investigation-board\",\"json_url\":\"https://www.federalregister.gov/api/v1/agencies/47\",\"parent_id\":null,\"slug\":\"chemical-safety-and-hazard-investigation-board\"}],\"ag",
+   "kind": "page-change",
+   "source": "Federal Register \u2014 public inspection (HHS/CDC), pre-publication",
+   "source_id": "us-fedreg-pubinspect-hhs",
+   "tier": 1,
+   "country": "REG",
+   "category": "advisory",
+   "segments": [
+    "city",
+    "bush"
+   ],
+   "first_seen": "2026-11-19T21:22+03:00",
+   "published": "2026-11-18",
+   "verdict": "OPEN THIS \u2014 tier-1 advisory page moved; content not auto-parsed, read it manually"
+  },
+  {
+   "score": 94.3,
    "components": {
     "tier": 40,
     "category": 32,
     "lead": 12.0,
     "relevance": 8,
-    "freshness": 18.9,
+    "freshness": 12.3,
     "undated": -6,
     "page_change": -4
    },
@@ -41,13 +74,189 @@
    "verdict": "OPEN THIS \u2014 tier-1 advisory page moved; content not auto-parsed, read it manually"
   },
   {
-   "score": 103.3,
+   "score": 65.1,
+   "components": {
+    "tier": 40,
+    "category": 12,
+    "lead": 3.6,
+    "relevance": 0,
+    "freshness": 19.5,
+    "undated": -6,
+    "page_change": -4
+   },
+   "keywords": [],
+   "shock_terms": [],
+   "dedupe_match": null,
+   "dedupe_similarity": 0.0,
+   "id": "79fa41e323bd",
+   "title": "[page changed] Airlink news",
+   "url": "https://www.flyairlink.com/",
+   "summary": "Request unsuccessful. Incapsula incident ID: 2107000820029651863-8712908233708678",
+   "kind": "page-change",
+   "source": "Airlink news",
+   "source_id": "air-airlink",
+   "tier": 1,
+   "country": "REG",
+   "category": "airline",
+   "segments": [
+    "city",
+    "bush",
+    "beach"
+   ],
+   "first_seen": "2026-11-19T21:21+03:00",
+   "published": null,
+   "verdict": "OPEN THIS \u2014 tier-1 airline page moved; content not auto-parsed, read it manually"
+  },
+  {
+   "score": 48.1,
+   "components": {
+    "tier": 40,
+    "category": 12,
+    "lead": 3.6,
+    "relevance": 0,
+    "freshness": 2.5,
+    "undated": -6,
+    "page_change": -4
+   },
+   "keywords": [],
+   "shock_terms": [],
+   "dedupe_match": null,
+   "dedupe_similarity": 0.0,
+   "id": "cfbd606d393b",
+   "title": "[page changed] Airlink news",
+   "url": "https://www.flyairlink.com/",
+   "summary": "Request unsuccessful. Incapsula incident ID: 341000490156172577-256329416388709493",
+   "kind": "page-change",
+   "source": "Airlink news",
+   "source_id": "air-airlink",
+   "tier": 1,
+   "country": "REG",
+   "category": "airline",
+   "segments": [
+    "city",
+    "bush",
+    "beach"
+   ],
+   "first_seen": "2026-11-19T05:57+03:00",
+   "published": null,
+   "verdict": "OPEN THIS \u2014 tier-1 airline page moved; content not auto-parsed, read it manually"
+  },
+  {
+   "score": 97.3,
+   "components": {
+    "tier": 40,
+    "category": 15,
+    "lead": 16.8,
+    "relevance": 12,
+    "freshness": 19.5,
+    "undated": -6
+   },
+   "keywords": [
+    "levy",
+    "investment"
+   ],
+   "shock_terms": [],
+   "dedupe_match": null,
+   "dedupe_similarity": 0.0,
+   "id": "52fb2dc24a29",
+   "title": "Template for Submitting Comments Export and Investment Promotion Levy Fund final.docx",
+   "url": "https://www.treasury.go.ke/sites/default/files/Latest%20updates/Template%20for%20Submitting%20Comments%20Export%20and%20Investment%20Promotion%20Levy%20Fund%20final.docx",
+   "summary": "",
+   "kind": "doc",
+   "source": "National Treasury Kenya",
+   "source_id": "ke-treasury",
+   "tier": 1,
+   "country": "KE",
+   "category": "fiscal",
+   "segments": [
+    "city",
+    "bush",
+    "beach"
+   ],
+   "first_seen": "2026-11-19T21:21+03:00",
+   "published": null,
+   "verdict": "STRONG \u2014 tier-1, upstream"
+  },
+  {
+   "score": 97.3,
+   "components": {
+    "tier": 40,
+    "category": 15,
+    "lead": 16.8,
+    "relevance": 12,
+    "freshness": 19.5,
+    "undated": -6
+   },
+   "keywords": [
+    "levy",
+    "investment"
+   ],
+   "shock_terms": [],
+   "dedupe_match": null,
+   "dedupe_similarity": 0.1,
+   "id": "0442a563f3c5",
+   "title": "EXPLANATORY MEMORANDUM FOR THE PUBLIC FINANCE MANAGEMENT (EXPORT AND INVESTMENT PROMOTION LEVY FUND) REGULATIONS, 2026",
+   "url": "https://www.treasury.go.ke/sites/default/files/Latest%20updates/The%20Public%20Finance%20Management%20%28Export%20and%20Investment%20Promotion%20Levy%20Fund%29%20Regulations%2C%202026%20%285%29.docx",
+   "summary": "PK\u0003\u0004\u0014\u0000\u0006\u0000\b\u0000\u0000\u0000!\u0000 #\u0004\u00fbp\u0001\u0000\u0000\"\u0006\u0000\u0000\u0013\u0000\b\u0002[Content_Types].xml \u00a2\u0004\u0002( \u0000\u0002\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000",
+   "kind": "doc",
+   "source": "National Treasury Kenya",
+   "source_id": "ke-treasury",
+   "tier": 1,
+   "country": "KE",
+   "category": "fiscal",
+   "segments": [
+    "city",
+    "bush",
+    "beach"
+   ],
+   "first_seen": "2026-11-19T21:21+03:00",
+   "published": null,
+   "verdict": "STRONG \u2014 tier-1, upstream"
+  },
+  {
+   "score": 97.3,
+   "components": {
+    "tier": 40,
+    "category": 15,
+    "lead": 16.8,
+    "relevance": 12,
+    "freshness": 19.5,
+    "undated": -6
+   },
+   "keywords": [
+    "levy",
+    "investment"
+   ],
+   "shock_terms": [],
+   "dedupe_match": null,
+   "dedupe_similarity": 0.1,
+   "id": "ffdfa2201190",
+   "title": "REGULATIONS - THE PUBLIC FINANCE MANAGEMENT (EXPORT AND INVESTMENT PROMOTION LEVY FUND) REGULATIONS, 2026",
+   "url": "https://www.treasury.go.ke/sites/default/files/Latest%20updates/PUBLIC%20NOTICE%20-%20Export%20and%20Investment%20Promotion%20FUND.doc",
+   "summary": "\u00d0\u00cf\u0011\u00e0\u00a1\u00b1\u001a\u00e1\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000>\u0000\u0003\u0000\u00fe\u00ff \u0000\u0006\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0002\u0000\u0000\u0000\u0092\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0010\u0000\u0000\u0095\u0000\u0000\u0000\u0001\u0000\u0000\u0000\u00fe\u00ff\u00ff\u00ff\u0000\u0000\u0000\u0000\u0090\u0000\u0000\u0000\u0091\u0000\u0000\u0000\u00ff\u00ff\u00ff\u00ff\u00ff\u00ff\u00ff\u00ff\u00ff\u00ff\u00ff\u00ff\u00ff\u00ff\u00ff\u00ff\u00ff\u00ff\u00ff\u00ff\u00ff\u00ff\u00ff\u00ff\u00ff\u00ff\u00ff\u00ff\u00ff\u00ff\u00ff\u00ff\u00ff\u00ff\u00ff\u00ff\u00ff\u00ff\u00ff\u00ff\u00ff\u00ff\u00ff\u00ff\u00ff\u00ff\u00ff\u00ff\u00ff\u00ff\u00ff\u00ff\u00ff\u00ff\u00ff\u00ff\u00ff\u00ff\u00ff\u00ff\u00ff\u00ff\u00ff\u00ff\u00ff\u00ff\u00ff\u00ff\u00ff\u00ff\u00ff\u00ff\u00ff\u00ff\u00ff\u00ff\u00ff\u00ff\u00ff\u00ff\u00ff\u00ff\u00ff\u00ff\u00ff\u00ff\u00ff\u00ff\u00ff\u00ff\u00ff\u00ff\u00ff\u00ff\u00ff\u00ff\u00ff\u00ff\u00ff\u00ff\u00ff\u00ff\u00ff\u00ff\u00ff\u00ff\u00ff\u00ff\u00ff\u00ff\u00ff\u00ff\u00ff\u00ff\u00ff\u00ff\u00ff\u00ff\u00ff\u00ff\u00ff\u00ff\u00ff\u00ff\u00ff\u00ff\u00ff\u00ff\u00ff\u00ff\u00ff\u00ff\u00ff\u00ff\u00ff\u00ff\u00ff\u00ff\u00ff\u00ff\u00ff\u00ff\u00ff\u00ff\u00ff\u00ff\u00ff\u00ff\u00ff\u00ff\u00ff\u00ff\u00ff\u00ff\u00ff\u00ff\u00ff\u00ff\u00ff\u00ff\u00ff\u00ff\u00ff\u00ff\u00ff\u00ff\u00ff\u00ff\u00ff\u00ff\u00ff\u00ff\u00ff\u00ff\u00ff\u00ff\u00ff\u00ff\u00ff\u00ff\u00ff\u00ff\u00ff\u00ff\u00ff\u00ff\u00ff\u00ff\u00ff\u00ff\u00ff\u00ff\u00ff\u00ff\u00ff\u00ff\u00ff\u00ff\u00ff\u00ff\u00ff\u00ff\u00ff\u00ff\u00ff\u00ff\u00ff\u00ff\u00ff\u00ff\u00ff\u00ff\u00ff\u00ff\u00ff\u00ff\u00ff\u00ff\u00ff\u00ff\u00ff\u00ff\u00ff\u00ff\u00ff\u00ff\u00ff\u00ff\u00ff\u00ff\u00ff\u00ff\u00ff\u00ff\u00ff\u00ff\u00ff\u00ff\u00ff\u00ff\u00ff\u00ff\u00ff\u00ff\u00ff\u00ff\u00ff\u00ff\u00ff\u00ff\u00ff\u00ff\u00ff\u00ff\u00ff\u00ff\u00ff\u00ff\u00ff\u00ff\u00ff\u00ff\u00ff\u00ff\u00ff\u00ff\u00ff\u00ff\u00ff\u00ff\u00ff\u00ff\u00ff\u00ff\u00ff\u00ff\u00ff\u00ff\u00ff\u00ff\u00ff\u00ff\u00ff\u00ff\u00ff\u00ff\u00ff\u00ff\u00ff\u00ff\u00ff\u00ff\u00ff\u00ff\u00ff\u00ff\u00ff\u00ff\u00ff\u00ff\u00ff\u00ff\u00ff\u00ff\u00ff\u00ff\u00ff\u00ff\u00ff\u00ff\u00ff\u00ff\u00ff\u00ff\u00ff\u00ff",
+   "kind": "doc",
+   "source": "National Treasury Kenya",
+   "source_id": "ke-treasury",
+   "tier": 1,
+   "country": "KE",
+   "category": "fiscal",
+   "segments": [
+    "city",
+    "bush",
+    "beach"
+   ],
+   "first_seen": "2026-11-19T21:21+03:00",
+   "published": null,
+   "verdict": "STRONG \u2014 tier-1, upstream"
+  },
+  {
+   "score": 96.7,
    "components": {
     "tier": 40,
     "category": 18,
     "lead": 8.4,
     "relevance": 8,
-    "freshness": 18.9,
+    "freshness": 12.3,
     "corroborated": 10
    },
    "keywords": [
@@ -74,13 +283,114 @@
    "verdict": "STRONG \u2014 tier-1, upstream"
   },
   {
-   "score": 101.3,
+   "score": 95.9,
+   "components": {
+    "tier": 20,
+    "category": 14,
+    "lead": 8.4,
+    "relevance": 24,
+    "freshness": 19.5,
+    "corroborated": 10
+   },
+   "keywords": [
+    "suspend",
+    "route",
+    "airline"
+   ],
+   "shock_terms": [],
+   "dedupe_match": null,
+   "dedupe_similarity": 0.43,
+   "id": "58978db8514a",
+   "title": "American 1H27 Los Angeles Network Changes",
+   "url": "https://www.aeroroutes.com/eng/261119-aa1h27lax",
+   "summary": "Published at 0800PCT / 1500GMT 19NOV26 American Airlines in the first half of 2027 schedules service changes at Los Angeles , as the airline removes 3 routes, while adding 3. Network additions: Los Angeles \u2013 Bozeman 27MAY27 \u2013 09AUG27 1 daily Embraer E175 (Skywest) Los Angeles \u2013 Grand Junction eff 27MAY27 1 daily CRJ700 (Skywest; Last served until August 2021) Los Angeles \u2013 Reno eff 27MAY27 3 daily",
+   "kind": "item",
+   "source": "AeroRoutes schedule filings",
+   "source_id": "aeroroutes",
+   "tier": 2,
+   "country": "GLOBAL",
+   "category": "aviation-tracker",
+   "segments": [
+    "city",
+    "bush",
+    "beach"
+   ],
+   "first_seen": "2026-11-19T21:22+03:00",
+   "published": "2026-11-19",
+   "verdict": "CONSIDER"
+  },
+  {
+   "score": 95.9,
+   "components": {
+    "tier": 40,
+    "category": 24,
+    "lead": 2.4,
+    "relevance": 0,
+    "freshness": 19.5,
+    "corroborated": 10
+   },
+   "keywords": [],
+   "shock_terms": [],
+   "dedupe_match": null,
+   "dedupe_similarity": 0.17,
+   "id": "6a3c1c6b539f",
+   "title": "SitRep N\u00b0188/MVE-BDBV/18/11/2026",
+   "url": "https://insp.cd/sitrep-n188-mve-bdbv-18-11-2026",
+   "summary": "",
+   "kind": "item",
+   "source": "INSP RDC \u2014 Ebola daily situation reports (SitRep)",
+   "source_id": "cd-insp-sitrep",
+   "tier": 1,
+   "country": "GLOBAL",
+   "category": "health",
+   "segments": [
+    "City",
+    "Bush"
+   ],
+   "first_seen": "2026-11-19T21:22+03:00",
+   "published": "2026-11-19",
+   "verdict": "STRONG \u2014 tier-1, upstream"
+  },
+  {
+   "score": 95.9,
+   "components": {
+    "tier": 40,
+    "category": 24,
+    "lead": 2.4,
+    "relevance": 0,
+    "freshness": 19.5,
+    "corroborated": 10
+   },
+   "keywords": [],
+   "shock_terms": [],
+   "dedupe_match": null,
+   "dedupe_similarity": 0.17,
+   "id": "66ae4489df8d",
+   "title": "SitRep N\u00b0187/MVE-BDBV/17/11/2026",
+   "url": "https://insp.cd/sitrep-n187-mve-bdbv-17-11-2026",
+   "summary": "",
+   "kind": "item",
+   "source": "INSP RDC \u2014 Ebola daily situation reports (SitRep)",
+   "source_id": "cd-insp-sitrep",
+   "tier": 1,
+   "country": "GLOBAL",
+   "category": "health",
+   "segments": [
+    "City",
+    "Bush"
+   ],
+   "first_seen": "2026-11-19T21:22+03:00",
+   "published": "2026-11-19",
+   "verdict": "STRONG \u2014 tier-1, upstream"
+  },
+  {
+   "score": 94.7,
    "components": {
     "tier": 40,
     "category": 18,
     "lead": 8.4,
     "relevance": 16,
-    "freshness": 18.9
+    "freshness": 12.3
    },
    "keywords": [
     "conservanc",
@@ -107,13 +417,13 @@
    "verdict": "STRONG \u2014 tier-1, upstream"
   },
   {
-   "score": 99.3,
+   "score": 92.7,
    "components": {
     "tier": 20,
     "category": 14,
     "lead": 8.4,
     "relevance": 28,
-    "freshness": 18.9,
+    "freshness": 12.3,
     "corroborated": 10
    },
    "keywords": [
@@ -145,13 +455,240 @@
    "verdict": "CONSIDER"
   },
   {
-   "score": 89.9,
+   "score": 92.4,
+   "components": {
+    "tier": 5,
+    "category": 5,
+    "lead": 2.4,
+    "relevance": 52,
+    "freshness": 0.0,
+    "corroborated": 10,
+    "shock": 18
+   },
+   "keywords": [
+    "evacuat",
+    "cancel",
+    "tax",
+    "airport",
+    "airline",
+    "flight",
+    "passenger"
+   ],
+   "shock_terms": [
+    "evacuat"
+   ],
+   "dedupe_match": null,
+   "dedupe_similarity": 0.17,
+   "id": "04d72f4a76a1",
+   "title": "British Airways Dreamliner Veers Off Heathrow Taxiway Into Mud, Prompting Evacuation",
+   "url": "https://www.travelandtourworld.com/news/article/6ssp39fmpzjb",
+   "summary": "Image Source: British Airways Media Centre Passengers were put in panic as a British Airways Dreamliner skidded off a taxiway at Heathrow airport, causing it to be evacuated. The incident happened after flight BA75 failed to turn left onto the runway. The large plane then plunged into the grassy verge and emergency services rushed to the scene. Ground staff brought mobile steps to the location, an",
+   "kind": "item",
+   "source": "Travel And Tour World",
+   "source_id": "gl-travelandtourworld",
+   "tier": 3,
+   "country": "GLOBAL",
+   "category": "trade",
+   "segments": [
+    "city",
+    "bush",
+    "beach"
+   ],
+   "first_seen": "2026-11-18T21:06+03:00",
+   "published": "2026-11-18",
+   "verdict": "CONSIDER"
+  },
+  {
+   "score": 87.9,
+   "components": {
+    "tier": 20,
+    "category": 14,
+    "lead": 8.4,
+    "relevance": 16,
+    "freshness": 19.5,
+    "corroborated": 10
+   },
+   "keywords": [
+    "route",
+    "airline",
+    "flight"
+   ],
+   "shock_terms": [],
+   "dedupe_match": null,
+   "dedupe_similarity": 0.17,
+   "id": "7ae9e99ee43c",
+   "title": "Frontier Resumes Baltimore \u2013 Punta Cana in NS27",
+   "url": "https://www.aeroroutes.com/eng/261119-f9ns27bwipuj",
+   "summary": "Published at 0900PCT / 1600GMT 19NOV26 Frontier Airlines during Northern summer 2027 season resumes Baltimore/Washington \u2013 Punta Cana route, last served until November 2014. The carrier will operate 3 weekly flights with Airbus A321 aircraft, from 10JUN27 to 15AUG27. F9014 BWI0600 \u2013 0944PUJ 321 247 F9015 PUJ1205 \u2013 1600BWI 321 247",
+   "kind": "item",
+   "source": "AeroRoutes schedule filings",
+   "source_id": "aeroroutes",
+   "tier": 2,
+   "country": "GLOBAL",
+   "category": "aviation-tracker",
+   "segments": [
+    "city",
+    "bush",
+    "beach"
+   ],
+   "first_seen": "2026-11-19T21:22+03:00",
+   "published": "2026-11-19",
+   "verdict": "CONSIDER"
+  },
+  {
+   "score": 87.9,
+   "components": {
+    "tier": 20,
+    "category": 14,
+    "lead": 8.4,
+    "relevance": 16,
+    "freshness": 19.5,
+    "corroborated": 10
+   },
+   "keywords": [
+    "route",
+    "airline",
+    "flight"
+   ],
+   "shock_terms": [],
+   "dedupe_match": null,
+   "dedupe_similarity": 0.29,
+   "id": "4690ef84d9c3",
+   "title": "Delta Discontinues New York JFK \u2013 Washington Dulles in Feb 2027",
+   "url": "https://www.aeroroutes.com/eng/261119-dlfeb27jfkiad",
+   "summary": "Published at 0500PCT / 1200GMT 19NOV26 Delta from February 2027 plans to discontinue New York JFK \u2013 Washington Dulles service, with last flight scheduled on 10FEB27. The airline currently serves this route twice daily with Endeavor Air CRJ900 aircraft. DL4769 JFK1455 \u2013 1617IAD CR9 D DL5076 JFK1559 \u2013 1733IAD CR9 D DL4770 IAD0700 \u2013 0824JFK CR9 D DL5076 IAD1815 \u2013 1949JFK CR9 D",
+   "kind": "item",
+   "source": "AeroRoutes schedule filings",
+   "source_id": "aeroroutes",
+   "tier": 2,
+   "country": "GLOBAL",
+   "category": "aviation-tracker",
+   "segments": [
+    "city",
+    "bush",
+    "beach"
+   ],
+   "first_seen": "2026-11-19T21:22+03:00",
+   "published": "2026-11-19",
+   "verdict": "CONSIDER"
+  },
+  {
+   "score": 87.5,
+   "components": {
+    "tier": 20,
+    "category": 4,
+    "lead": 0.0,
+    "relevance": 16,
+    "freshness": 19.5,
+    "corroborated": 10,
+    "shock": 18
+   },
+   "keywords": [
+    "strike",
+    "conference",
+    "investment"
+   ],
+   "shock_terms": [
+    "strike"
+   ],
+   "dedupe_match": null,
+   "dedupe_similarity": 0.17,
+   "id": "75ce194f3b41",
+   "title": "Tanzania strikes gold in Barrick-Twiga partnership",
+   "url": "https://dailynews.co.tz/tanzania-strikes-gold-in-barrick-twiga-partnership",
+   "summary": "DAR ES SALAAM: TANZANIA has struck gold in Barrick-Twiga mining partnership, the ongoing Tanzania Mining and Investment Conference held in Dar es Salaam disclosed today, November 19, 2026. The conference cherished the partnership saying its joint investment has a bright future as it will continue to benefit Tanzania and Tanzanians. This comes after Tanzania reaped \u2026 The post Tanzania strikes gold ",
+   "kind": "item",
+   "source": "Daily News (Tanzania)",
+   "source_id": "np-dailynews-tz",
+   "tier": 2,
+   "country": "TZ",
+   "category": "press",
+   "segments": [
+    "city",
+    "bush",
+    "beach"
+   ],
+   "first_seen": "2026-11-19T21:22+03:00",
+   "published": "2026-11-19",
+   "verdict": "CONSIDER"
+  },
+  {
+   "score": 85.3,
+   "components": {
+    "tier": 40,
+    "category": 15,
+    "lead": 16.8,
+    "relevance": 0,
+    "freshness": 19.5,
+    "undated": -6
+   },
+   "keywords": [],
+   "shock_terms": [],
+   "dedupe_match": null,
+   "dedupe_similarity": 0.0,
+   "id": "0be5ad8f38ef",
+   "title": "TEMPLATE FOR SUBMITTING COMMENTS",
+   "url": "https://www.treasury.go.ke/sites/default/files/Latest%20updates/Explanatory%20memorandum%20Export%20and%20Investment%20Promotion%20Fund%20final..doc",
+   "summary": "\u00d0\u00cf\u0011\u00e0\u00a1\u00b1\u001a\u00e1\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000>\u0000\u0003\u0000\u00fe\u00ff \u0000\u0006\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0001\u0000\u0000\u0000Y\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0010\u0000\u0000[\u0000\u0000\u0000\u0001\u0000\u0000\u0000\u00fe\u00ff\u00ff\u00ff\u0000\u0000\u0000\u0000X\u0000\u0000\u0000\u00ff\u00ff\u00ff\u00ff\u00ff\u00ff\u00ff\u00ff\u00ff\u00ff\u00ff\u00ff\u00ff\u00ff\u00ff\u00ff\u00ff\u00ff\u00ff\u00ff\u00ff\u00ff\u00ff\u00ff\u00ff\u00ff\u00ff\u00ff\u00ff\u00ff\u00ff\u00ff\u00ff\u00ff\u00ff\u00ff\u00ff\u00ff\u00ff\u00ff\u00ff\u00ff\u00ff\u00ff\u00ff\u00ff\u00ff\u00ff\u00ff\u00ff\u00ff\u00ff\u00ff\u00ff\u00ff\u00ff\u00ff\u00ff\u00ff\u00ff\u00ff\u00ff\u00ff\u00ff\u00ff\u00ff\u00ff\u00ff\u00ff\u00ff\u00ff\u00ff\u00ff\u00ff\u00ff\u00ff\u00ff\u00ff\u00ff\u00ff\u00ff\u00ff\u00ff\u00ff\u00ff\u00ff\u00ff\u00ff\u00ff\u00ff\u00ff\u00ff\u00ff\u00ff\u00ff\u00ff\u00ff\u00ff\u00ff\u00ff\u00ff\u00ff\u00ff\u00ff\u00ff\u00ff\u00ff\u00ff\u00ff\u00ff\u00ff\u00ff\u00ff\u00ff\u00ff\u00ff\u00ff\u00ff\u00ff\u00ff\u00ff\u00ff\u00ff\u00ff\u00ff\u00ff\u00ff\u00ff\u00ff\u00ff\u00ff\u00ff\u00ff\u00ff\u00ff\u00ff\u00ff\u00ff\u00ff\u00ff\u00ff\u00ff\u00ff\u00ff\u00ff\u00ff\u00ff\u00ff\u00ff\u00ff\u00ff\u00ff\u00ff\u00ff\u00ff\u00ff\u00ff\u00ff\u00ff\u00ff\u00ff\u00ff\u00ff\u00ff\u00ff\u00ff\u00ff\u00ff\u00ff\u00ff\u00ff\u00ff\u00ff\u00ff\u00ff\u00ff\u00ff\u00ff\u00ff\u00ff\u00ff\u00ff\u00ff\u00ff\u00ff\u00ff\u00ff\u00ff\u00ff\u00ff\u00ff\u00ff\u00ff\u00ff\u00ff\u00ff\u00ff\u00ff\u00ff\u00ff\u00ff\u00ff\u00ff\u00ff\u00ff\u00ff\u00ff\u00ff\u00ff\u00ff\u00ff\u00ff\u00ff\u00ff\u00ff\u00ff\u00ff\u00ff\u00ff\u00ff\u00ff\u00ff\u00ff\u00ff\u00ff\u00ff\u00ff\u00ff\u00ff\u00ff\u00ff\u00ff\u00ff\u00ff\u00ff\u00ff\u00ff\u00ff\u00ff\u00ff\u00ff\u00ff\u00ff\u00ff\u00ff\u00ff\u00ff\u00ff\u00ff\u00ff\u00ff\u00ff\u00ff\u00ff\u00ff\u00ff\u00ff\u00ff\u00ff\u00ff\u00ff\u00ff\u00ff\u00ff\u00ff\u00ff\u00ff\u00ff\u00ff\u00ff\u00ff\u00ff\u00ff\u00ff\u00ff\u00ff\u00ff\u00ff\u00ff\u00ff\u00ff\u00ff\u00ff\u00ff\u00ff\u00ff\u00ff\u00ff\u00ff\u00ff\u00ff\u00ff\u00ff\u00ff\u00ff\u00ff\u00ff\u00ff\u00ff\u00ff\u00ff\u00ff\u00ff\u00ff\u00ff\u00ff\u00ff\u00ff\u00ff\u00ff\u00ff\u00ff\u00ff\u00ff\u00ff\u00ff\u00ff\u00ff\u00ff\u00ff",
+   "kind": "doc",
+   "source": "National Treasury Kenya",
+   "source_id": "ke-treasury",
+   "tier": 1,
+   "country": "KE",
+   "category": "fiscal",
+   "segments": [
+    "city",
+    "bush",
+    "beach"
+   ],
+   "first_seen": "2026-11-19T21:21+03:00",
+   "published": null,
+   "verdict": "CONSIDER"
+  },
+  {
+   "score": 83.9,
+   "components": {
+    "tier": 20,
+    "category": 14,
+    "lead": 8.4,
+    "relevance": 12,
+    "freshness": 19.5,
+    "corroborated": 10
+   },
+   "keywords": [
+    "route",
+    "flight"
+   ],
+   "shock_terms": [],
+   "dedupe_match": null,
+   "dedupe_similarity": 0.14,
+   "id": "b1db225d8fc4",
+   "title": "Denver Air Connection Adds Orlando Sanford \u2013 Muskegon in 1Q27",
+   "url": "https://www.aeroroutes.com/eng/261119-kg1q27mkg",
+   "summary": "Published at 0600PCT / 1300GMT 19NOV26 Denver Air Connection in January 2027 plans to add Orlando Sanford \u2013 Muskegon route, with Embraer ERJ145 aircraft scheduled on weekly basis. First flight is scheduled on 09JAN27. KG5723 SFB1500 \u2013 1730MKG ER4 6 KG5712 MKG1145 \u2013 1405SFB ER4 6",
+   "kind": "item",
+   "source": "AeroRoutes schedule filings",
+   "source_id": "aeroroutes",
+   "tier": 2,
+   "country": "GLOBAL",
+   "category": "aviation-tracker",
+   "segments": [
+    "city",
+    "bush",
+    "beach"
+   ],
+   "first_seen": "2026-11-19T21:22+03:00",
+   "published": "2026-11-19",
+   "verdict": "CONSIDER"
+  },
+  {
+   "score": 83.2,
    "components": {
     "tier": 40,
     "category": 7,
     "lead": 6.0,
     "relevance": 8,
-    "freshness": 18.9,
+    "freshness": 12.2,
     "corroborated": 10
    },
    "keywords": [
@@ -178,13 +715,164 @@
    "verdict": "CONSIDER"
   },
   {
-   "score": 87.3,
+   "score": 82.3,
+   "components": {
+    "tier": 40,
+    "category": 9,
+    "lead": 16.8,
+    "relevance": 4,
+    "freshness": 2.5,
+    "corroborated": 10
+   },
+   "keywords": [
+    "guest"
+   ],
+   "shock_terms": [],
+   "dedupe_match": null,
+   "dedupe_similarity": 0.25,
+   "id": "eb6abf23c7c3",
+   "title": "A Welcome in Every Language: Hilton Expands No-Cost Language Learning to All Team Members",
+   "url": "https://stories.hilton.com/releases/hilton-expands-no-cost-language-learning-to-all-team-members",
+   "summary": "At Hilton, the ability to connect across cultures and languages is essential to delivering a welcoming guest experience. That\u2019s why Hilton is expanding its Language Learning Program, giving more than 500,000 team members across its global workforce access to multilingual learning resources at no cost. By helping team members communicate more confidently with guests and [\u2026] The post A Welcome in Ev",
+   "kind": "item",
+   "source": "Hilton stories/newsroom",
+   "source_id": "dev-hilton",
+   "tier": 1,
+   "country": "GLOBAL",
+   "category": "hotel-group",
+   "segments": [
+    "city",
+    "bush",
+    "beach"
+   ],
+   "first_seen": "2026-11-19T05:57+03:00",
+   "published": "2026-11-18",
+   "verdict": "CONSIDER"
+  },
+  {
+   "score": 82.1,
+   "components": {
+    "tier": 20,
+    "category": 5,
+    "lead": 3.6,
+    "relevance": 24,
+    "freshness": 19.5,
+    "corroborated": 10
+   },
+   "keywords": [
+    "levy",
+    "tax",
+    "hotel",
+    "tourist"
+   ],
+   "shock_terms": [],
+   "dedupe_match": null,
+   "dedupe_similarity": 0.0,
+   "id": "4fb2198f6206",
+   "title": "What Does a Career in Hospitality Mean to You?, England's Tourist Tax Needs a Spending Plan, 52% of Travelers Plan With AI but 2% Book Through It",
+   "url": "https://www.hospitalitynet.org/editorial/4135598/what-does-a-career-in-hospitality-mean-to-you-englands-tourist-tax-needs-a-spending-plan-52-of-travelers-plan-with-ai-but-2-book-through-it",
+   "summary": "Thursday opens with the first Student Voices viewpoint on how studies and internships reshape hospitality careers, followed by hoteliers asking what England's new overnight levy will actually pay for.",
+   "kind": "item",
+   "source": "Hospitality Net \u2014 Africa announcements",
+   "source_id": "dev-hospitalitynet-africa",
+   "tier": 2,
+   "country": "REG",
+   "category": "trade",
+   "segments": [
+    "city",
+    "bush",
+    "beach"
+   ],
+   "first_seen": "2026-11-19T21:22+03:00",
+   "published": "2026-11-19",
+   "verdict": "CONSIDER"
+  },
+  {
+   "score": 81.9,
+   "components": {
+    "tier": 5,
+    "category": 5,
+    "lead": 2.4,
+    "relevance": 40,
+    "freshness": 19.5,
+    "corroborated": 10
+   },
+   "keywords": [
+    "fuel",
+    "route",
+    "capacity",
+    "seat",
+    "airline",
+    "flight"
+   ],
+   "shock_terms": [],
+   "dedupe_match": null,
+   "dedupe_similarity": 0.2,
+   "id": "9e3c2f5baef6",
+   "title": "Alaska Air Group and Three Global Carriers Drive Major Flight Expansions Into 2027",
+   "url": "https://www.travelandtourworld.com/news/article/2rpxdpidg6p3",
+   "summary": "Image Source: Alaska Airlines The global airline industry is changing dramatically in 2027. Alaska Air Group, Akasa Air, JetBlue Airways, and South African Airways are all increasing their flight availability. While competitors reduce services due to rising fuel prices, these four airlines have all launched new long-haul routes. Alaska Air Group has added five new routes from its Seattle hub. Akas",
+   "kind": "item",
+   "source": "Travel And Tour World",
+   "source_id": "gl-travelandtourworld",
+   "tier": 3,
+   "country": "GLOBAL",
+   "category": "trade",
+   "segments": [
+    "city",
+    "bush",
+    "beach"
+   ],
+   "first_seen": "2026-11-19T21:22+03:00",
+   "published": "2026-11-19",
+   "verdict": "CONSIDER"
+  },
+  {
+   "score": 80.9,
+   "components": {
+    "tier": 20,
+    "category": 5,
+    "lead": 2.4,
+    "relevance": 24,
+    "freshness": 19.5,
+    "corroborated": 10
+   },
+   "keywords": [
+    "levy",
+    "tax",
+    "hotel",
+    "tourist"
+   ],
+   "shock_terms": [],
+   "dedupe_match": null,
+   "dedupe_similarity": 0.0,
+   "id": "2718c44ee8a7",
+   "title": "What Does a Career in Hospitality Mean to You?, England's Tourist Tax Needs a Spending Plan, 52% of Travelers Plan With AI but 2% Book Through It",
+   "url": "https://www.hospitalitynet.org/editorial/4135598/what-does-a-career-in-hospitality-mean-to-you-englands-tourist-tax-needs-a-spending-plan-52-of-travelers-plan-with-ai-but-2-book-through-it",
+   "summary": "Thursday opens with the first Student Voices viewpoint on how studies and internships reshape hospitality careers, followed by hoteliers asking what England's new overnight levy will actually pay for.",
+   "kind": "item",
+   "source": "Hospitality Net: Africa openings",
+   "source_id": "dev-hospitalitynet-openings",
+   "tier": 2,
+   "country": "AFRICA",
+   "category": "trade",
+   "segments": [
+    "city",
+    "bush",
+    "beach"
+   ],
+   "first_seen": "2026-11-19T21:22+03:00",
+   "published": "2026-11-19",
+   "verdict": "CONSIDER"
+  },
+  {
+   "score": 80.6,
    "components": {
     "tier": 40,
     "category": 24,
     "lead": 2.4,
     "relevance": 8,
-    "freshness": 18.9,
+    "freshness": 12.2,
     "undated": -6
    },
    "keywords": [
@@ -213,13 +901,13 @@
    "verdict": "CONSIDER"
   },
   {
-   "score": 87.3,
+   "score": 80.6,
    "components": {
     "tier": 40,
     "category": 24,
     "lead": 2.4,
     "relevance": 8,
-    "freshness": 18.9,
+    "freshness": 12.2,
     "undated": -6
    },
    "keywords": [
@@ -248,13 +936,13 @@
    "verdict": "CONSIDER"
   },
   {
-   "score": 87.3,
+   "score": 80.6,
    "components": {
     "tier": 40,
     "category": 24,
     "lead": 2.4,
     "relevance": 8,
-    "freshness": 18.9,
+    "freshness": 12.2,
     "undated": -6
    },
    "keywords": [
@@ -283,51 +971,320 @@
    "verdict": "CONSIDER"
   },
   {
-   "score": 83.3,
+   "score": 80.3,
    "components": {
-    "tier": 20,
-    "category": 4,
-    "lead": 2.4,
-    "relevance": 28,
-    "freshness": 18.9,
-    "corroborated": 10
+    "tier": 40,
+    "category": 10,
+    "lead": 16.8,
+    "relevance": 0,
+    "freshness": 19.5,
+    "undated": -6
    },
-   "keywords": [
-    "levy",
-    "tax",
-    "eta",
-    "operator"
-   ],
+   "keywords": [],
    "shock_terms": [],
    "dedupe_match": null,
-   "dedupe_similarity": 0.14,
-   "id": "9b97d726f8e5",
-   "title": "Casino operators warn 15% tax threatens 2,500 jobs",
-   "url": "https://www.independent.co.ug/casino-operators-warn-15-tax-threatens-2500-jobs",
-   "summary": "Industry wants government to retain 30% Gross Gaming Revenue tax, warning proposed levy could drive players to illegal gambling platforms Kampala, Uganda | JULIUS BUSINGE | Uganda\u2019s licensed casino operators have appealed to President Yoweri Museveni to reconsider the 15% withholding tax on land-based casino winnings, warning that its implementation could threaten about 2,500 direct \u2026 The post Cas",
+   "dedupe_similarity": 0.17,
+   "id": "d85285a75a8b",
+   "title": "President asks city traders to open shops Thursday, 19 November 2026",
+   "url": "https://www.parliament.go.ug/news/4750/president-asks-city-traders-open-shops",
+   "summary": "",
    "kind": "item",
-   "source": "The Independent (Uganda)",
-   "source_id": "ug-independent",
-   "tier": 2,
+   "source": "Parliament of Uganda",
+   "source_id": "ug-parliament",
+   "tier": 1,
    "country": "UG",
-   "category": "press",
+   "category": "legislature",
    "segments": [
     "city",
     "bush",
     "beach"
    ],
-   "first_seen": "2026-11-19T14:48+03:00",
+   "first_seen": "2026-11-19T21:21+03:00",
+   "published": null,
+   "verdict": "CONSIDER"
+  },
+  {
+   "score": 80.3,
+   "components": {
+    "tier": 40,
+    "category": 10,
+    "lead": 16.8,
+    "relevance": 0,
+    "freshness": 19.5,
+    "undated": -6
+   },
+   "keywords": [],
+   "shock_terms": [],
+   "dedupe_match": null,
+   "dedupe_similarity": 0.17,
+   "id": "85a9861ab72f",
+   "title": "MPs seek Shs181bn to boost supply of essential medicines Thursday, 19 November 2026",
+   "url": "https://www.parliament.go.ug/news/4749/mps-seek-shs181bn-boost-supply-essential-medicines",
+   "summary": "",
+   "kind": "item",
+   "source": "Parliament of Uganda",
+   "source_id": "ug-parliament",
+   "tier": 1,
+   "country": "UG",
+   "category": "legislature",
+   "segments": [
+    "city",
+    "bush",
+    "beach"
+   ],
+   "first_seen": "2026-11-19T21:21+03:00",
+   "published": null,
+   "verdict": "CONSIDER"
+  },
+  {
+   "score": 80.3,
+   "components": {
+    "tier": 40,
+    "category": 10,
+    "lead": 16.8,
+    "relevance": 0,
+    "freshness": 19.5,
+    "undated": -6
+   },
+   "keywords": [],
+   "shock_terms": [],
+   "dedupe_match": null,
+   "dedupe_similarity": 0.17,
+   "id": "a341c8fcaae0",
+   "title": "'Account for Shs270 billion for Umeme buyout' Thursday, 19 November 2026",
+   "url": "https://www.parliament.go.ug/news/4748/account-shs270-billion-umeme-buyout",
+   "summary": "",
+   "kind": "item",
+   "source": "Parliament of Uganda",
+   "source_id": "ug-parliament",
+   "tier": 1,
+   "country": "UG",
+   "category": "legislature",
+   "segments": [
+    "city",
+    "bush",
+    "beach"
+   ],
+   "first_seen": "2026-11-19T21:21+03:00",
+   "published": null,
+   "verdict": "CONSIDER"
+  },
+  {
+   "score": 80.3,
+   "components": {
+    "tier": 40,
+    "category": 10,
+    "lead": 16.8,
+    "relevance": 0,
+    "freshness": 19.5,
+    "undated": -6
+   },
+   "keywords": [],
+   "shock_terms": [],
+   "dedupe_match": null,
+   "dedupe_similarity": 0.17,
+   "id": "7d25279ab136",
+   "title": "National sports teams honoured Thursday, 19 November 2026",
+   "url": "https://www.parliament.go.ug/news/4747/national-sports-teams-honoured",
+   "summary": "",
+   "kind": "item",
+   "source": "Parliament of Uganda",
+   "source_id": "ug-parliament",
+   "tier": 1,
+   "country": "UG",
+   "category": "legislature",
+   "segments": [
+    "city",
+    "bush",
+    "beach"
+   ],
+   "first_seen": "2026-11-19T21:21+03:00",
+   "published": null,
+   "verdict": "CONSIDER"
+  },
+  {
+   "score": 80.3,
+   "components": {
+    "tier": 40,
+    "category": 10,
+    "lead": 16.8,
+    "relevance": 0,
+    "freshness": 19.5,
+    "undated": -6
+   },
+   "keywords": [],
+   "shock_terms": [],
+   "dedupe_match": null,
+   "dedupe_similarity": 0.2,
+   "id": "cb7c033caac8",
+   "title": "Order Paper For Thursday, 19th November 2026 - Evening Sitting",
+   "url": "https://www.parliament.go.ke/sites/default/files/2026-11/ORDER%20PAPER%20FOR%20THURSDAY%2C%2019TH%20NOVEMBER%202026%20-%20EVENING%20SITTING.pdf",
+   "summary": "!\"#$%&''(&#!)*%+$*,'(&!!!!!!!!!!!!!!!!-$.&#!/'00$1(!23'($(4!/$&&$(4!!5617!89:;!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!5<=<>;!!?2)@ABCD!E-!F26GH!!\"IC?\"226\"I!)H?BCHJ26\"!K!5-C-\"I!/2//CE6;!!!\"#$%&!'(%&)$&**#+,)-$!E?L2?/!E-!\"I2!LHG!!!!\"I@?/LHGM!6EN2JA2?!8OM!<9<=!H\"!>7<9!)7J7!!(./#.$(0$,1*'%#**$)?HG2?/!!!\"!!\"#$%$&'()'$*%+*,+-)'.+#\"!/*##0%$1)'$*%+,(*#+'.2+/.)$(+$\"!32&&)42&+%\"!52'$'$*%&+&\"!5)62(&+'\"!7*'$12&+*,+3",
+   "kind": "doc",
+   "source": "Parliament of Kenya \u2014 bills & papers",
+   "source_id": "ke-parliament",
+   "tier": 1,
+   "country": "KE",
+   "category": "legislature",
+   "segments": [
+    "city",
+    "bush",
+    "beach"
+   ],
+   "first_seen": "2026-11-19T21:21+03:00",
+   "published": null,
+   "verdict": "CONSIDER"
+  },
+  {
+   "score": 79.9,
+   "components": {
+    "tier": 20,
+    "category": 14,
+    "lead": 8.4,
+    "relevance": 8,
+    "freshness": 19.5,
+    "corroborated": 10
+   },
+   "keywords": [
+    "route"
+   ],
+   "shock_terms": [],
+   "dedupe_match": null,
+   "dedupe_similarity": 0.14,
+   "id": "42b1aa9e8b3d",
+   "title": "Air China Expands Air Canada Codeshare in NS27",
+   "url": "https://www.aeroroutes.com/eng/261119-caaccodeshare",
+   "summary": "Published at 1100PCT / 1800GMT 19NOV26 Air China in Northern summer 2027 season plans to expand codeshare partnership with Air Canada, coinciding with service resumption of Beijing Capital \u2013 Montreal route on 29MAR27. Planned new codeshare routes include the following. Air China operated by Air Canada Montreal \u2013 Halifax Montreal \u2013 Ottawa Montreal \u2013 Quebec City Montreal \u2013 St. John\u2019s NFLD Montreal \u2013",
+   "kind": "item",
+   "source": "AeroRoutes schedule filings",
+   "source_id": "aeroroutes",
+   "tier": 2,
+   "country": "GLOBAL",
+   "category": "aviation-tracker",
+   "segments": [
+    "city",
+    "bush",
+    "beach"
+   ],
+   "first_seen": "2026-11-19T21:22+03:00",
    "published": "2026-11-19",
    "verdict": "CONSIDER"
   },
   {
-   "score": 83.3,
+   "score": 79.9,
+   "components": {
+    "tier": 20,
+    "category": 14,
+    "lead": 8.4,
+    "relevance": 8,
+    "freshness": 19.5,
+    "corroborated": 10
+   },
+   "keywords": [
+    "route"
+   ],
+   "shock_terms": [],
+   "dedupe_match": null,
+   "dedupe_similarity": 0.14,
+   "id": "da2442d26631",
+   "title": "United NS27 Denver Selected Service Expansions",
+   "url": "https://www.aeroroutes.com/eng/261119-uans27den",
+   "summary": "Published at 1000PCT / 1700GMT 19NOV26 United at the launch of Northern summer 2027 season plans to add mainline service on selected domestic routes at Denver , reflected in recent schedule update. Further changes to planned operational aircraft remain possible. Denver \u2013 Appleton eff 28MAR27 Mainline A319 replaces Embraer E175, 1 daily Denver \u2013 Asheville eff 28MAR27 Mainline A319 replaces Embraer ",
+   "kind": "item",
+   "source": "AeroRoutes schedule filings",
+   "source_id": "aeroroutes",
+   "tier": 2,
+   "country": "GLOBAL",
+   "category": "aviation-tracker",
+   "segments": [
+    "city",
+    "bush",
+    "beach"
+   ],
+   "first_seen": "2026-11-19T21:22+03:00",
+   "published": "2026-11-19",
+   "verdict": "CONSIDER"
+  },
+  {
+   "score": 79.9,
+   "components": {
+    "tier": 20,
+    "category": 14,
+    "lead": 8.4,
+    "relevance": 8,
+    "freshness": 19.5,
+    "corroborated": 10
+   },
+   "keywords": [
+    "beach",
+    "airline"
+   ],
+   "shock_terms": [],
+   "dedupe_match": null,
+   "dedupe_similarity": 0.17,
+   "id": "753680636757",
+   "title": "Allegiant Air \u2013 Sun Country NS27 Network Additions",
+   "url": "https://www.aeroroutes.com/eng/261119-g4syns27",
+   "summary": "Published at 0700PCT / 1400GMT 19NOV26 Allegiant Air and Sun Country Airlines this week announced planned network expansion for Northern summer 2027 season. Planned additions include the following. Allegiant Air (G4) Destin/Ft. Walton Beach \u2013 Philadelphia eff 21MAY27 3 weekly A320 Gulf Shores \u2013 Indianapolis eff 20MAY27 2 weekly A320 Gulf Shores \u2013 Little Rock eff 20MAY27 2 weekly A319/320 Gulf Shor",
+   "kind": "item",
+   "source": "AeroRoutes schedule filings",
+   "source_id": "aeroroutes",
+   "tier": 2,
+   "country": "GLOBAL",
+   "category": "aviation-tracker",
+   "segments": [
+    "city",
+    "bush",
+    "beach"
+   ],
+   "first_seen": "2026-11-19T21:22+03:00",
+   "published": "2026-11-19",
+   "verdict": "CONSIDER"
+  },
+  {
+   "score": 76.9,
+   "components": {
+    "tier": 20,
+    "category": 5,
+    "lead": 2.4,
+    "relevance": 20,
+    "freshness": 19.5,
+    "corroborated": 10
+   },
+   "keywords": [
+    "election",
+    "resort",
+    "beach",
+    "rooms"
+   ],
+   "shock_terms": [],
+   "dedupe_match": null,
+   "dedupe_similarity": 0.14,
+   "id": "c305bc2c77a6",
+   "title": "Iberostar Opens First East African Resort in Zanzibar",
+   "url": "https://www.hotelnewsresource.com/article143833.html",
+   "summary": "Iberostar Beachfront Resorts has opened Iberostar Selection Zanzibar, its first resort in East Africa and Tanzania. The five-star property on Muyuni Beach has 358 rooms and suites, six restaurants, a spa, swimming pools and an on-site dive center.",
+   "kind": "item",
+   "source": "HVS \u2014 market reports and event-impact studies (via Hotel News Resource)",
+   "source_id": "gl-hvs-market-reports",
+   "tier": 2,
+   "country": "GLOBAL",
+   "category": "trade",
+   "segments": [
+    "city"
+   ],
+   "first_seen": "2026-11-19T21:22+03:00",
+   "published": "2026-11-19",
+   "verdict": "CONSIDER"
+  },
+  {
+   "score": 76.7,
    "components": {
     "tier": 20,
     "category": 14,
     "lead": 8.4,
     "relevance": 12,
-    "freshness": 18.9,
+    "freshness": 12.3,
     "corroborated": 10
    },
    "keywords": [
@@ -357,13 +1314,13 @@
    "verdict": "CONSIDER"
   },
   {
-   "score": 83.3,
+   "score": 76.6,
    "components": {
     "tier": 40,
     "category": 24,
     "lead": 2.4,
     "relevance": 4,
-    "freshness": 18.9,
+    "freshness": 12.2,
     "undated": -6
    },
    "keywords": [
@@ -392,1031 +1349,80 @@
    "verdict": "CONSIDER"
   },
   {
-   "score": 81.5,
+   "score": 76.4,
    "components": {
     "tier": 20,
-    "category": 5,
-    "lead": 3.6,
+    "category": 14,
+    "lead": 8.4,
     "relevance": 24,
-    "freshness": 18.9,
+    "freshness": 0.0,
     "corroborated": 10
    },
    "keywords": [
-    "levy",
-    "tax",
-    "hotel",
-    "tourist"
-   ],
-   "shock_terms": [],
-   "dedupe_match": null,
-   "dedupe_similarity": 0.17,
-   "id": "0c2eae31c30a",
-   "title": "Tourist tax is coming. Where\u2019s the plan?",
-   "url": "https://www.hospitalitynet.org/opinion/4135404/tourist-tax-is-coming-wheres-the-plan",
-   "summary": "England's incoming overnight visitor levy prompts hoteliers to demand transparent spending plans, with UKHospitality warning a 5% levy could cost 11.9 million visitor nights and 33,000 jobs.",
-   "kind": "item",
-   "source": "Hospitality Net \u2014 Africa announcements",
-   "source_id": "dev-hospitalitynet-africa",
-   "tier": 2,
-   "country": "REG",
-   "category": "trade",
-   "segments": [
-    "city",
-    "bush",
-    "beach"
-   ],
-   "first_seen": "2026-11-19T14:48+03:00",
-   "published": "2026-11-19",
-   "verdict": "CONSIDER"
-  },
-  {
-   "score": 80.5,
-   "components": {
-    "tier": 40,
-    "category": 32,
-    "lead": 3.6,
-    "relevance": 0,
-    "freshness": 18.9,
-    "stale_trap": -10,
-    "page_change": -4
-   },
-   "keywords": [],
-   "shock_terms": [],
-   "dedupe_match": null,
-   "dedupe_similarity": 0.17,
-   "id": "321e18831271",
-   "title": "[page changed] Federal Register \u2014 public inspection (HHS/CDC), pre-publication",
-   "url": "https://www.federalregister.gov/api/v1/public-inspection-documents/current.json",
-   "summary": "{\"count\":100,\"results\":[{\"agencies\":[{\"raw_name\":\"Health and Human Services Department\",\"name\":\"Health and Human Services Department\",\"id\":221,\"url\":\"https://www.federalregister.gov/agencies/health-and-human-services-department\",\"json_url\":\"https://www.federalregister.gov/api/v1/agencies/221\",\"parent_id\":null,\"slug\":\"health-and-human-services-department\"}],\"agency_letters\":[],\"agency_names\":[\"Heal",
-   "kind": "page-change",
-   "source": "Federal Register \u2014 public inspection (HHS/CDC), pre-publication",
-   "source_id": "us-fedreg-pubinspect-hhs",
-   "tier": 1,
-   "country": "REG",
-   "category": "advisory",
-   "segments": [
-    "city",
-    "bush"
-   ],
-   "first_seen": "2026-11-19T14:47+03:00",
-   "published": "2026-11-16",
-   "verdict": "CHECK \u2014 source date older than the window"
-  },
-  {
-   "score": 80.3,
-   "components": {
-    "tier": 20,
-    "category": 5,
-    "lead": 2.4,
-    "relevance": 24,
-    "freshness": 18.9,
-    "corroborated": 10
-   },
-   "keywords": [
-    "levy",
-    "tax",
-    "hotel",
-    "tourist"
-   ],
-   "shock_terms": [],
-   "dedupe_match": null,
-   "dedupe_similarity": 0.17,
-   "id": "f4b8423b62c4",
-   "title": "Tourist tax is coming. Where\u2019s the plan?",
-   "url": "https://www.hospitalitynet.org/opinion/4135404/tourist-tax-is-coming-wheres-the-plan",
-   "summary": "England's incoming overnight visitor levy prompts hoteliers to demand transparent spending plans, with UKHospitality warning a 5% levy could cost 11.9 million visitor nights and 33,000 jobs.",
-   "kind": "item",
-   "source": "Hospitality Net: Africa openings",
-   "source_id": "dev-hospitalitynet-openings",
-   "tier": 2,
-   "country": "AFRICA",
-   "category": "trade",
-   "segments": [
-    "city",
-    "bush",
-    "beach"
-   ],
-   "first_seen": "2026-11-19T14:48+03:00",
-   "published": "2026-11-19",
-   "verdict": "CONSIDER"
-  },
-  {
-   "score": 79.3,
-   "components": {
-    "tier": 20,
-    "category": 14,
-    "lead": 8.4,
-    "relevance": 8,
-    "freshness": 18.9,
-    "corroborated": 10
-   },
-   "keywords": [
-    "frequency"
-   ],
-   "shock_terms": [],
-   "dedupe_match": null,
-   "dedupe_similarity": 0.14,
-   "id": "4bef199cbbec",
-   "title": "Air Transat NS27 Europe / Africa Service Changes \u2013 18NOV26",
-   "url": "https://www.aeroroutes.com/eng/261119-tsns27at",
-   "summary": "Published at 0200PCT / 0900GMT 19NOV26 Air Transat in the last few weeks filed various changes for Northern summer 2027 season, as the carrier adjusts service to Europe and North Africa. Following frequency comparison are based on schedule July 2026 vs July 2027, focusing on peak season frequency. Montreal \u2013 Agadir Increase from 1 to 2 weekly Montreal \u2013 Bordeaux Reduce from 6 to 5 weekly Montreal ",
-   "kind": "item",
-   "source": "AeroRoutes schedule filings",
-   "source_id": "aeroroutes",
-   "tier": 2,
-   "country": "GLOBAL",
-   "category": "aviation-tracker",
-   "segments": [
-    "city",
-    "bush",
-    "beach"
-   ],
-   "first_seen": "2026-11-19T14:48+03:00",
-   "published": "2026-11-19",
-   "verdict": "CONSIDER"
-  },
-  {
-   "score": 79.3,
-   "components": {
-    "tier": 20,
-    "category": 14,
-    "lead": 8.4,
-    "relevance": 8,
-    "freshness": 18.9,
-    "corroborated": 10
-   },
-   "keywords": [
-    "route"
-   ],
-   "shock_terms": [],
-   "dedupe_match": null,
-   "dedupe_similarity": 0.14,
-   "id": "143c6b0b6c90",
-   "title": "WestJet Discontinues Tulum in early-Jan 2027",
-   "url": "https://www.aeroroutes.com/eng/261119-wsjan27tqo",
-   "summary": "Published at 0100PCT / 0800GMT 19NOV26 WestJet in the first quarter of 2027 is discontinuing service to Tulum in Mexico, where it currently operates 3 routes. Affected routes as follows. Calgary \u2013 Tulum 2 weekly 737-800/MAX 8 until 14JAN27 Montreal \u2013 Tulum 3 weekly 737 MAX 8 until 09JAN27 (service operating for Sunwing Vacations) Toronto Pearson \u2013 Tulum 4 weekly 737-800/MAX 8 until 09JAN27",
-   "kind": "item",
-   "source": "AeroRoutes schedule filings",
-   "source_id": "aeroroutes",
-   "tier": 2,
-   "country": "GLOBAL",
-   "category": "aviation-tracker",
-   "segments": [
-    "city",
-    "bush",
-    "beach"
-   ],
-   "first_seen": "2026-11-19T14:48+03:00",
-   "published": "2026-11-19",
-   "verdict": "CONSIDER"
-  },
-  {
-   "score": 79.3,
-   "components": {
-    "tier": 20,
-    "category": 14,
-    "lead": 8.4,
-    "relevance": 8,
-    "freshness": 18.9,
-    "corroborated": 10
-   },
-   "keywords": [
-    "route"
-   ],
-   "shock_terms": [],
-   "dedupe_match": null,
-   "dedupe_similarity": 0.14,
-   "id": "c446dce92e86",
-   "title": "WestJet Resumes 5 Domestic Routes in NS27",
-   "url": "https://www.aeroroutes.com/eng/261119-wsns27ca",
-   "summary": "Published at 0000PCT / 0700GMT 19NOV26 WestJet during Northern summer 2027 season plans to resume 5 domestic routes, after one year hiatus in 2026. These services will be operated by a mix of 737-700/-800 and MAX 8\u3002 Edmonton \u2013 Montreal eff 24MAR27 6 weekly (1 daily from 25APR27) Edmonton \u2013 Ottawa eff 24MAR27 6 weekly (1 daily from 25APR27) Toronto Pearson \u2013 Kelowna eff 25MAR27 2 weekly Winnipeg \u2013 ",
-   "kind": "item",
-   "source": "AeroRoutes schedule filings",
-   "source_id": "aeroroutes",
-   "tier": 2,
-   "country": "GLOBAL",
-   "category": "aviation-tracker",
-   "segments": [
-    "city",
-    "bush",
-    "beach"
-   ],
-   "first_seen": "2026-11-19T14:48+03:00",
-   "published": "2026-11-19",
-   "verdict": "CONSIDER"
-  },
-  {
-   "score": 79.3,
-   "components": {
-    "tier": 20,
-    "category": 14,
-    "lead": 8.4,
-    "relevance": 8,
-    "freshness": 18.9,
-    "corroborated": 10
-   },
-   "keywords": [
-    "route"
-   ],
-   "shock_terms": [],
-   "dedupe_match": null,
-   "dedupe_similarity": 0.14,
-   "id": "d395a7b376ad",
-   "title": "TAP Air Portugal Adds Porto \u2013 Washington in NS27",
-   "url": "https://www.aeroroutes.com/eng/261118-tpns27opoiad",
-   "summary": "Published at 2200PCT 18NOV26 / 0500GMT 19NOV26 TAP Air Portugal during Northern summer 2027 season plans to launch Porto \u2013 Washington Dulles route, on board Airbus A321LR aircraft. The Star Alliance member plans to serve this route 3 times weekly from 30MAR27. TP263 OPO1710 \u2013 2045IAD 32Q 6 TP263 OPO1920 \u2013 2255IAD 32Q 24 TP264 IAD0025 \u2013 1250OPO 32Q 35 TP264 IAD2215 \u2013 1040+1OPO 32Q 6",
-   "kind": "item",
-   "source": "AeroRoutes schedule filings",
-   "source_id": "aeroroutes",
-   "tier": 2,
-   "country": "GLOBAL",
-   "category": "aviation-tracker",
-   "segments": [
-    "city",
-    "bush",
-    "beach"
-   ],
-   "first_seen": "2026-11-19T14:48+03:00",
-   "published": "2026-11-19",
-   "verdict": "CONSIDER"
-  },
-  {
-   "score": 79.3,
-   "components": {
-    "tier": 20,
-    "category": 14,
-    "lead": 8.4,
-    "relevance": 8,
-    "freshness": 18.9,
-    "corroborated": 10
-   },
-   "keywords": [
-    "airline",
-    "flight"
-   ],
-   "shock_terms": [],
-   "dedupe_match": null,
-   "dedupe_similarity": 0.29,
-   "id": "f39e6c839ff8",
-   "title": "Nauru Airlines Increases Brisbane Service in NW26",
-   "url": "https://www.aeroroutes.com/eng/261118-onnw26bne",
-   "summary": "Published at 2100PCT 18NOV26 / 0400GMT 19NOV26 Nauru Airlines since the launch of Northern winter 2026/27 season increased Naoreo \u2013 Brisbane flight, with the addition of 4th weekly flight from 31OCT26. The additional service is operated by Skytrans Airbus A319 aircraft, until 27FEB27. ON091 INU1405 \u2013 1640BNE 733 3 ON001 INU1430 \u2013 1705BNE 738 5 ON001 INU1535 \u2013 1810BNE 319 6 ON042 INU2030 \u2013 2305BNE ",
-   "kind": "item",
-   "source": "AeroRoutes schedule filings",
-   "source_id": "aeroroutes",
-   "tier": 2,
-   "country": "GLOBAL",
-   "category": "aviation-tracker",
-   "segments": [
-    "city",
-    "bush",
-    "beach"
-   ],
-   "first_seen": "2026-11-19T14:48+03:00",
-   "published": "2026-11-19",
-   "verdict": "CONSIDER"
-  },
-  {
-   "score": 79.3,
-   "components": {
-    "tier": 40,
-    "category": 24,
-    "lead": 2.4,
-    "relevance": 0,
-    "freshness": 18.9,
-    "undated": -6
-   },
-   "keywords": [],
-   "shock_terms": [],
-   "dedupe_match": null,
-   "dedupe_similarity": 0.29,
-   "id": "54b00b1acb08",
-   "title": "Kenya, Tanzania and Zambia expand access to oral health services at primary care level",
-   "url": "https://www.afro.who.int/countries/kenya/news/kenya-tanzania-and-zambia-expand-access-oral-health-services-primary-care-level",
-   "summary": "",
-   "kind": "item",
-   "source": "WHO AFRO \u2014 Kenya country newsroom",
-   "source_id": "who-afro-kenya",
-   "tier": 1,
-   "country": "KE",
-   "category": "health",
-   "segments": [
-    "bush",
-    "city",
-    "beach"
-   ],
-   "first_seen": "2026-11-19T14:47+03:00",
-   "published": null,
-   "verdict": "CONSIDER"
-  },
-  {
-   "score": 79.3,
-   "components": {
-    "tier": 40,
-    "category": 24,
-    "lead": 2.4,
-    "relevance": 0,
-    "freshness": 18.9,
-    "undated": -6
-   },
-   "keywords": [],
-   "shock_terms": [],
-   "dedupe_match": null,
-   "dedupe_similarity": 0.17,
-   "id": "ef34bbc16a55",
-   "title": "Kenya launches new national report and guidelines to keep antimicrobials working",
-   "url": "https://www.afro.who.int/countries/kenya/news/kenya-launches-new-national-report-and-guidelines-keep-antimicrobials-working",
-   "summary": "",
-   "kind": "item",
-   "source": "WHO AFRO \u2014 Kenya country newsroom",
-   "source_id": "who-afro-kenya",
-   "tier": 1,
-   "country": "KE",
-   "category": "health",
-   "segments": [
-    "bush",
-    "city",
-    "beach"
-   ],
-   "first_seen": "2026-11-19T14:47+03:00",
-   "published": null,
-   "verdict": "CONSIDER"
-  },
-  {
-   "score": 79.3,
-   "components": {
-    "tier": 40,
-    "category": 24,
-    "lead": 2.4,
-    "relevance": 0,
-    "freshness": 18.9,
-    "undated": -6
-   },
-   "keywords": [],
-   "shock_terms": [],
-   "dedupe_match": null,
-   "dedupe_similarity": 0.17,
-   "id": "8ddaeb4f4850",
-   "title": "Helping women in Kenya get a cancer diagnosis sooner",
-   "url": "https://www.afro.who.int/countries/kenya/news/helping-women-kenya-get-cancer-diagnosis-sooner",
-   "summary": "",
-   "kind": "item",
-   "source": "WHO AFRO \u2014 Kenya country newsroom",
-   "source_id": "who-afro-kenya",
-   "tier": 1,
-   "country": "KE",
-   "category": "health",
-   "segments": [
-    "bush",
-    "city",
-    "beach"
-   ],
-   "first_seen": "2026-11-19T14:47+03:00",
-   "published": null,
-   "verdict": "CONSIDER"
-  },
-  {
-   "score": 79.3,
-   "components": {
-    "tier": 40,
-    "category": 24,
-    "lead": 2.4,
-    "relevance": 0,
-    "freshness": 18.9,
-    "undated": -6
-   },
-   "keywords": [],
-   "shock_terms": [],
-   "dedupe_match": null,
-   "dedupe_similarity": 0.33,
-   "id": "e73a715bef06",
-   "title": "19 November 2026 | Cluster/Departmental news Kenya, Tanzania and Zambia expand access to oral health services at primary care level",
-   "url": "https://www.afro.who.int/countries/kenya/news/kenya-tanzania-and-zambia-expand-access-oral-health-services-primary-care-level",
-   "summary": "",
-   "kind": "item",
-   "source": "WHO AFRO \u2014 Rwanda country newsroom",
-   "source_id": "who-afro-rwanda",
-   "tier": 1,
-   "country": "RW",
-   "category": "health",
-   "segments": [
-    "bush",
-    "city",
-    "beach"
-   ],
-   "first_seen": "2026-11-19T14:47+03:00",
-   "published": null,
-   "verdict": "CONSIDER"
-  },
-  {
-   "score": 79.3,
-   "components": {
-    "tier": 40,
-    "category": 24,
-    "lead": 2.4,
-    "relevance": 0,
-    "freshness": 18.9,
-    "undated": -6
-   },
-   "keywords": [],
-   "shock_terms": [],
-   "dedupe_match": null,
-   "dedupe_similarity": 0.33,
-   "id": "d2baa06b10ff",
-   "title": "19 November 2026 | Cluster/Departmental news Kenya, Tanzania and Zambia expand access to oral health services at primary care level",
-   "url": "https://www.afro.who.int/countries/kenya/news/kenya-tanzania-and-zambia-expand-access-oral-health-services-primary-care-level",
-   "summary": "",
-   "kind": "item",
-   "source": "WHO AFRO \u2014 Uganda country newsroom",
-   "source_id": "who-afro-uganda",
-   "tier": 1,
-   "country": "UG",
-   "category": "health",
-   "segments": [
-    "bush",
-    "city",
-    "beach"
-   ],
-   "first_seen": "2026-11-19T14:47+03:00",
-   "published": null,
-   "verdict": "CONSIDER"
-  },
-  {
-   "score": 78.9,
-   "components": {
-    "tier": 20,
-    "category": 4,
-    "lead": 0.0,
-    "relevance": 24,
-    "freshness": 18.9,
-    "undated": -6,
-    "shock": 18
-   },
-   "keywords": [
-    "outbreak",
-    "ebola"
-   ],
-   "shock_terms": [
-    "outbreak"
-   ],
-   "dedupe_match": null,
-   "dedupe_similarity": 0.11,
-   "id": "1ddc84eb4d6f",
-   "title": "Congo's Ebola outbreak is spreading and killing at a record pace Nov 17 - 2 min read",
-   "url": "https://www.thecitizen.co.tz/tanzania/news/africa/congo-s-ebola-outbreak-is-spreading-and-killing-at-a-record-pace-5673836",
-   "summary": "",
-   "kind": "item",
-   "source": "The Citizen (Tanzania)",
-   "source_id": "np-citizen-tz",
-   "tier": 2,
-   "country": "TZ",
-   "category": "press",
-   "segments": [
-    "city",
-    "bush",
-    "beach"
-   ],
-   "first_seen": "2026-11-19T14:48+03:00",
-   "published": null,
-   "verdict": "CONSIDER"
-  },
-  {
-   "score": 78.9,
-   "components": {
-    "tier": 20,
-    "category": 4,
-    "lead": 0.0,
-    "relevance": 24,
-    "freshness": 18.9,
-    "undated": -6,
-    "shock": 18
-   },
-   "keywords": [
-    "outbreak",
-    "ebola"
-   ],
-   "shock_terms": [
-    "outbreak"
-   ],
-   "dedupe_match": null,
-   "dedupe_similarity": 0.11,
-   "id": "84a7577e5825",
-   "title": "Africa CDC says Ebola outbreak still out of control six months since it was declared Nov 16 - 2 min read",
-   "url": "https://www.thecitizen.co.tz/tanzania/news/africa/africa-cdc-says-ebola-outbreak-still-out-of-control-six-months-since-it-was-declared-5672458",
-   "summary": "",
-   "kind": "item",
-   "source": "The Citizen (Tanzania)",
-   "source_id": "np-citizen-tz",
-   "tier": 2,
-   "country": "TZ",
-   "category": "press",
-   "segments": [
-    "city",
-    "bush",
-    "beach"
-   ],
-   "first_seen": "2026-11-19T14:48+03:00",
-   "published": null,
-   "verdict": "CONSIDER"
-  },
-  {
-   "score": 75.3,
-   "components": {
-    "tier": 20,
-    "category": 14,
-    "lead": 8.4,
-    "relevance": 4,
-    "freshness": 18.9,
-    "corroborated": 10
-   },
-   "keywords": [
-    "flight"
-   ],
-   "shock_terms": [],
-   "dedupe_match": null,
-   "dedupe_similarity": 0.14,
-   "id": "cc920b570e60",
-   "title": "Air Canada 1Q27 US / Caribbean Service Reductions",
-   "url": "https://www.aeroroutes.com/eng/261119-ac1q27na",
-   "summary": "Published at 0300PCT / 1000GMT 19NOV26 Air Canada earlier this month filed various service reductions on international flights in the first quarter of 2027, focusing on US and Caribbean markets. Planned service reductions as of 15NOV26 include the following. Edmonton \u2013 Montego Bay 1 weekly service scheduled until 04JAN27 (rouge 737 MAX 8) Halifax \u2013 Newark 14JAN27 \u2013 24FEB27 Reduce from 7 to 5 weekl",
-   "kind": "item",
-   "source": "AeroRoutes schedule filings",
-   "source_id": "aeroroutes",
-   "tier": 2,
-   "country": "GLOBAL",
-   "category": "aviation-tracker",
-   "segments": [
-    "city",
-    "bush",
-    "beach"
-   ],
-   "first_seen": "2026-11-19T14:48+03:00",
-   "published": "2026-11-19",
-   "verdict": "CONSIDER"
-  },
-  {
-   "score": 71.9,
-   "components": {
-    "tier": 40,
-    "category": 13,
-    "lead": 6.0,
-    "relevance": 0,
-    "freshness": 18.9,
-    "undated": -6
-   },
-   "keywords": [],
-   "shock_terms": [],
-   "dedupe_match": null,
-   "dedupe_similarity": 0.17,
-   "id": "a38be0c8536d",
-   "title": "News The delegation of the United Republic of Tanzania, led by Hon. Dr. Khalid Salum Mohamed, Minister of Infrastructure and Transport of the Revolutionary... - 19 November, 2026",
-   "url": "https://www.tcaa.go.tz/news/tanzania-and-icao-discuss-air-navigation-and-technical-cooperation",
-   "summary": "",
-   "kind": "item",
-   "source": "Tanzania Civil Aviation Authority",
-   "source_id": "tz-tcaa",
-   "tier": 1,
-   "country": "TZ",
-   "category": "aviation",
-   "segments": [
-    "city",
-    "bush",
-    "beach"
-   ],
-   "first_seen": "2026-11-19T14:48+03:00",
-   "published": null,
-   "verdict": "CONSIDER"
-  },
-  {
-   "score": 71.3,
-   "components": {
-    "tier": 20,
-    "category": 4,
-    "lead": 2.4,
-    "relevance": 16,
-    "freshness": 18.9,
-    "corroborated": 10
-   },
-   "keywords": [
-    "fee",
-    "airport"
-   ],
-   "shock_terms": [],
-   "dedupe_match": null,
-   "dedupe_similarity": 0.17,
-   "id": "6b3418cc27ec",
-   "title": "KAA Proposes New Airport Fees Affecting Motorists",
-   "url": "https://www.kenyans.co.ke/news/129521-kaa-proposes-new-airport-access-fees-higher-parking-charges-across-kenya",
-   "summary": "The new rates have been submitted for public review and are set to significantly affect motorists visiting the airport for drop-offs and pickups as well as the staff across Kenyan airports.",
-   "kind": "item",
-   "source": "Kenyans.co.ke news",
-   "source_id": "ke-kenyans",
-   "tier": 2,
-   "country": "KE",
-   "category": "press",
-   "segments": [
-    "city",
-    "bush",
-    "beach"
-   ],
-   "first_seen": "2026-11-19T14:48+03:00",
-   "published": "2026-11-19",
-   "verdict": "CONSIDER"
-  },
-  {
-   "score": 71.3,
-   "components": {
-    "tier": 20,
-    "category": 4,
-    "lead": 2.4,
-    "relevance": 16,
-    "freshness": 18.9,
-    "corroborated": 10
-   },
-   "keywords": [
-    "fee",
-    "eta"
-   ],
-   "shock_terms": [],
-   "dedupe_match": null,
-   "dedupe_similarity": 0.0,
-   "id": "4d1c65358028",
-   "title": "Details of Proposed Toll Fees on Nairobi-Thika Highway & Southern Bypass",
-   "url": "https://www.kenyans.co.ke/news/129520-treasury-proposes-toll-fees-nairobi-thika-road-among-other-major-highways",
-   "summary": "For motorists in Nairobi and the neighbouring counties, the proposed toll fees could introduce additional costs when travelling to and from Nairobi CBD.",
-   "kind": "item",
-   "source": "Kenyans.co.ke news",
-   "source_id": "ke-kenyans",
-   "tier": 2,
-   "country": "KE",
-   "category": "press",
-   "segments": [
-    "city",
-    "bush",
-    "beach"
-   ],
-   "first_seen": "2026-11-19T14:48+03:00",
-   "published": "2026-11-19",
-   "verdict": "CONSIDER"
-  },
-  {
-   "score": 69.9,
-   "components": {
-    "tier": 40,
-    "category": 5,
-    "lead": 12.0,
-    "relevance": 0,
-    "freshness": 18.9,
-    "undated": -6
-   },
-   "keywords": [],
-   "shock_terms": [],
-   "dedupe_match": null,
-   "dedupe_similarity": 0.33,
-   "id": "eda4ea955fa4",
-   "title": "Order Paper For Thursday, 19th November 2026 - Afternoon Sitting",
-   "url": "https://www.parliament.go.ke/sites/default/files/2026-11/ORDER%20PAPER%20FOR%20THURSDAY%2C%2019TH%20NOVEMBER%202026%20-%20AFTERNOON%20SITTING_0.pdf",
-   "summary": "!\"#$%&''(&#!)*%+$*,'(&!!!!!!!!!!!!!!!!-$.&#!/'00$1(!2.&'%(11(!/$&&$(3!!4516!789:!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!4;9;;:!!<=)>?@AB!C-!D=5E2!!\"FA<\"==5\"F!)2<@A2G=5\"!H!4-A-\"F!/=//AC5:!!!\"#$%&!'(%&)$&**#+,)-$!C<I=</!C-!\"F=!I2E!!!!\"F></I2EJ!5CK=G?=<!7LJ!;8;9!2\"!;6M8!)6G6!!(./#.$(0$,1*'%#**$!)<2E=</!!\"#!!\"#$%$&'()'$*%+*,+-)'.+$#!/*##0%$1)'$*%+,(*#+'.2+/.)$(+%#!32&&)42&+&#!52'$'$*%&+'#!5)62(&+(#!7*'$12&+*",
-   "kind": "doc",
-   "source": "Senate Committee on Delegated Legislation (Kenya) \u2014 the committee that annuls or accedes to statutory instruments",
-   "source_id": "ke-senate-delegated-legislation",
-   "tier": 1,
-   "country": "KE",
-   "category": "REG",
-   "segments": [
-    "city",
-    "bush",
-    "beach"
-   ],
-   "first_seen": "2026-11-19T14:47+03:00",
-   "published": null,
-   "verdict": "weak"
-  },
-  {
-   "score": 69.5,
-   "components": {
-    "tier": 20,
-    "category": 5,
-    "lead": 3.6,
-    "relevance": 12,
-    "freshness": 18.9,
-    "corroborated": 10
-   },
-   "keywords": [
-    "adr",
-    "hotel"
-   ],
-   "shock_terms": [],
-   "dedupe_match": null,
-   "dedupe_similarity": 0.14,
-   "id": "e3fc368f4a5c",
-   "title": "IHG Signs Three Holiday Inn Express Hotels in Spain, Expanding Madrid Presence and Entering Murcia",
-   "url": "https://www.hospitalitynet.org/news/4135570/ihg-signs-three-holiday-inn-express-hotels-in-spain-expanding-madrid-presence-and-entering-murcia",
-   "summary": "IHG signed three new Holiday Inn Express hotels in Spain, adding two in Madrid and entering Murcia for the first time, with all three set to open between 2028 and 2029.",
-   "kind": "item",
-   "source": "Hospitality Net \u2014 Africa announcements",
-   "source_id": "dev-hospitalitynet-africa",
-   "tier": 2,
-   "country": "REG",
-   "category": "trade",
-   "segments": [
-    "city",
-    "bush",
-    "beach"
-   ],
-   "first_seen": "2026-11-19T14:48+03:00",
-   "published": "2026-11-19",
-   "verdict": "weak"
-  },
-  {
-   "score": 69.3,
-   "components": {
-    "tier": 5,
-    "category": 5,
-    "lead": 2.4,
-    "relevance": 28,
-    "freshness": 18.9,
-    "corroborated": 10
-   },
-   "keywords": [
-    "vat",
-    "airport",
-    "airline",
-    "flight",
-    "passenger"
-   ],
-   "shock_terms": [],
-   "dedupe_match": null,
-   "dedupe_similarity": 0.17,
-   "id": "99fc5eeed911",
-   "title": "easyJet Passenger Removed from Luton Flight After Smoking in Aircraft Toilet",
-   "url": "https://www.travelandtourworld.com/news/article/jeicladgpl0v",
-   "summary": "Image Credit: easyJet An easyJet passenger was removed from an aircraft at London Luton Airport after allegedly smoking inside an onboard lavatory, disrupting a scheduled service to Glasgow and delaying departure by approximately one hour. The incident occurred on Monday, 16 November 2026, shortly before flight U2404 was due to leave the airport at 1.00 pm GMT. The passenger was subsequently remov",
-   "kind": "item",
-   "source": "Travel And Tour World",
-   "source_id": "gl-travelandtourworld",
-   "tier": 3,
-   "country": "GLOBAL",
-   "category": "trade",
-   "segments": [
-    "city",
-    "bush",
-    "beach"
-   ],
-   "first_seen": "2026-11-19T14:48+03:00",
-   "published": "2026-11-19",
-   "verdict": "weak"
-  },
-  {
-   "score": 69.3,
-   "components": {
-    "tier": 5,
-    "category": 5,
-    "lead": 2.4,
-    "relevance": 28,
-    "freshness": 18.9,
-    "corroborated": 10
-   },
-   "keywords": [
-    "fuel",
     "route",
+    "frequency",
     "airline",
-    "traffic",
-    "passenger"
+    "flight"
    ],
    "shock_terms": [],
    "dedupe_match": null,
-   "dedupe_similarity": 0.0,
-   "id": "9d56fc46e066",
-   "title": "China Holiday Travel Fuels Cathay Group Passenger Growth as Asian Routes Perform Well",
-   "url": "https://www.travelandtourworld.com/news/article/g3srrc452i9o",
-   "summary": "Image Source: Cathay Pacific The Cathay Group carried 3,424,766 passengers across Cathay Pacific and HK Express in October 2026, supported by holiday journeys from mainland China, strong routes serving South Korea and Thailand, and growing international traffic through Hong Kong. The group also transported 162,747 tonnes of cargo as Asian export demand strengthened. The airline is investing more t",
+   "dedupe_similarity": 0.29,
+   "id": "8289c56ea17d",
+   "title": "TAAG 1Q27 Nairobi Frequency Changes",
+   "url": "https://www.aeroroutes.com/eng/261118-dt1q27nbo",
+   "summary": "Published at 0600PCT / 1300GMT 18NOV26 TAAG Angola Airlines in the first quarter of 2027 plans to increase Luanda \u2013 Nairobi flights, as overall service to increase from 3 to 5 weekly, effective 04FEB27. This route is operated by Airbus A220-300 aircraft. DT590 NBJ1120 \u2013 1720NBO 223 157 DT592 NBJ2320 \u2013 0510+1NBJ 223 46 DT593 NBO0610 \u2013 0800NBJ 223 57 DT591 NBO1820 \u2013 2020NBJ 223 157",
    "kind": "item",
-   "source": "Travel And Tour World",
-   "source_id": "gl-travelandtourworld",
-   "tier": 3,
-   "country": "GLOBAL",
-   "category": "trade",
-   "segments": [
-    "city",
-    "bush",
-    "beach"
-   ],
-   "first_seen": "2026-11-19T14:48+03:00",
-   "published": "2026-11-19",
-   "verdict": "weak"
-  },
-  {
-   "score": 68.5,
-   "components": {
-    "tier": 40,
-    "category": 12,
-    "lead": 3.6,
-    "relevance": 0,
-    "freshness": 18.9,
-    "undated": -6
-   },
-   "keywords": [],
-   "shock_terms": [],
-   "dedupe_match": null,
-   "dedupe_similarity": 0.25,
-   "id": "f5765e1a7217",
-   "title": "View All Add-on Services +10 more options",
-   "url": "https://www.ethiopianairlines.com/services/add-on-services",
-   "summary": "",
-   "kind": "item",
-   "source": "Ethiopian Airlines press room",
-   "source_id": "air-et",
-   "tier": 1,
-   "country": "REG",
-   "category": "airline",
-   "segments": [
-    "city",
-    "bush",
-    "beach"
-   ],
-   "first_seen": "2026-11-19T14:47+03:00",
-   "published": null,
-   "verdict": "weak"
-  },
-  {
-   "score": 68.3,
-   "components": {
-    "tier": 20,
-    "category": 5,
-    "lead": 2.4,
-    "relevance": 12,
-    "freshness": 18.9,
-    "corroborated": 10
-   },
-   "keywords": [
-    "adr",
-    "hotel"
-   ],
-   "shock_terms": [],
-   "dedupe_match": null,
-   "dedupe_similarity": 0.14,
-   "id": "00999a22d346",
-   "title": "IHG Signs Three Holiday Inn Express Hotels in Spain, Expanding Madrid Presence and Entering Murcia",
-   "url": "https://www.hospitalitynet.org/news/4135570/ihg-signs-three-holiday-inn-express-hotels-in-spain-expanding-madrid-presence-and-entering-murcia",
-   "summary": "IHG signed three new Holiday Inn Express hotels in Spain, adding two in Madrid and entering Murcia for the first time, with all three set to open between 2028 and 2029.",
-   "kind": "item",
-   "source": "Hospitality Net: Africa openings",
-   "source_id": "dev-hospitalitynet-openings",
-   "tier": 2,
-   "country": "AFRICA",
-   "category": "trade",
-   "segments": [
-    "city",
-    "bush",
-    "beach"
-   ],
-   "first_seen": "2026-11-19T14:48+03:00",
-   "published": "2026-11-19",
-   "verdict": "weak"
-  },
-  {
-   "score": 67.3,
-   "components": {
-    "tier": 20,
-    "category": 4,
-    "lead": 2.4,
-    "relevance": 12,
-    "freshness": 18.9,
-    "corroborated": 10
-   },
-   "keywords": [
-    "eta",
-    "resort"
-   ],
-   "shock_terms": [],
-   "dedupe_match": null,
-   "dedupe_similarity": 0.14,
-   "id": "5f596399786b",
-   "title": "Sifuna Details New Allegations of Assassination Attempts Ahead of 2027 Polls",
-   "url": "https://www.kenyans.co.ke/news/129508-edwin-sifuna-reveals-allegations-assassination-threats-after-criticising-govt",
-   "summary": "The 2027 presidential hopeful says that his security team has now been advising him to avoid attending some social events that he used to frequent and he at some point resorted to carrying packed meals.",
-   "kind": "item",
-   "source": "Kenyans.co.ke news",
-   "source_id": "ke-kenyans",
-   "tier": 2,
-   "country": "KE",
-   "category": "press",
-   "segments": [
-    "city",
-    "bush",
-    "beach"
-   ],
-   "first_seen": "2026-11-19T14:48+03:00",
-   "published": "2026-11-19",
-   "verdict": "weak"
-  },
-  {
-   "score": 67.3,
-   "components": {
-    "tier": 20,
-    "category": 4,
-    "lead": 2.4,
-    "relevance": 12,
-    "freshness": 18.9,
-    "corroborated": 10
-   },
-   "keywords": [
-    "terror"
-   ],
-   "shock_terms": [],
-   "dedupe_match": null,
-   "dedupe_similarity": 0.0,
-   "id": "38ce7e725370",
-   "title": "Court orders police to produce missing man linked to past terror case",
-   "url": "https://nation.africa/kenya/counties/mombasa/court-orders-police-to-produce-missing-man-linked-to-past-terror-case-5675386",
-   "summary": "CCTV footage reportedly captured Ismail Yusuf Mohamed's abduction by armed men.",
-   "kind": "item",
-   "source": "Nation Africa: Kenya business",
-   "source_id": "ke-nation-business",
-   "tier": 2,
-   "country": "KE",
-   "category": "press",
-   "segments": [
-    "city",
-    "bush",
-    "beach"
-   ],
-   "first_seen": "2026-11-19T14:48+03:00",
-   "published": "2026-11-19",
-   "verdict": "weak"
-  },
-  {
-   "score": 67.3,
-   "components": {
-    "tier": 20,
-    "category": 24,
-    "lead": 2.4,
-    "relevance": 12,
-    "freshness": 18.9,
-    "undated": -6,
-    "page_change": -4
-   },
-   "keywords": [
-    "cholera"
-   ],
-   "shock_terms": [],
-   "dedupe_match": null,
-   "dedupe_similarity": 0.0,
-   "id": "ab8c8a9228a1",
-   "title": "[page changed] ProMED-mail",
-   "url": "https://promedmail.org/",
-   "summary": "Protecting Global Health, One Alert at a Time | ProMED Protecting Global Health, One Alert at a Time ProMED: Your 24/7 early warning system for emerging infectious diseases worldwide. Subscribe ProMED's Weekly Pulse A snapshot of global health events from the past 7 days Latest Posts on ProMED All Date Title Thu Nov 19 2026 CHOLERA - BURUNDI (05): UPDATE Wed Nov 18 2026 SARAMPI\u00d3N \u2013 EEUU: EXPOSICI\u00d3",
-   "kind": "page-change",
-   "source": "ProMED-mail",
-   "source_id": "promed",
+   "source": "AeroRoutes schedule filings",
+   "source_id": "aeroroutes",
    "tier": 2,
    "country": "GLOBAL",
-   "category": "health",
+   "category": "aviation-tracker",
    "segments": [
     "city",
     "bush",
     "beach"
    ],
-   "first_seen": "2026-11-19T14:48+03:00",
-   "published": null,
-   "verdict": "weak"
+   "first_seen": "2026-11-18T21:06+03:00",
+   "published": "2026-11-18",
+   "verdict": "CONSIDER"
   },
   {
-   "score": 65.5,
+   "score": 76.4,
    "components": {
     "tier": 20,
-    "category": 5,
-    "lead": 3.6,
-    "relevance": 8,
-    "freshness": 18.9,
+    "category": 14,
+    "lead": 8.4,
+    "relevance": 24,
+    "freshness": 0.0,
     "corroborated": 10
    },
    "keywords": [
-    "hotel",
-    "booking"
+    "route",
+    "frequency",
+    "airline",
+    "flight"
    ],
    "shock_terms": [],
    "dedupe_match": null,
-   "dedupe_similarity": 0.12,
-   "id": "9dc69c75f1d6",
-   "title": "Leslie Hotel Reclaims 10\u201315 Hours a Week With roommaster Hotel PMS",
-   "url": "https://www.hospitalitynet.org/news/4135574/leslie-hotel-reclaims-1015-hours-a-week-with-roommaster-hotel-pms",
-   "summary": "Leslie Hotel's Operations Manager saves 10\u201315 hours a week using roommaster PMS for automated housekeeping assignments and reporting, with direct bookings also rising after a booking engine upgrade.",
+   "dedupe_similarity": 0.2,
+   "id": "2882ba8228d5",
+   "title": "Kenya Airways 1Q27 Mumbai Frequency Changes",
+   "url": "https://www.aeroroutes.com/eng/261118-kq1q27bom",
+   "summary": "Published at 0500PCT / 1200GMT 18NOV26 Kenya Airways in the first quarter of 2027 schedules service increase on Nairobi \u2013 Mumbai route, based on recent schedule update. From 20JAN27, the airline operates 10 weekly flights with 737-800, instead of 9 weekly. KQ202 NBO1645 \u2013 0130+1BOM 73H D KQ204 NBO2050 \u2013 0535+1BOM 73H 357 KQ203 BOM0240 \u2013 0625NBO 73H D KQ205 BM0645 \u2013 1030NBO 73H 146",
    "kind": "item",
-   "source": "Hospitality Net \u2014 Africa announcements",
-   "source_id": "dev-hospitalitynet-africa",
+   "source": "AeroRoutes schedule filings",
+   "source_id": "aeroroutes",
    "tier": 2,
-   "country": "REG",
-   "category": "trade",
+   "country": "GLOBAL",
+   "category": "aviation-tracker",
    "segments": [
     "city",
     "bush",
     "beach"
    ],
-   "first_seen": "2026-11-19T14:48+03:00",
-   "published": "2026-11-19",
-   "verdict": "weak"
+   "first_seen": "2026-11-18T21:06+03:00",
+   "published": "2026-11-18",
+   "verdict": "CONSIDER"
   }
  ]
 }
