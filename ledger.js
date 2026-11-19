@@ -1,13 +1,13 @@
 window.LEDGER = {
- "updated": "2026-11-19 06:23",
+ "updated": "2026-11-19 06:45",
  "stats": {
-  "total": 266,
-  "open": 136,
+  "total": 269,
+  "open": 138,
   "resolved": 128,
   "correct": 92,
   "partial": 1,
   "incorrect": 35,
-  "void": 2,
+  "void": 3,
   "accuracy": 72
  },
  "open": [
@@ -23,7 +23,7 @@ window.LEDGER = {
    "confidence": "Confirmed",
    "status": "open",
    "resolved_date": "",
-   "evidence": "CHECKED 2026-11-10, STILL OPEN: no Tourism Research Institute or ministry August 2026 arrivals figure found (searched tri.go.ke, tourism.go.ke, Star, KBC, Khusoko). KNBS Leading Economic Indicators Aug 2026 PDF exists (published Oct 2026) but its server blocks retrieval and it counts JKIA/MIA arrivals only. Void eligible from 2026-11-15 if no TRI/ministry figure appears. RE-CHECKED 2026-11-17, STILL OPEN: still no TRI or ministry August 2026 monthly arrivals figure. tourism.go.ke Sub-Sector Report (Aug 2026) gives FY totals only (2.79m FY2025/26); Star 6 Oct 2026 gives cumulative-to-June only. Not voided: the August 2025 baseline came from an annual report published the following May, so an August 2026 figure is likely to exist in TRI's 2026 annual report. Void if none by 31 May 2027.",
+   "evidence": "CHECKED 2026-11-10, STILL OPEN: no Tourism Research Institute or ministry August 2026 arrivals figure found (searched tri.go.ke, tourism.go.ke, Star, KBC, Khusoko). KNBS Leading Economic Indicators Aug 2026 PDF exists (published Oct 2026) but its server blocks retrieval and it counts JKIA/MIA arrivals only. Void eligible from 2026-11-15 if no TRI/ministry figure appears. RE-CHECKED 2026-11-17, STILL OPEN: still no TRI or ministry August 2026 monthly arrivals figure. tourism.go.ke Sub-Sector Report (Aug 2026) gives FY totals only (2.79m FY2025/26); Star 6 Oct 2026 gives cumulative-to-June only. Not voided: the August 2025 baseline came from an annual report published the following May, so an August 2026 figure is likely to exist in TRI's 2026 annual report. Void if none by 31 May 2027. RE-CHECKED 2026-11-18, STILL OPEN: still no TRI or ministry August 2026 monthly arrivals figure (search returns tourism.go.ke Aug sub-sector report with FY totals only). Data never published; left open rather than guessed.",
    "source_url": "",
    "overdue": true
   },
@@ -39,7 +39,7 @@ window.LEDGER = {
    "confidence": "Reported",
    "status": "open",
    "resolved_date": "",
-   "evidence": "CHECKED 2026-11-10, STILL OPEN: no FCC Tanzania decision on A Squared / Nawiri found. FCC public-notices page returns no readable content; TanzaniaInvest 9 Jul 2026 reports only the start of FCC review and 14-day comment window. Kenya CAK approval does not meet the test. Void eligible from 2026-12-01 if no decision is published. RE-CHECKED 2026-11-17, STILL OPEN: no FCC decision on A Squared / Nawiri found (searched FCC, Daily News, TanzaniaInvest, Citizen). Daily News 6 Mar 2026 FCC approvals list covers Nawiri/Asilia Southern Tanzania - a different transaction. Void eligible from 2026-12-01.",
+   "evidence": "CHECKED 2026-11-10, STILL OPEN: no FCC Tanzania decision on A Squared / Nawiri found. FCC public-notices page returns no readable content; TanzaniaInvest 9 Jul 2026 reports only the start of FCC review and 14-day comment window. Kenya CAK approval does not meet the test. Void eligible from 2026-12-01 if no decision is published. RE-CHECKED 2026-11-17, STILL OPEN: no FCC decision on A Squared / Nawiri found (searched FCC, Daily News, TanzaniaInvest, Citizen). Daily News 6 Mar 2026 FCC approvals list covers Nawiri/Asilia Southern Tanzania - a different transaction. Void eligible from 2026-12-01. RE-CHECKED 2026-11-18, STILL OPEN: no new primary data found in tonight's sweep. Void eligible from 2026-12-01.",
    "source_url": "",
    "overdue": true
   },
@@ -55,7 +55,7 @@ window.LEDGER = {
    "confidence": "Confirmed",
    "status": "open",
    "resolved_date": "",
-   "evidence": "CHECKED 2026-11-10, STILL OPEN: no Kenya MoH mpox statement or briefing found after the 6 Sep 2026 update (1,298 cases; Mombasa 452) via MoH X account, Kenyans.co.ke, KBC, Nation (blocked). If none was published by 31 Oct the test cannot be met; void eligible from 2026-12-01. RE-CHECKED 2026-11-17, STILL OPEN: still no Kenya MoH mpox update after the 6 Sep 2026 statement (1,298 cases, Mombasa 452); Standard editorial on government silence over mpox supports that none was issued. Void eligible from 2026-12-01.",
+   "evidence": "CHECKED 2026-11-10, STILL OPEN: no Kenya MoH mpox statement or briefing found after the 6 Sep 2026 update (1,298 cases; Mombasa 452) via MoH X account, Kenyans.co.ke, KBC, Nation (blocked). If none was published by 31 Oct the test cannot be met; void eligible from 2026-12-01. RE-CHECKED 2026-11-17, STILL OPEN: still no Kenya MoH mpox update after the 6 Sep 2026 statement (1,298 cases, Mombasa 452); Standard editorial on government silence over mpox supports that none was issued. Void eligible from 2026-12-01. RE-CHECKED 2026-11-18, STILL OPEN: no new primary data found in tonight's sweep. Void eligible from 2026-12-01.",
    "source_url": "https://www.kbc.co.ke/kenyans-urged-to-adhere-to-mpox-preventive-measures-as-1298-cases-recorded/",
    "overdue": true
   },
@@ -71,24 +71,8 @@ window.LEDGER = {
    "confidence": "Confirmed",
    "status": "open",
    "resolved_date": "",
-   "evidence": "CHECKED 2026-11-10, STILL OPEN: no OCGS September 2026 arrivals release or press report found (searched The Citizen, Daily News, TanzaniaInvest, zanzibarism.com, allAfrica). Latest published month is August (124,481; Jan-Aug 633,228). Test requires a release on or before 31 Oct; void eligible from 2026-12-01 if none existed by then. RE-CHECKED 2026-11-17, STILL OPEN: no OCGS September 2026 release or press report found (Citizen, Daily News, TanzaniaInvest, zanzibarism.com - latest 2026 month listed there is May; Sept results returned 2024/2025 stories only). Void eligible from 2026-12-01.",
+   "evidence": "CHECKED 2026-11-10, STILL OPEN: no OCGS September 2026 arrivals release or press report found (searched The Citizen, Daily News, TanzaniaInvest, zanzibarism.com, allAfrica). Latest published month is August (124,481; Jan-Aug 633,228). Test requires a release on or before 31 Oct; void eligible from 2026-12-01 if none existed by then. RE-CHECKED 2026-11-17, STILL OPEN: no OCGS September 2026 release or press report found (Citizen, Daily News, TanzaniaInvest, zanzibarism.com - latest 2026 month listed there is May; Sept results returned 2024/2025 stories only). Void eligible from 2026-12-01. RE-CHECKED 2026-11-18, STILL OPEN: no new primary data found in tonight's sweep. Void eligible from 2026-12-01.",
    "source_url": "https://www.thecitizen.co.tz/tanzania/zanzibar/zanzibar-tourism-arrivals-hit-record-124-481-in-august-5590494",
-   "overdue": true
-  },
-  {
-   "id": "P230",
-   "made_date": "2026-10-16",
-   "edition": "pulse-2026-10-16-evening",
-   "claim": "The US State Department will NOT raise Tanzania back to Level 3 by 16 November 2026",
-   "resolution_criteria": "travel.state.gov Tanzania page showing Level 2 on 16 Nov 2026 resolves CORRECT; any re-issue at Level 3 or 4 by then resolves INCORRECT",
-   "resolve_by": "2026-11-16",
-   "market": "TZ",
-   "segment": "Bush|Beach",
-   "confidence": "Medium",
-   "status": "open",
-   "resolved_date": "",
-   "evidence": "CHECKED 2026-11-17, STILL OPEN - CONFLICTING EVIDENCE: travel.state.gov Tanzania page as fetched (17 Nov, and in the 8 Nov Big Read appendix) shows Level 3 dated 31 Oct 2025, yet Cleveland.com via Yahoo (20 Oct 2026) and others report a cut to Level 2 on 16 Oct 2026. No re-issue at Level 3/4 after 16 Oct found, so the INCORRECT limb is not met; the CORRECT limb (page showing Level 2) cannot be confirmed. EDITOR: open travel.state.gov in a browser - if it shows Level 2 (issued 16 Oct 2026) mark correct.",
-   "source_url": "https://travel.state.gov/content/tsg_aem/us/en/home/international-travel/travel-advisories/destination.tza.html",
    "overdue": true
   },
   {
@@ -409,6 +393,22 @@ window.LEDGER = {
    "resolved_date": "",
    "evidence": "",
    "source_url": "https://www.aeroroutes.com/eng/260904-etnw26jroznz",
+   "overdue": false
+  },
+  {
+   "id": "P269",
+   "made_date": "2026-11-18",
+   "edition": "pulse-2026-11-18-evening",
+   "claim": "Tanzania's 12-month tourism receipts will keep rising in the next BoT Monthly Economic Review",
+   "resolution_criteria": "BoT Monthly Economic Review for November 2026 (covering year ending October 2026) reports travel/tourism receipts above US$4,565.8m = CORRECT; at or below = INCORRECT",
+   "resolve_by": "2026-12-20",
+   "market": "Tanzania",
+   "segment": "City| Bush| Beach",
+   "confidence": "medium",
+   "status": "open",
+   "resolved_date": "",
+   "evidence": "",
+   "source_url": "",
    "overdue": false
   },
   {
@@ -1180,6 +1180,22 @@ window.LEDGER = {
    "overdue": false
   },
   {
+   "id": "P267",
+   "made_date": "2026-11-18",
+   "edition": "pulse-2026-11-18-evening",
+   "claim": "Uganda Airlines will still be selling a daily (7 a week) Entebbe-Kigali service on 31 January 2027",
+   "resolution_criteria": "Uganda Airlines schedule or booking engine, or an AeroRoutes/ch-aviation filing, shows 7 or more weekly Entebbe-Kigali frequencies in the week of 31 Jan 2027 = CORRECT; fewer than 7 weekly or route suspended = INCORRECT",
+   "resolve_by": "2027-01-31",
+   "market": "Uganda| Rwanda",
+   "segment": "Bush| City",
+   "confidence": "medium",
+   "status": "open",
+   "resolved_date": "",
+   "evidence": "",
+   "source_url": "",
+   "overdue": false
+  },
+  {
    "id": "P010",
    "made_date": "2026-07-25",
    "edition": "Evening Wrap",
@@ -1289,6 +1305,22 @@ window.LEDGER = {
    "resolved_date": "",
    "evidence": "",
    "source_url": "https://www.kenyans.co.ke/news/129404-parliament-gives-kenyans-until-november-20-submit-views-2027-budget",
+   "overdue": false
+  },
+  {
+   "id": "P268",
+   "made_date": "2026-11-18",
+   "edition": "pulse-2026-11-18-evening",
+   "claim": "Dubai International's full-year 2026 passenger total will come in between 70.0 million and 72.0 million",
+   "resolution_criteria": "Dubai Airports' full-year 2026 traffic release reports a DXB total of 70.0m to 72.0m inclusive = CORRECT; below 70.0m or above 72.0m = INCORRECT",
+   "resolve_by": "2027-02-28",
+   "market": "Global (EA transfer feed)",
+   "segment": "City| Bush| Beach",
+   "confidence": "medium",
+   "status": "open",
+   "resolved_date": "",
+   "evidence": "",
+   "source_url": "",
    "overdue": false
   },
   {
@@ -2189,6 +2221,22 @@ window.LEDGER = {
   }
  ],
  "resolved": [
+  {
+   "id": "P230",
+   "made_date": "2026-10-16",
+   "edition": "pulse-2026-10-16-evening",
+   "claim": "The US State Department will NOT raise Tanzania back to Level 3 by 16 November 2026",
+   "resolution_criteria": "travel.state.gov Tanzania page showing Level 2 on 16 Nov 2026 resolves CORRECT; any re-issue at Level 3 or 4 by then resolves INCORRECT",
+   "resolve_by": "2026-11-16",
+   "market": "TZ",
+   "segment": "Bush|Beach",
+   "confidence": "Medium",
+   "status": "void",
+   "resolved_date": "2026-11-18",
+   "evidence": "CHECKED 2026-11-17, STILL OPEN - CONFLICTING EVIDENCE: travel.state.gov Tanzania page as fetched (17 Nov, and in the 8 Nov Big Read appendix) shows Level 3 dated 31 Oct 2025, yet Cleveland.com via Yahoo (20 Oct 2026) and others report a cut to Level 2 on 16 Oct 2026. No re-issue at Level 3/4 after 16 Oct found, so the INCORRECT limb is not met; the CORRECT limb (page showing Level 2) cannot be confirmed. EDITOR: open travel.state.gov in a browser - if it shows Level 2 (issued 16 Oct 2026) mark correct. RESOLVED 2026-11-18 VOID: resolve_by (16 Nov) has passed and neither limb of the stated test is met. travel.state.gov Tanzania page read 18 Nov still shows Level 3 dated 31 Oct 2025 (so the CORRECT limb - page showing Level 2 on 16 Nov - fails at primary) and there was no re-issue at Level 3/4 after 16 Oct (so the INCORRECT limb fails too). The premise (a cut to Level 2 on 16 Oct) was never confirmed at primary; the call is void.",
+   "source_url": "https://travel.state.gov/content/travel/en/traveladvisories/traveladvisories/tanzania-travel-advisory.html",
+   "overdue": false
+  },
   {
    "id": "P128",
    "made_date": "2026-08-26",
