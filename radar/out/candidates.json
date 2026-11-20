@@ -1,19 +1,50 @@
 {
- "generated": "2026-11-20T01:41:48+03:00",
+ "generated": "2026-11-20T06:00:45+03:00",
  "slot": "morning",
  "window_start": 1795100400,
- "observations_in_window": 488,
+ "observations_in_window": 612,
  "deduped_against": 16,
  "candidates": [
   {
-   "score": 100.6,
+   "score": 91.4,
    "components": {
     "tier": 40,
     "category": 32,
     "lead": 3.6,
     "relevance": 0,
-    "freshness": 19.0,
-    "corroborated": 10,
+    "freshness": 19.8,
+    "page_change": -4
+   },
+   "keywords": [],
+   "shock_terms": [],
+   "dedupe_match": null,
+   "dedupe_similarity": 0.17,
+   "id": "4b889cfac74f",
+   "title": "[page changed] Federal Register \u2014 public inspection (HHS/CDC), pre-publication",
+   "url": "https://www.federalregister.gov/api/v1/public-inspection-documents/current.json",
+   "summary": "{\"count\":113,\"results\":[{\"agencies\":[{\"raw_name\":\"CHEMICAL SAFETY AND HAZARD INVESTIGATION BOARD\",\"name\":\"Chemical Safety and Hazard Investigation Board\",\"id\":47,\"url\":\"https://www.federalregister.gov/agencies/chemical-safety-and-hazard-investigation-board\",\"json_url\":\"https://www.federalregister.gov/api/v1/agencies/47\",\"parent_id\":null,\"slug\":\"chemical-safety-and-hazard-investigation-board\"}],\"ag",
+   "kind": "page-change",
+   "source": "Federal Register \u2014 public inspection (HHS/CDC), pre-publication",
+   "source_id": "us-fedreg-pubinspect-hhs",
+   "tier": 1,
+   "country": "REG",
+   "category": "advisory",
+   "segments": [
+    "city",
+    "bush"
+   ],
+   "first_seen": "2026-11-20T06:00+03:00",
+   "published": "2026-11-18",
+   "verdict": "OPEN THIS \u2014 tier-1 advisory page moved; content not auto-parsed, read it manually"
+  },
+  {
+   "score": 85.9,
+   "components": {
+    "tier": 40,
+    "category": 32,
+    "lead": 3.6,
+    "relevance": 0,
+    "freshness": 14.3,
     "page_change": -4
    },
    "keywords": [],
@@ -39,14 +70,13 @@
    "verdict": "OPEN THIS \u2014 tier-1 advisory page moved; content not auto-parsed, read it manually"
   },
   {
-   "score": 96.6,
+   "score": 81.9,
    "components": {
     "tier": 40,
     "category": 32,
     "lead": 3.6,
     "relevance": 0,
-    "freshness": 15.0,
-    "corroborated": 10,
+    "freshness": 10.3,
     "page_change": -4
    },
    "keywords": [],
@@ -72,13 +102,13 @@
    "verdict": "OPEN THIS \u2014 tier-1 advisory page moved; content not auto-parsed, read it manually"
   },
   {
-   "score": 60.6,
+   "score": 55.9,
    "components": {
     "tier": 40,
     "category": 12,
     "lead": 3.6,
     "relevance": 0,
-    "freshness": 15.0,
+    "freshness": 10.3,
     "undated": -6,
     "page_change": -4
    },
@@ -106,13 +136,52 @@
    "verdict": "OPEN THIS \u2014 tier-1 airline page moved; content not auto-parsed, read it manually"
   },
   {
-   "score": 107.4,
+   "score": 104.2,
+   "components": {
+    "tier": 20,
+    "category": 14,
+    "lead": 8.4,
+    "relevance": 32,
+    "freshness": 19.8,
+    "corroborated": 10
+   },
+   "keywords": [
+    "vat",
+    "route",
+    "frequency",
+    "airline",
+    "flight"
+   ],
+   "shock_terms": [],
+   "dedupe_match": null,
+   "dedupe_similarity": 0.14,
+   "id": "40a5dfea03b1",
+   "title": "ANA Feb/Mar 2027 Milan Frequency Changes",
+   "url": "https://www.aeroroutes.com/eng/261119-nh1q27mxp",
+   "summary": "Published at 1900PCT 19NOV26 / 0200GMT 20NOV26 Star Alliance member ANA in the last few days adjusted operational schedule for Tokyo Haneda \u2013 Milan Malpensa route, for the period of 20FEB27 \u2013 27MAR27. During this period, the airline continues to serve this route 3 times weekly with 787-9. ANA previously lists 1 daily flight during this period, although additional flights never opened for reservati",
+   "kind": "item",
+   "source": "AeroRoutes schedule filings",
+   "source_id": "aeroroutes",
+   "tier": 2,
+   "country": "GLOBAL",
+   "category": "aviation-tracker",
+   "segments": [
+    "city",
+    "bush",
+    "beach"
+   ],
+   "first_seen": "2026-11-20T06:00+03:00",
+   "published": "2026-11-20",
+   "verdict": "CONSIDER"
+  },
+  {
+   "score": 102.7,
    "components": {
     "tier": 20,
     "category": 14,
     "lead": 8.4,
     "relevance": 36,
-    "freshness": 19.0,
+    "freshness": 14.3,
     "corroborated": 10
    },
    "keywords": [
@@ -145,13 +214,51 @@
    "verdict": "CONSIDER"
   },
   {
-   "score": 99.0,
+   "score": 96.2,
+   "components": {
+    "tier": 20,
+    "category": 14,
+    "lead": 8.4,
+    "relevance": 24,
+    "freshness": 19.8,
+    "corroborated": 10
+   },
+   "keywords": [
+    "vat",
+    "route",
+    "airline",
+    "flight"
+   ],
+   "shock_terms": [],
+   "dedupe_match": null,
+   "dedupe_similarity": 0.14,
+   "id": "ef05d027d661",
+   "title": "Kuwait Airways Removed Planned Maldives Service in NW26",
+   "url": "https://www.aeroroutes.com/eng/261119-kunw26mv",
+   "summary": "Published at 1701PCT 19NOV26 / 0001GMT 20NOV26 Kuwait Airways in recent schedule update removed planned service resumption to The Maldives. The airline previously planned 2 weekly Kuwait City \u2013 Male flights with Airbus A321neo, from 02DEC26 to 06FEB27. Reservations for this route are also no longer available. KU365 KWI0040 \u2013 0755MLE 32Q 36 KU366 MLE1355 \u2013 1740KWI 32Q 36",
+   "kind": "item",
+   "source": "AeroRoutes schedule filings",
+   "source_id": "aeroroutes",
+   "tier": 2,
+   "country": "GLOBAL",
+   "category": "aviation-tracker",
+   "segments": [
+    "city",
+    "bush",
+    "beach"
+   ],
+   "first_seen": "2026-11-20T06:00+03:00",
+   "published": "2026-11-20",
+   "verdict": "CONSIDER"
+  },
+  {
+   "score": 94.3,
    "components": {
     "tier": 20,
     "category": 4,
     "lead": 0.0,
     "relevance": 28,
-    "freshness": 19.0,
+    "freshness": 14.3,
     "corroborated": 10,
     "shock": 18
    },
@@ -185,13 +292,13 @@
    "verdict": "CONSIDER"
   },
   {
-   "score": 98.8,
+   "score": 94.1,
    "components": {
     "tier": 40,
     "category": 17,
     "lead": 16.8,
     "relevance": 12,
-    "freshness": 19.0,
+    "freshness": 14.3,
     "undated": -6
    },
    "keywords": [
@@ -221,13 +328,13 @@
    "verdict": "STRONG \u2014 tier-1, upstream"
   },
   {
-   "score": 98.8,
+   "score": 94.1,
    "components": {
     "tier": 40,
     "category": 9,
     "lead": 16.8,
     "relevance": 20,
-    "freshness": 19.0,
+    "freshness": 14.3,
     "undated": -6
    },
    "keywords": [
@@ -259,13 +366,50 @@
    "verdict": "STRONG \u2014 tier-1, upstream"
   },
   {
-   "score": 95.4,
+   "score": 92.2,
+   "components": {
+    "tier": 20,
+    "category": 14,
+    "lead": 8.4,
+    "relevance": 20,
+    "freshness": 19.8,
+    "corroborated": 10
+   },
+   "keywords": [
+    "vat",
+    "route",
+    "airline"
+   ],
+   "shock_terms": [],
+   "dedupe_match": null,
+   "dedupe_similarity": 0.14,
+   "id": "e46b06afa056",
+   "title": "Air Algerie Tentatively Plans Delhi late-March 2027 Launch",
+   "url": "https://www.aeroroutes.com/eng/261119-ahns27del",
+   "summary": "Published at 1800PCT 19NOV26 / 0100GMT 20NOV26 Air Algerie in recent schedule update tentatively revised planned service launch on Algiers \u2013 Delhi route, now scheduled to commence on 28MAR27 at the earliest, currently listed until 08JUN27. Reservations for this remain unavailable. The airline would operate this route 3 times weekly with A330-900neo aircraft. AH3104 ALG1000 \u2013 0015+1DEL 339 247 AH31",
+   "kind": "item",
+   "source": "AeroRoutes schedule filings",
+   "source_id": "aeroroutes",
+   "tier": 2,
+   "country": "GLOBAL",
+   "category": "aviation-tracker",
+   "segments": [
+    "city",
+    "bush",
+    "beach"
+   ],
+   "first_seen": "2026-11-20T06:00+03:00",
+   "published": "2026-11-20",
+   "verdict": "CONSIDER"
+  },
+  {
+   "score": 90.7,
    "components": {
     "tier": 20,
     "category": 14,
     "lead": 8.4,
     "relevance": 24,
-    "freshness": 19.0,
+    "freshness": 14.3,
     "corroborated": 10
    },
    "keywords": [
@@ -296,13 +440,13 @@
    "verdict": "CONSIDER"
   },
   {
-   "score": 95.0,
+   "score": 90.3,
    "components": {
     "tier": 20,
     "category": 4,
     "lead": 0.0,
     "relevance": 24,
-    "freshness": 19.0,
+    "freshness": 14.3,
     "corroborated": 10,
     "shock": 18
    },
@@ -336,13 +480,13 @@
    "verdict": "CONSIDER"
   },
   {
-   "score": 92.8,
+   "score": 88.1,
    "components": {
     "tier": 40,
     "category": 15,
     "lead": 16.8,
     "relevance": 12,
-    "freshness": 15.0,
+    "freshness": 10.3,
     "undated": -6
    },
    "keywords": [
@@ -369,16 +513,16 @@
    ],
    "first_seen": "2026-11-19T21:21+03:00",
    "published": null,
-   "verdict": "STRONG \u2014 tier-1, upstream"
+   "verdict": "CONSIDER"
   },
   {
-   "score": 92.8,
+   "score": 88.1,
    "components": {
     "tier": 40,
     "category": 15,
     "lead": 16.8,
     "relevance": 12,
-    "freshness": 15.0,
+    "freshness": 10.3,
     "undated": -6
    },
    "keywords": [
@@ -405,16 +549,16 @@
    ],
    "first_seen": "2026-11-19T21:21+03:00",
    "published": null,
-   "verdict": "STRONG \u2014 tier-1, upstream"
+   "verdict": "CONSIDER"
   },
   {
-   "score": 92.8,
+   "score": 88.1,
    "components": {
     "tier": 40,
     "category": 15,
     "lead": 16.8,
     "relevance": 12,
-    "freshness": 15.0,
+    "freshness": 10.3,
     "undated": -6
    },
    "keywords": [
@@ -441,16 +585,16 @@
    ],
    "first_seen": "2026-11-19T21:21+03:00",
    "published": null,
-   "verdict": "STRONG \u2014 tier-1, upstream"
+   "verdict": "CONSIDER"
   },
   {
-   "score": 91.4,
+   "score": 86.7,
    "components": {
     "tier": 20,
     "category": 14,
     "lead": 8.4,
     "relevance": 24,
-    "freshness": 15.0,
+    "freshness": 10.3,
     "corroborated": 10
    },
    "keywords": [
@@ -481,13 +625,13 @@
    "verdict": "CONSIDER"
   },
   {
-   "score": 91.4,
+   "score": 86.7,
    "components": {
     "tier": 40,
     "category": 24,
     "lead": 2.4,
     "relevance": 0,
-    "freshness": 15.0,
+    "freshness": 10.3,
     "corroborated": 10
    },
    "keywords": [],
@@ -510,16 +654,16 @@
    ],
    "first_seen": "2026-11-19T21:22+03:00",
    "published": "2026-11-19",
-   "verdict": "STRONG \u2014 tier-1, upstream"
+   "verdict": "CONSIDER"
   },
   {
-   "score": 91.4,
+   "score": 86.7,
    "components": {
     "tier": 40,
     "category": 24,
     "lead": 2.4,
     "relevance": 0,
-    "freshness": 15.0,
+    "freshness": 10.3,
     "corroborated": 10
    },
    "keywords": [],
@@ -542,16 +686,16 @@
    ],
    "first_seen": "2026-11-19T21:22+03:00",
    "published": "2026-11-19",
-   "verdict": "STRONG \u2014 tier-1, upstream"
+   "verdict": "CONSIDER"
   },
   {
-   "score": 90.8,
+   "score": 86.1,
    "components": {
     "tier": 40,
     "category": 17,
     "lead": 16.8,
     "relevance": 4,
-    "freshness": 19.0,
+    "freshness": 14.3,
     "undated": -6
    },
    "keywords": [
@@ -577,16 +721,16 @@
    ],
    "first_seen": "2026-11-20T00:59+03:00",
    "published": null,
-   "verdict": "STRONG \u2014 tier-1, upstream"
+   "verdict": "CONSIDER"
   },
   {
-   "score": 90.8,
+   "score": 86.1,
    "components": {
     "tier": 40,
     "category": 17,
     "lead": 16.8,
     "relevance": 4,
-    "freshness": 19.0,
+    "freshness": 14.3,
     "undated": -6
    },
    "keywords": [
@@ -612,16 +756,16 @@
    ],
    "first_seen": "2026-11-20T00:59+03:00",
    "published": null,
-   "verdict": "STRONG \u2014 tier-1, upstream"
+   "verdict": "CONSIDER"
   },
   {
-   "score": 90.8,
+   "score": 86.1,
    "components": {
     "tier": 40,
     "category": 17,
     "lead": 16.8,
     "relevance": 4,
-    "freshness": 19.0,
+    "freshness": 14.3,
     "undated": -6
    },
    "keywords": [
@@ -647,16 +791,16 @@
    ],
    "first_seen": "2026-11-20T00:59+03:00",
    "published": null,
-   "verdict": "STRONG \u2014 tier-1, upstream"
+   "verdict": "CONSIDER"
   },
   {
-   "score": 90.8,
+   "score": 86.1,
    "components": {
     "tier": 40,
     "category": 17,
     "lead": 16.8,
     "relevance": 4,
-    "freshness": 19.0,
+    "freshness": 14.3,
     "undated": -6
    },
    "keywords": [
@@ -682,16 +826,16 @@
    ],
    "first_seen": "2026-11-20T00:59+03:00",
    "published": null,
-   "verdict": "STRONG \u2014 tier-1, upstream"
+   "verdict": "CONSIDER"
   },
   {
-   "score": 90.8,
+   "score": 86.1,
    "components": {
     "tier": 40,
     "category": 9,
     "lead": 16.8,
     "relevance": 12,
-    "freshness": 19.0,
+    "freshness": 14.3,
     "undated": -6
    },
    "keywords": [
@@ -717,16 +861,92 @@
    ],
    "first_seen": "2026-11-20T00:59+03:00",
    "published": null,
-   "verdict": "STRONG \u2014 tier-1, upstream"
+   "verdict": "CONSIDER"
   },
   {
-   "score": 87.4,
+   "score": 84.2,
+   "components": {
+    "tier": 5,
+    "category": 5,
+    "lead": 2.4,
+    "relevance": 24,
+    "freshness": 19.8,
+    "corroborated": 10,
+    "shock": 18
+   },
+   "keywords": [
+    "outbreak",
+    "vat",
+    "tourism"
+   ],
+   "shock_terms": [
+    "outbreak"
+   ],
+   "dedupe_match": null,
+   "dedupe_similarity": 0.17,
+   "id": "f44765095525",
+   "title": "Japan Snowfall Alert Puts Road and Rail Travel at Risk as Winter Weather Intensifies",
+   "url": "https://www.travelandtourworld.com/news/article/6rbjigm62xru",
+   "summary": "Japan faces a growing risk of heavy snowfall, icy roads and transport disruption as a strong outbreak of cold air affects several regions between 19 and 22 November 2026. According to official advisories from the Japan Meteorological Agency (JMA) and the Ministry of Land, Infrastructure, Transport and Tourism (MLIT), Tohoku, Hokuriku and southern Nagano are among the areas requiring particular att",
+   "kind": "item",
+   "source": "Travel And Tour World",
+   "source_id": "gl-travelandtourworld",
+   "tier": 3,
+   "country": "GLOBAL",
+   "category": "trade",
+   "segments": [
+    "city",
+    "bush",
+    "beach"
+   ],
+   "first_seen": "2026-11-20T06:00+03:00",
+   "published": "2026-11-20",
+   "verdict": "CONSIDER"
+  },
+  {
+   "score": 84.2,
+   "components": {
+    "tier": 20,
+    "category": 14,
+    "lead": 8.4,
+    "relevance": 12,
+    "freshness": 19.8,
+    "corroborated": 10
+   },
+   "keywords": [
+    "route",
+    "airline"
+   ],
+   "shock_terms": [],
+   "dedupe_match": null,
+   "dedupe_similarity": 0.29,
+   "id": "ebc65ee06372",
+   "title": "SIA NS27 Melbourne Aircraft Changes \u2013 19NOV26",
+   "url": "https://www.aeroroutes.com/eng/261119-sqns27mel",
+   "summary": "Published at 1600PCT / 2300GMT 19NOV26 Singapore Airlines (SIA) in recent weeks filed aircraft changes for Singapore \u2013 Melbourne route during Northern summer 2027 season. The A380 service on SQ237/228 will be maintained on/after 28AMR27, while SQ217/218 to see Boeing 777-300ER operating from 01SEP27, replacing A350-900. SQ237 SIN0145 \u2013 1100MEL 388 D SQ207 SIN0750 \u2013 1710MEL 359 D SQ217 SIN1110 \u2013 20",
+   "kind": "item",
+   "source": "AeroRoutes schedule filings",
+   "source_id": "aeroroutes",
+   "tier": 2,
+   "country": "GLOBAL",
+   "category": "aviation-tracker",
+   "segments": [
+    "city",
+    "bush",
+    "beach"
+   ],
+   "first_seen": "2026-11-20T06:00+03:00",
+   "published": "2026-11-20",
+   "verdict": "CONSIDER"
+  },
+  {
+   "score": 82.7,
    "components": {
     "tier": 20,
     "category": 14,
     "lead": 8.4,
     "relevance": 16,
-    "freshness": 19.0,
+    "freshness": 14.3,
     "corroborated": 10
    },
    "keywords": [
@@ -757,13 +977,13 @@
    "verdict": "CONSIDER"
   },
   {
-   "score": 83.4,
+   "score": 78.7,
    "components": {
     "tier": 20,
     "category": 14,
     "lead": 8.4,
     "relevance": 12,
-    "freshness": 19.0,
+    "freshness": 14.3,
     "corroborated": 10
    },
    "keywords": [
@@ -793,13 +1013,13 @@
    "verdict": "CONSIDER"
   },
   {
-   "score": 83.4,
+   "score": 78.7,
    "components": {
     "tier": 20,
     "category": 14,
     "lead": 8.4,
     "relevance": 16,
-    "freshness": 15.0,
+    "freshness": 10.3,
     "corroborated": 10
    },
    "keywords": [
@@ -830,13 +1050,13 @@
    "verdict": "CONSIDER"
   },
   {
-   "score": 83.4,
+   "score": 78.7,
    "components": {
     "tier": 20,
     "category": 14,
     "lead": 8.4,
     "relevance": 16,
-    "freshness": 15.0,
+    "freshness": 10.3,
     "corroborated": 10
    },
    "keywords": [
@@ -867,13 +1087,51 @@
    "verdict": "CONSIDER"
   },
   {
-   "score": 83.0,
+   "score": 78.4,
+   "components": {
+    "tier": 20,
+    "category": 5,
+    "lead": 3.6,
+    "relevance": 20,
+    "freshness": 19.8,
+    "corroborated": 10
+   },
+   "keywords": [
+    "fee",
+    "hotel",
+    "signing",
+    "guest"
+   ],
+   "shock_terms": [],
+   "dedupe_match": null,
+   "dedupe_similarity": 0.12,
+   "id": "e4bf2e3eb857",
+   "title": "From Vibe Check(In) to Designing the Feeling Behind a Hotel Stay",
+   "url": "https://www.hospitalitynet.org/news/4135600/from-vibe-checkin-to-designing-the-feeling-behind-a-hotel-stay",
+   "summary": "Drawing on hedonic/eudaimonic well-being theory and environmental psychology, the article outlines how hotels can design sensory-consistent experiences that meet guests' emotional needs at every touchpoint.",
+   "kind": "item",
+   "source": "Hospitality Net \u2014 Africa announcements",
+   "source_id": "dev-hospitalitynet-africa",
+   "tier": 2,
+   "country": "REG",
+   "category": "trade",
+   "segments": [
+    "city",
+    "bush",
+    "beach"
+   ],
+   "first_seen": "2026-11-20T06:00+03:00",
+   "published": "2026-11-20",
+   "verdict": "CONSIDER"
+  },
+  {
+   "score": 78.3,
    "components": {
     "tier": 20,
     "category": 4,
     "lead": 0.0,
     "relevance": 16,
-    "freshness": 15.0,
+    "freshness": 10.3,
     "corroborated": 10,
     "shock": 18
    },
@@ -907,13 +1165,13 @@
    "verdict": "CONSIDER"
   },
   {
-   "score": 82.8,
+   "score": 78.1,
    "components": {
     "tier": 40,
     "category": 9,
     "lead": 16.8,
     "relevance": 4,
-    "freshness": 19.0,
+    "freshness": 14.3,
     "undated": -6
    },
    "keywords": [
@@ -942,13 +1200,13 @@
    "verdict": "CONSIDER"
   },
   {
-   "score": 82.4,
+   "score": 77.7,
    "components": {
     "tier": 40,
     "category": 9,
     "lead": 8.4,
     "relevance": 12,
-    "freshness": 19.0,
+    "freshness": 14.3,
     "undated": -6
    },
    "keywords": [
@@ -976,13 +1234,51 @@
    "verdict": "CONSIDER"
   },
   {
-   "score": 80.8,
+   "score": 77.2,
+   "components": {
+    "tier": 20,
+    "category": 5,
+    "lead": 2.4,
+    "relevance": 20,
+    "freshness": 19.8,
+    "corroborated": 10
+   },
+   "keywords": [
+    "fee",
+    "hotel",
+    "signing",
+    "guest"
+   ],
+   "shock_terms": [],
+   "dedupe_match": null,
+   "dedupe_similarity": 0.12,
+   "id": "77e9ae634e84",
+   "title": "From Vibe Check(In) to Designing the Feeling Behind a Hotel Stay",
+   "url": "https://www.hospitalitynet.org/news/4135600/from-vibe-checkin-to-designing-the-feeling-behind-a-hotel-stay",
+   "summary": "Drawing on hedonic/eudaimonic well-being theory and environmental psychology, the article outlines how hotels can design sensory-consistent experiences that meet guests' emotional needs at every touchpoint.",
+   "kind": "item",
+   "source": "Hospitality Net: Africa openings",
+   "source_id": "dev-hospitalitynet-openings",
+   "tier": 2,
+   "country": "AFRICA",
+   "category": "trade",
+   "segments": [
+    "city",
+    "bush",
+    "beach"
+   ],
+   "first_seen": "2026-11-20T06:00+03:00",
+   "published": "2026-11-20",
+   "verdict": "CONSIDER"
+  },
+  {
+   "score": 76.1,
    "components": {
     "tier": 40,
     "category": 15,
     "lead": 16.8,
     "relevance": 0,
-    "freshness": 15.0,
+    "freshness": 10.3,
     "undated": -6
    },
    "keywords": [],
@@ -1009,13 +1305,13 @@
    "verdict": "CONSIDER"
   },
   {
-   "score": 79.4,
+   "score": 74.7,
    "components": {
     "tier": 20,
     "category": 14,
     "lead": 8.4,
     "relevance": 12,
-    "freshness": 15.0,
+    "freshness": 10.3,
     "corroborated": 10
    },
    "keywords": [
@@ -1045,13 +1341,13 @@
    "verdict": "CONSIDER"
   },
   {
-   "score": 78.8,
+   "score": 74.1,
    "components": {
     "tier": 40,
     "category": 9,
     "lead": 16.8,
     "relevance": 0,
-    "freshness": 19.0,
+    "freshness": 14.3,
     "undated": -6
    },
    "keywords": [],
@@ -1076,13 +1372,13 @@
    "verdict": "CONSIDER"
   },
   {
-   "score": 78.8,
+   "score": 74.1,
    "components": {
     "tier": 40,
     "category": 9,
     "lead": 16.8,
     "relevance": 0,
-    "freshness": 19.0,
+    "freshness": 14.3,
     "undated": -6
    },
    "keywords": [],
@@ -1107,13 +1403,13 @@
    "verdict": "CONSIDER"
   },
   {
-   "score": 78.4,
+   "score": 73.7,
    "components": {
     "tier": 40,
     "category": 9,
     "lead": 8.4,
     "relevance": 8,
-    "freshness": 19.0,
+    "freshness": 14.3,
     "undated": -6
    },
    "keywords": [
@@ -1137,287 +1433,6 @@
     "beach"
    ],
    "first_seen": "2026-11-20T00:59+03:00",
-   "published": null,
-   "verdict": "CONSIDER"
-  },
-  {
-   "score": 77.6,
-   "components": {
-    "tier": 20,
-    "category": 5,
-    "lead": 3.6,
-    "relevance": 24,
-    "freshness": 15.0,
-    "corroborated": 10
-   },
-   "keywords": [
-    "levy",
-    "tax",
-    "hotel",
-    "tourist"
-   ],
-   "shock_terms": [],
-   "dedupe_match": null,
-   "dedupe_similarity": 0.0,
-   "id": "4fb2198f6206",
-   "title": "What Does a Career in Hospitality Mean to You?, England's Tourist Tax Needs a Spending Plan, 52% of Travelers Plan With AI but 2% Book Through It",
-   "url": "https://www.hospitalitynet.org/editorial/4135598/what-does-a-career-in-hospitality-mean-to-you-englands-tourist-tax-needs-a-spending-plan-52-of-travelers-plan-with-ai-but-2-book-through-it",
-   "summary": "Thursday opens with the first Student Voices viewpoint on how studies and internships reshape hospitality careers, followed by hoteliers asking what England's new overnight levy will actually pay for.",
-   "kind": "item",
-   "source": "Hospitality Net \u2014 Africa announcements",
-   "source_id": "dev-hospitalitynet-africa",
-   "tier": 2,
-   "country": "REG",
-   "category": "trade",
-   "segments": [
-    "city",
-    "bush",
-    "beach"
-   ],
-   "first_seen": "2026-11-19T21:22+03:00",
-   "published": "2026-11-19",
-   "verdict": "CONSIDER"
-  },
-  {
-   "score": 77.4,
-   "components": {
-    "tier": 5,
-    "category": 5,
-    "lead": 2.4,
-    "relevance": 40,
-    "freshness": 15.0,
-    "corroborated": 10
-   },
-   "keywords": [
-    "fuel",
-    "route",
-    "capacity",
-    "seat",
-    "airline",
-    "flight"
-   ],
-   "shock_terms": [],
-   "dedupe_match": null,
-   "dedupe_similarity": 0.2,
-   "id": "9e3c2f5baef6",
-   "title": "Alaska Air Group and Three Global Carriers Drive Major Flight Expansions Into 2027",
-   "url": "https://www.travelandtourworld.com/news/article/2rpxdpidg6p3",
-   "summary": "Image Source: Alaska Airlines The global airline industry is changing dramatically in 2027. Alaska Air Group, Akasa Air, JetBlue Airways, and South African Airways are all increasing their flight availability. While competitors reduce services due to rising fuel prices, these four airlines have all launched new long-haul routes. Alaska Air Group has added five new routes from its Seattle hub. Akas",
-   "kind": "item",
-   "source": "Travel And Tour World",
-   "source_id": "gl-travelandtourworld",
-   "tier": 3,
-   "country": "GLOBAL",
-   "category": "trade",
-   "segments": [
-    "city",
-    "bush",
-    "beach"
-   ],
-   "first_seen": "2026-11-19T21:22+03:00",
-   "published": "2026-11-19",
-   "verdict": "CONSIDER"
-  },
-  {
-   "score": 76.8,
-   "components": {
-    "tier": 40,
-    "category": 7,
-    "lead": 16.8,
-    "relevance": 0,
-    "freshness": 19.0,
-    "undated": -6
-   },
-   "keywords": [],
-   "shock_terms": [],
-   "dedupe_match": null,
-   "dedupe_similarity": 0.0,
-   "id": "e72519fb137f",
-   "title": "FRAMEWORK CONTRACT FOR SERVICING AND MAINTENA...",
-   "url": "https://egpuganda.go.ug/index/423138204_egp",
-   "summary": "",
-   "kind": "item",
-   "source": "Uganda EGP portal",
-   "source_id": "ug-tenders",
-   "tier": 1,
-   "country": "UG",
-   "category": "tender",
-   "segments": [
-    "city",
-    "bush",
-    "beach"
-   ],
-   "first_seen": "2026-11-20T00:59+03:00",
-   "published": null,
-   "verdict": "CONSIDER"
-  },
-  {
-   "score": 76.8,
-   "components": {
-    "tier": 40,
-    "category": 7,
-    "lead": 16.8,
-    "relevance": 0,
-    "freshness": 19.0,
-    "undated": -6
-   },
-   "keywords": [],
-   "shock_terms": [],
-   "dedupe_match": null,
-   "dedupe_similarity": 0.0,
-   "id": "a68ca06efb65",
-   "title": "Procurement of Compactor Garbage Trucks...",
-   "url": "https://egpuganda.go.ug/index/426789056_egp",
-   "summary": "",
-   "kind": "item",
-   "source": "Uganda EGP portal",
-   "source_id": "ug-tenders",
-   "tier": 1,
-   "country": "UG",
-   "category": "tender",
-   "segments": [
-    "city",
-    "bush",
-    "beach"
-   ],
-   "first_seen": "2026-11-20T00:59+03:00",
-   "published": null,
-   "verdict": "CONSIDER"
-  },
-  {
-   "score": 76.8,
-   "components": {
-    "tier": 40,
-    "category": 7,
-    "lead": 16.8,
-    "relevance": 0,
-    "freshness": 19.0,
-    "undated": -6
-   },
-   "keywords": [],
-   "shock_terms": [],
-   "dedupe_match": null,
-   "dedupe_similarity": 0.2,
-   "id": "d3413829bd84",
-   "title": "Low Cost Sealing of Akaba Road (0.697km), Ejo...",
-   "url": "https://egpuganda.go.ug/index/425640314_egp",
-   "summary": "",
-   "kind": "item",
-   "source": "Uganda EGP portal",
-   "source_id": "ug-tenders",
-   "tier": 1,
-   "country": "UG",
-   "category": "tender",
-   "segments": [
-    "city",
-    "bush",
-    "beach"
-   ],
-   "first_seen": "2026-11-20T00:59+03:00",
-   "published": null,
-   "verdict": "CONSIDER"
-  },
-  {
-   "score": 76.8,
-   "components": {
-    "tier": 40,
-    "category": 7,
-    "lead": 16.8,
-    "relevance": 0,
-    "freshness": 19.0,
-    "undated": -6
-   },
-   "keywords": [],
-   "shock_terms": [],
-   "dedupe_match": null,
-   "dedupe_similarity": 0.0,
-   "id": "05e73b7d489c",
-   "title": "Supply and delivery of Contagious Bovine Pleu...",
-   "url": "https://egpuganda.go.ug/index/424286946_egp",
-   "summary": "",
-   "kind": "item",
-   "source": "Uganda EGP portal",
-   "source_id": "ug-tenders",
-   "tier": 1,
-   "country": "UG",
-   "category": "tender",
-   "segments": [
-    "city",
-    "bush",
-    "beach"
-   ],
-   "first_seen": "2026-11-20T00:59+03:00",
-   "published": null,
-   "verdict": "CONSIDER"
-  },
-  {
-   "score": 76.4,
-   "components": {
-    "tier": 20,
-    "category": 5,
-    "lead": 2.4,
-    "relevance": 24,
-    "freshness": 15.0,
-    "corroborated": 10
-   },
-   "keywords": [
-    "levy",
-    "tax",
-    "hotel",
-    "tourist"
-   ],
-   "shock_terms": [],
-   "dedupe_match": null,
-   "dedupe_similarity": 0.0,
-   "id": "2718c44ee8a7",
-   "title": "What Does a Career in Hospitality Mean to You?, England's Tourist Tax Needs a Spending Plan, 52% of Travelers Plan With AI but 2% Book Through It",
-   "url": "https://www.hospitalitynet.org/editorial/4135598/what-does-a-career-in-hospitality-mean-to-you-englands-tourist-tax-needs-a-spending-plan-52-of-travelers-plan-with-ai-but-2-book-through-it",
-   "summary": "Thursday opens with the first Student Voices viewpoint on how studies and internships reshape hospitality careers, followed by hoteliers asking what England's new overnight levy will actually pay for.",
-   "kind": "item",
-   "source": "Hospitality Net: Africa openings",
-   "source_id": "dev-hospitalitynet-openings",
-   "tier": 2,
-   "country": "AFRICA",
-   "category": "trade",
-   "segments": [
-    "city",
-    "bush",
-    "beach"
-   ],
-   "first_seen": "2026-11-19T21:22+03:00",
-   "published": "2026-11-19",
-   "verdict": "CONSIDER"
-  },
-  {
-   "score": 75.8,
-   "components": {
-    "tier": 40,
-    "category": 10,
-    "lead": 16.8,
-    "relevance": 0,
-    "freshness": 15.0,
-    "undated": -6
-   },
-   "keywords": [],
-   "shock_terms": [],
-   "dedupe_match": null,
-   "dedupe_similarity": 0.17,
-   "id": "d85285a75a8b",
-   "title": "President asks city traders to open shops Thursday, 19 November 2026",
-   "url": "https://www.parliament.go.ug/news/4750/president-asks-city-traders-open-shops",
-   "summary": "",
-   "kind": "item",
-   "source": "Parliament of Uganda",
-   "source_id": "ug-parliament",
-   "tier": 1,
-   "country": "UG",
-   "category": "legislature",
-   "segments": [
-    "city",
-    "bush",
-    "beach"
-   ],
-   "first_seen": "2026-11-19T21:21+03:00",
    "published": null,
    "verdict": "CONSIDER"
   }
