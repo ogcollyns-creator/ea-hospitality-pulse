@@ -1,5 +1,14 @@
 window.GUIDES = [
  {
+  "slug": "india-daily-flight-tanzania-package-gap",
+  "title": "India got a daily flight to Tanzania this morning. The guest on it is worth $276 a night less.",
+  "description": "IndiGo's first daily Mumbai to Dar es Salaam service was scheduled to land at 06:05 today, and India entered Tanzania's mainland top fifteen source markets for the first time last year. But package visitors spent $479 a night on the mainland in 2025 and non-package visitors spent $203. A seat bought on an airline website arrives without a package, and the constraint East Africa keeps calling connectivity is really conversion.",
+  "category": "Big Read",
+  "updated": "2026-11-20",
+  "readMins": 8,
+  "image": "img/editions/india-daily-flight-tanzania-package-gap.jpg"
+ },
+ {
   "slug": "uganda-low-season-permit-discount-busiest-month",
   "title": "Uganda has cut the gorilla permit price in April, May and November. May was its busiest month of the year.",
   "description": "A short table in Uganda Wildlife Authority's January 2027 tariff knocks 200 dollars off a gorilla permit in three named months. The Ministry of Tourism's own half-year statistics show one of those months was the single busiest for arrivals, while half the permit book went unsold all year. The discount is keyed to the calendar, and the problem is not calendar-shaped.",

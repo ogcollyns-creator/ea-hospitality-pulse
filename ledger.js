@@ -1,8 +1,8 @@
 window.LEDGER = {
- "updated": "2026-11-19 06:45",
+ "updated": "2026-11-20 05:37",
  "stats": {
-  "total": 269,
-  "open": 138,
+  "total": 271,
+  "open": 140,
   "resolved": 128,
   "correct": 92,
   "partial": 1,
@@ -23,7 +23,7 @@ window.LEDGER = {
    "confidence": "Confirmed",
    "status": "open",
    "resolved_date": "",
-   "evidence": "CHECKED 2026-11-10, STILL OPEN: no Tourism Research Institute or ministry August 2026 arrivals figure found (searched tri.go.ke, tourism.go.ke, Star, KBC, Khusoko). KNBS Leading Economic Indicators Aug 2026 PDF exists (published Oct 2026) but its server blocks retrieval and it counts JKIA/MIA arrivals only. Void eligible from 2026-11-15 if no TRI/ministry figure appears. RE-CHECKED 2026-11-17, STILL OPEN: still no TRI or ministry August 2026 monthly arrivals figure. tourism.go.ke Sub-Sector Report (Aug 2026) gives FY totals only (2.79m FY2025/26); Star 6 Oct 2026 gives cumulative-to-June only. Not voided: the August 2025 baseline came from an annual report published the following May, so an August 2026 figure is likely to exist in TRI's 2026 annual report. Void if none by 31 May 2027. RE-CHECKED 2026-11-18, STILL OPEN: still no TRI or ministry August 2026 monthly arrivals figure (search returns tourism.go.ke Aug sub-sector report with FY totals only). Data never published; left open rather than guessed.",
+   "evidence": "CHECKED 2026-11-10, STILL OPEN: no Tourism Research Institute or ministry August 2026 arrivals figure found (searched tri.go.ke, tourism.go.ke, Star, KBC, Khusoko). KNBS Leading Economic Indicators Aug 2026 PDF exists (published Oct 2026) but its server blocks retrieval and it counts JKIA/MIA arrivals only. Void eligible from 2026-11-15 if no TRI/ministry figure appears. RE-CHECKED 2026-11-17, STILL OPEN: still no TRI or ministry August 2026 monthly arrivals figure. tourism.go.ke Sub-Sector Report (Aug 2026) gives FY totals only (2.79m FY2025/26); Star 6 Oct 2026 gives cumulative-to-June only. Not voided: the August 2025 baseline came from an annual report published the following May, so an August 2026 figure is likely to exist in TRI's 2026 annual report. Void if none by 31 May 2027. RE-CHECKED 2026-11-18, STILL OPEN: still no TRI or ministry August 2026 monthly arrivals figure (search returns tourism.go.ke Aug sub-sector report with FY totals only). Data never published; left open rather than guessed. RE-CHECKED 2026-11-19, STILL OPEN: resolve_by passed but the named data still not found in tonight's sweep; left open rather than guessed.",
    "source_url": "",
    "overdue": true
   },
@@ -39,7 +39,7 @@ window.LEDGER = {
    "confidence": "Reported",
    "status": "open",
    "resolved_date": "",
-   "evidence": "CHECKED 2026-11-10, STILL OPEN: no FCC Tanzania decision on A Squared / Nawiri found. FCC public-notices page returns no readable content; TanzaniaInvest 9 Jul 2026 reports only the start of FCC review and 14-day comment window. Kenya CAK approval does not meet the test. Void eligible from 2026-12-01 if no decision is published. RE-CHECKED 2026-11-17, STILL OPEN: no FCC decision on A Squared / Nawiri found (searched FCC, Daily News, TanzaniaInvest, Citizen). Daily News 6 Mar 2026 FCC approvals list covers Nawiri/Asilia Southern Tanzania - a different transaction. Void eligible from 2026-12-01. RE-CHECKED 2026-11-18, STILL OPEN: no new primary data found in tonight's sweep. Void eligible from 2026-12-01.",
+   "evidence": "CHECKED 2026-11-10, STILL OPEN: no FCC Tanzania decision on A Squared / Nawiri found. FCC public-notices page returns no readable content; TanzaniaInvest 9 Jul 2026 reports only the start of FCC review and 14-day comment window. Kenya CAK approval does not meet the test. Void eligible from 2026-12-01 if no decision is published. RE-CHECKED 2026-11-17, STILL OPEN: no FCC decision on A Squared / Nawiri found (searched FCC, Daily News, TanzaniaInvest, Citizen). Daily News 6 Mar 2026 FCC approvals list covers Nawiri/Asilia Southern Tanzania - a different transaction. Void eligible from 2026-12-01. RE-CHECKED 2026-11-18, STILL OPEN: no new primary data found in tonight's sweep. Void eligible from 2026-12-01. RE-CHECKED 2026-11-19, STILL OPEN: resolve_by passed but the named data still not found in tonight's sweep; left open rather than guessed.",
    "source_url": "",
    "overdue": true
   },
@@ -55,7 +55,7 @@ window.LEDGER = {
    "confidence": "Confirmed",
    "status": "open",
    "resolved_date": "",
-   "evidence": "CHECKED 2026-11-10, STILL OPEN: no Kenya MoH mpox statement or briefing found after the 6 Sep 2026 update (1,298 cases; Mombasa 452) via MoH X account, Kenyans.co.ke, KBC, Nation (blocked). If none was published by 31 Oct the test cannot be met; void eligible from 2026-12-01. RE-CHECKED 2026-11-17, STILL OPEN: still no Kenya MoH mpox update after the 6 Sep 2026 statement (1,298 cases, Mombasa 452); Standard editorial on government silence over mpox supports that none was issued. Void eligible from 2026-12-01. RE-CHECKED 2026-11-18, STILL OPEN: no new primary data found in tonight's sweep. Void eligible from 2026-12-01.",
+   "evidence": "CHECKED 2026-11-10, STILL OPEN: no Kenya MoH mpox statement or briefing found after the 6 Sep 2026 update (1,298 cases; Mombasa 452) via MoH X account, Kenyans.co.ke, KBC, Nation (blocked). If none was published by 31 Oct the test cannot be met; void eligible from 2026-12-01. RE-CHECKED 2026-11-17, STILL OPEN: still no Kenya MoH mpox update after the 6 Sep 2026 statement (1,298 cases, Mombasa 452); Standard editorial on government silence over mpox supports that none was issued. Void eligible from 2026-12-01. RE-CHECKED 2026-11-18, STILL OPEN: no new primary data found in tonight's sweep. Void eligible from 2026-12-01. RE-CHECKED 2026-11-19, STILL OPEN: resolve_by passed but the named data still not found in tonight's sweep; left open rather than guessed.",
    "source_url": "https://www.kbc.co.ke/kenyans-urged-to-adhere-to-mpox-preventive-measures-as-1298-cases-recorded/",
    "overdue": true
   },
@@ -71,7 +71,7 @@ window.LEDGER = {
    "confidence": "Confirmed",
    "status": "open",
    "resolved_date": "",
-   "evidence": "CHECKED 2026-11-10, STILL OPEN: no OCGS September 2026 arrivals release or press report found (searched The Citizen, Daily News, TanzaniaInvest, zanzibarism.com, allAfrica). Latest published month is August (124,481; Jan-Aug 633,228). Test requires a release on or before 31 Oct; void eligible from 2026-12-01 if none existed by then. RE-CHECKED 2026-11-17, STILL OPEN: no OCGS September 2026 release or press report found (Citizen, Daily News, TanzaniaInvest, zanzibarism.com - latest 2026 month listed there is May; Sept results returned 2024/2025 stories only). Void eligible from 2026-12-01. RE-CHECKED 2026-11-18, STILL OPEN: no new primary data found in tonight's sweep. Void eligible from 2026-12-01.",
+   "evidence": "CHECKED 2026-11-10, STILL OPEN: no OCGS September 2026 arrivals release or press report found (searched The Citizen, Daily News, TanzaniaInvest, zanzibarism.com, allAfrica). Latest published month is August (124,481; Jan-Aug 633,228). Test requires a release on or before 31 Oct; void eligible from 2026-12-01 if none existed by then. RE-CHECKED 2026-11-17, STILL OPEN: no OCGS September 2026 release or press report found (Citizen, Daily News, TanzaniaInvest, zanzibarism.com - latest 2026 month listed there is May; Sept results returned 2024/2025 stories only). Void eligible from 2026-12-01. RE-CHECKED 2026-11-18, STILL OPEN: no new primary data found in tonight's sweep. Void eligible from 2026-12-01. RE-CHECKED 2026-11-19, STILL OPEN: resolve_by passed but the named data still not found in tonight's sweep; left open rather than guessed.",
    "source_url": "https://www.thecitizen.co.tz/tanzania/zanzibar/zanzibar-tourism-arrivals-hit-record-124-481-in-august-5590494",
    "overdue": true
   },
@@ -1100,6 +1100,22 @@ window.LEDGER = {
    "overdue": false
   },
   {
+   "id": "P270",
+   "made_date": "2026-11-19",
+   "edition": "Evening Wrap",
+   "claim": "KAA's draft Commercial Charges Order 2026 (JKIA tour-van sticker KSh20,000; shuttle KSh40,000) will not take effect before 1 January 2027",
+   "resolution_criteria": "No KAA PLC notice, Kenya Gazette notice or press report (The Star, Kenyans.co.ke, Business Daily) states the order in force on or before 31 Dec 2026. Any such notice with an effective date on or before 31 Dec 2026 makes the call INCORRECT",
+   "resolve_by": "2027-01-15",
+   "market": "KE",
+   "segment": "City/Bush/Beach",
+   "confidence": "Inference",
+   "status": "open",
+   "resolved_date": "",
+   "evidence": "",
+   "source_url": "https://www.the-star.co.ke/news/2026-11-19-pain-for-travellers-as-kaa-raises-airport-charges",
+   "overdue": false
+  },
+  {
    "id": "P006",
    "made_date": "2026-07-25",
    "edition": "Morning Brief",
@@ -2073,6 +2089,22 @@ window.LEDGER = {
    "resolved_date": "",
    "evidence": "",
    "source_url": "",
+   "overdue": false
+  },
+  {
+   "id": "P271",
+   "made_date": "2026-11-19",
+   "edition": "Evening Wrap",
+   "claim": "No toll will be charged on the Nairobi-Thika Highway before 1 July 2027",
+   "resolution_criteria": "No KeNHA, Treasury or Kenya Gazette notice, and no Business Daily, Nation, Star or Capital FM report, shows motorists paying a toll on the Nairobi-Thika Highway on or before 30 Jun 2027. Any toll collected in that period makes the call INCORRECT",
+   "resolve_by": "2027-07-15",
+   "market": "KE",
+   "segment": "City",
+   "confidence": "Inference",
+   "status": "open",
+   "resolved_date": "",
+   "evidence": "",
+   "source_url": "https://allafrica.com/stories/202611180186.html",
    "overdue": false
   },
   {

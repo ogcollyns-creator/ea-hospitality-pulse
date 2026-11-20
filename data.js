@@ -1,5 +1,14 @@
 window.EDITIONS = [
  {
+  "id": "pulse-2026-11-19-evening",
+  "date": "2026-11-19",
+  "dateDisplay": "Thursday, 19 November 2026",
+  "edition": "Evening Wrap",
+  "editionKey": "evening",
+  "summary": "JKIA tour-van and shuttle permits could rise by up to 66% under KAA's draft charges",
+  "bodyHtml": "<p><strong>Kenya Airports Authority proposes raising JKIA tour-van and shuttle permits by up to 66%, with written comments due 1 December</strong><br><em>🌆 Evening Wrap · Thu 19 Nov 2026</em></p>\n<p>━━━━━━━━━<br><span class=\"item-head\">1️⃣ JKIA tour-van and shuttle permits could rise by up to 66% under KAA&#x27;s draft charges</span></p>\n<p><strong>What happened.</strong> KAA&#x27;s draft Commercial Charges Order, 2026 would lift six-month JKIA stickers for airport-based tour operators and shuttles: saloons and SUVs KSh12,060 to KSh15,000, vans KSh12,060 to KSh20,000, shuttles up to 25 seats KSh25,056 to KSh40,000. Ride-hailing cabs would pay KSh150–250 per JKIA trip; 12–24 hours in the silo goes from KSh1,800 to KSh2,250 <strong>(The Star; Kenyans.co.ke, 19 Nov)</strong>. Nairobi forum Tue 24 Nov, Panari Hotel; written comments by 1 Dec <strong>(KAA notice via Kenyans.co.ke, 23 Oct)</strong>.</p>\n<p><strong>Read.</strong> It is a draft with no effective date. Our arithmetic: the tour-operator and shuttle stickers rise 24% to 66%. Inference: 2027 transfer rates set before the draft do not include it.</p>\n<p><span class=\"sowhat\">🎯 So what: re-cost 2027 transfer rates now, and send KAA your numbers before 1 Dec.</span><br><span class=\"tagline\">🏷 City, Bush, Beach | Kenya | Reported (draft order) / Inference | impact:margin</span></p>\n<p><span class=\"item-head\">2️⃣ Kenya&#x27;s Treasury lists Thika Road, the Southern Bypass and Mombasa&#x27;s Northern Bypass for tolling</span></p>\n<p>The 2027 Budget Policy Statement&#x27;s PPP list puts Nairobi–Thika at about KSh100bn over 30 years, the Southern Bypass at KSh12.3bn over 25 and Mombasa&#x27;s Northern Bypass at KSh30bn over 30. Financial close is targeted for 2028/29; toll rates are not disclosed <strong>(Capital FM, 18 Nov; Kenya Today, 19 Nov)</strong>.</p>\n<p><strong>Read.</strong> Inference: both Nairobi&#x27;s airport ring road and the north-coast hotel route would carry user fees.<br><span class=\"sowhat\">🎯 So what: comments on the budget statement close tomorrow, 20 Nov. Hotels with transfer fleets should file.</span><br><span class=\"tagline\">🏷 City, Beach | Kenya | Reported (BPS PPP list) / Inference | impact:watch</span></p>\n<p><span class=\"item-head\">3️⃣ Uganda&#x27;s casinos warn a 15% tax on winnings would cost 2,500 jobs</span></p>\n<p>Uganda&#x27;s seven licensed land-based casino operators asked President Museveni to drop a proposed 15% withholding tax on winnings and keep the 30% tax on gross gaming revenue. They say about 90% of players are foreigners; government projects Shs65bn from the levy in 2026/27 <strong>(The Independent UG, 19 Nov)</strong>.</p>\n<p><strong>Read.</strong> Inference: the risk falls on Kampala hotels that lease casino space or sell gaming to business visitors.<br><span class=\"sowhat\">🎯 So what: hotels with casino tenants, check lease terms before the next Finance Bill.</span><br><span class=\"tagline\">🏷 City | Uganda | Reported (operators&#x27; account) | impact:margin</span></p>\n<p><strong>🏗 DEAL FLOW</strong><br>No new verified EA opening, signing, acquisition or appointment in the window. Catching up: Baobab Beach Resort &amp; Spa, Diani, rebranded as the first phase of a wider refurbishment of rooms and dining; no room count or cost given <strong>(resort release via ATTA, 16 Nov)</strong>.</p>\n<p><strong>📻 ALSO TONIGHT</strong><br>🇨🇦 Canada re-dated its Kenya advice to update eTA guidance; level unchanged <strong>(travel.gc.ca, 17 Nov)</strong>. Germany re-stamped its Kenya page, unchanged since 19 Oct <strong>(Auswärtiges Amt, 19 Nov)</strong>.<br>🦟 Kenya began handing out about 10.8m mosquito nets in 18 malaria-endemic counties <strong>(MoH via WHO AFRO, 19 Nov)</strong>.</p>\n<p><strong>📅 WEEK AHEAD</strong> 20 Nov: Kenya budget comments close. 24 Nov: KAA forums. 27 Nov: Canada&#x27;s Uganda Ebola rules lapse. 1 Dec: KAA comments close.</p>\n<p><strong>🔍 BLIND SPOTS</strong> KAA draft order not read at kaa.go.ke; Kenya Gazette (gazettes.africa blocked); Uganda Parliament site on Lake Bunyonyi deaths unreadable; travel.state.gov still stale.</p>\n<p>🔗 This edition on the web: <a href=\"https://eahospitalitypulse.com/editions/pulse-2026-11-19-evening.html\" rel=\"noopener\">eahospitalitypulse.com/editions/pulse-2026-11-19-evenin…</a></p>"
+ },
+ {
   "id": "pulse-2026-11-18-evening",
   "date": "2026-11-18",
   "dateDisplay": "Wednesday, 18 November 2026",
@@ -1432,6 +1441,66 @@ window.EDITIONS = [
  }
 ];
 window.INSIGHTS = [
+ {
+  "headline": "JKIA tour-van and shuttle permits could rise by up to 66% under KAA's draft charges",
+  "body": "**What happened.** KAA's draft Commercial Charges Order, 2026 would lift six-month JKIA stickers for airport-based tour operators and shuttles: saloons and SUVs KSh12,060 to KSh15,000, vans KSh12,060 to KSh20,000, shuttles up to 25 seats KSh25,056 to KSh40,000. Ride-hailing cabs would pay KSh150–250 per JKIA trip; 12–24 hours in the silo goes from KSh1,800 to KSh2,250 *(The Star; Kenyans.co.ke, 19 Nov)*. Nairobi forum Tue 24 Nov, Panari Hotel; written comments by 1 Dec *(KAA notice via Kenyans.co.ke, 23 Oct)*. **Read.** It is a draft with no effective date. Our arithmetic: the tour-operator and shuttle stickers rise 24% to 66%. Inference: 2027 transfer rates set before the draft do not include it.",
+  "sowhat": "🎯 So what: re-cost 2027 transfer rates now, and send KAA your numbers before 1 Dec.",
+  "segments": [
+   "city",
+   "bush",
+   "beach"
+  ],
+  "countries": "Kenya",
+  "confidence": "Reported (draft order) / Inference",
+  "impact": "-margin",
+  "impactClass": "margin",
+  "intensity": 2,
+  "impactSet": "author",
+  "source": "pulse-2026-11-19-evening",
+  "date": "2026-11-19",
+  "dateDisplay": "Thursday, 19 November 2026",
+  "edition": "Evening Wrap",
+  "editionKey": "evening"
+ },
+ {
+  "headline": "Kenya's Treasury lists Thika Road, the Southern Bypass and Mombasa's Northern Bypass for tolling",
+  "body": "The 2027 Budget Policy Statement's PPP list puts Nairobi–Thika at about KSh100bn over 30 years, the Southern Bypass at KSh12.3bn over 25 and Mombasa's Northern Bypass at KSh30bn over 30. Financial close is targeted for 2028/29; toll rates are not disclosed *(Capital FM, 18 Nov; Kenya Today, 19 Nov)*. **Read.** Inference: both Nairobi's airport ring road and the north-coast hotel route would carry user fees.",
+  "sowhat": "🎯 So what: comments on the budget statement close tomorrow, 20 Nov. Hotels with transfer fleets should file.",
+  "segments": [
+   "city",
+   "beach"
+  ],
+  "countries": "Kenya",
+  "confidence": "Reported (BPS PPP list) / Inference",
+  "impact": "watch",
+  "impactClass": "watch",
+  "intensity": 2,
+  "impactSet": "author",
+  "source": "pulse-2026-11-19-evening",
+  "date": "2026-11-19",
+  "dateDisplay": "Thursday, 19 November 2026",
+  "edition": "Evening Wrap",
+  "editionKey": "evening"
+ },
+ {
+  "headline": "Uganda's casinos warn a 15% tax on winnings would cost 2,500 jobs",
+  "body": "Uganda's seven licensed land-based casino operators asked President Museveni to drop a proposed 15% withholding tax on winnings and keep the 30% tax on gross gaming revenue. They say about 90% of players are foreigners; government projects Shs65bn from the levy in 2026/27 *(The Independent UG, 19 Nov)*. **Read.** Inference: the risk falls on Kampala hotels that lease casino space or sell gaming to business visitors.",
+  "sowhat": "🎯 So what: hotels with casino tenants, check lease terms before the next Finance Bill.",
+  "segments": [
+   "city"
+  ],
+  "countries": "Uganda",
+  "confidence": "Reported (operators' account)",
+  "impact": "-margin",
+  "impactClass": "margin",
+  "intensity": 2,
+  "impactSet": "author",
+  "source": "pulse-2026-11-19-evening",
+  "date": "2026-11-19",
+  "dateDisplay": "Thursday, 19 November 2026",
+  "edition": "Evening Wrap",
+  "editionKey": "evening"
+ },
  {
   "headline": "Tanzania out-earns Kenya on visitors by US$585m a year, with fewer of them",
   "body": "**What happened.** An EAC Secretariat report puts 2025 regional travel earnings at US$11.99bn. Tanzania took US$4.41bn from about 2.3m foreign visitors; Kenya US$3.83bn from about 2.6m. Uganda was third (US$1.78bn), Rwanda fifth (US$604m). Travel is 55% of EAC service exports, from 31% in 2020 *(EAC Secretariat via KT Press, 17 Nov)*. **Read.** Our arithmetic: about US$1,920 per visitor in Tanzania against about US$1,470 in Kenya. Inference: park fees, longer stays and Zanzibar beach extensions widen the gap, not room rates alone.",
@@ -8653,4 +8722,4 @@ window.INSIGHTS = [
   "editionKey": "evening"
  }
 ];
-window.BUILT_AT = "2026-11-19 06:43";
+window.BUILT_AT = "2026-11-20 05:36";
