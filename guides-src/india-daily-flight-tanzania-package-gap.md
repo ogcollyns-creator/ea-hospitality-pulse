@@ -4,8 +4,9 @@ slug: india-daily-flight-tanzania-package-gap
 description: IndiGo's first daily Mumbai to Dar es Salaam service was scheduled to land at 06:05 today, and India entered Tanzania's mainland top fifteen source markets for the first time last year. But package visitors spent $479 a night on the mainland in 2025 and non-package visitors spent $203. A seat bought on an airline website arrives without a package, and the constraint East Africa keeps calling connectivity is really conversion.
 category: Big Read
 updated: 2026-11-20
+image: "img/editions/india-daily-flight-tanzania-package-gap.jpg"
+image_credit: "Photograph: Onyango George / EA Hospitality Pulse"
 ---
-
 The aircraft was scheduled to push back from Mumbai at 02:20 and to be on the ground in Dar es Salaam at 06:05, local time, with an hour to turn before it went back the other way at 07:05. That is the whole shape of IndiGo 6E 1851 and 6E 1852, daily from today, and it is the first time an Indian carrier has put its own aircraft on the route. It is also the second East African city on a network that already reaches Nairobi, alongside Mauritius and the Seychelles. When IndiGo published the schedule on 10 September it added the line that airlines always add, that the timings remain subject to regulatory approvals.
 
 East African hospitality has spent three years arguing that the binding constraint on its business is the seat. Here is a seat. It is daily, it is in the hands of the largest low-cost carrier in one of the fastest-growing outbound markets on earth, and it connects a country that last year earned $4.41bn from tourism to a city of twenty million people. The temptation is to file it under good news and move on. The more useful exercise is to ask what kind of guest a seat like this delivers, because Tanzania's own numbers answer that question with unusual precision, and the answer should change what lodges and hotels do between now and April.
