@@ -4,8 +4,9 @@ slug: uganda-arrivals-grew-holidays-did-not
 description: The World Bank's November tourism brief puts Uganda down 7 per cent on the quarter while Rwanda is up 19. Uganda's own ministry says arrivals rose 3.7 per cent in the same half-year, its civil aviation authority says air traffic fell 10.8 per cent, and its park gates counted 7.9 per cent fewer people. All four numbers are real. Only one of them describes the market a lodge sells into.
 category: Big Read
 updated: 2026-11-21
+image: "img/editions/uganda-arrivals-grew-holidays-did-not.jpg"
+image_credit: "Photograph: Onyango George / EA Hospitality Pulse"
 ---
-
 On 20 August, at Entebbe International Airport, Olive Birungi Lumonya told a parliamentary committee that fewer people were flying into Uganda. The Acting Director General of the Uganda Civil Aviation Authority was hosting the Committee on Commissions, Statutory Authorities and State Enterprises, and her account of the first half of the year was blunt. Airspace over parts of the Middle East had closed on 28 February. An Ebola outbreak had thinned schedules. KLM had suspended operations on 30 May. "These developments inevitably affected passenger numbers, aircraft movements, airline revenues," she said, "and, consequently, aviation-related revenues accruing to the airport and other players in the value chain." The two factors, she told the committee, "led to a 10.8% reduction in international passenger traffic in the first 6 months of 2026 compared to the same period of 2025."
 
 That same month, the Ministry of Tourism, Wildlife and Antiquities published its half-year statistics. International visitor arrivals for January to June 2026 came to 793,815, against 765,307 a year earlier: growth of 3.7 per cent. Arrivals recorded through Entebbe were up 4.7 per cent.
