@@ -1,5 +1,14 @@
 window.GUIDES = [
  {
+  "slug": "uganda-arrivals-grew-holidays-did-not",
+  "title": "Uganda counted 1.6 million visitors last year. Its holiday arrivals grew by 0.4 per cent.",
+  "description": "The World Bank's November tourism brief puts Uganda down 7 per cent on the quarter while Rwanda is up 19. Uganda's own ministry says arrivals rose 3.7 per cent in the same half-year, its civil aviation authority says air traffic fell 10.8 per cent, and its park gates counted 7.9 per cent fewer people. All four numbers are real. Only one of them describes the market a lodge sells into.",
+  "category": "Big Read",
+  "updated": "2026-11-21",
+  "readMins": 8,
+  "image": "img/editions/uganda-arrivals-grew-holidays-did-not.jpg"
+ },
+ {
   "slug": "india-daily-flight-tanzania-package-gap",
   "title": "India got a daily flight to Tanzania this morning. The guest on it is worth $276 a night less.",
   "description": "IndiGo's first daily Mumbai to Dar es Salaam service was scheduled to land at 06:05 today, and India entered Tanzania's mainland top fifteen source markets for the first time last year. But package visitors spent $479 a night on the mainland in 2025 and non-package visitors spent $203. A seat bought on an airline website arrives without a package, and the constraint East Africa keeps calling connectivity is really conversion.",
