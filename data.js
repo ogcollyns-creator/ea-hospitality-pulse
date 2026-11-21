@@ -1,5 +1,14 @@
 window.EDITIONS = [
  {
+  "id": "pulse-2026-11-20-evening",
+  "date": "2026-11-20",
+  "dateDisplay": "Friday, 20 November 2026",
+  "edition": "Evening Wrap",
+  "editionKey": "evening",
+  "summary": "Africa CDC says Congo's Ebola cases have stopped falling, six months in",
+  "bodyHtml": "<p><strong>Africa CDC says Congo&#x27;s Ebola outbreak has plateaued at about 470 confirmed cases a week, three weeks before the US order barring visitors from Uganda expires</strong><br><em>🌆 Evening Wrap · Fri 20 Nov 2026</em></p>\n<p>━━━━━━━━━<br><span class=\"item-head\">1️⃣ Africa CDC says Congo&#x27;s Ebola cases have stopped falling, six months in</span></p>\n<p><strong>What happened.</strong> Africa CDC&#x27;s six-month report counts 11,021 confirmed Bundibugyo cases and 5,358 deaths in five countries to 8 Nov. Congo has held at about 460–480 a week since late September; only 11% of cases came from contact lists, against a 95% target <strong>(Africa CDC, 20 Nov)</strong>. Uganda has 20 cases and no active ones <strong>(CDC, updated 19 Nov)</strong>. On 17 Nov Uganda&#x27;s health ministry told police to keep concerts and mass gatherings suspended in unnamed high-risk border districts &quot;until further notice&quot; <strong>(Nile Post, 19 Nov)</strong>. The US bar on non-citizens recently in Congo, Uganda or South Sudan expires 10 Dec <strong>(Federal Register 2026-23114)</strong>.</p>\n<p><strong>Read.</strong> Inference: cases have levelled off, not fallen, so renewal is likelier than a lapse.</p>\n<p><span class=\"sowhat\">🎯 So what: don&#x27;t tell US agents the bar ends on 10 Dec. Events in Uganda&#x27;s high-risk border districts need written ministry clearance.</span><br><span class=\"tagline\">🏷 Bush, City | Uganda, Rwanda, Kenya | Confirmed (Africa CDC, CDC, MoH letter) / Inference | impact:risk</span></p>\n<p><span class=\"item-head\">2️⃣ The Kenyan shilling crossed KSh130 to the dollar for the first time since April</span></p>\n<p>CBK&#x27;s indicative rate was KSh129.99 on 19 Nov; CBK data put it at KSh130.00 on 20 Nov, its first time past 130 since 7–8 April. Reserves fell US$135m to US$14.605bn between 29 Oct and 12 Nov; October remittances fell 1.9% <strong>(CBK; Kenyans.co.ke, 20 Nov)</strong>.</p>\n<p><strong>Read.</strong> The move is small (KSh129.96 on 6 Nov). Inference: dollar rate cards gain a little; dollar-billed imports cost more.<br><span class=\"sowhat\">🎯 So what: re-price dollar-billed peak-season orders now. CBK&#x27;s MPC meets 9 Dec.</span><br><span class=\"tagline\">🏷 City, Bush, Beach | Kenya | Confirmed (CBK) / Reported | impact:margin</span></p>\n<p><span class=\"item-head\">3️⃣ South African Airways plans a daily Johannesburg–Nairobi service within six months</span></p>\n<p>CCO Tebogo Tsimane told a media roundtable on 18 Nov that SAA plans five African routes in six months, with Nairobi and Addis Ababa daily <strong>(ATTA citing Tourism Update, 19 Nov)</strong>. The Citizen lists Kigali; ATTA lists Douala instead <strong>(19 Nov)</strong>. The fleet stays at 19 aircraft; no dates are filed.</p>\n<p><strong>Read.</strong> Inference: with no new aircraft, dates could slip.<br><span class=\"sowhat\">🎯 So what: keep it out of 2027 forecasts until a schedule is filed; Kigali hotels, ask RDB which list is right.</span><br><span class=\"tagline\">🏷 City, Bush | Kenya, Rwanda, Ethiopia | Reported (SAA CCO via press) | impact:demand</span></p>\n<p><strong>🏗 DEAL FLOW</strong><br>No new verified EA opening, signing or acquisition in the window. Appointment: Tanzania Tourism UK names Adele Cutler PR consultant from 1 Dec, and plans park-fee waivers for approved media trips in 2027 <strong>(TTUK, 17 Nov)</strong>.</p>\n<p><strong>📻 ALSO TONIGHT</strong><br>✈️ KAA&#x27;s draft order also replaces the flat KSh250 air-waybill fee with a US$8 minimum, plus per-kg charges <strong>(Kenyans.co.ke, 20 Nov)</strong>.<br>🇺🇬 Kampala traders ended their strike; Cabinet answers on the textile tax on Tue 24 Nov <strong>(Daily Monitor, 19 Nov)</strong>.<br>🇹🇿 TIRA cancelled Insurance Group of Tanzania&#x27;s licence from 10 Oct; claims go to the liquidator <strong>(TIRA notice, 19 Nov)</strong>.</p>\n<p><strong>📅 WEEK AHEAD</strong> 24 Nov: KAA forum, Uganda Cabinet on taxes. 27 Nov: Canada&#x27;s Uganda rules lapse. 1 Dec: KAA comments close. 10 Dec: US order expires.</p>\n<p><strong>🔍 BLIND SPOTS</strong> Kenya, Uganda, Tanzania and Rwanda gazettes (robots-blocked); KCAA; Treasury&#x27;s draft Export and Investment Promotion Levy Fund rules (file unreadable); ZRB and OCGS; BoU and BNR; US Embassy Nairobi.</p>\n<p>🔗 This edition on the web: <a href=\"https://eahospitalitypulse.com/editions/pulse-2026-11-20-evening.html\" rel=\"noopener\">eahospitalitypulse.com/editions/pulse-2026-11-20-evenin…</a></p>"
+ },
+ {
   "id": "pulse-2026-11-19-evening",
   "date": "2026-11-19",
   "dateDisplay": "Thursday, 19 November 2026",
@@ -1441,6 +1450,67 @@ window.EDITIONS = [
  }
 ];
 window.INSIGHTS = [
+ {
+  "headline": "Africa CDC says Congo's Ebola cases have stopped falling, six months in",
+  "body": "**What happened.** Africa CDC's six-month report counts 11,021 confirmed Bundibugyo cases and 5,358 deaths in five countries to 8 Nov. Congo has held at about 460–480 a week since late September; only 11% of cases came from contact lists, against a 95% target *(Africa CDC, 20 Nov)*. Uganda has 20 cases and no active ones *(CDC, updated 19 Nov)*. On 17 Nov Uganda's health ministry told police to keep concerts and mass gatherings suspended in unnamed high-risk border districts \"until further notice\" *(Nile Post, 19 Nov)*. The US bar on non-citizens recently in Congo, Uganda or South Sudan expires 10 Dec *(Federal Register 2026-23114)*. **Read.** Inference: cases have levelled off, not fallen, so renewal is likelier than a lapse.",
+  "sowhat": "🎯 So what: don't tell US agents the bar ends on 10 Dec. Events in Uganda's high-risk border districts need written ministry clearance.",
+  "segments": [
+   "city",
+   "bush"
+  ],
+  "countries": "Uganda, Rwanda, Kenya",
+  "confidence": "Confirmed (Africa CDC, CDC, MoH letter) / Inference",
+  "impact": "risk",
+  "impactClass": "risk",
+  "intensity": 3,
+  "impactSet": "author",
+  "source": "pulse-2026-11-20-evening",
+  "date": "2026-11-20",
+  "dateDisplay": "Friday, 20 November 2026",
+  "edition": "Evening Wrap",
+  "editionKey": "evening"
+ },
+ {
+  "headline": "The Kenyan shilling crossed KSh130 to the dollar for the first time since April",
+  "body": "CBK's indicative rate was KSh129.99 on 19 Nov; CBK data put it at KSh130.00 on 20 Nov, its first time past 130 since 7–8 April. Reserves fell US$135m to US$14.605bn between 29 Oct and 12 Nov; October remittances fell 1.9% *(CBK; Kenyans.co.ke, 20 Nov)*. **Read.** The move is small (KSh129.96 on 6 Nov). Inference: dollar rate cards gain a little; dollar-billed imports cost more.",
+  "sowhat": "🎯 So what: re-price dollar-billed peak-season orders now. CBK's MPC meets 9 Dec.",
+  "segments": [
+   "city",
+   "bush",
+   "beach"
+  ],
+  "countries": "Kenya",
+  "confidence": "Confirmed (CBK) / Reported",
+  "impact": "-margin",
+  "impactClass": "margin",
+  "intensity": 3,
+  "impactSet": "author",
+  "source": "pulse-2026-11-20-evening",
+  "date": "2026-11-20",
+  "dateDisplay": "Friday, 20 November 2026",
+  "edition": "Evening Wrap",
+  "editionKey": "evening"
+ },
+ {
+  "headline": "South African Airways plans a daily Johannesburg–Nairobi service within six months",
+  "body": "CCO Tebogo Tsimane told a media roundtable on 18 Nov that SAA plans five African routes in six months, with Nairobi and Addis Ababa daily *(ATTA citing Tourism Update, 19 Nov)*. The Citizen lists Kigali; ATTA lists Douala instead *(19 Nov)*. The fleet stays at 19 aircraft; no dates are filed. **Read.** Inference: with no new aircraft, dates could slip.",
+  "sowhat": "🎯 So what: keep it out of 2027 forecasts until a schedule is filed; Kigali hotels, ask RDB which list is right.",
+  "segments": [
+   "city",
+   "bush"
+  ],
+  "countries": "Kenya, Rwanda, Ethiopia",
+  "confidence": "Reported (SAA CCO via press)",
+  "impact": "+demand",
+  "impactClass": "demand",
+  "intensity": 2,
+  "impactSet": "author",
+  "source": "pulse-2026-11-20-evening",
+  "date": "2026-11-20",
+  "dateDisplay": "Friday, 20 November 2026",
+  "edition": "Evening Wrap",
+  "editionKey": "evening"
+ },
  {
   "headline": "JKIA tour-van and shuttle permits could rise by up to 66% under KAA's draft charges",
   "body": "**What happened.** KAA's draft Commercial Charges Order, 2026 would lift six-month JKIA stickers for airport-based tour operators and shuttles: saloons and SUVs KSh12,060 to KSh15,000, vans KSh12,060 to KSh20,000, shuttles up to 25 seats KSh25,056 to KSh40,000. Ride-hailing cabs would pay KSh150–250 per JKIA trip; 12–24 hours in the silo goes from KSh1,800 to KSh2,250 *(The Star; Kenyans.co.ke, 19 Nov)*. Nairobi forum Tue 24 Nov, Panari Hotel; written comments by 1 Dec *(KAA notice via Kenyans.co.ke, 23 Oct)*. **Read.** It is a draft with no effective date. Our arithmetic: the tour-operator and shuttle stickers rise 24% to 66%. Inference: 2027 transfer rates set before the draft do not include it.",
@@ -8722,4 +8792,4 @@ window.INSIGHTS = [
   "editionKey": "evening"
  }
 ];
-window.BUILT_AT = "2026-11-20 05:36";
+window.BUILT_AT = "2026-11-21 05:37";
