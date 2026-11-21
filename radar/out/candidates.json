@@ -1,19 +1,52 @@
 {
- "generated": "2026-11-21T01:16:21+03:00",
+ "generated": "2026-11-21T06:18:26+03:00",
  "slot": "morning",
  "window_start": 1795186800,
- "observations_in_window": 363,
+ "observations_in_window": 446,
  "deduped_against": 16,
  "candidates": [
   {
-   "score": 108.8,
+   "score": 99.1,
    "components": {
     "tier": 40,
     "category": 32,
     "lead": 3.6,
     "relevance": 8,
-    "freshness": 19.2,
-    "corroborated": 10,
+    "freshness": 19.5,
+    "page_change": -4
+   },
+   "keywords": [
+    "election"
+   ],
+   "shock_terms": [],
+   "dedupe_match": null,
+   "dedupe_similarity": 0.17,
+   "id": "4dab2cace78a",
+   "title": "[page changed] Federal Register \u2014 public inspection (HHS/CDC), pre-publication",
+   "url": "https://www.federalregister.gov/api/v1/public-inspection-documents/current.json",
+   "summary": "{\"count\":94,\"results\":[{\"agencies\":[{\"raw_name\":\"ELECTION ASSISTANCE COMMISSION\",\"name\":\"Election Assistance Commission\",\"id\":127,\"url\":\"https://www.federalregister.gov/agencies/election-assistance-commission\",\"json_url\":\"https://www.federalregister.gov/api/v1/agencies/127\",\"parent_id\":null,\"slug\":\"election-assistance-commission\"}],\"agency_letters\":[],\"agency_names\":[\"Election Assistance Commissio",
+   "kind": "page-change",
+   "source": "Federal Register \u2014 public inspection (HHS/CDC), pre-publication",
+   "source_id": "us-fedreg-pubinspect-hhs",
+   "tier": 1,
+   "country": "REG",
+   "category": "advisory",
+   "segments": [
+    "city",
+    "bush"
+   ],
+   "first_seen": "2026-11-21T06:00+03:00",
+   "published": "2026-11-19",
+   "verdict": "OPEN THIS \u2014 tier-1 advisory page moved; content not auto-parsed, read it manually"
+  },
+  {
+   "score": 93.3,
+   "components": {
+    "tier": 40,
+    "category": 32,
+    "lead": 3.6,
+    "relevance": 8,
+    "freshness": 13.7,
     "page_change": -4
    },
    "keywords": [
@@ -41,14 +74,13 @@
    "verdict": "OPEN THIS \u2014 tier-1 advisory page moved; content not auto-parsed, read it manually"
   },
   {
-   "score": 104.5,
+   "score": 89.0,
    "components": {
     "tier": 40,
     "category": 32,
     "lead": 3.6,
     "relevance": 8,
-    "freshness": 14.9,
-    "corroborated": 10,
+    "freshness": 9.4,
     "page_change": -4
    },
    "keywords": [
@@ -76,13 +108,83 @@
    "verdict": "OPEN THIS \u2014 tier-1 advisory page moved; content not auto-parsed, read it manually"
   },
   {
-   "score": 107.3,
+   "score": 65.1,
+   "components": {
+    "tier": 40,
+    "category": 12,
+    "lead": 3.6,
+    "relevance": 0,
+    "freshness": 19.5,
+    "undated": -6,
+    "page_change": -4
+   },
+   "keywords": [],
+   "shock_terms": [],
+   "dedupe_match": null,
+   "dedupe_similarity": 0.0,
+   "id": "96f35d25035c",
+   "title": "[page changed] Airlink news",
+   "url": "https://www.flyairlink.com/",
+   "summary": "Request unsuccessful. Incapsula incident ID: 2213000070443523615-144679057297310179",
+   "kind": "page-change",
+   "source": "Airlink news",
+   "source_id": "air-airlink",
+   "tier": 1,
+   "country": "REG",
+   "category": "airline",
+   "segments": [
+    "city",
+    "bush",
+    "beach"
+   ],
+   "first_seen": "2026-11-21T06:00+03:00",
+   "published": null,
+   "verdict": "OPEN THIS \u2014 tier-1 airline page moved; content not auto-parsed, read it manually"
+  },
+  {
+   "score": 103.3,
+   "components": {
+    "tier": 40,
+    "category": 9,
+    "lead": 16.8,
+    "relevance": 8,
+    "freshness": 19.5,
+    "corroborated": 10
+   },
+   "keywords": [
+    "hotel",
+    "resort"
+   ],
+   "shock_terms": [],
+   "dedupe_match": null,
+   "dedupe_similarity": 0.14,
+   "id": "6f219585a5bf",
+   "title": "LXR Hotels & Resorts to Debut in The Eternal City",
+   "url": "https://stories.hilton.com/releases/lxr-hotels-resorts-to-debut-in-the-eternal-city",
+   "summary": "ROME, Italy \u2013 Hilton today announced an agreement with Benso srl to bring LXR Hotels & Resorts to Rome, marking the brand\u2019s debut in the city. Expected to open in 2028, Hortus Monti Rome, LXR Hotels & Resorts, will join LXR\u2019s handpicked collection of independent, spirited properties, each distinguished by an individual story and a [\u2026] The post LXR Hotels & Resorts to Debut in The Eternal City appe",
+   "kind": "item",
+   "source": "Hilton stories/newsroom",
+   "source_id": "dev-hilton",
+   "tier": 1,
+   "country": "GLOBAL",
+   "category": "hotel-group",
+   "segments": [
+    "city",
+    "bush",
+    "beach"
+   ],
+   "first_seen": "2026-11-21T06:00+03:00",
+   "published": "2026-11-20",
+   "verdict": "STRONG \u2014 tier-1, upstream"
+  },
+  {
+   "score": 101.8,
    "components": {
     "tier": 20,
     "category": 14,
     "lead": 8.4,
     "relevance": 40,
-    "freshness": 14.9,
+    "freshness": 9.4,
     "corroborated": 10
    },
    "keywords": [
@@ -116,13 +218,55 @@
    "verdict": "CONSIDER"
   },
   {
-   "score": 99.3,
+   "score": 99.9,
+   "components": {
+    "tier": 5,
+    "category": 5,
+    "lead": 2.4,
+    "relevance": 40,
+    "freshness": 19.5,
+    "corroborated": 10,
+    "shock": 18
+   },
+   "keywords": [
+    "advisory",
+    "evacuat",
+    "flood",
+    "franc",
+    "passenger"
+   ],
+   "shock_terms": [
+    "evacuat"
+   ],
+   "dedupe_match": null,
+   "dedupe_similarity": 0.0,
+   "id": "7532c866b8e5",
+   "title": "California Thanksgiving Travel Advisory Amid Flood Threats to Ferries, Roads and Big Sur",
+   "url": "https://www.travelandtourworld.com/news/article/ppnp4unam7sy",
+   "summary": "California Thanksgiving travel faces a serious test as rising tides, approaching Pacific storms and already damaged coastal landscapes threaten holiday journeys. Motorists around San Francisco Bay have been warned about flooded roads. Ferry passengers face the possibility of disrupted sailings. In Big Sur, a famous scenic highway has reopened, but several popular attractions remain closed. Farther",
+   "kind": "item",
+   "source": "Travel And Tour World",
+   "source_id": "gl-travelandtourworld",
+   "tier": 3,
+   "country": "GLOBAL",
+   "category": "trade",
+   "segments": [
+    "city",
+    "bush",
+    "beach"
+   ],
+   "first_seen": "2026-11-21T06:00+03:00",
+   "published": "2026-11-21",
+   "verdict": "CONSIDER"
+  },
+  {
+   "score": 93.8,
    "components": {
     "tier": 40,
     "category": 18,
     "lead": 8.4,
     "relevance": 8,
-    "freshness": 14.9,
+    "freshness": 9.4,
     "corroborated": 10
    },
    "keywords": [
@@ -149,13 +293,13 @@
    "verdict": "STRONG \u2014 tier-1, upstream"
   },
   {
-   "score": 95.6,
+   "score": 90.1,
    "components": {
     "tier": 20,
     "category": 14,
     "lead": 8.4,
     "relevance": 24,
-    "freshness": 19.2,
+    "freshness": 13.7,
     "corroborated": 10
    },
    "keywords": [
@@ -187,13 +331,13 @@
    "verdict": "CONSIDER"
   },
   {
-   "score": 93.1,
+   "score": 87.6,
    "components": {
     "tier": 20,
     "category": 5,
     "lead": 1.2,
     "relevance": 24,
-    "freshness": 14.9,
+    "freshness": 9.4,
     "corroborated": 10,
     "shock": 18
    },
@@ -227,13 +371,13 @@
    "verdict": "CONSIDER"
   },
   {
-   "score": 91.6,
+   "score": 86.1,
    "components": {
     "tier": 40,
     "category": 9,
     "lead": 16.8,
     "relevance": 12,
-    "freshness": 19.8,
+    "freshness": 14.3,
     "undated": -6
    },
    "keywords": [
@@ -261,16 +405,16 @@
    ],
    "first_seen": "2026-11-21T01:16+03:00",
    "published": null,
-   "verdict": "STRONG \u2014 tier-1, upstream"
+   "verdict": "CONSIDER"
   },
   {
-   "score": 91.3,
+   "score": 85.8,
    "components": {
     "tier": 40,
     "category": 24,
     "lead": 2.4,
     "relevance": 0,
-    "freshness": 14.9,
+    "freshness": 9.4,
     "corroborated": 10
    },
    "keywords": [],
@@ -293,16 +437,16 @@
    ],
    "first_seen": "2026-11-20T20:50+03:00",
    "published": "2026-11-20",
-   "verdict": "STRONG \u2014 tier-1, upstream"
+   "verdict": "CONSIDER"
   },
   {
-   "score": 88.2,
+   "score": 82.7,
    "components": {
     "tier": 5,
     "category": 5,
     "lead": 2.4,
     "relevance": 28,
-    "freshness": 19.8,
+    "freshness": 14.3,
     "corroborated": 10,
     "shock": 18
    },
@@ -336,13 +480,13 @@
    "verdict": "CONSIDER"
   },
   {
-   "score": 86.2,
+   "score": 80.7,
    "components": {
     "tier": 5,
     "category": 5,
     "lead": 2.4,
     "relevance": 44,
-    "freshness": 19.8,
+    "freshness": 14.3,
     "corroborated": 10
    },
    "keywords": [
@@ -378,13 +522,13 @@
    "verdict": "CONSIDER"
   },
   {
-   "score": 83.6,
+   "score": 78.1,
    "components": {
     "tier": 40,
     "category": 9,
     "lead": 16.8,
     "relevance": 4,
-    "freshness": 19.8,
+    "freshness": 14.3,
     "undated": -6
    },
    "keywords": [
@@ -411,13 +555,49 @@
    "verdict": "CONSIDER"
   },
   {
-   "score": 81.8,
+   "score": 76.9,
+   "components": {
+    "tier": 20,
+    "category": 5,
+    "lead": 2.4,
+    "relevance": 20,
+    "freshness": 19.5,
+    "corroborated": 10
+   },
+   "keywords": [
+    "occupancy",
+    "hotel",
+    "tourism",
+    "operator"
+   ],
+   "shock_terms": [],
+   "dedupe_match": null,
+   "dedupe_similarity": 0.12,
+   "id": "dd09b044cff0",
+   "title": "CoStar, Tourism Economics Raise U.S. Hotel Growth Forecast",
+   "url": "https://www.hotelnewsresource.com/article143845.html",
+   "summary": "CoStar and Tourism Economics have increased their U.S. hotel growth forecast, signaling improved expectations for occupancy and revenue performance that may impact operational planning and capital allocation for hotel owners and operators.",
+   "kind": "item",
+   "source": "HVS \u2014 market reports and event-impact studies (via Hotel News Resource)",
+   "source_id": "gl-hvs-market-reports",
+   "tier": 2,
+   "country": "GLOBAL",
+   "category": "trade",
+   "segments": [
+    "city"
+   ],
+   "first_seen": "2026-11-21T06:00+03:00",
+   "published": "2026-11-20",
+   "verdict": "CONSIDER"
+  },
+  {
+   "score": 76.3,
    "components": {
     "tier": 20,
     "category": 5,
     "lead": 3.6,
     "relevance": 24,
-    "freshness": 19.2,
+    "freshness": 13.7,
     "corroborated": 10
    },
    "keywords": [
@@ -449,13 +629,13 @@
    "verdict": "CONSIDER"
   },
   {
-   "score": 81.1,
+   "score": 75.6,
    "components": {
     "tier": 20,
     "category": 5,
     "lead": 1.2,
     "relevance": 12,
-    "freshness": 14.9,
+    "freshness": 9.4,
     "corroborated": 10,
     "shock": 18
    },
@@ -488,13 +668,13 @@
    "verdict": "CONSIDER"
   },
   {
-   "score": 79.3,
+   "score": 73.8,
    "components": {
     "tier": 20,
     "category": 14,
     "lead": 8.4,
     "relevance": 12,
-    "freshness": 14.9,
+    "freshness": 9.4,
     "corroborated": 10
    },
    "keywords": [
@@ -524,13 +704,48 @@
    "verdict": "CONSIDER"
   },
   {
-   "score": 78.2,
+   "score": 72.9,
+   "components": {
+    "tier": 20,
+    "category": 5,
+    "lead": 2.4,
+    "relevance": 16,
+    "freshness": 19.5,
+    "corroborated": 10
+   },
+   "keywords": [
+    "vat",
+    "hotel",
+    "resort"
+   ],
+   "shock_terms": [],
+   "dedupe_match": null,
+   "dedupe_similarity": 0.14,
+   "id": "53cb52add261",
+   "title": "InterContinental Resort Tivat Expected to Open 2029 in Montenegro",
+   "url": "https://www.hotelnewsresource.com/article143843.html",
+   "summary": "IHG Hotels & Resorts has signed InterContinental Resort Tivat in Montenegro. The 169-room resort, being developed with Devolli Corporation, is expected to open in 2029.",
+   "kind": "item",
+   "source": "HVS \u2014 market reports and event-impact studies (via Hotel News Resource)",
+   "source_id": "gl-hvs-market-reports",
+   "tier": 2,
+   "country": "GLOBAL",
+   "category": "trade",
+   "segments": [
+    "city"
+   ],
+   "first_seen": "2026-11-21T06:00+03:00",
+   "published": "2026-11-20",
+   "verdict": "CONSIDER"
+  },
+  {
+   "score": 72.7,
    "components": {
     "tier": 5,
     "category": 5,
     "lead": 2.4,
     "relevance": 36,
-    "freshness": 19.8,
+    "freshness": 14.3,
     "corroborated": 10
    },
    "keywords": [
@@ -566,13 +781,13 @@
    "verdict": "CONSIDER"
   },
   {
-   "score": 77.8,
+   "score": 72.3,
    "components": {
     "tier": 20,
     "category": 5,
     "lead": 3.6,
     "relevance": 20,
-    "freshness": 19.2,
+    "freshness": 13.7,
     "corroborated": 10
    },
    "keywords": [
@@ -603,13 +818,13 @@
    "verdict": "CONSIDER"
   },
   {
-   "score": 77.8,
+   "score": 72.3,
    "components": {
     "tier": 20,
     "category": 5,
     "lead": 3.6,
     "relevance": 20,
-    "freshness": 19.2,
+    "freshness": 13.7,
     "corroborated": 10
    },
    "keywords": [
@@ -640,13 +855,13 @@
    "verdict": "CONSIDER"
   },
   {
-   "score": 77.6,
+   "score": 72.1,
    "components": {
     "tier": 40,
     "category": 7,
     "lead": 16.8,
     "relevance": 0,
-    "freshness": 19.8,
+    "freshness": 14.3,
     "undated": -6
    },
    "keywords": [],
@@ -673,13 +888,13 @@
    "verdict": "CONSIDER"
   },
   {
-   "score": 77.6,
+   "score": 72.1,
    "components": {
     "tier": 40,
     "category": 7,
     "lead": 16.8,
     "relevance": 0,
-    "freshness": 19.8,
+    "freshness": 14.3,
     "undated": -6
    },
    "keywords": [],
@@ -706,13 +921,13 @@
    "verdict": "CONSIDER"
   },
   {
-   "score": 77.6,
+   "score": 72.1,
    "components": {
     "tier": 40,
     "category": 7,
     "lead": 16.8,
     "relevance": 0,
-    "freshness": 19.8,
+    "freshness": 14.3,
     "undated": -6
    },
    "keywords": [],
@@ -739,13 +954,13 @@
    "verdict": "CONSIDER"
   },
   {
-   "score": 77.6,
+   "score": 72.1,
    "components": {
     "tier": 40,
     "category": 7,
     "lead": 16.8,
     "relevance": 0,
-    "freshness": 19.8,
+    "freshness": 14.3,
     "undated": -6
    },
    "keywords": [],
@@ -772,13 +987,13 @@
    "verdict": "CONSIDER"
   },
   {
-   "score": 76.3,
+   "score": 70.8,
    "components": {
     "tier": 20,
     "category": 5,
     "lead": 2.4,
     "relevance": 24,
-    "freshness": 14.9,
+    "freshness": 9.4,
     "corroborated": 10
    },
    "keywords": [
@@ -810,13 +1025,13 @@
    "verdict": "CONSIDER"
   },
   {
-   "score": 75.3,
+   "score": 69.8,
    "components": {
     "tier": 40,
     "category": 24,
     "lead": 2.4,
     "relevance": 0,
-    "freshness": 14.9,
+    "freshness": 9.4,
     "undated": -6
    },
    "keywords": [],
@@ -840,16 +1055,16 @@
    ],
    "first_seen": "2026-11-20T20:50+03:00",
    "published": null,
-   "verdict": "CONSIDER"
+   "verdict": "weak"
   },
   {
-   "score": 75.3,
+   "score": 69.8,
    "components": {
     "tier": 40,
     "category": 24,
     "lead": 2.4,
     "relevance": 0,
-    "freshness": 14.9,
+    "freshness": 9.4,
     "undated": -6
    },
    "keywords": [],
@@ -873,16 +1088,16 @@
    ],
    "first_seen": "2026-11-20T20:49+03:00",
    "published": null,
-   "verdict": "CONSIDER"
+   "verdict": "weak"
   },
   {
-   "score": 75.3,
+   "score": 69.8,
    "components": {
     "tier": 40,
     "category": 24,
     "lead": 2.4,
     "relevance": 0,
-    "freshness": 14.9,
+    "freshness": 9.4,
     "undated": -6
    },
    "keywords": [],
@@ -906,16 +1121,52 @@
    ],
    "first_seen": "2026-11-20T20:49+03:00",
    "published": null,
-   "verdict": "CONSIDER"
+   "verdict": "weak"
   },
   {
-   "score": 73.8,
+   "score": 69.5,
+   "components": {
+    "tier": 20,
+    "category": 4,
+    "lead": 0.0,
+    "relevance": 16,
+    "freshness": 19.5,
+    "corroborated": 10
+   },
+   "keywords": [
+    "tax",
+    "protest"
+   ],
+   "shock_terms": [],
+   "dedupe_match": null,
+   "dedupe_similarity": 0.1,
+   "id": "252d5cf9f5aa",
+   "title": "Kampala protests signal East Africa\u2019s tricky road on taxation",
+   "url": "https://www.theeastafrican.co.ke/tea/business-tech/the-price-of-kampala-business-shutdowns-5677250",
+   "summary": "Traders say prolonged clearance leaves merchandise stranded at customs facilities, attracting...",
+   "kind": "item",
+   "source": "The EastAfrican",
+   "source_id": "np-eastafrican",
+   "tier": 2,
+   "country": "REG",
+   "category": "press",
+   "segments": [
+    "city",
+    "bush",
+    "beach"
+   ],
+   "first_seen": "2026-11-21T06:00+03:00",
+   "published": "2026-11-19",
+   "verdict": "weak"
+  },
+  {
+   "score": 68.3,
    "components": {
     "tier": 20,
     "category": 5,
     "lead": 3.6,
     "relevance": 16,
-    "freshness": 19.2,
+    "freshness": 13.7,
     "corroborated": 10
    },
    "keywords": [
@@ -944,16 +1195,16 @@
    ],
    "first_seen": "2026-11-21T00:43+03:00",
    "published": "2026-11-20",
-   "verdict": "CONSIDER"
+   "verdict": "weak"
   },
   {
-   "score": 73.8,
+   "score": 68.3,
    "components": {
     "tier": 20,
     "category": 9,
     "lead": 3.6,
     "relevance": 12,
-    "freshness": 19.2,
+    "freshness": 13.7,
     "corroborated": 10
    },
    "keywords": [
@@ -980,16 +1231,90 @@
    ],
    "first_seen": "2026-11-21T00:43+03:00",
    "published": "2026-11-20",
-   "verdict": "CONSIDER"
+   "verdict": "weak"
   },
   {
-   "score": 72.3,
+   "score": 67.9,
+   "components": {
+    "tier": 5,
+    "category": 5,
+    "lead": 2.4,
+    "relevance": 8,
+    "freshness": 19.5,
+    "corroborated": 10,
+    "shock": 18
+   },
+   "keywords": [
+    "airline",
+    "passenger"
+   ],
+   "shock_terms": [
+    "attack"
+   ],
+   "dedupe_match": null,
+   "dedupe_similarity": 0.17,
+   "id": "a0e9760e4665",
+   "title": "UAE Winter Holidays Under Scrutiny as UK Eases Advice Amid Gulf Aviation Threats",
+   "url": "https://www.travelandtourworld.com/news/article/esq1vz5heica",
+   "summary": "UAE winter holidays return to the spotlight as British travellers weigh sunshine and city breaks against an uncertain security outlook. The UK has eased its restrictions on travel to Dubai and Abu Dhabi , but that decision has not ended the risks linked to the Middle East conflict. Aviation regulators still warn about dangerous airspace. Airlines continue adjusting certain regional services. Recen",
+   "kind": "item",
+   "source": "Travel And Tour World",
+   "source_id": "gl-travelandtourworld",
+   "tier": 3,
+   "country": "GLOBAL",
+   "category": "trade",
+   "segments": [
+    "city",
+    "bush",
+    "beach"
+   ],
+   "first_seen": "2026-11-21T06:00+03:00",
+   "published": "2026-11-21",
+   "verdict": "weak"
+  },
+  {
+   "score": 67.9,
+   "components": {
+    "tier": 40,
+    "category": 8,
+    "lead": 2.4,
+    "relevance": 4,
+    "freshness": 19.5,
+    "undated": -6
+   },
+   "keywords": [
+    "conference"
+   ],
+   "shock_terms": [],
+   "dedupe_match": null,
+   "dedupe_similarity": 0.17,
+   "id": "de1ec26da570",
+   "title": "Governments Back Global Agenda for More Competitive and Sustainable Air Transport Industry IATA welcomed the successful conclusion of the 7th International Civil Aviation Organization (ICAO) Worldwide Air Transport Conference (ATConf/7). 20.11.2026",
+   "url": "https://www.iata.org/en/pressroom/2026-releases/11-20-governments-back-global-agenda-for-more-competitive-sustainable-air-transport-industry",
+   "summary": "",
+   "kind": "item",
+   "source": "IATA pressroom",
+   "source_id": "iata-pressroom",
+   "tier": 1,
+   "country": "GLOBAL",
+   "category": "aviation-body",
+   "segments": [
+    "city",
+    "bush",
+    "beach"
+   ],
+   "first_seen": "2026-11-21T06:00+03:00",
+   "published": null,
+   "verdict": "weak"
+  },
+  {
+   "score": 66.8,
    "components": {
     "tier": 20,
     "category": 5,
     "lead": 2.4,
     "relevance": 20,
-    "freshness": 14.9,
+    "freshness": 9.4,
     "corroborated": 10
    },
    "keywords": [
@@ -1017,16 +1342,16 @@
    ],
    "first_seen": "2026-11-20T20:50+03:00",
    "published": "2026-11-20",
-   "verdict": "CONSIDER"
+   "verdict": "weak"
   },
   {
-   "score": 72.3,
+   "score": 66.8,
    "components": {
     "tier": 20,
     "category": 5,
     "lead": 2.4,
     "relevance": 20,
-    "freshness": 14.9,
+    "freshness": 9.4,
     "corroborated": 10
    },
    "keywords": [
@@ -1054,16 +1379,16 @@
    ],
    "first_seen": "2026-11-20T20:50+03:00",
    "published": "2026-11-20",
-   "verdict": "CONSIDER"
+   "verdict": "weak"
   },
   {
-   "score": 72.2,
+   "score": 66.7,
    "components": {
     "tier": 20,
     "category": 4,
     "lead": 2.4,
     "relevance": 16,
-    "freshness": 19.8,
+    "freshness": 14.3,
     "corroborated": 10
    },
    "keywords": [
@@ -1090,289 +1415,31 @@
    ],
    "first_seen": "2026-11-21T01:16+03:00",
    "published": "2026-11-20",
-   "verdict": "CONSIDER"
-  },
-  {
-   "score": 71.3,
-   "components": {
-    "tier": 20,
-    "category": 4,
-    "lead": 2.4,
-    "relevance": 20,
-    "freshness": 14.9,
-    "corroborated": 10
-   },
-   "keywords": [
-    "airport",
-    "protest",
-    "shilling"
-   ],
-   "shock_terms": [],
-   "dedupe_match": null,
-   "dedupe_similarity": 0.17,
-   "id": "ad6ed179de75",
-   "title": "Protests Erupt at Ksh154 Billion JKIA Expansion Project",
-   "url": "https://www.kenyans.co.ke/news/129553-protests-erupt-ksh154-billion-jkia-project-over-unpaid-dues",
-   "summary": "Tensions rose at the airport\u2019s multi-billion-shilling modernisation project, with local workers taking action over unresolved concerns surrounding the construction works.",
-   "kind": "item",
-   "source": "Kenyans.co.ke news",
-   "source_id": "ke-kenyans",
-   "tier": 2,
-   "country": "KE",
-   "category": "press",
-   "segments": [
-    "city",
-    "bush",
-    "beach"
-   ],
-   "first_seen": "2026-11-20T20:50+03:00",
-   "published": "2026-11-20",
-   "verdict": "CONSIDER"
-  },
-  {
-   "score": 71.2,
-   "components": {
-    "tier": 40,
-    "category": 9,
-    "lead": 8.4,
-    "relevance": 0,
-    "freshness": 19.8,
-    "undated": -6
-   },
-   "keywords": [],
-   "shock_terms": [],
-   "dedupe_match": null,
-   "dedupe_similarity": 0.17,
-   "id": "b1526dc9fce7",
-   "title": "Marella Cruises and TUI River Cruises' Black Friday Savings: Up to \u00a3300 Off Ocean and River Cruise Holidays Cruises November 20, 2026",
-   "url": "https://www.tuigroup.com/en/newsroom/news/marella-cruises-and-tui-river-cruises-black-friday-savings-up-to-300-off-ocean-and-river-cruise-holidays",
-   "summary": "",
-   "kind": "item",
-   "source": "TUI Group press",
-   "source_id": "sm-tui",
-   "tier": 1,
-   "country": "GLOBAL",
-   "category": "source-market",
-   "segments": [
-    "beach"
-   ],
-   "first_seen": "2026-11-21T01:16+03:00",
-   "published": null,
-   "verdict": "CONSIDER"
-  },
-  {
-   "score": 70.2,
-   "components": {
-    "tier": 5,
-    "category": 5,
-    "lead": 2.4,
-    "relevance": 28,
-    "freshness": 19.8,
-    "corroborated": 10
-   },
-   "keywords": [
-    "arrivals",
-    "airport",
-    "hotel",
-    "tourism",
-    "investment"
-   ],
-   "shock_terms": [],
-   "dedupe_match": null,
-   "dedupe_similarity": 0.17,
-   "id": "c9bb879ffb2f",
-   "title": "Morocco Accelerate Tourism Growth with Major Hotel, Airport and Rail Expansion Before 2030",
-   "url": "https://www.travelandtourworld.com/news/article/wg6mprx9v5wr",
-   "summary": "Morocco is entering an ambitious period of tourism development as rising international arrivals encourage investment in hotels, airports, railways and regional attractions. The North African country is strengthening its visitor infrastructure ahead of 2030, when it will co-host the FIFA World Cup with Spain and Portugal. Marrakech, Casablanca, Rabat, Tangier and Agadir are among the destinations p",
-   "kind": "item",
-   "source": "Travel And Tour World",
-   "source_id": "gl-travelandtourworld",
-   "tier": 3,
-   "country": "GLOBAL",
-   "category": "trade",
-   "segments": [
-    "city",
-    "bush",
-    "beach"
-   ],
-   "first_seen": "2026-11-21T01:16+03:00",
-   "published": "2026-11-21",
-   "verdict": "CONSIDER"
-  },
-  {
-   "score": 69.8,
-   "components": {
-    "tier": 20,
-    "category": 5,
-    "lead": 3.6,
-    "relevance": 12,
-    "freshness": 19.2,
-    "corroborated": 10
-   },
-   "keywords": [
-    "hotel",
-    "booking",
-    "guest"
-   ],
-   "shock_terms": [],
-   "dedupe_match": null,
-   "dedupe_similarity": 0.12,
-   "id": "7fe2286dc96e",
-   "title": "Recast: Will guests trust AI with their travel plans? | with Aaron Miller",
-   "url": "https://www.hospitalitynet.org/podcast/4135619/recast-will-guests-trust-ai-with-their-travel-plans-with-aaron-miller",
-   "summary": "Highgate SVP Aaron Miller discusses how AI is reshaping the hotel booking journey, cutting through vendor hype, and why guest trust in direct websites remains critical to converting bookings.",
-   "kind": "item",
-   "source": "Hospitality Net \u2014 Africa announcements",
-   "source_id": "dev-hospitalitynet-africa",
-   "tier": 2,
-   "country": "REG",
-   "category": "trade",
-   "segments": [
-    "city",
-    "bush",
-    "beach"
-   ],
-   "first_seen": "2026-11-21T00:43+03:00",
-   "published": "2026-11-20",
    "verdict": "weak"
   },
   {
-   "score": 69.3,
-   "components": {
-    "tier": 5,
-    "category": 5,
-    "lead": 2.4,
-    "relevance": 32,
-    "freshness": 14.9,
-    "corroborated": 10
-   },
-   "keywords": [
-    "vat",
-    "eta",
-    "airport",
-    "flight",
-    "passenger"
-   ],
-   "shock_terms": [],
-   "dedupe_match": null,
-   "dedupe_similarity": 0.17,
-   "id": "42f065a006f3",
-   "title": "Passenger Smoking in easyJet Toilet Triggers Alarm and Police Response at Luton",
-   "url": "https://www.travelandtourworld.com/news/article/xljv2nax1d52",
-   "summary": "Image Source: easyJet A passenger smoking in an easyJet toilet reportedly triggered an aircraft smoke alarm and prompted a police response at London Luton Airport, disrupting a scheduled flight to Glasgow. The incident occurred on 16 November 2026 aboard easyJet flight EZY404, when a passenger allegedly smoked inside the aircraft lavatory before departure. The activated alarm required cabin crew i",
-   "kind": "item",
-   "source": "Travel And Tour World",
-   "source_id": "gl-travelandtourworld",
-   "tier": 3,
-   "country": "GLOBAL",
-   "category": "trade",
-   "segments": [
-    "city",
-    "bush",
-    "beach"
-   ],
-   "first_seen": "2026-11-20T20:50+03:00",
-   "published": "2026-11-20",
-   "verdict": "weak"
-  },
-  {
-   "score": 68.3,
-   "components": {
-    "tier": 20,
-    "category": 5,
-    "lead": 2.4,
-    "relevance": 16,
-    "freshness": 14.9,
-    "corroborated": 10
-   },
-   "keywords": [
-    "hotel",
-    "tourism",
-    "guest",
-    "operator"
-   ],
-   "shock_terms": [],
-   "dedupe_match": null,
-   "dedupe_similarity": 0.12,
-   "id": "4a112fbfbca2",
-   "title": "The Caribbean Hotel & Tourism Association Announces 2026 Chief Award Winners, Celebrating Excellence in Caribbean Hospitality",
-   "url": "https://www.hospitalitynet.org/news/4135613/the-caribbean-hotel-tourism-association-announces-2026-chief-award-winners-celebrating-excellence-in-caribbean-hospitality",
-   "summary": "CHTA announced seven 2026 CHIEF Award winners across categories including sustainability, tech transformation, and guest experience, recognizing Caribbean hospitality operators for measurable operational and community impact.",
-   "kind": "item",
-   "source": "Hospitality Net: Africa openings",
-   "source_id": "dev-hospitalitynet-openings",
-   "tier": 2,
-   "country": "AFRICA",
-   "category": "trade",
-   "segments": [
-    "city",
-    "bush",
-    "beach"
-   ],
-   "first_seen": "2026-11-20T20:50+03:00",
-   "published": "2026-11-20",
-   "verdict": "weak"
-  },
-  {
-   "score": 66.9,
-   "components": {
-    "tier": 20,
-    "category": 4,
-    "lead": 0.0,
-    "relevance": 0,
-    "freshness": 14.9,
-    "corroborated": 10,
-    "shock": 18
-   },
-   "keywords": [],
-   "shock_terms": [
-    "attack"
-   ],
-   "dedupe_match": null,
-   "dedupe_similarity": 0.0,
-   "id": "b0e336e14c4b",
-   "title": "Court denies businesswoman Kushaba bail over TikTok attacks on Kampala ministers",
-   "url": "https://www.monitor.co.ug/uganda/news/national/court-denies-businesswoman-kushaba-bail-over-tiktok-attacks-on-kampala-ministers-5678038",
-   "summary": "Court subsequently declined to grant bail and scheduled the case for further hearing",
-   "kind": "item",
-   "source": "Daily Monitor (Uganda)",
-   "source_id": "np-monitor-ug",
-   "tier": 2,
-   "country": "UG",
-   "category": "press",
-   "segments": [
-    "city",
-    "bush",
-    "beach"
-   ],
-   "first_seen": "2026-11-20T20:50+03:00",
-   "published": "2026-11-20",
-   "verdict": "weak"
-  },
-  {
-   "score": 66.2,
+   "score": 65.9,
    "components": {
     "tier": 5,
     "category": 5,
     "lead": 2.4,
     "relevance": 24,
-    "freshness": 19.8,
+    "freshness": 19.5,
     "corroborated": 10
    },
    "keywords": [
-    "tax",
+    "route",
+    "airport",
     "tourism",
-    "tourist",
-    "beach",
-    "airline"
+    "flight"
    ],
    "shock_terms": [],
    "dedupe_match": null,
-   "dedupe_similarity": 0.14,
-   "id": "629be747fbf0",
-   "title": "Maldives and Andorra Lead Tourism Share Along With Aruba and Macao Across Global Travel",
-   "url": "https://www.travelandtourworld.com/news/article/7wvrzl9mgmn4",
-   "summary": "Image Source: Visit Maldives The countries with the highest proportion of tourism in their economies are the Maldives, Andorra, Aruba and Macao. Income is generated through tourists staying at luxury accommodation, skiing, gambling and enjoying beaches. As there is limited manufacturing within these countries, Governments rely on tourism. To cope with seasonal increases in tourist numbers, fast ex",
+   "dedupe_similarity": 0.17,
+   "id": "05cfd7bf2130",
+   "title": "Saint Kitts Tourism Takes Flight as Anguilla Air Services Adds New St. Barths Route",
+   "url": "https://www.travelandtourworld.com/news/article/zx2uwetx4fti",
+   "summary": "Image Credit- Anguilla Air Saint Kitts and Nevis has expanded its regional aviation network as Anguilla Air Services officially launched a new direct air connection between Saint Kitts and St. Barths on 20 November 2026. According to the Saint Kitts and Nevis Information Service, the launch ceremony took place at Robert L. Bradshaw International Airport in Basseterre. The development introduces an",
    "kind": "item",
    "source": "Travel And Tour World",
    "source_id": "gl-travelandtourworld",
@@ -1384,80 +1451,8 @@
     "bush",
     "beach"
    ],
-   "first_seen": "2026-11-21T01:16+03:00",
+   "first_seen": "2026-11-21T06:00+03:00",
    "published": "2026-11-21",
-   "verdict": "weak"
-  },
-  {
-   "score": 65.8,
-   "components": {
-    "tier": 20,
-    "category": 5,
-    "lead": 3.6,
-    "relevance": 8,
-    "freshness": 19.2,
-    "corroborated": 10
-   },
-   "keywords": [
-    "hotel",
-    "camp"
-   ],
-   "shock_terms": [],
-   "dedupe_match": null,
-   "dedupe_similarity": 0.0,
-   "id": "29498b61043a",
-   "title": "One Size Doesn\u2019t Fit All: How to Choose Your Winning Google Campaign",
-   "url": "https://www.hospitalitynet.org/opinion/4135618/one-size-doesnt-fit-all-how-to-choose-your-winning-google-campaign",
-   "summary": "A guide to Google Ads campaign types for hotels and restaurants, covering PMax, Search, Demand Gen, and Video, with KPI benchmarks and seven questions to ask your agency.",
-   "kind": "item",
-   "source": "Hospitality Net \u2014 Africa announcements",
-   "source_id": "dev-hospitalitynet-africa",
-   "tier": 2,
-   "country": "REG",
-   "category": "trade",
-   "segments": [
-    "city",
-    "bush",
-    "beach"
-   ],
-   "first_seen": "2026-11-21T00:43+03:00",
-   "published": "2026-11-20",
-   "verdict": "weak"
-  },
-  {
-   "score": 65.8,
-   "components": {
-    "tier": 20,
-    "category": 5,
-    "lead": 3.6,
-    "relevance": 8,
-    "freshness": 19.2,
-    "corroborated": 10
-   },
-   "keywords": [
-    "hotel",
-    "guest"
-   ],
-   "shock_terms": [],
-   "dedupe_match": null,
-   "dedupe_similarity": 0.12,
-   "id": "0d96aeaa9f04",
-   "title": "Build the hotel your guests want, not the one your technology allows",
-   "url": "https://www.hospitalitynet.org/opinion/4135614/build-the-hotel-your-guests-want-not-the-one-your-technology-allows",
-   "summary": "Mews CEO Matt Welle reflects on 100+ podcast episodes to argue hoteliers should design concepts around guests first, letting technology follow the vision rather than define it.",
-   "kind": "item",
-   "source": "Hospitality Net \u2014 Africa announcements",
-   "source_id": "dev-hospitalitynet-africa",
-   "tier": 2,
-   "country": "REG",
-   "category": "trade",
-   "segments": [
-    "city",
-    "bush",
-    "beach"
-   ],
-   "first_seen": "2026-11-21T00:43+03:00",
-   "published": "2026-11-20",
    "verdict": "weak"
   }
  ]
