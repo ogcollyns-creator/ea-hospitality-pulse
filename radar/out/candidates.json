@@ -1,18 +1,97 @@
 {
- "generated": "2026-11-23T00:07:23+03:00",
+ "generated": "2026-11-23T02:31:03+03:00",
  "slot": "morning",
  "window_start": 1795359600,
- "observations_in_window": 239,
+ "observations_in_window": 311,
  "deduped_against": 19,
  "candidates": [
   {
-   "score": 93.9,
+   "score": 65.2,
+   "components": {
+    "tier": 40,
+    "category": 12,
+    "lead": 3.6,
+    "relevance": 0,
+    "freshness": 19.6,
+    "undated": -6,
+    "page_change": -4
+   },
+   "keywords": [],
+   "shock_terms": [],
+   "dedupe_match": null,
+   "dedupe_similarity": 0.0,
+   "id": "786414168c0c",
+   "title": "[page changed] Airlink news",
+   "url": "https://www.flyairlink.com/",
+   "summary": "Request unsuccessful. Incapsula incident ID: 957000110054705651-2338644115129057",
+   "kind": "page-change",
+   "source": "Airlink news",
+   "source_id": "air-airlink",
+   "tier": 1,
+   "country": "REG",
+   "category": "airline",
+   "segments": [
+    "city",
+    "bush",
+    "beach"
+   ],
+   "first_seen": "2026-11-23T02:21+03:00",
+   "published": null,
+   "verdict": "OPEN THIS \u2014 tier-1 airline page moved; content not auto-parsed, read it manually"
+  },
+  {
+   "score": 109.6,
+   "components": {
+    "tier": 5,
+    "category": 5,
+    "lead": 0.0,
+    "relevance": 52,
+    "freshness": 19.6,
+    "corroborated": 10,
+    "shock": 18
+   },
+   "keywords": [
+    "cancel",
+    "airport",
+    "strike",
+    "protest",
+    "airline",
+    "flight",
+    "traffic",
+    "passenger"
+   ],
+   "shock_terms": [
+    "strike"
+   ],
+   "dedupe_match": null,
+   "dedupe_similarity": 0.33,
+   "id": "a3d169c92a23",
+   "title": "Air Traffic Control Strike to Cancel Most Brussels Airport Flights Monday",
+   "url": "https://eturbonews.com/brussels-airport-strike-flight-cancellations-november-23-2026",
+   "summary": "Most flights at Brussels Airport will be canceled Monday, November 23, as Belgian air traffic controllers join a national protest against federal budget cuts. Brussels Airlines says Belgian airspace will close from 7 a.m. to 9 p.m. local time and has criticized the short notice. Airlines will contact affected passengers directly, and travelers should check their flight status before heading to the",
+   "kind": "item",
+   "source": "eTurboNews Africa",
+   "source_id": "tp-eturbonews",
+   "tier": 3,
+   "country": "GLOBAL",
+   "category": "trade",
+   "segments": [
+    "city",
+    "bush",
+    "beach"
+   ],
+   "first_seen": "2026-11-23T02:21+03:00",
+   "published": "2026-11-22",
+   "verdict": "CONSIDER"
+  },
+  {
+   "score": 91.2,
    "components": {
     "tier": 20,
     "category": 24,
     "lead": 2.4,
     "relevance": 24,
-    "freshness": 15.5,
+    "freshness": 12.8,
     "undated": -6,
     "shock": 18,
     "page_change": -4
@@ -46,13 +125,48 @@
    "verdict": "CONSIDER"
   },
   {
-   "score": 91.9,
+   "score": 89.2,
+   "components": {
+    "tier": 40,
+    "category": 32,
+    "lead": 3.6,
+    "relevance": 8,
+    "freshness": 19.6,
+    "stale_trap": -10,
+    "page_change": -4
+   },
+   "keywords": [
+    "election"
+   ],
+   "shock_terms": [],
+   "dedupe_match": null,
+   "dedupe_similarity": 0.17,
+   "id": "1cb19a14dee2",
+   "title": "[page changed] Federal Register \u2014 public inspection (HHS/CDC), pre-publication",
+   "url": "https://www.federalregister.gov/api/v1/public-inspection-documents/current.json",
+   "summary": "{\"count\":94,\"results\":[{\"agencies\":[{\"raw_name\":\"ELECTION ASSISTANCE COMMISSION\",\"name\":\"Election Assistance Commission\",\"id\":127,\"url\":\"https://www.federalregister.gov/agencies/election-assistance-commission\",\"json_url\":\"https://www.federalregister.gov/api/v1/agencies/127\",\"parent_id\":null,\"slug\":\"election-assistance-commission\"}],\"agency_letters\":[],\"agency_names\":[\"Election Assistance Commissio",
+   "kind": "page-change",
+   "source": "Federal Register \u2014 public inspection (HHS/CDC), pre-publication",
+   "source_id": "us-fedreg-pubinspect-hhs",
+   "tier": 1,
+   "country": "REG",
+   "category": "advisory",
+   "segments": [
+    "city",
+    "bush"
+   ],
+   "first_seen": "2026-11-23T02:21+03:00",
+   "published": "2026-11-19",
+   "verdict": "CHECK \u2014 source date older than the window"
+  },
+  {
+   "score": 89.2,
    "components": {
     "tier": 40,
     "category": 24,
     "lead": 2.4,
     "relevance": 0,
-    "freshness": 15.5,
+    "freshness": 12.8,
     "corroborated": 10
    },
    "keywords": [],
@@ -75,16 +189,55 @@
    ],
    "first_seen": "2026-11-22T20:10+03:00",
    "published": "2026-11-22",
-   "verdict": "STRONG \u2014 tier-1, upstream"
+   "verdict": "CONSIDER"
   },
   {
-   "score": 89.4,
+   "score": 87.6,
+   "components": {
+    "tier": 20,
+    "category": 4,
+    "lead": 0.0,
+    "relevance": 16,
+    "freshness": 19.6,
+    "corroborated": 10,
+    "shock": 18
+   },
+   "keywords": [
+    "tax",
+    "strike"
+   ],
+   "shock_terms": [
+    "strike"
+   ],
+   "dedupe_match": null,
+   "dedupe_similarity": 0.0,
+   "id": "270ad24e2522",
+   "title": "Traders reopen shops before leaders call off strike",
+   "url": "https://www.monitor.co.ug/uganda/news/national/traders-reopen-shops-before-leaders-call-off-strike-5680658",
+   "summary": "The traders want US$3 (Shs12,654) and US$3.5 (Shs 14,810) taxes on each kilogramme of imported...",
+   "kind": "item",
+   "source": "Daily Monitor (Uganda)",
+   "source_id": "np-monitor-ug",
+   "tier": 2,
+   "country": "UG",
+   "category": "press",
+   "segments": [
+    "city",
+    "bush",
+    "beach"
+   ],
+   "first_seen": "2026-11-23T02:21+03:00",
+   "published": "2026-11-22",
+   "verdict": "CONSIDER"
+  },
+  {
+   "score": 86.8,
    "components": {
     "tier": 40,
     "category": 32,
     "lead": 3.6,
     "relevance": 8,
-    "freshness": 19.8,
+    "freshness": 17.2,
     "stale_trap": -10,
     "page_change": -4
    },
@@ -113,13 +266,13 @@
    "verdict": "CHECK \u2014 source date older than the window"
   },
   {
-   "score": 85.1,
+   "score": 82.4,
    "components": {
     "tier": 40,
     "category": 32,
     "lead": 3.6,
     "relevance": 8,
-    "freshness": 15.5,
+    "freshness": 12.8,
     "stale_trap": -10,
     "page_change": -4
    },
@@ -148,13 +301,51 @@
    "verdict": "CHECK \u2014 source date older than the window"
   },
   {
-   "score": 80.2,
+   "score": 82.0,
+   "components": {
+    "tier": 20,
+    "category": 4,
+    "lead": 2.4,
+    "relevance": 8,
+    "freshness": 19.6,
+    "corroborated": 10,
+    "shock": 18
+   },
+   "keywords": [
+    "strike"
+   ],
+   "shock_terms": [
+    "strike"
+   ],
+   "dedupe_match": null,
+   "dedupe_similarity": 0.0,
+   "id": "f6f1d153ec2d",
+   "title": "Alpha Onyango to the rescue, again, as Gor Mahia strike down Rangers",
+   "url": "https://nation.africa/kenya/sports/football/alpha-onyango-to-the-rescue-gor-mahia-strike-down-rangers-5680608",
+   "summary": "Gor Mahia skipper strikes late to earn K'Ogalo hard-fought win at Nyayo.",
+   "kind": "item",
+   "source": "Nation Africa: Kenya business",
+   "source_id": "ke-nation-business",
+   "tier": 2,
+   "country": "KE",
+   "category": "press",
+   "segments": [
+    "city",
+    "bush",
+    "beach"
+   ],
+   "first_seen": "2026-11-23T02:21+03:00",
+   "published": "2026-11-22",
+   "verdict": "CONSIDER"
+  },
+  {
+   "score": 77.6,
    "components": {
     "tier": 20,
     "category": 14,
     "lead": 8.4,
     "relevance": 8,
-    "freshness": 19.8,
+    "freshness": 17.2,
     "corroborated": 10
    },
    "keywords": [
@@ -183,13 +374,13 @@
    "verdict": "CONSIDER"
   },
   {
-   "score": 75.9,
+   "score": 73.2,
    "components": {
     "tier": 20,
     "category": 14,
     "lead": 8.4,
     "relevance": 8,
-    "freshness": 15.5,
+    "freshness": 12.8,
     "corroborated": 10
    },
    "keywords": [
@@ -218,13 +409,13 @@
    "verdict": "CONSIDER"
   },
   {
-   "score": 73.9,
+   "score": 71.2,
    "components": {
     "tier": 5,
     "category": 5,
     "lead": 2.4,
     "relevance": 36,
-    "freshness": 15.5,
+    "freshness": 12.8,
     "corroborated": 10
    },
    "keywords": [
@@ -259,13 +450,13 @@
    "verdict": "CONSIDER"
   },
   {
-   "score": 72.9,
+   "score": 70.2,
    "components": {
     "tier": 20,
     "category": 5,
     "lead": 2.4,
     "relevance": 20,
-    "freshness": 15.5,
+    "freshness": 12.8,
     "corroborated": 10
    },
    "keywords": [
@@ -297,13 +488,13 @@
    "verdict": "CONSIDER"
   },
   {
-   "score": 71.5,
+   "score": 68.8,
    "components": {
     "tier": 20,
     "category": 4,
     "lead": 0.0,
     "relevance": 20,
-    "freshness": 15.5,
+    "freshness": 12.8,
     "undated": -6,
     "shock": 18
    },
@@ -333,16 +524,16 @@
    ],
    "first_seen": "2026-11-22T20:10+03:00",
    "published": null,
-   "verdict": "CONSIDER"
+   "verdict": "weak"
   },
   {
-   "score": 69.9,
+   "score": 67.2,
    "components": {
     "tier": 5,
     "category": 5,
     "lead": 2.4,
     "relevance": 32,
-    "freshness": 15.5,
+    "freshness": 12.8,
     "corroborated": 10
    },
    "keywords": [
@@ -374,13 +565,13 @@
    "verdict": "weak"
   },
   {
-   "score": 68.9,
+   "score": 66.2,
    "components": {
     "tier": 20,
     "category": 5,
     "lead": 2.4,
     "relevance": 16,
-    "freshness": 15.5,
+    "freshness": 12.8,
     "corroborated": 10
    },
    "keywords": [
@@ -411,13 +602,13 @@
    "verdict": "weak"
   },
   {
-   "score": 68.9,
+   "score": 66.2,
    "components": {
     "tier": 20,
     "category": 5,
     "lead": 2.4,
     "relevance": 16,
-    "freshness": 15.5,
+    "freshness": 12.8,
     "corroborated": 10
    },
    "keywords": [
@@ -448,13 +639,13 @@
    "verdict": "weak"
   },
   {
-   "score": 68.9,
+   "score": 66.2,
    "components": {
     "tier": 20,
     "category": 5,
     "lead": 2.4,
     "relevance": 16,
-    "freshness": 15.5,
+    "freshness": 12.8,
     "corroborated": 10
    },
    "keywords": [
@@ -485,13 +676,51 @@
    "verdict": "weak"
   },
   {
-   "score": 67.5,
+   "score": 66.0,
+   "components": {
+    "tier": 5,
+    "category": 5,
+    "lead": 2.4,
+    "relevance": 24,
+    "freshness": 19.6,
+    "corroborated": 10
+   },
+   "keywords": [
+    "eta",
+    "route",
+    "tourism",
+    "beach"
+   ],
+   "shock_terms": [],
+   "dedupe_match": null,
+   "dedupe_similarity": 0.0,
+   "id": "97eecb746a2b",
+   "title": "England Unveils Bideford as a North Devon Gem With Historic Harbour and Coastal Escapes",
+   "url": "https://www.travelandtourworld.com/news/article/gf0dnrqaz74g",
+   "summary": "England's picturesque riverside town of Bideford is attracting attention as an appealing North Devon getaway, combining centuries of maritime heritage with independent shopping, coastal adventures and family-friendly attractions. Set beside the River Torridge, this historic trading settlement offers an alternative to the country's crowded urban tourism destinations. Visitors can discover tradition",
+   "kind": "item",
+   "source": "Travel And Tour World",
+   "source_id": "gl-travelandtourworld",
+   "tier": 3,
+   "country": "GLOBAL",
+   "category": "trade",
+   "segments": [
+    "city",
+    "bush",
+    "beach"
+   ],
+   "first_seen": "2026-11-23T02:21+03:00",
+   "published": "2026-11-23",
+   "verdict": "weak"
+  },
+  {
+   "score": 64.8,
    "components": {
     "tier": 20,
     "category": 4,
     "lead": 0.0,
     "relevance": 0,
-    "freshness": 15.5,
+    "freshness": 12.8,
     "corroborated": 10,
     "shock": 18
    },
@@ -521,49 +750,163 @@
    "verdict": "weak"
   },
   {
-   "score": 63.9,
+   "score": 63.6,
    "components": {
-    "tier": 20,
-    "category": 4,
-    "lead": 2.4,
-    "relevance": 12,
-    "freshness": 15.5,
+    "tier": 5,
+    "category": 5,
+    "lead": 0.0,
+    "relevance": 24,
+    "freshness": 19.6,
     "corroborated": 10
    },
    "keywords": [
-    "election",
-    "conference"
+    "fuel",
+    "flood",
+    "tourism",
+    "summit"
    ],
    "shock_terms": [],
    "dedupe_match": null,
-   "dedupe_similarity": 0.14,
-   "id": "4d509d0e9c73",
-   "title": "Tanzania to host SADC electoral commissions conference",
-   "url": "https://www.independent.co.ug/tanzania-to-host-sadc-electoral-commissions-conference",
-   "summary": "DAR ES SALAAM | Xinhua | Tanzania will host a two-day regional conference of electoral commissions from 15 Southern African Development Community (SADC) member commissions to discuss election management and the role of social media in democratic processes, the country\u2019s electoral body said Friday. The 28th General Conference of the Electoral Commissions Forum of \u2026 The post Tanzania to host SADC el",
+   "dedupe_similarity": 0.0,
+   "id": "4c0b5b9a3316",
+   "title": "Failed in Antalya. Geoffrey Lipman Says Tourism Can\u2019t Wait",
+   "url": "https://eturbonews.com/cop31-failure-geoffrey-lipman-tourism-climate-action",
+   "summary": "UN climate talks in Antalya ended without an overarching agreement after governments split over whether to name fossil fuels in the final text. Speaking to eTurboNews, SUNx Malta President Geoffrey Lipman called COP31 a setback and urged travel and tourism to cut emissions sharply by 2030 and prepare for worsening heatwaves, floods, hurricanes and drought. New research presented at the summit show",
    "kind": "item",
-   "source": "The Independent (Uganda)",
-   "source_id": "ug-independent",
-   "tier": 2,
-   "country": "UG",
-   "category": "press",
+   "source": "eTurboNews Africa",
+   "source_id": "tp-eturbonews",
+   "tier": 3,
+   "country": "GLOBAL",
+   "category": "trade",
    "segments": [
     "city",
     "bush",
     "beach"
    ],
-   "first_seen": "2026-11-22T20:10+03:00",
+   "first_seen": "2026-11-23T02:21+03:00",
    "published": "2026-11-22",
    "verdict": "weak"
   },
   {
-   "score": 63.8,
+   "score": 62.0,
+   "components": {
+    "tier": 5,
+    "category": 5,
+    "lead": 2.4,
+    "relevance": 20,
+    "freshness": 19.6,
+    "corroborated": 10
+   },
+   "keywords": [
+    "vat",
+    "wildlife",
+    "beach"
+   ],
+   "shock_terms": [],
+   "dedupe_match": null,
+   "dedupe_similarity": 0.0,
+   "id": "0ef4d2b59643",
+   "title": "Dominica Emerges as Caribbean Solo Travel Paradise With Rainforests and Volcanic Wonders",
+   "url": "https://www.travelandtourworld.com/news/article/iy6ord9u0x3i",
+   "summary": "Dominica is strengthening its reputation as one of the Caribbean's most captivating destinations for solo travellers, offering extraordinary rainforest adventures, volcanic landscapes, breathtaking waterfalls and remarkable marine wildlife. Known as the Nature Island of the Caribbean, Dominica provides an appealing alternative to conventional beach holidays, inviting independent visitors to explor",
+   "kind": "item",
+   "source": "Travel And Tour World",
+   "source_id": "gl-travelandtourworld",
+   "tier": 3,
+   "country": "GLOBAL",
+   "category": "trade",
+   "segments": [
+    "city",
+    "bush",
+    "beach"
+   ],
+   "first_seen": "2026-11-23T02:21+03:00",
+   "published": "2026-11-23",
+   "verdict": "weak"
+  },
+  {
+   "score": 62.0,
+   "components": {
+    "tier": 5,
+    "category": 5,
+    "lead": 2.4,
+    "relevance": 20,
+    "freshness": 19.6,
+    "corroborated": 10
+   },
+   "keywords": [
+    "route",
+    "wildlife",
+    "tourism"
+   ],
+   "shock_terms": [],
+   "dedupe_match": null,
+   "dedupe_similarity": 0.11,
+   "id": "55ff0786bd91",
+   "title": "Argentina Unveils Stunning UNESCO Heritage Sites From Patagonia Glaciers to Iguazu Falls",
+   "url": "https://www.travelandtourworld.com/news/article/l1wufxt6cs4y",
+   "summary": "Argentina is inviting international travellers to discover an extraordinary collection of 12 UNESCO World Heritage Sites, bringing together some of South America's most remarkable natural wonders and cultural landmarks. From the thunderous waterfalls of Iguazu and the immense glaciers of Patagonia to prehistoric cave paintings, ancient Andean routes and colonial architecture, the country's protect",
+   "kind": "item",
+   "source": "Travel And Tour World",
+   "source_id": "gl-travelandtourworld",
+   "tier": 3,
+   "country": "GLOBAL",
+   "category": "trade",
+   "segments": [
+    "city",
+    "bush",
+    "beach"
+   ],
+   "first_seen": "2026-11-23T02:21+03:00",
+   "published": "2026-11-23",
+   "verdict": "weak"
+  },
+  {
+   "score": 62.0,
+   "components": {
+    "tier": 5,
+    "category": 5,
+    "lead": 2.4,
+    "relevance": 20,
+    "freshness": 19.6,
+    "corroborated": 10
+   },
+   "keywords": [
+    "arrivals",
+    "tourism",
+    "tourist",
+    "opening"
+   ],
+   "shock_terms": [],
+   "dedupe_match": null,
+   "dedupe_similarity": 0.17,
+   "id": "79d397321f1c",
+   "title": "Guyana Unveils Seven Exciting Tourism Adventures Featuring Rainforests, Rivers and Culture",
+   "url": "https://www.travelandtourworld.com/news/article/mt68drjqgb0h",
+   "summary": "Guyana is opening an exciting new chapter in South American tourism with the introduction of seven visitor experiences combining outdoor adventure, cultural heritage, rainforest accommodation and community exploration. Unveiled during Tourism Awareness Month in November 2026, the additions range from kayaking adventures and overnight nature stays to African heritage experiences, religious diversit",
+   "kind": "item",
+   "source": "Travel And Tour World",
+   "source_id": "gl-travelandtourworld",
+   "tier": 3,
+   "country": "GLOBAL",
+   "category": "trade",
+   "segments": [
+    "city",
+    "bush",
+    "beach"
+   ],
+   "first_seen": "2026-11-23T02:21+03:00",
+   "published": "2026-11-23",
+   "verdict": "weak"
+  },
+  {
+   "score": 61.2,
    "components": {
     "tier": 20,
     "category": 4,
     "lead": 0.0,
     "relevance": 8,
-    "freshness": 19.8,
+    "freshness": 17.2,
     "undated": -6,
     "shock": 18
    },
@@ -595,13 +938,13 @@
    "verdict": "weak"
   },
   {
-   "score": 63.8,
+   "score": 61.2,
    "components": {
     "tier": 20,
     "category": 4,
     "lead": 0.0,
     "relevance": 8,
-    "freshness": 19.8,
+    "freshness": 17.2,
     "undated": -6,
     "shock": 18
    },
@@ -633,13 +976,49 @@
    "verdict": "weak"
   },
   {
-   "score": 63.7,
+   "score": 61.2,
+   "components": {
+    "tier": 20,
+    "category": 4,
+    "lead": 2.4,
+    "relevance": 12,
+    "freshness": 12.8,
+    "corroborated": 10
+   },
+   "keywords": [
+    "election",
+    "conference"
+   ],
+   "shock_terms": [],
+   "dedupe_match": null,
+   "dedupe_similarity": 0.14,
+   "id": "4d509d0e9c73",
+   "title": "Tanzania to host SADC electoral commissions conference",
+   "url": "https://www.independent.co.ug/tanzania-to-host-sadc-electoral-commissions-conference",
+   "summary": "DAR ES SALAAM | Xinhua | Tanzania will host a two-day regional conference of electoral commissions from 15 Southern African Development Community (SADC) member commissions to discuss election management and the role of social media in democratic processes, the country\u2019s electoral body said Friday. The 28th General Conference of the Electoral Commissions Forum of \u2026 The post Tanzania to host SADC el",
+   "kind": "item",
+   "source": "The Independent (Uganda)",
+   "source_id": "ug-independent",
+   "tier": 2,
+   "country": "UG",
+   "category": "press",
+   "segments": [
+    "city",
+    "bush",
+    "beach"
+   ],
+   "first_seen": "2026-11-22T20:10+03:00",
+   "published": "2026-11-22",
+   "verdict": "weak"
+  },
+  {
+   "score": 61.0,
    "components": {
     "tier": 20,
     "category": 5,
     "lead": 1.2,
     "relevance": 12,
-    "freshness": 15.5,
+    "freshness": 12.8,
     "corroborated": 10
    },
    "keywords": [
@@ -669,13 +1048,13 @@
    "verdict": "weak"
   },
   {
-   "score": 61.5,
+   "score": 58.8,
    "components": {
     "tier": 20,
     "category": 4,
     "lead": 0.0,
     "relevance": 12,
-    "freshness": 15.5,
+    "freshness": 12.8,
     "corroborated": 10
    },
    "keywords": [
@@ -705,13 +1084,13 @@
    "verdict": "weak"
   },
   {
-   "score": 61.5,
+   "score": 58.8,
    "components": {
     "tier": 20,
     "category": 4,
     "lead": 0.0,
     "relevance": 12,
-    "freshness": 15.5,
+    "freshness": 12.8,
     "corroborated": 10
    },
    "keywords": [
@@ -741,13 +1120,13 @@
    "verdict": "weak"
   },
   {
-   "score": 60.9,
+   "score": 58.2,
    "components": {
     "tier": 20,
     "category": 5,
     "lead": 2.4,
     "relevance": 8,
-    "freshness": 15.5,
+    "freshness": 12.8,
     "corroborated": 10
    },
    "keywords": [
@@ -777,13 +1156,87 @@
    "verdict": "weak"
   },
   {
-   "score": 59.9,
+   "score": 58.0,
+   "components": {
+    "tier": 5,
+    "category": 5,
+    "lead": 2.4,
+    "relevance": 16,
+    "freshness": 19.6,
+    "corroborated": 10
+   },
+   "keywords": [
+    "seat",
+    "airline",
+    "flight"
+   ],
+   "shock_terms": [],
+   "dedupe_match": null,
+   "dedupe_similarity": 0.17,
+   "id": "a666b254b45f",
+   "title": "Starlux Airlines Flies Weekly A321neo Trips From Taipei To Bali Amid Asian Market Shifts",
+   "url": "https://www.travelandtourworld.com/news/article/4d0anwrb14f8",
+   "summary": "Starlux Airlines is offering flights between Taipei and Bali on a weekly basis, with new developments in this Asian region causing some major excitement. Secure your seat! In a bid to compete with Starlux Airlines, competitors are scrambling to respond. Starlux Airlines is offering flights between Taipei and Bali on a weekly basis, with new developments in this busy region of Asia. Book early to g",
+   "kind": "item",
+   "source": "Travel And Tour World",
+   "source_id": "gl-travelandtourworld",
+   "tier": 3,
+   "country": "GLOBAL",
+   "category": "trade",
+   "segments": [
+    "city",
+    "bush",
+    "beach"
+   ],
+   "first_seen": "2026-11-23T02:21+03:00",
+   "published": "2026-11-23",
+   "verdict": "weak"
+  },
+  {
+   "score": 58.0,
+   "components": {
+    "tier": 5,
+    "category": 5,
+    "lead": 2.4,
+    "relevance": 16,
+    "freshness": 19.6,
+    "corroborated": 10
+   },
+   "keywords": [
+    "vat",
+    "resort",
+    "beach"
+   ],
+   "shock_terms": [],
+   "dedupe_match": null,
+   "dedupe_similarity": 0.0,
+   "id": "1ebe6be6b7f7",
+   "title": "Spain Unveils Six Hidden Travel Gems Beyond Crowded Beaches for Unforgettable Holidays",
+   "url": "https://www.travelandtourworld.com/news/article/oyuwtoegw3tx",
+   "summary": "Spain is revealing a captivating alternative to its bustling beach resorts in 2026, with six distinctive destinations offering travellers historic architecture, spectacular landscapes, cultural discoveries and more relaxed holiday experiences. From the dramatic mountain setting of Ronda and Mallorca's peaceful countryside to the volcanic beauty of La Palma, the country's lesser-explored attraction",
+   "kind": "item",
+   "source": "Travel And Tour World",
+   "source_id": "gl-travelandtourworld",
+   "tier": 3,
+   "country": "GLOBAL",
+   "category": "trade",
+   "segments": [
+    "city",
+    "bush",
+    "beach"
+   ],
+   "first_seen": "2026-11-23T02:21+03:00",
+   "published": "2026-11-23",
+   "verdict": "weak"
+  },
+  {
+   "score": 57.2,
    "components": {
     "tier": 20,
     "category": 4,
     "lead": 2.4,
     "relevance": 8,
-    "freshness": 15.5,
+    "freshness": 12.8,
     "corroborated": 10
    },
    "keywords": [
@@ -812,13 +1265,13 @@
    "verdict": "weak"
   },
   {
-   "score": 59.9,
+   "score": 57.2,
    "components": {
     "tier": 20,
     "category": 4,
     "lead": 2.4,
     "relevance": 8,
-    "freshness": 15.5,
+    "freshness": 12.8,
     "corroborated": 10
    },
    "keywords": [
@@ -847,13 +1300,13 @@
    "verdict": "weak"
   },
   {
-   "score": 59.9,
+   "score": 57.2,
    "components": {
     "tier": 20,
     "category": 4,
     "lead": 2.4,
     "relevance": 8,
-    "freshness": 15.5,
+    "freshness": 12.8,
     "corroborated": 10
    },
    "keywords": [
@@ -882,13 +1335,13 @@
    "verdict": "weak"
   },
   {
-   "score": 59.9,
+   "score": 57.2,
    "components": {
     "tier": 20,
     "category": 4,
     "lead": 2.4,
     "relevance": 8,
-    "freshness": 15.5,
+    "freshness": 12.8,
     "corroborated": 10
    },
    "keywords": [
@@ -917,13 +1370,13 @@
    "verdict": "weak"
   },
   {
-   "score": 59.9,
+   "score": 57.2,
    "components": {
     "tier": 20,
     "category": 4,
     "lead": 2.4,
     "relevance": 8,
-    "freshness": 15.5,
+    "freshness": 12.8,
     "corroborated": 10
    },
    "keywords": [
@@ -952,13 +1405,13 @@
    "verdict": "weak"
   },
   {
-   "score": 59.7,
+   "score": 57.0,
    "components": {
     "tier": 20,
     "category": 5,
     "lead": 1.2,
     "relevance": 8,
-    "freshness": 15.5,
+    "freshness": 12.8,
     "corroborated": 10
    },
    "keywords": [
@@ -987,467 +1440,35 @@
    "verdict": "weak"
   },
   {
-   "score": 57.9,
-   "components": {
-    "tier": 5,
-    "category": 5,
-    "lead": 2.4,
-    "relevance": 20,
-    "freshness": 15.5,
-    "corroborated": 10
-   },
-   "keywords": [
-    "vat",
-    "tourism",
-    "airline",
-    "exhibition"
-   ],
-   "shock_terms": [],
-   "dedupe_match": null,
-   "dedupe_similarity": 0.17,
-   "id": "79015455af6a",
-   "title": "Dominican Republic and More Highlight Best in Global Tourism, Technology and Travel at ITB Americas 2026",
-   "url": "https://www.travelandtourworld.com/news/article/1l9myrufbkgs",
-   "summary": "Dominican Republic and more highlight best in global tourism, technology and travel at ITB Americas 2026, showcasing international tourism opportunities in Guadalajara, Mexico. The three-day exhibition brought together global destinations, airlines, hospitality leaders and technology providers, strengthening cross-border partnerships, encouraging innovation and promoting sustainable growth across ",
-   "kind": "item",
-   "source": "Travel And Tour World",
-   "source_id": "gl-travelandtourworld",
-   "tier": 3,
-   "country": "GLOBAL",
-   "category": "trade",
-   "segments": [
-    "city",
-    "bush",
-    "beach"
-   ],
-   "first_seen": "2026-11-22T20:10+03:00",
-   "published": "2026-11-22",
-   "verdict": "weak"
-  },
-  {
-   "score": 57.9,
-   "components": {
-    "tier": 5,
-    "category": 5,
-    "lead": 2.4,
-    "relevance": 20,
-    "freshness": 15.5,
-    "corroborated": 10
-   },
-   "keywords": [
-    "adr",
-    "hotel",
-    "tourism",
-    "guest"
-   ],
-   "shock_terms": [],
-   "dedupe_match": null,
-   "dedupe_similarity": 0.12,
-   "id": "8dd9cfea23fa",
-   "title": "Madrid Struggles to Sustain Domestic Tourism While Vienna and Others Show Resilience",
-   "url": "https://www.travelandtourworld.com/news/article/zw8ee9eaybpf",
-   "summary": "Madrid sees a domestic tourism slump as Berlin and Vienna defy Europe's slowdown, revealing a striking divide in travel demand during 2026. Spanish residents reduced hotel overnight stays by 1.9% in September. Several Austrian regions also recorded declining domestic stays during the summer. Yet the picture is far from uniformly bleak. Germany's capital attracted more domestic guests, while its Au",
-   "kind": "item",
-   "source": "Travel And Tour World",
-   "source_id": "gl-travelandtourworld",
-   "tier": 3,
-   "country": "GLOBAL",
-   "category": "trade",
-   "segments": [
-    "city",
-    "bush",
-    "beach"
-   ],
-   "first_seen": "2026-11-22T20:10+03:00",
-   "published": "2026-11-22",
-   "verdict": "weak"
-  },
-  {
-   "score": 57.8,
+   "score": 56.0,
    "components": {
     "tier": 20,
     "category": 4,
-    "lead": 0.0,
-    "relevance": 20,
-    "freshness": 19.8,
-    "undated": -6
-   },
-   "keywords": [
-    "vat",
-    "airport",
-    "conference"
-   ],
-   "shock_terms": [],
-   "dedupe_match": null,
-   "dedupe_similarity": 0.29,
-   "id": "f58d6fcc184a",
-   "title": "VP Alupo in Ethiopia for Africa public health conference Alupo arrived at Bole International Airport on Sunday (November 22) and was received by Ethiopia\u2019s Minister of Innovation and Technology, Frehiwot Tamru, and State Minister for Foreign Affairs, Ambassador Berhanu Tsegaye. News",
-   "url": "https://www.newvision.co.ug/category/news/vp-alupo-in-ethiopia-for-africa-public-health-NV_244613_112026",
-   "summary": "",
-   "kind": "item",
-   "source": "New Vision (Uganda)",
-   "source_id": "np-newvision-ug",
-   "tier": 2,
-   "country": "UG",
-   "category": "press",
-   "segments": [
-    "city",
-    "bush",
-    "beach"
-   ],
-   "first_seen": "2026-11-23T00:06+03:00",
-   "published": null,
-   "verdict": "weak"
-  },
-  {
-   "score": 57.5,
-   "components": {
-    "tier": 20,
-    "category": 4,
-    "lead": 0.0,
-    "relevance": 8,
-    "freshness": 15.5,
-    "corroborated": 10
-   },
-   "keywords": [
-    "fuel"
-   ],
-   "shock_terms": [],
-   "dedupe_match": null,
-   "dedupe_similarity": 0.0,
-   "id": "3dd386ac39c9",
-   "title": "COP31 climate talks break down as EU, others reject deal",
-   "url": "https://www.monitor.co.ug/uganda/news/world/cop31-climate-talks-break-down-as-eu-others-reject-deal-5680272",
-   "summary": "Tensions unresolved around mention of fossil fuels",
-   "kind": "item",
-   "source": "Daily Monitor (Uganda)",
-   "source_id": "np-monitor-ug",
-   "tier": 2,
-   "country": "UG",
-   "category": "press",
-   "segments": [
-    "city",
-    "bush",
-    "beach"
-   ],
-   "first_seen": "2026-11-22T20:10+03:00",
-   "published": "2026-11-22",
-   "verdict": "weak"
-  },
-  {
-   "score": 57.5,
-   "components": {
-    "tier": 20,
-    "category": 4,
-    "lead": 0.0,
-    "relevance": 8,
-    "freshness": 15.5,
-    "corroborated": 10
-   },
-   "keywords": [
-    "eta"
-   ],
-   "shock_terms": [],
-   "dedupe_match": null,
-   "dedupe_similarity": 0.12,
-   "id": "d640f407041f",
-   "title": "Cleric urges Christian women to champion peaceful homes amid rising domestic killings",
-   "url": "https://www.monitor.co.ug/uganda/news/national/cleric-urges-christian-women-to-champion-peaceful-homes-amid-rising-domestic-killings-5680156",
-   "summary": "Seeta Archdeacon tasks Christian women on family stability as domestic violence deaths rise",
-   "kind": "item",
-   "source": "Daily Monitor (Uganda)",
-   "source_id": "np-monitor-ug",
-   "tier": 2,
-   "country": "UG",
-   "category": "press",
-   "segments": [
-    "city",
-    "bush",
-    "beach"
-   ],
-   "first_seen": "2026-11-22T20:10+03:00",
-   "published": "2026-11-22",
-   "verdict": "weak"
-  },
-  {
-   "score": 57.5,
-   "components": {
-    "tier": 20,
-    "category": 4,
-    "lead": 0.0,
-    "relevance": 8,
-    "freshness": 15.5,
-    "corroborated": 10
-   },
-   "keywords": [
-    "tax"
-   ],
-   "shock_terms": [],
-   "dedupe_match": null,
-   "dedupe_similarity": 0.0,
-   "id": "ef7b40b9c8f9",
-   "title": "Workers\u2019 bodies push for minimum wage, decry exploitation and heavy taxation",
-   "url": "https://www.monitor.co.ug/uganda/news/national/workers-bodies-push-for-minimum-wage-decry-exploitation-and-heavy-taxation-5679914",
-   "summary": "\"Workers are being overburdened by taxation. They pay PAYE from their salaries, and when they...",
-   "kind": "item",
-   "source": "Daily Monitor (Uganda)",
-   "source_id": "np-monitor-ug",
-   "tier": 2,
-   "country": "UG",
-   "category": "press",
-   "segments": [
-    "city",
-    "bush",
-    "beach"
-   ],
-   "first_seen": "2026-11-22T20:10+03:00",
-   "published": "2026-11-22",
-   "verdict": "weak"
-  },
-  {
-   "score": 56.9,
-   "components": {
-    "tier": 20,
-    "category": 5,
-    "lead": 2.4,
-    "relevance": 4,
-    "freshness": 15.5,
-    "corroborated": 10
-   },
-   "keywords": [
-    "tourism"
-   ],
-   "shock_terms": [],
-   "dedupe_match": null,
-   "dedupe_similarity": 0.17,
-   "id": "90907c5d8c80",
-   "title": "Dubai introduces new initiatives to strengthen tourism and encourage repeat visits",
-   "url": "https://katakenya.org/dubai-introduces-new-initiatives-to-strengthen-tourism-and-encourage-repeat-visits",
-   "summary": "Dubai is rolling out new initiatives aimed at improving visitor convenience, encouraging repeat travel and strengthening its position as a leading international tourism destination. Announced on 1 November 2026 by Crown Prince Sheikh Hamdan bin Mohammed bin Rashid Al Maktoum, the measures include a new tourism membership programme for returning visitors and the integration of [\u2026]",
-   "kind": "item",
-   "source": "Kenya Association of Travel Agents news",
-   "source_id": "tp-kata",
-   "tier": 2,
-   "country": "KE",
-   "category": "trade",
-   "segments": [
-    "city",
-    "bush",
-    "beach"
-   ],
-   "first_seen": "2026-11-22T20:10+03:00",
-   "published": "2026-11-22",
-   "verdict": "weak"
-  },
-  {
-   "score": 56.9,
-   "components": {
-    "tier": 20,
-    "category": 5,
-    "lead": 2.4,
-    "relevance": 4,
-    "freshness": 15.5,
-    "corroborated": 10
-   },
-   "keywords": [
-    "airline"
-   ],
-   "shock_terms": [],
-   "dedupe_match": null,
-   "dedupe_similarity": 0.33,
-   "id": "b5f00c27606c",
-   "title": "Six African Airlines Make TIME\u2019s 2027 World\u2019s Best Airlines Ranking",
-   "url": "https://katakenya.org/six-african-airlines-make-times-2027-worlds-best-airlines-ranking",
-   "summary": "Six African airlines have featured in TIME magazine\u2019s 2027 ranking of the world\u2019s best airlines, with South Africa accounting for half of the continent\u2019s entries. Kenya Airways and Ethiopian Airlines also secured places among the recognised carriers, highlighting the growing presence of African aviation in the global market. The ranking, compiled by TIME in partnership [\u2026]",
-   "kind": "item",
-   "source": "Kenya Association of Travel Agents news",
-   "source_id": "tp-kata",
-   "tier": 2,
-   "country": "KE",
-   "category": "trade",
-   "segments": [
-    "city",
-    "bush",
-    "beach"
-   ],
-   "first_seen": "2026-11-22T20:10+03:00",
-   "published": "2026-11-22",
-   "verdict": "weak"
-  },
-  {
-   "score": 56.2,
-   "components": {
-    "tier": 20,
-    "category": 24,
     "lead": 2.4,
     "relevance": 0,
-    "freshness": 19.8,
-    "undated": -6,
-    "page_change": -4
-   },
-   "keywords": [],
-   "shock_terms": [],
-   "dedupe_match": null,
-   "dedupe_similarity": 0.12,
-   "id": "4c3851e9a984",
-   "title": "[page changed] ProMED-mail",
-   "url": "https://promedmail.org/",
-   "summary": "Protecting Global Health, One Alert at a Time | ProMED Protecting Global Health, One Alert at a Time ProMED: Your 24/7 early warning system for emerging infectious diseases worldwide. Subscribe ProMED's Weekly Pulse A snapshot of global health events from the past 7 days Latest Posts on ProMED All Date Title Sun Nov 22 2026 AFRICAN SWINE FEVER - JAPAN (07): (TOCHIGI) DOMESTIC, CULL Sun Nov 22 2026",
-   "kind": "page-change",
-   "source": "ProMED-mail",
-   "source_id": "promed",
-   "tier": 2,
-   "country": "GLOBAL",
-   "category": "health",
-   "segments": [
-    "city",
-    "bush",
-    "beach"
-   ],
-   "first_seen": "2026-11-23T00:06+03:00",
-   "published": null,
-   "verdict": "weak"
-  },
-  {
-   "score": 55.9,
-   "components": {
-    "tier": 20,
-    "category": 4,
-    "lead": 2.4,
-    "relevance": 4,
-    "freshness": 15.5,
-    "corroborated": 10
-   },
-   "keywords": [
-    "traffic"
-   ],
-   "shock_terms": [],
-   "dedupe_match": null,
-   "dedupe_similarity": 0.2,
-   "id": "b59dc1d9f01e",
-   "title": "Mombasa Port Records 12% Growth as Kenya Lands Major Maritime Deal",
-   "url": "https://www.kenyans.co.ke/news/129584-mombasa-port-records-12-growth-kenya-lands-major-maritime-deal",
-   "summary": "Mombasa Port has recorded an increase in traffic, driven by a combination of factors as Kenya secures a continental maritime role.",
-   "kind": "item",
-   "source": "Kenyans.co.ke news",
-   "source_id": "ke-kenyans",
-   "tier": 2,
-   "country": "KE",
-   "category": "press",
-   "segments": [
-    "city",
-    "bush",
-    "beach"
-   ],
-   "first_seen": "2026-11-22T20:10+03:00",
-   "published": "2026-11-22",
-   "verdict": "weak"
-  },
-  {
-   "score": 53.9,
-   "components": {
-    "tier": 5,
-    "category": 5,
-    "lead": 2.4,
-    "relevance": 16,
-    "freshness": 15.5,
-    "corroborated": 10
-   },
-   "keywords": [
-    "eta",
-    "operator",
-    "passenger"
-   ],
-   "shock_terms": [],
-   "dedupe_match": null,
-   "dedupe_similarity": 0.0,
-   "id": "81aefd2909b8",
-   "title": "Santa Barbara Thanksgiving Rail Disruption Sends Coastal Passengers onto Buses",
-   "url": "https://www.travelandtourworld.com/news/article/204hz3ktc7bh",
-   "summary": "The rail travel from Santa Barbara will be a bit tricky for Christmas getaways in California. The repairs to the Pacific Surfliner necessitate that some of the passengers get off the train and take a bus ride to get to San Luis Obispo. Nonetheless, travelers from Los Angeles bound for Santa Barbara need not worry as they can travel by train directly. The difference might hardly impact the train sc",
-   "kind": "item",
-   "source": "Travel And Tour World",
-   "source_id": "gl-travelandtourworld",
-   "tier": 3,
-   "country": "GLOBAL",
-   "category": "trade",
-   "segments": [
-    "city",
-    "bush",
-    "beach"
-   ],
-   "first_seen": "2026-11-22T20:10+03:00",
-   "published": "2026-11-22",
-   "verdict": "weak"
-  },
-  {
-   "score": 53.9,
-   "components": {
-    "tier": 5,
-    "category": 5,
-    "lead": 2.4,
-    "relevance": 16,
-    "freshness": 15.5,
-    "corroborated": 10
-   },
-   "keywords": [
-    "hotel",
-    "investment",
-    "signing",
-    "franc"
-   ],
-   "shock_terms": [],
-   "dedupe_match": null,
-   "dedupe_similarity": 0.17,
-   "id": "604596c04873",
-   "title": "Paris to Get Its First Hyde Hotel in France as Ennismore Unveils Luxury Riverside Stay",
-   "url": "https://www.travelandtourworld.com/news/article/3tze0e9o19cj",
-   "summary": "Image source: Ennismore France set for debut Hyde hotel French hospitality group Ennismore has revealed plans to open its first Hyde hotel in the country, when it announced a 230-bedroom hotel development on the banks of the River Seine in the \u00cele S\u00e9guin peninsula in Greater Paris on 22 November 2026. Hyde Paris sur Seine will be developed in partnership with investment partners Ardian and Emerige",
-   "kind": "item",
-   "source": "Travel And Tour World",
-   "source_id": "gl-travelandtourworld",
-   "tier": 3,
-   "country": "GLOBAL",
-   "category": "trade",
-   "segments": [
-    "city",
-    "bush",
-    "beach"
-   ],
-   "first_seen": "2026-11-22T20:10+03:00",
-   "published": "2026-11-22",
-   "verdict": "weak"
-  },
-  {
-   "score": 53.8,
-   "components": {
-    "tier": 20,
-    "category": 4,
-    "lead": 0.0,
-    "relevance": 0,
-    "freshness": 19.8,
+    "freshness": 19.6,
     "corroborated": 10
    },
    "keywords": [],
    "shock_terms": [],
    "dedupe_match": null,
-   "dedupe_similarity": 0.17,
-   "id": "5dd913019490",
-   "title": "Kenya, DRC reboot ties after 4-year fallout",
-   "url": "https://www.theeastafrican.co.ke/tea/news/central-africa/kenya-drc-reboot-ties-after-4-year-fallout-5680552",
-   "summary": "The meeting came amid security crisis in eastern DRC, where diplomatic efforts to bring it to...",
+   "dedupe_similarity": 0.14,
+   "id": "ee8c8cfd66bc",
+   "title": "State borrows Sh233bn in four months as debt rises",
+   "url": "https://nation.africa/kenya/business/state-borrows-sh233bn-in-four-months-as-debt-rises--5680638",
+   "summary": "Mounting loans highlight severe debt service pressure amid depressed revenue streams.",
    "kind": "item",
-   "source": "The EastAfrican",
-   "source_id": "np-eastafrican",
+   "source": "Nation Africa: Kenya business",
+   "source_id": "ke-nation-business",
    "tier": 2,
-   "country": "REG",
+   "country": "KE",
    "category": "press",
    "segments": [
     "city",
     "bush",
     "beach"
    ],
-   "first_seen": "2026-11-23T00:06+03:00",
+   "first_seen": "2026-11-23T02:21+03:00",
    "published": "2026-11-22",
    "verdict": "weak"
   }
