@@ -1,18 +1,53 @@
 {
- "generated": "2026-11-22T04:58:21+03:00",
- "slot": "morning",
- "window_start": 1795273200,
- "observations_in_window": 310,
+ "generated": "2026-11-22T12:34:38+03:00",
+ "slot": "midday",
+ "window_start": 1795320000,
+ "observations_in_window": 156,
  "deduped_against": 19,
  "candidates": [
   {
-   "score": 55.3,
+   "score": 101.7,
+   "components": {
+    "tier": 40,
+    "category": 32,
+    "lead": 12.0,
+    "relevance": 8,
+    "freshness": 19.7,
+    "undated": -6,
+    "page_change": -4
+   },
+   "keywords": [
+    "fee"
+   ],
+   "shock_terms": [],
+   "dedupe_match": null,
+   "dedupe_similarity": 0.25,
+   "id": "539421c9f735",
+   "title": "[page changed] Federal Register \u2014 CDC notices",
+   "url": "https://www.federalregister.gov/api/v1/documents.rss?conditions%5Bagencies%5D%5B%5D=centers-for-disease-control-and-prevention&order=newest",
+   "summary": "Federal Register Documents published on or after 10/23/2026 and from Centers for Disease Control and Prevention https://www.federalregister.gov/api/v1/documents.rss?conditions%5Bagencies%5D%5B%5D=centers-for-disease-control-and-prevention&order=newest Mon, 23 Nov 2026 05:00:00 GMT The documents in this feed originate from FederalRegister.gov which displays an unofficial web version of the daily Fe",
+   "kind": "page-change",
+   "source": "Federal Register \u2014 CDC notices",
+   "source_id": "us-fedreg-cdc",
+   "tier": 1,
+   "country": "REG",
+   "category": "advisory",
+   "segments": [
+    "city",
+    "bush"
+   ],
+   "first_seen": "2026-11-22T12:31+03:00",
+   "published": null,
+   "verdict": "OPEN THIS \u2014 tier-1 advisory page moved; content not auto-parsed, read it manually"
+  },
+  {
+   "score": 65.3,
    "components": {
     "tier": 40,
     "category": 12,
     "lead": 3.6,
     "relevance": 0,
-    "freshness": 9.7,
+    "freshness": 19.7,
     "undated": -6,
     "page_change": -4
    },
@@ -20,10 +55,10 @@
    "shock_terms": [],
    "dedupe_match": null,
    "dedupe_similarity": 0.0,
-   "id": "de1d6e800a7c",
+   "id": "0cc6a075e642",
    "title": "[page changed] Airlink news",
    "url": "https://www.flyairlink.com/",
-   "summary": "Request unsuccessful. Incapsula incident ID: 1707000100049987770-63188207510684347",
+   "summary": "Request unsuccessful. Incapsula incident ID: 1014000130751315692-396382072252793715",
    "kind": "page-change",
    "source": "Airlink news",
    "source_id": "air-airlink",
@@ -35,363 +70,35 @@
     "bush",
     "beach"
    ],
-   "first_seen": "2026-11-21T19:48+03:00",
+   "first_seen": "2026-11-22T12:30+03:00",
    "published": null,
    "verdict": "OPEN THIS \u2014 tier-1 airline page moved; content not auto-parsed, read it manually"
   },
   {
-   "score": 89.4,
-   "components": {
-    "tier": 40,
-    "category": 32,
-    "lead": 3.6,
-    "relevance": 8,
-    "freshness": 19.8,
-    "stale_trap": -10,
-    "page_change": -4
-   },
-   "keywords": [
-    "election"
-   ],
-   "shock_terms": [],
-   "dedupe_match": null,
-   "dedupe_similarity": 0.17,
-   "id": "4e2e4e87358e",
-   "title": "[page changed] Federal Register \u2014 public inspection (HHS/CDC), pre-publication",
-   "url": "https://www.federalregister.gov/api/v1/public-inspection-documents/current.json",
-   "summary": "{\"count\":94,\"results\":[{\"agencies\":[{\"raw_name\":\"ELECTION ASSISTANCE COMMISSION\",\"name\":\"Election Assistance Commission\",\"id\":127,\"url\":\"https://www.federalregister.gov/agencies/election-assistance-commission\",\"json_url\":\"https://www.federalregister.gov/api/v1/agencies/127\",\"parent_id\":null,\"slug\":\"election-assistance-commission\"}],\"agency_letters\":[],\"agency_names\":[\"Election Assistance Commissio",
-   "kind": "page-change",
-   "source": "Federal Register \u2014 public inspection (HHS/CDC), pre-publication",
-   "source_id": "us-fedreg-pubinspect-hhs",
-   "tier": 1,
-   "country": "REG",
-   "category": "advisory",
-   "segments": [
-    "city",
-    "bush"
-   ],
-   "first_seen": "2026-11-22T04:56+03:00",
-   "published": "2026-11-19",
-   "verdict": "CHECK \u2014 source date older than the window"
-  },
-  {
-   "score": 89.3,
-   "components": {
-    "tier": 40,
-    "category": 8,
-    "lead": 3.6,
-    "relevance": 28,
-    "freshness": 9.7
-   },
-   "keywords": [
-    "vat",
-    "hotel",
-    "resort",
-    "tourism",
-    "conference",
-    "mice"
-   ],
-   "shock_terms": [],
-   "dedupe_match": null,
-   "dedupe_similarity": 0.2,
-   "id": "242e3bbdda4f",
-   "title": "UGANDA SHOWCASES ITS GROWING MICE POTENTIAL AT IBTM WORLD 2026 IN BARCELONA",
-   "url": "https://utb.go.ug/uganda-showcases-its-growing-mice-potential-at-ibtm-world-2026-in-barcelona",
-   "summary": "Berlin, Germany | 1 November 2026 Uganda Tourism Board (UTB), through the Uganda Convention Bureau (UCB), is participating in IBTM World in Barcelona, Spain, with a delegation comprising representatives from both the public and private sectors. The delegation includes Speke Resort Convention Centre Munyonyo, Kampala Serena Hotel, professional conference organizers, event organizers, and destinatio",
-   "kind": "item",
-   "source": "Uganda Tourism Board",
-   "source_id": "ug-utb",
-   "tier": 1,
-   "country": "UG",
-   "category": "dmo",
-   "segments": [
-    "city",
-    "bush",
-    "beach"
-   ],
-   "first_seen": "2026-11-21T19:48+03:00",
-   "published": "2026-11-19",
-   "verdict": "CONSIDER"
-  },
-  {
-   "score": 83.3,
-   "components": {
-    "tier": 40,
-    "category": 32,
-    "lead": 3.6,
-    "relevance": 8,
-    "freshness": 13.7,
-    "stale_trap": -10,
-    "page_change": -4
-   },
-   "keywords": [
-    "election"
-   ],
-   "shock_terms": [],
-   "dedupe_match": null,
-   "dedupe_similarity": 0.17,
-   "id": "f0005f774a1b",
-   "title": "[page changed] Federal Register \u2014 public inspection (HHS/CDC), pre-publication",
-   "url": "https://www.federalregister.gov/api/v1/public-inspection-documents/current.json",
-   "summary": "{\"count\":94,\"results\":[{\"agencies\":[{\"raw_name\":\"ELECTION ASSISTANCE COMMISSION\",\"name\":\"Election Assistance Commission\",\"id\":127,\"url\":\"https://www.federalregister.gov/agencies/election-assistance-commission\",\"json_url\":\"https://www.federalregister.gov/api/v1/agencies/127\",\"parent_id\":null,\"slug\":\"election-assistance-commission\"}],\"agency_letters\":[],\"agency_names\":[\"Election Assistance Commissio",
-   "kind": "page-change",
-   "source": "Federal Register \u2014 public inspection (HHS/CDC), pre-publication",
-   "source_id": "us-fedreg-pubinspect-hhs",
-   "tier": 1,
-   "country": "REG",
-   "category": "advisory",
-   "segments": [
-    "city",
-    "bush"
-   ],
-   "first_seen": "2026-11-21T23:24+03:00",
-   "published": "2026-11-19",
-   "verdict": "CHECK \u2014 source date older than the window"
-  },
-  {
-   "score": 81.7,
-   "components": {
-    "tier": 20,
-    "category": 4,
-    "lead": 0.0,
-    "relevance": 16,
-    "freshness": 13.7,
-    "corroborated": 10,
-    "shock": 18
-   },
-   "keywords": [
-    "strike",
-    "conference",
-    "investment"
-   ],
-   "shock_terms": [
-    "strike"
-   ],
-   "dedupe_match": null,
-   "dedupe_similarity": 0.14,
-   "id": "2557d756833a",
-   "title": "Nyanzaga Mine strikes gold at TMIC 2026 as it readies for its production",
-   "url": "https://dailynews.co.tz/nyanzaga-mine-strikes-gold-at-tmic-2026-as-it-readies-for-its-production",
-   "summary": "DAR ES SALAAM: AFTER 17 years of exploration and construction, the Nyanzaga Gold Project has participated in the Seventh Tanzania Mining and Investment Conference (TMIC 2026) as a new investor preparing to join Tanzania\u2019s gold-producing sector, with first gold pour targeted for January 2027. The project, located in Sengerema District, Mwanza Region, is being developed \u2026 The post Nyanzaga Mine stri",
-   "kind": "item",
-   "source": "Daily News (Tanzania)",
-   "source_id": "np-dailynews-tz",
-   "tier": 2,
-   "country": "TZ",
-   "category": "press",
-   "segments": [
-    "city",
-    "bush",
-    "beach"
-   ],
-   "first_seen": "2026-11-21T23:25+03:00",
-   "published": "2026-11-21",
-   "verdict": "CONSIDER"
-  },
-  {
-   "score": 79.3,
-   "components": {
-    "tier": 40,
-    "category": 32,
-    "lead": 3.6,
-    "relevance": 8,
-    "freshness": 9.7,
-    "stale_trap": -10,
-    "page_change": -4
-   },
-   "keywords": [
-    "election"
-   ],
-   "shock_terms": [],
-   "dedupe_match": null,
-   "dedupe_similarity": 0.17,
-   "id": "d8a68d64ea5d",
-   "title": "[page changed] Federal Register \u2014 public inspection (HHS/CDC), pre-publication",
-   "url": "https://www.federalregister.gov/api/v1/public-inspection-documents/current.json",
-   "summary": "{\"count\":94,\"results\":[{\"agencies\":[{\"raw_name\":\"ELECTION ASSISTANCE COMMISSION\",\"name\":\"Election Assistance Commission\",\"id\":127,\"url\":\"https://www.federalregister.gov/agencies/election-assistance-commission\",\"json_url\":\"https://www.federalregister.gov/api/v1/agencies/127\",\"parent_id\":null,\"slug\":\"election-assistance-commission\"}],\"agency_letters\":[],\"agency_names\":[\"Election Assistance Commissio",
-   "kind": "page-change",
-   "source": "Federal Register \u2014 public inspection (HHS/CDC), pre-publication",
-   "source_id": "us-fedreg-pubinspect-hhs",
-   "tier": 1,
-   "country": "REG",
-   "category": "advisory",
-   "segments": [
-    "city",
-    "bush"
-   ],
-   "first_seen": "2026-11-21T19:48+03:00",
-   "published": "2026-11-19",
-   "verdict": "CHECK \u2014 source date older than the window"
-  },
-  {
-   "score": 74.1,
-   "components": {
-    "tier": 20,
-    "category": 14,
-    "lead": 8.4,
-    "relevance": 12,
-    "freshness": 9.7,
-    "corroborated": 10
-   },
-   "keywords": [
-    "route",
-    "flight"
-   ],
-   "shock_terms": [],
-   "dedupe_match": null,
-   "dedupe_similarity": 0.22,
-   "id": "755a54b03bf5",
-   "title": "Air Transat Increases Toronto \u2013 Tirana Flights in NS27",
-   "url": "https://www.aeroroutes.com/eng/261121-tsns27tia",
-   "summary": "Published at 0500PCT / 1200GMT 21NOV26 Air Transat during Northern summer 2027 season plans to increase service to Albania, reflected in recent schedule update. The seasonal Toronto Pearson \u2013 Tirana route will be offered from 07MAY27 once a week, increasing to 2 weekly for the period of 21JUN27 \u2013 03SEP27. The service increase was briefly highlighted on AeroRoutes on 19NOV26. TS422 YYZ2200 \u2013 1300+1",
-   "kind": "item",
-   "source": "AeroRoutes schedule filings",
-   "source_id": "aeroroutes",
-   "tier": 2,
-   "country": "GLOBAL",
-   "category": "aviation-tracker",
-   "segments": [
-    "city",
-    "bush",
-    "beach"
-   ],
-   "first_seen": "2026-11-21T19:48+03:00",
-   "published": "2026-11-21",
-   "verdict": "CONSIDER"
-  },
-  {
-   "score": 69.7,
-   "components": {
-    "tier": 20,
-    "category": 4,
-    "lead": 0.0,
-    "relevance": 8,
-    "freshness": 9.7,
-    "corroborated": 10,
-    "shock": 18
-   },
-   "keywords": [
-    "election"
-   ],
-   "shock_terms": [
-    "attack"
-   ],
-   "dedupe_match": null,
-   "dedupe_similarity": 0.0,
-   "id": "058c3cb83acb",
-   "title": "Police probe midnight attack on ex-Masaka LC1 boss's home after election dispute",
-   "url": "https://www.monitor.co.ug/uganda/news/national/police-probe-midnight-attack-on-ex-masaka-lc1-boss-s-home-after-election-dispute-5679314",
-   "summary": "According to eyewitnesses, some of the assailants were heard accusing Mr Ssekarega\u2014who lost his...",
-   "kind": "item",
-   "source": "Daily Monitor (Uganda)",
-   "source_id": "np-monitor-ug",
-   "tier": 2,
-   "country": "UG",
-   "category": "press",
-   "segments": [
-    "city",
-    "bush",
-    "beach"
-   ],
-   "first_seen": "2026-11-21T19:48+03:00",
-   "published": "2026-11-21",
-   "verdict": "weak"
-  },
-  {
-   "score": 69.3,
-   "components": {
-    "tier": 40,
-    "category": 8,
-    "lead": 3.6,
-    "relevance": 8,
-    "freshness": 9.7
-   },
-   "keywords": [
-    "tourism",
-    "signing"
-   ],
-   "shock_terms": [],
-   "dedupe_match": null,
-   "dedupe_similarity": 0.2,
-   "id": "806d39d7f844",
-   "title": "UTB WELCOMES THE CAF LOGO THAT HONOURS UGANDA\u2019S PAST, CULTURE AND SYMBOLISES THE AFRICA OF TOMORROW",
-   "url": "https://utb.go.ug/utb-welcomes-the-caf-logo-that-honours-ugandas-past-culture-and-symbolises-the-africa-of-tomorrow",
-   "summary": "Three weeks after signing a partnership with the Confederation of African Football (CAF) that makes it an official partner of the TotalEnergies Africa Cup of Nations (AFCON) PAMOJA 2027, the Uganda Tourism Board (UTB) says the unveiling of the tournament\u2019s official logo marks the next step in showcasing Uganda to Africa and the world. The [\u2026] The post UTB WELCOMES THE CAF LOGO THAT HONOURS UGANDA\u2019",
-   "kind": "item",
-   "source": "Uganda Tourism Board",
-   "source_id": "ug-utb",
-   "tier": 1,
-   "country": "UG",
-   "category": "dmo",
-   "segments": [
-    "city",
-    "bush",
-    "beach"
-   ],
-   "first_seen": "2026-11-21T19:48+03:00",
-   "published": "2026-11-19",
-   "verdict": "weak"
-  },
-  {
-   "score": 68.7,
-   "components": {
-    "tier": 5,
-    "category": 5,
-    "lead": 2.4,
-    "relevance": 32,
-    "freshness": 14.3,
-    "corroborated": 10
-   },
-   "keywords": [
-    "cancel",
-    "airport",
-    "airline",
-    "flight",
-    "passenger"
-   ],
-   "shock_terms": [],
-   "dedupe_match": null,
-   "dedupe_similarity": 0.33,
-   "id": "18e65d37d403",
-   "title": "Orlando Airport and Others See Stranded Bags After Cancellations as Flyers Urged to Track",
-   "url": "https://www.travelandtourworld.com/news/article/mg828hr08bw1",
-   "summary": "Thousands of items of luggage have become stranded at major airports across the country, with airlines working to get luggage back on track for passengers. Groundings and diverted flights mean that checked-in luggage has been unable to make expected connection. Passengers have been re-booked however checked-in luggage has not travelled with them. In addition to this, luggage sorting areas have bec",
-   "kind": "item",
-   "source": "Travel And Tour World",
-   "source_id": "gl-travelandtourworld",
-   "tier": 3,
-   "country": "GLOBAL",
-   "category": "trade",
-   "segments": [
-    "city",
-    "bush",
-    "beach"
-   ],
-   "first_seen": "2026-11-21T23:56+03:00",
-   "published": "2026-11-21",
-   "verdict": "weak"
-  },
-  {
-   "score": 68.2,
+   "score": 98.2,
    "components": {
     "tier": 20,
     "category": 24,
     "lead": 2.4,
-    "relevance": 12,
+    "relevance": 24,
     "freshness": 19.8,
     "undated": -6,
+    "shock": 18,
     "page_change": -4
    },
    "keywords": [
-    "cholera"
+    "outbreak",
+    "ebola"
    ],
-   "shock_terms": [],
+   "shock_terms": [
+    "outbreak"
+   ],
    "dedupe_match": null,
    "dedupe_similarity": 0.12,
-   "id": "e15cfce3a035",
+   "id": "7033ad2eebfe",
    "title": "[page changed] ProMED-mail",
    "url": "https://promedmail.org/",
-   "summary": "Protecting Global Health, One Alert at a Time | ProMED Protecting Global Health, One Alert at a Time ProMED: Your 24/7 early warning system for emerging infectious diseases worldwide. Subscribe ProMED's Weekly Pulse A snapshot of global health events from the past 7 days Latest Posts on ProMED All Date Title Sun Nov 22 2026 AFRICAN SWINE FEVER - PHILIPPINES (44): (QUEZON) DOMESTIC, PRECAUTIONARY M",
+   "summary": "Protecting Global Health, One Alert at a Time | ProMED Protecting Global Health, One Alert at a Time ProMED: Your 24/7 early warning system for emerging infectious diseases worldwide. Subscribe ProMED's Weekly Pulse A snapshot of global health events from the past 7 days Latest Posts on ProMED All Date Title Sun Nov 22 2026 AFRICAN SWINE FEVER - SRI LANKA: DOMESTIC, WIDER SPREAD Sun Nov 22 2026 AV",
    "kind": "page-change",
    "source": "ProMED-mail",
    "source_id": "promed",
@@ -403,578 +110,132 @@
     "bush",
     "beach"
    ],
-   "first_seen": "2026-11-22T04:57+03:00",
+   "first_seen": "2026-11-22T12:32+03:00",
    "published": null,
-   "verdict": "weak"
+   "verdict": "CONSIDER"
   },
   {
-   "score": 66.1,
+   "score": 89.3,
    "components": {
-    "tier": 20,
-    "category": 14,
-    "lead": 8.4,
-    "relevance": 4,
-    "freshness": 9.7,
-    "corroborated": 10
-   },
-   "keywords": [
-    "flight"
-   ],
-   "shock_terms": [],
-   "dedupe_match": null,
-   "dedupe_similarity": 0.22,
-   "id": "9e0f0a17a874",
-   "title": "Air Transat Increases Agadir Service in NS27",
-   "url": "https://www.aeroroutes.com/eng/261121-tsns27aga",
-   "summary": "Published at 0600PCT / 1300GMT 21NOV26 Air Transat during Northern summer 2027 season plans to increase Montreal \u2013 Agadir service, as the carrier introduces 2nd weekly flight during peak season from 21JUN27 to 03SEP27, with A321neo. The seasonal service in 2027 will begin on 30APR27. TS492 YUL1745 \u2013 0450+1AGA 32Q 15 TS493 AGA0620 \u2013 1035YUL 32Q 26",
-   "kind": "item",
-   "source": "AeroRoutes schedule filings",
-   "source_id": "aeroroutes",
-   "tier": 2,
-   "country": "GLOBAL",
-   "category": "aviation-tracker",
-   "segments": [
-    "city",
-    "bush",
-    "beach"
-   ],
-   "first_seen": "2026-11-21T19:48+03:00",
-   "published": "2026-11-21",
-   "verdict": "weak"
-  },
-  {
-   "score": 64.2,
-   "components": {
-    "tier": 20,
-    "category": 4,
-    "lead": 2.4,
+    "tier": 40,
+    "category": 32,
+    "lead": 3.6,
     "relevance": 8,
-    "freshness": 19.8,
-    "corroborated": 10
+    "freshness": 19.7,
+    "stale_trap": -10,
+    "page_change": -4
    },
    "keywords": [
     "election"
    ],
    "shock_terms": [],
    "dedupe_match": null,
-   "dedupe_similarity": 0.14,
-   "id": "f6378448fb9f",
-   "title": "Why 2027 presidential election maths is not a spreadsheet game",
-   "url": "https://nation.africa/kenya/blogs-opinion/blogs/why-2027-presidential-election-maths-is-not-a-spreadsheet-game--5679786",
-   "summary": "In 2027, the outcome will not be decided by static arithmetic drawn up today.",
-   "kind": "item",
-   "source": "Nation Africa: Kenya business",
-   "source_id": "ke-nation-business",
-   "tier": 2,
-   "country": "KE",
-   "category": "press",
+   "dedupe_similarity": 0.17,
+   "id": "f8c835c3d7c1",
+   "title": "[page changed] Federal Register \u2014 public inspection (HHS/CDC), pre-publication",
+   "url": "https://www.federalregister.gov/api/v1/public-inspection-documents/current.json",
+   "summary": "{\"count\":94,\"results\":[{\"agencies\":[{\"raw_name\":\"ELECTION ASSISTANCE COMMISSION\",\"name\":\"Election Assistance Commission\",\"id\":127,\"url\":\"https://www.federalregister.gov/agencies/election-assistance-commission\",\"json_url\":\"https://www.federalregister.gov/api/v1/agencies/127\",\"parent_id\":null,\"slug\":\"election-assistance-commission\"}],\"agency_letters\":[],\"agency_names\":[\"Election Assistance Commissio",
+   "kind": "page-change",
+   "source": "Federal Register \u2014 public inspection (HHS/CDC), pre-publication",
+   "source_id": "us-fedreg-pubinspect-hhs",
+   "tier": 1,
+   "country": "REG",
+   "category": "advisory",
    "segments": [
     "city",
-    "bush",
-    "beach"
+    "bush"
    ],
-   "first_seen": "2026-11-22T04:57+03:00",
-   "published": "2026-11-22",
-   "verdict": "weak"
+   "first_seen": "2026-11-22T12:31+03:00",
+   "published": "2026-11-19",
+   "verdict": "CHECK \u2014 source date older than the window"
   },
   {
-   "score": 64.2,
+   "score": 82.5,
    "components": {
-    "tier": 20,
-    "category": 4,
-    "lead": 2.4,
-    "relevance": 8,
-    "freshness": 19.8,
-    "corroborated": 10
+    "tier": 40,
+    "category": 24,
+    "lead": 4.8,
+    "relevance": 0,
+    "freshness": 19.7,
+    "undated": -6
    },
-   "keywords": [
-    "election"
-   ],
-   "shock_terms": [],
-   "dedupe_match": null,
-   "dedupe_similarity": 0.0,
-   "id": "8462e8d8a87a",
-   "title": "CAF endorses Infantino for re-election as Fifa president",
-   "url": "https://nation.africa/kenya/sports/football/caf-endorses-infantino-for-re-election-as-fifa-president-5679816",
-   "summary": "Infantino reiterated the plan to more than triple the grant given to Fifa member associations...",
-   "kind": "item",
-   "source": "Nation Africa: Kenya business",
-   "source_id": "ke-nation-business",
-   "tier": 2,
-   "country": "KE",
-   "category": "press",
-   "segments": [
-    "city",
-    "bush",
-    "beach"
-   ],
-   "first_seen": "2026-11-22T04:57+03:00",
-   "published": "2026-11-21",
-   "verdict": "weak"
-  },
-  {
-   "score": 64.1,
-   "components": {
-    "tier": 5,
-    "category": 5,
-    "lead": 2.4,
-    "relevance": 32,
-    "freshness": 9.7,
-    "corroborated": 10
-   },
-   "keywords": [
-    "route",
-    "capacity",
-    "seat",
-    "flight",
-    "franc"
-   ],
-   "shock_terms": [],
-   "dedupe_match": null,
-   "dedupe_similarity": 0.14,
-   "id": "b4dc5dddd697",
-   "title": "Air France Luxury Travel Takes Off as Paris\u2013S\u00e3o Paulo Route Sparks Third Flight Buzz",
-   "url": "https://www.travelandtourworld.com/news/article/qkrw27klqqj8",
-   "summary": "Image Credit : Air France Air France has brought up the issue of luxury flights between Paris and S\u00e3o Paulo with recent reports of increased number of Boeing 777-300ER aircraft and La Premi\u00e8re being available raising the question of a third daily flight. It is believed that there would be two daily flights operating during this time period of 1 February - 27 March 2027. Reports say that both these",
-   "kind": "item",
-   "source": "Travel And Tour World",
-   "source_id": "gl-travelandtourworld",
-   "tier": 3,
-   "country": "GLOBAL",
-   "category": "trade",
-   "segments": [
-    "city",
-    "bush",
-    "beach"
-   ],
-   "first_seen": "2026-11-21T19:48+03:00",
-   "published": "2026-11-21",
-   "verdict": "weak"
-  },
-  {
-   "score": 63.7,
-   "components": {
-    "tier": 20,
-    "category": 4,
-    "lead": 0.0,
-    "relevance": 16,
-    "freshness": 13.7,
-    "corroborated": 10
-   },
-   "keywords": [
-    "eta",
-    "election"
-   ],
+   "keywords": [],
    "shock_terms": [],
    "dedupe_match": null,
    "dedupe_similarity": 0.11,
-   "id": "b4c53a765dfa",
-   "title": "Nigeria\u2019s Duke-Abiola\u2019s nomination as United Nations Secretary-General",
-   "url": "https://dailynews.co.tz/nigerias-duke-abiolas-nomination-as-united-nations-secretary-general",
-   "summary": "New York: As the international community approaches a defining moment in the selection of the tenth Secretary-General of the United Nations, growing attention is turning to Nigeria and the prospect of formally presenting Akasoba Zainab Duke-Abiola, mni, as an African woman capable of contributing to the search for globally acceptable and effective multilateral leadership. Duke-Abiola, an \u2026 The pos",
+   "id": "fba04cf12174",
+   "title": "The State of Adolescent Health in African Union Member States Manuals, Guidelines & Frameworks, Reference Guide",
+   "url": "https://africacdc.org/download/the-state-of-adolescent-health-in-african-union-member-states",
+   "summary": "",
    "kind": "item",
-   "source": "Daily News (Tanzania)",
-   "source_id": "np-dailynews-tz",
-   "tier": 2,
-   "country": "TZ",
-   "category": "press",
+   "source": "Africa CDC downloads (sit reps & EIW)",
+   "source_id": "africacdc-downloads",
+   "tier": 1,
+   "country": "REG",
+   "category": "health",
    "segments": [
     "city",
     "bush",
     "beach"
    ],
-   "first_seen": "2026-11-21T23:25+03:00",
-   "published": "2026-11-21",
-   "verdict": "weak"
+   "first_seen": "2026-11-22T12:31+03:00",
+   "published": null,
+   "verdict": "CONSIDER"
   },
   {
-   "score": 62.2,
+   "score": 80.5,
    "components": {
-    "tier": 5,
-    "category": 5,
-    "lead": 2.4,
-    "relevance": 20,
-    "freshness": 19.8,
-    "corroborated": 10
+    "tier": 40,
+    "category": 10,
+    "lead": 16.8,
+    "relevance": 0,
+    "freshness": 19.7,
+    "undated": -6
    },
-   "keywords": [
-    "airport",
-    "airline",
-    "flight",
-    "traffic"
-   ],
+   "keywords": [],
    "shock_terms": [],
    "dedupe_match": null,
    "dedupe_similarity": 0.17,
-   "id": "226bfd3bbe7b",
-   "title": "US Holiday Travel Faces TSA Shortages as New York and Others Prepare for Christmas Rush",
-   "url": "https://www.travelandtourworld.com/news/article/pru35mr8mhio",
-   "summary": "America's Christmas and New Year travel season faces fresh uncertainty as a federal funding deadline threatens airport security and air traffic operations. Funding for the Transportation Security Administration (TSA) and Federal Aviation Administration (FAA) is due to expire after December 11, 2026. A shutdown beginning December 12 could force thousands of essential aviation employees to work with",
+   "id": "304ff0fae1b7",
+   "title": "Speaker Oboth pledges support to Mbarara University research function Sunday, 22 November 2026",
+   "url": "https://www.parliament.go.ug/news/4752/speaker-oboth-pledges-support-mbarara-university-research-function",
+   "summary": "",
    "kind": "item",
-   "source": "Travel And Tour World",
-   "source_id": "gl-travelandtourworld",
-   "tier": 3,
-   "country": "GLOBAL",
-   "category": "trade",
-   "segments": [
-    "city",
-    "bush",
-    "beach"
-   ],
-   "first_seen": "2026-11-22T04:57+03:00",
-   "published": "2026-11-22",
-   "verdict": "weak"
-  },
-  {
-   "score": 62.2,
-   "components": {
-    "tier": 5,
-    "category": 5,
-    "lead": 2.4,
-    "relevance": 20,
-    "freshness": 19.8,
-    "corroborated": 10
-   },
-   "keywords": [
-    "vat",
-    "route",
-    "tourist"
-   ],
-   "shock_terms": [],
-   "dedupe_match": null,
-   "dedupe_similarity": 0.14,
-   "id": "7e4911d80d86",
-   "title": "United States Route 66 Travel Captivates International Tourists During Centennial",
-   "url": "https://www.travelandtourworld.com/news/article/1cwwmx4athii",
-   "summary": "USA Route 66 Travel is capturing renewed international attention as America's legendary highway celebrates its 100th anniversary in 2026. Stretching approximately 2,448 miles from Chicago, Illinois, to Santa Monica, California, the historic corridor continues attracting visitors from Australia, New Zealand and Europe. Its neon-lit motels, classic cars, desert landscapes and historic roadside commu",
-   "kind": "item",
-   "source": "Travel And Tour World",
-   "source_id": "gl-travelandtourworld",
-   "tier": 3,
-   "country": "GLOBAL",
-   "category": "trade",
-   "segments": [
-    "city",
-    "bush",
-    "beach"
-   ],
-   "first_seen": "2026-11-22T04:57+03:00",
-   "published": "2026-11-22",
-   "verdict": "weak"
-  },
-  {
-   "score": 60.7,
-   "components": {
-    "tier": 5,
-    "category": 5,
-    "lead": 2.4,
-    "relevance": 24,
-    "freshness": 14.3,
-    "corroborated": 10
-   },
-   "keywords": [
-    "vat",
-    "seat",
-    "airline",
-    "passenger"
-   ],
-   "shock_terms": [],
-   "dedupe_match": null,
-   "dedupe_similarity": 0.17,
-   "id": "b9b7bd4e5747",
-   "title": "American Airlines and More Make Flying Comfortable With Private Suites and Sleek Interiors",
-   "url": "https://www.travelandtourworld.com/news/article/tyefdr9wrc1m",
-   "summary": "[Image: American Airlines] US airlines transform the skies with stunning private suites and next-generation cabins, intensifying a fierce battle for luxury travelers. American Airlines, United, Delta, Alaska, Hawaiian, and JetBlue are reshaping premium flying through ambitious aircraft upgrades. Enclosed seating, lie-flat beds, advanced entertainment, and enhanced personal space are changing what ",
-   "kind": "item",
-   "source": "Travel And Tour World",
-   "source_id": "gl-travelandtourworld",
-   "tier": 3,
-   "country": "GLOBAL",
-   "category": "trade",
-   "segments": [
-    "city",
-    "bush",
-    "beach"
-   ],
-   "first_seen": "2026-11-21T23:56+03:00",
-   "published": "2026-11-21",
-   "verdict": "weak"
-  },
-  {
-   "score": 59.7,
-   "components": {
-    "tier": 20,
-    "category": 4,
-    "lead": 0.0,
-    "relevance": 12,
-    "freshness": 13.7,
-    "corroborated": 10
-   },
-   "keywords": [
-    "tax",
-    "investment"
-   ],
-   "shock_terms": [],
-   "dedupe_match": null,
-   "dedupe_similarity": 0.14,
-   "id": "123b50979c9a",
-   "title": "Tanzania lures more investors to establish mineral processing, value addition industries",
-   "url": "https://dailynews.co.tz/tanzania-lures-more-investors-to-establish-mineral-processing-value-addition-industries",
-   "summary": "DAR ES SALAAM: TANZANIA has stepped up efforts to attract more local and foreign investors to establish mineral processing and value addition industries by creating a conducive investment environment that includes designated investment zones, reliable energy supply, improved transport infrastructure and tax incentives. Minister for Minerals, Anthony Mavunde, said the government was committed to po",
-   "kind": "item",
-   "source": "Daily News (Tanzania)",
-   "source_id": "np-dailynews-tz",
-   "tier": 2,
-   "country": "TZ",
-   "category": "press",
-   "segments": [
-    "city",
-    "bush",
-    "beach"
-   ],
-   "first_seen": "2026-11-21T23:25+03:00",
-   "published": "2026-11-21",
-   "verdict": "weak"
-  },
-  {
-   "score": 58.7,
-   "components": {
-    "tier": 20,
-    "category": 4,
-    "lead": 2.4,
-    "relevance": 8,
-    "freshness": 14.3,
-    "corroborated": 10
-   },
-   "keywords": [
-    "route"
-   ],
-   "shock_terms": [],
-   "dedupe_match": null,
-   "dedupe_similarity": 0.17,
-   "id": "fdd0c32c0b1c",
-   "title": "Hormuz block hit Africa in four places",
-   "url": "https://www.independent.co.ug/hormuz-block-hit-africa-in-four-places",
-   "summary": "What the continent must do to prevent future shocks COMMENT | OLUGBENGA ONAFOWORA | The closure of the Strait of Hormuz in 2026, a result of America\u2019s war with Iran, removed at its peak about a quarter of seaborne oil from its usual routes, together with a similar share of globally traded liquefied natural \u2026 The post Hormuz block hit Africa in four places appeared first on The Independent Uganda: ",
-   "kind": "item",
-   "source": "The Independent (Uganda)",
-   "source_id": "ug-independent",
-   "tier": 2,
+   "source": "Parliament of Uganda",
+   "source_id": "ug-parliament",
+   "tier": 1,
    "country": "UG",
-   "category": "press",
+   "category": "legislature",
    "segments": [
     "city",
     "bush",
     "beach"
    ],
-   "first_seen": "2026-11-21T23:56+03:00",
-   "published": "2026-11-21",
-   "verdict": "weak"
+   "first_seen": "2026-11-22T12:30+03:00",
+   "published": null,
+   "verdict": "CONSIDER"
   },
   {
-   "score": 58.7,
+   "score": 74.2,
    "components": {
     "tier": 20,
     "category": 4,
     "lead": 2.4,
-    "relevance": 8,
-    "freshness": 14.3,
-    "corroborated": 10
-   },
-   "keywords": [
-    "fee"
-   ],
-   "shock_terms": [],
-   "dedupe_match": null,
-   "dedupe_similarity": 0.17,
-   "id": "321caaf575b3",
-   "title": "They lost everything twice: Bomet couple built a booming agribusiness",
-   "url": "https://nation.africa/kenya/business/seeds-of-gold/they-lost-everything-twice-bomet-couple-agribusiness-5678224",
-   "summary": "The teacher and carpenter-turned-farmer are feeding Kenya one seedling at a time.",
-   "kind": "item",
-   "source": "Nation Africa: Kenya business",
-   "source_id": "ke-nation-business",
-   "tier": 2,
-   "country": "KE",
-   "category": "press",
-   "segments": [
-    "city",
-    "bush",
-    "beach"
-   ],
-   "first_seen": "2026-11-21T23:56+03:00",
-   "published": "2026-11-21",
-   "verdict": "weak"
-  },
-  {
-   "score": 58.2,
-   "components": {
-    "tier": 5,
-    "category": 5,
-    "lead": 2.4,
-    "relevance": 16,
+    "relevance": 0,
     "freshness": 19.8,
-    "corroborated": 10
+    "corroborated": 10,
+    "shock": 18
    },
-   "keywords": [
-    "vat",
-    "beach",
-    "guest"
+   "keywords": [],
+   "shock_terms": [
+    "explosion"
    ],
-   "shock_terms": [],
    "dedupe_match": null,
-   "dedupe_similarity": 0.17,
-   "id": "707711e1193b",
-   "title": "Princess Cruises Makes Big Change to Drink Packages at Two Bahamas Private Islands",
-   "url": "https://www.travelandtourworld.com/news/article/nzdzrnk5frf7",
-   "summary": "Image Credit - Princess Cruises Princess Cruises is expanding its Princess Plus and Princess Premier drink package benefits to two destinations in The Bahamas, allowing eligible guests to use selected prepaid beverage privileges beyond their ships. The expansion covers RelaxAway, Half Moon Cay and Celebration Key, where qualifying drinks will become available at participating locations from 1 Febr",
-   "kind": "item",
-   "source": "Travel And Tour World",
-   "source_id": "gl-travelandtourworld",
-   "tier": 3,
-   "country": "GLOBAL",
-   "category": "trade",
-   "segments": [
-    "city",
-    "bush",
-    "beach"
-   ],
-   "first_seen": "2026-11-22T04:57+03:00",
-   "published": "2026-11-22",
-   "verdict": "weak"
-  },
-  {
-   "score": 58.2,
-   "components": {
-    "tier": 5,
-    "category": 5,
-    "lead": 2.4,
-    "relevance": 16,
-    "freshness": 19.8,
-    "corroborated": 10
-   },
-   "keywords": [
-    "hotel",
-    "tourism",
-    "beach",
-    "operator"
-   ],
-   "shock_terms": [],
-   "dedupe_match": null,
-   "dedupe_similarity": 0.17,
-   "id": "a034be8c7b54",
-   "title": "Morocco\u2019s Dakhla Set to Steal the Spotlight with Historic African Tourism Film Awards",
-   "url": "https://www.travelandtourworld.com/news/article/c9g060bevjft",
-   "summary": "Dakhla can make great gains following the inaugural holding of the World Tourism Film Awards in Africa. The global tourism event will take place between 1-3 rd December 2026 and will bring together film-makers, travel journalists and tourism experts from across the world to showcase the best tourism films from over 50 countries. As a destination known for its beautiful beaches, expansive desert la",
-   "kind": "item",
-   "source": "Travel And Tour World",
-   "source_id": "gl-travelandtourworld",
-   "tier": 3,
-   "country": "GLOBAL",
-   "category": "trade",
-   "segments": [
-    "city",
-    "bush",
-    "beach"
-   ],
-   "first_seen": "2026-11-22T04:57+03:00",
-   "published": "2026-11-22",
-   "verdict": "weak"
-  },
-  {
-   "score": 58.2,
-   "components": {
-    "tier": 5,
-    "category": 5,
-    "lead": 2.4,
-    "relevance": 16,
-    "freshness": 19.8,
-    "corroborated": 10
-   },
-   "keywords": [
-    "airport",
-    "airline",
-    "passenger"
-   ],
-   "shock_terms": [],
-   "dedupe_match": null,
-   "dedupe_similarity": 0.33,
-   "id": "32b8424adf94",
-   "title": "American Airlines Touchless ID Rules 2026 Reveal TSA PreCheck and Passport Requirements",
-   "url": "https://www.travelandtourworld.com/news/article/or3cj9de4m07",
-   "summary": "Image credit- American Airlines American Airlines is making airport security checks easier for eligible passengers through TSA PreCheck Touchless ID, but downloading the airline's mobile app is not enough to use the service. Travellers must meet specific requirements involving TSA PreCheck, valid passport information, AAdvantage registration and voluntary enrolment. The biometric service is now av",
-   "kind": "item",
-   "source": "Travel And Tour World",
-   "source_id": "gl-travelandtourworld",
-   "tier": 3,
-   "country": "GLOBAL",
-   "category": "trade",
-   "segments": [
-    "city",
-    "bush",
-    "beach"
-   ],
-   "first_seen": "2026-11-22T04:57+03:00",
-   "published": "2026-11-22",
-   "verdict": "weak"
-  },
-  {
-   "score": 58.1,
-   "components": {
-    "tier": 20,
-    "category": 4,
-    "lead": 2.4,
-    "relevance": 12,
-    "freshness": 9.7,
-    "corroborated": 10
-   },
-   "keywords": [
-    "fee",
-    "camp"
-   ],
-   "shock_terms": [],
-   "dedupe_match": null,
-   "dedupe_similarity": 0.25,
-   "id": "01b1638b9692",
-   "title": "NCBA, MTN launch Shs140 million campaign as MoKash marks 10 years",
-   "url": "https://www.independent.co.ug/ncba-mtn-launch-shs140-million-campaign-as-mokash-marks-10-years",
-   "summary": "MoKash borrowers pay a 9% facilitation fee on loans, while savings attract tiered interest rates of between 2% and 5%, depending on the amount saved Kampala, Uganda | THE INDEPENDENT | NCBA Bank Uganda and MTN Mobile Money Uganda have launched a Shs140 million rewards campaign to mark 10 years of MoKash, their mobile-based \u2026 The post NCBA, MTN launch Shs140 million campaign as MoKash marks 10 year",
-   "kind": "item",
-   "source": "The Independent (Uganda)",
-   "source_id": "ug-independent",
-   "tier": 2,
-   "country": "UG",
-   "category": "press",
-   "segments": [
-    "city",
-    "bush",
-    "beach"
-   ],
-   "first_seen": "2026-11-21T19:48+03:00",
-   "published": "2026-11-21",
-   "verdict": "weak"
-  },
-  {
-   "score": 58.1,
-   "components": {
-    "tier": 20,
-    "category": 4,
-    "lead": 2.4,
-    "relevance": 12,
-    "freshness": 9.7,
-    "corroborated": 10
-   },
-   "keywords": [
-    "eta",
-    "traffic"
-   ],
-   "shock_terms": [],
-   "dedupe_match": null,
-   "dedupe_similarity": 0.0,
-   "id": "087ee823c2e3",
-   "title": "NTSA, Police Launch Fresh Crackdown on PSVs, Trucks and Boda Bodas",
-   "url": "https://www.kenyans.co.ke/news/129576-several-vehicles-impounded-ntsa-nps-intensify-nationwide-traffic-crackdown",
-   "summary": "The multi-agency teams intercepted and detained several vehicles over different traffic violations as officers moved to identify motorists failing to comply.",
+   "dedupe_similarity": 0.11,
+   "id": "eb465ebd8d2e",
+   "title": "Gas Explosion Reported as Fire Razes Down Homes, Businesses in Nairobi",
+   "url": "https://www.kenyans.co.ke/news/129577-hundreds-affected-night-fire-engulfs-building-kangemi",
+   "summary": "The incident raises concerns over the cause of fire incidents in informal settlements which have been prone to such incidents lately.",
    "kind": "item",
    "source": "Kenyans.co.ke news",
    "source_id": "ke-kenyans",
@@ -986,68 +247,147 @@
     "bush",
     "beach"
    ],
-   "first_seen": "2026-11-21T19:48+03:00",
-   "published": "2026-11-21",
-   "verdict": "weak"
+   "first_seen": "2026-11-22T12:32+03:00",
+   "published": "2026-11-22",
+   "verdict": "CONSIDER"
   },
   {
-   "score": 58.1,
+   "score": 71.8,
    "components": {
-    "tier": 20,
-    "category": 4,
-    "lead": 2.4,
-    "relevance": 12,
-    "freshness": 9.7,
-    "corroborated": 10
+    "tier": 40,
+    "category": 16,
+    "lead": 6.0,
+    "relevance": 0,
+    "freshness": 19.8,
+    "undated": -6,
+    "page_change": -4
    },
-   "keywords": [
-    "collapse"
-   ],
+   "keywords": [],
    "shock_terms": [],
    "dedupe_match": null,
-   "dedupe_similarity": 0.0,
-   "id": "b56e266cab13",
-   "title": "Sakaja\u2019s chief of staff, advisor snub MCA summons over Eastleigh building collapse",
-   "url": "https://nation.africa/kenya/counties/nairobi/sakaja-s-chief-of-staff-advisor-snub-mca-summons-over-eastleigh-building-collapse-5679202",
-   "summary": "The committee heard that documents presented to the National Construction Authority were...",
-   "kind": "item",
-   "source": "Nation Africa: Kenya business",
-   "source_id": "ke-nation-business",
-   "tier": 2,
-   "country": "KE",
-   "category": "press",
+   "dedupe_similarity": 0.14,
+   "id": "41c65391a26e",
+   "title": "[page changed] Ethiopian Statistical Service (ESS)",
+   "url": "https://www.ess.gov.et/",
+   "summary": "Web Client Loading... Loading Error.Please refresh the page. You cannot access the system due to the Internet Explorer's security settings. Enter Internet Options > Security, uncheck Enable Protected Mode, and restart the Internet Explorer to try again. Error code:",
+   "kind": "page-change",
+   "source": "Ethiopian Statistical Service (ESS)",
+   "source_id": "et-ess",
+   "tier": 1,
+   "country": "ET",
+   "category": "statistics",
    "segments": [
     "city",
     "bush",
     "beach"
    ],
-   "first_seen": "2026-11-21T19:48+03:00",
-   "published": "2026-11-21",
-   "verdict": "weak"
+   "first_seen": "2026-11-22T12:34+03:00",
+   "published": null,
+   "verdict": "CONSIDER"
   },
   {
-   "score": 56.7,
+   "score": 70.2,
    "components": {
     "tier": 5,
     "category": 5,
     "lead": 2.4,
-    "relevance": 20,
-    "freshness": 14.3,
+    "relevance": 28,
+    "freshness": 19.8,
+    "corroborated": 10
+   },
+   "keywords": [
+    "charter",
+    "hotel",
+    "tourism",
+    "tourist",
+    "beach",
+    "flight"
+   ],
+   "shock_terms": [],
+   "dedupe_match": null,
+   "dedupe_similarity": 0.0,
+   "id": "0832ca80a703",
+   "title": "Cyprus, Italy And More In Strategic Rush For Honeymoon Tourism Gold",
+   "url": "https://www.travelandtourworld.com/news/article/82z906q6a62j",
+   "summary": "Cyprus, Italy, and international competitors hurry to capitalize on a rapidly developing honeymoon tourism market worth around \u20ac250B by 2035. There is a significant structural change going on in the world\u2019s travel industry at the moment. In the past decades, success in the work of national tourism boards was estimated solely in terms of the number of people traveling\u2014filled charter flights, summer",
+   "kind": "item",
+   "source": "Travel And Tour World",
+   "source_id": "gl-travelandtourworld",
+   "tier": 3,
+   "country": "GLOBAL",
+   "category": "trade",
+   "segments": [
+    "city",
+    "bush",
+    "beach"
+   ],
+   "first_seen": "2026-11-22T12:32+03:00",
+   "published": "2026-11-22",
+   "verdict": "CONSIDER"
+  },
+  {
+   "score": 70.2,
+   "components": {
+    "tier": 5,
+    "category": 5,
+    "lead": 2.4,
+    "relevance": 28,
+    "freshness": 19.8,
+    "corroborated": 10
+   },
+   "keywords": [
+    "fee",
+    "eta",
+    "tourism",
+    "beach",
+    "flight"
+   ],
+   "shock_terms": [],
+   "dedupe_match": null,
+   "dedupe_similarity": 0.2,
+   "id": "26eea8d0f912",
+   "title": "Canada Puts Small Towns At The Heart Of Winter Tourism With The Holiday Train Run",
+   "url": "https://www.travelandtourworld.com/news/article/1q3xzqs06i2j",
+   "summary": "In Canada, it's all about small towns this winter with the shining CPKC Holiday Train traveling down the tracks. When early frost arrives in November, the traditional winter getaway plan always follows the same pattern: either busy alpine ski destinations or southbound flights to warm beaches. In North American rail corridors, a 1,000-feet shining strip of steel is rethinking this pattern. With th",
+   "kind": "item",
+   "source": "Travel And Tour World",
+   "source_id": "gl-travelandtourworld",
+   "tier": 3,
+   "country": "GLOBAL",
+   "category": "trade",
+   "segments": [
+    "city",
+    "bush",
+    "beach"
+   ],
+   "first_seen": "2026-11-22T12:32+03:00",
+   "published": "2026-11-22",
+   "verdict": "CONSIDER"
+  },
+  {
+   "score": 66.2,
+   "components": {
+    "tier": 5,
+    "category": 5,
+    "lead": 2.4,
+    "relevance": 24,
+    "freshness": 19.8,
     "corroborated": 10
    },
    "keywords": [
     "vat",
     "hotel",
-    "opening",
+    "resort",
+    "beach",
     "rooms"
    ],
    "shock_terms": [],
    "dedupe_match": null,
-   "dedupe_similarity": 0.14,
-   "id": "3ebf31700663",
-   "title": "Wyndham Grand Cap Cana Unveils a Stunning $390K Caribbean Luxury Escape for 2029",
-   "url": "https://www.travelandtourworld.com/news/article/wngdm4cxtfth",
-   "summary": "The Wyndham Grand Cap Cana is preparing to unveil a stunning new chapter in Caribbean luxury travel, attracting attention with its planned 2029 opening and residences starting at $390K. This stunning luxury escape will bring 118 hotel rooms and 92 exclusive residences to the Dominican Republic. Moreover, Wyndham Grand Cap Cana promises an exciting combination of private lagoon experiences, rooftop",
+   "dedupe_similarity": 0.17,
+   "id": "009d6d0e0efa",
+   "title": "Qatar Hotel Guide Explores Life on the Gulf in a New Look Inside 12 Doha and Lusail Hotels",
+   "url": "https://www.travelandtourworld.com/news/article/akuzp05uca88",
+   "summary": "Qatar received 336,000 visitors in October 2026, up from 276,000 in September. Travellers weighing Doha against Lusail can choose among five-star stays in different settings. At the end of 2025, almost half the country\u2019s rooms fell into that category, from city hotels near the old market to resorts with private beaches. This Hotel Guide compares 12 operating properties for winter stays. It covers ",
    "kind": "item",
    "source": "Travel And Tour World",
    "source_id": "gl-travelandtourworld",
@@ -1059,349 +399,34 @@
     "bush",
     "beach"
    ],
-   "first_seen": "2026-11-21T23:56+03:00",
-   "published": "2026-11-21",
-   "verdict": "weak"
-  },
-  {
-   "score": 56.7,
-   "components": {
-    "tier": 5,
-    "category": 5,
-    "lead": 2.4,
-    "relevance": 20,
-    "freshness": 14.3,
-    "corroborated": 10
-   },
-   "keywords": [
-    "arrivals",
-    "hotel",
-    "tourism",
-    "conference"
-   ],
-   "shock_terms": [],
-   "dedupe_match": null,
-   "dedupe_similarity": 0.22,
-   "id": "06f42cda7967",
-   "title": "Ghana Targets Global Travellers With $1 Billion Push for Conferences and Culture",
-   "url": "https://www.travelandtourworld.com/news/article/zqqdge9t6hni",
-   "summary": "Ghana targets global travellers with a proposed $1 billion push for conferences and culture, aiming to strengthen international tourism, attract business visitors and showcase its rich heritage. Under the government's 2027\u20132030 development strategy, the West African nation plans to invest in convention facilities, luxury hotels, cultural attractions and regional tourism infrastructure. The initiat",
-   "kind": "item",
-   "source": "Travel And Tour World",
-   "source_id": "gl-travelandtourworld",
-   "tier": 3,
-   "country": "GLOBAL",
-   "category": "trade",
-   "segments": [
-    "city",
-    "bush",
-    "beach"
-   ],
-   "first_seen": "2026-11-21T23:56+03:00",
-   "published": "2026-11-21",
-   "verdict": "weak"
-  },
-  {
-   "score": 56.2,
-   "components": {
-    "tier": 20,
-    "category": 4,
-    "lead": 2.4,
-    "relevance": 0,
-    "freshness": 19.8,
-    "corroborated": 10
-   },
-   "keywords": [],
-   "shock_terms": [],
-   "dedupe_match": null,
-   "dedupe_similarity": 0.0,
-   "id": "f542d9b6fcda",
-   "title": "Let\u2019s all put our country first",
-   "url": "https://nation.africa/kenya/blogs-opinion/opinion/let-all-put-our-country-first-5679422",
-   "summary": "Let\u2019s fight for power, but not forget that we have a country to keep.",
-   "kind": "item",
-   "source": "Nation Africa: Kenya business",
-   "source_id": "ke-nation-business",
-   "tier": 2,
-   "country": "KE",
-   "category": "press",
-   "segments": [
-    "city",
-    "bush",
-    "beach"
-   ],
-   "first_seen": "2026-11-22T04:57+03:00",
+   "first_seen": "2026-11-22T12:32+03:00",
    "published": "2026-11-22",
    "verdict": "weak"
   },
   {
-   "score": 56.2,
+   "score": 64.2,
    "components": {
     "tier": 20,
     "category": 4,
     "lead": 2.4,
-    "relevance": 0,
-    "freshness": 19.8,
-    "corroborated": 10
-   },
-   "keywords": [],
-   "shock_terms": [],
-   "dedupe_match": null,
-   "dedupe_similarity": 0.17,
-   "id": "99fb214f64c4",
-   "title": "Patronage vs merit: Who wins in Kenya?",
-   "url": "https://nation.africa/kenya/blogs-opinion/opinion/patronage-vs-merit-who-wins-in-kenya--5679626",
-   "summary": "Do we want a leader who gives us something, or one who builds something for everyone?",
-   "kind": "item",
-   "source": "Nation Africa: Kenya business",
-   "source_id": "ke-nation-business",
-   "tier": 2,
-   "country": "KE",
-   "category": "press",
-   "segments": [
-    "city",
-    "bush",
-    "beach"
-   ],
-   "first_seen": "2026-11-22T04:57+03:00",
-   "published": "2026-11-22",
-   "verdict": "weak"
-  },
-  {
-   "score": 56.2,
-   "components": {
-    "tier": 20,
-    "category": 4,
-    "lead": 2.4,
-    "relevance": 0,
-    "freshness": 19.8,
-    "corroborated": 10
-   },
-   "keywords": [],
-   "shock_terms": [],
-   "dedupe_match": null,
-   "dedupe_similarity": 0.0,
-   "id": "12a323603b09",
-   "title": "Slash MPs\u2019 fat pay first to start fixing this country",
-   "url": "https://nation.africa/kenya/blogs-opinion/opinion/slash-mps-fat-pay-first-to-start-fixing-this-country--5679624",
-   "summary": "Our 416 legislators have turned representation into one of the most lucrative careers on earth.",
-   "kind": "item",
-   "source": "Nation Africa: Kenya business",
-   "source_id": "ke-nation-business",
-   "tier": 2,
-   "country": "KE",
-   "category": "press",
-   "segments": [
-    "city",
-    "bush",
-    "beach"
-   ],
-   "first_seen": "2026-11-22T04:57+03:00",
-   "published": "2026-11-22",
-   "verdict": "weak"
-  },
-  {
-   "score": 56.2,
-   "components": {
-    "tier": 20,
-    "category": 4,
-    "lead": 2.4,
-    "relevance": 0,
-    "freshness": 19.8,
-    "corroborated": 10
-   },
-   "keywords": [],
-   "shock_terms": [],
-   "dedupe_match": null,
-   "dedupe_similarity": 0.0,
-   "id": "6df20bc11574",
-   "title": "Women could make up 50 pc of elected leaders in next year\u2019s polls",
-   "url": "https://nation.africa/kenya/blogs-opinion/blogs/women-could-make-up-50-pc-of-elected-leaders-next-year-polls-5679784",
-   "summary": "The Constitution envisioned equal participation of women and men in governance.",
-   "kind": "item",
-   "source": "Nation Africa: Kenya business",
-   "source_id": "ke-nation-business",
-   "tier": 2,
-   "country": "KE",
-   "category": "press",
-   "segments": [
-    "city",
-    "bush",
-    "beach"
-   ],
-   "first_seen": "2026-11-22T04:57+03:00",
-   "published": "2026-11-22",
-   "verdict": "weak"
-  },
-  {
-   "score": 55.7,
-   "components": {
-    "tier": 20,
-    "category": 4,
-    "lead": 0.0,
-    "relevance": 24,
-    "freshness": 13.7,
-    "undated": -6
-   },
-   "keywords": [
-    "eta",
-    "seat",
-    "election"
-   ],
-   "shock_terms": [],
-   "dedupe_match": null,
-   "dedupe_similarity": 0.0,
-   "id": "b2c864290b8e",
-   "title": "Elections: Karongi, Rubavu mayors retain district council seats",
-   "url": "https://www.newtimes.co.rw/article/40633/news/politics/elections-karongi-rubavu-mayors-retain-district-council-seats",
-   "summary": "",
-   "kind": "item",
-   "source": "The New Times (Rwanda)",
-   "source_id": "np-newtimes-rw",
-   "tier": 2,
-   "country": "RW",
-   "category": "press",
-   "segments": [
-    "city",
-    "bush",
-    "beach"
-   ],
-   "first_seen": "2026-11-21T23:25+03:00",
-   "published": null,
-   "verdict": "weak"
-  },
-  {
-   "score": 55.7,
-   "components": {
-    "tier": 20,
-    "category": 4,
-    "lead": 0.0,
-    "relevance": 24,
-    "freshness": 13.7,
-    "undated": -6
-   },
-   "keywords": [
-    "tax",
-    "fee",
-    "airport"
-   ],
-   "shock_terms": [],
-   "dedupe_match": null,
-   "dedupe_similarity": 0.17,
-   "id": "3866e943a581",
-   "title": "Economy KAA proposes new airport access fees for taxis Nov 19 - 4 min read",
-   "url": "https://www.businessdailyafrica.com/bd/economy/kaa-proposes-new-airport-access-fees-for-taxis-5677470",
-   "summary": "",
-   "kind": "item",
-   "source": "Business Daily Africa",
-   "source_id": "np-businessdaily",
-   "tier": 2,
-   "country": "KE",
-   "category": "press",
-   "segments": [
-    "city",
-    "bush",
-    "beach"
-   ],
-   "first_seen": "2026-11-21T23:25+03:00",
-   "published": null,
-   "verdict": "weak"
-  },
-  {
-   "score": 55.7,
-   "components": {
-    "tier": 20,
-    "category": 4,
-    "lead": 0.0,
     "relevance": 8,
-    "freshness": 13.7,
+    "freshness": 19.8,
     "corroborated": 10
    },
    "keywords": [
-    "eta"
-   ],
-   "shock_terms": [],
-   "dedupe_match": null,
-   "dedupe_similarity": 0.11,
-   "id": "85583bbcce6a",
-   "title": "Akasoba Zainab Duke-Abiola, mni: The African woman for a new UN consensus",
-   "url": "https://dailynews.co.tz/akasoba-zainab-duke-abiola-mni-the-african-woman-for-a-new-un-consensus",
-   "summary": "Washington\u2019s Openness, Russia\u2019s Diplomatic Flexibility and Eight Inconclusive Security Council Polls Present a New Opportunity for African Leadership The contest for the tenth United Nations Secretary-General has entered a defining phase. Eight Security Council straw polls, two late nominations and significant diplomatic statements from Washington and Moscow have reinforced an important reality: t",
-   "kind": "item",
-   "source": "Daily News (Tanzania)",
-   "source_id": "np-dailynews-tz",
-   "tier": 2,
-   "country": "TZ",
-   "category": "press",
-   "segments": [
-    "city",
-    "bush",
+    "resort",
     "beach"
    ],
-   "first_seen": "2026-11-21T23:25+03:00",
-   "published": "2026-11-21",
-   "verdict": "weak"
-  },
-  {
-   "score": 55.7,
-   "components": {
-    "tier": 20,
-    "category": 4,
-    "lead": 0.0,
-    "relevance": 8,
-    "freshness": 13.7,
-    "corroborated": 10
-   },
-   "keywords": [
-    "adr"
-   ],
    "shock_terms": [],
    "dedupe_match": null,
-   "dedupe_similarity": 0.0,
-   "id": "84909dd969b1",
-   "title": "892 graduates of CUHAS cadre pledge to observe ethics, dignity",
-   "url": "https://dailynews.co.tz/892-graduates-of-cuhas-cadre-pledge-to-observe-ethics-dignity",
-   "summary": "MWANZA: 892 graduates of the Catholic University of Health Sciences Bugando (CUHAS) have been instructed to adhere to ethics, dignity and integrity in the provision of health services. The call was made today by the Bishop of the Catholic Diocese of Rulenge-Ngara, Mr Severine Niwemugizi, during the 19th graduation of the college held in Mwanza, \u2026 The post 892 graduates of CUHAS cadre pledge to obs",
+   "dedupe_similarity": 0.29,
+   "id": "5a2cc4e233ea",
+   "title": "ALL SET: iKON holds annual luncheon to recognize 2026 nominees",
+   "url": "https://www.independent.co.ug/all-set-ikon-holds-annual-luncheon-to-recognize-2026-nominees",
+   "summary": "Kampala, Uganda | NEWS CORRESPONDENT | Ahead of Africa\u2019s most prestigious Awards ceremony, the iKON Awards held the annual iKON Nominee Luncheon to recognise finalists of the 4th iKON Awards. The luncheon was held on 21 November at Divine Resort Beach in Mukono. All 121 nominees, including international contenders, were honoured with certificates of recognition for \u2026 The post ALL SET: iKON holds a",
    "kind": "item",
-   "source": "Daily News (Tanzania)",
-   "source_id": "np-dailynews-tz",
-   "tier": 2,
-   "country": "TZ",
-   "category": "press",
-   "segments": [
-    "city",
-    "bush",
-    "beach"
-   ],
-   "first_seen": "2026-11-21T23:25+03:00",
-   "published": "2026-11-21",
-   "verdict": "weak"
-  },
-  {
-   "score": 54.7,
-   "components": {
-    "tier": 20,
-    "category": 4,
-    "lead": 2.4,
-    "relevance": 20,
-    "freshness": 14.3,
-    "undated": -6
-   },
-   "keywords": [
-    "vat",
-    "gorilla",
-    "tourism"
-   ],
-   "shock_terms": [],
-   "dedupe_match": null,
-   "dedupe_similarity": 0.0,
-   "id": "16eef76bce63",
-   "title": "Kisoro Launches Gorilla Marathon to Link Sport, Tourism and Conservation",
-   "url": "https://nilepost.co.ug/tourism/389420/kisoro-launches-gorilla-marathon-to-link-sport-tourism-and-conservation",
-   "summary": "",
-   "kind": "item",
-   "source": "Nile Post (Uganda)",
-   "source_id": "ug-nilepost",
+   "source": "The Independent (Uganda)",
+   "source_id": "ug-independent",
    "tier": 2,
    "country": "UG",
    "category": "press",
@@ -1410,32 +435,173 @@
     "bush",
     "beach"
    ],
-   "first_seen": "2026-11-21T23:56+03:00",
-   "published": null,
+   "first_seen": "2026-11-22T12:32+03:00",
+   "published": "2026-11-22",
    "verdict": "weak"
   },
   {
-   "score": 54.2,
+   "score": 64.2,
    "components": {
-    "tier": 5,
-    "category": 5,
+    "tier": 20,
+    "category": 4,
     "lead": 2.4,
-    "relevance": 12,
+    "relevance": 8,
     "freshness": 19.8,
     "corroborated": 10
    },
    "keywords": [
-    "camp",
-    "booking",
-    "guest"
+    "eta"
    ],
    "shock_terms": [],
    "dedupe_match": null,
-   "dedupe_similarity": 0.17,
-   "id": "feab87710b54",
-   "title": "Windstar Cruises Launches Huge 2027 Cruise Deals with Free All-Inclusive Upgrades",
-   "url": "https://www.travelandtourworld.com/news/article/nemada80i54x",
-   "summary": "Image Credit - Windstar Cruise Windstar Cruises has introduced its Thankful for Travel 2026 promotion, offering complimentary All-Inclusive packages, US$300 onboard credit per stateroom and reduced deposits on eligible voyages through 31 March 2028. The booking campaign opened on 18 November and runs until 2 December 2026. According to Windstar Cruises' official promotional terms, the complimentar",
+   "dedupe_similarity": 0.14,
+   "id": "d967c26a9ada",
+   "title": "Stanbic Bank is Uganda\u2019s Bank of the Year again",
+   "url": "https://www.independent.co.ug/stanbic-bank-still-ugandas-bank-of-the-year",
+   "summary": "Stanbic Bank Retains Bank of the Year Title, Scoops Four Honours at Annual Bankers\u2019 Awards Kampala, Uganda | NEWS CORRESPONDENT | Stanbic Bank Uganda has reaffirmed its position as one of the country\u2019s leading financial institutions after retaining the Bank of the Year title for the second consecutive year at the 2nd \u2026 The post Stanbic Bank is Uganda\u2019s Bank of the Year again appeared first on The ",
+   "kind": "item",
+   "source": "The Independent (Uganda)",
+   "source_id": "ug-independent",
+   "tier": 2,
+   "country": "UG",
+   "category": "press",
+   "segments": [
+    "city",
+    "bush",
+    "beach"
+   ],
+   "first_seen": "2026-11-22T12:32+03:00",
+   "published": "2026-11-22",
+   "verdict": "weak"
+  },
+  {
+   "score": 64.2,
+   "components": {
+    "tier": 20,
+    "category": 4,
+    "lead": 2.4,
+    "relevance": 8,
+    "freshness": 19.8,
+    "corroborated": 10
+   },
+   "keywords": [
+    "eta"
+   ],
+   "shock_terms": [],
+   "dedupe_match": null,
+   "dedupe_similarity": 0.33,
+   "id": "45550fa9eda4",
+   "title": "Ruto Flies Out as Details of Congo Trip Emerge",
+   "url": "https://www.kenyans.co.ke/news/129580-ruto-jets-out-congo-meeting-amid-tensions-between-kenya-and-drc",
+   "summary": "The President quietly left Kenya on Saturday, November 21, after concluding his engagements in Western Kenya.",
+   "kind": "item",
+   "source": "Kenyans.co.ke news",
+   "source_id": "ke-kenyans",
+   "tier": 2,
+   "country": "KE",
+   "category": "press",
+   "segments": [
+    "city",
+    "bush",
+    "beach"
+   ],
+   "first_seen": "2026-11-22T12:32+03:00",
+   "published": "2026-11-22",
+   "verdict": "weak"
+  },
+  {
+   "score": 64.2,
+   "components": {
+    "tier": 20,
+    "category": 4,
+    "lead": 2.4,
+    "relevance": 8,
+    "freshness": 19.8,
+    "corroborated": 10
+   },
+   "keywords": [
+    "election"
+   ],
+   "shock_terms": [],
+   "dedupe_match": null,
+   "dedupe_similarity": 0.14,
+   "id": "89b58dfd977e",
+   "title": "Opposition within opposition? How third power bloc is taking shape ahead of 2027 elections",
+   "url": "https://nation.africa/kenya/news/politics/opposition-within-opposition-how-third-power-bloc-is-taking-shape-ahead-of-2027-elections-5679766",
+   "summary": "Gachagua and Matiang\u2019i have in recent days traded barbs.",
+   "kind": "item",
+   "source": "Nation Africa: Kenya business",
+   "source_id": "ke-nation-business",
+   "tier": 2,
+   "country": "KE",
+   "category": "press",
+   "segments": [
+    "city",
+    "bush",
+    "beach"
+   ],
+   "first_seen": "2026-11-22T12:32+03:00",
+   "published": "2026-11-22",
+   "verdict": "weak"
+  },
+  {
+   "score": 64.2,
+   "components": {
+    "tier": 20,
+    "category": 4,
+    "lead": 2.4,
+    "relevance": 8,
+    "freshness": 19.8,
+    "corroborated": 10
+   },
+   "keywords": [
+    "capacity"
+   ],
+   "shock_terms": [],
+   "dedupe_match": null,
+   "dedupe_similarity": 0.0,
+   "id": "49962d948fb5",
+   "title": "Enhance justice delivery",
+   "url": "https://nation.africa/kenya/blogs-opinion/editorials/enhance-justice-delivery--5679798",
+   "summary": "Capacity to boost delivery of justice should be enhanced countrywide.",
+   "kind": "item",
+   "source": "Nation Africa: Kenya business",
+   "source_id": "ke-nation-business",
+   "tier": 2,
+   "country": "KE",
+   "category": "press",
+   "segments": [
+    "city",
+    "bush",
+    "beach"
+   ],
+   "first_seen": "2026-11-22T12:32+03:00",
+   "published": "2026-11-22",
+   "verdict": "weak"
+  },
+  {
+   "score": 62.2,
+   "components": {
+    "tier": 5,
+    "category": 5,
+    "lead": 2.4,
+    "relevance": 20,
+    "freshness": 19.8,
+    "corroborated": 10
+   },
+   "keywords": [
+    "vat",
+    "hotel",
+    "resort",
+    "beach"
+   ],
+   "shock_terms": [],
+   "dedupe_match": null,
+   "dedupe_similarity": 0.14,
+   "id": "532592c11b99",
+   "title": "United Kingdom With More Travel Choices as Qatar Showcases 12 Luxury Hotels in Doha",
+   "url": "https://www.travelandtourworld.com/news/article/cazo5uwgpu2g",
+   "summary": "Image Source: Government Communication Office The United Kingdom has more travel choices as Qatar showcases 12 luxury hotels in Doha and its surrounding coastal destinations, offering European visitors a wider range of premium accommodation. Travellers from Belgium and the Netherlands can also explore beachfront resorts, private island retreats, family-friendly hotels and sophisticated city proper",
    "kind": "item",
    "source": "Travel And Tour World",
    "source_id": "gl-travelandtourworld",
@@ -1447,7 +613,780 @@
     "bush",
     "beach"
    ],
-   "first_seen": "2026-11-22T04:57+03:00",
+   "first_seen": "2026-11-22T12:32+03:00",
+   "published": "2026-11-22",
+   "verdict": "weak"
+  },
+  {
+   "score": 62.2,
+   "components": {
+    "tier": 5,
+    "category": 5,
+    "lead": 2.4,
+    "relevance": 20,
+    "freshness": 19.8,
+    "corroborated": 10
+   },
+   "keywords": [
+    "vat",
+    "wildlife",
+    "tourism"
+   ],
+   "shock_terms": [],
+   "dedupe_match": null,
+   "dedupe_similarity": 0.1,
+   "id": "ca102959f97b",
+   "title": "China Haifeng Wetlands Welcomes Rare Spoonbills as Wildlife Tourism Attracts Travellers",
+   "url": "https://www.travelandtourworld.com/news/article/8pa6f3zl5k9a",
+   "summary": "China\u2019s Guangdong Province has become an exciting location for winter bird watching. The Haifeng Wetlands were the scene of 462 black-faced spoonbills in 2026. The growth of 27 birds in 2004 to 462 in 2026 shows how nature conservation efforts are yielding positive results and getting nature lovers attracted to this place. The arrival of thousands of migratory birds, the presence of protected coas",
+   "kind": "item",
+   "source": "Travel And Tour World",
+   "source_id": "gl-travelandtourworld",
+   "tier": 3,
+   "country": "GLOBAL",
+   "category": "trade",
+   "segments": [
+    "city",
+    "bush",
+    "beach"
+   ],
+   "first_seen": "2026-11-22T12:32+03:00",
+   "published": "2026-11-22",
+   "verdict": "weak"
+  },
+  {
+   "score": 61.8,
+   "components": {
+    "tier": 20,
+    "category": 4,
+    "lead": 0.0,
+    "relevance": 8,
+    "freshness": 19.8,
+    "corroborated": 10
+   },
+   "keywords": [
+    "vat"
+   ],
+   "shock_terms": [],
+   "dedupe_match": null,
+   "dedupe_similarity": 0.11,
+   "id": "a21bd327a632",
+   "title": "Nairobi eyes global tech, crypto listings to boost market depth after MSCI inclusion",
+   "url": "https://www.theeastafrican.co.ke/tea/business-tech/nairobi-eyes-global-tech-crypto-listings-5679016",
+   "summary": "Landmark recognition elevates NSE\u2019s profile, charging its drive to attract international...",
+   "kind": "item",
+   "source": "The EastAfrican",
+   "source_id": "np-eastafrican",
+   "tier": 2,
+   "country": "REG",
+   "category": "press",
+   "segments": [
+    "city",
+    "bush",
+    "beach"
+   ],
+   "first_seen": "2026-11-22T12:32+03:00",
+   "published": "2026-11-22",
+   "verdict": "weak"
+  },
+  {
+   "score": 60.2,
+   "components": {
+    "tier": 20,
+    "category": 4,
+    "lead": 2.4,
+    "relevance": 4,
+    "freshness": 19.8,
+    "corroborated": 10
+   },
+   "keywords": [
+    "signing"
+   ],
+   "shock_terms": [],
+   "dedupe_match": null,
+   "dedupe_similarity": 0.14,
+   "id": "5f1c0210483a",
+   "title": "Uganda signs crude oil marketing deal with Vitol ahead of first exports",
+   "url": "https://www.independent.co.ug/uganda-signs-crude-oil-marketing-deal-with-vitol-ahead-of-first-exports",
+   "summary": "Kampala, Uganda | URN | Uganda has signed a crude oil marketing agreement with international energy trading company Vitol, paving the way for the country to sell its crude oil on the international market as preparations for commercial production enter the final stages. President Yoweri Kaguta Museveni witnessed the signing ceremony between the government, represented by \u2026 The post Uganda signs cru",
+   "kind": "item",
+   "source": "The Independent (Uganda)",
+   "source_id": "ug-independent",
+   "tier": 2,
+   "country": "UG",
+   "category": "press",
+   "segments": [
+    "city",
+    "bush",
+    "beach"
+   ],
+   "first_seen": "2026-11-22T12:32+03:00",
+   "published": "2026-11-22",
+   "verdict": "weak"
+  },
+  {
+   "score": 60.2,
+   "components": {
+    "tier": 20,
+    "category": 4,
+    "lead": 2.4,
+    "relevance": 4,
+    "freshness": 19.8,
+    "corroborated": 10
+   },
+   "keywords": [
+    "investment"
+   ],
+   "shock_terms": [],
+   "dedupe_match": null,
+   "dedupe_similarity": 0.17,
+   "id": "809aa7d7a3a9",
+   "title": "Inside Kenya\u2019s booming Sh1 trillion shadow economy",
+   "url": "https://nation.africa/kenya/business/inside-kenya-s-booming-sh1-trillion-shadow-economy-5679820",
+   "summary": "Illicit trade racket bleeds the country of revenue, jobs and investment.",
+   "kind": "item",
+   "source": "Nation Africa: Kenya business",
+   "source_id": "ke-nation-business",
+   "tier": 2,
+   "country": "KE",
+   "category": "press",
+   "segments": [
+    "city",
+    "bush",
+    "beach"
+   ],
+   "first_seen": "2026-11-22T12:32+03:00",
+   "published": "2026-11-22",
+   "verdict": "weak"
+  },
+  {
+   "score": 57.8,
+   "components": {
+    "tier": 20,
+    "category": 4,
+    "lead": 0.0,
+    "relevance": 4,
+    "freshness": 19.8,
+    "corroborated": 10
+   },
+   "keywords": [
+    "summit"
+   ],
+   "shock_terms": [],
+   "dedupe_match": null,
+   "dedupe_similarity": 0.11,
+   "id": "bbd198bc045c",
+   "title": "Wole Bakare challenges African collectors to invest in artists at State of Art Summit 2026",
+   "url": "https://www.monitor.co.ug/uganda/lifestyle/reviews-profiles/wole-bakare-challenges-african-collectors-to-invest-in-artists-at-state-of-art-summit-2026-5679858",
+   "summary": "African art collector Wole Bakare urges Africans to invest in artists, strengthen art...",
+   "kind": "item",
+   "source": "Daily Monitor (Uganda)",
+   "source_id": "np-monitor-ug",
+   "tier": 2,
+   "country": "UG",
+   "category": "press",
+   "segments": [
+    "city",
+    "bush",
+    "beach"
+   ],
+   "first_seen": "2026-11-22T12:32+03:00",
+   "published": "2026-11-22",
+   "verdict": "weak"
+  },
+  {
+   "score": 57.8,
+   "components": {
+    "tier": 20,
+    "category": 4,
+    "lead": 0.0,
+    "relevance": 4,
+    "freshness": 19.8,
+    "corroborated": 10
+   },
+   "keywords": [
+    "exhibition"
+   ],
+   "shock_terms": [],
+   "dedupe_match": null,
+   "dedupe_similarity": 0.0,
+   "id": "38fdbc7588bc",
+   "title": "Membe Lukenge celebrated posthumously in retrospective art exhibition at Weganda Gallery",
+   "url": "https://www.monitor.co.ug/uganda/lifestyle/reviews-profiles/membe-lukenge-celebrated-posthumously-in-retrospective-art-exhibition-at-weganda-gallery-5679718",
+   "summary": "Discover the legacy of Ugandan painter Wilson Membe Lukenge through Nabutono: A Woman's...",
+   "kind": "item",
+   "source": "Daily Monitor (Uganda)",
+   "source_id": "np-monitor-ug",
+   "tier": 2,
+   "country": "UG",
+   "category": "press",
+   "segments": [
+    "city",
+    "bush",
+    "beach"
+   ],
+   "first_seen": "2026-11-22T12:32+03:00",
+   "published": "2026-11-22",
+   "verdict": "weak"
+  },
+  {
+   "score": 56.2,
+   "components": {
+    "tier": 20,
+    "category": 4,
+    "lead": 2.4,
+    "relevance": 0,
+    "freshness": 19.8,
+    "corroborated": 10
+   },
+   "keywords": [],
+   "shock_terms": [],
+   "dedupe_match": null,
+   "dedupe_similarity": 0.12,
+   "id": "6dae0ee940ab",
+   "title": "Mexican forces arrest FBI-wanted fugitive \u201cChapo Isidro\u201d in Sinaloa",
+   "url": "https://www.independent.co.ug/mexican-forces-arrest-fbi-wanted-fugitive-chapo-isidro-in-sinaloa",
+   "summary": "MEXICO CITY | Xinhua | Mexican special forces have arrested Fausto Isidro Meza Flores, alias \u201cChapo Isidro,\u201d who is on the U.S. Federal Bureau of Investigation (FBI)\u2019s list of 10 Most Wanted Fugitives, Mexico\u2019s Ministry of National Defense (Sedena) said Saturday. In a statement, the ministry said the arrest took place Friday night in \u2026 The post Mexican forces arrest FBI-wanted fugitive \u201cChapo Isid",
+   "kind": "item",
+   "source": "The Independent (Uganda)",
+   "source_id": "ug-independent",
+   "tier": 2,
+   "country": "UG",
+   "category": "press",
+   "segments": [
+    "city",
+    "bush",
+    "beach"
+   ],
+   "first_seen": "2026-11-22T12:32+03:00",
+   "published": "2026-11-22",
+   "verdict": "weak"
+  },
+  {
+   "score": 56.2,
+   "components": {
+    "tier": 20,
+    "category": 4,
+    "lead": 2.4,
+    "relevance": 0,
+    "freshness": 19.8,
+    "corroborated": 10
+   },
+   "keywords": [],
+   "shock_terms": [],
+   "dedupe_match": null,
+   "dedupe_similarity": 0.14,
+   "id": "75023d2de665",
+   "title": "Kakooza and Kamulindwa take 28th Kinyara Open golf titles",
+   "url": "https://www.independent.co.ug/kakooza-and-kamulindwa-take-28th-kinyara-open-golf-titles",
+   "summary": "Kinyara, Uganda | PHILLIP CORRY | Abdullah Kakooza won his second tournament in a row, when he triumphed at the Kinyara Open on Friday. The Mary Louise Simpkins Memorial Golf Club member posted a 9-over-par 222 score to win the 28th Kinyara Open, well ahead of West Nile Golf Club\u2019s Boy Yasin who finished \u2026 The post Kakooza and Kamulindwa take 28th Kinyara Open golf titles appeared first on The Ind",
+   "kind": "item",
+   "source": "The Independent (Uganda)",
+   "source_id": "ug-independent",
+   "tier": 2,
+   "country": "UG",
+   "category": "press",
+   "segments": [
+    "city",
+    "bush",
+    "beach"
+   ],
+   "first_seen": "2026-11-22T12:32+03:00",
+   "published": "2026-11-22",
+   "verdict": "weak"
+  },
+  {
+   "score": 56.2,
+   "components": {
+    "tier": 20,
+    "category": 4,
+    "lead": 2.4,
+    "relevance": 0,
+    "freshness": 19.8,
+    "corroborated": 10
+   },
+   "keywords": [],
+   "shock_terms": [],
+   "dedupe_match": null,
+   "dedupe_similarity": 0.14,
+   "id": "759f898dc3a1",
+   "title": "Kiconco: Early financial planning and tailored dfcu banking solutions make businesses smarter",
+   "url": "https://www.independent.co.ug/kiconco-early-financial-planning-and-tailored-dfcu-banking-solutions-make-businesses-smarter",
+   "summary": "dfcu Urges Customers to Engage Banks Early to Finance Personal and Business Growth Kampala, Uganda | NEWS CORRESPONDENT | dfcu Bank has encouraged individuals and SMEs to engage their banks early when planning major financial decisions, noting that timely conversations can help customers identify suitable financing options, manage financial commitments, and seize growth opportunities. \u2026 The post K",
+   "kind": "item",
+   "source": "The Independent (Uganda)",
+   "source_id": "ug-independent",
+   "tier": 2,
+   "country": "UG",
+   "category": "press",
+   "segments": [
+    "city",
+    "bush",
+    "beach"
+   ],
+   "first_seen": "2026-11-22T12:32+03:00",
+   "published": "2026-11-22",
+   "verdict": "weak"
+  },
+  {
+   "score": 56.2,
+   "components": {
+    "tier": 20,
+    "category": 4,
+    "lead": 2.4,
+    "relevance": 0,
+    "freshness": 19.8,
+    "corroborated": 10
+   },
+   "keywords": [],
+   "shock_terms": [],
+   "dedupe_match": null,
+   "dedupe_similarity": 0.14,
+   "id": "c804085a91b6",
+   "title": "Tooro interim Prime Minister resigns amid Kingdom divisions",
+   "url": "https://www.independent.co.ug/tooro-interim-prime-minister-resigns-amid-kingdom-divisions",
+   "summary": "Fort Portal, Uganda | URN | The Interim Prime Minister of Tooro Kingdom, Calvin Armstrong Rwomiire Akiiki, has resigned, citing growing divisions within the Kingdom and the need for reconciliation and institutional stability. Rwomiire announced his resignation on Saturday in a statement posted on his official X account, saying he had formally submitted his resignation \u2026 The post Tooro interim Prim",
+   "kind": "item",
+   "source": "The Independent (Uganda)",
+   "source_id": "ug-independent",
+   "tier": 2,
+   "country": "UG",
+   "category": "press",
+   "segments": [
+    "city",
+    "bush",
+    "beach"
+   ],
+   "first_seen": "2026-11-22T12:32+03:00",
+   "published": "2026-11-22",
+   "verdict": "weak"
+  },
+  {
+   "score": 56.2,
+   "components": {
+    "tier": 20,
+    "category": 4,
+    "lead": 2.4,
+    "relevance": 0,
+    "freshness": 19.8,
+    "corroborated": 10
+   },
+   "keywords": [],
+   "shock_terms": [],
+   "dedupe_match": null,
+   "dedupe_similarity": 0.0,
+   "id": "391637fd4fa1",
+   "title": "High Court Issues Ruling on Parents Who Leave Family Land to One Child",
+   "url": "https://www.kenyans.co.ke/news/129582-court-upholds-will-leaving-family-land-one-daughter-despite-siblings-objections",
+   "summary": "In many occasions, a parent may decide to leave family land to one of their children while completely locking out the other children, raising questions about what the law says about such situations.",
+   "kind": "item",
+   "source": "Kenyans.co.ke news",
+   "source_id": "ke-kenyans",
+   "tier": 2,
+   "country": "KE",
+   "category": "press",
+   "segments": [
+    "city",
+    "bush",
+    "beach"
+   ],
+   "first_seen": "2026-11-22T12:32+03:00",
+   "published": "2026-11-22",
+   "verdict": "weak"
+  },
+  {
+   "score": 56.2,
+   "components": {
+    "tier": 20,
+    "category": 4,
+    "lead": 2.4,
+    "relevance": 0,
+    "freshness": 19.8,
+    "corroborated": 10
+   },
+   "keywords": [],
+   "shock_terms": [],
+   "dedupe_match": null,
+   "dedupe_similarity": 0.17,
+   "id": "6ac58bc4cbb8",
+   "title": "KWS Issues Update on Missing Aberdare Hiker",
+   "url": "https://www.kenyans.co.ke/news/129581-kws-deploys-helicopter-drones-search-missing-aberdare-hiker-intensifies",
+   "summary": "The hiker went missing on November 14, with efforts intensified for his search and possible rescue over a week after his disappearance.",
+   "kind": "item",
+   "source": "Kenyans.co.ke news",
+   "source_id": "ke-kenyans",
+   "tier": 2,
+   "country": "KE",
+   "category": "press",
+   "segments": [
+    "city",
+    "bush",
+    "beach"
+   ],
+   "first_seen": "2026-11-22T12:32+03:00",
+   "published": "2026-11-22",
+   "verdict": "weak"
+  },
+  {
+   "score": 56.2,
+   "components": {
+    "tier": 20,
+    "category": 4,
+    "lead": 2.4,
+    "relevance": 0,
+    "freshness": 19.8,
+    "corroborated": 10
+   },
+   "keywords": [],
+   "shock_terms": [],
+   "dedupe_match": null,
+   "dedupe_similarity": 0.0,
+   "id": "9a4361fd3656",
+   "title": "ODM Senator Addresses Claims He Threatened to Shoot Auctioneers",
+   "url": "https://www.kenyans.co.ke/news/129579-ledama-olekina-denies-threatening-shoot-auctioneers-explains-ksh350000-dispute",
+   "summary": "A video has gone viral on social media showing the senator seemingly threatening to shoot individuals who allegedly stormed a company attached to him in an attempted auction over the dispute.",
+   "kind": "item",
+   "source": "Kenyans.co.ke news",
+   "source_id": "ke-kenyans",
+   "tier": 2,
+   "country": "KE",
+   "category": "press",
+   "segments": [
+    "city",
+    "bush",
+    "beach"
+   ],
+   "first_seen": "2026-11-22T12:32+03:00",
+   "published": "2026-11-22",
+   "verdict": "weak"
+  },
+  {
+   "score": 56.2,
+   "components": {
+    "tier": 20,
+    "category": 4,
+    "lead": 2.4,
+    "relevance": 0,
+    "freshness": 19.8,
+    "corroborated": 10
+   },
+   "keywords": [],
+   "shock_terms": [],
+   "dedupe_match": null,
+   "dedupe_similarity": 0.0,
+   "id": "af89952e5780",
+   "title": "Joy as teacher celebrates graduation in hospital",
+   "url": "https://nation.africa/kenya/news/joy-as-teacher-celebrates-graduation-in-hospital--5679854",
+   "summary": "Graduate pleasantly surprised in hospital after missing graduation ceremony.",
+   "kind": "item",
+   "source": "Nation Africa: Kenya business",
+   "source_id": "ke-nation-business",
+   "tier": 2,
+   "country": "KE",
+   "category": "press",
+   "segments": [
+    "city",
+    "bush",
+    "beach"
+   ],
+   "first_seen": "2026-11-22T12:32+03:00",
+   "published": "2026-11-22",
+   "verdict": "weak"
+  },
+  {
+   "score": 56.2,
+   "components": {
+    "tier": 20,
+    "category": 4,
+    "lead": 2.4,
+    "relevance": 0,
+    "freshness": 19.8,
+    "corroborated": 10
+   },
+   "keywords": [],
+   "shock_terms": [],
+   "dedupe_match": null,
+   "dedupe_similarity": 0.0,
+   "id": "5d5d4bb22975",
+   "title": "Fathermoh\u2019s Sh87m suit over music ownership exposes artiste\u2019s continued naivet\u00e9",
+   "url": "https://nation.africa/kenya/life-and-style/buzz/fathermoh-s-sh87m-suit-over-music-ownership-exposes-artiste-s-continued-naivet%C3%A9-5679894",
+   "summary": "More artists reveal they signed contracts that they later regret.",
+   "kind": "item",
+   "source": "Nation Africa: Kenya business",
+   "source_id": "ke-nation-business",
+   "tier": 2,
+   "country": "KE",
+   "category": "press",
+   "segments": [
+    "city",
+    "bush",
+    "beach"
+   ],
+   "first_seen": "2026-11-22T12:32+03:00",
+   "published": "2026-11-22",
+   "verdict": "weak"
+  },
+  {
+   "score": 56.2,
+   "components": {
+    "tier": 20,
+    "category": 4,
+    "lead": 2.4,
+    "relevance": 0,
+    "freshness": 19.8,
+    "corroborated": 10
+   },
+   "keywords": [],
+   "shock_terms": [],
+   "dedupe_match": null,
+   "dedupe_similarity": 0.0,
+   "id": "99484347a66e",
+   "title": "Gachagua puts IEBC on notice, threatens mass action over poll demands",
+   "url": "https://nation.africa/kenya/videos/gachagua-puts-iebc-on-notice-threatens-mass-action-over-poll-demands-5679892",
+   "summary": "",
+   "kind": "item",
+   "source": "Nation Africa: Kenya business",
+   "source_id": "ke-nation-business",
+   "tier": 2,
+   "country": "KE",
+   "category": "press",
+   "segments": [
+    "city",
+    "bush",
+    "beach"
+   ],
+   "first_seen": "2026-11-22T12:32+03:00",
+   "published": "2026-11-22",
+   "verdict": "weak"
+  },
+  {
+   "score": 56.2,
+   "components": {
+    "tier": 20,
+    "category": 4,
+    "lead": 2.4,
+    "relevance": 0,
+    "freshness": 19.8,
+    "corroborated": 10
+   },
+   "keywords": [],
+   "shock_terms": [],
+   "dedupe_match": null,
+   "dedupe_similarity": 0.17,
+   "id": "d990563e7c0c",
+   "title": "Talk of Town: Kenya blocks visiting VIP\u2019s armed bodyguards, serial petitioner cornered",
+   "url": "https://nation.africa/kenya/news/talk-of-town-kenya-blocks-visiting-vip-s-armed-bodyguards-serial-petitioner-cornered--5679886",
+   "summary": "Nairobi rejected the request, clarifying that he would be under his hosts' care and protection.",
+   "kind": "item",
+   "source": "Nation Africa: Kenya business",
+   "source_id": "ke-nation-business",
+   "tier": 2,
+   "country": "KE",
+   "category": "press",
+   "segments": [
+    "city",
+    "bush",
+    "beach"
+   ],
+   "first_seen": "2026-11-22T12:32+03:00",
+   "published": "2026-11-22",
+   "verdict": "weak"
+  },
+  {
+   "score": 56.2,
+   "components": {
+    "tier": 20,
+    "category": 4,
+    "lead": 2.4,
+    "relevance": 0,
+    "freshness": 19.8,
+    "corroborated": 10
+   },
+   "keywords": [],
+   "shock_terms": [],
+   "dedupe_match": null,
+   "dedupe_similarity": 0.17,
+   "id": "e6c7be33257e",
+   "title": "Nairobi governor race: What is Ruku bringing to the table?",
+   "url": "https://nation.africa/kenya/videos/nairobi-governor-race-what-is-ruku-bringing-to-the-table--5679884",
+   "summary": "",
+   "kind": "item",
+   "source": "Nation Africa: Kenya business",
+   "source_id": "ke-nation-business",
+   "tier": 2,
+   "country": "KE",
+   "category": "press",
+   "segments": [
+    "city",
+    "bush",
+    "beach"
+   ],
+   "first_seen": "2026-11-22T12:32+03:00",
+   "published": "2026-11-22",
+   "verdict": "weak"
+  },
+  {
+   "score": 56.2,
+   "components": {
+    "tier": 20,
+    "category": 4,
+    "lead": 2.4,
+    "relevance": 0,
+    "freshness": 19.8,
+    "corroborated": 10
+   },
+   "keywords": [],
+   "shock_terms": [],
+   "dedupe_match": null,
+   "dedupe_similarity": 0.12,
+   "id": "b495e8b620dd",
+   "title": "Workplace harassment costs Kenyan businesses Sh95.5 billion",
+   "url": "https://nation.africa/kenya/news/gender/workplace-harassment-costs-kenyan-businesses-sh95-5-billion-5678498",
+   "summary": "Women, junior employees and support staff bear the greatest burden.",
+   "kind": "item",
+   "source": "Nation Africa: Kenya business",
+   "source_id": "ke-nation-business",
+   "tier": 2,
+   "country": "KE",
+   "category": "press",
+   "segments": [
+    "city",
+    "bush",
+    "beach"
+   ],
+   "first_seen": "2026-11-22T12:32+03:00",
+   "published": "2026-11-22",
+   "verdict": "weak"
+  },
+  {
+   "score": 56.2,
+   "components": {
+    "tier": 20,
+    "category": 4,
+    "lead": 2.4,
+    "relevance": 0,
+    "freshness": 19.8,
+    "corroborated": 10
+   },
+   "keywords": [],
+   "shock_terms": [],
+   "dedupe_match": null,
+   "dedupe_similarity": 0.12,
+   "id": "3c7d7840db74",
+   "title": "How I miss the good, old days before emojis replaced sentences\u2026",
+   "url": "https://nation.africa/kenya/life-and-style/lifestyle/how-i-miss-the-good-old-days-before-emojis-replaced-sentences-5679410",
+   "summary": "I grew up at a time when abbreviations were used where it was absolutely necessary.",
+   "kind": "item",
+   "source": "Nation Africa: Kenya business",
+   "source_id": "ke-nation-business",
+   "tier": 2,
+   "country": "KE",
+   "category": "press",
+   "segments": [
+    "city",
+    "bush",
+    "beach"
+   ],
+   "first_seen": "2026-11-22T12:32+03:00",
+   "published": "2026-11-22",
+   "verdict": "weak"
+  },
+  {
+   "score": 56.2,
+   "components": {
+    "tier": 20,
+    "category": 4,
+    "lead": 2.4,
+    "relevance": 0,
+    "freshness": 19.8,
+    "corroborated": 10
+   },
+   "keywords": [],
+   "shock_terms": [],
+   "dedupe_match": null,
+   "dedupe_similarity": 0.0,
+   "id": "1203abedfb29",
+   "title": "Triggered? Learn how to control your emotions",
+   "url": "https://nation.africa/kenya/life-and-style/lifestyle/triggered-learn-how-to-control-your-emotions--5679420",
+   "summary": "Listen to the voice in your head and learn to direct it.",
+   "kind": "item",
+   "source": "Nation Africa: Kenya business",
+   "source_id": "ke-nation-business",
+   "tier": 2,
+   "country": "KE",
+   "category": "press",
+   "segments": [
+    "city",
+    "bush",
+    "beach"
+   ],
+   "first_seen": "2026-11-22T12:32+03:00",
+   "published": "2026-11-22",
+   "verdict": "weak"
+  },
+  {
+   "score": 56.2,
+   "components": {
+    "tier": 20,
+    "category": 4,
+    "lead": 2.4,
+    "relevance": 0,
+    "freshness": 19.8,
+    "corroborated": 10
+   },
+   "keywords": [],
+   "shock_terms": [],
+   "dedupe_match": null,
+   "dedupe_similarity": 0.11,
+   "id": "648d48f9efc6",
+   "title": "I escaped Mwisho wa Lami only to become a fugitive in Kangemi!",
+   "url": "https://nation.africa/kenya/life-and-style/lifestyle/i-escaped-mwisho-wa-lami-only-to-become-a-fugitive-in-kangemi-5679408",
+   "summary": "I had come to Nairobi to escape trouble; I was not about to start another confrontation.",
+   "kind": "item",
+   "source": "Nation Africa: Kenya business",
+   "source_id": "ke-nation-business",
+   "tier": 2,
+   "country": "KE",
+   "category": "press",
+   "segments": [
+    "city",
+    "bush",
+    "beach"
+   ],
+   "first_seen": "2026-11-22T12:32+03:00",
+   "published": "2026-11-22",
+   "verdict": "weak"
+  },
+  {
+   "score": 56.2,
+   "components": {
+    "tier": 20,
+    "category": 4,
+    "lead": 2.4,
+    "relevance": 0,
+    "freshness": 19.8,
+    "corroborated": 10
+   },
+   "keywords": [],
+   "shock_terms": [],
+   "dedupe_match": null,
+   "dedupe_similarity": 0.11,
+   "id": "a78a9083c76d",
+   "title": "Why a Nairobi County public meeting was concerned about elephants",
+   "url": "https://nation.africa/kenya/life-and-style/lifestyle/nairobi-county-public-meeting-was-concerned-about-elephants-5679418",
+   "summary": "Developers of City Park restoration plan envision a much-loved feature of Nairobi.",
+   "kind": "item",
+   "source": "Nation Africa: Kenya business",
+   "source_id": "ke-nation-business",
+   "tier": 2,
+   "country": "KE",
+   "category": "press",
+   "segments": [
+    "city",
+    "bush",
+    "beach"
+   ],
+   "first_seen": "2026-11-22T12:32+03:00",
    "published": "2026-11-22",
    "verdict": "weak"
   }
