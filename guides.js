@@ -1,5 +1,14 @@
 window.GUIDES = [
  {
+  "slug": "nungwi-fire-one-building-at-a-time",
+  "title": "One oven at Nungwi burned six hotels. Zanzibar inspects one building at a time.",
+  "description": "A bread oven at the Makofi hotel caught at about 2.20pm on Saturday. Three hours later six hotels, four restaurants and some forty shops on Zanzibar's busiest beach had stopped being businesses. This is the fourth multiple-property fire on an East African thatched strip since 2017, and it is not a building failure. It is a failure to regulate the space between buildings, inside an insurance market that collects two thirds of its money from the visitor rather than from the host.",
+  "category": "Big Read",
+  "updated": "2026-11-23",
+  "readMins": 8,
+  "image": "img/editions/nungwi-fire-one-building-at-a-time.jpg"
+ },
+ {
   "slug": "uganda-arrivals-grew-holidays-did-not",
   "title": "Uganda counted 1.6 million visitors last year. Its holiday arrivals grew by 0.4 per cent.",
   "description": "The World Bank's November tourism brief puts Uganda down 7 per cent on the quarter while Rwanda is up 19. Uganda's own ministry says arrivals rose 3.7 per cent in the same half-year, its civil aviation authority says air traffic fell 10.8 per cent, and its park gates counted 7.9 per cent fewer people. All four numbers are real. Only one of them describes the market a lodge sells into.",

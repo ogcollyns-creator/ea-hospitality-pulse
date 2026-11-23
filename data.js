@@ -1,5 +1,14 @@
 window.EDITIONS = [
  {
+  "id": "foresight-2026-11-22",
+  "date": "2026-11-22",
+  "dateDisplay": "Sunday, 22 November 2026",
+  "edition": "Sunday Foresight",
+  "editionKey": "foresight",
+  "summary": "JKIA ARRIVALS FELL TO 295,381 IN SEPTEMBER; EUROPE DROPPED 15.4%",
+  "bodyHtml": "<p><strong>East and Central Africa sent 80,763 international passengers into Nairobi&#x27;s JKIA in September, more than Europe&#x27;s 61,893, and every route announced this week adds to that side of the ledger</strong><br><em>🏨 EA Hospitality Pulse · Sunday Foresight · Sun 22 Nov 2026</em></p>\n<p>KNBS&#x27;s September indicators put East and Central Africa first among JKIA&#x27;s arrival regions at 80,763, ahead of Europe at 61,893 and the Middle East at 54,246 <strong>(KNBS Leading Economic Indicators, via Kenyans.co.ke, 18 Nov)</strong>. This week&#x27;s capacity news ran the same way: Kenya Airways&#x27; tenth weekly Mumbai flight, Eswatini Air naming Nairobi, Uganda Airlines&#x27; daily Kigali service. The one long-haul move was Tanzania waiving park fees to bring UK agents back, in 2027.</p>\n<p><strong>What everyone is missing:</strong> this regional growth lands in the city, on daily schedules, and books itself. Most bush and beach inventory is still sold through long-haul tour-operator contracts. The demand gap is really a product and channel gap. <strong>(Our inference. September is month-on-month after the August peak, and the press report gives no year-on-year figure.)</strong><br>━━━━━━━━━<br>THE WEEK&#x27;S SIGNALS</p>\n<p><span class=\"item-head\">1️⃣ JKIA ARRIVALS FELL TO 295,381 IN SEPTEMBER; EUROPE DROPPED 15.4%</span><br>From 338,157 in August. The Middle East fell 22% <strong>(KNBS, via Kenyans.co.ke, 18 Nov)</strong>.<br><span class=\"sowhat\">🎯 So what: build a resident rate for East African passports and load it direct.</span><br><span class=\"tagline\">🏷 City, Bush, Beach | 🇰🇪 | Reported (figures) / Inference (read) | impact:watch</span></p>\n<p><span class=\"item-head\">2️⃣ REGIONAL AIRLIFT KEEPS ADDING DAILY SEATS</span><br>KQ goes to 10 weekly Nairobi–Mumbai from 20 Jan 2027 <strong>(AeroRoutes, 18 Nov)</strong>. Eswatini Air targets Nairobi <strong>(ATTA, 18 Nov)</strong>. Only one in five African city pairs has a direct daily flight <strong>(Windhoek aviation session, ATTA, 17 Nov)</strong>.<br><span class=\"sowhat\">🎯 So what: sell two-night bush and beach add-ons to meeting delegates and Indian travellers.</span><br><span class=\"tagline\">🏷 City, Bush, Beach | 🇰🇪 🇺🇬 🇷🇼 | Confirmed | impact:demand</span></p>\n<p><span class=\"item-head\">3️⃣ TANZANIA WILL WAIVE PARK FEES FOR UK FAM TRIPS IN 2027</span><br>Minister Kijaji announced it in London; applications go through Tanzania Tourism UK <strong>(ATTA, 18 Nov)</strong>.<br><span class=\"sowhat\">🎯 So what: Tanzanian lodges, apply now and host the trips in 2027&#x27;s shoulder months.</span><br><span class=\"tagline\">🏷 Bush | 🇹🇿 | Confirmed | impact:demand</span></p>\n<p><span class=\"item-head\">4️⃣ KENYA HAS HAD NO NEW EBOLA CASE; 23 DECEMBER STANDS</span><br>Nine cases, two deaths. Returnees from DRC face 21-day quarantine <strong>(Health CS Duale, Senate, 17 Nov; The Star, 18 Nov)</strong>. WHO keeps Kenya&#x27;s risk &quot;high&quot; and advises against travel restrictions <strong>(DON630, 20 Nov)</strong>. Germany&#x27;s advice now names 23 Dec <strong>(Auswärtiges Amt, 19 Nov)</strong>.<br><span class=\"sowhat\">🎯 So what: plan the peak on regional and domestic guests.</span><br><span class=\"tagline\">🏷 City, Bush, Beach | 🇰🇪 | Confirmed | impact:risk</span></p>\n<p><span class=\"item-head\">5️⃣ KENYA&#x27;S RESERVES FELL US$656M IN A WEEK</span><br>To US$13,949m, 5.6 months of import cover, with the shilling near KSh130 <strong>(CBK bulletin 20 Nov, via Nairametrics, 21 Nov)</strong>. CBK gave no reason.<br><span class=\"sowhat\">🎯 So what: quote 2027 resident rates in shillings, and review them monthly.</span><br><span class=\"tagline\">🏷 City, Bush, Beach | 🇰🇪 | Reported | impact:margin</span><br>━━━━━━━━━<br>🔎 Blind spots: OCGS Zanzibar arrivals, Rwanda Gazette, Uganda Media Centre, KNBS calendar, competitor sites. Primary KNBS and CBK PDFs unreadable; press-sourced.</p>\n<p><span class=\"meta-line\">📡 30/90-DAY DEMAND CALENDAR</span><br>🇹🇿 1–4 Dec — World Aquaculture, Dar. Hold city rate.<br>🇰🇪 9 Dec — CBK rate decision.<br>🇺🇸 10 Dec — CDC entry order expires.<br>🇹🇿 12 Dec — WTA Grand Final, Serengeti.<br>🇰🇪 14 Dec — EPRA fuel review.<br>🇰🇪 14–18 Dec — UN Internet Governance Forum, KICC. Hold Gigiri and Upper Hill.<br>🇰🇪 23 Dec — earliest Ebola-free date.<br>🇰🇪 20 Jan — KQ&#x27;s tenth Mumbai frequency.</p>\n<p>What share of last month&#x27;s guests flew in from the region?</p>\n<p>🔗 This edition on the web: <a href=\"https://eahospitalitypulse.com/editions/foresight-2026-11-22.html\" rel=\"noopener\">eahospitalitypulse.com/editions/foresight-2026-11-22.html</a><br>💼 This week&#x27;s Big Read on LinkedIn: <a href=\"https://www.linkedin.com/company/ea-hospitality-pulse/\" rel=\"noopener\">linkedin.com/company/ea-hospitality-pulse/</a><br>— EA Hospitality Pulse | Daily intelligence for city, bush &amp; beach properties</p>"
+ },
+ {
   "id": "pulse-2026-11-20-evening",
   "date": "2026-11-20",
   "dateDisplay": "Friday, 20 November 2026",
@@ -1450,6 +1459,109 @@ window.EDITIONS = [
  }
 ];
 window.INSIGHTS = [
+ {
+  "headline": "JKIA ARRIVALS FELL TO 295,381 IN SEPTEMBER; EUROPE DROPPED 15.4%",
+  "body": "From 338,157 in August. The Middle East fell 22% *(KNBS, via Kenyans.co.ke, 18 Nov)*.",
+  "sowhat": "🎯 So what: build a resident rate for East African passports and load it direct.",
+  "segments": [
+   "city",
+   "bush",
+   "beach"
+  ],
+  "countries": "🇰🇪",
+  "confidence": "Reported (figures) / Inference (read)",
+  "impact": "watch",
+  "impactClass": "watch",
+  "intensity": 2,
+  "impactSet": "author",
+  "source": "foresight-2026-11-22",
+  "date": "2026-11-22",
+  "dateDisplay": "Sunday, 22 November 2026",
+  "edition": "Sunday Foresight",
+  "editionKey": "foresight"
+ },
+ {
+  "headline": "REGIONAL AIRLIFT KEEPS ADDING DAILY SEATS",
+  "body": "KQ goes to 10 weekly Nairobi–Mumbai from 20 Jan 2027 *(AeroRoutes, 18 Nov)*. Eswatini Air targets Nairobi *(ATTA, 18 Nov)*. Only one in five African city pairs has a direct daily flight *(Windhoek aviation session, ATTA, 17 Nov)*.",
+  "sowhat": "🎯 So what: sell two-night bush and beach add-ons to meeting delegates and Indian travellers.",
+  "segments": [
+   "city",
+   "bush",
+   "beach"
+  ],
+  "countries": "🇰🇪 🇺🇬 🇷🇼",
+  "confidence": "Confirmed",
+  "impact": "+demand",
+  "impactClass": "demand",
+  "intensity": 3,
+  "impactSet": "author",
+  "source": "foresight-2026-11-22",
+  "date": "2026-11-22",
+  "dateDisplay": "Sunday, 22 November 2026",
+  "edition": "Sunday Foresight",
+  "editionKey": "foresight"
+ },
+ {
+  "headline": "TANZANIA WILL WAIVE PARK FEES FOR UK FAM TRIPS IN 2027",
+  "body": "Minister Kijaji announced it in London; applications go through Tanzania Tourism UK *(ATTA, 18 Nov)*.",
+  "sowhat": "🎯 So what: Tanzanian lodges, apply now and host the trips in 2027's shoulder months.",
+  "segments": [
+   "bush"
+  ],
+  "countries": "🇹🇿",
+  "confidence": "Confirmed",
+  "impact": "+demand",
+  "impactClass": "demand",
+  "intensity": 3,
+  "impactSet": "author",
+  "source": "foresight-2026-11-22",
+  "date": "2026-11-22",
+  "dateDisplay": "Sunday, 22 November 2026",
+  "edition": "Sunday Foresight",
+  "editionKey": "foresight"
+ },
+ {
+  "headline": "KENYA HAS HAD NO NEW EBOLA CASE; 23 DECEMBER STANDS",
+  "body": "Nine cases, two deaths. Returnees from DRC face 21-day quarantine *(Health CS Duale, Senate, 17 Nov; The Star, 18 Nov)*. WHO keeps Kenya's risk \"high\" and advises against travel restrictions *(DON630, 20 Nov)*. Germany's advice now names 23 Dec *(Auswärtiges Amt, 19 Nov)*.",
+  "sowhat": "🎯 So what: plan the peak on regional and domestic guests.",
+  "segments": [
+   "city",
+   "bush",
+   "beach"
+  ],
+  "countries": "🇰🇪",
+  "confidence": "Confirmed",
+  "impact": "risk",
+  "impactClass": "risk",
+  "intensity": 3,
+  "impactSet": "author",
+  "source": "foresight-2026-11-22",
+  "date": "2026-11-22",
+  "dateDisplay": "Sunday, 22 November 2026",
+  "edition": "Sunday Foresight",
+  "editionKey": "foresight"
+ },
+ {
+  "headline": "KENYA'S RESERVES FELL US$656M IN A WEEK",
+  "body": "To US$13,949m, 5.6 months of import cover, with the shilling near KSh130 *(CBK bulletin 20 Nov, via Nairametrics, 21 Nov)*. CBK gave no reason.",
+  "sowhat": "🎯 So what: quote 2027 resident rates in shillings, and review them monthly.",
+  "segments": [
+   "city",
+   "bush",
+   "beach"
+  ],
+  "countries": "🇰🇪",
+  "confidence": "Reported",
+  "impact": "-margin",
+  "impactClass": "margin",
+  "intensity": 2,
+  "impactSet": "author",
+  "source": "foresight-2026-11-22",
+  "date": "2026-11-22",
+  "dateDisplay": "Sunday, 22 November 2026",
+  "edition": "Sunday Foresight",
+  "editionKey": "foresight"
+ },
  {
   "headline": "Africa CDC says Congo's Ebola cases have stopped falling, six months in",
   "body": "**What happened.** Africa CDC's six-month report counts 11,021 confirmed Bundibugyo cases and 5,358 deaths in five countries to 8 Nov. Congo has held at about 460–480 a week since late September; only 11% of cases came from contact lists, against a 95% target *(Africa CDC, 20 Nov)*. Uganda has 20 cases and no active ones *(CDC, updated 19 Nov)*. On 17 Nov Uganda's health ministry told police to keep concerts and mass gatherings suspended in unnamed high-risk border districts \"until further notice\" *(Nile Post, 19 Nov)*. The US bar on non-citizens recently in Congo, Uganda or South Sudan expires 10 Dec *(Federal Register 2026-23114)*. **Read.** Inference: cases have levelled off, not fallen, so renewal is likelier than a lapse.",
@@ -8792,4 +8904,4 @@ window.INSIGHTS = [
   "editionKey": "evening"
  }
 ];
-window.BUILT_AT = "2026-11-21 05:49";
+window.BUILT_AT = "2026-11-23 06:47";
