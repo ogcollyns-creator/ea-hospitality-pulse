@@ -1,18 +1,87 @@
 {
- "generated": "2026-11-23T02:31:03+03:00",
- "slot": "morning",
- "window_start": 1795359600,
- "observations_in_window": 311,
- "deduped_against": 19,
+ "generated": "2026-11-23T16:03:34+03:00",
+ "slot": "evening",
+ "window_start": 1795348800,
+ "observations_in_window": 667,
+ "deduped_against": 20,
  "candidates": [
   {
-   "score": 65.2,
+   "score": 101.7,
+   "components": {
+    "tier": 40,
+    "category": 32,
+    "lead": 12.0,
+    "relevance": 8,
+    "freshness": 19.7,
+    "undated": -6,
+    "page_change": -4
+   },
+   "keywords": [
+    "fee"
+   ],
+   "shock_terms": [],
+   "dedupe_match": null,
+   "dedupe_similarity": 0.17,
+   "id": "eec8751c4b3e",
+   "title": "[page changed] Federal Register \u2014 CDC notices",
+   "url": "https://www.federalregister.gov/api/v1/documents.rss?conditions%5Bagencies%5D%5B%5D=centers-for-disease-control-and-prevention&order=newest",
+   "summary": "Federal Register Documents published on or after 10/24/2026 and from Centers for Disease Control and Prevention https://www.federalregister.gov/api/v1/documents.rss?conditions%5Bagencies%5D%5B%5D=centers-for-disease-control-and-prevention&order=newest Mon, 23 Nov 2026 05:00:00 GMT The documents in this feed originate from FederalRegister.gov which displays an unofficial web version of the daily Fe",
+   "kind": "page-change",
+   "source": "Federal Register \u2014 CDC notices",
+   "source_id": "us-fedreg-cdc",
+   "tier": 1,
+   "country": "REG",
+   "category": "advisory",
+   "segments": [
+    "city",
+    "bush"
+   ],
+   "first_seen": "2026-11-23T15:56+03:00",
+   "published": null,
+   "verdict": "OPEN THIS \u2014 tier-1 advisory page moved; content not auto-parsed, read it manually"
+  },
+  {
+   "score": 65.3,
    "components": {
     "tier": 40,
     "category": 12,
     "lead": 3.6,
     "relevance": 0,
-    "freshness": 19.6,
+    "freshness": 19.7,
+    "undated": -6,
+    "page_change": -4
+   },
+   "keywords": [],
+   "shock_terms": [],
+   "dedupe_match": null,
+   "dedupe_similarity": 0.0,
+   "id": "f828e4fba9c9",
+   "title": "[page changed] Airlink news",
+   "url": "https://www.flyairlink.com/",
+   "summary": "Request unsuccessful. Incapsula incident ID: 2214000060917497361-442174850432631210",
+   "kind": "page-change",
+   "source": "Airlink news",
+   "source_id": "air-airlink",
+   "tier": 1,
+   "country": "REG",
+   "category": "airline",
+   "segments": [
+    "city",
+    "bush",
+    "beach"
+   ],
+   "first_seen": "2026-11-23T15:57+03:00",
+   "published": null,
+   "verdict": "OPEN THIS \u2014 tier-1 airline page moved; content not auto-parsed, read it manually"
+  },
+  {
+   "score": 50.3,
+   "components": {
+    "tier": 40,
+    "category": 12,
+    "lead": 3.6,
+    "relevance": 0,
+    "freshness": 4.7,
     "undated": -6,
     "page_change": -4
    },
@@ -40,13 +109,237 @@
    "verdict": "OPEN THIS \u2014 tier-1 airline page moved; content not auto-parsed, read it manually"
   },
   {
-   "score": 109.6,
+   "score": 120.1,
+   "components": {
+    "tier": 5,
+    "category": 5,
+    "lead": 2.4,
+    "relevance": 60,
+    "freshness": 19.7,
+    "corroborated": 10,
+    "shock": 18
+   },
+   "keywords": [
+    "suspend",
+    "cancel",
+    "arrivals",
+    "airport",
+    "strike",
+    "protest",
+    "flight",
+    "traffic"
+   ],
+   "shock_terms": [
+    "strike"
+   ],
+   "dedupe_match": null,
+   "dedupe_similarity": 0.2,
+   "id": "e545e9960f3d",
+   "title": "Belgium Strike Forces Flight Cancellations at Brussels and Charleroi Airports",
+   "url": "https://www.travelandtourworld.com/news/article/belgium-strike-forces-flight-cancellations-at-brussels-and-charleroi-airports",
+   "summary": "Belgium's nationwide strike forces widespread flight cancellations at Brussels and Charleroi airports on 23 November 2026, as industrial action disrupts essential air traffic control services. Brussels Airport has cancelled scheduled arrivals and departures between 7am and 9pm, while Brussels South Charleroi Airport has suspended its entire Monday flight programme. The disruption follows protests ",
+   "kind": "item",
+   "source": "Travel And Tour World",
+   "source_id": "gl-travelandtourworld",
+   "tier": 3,
+   "country": "GLOBAL",
+   "category": "trade",
+   "segments": [
+    "city",
+    "bush",
+    "beach"
+   ],
+   "first_seen": "2026-11-23T15:58+03:00",
+   "published": "2026-11-23",
+   "verdict": "CONSIDER"
+  },
+  {
+   "score": 101.5,
+   "components": {
+    "tier": 40,
+    "category": 7,
+    "lead": 16.8,
+    "relevance": 8,
+    "freshness": 19.7,
+    "corroborated": 10
+   },
+   "keywords": [
+    "airport"
+   ],
+   "shock_terms": [],
+   "dedupe_match": null,
+   "dedupe_similarity": 0.17,
+   "id": "9e80dea9c5de",
+   "title": "Archbishop Anyolo celebrates Mass with airport community at KAA Head Office",
+   "url": "https://www.kaa.go.ke/archbishop-anyolo-celebrates-mass-at-kaa-head-office",
+   "summary": "The Metropolitan Archbishop of Nairobi led worshippers drawn from organisations across the airport.",
+   "kind": "item",
+   "source": "KAA tenders",
+   "source_id": "ke-kaa-tenders",
+   "tier": 1,
+   "country": "KE",
+   "category": "tender",
+   "segments": [
+    "city",
+    "bush",
+    "beach"
+   ],
+   "first_seen": "2026-11-23T15:57+03:00",
+   "published": "2026-11-23",
+   "verdict": "STRONG \u2014 tier-1, upstream"
+  },
+  {
+   "score": 96.1,
+   "components": {
+    "tier": 20,
+    "category": 14,
+    "lead": 8.4,
+    "relevance": 24,
+    "freshness": 19.7,
+    "corroborated": 10
+   },
+   "keywords": [
+    "route",
+    "capacity",
+    "airline",
+    "flight"
+   ],
+   "shock_terms": [],
+   "dedupe_match": null,
+   "dedupe_similarity": 0.29,
+   "id": "ecadc0f45db6",
+   "title": "Starlux Adds A330neo Taipei \u2013 Busan Service in NW26",
+   "url": "https://www.aeroroutes.com/eng/261123-jxnw26pus",
+   "summary": "Published at 0400PCT / 1100GMT 23NOV26 Starlux Airlines from late-December 2026 plans to expand capacity on Taipei Taoyuan \u2013 Busan route, where the airline adds Airbus A330-900neo aircraft during the period of 21DEC26 \u2013 28FEB27, operating up to 4 of 7 weekly flights, replacing A321neo. JX900/901 21DEC26 \u2013 28DEC26 Day 15 05JAN27 \u2013 23FEB27 Day 2 JX902/903 31DEC26 \u2013 28FEB27 Day 467 JX900 TPE0825 \u2013 11",
+   "kind": "item",
+   "source": "AeroRoutes schedule filings",
+   "source_id": "aeroroutes",
+   "tier": 2,
+   "country": "GLOBAL",
+   "category": "aviation-tracker",
+   "segments": [
+    "city",
+    "bush",
+    "beach"
+   ],
+   "first_seen": "2026-11-23T15:58+03:00",
+   "published": "2026-11-23",
+   "verdict": "CONSIDER"
+  },
+  {
+   "score": 96.1,
+   "components": {
+    "tier": 40,
+    "category": 24,
+    "lead": 2.4,
+    "relevance": 0,
+    "freshness": 19.7,
+    "corroborated": 10
+   },
+   "keywords": [],
+   "shock_terms": [],
+   "dedupe_match": null,
+   "dedupe_similarity": 0.0,
+   "id": "dfb7de23f2fb",
+   "title": "LE DIRECTEUR G\u00c9N\u00c9RAL DE L\u2019INSP-RDC PORTE LA VOIX DE LA RDC SUR LE RENFORCEMENT DE LA S\u00c9CURIT\u00c9 SANITAIRE EN AFRIQUE",
+   "url": "https://insp.cd/le-directeur-general-de-linsp-rdc-porte-la-voix-de-la-rdc-sur-le-renforcement-de-la-securite-sanitaire-en-afrique",
+   "summary": "Addis-Abeba, \u00c9thiopie, 22 novembre 2026 | Sant\u00e9 publique Le Professeur Dr Dieudonn\u00e9 MWAMBA KAZADI, Directeur g\u00e9n\u00e9ral de l\u2019Institut National de",
+   "kind": "item",
+   "source": "INSP RDC \u2014 Ebola daily situation reports (SitRep)",
+   "source_id": "cd-insp-sitrep",
+   "tier": 1,
+   "country": "GLOBAL",
+   "category": "health",
+   "segments": [
+    "City",
+    "Bush"
+   ],
+   "first_seen": "2026-11-23T15:58+03:00",
+   "published": "2026-11-23",
+   "verdict": "STRONG \u2014 tier-1, upstream"
+  },
+  {
+   "score": 95.7,
+   "components": {
+    "tier": 20,
+    "category": 4,
+    "lead": 0.0,
+    "relevance": 24,
+    "freshness": 19.7,
+    "corroborated": 10,
+    "shock": 18
+   },
+   "keywords": [
+    "outbreak",
+    "marburg"
+   ],
+   "shock_terms": [
+    "outbreak"
+   ],
+   "dedupe_match": null,
+   "dedupe_similarity": 0.14,
+   "id": "de268c0c3185",
+   "title": "Nsengiyumva to African Leaders: Rwanda Has a Health Financing Model Worth Emulating",
+   "url": "https://www.ktpress.rw/2026/11/nsengiyumva-to-african-leaders-rwanda-has-a-health-financing-model-worth-emulating",
+   "summary": "ADDIS ABABA \u2013 Rwanda has presented its community-based health insurance scheme and its response to the 2024 Marburg outbreak as lessons for African countries seeking to reduce dependence on foreign\u2026 The post Nsengiyumva to African Leaders: Rwanda Has a Health Financing Model Worth Emulating appeared first on KT PRESS .",
+   "kind": "item",
+   "source": "KT Press (Rwanda)",
+   "source_id": "np-ktpress-rw",
+   "tier": 2,
+   "country": "RW",
+   "category": "press",
+   "segments": [
+    "city",
+    "bush",
+    "beach"
+   ],
+   "first_seen": "2026-11-23T15:58+03:00",
+   "published": "2026-11-23",
+   "verdict": "CONSIDER"
+  },
+  {
+   "score": 95.5,
+   "components": {
+    "tier": 40,
+    "category": 13,
+    "lead": 4.8,
+    "relevance": 8,
+    "freshness": 19.7,
+    "corroborated": 10
+   },
+   "keywords": [
+    "airport"
+   ],
+   "shock_terms": [],
+   "dedupe_match": null,
+   "dedupe_similarity": 0.17,
+   "id": "6d2b197cb16b",
+   "title": "Archbishop Anyolo celebrates Mass with airport community at KAA Head Office",
+   "url": "https://www.kaa.go.ke/archbishop-anyolo-celebrates-mass-at-kaa-head-office",
+   "summary": "The Metropolitan Archbishop of Nairobi led worshippers drawn from organisations across the airport.",
+   "kind": "item",
+   "source": "Kenya Airports Authority",
+   "source_id": "ke-kaa",
+   "tier": 1,
+   "country": "KE",
+   "category": "aviation",
+   "segments": [
+    "city",
+    "bush",
+    "beach"
+   ],
+   "first_seen": "2026-11-23T15:57+03:00",
+   "published": "2026-11-23",
+   "verdict": "STRONG \u2014 tier-1, upstream"
+  },
+  {
+   "score": 94.7,
    "components": {
     "tier": 5,
     "category": 5,
     "lead": 0.0,
     "relevance": 52,
-    "freshness": 19.6,
+    "freshness": 4.7,
     "corroborated": 10,
     "shock": 18
    },
@@ -85,1263 +378,120 @@
    "verdict": "CONSIDER"
   },
   {
-   "score": 91.2,
-   "components": {
-    "tier": 20,
-    "category": 24,
-    "lead": 2.4,
-    "relevance": 24,
-    "freshness": 12.8,
-    "undated": -6,
-    "shock": 18,
-    "page_change": -4
-   },
-   "keywords": [
-    "outbreak",
-    "ebola"
-   ],
-   "shock_terms": [
-    "outbreak"
-   ],
-   "dedupe_match": null,
-   "dedupe_similarity": 0.12,
-   "id": "cc684a8805f9",
-   "title": "[page changed] ProMED-mail",
-   "url": "https://promedmail.org/",
-   "summary": "Protecting Global Health, One Alert at a Time | ProMED Protecting Global Health, One Alert at a Time ProMED: Your 24/7 early warning system for emerging infectious diseases worldwide. Subscribe ProMED's Weekly Pulse A snapshot of global health events from the past 7 days Latest Posts on ProMED All Date Title Sun Nov 22 2026 SHIGELLOSIS - INDIA (10): (KERALA) UPDATE Sun Nov 22 2026 AFRICAN SWINE FE",
-   "kind": "page-change",
-   "source": "ProMED-mail",
-   "source_id": "promed",
-   "tier": 2,
-   "country": "GLOBAL",
-   "category": "health",
-   "segments": [
-    "city",
-    "bush",
-    "beach"
-   ],
-   "first_seen": "2026-11-22T20:10+03:00",
-   "published": null,
-   "verdict": "CONSIDER"
-  },
-  {
-   "score": 89.2,
+   "score": 93.5,
    "components": {
     "tier": 40,
-    "category": 32,
-    "lead": 3.6,
+    "category": 15,
+    "lead": 16.8,
     "relevance": 8,
-    "freshness": 19.6,
-    "stale_trap": -10,
-    "page_change": -4
+    "freshness": 19.7,
+    "undated": -6
    },
    "keywords": [
-    "election"
+    "tax"
    ],
    "shock_terms": [],
    "dedupe_match": null,
-   "dedupe_similarity": 0.17,
-   "id": "1cb19a14dee2",
-   "title": "[page changed] Federal Register \u2014 public inspection (HHS/CDC), pre-publication",
-   "url": "https://www.federalregister.gov/api/v1/public-inspection-documents/current.json",
-   "summary": "{\"count\":94,\"results\":[{\"agencies\":[{\"raw_name\":\"ELECTION ASSISTANCE COMMISSION\",\"name\":\"Election Assistance Commission\",\"id\":127,\"url\":\"https://www.federalregister.gov/agencies/election-assistance-commission\",\"json_url\":\"https://www.federalregister.gov/api/v1/agencies/127\",\"parent_id\":null,\"slug\":\"election-assistance-commission\"}],\"agency_letters\":[],\"agency_names\":[\"Election Assistance Commissio",
-   "kind": "page-change",
-   "source": "Federal Register \u2014 public inspection (HHS/CDC), pre-publication",
-   "source_id": "us-fedreg-pubinspect-hhs",
-   "tier": 1,
-   "country": "REG",
-   "category": "advisory",
-   "segments": [
-    "city",
-    "bush"
-   ],
-   "first_seen": "2026-11-23T02:21+03:00",
-   "published": "2026-11-19",
-   "verdict": "CHECK \u2014 source date older than the window"
-  },
-  {
-   "score": 89.2,
-   "components": {
-    "tier": 40,
-    "category": 24,
-    "lead": 2.4,
-    "relevance": 0,
-    "freshness": 12.8,
-    "corroborated": 10
-   },
-   "keywords": [],
-   "shock_terms": [],
-   "dedupe_match": null,
-   "dedupe_similarity": 0.17,
-   "id": "59fe34ce7293",
-   "title": "SitRep N\u00b0190/MVE-BDBV/20/11/2026",
-   "url": "https://insp.cd/sitrep-n190-mve-bdbv-20-11-2026",
+   "dedupe_similarity": 0.0,
+   "id": "4c17e20dce54",
+   "title": "TRA, KOREA CUSTOMS STRENGTHEN PARTNERSHIP TO ENHANCE SYSTEM RELIABILITY, SPEED UP CARGO CLEARANCE AND SAFEGUARD TAXPAYER DATA",
+   "url": "https://www.tra.go.tz/news/tra-korea-customs-strengthen-partnership-to-enhance-system-reliability-speed-up-cargo-clearance-and-safeguard-taxpayer-data",
    "summary": "",
    "kind": "item",
-   "source": "INSP RDC \u2014 Ebola daily situation reports (SitRep)",
-   "source_id": "cd-insp-sitrep",
+   "source": "Tanzania Revenue Authority",
+   "source_id": "tz-tra",
    "tier": 1,
-   "country": "GLOBAL",
-   "category": "health",
-   "segments": [
-    "City",
-    "Bush"
-   ],
-   "first_seen": "2026-11-22T20:10+03:00",
-   "published": "2026-11-22",
-   "verdict": "CONSIDER"
-  },
-  {
-   "score": 87.6,
-   "components": {
-    "tier": 20,
-    "category": 4,
-    "lead": 0.0,
-    "relevance": 16,
-    "freshness": 19.6,
-    "corroborated": 10,
-    "shock": 18
-   },
-   "keywords": [
-    "tax",
-    "strike"
-   ],
-   "shock_terms": [
-    "strike"
-   ],
-   "dedupe_match": null,
-   "dedupe_similarity": 0.0,
-   "id": "270ad24e2522",
-   "title": "Traders reopen shops before leaders call off strike",
-   "url": "https://www.monitor.co.ug/uganda/news/national/traders-reopen-shops-before-leaders-call-off-strike-5680658",
-   "summary": "The traders want US$3 (Shs12,654) and US$3.5 (Shs 14,810) taxes on each kilogramme of imported...",
-   "kind": "item",
-   "source": "Daily Monitor (Uganda)",
-   "source_id": "np-monitor-ug",
-   "tier": 2,
-   "country": "UG",
-   "category": "press",
-   "segments": [
-    "city",
-    "bush",
-    "beach"
-   ],
-   "first_seen": "2026-11-23T02:21+03:00",
-   "published": "2026-11-22",
-   "verdict": "CONSIDER"
-  },
-  {
-   "score": 86.8,
-   "components": {
-    "tier": 40,
-    "category": 32,
-    "lead": 3.6,
-    "relevance": 8,
-    "freshness": 17.2,
-    "stale_trap": -10,
-    "page_change": -4
-   },
-   "keywords": [
-    "election"
-   ],
-   "shock_terms": [],
-   "dedupe_match": null,
-   "dedupe_similarity": 0.17,
-   "id": "89f89ed3eeb6",
-   "title": "[page changed] Federal Register \u2014 public inspection (HHS/CDC), pre-publication",
-   "url": "https://www.federalregister.gov/api/v1/public-inspection-documents/current.json",
-   "summary": "{\"count\":94,\"results\":[{\"agencies\":[{\"raw_name\":\"ELECTION ASSISTANCE COMMISSION\",\"name\":\"Election Assistance Commission\",\"id\":127,\"url\":\"https://www.federalregister.gov/agencies/election-assistance-commission\",\"json_url\":\"https://www.federalregister.gov/api/v1/agencies/127\",\"parent_id\":null,\"slug\":\"election-assistance-commission\"}],\"agency_letters\":[],\"agency_names\":[\"Election Assistance Commissio",
-   "kind": "page-change",
-   "source": "Federal Register \u2014 public inspection (HHS/CDC), pre-publication",
-   "source_id": "us-fedreg-pubinspect-hhs",
-   "tier": 1,
-   "country": "REG",
-   "category": "advisory",
-   "segments": [
-    "city",
-    "bush"
-   ],
-   "first_seen": "2026-11-23T00:06+03:00",
-   "published": "2026-11-19",
-   "verdict": "CHECK \u2014 source date older than the window"
-  },
-  {
-   "score": 82.4,
-   "components": {
-    "tier": 40,
-    "category": 32,
-    "lead": 3.6,
-    "relevance": 8,
-    "freshness": 12.8,
-    "stale_trap": -10,
-    "page_change": -4
-   },
-   "keywords": [
-    "election"
-   ],
-   "shock_terms": [],
-   "dedupe_match": null,
-   "dedupe_similarity": 0.17,
-   "id": "3daee00ae1c5",
-   "title": "[page changed] Federal Register \u2014 public inspection (HHS/CDC), pre-publication",
-   "url": "https://www.federalregister.gov/api/v1/public-inspection-documents/current.json",
-   "summary": "{\"count\":94,\"results\":[{\"agencies\":[{\"raw_name\":\"ELECTION ASSISTANCE COMMISSION\",\"name\":\"Election Assistance Commission\",\"id\":127,\"url\":\"https://www.federalregister.gov/agencies/election-assistance-commission\",\"json_url\":\"https://www.federalregister.gov/api/v1/agencies/127\",\"parent_id\":null,\"slug\":\"election-assistance-commission\"}],\"agency_letters\":[],\"agency_names\":[\"Election Assistance Commissio",
-   "kind": "page-change",
-   "source": "Federal Register \u2014 public inspection (HHS/CDC), pre-publication",
-   "source_id": "us-fedreg-pubinspect-hhs",
-   "tier": 1,
-   "country": "REG",
-   "category": "advisory",
-   "segments": [
-    "city",
-    "bush"
-   ],
-   "first_seen": "2026-11-22T20:10+03:00",
-   "published": "2026-11-19",
-   "verdict": "CHECK \u2014 source date older than the window"
-  },
-  {
-   "score": 82.0,
-   "components": {
-    "tier": 20,
-    "category": 4,
-    "lead": 2.4,
-    "relevance": 8,
-    "freshness": 19.6,
-    "corroborated": 10,
-    "shock": 18
-   },
-   "keywords": [
-    "strike"
-   ],
-   "shock_terms": [
-    "strike"
-   ],
-   "dedupe_match": null,
-   "dedupe_similarity": 0.0,
-   "id": "f6f1d153ec2d",
-   "title": "Alpha Onyango to the rescue, again, as Gor Mahia strike down Rangers",
-   "url": "https://nation.africa/kenya/sports/football/alpha-onyango-to-the-rescue-gor-mahia-strike-down-rangers-5680608",
-   "summary": "Gor Mahia skipper strikes late to earn K'Ogalo hard-fought win at Nyayo.",
-   "kind": "item",
-   "source": "Nation Africa: Kenya business",
-   "source_id": "ke-nation-business",
-   "tier": 2,
-   "country": "KE",
-   "category": "press",
-   "segments": [
-    "city",
-    "bush",
-    "beach"
-   ],
-   "first_seen": "2026-11-23T02:21+03:00",
-   "published": "2026-11-22",
-   "verdict": "CONSIDER"
-  },
-  {
-   "score": 77.6,
-   "components": {
-    "tier": 20,
-    "category": 14,
-    "lead": 8.4,
-    "relevance": 8,
-    "freshness": 17.2,
-    "corroborated": 10
-   },
-   "keywords": [
-    "route"
-   ],
-   "shock_terms": [],
-   "dedupe_match": null,
-   "dedupe_similarity": 0.33,
-   "id": "592a2d70ea04",
-   "title": "KLM Tentatively Plans A350 Panama City Service in NW27",
-   "url": "https://www.aeroroutes.com/eng/261122-klnw27pty",
-   "summary": "Published at 1100PCT / 1800GMT 22NOV26 KLM in its initial schedule filing for Northern winter 2027/28 season schedules Airbus A350-900 aircraft service on Amsterdam \u2013 Panama City route, tentatively scheduled from 01NOV27. Initially the A350 operates this route 4 time weekly, increasing to daily by 30NOV27. Actual service entry of A350 on this route remains subject to change. KL757 AMS1120 \u2013 1630PT",
-   "kind": "item",
-   "source": "AeroRoutes schedule filings",
-   "source_id": "aeroroutes",
-   "tier": 2,
-   "country": "GLOBAL",
-   "category": "aviation-tracker",
-   "segments": [
-    "city",
-    "bush",
-    "beach"
-   ],
-   "first_seen": "2026-11-23T00:06+03:00",
-   "published": "2026-11-22",
-   "verdict": "CONSIDER"
-  },
-  {
-   "score": 73.2,
-   "components": {
-    "tier": 20,
-    "category": 14,
-    "lead": 8.4,
-    "relevance": 8,
-    "freshness": 12.8,
-    "corroborated": 10
-   },
-   "keywords": [
-    "seat"
-   ],
-   "shock_terms": [],
-   "dedupe_match": null,
-   "dedupe_similarity": 0.33,
-   "id": "c7fd4a3426f3",
-   "title": "Qatar Airways Plans A321LR Jan 2027 Launch",
-   "url": "https://www.aeroroutes.com/eng/261122-qrjan2732q",
-   "summary": "Published at 0930PCT / 1630GMT 22NOV26 Qatar Airways in January 2027 plans to launch Airbus A321LR operations, featuring configuration of C16Y144. The 160-seater aircraft will operate following service initially. Doha \u2013 Vienna Inaugural on 04JAN27 operating as QR185/186, followed by QR189/190 from 05JAN27 Doha \u2013 Zurich QR093/094 from 16JAN27",
-   "kind": "item",
-   "source": "AeroRoutes schedule filings",
-   "source_id": "aeroroutes",
-   "tier": 2,
-   "country": "GLOBAL",
-   "category": "aviation-tracker",
-   "segments": [
-    "city",
-    "bush",
-    "beach"
-   ],
-   "first_seen": "2026-11-22T20:10+03:00",
-   "published": "2026-11-22",
-   "verdict": "CONSIDER"
-  },
-  {
-   "score": 71.2,
-   "components": {
-    "tier": 5,
-    "category": 5,
-    "lead": 2.4,
-    "relevance": 36,
-    "freshness": 12.8,
-    "corroborated": 10
-   },
-   "keywords": [
-    "levy",
-    "tax",
-    "hotel",
-    "tourism",
-    "tourist",
-    "booking",
-    "guest"
-   ],
-   "shock_terms": [],
-   "dedupe_match": null,
-   "dedupe_similarity": 0.12,
-   "id": "644c25e1aa62",
-   "title": "Ireland and Others Bring New Holiday Rental Rules as Christmas Travel Season Approaches",
-   "url": "https://www.travelandtourworld.com/news/article/0cqi3x0la6y4",
-   "summary": "Christmas 2026 hotel rules in Europe bring new taxes and booking checks for travelers as popular holiday destinations introduce changes that could reshape festive vacations. From Edinburgh's visitor levy to Ireland's rental registration plans, accommodation requirements are becoming more complex. Barcelona's tourist taxes could also increase holiday expenses. Meanwhile, Malta has updated hospitali",
-   "kind": "item",
-   "source": "Travel And Tour World",
-   "source_id": "gl-travelandtourworld",
-   "tier": 3,
-   "country": "GLOBAL",
-   "category": "trade",
-   "segments": [
-    "city",
-    "bush",
-    "beach"
-   ],
-   "first_seen": "2026-11-22T20:10+03:00",
-   "published": "2026-11-22",
-   "verdict": "CONSIDER"
-  },
-  {
-   "score": 70.2,
-   "components": {
-    "tier": 20,
-    "category": 5,
-    "lead": 2.4,
-    "relevance": 20,
-    "freshness": 12.8,
-    "corroborated": 10
-   },
-   "keywords": [
-    "airport",
-    "tourism",
-    "airline",
-    "flight"
-   ],
-   "shock_terms": [],
-   "dedupe_match": null,
-   "dedupe_similarity": 0.17,
-   "id": "a0b11ce0db0a",
-   "title": "High Airfares and Limited Direct Flights Threaten Africa\u2019s Tourism Growth",
-   "url": "https://katakenya.org/high-airfares-and-limited-direct-flights-threaten-africas-tourism-growth",
-   "summary": "Africa\u2019s growing tourism market continues to face significant barriers from high airfares, expensive airline operations and limited direct flight connections, with the cost of travelling between African destinations undermining efforts to expand regional and multi-country tourism. An analysis published by Airports Council International Africa (ACI Africa) on November 18 highlights the contrast bet",
-   "kind": "item",
-   "source": "Kenya Association of Travel Agents news",
-   "source_id": "tp-kata",
-   "tier": 2,
-   "country": "KE",
-   "category": "trade",
-   "segments": [
-    "city",
-    "bush",
-    "beach"
-   ],
-   "first_seen": "2026-11-22T20:10+03:00",
-   "published": "2026-11-22",
-   "verdict": "CONSIDER"
-  },
-  {
-   "score": 68.8,
-   "components": {
-    "tier": 20,
-    "category": 4,
-    "lead": 0.0,
-    "relevance": 20,
-    "freshness": 12.8,
-    "undated": -6,
-    "shock": 18
-   },
-   "keywords": [
-    "collapse",
-    "strike"
-   ],
-   "shock_terms": [
-    "strike"
-   ],
-   "dedupe_match": null,
-   "dedupe_similarity": 0.0,
-   "id": "0eab8dcfaa89",
-   "title": "World Russian strike kills one in collapsed block of flats near Kyiv",
-   "url": "https://www.newvision.co.ug/category/world/russian-strike-kills-one-in-collapsed-block-o-NV_244599_112026",
-   "summary": "",
-   "kind": "item",
-   "source": "New Vision (Uganda)",
-   "source_id": "np-newvision-ug",
-   "tier": 2,
-   "country": "UG",
-   "category": "press",
-   "segments": [
-    "city",
-    "bush",
-    "beach"
-   ],
-   "first_seen": "2026-11-22T20:10+03:00",
-   "published": null,
-   "verdict": "weak"
-  },
-  {
-   "score": 67.2,
-   "components": {
-    "tier": 5,
-    "category": 5,
-    "lead": 2.4,
-    "relevance": 32,
-    "freshness": 12.8,
-    "corroborated": 10
-   },
-   "keywords": [
-    "cancel",
-    "eta",
-    "flood",
-    "beach"
-   ],
-   "shock_terms": [],
-   "dedupe_match": null,
-   "dedupe_similarity": 0.29,
-   "id": "7cec07d02ea2",
-   "title": "Puerto Rico and US Virgin Islands Face Renewed Flood and Beach Safety Threats",
-   "url": "https://www.travelandtourworld.com/news/article/gy4a1ejncwn8",
-   "summary": "If you are packing for a Thanksgiving getaway to Puerto Rico or the US Virgin Islands, your itinerary needs a smart weather pivot\u2014not a cancellation. After intense storms drenched parts of eastern and north-western Puerto Rico with 4 to 6 inches of rain on 21 November 2026, the US National Weather Service (NWS) San Juan office warns that saturated soils, swollen rivers, and renewed thunderstorms r",
-   "kind": "item",
-   "source": "Travel And Tour World",
-   "source_id": "gl-travelandtourworld",
-   "tier": 3,
-   "country": "GLOBAL",
-   "category": "trade",
-   "segments": [
-    "city",
-    "bush",
-    "beach"
-   ],
-   "first_seen": "2026-11-22T20:10+03:00",
-   "published": "2026-11-22",
-   "verdict": "weak"
-  },
-  {
-   "score": 66.2,
-   "components": {
-    "tier": 20,
-    "category": 5,
-    "lead": 2.4,
-    "relevance": 16,
-    "freshness": 12.8,
-    "corroborated": 10
-   },
-   "keywords": [
-    "eta",
-    "booking",
-    "passenger"
-   ],
-   "shock_terms": [],
-   "dedupe_match": null,
-   "dedupe_similarity": 0.0,
-   "id": "a172870eda6b",
-   "title": "Travel Agencies Face Growing Cybersecurity Risks",
-   "url": "https://katakenya.org/travel-agencies-face-growing-cybersecurity-risks",
-   "summary": "Cybersecurity is becoming an increasingly important business risk for travel agencies as bookings, payments, ticketing and customer records move across interconnected digital platforms. Agencies handle sensitive information, including passengers\u2019 names, passport details, contact information, travel itineraries and payment credentials. A compromised email account, booking platform or agency login c",
-   "kind": "item",
-   "source": "Kenya Association of Travel Agents news",
-   "source_id": "tp-kata",
-   "tier": 2,
-   "country": "KE",
-   "category": "trade",
-   "segments": [
-    "city",
-    "bush",
-    "beach"
-   ],
-   "first_seen": "2026-11-22T20:10+03:00",
-   "published": "2026-11-22",
-   "verdict": "weak"
-  },
-  {
-   "score": 66.2,
-   "components": {
-    "tier": 20,
-    "category": 5,
-    "lead": 2.4,
-    "relevance": 16,
-    "freshness": 12.8,
-    "corroborated": 10
-   },
-   "keywords": [
-    "arrivals",
-    "tourism",
-    "tourist"
-   ],
-   "shock_terms": [],
-   "dedupe_match": null,
-   "dedupe_similarity": 0.17,
-   "id": "22f415716d3d",
-   "title": "Africa Records 4% Growth in International Tourist Arrivals in the First Half of 2026",
-   "url": "https://katakenya.org/africa-records-4-growth-in-international-tourist-arrivals-in-the-first-half-of-2026",
-   "summary": "Africa recorded a 4% increase in international tourist arrivals during the first half of 2026 compared with the corresponding period in 2025, signalling continued growth in demand for destinations across the continent, according to the World Bank\u2019s November Tourism Watch report released on November 16. Rwanda and Mozambique recorded some of the strongest performances, [\u2026]",
-   "kind": "item",
-   "source": "Kenya Association of Travel Agents news",
-   "source_id": "tp-kata",
-   "tier": 2,
-   "country": "KE",
-   "category": "trade",
-   "segments": [
-    "city",
-    "bush",
-    "beach"
-   ],
-   "first_seen": "2026-11-22T20:10+03:00",
-   "published": "2026-11-22",
-   "verdict": "weak"
-  },
-  {
-   "score": 66.2,
-   "components": {
-    "tier": 20,
-    "category": 5,
-    "lead": 2.4,
-    "relevance": 16,
-    "freshness": 12.8,
-    "corroborated": 10
-   },
-   "keywords": [
-    "airport",
-    "airline",
-    "passenger"
-   ],
-   "shock_terms": [],
-   "dedupe_match": null,
-   "dedupe_similarity": 0.33,
-   "id": "b2b12241ea7a",
-   "title": "Nigeria Makes Biometric Verification Mandatory for Domestic Air Travel from January 2027",
-   "url": "https://katakenya.org/nigeria-makes-biometric-verification-mandatory-for-domestic-air-travel-from-january-2027",
-   "summary": "Nigeria has directed all scheduled domestic airlines to integrate with a new biometric passenger verification platform by December 31, 2026, ahead of mandatory enforcement from January 1, 2027, in a move aimed at strengthening airport security and improving passenger identification. The Airport Passenger Verification System, known as vPASS, was unveiled by the Federal Government on [\u2026]",
-   "kind": "item",
-   "source": "Kenya Association of Travel Agents news",
-   "source_id": "tp-kata",
-   "tier": 2,
-   "country": "KE",
-   "category": "trade",
-   "segments": [
-    "city",
-    "bush",
-    "beach"
-   ],
-   "first_seen": "2026-11-22T20:10+03:00",
-   "published": "2026-11-22",
-   "verdict": "weak"
-  },
-  {
-   "score": 66.0,
-   "components": {
-    "tier": 5,
-    "category": 5,
-    "lead": 2.4,
-    "relevance": 24,
-    "freshness": 19.6,
-    "corroborated": 10
-   },
-   "keywords": [
-    "eta",
-    "route",
-    "tourism",
-    "beach"
-   ],
-   "shock_terms": [],
-   "dedupe_match": null,
-   "dedupe_similarity": 0.0,
-   "id": "97eecb746a2b",
-   "title": "England Unveils Bideford as a North Devon Gem With Historic Harbour and Coastal Escapes",
-   "url": "https://www.travelandtourworld.com/news/article/gf0dnrqaz74g",
-   "summary": "England's picturesque riverside town of Bideford is attracting attention as an appealing North Devon getaway, combining centuries of maritime heritage with independent shopping, coastal adventures and family-friendly attractions. Set beside the River Torridge, this historic trading settlement offers an alternative to the country's crowded urban tourism destinations. Visitors can discover tradition",
-   "kind": "item",
-   "source": "Travel And Tour World",
-   "source_id": "gl-travelandtourworld",
-   "tier": 3,
-   "country": "GLOBAL",
-   "category": "trade",
-   "segments": [
-    "city",
-    "bush",
-    "beach"
-   ],
-   "first_seen": "2026-11-23T02:21+03:00",
-   "published": "2026-11-23",
-   "verdict": "weak"
-  },
-  {
-   "score": 64.8,
-   "components": {
-    "tier": 20,
-    "category": 4,
-    "lead": 0.0,
-    "relevance": 0,
-    "freshness": 12.8,
-    "corroborated": 10,
-    "shock": 18
-   },
-   "keywords": [],
-   "shock_terms": [
-    "attack"
-   ],
-   "dedupe_match": null,
-   "dedupe_similarity": 0.17,
-   "id": "0a2b3c7d8c88",
-   "title": "Killing of Ugandan returnee likely a family dispute - police",
-   "url": "https://www.monitor.co.ug/uganda/magazines/people-power/killing-of-ugandan-returnee-likely-a-family-dispute-police-5679890",
-   "summary": "Andrew Martin Niwagaba was attacked on November 8, at about 11pm in Ngoma Sub-county, Ntungamo...",
-   "kind": "item",
-   "source": "Daily Monitor (Uganda)",
-   "source_id": "np-monitor-ug",
-   "tier": 2,
-   "country": "UG",
-   "category": "press",
-   "segments": [
-    "city",
-    "bush",
-    "beach"
-   ],
-   "first_seen": "2026-11-22T20:10+03:00",
-   "published": "2026-11-22",
-   "verdict": "weak"
-  },
-  {
-   "score": 63.6,
-   "components": {
-    "tier": 5,
-    "category": 5,
-    "lead": 0.0,
-    "relevance": 24,
-    "freshness": 19.6,
-    "corroborated": 10
-   },
-   "keywords": [
-    "fuel",
-    "flood",
-    "tourism",
-    "summit"
-   ],
-   "shock_terms": [],
-   "dedupe_match": null,
-   "dedupe_similarity": 0.0,
-   "id": "4c0b5b9a3316",
-   "title": "Failed in Antalya. Geoffrey Lipman Says Tourism Can\u2019t Wait",
-   "url": "https://eturbonews.com/cop31-failure-geoffrey-lipman-tourism-climate-action",
-   "summary": "UN climate talks in Antalya ended without an overarching agreement after governments split over whether to name fossil fuels in the final text. Speaking to eTurboNews, SUNx Malta President Geoffrey Lipman called COP31 a setback and urged travel and tourism to cut emissions sharply by 2030 and prepare for worsening heatwaves, floods, hurricanes and drought. New research presented at the summit show",
-   "kind": "item",
-   "source": "eTurboNews Africa",
-   "source_id": "tp-eturbonews",
-   "tier": 3,
-   "country": "GLOBAL",
-   "category": "trade",
-   "segments": [
-    "city",
-    "bush",
-    "beach"
-   ],
-   "first_seen": "2026-11-23T02:21+03:00",
-   "published": "2026-11-22",
-   "verdict": "weak"
-  },
-  {
-   "score": 62.0,
-   "components": {
-    "tier": 5,
-    "category": 5,
-    "lead": 2.4,
-    "relevance": 20,
-    "freshness": 19.6,
-    "corroborated": 10
-   },
-   "keywords": [
-    "vat",
-    "wildlife",
-    "beach"
-   ],
-   "shock_terms": [],
-   "dedupe_match": null,
-   "dedupe_similarity": 0.0,
-   "id": "0ef4d2b59643",
-   "title": "Dominica Emerges as Caribbean Solo Travel Paradise With Rainforests and Volcanic Wonders",
-   "url": "https://www.travelandtourworld.com/news/article/iy6ord9u0x3i",
-   "summary": "Dominica is strengthening its reputation as one of the Caribbean's most captivating destinations for solo travellers, offering extraordinary rainforest adventures, volcanic landscapes, breathtaking waterfalls and remarkable marine wildlife. Known as the Nature Island of the Caribbean, Dominica provides an appealing alternative to conventional beach holidays, inviting independent visitors to explor",
-   "kind": "item",
-   "source": "Travel And Tour World",
-   "source_id": "gl-travelandtourworld",
-   "tier": 3,
-   "country": "GLOBAL",
-   "category": "trade",
-   "segments": [
-    "city",
-    "bush",
-    "beach"
-   ],
-   "first_seen": "2026-11-23T02:21+03:00",
-   "published": "2026-11-23",
-   "verdict": "weak"
-  },
-  {
-   "score": 62.0,
-   "components": {
-    "tier": 5,
-    "category": 5,
-    "lead": 2.4,
-    "relevance": 20,
-    "freshness": 19.6,
-    "corroborated": 10
-   },
-   "keywords": [
-    "route",
-    "wildlife",
-    "tourism"
-   ],
-   "shock_terms": [],
-   "dedupe_match": null,
-   "dedupe_similarity": 0.11,
-   "id": "55ff0786bd91",
-   "title": "Argentina Unveils Stunning UNESCO Heritage Sites From Patagonia Glaciers to Iguazu Falls",
-   "url": "https://www.travelandtourworld.com/news/article/l1wufxt6cs4y",
-   "summary": "Argentina is inviting international travellers to discover an extraordinary collection of 12 UNESCO World Heritage Sites, bringing together some of South America's most remarkable natural wonders and cultural landmarks. From the thunderous waterfalls of Iguazu and the immense glaciers of Patagonia to prehistoric cave paintings, ancient Andean routes and colonial architecture, the country's protect",
-   "kind": "item",
-   "source": "Travel And Tour World",
-   "source_id": "gl-travelandtourworld",
-   "tier": 3,
-   "country": "GLOBAL",
-   "category": "trade",
-   "segments": [
-    "city",
-    "bush",
-    "beach"
-   ],
-   "first_seen": "2026-11-23T02:21+03:00",
-   "published": "2026-11-23",
-   "verdict": "weak"
-  },
-  {
-   "score": 62.0,
-   "components": {
-    "tier": 5,
-    "category": 5,
-    "lead": 2.4,
-    "relevance": 20,
-    "freshness": 19.6,
-    "corroborated": 10
-   },
-   "keywords": [
-    "arrivals",
-    "tourism",
-    "tourist",
-    "opening"
-   ],
-   "shock_terms": [],
-   "dedupe_match": null,
-   "dedupe_similarity": 0.17,
-   "id": "79d397321f1c",
-   "title": "Guyana Unveils Seven Exciting Tourism Adventures Featuring Rainforests, Rivers and Culture",
-   "url": "https://www.travelandtourworld.com/news/article/mt68drjqgb0h",
-   "summary": "Guyana is opening an exciting new chapter in South American tourism with the introduction of seven visitor experiences combining outdoor adventure, cultural heritage, rainforest accommodation and community exploration. Unveiled during Tourism Awareness Month in November 2026, the additions range from kayaking adventures and overnight nature stays to African heritage experiences, religious diversit",
-   "kind": "item",
-   "source": "Travel And Tour World",
-   "source_id": "gl-travelandtourworld",
-   "tier": 3,
-   "country": "GLOBAL",
-   "category": "trade",
-   "segments": [
-    "city",
-    "bush",
-    "beach"
-   ],
-   "first_seen": "2026-11-23T02:21+03:00",
-   "published": "2026-11-23",
-   "verdict": "weak"
-  },
-  {
-   "score": 61.2,
-   "components": {
-    "tier": 20,
-    "category": 4,
-    "lead": 0.0,
-    "relevance": 8,
-    "freshness": 17.2,
-    "undated": -6,
-    "shock": 18
-   },
-   "keywords": [
-    "strike"
-   ],
-   "shock_terms": [
-    "strike"
-   ],
-   "dedupe_match": null,
-   "dedupe_similarity": 0.0,
-   "id": "f3030b7b4e13",
-   "title": "World Drone strikes hit homes, UN building in Sudan's capital A drone strike completely destroyed a house, a witness said, while a Sudanese army source said the drones had been launched from Ethiopia.",
-   "url": "https://www.newvision.co.ug/category/world/drone-strikes-hit-homes-un-building-in-sudans-NV_244617_112026",
-   "summary": "",
-   "kind": "item",
-   "source": "New Vision (Uganda)",
-   "source_id": "np-newvision-ug",
-   "tier": 2,
-   "country": "UG",
-   "category": "press",
-   "segments": [
-    "city",
-    "bush",
-    "beach"
-   ],
-   "first_seen": "2026-11-23T00:06+03:00",
-   "published": null,
-   "verdict": "weak"
-  },
-  {
-   "score": 61.2,
-   "components": {
-    "tier": 20,
-    "category": 4,
-    "lead": 0.0,
-    "relevance": 8,
-    "freshness": 17.2,
-    "undated": -6,
-    "shock": 18
-   },
-   "keywords": [
-    "strike"
-   ],
-   "shock_terms": [
-    "strike"
-   ],
-   "dedupe_match": null,
-   "dedupe_similarity": 0.0,
-   "id": "9396c0876fad",
-   "title": "Hull McBurnie strikes late as Hull dent Brighton's title bid",
-   "url": "https://www.newvision.co.ug/category/health/mcburnie-strikes-late-as-hull-dent-brightons",
-   "summary": "",
-   "kind": "item",
-   "source": "New Vision (Uganda)",
-   "source_id": "np-newvision-ug",
-   "tier": 2,
-   "country": "UG",
-   "category": "press",
-   "segments": [
-    "city",
-    "bush",
-    "beach"
-   ],
-   "first_seen": "2026-11-23T00:06+03:00",
-   "published": null,
-   "verdict": "weak"
-  },
-  {
-   "score": 61.2,
-   "components": {
-    "tier": 20,
-    "category": 4,
-    "lead": 2.4,
-    "relevance": 12,
-    "freshness": 12.8,
-    "corroborated": 10
-   },
-   "keywords": [
-    "election",
-    "conference"
-   ],
-   "shock_terms": [],
-   "dedupe_match": null,
-   "dedupe_similarity": 0.14,
-   "id": "4d509d0e9c73",
-   "title": "Tanzania to host SADC electoral commissions conference",
-   "url": "https://www.independent.co.ug/tanzania-to-host-sadc-electoral-commissions-conference",
-   "summary": "DAR ES SALAAM | Xinhua | Tanzania will host a two-day regional conference of electoral commissions from 15 Southern African Development Community (SADC) member commissions to discuss election management and the role of social media in democratic processes, the country\u2019s electoral body said Friday. The 28th General Conference of the Electoral Commissions Forum of \u2026 The post Tanzania to host SADC el",
-   "kind": "item",
-   "source": "The Independent (Uganda)",
-   "source_id": "ug-independent",
-   "tier": 2,
-   "country": "UG",
-   "category": "press",
-   "segments": [
-    "city",
-    "bush",
-    "beach"
-   ],
-   "first_seen": "2026-11-22T20:10+03:00",
-   "published": "2026-11-22",
-   "verdict": "weak"
-  },
-  {
-   "score": 61.0,
-   "components": {
-    "tier": 20,
-    "category": 5,
-    "lead": 1.2,
-    "relevance": 12,
-    "freshness": 12.8,
-    "corroborated": 10
-   },
-   "keywords": [
-    "vat",
-    "tourism"
-   ],
-   "shock_terms": [],
-   "dedupe_match": null,
-   "dedupe_similarity": 0.14,
-   "id": "cf514456c9c0",
-   "title": "Minister Kasune challenges Tourism Industry to raise standards as Zambia targets five million visitors",
-   "url": "https://voyagesafriq.com/2026/11/22/minister-kasune-challenges-tourism-industry-to-raise-standards-as-zambia-targets-five-million-visitors",
-   "summary": "Tourism Minister Princess Kasune has challenged Zambia\u2019s tourism and hospitality industry to move beyond celebrating achievements and focus on delivering world-class services, innovation and competitive tourism products if the country [\u2026] The post Minister Kasune challenges Tourism Industry to raise standards as Zambia targets five million visitors appeared first on Voyages Afriq .",
-   "kind": "item",
-   "source": "VoyagesAfriq",
-   "source_id": "tp-voyagesafriq",
-   "tier": 2,
-   "country": "REG",
-   "category": "trade",
-   "segments": [
-    "city",
-    "bush",
-    "beach"
-   ],
-   "first_seen": "2026-11-22T20:10+03:00",
-   "published": "2026-11-22",
-   "verdict": "weak"
-  },
-  {
-   "score": 58.8,
-   "components": {
-    "tier": 20,
-    "category": 4,
-    "lead": 0.0,
-    "relevance": 12,
-    "freshness": 12.8,
-    "corroborated": 10
-   },
-   "keywords": [
-    "airport",
-    "conference"
-   ],
-   "shock_terms": [],
-   "dedupe_match": null,
-   "dedupe_similarity": 0.17,
-   "id": "7826bbccc68e",
-   "title": "President Samia arrives in Ethiopia for African public health conference",
-   "url": "https://dailynews.co.tz/president-samia-arrives-in-ethiopia-for-african-public-health-conference",
-   "summary": "ADDIS ABABA: PRESIDENT Samia Suluhu Hassan has arrived in Addis Ababa, Ethiopia, for a two-day working visit during which she is expected to participate in the Fifth International Conference on Public Health in Africa (CPHIA 2026). President Samia arrived at Bole International Airport today, November 22, 2026, ahead of the high-level continental health conference, which \u2026 The post President Samia ",
-   "kind": "item",
-   "source": "Daily News (Tanzania)",
-   "source_id": "np-dailynews-tz",
-   "tier": 2,
    "country": "TZ",
-   "category": "press",
+   "category": "fiscal",
    "segments": [
     "city",
     "bush",
     "beach"
    ],
-   "first_seen": "2026-11-22T20:10+03:00",
-   "published": "2026-11-22",
-   "verdict": "weak"
+   "first_seen": "2026-11-23T15:57+03:00",
+   "published": null,
+   "verdict": "STRONG \u2014 tier-1, upstream"
   },
   {
-   "score": 58.8,
+   "score": 93.5,
    "components": {
-    "tier": 20,
-    "category": 4,
-    "lead": 0.0,
-    "relevance": 12,
-    "freshness": 12.8,
-    "corroborated": 10
-   },
-   "keywords": [
-    "fuel",
-    "inflation"
-   ],
-   "shock_terms": [],
-   "dedupe_match": null,
-   "dedupe_similarity": 0.14,
-   "id": "7c339f9ee149",
-   "title": "How inflation threatened to spoil record year for Uganda investors",
-   "url": "https://www.monitor.co.ug/uganda/magazines/people-power/how-inflation-threatened-to-spoil-record-year-for-uganda-investors-5679896",
-   "summary": "Core inflation, which strips out food and fuel, rose to 4.4 percent, its highest since June 2023.",
-   "kind": "item",
-   "source": "Daily Monitor (Uganda)",
-   "source_id": "np-monitor-ug",
-   "tier": 2,
-   "country": "UG",
-   "category": "press",
-   "segments": [
-    "city",
-    "bush",
-    "beach"
-   ],
-   "first_seen": "2026-11-22T20:10+03:00",
-   "published": "2026-11-22",
-   "verdict": "weak"
-  },
-  {
-   "score": 58.2,
-   "components": {
-    "tier": 20,
-    "category": 5,
-    "lead": 2.4,
+    "tier": 40,
+    "category": 15,
+    "lead": 16.8,
     "relevance": 8,
-    "freshness": 12.8,
-    "corroborated": 10
+    "freshness": 19.7,
+    "undated": -6
    },
    "keywords": [
-    "flight",
-    "booking"
+    "tax"
    ],
    "shock_terms": [],
    "dedupe_match": null,
-   "dedupe_similarity": 0.2,
-   "id": "bf4e2b879723",
-   "title": "Kenya\u2019s Travel Industry Gets Its Oscar Night",
-   "url": "https://katakenya.org/kenyas-travel-industry-gets-its-oscar-night",
-   "summary": "KeTIBA returns for a third act. It has one rule: you can\u2019t buy it; you can only earn it from the people who know your work best Picture a Friday evening in peak season. A flight is oversubscribed, and a client is panicking. Somewhere in Nairobi, an agent is on her third phone call, rebooking [\u2026]",
+   "dedupe_similarity": 0.0,
+   "id": "21c66cf962da",
+   "title": "TRA AND IMF STRENGTHEN COOPERATION TO PROMOTE TRANSPARENCY AND ACCOUNTABILITY IN TAX ADMINISTRATION",
+   "url": "https://www.tra.go.tz/news/tra-and-imf-strengthen-cooperation-to-promote-transparency-and-accountability-in-tax-administration",
+   "summary": "",
    "kind": "item",
-   "source": "Kenya Association of Travel Agents news",
-   "source_id": "tp-kata",
-   "tier": 2,
-   "country": "KE",
-   "category": "trade",
+   "source": "Tanzania Revenue Authority",
+   "source_id": "tz-tra",
+   "tier": 1,
+   "country": "TZ",
+   "category": "fiscal",
    "segments": [
     "city",
     "bush",
     "beach"
    ],
-   "first_seen": "2026-11-22T20:10+03:00",
-   "published": "2026-11-22",
-   "verdict": "weak"
+   "first_seen": "2026-11-23T15:57+03:00",
+   "published": null,
+   "verdict": "STRONG \u2014 tier-1, upstream"
   },
   {
-   "score": 58.0,
+   "score": 92.1,
    "components": {
-    "tier": 5,
-    "category": 5,
-    "lead": 2.4,
-    "relevance": 16,
-    "freshness": 19.6,
+    "tier": 20,
+    "category": 14,
+    "lead": 8.4,
+    "relevance": 20,
+    "freshness": 19.7,
     "corroborated": 10
    },
    "keywords": [
-    "seat",
-    "airline",
+    "route",
+    "charter",
     "flight"
    ],
    "shock_terms": [],
    "dedupe_match": null,
-   "dedupe_similarity": 0.17,
-   "id": "a666b254b45f",
-   "title": "Starlux Airlines Flies Weekly A321neo Trips From Taipei To Bali Amid Asian Market Shifts",
-   "url": "https://www.travelandtourworld.com/news/article/4d0anwrb14f8",
-   "summary": "Starlux Airlines is offering flights between Taipei and Bali on a weekly basis, with new developments in this Asian region causing some major excitement. Secure your seat! In a bid to compete with Starlux Airlines, competitors are scrambling to respond. Starlux Airlines is offering flights between Taipei and Bali on a weekly basis, with new developments in this busy region of Asia. Book early to g",
+   "dedupe_similarity": 0.14,
+   "id": "be36d4f340e7",
+   "title": "China West Air Adds Shiyan \u2013 Hanoi Charters in 4Q26",
+   "url": "https://www.aeroroutes.com/eng/261123-pn4q26han",
+   "summary": "Published at 0230PCT / 0930GMT 23NOV26 China West Air last week launched limited time charter service on Shiyan \u2013 Hanoi route, on board Airbus A320 aircraft. The inaugural flight was launched on 19NOV26, operating every 4-5 days until 12DEC26. PN6477 WDS1555 \u2013 1745HAN 32A PN6478 HAN1135 \u2013 1455WDS 32A",
    "kind": "item",
-   "source": "Travel And Tour World",
-   "source_id": "gl-travelandtourworld",
-   "tier": 3,
+   "source": "AeroRoutes schedule filings",
+   "source_id": "aeroroutes",
+   "tier": 2,
    "country": "GLOBAL",
-   "category": "trade",
+   "category": "aviation-tracker",
    "segments": [
     "city",
     "bush",
     "beach"
    ],
-   "first_seen": "2026-11-23T02:21+03:00",
+   "first_seen": "2026-11-23T15:58+03:00",
    "published": "2026-11-23",
-   "verdict": "weak"
+   "verdict": "CONSIDER"
   },
   {
-   "score": 58.0,
+   "score": 90.7,
    "components": {
-    "tier": 5,
-    "category": 5,
-    "lead": 2.4,
-    "relevance": 16,
-    "freshness": 19.6,
-    "corroborated": 10
-   },
-   "keywords": [
-    "vat",
-    "resort",
-    "beach"
-   ],
-   "shock_terms": [],
-   "dedupe_match": null,
-   "dedupe_similarity": 0.0,
-   "id": "1ebe6be6b7f7",
-   "title": "Spain Unveils Six Hidden Travel Gems Beyond Crowded Beaches for Unforgettable Holidays",
-   "url": "https://www.travelandtourworld.com/news/article/oyuwtoegw3tx",
-   "summary": "Spain is revealing a captivating alternative to its bustling beach resorts in 2026, with six distinctive destinations offering travellers historic architecture, spectacular landscapes, cultural discoveries and more relaxed holiday experiences. From the dramatic mountain setting of Ronda and Mallorca's peaceful countryside to the volcanic beauty of La Palma, the country's lesser-explored attraction",
-   "kind": "item",
-   "source": "Travel And Tour World",
-   "source_id": "gl-travelandtourworld",
-   "tier": 3,
-   "country": "GLOBAL",
-   "category": "trade",
-   "segments": [
-    "city",
-    "bush",
-    "beach"
-   ],
-   "first_seen": "2026-11-23T02:21+03:00",
-   "published": "2026-11-23",
-   "verdict": "weak"
-  },
-  {
-   "score": 57.2,
-   "components": {
-    "tier": 20,
-    "category": 4,
-    "lead": 2.4,
+    "tier": 40,
+    "category": 7,
+    "lead": 6.0,
     "relevance": 8,
-    "freshness": 12.8,
-    "corroborated": 10
-   },
-   "keywords": [
-    "election"
-   ],
-   "shock_terms": [],
-   "dedupe_match": null,
-   "dedupe_similarity": 0.29,
-   "id": "9592eabe18da",
-   "title": "MDG Responds to Gachagua's Claims of Ruto Funding",
-   "url": "https://www.kenyans.co.ke/news/129589-mdg-leader-dismisses-gachaguas-funding-claims",
-   "summary": "Gachagua recently claimed President William Ruto was funding a party to weaken ODM in Nyanza, as the 2027 elections near.",
-   "kind": "item",
-   "source": "Kenyans.co.ke news",
-   "source_id": "ke-kenyans",
-   "tier": 2,
-   "country": "KE",
-   "category": "press",
-   "segments": [
-    "city",
-    "bush",
-    "beach"
-   ],
-   "first_seen": "2026-11-22T20:10+03:00",
-   "published": "2026-11-22",
-   "verdict": "weak"
-  },
-  {
-   "score": 57.2,
-   "components": {
-    "tier": 20,
-    "category": 4,
-    "lead": 2.4,
-    "relevance": 8,
-    "freshness": 12.8,
-    "corroborated": 10
-   },
-   "keywords": [
-    "protest"
-   ],
-   "shock_terms": [],
-   "dedupe_match": null,
-   "dedupe_similarity": 0.0,
-   "id": "7a6c3f023f8c",
-   "title": "Gachagua Threatens Fresh Protests in January, Gives IEBC Ultimatum",
-   "url": "https://www.kenyans.co.ke/news/129588-gachagua-sets-january-deadline-iebc-address-opposition-concerns",
-   "summary": "Gachagua has hinted at possible industrial action in January should the IEBC fail to meet opposition's demands.",
-   "kind": "item",
-   "source": "Kenyans.co.ke news",
-   "source_id": "ke-kenyans",
-   "tier": 2,
-   "country": "KE",
-   "category": "press",
-   "segments": [
-    "city",
-    "bush",
-    "beach"
-   ],
-   "first_seen": "2026-11-22T20:10+03:00",
-   "published": "2026-11-22",
-   "verdict": "weak"
-  },
-  {
-   "score": 57.2,
-   "components": {
-    "tier": 20,
-    "category": 4,
-    "lead": 2.4,
-    "relevance": 8,
-    "freshness": 12.8,
-    "corroborated": 10
-   },
-   "keywords": [
-    "vat"
-   ],
-   "shock_terms": [],
-   "dedupe_match": null,
-   "dedupe_similarity": 0.1,
-   "id": "ebbd6fa678c7",
-   "title": "Canada joins NATO Innovation Fund as 25th participating ally",
-   "url": "https://www.independent.co.ug/canada-joins-nato-innovation-fund-as-25th-participating-ally",
-   "summary": "OTTAWA | Xinhua | Canadian Minister of National Defence David McGuinty announced on Saturday that Canada has concluded negotiations and formally joined the North Atlantic Treaty Organization (NATO) Innovation Fund (NIF), becoming the 25th NATO ally and the first in North America to join. As part of its admission, Canada will contribute more than 100 \u2026 The post Canada joins NATO Innovation Fund as ",
-   "kind": "item",
-   "source": "The Independent (Uganda)",
-   "source_id": "ug-independent",
-   "tier": 2,
-   "country": "UG",
-   "category": "press",
-   "segments": [
-    "city",
-    "bush",
-    "beach"
-   ],
-   "first_seen": "2026-11-22T20:10+03:00",
-   "published": "2026-11-22",
-   "verdict": "weak"
-  },
-  {
-   "score": 57.2,
-   "components": {
-    "tier": 20,
-    "category": 4,
-    "lead": 2.4,
-    "relevance": 8,
-    "freshness": 12.8,
+    "freshness": 19.7,
     "corroborated": 10
    },
    "keywords": [
@@ -1349,35 +499,105 @@
    ],
    "shock_terms": [],
    "dedupe_match": null,
-   "dedupe_similarity": 0.0,
-   "id": "d0729cf620af",
-   "title": "Arteta sweats on Raya scan, rues missed chances at Newcastle",
-   "url": "https://nation.africa/kenya/sports/football/arteta-sweats-on-raya-scan-rues-missed-chances-at-newcastle-5680596",
-   "summary": "Raya left the field holding his left arm in the 70th minute and was replaced by Kepa Arrizabalaga.",
+   "dedupe_similarity": 0.17,
+   "id": "7610f542b81b",
+   "title": "Regional Monitoring Committee Calls for Accelerated Implementation of Roadmpad to Achieven Monetary union by 2031",
+   "url": "https://www.eac.int/press-releases/145-financial-sector/3624-regional-monitoring-committee-calls-for-accelerated-implementation-of-roadmpad-to-achieven-monetary-union-by-2031",
+   "summary": "East African Community Headquarters, Arusha, Tanzania, 23rd November, 2026: The East African Monetary Union (EAMU) Roadmap Regional Monitoring Committee has called for accelerated implementation of key reforms necessary for the establishment of the East African Monetary Union (EAMU) by 2031. The Committee made the call during its meeting held in Arusha, Tanzania, from 16th to 18th November 2026, w",
    "kind": "item",
-   "source": "Nation Africa: Kenya business",
-   "source_id": "ke-nation-business",
+   "source": "East African Community \u2014 Secretariat news",
+   "source_id": "eac-secretariat",
+   "tier": 1,
+   "country": "Regional",
+   "category": "body",
+   "segments": [
+    "city"
+   ],
+   "first_seen": "2026-11-23T15:57+03:00",
+   "published": "2026-11-23",
+   "verdict": "STRONG \u2014 tier-1, upstream"
+  },
+  {
+   "score": 89.3,
+   "components": {
+    "tier": 40,
+    "category": 32,
+    "lead": 3.6,
+    "relevance": 8,
+    "freshness": 19.7,
+    "stale_trap": -10,
+    "page_change": -4
+   },
+   "keywords": [
+    "election"
+   ],
+   "shock_terms": [],
+   "dedupe_match": null,
+   "dedupe_similarity": 0.17,
+   "id": "0d7006fcea08",
+   "title": "[page changed] Federal Register \u2014 public inspection (HHS/CDC), pre-publication",
+   "url": "https://www.federalregister.gov/api/v1/public-inspection-documents/current.json",
+   "summary": "{\"count\":94,\"results\":[{\"agencies\":[{\"raw_name\":\"ELECTION ASSISTANCE COMMISSION\",\"name\":\"Election Assistance Commission\",\"id\":127,\"url\":\"https://www.federalregister.gov/agencies/election-assistance-commission\",\"json_url\":\"https://www.federalregister.gov/api/v1/agencies/127\",\"parent_id\":null,\"slug\":\"election-assistance-commission\"}],\"agency_letters\":[],\"agency_names\":[\"Election Assistance Commissio",
+   "kind": "page-change",
+   "source": "Federal Register \u2014 public inspection (HHS/CDC), pre-publication",
+   "source_id": "us-fedreg-pubinspect-hhs",
+   "tier": 1,
+   "country": "REG",
+   "category": "advisory",
+   "segments": [
+    "city",
+    "bush"
+   ],
+   "first_seen": "2026-11-23T15:56+03:00",
+   "published": "2026-11-19",
+   "verdict": "CHECK \u2014 source date older than the window"
+  },
+  {
+   "score": 88.1,
+   "components": {
+    "tier": 20,
+    "category": 14,
+    "lead": 8.4,
+    "relevance": 16,
+    "freshness": 19.7,
+    "corroborated": 10
+   },
+   "keywords": [
+    "route",
+    "airline",
+    "flight"
+   ],
+   "shock_terms": [],
+   "dedupe_match": null,
+   "dedupe_similarity": 0.33,
+   "id": "d047dab7b88e",
+   "title": "Sun PhuQuoc Airways Adds Da Nang \u2013 Seoul in 1Q27",
+   "url": "https://www.aeroroutes.com/eng/261123-9g1q27dad",
+   "summary": "Published at 0200PCT / 0900GMT 23NOV26 Vietnam\u2019s Sun PhuQuoc Airways in the first quarter of 2027 plans to launch Da Nang \u2013 Seoul Incheon route, the carrier\u2019s first international route at Da Nang. Airbus A321neo to serve this route on daily basis from 15JAN27. 9G420 DAD2315 \u2013 0530+1ICN 32Q D 9G421 ICN0700 \u2013 1010DAD 32Q D With this route addition, the airline operates 6 daily flights from Vietnam t",
+   "kind": "item",
+   "source": "AeroRoutes schedule filings",
+   "source_id": "aeroroutes",
    "tier": 2,
-   "country": "KE",
-   "category": "press",
+   "country": "GLOBAL",
+   "category": "aviation-tracker",
    "segments": [
     "city",
     "bush",
     "beach"
    ],
-   "first_seen": "2026-11-22T20:10+03:00",
-   "published": "2026-11-22",
-   "verdict": "weak"
+   "first_seen": "2026-11-23T15:58+03:00",
+   "published": "2026-11-23",
+   "verdict": "CONSIDER"
   },
   {
-   "score": 57.2,
+   "score": 88.1,
    "components": {
-    "tier": 20,
-    "category": 4,
+    "tier": 40,
+    "category": 24,
     "lead": 2.4,
     "relevance": 8,
-    "freshness": 12.8,
-    "corroborated": 10
+    "freshness": 19.7,
+    "undated": -6
    },
    "keywords": [
     "vat"
@@ -1385,92 +605,803 @@
    "shock_terms": [],
    "dedupe_match": null,
    "dedupe_similarity": 0.0,
-   "id": "348be1f02b37",
-   "title": "Shock for Lamu residents as private investor unleashes title for 750-acre 'ancestral land'",
-   "url": "https://nation.africa/kenya/counties/lamu/shock-for-lamu-residents-as-private-investor-unleashes-title-for-750-acre-ancestral-land--5680168",
-   "summary": "The parcel near Lamu Port has exposed irregularities.",
+   "id": "27c9a1bec697",
+   "title": "PS Oluga Urges Youth to Harness AI and Innovation to Transform Healthcare",
+   "url": "https://www.health.go.ke/ps-oluga-urges-youth-harness-ai-and-innovation-transform-healthcare-0",
+   "summary": "",
    "kind": "item",
-   "source": "Nation Africa: Kenya business",
-   "source_id": "ke-nation-business",
-   "tier": 2,
+   "source": "Kenya Ministry of Health",
+   "source_id": "ke-moh",
+   "tier": 1,
    "country": "KE",
-   "category": "press",
+   "category": "health",
    "segments": [
     "city",
     "bush",
     "beach"
    ],
-   "first_seen": "2026-11-22T20:10+03:00",
-   "published": "2026-11-22",
-   "verdict": "weak"
+   "first_seen": "2026-11-23T15:57+03:00",
+   "published": null,
+   "verdict": "CONSIDER"
   },
   {
-   "score": 57.0,
+   "score": 88.1,
    "components": {
-    "tier": 20,
-    "category": 5,
-    "lead": 1.2,
+    "tier": 40,
+    "category": 24,
+    "lead": 2.4,
     "relevance": 8,
-    "freshness": 12.8,
-    "corroborated": 10
+    "freshness": 19.7,
+    "undated": -6
    },
    "keywords": [
     "vat"
    ],
+   "shock_terms": [],
+   "dedupe_match": null,
+   "dedupe_similarity": 0.0,
+   "id": "601bdee39762",
+   "title": "PS Oluga Urges Youth to Harness AI and Innovation to Transform Healthcare",
+   "url": "https://www.health.go.ke/ps-oluga-urges-youth-harness-ai-and-innovation-transform-healthcare",
+   "summary": "",
+   "kind": "item",
+   "source": "Kenya Ministry of Health",
+   "source_id": "ke-moh",
+   "tier": 1,
+   "country": "KE",
+   "category": "health",
+   "segments": [
+    "city",
+    "bush",
+    "beach"
+   ],
+   "first_seen": "2026-11-23T15:57+03:00",
+   "published": null,
+   "verdict": "CONSIDER"
+  },
+  {
+   "score": 87.5,
+   "components": {
+    "tier": 40,
+    "category": 17,
+    "lead": 16.8,
+    "relevance": 0,
+    "freshness": 19.7,
+    "undated": -6
+   },
+   "keywords": [],
+   "shock_terms": [],
+   "dedupe_match": null,
+   "dedupe_similarity": 0.17,
+   "id": "bf88a27d1228",
+   "title": "23 Nov 26 TAARIFA KWA UMMA Soma zaidi kwa kubonyeza link hapo chini TAARIFA KWA UMMA Read More",
+   "url": "https://www.tira.go.tz/news/taarifa-kwa-umma-4",
+   "summary": "",
+   "kind": "item",
+   "source": "Tanzania Insurance Regulatory Authority (TIRA)",
+   "source_id": "tz-tira",
+   "tier": 1,
+   "country": "TZ",
+   "category": "regulator",
+   "segments": [
+    "beach",
+    "bush",
+    "city"
+   ],
+   "first_seen": "2026-11-23T15:57+03:00",
+   "published": null,
+   "verdict": "CONSIDER"
+  },
+  {
+   "score": 87.5,
+   "components": {
+    "tier": 40,
+    "category": 9,
+    "lead": 16.8,
+    "relevance": 8,
+    "freshness": 19.7,
+    "undated": -6
+   },
+   "keywords": [
+    "hotel",
+    "resort"
+   ],
+   "shock_terms": [],
+   "dedupe_match": null,
+   "dedupe_similarity": 0.0,
+   "id": "38e2956a41f5",
+   "title": "Minor Hotels Expands China Presence with the Announcement of Anantara Chongqing Beibei Resort",
+   "url": "https://media.minorhotels.com/en-GLO/275188-minor-hotels-expands-china-presence-with-the-announcement-of-anantara-chongqing-beibei-resort",
+   "summary": "",
+   "kind": "item",
+   "source": "Minor Hotels newsroom",
+   "source_id": "dev-minor",
+   "tier": 1,
+   "country": "GLOBAL",
+   "category": "hotel-group",
+   "segments": [
+    "beach"
+   ],
+   "first_seen": "2026-11-23T15:56+03:00",
+   "published": null,
+   "verdict": "CONSIDER"
+  },
+  {
+   "score": 85.5,
+   "components": {
+    "tier": 40,
+    "category": 15,
+    "lead": 16.8,
+    "relevance": 0,
+    "freshness": 19.7,
+    "undated": -6
+   },
+   "keywords": [],
+   "shock_terms": [],
+   "dedupe_match": null,
+   "dedupe_similarity": 0.17,
+   "id": "c221a769c9b5",
+   "title": "TRA, CHINA CUSTOMS AGREE TO STRATEGIC PARTNERSHIP TO ADVANCE SMART CUSTOMS AND FACILITATE TRADE 21 November, 2026 The Tanzania Revenue Authority (TRA) has held discussions with a delegation from the General Administration of\u2026 -->",
+   "url": "https://www.tra.go.tz/news/tra-china-customs-agree-to-strategic-partnership-to-advance-smart-customs-and-facilitate-trade",
+   "summary": "",
+   "kind": "item",
+   "source": "Tanzania Revenue Authority",
+   "source_id": "tz-tra",
+   "tier": 1,
+   "country": "TZ",
+   "category": "fiscal",
+   "segments": [
+    "city",
+    "bush",
+    "beach"
+   ],
+   "first_seen": "2026-11-23T15:57+03:00",
+   "published": null,
+   "verdict": "CONSIDER"
+  },
+  {
+   "score": 85.3,
+   "components": {
+    "tier": 40,
+    "category": 12,
+    "lead": 3.6,
+    "relevance": 0,
+    "freshness": 19.7,
+    "corroborated": 10
+   },
+   "keywords": [],
+   "shock_terms": [],
+   "dedupe_match": null,
+   "dedupe_similarity": 0.0,
+   "id": "c1f50259d413",
+   "title": "Lufthansa bringt limitierte Travel Etiquette Collection in den WorldShop",
+   "url": "https://newsroom.lufthansagroup.com/lufthansa-bringt-limitierte-travel-etiquette-collection-in-den-worldshop",
+   "summary": "Zwischen Sicherheitskontrolle, Boarding und der Frage, wem eigentlich die Armlehne geh\u00f6rt, gibt es Momente, die alle Passagiere kennen und \u00fcber die man am besten lacht. Genau daraus ist im August 2026 die Travel Etiquette Collection entstanden: Lufthansa hat die ungeschriebenen Gesetze des Fliegens f\u00fcr ein entspanntes Miteinander an Bord humorvoll auf Kleidungsst\u00fccken und Accessoires verewigt: auf",
+   "kind": "item",
+   "source": "Lufthansa Group newsroom",
+   "source_id": "air-lh",
+   "tier": 1,
+   "country": "GLOBAL",
+   "category": "airline",
+   "segments": [
+    "beach"
+   ],
+   "first_seen": "2026-11-23T15:57+03:00",
+   "published": "2026-11-23",
+   "verdict": "CONSIDER"
+  },
+  {
+   "score": 84.1,
+   "components": {
+    "tier": 20,
+    "category": 14,
+    "lead": 8.4,
+    "relevance": 12,
+    "freshness": 19.7,
+    "corroborated": 10
+   },
+   "keywords": [
+    "route",
+    "airline"
+   ],
+   "shock_terms": [],
+   "dedupe_match": null,
+   "dedupe_similarity": 0.29,
+   "id": "bc593a978d34",
+   "title": "Qatar Airways Adds JAL Hawaii Codeshare From Nov 2026",
+   "url": "https://www.aeroroutes.com/eng/261123-qrjlcodeshare",
+   "summary": "Published at 0500PCT / 1200GMT 23NOV26 Qatar Airways earlier this month expanded codeshare partnership with Japan Airlines (JAL), covering the latter\u2019 service between Japan and Hawaii. Following codeshare routes went into effect since mid-Nov 2026. Qatar Airways operated by JAL Osaka Kansai \u2013 Honolulu Tokyo Narita \u2013 Honolulu",
+   "kind": "item",
+   "source": "AeroRoutes schedule filings",
+   "source_id": "aeroroutes",
+   "tier": 2,
+   "country": "GLOBAL",
+   "category": "aviation-tracker",
+   "segments": [
+    "city",
+    "bush",
+    "beach"
+   ],
+   "first_seen": "2026-11-23T15:58+03:00",
+   "published": "2026-11-23",
+   "verdict": "CONSIDER"
+  },
+  {
+   "score": 83.5,
+   "components": {
+    "tier": 40,
+    "category": 9,
+    "lead": 16.8,
+    "relevance": 4,
+    "freshness": 19.7,
+    "undated": -6
+   },
+   "keywords": [
+    "hotel"
+   ],
+   "shock_terms": [],
+   "dedupe_match": null,
+   "dedupe_similarity": 0.0,
+   "id": "17760da81be6",
+   "title": "EVEN Hotels Partners with The Shanghai Rainbow Chamber Singers to Showcase Its Refreshed Brand Proposition in Greater China",
+   "url": "https://www.ihgplc.com/en/news-and-media/news-releases/2026/even-hotels-partners-with-the-shanghai-rainbow-chamber-signers-to-showcase-its-refreshed-brand-proposition-in-greater-china",
+   "summary": "",
+   "kind": "item",
+   "source": "IHG news",
+   "source_id": "dev-ihg",
+   "tier": 1,
+   "country": "GLOBAL",
+   "category": "hotel-group",
+   "segments": [
+    "city",
+    "bush",
+    "beach"
+   ],
+   "first_seen": "2026-11-23T15:56+03:00",
+   "published": null,
+   "verdict": "CONSIDER"
+  },
+  {
+   "score": 82.7,
+   "components": {
+    "tier": 40,
+    "category": 7,
+    "lead": 6.0,
+    "relevance": 0,
+    "freshness": 19.7,
+    "corroborated": 10
+   },
+   "keywords": [],
    "shock_terms": [],
    "dedupe_match": null,
    "dedupe_similarity": 0.2,
-   "id": "d19461f498dd",
-   "title": "EU Ambassadors to Visit Tanga for Green Growth and Blue Economy Talks",
-   "url": "https://www.tanzaniainvest.com/economy/eu-ambassadors-tanga-blue-economy-visit",
-   "summary": "Eleven ambassadors and deputy ambassadors from the European Union and its member states will visit Tanga on 23\u201325 November 2026 to discuss green growth and the blue economy. The delegation will meet local authorities, entrepreneurs, project beneficiaries and private sector representatives to review development priorities and ongoing cooperation.",
+   "id": "9cfa952dcdb3",
+   "title": "EAC Advances Regional Framework for Trusted Cross-Border Data Flows and Data Protection",
+   "url": "https://www.eac.int/eadrip-news-updates/eardip-press-releases/3625-eac-advances-regional-framework-for-trusted-cross-border-data-flows-and-data-protection%20",
+   "summary": "Regional initiative seeks to strengthen trust, enable digital trade and support a more integrated East African digital economy East African Community Headquarters, Arusha, Tanzania, 23rd November, 2026: The East African Community (EAC) has taken another step toward establishing a harmonised regional framework for cross-border data flows and data protection, as Partner States work to create a trust",
    "kind": "item",
-   "source": "TanzaniaInvest \u2014 tourism",
-   "source_id": "tp-tanzaniainvest",
+   "source": "East African Community \u2014 Secretariat news",
+   "source_id": "eac-secretariat",
+   "tier": 1,
+   "country": "Regional",
+   "category": "body",
+   "segments": [
+    "city"
+   ],
+   "first_seen": "2026-11-23T15:57+03:00",
+   "published": "2026-11-23",
+   "verdict": "CONSIDER"
+  },
+  {
+   "score": 82.3,
+   "components": {
+    "tier": 20,
+    "category": 5,
+    "lead": 3.6,
+    "relevance": 24,
+    "freshness": 19.7,
+    "corroborated": 10
+   },
+   "keywords": [
+    "fee",
+    "frequency",
+    "hotel",
+    "guest"
+   ],
+   "shock_terms": [],
+   "dedupe_match": null,
+   "dedupe_similarity": 0.17,
+   "id": "a433774eda2e",
+   "title": "The Touch That Repeats: Sensory Marketing at the Frequency Guests Actually Feel",
+   "url": "https://www.hospitalitynet.org/news/4135623/the-touch-that-repeats-sensory-marketing-at-the-frequency-guests-actually-feel",
+   "summary": "The article examines touch as an underused sensory channel in hotels, using the wooden key card as a case study for how repeated tactile interactions can reinforce brand identity.",
+   "kind": "item",
+   "source": "Hospitality Net \u2014 Africa announcements",
+   "source_id": "dev-hospitalitynet-africa",
    "tier": 2,
-   "country": "TZ",
+   "country": "REG",
    "category": "trade",
    "segments": [
     "city",
     "bush",
     "beach"
    ],
-   "first_seen": "2026-11-22T20:10+03:00",
-   "published": "2026-11-22",
-   "verdict": "weak"
+   "first_seen": "2026-11-23T15:58+03:00",
+   "published": "2026-11-23",
+   "verdict": "CONSIDER"
   },
   {
-   "score": 56.0,
+   "score": 81.3,
    "components": {
-    "tier": 20,
-    "category": 4,
-    "lead": 2.4,
+    "tier": 40,
+    "category": 24,
+    "lead": 3.6,
     "relevance": 0,
-    "freshness": 19.6,
-    "corroborated": 10
+    "freshness": 19.7,
+    "undated": -6
+   },
+   "keywords": [],
+   "shock_terms": [],
+   "dedupe_match": null,
+   "dedupe_similarity": 0.0,
+   "id": "8dcf05a783d4",
+   "title": "Communicable disease threats report, 10 - 16 October 2026, week 42",
+   "url": "https://www.ecdc.europa.eu/en/publications-data/communicable-disease-threats-report-10-16-october-2026-week-42",
+   "summary": "",
+   "kind": "item",
+   "source": "ECDC weekly communicable disease threats report",
+   "source_id": "ecdc-cdtr",
+   "tier": 1,
+   "country": "GLOBAL",
+   "category": "health",
+   "segments": [
+    "city",
+    "bush",
+    "beach"
+   ],
+   "first_seen": "2026-11-23T15:56+03:00",
+   "published": null,
+   "verdict": "CONSIDER"
+  },
+  {
+   "score": 81.3,
+   "components": {
+    "tier": 40,
+    "category": 24,
+    "lead": 3.6,
+    "relevance": 0,
+    "freshness": 19.7,
+    "undated": -6
+   },
+   "keywords": [],
+   "shock_terms": [],
+   "dedupe_match": null,
+   "dedupe_similarity": 0.0,
+   "id": "8efd3a5c5781",
+   "title": "Communicable disease threats report, 3 - 9 October 2026, week 41",
+   "url": "https://www.ecdc.europa.eu/en/publications-data/communicable-disease-threats-report-3-9-october-2026-week-41",
+   "summary": "",
+   "kind": "item",
+   "source": "ECDC weekly communicable disease threats report",
+   "source_id": "ecdc-cdtr",
+   "tier": 1,
+   "country": "GLOBAL",
+   "category": "health",
+   "segments": [
+    "city",
+    "bush",
+    "beach"
+   ],
+   "first_seen": "2026-11-23T15:56+03:00",
+   "published": null,
+   "verdict": "CONSIDER"
+  },
+  {
+   "score": 81.3,
+   "components": {
+    "tier": 40,
+    "category": 24,
+    "lead": 3.6,
+    "relevance": 0,
+    "freshness": 19.7,
+    "undated": -6
+   },
+   "keywords": [],
+   "shock_terms": [],
+   "dedupe_match": null,
+   "dedupe_similarity": 0.12,
+   "id": "0be846c0e008",
+   "title": "Communicable disease threats report, 26 September - 2 October 2026, week 40",
+   "url": "https://www.ecdc.europa.eu/en/publications-data/communicable-disease-threats-report-26-september-2-october-2026-week-40",
+   "summary": "",
+   "kind": "item",
+   "source": "ECDC weekly communicable disease threats report",
+   "source_id": "ecdc-cdtr",
+   "tier": 1,
+   "country": "GLOBAL",
+   "category": "health",
+   "segments": [
+    "city",
+    "bush",
+    "beach"
+   ],
+   "first_seen": "2026-11-23T15:56+03:00",
+   "published": null,
+   "verdict": "CONSIDER"
+  },
+  {
+   "score": 81.3,
+   "components": {
+    "tier": 40,
+    "category": 24,
+    "lead": 3.6,
+    "relevance": 0,
+    "freshness": 19.7,
+    "undated": -6
+   },
+   "keywords": [],
+   "shock_terms": [],
+   "dedupe_match": null,
+   "dedupe_similarity": 0.12,
+   "id": "3826985af713",
+   "title": "Communicable disease threats report, 19-25 September 2026, week 39",
+   "url": "https://www.ecdc.europa.eu/en/publications-data/communicable-disease-threats-report-19-25-september-2026-week-39",
+   "summary": "",
+   "kind": "item",
+   "source": "ECDC weekly communicable disease threats report",
+   "source_id": "ecdc-cdtr",
+   "tier": 1,
+   "country": "GLOBAL",
+   "category": "health",
+   "segments": [
+    "city",
+    "bush",
+    "beach"
+   ],
+   "first_seen": "2026-11-23T15:56+03:00",
+   "published": null,
+   "verdict": "CONSIDER"
+  },
+  {
+   "score": 81.3,
+   "components": {
+    "tier": 40,
+    "category": 24,
+    "lead": 3.6,
+    "relevance": 0,
+    "freshness": 19.7,
+    "undated": -6
+   },
+   "keywords": [],
+   "shock_terms": [],
+   "dedupe_match": null,
+   "dedupe_similarity": 0.12,
+   "id": "6d43f043c4f8",
+   "title": "Communicable disease threats report, 12-18 September 2026, week 38",
+   "url": "https://www.ecdc.europa.eu/en/publications-data/communicable-disease-threats-report-12-18-september-2026-week-38",
+   "summary": "",
+   "kind": "item",
+   "source": "ECDC weekly communicable disease threats report",
+   "source_id": "ecdc-cdtr",
+   "tier": 1,
+   "country": "GLOBAL",
+   "category": "health",
+   "segments": [
+    "city",
+    "bush",
+    "beach"
+   ],
+   "first_seen": "2026-11-23T15:56+03:00",
+   "published": null,
+   "verdict": "CONSIDER"
+  },
+  {
+   "score": 81.3,
+   "components": {
+    "tier": 40,
+    "category": 24,
+    "lead": 3.6,
+    "relevance": 0,
+    "freshness": 19.7,
+    "undated": -6
    },
    "keywords": [],
    "shock_terms": [],
    "dedupe_match": null,
    "dedupe_similarity": 0.14,
-   "id": "ee8c8cfd66bc",
-   "title": "State borrows Sh233bn in four months as debt rises",
-   "url": "https://nation.africa/kenya/business/state-borrows-sh233bn-in-four-months-as-debt-rises--5680638",
-   "summary": "Mounting loans highlight severe debt service pressure amid depressed revenue streams.",
+   "id": "dc7deb580c8b",
+   "title": "Communicable disease threats report, 5 - 11 September 2026, week 37",
+   "url": "https://www.ecdc.europa.eu/en/publications-data/communicable-disease-threats-report-5-11-september-2026-week-37",
+   "summary": "",
    "kind": "item",
-   "source": "Nation Africa: Kenya business",
-   "source_id": "ke-nation-business",
+   "source": "ECDC weekly communicable disease threats report",
+   "source_id": "ecdc-cdtr",
+   "tier": 1,
+   "country": "GLOBAL",
+   "category": "health",
+   "segments": [
+    "city",
+    "bush",
+    "beach"
+   ],
+   "first_seen": "2026-11-23T15:56+03:00",
+   "published": null,
+   "verdict": "CONSIDER"
+  },
+  {
+   "score": 81.3,
+   "components": {
+    "tier": 40,
+    "category": 24,
+    "lead": 3.6,
+    "relevance": 0,
+    "freshness": 19.7,
+    "undated": -6
+   },
+   "keywords": [],
+   "shock_terms": [],
+   "dedupe_match": null,
+   "dedupe_similarity": 0.12,
+   "id": "24805ce02009",
+   "title": "Communicable disease threats report, 29 August - 4 September 2026, week 36",
+   "url": "https://www.ecdc.europa.eu/en/publications-data/communicable-disease-threats-report-29-august-4-september-2026-week-36",
+   "summary": "",
+   "kind": "item",
+   "source": "ECDC weekly communicable disease threats report",
+   "source_id": "ecdc-cdtr",
+   "tier": 1,
+   "country": "GLOBAL",
+   "category": "health",
+   "segments": [
+    "city",
+    "bush",
+    "beach"
+   ],
+   "first_seen": "2026-11-23T15:56+03:00",
+   "published": null,
+   "verdict": "CONSIDER"
+  },
+  {
+   "score": 81.3,
+   "components": {
+    "tier": 40,
+    "category": 24,
+    "lead": 3.6,
+    "relevance": 0,
+    "freshness": 19.7,
+    "undated": -6
+   },
+   "keywords": [],
+   "shock_terms": [],
+   "dedupe_match": null,
+   "dedupe_similarity": 0.12,
+   "id": "a1cd3172d0ff",
+   "title": "Communicable disease threats report, 22 - 28 August 2026, week 35",
+   "url": "https://www.ecdc.europa.eu/en/publications-data/communicable-disease-threats-report-22-28-august-2026-week-35",
+   "summary": "",
+   "kind": "item",
+   "source": "ECDC weekly communicable disease threats report",
+   "source_id": "ecdc-cdtr",
+   "tier": 1,
+   "country": "GLOBAL",
+   "category": "health",
+   "segments": [
+    "city",
+    "bush",
+    "beach"
+   ],
+   "first_seen": "2026-11-23T15:56+03:00",
+   "published": null,
+   "verdict": "CONSIDER"
+  },
+  {
+   "score": 81.1,
+   "components": {
+    "tier": 20,
+    "category": 5,
+    "lead": 2.4,
+    "relevance": 24,
+    "freshness": 19.7,
+    "corroborated": 10
+   },
+   "keywords": [
+    "fee",
+    "frequency",
+    "hotel",
+    "guest"
+   ],
+   "shock_terms": [],
+   "dedupe_match": null,
+   "dedupe_similarity": 0.17,
+   "id": "6e70e4b808bf",
+   "title": "The Touch That Repeats: Sensory Marketing at the Frequency Guests Actually Feel",
+   "url": "https://www.hospitalitynet.org/news/4135623/the-touch-that-repeats-sensory-marketing-at-the-frequency-guests-actually-feel",
+   "summary": "The article examines touch as an underused sensory channel in hotels, using the wooden key card as a case study for how repeated tactile interactions can reinforce brand identity.",
+   "kind": "item",
+   "source": "Hospitality Net: Africa openings",
+   "source_id": "dev-hospitalitynet-openings",
    "tier": 2,
-   "country": "KE",
+   "country": "AFRICA",
+   "category": "trade",
+   "segments": [
+    "city",
+    "bush",
+    "beach"
+   ],
+   "first_seen": "2026-11-23T15:58+03:00",
+   "published": "2026-11-23",
+   "verdict": "CONSIDER"
+  },
+  {
+   "score": 80.1,
+   "components": {
+    "tier": 20,
+    "category": 4,
+    "lead": 2.4,
+    "relevance": 24,
+    "freshness": 19.7,
+    "corroborated": 10
+   },
+   "keywords": [
+    "fuel",
+    "airport",
+    "investment",
+    "passenger"
+   ],
+   "shock_terms": [],
+   "dedupe_match": null,
+   "dedupe_similarity": 0.17,
+   "id": "641b859894dc",
+   "title": "How Kuwait-originated capital built aviation empire in East Africa",
+   "url": "https://www.independent.co.ug/how-kuwait-originated-capital-built-an-aviation-empire-in-east-africa",
+   "summary": "From ground handling to fuel logistics, investments from a small but wealthy Gulf state are reshaping critical airport services in the region NEWS ANALYSIS | IAN KATUSIIME | When passengers arrive at Entebbe International Airport, they encounter staff in green reflective jackets bearing the Menzies Aviation name, assisting with aircraft turnaround, baggage handling \u2026 The post How Kuwait-originated",
+   "kind": "item",
+   "source": "The Independent (Uganda)",
+   "source_id": "ug-independent",
+   "tier": 2,
+   "country": "UG",
    "category": "press",
    "segments": [
     "city",
     "bush",
     "beach"
    ],
-   "first_seen": "2026-11-23T02:21+03:00",
-   "published": "2026-11-22",
-   "verdict": "weak"
+   "first_seen": "2026-11-23T15:58+03:00",
+   "published": "2026-11-23",
+   "verdict": "CONSIDER"
+  },
+  {
+   "score": 80.1,
+   "components": {
+    "tier": 20,
+    "category": 14,
+    "lead": 8.4,
+    "relevance": 8,
+    "freshness": 19.7,
+    "corroborated": 10
+   },
+   "keywords": [
+    "airline",
+    "flight"
+   ],
+   "shock_terms": [],
+   "dedupe_match": null,
+   "dedupe_similarity": 0.43,
+   "id": "cce800a3d879",
+   "title": "Vietravel Airlines Launches Hanoi \u2013 Shenzhen in mid-Nov 2026",
+   "url": "https://www.aeroroutes.com/eng/261123-vunw26szx",
+   "summary": "Published at 0300PCT / 1000GMT 23NOV26 Vietnam\u2019s Vietravel Airline earlier this month launched new service to China, with 1 daily Hanoi \u2013 Shenzhen service scheduled. The first flight was launched on 14NOV26, with Airbus A321 aircraft. VU650 HAN0100 \u2013 0350SZX 321 D VU651 SZX0450 \u2013 0600HAN 321 D The carrier already operates 1 daily Ho Chi Minh City \u2013 Shenzhen flight, also with Airbus A321.",
+   "kind": "item",
+   "source": "AeroRoutes schedule filings",
+   "source_id": "aeroroutes",
+   "tier": 2,
+   "country": "GLOBAL",
+   "category": "aviation-tracker",
+   "segments": [
+    "city",
+    "bush",
+    "beach"
+   ],
+   "first_seen": "2026-11-23T15:58+03:00",
+   "published": "2026-11-23",
+   "verdict": "CONSIDER"
+  },
+  {
+   "score": 80.1,
+   "components": {
+    "tier": 40,
+    "category": 24,
+    "lead": 2.4,
+    "relevance": 0,
+    "freshness": 19.7,
+    "undated": -6
+   },
+   "keywords": [],
+   "shock_terms": [],
+   "dedupe_match": null,
+   "dedupe_similarity": 0.17,
+   "id": "e96e8f939edf",
+   "title": "Master List of Essential Oral Health Commoditi...",
+   "url": "https://www.moh.go.tz/storage/app/uploads/public/6b0/436/f34/6b0436f348f84695980837.pdf",
+   "summary": "THE UNITED REPUBLIC OF TANZANIA MINISTRY OF HEALTH MASTER LIST OF ESSENTIAL ORAL HEALTH COMMODITIES November, 2026 i | Page Disclaimer Dodoma, November, 2026 Any part of this Document may be freely reviewed, quoted, reproduced, or translated in full or in part, provided the source is acknowledged. It may not be sold or used for commercial purposes. Master List of Essential Oral Health Commodities ",
+   "kind": "doc",
+   "source": "Tanzania Ministry of Health",
+   "source_id": "tz-moh",
+   "tier": 1,
+   "country": "TZ",
+   "category": "health",
+   "segments": [
+    "city",
+    "bush",
+    "beach"
+   ],
+   "first_seen": "2026-11-23T15:57+03:00",
+   "published": null,
+   "verdict": "CONSIDER"
+  },
+  {
+   "score": 80.1,
+   "components": {
+    "tier": 40,
+    "category": 24,
+    "lead": 2.4,
+    "relevance": 0,
+    "freshness": 19.7,
+    "undated": -6
+   },
+   "keywords": [],
+   "shock_terms": [],
+   "dedupe_match": null,
+   "dedupe_similarity": 0.0,
+   "id": "7dc5f953f7d4",
+   "title": "Communicable disease threats report, 10 - 16 October 2026, week 42",
+   "url": "https://www.ecdc.europa.eu/en/publications-data/communicable-disease-threats-report-10-16-october-2026-week-42",
+   "summary": "",
+   "kind": "item",
+   "source": "ECDC \u2014 DRC/Uganda Ebola outbreak page",
+   "source_id": "ecdc-ebola",
+   "tier": 1,
+   "country": "GLOBAL",
+   "category": "health",
+   "segments": [
+    "city",
+    "bush"
+   ],
+   "first_seen": "2026-11-23T15:56+03:00",
+   "published": null,
+   "verdict": "CONSIDER"
+  },
+  {
+   "score": 80.1,
+   "components": {
+    "tier": 40,
+    "category": 24,
+    "lead": 2.4,
+    "relevance": 0,
+    "freshness": 19.7,
+    "undated": -6
+   },
+   "keywords": [],
+   "shock_terms": [],
+   "dedupe_match": null,
+   "dedupe_similarity": 0.0,
+   "id": "338f1b96a9f8",
+   "title": "Communicable disease threats report, 3 - 9 October 2026, week 41",
+   "url": "https://www.ecdc.europa.eu/en/publications-data/communicable-disease-threats-report-3-9-october-2026-week-41",
+   "summary": "",
+   "kind": "item",
+   "source": "ECDC \u2014 DRC/Uganda Ebola outbreak page",
+   "source_id": "ecdc-ebola",
+   "tier": 1,
+   "country": "GLOBAL",
+   "category": "health",
+   "segments": [
+    "city",
+    "bush"
+   ],
+   "first_seen": "2026-11-23T15:56+03:00",
+   "published": null,
+   "verdict": "CONSIDER"
   }
  ]
 }
