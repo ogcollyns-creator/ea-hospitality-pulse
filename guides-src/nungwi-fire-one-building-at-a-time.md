@@ -4,6 +4,8 @@ slug: nungwi-fire-one-building-at-a-time
 description: A bread oven at the Makofi hotel caught at about 2.20pm on Saturday. Three hours later six hotels, four restaurants and some forty shops on Zanzibar's busiest beach had stopped being businesses. This is the fourth multiple-property fire on an East African thatched strip since 2017, and it is not a building failure. It is a failure to regulate the space between buildings, inside an insurance market that collects two thirds of its money from the visitor rather than from the host.
 category: Big Read
 updated: 2026-11-23
+image: "img/editions/nungwi-fire-one-building-at-a-time.jpg"
+image_credit: "Photograph: Onyango George / EA Hospitality Pulse"
 ---
 The bread oven at the Makofi hotel caught at about twenty past two on Saturday afternoon, which on a Zanzibar beach is the hour when the kitchens are quiet and the guests are in the water. Three hours later, six hotels, four restaurants and something close to forty shops at the northern tip of Unguja had stopped being businesses. A hundred and eighty-three tourists were walked off the sand. More than twenty neighbouring properties opened rooms for nothing. Nobody died. Several hotel staff were hurt during the evacuation, which is to say they were hurt getting other people out.
 
