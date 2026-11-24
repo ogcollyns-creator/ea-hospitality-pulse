@@ -1,238 +1,321 @@
-# Radar candidates — morning slot
-_Window opens Mon 23 Nov 18:00 EAT · 474 observations in window · 17 headlines deduped against_
+# Radar candidates — evening slot
+_Window opens Mon 23 Nov 15:00 EAT · 1203 observations in window · 20 headlines deduped against_
 
 Ranked by first-seen recency, source tier and hospitality relevance. `first seen` is when the radar observed the item, which is the date the recency gate runs on. `published` is what the source claims — where the two disagree, the disagreement is the story.
 
-### 🔴 [130.4] Denmark - Level 2: Exercise Increased Caution
+### 🔴 [120.3] Denmark - Level 2: Exercise Increased Caution
 - **Verdict:** LEAD CANDIDATE — tier-1 shock language
 - **Source:** US State Dept travel advisories (EA feed) · tier 1 · REG · advisory
 - **First seen:** 2026-11-24T05:20+03:00 EAT · **Source date:** — none stated
 - **URL:** https://travel.state.gov/content/tsg_aem/us/en/home/international-travel/travel-advisories/destination.dnk.html
 - **Shock language:** attack
 - **Extract:** Exercise increased caution in Denmark due to terrorism . Terrorist groups continue plotting possible attacks in the Kingdom of Denmark. Visit the U.S. Department of State's country reports on terrorism to learn more. Terrorists may attack without warning and t
-- **Score parts:** tier +40, category +32, lead +1.2, relevance +28, freshness +17.2, undated -6, shock +18
+- **Score parts:** tier +40, category +32, lead +1.2, relevance +28, freshness +7.1, undated -6, shock +18
 
-### 🚨 [62.8] [page changed] Airlink news
+### 🚨 [101.8] [page changed] Federal Register — CDC notices
+- **Verdict:** OPEN THIS — tier-1 advisory page moved; content not auto-parsed, read it manually
+- **Source:** Federal Register — CDC notices · tier 1 · REG · advisory
+- **First seen:** 2026-11-24T16:50+03:00 EAT · **Source date:** — none stated
+- **URL:** https://www.federalregister.gov/api/v1/documents.rss?conditions%5Bagencies%5D%5B%5D=centers-for-disease-control-and-prevention&order=newest
+- **Extract:** Federal Register Documents published on or after 10/25/2026 and from Centers for Disease Control and Prevention https://www.federalregister.gov/api/v1/documents.rss?conditions%5Bagencies%5D%5B%5D=centers-for-disease-control-and-prevention&order=newest Tue, 24 
+- **Score parts:** tier +40, category +32, lead +12, relevance +8, freshness +19.8, undated -6, page_change -4
+
+### 🚨 [82.0] [page changed] Federal Register — CDC notices
+- **Verdict:** OPEN THIS — tier-1 advisory page moved; content not auto-parsed, read it manually
+- **Source:** Federal Register — CDC notices · tier 1 · REG · advisory
+- **First seen:** 2026-11-23T15:56+03:00 EAT · **Source date:** — none stated
+- **URL:** https://www.federalregister.gov/api/v1/documents.rss?conditions%5Bagencies%5D%5B%5D=centers-for-disease-control-and-prevention&order=newest
+- **Extract:** Federal Register Documents published on or after 10/24/2026 and from Centers for Disease Control and Prevention https://www.federalregister.gov/api/v1/documents.rss?conditions%5Bagencies%5D%5B%5D=centers-for-disease-control-and-prevention&order=newest Mon, 23 
+- **Score parts:** tier +40, category +32, lead +12, relevance +8, freshness +0, undated -6, page_change -4
+
+### 🚨 [52.7] [page changed] Airlink news
 - **Verdict:** OPEN THIS — tier-1 airline page moved; content not auto-parsed, read it manually
 - **Source:** Airlink news · tier 1 · REG · airline
 - **First seen:** 2026-11-24T05:20+03:00 EAT · **Source date:** — none stated
 - **URL:** https://www.flyairlink.com/
 - **Extract:** Request unsuccessful. Incapsula incident ID: 1008000150424396515-130864307795657701
-- **Score parts:** tier +40, category +12, lead +3.6, relevance +0, freshness +17.2, undated -6, page_change -4
+- **Score parts:** tier +40, category +12, lead +3.6, relevance +0, freshness +7.1, undated -6, page_change -4
 
-### 🟠 [101.0] The ‘Sweetest’ Holiday Hideaways
+### 🚨 [45.6] [page changed] Airlink news
+- **Verdict:** OPEN THIS — tier-1 airline page moved; content not auto-parsed, read it manually
+- **Source:** Airlink news · tier 1 · REG · airline
+- **First seen:** 2026-11-23T15:57+03:00 EAT · **Source date:** — none stated
+- **URL:** https://www.flyairlink.com/
+- **Extract:** Request unsuccessful. Incapsula incident ID: 2214000060917497361-442174850432631210
+- **Score parts:** tier +40, category +12, lead +3.6, relevance +0, freshness +0, undated -6, page_change -4
+
+### 🟠 [109.7] Proposed Data Collection Submitted for Public Comment and Recommendations
+- **Verdict:** STRONG — tier-1, upstream
+- **Source:** Federal Register — CDC documents (newest first) · tier 1 · GLOBAL · advisory
+- **First seen:** 2026-11-24T16:50+03:00 EAT · **Source date:** 2026-11-24
+- **URL:** https://www.federalregister.gov/documents/2026/11/24/2026-23909/proposed-data-collection-submitted-for-public-comment-and-recommendations
+- **Extract:** The Centers for Disease Control and Prevention (CDC), as part of its continuing effort to reduce public burden and maximize the utility of government information, invites the general public and other federal agencies the opportunity to comment on a continuing 
+- **Score parts:** tier +40, category +32, lead +0, relevance +8, freshness +19.7, corroborated +10
+
+### 🟠 [104.8] UgandaCAA Conducts First Dedicated Public Health Emergency Preparedness Exercise at Entebbe International Airport
+- **Verdict:** STRONG — tier-1, upstream
+- **Source:** Uganda Civil Aviation Authority · tier 1 · UG · aviation
+- **First seen:** 2026-11-24T16:51+03:00 EAT · **Source date:** 2026-11-24
+- **URL:** https://caa.go.ug/ugandacaa-conducts-first-dedicated-public-health-emergency-preparedness-exercise-at-entebbe-international-airport
+- **Extract:** The Uganda Civil Aviation Authority (UCAA), in collaboration with the Ministry of Health and other key airport stakeholders, on Monday, November 23, 2026, successfully conducted a maiden full-scale Public Health Emergency Preparedness Exercise at Entebbe Inter
+- **Score parts:** tier +40, category +13, lead +6, relevance +16, freshness +19.8, corroborated +10
+
+### 🟠 [104.2] Skills Upskilling: Investing in People for Effective Management
+- **Verdict:** STRONG — tier-1, upstream
+- **Source:** Kenya Wildlife Service · tier 1 · KE · parks
+- **First seen:** 2026-11-24T16:51+03:00 EAT · **Source date:** 2026-11-24
+- **URL:** https://kws.go.ke/skills-upskilling-investing-in-people-for-effective-management
+- **Extract:** Manyani, November 2026 – Continuous training is key to institutional growth, effective leadership and operational excellence. As KWS transforms to address an increasingly complex conservation landscape, equipping its workforce with the right skills and knowled
+- **Score parts:** tier +40, category +18, lead +8.4, relevance +8, freshness +19.8, corroborated +10
+
+### 🟡 [100.4] Belgium Strike Forces Flight Cancellations at Brussels and Charleroi Airports
+- **Verdict:** CONSIDER
+- **Source:** Travel And Tour World · tier 3 · GLOBAL · trade
+- **First seen:** 2026-11-23T15:58+03:00 EAT · **Source date:** 2026-11-23
+- **URL:** https://www.travelandtourworld.com/news/article/belgium-strike-forces-flight-cancellations-at-brussels-and-charleroi-airports
+- **Shock language:** strike
+- **Extract:** Belgium's nationwide strike forces widespread flight cancellations at Brussels and Charleroi airports on 23 November 2026, as industrial action disrupts essential air traffic control services. Brussels Airport has cancelled scheduled arrivals and departures be
+- **Score parts:** tier +5, category +5, lead +2.4, relevance +60, freshness +0, corroborated +10, shock +18
+
+### 🟡 [99.8] Entebbe Airport Conducts First Dedicated Public Health Emergency Simulation
+- **Verdict:** CONSIDER
+- **Source:** SoftPower News — Tourism & Travel (Uganda) · tier 2 · UG · press
+- **First seen:** 2026-11-24T16:52+03:00 EAT · **Source date:** 2026-11-24
+- **URL:** https://softpower.ug/entebbe-airport-conducts-first-dedicated-public-health-emergency-simulation
+- **Shock language:** outbreak
+- **Extract:** ENTEBBE — Entebbe International Airport has conducted its first dedicated public health emergency preparedness exercise, simulating an infectious disease outbreak aboard a Uganda Airlines flight to test the airport’s ability to detect and contain potential hea
+- **Score parts:** tier +20, category +4, lead +0, relevance +28, freshness +19.8, corroborated +10, shock +18
+
+### 🟠 [96.2] Call for Concept Notes: 2026 Fiscal Transparency Innovation Fund (FTIF)
+- **Verdict:** STRONG — tier-1, upstream
+- **Source:** US Embassy Nairobi — alerts & messages · tier 1 · KE · advisory
+- **First seen:** 2026-11-24T16:51+03:00 EAT · **Source date:** — none stated
+- **URL:** https://ke.usembassy.gov/call-for-concept-notes-2026-fiscal-transparency-innovation-fund-ftif
+- **Score parts:** tier +40, category +32, lead +2.4, relevance +8, freshness +19.8, undated -6
+
+### 🟠 [93.4] KLM breidt Europees netwerk uit met extra capaciteit en twee nieuwe KLM Cityhopper-bestemmingen
+- **Verdict:** STRONG — tier-1, upstream
+- **Source:** KLM/Air France newsroom · tier 1 · GLOBAL · airline
+- **First seen:** 2026-11-24T16:51+03:00 EAT · **Source date:** 2026-11-24
+- **URL:** https://nieuws.klm.com/klm-breidt-europees-netwerk-uit-met-extra-capaciteit-en-twee-nieuwe-klm-cityhopper-bestemmingen
+- **Extract:** De nieuwe routes worden uitgevoerd door KLM Cityhopper. Met deze nieuwe routes en extra capaciteit speelt KLM in op de vraag naar zowel zakelijke als recreatieve bestemmingen binnen Europa. De bestemmingen zijn vanaf vandaag, 24 november, te boeken. “Met deze 
+- **Score parts:** tier +40, category +12, lead +3.6, relevance +8, freshness +19.8, corroborated +10
+
+### 🟠 [91.5] Regenerative tourism workshop at the Baltic Sea Region Tourism Forum
+- **Verdict:** STRONG — tier-1, upstream
+- **Source:** EU Tourism Transition Pathway — legislation & guidance · tier 1 · REG · regulator
+- **First seen:** 2026-11-24T16:50+03:00 EAT · **Source date:** — none stated
+- **URL:** https://transition-pathways.europa.eu/tourism/networks-and-platforms/regenerative-tourism-workshop-baltic-sea-region-tourism-forum
+- **Score parts:** tier +40, category +17, lead +16.8, relevance +4, freshness +19.7, undated -6
+
+### 🟠 [90.9] The ‘Sweetest’ Holiday Hideaways
 - **Verdict:** STRONG — tier-1, upstream
 - **Source:** Hilton stories/newsroom · tier 1 · GLOBAL · hotel-group
 - **First seen:** 2026-11-24T05:20+03:00 EAT · **Source date:** 2026-11-23
 - **URL:** https://stories.hilton.com/destination-spotlight/the-sweetest-holiday-hideaways
 - **Extract:** The holidays are the perfect excuse to indulge a little. From decadent chocolates and freshly baked cookies to beloved confections with recipes passed down through generations, the world’s most iconic sweet treats have a special way of making the season feel e
-- **Score parts:** tier +40, category +9, lead +16.8, relevance +8, freshness +17.2, corroborated +10
+- **Score parts:** tier +40, category +9, lead +16.8, relevance +8, freshness +7.1, corroborated +10
 
-### 🟠 [94.0] Order Paper For Tuesday, 24th November 2026 - Evening Sitting
-- **Verdict:** STRONG — tier-1, upstream
+### 🟡 [90.2] Truck Drivers Stage Protests Over Alleged Harassment
+- **Verdict:** CONSIDER
+- **Source:** Kenyans.co.ke news · tier 2 · KE · press
+- **First seen:** 2026-11-24T16:52+03:00 EAT · **Source date:** 2026-11-24
+- **URL:** https://www.kenyans.co.ke/news/129629-truck-drivers-strike-eldoret-over-alleged-harassment-kpc-staff
+- **Shock language:** strike
+- **Extract:** The strike brought service provision at the KPC Eldoret terminus to a halt as the drivers called for the removal of two KPC staff members they accuse of discrimination and harassment
+- **Score parts:** tier +20, category +4, lead +2.4, relevance +16, freshness +19.8, corroborated +10, shock +18
+
+### 🟡 [87.5] Building resilient and regenerative destinations for the future
+- **Verdict:** CONSIDER
+- **Source:** EU Tourism Transition Pathway — legislation & guidance · tier 1 · REG · regulator
+- **First seen:** 2026-11-24T16:50+03:00 EAT · **Source date:** — none stated
+- **URL:** https://transition-pathways.europa.eu/tourism/event-resources/building-resilient-and-regenerative-destinations-future
+- **Score parts:** tier +40, category +17, lead +16.8, relevance +0, freshness +19.7, undated -6
+
+### 🟡 [87.1] [page changed] TUI Group press
+- **Verdict:** CONSIDER
+- **Source:** TUI Group press · tier 1 · GLOBAL · source-market
+- **First seen:** 2026-11-24T16:50+03:00 EAT · **Source date:** — none stated
+- **URL:** https://www.tuigroup.com/en-en/media
+- **Extract:** TUI Group Newsroom | TUI Group - One of the world's leading tourism groups Menu close Overview What are you looking for? Language English German Select year English German Tour operators Austria Belgium China Denmark Finland France Germany India Ireland Italy 
+- **Score parts:** tier +40, category +9, lead +8.4, relevance +20, freshness +19.7, undated -6, page_change -4
+
+### 🟡 [86.4] Your Hotel Doesn't Need Another Restaurant. It Needs a Reason to Visit.
+- **Verdict:** CONSIDER
+- **Source:** Hospitality Net — Africa announcements · tier 2 · REG · trade
+- **First seen:** 2026-11-24T16:52+03:00 EAT · **Source date:** 2026-11-24
+- **URL:** https://www.hospitalitynet.org/opinion/4135665/your-hotel-doesnt-need-another-restaurant-it-needs-a-reason-to-visit
+- **Extract:** Hotel F&B investment fails when restaurants are designed as guest amenities rather than destinations, and operators lack data to separate occupancy-driven demand from independently built local traffic.
+- **Score parts:** tier +20, category +5, lead +3.6, relevance +28, freshness +19.8, corroborated +10
+
+### 🟡 [85.2] Your Hotel Doesn't Need Another Restaurant. It Needs a Reason to Visit.
+- **Verdict:** CONSIDER
+- **Source:** Hospitality Net: Africa openings · tier 2 · AFRICA · trade
+- **First seen:** 2026-11-24T16:52+03:00 EAT · **Source date:** 2026-11-24
+- **URL:** https://www.hospitalitynet.org/opinion/4135665/your-hotel-doesnt-need-another-restaurant-it-needs-a-reason-to-visit
+- **Extract:** Hotel F&B investment fails when restaurants are designed as guest amenities rather than destinations, and operators lack data to separate occupancy-driven demand from independently built local traffic.
+- **Score parts:** tier +20, category +5, lead +2.4, relevance +28, freshness +19.8, corroborated +10
+
+### 🟡 [84.2] Ural Airlines Dec 2026 Ekaterinburg – Kazakhstan Network Additions
+- **Verdict:** CONSIDER
+- **Source:** AeroRoutes schedule filings · tier 2 · GLOBAL · aviation-tracker
+- **First seen:** 2026-11-24T16:52+03:00 EAT · **Source date:** 2026-11-24
+- **URL:** https://www.aeroroutes.com/eng/261124-u6dec26kz
+- **Extract:** Published at 0600PCT / 1300GMT 24NOV26 Ural Airlines in December 2026 is adding service between Ekaterinburg and Kazakhstan, recently opened for reservation. Planned additions include the following. Ekaterinburg – Almaty eff 18DEC26 3 weekly A319/320 Ekaterinb
+- **Score parts:** tier +20, category +14, lead +8.4, relevance +12, freshness +19.8, corroborated +10
+
+### 🟡 [84.2] Ural Airlines Adds Moscow Zhukovsky – Central Asia Routes From Dec 2026
+- **Verdict:** CONSIDER
+- **Source:** AeroRoutes schedule filings · tier 2 · GLOBAL · aviation-tracker
+- **First seen:** 2026-11-24T16:52+03:00 EAT · **Source date:** 2026-11-24
+- **URL:** https://www.aeroroutes.com/eng/261124-u6dec26zia
+- **Extract:** Published at 0500PCT / 1200GMT 24NOV26 Ural Airlines in December 2026 is adding various route to Central Asia from Moscow Zhukovsky , on board Airbus A320/321 aircraft. Moscow Zhukovsky – Almaty eff 18DEC26 1 daily A320 Moscow Zhukovsky – Astana eff 18DEC26 1 
+- **Score parts:** tier +20, category +14, lead +8.4, relevance +12, freshness +19.8, corroborated +10
+
+### 🟡 [84.2] S7 Airlines Adds Novosibirsk – Dalaman in NS27
+- **Verdict:** CONSIDER
+- **Source:** AeroRoutes schedule filings · tier 2 · GLOBAL · aviation-tracker
+- **First seen:** 2026-11-24T16:52+03:00 EAT · **Source date:** 2026-11-24
+- **URL:** https://www.aeroroutes.com/eng/261124-s7ns27ovbdlm
+- **Extract:** Published at 0400PCT / 1100GMT 24NOV26 Russian carrier S7 Airlines during Northern summer 2027 season schedules new route to Türkiye, where the carrier adds seasonal Novosibirsk – Dalaman route. Boeing 737-800 aircraft to serve this route twice weekly from 26M
+- **Score parts:** tier +20, category +14, lead +8.4, relevance +12, freshness +19.8, corroborated +10
+
+### 🟡 [84.2] SAS NS27 Europe Network Additions
+- **Verdict:** CONSIDER
+- **Source:** AeroRoutes schedule filings · tier 2 · GLOBAL · aviation-tracker
+- **First seen:** 2026-11-24T16:52+03:00 EAT · **Source date:** 2026-11-24
+- **URL:** https://www.aeroroutes.com/eng/261124-skns27eu
+- **Extract:** Published at 0100PCT / 0800GMT 24NOV26 SAS during summer 2027 schedules 2 new seasonal routes within Europe, with flights to Ljubljana and Mahon. Copenhagen – Ljubljana 25JUN27 – 06AUG27 2 weekly Embraer E195 SK1843 CPH0810 – 1005LJU E95 5 SK1843 CPH1715 – 191
+- **Score parts:** tier +20, category +14, lead +8.4, relevance +12, freshness +19.8, corroborated +10
+
+### 🟡 [83.9] Order Paper For Tuesday, 24th November 2026 - Evening Sitting
+- **Verdict:** CONSIDER
 - **Source:** Parliament of Kenya — bills & papers · tier 1 · KE · legislature
 - **First seen:** 2026-11-24T05:20+03:00 EAT · **Source date:** 2026-11-24
 - **URL:** https://www.parliament.go.ke/sites/default/files/2026-11/ORDER%20PAPER%20FOR%20TUESDAY%2C%2024TH%20NOVEMBER%202026%20-%20EVENING%20SITTING.pdf
 - **Extract:** en-USThirteenth Parliament Fifth Session en-USEvening Sitting en-US en-US(No. 109) (2630) en-US en-USREPUBLIC OF KENYA en-US en-USTHIRTEENTH PARLIAMENT (FIFTH SESSION) en-GB en-GBTHE NATIONAL ASSEMBLY en-GB en-GBORDERS OF THE DAY en-GB en-GB en-GBTUESDAY, NOVE
-- **Score parts:** tier +40, category +10, lead +16.8, relevance +0, freshness +17.2, corroborated +10
+- **Score parts:** tier +40, category +10, lead +16.8, relevance +0, freshness +7.1, corroborated +10
 
-### 🟡 [88.5] Belgian Travel Industry Fury at ‘11th Strike in 11 Months’
+### 🟡 [83.5] Anantara Mai Khao Phuket Villas Unveils Refreshed Pool Pavilions and Enhanced Resort Spaces
+- **Verdict:** CONSIDER
+- **Source:** Minor Hotels newsroom · tier 1 · GLOBAL · hotel-group
+- **First seen:** 2026-11-24T16:50+03:00 EAT · **Source date:** — none stated
+- **URL:** https://media.minorhotels.com/en-GLO/275248-anantara-mai-khao-phuket-villas-unveils-refreshed-pool-pavilions-and-enhanced-resort-spaces
+- **Score parts:** tier +40, category +9, lead +16.8, relevance +4, freshness +19.7, undated -6
+
+### 🟡 [82.6] Public Health Intelligence Report 2025 Manuals, Guidelines & Frameworks
+- **Verdict:** CONSIDER
+- **Source:** Africa CDC downloads (sit reps & EIW) · tier 1 · REG · health
+- **First seen:** 2026-11-24T16:51+03:00 EAT · **Source date:** — none stated
+- **URL:** https://africacdc.org/download/public-health-intelligence-report-2025
+- **Score parts:** tier +40, category +24, lead +4.8, relevance +0, freshness +19.8, undated -6
+
+### 🟡 [82.4] Mehr Reichweite: Neue Jets bringen kleineren Airports Fernflüge
+- **Verdict:** CONSIDER
+- **Source:** FVW / German travel trade · tier 2 · GLOBAL · source-market
+- **First seen:** 2026-11-24T16:51+03:00 EAT · **Source date:** 2026-11-24
+- **URL:** https://www.fvw.de/touristik/verkehr/mehr-reichweite--good-news-week-neue-jets-bringen-neue-routen-an-airports-abseits-der-hubs-266139
+- **Extract:** Die Luftfahrt jammert angesichts hohe Kerosinpreise und steigender Gesamtbelastungen seit langem und laut. Wann und ob die Kosten speziell in Deutschland (weiter) sinken, ist noch unklar. Viele Airlines stehen bereits in den Startlöchern und wollen neue Routen
+- **Score parts:** tier +20, category +9, lead +3.6, relevance +20, freshness +19.8, corroborated +10
+
+### 🟡 [81.8] Leaders Demand Bigger Share of Gorilla Tourism Revenue for Communities Around Bwindi
+- **Verdict:** CONSIDER
+- **Source:** SoftPower News — Tourism & Travel (Uganda) · tier 2 · UG · press
+- **First seen:** 2026-11-24T16:52+03:00 EAT · **Source date:** 2026-11-24
+- **URL:** https://softpower.ug/leaders-demand-bigger-share-of-gorilla-tourism-revenue-for-communities-around-bwindi
+- **Extract:** Leaders from Kisoro District and surrounding areas have called on the government to increase the share of gorilla tourism revenue allocated to communities living around Bwindi and Mgahinga National Parks, arguing that residents who bear the cost of living alon
+- **Score parts:** tier +20, category +4, lead +0, relevance +28, freshness +19.8, corroborated +10
+
+### 🟡 [81.8] Archbishop Anyolo celebrates Mass with airport community at KAA Head Office
+- **Verdict:** CONSIDER
+- **Source:** KAA tenders · tier 1 · KE · tender
+- **First seen:** 2026-11-23T15:57+03:00 EAT · **Source date:** 2026-11-23
+- **URL:** https://www.kaa.go.ke/archbishop-anyolo-celebrates-mass-at-kaa-head-office
+- **Extract:** The Metropolitan Archbishop of Nairobi led worshippers drawn from organisations across the airport.
+- **Score parts:** tier +40, category +7, lead +16.8, relevance +8, freshness +0, corroborated +10
+
+### 🟡 [81.4] [page changed] Federal Register — public inspection (HHS/CDC), pre-publication
+- **Verdict:** CHECK — source date older than the window
+- **Source:** Federal Register — public inspection (HHS/CDC), pre-publication · tier 1 · REG · advisory
+- **First seen:** 2026-11-24T16:50+03:00 EAT · **Source date:** 2026-11-20
+- **URL:** https://www.federalregister.gov/api/v1/public-inspection-documents/current.json
+- **Extract:** {"count":70,"results":[{"agencies":[{"raw_name":"Centers for Medicare & Medicaid Services","name":"Centers for Medicare & Medicaid Services","id":45,"url":"https://www.federalregister.gov/agencies/centers-for-medicare-medicaid-services","json_url":"https://www
+- **Score parts:** tier +40, category +32, lead +3.6, relevance +0, freshness +19.8, stale_trap -10, page_change -4
+
+### 🟡 [80.2] Kenya Railways Explains Fee Charged When Cancelling SGR Tickets
+- **Verdict:** CONSIDER
+- **Source:** Kenyans.co.ke news · tier 2 · KE · press
+- **First seen:** 2026-11-24T16:52+03:00 EAT · **Source date:** 2026-11-24
+- **URL:** https://www.kenyans.co.ke/news/129624-sgr-passengers-face-30-penalty-when-cancelling-tickets-kenya-railways-explains
+- **Extract:** Kenya Railways also outlined the documents passengers must present when cancelling tickets and how long approved refunds take to process.
+- **Score parts:** tier +20, category +4, lead +2.4, relevance +24, freshness +19.8, corroborated +10
+
+### 🟡 [80.2] Eurowings NS27 Network Additions – 22NOV26
+- **Verdict:** CONSIDER
+- **Source:** AeroRoutes schedule filings · tier 2 · GLOBAL · aviation-tracker
+- **First seen:** 2026-11-24T16:52+03:00 EAT · **Source date:** 2026-11-24
+- **URL:** https://www.aeroroutes.com/eng/261124-ewns27
+- **Extract:** Published at 0300PCT / 1000GMT 24NOV26 Eurowings during Northern summer 2027 season schedules additional route, previously not covered on AeroRoutes . Planned network additions include the following. Cologne/Bonn – Copenhagen eff 07MAY27 2 weekly A319 (3 weekl
+- **Score parts:** tier +20, category +14, lead +8.4, relevance +8, freshness +19.8, corroborated +10
+
+### 🟡 [80.2] Eurowings Dec 2026 Edinburgh Network Addition
+- **Verdict:** CONSIDER
+- **Source:** AeroRoutes schedule filings · tier 2 · GLOBAL · aviation-tracker
+- **First seen:** 2026-11-24T16:52+03:00 EAT · **Source date:** 2026-11-24
+- **URL:** https://www.aeroroutes.com/eng/261124-ewdec26edi
+- **Extract:** Published at 0200PCT / 0900GMT 24NOV26 Eurowings in December 2026 is adding a pair of routes to Edinburgh, previously not covered on AeroRoutes . Planned additions include the following. Berlin – Edinburgh 04DEC26 – 04JAN27 1-2 weekly A319/320 Hamburg – Edinbu
+- **Score parts:** tier +20, category +14, lead +8.4, relevance +8, freshness +19.8, corroborated +10
+
+### 🟡 [80.0] Etihad Airways adds capacity to Seychelles with new daily flight
+- **Verdict:** CONSIDER
+- **Source:** VoyagesAfriq · tier 2 · REG · trade
+- **First seen:** 2026-11-24T16:52+03:00 EAT · **Source date:** 2026-11-24
+- **URL:** https://voyagesafriq.com/2026/11/24/etihad-airways-adds-capacity-to-seychelles-with-new-daily-flight
+- **Extract:** The Seychelles Tourism Board has welcomed the launch of Etihad Airways’ own daily flight between Abu Dhabi (AUH) and Seychelles (SEZ), effective 25 October 2026, adding capacity on the route. The […] The post Etihad Airways adds capacity to Seychelles with new
+- **Score parts:** tier +20, category +5, lead +1.2, relevance +24, freshness +19.8, corroborated +10
+
+### 🟡 [78.4] Radisson Blu Resort Modernizes Operations with Shiji Infrasys POS and Reviewpro Reputation
+- **Verdict:** CONSIDER
+- **Source:** Hospitality Net — Africa announcements · tier 2 · REG · trade
+- **First seen:** 2026-11-24T16:52+03:00 EAT · **Source date:** 2026-11-24
+- **URL:** https://www.hospitalitynet.org/news/4135658/radisson-blu-resort-modernizes-operations-with-shiji-infrasys-pos-and-reviewpro-reputation
+- **Extract:** Radisson Blu Resort Phuket Mai Khao Beach deployed Shiji's Infrasys POS and Reviewpro Reputation, integrated with Sun Systems, to unify F&B operations, guest feedback, and financial reporting.
+- **Score parts:** tier +20, category +5, lead +3.6, relevance +20, freshness +19.8, corroborated +10
+
+### 🟡 [78.4] Tourismusbranche erleichtert: Malediven streichen Margensteuer endgültig
+- **Verdict:** CONSIDER
+- **Source:** FVW / German travel trade · tier 2 · GLOBAL · source-market
+- **First seen:** 2026-11-24T16:51+03:00 EAT · **Source date:** 2026-11-24
+- **URL:** https://www.fvw.de/touristik/destination/tourismusbranche-erleichtert-malediven-streichen-margensteuer-endgueltig-266325
+- **Extract:** Aufatmen auch in der Touristik: Die Regierung der Malediven hat die umstrittene Goods and Services Tax (GST) für ausländische Reisevermittler, die Reisen auf die Malediven verkaufen, endgültig wieder abgeschafft.
+- **Score parts:** tier +20, category +9, lead +3.6, relevance +16, freshness +19.8, corroborated +10
+
+### 🟡 [78.3] Belgian Travel Industry Fury at ‘11th Strike in 11 Months’
 - **Verdict:** CONSIDER
 - **Source:** Skift · tier 2 · GLOBAL · trade
 - **First seen:** 2026-11-23T22:59+03:00 EAT · **Source date:** 2026-11-23
 - **URL:** https://skift.com/2026/11/23/belgian-travel-industry-fury-at-11th-strike-in-11-months
 - **Shock language:** grounded, strike
 - **Extract:** How many strikes are too many? With almost all of the country's flights grounded on Monday, many of Belgium’s travel leaders have had enough.
-- **Score parts:** tier +20, category +5, lead +1.2, relevance +24, freshness +10.3, corroborated +10, shock +18
+- **Score parts:** tier +20, category +5, lead +1.2, relevance +24, freshness +0.1, corroborated +10, shock +18
 
-### 🟡 [86.8] Neue Lufthansa Group App verbindet Airline-Services und Miles & More
+### 🟡 [77.5] SPARE PARTS LIST NEEDED IN SERVICEABILITY OF ...
 - **Verdict:** CONSIDER
-- **Source:** Lufthansa Group newsroom · tier 1 · GLOBAL · airline
-- **First seen:** 2026-11-24T05:20+03:00 EAT · **Source date:** 2026-11-23
-- **URL:** https://newsroom.lufthansagroup.com/neue-lufthansa-group-app-verbindet-airline-services-und-miles--more
-- **Extract:** Die Lufthansa Group startet eine neue App für ihre Kundinnen und Kunden. Sie bündelt die digitalen Services von Lufthansa, SWISS, Austrian Airlines, Brussels Airlines, ITA Airways und Discover Airlines rund um Buchung und Reise und ergänzt diese um Lufthansa G
-- **Score parts:** tier +40, category +12, lead +3.6, relevance +4, freshness +17.2, corroborated +10
+- **Source:** Uganda EGP portal · tier 1 · UG · tender
+- **First seen:** 2026-11-24T16:50+03:00 EAT · **Source date:** — none stated
+- **URL:** https://egpuganda.go.ug/index/426793108_egp
+- **Score parts:** tier +40, category +7, lead +16.8, relevance +0, freshness +19.7, undated -6
 
-### 🟡 [85.7] Icelandair Adds Akureyri – Tenerife in 4Q27
+### 🟡 [77.5] PROCUREMENT OF IRON SHEETS FOR PROJECT AFFEC...
 - **Verdict:** CONSIDER
-- **Source:** AeroRoutes schedule filings · tier 2 · GLOBAL · aviation-tracker
-- **First seen:** 2026-11-24T05:21+03:00 EAT · **Source date:** 2026-11-24
-- **URL:** https://www.aeroroutes.com/eng/261123-fi4q27aeytfs
-- **Extract:** Published at 1701PCT 23NOV26 / 0001GMT 23NOV26 Icelandair in the fourth quarter of 2027 schedules Akureyri – Tenerife South service, with 1 weekly flight scheduled from 19OCT27 (the airline’s overall schedule currently lists until third week of November 2027).
-- **Score parts:** tier +20, category +14, lead +8.4, relevance +16, freshness +17.3, corroborated +10
+- **Source:** Uganda EGP portal · tier 1 · UG · tender
+- **First seen:** 2026-11-24T16:50+03:00 EAT · **Source date:** — none stated
+- **URL:** https://egpuganda.go.ug/index/427629846_egp
+- **Score parts:** tier +40, category +7, lead +16.8, relevance +0, freshness +19.7, undated -6
 
-### 🟡 [85.7] Chair Airlines Adds Zurich – London Southend in NS27
+### 🟡 [77.5] FRAMEWORK CONTRACT FOR ANNUAL MAINTENANCE OF ...
 - **Verdict:** CONSIDER
-- **Source:** AeroRoutes schedule filings · tier 2 · GLOBAL · aviation-tracker
-- **First seen:** 2026-11-24T05:21+03:00 EAT · **Source date:** 2026-11-24
-- **URL:** https://www.aeroroutes.com/eng/261123-csns27sen
-- **Extract:** Published at 1600PCT / 2300GMT 23NOV26 Chair Airlines during Northern summer 2027 season plans to launch scheduled service to the UK, with the launch of Zurich – London Southend route. The airline will operate 1 daily flight from 27MAY27, with a mix of Airbus 
-- **Score parts:** tier +20, category +14, lead +8.4, relevance +16, freshness +17.3, corroborated +10
-
-### 🟡 [84.4] Greenland - Level 2: Exercise Increased Caution
-- **Verdict:** CONSIDER
-- **Source:** US State Dept travel advisories (EA feed) · tier 1 · REG · advisory
-- **First seen:** 2026-11-24T05:20+03:00 EAT · **Source date:** — none stated
-- **URL:** https://travel.state.gov/content/tsg_aem/us/en/home/international-travel/travel-advisories/destination.grl.html
-- **Extract:** Exercise increased caution in Greenland due to environmental hazards posed by extreme weather conditions and limited emergency services . The U.S. government’s ability to provide consular services to U.S. citizens in Greenland is extremely limited. Greenland’s
-- **Score parts:** tier +40, category +32, lead +1.2, relevance +0, freshness +17.2, undated -6
-
-### 🟡 [81.7] Air Corsica Adds Nice – Dole Seasonal Route in NS27
-- **Verdict:** CONSIDER
-- **Source:** AeroRoutes schedule filings · tier 2 · GLOBAL · aviation-tracker
-- **First seen:** 2026-11-24T05:21+03:00 EAT · **Source date:** 2026-11-24
-- **URL:** https://www.aeroroutes.com/eng/261123-xkns27dle
-- **Extract:** Published at 1500PCT / 2200GMT 23NOV26 Air Corsica during Northern summer 2027 season plans to launch Nice – Dole route, on board ATR72 aircraft. The airline will operate the seasonal service twice weekly from 02JUN27 to 26SEP27. Schedule below focuses on 04JU
-- **Score parts:** tier +20, category +14, lead +8.4, relevance +12, freshness +17.3, corroborated +10
-
-### 🟡 [81.4] [page changed] Federal Register — public inspection (HHS/CDC), pre-publication
-- **Verdict:** CHECK — source date older than the window
-- **Source:** Federal Register — public inspection (HHS/CDC), pre-publication · tier 1 · REG · advisory
-- **First seen:** 2026-11-24T07:39+03:00 EAT · **Source date:** 2026-11-20
-- **URL:** https://www.federalregister.gov/api/v1/public-inspection-documents/current.json
-- **Extract:** {"count":126,"results":[{"agencies":[{"raw_name":"SECURITIES AND EXCHANGE COMMISSION","name":"Securities and Exchange Commission","id":466,"url":"https://www.federalregister.gov/agencies/securities-and-exchange-commission","json_url":"https://www.federalregist
-- **Score parts:** tier +40, category +32, lead +3.6, relevance +0, freshness +19.8, stale_trap -10, page_change -4
-
-### 🟡 [78.8] [page changed] Federal Register — public inspection (HHS/CDC), pre-publication
-- **Verdict:** CHECK — source date older than the window
-- **Source:** Federal Register — public inspection (HHS/CDC), pre-publication · tier 1 · REG · advisory
-- **First seen:** 2026-11-24T05:20+03:00 EAT · **Source date:** 2026-11-20
-- **URL:** https://www.federalregister.gov/api/v1/public-inspection-documents/current.json
-- **Extract:** {"count":126,"results":[{"agencies":[{"raw_name":"SECURITIES AND EXCHANGE COMMISSION","name":"Securities and Exchange Commission","id":466,"url":"https://www.federalregister.gov/agencies/securities-and-exchange-commission","json_url":"https://www.federalregist
-- **Score parts:** tier +40, category +32, lead +3.6, relevance +0, freshness +17.2, stale_trap -10, page_change -4
-
-### 🟡 [78.7] Surinam Airways 4Q26 Long-Haul Aircraft Changes
-- **Verdict:** CONSIDER
-- **Source:** AeroRoutes schedule filings · tier 2 · GLOBAL · aviation-tracker
-- **First seen:** 2026-11-23T22:59+03:00 EAT · **Source date:** 2026-11-23
-- **URL:** https://www.aeroroutes.com/eng/261123-py4q26ams
-- **Extract:** Published at 0800PCT / 1500GMT 23NOV26 Surinam Airways since October 2026 adjusted operational aircraft on its sole long-haul route, Paramaribo – Amsterdam . Since 04OCT26, the 3 weekly flights have been operated by Eastern Airlines Boeing 777-200ER, instead o
-- **Score parts:** tier +20, category +14, lead +8.4, relevance +16, freshness +10.3, corroborated +10
-
-### 🟡 [77.2] Order Paper For Tuesday, 24th November 2026 - Evening Sitting
-- **Verdict:** CONSIDER
-- **Source:** Senate Committee on Delegated Legislation (Kenya) — the committee that annuls or accedes to statutory instruments · tier 1 · KE · REG
-- **First seen:** 2026-11-23T22:59+03:00 EAT · **Source date:** 2026-11-24
-- **URL:** https://www.parliament.go.ke/sites/default/files/2026-11/ORDER%20PAPER%20FOR%20TUESDAY%2C%2024TH%20NOVEMBER%202026%20-%20EVENING%20SITTING.pdf
-- **Extract:** en-USThirteenth Parliament Fifth Session en-USEvening Sitting en-US en-US(No. 109) (2630) en-US en-USREPUBLIC OF KENYA en-US en-USTHIRTEENTH PARLIAMENT (FIFTH SESSION) en-GB en-GBTHE NATIONAL ASSEMBLY en-GB en-GBORDERS OF THE DAY en-GB en-GB en-GBTUESDAY, NOVE
-- **Score parts:** tier +40, category +5, lead +12, relevance +0, freshness +10.2, corroborated +10
-
-### 🟡 [76.9] CoStar, Tourism Economics raise U.S. hotel growth forecast
-- **Verdict:** CONSIDER
-- **Source:** Hospitality Net — Africa announcements · tier 2 · REG · trade
-- **First seen:** 2026-11-23T22:59+03:00 EAT · **Source date:** 2026-11-23
-- **URL:** https://www.hospitalitynet.org/news/4135638/costar-tourism-economics-raise-us-hotel-growth-forecast
-- **Extract:** CoStar and Tourism Economics upgraded their 2026 U.S. hotel forecast, with RevPAR up 1.5 ppts, occupancy at 63.6%, citing record demand levels despite inflation headwinds.
-- **Score parts:** tier +20, category +5, lead +3.6, relevance +28, freshness +10.3, corroborated +10
-
-### 🟡 [75.7] Qatar Airways Boosts Malta Travel With Direct Doha Flights Returning in March 2027
-- **Verdict:** CONSIDER
-- **Source:** Travel And Tour World · tier 3 · GLOBAL · trade
-- **First seen:** 2026-11-24T05:21+03:00 EAT · **Source date:** 2026-11-24
-- **URL:** https://www.travelandtourworld.com/news/article/qatar-airways-malta-flights-march-2027
-- **Extract:** Image Credit - Qatar Airways Qatar Airways Malta flights will resume on 22 March 2027, restoring direct air connectivity between Hamad International Airport in Doha and Malta International Airport. According to the airline's announcement on 23 November 2026, t
-- **Score parts:** tier +5, category +5, lead +2.4, relevance +36, freshness +17.3, corroborated +10
-
-### 🟡 [75.7] CoStar, Tourism Economics raise U.S. hotel growth forecast
-- **Verdict:** CONSIDER
-- **Source:** Hospitality Net: Africa openings · tier 2 · AFRICA · trade
-- **First seen:** 2026-11-23T22:59+03:00 EAT · **Source date:** 2026-11-23
-- **URL:** https://www.hospitalitynet.org/news/4135638/costar-tourism-economics-raise-us-hotel-growth-forecast
-- **Extract:** CoStar and Tourism Economics upgraded their 2026 U.S. hotel forecast, with RevPAR up 1.5 ppts, occupancy at 63.6%, citing record demand levels despite inflation headwinds.
-- **Score parts:** tier +20, category +5, lead +2.4, relevance +28, freshness +10.3, corroborated +10
-
-### 🟡 [74.7] Beijing Capital Adds Kunming – Bangalore Cargo Service in NW26
-- **Verdict:** CONSIDER
-- **Source:** AeroRoutes schedule filings · tier 2 · GLOBAL · aviation-tracker
-- **First seen:** 2026-11-23T22:59+03:00 EAT · **Source date:** 2026-11-23
-- **URL:** https://www.aeroroutes.com/eng/261123-jdnw26blr
-- **Extract:** Published at 1200PCT / 1900GMT 23NOV26 Beijing Capital Airlines earlier this month launched cargo service on Kunming – Bangalore route, on board Airbus A330 aircraft. This service is scheduled once a week since 02NOV26. JD623 KMG0410 – 0700BLR 330 2 JD624 BLR2
-- **Score parts:** tier +20, category +14, lead +8.4, relevance +12, freshness +10.3, corroborated +10
-
-### 🟡 [74.6] Electronic music festival Tomorrowland Debut in Thailand Spurs 24% Rise in International Arrivals
-- **Verdict:** CONSIDER
-- **Source:** HVS — market reports and event-impact studies (via Hotel News Resource) · tier 2 · GLOBAL · trade
-- **First seen:** 2026-11-24T05:21+03:00 EAT · **Source date:** 2026-11-23
-- **URL:** https://www.hotelnewsresource.com/article143850.html
-- **Extract:** Tomorrowland’s first full-scale festival in Thailand is projected to bring 150,000 attendees, driving a 24% year-on-year increase in international arrivals and significant growth in hotel occupancy and rates in Pattaya and Bangkok during the event week.
-- **Score parts:** tier +20, category +5, lead +2.4, relevance +20, freshness +17.2, corroborated +10
-
-### 🟡 [73.7] Turkish Cargo Adds London – Copenhagen Sector in NW26
-- **Verdict:** CONSIDER
-- **Source:** AeroRoutes schedule filings · tier 2 · GLOBAL · aviation-tracker
-- **First seen:** 2026-11-24T05:21+03:00 EAT · **Source date:** 2026-11-24
-- **URL:** https://www.aeroroutes.com/eng/261123-tkcnw26lhrcph
-- **Extract:** Published at 1400PCT / 2100GMT 23NOV26 Turkish Cargo since last week added new intra-European sector, which saw the airline operates Istanbul – London Heathrow – Copenhagen – Istanbul routing, on board Airbus A330 Freighter. From 17NOV26, this routing is sched
-- **Score parts:** tier +20, category +14, lead +8.4, relevance +4, freshness +17.3, corroborated +10
-
-### 🟡 [73.3] 48th Ordinary Meeting of the EAC Council of Ministers Currently Underway in Kampala, Uganda
-- **Verdict:** CONSIDER
-- **Source:** East African Community — Secretariat news · tier 1 · Regional · body
-- **First seen:** 2026-11-23T22:59+03:00 EAT · **Source date:** 2026-11-23
-- **URL:** https://www.eac.int/press-releases/3626-48th-ordinary-meeting-of-the-eac-council-of-ministers-currently-underway-in-kampala,-uganda
-- **Extract:** East African Community Headquarters, Arusha, Tanzania, 23rd November, 2026: The 48th Ordinary Meeting of the East African Community Council of Ministers has commenced in Kampala, Republic of Uganda, with Partner States expected to provide policy direction on m
-- **Score parts:** tier +40, category +7, lead +6, relevance +0, freshness +10.3, corroborated +10
-
-### 🟡 [71.9] [page changed] Federal Register — public inspection (HHS/CDC), pre-publication
-- **Verdict:** CHECK — source date older than the window
-- **Source:** Federal Register — public inspection (HHS/CDC), pre-publication · tier 1 · REG · advisory
-- **First seen:** 2026-11-23T22:59+03:00 EAT · **Source date:** 2026-11-20
-- **URL:** https://www.federalregister.gov/api/v1/public-inspection-documents/current.json
-- **Extract:** {"count":123,"results":[{"agencies":[{"raw_name":"SECURITIES AND EXCHANGE COMMISSION","name":"Securities and Exchange Commission","id":466,"url":"https://www.federalregister.gov/agencies/securities-and-exchange-commission","json_url":"https://www.federalregist
-- **Score parts:** tier +40, category +32, lead +3.6, relevance +0, freshness +10.3, stale_trap -10, page_change -4
-
-### 🟡 [71.3] NPP replaces suspended Secretary General Nambale, unveils new national executive
-- **Verdict:** CONSIDER
-- **Source:** Daily Monitor (Uganda) · tier 2 · UG · press
-- **First seen:** 2026-11-24T05:21+03:00 EAT · **Source date:** 2026-11-23
-- **URL:** https://www.monitor.co.ug/uganda/news/national/npp-replaces-suspended-secretary-general-nambale-unveils-new-national-executive-5670092
-- **Extract:** The shake-up follows the party’s suspension of Mr Nambale to pave the way for internal...
-- **Score parts:** tier +20, category +4, lead +0, relevance +20, freshness +17.3, corroborated +10
-
-### 🟡 [70.7] Air France Cargo Adds Bangalore in NW26
-- **Verdict:** CONSIDER
-- **Source:** AeroRoutes schedule filings · tier 2 · GLOBAL · aviation-tracker
-- **First seen:** 2026-11-23T22:59+03:00 EAT · **Source date:** 2026-11-23
-- **URL:** https://www.aeroroutes.com/eng/261123-afcnw26blr
-- **Extract:** Published at 1100PCT / 1800GMT 23NOV26 Air France Cargo at the launch of Northern winter 2026/27 season added nonstop Paris Charles de Gaulle – Bangalore flight, on board Boeing 777 Freighter. Initially this flight was offered once a week from 30OCT26, however
-- **Score parts:** tier +20, category +14, lead +8.4, relevance +8, freshness +10.3, corroborated +10
-
-### 🟡 [70.7] Air Canada Cargo Adds Amsterdam Service in NW26
-- **Verdict:** CONSIDER
-- **Source:** AeroRoutes schedule filings · tier 2 · GLOBAL · aviation-tracker
-- **First seen:** 2026-11-23T22:59+03:00 EAT · **Source date:** 2026-11-23
-- **URL:** https://www.aeroroutes.com/eng/261123-accnw26ams
-- **Extract:** Published at 1000PCT / 1700GMT 23NOV26 Air Canada Cargo at the launch of Northern winter 2026/27 season launched scheduled European freighter service, with the first Toronto Pearson – Amsterdam flight operated on 29OCT26. The carrier originally planned to oper
-- **Score parts:** tier +20, category +14, lead +8.4, relevance +8, freshness +10.3, corroborated +10
-
-### 🟡 [70.7] Link Airways Dec 2026 Sydney Network Additions
-- **Verdict:** CONSIDER
-- **Source:** AeroRoutes schedule filings · tier 2 · GLOBAL · aviation-tracker
-- **First seen:** 2026-11-23T22:59+03:00 EAT · **Source date:** 2026-11-23
-- **URL:** https://www.aeroroutes.com/eng/261123-fcdec26syd
-- **Extract:** Published at 0700PCT / 1400GMT 23NOV26 Link Airways from December 2026 is adding 2 routes at Sydney , on board Saab 340 aircraft. Sydney – Canberra eff 07DEC26 2 weekly Saab 340 FC9654 SYD0950 – 1050CBR SF3 2 FC9656 SYD1735 – 1835CBR SF3 3 FC9655 CBR0630 – 073
-- **Score parts:** tier +20, category +14, lead +8.4, relevance +8, freshness +10.3, corroborated +10
-
-### 🟡 [70.7] WestJet Expands Korean Air Codeshare From Nov 2026
-- **Verdict:** CONSIDER
-- **Source:** AeroRoutes schedule filings · tier 2 · GLOBAL · aviation-tracker
-- **First seen:** 2026-11-23T22:59+03:00 EAT · **Source date:** 2026-11-23
-- **URL:** https://www.aeroroutes.com/eng/261123-wskecodeshare
-- **Extract:** Published at 0600PCT / 1300GMT 23NOV26 WestJet earlier this month expanded codeshare partnership with Korean Air, covering additional routes to Japan. Following codeshare routes went into effect since early-November 2026. WestJet operated by Korean Air Seoul I
-- **Score parts:** tier +20, category +14, lead +8.4, relevance +8, freshness +10.3, corroborated +10
-
-### 🟡 [70.6] Overseas Visits to U.S. Fall 7.2% in October As International Air Traffic Holds Steady
-- **Verdict:** CONSIDER
-- **Source:** HVS — market reports and event-impact studies (via Hotel News Resource) · tier 2 · GLOBAL · trade
-- **First seen:** 2026-11-24T05:21+03:00 EAT · **Source date:** 2026-11-23
-- **URL:** https://www.hotelnewsresource.com/article143866.html
-- **Extract:** Overseas visitor arrivals to the United States fell 7.2% year over year to 2.8 million in October 2026, bringing the year-to-date decline to 5.8%. Total international air passenger traffic to and from the country edged down 0.3% to 21.3 million.
-- **Score parts:** tier +20, category +5, lead +2.4, relevance +16, freshness +17.2, corroborated +10
-
-### 🟡 [70.6] Creating the Next Chapter: Caribbean Hospitality Looks Beyond the Build at CHICOS 2026
-- **Verdict:** CONSIDER
-- **Source:** HVS — market reports and event-impact studies (via Hotel News Resource) · tier 2 · GLOBAL · trade
-- **First seen:** 2026-11-24T05:21+03:00 EAT · **Source date:** 2026-11-23
-- **URL:** https://www.hotelnewsresource.com/article143856.html
-- **Extract:** The 2026 edition of the Caribbean Hotel Investment Conference & Operations Summit (CHICOS) brought nearly 300 attendees to the Atlantis Paradise Island in the Bahamas for several days of networking and industry insights from key stakeholders in the region. Thi
-- **Score parts:** tier +20, category +5, lead +2.4, relevance +16, freshness +17.2, corroborated +10
+- **Source:** Uganda EGP portal · tier 1 · UG · tender
+- **First seen:** 2026-11-24T16:50+03:00 EAT · **Source date:** — none stated
+- **URL:** https://egpuganda.go.ug/index/428342998_egp
+- **Score parts:** tier +40, category +7, lead +16.8, relevance +0, freshness +19.7, undated -6
