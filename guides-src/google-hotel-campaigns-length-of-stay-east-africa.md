@@ -4,6 +4,8 @@ slug: google-hotel-campaigns-length-of-stay-east-africa
 description: A grey box at the top of Google's documentation says hotel campaigns migrate to Search campaigns for Travel from the fourth quarter of 2026. Three bid types do not come with them, including the one that set a bid as a percentage of the room price and multiplied it by the length of stay. East Africa sells the high-rate, long-duration stay that bid was built to price, and almost nobody at the lodges holds the account where the change lands.
 category: Big Read
 updated: 2026-11-24
+image: "img/editions/google-hotel-campaigns-length-of-stay-east-africa.jpg"
+image_credit: "Photograph: Onyango George / EA Hospitality Pulse"
 ---
 A hotel advertiser who opened Google's own documentation on hotel campaigns this month found a grey box sitting above the heading, in the style Google reserves for things it would rather you read. "Important: Starting Q4 2026, Hotel campaigns will migrate to new Search campaigns for Travel," it says. Then, without elaboration: "Check your account notifications and email for precise dates." There is no press release attached, no date more precise than a quarter, and no explanation of what the word migrate is carrying. For a camp in the Mara or a beach hotel on Zanzibar's north coast, what it is carrying is the removal of the one bidding mechanism in paid search that understood what East African inventory is actually worth.
 
