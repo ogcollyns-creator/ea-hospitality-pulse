@@ -1,5 +1,14 @@
 window.GUIDES = [
  {
+  "slug": "google-hotel-campaigns-length-of-stay-east-africa",
+  "title": "Kenya is targeting a fourteen-night stay. Google's new hotel bid cannot tell one night from fourteen.",
+  "description": "A grey box at the top of Google's documentation says hotel campaigns migrate to Search campaigns for Travel from the fourth quarter of 2026. Three bid types do not come with them, including the one that set a bid as a percentage of the room price and multiplied it by the length of stay. East Africa sells the high-rate, long-duration stay that bid was built to price, and almost nobody at the lodges holds the account where the change lands.",
+  "category": "Big Read",
+  "updated": "2026-11-24",
+  "readMins": 8,
+  "image": "img/editions/google-hotel-campaigns-length-of-stay-east-africa.jpg"
+ },
+ {
   "slug": "nungwi-fire-one-building-at-a-time",
   "title": "One oven at Nungwi burned six hotels. Zanzibar inspects one building at a time.",
   "description": "A bread oven at the Makofi hotel caught at about 2.20pm on Saturday. Three hours later six hotels, four restaurants and some forty shops on Zanzibar's busiest beach had stopped being businesses. This is the fourth multiple-property fire on an East African thatched strip since 2017, and it is not a building failure. It is a failure to regulate the space between buildings, inside an insurance market that collects two thirds of its money from the visitor rather than from the host.",

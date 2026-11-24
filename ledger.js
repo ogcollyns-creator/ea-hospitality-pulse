@@ -1,8 +1,8 @@
 window.LEDGER = {
- "updated": "2026-11-23 06:48",
+ "updated": "2026-11-24 13:40",
  "stats": {
-  "total": 274,
-  "open": 143,
+  "total": 276,
+  "open": 145,
   "resolved": 128,
   "correct": 92,
   "partial": 1,
@@ -1260,6 +1260,22 @@ window.LEDGER = {
    "overdue": false
   },
   {
+   "id": "P281",
+   "made_date": "2026-11-24",
+   "edition": "pulse-2026-11-24-evening",
+   "claim": "TIRA will not publish an aggregate insured-loss or claims-paid figure for the 21 Nov Nungwi fire by 31 Jan 2027",
+   "resolution_criteria": "CORRECT if no TIRA notice, statement or report on tira.go.tz (and no named TIRA official quoted in Daily News, The Citizen or Mwananchi) gives a total insured loss or claims-paid figure for the Nungwi fire by 31 Jan 2027. INCORRECT if any such figure is published by then",
+   "resolve_by": "2027-01-31",
+   "market": "Zanzibar",
+   "segment": "Beach",
+   "confidence": "medium",
+   "status": "open",
+   "resolved_date": "",
+   "evidence": "",
+   "source_url": "https://www.tira.go.tz/news/taarifa-kwa-umma-4",
+   "overdue": false
+  },
+  {
    "id": "P010",
    "made_date": "2026-07-25",
    "edition": "Evening Wrap",
@@ -1657,6 +1673,22 @@ window.LEDGER = {
    "resolved_date": "",
    "evidence": "",
    "source_url": "https://www.kenyans.co.ke/news/129411-ruto-announces-plan-display-original-turkana-boy-remains-nairobi-park",
+   "overdue": false
+  },
+  {
+   "id": "P280",
+   "made_date": "2026-11-24",
+   "edition": "pulse-2026-11-24-evening",
+   "claim": "CAF's AFCON 2027 match schedule will give Kenya's Nairobi venues fewer matches than Tanzania's three host cities combined",
+   "resolution_criteria": "CORRECT if the first CAF-published AFCON 2027 match schedule allocates fewer matches to Talanta and Kasarani combined than to the Dar es Salaam, Arusha and Zanzibar venues combined. INCORRECT if equal or more. VOID if CAF publishes no venue allocation by 31 Mar 2027. Source: cafonline.com fixtures/schedule release",
+   "resolve_by": "2027-03-31",
+   "market": "Kenya|Tanzania",
+   "segment": "City|Beach",
+   "confidence": "medium",
+   "status": "open",
+   "resolved_date": "",
+   "evidence": "",
+   "source_url": "https://www.standardmedia.co.ke/sports/article/2001562820/talanta-kasarani-stadia-to-host-afcon-2027-matches",
    "overdue": false
   },
   {

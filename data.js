@@ -1,5 +1,14 @@
 window.EDITIONS = [
  {
+  "id": "pulse-2026-11-24-evening",
+  "date": "2026-11-24",
+  "dateDisplay": "Tuesday, 24 November 2026",
+  "edition": "Evening Wrap",
+  "editionKey": "evening",
+  "summary": "CAF names six AFCON 2027 host cities; Arusha and Zanzibar are in, Kenya's coast and Eldoret are out",
+  "bodyHtml": "<p><strong>Nairobi is Kenya&#x27;s only AFCON 2027 host city, while Tanzania gets three and Uganda two, CAF confirmed on 21 November</strong><br><em>🌆 Evening Wrap · Tue 24 Nov 2026</em></p>\n<p>━━━━━━━━━<br><span class=\"item-head\">1️⃣ CAF names six AFCON 2027 host cities; Arusha and Zanzibar are in, Kenya&#x27;s coast and Eldoret are out</span></p>\n<p><strong>What happened.</strong> CAF confirmed the cities on Saturday: Nairobi (Talanta, 60,000; Kasarani, 48,000); Dar es Salaam, Arusha and Zanzibar; Kampala and Hoima. Matches are not yet allocated to stadiums <strong>(The Standard, 22 Nov; HapaKenya, 23 Nov)</strong>. Tanzania&#x27;s LOC secretary-general Neema Msitha says CAF&#x27;s coordination office moves from Nairobi to Dar es Salaam and opens on 25 Nov, which she says &quot;does not guarantee&quot; Tanzania the opener or final <strong>(Pulse Kenya, 23 Nov)</strong>. It runs 19 Jun–17 Jul 2027.</p>\n<p><strong>Read.</strong> Inference: Kenya&#x27;s room-night share now rests on one city; Zanzibar and Arusha get team and fan demand on the edge of their peak.<br><span class=\"sowhat\">🎯 So what: Arusha and Zanzibar hotels, ask your LOC for the hotel brief this week; Nairobi, price any CAF block against July safari transit nights.</span><br><span class=\"tagline\">🏷 City, Beach | Kenya, Tanzania, Zanzibar, Uganda | Confirmed (cities, two outlets) / Reported (office move) | impact:demand</span></p>\n<p><span class=\"item-head\">2️⃣ Tanzania&#x27;s insurance regulator tells insurers to pay Nungwi fire claims fairly and on time</span></p>\n<p>TIRA&#x27;s public notice of 22 Nov, citing Zanzibar&#x27;s tourism ministry, puts the 21 Nov fire at six hotels, four restaurants and about 40 shops, with 183 guests moved and no casualties. It asks policyholders to notify insurers early and file documents; insurers must guide claimants and settle &quot;fairly and on time&quot; <strong>(TIRA, 23 Nov)</strong>.</p>\n<p><strong>Read.</strong> Inference: claim speed now decides whether damaged hotels reopen for Christmas.<br><span class=\"sowhat\">🎯 So what: coast owners, check cover for fire, business interruption and guest relocation, and keep invoices for moved guests.</span><br><span class=\"tagline\">🏷 Beach | Zanzibar, Tanzania | Confirmed (TIRA notice) / Inference | impact:risk</span></p>\n<p><span class=\"item-head\">3️⃣ Kampala hosts EAC ministers and a UK trade mission this week</span></p>\n<p>The EAC Council of Ministers meets in Kampala: senior officials 23–26 Nov, then ministers on 1 Dec <strong>(EAC Secretariat, 23 Nov)</strong>. PM Robinah Nabbanja opened the second Westminster Africa Business Association mission on 24 Nov; it runs to 28 Nov <strong>(Nile Post, 24 Nov)</strong>.</p>\n<p><strong>Read.</strong> Inference: two delegations overlap in one week of midweek corporate demand.<br><span class=\"sowhat\">🎯 So what: Kampala hotels, hold rate to 1 Dec and offer delegates a weekend Jinja or Lake Mburo add-on.</span><br><span class=\"tagline\">🏷 City | Uganda | Confirmed (EAC) / Reported | impact:demand</span></p>\n<p><strong>🏗 DEAL FLOW</strong><br>🇹🇿 Uganda&#x27;s Great Lakes Safaris (founder Amos Wekesa) has opened an Arusha DMC, Great Lakes Adventure, and plans two Serengeti camps for 2027 <strong>(ATTA, 18 Nov; Tourism Update, 23 Nov)</strong>. Catching up.</p>\n<p><strong>📻 ALSO TONIGHT</strong><br>🇺🇬 UTB pitched Munyonyo and Kampala Serena at IBTM World, with no booking figures <strong>(Travel PR News, 23 Nov)</strong>.<br>🇰🇪 IndoNEX, an Indonesian trade expo, runs 26–27 Nov at the Trademark Hotel and Village Market <strong>(Capital FM via allAfrica, 24 Nov)</strong>.<br>🇬🇧 UK advice on Kenya, Uganda, Tanzania and Rwanda is unchanged <strong>(gov.uk, read 24 Nov)</strong>.</p>\n<p><strong>📅 WEEK AHEAD</strong> 25 Nov: CAF office opens in Dar. 26–28 Nov: UK mission in Uganda. 30 Nov: Kenya, Uganda CPI (unconfirmed). 1 Dec: EAC ministers; KAA comments close. 10 Dec: US entry order expires.</p>\n<p><strong>🔍 BLIND SPOTS</strong> Kenya, Uganda, Tanzania and Rwanda gazettes; Germany&#x27;s Kenya page; State Dept Uganda page.</p>\n<p>🔗 This edition on the web: <a href=\"https://eahospitalitypulse.com/editions/pulse-2026-11-24-evening.html\" rel=\"noopener\">eahospitalitypulse.com/editions/pulse-2026-11-24-evenin…</a></p>"
+ },
+ {
   "id": "foresight-2026-11-22",
   "date": "2026-11-22",
   "dateDisplay": "Sunday, 22 November 2026",
@@ -1459,6 +1468,64 @@ window.EDITIONS = [
  }
 ];
 window.INSIGHTS = [
+ {
+  "headline": "CAF names six AFCON 2027 host cities; Arusha and Zanzibar are in, Kenya's coast and Eldoret are out",
+  "body": "**What happened.** CAF confirmed the cities on Saturday: Nairobi (Talanta, 60,000; Kasarani, 48,000); Dar es Salaam, Arusha and Zanzibar; Kampala and Hoima. Matches are not yet allocated to stadiums *(The Standard, 22 Nov; HapaKenya, 23 Nov)*. Tanzania's LOC secretary-general Neema Msitha says CAF's coordination office moves from Nairobi to Dar es Salaam and opens on 25 Nov, which she says \"does not guarantee\" Tanzania the opener or final *(Pulse Kenya, 23 Nov)*. It runs 19 Jun–17 Jul 2027. **Read.** Inference: Kenya's room-night share now rests on one city; Zanzibar and Arusha get team and fan demand on the edge of their peak.",
+  "sowhat": "🎯 So what: Arusha and Zanzibar hotels, ask your LOC for the hotel brief this week; Nairobi, price any CAF block against July safari transit nights.",
+  "segments": [
+   "city",
+   "beach"
+  ],
+  "countries": "Kenya, Tanzania, Zanzibar, Uganda",
+  "confidence": "Confirmed (cities, two outlets) / Reported (office move)",
+  "impact": "+demand",
+  "impactClass": "demand",
+  "intensity": 3,
+  "impactSet": "author",
+  "source": "pulse-2026-11-24-evening",
+  "date": "2026-11-24",
+  "dateDisplay": "Tuesday, 24 November 2026",
+  "edition": "Evening Wrap",
+  "editionKey": "evening"
+ },
+ {
+  "headline": "Tanzania's insurance regulator tells insurers to pay Nungwi fire claims fairly and on time",
+  "body": "TIRA's public notice of 22 Nov, citing Zanzibar's tourism ministry, puts the 21 Nov fire at six hotels, four restaurants and about 40 shops, with 183 guests moved and no casualties. It asks policyholders to notify insurers early and file documents; insurers must guide claimants and settle \"fairly and on time\" *(TIRA, 23 Nov)*. **Read.** Inference: claim speed now decides whether damaged hotels reopen for Christmas.",
+  "sowhat": "🎯 So what: coast owners, check cover for fire, business interruption and guest relocation, and keep invoices for moved guests.",
+  "segments": [
+   "beach"
+  ],
+  "countries": "Zanzibar, Tanzania",
+  "confidence": "Confirmed (TIRA notice) / Inference",
+  "impact": "risk",
+  "impactClass": "risk",
+  "intensity": 3,
+  "impactSet": "author",
+  "source": "pulse-2026-11-24-evening",
+  "date": "2026-11-24",
+  "dateDisplay": "Tuesday, 24 November 2026",
+  "edition": "Evening Wrap",
+  "editionKey": "evening"
+ },
+ {
+  "headline": "Kampala hosts EAC ministers and a UK trade mission this week",
+  "body": "The EAC Council of Ministers meets in Kampala: senior officials 23–26 Nov, then ministers on 1 Dec *(EAC Secretariat, 23 Nov)*. PM Robinah Nabbanja opened the second Westminster Africa Business Association mission on 24 Nov; it runs to 28 Nov *(Nile Post, 24 Nov)*. **Read.** Inference: two delegations overlap in one week of midweek corporate demand.",
+  "sowhat": "🎯 So what: Kampala hotels, hold rate to 1 Dec and offer delegates a weekend Jinja or Lake Mburo add-on.",
+  "segments": [
+   "city"
+  ],
+  "countries": "Uganda",
+  "confidence": "Confirmed (EAC) / Reported",
+  "impact": "+demand",
+  "impactClass": "demand",
+  "intensity": 3,
+  "impactSet": "author",
+  "source": "pulse-2026-11-24-evening",
+  "date": "2026-11-24",
+  "dateDisplay": "Tuesday, 24 November 2026",
+  "edition": "Evening Wrap",
+  "editionKey": "evening"
+ },
  {
   "headline": "JKIA ARRIVALS FELL TO 295,381 IN SEPTEMBER; EUROPE DROPPED 15.4%",
   "body": "From 338,157 in August. The Middle East fell 22% *(KNBS, via Kenyans.co.ke, 18 Nov)*.",
@@ -8904,4 +8971,4 @@ window.INSIGHTS = [
   "editionKey": "evening"
  }
 ];
-window.BUILT_AT = "2026-11-23 06:47";
+window.BUILT_AT = "2026-11-24 13:39";
