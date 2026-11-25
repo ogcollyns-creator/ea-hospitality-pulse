@@ -1,5 +1,14 @@
 window.GUIDES = [
  {
+  "slug": "ai-mode-merchant-of-record-licence-east-africa",
+  "title": "Google's AI Mode will now book the room. Nothing in it has a field for the licence Kenya requires.",
+  "description": "Fifty-two per cent of American travellers planned a trip with AI this year. About two per cent booked through one. Phocuswright's director of research called the gap \"the number to watch\", and three days of conference panels agreed on why it exists: nobody has settled who is accountable when an agentic booking goes wrong. The industry's three answers to that question are loyalty scale, merchant of record, and refusal. An East African lodge has access to none of them.",
+  "category": "Big Read",
+  "updated": "2026-11-25",
+  "readMins": 8,
+  "image": "img/editions/ai-mode-merchant-of-record-licence-east-africa.jpg"
+ },
+ {
   "slug": "google-hotel-campaigns-length-of-stay-east-africa",
   "title": "Kenya is targeting a fourteen-night stay. Google's new hotel bid cannot tell one night from fourteen.",
   "description": "A grey box at the top of Google's documentation says hotel campaigns migrate to Search campaigns for Travel from the fourth quarter of 2026. Three bid types do not come with them, including the one that set a bid as a percentage of the room price and multiplied it by the length of stay. East Africa sells the high-rate, long-duration stay that bid was built to price, and almost nobody at the lodges holds the account where the change lands.",

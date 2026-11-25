@@ -1,8 +1,8 @@
 window.LEDGER = {
- "updated": "2026-11-24 13:40",
+ "updated": "2026-11-25 05:46",
  "stats": {
-  "total": 276,
-  "open": 145,
+  "total": 274,
+  "open": 143,
   "resolved": 128,
   "correct": 92,
   "partial": 1,
@@ -23,7 +23,7 @@ window.LEDGER = {
    "confidence": "Confirmed",
    "status": "open",
    "resolved_date": "",
-   "evidence": "CHECKED 2026-11-10, STILL OPEN: no Tourism Research Institute or ministry August 2026 arrivals figure found (searched tri.go.ke, tourism.go.ke, Star, KBC, Khusoko). KNBS Leading Economic Indicators Aug 2026 PDF exists (published Oct 2026) but its server blocks retrieval and it counts JKIA/MIA arrivals only. Void eligible from 2026-11-15 if no TRI/ministry figure appears. RE-CHECKED 2026-11-17, STILL OPEN: still no TRI or ministry August 2026 monthly arrivals figure. tourism.go.ke Sub-Sector Report (Aug 2026) gives FY totals only (2.79m FY2025/26); Star 6 Oct 2026 gives cumulative-to-June only. Not voided: the August 2025 baseline came from an annual report published the following May, so an August 2026 figure is likely to exist in TRI's 2026 annual report. Void if none by 31 May 2027. RE-CHECKED 2026-11-18, STILL OPEN: still no TRI or ministry August 2026 monthly arrivals figure (search returns tourism.go.ke Aug sub-sector report with FY totals only). Data never published; left open rather than guessed. RE-CHECKED 2026-11-19, STILL OPEN: resolve_by passed but the named data still not found in tonight's sweep; left open rather than guessed.",
+   "evidence": "CHECKED 2026-11-10, STILL OPEN: no Tourism Research Institute or ministry August 2026 arrivals figure found (searched tri.go.ke, tourism.go.ke, Star, KBC, Khusoko). KNBS Leading Economic Indicators Aug 2026 PDF exists (published Oct 2026) but its server blocks retrieval and it counts JKIA/MIA arrivals only. Void eligible from 2026-11-15 if no TRI/ministry figure appears. RE-CHECKED 2026-11-17, STILL OPEN: still no TRI or ministry August 2026 monthly arrivals figure. tourism.go.ke Sub-Sector Report (Aug 2026) gives FY totals only (2.79m FY2025/26); Star 6 Oct 2026 gives cumulative-to-June only. Not voided: the August 2025 baseline came from an annual report published the following May, so an August 2026 figure is likely to exist in TRI's 2026 annual report. Void if none by 31 May 2027. RE-CHECKED 2026-11-18, STILL OPEN: still no TRI or ministry August 2026 monthly arrivals figure (search returns tourism.go.ke Aug sub-sector report with FY totals only). Data never published; left open rather than guessed. RE-CHECKED 2026-11-19, STILL OPEN: resolve_by passed but the named data still not found in tonight's sweep; left open rather than guessed. RE-CHECKED 2026-11-24, STILL OPEN: searched TRI/tourism.go.ke and Kenyan press for an August 2026 monthly arrivals figure; only FY2025/26 totals (2.79m) and the 2025 annual report (Star 4 May 2026) found. Void if none by 31 May 2027.",
    "source_url": "",
    "overdue": true
   },
@@ -39,7 +39,7 @@ window.LEDGER = {
    "confidence": "Reported",
    "status": "open",
    "resolved_date": "",
-   "evidence": "CHECKED 2026-11-10, STILL OPEN: no FCC Tanzania decision on A Squared / Nawiri found. FCC public-notices page returns no readable content; TanzaniaInvest 9 Jul 2026 reports only the start of FCC review and 14-day comment window. Kenya CAK approval does not meet the test. Void eligible from 2026-12-01 if no decision is published. RE-CHECKED 2026-11-17, STILL OPEN: no FCC decision on A Squared / Nawiri found (searched FCC, Daily News, TanzaniaInvest, Citizen). Daily News 6 Mar 2026 FCC approvals list covers Nawiri/Asilia Southern Tanzania - a different transaction. Void eligible from 2026-12-01. RE-CHECKED 2026-11-18, STILL OPEN: no new primary data found in tonight's sweep. Void eligible from 2026-12-01. RE-CHECKED 2026-11-19, STILL OPEN: resolve_by passed but the named data still not found in tonight's sweep; left open rather than guessed.",
+   "evidence": "CHECKED 2026-11-10, STILL OPEN: no FCC Tanzania decision on A Squared / Nawiri found. FCC public-notices page returns no readable content; TanzaniaInvest 9 Jul 2026 reports only the start of FCC review and 14-day comment window. Kenya CAK approval does not meet the test. Void eligible from 2026-12-01 if no decision is published. RE-CHECKED 2026-11-17, STILL OPEN: no FCC decision on A Squared / Nawiri found (searched FCC, Daily News, TanzaniaInvest, Citizen). Daily News 6 Mar 2026 FCC approvals list covers Nawiri/Asilia Southern Tanzania - a different transaction. Void eligible from 2026-12-01. RE-CHECKED 2026-11-18, STILL OPEN: no new primary data found in tonight's sweep. Void eligible from 2026-12-01. RE-CHECKED 2026-11-19, STILL OPEN: resolve_by passed but the named data still not found in tonight's sweep; left open rather than guessed. RE-CHECKED 2026-11-24, STILL OPEN: searched FCC public notices, TanzaniaInvest, Tanzanian press for an FCC decision on A Squared / Nawiri; latest is TanzaniaInvest 9 Jul 2026 (review opened). Void eligible from 2026-12-01.",
    "source_url": "",
    "overdue": true
   },
@@ -55,7 +55,7 @@ window.LEDGER = {
    "confidence": "Confirmed",
    "status": "open",
    "resolved_date": "",
-   "evidence": "CHECKED 2026-11-10, STILL OPEN: no Kenya MoH mpox statement or briefing found after the 6 Sep 2026 update (1,298 cases; Mombasa 452) via MoH X account, Kenyans.co.ke, KBC, Nation (blocked). If none was published by 31 Oct the test cannot be met; void eligible from 2026-12-01. RE-CHECKED 2026-11-17, STILL OPEN: still no Kenya MoH mpox update after the 6 Sep 2026 statement (1,298 cases, Mombasa 452); Standard editorial on government silence over mpox supports that none was issued. Void eligible from 2026-12-01. RE-CHECKED 2026-11-18, STILL OPEN: no new primary data found in tonight's sweep. Void eligible from 2026-12-01. RE-CHECKED 2026-11-19, STILL OPEN: resolve_by passed but the named data still not found in tonight's sweep; left open rather than guessed.",
+   "evidence": "CHECKED 2026-11-10, STILL OPEN: no Kenya MoH mpox statement or briefing found after the 6 Sep 2026 update (1,298 cases; Mombasa 452) via MoH X account, Kenyans.co.ke, KBC, Nation (blocked). If none was published by 31 Oct the test cannot be met; void eligible from 2026-12-01. RE-CHECKED 2026-11-17, STILL OPEN: still no Kenya MoH mpox update after the 6 Sep 2026 statement (1,298 cases, Mombasa 452); Standard editorial on government silence over mpox supports that none was issued. Void eligible from 2026-12-01. RE-CHECKED 2026-11-18, STILL OPEN: no new primary data found in tonight's sweep. Void eligible from 2026-12-01. RE-CHECKED 2026-11-19, STILL OPEN: resolve_by passed but the named data still not found in tonight's sweep; left open rather than guessed. RE-CHECKED 2026-11-24, STILL OPEN: no Kenya MoH mpox statement after 6 Sep 2026 found (MoH X, Kenyan press). WHO AFRO Kenya weekly sitreps (Wk39 21-27 Sep; Wk41 data to 16 Oct 2026: 1,339 cumulative) name Nairobi as 2026 hotspot (212/390 of 2026 cases) but give no cumulative county ranking and are WHO not MoH documents, so the test is not met either way. Void eligible from 2026-12-01.",
    "source_url": "https://www.kbc.co.ke/kenyans-urged-to-adhere-to-mpox-preventive-measures-as-1298-cases-recorded/",
    "overdue": true
   },
@@ -71,7 +71,7 @@ window.LEDGER = {
    "confidence": "Confirmed",
    "status": "open",
    "resolved_date": "",
-   "evidence": "CHECKED 2026-11-10, STILL OPEN: no OCGS September 2026 arrivals release or press report found (searched The Citizen, Daily News, TanzaniaInvest, zanzibarism.com, allAfrica). Latest published month is August (124,481; Jan-Aug 633,228). Test requires a release on or before 31 Oct; void eligible from 2026-12-01 if none existed by then. RE-CHECKED 2026-11-17, STILL OPEN: no OCGS September 2026 release or press report found (Citizen, Daily News, TanzaniaInvest, zanzibarism.com - latest 2026 month listed there is May; Sept results returned 2024/2025 stories only). Void eligible from 2026-12-01. RE-CHECKED 2026-11-18, STILL OPEN: no new primary data found in tonight's sweep. Void eligible from 2026-12-01. RE-CHECKED 2026-11-19, STILL OPEN: resolve_by passed but the named data still not found in tonight's sweep; left open rather than guessed.",
+   "evidence": "CHECKED 2026-11-10, STILL OPEN: no OCGS September 2026 arrivals release or press report found (searched The Citizen, Daily News, TanzaniaInvest, zanzibarism.com, allAfrica). Latest published month is August (124,481; Jan-Aug 633,228). Test requires a release on or before 31 Oct; void eligible from 2026-12-01 if none existed by then. RE-CHECKED 2026-11-17, STILL OPEN: no OCGS September 2026 release or press report found (Citizen, Daily News, TanzaniaInvest, zanzibarism.com - latest 2026 month listed there is May; Sept results returned 2024/2025 stories only). Void eligible from 2026-12-01. RE-CHECKED 2026-11-18, STILL OPEN: no new primary data found in tonight's sweep. Void eligible from 2026-12-01. RE-CHECKED 2026-11-19, STILL OPEN: resolve_by passed but the named data still not found in tonight's sweep; left open rather than guessed. RE-CHECKED 2026-11-24, STILL OPEN: searched Citizen, Daily News, TanzaniaInvest, allAfrica, zanzibarism.com for OCGS September 2026 arrivals; 'September' stories found (Citizen 9 Oct 2025, Daily News 10 Oct 2025: 84,154) cover September 2025 only. Latest 2026 month published is August (124,481). Void eligible from 2026-12-01.",
    "source_url": "https://www.thecitizen.co.tz/tanzania/zanzibar/zanzibar-tourism-arrivals-hit-record-124-481-in-august-5590494",
    "overdue": true
   },
@@ -1260,22 +1260,6 @@ window.LEDGER = {
    "overdue": false
   },
   {
-   "id": "P281",
-   "made_date": "2026-11-24",
-   "edition": "pulse-2026-11-24-evening",
-   "claim": "TIRA will not publish an aggregate insured-loss or claims-paid figure for the 21 Nov Nungwi fire by 31 Jan 2027",
-   "resolution_criteria": "CORRECT if no TIRA notice, statement or report on tira.go.tz (and no named TIRA official quoted in Daily News, The Citizen or Mwananchi) gives a total insured loss or claims-paid figure for the Nungwi fire by 31 Jan 2027. INCORRECT if any such figure is published by then",
-   "resolve_by": "2027-01-31",
-   "market": "Zanzibar",
-   "segment": "Beach",
-   "confidence": "medium",
-   "status": "open",
-   "resolved_date": "",
-   "evidence": "",
-   "source_url": "https://www.tira.go.tz/news/taarifa-kwa-umma-4",
-   "overdue": false
-  },
-  {
    "id": "P010",
    "made_date": "2026-07-25",
    "edition": "Evening Wrap",
@@ -1673,22 +1657,6 @@ window.LEDGER = {
    "resolved_date": "",
    "evidence": "",
    "source_url": "https://www.kenyans.co.ke/news/129411-ruto-announces-plan-display-original-turkana-boy-remains-nairobi-park",
-   "overdue": false
-  },
-  {
-   "id": "P280",
-   "made_date": "2026-11-24",
-   "edition": "pulse-2026-11-24-evening",
-   "claim": "CAF's AFCON 2027 match schedule will give Kenya's Nairobi venues fewer matches than Tanzania's three host cities combined",
-   "resolution_criteria": "CORRECT if the first CAF-published AFCON 2027 match schedule allocates fewer matches to Talanta and Kasarani combined than to the Dar es Salaam, Arusha and Zanzibar venues combined. INCORRECT if equal or more. VOID if CAF publishes no venue allocation by 31 Mar 2027. Source: cafonline.com fixtures/schedule release",
-   "resolve_by": "2027-03-31",
-   "market": "Kenya|Tanzania",
-   "segment": "City|Beach",
-   "confidence": "medium",
-   "status": "open",
-   "resolved_date": "",
-   "evidence": "",
-   "source_url": "https://www.standardmedia.co.ke/sports/article/2001562820/talanta-kasarani-stadia-to-host-afcon-2027-matches",
    "overdue": false
   },
   {
