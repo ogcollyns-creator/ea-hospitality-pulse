@@ -1,5 +1,14 @@
 window.EDITIONS = [
  {
+  "id": "pulse-2026-11-25-evening",
+  "date": "2026-11-25",
+  "dateDisplay": "Wednesday, 25 November 2026",
+  "edition": "Evening Wrap",
+  "editionKey": "evening",
+  "summary": "Africa CDC and WHO plan for Ebola to run through May 2027",
+  "bodyHtml": "<p><strong>Africa CDC and WHO have budgeted US$1.58bn to fight Ebola through May 2027, with Kenya still rated high risk</strong><br><em>🌆 Evening Wrap · Wed 25 Nov 2026</em></p>\n<p>━━━━━━━━━<br><span class=\"item-head\">1️⃣ Africa CDC and WHO plan for Ebola to run through May 2027</span></p>\n<p><strong>What happened.</strong> The joint Bundibugyo plan, posted today, runs November 2026 to May 2027 at US$1.576bn. It counts 11,613 cases and 5,678 deaths in Congo to 17 Nov, in eight provinces, and rates Kenya and Nigeria &quot;high&quot; risk <strong>(Africa CDC, 25 Nov)</strong>. Congo&#x27;s sitrep 190: 11,762 cases to 20 Nov <strong>(INSP, 21 Nov)</strong>.</p>\n<p><strong>Read.</strong> Inference: the agencies paying for the response expect it to cover January–March and Easter. The US entry order on Congo, Uganda and South Sudan expires 10 Dec; Kenya&#x27;s countdown ends 23 Dec.<br><span class=\"sowhat\">🎯 So what: Uganda and Kenya lodges, put an Ebola clause with a named trigger (a new confirmed case in your country) into every January–May 2027 contract this week.</span><br><span class=\"tagline\">🏷 Bush, City | Uganda, Kenya, Rwanda | Confirmed (plan) / Inference | impact:risk</span></p>\n<p><span class=\"item-head\">2️⃣ Kenya&#x27;s Treasury opens VAT, PAYE and fuel excise for review before the Finance Bill 2027</span></p>\n<p>CS John Mbadi told a Nairobi workshop on 24 Nov that PAYE, VAT, petroleum excise and corporate tax are under review; no rates yet <strong>(Kenyans.co.ke, 24 Nov)</strong>. Treasury also posted draft Export and Investment Promotion Levy Fund Regulations for comment <strong>(treasury.go.ke, seen 24 Nov; text unread)</strong>.</p>\n<p><strong>Read.</strong> Inference: changes land on 1 July 2027, mid-way through contracts signed now.<br><span class=\"sowhat\">🎯 So what: quote 2027/28 rates with VAT shown separately and a clause passing on any tax change.</span><br><span class=\"tagline\">🏷 City, Bush, Beach | Kenya | Confirmed (review ordered) / Inference | impact:margin</span></p>\n<p><span class=\"item-head\">3️⃣ Kenyan nurses give governors until about 1 Dec to sign their deal</span></p>\n<p>KNH staff walked out on 24 Nov over unremitted deductions; KNH promises a first payment on 27 Nov. The nurses&#x27; union KNUNM gave governors seven days to sign its CBA or face strikes <strong>(Kenyans.co.ke, 24–25 Nov)</strong>.</p>\n<p><strong>Read.</strong> Inference: county hospitals are where remote lodges send guests first.<br><span class=\"sowhat\">🎯 So what: Mara, Laikipia and coast lodges, confirm by 1 Dec that your evacuation cover flies guests to a named private hospital, and tell your guides which.</span><br><span class=\"tagline\">🏷 Bush, Beach | Kenya | Reported | impact:risk</span></p>\n<p><strong>🏗 DEAL FLOW</strong><br>No verified EA deal flow in the window.</p>\n<p><strong>📻 ALSO TONIGHT</strong><br>🇹🇿 World Aquaculture, Dar, 1–4 Dec: 1,000+ delegates expected <strong>(Daily News, 24 Nov)</strong>.<br>🇰🇪 Extra festive SGR trains to Mombasa 1 Dec–4 Jan; up to 30% cancellation penalty <strong>(Kenyans.co.ke, 24 Nov)</strong>.<br>🇰🇪 Gun crackdown ordered after at least nine deaths on the Isiolo–Garissa border <strong>(Kenyans.co.ke, 24 Nov)</strong>.<br>🇺🇬 UWA is drafting a single-use plastics ban for protected areas; no start date <strong>(UWA, 24 Nov)</strong>.<br>🇺🇬 Entebbe ran its first public-health emergency drill on 23 Nov <strong>(UCAA, 24 Nov)</strong>.<br>🌍 UK, Canadian and German advice on Kenya is unchanged <strong>(gov.uk, travel.gc.ca, auswaertiges-amt.de, read 25 Nov)</strong>.</p>\n<p><strong>⏳ CATCHING UP</strong><br>🇹🇿 World CEO Summit Africa, Dar, 26–27 Nov, about 1,000 delegates <strong>(Daily News, 23 Nov)</strong>.</p>\n<p><strong>📅 WEEK AHEAD</strong> 27 Nov: KNH pay. ~1 Dec: nurses&#x27; deadline; EAC ministers, Kampala. 1–4 Dec: World Aquaculture. 9 Dec: CBK MPC. 10 Dec: US entry order expires.</p>\n<p><strong>🔍 BLIND SPOTS</strong> KE, TZ, UG, RW gazettes (gazettes.africa closed); OCGS Zanzibar; KAA; TZ Immigration; French and Australian advice.</p>\n<p>🔗 This edition on the web: <a href=\"https://eahospitalitypulse.com/editions/pulse-2026-11-25-evening.html\" rel=\"noopener\">eahospitalitypulse.com/editions/pulse-2026-11-25-evenin…</a></p>"
+ },
+ {
   "id": "pulse-2026-11-24-evening",
   "date": "2026-11-24",
   "dateDisplay": "Tuesday, 24 November 2026",
@@ -1468,6 +1477,67 @@ window.EDITIONS = [
  }
 ];
 window.INSIGHTS = [
+ {
+  "headline": "Africa CDC and WHO plan for Ebola to run through May 2027",
+  "body": "**What happened.** The joint Bundibugyo plan, posted today, runs November 2026 to May 2027 at US$1.576bn. It counts 11,613 cases and 5,678 deaths in Congo to 17 Nov, in eight provinces, and rates Kenya and Nigeria \"high\" risk *(Africa CDC, 25 Nov)*. Congo's sitrep 190: 11,762 cases to 20 Nov *(INSP, 21 Nov)*. **Read.** Inference: the agencies paying for the response expect it to cover January–March and Easter. The US entry order on Congo, Uganda and South Sudan expires 10 Dec; Kenya's countdown ends 23 Dec.",
+  "sowhat": "🎯 So what: Uganda and Kenya lodges, put an Ebola clause with a named trigger (a new confirmed case in your country) into every January–May 2027 contract this week.",
+  "segments": [
+   "city",
+   "bush"
+  ],
+  "countries": "Uganda, Kenya, Rwanda",
+  "confidence": "Confirmed (plan) / Inference",
+  "impact": "risk",
+  "impactClass": "risk",
+  "intensity": 3,
+  "impactSet": "author",
+  "source": "pulse-2026-11-25-evening",
+  "date": "2026-11-25",
+  "dateDisplay": "Wednesday, 25 November 2026",
+  "edition": "Evening Wrap",
+  "editionKey": "evening"
+ },
+ {
+  "headline": "Kenya's Treasury opens VAT, PAYE and fuel excise for review before the Finance Bill 2027",
+  "body": "CS John Mbadi told a Nairobi workshop on 24 Nov that PAYE, VAT, petroleum excise and corporate tax are under review; no rates yet *(Kenyans.co.ke, 24 Nov)*. Treasury also posted draft Export and Investment Promotion Levy Fund Regulations for comment *(treasury.go.ke, seen 24 Nov; text unread)*. **Read.** Inference: changes land on 1 July 2027, mid-way through contracts signed now.",
+  "sowhat": "🎯 So what: quote 2027/28 rates with VAT shown separately and a clause passing on any tax change.",
+  "segments": [
+   "city",
+   "bush",
+   "beach"
+  ],
+  "countries": "Kenya",
+  "confidence": "Confirmed (review ordered) / Inference",
+  "impact": "-margin",
+  "impactClass": "margin",
+  "intensity": 3,
+  "impactSet": "author",
+  "source": "pulse-2026-11-25-evening",
+  "date": "2026-11-25",
+  "dateDisplay": "Wednesday, 25 November 2026",
+  "edition": "Evening Wrap",
+  "editionKey": "evening"
+ },
+ {
+  "headline": "Kenyan nurses give governors until about 1 Dec to sign their deal",
+  "body": "KNH staff walked out on 24 Nov over unremitted deductions; KNH promises a first payment on 27 Nov. The nurses' union KNUNM gave governors seven days to sign its CBA or face strikes *(Kenyans.co.ke, 24–25 Nov)*. **Read.** Inference: county hospitals are where remote lodges send guests first.",
+  "sowhat": "🎯 So what: Mara, Laikipia and coast lodges, confirm by 1 Dec that your evacuation cover flies guests to a named private hospital, and tell your guides which.",
+  "segments": [
+   "bush",
+   "beach"
+  ],
+  "countries": "Kenya",
+  "confidence": "Reported",
+  "impact": "risk",
+  "impactClass": "risk",
+  "intensity": 2,
+  "impactSet": "author",
+  "source": "pulse-2026-11-25-evening",
+  "date": "2026-11-25",
+  "dateDisplay": "Wednesday, 25 November 2026",
+  "edition": "Evening Wrap",
+  "editionKey": "evening"
+ },
  {
   "headline": "CAF names six AFCON 2027 host cities; Arusha and Zanzibar are in, Kenya's coast and Eldoret are out",
   "body": "**What happened.** CAF confirmed the cities on Saturday: Nairobi (Talanta, 60,000; Kasarani, 48,000); Dar es Salaam, Arusha and Zanzibar; Kampala and Hoima. Matches are not yet allocated to stadiums *(The Standard, 22 Nov; HapaKenya, 23 Nov)*. Tanzania's LOC secretary-general Neema Msitha says CAF's coordination office moves from Nairobi to Dar es Salaam and opens on 25 Nov, which she says \"does not guarantee\" Tanzania the opener or final *(Pulse Kenya, 23 Nov)*. It runs 19 Jun–17 Jul 2027. **Read.** Inference: Kenya's room-night share now rests on one city; Zanzibar and Arusha get team and fan demand on the edge of their peak.",
@@ -8971,4 +9041,4 @@ window.INSIGHTS = [
   "editionKey": "evening"
  }
 ];
-window.BUILT_AT = "2026-11-25 05:44";
+window.BUILT_AT = "2026-11-25 13:46";
